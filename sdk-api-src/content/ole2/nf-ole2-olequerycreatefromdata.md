@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleQueryCreateFromData
 title: OleQueryCreateFromData function (ole2.h)
-
 description: Checks whether a data object has one of the formats that would allow it to become an embedded object through a call to either the OleCreateFromData or OleCreateStaticFromData function.
 old-location: com\olequerycreatefromdata.htm
 tech.root: com
 ms.assetid: 58fffb8c-9726-4801-84ce-6fb670b865c8
-
 ms.date: 12/05/2018
 ms.keywords: OleQueryCreateFromData, OleQueryCreateFromData function [COM], _ole_OleQueryCreateFromData, com.olequerycreatefromdata, ole2/OleQueryCreateFromData
 ms.topic: function
-f1_keywords: 
- - "ole2/OleQueryCreateFromData"
+f1_keywords:
+- ole2/OleQueryCreateFromData
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-Com-OLE32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-Com-OLE32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleQueryCreateFromData
+- OleQueryCreateFromData
 targetos: Windows
 req.typenames: 
 req.redist: 

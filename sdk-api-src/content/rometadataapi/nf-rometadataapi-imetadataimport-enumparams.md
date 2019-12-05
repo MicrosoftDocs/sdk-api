@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumParams
 title: IMetaDataImport::EnumParams (rometadataapi.h)
-
 description: Enumerates ParamDef tokens representing the parameters of the method referenced by the specified MethodDef token.
 old-location: winrt\imetadataimport_enumparams.htm
 tech.root: WinRT
 ms.assetid: 0d3cc66e-575d-4451-bab7-e3dd24fd5060
-
 ms.date: 12/05/2018
 ms.keywords: EnumParams, EnumParams method [Windows Runtime], EnumParams method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumParams method, IMetaDataImport.EnumParams, IMetaDataImport::EnumParams, rometadataapi/IMetaDataImport::EnumParams, winrt.imetadataimport_enumparams
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumParams"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumParams
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumParams
+- IMetaDataImport.EnumParams
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetDurationFormatEx
 title: GetDurationFormatEx function (winnls.h)
-
 description: Formats a duration of time as a time string for a locale specified by name.
 old-location: intl\getdurationformatex.htm
 tech.root: Intl
 ms.assetid: 82027deb-ffaa-43ec-981e-ffbedb204bcb
-
 ms.date: 12/05/2018
 ms.keywords: GetDurationFormatEx, GetDurationFormatEx function [Internationalization for Windows Applications], _win32_GetDurationFormatEx, d, f, h or H, hh or HH, intl.getdurationformatex, m, mm, s, ss, winnls/GetDurationFormatEx
 ms.topic: function
-f1_keywords: 
- - "winnls/GetDurationFormatEx"
+f1_keywords:
+- winnls/GetDurationFormatEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-DateTime-L1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-DateTime-L1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetDurationFormatEx
+- GetDurationFormatEx
 targetos: Windows
 req.typenames: 
 req.redist: 

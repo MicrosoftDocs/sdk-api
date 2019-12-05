@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.SORTIDFROMLCID
 title: SORTIDFROMLCID macro (winnt.h)
-
 description: Retrieves a sort order identifier from a locale identifier.
 old-location: intl\sortidfromlcid.htm
 tech.root: Intl
 ms.assetid: 78da443e-ad92-4e2f-aebe-c0aed880b8b6
-
 ms.date: 12/05/2018
 ms.keywords: SORTIDFROMLCID, SORTIDFROMLCID macro [Internationalization for Windows Applications], _win32_SORTIDFROMLCID, intl.sortidfromlcid, winnt/SORTIDFROMLCID
 ms.topic: macro
-f1_keywords: 
- - "winnt/SORTIDFROMLCID"
+f1_keywords:
+- winnt/SORTIDFROMLCID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SORTIDFROMLCID
+- SORTIDFROMLCID
 targetos: Windows
 req.typenames: 
 req.redist: 

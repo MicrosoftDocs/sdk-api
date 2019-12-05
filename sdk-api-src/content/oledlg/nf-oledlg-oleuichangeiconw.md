@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIChangeIconW
 title: OleUIChangeIconW function (oledlg.h)
-
 description: Invokes the standard Change Icon dialog box, which allows the user to select an icon from an icon file, executable, or DLL.
 old-location: com\oleuichangeicon.htm
 tech.root: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
-
 ms.date: 12/05/2018
 ms.keywords: OleUIChangeIcon, OleUIChangeIcon function [COM], OleUIChangeIconA, OleUIChangeIconW, _ole_OleUIChangeIcon, com.oleuichangeicon, oledlg/OleUIChangeIcon, oledlg/OleUIChangeIconA, oledlg/OleUIChangeIconW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIChangeIcon"
+f1_keywords:
+- oledlg/OleUIChangeIcon
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIChangeIcon
- - OleUIChangeIconA
- - OleUIChangeIconW
+- OleUIChangeIcon
+- OleUIChangeIconA
+- OleUIChangeIconW
 targetos: Windows
 req.typenames: 
 req.redist: 

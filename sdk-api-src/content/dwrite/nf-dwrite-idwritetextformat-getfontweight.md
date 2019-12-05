@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontWeight
 title: IDWriteTextFormat::GetFontWeight (dwrite.h)
-
 description: Gets the font weight of the text.
 old-location: directwrite\IDWriteTextFormat_GetFontWeight.htm
 tech.root: DirectWrite
 ms.assetid: 4e8a504e-3afa-4b12-92f8-e2fd7d535bb5
-
 ms.date: 12/05/2018
 ms.keywords: GetFontWeight, GetFontWeight method [Direct Write], GetFontWeight method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetFontWeight method, IDWriteTextFormat.GetFontWeight, IDWriteTextFormat::GetFontWeight, directwrite.IDWriteTextFormat_GetFontWeight, dwrite/IDWriteTextFormat::GetFontWeight
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetFontWeight"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetFontWeight
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetFontWeight
+- IDWriteTextFormat.GetFontWeight
 targetos: Windows
 req.typenames: 
 req.redist: 

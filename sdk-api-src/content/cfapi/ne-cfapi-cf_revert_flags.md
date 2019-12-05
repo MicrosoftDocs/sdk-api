@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_REVERT_FLAGS
 title: CF_REVERT_FLAGS (cfapi.h)
-
 description: Flags for reverting a placeholder file to a regular file.
 old-location: cloudapi\cf_revert_flags.htm
 tech.root: cfApi
 ms.assetid: 71FDE7FA-99FC-4773-A857-8E1BF89ED7E4
-
 ms.date: 12/05/2018
 ms.keywords: CF_REVERT_FLAGS, CF_REVERT_FLAGS enumeration, CF_REVERT_FLAG_NONE, cfapi/CF_REVERT_FLAGS, cfapi/CF_REVERT_FLAG_NONE, cloudApi.cf_revert_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_REVERT_FLAGS"
+f1_keywords:
+- cfapi/CF_REVERT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_REVERT_FLAGS
+- CF_REVERT_FLAGS
 targetos: Windows
 req.typenames: CF_REVERT_FLAGS
 req.redist: 

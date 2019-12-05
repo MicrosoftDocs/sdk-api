@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeLineBreakpoints
 title: IDWriteTextAnalyzer::AnalyzeLineBreakpoints (dwrite.h)
-
 description: Analyzes a text range for potential breakpoint opportunities, reading attributes from the source and reporting breakpoint opportunities to the sink callback SetLineBreakpoints.
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeLineBreakpoints.htm
 tech.root: DirectWrite
 ms.assetid: 6c676065-0226-456c-b8c4-10752a8daec8
-
 ms.date: 12/05/2018
 ms.keywords: AnalyzeLineBreakpoints, AnalyzeLineBreakpoints method [Direct Write], AnalyzeLineBreakpoints method [Direct Write],IDWriteTextAnalyzer interface, IDWriteTextAnalyzer interface [Direct Write],AnalyzeLineBreakpoints method, IDWriteTextAnalyzer.AnalyzeLineBreakpoints, IDWriteTextAnalyzer::AnalyzeLineBreakpoints, directwrite.IDWriteTextAnalyzer_AnalyzeLineBreakpoints, dwrite/IDWriteTextAnalyzer::AnalyzeLineBreakpoints
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalyzer.AnalyzeLineBreakpoints"
+f1_keywords:
+- dwrite/IDWriteTextAnalyzer.AnalyzeLineBreakpoints
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer.AnalyzeLineBreakpoints
+- IDWriteTextAnalyzer.AnalyzeLineBreakpoints
 targetos: Windows
 req.typenames: 
 req.redist: 

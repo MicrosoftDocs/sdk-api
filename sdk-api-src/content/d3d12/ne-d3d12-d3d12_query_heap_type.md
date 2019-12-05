@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_QUERY_HEAP_TYPE
 title: D3D12_QUERY_HEAP_TYPE (d3d12.h)
-
 description: Specifies the type of query heap to create.
 old-location: direct3d12\d3d12_query_heap_type.htm
 tech.root: direct3d12
 ms.assetid: FDD5F81B-F356-49D9-B6FE-FE2847934E61
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_QUERY_HEAP_TYPE, D3D12_QUERY_HEAP_TYPE enumeration, D3D12_QUERY_HEAP_TYPE_COPY_QUEUE_TIMESTAMP, D3D12_QUERY_HEAP_TYPE_OCCLUSION, D3D12_QUERY_HEAP_TYPE_PIPELINE_STATISTICS, D3D12_QUERY_HEAP_TYPE_SO_STATISTICS, D3D12_QUERY_HEAP_TYPE_TIMESTAMP, D3D12_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS, d3d12/D3D12_QUERY_HEAP_TYPE, d3d12/D3D12_QUERY_HEAP_TYPE_COPY_QUEUE_TIMESTAMP, d3d12/D3D12_QUERY_HEAP_TYPE_OCCLUSION, d3d12/D3D12_QUERY_HEAP_TYPE_PIPELINE_STATISTICS, d3d12/D3D12_QUERY_HEAP_TYPE_SO_STATISTICS, d3d12/D3D12_QUERY_HEAP_TYPE_TIMESTAMP, d3d12/D3D12_QUERY_HEAP_TYPE_VIDEO_DECODE_STATISTICS, direct3d12.d3d12_query_heap_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_QUERY_HEAP_TYPE"
+f1_keywords:
+- d3d12/D3D12_QUERY_HEAP_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_QUERY_HEAP_TYPE
+- D3D12_QUERY_HEAP_TYPE
 targetos: Windows
 req.typenames: D3D12_QUERY_HEAP_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imepad.IImePadApplet.Terminate
 title: IImePadApplet::Terminate (imepad.h)
-
 description: Called from IImePad to terminate IImePadApplet when the IMEPad instance exits.
 old-location: intl\iimepadapplet_terminate.htm
 tech.root: Intl
 ms.assetid: 864E5CBB-8056-46B5-BF78-9A66EC861F8A
-
 ms.date: 12/05/2018
 ms.keywords: IImePadApplet interface [Internationalization for Windows Applications],Terminate method, IImePadApplet.Terminate, IImePadApplet::Terminate, Terminate, Terminate method [Internationalization for Windows Applications], Terminate method [Internationalization for Windows Applications],IImePadApplet interface, imepad/IImePadApplet::Terminate, intl.iimepadapplet_terminate
 ms.topic: method
-f1_keywords: 
- - "imepad/IImePadApplet.Terminate"
+f1_keywords:
+- imepad/IImePadApplet.Terminate
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IImePadApplet.Terminate
+- IImePadApplet.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 

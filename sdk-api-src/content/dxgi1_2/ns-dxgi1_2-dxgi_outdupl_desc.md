@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_DESC
 title: DXGI_OUTDUPL_DESC (dxgi1_2.h)
-
 description: The DXGI_OUTDUPL_DESC structure describes the dimension of the output and the surface that contains the desktop image. The format of the desktop image is always DXGI_FORMAT_B8G8R8A8_UNORM.
 old-location: direct3ddxgi\dxgi_outdupl_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: 003014E3-4322-4253-8D69-AE315CDFDA75
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTDUPL_DESC, DXGI_OUTDUPL_DESC structure [DXGI], direct3ddxgi.dxgi_outdupl_desc, dxgi1_2/DXGI_OUTDUPL_DESC
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_2/DXGI_OUTDUPL_DESC"
+f1_keywords:
+- dxgi1_2/DXGI_OUTDUPL_DESC
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_2.h
+- DXGI1_2.h
 api_name:
- - DXGI_OUTDUPL_DESC
+- DXGI_OUTDUPL_DESC
 targetos: Windows
 req.typenames: DXGI_OUTDUPL_DESC
 req.redist: 

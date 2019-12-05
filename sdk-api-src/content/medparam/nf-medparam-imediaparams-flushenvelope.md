@@ -1,19 +1,17 @@
 ---
 UID: NF:medparam.IMediaParams.FlushEnvelope
 title: IMediaParams::FlushEnvelope (medparam.h)
-
 description: The FlushEnvelope method flushes envelope data for a specified parameter over the specified time range.
 old-location: dshow\imediaparams_flushenvelope.htm
 tech.root: DirectShow
 ms.assetid: 574d6573-ea5d-4419-ad65-f5f7d711e720
-
 ms.date: 12/05/2018
 ms.keywords: FlushEnvelope, FlushEnvelope method [DirectShow], FlushEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],FlushEnvelope method, IMediaParams.FlushEnvelope, IMediaParams::FlushEnvelope, IMediaParamsFlushEnvelope, dshow.imediaparams_flushenvelope, medparam/IMediaParams::FlushEnvelope
 ms.topic: method
-f1_keywords: 
- - "medparam/IMediaParams.FlushEnvelope"
+f1_keywords:
+- medparam/IMediaParams.FlushEnvelope
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParams.FlushEnvelope
+- IMediaParams.FlushEnvelope
 targetos: Windows
 req.typenames: 
 req.redist: 

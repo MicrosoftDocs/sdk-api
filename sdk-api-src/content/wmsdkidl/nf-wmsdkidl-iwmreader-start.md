@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Start
 title: IWMReader::Start (wmsdkidl.h)
-
 description: The Start method causes the reader object to start reading from the specified starting time offset. As data is read, it is passed to the application through the application's IWMReaderCallback::OnSample callback method.
 old-location: wmformat\iwmreader_start.htm
 tech.root: wmformat
 ms.assetid: 485844c6-7a84-4a0d-827d-060d8caef6cc
-
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Start method, IWMReader.Start, IWMReader::Start, IWMReaderStart, Start, Start method [windows Media Format], Start method [windows Media Format],IWMReader interface, wmformat.iwmreader_start, wmsdkidl/IWMReader::Start
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.Start"
+f1_keywords:
+- wmsdkidl/IWMReader.Start
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.Start
+- IWMReader.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

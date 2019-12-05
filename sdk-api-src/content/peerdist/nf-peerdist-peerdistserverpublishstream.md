@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishStream
 title: PeerDistServerPublishStream function (peerdist.h)
-
 description: PeerDistServerPublishStream function initializes a new stream to be published to the Peer Distribution service.
 old-location: p2p\peerdistserverpublishstream.htm
 tech.root: P2PSdk
 ms.assetid: 2133e578-f89d-4cfd-a522-12c2531babaa
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishStream, PeerDistServerPublishStream function [Peer Networking], p2p.peerdistserverpublishstream, peerdist/PeerDistServerPublishStream
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistServerPublishStream"
+f1_keywords:
+- peerdist/PeerDistServerPublishStream
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistServerPublishStream
+- PeerDistServerPublishStream
 targetos: Windows
 req.typenames: 
 req.redist: 

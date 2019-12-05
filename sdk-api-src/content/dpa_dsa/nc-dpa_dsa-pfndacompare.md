@@ -1,19 +1,17 @@
 ---
 UID: NC:dpa_dsa.PFNDACOMPARE
 title: PFNDACOMPARE (dpa_dsa.h)
-
 description: Defines the prototype for the compare function used by DSA_Sort.
 old-location: controls\PFNDACOMPARE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndacompare.htm
-
 ms.date: 12/05/2018
 ms.keywords: PFNDACOMPARE, PFNDACOMPARE callback, PFNDACOMPARE callback function [Windows Controls], PFNDPACOMPARE, PFNDSACOMPARE, _shell_PFNDACOMPARE, _shell_PFNDACOMPARE_cpp, controls.PFNDACOMPARE, controls._shell_PFNDACOMPARE, dpa_dsa/PFNDACOMPARE
 ms.topic: callback
-f1_keywords: 
- - "dpa_dsa/PFNDACOMPARE"
+f1_keywords:
+- dpa_dsa/PFNDACOMPARE
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - PFNDACOMPARE
+- PFNDACOMPARE
 targetos: Windows
 req.typenames: 
 req.redist: 

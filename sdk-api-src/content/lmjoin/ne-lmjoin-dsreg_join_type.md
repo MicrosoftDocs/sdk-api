@@ -1,19 +1,17 @@
 ---
 UID: NE:lmjoin._DSREG_JOIN_TYPE
 title: DSREG_JOIN_TYPE (lmjoin.h)
-
 description: Specifies the possible ways that a device can be joined to Microsoft Azure Active Directory.
 old-location: netmgmt\dsreg_join_type.htm
 tech.root: NetMgmt
 ms.assetid: E29BCBE0-222F-4CA8-97BC-6FE1B6F97A67
-
 ms.date: 12/05/2018
-ms.keywords: "*PDSREG_JOIN_TYPE, DSREG_DEVICE_JOIN, DSREG_JOIN_TYPE, DSREG_JOIN_TYPE enumeration [Network Management], DSREG_UNKNOWN_JOIN, DSREG_WORKPLACE_JOIN, PDSREG_JOIN_TYPE, PDSREG_JOIN_TYPE enumeration pointer [Network Management], lmjoin/DSREG_DEVICE_JOIN, lmjoin/DSREG_JOIN_TYPE, lmjoin/DSREG_UNKNOWN_JOIN, lmjoin/DSREG_WORKPLACE_JOIN, lmjoin/PDSREG_JOIN_TYPE, netmgmt.dsreg_join_type"
+ms.keywords: '*PDSREG_JOIN_TYPE, DSREG_DEVICE_JOIN, DSREG_JOIN_TYPE, DSREG_JOIN_TYPE enumeration [Network Management], DSREG_UNKNOWN_JOIN, DSREG_WORKPLACE_JOIN, PDSREG_JOIN_TYPE, PDSREG_JOIN_TYPE enumeration pointer [Network Management], lmjoin/DSREG_DEVICE_JOIN, lmjoin/DSREG_JOIN_TYPE, lmjoin/DSREG_UNKNOWN_JOIN, lmjoin/DSREG_WORKPLACE_JOIN, lmjoin/PDSREG_JOIN_TYPE, netmgmt.dsreg_join_type'
 ms.topic: enum
-f1_keywords: 
- - "lmjoin/DSREG_JOIN_TYPE"
+f1_keywords:
+- lmjoin/DSREG_JOIN_TYPE
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmjoin.h
+- lmjoin.h
 api_name:
- - DSREG_JOIN_TYPE
+- DSREG_JOIN_TYPE
 targetos: Windows
 req.typenames: DSREG_JOIN_TYPE, *PDSREG_JOIN_TYPE
 req.redist: 

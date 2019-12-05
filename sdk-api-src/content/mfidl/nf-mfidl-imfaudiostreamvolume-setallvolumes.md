@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.SetAllVolumes
 title: IMFAudioStreamVolume::SetAllVolumes (mfidl.h)
-
 description: Sets the individual volume levels for all of the channels in the audio stream.
 old-location: mf\imfaudiostreamvolume_setallvolumes.htm
 tech.root: medfound
 ms.assetid: 6c278693-5a2f-4aa2-b477-3b3014b2cc89
-
 ms.date: 12/05/2018
 ms.keywords: 6c278693-5a2f-4aa2-b477-3b3014b2cc89, IMFAudioStreamVolume interface [Media Foundation],SetAllVolumes method, IMFAudioStreamVolume.SetAllVolumes, IMFAudioStreamVolume::SetAllVolumes, SetAllVolumes, SetAllVolumes method [Media Foundation], SetAllVolumes method [Media Foundation],IMFAudioStreamVolume interface, mf.imfaudiostreamvolume_setallvolumes, mfidl/IMFAudioStreamVolume::SetAllVolumes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFAudioStreamVolume.SetAllVolumes"
+f1_keywords:
+- mfidl/IMFAudioStreamVolume.SetAllVolumes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioStreamVolume.SetAllVolumes
+- IMFAudioStreamVolume.SetAllVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

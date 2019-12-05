@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnStartComposition
 title: ITfContextOwnerCompositionSink::OnStartComposition (msctf.h)
-
 description: ITfContextOwnerCompositionSink::OnStartComposition method
 old-location: tsf\itfcontextownercompositionsink_onstartcomposition.htm
 tech.root: TSF
 ms.assetid: 18356eda-42b1-4b29-8fd8-cff4a3f6d234
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink interface [Text Services Framework],OnStartComposition method, ITfContextOwnerCompositionSink.OnStartComposition, ITfContextOwnerCompositionSink::OnStartComposition, OnStartComposition, OnStartComposition method [Text Services Framework], OnStartComposition method [Text Services Framework],ITfContextOwnerCompositionSink interface, _tsf_itfcontextownercompositionsink_onstartcomposition_ref, msctf/ITfContextOwnerCompositionSink::OnStartComposition, tsf.itfcontextownercompositionsink_onstartcomposition
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwnerCompositionSink.OnStartComposition"
+f1_keywords:
+- msctf/ITfContextOwnerCompositionSink.OnStartComposition
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwnerCompositionSink.OnStartComposition
+- ITfContextOwnerCompositionSink.OnStartComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

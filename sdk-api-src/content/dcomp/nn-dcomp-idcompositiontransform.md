@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionTransform
 title: IDCompositionTransform (dcomp.h)
-
 description: Represents a 2D transformation that can be used to modify the coordinate space of a visual subtree.
 old-location: directcomp\idcompositiontransform.htm
 tech.root: directcomp
 ms.assetid: 22f0d199-5162-4869-909e-d0ed0059b773
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTransform, IDCompositionTransform interface [DirectComposition], IDCompositionTransform interface [DirectComposition],described, dcomp/IDCompositionTransform, directcomp.idcompositiontransform
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionTransform"
+f1_keywords:
+- dcomp/IDCompositionTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTransform
+- IDCompositionTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

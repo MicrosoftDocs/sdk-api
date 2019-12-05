@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_DNN_SODAFS_CLONE_STATUS
 title: CLUS_DNN_SODAFS_CLONE_STATUS (clusapi.h)
-
 description: Represents the status of a Scale-Out File Server clone.
 old-location: mscs\clus_dnn_sodafs_clone_status.htm
 tech.root: MsCS
 ms.assetid: 3FD9AC64-3A7D-44C8-8066-AC1E7FB415DB
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS structure [Failover Cluster], PCLUS_DNN_SODAFS_CLONE_STATUS, PCLUS_DNN_SODAFS_CLONE_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_SODAFS_CLONE_STATUS, clusapi/PCLUS_DNN_SODAFS_CLONE_STATUS, mscs.clus_dnn_sodafs_clone_status"
+ms.keywords: '*PCLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS, CLUS_DNN_SODAFS_CLONE_STATUS structure [Failover Cluster], PCLUS_DNN_SODAFS_CLONE_STATUS, PCLUS_DNN_SODAFS_CLONE_STATUS structure pointer [Failover Cluster], clusapi/CLUS_DNN_SODAFS_CLONE_STATUS, clusapi/PCLUS_DNN_SODAFS_CLONE_STATUS, mscs.clus_dnn_sodafs_clone_status'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_DNN_SODAFS_CLONE_STATUS"
+f1_keywords:
+- clusapi/CLUS_DNN_SODAFS_CLONE_STATUS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_DNN_SODAFS_CLONE_STATUS
+- CLUS_DNN_SODAFS_CLONE_STATUS
 targetos: Windows
 req.typenames: CLUS_DNN_SODAFS_CLONE_STATUS, *PCLUS_DNN_SODAFS_CLONE_STATUS
 req.redist: 

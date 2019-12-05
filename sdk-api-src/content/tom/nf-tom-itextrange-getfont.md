@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetFont
 title: ITextRange::GetFont (tom.h)
-
 description: Gets an ITextFont object with the character attributes of the specified range.
 old-location: controls\ITextRange_GetFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfont.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFont, GetFont method [Windows Controls], GetFont method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetFont method, ITextRange.GetFont, ITextRange::GetFont, _win32_ITextRange_GetFont, _win32_ITextRange_GetFont_cpp, controls.ITextRange_GetFont, controls._win32_ITextRange_GetFont, tom/ITextRange::GetFont
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetFont"
+f1_keywords:
+- tom/ITextRange.GetFont
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetFont
+- ITextRange.GetFont
 targetos: Windows
 req.typenames: 
 req.redist: 

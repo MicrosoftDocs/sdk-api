@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetUpperBoundItemId
 title: ISyncChangeBatchAdvanced::GetUpperBoundItemId (winsync.h)
-
 description: Gets the highest item ID that is represented in the knowledge of any group in the change batch.
 old-location: winsync\isyncchangebatchadvanced_getupperbounditemid.htm
 tech.root: winsync
 ms.assetid: 4aa472b1-7dfb-4159-8f50-cc8e5de34dd3
-
 ms.date: 12/05/2018
 ms.keywords: GetUpperBoundItemId, GetUpperBoundItemId method [Windows Sync], GetUpperBoundItemId method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetUpperBoundItemId method, ISyncChangeBatchAdvanced.GetUpperBoundItemId, ISyncChangeBatchAdvanced::GetUpperBoundItemId, winsync.isyncchangebatchadvanced_getupperbounditemid, winsync/ISyncChangeBatchAdvanced::GetUpperBoundItemId
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchAdvanced.GetUpperBoundItemId"
+f1_keywords:
+- winsync/ISyncChangeBatchAdvanced.GetUpperBoundItemId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchAdvanced.GetUpperBoundItemId
+- ISyncChangeBatchAdvanced.GetUpperBoundItemId
 targetos: Windows
 req.typenames: 
 req.redist: 

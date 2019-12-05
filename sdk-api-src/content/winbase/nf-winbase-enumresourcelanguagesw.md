@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EnumResourceLanguagesW
 title: EnumResourceLanguagesW function (winbase.h)
-
 description: Enumerates language-specific resources, of the specified type and name, associated with a binary module.
 old-location: menurc\enumresourcelanguages.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcelanguages.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumResourceLanguages, EnumResourceLanguages function [Menus and Other Resources], EnumResourceLanguagesA, EnumResourceLanguagesW, _win32_EnumResourceLanguages, _win32_enumresourcelanguages_cpp, menurc.enumresourcelanguages, winbase/EnumResourceLanguages, winbase/EnumResourceLanguagesA, winbase/EnumResourceLanguagesW, winui._win32_enumresourcelanguages
 ms.topic: function
-f1_keywords: 
- - "winbase/EnumResourceLanguages"
+f1_keywords:
+- winbase/EnumResourceLanguages
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - EnumResourceLanguages
- - EnumResourceLanguagesA
- - EnumResourceLanguagesW
+- EnumResourceLanguages
+- EnumResourceLanguagesA
+- EnumResourceLanguagesW
 targetos: Windows
 req.typenames: 
 req.redist: 

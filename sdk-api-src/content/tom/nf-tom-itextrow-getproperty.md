@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetProperty
 title: ITextRow::GetProperty (tom.h)
-
 description: Gets the value of the specified property.
 old-location: controls\itextrow_getproperty.htm
 tech.root: Controls
 ms.assetid: ed47033f-14b2-4ca1-89be-f2eab3d148ef
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [Windows Controls], GetProperty method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetProperty method, ITextRow.GetProperty, ITextRow::GetProperty, controls.itextrow_getproperty, tom/ITextRow::GetProperty
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetProperty"
+f1_keywords:
+- tom/ITextRow.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetProperty
+- ITextRow.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

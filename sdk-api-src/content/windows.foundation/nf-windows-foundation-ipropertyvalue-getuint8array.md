@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetUInt8Array
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of unsigned 8-bit integer values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getuint8array.htm
 tech.root: WinRT
 ms.assetid: f17fe310-40b7-46a5-ae87-c07649c2f288
-
 ms.date: 12/05/2018
 ms.keywords: GetUInt8Array, GetUInt8Array method [Windows Runtime], GetUInt8Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetUInt8Array method, IPropertyValue.GetUInt8Array, IPropertyValue.IPropertyValue, IPropertyValue::GetUInt8Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetUInt8Array, winrt.ipropertyvalue_getuint8array
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetUInt8Array"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetUInt8Array
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetUInt8Array
+- IPropertyValue.GetUInt8Array
 targetos: Windows
 req.typenames: 
 req.redist: 

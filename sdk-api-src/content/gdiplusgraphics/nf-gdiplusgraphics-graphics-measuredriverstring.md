@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.MeasureDriverString
 title: Graphics::MeasureDriverString (gdiplusgraphics.h)
-
 description: The Graphics::MeasureDriverString method measures the bounding box for the specified characters and their corresponding positions.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\measuredriverstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],MeasureDriverString method, Graphics.MeasureDriverString, Graphics::MeasureDriverString, MeasureDriverString, MeasureDriverString method [GDI+], MeasureDriverString method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_, gdiplus._gdiplus_CLASS_Graphics_MeasureDriverString_text_length_font_positions_flags_matrix_boundingBox_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.MeasureDriverString"
+f1_keywords:
+- gdiplusgraphics/Graphics.MeasureDriverString
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.MeasureDriverString
+- Graphics.MeasureDriverString
 targetos: Windows
 req.typenames: 
 req.redist: 

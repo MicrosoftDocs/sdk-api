@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetHelpId
 title: IXblIdpAuthTokenResult::GetHelpId (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_gethelpid.htm
 tech.root: xblidp
 ms.assetid: 256D7837-BAC0-4E6B-B8BB-C25C55D6CDC4
-
 ms.date: 12/05/2018
 ms.keywords: GetHelpId, GetHelpId method, GetHelpId method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetHelpId method, IXblIdpAuthTokenResult.GetHelpId, IXblIdpAuthTokenResult::GetHelpId, xblidp.ixblidpauthtokenresult_gethelpid, xblidpauthmanager/IXblIdpAuthTokenResult::GetHelpId
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetHelpId"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetHelpId
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetHelpId
+- IXblIdpAuthTokenResult.GetHelpId
 targetos: Windows
 req.typenames: 
 req.redist: 

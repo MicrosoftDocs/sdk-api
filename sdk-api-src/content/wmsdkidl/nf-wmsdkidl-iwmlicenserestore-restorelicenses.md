@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRestore.RestoreLicenses
 title: IWMLicenseRestore::RestoreLicenses (wmsdkidl.h)
-
 description: The RestoreLicenses method restores licenses that were previously backed up.
 old-location: wmformat\iwmlicenserestore_restorelicenses.htm
 tech.root: wmformat
 ms.assetid: 2d645b3a-e856-4745-b80a-89a3bc2b38bd
-
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRestore interface [windows Media Format],RestoreLicenses method, IWMLicenseRestore.RestoreLicenses, IWMLicenseRestore::RestoreLicenses, IWMLicenseRestoreRestoreLicenses, RestoreLicenses, RestoreLicenses method [windows Media Format], RestoreLicenses method [windows Media Format],IWMLicenseRestore interface, wmformat.iwmlicenserestore_restorelicenses, wmsdkidl/IWMLicenseRestore::RestoreLicenses
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMLicenseRestore.RestoreLicenses"
+f1_keywords:
+- wmsdkidl/IWMLicenseRestore.RestoreLicenses
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMLicenseRestore.RestoreLicenses
+- IWMLicenseRestore.RestoreLicenses
 targetos: Windows
 req.typenames: 
 req.redist: 

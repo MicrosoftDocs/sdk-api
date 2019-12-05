@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMResourceControl.Reserve
 title: IAMResourceControl::Reserve (strmif.h)
-
 description: The Reserve method reserves or unreserves a device resource.
 old-location: dshow\iamresourcecontrol_reserve.htm
 tech.root: DirectShow
 ms.assetid: 5f264b87-dae4-4478-811f-1c99e670928a
-
 ms.date: 12/05/2018
 ms.keywords: IAMResourceControl interface [DirectShow],Reserve method, IAMResourceControl.Reserve, IAMResourceControl::Reserve, IAMResourceControlReserve, Reserve, Reserve method [DirectShow], Reserve method [DirectShow],IAMResourceControl interface, dshow.iamresourcecontrol_reserve, strmif/IAMResourceControl::Reserve
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMResourceControl.Reserve"
+f1_keywords:
+- strmif/IAMResourceControl.Reserve
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMResourceControl.Reserve
+- IAMResourceControl.Reserve
 targetos: Windows
 req.typenames: 
 req.redist: 

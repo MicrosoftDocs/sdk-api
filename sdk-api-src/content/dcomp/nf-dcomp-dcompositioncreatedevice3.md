@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.DCompositionCreateDevice3
 title: DCompositionCreateDevice3 function (dcomp.h)
-
 description: Creates a new DirectComposition device object, which can be used to create other DirectComposition objects.
 old-location: directcomp\dcompositioncreatedevice3.htm
 tech.root: directcomp
 ms.assetid: 5EF8F6E9-7632-42B4-A589-10CD4ABC7695
-
 ms.date: 12/05/2018
 ms.keywords: DCompositionCreateDevice3, DCompositionCreateDevice3 function [DirectComposition], dcomp/DCompositionCreateDevice3, directcomp.dcompositioncreatedevice3
 ms.topic: function
-f1_keywords: 
- - "dcomp/DCompositionCreateDevice3"
+f1_keywords:
+- dcomp/DCompositionCreateDevice3
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - DCompositionCreateDevice3
+- DCompositionCreateDevice3
 targetos: Windows
 req.typenames: 
 req.redist: 

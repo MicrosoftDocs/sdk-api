@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromBool
 title: VarDecFromBool function (oleauto.h)
-
 description: Converts a Boolean value to a decimal value.
 old-location: automat\vardecfrombool.htm
 tech.root: automat
 ms.assetid: d0461861-6093-480c-9fd9-6387622e5b4f
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFromBool, VarDecFromBool function [Automation], _oa96_VarDecFromBool, automat.vardecfrombool, oleauto/VarDecFromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromBool"
+f1_keywords:
+- oleauto/VarDecFromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromBool
+- VarDecFromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

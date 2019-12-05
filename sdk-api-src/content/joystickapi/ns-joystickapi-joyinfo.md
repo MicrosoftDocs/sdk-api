@@ -1,19 +1,17 @@
 ---
 UID: NS:joystickapi.joyinfo_tag
 title: JOYINFO (joystickapi.h)
-
 description: The JOYINFO structure contains information about the joystick position and button state.
 old-location: multimedia\joyinfo.htm
 tech.root: Multimedia
 ms.assetid: 9f21fdcc-6940-44de-8adf-28190c0cc7c0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPJOYINFO, *NPJOYINFO, *PJOYINFO, JOYINFO, JOYINFO structure [Windows Multimedia], _win32_JOYINFO_str, joyinfo_tag, joystickapi/JOYINFO, multimedia.joyinfo"
+ms.keywords: '*LPJOYINFO, *NPJOYINFO, *PJOYINFO, JOYINFO, JOYINFO structure [Windows Multimedia], _win32_JOYINFO_str, joyinfo_tag, joystickapi/JOYINFO, multimedia.joyinfo'
 ms.topic: struct
-f1_keywords: 
- - "joystickapi/JOYINFO"
+f1_keywords:
+- joystickapi/JOYINFO
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - joystickapi.h
+- joystickapi.h
 api_name:
- - JOYINFO
+- JOYINFO
 targetos: Windows
 req.typenames: JOYINFO, *PJOYINFO, *NPJOYINFO, *LPJOYINFO
 req.redist: 

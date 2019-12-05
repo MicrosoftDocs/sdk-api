@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsShutdownSessionChannel
 title: WsShutdownSessionChannel function (webservices.h)
-
 description: Used to signal the end of messages for a session channel.
 old-location: wsw\wsshutdownsessionchannel.htm
 tech.root: wsw
 ms.assetid: db12b0b7-698e-4c74-b547-6c95d0c5fdb7
-
 ms.date: 12/05/2018
 ms.keywords: WsShutdownSessionChannel, WsShutdownSessionChannel function [Web Services for Windows], webservices/WsShutdownSessionChannel, wsw.wsshutdownsessionchannel
 ms.topic: function
-f1_keywords: 
- - "webservices/WsShutdownSessionChannel"
+f1_keywords:
+- webservices/WsShutdownSessionChannel
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsShutdownSessionChannel
+- WsShutdownSessionChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

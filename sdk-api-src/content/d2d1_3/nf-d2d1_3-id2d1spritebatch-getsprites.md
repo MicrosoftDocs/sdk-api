@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.GetSprites
 title: ID2D1SpriteBatch::GetSprites (d2d1_3.h)
-
 description: Retrieves the specified subset of sprites from this sprite batch. For the best performance, use nullptr for properties that you do not need to retrieve.
 old-location: direct2d\id2d1spritebatch_getsprites.htm
 tech.root: Direct2D
 ms.assetid: 39B6D8ED-25B2-4542-8994-FD607E60E19A
-
 ms.date: 12/05/2018
 ms.keywords: GetSprites, GetSprites method [Direct2D], GetSprites method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],GetSprites method, ID2D1SpriteBatch.GetSprites, ID2D1SpriteBatch::GetSprites, d2d1_3/ID2D1SpriteBatch::GetSprites, direct2d.id2d1spritebatch_getsprites
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1SpriteBatch.GetSprites"
+f1_keywords:
+- d2d1_3/ID2D1SpriteBatch.GetSprites
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SpriteBatch.GetSprites
+- ID2D1SpriteBatch.GetSprites
 targetos: Windows
 req.typenames: 
 req.redist: 

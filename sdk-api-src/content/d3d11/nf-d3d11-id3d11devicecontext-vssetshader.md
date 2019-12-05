@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSSetShader
 title: ID3D11DeviceContext::VSSetShader (d3d11.h)
-
 description: Set a vertex shader to the device.
 old-location: direct3d11\id3d11devicecontext_vssetshader.htm
 tech.root: direct3d11
 ms.assetid: d6207779-7477-4e74-beb8-065949abce06
-
 ms.date: 12/05/2018
 ms.keywords: 2642b72a-9d7a-0eff-a9a4-df4e0b8eca75, ID3D11DeviceContext interface [Direct3D 11],VSSetShader method, ID3D11DeviceContext.VSSetShader, ID3D11DeviceContext::VSSetShader, VSSetShader, VSSetShader method [Direct3D 11], VSSetShader method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSSetShader, direct3d11.id3d11devicecontext_vssetshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.VSSetShader"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.VSSetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.VSSetShader
+- ID3D11DeviceContext.VSSetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

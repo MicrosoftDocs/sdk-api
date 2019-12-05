@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetLeft(float)
 title: IDCompositionRectangleClip::SetLeft(float) (dcomp.h)
-
 description: Changes the value of the Left property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_setleft_float.htm
 tech.root: directcomp
 ms.assetid: 56614B81-3AC7-484C-9049-5E189D1C0B3B
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetLeft method, IDCompositionRectangleClip.SetLeft, IDCompositionRectangleClip.SetLeft(float), IDCompositionRectangleClip::SetLeft, IDCompositionRectangleClip::SetLeft(float), SetLeft, SetLeft method [DirectComposition], SetLeft method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetLeft, directcomp.idcompositionrectangleclip_setleft_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetLeft"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetLeft
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetLeft
+- IDCompositionRectangleClip.SetLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

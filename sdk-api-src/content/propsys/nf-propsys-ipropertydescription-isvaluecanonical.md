@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.IsValueCanonical
 title: IPropertyDescription::IsValueCanonical (propsys.h)
-
 description: Gets a value that indicates whether a property is canonical according to the definition of the property description.
 old-location: properties\IPropertyDescription_IsValueCanonical.htm
 tech.root: properties
 ms.assetid: e0eedb58-82ed-4481-8319-633ddf20949c
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyDescription interface [Windows Properties],IsValueCanonical method, IPropertyDescription.IsValueCanonical, IPropertyDescription::IsValueCanonical, IsValueCanonical, IsValueCanonical method [Windows Properties], IsValueCanonical method [Windows Properties],IPropertyDescription interface, properties.IPropertyDescription_IsValueCanonical, propsys/IPropertyDescription::IsValueCanonical, shell.IPropertyDescription_IsValueCanonical, shell_IPropertyDescription_IsValueCanonical
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.IsValueCanonical"
+f1_keywords:
+- propsys/IPropertyDescription.IsValueCanonical
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.IsValueCanonical
+- IPropertyDescription.IsValueCanonical
 targetos: Windows
 req.typenames: 
 req.redist: 

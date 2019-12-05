@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetDefaultMediaDetection
 title: TSPI_lineSetDefaultMediaDetection function (tspi.h)
-
 description: The TSPI_lineSetDefaultMediaDetection procedure tells the service provider the new set of media types to detect for the indicated line (replacing any previous set).
 old-location: tspi\tspi_linesetdefaultmediadetection.htm
 tech.root: Tapi
 ms.assetid: 407fa545-6890-4a8c-b5a8-bddeacc46e18
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetDefaultMediaDetection, TSPI_lineSetDefaultMediaDetection function [TAPI 2.2], _tspi_tspi_linesetdefaultmediadetection, tspi.tspi_linesetdefaultmediadetection, tspi/TSPI_lineSetDefaultMediaDetection
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetDefaultMediaDetection"
+f1_keywords:
+- tspi/TSPI_lineSetDefaultMediaDetection
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetDefaultMediaDetection
+- TSPI_lineSetDefaultMediaDetection
 targetos: Windows
 req.typenames: 
 req.redist: 

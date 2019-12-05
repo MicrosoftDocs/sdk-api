@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PtInRect
 title: PtInRect function (winuser.h)
-
 description: The PtInRect function determines whether the specified point lies within the specified rectangle.
 old-location: gdi\ptinrect.htm
 tech.root: gdi
 ms.assetid: 8a47a238-082c-44b8-a270-5ebb4d3d9fc8
-
 ms.date: 12/05/2018
 ms.keywords: PtInRect, PtInRect function [Windows GDI], _win32_PtInRect, gdi.ptinrect, winuser/PtInRect
 ms.topic: function
-f1_keywords: 
- - "winuser/PtInRect"
+f1_keywords:
+- winuser/PtInRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - PtInRect
+- PtInRect
 targetos: Windows
 req.typenames: 
 req.redist: 

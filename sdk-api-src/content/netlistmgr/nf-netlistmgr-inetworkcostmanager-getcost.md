@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetCost
 title: INetworkCostManager::GetCost (netlistmgr.h)
-
 description: GetCost method retrieves the current cost of either a machine-wide internet connection, or the first-hop of routing to a specific destination on a connection.
 old-location: nla\inetworkcostmanager_getcost.htm
 tech.root: nla
 ms.assetid: F0690CD5-0BC9-4042-9A38-17B48761034F
-
 ms.date: 12/05/2018
 ms.keywords: GetCost, GetCost method [Network Awareness], GetCost method [Network Awareness],INetworkCostManager interface, INetworkCostManager interface [Network Awareness],GetCost method, INetworkCostManager.GetCost, INetworkCostManager::GetCost, netlistmgr/INetworkCostManager::GetCost, nla.inetworkcostmanager_getcost
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkCostManager.GetCost"
+f1_keywords:
+- netlistmgr/INetworkCostManager.GetCost
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkCostManager.GetCost
+- INetworkCostManager.GetCost
 targetos: Windows
 req.typenames: 
 req.redist: 

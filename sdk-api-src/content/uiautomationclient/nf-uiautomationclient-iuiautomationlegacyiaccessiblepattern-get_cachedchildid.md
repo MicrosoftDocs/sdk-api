@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedChildId (uiautomationclient.h)
-
 description: Retrieves the cached Microsoft Active Accessibility child identifier for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId.htm
 tech.root: WinAuto
 ms.assetid: 31b64e45-51dc-485a-8318-2e8db690f3c0
-
 ms.date: 12/05/2018
 ms.keywords: CachedChildId property [Windows Accessibility], CachedChildId property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedChildId property, IUIAutomationLegacyIAccessiblePattern.CachedChildId, IUIAutomationLegacyIAccessiblePattern.get_CachedChildId, IUIAutomationLegacyIAccessiblePattern::CachedChildId, IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, get_CachedChildId, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedChildId, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedChildId, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedChildId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedChildId"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedChildId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CachedChildId
- - IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
+- IUIAutomationLegacyIAccessiblePattern.CachedChildId
+- IUIAutomationLegacyIAccessiblePattern.get_CachedChildId
 targetos: Windows
 req.typenames: 
 req.redist: 

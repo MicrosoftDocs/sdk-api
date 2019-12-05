@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IActivateAudioInterfaceCompletionHandler.ActivateCompleted
 title: IActivateAudioInterfaceCompletionHandler::ActivateCompleted (mmdeviceapi.h)
-
 description: Indicates that activation of a WASAPI interface is complete and results are available.
 old-location: coreaudio\iactivateaudiointerfacecompletionhandler_activatecompleted.htm
 tech.root: CoreAudio
 ms.assetid: f434db12-ab8e-40ca-8a55-b02f28ea5575
-
 ms.date: 12/05/2018
 ms.keywords: ActivateCompleted, ActivateCompleted method [Core Audio], ActivateCompleted method [Core Audio],IActivateAudioInterfaceCompletionHandler interface, IActivateAudioInterfaceCompletionHandler interface [Core Audio],ActivateCompleted method, IActivateAudioInterfaceCompletionHandler.ActivateCompleted, IActivateAudioInterfaceCompletionHandler::ActivateCompleted, coreaudio.iactivateaudiointerfacecompletionhandler_activatecompleted, mmdeviceapi/IActivateAudioInterfaceCompletionHandler::ActivateCompleted
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IActivateAudioInterfaceCompletionHandler.ActivateCompleted"
+f1_keywords:
+- mmdeviceapi/IActivateAudioInterfaceCompletionHandler.ActivateCompleted
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmdeviceapi.h
+- mmdeviceapi.h
 api_name:
- - IActivateAudioInterfaceCompletionHandler.ActivateCompleted
+- IActivateAudioInterfaceCompletionHandler.ActivateCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

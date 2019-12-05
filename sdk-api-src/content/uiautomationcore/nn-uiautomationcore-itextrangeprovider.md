@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.ITextRangeProvider
 title: ITextRangeProvider (uiautomationcore.h)
-
 description: Provides access to a span of continuous text in a text container that implements ITextProvider or ITextProvider2.
 old-location: winauto\uiauto_ITextRangeProvider.htm
 tech.root: WinAuto
 ms.assetid: dd14e608-1d21-4527-8b82-dba64ed04fda
-
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider, ITextRangeProvider interface [Windows Accessibility], ITextRangeProvider interface [Windows Accessibility],described, uiauto.uiauto_ITextRangeProvider, uiauto_ITextRangeProvider, uiautomationcore/ITextRangeProvider, winauto.uiauto_ITextRangeProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ITextRangeProvider
+- ITextRangeProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

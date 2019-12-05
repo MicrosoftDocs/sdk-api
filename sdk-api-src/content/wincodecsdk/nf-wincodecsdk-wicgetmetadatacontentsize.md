@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.WICGetMetadataContentSize
 title: WICGetMetadataContentSize function (wincodecsdk.h)
-
 description: Returns the size of the metadata content contained by the specified IWICMetadataWriter. The returned size accounts for the header and the length of the metadata.
 old-location: wic\_wic_codec_wicgetmetadatacontentsize.htm
 tech.root: wic
 ms.assetid: 57daa7a5-d0a0-46ae-a009-7f4ee3752088
-
 ms.date: 12/05/2018
 ms.keywords: WICGetMetadataContentSize, WICGetMetadataContentSize function [Windows Imaging Component], _wic_codec_wicgetmetadatacontentsize, wic._wic_codec_wicgetmetadatacontentsize, wincodecsdk/WICGetMetadataContentSize
 ms.topic: function
-f1_keywords: 
- - "wincodecsdk/WICGetMetadataContentSize"
+f1_keywords:
+- wincodecsdk/WICGetMetadataContentSize
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: Wincodec.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Windowscodecs.dll; Wincodec.lib
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Windowscodecs.dll
- - Wincodec.lib
+- Windowscodecs.dll
+- Wincodec.lib
 api_name:
- - WICGetMetadataContentSize
+- WICGetMetadataContentSize
 targetos: Windows
 req.typenames: 
 req.redist: 

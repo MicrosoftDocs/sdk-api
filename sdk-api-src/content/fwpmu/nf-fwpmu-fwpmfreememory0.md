@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmFreeMemory0
 title: FwpmFreeMemory0 function (fwpmu.h)
-
 description: Is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.
 old-location: fwp\fwpmfreememory0_func.htm
 tech.root: fwp
 ms.assetid: ba9f8c1e-f75c-4bf0-b68b-e21a358575fc
-
 ms.date: 12/05/2018
 ms.keywords: FwpmFreeMemory0, FwpmFreeMemory0 function [Filtering], fwp.fwpmfreememory0_func, fwpmu/FwpmFreeMemory0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmFreeMemory0"
+f1_keywords:
+- fwpmu/FwpmFreeMemory0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmFreeMemory0
+- FwpmFreeMemory0
 targetos: Windows
 req.typenames: 
 req.redist: 

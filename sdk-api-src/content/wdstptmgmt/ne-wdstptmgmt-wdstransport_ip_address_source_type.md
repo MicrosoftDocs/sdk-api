@@ -1,19 +1,17 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0007
 title: WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE (wdstptmgmt.h)
-
 description: Indicates the source from which the WDS multicast provider obtains a multicast address for a new session.
 old-location: wds\wdstransport_ip_address_source_type.htm
 tech.root: wds
 ms.assetid: bc16cf5e-2cfe-480b-b67c-546b47ef2518
-
 ms.date: 12/05/2018
-ms.keywords: "*PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE enumeration [Windows Deployment Services], WdsTptIpAddressSourceDhcp, WdsTptIpAddressSourceRange, WdsTptIpAddressSourceUnknown, wds.wdstransport_ip_address_source_type, wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, wdstptmgmt/WdsTptIpAddressSourceDhcp, wdstptmgmt/WdsTptIpAddressSourceRange, wdstptmgmt/WdsTptIpAddressSourceUnknown"
+ms.keywords: '*PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE enumeration [Windows Deployment Services], WdsTptIpAddressSourceDhcp, WdsTptIpAddressSourceRange, WdsTptIpAddressSourceUnknown, wds.wdstransport_ip_address_source_type, wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, wdstptmgmt/WdsTptIpAddressSourceDhcp, wdstptmgmt/WdsTptIpAddressSourceRange, wdstptmgmt/WdsTptIpAddressSourceUnknown'
 ms.topic: enum
-f1_keywords: 
- - "wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE"
+f1_keywords:
+- wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdstptmgmt.h
+- Wdstptmgmt.h
 api_name:
- - WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
+- WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
 targetos: Windows
 req.typenames: WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE, *PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE
 req.redist: 

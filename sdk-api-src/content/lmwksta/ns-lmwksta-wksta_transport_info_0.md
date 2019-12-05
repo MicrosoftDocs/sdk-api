@@ -1,19 +1,17 @@
 ---
 UID: NS:lmwksta._WKSTA_TRANSPORT_INFO_0
 title: WKSTA_TRANSPORT_INFO_0 (lmwksta.h)
-
 description: The WKSTA_TRANSPORT_INFO_0 structure contains information about the workstation transport protocol, such as Wide Area Network (WAN) or NetBIOS.
 old-location: netmgmt\wksta_transport_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: e7afe2a3-f729-4fd5-afc3-d3ffbd09e884
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], PWKSTA_TRANSPORT_INFO_0, PWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], WKSTA_TRANSPORT_INFO_0, WKSTA_TRANSPORT_INFO_0 structure [Network Management], _win32_wksta_transport_info_0_str, lmwksta/LPWKSTA_TRANSPORT_INFO_0, lmwksta/PWKSTA_TRANSPORT_INFO_0, lmwksta/WKSTA_TRANSPORT_INFO_0, netmgmt.wksta_transport_info_0_str"
+ms.keywords: '*LPWKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0, LPWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], PWKSTA_TRANSPORT_INFO_0, PWKSTA_TRANSPORT_INFO_0 structure pointer [Network Management], WKSTA_TRANSPORT_INFO_0, WKSTA_TRANSPORT_INFO_0 structure [Network Management], _win32_wksta_transport_info_0_str, lmwksta/LPWKSTA_TRANSPORT_INFO_0, lmwksta/PWKSTA_TRANSPORT_INFO_0, lmwksta/WKSTA_TRANSPORT_INFO_0, netmgmt.wksta_transport_info_0_str'
 ms.topic: struct
-f1_keywords: 
- - "lmwksta/WKSTA_TRANSPORT_INFO_0"
+f1_keywords:
+- lmwksta/WKSTA_TRANSPORT_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmwksta.h
+- Lmwksta.h
 api_name:
- - WKSTA_TRANSPORT_INFO_0
+- WKSTA_TRANSPORT_INFO_0
 targetos: Windows
 req.typenames: WKSTA_TRANSPORT_INFO_0, *PWKSTA_TRANSPORT_INFO_0, *LPWKSTA_TRANSPORT_INFO_0
 req.redist: 

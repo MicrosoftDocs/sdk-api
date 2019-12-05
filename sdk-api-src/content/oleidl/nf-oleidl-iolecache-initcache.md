@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleCache.InitCache
 title: IOleCache::InitCache (oleidl.h)
-
 description: Fills the cache as needed using the data provided by the specified data object.
 old-location: com\iolecache_initcache.htm
 tech.root: com
 ms.assetid: 4b1f2fb6-636c-47dd-8f89-884f7b4f3977
-
 ms.date: 12/05/2018
 ms.keywords: IOleCache interface [COM],InitCache method, IOleCache.InitCache, IOleCache::InitCache, InitCache, InitCache method [COM], InitCache method [COM],IOleCache interface, _ole_iolecache_initcache, com.iolecache_initcache, oleidl/IOleCache::InitCache
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleCache.InitCache"
+f1_keywords:
+- oleidl/IOleCache.InitCache
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCache.InitCache
+- IOleCache.InitCache
 targetos: Windows
 req.typenames: 
 req.redist: 

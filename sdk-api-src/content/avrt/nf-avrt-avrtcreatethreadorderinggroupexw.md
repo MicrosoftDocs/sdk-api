@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvRtCreateThreadOrderingGroupExW
 title: AvRtCreateThreadOrderingGroupExW function (avrt.h)
-
 description: Creates a thread ordering group and associates the server thread with a task.
 old-location: base\avrtcreatethreadorderinggroupex.htm
 tech.root: ProcThread
 ms.assetid: b1ada400-54d9-4238-8d22-97eaa55dcd50
-
 ms.date: 12/05/2018
 ms.keywords: AvRtCreateThreadOrderingGroupEx, AvRtCreateThreadOrderingGroupEx function, AvRtCreateThreadOrderingGroupExA, AvRtCreateThreadOrderingGroupExW, avrt/AvRtCreateThreadOrderingGroupEx, avrt/AvRtCreateThreadOrderingGroupExA, avrt/AvRtCreateThreadOrderingGroupExW, base.avrtcreatethreadorderinggroupex
 ms.topic: function
-f1_keywords: 
- - "avrt/AvRtCreateThreadOrderingGroupEx"
+f1_keywords:
+- avrt/AvRtCreateThreadOrderingGroupEx
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvRtCreateThreadOrderingGroupEx
- - AvRtCreateThreadOrderingGroupExA
- - AvRtCreateThreadOrderingGroupExW
+- AvRtCreateThreadOrderingGroupEx
+- AvRtCreateThreadOrderingGroupExA
+- AvRtCreateThreadOrderingGroupExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.get_Members
 title: IAzRole::get_Members (azroles.h)
-
 description: Retrieves the security identifiers (SIDs), in text form, of Windows accounts that belong to the role.
 old-location: security\iazrole_members.htm
 tech.root: SecAuthZ
 ms.assetid: 03391842-fc8a-4dc2-878e-4fe1c41cc4dd
-
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],Members property, IAzRole interface [Security],Members property, IAzRole.Members, IAzRole.get_Members, IAzRole::Members, IAzRole::get_Members, Members property [Security], Members property [Security],AzRole object, Members property [Security],IAzRole interface, azroles/IAzRole::Members, azroles/IAzRole::get_Members, get_Members, security.iazrole_members
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.Members"
+f1_keywords:
+- azroles/IAzRole.Members
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.Members
- - IAzRole.get_Members
- - AzRole.Members
+- IAzRole.Members
+- IAzRole.get_Members
+- AzRole.Members
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

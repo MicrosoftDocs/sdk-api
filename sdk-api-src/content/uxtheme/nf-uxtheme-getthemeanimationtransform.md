@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeAnimationTransform
 title: GetThemeAnimationTransform function (uxtheme.h)
-
 description: Gets an animation transform operation based on storyboard id, target id and transform index.
 old-location: controls\getthemeanimationtransform.htm
 tech.root: Controls
 ms.assetid: 3B7691C0-4237-4CE4-9B7C-937089AC5606
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeAnimationTransform, GetThemeAnimationTransform function [Windows Controls], controls.getthemeanimationtransform, uxtheme/GetThemeAnimationTransform
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeAnimationTransform"
+f1_keywords:
+- uxtheme/GetThemeAnimationTransform
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeAnimationTransform
+- GetThemeAnimationTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

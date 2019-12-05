@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemePartSize
 title: GetThemePartSize function (uxtheme.h)
-
 description: Calculates the original size of the part defined by a visual style.
 old-location: controls\GetThemePartSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepartsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemePartSize, GetThemePartSize function [Windows Controls], controls.GetThemePartSize, controls.inet_GetThemePartSize, inet_GetThemePartSize, inet_GetThemePartSize_cpp, uxtheme/GetThemePartSize
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemePartSize"
+f1_keywords:
+- uxtheme/GetThemePartSize
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemePartSize
+- GetThemePartSize
 targetos: Windows
 req.typenames: 
 req.redist: 

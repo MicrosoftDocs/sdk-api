@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IEnumNames.Reset
 title: IEnumNames::Reset (comsvcs.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: cos\ienumnames_reset.htm
 tech.root: cossdk
 ms.assetid: e7b7e703-f5d5-430f-8fa6-c26a236eab88
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNames interface [COM+],Reset method, IEnumNames.Reset, IEnumNames::Reset, Reset, Reset method [COM+], Reset method [COM+],IEnumNames interface, _cos_IEnumNames_Reset, comsvcs/IEnumNames::Reset, cos.ienumnames_reset
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IEnumNames.Reset"
+f1_keywords:
+- comsvcs/IEnumNames.Reset
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IEnumNames.Reset
+- IEnumNames.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

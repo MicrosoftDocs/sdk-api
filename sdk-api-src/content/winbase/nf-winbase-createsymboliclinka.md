@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkA
 title: CreateSymbolicLinkA function (winbase.h)
-
 description: Creates a symbolic link.
 old-location: fs\createsymboliclink.htm
 tech.root: FileIO
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
-
 ms.date: 12/05/2018
 ms.keywords: CreateSymbolicLink, CreateSymbolicLink function [Files], CreateSymbolicLinkA, CreateSymbolicLinkW, SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE, SYMBOLIC_LINK_FLAG_DIRECTORY, fs.createsymboliclink, winbase/CreateSymbolicLink, winbase/CreateSymbolicLinkA, winbase/CreateSymbolicLinkW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateSymbolicLink"
+f1_keywords:
+- winbase/CreateSymbolicLink
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - API-MS-Win-Core-File-l2-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- API-MS-Win-Core-File-l2-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - CreateSymbolicLink
- - CreateSymbolicLinkA
- - CreateSymbolicLinkW
+- CreateSymbolicLink
+- CreateSymbolicLinkA
+- CreateSymbolicLinkW
 targetos: Windows
 req.typenames: 
 req.redist: 

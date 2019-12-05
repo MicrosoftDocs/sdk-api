@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IEnumNames
 title: IEnumNames (comsvcs.h)
-
 description: Enumerates names.
 old-location: cos\ienumnames.htm
 tech.root: cossdk
 ms.assetid: 9f70b554-3cdd-4a4b-b180-c6de6182a46a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNames, IEnumNames interface [COM+], IEnumNames interface [COM+],described, _cos_IEnumNames, comsvcs/IEnumNames, cos.ienumnames
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IEnumNames"
+f1_keywords:
+- comsvcs/IEnumNames
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IEnumNames
+- IEnumNames
 targetos: Windows
 req.typenames: 
 req.redist: 

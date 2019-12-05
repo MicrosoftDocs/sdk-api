@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4GetFreeIPAddress
 title: DhcpV4GetFreeIPAddress function (dhcpsapi.h)
-
 description: Retrieves the list of available IPv4 addresses that can be leased to clients.
 old-location: dhcp\dhcpv4getfreeipaddress.htm
 tech.root: DHCP
 ms.assetid: acce28e6-ea4a-4f27-8fb6-913f0e5aa52e
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4GetFreeIPAddress, DhcpV4GetFreeIPAddress function [DHCP], dhcp.dhcpv4getfreeipaddress, dhcpsapi/DhcpV4GetFreeIPAddress
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4GetFreeIPAddress
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

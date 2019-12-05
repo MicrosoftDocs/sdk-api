@@ -1,19 +1,17 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.GetOsProductContentId
 title: IEditionUpgradeHelper::GetOsProductContentId (editionupgradehelper.h)
-
 description: Retrieves the content identifier that corresponds to the current installation of the operating system. The content identifier is used to look up the operating system product in the store catalog.
 old-location: winprog\ieditionupgradehelper_getosproductcontentid.htm
 tech.root: DevNotes
 ms.assetid: 79EEDFF2-FDF9-4BC9-968A-3543892AE870
-
 ms.date: 12/05/2018
 ms.keywords: GetOsProductContentId, GetOsProductContentId method [Windows API], GetOsProductContentId method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetOsProductContentId method, IEditionUpgradeHelper.GetOsProductContentId, IEditionUpgradeHelper::GetOsProductContentId, editionupgradehelper/IEditionUpgradeHelper::GetOsProductContentId, winprog.ieditionupgradehelper_getosproductcontentid
 ms.topic: method
-f1_keywords: 
- - "editionupgradehelper/IEditionUpgradeHelper.GetOsProductContentId"
+f1_keywords:
+- editionupgradehelper/IEditionUpgradeHelper.GetOsProductContentId
 dev_langs:
- - c++
+- c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - editionupgradehelper.h
+- editionupgradehelper.h
 api_name:
- - IEditionUpgradeHelper.GetOsProductContentId
+- IEditionUpgradeHelper.GetOsProductContentId
 targetos: Windows
 req.typenames: 
 req.redist: 

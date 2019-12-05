@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.SetMediaTime
 title: IMediaSample::SetMediaTime (strmif.h)
-
 description: The SetMediaTime method sets the media times for this sample.
 old-location: dshow\imediasample_setmediatime.htm
 tech.root: DirectShow
 ms.assetid: 8ae9db99-828d-4ac9-aa51-668b84d4dfab
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetMediaTime method, IMediaSample.SetMediaTime, IMediaSample::SetMediaTime, IMediaSampleSetMediaTime, SetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow],IMediaSample interface, dshow.imediasample_setmediatime, strmif/IMediaSample::SetMediaTime
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.SetMediaTime"
+f1_keywords:
+- strmif/IMediaSample.SetMediaTime
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.SetMediaTime
+- IMediaSample.SetMediaTime
 targetos: Windows
 req.typenames: 
 req.redist: 

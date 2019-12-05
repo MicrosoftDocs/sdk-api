@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Complement(IN const Region)
 title: Region::Complement(IN const Region) (gdiplusheaders.h)
-
 description: The Region::Complement method updates this region to the portion of another region that does not intersect this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Complement_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regioncomplementmethods\complement_18region.htm
-
 ms.date: 12/05/2018
 ms.keywords: Complement, Complement method [GDI+], Complement method [GDI+],Region class, Region class [GDI+],Complement method, Region.Complement, Region.Complement(IN const Region), Region.Complement(const Region*), Region::Complement, Region::Complement(IN const Region), _gdiplus_CLASS_Region_Complement_region_, gdiplus._gdiplus_CLASS_Region_Complement_region_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Complement"
+f1_keywords:
+- gdiplusheaders/Region.Complement
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Complement
+- Region.Complement
 targetos: Windows
 req.typenames: 
 req.redist: 

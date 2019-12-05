@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsTable.GetLastIndex
 title: ISimilarityTraitsTable::GetLastIndex (msrdc.h)
-
 description: Retrieves the index of the last entry that was stored in the similarity traits table.
 old-location: rdc\isimilaritytraitstable_getlastindex.htm
 tech.root: rdc
 ms.assetid: 4e6cb7b4-0dcf-4a51-acf9-3263d73eee63
-
 ms.date: 12/05/2018
 ms.keywords: GetLastIndex, GetLastIndex method [Remote Differential Compression], GetLastIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],GetLastIndex method, ISimilarityTraitsTable.GetLastIndex, ISimilarityTraitsTable::GetLastIndex, fs.isimilaritytraitstable_getlastindex, msrdc/ISimilarityTraitsTable::GetLastIndex, rdc.isimilaritytraitstable_getlastindex
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityTraitsTable.GetLastIndex"
+f1_keywords:
+- msrdc/ISimilarityTraitsTable.GetLastIndex
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsTable.GetLastIndex
+- ISimilarityTraitsTable.GetLastIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

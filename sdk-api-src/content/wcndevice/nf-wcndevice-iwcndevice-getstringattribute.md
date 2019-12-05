@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetStringAttribute
 title: IWCNDevice::GetStringAttribute (wcndevice.h)
-
 description: The IWCNDevice::GetStringAttribute method gets a cached attribute from the device as a string.
 old-location: wcn\iwcndevice_getstringattribute.htm
 tech.root: wcn
 ms.assetid: 4ef065be-0046-4ce6-8f81-417a4c8a550a
-
 ms.date: 12/05/2018
 ms.keywords: GetStringAttribute, GetStringAttribute method [Windows Connect Now], GetStringAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetStringAttribute method, IWCNDevice.GetStringAttribute, IWCNDevice::GetStringAttribute, wcn.iwcndevice_getstringattribute, wcndevice/IWCNDevice::GetStringAttribute
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.GetStringAttribute"
+f1_keywords:
+- wcndevice/IWCNDevice.GetStringAttribute
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.GetStringAttribute
+- IWCNDevice.GetStringAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

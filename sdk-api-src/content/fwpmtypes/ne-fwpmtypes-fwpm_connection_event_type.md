@@ -1,19 +1,17 @@
 ---
 UID: NE:fwpmtypes.FWPM_CONNECTION_EVENT_TYPE_
 title: FWPM_CONNECTION_EVENT_TYPE (fwpmtypes.h)
-
 description: Specifies the type of connection object change event.
 old-location: fwp\fwpm_connection_event_type.htm
 tech.root: fwp
 ms.assetid: 654b0b66-17b3-4108-af10-1047d07ab2ee
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_EVENT_ADD, FWPM_CONNECTION_EVENT_DELETE, FWPM_CONNECTION_EVENT_MAX, FWPM_CONNECTION_EVENT_TYPE, FWPM_CONNECTION_EVENT_TYPE enumeration [Filtering], fwp.fwpm_connection_event_type, fwpmtypes/FWPM_CONNECTION_EVENT_ADD, fwpmtypes/FWPM_CONNECTION_EVENT_DELETE, fwpmtypes/FWPM_CONNECTION_EVENT_MAX, fwpmtypes/FWPM_CONNECTION_EVENT_TYPE
 ms.topic: enum
-f1_keywords: 
- - "fwpmtypes/FWPM_CONNECTION_EVENT_TYPE"
+f1_keywords:
+- fwpmtypes/FWPM_CONNECTION_EVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_CONNECTION_EVENT_TYPE
+- FWPM_CONNECTION_EVENT_TYPE
 targetos: Windows
 req.typenames: FWPM_CONNECTION_EVENT_TYPE
 req.redist: 

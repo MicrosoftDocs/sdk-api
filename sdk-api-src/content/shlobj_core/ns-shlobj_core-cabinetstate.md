@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_10
 title: CABINETSTATE (shlobj_core.h)
-
 description: CABINETSTATE may be altered or unavailable.
 old-location: shell\CABINETSTATE.htm
 tech.root: shell
 ms.assetid: 4b82b6a8-c4c0-4af2-9612-0551376c1c62
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCABINETSTATE, CABINETSTATE, CABINETSTATE structure [Windows Shell], FALSE, SHCONTF_FOLDERS, SHCONTF_NONFOLDERS, TRUE, _win32_CABINETSTATE, shell.CABINETSTATE, shlobj_core/CABINETSTATE"
+ms.keywords: '*LPCABINETSTATE, CABINETSTATE, CABINETSTATE structure [Windows Shell], FALSE, SHCONTF_FOLDERS, SHCONTF_NONFOLDERS, TRUE, _win32_CABINETSTATE, shell.CABINETSTATE, shlobj_core/CABINETSTATE'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/CABINETSTATE"
+f1_keywords:
+- shlobj_core/CABINETSTATE
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - CABINETSTATE
+- CABINETSTATE
 targetos: Windows
 req.typenames: CABINETSTATE, *LPCABINETSTATE
 req.redist: 

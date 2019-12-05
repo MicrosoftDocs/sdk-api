@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaRegisterPolicyChangeNotification
 title: LsaRegisterPolicyChangeNotification function (ntsecapi.h)
-
 description: The LsaRegisterPolicyChangeNotification function registers an event handle with the local security authority (LSA). This event handle is signaled whenever the indicated LSA policy is modified.
 old-location: security\lsaregisterpolicychangenotification.htm
 tech.root: SecMgmt
 ms.assetid: 0c713d2b-e13a-44e0-8b48-68b233d1c562
-
 ms.date: 12/05/2018
 ms.keywords: LsaRegisterPolicyChangeNotification, LsaRegisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaregisterpolicychangenotification, ntsecapi/LsaRegisterPolicyChangeNotification, security.lsaregisterpolicychangenotification
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaRegisterPolicyChangeNotification"
+f1_keywords:
+- ntsecapi/LsaRegisterPolicyChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaRegisterPolicyChangeNotification
+- LsaRegisterPolicyChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

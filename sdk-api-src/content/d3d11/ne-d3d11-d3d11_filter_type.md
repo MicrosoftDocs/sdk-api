@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_FILTER_TYPE
 title: D3D11_FILTER_TYPE (d3d11.h)
-
 description: Types of magnification or minification sampler filters.
 old-location: direct3d11\d3d11_filter_type.htm
 tech.root: direct3d11
 ms.assetid: 294ab4b3-a5fc-4b87-ae87-bf41752132b8
-
 ms.date: 12/05/2018
 ms.keywords: 63c13b99-0d2a-c3b3-f07f-5f244586124a, D3D11_FILTER_TYPE, D3D11_FILTER_TYPE enumeration [Direct3D 11], D3D11_FILTER_TYPE_LINEAR, D3D11_FILTER_TYPE_POINT, d3d11/D3D11_FILTER_TYPE, d3d11/D3D11_FILTER_TYPE_LINEAR, d3d11/D3D11_FILTER_TYPE_POINT, direct3d11.d3d11_filter_type
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_FILTER_TYPE"
+f1_keywords:
+- d3d11/D3D11_FILTER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_FILTER_TYPE
+- D3D11_FILTER_TYPE
 targetos: Windows
 req.typenames: D3D11_FILTER_TYPE
 req.redist: 

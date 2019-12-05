@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,LONGLONG &)
 title: CInstance::GetWBEMINT64(LPCWSTR,LONGLONG &) (instance.h)
-
 description: The GetWBEMINT64 method retrieves a 64-bit integer property.
 old-location: wmi\cinstance_getwbemint64_lpcwstr__longlong__.htm
 tech.root: WmiSdk
 ms.assetid: b585e740-eade-4f81-908c-98dd88540cb1
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWBEMINT64 method, CInstance.GetWBEMINT64, CInstance.GetWBEMINT64(LPCWSTR,LONGLONG &), CInstance::GetWBEMINT64, CInstance::GetWBEMINT64(LPCWSTR,LONGLONG &), CInstance::GetWBEMINT64(LPCWSTR,LONGLONG&), GetWBEMINT64, GetWBEMINT64 method [Windows Management Instrumentation], GetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::GetWBEMINT64, wmi.cinstance_getwbemint64_lpcwstr__longlong__
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetWBEMINT64"
+f1_keywords:
+- instance/CInstance.GetWBEMINT64
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetWBEMINT64
+- CInstance.GetWBEMINT64
 targetos: Windows
 req.typenames: 
 req.redist: 

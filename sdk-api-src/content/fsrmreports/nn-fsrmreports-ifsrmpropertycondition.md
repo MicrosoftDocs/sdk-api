@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmreports.IFsrmPropertyCondition
 title: IFsrmPropertyCondition (fsrmreports.h)
-
 description: Defines a property condition that the file management job uses to determine if the file is expired.
 old-location: fsrm\ifsrmpropertycondition.htm
 tech.root: fsrm
 ms.assetid: 5c50b86b-f166-459e-92ce-63faa374c407
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyCondition, IFsrmPropertyCondition interface [File Server Resource Manager], IFsrmPropertyCondition interface [File Server Resource Manager],described, fs.ifsrmpropertycondition, fsrm.ifsrmpropertycondition, fsrm/IFsrmPropertyCondition
 ms.topic: interface
-f1_keywords: 
- - "fsrmreports/IFsrmPropertyCondition"
+f1_keywords:
+- fsrmreports/IFsrmPropertyCondition
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyCondition
+- IFsrmPropertyCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

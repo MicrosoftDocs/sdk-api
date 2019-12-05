@@ -1,19 +1,17 @@
 ---
 UID: NE:textstor.__MIDL_IAnchor_0001
 title: TsGravity (textstor.h)
-
 description: Elements of the TsGravity enumeration specify the gravity type associated with an IAnchor object.
 old-location: tsf\tsgravity.htm
 tech.root: TSF
 ms.assetid: 12ec85b9-e65f-485d-8e42-164d2a988356
-
 ms.date: 12/05/2018
 ms.keywords: TS_GR_BACKWARD, TS_GR_FORWARD, TsGravity, TsGravity enumeration [Text Services Framework], _tsf_tsgravity_ref, textstor/TS_GR_BACKWARD, textstor/TS_GR_FORWARD, textstor/TsGravity, tsf.tsgravity
 ms.topic: enum
-f1_keywords: 
- - "textstor/TsGravity"
+f1_keywords:
+- textstor/TsGravity
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TsGravity
+- TsGravity
 targetos: Windows
 req.typenames: TsGravity
 req.redist: TSF 1.0 on Windows 2000 Professional

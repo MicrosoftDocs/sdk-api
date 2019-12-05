@@ -1,19 +1,17 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
 title: IMFSpatialAudioSample::GetSpatialAudioObjectByIndex (mfspatialaudio.h)
-
 description: Returns the spatial audio object, represented by an IMFSpatialAudioObjectBuffer object, corresponding to the specified index.
 old-location: mf\imfspatialaudiosample_getspatialaudioobjectbyindex.htm
 tech.root: medfound
 ms.assetid: 2B5A2D44-BA41-49FC-B4FD-9BCD9EE2D549
-
 ms.date: 12/05/2018
 ms.keywords: GetSpatialAudioObjectByIndex, GetSpatialAudioObjectByIndex method [Media Foundation], GetSpatialAudioObjectByIndex method [Media Foundation],IMFSpatialAudioSample interface, IMFSpatialAudioSample interface [Media Foundation],GetSpatialAudioObjectByIndex method, IMFSpatialAudioSample.GetSpatialAudioObjectByIndex, IMFSpatialAudioSample::GetSpatialAudioObjectByIndex, mf.imfspatialaudiosample_getspatialaudioobjectbyindex, mfspatialaudio/IMFSpatialAudioSample::GetSpatialAudioObjectByIndex
 ms.topic: method
-f1_keywords: 
- - "mfspatialaudio/IMFSpatialAudioSample.GetSpatialAudioObjectByIndex"
+f1_keywords:
+- mfspatialaudio/IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
 dev_langs:
- - c++
+- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.lib
- - mfobjects.dll
+- mfobjects.lib
+- mfobjects.dll
 api_name:
- - IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
+- IMFSpatialAudioSample.GetSpatialAudioObjectByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

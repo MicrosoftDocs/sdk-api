@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.HasCharacter
 title: IDWriteFontFace3::HasCharacter (dwrite_3.h)
-
 description: Determines whether the font supports the specified character.
 old-location: directwrite\idwritefontface3_hascharacter.htm
 tech.root: DirectWrite
 ms.assetid: BCBC382E-C599-429A-9E00-EAB12D675503
-
 ms.date: 12/05/2018
 ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],HasCharacter method, IDWriteFontFace3.HasCharacter, IDWriteFontFace3::HasCharacter, directwrite.idwritefontface3_hascharacter, dwrite_3/IDWriteFontFace3::HasCharacter
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace3.HasCharacter"
+f1_keywords:
+- dwrite_3/IDWriteFontFace3.HasCharacter
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace3.HasCharacter
+- IDWriteFontFace3.HasCharacter
 targetos: Windows
 req.typenames: 
 req.redist: 

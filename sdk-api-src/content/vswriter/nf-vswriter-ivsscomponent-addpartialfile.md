@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.AddPartialFile
 title: IVssComponent::AddPartialFile (vswriter.h)
-
 description: The AddPartialFile method indicates that only portions of a given file are to be backed up and which portions those are.
 old-location: base\ivsscomponent_addpartialfile.htm
 tech.root: VSS
 ms.assetid: 318dc1ee-e63f-4e79-96b9-8a8bd83facd3
-
 ms.date: 12/05/2018
 ms.keywords: AddPartialFile, AddPartialFile method [VSS], AddPartialFile method [VSS],IVssComponent interface, IVssComponent interface [VSS],AddPartialFile method, IVssComponent.AddPartialFile, IVssComponent::AddPartialFile, _win32_ivsscomponent_addpartialfile, base.ivsscomponent_addpartialfile, vswriter/IVssComponent::AddPartialFile
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.AddPartialFile"
+f1_keywords:
+- vswriter/IVssComponent.AddPartialFile
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.AddPartialFile
+- IVssComponent.AddPartialFile
 targetos: Windows
 req.typenames: 
 req.redist: 

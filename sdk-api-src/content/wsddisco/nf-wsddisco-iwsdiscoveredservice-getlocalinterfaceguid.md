@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetLocalInterfaceGUID
 title: IWSDiscoveredService::GetLocalInterfaceGUID (wsddisco.h)
-
 description: Retrieves the GUID of the local network interface over which the message was received.
 old-location: ncd\iwsdiscoveredservice_getlocalinterfaceguid.htm
 tech.root: WsdApi
 ms.assetid: 9c66bda4-d21c-443f-a9b0-e05485306bde
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalInterfaceGUID, GetLocalInterfaceGUID method, GetLocalInterfaceGUID method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalInterfaceGUID method, IWSDiscoveredService.GetLocalInterfaceGUID, IWSDiscoveredService::GetLocalInterfaceGUID, ncd.iwsdiscoveredservice_getlocalinterfaceguid, wsddisco/IWSDiscoveredService::GetLocalInterfaceGUID
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveredService.GetLocalInterfaceGUID"
+f1_keywords:
+- wsddisco/IWSDiscoveredService.GetLocalInterfaceGUID
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetLocalInterfaceGUID
+- IWSDiscoveredService.GetLocalInterfaceGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

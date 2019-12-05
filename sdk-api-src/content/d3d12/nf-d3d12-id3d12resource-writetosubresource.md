@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Resource.WriteToSubresource
 title: ID3D12Resource::WriteToSubresource (d3d12.h)
-
 description: Uses the CPU to copy data into a subresource, enabling the CPU to modify the contents of most textures with undefined layouts.
 old-location: direct3d12\id3d12resource_writetosubresource.htm
 tech.root: direct3d12
 ms.assetid: 8781E2FE-8D82-41F5-B541-A96DA11CA290
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,WriteToSubresource method, ID3D12Resource.WriteToSubresource, ID3D12Resource::WriteToSubresource, WriteToSubresource, WriteToSubresource method, WriteToSubresource method,ID3D12Resource interface, d3d12/ID3D12Resource::WriteToSubresource, direct3d12.id3d12resource_writetosubresource
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Resource.WriteToSubresource"
+f1_keywords:
+- d3d12/ID3D12Resource.WriteToSubresource
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Resource.WriteToSubresource
+- ID3D12Resource.WriteToSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 

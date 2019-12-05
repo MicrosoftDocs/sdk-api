@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_SOURCE_MODE
 title: DISPLAYCONFIG_SOURCE_MODE (wingdi.h)
-
 description: The DISPLAYCONFIG_SOURCE_MODE structure represents a point or an offset in a two-dimensional space.
 old-location: display\displayconfig_source_mode.htm
 tech.root: display
 ms.assetid: 413d63e5-da9d-4906-80a9-049da6e85275
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_c8b6e9f2-0855-478f-a091-78b57b19d596.xml, DISPLAYCONFIG_SOURCE_MODE, DISPLAYCONFIG_SOURCE_MODE structure [Display Devices], display.displayconfig_source_mode, wingdi/DISPLAYCONFIG_SOURCE_MODE
 ms.topic: struct
 f1_keywords:
 - wingdi/DISPLAYCONFIG_SOURCE_MODE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.SetScrollPercent
 title: IScrollProvider::SetScrollPercent (uiautomationcore.h)
-
 description: Sets the horizontal and vertical scroll position as a percentage of the total content area within the control.
 old-location: winauto\uiauto_IScrollProvider_SetScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 4949fd00-6678-4278-b11b-cc8503e67de2
-
 ms.date: 12/05/2018
 ms.keywords: IScrollProvider interface [Windows Accessibility],SetScrollPercent method, IScrollProvider.SetScrollPercent, IScrollProvider::SetScrollPercent, SetScrollPercent, SetScrollPercent method [Windows Accessibility], SetScrollPercent method [Windows Accessibility],IScrollProvider interface, uiauto.uiauto_IScrollProvider_SetScrollPercent, uiauto_IScrollProvider_SetScrollPercent, uiautomationcore/IScrollProvider::SetScrollPercent, winauto.uiauto_IScrollProvider_SetScrollPercent
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IScrollProvider.SetScrollPercent"
+f1_keywords:
+- uiautomationcore/IScrollProvider.SetScrollPercent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IScrollProvider.SetScrollPercent
+- IScrollProvider.SetScrollPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

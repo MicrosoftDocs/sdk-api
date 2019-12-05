@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProfile.get_RemoteAdminSettings
 title: INetFwProfile::get_RemoteAdminSettings (netfw.h)
-
 description: Specifies the settings governing remote administration.
 old-location: ics\inetfwprofile_remoteadminsettings.htm
 tech.root: ics
 ms.assetid: 1e05e464-093d-4c25-850a-60e9fad64876
-
 ms.date: 12/05/2018
 ms.keywords: INetFwProfile interface [ICS/ICF],RemoteAdminSettings property, INetFwProfile.RemoteAdminSettings, INetFwProfile.get_RemoteAdminSettings, INetFwProfile::RemoteAdminSettings, INetFwProfile::get_RemoteAdminSettings, RemoteAdminSettings property [ICS/ICF], RemoteAdminSettings property [ICS/ICF],INetFwProfile interface, get_RemoteAdminSettings, ics.inetfwprofile_remoteadminpermission, ics.inetfwprofile_remoteadminsettings, netfw/INetFwProfile::RemoteAdminSettings, netfw/INetFwProfile::get_RemoteAdminSettings
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProfile.RemoteAdminSettings"
+f1_keywords:
+- netfw/INetFwProfile.RemoteAdminSettings
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwProfile.RemoteAdminSettings
- - INetFwProfile.get_RemoteAdminSettings
+- INetFwProfile.RemoteAdminSettings
+- INetFwProfile.get_RemoteAdminSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

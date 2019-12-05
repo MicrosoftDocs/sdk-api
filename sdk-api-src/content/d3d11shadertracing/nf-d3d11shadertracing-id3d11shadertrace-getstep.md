@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetStep
 title: ID3D11ShaderTrace::GetStep (d3d11shadertracing.h)
-
 description: Retrieves information about the specified step in the trace.
 old-location: direct3d11\id3d11shadertrace_getstep.htm
 tech.root: direct3d11
 ms.assetid: ECEF965F-D046-4F84-A205-F9666ECAE08C
-
 ms.date: 12/05/2018
 ms.keywords: GetStep, GetStep method [Direct3D 11], GetStep method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetStep method, ID3D11ShaderTrace.GetStep, ID3D11ShaderTrace::GetStep, d3d11shadertracing/ID3D11ShaderTrace::GetStep, direct3d11.id3d11shadertrace_getstep
 ms.topic: method
-f1_keywords: 
- - "d3d11shadertracing/ID3D11ShaderTrace.GetStep"
+f1_keywords:
+- d3d11shadertracing/ID3D11ShaderTrace.GetStep
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11SDKLayers.dll
- - D3D11_1SDKLayers.dll
- - D3D11_2SDKLayers.dll
+- D3D11SDKLayers.dll
+- D3D11_1SDKLayers.dll
+- D3D11_2SDKLayers.dll
 api_name:
- - ID3D11ShaderTrace.GetStep
+- ID3D11ShaderTrace.GetStep
 targetos: Windows
 req.typenames: 
 req.redist: 

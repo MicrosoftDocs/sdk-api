@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidInputDevices
 title: IMSVidInputDevices (segment.h)
-
 description: The IMSVidInputDevices interface represents a collection of input devices. The MSVidInputDevices object exposes this object.
 old-location: mstv\imsvidinputdevices.htm
 tech.root: mstv
 ms.assetid: cb9d9885-718e-43b9-b195-66149bd7e973
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevices, IMSVidInputDevices interface [Microsoft TV Technologies], IMSVidInputDevices interface [Microsoft TV Technologies],described, IMSVidInputDevicesInterface, mstv.imsvidinputdevices, segment/IMSVidInputDevices
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidInputDevices"
+f1_keywords:
+- segment/IMSVidInputDevices
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidInputDevices
+- IMSVidInputDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

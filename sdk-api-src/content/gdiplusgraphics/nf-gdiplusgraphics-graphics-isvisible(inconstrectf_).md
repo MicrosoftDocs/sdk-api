@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisible(IN const RectF &)
 title: Graphics::IsVisible(IN const RectF &) (gdiplusgraphics.h)
-
 description: The Graphics::IsVisible method determines whether the specified rectangle intersects the visible clipping region of this Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_RectF_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsisvisiblemethods\isvisible_15rectfamprect.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsVisible method, Graphics.IsVisible, Graphics.IsVisible(IN const RectF &), Graphics.IsVisible(const RectF&), Graphics::IsVisible, Graphics::IsVisible(IN const RectF &), IsVisible, IsVisible method [GDI+], IsVisible method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsVisible_RectF_rect_, gdiplus._gdiplus_CLASS_Graphics_IsVisible_RectF_rect_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.IsVisible"
+f1_keywords:
+- gdiplusgraphics/Graphics.IsVisible
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.IsVisible
+- Graphics.IsVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

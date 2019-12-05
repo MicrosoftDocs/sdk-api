@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get__NewEnum
 title: IUpdateHistoryEntryCollection::get__NewEnum (wuapi.h)
-
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdatehistoryentrycollection__newenum.htm
 tech.root: Wua_Sdk
 ms.assetid: ff34cf19-c189-41ce-a14e-c833e6366487
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntryCollection interface [Windows Update Agent],_NewEnum property, IUpdateHistoryEntryCollection._NewEnum, IUpdateHistoryEntryCollection.get__NewEnum, IUpdateHistoryEntryCollection::_NewEnum, IUpdateHistoryEntryCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateHistoryEntryCollection interface, get__NewEnum, wua.iupdatehistoryentrycollection__newenum, wuapi/IUpdateHistoryEntryCollection::_NewEnum, wuapi/IUpdateHistoryEntryCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntryCollection._NewEnum"
+f1_keywords:
+- wuapi/IUpdateHistoryEntryCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntryCollection._NewEnum
- - IUpdateHistoryEntryCollection.get__NewEnum
+- IUpdateHistoryEntryCollection._NewEnum
+- IUpdateHistoryEntryCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lzexpand.LZCopy
 title: LZCopy function (lzexpand.h)
-
 description: Copies a source file to a destination file.
 old-location: fs\lzcopy.htm
 tech.root: FileIO
 ms.assetid: 9b6e1ab7-68a2-4721-9e84-11c4126f37a7
-
 ms.date: 12/05/2018
 ms.keywords: LZCopy, LZCopy function [Files], _win32_lzcopy, base.lzcopy, fs.lzcopy, lzexpand/LZCopy
 ms.topic: function
-f1_keywords: 
- - "lzexpand/LZCopy"
+f1_keywords:
+- lzexpand/LZCopy
 dev_langs:
- - c++
+- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Lz32.dll
+- Lz32.dll
 api_name:
- - LZCopy
+- LZCopy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetName
 title: IMDSPStorage::GetName (mswmdm.h)
-
 description: The GetName method retrieves the display name of the storage object.
 old-location: wmdm\imdspstorage_getname.htm
 tech.root: WMDM
 ms.assetid: 6172f222-8b92-4da5-8001-b79431c26518
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetName method, IMDSPStorage.GetName, IMDSPStorage::GetName, IMDSPStorageGetName, mswmdm/IMDSPStorage::GetName, wmdm.imdspstorage_getname
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorage.GetName"
+f1_keywords:
+- mswmdm/IMDSPStorage.GetName
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorage.GetName
+- IMDSPStorage.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

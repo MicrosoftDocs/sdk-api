@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_GET_MEDIA_TYPES
 title: IOCTL_STORAGE_GET_MEDIA_TYPES
-
 description: Retrieves the geometry information for the device.
 old-location: base\ioctl_storage_get_media_types.htm
 tech.root: devio
 ms.assetid: 67f65549-f24b-4ef2-a98f-1fc618a3bb77
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_TYPES, IOCTL_STORAGE_GET_MEDIA_TYPES control, IOCTL_STORAGE_GET_MEDIA_TYPES control code, _win32_ioctl_storage_get_media_types, base.ioctl_storage_get_media_types, winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_STORAGE_GET_MEDIA_TYPES
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._AMMediaType
 title: AM_MEDIA_TYPE (strmif.h)
-
 description: The AM_MEDIA_TYPE structure describes the format of a media sample.
 old-location: dshow\am_media_type.htm
 tech.root: DirectShow
 ms.assetid: 973697d0-2897-48b5-88ca-a88a9650eb02
-
 ms.date: 12/05/2018
 ms.keywords: AM_MEDIA_TYPE, AM_MEDIA_TYPE structure [DirectShow], AM_MEDIA_TYPEStructure, FORMAT_DvInfo, FORMAT_MPEG2Video, FORMAT_MPEGStreams, FORMAT_MPEGVideo, FORMAT_None, FORMAT_VideoInfo, FORMAT_VideoInfo2, FORMAT_WaveFormatEx, GUID_NULL, _AMMediaType, dshow.am_media_type, strmif/AM_MEDIA_TYPE
 ms.topic: struct
-f1_keywords: 
- - "strmif/AM_MEDIA_TYPE"
+f1_keywords:
+- strmif/AM_MEDIA_TYPE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AM_MEDIA_TYPE
+- AM_MEDIA_TYPE
 targetos: Windows
 req.typenames: AM_MEDIA_TYPE
 req.redist: 

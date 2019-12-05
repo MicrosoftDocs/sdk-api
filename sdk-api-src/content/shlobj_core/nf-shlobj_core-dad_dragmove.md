@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.DAD_DragMove
 title: DAD_DragMove function (shlobj_core.h)
-
 description: Moves the image that is being dragged during a drag-and-drop operation.
 old-location: shell\DAD_DragMove.htm
 tech.root: shell
 ms.assetid: 7cd9f5ba-e14f-4c0c-8cde-2e7c4926b509
-
 ms.date: 12/05/2018
 ms.keywords: DAD_DragMove, DAD_DragMove function [Windows Shell], shell.DAD_DragMove, shell_DAD_DragMove, shlobj_core/DAD_DragMove
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/DAD_DragMove"
+f1_keywords:
+- shlobj_core/DAD_DragMove
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - DAD_DragMove
+- DAD_DragMove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFClockStateSink.OnClockRestart
 title: IMFClockStateSink::OnClockRestart (mfidl.h)
-
 description: Called when the presentation clock restarts from the same position while paused.
 old-location: mf\imfclockstatesink_onclockrestart.htm
 tech.root: medfound
 ms.assetid: 55973dfa-59b9-4105-9706-5d5497ad2818
-
 ms.date: 12/05/2018
 ms.keywords: 55973dfa-59b9-4105-9706-5d5497ad2818, IMFClockStateSink interface [Media Foundation],OnClockRestart method, IMFClockStateSink.OnClockRestart, IMFClockStateSink::OnClockRestart, OnClockRestart, OnClockRestart method [Media Foundation], OnClockRestart method [Media Foundation],IMFClockStateSink interface, mf.imfclockstatesink_onclockrestart, mfidl/IMFClockStateSink::OnClockRestart
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFClockStateSink.OnClockRestart"
+f1_keywords:
+- mfidl/IMFClockStateSink.OnClockRestart
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFClockStateSink.OnClockRestart
+- IMFClockStateSink.OnClockRestart
 targetos: Windows
 req.typenames: 
 req.redist: 

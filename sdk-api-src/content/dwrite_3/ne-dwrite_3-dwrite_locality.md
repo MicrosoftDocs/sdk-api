@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_3.DWRITE_LOCALITY
 title: DWRITE_LOCALITY (dwrite_3.h)
-
 description: Specifies the location of a resource.
 old-location: directwrite\dwrite_locality.htm
 tech.root: DirectWrite
 ms.assetid: DEBFE4E0-C995-4468-9702-44EA37F1BCFF
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LOCALITY, DWRITE_LOCALITY enumeration [Direct Write], DWRITE_LOCALITY_LOCAL, DWRITE_LOCALITY_PARTIAL, DWRITE_LOCALITY_REMOTE, directwrite.dwrite_locality, dwrite_3/DWRITE_LOCALITY, dwrite_3/DWRITE_LOCALITY_LOCAL, dwrite_3/DWRITE_LOCALITY_PARTIAL, dwrite_3/DWRITE_LOCALITY_REMOTE
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_LOCALITY"
+f1_keywords:
+- dwrite_3/DWRITE_LOCALITY
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_LOCALITY
+- DWRITE_LOCALITY
 targetos: Windows
 req.typenames: 
 req.redist: 

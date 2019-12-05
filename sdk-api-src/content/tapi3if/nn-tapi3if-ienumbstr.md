@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.IEnumBstr
 title: IEnumBstr (tapi3if.h)
-
 description: The IEnumBstr interface provides COM-standard methods to enumerate BSTR strings.
 old-location: tapi3\ienumbstr.htm
 tech.root: Tapi
 ms.assetid: 0e87ec06-7f3a-410c-9d54-7a67991e089c
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBstr, IEnumBstr interface [TAPI 2.2], IEnumBstr interface [TAPI 2.2],described, _tapi3_ienumbstr, tapi3.ienumbstr, tapi3if/IEnumBstr
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/IEnumBstr"
+f1_keywords:
+- tapi3if/IEnumBstr
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumBstr
+- IEnumBstr
 targetos: Windows
 req.typenames: 
 req.redist: 

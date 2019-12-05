@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsRequiredForForm
 title: IUIAutomationElement::get_CurrentIsRequiredForForm (uiautomationclient.h)
-
 description: Indicates whether the element is required to be filled out on a form.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsRequiredForForm.htm
 tech.root: WinAuto
 ms.assetid: 30482395-1d26-4f86-868c-4c46d5375c00
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsRequiredForForm property [Windows Accessibility], CurrentIsRequiredForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsRequiredForForm property, IUIAutomationElement.CurrentIsRequiredForForm, IUIAutomationElement.get_CurrentIsRequiredForForm, IUIAutomationElement::CurrentIsRequiredForForm, IUIAutomationElement::get_CurrentIsRequiredForForm, get_CurrentIsRequiredForForm, uiauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiauto_IUIAutomationElement_CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::CurrentIsRequiredForForm, uiautomationclient/IUIAutomationElement::get_CurrentIsRequiredForForm, winauto.uiauto_IUIAutomationElement_CurrentIsRequiredForForm
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentIsRequiredForForm"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentIsRequiredForForm
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentIsRequiredForForm
- - IUIAutomationElement.get_CurrentIsRequiredForForm
+- IUIAutomationElement.CurrentIsRequiredForForm
+- IUIAutomationElement.get_CurrentIsRequiredForForm
 targetos: Windows
 req.typenames: 
 req.redist: 

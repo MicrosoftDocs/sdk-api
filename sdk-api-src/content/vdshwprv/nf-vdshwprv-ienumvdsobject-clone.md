@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IEnumVdsObject.Clone
 title: IEnumVdsObject::Clone (vdshwprv.h)
-
 description: Creates an enumeration with the same state as the current enumeration.
 old-location: base\ienumvdsobject_clone.htm
 tech.root: VDS
 ms.assetid: 9d547011-2200-43fc-a8de-9b90ba94c39e
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [VDS], Clone method [VDS],IEnumVdsObject interface, IEnumVdsObject interface [VDS],Clone method, IEnumVdsObject.Clone, IEnumVdsObject::Clone, base.ienumvdsobject_clone, vds/IEnumVdsObject::Clone, vdshwprv/IEnumVdsObject::Clone
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IEnumVdsObject.Clone"
+f1_keywords:
+- vdshwprv/IEnumVdsObject.Clone
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IEnumVdsObject.Clone
+- IEnumVdsObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

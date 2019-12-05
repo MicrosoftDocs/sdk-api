@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnregisterHotKey
 title: UnregisterHotKey function (winuser.h)
-
 description: Frees a hot key previously registered by the calling thread.
 old-location: inputdev\unregisterhotkey.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\unregisterhotkey.htm
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterHotKey, UnregisterHotKey function [Keyboard and Mouse Input], _win32_UnregisterHotKey, _win32_unregisterhotkey_cpp, inputdev.unregisterhotkey, winui._win32_unregisterhotkey, winuser/UnregisterHotKey
 ms.topic: function
-f1_keywords: 
- - "winuser/UnregisterHotKey"
+f1_keywords:
+- winuser/UnregisterHotKey
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - UnregisterHotKey
+- UnregisterHotKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceSynchronizationConfig
 title: IServiceSynchronizationConfig (comsvcs.h)
-
 description: Configures the synchronization for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
 old-location: cos\iservicesynchronizationconfig.htm
 tech.root: cossdk
 ms.assetid: c4856738-66bf-4982-9440-83b72148c85c
-
 ms.date: 12/05/2018
 ms.keywords: IServiceSynchronizationConfig, IServiceSynchronizationConfig interface [COM+], IServiceSynchronizationConfig interface [COM+],described, _cos_IServiceSynchronizationConfig, comsvcs/IServiceSynchronizationConfig, cos.iservicesynchronizationconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceSynchronizationConfig"
+f1_keywords:
+- comsvcs/IServiceSynchronizationConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceSynchronizationConfig
+- IServiceSynchronizationConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

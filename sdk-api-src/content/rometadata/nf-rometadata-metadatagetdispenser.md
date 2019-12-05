@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadata.MetaDataGetDispenser
 title: MetaDataGetDispenser function (rometadata.h)
-
 description: Creates a dispenser class.
 old-location: winrt\metadatagetdispenser.htm
 tech.root: WinRT
 ms.assetid: F540CD4F-BDFB-44F8-B3A8-BFDA9199F2B9
-
 ms.date: 12/05/2018
 ms.keywords: MetaDataGetDispenser, MetaDataGetDispenser function [Windows Runtime], rometadata/MetaDataGetDispenser, winrt.metadatagetdispenser
 ms.topic: function
-f1_keywords: 
- - "rometadata/MetaDataGetDispenser"
+f1_keywords:
+- rometadata/MetaDataGetDispenser
 dev_langs:
- - c++
+- c++
 req.header: rometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Rometadata.lib
 req.dll: Rometadata.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - rometadata.dll
- - Ext-MS-Win-rometadata-dispenser-l1-1-0.dll
+- rometadata.dll
+- Ext-MS-Win-rometadata-dispenser-l1-1-0.dll
 api_name:
- - MetaDataGetDispenser
+- MetaDataGetDispenser
 targetos: Windows
 req.typenames: 
 req.redist: 

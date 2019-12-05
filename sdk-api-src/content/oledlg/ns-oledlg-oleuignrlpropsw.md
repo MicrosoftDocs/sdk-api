@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUIGNRLPROPSW
 title: OLEUIGNRLPROPSW (oledlg.h)
-
 description: Initializes the General tab of the Object Properties dialog box.
 old-location: com\oleuignrlprops_struct.htm
 tech.root: com
 ms.assetid: 851d66c8-94a7-47ab-95f4-12a34897de20
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUIGNRLPROPSW, *POLEUIGNRLPROPSW, LPOLEUIGNRLPROPS, LPOLEUIGNRLPROPS structure pointer [COM], OLEUIGNRLPROPS, OLEUIGNRLPROPS structure [COM], OLEUIGNRLPROPSA, OLEUIGNRLPROPSW, POLEUIGNRLPROPS, POLEUIGNRLPROPS structure pointer [COM], _ole_OLEUIGNRLPROPS, com.oleuignrlprops_struct, oledlg/LPOLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPSA, oledlg/OLEUIGNRLPROPSW, oledlg/POLEUIGNRLPROPS"
+ms.keywords: '*LPOLEUIGNRLPROPSW, *POLEUIGNRLPROPSW, LPOLEUIGNRLPROPS, LPOLEUIGNRLPROPS structure pointer [COM], OLEUIGNRLPROPS, OLEUIGNRLPROPS structure [COM], OLEUIGNRLPROPSA, OLEUIGNRLPROPSW, POLEUIGNRLPROPS, POLEUIGNRLPROPS structure pointer [COM], _ole_OLEUIGNRLPROPS, com.oleuignrlprops_struct, oledlg/LPOLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPS, oledlg/OLEUIGNRLPROPSA, oledlg/OLEUIGNRLPROPSW, oledlg/POLEUIGNRLPROPS'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUIGNRLPROPS"
+f1_keywords:
+- oledlg/OLEUIGNRLPROPS
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUIGNRLPROPS
- - OLEUIGNRLPROPSA
- - OLEUIGNRLPROPSW
+- OLEUIGNRLPROPS
+- OLEUIGNRLPROPSA
+- OLEUIGNRLPROPSW
 targetos: Windows
 req.typenames: OLEUIGNRLPROPSW, *POLEUIGNRLPROPSW, *LPOLEUIGNRLPROPSW
 req.redist: 

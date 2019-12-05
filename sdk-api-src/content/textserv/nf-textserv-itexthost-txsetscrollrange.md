@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxSetScrollRange
 title: ITextHost::TxSetScrollRange (textserv.h)
-
 description: Sets the minimum and maximum position values for the specified scroll bar in the text host window.
 old-location: controls\ITextHost_TxSetScrollRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txsetscrollrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxSetScrollRange method, ITextHost.TxSetScrollRange, ITextHost::TxSetScrollRange, TxSetScrollRange, TxSetScrollRange method [Windows Controls], TxSetScrollRange method [Windows Controls],ITextHost interface, _win32_ITextHost_TxSetScrollRange, _win32_ITextHost_TxSetScrollRange_cpp, controls.ITextHost_TxSetScrollRange, controls._win32_ITextHost_TxSetScrollRange, textserv/ITextHost::TxSetScrollRange
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxSetScrollRange"
+f1_keywords:
+- textserv/ITextHost.TxSetScrollRange
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxSetScrollRange
+- ITextHost.TxSetScrollRange
 targetos: Windows
 req.typenames: 
 req.redist: 

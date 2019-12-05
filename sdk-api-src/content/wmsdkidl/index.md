@@ -1,7 +1,6 @@
 ---
 UID: NA:wmsdkidl
 ms.assetid: f732d6ec-d386-38ff-849d-e5228583a928
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncFileResult
 title: IOfflineFilesEvents::SyncFileResult (cscobj.h)
-
 description: Reports the result of synchronizing a particular file.
 old-location: of\iofflinefilesevents_syncfileresult.htm
 tech.root: offlinefiles
 ms.assetid: 3770e966-7481-449e-9b57-44a7329d26db
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncFileResult method, IOfflineFilesEvents.SyncFileResult, IOfflineFilesEvents::SyncFileResult, SyncFileResult, SyncFileResult method [Offline Files], SyncFileResult method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncFileResult, of.iofflinefilesevents_syncfileresult
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.SyncFileResult"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.SyncFileResult
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.SyncFileResult
+- IOfflineFilesEvents.SyncFileResult
 targetos: Windows
 req.typenames: 
 req.redist: 

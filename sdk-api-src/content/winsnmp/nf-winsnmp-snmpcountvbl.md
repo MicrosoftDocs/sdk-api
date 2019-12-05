@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpCountVbl
 title: SnmpCountVbl function (winsnmp.h)
-
 description: A WinSNMP application calls the WinSNMP SnmpCountVbl function to enumerate the variable binding entries in the specified variable bindings list.
 old-location: snmp\snmpcountvbl.htm
 tech.root: SNMP
 ms.assetid: 08e7d450-0c75-4ef5-a9c5-ef0255601a9a
-
 ms.date: 12/05/2018
 ms.keywords: SnmpCountVbl, SnmpCountVbl function [SNMP], _snmp_snmpcountvbl, snmp.snmpcountvbl, winsnmp/SnmpCountVbl
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpCountVbl"
+f1_keywords:
+- winsnmp/SnmpCountVbl
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpCountVbl
+- SnmpCountVbl
 targetos: Windows
 req.typenames: 
 req.redist: 

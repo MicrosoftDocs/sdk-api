@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds
 title: IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds (imapi2.h)
-
 description: Retrieves a list of the write speeds supported by the disc recorder and current media.
 old-location: imapi\idiscformat2trackatonce_get_supportedwritespeeds.htm
 tech.root: imapi
 ms.assetid: b95b7fb9-6e4b-4d9d-86fe-64ca92343225
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_SupportedWriteSpeeds method, IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds, IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds, get_SupportedWriteSpeeds, get_SupportedWriteSpeeds method [IMAPI], get_SupportedWriteSpeeds method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_supportedwritespeeds, imapi2/IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds
+- IDiscFormat2TrackAtOnce.get_SupportedWriteSpeeds
 targetos: Windows
 req.typenames: 
 req.redist: 

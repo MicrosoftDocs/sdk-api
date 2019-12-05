@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetWorkItemData
 title: IScheduledWorkItem::SetWorkItemData (mstask.h)
-
 description: This method stores application-defined data associated with the work item.
 old-location: taskschd\ischeduledworkitem_setworkitemdata.htm
 tech.root: taskschd
 ms.assetid: 9135b37a-d9f8-4bee-a851-9daca6dc733c
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem interface [Task Scheduler],SetWorkItemData method, IScheduledWorkItem.SetWorkItemData, IScheduledWorkItem::SetWorkItemData, SetWorkItemData, SetWorkItemData method [Task Scheduler], SetWorkItemData method [Task Scheduler],IScheduledWorkItem interface, _msb_ischeduledworkitem_setworkitemdata, mstask/IScheduledWorkItem::SetWorkItemData, taskschd.ischeduledworkitem_setworkitemdata
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.SetWorkItemData"
+f1_keywords:
+- mstask/IScheduledWorkItem.SetWorkItemData
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.SetWorkItemData
+- IScheduledWorkItem.SetWorkItemData
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptDeriveKey
 title: NCryptDeriveKey function (ncrypt.h)
-
 description: Derives a key from a secret agreement value.
 old-location: security\ncryptderivekey.htm
 tech.root: SecCNG
 ms.assetid: 0ff08c6a-5f30-43ca-9db8-cda3e0704b0a
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_KDF_HASH, BCRYPT_KDF_HMAC, BCRYPT_KDF_SP80056A_CONCAT, BCRYPT_KDF_TLS_PRF, KDF_USE_SECRET_AS_HMAC_KEY_FLAG, NCryptDeriveKey, NCryptDeriveKey function [Security], ncrypt/NCryptDeriveKey, security.ncryptderivekey
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptDeriveKey"
+f1_keywords:
+- ncrypt/NCryptDeriveKey
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptDeriveKey
+- NCryptDeriveKey
 targetos: Windows
 req.typenames: 
 req.redist: 

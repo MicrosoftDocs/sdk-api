@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_ConnectivityInfo
 title: IRDPSRAPIAttendee::get_ConnectivityInfo (rdpencomapi.h)
-
 description: Retrieves the connectivity information for the attendee.
 old-location: rdp\irdpsrapiattendee_connectivityinfo.htm
 tech.root: rdp
 ms.assetid: 40112da5-c7b6-42f9-9acf-887161aceabf
-
 ms.date: 12/05/2018
 ms.keywords: ConnectivityInfo property [RDP], ConnectivityInfo property [RDP],IRDPSRAPIAttendee interface, ConnectivityInfo property [RDP],RDPSRAPIAttendee object, IRDPSRAPIAttendee interface [RDP],ConnectivityInfo property, IRDPSRAPIAttendee.ConnectivityInfo, IRDPSRAPIAttendee.get_ConnectivityInfo, IRDPSRAPIAttendee::ConnectivityInfo, IRDPSRAPIAttendee::get_ConnectivityInfo, RDPSRAPIAttendee object [RDP],ConnectivityInfo property, get_ConnectivityInfo, rdp.irdpsrapiattendee_connectivityinfo, rdpencomapi/IRDPSRAPIAttendee::ConnectivityInfo, rdpencomapi/IRDPSRAPIAttendee::get_ConnectivityInfo
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendee.ConnectivityInfo"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendee.ConnectivityInfo
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.ConnectivityInfo
- - IRDPSRAPIAttendee.get_ConnectivityInfo
- - RDPSRAPIAttendee.ConnectivityInfo
+- IRDPSRAPIAttendee.ConnectivityInfo
+- IRDPSRAPIAttendee.get_ConnectivityInfo
+- RDPSRAPIAttendee.ConnectivityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fontsub.MergeFontPackage
 title: MergeFontPackage function (fontsub.h)
-
 description: The MergeFontPackage function manipulates fonts created by CreateFontPackage.
 old-location: gdi\mergefontpackage.htm
 tech.root: gdi
 ms.assetid: c51110a0-286c-4d97-9da5-4186ebf8f9b8
-
 ms.date: 12/05/2018
 ms.keywords: MergeFontPackage, MergeFontPackage function [Windows GDI], TTFMFP_DELTA, TTFMFP_SUBSET, TTFMFP_SUBSET1, _win32_MergeFontPackage, fontsub/MergeFontPackage, gdi.mergefontpackage
 ms.topic: function
-f1_keywords: 
- - "fontsub/MergeFontPackage"
+f1_keywords:
+- fontsub/MergeFontPackage
 dev_langs:
- - c++
+- c++
 req.header: fontsub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: FontSub.lib
 req.dll: FontSub.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FontSub.dll
+- FontSub.dll
 api_name:
- - MergeFontPackage
+- MergeFontPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

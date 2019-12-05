@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IOpLockStatus.IsOplockBroken
 title: IOpLockStatus::IsOplockBroken (searchapi.h)
-
 description: Checks the status of the opportunistic lock (OpLock) on the item being indexed.
 old-location: search\_search_IOpLockStatus_IsOplockBroken.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\ioplockstatus\isoplockbroken.htm
-
 ms.date: 12/05/2018
 ms.keywords: IOpLockStatus interface [search],IsOplockBroken method, IOpLockStatus.IsOplockBroken, IOpLockStatus::IsOplockBroken, IsOplockBroken, IsOplockBroken method [search], IsOplockBroken method [search],IOpLockStatus interface, _search_IOpLockStatus_IsOplockBroken, search._search_IOpLockStatus_IsOplockBroken, searchapi/IOpLockStatus::IsOplockBroken
 ms.topic: method
-f1_keywords: 
- - "searchapi/IOpLockStatus.IsOplockBroken"
+f1_keywords:
+- searchapi/IOpLockStatus.IsOplockBroken
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IOpLockStatus.IsOplockBroken
+- IOpLockStatus.IsOplockBroken
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

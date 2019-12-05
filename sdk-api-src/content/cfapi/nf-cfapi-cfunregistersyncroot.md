@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfUnregisterSyncRoot
 title: CfUnregisterSyncRoot function (cfapi.h)
-
 description: Unregisters a previously registered sync root.
 old-location: cloudapi\cfunregistersyncroot.htm
 tech.root: cfApi
 ms.assetid: B4DA85DB-A63A-45EB-9F71-9395AC026A0C
-
 ms.date: 12/05/2018
 ms.keywords: CfUnregisterSyncRoot, CfUnregisterSyncRoot function, cfapi/CfUnregisterSyncRoot, cloudApi.cfunregistersyncroot
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfUnregisterSyncRoot"
+f1_keywords:
+- cfapi/CfUnregisterSyncRoot
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfUnregisterSyncRoot
+- CfUnregisterSyncRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

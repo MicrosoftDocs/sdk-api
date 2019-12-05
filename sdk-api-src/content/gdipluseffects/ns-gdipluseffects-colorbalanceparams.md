@@ -1,19 +1,17 @@
 ---
 UID: NS:gdipluseffects.ColorBalanceParams
 title: ColorBalanceParams (gdipluseffects.h)
-
 description: A ColorBalanceParams structure contains members that specify the nature of a color balance adjustment.
 old-location: gdiplus\_gdiplus_STRUC_ColorBalanceParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colorbalanceparams.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorBalanceParams, ColorBalanceParams structure [GDI+], _gdiplus_STRUC_ColorBalanceParams, gdiplus._gdiplus_STRUC_ColorBalanceParams, gdipluseffects/ColorBalanceParams
 ms.topic: struct
-f1_keywords: 
- - "gdipluseffects/ColorBalanceParams"
+f1_keywords:
+- gdipluseffects/ColorBalanceParams
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluseffects.h
+- Gdipluseffects.h
 api_name:
- - ColorBalanceParams
+- ColorBalanceParams
 targetos: Windows
 req.typenames: 
 req.redist: 

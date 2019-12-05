@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_INFO.Next
 title: IEnumWIA_DEV_INFO::Next (wia_xp.h)
-
 description: The IEnumWIA_DEV_INFO::Next method fills an array of pointers to IWiaPropertyStorage interfaces.
 old-location: wia\_wia_IEnumWIA_DEV_INFO_Next.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\next.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_INFO interface [WIA],Next method, IEnumWIA_DEV_INFO.Next, IEnumWIA_DEV_INFO::Next, Next, Next method [WIA], Next method [WIA],IEnumWIA_DEV_INFO interface, _wia_IEnumWIA_DEV_INFO_Next, wia._wia_IEnumWIA_DEV_INFO_Next, wia_xp/IEnumWIA_DEV_INFO::Next
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWIA_DEV_INFO.Next"
+f1_keywords:
+- wia_xp/IEnumWIA_DEV_INFO.Next
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_DEV_INFO.Next
+- IEnumWIA_DEV_INFO.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

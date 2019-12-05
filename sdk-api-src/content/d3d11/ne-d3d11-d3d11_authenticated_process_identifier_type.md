@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 title: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE (d3d11.h)
-
 description: Specifies the type of process that is identified in the D3D11_AUTHENTICATED_QUERY_RESTRICTED_SHARED_RESOURCE_PROCESS_OUTPUT structure.
 old-location: mf\d3d11_authenticated_process_identifier_type.htm
 tech.root: medfound
 ms.assetid: A8FFBBF1-7893-4D42-A8FB-1B7E56834603
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE enumeration [Media Foundation], D3D11_PROCESSIDTYPE_DWM, D3D11_PROCESSIDTYPE_HANDLE, D3D11_PROCESSIDTYPE_UNKNOWN, d3d11/D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE, d3d11/D3D11_PROCESSIDTYPE_DWM, d3d11/D3D11_PROCESSIDTYPE_HANDLE, d3d11/D3D11_PROCESSIDTYPE_UNKNOWN, mf.d3d11_authenticated_process_identifier_type
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
+- D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_PROCESS_IDENTIFIER_TYPE
 req.redist: 

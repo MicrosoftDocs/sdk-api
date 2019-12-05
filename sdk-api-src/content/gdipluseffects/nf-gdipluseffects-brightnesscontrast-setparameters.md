@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.BrightnessContrast.SetParameters
 title: BrightnessContrast::SetParameters (gdipluseffects.h)
-
 description: The BrightnessContrast::SetParameters method sets the parameters of this BrightnessContrast object.
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastmethods\setparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast class [GDI+],SetParameters method, BrightnessContrast.SetParameters, BrightnessContrast::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],BrightnessContrast class, _gdiplus_CLASS_BrightnessContrast_SetParameters_, gdiplus._gdiplus_CLASS_BrightnessContrast_SetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/BrightnessContrast.SetParameters"
+f1_keywords:
+- gdipluseffects/BrightnessContrast.SetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - BrightnessContrast.SetParameters
+- BrightnessContrast.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

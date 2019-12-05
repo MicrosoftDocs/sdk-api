@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_search_sA
 title: ldap_search_sA function (winldap.h)
-
 description: The ldap_search_s function synchronously searches the LDAP directory and returns a requested set of attributes for each matched entry.
 old-location: ldap\ldap_search_s.htm
 tech.root: ldap
 ms.assetid: ed0a2c43-c38f-4991-b652-a1df4f739478
-
 ms.date: 12/05/2018
 ms.keywords: LDAP_SCOPE_BASE, LDAP_SCOPE_ONELEVEL, LDAP_SCOPE_SUBTREE, _ldap_ldap_search_s, ldap.ldap__search__s, ldap.ldap_search_s, ldap_search_s, ldap_search_s function [LDAP], ldap_search_sA, ldap_search_sW, winldap/ldap_search_s, winldap/ldap_search_sA, winldap/ldap_search_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_search_s"
+f1_keywords:
+- winldap/ldap_search_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_search_s
- - ldap_search_sA
- - ldap_search_sW
+- ldap_search_s
+- ldap_search_sA
+- ldap_search_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

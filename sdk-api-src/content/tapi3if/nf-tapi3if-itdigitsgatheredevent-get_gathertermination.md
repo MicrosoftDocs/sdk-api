@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDigitsGatheredEvent.get_GatherTermination
 title: ITDigitsGatheredEvent::get_GatherTermination (tapi3if.h)
-
 description: The get_GatherTermination method gets the reason why the TAPI Server terminated the gathering of digits on the call.
 old-location: tapi3\itdigitsgatheredevent_get_gathertermination.htm
 tech.root: Tapi
 ms.assetid: 97c123b9-4497-43f3-b747-660d3f9f5848
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent interface [TAPI 2.2],get_GatherTermination method, ITDigitsGatheredEvent.get_GatherTermination, ITDigitsGatheredEvent::get_GatherTermination, _tapi3_itdigitsgatheredevent_get_gathertermination, get_GatherTermination, get_GatherTermination method [TAPI 2.2], get_GatherTermination method [TAPI 2.2],ITDigitsGatheredEvent interface, tapi3.itdigitsgatheredevent_get_gathertermination, tapi3if/ITDigitsGatheredEvent::get_GatherTermination
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDigitsGatheredEvent.get_GatherTermination"
+f1_keywords:
+- tapi3if/ITDigitsGatheredEvent.get_GatherTermination
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitsGatheredEvent.get_GatherTermination
+- ITDigitsGatheredEvent.get_GatherTermination
 targetos: Windows
 req.typenames: 
 req.redist: 

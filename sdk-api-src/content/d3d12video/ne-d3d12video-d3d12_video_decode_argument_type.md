@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_ARGUMENT_TYPE
 title: D3D12_VIDEO_DECODE_ARGUMENT_TYPE
-
 description: Specifies the argument type of a D3D12_VIDEO_DECODE_FRAME_ARGUMENT
 tech.root: mf
 ms.assetid: e9b5e3dd-d04e-4df5-9427-53255fcff245
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_DECODE_ARGUMENT_TYPE
+- D3D12_VIDEO_DECODE_ARGUMENT_TYPE
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_ARGUMENT_TYPE, D3D12_VIDEO_DECODE_ARGUMENT_TYPE, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_ARGUMENT_TYPE, D3D12_VIDEO_DECODE_ARGUMENT_TYPE,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_ARGUMENT_TYPE
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_ARGUMENT_TYPE
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_ARGUMENT_TYPE
 targetos: Windows
 ---
 

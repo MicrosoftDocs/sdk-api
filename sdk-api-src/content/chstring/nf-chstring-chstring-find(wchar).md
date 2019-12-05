@@ -3,14 +3,13 @@ UID: NF:chstring.CHString.Find(WCHAR)
 title: CHString::Find
 description: 
 ms.assetid: 
-
 ms.date: 05/13/2019
 ms.keywords: CHString::Find
 ms.topic: language-reference
-f1_keywords: 
- - "chstring/CHString::Find"
+f1_keywords:
+- chstring/CHString::Find
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - chstring.h
+- chstring.h
 api_name:
- - CHString::Find
+- CHString::Find
 ---
 
 # CHString::Find

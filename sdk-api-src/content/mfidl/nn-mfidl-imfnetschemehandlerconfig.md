@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFNetSchemeHandlerConfig
 title: IMFNetSchemeHandlerConfig (mfidl.h)
-
 description: Configures a network scheme plug-in.
 old-location: mf\imfnetschemehandlerconfig.htm
 tech.root: medfound
 ms.assetid: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35
-
 ms.date: 12/05/2018
 ms.keywords: 91bdcdbd-d621-42e3-8e0f-f8eeab489d35, IMFNetSchemeHandlerConfig, IMFNetSchemeHandlerConfig interface [Media Foundation], IMFNetSchemeHandlerConfig interface [Media Foundation],described, mf.imfnetschemehandlerconfig, mfidl/IMFNetSchemeHandlerConfig
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFNetSchemeHandlerConfig"
+f1_keywords:
+- mfidl/IMFNetSchemeHandlerConfig
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetSchemeHandlerConfig
+- IMFNetSchemeHandlerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

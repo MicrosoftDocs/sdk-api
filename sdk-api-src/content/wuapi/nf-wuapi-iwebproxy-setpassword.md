@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWebProxy.SetPassword
 title: IWebProxy::SetPassword (wuapi.h)
-
 description: Sets the password to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_setpassword.htm
 tech.root: Wua_Sdk
 ms.assetid: 59b500f1-2015-4f72-9be5-c2f57462dff0
-
 ms.date: 12/05/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],SetPassword method, IWebProxy.SetPassword, IWebProxy::SetPassword, SetPassword, SetPassword method [Windows Update Agent], SetPassword method [Windows Update Agent],IWebProxy interface, wua.iwebproxy_setpassword, wuapi/IWebProxy::SetPassword
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWebProxy.SetPassword"
+f1_keywords:
+- wuapi/IWebProxy.SetPassword
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWebProxy.SetPassword
+- IWebProxy.SetPassword
 targetos: Windows
 req.typenames: 
 req.redist: 

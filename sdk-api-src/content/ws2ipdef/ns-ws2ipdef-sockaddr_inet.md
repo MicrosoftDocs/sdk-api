@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef._SOCKADDR_INET
 title: SOCKADDR_INET (ws2ipdef.h)
-
 description: Contains an IPv4, an IPv6 address, or an address family.
 old-location: iphlp\sockaddr_inet.htm
 tech.root: IpHlp
 ms.assetid: 7278dcb4-65c6-4aea-a474-cb7fae4d7672
-
 ms.date: 12/05/2018
-ms.keywords: "*PSOCKADDR_INET, AF_INET, AF_INET6, AF_UNSPEC, PSOCKADDR_INET, PSOCKADDR_INET union pointer [IP Helper], SOCKADDR_INET, SOCKADDR_INET union [IP Helper], iphlp.sockaddr_inet, ws2ipdef/PSOCKADDR_INET, ws2ipdef/SOCKADDR_INET"
+ms.keywords: '*PSOCKADDR_INET, AF_INET, AF_INET6, AF_UNSPEC, PSOCKADDR_INET, PSOCKADDR_INET union pointer [IP Helper], SOCKADDR_INET, SOCKADDR_INET union [IP Helper], iphlp.sockaddr_inet, ws2ipdef/PSOCKADDR_INET, ws2ipdef/SOCKADDR_INET'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/SOCKADDR_INET"
+f1_keywords:
+- ws2ipdef/SOCKADDR_INET
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
+- Ws2ipdef.h
 api_name:
- - SOCKADDR_INET
+- SOCKADDR_INET
 targetos: Windows
 req.typenames: SOCKADDR_INET, *PSOCKADDR_INET
 req.redist: 

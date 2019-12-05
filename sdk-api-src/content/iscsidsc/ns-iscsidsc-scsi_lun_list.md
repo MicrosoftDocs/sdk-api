@@ -1,19 +1,17 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_3
 title: SCSI_LUN_LIST (iscsidsc.h)
-
 description: SCSI_LUN_LIST structure is used to construct a list of logical unit numbers (LUNs) associated with target devices.
 old-location: iscsidisc\scsi_lun_list.htm
 tech.root: iSCSIDisc
 ms.assetid: b0ff4b28-887c-42bf-bb7b-da23c231ff4e
-
 ms.date: 12/05/2018
-ms.keywords: "*PSCSI_LUN_LIST, PSCSI_LUN_LIST, PSCSI_LUN_LIST structure pointer [iSCSI Discovery Library API], SCSI_LUN_LIST, SCSI_LUN_LIST structure [iSCSI Discovery Library API], iscsidisc.scsi_lun_list, iscsidsc/PSCSI_LUN_LIST, iscsidsc/SCSI_LUN_LIST"
+ms.keywords: '*PSCSI_LUN_LIST, PSCSI_LUN_LIST, PSCSI_LUN_LIST structure pointer [iSCSI Discovery Library API], SCSI_LUN_LIST, SCSI_LUN_LIST structure [iSCSI Discovery Library API], iscsidisc.scsi_lun_list, iscsidsc/PSCSI_LUN_LIST, iscsidsc/SCSI_LUN_LIST'
 ms.topic: struct
-f1_keywords: 
- - "iscsidsc/SCSI_LUN_LIST"
+f1_keywords:
+- iscsidsc/SCSI_LUN_LIST
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - SCSI_LUN_LIST
+- SCSI_LUN_LIST
 targetos: Windows
 req.typenames: SCSI_LUN_LIST, *PSCSI_LUN_LIST
 req.redist: 

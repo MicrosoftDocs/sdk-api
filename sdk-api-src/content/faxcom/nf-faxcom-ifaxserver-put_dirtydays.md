@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.put_DirtyDays
 title: IFaxServer::put_DirtyDays (faxcom.h)
-
 description: Sets or retrieves the DirtyDays property for a FaxServer object. The DirtyDays property is the number of days the fax server retains an unsent job in the fax job queue.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_dirtydays_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_4nqr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DirtyDays property [Fax Service], DirtyDays property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DirtyDays property, IFaxServer.DirtyDays, IFaxServer.get_DirtyDays, IFaxServer.put_DirtyDays, IFaxServer::DirtyDays, IFaxServer::get_DirtyDays, IFaxServer::put_DirtyDays, _mfax_ifaxserver_get_dirtydays, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_dirtydays_cpp, fax._mfax_ifaxserver_get_dirtydays, faxcom/IFaxServer::DirtyDays, faxcom/IFaxServer::get_DirtyDays, faxcom/IFaxServer::put_DirtyDays, put_DirtyDays
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.DirtyDays"
+f1_keywords:
+- faxcom/IFaxServer.DirtyDays
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.DirtyDays
- - IFaxServer.get_DirtyDays
- - IFaxServer.put_DirtyDays
- - IFaxServer.get_DirtyDays
- - IFaxServer.put_DirtyDays
+- IFaxServer.DirtyDays
+- IFaxServer.get_DirtyDays
+- IFaxServer.put_DirtyDays
+- IFaxServer.get_DirtyDays
+- IFaxServer.put_DirtyDays
 targetos: Windows
 req.typenames: 
 req.redist: 

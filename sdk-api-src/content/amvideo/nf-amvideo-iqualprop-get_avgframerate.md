@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IQualProp.get_AvgFrameRate
 title: IQualProp::get_AvgFrameRate (amvideo.h)
-
 description: The get_AvgFrameRate method retrieves the actual average frame rate since streaming started.
 old-location: dshow\iqualprop_get_avgframerate.htm
 tech.root: DirectShow
 ms.assetid: 31e326e2-56de-4c7c-b26a-836c9fc76342
-
 ms.date: 12/05/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgFrameRate method, IQualProp.get_AvgFrameRate, IQualProp::get_AvgFrameRate, IQualPropget_AvgFrameRate, amvideo/IQualProp::get_AvgFrameRate, dshow.iqualprop_get_avgframerate, get_AvgFrameRate, get_AvgFrameRate method [DirectShow], get_AvgFrameRate method [DirectShow],IQualProp interface
 ms.topic: method
-f1_keywords: 
- - "amvideo/IQualProp.get_AvgFrameRate"
+f1_keywords:
+- amvideo/IQualProp.get_AvgFrameRate
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IQualProp.get_AvgFrameRate
+- IQualProp.get_AvgFrameRate
 targetos: Windows
 req.typenames: 
 req.redist: 

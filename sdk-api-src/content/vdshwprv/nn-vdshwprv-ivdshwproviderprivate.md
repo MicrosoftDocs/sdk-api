@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderPrivate
 title: IVdsHwProviderPrivate (vdshwprv.h)
-
 description: Provides a method that enables VDS to determine whether the hardware provider manages a specified LUN.
 old-location: base\ivdshwproviderprivate.htm
 tech.root: VDS
 ms.assetid: 7e6dbf9e-9060-46bf-be11-9d9d640a3d36
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderPrivate, IVdsHwProviderPrivate interface [VDS], IVdsHwProviderPrivate interface [VDS],described, base.ivdshwproviderprivate, vdshwprv/IVdsHwProviderPrivate
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsHwProviderPrivate"
+f1_keywords:
+- vdshwprv/IVdsHwProviderPrivate
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProviderPrivate
+- IVdsHwProviderPrivate
 targetos: Windows
 req.typenames: 
 req.redist: 

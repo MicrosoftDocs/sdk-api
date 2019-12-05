@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IFileSinkFilter2
 title: IFileSinkFilter2 (strmif.h)
-
 description: The IFileSinkFilter2 interface extends the IFileSinkFilter interface.
 old-location: dshow\ifilesinkfilter2.htm
 tech.root: DirectShow
 ms.assetid: 1339c441-2b10-461f-87f3-4835c1692740
-
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter2, IFileSinkFilter2 interface [DirectShow], IFileSinkFilter2 interface [DirectShow],described, IFileSinkFilter2Interface, dshow.ifilesinkfilter2, strmif/IFileSinkFilter2
 ms.topic: interface
-f1_keywords: 
- - "strmif/IFileSinkFilter2"
+f1_keywords:
+- strmif/IFileSinkFilter2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFileSinkFilter2
+- IFileSinkFilter2
 targetos: Windows
 req.typenames: 
 req.redist: 

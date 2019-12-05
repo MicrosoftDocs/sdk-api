@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IEnumPins
 title: IEnumPins (strmif.h)
-
 description: Enumerates pins on a filter.The IBaseFilter::EnumPins method returns this interface.
 old-location: dshow\ienumpins.htm
 tech.root: DirectShow
 ms.assetid: 839190b4-fd29-4a94-8838-d84adfdd9668
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPins, IEnumPins interface [DirectShow], IEnumPins interface [DirectShow],described, IEnumPinsInterface, dshow.ienumpins, strmif/IEnumPins
 ms.topic: interface
-f1_keywords: 
- - "strmif/IEnumPins"
+f1_keywords:
+- strmif/IEnumPins
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumPins
+- IEnumPins
 targetos: Windows
 req.typenames: 
 req.redist: 

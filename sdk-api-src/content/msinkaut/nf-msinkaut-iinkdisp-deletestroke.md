@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.DeleteStroke
 title: IInkDisp::DeleteStroke (msinkaut.h)
-
 description: Deletes a IInkStrokeDisp object from the InkDisp object.
 old-location: tablet\inkdisp_deletestroke.htm
 tech.root: tablet
 ms.assetid: ac6579ec-20f7-4a20-8cb8-5f3a6119959d
-
 ms.date: 12/05/2018
 ms.keywords: DeleteStroke, DeleteStroke method [Tablet PC], DeleteStroke method [Tablet PC],IInkDisp interface, IInkDisp, IInkDisp interface [Tablet PC],DeleteStroke method, IInkDisp.DeleteStroke, IInkDisp::DeleteStroke, ac6579ec-20f7-4a20-8cb8-5f3a6119959d, msinkaut/IInkDisp::DeleteStroke, tablet.inkdisp_deletestroke
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.DeleteStroke"
+f1_keywords:
+- msinkaut/IInkDisp.DeleteStroke
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.DeleteStroke
+- IInkDisp.DeleteStroke
 targetos: Windows
 req.typenames: 
 req.redist: 

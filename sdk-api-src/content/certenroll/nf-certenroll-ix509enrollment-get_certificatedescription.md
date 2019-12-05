@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_CertificateDescription
 title: IX509Enrollment::get_CertificateDescription (certenroll.h)
-
 description: Specifies or retrieves a string that contains a description of the certificate.
 old-location: security\ix509enrollment_certificatedescription_property.htm
 tech.root: seccertenroll
 ms.assetid: 5057770b-79b1-4c83-bf2e-bff1eb91aea0
-
 ms.date: 12/05/2018
 ms.keywords: CertificateDescription property [Security], CertificateDescription property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CertificateDescription property, IX509Enrollment.CertificateDescription, IX509Enrollment.get_CertificateDescription, IX509Enrollment::CertificateDescription, IX509Enrollment::get_CertificateDescription, IX509Enrollment::put_CertificateDescription, certenroll/IX509Enrollment::CertificateDescription, certenroll/IX509Enrollment::get_CertificateDescription, certenroll/IX509Enrollment::put_CertificateDescription, get_CertificateDescription, security.ix509enrollment_certificatedescription_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.CertificateDescription"
+f1_keywords:
+- certenroll/IX509Enrollment.CertificateDescription
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.CertificateDescription
- - IX509Enrollment.get_CertificateDescription
- - IX509Enrollment.put_CertificateDescription
+- IX509Enrollment.CertificateDescription
+- IX509Enrollment.get_CertificateDescription
+- IX509Enrollment.put_CertificateDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

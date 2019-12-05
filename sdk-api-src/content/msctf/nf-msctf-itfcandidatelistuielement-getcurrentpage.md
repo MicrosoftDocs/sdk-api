@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCurrentPage
 title: ITfCandidateListUIElement::GetCurrentPage (msctf.h)
-
 description: The ITfCandidateListUIElement::GetCurrentPage method returns the current page.
 old-location: tsf\itfcandidatelistuielement_getcurrentpage.htm
 tech.root: TSF
 ms.assetid: 551c73ff-8fbd-47e5-a6e8-90d58141c7c0
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPage, GetCurrentPage method [Text Services Framework], GetCurrentPage method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetCurrentPage method, ITfCandidateListUIElement.GetCurrentPage, ITfCandidateListUIElement::GetCurrentPage, msctf/ITfCandidateListUIElement::GetCurrentPage, tsf.itfcandidatelistuielement_getcurrentpage
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCandidateListUIElement.GetCurrentPage"
+f1_keywords:
+- msctf/ITfCandidateListUIElement.GetCurrentPage
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCandidateListUIElement.GetCurrentPage
+- ITfCandidateListUIElement.GetCurrentPage
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

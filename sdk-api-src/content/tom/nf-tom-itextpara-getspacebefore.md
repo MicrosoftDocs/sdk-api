@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetSpaceBefore
 title: ITextPara::GetSpaceBefore (tom.h)
-
 description: Retrieves the amount of vertical space above a paragraph.
 old-location: controls\ITextPara_GetSpaceBefore.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspacebefore.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSpaceBefore, GetSpaceBefore method [Windows Controls], GetSpaceBefore method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceBefore method, ITextPara.GetSpaceBefore, ITextPara::GetSpaceBefore, _win32_ITextPara_GetSpaceBefore, _win32_ITextPara_GetSpaceBefore_cpp, controls.ITextPara_GetSpaceBefore, controls._win32_ITextPara_GetSpaceBefore, tom/ITextPara::GetSpaceBefore
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetSpaceBefore"
+f1_keywords:
+- tom/ITextPara.GetSpaceBefore
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetSpaceBefore
+- ITextPara.GetSpaceBefore
 targetos: Windows
 req.typenames: 
 req.redist: 

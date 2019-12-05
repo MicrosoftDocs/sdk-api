@@ -1,19 +1,17 @@
 ---
 UID: NS:x3daudio.X3DAUDIO_LISTENER
 title: X3DAUDIO_LISTENER (x3daudio.h)
-
 description: Defines a point of 3D audio reception.
 old-location: xaudio2\x3daudio_listener.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.x3daudio.X3DAUDIO_LISTENER
-
 ms.date: 12/05/2018
-ms.keywords: "*LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_LISTENER, X3DAUDIO_LISTENER structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_LISTENER, x3daudio/X3DAUDIO_LISTENER, xaudio2.x3daudio_listener"
+ms.keywords: '*LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER, LPX3DAUDIO_LISTENER structure pointer [XAudio2 Audio Mixing APIs], X3DAUDIO_LISTENER, X3DAUDIO_LISTENER structure [XAudio2 Audio Mixing APIs], x3daudio/LPX3DAUDIO_LISTENER, x3daudio/X3DAUDIO_LISTENER, xaudio2.x3daudio_listener'
 ms.topic: struct
-f1_keywords: 
- - "x3daudio/X3DAUDIO_LISTENER"
+f1_keywords:
+- x3daudio/X3DAUDIO_LISTENER
 dev_langs:
- - c++
+- c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - x3daudio.h
+- x3daudio.h
 api_name:
- - X3DAUDIO_LISTENER
+- X3DAUDIO_LISTENER
 targetos: Windows
 req.typenames: X3DAUDIO_LISTENER, *LPX3DAUDIO_LISTENER
 req.redist: 

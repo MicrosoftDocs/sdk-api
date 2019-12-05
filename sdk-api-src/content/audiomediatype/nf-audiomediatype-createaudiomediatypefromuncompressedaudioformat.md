@@ -1,19 +1,17 @@
 ---
 UID: NF:audiomediatype.CreateAudioMediaTypeFromUncompressedAudioFormat
 title: CreateAudioMediaTypeFromUncompressedAudioFormat function (audiomediatype.h)
-
 description: The CreateAudioMediaTypeFromUncompressedAudioFormat function uses the information provided in the UNCOMPRESSEDAUDIOFORMAT structure to create a media type object that describes the audio format.
 old-location: audio\createaudiomediatypefromuncompressedaudioformat.htm
 tech.root: audio
 ms.assetid: 48c9d15c-2e95-4a4a-b2cb-8a144569e45b
-
 ms.date: 12/05/2018
 ms.keywords: CreateAudioMediaTypeFromUncompressedAudioFormat, CreateAudioMediaTypeFromUncompressedAudioFormat function [Audio Devices], audio.createaudiomediatypefromuncompressedaudioformat, audio_syseffects_r_af85b8fb-5bdc-41f6-af2f-ee84ca999ac9.xml, audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat
 ms.topic: function
 f1_keywords:
 - audiomediatype/CreateAudioMediaTypeFromUncompressedAudioFormat
 dev_langs:
- - c++
+- c++
 req.header: audiomediatype.h
 req.include-header: Audiomediatype.h
 req.target-type: Desktop

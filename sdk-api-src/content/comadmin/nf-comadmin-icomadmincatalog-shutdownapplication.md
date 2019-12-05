@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.ShutdownApplication
 title: ICOMAdminCatalog::ShutdownApplication (comadmin.h)
-
 description: Initiates shutdown of a COM+ server application process.
 old-location: cos\icomadmincatalog_shutdownapplication.htm
 tech.root: cossdk
 ms.assetid: 79f3af18-0924-4e09-85aa-54a6886b65b3
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],ShutdownApplication method, ICOMAdminCatalog.ShutdownApplication, ICOMAdminCatalog::ShutdownApplication, ShutdownApplication, ShutdownApplication method [COM+], ShutdownApplication method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_ShutdownApplication, comadmin/ICOMAdminCatalog::ShutdownApplication, cos.icomadmincatalog_shutdownapplication
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.ShutdownApplication"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.ShutdownApplication
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.ShutdownApplication
+- ICOMAdminCatalog.ShutdownApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

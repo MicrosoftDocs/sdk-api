@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UpdateWindow
 title: UpdateWindow function (winuser.h)
-
 description: The UpdateWindow function updates the client area of the specified window by sending a WM_PAINT message to the window if the window's update region is not empty.
 old-location: gdi\updatewindow.htm
 tech.root: gdi
 ms.assetid: 51a50f1f-7b4d-4acd-83a0-1877f5181766
-
 ms.date: 12/05/2018
 ms.keywords: UpdateWindow, UpdateWindow function [Windows GDI], _win32_UpdateWindow, gdi.updatewindow, winuser/UpdateWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/UpdateWindow"
+f1_keywords:
+- winuser/UpdateWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - UpdateWindow
+- UpdateWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

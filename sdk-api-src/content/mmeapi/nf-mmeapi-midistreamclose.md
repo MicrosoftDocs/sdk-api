@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiStreamClose
 title: midiStreamClose function (mmeapi.h)
-
 description: The midiStreamClose function closes an open MIDI stream.
 old-location: multimedia\midistreamclose.htm
 tech.root: Multimedia
 ms.assetid: 53096399-3e79-4534-8b67-ccb70c32ccf0
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiStreamClose, midiStreamClose, midiStreamClose function [Windows Multimedia], mmeapi/midiStreamClose, multimedia.midistreamclose"
+ms.keywords: _win32_midiStreamClose, midiStreamClose, midiStreamClose function [Windows Multimedia], mmeapi/midiStreamClose, multimedia.midistreamclose
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiStreamClose"
+f1_keywords:
+- mmeapi/midiStreamClose
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiStreamClose
+- midiStreamClose
 targetos: Windows
 req.typenames: 
 req.redist: 

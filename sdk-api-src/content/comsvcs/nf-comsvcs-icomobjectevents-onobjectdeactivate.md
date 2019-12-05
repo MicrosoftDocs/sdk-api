@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnObjectDeactivate
 title: IComObjectEvents::OnObjectDeactivate (comsvcs.h)
-
 description: Generated when the JIT-activated object is freed by SetComplete or SetAbort.
 old-location: cos\icomobjectevents_onobjectdeactivate.htm
 tech.root: cossdk
 ms.assetid: 3284da44-bcc4-49eb-9aa8-40061bf51869
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectDeactivate method, IComObjectEvents.OnObjectDeactivate, IComObjectEvents::OnObjectDeactivate, OnObjectDeactivate, OnObjectDeactivate method [COM+], OnObjectDeactivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectDeactivate, comsvcs/IComObjectEvents::OnObjectDeactivate, cos.icomobjectevents_onobjectdeactivate
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectEvents.OnObjectDeactivate"
+f1_keywords:
+- comsvcs/IComObjectEvents.OnObjectDeactivate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectEvents.OnObjectDeactivate
+- IComObjectEvents.OnObjectDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

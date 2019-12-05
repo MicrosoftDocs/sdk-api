@@ -1,19 +1,17 @@
 ---
 UID: NN:imepad.IImePad
 title: IImePad (imepad.h)
-
 description: The IImePad interface inserts text into apps from IMEPadApplets that implement the IImePadApplet interface.
 old-location: intl\iimepad.htm
 tech.root: Intl
 ms.assetid: 6604112A-5BD5-4B2C-AECC-D09180B04D7F
-
 ms.date: 12/05/2018
 ms.keywords: IImePad, IImePad interface [Internationalization for Windows Applications], IImePad interface [Internationalization for Windows Applications],described, imepad/IImePad, intl.iimepad
 ms.topic: interface
-f1_keywords: 
- - "imepad/IImePad"
+f1_keywords:
+- imepad/IImePad
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IImePad
+- IImePad
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager.DisableWdsTransportServices
 title: IWdsTransportConfigurationManager::DisableWdsTransportServices (wdstptmgmt.h)
-
 description: Sets all WDS transport services to Disabled mode.
 old-location: wds\iwdstransportconfigurationmanager_disablewdstransportservices.htm
 tech.root: wds
 ms.assetid: 46ded55b-f371-405a-bfcd-c361ac6fb5bd
-
 ms.date: 12/05/2018
 ms.keywords: DisableWdsTransportServices, DisableWdsTransportServices method [Windows Deployment Services], DisableWdsTransportServices method [Windows Deployment Services],IWdsTransportConfigurationManager interface, IWdsTransportConfigurationManager interface [Windows Deployment Services],DisableWdsTransportServices method, IWdsTransportConfigurationManager.DisableWdsTransportServices, IWdsTransportConfigurationManager::DisableWdsTransportServices, wds.iwdstransportconfigurationmanager_disablewdstransportservices, wdstptmgmt/IWdsTransportConfigurationManager::DisableWdsTransportServices
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportConfigurationManager.DisableWdsTransportServices"
+f1_keywords:
+- wdstptmgmt/IWdsTransportConfigurationManager.DisableWdsTransportServices
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager.DisableWdsTransportServices
+- IWdsTransportConfigurationManager.DisableWdsTransportServices
 targetos: Windows
 req.typenames: 
 req.redist: 

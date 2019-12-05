@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.SetContent
 title: IXpsOMFontResource::SetContent (xpsobjectmodel.h)
-
 description: Sets the read-only stream to be associated with this resource.
 old-location: xps\ixpsomfontresource_setcontent.htm
 tech.root: printdocs
 ms.assetid: 87a9d003-9406-4c94-b814-4986d213ee47
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResource interface [XPS Documents and Packaging],SetContent method, IXpsOMFontResource.SetContent, IXpsOMFontResource::SetContent, SetContent, SetContent method [XPS Documents and Packaging], SetContent method [XPS Documents and Packaging],IXpsOMFontResource interface, XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, xps.ixpsomfontresource_setcontent, xpsobjectmodel/IXpsOMFontResource::SetContent
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMFontResource.SetContent"
+f1_keywords:
+- xpsobjectmodel/IXpsOMFontResource.SetContent
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMFontResource.SetContent
+- IXpsOMFontResource.SetContent
 targetos: Windows
 req.typenames: 
 req.redist: 

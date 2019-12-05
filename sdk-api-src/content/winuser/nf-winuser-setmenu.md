@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetMenu
 title: SetMenu function (winuser.h)
-
 description: Assigns a new menu to the specified window.
 old-location: menurc\setmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\setmenu.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetMenu, SetMenu function [Menus and Other Resources], _win32_SetMenu, _win32_setmenu_cpp, menurc.setmenu, winui._win32_setmenu, winuser/SetMenu
 ms.topic: function
-f1_keywords: 
- - "winuser/SetMenu"
+f1_keywords:
+- winuser/SetMenu
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SetMenu
+- SetMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

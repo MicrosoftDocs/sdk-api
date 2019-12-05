@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.ICategoryCollection.get_Item
 title: ICategoryCollection::get_Item (wuapi.h)
-
 description: Gets an ICategory interface from the collection.
 old-location: wua\icategorycollection_item.htm
 tech.root: Wua_Sdk
 ms.assetid: dbdf48a6-6a5b-4581-ba6c-a26acd004ecf
-
 ms.date: 12/05/2018
 ms.keywords: ICategoryCollection interface [Windows Update Agent],Item property, ICategoryCollection.Item, ICategoryCollection.get_Item, ICategoryCollection::Item, ICategoryCollection::get_Item, Item property [Windows Update Agent], Item property [Windows Update Agent],ICategoryCollection interface, get_Item, wua.icategorycollection_item, wuapi/ICategoryCollection::Item, wuapi/ICategoryCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "wuapi/ICategoryCollection.Item"
+f1_keywords:
+- wuapi/ICategoryCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ICategoryCollection.Item
- - ICategoryCollection.get_Item
+- ICategoryCollection.Item
+- ICategoryCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetCurrentTimeEx
 title: IMFMediaEngineEx::SetCurrentTimeEx (mfmediaengine.h)
-
 description: Seeks to a new playback position using the specified MF_MEDIA_ENGINE_SEEK_MODE.
 old-location: mf\imfmediaengineex_setcurrenttimeex.htm
 tech.root: medfound
 ms.assetid: ee594f0c-af49-44c2-8c68-16120f76c5e1
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetCurrentTimeEx method, IMFMediaEngineEx.SetCurrentTimeEx, IMFMediaEngineEx::SetCurrentTimeEx, SetCurrentTimeEx, SetCurrentTimeEx method [Media Foundation], SetCurrentTimeEx method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setcurrenttimeex, mfmediaengine/IMFMediaEngineEx::SetCurrentTimeEx
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.SetCurrentTimeEx"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.SetCurrentTimeEx
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.SetCurrentTimeEx
+- IMFMediaEngineEx.SetCurrentTimeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

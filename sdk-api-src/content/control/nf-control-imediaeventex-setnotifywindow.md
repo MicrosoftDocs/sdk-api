@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaEventEx.SetNotifyWindow
 title: IMediaEventEx::SetNotifyWindow (control.h)
-
 description: The SetNotifyWindow method registers a window to process event notifications.
 old-location: dshow\imediaeventex_setnotifywindow.htm
 tech.root: DirectShow
 ms.assetid: 3e582c79-b8c7-40be-97fd-75d5b7965570
-
 ms.date: 12/05/2018
 ms.keywords: IMediaEventEx interface [DirectShow],SetNotifyWindow method, IMediaEventEx.SetNotifyWindow, IMediaEventEx::SetNotifyWindow, IMediaEventExSetNotifyWindow, SetNotifyWindow, SetNotifyWindow method [DirectShow], SetNotifyWindow method [DirectShow],IMediaEventEx interface, control/IMediaEventEx::SetNotifyWindow, dshow.imediaeventex_setnotifywindow
 ms.topic: method
-f1_keywords: 
- - "control/IMediaEventEx.SetNotifyWindow"
+f1_keywords:
+- control/IMediaEventEx.SetNotifyWindow
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEventEx.SetNotifyWindow
+- IMediaEventEx.SetNotifyWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellView.GetItemObject
 title: IShellView::GetItemObject (shobjidl_core.h)
-
 description: Gets an interface that refers to data presented in the view.
 old-location: shell\IShellView_GetItemObject.htm
 tech.root: shell
 ms.assetid: 249ce8cc-6820-4f0a-a83a-2035e88d0d9c
-
 ms.date: 12/05/2018
 ms.keywords: GetItemObject, GetItemObject method [Windows Shell], GetItemObject method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetItemObject method, IShellView.GetItemObject, IShellView::GetItemObject, _win32_IShellView_GetItemObject, shell.IShellView_GetItemObject, shobjidl_core/IShellView::GetItemObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellView.GetItemObject"
+f1_keywords:
+- shobjidl_core/IShellView.GetItemObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView.GetItemObject
+- IShellView.GetItemObject
 targetos: Windows
 req.typenames: 
 req.redist: 

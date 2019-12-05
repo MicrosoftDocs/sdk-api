@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupBeginW
 title: RpcNsBindingLookupBeginW function (rpcnsi.h)
-
 description: The RpcNsBindingLookupBegin function creates a lookup context for an interface and an object.
 old-location: rpc\rpcnsbindinglookupbegin.htm
 tech.root: Rpc
 ms.assetid: 75b7e901-706a-4e3d-b958-d04a0709b993
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsBindingLookupBegin, RpcNsBindingLookupBegin function [RPC], RpcNsBindingLookupBeginA, RpcNsBindingLookupBeginW, _rpc_rpcnsbindinglookupbegin, rpc.rpcnsbindinglookupbegin, rpcnsi/RpcNsBindingLookupBegin, rpcnsi/RpcNsBindingLookupBeginA, rpcnsi/RpcNsBindingLookupBeginW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsBindingLookupBegin"
+f1_keywords:
+- rpcnsi/RpcNsBindingLookupBegin
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsBindingLookupBegin
- - RpcNsBindingLookupBeginA
- - RpcNsBindingLookupBeginW
+- RpcNsBindingLookupBegin
+- RpcNsBindingLookupBeginA
+- RpcNsBindingLookupBeginW
 targetos: Windows
 req.typenames: 
 req.redist: 

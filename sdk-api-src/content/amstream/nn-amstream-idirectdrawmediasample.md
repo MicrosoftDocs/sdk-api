@@ -1,19 +1,17 @@
 ---
 UID: NN:amstream.IDirectDrawMediaSample
 title: IDirectDrawMediaSample (amstream.h)
-
 description: The IDirectDrawMediaSample interface provides access to DirectDraw surfaces allocated by the Overlay Mixer filter.The allocator for the Overlay Mixer filter creates samples that expose this interface.
 old-location: dshow\idirectdrawmediasample.htm
 tech.root: DirectShow
 ms.assetid: 0a83b257-e88f-4870-924c-56ddc325f17f
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSample, IDirectDrawMediaSample interface [DirectShow], IDirectDrawMediaSample interface [DirectShow],described, IDirectDrawMediaSampleInterface, amstream/IDirectDrawMediaSample, dshow.idirectdrawmediasample
 ms.topic: interface
-f1_keywords: 
- - "amstream/IDirectDrawMediaSample"
+f1_keywords:
+- amstream/IDirectDrawMediaSample
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawMediaSample
+- IDirectDrawMediaSample
 targetos: Windows
 req.typenames: 
 req.redist: 

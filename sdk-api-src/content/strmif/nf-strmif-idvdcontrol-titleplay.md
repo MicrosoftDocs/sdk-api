@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.TitlePlay
 title: IDvdControl::TitlePlay (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Finds the media file with the specified title index and plays it back.
 old-location: dshow\idvdcontrol_titleplay.htm
 tech.root: DirectShow
 ms.assetid: 5ca710f0-8f08-43d6-8cc1-a25068d5e0ef
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TitlePlay method, IDvdControl.TitlePlay, IDvdControl::TitlePlay, IDvdControlTitlePlay, TitlePlay, TitlePlay method [DirectShow], TitlePlay method [DirectShow],IDvdControl interface, dshow.idvdcontrol_titleplay, strmif/IDvdControl::TitlePlay
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.TitlePlay"
+f1_keywords:
+- strmif/IDvdControl.TitlePlay
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.TitlePlay
+- IDvdControl.TitlePlay
 targetos: Windows
 req.typenames: 
 req.redist: 

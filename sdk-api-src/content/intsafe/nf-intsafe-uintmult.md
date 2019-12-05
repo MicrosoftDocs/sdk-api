@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntMult
 title: UIntMult function (intsafe.h)
-
 description: Multiplies one value of type UINT by another.
 old-location: shell\UIntMult.htm
 tech.root: shell
 ms.assetid: c469417c-c774-4946-b873-cc2845417655
-
 ms.date: 12/05/2018
 ms.keywords: UIntMult, UIntMult function [Windows Shell], _shell_UIntMult, intsafe/UIntMult, shell.UIntMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntMult"
+f1_keywords:
+- intsafe/UIntMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntMult
+- UIntMult
 targetos: Windows
 req.typenames: 
 req.redist: 

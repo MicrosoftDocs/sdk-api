@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IQueryParser
 title: IQueryParser (structuredquery.h)
-
 description: Provides methods to parse an input string into an IQuerySolution object.
 old-location: search\_search_IQueryParser.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\iqueryparser.htm
-
 ms.date: 12/05/2018
 ms.keywords: IQueryParser, IQueryParser interface [search], IQueryParser interface [search],described, _search_IQueryParser, search._search_IQueryParser, structuredquery/IQueryParser
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IQueryParser"
+f1_keywords:
+- structuredquery/IQueryParser
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParser
+- IQueryParser
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

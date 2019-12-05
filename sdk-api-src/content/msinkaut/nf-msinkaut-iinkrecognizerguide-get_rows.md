@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.get_Rows
 title: IInkRecognizerGuide::get_Rows (msinkaut.h)
-
 description: Gets or sets the number of rows in the recognition guide.
 old-location: tablet\inkrecognizerguide_rows.htm
 tech.root: tablet
 ms.assetid: 5b1204ca-40b0-4752-8294-6f94412e8e7c
-
 ms.date: 12/05/2018
 ms.keywords: 5b1204ca-40b0-4752-8294-6f94412e8e7c, IInkRecognizerGuide interface [Tablet PC],Rows property, IInkRecognizerGuide.Rows, IInkRecognizerGuide.get_Rows, IInkRecognizerGuide::Rows, IInkRecognizerGuide::get_Rows, IInkRecognizerGuide::put_Rows, InkRecognizerGuide.get_Rows, InkRecognizerGuide.put_Rows, Rows property [Tablet PC], Rows property [Tablet PC],IInkRecognizerGuide interface, get_Rows, msinkaut/IInkRecognizerGuide::Rows, msinkaut/IInkRecognizerGuide::get_Rows, msinkaut/IInkRecognizerGuide::put_Rows, put_Rows, tablet.inkrecognizerguide_rows
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerGuide.Rows"
+f1_keywords:
+- msinkaut/IInkRecognizerGuide.Rows
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.Rows
- - IInkRecognizerGuide.get_Rows
- - IInkRecognizerGuide.put_Rows
- - InkRecognizerGuide.get_Rows
- - InkRecognizerGuide.put_Rows
+- IInkRecognizerGuide.Rows
+- IInkRecognizerGuide.get_Rows
+- IInkRecognizerGuide.put_Rows
+- InkRecognizerGuide.get_Rows
+- InkRecognizerGuide.put_Rows
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia._AM_COPY_MACROVISION
 title: AM_COPY_MACROVISION (dvdmedia.h)
-
 description: The AM_COPY_MACROVISION structure specifies the analog copy protection level for an NTSC encoder.
 old-location: dshow\am_copy_macrovision.htm
 tech.root: DirectShow
 ms.assetid: 7fb1b12a-92f4-48e2-8ebe-359ebc33cd09
-
 ms.date: 12/05/2018
-ms.keywords: "*PAM_COPY_MACROVISION, AM_COPY_MACROVISION, AM_COPY_MACROVISION structure [DirectShow], PAM_COPY_MACROVISION, PAM_COPY_MACROVISION structure pointer [DirectShow], dshow.am_copy_macrovision, dvdmedia/AM_COPY_MACROVISION, dvdmedia/PAM_COPY_MACROVISION"
+ms.keywords: '*PAM_COPY_MACROVISION, AM_COPY_MACROVISION, AM_COPY_MACROVISION structure [DirectShow], PAM_COPY_MACROVISION, PAM_COPY_MACROVISION structure pointer [DirectShow], dshow.am_copy_macrovision, dvdmedia/AM_COPY_MACROVISION, dvdmedia/PAM_COPY_MACROVISION'
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_COPY_MACROVISION"
+f1_keywords:
+- dvdmedia/AM_COPY_MACROVISION
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_COPY_MACROVISION
+- AM_COPY_MACROVISION
 targetos: Windows
 req.typenames: AM_COPY_MACROVISION, *PAM_COPY_MACROVISION
 req.redist: 

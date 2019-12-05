@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
 title: IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics (wtsprotocol.h)
-
 description: Queries the protocol if RemoteFX graphics should be enabled for the connection.
 old-location: termserv\iwrdsremotefxgraphicsconnection_enableremotefxgraphics.htm
 tech.root: TermServ
 ms.assetid: 3ad667ed-bbb5-44e2-992a-df90bbab7b79
-
 ms.date: 12/05/2018
 ms.keywords: EnableRemoteFXGraphics, EnableRemoteFXGraphics method [Remote Desktop Services], EnableRemoteFXGraphics method [Remote Desktop Services],IWRdsRemoteFXGraphicsConnection interface, IWRdsRemoteFXGraphicsConnection interface [Remote Desktop Services],EnableRemoteFXGraphics method, IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics, IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics, termserv.iwrdsremotefxgraphicsconnection_enableremotefxgraphics, wtsprotocol/IWRdsRemoteFXGraphicsConnection::EnableRemoteFXGraphics
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics"
+f1_keywords:
+- wtsprotocol/IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
+- IWRdsRemoteFXGraphicsConnection.EnableRemoteFXGraphics
 targetos: Windows
 req.typenames: 
 req.redist: 

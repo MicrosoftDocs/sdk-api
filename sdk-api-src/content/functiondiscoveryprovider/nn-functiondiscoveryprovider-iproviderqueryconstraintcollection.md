@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderQueryConstraintCollection
 title: IProviderQueryConstraintCollection (functiondiscoveryprovider.h)
-
 description: This interface is accessible to the provider through the IFunctionDiscoveryProviderQuery::GetQueryConstraints method.
 old-location: ncd\iproviderqueryconstraintcollection.htm
 tech.root: FunDisc
 ms.assetid: 4d8ff5b9-ec4a-4ec6-b133-3d315f9c017b
-
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection, IProviderQueryConstraintCollection interface, IProviderQueryConstraintCollection interface,described, functiondiscoveryprovider/IProviderQueryConstraintCollection, ncd.iproviderqueryconstraintcollection
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderQueryConstraintCollection"
+f1_keywords:
+- functiondiscoveryprovider/IProviderQueryConstraintCollection
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderQueryConstraintCollection
+- IProviderQueryConstraintCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ServiceDeleted
 title: IGuideDataEvent::ServiceDeleted (bdatif.h)
-
 description: The ServiceDeleted method is called when a service has been deleted.
 old-location: mstv\iguidedataevent_servicedeleted.htm
 tech.root: mstv
 ms.assetid: bba15ebe-d1c5-4c71-b052-6b75a7825613
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ServiceDeleted method, IGuideDataEvent.ServiceDeleted, IGuideDataEvent::ServiceDeleted, IGuideDataEventServiceDeleted, ServiceDeleted, ServiceDeleted method [Microsoft TV Technologies], ServiceDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ServiceDeleted, mstv.iguidedataevent_servicedeleted
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataEvent.ServiceDeleted"
+f1_keywords:
+- bdatif/IGuideDataEvent.ServiceDeleted
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataEvent.ServiceDeleted
+- IGuideDataEvent.ServiceDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

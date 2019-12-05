@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetCHString
 title: CInstance::GetCHString (instance.h)
-
 description: The GetCHString method retrieves a string property.
 old-location: wmi\cinstance_getchstring.htm
 tech.root: WmiSdk
 ms.assetid: d9295ba1-19da-41a2-86d1-ec80e18e895b
-
 ms.date: 12/05/2018
-ms.keywords: "?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z, ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z, CInstance interface [Windows Management Instrumentation],GetCHString method, CInstance.GetCHString, CInstance::GetCHString, GetCHString, GetCHString method [Windows Management Instrumentation], GetCHString method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getchstring, instance/CInstance::GetCHString, wmi.cinstance_getchstring"
+ms.keywords: ?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z, ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z, CInstance interface [Windows Management Instrumentation],GetCHString method, CInstance.GetCHString, CInstance::GetCHString, GetCHString, GetCHString method [Windows Management Instrumentation], GetCHString method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getchstring, instance/CInstance::GetCHString, wmi.cinstance_getchstring
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetCHString"
+f1_keywords:
+- instance/CInstance.GetCHString
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetCHString
- - ?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z
- - ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z
+- CInstance.GetCHString
+- ?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z
+- ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

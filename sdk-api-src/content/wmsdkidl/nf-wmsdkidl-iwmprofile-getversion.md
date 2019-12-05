@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetVersion
 title: IWMProfile::GetVersion (wmsdkidl.h)
-
 description: The GetVersion method retrieves the version number of the Windows Media Format SDK used to create the profile.
 old-location: wmformat\iwmprofile_getversion.htm
 tech.root: wmformat
 ms.assetid: 4f74378e-4b60-4b49-8107-26eebdfab02a
-
 ms.date: 12/05/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Format], GetVersion method [windows Media Format],IWMProfile interface, GetVersion method [windows Media Format],IWMProfile2 interface, GetVersion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetVersion method, IWMProfile.GetVersion, IWMProfile2 interface [windows Media Format],GetVersion method, IWMProfile2::GetVersion, IWMProfile3 interface [windows Media Format],GetVersion method, IWMProfile3::GetVersion, IWMProfile::GetVersion, IWMProfileGetVersion, wmformat.iwmprofile_getversion, wmsdkidl/IWMProfile2::GetVersion, wmsdkidl/IWMProfile3::GetVersion, wmsdkidl/IWMProfile::GetVersion
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.GetVersion"
+f1_keywords:
+- wmsdkidl/IWMProfile.GetVersion
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.GetVersion
- - IWMProfile2.GetVersion
- - IWMProfile3.GetVersion
+- IWMProfile.GetVersion
+- IWMProfile2.GetVersion
+- IWMProfile3.GetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

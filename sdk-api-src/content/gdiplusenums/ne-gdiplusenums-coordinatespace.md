@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.CoordinateSpace
 title: CoordinateSpace (gdiplusenums.h)
-
 description: The CoordinateSpace enumeration specifies coordinate spaces.
 old-location: gdiplus\_gdiplus_ENUM_CoordinateSpace.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coordinatespace.htm
-
 ms.date: 12/05/2018
 ms.keywords: CoordinateSpace, CoordinateSpace enumeration [GDI+], CoordinateSpaceDevice, CoordinateSpacePage, CoordinateSpaceWorld, _gdiplus_ENUM_CoordinateSpace, gdiplus._gdiplus_ENUM_CoordinateSpace, gdiplusenums/CoordinateSpace, gdiplusenums/CoordinateSpaceDevice, gdiplusenums/CoordinateSpacePage, gdiplusenums/CoordinateSpaceWorld
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/CoordinateSpace"
+f1_keywords:
+- gdiplusenums/CoordinateSpace
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - CoordinateSpace
+- CoordinateSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

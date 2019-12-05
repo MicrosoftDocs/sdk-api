@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Reset
 title: IEnumChangeUnitExceptions::Reset (winsync.h)
-
 description: Resets the enumerator to the beginning of the change unit exception set.
 old-location: winsync\ienumchangeunitexceptions_reset.htm
 tech.root: winsync
 ms.assetid: 7c9a98e2-c976-42cb-ada3-ee33c11adae8
-
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Reset method, IEnumChangeUnitExceptions.Reset, IEnumChangeUnitExceptions::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_reset, winsync/IEnumChangeUnitExceptions::Reset
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumChangeUnitExceptions.Reset"
+f1_keywords:
+- winsync/IEnumChangeUnitExceptions.Reset
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumChangeUnitExceptions.Reset
+- IEnumChangeUnitExceptions.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIResource1.CreateSubresourceSurface
 title: IDXGIResource1::CreateSubresourceSurface (dxgi1_2.h)
-
 description: Creates a subresource surface object.
 old-location: direct3ddxgi\idxgiresource1_createsubresourcesurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 99730AB1-C5D9-41D6-8001-495FF26E8232
-
 ms.date: 12/05/2018
 ms.keywords: CreateSubresourceSurface, CreateSubresourceSurface method [DXGI], CreateSubresourceSurface method [DXGI],IDXGIResource1 interface, IDXGIResource1 interface [DXGI],CreateSubresourceSurface method, IDXGIResource1.CreateSubresourceSurface, IDXGIResource1::CreateSubresourceSurface, direct3ddxgi.idxgiresource1_createsubresourcesurface, dxgi1_2/IDXGIResource1::CreateSubresourceSurface
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIResource1.CreateSubresourceSurface"
+f1_keywords:
+- dxgi1_2/IDXGIResource1.CreateSubresourceSurface
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIResource1.CreateSubresourceSurface
+- IDXGIResource1.CreateSubresourceSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

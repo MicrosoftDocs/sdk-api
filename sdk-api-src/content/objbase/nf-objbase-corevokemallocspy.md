@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoRevokeMallocSpy
 title: CoRevokeMallocSpy function (objbase.h)
-
 description: Revokes a registered IMallocSpy object.
 old-location: com\corevokemallocspy.htm
 tech.root: com
 ms.assetid: e1e984a2-2aee-452c-840c-42201ef5ee96
-
 ms.date: 12/05/2018
 ms.keywords: CoRevokeMallocSpy, CoRevokeMallocSpy function [COM], _com_CoRevokeMallocSpy, com.corevokemallocspy, objbase/CoRevokeMallocSpy
 ms.topic: function
-f1_keywords: 
- - "objbase/CoRevokeMallocSpy"
+f1_keywords:
+- objbase/CoRevokeMallocSpy
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-private-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-COM-Private-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-private-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-COM-Private-l1-1-1.dll
 api_name:
- - CoRevokeMallocSpy
+- CoRevokeMallocSpy
 targetos: Windows
 req.typenames: 
 req.redist: 

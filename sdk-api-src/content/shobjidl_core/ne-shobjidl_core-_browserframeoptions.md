@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._BROWSERFRAMEOPTIONS
 title: _BROWSERFRAMEOPTIONS (shobjidl_core.h)
-
 description: Used with method IBrowserFrameOptions::GetFrameOptions.
 old-location: shell\BROWSERFRAMEOPTIONS.htm
 tech.root: shell
 ms.assetid: e1c75a00-304f-44ca-98a0-a6c76a1ef95f
-
 ms.date: 12/05/2018
 ms.keywords: BFO_ADD_IE_TOCAPTIONBAR, BFO_BOTH_OPTIONS, BFO_BROWSER_PERSIST_SETTINGS, BFO_BROWSE_NO_IN_NEW_PROCESS, BFO_ENABLE_HYPERLINK_TRACKING, BFO_GO_HOME_PAGE, BFO_NONE, BFO_NO_PARENT_FOLDER_SUPPORT, BFO_NO_REOPEN_NEXT_RESTART, BFO_PREFER_IEPROCESS, BFO_QUERY_ALL, BFO_RENAME_FOLDER_OPTIONS_TOINTERNET, BFO_SHOW_NAVIGATION_CANCELLED, BFO_SUBSTITUE_INTERNET_START_PAGE, BFO_USE_DIALUP_REF, BFO_USE_IE_LOGOBANDING, BFO_USE_IE_OFFLINE_SUPPORT, BFO_USE_IE_STATUSBAR, BFO_USE_IE_TOOLBAR, BIF_PREFER_INTERNET_SHORTCUT, BROWSERFRAMEOPTIONS, BROWSERFRAMEOPTIONS enumeration [Windows Shell], _BROWSERFRAMEOPTIONS, _shell_BROWSERFRAMEOPTIONS, shell.BROWSERFRAMEOPTIONS, shobjidl_core/BFO_ADD_IE_TOCAPTIONBAR, shobjidl_core/BFO_BOTH_OPTIONS, shobjidl_core/BFO_BROWSER_PERSIST_SETTINGS, shobjidl_core/BFO_BROWSE_NO_IN_NEW_PROCESS, shobjidl_core/BFO_ENABLE_HYPERLINK_TRACKING, shobjidl_core/BFO_GO_HOME_PAGE, shobjidl_core/BFO_NONE, shobjidl_core/BFO_NO_PARENT_FOLDER_SUPPORT, shobjidl_core/BFO_NO_REOPEN_NEXT_RESTART, shobjidl_core/BFO_PREFER_IEPROCESS, shobjidl_core/BFO_QUERY_ALL, shobjidl_core/BFO_RENAME_FOLDER_OPTIONS_TOINTERNET, shobjidl_core/BFO_SHOW_NAVIGATION_CANCELLED, shobjidl_core/BFO_SUBSTITUE_INTERNET_START_PAGE, shobjidl_core/BFO_USE_DIALUP_REF, shobjidl_core/BFO_USE_IE_LOGOBANDING, shobjidl_core/BFO_USE_IE_OFFLINE_SUPPORT, shobjidl_core/BFO_USE_IE_STATUSBAR, shobjidl_core/BFO_USE_IE_TOOLBAR, shobjidl_core/BIF_PREFER_INTERNET_SHORTCUT, shobjidl_core/BROWSERFRAMEOPTIONS
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/BROWSERFRAMEOPTIONS"
+f1_keywords:
+- shobjidl_core/BROWSERFRAMEOPTIONS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - BROWSERFRAMEOPTIONS
+- BROWSERFRAMEOPTIONS
 targetos: Windows
 req.typenames: 
 req.redist: 

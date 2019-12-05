@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.get_ValueDescriptions
 title: IFsrmPropertyDefinition::get_ValueDescriptions (fsrmpipeline.h)
-
 description: Descriptions for each of the possible values specified in the PossibleValues property.
 old-location: fsrm\ifsrmpropertydefinition_valuedescriptions.htm
 tech.root: fsrm
 ms.assetid: 3c6a9457-c1bb-4bc3-853a-3676bb4ce6bb
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition interface [File Server Resource Manager],ValueDescriptions property, IFsrmPropertyDefinition.ValueDescriptions, IFsrmPropertyDefinition.get_ValueDescriptions, IFsrmPropertyDefinition::ValueDescriptions, IFsrmPropertyDefinition::get_ValueDescriptions, IFsrmPropertyDefinition::put_ValueDescriptions, ValueDescriptions property [File Server Resource Manager], ValueDescriptions property [File Server Resource Manager],IFsrmPropertyDefinition interface, fs.ifsrmpropertydefinition_valuedescriptions, fsrm.ifsrmpropertydefinition_valuedescriptions, fsrmpipeline/IFsrmPropertyDefinition::ValueDescriptions, fsrmpipeline/IFsrmPropertyDefinition::get_ValueDescriptions, fsrmpipeline/IFsrmPropertyDefinition::put_ValueDescriptions, get_ValueDescriptions
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyDefinition.ValueDescriptions"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyDefinition.ValueDescriptions
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition.ValueDescriptions
- - IFsrmPropertyDefinition.get_ValueDescriptions
- - IFsrmPropertyDefinition.put_ValueDescriptions
+- IFsrmPropertyDefinition.ValueDescriptions
+- IFsrmPropertyDefinition.get_ValueDescriptions
+- IFsrmPropertyDefinition.put_ValueDescriptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDn
 title: IAzClientContext::get_UserDn (azroles.h)
-
 description: Retrieves the name of the current client in distinguished name (DN) format.
 old-location: security\iazclientcontext_userdn.htm
 tech.root: SecAuthZ
 ms.assetid: 1561352c-254e-41a2-bfc9-795a678ce180
-
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],UserDn property, IAzClientContext interface [Security],UserDn property, IAzClientContext.UserDn, IAzClientContext.get_UserDn, IAzClientContext::UserDn, IAzClientContext::get_UserDn, UserDn property [Security], UserDn property [Security],AzClientContext object, UserDn property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDn, azroles/IAzClientContext::get_UserDn, get_UserDn, security.iazclientcontext_userdn
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.UserDn"
+f1_keywords:
+- azroles/IAzClientContext.UserDn
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.UserDn
- - IAzClientContext.get_UserDn
- - AzClientContext.UserDn
+- IAzClientContext.UserDn
+- IAzClientContext.get_UserDn
+- AzClientContext.UserDn
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

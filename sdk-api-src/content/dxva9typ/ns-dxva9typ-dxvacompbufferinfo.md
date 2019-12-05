@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva9typ._DXVACompBufferInfo
 title: DXVACompBufferInfo (dxva9typ.h)
-
 description: Specifies the requirements for compressed surfaces for DirectX Video Acceleration (DXVA).
 old-location: mf\dxvacompbufferinfo.htm
 tech.root: medfound
 ms.assetid: dabef388-d883-48a6-9abc-218dc163ef63
-
 ms.date: 12/05/2018
 ms.keywords: DXVACompBufferInfo, DXVACompBufferInfo structure [Media Foundation], _DXVACompBufferInfo, dxva9typ/DXVACompBufferInfo, mf.dxvacompbufferinfo
 ms.topic: struct
-f1_keywords: 
- - "dxva9typ/DXVACompBufferInfo"
+f1_keywords:
+- dxva9typ/DXVACompBufferInfo
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - DXVACompBufferInfo
+- DXVACompBufferInfo
 targetos: Windows
 req.typenames: DXVACompBufferInfo
 req.redist: 

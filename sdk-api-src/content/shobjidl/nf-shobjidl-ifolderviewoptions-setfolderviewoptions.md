@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFolderViewOptions.SetFolderViewOptions
 title: IFolderViewOptions::SetFolderViewOptions (shobjidl.h)
-
 description: Sets specified options for the view.
 old-location: shell\IFolderViewOptions_SetFolderViewOptions.htm
 tech.root: shell
 ms.assetid: e170f60f-9b6c-4765-8aad-b370b08db053
-
 ms.date: 12/05/2018
 ms.keywords: IFolderViewOptions interface [Windows Shell],SetFolderViewOptions method, IFolderViewOptions.SetFolderViewOptions, IFolderViewOptions::SetFolderViewOptions, SetFolderViewOptions, SetFolderViewOptions method [Windows Shell], SetFolderViewOptions method [Windows Shell],IFolderViewOptions interface, _shell_IFolderViewOptions_SetFolderViewOptions, shell.IFolderViewOptions_SetFolderViewOptions, shobjidl/IFolderViewOptions::SetFolderViewOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFolderViewOptions.SetFolderViewOptions"
+f1_keywords:
+- shobjidl/IFolderViewOptions.SetFolderViewOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: ExplorerFrame.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ExplorerFrame.dll
+- ExplorerFrame.dll
 api_name:
- - IFolderViewOptions.SetFolderViewOptions
+- IFolderViewOptions.SetFolderViewOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

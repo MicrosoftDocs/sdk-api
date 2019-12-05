@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnPlaylist
 title: IWMPCdromBurn::get_burnPlaylist (wmp.h)
-
 description: The get_burnPlaylist method retrieves the current playlist to burn to the CD.
 old-location: wmp\iwmpcdromburn_get_burnplaylist.htm
 tech.root: WMP
 ms.assetid: b31f4e87-2029-4001-94c7-268b14807cf0
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnPlaylist method, IWMPCdromBurn.get_burnPlaylist, IWMPCdromBurn::get_burnPlaylist, IWMPCdromBurnget_burnPlaylist, get_burnPlaylist, get_burnPlaylist method [Windows Media Player], get_burnPlaylist method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnplaylist, wmp/IWMPCdromBurn::get_burnPlaylist
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.get_burnPlaylist"
+f1_keywords:
+- wmp/IWMPCdromBurn.get_burnPlaylist
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.get_burnPlaylist
+- IWMPCdromBurn.get_burnPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 

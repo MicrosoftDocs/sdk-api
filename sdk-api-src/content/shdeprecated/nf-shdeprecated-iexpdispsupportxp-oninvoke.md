@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IExpDispSupportXP.OnInvoke
 title: IExpDispSupportXP::OnInvoke (shdeprecated.h)
-
 description: Not implemented.
 old-location: shell\IExpDispSupportXP_OnInvoke.htm
 tech.root: shell
 ms.assetid: 92ae2e5c-466e-4f73-a2e3-7d040e756a50
-
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupportXP interface [Windows Shell],OnInvoke method, IExpDispSupportXP.OnInvoke, IExpDispSupportXP::OnInvoke, OnInvoke, OnInvoke method [Windows Shell], OnInvoke method [Windows Shell],IExpDispSupportXP interface, _shell_IExpDispSupportXP_OnInvoke, shdeprecated/IExpDispSupportXP::OnInvoke, shell.IExpDispSupportXP_OnInvoke
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IExpDispSupportXP.OnInvoke"
+f1_keywords:
+- shdeprecated/IExpDispSupportXP.OnInvoke
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: Shdeprecated.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shdeprecated.h
+- shdeprecated.h
 api_name:
- - IExpDispSupportXP.OnInvoke
+- IExpDispSupportXP.OnInvoke
 targetos: Windows
 req.typenames: 
 req.redist: 

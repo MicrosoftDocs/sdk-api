@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.Add
 title: ITextStrings::Add (tom.h)
-
 description: Adds a string to the end of the collection.
 old-location: controls\itextstrings_add.htm
 tech.root: Controls
 ms.assetid: 59630068-e3c7-4c3b-bd89-f1127759f979
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Controls], Add method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],Add method, ITextStrings.Add, ITextStrings::Add, controls.itextstrings_add, tom/ITextStrings::Add
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.Add"
+f1_keywords:
+- tom/ITextStrings.Add
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.Add
+- ITextStrings.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

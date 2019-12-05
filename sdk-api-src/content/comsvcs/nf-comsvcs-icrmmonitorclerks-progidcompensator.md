@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.ProgIdCompensator
 title: ICrmMonitorClerks::ProgIdCompensator (comsvcs.h)
-
 description: Retrieves the ProgId of the CRM Compensator for the specified index.
 old-location: cos\icrmmonitorclerks_progidcompensator.htm
 tech.root: cossdk
 ms.assetid: c174908b-293e-4481-b35d-455ee4f52eea
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],ProgIdCompensator method, ICrmMonitorClerks.ProgIdCompensator, ICrmMonitorClerks::ProgIdCompensator, ProgIdCompensator, ProgIdCompensator method [COM+], ProgIdCompensator method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_ProgIdCompensator, comsvcs/ICrmMonitorClerks::ProgIdCompensator, cos.icrmmonitorclerks_progidcompensator
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorClerks.ProgIdCompensator"
+f1_keywords:
+- comsvcs/ICrmMonitorClerks.ProgIdCompensator
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorClerks.ProgIdCompensator
+- ICrmMonitorClerks.ProgIdCompensator
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelperInfo.GetAttributeInfo
 title: INetDiagHelperInfo::GetAttributeInfo (ndhelper.h)
-
 description: The GetAttributeInfo method retrieves the list of key parameters needed by the Helper Class Extension.
 old-location: ndf\inetdiaghelperinfo_getattributeinfo.htm
 tech.root: NDF
 ms.assetid: 0c1a12f3-357f-4d96-b0ef-99d788b6e020
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeInfo, GetAttributeInfo method [NDF], GetAttributeInfo method [NDF],INetDiagHelperInfo interface, INetDiagHelperInfo interface [NDF],GetAttributeInfo method, INetDiagHelperInfo.GetAttributeInfo, INetDiagHelperInfo::GetAttributeInfo, ndf.inetdiaghelperinfo_getattributeinfo, ndhelper/INetDiagHelperInfo::GetAttributeInfo
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelperInfo.GetAttributeInfo"
+f1_keywords:
+- ndhelper/INetDiagHelperInfo.GetAttributeInfo
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelperInfo.GetAttributeInfo
+- INetDiagHelperInfo.GetAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

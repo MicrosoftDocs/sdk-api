@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IFolderViewHost
 title: IFolderViewHost (shobjidl.h)
-
 description: Exposes a method that hosts an IFolderView object in a window.
 old-location: shell\IFolderViewHost.htm
 tech.root: shell
 ms.assetid: 1e3d4a9a-6336-4667-92dd-9dc9678606e9
-
 ms.date: 12/05/2018
 ms.keywords: IFolderViewHost, IFolderViewHost interface [Windows Shell], IFolderViewHost interface [Windows Shell],described, _shell_IFolderViewHost, shell.IFolderViewHost, shobjidl/IFolderViewHost
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IFolderViewHost"
+f1_keywords:
+- shobjidl/IFolderViewHost
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderViewHost
+- IFolderViewHost
 targetos: Windows
 req.typenames: 
 req.redist: 

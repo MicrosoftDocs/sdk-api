@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_29
 title: IS_FLOWSPEC (lpmapi.h)
-
 description: The IS_FLOWSPEC structure stores an Integrated Services FLOWSPEC object.
 old-location: qos\is_flowspec.htm
 tech.root: QOS
 ms.assetid: 1e0cd196-f53c-4d68-a287-7a98b7215d6d
-
 ms.date: 12/05/2018
 ms.keywords: IS_FLOWSPEC, IS_FLOWSPEC structure [QOS], lpmapi/IS_FLOWSPEC, qos.is_flowspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/IS_FLOWSPEC"
+f1_keywords:
+- lpmapi/IS_FLOWSPEC
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - IS_FLOWSPEC
+- IS_FLOWSPEC
 targetos: Windows
 req.typenames: IS_FLOWSPEC
 req.redist: 

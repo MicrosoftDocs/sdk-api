@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IOpenSearchSource.GetResults
 title: IOpenSearchSource::GetResults (shobjidl_core.h)
-
 description: Returns search results, from an OpenSearch data source, formatted in RSS or Atom format.
 old-location: shell\IOpenSearchSource_GetResults.htm
 tech.root: shell
 ms.assetid: 4fc16c04-cfb6-4f50-8325-bd3fc0b8f557
-
 ms.date: 12/05/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IOpenSearchSource interface, IOpenSearchSource interface [Windows Shell],GetResults method, IOpenSearchSource.GetResults, IOpenSearchSource::GetResults, _shell_IOpenSearchSource_GetResults, shell.IOpenSearchSource_GetResults, shobjidl_core/IOpenSearchSource::GetResults
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IOpenSearchSource.GetResults"
+f1_keywords:
+- shobjidl_core/IOpenSearchSource.GetResults
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOpenSearchSource.GetResults
+- IOpenSearchSource.GetResults
 targetos: Windows
 req.typenames: 
 req.redist: 

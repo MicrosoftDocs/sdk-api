@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterNetInterfaceKey
 title: GetClusterNetInterfaceKey function (clusapi.h)
-
 description: Opens the root of the cluster database subtree for a network interface object.
 old-location: mscs\getclusternetinterfacekey.htm
 tech.root: MsCS
 ms.assetid: c6ba405a-e485-49fc-81f4-dd6c7b7bef04
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterNetInterfaceKey, GetClusterNetInterfaceKey function [Failover Cluster], _wolf_getclusternetinterfacekey, clusapi/GetClusterNetInterfaceKey, mscs.getclusternetinterfacekey
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterNetInterfaceKey"
+f1_keywords:
+- clusapi/GetClusterNetInterfaceKey
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterNetInterfaceKey
+- GetClusterNetInterfaceKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.TryEnterCriticalSection
 title: TryEnterCriticalSection function (synchapi.h)
-
 description: Attempts to enter a critical section without blocking. If the call is successful, the calling thread takes ownership of the critical section.
 old-location: base\tryentercriticalsection.htm
 tech.root: Sync
 ms.assetid: 5225bda1-6e20-4f6b-9f9b-633c62acfdce
-
 ms.date: 12/05/2018
 ms.keywords: TryEnterCriticalSection, TryEnterCriticalSection function, _win32_tryentercriticalsection, base.tryentercriticalsection, synchapi/TryEnterCriticalSection, winbase/TryEnterCriticalSection
 ms.topic: function
-f1_keywords: 
- - "synchapi/TryEnterCriticalSection"
+f1_keywords:
+- synchapi/TryEnterCriticalSection
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - TryEnterCriticalSection
+- TryEnterCriticalSection
 targetos: Windows
 req.typenames: 
 req.redist: 

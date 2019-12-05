@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchGPOs
 title: IGPMDomain::SearchGPOs (gpmgmt.h)
-
 description: Executes a search for GPMGPO objects in the domain and then returns a GPMGPOCollection object.
 old-location: gpmc\igpmdomain_searchgpos.htm
 tech.root: gpmc
 ms.assetid: 19a8efae-0b85-49ba-bf7e-08ed700874c3
-
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchGPOs method, IGPMDomain interface [GPMC],SearchGPOs method, IGPMDomain.SearchGPOs, IGPMDomain::SearchGPOs, SearchGPOs, SearchGPOs method [GPMC], SearchGPOs method [GPMC],GPMDomain object, SearchGPOs method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchgpos, gpmc.igpmdomain_searchgpos, gpmgmt/IGPMDomain::SearchGPOs, gpoComputerExtensions, gpoDisplayName, gpoEffectivePermissions, gpoID, gpoPermissions, gpoUserExtensions, gpoWMIFilter
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain.SearchGPOs"
+f1_keywords:
+- gpmgmt/IGPMDomain.SearchGPOs
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMDomain.SearchGPOs
- - GPMDomain.SearchGPOs
+- IGPMDomain.SearchGPOs
+- GPMDomain.SearchGPOs
 targetos: Windows
 req.typenames: 
 req.redist: 

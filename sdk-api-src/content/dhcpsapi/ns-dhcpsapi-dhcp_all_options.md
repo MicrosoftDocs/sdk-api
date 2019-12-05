@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_ALL_OPTIONS
 title: DHCP_ALL_OPTIONS (dhcpsapi.h)
-
 description: Defines the set of all options available on a DHCP server.
 old-location: dhcp\dhcp_all_options.htm
 tech.root: DHCP
 ms.assetid: b02e3582-c99b-4d5a-aaae-c2fefd7dfaf9
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS, DHCP_ALL_OPTIONS structure [DHCP], LPDHCP_ALL_OPTIONS, LPDHCP_ALL_OPTIONS structure pointer [DHCP], dhcp.dhcp_all_options, dhcpsapi/LPDHCP_ALL_OPTIONS, dhcpsapi/_DHCP_ALL_OPTIONS'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_ALL_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

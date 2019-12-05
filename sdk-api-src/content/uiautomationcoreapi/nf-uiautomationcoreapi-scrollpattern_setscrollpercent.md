@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.ScrollPattern_SetScrollPercent
 title: ScrollPattern_SetScrollPercent function (uiautomationcoreapi.h)
-
 description: Scrolls a container to a specific position horizontally, vertically, or both.
 old-location: winauto\uiauto_ScrollPattern_SetScrollPercentConPat.htm
 tech.root: WinAuto
 ms.assetid: 5a152e0b-f1c2-41c7-add6-1f484d2c5738
-
 ms.date: 12/05/2018
 ms.keywords: ScrollPattern_SetScrollPercent, ScrollPattern_SetScrollPercent function [Windows Accessibility], uiauto.uiauto_ScrollPattern_SetScrollPercentConPat, uiauto_ScrollPattern_SetScrollPercentConPat, uiautomationcoreapi/ScrollPattern_SetScrollPercent, winauto.uiauto_ScrollPattern_SetScrollPercentConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/ScrollPattern_SetScrollPercent"
+f1_keywords:
+- uiautomationcoreapi/ScrollPattern_SetScrollPercent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ScrollPattern_SetScrollPercent
+- ScrollPattern_SetScrollPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

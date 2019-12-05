@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectStringVariable.GetString
 title: ID3D10EffectStringVariable::GetString (d3d10effect.h)
-
 description: Get the string.
 old-location: direct3d10\id3d10effectstringvariable_getstring.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectstringvariable_getstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9daf3f6a-842b-088b-a335-a0eed8c5bd16, GetString, GetString method [Direct3D 10], GetString method [Direct3D 10],ID3D10EffectStringVariable interface, ID3D10EffectStringVariable interface [Direct3D 10],GetString method, ID3D10EffectStringVariable.GetString, ID3D10EffectStringVariable::GetString, d3d10effect/ID3D10EffectStringVariable::GetString, direct3d10.id3d10effectstringvariable_getstring
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectStringVariable.GetString"
+f1_keywords:
+- d3d10effect/ID3D10EffectStringVariable.GetString
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectStringVariable.GetString
+- ID3D10EffectStringVariable.GetString
 targetos: Windows
 req.typenames: 
 req.redist: 

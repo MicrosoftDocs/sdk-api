@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.BeginWrite
 title: IMFByteStream::BeginWrite (mfobjects.h)
-
 description: Begins an asynchronous write operation to the stream.
 old-location: mf\imfbytestream_beginwrite.htm
 tech.root: medfound
 ms.assetid: 078a8ffe-7b4f-487e-8655-fe5ea14ba306
-
 ms.date: 12/05/2018
 ms.keywords: 078a8ffe-7b4f-487e-8655-fe5ea14ba306, BeginWrite, BeginWrite method [Media Foundation], BeginWrite method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],BeginWrite method, IMFByteStream.BeginWrite, IMFByteStream::BeginWrite, mf.imfbytestream_beginwrite, mfobjects/IMFByteStream::BeginWrite
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.BeginWrite"
+f1_keywords:
+- mfobjects/IMFByteStream.BeginWrite
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.BeginWrite
+- IMFByteStream.BeginWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

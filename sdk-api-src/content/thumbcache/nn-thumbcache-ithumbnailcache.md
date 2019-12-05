@@ -1,19 +1,17 @@
 ---
 UID: NN:thumbcache.IThumbnailCache
 title: IThumbnailCache (thumbcache.h)
-
 description: Exposes methods for a system thumbnail cache that is shared across applications.
 old-location: shell\IThumbnailCache.htm
 tech.root: shell
 ms.assetid: b0ddfca0-49b8-4f53-8d22-9a561d09367a
-
 ms.date: 12/05/2018
 ms.keywords: IThumbnailCache, IThumbnailCache interface [Windows Shell], IThumbnailCache interface [Windows Shell],described, _shell_IThumbnailCache, shell.IThumbnailCache, thumbcache/IThumbnailCache
 ms.topic: interface
-f1_keywords: 
- - "thumbcache/IThumbnailCache"
+f1_keywords:
+- thumbcache/IThumbnailCache
 dev_langs:
- - c++
+- c++
 req.header: thumbcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Thumbcache.h
+- Thumbcache.h
 api_name:
- - IThumbnailCache
+- IThumbnailCache
 targetos: Windows
 req.typenames: 
 req.redist: 

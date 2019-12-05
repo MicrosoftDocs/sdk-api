@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetSystemTime
 title: GetSystemTime function (sysinfoapi.h)
-
 description: Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
 old-location: base\getsystemtime.htm
 tech.root: SysInfo
 ms.assetid: 9ed8386b-f035-446f-b0f8-12e0d3f23aac
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemTime, GetSystemTime function, _win32_getsystemtime, base.getsystemtime, sysinfoapi/GetSystemTime
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetSystemTime"
+f1_keywords:
+- sysinfoapi/GetSystemTime
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-0.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-0.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetSystemTime
+- GetSystemTime
 targetos: Windows
 req.typenames: 
 req.redist: 

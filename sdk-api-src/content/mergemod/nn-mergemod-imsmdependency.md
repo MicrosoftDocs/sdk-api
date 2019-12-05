@@ -1,19 +1,17 @@
 ---
 UID: NN:mergemod.IMsmDependency
 title: IMsmDependency (mergemod.h)
-
 description: The IMsmDependency interface retrieves details for a single module dependency.
 old-location: setup\imsmdependency_interface.htm
 tech.root: Msi
 ms.assetid: 517cf174-418a-4717-a25f-1736225016a1
-
 ms.date: 12/05/2018
 ms.keywords: IMsmDependency, IMsmDependency interface, IMsmDependency interface,described, mergemod/IMsmDependency, setup.imsmdependency_interface
 ms.topic: interface
-f1_keywords: 
- - "mergemod/IMsmDependency"
+f1_keywords:
+- mergemod/IMsmDependency
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmDependency
- - IMsmDependency.get_Module
- - IMsmDependency.get_Language
- - IMsmDependency.get_Version
+- IMsmDependency
+- IMsmDependency.get_Module
+- IMsmDependency.get_Language
+- IMsmDependency.get_Version
 targetos: Windows
 req.typenames: 
 req.redist: 

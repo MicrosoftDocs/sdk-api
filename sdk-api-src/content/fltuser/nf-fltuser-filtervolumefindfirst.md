@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterVolumeFindFirst
 title: FilterVolumeFindFirst function (fltuser.h)
-
 description: The FilterVolumeFindFirst function returns information about a volume.
 old-location: ifsk\filtervolumefindfirst.htm
 tech.root: ifsk
 ms.assetid: c74ea261-bc9c-4fb0-a886-6947986566b2
-
 ms.date: 12/05/2018
 ms.keywords: FilterVolumeFindFirst, FilterVolumeFindFirst function [Installable File System Drivers], FltWin32ApiRef_eb46c1c6-3137-4082-8272-8caccaeabf64.xml, fltuser/FilterVolumeFindFirst, ifsk.filtervolumefindfirst
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterVolumeFindFirst"
+f1_keywords:
+- fltuser/FilterVolumeFindFirst
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterVolumeFindFirst
+- FilterVolumeFindFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

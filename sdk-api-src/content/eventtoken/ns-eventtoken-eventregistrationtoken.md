@@ -1,19 +1,17 @@
 ---
 UID: NS:eventtoken.EventRegistrationToken
 title: EventRegistrationToken (eventtoken.h)
-
 description: Identifies an event handler that has been registered with an event source.
 old-location: winrt\eventregistrationtoken.htm
 tech.root: WinRT
 ms.assetid: A98FE485-B3D8-4CD5-950F-765939F4672B
-
 ms.date: 12/05/2018
 ms.keywords: EventRegistrationToken, EventRegistrationToken structure [Windows Runtime], eventtoken/EventRegistrationToken, winrt.eventregistrationtoken
 ms.topic: struct
-f1_keywords: 
- - "eventtoken/EventRegistrationToken"
+f1_keywords:
+- eventtoken/EventRegistrationToken
 dev_langs:
- - c++
+- c++
 req.header: eventtoken.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eventtoken.h
+- eventtoken.h
 api_name:
- - EventRegistrationToken
+- EventRegistrationToken
 targetos: Windows
 req.typenames: EventRegistrationToken
 req.redist: 

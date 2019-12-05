@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._MERGE_VIRTUAL_DISK_PARAMETERS
 title: MERGE_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) merge request parameters.
 old-location: vhd\merge_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 5bb84e11-677d-42f5-b5b6-59f23b9a8ab7
-
 ms.date: 12/05/2018
-ms.keywords: "*PMERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS structure [VHD], PMERGE_VIRTUAL_DISK_PARAMETERS, PMERGE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/PMERGE_VIRTUAL_DISK_PARAMETERS, vhd.merge_virtual_disk_parameters, virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS, virtdisk/PMERGE_VIRTUAL_DISK_PARAMETERS"
+ms.keywords: '*PMERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS, MERGE_VIRTUAL_DISK_PARAMETERS structure [VHD], PMERGE_VIRTUAL_DISK_PARAMETERS, PMERGE_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/MERGE_VIRTUAL_DISK_PARAMETERS, vdssys/PMERGE_VIRTUAL_DISK_PARAMETERS, vhd.merge_virtual_disk_parameters, virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS, virtdisk/PMERGE_VIRTUAL_DISK_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS"
+f1_keywords:
+- virtdisk/MERGE_VIRTUAL_DISK_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - MERGE_VIRTUAL_DISK_PARAMETERS
+- MERGE_VIRTUAL_DISK_PARAMETERS
 targetos: Windows
 req.typenames: MERGE_VIRTUAL_DISK_PARAMETERS, *PMERGE_VIRTUAL_DISK_PARAMETERS
 req.redist: 

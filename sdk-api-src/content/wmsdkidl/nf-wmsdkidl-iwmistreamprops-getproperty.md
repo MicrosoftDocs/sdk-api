@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMIStreamProps.GetProperty
 title: IWMIStreamProps::GetProperty (wmsdkidl.h)
-
 description: The GetProperty method retrieves a named property from the IStream.
 old-location: wmformat\iwmistreamprops_getproperty.htm
 tech.root: wmformat
 ms.assetid: 1873e20f-376a-45fe-ad02-0c28c894af18
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Format], GetProperty method [windows Media Format],IWMIStreamProps interface, IWMIStreamProps interface [windows Media Format],GetProperty method, IWMIStreamProps.GetProperty, IWMIStreamProps::GetProperty, IWMIStreamPropsGetProperty, wmformat.iwmistreamprops_getproperty, wmsdkidl/IWMIStreamProps::GetProperty
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMIStreamProps.GetProperty"
+f1_keywords:
+- wmsdkidl/IWMIStreamProps.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMIStreamProps.GetProperty
+- IWMIStreamProps.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

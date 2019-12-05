@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DSGetConstantBuffers
 title: ID3D11DeviceContext::DSGetConstantBuffers (d3d11.h)
-
 description: Get the constant buffers used by the domain-shader stage.
 old-location: direct3d11\id3d11devicecontext_dsgetconstantbuffers.htm
 tech.root: direct3d11
 ms.assetid: 070b3c40-ddb2-4c13-b0a0-1451e00e0ae1
-
 ms.date: 12/05/2018
 ms.keywords: DSGetConstantBuffers, DSGetConstantBuffers method [Direct3D 11], DSGetConstantBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DSGetConstantBuffers method, ID3D11DeviceContext.DSGetConstantBuffers, ID3D11DeviceContext::DSGetConstantBuffers, d030ed43-b3f5-78af-cbb4-0d04d0e441b5, d3d11/ID3D11DeviceContext::DSGetConstantBuffers, direct3d11.id3d11devicecontext_dsgetconstantbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.DSGetConstantBuffers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.DSGetConstantBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.DSGetConstantBuffers
+- ID3D11DeviceContext.DSGetConstantBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

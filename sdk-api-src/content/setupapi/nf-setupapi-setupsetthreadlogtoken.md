@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupSetThreadLogToken
 title: SetupSetThreadLogToken function (setupapi.h)
-
 description: The SetupSetThreadLogToken function sets the log context, as represented by a log token, for the thread from which this function was called.
 old-location: devinst\setupsetthreadlogtoken.htm
 tech.root: devinst
 ms.assetid: c5295bb8-73c8-4516-91fe-ba11aa8a0657
-
 ms.date: 12/05/2018
 ms.keywords: SetupSetThreadLogToken, SetupSetThreadLogToken function [Device and Driver Installation], devinst.setupsetthreadlogtoken, setupapi/SetupSetThreadLogToken, setupapilog-ref_0247f1a0-3c40-45dc-8162-a3b5e09d76e4.xml
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupSetThreadLogToken"
+f1_keywords:
+- setupapi/SetupSetThreadLogToken
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupSetThreadLogToken
+- SetupSetThreadLogToken
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetComponentDescription
 title: IVersionInfo::GetComponentDescription (msaatext.h)
-
 description: Clients call this method to retrieve a description of the component.
 old-location: winauto\iversioninfo_iversioninfo__getcomponentdescription.htm
 tech.root: WinAuto
 ms.assetid: bb689adb-bd94-4c62-b408-33e1aa694c89
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentDescription, GetComponentDescription method [Windows Accessibility], GetComponentDescription method [Windows Accessibility],IVersionInfo interface, IVersionInfo interface [Windows Accessibility],GetComponentDescription method, IVersionInfo.GetComponentDescription, IVersionInfo::GetComponentDescription, _msaa_IVersionInfo_GetComponentDescription, msaa.iversioninfo_iversioninfo__getcomponentdescription, msaatext/IVersionInfo::GetComponentDescription, winauto.iversioninfo_iversioninfo__getcomponentdescription
 ms.topic: method
-f1_keywords: 
- - "msaatext/IVersionInfo.GetComponentDescription"
+f1_keywords:
+- msaatext/IVersionInfo.GetComponentDescription
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IVersionInfo.GetComponentDescription
+- IVersionInfo.GetComponentDescription
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

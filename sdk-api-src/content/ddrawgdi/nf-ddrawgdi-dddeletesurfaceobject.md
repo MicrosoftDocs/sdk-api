@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdDeleteSurfaceObject
 title: DdDeleteSurfaceObject function (ddrawgdi.h)
-
 description: Wrapper for the NtGdiDdDeleteSurfaceObject function and deletes a kernel-mode surface object previously created by NtGdiDdCreateSurfaceObject. GdiEntry5 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_dddeletesurfaceobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dddeletesurfaceobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdDeleteSurfaceObject, DdDeleteSurfaceObject function [Windows API], GdiEntry5, _dxgkernel_dddeletesurfaceobject, ddrawgdi/DdDeleteSurfaceObject, ddrawgdi/GdiEntry5, winprog._dxgkernel_dddeletesurfaceobject, winui._dxgkernel_dddeletesurfaceobject
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdDeleteSurfaceObject"
+f1_keywords:
+- ddrawgdi/DdDeleteSurfaceObject
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdDeleteSurfaceObject
- - GdiEntry5
+- DdDeleteSurfaceObject
+- GdiEntry5
 targetos: Windows
 req.typenames: 
 req.redist: 

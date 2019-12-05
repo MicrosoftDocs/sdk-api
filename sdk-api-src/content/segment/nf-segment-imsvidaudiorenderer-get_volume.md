@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.get_Volume
 title: IMSVidAudioRenderer::get_Volume (segment.h)
-
 description: The get_Volume method retrieves the audio renderer's volume level.
 old-location: mstv\imsvidaudiorenderer_get_volume.htm
 tech.root: mstv
 ms.assetid: 7dbbdb17-b077-4e36-a5d4-c8e343feb930
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRenderer interface [Microsoft TV Technologies],get_Volume method, IMSVidAudioRenderer.get_Volume, IMSVidAudioRenderer::get_Volume, IMSVidAudioRendererget_Volume, get_Volume, get_Volume method [Microsoft TV Technologies], get_Volume method [Microsoft TV Technologies],IMSVidAudioRenderer interface, mstv.imsvidaudiorenderer_get_volume, segment/IMSVidAudioRenderer::get_Volume
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRenderer.get_Volume"
+f1_keywords:
+- segment/IMSVidAudioRenderer.get_Volume
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRenderer.get_Volume
+- IMSVidAudioRenderer.get_Volume
 targetos: Windows
 req.typenames: 
 req.redist: 

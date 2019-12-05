@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsUnBindW
 title: DsUnBindW function (ntdsapi.h)
-
 description: The DsUnBind function finds an RPC session with a domain controller and unbinds a handle to the directory service (DS).
 old-location: ad\dsunbind.htm
 tech.root: ad
 ms.assetid: 7106d67f-d421-4a7c-b775-440e5944f25e
-
 ms.date: 12/05/2018
 ms.keywords: DsUnBind, DsUnBind function [Active Directory], DsUnBindA, DsUnBindW, _glines_dsunbind, ad.dsunbind, ntdsapi/DsUnBind, ntdsapi/DsUnBindA, ntdsapi/DsUnBindW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsUnBind"
+f1_keywords:
+- ntdsapi/DsUnBind
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - KernelBase.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- Ntdsapi.dll
+- KernelBase.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsUnBind
- - DsUnBindA
- - DsUnBindW
+- DsUnBind
+- DsUnBindA
+- DsUnBindW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumTypes
 title: SymEnumTypes function (dbghelp.h)
-
 description: Enumerates all user-defined types.
 old-location: base\symenumtypes.htm
 tech.root: Debug
 ms.assetid: 06f964bc-107a-468d-a35d-141b5da1780e
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumTypes, SymEnumTypes function, SymEnumTypesW, _win32_symenumtypes, base.symenumtypes, dbghelp/SymEnumTypes, dbghelp/SymEnumTypesW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumTypes"
+f1_keywords:
+- dbghelp/SymEnumTypes
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumTypes
- - SymEnumTypes
- - SymEnumTypesW
+- SymEnumTypes
+- SymEnumTypes
+- SymEnumTypesW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

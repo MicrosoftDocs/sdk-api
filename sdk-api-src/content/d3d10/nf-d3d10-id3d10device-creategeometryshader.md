@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateGeometryShader
 title: ID3D10Device::CreateGeometryShader (d3d10.h)
-
 description: Create a geometry shader.
 old-location: direct3d10\id3d10device_creategeometryshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_creategeometryshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 95304c4b-5772-79d5-e004-826cea33692b, CreateGeometryShader, CreateGeometryShader method [Direct3D 10], CreateGeometryShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateGeometryShader method, ID3D10Device.CreateGeometryShader, ID3D10Device::CreateGeometryShader, d3d10/ID3D10Device::CreateGeometryShader, direct3d10.id3d10device_creategeometryshader
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateGeometryShader"
+f1_keywords:
+- d3d10/ID3D10Device.CreateGeometryShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateGeometryShader
+- ID3D10Device.CreateGeometryShader
 targetos: Windows
 req.typenames: 
 req.redist: 

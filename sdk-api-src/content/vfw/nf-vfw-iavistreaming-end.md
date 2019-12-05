@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIStreaming.End
 title: IAVIStreaming::End (vfw.h)
-
 description: The End method ends the streaming operation. Called when an application uses the AVIStreamEndStreaming function.
 old-location: multimedia\iavistreaming_end.htm
 tech.root: Multimedia
 ms.assetid: 5db48b61-5926-41fb-9d0d-f39cba6deec9
-
 ms.date: 12/05/2018
 ms.keywords: End, End method [Windows Multimedia], End method [Windows Multimedia],IAVIStreaming interface, IAVIStreaming interface [Windows Multimedia],End method, IAVIStreaming.End, IAVIStreaming::End, _win32_IAVIStreaming_End, multimedia.iavistreaming_end, vfw/IAVIStreaming::End
 ms.topic: method
-f1_keywords: 
- - "vfw/IAVIStreaming.End"
+f1_keywords:
+- vfw/IAVIStreaming.End
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIStreaming.End
+- IAVIStreaming.End
 targetos: Windows
 req.typenames: 
 req.redist: 

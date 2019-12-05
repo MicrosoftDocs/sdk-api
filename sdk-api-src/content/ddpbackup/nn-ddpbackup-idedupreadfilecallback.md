@@ -1,19 +1,17 @@
 ---
 UID: NN:ddpbackup.IDedupReadFileCallback
 title: IDedupReadFileCallback (ddpbackup.h)
-
 description: A callback interface, implemented by backup applications, that enables Data Deduplication to read content from metadata and container files residing in a backup store and optionally improve restore efficiency.
 old-location: dedup\idedupreadfilecallback.htm
 tech.root: dedup
 ms.assetid: 0B7F5A5B-EB60-4BAF-86AF-D9101F3B482C
-
 ms.date: 12/05/2018
 ms.keywords: IDedupReadFileCallback, IDedupReadFileCallback interface [Data Deduplication API], IDedupReadFileCallback interface [Data Deduplication API],described, ddpbackup/IDedupReadFileCallback, dedup.idedupreadfilecallback
 ms.topic: interface
-f1_keywords: 
- - "ddpbackup/IDedupReadFileCallback"
+f1_keywords:
+- ddpbackup/IDedupReadFileCallback
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DdpBackup.h
+- DdpBackup.h
 api_name:
- - IDedupReadFileCallback
+- IDedupReadFileCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.GetTraceEnableLevel
 title: GetTraceEnableLevel function (evntrace.h)
-
 description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.
 old-location: etw\gettraceenablelevel.htm
 tech.root: ETW
 ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705
-
 ms.date: 12/05/2018
 ms.keywords: GetTraceEnableLevel, GetTraceEnableLevel function [ETW], _evt_gettraceenablelevel, base.gettraceenablelevel, etw.gettraceenablelevel, evntrace/GetTraceEnableLevel
 ms.topic: function
-f1_keywords: 
- - "evntrace/GetTraceEnableLevel"
+f1_keywords:
+- evntrace/GetTraceEnableLevel
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - GetTraceEnableLevel
+- GetTraceEnableLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

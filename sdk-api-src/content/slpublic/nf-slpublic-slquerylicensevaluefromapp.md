@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLQueryLicenseValueFromApp
 title: SLQueryLicenseValueFromApp function (slpublic.h)
-
 description: Gets the value for the specified component policy.
 old-location: security\slquerylicensevaluefromapp.htm
 tech.root: SecSLApi
 ms.assetid: C26FF469-2B25-4EDA-8432-EF32A4550650
-
 ms.date: 12/05/2018
 ms.keywords: SLQueryLicenseValueFromApp, SLQueryLicenseValueFromApp function [Security], security.slquerylicensevaluefromapp, slpublic/SLQueryLicenseValueFromApp
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLQueryLicenseValueFromApp"
+f1_keywords:
+- slpublic/SLQueryLicenseValueFromApp
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Api-ms-win-core-slapi-l1-1-0.lib
 req.dll: Api-ms-win-core-slapi-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-slapi-l1-1-0.dll
- - Slc.dll
- - Clipc.dll
+- api-ms-win-core-slapi-l1-1-0.dll
+- Slc.dll
+- Clipc.dll
 api_name:
- - SLQueryLicenseValueFromApp
+- SLQueryLicenseValueFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 

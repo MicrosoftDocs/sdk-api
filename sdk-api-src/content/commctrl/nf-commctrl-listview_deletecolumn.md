@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_DeleteColumn
 title: ListView_DeleteColumn macro (commctrl.h)
-
 description: Removes a column from a list-view control. You can use this macro or send the LVM_DELETECOLUMN message explicitly.
 old-location: controls\ListView_DeleteColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deletecolumn.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_DeleteColumn, ListView_DeleteColumn macro [Windows Controls], _win32_ListView_DeleteColumn, _win32_ListView_DeleteColumn_cpp, commctrl/ListView_DeleteColumn, controls.ListView_DeleteColumn, controls._win32_ListView_DeleteColumn
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_DeleteColumn"
+f1_keywords:
+- commctrl/ListView_DeleteColumn
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_DeleteColumn
+- ListView_DeleteColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagCOMBOBOXINFO
 title: COMBOBOXINFO (winuser.h)
-
 description: Contains combo box status information.
 old-location: controls\COMBOBOXINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\comboboxinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCOMBOBOXINFO, *PCOMBOBOXINFO, COMBOBOXINFO, COMBOBOXINFO structure [Windows Controls], LPCOMBOBOXINFO, LPCOMBOBOXINFO structure pointer [Windows Controls], PCOMBOBOXINFO, PCOMBOBOXINFO structure pointer [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_PRESSED, _win32_COMBOBOXINFO_str, _win32_COMBOBOXINFO_str_cpp, controls.COMBOBOXINFO, controls._win32_COMBOBOXINFO_str, winuser/COMBOBOXINFO, winuser/LPCOMBOBOXINFO, winuser/PCOMBOBOXINFO"
+ms.keywords: '*LPCOMBOBOXINFO, *PCOMBOBOXINFO, COMBOBOXINFO, COMBOBOXINFO structure [Windows Controls], LPCOMBOBOXINFO, LPCOMBOBOXINFO structure pointer [Windows Controls], PCOMBOBOXINFO, PCOMBOBOXINFO structure pointer [Windows Controls], STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_PRESSED, _win32_COMBOBOXINFO_str, _win32_COMBOBOXINFO_str_cpp, controls.COMBOBOXINFO, controls._win32_COMBOBOXINFO_str, winuser/COMBOBOXINFO, winuser/LPCOMBOBOXINFO, winuser/PCOMBOBOXINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/COMBOBOXINFO"
+f1_keywords:
+- winuser/COMBOBOXINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - COMBOBOXINFO
+- COMBOBOXINFO
 targetos: Windows
 req.typenames: COMBOBOXINFO, *PCOMBOBOXINFO, *LPCOMBOBOXINFO
 req.redist: Service Pack 6

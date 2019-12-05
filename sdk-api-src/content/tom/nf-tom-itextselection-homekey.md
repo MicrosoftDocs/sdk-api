@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextSelection.HomeKey
 title: ITextSelection::HomeKey (tom.h)
-
 description: Generalizes the functionality of the Home key.
 old-location: controls\ITextSelection_HomeKey.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\homekey.htm
-
 ms.date: 12/05/2018
 ms.keywords: HomeKey, HomeKey method [Windows Controls], HomeKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],HomeKey method, ITextSelection.HomeKey, ITextSelection::HomeKey, _win32_ITextSelection_HomeKey, _win32_ITextSelection_HomeKey_cpp, controls.ITextSelection_HomeKey, controls._win32_ITextSelection_HomeKey, tom/ITextSelection::HomeKey, tomColumn, tomLine, tomRow, tomStory
 ms.topic: method
-f1_keywords: 
- - "tom/ITextSelection.HomeKey"
+f1_keywords:
+- tom/ITextSelection.HomeKey
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextSelection.HomeKey
+- ITextSelection.HomeKey
 targetos: Windows
 req.typenames: 
 req.redist: 

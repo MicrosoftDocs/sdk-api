@@ -1,19 +1,17 @@
 ---
 UID: NC:libloaderapi.ENUMRESNAMEPROCA
 title: ENUMRESNAMEPROCA (libloaderapi.h)
-
 description: An application-defined callback function used with the EnumResourceNames and EnumResourceNamesEx functions.
 old-location: menurc\enumresnameproc.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresnameproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumResNameProc, EnumResNameProc callback, EnumResNameProc callback function [Menus and Other Resources], EnumResNameProcA, EnumResNameProcW, _win32_EnumResNameProc, _win32_enumresnameproc_cpp, libloaderapi/EnumResNameProc, libloaderapi/EnumResNameProcA, libloaderapi/EnumResNameProcW, menurc.enumresnameproc, winui._win32_enumresnameproc
 ms.topic: callback
-f1_keywords: 
- - "libloaderapi/EnumResNameProc"
+f1_keywords:
+- libloaderapi/EnumResNameProc
 dev_langs:
- - c++
+- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - libloaderapi.h
+- libloaderapi.h
 api_name:
- - EnumResNameProc
- - EnumResNameProcA
- - EnumResNameProcW
+- EnumResNameProc
+- EnumResNameProcA
+- EnumResNameProcW
 targetos: Windows
 req.typenames: 
 req.redist: 

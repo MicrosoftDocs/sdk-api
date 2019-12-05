@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INamespaceWalk.GetIDArrayResult
 title: INamespaceWalk::GetIDArrayResult (shobjidl_core.h)
-
 description: Gets a list of objects found during a namespace walk initiated by INamespaceWalk::Walk.
 old-location: shell\INamespaceWalk_GetIDArrayResult.htm
 tech.root: shell
 ms.assetid: 51bce109-8f84-4852-bec5-e4f2937c31b3
-
 ms.date: 12/05/2018
 ms.keywords: GetIDArrayResult, GetIDArrayResult method [Windows Shell], GetIDArrayResult method [Windows Shell],INamespaceWalk interface, INamespaceWalk interface [Windows Shell],GetIDArrayResult method, INamespaceWalk.GetIDArrayResult, INamespaceWalk::GetIDArrayResult, _win32_INamespaceWalk_GetIDArrayResult, shell.INamespaceWalk_GetIDArrayResult, shobjidl_core/INamespaceWalk::GetIDArrayResult
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INamespaceWalk.GetIDArrayResult"
+f1_keywords:
+- shobjidl_core/INamespaceWalk.GetIDArrayResult
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INamespaceWalk.GetIDArrayResult
+- INamespaceWalk.GetIDArrayResult
 targetos: Windows
 req.typenames: 
 req.redist: 

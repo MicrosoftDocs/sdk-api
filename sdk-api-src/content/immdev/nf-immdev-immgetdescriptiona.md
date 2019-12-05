@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetDescriptionA
 title: ImmGetDescriptionA function (immdev.h)
-
 description: Copies the description of the IME to the specified buffer.
 old-location: intl\immgetdescription.htm
 tech.root: Intl
 ms.assetid: 62f4efc8-7b46-4d8e-a6a2-2f346efe8ba6
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetDescription, ImmGetDescription function [Internationalization for Windows Applications], ImmGetDescriptionA, ImmGetDescriptionW, _win32_ImmGetDescription, imm/ImmGetDescription, imm/ImmGetDescriptionA, imm/ImmGetDescriptionW, intl.immgetdescription
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetDescription"
+f1_keywords:
+- immdev/ImmGetDescription
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetDescription
- - ImmGetDescriptionA
- - ImmGetDescriptionW
+- ImmGetDescription
+- ImmGetDescriptionA
+- ImmGetDescriptionW
 targetos: Windows
 req.typenames: 
 req.redist: 

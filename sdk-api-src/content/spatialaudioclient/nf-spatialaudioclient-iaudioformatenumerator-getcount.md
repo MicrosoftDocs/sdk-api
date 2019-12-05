@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.IAudioFormatEnumerator.GetCount
 title: IAudioFormatEnumerator::GetCount (spatialaudioclient.h)
-
 description: Gets the number of supported audio formats in the list.
 old-location: coreaudio\iaudioformatenumerator_getcount.htm
 tech.root: CoreAudio
 ms.assetid: A2523D52-6641-4876-A263-E0D02A815522
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetCount method, IAudioFormatEnumerator.GetCount, IAudioFormatEnumerator::GetCount, coreaudio.iaudioformatenumerator_getcount, spatialaudioclient/IAudioFormatEnumerator::GetCount
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/IAudioFormatEnumerator.GetCount"
+f1_keywords:
+- spatialaudioclient/IAudioFormatEnumerator.GetCount
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - IAudioFormatEnumerator.GetCount
+- IAudioFormatEnumerator.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoAddRefServerProcess
 title: CoAddRefServerProcess function (combaseapi.h)
-
 description: Increments a global per-process reference count.
 old-location: com\coaddrefserverprocess.htm
 tech.root: com
 ms.assetid: 79887f9d-cad1-492a-b406-d1753ffaf82b
-
 ms.date: 12/05/2018
 ms.keywords: CoAddRefServerProcess, CoAddRefServerProcess function [COM], _com_CoAddRefServerProcess, com.coaddrefserverprocess, combaseapi/CoAddRefServerProcess
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoAddRefServerProcess"
+f1_keywords:
+- combaseapi/CoAddRefServerProcess
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoAddRefServerProcess
+- CoAddRefServerProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

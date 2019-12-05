@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetCHString(LPCWSTR,const CHString &)
 title: CInstance::SetCHString(LPCWSTR,const CHString &) (instance.h)
-
 description: The SetCHString(LPCWSTR, const CHString&) method sets a string property.
 old-location: wmi\cinstance_setchstring_lpcwstr__const_chstring__.htm
 tech.root: WmiSdk
 ms.assetid: 590df94c-3992-49eb-a043-c5d8e1e72455
-
 ms.date: 12/05/2018
-ms.keywords: "?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z, ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString(LPCWSTR,const CHString&), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__const_chstring__"
+ms.keywords: ?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z, ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z, CInstance interface [Windows Management Instrumentation],SetCHString method, CInstance.SetCHString, CInstance.SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString, CInstance::SetCHString(LPCWSTR,const CHString &), CInstance::SetCHString(LPCWSTR,const CHString&), SetCHString, SetCHString method [Windows Management Instrumentation], SetCHString method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCHString, wmi.cinstance_setchstring_lpcwstr__const_chstring__
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetCHString"
+f1_keywords:
+- instance/CInstance.SetCHString
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetCHString
- - ?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z
- - ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z
+- CInstance.SetCHString
+- ?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z
+- ?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

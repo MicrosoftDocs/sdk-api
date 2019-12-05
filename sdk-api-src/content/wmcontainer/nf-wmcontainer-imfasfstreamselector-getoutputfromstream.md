@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputFromStream
 title: IMFASFStreamSelector::GetOutputFromStream (wmcontainer.h)
-
 description: Retrieves the output number associated with a stream.
 old-location: mf\imfasfstreamselector_getoutputfromstream.htm
 tech.root: medfound
 ms.assetid: a7ff421b-3ef3-406a-ae05-8d8bf9f4357f
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputFromStream, GetOutputFromStream method [Media Foundation], GetOutputFromStream method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputFromStream method, IMFASFStreamSelector.GetOutputFromStream, IMFASFStreamSelector::GetOutputFromStream, a7ff421b-3ef3-406a-ae05-8d8bf9f4357f, mf.imfasfstreamselector_getoutputfromstream, wmcontainer/IMFASFStreamSelector::GetOutputFromStream
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.GetOutputFromStream"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.GetOutputFromStream
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetOutputFromStream
+- IMFASFStreamSelector.GetOutputFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

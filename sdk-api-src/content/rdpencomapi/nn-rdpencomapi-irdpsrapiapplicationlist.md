@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplicationList
 title: IRDPSRAPIApplicationList (rdpencomapi.h)
-
 description: Manages the application list.
 old-location: rdp\irdpsrapiapplicationlist.htm
 tech.root: rdp
 ms.assetid: 275bb93c-dc93-4884-82a9-e87f5c3ab475
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationList, IRDPSRAPIApplicationList interface [RDP], IRDPSRAPIApplicationList interface [RDP],described, rdp.irdpsrapiapplicationlist, rdpencomapi/IRDPSRAPIApplicationList
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIApplicationList"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIApplicationList
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIApplicationList
+- IRDPSRAPIApplicationList
 targetos: Windows
 req.typenames: 
 req.redist: 

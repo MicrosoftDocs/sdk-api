@@ -1,19 +1,17 @@
 ---
 UID: NE:inked.AppearanceConstants
 title: AppearanceConstants (inked.h)
-
 description: Specifies how an InkEdit control appears on the screen.
 old-location: tablet\appearanceconstants.htm
 tech.root: tablet
 ms.assetid: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816
-
 ms.date: 12/05/2018
 ms.keywords: 1ec00514-49d0-40dc-a9cf-8ec7d9e6a816, AppearanceConstants, AppearanceConstants enumeration [Tablet PC], inked/AppearanceConstants, inked/rtfFlat, inked/rtfThreeD, rtfFlat, rtfThreeD, tablet.appearanceconstants
 ms.topic: enum
-f1_keywords: 
- - "inked/AppearanceConstants"
+f1_keywords:
+- inked/AppearanceConstants
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - inked.h
+- inked.h
 api_name:
- - AppearanceConstants
+- AppearanceConstants
 targetos: Windows
 req.typenames: AppearanceConstants
 req.redist: 

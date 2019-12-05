@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetPrinterDataFileName
 title: EngGetPrinterDataFileName function (winddi.h)
-
 description: The EngGetPrinterDataFileName function retrieves the string name of the printer's data file.
 old-location: display\enggetprinterdatafilename.htm
 tech.root: display
 ms.assetid: bfc698d9-a340-49a5-97fb-0dae92ab6f2d
-
 ms.date: 12/05/2018
 ms.keywords: EngGetPrinterDataFileName, EngGetPrinterDataFileName function [Display Devices], display.enggetprinterdatafilename, gdifncs_d69cc953-8c73-4b34-af26-61f159959fa6.xml, winddi/EngGetPrinterDataFileName
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetPrinterDataFileName"
+f1_keywords:
+- winddi/EngGetPrinterDataFileName
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngGetPrinterDataFileName
+- EngGetPrinterDataFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

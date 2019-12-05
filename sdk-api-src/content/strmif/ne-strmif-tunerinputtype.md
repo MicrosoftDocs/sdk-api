@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagTunerInputType
 title: TunerInputType (strmif.h)
-
 description: Specifies the frequency of a TV tuner (cable or antenna).
 old-location: dshow\tunerinputtype.htm
 tech.root: DirectShow
 ms.assetid: e25ec8e2-6d94-4059-a34e-a9e7887582fb
-
 ms.date: 12/05/2018
 ms.keywords: TunerInputAntenna, TunerInputCable, TunerInputType, TunerInputType enumeration [DirectShow], TunerInputTypeEnumeration, dshow.tunerinputtype, strmif/TunerInputAntenna, strmif/TunerInputCable, strmif/TunerInputType
 ms.topic: enum
-f1_keywords: 
- - "strmif/TunerInputType"
+f1_keywords:
+- strmif/TunerInputType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - TunerInputType
+- TunerInputType
 targetos: Windows
 req.typenames: TunerInputType
 req.redist: 

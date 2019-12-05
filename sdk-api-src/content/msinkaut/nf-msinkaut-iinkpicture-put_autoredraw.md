@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_AutoRedraw
 title: IInkPicture::put_AutoRedraw (msinkaut.h)
-
 description: Gets or sets a value that specifies whether an ink collectcor repaints the ink when the window is invalidated.
 old-location: tablet\inkpicture_autoredraw.htm
 tech.root: tablet
 ms.assetid: 8dea3bee-c0d9-488e-834f-6a70d4deaf34
-
 ms.date: 12/05/2018
 ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],AutoRedraw property, IInkPicture.AutoRedraw, IInkPicture.put_AutoRedraw, IInkPicture::AutoRedraw, IInkPicture::get_AutoRedraw, IInkPicture::put_AutoRedraw, InkPicture.get_AutoRedraw, InkPicture.put_AutoRedraw, get_AutoRedraw, msinkaut/IInkPicture::AutoRedraw, msinkaut/IInkPicture::get_AutoRedraw, msinkaut/IInkPicture::put_AutoRedraw, put_AutoRedraw, tablet.inkpicture_autoredraw
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.AutoRedraw"
+f1_keywords:
+- msinkaut/IInkPicture.AutoRedraw
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.AutoRedraw
- - IInkPicture.get_AutoRedraw
- - IInkPicture.put_AutoRedraw
- - InkPicture.get_AutoRedraw
- - InkPicture.put_AutoRedraw
+- IInkPicture.AutoRedraw
+- IInkPicture.get_AutoRedraw
+- IInkPicture.put_AutoRedraw
+- InkPicture.get_AutoRedraw
+- InkPicture.put_AutoRedraw
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemState
 title: INameSpaceTreeControl::GetItemState (shobjidl_core.h)
-
 description: Gets state information about a Shell item.
 old-location: shell\INameSpaceTreeControl_GetItemState.htm
 tech.root: shell
 ms.assetid: 78bee2db-6a28-4fcb-9c43-ab411196ab04
-
 ms.date: 12/05/2018
 ms.keywords: GetItemState, GetItemState method [Windows Shell], GetItemState method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],GetItemState method, INameSpaceTreeControl.GetItemState, INameSpaceTreeControl::GetItemState, _shell_INameSpaceTreeControl_GetItemState, shell.INameSpaceTreeControl_GetItemState, shobjidl_core/INameSpaceTreeControl::GetItemState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.GetItemState"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.GetItemState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.GetItemState
+- INameSpaceTreeControl.GetItemState
 targetos: Windows
 req.typenames: 
 req.redist: 

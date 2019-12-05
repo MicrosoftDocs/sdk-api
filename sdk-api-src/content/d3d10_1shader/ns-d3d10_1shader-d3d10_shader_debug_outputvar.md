@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10_1shader._D3D10_SHADER_DEBUG_OUTPUTVAR
 title: D3D10_SHADER_DEBUG_OUTPUTVAR (d3d10_1shader.h)
-
 description: Describes a shader output variable.
 old-location: direct3d10\d3d10_shader_debug_outputvar.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_outputvar.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_SHADER_DEBUG_OUTPUTVAR, D3D10_SHADER_DEBUG_OUTPUTVAR structure [Direct3D 10], a188f87a-61c2-dda1-1e50-d2cbcbeb680f, d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR, direct3d10.d3d10_shader_debug_outputvar
 ms.topic: struct
-f1_keywords: 
- - "d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR"
+f1_keywords:
+- d3d10_1shader/D3D10_SHADER_DEBUG_OUTPUTVAR
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1shader.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1shader.h
+- d3d10_1shader.h
 api_name:
- - D3D10_SHADER_DEBUG_OUTPUTVAR
+- D3D10_SHADER_DEBUG_OUTPUTVAR
 targetos: Windows
 req.typenames: D3D10_SHADER_DEBUG_OUTPUTVAR
 req.redist: 

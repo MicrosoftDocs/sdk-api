@@ -1,19 +1,17 @@
 ---
 UID: NN:mfplay.IMFPMediaItem
 title: IMFPMediaItem (mfplay.h)
-
 description: Represents a media item. (Deprecated.).
 old-location: mf\imfpmediaitem.htm
 tech.root: medfound
 ms.assetid: 2839d256-bdaf-40cf-9f9d-46f9e2ce59e8
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem, IMFPMediaItem interface [Media Foundation], IMFPMediaItem interface [Media Foundation],described, mf.imfpmediaitem, mfplay/IMFPMediaItem
 ms.topic: interface
-f1_keywords: 
- - "mfplay/IMFPMediaItem"
+f1_keywords:
+- mfplay/IMFPMediaItem
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem
+- IMFPMediaItem
 targetos: Windows
 req.typenames: 
 req.redist: 

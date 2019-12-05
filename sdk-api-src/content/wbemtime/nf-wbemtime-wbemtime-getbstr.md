@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetBSTR
 title: WBEMTime::GetBSTR (wbemtime.h)
-
 description: Gets the time as a BSTR value in CIM Date and Time Format.
 old-location: wmi\wbemtime_getbstr.htm
 tech.root: WmiSdk
 ms.assetid: f1fe92cc-1d51-4bd7-950b-84c76b001163
-
 ms.date: 12/05/2018
-ms.keywords: "?GetBSTR@WBEMTime@@QBEPAGXZ, ?GetBSTR@WBEMTime@@QEBAPEAGXZ, GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetBSTR method, WBEMTime.GetBSTR, WBEMTime::GetBSTR, _hmm_wbemtime_getbstr, wbemtime/WBEMTime::GetBSTR, wmi.wbemtime_getbstr"
+ms.keywords: ?GetBSTR@WBEMTime@@QBEPAGXZ, ?GetBSTR@WBEMTime@@QEBAPEAGXZ, GetBSTR, GetBSTR method [Windows Management Instrumentation], GetBSTR method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetBSTR method, WBEMTime.GetBSTR, WBEMTime::GetBSTR, _hmm_wbemtime_getbstr, wbemtime/WBEMTime::GetBSTR, wmi.wbemtime_getbstr
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.GetBSTR"
+f1_keywords:
+- wbemtime/WBEMTime.GetBSTR
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.GetBSTR
- - ?GetBSTR@WBEMTime@@QBEPAGXZ
- - ?GetBSTR@WBEMTime@@QEBAPEAGXZ
+- WBEMTime.GetBSTR
+- ?GetBSTR@WBEMTime@@QBEPAGXZ
+- ?GetBSTR@WBEMTime@@QEBAPEAGXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

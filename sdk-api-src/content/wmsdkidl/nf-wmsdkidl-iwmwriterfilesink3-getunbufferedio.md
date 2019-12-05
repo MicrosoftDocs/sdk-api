@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink3.GetUnbufferedIO
 title: IWMWriterFileSink3::GetUnbufferedIO (wmsdkidl.h)
-
 description: The GetUnbufferedIO method ascertains whether unbuffered I/O is used for the file sink.
 old-location: wmformat\iwmwriterfilesink3_getunbufferedio.htm
 tech.root: wmformat
 ms.assetid: e87222eb-6ed1-49b7-a544-27703ba9806b
-
 ms.date: 12/05/2018
 ms.keywords: GetUnbufferedIO, GetUnbufferedIO method [windows Media Format], GetUnbufferedIO method [windows Media Format],IWMWriterFileSink3 interface, IWMWriterFileSink3 interface [windows Media Format],GetUnbufferedIO method, IWMWriterFileSink3.GetUnbufferedIO, IWMWriterFileSink3::GetUnbufferedIO, IWMWriterFileSink3GetUnbufferedIO, wmformat.iwmwriterfilesink3_getunbufferedio, wmsdkidl/IWMWriterFileSink3::GetUnbufferedIO
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink3.GetUnbufferedIO"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink3.GetUnbufferedIO
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3.GetUnbufferedIO
+- IWMWriterFileSink3.GetUnbufferedIO
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagPOINTER_PEN_INFO
 title: POINTER_PEN_INFO (winuser.h)
-
 description: Defines basic pen information common to all pointer types.
 old-location: inputmsg\pointer_pen_info_struct.htm
 tech.root: InputMsg
 ms.assetid: fee176ba-ad07-4141-ab4d-1b8c335fd111
-
 ms.date: 12/05/2018
 ms.keywords: POINTER_PEN_INFO, POINTER_PEN_INFO structure [Input Messages and Notifications], _POINTER_PEN_INFO, inputmsg.pointer_pen_info_struct, winuser/POINTER_PEN_INFO
 ms.topic: struct
-f1_keywords: 
- - "winuser/POINTER_PEN_INFO"
+f1_keywords:
+- winuser/POINTER_PEN_INFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - POINTER_PEN_INFO
+- POINTER_PEN_INFO
 targetos: Windows
 req.typenames: POINTER_PEN_INFO
 req.redist: 

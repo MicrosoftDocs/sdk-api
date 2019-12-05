@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsapi32._WTSCONFIGINFOW
 title: WTSCONFIGINFOW (wtsapi32.h)
-
 description: Contains information about a Remote Desktop Services session.
 old-location: termserv\wtsconfiginfo.htm
 tech.root: TermServ
 ms.assetid: 11561aee-0b73-4e4a-8a53-11a46c7838c7
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTSCONFIGINFOW, PWTSCONFIGINFO, PWTSCONFIGINFO structure pointer [Remote Desktop Services], WTSCONFIGINFO, WTSCONFIGINFO structure [Remote Desktop Services], WTSCONFIGINFOA, WTSCONFIGINFOW, termserv.wtsconfiginfo, wtsapi32/PWTSCONFIGINFO, wtsapi32/WTSCONFIGINFO, wtsapi32/WTSCONFIGINFOA, wtsapi32/WTSCONFIGINFOW"
+ms.keywords: '*PWTSCONFIGINFOW, PWTSCONFIGINFO, PWTSCONFIGINFO structure pointer [Remote Desktop Services], WTSCONFIGINFO, WTSCONFIGINFO structure [Remote Desktop Services], WTSCONFIGINFOA, WTSCONFIGINFOW, termserv.wtsconfiginfo, wtsapi32/PWTSCONFIGINFO, wtsapi32/WTSCONFIGINFO, wtsapi32/WTSCONFIGINFOA, wtsapi32/WTSCONFIGINFOW'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTSCONFIGINFO"
+f1_keywords:
+- wtsapi32/WTSCONFIGINFO
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTSCONFIGINFO
- - WTSCONFIGINFOA
- - WTSCONFIGINFOW
+- WTSCONFIGINFO
+- WTSCONFIGINFOA
+- WTSCONFIGINFOW
 targetos: Windows
 req.typenames: WTSCONFIGINFOW, *PWTSCONFIGINFOW
 req.redist: 

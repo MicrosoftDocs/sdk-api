@@ -1,19 +1,17 @@
 ---
 UID: NL:chstrarr.CHStringArray
 title: CHStringArray (chstrarr.h)
-
 description: The following table lists the CHStringArray methods and operators.
 old-location: wmi\chstringarray.htm
 tech.root: WmiSdk
 ms.assetid: 62959345-4fed-4107-b155-1746ad35c658
-
 ms.date: 12/05/2018
-ms.keywords: "??1CHStringArray@@QAE@XZ, ??1CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray class [Windows Management Instrumentation], CHStringArray class [Windows Management Instrumentation],described, _hmm_chstringarray, chstrarr/CHStringArray, wmi.chstringarray"
+ms.keywords: ??1CHStringArray@@QAE@XZ, ??1CHStringArray@@QEAA@XZ, CHStringArray, CHStringArray class [Windows Management Instrumentation], CHStringArray class [Windows Management Instrumentation],described, _hmm_chstringarray, chstrarr/CHStringArray, wmi.chstringarray
 ms.topic: class
-f1_keywords: 
- - "chstrarr/CHStringArray"
+f1_keywords:
+- chstrarr/CHStringArray
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray
- - ??1CHStringArray@@QAE@XZ
- - ??1CHStringArray@@QEAA@XZ
+- CHStringArray
+- ??1CHStringArray@@QAE@XZ
+- ??1CHStringArray@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

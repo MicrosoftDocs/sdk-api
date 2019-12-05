@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevice.SetExtensionProperty
 title: IFaxDevice::SetExtensionProperty (faxcomex.h)
-
 description: The IFaxDevice::SetExtensionProperty method stores an extension configuration property at the device level.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_setextensionproperty_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5szd.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],SetExtensionProperty method, IFaxDevice.SetExtensionProperty, IFaxDevice::SetExtensionProperty, SetExtensionProperty, SetExtensionProperty method [Fax Service], SetExtensionProperty method [Fax Service],IFaxDevice interface, _mfax_faxdevice.setextensionproperty, fax._mfax_faxdevice_cpp_mfax_faxdevice_setextensionproperty_cpp, fax._mfax_faxdevice_setextensionproperty, faxcomex/IFaxDevice::SetExtensionProperty
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevice.SetExtensionProperty"
+f1_keywords:
+- faxcomex/IFaxDevice.SetExtensionProperty
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevice.SetExtensionProperty
- - IFaxDevice.SetExtensionProperty
+- IFaxDevice.SetExtensionProperty
+- IFaxDevice.SetExtensionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

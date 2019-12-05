@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpCrackUrl
 title: WinHttpCrackUrl function (winhttp.h)
-
 description: The WinHttpCrackUrl function separates a URL into its component parts such as host name and path.
 old-location: http\winhttpcrackurl.htm
 tech.root: WinHttp
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
-
 ms.date: 12/05/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpCrackUrl"
+f1_keywords:
+- winhttp/WinHttpCrackUrl
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpCrackUrl
+- WinHttpCrackUrl
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

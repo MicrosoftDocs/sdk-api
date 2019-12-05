@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingManager.get_INetSharingConfigurationForINetConnection
 title: INetSharingManager::get_INetSharingConfigurationForINetConnection (netcon.h)
-
 description: The get_INetSharingConfigurationForINetConnection method retrieves an INetSharingConfiguration interface for the specified connection.
 old-location: ics\inetsharingmanager_get_inetsharingconfigurationforinetconnection.htm
 tech.root: ics
 ms.assetid: 8f774509-0efb-49e5-bf56-61f4810631bd
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_INetSharingConfigurationForINetConnection method, INetSharingManager.get_INetSharingConfigurationForINetConnection, INetSharingManager::get_INetSharingConfigurationForINetConnection, _ics_inetsharingmanager_get_inetsharingconfigurationforinetconnection, get_INetSharingConfigurationForINetConnection, get_INetSharingConfigurationForINetConnection method [ICS/ICF], get_INetSharingConfigurationForINetConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_inetsharingconfigurationforinetconnection, netcon/INetSharingManager::get_INetSharingConfigurationForINetConnection
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingManager.get_INetSharingConfigurationForINetConnection"
+f1_keywords:
+- netcon/INetSharingManager.get_INetSharingConfigurationForINetConnection
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingManager.get_INetSharingConfigurationForINetConnection
+- INetSharingManager.get_INetSharingConfigurationForINetConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

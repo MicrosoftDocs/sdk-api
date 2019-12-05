@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionary
 title: IXpsOMPage::GetDictionary (xpsobjectmodel.h)
-
 description: Gets a pointer to the resolved IXpsOMDictionary interface that is associated with this page.
 old-location: xps\ixpsompage_getdictionary.htm
 tech.root: printdocs
 ms.assetid: e842c828-6e8c-4190-b845-8c8a26af1579
-
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetDictionary method, IXpsOMPage.GetDictionary, IXpsOMPage::GetDictionary, xps.ixpsompage_getdictionary, xpsobjectmodel/IXpsOMPage::GetDictionary
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetDictionary"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetDictionary
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetDictionary
+- IXpsOMPage.GetDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

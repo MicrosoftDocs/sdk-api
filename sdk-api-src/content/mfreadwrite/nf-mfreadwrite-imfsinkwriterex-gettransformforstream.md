@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterEx.GetTransformForStream
 title: IMFSinkWriterEx::GetTransformForStream (mfreadwrite.h)
-
 description: Gets a pointer to a Media Foundation transform (MFT) for a specified stream.
 old-location: mf\imfsinkwriterex_gettransformforstream.htm
 tech.root: medfound
 ms.assetid: 72EEC01F-ED62-4DD7-A18C-766D01705CAE
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformForStream, GetTransformForStream method [Media Foundation], GetTransformForStream method [Media Foundation],IMFSinkWriterEx interface, IMFSinkWriterEx interface [Media Foundation],GetTransformForStream method, IMFSinkWriterEx.GetTransformForStream, IMFSinkWriterEx::GetTransformForStream, mf.imfsinkwriterex_gettransformforstream, mfreadwrite/IMFSinkWriterEx::GetTransformForStream
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriterEx.GetTransformForStream"
+f1_keywords:
+- mfreadwrite/IMFSinkWriterEx.GetTransformForStream
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriterEx.GetTransformForStream
+- IMFSinkWriterEx.GetTransformForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

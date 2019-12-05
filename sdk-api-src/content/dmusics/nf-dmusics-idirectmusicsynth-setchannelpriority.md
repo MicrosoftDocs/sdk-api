@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetChannelPriority
 title: IDirectMusicSynth::SetChannelPriority (dmusics.h)
-
 description: The SetChannelPriority method sets the priority of a MIDI channel.
 old-location: audio\idirectmusicsynth_setchannelpriority.htm
 tech.root: audio
 ms.assetid: 6398f460-4c2e-4995-a606-e95e0488f1cd
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetChannelPriority method, IDirectMusicSynth.SetChannelPriority, IDirectMusicSynth::SetChannelPriority, SetChannelPriority, SetChannelPriority method [Audio Devices], SetChannelPriority method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setchannelpriority, audmp-routines_58d1ca8b-8fc8-4183-a9fa-4b21f11ae86e.xml, dmusics/IDirectMusicSynth::SetChannelPriority
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth.SetChannelPriority"
+f1_keywords:
+- dmusics/IDirectMusicSynth.SetChannelPriority
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth.SetChannelPriority
+- IDirectMusicSynth.SetChannelPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

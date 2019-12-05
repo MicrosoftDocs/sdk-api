@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.RemoveEntryByIndex
 title: ITocEntryList::RemoveEntryByIndex (wmcodecdsp.h)
-
 description: The RemoveEntryByIndex method removes an entry, specified by an index, from the list.
 old-location: mf\itocentrylist_removeentrybyindex.htm
 tech.root: medfound
 ms.assetid: 72b9141c-2e61-42be-a4a1-910b607ab5f1
-
 ms.date: 12/05/2018
 ms.keywords: ITocEntryList interface [Media Foundation],RemoveEntryByIndex method, ITocEntryList.RemoveEntryByIndex, ITocEntryList::RemoveEntryByIndex, RemoveEntryByIndex, RemoveEntryByIndex method [Media Foundation], RemoveEntryByIndex method [Media Foundation],ITocEntryList interface, codecapi.itocentrylist_removeentrybyindex, mf.itocentrylist_removeentrybyindex, wmcodecdsp/ITocEntryList::RemoveEntryByIndex
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntryList.RemoveEntryByIndex"
+f1_keywords:
+- wmcodecdsp/ITocEntryList.RemoveEntryByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntryList.RemoveEntryByIndex
+- ITocEntryList.RemoveEntryByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

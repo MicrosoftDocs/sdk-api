@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetMiterLimit
 title: Pen::SetMiterLimit (gdipluspen.h)
-
 description: The Pen::SetMiterLimit method sets the miter limit of this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setmiterlimit.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetMiterLimit method, Pen.SetMiterLimit, Pen::SetMiterLimit, SetMiterLimit, SetMiterLimit method [GDI+], SetMiterLimit method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_, gdiplus._gdiplus_CLASS_Pen_SetMiterLimit_miterLimit_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetMiterLimit"
+f1_keywords:
+- gdipluspen/Pen.SetMiterLimit
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetMiterLimit
+- Pen.SetMiterLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

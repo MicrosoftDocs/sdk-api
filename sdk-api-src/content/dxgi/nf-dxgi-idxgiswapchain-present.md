@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.Present
 title: IDXGISwapChain::Present (dxgi.h)
-
 description: Presents a rendered image to the user.
 old-location: direct3ddxgi\idxgiswapchain_present.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_present.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5dfc8ba6-2dcd-cb78-b6d3-50ba63314d3c, IDXGISwapChain interface [DXGI],Present method, IDXGISwapChain.Present, IDXGISwapChain::Present, Present, Present method [DXGI], Present method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_present, dxgi/IDXGISwapChain::Present
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISwapChain.Present"
+f1_keywords:
+- dxgi/IDXGISwapChain.Present
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISwapChain.Present
+- IDXGISwapChain.Present
 targetos: Windows
 req.typenames: 
 req.redist: 

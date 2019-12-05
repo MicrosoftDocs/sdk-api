@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoClearError
 title: RoClearError function
-
 description: Removes existing error information from the current thread environment block (TEB).
 old-location: winrt\roclearerror.htm
 tech.root: WinRT
 ms.assetid: 082B26B2-3B17-45E3-8D4B-0E27777EDFF6
-
 ms.date: 12/5/2018
 ms.keywords: RoClearError, RoClearError function [Windows Runtime], roerrorapi/RoClearError, winrt.roclearerror
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoClearError"
+f1_keywords:
+- roerrorapi/RoClearError
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoClearError
+- RoClearError
 targetos: Windows
 req.typenames: 
 req.redist: 

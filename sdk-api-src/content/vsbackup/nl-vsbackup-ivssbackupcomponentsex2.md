@@ -1,19 +1,17 @@
 ---
 UID: NL:vsbackup.IVssBackupComponentsEx2
 title: IVssBackupComponentsEx2 (vsbackup.h)
-
 description: Defines additional methods that requesters can use to run backup and restore operations.
 old-location: base\ivssbackupcomponentsex2.htm
 tech.root: VSS
 ms.assetid: 69d4d500-0e21-48bd-b90b-d06c88fde136
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponentsEx2, IVssBackupComponentsEx2 interface, IVssBackupComponentsEx2 interface,described, base.ivssbackupcomponentsex2, vsbackup/IVssBackupComponentsEx2
 ms.topic: class
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx2"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx2
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - IVssBackupComponentsEx2
+- IVssBackupComponentsEx2
 targetos: Windows
 req.typenames: 
 req.redist: 

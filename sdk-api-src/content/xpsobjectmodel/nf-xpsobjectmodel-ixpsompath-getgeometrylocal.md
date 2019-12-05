@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometryLocal
 title: IXpsOMPath::GetGeometryLocal (xpsobjectmodel.h)
-
 description: Gets the local, unshared geometry of the resolved fill area for this path.
 old-location: xps\ixpsompath_getgeometrylocal.htm
 tech.root: printdocs
 ms.assetid: a8902191-7646-4c97-843f-9467ed12f621
-
 ms.date: 12/05/2018
 ms.keywords: GetGeometryLocal, GetGeometryLocal method [XPS Documents and Packaging], GetGeometryLocal method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometryLocal method, IXpsOMPath.GetGeometryLocal, IXpsOMPath::GetGeometryLocal, xps.ixpsompath_getgeometrylocal, xpsobjectmodel/IXpsOMPath::GetGeometryLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetGeometryLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetGeometryLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetGeometryLocal
+- IXpsOMPath.GetGeometryLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

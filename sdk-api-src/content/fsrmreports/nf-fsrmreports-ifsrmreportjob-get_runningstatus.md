@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_RunningStatus
 title: IFsrmReportJob::get_RunningStatus (fsrmreports.h)
-
 description: Retrieves the running status of the report job.
 old-location: fsrm\ifsrmreportjob_runningstatus.htm
 tech.root: fsrm
 ms.assetid: ae87183c-8e82-487c-b774-6b2b802fa645
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],RunningStatus property, IFsrmReportJob.RunningStatus, IFsrmReportJob.get_RunningStatus, IFsrmReportJob::RunningStatus, IFsrmReportJob::get_RunningStatus, RunningStatus property [File Server Resource Manager], RunningStatus property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_runningstatus, fsrm.ifsrmreportjob_runningstatus, fsrmreports/IFsrmReportJob::RunningStatus, fsrmreports/IFsrmReportJob::get_RunningStatus, get_RunningStatus
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.RunningStatus"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.RunningStatus
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.RunningStatus
- - IFsrmReportJob.get_RunningStatus
+- IFsrmReportJob.RunningStatus
+- IFsrmReportJob.get_RunningStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

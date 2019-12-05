@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertProperties.get__NewEnum
 title: ICertProperties::get__NewEnum (certenroll.h)
-
 description: Retrieves the enumerator for the collection.
 old-location: security\icertproperties__newenum_property.htm
 tech.root: seccertenroll
 ms.assetid: a903113a-5d68-4a8e-b2ba-9993c927415e
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperties interface [Security],_NewEnum property, ICertProperties._NewEnum, ICertProperties.get__NewEnum, ICertProperties::_NewEnum, ICertProperties::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICertProperties interface, certenroll/ICertProperties::_NewEnum, certenroll/ICertProperties::get__NewEnum, get__NewEnum, security.icertproperties__newenum_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertProperties._NewEnum"
+f1_keywords:
+- certenroll/ICertProperties._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperties._NewEnum
- - ICertProperties.get__NewEnum
+- ICertProperties._NewEnum
+- ICertProperties.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

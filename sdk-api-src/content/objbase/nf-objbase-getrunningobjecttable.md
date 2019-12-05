@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.GetRunningObjectTable
 title: GetRunningObjectTable function (objbase.h)
-
 description: Returns a pointer to the IRunningObjectTable interface on the local running object table (ROT).
 old-location: com\getrunningobjecttable.htm
 tech.root: com
 ms.assetid: 65d9cf7d-cc8a-4199-9a4a-7fd67ef8872d
-
 ms.date: 12/05/2018
 ms.keywords: GetRunningObjectTable, GetRunningObjectTable function [COM], _com_GetRunningObjectTable, com.getrunningobjecttable, objbase/GetRunningObjectTable
 ms.topic: function
-f1_keywords: 
- - "objbase/GetRunningObjectTable"
+f1_keywords:
+- objbase/GetRunningObjectTable
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-COM-OLE32-l1-1-0.dll
- - Ext-MS-Win-COM-OLE32-l1-1-1.dll
- - Ext-MS-Win-COM-OLE32-l1-1-2.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-COM-OLE32-l1-1-0.dll
+- Ext-MS-Win-COM-OLE32-l1-1-1.dll
+- Ext-MS-Win-COM-OLE32-l1-1-2.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - GetRunningObjectTable
+- GetRunningObjectTable
 targetos: Windows
 req.typenames: 
 req.redist: 

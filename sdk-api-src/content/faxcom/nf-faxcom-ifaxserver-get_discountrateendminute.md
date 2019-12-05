@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.get_DiscountRateEndMinute
 title: IFaxServer::get_DiscountRateEndMinute (faxcom.h)
-
 description: Sets or retrieves the DiscountRateEndMinute property for a FaxServer object. The DiscountRateEndMinute property is a number that represents the minute the discount period ends. The discount period applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendminute_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1o4l.htm
-
 ms.date: 12/05/2018
 ms.keywords: DiscountRateEndMinute property [Fax Service], DiscountRateEndMinute property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DiscountRateEndMinute property, IFaxServer.DiscountRateEndMinute, IFaxServer.get_DiscountRateEndMinute, IFaxServer.put_DiscountRateEndMinute, IFaxServer::DiscountRateEndMinute, IFaxServer::get_DiscountRateEndMinute, IFaxServer::put_DiscountRateEndMinute, _mfax_ifaxserver_get_discountrateendminute, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendminute_cpp, fax._mfax_ifaxserver_get_discountrateendminute, faxcom/IFaxServer::DiscountRateEndMinute, faxcom/IFaxServer::get_DiscountRateEndMinute, faxcom/IFaxServer::put_DiscountRateEndMinute, get_DiscountRateEndMinute
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.DiscountRateEndMinute"
+f1_keywords:
+- faxcom/IFaxServer.DiscountRateEndMinute
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.DiscountRateEndMinute
- - IFaxServer.get_DiscountRateEndMinute
- - IFaxServer.put_DiscountRateEndMinute
- - IFaxServer.get_DiscountRateEndMinute
- - IFaxServer.put_DiscountRateEndMinute
+- IFaxServer.DiscountRateEndMinute
+- IFaxServer.get_DiscountRateEndMinute
+- IFaxServer.put_DiscountRateEndMinute
+- IFaxServer.get_DiscountRateEndMinute
+- IFaxServer.put_DiscountRateEndMinute
 targetos: Windows
 req.typenames: 
 req.redist: 

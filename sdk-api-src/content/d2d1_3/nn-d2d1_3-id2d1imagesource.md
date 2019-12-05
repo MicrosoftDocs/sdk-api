@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1ImageSource
 title: ID2D1ImageSource (d2d1_3.h)
-
 description: Represents a producer of pixels that can fill an arbitrary 2D plane.
 old-location: direct2d\id2d1imagesource.htm
 tech.root: Direct2D
 ms.assetid: a9ee20db-98cf-bc5f-96d8-232073810cc5
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageSource, ID2D1ImageSource interface [Direct2D], ID2D1ImageSource interface [Direct2D],described, d2d1_3/ID2D1ImageSource, direct2d.id2d1imagesource
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1ImageSource"
+f1_keywords:
+- d2d1_3/ID2D1ImageSource
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1ImageSource
+- ID2D1ImageSource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IDeferredCommand.Cancel
 title: IDeferredCommand::Cancel (control.h)
-
 description: The Cancel method cancels a command that the application previously queued.
 old-location: dshow\ideferredcommand_cancel.htm
 tech.root: DirectShow
 ms.assetid: 56618860-3655-42a2-ad74-ef43da08d001
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [DirectShow], Cancel method [DirectShow],IDeferredCommand interface, IDeferredCommand interface [DirectShow],Cancel method, IDeferredCommand.Cancel, IDeferredCommand::Cancel, IDeferredCommandCancel, control/IDeferredCommand::Cancel, dshow.ideferredcommand_cancel
 ms.topic: method
-f1_keywords: 
- - "control/IDeferredCommand.Cancel"
+f1_keywords:
+- control/IDeferredCommand.Cancel
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDeferredCommand.Cancel
+- IDeferredCommand.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

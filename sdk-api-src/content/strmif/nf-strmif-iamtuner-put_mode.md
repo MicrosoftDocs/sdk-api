@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.put_Mode
 title: IAMTuner::put_Mode (strmif.h)
-
 description: The put_Mode method sets a multifunction tuner to the specified mode.
 old-location: dshow\iamtuner_put_mode.htm
 tech.root: DirectShow
 ms.assetid: 4c0691fb-e291-43eb-9828-f58474a4334d
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Mode method, IAMTuner.put_Mode, IAMTuner::put_Mode, IAMTunerput_Mode, dshow.iamtuner_put_mode, put_Mode, put_Mode method [DirectShow], put_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Mode
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.put_Mode"
+f1_keywords:
+- strmif/IAMTuner.put_Mode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.put_Mode
+- IAMTuner.put_Mode
 targetos: Windows
 req.typenames: 
 req.redist: 

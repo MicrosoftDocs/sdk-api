@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_LINE_SPACING_METHOD
 title: DWRITE_LINE_SPACING_METHOD (dwrite.h)
-
 description: The method used for line spacing in a text layout.
 old-location: directwrite\dwrite_line_spacing_method.htm
 tech.root: DirectWrite
 ms.assetid: b75e8fee-ed6c-455d-8733-e6972792572c
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_SPACING_METHOD, DWRITE_LINE_SPACING_METHOD enumeration [Direct Write], DWRITE_LINE_SPACING_METHOD_DEFAULT, DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, DWRITE_LINE_SPACING_METHOD_UNIFORM, directwrite.dwrite_line_spacing_method, dwrite/DWRITE_LINE_SPACING_METHOD, dwrite/DWRITE_LINE_SPACING_METHOD_DEFAULT, dwrite/DWRITE_LINE_SPACING_METHOD_PROPORTIONAL, dwrite/DWRITE_LINE_SPACING_METHOD_UNIFORM
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_LINE_SPACING_METHOD"
+f1_keywords:
+- dwrite/DWRITE_LINE_SPACING_METHOD
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_LINE_SPACING_METHOD
+- DWRITE_LINE_SPACING_METHOD
 targetos: Windows
 req.typenames: 
 req.redist: 

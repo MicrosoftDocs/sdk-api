@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.auxGetVolume
 title: auxGetVolume function (mmeapi.h)
-
 description: The auxGetVolume function retrieves the current volume setting of the specified auxiliary output device.
 old-location: multimedia\auxgetvolume.htm
 tech.root: Multimedia
 ms.assetid: a427cdb5-83ec-4529-847d-1494118ef926
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_auxGetVolume, auxGetVolume, auxGetVolume function [Windows Multimedia], mmeapi/auxGetVolume, multimedia.auxgetvolume"
+ms.keywords: _win32_auxGetVolume, auxGetVolume, auxGetVolume function [Windows Multimedia], mmeapi/auxGetVolume, multimedia.auxgetvolume
 ms.topic: function
-f1_keywords: 
- - "mmeapi/auxGetVolume"
+f1_keywords:
+- mmeapi/auxGetVolume
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - auxGetVolume
+- auxGetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

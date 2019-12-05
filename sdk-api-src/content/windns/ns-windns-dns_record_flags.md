@@ -1,19 +1,17 @@
 ---
 UID: NS:windns._DnsRecordFlags
 title: DNS_RECORD_FLAGS (windns.h)
-
 description: The DNS_RECORD_FLAGS structure is used to set flags for use in the DNS_RECORD structure.
 old-location: dns\dns_record_flags.htm
 tech.root: DNS
 ms.assetid: 53c1c8bc-20b0-4b15-b2b6-9c9854f73ee3
-
 ms.date: 12/05/2018
 ms.keywords: DNS_RECORD_FLAGS, DNS_RECORD_FLAGS structure [DNS], _DnsRecordFlags, _dns_dns_record_flags, dns.dns_record_flags, windns/DNS_RECORD_FLAGS
 ms.topic: struct
 f1_keywords:
 - windns/DNS_RECORD_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

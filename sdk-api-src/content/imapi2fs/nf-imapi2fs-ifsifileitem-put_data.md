@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem.put_Data
 title: IFsiFileItem::put_Data (imapi2fs.h)
-
 description: Sets the data stream of the file's content.
 old-location: imapi\ifsifileitem_put_data.htm
 tech.root: imapi
 ms.assetid: 5fe00500-615c-48fe-a4a3-b3291e61db1f
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem interface [IMAPI],put_Data method, IFsiFileItem.put_Data, IFsiFileItem::put_Data, imapi.ifsifileitem_put_data, imapi2fs/IFsiFileItem::put_Data, put_Data, put_Data method [IMAPI], put_Data method [IMAPI],IFsiFileItem interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem.put_Data"
+f1_keywords:
+- imapi2fs/IFsiFileItem.put_Data
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem.put_Data
+- IFsiFileItem.put_Data
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:tcpmib._MIB_TCP6TABLE
 title: MIB_TCP6TABLE (tcpmib.h)
-
 description: Contains a table of TCP connections for IPv6 on the local computer.
 old-location: mib\mib_tcp6table.htm
 tech.root: MIB
 ms.assetid: 62bb8544-0a0a-40b5-92cf-9631c9a9987c
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_TCP6TABLE, MIB_TCP6TABLE, MIB_TCP6TABLE structure [MIB], PMIB_TCP6TABLE, PMIB_TCP6TABLE structure pointer [MIB], mib.mib_tcp6table, tcpmib/MIB_TCP6TABLE, tcpmib/PMIB_TCP6TABLE'
 ms.topic: struct
 f1_keywords:
 - tcpmib/MIB_TCP6TABLE
 dev_langs:
- - c++
+- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

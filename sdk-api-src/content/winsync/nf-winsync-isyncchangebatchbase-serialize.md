@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.Serialize
 title: ISyncChangeBatchBase::Serialize (winsync.h)
-
 description: Serializes the change batch to an array of bytes.
 old-location: winsync\isyncchangebatchbase_serialize.htm
 tech.root: winsync
 ms.assetid: 785a763c-99a2-45d1-b42b-9673aedc5c5d
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase interface [Windows Sync],Serialize method, ISyncChangeBatchBase.Serialize, ISyncChangeBatchBase::Serialize, Serialize, Serialize method [Windows Sync], Serialize method [Windows Sync],ISyncChangeBatchBase interface, winsync.isyncchangebatchbase_serialize, winsync/ISyncChangeBatchBase::Serialize
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.Serialize"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.Serialize
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.Serialize
+- ISyncChangeBatchBase.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: 

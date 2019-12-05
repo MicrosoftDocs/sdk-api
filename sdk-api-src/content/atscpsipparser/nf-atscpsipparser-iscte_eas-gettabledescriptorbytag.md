@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetTableDescriptorByTag
 title: ISCTE_EAS::GetTableDescriptorByTag (atscpsipparser.h)
-
 description: The GetTableDescriptorByTag method searches the EAS table for a descriptor with the specified descriptor tag.
 old-location: mstv\iscte_eas_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 91e0aad8-31d9-44d1-9bda-7f0134f5457b
-
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByTag, GetTableDescriptorByTag method [Microsoft TV Technologies], GetTableDescriptorByTag method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetTableDescriptorByTag method, ISCTE_EAS.GetTableDescriptorByTag, ISCTE_EAS::GetTableDescriptorByTag, ISCTE_EASGetTableDescriptorByTag, atscpsipparser/ISCTE_EAS::GetTableDescriptorByTag, mstv.iscte_eas_gettabledescriptorbytag
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetTableDescriptorByTag"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetTableDescriptorByTag
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetTableDescriptorByTag
+- ISCTE_EAS.GetTableDescriptorByTag
 targetos: Windows
 req.typenames: 
 req.redist: 

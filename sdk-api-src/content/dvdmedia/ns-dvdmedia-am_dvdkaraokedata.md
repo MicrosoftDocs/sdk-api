@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia.tagAM_DvdKaraokeData
 title: AM_DvdKaraokeData (dvdmedia.h)
-
 description: Specifies how to mix the karaoke audio channels.
 old-location: dshow\am_dvdkaraokedata.htm
 tech.root: DirectShow
 ms.assetid: 9fef2dd9-0a56-4e51-a64b-7f12c8f9a966
-
 ms.date: 12/05/2018
 ms.keywords: AM_DvdKaraokeData, AM_DvdKaraokeData structure [DirectShow], dshow.am_dvdkaraokedata, dvdmedia/AM_DvdKaraokeData
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_DvdKaraokeData"
+f1_keywords:
+- dvdmedia/AM_DvdKaraokeData
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_DvdKaraokeData
+- AM_DvdKaraokeData
 targetos: Windows
 req.typenames: AM_DvdKaraokeData
 req.redist: 

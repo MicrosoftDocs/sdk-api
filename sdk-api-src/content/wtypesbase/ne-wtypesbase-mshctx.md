@@ -1,19 +1,17 @@
 ---
 UID: NE:wtypesbase.tagMSHCTX
 title: MSHCTX (wtypesbase.h)
-
 description: Specifies the destination context, which is the process in which the unmarshaling is to be done.
 old-location: com\mshctx.htm
 tech.root: com
 ms.assetid: d7d09ab2-96e7-48da-9292-0e4ca6cebe64
-
 ms.date: 12/05/2018
 ms.keywords: MSHCTX, MSHCTX enumeration [COM], MSHCTX_CROSSCTX, MSHCTX_DIFFERENTMACHINE, MSHCTX_INPROC, MSHCTX_LOCAL, MSHCTX_NOSHAREDMEM, _com_MSHCTX, com.mshctx, wtypesbase/MSHCTX, wtypesbase/MSHCTX_CROSSCTX, wtypesbase/MSHCTX_DIFFERENTMACHINE, wtypesbase/MSHCTX_INPROC, wtypesbase/MSHCTX_LOCAL, wtypesbase/MSHCTX_NOSHAREDMEM
 ms.topic: enum
-f1_keywords: 
- - "wtypesbase/MSHCTX"
+f1_keywords:
+- wtypesbase/MSHCTX
 dev_langs:
- - c++
+- c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wtypesbase.h
+- wtypesbase.h
 api_name:
- - MSHCTX
+- MSHCTX
 targetos: Windows
 req.typenames: MSHCTX
 req.redist: 

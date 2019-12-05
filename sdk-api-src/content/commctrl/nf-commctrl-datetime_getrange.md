@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DateTime_GetRange
 title: DateTime_GetRange macro (commctrl.h)
-
 description: Gets the current minimum and maximum allowable system times for a date and time picker (DTP) control. You can use this macro, or send the DTM_GETRANGE message explicitly.
 old-location: controls\DateTime_GetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetRange, DateTime_GetRange macro [Windows Controls], _win32_DateTime_GetRange, _win32_DateTime_GetRange_cpp, commctrl/DateTime_GetRange, controls.DateTime_GetRange, controls._win32_DateTime_GetRange
 ms.topic: macro
-f1_keywords: 
- - "commctrl/DateTime_GetRange"
+f1_keywords:
+- commctrl/DateTime_GetRange
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DateTime_GetRange
+- DateTime_GetRange
 targetos: Windows
 req.typenames: 
 req.redist: 

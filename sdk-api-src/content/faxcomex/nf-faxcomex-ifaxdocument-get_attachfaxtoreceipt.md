@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_AttachFaxToReceipt
 title: IFaxDocument::get_AttachFaxToReceipt (faxcomex.h)
-
 description: The IFaxDocument::get_AttachFaxToReceipt property indicates whether to attach a fax to the receipt.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_attachfaxtoreceipt_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5blg.htm
-
 ms.date: 12/05/2018
 ms.keywords: AttachFaxToReceipt property [Fax Service], AttachFaxToReceipt property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],AttachFaxToReceipt property, IFaxDocument.AttachFaxToReceipt, IFaxDocument.get_AttachFaxToReceipt, IFaxDocument::AttachFaxToReceipt, IFaxDocument::get_AttachFaxToReceipt, IFaxDocument::put_AttachFaxToReceipt, _mfax_faxdocument.attachfaxtoreceipt, fax._mfax_faxdocument_attachfaxtoreceipt, fax._mfax_faxdocument_cpp_mfax_faxdocument_attachfaxtoreceipt_cpp, faxcomex/IFaxDocument::AttachFaxToReceipt, faxcomex/IFaxDocument::get_AttachFaxToReceipt, faxcomex/IFaxDocument::put_AttachFaxToReceipt, get_AttachFaxToReceipt
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.AttachFaxToReceipt"
+f1_keywords:
+- faxcomex/IFaxDocument.AttachFaxToReceipt
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.AttachFaxToReceipt
- - IFaxDocument.get_AttachFaxToReceipt
- - IFaxDocument.put_AttachFaxToReceipt
+- IFaxDocument.AttachFaxToReceipt
+- IFaxDocument.get_AttachFaxToReceipt
+- IFaxDocument.put_AttachFaxToReceipt
 targetos: Windows
 req.typenames: 
 req.redist: 

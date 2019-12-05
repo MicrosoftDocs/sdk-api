@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPaneHandler.Hiding
 title: IFrameworkInputPaneHandler::Hiding (shobjidl_core.h)
-
 description: Called when the input pane is about to leave the display.
 old-location: shell\IFrameworkInputPaneHandler_Hiding.htm
 tech.root: shell
 ms.assetid: B5182892-C40D-432c-9A84-F227A804D080
-
 ms.date: 12/05/2018
 ms.keywords: Hiding, Hiding method [Windows Shell], Hiding method [Windows Shell],IFrameworkInputPaneHandler interface, IFrameworkInputPaneHandler interface [Windows Shell],Hiding method, IFrameworkInputPaneHandler.Hiding, IFrameworkInputPaneHandler::Hiding, shell.IFrameworkInputPaneHandler_Hiding, shobjidl_core/IFrameworkInputPaneHandler::Hiding
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFrameworkInputPaneHandler.Hiding"
+f1_keywords:
+- shobjidl_core/IFrameworkInputPaneHandler.Hiding
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFrameworkInputPaneHandler.Hiding
+- IFrameworkInputPaneHandler.Hiding
 targetos: Windows
 req.typenames: 
 req.redist: 

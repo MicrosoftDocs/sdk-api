@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetLocality
 title: IDWriteFontFaceReference::GetLocality (dwrite_3.h)
-
 description: Get the locality of this font face reference.
 old-location: directwrite\idwritefontfacereference_getlocality.htm
 tech.root: DirectWrite
 ms.assetid: 533f30a7-bf54-670e-63be-ffb9b07fb9d8
-
 ms.date: 12/05/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetLocality method, IDWriteFontFaceReference.GetLocality, IDWriteFontFaceReference::GetLocality, directwrite.idwritefontfacereference_getlocality, dwrite_3/IDWriteFontFaceReference::GetLocality
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference.GetLocality"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference.GetLocality
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFaceReference.GetLocality
+- IDWriteFontFaceReference.GetLocality
 targetos: Windows
 req.typenames: 
 req.redist: 

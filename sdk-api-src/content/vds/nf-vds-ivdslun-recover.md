@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLun.Recover
 title: IVdsLun::Recover (vds.h)
-
 description: Starts a recovery operation on a LUN.
 old-location: base\ivdslun_recover.htm
 tech.root: VDS
 ms.assetid: 406da360-9aa8-42df-8918-da72b22ce3b5
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLun interface [VDS],Recover method, IVdsLun.Recover, IVdsLun::Recover, Recover, Recover method [VDS], Recover method [VDS],IVdsLun interface, base.ivdslun_recover, vds/IVdsLun::Recover, vdshwprv/IVdsLun::Recover
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLun.Recover"
+f1_keywords:
+- vds/IVdsLun.Recover
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.Recover
+- IVdsLun.Recover
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetCellIndex
 title: ITextRow::GetCellIndex (tom.h)
-
 description: Gets the index of the active cell to get or set parameters for.
 old-location: controls\itextrow_getcellindex.htm
 tech.root: Controls
 ms.assetid: 7768e073-929c-43a4-8c4f-a67f89a0e7ee
-
 ms.date: 12/05/2018
 ms.keywords: GetCellIndex, GetCellIndex method [Windows Controls], GetCellIndex method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellIndex method, ITextRow.GetCellIndex, ITextRow::GetCellIndex, controls.itextrow_getcellindex, tom/ITextRow::GetCellIndex
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetCellIndex"
+f1_keywords:
+- tom/ITextRow.GetCellIndex
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetCellIndex
+- ITextRow.GetCellIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

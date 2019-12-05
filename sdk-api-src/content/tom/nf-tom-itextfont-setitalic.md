@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetItalic
 title: ITextFont::SetItalic (tom.h)
-
 description: Sets whether characters are in italics.
 old-location: controls\ITextFont_SetItalic.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setitalic.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetItalic method, ITextFont.SetItalic, ITextFont::SetItalic, SetItalic, SetItalic method [Windows Controls], SetItalic method [Windows Controls],ITextFont interface, _win32_ITextFont_SetItalic, _win32_ITextFont_SetItalic_cpp, controls.ITextFont_SetItalic, controls._win32_ITextFont_SetItalic, tom/ITextFont::SetItalic
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetItalic"
+f1_keywords:
+- tom/ITextFont.SetItalic
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetItalic
+- ITextFont.SetItalic
 targetos: Windows
 req.typenames: 
 req.redist: 

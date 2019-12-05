@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsHwProviderType
 title: IVdsHwProviderType (vdshwprv.h)
-
 description: Provides a method to retrieve the type of hardware provider.
 old-location: base\ivdshwprovidertype.htm
 tech.root: VDS
 ms.assetid: 24bd634e-96e1-4f2a-a70b-3aae734c75f9
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProviderType, IVdsHwProviderType interface [VDS], IVdsHwProviderType interface [VDS],described, base.ivdshwprovidertype, vds/IVdsHwProviderType, vdshwprv/IVdsHwProviderType
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsHwProviderType"
+f1_keywords:
+- vdshwprv/IVdsHwProviderType
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProviderType
+- IVdsHwProviderType
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

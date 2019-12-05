@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiOpenPackageA
 title: MsiOpenPackageA function (msi.h)
-
 description: The MsiOpenPackage function opens a package to use with the functions that access the product database.
 old-location: setup\msiopenpackage.htm
 tech.root: Msi
 ms.assetid: 1227493a-58dc-4e41-b6d7-9ecce0b3df40
-
 ms.date: 12/05/2018
 ms.keywords: MsiOpenPackage, MsiOpenPackage function, MsiOpenPackageA, MsiOpenPackageW, _msi_msiopenpackage, msi/MsiOpenPackage, msi/MsiOpenPackageA, msi/MsiOpenPackageW, setup.msiopenpackage
 ms.topic: function
-f1_keywords: 
- - "msi/MsiOpenPackage"
+f1_keywords:
+- msi/MsiOpenPackage
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiOpenPackage
- - MsiOpenPackageA
- - MsiOpenPackageW
+- MsiOpenPackage
+- MsiOpenPackageA
+- MsiOpenPackageW
 targetos: Windows
 req.typenames: 
 req.redist: 

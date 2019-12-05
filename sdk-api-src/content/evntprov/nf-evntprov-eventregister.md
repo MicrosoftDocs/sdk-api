@@ -1,19 +1,17 @@
 ---
 UID: NF:evntprov.EventRegister
 title: EventRegister function (evntprov.h)
-
 description: Registers the provider.
 old-location: etw\eventregister_func.htm
 tech.root: ETW
 ms.assetid: 6025c3a6-7d88-49dc-bbc3-655c172dde3c
-
 ms.date: 12/05/2018
 ms.keywords: EventRegister, EventRegister function [ETW], base.eventregister_func, etw.eventregister_func, evntprov/EventRegister
 ms.topic: function
-f1_keywords: 
- - "evntprov/EventRegister"
+f1_keywords:
+- evntprov/EventRegister
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
- - bcrypt.dll
- - rtmpal.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-provider-l1-1-0.dll
+- API-MS-Win-Eventing-Provider-L1-1-1.dll
+- bcrypt.dll
+- rtmpal.dll
 api_name:
- - EventRegister
+- EventRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

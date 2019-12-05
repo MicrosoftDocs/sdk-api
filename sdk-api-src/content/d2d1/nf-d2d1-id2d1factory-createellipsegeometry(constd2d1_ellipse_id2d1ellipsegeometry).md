@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateEllipseGeometry(const D2D1_ELLIPSE,ID2D1EllipseGeometry)
 title: ID2D1Factory::CreateEllipseGeometry (d2d1.h)
-
 description: Creates an ID2D1EllipseGeometry.
 old-location: direct2d\id2d1factory_createellipsegeometry.htm
 tech.root: Direct2D
 ms.assetid: 4c03bb0b-74fe-456a-aa26-5449d758c0ea
-
 ms.date: 12/05/2018
 ms.keywords: CreateEllipseGeometry, CreateEllipseGeometry methods [Direct2D], ID2D1Factory.CreateEllipseGeometry, ID2D1Factory::CreateEllipseGeometry, d2d1/CreateEllipseGeometry, direct2d.id2d1factory_createellipsegeometry
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Factory::CreateEllipseGeometry"
+f1_keywords:
+- d2d1/ID2D1Factory::CreateEllipseGeometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory::CreateEllipseGeometry
+- ID2D1Factory::CreateEllipseGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

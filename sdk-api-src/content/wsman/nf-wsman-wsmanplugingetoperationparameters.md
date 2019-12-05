@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManPluginGetOperationParameters
 title: WSManPluginGetOperationParameters function (wsman.h)
-
 description: Gets operational information for items such as time-outs and data restrictions that are associated with the operation.
 old-location: winrm\wsmanplugingetoperationparameters.htm
 tech.root: winrm
 ms.assetid: 338e7afc-d05b-4779-ae74-e9ee97e9e0ce
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_PARAMS_GET_REQUESTED_DATA_LOCALE, WSMAN_PLUGIN_PARAMS_GET_REQUESTED_LOCALE, WSMAN_PLUGIN_PARAMS_LARGEST_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_MAX_ENVELOPE_SIZE, WSMAN_PLUGIN_PARAMS_REMAINING_RESULT_SIZE, WSMAN_PLUGIN_PARAMS_TIMEOUT, WSManPluginGetOperationParameters, WSManPluginGetOperationParameters function [Windows Remote Management], winrm.wsmanplugingetoperationparameters, wsman/WSManPluginGetOperationParameters
 ms.topic: function
 f1_keywords:
 - wsman/WSManPluginGetOperationParameters
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSwapHold
 title: lineSwapHold function (tapi.h)
-
 description: The lineSwapHold function swaps the specified active call with the specified call on consultation hold.
 old-location: tapi2\lineswaphold.htm
 tech.root: Tapi
 ms.assetid: 9e575c82-301c-4505-b400-faf4dc291ff8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineswaphold, lineSwapHold, lineSwapHold function [TAPI 2.2], tapi/lineSwapHold, tapi2.lineswaphold"
+ms.keywords: _tapi2_lineswaphold, lineSwapHold, lineSwapHold function [TAPI 2.2], tapi/lineSwapHold, tapi2.lineswaphold
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSwapHold"
+f1_keywords:
+- tapi/lineSwapHold
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSwapHold
+- lineSwapHold
 targetos: Windows
 req.typenames: 
 req.redist: 

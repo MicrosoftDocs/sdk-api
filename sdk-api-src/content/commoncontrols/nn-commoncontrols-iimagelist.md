@@ -1,19 +1,17 @@
 ---
 UID: NN:commoncontrols.IImageList
 title: IImageList (commoncontrols.h)
-
 description: Exposes methods that manipulate and interact with image lists.
 old-location: controls\IImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\iimagelist.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList, IImageList interface [Windows Controls], IImageList interface [Windows Controls],described, comctl_IImageList, comctl_IImageList_cpp, commoncontrols/IImageList, controls.IImageList, controls.comctl_IImageList
 ms.topic: interface
-f1_keywords: 
- - "commoncontrols/IImageList"
+f1_keywords:
+- commoncontrols/IImageList
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList
+- IImageList
 targetos: Windows
 req.typenames: 
 req.redist: 

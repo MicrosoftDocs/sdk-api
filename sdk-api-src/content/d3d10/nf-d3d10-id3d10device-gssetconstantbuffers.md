@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetConstantBuffers
 title: ID3D10Device::GSSetConstantBuffers (d3d10.h)
-
 description: Set the constant buffers used by the geometry shader pipeline stage.
 old-location: direct3d10\id3d10device_gssetconstantbuffers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetconstantbuffers.htm
-
 ms.date: 12/05/2018
 ms.keywords: 4a93383e-8523-3db8-9e49-217d1cf3ff2b, GSSetConstantBuffers, GSSetConstantBuffers method [Direct3D 10], GSSetConstantBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetConstantBuffers method, ID3D10Device.GSSetConstantBuffers, ID3D10Device::GSSetConstantBuffers, d3d10/ID3D10Device::GSSetConstantBuffers, direct3d10.id3d10device_gssetconstantbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.GSSetConstantBuffers"
+f1_keywords:
+- d3d10/ID3D10Device.GSSetConstantBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.GSSetConstantBuffers
+- ID3D10Device.GSSetConstantBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

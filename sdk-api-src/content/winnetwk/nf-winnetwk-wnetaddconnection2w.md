@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetAddConnection2W
 title: WNetAddConnection2W function (winnetwk.h)
-
 description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource.
 old-location: wnet\wnetaddconnection2.htm
 tech.root: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
-
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetAddConnection2"
+f1_keywords:
+- winnetwk/WNetAddConnection2
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetAddConnection2
- - WNetAddConnection2A
- - WNetAddConnection2W
+- WNetAddConnection2
+- WNetAddConnection2A
+- WNetAddConnection2W
 targetos: Windows
 req.typenames: 
 req.redist: 

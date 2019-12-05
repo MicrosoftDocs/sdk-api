@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.SetFileApisToOEM
 title: SetFileApisToOEM function (fileapi.h)
-
 description: Causes the file I/O functions for the process to use the OEM character set code page.
 old-location: fs\setfileapistooem.htm
 tech.root: FileIO
 ms.assetid: 15f657d8-075a-4f0c-a653-73273ea62f5f
-
 ms.date: 12/05/2018
 ms.keywords: SetFileApisToOEM, SetFileApisToOEM function [Files], _win32_setfileapistooem, base.setfileapistooem, fileapi/SetFileApisToOEM, fs.setfileapistooem
 ms.topic: function
-f1_keywords: 
- - "fileapi/SetFileApisToOEM"
+f1_keywords:
+- fileapi/SetFileApisToOEM
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-Ms-Win-Core-File-L1-2-2.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-Ms-Win-Core-File-L1-2-2.dll
+- KernelBase.dll
 api_name:
- - SetFileApisToOEM
+- SetFileApisToOEM
 targetos: Windows
 req.typenames: 
 req.redist: 

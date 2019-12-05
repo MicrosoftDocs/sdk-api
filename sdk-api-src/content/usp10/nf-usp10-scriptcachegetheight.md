@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptCacheGetHeight
 title: ScriptCacheGetHeight function (usp10.h)
-
 description: Retrieves the height of the currently cached font.
 old-location: intl\scriptcachegetheight.htm
 tech.root: Intl
 ms.assetid: e147b0c4-7d9f-4961-8bce-25dab716f7a2
-
 ms.date: 12/05/2018
 ms.keywords: ScriptCacheGetHeight, ScriptCacheGetHeight function [Internationalization for Windows Applications], _win32_ScriptCacheGetHeight, intl.scriptcachegetheight, usp10/ScriptCacheGetHeight
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptCacheGetHeight"
+f1_keywords:
+- usp10/ScriptCacheGetHeight
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptCacheGetHeight
+- ScriptCacheGetHeight
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

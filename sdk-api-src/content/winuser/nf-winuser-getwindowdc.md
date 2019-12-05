@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowDC
 title: GetWindowDC function (winuser.h)
-
 description: The GetWindowDC function retrieves the device context (DC) for the entire window, including title bar, menus, and scroll bars.
 old-location: gdi\getwindowdc.htm
 tech.root: gdi
 ms.assetid: 9e6a135e-e337-4129-a3ad-faf9a8ac9b2d
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowDC, GetWindowDC function [Windows GDI], _win32_GetWindowDC, gdi.getwindowdc, winuser/GetWindowDC
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowDC"
+f1_keywords:
+- winuser/GetWindowDC
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - GetWindowDC
+- GetWindowDC
 targetos: Windows
 req.typenames: 
 req.redist: 

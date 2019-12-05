@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11_3.ID3D11Fence
 title: ID3D11Fence (d3d11_3.h)
-
 description: Represents a fence, an object used for synchronization of the CPU and one or more GPUs.
 old-location: direct3d11\id3d11fence.htm
 tech.root: direct3d11
 ms.assetid: DC07EDEF-DA38-4CAF-8FDE-B3867DC83B8C
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Fence, ID3D11Fence interface [Direct3D 11], ID3D11Fence interface [Direct3D 11],described, d3d11_3/ID3D11Fence, direct3d11.id3d11fence
 ms.topic: interface
-f1_keywords: 
- - "d3d11_3/ID3D11Fence"
+f1_keywords:
+- d3d11_3/ID3D11Fence
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.dll
+- D3D11.dll
 api_name:
- - ID3D11Fence
+- ID3D11Fence
 targetos: Windows
 req.typenames: 
 req.redist: 

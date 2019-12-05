@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.GROUP_FAILURE_INFO
 title: GROUP_FAILURE_INFO (clusapi.h)
-
 description: Represents information about the Failover attempts for a group failure.
 old-location: mscs\group_failure_info.htm
 tech.root: MsCS
 ms.assetid: C3E7585B-21F8-4E4C-A970-C07F72C80E76
-
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_FAILURE_INFO, GROUP_FAILURE_INFO, GROUP_FAILURE_INFO structure [Failover Cluster], PGROUP_FAILURE_INFO, PGROUP_FAILURE_INFO structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO, clusapi/PGROUP_FAILURE_INFO, msclus/GROUP_FAILURE_INFO, msclus/PGROUP_FAILURE_INFO, mscs.group_failure_info"
+ms.keywords: '*PGROUP_FAILURE_INFO, GROUP_FAILURE_INFO, GROUP_FAILURE_INFO structure [Failover Cluster], PGROUP_FAILURE_INFO, PGROUP_FAILURE_INFO structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO, clusapi/PGROUP_FAILURE_INFO, msclus/GROUP_FAILURE_INFO, msclus/PGROUP_FAILURE_INFO, mscs.group_failure_info'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/GROUP_FAILURE_INFO"
+f1_keywords:
+- clusapi/GROUP_FAILURE_INFO
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MsClus.h
+- ClusApi.h
+- MsClus.h
 api_name:
- - GROUP_FAILURE_INFO
+- GROUP_FAILURE_INFO
 targetos: Windows
 req.typenames: GROUP_FAILURE_INFO, *PGROUP_FAILURE_INFO
 req.redist: 

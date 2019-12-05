@@ -7,7 +7,7 @@ ms.topic: language-reference
 f1_keywords:
 - wlanapi/_WLAN_NOTIFICATION_ACM
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 

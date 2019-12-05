@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FtpCreateDirectoryW
 title: FtpCreateDirectoryW function (wininet.h)
-
 description: Creates a new directory on the FTP server.
 old-location: wininet\ftpcreatedirectory.htm
 tech.root: wininet
 ms.assetid: 51a33c5b-4e82-4148-8a3f-0cf7c0a8bac0
-
 ms.date: 12/05/2018
 ms.keywords: FtpCreateDirectory, FtpCreateDirectory function [WinINet], FtpCreateDirectoryA, FtpCreateDirectoryW, _inet_ftpcreatedirectory_function, wininet.ftpcreatedirectory, wininet/FtpCreateDirectory, wininet/FtpCreateDirectoryA, wininet/FtpCreateDirectoryW
 ms.topic: function
-f1_keywords: 
- - "wininet/FtpCreateDirectory"
+f1_keywords:
+- wininet/FtpCreateDirectory
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FtpCreateDirectory
- - FtpCreateDirectoryA
- - FtpCreateDirectoryW
+- FtpCreateDirectory
+- FtpCreateDirectoryA
+- FtpCreateDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.get_burnFormat
 title: IWMPCdromBurn::get_burnFormat (wmp.h)
-
 description: The get_burnFormat method retrieves a value that indicates the type of CD to burn.
 old-location: wmp\iwmpcdromburn_get_burnformat.htm
 tech.root: WMP
 ms.assetid: 564a3978-555e-4cbc-90fe-b29f61349260
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],get_burnFormat method, IWMPCdromBurn.get_burnFormat, IWMPCdromBurn::get_burnFormat, IWMPCdromBurnget_burnFormat, get_burnFormat, get_burnFormat method [Windows Media Player], get_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_get_burnformat, wmp/IWMPCdromBurn::get_burnFormat
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.get_burnFormat"
+f1_keywords:
+- wmp/IWMPCdromBurn.get_burnFormat
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.get_burnFormat
+- IWMPCdromBurn.get_burnFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

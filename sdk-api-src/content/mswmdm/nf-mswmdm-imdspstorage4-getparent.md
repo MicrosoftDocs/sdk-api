@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.GetParent
 title: IMDSPStorage4::GetParent (mswmdm.h)
-
 description: The GetParent method retrieves the parent of the current storage.
 old-location: wmdm\imdspstorage4_getparent.htm
 tech.root: WMDM
 ms.assetid: 7b8264ef-9288-4196-9b92-a54a25aad795
-
 ms.date: 12/05/2018
 ms.keywords: GetParent, GetParent method [windows Media Device Manager], GetParent method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetParent method, IMDSPStorage4.GetParent, IMDSPStorage4::GetParent, IMDSPStorage4GetParent, mswmdm/IMDSPStorage4::GetParent, wmdm.imdspstorage4_getparent
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorage4.GetParent"
+f1_keywords:
+- mswmdm/IMDSPStorage4.GetParent
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorage4.GetParent
+- IMDSPStorage4.GetParent
 targetos: Windows
 req.typenames: 
 req.redist: 

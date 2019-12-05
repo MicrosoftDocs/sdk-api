@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.DMLCreateDevice
 title: DMLCreateDevice function
-
 description: Creates a DirectML device for a given Direct3D 12 device.
 old-location: direct3d12\dmlcreatedevice.htm
 tech.root: direct3d12
 ms.assetid: B97EBDA2-83FE-4982-987E-E5C9E615065C
-
 ms.date: 12/5/2018
 ms.keywords: DMLCreateDevice, DMLCreateDevice function, direct3d12.dmlcreatedevice, directml/DMLCreateDevice
 ms.topic: function
-f1_keywords: 
- - "directml/DMLCreateDevice"
+f1_keywords:
+- directml/DMLCreateDevice
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - DMLCreateDevice
+- DMLCreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

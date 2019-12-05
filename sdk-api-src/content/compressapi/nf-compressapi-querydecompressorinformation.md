@@ -1,19 +1,17 @@
 ---
 UID: NF:compressapi.QueryDecompressorInformation
 title: QueryDecompressorInformation function (compressapi.h)
-
 description: Use this function to query information about a particular compression algorithm.
 old-location: cmpapi\querydecompressorinformation.htm
 tech.root: cmpapi
 ms.assetid: 85b39c04-2145-45d2-be59-24615905353d
-
 ms.date: 12/05/2018
 ms.keywords: QueryDecompressorInformation, QueryDecompressorInformation function [Compression API], cmpapi.querydecompressorinformation, compressapi/QueryDecompressorInformation
 ms.topic: function
-f1_keywords: 
- - "compressapi/QueryDecompressorInformation"
+f1_keywords:
+- compressapi/QueryDecompressorInformation
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - cabinet.dll
+- cabinet.dll
 api_name:
- - QueryDecompressorInformation
+- QueryDecompressorInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

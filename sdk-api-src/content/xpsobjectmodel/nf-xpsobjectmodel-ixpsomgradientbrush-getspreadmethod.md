@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetSpreadMethod
 title: IXpsOMGradientBrush::GetSpreadMethod (xpsobjectmodel.h)
-
 description: Gets the XPS_SPREAD_METHOD value, which describes how the area outside of the gradient region will be rendered.
 old-location: xps\ixpsomgradientbrush_getspreadmethod.htm
 tech.root: printdocs
 ms.assetid: c4c62817-735b-4ef1-84cf-1c9fa63f55ee
-
 ms.date: 12/05/2018
 ms.keywords: GetSpreadMethod, GetSpreadMethod method [XPS Documents and Packaging], GetSpreadMethod method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetSpreadMethod method, IXpsOMGradientBrush.GetSpreadMethod, IXpsOMGradientBrush::GetSpreadMethod, xps.ixpsomgradientbrush_getspreadmethod, xpsobjectmodel/IXpsOMGradientBrush::GetSpreadMethod
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientBrush.GetSpreadMethod"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientBrush.GetSpreadMethod
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush.GetSpreadMethod
+- IXpsOMGradientBrush.GetSpreadMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

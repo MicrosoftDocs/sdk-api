@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.CreatePathData
 title: ID2D1SvgDocument::CreatePathData (d2d1svg.h)
-
 description: Creates a path data object which can be used to set a 'd' attribute on a 'path' element.
 old-location: direct2d\id2d1svgdocument_createpathdata.htm
 tech.root: Direct2D
 ms.assetid: 3BF28252-AC33-4B16-9A72-2838006C4A21
-
 ms.date: 12/05/2018
 ms.keywords: CreatePathData, CreatePathData method [Direct2D], CreatePathData method [Direct2D],ID2D1SvgDocument interface, ID2D1SvgDocument interface [Direct2D],CreatePathData method, ID2D1SvgDocument.CreatePathData, ID2D1SvgDocument::CreatePathData, d2d1svg/ID2D1SvgDocument::CreatePathData, direct2d.id2d1svgdocument_createpathdata
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgDocument.CreatePathData"
+f1_keywords:
+- d2d1svg/ID2D1SvgDocument.CreatePathData
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgDocument.CreatePathData
+- ID2D1SvgDocument.CreatePathData
 targetos: Windows
 req.typenames: 
 req.redist: 

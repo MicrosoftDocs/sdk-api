@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetAttributeRatio
 title: MFGetAttributeRatio function (mfapi.h)
-
 description: Retrieves an attribute whose value is a ratio.
 old-location: mf\mfgetattributeratio.htm
 tech.root: medfound
 ms.assetid: 2572c30c-4ae1-42b7-b1f7-6c564d936c60
-
 ms.date: 12/05/2018
 ms.keywords: 2572c30c-4ae1-42b7-b1f7-6c564d936c60, MFGetAttributeRatio, MFGetAttributeRatio function [Media Foundation], mf.mfgetattributeratio, mfapi/MFGetAttributeRatio
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetAttributeRatio"
+f1_keywords:
+- mfapi/MFGetAttributeRatio
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFGetAttributeRatio
+- MFGetAttributeRatio
 targetos: Windows
 req.typenames: 
 req.redist: 

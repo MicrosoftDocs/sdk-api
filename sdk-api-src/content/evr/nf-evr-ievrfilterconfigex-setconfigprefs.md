@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IEVRFilterConfigEx.SetConfigPrefs
 title: IEVRFilterConfigEx::SetConfigPrefs (evr.h)
-
 description: Sets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter (EVR).
 old-location: mf\ievrfilterconfigex_setconfigprefs.htm
 tech.root: medfound
 ms.assetid: 6a565c7a-a8d7-433b-b454-262661c2c084
-
 ms.date: 12/05/2018
 ms.keywords: IEVRFilterConfigEx interface [Media Foundation],SetConfigPrefs method, IEVRFilterConfigEx.SetConfigPrefs, IEVRFilterConfigEx::SetConfigPrefs, SetConfigPrefs, SetConfigPrefs method [Media Foundation], SetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, evr/IEVRFilterConfigEx::SetConfigPrefs, mf.ievrfilterconfigex_setconfigprefs
 ms.topic: method
-f1_keywords: 
- - "evr/IEVRFilterConfigEx.SetConfigPrefs"
+f1_keywords:
+- evr/IEVRFilterConfigEx.SetConfigPrefs
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - evr.h
+- evr.h
 api_name:
- - IEVRFilterConfigEx.SetConfigPrefs
+- IEVRFilterConfigEx.SetConfigPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

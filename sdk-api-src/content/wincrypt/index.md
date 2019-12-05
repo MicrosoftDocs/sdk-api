@@ -1,7 +1,6 @@
 ---
 UID: NA:wincrypt
 ms.assetid: 9f9635e4-3e62-30ea-ac59-30f821c272a5
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteTagged
 title: TraceLoggingWriteTagged macro (traceloggingactivity.h)
-
 description: Logs an event with an associated ETW activity id.
 old-location: tracelogging\traceloggingwritetagged.htm
 tech.root: tracelogging
 ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingWriteTagged, TraceLoggingWriteTagged macro, tracelogging.traceloggingwritetagged, traceloggingactivity/TraceLoggingWriteTagged
 ms.topic: macro
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingWriteTagged"
+f1_keywords:
+- traceloggingactivity/TraceLoggingWriteTagged
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingWriteTagged
+- TraceLoggingWriteTagged
 targetos: Windows
 req.typenames: 
 req.redist: 

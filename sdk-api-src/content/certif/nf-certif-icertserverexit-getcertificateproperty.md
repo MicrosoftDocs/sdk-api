@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateProperty
 title: ICertServerExit::GetCertificateProperty (certif.h)
-
 description: Returns a named property from a certificate.
 old-location: security\icertserverexit_getcertificateproperty.htm
 tech.root: SecCrypto
 ms.assetid: 7a6185cd-fae5-4ee6-b403-c7613b31e48a
-
 ms.date: 12/05/2018
 ms.keywords: CAType, CCertServerExit object [Security],GetCertificateProperty method, CRLIndex, CRLState, CRLSuffix, CertCount, CertState, CertSuffix, GetCertificateProperty, GetCertificateProperty method [Security], GetCertificateProperty method [Security],CCertServerExit object, GetCertificateProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateProperty method, ICertServerExit.GetCertificateProperty, ICertServerExit::GetCertificateProperty, MachineDNSName, ModuleRegistryLocation, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, PublicKeyAlgorithm, RawCACertificate, RawCRL, RawCertificate, RawPublicKey, RawPublicKeyAlgorithmParameters, RequestID, RequesterCAAccess, SanitizedCAName, SanitizedShortName, SerialNumber, _certsrv_icertserverexit_getcertificateproperty, certif/ICertServerExit::GetCertificateProperty, fUseDS, security.icertserverexit_getcertificateproperty
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.GetCertificateProperty"
+f1_keywords:
+- certif/ICertServerExit.GetCertificateProperty
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.GetCertificateProperty
- - CCertServerExit.GetCertificateProperty
+- ICertServerExit.GetCertificateProperty
+- CCertServerExit.GetCertificateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

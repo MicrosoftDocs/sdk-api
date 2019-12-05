@@ -3,14 +3,13 @@ UID: NF:directxmath.XMVECTORU32.operator __m128i
 title: XMVECTORU32::operator __m128i
 description: Returns the object implementing the current instance of XMVECTORU32 cast to a __m128i instance of.
 ms.assetid: 0a8f9517-2610-4d4c-a338-43ec5b3688c0
-
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU32::operator __m128i
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/XMVECTORU32::operator __m128i"
+f1_keywords:
+- directxmath/XMVECTORU32::operator __m128i
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - XMVECTORU32::operator __m128i
+- XMVECTORU32::operator __m128i
 ---
 
 # XMVECTORU32::operator __m128i

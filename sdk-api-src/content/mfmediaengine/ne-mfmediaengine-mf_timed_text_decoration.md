@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_DECORATION
 title: MF_TIMED_TEXT_DECORATION (mfmediaengine.h)
-
 description: Specifies how text is decorated (underlined and so on).
 old-location: mf\mf_timed_text_decoration.htm
 tech.root: medfound
 ms.assetid: CA2AFC99-F30F-4AFC-928A-45EA7218B851
-
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_DECORATION, MF_TIMED_TEXT_DECORATION enumeration [Media Foundation], MF_TIMED_TEXT_DECORATION_LINE_THROUGH, MF_TIMED_TEXT_DECORATION_NONE, MF_TIMED_TEXT_DECORATION_OVERLINE, MF_TIMED_TEXT_DECORATION_UNDERLINE, mf.mf_timed_text_decoration, mfmediaengine/MF_TIMED_TEXT_DECORATION, mfmediaengine/MF_TIMED_TEXT_DECORATION_LINE_THROUGH, mfmediaengine/MF_TIMED_TEXT_DECORATION_NONE, mfmediaengine/MF_TIMED_TEXT_DECORATION_OVERLINE, mfmediaengine/MF_TIMED_TEXT_DECORATION_UNDERLINE
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_TIMED_TEXT_DECORATION"
+f1_keywords:
+- mfmediaengine/MF_TIMED_TEXT_DECORATION
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_TIMED_TEXT_DECORATION
+- MF_TIMED_TEXT_DECORATION
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_DECORATION
 req.redist: 

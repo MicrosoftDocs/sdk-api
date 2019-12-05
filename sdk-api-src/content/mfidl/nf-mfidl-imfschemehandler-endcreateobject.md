@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSchemeHandler.EndCreateObject
 title: IMFSchemeHandler::EndCreateObject (mfidl.h)
-
 description: Completes an asynchronous request to create an object from a URL.
 old-location: mf\imfschemehandler_endcreateobject.htm
 tech.root: medfound
 ms.assetid: e3f88904-c30f-4d40-ac79-c83b0a06f1fa
-
 ms.date: 12/05/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFSchemeHandler interface, IMFSchemeHandler interface [Media Foundation],EndCreateObject method, IMFSchemeHandler.EndCreateObject, IMFSchemeHandler::EndCreateObject, e3f88904-c30f-4d40-ac79-c83b0a06f1fa, mf.imfschemehandler_endcreateobject, mfidl/IMFSchemeHandler::EndCreateObject
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSchemeHandler.EndCreateObject"
+f1_keywords:
+- mfidl/IMFSchemeHandler.EndCreateObject
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSchemeHandler.EndCreateObject
+- IMFSchemeHandler.EndCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

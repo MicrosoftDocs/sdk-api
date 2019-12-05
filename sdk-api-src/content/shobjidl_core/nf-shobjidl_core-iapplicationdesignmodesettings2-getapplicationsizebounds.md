@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.GetApplicationSizeBounds
 title: IApplicationDesignModeSettings2::GetApplicationSizeBounds (shobjidl_core.h)
-
 description: This methods retrieves the size bounds supported by the application.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationSizeBounds.htm
 tech.root: shell
 ms.assetid: 7DFAFE5A-8F19-471C-9B09-43645F26F156
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationSizeBounds, GetApplicationSizeBounds method [Windows Shell], GetApplicationSizeBounds method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationSizeBounds method, IApplicationDesignModeSettings2.GetApplicationSizeBounds, IApplicationDesignModeSettings2::GetApplicationSizeBounds, shell.IApplicationDesignModeSettings2_GetApplicationSizeBounds, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationSizeBounds
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDesignModeSettings2.GetApplicationSizeBounds"
+f1_keywords:
+- shobjidl_core/IApplicationDesignModeSettings2.GetApplicationSizeBounds
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Twinapi.lib
 req.dll: Twinapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - twinapi.dll
+- twinapi.dll
 api_name:
- - IApplicationDesignModeSettings2.GetApplicationSizeBounds
+- IApplicationDesignModeSettings2.GetApplicationSizeBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

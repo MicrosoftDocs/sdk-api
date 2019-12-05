@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPIADDRESS
 title: MAPIADDRESS (mapi.h)
-
 description: The MAPIAddress function creates or modifies a set of address list entries.
 old-location: mapi\mapiaddress.htm
 tech.root: WindowsMAPI
 ms.assetid: 4f01763d-22a2-4ee4-a559-f875cb06ea6b
-
 ms.date: 12/05/2018
 ms.keywords: MAPIAddress, MAPIAddress callback, MAPIAddress callback function, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapiaddress, mapi/MAPIAddress
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPIAddress"
+f1_keywords:
+- mapi/MAPIAddress
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPIAddress
+- MAPIAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

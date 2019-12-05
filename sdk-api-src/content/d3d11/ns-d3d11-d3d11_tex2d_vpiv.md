@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_VPIV
 title: D3D11_TEX2D_VPIV (d3d11.h)
-
 description: Identifies the texture resource for a video processor input view.
 old-location: mf\d3d11_tex2d_vpiv.htm
 tech.root: medfound
 ms.assetid: F174DF16-6E2F-4AE1-80D9-7565F96DE03A
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2D_VPIV, D3D11_TEX2D_VPIV structure [Media Foundation], d3d11/D3D11_TEX2D_VPIV, mf.d3d11_tex2d_vpiv
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEX2D_VPIV"
+f1_keywords:
+- d3d11/D3D11_TEX2D_VPIV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_TEX2D_VPIV
+- D3D11_TEX2D_VPIV
 targetos: Windows
 req.typenames: D3D11_TEX2D_VPIV
 req.redist: 

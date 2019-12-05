@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1TransformNode
 title: ID2D1TransformNode (d2d1effectauthor.h)
-
 description: Describes a node in a transform topology.
 old-location: direct2d\id2d1transformnode.htm
 tech.root: Direct2D
 ms.assetid: 2ACF65DA-A812-4983-B044-71103A9AA450
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformNode, ID2D1TransformNode interface [Direct2D], ID2D1TransformNode interface [Direct2D],described, d2d1effectauthor/ID2D1TransformNode, direct2d.id2d1transformnode
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1TransformNode"
+f1_keywords:
+- d2d1effectauthor/ID2D1TransformNode
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1TransformNode
+- ID2D1TransformNode
 targetos: Windows
 req.typenames: 
 req.redist: 

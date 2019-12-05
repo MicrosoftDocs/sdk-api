@@ -1,19 +1,17 @@
 ---
 UID: NF:baseaudioprocessingobject.AERT_Allocate
 title: AERT_Allocate function (baseaudioprocessingobject.h)
-
 description: The AERT_Allocate utility function allocates and locks a segment of memory for use by audio processing objects.
 old-location: audio\aert_allocate.htm
 tech.root: audio
 ms.assetid: b992842d-0612-464c-9b82-b75137fa49eb
-
 ms.date: 12/05/2018
 ms.keywords: AERT_Allocate, AERT_Allocate function [Audio Devices], audio.aert_allocate, audio_syseffects_r_db01d2ca-9a2d-4054-b066-773f2cb54276.xml, baseaudioprocessingobject/AERT_Allocate
 ms.topic: function
-f1_keywords: 
- - "baseaudioprocessingobject/AERT_Allocate"
+f1_keywords:
+- baseaudioprocessingobject/AERT_Allocate
 dev_langs:
- - c++
+- c++
 req.header: baseaudioprocessingobject.h
 req.include-header: 
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Audioeng.lib
 req.dll: Audioeng.dll
 req.irql: All levels
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Audioeng.dll
+- Audioeng.dll
 api_name:
- - AERT_Allocate
+- AERT_Allocate
 targetos: Windows
 req.typenames: 
 req.redist: 

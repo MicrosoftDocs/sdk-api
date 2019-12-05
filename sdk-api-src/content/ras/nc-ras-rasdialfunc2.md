@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.RASDIALFUNC2
 title: RASDIALFUNC2 (ras.h)
-
 description: A RasDialFunc2 callback function is called by the RasDial function calls when a change of state occurs during a remote access connection process.
 old-location: rras\rasdialfunc2.htm
 tech.root: RRAS
 ms.assetid: a9395048-492b-42fb-b247-52999cee3f44
-
 ms.date: 12/05/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc2, RasDialFunc2 callback, RasDialFunc2 callback function [RAS], _ras_rasdialfunc2, ras/RasDialFunc2, rras.rasdialfunc2
 ms.topic: callback
-f1_keywords: 
- - "ras/RasDialFunc2"
+f1_keywords:
+- ras/RasDialFunc2
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasDialFunc2
+- RasDialFunc2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMWMIFilter
 title: IGPMWMIFilter (gpmgmt.h)
-
 description: The IGPMWMIFilter interface contains methods that allow you to set and retrieve security attributes and various properties for a WMI filter. WMI filter queries are specified using WMI Query Language (WQL).
 old-location: gpmc\igpmwmifilter.htm
 tech.root: gpmc
 ms.assetid: 801428f1-9ce5-4348-acab-23cc9ea8cac3
-
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilter, IGPMWMIFilter, IGPMWMIFilter interface [GPMC], IGPMWMIFilter interface [GPMC],described, _win32_igpmwmifilter, gpmc.igpmwmifilter, gpmgmt/IGPMWMIFilter
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMWMIFilter"
+f1_keywords:
+- gpmgmt/IGPMWMIFilter
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMWMIFilter
- - GPMWMIFilter
+- IGPMWMIFilter
+- GPMWMIFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndPlayReverse
 title: MCIWndPlayReverse macro (vfw.h)
-
 description: The MCIWndPlayReverse macro plays the current content in the reverse direction, beginning at the current position and ending at the beginning of the content or until another command stops playback.
 old-location: multimedia\mciwndplayreverse.htm
 tech.root: Multimedia
 ms.assetid: 1f3c9c98-a8f5-4ad9-bef9-5d685076df9d
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndPlayReverse, MCIWndPlayReverse macro [Windows Multimedia], _win32_MCIWndPlayReverse, multimedia.mciwndplayreverse, vfw/MCIWndPlayReverse
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndPlayReverse"
+f1_keywords:
+- vfw/MCIWndPlayReverse
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndPlayReverse
+- MCIWndPlayReverse
 targetos: Windows
 req.typenames: 
 req.redist: 

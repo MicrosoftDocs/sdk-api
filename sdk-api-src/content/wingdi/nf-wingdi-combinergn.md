@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CombineRgn
 title: CombineRgn function (wingdi.h)
-
 description: The CombineRgn function combines two regions and stores the result in a third region. The two regions are combined according to the specified mode.
 old-location: gdi\combinergn.htm
 tech.root: gdi
 ms.assetid: ef9fc4f3-737e-4c10-a80b-8ae2097c17d1
-
 ms.date: 12/05/2018
 ms.keywords: CombineRgn, CombineRgn function [Windows GDI], RGN_AND, RGN_COPY, RGN_DIFF, RGN_OR, RGN_XOR, _win32_CombineRgn, gdi.combinergn, wingdi/CombineRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/CombineRgn"
+f1_keywords:
+- wingdi/CombineRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - api-ms-win-gdi-ie-rgn-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- api-ms-win-gdi-ie-rgn-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
- - CombineRgn
+- CombineRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistRegisterForStatusChangeNotification
 title: PeerDistRegisterForStatusChangeNotification function (peerdist.h)
-
 description: The PeerDistRegisterForStatusChangeNotification function requests the Peer Distribution service status change notification.
 old-location: p2p\peerdistregisterforstatuschangenotification.htm
 tech.root: P2PSdk
 ms.assetid: 7b01a499-534b-4c0f-9c9c-bafa066ad742
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistRegisterForStatusChangeNotification, PeerDistRegisterForStatusChangeNotification function [Peer Networking], p2p.peerdistregisterforstatuschangenotification, peerdist/PeerDistRegisterForStatusChangeNotification
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistRegisterForStatusChangeNotification"
+f1_keywords:
+- peerdist/PeerDistRegisterForStatusChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistRegisterForStatusChangeNotification
+- PeerDistRegisterForStatusChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

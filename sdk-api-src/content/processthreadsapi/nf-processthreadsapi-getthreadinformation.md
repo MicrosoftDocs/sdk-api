@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetThreadInformation
 title: GetThreadInformation function (processthreadsapi.h)
-
 description: Retrieves information about the specified thread.
 old-location: base\getthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: b7996647-78ab-4f32-bcf6-41aa87d13bb8
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadInformation, GetThreadInformation function, base.getthreadinformation, processthreadsapi/GetThreadInformation
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetThreadInformation"
+f1_keywords:
+- processthreadsapi/GetThreadInformation
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetThreadInformation
+- GetThreadInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

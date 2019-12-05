@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillMesh
 title: ID2D1CommandSink::FillMesh (d2d1_1.h)
-
 description: Indicates a mesh to be filled by the command sink.
 old-location: direct2d\id2d1commandsink_fillmesh.htm
 tech.root: Direct2D
 ms.assetid: b81ac1d2-06bb-4d39-b03d-c0abf7267c3a
-
 ms.date: 12/05/2018
 ms.keywords: FillMesh, FillMesh method [Direct2D], FillMesh method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],FillMesh method, ID2D1CommandSink.FillMesh, ID2D1CommandSink::FillMesh, d2d1_1/ID2D1CommandSink::FillMesh, direct2d.id2d1commandsink_fillmesh
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.FillMesh"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.FillMesh
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.FillMesh
+- ID2D1CommandSink.FillMesh
 targetos: Windows
 req.typenames: 
 req.redist: 

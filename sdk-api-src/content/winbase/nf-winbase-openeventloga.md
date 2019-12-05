@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.OpenEventLogA
 title: OpenEventLogA function (winbase.h)
-
 description: Opens a handle to the specified event log.
 old-location: base\openeventlog.htm
 tech.root: EventLog
 ms.assetid: 6cd8797a-aeaf-4603-b43c-b1ff45b6200a
-
 ms.date: 12/05/2018
 ms.keywords: OpenEventLog, OpenEventLog function, OpenEventLogA, OpenEventLogW, _win32_openeventlog, base.openeventlog, winbase/OpenEventLog, winbase/OpenEventLogA, winbase/OpenEventLogW
 ms.topic: function
-f1_keywords: 
- - "winbase/OpenEventLog"
+f1_keywords:
+- winbase/OpenEventLog
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - OpenEventLog
- - OpenEventLogA
- - OpenEventLogW
+- OpenEventLog
+- OpenEventLogA
+- OpenEventLogW
 targetos: Windows
 req.typenames: 
 req.redist: 

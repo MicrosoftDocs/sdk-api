@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.CommitTransactionAsync
 title: CommitTransactionAsync function (ktmw32.h)
-
 description: Requests that the specified transaction be committed.
 old-location: fs\committransactionasync.htm
 tech.root: ktm
 ms.assetid: cc0f4314-e216-490b-a49a-14bb850e0762
-
 ms.date: 12/05/2018
 ms.keywords: CommitTransactionAsync, CommitTransactionAsync function [Files], fs.committransactionasync, ktmw32/CommitTransactionAsync
 ms.topic: function
-f1_keywords: 
- - "ktmw32/CommitTransactionAsync"
+f1_keywords:
+- ktmw32/CommitTransactionAsync
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - CommitTransactionAsync
+- CommitTransactionAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

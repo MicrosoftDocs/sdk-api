@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_TEXTURE1D_DESC.CD3D11_TEXTURE1D_DESC
 title: CD3D11_TEXTURE1D_DESC::CD3D11_TEXTURE1D_DESC (d3d11.h)
-
 description: Instantiates a new instance of an uninitialized CD3D11_TEXTURE1D_DESC structure.
 old-location: 
 tech.root: direct3d11
 ms.assetid: D1CD57D0-AE19-4067-8D21-08692C69D9DB
-
 ms.date: 05/06/2019
 ms.keywords: CD3D11_TEXTURE1D_DESC, CD3D11_TEXTURE1D_DESC interface [Direct3D 11],CD3D11_TEXTURE1D_DESC method, CD3D11_TEXTURE1D_DESC method [Direct3D 11], CD3D11_TEXTURE1D_DESC method [Direct3D 11],CD3D11_TEXTURE1D_DESC interface, CD3D11_TEXTURE1D_DESC.CD3D11_TEXTURE1D_DESC, CD3D11_TEXTURE1D_DESC::CD3D11_TEXTURE1D_DESC, CD3D11_TEXTURE1D_DESC::CD3D11_TEXTURE1D_DESC(const D3D11_TEXTURE1D_DESC&), d3d11/CD3D11_TEXTURE1D_DESC::CD3D11_TEXTURE1D_DESC, direct3d11.cd3d11_texture1d_desc_cd3d11_texture1d_desc_d3d11_texture1d_desc_
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_TEXTURE1D_DESC.CD3D11_TEXTURE1D_DESC"
+f1_keywords:
+- d3d11/CD3D11_TEXTURE1D_DESC.CD3D11_TEXTURE1D_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_TEXTURE1D_DESC.CD3D11_TEXTURE1D_DESC
+- CD3D11_TEXTURE1D_DESC.CD3D11_TEXTURE1D_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

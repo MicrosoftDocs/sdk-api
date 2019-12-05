@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnKeyboardInput
 title: INameSpaceTreeControlEvents::OnKeyboardInput (shobjidl.h)
-
 description: Called when the user presses a key on the keyboard.
 old-location: shell\INameSpaceTreeControlEvents_OnKeyboardInput.htm
 tech.root: shell
 ms.assetid: b5034847-cba9-4ebe-8578-c933234396e2
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnKeyboardInput method, INameSpaceTreeControlEvents.OnKeyboardInput, INameSpaceTreeControlEvents::OnKeyboardInput, OnKeyboardInput, OnKeyboardInput method [Windows Shell], OnKeyboardInput method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnKeyboardInput, shell.INameSpaceTreeControlEvents_OnKeyboardInput, shobjidl/INameSpaceTreeControlEvents::OnKeyboardInput
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnKeyboardInput"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnKeyboardInput
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnKeyboardInput
+- INameSpaceTreeControlEvents.OnKeyboardInput
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContext.IsCallerInRole
 title: IObjectContext::IsCallerInRole (comsvcs.h)
-
 description: Indicates whether the object's direct caller is in a specified role (either directly or as part of a group).
 old-location: cos\iobjectcontext_iscallerinrole.htm
 tech.root: cossdk
 ms.assetid: 8e545cc5-ad4e-43b9-a834-c9d470df24dd
-
 ms.date: 12/05/2018
 ms.keywords: IObjectContext interface [COM+],IsCallerInRole method, IObjectContext.IsCallerInRole, IObjectContext::IsCallerInRole, IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],IObjectContext interface, _cos_IObjectContext_IsCallerInRole, comsvcs/IObjectContext::IsCallerInRole, cos.iobjectcontext_iscallerinrole
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContext.IsCallerInRole"
+f1_keywords:
+- comsvcs/IObjectContext.IsCallerInRole
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContext.IsCallerInRole
+- IObjectContext.IsCallerInRole
 targetos: Windows
 req.typenames: 
 req.redist: 

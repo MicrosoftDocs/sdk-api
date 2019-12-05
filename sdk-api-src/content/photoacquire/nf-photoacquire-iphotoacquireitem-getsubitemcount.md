@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetSubItemCount
 title: IPhotoAcquireItem::GetSubItemCount (photoacquire.h)
-
 description: The GetSubItemCount method retrieves the number of subitems contained in an item.
 old-location: picacq\iphotoacquireitem_getsubitemcount.htm
 tech.root: acquisition
 ms.assetid: 2790d551-42ae-4009-998e-2579687203d6
-
 ms.date: 12/05/2018
 ms.keywords: GetSubItemCount, GetSubItemCount method [Picture Acquisition], GetSubItemCount method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetSubItemCount method, IPhotoAcquireItem.GetSubItemCount, IPhotoAcquireItem::GetSubItemCount, IPhotoAcquireItemGetSubItemCount, photoacquire/IPhotoAcquireItem::GetSubItemCount, picacq.iphotoacquireitem_getsubitemcount
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireItem.GetSubItemCount"
+f1_keywords:
+- photoacquire/IPhotoAcquireItem.GetSubItemCount
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.GetSubItemCount
+- IPhotoAcquireItem.GetSubItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

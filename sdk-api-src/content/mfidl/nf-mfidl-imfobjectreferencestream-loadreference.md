@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFObjectReferenceStream.LoadReference
 title: IMFObjectReferenceStream::LoadReference (mfidl.h)
-
 description: Marshals an interface from data stored in the stream.
 old-location: mf\imfobjectreferencestream_loadreference.htm
 tech.root: medfound
 ms.assetid: fabf7de2-8433-43ba-9ded-001569614054
-
 ms.date: 12/05/2018
 ms.keywords: IMFObjectReferenceStream interface [Media Foundation],LoadReference method, IMFObjectReferenceStream.LoadReference, IMFObjectReferenceStream::LoadReference, LoadReference, LoadReference method [Media Foundation], LoadReference method [Media Foundation],IMFObjectReferenceStream interface, fabf7de2-8433-43ba-9ded-001569614054, mf.imfobjectreferencestream_loadreference, mfidl/IMFObjectReferenceStream::LoadReference
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFObjectReferenceStream.LoadReference"
+f1_keywords:
+- mfidl/IMFObjectReferenceStream.LoadReference
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFObjectReferenceStream.LoadReference
+- IMFObjectReferenceStream.LoadReference
 targetos: Windows
 req.typenames: 
 req.redist: 

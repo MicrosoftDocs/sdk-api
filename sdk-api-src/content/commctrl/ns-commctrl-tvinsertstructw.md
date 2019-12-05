@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagTVINSERTSTRUCTW
 title: TVINSERTSTRUCTW (commctrl.h)
-
 description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions.
 old-location: controls\TVINSERTSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvinsertstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTVINSERTSTRUCTW, LPTVINSERTSTRUCT, LPTVINSERTSTRUCT structure pointer [Windows Controls], TVINSERTSTRUCT, TVINSERTSTRUCT structure [Windows Controls], TVINSERTSTRUCTA, TVINSERTSTRUCTW, TVI_FIRST, TVI_LAST, TVI_ROOT, TVI_SORT, _win32_TVINSERTSTRUCT, _win32_TVINSERTSTRUCT_cpp, commctrl/LPTVINSERTSTRUCT, commctrl/TVINSERTSTRUCT, commctrl/TVINSERTSTRUCTA, commctrl/TVINSERTSTRUCTW, controls.TVINSERTSTRUCT, controls._win32_TVINSERTSTRUCT"
+ms.keywords: '*LPTVINSERTSTRUCTW, LPTVINSERTSTRUCT, LPTVINSERTSTRUCT structure pointer [Windows Controls], TVINSERTSTRUCT, TVINSERTSTRUCT structure [Windows Controls], TVINSERTSTRUCTA, TVINSERTSTRUCTW, TVI_FIRST, TVI_LAST, TVI_ROOT, TVI_SORT, _win32_TVINSERTSTRUCT, _win32_TVINSERTSTRUCT_cpp, commctrl/LPTVINSERTSTRUCT, commctrl/TVINSERTSTRUCT, commctrl/TVINSERTSTRUCTA, commctrl/TVINSERTSTRUCTW, controls.TVINSERTSTRUCT, controls._win32_TVINSERTSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TVINSERTSTRUCT"
+f1_keywords:
+- commctrl/TVINSERTSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TVINSERTSTRUCT
- - TVINSERTSTRUCTA
- - TVINSERTSTRUCTW
+- TVINSERTSTRUCT
+- TVINSERTSTRUCTA
+- TVINSERTSTRUCTW
 targetos: Windows
 req.typenames: TVINSERTSTRUCTW, *LPTVINSERTSTRUCTW
 req.redist: 

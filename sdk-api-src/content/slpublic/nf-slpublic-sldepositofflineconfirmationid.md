@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLDepositOfflineConfirmationId
 title: SLDepositOfflineConfirmationId function (slpublic.h)
-
 description: Deposits Installation ID (IID) and Confirmation ID (CID) for offline activation.
 old-location: security\sldepositofflineconfirmationid.htm
 tech.root: SecSLApi
 ms.assetid: 5cea5bba-7bdd-422f-a3fe-ec69d3877efd
-
 ms.date: 12/05/2018
 ms.keywords: SLDepositOfflineConfirmationId, SLDepositOfflineConfirmationId function [Security], security.sldepositofflineconfirmationid, slpublic/SLDepositOfflineConfirmationId
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLDepositOfflineConfirmationId"
+f1_keywords:
+- slpublic/SLDepositOfflineConfirmationId
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLDepositOfflineConfirmationId
+- SLDepositOfflineConfirmationId
 targetos: Windows
 req.typenames: 
 req.redist: 

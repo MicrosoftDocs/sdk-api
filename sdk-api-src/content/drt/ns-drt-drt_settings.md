@@ -1,19 +1,17 @@
 ---
 UID: NS:drt.drt_settings_tag
 title: DRT_SETTINGS (drt.h)
-
 description: DRT_SETTINGS structure contains the settings utilized by the local Distributed Routing Table.
 old-location: p2p\drt_settings.htm
 tech.root: P2PSdk
 ms.assetid: 22408b8e-b114-43cd-8f84-3eaf8508f441
-
 ms.date: 12/05/2018
-ms.keywords: "*PDRT_SETTINGS, DRT_SETTINGS, DRT_SETTINGS structure [Peer Networking], PDRT_SETTINGS, PDRT_SETTINGS structure pointer [Peer Networking], drt/DRT_SETTINGS, drt/PDRT_SETTINGS, p2p.drt_settings"
+ms.keywords: '*PDRT_SETTINGS, DRT_SETTINGS, DRT_SETTINGS structure [Peer Networking], PDRT_SETTINGS, PDRT_SETTINGS structure pointer [Peer Networking], drt/DRT_SETTINGS, drt/PDRT_SETTINGS, p2p.drt_settings'
 ms.topic: struct
-f1_keywords: 
- - "drt/DRT_SETTINGS"
+f1_keywords:
+- drt/DRT_SETTINGS
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_SETTINGS
+- DRT_SETTINGS
 targetos: Windows
 req.typenames: DRT_SETTINGS, *PDRT_SETTINGS
 req.redist: 

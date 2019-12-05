@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.Remove
 title: IMSVidAudioRendererDevices::Remove (segment.h)
-
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidaudiorendererdevices_remove.htm
 tech.root: mstv
 ms.assetid: 5a9cf752-e3f8-40bf-89e8-e223654e4080
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Remove method, IMSVidAudioRendererDevices.Remove, IMSVidAudioRendererDevices::Remove, IMSVidAudioRendererDevicesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_remove, segment/IMSVidAudioRendererDevices::Remove
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererDevices.Remove"
+f1_keywords:
+- segment/IMSVidAudioRendererDevices.Remove
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererDevices.Remove
+- IMSVidAudioRendererDevices.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

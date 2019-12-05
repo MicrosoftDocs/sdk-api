@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_15
 title: MFT_ENUM_DATA_V1
-
 description: Contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records for ReFS volumes.
 old-location: fs\mft_enum_data_v1.htm
 tech.root: FileIO
 ms.assetid: 6d7b50e3-60cf-4eaf-9d22-fbb20c7e0bba
-
 ms.date: 12/05/2018
-ms.keywords: "*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA_V1, MFT_ENUM_DATA_V1 structure [Files], PMFT_ENUM_DATA_V1, PMFT_ENUM_DATA_V1 structure pointer [Files], fs.mft_enum_data_v1, winioctl/MFT_ENUM_DATA_V1, winioctl/PMFT_ENUM_DATA_V1"
+ms.keywords: '*PMFT_ENUM_DATA, *PMFT_ENUM_DATA_V1, MFT_ENUM_DATA, MFT_ENUM_DATA_V1, MFT_ENUM_DATA_V1 structure [Files], PMFT_ENUM_DATA_V1, PMFT_ENUM_DATA_V1 structure pointer [Files], fs.mft_enum_data_v1, winioctl/MFT_ENUM_DATA_V1, winioctl/PMFT_ENUM_DATA_V1'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/MFT_ENUM_DATA_V1"
+f1_keywords:
+- winioctl/MFT_ENUM_DATA_V1
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - MFT_ENUM_DATA_V1
+- MFT_ENUM_DATA_V1
 targetos: Windows
 req.typenames: MFT_ENUM_DATA_V1, *PMFT_ENUM_DATA_V1
 req.redist: 

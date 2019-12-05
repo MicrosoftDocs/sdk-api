@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VariantClear
 title: VariantClear function (oleauto.h)
-
 description: Clears a variant.
 old-location: automat\variantclear.htm
 tech.root: automat
 ms.assetid: 28741d81-8404-4f85-95d3-5c209ec13835
-
 ms.date: 12/05/2018
 ms.keywords: VariantClear, VariantClear function [Automation], _oa96_VariantClear, automat.variantclear, oleauto/VariantClear
 ms.topic: function
-f1_keywords: 
- - "oleauto/VariantClear"
+f1_keywords:
+- oleauto/VariantClear
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VariantClear
+- VariantClear
 targetos: Windows
 req.typenames: 
 req.redist: 

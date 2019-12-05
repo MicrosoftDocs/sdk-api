@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateAutoApplyQuota
 title: IFsrmQuotaManager::CreateAutoApplyQuota (fsrmquota.h)
-
 description: Creates an automatic quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_createautoapplyquota.htm
 tech.root: fsrm
 ms.assetid: faaa55ca-a0b1-4cd4-9c73-20d80879b10c
-
 ms.date: 12/05/2018
 ms.keywords: CreateAutoApplyQuota, CreateAutoApplyQuota method [File Server Resource Manager], CreateAutoApplyQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManager.CreateAutoApplyQuota, IFsrmQuotaManager::CreateAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateAutoApplyQuota method, IFsrmQuotaManagerEx::CreateAutoApplyQuota, fs.ifsrmquotamanager_createautoapplyquota, fsrm.ifsrmquotamanager_createautoapplyquota, fsrmquota/IFsrmQuotaManager::CreateAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::CreateAutoApplyQuota
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaManager.CreateAutoApplyQuota"
+f1_keywords:
+- fsrmquota/IFsrmQuotaManager.CreateAutoApplyQuota
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.CreateAutoApplyQuota
- - IFsrmQuotaManagerEx.CreateAutoApplyQuota
- - FsrmQuotaManager.CreateAutoApplyQuota
+- IFsrmQuotaManager.CreateAutoApplyQuota
+- IFsrmQuotaManagerEx.CreateAutoApplyQuota
+- FsrmQuotaManager.CreateAutoApplyQuota
 targetos: Windows
 req.typenames: 
 req.redist: 

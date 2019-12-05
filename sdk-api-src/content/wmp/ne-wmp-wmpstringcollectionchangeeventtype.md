@@ -1,19 +1,17 @@
 ---
 UID: NE:wmp.WMPStringCollectionChangeEventType
 title: WMPStringCollectionChangeEventType (wmp.h)
-
 description: The WMPStringCollectionChangeEventType enumeration type defines the types of changes that can occur in a string collection.
 old-location: wmp\wmpstringcollectionchangeeventtype.htm
 tech.root: WMP
 ms.assetid: 7690972b-52ac-4249-baa5-3d2b38a4487a
-
 ms.date: 12/05/2018
 ms.keywords: WMPStringCollectionChangeEventType, WMPStringCollectionChangeEventType enumeration [Windows Media Player], wmp.wmpstringcollectionchangeeventtype, wmp/WMPStringCollectionChangeEventType, wmp/wmpsccetBeginUpdates, wmp/wmpsccetChange, wmp/wmpsccetClear, wmp/wmpsccetDelete, wmp/wmpsccetEndUpdates, wmp/wmpsccetInsert, wmp/wmpsccetUnknown, wmpsccetBeginUpdates, wmpsccetChange, wmpsccetClear, wmpsccetDelete, wmpsccetEndUpdates, wmpsccetInsert, wmpsccetUnknown
 ms.topic: enum
-f1_keywords: 
- - "wmp/WMPStringCollectionChangeEventType"
+f1_keywords:
+- wmp/WMPStringCollectionChangeEventType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - WMPStringCollectionChangeEventType
+- WMPStringCollectionChangeEventType
 targetos: Windows
 req.typenames: WMPStringCollectionChangeEventType
 req.redist: 

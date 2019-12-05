@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.INDEXTOOVERLAYMASK
 title: INDEXTOOVERLAYMASK macro (commctrl.h)
-
 description: Prepares the index of an overlay mask so that the ImageList_Draw function can use it.
 old-location: controls\INDEXTOOVERLAYMASK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\indextooverlaymask.htm
-
 ms.date: 12/05/2018
 ms.keywords: INDEXTOOVERLAYMASK, INDEXTOOVERLAYMASK macro [Windows Controls], _win32_INDEXTOOVERLAYMASK, _win32_INDEXTOOVERLAYMASK_cpp, commctrl/INDEXTOOVERLAYMASK, controls.INDEXTOOVERLAYMASK, controls._win32_INDEXTOOVERLAYMASK
 ms.topic: macro
-f1_keywords: 
- - "commctrl/INDEXTOOVERLAYMASK"
+f1_keywords:
+- commctrl/INDEXTOOVERLAYMASK
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - INDEXTOOVERLAYMASK
+- INDEXTOOVERLAYMASK
 targetos: Windows
 req.typenames: 
 req.redist: 

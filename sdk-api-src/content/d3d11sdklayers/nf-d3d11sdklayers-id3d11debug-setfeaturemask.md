@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.SetFeatureMask
 title: ID3D11Debug::SetFeatureMask (d3d11sdklayers.h)
-
 description: Set a bit field of flags that will turn debug features on and off.
 old-location: direct3d11\id3d11debug_setfeaturemask.htm
 tech.root: direct3d11
 ms.assetid: 60f9da61-dc97-4b6d-b187-df3605ad9336
-
 ms.date: 12/05/2018
 ms.keywords: 3ffbf56d-c151-9ef4-e7f6-03fca9a9b5a0, ID3D11Debug interface [Direct3D 11],SetFeatureMask method, ID3D11Debug.SetFeatureMask, ID3D11Debug::SetFeatureMask, SetFeatureMask, SetFeatureMask method [Direct3D 11], SetFeatureMask method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::SetFeatureMask, direct3d11.id3d11debug_setfeaturemask
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11Debug.SetFeatureMask"
+f1_keywords:
+- d3d11sdklayers/ID3D11Debug.SetFeatureMask
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Debug.SetFeatureMask
+- ID3D11Debug.SetFeatureMask
 targetos: Windows
 req.typenames: 
 req.redist: 

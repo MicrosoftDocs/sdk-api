@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetStream
 title: IXpsOMSignatureBlockResource::GetStream (xpsobjectmodel.h)
-
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomsignatureblockresource_getstream.htm
 tech.root: printdocs
 ms.assetid: 1e6c53fa-7180-454d-8bdc-332eb0d3fa27
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetStream method, IXpsOMSignatureBlockResource.GetStream, IXpsOMSignatureBlockResource::GetStream, xps.ixpsomsignatureblockresource_getstream, xpsobjectmodel/IXpsOMSignatureBlockResource::GetStream
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSignatureBlockResource.GetStream"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSignatureBlockResource.GetStream
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResource.GetStream
+- IXpsOMSignatureBlockResource.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

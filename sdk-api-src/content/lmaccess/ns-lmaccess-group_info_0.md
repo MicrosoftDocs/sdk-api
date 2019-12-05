@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_0
 title: GROUP_INFO_0 (lmaccess.h)
-
 description: The GROUP_INFO_0 structure contains the name of a global group in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
 old-location: netmgmt\group_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: 019796d1-b987-45d2-90df-1d3b484217a9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPGROUP_INFO_0, *PGROUP_INFO_0, GROUP_INFO_0, GROUP_INFO_0 structure [Network Management], LPGROUP_INFO_0, LPGROUP_INFO_0 structure pointer [Network Management], PGROUP_INFO_0, PGROUP_INFO_0 structure pointer [Network Management], _win32_group_info_0_str, lmaccess/GROUP_INFO_0, lmaccess/LPGROUP_INFO_0, lmaccess/PGROUP_INFO_0, netmgmt.group_info_0_str"
+ms.keywords: '*LPGROUP_INFO_0, *PGROUP_INFO_0, GROUP_INFO_0, GROUP_INFO_0 structure [Network Management], LPGROUP_INFO_0, LPGROUP_INFO_0 structure pointer [Network Management], PGROUP_INFO_0, PGROUP_INFO_0 structure pointer [Network Management], _win32_group_info_0_str, lmaccess/GROUP_INFO_0, lmaccess/LPGROUP_INFO_0, lmaccess/PGROUP_INFO_0, netmgmt.group_info_0_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/GROUP_INFO_0"
+f1_keywords:
+- lmaccess/GROUP_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - GROUP_INFO_0
+- GROUP_INFO_0
 targetos: Windows
 req.typenames: GROUP_INFO_0, *PGROUP_INFO_0, *LPGROUP_INFO_0
 req.redist: 

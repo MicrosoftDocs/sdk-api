@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.CountModes
 title: IFullScreenVideoEx::CountModes (amvideo.h)
-
 description: The CountModes method retrieves the number of display modes that the Full Screen Renderer supports.
 old-location: dshow\ifullscreenvideoex_countmodes.htm
 tech.root: DirectShow
 ms.assetid: 70d4e124-083b-4729-8f39-778e815ea23b
-
 ms.date: 12/05/2018
 ms.keywords: CountModes, CountModes method [DirectShow], CountModes method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoCountModes, IFullScreenVideoEx interface [DirectShow],CountModes method, IFullScreenVideoEx.CountModes, IFullScreenVideoEx::CountModes, amvideo/IFullScreenVideoEx::CountModes, dshow.ifullscreenvideoex_countmodes
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.CountModes"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.CountModes
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.CountModes
+- IFullScreenVideoEx.CountModes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.FreeUrlCacheSpaceA
 title: FreeUrlCacheSpaceA function (winineti.h)
-
 description: Frees space in the cache.
 old-location: wininet\freeurlcachespace.htm
 tech.root: wininet
 ms.assetid: 5853CA64-551F-484E-A992-25B9EA6C74C2
-
 ms.date: 12/05/2018
 ms.keywords: FreeUrlCacheSpace, FreeUrlCacheSpace function [WinINet], FreeUrlCacheSpaceA, FreeUrlCacheSpaceW, wininet.freeurlcachespace, winineti/FreeUrlCacheSpace, winineti/FreeUrlCacheSpaceA, winineti/FreeUrlCacheSpaceW
 ms.topic: function
-f1_keywords: 
- - "winineti/FreeUrlCacheSpace"
+f1_keywords:
+- winineti/FreeUrlCacheSpace
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FreeUrlCacheSpace
- - FreeUrlCacheSpaceA
- - FreeUrlCacheSpaceW
+- FreeUrlCacheSpace
+- FreeUrlCacheSpaceA
+- FreeUrlCacheSpaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

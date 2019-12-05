@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLinkText
 title: ISyncMgrEvent::GetLinkText (syncmgr.h)
-
 description: Gets the text for the hot link for the event.
 old-location: shell\ISyncMgrEvent_GetLinkText.htm
 tech.root: shell
 ms.assetid: f8a7226b-270e-495e-a43f-8e6a9c7a77df
-
 ms.date: 12/05/2018
 ms.keywords: GetLinkText, GetLinkText method [Windows Shell], GetLinkText method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetLinkText method, ISyncMgrEvent.GetLinkText, ISyncMgrEvent::GetLinkText, _shell_ISyncMgrEvent_GetLinkText, shell.ISyncMgrEvent_GetLinkText, syncmgr/ISyncMgrEvent::GetLinkText
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEvent.GetLinkText"
+f1_keywords:
+- syncmgr/ISyncMgrEvent.GetLinkText
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEvent.GetLinkText
+- ISyncMgrEvent.GetLinkText
 targetos: Windows
 req.typenames: 
 req.redist: 

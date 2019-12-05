@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_LAYER_OPTIONS
 title: D2D1_LAYER_OPTIONS (d2d1.h)
-
 description: Specifies options that can be applied when a layer resource is applied to create a layer.
 old-location: direct2d\D2D1_LAYER_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: d278211a-e99c-429d-9752-45c305f52ed8
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_LAYER_OPTIONS, D2D1_LAYER_OPTIONS enumeration [Direct2D], D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, D2D1_LAYER_OPTIONS_NONE, d2d1/D2D1_LAYER_OPTIONS, d2d1/D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE, d2d1/D2D1_LAYER_OPTIONS_NONE, direct2d.D2D1_LAYER_OPTIONS
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_LAYER_OPTIONS"
+f1_keywords:
+- d2d1/D2D1_LAYER_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_LAYER_OPTIONS
+- D2D1_LAYER_OPTIONS
 targetos: Windows
 req.typenames: D2D1_LAYER_OPTIONS
 req.redist: 

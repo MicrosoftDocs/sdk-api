@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.DragMove
 title: IImageList::DragMove (commoncontrols.h)
-
 description: Moves the image that is being dragged during a drag-and-drop operation. This function is typically called in response to a WM_MOUSEMOVE message.
 old-location: controls\IImageList_DragMove.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\dragmove.htm
-
 ms.date: 12/05/2018
 ms.keywords: DragMove, DragMove method [Windows Controls], DragMove method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],DragMove method, IImageList.DragMove, IImageList::DragMove, comctl_IImageList_DragMove, comctl_IImageList_DragMove_cpp, commoncontrols/IImageList::DragMove, controls.IImageList_DragMove, controls.comctl_IImageList_DragMove
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.DragMove"
+f1_keywords:
+- commoncontrols/IImageList.DragMove
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.DragMove
+- IImageList.DragMove
 targetos: Windows
 req.typenames: 
 req.redist: 

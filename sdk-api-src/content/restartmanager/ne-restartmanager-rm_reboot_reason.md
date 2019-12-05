@@ -1,19 +1,17 @@
 ---
 UID: NE:restartmanager._RM_REBOOT_REASON
 title: RM_REBOOT_REASON (restartmanager.h)
-
 description: Describes the reasons a restart of the system is needed.
 old-location: rstmgr\rm_reboot_reason.htm
 tech.root: rstmgr
 ms.assetid: f99c1b66-db2f-4520-86cf-19961e511474
-
 ms.date: 12/05/2018
 ms.keywords: RM_REBOOT_REASON, RM_REBOOT_REASON enumeration [Restart Mgr], RmRebootReasonCriticalProcess, RmRebootReasonCriticalService, RmRebootReasonDetectedSelf, RmRebootReasonNone, RmRebootReasonPermissionDenied, RmRebootReasonSessionMismatch, restartmanager/RM_REBOOT_REASON, restartmanager/RmRebootReasonCriticalProcess, restartmanager/RmRebootReasonCriticalService, restartmanager/RmRebootReasonDetectedSelf, restartmanager/RmRebootReasonNone, restartmanager/RmRebootReasonPermissionDenied, restartmanager/RmRebootReasonSessionMismatch, rstmgr.rm_reboot_reason
 ms.topic: enum
-f1_keywords: 
- - "restartmanager/RM_REBOOT_REASON"
+f1_keywords:
+- restartmanager/RM_REBOOT_REASON
 dev_langs:
- - c++
+- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_REBOOT_REASON
+- RM_REBOOT_REASON
 targetos: Windows
 req.typenames: RM_REBOOT_REASON
 req.redist: 

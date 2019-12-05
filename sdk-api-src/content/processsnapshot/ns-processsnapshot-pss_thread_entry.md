@@ -1,19 +1,17 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_11
 title: PSS_THREAD_ENTRY (processsnapshot.h)
-
 description: Holds thread information returned by PssWalkSnapshotPssWalkSnapshot.
 old-location: proc_snap\pss_thread_entry.htm
 tech.root: proc_snap
 ms.assetid: 99C89DBB-8C12-482E-B33D-AE59C37662CF
-
 ms.date: 12/05/2018
 ms.keywords: PSS_THREAD_ENTRY, PSS_THREAD_ENTRY structure, proc_snap.pss_thread_entry, processsnapshot/PSS_THREAD_ENTRY
 ms.topic: struct
-f1_keywords: 
- - "processsnapshot/PSS_THREAD_ENTRY"
+f1_keywords:
+- processsnapshot/PSS_THREAD_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processsnapshot.h
+- processsnapshot.h
 api_name:
- - PSS_THREAD_ENTRY
+- PSS_THREAD_ENTRY
 targetos: Windows
 req.typenames: PSS_THREAD_ENTRY
 req.redist: 

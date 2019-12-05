@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoDecodeProxy
 title: CoDecodeProxy function (combaseapi.h)
-
 description: Locates the implementation of a Component Object Model (COM) interface in a server process given an interface to a proxied object.
 old-location: winrt\codecodeproxy.htm
 tech.root: WinRT
 ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
-
 ms.date: 12/05/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoDecodeProxy"
+f1_keywords:
+- combaseapi/CoDecodeProxy
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
 api_name:
- - CoDecodeProxy
+- CoDecodeProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

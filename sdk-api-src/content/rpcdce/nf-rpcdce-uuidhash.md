@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.UuidHash
 title: UuidHash function (rpcdce.h)
-
 description: An application calls the UuidHash function to generate a hash value for a specified UUID.
 old-location: rpc\uuidhash.htm
 tech.root: Rpc
 ms.assetid: e96fafa6-1c10-42c1-8d85-5e338899411d
-
 ms.date: 12/05/2018
 ms.keywords: UuidHash, UuidHash function [RPC], _rpc_uuidhash, rpc.uuidhash, rpcdce/UuidHash
 ms.topic: function
-f1_keywords: 
- - "rpcdce/UuidHash"
+f1_keywords:
+- rpcdce/UuidHash
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - UuidHash
+- UuidHash
 targetos: Windows
 req.typenames: 
 req.redist: 

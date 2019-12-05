@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWebProxy.get_UserName
 title: IWebProxy::get_UserName (wuapi.h)
-
 description: Gets and sets the user name to submit to the proxy server for authentication.
 old-location: wua\iwebproxy_username.htm
 tech.root: Wua_Sdk
 ms.assetid: cef38d9d-5706-4008-be61-5bbe7c29ca68
-
 ms.date: 12/05/2018
 ms.keywords: IWebProxy interface [Windows Update Agent],UserName property, IWebProxy.UserName, IWebProxy.get_UserName, IWebProxy::UserName, IWebProxy::get_UserName, IWebProxy::put_UserName, UserName property [Windows Update Agent], UserName property [Windows Update Agent],IWebProxy interface, get_UserName, wua.iwebproxy_username, wuapi/IWebProxy::UserName, wuapi/IWebProxy::get_UserName, wuapi/IWebProxy::put_UserName
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWebProxy.UserName"
+f1_keywords:
+- wuapi/IWebProxy.UserName
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWebProxy.UserName
- - IWebProxy.get_UserName
- - IWebProxy.put_UserName
+- IWebProxy.UserName
+- IWebProxy.get_UserName
+- IWebProxy.put_UserName
 targetos: Windows
 req.typenames: 
 req.redist: 

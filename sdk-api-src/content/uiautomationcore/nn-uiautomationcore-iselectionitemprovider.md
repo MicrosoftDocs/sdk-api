@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.ISelectionItemProvider
 title: ISelectionItemProvider (uiautomationcore.h)
-
 description: Provides access to individual, selectable child controls of containers that implement ISelectionProvider.
 old-location: winauto\uiauto_ISelectionItemProvider.htm
 tech.root: WinAuto
 ms.assetid: 464b05e3-06da-44b9-b4a6-c64452fcdb6d
-
 ms.date: 12/05/2018
 ms.keywords: ISelectionItemProvider, ISelectionItemProvider interface [Windows Accessibility], ISelectionItemProvider interface [Windows Accessibility],described, uiauto.uiauto_ISelectionItemProvider, uiauto_ISelectionItemProvider, uiautomationcore/ISelectionItemProvider, winauto.uiauto_ISelectionItemProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/ISelectionItemProvider"
+f1_keywords:
+- uiautomationcore/ISelectionItemProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ISelectionItemProvider
+- ISelectionItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

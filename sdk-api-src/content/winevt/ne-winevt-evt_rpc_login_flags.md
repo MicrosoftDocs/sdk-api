@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_RPC_LOGIN_FLAGS
 title: EVT_RPC_LOGIN_FLAGS (winevt.h)
-
 description: Defines the types of authentication that you can use to authenticate the user when connecting to a remote computer.
 old-location: wes\evt_rpc_login_flags.htm
 tech.root: wes
 ms.assetid: f3001756-7c2d-4a96-bbdf-e707debb5374
-
 ms.date: 12/05/2018
 ms.keywords: EVT_RPC_LOGIN_FLAGS, EVT_RPC_LOGIN_FLAGS enumeration [EventLog], EvtRpcLoginAuthDefault, EvtRpcLoginAuthKerberos, EvtRpcLoginAuthNTLM, EvtRpcLoginAuthNegotiate, wes.evt_rpc_login_flags, winevt/EVT_RPC_LOGIN_FLAGS, winevt/EvtRpcLoginAuthDefault, winevt/EvtRpcLoginAuthKerberos, winevt/EvtRpcLoginAuthNTLM, winevt/EvtRpcLoginAuthNegotiate
 ms.topic: enum
 f1_keywords:
 - winevt/EVT_RPC_LOGIN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

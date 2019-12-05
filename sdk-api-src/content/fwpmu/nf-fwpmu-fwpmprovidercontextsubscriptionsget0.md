@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextSubscriptionsGet0
 title: FwpmProviderContextSubscriptionsGet0 function (fwpmu.h)
-
 description: Retrieves an array of all the current provider context change notification subscriptions.
 old-location: fwp\fwpmprovidercontextsubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 68c8c360-3b12-4a7c-8a68-5128139a862a
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextSubscriptionsGet0, FwpmProviderContextSubscriptionsGet0 function [Filtering], fwp.fwpmprovidercontextsubscriptionsget0_func, fwpmu/FwpmProviderContextSubscriptionsGet0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextSubscriptionsGet0"
+f1_keywords:
+- fwpmu/FwpmProviderContextSubscriptionsGet0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderContextSubscriptionsGet0
+- FwpmProviderContextSubscriptionsGet0
 targetos: Windows
 req.typenames: 
 req.redist: 

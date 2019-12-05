@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForceTransactionToAbort
 title: ICrmLogControl::ForceTransactionToAbort (comsvcs.h)
-
 description: Performs an immediate abort call on the transaction.
 old-location: cos\icrmlogcontrol_forcetransactiontoabort.htm
 tech.root: cossdk
 ms.assetid: 5a0289c6-d177-40a3-968d-96ae3179e78d
-
 ms.date: 12/05/2018
 ms.keywords: ForceTransactionToAbort, ForceTransactionToAbort method [COM+], ForceTransactionToAbort method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForceTransactionToAbort method, ICrmLogControl.ForceTransactionToAbort, ICrmLogControl::ForceTransactionToAbort, _dtc_ICrmLogControl_ForceTransactionToAbort, comsvcs/ICrmLogControl::ForceTransactionToAbort, cos.icrmlogcontrol_forcetransactiontoabort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmLogControl.ForceTransactionToAbort"
+f1_keywords:
+- comsvcs/ICrmLogControl.ForceTransactionToAbort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmLogControl.ForceTransactionToAbort
+- ICrmLogControl.ForceTransactionToAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

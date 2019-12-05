@@ -1,19 +1,17 @@
 ---
 UID: NF:rtlsupportapi.RtlRaiseException
 title: RtlRaiseException function (rtlsupportapi.h)
-
 description: Raises an exception.
 old-location: winprog\rtlraiseexception.htm
 tech.root: DevNotes
 ms.assetid: 0d43418a-1c80-4f5e-a0fe-5bc3adac847c
-
 ms.date: 12/05/2018
 ms.keywords: RtlRaiseException, RtlRaiseException function [Windows API], rtlsupportapi/RtlRaiseException, winprog.rtlraiseexception
 ms.topic: function
 f1_keywords:
 - rtlsupportapi/RtlRaiseException
 dev_langs:
- - c++
+- c++
 req.header: rtlsupportapi.h
 req.include-header: 
 req.target-type: Windows

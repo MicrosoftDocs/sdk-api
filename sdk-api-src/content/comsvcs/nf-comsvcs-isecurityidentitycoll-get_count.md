@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityIdentityColl.get_Count
 title: ISecurityIdentityColl::get_Count (comsvcs.h)
-
 description: Retrieves the number of properties in the security identity collection.
 old-location: cos\isecurityidentitycoll_get_count.htm
 tech.root: cossdk
 ms.assetid: 43363504-ee5e-4d1c-a7eb-c4f003d84d57
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityIdentityColl interface [COM+],get_Count method, ISecurityIdentityColl.get_Count, ISecurityIdentityColl::get_Count, _cos_ISecurityIdentityColl_get_Count, comsvcs/ISecurityIdentityColl::get_Count, cos.isecurityidentitycoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityIdentityColl interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityIdentityColl.get_Count"
+f1_keywords:
+- comsvcs/ISecurityIdentityColl.get_Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityIdentityColl.get_Count
+- ISecurityIdentityColl.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

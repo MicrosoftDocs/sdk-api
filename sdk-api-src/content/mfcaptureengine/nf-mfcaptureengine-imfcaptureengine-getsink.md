@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.GetSink
 title: IMFCaptureEngine::GetSink (mfcaptureengine.h)
-
 description: Gets a pointer to one of the capture sink objects.
 old-location: mf\imfcaptureengine_getsink.htm
 tech.root: medfound
 ms.assetid: 7DAF5EA3-BA65-4CF9-B7BA-B427A48BF3BC
-
 ms.date: 12/05/2018
 ms.keywords: GetSink, GetSink method [Media Foundation], GetSink method [Media Foundation],IMFCaptureEngine interface, IMFCaptureEngine interface [Media Foundation],GetSink method, IMFCaptureEngine.GetSink, IMFCaptureEngine::GetSink, mf.imfcaptureengine_getsink, mfcaptureengine/IMFCaptureEngine::GetSink
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngine.GetSink"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngine.GetSink
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngine.GetSink
+- IMFCaptureEngine.GetSink
 targetos: Windows
 req.typenames: 
 req.redist: 

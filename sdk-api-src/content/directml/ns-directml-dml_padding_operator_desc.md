@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_PADDING_OPERATOR_DESC
 title: DML_PADDING_OPERATOR_DESC
-
 description: Describes a DirectML data reorganization operator that inflates the input tensor with zeroes (or some other value) on the edges.
 old-location: direct3d12\dml_padding_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 0CC96A3F-12DF-4577-AFDD-356BC0D42C64
-
 ms.date: 12/5/2018
 ms.keywords: DML_PADDING_OPERATOR_DESC, DML_PADDING_OPERATOR_DESC structure, direct3d12.dml_padding_operator_desc, directml/DML_PADDING_OPERATOR_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_PADDING_OPERATOR_DESC"
+f1_keywords:
+- directml/DML_PADDING_OPERATOR_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_PADDING_OPERATOR_DESC
+- DML_PADDING_OPERATOR_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

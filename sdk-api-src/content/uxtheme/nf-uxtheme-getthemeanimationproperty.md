@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeAnimationProperty
 title: GetThemeAnimationProperty function (uxtheme.h)
-
 description: Gets a theme animation property based on the storyboard id and the target id.
 old-location: controls\getthemeanimationproperty.htm
 tech.root: Controls
 ms.assetid: CEFB457B-2022-4FCC-AF1E-78A62D62E034
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeAnimationProperty, GetThemeAnimationProperty function [Windows Controls], controls.getthemeanimationproperty, uxtheme/GetThemeAnimationProperty
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeAnimationProperty"
+f1_keywords:
+- uxtheme/GetThemeAnimationProperty
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeAnimationProperty
+- GetThemeAnimationProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

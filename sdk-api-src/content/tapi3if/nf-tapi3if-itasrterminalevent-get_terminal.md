@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITASRTerminalEvent.get_Terminal
 title: ITASRTerminalEvent::get_Terminal (tapi3if.h)
-
 description: The get_Terminal method returns a pointer to the ITTerminal interface for the terminal on which the event occurred.
 old-location: tapi3\itasrterminalevent_get_terminal.htm
 tech.root: Tapi
 ms.assetid: 1cde7b16-f825-4591-9947-6ad03cbd14c6
-
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent interface [TAPI 2.2],get_Terminal method, ITASRTerminalEvent.get_Terminal, ITASRTerminalEvent::get_Terminal, _tapi3_itasrterminalevent_get_terminal, get_Terminal, get_Terminal method [TAPI 2.2], get_Terminal method [TAPI 2.2],ITASRTerminalEvent interface, tapi3.itasrterminalevent_get_terminal, tapi3if/ITASRTerminalEvent::get_Terminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITASRTerminalEvent.get_Terminal"
+f1_keywords:
+- tapi3if/ITASRTerminalEvent.get_Terminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITASRTerminalEvent.get_Terminal
+- ITASRTerminalEvent.get_Terminal
 targetos: Windows
 req.typenames: 
 req.redist: 

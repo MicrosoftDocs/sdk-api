@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteFont1.IsMonospacedFont
 title: IDWriteFont1::IsMonospacedFont (dwrite_1.h)
-
 description: Determines if the font is monospaced, that is, the characters are the same fixed-pitch width (non-proportional).
 old-location: directwrite\idwritefont1_ismonospacedfont.htm
 tech.root: DirectWrite
 ms.assetid: AB05586C-47C9-4F65-A7DF-C2A40FC33253
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont1 interface [Direct Write],IsMonospacedFont method, IDWriteFont1.IsMonospacedFont, IDWriteFont1::IsMonospacedFont, IsMonospacedFont, IsMonospacedFont method [Direct Write], IsMonospacedFont method [Direct Write],IDWriteFont1 interface, directwrite.idwritefont1_ismonospacedfont, dwrite_1/IDWriteFont1::IsMonospacedFont
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteFont1.IsMonospacedFont"
+f1_keywords:
+- dwrite_1/IDWriteFont1.IsMonospacedFont
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite_1.lib
 req.dll: Dwrite_1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite_1.dll
+- dwrite_1.dll
 api_name:
- - IDWriteFont1.IsMonospacedFont
+- IDWriteFont1.IsMonospacedFont
 targetos: Windows
 req.typenames: 
 req.redist: 

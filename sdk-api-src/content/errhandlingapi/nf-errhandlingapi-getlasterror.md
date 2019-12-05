@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.GetLastError
 title: GetLastError function (errhandlingapi.h)
-
 description: Retrieves the calling thread's last-error code value.
 old-location: base\getlasterror.htm
 tech.root: Debug
 ms.assetid: d852e148-985c-416f-a5a7-27b6914b45d4
-
 ms.date: 12/05/2018
 ms.keywords: GetLastError, GetLastError function, _win32_getlasterror, base.getlasterror, errhandlingapi/GetLastError
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/GetLastError"
+f1_keywords:
+- errhandlingapi/GetLastError
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-errorhandling-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-errorhandling-l1-1-1.dll
- - API-MS-Win-Core-errorhandling-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-errorhandling-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-errorhandling-l1-1-1.dll
+- API-MS-Win-Core-errorhandling-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+- vertdll.dll
 api_name:
- - GetLastError
+- GetLastError
 targetos: Windows
 req.typenames: 
 req.redist: 

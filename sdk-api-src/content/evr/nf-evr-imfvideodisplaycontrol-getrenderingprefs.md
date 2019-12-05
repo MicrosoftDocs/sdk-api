@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetRenderingPrefs
 title: IMFVideoDisplayControl::GetRenderingPrefs (evr.h)
-
 description: Gets various video rendering settings.
 old-location: mf\imfvideodisplaycontrol_getrenderingprefs.htm
 tech.root: medfound
 ms.assetid: 9a5bd1d6-e604-4798-af29-ad0c1931b651
-
 ms.date: 12/05/2018
 ms.keywords: 9a5bd1d6-e604-4798-af29-ad0c1931b651, GetRenderingPrefs, GetRenderingPrefs method [Media Foundation], GetRenderingPrefs method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetRenderingPrefs method, IMFVideoDisplayControl.GetRenderingPrefs, IMFVideoDisplayControl::GetRenderingPrefs, evr/IMFVideoDisplayControl::GetRenderingPrefs, mf.imfvideodisplaycontrol_getrenderingprefs
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.GetRenderingPrefs"
+f1_keywords:
+- evr/IMFVideoDisplayControl.GetRenderingPrefs
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetRenderingPrefs
+- IMFVideoDisplayControl.GetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

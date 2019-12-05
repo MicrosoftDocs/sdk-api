@@ -1,19 +1,17 @@
 ---
 UID: NE:qos2._QOS_QUERY_FLOW
 title: QOS_QUERY_FLOW (qos2.h)
-
 description: The QOS_QUERY_FLOW enumeration indicates the type of information a QOSQueryFlow function will request.
 old-location: qos\qos_query_flow.htm
 tech.root: QOS
 ms.assetid: cae09751-0ac8-4fa1-9fdb-d2df3f01e504
-
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_QUERY_FLOW, QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERY_FLOW, QOS_QUERY_FLOW enumeration [QOS], qos.qos_query_flow, qos2/QOSQueryFlowFundamentals, qos2/QOSQueryOutgoingRate, qos2/QOSQueryPacketPriority, qos2/QOS_QUERY_FLOW"
+ms.keywords: '*PQOS_QUERY_FLOW, QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERY_FLOW, QOS_QUERY_FLOW enumeration [QOS], qos.qos_query_flow, qos2/QOSQueryFlowFundamentals, qos2/QOSQueryOutgoingRate, qos2/QOSQueryPacketPriority, qos2/QOS_QUERY_FLOW'
 ms.topic: enum
-f1_keywords: 
- - "qos2/QOS_QUERY_FLOW"
+f1_keywords:
+- qos2/QOS_QUERY_FLOW
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_QUERY_FLOW
+- QOS_QUERY_FLOW
 targetos: Windows
 req.typenames: QOS_QUERY_FLOW, *PQOS_QUERY_FLOW
 req.redist: 

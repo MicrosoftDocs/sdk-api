@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnDeviceServicesContext
 title: IMbnDeviceServicesContext (mbnapi.h)
-
 description: Allows for enumerating and retrieving Mobile Broadband device objects on the system.
 old-location: mbn\imbndeviceservicescontext.htm
 tech.root: mbn
 ms.assetid: 0B97FCCD-0A90-4FA2-9122-B00BD3F1A033
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesContext, IMbnDeviceServicesContext interface [Microsoft Broadband Networks], IMbnDeviceServicesContext interface [Microsoft Broadband Networks],described, mbn.imbndeviceservicescontext, mbnapi/IMbnDeviceServicesContext
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesContext"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesContext
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesContext
+- IMbnDeviceServicesContext
 targetos: Windows
 req.typenames: 
 req.redist: 

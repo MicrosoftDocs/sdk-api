@@ -1,19 +1,17 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityCardioid
 title: SpatialAudioHrtfDirectivityCardioid (spatialaudiohrtf.h)
-
 description: Represents a cardioid-shaped directivity model for an ISpatialAudioObjectForHrtf.
 old-location: coreaudio\spatialaudiohrtfdirectivitycardioid.htm
 tech.root: CoreAudio
 ms.assetid: 71E2E152-14DC-472B-B582-82D4412EAA85
-
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCardioid, PSpatialAudioHrtfDirectivityCardioid structure pointer [Core Audio], SpatialAudioHrtfDirectivityCardioid, SpatialAudioHrtfDirectivityCardioid structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycardioid, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCardioid, spatialaudiohrtf/SpatialAudioHrtfDirectivityCardioid
 ms.topic: struct
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfDirectivityCardioid"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfDirectivityCardioid
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfDirectivityCardioid
+- SpatialAudioHrtfDirectivityCardioid
 targetos: Windows
 req.typenames: SpatialAudioHrtfDirectivityCardioid
 req.redist: 

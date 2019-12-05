@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnumerateInstalledServices
 title: BluetoothEnumerateInstalledServices function (bluetoothapis.h)
-
 description: The BluetoothEnumerateInstalledServices function enumerates the services GUIDs (Globally Unique Identifiers) enabled on a Bluetooth device.
 old-location: bluetooth\bluetoothenumerateinstalledservices.htm
 tech.root: bluetooth
 ms.assetid: 6f32c776-3c4d-4b0f-ab81-1e880d979d3b
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothEnumerateInstalledServices, BluetoothEnumerateInstalledServices function [Bluetooth], bluetooth.bluetoothenumerateinstalledservices, bluetoothapis/BluetoothEnumerateInstalledServices
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothEnumerateInstalledServices"
+f1_keywords:
+- bluetoothapis/BluetoothEnumerateInstalledServices
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothEnumerateInstalledServices
+- BluetoothEnumerateInstalledServices
 targetos: Windows
 req.typenames: 
 req.redist: 

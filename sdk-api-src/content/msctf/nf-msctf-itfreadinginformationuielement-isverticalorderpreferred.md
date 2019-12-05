@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.IsVerticalOrderPreferred
 title: ITfReadingInformationUIElement::IsVerticalOrderPreferred (msctf.h)
-
 description: This method returns if the UI prefers to be shown in vertical order.
 old-location: tsf\itfreadinginformationuielement_isverticalorderpreferred.htm
 tech.root: TSF
 ms.assetid: a45d8928-5cfd-4af9-ba3b-7171e48d81c8
-
 ms.date: 12/05/2018
 ms.keywords: ITfReadingInformationUIElement interface [Text Services Framework],IsVerticalOrderPreferred method, ITfReadingInformationUIElement.IsVerticalOrderPreferred, ITfReadingInformationUIElement::IsVerticalOrderPreferred, IsVerticalOrderPreferred, IsVerticalOrderPreferred method [Text Services Framework], IsVerticalOrderPreferred method [Text Services Framework],ITfReadingInformationUIElement interface, msctf/ITfReadingInformationUIElement::IsVerticalOrderPreferred, tsf.iitfreadinginformationuielement_isverticalorderpreferred, tsf.itfreadinginformationuielement_isverticalorderpreferred
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReadingInformationUIElement.IsVerticalOrderPreferred"
+f1_keywords:
+- msctf/ITfReadingInformationUIElement.IsVerticalOrderPreferred
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfReadingInformationUIElement.IsVerticalOrderPreferred
+- ITfReadingInformationUIElement.IsVerticalOrderPreferred
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

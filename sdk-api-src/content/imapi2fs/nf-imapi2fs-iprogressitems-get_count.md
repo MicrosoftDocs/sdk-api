@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IProgressItems.get_Count
 title: IProgressItems::get_Count (imapi2fs.h)
-
 description: Retrieves the number of progress items in the collection.
 old-location: imapi\iprogressitems_get_count.htm
 tech.root: imapi
 ms.assetid: 370386fe-17b0-4cf3-9c28-880a85456e19
-
 ms.date: 12/05/2018
 ms.keywords: IProgressItems interface [IMAPI],get_Count method, IProgressItems.get_Count, IProgressItems::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IProgressItems interface, imapi.iprogressitems_get_count, imapi2fs/IProgressItems::get_Count
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IProgressItems.get_Count"
+f1_keywords:
+- imapi2fs/IProgressItems.get_Count
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IProgressItems.get_Count
+- IProgressItems.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

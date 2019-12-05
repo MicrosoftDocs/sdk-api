@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoFreeUnusedLibraries
 title: CoFreeUnusedLibraries function (combaseapi.h)
-
 description: Unloads any DLLs that are no longer in use, probably because the DLL no longer has any instantiated COM objects outstanding.
 old-location: com\cofreeunusedlibraries.htm
 tech.root: com
 ms.assetid: 188e9a3b-39cc-454e-af65-4ac797e275d4
-
 ms.date: 12/05/2018
 ms.keywords: CoFreeUnusedLibraries, CoFreeUnusedLibraries function [COM], _com_CoFreeUnusedLibraries, com.cofreeunusedlibraries, combaseapi/CoFreeUnusedLibraries
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoFreeUnusedLibraries"
+f1_keywords:
+- combaseapi/CoFreeUnusedLibraries
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoFreeUnusedLibraries
+- CoFreeUnusedLibraries
 targetos: Windows
 req.typenames: 
 req.redist: 

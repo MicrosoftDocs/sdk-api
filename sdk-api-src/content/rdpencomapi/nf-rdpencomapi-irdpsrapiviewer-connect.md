@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.Connect
 title: IRDPSRAPIViewer::Connect (rdpencomapi.h)
-
 description: Starts the actual connection to the sharer.
 old-location: rdp\irdpsrapiviewer_connect.htm
 tech.root: rdp
 ms.assetid: f3deec96-af56-4ebe-a5c3-25a4c7be14c0
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [RDP], Connect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Connect method, IRDPSRAPIViewer.Connect, IRDPSRAPIViewer::Connect, rdp.irdpsrapiviewer_connect, rdpencomapi/IRDPSRAPIViewer::Connect
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIViewer.Connect"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIViewer.Connect
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.Connect
+- IRDPSRAPIViewer.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

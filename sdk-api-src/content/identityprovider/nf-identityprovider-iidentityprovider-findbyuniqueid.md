@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.FindByUniqueID
 title: IIdentityProvider::FindByUniqueID (identityprovider.h)
-
 description: Retrieves a pointer to the IPropertyStore interface instance associated with the specified identity.
 old-location: security\iidentityprovider_findbyuniqueid.htm
 tech.root: SecAuthN
 ms.assetid: 26a0e247-0387-4455-9510-bd0e6adc0213
-
 ms.date: 12/05/2018
 ms.keywords: FindByUniqueID, FindByUniqueID method [Security], FindByUniqueID method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],FindByUniqueID method, IIdentityProvider.FindByUniqueID, IIdentityProvider::FindByUniqueID, identityprovider/IIdentityProvider::FindByUniqueID, security.iidentityprovider_findbyuniqueid
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityProvider.FindByUniqueID"
+f1_keywords:
+- identityprovider/IIdentityProvider.FindByUniqueID
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider.FindByUniqueID
+- IIdentityProvider.FindByUniqueID
 targetos: Windows
 req.typenames: 
 req.redist: 

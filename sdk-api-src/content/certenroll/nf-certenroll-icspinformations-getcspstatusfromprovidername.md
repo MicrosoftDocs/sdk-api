@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformations.GetCspStatusFromProviderName
 title: ICspInformations::GetCspStatusFromProviderName (certenroll.h)
-
 description: Retrieves an ICspStatus object for a legacy provider by provider name and supported key operations.
 old-location: security\icspinformations_getcspstatusfromprovidername_method.htm
 tech.root: seccertenroll
 ms.assetid: f73d40cb-dde3-46a5-ba9f-f7cbfa2efe70
-
 ms.date: 12/05/2018
 ms.keywords: GetCspStatusFromProviderName, GetCspStatusFromProviderName method [Security], GetCspStatusFromProviderName method [Security],ICspInformations interface, ICspInformations interface [Security],GetCspStatusFromProviderName method, ICspInformations.GetCspStatusFromProviderName, ICspInformations::GetCspStatusFromProviderName, certenroll/ICspInformations::GetCspStatusFromProviderName, security.icspinformations_getcspstatusfromprovidername_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformations.GetCspStatusFromProviderName"
+f1_keywords:
+- certenroll/ICspInformations.GetCspStatusFromProviderName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformations.GetCspStatusFromProviderName
+- ICspInformations.GetCspStatusFromProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 

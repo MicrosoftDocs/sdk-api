@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DISK_CACHE_INFORMATION
 title: DISK_CACHE_INFORMATION
-
 description: Provides information about the disk cache.
 old-location: fs\disk_cache_information_str.htm
 tech.root: FileIO
 ms.assetid: ea175bea-5f2b-4f3e-9fe0-239b1d2e3d96
-
 ms.date: 12/05/2018
-ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Files], EqualPriority, KeepPrefetchedData, KeepReadData, PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Files], base.disk_cache_information_str, fs.disk_cache_information_str, winioctl/DISK_CACHE_INFORMATION, winioctl/PDISK_CACHE_INFORMATION"
+ms.keywords: '*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Files], EqualPriority, KeepPrefetchedData, KeepReadData, PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Files], base.disk_cache_information_str, fs.disk_cache_information_str, winioctl/DISK_CACHE_INFORMATION, winioctl/PDISK_CACHE_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DISK_CACHE_INFORMATION"
+f1_keywords:
+- winioctl/DISK_CACHE_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DISK_CACHE_INFORMATION
+- DISK_CACHE_INFORMATION
 targetos: Windows
 req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 req.redist: 

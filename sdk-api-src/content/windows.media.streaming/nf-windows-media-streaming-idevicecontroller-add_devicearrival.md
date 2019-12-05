@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.add_DeviceArrival
 title: IDeviceController::streaming (windows.media.streaming.h)
-
 description: Registers an event handler for the DeviceArrival event.
 old-location: mediastreaming\idevicecontroller_add_devicearrival.htm
 tech.root: mediastreaming
 ms.assetid: 968A30D5-42ED-472B-9436-EBC77A3F76C9
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceController interface [Media Streaming API],add_DeviceArrival method, IDeviceController.add_DeviceArrival, IDeviceController.streaming, IDeviceController::add_DeviceArrival, IDeviceController::streaming, add_DeviceArrival, add_DeviceArrival method [Media Streaming API], add_DeviceArrival method [Media Streaming API],IDeviceController interface, mediastreaming.idevicecontroller_add_devicearrival, windows/IDeviceController::add_DeviceArrival
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IDeviceController.add_DeviceArrival"
+f1_keywords:
+- windows.media.streaming/IDeviceController.add_DeviceArrival
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IDeviceController.add_DeviceArrival
+- IDeviceController.add_DeviceArrival
 targetos: Windows
 req.typenames: 
 req.redist: 

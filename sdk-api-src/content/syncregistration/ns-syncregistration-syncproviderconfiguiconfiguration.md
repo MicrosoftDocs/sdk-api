@@ -1,19 +1,17 @@
 ---
 UID: NS:syncregistration._SyncProviderConfigUIConfiguration
 title: SyncProviderConfigUIConfiguration (syncregistration.h)
-
 description: Represents the information for a synchronization provider configuration UI.
 old-location: winsync\syncproviderconfiguiconfiguration.htm
 tech.root: winsync
 ms.assetid: 4f07719b-c1e5-4985-a952-0ff07601bf1a
-
 ms.date: 12/05/2018
 ms.keywords: SyncProviderConfigUI, SyncProviderConfigUI structure [Windows Sync], SyncProviderConfigUIConfiguration, SyncProviderConfigUIConfiguration structure [Windows Sync], syncregistration/SyncProviderConfigUI, winsync.syncproviderconfiguiconfiguration
 ms.topic: struct
-f1_keywords: 
- - "syncregistration/SyncProviderConfigUI"
+f1_keywords:
+- syncregistration/SyncProviderConfigUI
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - SyncProviderConfigUI
+- SyncProviderConfigUI
 targetos: Windows
 req.typenames: SyncProviderConfigUIConfiguration
 req.redist: 

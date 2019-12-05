@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator.get_OuterFECMethod
 title: IBDA_DigitalDemodulator::get_OuterFECMethod (bdaiface.h)
-
 description: The get_OuterFECMethod method retrieves the outer forward error correction method for the signal .
 old-location: mstv\ibda_digitaldemodulator_get_outerfecmethod.htm
 tech.root: mstv
 ms.assetid: 6fbedcba-4b76-4cf0-8fa1-c71140d49643
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator interface [Microsoft TV Technologies],get_OuterFECMethod method, IBDA_DigitalDemodulator.get_OuterFECMethod, IBDA_DigitalDemodulator::get_OuterFECMethod, IBDA_DigitalDemodulatorget_OuterFECMethod, bdaiface/IBDA_DigitalDemodulator::get_OuterFECMethod, get_OuterFECMethod, get_OuterFECMethod method [Microsoft TV Technologies], get_OuterFECMethod method [Microsoft TV Technologies],IBDA_DigitalDemodulator interface, mstv.ibda_digitaldemodulator_get_outerfecmethod
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator.get_OuterFECMethod"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator.get_OuterFECMethod
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator.get_OuterFECMethod
+- IBDA_DigitalDemodulator.get_OuterFECMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

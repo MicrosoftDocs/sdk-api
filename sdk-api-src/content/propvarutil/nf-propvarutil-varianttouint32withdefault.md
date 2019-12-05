@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToUInt32WithDefault
 title: VariantToUInt32WithDefault function (propvarutil.h)
-
 description: Extracts an unsigned Int32 property value of a variant structure. If no value currently exists, then the specified default value is returned.
 old-location: properties\VariantToUInt32WithDefault.htm
 tech.root: properties
 ms.assetid: 02ec869b-154e-436a-a9b7-57eff4e958aa
-
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt32WithDefault, VariantToUInt32WithDefault function [Windows Properties], _shell_VariantToUInt32WithDefault, properties.VariantToUInt32WithDefault, propvarutil/VariantToUInt32WithDefault, shell.VariantToUInt32WithDefault
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToUInt32WithDefault"
+f1_keywords:
+- propvarutil/VariantToUInt32WithDefault
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToUInt32WithDefault
+- VariantToUInt32WithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

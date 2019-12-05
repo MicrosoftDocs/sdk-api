@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.ConvertNextToCurrent
 title: ICAT::ConvertNextToCurrent (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: bdd8f7a6-0c77-4058-bcca-9d712da781e0
-
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],ConvertNextToCurrent method, ICAT.ConvertNextToCurrent, ICAT::ConvertNextToCurrent, ICATConvertNextToCurrent, mpeg2psiparser/ICAT::ConvertNextToCurrent, mstv.icat_convertnexttocurrent
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ICAT.ConvertNextToCurrent"
+f1_keywords:
+- mpeg2psiparser/ICAT.ConvertNextToCurrent
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mpeg2psiparser.h
+- mpeg2psiparser.h
 api_name:
- - ICAT.ConvertNextToCurrent
+- ICAT.ConvertNextToCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

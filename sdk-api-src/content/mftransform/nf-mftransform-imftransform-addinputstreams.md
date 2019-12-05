@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.AddInputStreams
 title: IMFTransform::AddInputStreams (mftransform.h)
-
 description: Adds one or more new input streams to this Media Foundation transform (MFT).
 old-location: mf\imftransform_addinputstreams.htm
 tech.root: medfound
 ms.assetid: 311ab66e-5dbd-452a-bad4-99a6293cbc60
-
 ms.date: 12/05/2018
 ms.keywords: 311ab66e-5dbd-452a-bad4-99a6293cbc60, AddInputStreams, AddInputStreams method [Media Foundation], AddInputStreams method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],AddInputStreams method, IMFTransform.AddInputStreams, IMFTransform::AddInputStreams, mf.imftransform_addinputstreams, mftransform/IMFTransform::AddInputStreams
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.AddInputStreams"
+f1_keywords:
+- mftransform/IMFTransform.AddInputStreams
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.AddInputStreams
+- IMFTransform.AddInputStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteFont
 title: IDWriteFont (dwrite.h)
-
 description: Represents a physical font in a font collection. This interface is used to create font faces from physical fonts, or to retrieve information such as font face metrics or face names from existing font faces.
 old-location: directwrite\IDWriteFont.htm
 tech.root: DirectWrite
 ms.assetid: e29e626f-3e63-4c27-934b-64be51dcf3db
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFont, IDWriteFont interface [Direct Write], IDWriteFont interface [Direct Write],described, directwrite.IDWriteFont, dwrite/IDWriteFont
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteFont"
+f1_keywords:
+- dwrite/IDWriteFont
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont
+- IDWriteFont
 targetos: Windows
 req.typenames: 
 req.redist: 

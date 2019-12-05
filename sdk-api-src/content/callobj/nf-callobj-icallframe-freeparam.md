@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.FreeParam
 title: ICallFrame::FreeParam (callobj.h)
-
 description: Frees the specified parameter in the frame.
 old-location: com\icallframe_freeparam.htm
 tech.root: com
 ms.assetid: b141bfc4-de1b-4251-b88f-551d0805e9b6
-
 ms.date: 12/05/2018
 ms.keywords: FreeParam, FreeParam method [COM], FreeParam method [COM],ICallFrame interface, ICallFrame interface [COM],FreeParam method, ICallFrame.FreeParam, ICallFrame::FreeParam, _com_icallframe_freeparam, callobj/ICallFrame::FreeParam, com.icallframe_freeparam
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.FreeParam"
+f1_keywords:
+- callobj/ICallFrame.FreeParam
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.FreeParam
+- ICallFrame.FreeParam
 targetos: Windows
 req.typenames: 
 req.redist: 

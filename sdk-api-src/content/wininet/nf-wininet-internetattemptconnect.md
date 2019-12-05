@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetAttemptConnect
 title: InternetAttemptConnect function (wininet.h)
-
 description: Attempts to make a connection to the Internet.
 old-location: wininet\internetattemptconnect.htm
 tech.root: wininet
 ms.assetid: a6f22704-f7ca-4c4d-91c3-304b592db6ca
-
 ms.date: 12/05/2018
 ms.keywords: InternetAttemptConnect, InternetAttemptConnect function [WinINet], _inet_internetattemptconnect_function, wininet.internetattemptconnect, wininet/InternetAttemptConnect
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetAttemptConnect"
+f1_keywords:
+- wininet/InternetAttemptConnect
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetAttemptConnect
+- InternetAttemptConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

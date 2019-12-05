@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhReassociation.PerformReassociation
 title: IFhReassociation::PerformReassociation (fhcfg.h)
-
 description: This method re-establishes relationship between the current user and the configuration selected previously via the IFhReassociation::SelectConfiguration method and prepares the target device for accepting backup data from the current computer.
 old-location: winprog\ifhreassociation_performreassociation.htm
 tech.root: DevNotes
 ms.assetid: 2E80F25E-2DB6-4522-8F3C-7E6359104CCA
-
 ms.date: 12/05/2018
 ms.keywords: FhReassociation class [Windows API],PerformReassociation method, IFhReassociation interface [Windows API],PerformReassociation method, IFhReassociation.PerformReassociation, IFhReassociation::PerformReassociation, PerformReassociation, PerformReassociation method [Windows API], PerformReassociation method [Windows API],FhReassociation class, PerformReassociation method [Windows API],IFhReassociation interface, fhcfg/IFhReassociation::PerformReassociation, winprog.ifhreassociation_performreassociation
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhReassociation.PerformReassociation"
+f1_keywords:
+- fhcfg/IFhReassociation.PerformReassociation
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhReassociation.PerformReassociation
- - FhReassociation.PerformReassociation
+- IFhReassociation.PerformReassociation
+- FhReassociation.PerformReassociation
 targetos: Windows
 req.typenames: 
 req.redist: 

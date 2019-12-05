@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetComponentPathExA
 title: MsiGetComponentPathExA function (msi.h)
-
 description: Returns the full path to an installed component.
 old-location: setup\msigetcomponentpathex.htm
 tech.root: Msi
 ms.assetid: 7501df09-170d-4f23-9404-d86e861ac7da
-
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiGetComponentPathEx, MsiGetComponentPathEx function [Setup API], MsiGetComponentPathExA, MsiGetComponentPathExW, NULL, User SID, msi/MsiGetComponentPathEx, msi/MsiGetComponentPathExA, msi/MsiGetComponentPathExW, s-1-1-0, setup.msigetcomponentpathex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetComponentPathEx"
+f1_keywords:
+- msi/MsiGetComponentPathEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetComponentPathEx
- - MsiGetComponentPathExA
- - MsiGetComponentPathExW
+- MsiGetComponentPathEx
+- MsiGetComponentPathExA
+- MsiGetComponentPathExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpReadData
 title: WinHttpReadData function (winhttp.h)
-
 description: The WinHttpReadData function reads data from a handle opened by the WinHttpOpenRequest function.
 old-location: http\winhttpreaddata.htm
 tech.root: WinHttp
 ms.assetid: 06340601-9b2d-487a-a82a-aa2175a52dc5
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpReadData, WinHttpReadData function [WinHTTP], http.winhttpreaddata, winhttp.winhttpreaddata_function, winhttp/WinHttpReadData
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpReadData"
+f1_keywords:
+- winhttp/WinHttpReadData
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpReadData
+- WinHttpReadData
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

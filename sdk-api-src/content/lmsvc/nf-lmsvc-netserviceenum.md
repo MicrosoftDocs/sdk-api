@@ -1,19 +1,17 @@
 ---
 UID: NF:lmsvc.NetServiceEnum
 title: NetServiceEnum function (lmsvc.h)
-
 description: The NetServiceEnum function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
 old-location: netmgmt\netserviceenum.htm
 tech.root: NetMgmt
 ms.assetid: 24e0872b-c408-4be4-a01d-4a1caa71f9b3
-
 ms.date: 12/05/2018
 ms.keywords: NetServiceEnum, NetServiceEnum function [Network Management], _win32_netserviceenum, lmsvc/NetServiceEnum, netmgmt.netserviceenum
 ms.topic: function
-f1_keywords: 
- - "lmsvc/NetServiceEnum"
+f1_keywords:
+- lmsvc/NetServiceEnum
 dev_langs:
- - c++
+- c++
 req.header: lmsvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmsvc.h
+- lmsvc.h
 api_name:
- - NetServiceEnum
+- NetServiceEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

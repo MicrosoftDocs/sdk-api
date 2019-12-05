@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CreateClusterResourceType
 title: CreateClusterResourceType function (clusapi.h)
-
 description: Creates a resource type in a cluster.
 old-location: mscs\createclusterresourcetype.htm
 tech.root: MsCS
 ms.assetid: 19b8e8cf-898c-4df5-959c-e3789b082a76
-
 ms.date: 12/05/2018
 ms.keywords: CreateClusterResourceType, CreateClusterResourceType function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE function [Failover Cluster], _wolf_createclusterresourcetype, clusapi/CreateClusterResourceType, clusapi/PCLUSAPI_CREATE_CLUSTER_RESOURCE_TYPE, mscs.createclusterresourcetype
 ms.topic: function
-f1_keywords: 
- - "clusapi/CreateClusterResourceType"
+f1_keywords:
+- clusapi/CreateClusterResourceType
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - CreateClusterResourceType
+- CreateClusterResourceType
 targetos: Windows
 req.typenames: 
 req.redist: 

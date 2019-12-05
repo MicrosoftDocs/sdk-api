@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerIdentityDelete
 title: PeerIdentityDelete function (p2p.h)
-
 description: The PeerIdentityDelete function permanently deletes a peer identity. This includes removing all certificates, private keys, and all group information associated with a specified peer identity.
 old-location: p2p\peeridentitydelete.htm
 tech.root: P2PSdk
 ms.assetid: 9738f6b1-cd88-4950-bab1-f97613a49e03
-
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityDelete, PeerIdentityDelete function [Peer Networking], p2p.peeridentitydelete, p2p/PeerIdentityDelete
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerIdentityDelete"
+f1_keywords:
+- p2p/PeerIdentityDelete
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerIdentityDelete
+- PeerIdentityDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

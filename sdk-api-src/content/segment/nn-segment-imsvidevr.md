@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidEVR
 title: IMSVidEVR (segment.h)
-
 description: The IMSVidEVR interface represents the Enhanced Video Renderer (EVR) filter within the Video Control filter graph.
 old-location: mstv\imsvidevr.htm
 tech.root: mstv
 ms.assetid: 437f515b-0353-4ff2-b8c2-5dd27d4e12f7
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVR, IMSVidEVR interface [Microsoft TV Technologies], IMSVidEVR interface [Microsoft TV Technologies],described, IMSVidEVRInterface, mstv.imsvidevr, segment/IMSVidEVR
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidEVR"
+f1_keywords:
+- segment/IMSVidEVR
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidEVR
+- IMSVidEVR
 targetos: Windows
 req.typenames: 
 req.redist: 

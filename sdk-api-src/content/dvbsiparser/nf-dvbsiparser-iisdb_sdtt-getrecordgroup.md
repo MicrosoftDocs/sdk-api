@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordGroup
 title: IISDB_SDTT::GetRecordGroup (dvbsiparser.h)
-
 description: Receives the recording download level from a record in an Integrated services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordgroup.htm
 tech.root: mstv
 ms.assetid: 6798e477-754d-49a3-84f1-04d1a60094a7
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordGroup, GetRecordGroup method [Microsoft TV Technologies], GetRecordGroup method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordGroup method, IISDB_SDTT.GetRecordGroup, IISDB_SDTT::GetRecordGroup, dvbsiparser/IISDB_SDTT::GetRecordGroup, mstv.iisdb_sdtt_getrecordgroup
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_SDTT.GetRecordGroup"
+f1_keywords:
+- dvbsiparser/IISDB_SDTT.GetRecordGroup
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_SDTT.GetRecordGroup
+- IISDB_SDTT.GetRecordGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

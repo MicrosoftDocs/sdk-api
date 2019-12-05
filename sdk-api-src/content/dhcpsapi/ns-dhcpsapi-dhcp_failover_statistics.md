@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_STATISTICS
 title: DHCP_FAILOVER_STATISTICS (dhcpsapi.h)
-
 description: The DHCP_FAILOVER_STATISTICS structure defines DHCP server scope statistics that are part of a failover relationship.
 old-location: dhcp\dhcp_failover_statistics.htm
 tech.root: DHCP
 ms.assetid: a06d873c-fc82-40c1-be3e-45f24328897d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS structure [DHCP], LPDHCP_FAILOVER_STATISTICS, LPDHCP_FAILOVER_STATISTICS structure pointer [DHCP], dhcp.dhcp_failover_statistics, dhcpsapi/DHCP_FAILOVER_STATISTICS, dhcpsapi/LPDHCP_FAILOVER_STATISTICS"
+ms.keywords: '*LPDHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS, DHCP_FAILOVER_STATISTICS structure [DHCP], LPDHCP_FAILOVER_STATISTICS, LPDHCP_FAILOVER_STATISTICS structure pointer [DHCP], dhcp.dhcp_failover_statistics, dhcpsapi/DHCP_FAILOVER_STATISTICS, dhcpsapi/LPDHCP_FAILOVER_STATISTICS'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_FAILOVER_STATISTICS"
+f1_keywords:
+- dhcpsapi/DHCP_FAILOVER_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCP_FAILOVER_STATISTICS
+- DHCP_FAILOVER_STATISTICS
 targetos: Windows
 req.typenames: DHCP_FAILOVER_STATISTICS, *LPDHCP_FAILOVER_STATISTICS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:http._HTTP_AUTH_STATUS
 title: HTTP_AUTH_STATUS (http.h)
-
 description: Defines the authentication state of a request.
 old-location: http\http_auth_status.htm
 tech.root: http
 ms.assetid: 1290fbbe-6c8e-40dc-b47c-32976d85afca
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_AUTH_STATUS, *PHTTP_AUTH_STATUS enumeration [HTTP], HTTP_AUTH_STATUS, HTTP_AUTH_STATUS enumeration [HTTP], HttpAuthStatusFailure, HttpAuthStatusNotAuthenticated, HttpAuthStatusSuccess, http.http_auth_status, http/*PHTTP_AUTH_STATUS, http/HTTP_AUTH_STATUS, http/HttpAuthStatusFailure, http/HttpAuthStatusNotAuthenticated, http/HttpAuthStatusSuccess'
 ms.topic: enum
 f1_keywords:
 - http/HTTP_AUTH_STATUS
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

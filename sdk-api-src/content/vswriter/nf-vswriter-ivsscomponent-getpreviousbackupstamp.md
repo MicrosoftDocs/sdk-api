@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetPreviousBackupStamp
 title: IVssComponent::GetPreviousBackupStamp (vswriter.h)
-
 description: The GetPreviousBackupStamp method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.
 old-location: base\ivsscomponent_getpreviousbackupstamp.htm
 tech.root: VSS
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291
-
 ms.date: 12/05/2018
 ms.keywords: GetPreviousBackupStamp, GetPreviousBackupStamp method [VSS], GetPreviousBackupStamp method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetPreviousBackupStamp method, IVssComponent.GetPreviousBackupStamp, IVssComponent::GetPreviousBackupStamp, _win32_ivsscomponent_getpreviousbackupstamp, base.ivsscomponent_getpreviousbackupstamp, vswriter/IVssComponent::GetPreviousBackupStamp
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetPreviousBackupStamp"
+f1_keywords:
+- vswriter/IVssComponent.GetPreviousBackupStamp
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetPreviousBackupStamp
+- IVssComponent.GetPreviousBackupStamp
 targetos: Windows
 req.typenames: 
 req.redist: 

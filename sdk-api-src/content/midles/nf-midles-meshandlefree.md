@@ -1,19 +1,17 @@
 ---
 UID: NF:midles.MesHandleFree
 title: MesHandleFree function (midles.h)
-
 description: The MesHandleFree function frees the memory allocated by the serialization handle.
 old-location: rpc\meshandlefree.htm
 tech.root: Rpc
 ms.assetid: d4a4ac59-56fb-4693-9007-f358105f82f0
-
 ms.date: 12/05/2018
 ms.keywords: MesHandleFree, MesHandleFree function [RPC], _rpc_meshandlefree, midles/MesHandleFree, rpc.meshandlefree
 ms.topic: function
-f1_keywords: 
- - "midles/MesHandleFree"
+f1_keywords:
+- midles/MesHandleFree
 dev_langs:
- - c++
+- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - MesHandleFree
+- MesHandleFree
 targetos: Windows
 req.typenames: 
 req.redist: 

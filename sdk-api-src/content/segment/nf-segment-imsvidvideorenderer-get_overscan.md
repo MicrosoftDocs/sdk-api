@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_OverScan
 title: IMSVidVideoRenderer::get_OverScan (segment.h)
-
 description: The get_OverScan method retrieves the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
 old-location: mstv\imsvidvideorenderer_get_overscan.htm
 tech.root: mstv
 ms.assetid: 2c4946e6-b25c-4e6a-b640-73982c0da871
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_OverScan method, IMSVidVideoRenderer.get_OverScan, IMSVidVideoRenderer::get_OverScan, IMSVidVideoRendererget_OverScan, get_OverScan, get_OverScan method [Microsoft TV Technologies], get_OverScan method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_overscan, segment/IMSVidVideoRenderer::get_OverScan
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_OverScan"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_OverScan
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_OverScan
+- IMSVidVideoRenderer.get_OverScan
 targetos: Windows
 req.typenames: 
 req.redist: 

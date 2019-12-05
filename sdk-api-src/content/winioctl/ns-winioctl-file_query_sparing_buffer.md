@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_QUERY_SPARING_BUFFER
 title: FILE_QUERY_SPARING_BUFFER
-
 description: Contains defect management properties.
 old-location: fs\file_query_sparing_buffer.htm
 tech.root: FileIO
 ms.assetid: 4b9b44ec-9e8e-4ebd-b192-952bbb71005d
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER structure [Files], PFILE_QUERY_SPARING_BUFFER, PFILE_QUERY_SPARING_BUFFER structure pointer [Files], fs.file_query_sparing_buffer, winioctl/FILE_QUERY_SPARING_BUFFER, winioctl/PFILE_QUERY_SPARING_BUFFER"
+ms.keywords: '*PFILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER, FILE_QUERY_SPARING_BUFFER structure [Files], PFILE_QUERY_SPARING_BUFFER, PFILE_QUERY_SPARING_BUFFER structure pointer [Files], fs.file_query_sparing_buffer, winioctl/FILE_QUERY_SPARING_BUFFER, winioctl/PFILE_QUERY_SPARING_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_QUERY_SPARING_BUFFER"
+f1_keywords:
+- winioctl/FILE_QUERY_SPARING_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_QUERY_SPARING_BUFFER
+- FILE_QUERY_SPARING_BUFFER
 targetos: Windows
 req.typenames: FILE_QUERY_SPARING_BUFFER, *PFILE_QUERY_SPARING_BUFFER
 req.redist: 

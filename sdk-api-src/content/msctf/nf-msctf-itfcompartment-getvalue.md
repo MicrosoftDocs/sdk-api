@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCompartment.GetValue
 title: ITfCompartment::GetValue (msctf.h)
-
 description: ITfCompartment::GetValue method
 old-location: tsf\itfcompartment_getvalue.htm
 tech.root: TSF
 ms.assetid: 31a9efbd-ebde-4877-a387-ebaccd97d732
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Text Services Framework], GetValue method [Text Services Framework],ITfCompartment interface, ITfCompartment interface [Text Services Framework],GetValue method, ITfCompartment.GetValue, ITfCompartment::GetValue, _tsf_itfcompartment_getvalue_ref, msctf/ITfCompartment::GetValue, tsf.itfcompartment_getvalue
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCompartment.GetValue"
+f1_keywords:
+- msctf/ITfCompartment.GetValue
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCompartment.GetValue
+- ITfCompartment.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

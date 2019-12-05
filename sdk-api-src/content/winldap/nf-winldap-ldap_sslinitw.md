@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_sslinitW
 title: ldap_sslinitW function (winldap.h)
-
 description: Initializes a Secure Sockets Layer (SSL) session with an LDAP server.
 old-location: ldap\ldap_sslinit.htm
 tech.root: ldap
 ms.assetid: 04c13577-9d9f-4305-8aa2-fad81c03290a
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW"
+ms.keywords: _ldap_ldap_sslinit, ldap.ldap__sslinit, ldap.ldap_sslinit, ldap_sslinit, ldap_sslinit function [LDAP], ldap_sslinitA, ldap_sslinitW, winldap/ldap_sslinit, winldap/ldap_sslinitA, winldap/ldap_sslinitW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_sslinit"
+f1_keywords:
+- winldap/ldap_sslinit
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_sslinit
- - ldap_sslinitA
- - ldap_sslinitW
+- ldap_sslinit
+- ldap_sslinitA
+- ldap_sslinitW
 targetos: Windows
 req.typenames: 
 req.redist: 

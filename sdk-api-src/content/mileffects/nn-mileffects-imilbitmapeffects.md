@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffects
 title: IMILBitmapEffects (mileffects.h)
-
 description: Exposes methods that define an enumeration of effects.
 old-location: wibe\_wibe_imilbitmapeffects.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\imilbitmapeffects.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffects, IMILBitmapEffects interface [WPF Bitmap Effects], IMILBitmapEffects interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffects, mileffects/IMILBitmapEffects, wibe._wibe_imilbitmapeffects
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffects"
+f1_keywords:
+- mileffects/IMILBitmapEffects
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffects
+- IMILBitmapEffects
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

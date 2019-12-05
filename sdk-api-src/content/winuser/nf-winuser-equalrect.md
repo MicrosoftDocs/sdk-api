@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EqualRect
 title: EqualRect function (winuser.h)
-
 description: The EqualRect function determines whether the two specified rectangles are equal by comparing the coordinates of their upper-left and lower-right corners.
 old-location: gdi\equalrect.htm
 tech.root: gdi
 ms.assetid: 00763184-6b60-4095-b71e-5a851c2643aa
-
 ms.date: 12/05/2018
 ms.keywords: EqualRect, EqualRect function [Windows GDI], _win32_EqualRect, gdi.equalrect, winuser/EqualRect
 ms.topic: function
-f1_keywords: 
- - "winuser/EqualRect"
+f1_keywords:
+- winuser/EqualRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - EqualRect
+- EqualRect
 targetos: Windows
 req.typenames: 
 req.redist: 

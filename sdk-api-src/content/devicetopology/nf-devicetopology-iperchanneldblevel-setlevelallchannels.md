@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevelAllChannels
 title: IPerChannelDbLevel::SetLevelAllChannels (devicetopology.h)
-
 description: The SetLevelAllChannels method sets the volume levels, in decibels, of all the channels in the audio stream.
 old-location: coreaudio\iperchanneldblevel_setlevelallchannels.htm
 tech.root: CoreAudio
 ms.assetid: 92c06b38-954d-4bab-b4ea-0f30e64aa9e4
-
 ms.date: 12/05/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelAllChannels method, IPerChannelDbLevel.SetLevelAllChannels, IPerChannelDbLevel::SetLevelAllChannels, IPerChannelDbLevelSetLevelAllChannels, SetLevelAllChannels, SetLevelAllChannels method [Core Audio], SetLevelAllChannels method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setlevelallchannels, devicetopology/IPerChannelDbLevel::SetLevelAllChannels
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPerChannelDbLevel.SetLevelAllChannels"
+f1_keywords:
+- devicetopology/IPerChannelDbLevel.SetLevelAllChannels
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPerChannelDbLevel.SetLevelAllChannels
+- IPerChannelDbLevel.SetLevelAllChannels
 targetos: Windows
 req.typenames: 
 req.redist: 

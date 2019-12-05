@@ -1,19 +1,17 @@
 ---
 UID: NN:mmdeviceapi.IMMEndpoint
 title: IMMEndpoint (mmdeviceapi.h)
-
 description: The IMMEndpoint interface represents an audio endpoint device.
 old-location: coreaudio\immendpoint.htm
 tech.root: CoreAudio
 ms.assetid: 293de8eb-204a-4c18-807c-b1405db85b12
-
 ms.date: 12/05/2018
 ms.keywords: IMMEndpoint, IMMEndpoint interface [Core Audio], IMMEndpoint interface [Core Audio],described, coreaudio.immendpoint, mmdeviceapi/IMMEndpoint
 ms.topic: interface
-f1_keywords: 
- - "mmdeviceapi/IMMEndpoint"
+f1_keywords:
+- mmdeviceapi/IMMEndpoint
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMEndpoint
+- IMMEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

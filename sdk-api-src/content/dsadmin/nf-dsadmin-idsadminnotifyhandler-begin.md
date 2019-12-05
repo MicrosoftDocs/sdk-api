@@ -1,19 +1,17 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.Begin
 title: IDsAdminNotifyHandler::Begin (dsadmin.h)
-
 description: The IDsAdminNotifyHandler::Begin method is called when an event that the notification handler has requested is occurring. The notification handler specifies the events to receive notifications for when IDsAdminNotifyHandler::Initialize is called.
 old-location: ad\idsadminnotifyhandler_begin.htm
 tech.root: ad
 ms.assetid: 443fe344-6545-45bd-8e2f-85347505d407
-
 ms.date: 12/05/2018
 ms.keywords: Begin, Begin method [Active Directory], Begin method [Active Directory],IDsAdminNotifyHandler interface, DSA_NOTIFY_DEL, DSA_NOTIFY_FLAG_ADDITIONAL_DATA, DSA_NOTIFY_FLAG_FORCE_ADDITIONAL_DATA, DSA_NOTIFY_MOV, DSA_NOTIFY_PROP, DSA_NOTIFY_REN, IDsAdminNotifyHandler interface [Active Directory],Begin method, IDsAdminNotifyHandler.Begin, IDsAdminNotifyHandler::Begin, _glines_idsadminnotifyhandler_begin, ad.idsadminnotifyhandler__begin, ad.idsadminnotifyhandler_begin, dsadmin/IDsAdminNotifyHandler::Begin
 ms.topic: method
-f1_keywords: 
- - "dsadmin/IDsAdminNotifyHandler.Begin"
+f1_keywords:
+- dsadmin/IDsAdminNotifyHandler.Begin
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler.Begin
+- IDsAdminNotifyHandler.Begin
 targetos: Windows
 req.typenames: 
 req.redist: 

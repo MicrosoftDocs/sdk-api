@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMGPO2
 title: IGPMGPO2 (gpmgmt.h)
-
 description: The IGPMGPO2 interface supports methods that enable you to manage Group Policy objects (GPOs) and Starter Group Policy objects in the directory service.
 old-location: gpmc\igpmgpo2.htm
 tech.root: gpmc
 ms.assetid: c5c21ca6-2722-4821-8760-03b6cf2befa7
-
 ms.date: 12/05/2018
 ms.keywords: IGPMGPO2, IGPMGPO2 interface [GPMC], IGPMGPO2 interface [GPMC],described, gpmc.igpmgpo2, gpmgmt/IGPMGPO2
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMGPO2"
+f1_keywords:
+- gpmgmt/IGPMGPO2
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO2
+- IGPMGPO2
 targetos: Windows
 req.typenames: 
 req.redist: 

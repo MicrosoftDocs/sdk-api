@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.CLIPOBJ_bEnum
 title: CLIPOBJ_bEnum function (winddi.h)
-
 description: The CLIPOBJ_bEnum function enumerates a batch of rectangles from a specified clip region; a prior call to CLIPOBJ_cEnumStart determines the order of enumeration.
 old-location: display\clipobj_benum.htm
 tech.root: display
 ms.assetid: d54e6e2a-4869-45d6-9ad1-4e9aca5f5e77
-
 ms.date: 12/05/2018
 ms.keywords: CLIPOBJ_bEnum, CLIPOBJ_bEnum function [Display Devices], display.clipobj_benum, gdifncs_8f383214-6bb4-4099-bdf7-c019a28ef8ac.xml, winddi/CLIPOBJ_bEnum
 ms.topic: function
 f1_keywords:
 - winddi/CLIPOBJ_bEnum
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

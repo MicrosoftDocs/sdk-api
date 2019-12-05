@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection2.GetFontSet
 title: IDWriteFontCollection2::GetFontSet
-
 description: Retrieves the underlying font set used by this collection.
 tech.root: DirectWrite
-
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontSet method, IDWriteFontCollection2.GetFontSet, IDWriteFontCollection2::GetFontSet, GetFontSet, GetFontSet method [Direct Write], GetFontSet method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getfontset, dwrite_3/IDWriteFontCollection2::GetFontSet
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontCollection2.GetFontSet"
+f1_keywords:
+- dwrite_3/IDWriteFontCollection2.GetFontSet
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontCollection2::GetFontSet
+- IDWriteFontCollection2::GetFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 

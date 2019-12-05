@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.IEnumAgent
 title: IEnumAgent (tapi3.h)
-
 description: Enumerator interface for ITAgent.
 old-location: tapi3\ienumagent.htm
 tech.root: Tapi
 ms.assetid: 4c75314c-72f0-4eae-a1f5-36f3959c322a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAgent, IEnumAgent interface [TAPI 2.2], IEnumAgent interface [TAPI 2.2],described, _tapi3_ienumagent, tapi3.ienumagent, tapi3cc/IEnumAgent
 ms.topic: interface
-f1_keywords: 
- - "tapi3/IEnumAgent"
+f1_keywords:
+- tapi3/IEnumAgent
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAgent
+- IEnumAgent
 targetos: Windows
 req.typenames: 
 req.redist: 

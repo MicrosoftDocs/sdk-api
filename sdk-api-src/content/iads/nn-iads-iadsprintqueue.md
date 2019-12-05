@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsPrintQueue
 title: IADsPrintQueue (iads.h)
-
 description: The IADsPrintQueue interface represents a printer on a network.
 old-location: adsi\iadsprintqueue.htm
 tech.root: adsi
 ms.assetid: 2ea956b0-fb8f-4ffb-8741-8d98ad05d783
-
 ms.date: 12/05/2018
 ms.keywords: IADsPrintQueue, IADsPrintQueue interface [ADSI], IADsPrintQueue interface [ADSI],described, _ds_iadsprintqueue, adsi.iadsprintqueue, iads/IADsPrintQueue
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsPrintQueue"
+f1_keywords:
+- iads/IADsPrintQueue
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPrintQueue
+- IADsPrintQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

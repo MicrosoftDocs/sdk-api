@@ -1,19 +1,17 @@
 ---
 UID: NS:mscat.CATALOG_INFO_
 title: CATALOG_INFO (mscat.h)
-
 description: The CATALOG_INFO structure contains the name of a catalog file. This structure is used by the CryptCATCatalogInfoFromContext function.
 old-location: security\catalog_info.htm
 tech.root: SecCrypto
 ms.assetid: f6e66412-3ed2-48d9-a377-5df11500db59
-
 ms.date: 12/05/2018
 ms.keywords: CATALOG_INFO, CATALOG_INFO structure [Security], mscat/CATALOG_INFO, security.catalog_info
 ms.topic: struct
-f1_keywords: 
- - "mscat/CATALOG_INFO"
+f1_keywords:
+- mscat/CATALOG_INFO
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mscat.h
+- Mscat.h
 api_name:
- - CATALOG_INFO
+- CATALOG_INFO
 targetos: Windows
 req.typenames: CATALOG_INFO
 req.redist: 

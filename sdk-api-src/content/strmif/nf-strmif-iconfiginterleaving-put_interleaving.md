@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IConfigInterleaving.put_Interleaving
 title: IConfigInterleaving::put_Interleaving (strmif.h)
-
 description: The put_Interleaving method sets the audio preroll time and the frequency of interleaving for an AVI file.
 old-location: dshow\iconfiginterleaving_put_interleaving.htm
 tech.root: DirectShow
 ms.assetid: 4b1363c4-9cdd-4b28-a5ea-e5e554597be2
-
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],put_Interleaving method, IConfigInterleaving.put_Interleaving, IConfigInterleaving::put_Interleaving, IConfigInterleavingput_Interleaving, dshow.iconfiginterleaving_put_interleaving, put_Interleaving, put_Interleaving method [DirectShow], put_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::put_Interleaving
 ms.topic: method
-f1_keywords: 
- - "strmif/IConfigInterleaving.put_Interleaving"
+f1_keywords:
+- strmif/IConfigInterleaving.put_Interleaving
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IConfigInterleaving.put_Interleaving
+- IConfigInterleaving.put_Interleaving
 targetos: Windows
 req.typenames: 
 req.redist: 

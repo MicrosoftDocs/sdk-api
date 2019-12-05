@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0077_0001
 title: ADS_OPTION_ENUM (iads.h)
-
 description: Contains values that indicate the options that can be retrieved or set with the IADsObjectOptions.GetOption and IADsObjectOptions.SetOption methods.
 old-location: adsi\ads_option_enum.htm
 tech.root: adsi
 ms.assetid: afb32e03-7e4e-4df9-87c7-db962d62e5f0
-
 ms.date: 12/05/2018
 ms.keywords: ADS_OPTION_ACCUMULATIVE_MODIFICATION, ADS_OPTION_ENUM, ADS_OPTION_ENUM enumeration [ADSI], ADS_OPTION_MUTUAL_AUTH_STATUS, ADS_OPTION_PAGE_SIZE, ADS_OPTION_PASSWORD_METHOD, ADS_OPTION_PASSWORD_PORTNUMBER, ADS_OPTION_QUOTA, ADS_OPTION_REFERRALS, ADS_OPTION_SECURITY_MASK, ADS_OPTION_SERVERNAME, ADS_OPTION_SKIP_SID_LOOKUP, _ds_ads_option_enum, adsi.ads__option__enum, adsi.ads_option_enum, iads/ADS_OPTION_ACCUMULATIVE_MODIFICATION, iads/ADS_OPTION_ENUM, iads/ADS_OPTION_MUTUAL_AUTH_STATUS, iads/ADS_OPTION_PAGE_SIZE, iads/ADS_OPTION_PASSWORD_METHOD, iads/ADS_OPTION_PASSWORD_PORTNUMBER, iads/ADS_OPTION_QUOTA, iads/ADS_OPTION_REFERRALS, iads/ADS_OPTION_SECURITY_MASK, iads/ADS_OPTION_SERVERNAME, iads/ADS_OPTION_SKIP_SID_LOOKUP
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_OPTION_ENUM"
+f1_keywords:
+- iads/ADS_OPTION_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_OPTION_ENUM
+- ADS_OPTION_ENUM
 targetos: Windows
 req.typenames: ADS_OPTION_ENUM
 req.redist: 

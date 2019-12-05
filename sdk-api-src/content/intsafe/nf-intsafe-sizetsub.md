@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.SizeTSub
 title: SizeTSub function (intsafe.h)
-
 description: Subtracts one value of type size_t from another.
 old-location: shell\SizeTSub.htm
 tech.root: shell
 ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c
-
 ms.date: 12/05/2018
 ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsafe/SizeTSub, shell.SizeTSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/SizeTSub"
+f1_keywords:
+- intsafe/SizeTSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - SizeTSub
+- SizeTSub
 targetos: Windows
 req.typenames: 
 req.redist: 

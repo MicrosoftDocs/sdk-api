@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ZoomRelative
 title: ICameraControl::get_ZoomRelative (vidcap.h)
-
 description: The get_ZoomRelative method returns the camera's relative zoom. The relative zoom indicates the direction in which the lens is moving.
 old-location: dshow\icameracontrol_get_zoomrelative.htm
 tech.root: DirectShow
 ms.assetid: c1926541-d7c7-4a16-bbe7-0d93dec89c67
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ZoomRelative method, ICameraControl.get_ZoomRelative, ICameraControl::get_ZoomRelative, ICameraControlget_ZoomRelative, dshow.icameracontrol_get_zoomrelative, get_ZoomRelative, get_ZoomRelative method [DirectShow], get_ZoomRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ZoomRelative
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.get_ZoomRelative"
+f1_keywords:
+- vidcap/ICameraControl.get_ZoomRelative
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.get_ZoomRelative
+- ICameraControl.get_ZoomRelative
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.AM_SEEKING_SeekingCapabilities
 title: AM_SEEKING_SEEKING_CAPABILITIES (strmif.h)
-
 description: Specifies the seeking capabilities of a media stream.
 old-location: dshow\am_seeking_seeking_capabilities.htm
 tech.root: DirectShow
 ms.assetid: 1c7ad11b-2d10-409e-a292-b777566c637d
-
 ms.date: 12/05/2018
 ms.keywords: AM_SEEKING_CanDoSegments, AM_SEEKING_CanGetCurrentPos, AM_SEEKING_CanGetDuration, AM_SEEKING_CanGetStopPos, AM_SEEKING_CanPlayBackwards, AM_SEEKING_CanSeekAbsolute, AM_SEEKING_CanSeekBackwards, AM_SEEKING_CanSeekForwards, AM_SEEKING_SEEKING_CAPABILITIES, AM_SEEKING_SEEKING_CAPABILITIES , AM_SEEKING_SEEKING_CAPABILITIES enumeration [DirectShow], AM_SEEKING_SEEKING_CAPABILITIESEnumeration, AM_SEEKING_Source, dshow.am_seeking_seeking_capabilities, strmif/AM_SEEKING_CanDoSegments, strmif/AM_SEEKING_CanGetCurrentPos, strmif/AM_SEEKING_CanGetDuration, strmif/AM_SEEKING_CanGetStopPos, strmif/AM_SEEKING_CanPlayBackwards, strmif/AM_SEEKING_CanSeekAbsolute, strmif/AM_SEEKING_CanSeekBackwards, strmif/AM_SEEKING_CanSeekForwards, strmif/AM_SEEKING_SEEKING_CAPABILITIES, strmif/AM_SEEKING_Source
 ms.topic: enum
-f1_keywords: 
- - "strmif/AM_SEEKING_SEEKING_CAPABILITIES"
+f1_keywords:
+- strmif/AM_SEEKING_SEEKING_CAPABILITIES
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AM_SEEKING_SEEKING_CAPABILITIES
+- AM_SEEKING_SEEKING_CAPABILITIES
 targetos: Windows
 req.typenames: AM_SEEKING_SEEKING_CAPABILITIES
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1Multithread
 title: ID2D1Multithread (d2d1_1.h)
-
 description: A locking mechanism from a Direct2D factory that Direct2D uses to control exclusive resource access in an app that is uses multiple threads.
 old-location: direct2d\id2d1multithread.htm
 tech.root: Direct2D
 ms.assetid: 885E7580-6BF0-4A44-9493-6D4FFCB5577B
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Multithread, ID2D1Multithread interface [Direct2D], ID2D1Multithread interface [Direct2D],described, d2d1_1/ID2D1Multithread, direct2d.id2d1multithread
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1Multithread"
+f1_keywords:
+- d2d1_1/ID2D1Multithread
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Multithread
+- ID2D1Multithread
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenBase.EnumActions
 title: IFsrmFileScreenBase::EnumActions (fsrmscreen.h)
-
 description: Enumerates all the actions for the file screen object.
 old-location: fsrm\ifsrmfilescreenbase_enumactions.htm
 tech.root: fsrm
 ms.assetid: fbc22338-8271-407a-97c6-4a2329445979
-
 ms.date: 12/05/2018
 ms.keywords: EnumActions, EnumActions method [File Server Resource Manager], EnumActions method [File Server Resource Manager],IFsrmFileScreenBase interface, IFsrmFileScreenBase interface [File Server Resource Manager],EnumActions method, IFsrmFileScreenBase.EnumActions, IFsrmFileScreenBase::EnumActions, fs.ifsrmfilescreenbase_enumactions, fsrm.ifsrmfilescreenbase_enumactions, fsrmscreen/IFsrmFileScreenBase::EnumActions
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenBase.EnumActions"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenBase.EnumActions
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenBase.EnumActions
+- IFsrmFileScreenBase.EnumActions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextChildPattern
 title: IUIAutomationTextChildPattern (uiautomationclient.h)
-
 description: Provides access a text-based control (or an object embedded in text) that is a child or descendant of another text-based control.
 old-location: winauto\uiauto_IUIAutomationTextChildPattern.htm
 tech.root: WinAuto
 ms.assetid: 0669C1F6-8C82-474E-B697-B3C4EA2D60CB
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextChildPattern, IUIAutomationTextChildPattern interface [Windows Accessibility], IUIAutomationTextChildPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextChildPattern, winauto.uiauto_IUIAutomationTextChildPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextChildPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextChildPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTextChildPattern
+- IUIAutomationTextChildPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

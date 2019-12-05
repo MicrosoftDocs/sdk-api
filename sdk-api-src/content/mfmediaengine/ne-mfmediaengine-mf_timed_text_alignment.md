@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_ALIGNMENT
 title: MF_TIMED_TEXT_ALIGNMENT (mfmediaengine.h)
-
 description: Specifies how text is aligned in its parent block element.
 old-location: mf\mf_timed_text_alignment.htm
 tech.root: medfound
 ms.assetid: F94DF6A5-1FF7-48C2-834F-50C90B2D9C33
-
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_ALIGNMENT, MF_TIMED_TEXT_ALIGNMENT enumeration [Media Foundation], MF_TIMED_TEXT_ALIGNMENT_CENTER, MF_TIMED_TEXT_ALIGNMENT_END, MF_TIMED_TEXT_ALIGNMENT_START, mf.mf_timed_text_alignment, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_CENTER, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_END, mfmediaengine/MF_TIMED_TEXT_ALIGNMENT_START
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_TIMED_TEXT_ALIGNMENT"
+f1_keywords:
+- mfmediaengine/MF_TIMED_TEXT_ALIGNMENT
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_TIMED_TEXT_ALIGNMENT
+- MF_TIMED_TEXT_ALIGNMENT
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_ALIGNMENT
 req.redist: 

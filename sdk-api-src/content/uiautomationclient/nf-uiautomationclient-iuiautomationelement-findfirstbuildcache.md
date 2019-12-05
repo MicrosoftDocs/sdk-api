@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindFirstBuildCache
 title: IUIAutomationElement::FindFirstBuildCache (uiautomationclient.h)
-
 description: Retrieves the first child or descendant element that matches the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationElement_FindFirstBuildCache.htm
 tech.root: WinAuto
 ms.assetid: ecb10fbf-ff1d-4bd0-b036-1050560d82fe
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstBuildCache, FindFirstBuildCache method [Windows Accessibility], FindFirstBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindFirstBuildCache method, IUIAutomationElement.FindFirstBuildCache, IUIAutomationElement::FindFirstBuildCache, uiauto.uiauto_IUIAutomationElement_FindFirstBuildCache, uiauto_IUIAutomationElement_FindFirstBuildCache, uiautomationclient/IUIAutomationElement::FindFirstBuildCache, winauto.uiauto_IUIAutomationElement_FindFirstBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.FindFirstBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.FindFirstBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.FindFirstBuildCache
+- IUIAutomationElement.FindFirstBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

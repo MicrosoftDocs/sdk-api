@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Reset
 title: ICertEncodeDateArray::Reset (certenc.h)
-
 description: Specifies the size of DATE array in this object.
 old-location: security\icertencodedatearray_reset.htm
 tech.root: SecCrypto
 ms.assetid: f09087aa-ae10-4a59-9b59-5f8b72254ce6
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],Reset method, ICertEncodeDateArray interface [Security],Reset method, ICertEncodeDateArray.Reset, ICertEncodeDateArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeDateArray object, Reset method [Security],ICertEncodeDateArray interface, _certsrv_icertencodedatearray_reset, certenc/ICertEncodeDateArray::Reset, security.icertencodedatearray_reset
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeDateArray.Reset"
+f1_keywords:
+- certenc/ICertEncodeDateArray.Reset
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeDateArray.Reset
- - CCertEncodeDateArray.Reset
+- ICertEncodeDateArray.Reset
+- CCertEncodeDateArray.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaUsed
 title: IDiskQuotaUser::GetQuotaUsed (dskquota.h)
-
 description: Retrieves the user's quota used value on the volume.
 old-location: fs\idiskquotauser_getquotaused.htm
 tech.root: FileIO
 ms.assetid: 3787648e-7788-4d09-a236-fe28a693a8ff
-
 ms.date: 12/05/2018
 ms.keywords: GetQuotaUsed, GetQuotaUsed method [Files], GetQuotaUsed method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetQuotaUsed method, IDiskQuotaUser.GetQuotaUsed, IDiskQuotaUser::GetQuotaUsed, _win32_idiskquotauser_getquotaused, base.idiskquotauser_getquotaused, dskquota/IDiskQuotaUser::GetQuotaUsed, fs.idiskquotauser_getquotaused
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.GetQuotaUsed"
+f1_keywords:
+- dskquota/IDiskQuotaUser.GetQuotaUsed
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetQuotaUsed
+- IDiskQuotaUser.GetQuotaUsed
 targetos: Windows
 req.typenames: 
 req.redist: 

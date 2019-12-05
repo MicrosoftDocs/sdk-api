@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetBuffer
 title: INSSBuffer::GetBuffer (wmsbuffer.h)
-
 description: The GetBuffer method retrieves the location of the buffer controlled by the buffer object.
 old-location: wmformat\inssbuffer_getbuffer.htm
 tech.root: wmformat
 ms.assetid: 3f9e8408-52ce-48aa-ba85-51bdbbfd8b51
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [windows Media Format], GetBuffer method [windows Media Format],INSSBuffer interface, INSSBuffer interface [windows Media Format],GetBuffer method, INSSBuffer.GetBuffer, INSSBuffer::GetBuffer, INSSBufferGetBuffer, wmformat.inssbuffer_getbuffer, wmsbuffer/INSSBuffer::GetBuffer
 ms.topic: method
-f1_keywords: 
- - "wmsbuffer/INSSBuffer.GetBuffer"
+f1_keywords:
+- wmsbuffer/INSSBuffer.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - INSSBuffer.GetBuffer
+- INSSBuffer.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

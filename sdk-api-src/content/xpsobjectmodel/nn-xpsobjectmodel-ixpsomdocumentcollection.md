@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentCollection
 title: IXpsOMDocumentCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMDocument interface pointers.
 old-location: xps\ixpsomdocumentcollection.htm
 tech.root: printdocs
 ms.assetid: 4f3acae9-10a0-47ff-9170-a40abe230580
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMDocumentCollection, IXpsOMDocumentCollection interface [XPS Documents and Packaging], IXpsOMDocumentCollection interface [XPS Documents and Packaging],described, xps.ixpsomdocumentcollection, xpsobjectmodel/IXpsOMDocumentCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentCollection
+- IXpsOMDocumentCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

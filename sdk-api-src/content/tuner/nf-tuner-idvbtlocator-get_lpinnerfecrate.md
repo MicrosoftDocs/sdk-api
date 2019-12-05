@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_LPInnerFECRate
 title: IDVBTLocator::get_LPInnerFECRate (tuner.h)
-
 description: The get_LPInnerFECRate method retrieves the inner FEC rate of the low-priority stream.
 old-location: mstv\idvbtlocator_get_lpinnerfecrate.htm
 tech.root: mstv
 ms.assetid: eeed8fe6-774d-4375-9b3c-ebe979cd11dd
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFECRate method, IDVBTLocator.get_LPInnerFECRate, IDVBTLocator::get_LPInnerFECRate, IDVBTLocatorget_LPInnerFECRate, get_LPInnerFECRate, get_LPInnerFECRate method [Microsoft TV Technologies], get_LPInnerFECRate method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfecrate, tuner/IDVBTLocator::get_LPInnerFECRate
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.get_LPInnerFECRate"
+f1_keywords:
+- tuner/IDVBTLocator.get_LPInnerFECRate
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.get_LPInnerFECRate
+- IDVBTLocator.get_LPInnerFECRate
 targetos: Windows
 req.typenames: 
 req.redist: 

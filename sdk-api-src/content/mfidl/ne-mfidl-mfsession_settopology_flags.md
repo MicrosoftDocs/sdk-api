@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.MFSESSION_SETTOPOLOGY_FLAGS
 title: MFSESSION_SETTOPOLOGY_FLAGS (mfidl.h)
-
 description: Defines the behavior of the IMFMediaSession::SetTopology method.
 old-location: mf\mfsession_settopology_flags.htm
 tech.root: medfound
 ms.assetid: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e
-
 ms.date: 12/05/2018
 ms.keywords: 2993bdf9-cf28-4e20-9f38-f51fb0f6429e, MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, MFSESSION_SETTOPOLOGY_FLAGS, MFSESSION_SETTOPOLOGY_FLAGS enumeration [Media Foundation], MFSESSION_SETTOPOLOGY_IMMEDIATE, MFSESSION_SETTOPOLOGY_NORESOLUTION, mf.mfsession_settopology_flags, mfidl/MFSESSION_SETTOPOLOGY_CLEAR_CURRENT, mfidl/MFSESSION_SETTOPOLOGY_FLAGS, mfidl/MFSESSION_SETTOPOLOGY_IMMEDIATE, mfidl/MFSESSION_SETTOPOLOGY_NORESOLUTION
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFSESSION_SETTOPOLOGY_FLAGS"
+f1_keywords:
+- mfidl/MFSESSION_SETTOPOLOGY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFSESSION_SETTOPOLOGY_FLAGS
+- MFSESSION_SETTOPOLOGY_FLAGS
 targetos: Windows
 req.typenames: MFSESSION_SETTOPOLOGY_FLAGS
 req.redist: 

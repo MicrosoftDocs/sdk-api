@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrackList.GetTrack
 title: IMFTimedTextTrackList::GetTrack (mfmediaengine.h)
-
 description: Gets a text track in the list from the index of the track.
 old-location: mf\imftimedtexttracklist_gettrack.htm
 tech.root: medfound
 ms.assetid: 5AF4F317-E46D-459A-900B-6D4796CD59A2
-
 ms.date: 12/05/2018
 ms.keywords: GetTrack, GetTrack method [Media Foundation], GetTrack method [Media Foundation],IMFTimedTextTrackList interface, IMFTimedTextTrackList interface [Media Foundation],GetTrack method, IMFTimedTextTrackList.GetTrack, IMFTimedTextTrackList::GetTrack, mf.imftimedtexttracklist_gettrack, mfmediaengine/IMFTimedTextTrackList::GetTrack
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrackList.GetTrack"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrackList.GetTrack
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrackList.GetTrack
+- IMFTimedTextTrackList.GetTrack
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrSyncItems.Clone
 title: IEnumSyncMgrSyncItems::Clone (syncmgr.h)
-
 description: Not used. Clones an IEnumSyncMgrSyncItems object.
 old-location: shell\IEnumSyncMgrSyncItems_Clone.htm
 tech.root: shell
 ms.assetid: bf320918-9f63-494f-88af-a5fab91ef0e3
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumSyncMgrSyncItems interface, IEnumSyncMgrSyncItems interface [Windows Shell],Clone method, IEnumSyncMgrSyncItems.Clone, IEnumSyncMgrSyncItems::Clone, _shell_IEnumSyncMgrSyncItems_Clone, shell.IEnumSyncMgrSyncItems_Clone, syncmgr/IEnumSyncMgrSyncItems::Clone
 ms.topic: method
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrSyncItems.Clone"
+f1_keywords:
+- syncmgr/IEnumSyncMgrSyncItems.Clone
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrSyncItems.Clone
+- IEnumSyncMgrSyncItems.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

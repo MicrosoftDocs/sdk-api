@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWCWizard97Callback.EnableNext
 title: IWCWizard97Callback::EnableNext (cluadmex.h)
-
 description: Enables or disables the Next or Finish button on a Wizard97 wizard page, depending on whether the current page is last.
 old-location: mscs\iwcwizard97callback_enablenext.htm
 tech.root: MsCS
 ms.assetid: aac4dd75-aa98-4db0-8201-33d4c115896b
-
 ms.date: 12/05/2018
 ms.keywords: EnableNext, EnableNext method [Failover Cluster], EnableNext method [Failover Cluster],IWCWizard97Callback interface, IWCWizard97Callback interface [Failover Cluster],EnableNext method, IWCWizard97Callback.EnableNext, IWCWizard97Callback::EnableNext, _wolf_iwcwizard97callback_enablenext, cluadmex/IWCWizard97Callback::EnableNext, mscs.iwcwizard97callback_enablenext
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWCWizard97Callback.EnableNext"
+f1_keywords:
+- cluadmex/IWCWizard97Callback.EnableNext
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWCWizard97Callback.EnableNext
+- IWCWizard97Callback.EnableNext
 targetos: Windows
 req.typenames: 
 req.redist: 

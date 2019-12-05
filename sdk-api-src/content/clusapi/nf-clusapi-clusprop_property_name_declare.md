@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CLUSPROP_PROPERTY_NAME_DECLARE
 title: CLUSPROP_PROPERTY_NAME_DECLARE macro (clusapi.h)
-
 description: Creates a CLUSPROP_PROPERTY_NAME structure with the sz member set to a size determined by the caller.
 old-location: mscs\clusprop_property_name_declare.htm
 tech.root: MsCS
 ms.assetid: 8947baed-3a96-4986-94ea-4b275908acdc
-
 ms.date: 12/05/2018
 ms.keywords: CLUSPROP_PROPERTY_NAME_DECLARE, CLUSPROP_PROPERTY_NAME_DECLARE macro [Failover Cluster], _wolf_clusprop_property_name_declare, clusapi/CLUSPROP_PROPERTY_NAME_DECLARE, mscs.clusprop_property_name_declare
 ms.topic: macro
-f1_keywords: 
- - "clusapi/CLUSPROP_PROPERTY_NAME_DECLARE"
+f1_keywords:
+- clusapi/CLUSPROP_PROPERTY_NAME_DECLARE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_PROPERTY_NAME_DECLARE
+- CLUSPROP_PROPERTY_NAME_DECLARE
 targetos: Windows
 req.typenames: 
 req.redist: 

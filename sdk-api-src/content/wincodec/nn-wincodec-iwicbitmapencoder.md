@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICBitmapEncoder
 title: IWICBitmapEncoder (wincodec.h)
-
 description: Defines methods for setting an encoder's properties such as thumbnails, frames, and palettes.
 old-location: wic\_wic_codec_iwicbitmapencoder.htm
 tech.root: wic
 ms.assetid: fe87c9ae-dedf-4ec2-ac11-0ea5fc6aa3ad
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder, IWICBitmapEncoder interface [Windows Imaging Component], IWICBitmapEncoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapencoder, wic._wic_codec_iwicbitmapencoder, wincodec/IWICBitmapEncoder
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder"
+f1_keywords:
+- wincodec/IWICBitmapEncoder
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wincodec.h
+- wincodec.h
 api_name:
- - IWICBitmapEncoder
+- IWICBitmapEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 

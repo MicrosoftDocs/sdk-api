@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataObject.GetCanonicalFormatEtc
 title: IDataObject::GetCanonicalFormatEtc (objidl.h)
-
 description: Provides a potentially different but logically equivalent FORMATETC structure. You use this method to determine whether two different FORMATETC structures would return the same data, removing the need for duplicate rendering.
 old-location: com\idataobject_getcanonicalformatetc.htm
 tech.root: com
 ms.assetid: 3a5009a0-8d92-483a-b055-8a97f326dccd
-
 ms.date: 12/05/2018
 ms.keywords: GetCanonicalFormatEtc, GetCanonicalFormatEtc method [COM], GetCanonicalFormatEtc method [COM],IDataObject interface, IDataObject interface [COM],GetCanonicalFormatEtc method, IDataObject.GetCanonicalFormatEtc, IDataObject::GetCanonicalFormatEtc, _ole_idataobject_getcanonicalformatetc, com.idataobject_getcanonicalformatetc, objidl/IDataObject::GetCanonicalFormatEtc
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataObject.GetCanonicalFormatEtc"
+f1_keywords:
+- objidl/IDataObject.GetCanonicalFormatEtc
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataObject.GetCanonicalFormatEtc
+- IDataObject.GetCanonicalFormatEtc
 targetos: Windows
 req.typenames: 
 req.redist: 

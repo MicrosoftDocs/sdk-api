@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerEnumIdentities
 title: PeerEnumIdentities function (p2p.h)
-
 description: The PeerEnumIdentities function creates and returns a peer enumeration handle used to enumerate all the peer identities that belong to a specific user.
 old-location: p2p\peerenumidentities.htm
 tech.root: P2PSdk
 ms.assetid: 91f18185-0292-41a3-8aff-8b345cab5e82
-
 ms.date: 12/05/2018
 ms.keywords: PeerEnumIdentities, PeerEnumIdentities function [Peer Networking], p2p.peerenumidentities, p2p/PeerEnumIdentities
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerEnumIdentities"
+f1_keywords:
+- p2p/PeerEnumIdentities
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerEnumIdentities
+- PeerEnumIdentities
 targetos: Windows
 req.typenames: 
 req.redist: 

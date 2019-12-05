@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_17
 title: WS_RECEIVE_OPTION (webservices.h)
-
 description: Specifies whether a message is required when receiving from a channel.
 old-location: wsw\ws_receive_option.htm
 tech.root: wsw
 ms.assetid: a2aefba7-40ff-4399-b13f-f1bad191f366
-
 ms.date: 12/05/2018
 ms.keywords: WS_RECEIVE_OPTION, WS_RECEIVE_OPTION enumeration [Web Services for Windows], WS_RECEIVE_OPTIONAL_MESSAGE, WS_RECEIVE_REQUIRED_MESSAGE, webservices/WS_RECEIVE_OPTION, webservices/WS_RECEIVE_OPTIONAL_MESSAGE, webservices/WS_RECEIVE_REQUIRED_MESSAGE, wsw.ws_receive_option
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_RECEIVE_OPTION"
+f1_keywords:
+- webservices/WS_RECEIVE_OPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_RECEIVE_OPTION
+- WS_RECEIVE_OPTION
 targetos: Windows
 req.typenames: WS_RECEIVE_OPTION
 req.redist: 

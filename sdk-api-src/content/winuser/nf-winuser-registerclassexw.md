@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterClassExW
 title: RegisterClassExW function (winuser.h)
-
 description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.
 old-location: winmsg\registerclassex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclassex.htm
-
 ms.date: 12/05/2018
 ms.keywords: RegisterClassEx, RegisterClassEx function [Windows and Messages], RegisterClassExA, RegisterClassExW, _win32_RegisterClassEx, _win32_registerclassex_cpp, winmsg.registerclassex, winui._win32_registerclassex, winuser/RegisterClassEx, winuser/RegisterClassExA, winuser/RegisterClassExW
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterClassEx"
+f1_keywords:
+- winuser/RegisterClassEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - RegisterClassEx
- - RegisterClassExA
- - RegisterClassExW
+- RegisterClassEx
+- RegisterClassExA
+- RegisterClassExW
 targetos: Windows
 req.typenames: 
 req.redist: 

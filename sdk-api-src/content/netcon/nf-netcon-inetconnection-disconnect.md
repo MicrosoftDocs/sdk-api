@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnection.Disconnect
 title: INetConnection::Disconnect (netcon.h)
-
 description: The Disconnect method disconnects this connection.
 old-location: ics\inetconnection_disconnect.htm
 tech.root: ics
 ms.assetid: 023abd16-7a07-4247-96cc-607a5e313bad
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [ICS/ICF], Disconnect method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],Disconnect method, INetConnection.Disconnect, INetConnection::Disconnect, _ics_inetconnection_disconnect, ics.inetconnection_disconnect, netcon/INetConnection::Disconnect
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnection.Disconnect"
+f1_keywords:
+- netcon/INetConnection.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnection.Disconnect
+- INetConnection.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

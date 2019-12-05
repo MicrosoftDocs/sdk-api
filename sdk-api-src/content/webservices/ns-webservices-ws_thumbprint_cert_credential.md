@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_THUMBPRINT_CERT_CREDENTIAL
 title: WS_THUMBPRINT_CERT_CREDENTIAL (webservices.h)
-
 description: The type for specifying a certificate credential using the certificate's thumbprint, store location and store name. The specified credential is loaded when the containing channel or listener is opened.
 old-location: wsw\ws_thumbprint_cert_credential.htm
 tech.root: wsw
 ms.assetid: b1e7b6a6-1f71-4bcd-9c0e-9a46b963b19b
-
 ms.date: 12/05/2018
 ms.keywords: WS_THUMBPRINT_CERT_CREDENTIAL, WS_THUMBPRINT_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_THUMBPRINT_CERT_CREDENTIAL, wsw.ws_thumbprint_cert_credential
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_THUMBPRINT_CERT_CREDENTIAL"
+f1_keywords:
+- webservices/WS_THUMBPRINT_CERT_CREDENTIAL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_THUMBPRINT_CERT_CREDENTIAL
+- WS_THUMBPRINT_CERT_CREDENTIAL
 targetos: Windows
 req.typenames: WS_THUMBPRINT_CERT_CREDENTIAL
 req.redist: 

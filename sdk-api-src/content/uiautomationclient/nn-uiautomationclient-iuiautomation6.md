@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation6
 title: IUIAutomation6 (uiautomationclient.h)
-
 description: Extends the IUIAutomation5 interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation6.htm
 tech.root: WinAuto
 ms.assetid: FA42D0D0-E6D6-41C6-BCF1-6F9C02D2BE1D
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation6, IUIAutomation6 interface [Windows Accessibility], IUIAutomation6 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation6, winauto.uiauto_IUIAutomation6
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomation6"
+f1_keywords:
+- uiautomationclient/IUIAutomation6
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomation6
+- IUIAutomation6
 targetos: Windows
 req.typenames: 
 req.redist: 

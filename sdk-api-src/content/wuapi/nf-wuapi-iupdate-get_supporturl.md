@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_SupportUrl
 title: IUpdate::get_SupportUrl (wuapi.h)
-
 description: Gets a hyperlink to the language-specific support information for the update.
 old-location: wua\iupdate_supporturl.htm
 tech.root: Wua_Sdk
 ms.assetid: c4734e71-a64d-4231-80ed-1ee2bcc98ce1
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupportUrl property, IUpdate.SupportUrl, IUpdate.get_SupportUrl, IUpdate::SupportUrl, IUpdate::get_SupportUrl, SupportUrl property [Windows Update Agent], SupportUrl property [Windows Update Agent],IUpdate interface, get_SupportUrl, wua.iupdate_supporturl, wuapi/IUpdate::SupportUrl, wuapi/IUpdate::get_SupportUrl
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.SupportUrl"
+f1_keywords:
+- wuapi/IUpdate.SupportUrl
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.SupportUrl
- - IUpdate.get_SupportUrl
+- IUpdate.SupportUrl
+- IUpdate.get_SupportUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

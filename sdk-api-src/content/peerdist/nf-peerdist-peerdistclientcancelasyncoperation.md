@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistClientCancelAsyncOperation
 title: PeerDistClientCancelAsyncOperation function (peerdist.h)
-
 description: PeerDistClientCancelAsyncOperation function cancels asynchronous operation associated with an OVERLAPPED structure and the content handle returned by PeerDistClientOpenContent.
 old-location: p2p\peerdistclientcancelasyncoperation.htm
 tech.root: P2PSdk
 ms.assetid: 51100a8f-6652-46db-820a-8d16456d4c9a
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistClientCancelAsyncOperation, PeerDistClientCancelAsyncOperation function [Peer Networking], p2p.peerdistclientcancelasyncoperation, peerdist/PeerDistClientCancelAsyncOperation
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistClientCancelAsyncOperation"
+f1_keywords:
+- peerdist/PeerDistClientCancelAsyncOperation
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistClientCancelAsyncOperation
+- PeerDistClientCancelAsyncOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapAlloc
 title: HeapAlloc function (heapapi.h)
-
 description: Allocates a block of memory from a heap. The allocated memory is not movable.
 old-location: base\heapalloc.htm
 tech.root: Memory
 ms.assetid: 9a176312-0312-4cc1-baf5-949b346d983e
-
 ms.date: 12/05/2018
 ms.keywords: HEAP_GENERATE_EXCEPTIONS, HEAP_NO_SERIALIZE, HEAP_ZERO_MEMORY, HeapAlloc, HeapAlloc function, _win32_heapalloc, base.heapalloc, heapapi/HeapAlloc, winbase/HeapAlloc
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapAlloc"
+f1_keywords:
+- heapapi/HeapAlloc
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- vertdll.dll
 api_name:
- - HeapAlloc
+- HeapAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

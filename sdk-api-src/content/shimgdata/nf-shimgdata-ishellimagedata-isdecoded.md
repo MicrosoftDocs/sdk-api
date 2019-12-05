@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsDecoded
 title: IShellImageData::IsDecoded (shimgdata.h)
-
 description: Determines whether the image has been decoded by calling IShellImageData::Decode. Many operations return a failure code if the image is not first decoded.
 old-location: shell\IShellImageData_IsDecoded.htm
 tech.root: shell
 ms.assetid: f02dbf35-4dc7-4750-978d-b703338514df
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsDecoded method, IShellImageData.IsDecoded, IShellImageData::IsDecoded, IsDecoded, IsDecoded method [Windows Shell], IsDecoded method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsDecoded, shell.IShellImageData_IsDecoded, shimgdata/IShellImageData::IsDecoded
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.IsDecoded"
+f1_keywords:
+- shimgdata/IShellImageData.IsDecoded
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.IsDecoded
+- IShellImageData.IsDecoded
 targetos: Windows
 req.typenames: 
 req.redist: 

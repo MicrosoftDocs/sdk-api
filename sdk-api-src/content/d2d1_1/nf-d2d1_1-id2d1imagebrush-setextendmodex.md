@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.SetExtendModeX
 title: ID2D1ImageBrush::SetExtendModeX (d2d1_1.h)
-
 description: Sets how the content inside the source rectangle in the image brush will be extended on the x-axis.
 old-location: direct2d\id2d1imagebrush_setextendmodex.htm
 tech.root: Direct2D
 ms.assetid: 8ac7ee07-84da-4f0e-9fa8-2455ee1d5acc
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageBrush interface [Direct2D],SetExtendModeX method, ID2D1ImageBrush.SetExtendModeX, ID2D1ImageBrush::SetExtendModeX, SetExtendModeX, SetExtendModeX method [Direct2D], SetExtendModeX method [Direct2D],ID2D1ImageBrush interface, d2d1_1/ID2D1ImageBrush::SetExtendModeX, direct2d.id2d1imagebrush_setextendmodex
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1ImageBrush.SetExtendModeX"
+f1_keywords:
+- d2d1_1/ID2D1ImageBrush.SetExtendModeX
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1ImageBrush.SetExtendModeX
+- ID2D1ImageBrush.SetExtendModeX
 targetos: Windows
 req.typenames: 
 req.redist: 

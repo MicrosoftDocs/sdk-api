@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IShellFolderBand.SetBandInfoSFB
 title: IShellFolderBand::SetBandInfoSFB (shlobj.h)
-
 description: Uses the information in a BANDINFOSFB structure to set the band information for a IShellFolderBand object.
 old-location: shell\IShellFolderBand_SetBandInfoSFB.htm
 tech.root: shell
 ms.assetid: 6b1a219f-60a3-4073-8293-2e9e1c6459d9
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],SetBandInfoSFB method, IShellFolderBand.SetBandInfoSFB, IShellFolderBand::SetBandInfoSFB, SetBandInfoSFB, SetBandInfoSFB method [Windows Shell], SetBandInfoSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_SetBandInfoSFB, shell.IShellFolderBand_SetBandInfoSFB, shlobj/IShellFolderBand::SetBandInfoSFB
 ms.topic: method
-f1_keywords: 
- - "shlobj/IShellFolderBand.SetBandInfoSFB"
+f1_keywords:
+- shlobj/IShellFolderBand.SetBandInfoSFB
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolderBand.SetBandInfoSFB
+- IShellFolderBand.SetBandInfoSFB
 targetos: Windows
 req.typenames: 
 req.redist: 

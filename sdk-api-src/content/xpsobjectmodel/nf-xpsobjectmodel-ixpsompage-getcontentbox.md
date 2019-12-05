@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetContentBox
 title: IXpsOMPage::GetContentBox (xpsobjectmodel.h)
-
 description: Gets the dimensions of the page's content box.
 old-location: xps\ixpsompage_getcontentbox.htm
 tech.root: printdocs
 ms.assetid: 6402bcd0-84cb-472f-8c3c-1fe34eecc6d2
-
 ms.date: 12/05/2018
 ms.keywords: GetContentBox, GetContentBox method [XPS Documents and Packaging], GetContentBox method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetContentBox method, IXpsOMPage.GetContentBox, IXpsOMPage::GetContentBox, xps.ixpsompage_getcontentbox, xpsobjectmodel/IXpsOMPage::GetContentBox
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetContentBox"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetContentBox
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetContentBox
+- IXpsOMPage.GetContentBox
 targetos: Windows
 req.typenames: 
 req.redist: 

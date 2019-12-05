@@ -6,9 +6,9 @@ ms.date: 6/24/2019
 ms.keywords: interop::IGraphicsCaptureItemInterop
 ms.topic: language-reference
 f1_keywords:
- - interop::IGraphicsCaptureItemInterop
+- interop::IGraphicsCaptureItemInterop
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -24,13 +24,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - windows.h
+- windows.h
 api_name:
- - interop::IGraphicsCaptureItemInterop
+- interop::IGraphicsCaptureItemInterop
 tech.root: winrt
 ---
 

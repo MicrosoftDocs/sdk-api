@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi.tagHistogramHeader
 title: HistogramHeader (mfapi.h)
-
 description: The HistogramHeader structure describes the blob format for MF_CAPTURE_METADATA_HISTOGRAM.
 old-location: stream\histogramheader.htm
 tech.root: stream
 ms.assetid: C41EC25A-98EF-4C35-9E5A-954C80B29DA6
-
 ms.date: 12/05/2018
 ms.keywords: HistogramHeader, HistogramHeader structure [Streaming Media Devices], mfapi/HistogramHeader, stream.histogramheader
 ms.topic: struct
-f1_keywords: 
- - "mfapi/HistogramHeader"
+f1_keywords:
+- mfapi/HistogramHeader
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - HistogramHeader
+- HistogramHeader
 targetos: Windows
 req.typenames: HistogramHeader
 req.redist: 

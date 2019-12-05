@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10misc.D3D10CreateDeviceAndSwapChain
 title: D3D10CreateDeviceAndSwapChain function (d3d10misc.h)
-
 description: Create a Direct3D 10.0 device and a swap chain.
 old-location: direct3d10\d3d10createdeviceandswapchain.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createdeviceandswapchain.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10CreateDeviceAndSwapChain, D3D10CreateDeviceAndSwapChain function [Direct3D 10], d3d10misc/D3D10CreateDeviceAndSwapChain, direct3d10.d3d10createdeviceandswapchain, f04f4a8c-494a-567c-ed62-cfe70d6e9474
 ms.topic: function
-f1_keywords: 
- - "d3d10misc/D3D10CreateDeviceAndSwapChain"
+f1_keywords:
+- d3d10misc/D3D10CreateDeviceAndSwapChain
 dev_langs:
- - c++
+- c++
 req.header: d3d10misc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D10.lib
 req.dll: D3D10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D10.dll
+- D3D10.dll
 api_name:
- - D3D10CreateDeviceAndSwapChain
+- D3D10CreateDeviceAndSwapChain
 targetos: Windows
 req.typenames: 
 req.redist: 

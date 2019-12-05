@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_UNIT_MODE
 title: D2D1_UNIT_MODE (d2d1_1.h)
-
 description: Specifies how units in Direct2D will be interpreted.
 old-location: direct2d\__d2d1_unit_mode.htm
 tech.root: Direct2D
 ms.assetid: 1ba11761-f3e9-4996-8494-384db5bddc99
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_UNIT_MODE, D2D1_UNIT_MODE enumeration [Direct2D], D2D1_UNIT_MODE_DIPS, D2D1_UNIT_MODE_PIXELS, d2d1_1/D2D1_UNIT_MODE, d2d1_1/D2D1_UNIT_MODE_DIPS, d2d1_1/D2D1_UNIT_MODE_PIXELS, direct2d.__d2d1_unit_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_UNIT_MODE"
+f1_keywords:
+- d2d1_1/D2D1_UNIT_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D2d1_1.h
+- D2d1_1.h
 api_name:
- - D2D1_UNIT_MODE
+- D2D1_UNIT_MODE
 targetos: Windows
 req.typenames: D2D1_UNIT_MODE
 req.redist: 

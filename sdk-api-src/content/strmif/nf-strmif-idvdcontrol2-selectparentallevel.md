@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectParentalLevel
 title: IDvdControl2::SelectParentalLevel (strmif.h)
-
 description: The SelectParentalLevel method sets the parental access level for the logged-on user.
 old-location: dshow\idvdcontrol2_selectparentallevel.htm
 tech.root: DirectShow
 ms.assetid: c87f8b12-0c14-4d3a-ac79-98577607d053
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectParentalLevel method, IDvdControl2.SelectParentalLevel, IDvdControl2::SelectParentalLevel, IDvdControl2SelectParentalLevel, SelectParentalLevel, SelectParentalLevel method [DirectShow], SelectParentalLevel method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectparentallevel, strmif/IDvdControl2::SelectParentalLevel
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectParentalLevel"
+f1_keywords:
+- strmif/IDvdControl2.SelectParentalLevel
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectParentalLevel
+- IDvdControl2.SelectParentalLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

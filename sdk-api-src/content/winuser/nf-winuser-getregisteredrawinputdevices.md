@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetRegisteredRawInputDevices
 title: GetRegisteredRawInputDevices function (winuser.h)
-
 description: Retrieves the information about the raw input devices for the current application.
 old-location: inputdev\getregisteredrawinputdevices.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getregisteredrawinputdevices.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredRawInputDevices, GetRegisteredRawInputDevices function [Keyboard and Mouse Input], _win32_GetRegisteredRawInputDevices, _win32_getregisteredrawinputdevices_cpp, inputdev.getregisteredrawinputdevices, winui._win32_getregisteredrawinputdevices, winuser/GetRegisteredRawInputDevices
 ms.topic: function
-f1_keywords: 
- - "winuser/GetRegisteredRawInputDevices"
+f1_keywords:
+- winuser/GetRegisteredRawInputDevices
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetRegisteredRawInputDevices
+- GetRegisteredRawInputDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

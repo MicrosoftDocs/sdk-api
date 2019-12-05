@@ -1,7 +1,6 @@
 ---
 UID: NA:shtypes
 ms.assetid: 87698e3d-1812-3379-ba5a-c5589ff36eed
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

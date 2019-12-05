@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitationManager.get_Count
 title: IRDPSRAPIInvitationManager::get_Count (rdpencomapi.h)
-
 description: The number of invitations in the collection.
 old-location: rdp\irdpsrapiinvitationmanager_count.htm
 tech.root: rdp
 ms.assetid: 5b421537-ce9f-42d3-83b8-f051631c78de
-
 ms.date: 12/05/2018
 ms.keywords: Count property [RDP], Count property [RDP],IRDPSRAPIInvitationManager interface, Count property [RDP],RDPSRAPIInvitationManager object, IRDPSRAPIInvitationManager interface [RDP],Count property, IRDPSRAPIInvitationManager.Count, IRDPSRAPIInvitationManager.get_Count, IRDPSRAPIInvitationManager::Count, IRDPSRAPIInvitationManager::get_Count, RDPSRAPIInvitationManager object [RDP],Count property, get_Count, rdp.irdpsrapiinvitationmanager_count, rdpencomapi/IRDPSRAPIInvitationManager::Count, rdpencomapi/IRDPSRAPIInvitationManager::get_Count
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIInvitationManager.Count"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIInvitationManager.Count
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitationManager.Count
- - IRDPSRAPIInvitationManager.get_Count
- - RDPSRAPIInvitationManager.Count
+- IRDPSRAPIInvitationManager.Count
+- IRDPSRAPIInvitationManager.get_Count
+- RDPSRAPIInvitationManager.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.SetName
 title: IWMMutualExclusion2::SetName (wmsdkidl.h)
-
 description: The SetName method assigns a name to a mutual exclusion object.
 old-location: wmformat\iwmmutualexclusion2_setname.htm
 tech.root: wmformat
 ms.assetid: b288c28c-04bd-49a4-bf11-21d4968772d4
-
 ms.date: 12/05/2018
 ms.keywords: IWMMutualExclusion2 interface [windows Media Format],SetName method, IWMMutualExclusion2.SetName, IWMMutualExclusion2::SetName, IWMMutualExclusion2SetName, SetName, SetName method [windows Media Format], SetName method [windows Media Format],IWMMutualExclusion2 interface, wmformat.iwmmutualexclusion2_setname, wmsdkidl/IWMMutualExclusion2::SetName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMutualExclusion2.SetName"
+f1_keywords:
+- wmsdkidl/IWMMutualExclusion2.SetName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2.SetName
+- IWMMutualExclusion2.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 

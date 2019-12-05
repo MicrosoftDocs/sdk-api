@@ -1,19 +1,17 @@
 ---
 UID: NF:midles.MesInqProcEncodingId
 title: MesInqProcEncodingId function (midles.h)
-
 description: The MesInqProcEncodingId function provides the identity of an encoding.
 old-location: rpc\mesinqprocencodingid.htm
 tech.root: Rpc
 ms.assetid: b6d73cc3-cd35-4fe7-87e6-ecbfef777c44
-
 ms.date: 12/05/2018
 ms.keywords: MesInqProcEncodingId, MesInqProcEncodingId function [RPC], _rpc_mesinqprocencodingid, midles/MesInqProcEncodingId, rpc.mesinqprocencodingid
 ms.topic: function
-f1_keywords: 
- - "midles/MesInqProcEncodingId"
+f1_keywords:
+- midles/MesInqProcEncodingId
 dev_langs:
- - c++
+- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - MesInqProcEncodingId
+- MesInqProcEncodingId
 targetos: Windows
 req.typenames: 
 req.redist: 

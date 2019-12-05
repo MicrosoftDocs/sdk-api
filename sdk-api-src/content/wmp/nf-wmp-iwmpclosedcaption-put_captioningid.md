@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_captioningId
 title: IWMPClosedCaption::put_captioningId (wmp.h)
-
 description: The put_captioningId method specifies the name of the element displaying the captioning.
 old-location: wmp\iwmpclosedcaption_put_captioningid.htm
 tech.root: WMP
 ms.assetid: 46736a28-e05d-404c-8bad-a51ac58435f0
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_captioningId method, IWMPClosedCaption.put_captioningId, IWMPClosedCaption::put_captioningId, IWMPClosedCaptionput_captioningId, put_captioningId, put_captioningId method [Windows Media Player], put_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_captioningid, wmp/IWMPClosedCaption::put_captioningId
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption.put_captioningId"
+f1_keywords:
+- wmp/IWMPClosedCaption.put_captioningId
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption.put_captioningId
+- IWMPClosedCaption.put_captioningId
 targetos: Windows
 req.typenames: 
 req.redist: 

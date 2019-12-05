@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.SetFloat
 title: ID3D10EffectScalarVariable::SetFloat (d3d10effect.h)
-
 description: Set a floating-point variable.
 old-location: direct3d10\id3d10effectscalarvariable_setfloat.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_setfloat.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5ff1fc81-0f45-4ada-0fe1-749772e20ccc, ID3D10EffectScalarVariable interface [Direct3D 10],SetFloat method, ID3D10EffectScalarVariable.SetFloat, ID3D10EffectScalarVariable::SetFloat, SetFloat, SetFloat method [Direct3D 10], SetFloat method [Direct3D 10],ID3D10EffectScalarVariable interface, d3d10effect/ID3D10EffectScalarVariable::SetFloat, direct3d10.id3d10effectscalarvariable_setfloat
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectScalarVariable.SetFloat"
+f1_keywords:
+- d3d10effect/ID3D10EffectScalarVariable.SetFloat
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectScalarVariable.SetFloat
+- ID3D10EffectScalarVariable.SetFloat
 targetos: Windows
 req.typenames: 
 req.redist: 

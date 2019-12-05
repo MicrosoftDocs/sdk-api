@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer2.Lock2DSize
 title: IMF2DBuffer2::Lock2DSize (mfobjects.h)
-
 description: Gives the caller access to the memory in the buffer.
 old-location: mf\imf2dbuffer2_lock2dsize.htm
 tech.root: medfound
 ms.assetid: 84885FEF-7F6D-4BE3-BF63-F9EC0C7E2D88
-
 ms.date: 12/05/2018
 ms.keywords: IMF2DBuffer2 interface [Media Foundation],Lock2DSize method, IMF2DBuffer2.Lock2DSize, IMF2DBuffer2::Lock2DSize, Lock2DSize, Lock2DSize method [Media Foundation], Lock2DSize method [Media Foundation],IMF2DBuffer2 interface, mf.imf2dbuffer2_lock2dsize, mfobjects/IMF2DBuffer2::Lock2DSize
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMF2DBuffer2.Lock2DSize"
+f1_keywords:
+- mfobjects/IMF2DBuffer2.Lock2DSize
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMF2DBuffer2.Lock2DSize
+- IMF2DBuffer2.Lock2DSize
 targetos: Windows
 req.typenames: 
 req.redist: 

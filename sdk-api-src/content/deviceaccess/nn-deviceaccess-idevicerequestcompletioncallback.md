@@ -1,19 +1,17 @@
 ---
 UID: NN:deviceaccess.IDeviceRequestCompletionCallback
 title: IDeviceRequestCompletionCallback (deviceaccess.h)
-
 description: Provides a method to handle the completion of calls to the DeviceIoControlAsyncmethod.
 old-location: deviceaccess\idevicerequestcompletioncallback.htm
 tech.root: deviceaccess
 ms.assetid: 88746199-fc42-4f1d-9f97-ebd573e9cb3c
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceRequestCompletionCallback, IDeviceRequestCompletionCallback interface [Device Access Broker API], IDeviceRequestCompletionCallback interface [Device Access Broker API],described, deviceaccess.idevicerequestcompletioncallback, deviceaccess/IDeviceRequestCompletionCallback
 ms.topic: interface
-f1_keywords: 
- - "deviceaccess/IDeviceRequestCompletionCallback"
+f1_keywords:
+- deviceaccess/IDeviceRequestCompletionCallback
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - IDeviceRequestCompletionCallback
+- IDeviceRequestCompletionCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

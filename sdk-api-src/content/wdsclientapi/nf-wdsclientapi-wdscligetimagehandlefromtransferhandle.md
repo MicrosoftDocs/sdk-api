@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageHandleFromTransferHandle
 title: WdsCliGetImageHandleFromTransferHandle function (wdsclientapi.h)
-
 description: Returns an image handle from a completed transfer handle. The handle is to the local copy of the image that's been transferred from the server to the client.
 old-location: wds\wdscligetimagehandlefromtransferhandle.htm
 tech.root: wds
 ms.assetid: d2356f34-9ef8-4d7d-bb01-843d1aa1cbed
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliGetImageHandleFromTransferHandle, WdsCliGetImageHandleFromTransferHandle function [Windows Deployment Services], wds.wdscligetimagehandlefromtransferhandle, wdsclientapi/WdsCliGetImageHandleFromTransferHandle
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliGetImageHandleFromTransferHandle"
+f1_keywords:
+- wdsclientapi/WdsCliGetImageHandleFromTransferHandle
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliGetImageHandleFromTransferHandle
+- WdsCliGetImageHandleFromTransferHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

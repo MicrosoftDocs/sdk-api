@@ -1,19 +1,17 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.SetType
 title: IMFSpatialAudioObjectBuffer::SetType (mfspatialaudio.h)
-
 description: Sets the type of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_settype.htm
 tech.root: medfound
 ms.assetid: 3D21D093-FDCE-4ECA-B8B2-56D6E5D5D9C6
-
 ms.date: 12/05/2018
 ms.keywords: IMFSpatialAudioObjectBuffer interface [Media Foundation],SetType method, IMFSpatialAudioObjectBuffer.SetType, IMFSpatialAudioObjectBuffer::SetType, SetType, SetType method [Media Foundation], SetType method [Media Foundation],IMFSpatialAudioObjectBuffer interface, mf.imfspatialaudioobjectbuffer_settype, mfspatialaudio/IMFSpatialAudioObjectBuffer::SetType
 ms.topic: method
-f1_keywords: 
- - "mfspatialaudio/IMFSpatialAudioObjectBuffer.SetType"
+f1_keywords:
+- mfspatialaudio/IMFSpatialAudioObjectBuffer.SetType
 dev_langs:
- - c++
+- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.lib
- - mfobjects.dll
+- mfobjects.lib
+- mfobjects.dll
 api_name:
- - IMFSpatialAudioObjectBuffer.SetType
+- IMFSpatialAudioObjectBuffer.SetType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMObjectFactory
 title: IXpsOMObjectFactory (xpsobjectmodel.h)
-
 description: Creates objects in the XPS document object model.
 old-location: xps\ixpsomobjectfactory.htm
 tech.root: printdocs
 ms.assetid: 2444703e-4b89-4ef0-9ed7-aa937bc62e8c
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMObjectFactory, IXpsOMObjectFactory interface [XPS Documents and Packaging], IXpsOMObjectFactory interface [XPS Documents and Packaging],described, xps.ixpsomobjectfactory, xpsobjectmodel/IXpsOMObjectFactory
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory
+- IXpsOMObjectFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

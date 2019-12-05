@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.InsertAt
 title: IXpsOMSignatureBlockResourceCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMSignatureBlockResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: bcb9d712-35b6-4dfc-91dc-dd376950e1e8
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMSignatureBlockResourceCollection.InsertAt, IXpsOMSignatureBlockResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, xps.ixpsomsignatureblockresourcecollection_insertat, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResourceCollection.InsertAt
+- IXpsOMSignatureBlockResourceCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

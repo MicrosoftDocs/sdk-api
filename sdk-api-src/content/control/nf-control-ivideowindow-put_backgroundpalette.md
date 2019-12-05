@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_BackgroundPalette
 title: IVideoWindow::put_BackgroundPalette (control.h)
-
 description: The put_BackgroundPalette method specifies whether the video window realizes its palette in the background.
 old-location: dshow\ivideowindow_put_backgroundpalette.htm
 tech.root: DirectShow
 ms.assetid: 0b1d34b6-0043-4929-a496-cf84b5d47b55
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, IVideoWindow.put_BackgroundPalette, IVideoWindow::put_BackgroundPalette, IVideoWindowput_BackgroundPalette, control/IVideoWindow::put_BackgroundPalette, dshow.ivideowindow_put_backgroundpalette, put_BackgroundPalette, put_BackgroundPalette method [DirectShow], put_BackgroundPalette method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_BackgroundPalette"
+f1_keywords:
+- control/IVideoWindow.put_BackgroundPalette
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_BackgroundPalette
+- IVideoWindow.put_BackgroundPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

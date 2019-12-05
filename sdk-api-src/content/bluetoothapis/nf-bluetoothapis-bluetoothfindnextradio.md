@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothFindNextRadio
 title: BluetoothFindNextRadio function (bluetoothapis.h)
-
 description: The BluetoothFindNextRadio function finds the next Bluetooth radio.
 old-location: bluetooth\bluetoothfindnextradio.htm
 tech.root: bluetooth
 ms.assetid: 7dd6b823-f9c6-4375-80b6-d59c4570c8fb
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothFindNextRadio, BluetoothFindNextRadio function [Bluetooth], bluetooth.bluetoothfindnextradio, bluetoothapis/BluetoothFindNextRadio
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothFindNextRadio"
+f1_keywords:
+- bluetoothapis/BluetoothFindNextRadio
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothFindNextRadio
+- BluetoothFindNextRadio
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.ValidatePutInstanceFlags
 title: Provider::ValidatePutInstanceFlags (provider.h)
-
 description: The ValidatePutInstanceFlags method determines whether a set of flags is valid for an instance update operation.
 old-location: wmi\provider_validateputinstanceflags.htm
 tech.root: WmiSdk
 ms.assetid: dd7a480e-9569-45ed-a46d-218c1a9cf2db
-
 ms.date: 12/05/2018
-ms.keywords: "?ValidatePutInstanceFlags@Provider@@MAEJJ@Z, ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidatePutInstanceFlags method, Provider.ValidatePutInstanceFlags, Provider::ValidatePutInstanceFlags, ValidatePutInstanceFlags, ValidatePutInstanceFlags method [Windows Management Instrumentation], ValidatePutInstanceFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateputinstanceflags, provider/Provider::ValidatePutInstanceFlags, wmi.provider_validateputinstanceflags"
+ms.keywords: ?ValidatePutInstanceFlags@Provider@@MAEJJ@Z, ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidatePutInstanceFlags method, Provider.ValidatePutInstanceFlags, Provider::ValidatePutInstanceFlags, ValidatePutInstanceFlags, ValidatePutInstanceFlags method [Windows Management Instrumentation], ValidatePutInstanceFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateputinstanceflags, provider/Provider::ValidatePutInstanceFlags, wmi.provider_validateputinstanceflags
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.ValidatePutInstanceFlags"
+f1_keywords:
+- provider/Provider.ValidatePutInstanceFlags
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.ValidatePutInstanceFlags
- - ?ValidatePutInstanceFlags@Provider@@MAEJJ@Z
- - ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z
+- Provider.ValidatePutInstanceFlags
+- ?ValidatePutInstanceFlags@Provider@@MAEJJ@Z
+- ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

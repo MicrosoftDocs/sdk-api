@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InvalidateRect
 title: InvalidateRect function (winuser.h)
-
 description: The InvalidateRect function adds a rectangle to the specified window's update region. The update region represents the portion of the window's client area that must be redrawn.
 old-location: gdi\invalidaterect.htm
 tech.root: gdi
 ms.assetid: 5a823d36-d08b-41c9-8857-540576f54b55
-
 ms.date: 12/05/2018
 ms.keywords: InvalidateRect, InvalidateRect function [Windows GDI], _win32_InvalidateRect, gdi.invalidaterect, winuser/InvalidateRect
 ms.topic: function
-f1_keywords: 
- - "winuser/InvalidateRect"
+f1_keywords:
+- winuser/InvalidateRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - InvalidateRect
+- InvalidateRect
 targetos: Windows
 req.typenames: 
 req.redist: 

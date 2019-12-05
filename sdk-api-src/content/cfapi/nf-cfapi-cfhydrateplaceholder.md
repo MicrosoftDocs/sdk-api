@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfHydratePlaceholder
 title: CfHydratePlaceholder function (cfapi.h)
-
 description: Hydrates a placeholder file by ensuring that the specified byte range is present on-disk in the placeholder. This is valid for files only.
 old-location: cloudapi\cfhydrateplaceholder.htm
 tech.root: cfApi
 ms.assetid: 4FFD7580-BF59-48D0-B6D7-516559914096
-
 ms.date: 12/05/2018
 ms.keywords: CfHydratePlaceholder, CfHydratePlaceholder function, cfapi/CfHydratePlaceholder, cloudApi.cfhydrateplaceholder
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfHydratePlaceholder"
+f1_keywords:
+- cfapi/CfHydratePlaceholder
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfHydratePlaceholder
+- CfHydratePlaceholder
 targetos: Windows
 req.typenames: 
 req.redist: 

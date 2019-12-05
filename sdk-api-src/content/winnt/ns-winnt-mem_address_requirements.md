@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._MEM_ADDRESS_REQUIREMENTS
 title: MEM_ADDRESS_REQUIREMENTS (winnt.h)
-
 description: Specifies a lowest and highest base address and alignment as part of an extended parameter to a function that manages virtual memory.
 old-location: base\mem_address_requirements.htm
 tech.root: Memory
 ms.assetid: 1CAB4942-F0D2-4A60-9472-4EDF2FC9FA7A
-
 ms.date: 12/05/2018
-ms.keywords: "*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS structure, PMEM_ADDRESS_REQUIREMENTS, PMEM_ADDRESS_REQUIREMENTS structure pointer, base.mem_address_requirements, winnt/MEM_ADDRESS_REQUIREMENTS, winnt/PMEM_ADDRESS_REQUIREMENTS"
+ms.keywords: '*PMEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS, MEM_ADDRESS_REQUIREMENTS structure, PMEM_ADDRESS_REQUIREMENTS, PMEM_ADDRESS_REQUIREMENTS structure pointer, base.mem_address_requirements, winnt/MEM_ADDRESS_REQUIREMENTS, winnt/PMEM_ADDRESS_REQUIREMENTS'
 ms.topic: struct
-f1_keywords: 
- - "winnt/MEM_ADDRESS_REQUIREMENTS"
+f1_keywords:
+- winnt/MEM_ADDRESS_REQUIREMENTS
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - MEM_ADDRESS_REQUIREMENTS
+- MEM_ADDRESS_REQUIREMENTS
 targetos: Windows
 req.typenames: MEM_ADDRESS_REQUIREMENTS, *PMEM_ADDRESS_REQUIREMENTS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.NEXTRAWINPUTBLOCK
 title: NEXTRAWINPUTBLOCK macro (winuser.h)
-
 description: Retrieves the location of the next structure in an array of RAWINPUT structures.
 old-location: inputdev\nextrawinputblock.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputmacros\nextrawinputblock.htm
-
 ms.date: 12/05/2018
 ms.keywords: NEXTRAWINPUTBLOCK, NEXTRAWINPUTBLOCK macro [Keyboard and Mouse Input], _win32_NEXTRAWINPUTBLOCK, _win32_nextrawinputblock_cpp, inputdev.nextrawinputblock, winui._win32_nextrawinputblock, winuser/NEXTRAWINPUTBLOCK
 ms.topic: macro
-f1_keywords: 
- - "winuser/NEXTRAWINPUTBLOCK"
+f1_keywords:
+- winuser/NEXTRAWINPUTBLOCK
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - NEXTRAWINPUTBLOCK
+- NEXTRAWINPUTBLOCK
 targetos: Windows
 req.typenames: 
 req.redist: 

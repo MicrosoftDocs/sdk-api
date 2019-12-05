@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ClientFT_V1
 title: MI_ClientFT_V1 (mi.h)
-
 description: Client function tables.
 old-location: wmi_v2\mi_clientft_v1.htm
 tech.root: wmi_v2
 ms.assetid: 9c8c812d-d91d-4754-9be5-c05360364b1b
-
 ms.date: 12/05/2018
 ms.keywords: MI_ClientFT_V1, MI_ClientFT_V1 structure [Windows Management Infrastructure (MI)], mi/MI_ClientFT_V1, mi/mi_clientFT_V1, mi_clientFT_V1, mi_clientFT_V1 structure pointer [Windows Management Infrastructure (MI)], wmi._mi_clientft_v1, wmi_v2.mi_clientft_v1
 ms.topic: struct
 f1_keywords:
 - mi/MI_ClientFT_V1
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

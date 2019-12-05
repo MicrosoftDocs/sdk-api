@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromCy
 title: VarUI4FromCy function (oleauto.h)
-
 description: Converts a currency value to an unsigned long value.
 old-location: automat\varui4fromcy.htm
 tech.root: automat
 ms.assetid: 8f727b0f-b326-47b1-b1e1-461bd9f8d835
-
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromCy, VarUI4FromCy function [Automation], _oa96_VarUI4FromCy, automat.varui4fromcy, oleauto/VarUI4FromCy
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromCy"
+f1_keywords:
+- oleauto/VarUI4FromCy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromCy
+- VarUI4FromCy
 targetos: Windows
 req.typenames: 
 req.redist: 

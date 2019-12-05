@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchCombine
 title: PathCchCombine function (pathcch.h)
-
 description: Combines two path fragments into a single path.
 old-location: shell\PathCchCombine.htm
 tech.root: shell
 ms.assetid: 506a4165-f572-4521-958f-56a0296f9c05
-
 ms.date: 12/05/2018
 ms.keywords: PathCchCombine, PathCchCombine function [Windows Shell], pathcch/PathCchCombine, shell.PathCchCombine
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchCombine"
+f1_keywords:
+- pathcch/PathCchCombine
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchCombine
+- PathCchCombine
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:editionupgradehelper.IEditionUpgradeHelper.GetGenuineLocalStatus
 title: IEditionUpgradeHelper::GetGenuineLocalStatus (editionupgradehelper.h)
-
 description: Retrieves whether the currently installed operating system is activated.
 old-location: winprog\ieditionupgradehelper_getgenuinelocalstatus.htm
 tech.root: DevNotes
 ms.assetid: 061AECF0-AC7A-480F-B532-F5D8AC078168
-
 ms.date: 12/05/2018
 ms.keywords: GetGenuineLocalStatus, GetGenuineLocalStatus method [Windows API], GetGenuineLocalStatus method [Windows API],IEditionUpgradeHelper interface, IEditionUpgradeHelper interface [Windows API],GetGenuineLocalStatus method, IEditionUpgradeHelper.GetGenuineLocalStatus, IEditionUpgradeHelper::GetGenuineLocalStatus, editionupgradehelper/IEditionUpgradeHelper::GetGenuineLocalStatus, winprog.ieditionupgradehelper_getgenuinelocalstatus
 ms.topic: method
-f1_keywords: 
- - "editionupgradehelper/IEditionUpgradeHelper.GetGenuineLocalStatus"
+f1_keywords:
+- editionupgradehelper/IEditionUpgradeHelper.GetGenuineLocalStatus
 dev_langs:
- - c++
+- c++
 req.header: editionupgradehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - editionupgradehelper.h
+- editionupgradehelper.h
 api_name:
- - IEditionUpgradeHelper.GetGenuineLocalStatus
+- IEditionUpgradeHelper.GetGenuineLocalStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

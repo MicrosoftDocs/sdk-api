@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_RangeFromChild
 title: TextPattern_RangeFromChild function (uiautomationcoreapi.h)
-
 description: Gets the text range that a given node spans.
 old-location: winauto\uiauto_TextPattern_RangeFromChildConPat.htm
 tech.root: WinAuto
 ms.assetid: 9745b837-f185-48c5-94d6-30c93fa58313
-
 ms.date: 12/05/2018
 ms.keywords: TextPattern_RangeFromChild, TextPattern_RangeFromChild function [Windows Accessibility], uiauto.uiauto_TextPattern_RangeFromChildConPat, uiauto_TextPattern_RangeFromChildConPat, uiautomationcoreapi/TextPattern_RangeFromChild, winauto.uiauto_TextPattern_RangeFromChildConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextPattern_RangeFromChild"
+f1_keywords:
+- uiautomationcoreapi/TextPattern_RangeFromChild
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextPattern_RangeFromChild
+- TextPattern_RangeFromChild
 targetos: Windows
 req.typenames: 
 req.redist: 

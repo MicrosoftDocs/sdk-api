@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkCursorButtons
 title: IInkCursorButtons (msinkaut.h)
-
 description: Represents a collection of IInkCursorButton objects for an IInkCursor interface.
 old-location: tablet\iinkcursorbuttons.htm
 tech.root: tablet
 ms.assetid: 3f695ab4-8174-402f-b7d6-810f149f5153
-
 ms.date: 12/05/2018
 ms.keywords: 3f695ab4-8174-402f-b7d6-810f149f5153, IInkCursorButtons, IInkCursorButtons interface [Tablet PC], IInkCursorButtons interface [Tablet PC],described, msinkaut/IInkCursorButtons, tablet.iinkcursorbuttons
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkCursorButtons"
+f1_keywords:
+- msinkaut/IInkCursorButtons
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursorButtons
- - IInkCursorButtons._NewEnum
+- IInkCursorButtons
+- IInkCursorButtons._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

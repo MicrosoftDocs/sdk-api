@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFileTime
 title: IDWriteFontFaceReference::GetFileTime (dwrite_3.h)
-
 description: Get the last modified date.
 old-location: directwrite\idwritefontfacereference_getfiletime.htm
 tech.root: DirectWrite
 ms.assetid: 98de8a3d-073e-78df-2e2c-8ab64632091c
-
 ms.date: 12/05/2018
 ms.keywords: GetFileTime, GetFileTime method [Direct Write], GetFileTime method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileTime method, IDWriteFontFaceReference.GetFileTime, IDWriteFontFaceReference::GetFileTime, directwrite.idwritefontfacereference_getfiletime, dwrite_3/IDWriteFontFaceReference::GetFileTime
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference.GetFileTime"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference.GetFileTime
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFaceReference.GetFileTime
+- IDWriteFontFaceReference.GetFileTime
 targetos: Windows
 req.typenames: 
 req.redist: 

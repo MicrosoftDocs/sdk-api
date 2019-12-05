@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcQueryInterface
 title: TcQueryInterface function (traffic.h)
-
 description: The TcQueryInterface function queries traffic control for related per-interface parameters.
 old-location: qos\tcqueryinterface.htm
 tech.root: QOS
 ms.assetid: 7cbee5e9-fecc-4bfc-8b65-f3fc3427c85d
-
 ms.date: 12/05/2018
 ms.keywords: TcQueryInterface, TcQueryInterface function [QOS], _gqos_tcqueryinterface, qos.tcqueryinterface, traffic/TcQueryInterface
 ms.topic: function
-f1_keywords: 
- - "traffic/TcQueryInterface"
+f1_keywords:
+- traffic/TcQueryInterface
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcQueryInterface
+- TcQueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

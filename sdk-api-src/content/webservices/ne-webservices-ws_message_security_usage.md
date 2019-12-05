@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_75
 title: WS_MESSAGE_SECURITY_USAGE (webservices.h)
-
 description: Defines how a message security binding attaches the security token corresponding to it to a message using WS-Security mechanisms.
 old-location: wsw\ws_message_security_usage.htm
 tech.root: wsw
 ms.assetid: 2f19877f-b79b-43c3-a3f5-93dd2940d499
-
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_SECURITY_USAGE, WS_MESSAGE_SECURITY_USAGE enumeration [Web Services for Windows], WS_SUPPORTING_MESSAGE_SECURITY_USAGE, webservices/WS_MESSAGE_SECURITY_USAGE, webservices/WS_SUPPORTING_MESSAGE_SECURITY_USAGE, wsw.ws_message_security_usage
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_MESSAGE_SECURITY_USAGE"
+f1_keywords:
+- webservices/WS_MESSAGE_SECURITY_USAGE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_MESSAGE_SECURITY_USAGE
+- WS_MESSAGE_SECURITY_USAGE
 targetos: Windows
 req.typenames: WS_MESSAGE_SECURITY_USAGE
 req.redist: 

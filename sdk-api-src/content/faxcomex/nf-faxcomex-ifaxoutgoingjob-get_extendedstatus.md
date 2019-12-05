@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_ExtendedStatus
 title: IFaxOutgoingJob::get_ExtendedStatus (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_ExtendedStatus property is a null-terminated string that describes the job's extended status.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_36er.htm
-
 ms.date: 12/05/2018
 ms.keywords: ExtendedStatus property [Fax Service], ExtendedStatus property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],ExtendedStatus property, IFaxOutgoingJob.ExtendedStatus, IFaxOutgoingJob.get_ExtendedStatus, IFaxOutgoingJob::ExtendedStatus, IFaxOutgoingJob::get_ExtendedStatus, _mfax_faxoutgoingjob.extendedstatus, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_extendedstatus_cpp, fax._mfax_faxoutgoingjob_extendedstatus, faxcomex/IFaxOutgoingJob::ExtendedStatus, faxcomex/IFaxOutgoingJob::get_ExtendedStatus, get_ExtendedStatus
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.ExtendedStatus"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.ExtendedStatus
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.ExtendedStatus
- - IFaxOutgoingJob.get_ExtendedStatus
- - IFaxOutgoingJob.get_ExtendedStatus
+- IFaxOutgoingJob.ExtendedStatus
+- IFaxOutgoingJob.get_ExtendedStatus
+- IFaxOutgoingJob.get_ExtendedStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

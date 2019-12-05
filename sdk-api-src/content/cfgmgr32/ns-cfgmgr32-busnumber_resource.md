@@ -1,19 +1,17 @@
 ---
 UID: NS:cfgmgr32.BusNumber_Resource_s
 title: BUSNUMBER_RESOURCE (cfgmgr32.h)
-
 description: The BUSNUMBER_RESOURCE structure specifies either a resource list or a resource requirements list that describes bus number usage for a device instance. For more information about resource lists and resource requirements lists, see Hardware Resources.
 old-location: devinst\busnumber_resource.htm
 tech.root: devinst
 ms.assetid: 8dbf5499-8e43-4db9-b0ec-6536f1c6121c
-
 ms.date: 12/05/2018
-ms.keywords: "*PBUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE structure [Device and Driver Installation], PBUSNUMBER_RESOURCE, PBUSNUMBER_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/BUSNUMBER_RESOURCE, cfgmgr32/PBUSNUMBER_RESOURCE, cfgmgrst_5fb3a498-87c1-40c1-8169-4348f2fabe03.xml, devinst.busnumber_resource"
+ms.keywords: '*PBUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE, BUSNUMBER_RESOURCE structure [Device and Driver Installation], PBUSNUMBER_RESOURCE, PBUSNUMBER_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/BUSNUMBER_RESOURCE, cfgmgr32/PBUSNUMBER_RESOURCE, cfgmgrst_5fb3a498-87c1-40c1-8169-4348f2fabe03.xml, devinst.busnumber_resource'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/BUSNUMBER_RESOURCE"
+f1_keywords:
+- cfgmgr32/BUSNUMBER_RESOURCE
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cfgmgr32.h
+- cfgmgr32.h
 api_name:
- - BUSNUMBER_RESOURCE
+- BUSNUMBER_RESOURCE
 targetos: Windows
 req.typenames: BUSNUMBER_RESOURCE, *PBUSNUMBER_RESOURCE
 req.redist: 

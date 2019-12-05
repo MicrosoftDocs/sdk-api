@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.OleLoadPicture
 title: OleLoadPicture function (olectl.h)
-
 description: Creates a new picture object and initializes it from the contents of a stream. This is equivalent to calling OleCreatePictureIndirect with NULL as the first parameter, followed by a call to IPersistStream::Load.
 old-location: com\oleloadpicture.htm
 tech.root: com
 ms.assetid: de1847cd-ecc0-4941-9dbc-a60b8ef0b1c1
-
 ms.date: 12/05/2018
 ms.keywords: OleLoadPicture, OleLoadPicture function [COM], _ole_OleLoadPicture, com.oleloadpicture, olectl/OleLoadPicture
 ms.topic: function
-f1_keywords: 
- - "olectl/OleLoadPicture"
+f1_keywords:
+- olectl/OleLoadPicture
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - OleLoadPicture
+- OleLoadPicture
 targetos: Windows
 req.typenames: 
 req.redist: 

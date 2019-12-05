@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetLocalAddress
 title: IWSDMessageParameters::SetLocalAddress (wsdbase.h)
-
 description: Sets a generic address object representing the source address that should send the message.
 old-location: ncd\iwsdmessageparameters_setlocaladdress.htm
 tech.root: WsdApi
 ms.assetid: 8266f091-9c88-44eb-a32b-1ff3da5fa10e
-
 ms.date: 12/05/2018
 ms.keywords: IWSDMessageParameters interface,SetLocalAddress method, IWSDMessageParameters.SetLocalAddress, IWSDMessageParameters::SetLocalAddress, SetLocalAddress, SetLocalAddress method, SetLocalAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setlocaladdress, wsdbase/IWSDMessageParameters::SetLocalAddress
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDMessageParameters.SetLocalAddress"
+f1_keywords:
+- wsdbase/IWSDMessageParameters.SetLocalAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDMessageParameters.SetLocalAddress
+- IWSDMessageParameters.SetLocalAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

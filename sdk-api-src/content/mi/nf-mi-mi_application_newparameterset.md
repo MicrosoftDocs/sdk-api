@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Application_NewParameterSet
 title: MI_Application_NewParameterSet function (mi.h)
-
 description: Creates a new parameter set.
 old-location: wmi_v2\mi_application_newparameterset.htm
 tech.root: wmi_v2
 ms.assetid: 9704ad73-78af-4d75-8da6-f327193ea0fa
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewParameterSet, MI_Application_NewParameterSet function [Windows Management Infrastructure (MI)], mi/MI_Application_NewParameterSet, wmi_v2.mi_application_newparameterset
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Application_NewParameterSet"
+f1_keywords:
+- mi/MI_Application_NewParameterSet
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Application_NewParameterSet
+- MI_Application_NewParameterSet
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

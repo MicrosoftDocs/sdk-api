@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.SetRange
 title: ITextRange::SetRange (tom.h)
-
 description: Adjusts the range endpoints to the specified values.
 old-location: controls\ITextRange_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetRange method, ITextRange.SetRange, ITextRange::SetRange, SetRange, SetRange method [Windows Controls], SetRange method [Windows Controls],ITextRange interface, _win32_ITextRange_SetRange, _win32_ITextRange_SetRange_cpp, controls.ITextRange_SetRange, controls._win32_ITextRange_SetRange, tom/ITextRange::SetRange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.SetRange"
+f1_keywords:
+- tom/ITextRange.SetRange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.SetRange
+- ITextRange.SetRange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_DRAIN_STATUS
 title: CLUSTER_NODE_DRAIN_STATUS (clusapi.h)
-
 description: Enumerates the possible values of the status of a node drain.
 old-location: mscs\cluster_node_drain_status.htm
 tech.root: MsCS
 ms.assetid: B6BC00A8-7D1E-4A86-8756-42917160DF30
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NODE_DRAIN_STATUS, CLUSTER_NODE_DRAIN_STATUS enumeration [Failover Cluster], ClusterNodeDrainStatusCount, NodeDrainStatusCompleted, NodeDrainStatusFailed, NodeDrainStatusInProgress, NodeDrainStatusNotInitiated, clusapi/CLUSTER_NODE_DRAIN_STATUS, clusapi/ClusterNodeDrainStatusCount, clusapi/NodeDrainStatusCompleted, clusapi/NodeDrainStatusFailed, clusapi/NodeDrainStatusInProgress, clusapi/NodeDrainStatusNotInitiated, msclus/CLUSTER_NODE_DRAIN_STATUS, msclus/ClusterNodeDrainStatusCount, msclus/NodeDrainStatusCompleted, msclus/NodeDrainStatusFailed, msclus/NodeDrainStatusInProgress, msclus/NodeDrainStatusNotInitiated, mscs.cluster_node_drain_status
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_NODE_DRAIN_STATUS"
+f1_keywords:
+- clusapi/CLUSTER_NODE_DRAIN_STATUS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MSClus.h
+- ClusApi.h
+- MSClus.h
 api_name:
- - CLUSTER_NODE_DRAIN_STATUS
+- CLUSTER_NODE_DRAIN_STATUS
 targetos: Windows
 req.typenames: CLUSTER_NODE_DRAIN_STATUS
 req.redist: 

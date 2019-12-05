@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPSyncDevice
 title: IWMPSyncDevice (wmp.h)
-
 description: The IWMPSyncDevice interface represents a device to which Windows Media Player 10 or later can copy digital media files.
 old-location: wmp\iwmpsyncdevice.htm
 tech.root: WMP
 ms.assetid: 981648e4-0cb1-4d7a-bd3b-50e1b9a7282c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice, IWMPSyncDevice interface [Windows Media Player], IWMPSyncDevice interface [Windows Media Player],described, IWMPSyncDeviceInterface, wmp.iwmpsyncdevice, wmp/IWMPSyncDevice
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPSyncDevice"
+f1_keywords:
+- wmp/IWMPSyncDevice
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPSyncDevice
+- IWMPSyncDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

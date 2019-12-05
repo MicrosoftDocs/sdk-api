@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.GetMessage
 title: IFaxIncomingArchive::GetMessage (faxcomex.h)
-
 description: The GetMessage method returns a fax message from the archive of inbound faxes by using the fax message ID.
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_223p.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetMessage, GetMessage method [Fax Service], GetMessage method [Fax Service],IFaxIncomingArchive interface, IFaxIncomingArchive interface [Fax Service],GetMessage method, IFaxIncomingArchive.GetMessage, IFaxIncomingArchive::GetMessage, _mfax_faxincomingarchive.getmessage, fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessage_cpp, fax._mfax_faxincomingarchive_getmessage, faxcomex/IFaxIncomingArchive::GetMessage
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingArchive.GetMessage"
+f1_keywords:
+- faxcomex/IFaxIncomingArchive.GetMessage
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingArchive.GetMessage
- - IFaxIncomingArchive.GetMessage
+- IFaxIncomingArchive.GetMessage
+- IFaxIncomingArchive.GetMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabGetSigninOptions
 title: PeerCollabGetSigninOptions function (p2p.h)
-
 description: Obtains the peer's current signed-in peer collaboration network presence options.
 old-location: p2p\peercollabgetsigninoptions.htm
 tech.root: P2PSdk
 ms.assetid: 2b1452d3-2474-40c9-a913-de7e148e2d94
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabGetSigninOptions, PeerCollabGetSigninOptions function [Peer Networking], p2p.peercollabgetsigninoptions, p2p/PeerCollabGetSigninOptions
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabGetSigninOptions"
+f1_keywords:
+- p2p/PeerCollabGetSigninOptions
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabGetSigninOptions
+- PeerCollabGetSigninOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

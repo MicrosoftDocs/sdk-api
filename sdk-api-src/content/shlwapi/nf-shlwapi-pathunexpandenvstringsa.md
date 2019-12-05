@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathUnExpandEnvStringsA
 title: PathUnExpandEnvStringsA function (shlwapi.h)
-
 description: Replaces certain folder names in a fully qualified path with their associated environment string.
 old-location: shell\PathUnExpandEnvStrings.htm
 tech.root: shell
 ms.assetid: cfab1ee0-03f3-4e0f-a29d-5331fec022b5
-
 ms.date: 12/05/2018
 ms.keywords: PathUnExpandEnvStrings, PathUnExpandEnvStrings function [Windows Shell], PathUnExpandEnvStringsA, PathUnExpandEnvStringsW, _win32_PathUnExpandEnvStrings, shell.PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStrings, shlwapi/PathUnExpandEnvStringsA, shlwapi/PathUnExpandEnvStringsW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathUnExpandEnvStrings"
+f1_keywords:
+- shlwapi/PathUnExpandEnvStrings
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathUnExpandEnvStrings
- - PathUnExpandEnvStringsA
- - PathUnExpandEnvStringsW
+- PathUnExpandEnvStrings
+- PathUnExpandEnvStringsA
+- PathUnExpandEnvStringsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IExtendContextMenu
 title: IExtendContextMenu (mmc.h)
-
 description: The IExtendContextMenu interface enables a snap-in to add items to an existing context menu.
 old-location: mmc\iextendcontextmenu.htm
 tech.root: mmc
 ms.assetid: 8fa4434e-ccdc-43fb-877e-a6f6a5fc95b2
-
 ms.date: 12/05/2018
 ms.keywords: IExtendContextMenu, IExtendContextMenu interface [MMC], IExtendContextMenu interface [MMC],described, _slate_iextendcontextmenu, mmc.iextendcontextmenu, mmc/IExtendContextMenu
 ms.topic: interface
-f1_keywords: 
- - "mmc/IExtendContextMenu"
+f1_keywords:
+- mmc/IExtendContextMenu
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendContextMenu
+- IExtendContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

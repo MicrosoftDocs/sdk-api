@@ -1,19 +1,17 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputTypeSet
 title: IMediaObjectImpl::InputTypeSet (dmoimpl.h)
-
 description: The InputTypeSet method queries whether the media type was set on an input stream.
 old-location: dshow\imediaobjectimpl_inputtypeset.htm
 tech.root: DirectShow
 ms.assetid: f7f2f594-31ed-4c75-8221-9c62f8b4bed3
-
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputTypeSet method, IMediaObjectImpl.InputTypeSet, IMediaObjectImpl::InputTypeSet, IMediaObjectImplInputTypeSet, InputTypeSet, InputTypeSet method [DirectShow], InputTypeSet method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputTypeSet, dshow.imediaobjectimpl_inputtypeset
 ms.topic: method
-f1_keywords: 
- - "dmoimpl/IMediaObjectImpl.InputTypeSet"
+f1_keywords:
+- dmoimpl/IMediaObjectImpl.InputTypeSet
 dev_langs:
- - c++
+- c++
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dmoguids.lib; Msdmo.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
- - Msdmo.lib
- - Msdmo.dll
+- Dmoguids.lib
+- Dmoguids.dll
+- Msdmo.lib
+- Msdmo.dll
 api_name:
- - IMediaObjectImpl.InputTypeSet
+- IMediaObjectImpl.InputTypeSet
 targetos: Windows
 req.typenames: 
 req.redist: 

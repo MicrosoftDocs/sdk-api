@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetFlags
 title: IMFSensorGroup::GetFlags (mfidl.h)
-
 description: Gets the flags set for the sensor group.
 old-location: mf\imfsensorgroup_getflags.htm
 tech.root: medfound
 ms.assetid: 99143CFD-930A-405C-A8FB-8DBF52CD9BB5
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Media Foundation], GetFlags method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetFlags method, IMFSensorGroup.GetFlags, IMFSensorGroup::GetFlags, mf.imfsensorgroup_getflags, mfidl/IMFSensorGroup::GetFlags
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorGroup.GetFlags"
+f1_keywords:
+- mfidl/IMFSensorGroup.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorGroup.GetFlags
+- IMFSensorGroup.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

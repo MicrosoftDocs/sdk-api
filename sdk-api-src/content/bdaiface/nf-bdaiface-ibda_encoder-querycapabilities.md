@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_Encoder.QueryCapabilities
 title: IBDA_Encoder::QueryCapabilities (bdaiface.h)
-
 description: Gets the number of encoding formats supported by the device.
 old-location: mstv\ibda_encoder_querycapabilities.htm
 tech.root: mstv
 ms.assetid: 038f9360-0515-4655-9397-cd1bfb6c3d21
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_Encoder interface [Microsoft TV Technologies],QueryCapabilities method, IBDA_Encoder.QueryCapabilities, IBDA_Encoder::QueryCapabilities, QueryCapabilities, QueryCapabilities method [Microsoft TV Technologies], QueryCapabilities method [Microsoft TV Technologies],IBDA_Encoder interface, bdaiface/IBDA_Encoder::QueryCapabilities, mstv.ibda_encoder_querycapabilities
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_Encoder.QueryCapabilities"
+f1_keywords:
+- bdaiface/IBDA_Encoder.QueryCapabilities
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_Encoder.QueryCapabilities
+- IBDA_Encoder.QueryCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

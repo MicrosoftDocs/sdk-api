@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkCursor
 title: IInkCursor (msinkaut.h)
-
 description: Represents general information about the tablet cursor.
 old-location: tablet\iinkcursor.htm
 tech.root: tablet
 ms.assetid: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e
-
 ms.date: 12/05/2018
 ms.keywords: 39b365ad-1eb0-4183-8799-a3c3ecbd3f6e, IInkCursor, IInkCursor interface [Tablet PC], IInkCursor interface [Tablet PC],described, msinkaut/IInkCursor, tablet.iinkcursor
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkCursor"
+f1_keywords:
+- msinkaut/IInkCursor
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursor
+- IInkCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

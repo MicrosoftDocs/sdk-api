@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PostThreadMessageW
 title: PostThreadMessageW function (winuser.h)
-
 description: Posts a message to the message queue of the specified thread. It returns without waiting for the thread to process the message.
 old-location: winmsg\postthreadmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postthreadmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: PostThreadMessage, PostThreadMessage function [Windows and Messages], PostThreadMessageA, PostThreadMessageW, _win32_PostThreadMessage, _win32_postthreadmessage_cpp, winmsg.postthreadmessage, winui._win32_postthreadmessage, winuser/PostThreadMessage, winuser/PostThreadMessageA, winuser/PostThreadMessageW
 ms.topic: function
-f1_keywords: 
- - "winuser/PostThreadMessage"
+f1_keywords:
+- winuser/PostThreadMessage
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-message-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-message-l1-1-0.dll
- - Ext-MS-Win-NTUser-message-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - Ext-MS-Win-NTUser-Message-l1-1-2.dll
- - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-message-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-message-l1-1-0.dll
+- Ext-MS-Win-NTUser-message-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- Ext-MS-Win-NTUser-Message-l1-1-2.dll
+- Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - PostThreadMessage
- - PostThreadMessageA
- - PostThreadMessageW
+- PostThreadMessage
+- PostThreadMessageA
+- PostThreadMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfTextInputProcessor.Activate
 title: ITfTextInputProcessor::Activate (msctf.h)
-
 description: ITfTextInputProcessor::Activate method
 old-location: tsf\itftextinputprocessor_activate.htm
 tech.root: TSF
 ms.assetid: c5fd6b5c-0a78-4b5b-aad5-0c398798cf30
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Text Services Framework], Activate method [Text Services Framework],ITfTextInputProcessor interface, ITfTextInputProcessor interface [Text Services Framework],Activate method, ITfTextInputProcessor.Activate, ITfTextInputProcessor::Activate, _tsf_itftextinputprocessor_activate_ref, msctf/ITfTextInputProcessor::Activate, tsf.itftextinputprocessor_activate
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfTextInputProcessor.Activate"
+f1_keywords:
+- msctf/ITfTextInputProcessor.Activate
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sptip.dll
+- sptip.dll
 api_name:
- - ITfTextInputProcessor.Activate
+- ITfTextInputProcessor.Activate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

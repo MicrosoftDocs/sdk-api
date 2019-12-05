@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteStartElement
 title: WsWriteStartElement function (webservices.h)
-
 description: Writes a start element to the writer.
 old-location: wsw\wswritestartelement.htm
 tech.root: wsw
 ms.assetid: da23f5e6-504c-4e93-9190-7d8c41efc0da
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteStartElement, WsWriteStartElement function [Web Services for Windows], webservices/WsWriteStartElement, wsw.wswritestartelement
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteStartElement"
+f1_keywords:
+- webservices/WsWriteStartElement
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteStartElement
+- WsWriteStartElement
 targetos: Windows
 req.typenames: 
 req.redist: 

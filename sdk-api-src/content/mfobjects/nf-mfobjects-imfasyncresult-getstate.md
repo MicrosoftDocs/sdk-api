@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAsyncResult.GetState
 title: IMFAsyncResult::GetState (mfobjects.h)
-
 description: Returns the state object specified by the caller in the asynchronous Begin method.
 old-location: mf\imfasyncresult_getstate.htm
 tech.root: medfound
 ms.assetid: f8ed8e71-6df7-4c94-b400-b4651a00db5b
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFAsyncResult interface, IMFAsyncResult interface [Media Foundation],GetState method, IMFAsyncResult.GetState, IMFAsyncResult::GetState, f8ed8e71-6df7-4c94-b400-b4651a00db5b, mf.imfasyncresult_getstate, mfobjects/IMFAsyncResult::GetState
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAsyncResult.GetState"
+f1_keywords:
+- mfobjects/IMFAsyncResult.GetState
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAsyncResult.GetState
+- IMFAsyncResult.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

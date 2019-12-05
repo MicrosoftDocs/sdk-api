@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.IEnumNetSharingEveryConnection
 title: IEnumNetSharingEveryConnection (netcon.h)
-
 description: The IEnumNetSharingEveryConnection interface provides methods for enumerating all the connections in the Connections folder.
 old-location: ics\ienumnetsharingeveryconnection.htm
 tech.root: ics
 ms.assetid: d3be8047-e0d5-44b7-97d9-536bc4aa11c5
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingEveryConnection, IEnumNetSharingEveryConnection interface [ICS/ICF], IEnumNetSharingEveryConnection interface [ICS/ICF],described, _ics_ienumnetsharingeveryconnection, ics.ienumnetsharingeveryconnection, netcon/IEnumNetSharingEveryConnection
 ms.topic: interface
-f1_keywords: 
- - "netcon/IEnumNetSharingEveryConnection"
+f1_keywords:
+- netcon/IEnumNetSharingEveryConnection
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingEveryConnection
+- IEnumNetSharingEveryConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

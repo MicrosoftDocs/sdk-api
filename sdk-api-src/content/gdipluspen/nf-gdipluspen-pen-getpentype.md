@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetPenType
 title: Pen::GetPenType (gdipluspen.h)
-
 description: The Pen::GetPenType method gets the type currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetPenType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getpentype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPenType, GetPenType method [GDI+], GetPenType method [GDI+],Pen class, Pen class [GDI+],GetPenType method, Pen.GetPenType, Pen::GetPenType, _gdiplus_CLASS_Pen_GetPenType_, gdiplus._gdiplus_CLASS_Pen_GetPenType_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetPenType"
+f1_keywords:
+- gdipluspen/Pen.GetPenType
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetPenType
+- Pen.GetPenType
 targetos: Windows
 req.typenames: 
 req.redist: 

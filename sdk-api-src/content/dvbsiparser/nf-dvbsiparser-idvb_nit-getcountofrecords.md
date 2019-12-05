@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetCountOfRecords
 title: IDVB_NIT::GetCountOfRecords (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: fb0f8071-575a-4bbd-b34b-b8d92c17c476
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDVB_NIT interface, IDVB_NIT interface [Microsoft TV Technologies],GetCountOfRecords method, IDVB_NIT.GetCountOfRecords, IDVB_NIT::GetCountOfRecords, IDVB_NITGetCountOfRecords, dvbsiparser/IDVB_NIT::GetCountOfRecords, mstv.idvb_nit_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_NIT.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IDVB_NIT.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_NIT.GetCountOfRecords
+- IDVB_NIT.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilResourcesEqual
 title: ResUtilResourcesEqual function (resapi.h)
-
 description: Tests whether two resource handles represent the same resource. The PRESUTIL_RESOURCES_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilresourcesequal.htm
 tech.root: MsCS
 ms.assetid: a34bbe15-f13f-4034-b2f1-fea3e58c579e
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_RESOURCES_EQUAL, PRESUTIL_RESOURCES_EQUAL function [Failover Cluster], ResUtilResourcesEqual, ResUtilResourcesEqual function [Failover Cluster], _wolf_resutilresourcesequal, mscs.resutilresourcesequal, resapi/PRESUTIL_RESOURCES_EQUAL, resapi/ResUtilResourcesEqual
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilResourcesEqual"
+f1_keywords:
+- resapi/ResUtilResourcesEqual
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilResourcesEqual
+- ResUtilResourcesEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

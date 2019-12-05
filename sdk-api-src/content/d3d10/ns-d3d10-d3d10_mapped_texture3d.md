@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_MAPPED_TEXTURE3D
 title: D3D10_MAPPED_TEXTURE3D (d3d10.h)
-
 description: Provides access to subresource data in a 3D texture.
 old-location: direct3d10\d3d10_mapped_texture3d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_mapped_texture3d.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_MAPPED_TEXTURE3D, D3D10_MAPPED_TEXTURE3D structure [Direct3D 10], d3d10/D3D10_MAPPED_TEXTURE3D, d6a9ab51-df0f-5e41-8e19-a9049f06d5ed, direct3d10.d3d10_mapped_texture3d
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_MAPPED_TEXTURE3D"
+f1_keywords:
+- d3d10/D3D10_MAPPED_TEXTURE3D
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_MAPPED_TEXTURE3D
+- D3D10_MAPPED_TEXTURE3D
 targetos: Windows
 req.typenames: D3D10_MAPPED_TEXTURE3D
 req.redist: 

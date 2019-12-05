@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPCFLAG_IM_FEATURE
 title: WPCFLAG_IM_FEATURE (wpcevent.h)
-
 description: Indicates information about the features accessed during an instant messaging interaction.
 old-location: parcon\wpcflag_im_feature.htm
 tech.root: parcon
 ms.assetid: 2e38fb00-21b7-41c7-8fac-09a417408e68
-
 ms.date: 12/05/2018
 ms.keywords: WPCFLAG_IM_FEATURE, WPCFLAG_IM_FEATURE enumeration, WPCFLAG_IM_FEATURE_ALL, WPCFLAG_IM_FEATURE_AUDIO, WPCFLAG_IM_FEATURE_FILESWAP, WPCFLAG_IM_FEATURE_GAME, WPCFLAG_IM_FEATURE_NONE, WPCFLAG_IM_FEATURE_SENDING, WPCFLAG_IM_FEATURE_SMS, WPCFLAG_IM_FEATURE_URLSWAP, WPCFLAG_IM_FEATURE_VIDEO, parcon.wpcflag_im_feature, wpcevent/WPCFLAG_IM_FEATURE, wpcevent/WPCFLAG_IM_FEATURE_ALL, wpcevent/WPCFLAG_IM_FEATURE_AUDIO, wpcevent/WPCFLAG_IM_FEATURE_FILESWAP, wpcevent/WPCFLAG_IM_FEATURE_GAME, wpcevent/WPCFLAG_IM_FEATURE_NONE, wpcevent/WPCFLAG_IM_FEATURE_SENDING, wpcevent/WPCFLAG_IM_FEATURE_SMS, wpcevent/WPCFLAG_IM_FEATURE_URLSWAP, wpcevent/WPCFLAG_IM_FEATURE_VIDEO
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPCFLAG_IM_FEATURE"
+f1_keywords:
+- wpcevent/WPCFLAG_IM_FEATURE
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPCFLAG_IM_FEATURE
+- WPCFLAG_IM_FEATURE
 targetos: Windows
 req.typenames: WPCFLAG_IM_FEATURE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetOldNumbers
 title: ITextFont2::GetOldNumbers (tom.h)
-
 description: Gets whether old-style numbers are active.
 old-location: controls\itextfont2_getoldnumbers.htm
 tech.root: Controls
 ms.assetid: 8e800840-5ca2-4fbf-94c2-d51aa73bf188
-
 ms.date: 12/05/2018
 ms.keywords: GetOldNumbers, GetOldNumbers method [Windows Controls], GetOldNumbers method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOldNumbers method, ITextFont2.GetOldNumbers, ITextFont2::GetOldNumbers, controls.itextfont2_getoldnumbers, tom/ITextFont2::GetOldNumbers
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetOldNumbers"
+f1_keywords:
+- tom/ITextFont2.GetOldNumbers
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetOldNumbers
+- ITextFont2.GetOldNumbers
 targetos: Windows
 req.typenames: 
 req.redist: 

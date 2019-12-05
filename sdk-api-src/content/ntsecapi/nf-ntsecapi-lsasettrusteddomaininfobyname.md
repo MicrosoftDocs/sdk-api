@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaSetTrustedDomainInfoByName
 title: LsaSetTrustedDomainInfoByName function (ntsecapi.h)
-
 description: The LsaSetTrustedDomainInfoByName function sets values for a TrustedDomain object.
 old-location: security\lsasettrusteddomaininfobyname.htm
 tech.root: SecMgmt
 ms.assetid: 263e1025-1010-463d-8bc7-cdf916ce9872
-
 ms.date: 12/05/2018
 ms.keywords: LsaSetTrustedDomainInfoByName, LsaSetTrustedDomainInfoByName function [Security], TrustedDomainAuthInformation, TrustedDomainFullInformation, TrustedDomainInformationEx, TrustedPosixInformation, _lsa_lsasettrusteddomaininfobyname, ntsecapi/LsaSetTrustedDomainInfoByName, security.lsasettrusteddomaininfobyname
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaSetTrustedDomainInfoByName
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.ShowMenu
 title: IDvdControl2::ShowMenu (strmif.h)
-
 description: The ShowMenu method displays the specified menu, if available.
 old-location: dshow\idvdcontrol2_showmenu.htm
 tech.root: DirectShow
 ms.assetid: 7427ff6c-875b-40ce-aa96-3d32b607dc56
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ShowMenu method, IDvdControl2.ShowMenu, IDvdControl2::ShowMenu, IDvdControl2ShowMenu, ShowMenu, ShowMenu method [DirectShow], ShowMenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_showmenu, strmif/IDvdControl2::ShowMenu
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.ShowMenu"
+f1_keywords:
+- strmif/IDvdControl2.ShowMenu
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.ShowMenu
+- IDvdControl2.ShowMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

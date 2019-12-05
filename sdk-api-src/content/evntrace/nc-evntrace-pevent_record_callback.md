@@ -1,19 +1,17 @@
 ---
 UID: NC:evntrace.PEVENT_RECORD_CALLBACK
 title: PEVENT_RECORD_CALLBACK (evntrace.h)
-
 description: Consumers implement this callback to receive events from a session. The PEVENT_RECORD_CALLBACK type defines a pointer to this callback function. EventRecordCallback is a placeholder for the application-defined function name.
 old-location: etw\eventrecordcallback.htm
 tech.root: ETW
 ms.assetid: 80a30faf-af1f-4440-8a17-9df44bdb2291
-
 ms.date: 12/05/2018
 ms.keywords: EventRecordCallback, EventRecordCallback callback function [ETW], PEVENT_RECORD_CALLBACK, PEVENT_RECORD_CALLBACK callback, etw.eventrecordcallback, evntrace/EventRecordCallback
 ms.topic: callback
 f1_keywords:
 - evntrace/EventRecordCallback
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumPins.Skip
 title: IEnumPins::Skip (strmif.h)
-
 description: The Skip method skips over a specified number of pins.
 old-location: dshow\ienumpins_skip.htm
 tech.root: DirectShow
 ms.assetid: 501d08ee-ebd1-48dc-8cc9-bf017034b4cd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPins interface [DirectShow],Skip method, IEnumPins.Skip, IEnumPins::Skip, IEnumPinsSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPins interface, dshow.ienumpins_skip, strmif/IEnumPins::Skip
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumPins.Skip"
+f1_keywords:
+- strmif/IEnumPins.Skip
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumPins.Skip
+- IEnumPins.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

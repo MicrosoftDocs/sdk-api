@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrCmp
 title: VarBstrCmp function (oleauto.h)
-
 description: Compares two variants of type BSTR.
 old-location: automat\varbstrcmp.htm
 tech.root: automat
 ms.assetid: 0b7d8735-19d5-4f6e-8b55-05f2c73ef3f8
-
 ms.date: 12/05/2018
 ms.keywords: NORM_IGNORECASE, NORM_IGNOREKANATYPE, NORM_IGNOREKASHIDA, NORM_IGNORENONSPACE, NORM_IGNORESYMBOLS, NORM_IGNOREWIDTH, VarBstrCmp, VarBstrCmp function [Automation], _oa96_VarBstrCmp, automat.varbstrcmp, oleauto/VarBstrCmp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrCmp"
+f1_keywords:
+- oleauto/VarBstrCmp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrCmp
+- VarBstrCmp
 targetos: Windows
 req.typenames: 
 req.redist: 

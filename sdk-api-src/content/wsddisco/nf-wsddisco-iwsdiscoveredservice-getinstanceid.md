@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetInstanceId
 title: IWSDiscoveredService::GetInstanceId (wsddisco.h)
-
 description: Retrieves the instance identifier of this message.
 old-location: ncd\iwsdiscoveredservice_getinstanceid.htm
 tech.root: WsdApi
 ms.assetid: 993f4ef1-ff13-4454-b22f-29c9628da5e0
-
 ms.date: 12/05/2018
 ms.keywords: GetInstanceId, GetInstanceId method, GetInstanceId method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetInstanceId method, IWSDiscoveredService.GetInstanceId, IWSDiscoveredService::GetInstanceId, ncd.iwsdiscoveredservice_getinstanceid, wsddisco/IWSDiscoveredService::GetInstanceId
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveredService.GetInstanceId"
+f1_keywords:
+- wsddisco/IWSDiscoveredService.GetInstanceId
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetInstanceId
+- IWSDiscoveredService.GetInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 

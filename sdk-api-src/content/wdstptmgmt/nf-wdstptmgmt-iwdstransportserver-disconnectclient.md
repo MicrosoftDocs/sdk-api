@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServer.DisconnectClient
 title: IWdsTransportServer::DisconnectClient (wdstptmgmt.h)
-
 description: Disconnects a WDS client from a transport session and specifies what action the WDS client should take upon disconnection.
 old-location: wds\iwdstransportserver_disconnectclient.htm
 tech.root: wds
 ms.assetid: 7ab63f7e-1840-40d1-8933-ea92042aaced
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectClient, DisconnectClient method [Windows Deployment Services], DisconnectClient method [Windows Deployment Services],IWdsTransportServer interface, IWdsTransportServer interface [Windows Deployment Services],DisconnectClient method, IWdsTransportServer.DisconnectClient, IWdsTransportServer::DisconnectClient, wds.iwdstransportserver_disconnectclient, wdstptmgmt/IWdsTransportServer::DisconnectClient
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServer.DisconnectClient"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServer.DisconnectClient
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer.DisconnectClient
+- IWdsTransportServer.DisconnectClient
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPStorage4
 title: IMDSPStorage4 (mswmdm.h)
-
 description: The IMDSPStorage4 interface extends IMDSPStorage3 for supporting virtual storages (such as playlists and albums) and metadata.Note  Unless the service provider has added the device parameter UseExtendedWmdm with a value of 1, Windows Media Device Manager will not call this interface. See Device Parameters for more information about this. .
 old-location: wmdm\imdspstorage4.htm
 tech.root: WMDM
 ms.assetid: c1236acc-1f11-4501-9374-2486f7d61db3
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPStorage4, IMDSPStorage4 interface [windows Media Device Manager], IMDSPStorage4 interface [windows Media Device Manager],described, IMDSPStorage4Interface, mswmdm/IMDSPStorage4, wmdm.imdspstorage4
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPStorage4"
+f1_keywords:
+- mswmdm/IMDSPStorage4
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPStorage4
+- IMDSPStorage4
 targetos: Windows
 req.typenames: 
 req.redist: 

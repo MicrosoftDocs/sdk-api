@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetTime
 title: IAMMediaTypeSample::SetTime (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SetTime method sets the stream times at which the sample should start and stop.
 old-location: dshow\iammediatypesample_settime.htm
 tech.root: DirectShow
 ms.assetid: b8f2c1bd-ea78-43b8-881c-d1f1a64ee575
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetTime method, IAMMediaTypeSample.SetTime, IAMMediaTypeSample::SetTime, IAMMediaTypeSampleSetTime, SetTime, SetTime method [DirectShow], SetTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetTime, dshow.iammediatypesample_settime
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.SetTime"
+f1_keywords:
+- amstream/IAMMediaTypeSample.SetTime
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.SetTime
+- IAMMediaTypeSample.SetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

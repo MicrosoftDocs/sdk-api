@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetSourceSize
 title: IDXGISwapChain2::GetSourceSize (dxgi1_3.h)
-
 description: Gets the source region used for the swap chain.
 old-location: direct3ddxgi\idxgioutpu2_getsourcesize.htm
 tech.root: direct3ddxgi
 ms.assetid: C7E9BC13-74E5-4981-8F87-390F95B71AE0
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceSize, GetSourceSize method [DXGI], GetSourceSize method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetSourceSize method, IDXGISwapChain2.GetSourceSize, IDXGISwapChain2::GetSourceSize, direct3ddxgi.idxgioutpu2_getsourcesize, dxgi1_3/IDXGISwapChain2::GetSourceSize
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChain2.GetSourceSize"
+f1_keywords:
+- dxgi1_3/IDXGISwapChain2.GetSourceSize
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGISwapChain2.GetSourceSize
+- IDXGISwapChain2.GetSourceSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetBorderColor
 title: IVMRWindowlessControl::GetBorderColor (strmif.h)
-
 description: The GetBorderColor method retrieves the current border color used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_getbordercolor.htm
 tech.root: DirectShow
 ms.assetid: f0bf04c8-17e6-4e1f-b35f-2e10c9de8b92
-
 ms.date: 12/05/2018
 ms.keywords: GetBorderColor, GetBorderColor method [DirectShow], GetBorderColor method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetBorderColor method, IVMRWindowlessControl.GetBorderColor, IVMRWindowlessControl::GetBorderColor, IVMRWindowlessControlGetBorderColor, dshow.ivmrwindowlesscontrol_getbordercolor, strmif/IVMRWindowlessControl::GetBorderColor
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRWindowlessControl.GetBorderColor"
+f1_keywords:
+- strmif/IVMRWindowlessControl.GetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl.GetBorderColor
+- IVMRWindowlessControl.GetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

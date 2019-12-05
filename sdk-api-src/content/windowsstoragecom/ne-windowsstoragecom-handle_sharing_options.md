@@ -1,19 +1,17 @@
 ---
 UID: NE:windowsstoragecom.HANDLE_SHARING_OPTIONS
 title: HANDLE_SHARING_OPTIONS (windowsstoragecom.h)
-
 description: Defines the requested sharing mode of the file handle.
 old-location: winrt\handle_sharing_options.htm
 tech.root: WinRT
 ms.assetid: 2CF1B6A9-6B6F-4413-8D76-B2F7A9D6D02E
-
 ms.date: 12/05/2018
 ms.keywords: HANDLE_SHARING_OPTIONS, HANDLE_SHARING_OPTIONS enumeration [Windows Runtime], HSO_SHARE_DELETE, HSO_SHARE_NONE, HSO_SHARE_READ, HSO_SHARE_WRITE, windowsstoragecom/HANDLE_SHARING_OPTIONS, windowsstoragecom/HSO_SHARE_DELETE, windowsstoragecom/HSO_SHARE_NONE, windowsstoragecom/HSO_SHARE_READ, windowsstoragecom/HSO_SHARE_WRITE, winrt.handle_sharing_options
 ms.topic: enum
-f1_keywords: 
- - "windowsstoragecom/HANDLE_SHARING_OPTIONS"
+f1_keywords:
+- windowsstoragecom/HANDLE_SHARING_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windowsstoragecom.h
+- windowsstoragecom.h
 api_name:
- - HANDLE_SHARING_OPTIONS
+- HANDLE_SHARING_OPTIONS
 targetos: Windows
 req.typenames: HANDLE_SHARING_OPTIONS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.InsertAt
 title: IXpsOMColorProfileResourceCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomcolorprofileresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 1576e48f-f238-42d5-b028-4ee3cd1b7287
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMColorProfileResourceCollection.InsertAt, IXpsOMColorProfileResourceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMColorProfileResourceCollection interface, xps.ixpsomcolorprofileresourcecollection_insertat, xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMColorProfileResourceCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMColorProfileResourceCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMColorProfileResourceCollection.InsertAt
+- IXpsOMColorProfileResourceCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

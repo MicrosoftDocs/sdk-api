@@ -1,19 +1,17 @@
 ---
 UID: NS:immdev.tagIMEMENUITEMINFOA
 title: IMEMENUITEMINFOA (immdev.h)
-
 description: Contains information about IME menu items.
 old-location: intl\imemenuiteminfo.htm
 tech.root: Intl
 ms.assetid: 2e00993f-6720-4139-8097-a3d830e661ca
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *PIMEMENUITEMINFOA, IMEMENUITEMINFO, IMEMENUITEMINFO structure [Internationalization for Windows Applications], IMEMENUITEMINFOA, IMEMENUITEMINFOW, PIMEMENUITEMINFO, PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications], _win32_IMEMENUITEMINFO_str, imm/IMEMENUITEMINFO, imm/IMEMENUITEMINFOA, imm/IMEMENUITEMINFOW, imm/PIMEMENUITEMINFO, intl.imemenuiteminfo, tagIMEMENUITEMINFOA, tagIMEMENUITEMINFOW"
+ms.keywords: '*LPIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *PIMEMENUITEMINFOA, IMEMENUITEMINFO, IMEMENUITEMINFO structure [Internationalization for Windows Applications], IMEMENUITEMINFOA, IMEMENUITEMINFOW, PIMEMENUITEMINFO, PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications], _win32_IMEMENUITEMINFO_str, imm/IMEMENUITEMINFO, imm/IMEMENUITEMINFOA, imm/IMEMENUITEMINFOW, imm/PIMEMENUITEMINFO, intl.imemenuiteminfo, tagIMEMENUITEMINFOA, tagIMEMENUITEMINFOW'
 ms.topic: struct
-f1_keywords: 
- - "immdev/IMEMENUITEMINFO"
+f1_keywords:
+- immdev/IMEMENUITEMINFO
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - IMEMENUITEMINFO
- - IMEMENUITEMINFOA
- - IMEMENUITEMINFOW
+- IMEMENUITEMINFO
+- IMEMENUITEMINFOA
+- IMEMENUITEMINFOW
 targetos: Windows
 req.typenames: IMEMENUITEMINFOA, *PIMEMENUITEMINFOA, *NPIMEMENUITEMINFOA, *LPIMEMENUITEMINFOA
 req.redist: 

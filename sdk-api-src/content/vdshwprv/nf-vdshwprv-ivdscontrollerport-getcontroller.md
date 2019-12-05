@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsControllerPort.GetController
 title: IVdsControllerPort::GetController (vdshwprv.h)
-
 description: Returns the controller to which the controller port belongs.
 old-location: base\ivdscontrollerport_getcontroller.htm
 tech.root: VDS
 ms.assetid: 12532ac2-96bd-4ebf-9d09-c240e7357e20
-
 ms.date: 12/05/2018
 ms.keywords: GetController, GetController method [VDS], GetController method [VDS],IVdsControllerPort interface, IVdsControllerPort interface [VDS],GetController method, IVdsControllerPort.GetController, IVdsControllerPort::GetController, base.ivdscontrollerport_getcontroller, vds/IVdsControllerPort::GetController, vdshwprv/IVdsControllerPort::GetController
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsControllerPort.GetController"
+f1_keywords:
+- vdshwprv/IVdsControllerPort.GetController
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - IVdsControllerPort.GetController
+- IVdsControllerPort.GetController
 targetos: Windows
 req.typenames: 
 req.redist: 

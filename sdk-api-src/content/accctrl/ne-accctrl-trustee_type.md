@@ -1,19 +1,17 @@
 ---
 UID: NE:accctrl._TRUSTEE_TYPE
 title: TRUSTEE_TYPE (accctrl.h)
-
 description: Values that indicate the type of trustee identified by a TRUSTEE structure.
 old-location: security\trustee_type.htm
 tech.root: SecAuthZ
 ms.assetid: 6519c79d-9cee-4565-a71e-0b81a27c1185
-
 ms.date: 12/05/2018
 ms.keywords: TRUSTEE_IS_ALIAS, TRUSTEE_IS_COMPUTER, TRUSTEE_IS_DELETED, TRUSTEE_IS_DOMAIN, TRUSTEE_IS_GROUP, TRUSTEE_IS_INVALID, TRUSTEE_IS_UNKNOWN, TRUSTEE_IS_USER, TRUSTEE_IS_WELL_KNOWN_GROUP, TRUSTEE_TYPE, TRUSTEE_TYPE enumeration [Security], _win32_trustee_type_str, accctrl/TRUSTEE_IS_ALIAS, accctrl/TRUSTEE_IS_COMPUTER, accctrl/TRUSTEE_IS_DELETED, accctrl/TRUSTEE_IS_DOMAIN, accctrl/TRUSTEE_IS_GROUP, accctrl/TRUSTEE_IS_INVALID, accctrl/TRUSTEE_IS_UNKNOWN, accctrl/TRUSTEE_IS_USER, accctrl/TRUSTEE_IS_WELL_KNOWN_GROUP, accctrl/TRUSTEE_TYPE, security.trustee_type
 ms.topic: enum
-f1_keywords: 
- - "accctrl/TRUSTEE_TYPE"
+f1_keywords:
+- accctrl/TRUSTEE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AccCtrl.h
+- AccCtrl.h
 api_name:
- - TRUSTEE_TYPE
+- TRUSTEE_TYPE
 targetos: Windows
 req.typenames: TRUSTEE_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader2.GetQualifiedResources
 title: IAppxManifestReader2::GetQualifiedResources (appxpackaging.h)
-
 description: Gets an enumerator that iterates through the qualified resources that are defined in the manifest.
 old-location: appxpkg\iappxmanifestreader2_getqualifiedresources.htm
 tech.root: appxpkg
 ms.assetid: C712DA82-CA4F-4C5B-A391-3B40D5EE61C4
-
 ms.date: 12/05/2018
 ms.keywords: GetQualifiedResources, GetQualifiedResources method [App packaging and management], GetQualifiedResources method [App packaging and management],IAppxManifestReader2 interface, IAppxManifestReader2 interface [App packaging and management],GetQualifiedResources method, IAppxManifestReader2.GetQualifiedResources, IAppxManifestReader2::GetQualifiedResources, appxpackaging/IAppxManifestReader2::GetQualifiedResources, appxpkg.iappxmanifestreader2_getqualifiedresources
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestReader2.GetQualifiedResources"
+f1_keywords:
+- appxpackaging/IAppxManifestReader2.GetQualifiedResources
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestReader2.GetQualifiedResources
+- IAppxManifestReader2.GetQualifiedResources
 targetos: Windows
 req.typenames: 
 req.redist: 

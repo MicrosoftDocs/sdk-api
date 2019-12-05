@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetGroupRect
 title: ListView_GetGroupRect macro (commctrl.h)
-
 description: Gets the rectangle for a specified group. Use this macro or send the LVM_GETGROUPRECT message explicitly.
 old-location: controls\ListView_GetGroupRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgrouprect.htm
-
 ms.date: 12/05/2018
 ms.keywords: LVGGR_GROUP, LVGGR_HEADER, LVGGR_LABEL, LVGGR_SUBSETLINK, ListView_GetGroupRect, ListView_GetGroupRect macro [Windows Controls], _shell_ListView_GetGroupRect, _shell_ListView_GetGroupRect_cpp, commctrl/ListView_GetGroupRect, controls.ListView_GetGroupRect, controls._shell_ListView_GetGroupRect
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetGroupRect"
+f1_keywords:
+- commctrl/ListView_GetGroupRect
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetGroupRect
+- ListView_GetGroupRect
 targetos: Windows
 req.typenames: 
 req.redist: 

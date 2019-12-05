@@ -1,19 +1,17 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_TYPE
 title: TARGET_TYPE (sessdirpublictypes.h)
-
 description: Indicates whether a target belongs to a pool or farm.
 old-location: termserv\target_type.htm
 tech.root: TermServ
 ms.assetid: 4ad44a75-0975-4933-a914-a64a82fcae6c
-
 ms.date: 12/05/2018
 ms.keywords: FARM, NONFARM, TARGET_TYPE, TARGET_TYPE enumeration [Remote Desktop Services], UNKNOWN, sessdirpublictypes/FARM, sessdirpublictypes/NONFARM, sessdirpublictypes/TARGET_TYPE, sessdirpublictypes/UNKNOWN, termserv.target_type
 ms.topic: enum
-f1_keywords: 
- - "sessdirpublictypes/TARGET_TYPE"
+f1_keywords:
+- sessdirpublictypes/TARGET_TYPE
 dev_langs:
- - c++
+- c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SessDirPublicTypes.h
+- SessDirPublicTypes.h
 api_name:
- - TARGET_TYPE
+- TARGET_TYPE
 targetos: Windows
 req.typenames: TARGET_TYPE
 req.redist: 

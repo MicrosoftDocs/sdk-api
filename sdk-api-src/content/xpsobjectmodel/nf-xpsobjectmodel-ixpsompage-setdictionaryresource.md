@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetDictionaryResource
 title: IXpsOMPage::SetDictionaryResource (xpsobjectmodel.h)
-
 description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the page's remote dictionary resource.
 old-location: xps\ixpsompage_setdictionaryresource.htm
 tech.root: printdocs
 ms.assetid: e424c70e-289c-4519-8b20-5fb98d46bf34
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPage interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMPage.SetDictionaryResource, IXpsOMPage::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMPage interface, xps.ixpsompage_setdictionaryresource, xpsobjectmodel/IXpsOMPage::SetDictionaryResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.SetDictionaryResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.SetDictionaryResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.SetDictionaryResource
+- IXpsOMPage.SetDictionaryResource
 targetos: Windows
 req.typenames: 
 req.redist: 

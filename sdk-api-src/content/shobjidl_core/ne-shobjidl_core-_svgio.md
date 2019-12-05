@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._SVGIO
 title: _SVGIO (shobjidl_core.h)
-
 description: Used with the IFolderView::Items, IFolderView::ItemCount, and IShellView::GetItemObject methods to restrict or control the items in their collections.
 old-location: shell\SVGIO.htm
 tech.root: shell
 ms.assetid: 06ed616b-8121-4ea0-bd05-632888d0f376
-
 ms.date: 12/05/2018
 ms.keywords: SVGIO_ALLVIEW, SVGIO_BACKGROUND, SVGIO_CHECKED, SVGIO_FLAG_VIEWORDER, SVGIO_SELECTION, SVGIO_TYPE_MASK, _SVGIO, _SVGIO enumeration [Windows Shell], _shell_SVGIO, shell.SVGIO, shobjidl_core/SVGIO_ALLVIEW, shobjidl_core/SVGIO_BACKGROUND, shobjidl_core/SVGIO_CHECKED, shobjidl_core/SVGIO_FLAG_VIEWORDER, shobjidl_core/SVGIO_SELECTION, shobjidl_core/SVGIO_TYPE_MASK, shobjidl_core/_SVGIO
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/_SVGIO"
+f1_keywords:
+- shobjidl_core/_SVGIO
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - _SVGIO
+- _SVGIO
 targetos: Windows
-req.typenames: "_SVGIO"
+req.typenames: _SVGIO
 req.redist: 
 ms.custom: 19H1
 ---

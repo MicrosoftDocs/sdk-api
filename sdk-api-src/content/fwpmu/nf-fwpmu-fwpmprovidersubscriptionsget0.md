@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderSubscriptionsGet0
 title: FwpmProviderSubscriptionsGet0 function (fwpmu.h)
-
 description: Retrieves an array of all the current provider change notification subscriptions.
 old-location: fwp\fwpmprovidersubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: c37a690a-8f5e-4f97-b676-e977ff2a5621
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderSubscriptionsGet0, FwpmProviderSubscriptionsGet0 function [Filtering], fwp.fwpmprovidersubscriptionsget0_func, fwpmu/FwpmProviderSubscriptionsGet0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderSubscriptionsGet0"
+f1_keywords:
+- fwpmu/FwpmProviderSubscriptionsGet0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderSubscriptionsGet0
+- FwpmProviderSubscriptionsGet0
 targetos: Windows
 req.typenames: 
 req.redist: 

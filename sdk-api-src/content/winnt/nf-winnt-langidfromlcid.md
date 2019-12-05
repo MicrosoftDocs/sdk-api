@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.LANGIDFROMLCID
 title: LANGIDFROMLCID macro (winnt.h)
-
 description: Retrieves a language identifier from a locale identifier.
 old-location: intl\langidfromlcid.htm
 tech.root: Intl
 ms.assetid: 23392f93-8724-4b58-879e-4f48aaba4084
-
 ms.date: 12/05/2018
 ms.keywords: LANGIDFROMLCID, LANGIDFROMLCID macro [Internationalization for Windows Applications], _win32_LANGIDFROMLCID, intl.langidfromlcid, winnt/LANGIDFROMLCID
 ms.topic: macro
-f1_keywords: 
- - "winnt/LANGIDFROMLCID"
+f1_keywords:
+- winnt/LANGIDFROMLCID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - LANGIDFROMLCID
+- LANGIDFROMLCID
 targetos: Windows
 req.typenames: 
 req.redist: 

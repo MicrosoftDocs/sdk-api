@@ -1,19 +1,17 @@
 ---
 UID: NE:winioctl._WRITE_CACHE_TYPE
 title: WRITE_CACHE_TYPE
-
 description: Specifies the cache type.
 old-location: fs\write_cache_type.htm
 tech.root: FileIO
 ms.assetid: fb861a65-5207-4af3-b994-0883febcbb0a
-
 ms.date: 12/05/2018
 ms.keywords: WRITE_CACHE_TYPE, WRITE_CACHE_TYPE enumeration [Files], WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, fs.write_cache_type, winioctl/WRITE_CACHE_TYPE, winioctl/WriteCacheTypeNone, winioctl/WriteCacheTypeUnknown, winioctl/WriteCacheTypeWriteBack, winioctl/WriteCacheTypeWriteThrough
 ms.topic: enum
 f1_keywords:
 - winioctl/WRITE_CACHE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows

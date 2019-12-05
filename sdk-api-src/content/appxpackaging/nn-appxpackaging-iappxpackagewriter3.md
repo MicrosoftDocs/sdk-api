@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxPackageWriter3
 title: IAppxPackageWriter3 (appxpackaging.h)
-
 description: Provides a write-only object model for app packages.
 old-location: appxpkg\iappxpackagewriter3.htm
 tech.root: appxpkg
 ms.assetid: 0373AC0B-8988-494B-A795-CAA62A538FE4
-
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageWriter3, IAppxPackageWriter3 interface [App packaging and management], IAppxPackageWriter3 interface [App packaging and management],described, appxpackaging/IAppxPackageWriter3, appxpkg.iappxpackagewriter3
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxPackageWriter3"
+f1_keywords:
+- appxpackaging/IAppxPackageWriter3
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageWriter3
+- IAppxPackageWriter3
 targetos: Windows
 req.typenames: 
 req.redist: 

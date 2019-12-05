@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.Draw
 title: IInkRenderer::Draw (msinkaut.h)
-
 description: Draws ink strokes using the known device context.
 old-location: tablet\inkrenderer_draw.htm
 tech.root: tablet
 ms.assetid: 18f67080-ed56-43af-b0d6-8af35c2e871b
-
 ms.date: 12/05/2018
 ms.keywords: 18f67080-ed56-43af-b0d6-8af35c2e871b, Draw, Draw method [Tablet PC], Draw method [Tablet PC],IInkRenderer interface, IInkRenderer, IInkRenderer interface [Tablet PC],Draw method, IInkRenderer.Draw, IInkRenderer::Draw, msinkaut/IInkRenderer::Draw, tablet.inkrenderer_draw
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.Draw"
+f1_keywords:
+- msinkaut/IInkRenderer.Draw
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.Draw
+- IInkRenderer.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

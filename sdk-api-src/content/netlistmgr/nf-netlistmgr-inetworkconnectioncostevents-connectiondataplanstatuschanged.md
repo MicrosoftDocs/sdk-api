@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
 title: INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged (netlistmgr.h)
-
 description: ConnectionDataPlanStatusChanged method notifies an application of a data plan status change on a connection.
 old-location: nla\inetworkconnectioncostevents_connectiondataplanstatuschanged.htm
 tech.root: nla
 ms.assetid: F965C648-EC59-40E4-8E8A-FE5A7E8FDAEA
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionDataPlanStatusChanged, ConnectionDataPlanStatusChanged method [Network Awareness], ConnectionDataPlanStatusChanged method [Network Awareness],INetworkConnectionCostEvents interface, INetworkConnectionCostEvents interface [Network Awareness],ConnectionDataPlanStatusChanged method, INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged, INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, netlistmgr/INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged, nla.inetworkconnectioncostevents_connectiondataplanstatuschanged
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged"
+f1_keywords:
+- netlistmgr/INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
+- INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

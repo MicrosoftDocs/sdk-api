@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.SetWriterByIndex
 title: IWICMetadataBlockWriter::SetWriterByIndex (wincodecsdk.h)
-
 description: Replaces the metadata writer at the specified index location.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_setwriterbyindex.htm
 tech.root: wic
 ms.assetid: cf8f45ee-44ca-431c-b9c2-1b00c5574afe
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter interface [Windows Imaging Component],SetWriterByIndex method, IWICMetadataBlockWriter.SetWriterByIndex, IWICMetadataBlockWriter::SetWriterByIndex, SetWriterByIndex, SetWriterByIndex method [Windows Imaging Component], SetWriterByIndex method [Windows Imaging Component],IWICMetadataBlockWriter interface, _wic_codec_iwicmetadatablockwriter_setwriterbyindex, wic._wic_codec_iwicmetadatablockwriter_setwriterbyindex, wincodecsdk/IWICMetadataBlockWriter::SetWriterByIndex
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockWriter.SetWriterByIndex"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockWriter.SetWriterByIndex
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockWriter.SetWriterByIndex
+- IWICMetadataBlockWriter.SetWriterByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

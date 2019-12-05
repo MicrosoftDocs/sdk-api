@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_CheckZoneCrossing
 title: IBrowserService2::v_CheckZoneCrossing (shdeprecated.h)
-
 description: Deprecated. Called by the base class to validate a zone crossing when navigating from one page to another.
 old-location: shell\IBrowserService2_v_CheckZoneCrossing.htm
 tech.root: shell
 ms.assetid: cc682057-9a84-4b14-bfe3-32b6ada9304c
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_CheckZoneCrossing method, IBrowserService2.v_CheckZoneCrossing, IBrowserService2::v_CheckZoneCrossing, shdeprecated/IBrowserService2::v_CheckZoneCrossing, shell.IBrowserService2_v_CheckZoneCrossing, v_CheckZoneCrossing, v_CheckZoneCrossing method [Windows Shell], v_CheckZoneCrossing method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_CheckZoneCrossing
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.v_CheckZoneCrossing"
+f1_keywords:
+- shdeprecated/IBrowserService2.v_CheckZoneCrossing
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.v_CheckZoneCrossing
+- IBrowserService2.v_CheckZoneCrossing
 targetos: Windows
 req.typenames: 
 req.redist: 

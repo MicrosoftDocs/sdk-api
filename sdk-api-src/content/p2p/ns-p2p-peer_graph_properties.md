@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_graph_properties_tag
 title: PEER_GRAPH_PROPERTIES (p2p.h)
-
 description: The PEER_GRAPH_PROPERTIES structure contains data about the policy of a peer graph, ID, scope, and other information.
 old-location: p2p\peer_graph_properties.htm
 tech.root: P2PSdk
 ms.assetid: 15b4eeb4-1040-4f07-8e79-2c09aab9f926
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES structure [Peer Networking], PPEER_GRAPH_PROPERTIES, PPEER_GRAPH_PROPERTIES structure pointer [Peer Networking], p2p.peer_graph_properties, p2p/PPEER_GRAPH_PROPERTIES, p2p/peer_graph_properties_tag"
+ms.keywords: '*PPEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES, PEER_GRAPH_PROPERTIES structure [Peer Networking], PPEER_GRAPH_PROPERTIES, PPEER_GRAPH_PROPERTIES structure pointer [Peer Networking], p2p.peer_graph_properties, p2p/PPEER_GRAPH_PROPERTIES, p2p/peer_graph_properties_tag'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_GRAPH_PROPERTIES"
+f1_keywords:
+- p2p/PEER_GRAPH_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_GRAPH_PROPERTIES
+- PEER_GRAPH_PROPERTIES
 targetos: Windows
 req.typenames: PEER_GRAPH_PROPERTIES, *PPEER_GRAPH_PROPERTIES
 req.redist: 

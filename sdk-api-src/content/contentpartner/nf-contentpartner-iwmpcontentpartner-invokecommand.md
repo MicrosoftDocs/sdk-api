@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.InvokeCommand
 title: IWMPContentPartner::InvokeCommand (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The InvokeCommand method invokes a context menu command.
 old-location: wmp\iwmpcontentpartner_invokecommand.htm
 tech.root: WMP
 ms.assetid: ee46a7c2-2d5b-4c7f-954e-cad6011afc78
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],InvokeCommand method, IWMPContentPartner.InvokeCommand, IWMPContentPartner::InvokeCommand, IWMPContentPartnerInvokeCommand, InvokeCommand, InvokeCommand method [Windows Media Player], InvokeCommand method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::InvokeCommand, wmp.iwmpcontentpartner_invokecommand
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.InvokeCommand"
+f1_keywords:
+- contentpartner/IWMPContentPartner.InvokeCommand
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.InvokeCommand
+- IWMPContentPartner.InvokeCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_USN_TRACK_MODIFIED_RANGES
 title: FSCTL_USN_TRACK_MODIFIED_RANGES
-
 description: Enables range tracking feature for update sequence number (USN) change journal stream on a target volume, or modifies already enabled range tracking parameters.
 old-location: fs\fsctl_usn_track_modified_ranges.htm
 tech.root: FileIO
 ms.assetid: 258E16B2-B6E8-44BB-8073-B1BEDD4FA86A
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_USN_TRACK_MODIFIED_RANGES, FSCTL_USN_TRACK_MODIFIED_RANGES control, FSCTL_USN_TRACK_MODIFIED_RANGES control code [Files], fs.fsctl_usn_track_modified_ranges, winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES"
+f1_keywords:
+- winioctl/FSCTL_USN_TRACK_MODIFIED_RANGES
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_USN_TRACK_MODIFIED_RANGES
+- FSCTL_USN_TRACK_MODIFIED_RANGES
 targetos: Windows
 req.typenames: 
 req.redist: 

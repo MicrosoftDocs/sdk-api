@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.EvaluateProximityToRect
 title: EvaluateProximityToRect function (winuser.h)
-
 description: Returns the score of a rectangle as the probable touch target, compared to all other rectangles that intersect the touch contact area, and an adjusted touch point within the rectangle.
 old-location: input_touchhittest\evaluateproximitytorect.htm
 tech.root: Input_TouchHitTest
 ms.assetid: 269ef4c1-9c9f-4bd7-9852-e82c4a707d3c
-
 ms.date: 12/05/2018
 ms.keywords: EvaluateProximityToRect, EvaluateProximityToRect function, input_touchhittest.evaluateproximitytorect, touch_hittest.evaluateproximitytorect, winuser/EvaluateProximityToRect
 ms.topic: function
-f1_keywords: 
- - "winuser/EvaluateProximityToRect"
+f1_keywords:
+- winuser/EvaluateProximityToRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Touch-HitTest-l1-1-0.dll
+- MinUser.dll
 api_name:
- - EvaluateProximityToRect
+- EvaluateProximityToRect
 targetos: Windows
 req.typenames: 
 req.redist: 

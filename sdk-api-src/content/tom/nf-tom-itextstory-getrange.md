@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStory.GetRange
 title: ITextStory::GetRange (tom.h)
-
 description: Gets a text range object for the story.
 old-location: controls\itextstory_getrange.htm
 tech.root: Controls
 ms.assetid: 7cc02056-c431-470a-83ef-99e47123da1e
-
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [Windows Controls], GetRange method [Windows Controls],ITextStory interface, ITextStory interface [Windows Controls],GetRange method, ITextStory.GetRange, ITextStory::GetRange, controls.itextstory_getrange, tom/ITextStory::GetRange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStory.GetRange"
+f1_keywords:
+- tom/ITextStory.GetRange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory.GetRange
+- ITextStory.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: 

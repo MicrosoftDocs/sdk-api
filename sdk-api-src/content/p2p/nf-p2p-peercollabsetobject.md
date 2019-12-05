@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabSetObject
 title: PeerCollabSetObject function (p2p.h)
-
 description: Creates or updates a peer data object used in a peer collaboration network.
 old-location: p2p\peercollabsetobject.htm
 tech.root: P2PSdk
 ms.assetid: 99a3e206-7d76-4773-956c-bbd101766392
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSetObject, PeerCollabSetObject function [Peer Networking], p2p.peercollabsetobject, p2p/PeerCollabSetObject
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabSetObject"
+f1_keywords:
+- p2p/PeerCollabSetObject
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabSetObject
+- PeerCollabSetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

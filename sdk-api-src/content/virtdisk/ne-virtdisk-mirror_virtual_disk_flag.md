@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._MIRROR_VIRTUAL_DISK_FLAG
 title: MIRROR_VIRTUAL_DISK_FLAG (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) mirror request flags.
 old-location: vhd\mirror_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: 14051691-eacb-40b8-a8ae-822bc054d0a1
-
 ms.date: 12/05/2018
 ms.keywords: MIRROR_VIRTUAL_DISK_FLAG, MIRROR_VIRTUAL_DISK_FLAG enumeration [VHD], MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, MIRROR_VIRTUAL_DISK_FLAG_NONE, vdssys/MIRROR_VIRTUAL_DISK_FLAG, vdssys/MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, vdssys/MIRROR_VIRTUAL_DISK_FLAG_NONE, vhd.mirror_virtual_disk_flag, virtdisk/MIRROR_VIRTUAL_DISK_FLAG, virtdisk/MIRROR_VIRTUAL_DISK_FLAG_EXISTING_FILE, virtdisk/MIRROR_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/MIRROR_VIRTUAL_DISK_FLAG"
+f1_keywords:
+- virtdisk/MIRROR_VIRTUAL_DISK_FLAG
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - MIRROR_VIRTUAL_DISK_FLAG
+- MIRROR_VIRTUAL_DISK_FLAG
 targetos: Windows
 req.typenames: MIRROR_VIRTUAL_DISK_FLAG
 req.redist: 

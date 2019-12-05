@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_LENGTH_INFO
 title: IOCTL_DISK_GET_LENGTH_INFO
-
 description: Retrieves the length of the specified disk, volume, or partition.
 old-location: fs\ioctl_disk_get_length_info.htm
 tech.root: FileIO
 ms.assetid: 8d4bd6e3-f0f3-40d6-b0ba-75155282f64a
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Files], _win32_ioctl_disk_get_length_info, base.ioctl_disk_get_length_info, fs.ioctl_disk_get_length_info, winioctl/IOCTL_DISK_GET_LENGTH_INFO
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_GET_LENGTH_INFO
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

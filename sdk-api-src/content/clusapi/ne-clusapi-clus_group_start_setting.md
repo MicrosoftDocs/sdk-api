@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.__unnamed_enum_4
 title: CLUS_GROUP_START_SETTING (clusapi.h)
-
 description: Enumerates the start settings for a cluster group.
 old-location: mscs\clus_group_start_setting.htm
 tech.root: MsCS
 ms.assetid: 9F0A7B9B-278E-4176-BCA7-6CEEF35AFE2E
-
 ms.date: 12/05/2018
 ms.keywords: CLUS_GROUP_DO_NOT_START, CLUS_GROUP_START_ALLOWED, CLUS_GROUP_START_ALWAYS, CLUS_GROUP_START_SETTING, CLUS_GROUP_START_SETTING enumeration [Failover Cluster], clusapi/CLUS_GROUP_DO_NOT_START, clusapi/CLUS_GROUP_START_ALLOWED, clusapi/CLUS_GROUP_START_ALWAYS, clusapi/CLUS_GROUP_START_SETTING, msclus/CLUS_GROUP_DO_NOT_START, msclus/CLUS_GROUP_START_ALLOWED, msclus/CLUS_GROUP_START_ALWAYS, msclus/CLUS_GROUP_START_SETTING, mscs.clus_group_start_setting
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUS_GROUP_START_SETTING"
+f1_keywords:
+- clusapi/CLUS_GROUP_START_SETTING
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUS_GROUP_START_SETTING
+- CLUS_GROUP_START_SETTING
 targetos: Windows
 req.typenames: CLUS_GROUP_START_SETTING
 req.redist: 

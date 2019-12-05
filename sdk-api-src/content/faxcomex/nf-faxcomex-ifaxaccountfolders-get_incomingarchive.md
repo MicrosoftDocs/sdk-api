@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxAccountFolders.get_IncomingArchive
 title: IFaxAccountFolders::get_IncomingArchive (faxcomex.h)
-
 description: Represents the archive of incoming faxes for a particular fax account. These are the faxes that have been received.
 old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_incomingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\incomingarchive.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountFolders interface [Fax Service],IncomingArchive property, IFaxAccountFolders.IncomingArchive, IFaxAccountFolders.get_IncomingArchive, IFaxAccountFolders::IncomingArchive, IFaxAccountFolders::get_IncomingArchive, IncomingArchive property [Fax Service], IncomingArchive property [Fax Service],IFaxAccountFolders interface, _mfax_faxaccountfolders.incomingarchive, fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_incomingarchive_cpp, fax._mfax_faxaccountfolders_incomingarchive, faxcomex/IFaxAccountFolders::IncomingArchive, faxcomex/IFaxAccountFolders::get_IncomingArchive, get_IncomingArchive
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxAccountFolders.IncomingArchive"
+f1_keywords:
+- faxcomex/IFaxAccountFolders.IncomingArchive
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountFolders.IncomingArchive
- - IFaxAccountFolders.get_IncomingArchive
- - IFaxAccountFolders.get_IncomingArchive
+- IFaxAccountFolders.IncomingArchive
+- IFaxAccountFolders.get_IncomingArchive
+- IFaxAccountFolders.get_IncomingArchive
 targetos: Windows
 req.typenames: 
 req.redist: 

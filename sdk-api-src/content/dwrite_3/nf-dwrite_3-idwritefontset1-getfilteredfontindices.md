@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices
 title: IDWriteFontSet1::GetFilteredFontIndices
-
 description: Retrives all the item indices, filtered by the given properties.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFontIndices method, IDWriteFontSet1.GetFilteredFontIndices, IDWriteFontSet1::GetFilteredFontIndices, GetFilteredFontIndices, GetFilteredFontIndices method [Direct Write], GetFilteredFontIndices method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfontindices, dwrite_3/IDWriteFontSet1::GetFilteredFontIndices
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSet1.GetFilteredFontIndices"
+f1_keywords:
+- dwrite_3/IDWriteFontSet1.GetFilteredFontIndices
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontSet1::GetFilteredFontIndices
+- IDWriteFontSet1::GetFilteredFontIndices
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityCallersColl.get_Count
 title: ISecurityCallersColl::get_Count (comsvcs.h)
-
 description: Retrieves the number of callers in the security callers collection.
 old-location: cos\isecuritycallerscoll_get_count.htm
 tech.root: cossdk
 ms.assetid: 98a28194-c4d3-4c5f-b43a-4df73fcea7e4
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallersColl interface [COM+],get_Count method, ISecurityCallersColl.get_Count, ISecurityCallersColl::get_Count, _cos_ISecurityCallersColl_get_Count, comsvcs/ISecurityCallersColl::get_Count, cos.isecuritycallerscoll_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ISecurityCallersColl interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityCallersColl.get_Count"
+f1_keywords:
+- comsvcs/ISecurityCallersColl.get_Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallersColl.get_Count
+- ISecurityCallersColl.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

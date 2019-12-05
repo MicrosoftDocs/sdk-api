@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IVirtualDesktopManager.GetWindowDesktopId
 title: IVirtualDesktopManager::GetWindowDesktopId (shobjidl_core.h)
-
 description: Gets the identifier for the virtual desktop hosting the provided top-level window.
 old-location: shell\ivirtualdesktopmanager_getwindowdesktopid.htm
 tech.root: shell
 ms.assetid: 1A53C70F-6034-449D-832E-A563886F20E4
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowDesktopId, GetWindowDesktopId method [Windows Shell], GetWindowDesktopId method [Windows Shell],IVirtualDesktopManager interface, IVirtualDesktopManager interface [Windows Shell],GetWindowDesktopId method, IVirtualDesktopManager.GetWindowDesktopId, IVirtualDesktopManager::GetWindowDesktopId, shell.ivirtualdesktopmanager_getwindowdesktopid, shobjidl_core/IVirtualDesktopManager::GetWindowDesktopId
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IVirtualDesktopManager.GetWindowDesktopId"
+f1_keywords:
+- shobjidl_core/IVirtualDesktopManager.GetWindowDesktopId
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IVirtualDesktopManager.GetWindowDesktopId
+- IVirtualDesktopManager.GetWindowDesktopId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetDirectSoundInterface
 title: IAMDirectSound::GetDirectSoundInterface (amaudio.h)
-
 description: The GetDirectSoundInterface method is not implemented.
 old-location: dshow\iamdirectsound_getdirectsoundinterface.htm
 tech.root: DirectShow
 ms.assetid: 0980d931-296f-47c1-a6f5-63a94032c1bf
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectSoundInterface, GetDirectSoundInterface method [DirectShow], GetDirectSoundInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetDirectSoundInterface method, IAMDirectSound.GetDirectSoundInterface, IAMDirectSound::GetDirectSoundInterface, IAMDirectSoundGetDirectSoundInterface, amaudio/IAMDirectSound::GetDirectSoundInterface, dshow.iamdirectsound_getdirectsoundinterface
 ms.topic: method
-f1_keywords: 
- - "amaudio/IAMDirectSound.GetDirectSoundInterface"
+f1_keywords:
+- amaudio/IAMDirectSound.GetDirectSoundInterface
 dev_langs:
- - c++
+- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDirectSound.GetDirectSoundInterface
+- IAMDirectSound.GetDirectSoundInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

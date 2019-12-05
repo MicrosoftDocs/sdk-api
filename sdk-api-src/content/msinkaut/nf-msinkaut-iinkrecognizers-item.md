@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizers.Item
 title: IInkRecognizers::Item (msinkaut.h)
-
 description: Retrieves the IInkRecognizer object at the specified index within the InkRecognizers collection.
 old-location: tablet\inkrecognizers_item.htm
 tech.root: tablet
 ms.assetid: 65c169f0-fe61-4609-809c-52c53cfcba7f
-
 ms.date: 12/05/2018
 ms.keywords: 65c169f0-fe61-4609-809c-52c53cfcba7f, IInkRecognizers interface [Tablet PC],Item method, IInkRecognizers.Item, IInkRecognizers::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognizers interface, msinkaut/IInkRecognizers::Item, tablet.inkrecognizers_item
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizers.Item"
+f1_keywords:
+- msinkaut/IInkRecognizers.Item
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizers.Item
+- IInkRecognizers.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

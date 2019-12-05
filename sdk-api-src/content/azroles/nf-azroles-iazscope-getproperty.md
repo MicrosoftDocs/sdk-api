@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.GetProperty
 title: IAzScope::GetProperty (azroles.h)
-
 description: Returns the IAzScope object property with the specified property ID.
 old-location: security\iazscope_getproperty.htm
 tech.root: SecAuthZ
 ms.assetid: c3b5b526-5662-4971-8ba2-663e4b2c36ff
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AZ_PROP_SCOPE_BIZRULES_WRITABLE, AZ_PROP_SCOPE_CAN_BE_DELEGATED, AZ_PROP_WRITABLE, AzScope object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzScope object, GetProperty method [Security],IAzScope interface, IAzScope interface [Security],GetProperty method, IAzScope.GetProperty, IAzScope::GetProperty, azroles/IAzScope::GetProperty, security.iazscope_getproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.GetProperty"
+f1_keywords:
+- azroles/IAzScope.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.GetProperty
- - AzScope.GetProperty
+- IAzScope.GetProperty
+- AzScope.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

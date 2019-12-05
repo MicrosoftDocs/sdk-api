@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_HorizontallyScrollable
 title: IScrollProvider::get_HorizontallyScrollable (uiautomationcore.h)
-
 description: Indicates whether the control can scroll horizontally.
 old-location: winauto\uiauto_IScrollProvider_HorizontallyScrollable.htm
 tech.root: WinAuto
 ms.assetid: f9d073c0-b51a-4e62-ab67-872538a6a0e1
-
 ms.date: 12/05/2018
 ms.keywords: HorizontallyScrollable property [Windows Accessibility], HorizontallyScrollable property [Windows Accessibility],IScrollProvider interface, IScrollProvider interface [Windows Accessibility],HorizontallyScrollable property, IScrollProvider.HorizontallyScrollable, IScrollProvider.get_HorizontallyScrollable, IScrollProvider::HorizontallyScrollable, IScrollProvider::get_HorizontallyScrollable, get_HorizontallyScrollable, uiauto.uiauto_IScrollProvider_HorizontallyScrollable, uiauto_IScrollProvider_HorizontallyScrollable, uiautomationcore/IScrollProvider::HorizontallyScrollable, uiautomationcore/IScrollProvider::get_HorizontallyScrollable, winauto.uiauto_IScrollProvider_HorizontallyScrollable
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IScrollProvider.HorizontallyScrollable"
+f1_keywords:
+- uiautomationcore/IScrollProvider.HorizontallyScrollable
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IScrollProvider.HorizontallyScrollable
- - IScrollProvider.get_HorizontallyScrollable
+- IScrollProvider.HorizontallyScrollable
+- IScrollProvider.get_HorizontallyScrollable
 targetos: Windows
 req.typenames: 
 req.redist: 

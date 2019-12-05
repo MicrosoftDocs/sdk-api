@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbapp.IWsbApplicationBackupSupport.CheckConsistency
 title: IWsbApplicationBackupSupport::CheckConsistency (wsbapp.h)
-
 description: Checks the consistency of the VSS writer's components in the shadow copy after shadow copies are created for the volumes to be backed up.
 old-location: wsb\iwsbapplicationbackupsupport_checkconsistency.htm
 tech.root: wsb
 ms.assetid: 27ec1ee5-d612-48eb-8a5b-41e01c7f28d3
-
 ms.date: 12/05/2018
 ms.keywords: CheckConsistency, CheckConsistency method [Windows Server Backup], CheckConsistency method [Windows Server Backup],IWsbApplicationBackupSupport interface, IWsbApplicationBackupSupport interface [Windows Server Backup],CheckConsistency method, IWsbApplicationBackupSupport.CheckConsistency, IWsbApplicationBackupSupport::CheckConsistency, wsb.iwsbapplicationbackupsupport_checkconsistency, wsbapp/IWsbApplicationBackupSupport::CheckConsistency
 ms.topic: method
-f1_keywords: 
- - "wsbapp/IWsbApplicationBackupSupport.CheckConsistency"
+f1_keywords:
+- wsbapp/IWsbApplicationBackupSupport.CheckConsistency
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationBackupSupport.CheckConsistency
+- IWsbApplicationBackupSupport.CheckConsistency
 targetos: Windows
 req.typenames: 
 req.redist: 

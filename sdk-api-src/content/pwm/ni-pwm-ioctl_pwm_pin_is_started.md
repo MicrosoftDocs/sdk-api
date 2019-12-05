@@ -1,19 +1,17 @@
 ---
 UID: NI:pwm.IOCTL_PWM_PIN_IS_STARTED
 title: IOCTL_PWM_PIN_IS_STARTED (pwm.h)
-
 description: Retrieves the state of signal generation for a pin or channel. Each pin has a state of started or stopped as a PWM_PIN_IS_STARTED_OUTPUT structure.
 old-location: base\ioctl_pwm_pin_is_started.htm
 tech.root: devio
 ms.assetid: 3C03AF3B-B40D-4909-89B1-BDF783154C28
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_PWM_PIN_IS_STARTED, IOCTL_PWM_PIN_IS_STARTED control, IOCTL_PWM_PIN_IS_STARTED control code, base.ioctl_pwm_pin_is_started, pwm/IOCTL_PWM_PIN_IS_STARTED
 ms.topic: ioctl
 f1_keywords:
 - pwm/IOCTL_PWM_PIN_IS_STARTED
 dev_langs:
- - c++
+- c++
 req.header: pwm.h
 req.include-header: Pwm.h
 req.target-type: Windows

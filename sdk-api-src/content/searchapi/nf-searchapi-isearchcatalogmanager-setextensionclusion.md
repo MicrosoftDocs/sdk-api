@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetExtensionClusion
 title: ISearchCatalogManager::SetExtensionClusion (searchapi.h)
-
 description: Not implemented.
 old-location: search\_search_ISearchCatalogManager_SetExtensionClusion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setextensionclusion.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],SetExtensionClusion method, ISearchCatalogManager.SetExtensionClusion, ISearchCatalogManager::SetExtensionClusion, SetExtensionClusion, SetExtensionClusion method [search], SetExtensionClusion method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_SetExtensionClusion, search._search_ISearchCatalogManager_SetExtensionClusion, searchapi/ISearchCatalogManager::SetExtensionClusion
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.SetExtensionClusion"
+f1_keywords:
+- searchapi/ISearchCatalogManager.SetExtensionClusion
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchCatalogManager.SetExtensionClusion
+- ISearchCatalogManager.SetExtensionClusion
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

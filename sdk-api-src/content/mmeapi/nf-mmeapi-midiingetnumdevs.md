@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiInGetNumDevs
 title: midiInGetNumDevs function (mmeapi.h)
-
 description: The midiInGetNumDevs function retrieves the number of MIDI input devices in the system.
 old-location: multimedia\midiingetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: 23303bb2-e053-4a19-a63a-4e017b861af6
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiInGetNumDevs, midiInGetNumDevs, midiInGetNumDevs function [Windows Multimedia], mmeapi/midiInGetNumDevs, multimedia.midiingetnumdevs"
+ms.keywords: _win32_midiInGetNumDevs, midiInGetNumDevs, midiInGetNumDevs function [Windows Multimedia], mmeapi/midiInGetNumDevs, multimedia.midiingetnumdevs
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiInGetNumDevs"
+f1_keywords:
+- mmeapi/midiInGetNumDevs
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiInGetNumDevs
+- midiInGetNumDevs
 targetos: Windows
 req.typenames: 
 req.redist: 

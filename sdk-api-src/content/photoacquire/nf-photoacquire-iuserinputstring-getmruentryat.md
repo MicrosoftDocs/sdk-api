@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetMruEntryAt
 title: IUserInputString::GetMruEntryAt (photoacquire.h)
-
 description: The GetMruEntryAt method retrieves the entry at the given index in the most recently used list.
 old-location: picacq\iuserinputstring_getmruentryat.htm
 tech.root: acquisition
 ms.assetid: d03c3eba-e55c-421d-acfa-fea6aa645cc5
-
 ms.date: 12/05/2018
 ms.keywords: GetMruEntryAt, GetMruEntryAt method [Picture Acquisition], GetMruEntryAt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetMruEntryAt method, IUserInputString.GetMruEntryAt, IUserInputString::GetMruEntryAt, IUserInputStringGetMruEntryAt, photoacquire/IUserInputString::GetMruEntryAt, picacq.iuserinputstring_getmruentryat
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IUserInputString.GetMruEntryAt"
+f1_keywords:
+- photoacquire/IUserInputString.GetMruEntryAt
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetMruEntryAt
+- IUserInputString.GetMruEntryAt
 targetos: Windows
 req.typenames: 
 req.redist: 

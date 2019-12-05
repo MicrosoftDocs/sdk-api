@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureBlockCollection
 title: IXpsSignatureBlockCollection (xpsdigitalsignature.h)
-
 description: A collection of IXpsSignatureBlock interfaces.
 old-location: xps\ixpssignatureblockcollection.htm
 tech.root: printdocs
 ms.assetid: e8f7be84-389e-40cf-a093-83417ba184c7
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureBlockCollection, IXpsSignatureBlockCollection interface [XPS Documents and Packaging], IXpsSignatureBlockCollection interface [XPS Documents and Packaging],described, xps.ixpssignatureblockcollection, xpsdigitalsignature/IXpsSignatureBlockCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureBlockCollection"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureBlockCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureBlockCollection
+- IXpsSignatureBlockCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

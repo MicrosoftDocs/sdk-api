@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumFunctionProviders
 title: ITfThreadMgr::EnumFunctionProviders (msctf.h)
-
 description: ITfThreadMgr::EnumFunctionProviders method
 old-location: tsf\itfthreadmgr_enumfunctionproviders.htm
 tech.root: TSF
 ms.assetid: 6581cd4d-75ad-4a2c-a919-8e2eed6b3939
-
 ms.date: 12/05/2018
 ms.keywords: EnumFunctionProviders, EnumFunctionProviders method [Text Services Framework], EnumFunctionProviders method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumFunctionProviders method, ITfThreadMgr.EnumFunctionProviders, ITfThreadMgr::EnumFunctionProviders, _tsf_itfthreadmgr_enumfunctionproviders_ref, msctf/ITfThreadMgr::EnumFunctionProviders, tsf.itfthreadmgr_enumfunctionproviders
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.EnumFunctionProviders"
+f1_keywords:
+- msctf/ITfThreadMgr.EnumFunctionProviders
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.EnumFunctionProviders
+- ITfThreadMgr.EnumFunctionProviders
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

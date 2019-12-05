@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNodeCount
 title: IMFTopology::GetNodeCount (mfidl.h)
-
 description: Gets the number of nodes in the topology.
 old-location: mf\imftopology_getnodecount.htm
 tech.root: medfound
 ms.assetid: 87378088-1d7a-4ad7-942f-69b6cfc4e573
-
 ms.date: 12/05/2018
 ms.keywords: 87378088-1d7a-4ad7-942f-69b6cfc4e573, GetNodeCount, GetNodeCount method [Media Foundation], GetNodeCount method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetNodeCount method, IMFTopology.GetNodeCount, IMFTopology::GetNodeCount, mf.imftopology_getnodecount, mfidl/IMFTopology::GetNodeCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopology.GetNodeCount"
+f1_keywords:
+- mfidl/IMFTopology.GetNodeCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopology.GetNodeCount
+- IMFTopology.GetNodeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

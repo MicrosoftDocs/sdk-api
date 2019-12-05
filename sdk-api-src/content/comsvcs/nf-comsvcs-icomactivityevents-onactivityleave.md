@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityLeave
 title: IComActivityEvents::OnActivityLeave (comsvcs.h)
-
 description: Generated when an activity thread is left.
 old-location: cos\icomactivityevents_onactivityleave.htm
 tech.root: cossdk
 ms.assetid: f39a8ce1-9c17-47eb-9405-c6a69dee88cc
-
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityLeave method, IComActivityEvents.OnActivityLeave, IComActivityEvents::OnActivityLeave, OnActivityLeave, OnActivityLeave method [COM+], OnActivityLeave method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityLeave, comsvcs/IComActivityEvents::OnActivityLeave, cos.icomactivityevents_onactivityleave
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComActivityEvents.OnActivityLeave"
+f1_keywords:
+- comsvcs/IComActivityEvents.OnActivityLeave
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComActivityEvents.OnActivityLeave
+- IComActivityEvents.OnActivityLeave
 targetos: Windows
 req.typenames: 
 req.redist: 

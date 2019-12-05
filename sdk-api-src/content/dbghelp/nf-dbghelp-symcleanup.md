@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymCleanup
 title: SymCleanup function (dbghelp.h)
-
 description: Deallocates all resources associated with the process handle.
 old-location: base\symcleanup.htm
 tech.root: Debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
-
 ms.date: 12/05/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymCleanup"
+f1_keywords:
+- dbghelp/SymCleanup
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - imagehlp.dll
+- Dbghelp.dll
+- imagehlp.dll
 api_name:
- - SymCleanup
+- SymCleanup
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

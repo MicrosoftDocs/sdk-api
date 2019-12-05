@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.RotationZ
 title: Matrix4x4F::RotationZ (d2d1_1helper.h)
-
 description: Rotates the transform matrix around the Z axis.
 old-location: direct2d\matrix4x4f_rotationz.htm
 tech.root: Direct2D
 ms.assetid: 4E17EE04-C4B9-49AC-819A-9518937B78F9
-
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],RotationZ method, Matrix4x4F.RotationZ, Matrix4x4F::RotationZ, RotationZ, RotationZ method [Direct2D], RotationZ method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::RotationZ, direct2d.matrix4x4f_rotationz
 ms.topic: method
-f1_keywords: 
- - "d2d1_1helper/Matrix4x4F.RotationZ"
+f1_keywords:
+- d2d1_1helper/Matrix4x4F.RotationZ
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_1helper.h
+- d2d1_1helper.h
 api_name:
- - Matrix4x4F.RotationZ
+- Matrix4x4F.RotationZ
 targetos: Windows
 req.typenames: 
 req.redist: 

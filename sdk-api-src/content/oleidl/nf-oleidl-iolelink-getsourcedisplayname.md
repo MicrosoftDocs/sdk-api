@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.GetSourceDisplayName
 title: IOleLink::GetSourceDisplayName (oleidl.h)
-
 description: Retrieves the display name of the link source of the linked object.
 old-location: com\iolelink_getsourcedisplayname.htm
 tech.root: com
 ms.assetid: a4c5bc82-f423-4a02-b8d4-49b38a9c0f42
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceDisplayName, GetSourceDisplayName method [COM], GetSourceDisplayName method [COM],IOleLink interface, IOleLink interface [COM],GetSourceDisplayName method, IOleLink.GetSourceDisplayName, IOleLink::GetSourceDisplayName, _ole_iolelink_getsourcedisplayname, com.iolelink_getsourcedisplayname, oleidl/IOleLink::GetSourceDisplayName
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.GetSourceDisplayName"
+f1_keywords:
+- oleidl/IOleLink.GetSourceDisplayName
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.GetSourceDisplayName
+- IOleLink.GetSourceDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

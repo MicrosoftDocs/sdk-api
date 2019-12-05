@@ -1,19 +1,17 @@
 ---
 UID: NS:netlistmgr.NLM_USAGE_DATA
 title: NLM_USAGE_DATA (netlistmgr.h)
-
 description: NLM_USAGE_DATA structure stores information that indicates the data usage of a plan.
 old-location: nla\nlm_usage_data.htm
 tech.root: nla
 ms.assetid: 1D917CD0-4D71-4780-9720-A1F3FDCBBB16
-
 ms.date: 12/05/2018
 ms.keywords: NLM_USAGE_DATA, NLM_USAGE_DATA structure [Network Awareness], PNLM_USAGE_DATA, PNLM_USAGE_DATA structure pointer [Network Awareness], netlistmgr/NLM_USAGE_DATA, netlistmgr/PNLM_USAGE_DATA, nla.nlm_usage_data
 ms.topic: struct
-f1_keywords: 
- - "netlistmgr/NLM_USAGE_DATA"
+f1_keywords:
+- netlistmgr/NLM_USAGE_DATA
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - NLM_USAGE_DATA
+- NLM_USAGE_DATA
 targetos: Windows
 req.typenames: NLM_USAGE_DATA
 req.redist: 

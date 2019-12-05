@@ -1,19 +1,17 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0002
 title: GPMPermissionType (gpmgmt.h)
-
 description: The categories, permissions included in the categories, and the object to which they can be applied.
 old-location: gpmc\gpmpermissiontype.htm
 tech.root: gpmc
 ms.assetid: e363d91b-f4c1-4ccb-a9bb-94c3f1c5f6aa
-
 ms.date: 12/05/2018
 ms.keywords: GPMPermissionType, GPMPermissionType enumeration [GPMC], gpmc.gpmpermissiontype, gpmgmt/GPMPermissionType, gpmgmt/permGPOApply, gpmgmt/permGPOCustom, gpmgmt/permGPOEdit, gpmgmt/permGPOEditSecurityAndDelete, gpmgmt/permGPORead, gpmgmt/permSOMGPOCreate, gpmgmt/permSOMLink, gpmgmt/permSOMLogging, gpmgmt/permSOMPlanning, gpmgmt/permSOMStarterGPOCreate, gpmgmt/permSOMWMICreate, gpmgmt/permSOMWMIFullControl, gpmgmt/permStarterGPOCustom, gpmgmt/permStarterGPOEdit, gpmgmt/permStarterGPOFullControl, gpmgmt/permStarterGPORead, gpmgmt/permWMIFilterCustom, gpmgmt/permWMIFilterEdit, gpmgmt/permWMIFilterFullControl, permGPOApply, permGPOCustom, permGPOEdit, permGPOEditSecurityAndDelete, permGPORead, permSOMGPOCreate, permSOMLink, permSOMLogging, permSOMPlanning, permSOMStarterGPOCreate, permSOMWMICreate, permSOMWMIFullControl, permStarterGPOCustom, permStarterGPOEdit, permStarterGPOFullControl, permStarterGPORead, permWMIFilterCustom, permWMIFilterEdit, permWMIFilterFullControl
 ms.topic: enum
-f1_keywords: 
- - "gpmgmt/GPMPermissionType"
+f1_keywords:
+- gpmgmt/GPMPermissionType
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gpmgmt.h
+- Gpmgmt.h
 api_name:
- - GPMPermissionType
+- GPMPermissionType
 targetos: Windows
 req.typenames: GPMPermissionType
 req.redist: 

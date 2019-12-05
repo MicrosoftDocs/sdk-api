@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_SignalStatistics.get_SampleTime
 title: IBDA_SignalStatistics::get_SampleTime (bdaiface.h)
-
 description: The get_SampleTime method retrieves the sample time used to measure the signal.
 old-location: mstv\ibda_signalstatistics_get_sampletime.htm
 tech.root: mstv
 ms.assetid: 9651e393-224b-4276-b8a6-f841f9e04d48
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics interface [Microsoft TV Technologies],get_SampleTime method, IBDA_SignalStatistics.get_SampleTime, IBDA_SignalStatistics::get_SampleTime, IBDA_SignalStatisticsget_SampleTime, bdaiface/IBDA_SignalStatistics::get_SampleTime, get_SampleTime, get_SampleTime method [Microsoft TV Technologies], get_SampleTime method [Microsoft TV Technologies],IBDA_SignalStatistics interface, mstv.ibda_signalstatistics_get_sampletime
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_SignalStatistics.get_SampleTime"
+f1_keywords:
+- bdaiface/IBDA_SignalStatistics.get_SampleTime
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_SignalStatistics.get_SampleTime
+- IBDA_SignalStatistics.get_SampleTime
 targetos: Windows
 req.typenames: 
 req.redist: 

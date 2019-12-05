@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IWEExtendContextMenu
 title: IWEExtendContextMenu (cluadmex.h)
-
 description: Implement the IWEExtendContextMenu interface to extend a Failover Cluster Administrator context menu for a cluster object.
 old-location: mscs\iweextendcontextmenu.htm
 tech.root: MsCS
 ms.assetid: a41adde0-fc4f-4997-bb56-5fa43ba62fdb
-
 ms.date: 12/05/2018
 ms.keywords: IWEExtendContextMenu, IWEExtendContextMenu interface [Failover Cluster], IWEExtendContextMenu interface [Failover Cluster],described, _wolf_iweextendcontextmenu, cluadmex/IWEExtendContextMenu, mscs.iweextendcontextmenu
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IWEExtendContextMenu"
+f1_keywords:
+- cluadmex/IWEExtendContextMenu
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEExtendContextMenu
+- IWEExtendContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

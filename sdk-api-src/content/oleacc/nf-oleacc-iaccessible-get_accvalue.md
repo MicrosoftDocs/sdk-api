@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.get_accValue
 title: IAccessible::get_accValue (oleacc.h)
-
 description: The IAccessible::get_accValue method retrieves the value of the specified object. Not all objects have a value.
 old-location: winauto\iaccessible_iaccessible__get_accvalue.htm
 tech.root: WinAuto
 ms.assetid: 8e29adec-13fb-4a85-87ac-9e8034dce147
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accValue method, IAccessible.get_accValue, IAccessible::get_accValue, _msaa_IAccessible_get_accValue, get_accValue, get_accValue method [Windows Accessibility], get_accValue method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accvalue, oleacc/IAccessible::get_accValue, winauto.iaccessible_iaccessible__get_accvalue
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.get_accValue"
+f1_keywords:
+- oleacc/IAccessible.get_accValue
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.get_accValue
+- IAccessible.get_accValue
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

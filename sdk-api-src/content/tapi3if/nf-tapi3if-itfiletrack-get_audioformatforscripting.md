@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITFileTrack.get_AudioFormatForScripting
 title: ITFileTrack::get_AudioFormatForScripting (tapi3if.h)
-
 description: The get_AudioFormatForScripting method gets the audio scripting format.
 old-location: tapi3\itfiletrack_get_audioformatforscripting.htm
 tech.root: Tapi
 ms.assetid: 3677b85c-15a4-4960-88ad-18855349fedd
-
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack interface [TAPI 2.2],get_AudioFormatForScripting method, ITFileTrack.get_AudioFormatForScripting, ITFileTrack::get_AudioFormatForScripting, _tapi3_itfiletrack_get_audioformatforscripting, get_AudioFormatForScripting, get_AudioFormatForScripting method [TAPI 2.2], get_AudioFormatForScripting method [TAPI 2.2],ITFileTrack interface, tapi3.itfiletrack_get_audioformatforscripting, tapi3if/ITFileTrack::get_AudioFormatForScripting
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITFileTrack.get_AudioFormatForScripting"
+f1_keywords:
+- tapi3if/ITFileTrack.get_AudioFormatForScripting
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITFileTrack.get_AudioFormatForScripting
+- ITFileTrack.get_AudioFormatForScripting
 targetos: Windows
 req.typenames: 
 req.redist: 

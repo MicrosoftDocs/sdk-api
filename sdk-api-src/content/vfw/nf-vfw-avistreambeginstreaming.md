@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamBeginStreaming
 title: AVIStreamBeginStreaming function (vfw.h)
-
 description: The AVIStreamBeginStreaming function specifies the parameters used in streaming and lets a stream handler prepare for streaming.
 old-location: multimedia\avistreambeginstreaming.htm
 tech.root: Multimedia
 ms.assetid: 79bf7c19-56b6-48fa-a673-32ce1bcdddad
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamBeginStreaming, AVIStreamBeginStreaming function [Windows Multimedia], _win32_AVIStreamBeginStreaming, multimedia.avistreambeginstreaming, vfw/AVIStreamBeginStreaming
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamBeginStreaming"
+f1_keywords:
+- vfw/AVIStreamBeginStreaming
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIStreamBeginStreaming
+- AVIStreamBeginStreaming
 targetos: Windows
 req.typenames: 
 req.redist: 

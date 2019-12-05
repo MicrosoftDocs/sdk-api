@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.YieldProcessor
 title: YieldProcessor function (winnt.h)
-
 description: Signals to the processor to give resources to threads that are waiting for them.
 old-location: base\yieldprocessor.htm
 tech.root: Sync
 ms.assetid: 83a331c1-cfc6-427d-aa80-9583db02ee92
-
 ms.date: 12/05/2018
 ms.keywords: YieldProcessor, YieldProcessor function, base.yieldprocessor, winnt/YieldProcessor
 ms.topic: function
-f1_keywords: 
- - "winnt/YieldProcessor"
+f1_keywords:
+- winnt/YieldProcessor
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - YieldProcessor
+- YieldProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.OpenEventW
 title: OpenEventW function (synchapi.h)
-
 description: Opens an existing named event object.
 old-location: base\openevent.htm
 tech.root: Sync
 ms.assetid: 46741024-ace3-44d6-b8a6-5621ad121a1a
-
 ms.date: 12/05/2018
 ms.keywords: OpenEvent, OpenEvent function, OpenEventA, OpenEventW, _win32_openevent, base.openevent, synchapi/OpenEvent, synchapi/OpenEventA, synchapi/OpenEventW, winbase/OpenEvent, winbase/OpenEventA, winbase/OpenEventW
 ms.topic: function
-f1_keywords: 
- - "synchapi/OpenEvent"
+f1_keywords:
+- synchapi/OpenEvent
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - OpenEvent
- - OpenEventA
- - OpenEventW
+- OpenEvent
+- OpenEventA
+- OpenEventW
 targetos: Windows
 req.typenames: 
 req.redist: 

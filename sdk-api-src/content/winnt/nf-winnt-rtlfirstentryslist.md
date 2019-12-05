@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlFirstEntrySList
 title: RtlFirstEntrySList function (winnt.h)
-
 description: Retrieves the first entry in a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlfirstentryslist.htm
 tech.root: Sync
 ms.assetid: 945d65a3-a2d2-4865-86ec-0ced0934dc1e
-
 ms.date: 12/05/2018
 ms.keywords: RtlFirstEntrySList, RtlFirstEntrySList function, base.rtlfirstentryslist, winnt/RtlFirstEntrySList
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlFirstEntrySList"
+f1_keywords:
+- winnt/RtlFirstEntrySList
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlFirstEntrySList
+- RtlFirstEntrySList
 targetos: Windows
 req.typenames: 
 req.redist: 

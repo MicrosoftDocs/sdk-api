@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.EnumContexts
 title: ITfDocumentMgr::EnumContexts (msctf.h)
-
 description: ITfDocumentMgr::EnumContexts method
 old-location: tsf\itfdocumentmgr_enumcontexts.htm
 tech.root: TSF
 ms.assetid: 0656301a-9e24-4b13-bc39-7d9085c0d6f2
-
 ms.date: 12/05/2018
 ms.keywords: EnumContexts, EnumContexts method [Text Services Framework], EnumContexts method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],EnumContexts method, ITfDocumentMgr.EnumContexts, ITfDocumentMgr::EnumContexts, _tsf_itfdocumentmgr_enumcontexts_ref, msctf/ITfDocumentMgr::EnumContexts, tsf.itfdocumentmgr_enumcontexts
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDocumentMgr.EnumContexts"
+f1_keywords:
+- msctf/ITfDocumentMgr.EnumContexts
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfDocumentMgr.EnumContexts
+- ITfDocumentMgr.EnumContexts
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

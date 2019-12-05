@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.Enum
 title: IMoniker::Enum (objidl.h)
-
 description: Retrieves a pointer to an enumerator for the components of a composite moniker.
 old-location: com\imoniker_enum.htm
 tech.root: com
 ms.assetid: 7e2e4d92-d5dd-4294-944e-8b1e88901ee1
-
 ms.date: 12/05/2018
 ms.keywords: Enum, Enum method [COM], Enum method [COM],IMoniker interface, IMoniker interface [COM],Enum method, IMoniker.Enum, IMoniker::Enum, _com_imoniker_enum, com.imoniker_enum, objidl/IMoniker::Enum
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.Enum"
+f1_keywords:
+- objidl/IMoniker.Enum
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.Enum
+- IMoniker.Enum
 targetos: Windows
 req.typenames: 
 req.redist: 

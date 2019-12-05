@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.Pkcs10AllowedSignatureTypes
 title: Pkcs10AllowedSignatureTypes (certenroll.h)
-
 description: Specifies the type of signature permitted when signing a certificate request.
 old-location: security\pkcs10allowedsignaturetypes_enum.htm
 tech.root: seccertenroll
 ms.assetid: b5c6a28b-d46b-4d93-adc2-625a82d6df7a
-
 ms.date: 12/05/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, Pkcs10AllowedSignatureTypes, Pkcs10AllowedSignatureTypes enumeration [Security], certenroll/AllowedKeySignature, certenroll/AllowedNullSignature, certenroll/Pkcs10AllowedSignatureTypes, security.pkcs10allowedsignaturetypes_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/Pkcs10AllowedSignatureTypes"
+f1_keywords:
+- certenroll/Pkcs10AllowedSignatureTypes
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - Pkcs10AllowedSignatureTypes
+- Pkcs10AllowedSignatureTypes
 targetos: Windows
 req.typenames: Pkcs10AllowedSignatureTypes
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get_Count
 title: IGPMSOMCollection::get_Count (gpmgmt.h)
-
 description: Returns the number of SOMs in the collection.
 old-location: gpmc\igpmsomcollection_get_count.htm
 tech.root: gpmc
 ms.assetid: 3362bf1b-f989-4feb-b130-3fc9e5dcafa4
-
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMSOMCollection class, Count property [GPMC],IGPMSOMCollection interface, GPMSOMCollection class [GPMC],Count property, IGPMSOMCollection interface [GPMC],Count property, IGPMSOMCollection.Count, IGPMSOMCollection.get_Count, IGPMSOMCollection::Count, IGPMSOMCollection::get_Count, _win32_igpmsomcollection_get_count, get_Count, gpmc.igpmsomcollection_get_count, gpmgmt/IGPMSOMCollection::Count, gpmgmt/IGPMSOMCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSOMCollection.Count"
+f1_keywords:
+- gpmgmt/IGPMSOMCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSOMCollection.Count
- - IGPMSOMCollection.get_Count
- - GPMSOMCollection.Count
+- IGPMSOMCollection.Count
+- IGPMSOMCollection.get_Count
+- GPMSOMCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

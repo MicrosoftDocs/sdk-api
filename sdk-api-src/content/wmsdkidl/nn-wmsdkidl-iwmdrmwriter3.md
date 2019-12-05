@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMDRMWriter3
 title: IWMDRMWriter3 (wmsdkidl.h)
-
 description: The IWMDRMWriter3 interface enables writing of encrypted stream samples for importing protected content.An IWMDRMWriter3 interface exists for every writer object when linking to WMStubDRM.lib.
 old-location: wmformat\iwmdrmwriter3.htm
 tech.root: wmformat
 ms.assetid: b300b97b-e558-4c33-a84a-e92c28a3a606
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMWriter3, IWMDRMWriter3 interface [windows Media Format], IWMDRMWriter3 interface [windows Media Format],described, IWMDRMWriter3Interface, wmformat.iwmdrmwriter3, wmsdkidl/IWMDRMWriter3
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMDRMWriter3"
+f1_keywords:
+- wmsdkidl/IWMDRMWriter3
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMDRMWriter3
+- IWMDRMWriter3
 targetos: Windows
 req.typenames: 
 req.redist: 

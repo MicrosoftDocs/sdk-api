@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HTTP_GREATER_EQUAL_VERSION
 title: HTTP_GREATER_EQUAL_VERSION macro (http.h)
-
 description: The HTTP_GREATER_EQUAL_VERSION macro returns a non-zero value if an HTTP_VERSION structure is greater than or equal to a specified major/minor version combination, or zero otherwise.
 old-location: http\http_greater_equal_version.htm
 tech.root: http
 ms.assetid: 2e3a7b3a-fc3b-4980-b1f7-72a18276388b
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_GREATER_EQUAL_VERSION, HTTP_GREATER_EQUAL_VERSION macro [HTTP], _http_http_greater_equal_version, http.http_greater_equal_version, http/HTTP_GREATER_EQUAL_VERSION
 ms.topic: macro
 f1_keywords:
 - http/HTTP_GREATER_EQUAL_VERSION
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

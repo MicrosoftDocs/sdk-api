@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITextStoreACPServices.Serialize
 title: ITextStoreACPServices::Serialize (msctf.h)
-
 description: ITextStoreACPServices::Serialize method
 old-location: tsf\itextstoreacpservices_serialize.htm
 tech.root: TSF
 ms.assetid: 14be52d1-4f8c-4deb-aa92-470c3608c841
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPServices interface [Text Services Framework],Serialize method, ITextStoreACPServices.Serialize, ITextStoreACPServices::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITextStoreACPServices interface, _tsf_itextstoreacpservices_serialize_ref, msctf/ITextStoreACPServices::Serialize, tsf.itextstoreacpservices_serialize
 ms.topic: method
-f1_keywords: 
- - "msctf/ITextStoreACPServices.Serialize"
+f1_keywords:
+- msctf/ITextStoreACPServices.Serialize
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPServices.Serialize
+- ITextStoreACPServices.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

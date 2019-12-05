@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_LargeChange
 title: IRangeValueProvider::get_LargeChange (uiautomationcore.h)
-
 description: Specifies the value that is added to or subtracted from the IRangeValueProvider::Value property when a large change is made, such as when the PAGE DOWN key is pressed.
 old-location: winauto\uiauto_IRangeValueProvider_LargeChange.htm
 tech.root: WinAuto
 ms.assetid: 5f6d5a05-f91d-48ee-8782-f39661051584
-
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],LargeChange property, IRangeValueProvider.LargeChange, IRangeValueProvider.get_LargeChange, IRangeValueProvider::LargeChange, IRangeValueProvider::get_LargeChange, LargeChange property [Windows Accessibility], LargeChange property [Windows Accessibility],IRangeValueProvider interface, get_LargeChange, uiauto.uiauto_IRangeValueProvider_LargeChange, uiauto_IRangeValueProvider_LargeChange, uiautomationcore/IRangeValueProvider::LargeChange, uiautomationcore/IRangeValueProvider::get_LargeChange, winauto.uiauto_IRangeValueProvider_LargeChange
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRangeValueProvider.LargeChange"
+f1_keywords:
+- uiautomationcore/IRangeValueProvider.LargeChange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IRangeValueProvider.LargeChange
- - IRangeValueProvider.get_LargeChange
+- IRangeValueProvider.LargeChange
+- IRangeValueProvider.get_LargeChange
 targetos: Windows
 req.typenames: 
 req.redist: 

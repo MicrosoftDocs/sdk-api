@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabUpdateContact
 title: PeerCollabUpdateContact function (p2p.h)
-
 description: Updates the information associated with a peer contact specified in the local contact store of the caller.
 old-location: p2p\peercollabupdatecontact.htm
 tech.root: P2PSdk
 ms.assetid: 66a72629-6be1-4f1e-aeb1-e9b484c74732
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabUpdateContact, PeerCollabUpdateContact function [Peer Networking], p2p.peercollabupdatecontact, p2p/PeerCollabUpdateContact
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabUpdateContact"
+f1_keywords:
+- p2p/PeerCollabUpdateContact
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabUpdateContact
+- PeerCollabUpdateContact
 targetos: Windows
 req.typenames: 
 req.redist: 

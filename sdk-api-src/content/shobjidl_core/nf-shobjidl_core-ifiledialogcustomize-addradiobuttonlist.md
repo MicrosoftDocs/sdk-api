@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddRadioButtonList
 title: IFileDialogCustomize::AddRadioButtonList (shobjidl_core.h)
-
 description: Adds an option button (also known as radio button) group to the dialog.
 old-location: shell\IFileDialogCustomize_AddRadioButtonList.htm
 tech.root: shell
 ms.assetid: 9f60b69d-4625-48b7-b265-ab2e9d842fc2
-
 ms.date: 12/05/2018
 ms.keywords: AddRadioButtonList, AddRadioButtonList method [Windows Shell], AddRadioButtonList method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddRadioButtonList method, IFileDialogCustomize.AddRadioButtonList, IFileDialogCustomize::AddRadioButtonList, shell.IFileDialogCustomize_AddRadioButtonList, shell_IFileDialogCustomize_AddRadioButtonList, shobjidl_core/IFileDialogCustomize::AddRadioButtonList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddRadioButtonList"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddRadioButtonList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddRadioButtonList
+- IFileDialogCustomize.AddRadioButtonList
 targetos: Windows
 req.typenames: 
 req.redist: 

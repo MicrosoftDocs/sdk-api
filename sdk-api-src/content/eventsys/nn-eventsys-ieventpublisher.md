@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEventPublisher
 title: IEventPublisher (eventsys.h)
-
 description: Registers, modifies, removes, and provides information about an event publisher.
 old-location: com\ieventpublisher.htm
 tech.root: com
 ms.assetid: 132b79c8-d7f4-49c1-87c7-9bdf311ae697
-
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher, IEventPublisher interface [COM], IEventPublisher interface [COM],described, _com_ieventpublisher, com.ieventpublisher, eventsys/IEventPublisher
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEventPublisher"
+f1_keywords:
+- eventsys/IEventPublisher
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventPublisher
+- IEventPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 

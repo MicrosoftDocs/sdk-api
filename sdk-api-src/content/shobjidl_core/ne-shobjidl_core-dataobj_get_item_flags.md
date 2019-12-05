@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.DATAOBJ_GET_ITEM_FLAGS
 title: DATAOBJ_GET_ITEM_FLAGS (shobjidl_core.h)
-
 description: Values used by the SHGetItemFromDataObject function to specify options concerning the processing of the source object.
 old-location: shell\DATAOBJ_GET_ITEM_FLAGS.htm
 tech.root: shell
 ms.assetid: 7a5ee490-cf30-452a-ade2-22d875ce0358
-
 ms.date: 12/05/2018
 ms.keywords: DATAOBJ_GET_ITEM_FLAGS, DATAOBJ_GET_ITEM_FLAGS enumeration [Windows Shell], DOGIF_DEFAULT, DOGIF_NO_HDROP, DOGIF_NO_URL, DOGIF_ONLY_IF_ONE, DOGIF_TRAVERSE_LINK, _shell_DATAOBJ_GET_ITEM_FLAGS, shell.DATAOBJ_GET_ITEM_FLAGS, shobjidl_core/DATAOBJ_GET_ITEM_FLAGS, shobjidl_core/DOGIF_DEFAULT, shobjidl_core/DOGIF_NO_HDROP, shobjidl_core/DOGIF_NO_URL, shobjidl_core/DOGIF_ONLY_IF_ONE, shobjidl_core/DOGIF_TRAVERSE_LINK
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/DATAOBJ_GET_ITEM_FLAGS"
+f1_keywords:
+- shobjidl_core/DATAOBJ_GET_ITEM_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - DATAOBJ_GET_ITEM_FLAGS
+- DATAOBJ_GET_ITEM_FLAGS
 targetos: Windows
 req.typenames: DATAOBJ_GET_ITEM_FLAGS
 req.redist: 

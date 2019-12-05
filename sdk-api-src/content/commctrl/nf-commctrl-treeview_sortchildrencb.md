@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SortChildrenCB
 title: TreeView_SortChildrenCB macro (commctrl.h)
-
 description: Sorts tree-view items using an application-defined callback function that compares the items. You can use this macro or send the TVM_SORTCHILDRENCB message explicitly.
 old-location: controls\TreeView_SortChildrenCB.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_sortchildrencb.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SortChildrenCB, TreeView_SortChildrenCB macro [Windows Controls], _win32_TreeView_SortChildrenCB, _win32_TreeView_SortChildrenCB_cpp, commctrl/TreeView_SortChildrenCB, controls.TreeView_SortChildrenCB, controls._win32_TreeView_SortChildrenCB
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SortChildrenCB"
+f1_keywords:
+- commctrl/TreeView_SortChildrenCB
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SortChildrenCB
+- TreeView_SortChildrenCB
 targetos: Windows
 req.typenames: 
 req.redist: 

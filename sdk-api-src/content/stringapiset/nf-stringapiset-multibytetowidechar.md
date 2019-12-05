@@ -1,19 +1,17 @@
 ---
 UID: NF:stringapiset.MultiByteToWideChar
 title: MultiByteToWideChar function (stringapiset.h)
-
 description: Maps a character string to a UTF-16 (wide character) string.
 old-location: intl\multibytetowidechar.htm
 tech.root: Intl
 ms.assetid: a117fdfe-b52b-466f-9300-6455e91ea2a8
-
 ms.date: 12/05/2018
 ms.keywords: CP_ACP, CP_MACCP, CP_OEMCP, CP_SYMBOL, CP_THREAD_ACP, CP_UTF7, CP_UTF8, MB_COMPOSITE, MB_ERR_INVALID_CHARS, MB_PRECOMPOSED, MB_USEGLYPHCHARS, MultiByteToWideChar, MultiByteToWideChar function [Internationalization for Windows Applications], _win32_MultiByteToWideChar, intl.multibytetowidechar, stringapiset/MultiByteToWideChar
 ms.topic: function
 f1_keywords:
 - stringapiset/MultiByteToWideChar
 dev_langs:
- - c++
+- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows

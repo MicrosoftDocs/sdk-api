@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfSetCounterSetInfo
 title: PerfSetCounterSetInfo function (perflib.h)
-
 description: Specifies the layout of a particular counter set.
 old-location: perf\perfsetcountersetinfo.htm
 tech.root: perfctrs
 ms.assetid: b4295503-5588-4898-816c-939a5920fc77
-
 ms.date: 12/05/2018
 ms.keywords: PerfSetCounterSetInfo, PerfSetCounterSetInfo function [Perf], base.perfsetcountersetinfo, perf.perfsetcountersetinfo, perflib/PerfSetCounterSetInfo
 ms.topic: function
 f1_keywords:
 - perflib/PerfSetCounterSetInfo
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

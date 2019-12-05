@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorActivitiesReportCallback.OnActivitiesReport
 title: IMFSensorActivitiesReportCallback::OnActivitiesReport (mfidl.h)
-
 description: Raised by the media pipeline when a new IMFSensorActivitiesReport is available.
 old-location: mf\imfsensoractivitiesreportcallback_onactivitiesreport.htm
 tech.root: medfound
 ms.assetid: B4D2332C-757F-4A2A-A12B-81BB503B02A4
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback interface [Media Foundation],OnActivitiesReport method, IMFSensorActivitiesReportCallback.OnActivitiesReport, IMFSensorActivitiesReportCallback::OnActivitiesReport, OnActivitiesReport, OnActivitiesReport method [Media Foundation], OnActivitiesReport method [Media Foundation],IMFSensorActivitiesReportCallback interface, mf.imfsensoractivitiesreportcallback_onactivitiesreport, mfidl/IMFSensorActivitiesReportCallback::OnActivitiesReport
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorActivitiesReportCallback.OnActivitiesReport"
+f1_keywords:
+- mfidl/IMFSensorActivitiesReportCallback.OnActivitiesReport
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivitiesReportCallback.OnActivitiesReport
+- IMFSensorActivitiesReportCallback.OnActivitiesReport
 targetos: Windows
 req.typenames: 
 req.redist: 

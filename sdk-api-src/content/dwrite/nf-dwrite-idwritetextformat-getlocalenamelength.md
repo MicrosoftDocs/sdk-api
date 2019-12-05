@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetLocaleNameLength
 title: IDWriteTextFormat::GetLocaleNameLength (dwrite.h)
-
 description: Gets the length of the locale name.
 old-location: directwrite\IDWriteTextFormat_GetLocaleNameLength.htm
 tech.root: DirectWrite
 ms.assetid: 197926ad-ff96-48b3-872b-22a683725ef8
-
 ms.date: 12/05/2018
 ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], GetLocaleNameLength method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetLocaleNameLength method, IDWriteTextFormat.GetLocaleNameLength, IDWriteTextFormat::GetLocaleNameLength, directwrite.IDWriteTextFormat_GetLocaleNameLength, dwrite/IDWriteTextFormat::GetLocaleNameLength
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetLocaleNameLength"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetLocaleNameLength
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetLocaleNameLength
+- IDWriteTextFormat.GetLocaleNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 

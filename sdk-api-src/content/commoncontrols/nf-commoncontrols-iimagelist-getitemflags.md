@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.GetItemFlags
 title: IImageList::GetItemFlags (commoncontrols.h)
-
 description: Gets the flags of an image.
 old-location: controls\IImageList_GetItemFlags.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\getitemflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetItemFlags, GetItemFlags method [Windows Controls], GetItemFlags method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetItemFlags method, IImageList.GetItemFlags, IImageList::GetItemFlags, ILIF_ALPHA, ILIF_LOWQUALITY, comctl_IImageList_GetItemFlags, comctl_IImageList_GetItemFlags_cpp, commoncontrols/IImageList::GetItemFlags, controls.IImageList_GetItemFlags, controls.comctl_IImageList_GetItemFlags
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.GetItemFlags"
+f1_keywords:
+- commoncontrols/IImageList.GetItemFlags
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.GetItemFlags
+- IImageList.GetItemFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

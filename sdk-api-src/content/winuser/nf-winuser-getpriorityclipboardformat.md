@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPriorityClipboardFormat
 title: GetPriorityClipboardFormat function (winuser.h)
-
 description: Retrieves the first available clipboard format in the specified list.
 old-location: dataxchg\getpriorityclipboardformat.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getpriorityclipboardformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPriorityClipboardFormat, GetPriorityClipboardFormat function [Data Exchange], _win32_GetPriorityClipboardFormat, _win32_getpriorityclipboardformat_cpp, dataxchg.getpriorityclipboardformat, winui._win32_getpriorityclipboardformat, winuser/GetPriorityClipboardFormat
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPriorityClipboardFormat"
+f1_keywords:
+- winuser/GetPriorityClipboardFormat
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - GetPriorityClipboardFormat
+- GetPriorityClipboardFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

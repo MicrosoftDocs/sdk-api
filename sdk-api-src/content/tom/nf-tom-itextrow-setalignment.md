@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetAlignment
 title: ITextRow::SetAlignment (tom.h)
-
 description: Sets the horizontal alignment of a row.
 old-location: controls\itextrow_setalignment.htm
 tech.root: Controls
 ms.assetid: bfcc900d-2bec-4314-a2c5-09f55e27a626
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetAlignment method, ITextRow.SetAlignment, ITextRow::SetAlignment, SetAlignment, SetAlignment method [Windows Controls], SetAlignment method [Windows Controls],ITextRow interface, controls.itextrow_setalignment, tom/ITextRow::SetAlignment
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetAlignment"
+f1_keywords:
+- tom/ITextRow.SetAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetAlignment
+- ITextRow.SetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_STATIC_BORDER_COLOR
 title: D3D12_STATIC_BORDER_COLOR (d3d12.h)
-
 description: Specifies the border color for a static sampler.
 old-location: direct3d12\d3d12_static_border_color.htm
 tech.root: direct3d12
 ms.assetid: E5D3E447-F1C7-4AAF-B9AB-829C33622E34
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATIC_BORDER_COLOR, D3D12_STATIC_BORDER_COLOR enumeration, D3D12_STATIC_BORDER_COLOR_OPAQUE_BLACK, D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK, d3d12/D3D12_STATIC_BORDER_COLOR, d3d12/D3D12_STATIC_BORDER_COLOR_OPAQUE_BLACK, d3d12/D3D12_STATIC_BORDER_COLOR_OPAQUE_WHITE, d3d12/D3D12_STATIC_BORDER_COLOR_TRANSPARENT_BLACK, direct3d12.d3d12_static_border_color
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_STATIC_BORDER_COLOR"
+f1_keywords:
+- d3d12/D3D12_STATIC_BORDER_COLOR
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_STATIC_BORDER_COLOR
+- D3D12_STATIC_BORDER_COLOR
 targetos: Windows
 req.typenames: D3D12_STATIC_BORDER_COLOR
 req.redist: 

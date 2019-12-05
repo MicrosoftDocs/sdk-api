@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleName
 title: IStylesProvider::get_StyleName (uiautomationcore.h)
-
 description: Specifies the name of the visual style of an element in a document.
 old-location: winauto\iuiauto_stylesprovider_stylename.htm
 tech.root: WinAuto
 ms.assetid: 5FFCFC37-F03D-4F86-8D8E-3AF03547A40B
-
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],StyleName property, IStylesProvider.StyleName, IStylesProvider.get_StyleName, IStylesProvider::StyleName, IStylesProvider::get_StyleName, StyleName property [Windows Accessibility], StyleName property [Windows Accessibility],IStylesProvider interface, get_StyleName, uiautomationcore/IStylesProvider::StyleName, uiautomationcore/IStylesProvider::get_StyleName, winauto.iuiauto_stylesprovider_stylename
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IStylesProvider.StyleName"
+f1_keywords:
+- uiautomationcore/IStylesProvider.StyleName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IStylesProvider.StyleName
- - IStylesProvider.get_StyleName
+- IStylesProvider.StyleName
+- IStylesProvider.get_StyleName
 targetos: Windows
 req.typenames: 
 req.redist: 

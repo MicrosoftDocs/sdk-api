@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_OID_FUNC_ENTRY
 title: CRYPT_OID_FUNC_ENTRY (wincrypt.h)
-
 description: Contains an object identifier (OID) and a pointer to its related function.
 old-location: security\crypt_oid_func_entry.htm
 tech.root: SecCrypto
 ms.assetid: 84c4aca8-ee38-455f-8330-58f512a6d12c
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY structure [Security], PCRYPT_OID_FUNC_ENTRY, PCRYPT_OID_FUNC_ENTRY structure pointer [Security], _crypto2_crypt_oid_func_entry, security.crypt_oid_func_entry, wincrypt/CRYPT_OID_FUNC_ENTRY, wincrypt/PCRYPT_OID_FUNC_ENTRY"
+ms.keywords: '*PCRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY, CRYPT_OID_FUNC_ENTRY structure [Security], PCRYPT_OID_FUNC_ENTRY, PCRYPT_OID_FUNC_ENTRY structure pointer [Security], _crypto2_crypt_oid_func_entry, security.crypt_oid_func_entry, wincrypt/CRYPT_OID_FUNC_ENTRY, wincrypt/PCRYPT_OID_FUNC_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_OID_FUNC_ENTRY"
+f1_keywords:
+- wincrypt/CRYPT_OID_FUNC_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_OID_FUNC_ENTRY
+- CRYPT_OID_FUNC_ENTRY
 targetos: Windows
 req.typenames: CRYPT_OID_FUNC_ENTRY, *PCRYPT_OID_FUNC_ENTRY
 req.redist: 

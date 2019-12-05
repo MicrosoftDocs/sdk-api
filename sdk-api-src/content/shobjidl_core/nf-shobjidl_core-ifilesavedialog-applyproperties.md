@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.ApplyProperties
 title: IFileSaveDialog::ApplyProperties (shobjidl_core.h)
-
 description: Applies a set of properties to an item using the Shell's copy engine.
 old-location: shell\IFileSaveDialog_ApplyProperties.htm
 tech.root: shell
 ms.assetid: 3de64914-b64e-47e8-8f84-6c64d849ffa9
-
 ms.date: 12/05/2018
 ms.keywords: ApplyProperties, ApplyProperties method [Windows Shell], ApplyProperties method [Windows Shell],IFileSaveDialog interface, IFileSaveDialog interface [Windows Shell],ApplyProperties method, IFileSaveDialog.ApplyProperties, IFileSaveDialog::ApplyProperties, shell.IFileSaveDialog_ApplyProperties, shell_IFileSaveDialog_ApplyProperties, shobjidl_core/IFileSaveDialog::ApplyProperties
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileSaveDialog.ApplyProperties"
+f1_keywords:
+- shobjidl_core/IFileSaveDialog.ApplyProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IFileSaveDialog.ApplyProperties
+- IFileSaveDialog.ApplyProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

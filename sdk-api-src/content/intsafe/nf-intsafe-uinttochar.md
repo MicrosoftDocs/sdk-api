@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntToChar
 title: UIntToChar function (intsafe.h)
-
 description: Converts a value of type UINT to a value of type CHAR.
 old-location: shell\UIntToChar.htm
 tech.root: shell
 ms.assetid: 161c3056-3d17-4273-899f-9dc4adb85fb0
-
 ms.date: 12/05/2018
 ms.keywords: UIntToChar, UIntToChar function [Windows Shell], _shell_UIntToChar, intsafe/UIntToChar, shell.UIntToChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntToChar"
+f1_keywords:
+- intsafe/UIntToChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntToChar
+- UIntToChar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.CancelMibChangeNotify2
 title: CancelMibChangeNotify2 function (netioapi.h)
-
 description: Deregisters for change notifications for IP interface changes, IP address changes, IP route changes, Teredo port changes, and when the unicast IP address table is stable and can be retrieved.
 old-location: iphlp\cancelmibchangenotify2.htm
 tech.root: IpHlp
 ms.assetid: 81492118-7513-49a2-9c61-3ecfaf84cc2d
-
 ms.date: 12/05/2018
 ms.keywords: CancelMibChangeNotify2, CancelMibChangeNotify2 function [IP Helper], iphlp.cancelmibchangenotify2, netioapi/CancelMibChangeNotify2
 ms.topic: function
-f1_keywords: 
- - "netioapi/CancelMibChangeNotify2"
+f1_keywords:
+- netioapi/CancelMibChangeNotify2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CancelMibChangeNotify2
+- CancelMibChangeNotify2
 targetos: Windows
 req.typenames: 
 req.redist: 

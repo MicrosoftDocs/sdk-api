@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1Geometry
 title: ID2D1Geometry (d2d1.h)
-
 description: Represents a geometry resource and defines a set of helper methods for manipulating and measuring geometric shapes. Interfaces that inherit from ID2D1Geometry define specific shapes.
 old-location: direct2d\ID2D1Geometry.htm
 tech.root: Direct2D
 ms.assetid: be4ab801-64f6-48f9-8f62-d0492cc438b1
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Geometry, ID2D1Geometry interface [Direct2D], ID2D1Geometry interface [Direct2D],described, d2d1/ID2D1Geometry, direct2d.ID2D1Geometry
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1Geometry"
+f1_keywords:
+- d2d1/ID2D1Geometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Geometry
+- ID2D1Geometry
 targetos: Windows
 req.typenames: 
 req.redist: 

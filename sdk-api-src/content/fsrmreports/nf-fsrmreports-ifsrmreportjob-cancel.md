@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.Cancel
 title: IFsrmReportJob::Cancel (fsrmreports.h)
-
 description: Cancels the running reports for this report job.
 old-location: fsrm\ifsrmreportjob_cancel.htm
 tech.root: fsrm
 ms.assetid: 7a8680e4-e5b4-4174-8eae-aad65b1d4f22
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],Cancel method, IFsrmReportJob.Cancel, IFsrmReportJob::Cancel, fs.ifsrmreportjob_cancel, fsrm.ifsrmreportjob_cancel, fsrmreports/IFsrmReportJob::Cancel
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.Cancel"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.Cancel
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.Cancel
+- IFsrmReportJob.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

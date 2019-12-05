@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.get_LoadResult
 title: IUPnPDescriptionDocument::get_LoadResult (upnp.h)
-
 description: The LoadResult property specifies the success or failure code of a completed load operation.
 old-location: upnp\iupnpdescriptiondocument_loadresult.htm
 tech.root: upnp
 ms.assetid: 3faf3dfa-ed42-4dbd-9ad7-7e34a8b00be8
-
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_PENDING, E_UNEXPECTED, IUPnPDescriptionDocument interface [UPnP APIs],get_LoadResult method, IUPnPDescriptionDocument.get_LoadResult, IUPnPDescriptionDocument::get_LoadResult, S_OK, _upnp_iupnpdescriptiondocument_loadresult, get_LoadResult, get_LoadResult method [UPnP APIs], get_LoadResult method [UPnP APIs],IUPnPDescriptionDocument interface, upnp.iupnpdescriptiondocument_loadresult, upnp/IUPnPDescriptionDocument::get_LoadResult
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDescriptionDocument.get_LoadResult"
+f1_keywords:
+- upnp/IUPnPDescriptionDocument.get_LoadResult
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDescriptionDocument.get_LoadResult
+- IUPnPDescriptionDocument.get_LoadResult
 targetos: Windows
 req.typenames: 
 req.redist: 

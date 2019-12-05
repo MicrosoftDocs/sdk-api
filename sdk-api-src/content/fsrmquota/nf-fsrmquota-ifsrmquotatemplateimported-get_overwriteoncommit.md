@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaTemplateImported.get_OverwriteOnCommit
 title: IFsrmQuotaTemplateImported::get_OverwriteOnCommit (fsrmquota.h)
-
 description: Retrieves or sets a value that determines whether a quota template is overwritten if it exists when the template is imported.
 old-location: fsrm\ifsrmquotatemplateimported_overwriteoncommit.htm
 tech.root: fsrm
 ms.assetid: fbfa55b5-b179-4ede-b39d-a04c1e6d8c83
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaTemplateImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmQuotaTemplateImported.OverwriteOnCommit, IFsrmQuotaTemplateImported.get_OverwriteOnCommit, IFsrmQuotaTemplateImported::OverwriteOnCommit, IFsrmQuotaTemplateImported::get_OverwriteOnCommit, IFsrmQuotaTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmQuotaTemplateImported interface, fs.ifsrmquotatemplateimported_overwriteoncommit, fsrm.ifsrmquotatemplateimported_overwriteoncommit, fsrmquota/IFsrmQuotaTemplateImported::OverwriteOnCommit, fsrmquota/IFsrmQuotaTemplateImported::get_OverwriteOnCommit, fsrmquota/IFsrmQuotaTemplateImported::put_OverwriteOnCommit, get_OverwriteOnCommit
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaTemplateImported.OverwriteOnCommit"
+f1_keywords:
+- fsrmquota/IFsrmQuotaTemplateImported.OverwriteOnCommit
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplateImported.OverwriteOnCommit
- - IFsrmQuotaTemplateImported.get_OverwriteOnCommit
- - IFsrmQuotaTemplateImported.put_OverwriteOnCommit
+- IFsrmQuotaTemplateImported.OverwriteOnCommit
+- IFsrmQuotaTemplateImported.get_OverwriteOnCommit
+- IFsrmQuotaTemplateImported.put_OverwriteOnCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

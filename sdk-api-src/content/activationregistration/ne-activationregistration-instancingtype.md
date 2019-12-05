@@ -1,19 +1,17 @@
 ---
 UID: NE:activationregistration.InstancingType
 title: InstancingType (activationregistration.h)
-
 description: Represents the kind of instancing behavior for the out-of-process server.
 old-location: winrt\instancingtype.htm
 tech.root: WinRT
 ms.assetid: 42E6A5EE-06B0-4F38-92D0-729922AD9FFF
-
 ms.date: 12/05/2018
 ms.keywords: InstancingType, InstancingType enumeration [Windows Runtime], InstancingType_MultipleInstances, InstancingType_SingleInstance, activationregistration/InstancingType, activationregistration/InstancingType_MultipleInstances, activationregistration/InstancingType_SingleInstance, winrt.instancingtype
 ms.topic: enum
-f1_keywords: 
- - "activationregistration/InstancingType"
+f1_keywords:
+- activationregistration/InstancingType
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - InstancingType
+- InstancingType
 targetos: Windows
 req.typenames: InstancingType
 req.redist: 

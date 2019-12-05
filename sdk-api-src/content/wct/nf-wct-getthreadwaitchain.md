@@ -1,19 +1,17 @@
 ---
 UID: NF:wct.GetThreadWaitChain
 title: GetThreadWaitChain function (wct.h)
-
 description: Retrieves the wait chain for the specified thread.
 old-location: base\getthreadwaitchain.htm
 tech.root: Debug
 ms.assetid: 5b418fa6-1d07-465e-85ea-b7127264eebf
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_COM_FLAG, WCT_OUT_OF_PROC_CS_FLAG, WCT_OUT_OF_PROC_FLAG, base.getthreadwaitchain, wct/GetThreadWaitChain
 ms.topic: function
 f1_keywords:
 - wct/GetThreadWaitChain
 dev_langs:
- - c++
+- c++
 req.header: wct.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetRestoreConnectionW
 title: WNetRestoreConnectionW function (winnetwk.h)
-
 description: The WNetRestoreConnectionW function restores the connection to a network resource. The function prompts the user, if necessary, for a name and password.
 old-location: wnet\wnetrestoreconnectionw.htm
 tech.root: WNet
 ms.assetid: 641b37f1-9cea-4c7a-9b42-b4bd28c747ad
-
 ms.date: 12/05/2018
 ms.keywords: WNetRestoreConnectionW, WNetRestoreConnectionW function [Windows Networking (WNet)], winnetwk/WNetRestoreConnectionW, wnet.wnetrestoreconnectionw
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetRestoreConnectionW"
+f1_keywords:
+- winnetwk/WNetRestoreConnectionW
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetRestoreConnectionW
+- WNetRestoreConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

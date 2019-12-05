@@ -1,19 +1,17 @@
 ---
 UID: NN:vsmgmt.IVssEnumMgmtObject
 title: IVssEnumMgmtObject (vsmgmt.h)
-
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenummgmtobject.htm
 tech.root: VSS
 ms.assetid: c2067822-1824-4676-8376-7d83fcbbaea3
-
 ms.date: 12/05/2018
 ms.keywords: IVssEnumMgmtObject, IVssEnumMgmtObject interface [Files], IVssEnumMgmtObject interface [Files],described, base.ivssenummgmtobject, vsmgmt/IVssEnumMgmtObject
 ms.topic: interface
-f1_keywords: 
- - "vsmgmt/IVssEnumMgmtObject"
+f1_keywords:
+- vsmgmt/IVssEnumMgmtObject
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssEnumMgmtObject
+- IVssEnumMgmtObject
 targetos: Windows
 req.typenames: 
 req.redist: 

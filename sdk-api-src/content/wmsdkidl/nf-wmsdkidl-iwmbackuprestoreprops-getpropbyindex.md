@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropByIndex
 title: IWMBackupRestoreProps::GetPropByIndex (wmsdkidl.h)
-
 description: The GetPropByIndex method retrieves the name and value of a property by index.
 old-location: wmformat\iwmbackuprestoreprops_getpropbyindex.htm
 tech.root: wmformat
 ms.assetid: 96376e63-3c36-4bea-8cd2-362bb1ba054f
-
 ms.date: 12/05/2018
 ms.keywords: GetPropByIndex, GetPropByIndex method [windows Media Format], GetPropByIndex method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByIndex method, IWMBackupRestoreProps.GetPropByIndex, IWMBackupRestoreProps::GetPropByIndex, IWMBackupRestorePropsGetPropByIndex, wmformat.iwmbackuprestoreprops_getpropbyindex, wmsdkidl/IWMBackupRestoreProps::GetPropByIndex
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMBackupRestoreProps.GetPropByIndex"
+f1_keywords:
+- wmsdkidl/IWMBackupRestoreProps.GetPropByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps.GetPropByIndex
+- IWMBackupRestoreProps.GetPropByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.SetSourceMoniker
 title: IOleLink::SetSourceMoniker (oleidl.h)
-
 description: Sets the moniker for the link source.
 old-location: com\iolelink_setsourcemoniker.htm
 tech.root: com
 ms.assetid: 85fe1d28-d9c6-46b4-abff-6afce9ff3cd0
-
 ms.date: 12/05/2018
 ms.keywords: IOleLink interface [COM],SetSourceMoniker method, IOleLink.SetSourceMoniker, IOleLink::SetSourceMoniker, SetSourceMoniker, SetSourceMoniker method [COM], SetSourceMoniker method [COM],IOleLink interface, _ole_iolelink_setsourcemoniker, com.iolelink_setsourcemoniker, oleidl/IOleLink::SetSourceMoniker
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.SetSourceMoniker"
+f1_keywords:
+- oleidl/IOleLink.SetSourceMoniker
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.SetSourceMoniker
+- IOleLink.SetSourceMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

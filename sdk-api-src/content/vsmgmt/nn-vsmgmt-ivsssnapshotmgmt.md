@@ -1,19 +1,17 @@
 ---
 UID: NN:vsmgmt.IVssSnapshotMgmt
 title: IVssSnapshotMgmt (vsmgmt.h)
-
 description: Provides a method that returns an interface to further configure a shadow copy provider.
 old-location: base\ivsssnapshotmgmt.htm
 tech.root: VSS
 ms.assetid: 5e5694a1-7c17-4d8a-b094-09dcf28a636f
-
 ms.date: 12/05/2018
 ms.keywords: IVssSnapshotMgmt, IVssSnapshotMgmt interface [Files], IVssSnapshotMgmt interface [Files],described, base.ivsssnapshotmgmt, vsmgmt/IVssSnapshotMgmt
 ms.topic: interface
-f1_keywords: 
- - "vsmgmt/IVssSnapshotMgmt"
+f1_keywords:
+- vsmgmt/IVssSnapshotMgmt
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssSnapshotMgmt
+- IVssSnapshotMgmt
 targetos: Windows
 req.typenames: 
 req.redist: 

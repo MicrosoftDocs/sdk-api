@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Inverted
 title: IInkCursor::get_Inverted (msinkaut.h)
-
 description: Gets a value that indicates whether the cursor is the inverted end of the pen.
 old-location: tablet\iinkcursor_inverted.htm
 tech.root: tablet
 ms.assetid: 83cc33ba-0887-4f04-8eaf-325fcf90b8fe
-
 ms.date: 12/05/2018
 ms.keywords: 83cc33ba-0887-4f04-8eaf-325fcf90b8fe, IInkCursor interface [Tablet PC],Inverted property, IInkCursor.Inverted, IInkCursor.get_Inverted, IInkCursor::Inverted, IInkCursor::get_Inverted, Inverted property [Tablet PC], Inverted property [Tablet PC],IInkCursor interface, get_Inverted, msinkaut/IInkCursor::Inverted, msinkaut/IInkCursor::get_Inverted, tablet.iinkcursor_inverted
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCursor.Inverted"
+f1_keywords:
+- msinkaut/IInkCursor.Inverted
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursor.Inverted
- - IInkCursor.get_Inverted
- - IInkCursor.get_Inverted
+- IInkCursor.Inverted
+- IInkCursor.get_Inverted
+- IInkCursor.get_Inverted
 targetos: Windows
 req.typenames: 
 req.redist: 

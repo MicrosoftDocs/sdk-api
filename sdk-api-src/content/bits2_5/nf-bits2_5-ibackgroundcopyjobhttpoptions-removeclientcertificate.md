@@ -1,19 +1,17 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.RemoveClientCertificate
 title: IBackgroundCopyJobHttpOptions::RemoveClientCertificate (bits2_5.h)
-
 description: Removes the client certificate from the job.
 old-location: bits\ibackgroundcopyjobhttpoptions_removeclientcertificate.htm
 tech.root: Bits
 ms.assetid: b4fb7213-5f6b-407f-bc44-6d11886ed5ad
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJobHttpOptions interface [BITS],RemoveClientCertificate method, IBackgroundCopyJobHttpOptions.RemoveClientCertificate, IBackgroundCopyJobHttpOptions::RemoveClientCertificate, RemoveClientCertificate, RemoveClientCertificate method [BITS], RemoveClientCertificate method [BITS],IBackgroundCopyJobHttpOptions interface, bits.ibackgroundcopyjobhttpoptions_removeclientcertificate, bits2_5/IBackgroundCopyJobHttpOptions::RemoveClientCertificate
 ms.topic: method
-f1_keywords: 
- - "bits2_5/IBackgroundCopyJobHttpOptions.RemoveClientCertificate"
+f1_keywords:
+- bits2_5/IBackgroundCopyJobHttpOptions.RemoveClientCertificate
 dev_langs:
- - c++
+- c++
 req.header: bits2_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions.RemoveClientCertificate
+- IBackgroundCopyJobHttpOptions.RemoveClientCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

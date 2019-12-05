@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IConnector.GetConnectorIdConnectedTo
 title: IConnector::GetConnectorIdConnectedTo (devicetopology.h)
-
 description: The GetConnectorIdConnectedTo method gets the global ID of the connector, if any, that this connector is connected to.
 old-location: coreaudio\iconnector_getconnectoridconnectedto.htm
 tech.root: CoreAudio
 ms.assetid: 865add93-9174-41c5-8998-b68f75eb35a1
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectorIdConnectedTo, GetConnectorIdConnectedTo method [Core Audio], GetConnectorIdConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetConnectorIdConnectedTo method, IConnector.GetConnectorIdConnectedTo, IConnector::GetConnectorIdConnectedTo, IConnectorGetConnectorIdConnectedTo, coreaudio.iconnector_getconnectoridconnectedto, devicetopology/IConnector::GetConnectorIdConnectedTo
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IConnector.GetConnectorIdConnectedTo"
+f1_keywords:
+- devicetopology/IConnector.GetConnectorIdConnectedTo
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IConnector.GetConnectorIdConnectedTo
+- IConnector.GetConnectorIdConnectedTo
 targetos: Windows
 req.typenames: 
 req.redist: 

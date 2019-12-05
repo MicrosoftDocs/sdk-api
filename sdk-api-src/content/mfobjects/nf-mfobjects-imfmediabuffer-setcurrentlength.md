@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.SetCurrentLength
 title: IMFMediaBuffer::SetCurrentLength (mfobjects.h)
-
 description: Sets the length of the valid data in the buffer.
 old-location: mf\imfmediabuffer_setcurrentlength.htm
 tech.root: medfound
 ms.assetid: ce48458f-eb0f-441a-a4bc-9d3fbee0cd74
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaBuffer interface [Media Foundation],SetCurrentLength method, IMFMediaBuffer.SetCurrentLength, IMFMediaBuffer::SetCurrentLength, SetCurrentLength, SetCurrentLength method [Media Foundation], SetCurrentLength method [Media Foundation],IMFMediaBuffer interface, ce48458f-eb0f-441a-a4bc-9d3fbee0cd74, mf.imfmediabuffer_setcurrentlength, mfobjects/IMFMediaBuffer::SetCurrentLength
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaBuffer.SetCurrentLength"
+f1_keywords:
+- mfobjects/IMFMediaBuffer.SetCurrentLength
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaBuffer.SetCurrentLength
+- IMFMediaBuffer.SetCurrentLength
 targetos: Windows
 req.typenames: 
 req.redist: 

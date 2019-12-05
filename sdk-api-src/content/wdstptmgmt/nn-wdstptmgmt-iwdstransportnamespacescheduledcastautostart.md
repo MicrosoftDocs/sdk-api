@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCastAutoStart
 title: IWdsTransportNamespaceScheduledCastAutoStart (wdstptmgmt.h)
-
 description: An administrator can specify criteria that starts transmission on an object of an IWdsTransportNamespaceScheduledCastAutoStart interface automatically. Applications can continue to join sessions of the namespace object until these criteria are reached.
 old-location: wds\iwdstransportnamespacescheduledcastautostart.htm
 tech.root: wds
 ms.assetid: f11122a2-6ea9-4a73-ac93-0af7961f52b6
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastAutoStart, IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastAutoStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastautostart, wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespaceScheduledCastAutoStart
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceScheduledCastAutoStart
+- IWdsTransportNamespaceScheduledCastAutoStart
 targetos: Windows
 req.typenames: 
 req.redist: 

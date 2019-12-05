@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationStylesPattern
 title: IUIAutomationStylesPattern (uiautomationclient.h)
-
 description: Enables Microsoft UI Automation clients to retrieve the visual styles associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern.htm
 tech.root: WinAuto
 ms.assetid: 83529CFD-46D2-45A7-9B0D-F00FF43D911B
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationStylesPattern, IUIAutomationStylesPattern interface [Windows Accessibility], IUIAutomationStylesPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationStylesPattern, winauto.uiauto_IUIAutomationStylesPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationStylesPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationStylesPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationStylesPattern
+- IUIAutomationStylesPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsPrintJob
 title: IADsPrintJob (iads.h)
-
 description: The IADsPrintJob interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsprintjob.htm
 tech.root: adsi
 ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b
-
 ms.date: 12/05/2018
 ms.keywords: IADsPrintJob, IADsPrintJob interface [ADSI], IADsPrintJob interface [ADSI],described, _ds_iadsprintjob, adsi.iadsprintjob, iads/IADsPrintJob
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsPrintJob"
+f1_keywords:
+- iads/IADsPrintJob
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPrintJob
+- IADsPrintJob
 targetos: Windows
 req.typenames: 
 req.redist: 

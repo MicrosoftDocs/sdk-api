@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetProjectionInfoW
 title: RasGetProjectionInfoW function (ras.h)
-
 description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.
 old-location: rras\rasgetprojectioninfo.htm
 tech.root: RRAS
 ms.assetid: 97ae09c3-588a-4dd2-9756-ddcd5fa37f51
-
 ms.date: 12/05/2018
 ms.keywords: RASP_Amb, RASP_PppCcp, RASP_PppIp, RASP_PppIpv6, RASP_PppIpx, RASP_PppLcp, RASP_PppNbf, RASP_Slip, RasGetProjectionInfo, RasGetProjectionInfo function [RAS], RasGetProjectionInfoA, RasGetProjectionInfoW, _ras_rasgetprojectioninfo, ras/RasGetProjectionInfo, ras/RasGetProjectionInfoA, ras/RasGetProjectionInfoW, rras.rasgetprojectioninfo
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetProjectionInfo"
+f1_keywords:
+- ras/RasGetProjectionInfo
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetProjectionInfo
- - RasGetProjectionInfoA
- - RasGetProjectionInfoW
+- RasGetProjectionInfo
+- RasGetProjectionInfoA
+- RasGetProjectionInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

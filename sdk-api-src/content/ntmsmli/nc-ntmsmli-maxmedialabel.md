@@ -1,19 +1,17 @@
 ---
 UID: NC:ntmsmli.MAXMEDIALABEL
 title: MAXMEDIALABEL (ntmsmli.h)
-
 description: The MaxMediaLabel callback function determines the maximum size of the media label for the applications supported by the media label library.
 old-location: fs\maxmedialabel.htm
 tech.root: Rsm
 ms.assetid: b770cc63-e1dd-4d1a-8009-8e1bdc9ce69c
-
 ms.date: 12/05/2018
 ms.keywords: MaxMediaLabel, MaxMediaLabel callback, MaxMediaLabel callback function [Files], _zaw_maxmedialabel, base.maxmedialabel, fs.maxmedialabel, ntmsmli/MaxMediaLabel
 ms.topic: callback
-f1_keywords: 
- - "ntmsmli/MaxMediaLabel"
+f1_keywords:
+- ntmsmli/MaxMediaLabel
 dev_langs:
- - c++
+- c++
 req.header: ntmsmli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - NtmsMli.h
+- NtmsMli.h
 api_name:
- - MaxMediaLabel
+- MaxMediaLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_Enabled
 title: INetFwAuthorizedApplication::put_Enabled (netfw.h)
-
 description: Indicates whether the settings for this application are currently enabled.
 old-location: ics\inetfwauthorizedapplication_enabled.htm
 tech.root: ics
 ms.assetid: 03a1503e-aee5-484f-8a4c-a7e10dffe401
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [ICS/ICF], Enabled property [ICS/ICF],INetFwAuthorizedApplication interface, INetFwAuthorizedApplication interface [ICS/ICF],Enabled property, INetFwAuthorizedApplication.Enabled, INetFwAuthorizedApplication.put_Enabled, INetFwAuthorizedApplication::Enabled, INetFwAuthorizedApplication::get_Enabled, INetFwAuthorizedApplication::put_Enabled, ics.inetfwauthorizedapplication_enabled, netfw/INetFwAuthorizedApplication::Enabled, netfw/INetFwAuthorizedApplication::get_Enabled, netfw/INetFwAuthorizedApplication::put_Enabled, put_Enabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplication.Enabled"
+f1_keywords:
+- netfw/INetFwAuthorizedApplication.Enabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication.Enabled
- - INetFwAuthorizedApplication.get_Enabled
- - INetFwAuthorizedApplication.put_Enabled
+- INetFwAuthorizedApplication.Enabled
+- INetFwAuthorizedApplication.get_Enabled
+- INetFwAuthorizedApplication.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

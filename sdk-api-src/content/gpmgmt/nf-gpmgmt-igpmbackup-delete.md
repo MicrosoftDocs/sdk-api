@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.Delete
 title: IGPMBackup::Delete (gpmgmt.h)
-
 description: Removes the Group Policy object (GPO) backup from the backup directory and from the file system.
 old-location: gpmc\igpmbackup_delete.htm
 tech.root: gpmc
 ms.assetid: 096f10ca-1528-4ce7-a135-6fc0007e3374
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],GPMBackup class, Delete method [GPMC],IGPMBackup interface, GPMBackup class [GPMC],Delete method, IGPMBackup interface [GPMC],Delete method, IGPMBackup.Delete, IGPMBackup::Delete, _win32_igpmbackup_delete, gpmc.igpmbackup_delete, gpmgmt/IGPMBackup::Delete
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMBackup.Delete"
+f1_keywords:
+- gpmgmt/IGPMBackup.Delete
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMBackup.Delete
- - GPMBackup.Delete
+- IGPMBackup.Delete
+- GPMBackup.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

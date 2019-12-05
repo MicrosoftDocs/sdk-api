@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IDisplayHelp
 title: IDisplayHelp (mmc.h)
-
 description: The IDisplayHelp interface is introduced in MMC version 1.1.
 old-location: mmc\idisplayhelp.htm
 tech.root: mmc
 ms.assetid: 5f5b9a3b-d520-4e19-8cd7-efbb08bcfba2
-
 ms.date: 12/05/2018
 ms.keywords: IDisplayHelp, IDisplayHelp interface [MMC], IDisplayHelp interface [MMC],described, _slate_idisplayhelp, mmc.idisplayhelp, mmc/IDisplayHelp
 ms.topic: interface
-f1_keywords: 
- - "mmc/IDisplayHelp"
+f1_keywords:
+- mmc/IDisplayHelp
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IDisplayHelp
+- IDisplayHelp
 targetos: Windows
 req.typenames: 
 req.redist: 

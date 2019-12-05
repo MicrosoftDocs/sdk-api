@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntryCollection.get_Count
 title: IUpdateHistoryEntryCollection::get_Count (wuapi.h)
-
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatehistoryentrycollection_count.htm
 tech.root: Wua_Sdk
 ms.assetid: f6bdf1f6-9754-45d7-a45b-3b1e8c9d400a
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateHistoryEntryCollection interface, IUpdateHistoryEntryCollection interface [Windows Update Agent],Count property, IUpdateHistoryEntryCollection.Count, IUpdateHistoryEntryCollection.get_Count, IUpdateHistoryEntryCollection::Count, IUpdateHistoryEntryCollection::get_Count, get_Count, wua.iupdatehistoryentrycollection_count, wuapi/IUpdateHistoryEntryCollection::Count, wuapi/IUpdateHistoryEntryCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntryCollection.Count"
+f1_keywords:
+- wuapi/IUpdateHistoryEntryCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntryCollection.Count
- - IUpdateHistoryEntryCollection.get_Count
+- IUpdateHistoryEntryCollection.Count
+- IUpdateHistoryEntryCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

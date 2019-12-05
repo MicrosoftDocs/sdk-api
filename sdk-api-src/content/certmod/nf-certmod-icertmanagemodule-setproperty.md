@@ -1,19 +1,17 @@
 ---
 UID: NF:certmod.ICertManageModule.SetProperty
 title: ICertManageModule::SetProperty (certmod.h)
-
 description: Allows a module to set a property value.
 old-location: security\icertmanagemodule_setproperty.htm
 tech.root: SecCrypto
 ms.assetid: 582ace4a-da88-41b7-86dd-d6a74fc9e97a
-
 ms.date: 12/05/2018
 ms.keywords: CCertManageModule object [Security],SetProperty method, Copyright, Description, File Version, ICertManageModule interface [Security],SetProperty method, ICertManageModule.SetProperty, ICertManageModule::SetProperty, Name, Product Version, SetProperty, SetProperty method [Security], SetProperty method [Security],CCertManageModule object, SetProperty method [Security],ICertManageModule interface, _certsrv_icertmanagemodule_setproperty, certmod/ICertManageModule::SetProperty, security.icertmanagemodule_setproperty
 ms.topic: method
-f1_keywords: 
- - "certmod/ICertManageModule.SetProperty"
+f1_keywords:
+- certmod/ICertManageModule.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: certmod.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certidl.lib
- - Certidl.dll
+- Certidl.lib
+- Certidl.dll
 api_name:
- - ICertManageModule.SetProperty
- - CCertManageModule.SetProperty
+- ICertManageModule.SetProperty
+- CCertManageModule.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

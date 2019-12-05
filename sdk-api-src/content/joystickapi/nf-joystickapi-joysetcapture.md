@@ -1,19 +1,17 @@
 ---
 UID: NF:joystickapi.joySetCapture
 title: joySetCapture function (joystickapi.h)
-
 description: The joySetCapture function captures a joystick by causing its messages to be sent to the specified window.
 old-location: multimedia\joysetcapture.htm
 tech.root: Multimedia
 ms.assetid: d4511c2c-54b3-48f5-aa30-e198292a4728
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_joySetCapture, joySetCapture, joySetCapture function [Windows Multimedia], joystickapi/joySetCapture, multimedia.joysetcapture"
+ms.keywords: _win32_joySetCapture, joySetCapture, joySetCapture function [Windows Multimedia], joystickapi/joySetCapture, multimedia.joysetcapture
 ms.topic: function
-f1_keywords: 
- - "joystickapi/joySetCapture"
+f1_keywords:
+- joystickapi/joySetCapture
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-joystick-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-joystick-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - joySetCapture
+- joySetCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

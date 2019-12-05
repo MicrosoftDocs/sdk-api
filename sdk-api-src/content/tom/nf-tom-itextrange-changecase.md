@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.ChangeCase
 title: ITextRange::ChangeCase (tom.h)
-
 description: Changes the case of letters in this range according to the Type parameter.
 old-location: controls\ITextRange_ChangeCase.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\changecase.htm
-
 ms.date: 12/05/2018
 ms.keywords: ChangeCase, ChangeCase method [Windows Controls], ChangeCase method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],ChangeCase method, ITextRange.ChangeCase, ITextRange::ChangeCase, _win32_ITextRange_ChangeCase, _win32_ITextRange_ChangeCase_cpp, controls.ITextRange_ChangeCase, controls._win32_ITextRange_ChangeCase, tom/ITextRange::ChangeCase, tomLowerCase, tomSentenceCase, tomTitleCase, tomToggleCase, tomUpperCase
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.ChangeCase"
+f1_keywords:
+- tom/ITextRange.ChangeCase
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.ChangeCase
+- ITextRange.ChangeCase
 targetos: Windows
 req.typenames: 
 req.redist: 

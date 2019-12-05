@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.GetBinary
 title: IContactProperties::GetBinary (icontact.h)
-
 description: Retrieves the binary data of a property using an IStream interface [Structured Storage].
 old-location: wincontacts\_wincontacts_IContactProperties_GetBinary.htm
 tech.root: wincontacts
 ms.assetid: 1a62c5d3-7052-4c10-90e7-25f616ac36b8
-
 ms.date: 12/05/2018
 ms.keywords: GetBinary, GetBinary method [Windows Contacts], GetBinary method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetBinary method, IContactProperties.GetBinary, IContactProperties::GetBinary, _wincontacts_IContactProperties_GetBinary, icontact/IContactProperties::GetBinary, wincontacts._wincontacts_IContactProperties_GetBinary
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.GetBinary"
+f1_keywords:
+- icontact/IContactProperties.GetBinary
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.GetBinary
+- IContactProperties.GetBinary
 targetos: Windows
 req.typenames: 
 req.redist: 

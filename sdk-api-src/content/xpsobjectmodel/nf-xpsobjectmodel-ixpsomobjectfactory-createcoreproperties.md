@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateCoreProperties
 title: IXpsOMObjectFactory::CreateCoreProperties (xpsobjectmodel.h)
-
 description: Creates an IXpsOMCoreProperties interface, which contains the metadata that describes an XPS document.
 old-location: xps\ixpsomobjectfactory_createcoreproperties.htm
 tech.root: printdocs
 ms.assetid: b7146f0c-e397-45cb-9eb0-e03b3ac0e905
-
 ms.date: 12/05/2018
 ms.keywords: CreateCoreProperties, CreateCoreProperties method [XPS Documents and Packaging], CreateCoreProperties method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateCoreProperties method, IXpsOMObjectFactory.CreateCoreProperties, IXpsOMObjectFactory::CreateCoreProperties, xps.ixpsomobjectfactory_createcoreproperties, xpsobjectmodel/IXpsOMObjectFactory::CreateCoreProperties
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateCoreProperties"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateCoreProperties
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateCoreProperties
+- IXpsOMObjectFactory.CreateCoreProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

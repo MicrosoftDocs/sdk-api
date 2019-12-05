@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate4
 title: IWindowsDriverUpdate4 (wuapi.h)
-
 description: Contains the properties and methods that are available only from a Windows driver update.
 old-location: wua\iwindowsdriverupdate4.htm
 tech.root: Wua_Sdk
 ms.assetid: 3376c93a-4705-432a-8475-89e4448e5bc3
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate4, IWindowsDriverUpdate4 interface [Windows Update Agent], IWindowsDriverUpdate4 interface [Windows Update Agent],described, wua.iwindowsdriverupdate4, wuapi/IWindowsDriverUpdate4
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdate4"
+f1_keywords:
+- wuapi/IWindowsDriverUpdate4
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdate4
+- IWindowsDriverUpdate4
 targetos: Windows
 req.typenames: 
 req.redist: 

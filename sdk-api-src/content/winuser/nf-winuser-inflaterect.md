@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InflateRect
 title: InflateRect function (winuser.h)
-
 description: The InflateRect function increases or decreases the width and height of the specified rectangle.
 old-location: gdi\inflaterect.htm
 tech.root: gdi
 ms.assetid: 9a52fb7f-cd35-4426-8753-c26cebef30d5
-
 ms.date: 12/05/2018
 ms.keywords: InflateRect, InflateRect function [Windows GDI], _win32_InflateRect, gdi.inflaterect, winuser/InflateRect
 ms.topic: function
-f1_keywords: 
- - "winuser/InflateRect"
+f1_keywords:
+- winuser/InflateRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - InflateRect
+- InflateRect
 targetos: Windows
 req.typenames: 
 req.redist: 

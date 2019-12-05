@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICatalogObject.IsPropertyReadOnly
 title: ICatalogObject::IsPropertyReadOnly (comadmin.h)
-
 description: Indicates whether the specified property can be modified using Value.
 old-location: cos\icatalogobject_ispropertyreadonly.htm
 tech.root: cossdk
 ms.assetid: bd088794-1245-4cb8-a1f7-385354640675
-
 ms.date: 12/05/2018
 ms.keywords: ICatalogObject interface [COM+],IsPropertyReadOnly method, ICatalogObject.IsPropertyReadOnly, ICatalogObject::IsPropertyReadOnly, IsPropertyReadOnly, IsPropertyReadOnly method [COM+], IsPropertyReadOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyReadOnly, comadmin/ICatalogObject::IsPropertyReadOnly, cos.icatalogobject_ispropertyreadonly
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICatalogObject.IsPropertyReadOnly"
+f1_keywords:
+- comadmin/ICatalogObject.IsPropertyReadOnly
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICatalogObject.IsPropertyReadOnly
+- ICatalogObject.IsPropertyReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

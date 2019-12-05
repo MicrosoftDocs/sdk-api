@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_5.IDXGISwapChain4.SetHDRMetaData
 title: IDXGISwapChain4::SetHDRMetaData (dxgi1_5.h)
-
 description: This method sets High Dynamic Range (HDR) and Wide Color Gamut (WCG) header metadata.
 old-location: direct3ddxgi\idxgiswapchain4_sethdrmetadata.htm
 tech.root: direct3ddxgi
 ms.assetid: 03EBBB29-EAC3-4FE7-9CA7-D9F62CFDA8FB
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain4 interface [DXGI],SetHDRMetaData method, IDXGISwapChain4.SetHDRMetaData, IDXGISwapChain4::SetHDRMetaData, SetHDRMetaData, SetHDRMetaData method [DXGI], SetHDRMetaData method [DXGI],IDXGISwapChain4 interface, direct3ddxgi.idxgiswapchain4_sethdrmetadata, dxgi1_5/IDXGISwapChain4::SetHDRMetaData
 ms.topic: method
-f1_keywords: 
- - "dxgi1_5/IDXGISwapChain4.SetHDRMetaData"
+f1_keywords:
+- dxgi1_5/IDXGISwapChain4.SetHDRMetaData
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi1_5.lib
 req.dll: Dxgi1_5.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi1_5.dll
+- dxgi1_5.dll
 api_name:
- - IDXGISwapChain4.SetHDRMetaData
+- IDXGISwapChain4.SetHDRMetaData
 targetos: Windows
 req.typenames: 
 req.redist: 

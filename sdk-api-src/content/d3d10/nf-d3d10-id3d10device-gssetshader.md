@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetShader
 title: ID3D10Device::GSSetShader (d3d10.h)
-
 description: Set a geometry shader to the device.
 old-location: direct3d10\id3d10device_gssetshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: GSSetShader, GSSetShader method [Direct3D 10], GSSetShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetShader method, ID3D10Device.GSSetShader, ID3D10Device::GSSetShader, bec21328-0eb9-6e55-a154-2849f276da74, d3d10/ID3D10Device::GSSetShader, direct3d10.id3d10device_gssetshader
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.GSSetShader"
+f1_keywords:
+- d3d10/ID3D10Device.GSSetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.GSSetShader
+- ID3D10Device.GSSetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

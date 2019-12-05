@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_2.DXGI_OUTDUPL_POINTER_POSITION
 title: DXGI_OUTDUPL_POINTER_POSITION (dxgi1_2.h)
-
 description: The DXGI_OUTDUPL_POINTER_POSITION structure describes the position of the hardware cursor.
 old-location: direct3ddxgi\dxgi_outdupl_pointer_position.htm
 tech.root: direct3ddxgi
 ms.assetid: CCD55021-8F67-463D-BA00-46D8B9D22B9A
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTDUPL_POINTER_POSITION, DXGI_OUTDUPL_POINTER_POSITION structure [DXGI], direct3ddxgi.dxgi_outdupl_pointer_position, dxgi1_2/DXGI_OUTDUPL_POINTER_POSITION
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_2/DXGI_OUTDUPL_POINTER_POSITION"
+f1_keywords:
+- dxgi1_2/DXGI_OUTDUPL_POINTER_POSITION
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_2.h
+- DXGI1_2.h
 api_name:
- - DXGI_OUTDUPL_POINTER_POSITION
+- DXGI_OUTDUPL_POINTER_POSITION
 targetos: Windows
 req.typenames: DXGI_OUTDUPL_POINTER_POSITION
 req.redist: 

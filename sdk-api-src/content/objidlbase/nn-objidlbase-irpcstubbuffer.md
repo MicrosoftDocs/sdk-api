@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IRpcStubBuffer
 title: IRpcStubBuffer (objidlbase.h)
-
 description: Controls the RPC stub used to marshal data between COM components.
 old-location: com\irpcstubbuffer.htm
 tech.root: com
 ms.assetid: 0aa724f0-6110-4ebf-a0c1-d309074a61d9
-
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer, IRpcStubBuffer interface [COM], IRpcStubBuffer interface [COM],described, _com_irpcstubbuffer, com.irpcstubbuffer, objidlbase/IRpcStubBuffer
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IRpcStubBuffer"
+f1_keywords:
+- objidlbase/IRpcStubBuffer
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcStubBuffer
+- IRpcStubBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

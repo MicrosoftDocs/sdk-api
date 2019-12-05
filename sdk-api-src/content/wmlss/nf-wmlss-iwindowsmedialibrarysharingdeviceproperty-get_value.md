@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperty.get_Value
 title: IWindowsMediaLibrarySharingDeviceProperty::get_Value (wmlss.h)
-
 description: The get_Value method retrieves the value of an individual property of a media device.
 old-location: wmlss\IWMLSDevicePropertyget_Value.htm
 tech.root: WMLSS
 ms.assetid: b51b794c-eda6-4afe-8bb2-14896f7b8b81
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],get_Value method, IWindowsMediaLibrarySharingDeviceProperty.get_Value, IWindowsMediaLibrarySharingDeviceProperty::get_Value, get_Value, get_Value method [Windows Media Library Sharing Services], get_Value method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperty interface, wmlss.IWMLSDevicePropertyget_Value, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Value
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingDeviceProperty.get_Value"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingDeviceProperty.get_Value
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDeviceProperty.get_Value
+- IWindowsMediaLibrarySharingDeviceProperty.get_Value
 targetos: Windows
 req.typenames: 
 req.redist: 

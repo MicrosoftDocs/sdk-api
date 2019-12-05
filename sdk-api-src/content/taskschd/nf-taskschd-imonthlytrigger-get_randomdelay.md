@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IMonthlyTrigger.get_RandomDelay
 title: IMonthlyTrigger::get_RandomDelay (taskschd.h)
-
 description: Gets or sets a delay time that is randomly added to the start time of the trigger.
 old-location: taskschd\imonthlytrigger_randomdelay.htm
 tech.root: taskschd
 ms.assetid: 6b2a42dc-4002-4e51-9a8a-2982f83835d6
-
 ms.date: 12/05/2018
 ms.keywords: IMonthlyTrigger interface [Task Scheduler],RandomDelay property, IMonthlyTrigger.RandomDelay, IMonthlyTrigger.get_RandomDelay, IMonthlyTrigger::RandomDelay, IMonthlyTrigger::get_RandomDelay, IMonthlyTrigger::put_RandomDelay, RandomDelay property [Task Scheduler], RandomDelay property [Task Scheduler],IMonthlyTrigger interface, get_RandomDelay, taskschd.imonthlytrigger_randomdelay, taskschd/IMonthlyTrigger::RandomDelay, taskschd/IMonthlyTrigger::get_RandomDelay, taskschd/IMonthlyTrigger::put_RandomDelay
 ms.topic: method
-f1_keywords: 
- - "taskschd/IMonthlyTrigger.RandomDelay"
+f1_keywords:
+- taskschd/IMonthlyTrigger.RandomDelay
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IMonthlyTrigger.RandomDelay
- - IMonthlyTrigger.get_RandomDelay
- - IMonthlyTrigger.put_RandomDelay
+- IMonthlyTrigger.RandomDelay
+- IMonthlyTrigger.get_RandomDelay
+- IMonthlyTrigger.put_RandomDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

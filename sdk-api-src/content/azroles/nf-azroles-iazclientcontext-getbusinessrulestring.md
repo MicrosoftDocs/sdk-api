@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.GetBusinessRuleString
 title: IAzClientContext::GetBusinessRuleString (azroles.h)
-
 description: Returns the application-specific string for the business rule (BizRule).
 old-location: security\iazclientcontext_getbusinessrulestring.htm
 tech.root: SecAuthZ
 ms.assetid: 44cd9331-4891-45fe-9392-04c19da0ac7d
-
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],GetBusinessRuleString method, GetBusinessRuleString, GetBusinessRuleString method [Security], GetBusinessRuleString method [Security],AzClientContext object, GetBusinessRuleString method [Security],IAzClientContext interface, IAzClientContext interface [Security],GetBusinessRuleString method, IAzClientContext.GetBusinessRuleString, IAzClientContext::GetBusinessRuleString, azroles/IAzClientContext::GetBusinessRuleString, security.iazclientcontext_getbusinessrulestring
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.GetBusinessRuleString"
+f1_keywords:
+- azroles/IAzClientContext.GetBusinessRuleString
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.GetBusinessRuleString
- - AzClientContext.GetBusinessRuleString
+- IAzClientContext.GetBusinessRuleString
+- AzClientContext.GetBusinessRuleString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

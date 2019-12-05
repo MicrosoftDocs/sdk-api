@@ -1,19 +1,17 @@
 ---
 UID: NF:exdisp.IShellWindows.ProcessAttachDetach
 title: IShellWindows::ProcessAttachDetach (exdisp.h)
-
 description: Deprecated. Always returns S_OK.
 old-location: shell\IShellWindows_ProcessAttachDetach.htm
 tech.root: shell
 ms.assetid: 79bc04f0-7b03-40aa-8324-7b4eccc8c527
-
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],ProcessAttachDetach method, IShellWindows.ProcessAttachDetach, IShellWindows::ProcessAttachDetach, ProcessAttachDetach, ProcessAttachDetach method [Windows Shell], ProcessAttachDetach method [Windows Shell],IShellWindows interface, _win32_IShellWindows_ProcessAttachDetach, exdisp/IShellWindows::ProcessAttachDetach, shell.IShellWindows_ProcessAttachDetach
 ms.topic: method
-f1_keywords: 
- - "exdisp/IShellWindows.ProcessAttachDetach"
+f1_keywords:
+- exdisp/IShellWindows.ProcessAttachDetach
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IShellWindows.ProcessAttachDetach
+- IShellWindows.ProcessAttachDetach
 targetos: Windows
 req.typenames: 
 req.redist: 

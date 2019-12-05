@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.accSelect
 title: IAccessible::accSelect (oleacc.h)
-
 description: The IAccessible::accSelect method modifies the selection or moves the keyboard focus of the specified object. All objects that support selection or receive the keyboard focus must support this method.
 old-location: winauto\iaccessible_iaccessible__accselect.htm
 tech.root: WinAuto
 ms.assetid: ae55831c-0dfa-4901-b241-27e2cdf1035f
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accSelect method, IAccessible.accSelect, IAccessible::accSelect, _msaa_IAccessible_accSelect, accSelect, accSelect method [Windows Accessibility], accSelect method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__accselect, oleacc/IAccessible::accSelect, winauto.iaccessible_iaccessible__accselect
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.accSelect"
+f1_keywords:
+- oleacc/IAccessible.accSelect
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.accSelect
+- IAccessible.accSelect
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

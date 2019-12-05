@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_SignalProperties
 title: IBDA_SignalProperties (bdaiface.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties.htm
 tech.root: mstv
 ms.assetid: fe88b628-7959-4d2f-981f-7de9126146f6
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalProperties, IBDA_SignalProperties interface [Microsoft TV Technologies], IBDA_SignalProperties interface [Microsoft TV Technologies],described, IBDA_SignalPropertiesInterface, bdaiface/IBDA_SignalProperties, mstv.ibda_signalproperties
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_SignalProperties"
+f1_keywords:
+- bdaiface/IBDA_SignalProperties
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_SignalProperties
+- IBDA_SignalProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

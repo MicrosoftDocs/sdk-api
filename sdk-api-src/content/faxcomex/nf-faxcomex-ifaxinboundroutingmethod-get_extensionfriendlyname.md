@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.get_ExtensionFriendlyName
 title: IFaxInboundRoutingMethod::get_ExtensionFriendlyName (faxcomex.h)
-
 description: The IFaxInboundRoutingMethod::get_ExtensionFriendlyName property is the user-friendly name for the fax routing extension that exports the inbound fax routing method.
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionfriendlyname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5nz9.htm
-
 ms.date: 12/05/2018
 ms.keywords: ExtensionFriendlyName property [Fax Service], ExtensionFriendlyName property [Fax Service],IFaxInboundRoutingMethod interface, IFaxInboundRoutingMethod interface [Fax Service],ExtensionFriendlyName property, IFaxInboundRoutingMethod.ExtensionFriendlyName, IFaxInboundRoutingMethod.get_ExtensionFriendlyName, IFaxInboundRoutingMethod::ExtensionFriendlyName, IFaxInboundRoutingMethod::get_ExtensionFriendlyName, _mfax_faxinboundroutingmethod.extensionfriendlyname, fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_extensionfriendlyname_cpp, fax._mfax_faxinboundroutingmethod_extensionfriendlyname, faxcomex/IFaxInboundRoutingMethod::ExtensionFriendlyName, faxcomex/IFaxInboundRoutingMethod::get_ExtensionFriendlyName, get_ExtensionFriendlyName
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingMethod.ExtensionFriendlyName"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingMethod.ExtensionFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethod.ExtensionFriendlyName
- - IFaxInboundRoutingMethod.get_ExtensionFriendlyName
- - IFaxInboundRoutingMethod.get_ExtensionFriendlyName
+- IFaxInboundRoutingMethod.ExtensionFriendlyName
+- IFaxInboundRoutingMethod.get_ExtensionFriendlyName
+- IFaxInboundRoutingMethod.get_ExtensionFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

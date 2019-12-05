@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.IEnumNetSharingPrivateConnection
 title: IEnumNetSharingPrivateConnection (netcon.h)
-
 description: The IEnumNetSharingPrivateConnection interface provides methods for enumerating the currently configured privately-shared connections.
 old-location: ics\ienumnetsharingprivateconnection.htm
 tech.root: ics
 ms.assetid: 0e4cfa2e-8caa-4258-bd52-1f5a00403dfa
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetSharingPrivateConnection, IEnumNetSharingPrivateConnection interface [ICS/ICF], IEnumNetSharingPrivateConnection interface [ICS/ICF],described, _ics_ienumnetsharingprivateconnection, ics.ienumnetsharingprivateconnection, netcon/IEnumNetSharingPrivateConnection
 ms.topic: interface
-f1_keywords: 
- - "netcon/IEnumNetSharingPrivateConnection"
+f1_keywords:
+- netcon/IEnumNetSharingPrivateConnection
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IEnumNetSharingPrivateConnection
+- IEnumNetSharingPrivateConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

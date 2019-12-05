@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IAgileReference.Resolve(Q,)
 title: IAgileReference::Resolve(Q,) (objidl.h)
-
 description: Gets the interface ID of an agile reference to an object.
 old-location: winrt\iagilereference_resolve.htm
 tech.root: WinRT
 ms.assetid: 627A7EE4-CFEF-47F6-BA99-51BEB78C5D55
-
 ms.date: 12/05/2018
 ms.keywords: IAgileReference interface [Windows Runtime],Resolve method, IAgileReference.Resolve, IAgileReference.Resolve(Q,), IAgileReference::Resolve, IAgileReference::Resolve(Q,), Resolve, Resolve method [Windows Runtime], Resolve method [Windows Runtime],IAgileReference interface, objidl/IAgileReference::Resolve, winrt.iagilereference_resolve
 ms.topic: method
-f1_keywords: 
- - "objidl/IAgileReference.Resolve"
+f1_keywords:
+- objidl/IAgileReference.Resolve
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - IAgileReference.Resolve
+- IAgileReference.Resolve
 targetos: Windows
 req.typenames: 
 req.redist: 

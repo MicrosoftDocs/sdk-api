@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_CanMaximize
 title: IWindowProvider::get_CanMaximize (uiautomationcore.h)
-
 description: Indicates whether the window can be maximized.
 old-location: winauto\uiauto_IWindowProvider_CanMaximize.htm
 tech.root: WinAuto
 ms.assetid: d3ff456a-c17d-4500-a141-87e9dd3fbfd0
-
 ms.date: 12/05/2018
 ms.keywords: CanMaximize property [Windows Accessibility], CanMaximize property [Windows Accessibility],IWindowProvider interface, IWindowProvider interface [Windows Accessibility],CanMaximize property, IWindowProvider.CanMaximize, IWindowProvider.get_CanMaximize, IWindowProvider::CanMaximize, IWindowProvider::get_CanMaximize, get_CanMaximize, uiauto.uiauto_IWindowProvider_CanMaximize, uiauto_IWindowProvider_CanMaximize, uiautomationcore/IWindowProvider::CanMaximize, uiautomationcore/IWindowProvider::get_CanMaximize, winauto.uiauto_IWindowProvider_CanMaximize
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IWindowProvider.CanMaximize"
+f1_keywords:
+- uiautomationcore/IWindowProvider.CanMaximize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IWindowProvider.CanMaximize
- - IWindowProvider.get_CanMaximize
+- IWindowProvider.CanMaximize
+- IWindowProvider.get_CanMaximize
 targetos: Windows
 req.typenames: 
 req.redist: 

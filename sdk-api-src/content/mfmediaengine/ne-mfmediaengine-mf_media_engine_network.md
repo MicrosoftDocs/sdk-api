@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_NETWORK
 title: MF_MEDIA_ENGINE_NETWORK (mfmediaengine.h)
-
 description: Defines network status codes for the Media Engine.
 old-location: mf\mf_media_engine_network.htm
 tech.root: medfound
 ms.assetid: A2A73A54-C360-452C-8887-D3065274358A
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_NETWORK, MF_MEDIA_ENGINE_NETWORK enumeration [Media Foundation], MF_MEDIA_ENGINE_NETWORK_EMPTY, MF_MEDIA_ENGINE_NETWORK_IDLE, MF_MEDIA_ENGINE_NETWORK_LOADING, MF_MEDIA_ENGINE_NETWORK_NO_SOURCE, mf.mf_media_engine_network, mfmediaengine/MF_MEDIA_ENGINE_NETWORK, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_EMPTY, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_IDLE, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_LOADING, mfmediaengine/MF_MEDIA_ENGINE_NETWORK_NO_SOURCE
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_NETWORK"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_NETWORK
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_NETWORK
+- MF_MEDIA_ENGINE_NETWORK
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_NETWORK
 req.redist: 

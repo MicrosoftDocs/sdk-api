@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineTranslateAddressA
 title: lineTranslateAddressA function (tapi.h)
-
 description: The lineTranslateAddress function translates the specified address into another format.
 old-location: tapi2\linetranslateaddress.htm
 tech.root: Tapi
 ms.assetid: 0347d526-9596-4b42-8075-07318bf39634
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAddress function [TAPI 2.2], lineTranslateAddressA, lineTranslateAddressW, tapi/lineTranslateAddress, tapi/lineTranslateAddressA, tapi/lineTranslateAddressW, tapi2.linetranslateaddress"
+ms.keywords: _tapi2_linetranslateaddress, lineTranslateAddress, lineTranslateAddress function [TAPI 2.2], lineTranslateAddressA, lineTranslateAddressW, tapi/lineTranslateAddress, tapi/lineTranslateAddressA, tapi/lineTranslateAddressW, tapi2.linetranslateaddress
 ms.topic: function
-f1_keywords: 
- - "tapi/lineTranslateAddress"
+f1_keywords:
+- tapi/lineTranslateAddress
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
- - Ext-MS-Win-ras-tapi32-l1-1-0.dll
+- Tapi32.dll
+- Ext-MS-Win-ras-tapi32-l1-1-0.dll
 api_name:
- - lineTranslateAddress
- - lineTranslateAddressA
- - lineTranslateAddressW
+- lineTranslateAddress
+- lineTranslateAddressA
+- lineTranslateAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 

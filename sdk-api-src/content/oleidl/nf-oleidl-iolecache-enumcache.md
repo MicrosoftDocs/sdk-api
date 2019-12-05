@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleCache.EnumCache
 title: IOleCache::EnumCache (oleidl.h)
-
 description: Creates an enumerator that can be used to enumerate the current cache connections.
 old-location: com\iolecache_enumcache.htm
 tech.root: com
 ms.assetid: a8d99926-8fb9-4624-8025-483101cb9311
-
 ms.date: 12/05/2018
 ms.keywords: EnumCache, EnumCache method [COM], EnumCache method [COM],IOleCache interface, IOleCache interface [COM],EnumCache method, IOleCache.EnumCache, IOleCache::EnumCache, _ole_iolecache_enumcache, com.iolecache_enumcache, oleidl/IOleCache::EnumCache
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleCache.EnumCache"
+f1_keywords:
+- oleidl/IOleCache.EnumCache
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCache.EnumCache
+- IOleCache.EnumCache
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearDepthStencilView
 title: ID3D12GraphicsCommandList::ClearDepthStencilView (d3d12.h)
-
 description: Clears the depth-stencil resource.
 old-location: direct3d12\id3d12graphicscommandlist_cleardepthstencilview.htm
 tech.root: direct3d12
 ms.assetid: EF56EA6C-00DB-4231-B67D-B99811F51246
-
 ms.date: 12/05/2018
 ms.keywords: ClearDepthStencilView, ClearDepthStencilView method, ClearDepthStencilView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearDepthStencilView method, ID3D12GraphicsCommandList.ClearDepthStencilView, ID3D12GraphicsCommandList::ClearDepthStencilView, d3d12/ID3D12GraphicsCommandList::ClearDepthStencilView, direct3d12.id3d12graphicscommandlist_cleardepthstencilview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.ClearDepthStencilView"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.ClearDepthStencilView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.ClearDepthStencilView
+- ID3D12GraphicsCommandList.ClearDepthStencilView
 targetos: Windows
 req.typenames: 
 req.redist: 

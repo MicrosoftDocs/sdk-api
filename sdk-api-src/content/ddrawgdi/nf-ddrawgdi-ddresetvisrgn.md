@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdResetVisrgn
 title: DdResetVisrgn function (ddrawgdi.h)
-
 description: Wrapper for the NtGdiDdResetVisrgn function and enables timely user-mode information on the clipping region for windows on the desktop.
 old-location: winprog\_dxgkernel_ddresetvisrgn.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddresetvisrgn.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdResetVisrgn, DdResetVisrgn function [Windows API], GdiEntry6, _dxgkernel_ddresetvisrgn, ddrawgdi/DdResetVisrgn, ddrawgdi/GdiEntry6, winprog._dxgkernel_ddresetvisrgn, winui._dxgkernel_ddresetvisrgn
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdResetVisrgn"
+f1_keywords:
+- ddrawgdi/DdResetVisrgn
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdResetVisrgn
- - GdiEntry6
+- DdResetVisrgn
+- GdiEntry6
 targetos: Windows
 req.typenames: 
 req.redist: 

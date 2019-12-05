@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeFilename
 title: GetThemeFilename function (uxtheme.h)
-
 description: Retrieves the value of a filename property.
 old-location: controls\GetThemeFilename.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefilename.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeFilename, GetThemeFilename function [Windows Controls], controls.GetThemeFilename, controls.inet_GetThemeFilename, inet_GetThemeFilename, inet_GetThemeFilename_cpp, uxtheme/GetThemeFilename
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeFilename"
+f1_keywords:
+- uxtheme/GetThemeFilename
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeFilename
+- GetThemeFilename
 targetos: Windows
 req.typenames: 
 req.redist: 

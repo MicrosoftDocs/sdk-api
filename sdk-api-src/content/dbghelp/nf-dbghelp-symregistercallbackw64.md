@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymRegisterCallbackW64
 title: SymRegisterCallbackW64 function (dbghelp.h)
-
 description: Registers a callback function for use by the symbol handler.
 old-location: base\symregistercallback64.htm
 tech.root: Debug
 ms.assetid: 91d123cd-f68f-4120-b98d-7e3f94b7b1ec
-
 ms.date: 12/05/2018
 ms.keywords: SymRegisterCallback, SymRegisterCallback function, SymRegisterCallback64, SymRegisterCallback64 function, SymRegisterCallbackW64, _win32_symregistercallback64, base.symregistercallback64, dbghelp/SymRegisterCallback, dbghelp/SymRegisterCallback64, dbghelp/SymRegisterCallbackW64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymRegisterCallback64"
+f1_keywords:
+- dbghelp/SymRegisterCallback64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymRegisterCallback64
- - SymRegisterCallback64
- - SymRegisterCallbackW64
- - SymRegisterCallback
+- SymRegisterCallback64
+- SymRegisterCallback64
+- SymRegisterCallbackW64
+- SymRegisterCallback
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

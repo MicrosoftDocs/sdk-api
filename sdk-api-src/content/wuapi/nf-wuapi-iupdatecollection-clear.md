@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateCollection.Clear
 title: IUpdateCollection::Clear (wuapi.h)
-
 description: Removes all the elements from the collection.
 old-location: wua\iupdatecollection_clear.htm
 tech.root: Wua_Sdk
 ms.assetid: 53b30472-ae1b-4d29-a411-25f03e515996
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Windows Update Agent], Clear method [Windows Update Agent],IUpdateCollection interface, IUpdateCollection interface [Windows Update Agent],Clear method, IUpdateCollection.Clear, IUpdateCollection::Clear, wua.iupdatecollection_clear, wuapi/IUpdateCollection::Clear
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateCollection.Clear"
+f1_keywords:
+- wuapi/IUpdateCollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateCollection.Clear
+- IUpdateCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

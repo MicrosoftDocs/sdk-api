@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetNextSample
 title: IWMSyncReader::GetNextSample (wmsdkidl.h)
-
 description: The GetNextSample method retrieves the next sample from the file.
 old-location: wmformat\iwmsyncreader_getnextsample.htm
 tech.root: wmformat
 ms.assetid: 948047b3-3b87-4381-9320-c9602716ade2
-
 ms.date: 12/05/2018
 ms.keywords: GetNextSample, GetNextSample method [windows Media Format], GetNextSample method [windows Media Format],IWMSyncReader interface, IWMSyncReader interface [windows Media Format],GetNextSample method, IWMSyncReader.GetNextSample, IWMSyncReader::GetNextSample, IWMSyncReaderGetNextSample, wmformat.iwmsyncreader_getnextsample, wmsdkidl/IWMSyncReader::GetNextSample
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader.GetNextSample"
+f1_keywords:
+- wmsdkidl/IWMSyncReader.GetNextSample
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader.GetNextSample
+- IWMSyncReader.GetNextSample
 targetos: Windows
 req.typenames: 
 req.redist: 

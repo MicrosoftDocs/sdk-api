@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSBitmapRenderService.GetMappedRenderer
 title: IWTSBitmapRenderService::GetMappedRenderer (tsvirtualchannels.h)
-
 description: Obtains the bitmap rendering object used to render media on the server.
 old-location: termserv\iwtsbitmaprenderservice_getmappedrenderer.htm
 tech.root: TermServ
 ms.assetid: 1a5f8ddb-eaf6-4138-8bb7-4d513aff88b5
-
 ms.date: 12/05/2018
 ms.keywords: GetMappedRenderer, GetMappedRenderer method [Remote Desktop Services], GetMappedRenderer method [Remote Desktop Services],IWTSBitmapRenderService interface, IWTSBitmapRenderService interface [Remote Desktop Services],GetMappedRenderer method, IWTSBitmapRenderService.GetMappedRenderer, IWTSBitmapRenderService::GetMappedRenderer, termserv.iwtsbitmaprenderservice_getmappedrenderer, tsvirtualchannels/IWTSBitmapRenderService::GetMappedRenderer
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSBitmapRenderService.GetMappedRenderer"
+f1_keywords:
+- tsvirtualchannels/IWTSBitmapRenderService.GetMappedRenderer
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tsvirtualchannels.h
+- tsvirtualchannels.h
 api_name:
- - IWTSBitmapRenderService.GetMappedRenderer
+- IWTSBitmapRenderService.GetMappedRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

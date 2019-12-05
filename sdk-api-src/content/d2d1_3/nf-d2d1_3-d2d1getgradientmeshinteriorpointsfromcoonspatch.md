@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.D2D1GetGradientMeshInteriorPointsFromCoonsPatch
 title: D2D1GetGradientMeshInteriorPointsFromCoonsPatch function (d2d1_3.h)
-
 description: Returns the interior points for a gradient mesh patch based on the points defining a Coons patch.
 old-location: direct2d\d2d1getgradientmeshinteriorpointsfromcoonspatch.htm
 tech.root: Direct2D
 ms.assetid: 388d5cbf-cb15-f0c9-3f3b-897f68519a4c
-
 ms.date: 12/05/2018
 ms.keywords: D2D1GetGradientMeshInteriorPointsFromCoonsPatch, D2D1GetGradientMeshInteriorPointsFromCoonsPatch function [Direct2D], d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch, direct2d.d2d1getgradientmeshinteriorpointsfromcoonspatch
 ms.topic: function
-f1_keywords: 
- - "d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch"
+f1_keywords:
+- d2d1_3/D2D1GetGradientMeshInteriorPointsFromCoonsPatch
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - D2D1GetGradientMeshInteriorPointsFromCoonsPatch
+- D2D1GetGradientMeshInteriorPointsFromCoonsPatch
 targetos: Windows
 req.typenames: 
 req.redist: 

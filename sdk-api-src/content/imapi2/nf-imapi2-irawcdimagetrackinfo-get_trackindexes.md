@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_TrackIndexes
 title: IRawCDImageTrackInfo::get_TrackIndexes (imapi2.h)
-
 description: Retrieves the one-based index of the tracks on the disc.
 old-location: imapi\irawcdimagetrackinfo_get_trackindexes.htm
 tech.root: imapi
 ms.assetid: a83766f7-8d02-47df-9691-26d6f2cd0d5b
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackIndexes method, IRawCDImageTrackInfo.get_TrackIndexes, IRawCDImageTrackInfo::get_TrackIndexes, get_TrackIndexes, get_TrackIndexes method [IMAPI], get_TrackIndexes method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_trackindexes, imapi2/IRawCDImageTrackInfo::get_TrackIndexes
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageTrackInfo.get_TrackIndexes"
+f1_keywords:
+- imapi2/IRawCDImageTrackInfo.get_TrackIndexes
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageTrackInfo.get_TrackIndexes
+- IRawCDImageTrackInfo.get_TrackIndexes
 targetos: Windows
 req.typenames: 
 req.redist: 

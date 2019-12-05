@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUser.GetValue
 title: ICredentialProviderUser::GetValue (credentialprovider.h)
-
 description: Retrieves a specified property value set for the user.
 old-location: shell\ICredentialProviderUser_GetValue.htm
 tech.root: shell
 ms.assetid: CA8CD897-127E-4113-A5A5-08110E0E6C17
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Shell], GetValue method [Windows Shell],ICredentialProviderUser interface, ICredentialProviderUser interface [Windows Shell],GetValue method, ICredentialProviderUser.GetValue, ICredentialProviderUser::GetValue, credentialprovider/ICredentialProviderUser::GetValue, shell.ICredentialProviderUser_GetValue
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUser.GetValue"
+f1_keywords:
+- credentialprovider/ICredentialProviderUser.GetValue
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUser.GetValue
+- ICredentialProviderUser.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

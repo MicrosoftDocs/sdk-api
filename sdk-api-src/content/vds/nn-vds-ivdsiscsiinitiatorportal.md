@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsIscsiInitiatorPortal
 title: IVdsIscsiInitiatorPortal (vds.h)
-
 description: Provides methods to query and interact with iSCSI initiator portals on the local system.
 old-location: base\ivdsiscsiinitiatorportal.htm
 tech.root: VDS
 ms.assetid: ae64cc73-4f36-4846-a1c0-f329de6299ee
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorPortal, IVdsIscsiInitiatorPortal interface [VDS], IVdsIscsiInitiatorPortal interface [VDS],described, base.ivdsiscsiinitiatorportal, vds/IVdsIscsiInitiatorPortal
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsIscsiInitiatorPortal"
+f1_keywords:
+- vds/IVdsIscsiInitiatorPortal
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiInitiatorPortal
+- IVdsIscsiInitiatorPortal
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

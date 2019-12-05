@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.Acquire
 title: IPhotoAcquire::Acquire (photoacquire.h)
-
 description: The Acquire method acquires photos from a device.
 old-location: picacq\iphotoacquire_acquire.htm
 tech.root: acquisition
 ms.assetid: 1000511f-40a6-4d5e-a55f-97e25f6c1e11
-
 ms.date: 12/05/2018
 ms.keywords: Acquire, Acquire method [Picture Acquisition], Acquire method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],Acquire method, IPhotoAcquire.Acquire, IPhotoAcquire::Acquire, IPhotoAcquireAcquire, photoacquire/IPhotoAcquire::Acquire, picacq.iphotoacquire_acquire
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquire.Acquire"
+f1_keywords:
+- photoacquire/IPhotoAcquire.Acquire
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquire.Acquire
+- IPhotoAcquire.Acquire
 targetos: Windows
 req.typenames: 
 req.redist: 

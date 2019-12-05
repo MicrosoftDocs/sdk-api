@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IEnumDiskQuotaUsers.Skip
 title: IEnumDiskQuotaUsers::Skip (dskquota.h)
-
 description: Skips over the specified number of user quota entries that are next in the enumeration sequence.
 old-location: fs\ienumdiskquotausers_skip.htm
 tech.root: FileIO
 ms.assetid: b37462aa-cd1c-4986-ad23-f9523c962d19
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDiskQuotaUsers interface [Files],Skip method, IEnumDiskQuotaUsers.Skip, IEnumDiskQuotaUsers::Skip, Skip, Skip method [Files], Skip method [Files],IEnumDiskQuotaUsers interface, _win32_ienumdiskquotausers_skip, base.ienumdiskquotausers_skip, dskquota/IEnumDiskQuotaUsers::Skip, fs.ienumdiskquotausers_skip
 ms.topic: method
-f1_keywords: 
- - "dskquota/IEnumDiskQuotaUsers.Skip"
+f1_keywords:
+- dskquota/IEnumDiskQuotaUsers.Skip
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IEnumDiskQuotaUsers.Skip
+- IEnumDiskQuotaUsers.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

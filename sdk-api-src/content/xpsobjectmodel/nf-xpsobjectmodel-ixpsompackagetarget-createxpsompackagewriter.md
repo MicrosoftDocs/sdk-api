@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageTarget.CreateXpsOMPackageWriter
 title: IXpsOMPackageTarget::CreateXpsOMPackageWriter (xpsobjectmodel.h)
-
 description: Create an IXpsOMPackageWriter interface for use with a print job that the StartXpsPrintJob1 function created.
 old-location: xps\ixpsompackagetarget_createxpsompackagewriter.htm
 tech.root: printdocs
 ms.assetid: 6AD4BEB8-86B7-4085-9B84-D723982933FE
-
 ms.date: 12/05/2018
 ms.keywords: CreateXpsOMPackageWriter, CreateXpsOMPackageWriter method [XPS Documents and Packaging], CreateXpsOMPackageWriter method [XPS Documents and Packaging],IXpsOMPackageTarget interface, IXpsOMPackageTarget interface [XPS Documents and Packaging],CreateXpsOMPackageWriter method, IXpsOMPackageTarget.CreateXpsOMPackageWriter, IXpsOMPackageTarget::CreateXpsOMPackageWriter, xps.ixpsompackagetarget_createxpsompackagewriter, xpsobjectmodel/IXpsOMPackageTarget::CreateXpsOMPackageWriter
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackageTarget.CreateXpsOMPackageWriter"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackageTarget.CreateXpsOMPackageWriter
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XpsPrint.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XpsPrint.lib
- - XpsPrint.dll
+- XpsPrint.lib
+- XpsPrint.dll
 api_name:
- - IXpsOMPackageTarget.CreateXpsOMPackageWriter
+- IXpsOMPackageTarget.CreateXpsOMPackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

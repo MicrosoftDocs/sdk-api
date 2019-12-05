@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.Start
 title: IWTSProtocolShadowConnection::Start (wtsprotocol.h)
-
 description: IWTSProtocolShadowConnection::Start is no longer available. Instead, use IWRdsProtocolShadowConnection::Start.
 old-location: termserv\iwtsprotocolshadowconnection_start.htm
 tech.root: TermServ
 ms.assetid: 7bfe0c45-551f-47bb-a855-6965fed224dc
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Start method, IWTSProtocolShadowConnection.Start, IWTSProtocolShadowConnection::Start, Start, Start method [Remote Desktop Services], Start method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_start, wtsprotocol/IWTSProtocolShadowConnection::Start
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolShadowConnection.Start"
+f1_keywords:
+- wtsprotocol/IWTSProtocolShadowConnection.Start
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolShadowConnection.Start
+- IWTSProtocolShadowConnection.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

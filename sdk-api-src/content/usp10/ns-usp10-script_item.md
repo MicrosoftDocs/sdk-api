@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tag_SCRIPT_ITEM
 title: SCRIPT_ITEM (usp10.h)
-
 description: Contains a script item, including a SCRIPT_ANALYSIS structure with the string offset of the first character of the item.
 old-location: intl\script_item.htm
 tech.root: Intl
 ms.assetid: d309f3a7-fec3-4999-bbbe-bb85ceecb4c4
-
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_ITEM, SCRIPT_ITEM structure [Internationalization for Windows Applications], _win32_SCRIPT_ITEM_str, intl.script_item, usp10/SCRIPT_ITEM
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_ITEM"
+f1_keywords:
+- usp10/SCRIPT_ITEM
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_ITEM
+- SCRIPT_ITEM
 targetos: Windows
 req.typenames: SCRIPT_ITEM
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

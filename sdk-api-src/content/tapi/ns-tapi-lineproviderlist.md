@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineproviderlist_tag
 title: LINEPROVIDERLIST (tapi.h)
-
 description: The LINEPROVIDERLIST structure describes a list of service providers. A structure of this type is returned by the lineGetProviderList function. The LINEPROVIDERLIST structure can contain an array of LINEPROVIDERENTRY structures.
 old-location: tapi2\lineproviderlist_str.htm
 tech.root: Tapi
 ms.assetid: 75790ffd-bb1b-4efc-a905-5727d31f8aec
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEPROVIDERLIST, LINEPROVIDERLIST, LINEPROVIDERLIST structure [TAPI 2.2], LPLINEPROVIDERLIST, LPLINEPROVIDERLIST structure pointer [TAPI 2.2], _tapi2_lineproviderlist_str, tapi/LINEPROVIDERLIST, tapi/LPLINEPROVIDERLIST, tapi2.lineproviderlist_str"
+ms.keywords: '*LPLINEPROVIDERLIST, LINEPROVIDERLIST, LINEPROVIDERLIST structure [TAPI 2.2], LPLINEPROVIDERLIST, LPLINEPROVIDERLIST structure pointer [TAPI 2.2], _tapi2_lineproviderlist_str, tapi/LINEPROVIDERLIST, tapi/LPLINEPROVIDERLIST, tapi2.lineproviderlist_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEPROVIDERLIST"
+f1_keywords:
+- tapi/LINEPROVIDERLIST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEPROVIDERLIST
+- LINEPROVIDERLIST
 targetos: Windows
 req.typenames: LINEPROVIDERLIST, *LPLINEPROVIDERLIST
 req.redist: 

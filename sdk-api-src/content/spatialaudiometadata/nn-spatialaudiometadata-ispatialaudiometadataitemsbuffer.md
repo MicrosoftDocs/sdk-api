@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer
 title: ISpatialAudioMetadataItemsBuffer (spatialaudiometadata.h)
-
 description: Provides methods for attaching buffers to SpatialAudioMetadataItems for in-place storage of data.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 5DDD468E-0C46-4C00-BCFF-1FF7353ADB8B
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataItemsBuffer, ISpatialAudioMetadataItemsBuffer interface [Core Audio], ISpatialAudioMetadataItemsBuffer interface [Core Audio],described, coreaudio.ispatialaudiometadataitemsbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer
 ms.topic: interface
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataItemsBuffer
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItemsBuffer
+- ISpatialAudioMetadataItemsBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

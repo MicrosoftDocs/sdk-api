@@ -1,19 +1,17 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop.GetForWindow
 title: IProtectionPolicyManagerInterop::GetForWindow (efswrtinterop.h)
-
 description: Returns the protection policy manager object associated with the current app window.
 old-location: edp\iprotectionpolicymanager_getforwindow.htm
 tech.root: EDP
 ms.assetid: 638316E0-8D5C-4966-A44F-8F31ECBE83EB
-
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanager_getforwindow, GetForWindow, GetForWindow method, GetForWindow method,IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,GetForWindow method, IProtectionPolicyManagerInterop.GetForWindow, IProtectionPolicyManagerInterop::GetForWindow, efswrtinterop/IProtectionPolicyManagerInterop::GetForWindow
 ms.topic: method
-f1_keywords: 
- - "efswrtinterop/IProtectionPolicyManagerInterop.GetForWindow"
+f1_keywords:
+- efswrtinterop/IProtectionPolicyManagerInterop.GetForWindow
 dev_langs:
- - c++
+- c++
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Efswrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - efswrt.dll
+- efswrt.dll
 api_name:
- - IProtectionPolicyManagerInterop.GetForWindow
+- IProtectionPolicyManagerInterop.GetForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

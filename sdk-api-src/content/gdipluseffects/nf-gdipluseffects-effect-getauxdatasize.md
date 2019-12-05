@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Effect.GetAuxDataSize
 title: Effect::GetAuxDataSize (gdipluseffects.h)
-
 description: The Effect::GetAuxDataSize method gets the size, in bytes, of the auxiliary data created by a previous call to the Bitmap::ApplyEffect method.
 old-location: gdiplus\_gdiplus_CLASS_Effect_GetAuxDataSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\effectclass\effectmethods\getauxdatasize.htm
-
 ms.date: 12/05/2018
 ms.keywords: Effect class [GDI+],GetAuxDataSize method, Effect.GetAuxDataSize, Effect::GetAuxDataSize, GetAuxDataSize, GetAuxDataSize method [GDI+], GetAuxDataSize method [GDI+],Effect class, _gdiplus_CLASS_Effect_GetAuxDataSize_, gdiplus._gdiplus_CLASS_Effect_GetAuxDataSize_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Effect.GetAuxDataSize"
+f1_keywords:
+- gdipluseffects/Effect.GetAuxDataSize
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Effect.GetAuxDataSize
+- Effect.GetAuxDataSize
 targetos: Windows
 req.typenames: 
 req.redist: 

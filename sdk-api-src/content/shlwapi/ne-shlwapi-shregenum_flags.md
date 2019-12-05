@@ -1,19 +1,17 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_4
 title: SHREGENUM_FLAGS (shlwapi.h)
-
 description: Provides a set of values that indicate the base key that will be used for an enumeration.
 old-location: shell\SHREGENUM_FLAGS.htm
 tech.root: shell
 ms.assetid: 4216a983-9d53-44b1-8273-e5a90ac4b3ef
-
 ms.date: 12/05/2018
 ms.keywords: SHREGENUM_BOTH, SHREGENUM_DEFAULT, SHREGENUM_FLAGS, SHREGENUM_FLAGS enumeration [Windows Shell], SHREGENUM_HKCU, SHREGENUM_HKLM, _win32_SHREGENUM_FLAGS, shell.SHREGENUM_FLAGS, shlwapi/SHREGENUM_BOTH, shlwapi/SHREGENUM_DEFAULT, shlwapi/SHREGENUM_FLAGS, shlwapi/SHREGENUM_HKCU, shlwapi/SHREGENUM_HKLM
 ms.topic: enum
-f1_keywords: 
- - "shlwapi/SHREGENUM_FLAGS"
+f1_keywords:
+- shlwapi/SHREGENUM_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - SHREGENUM_FLAGS
+- SHREGENUM_FLAGS
 targetos: Windows
 req.typenames: SHREGENUM_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.mixerClose
 title: mixerClose function (mmeapi.h)
-
 description: The mixerClose function closes the specified mixer device.
 old-location: multimedia\mixerclose.htm
 tech.root: Multimedia
 ms.assetid: d92a9bb0-9761-471b-85d2-af0bcdbbda34
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mixerClose, mixerClose, mixerClose function [Windows Multimedia], mmeapi/mixerClose, multimedia.mixerclose"
+ms.keywords: _win32_mixerClose, mixerClose, mixerClose function [Windows Multimedia], mmeapi/mixerClose, multimedia.mixerclose
 ms.topic: function
-f1_keywords: 
- - "mmeapi/mixerClose"
+f1_keywords:
+- mmeapi/mixerClose
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - mixerClose
+- mixerClose
 targetos: Windows
 req.typenames: 
 req.redist: 

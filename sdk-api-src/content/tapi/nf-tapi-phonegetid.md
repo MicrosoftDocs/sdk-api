@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetID
 title: phoneGetID function (tapi.h)
-
 description: The phoneGetID function returns a device identifier for the given device class associated with the specified phone device.
 old-location: tapi2\phonegetid.htm
 tech.root: Tapi
 ms.assetid: 6a9c90ca-7a9e-43de-8075-240185658538
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetid, phoneGetID, phoneGetID function [TAPI 2.2], phoneGetIDA, phoneGetIDW, tapi/phoneGetID, tapi/phoneGetIDA, tapi/phoneGetIDW, tapi2.phonegetid"
+ms.keywords: _tapi2_phonegetid, phoneGetID, phoneGetID function [TAPI 2.2], phoneGetIDA, phoneGetIDW, tapi/phoneGetID, tapi/phoneGetIDA, tapi/phoneGetIDW, tapi2.phonegetid
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetID"
+f1_keywords:
+- tapi/phoneGetID
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetID
- - phoneGetIDA
- - phoneGetIDW
+- phoneGetID
+- phoneGetIDA
+- phoneGetIDW
 targetos: Windows
 req.typenames: 
 req.redist: 

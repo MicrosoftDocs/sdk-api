@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptVerifyDetachedMessageHash
 title: CryptVerifyDetachedMessageHash function (wincrypt.h)
-
 description: The CryptVerifyDetachedMessageHash function verifies a detached hash.
 old-location: security\cryptverifydetachedmessagehash.htm
 tech.root: SecCrypto
 ms.assetid: b529b9e2-9798-4548-a44f-c330524a3e6b
-
 ms.date: 12/05/2018
 ms.keywords: CryptVerifyDetachedMessageHash, CryptVerifyDetachedMessageHash function [Security], _crypto2_cryptverifydetachedmessagehash, security.cryptverifydetachedmessagehash, wincrypt/CryptVerifyDetachedMessageHash
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptVerifyDetachedMessageHash
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

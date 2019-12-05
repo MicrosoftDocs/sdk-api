@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.CommitItem
 title: ISyncMgrSyncCallback::CommitItem (syncmgr.h)
-
 description: Confirms a specified item as a member of the handler's sync set and confirms that it should be shown in the UI.
 old-location: shell\ISyncMgrSyncCallback_CommitItem.htm
 tech.root: shell
 ms.assetid: e0964cd3-42ad-4af0-90b2-0f365f457448
-
 ms.date: 12/05/2018
 ms.keywords: CommitItem, CommitItem method [Windows Shell], CommitItem method [Windows Shell],ISyncMgrSyncCallback interface, ISyncMgrSyncCallback interface [Windows Shell],CommitItem method, ISyncMgrSyncCallback.CommitItem, ISyncMgrSyncCallback::CommitItem, _shell_ISyncMgrSyncCallback_CommitItem, shell.ISyncMgrSyncCallback_CommitItem, syncmgr/ISyncMgrSyncCallback::CommitItem
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncCallback.CommitItem"
+f1_keywords:
+- syncmgr/ISyncMgrSyncCallback.CommitItem
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.CommitItem
+- ISyncMgrSyncCallback.CommitItem
 targetos: Windows
 req.typenames: 
 req.redist: 

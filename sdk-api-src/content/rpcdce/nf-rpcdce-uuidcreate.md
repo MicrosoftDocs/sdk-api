@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.UuidCreate
 title: UuidCreate function (rpcdce.h)
-
 description: The UuidCreate function creates a new UUID.
 old-location: rpc\uuidcreate.htm
 tech.root: Rpc
 ms.assetid: 4008fb54-7770-4f1a-8e1c-4b20bef884f9
-
 ms.date: 12/05/2018
 ms.keywords: UuidCreate, UuidCreate function [RPC], _rpc_uuidcreate, rpc.uuidcreate, rpcdce/UuidCreate
 ms.topic: function
-f1_keywords: 
- - "rpcdce/UuidCreate"
+f1_keywords:
+- rpcdce/UuidCreate
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - UuidCreate
+- UuidCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

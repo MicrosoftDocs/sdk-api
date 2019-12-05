@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateAggregateSource
 title: MFCreateAggregateSource function (mfidl.h)
-
 description: Creates a media source that aggregates a collection of media sources.
 old-location: mf\mfcreateaggregatesource.htm
 tech.root: medfound
 ms.assetid: 7288bd4b-6a74-4528-854d-d82783630422
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateAggregateSource, MFCreateAggregateSource function [Media Foundation], mf.mfcreateaggregatesource, mfidl/MFCreateAggregateSource
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateAggregateSource"
+f1_keywords:
+- mfidl/MFCreateAggregateSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateAggregateSource
+- MFCreateAggregateSource
 targetos: Windows
 req.typenames: 
 req.redist: 

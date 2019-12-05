@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.WBEMTimeSpan(const BSTR)
 title: WBEMTimeSpan::WBEMTimeSpan(const BSTR) (wbemtime.h)
-
 description: This WBEMTimeSpan class constructor creates a time span object from a BSTR in Interval Format.
 old-location: wmi\wbemtimespan_wbemtimespan_bstr_.htm
 tech.root: WmiSdk
 ms.assetid: 51be003d-e85d-4cd0-99ed-a4575e35a773
-
 ms.date: 12/05/2018
-ms.keywords: "??0WBEMTimeSpan@@QAE@QAG@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const BSTR), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(BSTR), WBEMTimeSpan::WBEMTimeSpan(const BSTR), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_bstr_"
+ms.keywords: ??0WBEMTimeSpan@@QAE@QAG@Z, WBEMTimeSpan, WBEMTimeSpan constructor [Windows Management Instrumentation], WBEMTimeSpan constructor [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],WBEMTimeSpan constructor, WBEMTimeSpan.WBEMTimeSpan, WBEMTimeSpan.WBEMTimeSpan(const BSTR), WBEMTimeSpan::WBEMTimeSpan, WBEMTimeSpan::WBEMTimeSpan(BSTR), WBEMTimeSpan::WBEMTimeSpan(const BSTR), wbemtime/WBEMTimeSpan::WBEMTimeSpan, wmi.wbemtimespan_wbemtimespan_bstr_
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.WBEMTimeSpan"
+f1_keywords:
+- wbemtime/WBEMTimeSpan.WBEMTimeSpan
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.WBEMTimeSpan
- - ??0WBEMTimeSpan@@QAE@QAG@Z
+- WBEMTimeSpan.WBEMTimeSpan
+- ??0WBEMTimeSpan@@QAE@QAG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IActionProgressDialog
 title: IActionProgressDialog (shobjidl_core.h)
-
 description: Exposes methods that initialize and stop a progress dialog.
 old-location: shell\IActionProgressDialog.htm
 tech.root: shell
 ms.assetid: f3c0e4ae-f93f-4ee2-873a-d9370044e922
-
 ms.date: 12/05/2018
 ms.keywords: IActionProgressDialog, IActionProgressDialog interface [Windows Shell], IActionProgressDialog interface [Windows Shell],described, _shell_IActionProgressDialog, shell.IActionProgressDialog, shobjidl_core/IActionProgressDialog
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IActionProgressDialog"
+f1_keywords:
+- shobjidl_core/IActionProgressDialog
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Browseui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Browseui.dll
+- Browseui.dll
 api_name:
- - IActionProgressDialog
+- IActionProgressDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

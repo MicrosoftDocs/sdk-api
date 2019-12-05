@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1010
 title: SERVER_INFO_1010 (lmserver.h)
-
 description: The SERVER_INFO_1010 structure contains the auto-disconnect time associated with the specified server.
 old-location: netmgmt\server_info_1010_str.htm
 tech.root: NetMgmt
 ms.assetid: 54ae857d-91bb-4f60-b678-07e3b4661ef0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1010, *PSERVER_INFO_1010, LPSERVER_INFO_1010, LPSERVER_INFO_1010 structure pointer [Network Management], PSERVER_INFO_1010, PSERVER_INFO_1010 structure pointer [Network Management], SERVER_INFO_1010, SERVER_INFO_1010 structure [Network Management], _win32_server_info_1010_str, lmserver/LPSERVER_INFO_1010, lmserver/PSERVER_INFO_1010, lmserver/SERVER_INFO_1010, netmgmt.server_info_1010_str"
+ms.keywords: '*LPSERVER_INFO_1010, *PSERVER_INFO_1010, LPSERVER_INFO_1010, LPSERVER_INFO_1010 structure pointer [Network Management], PSERVER_INFO_1010, PSERVER_INFO_1010 structure pointer [Network Management], SERVER_INFO_1010, SERVER_INFO_1010 structure [Network Management], _win32_server_info_1010_str, lmserver/LPSERVER_INFO_1010, lmserver/PSERVER_INFO_1010, lmserver/SERVER_INFO_1010, netmgmt.server_info_1010_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1010"
+f1_keywords:
+- lmserver/SERVER_INFO_1010
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1010
+- SERVER_INFO_1010
 targetos: Windows
 req.typenames: SERVER_INFO_1010, *PSERVER_INFO_1010, *LPSERVER_INFO_1010
 req.redist: 

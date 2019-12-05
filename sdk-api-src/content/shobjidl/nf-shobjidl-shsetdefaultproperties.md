@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.SHSetDefaultProperties
 title: SHSetDefaultProperties function (shobjidl.h)
-
 description: Applies the default set of properties on a Shell item.
 old-location: shell\SHSetDefaultProperties.htm
 tech.root: shell
 ms.assetid: c3ab80a3-c1f3-4223-9fe3-f7fe48c36460
-
 ms.date: 12/05/2018
 ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Shell], _shell_SHSetDefaultProperties, shell.SHSetDefaultProperties, shobjidl/SHSetDefaultProperties
 ms.topic: function
-f1_keywords: 
- - "shobjidl/SHSetDefaultProperties"
+f1_keywords:
+- shobjidl/SHSetDefaultProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHSetDefaultProperties
+- SHSetDefaultProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

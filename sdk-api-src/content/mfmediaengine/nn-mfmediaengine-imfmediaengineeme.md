@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineEME
 title: IMFMediaEngineEME (mfmediaengine.h)
-
 description: Implemented by the media engine to add encrypted media extensions methods.
 old-location: mf\imfmediaengineeme.htm
 tech.root: medfound
 ms.assetid: d03045d5-bafe-4e65-98da-e9ea8104c169
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEME, IMFMediaEngineEME interface [Media Foundation], IMFMediaEngineEME interface [Media Foundation],described, mf.imfmediaengineeme, mfmediaengine/IMFMediaEngineEME
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEME"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEME
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEME
+- IMFMediaEngineEME
 targetos: Windows
 req.typenames: 
 req.redist: 

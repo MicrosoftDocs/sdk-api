@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetSignaturePartName
 title: IXpsSigningOptions::GetSignaturePartName (xpsdigitalsignature.h)
-
 description: Gets the part name of the document's signature part.
 old-location: xps\ixpssigningoptions_getsignaturepartname.htm
 tech.root: printdocs
 ms.assetid: 8c5dfbda-0ceb-4694-bc5d-7e16e6f6d3bc
-
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartName, GetSignaturePartName method [XPS Documents and Packaging], GetSignaturePartName method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetSignaturePartName method, IXpsSigningOptions.GetSignaturePartName, IXpsSigningOptions::GetSignaturePartName, xps.ixpssigningoptions_getsignaturepartname, xpsdigitalsignature/IXpsSigningOptions::GetSignaturePartName
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetSignaturePartName"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetSignaturePartName
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetSignaturePartName
+- IXpsSigningOptions.GetSignaturePartName
 targetos: Windows
 req.typenames: 
 req.redist: 

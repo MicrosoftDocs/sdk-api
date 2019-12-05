@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_ISCSI_INITIATOR_PORTAL_PROP
 title: VDS_ISCSI_INITIATOR_PORTAL_PROP (vds.h)
-
 description: Defines the properties of an iSCSI initiator portal.
 old-location: base\vds_iscsi_initiator_portal_prop.htm
 tech.root: VDS
 ms.assetid: 58fffdb4-71c4-4f84-ad0e-7efe5bdb78a7
-
 ms.date: 12/05/2018
 ms.keywords: VDS_ISCSI_INITIATOR_PORTAL_PROP, VDS_ISCSI_INITIATOR_PORTAL_PROP structure [VDS], _VDS_ISCSI_INITIATOR_PORTAL_PROP, base.vds_iscsi_initiator_portal_prop, vds/VDS_ISCSI_INITIATOR_PORTAL_PROP, vdshwprv/VDS_ISCSI_INITIATOR_PORTAL_PROP
 ms.topic: struct
 f1_keywords:
 - vds/VDS_ISCSI_INITIATOR_PORTAL_PROP
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
 title: IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent (mfcaptureengine.h)
-
 description: Called by the capture sink when the format of the sample is changed.
 old-location: mf\imfcaptureengineonsamplecallback2_onsynchronizedevent.htm
 tech.root: medfound
 ms.assetid: f82a657a-bc6a-407b-ad72-1e9c6ec17bed
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback2 interface [Media Foundation],OnSynchronizedEvent method, IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent, IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent, OnSynchronizedEvent, OnSynchronizedEvent method [Media Foundation], OnSynchronizedEvent method [Media Foundation],IMFCaptureEngineOnSampleCallback2 interface, mf.imfcaptureengineonsamplecallback2_onsynchronizedevent, mfcaptureengine/IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
+- IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

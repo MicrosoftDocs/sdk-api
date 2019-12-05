@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.SetUserData
 title: ISettingsContext::SetUserData (wcmconfig.h)
-
 description: Sets the user-defined data.
 old-location: smi\isettingscontext_setuserdata.htm
 tech.root: SMI
 ms.assetid: 4ae754a5-7e03-4747-b4bc-1abf72920d83
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsContext interface [SMI],SetUserData method, ISettingsContext.SetUserData, ISettingsContext::SetUserData, SetUserData, SetUserData method [SMI], SetUserData method [SMI],ISettingsContext interface, smi.isettingscontext_setuserdata, wcmconfig/ISettingsContext::SetUserData
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsContext.SetUserData"
+f1_keywords:
+- wcmconfig/ISettingsContext.SetUserData
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsContext.SetUserData
+- ISettingsContext.SetUserData
 targetos: Windows
 req.typenames: 
 req.redist: 

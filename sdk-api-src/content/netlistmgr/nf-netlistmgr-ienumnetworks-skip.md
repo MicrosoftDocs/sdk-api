@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Skip
 title: IEnumNetworks::Skip (netlistmgr.h)
-
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: nla\ienumnetworks_skip.htm
 tech.root: nla
 ms.assetid: 9f39e65e-6ff4-4fc5-a7fe-5f83a0b3f5e7
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks interface [Network Awareness],Skip method, IEnumNetworks.Skip, IEnumNetworks::Skip, Skip, Skip method [Network Awareness], Skip method [Network Awareness],IEnumNetworks interface, netlistmgr/IEnumNetworks::Skip, nla.ienumnetworks_skip
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/IEnumNetworks.Skip"
+f1_keywords:
+- netlistmgr/IEnumNetworks.Skip
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - IEnumNetworks.Skip
+- IEnumNetworks.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

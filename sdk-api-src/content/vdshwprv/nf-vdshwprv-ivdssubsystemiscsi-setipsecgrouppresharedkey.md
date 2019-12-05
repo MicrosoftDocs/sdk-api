@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 title: IVdsSubSystemIscsi::SetIpsecGroupPresharedKey (vdshwprv.h)
-
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdssubsystemiscsi_setipsecgrouppresharedkey.htm
 tech.root: VDS
 ms.assetid: f4a06e2b-09c9-438b-ba5b-b12bb846743b
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemIscsi interface,SetIpsecGroupPresharedKey method, IVdsSubSystemIscsi.SetIpsecGroupPresharedKey, IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey, SetIpsecGroupPresharedKey method, SetIpsecGroupPresharedKey method,IVdsSubSystemIscsi interface, base.ivdssubsystemiscsi_setipsecgrouppresharedkey, vds/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey, vdshwprv/IVdsSubSystemIscsi::SetIpsecGroupPresharedKey
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsSubSystemIscsi.SetIpsecGroupPresharedKey"
+f1_keywords:
+- vdshwprv/IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
+- IVdsSubSystemIscsi.SetIpsecGroupPresharedKey
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

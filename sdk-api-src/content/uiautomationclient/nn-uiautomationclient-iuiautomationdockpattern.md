@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationDockPattern
 title: IUIAutomationDockPattern (uiautomationclient.h)
-
 description: Provides access to a control that enables child elements to be arranged horizontally and vertically, relative to each other.
 old-location: winauto\uiauto_IUIAutomationDockPattern.htm
 tech.root: WinAuto
 ms.assetid: 2da816f0-9674-4b48-bb82-4eba941a7fa4
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDockPattern, IUIAutomationDockPattern interface [Windows Accessibility], IUIAutomationDockPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationDockPattern, uiauto_IUIAutomationDockPattern, uiautomationclient/IUIAutomationDockPattern, winauto.uiauto_IUIAutomationDockPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDockPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationDockPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationDockPattern
+- IUIAutomationDockPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

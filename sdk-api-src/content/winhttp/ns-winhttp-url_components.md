@@ -1,19 +1,17 @@
 ---
 UID: NS:winhttp.__unnamed_struct_2
 title: URL_COMPONENTS (winhttp.h)
-
 description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.
 old-location: http\url_components.htm
 tech.root: WinHttp
 ms.assetid: 4d2c6f82-6b61-4a7b-a5d7-560152e25302
-
 ms.date: 12/05/2018
-ms.keywords: "*LPURL_COMPONENTS, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, URL_COMPONENTS, URL_COMPONENTS structure [HTTP], URL_COMPONENTSW, http.url_components, winhttp/URL_COMPONENTS, winhttp_url_components_structure"
+ms.keywords: '*LPURL_COMPONENTS, INTERNET_SCHEME_HTTP, INTERNET_SCHEME_HTTPS, URL_COMPONENTS, URL_COMPONENTS structure [HTTP], URL_COMPONENTSW, http.url_components, winhttp/URL_COMPONENTS, winhttp_url_components_structure'
 ms.topic: struct
-f1_keywords: 
- - "winhttp/URL_COMPONENTS"
+f1_keywords:
+- winhttp/URL_COMPONENTS
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winhttp.h
+- Winhttp.h
 api_name:
- - URL_COMPONENTS
+- URL_COMPONENTS
 targetos: Windows
 req.typenames: URL_COMPONENTS, *LPURL_COMPONENTS
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

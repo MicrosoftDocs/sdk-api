@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE
 title: WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE (webservices.h)
-
 description: The security binding template for specifying the use of an application supplied username / password pair as a direct (i.e., one-shot) security token.
 old-location: wsw\ws_username_message_security_binding_template.htm
 tech.root: wsw
 ms.assetid: c538c670-9a61-4891-9f63-e0eea12ee224
-
 ms.date: 12/05/2018
 ms.keywords: WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE, wsw.ws_username_message_security_binding_template
 ms.topic: struct
 f1_keywords:
 - webservices/WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.CloseThemeData
 title: CloseThemeData function (uxtheme.h)
-
 description: Closes the theme data handle.
 old-location: controls\CloseThemeData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\closethemedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: CloseThemeData, CloseThemeData function [Windows Controls], controls.CloseThemeData, controls.inet_CloseThemeData, inet_CloseThemeData, inet_CloseThemeData_cpp, uxtheme/CloseThemeData
 ms.topic: function
-f1_keywords: 
- - "uxtheme/CloseThemeData"
+f1_keywords:
+- uxtheme/CloseThemeData
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - CloseThemeData
+- CloseThemeData
 targetos: Windows
 req.typenames: 
 req.redist: 

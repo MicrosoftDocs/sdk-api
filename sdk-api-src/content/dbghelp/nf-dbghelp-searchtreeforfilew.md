@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SearchTreeForFileW
 title: SearchTreeForFileW function (dbghelp.h)
-
 description: Searches a directory tree for a specified file.
 old-location: base\searchtreeforfile.htm
 tech.root: Debug
 ms.assetid: dc641de0-8e22-402e-be64-f3231ba9ed8c
-
 ms.date: 12/05/2018
 ms.keywords: SearchTreeForFile, SearchTreeForFile function, SearchTreeForFileW, _win32_searchtreeforfile, base.searchtreeforfile, dbghelp/SearchTreeForFile, dbghelp/SearchTreeForFileW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SearchTreeForFile"
+f1_keywords:
+- dbghelp/SearchTreeForFile
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SearchTreeForFile
- - SearchTreeForFile
- - SearchTreeForFileW
+- SearchTreeForFile
+- SearchTreeForFile
+- SearchTreeForFileW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

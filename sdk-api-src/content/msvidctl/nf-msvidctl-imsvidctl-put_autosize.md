@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_AutoSize
 title: IMSVidCtl::put_AutoSize (msvidctl.h)
-
 description: The put_AutoSize method specifies whether the Video Control automatically resizes to display its entire contents.
 old-location: mstv\imsvidctl_put_autosize.htm
 tech.root: mstv
 ms.assetid: eb5863e2-380b-4bee-ac18-e5f28551a6ab
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_AutoSize method, IMSVidCtl.put_AutoSize, IMSVidCtl::put_AutoSize, IMSVidCtlput_AutoSize, mstv.imsvidctl_put_autosize, msvidctl/IMSVidCtl::put_AutoSize, put_AutoSize, put_AutoSize method [Microsoft TV Technologies], put_AutoSize method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.put_AutoSize"
+f1_keywords:
+- msvidctl/IMSVidCtl.put_AutoSize
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.put_AutoSize
+- IMSVidCtl.put_AutoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

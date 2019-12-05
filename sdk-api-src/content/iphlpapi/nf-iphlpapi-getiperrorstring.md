@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetIpErrorString
 title: GetIpErrorString function (iphlpapi.h)
-
 description: The GetIpErrorString function retrieves an IP Helper error string.
 old-location: iphlp\getiperrorstring.htm
 tech.root: IpHlp
 ms.assetid: 4f71777a-2e87-4411-89fd-12c165d4d8ae
-
 ms.date: 12/05/2018
 ms.keywords: GetIpErrorString, GetIpErrorString function [IP Helper], iphlp.getiperrorstring, iphlpapi/GetIpErrorString
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/GetIpErrorString"
+f1_keywords:
+- iphlpapi/GetIpErrorString
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpErrorString
+- GetIpErrorString
 targetos: Windows
 req.typenames: 
 req.redist: 

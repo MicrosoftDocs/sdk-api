@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagGUIDKIND
 title: GUIDKIND (ocidl.h)
-
 description: Flags used to specify the kind of information requested from an object in the IProvideClassInfo2.
 old-location: com\guidkind.htm
 tech.root: com
 ms.assetid: b9ddd96b-0418-4e31-aaf9-ca060c405fa7
-
 ms.date: 12/05/2018
 ms.keywords: GUIDKIND, GUIDKIND enumeration [COM], GUIDKIND_DEFAULT_SOURCE_DISP_IID, _ctrl_GUIDKIND, com.guidkind, ocidl/GUIDKIND, ocidl/GUIDKIND_DEFAULT_SOURCE_DISP_IID
 ms.topic: enum
-f1_keywords: 
- - "ocidl/GUIDKIND"
+f1_keywords:
+- ocidl/GUIDKIND
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - GUIDKIND
+- GUIDKIND
 targetos: Windows
 req.typenames: GUIDKIND
 req.redist: 

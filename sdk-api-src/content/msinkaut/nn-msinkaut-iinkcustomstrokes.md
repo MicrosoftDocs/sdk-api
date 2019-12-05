@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkCustomStrokes
 title: IInkCustomStrokes (msinkaut.h)
-
 description: Contains a collection of user-defined InkStrokes collections.
 old-location: tablet\iinkcustomstrokes.htm
 tech.root: tablet
 ms.assetid: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e
-
 ms.date: 12/05/2018
 ms.keywords: 0b4eb5d6-ccf0-46c1-ae02-a393e67b817e, IInkCustomStrokes, IInkCustomStrokes interface [Tablet PC], IInkCustomStrokes interface [Tablet PC],described, msinkaut/IInkCustomStrokes, tablet.iinkcustomstrokes
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkCustomStrokes"
+f1_keywords:
+- msinkaut/IInkCustomStrokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCustomStrokes
- - IInkCustomStrokes._NewEnum
+- IInkCustomStrokes
+- IInkCustomStrokes._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

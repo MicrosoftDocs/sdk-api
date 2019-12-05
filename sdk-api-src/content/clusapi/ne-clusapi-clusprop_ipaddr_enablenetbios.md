@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSPROP_IPADDR_ENABLENETBIOS
 title: CLUSPROP_IPADDR_ENABLENETBIOS (clusapi.h)
-
 description: When used with the CLUSPROP_DWORD structure, enables or disables the functionality of the EnableNetBIOS property of IP Address&#32;resources.
 old-location: mscs\clusprop_ipaddr_enablenetbios.htm
 tech.root: MsCS
 ms.assetid: 4d1610f0-6a7c-4dfa-9fec-4165f28dd7de
-
 ms.date: 12/05/2018
 ms.keywords: CLUSPROP_IPADDR_ENABLENETBIOS, CLUSPROP_IPADDR_ENABLENETBIOS enumeration [Failover Cluster], CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED, CLUSPROP_IPADDR_ENABLENETBIOS_ENABLED, CLUSPROP_IPADDR_ENABLENETBIOS_TRACK_NIC, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS_ENABLED, clusapi/CLUSPROP_IPADDR_ENABLENETBIOS_TRACK_NIC, mscs.clusprop_ipaddr_enablenetbios
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSPROP_IPADDR_ENABLENETBIOS"
+f1_keywords:
+- clusapi/CLUSPROP_IPADDR_ENABLENETBIOS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_IPADDR_ENABLENETBIOS
+- CLUSPROP_IPADDR_ENABLENETBIOS
 targetos: Windows
 req.typenames: CLUSPROP_IPADDR_ENABLENETBIOS
 req.redist: 

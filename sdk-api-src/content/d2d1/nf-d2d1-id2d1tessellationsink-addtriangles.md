@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1TessellationSink.AddTriangles
 title: ID2D1TessellationSink::AddTriangles (d2d1.h)
-
 description: Copies the specified triangles to the sink.
 old-location: direct2d\ID2D1TessellationSink_AddTriangles.htm
 tech.root: Direct2D
 ms.assetid: 45084e57-d022-4bdb-9001-83e4e88c9c55
-
 ms.date: 12/05/2018
 ms.keywords: AddTriangles, AddTriangles method [Direct2D], AddTriangles method [Direct2D],ID2D1TessellationSink interface, ID2D1TessellationSink interface [Direct2D],AddTriangles method, ID2D1TessellationSink.AddTriangles, ID2D1TessellationSink::AddTriangles, d2d1/ID2D1TessellationSink::AddTriangles, direct2d.ID2D1TessellationSink_AddTriangles
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1TessellationSink.AddTriangles"
+f1_keywords:
+- d2d1/ID2D1TessellationSink.AddTriangles
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1TessellationSink.AddTriangles
+- ID2D1TessellationSink.AddTriangles
 targetos: Windows
 req.typenames: 
 req.redist: 

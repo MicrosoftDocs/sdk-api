@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_ATTRIBUTE_TAG_INFO
 title: FILE_ATTRIBUTE_TAG_INFO (winbase.h)
-
 description: Receives the requested file attribute information. Used for any handles.
 old-location: fs\file_attribute_tag_info.htm
 tech.root: FileIO
 ms.assetid: 4a2467a2-c22a-4ee6-a40e-5603ea381adc
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO structure [Files], PFILE_ATTRIBUTE_TAG_INFO, PFILE_ATTRIBUTE_TAG_INFO structure pointer [Files], fileextd/FILE_ATTRIBUTE_TAG_INFO, fileextd/PFILE_ATTRIBUTE_TAG_INFO, fs.file_attribute_tag_info, winbase/FILE_ATTRIBUTE_TAG_INFO, winbase/PFILE_ATTRIBUTE_TAG_INFO"
+ms.keywords: '*PFILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO, FILE_ATTRIBUTE_TAG_INFO structure [Files], PFILE_ATTRIBUTE_TAG_INFO, PFILE_ATTRIBUTE_TAG_INFO structure pointer [Files], fileextd/FILE_ATTRIBUTE_TAG_INFO, fileextd/PFILE_ATTRIBUTE_TAG_INFO, fs.file_attribute_tag_info, winbase/FILE_ATTRIBUTE_TAG_INFO, winbase/PFILE_ATTRIBUTE_TAG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_ATTRIBUTE_TAG_INFO"
+f1_keywords:
+- winbase/FILE_ATTRIBUTE_TAG_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_ATTRIBUTE_TAG_INFO
+- FILE_ATTRIBUTE_TAG_INFO
 targetos: Windows
 req.typenames: FILE_ATTRIBUTE_TAG_INFO, *PFILE_ATTRIBUTE_TAG_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

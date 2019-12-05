@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_GetCurrentFrameNumber
 title: WinUsb_GetCurrentFrameNumber function (winusb.h)
-
 description: The WinUsb_GetCurrentFrameNumber function gets the current frame number for the bus.
 old-location: buses\winusb_getcurrentframenumber.htm
 tech.root: usbref
 ms.assetid: 178E1679-B78F-4032-8D1B-66B7ABE902C7
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetCurrentFrameNumber, WinUsb_GetCurrentFrameNumber function [Buses], buses.winusb_getcurrentframenumber, winusb/WinUsb_GetCurrentFrameNumber
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_GetCurrentFrameNumber"
+f1_keywords:
+- winusb/WinUsb_GetCurrentFrameNumber
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_GetCurrentFrameNumber
+- WinUsb_GetCurrentFrameNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

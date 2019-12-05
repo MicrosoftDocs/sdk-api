@@ -1,19 +1,17 @@
 ---
 UID: NF:icmpapi.IcmpParseReplies
 title: IcmpParseReplies function (icmpapi.h)
-
 description: Parses the reply buffer provided and returns the number of ICMP echo request responses found.
 old-location: iphlp\icmpparsereplies.htm
 tech.root: IpHlp
 ms.assetid: ec7c2a5f-5406-4350-b795-6e72fe25f62d
-
 ms.date: 12/05/2018
 ms.keywords: IcmpParseReplies, IcmpParseReplies function [IP Helper], _iphlp_icmpparsereplies, icmpapi/IcmpParseReplies, iphlp.icmpparsereplies
 ms.topic: function
-f1_keywords: 
- - "icmpapi/IcmpParseReplies"
+f1_keywords:
+- icmpapi/IcmpParseReplies
 dev_langs:
- - c++
+- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP; Icmp.dll on Windows 2000 Server and Windows 2000 Professional
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
- - Icmp.dll
+- Iphlpapi.dll
+- Icmp.dll
 api_name:
- - IcmpParseReplies
+- IcmpParseReplies
 targetos: Windows
 req.typenames: 
 req.redist: 

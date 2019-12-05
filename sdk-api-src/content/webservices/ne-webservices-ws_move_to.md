@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_7
 title: WS_MOVE_TO (webservices.h)
-
 description: This enumeration identifies the various ways to move about an xml document.
 old-location: wsw\ws_move_to.htm
 tech.root: wsw
 ms.assetid: 9d1623cc-7a88-4a84-ba75-decc4de9fe00
-
 ms.date: 12/05/2018
 ms.keywords: WS_MOVE_TO, WS_MOVE_TO enumeration [Web Services for Windows], WS_MOVE_TO_BOF, WS_MOVE_TO_CHILD_ELEMENT, WS_MOVE_TO_CHILD_NODE, WS_MOVE_TO_END_ELEMENT, WS_MOVE_TO_EOF, WS_MOVE_TO_FIRST_NODE, WS_MOVE_TO_NEXT_ELEMENT, WS_MOVE_TO_NEXT_NODE, WS_MOVE_TO_PARENT_ELEMENT, WS_MOVE_TO_PREVIOUS_ELEMENT, WS_MOVE_TO_PREVIOUS_NODE, WS_MOVE_TO_ROOT_ELEMENT, webservices/WS_MOVE_TO, webservices/WS_MOVE_TO_BOF, webservices/WS_MOVE_TO_CHILD_ELEMENT, webservices/WS_MOVE_TO_CHILD_NODE, webservices/WS_MOVE_TO_END_ELEMENT, webservices/WS_MOVE_TO_EOF, webservices/WS_MOVE_TO_FIRST_NODE, webservices/WS_MOVE_TO_NEXT_ELEMENT, webservices/WS_MOVE_TO_NEXT_NODE, webservices/WS_MOVE_TO_PARENT_ELEMENT, webservices/WS_MOVE_TO_PREVIOUS_ELEMENT, webservices/WS_MOVE_TO_PREVIOUS_NODE, webservices/WS_MOVE_TO_ROOT_ELEMENT, wsw.ws_move_to
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_MOVE_TO"
+f1_keywords:
+- webservices/WS_MOVE_TO
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_MOVE_TO
+- WS_MOVE_TO
 targetos: Windows
 req.typenames: WS_MOVE_TO
 req.redist: 

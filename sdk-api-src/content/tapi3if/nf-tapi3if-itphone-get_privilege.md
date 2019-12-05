@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.get_Privilege
 title: ITPhone::get_Privilege (tapi3if.h)
-
 description: The get_Privilege method retrieves the privilege of the open phone.
 old-location: tapi3\itphone_get_privilege.htm
 tech.root: Tapi
 ms.assetid: 88103a48-a5cd-43a7-a88e-9b16313b35c2
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_Privilege method, ITPhone.get_Privilege, ITPhone::get_Privilege, _tapi3_itphone_get_privilege, get_Privilege, get_Privilege method [TAPI 2.2], get_Privilege method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_privilege, tapi3if/ITPhone::get_Privilege
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.get_Privilege"
+f1_keywords:
+- tapi3if/ITPhone.get_Privilege
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.get_Privilege
+- ITPhone.get_Privilege
 targetos: Windows
 req.typenames: 
 req.redist: 

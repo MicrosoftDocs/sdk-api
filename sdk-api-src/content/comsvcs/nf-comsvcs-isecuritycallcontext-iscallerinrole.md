@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsCallerInRole
 title: ISecurityCallContext::IsCallerInRole (comsvcs.h)
-
 description: Determines whether the direct caller is in the specified role.
 old-location: cos\isecuritycallcontext_iscallerinrole.htm
 tech.root: cossdk
 ms.assetid: 544deb46-6427-4936-97a6-ea995b5e77ba
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityCallContext interface [COM+],IsCallerInRole method, ISecurityCallContext.IsCallerInRole, ISecurityCallContext::IsCallerInRole, IsCallerInRole, IsCallerInRole method [COM+], IsCallerInRole method [COM+],ISecurityCallContext interface, _cos_ISecurityCallContext_IsCallerInRole, comsvcs/ISecurityCallContext::IsCallerInRole, cos.isecuritycallcontext_iscallerinrole
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityCallContext.IsCallerInRole"
+f1_keywords:
+- comsvcs/ISecurityCallContext.IsCallerInRole
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityCallContext.IsCallerInRole
+- ISecurityCallContext.IsCallerInRole
 targetos: Windows
 req.typenames: 
 req.redist: 

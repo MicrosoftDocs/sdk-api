@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 title: IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete (mbnapi.h)
-
 description: Notification method indicating that a query for the messages supported on a device service has completed.
 old-location: mbn\imbndeviceservicesevents_onquerysupportedcommandscomplete.htm
 tech.root: mbn
 ms.assetid: CA304FF5-B630-4CD5-8E23-844499D6A8D1
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnQuerySupportedCommandsComplete method, IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete, IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete, OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks], OnQuerySupportedCommandsComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onquerysupportedcommandscomplete, mbnapi/IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
+- IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

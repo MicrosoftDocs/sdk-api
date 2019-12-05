@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.EnumClassAttributes
 title: IDsDisplaySpecifier::EnumClassAttributes (dsclient.h)
-
 description: Enumerates the attributes for a given object class.
 old-location: ad\idsdisplayspecifier_enumclassattributes.htm
 tech.root: ad
 ms.assetid: 78b8e280-454c-4db7-9037-ea7e42798323
-
 ms.date: 12/05/2018
 ms.keywords: EnumClassAttributes, EnumClassAttributes method [Active Directory], EnumClassAttributes method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],EnumClassAttributes method, IDsDisplaySpecifier.EnumClassAttributes, IDsDisplaySpecifier::EnumClassAttributes, _glines_idsdisplayspecifier_enumclassattributes, ad.idsdisplayspecifier__enumclassattributes, ad.idsdisplayspecifier_enumclassattributes, dsclient/IDsDisplaySpecifier::EnumClassAttributes
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsDisplaySpecifier.EnumClassAttributes"
+f1_keywords:
+- dsclient/IDsDisplaySpecifier.EnumClassAttributes
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.EnumClassAttributes
+- IDsDisplaySpecifier.EnumClassAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

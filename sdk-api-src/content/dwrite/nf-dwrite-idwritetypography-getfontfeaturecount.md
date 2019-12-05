@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTypography.GetFontFeatureCount
 title: IDWriteTypography::GetFontFeatureCount (dwrite.h)
-
 description: Gets the number of OpenType font features for the current font.
 old-location: directwrite\IDWriteTypography_GetFontFeatureCount.htm
 tech.root: DirectWrite
 ms.assetid: 434ea913-00c9-4051-b13c-68f9d67ebd84
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFeatureCount, GetFontFeatureCount method [Direct Write], GetFontFeatureCount method [Direct Write],IDWriteTypography interface, IDWriteTypography interface [Direct Write],GetFontFeatureCount method, IDWriteTypography.GetFontFeatureCount, IDWriteTypography::GetFontFeatureCount, directwrite.IDWriteTypography_GetFontFeatureCount, dwrite/IDWriteTypography::GetFontFeatureCount
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTypography.GetFontFeatureCount"
+f1_keywords:
+- dwrite/IDWriteTypography.GetFontFeatureCount
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTypography.GetFontFeatureCount
+- IDWriteTypography.GetFontFeatureCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CopyMetaFileA
 title: CopyMetaFileA function (wingdi.h)
-
 description: The CopyMetaFile function copies the content of a Windows-format metafile to the specified file.
 old-location: gdi\copymetafile.htm
 tech.root: gdi
 ms.assetid: e9f97591-697b-47d0-a748-60fda4d5258c
-
 ms.date: 12/05/2018
 ms.keywords: CopyMetaFile, CopyMetaFile function [Windows GDI], CopyMetaFileA, CopyMetaFileW, _win32_CopyMetaFile, gdi.copymetafile, wingdi/CopyMetaFile, wingdi/CopyMetaFileA, wingdi/CopyMetaFileW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CopyMetaFile"
+f1_keywords:
+- wingdi/CopyMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CopyMetaFile
- - CopyMetaFileA
- - CopyMetaFileW
+- CopyMetaFile
+- CopyMetaFileA
+- CopyMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_ENCODER_START_CALLBACK
 title: WS_ENCODER_START_CALLBACK (webservices.h)
-
 description: Starts encoding a message.
 old-location: wsw\ws_encoder_start_callback.htm
 tech.root: wsw
 ms.assetid: 308e3d24-e3df-4dc8-a727-d3d8ebe8d5d4
-
 ms.date: 12/05/2018
 ms.keywords: WS_ENCODER_START_CALLBACK, WS_ENCODER_START_CALLBACK callback, WS_ENCODER_START_CALLBACK callback function [Web Services for Windows], webservices/WS_ENCODER_START_CALLBACK, wsw.ws_encoder_start_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_ENCODER_START_CALLBACK"
+f1_keywords:
+- webservices/WS_ENCODER_START_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENCODER_START_CALLBACK
+- WS_ENCODER_START_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable
 title: IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable (uiautomationclient.h)
-
 description: Indicates whether the element can scroll horizontally.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable.htm
 tech.root: WinAuto
 ms.assetid: 4107440a-4bfc-42df-87b0-47b9eb3ce2e6
-
 ms.date: 12/05/2018
 ms.keywords: CurrentHorizontallyScrollable property [Windows Accessibility], CurrentHorizontallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CurrentHorizontallyScrollable property, IUIAutomationScrollPattern.CurrentHorizontallyScrollable, IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable, IUIAutomationScrollPattern::CurrentHorizontallyScrollable, IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable, get_CurrentHorizontallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable, uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CurrentHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CurrentHorizontallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CurrentHorizontallyScrollable
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern.CurrentHorizontallyScrollable"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern.CurrentHorizontallyScrollable
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CurrentHorizontallyScrollable
- - IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable
+- IUIAutomationScrollPattern.CurrentHorizontallyScrollable
+- IUIAutomationScrollPattern.get_CurrentHorizontallyScrollable
 targetos: Windows
 req.typenames: 
 req.redist: 

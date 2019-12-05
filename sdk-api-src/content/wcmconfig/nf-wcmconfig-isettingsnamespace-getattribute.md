@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.GetAttribute
 title: ISettingsNamespace::GetAttribute (wcmconfig.h)
-
 description: Gets the value of an attribute of the namespace.
 old-location: smi\isettingsnamespace_getattribute.htm
 tech.root: SMI
 ms.assetid: b0623114-8f25-4870-a1c7-4f4e3ecf0348
-
 ms.date: 12/05/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetAttribute method, ISettingsNamespace.GetAttribute, ISettingsNamespace::GetAttribute, smi.isettingsnamespace_getattribute, wcmconfig/ISettingsNamespace::GetAttribute
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsNamespace.GetAttribute"
+f1_keywords:
+- wcmconfig/ISettingsNamespace.GetAttribute
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsNamespace.GetAttribute
+- ISettingsNamespace.GetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

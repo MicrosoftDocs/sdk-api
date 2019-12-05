@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_DocumentName
 title: IFaxOutgoingMessage::get_DocumentName (faxcomex.h)
-
 description: The IFaxOutgoingMessage::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax message.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_documentname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1tt1.htm
-
 ms.date: 12/05/2018
 ms.keywords: DocumentName property [Fax Service], DocumentName property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],DocumentName property, IFaxOutgoingMessage.DocumentName, IFaxOutgoingMessage.get_DocumentName, IFaxOutgoingMessage::DocumentName, IFaxOutgoingMessage::get_DocumentName, _mfax_faxoutgoingmessage.documentname, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_documentname_cpp, fax._mfax_faxoutgoingmessage_documentname, faxcomex/IFaxOutgoingMessage::DocumentName, faxcomex/IFaxOutgoingMessage::get_DocumentName, get_DocumentName
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage.DocumentName"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage.DocumentName
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.DocumentName
- - IFaxOutgoingMessage.get_DocumentName
- - IFaxOutgoingMessage.get_DocumentName
+- IFaxOutgoingMessage.DocumentName
+- IFaxOutgoingMessage.get_DocumentName
+- IFaxOutgoingMessage.get_DocumentName
 targetos: Windows
 req.typenames: 
 req.redist: 

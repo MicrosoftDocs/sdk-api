@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IProtocolHandlerSite.GetFilter
 title: IProtocolHandlerSite::GetFilter (searchapi.h)
-
 description: Retrieves the appropriate IFilteraccording to the supplied parameters.
 old-location: search\_search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\getfilter.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFilter, GetFilter method [search], GetFilter method [search],IProtocolHandlerSite interface, IProtocolHandlerSite interface [search],GetFilter method, IProtocolHandlerSite.GetFilter, IProtocolHandlerSite::GetFilter, _search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_GetFilter, search._search_IProtocolHandlerSite_search_IProtocolHandlerSite_GetFilter_cpp, searchapi/IProtocolHandlerSite::GetFilter
 ms.topic: method
-f1_keywords: 
- - "searchapi/IProtocolHandlerSite.GetFilter"
+f1_keywords:
+- searchapi/IProtocolHandlerSite.GetFilter
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IProtocolHandlerSite.GetFilter
+- IProtocolHandlerSite.GetFilter
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.UpdateVideo
 title: IMFCapturePreviewSink::UpdateVideo (mfcaptureengine.h)
-
 description: Updates the video frame.
 old-location: mf\imfcapturepreviewsink_updatevideo.htm
 tech.root: medfound
 ms.assetid: B541D209-BB03-4FCF-834C-82002037C357
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],UpdateVideo method, IMFCapturePreviewSink.UpdateVideo, IMFCapturePreviewSink::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_updatevideo, mfcaptureengine/IMFCapturePreviewSink::UpdateVideo
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.UpdateVideo"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.UpdateVideo
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.UpdateVideo
+- IMFCapturePreviewSink.UpdateVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

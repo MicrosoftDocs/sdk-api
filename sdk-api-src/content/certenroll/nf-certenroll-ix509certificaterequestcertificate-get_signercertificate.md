@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate.get_SignerCertificate
 title: IX509CertificateRequestCertificate::get_SignerCertificate (certenroll.h)
-
 description: Specifies or retrieves the ISignerCertificate object used to sign the certificate.
 old-location: security\ix509certificaterequestcertificate_signercertificate_property.htm
 tech.root: seccertenroll
 ms.assetid: e3a66651-aa0d-4dbb-afb1-f2492e27fec1
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCertificate interface [Security],SignerCertificate property, IX509CertificateRequestCertificate.SignerCertificate, IX509CertificateRequestCertificate.get_SignerCertificate, IX509CertificateRequestCertificate::SignerCertificate, IX509CertificateRequestCertificate::get_SignerCertificate, IX509CertificateRequestCertificate::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509CertificateRequestCertificate interface, certenroll/IX509CertificateRequestCertificate::SignerCertificate, certenroll/IX509CertificateRequestCertificate::get_SignerCertificate, certenroll/IX509CertificateRequestCertificate::put_SignerCertificate, get_SignerCertificate, security.ix509certificaterequestcertificate_signercertificate_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCertificate.SignerCertificate"
+f1_keywords:
+- certenroll/IX509CertificateRequestCertificate.SignerCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCertificate.SignerCertificate
- - IX509CertificateRequestCertificate.get_SignerCertificate
- - IX509CertificateRequestCertificate.put_SignerCertificate
+- IX509CertificateRequestCertificate.SignerCertificate
+- IX509CertificateRequestCertificate.get_SignerCertificate
+- IX509CertificateRequestCertificate.put_SignerCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

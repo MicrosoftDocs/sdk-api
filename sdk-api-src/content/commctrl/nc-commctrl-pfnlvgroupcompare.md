@@ -1,19 +1,17 @@
 ---
 UID: NC:commctrl.PFNLVGROUPCOMPARE
 title: PFNLVGROUPCOMPARE (commctrl.h)
-
 description: The LVGroupCompare function is an application-defined callback function used with the LVM_INSERTGROUPSORTED and LVM_SORTGROUPS messages.
 old-location: controls\LVGroupCompare.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\callbackfunctions\lvgroupcompare.htm
-
 ms.date: 12/05/2018
 ms.keywords: LVGroupCompare, PFNLVGROUPCOMPARE, PFNLVGROUPCOMPARE callback, PFNLVGROUPCOMPARE callback function [Windows Controls], _win32_LVGroupCompare, _win32_LVGroupCompare_cpp, commctrl/PFNLVGROUPCOMPARE, controls.LVGroupCompare, controls._win32_LVGroupCompare
 ms.topic: callback
-f1_keywords: 
- - "commctrl/PFNLVGROUPCOMPARE"
+f1_keywords:
+- commctrl/PFNLVGROUPCOMPARE
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - PFNLVGROUPCOMPARE
+- PFNLVGROUPCOMPARE
 targetos: Windows
 req.typenames: 
 req.redist: 

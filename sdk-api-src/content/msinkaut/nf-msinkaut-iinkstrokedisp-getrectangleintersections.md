@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetRectangleIntersections
 title: IInkStrokeDisp::GetRectangleIntersections (msinkaut.h)
-
 description: Finds the points where a IInkStrokeDisp object intersects a given rectangle.
 old-location: tablet\iinkstrokedisp_getrectangleintersections.htm
 tech.root: tablet
 ms.assetid: fe042e12-21fa-4dae-988c-d082aa867520
-
 ms.date: 12/05/2018
 ms.keywords: GetRectangleIntersections, GetRectangleIntersections method [Tablet PC], GetRectangleIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetRectangleIntersections method, IInkStrokeDisp.GetRectangleIntersections, IInkStrokeDisp::GetRectangleIntersections, fe042e12-21fa-4dae-988c-d082aa867520, msinkaut/IInkStrokeDisp::GetRectangleIntersections, tablet.iinkstrokedisp_getrectangleintersections
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.GetRectangleIntersections"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.GetRectangleIntersections
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetRectangleIntersections
+- IInkStrokeDisp.GetRectangleIntersections
 targetos: Windows
 req.typenames: 
 req.redist: 

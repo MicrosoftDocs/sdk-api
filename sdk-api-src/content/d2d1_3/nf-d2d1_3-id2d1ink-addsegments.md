@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.AddSegments
 title: ID2D1Ink::AddSegments (d2d1_3.h)
-
 description: Adds the given segments to the end of this ink object.
 old-location: direct2d\id2d1ink_addsegments.htm
 tech.root: Direct2D
 ms.assetid: 0AB546AC-F7AB-4C48-AA10-3DD2FF11B853
-
 ms.date: 12/05/2018
 ms.keywords: AddSegments, AddSegments method [Direct2D], AddSegments method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],AddSegments method, ID2D1Ink.AddSegments, ID2D1Ink::AddSegments, d2d1_3/ID2D1Ink::AddSegments, direct2d.id2d1ink_addsegments
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Ink.AddSegments"
+f1_keywords:
+- d2d1_3/ID2D1Ink.AddSegments
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Ink.AddSegments
+- ID2D1Ink.AddSegments
 targetos: Windows
 req.typenames: 
 req.redist: 

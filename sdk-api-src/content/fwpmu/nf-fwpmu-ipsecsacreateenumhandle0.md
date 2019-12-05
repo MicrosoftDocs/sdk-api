@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaCreateEnumHandle0
 title: IPsecSaCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of Internet Protocol Security (IPsec) security association (SA) objects.
 old-location: fwp\ipsecsacreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 473935d9-362f-417c-a366-f683d97d9a18
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaCreateEnumHandle0, IPsecSaCreateEnumHandle0 function [Filtering], fwp.ipsecsacreateenumhandle0_func, fwpmu/IPsecSaCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaCreateEnumHandle0"
+f1_keywords:
+- fwpmu/IPsecSaCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaCreateEnumHandle0
+- IPsecSaCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IRegisterServiceProvider
 title: IRegisterServiceProvider (strmif.h)
-
 description: The IRegisterServiceProvider interface registers an object as a service with the Filter Graph Manager. For more information, see IRegisterServiceProvider::RegisterService.
 old-location: dshow\iregisterserviceprovider.htm
 tech.root: DirectShow
 ms.assetid: 1097fa4c-d81d-4268-8492-c0d9f4888733
-
 ms.date: 12/05/2018
 ms.keywords: IRegisterServiceProvider, IRegisterServiceProvider interface [DirectShow], IRegisterServiceProvider interface [DirectShow],described, IRegisterServiceProviderInterface, dshow.iregisterserviceprovider, strmif/IRegisterServiceProvider
 ms.topic: interface
-f1_keywords: 
- - "strmif/IRegisterServiceProvider"
+f1_keywords:
+- strmif/IRegisterServiceProvider
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IRegisterServiceProvider
+- IRegisterServiceProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

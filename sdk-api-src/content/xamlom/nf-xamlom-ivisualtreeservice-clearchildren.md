@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService.ClearChildren
 title: IVisualTreeService::ClearChildren (xamlom.h)
-
 description: Clears all child elements from the parent collection.
 old-location: xaml_diagnostics\ivisualtreeservice_clearchildren.htm
 tech.root: xaml_diagnostics
 ms.assetid: E32B07F5-BB62-435A-A869-36A0E93915D9
-
 ms.date: 12/05/2018
 ms.keywords: ClearChildren, ClearChildren method, ClearChildren method,IVisualTreeService interface, IVisualTreeService interface,ClearChildren method, IVisualTreeService.ClearChildren, IVisualTreeService::ClearChildren, xaml_diagnostics.ivisualtreeservice_clearchildren, xamlom/IVisualTreeService::ClearChildren
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService.ClearChildren"
+f1_keywords:
+- xamlom/IVisualTreeService.ClearChildren
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService.ClearChildren
+- IVisualTreeService.ClearChildren
 targetos: Windows
 req.typenames: 
 req.redist: 

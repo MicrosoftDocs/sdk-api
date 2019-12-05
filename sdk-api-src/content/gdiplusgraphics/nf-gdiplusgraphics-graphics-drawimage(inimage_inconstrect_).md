@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const Rect &)
 title: Graphics::DrawImage(IN Image,IN const Rect &) (gdiplusgraphics.h)
-
 description: The Graphics::DrawImage method draws an image.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\drawimage_77imageimage_rectamprect.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawImage, DrawImage method [GDI+], DrawImage method [GDI+],Graphics class, Graphics class [GDI+],DrawImage method, Graphics.DrawImage, Graphics.DrawImage(IN Image,IN const Rect &), Graphics.DrawImage(Image*,const Rect&), Graphics::DrawImage, Graphics::DrawImage(IN Image,IN const Rect &), _gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_, gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_Rect_rect_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.DrawImage"
+f1_keywords:
+- gdiplusgraphics/Graphics.DrawImage
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.DrawImage
+- Graphics.DrawImage
 targetos: Windows
 req.typenames: 
 req.redist: 

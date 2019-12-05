@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._PREVENT_MEDIA_REMOVAL
 title: PREVENT_MEDIA_REMOVAL
-
 description: Provides removable media locking data. It is used by the IOCTL_STORAGE_MEDIA_REMOVAL control code.
 old-location: base\prevent_media_removal_str.htm
 tech.root: devio
 ms.assetid: a5f55555-5226-46a7-8869-df4d1c4e7352
-
 ms.date: 12/05/2018
-ms.keywords: "*PPREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL structure, _win32_prevent_media_removal_str, base.prevent_media_removal_str, winioctl/PREVENT_MEDIA_REMOVAL"
+ms.keywords: '*PPREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL, PREVENT_MEDIA_REMOVAL structure, _win32_prevent_media_removal_str, base.prevent_media_removal_str, winioctl/PREVENT_MEDIA_REMOVAL'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/PREVENT_MEDIA_REMOVAL"
+f1_keywords:
+- winioctl/PREVENT_MEDIA_REMOVAL
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - PREVENT_MEDIA_REMOVAL
+- PREVENT_MEDIA_REMOVAL
 targetos: Windows
 req.typenames: PREVENT_MEDIA_REMOVAL, *PPREVENT_MEDIA_REMOVAL
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.SetValue
 title: IUIAutomationValuePattern::SetValue (uiautomationclient.h)
-
 description: Sets the value of the element.
 old-location: winauto\uiauto_IUIAutomationValuePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: 9b4caa59-bda4-4cc6-b2d8-ff47ea292746
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationValuePattern interface [Windows Accessibility],SetValue method, IUIAutomationValuePattern.SetValue, IUIAutomationValuePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationValuePattern interface, uiauto.uiauto_IUIAutomationValuePattern_SetValue, uiauto_IUIAutomationValuePattern_SetValue, uiautomationclient/IUIAutomationValuePattern::SetValue, winauto.uiauto_IUIAutomationValuePattern_SetValue
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationValuePattern.SetValue"
+f1_keywords:
+- uiautomationclient/IUIAutomationValuePattern.SetValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationValuePattern.SetValue
+- IUIAutomationValuePattern.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

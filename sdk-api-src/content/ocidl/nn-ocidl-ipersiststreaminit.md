@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPersistStreamInit
 title: IPersistStreamInit (ocidl.h)
-
 description: A replacement for IPersistStream that adds an initialization method.
 old-location: com\ipersiststreaminit.htm
 tech.root: com
 ms.assetid: 49c413b3-3523-4602-9ec1-19f4e0fe5651
-
 ms.date: 12/05/2018
 ms.keywords: IPersistStreamInit, IPersistStreamInit interface [COM], IPersistStreamInit interface [COM],described, _com_ipersiststreaminit, com.ipersiststreaminit, ocidl/IPersistStreamInit
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPersistStreamInit"
+f1_keywords:
+- ocidl/IPersistStreamInit
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPersistStreamInit
+- IPersistStreamInit
 targetos: Windows
 req.typenames: 
 req.redist: 

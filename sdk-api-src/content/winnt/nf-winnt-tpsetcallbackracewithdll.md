@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.TpSetCallbackRaceWithDll
 title: TpSetCallbackRaceWithDll function (winnt.h)
-
 description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 old-location: base\tpsetcallbackracewithdll.htm
 tech.root: ProcThread
 ms.assetid: 14519064-450C-409E-AA2D-B4EF4D43C180
-
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackRaceWithDll, TpSetCallbackRaceWithDll function, base.tpsetcallbackracewithdll, winnt/TpSetCallbackRaceWithDll
 ms.topic: function
-f1_keywords: 
- - "winnt/TpSetCallbackRaceWithDll"
+f1_keywords:
+- winnt/TpSetCallbackRaceWithDll
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - TpSetCallbackRaceWithDll
+- TpSetCallbackRaceWithDll
 targetos: Windows
 req.typenames: 
 req.redist: 

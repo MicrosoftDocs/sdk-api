@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_MaxPoolSize
 title: IServicePoolConfig::get_MaxPoolSize (comsvcs.h)
-
 description: Retrieves the maximum number of objects in the pool.
 old-location: cos\iservicepoolconfig_get_maxpoolsize.htm
 tech.root: cossdk
 ms.assetid: b9fb76d4-d153-4968-ad1c-79036b4bb8a4
-
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_MaxPoolSize method, IServicePoolConfig.get_MaxPoolSize, IServicePoolConfig::get_MaxPoolSize, comsvcs/IServicePoolConfig::get_MaxPoolSize, cos.iservicepoolconfig_get_maxpoolsize, get_MaxPoolSize, get_MaxPoolSize method [COM+], get_MaxPoolSize method [COM+],IServicePoolConfig interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePoolConfig.get_MaxPoolSize"
+f1_keywords:
+- comsvcs/IServicePoolConfig.get_MaxPoolSize
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePoolConfig.get_MaxPoolSize
+- IServicePoolConfig.get_MaxPoolSize
 targetos: Windows
 req.typenames: 
 req.redist: 

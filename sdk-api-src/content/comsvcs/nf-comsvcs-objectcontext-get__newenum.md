@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ObjectContext.get__NewEnum
 title: ObjectContext::get__NewEnum (comsvcs.h)
-
 description: Retrieves an enumerator for the named context object properties.
 old-location: cos\objectcontext_get__newenum.htm
 tech.root: cossdk
 ms.assetid: 51a0ea69-c602-41db-b3a3-2cf9643c6b3a
-
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],get__NewEnum method, ObjectContext.get__NewEnum, ObjectContext::get__NewEnum, _cos_ObjectContext_get__NewEnum, comsvcs/ObjectContext::get__NewEnum, cos.objectcontext_get__newenum, get__NewEnum, get__NewEnum method [COM+], get__NewEnum method [COM+],ObjectContext interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ObjectContext.get__NewEnum"
+f1_keywords:
+- comsvcs/ObjectContext.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectContext.get__NewEnum
+- ObjectContext.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

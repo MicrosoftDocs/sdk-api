@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingDeleteBinding
 title: TokenBindingDeleteBinding function (tokenbinding.h)
-
 description: Deletes the token binding key that is associated with the specified target string.
 old-location: security\tokenbindingdeletebinding.htm
 tech.root: SecCNG
 ms.assetid: 4258CC92-580E-403C-9AE4-4BB726255464
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingDeleteBinding, TokenBindingDeleteBinding function [Security], security.tokenbindingdeletebinding, tokenbinding/TokenBindingDeleteBinding
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingDeleteBinding"
+f1_keywords:
+- tokenbinding/TokenBindingDeleteBinding
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
+- tokenbinding.dll
 api_name:
- - TokenBindingDeleteBinding
+- TokenBindingDeleteBinding
 targetos: Windows
 req.typenames: 
 req.redist: 

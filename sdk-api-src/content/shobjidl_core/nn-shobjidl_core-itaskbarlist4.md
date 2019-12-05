@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList4
 title: ITaskbarList4 (shobjidl_core.h)
-
 description: Extends ITaskbarList3 by providing a method that allows the caller to control two property values for the tab thumbnail and peek feature.
 old-location: shell\ITaskbarList4.htm
 tech.root: shell
 ms.assetid: 7fc2c615-0bb0-4c03-9775-eee566c71088
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList4, ITaskbarList4 interface [Windows Shell], ITaskbarList4 interface [Windows Shell],described, _shell_ITaskbarList4, shell.ITaskbarList4, shobjidl_core/ITaskbarList4
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ITaskbarList4"
+f1_keywords:
+- shobjidl_core/ITaskbarList4
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList4
+- ITaskbarList4
 targetos: Windows
 req.typenames: 
 req.redist: 

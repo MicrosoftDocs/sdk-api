@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMixerControl.SetAlpha
 title: IVMRMixerControl::SetAlpha (strmif.h)
-
 description: The SetAlpha method sets a constant alpha value that is applied to this video stream.
 old-location: dshow\ivmrmixercontrol_setalpha.htm
 tech.root: DirectShow
 ms.assetid: aab95d45-b8f1-40cb-811f-c1d00aa37c97
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetAlpha method, IVMRMixerControl.SetAlpha, IVMRMixerControl::SetAlpha, IVMRMixerControlSetAlpha, SetAlpha, SetAlpha method [DirectShow], SetAlpha method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setalpha, strmif/IVMRMixerControl::SetAlpha
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerControl.SetAlpha"
+f1_keywords:
+- strmif/IVMRMixerControl.SetAlpha
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl.SetAlpha
+- IVMRMixerControl.SetAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

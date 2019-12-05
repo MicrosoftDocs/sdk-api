@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoTaskMemFree
 title: CoTaskMemFree function (combaseapi.h)
-
 description: Frees a block of task memory previously allocated through a call to the CoTaskMemAlloc or CoTaskMemRealloc function.
 old-location: com\cotaskmemfree.htm
 tech.root: com
 ms.assetid: 3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7
-
 ms.date: 12/05/2018
 ms.keywords: CoTaskMemFree, CoTaskMemFree function [COM], _com_CoTaskMemFree, com.cotaskmemfree, combaseapi/CoTaskMemFree
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoTaskMemFree"
+f1_keywords:
+- combaseapi/CoTaskMemFree
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoTaskMemFree
+- CoTaskMemFree
 targetos: Windows
 req.typenames: 
 req.redist: 

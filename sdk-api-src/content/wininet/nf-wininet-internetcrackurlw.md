@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetCrackUrlW
 title: InternetCrackUrlW function (wininet.h)
-
 description: Cracks a URL into its component parts.
 old-location: wininet\internetcrackurl.htm
 tech.root: wininet
 ms.assetid: 30677071-3eb2-4d9c-a0a3-ff11a077f98a
-
 ms.date: 12/05/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, InternetCrackUrl, InternetCrackUrl function [WinINet], InternetCrackUrlA, InternetCrackUrlW, _inet_internetcrackurl_function, wininet.internetcrackurl, wininet/InternetCrackUrl, wininet/InternetCrackUrlA, wininet/InternetCrackUrlW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetCrackUrl"
+f1_keywords:
+- wininet/InternetCrackUrl
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetCrackUrl
- - InternetCrackUrlA
- - InternetCrackUrlW
+- InternetCrackUrl
+- InternetCrackUrlA
+- InternetCrackUrlW
 targetos: Windows
 req.typenames: 
 req.redist: 

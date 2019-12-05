@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Ex.CheckDeviceState
 title: IDirect3DDevice9Ex::CheckDeviceState (d3d9.h)
-
 description: Reports the current cooperative-level status of the Direct3D device for a windowed or full-screen application.
 old-location: direct3d9\idirect3ddevice9ex_checkdevicestate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9ex_checkdevicestate.htm
-
 ms.date: 12/05/2018
 ms.keywords: 7c555cdc-567a-be2d-d677-3b3df3746e0b, CheckDeviceState, CheckDeviceState method [Direct3D 9], CheckDeviceState method [Direct3D 9],IDirect3DDevice9Ex interface, IDirect3DDevice9Ex interface [Direct3D 9],CheckDeviceState method, IDirect3DDevice9Ex.CheckDeviceState, IDirect3DDevice9Ex::CheckDeviceState, d3d9/IDirect3DDevice9Ex::CheckDeviceState, direct3d9.idirect3ddevice9ex_checkdevicestate
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Ex.CheckDeviceState"
+f1_keywords:
+- d3d9/IDirect3DDevice9Ex.CheckDeviceState
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9Ex.CheckDeviceState
+- IDirect3DDevice9Ex.CheckDeviceState
 targetos: Windows
 req.typenames: 
 req.redist: 

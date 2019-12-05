@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2NearEqual
 title: XMVector2NearEqual function (directxmath.h)
-
 description: Tests whether one 2D vector is near another 2D vector.
 old-location: dxmath\xmvector2nearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2NearEqual(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2NearEqual, XMVector2NearEqual, XMVector2NearEqual method [DirectX Math Support APIs], dxmath.xmvector2nearequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2NearEqual"
+f1_keywords:
+- directxmath/XMVector2NearEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2NearEqual
+- XMVector2NearEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

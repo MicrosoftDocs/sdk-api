@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgIsStorageILockBytes
 title: StgIsStorageILockBytes function (coml2api.h)
-
 description: The StgIsStorageILockBytes function indicates whether the specified byte array contains a storage object.
 old-location: stg\stgisstorageilockbytes.htm
 tech.root: Stg
 ms.assetid: ce0e29fd-1b21-4064-8e37-1a5d5df8bb61
-
 ms.date: 12/05/2018
 ms.keywords: StgIsStorageILockBytes, StgIsStorageILockBytes function [Structured Storage], _stg_stgisstorageilockbytes, coml2api/StgIsStorageILockBytes, stg.stgisstorageilockbytes
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgIsStorageILockBytes"
+f1_keywords:
+- coml2api/StgIsStorageILockBytes
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - StgIsStorageILockBytes
+- StgIsStorageILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

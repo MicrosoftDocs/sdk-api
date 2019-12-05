@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetHomeDirectory
 title: SymGetHomeDirectory function (dbghelp.h)
-
 description: Retrieves the home directory used by Dbghelp.
 old-location: base\symgethomedirectory.htm
 tech.root: Debug
 ms.assetid: 490de8cd-2738-4770-b708-fa2d61b83587
-
 ms.date: 12/05/2018
 ms.keywords: SymGetHomeDirectory, SymGetHomeDirectory function, SymGetHomeDirectoryW, base.symgethomedirectory, dbghelp/SymGetHomeDirectory, dbghelp/SymGetHomeDirectoryW, hdBase, hdSrc, hdSym
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetHomeDirectory"
+f1_keywords:
+- dbghelp/SymGetHomeDirectory
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetHomeDirectory
- - SymGetHomeDirectory
- - SymGetHomeDirectoryW
+- SymGetHomeDirectory
+- SymGetHomeDirectory
+- SymGetHomeDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.1 or later

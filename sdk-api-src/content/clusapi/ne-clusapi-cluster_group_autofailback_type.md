@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_GROUP_AUTOFAILBACK_TYPE
 title: CLUSTER_GROUP_AUTOFAILBACK_TYPE (clusapi.h)
-
 description: Used by the AutoFailbackType group common property to specify whether the group should be failed back to the node identified as its preferred owner when that node comes back online following a failover.
 old-location: mscs\cluster_group_autofailback_type.htm
 tech.root: MsCS
 ms.assetid: d7ba9298-25fc-454b-8583-196f84622cc5
-
 ms.date: 12/05/2018
 ms.keywords: CGAFT, CGAFT enumeration [Failover Cluster], CLUSTER_GROUP_AUTOFAILBACK_TYPE, CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster], ClusterGroupAllowFailback, ClusterGroupFailbackTypeCount, ClusterGroupPreventFailback, _CLUSTER_GROUP_AUTOFAILBACK_TYPE, _CLUSTER_GROUP_AUTOFAILBACK_TYPE enumeration [Failover Cluster], clusapi/CGAFT, clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE, clusapi/ClusterGroupAllowFailback, clusapi/ClusterGroupFailbackTypeCount, clusapi/ClusterGroupPreventFailback, clusapi/_CLUSTER_GROUP_AUTOFAILBACK_TYPE, msclus/CGAFT, msclus/CLUSTER_GROUP_AUTOFAILBACK_TYPE, msclus/ClusterGroupAllowFailback, msclus/ClusterGroupFailbackTypeCount, msclus/ClusterGroupPreventFailback, msclus/_CLUSTER_GROUP_AUTOFAILBACK_TYPE, mscs.cluster_group_autofailback_type
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE"
+f1_keywords:
+- clusapi/CLUSTER_GROUP_AUTOFAILBACK_TYPE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_GROUP_AUTOFAILBACK_TYPE
+- CLUSTER_GROUP_AUTOFAILBACK_TYPE
 targetos: Windows
 req.typenames: CLUSTER_GROUP_AUTOFAILBACK_TYPE, CGAFT
 req.redist: 

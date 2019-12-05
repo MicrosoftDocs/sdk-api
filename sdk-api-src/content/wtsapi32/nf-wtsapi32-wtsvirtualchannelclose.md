@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelClose
 title: WTSVirtualChannelClose function (wtsapi32.h)
-
 description: Closes an open virtual channel handle.
 old-location: termserv\wtsvirtualchannelclose.htm
 tech.root: TermServ
 ms.assetid: d82cb1cd-a9bd-45e8-8a86-2c7dd860b987
-
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualChannelClose, WTSVirtualChannelClose function [Remote Desktop Services], _win32_wtsvirtualchannelclose, termserv.wtsvirtualchannelclose, wtsapi32/WTSVirtualChannelClose
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSVirtualChannelClose"
+f1_keywords:
+- wtsapi32/WTSVirtualChannelClose
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
- - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+- Wtsapi32.dll
+- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSVirtualChannelClose
+- WTSVirtualChannelClose
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetVersionNumber
 title: ISCTE_EAS::GetVersionNumber (atscpsipparser.h)
-
 description: The GetVersionNumber method returns the version number for the EAS table.
 old-location: mstv\iscte_eas_getversionnumber.htm
 tech.root: mstv
 ms.assetid: b2108435-37ef-404c-b735-a5100acfa8a4
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetVersionNumber method, ISCTE_EAS.GetVersionNumber, ISCTE_EAS::GetVersionNumber, ISCTE_EASGetVersionNumber, atscpsipparser/ISCTE_EAS::GetVersionNumber, mstv.iscte_eas_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetVersionNumber"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetVersionNumber
+- ISCTE_EAS.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

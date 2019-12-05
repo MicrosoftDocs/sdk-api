@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.GetFamilies
 title: FontCollection::GetFamilies (gdiplusheaders.h)
-
 description: The FontCollection::GetFamilies method gets the font families contained in this font collection.
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getfamilies.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontCollection class [GDI+],GetFamilies method, FontCollection.GetFamilies, FontCollection::GetFamilies, GetFamilies, GetFamilies method [GDI+], GetFamilies method [GDI+],FontCollection class, _gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_, gdiplus._gdiplus_CLASS_FontCollection_GetFamilies_numSought_gpfamilies_numFound_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontCollection.GetFamilies"
+f1_keywords:
+- gdiplusheaders/FontCollection.GetFamilies
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontCollection.GetFamilies
+- FontCollection.GetFamilies
 targetos: Windows
 req.typenames: 
 req.redist: 

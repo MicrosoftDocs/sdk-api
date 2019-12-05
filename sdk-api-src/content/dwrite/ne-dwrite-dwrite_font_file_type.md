@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_FILE_TYPE
 title: DWRITE_FONT_FILE_TYPE (dwrite.h)
-
 description: The type of a font represented by a single font file. Font formats that consist of multiple files, for example Type 1 .PFM and .PFB, have separate enum values for each of the file types.
 old-location: directwrite\dwrite_font_file_type.htm
 tech.root: DirectWrite
 ms.assetid: 04db41a6-b08b-4d01-a878-c05c0f1f2d9c
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_FONT_FILE_TYPE, DWRITE_FONT_FILE_TYPE enumeration [Direct Write], DWRITE_FONT_FILE_TYPE_BITMAP, DWRITE_FONT_FILE_TYPE_CFF, DWRITE_FONT_FILE_TYPE_TRUETYPE, DWRITE_FONT_FILE_TYPE_TRUETYPE_COLLECTION, DWRITE_FONT_FILE_TYPE_TYPE1_PFB, DWRITE_FONT_FILE_TYPE_TYPE1_PFM, DWRITE_FONT_FILE_TYPE_UNKNOWN, DWRITE_FONT_FILE_TYPE_VECTOR, directwrite.dwrite_font_file_type, dwrite/DWRITE_FONT_FILE_TYPE, dwrite/DWRITE_FONT_FILE_TYPE_BITMAP, dwrite/DWRITE_FONT_FILE_TYPE_CFF, dwrite/DWRITE_FONT_FILE_TYPE_TRUETYPE, dwrite/DWRITE_FONT_FILE_TYPE_TRUETYPE_COLLECTION, dwrite/DWRITE_FONT_FILE_TYPE_TYPE1_PFB, dwrite/DWRITE_FONT_FILE_TYPE_TYPE1_PFM, dwrite/DWRITE_FONT_FILE_TYPE_UNKNOWN, dwrite/DWRITE_FONT_FILE_TYPE_VECTOR
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_FONT_FILE_TYPE"
+f1_keywords:
+- dwrite/DWRITE_FONT_FILE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_FONT_FILE_TYPE
+- DWRITE_FONT_FILE_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBBYGUID
 title: DBBYGUID (cmdtree.h)
-
 description: The DBBYGUID structure supplies supplementary information for a node.
 old-location: indexsrv\dbbyguid.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_32xw.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBBYGUID, DBBYGUID structure [Indexing Service], _idxs_DBBYGUID, cmdtree/DBBYGUID, indexsrv.dbbyguid, tagDBBYGUID
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBBYGUID"
+f1_keywords:
+- cmdtree/DBBYGUID
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBBYGUID
+- DBBYGUID
 targetos: Windows
 req.typenames: DBBYGUID
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateLockdown
 title: IUpdateLockdown (wuapi.h)
-
 description: Restricts access to methods and properties of objects that implements the method of this interface.
 old-location: wua\iupdatelockdown.htm
 tech.root: Wua_Sdk
 ms.assetid: 918a46f5-a1da-4f47-84f1-b715fc97bb8f
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateLockdown, IUpdateLockdown interface [Windows Update Agent], IUpdateLockdown interface [Windows Update Agent],described, wua.iupdatelockdown, wuapi/IUpdateLockdown
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateLockdown"
+f1_keywords:
+- wuapi/IUpdateLockdown
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateLockdown
+- IUpdateLockdown
 targetos: Windows
 req.typenames: 
 req.redist: 

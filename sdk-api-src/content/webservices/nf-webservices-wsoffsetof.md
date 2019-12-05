@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsOffsetOf
 title: WsOffsetOf macro (webservices.h)
-
 description: Returns the offset in bytes of a field within a structure given the names of the structure and field.
 old-location: wsw\wsoffsetof.htm
 tech.root: wsw
 ms.assetid: a3965e97-c818-4dd3-95e7-60a844181b96
-
 ms.date: 12/05/2018
 ms.keywords: WsOffsetOf, WsOffsetOf macro [Web Services for Windows], webservices/WsOffsetOf, wsw.wsoffsetof
 ms.topic: macro
-f1_keywords: 
- - "webservices/WsOffsetOf"
+f1_keywords:
+- webservices/WsOffsetOf
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WsOffsetOf
+- WsOffsetOf
 targetos: Windows
 req.typenames: 
 req.redist: 

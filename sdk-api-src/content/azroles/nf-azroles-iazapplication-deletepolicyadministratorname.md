@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyAdministratorName
 title: IAzApplication::DeletePolicyAdministratorName (azroles.h)
-
 description: Removes the specified account name from the list of principals that act as policy administrators.
 old-location: security\iazapplication_deletepolicyadministratorname.htm
 tech.root: SecAuthZ
 ms.assetid: 6da92103-6de0-4310-b52c-c1441e775da8
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeletePolicyAdministratorName method, DeletePolicyAdministratorName, DeletePolicyAdministratorName method [Security], DeletePolicyAdministratorName method [Security],AzApplication object, DeletePolicyAdministratorName method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyAdministratorName method, IAzApplication.DeletePolicyAdministratorName, IAzApplication::DeletePolicyAdministratorName, azroles/IAzApplication::DeletePolicyAdministratorName, security.iazapplication_deletepolicyadministratorname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.DeletePolicyAdministratorName"
+f1_keywords:
+- azroles/IAzApplication.DeletePolicyAdministratorName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.DeletePolicyAdministratorName
- - AzApplication.DeletePolicyAdministratorName
+- IAzApplication.DeletePolicyAdministratorName
+- AzApplication.DeletePolicyAdministratorName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

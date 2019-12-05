@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_FIND_RADIO_PARAMS
 title: BLUETOOTH_FIND_RADIO_PARAMS (bluetoothapis.h)
-
 description: The BLUETOOTH_FIND_RADIO_PARAMS structure facilitates enumerating installed Bluetooth radios.
 old-location: bluetooth\bluetooth_find_radio_params.htm
 tech.root: bluetooth
 ms.assetid: b997203d-e7e4-43aa-b751-e419483020ac
-
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_FIND_RADIO_PARAMS, BLUETOOTH_FIND_RADIO_PARAMS structure [Bluetooth], bluetooth.bluetooth_find_radio_params, bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_FIND_RADIO_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_FIND_RADIO_PARAMS
+- BLUETOOTH_FIND_RADIO_PARAMS
 targetos: Windows
 req.typenames: BLUETOOTH_FIND_RADIO_PARAMS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptSignMessage
 title: CryptSignMessage function (wincrypt.h)
-
 description: The CryptSignMessage function creates a hash of the specified content, signs the hash, and then encodes both the original message content and the signed hash.
 old-location: security\cryptsignmessage.htm
 tech.root: SecCrypto
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
-
 ms.date: 12/05/2018
 ms.keywords: CryptSignMessage, CryptSignMessage function [Security], _crypto2_cryptsignmessage, security.cryptsignmessage, wincrypt/CryptSignMessage
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptSignMessage
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

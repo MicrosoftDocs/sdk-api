@@ -1,19 +1,17 @@
 ---
 UID: NS:ntmsapi._NTMS_CHANGERINFORMATIONW
 title: NTMS_CHANGERINFORMATIONW (ntmsapi.h)
-
 description: The NTMS_CHANGERINFORMATION structure defines properties specific to a robotic changer object.
 old-location: fs\ntms_changerinformation.htm
 tech.root: Rsm
 ms.assetid: 2aa9fccf-dea3-4fa3-9fbf-6d83770c3893
-
 ms.date: 12/05/2018
 ms.keywords: NTMS_CHANGERINFORMATION, NTMS_CHANGERINFORMATION structure [Files], NTMS_CHANGERINFORMATIONA, NTMS_CHANGERINFORMATIONW, _NTMS_CHANGERINFORMATIONA, _NTMS_CHANGERINFORMATIONW, _zaw_ntms_changerinformation, base.ntms_changerinformation, fs.ntms_changerinformation, ntmsapi/NTMS_CHANGERINFORMATION
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_CHANGERINFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

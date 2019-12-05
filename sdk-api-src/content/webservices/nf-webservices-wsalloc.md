@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAlloc
 title: WsAlloc function (webservices.h)
-
 description: Allocates a segment of memory from the specified heap.
 old-location: wsw\wsalloc.htm
 tech.root: wsw
 ms.assetid: 633b6a11-09ba-48a7-a1ad-940846c65d79
-
 ms.date: 12/05/2018
 ms.keywords: WsAlloc, WsAlloc function [Web Services for Windows], webservices/WsAlloc, wsw.wsalloc
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAlloc"
+f1_keywords:
+- webservices/WsAlloc
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAlloc
+- WsAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

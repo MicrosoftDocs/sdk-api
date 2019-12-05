@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._CSFV
 title: CSFV (shlobj_core.h)
-
 description: Used with the SHCreateShellFolderViewEx function.
 old-location: shell\CSFV.htm
 tech.root: shell
 ms.assetid: 9ec22fd4-1562-4ef0-b932-ebbf06082807
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCSFV, CSFV, CSFV structure [Windows Shell], LPCSFV, LPCSFV structure pointer [Windows Shell], _CSFV, _win32_CSFV, shell.CSFV, shlobj_core/CSFV, shlobj_core/LPCSFV"
+ms.keywords: '*LPCSFV, CSFV, CSFV structure [Windows Shell], LPCSFV, LPCSFV structure pointer [Windows Shell], _CSFV, _win32_CSFV, shell.CSFV, shlobj_core/CSFV, shlobj_core/LPCSFV'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/CSFV"
+f1_keywords:
+- shlobj_core/CSFV
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - CSFV
+- CSFV
 targetos: Windows
 req.typenames: CSFV, *LPCSFV
 req.redist: 

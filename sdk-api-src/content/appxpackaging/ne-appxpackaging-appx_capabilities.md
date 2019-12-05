@@ -1,19 +1,17 @@
 ---
 UID: NE:appxpackaging.APPX_CAPABILITIES
 title: APPX_CAPABILITIES (appxpackaging.h)
-
 description: Specifies the capabilities or privileges requested by a package.
 old-location: appxpkg\appx_capabilities.htm
 tech.root: appxpkg
 ms.assetid: 4912BCB0-424B-40F9-BBD1-3AD0A60B3320
-
 ms.date: 12/05/2018
 ms.keywords: APPX_CAPABILITIES, APPX_CAPABILITIES enumeration [App packaging and management], APPX_CAPABILITY_DOCUMENTS_LIBRARY, APPX_CAPABILITY_ENTERPRISE_AUTHENTICATION, APPX_CAPABILITY_INTERNET_CLIENT, APPX_CAPABILITY_INTERNET_CLIENT_SERVER, APPX_CAPABILITY_MUSIC_LIBRARY, APPX_CAPABILITY_PICTURES_LIBRARY, APPX_CAPABILITY_PRIVATE_NETWORK_CLIENT_SERVER, APPX_CAPABILITY_REMOVABLE_STORAGE, APPX_CAPABILITY_SHARED_USER_CERTIFICATES, APPX_CAPABILITY_VIDEOS_LIBRARY, appxpackaging/APPX_CAPABILITIES, appxpackaging/APPX_CAPABILITY_DOCUMENTS_LIBRARY, appxpackaging/APPX_CAPABILITY_ENTERPRISE_AUTHENTICATION, appxpackaging/APPX_CAPABILITY_INTERNET_CLIENT, appxpackaging/APPX_CAPABILITY_INTERNET_CLIENT_SERVER, appxpackaging/APPX_CAPABILITY_MUSIC_LIBRARY, appxpackaging/APPX_CAPABILITY_PICTURES_LIBRARY, appxpackaging/APPX_CAPABILITY_PRIVATE_NETWORK_CLIENT_SERVER, appxpackaging/APPX_CAPABILITY_REMOVABLE_STORAGE, appxpackaging/APPX_CAPABILITY_SHARED_USER_CERTIFICATES, appxpackaging/APPX_CAPABILITY_VIDEOS_LIBRARY, appxpkg.appx_capabilities
 ms.topic: enum
-f1_keywords: 
- - "appxpackaging/APPX_CAPABILITIES"
+f1_keywords:
+- appxpackaging/APPX_CAPABILITIES
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_CAPABILITIES
+- APPX_CAPABILITIES
 targetos: Windows
 req.typenames: APPX_CAPABILITIES
 req.redist: 

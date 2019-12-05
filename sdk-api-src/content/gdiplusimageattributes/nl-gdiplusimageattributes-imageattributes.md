@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusimageattributes.ImageAttributes
 title: ImageAttributes (gdiplusimageattributes.h)
-
 description: An ImageAttributes object contains information about how bitmap and metafile colors are manipulated during rendering.
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributes.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageAttributes, ImageAttributes class [GDI+], ImageAttributes class [GDI+],described, _gdiplus_CLASS_ImageAttributes_Class, gdiplus._gdiplus_CLASS_ImageAttributes_Class, gdiplusimageattributes/ImageAttributes
 ms.topic: class
-f1_keywords: 
- - "gdiplusimageattributes/ImageAttributes"
+f1_keywords:
+- gdiplusimageattributes/ImageAttributes
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimageattributes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusimageattributes.h
+- gdiplusimageattributes.h
 api_name:
- - ImageAttributes
+- ImageAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

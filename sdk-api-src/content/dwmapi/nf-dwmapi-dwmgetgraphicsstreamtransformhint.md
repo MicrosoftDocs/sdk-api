@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmGetGraphicsStreamTransformHint
 title: DwmGetGraphicsStreamTransformHint function (dwmapi.h)
-
 description: This function is not implemented.
 old-location: dwm\dwmgetgraphicsstreamtransformhint.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetgraphicsstreamtransformhint.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmGetGraphicsStreamTransformHint, DwmGetGraphicsStreamTransformHint function [Desktop Window Manager], _udwm_dwmgetgraphicsstreamtransformhint, _udwm_dwmgetgraphicsstreamtransformhint_cpp, dwm.dwmgetgraphicsstreamtransformhint, dwmapi/DwmGetGraphicsStreamTransformHint, winui._udwm_dwmgetgraphicsstreamtransformhint
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmGetGraphicsStreamTransformHint"
+f1_keywords:
+- dwmapi/DwmGetGraphicsStreamTransformHint
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
+- Dwmapi.dll
 api_name:
- - DwmGetGraphicsStreamTransformHint
+- DwmGetGraphicsStreamTransformHint
 targetos: Windows
 req.typenames: 
 req.redist: 

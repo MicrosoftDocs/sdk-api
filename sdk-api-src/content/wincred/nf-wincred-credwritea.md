@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredWriteA
 title: CredWriteA function (wincred.h)
-
 description: Creates a new credential or modifies an existing credential in the user's credential set.
 old-location: security\credwrite.htm
 tech.root: SecAuthN
 ms.assetid: 9a590347-d610-4916-bf63-60fbec173ac2
-
 ms.date: 12/05/2018
 ms.keywords: CRED_PRESERVE_CREDENTIAL_BLOB, CredWrite, CredWrite function [Security], CredWriteA, CredWriteW, _cred_credwrite, security.credwrite, wincred/CredWrite, wincred/CredWriteA, wincred/CredWriteW
 ms.topic: function
 f1_keywords:
 - wincred/CredWrite
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetComponent
 title: IVssExamineWriterMetadata::GetComponent (vsbackup.h)
-
 description: The GetComponent method obtains a Writer Metadata Document for a specified backup component.
 old-location: base\ivssexaminewritermetadata_getcomponent.htm
 tech.root: VSS
 ms.assetid: fd03ac7c-8398-4972-85f1-2afe13317950
-
 ms.date: 12/05/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetComponent method, IVssExamineWriterMetadata.GetComponent, IVssExamineWriterMetadata::GetComponent, _win32_ivssexaminewritermetadata_getcomponent, base.ivssexaminewritermetadata_getcomponent, vsbackup/IVssExamineWriterMetadata::GetComponent
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadata.GetComponent"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadata.GetComponent
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.GetComponent
+- IVssExamineWriterMetadata.GetComponent
 targetos: Windows
 req.typenames: 
 req.redist: 

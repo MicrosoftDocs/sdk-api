@@ -1,19 +1,17 @@
 ---
 UID: NE:evr.MFVP_MESSAGE_TYPE
 title: MFVP_MESSAGE_TYPE (evr.h)
-
 description: Defines messages for an enhanced video renderer (EVR) presenter.
 old-location: mf\mfvp_message_type.htm
 tech.root: medfound
 ms.assetid: 71b92702-79a0-4c18-bb56-5e7c9e49cad2
-
 ms.date: 12/05/2018
 ms.keywords: 71b92702-79a0-4c18-bb56-5e7c9e49cad2, MFVP_MESSAGE_BEGINSTREAMING, MFVP_MESSAGE_CANCELSTEP, MFVP_MESSAGE_ENDOFSTREAM, MFVP_MESSAGE_ENDSTREAMING, MFVP_MESSAGE_FLUSH, MFVP_MESSAGE_INVALIDATEMEDIATYPE, MFVP_MESSAGE_PROCESSINPUTNOTIFY, MFVP_MESSAGE_STEP, MFVP_MESSAGE_TYPE, MFVP_MESSAGE_TYPE enumeration [Media Foundation], evr/MFVP_MESSAGE_BEGINSTREAMING, evr/MFVP_MESSAGE_CANCELSTEP, evr/MFVP_MESSAGE_ENDOFSTREAM, evr/MFVP_MESSAGE_ENDSTREAMING, evr/MFVP_MESSAGE_FLUSH, evr/MFVP_MESSAGE_INVALIDATEMEDIATYPE, evr/MFVP_MESSAGE_PROCESSINPUTNOTIFY, evr/MFVP_MESSAGE_STEP, evr/MFVP_MESSAGE_TYPE, mf.mfvp_message_type
 ms.topic: enum
-f1_keywords: 
- - "evr/MFVP_MESSAGE_TYPE"
+f1_keywords:
+- evr/MFVP_MESSAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFVP_MESSAGE_TYPE
+- MFVP_MESSAGE_TYPE
 targetos: Windows
 req.typenames: MFVP_MESSAGE_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITrigger.put_Enabled
 title: ITrigger::put_Enabled (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates whether the trigger is enabled.
 old-location: taskschd\itrigger_enabled.htm
 tech.root: taskschd
 ms.assetid: 20300470-e434-4296-b3e2-98c65b16e9f2
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],Enabled property, ITrigger.Enabled, ITrigger.put_Enabled, ITrigger::Enabled, ITrigger::get_Enabled, ITrigger::put_Enabled, put_Enabled, taskschd.itrigger_enabled, taskschd/ITrigger::Enabled, taskschd/ITrigger::get_Enabled, taskschd/ITrigger::put_Enabled
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITrigger.Enabled"
+f1_keywords:
+- taskschd/ITrigger.Enabled
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITrigger.Enabled
- - ITrigger.get_Enabled
- - ITrigger.put_Enabled
+- ITrigger.Enabled
+- ITrigger.get_Enabled
+- ITrigger.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

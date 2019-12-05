@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Property_Keys
 title: CM_Get_Class_Property_Keys function (cfgmgr32.h)
-
 description: The CM_Get_Class_Property_Keys function retrieves an array of the device property keys that represent the device properties that are set for a device interface class or device setup class.
 old-location: devinst\cm_get_class_property_keys.htm
 tech.root: devinst
 ms.assetid: D226EB4B-40F5-485D-9D58-642B6AE7B482
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Class_Property_Keys, CM_Get_Class_Property_Keys function [Device and Driver Installation], cfgmgr32/CM_Get_Class_Property_Keys, devinst.cm_get_class_property_keys
 ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Class_Property_Keys
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

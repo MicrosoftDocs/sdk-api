@@ -1,19 +1,17 @@
 ---
 UID: NN:shlwapi.IQueryAssociations
 title: IQueryAssociations (shlwapi.h)
-
 description: Exposes methods that simplify the process of retrieving information stored in the registry in association with defining a file type or protocol and associating it with an application.
 old-location: shell\IQueryAssociations.htm
 tech.root: shell
 ms.assetid: 8edb99d3-5860-4d78-a750-1df34cdfc313
-
 ms.date: 12/05/2018
 ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], IQueryAssociations interface [Windows Shell],described, _win32_IQueryAssociations, shell.IQueryAssociations, shlwapi/IQueryAssociations
 ms.topic: interface
-f1_keywords: 
- - "shlwapi/IQueryAssociations"
+f1_keywords:
+- shlwapi/IQueryAssociations
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IQueryAssociations
+- IQueryAssociations
 targetos: Windows
 req.typenames: 
 req.redist: 

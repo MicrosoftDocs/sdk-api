@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob2.get_HasCoverPage
 title: IFaxOutgoingJob2::get_HasCoverPage (faxcomex.h)
-
 description: Specifies if the fax has a cover page.
 old-location: fax\_mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_hascoverpage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingjob2\hascoverpage.htm
-
 ms.date: 12/05/2018
 ms.keywords: HasCoverPage property [Fax Service], HasCoverPage property [Fax Service],IFaxOutgoingJob2 interface, IFaxOutgoingJob2 interface [Fax Service],HasCoverPage property, IFaxOutgoingJob2.HasCoverPage, IFaxOutgoingJob2.get_HasCoverPage, IFaxOutgoingJob2::HasCoverPage, IFaxOutgoingJob2::get_HasCoverPage, _mfax_faxoutgoingjob.hascoverpage, fax._mfax_faxoutgoingjob2_cpp_mfax_faxoutgoingjob_hascoverpage_cpp, fax._mfax_faxoutgoingjob_hascoverpage, faxcomex/IFaxOutgoingJob2::HasCoverPage, faxcomex/IFaxOutgoingJob2::get_HasCoverPage, get_HasCoverPage
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob2.HasCoverPage"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob2.HasCoverPage
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob2.HasCoverPage
- - IFaxOutgoingJob2.get_HasCoverPage
- - IFaxOutgoingJob2.get_HasCoverPage
+- IFaxOutgoingJob2.HasCoverPage
+- IFaxOutgoingJob2.get_HasCoverPage
+- IFaxOutgoingJob2.get_HasCoverPage
 targetos: Windows
 req.typenames: 
 req.redist: 

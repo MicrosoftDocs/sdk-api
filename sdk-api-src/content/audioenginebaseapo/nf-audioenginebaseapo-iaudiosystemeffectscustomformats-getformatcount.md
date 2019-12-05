@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatCount
 title: IAudioSystemEffectsCustomFormats::GetFormatCount (audioenginebaseapo.h)
-
 description: The GetFormatCount method retrieves the number of custom formats supported by the system effects audio processing object (sAPO).
 old-location: audio\iaudiosystemeffectscustomformats_getformatcount.htm
 tech.root: audio
 ms.assetid: 70d215e5-e30a-4fbd-b9c3-c988c6bbd941
-
 ms.date: 12/05/2018
 ms.keywords: GetFormatCount, GetFormatCount method [Audio Devices], GetFormatCount method [Audio Devices],IAudioSystemEffectsCustomFormats interface, IAudioSystemEffectsCustomFormats interface [Audio Devices],GetFormatCount method, IAudioSystemEffectsCustomFormats.GetFormatCount, IAudioSystemEffectsCustomFormats::GetFormatCount, audio.iaudiosystemeffectscustomformats_getformatcount, audio_syseffects_r_1f186185-3eb9-4683-a2e1-bbcc9598943d.xml, audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatCount
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatCount"
+f1_keywords:
+- audioenginebaseapo/IAudioSystemEffectsCustomFormats.GetFormatCount
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: Audioenginebaseapo.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: All levels.
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioenginebaseapo.h
+- audioenginebaseapo.h
 api_name:
- - IAudioSystemEffectsCustomFormats.GetFormatCount
+- IAudioSystemEffectsCustomFormats.GetFormatCount
 targetos: Windows
 req.typenames: 
 req.redist: 

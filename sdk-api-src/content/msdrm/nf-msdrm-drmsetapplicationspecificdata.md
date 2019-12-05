@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMSetApplicationSpecificData
 title: DRMSetApplicationSpecificData function (msdrm.h)
-
 description: Allows an issuance license to store arbitrary name-value pairs for use by the content-consuming application.
 old-location: rm\drmsetapplicationspecificdata.htm
 tech.root: AdRms_Sdk
 ms.assetid: 659b2d73-1160-4e5a-8779-4bb272653c54
-
 ms.date: 12/05/2018
 ms.keywords: DRMSetApplicationSpecificData, DRMSetApplicationSpecificData function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMSetApplicationSpecificData, rm.drmsetapplicationspecificdata
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMSetApplicationSpecificData"
+f1_keywords:
+- msdrm/DRMSetApplicationSpecificData
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMSetApplicationSpecificData
+- DRMSetApplicationSpecificData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemAddedToCache
 title: IOfflineFilesEvents::ItemAddedToCache (cscobj.h)
-
 description: Reports that an item has been added to the Offline Files cache.
 old-location: of\iofflinefilesevents_itemaddedtocache.htm
 tech.root: offlinefiles
 ms.assetid: 7ab04b07-f72a-4a04-a470-4b85c21005c0
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemAddedToCache method, IOfflineFilesEvents.ItemAddedToCache, IOfflineFilesEvents::ItemAddedToCache, ItemAddedToCache, ItemAddedToCache method [Offline Files], ItemAddedToCache method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemAddedToCache, of.iofflinefilesevents_itemaddedtocache
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.ItemAddedToCache"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.ItemAddedToCache
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.ItemAddedToCache
+- IOfflineFilesEvents.ItemAddedToCache
 targetos: Windows
 req.typenames: 
 req.redist: 

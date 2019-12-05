@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISystemAppEventData
 title: ISystemAppEventData (comsvcs.h)
-
 description: Notifies the subscriber when a COM+ application instance is created or reconfigured.
 old-location: cos\isystemappeventdata.htm
 tech.root: cossdk
 ms.assetid: fd88641e-e0ce-44b7-b8b6-59791be48026
-
 ms.date: 12/05/2018
 ms.keywords: ISystemAppEventData, ISystemAppEventData interface [COM+], ISystemAppEventData interface [COM+],described, _dtc_ISystemAppEventData, comsvcs/ISystemAppEventData, cos.isystemappeventdata
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISystemAppEventData"
+f1_keywords:
+- comsvcs/ISystemAppEventData
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISystemAppEventData
+- ISystemAppEventData
 targetos: Windows
 req.typenames: 
 req.redist: 

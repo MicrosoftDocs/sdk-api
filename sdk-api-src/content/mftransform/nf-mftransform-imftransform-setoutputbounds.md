@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.SetOutputBounds
 title: IMFTransform::SetOutputBounds (mftransform.h)
-
 description: Sets the range of time stamps the client needs for output.
 old-location: mf\imftransform_setoutputbounds.htm
 tech.root: medfound
 ms.assetid: 045f2f16-3f32-4cc4-9052-424f32274f34
-
 ms.date: 12/05/2018
 ms.keywords: 045f2f16-3f32-4cc4-9052-424f32274f34, IMFTransform interface [Media Foundation],SetOutputBounds method, IMFTransform.SetOutputBounds, IMFTransform::SetOutputBounds, SetOutputBounds, SetOutputBounds method [Media Foundation], SetOutputBounds method [Media Foundation],IMFTransform interface, mf.imftransform_setoutputbounds, mftransform/IMFTransform::SetOutputBounds
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.SetOutputBounds"
+f1_keywords:
+- mftransform/IMFTransform.SetOutputBounds
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.SetOutputBounds
+- IMFTransform.SetOutputBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

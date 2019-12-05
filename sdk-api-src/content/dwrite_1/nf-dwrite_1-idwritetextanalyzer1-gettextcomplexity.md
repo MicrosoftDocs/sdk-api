@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetTextComplexity
 title: IDWriteTextAnalyzer1::GetTextComplexity (dwrite_1.h)
-
 description: Determines the complexity of text, and whether you need to call IDWriteTextAnalyzer::GetGlyphs for full script shaping.
 old-location: directwrite\idwritetextanalyzer1_gettextcomplexity.htm
 tech.root: DirectWrite
 ms.assetid: EC9364F7-4A00-4DEE-B51A-F26FBBA5683F
-
 ms.date: 12/05/2018
 ms.keywords: GetTextComplexity, GetTextComplexity method [Direct Write], GetTextComplexity method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetTextComplexity method, IDWriteTextAnalyzer1.GetTextComplexity, IDWriteTextAnalyzer1::GetTextComplexity, directwrite.idwritetextanalyzer1_gettextcomplexity, dwrite_1/IDWriteTextAnalyzer1::GetTextComplexity
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextAnalyzer1.GetTextComplexity"
+f1_keywords:
+- dwrite_1/IDWriteTextAnalyzer1.GetTextComplexity
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer1.GetTextComplexity
+- IDWriteTextAnalyzer1.GetTextComplexity
 targetos: Windows
 req.typenames: 
 req.redist: 

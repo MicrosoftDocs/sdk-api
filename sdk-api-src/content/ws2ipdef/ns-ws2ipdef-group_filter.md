@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.group_filter
 title: GROUP_FILTER (ws2ipdef.h)
-
 description: Provides multicast filtering parameters for multicast IPv6 or IPv4 addresses.
 old-location: winsock\group_filter.htm
 tech.root: WinSock
 ms.assetid: 09aa1f67-c858-4bef-9a98-ce25ebcc1d4e
-
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER"
+ms.keywords: '*PGROUP_FILTER, GROUP_FILTER, GROUP_FILTER structure [Winsock], MCAST_EXCLUDE, MCAST_INCLUDE, PGROUP_FILTER, PGROUP_FILTER structure pointer [Winsock], winsock.group_filter, ws2ipdef/GROUP_FILTER, ws2ipdef/PGROUP_FILTER'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/GROUP_FILTER"
+f1_keywords:
+- ws2ipdef/GROUP_FILTER
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
+- Ws2ipdef.h
 api_name:
- - GROUP_FILTER
+- GROUP_FILTER
 targetos: Windows
 req.typenames: GROUP_FILTER, *PGROUP_FILTER
 req.redist: 

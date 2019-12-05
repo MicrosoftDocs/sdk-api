@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IBDAComparable.HashEquivalent
 title: IBDAComparable::HashEquivalent (tuner.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashequivalent.htm
 tech.root: mstv
 ms.assetid: 31f52445-a4f5-40f5-ad55-30f3b43b1528
-
 ms.date: 12/05/2018
 ms.keywords: HashEquivalent, HashEquivalent method [Microsoft TV Technologies], HashEquivalent method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashEquivalent method, IBDAComparable.HashEquivalent, IBDAComparable::HashEquivalent, IBDAComparableHashEquivalent, mstv.ibdacomparable_hashequivalent, tuner/IBDAComparable::HashEquivalent
 ms.topic: method
-f1_keywords: 
- - "tuner/IBDAComparable.HashEquivalent"
+f1_keywords:
+- tuner/IBDAComparable.HashEquivalent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IBDAComparable.HashEquivalent
+- IBDAComparable.HashEquivalent
 targetos: Windows
 req.typenames: 
 req.redist: 

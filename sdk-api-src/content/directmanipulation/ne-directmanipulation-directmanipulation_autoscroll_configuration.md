@@ -1,19 +1,17 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 title: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION (directmanipulation.h)
-
 description: Determines the type and direction of automatic scrolling animation to apply.
 old-location: directmanipulation\directmanipulation_autoscroll_configuration.htm
 tech.root: directmanipulation
 ms.assetid: 1184DD40-D615-440F-8B87-D53A475F8313
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION enumeration [Direct Manipulation], DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE, DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP, directmanipulation.directmanipulation_autoscroll_configuration, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_FORWARD, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_REVERSE, directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION_STOP
 ms.topic: enum
-f1_keywords: 
- - "directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION"
+f1_keywords:
+- directmanipulation/DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
+- DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_AUTOSCROLL_CONFIGURATION
 req.redist: 

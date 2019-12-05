@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.BuildTrusteeWithSidA
 title: BuildTrusteeWithSidA function (aclapi.h)
-
 description: Initializes a TRUSTEE structure. The caller specifies the security identifier (SID) of the trustee. The function sets other members of the structure to default values and does not look up the name associated with the SID.
 old-location: security\buildtrusteewithsid.htm
 tech.root: SecAuthZ
 ms.assetid: 3745fbf2-911a-4cb6-81a8-6256c742c700
-
 ms.date: 12/05/2018
 ms.keywords: BuildTrusteeWithSid, BuildTrusteeWithSid function [Security], BuildTrusteeWithSidA, BuildTrusteeWithSidW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithsid, aclapi/BuildTrusteeWithSid, aclapi/BuildTrusteeWithSidA, aclapi/BuildTrusteeWithSidW, pMultipleTrustee, security.buildtrusteewithsid
 ms.topic: function
 f1_keywords:
 - aclapi/BuildTrusteeWithSid
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

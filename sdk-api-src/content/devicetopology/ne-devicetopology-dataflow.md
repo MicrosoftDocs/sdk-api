@@ -1,19 +1,17 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0011
 title: DataFlow (devicetopology.h)
-
 description: The DataFlow enumeration indicates the data-flow direction of an audio stream through a connector.
 old-location: coreaudio\dataflow.htm
 tech.root: CoreAudio
 ms.assetid: bdc2336c-5609-43f2-9b65-d8806f0fc63b
-
 ms.date: 12/05/2018
 ms.keywords: DataFlow, DataFlow , DataFlow enumeration [Core Audio], In, Out, coreaudio.dataflow, devicetopology/DataFlow, devicetopology/In, devicetopology/Out
 ms.topic: enum
-f1_keywords: 
- - "devicetopology/DataFlow"
+f1_keywords:
+- devicetopology/DataFlow
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - DataFlow
+- DataFlow
 targetos: Windows
 req.typenames: DataFlow
 req.redist: 

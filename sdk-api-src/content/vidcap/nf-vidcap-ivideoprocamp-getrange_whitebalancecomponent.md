@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_WhiteBalanceComponent
 title: IVideoProcAmp::getRange_WhiteBalanceComponent (vidcap.h)
-
 description: The getRange_WhiteBalanceComponent method returns the range of white balance settings supported by the camera, expressed as red and blue component values.
 old-location: dshow\ivideoprocamp_getrange_whitebalancecomponent.htm
 tech.root: DirectShow
 ms.assetid: dec23c5a-3999-4f9b-81f3-2718b38d5835
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_WhiteBalanceComponent method, IVideoProcAmp.getRange_WhiteBalanceComponent, IVideoProcAmp::getRange_WhiteBalanceComponent, IVideoProcAmpgetRange_WhiteBalanceComponent, dshow.ivideoprocamp_getrange_whitebalancecomponent, getRange_WhiteBalanceComponent, getRange_WhiteBalanceComponent method [DirectShow], getRange_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_WhiteBalanceComponent
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.getRange_WhiteBalanceComponent"
+f1_keywords:
+- vidcap/IVideoProcAmp.getRange_WhiteBalanceComponent
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.getRange_WhiteBalanceComponent
+- IVideoProcAmp.getRange_WhiteBalanceComponent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IComponent.Initialize
 title: IComponent::Initialize (mmc.h)
-
 description: The IComponent::Initialize method provides an entry point to the console.
 old-location: mmc\icomponent_initialize.htm
 tech.root: mmc
 ms.assetid: 2a8b8f79-05c0-49e8-8210-7c1002ee5978
-
 ms.date: 12/05/2018
 ms.keywords: IComponent interface [MMC],Initialize method, IComponent.Initialize, IComponent::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],IComponent interface, _slate_icomponent_initialize, mmc.icomponent_initialize, mmc/IComponent::Initialize
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponent.Initialize"
+f1_keywords:
+- mmc/IComponent.Initialize
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponent.Initialize
+- IComponent.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

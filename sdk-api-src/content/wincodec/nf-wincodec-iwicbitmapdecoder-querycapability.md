@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.QueryCapability
 title: IWICBitmapDecoder::QueryCapability (wincodec.h)
-
 description: Retrieves the capabilities of the decoder based on the specified stream.
 old-location: wic\_wic_codec_iwicbitmapdecoder_querycapability.htm
 tech.root: wic
 ms.assetid: eeff3d5d-ed7f-41f7-b529-aeeeb8503a50
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoder interface [Windows Imaging Component],QueryCapability method, IWICBitmapDecoder.QueryCapability, IWICBitmapDecoder::QueryCapability, QueryCapability, QueryCapability method [Windows Imaging Component], QueryCapability method [Windows Imaging Component],IWICBitmapDecoder interface, _wic_codec_iwicbitmapdecoder_querycapability, wic._wic_codec_iwicbitmapdecoder_querycapability, wincodec/IWICBitmapDecoder::QueryCapability
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapDecoder.QueryCapability"
+f1_keywords:
+- wincodec/IWICBitmapDecoder.QueryCapability
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.QueryCapability
+- IWICBitmapDecoder.QueryCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

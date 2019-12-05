@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_GETFLIPSTATUSDATA
 title: DD_GETFLIPSTATUSDATA (ddrawint.h)
-
 description: The DD_GETFLIPSTATUSDATA structure returns the flip status information.
 old-location: display\dd_getflipstatusdata.htm
 tech.root: display
 ms.assetid: da3b90e0-1a60-434b-966c-a7ebabff33ee
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA, DD_GETFLIPSTATUSDATA structure [Display Devices], ddrawint/DD_GETFLIPSTATUSDATA, ddstrcts_03291da8-7881-46a2-8b11-291124a5732d.xml, display.dd_getflipstatusdata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETFLIPSTATUSDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

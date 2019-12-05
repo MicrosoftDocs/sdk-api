@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsMaintenance
 title: IVdsMaintenance (vds.h)
-
 description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
 old-location: base\ivdsmaintenance.htm
 tech.root: VDS
 ms.assetid: 08c01459-151a-4dd8-bea5-412076e39a8a
-
 ms.date: 12/05/2018
 ms.keywords: IVdsMaintenance, IVdsMaintenance interface [VDS], IVdsMaintenance interface [VDS],described, base.ivdsmaintenance, vds/IVdsMaintenance, vdshwprv/IVdsMaintenance
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsMaintenance"
+f1_keywords:
+- vds/IVdsMaintenance
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsMaintenance
+- IVdsMaintenance
 targetos: Windows
 req.typenames: 
 req.redist: 

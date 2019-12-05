@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetRawInputDeviceInfoW
 title: GetRawInputDeviceInfoW function (winuser.h)
-
 description: Retrieves information about the raw input device.
 old-location: inputdev\getrawinputdeviceinfo.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputdeviceinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRawInputDeviceInfo, GetRawInputDeviceInfo function [Keyboard and Mouse Input], GetRawInputDeviceInfoA, GetRawInputDeviceInfoW, RIDI_DEVICEINFO, RIDI_DEVICENAME, RIDI_PREPARSEDDATA, _win32_GetRawInputDeviceInfo, _win32_getrawinputdeviceinfo_cpp, inputdev.getrawinputdeviceinfo, winui._win32_getrawinputdeviceinfo, winuser/GetRawInputDeviceInfo, winuser/GetRawInputDeviceInfoA, winuser/GetRawInputDeviceInfoW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetRawInputDeviceInfo"
+f1_keywords:
+- winuser/GetRawInputDeviceInfo
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
- - MinUser.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-RTCore-NTUser-Rawinput-L1-1-0.dll
+- MinUser.dll
 api_name:
- - GetRawInputDeviceInfo
- - GetRawInputDeviceInfoA
- - GetRawInputDeviceInfoW
+- GetRawInputDeviceInfo
+- GetRawInputDeviceInfoA
+- GetRawInputDeviceInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

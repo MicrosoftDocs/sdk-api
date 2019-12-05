@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManCloseSession
 title: WSManCloseSession function (wsman.h)
-
 description: Closes a session object.
 old-location: winrm\wsmanclosesession.htm
 tech.root: winrm
 ms.assetid: b7d1ef66-0371-4d30-8053-813b229b2a62
-
 ms.date: 12/05/2018
 ms.keywords: WSManCloseSession, WSManCloseSession function [Windows Remote Management], winrm.wsmanclosesession, wsman/WSManCloseSession
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManCloseSession"
+f1_keywords:
+- wsman/WSManCloseSession
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManCloseSession
+- WSManCloseSession
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

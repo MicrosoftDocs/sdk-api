@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHEnumValueW
 title: SHEnumValueW function (shlwapi.h)
-
 description: Enumerates the values of the specified open registry key.
 old-location: shell\SHEnumValue.htm
 tech.root: shell
 ms.assetid: bb0eaa07-5112-4ce3-8796-5439bd863226
-
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHEnumValue, SHEnumValue function [Windows Shell], SHEnumValueA, SHEnumValueW, _win32_SHEnumValue, shell.SHEnumValue, shlwapi/SHEnumValue, shlwapi/SHEnumValueA, shlwapi/SHEnumValueW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHEnumValue"
+f1_keywords:
+- shlwapi/SHEnumValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-Registry-l1-1-0.dll
- - API-MS-Win-ShCore-Registry-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-Registry-l1-1-0.dll
+- API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHEnumValue
- - SHEnumValueA
- - SHEnumValueW
+- SHEnumValue
+- SHEnumValueA
+- SHEnumValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

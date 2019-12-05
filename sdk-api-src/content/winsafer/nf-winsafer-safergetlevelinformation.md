@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferGetLevelInformation
 title: SaferGetLevelInformation function (winsafer.h)
-
 description: Retrieves information about a policy level.
 old-location: security\safergetlevelinformation.htm
 tech.root: SecMgmt
 ms.assetid: cbe73ebc-bf2c-4d39-a203-78ff1a407481
-
 ms.date: 12/05/2018
 ms.keywords: SaferGetLevelInformation, SaferGetLevelInformation function [Security], SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, _mnp_safergetlevelinformation, security.safergetlevelinformation, winsafer/SaferGetLevelInformation
 ms.topic: function
-f1_keywords: 
- - "winsafer/SaferGetLevelInformation"
+f1_keywords:
+- winsafer/SaferGetLevelInformation
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - SaferGetLevelInformation
+- SaferGetLevelInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiInOpen
 title: midiInOpen function (mmeapi.h)
-
 description: The midiInOpen function opens a specified MIDI input device.
 old-location: multimedia\midiinopen.htm
 tech.root: Multimedia
 ms.assetid: 230deaef-9473-426f-a0eb-14e259600e68
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiInOpen, midiInOpen, midiInOpen function [Windows Multimedia], mmeapi/midiInOpen, multimedia.midiinopen"
+ms.keywords: _win32_midiInOpen, midiInOpen, midiInOpen function [Windows Multimedia], mmeapi/midiInOpen, multimedia.midiinopen
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiInOpen"
+f1_keywords:
+- mmeapi/midiInOpen
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiInOpen
+- midiInOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

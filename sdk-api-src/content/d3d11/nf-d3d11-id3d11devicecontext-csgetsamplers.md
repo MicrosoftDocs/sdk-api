@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetSamplers
 title: ID3D11DeviceContext::CSGetSamplers (d3d11.h)
-
 description: Get an array of sampler state interfaces from the compute-shader stage.
 old-location: direct3d11\id3d11devicecontext_csgetsamplers.htm
 tech.root: direct3d11
 ms.assetid: 97f5be84-3562-4b5a-9c7a-2ac3f18a184b
-
 ms.date: 12/05/2018
 ms.keywords: 727801db-5fe0-a11b-bb2e-70ee26a54119, CSGetSamplers, CSGetSamplers method [Direct3D 11], CSGetSamplers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSGetSamplers method, ID3D11DeviceContext.CSGetSamplers, ID3D11DeviceContext::CSGetSamplers, d3d11/ID3D11DeviceContext::CSGetSamplers, direct3d11.id3d11devicecontext_csgetsamplers
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.CSGetSamplers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.CSGetSamplers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.CSGetSamplers
+- ID3D11DeviceContext.CSGetSamplers
 targetos: Windows
 req.typenames: 
 req.redist: 

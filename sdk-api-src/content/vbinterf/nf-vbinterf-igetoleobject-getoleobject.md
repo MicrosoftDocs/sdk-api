@@ -1,19 +1,17 @@
 ---
 UID: NF:vbinterf.IGetOleObject.GetOleObject
 title: IGetOleObject::GetOleObject (vbinterf.h)
-
 description: Gets a pointer to an OLE control on a Visual Basic container.
 old-location: com\igetoleobject_getoleobject.htm
 tech.root: com
 ms.assetid: eafb9dbc-ab46-4b83-8be9-6c8cd1de8ab3
-
 ms.date: 12/05/2018
 ms.keywords: GetOleObject, GetOleObject method [COM], GetOleObject method [COM],IGetOleObject interface, IGetOleObject interface [COM],GetOleObject method, IGetOleObject.GetOleObject, IGetOleObject::GetOleObject, _com_IGetOleObject_GetOleObject, com.igetoleobject_getoleobject, vbinterf/IGetOleObject::GetOleObject
 ms.topic: method
-f1_keywords: 
- - "vbinterf/IGetOleObject.GetOleObject"
+f1_keywords:
+- vbinterf/IGetOleObject.GetOleObject
 dev_langs:
- - c++
+- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VbInterf.h
+- VbInterf.h
 api_name:
- - IGetOleObject.GetOleObject
+- IGetOleObject.GetOleObject
 targetos: Windows
 req.typenames: 
 req.redist: 

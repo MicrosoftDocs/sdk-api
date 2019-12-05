@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncDDDynamicRangeCompressionControl
 title: eAVEncDDDynamicRangeCompressionControl (codecapi.h)
-
 description: Specifies the dynamic range control profile in a Dolby Digital audio stream. This enumeration is used with the AVEncDDDynamicRangeCompressionControl property.
 old-location: dshow\eavencdddynamicrangecompressioncontrol.htm
 tech.root: DirectShow
 ms.assetid: bbe81ff1-a30d-4eee-a2ca-8a1c464492fa
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncDDDynamicRangeCompressionControl, codecapi/eAVEncDDDynamicRangeCompressionControl_FilmLight, codecapi/eAVEncDDDynamicRangeCompressionControl_FilmStandard, codecapi/eAVEncDDDynamicRangeCompressionControl_MusicLight, codecapi/eAVEncDDDynamicRangeCompressionControl_MusicStandard, codecapi/eAVEncDDDynamicRangeCompressionControl_None, codecapi/eAVEncDDDynamicRangeCompressionControl_Speech, dshow.eavencdddynamicrangecompressioncontrol, eAVEncDDDynamicRangeCompressionControl, eAVEncDDDynamicRangeCompressionControl enumeration [DirectShow], eAVEncDDDynamicRangeCompressionControlEnumeration, eAVEncDDDynamicRangeCompressionControl_FilmLight, eAVEncDDDynamicRangeCompressionControl_FilmStandard, eAVEncDDDynamicRangeCompressionControl_MusicLight, eAVEncDDDynamicRangeCompressionControl_MusicStandard, eAVEncDDDynamicRangeCompressionControl_None, eAVEncDDDynamicRangeCompressionControl_Speech
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncDDDynamicRangeCompressionControl"
+f1_keywords:
+- codecapi/eAVEncDDDynamicRangeCompressionControl
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncDDDynamicRangeCompressionControl
+- eAVEncDDDynamicRangeCompressionControl
 targetos: Windows
 req.typenames: 
 req.redist: 

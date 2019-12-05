@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItems.GetMaxItemCount
 title: ISpatialAudioMetadataItems::GetMaxItemCount (spatialaudiometadata.h)
-
 description: The maximum number of items allowed by the ISpatialAudioMetadataItems, defined when the object is created.
 old-location: coreaudio\ispatialaudiometadataitems_getmaxitemcount.htm
 tech.root: CoreAudio
 ms.assetid: 933DEDE0-3DC1-4D0B-8EAE-58EFB52CE2FE
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxItemCount, GetMaxItemCount method [Core Audio], GetMaxItemCount method [Core Audio],ISpatialAudioMetadataItems interface, ISpatialAudioMetadataItems interface [Core Audio],GetMaxItemCount method, ISpatialAudioMetadataItems.GetMaxItemCount, ISpatialAudioMetadataItems::GetMaxItemCount, coreaudio.ispatialaudiometadataitems_getmaxitemcount, spatialaudiometadata/ISpatialAudioMetadataItems::GetMaxItemCount
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataItems.GetMaxItemCount"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataItems.GetMaxItemCount
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItems.GetMaxItemCount
+- ISpatialAudioMetadataItems.GetMaxItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

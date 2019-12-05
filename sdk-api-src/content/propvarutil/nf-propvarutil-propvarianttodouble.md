@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToDouble
 title: PropVariantToDouble function (propvarutil.h)
-
 description: Extracts double value from a PROPVARIANT structure.
 old-location: properties\PropVariantToDouble.htm
 tech.root: properties
 ms.assetid: 346b3f37-1279-4719-b1cd-50adf4d070f0
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToDouble, PropVariantToDouble function [Windows Properties], properties.PropVariantToDouble, propvarutil/PropVariantToDouble, shell.PropVariantToDouble, shell_PropVariantToDouble
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToDouble"
+f1_keywords:
+- propvarutil/PropVariantToDouble
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToDouble
+- PropVariantToDouble
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

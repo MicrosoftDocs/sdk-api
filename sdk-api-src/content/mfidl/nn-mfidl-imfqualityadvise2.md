@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFQualityAdvise2
 title: IMFQualityAdvise2 (mfidl.h)
-
 description: Enables a pipeline object to adjust its own audio or video quality, in response to quality messages.
 old-location: mf\imfqualityadvise2.htm
 tech.root: medfound
 ms.assetid: c6114bbc-31d8-45eb-9bf8-745b3138dd50
-
 ms.date: 12/05/2018
 ms.keywords: IMFQualityAdvise2, IMFQualityAdvise2 interface [Media Foundation], IMFQualityAdvise2 interface [Media Foundation],described, mf.imfqualityadvise2, mfidl/IMFQualityAdvise2
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFQualityAdvise2"
+f1_keywords:
+- mfidl/IMFQualityAdvise2
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFQualityAdvise2
+- IMFQualityAdvise2
 targetos: Windows
 req.typenames: 
 req.redist: 

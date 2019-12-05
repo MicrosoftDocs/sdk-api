@@ -1,19 +1,17 @@
 ---
 UID: NE:rtscom.StylusQueue
 title: StylusQueue (rtscom.h)
-
 description: Specifies the queue to which stylus data is added.
 old-location: tablet\stylusqueue.htm
 tech.root: tablet
 ms.assetid: 245f1c78-a6e9-4138-bddb-c0c890583aea
-
 ms.date: 12/05/2018
 ms.keywords: 245f1c78-a6e9-4138-bddb-c0c890583aea, AsyncStylusQueue, AsyncStylusQueueImmediate, StylusQueue, StylusQueue enumeration [Tablet PC], SyncStylusQueue, rtscom/AsyncStylusQueue, rtscom/AsyncStylusQueueImmediate, rtscom/StylusQueue, rtscom/SyncStylusQueue, tablet.stylusqueue
 ms.topic: enum
-f1_keywords: 
- - "rtscom/StylusQueue"
+f1_keywords:
+- rtscom/StylusQueue
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RTSCom.h
+- RTSCom.h
 api_name:
- - StylusQueue
+- StylusQueue
 targetos: Windows
 req.typenames: StylusQueue
 req.redist: 

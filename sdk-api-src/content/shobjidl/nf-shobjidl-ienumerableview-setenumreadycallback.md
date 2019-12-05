@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IEnumerableView.SetEnumReadyCallback
 title: IEnumerableView::SetEnumReadyCallback (shobjidl.h)
-
 description: Sets a callback on the view that is notified when the initial view enumeration is complete.
 old-location: shell\IEnumerableView_SetEnumReadyCallback.htm
 tech.root: shell
 ms.assetid: af824c16-5bbf-4c75-88d0-b76519152360
-
 ms.date: 12/05/2018
 ms.keywords: IEnumerableView interface [Windows Shell],SetEnumReadyCallback method, IEnumerableView.SetEnumReadyCallback, IEnumerableView::SetEnumReadyCallback, SetEnumReadyCallback, SetEnumReadyCallback method [Windows Shell], SetEnumReadyCallback method [Windows Shell],IEnumerableView interface, _shell_IEnumerableView_SetEnumReadyCallback, shell.IEnumerableView_SetEnumReadyCallback, shobjidl/IEnumerableView::SetEnumReadyCallback
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IEnumerableView.SetEnumReadyCallback"
+f1_keywords:
+- shobjidl/IEnumerableView.SetEnumReadyCallback
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IEnumerableView.SetEnumReadyCallback
+- IEnumerableView.SetEnumReadyCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

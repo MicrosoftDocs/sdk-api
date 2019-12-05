@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreatePolyPolygonRgn
 title: CreatePolyPolygonRgn function (wingdi.h)
-
 description: The CreatePolyPolygonRgn function creates a region consisting of a series of polygons. The polygons can overlap.
 old-location: gdi\createpolypolygonrgn.htm
 tech.root: gdi
 ms.assetid: 1113d3dc-8e3f-436c-a5a8-191785bc7fcc
-
 ms.date: 12/05/2018
 ms.keywords: ALTERNATE, CreatePolyPolygonRgn, CreatePolyPolygonRgn function [Windows GDI], WINDING, _win32_CreatePolyPolygonRgn, gdi.createpolypolygonrgn, wingdi/CreatePolyPolygonRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreatePolyPolygonRgn"
+f1_keywords:
+- wingdi/CreatePolyPolygonRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreatePolyPolygonRgn
+- CreatePolyPolygonRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Reset
 title: IEnumWorkItems::Reset (mstask.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: taskschd\ienumworkitems_reset.htm
 tech.root: taskschd
 ms.assetid: 920ba47b-41cd-462b-9b72-73898a5cd4d0
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Reset method, IEnumWorkItems.Reset, IEnumWorkItems::Reset, Reset, Reset method [Task Scheduler], Reset method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_reset, mstask/IEnumWorkItems::Reset, taskschd.ienumworkitems_reset
 ms.topic: method
-f1_keywords: 
- - "mstask/IEnumWorkItems.Reset"
+f1_keywords:
+- mstask/IEnumWorkItems.Reset
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IEnumWorkItems.Reset
+- IEnumWorkItems.Reset
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

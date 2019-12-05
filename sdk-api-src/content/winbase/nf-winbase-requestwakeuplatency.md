@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.RequestWakeupLatency
 title: RequestWakeupLatency function (winbase.h)
-
 description: Has no effect and returns STATUS_NOT_SUPPORTED. This function is provided only for compatibility with earlier versions of Windows.Windows Server 2008 and Windows Vista:  Has no effect and always returns success.
 old-location: base\requestwakeuplatency.htm
 tech.root: power
 ms.assetid: f30fdfb6-dc7e-47fd-93ad-36655e65d0ae
-
 ms.date: 12/05/2018
 ms.keywords: LT_DONT_CARE, LT_LOWEST_LATENCY, RequestWakeupLatency, RequestWakeupLatency function, _win32_requestwakeuplatency, base.requestwakeuplatency, winbase/RequestWakeupLatency
 ms.topic: function
-f1_keywords: 
- - "winbase/RequestWakeupLatency"
+f1_keywords:
+- winbase/RequestWakeupLatency
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - RequestWakeupLatency
+- RequestWakeupLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

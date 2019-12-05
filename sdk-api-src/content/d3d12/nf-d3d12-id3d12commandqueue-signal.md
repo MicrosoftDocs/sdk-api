@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.Signal
 title: ID3D12CommandQueue::Signal (d3d12.h)
-
 description: Updates a fence to a specified value.
 old-location: direct3d12\id3d12commandqueue_signal.htm
 tech.root: direct3d12
 ms.assetid: 487E2DED-C741-4376-9EE2-3DDD2F4F76BB
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue interface,Signal method, ID3D12CommandQueue.Signal, ID3D12CommandQueue::Signal, Signal, Signal method, Signal method,ID3D12CommandQueue interface, d3d12/ID3D12CommandQueue::Signal, direct3d12.id3d12commandqueue_signal
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.Signal"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.Signal
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12CommandQueue.Signal
+- ID3D12CommandQueue.Signal
 targetos: Windows
 req.typenames: 
 req.redist: 

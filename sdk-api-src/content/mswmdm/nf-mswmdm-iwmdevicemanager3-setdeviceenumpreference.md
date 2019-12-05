@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager3.SetDeviceEnumPreference
 title: IWMDeviceManager3::SetDeviceEnumPreference (mswmdm.h)
-
 description: The SetDeviceEnumPreference method sets the device enumeration preferences.
 old-location: wmdm\iwmdevicemanager3_setdeviceenumpreference.htm
 tech.root: WMDM
 ms.assetid: a39aaa62-6f23-4fe0-9231-1781ce74b090
-
 ms.date: 12/05/2018
 ms.keywords: IWMDeviceManager3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IWMDeviceManager3.SetDeviceEnumPreference, IWMDeviceManager3::SetDeviceEnumPreference, IWMDeviceManager3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IWMDeviceManager3 interface, mswmdm/IWMDeviceManager3::SetDeviceEnumPreference, wmdm.iwmdevicemanager3_setdeviceenumpreference
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDeviceManager3.SetDeviceEnumPreference"
+f1_keywords:
+- mswmdm/IWMDeviceManager3.SetDeviceEnumPreference
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDeviceManager3.SetDeviceEnumPreference
+- IWMDeviceManager3.SetDeviceEnumPreference
 targetos: Windows
 req.typenames: 
 req.redist: 

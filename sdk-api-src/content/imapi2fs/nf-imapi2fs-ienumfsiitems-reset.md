@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IEnumFsiItems.Reset
 title: IEnumFsiItems::Reset (imapi2fs.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: imapi\ienumfsiitems_reset.htm
 tech.root: imapi
 ms.assetid: 85b3ce47-411f-4824-acea-9ea974206672
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems interface [IMAPI],Reset method, IEnumFsiItems.Reset, IEnumFsiItems::Reset, Reset, Reset method [IMAPI], Reset method [IMAPI],IEnumFsiItems interface, imapi.ienumfsiitems_reset, imapi2fs/IEnumFsiItems::Reset
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IEnumFsiItems.Reset"
+f1_keywords:
+- imapi2fs/IEnumFsiItems.Reset
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IEnumFsiItems.Reset
+- IEnumFsiItems.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

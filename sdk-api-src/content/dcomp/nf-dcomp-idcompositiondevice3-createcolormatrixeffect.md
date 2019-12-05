@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateColorMatrixEffect
 title: IDCompositionDevice3::CreateColorMatrixEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionColorMatrixEffect.
 old-location: directcomp\idcompositiondevice3_createcolormatrixeffect.htm
 tech.root: directcomp
 ms.assetid: A286F5C1-764F-4FAF-B2D2-92820BD2E709
-
 ms.date: 12/05/2018
 ms.keywords: CreateColorMatrixEffect, CreateColorMatrixEffect method [DirectComposition], CreateColorMatrixEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateColorMatrixEffect method, IDCompositionDevice3.CreateColorMatrixEffect, IDCompositionDevice3::CreateColorMatrixEffect, dcomp/IDCompositionDevice3::CreateColorMatrixEffect, directcomp.idcompositiondevice3_createcolormatrixeffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateColorMatrixEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateColorMatrixEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateColorMatrixEffect
+- IDCompositionDevice3.CreateColorMatrixEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

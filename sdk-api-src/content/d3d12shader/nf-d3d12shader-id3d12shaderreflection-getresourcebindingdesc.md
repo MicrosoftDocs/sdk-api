@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetResourceBindingDesc
 title: ID3D12ShaderReflection::GetResourceBindingDesc (d3d12shader.h)
-
 description: Gets a description of how a resource is bound to a shader.
 old-location: direct3d12\id3d12shaderreflection_getresourcebindingdesc.htm
 tech.root: direct3d12
 ms.assetid: 3E9A168D-CD9E-4256-9E0B-19B9295E511E
-
 ms.date: 12/05/2018
 ms.keywords: GetResourceBindingDesc, GetResourceBindingDesc method, GetResourceBindingDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetResourceBindingDesc method, ID3D12ShaderReflection.GetResourceBindingDesc, ID3D12ShaderReflection::GetResourceBindingDesc, d3d12shader/ID3D12ShaderReflection::GetResourceBindingDesc, direct3d12.id3d12shaderreflection_getresourcebindingdesc
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetResourceBindingDesc"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetResourceBindingDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetResourceBindingDesc
+- ID3D12ShaderReflection.GetResourceBindingDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

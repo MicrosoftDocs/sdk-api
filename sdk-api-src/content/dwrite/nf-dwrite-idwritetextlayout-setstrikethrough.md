@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetStrikethrough
 title: IDWriteTextLayout::SetStrikethrough (dwrite.h)
-
 description: Sets strikethrough for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetStrikethrough.htm
 tech.root: DirectWrite
 ms.assetid: 650063e7-186e-493f-8e06-5466cc69e3f3
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetStrikethrough method, IDWriteTextLayout.SetStrikethrough, IDWriteTextLayout::SetStrikethrough, SetStrikethrough, SetStrikethrough method [Direct Write], SetStrikethrough method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetStrikethrough, dwrite/IDWriteTextLayout::SetStrikethrough
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetStrikethrough"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetStrikethrough
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetStrikethrough
+- IDWriteTextLayout.SetStrikethrough
 targetos: Windows
 req.typenames: 
 req.redist: 

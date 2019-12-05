@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.TransactionUOW
 title: ICrmMonitorClerks::TransactionUOW (comsvcs.h)
-
 description: Retrieves the unit of work (UOW) of the transaction for the specified index.
 old-location: cos\icrmmonitorclerks_transactionuow.htm
 tech.root: cossdk
 ms.assetid: 9907ae75-7cb6-4fde-837c-616b106b4d7d
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],TransactionUOW method, ICrmMonitorClerks.TransactionUOW, ICrmMonitorClerks::TransactionUOW, TransactionUOW, TransactionUOW method [COM+], TransactionUOW method [COM+],ICrmMonitorClerks interface, _dtc_ICrmMonitorClerks_TransactionUOW, comsvcs/ICrmMonitorClerks::TransactionUOW, cos.icrmmonitorclerks_transactionuow
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorClerks.TransactionUOW"
+f1_keywords:
+- comsvcs/ICrmMonitorClerks.TransactionUOW
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorClerks.TransactionUOW
+- ICrmMonitorClerks.TransactionUOW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.QueryAllTracesA
 title: QueryAllTracesA function (evntrace.h)
-
 description: The QueryAllTraces function retrieves the properties and statistics for all event tracing sessions started on the computer for which the caller has permissions to query.
 old-location: etw\queryalltraces.htm
 tech.root: ETW
 ms.assetid: 6b6144b0-9152-4b5e-863d-06e823fbe084
-
 ms.date: 12/05/2018
 ms.keywords: QueryAllTraces, QueryAllTraces function [ETW], QueryAllTracesA, QueryAllTracesW, _evt_queryalltraces, base.queryalltraces, etw.queryalltraces, evntrace/QueryAllTraces, evntrace/QueryAllTracesA, evntrace/QueryAllTracesW
 ms.topic: function
-f1_keywords: 
- - "evntrace/QueryAllTraces"
+f1_keywords:
+- evntrace/QueryAllTraces
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - API-MS-Win-Eventing-Legacy-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- AdvApi32Legacy.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- API-MS-Win-Eventing-Legacy-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - QueryAllTraces
- - QueryAllTracesA
- - QueryAllTracesW
+- QueryAllTraces
+- QueryAllTracesA
+- QueryAllTracesW
 targetos: Windows
 req.typenames: 
 req.redist: 

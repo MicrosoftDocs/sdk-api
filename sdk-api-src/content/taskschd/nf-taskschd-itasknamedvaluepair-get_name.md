@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskNamedValuePair.get_Name
 title: ITaskNamedValuePair::get_Name (taskschd.h)
-
 description: Gets or sets the name that is associated with a value in a name-value pair.
 old-location: taskschd\itasknamedvaluepair_name.htm
 tech.root: taskschd
 ms.assetid: ae5a5920-db36-4c95-912f-1e3a6f91f0f4
-
 ms.date: 12/05/2018
 ms.keywords: ITaskNamedValuePair interface [Task Scheduler],Name property, ITaskNamedValuePair.Name, ITaskNamedValuePair.get_Name, ITaskNamedValuePair::Name, ITaskNamedValuePair::get_Name, ITaskNamedValuePair::put_Name, Name property [Task Scheduler], Name property [Task Scheduler],ITaskNamedValuePair interface, get_Name, taskschd.itasknamedvaluepair_name, taskschd/ITaskNamedValuePair::Name, taskschd/ITaskNamedValuePair::get_Name, taskschd/ITaskNamedValuePair::put_Name
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskNamedValuePair.Name"
+f1_keywords:
+- taskschd/ITaskNamedValuePair.Name
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskNamedValuePair.Name
- - ITaskNamedValuePair.get_Name
- - ITaskNamedValuePair.put_Name
+- ITaskNamedValuePair.Name
+- ITaskNamedValuePair.get_Name
+- ITaskNamedValuePair.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

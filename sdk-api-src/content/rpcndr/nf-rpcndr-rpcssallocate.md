@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSsAllocate
 title: RpcSsAllocate function (rpcndr.h)
-
 description: The RpcSsAllocate function allocates memory within the RPC stub memory-management function, and returns a pointer to the allocated memory or NULL.
 old-location: rpc\rpcssallocate.htm
 tech.root: Rpc
 ms.assetid: d1c1af46-63c5-4e50-abfb-c4f251972427
-
 ms.date: 12/05/2018
 ms.keywords: RpcSsAllocate, RpcSsAllocate function [RPC], _rpc_rpcssallocate, rpc.rpcssallocate, rpcndr/RpcSsAllocate
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSsAllocate"
+f1_keywords:
+- rpcndr/RpcSsAllocate
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSsAllocate
+- RpcSsAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 

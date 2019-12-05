@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutPrepareHeader
 title: midiOutPrepareHeader function (mmeapi.h)
-
 description: The midiOutPrepareHeader function prepares a MIDI system-exclusive or stream buffer for output.
 old-location: multimedia\midioutprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 3e457f08-a885-48f8-97c1-ba1baef97759
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareHeader function [Windows Multimedia], mmeapi/midiOutPrepareHeader, multimedia.midioutprepareheader"
+ms.keywords: _win32_midiOutPrepareHeader, midiOutPrepareHeader, midiOutPrepareHeader function [Windows Multimedia], mmeapi/midiOutPrepareHeader, multimedia.midioutprepareheader
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutPrepareHeader"
+f1_keywords:
+- mmeapi/midiOutPrepareHeader
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutPrepareHeader
+- midiOutPrepareHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetStatus
 title: ITextStoreACP2::GetStatus (textstor.h)
-
 description: Gets the document status. The document status is returned through the TS_STATUS structure.
 old-location: tsf\itextstoreacp2_getstatus.htm
 tech.root: TSF
 ms.assetid: 6b767f85-0a92-467c-b358-3629582f0d43
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetStatus method, ITextStoreACP2.GetStatus, ITextStoreACP2::GetStatus, textstor/ITextStoreACP2::GetStatus, tsf.itextstoreacp2_getstatus
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.GetStatus"
+f1_keywords:
+- textstor/ITextStoreACP2.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITextStoreACP2.GetStatus
+- ITextStoreACP2.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

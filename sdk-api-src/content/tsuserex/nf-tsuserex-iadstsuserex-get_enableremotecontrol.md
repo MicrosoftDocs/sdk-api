@@ -1,19 +1,17 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_EnableRemoteControl
 title: IADsTSUserEx::get_EnableRemoteControl (tsuserex.h)
-
 description: A value that specifies whether to allow remote observation or remote control of the user's Remote Desktop Services session.
 old-location: termserv\iadstsuserex_enableremotecontrol.htm
 tech.root: TermServ
 ms.assetid: 197d9d7e-118c-413e-952e-2186f79b6633
-
 ms.date: 12/05/2018
 ms.keywords: Disable, EnableInputNoNotify, EnableInputNotify, EnableNoInputNoNotify, EnableNoInputNotify, EnableRemoteControl property [Remote Desktop Services], EnableRemoteControl property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],EnableRemoteControl property, IADsTSUserEx.EnableRemoteControl, IADsTSUserEx.get_EnableRemoteControl, IADsTSUserEx::EnableRemoteControl, IADsTSUserEx::get_EnableRemoteControl, IADsTSUserEx::put_EnableRemoteControl, get_EnableRemoteControl, termserv.iadstsuserex_enableremotecontrol, tsuserex/IADsTSUserEx::EnableRemoteControl, tsuserex/IADsTSUserEx::get_EnableRemoteControl, tsuserex/IADsTSUserEx::put_EnableRemoteControl
 ms.topic: method
-f1_keywords: 
- - "tsuserex/IADsTSUserEx.EnableRemoteControl"
+f1_keywords:
+- tsuserex/IADsTSUserEx.EnableRemoteControl
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx.EnableRemoteControl
- - IADsTSUserEx.get_EnableRemoteControl
- - IADsTSUserEx.put_EnableRemoteControl
+- IADsTSUserEx.EnableRemoteControl
+- IADsTSUserEx.get_EnableRemoteControl
+- IADsTSUserEx.put_EnableRemoteControl
 targetos: Windows
 req.typenames: 
 req.redist: 

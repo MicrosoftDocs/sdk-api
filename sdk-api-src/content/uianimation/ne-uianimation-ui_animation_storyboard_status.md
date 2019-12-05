@@ -1,19 +1,17 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0002_0001
 title: UI_ANIMATION_STORYBOARD_STATUS (uianimation.h)
-
 description: Defines the status for a storyboard.
 old-location: uianimation\ui_animation_storyboard_status.htm
 tech.root: UIAnimation
 ms.assetid: 02830092-0070-44dc-8db2-239941134473
-
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_STORYBOARD_BUILDING, UI_ANIMATION_STORYBOARD_CANCELLED, UI_ANIMATION_STORYBOARD_FINISHED, UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, UI_ANIMATION_STORYBOARD_PLAYING, UI_ANIMATION_STORYBOARD_READY, UI_ANIMATION_STORYBOARD_SCHEDULED, UI_ANIMATION_STORYBOARD_STATUS, UI_ANIMATION_STORYBOARD_STATUS enumeration [Windows Animation], UI_ANIMATION_STORYBOARD_TRUNCATED, uianimation.ui_animation_storyboard_status, uianimation/UI_ANIMATION_STORYBOARD_BUILDING, uianimation/UI_ANIMATION_STORYBOARD_CANCELLED, uianimation/UI_ANIMATION_STORYBOARD_FINISHED, uianimation/UI_ANIMATION_STORYBOARD_INSUFFICIENT_PRIORITY, uianimation/UI_ANIMATION_STORYBOARD_PLAYING, uianimation/UI_ANIMATION_STORYBOARD_READY, uianimation/UI_ANIMATION_STORYBOARD_SCHEDULED, uianimation/UI_ANIMATION_STORYBOARD_STATUS, uianimation/UI_ANIMATION_STORYBOARD_TRUNCATED
 ms.topic: enum
-f1_keywords: 
- - "uianimation/UI_ANIMATION_STORYBOARD_STATUS"
+f1_keywords:
+- uianimation/UI_ANIMATION_STORYBOARD_STATUS
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - UI_ANIMATION_STORYBOARD_STATUS
+- UI_ANIMATION_STORYBOARD_STATUS
 targetos: Windows
 req.typenames: UI_ANIMATION_STORYBOARD_STATUS
 req.redist: 

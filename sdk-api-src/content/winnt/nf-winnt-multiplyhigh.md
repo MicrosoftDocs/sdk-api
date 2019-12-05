@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.MultiplyHigh
 title: MultiplyHigh function (winnt.h)
-
 description: Multiplies two 64-bit integers to produce a 128-bit integer and gets the high 64 bits.
 old-location: winprog\multiplyhigh.htm
 tech.root: WinProg
 ms.assetid: 9072FCB1-89AE-4441-A425-AC3071A47E76
-
 ms.date: 12/05/2018
 ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHigh, winprog.multiplyhigh
 ms.topic: function
-f1_keywords: 
- - "winnt/MultiplyHigh"
+f1_keywords:
+- winnt/MultiplyHigh
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MultiplyHigh
+- MultiplyHigh
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCSettings.GetLastSettingsChangeTime
 title: IWPCSettings::GetLastSettingsChangeTime (wpcapi.h)
-
 description: Retrieves the time at which the configuration settings were last updated.
 old-location: parcon\iwpcsettings_getlastsettingschangetime.htm
 tech.root: parcon
 ms.assetid: 6fe5be0c-e6fa-481d-a28d-c5b15257b901
-
 ms.date: 12/05/2018
 ms.keywords: GetLastSettingsChangeTime, GetLastSettingsChangeTime method, GetLastSettingsChangeTime method,IWPCSettings interface, IWPCSettings interface,GetLastSettingsChangeTime method, IWPCSettings.GetLastSettingsChangeTime, IWPCSettings::GetLastSettingsChangeTime, parcon.iwpcsettings_getlastsettingschangetime, wpcapi/IWPCSettings::GetLastSettingsChangeTime
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCSettings.GetLastSettingsChangeTime"
+f1_keywords:
+- wpcapi/IWPCSettings.GetLastSettingsChangeTime
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCSettings.GetLastSettingsChangeTime
+- IWPCSettings.GetLastSettingsChangeTime
 targetos: Windows
 req.typenames: 
 req.redist: 

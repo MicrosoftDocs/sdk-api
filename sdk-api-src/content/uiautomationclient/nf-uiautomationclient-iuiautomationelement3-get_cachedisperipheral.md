@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement3.get_CachedIsPeripheral
 title: IUIAutomationElement3::get_CachedIsPeripheral (uiautomationclient.h)
-
 description: Retrieves the cached peripheral UI indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement3_CachedIsPeripheral.htm
 tech.root: WinAuto
 ms.assetid: 3F6D2EE1-CE3B-2E48-7539-555A44D1DBFD
-
 ms.date: 12/05/2018
 ms.keywords: CachedIsPeripheral property [Windows Accessibility], CachedIsPeripheral property [Windows Accessibility],IUIAutomationElement3 interface, IUIAutomationElement3 interface [Windows Accessibility],CachedIsPeripheral property, IUIAutomationElement3.CachedIsPeripheral, IUIAutomationElement3.get_CachedIsPeripheral, IUIAutomationElement3::CachedIsPeripheral, IUIAutomationElement3::get_CachedIsPeripheral, get_CachedIsPeripheral, uiautomationclient/IUIAutomationElement3::CachedIsPeripheral, uiautomationclient/IUIAutomationElement3::get_CachedIsPeripheral, winauto.uiauto_IUIAutomationElement3_CachedIsPeripheral
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement3.CachedIsPeripheral"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement3.CachedIsPeripheral
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement3.CachedIsPeripheral
- - IUIAutomationElement3.get_CachedIsPeripheral
+- IUIAutomationElement3.CachedIsPeripheral
+- IUIAutomationElement3.get_CachedIsPeripheral
 targetos: Windows
 req.typenames: 
 req.redist: 

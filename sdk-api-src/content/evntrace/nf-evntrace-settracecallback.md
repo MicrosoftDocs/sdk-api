@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.SetTraceCallback
 title: SetTraceCallback function (evntrace.h)
-
 description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
 old-location: etw\settracecallback.htm
 tech.root: ETW
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0
-
 ms.date: 12/05/2018
 ms.keywords: SetTraceCallback, SetTraceCallback function [ETW], _evt_settracecallback, base.settracecallback, etw.settracecallback, evntrace/SetTraceCallback
 ms.topic: function
-f1_keywords: 
- - "evntrace/SetTraceCallback"
+f1_keywords:
+- evntrace/SetTraceCallback
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib 
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-eventing-Obsolete-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-eventing-Obsolete-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - SetTraceCallback
+- SetTraceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

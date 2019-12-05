@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11on12.ID3D11On12Device.CreateWrappedResource
 title: ID3D11On12Device::CreateWrappedResource (d3d11on12.h)
-
 description: This method creates D3D11 resources for use with D3D 11on12.
 old-location: direct3d12\id3d11on12device_createwrappedresource.htm
 tech.root: direct3d12
 ms.assetid: 83B37B0A-9965-40F6-A5B1-8B4DC21BC455
-
 ms.date: 12/05/2018
 ms.keywords: CreateWrappedResource, CreateWrappedResource method, CreateWrappedResource method,ID3D11On12Device interface, ID3D11On12Device interface,CreateWrappedResource method, ID3D11On12Device.CreateWrappedResource, ID3D11On12Device::CreateWrappedResource, d3d11on12/ID3D11On12Device::CreateWrappedResource, direct3d12.id3d11on12device_createwrappedresource
 ms.topic: method
-f1_keywords: 
- - "d3d11on12/ID3D11On12Device.CreateWrappedResource"
+f1_keywords:
+- d3d11on12/ID3D11On12Device.CreateWrappedResource
 dev_langs:
- - c++
+- c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.dll
+- D3D11.dll
 api_name:
- - ID3D11On12Device.CreateWrappedResource
+- ID3D11On12Device.CreateWrappedResource
 targetos: Windows
 req.typenames: 
 req.redist: 

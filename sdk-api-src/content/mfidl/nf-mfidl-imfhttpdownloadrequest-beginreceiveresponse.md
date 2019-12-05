@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginReceiveResponse
 title: IMFHttpDownloadRequest::BeginReceiveResponse (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to receive the response, provided by the server, in response to a previously sent HTTP or HTTPS request. Media Foundation invokes this method only after having successfully invoked the EndSendRequest method.
 old-location: mf\imfhttpdownloadrequest_beginreceiveresponse.htm
 tech.root: medfound
 ms.assetid: 6D5DB091-426B-4E89-8657-0BDC6427B23A
-
 ms.date: 12/05/2018
 ms.keywords: BeginReceiveResponse, BeginReceiveResponse method [Media Foundation], BeginReceiveResponse method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginReceiveResponse method, IMFHttpDownloadRequest.BeginReceiveResponse, IMFHttpDownloadRequest::BeginReceiveResponse, mf.imfhttpdownloadrequest_beginreceiveresponse, mfidl/IMFHttpDownloadRequest::BeginReceiveResponse
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.BeginReceiveResponse"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.BeginReceiveResponse
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.BeginReceiveResponse
+- IMFHttpDownloadRequest.BeginReceiveResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

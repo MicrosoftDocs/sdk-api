@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetKeyboardType
 title: GetKeyboardType function (winuser.h)
-
 description: Retrieves information about the current keyboard.
 old-location: inputdev\getkeyboardtype.htm
 tech.root: inputdev
 ms.assetid: 39b9ba8b-0cab-465c-9a58-2b69eea7de76
-
 ms.date: 12/05/2018
 ms.keywords: GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input], _win32_getkeyboardtype, base.getkeyboardtype, inputdev.getkeyboardtype, winui.getkeyboardtype, winuser/GetKeyboardType
 ms.topic: function
-f1_keywords: 
- - "winuser/GetKeyboardType"
+f1_keywords:
+- winuser/GetKeyboardType
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-1-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-1-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - GetKeyboardType
+- GetKeyboardType
 targetos: Windows
 req.typenames: 
 req.redist: 

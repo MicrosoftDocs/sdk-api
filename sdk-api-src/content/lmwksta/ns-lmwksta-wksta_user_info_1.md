@@ -1,19 +1,17 @@
 ---
 UID: NS:lmwksta._WKSTA_USER_INFO_1
 title: WKSTA_USER_INFO_1 (lmwksta.h)
-
 description: The WKSTA_USER_INFO_1 structure contains user information as it pertains to a specific workstation. The information includes the name of the current user and the domains accessed by the workstation.
 old-location: netmgmt\wksta_user_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: a30747de-6cb0-41dc-95a7-be3d471056d5
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWKSTA_USER_INFO_1, *PWKSTA_USER_INFO_1, LPWKSTA_USER_INFO_1, LPWKSTA_USER_INFO_1 structure pointer [Network Management], PWKSTA_USER_INFO_1, PWKSTA_USER_INFO_1 structure pointer [Network Management], WKSTA_USER_INFO_1, WKSTA_USER_INFO_1 structure [Network Management], _win32_wksta_user_info_1_str, lmwksta/LPWKSTA_USER_INFO_1, lmwksta/PWKSTA_USER_INFO_1, lmwksta/WKSTA_USER_INFO_1, netmgmt.wksta_user_info_1_str"
+ms.keywords: '*LPWKSTA_USER_INFO_1, *PWKSTA_USER_INFO_1, LPWKSTA_USER_INFO_1, LPWKSTA_USER_INFO_1 structure pointer [Network Management], PWKSTA_USER_INFO_1, PWKSTA_USER_INFO_1 structure pointer [Network Management], WKSTA_USER_INFO_1, WKSTA_USER_INFO_1 structure [Network Management], _win32_wksta_user_info_1_str, lmwksta/LPWKSTA_USER_INFO_1, lmwksta/PWKSTA_USER_INFO_1, lmwksta/WKSTA_USER_INFO_1, netmgmt.wksta_user_info_1_str'
 ms.topic: struct
-f1_keywords: 
- - "lmwksta/WKSTA_USER_INFO_1"
+f1_keywords:
+- lmwksta/WKSTA_USER_INFO_1
 dev_langs:
- - c++
+- c++
 req.header: lmwksta.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmwksta.h
+- Lmwksta.h
 api_name:
- - WKSTA_USER_INFO_1
+- WKSTA_USER_INFO_1
 targetos: Windows
 req.typenames: WKSTA_USER_INFO_1, *PWKSTA_USER_INFO_1, *LPWKSTA_USER_INFO_1
 req.redist: 

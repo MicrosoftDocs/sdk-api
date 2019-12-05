@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.Add
 title: IGPMSecurityInfo::Add (gpmgmt.h)
-
 description: Adds the permission specified in a GPMPermission object to the GPMSecurityInfo collection. You can add a permission that is above the level of existing permissions. For more information about restrictions that apply, see the following Remarks section.
 old-location: gpmc\igpmsecurityinfo_add.htm
 tech.root: gpmc
 ms.assetid: d180a4ed-7c7d-4df9-a2a4-7aab46446283
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [GPMC], Add method [GPMC],GPMSecurityInfo class, Add method [GPMC],IGPMSecurityInfo interface, GPMSecurityInfo class [GPMC],Add method, IGPMSecurityInfo interface [GPMC],Add method, IGPMSecurityInfo.Add, IGPMSecurityInfo::Add, _win32_igpmsecurityinfo_add, gpmc.igpmsecurityinfo_add, gpmgmt/IGPMSecurityInfo::Add
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSecurityInfo.Add"
+f1_keywords:
+- gpmgmt/IGPMSecurityInfo.Add
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo.Add
- - GPMSecurityInfo.Add
+- IGPMSecurityInfo.Add
+- GPMSecurityInfo.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

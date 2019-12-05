@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITASRTerminalEvent
 title: ITASRTerminalEvent (tapi3if.h)
-
 description: The ITASRTerminalEvent interface contains methods that retrieve the description of Automatic Speech Recognition terminal events that have occurred.
 old-location: tapi3\itasrterminalevent.htm
 tech.root: Tapi
 ms.assetid: 6bf8b1b7-698f-443f-9ddf-0d50551cebab
-
 ms.date: 12/05/2018
 ms.keywords: ITASRTerminalEvent, ITASRTerminalEvent interface [TAPI 2.2], ITASRTerminalEvent interface [TAPI 2.2],described, _tapi3_itasrterminalevent, tapi3.itasrterminalevent, tapi3if/ITASRTerminalEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITASRTerminalEvent"
+f1_keywords:
+- tapi3if/ITASRTerminalEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITASRTerminalEvent
+- ITASRTerminalEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

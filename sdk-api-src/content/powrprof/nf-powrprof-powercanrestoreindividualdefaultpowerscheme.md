@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerCanRestoreIndividualDefaultPowerScheme
 title: PowerCanRestoreIndividualDefaultPowerScheme function (powrprof.h)
-
 description: Determines if the current user has access to the data for the specified power scheme so that it could be restored if necessary.
 old-location: base\powercanrestoreindividualdefaultpowerscheme.htm
 tech.root: power
 ms.assetid: 8f29c993-b237-4302-a48b-05368ead9a44
-
 ms.date: 12/05/2018
 ms.keywords: PowerCanRestoreIndividualDefaultPowerScheme, PowerCanRestoreIndividualDefaultPowerScheme function, base.powercanrestoreindividualdefaultpowerscheme, powrprof/PowerCanRestoreIndividualDefaultPowerScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerCanRestoreIndividualDefaultPowerScheme"
+f1_keywords:
+- powrprof/PowerCanRestoreIndividualDefaultPowerScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerCanRestoreIndividualDefaultPowerScheme
+- PowerCanRestoreIndividualDefaultPowerScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

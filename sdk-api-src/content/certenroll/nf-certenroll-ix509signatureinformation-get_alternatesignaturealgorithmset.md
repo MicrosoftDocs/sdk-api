@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
 title: IX509SignatureInformation::get_AlternateSignatureAlgorithmSet (certenroll.h)
-
 description: Retrieves a Boolean value that specifies whether the AlternateSignatureAlgorithm property has been explicitly set by a caller.
 old-location: security\ix509signatureinformation_alternatesignaturealgorithmset_property.htm
 tech.root: seccertenroll
 ms.assetid: fd28072f-9b79-4068-b4dd-61a6a4f8beda
-
 ms.date: 12/05/2018
 ms.keywords: AlternateSignatureAlgorithmSet property [Security], AlternateSignatureAlgorithmSet property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],AlternateSignatureAlgorithmSet property, IX509SignatureInformation.AlternateSignatureAlgorithmSet, IX509SignatureInformation.get_AlternateSignatureAlgorithmSet, IX509SignatureInformation::AlternateSignatureAlgorithmSet, IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithmSet, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithmSet, get_AlternateSignatureAlgorithmSet, security.ix509signatureinformation_alternatesignaturealgorithmset_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SignatureInformation.AlternateSignatureAlgorithmSet"
+f1_keywords:
+- certenroll/IX509SignatureInformation.AlternateSignatureAlgorithmSet
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509SignatureInformation.AlternateSignatureAlgorithmSet
- - IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
+- IX509SignatureInformation.AlternateSignatureAlgorithmSet
+- IX509SignatureInformation.get_AlternateSignatureAlgorithmSet
 targetos: Windows
 req.typenames: 
 req.redist: 

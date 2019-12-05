@@ -1,19 +1,17 @@
 ---
 UID: NE:structuredquery.tagINTERVAL_LIMIT_KIND
 title: INTERVAL_LIMIT_KIND (structuredquery.h)
-
 description: These values are returned by IInterval::GetLimits as pairs to specify a range with an upper and lower limit.
 old-location: search\_search_INTERVAL_LIMIT_KIND.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\interval_limit_kind.htm
-
 ms.date: 12/05/2018
 ms.keywords: ILK_EXPLICIT_EXCLUDED, ILK_EXPLICIT_INCLUDED, ILK_NEGATIVE_INFINITY, ILK_POSITIVE_INFINITY, INTERVAL_LIMIT_KIND, INTERVAL_LIMIT_KIND enumeration [search], _search_INTERVAL_LIMIT_KIND, search._search_INTERVAL_LIMIT_KIND, structuredquery/ILK_EXPLICIT_EXCLUDED, structuredquery/ILK_EXPLICIT_INCLUDED, structuredquery/ILK_NEGATIVE_INFINITY, structuredquery/ILK_POSITIVE_INFINITY, structuredquery/INTERVAL_LIMIT_KIND
 ms.topic: enum
-f1_keywords: 
- - "structuredquery/INTERVAL_LIMIT_KIND"
+f1_keywords:
+- structuredquery/INTERVAL_LIMIT_KIND
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - INTERVAL_LIMIT_KIND
+- INTERVAL_LIMIT_KIND
 targetos: Windows
 req.typenames: INTERVAL_LIMIT_KIND
 req.redist: Windows Desktop Search (WDS) 3.0

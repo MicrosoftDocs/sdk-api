@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRole.DeleteTask
 title: IAzRole::DeleteTask (azroles.h)
-
 description: Removes the IAzTask object with the specified name from the role.
 old-location: security\iazrole_deletetask.htm
 tech.root: SecAuthZ
 ms.assetid: 62623d45-33a6-4e3f-b0a8-d3e3e7c9e33e
-
 ms.date: 12/05/2018
 ms.keywords: AzRole object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzRole object, DeleteTask method [Security],IAzRole interface, IAzRole interface [Security],DeleteTask method, IAzRole.DeleteTask, IAzRole::DeleteTask, azroles/IAzRole::DeleteTask, security.iazrole_deletetask
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRole.DeleteTask"
+f1_keywords:
+- azroles/IAzRole.DeleteTask
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRole.DeleteTask
- - AzRole.DeleteTask
+- IAzRole.DeleteTask
+- AzRole.DeleteTask
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

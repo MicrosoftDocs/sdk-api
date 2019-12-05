@@ -1,19 +1,17 @@
 ---
 UID: NN:locationapi.ICivicAddressReport
 title: ICivicAddressReport (locationapi.h)
-
 description: ICivicAddressReport represents a location report that contains information in the form of a street address.
 old-location: winlocation\icivicaddressreport.htm
 tech.root: locationapi
 ms.assetid: ba8c66cb-be94-4649-ada9-620ed3b35516
-
 ms.date: 12/05/2018
 ms.keywords: ICivicAddressReport, ICivicAddressReport interface [WinLocation], ICivicAddressReport interface [WinLocation],described, locationapi/ICivicAddressReport, winlocation.icivicaddressreport
 ms.topic: interface
-f1_keywords: 
- - "locationapi/ICivicAddressReport"
+f1_keywords:
+- locationapi/ICivicAddressReport
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ICivicAddressReport
+- ICivicAddressReport
 targetos: Windows
 req.typenames: 
 req.redist: 

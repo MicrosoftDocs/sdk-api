@@ -1,19 +1,17 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetPrimaryBufferInterface
 title: IAMDirectSound::GetPrimaryBufferInterface (amaudio.h)
-
 description: The GetPrimaryBufferInterface method is not implemented.
 old-location: dshow\iamdirectsound_getprimarybufferinterface.htm
 tech.root: DirectShow
 ms.assetid: 5cac3834-5f0a-4977-802e-b3b824a01dbc
-
 ms.date: 12/05/2018
 ms.keywords: GetPrimaryBufferInterface, GetPrimaryBufferInterface method [DirectShow], GetPrimaryBufferInterface method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetPrimaryBufferInterface method, IAMDirectSound.GetPrimaryBufferInterface, IAMDirectSound::GetPrimaryBufferInterface, IAMDirectSoundGetPrimaryBufferInterface, amaudio/IAMDirectSound::GetPrimaryBufferInterface, dshow.iamdirectsound_getprimarybufferinterface
 ms.topic: method
-f1_keywords: 
- - "amaudio/IAMDirectSound.GetPrimaryBufferInterface"
+f1_keywords:
+- amaudio/IAMDirectSound.GetPrimaryBufferInterface
 dev_langs:
- - c++
+- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDirectSound.GetPrimaryBufferInterface
+- IAMDirectSound.GetPrimaryBufferInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

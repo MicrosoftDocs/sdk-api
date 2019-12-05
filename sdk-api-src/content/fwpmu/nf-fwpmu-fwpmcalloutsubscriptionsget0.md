@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutSubscriptionsGet0
 title: FwpmCalloutSubscriptionsGet0 function (fwpmu.h)
-
 description: Retrieves an array of all the current callout change notification subscriptions.
 old-location: fwp\fwpmcalloutsubscriptionsget0_func.htm
 tech.root: fwp
 ms.assetid: 72e51167-c69e-4412-b83e-c66f91c9b96e
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutSubscriptionsGet0, FwpmCalloutSubscriptionsGet0 function [Filtering], fwp.fwpmcalloutsubscriptionsget0_func, fwpmu/FwpmCalloutSubscriptionsGet0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutSubscriptionsGet0"
+f1_keywords:
+- fwpmu/FwpmCalloutSubscriptionsGet0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutSubscriptionsGet0
+- FwpmCalloutSubscriptionsGet0
 targetos: Windows
 req.typenames: 
 req.redist: 

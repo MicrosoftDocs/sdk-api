@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.SetKernelObjectSecurity
 title: SetKernelObjectSecurity function (securitybaseapi.h)
-
 description: Sets the security of a kernel object.
 old-location: security\setkernelobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 2a70483e-245d-4bc7-b90a-58d143364ce1
-
 ms.date: 12/05/2018
 ms.keywords: SetKernelObjectSecurity, SetKernelObjectSecurity function [Security], _win32_setkernelobjectsecurity, security.setkernelobjectsecurity, securitybaseapi/SetKernelObjectSecurity
 ms.topic: function
 f1_keywords:
 - securitybaseapi/SetKernelObjectSecurity
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

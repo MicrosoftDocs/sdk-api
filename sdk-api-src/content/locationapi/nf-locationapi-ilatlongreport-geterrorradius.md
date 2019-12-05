@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetErrorRadius
 title: ILatLongReport::GetErrorRadius (locationapi.h)
-
 description: Retrieves a distance from the reported location, in meters. Combined with the location reported as the origin, this radius describes the circle in which the actual location is probably located.
 old-location: winlocation_com_ref\ilatlongreport_geterrorradius.htm
 tech.root: locationapi
 ms.assetid: cb0941da-607d-4082-ac8c-91d2edafa8ab
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorRadius, GetErrorRadius method [WinLocation], GetErrorRadius method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetErrorRadius method, ILatLongReport.GetErrorRadius, ILatLongReport::GetErrorRadius, WinLocation_COM_Ref.ilatlongreport_geterrorradius, locationapi/ILatLongReport::GetErrorRadius
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILatLongReport.GetErrorRadius"
+f1_keywords:
+- locationapi/ILatLongReport.GetErrorRadius
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILatLongReport.GetErrorRadius
+- ILatLongReport.GetErrorRadius
 targetos: Windows
 req.typenames: 
 req.redist: 

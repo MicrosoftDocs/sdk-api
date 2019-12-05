@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptString_pLogAttr
 title: ScriptString_pLogAttr function (usp10.h)
-
 description: Returns a pointer to a logical attributes buffer for an analyzed string.
 old-location: intl\scriptstring_plogattr.htm
 tech.root: Intl
 ms.assetid: ff898c79-2d37-4c0b-af83-2322ab7cf656
-
 ms.date: 12/05/2018
 ms.keywords: ScriptString_pLogAttr, ScriptString_pLogAttr function [Internationalization for Windows Applications], _win32_ScriptString_pLogAttr, intl.scriptstring_plogattr, usp10/ScriptString_pLogAttr
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptString_pLogAttr"
+f1_keywords:
+- usp10/ScriptString_pLogAttr
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-usp10-l1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-usp10-l1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptString_pLogAttr
+- ScriptString_pLogAttr
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongAdd
 title: ULongAdd function (intsafe.h)
-
 description: Adds two values of type ULONG.
 old-location: shell\ULongAdd.htm
 tech.root: shell
 ms.assetid: 63726f12-ba01-4cb7-a311-95d476e68174
-
 ms.date: 12/05/2018
 ms.keywords: DWordAdd, ULongAdd, ULongAdd function [Windows Shell], _shell_ULongAdd, intsafe/ULongAdd, shell.ULongAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/ULongAdd"
+f1_keywords:
+- intsafe/ULongAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - ULongAdd
+- ULongAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

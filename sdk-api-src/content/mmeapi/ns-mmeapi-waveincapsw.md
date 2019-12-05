@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.tagWAVEINCAPSW
 title: WAVEINCAPSW (mmeapi.h)
-
 description: The WAVEINCAPS structure describes the capabilities of a waveform-audio input device.
 old-location: multimedia\waveincaps.htm
 tech.root: Multimedia
 ms.assetid: e96524fd-82d3-4363-989b-23fb20786f3c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAVEINCAPSW, *NPWAVEINCAPSW, *PWAVEINCAPSW, WAVEINCAPS, WAVEINCAPS structure [Windows Multimedia], WAVEINCAPSW, _win32_WAVEINCAPS_str, mmeapi/WAVEINCAPS, multimedia.waveincaps, tagWAVEINCAPSA, tagWAVEINCAPSW, waveincaps_tag"
+ms.keywords: '*LPWAVEINCAPSW, *NPWAVEINCAPSW, *PWAVEINCAPSW, WAVEINCAPS, WAVEINCAPS structure [Windows Multimedia], WAVEINCAPSW, _win32_WAVEINCAPS_str, mmeapi/WAVEINCAPS, multimedia.waveincaps, tagWAVEINCAPSA, tagWAVEINCAPSW, waveincaps_tag'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/WAVEINCAPS"
+f1_keywords:
+- mmeapi/WAVEINCAPS
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - WAVEINCAPS
- - WAVEINCAPSW
+- WAVEINCAPS
+- WAVEINCAPSW
 targetos: Windows
 req.typenames: WAVEINCAPSW, *PWAVEINCAPSW, *NPWAVEINCAPSW, *LPWAVEINCAPSW
 req.redist: 

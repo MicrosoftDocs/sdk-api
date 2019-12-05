@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFTUnregisterLocal
 title: MFTUnregisterLocal function (mfapi.h)
-
 description: Unregisters one or more Media Foundation transforms (MFTs) from the caller's process.
 old-location: mf\mftunregisterlocal.htm
 tech.root: medfound
 ms.assetid: e77edce7-0abb-41a3-a65e-fd159173e135
-
 ms.date: 12/05/2018
 ms.keywords: MFTUnregisterLocal, MFTUnregisterLocal function [Media Foundation], mf.mftunregisterlocal, mfapi/MFTUnregisterLocal
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFTUnregisterLocal"
+f1_keywords:
+- mfapi/MFTUnregisterLocal
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFTUnregisterLocal
+- MFTUnregisterLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

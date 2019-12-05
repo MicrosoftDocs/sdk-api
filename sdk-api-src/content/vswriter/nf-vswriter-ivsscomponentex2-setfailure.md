@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponentEx2.SetFailure
 title: IVssComponentEx2::SetFailure (vswriter.h)
-
 description: VSS writers call this method to report errors at the component level.
 old-location: base\ivsscomponentex2_setfailure.htm
 tech.root: VSS
 ms.assetid: f9fd728a-b205-4cfa-8e9e-e0a0d385f5a1
-
 ms.date: 12/05/2018
 ms.keywords: IVssComponentEx2 interface,SetFailure method, IVssComponentEx2.SetFailure, IVssComponentEx2::SetFailure, S_OK, SetFailure, SetFailure method, SetFailure method,IVssComponentEx2 interface, VSS_E_WRITERERROR_INCONSISTENTSNAPSHOT, VSS_E_WRITERERROR_NONRETRYABLE, VSS_E_WRITERERROR_OUTOFRESOURCES, VSS_E_WRITERERROR_RETRYABLE, VSS_E_WRITERERROR_TIMEOUT, base.ivsscomponentex2_setfailure, vswriter/IVssComponentEx2::SetFailure
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponentEx2.SetFailure"
+f1_keywords:
+- vswriter/IVssComponentEx2.SetFailure
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - vswriter.h
+- vswriter.h
 api_name:
- - IVssComponentEx2.SetFailure
+- IVssComponentEx2.SetFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnOverwrite
 title: IFileDialogEvents::OnOverwrite (shobjidl_core.h)
-
 description: Called from the save dialog when the user chooses to overwrite a file.
 old-location: shell\IFileDialogEvents_OnOverwrite.htm
 tech.root: shell
 ms.assetid: 825dcbed-3248-4d2e-bf5f-5d51f8f0529b
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnOverwrite method, IFileDialogEvents.OnOverwrite, IFileDialogEvents::OnOverwrite, OnOverwrite, OnOverwrite method [Windows Shell], OnOverwrite method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnOverwrite, shell_IFileDialogEvents_OnOverwrite, shobjidl_core/IFileDialogEvents::OnOverwrite
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogEvents.OnOverwrite"
+f1_keywords:
+- shobjidl_core/IFileDialogEvents.OnOverwrite
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnOverwrite
+- IFileDialogEvents.OnOverwrite
 targetos: Windows
 req.typenames: 
 req.redist: 

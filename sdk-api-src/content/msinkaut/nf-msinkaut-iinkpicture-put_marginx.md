@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_MarginX
 title: IInkPicture::put_MarginX (msinkaut.h)
-
 description: Gets or sets the x-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
 old-location: tablet\inkpicture_marginx.htm
 tech.root: tablet
 ms.assetid: c463debc-341b-4491-8543-70623bf717d0
-
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],MarginX property, IInkPicture.MarginX, IInkPicture.put_MarginX, IInkPicture::MarginX, IInkPicture::get_MarginX, IInkPicture::put_MarginX, InkPicture.get_MarginX, InkPicture.put_MarginX, MarginX property [Tablet PC], MarginX property [Tablet PC],IInkPicture interface, get_MarginX, msinkaut/IInkPicture::MarginX, msinkaut/IInkPicture::get_MarginX, msinkaut/IInkPicture::put_MarginX, put_MarginX, tablet.inkpicture_marginx
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.MarginX"
+f1_keywords:
+- msinkaut/IInkPicture.MarginX
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.MarginX
- - IInkPicture.get_MarginX
- - IInkPicture.put_MarginX
- - InkPicture.get_MarginX
- - InkPicture.put_MarginX
+- IInkPicture.MarginX
+- IInkPicture.get_MarginX
+- IInkPicture.put_MarginX
+- InkPicture.get_MarginX
+- InkPicture.put_MarginX
 targetos: Windows
 req.typenames: 
 req.redist: 

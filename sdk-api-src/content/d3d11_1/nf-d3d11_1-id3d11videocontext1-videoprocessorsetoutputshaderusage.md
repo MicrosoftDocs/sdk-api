@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage
 title: ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage (d3d11_1.h)
-
 description: Sets a value indicating whether the output surface from a call to ID3D11VideoContext::VideoProcessorBlt will be read by Direct3D shaders.
 old-location: mf\id3d11videocontext1_videoprocessorsetoutputshaderusage.htm
 tech.root: medfound
 ms.assetid: 84901282-D4FF-4084-B016-50A66910D0A2
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext1 interface [Media Foundation],VideoProcessorSetOutputShaderUsage method, ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage, ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage, VideoProcessorSetOutputShaderUsage, VideoProcessorSetOutputShaderUsage method [Media Foundation], VideoProcessorSetOutputShaderUsage method [Media Foundation],ID3D11VideoContext1 interface, d3d11_1/ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage, mf.id3d11videocontext1_videoprocessorsetoutputshaderusage
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage"
+f1_keywords:
+- d3d11_1/ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage
+- ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1CommandSink
 title: ID2D1CommandSink (d2d1_1.h)
-
 description: The command sink is implemented by you for an application when you want to receive a playback of the commands recorded in a command list.
 old-location: direct2d\id2d1commandsink.htm
 tech.root: Direct2D
 ms.assetid: 4e0ce837-7f4e-4b93-8dd7-68f60cfb1105
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1CommandSink, ID2D1CommandSink interface [Direct2D], ID2D1CommandSink interface [Direct2D],described, d2d1_1/ID2D1CommandSink, direct2d.id2d1commandsink
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink
+- ID2D1CommandSink
 targetos: Windows
 req.typenames: 
 req.redist: 

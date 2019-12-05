@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Stop
 title: IWSDDeviceHost::Stop (wsdhost.h)
-
 description: Sends a WS-Discovery Bye message and stops the host.
 old-location: ncd\iwsddevicehost_stop_method.htm
 tech.root: WsdApi
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94
-
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,Stop method, IWSDDeviceHost.Stop, IWSDDeviceHost::Stop, Stop, Stop method, Stop method,IWSDDeviceHost interface, ncd.iwsddevicehost_stop_method, wsdhost/IWSDDeviceHost::Stop
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost.Stop"
+f1_keywords:
+- wsdhost/IWSDDeviceHost.Stop
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost.Stop
+- IWSDDeviceHost.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_OID
 title: BCRYPT_OID (bcrypt.h)
-
 description: Contains information about a DER-encoded object identifier (OID).
 old-location: security\bcrypt_oid.htm
 tech.root: SecCNG
 ms.assetid: 00143883-88f7-4b15-bdba-128ee255abf6
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OID, BCRYPT_OID structure [Security], bcrypt/BCRYPT_OID, security.bcrypt_oid
 ms.topic: struct
 f1_keywords:
 - bcrypt/BCRYPT_OID
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

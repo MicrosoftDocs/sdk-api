@@ -1,19 +1,17 @@
 ---
 UID: NC:timeprov.SetProviderStatusInfoFreeFunc
 title: SetProviderStatusInfoFreeFunc (timeprov.h)
-
 description: Frees a SetProviderStatusInfo structure.
 old-location: base\setproviderstatusinfofreefunc.htm
 tech.root: SysInfo
 ms.assetid: ea26aa92-af2a-4764-934d-2a21989a216f
-
 ms.date: 12/05/2018
 ms.keywords: SetProviderStatusInfoFreeFunc, SetProviderStatusInfoFreeFunc callback, SetProviderStatusInfoFreeFunc callback function, _win32_setproviderstatusinfofreefunc, base.setproviderstatusinfofreefunc, timeprov/SetProviderStatusInfoFreeFunc
 ms.topic: callback
-f1_keywords: 
- - "timeprov/SetProviderStatusInfoFreeFunc"
+f1_keywords:
+- timeprov/SetProviderStatusInfoFreeFunc
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - SetProviderStatusInfoFreeFunc
+- SetProviderStatusInfoFreeFunc
 targetos: Windows
 req.typenames: 
 req.redist: 

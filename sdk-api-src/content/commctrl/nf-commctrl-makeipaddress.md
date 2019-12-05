@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MAKEIPADDRESS
 title: MAKEIPADDRESS macro (commctrl.h)
-
 description: Packs four byte-values into a single LPARAM suitable for use with the IPM_SETADDRESS message.
 old-location: controls\MAKEIPADDRESS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\ipaddress\macros\makeipaddress.htm
-
 ms.date: 12/05/2018
 ms.keywords: MAKEIPADDRESS, MAKEIPADDRESS macro [Windows Controls], _win32_MAKEIPADDRESS, _win32_MAKEIPADDRESS_cpp, commctrl/MAKEIPADDRESS, controls.MAKEIPADDRESS, controls._win32_MAKEIPADDRESS
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MAKEIPADDRESS"
+f1_keywords:
+- commctrl/MAKEIPADDRESS
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MAKEIPADDRESS
+- MAKEIPADDRESS
 targetos: Windows
 req.typenames: 
 req.redist: 

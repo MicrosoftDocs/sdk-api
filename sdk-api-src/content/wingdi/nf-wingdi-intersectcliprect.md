@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.IntersectClipRect
 title: IntersectClipRect function (wingdi.h)
-
 description: The IntersectClipRect function creates a new clipping region from the intersection of the current clipping region and the specified rectangle.
 old-location: gdi\intersectcliprect.htm
 tech.root: gdi
 ms.assetid: 9b3f9bfb-337b-45f0-b9ec-399e5f563638
-
 ms.date: 12/05/2018
 ms.keywords: IntersectClipRect, IntersectClipRect function [Windows GDI], _win32_IntersectClipRect, gdi.intersectcliprect, wingdi/IntersectClipRect
 ms.topic: function
-f1_keywords: 
- - "wingdi/IntersectClipRect"
+f1_keywords:
+- wingdi/IntersectClipRect
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-rgn-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-rgn-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - IntersectClipRect
+- IntersectClipRect
 targetos: Windows
 req.typenames: 
 req.redist: 

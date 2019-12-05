@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflectionType.ImplementsInterface
 title: ID3D11ShaderReflectionType::ImplementsInterface (d3d11shader.h)
-
 description: Indicates whether a class type implements an interface.
 old-location: direct3d11\id3d11shaderreflectiontype_implementsinterface.htm
 tech.root: direct3d11
 ms.assetid: 783f6026-10d1-4b24-a2d8-bbe26ae450eb
-
 ms.date: 12/05/2018
 ms.keywords: 806550ed-6d2f-16a0-b48b-9510e852ab3b, ID3D11ShaderReflectionType interface [Direct3D 11],ImplementsInterface method, ID3D11ShaderReflectionType.ImplementsInterface, ID3D11ShaderReflectionType::ImplementsInterface, ImplementsInterface, ImplementsInterface method [Direct3D 11], ImplementsInterface method [Direct3D 11],ID3D11ShaderReflectionType interface, d3d11shader/ID3D11ShaderReflectionType::ImplementsInterface, direct3d11.id3d11shaderreflectiontype_implementsinterface
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflectionType.ImplementsInterface"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflectionType.ImplementsInterface
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflectionType.ImplementsInterface
+- ID3D11ShaderReflectionType.ImplementsInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

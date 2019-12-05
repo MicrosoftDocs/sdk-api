@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedVerticalScrollPercent
 title: IUIAutomationScrollPattern::get_CachedVerticalScrollPercent (uiautomationclient.h)
-
 description: Retrieves the cached vertical scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: e2b7fb86-1a2b-4b49-8c8f-73445327e4d6
-
 ms.date: 12/05/2018
 ms.keywords: CachedVerticalScrollPercent property [Windows Accessibility], CachedVerticalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedVerticalScrollPercent property, IUIAutomationScrollPattern.CachedVerticalScrollPercent, IUIAutomationScrollPattern.get_CachedVerticalScrollPercent, IUIAutomationScrollPattern::CachedVerticalScrollPercent, IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, get_CachedVerticalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CachedVerticalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CachedVerticalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CachedVerticalScrollPercent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern.CachedVerticalScrollPercent"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern.CachedVerticalScrollPercent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CachedVerticalScrollPercent
- - IUIAutomationScrollPattern.get_CachedVerticalScrollPercent
+- IUIAutomationScrollPattern.CachedVerticalScrollPercent
+- IUIAutomationScrollPattern.get_CachedVerticalScrollPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.StartedMonitoringScope
 title: ISearchItemsChangedSink::StartedMonitoringScope (searchapi.h)
-
 description: Permits an index-managed notification source to add itself to a list of &#0034;monitored scopes&#0034;.
 old-location: search\_search_ISearchItemsChangedSink_StartedMonitoringScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\startedmonitoringscope.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchItemsChangedSink interface [search],StartedMonitoringScope method, ISearchItemsChangedSink.StartedMonitoringScope, ISearchItemsChangedSink::StartedMonitoringScope, StartedMonitoringScope, StartedMonitoringScope method [search], StartedMonitoringScope method [search],ISearchItemsChangedSink interface, _search_ISearchItemsChangedSink_StartedMonitoringScope, search._search_ISearchItemsChangedSink_StartedMonitoringScope, searchapi/ISearchItemsChangedSink::StartedMonitoringScope
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchItemsChangedSink.StartedMonitoringScope"
+f1_keywords:
+- searchapi/ISearchItemsChangedSink.StartedMonitoringScope
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchItemsChangedSink.StartedMonitoringScope
+- ISearchItemsChangedSink.StartedMonitoringScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

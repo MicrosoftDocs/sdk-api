@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IBootOptions.get_Emulation
 title: IBootOptions::get_Emulation (imapi2fs.h)
-
 description: Retrieves the media type that the boot image is intended to emulate.
 old-location: imapi\ibootoptions_get_emulation.htm
 tech.root: imapi
 ms.assetid: ade69c2b-ff25-4993-bf4c-ee372e3cc1b0
-
 ms.date: 12/05/2018
 ms.keywords: IBootOptions interface [IMAPI],get_Emulation method, IBootOptions.get_Emulation, IBootOptions::get_Emulation, get_Emulation, get_Emulation method [IMAPI], get_Emulation method [IMAPI],IBootOptions interface, imapi.ibootoptions_get_emulation, imapi2fs/IBootOptions::get_Emulation
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IBootOptions.get_Emulation"
+f1_keywords:
+- imapi2fs/IBootOptions.get_Emulation
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IBootOptions.get_Emulation
+- IBootOptions.get_Emulation
 targetos: Windows
 req.typenames: 
 req.redist: 

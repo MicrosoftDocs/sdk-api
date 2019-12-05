@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetCredential.SetUser
 title: IMFNetCredential::SetUser (mfidl.h)
-
 description: Sets the user name.
 old-location: mf\imfnetcredential_setuser.htm
 tech.root: medfound
 ms.assetid: 026a822a-4e48-4fc8-9781-5e427528a4d2
-
 ms.date: 12/05/2018
 ms.keywords: 026a822a-4e48-4fc8-9781-5e427528a4d2, IMFNetCredential interface [Media Foundation],SetUser method, IMFNetCredential.SetUser, IMFNetCredential::SetUser, SetUser, SetUser method [Media Foundation], SetUser method [Media Foundation],IMFNetCredential interface, mf.imfnetcredential_setuser, mfidl/IMFNetCredential::SetUser
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCredential.SetUser"
+f1_keywords:
+- mfidl/IMFNetCredential.SetUser
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCredential.SetUser
+- IMFNetCredential.SetUser
 targetos: Windows
 req.typenames: 
 req.redist: 

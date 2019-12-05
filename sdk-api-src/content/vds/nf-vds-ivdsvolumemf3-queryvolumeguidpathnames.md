@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumeMF3.QueryVolumeGuidPathnames
 title: IVdsVolumeMF3::QueryVolumeGuidPathnames (vds.h)
-
 description: Returns a list of volume GUID paths for the current volume.
 old-location: base\ivdsvolumemf3_queryvolumeguidpathnames.htm
 tech.root: VDS
 ms.assetid: 08311403-23a9-4191-9720-3cec805de825
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolumeMF3 interface,QueryVolumeGuidPathnames method, IVdsVolumeMF3.QueryVolumeGuidPathnames, IVdsVolumeMF3::QueryVolumeGuidPathnames, QueryVolumeGuidPathnames, QueryVolumeGuidPathnames method, QueryVolumeGuidPathnames method,IVdsVolumeMF3 interface, base.ivdsvolumemf3_queryvolumeguidpathnames, vds/IVdsVolumeMF3::QueryVolumeGuidPathnames
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVolumeMF3.QueryVolumeGuidPathnames"
+f1_keywords:
+- vds/IVdsVolumeMF3.QueryVolumeGuidPathnames
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVolumeMF3.QueryVolumeGuidPathnames
+- IVdsVolumeMF3.QueryVolumeGuidPathnames
 targetos: Windows
 req.typenames: 
 req.redist: 

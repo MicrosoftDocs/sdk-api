@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsmgmtw32.QueryLogPolicy
 title: QueryLogPolicy function (clfsmgmtw32.h)
-
 description: The QueryLogPolicy function allows you to obtain a policy that is installed for the specified log.
 old-location: fs\querylogpolicy.htm
 tech.root: Clfs
 ms.assetid: 45bed7c7-132e-48f9-8b9a-d8cb1580f456
-
 ms.date: 12/05/2018
 ms.keywords: QueryLogPolicy, QueryLogPolicy function [Files], clfsmgmtw32/QueryLogPolicy, fs.querylogpolicy
 ms.topic: function
 f1_keywords:
 - clfsmgmtw32/QueryLogPolicy
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

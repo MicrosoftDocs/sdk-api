@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMLoadColor
 title: XMLoadColor function (directxpackedvector.h)
-
 description: Loads an XMCOLOR into an XMVECTOR.
 old-location: dxmath\xmloadcolor.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadColor(const XMCOLOR)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadColor, XMLoadColor, XMLoadColor method [DirectX Math Support APIs], dxmath.xmloadcolor
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMLoadColor"
+f1_keywords:
+- directxpackedvector/XMLoadColor
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMLoadColor
+- XMLoadColor
 targetos: Windows
 req.typenames: 
 req.redist: 

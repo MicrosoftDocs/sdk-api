@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetMetadataEndpoints
 title: WsGetMetadataEndpoints function (webservices.h)
-
 description: Returns the &#0034;Endpoints&#0034; defined within the metadata object documents.
 old-location: wsw\wsgetmetadataendpoints.htm
 tech.root: wsw
 ms.assetid: 1cf9f2ba-c303-4668-a959-8fad69746438
-
 ms.date: 12/05/2018
 ms.keywords: WsGetMetadataEndpoints, WsGetMetadataEndpoints function [Web Services for Windows], webservices/WsGetMetadataEndpoints, wsw.wsgetmetadataendpoints
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetMetadataEndpoints"
+f1_keywords:
+- webservices/WsGetMetadataEndpoints
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetMetadataEndpoints
+- WsGetMetadataEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 

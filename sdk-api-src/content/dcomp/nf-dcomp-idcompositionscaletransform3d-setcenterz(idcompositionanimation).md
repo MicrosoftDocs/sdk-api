@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetCenterZ(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the CenterZ property of a 3D scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setcenterz_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 7A64DE5A-90DF-4B20-B851-D7FD730CAB48
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetCenterZ method, IDCompositionScaleTransform3D.SetCenterZ, IDCompositionScaleTransform3D.SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ, IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation), IDCompositionScaleTransform3D::SetCenterZ(IDCompositionAnimation*), SetCenterZ, SetCenterZ method [DirectComposition], SetCenterZ method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetCenterZ, directcomp.idcompositionscaletransform3d_setcenterz_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform3D.SetCenterZ"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform3D.SetCenterZ
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D.SetCenterZ
+- IDCompositionScaleTransform3D.SetCenterZ
 targetos: Windows
 req.typenames: 
 req.redist: 

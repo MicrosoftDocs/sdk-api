@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetIsHyperlinkTarget
 title: IXpsOMVisual::GetIsHyperlinkTarget (xpsobjectmodel.h)
-
 description: Gets a value that indicates whether the visual is the target of a hyperlink.
 old-location: xps\ixpsomvisual_getishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: bd6047a6-d6ba-4c62-8f4c-0348e3281d75
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetIsHyperlinkTarget, GetIsHyperlinkTarget method [XPS Documents and Packaging], GetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetIsHyperlinkTarget method, IXpsOMVisual.GetIsHyperlinkTarget, IXpsOMVisual::GetIsHyperlinkTarget, TRUE, xps.ixpsomvisual_getishyperlinktarget, xpsobjectmodel/IXpsOMVisual::GetIsHyperlinkTarget
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetIsHyperlinkTarget"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetIsHyperlinkTarget
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetIsHyperlinkTarget
+- IXpsOMVisual.GetIsHyperlinkTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

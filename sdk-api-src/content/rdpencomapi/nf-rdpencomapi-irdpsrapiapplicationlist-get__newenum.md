@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplicationList.get__NewEnum
 title: IRDPSRAPIApplicationList::get__NewEnum (rdpencomapi.h)
-
 description: An enumerator interface for the application collection.
 old-location: rdp\irdpsrapiapplicationlist__newenum.htm
 tech.root: rdp
 ms.assetid: 946cba06-9cc1-4a44-aeed-0b636d737edd
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplicationList interface [RDP],_NewEnum property, IRDPSRAPIApplicationList._NewEnum, IRDPSRAPIApplicationList.get__NewEnum, IRDPSRAPIApplicationList::_NewEnum, IRDPSRAPIApplicationList::get__NewEnum, RDPSRAPIApplicationList object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIApplicationList interface, _NewEnum property [RDP],RDPSRAPIApplicationList object, get__NewEnum, rdp.irdpsrapiapplicationlist__newenum, rdpencomapi/IRDPSRAPIApplicationList::_NewEnum, rdpencomapi/IRDPSRAPIApplicationList::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIApplicationList._NewEnum"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIApplicationList._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIApplicationList._NewEnum
- - IRDPSRAPIApplicationList.get__NewEnum
- - RDPSRAPIApplicationList._NewEnum
+- IRDPSRAPIApplicationList._NewEnum
+- IRDPSRAPIApplicationList.get__NewEnum
+- RDPSRAPIApplicationList._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

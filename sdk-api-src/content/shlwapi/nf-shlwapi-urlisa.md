@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlIsA
 title: UrlIsA function (shlwapi.h)
-
 description: Tests whether a URL is a specified type.
 old-location: shell\UrlIs.htm
 tech.root: shell
 ms.assetid: 2e83c953-b4c5-4411-90ca-49ffb94ee374
-
 ms.date: 12/05/2018
 ms.keywords: URLIS_APPLIABLE, URLIS_DIRECTORY, URLIS_FILEURL, URLIS_HASQUERY, URLIS_NOHISTORY, URLIS_OPAQUE, URLIS_URL, UrlIs, UrlIs function [Windows Shell], UrlIsA, UrlIsW, _win32_UrlIs, shell.UrlIs, shlwapi/UrlIs, shlwapi/UrlIsA, shlwapi/UrlIsW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/UrlIs"
+f1_keywords:
+- shlwapi/UrlIs
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlIs
- - UrlIsA
- - UrlIsW
+- UrlIs
+- UrlIsA
+- UrlIsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:dxvahd._DXVAHD_FILTER
 title: DXVAHD_FILTER (dxvahd.h)
-
 description: Specifies image filters for Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processing.
 old-location: mf\dxvahd_filter.htm
 tech.root: medfound
 ms.assetid: e6abac04-c8cb-4130-b48e-fb5d25794d62
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_FILTER, DXVAHD_FILTER enumeration [Media Foundation], DXVAHD_FILTER_ANAMORPHIC_SCALING, DXVAHD_FILTER_BRIGHTNESS, DXVAHD_FILTER_CONTRAST, DXVAHD_FILTER_EDGE_ENHANCEMENT, DXVAHD_FILTER_HUE, DXVAHD_FILTER_NOISE_REDUCTION, DXVAHD_FILTER_SATURATION, dxvahd/DXVAHD_FILTER, dxvahd/DXVAHD_FILTER_ANAMORPHIC_SCALING, dxvahd/DXVAHD_FILTER_BRIGHTNESS, dxvahd/DXVAHD_FILTER_CONTRAST, dxvahd/DXVAHD_FILTER_EDGE_ENHANCEMENT, dxvahd/DXVAHD_FILTER_HUE, dxvahd/DXVAHD_FILTER_NOISE_REDUCTION, dxvahd/DXVAHD_FILTER_SATURATION, mf.dxvahd_filter
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_FILTER"
+f1_keywords:
+- dxvahd/DXVAHD_FILTER
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_FILTER
+- DXVAHD_FILTER
 targetos: Windows
 req.typenames: DXVAHD_FILTER
 req.redist: 

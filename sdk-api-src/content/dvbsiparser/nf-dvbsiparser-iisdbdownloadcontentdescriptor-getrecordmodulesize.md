@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetRecordModuleSize
 title: IIsdbDownloadContentDescriptor::GetRecordModuleSize (dvbsiparser.h)
-
 description: Gets the size of a module from an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
 old-location: mstv\iisdbdownloadcontentdescriptor_getrecordmodulesize.htm
 tech.root: mstv
 ms.assetid: 395264ee-63de-4de4-bd28-4d5c4634dcf3
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordModuleSize, GetRecordModuleSize method [Microsoft TV Technologies], GetRecordModuleSize method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetRecordModuleSize method, IIsdbDownloadContentDescriptor.GetRecordModuleSize, IIsdbDownloadContentDescriptor::GetRecordModuleSize, dvbsiparser/IIsdbDownloadContentDescriptor::GetRecordModuleSize, mstv.iisdbdownloadcontentdescriptor_getrecordmodulesize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDownloadContentDescriptor.GetRecordModuleSize"
+f1_keywords:
+- dvbsiparser/IIsdbDownloadContentDescriptor.GetRecordModuleSize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDownloadContentDescriptor.GetRecordModuleSize
+- IIsdbDownloadContentDescriptor.GetRecordModuleSize
 targetos: Windows
 req.typenames: 
 req.redist: 

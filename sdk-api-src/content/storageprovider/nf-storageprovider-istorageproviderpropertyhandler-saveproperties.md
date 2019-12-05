@@ -1,19 +1,17 @@
 ---
 UID: NF:storageprovider.IStorageProviderPropertyHandler.SaveProperties
 title: IStorageProviderPropertyHandler::SaveProperties (storageprovider.h)
-
 description: Saves properties associated with a file or folder.
 old-location: shell\istorageproviderpropertyhandler_saveproperties.htm
 tech.root: shell
 ms.assetid: 983751BA-BF36-4018-A95A-4BEA1E9BA3BF
-
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],SaveProperties method, IStorageProviderPropertyHandler.SaveProperties, IStorageProviderPropertyHandler::SaveProperties, SaveProperties, SaveProperties method [Windows Shell], SaveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_saveproperties, storageprovider/IStorageProviderPropertyHandler::SaveProperties
 ms.topic: method
-f1_keywords: 
- - "storageprovider/IStorageProviderPropertyHandler.SaveProperties"
+f1_keywords:
+- storageprovider/IStorageProviderPropertyHandler.SaveProperties
 dev_langs:
- - c++
+- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - storageprovider.h
+- storageprovider.h
 api_name:
- - IStorageProviderPropertyHandler.SaveProperties
+- IStorageProviderPropertyHandler.SaveProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

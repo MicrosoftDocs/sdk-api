@@ -1,19 +1,17 @@
 ---
 UID: NE:rend.DIRECTORY_TYPE
 title: DIRECTORY_TYPE (rend.h)
-
 description: The DIRECTORY_TYPE enum is used to indicate the type of directory server.
 old-location: tapi3\directory_type.htm
 tech.root: Tapi
 ms.assetid: dd4292f0-ca76-4464-b0fb-288ce5813a40
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTORY_TYPE, DIRECTORY_TYPE enumeration [TAPI 2.2], DT_ILS, DT_NTDS, _tapi3_directory_type, rend/DIRECTORY_TYPE, rend/DT_ILS, rend/DT_NTDS, tapi3.directory_type
 ms.topic: enum
-f1_keywords: 
- - "rend/DIRECTORY_TYPE"
+f1_keywords:
+- rend/DIRECTORY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rend.h
+- Rend.h
 api_name:
- - DIRECTORY_TYPE
+- DIRECTORY_TYPE
 targetos: Windows
 req.typenames: DIRECTORY_TYPE
 req.redist: 

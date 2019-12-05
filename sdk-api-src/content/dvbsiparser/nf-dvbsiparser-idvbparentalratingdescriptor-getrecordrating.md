@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetRecordRating
 title: IDvbParentalRatingDescriptor::GetRecordRating (dvbsiparser.h)
-
 description: Gets a code that indicates the age-based rating for a Digital Video Broadcast (DVB) broadcast from a DVB parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getrecordrating.htm
 tech.root: mstv
 ms.assetid: 1b439669-6458-46d3-882d-5f20f2f22f23
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordRating, GetRecordRating method [Microsoft TV Technologies], GetRecordRating method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetRecordRating method, IDvbParentalRatingDescriptor.GetRecordRating, IDvbParentalRatingDescriptor::GetRecordRating, dvbsiparser/IDvbParentalRatingDescriptor::GetRecordRating, mstv.idvbparentalratingdescriptor_getrecordrating
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbParentalRatingDescriptor.GetRecordRating"
+f1_keywords:
+- dvbsiparser/IDvbParentalRatingDescriptor.GetRecordRating
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbParentalRatingDescriptor.GetRecordRating
+- IDvbParentalRatingDescriptor.GetRecordRating
 targetos: Windows
 req.typenames: 
 req.redist: 

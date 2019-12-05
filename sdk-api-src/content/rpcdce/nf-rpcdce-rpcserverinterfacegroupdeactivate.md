@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerInterfaceGroupDeactivate
 title: RpcServerInterfaceGroupDeactivate function (rpcdce.h)
-
 description: The RpcServerInterfaceGroupDeactivate function tells the RPC runtime to attempt to close the given interface group, optionally aborting the operation if there is outstanding client activity.
 old-location: rpc\rpcserverinterfacegroupdeactivate.htm
 tech.root: Rpc
 ms.assetid: 625D8E6E-278F-4A96-879B-64294531D21B
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInterfaceGroupDeactivate, RpcServerInterfaceGroupDeactivate function [RPC], rpc.rpcserverinterfacegroupdeactivate, rpcdce/RpcServerInterfaceGroupDeactivate
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerInterfaceGroupDeactivate"
+f1_keywords:
+- rpcdce/RpcServerInterfaceGroupDeactivate
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInterfaceGroupDeactivate
+- RpcServerInterfaceGroupDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

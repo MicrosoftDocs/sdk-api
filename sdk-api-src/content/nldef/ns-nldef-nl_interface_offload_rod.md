@@ -1,19 +1,17 @@
 ---
 UID: NS:nldef._NL_INTERFACE_OFFLOAD_ROD
 title: NL_INTERFACE_OFFLOAD_ROD (nldef.h)
-
 description: Specifies a set of flags that indicate the offload capabilities for an IP interface.
 old-location: mib\nl_interface_offload_rod.htm
 tech.root: MIB
 ms.assetid: 764c7f5a-00df-461d-99ee-07f9e1f77ec7
-
 ms.date: 12/05/2018
-ms.keywords: "*PNL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD structure [MIB], PNL_INTERFACE_OFFLOAD_ROD, PNL_INTERFACE_OFFLOAD_ROD structure pointer [MIB], mib.nl_interface_offload_rod, nldef/NL_INTERFACE_OFFLOAD_ROD, nldef/PNL_INTERFACE_OFFLOAD_ROD"
+ms.keywords: '*PNL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD, NL_INTERFACE_OFFLOAD_ROD structure [MIB], PNL_INTERFACE_OFFLOAD_ROD, PNL_INTERFACE_OFFLOAD_ROD structure pointer [MIB], mib.nl_interface_offload_rod, nldef/NL_INTERFACE_OFFLOAD_ROD, nldef/PNL_INTERFACE_OFFLOAD_ROD'
 ms.topic: struct
-f1_keywords: 
- - "nldef/NL_INTERFACE_OFFLOAD_ROD"
+f1_keywords:
+- nldef/NL_INTERFACE_OFFLOAD_ROD
 dev_langs:
- - c++
+- c++
 req.header: nldef.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Nldef.h
+- Nldef.h
 api_name:
- - NL_INTERFACE_OFFLOAD_ROD
+- NL_INTERFACE_OFFLOAD_ROD
 targetos: Windows
 req.typenames: NL_INTERFACE_OFFLOAD_ROD, *PNL_INTERFACE_OFFLOAD_ROD
 req.redist: 

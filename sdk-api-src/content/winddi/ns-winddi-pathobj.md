@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._PATHOBJ
 title: PATHOBJ (winddi.h)
-
 description: The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled.
 old-location: display\pathobj.htm
 tech.root: display
 ms.assetid: ceccca92-3312-49b4-b0f6-a3d0cd4bbef5
-
 ms.date: 12/05/2018
 ms.keywords: PATHOBJ, PATHOBJ structure [Display Devices], display.pathobj, grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml, winddi/PATHOBJ
 ms.topic: struct
-f1_keywords: 
- - "winddi/PATHOBJ"
+f1_keywords:
+- winddi/PATHOBJ
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - PATHOBJ
+- PATHOBJ
 targetos: Windows
 req.typenames: PATHOBJ
 req.redist: 

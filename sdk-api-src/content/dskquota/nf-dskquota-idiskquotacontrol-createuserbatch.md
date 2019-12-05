@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.CreateUserBatch
 title: IDiskQuotaControl::CreateUserBatch (dskquota.h)
-
 description: Creates a batching object for optimizing updates to the quota settings of multiple users simultaneously.
 old-location: fs\idiskquotacontrol_createuserbatch.htm
 tech.root: FileIO
 ms.assetid: c1c5a71f-4a2f-4bf9-b28f-11b87a558771
-
 ms.date: 12/05/2018
 ms.keywords: CreateUserBatch, CreateUserBatch method [Files], CreateUserBatch method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],CreateUserBatch method, IDiskQuotaControl.CreateUserBatch, IDiskQuotaControl::CreateUserBatch, _win32_idiskquotacontrol_createuserbatch, base.idiskquotacontrol_createuserbatch, dskquota/IDiskQuotaControl::CreateUserBatch, fs.idiskquotacontrol_createuserbatch
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.CreateUserBatch"
+f1_keywords:
+- dskquota/IDiskQuotaControl.CreateUserBatch
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.CreateUserBatch
+- IDiskQuotaControl.CreateUserBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

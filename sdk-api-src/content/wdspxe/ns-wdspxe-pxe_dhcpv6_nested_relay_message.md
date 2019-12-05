@@ -1,19 +1,17 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_NESTED_RELAY_MESSAGE
 title: PXE_DHCPV6_NESTED_RELAY_MESSAGE (wdspxe.h)
-
 description: Describes packets nested in OPTION_RELAY_MSG message.
 old-location: wds\pxe_dhcpv6_nested_relay_message.htm
 tech.root: wds
 ms.assetid: BD796237-8ADE-45EC-9436-7BE2BC2C2D4E
-
 ms.date: 12/05/2018
-ms.keywords: "*PPXE_DHCPV6_NESTED_RELAY_MESSAGE, PPXE_DHCPV6_NESTED_RELAY_MESSAGE, PPXE_DHCPV6_NESTED_RELAY_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCPV6_NESTED_RELAY_MESSAGE, PXE_DHCPV6_NESTED_RELAY_MESSAGE structure [Windows Deployment Services], wds.pxe_dhcpv6_nested_relay_message, wdspxe/PPXE_DHCPV6_NESTED_RELAY_MESSAGE, wdspxe/PXE_DHCPV6_NESTED_RELAY_MESSAGE"
+ms.keywords: '*PPXE_DHCPV6_NESTED_RELAY_MESSAGE, PPXE_DHCPV6_NESTED_RELAY_MESSAGE, PPXE_DHCPV6_NESTED_RELAY_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCPV6_NESTED_RELAY_MESSAGE, PXE_DHCPV6_NESTED_RELAY_MESSAGE structure [Windows Deployment Services], wds.pxe_dhcpv6_nested_relay_message, wdspxe/PPXE_DHCPV6_NESTED_RELAY_MESSAGE, wdspxe/PXE_DHCPV6_NESTED_RELAY_MESSAGE'
 ms.topic: struct
-f1_keywords: 
- - "wdspxe/PXE_DHCPV6_NESTED_RELAY_MESSAGE"
+f1_keywords:
+- wdspxe/PXE_DHCPV6_NESTED_RELAY_MESSAGE
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WdsPxe.h
+- WdsPxe.h
 api_name:
- - PXE_DHCPV6_NESTED_RELAY_MESSAGE
+- PXE_DHCPV6_NESTED_RELAY_MESSAGE
 targetos: Windows
 req.typenames: PXE_DHCPV6_NESTED_RELAY_MESSAGE, *PPXE_DHCPV6_NESTED_RELAY_MESSAGE
 req.redist: 

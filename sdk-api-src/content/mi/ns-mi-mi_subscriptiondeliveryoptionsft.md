@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_SubscriptionDeliveryOptionsFT
 title: MI_SubscriptionDeliveryOptionsFT (mi.h)
-
 description: A support structure used in the MI_SubscriptionDeliveryOptions structure. Use the functions with the name prefix &#0034;MI_SubscriptionDeliveryOptions_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_subscriptiondeliveryoptionsft.htm
 tech.root: wmi_v2
 ms.assetid: b6f5406a-2abe-4cab-b257-185d77e1fb0e
-
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptionsFT, MI_SubscriptionDeliveryOptionsFT structure [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptionsFT, wmi_v2.mi_subscriptiondeliveryoptionsft
 ms.topic: struct
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptionsFT
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

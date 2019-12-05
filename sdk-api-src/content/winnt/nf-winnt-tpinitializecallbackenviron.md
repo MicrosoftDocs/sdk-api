@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.TpInitializeCallbackEnviron
 title: TpInitializeCallbackEnviron function (winnt.h)
-
 description: Initializes a callback environment for the thread pool.
 old-location: base\tpinitializecallbackenviron.htm
 tech.root: ProcThread
 ms.assetid: 4602CB19-D8C0-460E-A853-8DDECE643A76
-
 ms.date: 12/05/2018
 ms.keywords: TpInitializeCallbackEnviron, TpInitializeCallbackEnviron function, base.tpinitializecallbackenviron, winnt/TpInitializeCallbackEnviron
 ms.topic: function
-f1_keywords: 
- - "winnt/TpInitializeCallbackEnviron"
+f1_keywords:
+- winnt/TpInitializeCallbackEnviron
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - TpInitializeCallbackEnviron
+- TpInitializeCallbackEnviron
 targetos: Windows
 req.typenames: 
 req.redist: 

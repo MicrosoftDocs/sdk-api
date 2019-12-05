@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.SetCenter
 title: IXpsOMRadialGradientBrush::SetCenter (xpsobjectmodel.h)
-
 description: Sets the center point of the radial gradient region ellipse.
 old-location: xps\ixpsomradialgradientbrush_setcenter.htm
 tech.root: printdocs
 ms.assetid: 7f1fd304-8495-40b3-b11f-7af9924150eb
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],SetCenter method, IXpsOMRadialGradientBrush.SetCenter, IXpsOMRadialGradientBrush::SetCenter, SetCenter, SetCenter method [XPS Documents and Packaging], SetCenter method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, xps.ixpsomradialgradientbrush_setcenter, xpsobjectmodel/IXpsOMRadialGradientBrush::SetCenter
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRadialGradientBrush.SetCenter"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRadialGradientBrush.SetCenter
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRadialGradientBrush.SetCenter
+- IXpsOMRadialGradientBrush.SetCenter
 targetos: Windows
 req.typenames: 
 req.redist: 

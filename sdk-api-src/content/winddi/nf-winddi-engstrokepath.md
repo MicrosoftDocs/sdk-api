@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngStrokePath
 title: EngStrokePath function (winddi.h)
-
 description: The EngStrokePath function requests that GDI stroke a specified path.
 old-location: display\engstrokepath.htm
 tech.root: display
 ms.assetid: e592297d-69ff-443e-bc76-9849b61a6915
-
 ms.date: 12/05/2018
 ms.keywords: EngStrokePath, EngStrokePath function [Display Devices], display.engstrokepath, gdifncs_d6a5ca42-fa75-4cba-8eff-d8c0801d058b.xml, winddi/EngStrokePath
 ms.topic: function
 f1_keywords:
 - winddi/EngStrokePath
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

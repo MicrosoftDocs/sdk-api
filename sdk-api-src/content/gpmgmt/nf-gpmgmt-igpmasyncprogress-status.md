@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMAsyncProgress.Status
 title: IGPMAsyncProgress::Status (gpmgmt.h)
-
 description: The server calls this method to notify the client about the status of a Group Policy Management Console (GPMC) operation.
 old-location: gpmc\igpmasyncprogress_status.htm
 tech.root: gpmc
 ms.assetid: db5d59a2-ab46-42f1-9637-6b342795c9f0
-
 ms.date: 12/05/2018
 ms.keywords: IGPMAsyncProgress interface [GPMC],Status method, IGPMAsyncProgress.Status, IGPMAsyncProgress::Status, Status, Status method [GPMC], Status method [GPMC],IGPMAsyncProgress interface, _win32_igpmasyncprogress_status, gpmc.igpmasyncprogress_status, gpmgmt/IGPMAsyncProgress::Status
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMAsyncProgress.Status"
+f1_keywords:
+- gpmgmt/IGPMAsyncProgress.Status
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMAsyncProgress.Status
+- IGPMAsyncProgress.Status
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:contentpartner.IWMPContentContainer
 title: IWMPContentContainer (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentcontainer.htm
 tech.root: WMP
 ms.assetid: 32a68af3-9270-4ac1-b133-a2770220dfcb
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentContainer, IWMPContentContainer interface [Windows Media Player], IWMPContentContainer interface [Windows Media Player],described, IWMPContentContainerInterface, contentpartner/IWMPContentContainer, wmp.iwmpcontentcontainer
 ms.topic: interface
-f1_keywords: 
- - "contentpartner/IWMPContentContainer"
+f1_keywords:
+- contentpartner/IWMPContentContainer
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentContainer
+- IWMPContentContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

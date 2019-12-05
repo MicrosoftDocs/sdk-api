@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext2.AddApplicationGroups
 title: IAzClientContext2::AddApplicationGroups (azroles.h)
-
 description: Adds the specified array of existing IAzApplicationGroup objects to the client context object.
 old-location: security\iazclientcontext2_addapplicationgroups.htm
 tech.root: SecAuthZ
 ms.assetid: 8ad7c7df-0bdd-4ea1-9a9e-98323b82c0b0
-
 ms.date: 12/05/2018
 ms.keywords: AddApplicationGroups, AddApplicationGroups method [Security], AddApplicationGroups method [Security],IAzClientContext2 interface, IAzClientContext2 interface [Security],AddApplicationGroups method, IAzClientContext2.AddApplicationGroups, IAzClientContext2::AddApplicationGroups, azroles/IAzClientContext2::AddApplicationGroups, security.iazclientcontext2_addapplicationgroups
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext2.AddApplicationGroups"
+f1_keywords:
+- azroles/IAzClientContext2.AddApplicationGroups
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext2.AddApplicationGroups
+- IAzClientContext2.AddApplicationGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

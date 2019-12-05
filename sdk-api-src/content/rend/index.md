@@ -1,7 +1,6 @@
 ---
 UID: NA:rend
 ms.assetid: c1afc144-3799-37a1-9287-ce110baa1159
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerBufferSize
 title: NdrInterfacePointerBufferSize function (rpcndr.h)
-
 description: The NdrInterfacePointerBufferSize function calculates the size of the buffer, in bytes, needed to marshal the interface pointer.
 old-location: rpc\ndrinterfacepointerbuffersize.htm
 tech.root: Rpc
 ms.assetid: 815ebf99-f616-44e3-9b87-25d9a889cf6b
-
 ms.date: 12/05/2018
 ms.keywords: NdrInterfacePointerBufferSize, NdrInterfacePointerBufferSize function [RPC], rpc.ndrinterfacepointerbuffersize, rpcndr/NdrInterfacePointerBufferSize
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrInterfacePointerBufferSize
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

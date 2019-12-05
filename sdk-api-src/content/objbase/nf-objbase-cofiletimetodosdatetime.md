@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoFileTimeToDosDateTime
 title: CoFileTimeToDosDateTime function (objbase.h)
-
 description: Converts a FILETIME into MS-DOS date and time values.
 old-location: com\cofiletimetodosdatetime.htm
 tech.root: com
 ms.assetid: 38670fe7-10cf-44e2-a5f1-60ec43fd83b5
-
 ms.date: 12/05/2018
 ms.keywords: CoFileTimeToDosDateTime, CoFileTimeToDosDateTime function [COM], _com_CoFileTimeToDosDateTime, com.cofiletimetodosdatetime, objbase/CoFileTimeToDosDateTime
 ms.topic: function
-f1_keywords: 
- - "objbase/CoFileTimeToDosDateTime"
+f1_keywords:
+- objbase/CoFileTimeToDosDateTime
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CoFileTimeToDosDateTime
+- CoFileTimeToDosDateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

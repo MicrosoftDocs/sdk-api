@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetColumnPropertyList
 title: IFolderViewSettings::GetColumnPropertyList (shobjidl_core.h)
-
 description: Gets an ordered list of columns that corresponds to the column enumerated.
 old-location: shell\IFolderViewSettings_GetColumnPropertyList.htm
 tech.root: shell
 ms.assetid: 30678ace-e6b2-4655-b92f-fc8a1899e3e0
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnPropertyList, GetColumnPropertyList method [Windows Shell], GetColumnPropertyList method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetColumnPropertyList method, IFolderViewSettings.GetColumnPropertyList, IFolderViewSettings::GetColumnPropertyList, _shell_IFolderViewSettings_GetColumnPropertyList, shell.IFolderViewSettings_GetColumnPropertyList, shobjidl_core/IFolderViewSettings::GetColumnPropertyList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderViewSettings.GetColumnPropertyList"
+f1_keywords:
+- shobjidl_core/IFolderViewSettings.GetColumnPropertyList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderViewSettings.GetColumnPropertyList
+- IFolderViewSettings.GetColumnPropertyList
 targetos: Windows
 req.typenames: 
 req.redist: 

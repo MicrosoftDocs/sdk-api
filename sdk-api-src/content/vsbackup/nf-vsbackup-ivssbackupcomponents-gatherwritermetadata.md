@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GatherWriterMetadata
 title: IVssBackupComponents::GatherWriterMetadata (vsbackup.h)
-
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm
 tech.root: VSS
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
-
 ms.date: 12/05/2018
 ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.GatherWriterMetadata"
+f1_keywords:
+- vsbackup/IVssBackupComponents.GatherWriterMetadata
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.GatherWriterMetadata
+- IVssBackupComponents.GatherWriterMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

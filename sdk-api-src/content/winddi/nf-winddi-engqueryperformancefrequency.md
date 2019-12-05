@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngQueryPerformanceFrequency
 title: EngQueryPerformanceFrequency function (winddi.h)
-
 description: The EngQueryPerformanceFrequency function queries the frequency of the performance counter.
 old-location: display\engqueryperformancefrequency.htm
 tech.root: display
 ms.assetid: d4194278-eb49-43e4-b4bf-576e65d9e5ad
-
 ms.date: 12/05/2018
 ms.keywords: EngQueryPerformanceFrequency, EngQueryPerformanceFrequency function [Display Devices], display.engqueryperformancefrequency, gdifncs_46139586-61a2-4418-9400-ac9bbce12167.xml, winddi/EngQueryPerformanceFrequency
 ms.topic: function
-f1_keywords: 
- - "winddi/EngQueryPerformanceFrequency"
+f1_keywords:
+- winddi/EngQueryPerformanceFrequency
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngQueryPerformanceFrequency
+- EngQueryPerformanceFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

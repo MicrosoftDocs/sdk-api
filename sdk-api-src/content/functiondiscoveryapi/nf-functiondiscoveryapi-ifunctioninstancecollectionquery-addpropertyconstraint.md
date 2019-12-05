@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollectionQuery.AddPropertyConstraint
 title: IFunctionInstanceCollectionQuery::AddPropertyConstraint (functiondiscoveryapi.h)
-
 description: Adds a property constraint to the query.
 old-location: ncd\ifunctioninstancecollectionquery_addpropertyconstraint_method.htm
 tech.root: FunDisc
 ms.assetid: 4ff850a8-3208-4fb4-a581-7581e71f34e6
-
 ms.date: 12/05/2018
 ms.keywords: AddPropertyConstraint, AddPropertyConstraint method, AddPropertyConstraint method,IFunctionInstanceCollectionQuery interface, IFunctionInstanceCollectionQuery interface,AddPropertyConstraint method, IFunctionInstanceCollectionQuery.AddPropertyConstraint, IFunctionInstanceCollectionQuery::AddPropertyConstraint, functiondiscoveryapi/IFunctionInstanceCollectionQuery::AddPropertyConstraint, ncd.ifunctioninstancecollectionquery_addpropertyconstraint_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceCollectionQuery.AddPropertyConstraint"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceCollectionQuery.AddPropertyConstraint
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceCollectionQuery.AddPropertyConstraint
+- IFunctionInstanceCollectionQuery.AddPropertyConstraint
 targetos: Windows
 req.typenames: 
 req.redist: 

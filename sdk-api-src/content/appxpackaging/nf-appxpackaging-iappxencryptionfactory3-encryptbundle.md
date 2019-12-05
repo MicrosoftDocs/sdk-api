@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.EncryptBundle
 title: IAppxEncryptionFactory3::EncryptBundle (appxpackaging.h)
-
 description: Creates an encrypted Windows app bundle from an unencrypted one.
 old-location: appxpkg\iappxencryptionfactory3_encryptbundle.htm
 tech.root: appxpkg
 ms.assetid: 4ECF7227-08A1-4AEB-8545-420090131FB8
-
 ms.date: 12/05/2018
 ms.keywords: EncryptBundle, EncryptBundle method [App packaging and management], EncryptBundle method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],EncryptBundle method, IAppxEncryptionFactory3.EncryptBundle, IAppxEncryptionFactory3::EncryptBundle, appxpackaging/IAppxEncryptionFactory3::EncryptBundle, appxpkg.iappxencryptionfactory3_encryptbundle
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptionFactory3.EncryptBundle"
+f1_keywords:
+- appxpackaging/IAppxEncryptionFactory3.EncryptBundle
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory3.EncryptBundle
+- IAppxEncryptionFactory3.EncryptBundle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFQualityAdvise
 title: IMFQualityAdvise (mfidl.h)
-
 description: Enables the quality manager to adjust the audio or video quality of a component in the pipeline.
 old-location: mf\imfqualityadvise.htm
 tech.root: medfound
 ms.assetid: 20681ce7-e07e-4e34-9238-ec23cc6bfc84
-
 ms.date: 12/05/2018
 ms.keywords: 20681ce7-e07e-4e34-9238-ec23cc6bfc84, IMFQualityAdvise, IMFQualityAdvise interface [Media Foundation], IMFQualityAdvise interface [Media Foundation],described, mf.imfqualityadvise, mfidl/IMFQualityAdvise
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFQualityAdvise"
+f1_keywords:
+- mfidl/IMFQualityAdvise
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFQualityAdvise
+- IMFQualityAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

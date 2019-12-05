@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetTrimming
 title: StringFormat::SetTrimming (gdiplusstringformat.h)
-
 description: The StringFormat::SetTrimming method sets the trimming style for this StringFormat object. The trimming style determines how to trim a string so that it fits into the layout rectangle.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetTrimming_trimming_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\settrimming.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetTrimming, SetTrimming method [GDI+], SetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],SetTrimming method, StringFormat.SetTrimming, StringFormat::SetTrimming, _gdiplus_CLASS_StringFormat_SetTrimming_trimming_, gdiplus._gdiplus_CLASS_StringFormat_SetTrimming_trimming_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.SetTrimming"
+f1_keywords:
+- gdiplusstringformat/StringFormat.SetTrimming
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.SetTrimming
+- StringFormat.SetTrimming
 targetos: Windows
 req.typenames: 
 req.redist: 

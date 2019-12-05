@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_BlockCount
 title: IProgressItem::get_BlockCount (imapi2fs.h)
-
 description: Retrieves the number of blocks in the progress item.
 old-location: imapi\iprogressitem_get_blockcount.htm
 tech.root: imapi
 ms.assetid: 6960fecb-f202-4a10-9abb-fc945217a314
-
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_BlockCount method, IProgressItem.get_BlockCount, IProgressItem::get_BlockCount, get_BlockCount, get_BlockCount method [IMAPI], get_BlockCount method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_blockcount, imapi2fs/IProgressItem::get_BlockCount
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IProgressItem.get_BlockCount"
+f1_keywords:
+- imapi2fs/IProgressItem.get_BlockCount
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IProgressItem.get_BlockCount
+- IProgressItem.get_BlockCount
 targetos: Windows
 req.typenames: 
 req.redist: 

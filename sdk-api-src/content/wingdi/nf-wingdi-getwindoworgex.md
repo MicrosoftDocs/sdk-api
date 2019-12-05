@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetWindowOrgEx
 title: GetWindowOrgEx function (wingdi.h)
-
 description: The GetWindowOrgEx function retrieves the x-coordinates and y-coordinates of the window origin for the specified device context.
 old-location: gdi\getwindoworgex.htm
 tech.root: gdi
 ms.assetid: 9579ed10-6d4c-4724-af8b-22cab5b6ff5e
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowOrgEx, GetWindowOrgEx function [Windows GDI], _win32_GetWindowOrgEx, gdi.getwindoworgex, wingdi/GetWindowOrgEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetWindowOrgEx"
+f1_keywords:
+- wingdi/GetWindowOrgEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-L1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-L1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetWindowOrgEx
+- GetWindowOrgEx
 targetos: Windows
 req.typenames: 
 req.redist: 

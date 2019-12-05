@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AbortBackup
 title: IVssBackupComponents::AbortBackup (vsbackup.h)
-
 description: The AbortBackup method notifies VSS that a backup operation was terminated.
 old-location: base\ivssbackupcomponents_abortbackup.htm
 tech.root: VSS
 ms.assetid: e854ab83-9a1a-4660-8a3e-37747b1b7d8c
-
 ms.date: 12/05/2018
 ms.keywords: AbortBackup, AbortBackup method [VSS], AbortBackup method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AbortBackup method, IVssBackupComponents.AbortBackup, IVssBackupComponents::AbortBackup, _win32_ivssbackupcomponents_abortbackup, base.ivssbackupcomponents_abortbackup, vsbackup/IVssBackupComponents::AbortBackup
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.AbortBackup"
+f1_keywords:
+- vsbackup/IVssBackupComponents.AbortBackup
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.AbortBackup
+- IVssBackupComponents.AbortBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

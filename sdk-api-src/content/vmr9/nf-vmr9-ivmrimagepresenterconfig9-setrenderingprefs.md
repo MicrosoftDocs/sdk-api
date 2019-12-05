@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRImagePresenterConfig9.SetRenderingPrefs
 title: IVMRImagePresenterConfig9::SetRenderingPrefs (vmr9.h)
-
 description: The SetRenderingPrefs method sets the rendering preferences on the VMR-9 filter's allocator-presenter.
 old-location: dshow\ivmrimagepresenterconfig9_setrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: 53ca84c5-6f6e-403f-baff-6b2ce66c2ce9
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImagePresenterConfig9 interface [DirectShow],SetRenderingPrefs method, IVMRImagePresenterConfig9.SetRenderingPrefs, IVMRImagePresenterConfig9::SetRenderingPrefs, IVMRImagePresenterConfig9SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRImagePresenterConfig9 interface, dshow.ivmrimagepresenterconfig9_setrenderingprefs, vmr9/IVMRImagePresenterConfig9::SetRenderingPrefs
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRImagePresenterConfig9.SetRenderingPrefs"
+f1_keywords:
+- vmr9/IVMRImagePresenterConfig9.SetRenderingPrefs
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImagePresenterConfig9.SetRenderingPrefs
+- IVMRImagePresenterConfig9.SetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

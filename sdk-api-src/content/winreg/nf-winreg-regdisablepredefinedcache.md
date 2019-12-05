@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegDisablePredefinedCache
 title: RegDisablePredefinedCache function (winreg.h)
-
 description: Disables handle caching of the predefined registry handle for HKEY_CURRENT_USER for the current process.
 old-location: base\regdisablepredefinedcache.htm
 tech.root: SysInfo
 ms.assetid: 837584b3-5f61-4535-9e66-56f50ab3fa46
-
 ms.date: 12/05/2018
 ms.keywords: RegDisablePredefinedCache, RegDisablePredefinedCache function, _win32_regdisablepredefinedcache, base.regdisablepredefinedcache, winreg/RegDisablePredefinedCache
 ms.topic: function
-f1_keywords: 
- - "winreg/RegDisablePredefinedCache"
+f1_keywords:
+- winreg/RegDisablePredefinedCache
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegDisablePredefinedCache
+- RegDisablePredefinedCache
 targetos: Windows
 req.typenames: 
 req.redist: 

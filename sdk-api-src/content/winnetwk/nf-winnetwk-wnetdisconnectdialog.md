@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetDisconnectDialog
 title: WNetDisconnectDialog function (winnetwk.h)
-
 description: The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.
 old-location: wnet\wnetdisconnectdialog.htm
 tech.root: WNet
 ms.assetid: 76e0f38a-e057-4496-9c2f-7ea73d19bd76
-
 ms.date: 12/05/2018
 ms.keywords: RESOURCETYPE_DISK, WNetDisconnectDialog, WNetDisconnectDialog function [Windows Networking (WNet)], _win32_wnetdisconnectdialog, winnetwk/WNetDisconnectDialog, wnet.wnetdisconnectdialog
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetDisconnectDialog"
+f1_keywords:
+- winnetwk/WNetDisconnectDialog
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
- - API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
+- Mpr.dll
+- API-MS-Win-Core-multipleproviderrouter-l1-1-0.dll
 api_name:
- - WNetDisconnectDialog
+- WNetDisconnectDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

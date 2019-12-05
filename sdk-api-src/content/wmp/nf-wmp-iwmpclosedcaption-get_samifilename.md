@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_SAMIFileName
 title: IWMPClosedCaption::get_SAMIFileName (wmp.h)
-
 description: The get_SAMIFileName method retrieves the name of the file containing the information needed for closed captioning.
 old-location: wmp\iwmpclosedcaption_get_samifilename.htm
 tech.root: WMP
 ms.assetid: 2f09df76-3bfc-48ce-881f-c905656ecbbf
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_SAMIFileName method, IWMPClosedCaption.get_SAMIFileName, IWMPClosedCaption::get_SAMIFileName, IWMPClosedCaptionget_SAMIFileName, get_SAMIFileName, get_SAMIFileName method [Windows Media Player], get_SAMIFileName method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_samifilename, wmp/IWMPClosedCaption::get_SAMIFileName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption.get_SAMIFileName"
+f1_keywords:
+- wmp/IWMPClosedCaption.get_SAMIFileName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption.get_SAMIFileName
+- IWMPClosedCaption.get_SAMIFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

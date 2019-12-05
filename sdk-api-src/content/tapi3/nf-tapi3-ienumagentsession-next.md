@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.IEnumAgentSession.Next
 title: IEnumAgentSession::Next (tapi3.h)
-
 description: The Next method gets the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumagentsession_next.htm
 tech.root: Tapi
 ms.assetid: 5ac647a0-7f1a-4f6a-ad01-dba019f9bf56
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAgentSession interface [TAPI 2.2],Next method, IEnumAgentSession.Next, IEnumAgentSession::Next, Next, Next method [TAPI 2.2], Next method [TAPI 2.2],IEnumAgentSession interface, _tapi3_ienumagentsession_next, tapi3.ienumagentsession_next, tapi3cc/IEnumAgentSession::Next
 ms.topic: method
-f1_keywords: 
- - "tapi3/IEnumAgentSession.Next"
+f1_keywords:
+- tapi3/IEnumAgentSession.Next
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAgentSession.Next
+- IEnumAgentSession.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

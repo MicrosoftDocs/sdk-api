@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IStreamSample.GetSampleTimes
 title: IStreamSample::GetSampleTimes (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the current sample's start and end times. If the sample is updating, this method returns the times after the update completes.
 old-location: dshow\istreamsample_getsampletimes.htm
 tech.root: DirectShow
 ms.assetid: d8c716fe-6731-4b54-9b4b-3b0f896f176b
-
 ms.date: 12/05/2018
 ms.keywords: GetSampleTimes, GetSampleTimes method [DirectShow], GetSampleTimes method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetSampleTimes method, IStreamSample.GetSampleTimes, IStreamSample::GetSampleTimes, IStreamSampleGetSampleTimes, dshow.istreamsample_getsampletimes, mmstream/IStreamSample::GetSampleTimes
 ms.topic: method
-f1_keywords: 
- - "mmstream/IStreamSample.GetSampleTimes"
+f1_keywords:
+- mmstream/IStreamSample.GetSampleTimes
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IStreamSample.GetSampleTimes
+- IStreamSample.GetSampleTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

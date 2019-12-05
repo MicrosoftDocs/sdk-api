@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetMessageCountLimit
 title: IDXGIInfoQueue::SetMessageCountLimit (dxgidebug.h)
-
 description: Sets the maximum number of messages that can be added to the message queue.
 old-location: direct3ddxgi\idxgiinfoqueue_setmessagecountlimit.htm
 tech.root: direct3ddxgi
 ms.assetid: 77FFF3EA-DEBC-4D92-9C10-E382CD663D20
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetMessageCountLimit method, IDXGIInfoQueue.SetMessageCountLimit, IDXGIInfoQueue::SetMessageCountLimit, SetMessageCountLimit, SetMessageCountLimit method [DXGI], SetMessageCountLimit method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setmessagecountlimit, dxgidebug/IDXGIInfoQueue::SetMessageCountLimit
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.SetMessageCountLimit"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.SetMessageCountLimit
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.SetMessageCountLimit
+- IDXGIInfoQueue.SetMessageCountLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

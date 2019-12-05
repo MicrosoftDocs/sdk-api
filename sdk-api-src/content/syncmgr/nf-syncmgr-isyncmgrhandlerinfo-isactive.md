@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsActive
 title: ISyncMgrHandlerInfo::IsActive (syncmgr.h)
-
 description: Gets a value that indicates whether the handler can be synchronized.
 old-location: shell\ISyncMgrHandlerInfo_IsActive.htm
 tech.root: shell
 ms.assetid: 0bcb06ba-a94a-4a18-a284-48be19ec4b44
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrHandlerInfo interface [Windows Shell],IsActive method, ISyncMgrHandlerInfo.IsActive, ISyncMgrHandlerInfo::IsActive, IsActive, IsActive method [Windows Shell], IsActive method [Windows Shell],ISyncMgrHandlerInfo interface, _shell_ISyncMgrHandlerInfo_IsActive, shell.ISyncMgrHandlerInfo_IsActive, syncmgr/ISyncMgrHandlerInfo::IsActive
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandlerInfo.IsActive"
+f1_keywords:
+- syncmgr/ISyncMgrHandlerInfo.IsActive
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo.IsActive
+- ISyncMgrHandlerInfo.IsActive
 targetos: Windows
 req.typenames: 
 req.redist: 

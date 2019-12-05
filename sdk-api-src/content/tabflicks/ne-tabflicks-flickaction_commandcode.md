@@ -1,19 +1,17 @@
 ---
 UID: NE:tabflicks.FLICKACTION_COMMANDCODE
 title: FLICKACTION_COMMANDCODE (tabflicks.h)
-
 description: Defines the possible flick actions that can be assigned to a pen flick.
 old-location: tablet\flickaction_commandmode.htm
 tech.root: tablet
 ms.assetid: cb923201-5205-494e-bb67-5a908cb570e5
-
 ms.date: 12/05/2018
 ms.keywords: FLICKACTION_COMMANDCODE, FLICKACTION_COMMANDCODE enumeration [Tablet PC], FLICKACTION_COMMANDCODE_APPCOMMAND, FLICKACTION_COMMANDCODE_CUSTOMKEY, FLICKACTION_COMMANDCODE_KEYMODIFIER, FLICKACTION_COMMANDCODE_NULL, FLICKACTION_COMMANDCODE_SCROLL, cb923201-5205-494e-bb67-5a908cb570e5, tabflicks/FLICKACTION_COMMANDCODE, tabflicks/FLICKACTION_COMMANDCODE_APPCOMMAND, tabflicks/FLICKACTION_COMMANDCODE_CUSTOMKEY, tabflicks/FLICKACTION_COMMANDCODE_KEYMODIFIER, tabflicks/FLICKACTION_COMMANDCODE_NULL, tabflicks/FLICKACTION_COMMANDCODE_SCROLL, tablet.flickaction_commandmode
 ms.topic: enum
-f1_keywords: 
- - "tabflicks/FLICKACTION_COMMANDCODE"
+f1_keywords:
+- tabflicks/FLICKACTION_COMMANDCODE
 dev_langs:
- - c++
+- c++
 req.header: tabflicks.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tabflicks.h
+- tabflicks.h
 api_name:
- - FLICKACTION_COMMANDCODE
+- FLICKACTION_COMMANDCODE
 targetos: Windows
 req.typenames: FLICKACTION_COMMANDCODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_SaveStream
 title: DPA_SaveStream function (dpa_dsa.h)
-
 description: Saves the dynamic pointer array (DPA) to a stream by writing out a header, and then calling the specified callback function to write each element.
 old-location: controls\DPA_SaveStream.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_savestream.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_SaveStream, DPA_SaveStream function [Windows Controls], _win32_DPA_SaveStream, _win32_DPA_SaveStream_cpp, controls.DPA_SaveStream, controls._win32_DPA_SaveStream, dpa_dsa/DPA_SaveStream
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_SaveStream"
+f1_keywords:
+- dpa_dsa/DPA_SaveStream
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_SaveStream
+- DPA_SaveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

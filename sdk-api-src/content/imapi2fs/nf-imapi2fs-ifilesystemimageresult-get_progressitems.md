@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_ProgressItems
 title: IFileSystemImageResult::get_ProgressItems (imapi2fs.h)
-
 description: Retrieves the progress item block mapping collection.
 old-location: imapi\ifilesystemimageresult_get_progressitems.htm
 tech.root: imapi
 ms.assetid: c4ef572d-7e18-4537-847c-419441befe00
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_ProgressItems method, IFileSystemImageResult.get_ProgressItems, IFileSystemImageResult::get_ProgressItems, get_ProgressItems, get_ProgressItems method [IMAPI], get_ProgressItems method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_progressitems, imapi2fs/IFileSystemImageResult::get_ProgressItems
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImageResult.get_ProgressItems"
+f1_keywords:
+- imapi2fs/IFileSystemImageResult.get_ProgressItems
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImageResult.get_ProgressItems
+- IFileSystemImageResult.get_ProgressItems
 targetos: Windows
 req.typenames: 
 req.redist: 

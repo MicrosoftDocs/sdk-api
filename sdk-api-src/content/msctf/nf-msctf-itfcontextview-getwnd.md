@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextView.GetWnd
 title: ITfContextView::GetWnd (msctf.h)
-
 description: The ITfContextView::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itfcontextview_getwnd.htm
 tech.root: TSF
 ms.assetid: e805842d-4737-45be-8314-bd83d94da2d6
-
 ms.date: 12/05/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetWnd method, ITfContextView.GetWnd, ITfContextView::GetWnd, _tsf_itfcontextview_getwnd_ref, msctf/ITfContextView::GetWnd, tsf.itfcontextview_getwnd
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextView.GetWnd"
+f1_keywords:
+- msctf/ITfContextView.GetWnd
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextView.GetWnd
+- ITfContextView.GetWnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

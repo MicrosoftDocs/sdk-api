@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition2.get_ValueDefinitions
 title: IFsrmPropertyDefinition2::get_ValueDefinitions (fsrmpipeline.h)
-
 description: This property contains the possible value definitions of the property definition.
 old-location: fsrm\ifsrmpropertydefinition2_valuedefinitions.htm
 tech.root: fsrm
 ms.assetid: d9d726ea-62f7-489e-a442-c8719648e893
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinition2 interface [File Server Resource Manager],ValueDefinitions property, IFsrmPropertyDefinition2.ValueDefinitions, IFsrmPropertyDefinition2.get_ValueDefinitions, IFsrmPropertyDefinition2::ValueDefinitions, IFsrmPropertyDefinition2::get_ValueDefinitions, ValueDefinitions property [File Server Resource Manager], ValueDefinitions property [File Server Resource Manager],IFsrmPropertyDefinition2 interface, fs.ifsrmpropertydefinition2_valuedefinitions, fsrm.ifsrmpropertydefinition2_valuedefinitions, fsrmpipeline/IFsrmPropertyDefinition2::ValueDefinitions, fsrmpipeline/IFsrmPropertyDefinition2::get_ValueDefinitions, get_ValueDefinitions
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyDefinition2.ValueDefinitions"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyDefinition2.ValueDefinitions
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition2.ValueDefinitions
- - IFsrmPropertyDefinition2.get_ValueDefinitions
+- IFsrmPropertyDefinition2.ValueDefinitions
+- IFsrmPropertyDefinition2.get_ValueDefinitions
 targetos: Windows
 req.typenames: 
 req.redist: 

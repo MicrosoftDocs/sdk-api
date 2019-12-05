@@ -1,19 +1,17 @@
 ---
 UID: NS:winnls._FILEMUIINFO
 title: FILEMUIINFO (winnls.h)
-
 description: Contains information about a file, related to its use with MUI.
 old-location: intl\filemuiinfo.htm
 tech.root: Intl
 ms.assetid: 4c757d19-ac66-4ba4-a691-f575f61961be
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO"
+ms.keywords: '*PFILEMUIINFO, FILEMUIINFO, FILEMUIINFO structure [Internationalization for Windows Applications], PFILEMUIINFO, PFILEMUIINFO structure pointer [Internationalization for Windows Applications], _win32_FILEMUIINFO, intl.filemuiinfo, winnls/FILEMUIINFO, winnls/PFILEMUIINFO'
 ms.topic: struct
-f1_keywords: 
- - "winnls/FILEMUIINFO"
+f1_keywords:
+- winnls/FILEMUIINFO
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - FILEMUIINFO
+- FILEMUIINFO
 targetos: Windows
 req.typenames: FILEMUIINFO, *PFILEMUIINFO
 req.redist: 

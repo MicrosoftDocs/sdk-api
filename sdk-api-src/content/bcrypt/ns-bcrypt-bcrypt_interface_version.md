@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_INTERFACE_VERSION
 title: BCRYPT_INTERFACE_VERSION (bcrypt.h)
-
 description: Contains version information for a programmatic interface for a CNG provider.
 old-location: security\bcrypt_interface_version.htm
 tech.root: SecCNG
 ms.assetid: d89e819e-7cbc-4f19-85c5-08c1ecab3bdd
-
 ms.date: 12/05/2018
-ms.keywords: "*PBCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION structure [Security], PBCRYPT_INTERFACE_VERSION, PBCRYPT_INTERFACE_VERSION structure pointer [Security], bcrypt/BCRYPT_INTERFACE_VERSION, bcrypt/PBCRYPT_INTERFACE_VERSION, security.bcrypt_interface_version"
+ms.keywords: '*PBCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION, BCRYPT_INTERFACE_VERSION structure [Security], PBCRYPT_INTERFACE_VERSION, PBCRYPT_INTERFACE_VERSION structure pointer [Security], bcrypt/BCRYPT_INTERFACE_VERSION, bcrypt/PBCRYPT_INTERFACE_VERSION, security.bcrypt_interface_version'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_INTERFACE_VERSION"
+f1_keywords:
+- bcrypt/BCRYPT_INTERFACE_VERSION
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_INTERFACE_VERSION
+- BCRYPT_INTERFACE_VERSION
 targetos: Windows
 req.typenames: BCRYPT_INTERFACE_VERSION, *PBCRYPT_INTERFACE_VERSION
 req.redist: 

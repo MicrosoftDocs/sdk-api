@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DefSubclassProc
 title: DefSubclassProc function (commctrl.h)
-
 description: Calls the next handler in a window's subclass chain. The last handler in the subclass chain calls the original window procedure for the window.
 old-location: shell\DefSubclassProc.htm
 tech.root: shell
 ms.assetid: 43b1efa5-11da-4a95-8d81-b0d8ae64733a
-
 ms.date: 12/05/2018
 ms.keywords: DefSubclassProc, DefSubclassProc function [Windows Shell], commctrl/DefSubclassProc, inet_DefSubclassProc, shell.DefSubclassProc
 ms.topic: function
-f1_keywords: 
- - "commctrl/DefSubclassProc"
+f1_keywords:
+- commctrl/DefSubclassProc
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 5.8 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DefSubclassProc
+- DefSubclassProc
 targetos: Windows
 req.typenames: 
 req.redist: 

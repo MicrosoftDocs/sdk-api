@@ -1,19 +1,17 @@
 ---
 UID: NS:batclass._BATTERY_WMI_TEMPERATURE
 title: BATTERY_WMI_TEMPERATURE (batclass.h)
-
 description: Defines information about temperature of the battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_temperature.htm
 tech.root: battery
 ms.assetid: 341DA703-EB96-4680-AFB8-68043988AF56
-
 ms.date: 12/05/2018
-ms.keywords: "*PBATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE structure [Battery Devices], PBATTERY_WMI_TEMPERATURE, PBATTERY_WMI_TEMPERATURE structure pointer [Battery Devices], batclass/BATTERY_WMI_TEMPERATURE, batclass/PBATTERY_WMI_TEMPERATURE, battery.battery_wmi_temperature"
+ms.keywords: '*PBATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE, BATTERY_WMI_TEMPERATURE structure [Battery Devices], PBATTERY_WMI_TEMPERATURE, PBATTERY_WMI_TEMPERATURE structure pointer [Battery Devices], batclass/BATTERY_WMI_TEMPERATURE, batclass/PBATTERY_WMI_TEMPERATURE, battery.battery_wmi_temperature'
 ms.topic: struct
-f1_keywords: 
- - "batclass/BATTERY_WMI_TEMPERATURE"
+f1_keywords:
+- batclass/BATTERY_WMI_TEMPERATURE
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BATTERY_WMI_TEMPERATURE
+- BATTERY_WMI_TEMPERATURE
 targetos: Windows
 req.typenames: BATTERY_WMI_TEMPERATURE, *PBATTERY_WMI_TEMPERATURE
 req.redist: 

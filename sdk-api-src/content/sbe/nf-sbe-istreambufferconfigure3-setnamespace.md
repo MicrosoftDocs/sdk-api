@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure3.SetNamespace
 title: IStreamBufferConfigure3::SetNamespace (sbe.h)
-
 description: The SetNamespace method specifies a prefix that is added to the names of the synchronization objects that the Stream Buffer Engine uses to synchronize the reader and writer.
 old-location: mstv\istreambufferconfigure3_setnamespace.htm
 tech.root: mstv
 ms.assetid: e009e078-99f5-4da1-88ce-c07e9588c5e8
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure3 interface [Microsoft TV Technologies],SetNamespace method, IStreamBufferConfigure3.SetNamespace, IStreamBufferConfigure3::SetNamespace, IStreamBufferConfigure3SetNamespace, SetNamespace, SetNamespace method [Microsoft TV Technologies], SetNamespace method [Microsoft TV Technologies],IStreamBufferConfigure3 interface, mstv.istreambufferconfigure3_setnamespace, sbe/IStreamBufferConfigure3::SetNamespace
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferConfigure3.SetNamespace"
+f1_keywords:
+- sbe/IStreamBufferConfigure3.SetNamespace
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure3.SetNamespace
+- IStreamBufferConfigure3.SetNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

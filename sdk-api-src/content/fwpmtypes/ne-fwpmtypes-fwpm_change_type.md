@@ -1,19 +1,17 @@
 ---
 UID: NE:fwpmtypes.FWPM_CHANGE_TYPE_
 title: FWPM_CHANGE_TYPE (fwpmtypes.h)
-
 description: Used when dispatching change notifications to subscribers.
 old-location: fwp\fwpm_change_type_enum.htm
 tech.root: fwp
 ms.assetid: 244dd91d-f5fa-4f78-8082-04fc209a9071
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_CHANGE_ADD, FWPM_CHANGE_DELETE, FWPM_CHANGE_TYPE, FWPM_CHANGE_TYPE enumeration [Filtering], FWPM_CHANGE_TYPE_MAX, fwp.fwpm_change_type_enum, fwpmtypes/FWPM_CHANGE_ADD, fwpmtypes/FWPM_CHANGE_DELETE, fwpmtypes/FWPM_CHANGE_TYPE, fwpmtypes/FWPM_CHANGE_TYPE_MAX
 ms.topic: enum
-f1_keywords: 
- - "fwpmtypes/FWPM_CHANGE_TYPE"
+f1_keywords:
+- fwpmtypes/FWPM_CHANGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_CHANGE_TYPE
+- FWPM_CHANGE_TYPE
 targetos: Windows
 req.typenames: FWPM_CHANGE_TYPE
 req.redist: 

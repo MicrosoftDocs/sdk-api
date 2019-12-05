@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.mixerSetControlDetails
 title: mixerSetControlDetails function (mmeapi.h)
-
 description: The mixerSetControlDetails function sets properties of a single control associated with an audio line.
 old-location: multimedia\mixersetcontroldetails.htm
 tech.root: Multimedia
 ms.assetid: c4d500f3-a1c2-432c-9096-90f229bc7b7a
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mixerSetControlDetails, mixerSetControlDetails, mixerSetControlDetails function [Windows Multimedia], mmeapi/mixerSetControlDetails, multimedia.mixersetcontroldetails"
+ms.keywords: _win32_mixerSetControlDetails, mixerSetControlDetails, mixerSetControlDetails function [Windows Multimedia], mmeapi/mixerSetControlDetails, multimedia.mixersetcontroldetails
 ms.topic: function
-f1_keywords: 
- - "mmeapi/mixerSetControlDetails"
+f1_keywords:
+- mmeapi/mixerSetControlDetails
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - mixerSetControlDetails
+- mixerSetControlDetails
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsSecurityUtility
 title: IADsSecurityUtility (iads.h)
-
 description: The IADsSecurityUtility interface is used to get, set, or retrieve the security descriptor on a file, fileshare, or registry key.
 old-location: adsi\iadssecurityutility.htm
 tech.root: adsi
 ms.assetid: 781eda1e-1f13-4bb4-ae8e-c9bf4c08e125
-
 ms.date: 12/05/2018
 ms.keywords: IADsSecurityUtility, IADsSecurityUtility interface [ADSI], IADsSecurityUtility interface [ADSI],described, _ds_iadssecurityutility, adsi.iadssecurityutility, iads/IADsSecurityUtility
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsSecurityUtility"
+f1_keywords:
+- iads/IADsSecurityUtility
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsSecurityUtility
+- IADsSecurityUtility
 targetos: Windows
 req.typenames: 
 req.redist: 

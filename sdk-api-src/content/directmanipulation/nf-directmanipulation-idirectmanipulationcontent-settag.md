@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.SetTag
 title: IDirectManipulationContent::SetTag (directmanipulation.h)
-
 description: Specifies the tag object for the content.
 old-location: directmanipulation\idirectmanipulationcontent_settag.htm
 tech.root: directmanipulation
 ms.assetid: d0dce3dd-3fbf-41ea-ba70-8574701d101e
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationContent interface [Direct Manipulation],SetTag method, IDirectManipulationContent.SetTag, IDirectManipulationContent::SetTag, SetTag, SetTag method [Direct Manipulation], SetTag method [Direct Manipulation],IDirectManipulationContent interface, directmanipulation.idirectmanipulationcontent_settag, directmanipulation/IDirectManipulationContent::SetTag
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationContent.SetTag"
+f1_keywords:
+- directmanipulation/IDirectManipulationContent.SetTag
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationContent.SetTag
+- IDirectManipulationContent.SetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

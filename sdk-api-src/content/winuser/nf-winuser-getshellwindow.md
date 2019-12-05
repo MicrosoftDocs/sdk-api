@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetShellWindow
 title: GetShellWindow function (winuser.h)
-
 description: Retrieves a handle to the Shell's desktop window.
 old-location: winmsg\getshellwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getshellwindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetShellWindow, GetShellWindow function [Windows and Messages], _win32_GetShellWindow, _win32_getshellwindow_cpp, winmsg.getshellwindow, winui._win32_getshellwindow, winuser/GetShellWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/GetShellWindow"
+f1_keywords:
+- winuser/GetShellWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-shell-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
- - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-shell-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
- - GetShellWindow
+- GetShellWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

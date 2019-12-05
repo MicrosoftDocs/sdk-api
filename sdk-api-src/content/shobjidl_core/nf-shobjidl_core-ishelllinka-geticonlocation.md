@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.GetIconLocation
 title: IShellLinkA::GetIconLocation (shobjidl_core.h)
-
 description: Gets the location (path and index) of the icon for a Shell link object.
 old-location: shell\IShellLink_GetIconLocation.htm
 tech.root: shell
 ms.assetid: ff7cc9be-a762-472a-9846-4dbd0ec94ad1
-
 ms.date: 12/05/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IShellLink interface, GetIconLocation method [Windows Shell],IShellLinkA interface, GetIconLocation method [Windows Shell],IShellLinkW interface, IShellLink interface [Windows Shell],GetIconLocation method, IShellLink::GetIconLocation, IShellLinkA interface [Windows Shell],GetIconLocation method, IShellLinkA.GetIconLocation, IShellLinkA::GetIconLocation, IShellLinkW interface [Windows Shell],GetIconLocation method, IShellLinkW::GetIconLocation, _win32_IShellLink_GetIconLocation, shell.IShellLink_GetIconLocation, shobjidl_core/IShellLink::GetIconLocation, shobjidl_core/IShellLinkA::GetIconLocation, shobjidl_core/IShellLinkW::GetIconLocation
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLink.GetIconLocation"
+f1_keywords:
+- shobjidl_core/IShellLink.GetIconLocation
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellLink.GetIconLocation
- - IShellLinkA.GetIconLocation
- - IShellLinkW.GetIconLocation
+- IShellLink.GetIconLocation
+- IShellLinkA.GetIconLocation
+- IShellLinkW.GetIconLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

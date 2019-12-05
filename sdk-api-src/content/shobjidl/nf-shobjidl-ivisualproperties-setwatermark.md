@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetWatermark
 title: IVisualProperties::SetWatermark (shobjidl.h)
-
 description: Provides a bitmap to use as a watermark.
 old-location: shell\IVisualProperties_SetWatermark.htm
 tech.root: shell
 ms.assetid: 14ce62f7-b464-4e52-8441-35f613b6c844
-
 ms.date: 12/05/2018
 ms.keywords: IVisualProperties interface [Windows Shell],SetWatermark method, IVisualProperties.SetWatermark, IVisualProperties::SetWatermark, SetWatermark, SetWatermark method [Windows Shell], SetWatermark method [Windows Shell],IVisualProperties interface, _shell_IVisualProperties_SetWatermark, shell.IVisualProperties_SetWatermark, shobjidl/IVisualProperties::SetWatermark
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IVisualProperties.SetWatermark"
+f1_keywords:
+- shobjidl/IVisualProperties.SetWatermark
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IVisualProperties.SetWatermark
+- IVisualProperties.SetWatermark
 targetos: Windows
 req.typenames: 
 req.redist: 

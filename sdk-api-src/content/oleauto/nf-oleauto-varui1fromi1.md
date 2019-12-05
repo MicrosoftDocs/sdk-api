@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI1FromI1
 title: VarUI1FromI1 function (oleauto.h)
-
 description: Converts a char value to an unsigned char value.
 old-location: automat\varui1fromi1.htm
 tech.root: automat
 ms.assetid: 712a93d1-3b5b-4e8f-90bf-f51d1dca923a
-
 ms.date: 12/05/2018
 ms.keywords: VarUI1FromI1, VarUI1FromI1 function [Automation], _oa96_VarUI1FromI1, automat.varui1fromi1, oleauto/VarUI1FromI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI1FromI1"
+f1_keywords:
+- oleauto/VarUI1FromI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI1FromI1
+- VarUI1FromI1
 targetos: Windows
 req.typenames: 
 req.redist: 

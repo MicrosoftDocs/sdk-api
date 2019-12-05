@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrUserMarshalFree
 title: NdrUserMarshalFree function (rpcndr.h)
-
 description: The NdrUserMarshalFree function frees the user marshal object.
 old-location: rpc\ndrusermarshalfree.htm
 tech.root: Rpc
 ms.assetid: 3b850938-13f3-4173-86bb-8b01ac0c5809
-
 ms.date: 12/05/2018
 ms.keywords: NdrUserMarshalFree, NdrUserMarshalFree function [RPC], rpc.ndrusermarshalfree, rpcndr/NdrUserMarshalFree
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrUserMarshalFree
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

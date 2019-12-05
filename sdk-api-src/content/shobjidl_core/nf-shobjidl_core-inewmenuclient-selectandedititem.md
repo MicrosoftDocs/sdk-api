@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INewMenuClient.SelectAndEditItem
 title: INewMenuClient::SelectAndEditItem (shobjidl_core.h)
-
 description: INewMenuClient::SelectAndEditItem method
 old-location: shell\INewMenuClient_SelectAndEditItem.htm
 tech.root: shell
 ms.assetid: f731e69f-8ff0-42ff-96f8-04236f53d962
-
 ms.date: 12/05/2018
 ms.keywords: INewMenuClient interface [Windows Shell],SelectAndEditItem method, INewMenuClient.SelectAndEditItem, INewMenuClient::SelectAndEditItem, NMCSAEI_EDIT, NMCSAEI_SELECT, SelectAndEditItem, SelectAndEditItem method [Windows Shell], SelectAndEditItem method [Windows Shell],INewMenuClient interface, _shell_INewMenuClient_SelectAndEditItem, shell.INewMenuClient_SelectAndEditItem, shobjidl_core/INewMenuClient::SelectAndEditItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INewMenuClient.SelectAndEditItem"
+f1_keywords:
+- shobjidl_core/INewMenuClient.SelectAndEditItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INewMenuClient.SelectAndEditItem
+- INewMenuClient.SelectAndEditItem
 targetos: Windows
 req.typenames: 
 req.redist: 

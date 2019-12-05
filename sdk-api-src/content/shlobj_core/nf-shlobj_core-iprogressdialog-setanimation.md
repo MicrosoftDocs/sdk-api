@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetAnimation
 title: IProgressDialog::SetAnimation (shlobj_core.h)
-
 description: Specifies an Audio-Video Interleaved (AVI) clip that runs in the dialog box.
 old-location: shell\IProgressDialog_SetAnimation.htm
 tech.root: shell
 ms.assetid: cc974be9-e9a4-42f9-9995-0d6eb0b12422
-
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetAnimation method, IProgressDialog.SetAnimation, IProgressDialog::SetAnimation, SetAnimation, SetAnimation method [Windows Shell], SetAnimation method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetAnimation, shell.IProgressDialog_SetAnimation, shlobj_core/IProgressDialog::SetAnimation
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IProgressDialog.SetAnimation"
+f1_keywords:
+- shlobj_core/IProgressDialog.SetAnimation
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog.SetAnimation
+- IProgressDialog.SetAnimation
 targetos: Windows
 req.typenames: 
 req.redist: 

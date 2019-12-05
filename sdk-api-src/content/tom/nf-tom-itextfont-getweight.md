@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetWeight
 title: ITextFont::GetWeight (tom.h)
-
 description: Gets the font weight for the characters in a range.
 old-location: controls\ITextFont_GetWeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getweight.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWeight, GetWeight method [Windows Controls], GetWeight method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetWeight method, ITextFont.GetWeight, ITextFont::GetWeight, _win32_ITextFont_GetWeight, _win32_ITextFont_GetWeight_cpp, controls.ITextFont_GetWeight, controls._win32_ITextFont_GetWeight, tom/ITextFont::GetWeight
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetWeight"
+f1_keywords:
+- tom/ITextFont.GetWeight
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetWeight
+- ITextFont.GetWeight
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.IsDropOnSource
 title: IShellFolderView::IsDropOnSource (shlobj_core.h)
-
 description: Checks whether the destination of the current drag-and-drop or cut-and-paste operation is the same as the source.
 old-location: shell\IShellFolderView_IsDropOnSource.htm
 tech.root: shell
 ms.assetid: 3661fe68-b351-48e0-a098-8ad919bdfbb2
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],IsDropOnSource method, IShellFolderView.IsDropOnSource, IShellFolderView::IsDropOnSource, IsDropOnSource, IsDropOnSource method [Windows Shell], IsDropOnSource method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_IsDropOnSource, shell.IShellFolderView_IsDropOnSource, shlobj_core/IShellFolderView::IsDropOnSource
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.IsDropOnSource"
+f1_keywords:
+- shlobj_core/IShellFolderView.IsDropOnSource
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.IsDropOnSource
+- IShellFolderView.IsDropOnSource
 targetos: Windows
 req.typenames: 
 req.redist: 

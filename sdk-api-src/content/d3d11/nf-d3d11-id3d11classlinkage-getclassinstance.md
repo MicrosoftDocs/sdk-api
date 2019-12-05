@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11ClassLinkage.GetClassInstance
 title: ID3D11ClassLinkage::GetClassInstance (d3d11.h)
-
 description: Gets the class-instance object that represents the specified HLSL class.
 old-location: direct3d11\id3d11classlinkage_getclassinstance.htm
 tech.root: direct3d11
 ms.assetid: 055f1670-0643-4a0a-8411-ac8a62e98826
-
 ms.date: 12/05/2018
 ms.keywords: 45d18e06-7ca3-6ff7-a95b-a56150c07b87, GetClassInstance, GetClassInstance method [Direct3D 11], GetClassInstance method [Direct3D 11],ID3D11ClassLinkage interface, ID3D11ClassLinkage interface [Direct3D 11],GetClassInstance method, ID3D11ClassLinkage.GetClassInstance, ID3D11ClassLinkage::GetClassInstance, d3d11/ID3D11ClassLinkage::GetClassInstance, direct3d11.id3d11classlinkage_getclassinstance
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11ClassLinkage.GetClassInstance"
+f1_keywords:
+- d3d11/ID3D11ClassLinkage.GetClassInstance
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11ClassLinkage.GetClassInstance
+- ID3D11ClassLinkage.GetClassInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

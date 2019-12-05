@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.GetLogFileName
 title: IWMDMLogger::GetLogFileName (wmdmlog.h)
-
 description: The GetLogFileName method returns the full path to the current log file.
 old-location: wmdm\iwmdmlogger_getlogfilename.htm
 tech.root: WMDM
 ms.assetid: 094761e6-539c-43ca-b882-f3dd7a19a243
-
 ms.date: 12/05/2018
 ms.keywords: GetLogFileName, GetLogFileName method [windows Media Device Manager], GetLogFileName method [windows Media Device Manager],IWMDMLogger interface, IWMDMLogger interface [windows Media Device Manager],GetLogFileName method, IWMDMLogger.GetLogFileName, IWMDMLogger::GetLogFileName, IWMDMLoggerGetLogFileName, wmdm.iwmdmlogger_getlogfilename, wmdmlog/IWMDMLogger::GetLogFileName
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.GetLogFileName"
+f1_keywords:
+- wmdmlog/IWMDMLogger.GetLogFileName
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.GetLogFileName
+- IWMDMLogger.GetLogFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideoCallback.OnUpdateOverlay
 title: IDDrawExclModeVideoCallback::OnUpdateOverlay (strmif.h)
-
 description: The OnUpdateOverlay method informs the application when the overlay surface for the video is about to become visible, invisible, change size, or change position, so that the application can repaint its window appropriately.
 old-location: dshow\iddrawexclmodevideocallback_onupdateoverlay.htm
 tech.root: DirectShow
 ms.assetid: ede823ba-8340-4339-8e8a-e1d4f9ad1273
-
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideoCallback interface [DirectShow],OnUpdateOverlay method, IDDrawExclModeVideoCallback.OnUpdateOverlay, IDDrawExclModeVideoCallback::OnUpdateOverlay, IDDrawExclModeVideoCallbackOnUpdateOverlay, OnUpdateOverlay, OnUpdateOverlay method [DirectShow], OnUpdateOverlay method [DirectShow],IDDrawExclModeVideoCallback interface, dshow.iddrawexclmodevideocallback_onupdateoverlay, strmif/IDDrawExclModeVideoCallback::OnUpdateOverlay
 ms.topic: method
-f1_keywords: 
- - "strmif/IDDrawExclModeVideoCallback.OnUpdateOverlay"
+f1_keywords:
+- strmif/IDDrawExclModeVideoCallback.OnUpdateOverlay
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDDrawExclModeVideoCallback.OnUpdateOverlay
+- IDDrawExclModeVideoCallback.OnUpdateOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 

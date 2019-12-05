@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.MakeResident
 title: IDMLDevice::MakeResident
-
 description: Causes one or more pageable objects to become resident in GPU memory. Also see IDMLDevice::Evict.
 old-location: direct3d12\idmldevice_makeresident.htm
 tech.root: direct3d12
 ms.assetid: 966B23A1-5CE3-43C3-8D3B-2243C2D6322D
-
 ms.date: 12/5/2018
 ms.keywords: IDMLDevice interface,MakeResident method, IDMLDevice.MakeResident, IDMLDevice::MakeResident, MakeResident, MakeResident method, MakeResident method,IDMLDevice interface, direct3d12.idmldevice_makeresident, directml/IDMLDevice::MakeResident
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.MakeResident"
+f1_keywords:
+- directml/IDMLDevice.MakeResident
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.MakeResident
+- IDMLDevice.MakeResident
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.GetRequestProperty
 title: ICertServerExit::GetRequestProperty (certif.h)
-
 description: Returns a named property from a request.
 old-location: security\icertserverexit_getrequestproperty.htm
 tech.root: SecCrypto
 ms.assetid: e9b98573-4eb0-4add-988b-dc34d6c15436
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetRequestProperty method, CR_IN_KEYGEN, CR_IN_PKCS10, CR_IN_PKCS7, Disposition, DispositionMessage, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerExit object, GetRequestProperty method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetRequestProperty method, ICertServerExit.GetRequestProperty, ICertServerExit::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawCACertificate, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, ResolvedWhen, StatusCode, SubmittedWhen, _certsrv_icertserverexit_getrequestproperty, certif/ICertServerExit::GetRequestProperty, security.icertserverexit_getrequestproperty
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.GetRequestProperty"
+f1_keywords:
+- certif/ICertServerExit.GetRequestProperty
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.GetRequestProperty
- - CCertServerExit.GetRequestProperty
+- ICertServerExit.GetRequestProperty
+- CCertServerExit.GetRequestProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

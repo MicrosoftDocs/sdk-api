@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumContextProps.Count
 title: IEnumContextProps::Count (objidl.h)
-
 description: Retrieves the number of context properties in the context.
 old-location: com\ienumcontextprops_count.htm
 tech.root: com
 ms.assetid: ad3194f7-0df4-4f26-8a98-2715188fb63f
-
 ms.date: 12/05/2018
 ms.keywords: Count, Count method [COM], Count method [COM],IEnumContextProps interface, IEnumContextProps interface [COM],Count method, IEnumContextProps.Count, IEnumContextProps::Count, _com_ienumcontextprops_count, com.ienumcontextprops_count, objidlbase/IEnumContextProps::Count
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumContextProps.Count"
+f1_keywords:
+- objidl/IEnumContextProps.Count
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IEnumContextProps.Count
+- IEnumContextProps.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

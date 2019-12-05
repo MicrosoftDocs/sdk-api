@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.AddWordsToWordList
 title: AddWordsToWordList function (recapis.h)
-
 description: Adds one or more words to the word list.
 old-location: tablet\addwordstowordlist.htm
 tech.root: tablet
 ms.assetid: 8487bdad-c927-44dc-b757-40a0aba285ca
-
 ms.date: 12/05/2018
 ms.keywords: 8487bdad-c927-44dc-b757-40a0aba285ca, AddWordsToWordList, AddWordsToWordList function [Tablet PC], recapis/AddWordsToWordList, tablet.addwordstowordlist
 ms.topic: function
-f1_keywords: 
- - "recapis/AddWordsToWordList"
+f1_keywords:
+- recapis/AddWordsToWordList
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - AddWordsToWordList
+- AddWordsToWordList
 targetos: Windows
 req.typenames: 
 req.redist: 

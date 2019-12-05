@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunningObjectTable.NoteChangeTime
 title: IRunningObjectTable::NoteChangeTime (objidl.h)
-
 description: Records the time that a running object was last modified. The object must have previously been registered with the running object table (ROT). This method stores the time of last change in the ROT.
 old-location: com\irunningobjecttable_notechangetime.htm
 tech.root: com
 ms.assetid: 7bc410f8-3a39-478d-bc4d-adcd976f305b
-
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],NoteChangeTime method, IRunningObjectTable.NoteChangeTime, IRunningObjectTable::NoteChangeTime, NoteChangeTime, NoteChangeTime method [COM], NoteChangeTime method [COM],IRunningObjectTable interface, _com_irunningobjecttable_notechangetime, com.irunningobjecttable_notechangetime, objidl/IRunningObjectTable::NoteChangeTime
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunningObjectTable.NoteChangeTime"
+f1_keywords:
+- objidl/IRunningObjectTable.NoteChangeTime
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunningObjectTable.NoteChangeTime
+- IRunningObjectTable.NoteChangeTime
 targetos: Windows
 req.typenames: 
 req.redist: 

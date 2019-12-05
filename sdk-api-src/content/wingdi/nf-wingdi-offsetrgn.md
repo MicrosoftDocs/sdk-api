@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.OffsetRgn
 title: OffsetRgn function (wingdi.h)
-
 description: The OffsetRgn function moves a region by the specified offsets.
 old-location: gdi\offsetrgn.htm
 tech.root: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef
-
 ms.date: 12/05/2018
 ms.keywords: OffsetRgn, OffsetRgn function [Windows GDI], _win32_OffsetRgn, gdi.offsetrgn, wingdi/OffsetRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/OffsetRgn"
+f1_keywords:
+- wingdi/OffsetRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
- - OffsetRgn
+- OffsetRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

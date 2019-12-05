@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuner.put_TuningSpace
 title: ITuner::put_TuningSpace (tuner.h)
-
 description: The put_TuningSpace method sets the tuning space for the Network Provider.
 old-location: mstv\ituner_put_tuningspace.htm
 tech.root: mstv
 ms.assetid: ae764317-3441-4abb-90e8-f7720cdfd957
-
 ms.date: 12/05/2018
 ms.keywords: ITuner interface [Microsoft TV Technologies],put_TuningSpace method, ITuner.put_TuningSpace, ITuner::put_TuningSpace, ITunerput_TuningSpace, mstv.ituner_put_tuningspace, put_TuningSpace, put_TuningSpace method [Microsoft TV Technologies], put_TuningSpace method [Microsoft TV Technologies],ITuner interface, tuner/ITuner::put_TuningSpace
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuner.put_TuningSpace"
+f1_keywords:
+- tuner/ITuner.put_TuningSpace
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuner.put_TuningSpace
+- ITuner.put_TuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

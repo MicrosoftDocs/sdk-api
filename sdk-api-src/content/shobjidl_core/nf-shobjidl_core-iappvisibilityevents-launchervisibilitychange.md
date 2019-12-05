@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAppVisibilityEvents.LauncherVisibilityChange
 title: IAppVisibilityEvents::LauncherVisibilityChange (shobjidl_core.h)
-
 description: Notifies a client that visibility of the Start screen has changed.
 old-location: shell\IAppVisibilityEvents_LauncherVisibilityChange.htm
 tech.root: shell
 ms.assetid: 26789ef4-015a-4dfd-8265-e27b50c565c4
-
 ms.date: 12/05/2018
 ms.keywords: IAppVisibilityEvents interface [Windows Shell],LauncherVisibilityChange method, IAppVisibilityEvents.LauncherVisibilityChange, IAppVisibilityEvents::LauncherVisibilityChange, LauncherVisibilityChange, LauncherVisibilityChange method [Windows Shell], LauncherVisibilityChange method [Windows Shell],IAppVisibilityEvents interface, shell.IAppVisibilityEvents_LauncherVisibilityChange, shobjidl_core/IAppVisibilityEvents::LauncherVisibilityChange
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAppVisibilityEvents.LauncherVisibilityChange"
+f1_keywords:
+- shobjidl_core/IAppVisibilityEvents.LauncherVisibilityChange
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAppVisibilityEvents.LauncherVisibilityChange
+- IAppVisibilityEvents.LauncherVisibilityChange
 targetos: Windows
 req.typenames: 
 req.redist: 

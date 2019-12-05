@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.GetServiceKeyNameA
 title: GetServiceKeyNameA function (winsvc.h)
-
 description: Retrieves the service name of the specified service.
 old-location: base\getservicekeyname.htm
 tech.root: Services
 ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, GetServiceKeyNameW, _win32_getservicekeyname, base.getservicekeyname, winsvc/GetServiceKeyName, winsvc/GetServiceKeyNameA, winsvc/GetServiceKeyNameW
 ms.topic: function
-f1_keywords: 
- - "winsvc/GetServiceKeyName"
+f1_keywords:
+- winsvc/GetServiceKeyName
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
- - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
- - API-Ms-Win-Service-Core-L1-1-2.dll
- - SecHost.dll
+- Advapi32.dll
+- AdvApi32Legacy.dll
+- API-Ms-Win-Service-Core-Ansi-L1-1-0.dll
+- API-MS-Win-Service-Core-Ansi-L1-1-1.dll
+- API-Ms-Win-Service-Core-L1-1-2.dll
+- SecHost.dll
 api_name:
- - GetServiceKeyName
- - GetServiceKeyNameA
- - GetServiceKeyNameW
+- GetServiceKeyName
+- GetServiceKeyNameA
+- GetServiceKeyNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

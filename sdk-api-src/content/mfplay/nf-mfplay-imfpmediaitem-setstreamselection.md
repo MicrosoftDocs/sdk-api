@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSelection
 title: IMFPMediaItem::SetStreamSelection (mfplay.h)
-
 description: Selects or deselects a stream.
 old-location: mf\imfpmediaitem_setstreamselection.htm
 tech.root: medfound
 ms.assetid: 739190a5-60a7-4b50-9919-f68d2cd6da8d
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IMFPMediaItem interface [Media Foundation],SetStreamSelection method, IMFPMediaItem.SetStreamSelection, IMFPMediaItem::SetStreamSelection, SetStreamSelection, SetStreamSelection method [Media Foundation], SetStreamSelection method [Media Foundation],IMFPMediaItem interface, TRUE, mf.imfpmediaitem_setstreamselection, mfplay/IMFPMediaItem::SetStreamSelection
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.SetStreamSelection"
+f1_keywords:
+- mfplay/IMFPMediaItem.SetStreamSelection
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.SetStreamSelection
+- IMFPMediaItem.SetStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_start_tls_sW
 title: ldap_start_tls_sW function (winldap.h)
-
 description: Used in an active LDAP session to begin using TLS encryption.
 old-location: ldap\ldap_start_tls_s.htm
 tech.root: ldap
 ms.assetid: faca9324-5a85-47b0-9d6a-c62ec3c1ee80
-
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_start_tls_s, ldap_start_tls_s, ldap_start_tls_s function [LDAP], ldap_start_tls_sA, ldap_start_tls_sW, winldap/ldap_start_tls_s, winldap/ldap_start_tls_sA, winldap/ldap_start_tls_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_start_tls_s"
+f1_keywords:
+- winldap/ldap_start_tls_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_start_tls_s
- - ldap_start_tls_sA
- - ldap_start_tls_sW
+- ldap_start_tls_s
+- ldap_start_tls_sA
+- ldap_start_tls_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

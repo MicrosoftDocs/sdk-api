@@ -1,19 +1,17 @@
 ---
 UID: NS:winwlx._WLX_DISPATCH_VERSION_1_4
 title: WLX_DISPATCH_VERSION_1_4 (winwlx.h)
-
 description: Defines the format of the Winlogon version 1.4 function dispatch table passed to the GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_4.htm
 tech.root: SecAuthN
 ms.assetid: b2d0c936-5430-48ed-b808-92209b909406
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_DISPATCH_VERSION_1_4, PWLX_DISPATCH_VERSION_1_4, PWLX_DISPATCH_VERSION_1_4 structure pointer [Security], WLX_DISPATCH_VERSION_1_4, WLX_DISPATCH_VERSION_1_4 structure [Security], _gina_wlx_dispatch_version_1_4, security.wlx_dispatch_version_1_4, winwlx/PWLX_DISPATCH_VERSION_1_4, winwlx/WLX_DISPATCH_VERSION_1_4"
+ms.keywords: '*PWLX_DISPATCH_VERSION_1_4, PWLX_DISPATCH_VERSION_1_4, PWLX_DISPATCH_VERSION_1_4 structure pointer [Security], WLX_DISPATCH_VERSION_1_4, WLX_DISPATCH_VERSION_1_4 structure [Security], _gina_wlx_dispatch_version_1_4, security.wlx_dispatch_version_1_4, winwlx/PWLX_DISPATCH_VERSION_1_4, winwlx/WLX_DISPATCH_VERSION_1_4'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_DISPATCH_VERSION_1_4"
+f1_keywords:
+- winwlx/WLX_DISPATCH_VERSION_1_4
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_DISPATCH_VERSION_1_4
+- WLX_DISPATCH_VERSION_1_4
 targetos: Windows
 req.typenames: WLX_DISPATCH_VERSION_1_4, *PWLX_DISPATCH_VERSION_1_4
 req.redist: 

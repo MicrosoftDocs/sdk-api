@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_DevNode_PropertyW
 title: CM_Get_DevNode_PropertyW function (cfgmgr32.h)
-
 description: The CM_Get_DevNode_Property function retrieves a device instance property.
 old-location: devinst\cm_get_devnode_property.htm
 tech.root: devinst
 ms.assetid: A2EE0C78-13CB-4D9D-B68C-F527CCA2DF26
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_DevNode_Property, CM_Get_DevNode_Property function [Device and Driver Installation], CM_Get_DevNode_PropertyW, cfgmgr32/CM_Get_DevNode_Property, cfgmgr32/CM_Get_DevNode_PropertyW, devinst.cm_get_devnode_property
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_DevNode_Property"
+f1_keywords:
+- cfgmgr32/CM_Get_DevNode_Property
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,18 +30,18 @@ req.lib: Cfgmgr32.lib
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_DevNode_Property
- - CM_Get_DevNode_Property
- - CM_Get_DevNode_PropertyW
+- CM_Get_DevNode_Property
+- CM_Get_DevNode_Property
+- CM_Get_DevNode_PropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

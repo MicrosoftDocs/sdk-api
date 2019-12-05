@@ -1,46 +1,43 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.ProcessFrames
 title: ID3D12VideoProcessCommandList::ProcessFrames
-
 description: Records a video processing operation to the command list, operating on one or more input samples and writing the result to an output surface.
 tech.root: mf
 ms.assetid: 7f94fe17-318e-49cd-8041-71ca34030572
-
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:
- - ID3D12VideoProcessCommandList::ProcessFrames
+- ID3D12VideoProcessCommandList::ProcessFrames
 dev_langs:
- - c++
+- c++
 ms.keywords: ID3D12VideoProcessCommandList::ProcessFrames, ProcessFrames, ID3D12VideoProcessCommandList.ProcessFrames, ID3D12VideoProcessCommandList::ProcessFrames, ID3D12VideoProcessCommandList.ProcessFrames
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VideoProcessCommandList::ProcessFrames
+- ID3D12VideoProcessCommandList::ProcessFrames
 targetos: Windows
-
 ---
 
 # ID3D12VideoProcessCommandList::ProcessFrames

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAcceptChannel
 title: WsAcceptChannel function (webservices.h)
-
 description: Accepts the next incoming message from the specified listener.
 old-location: wsw\wsacceptchannel.htm
 tech.root: wsw
 ms.assetid: e18e0005-89bd-435e-9a12-6602c3c638b7
-
 ms.date: 12/05/2018
 ms.keywords: WsAcceptChannel, WsAcceptChannel function [Web Services for Windows], webservices/WsAcceptChannel, wsw.wsacceptchannel
 ms.topic: function
 f1_keywords:
 - webservices/WsAcceptChannel
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_RequestID
 title: IMcastLeaseInfo::get_RequestID (mdhcp.h)
-
 description: The get_RequestID method obtains the request ID for a lease.
 old-location: tapi3\imcastleaseinfo_get_requestid.htm
 tech.root: Tapi
 ms.assetid: 832bf532-4779-4066-a630-9892ad746a6c
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_RequestID method, IMcastLeaseInfo.get_RequestID, IMcastLeaseInfo::get_RequestID, _tapi3_imcastleaseinfo_get_requestid, get_RequestID, get_RequestID method [TAPI 2.2], get_RequestID method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_RequestID, tapi3.imcastleaseinfo_get_requestid
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo.get_RequestID"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo.get_RequestID
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_RequestID
+- IMcastLeaseInfo.get_RequestID
 targetos: Windows
 req.typenames: 
 req.redist: 

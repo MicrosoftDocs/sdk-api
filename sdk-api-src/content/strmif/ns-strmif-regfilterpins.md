@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.REGFILTERPINS
 title: REGFILTERPINS (strmif.h)
-
 description: The REGFILTERPINS structure contains pin information for registering a filter.
 old-location: dshow\regfilterpins.htm
 tech.root: DirectShow
 ms.assetid: 1da033e1-24c3-46e0-becf-025966e6238f
-
 ms.date: 12/05/2018
 ms.keywords: AMOVIESETUP_PIN, AMOVIESETUP_PIN structure [DirectShow], LPAMOVIESETUP_PIN, LPAMOVIESETUP_PIN structure pointer [DirectShow], PAMOVIESETUP_PIN, PAMOVIESETUP_PIN structure pointer [DirectShow], REGFILTERPINS, REGFILTERPINS structure [DirectShow], REGFILTERPINSStructure, dshow.regfilterpins, strmif/AMOVIESETUP_PIN, strmif/LPAMOVIESETUP_PIN, strmif/PAMOVIESETUP_PIN, strmif/REGFILTERPINS
 ms.topic: struct
-f1_keywords: 
- - "strmif/REGFILTERPINS"
+f1_keywords:
+- strmif/REGFILTERPINS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - REGFILTERPINS
+- REGFILTERPINS
 targetos: Windows
 req.typenames: REGFILTERPINS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleWriter
 title: IAppxBundleFactory::CreateBundleWriter (appxpackaging.h)
-
 description: Creates a write-only bundle object to which app packages can be added.
 old-location: appxpkg\iappxbundlefactory_createbundlewriter.htm
 tech.root: appxpkg
 ms.assetid: E77392FB-69A1-41B0-8B44-F05F126214E0
-
 ms.date: 12/05/2018
 ms.keywords: CreateBundleWriter, CreateBundleWriter method [App packaging and management], CreateBundleWriter method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleWriter method, IAppxBundleFactory.CreateBundleWriter, IAppxBundleFactory::CreateBundleWriter, appxpackaging/IAppxBundleFactory::CreateBundleWriter, appxpkg.iappxbundlefactory_createbundlewriter
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleFactory.CreateBundleWriter"
+f1_keywords:
+- appxpackaging/IAppxBundleFactory.CreateBundleWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleFactory.CreateBundleWriter
+- IAppxBundleFactory.CreateBundleWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

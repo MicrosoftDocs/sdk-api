@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSetExtendedOption
 title: SymSetExtendedOption function (dbghelp.h)
-
 description: Turns the specified extended symbol option on or off.
 old-location: base\symsetextendedoption.htm
 tech.root: Debug
 ms.assetid: 25756250-D2B4-4D5A-BED0-238C34C18093
-
 ms.date: 12/05/2018
 ms.keywords: SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SymSetExtendedOption, SymSetExtendedOption function, base.symsetextendedoption, dbghelp/SymSetExtendedOption
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSetExtendedOption"
+f1_keywords:
+- dbghelp/SymSetExtendedOption
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
- - ImageHlp.dll
+- DbgHelp.dll
+- ImageHlp.dll
 api_name:
- - SymSetExtendedOption
+- SymSetExtendedOption
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 10.0.16232.1000 or later

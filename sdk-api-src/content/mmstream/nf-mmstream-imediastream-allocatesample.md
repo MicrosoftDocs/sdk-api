@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMediaStream.AllocateSample
 title: IMediaStream::AllocateSample (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Allocates a new stream sample object for the current media stream.
 old-location: dshow\imediastream_allocatesample.htm
 tech.root: DirectShow
 ms.assetid: a035797d-ebf2-40c2-b1a3-b903a691b7d2
-
 ms.date: 12/05/2018
 ms.keywords: AllocateSample, AllocateSample method [DirectShow], AllocateSample method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],AllocateSample method, IMediaStream.AllocateSample, IMediaStream::AllocateSample, IMediaStreamAllocateSample, dshow.imediastream_allocatesample, mmstream/IMediaStream::AllocateSample
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMediaStream.AllocateSample"
+f1_keywords:
+- mmstream/IMediaStream.AllocateSample
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMediaStream.AllocateSample
+- IMediaStream.AllocateSample
 targetos: Windows
 req.typenames: 
 req.redist: 

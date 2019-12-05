@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 title: IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents (imapi2.h)
-
 description: Retrieves the table of content for the audio tracks that were laid on the media within the track-writing session.
 old-location: imapi\idiscformat2trackatonce_get_expectedtableofcontents.htm
 tech.root: imapi
 ms.assetid: b414bdbc-0f49-4a00-9b25-fa738f5f880b
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],get_ExpectedTableOfContents method, IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents, IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents, get_ExpectedTableOfContents, get_ExpectedTableOfContents method [IMAPI], get_ExpectedTableOfContents method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_get_expectedtableofcontents, imapi2/IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
+- IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 targetos: Windows
 req.typenames: 
 req.redist: 

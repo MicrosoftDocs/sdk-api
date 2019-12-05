@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_34
 title: DNS_ATMA_DATA (windns.h)
-
 description: The DNS_ATMA_DATA structure represents a DNS ATM address (ATMA) resource record (RR).
 old-location: dns\dns_atma_data.htm
 tech.root: DNS
 ms.assetid: 09df3990-36bd-4656-b5cd-792e521adf9d
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_ATMA_DATA, DNS_ATMA_DATA, DNS_ATMA_DATA structure [DNS], DNS_ATMA_FORMAT_AESA, DNS_ATMA_FORMAT_E164, PDNS_ATMA_DATA, PDNS_ATMA_DATA structure pointer [DNS], _dns_dns_atma_data, dns.dns_atma_data, windns/DNS_ATMA_DATA, windns/PDNS_ATMA_DATA"
+ms.keywords: '*PDNS_ATMA_DATA, DNS_ATMA_DATA, DNS_ATMA_DATA structure [DNS], DNS_ATMA_FORMAT_AESA, DNS_ATMA_FORMAT_E164, PDNS_ATMA_DATA, PDNS_ATMA_DATA structure pointer [DNS], _dns_dns_atma_data, dns.dns_atma_data, windns/DNS_ATMA_DATA, windns/PDNS_ATMA_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_ATMA_DATA"
+f1_keywords:
+- windns/DNS_ATMA_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_ATMA_DATA
+- DNS_ATMA_DATA
 targetos: Windows
 req.typenames: DNS_ATMA_DATA, *PDNS_ATMA_DATA
 req.redist: 

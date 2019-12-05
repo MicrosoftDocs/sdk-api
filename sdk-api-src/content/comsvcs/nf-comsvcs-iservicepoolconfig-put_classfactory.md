@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_ClassFactory
 title: IServicePoolConfig::put_ClassFactory (comsvcs.h)
-
 description: Sets a class factory for the pooled objects.
 old-location: cos\iservicepoolconfig_put_classfactory.htm
 tech.root: cossdk
 ms.assetid: 329c67f0-3c02-4cea-bee6-b5c8aaa9471b
-
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_ClassFactory method, IServicePoolConfig.put_ClassFactory, IServicePoolConfig::put_ClassFactory, comsvcs/IServicePoolConfig::put_ClassFactory, cos.iservicepoolconfig_put_classfactory, put_ClassFactory, put_ClassFactory method [COM+], put_ClassFactory method [COM+],IServicePoolConfig interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePoolConfig.put_ClassFactory"
+f1_keywords:
+- comsvcs/IServicePoolConfig.put_ClassFactory
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePoolConfig.put_ClassFactory
+- IServicePoolConfig.put_ClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

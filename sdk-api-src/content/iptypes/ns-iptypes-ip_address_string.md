@@ -1,19 +1,17 @@
 ---
 UID: NS:iptypes.__unnamed_struct_0
 title: IP_ADDRESS_STRING (iptypes.h)
-
 description: Stores an IPv4 address in dotted decimal notation.
 old-location: iphlp\ip_address_string.htm
 tech.root: IpHlp
 ms.assetid: f426b22f-66e4-43e4-8852-357359df6f88
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_ADDRESS_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING structure [IP Helper], *PIP_MASK_STRING, IP_ADDRESS_STRING, IP_ADDRESS_STRING structure [IP Helper], IP_MASK_STRING, iphlp.ip_address_string, iptypes/*PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, iptypes/IP_ADDRESS_STRING"
+ms.keywords: '*PIP_ADDRESS_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, *PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING structure [IP Helper], *PIP_MASK_STRING, IP_ADDRESS_STRING, IP_ADDRESS_STRING structure [IP Helper], IP_MASK_STRING, iphlp.ip_address_string, iptypes/*PIP_ADDRESS_STRING,IP_MASK_STRING,*PIP_MASK_STRING, iptypes/IP_ADDRESS_STRING'
 ms.topic: struct
-f1_keywords: 
- - "iptypes/IP_ADDRESS_STRING"
+f1_keywords:
+- iptypes/IP_ADDRESS_STRING
 dev_langs:
- - c++
+- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iptypes.h
+- Iptypes.h
 api_name:
- - IP_ADDRESS_STRING
+- IP_ADDRESS_STRING
 targetos: Windows
 req.typenames: IP_ADDRESS_STRING, *PIP_ADDRESS_STRING, IP_MASK_STRING, *PIP_MASK_STRING
 req.redist: 

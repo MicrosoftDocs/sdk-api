@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ReportEventA
 title: ReportEventA function (winbase.h)
-
 description: Writes an entry at the end of the specified event log.
 old-location: base\reportevent.htm
 tech.root: EventLog
 ms.assetid: e39273c3-9e42-41a1-9ec1-1cdff2ab7b55
-
 ms.date: 12/05/2018
 ms.keywords: EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_SUCCESS, EVENTLOG_WARNING_TYPE, ReportEvent, ReportEvent function, ReportEventA, ReportEventW, _win32_reportevent, base.reportevent, winbase/ReportEvent, winbase/ReportEventA, winbase/ReportEventW
 ms.topic: function
-f1_keywords: 
- - "winbase/ReportEvent"
+f1_keywords:
+- winbase/ReportEvent
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-EventLog-Legacy-l1-1-0.dll
- - advapi32legacy.dll
- - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-EventLog-Legacy-l1-1-0.dll
+- advapi32legacy.dll
+- Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - ReportEvent
- - ReportEventA
- - ReportEventW
+- ReportEvent
+- ReportEventA
+- ReportEventW
 targetos: Windows
 req.typenames: 
 req.redist: 

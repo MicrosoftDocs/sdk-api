@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.GetImageResource
 title: IXpsOMImageBrush::GetImageResource (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMImageResource interface, which contains the image resource to be used as the source for the brush.
 old-location: xps\ixpsomimagebrush_getimageresource.htm
 tech.root: printdocs
 ms.assetid: 92b03d98-22ce-4856-afe1-d13fb74eb340
-
 ms.date: 12/05/2018
 ms.keywords: GetImageResource, GetImageResource method [XPS Documents and Packaging], GetImageResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, IXpsOMImageBrush interface [XPS Documents and Packaging],GetImageResource method, IXpsOMImageBrush.GetImageResource, IXpsOMImageBrush::GetImageResource, xps.ixpsomimagebrush_getimageresource, xpsobjectmodel/IXpsOMImageBrush::GetImageResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageBrush.GetImageResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageBrush.GetImageResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageBrush.GetImageResource
+- IXpsOMImageBrush.GetImageResource
 targetos: Windows
 req.typenames: 
 req.redist: 

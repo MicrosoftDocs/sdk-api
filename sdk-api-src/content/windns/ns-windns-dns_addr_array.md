@@ -1,19 +1,17 @@
 ---
 UID: NS:windns._DnsAddrArray
 title: DNS_ADDR_ARRAY (windns.h)
-
 description: Stores an array of IPv4 or IPv6 addresses.
 old-location: dns\dns_addr_array.htm
 tech.root: DNS
 ms.assetid: 5FD7F28B-D1A6-4731-ACB9-A7BB23CC1FB4
-
 ms.date: 12/05/2018
 ms.keywords: '*PDNS_ADDR_ARRAY, AF_INET, AF_INET6, DNS_ADDR_ARRAY, DNS_ADDR_ARRAY structure [DNS], PDNS_ADDR_ARRAY, PDNS_ADDR_ARRAY structure pointer [DNS], dns.dns_addr_array, windns/DNS_ADDR_ARRAY, windns/PDNS_ADDR_ARRAY'
 ms.topic: struct
 f1_keywords:
 - windns/DNS_ADDR_ARRAY
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows

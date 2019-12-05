@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.GetCount
 title: IDWriteLocalizedStrings::GetCount (dwrite.h)
-
 description: Gets the number of language/string pairs.
 old-location: directwrite\IDWriteLocalizedStrings_GetCount.htm
 tech.root: DirectWrite
 ms.assetid: 5aafda50-327d-4fee-9c2b-fb3f23482c60
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Direct Write], GetCount method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetCount method, IDWriteLocalizedStrings.GetCount, IDWriteLocalizedStrings::GetCount, directwrite.IDWriteLocalizedStrings_GetCount, dwrite/IDWriteLocalizedStrings::GetCount
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteLocalizedStrings.GetCount"
+f1_keywords:
+- dwrite/IDWriteLocalizedStrings.GetCount
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteLocalizedStrings.GetCount
+- IDWriteLocalizedStrings.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

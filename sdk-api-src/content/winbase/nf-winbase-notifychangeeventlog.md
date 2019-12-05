@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.NotifyChangeEventLog
 title: NotifyChangeEventLog function (winbase.h)
-
 description: Enables an application to receive notification when an event is written to the specified event log.
 old-location: base\notifychangeeventlog.htm
 tech.root: EventLog
 ms.assetid: 12b9a7bf-2aad-48b7-8cfd-a72b353ba2b2
-
 ms.date: 12/05/2018
 ms.keywords: NotifyChangeEventLog, NotifyChangeEventLog function, _win32_notifychangeeventlog, base.notifychangeeventlog, winbase/NotifyChangeEventLog
 ms.topic: function
-f1_keywords: 
- - "winbase/NotifyChangeEventLog"
+f1_keywords:
+- winbase/NotifyChangeEventLog
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - NotifyChangeEventLog
+- NotifyChangeEventLog
 targetos: Windows
 req.typenames: 
 req.redist: 

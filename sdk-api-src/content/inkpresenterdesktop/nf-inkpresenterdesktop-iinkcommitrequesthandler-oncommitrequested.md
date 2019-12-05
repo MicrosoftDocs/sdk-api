@@ -1,19 +1,17 @@
 ---
 UID: NF:inkpresenterdesktop.IInkCommitRequestHandler.OnCommitRequested
 title: IInkCommitRequestHandler::OnCommitRequested (inkpresenterdesktop.h)
-
 description: Requests that the app commit all pending Microsoft DirectComposition commands to the app's DirectComposition visual tree.
 old-location: input_ink\iinkcommitrequesthandler_oncommitrequested.htm
 tech.root: input_ink
 ms.assetid: c40ddcd3-ebb6-442b-b36d-2d7d27cfa5db
-
 ms.date: 12/05/2018
 ms.keywords: IInkCommitRequestHandler interface,OnCommitRequested method, IInkCommitRequestHandler.OnCommitRequested, IInkCommitRequestHandler::OnCommitRequested, InkPresenterDesktop.iinkcommitrequesthandler_oncommitrequested, OnCommitRequested, OnCommitRequested method, OnCommitRequested method,IInkCommitRequestHandler interface, inkpresenterdesktop/IInkCommitRequestHandler::OnCommitRequested, input_ink.iinkcommitrequesthandler_oncommitrequested
 ms.topic: method
-f1_keywords: 
- - "inkpresenterdesktop/IInkCommitRequestHandler.OnCommitRequested"
+f1_keywords:
+- inkpresenterdesktop/IInkCommitRequestHandler.OnCommitRequested
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkCommitRequestHandler.OnCommitRequested
+- IInkCommitRequestHandler.OnCommitRequested
 targetos: Windows
 req.typenames: 
 req.redist: 

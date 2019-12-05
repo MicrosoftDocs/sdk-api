@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnloadKeyboardLayout
 title: UnloadKeyboardLayout function (winuser.h)
-
 description: Unloads an input locale identifier (formerly called a keyboard layout).
 old-location: inputdev\unloadkeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\unloadkeyboardlayout.htm
-
 ms.date: 12/05/2018
 ms.keywords: UnloadKeyboardLayout, UnloadKeyboardLayout function [Keyboard and Mouse Input], _win32_UnloadKeyboardLayout, _win32_unloadkeyboardlayout_cpp, inputdev.unloadkeyboardlayout, winui._win32_unloadkeyboardlayout, winuser/UnloadKeyboardLayout
 ms.topic: function
-f1_keywords: 
- - "winuser/UnloadKeyboardLayout"
+f1_keywords:
+- winuser/UnloadKeyboardLayout
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - UnloadKeyboardLayout
+- UnloadKeyboardLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj.__unnamed_struct_0
 title: FVSHOWINFO (shlobj.h)
-
 description: Contains information that the file viewer uses to display a file.
 old-location: shell\FVSHOWINFO.htm
 tech.root: shell
 ms.assetid: 8f399964-1ce4-4a9c-8cea-650a698783d3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFVSHOWINFO, FVSHOWINFO, FVSHOWINFO structure [Windows Shell], FVSIF_CANVIEWIT, FVSIF_NEWFAILED, FVSIF_NEWFILE, FVSIF_PINNED, FVSIF_RECT, LPFVSHOWINFO, LPFVSHOWINFO structure pointer [Windows Shell], _win32_FVSHOWINFO, shell.FVSHOWINFO, shlobj/FVSHOWINFO, shlobj/LPFVSHOWINFO"
+ms.keywords: '*LPFVSHOWINFO, FVSHOWINFO, FVSHOWINFO structure [Windows Shell], FVSIF_CANVIEWIT, FVSIF_NEWFAILED, FVSIF_NEWFILE, FVSIF_PINNED, FVSIF_RECT, LPFVSHOWINFO, LPFVSHOWINFO structure pointer [Windows Shell], _win32_FVSHOWINFO, shell.FVSHOWINFO, shlobj/FVSHOWINFO, shlobj/LPFVSHOWINFO'
 ms.topic: struct
-f1_keywords: 
- - "shlobj/FVSHOWINFO"
+f1_keywords:
+- shlobj/FVSHOWINFO
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj.h
+- Shlobj.h
 api_name:
- - FVSHOWINFO
+- FVSHOWINFO
 targetos: Windows
 req.typenames: FVSHOWINFO, *LPFVSHOWINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetAdapterId
 title: INetworkConnection::GetAdapterId (netlistmgr.h)
-
 description: The GetAdapterID method returns the ID of the network adapter used by this connection.
 old-location: nla\inetworkconnection_getadapterid.htm
 tech.root: nla
 ms.assetid: 69711dea-e0dd-4c1e-a83f-1f06d4259b35
-
 ms.date: 12/05/2018
 ms.keywords: GetAdapterId, GetAdapterId method [Network Awareness], GetAdapterId method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetAdapterId method, INetworkConnection.GetAdapterId, INetworkConnection::GetAdapterId, netlistmgr/INetworkConnection::GetAdapterId, nla.inetworkconnection_getadapterid
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkConnection.GetAdapterId"
+f1_keywords:
+- netlistmgr/INetworkConnection.GetAdapterId
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnection.GetAdapterId
+- INetworkConnection.GetAdapterId
 targetos: Windows
 req.typenames: 
 req.redist: 

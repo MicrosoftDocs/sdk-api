@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IRunningTaskCollection
 title: IRunningTaskCollection (taskschd.h)
-
 description: Provides a collection that is used to control running tasks.
 old-location: taskschd\irunningtaskcollection.htm
 tech.root: taskschd
 ms.assetid: f95efba5-563d-49c0-81d3-143aa158ad8f
-
 ms.date: 12/05/2018
 ms.keywords: IRunningTaskCollection, IRunningTaskCollection interface [Task Scheduler], IRunningTaskCollection interface [Task Scheduler],described, taskschd.irunningtaskcollection, taskschd/IRunningTaskCollection
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IRunningTaskCollection"
+f1_keywords:
+- taskschd/IRunningTaskCollection
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRunningTaskCollection
+- IRunningTaskCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

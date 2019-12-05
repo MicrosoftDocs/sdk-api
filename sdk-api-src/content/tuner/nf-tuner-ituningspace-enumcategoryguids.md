@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.EnumCategoryGUIDs
 title: ITuningSpace::EnumCategoryGUIDs (tuner.h)
-
 description: Currently not implemented.
 old-location: mstv\ituningspace_enumcategoryguids.htm
 tech.root: mstv
 ms.assetid: d9efbbda-fa95-46ea-aedc-7be5b13d16b5
-
 ms.date: 12/05/2018
 ms.keywords: EnumCategoryGUIDs, EnumCategoryGUIDs method [Microsoft TV Technologies], EnumCategoryGUIDs method [Microsoft TV Technologies],ITuningSpace interface, ITuningSpace interface [Microsoft TV Technologies],EnumCategoryGUIDs method, ITuningSpace.EnumCategoryGUIDs, ITuningSpace::EnumCategoryGUIDs, ITuningSpaceEnumCategoryGUIDs, mstv.ituningspace_enumcategoryguids, tuner/ITuningSpace::EnumCategoryGUIDs
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.EnumCategoryGUIDs"
+f1_keywords:
+- tuner/ITuningSpace.EnumCategoryGUIDs
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.EnumCategoryGUIDs
+- ITuningSpace.EnumCategoryGUIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

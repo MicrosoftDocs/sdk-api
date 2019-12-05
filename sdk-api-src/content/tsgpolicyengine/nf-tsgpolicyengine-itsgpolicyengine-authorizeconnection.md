@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.AuthorizeConnection
 title: ITSGPolicyEngine::AuthorizeConnection (tsgpolicyengine.h)
-
 description: Determines whether the specified connection is authorized to connect to Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgpolicyengine_authorizeconnection.htm
 tech.root: TermServ
 ms.assetid: 41a61eef-c8fe-4e08-b793-a58553f31646
-
 ms.date: 12/05/2018
 ms.keywords: AuthorizeConnection, AuthorizeConnection method [Remote Desktop Services], AuthorizeConnection method [Remote Desktop Services],ITSGPolicyEngine interface, ITSGPolicyEngine interface [Remote Desktop Services],AuthorizeConnection method, ITSGPolicyEngine.AuthorizeConnection, ITSGPolicyEngine::AuthorizeConnection, termserv.itsgpolicyengine_authorizeconnection, tsgpolicyengine/ITSGPolicyEngine::AuthorizeConnection
 ms.topic: method
-f1_keywords: 
- - "tsgpolicyengine/ITSGPolicyEngine.AuthorizeConnection"
+f1_keywords:
+- tsgpolicyengine/ITSGPolicyEngine.AuthorizeConnection
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine.AuthorizeConnection
+- ITSGPolicyEngine.AuthorizeConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

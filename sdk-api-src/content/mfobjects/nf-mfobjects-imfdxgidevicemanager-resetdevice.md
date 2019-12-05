@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.ResetDevice
 title: IMFDXGIDeviceManager::ResetDevice (mfobjects.h)
-
 description: Sets the Microsoft Direct3D device or notifies the device manager that the Direct3D device was reset.
 old-location: mf\imfdxgidevicemanager_resetdevice.htm
 tech.root: medfound
 ms.assetid: D8A2291A-792B-4D24-997A-9C152FFE5426
-
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],ResetDevice method, IMFDXGIDeviceManager.ResetDevice, IMFDXGIDeviceManager::ResetDevice, ResetDevice, ResetDevice method [Media Foundation], ResetDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_resetdevice, mfobjects/IMFDXGIDeviceManager::ResetDevice
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFDXGIDeviceManager.ResetDevice"
+f1_keywords:
+- mfobjects/IMFDXGIDeviceManager.ResetDevice
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.ResetDevice
+- IMFDXGIDeviceManager.ResetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

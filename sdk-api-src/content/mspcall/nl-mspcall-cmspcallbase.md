@@ -1,19 +1,17 @@
 ---
 UID: NL:mspcall.CMSPCallBase
 title: CMSPCallBase (mspcall.h)
-
 description: The CMSPCallBase class provides a generic implementation of the call object. It supports the ITStreamControl interface. It serves as a simple base class that maintains the stream list. This class is defined in MSPcall.h.
 old-location: tapi3\cmspcallbase.htm
 tech.root: Tapi
 ms.assetid: 77b53b66-38fa-4823-9051-e857da8a7dd7
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase, CMSPCallBase class [TAPI 2.2], CMSPCallBase class [TAPI 2.2],described, _tapi3_cmspcallbase, mspcall/CMSPCallBase, tapi3.cmspcallbase
 ms.topic: class
-f1_keywords: 
- - "mspcall/CMSPCallBase"
+f1_keywords:
+- mspcall/CMSPCallBase
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallBase
+- CMSPCallBase
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx
 title: IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx (bdaiface.h)
-
 description: Converts a service identifier into an XML tune request.
 old-location: mstv\ibda_guidedatadeliveryservice_gettunexmlfromserviceidx.htm
 tech.root: mstv
 ms.assetid: 5f429473-6a48-4298-b8f4-61809604ffbd
-
 ms.date: 12/05/2018
 ms.keywords: GetTuneXmlFromServiceIdx, GetTuneXmlFromServiceIdx method [Microsoft TV Technologies], GetTuneXmlFromServiceIdx method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetTuneXmlFromServiceIdx method, IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx, IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx, bdaiface/IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx, mstv.ibda_guidedatadeliveryservice_gettunexmlfromserviceidx
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx"
+f1_keywords:
+- bdaiface/IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx
+- IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx
 targetos: Windows
 req.typenames: 
 req.redist: 

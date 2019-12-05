@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetTitleParentalLevels
 title: IDvdInfo::GetTitleParentalLevels (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the parental levels that are defined for a particular title.
 old-location: dshow\idvdinfo_gettitleparentallevels.htm
 tech.root: DirectShow
 ms.assetid: 1a843346-9e24-4321-971f-07e4eed3fc72
-
 ms.date: 12/05/2018
 ms.keywords: GetTitleParentalLevels, GetTitleParentalLevels method [DirectShow], GetTitleParentalLevels method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetTitleParentalLevels method, IDvdInfo.GetTitleParentalLevels, IDvdInfo::GetTitleParentalLevels, IDvdInfoGetTitleParentalLevels, dshow.idvdinfo_gettitleparentallevels, strmif/IDvdInfo::GetTitleParentalLevels
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetTitleParentalLevels"
+f1_keywords:
+- strmif/IDvdInfo.GetTitleParentalLevels
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetTitleParentalLevels
+- IDvdInfo.GetTitleParentalLevels
 targetos: Windows
 req.typenames: 
 req.redist: 

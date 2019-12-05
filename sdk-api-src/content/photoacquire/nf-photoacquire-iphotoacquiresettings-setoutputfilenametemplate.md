@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetOutputFilenameTemplate
 title: IPhotoAcquireSettings::SetOutputFilenameTemplate (photoacquire.h)
-
 description: The SetOutputFilenameTemplate method specifies a format string (template) that specifies the format of file names.
 old-location: picacq\iphotoacquiresettings_setoutputfilenametemplate.htm
 tech.root: acquisition
 ms.assetid: 28eaeee4-05eb-4d51-9e21-937481bc7703
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetOutputFilenameTemplate method, IPhotoAcquireSettings.SetOutputFilenameTemplate, IPhotoAcquireSettings::SetOutputFilenameTemplate, IPhotoAcquireSettingsSetOutputFilenameTemplate, SetOutputFilenameTemplate, SetOutputFilenameTemplate method [Picture Acquisition], SetOutputFilenameTemplate method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetOutputFilenameTemplate, picacq.iphotoacquiresettings_setoutputfilenametemplate
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings.SetOutputFilenameTemplate"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings.SetOutputFilenameTemplate
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.SetOutputFilenameTemplate
+- IPhotoAcquireSettings.SetOutputFilenameTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

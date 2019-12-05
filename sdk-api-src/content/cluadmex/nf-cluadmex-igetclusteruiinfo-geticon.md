@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetIcon
 title: IGetClusterUIInfo::GetIcon (cluadmex.h)
-
 description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
 old-location: mscs\igetclusteruiinfo_geticon.htm
 tech.root: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759
-
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Failover Cluster], GetIcon method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetIcon method, IGetClusterUIInfo.GetIcon, IGetClusterUIInfo::GetIcon, _wolf_igetclusteruiinfo_geticon, cluadmex/IGetClusterUIInfo::GetIcon, mscs.igetclusteruiinfo_geticon
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterUIInfo.GetIcon"
+f1_keywords:
+- cluadmex/IGetClusterUIInfo.GetIcon
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetIcon
+- IGetClusterUIInfo.GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

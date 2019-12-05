@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwOpenPorts
 title: INetFwOpenPorts (netfw.h)
-
 description: The INetFwOpenPorts interface is a standard Automation collection interface.
 old-location: ics\inetfwopenports.htm
 tech.root: ics
 ms.assetid: a3a6e5c1-5818-419c-8df4-966b2fbcd8c0
-
 ms.date: 12/05/2018
 ms.keywords: INetFwOpenPorts, INetFwOpenPorts interface [ICS/ICF], INetFwOpenPorts interface [ICS/ICF],described, ics.inetfwopenports, netfw/INetFwOpenPorts
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwOpenPorts"
+f1_keywords:
+- netfw/INetFwOpenPorts
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwOpenPorts
+- INetFwOpenPorts
 targetos: Windows
 req.typenames: 
 req.redist: 

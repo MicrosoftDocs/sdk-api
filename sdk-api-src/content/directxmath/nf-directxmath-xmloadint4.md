@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMLoadInt4
 title: XMLoadInt4 function (directxmath.h)
-
 description: Loads data into an XMVECTOR, without type checking.
 old-location: dxmath\xmloadint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt4(const VOID)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt4, XMLoadInt4, XMLoadInt4 method [DirectX Math Support APIs], dxmath.xmloadint4
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMLoadInt4"
+f1_keywords:
+- directxmath/XMLoadInt4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMLoadInt4
+- XMLoadInt4
 targetos: Windows
 req.typenames: 
 req.redist: 

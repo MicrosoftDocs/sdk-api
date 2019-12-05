@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindTemporaryResource
 title: IDMLBindingTable::BindTemporaryResource
-
 description: Binds a buffer to use as temporary scratch memory. You can determine the required size of this buffer range by calling IDMLDispatchable::GetBindingProperties.
 old-location: direct3d12\idmlbindingtable_bindtemporaryresource.htm
 tech.root: direct3d12
 ms.assetid: B4673D07-997A-4D9A-B0B8-B615687BFD6C
-
 ms.date: 12/5/2018
 ms.keywords: BindTemporaryResource, BindTemporaryResource method, BindTemporaryResource method,IDMLBindingTable interface, IDMLBindingTable interface,BindTemporaryResource method, IDMLBindingTable.BindTemporaryResource, IDMLBindingTable::BindTemporaryResource, direct3d12.idmlbindingtable_bindtemporaryresource, directml/IDMLBindingTable::BindTemporaryResource
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLBindingTable.BindTemporaryResource"
+f1_keywords:
+- directml/IDMLBindingTable.BindTemporaryResource
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLBindingTable.BindTemporaryResource
+- IDMLBindingTable.BindTemporaryResource
 targetos: Windows
 req.typenames: 
 req.redist: 

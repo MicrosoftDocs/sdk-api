@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecRemoved
 title: IOfflineFilesEvents::SyncConflictRecRemoved (cscobj.h)
-
 description: Reports that a sync conflict no longer exists and that its record has been removed from the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecremoved.htm
 tech.root: offlinefiles
 ms.assetid: ccdd7b74-3e00-4a3d-9632-eac48d790f23
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecRemoved method, IOfflineFilesEvents.SyncConflictRecRemoved, IOfflineFilesEvents::SyncConflictRecRemoved, SyncConflictRecRemoved, SyncConflictRecRemoved method [Offline Files], SyncConflictRecRemoved method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecRemoved, of.iofflinefilesevents_syncconflictrecremoved
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.SyncConflictRecRemoved"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.SyncConflictRecRemoved
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.SyncConflictRecRemoved
+- IOfflineFilesEvents.SyncConflictRecRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

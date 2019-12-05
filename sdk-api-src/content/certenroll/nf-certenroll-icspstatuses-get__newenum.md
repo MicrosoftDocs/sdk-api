@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatuses.get__NewEnum
 title: ICspStatuses::get__NewEnum (certenroll.h)
-
 description: Retrieves the enumerator for the collection.
 old-location: security\icspstatuses__newenum_property.htm
 tech.root: seccertenroll
 ms.assetid: 2f5afa98-92ad-4f69-8de9-500575f288a6
-
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],_NewEnum property, ICspStatuses._NewEnum, ICspStatuses.get__NewEnum, ICspStatuses::_NewEnum, ICspStatuses::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],ICspStatuses interface, certenroll/ICspStatuses::_NewEnum, certenroll/ICspStatuses::get__NewEnum, get__NewEnum, security.icspstatuses__newenum_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatuses._NewEnum"
+f1_keywords:
+- certenroll/ICspStatuses._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatuses._NewEnum
- - ICspStatuses.get__NewEnum
+- ICspStatuses._NewEnum
+- ICspStatuses.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

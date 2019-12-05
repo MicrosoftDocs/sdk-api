@@ -1,19 +1,17 @@
 ---
 UID: NF:frquery.CFrameworkQuery.GetRequiredProperties
 title: CFrameworkQuery::GetRequiredProperties (frquery.h)
-
 description: The GetRequiredProperties method returns a list of all of the properties specified in the SELECT statement of a query. It returns the properties from both the SELECT and WHERE clauses.
 old-location: wmi\cframeworkquery_getrequiredproperties.htm
 tech.root: WmiSdk
 ms.assetid: cf02aa01-6d56-4fd7-b8f2-67b0c855e807
-
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetRequiredProperties method, CFrameworkQuery.GetRequiredProperties, CFrameworkQuery::GetRequiredProperties, GetRequiredProperties, GetRequiredProperties method [Windows Management Instrumentation], GetRequiredProperties method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getrequiredproperties, frquery/CFrameworkQuery::GetRequiredProperties, wmi.cframeworkquery_getrequiredproperties
 ms.topic: method
-f1_keywords: 
- - "frquery/CFrameworkQuery.GetRequiredProperties"
+f1_keywords:
+- frquery/CFrameworkQuery.GetRequiredProperties
 dev_langs:
- - c++
+- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CFrameworkQuery.GetRequiredProperties
+- CFrameworkQuery.GetRequiredProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

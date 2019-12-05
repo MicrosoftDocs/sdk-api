@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoMixerControl2.GetMixingPrefs
 title: IMFVideoMixerControl2::GetMixingPrefs (evr.h)
-
 description: Gets the current preferences for video deinterlacing.
 old-location: mf\imfvideomixercontrol2_getmixingprefs.htm
 tech.root: medfound
 ms.assetid: 4ec03db2-9e7f-4a11-8d69-7654391a33d8
-
 ms.date: 12/05/2018
 ms.keywords: GetMixingPrefs, GetMixingPrefs method [Media Foundation], GetMixingPrefs method [Media Foundation],IMFVideoMixerControl2 interface, IMFVideoMixerControl2 interface [Media Foundation],GetMixingPrefs method, IMFVideoMixerControl2.GetMixingPrefs, IMFVideoMixerControl2::GetMixingPrefs, evr/IMFVideoMixerControl2::GetMixingPrefs, mf.imfvideomixercontrol2_getmixingprefs
 ms.topic: method
 f1_keywords:
 - evr/IMFVideoMixerControl2.GetMixingPrefs
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows

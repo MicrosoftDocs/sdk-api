@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_FileMaxTotalSize
 title: IConfigurationDataCollector::get_FileMaxTotalSize (pla.h)
-
 description: Retrieves or sets the maximum total file size of all files combined that you can collect.
 old-location: pla\iconfigurationdatacollector_filemaxtotalsize.htm
 tech.root: PLA
 ms.assetid: bcfe2b95-770d-4543-8f79-c5f1b55c5dec
-
 ms.date: 12/05/2018
 ms.keywords: FileMaxTotalSize property [PLA], FileMaxTotalSize property [PLA],IConfigurationDataCollector interface, IConfigurationDataCollector interface [PLA],FileMaxTotalSize property, IConfigurationDataCollector.FileMaxTotalSize, IConfigurationDataCollector.get_FileMaxTotalSize, IConfigurationDataCollector::FileMaxTotalSize, IConfigurationDataCollector::get_FileMaxTotalSize, IConfigurationDataCollector::put_FileMaxTotalSize, base.iconfigurationdatacollector_filemaxtotalsize, get_FileMaxTotalSize, pla.iconfigurationdatacollector_filemaxtotalsize, pla/IConfigurationDataCollector::FileMaxTotalSize, pla/IConfigurationDataCollector::get_FileMaxTotalSize, pla/IConfigurationDataCollector::put_FileMaxTotalSize
 ms.topic: method
-f1_keywords: 
- - "pla/IConfigurationDataCollector.FileMaxTotalSize"
+f1_keywords:
+- pla/IConfigurationDataCollector.FileMaxTotalSize
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IConfigurationDataCollector.FileMaxTotalSize
- - IConfigurationDataCollector.get_FileMaxTotalSize
- - IConfigurationDataCollector.put_FileMaxTotalSize
+- IConfigurationDataCollector.FileMaxTotalSize
+- IConfigurationDataCollector.get_FileMaxTotalSize
+- IConfigurationDataCollector.put_FileMaxTotalSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterGroupSetEnum
 title: ClusterGroupSetEnum function (clusapi.h)
-
 description: Returns the next enumerable object.
 old-location: mscs\clustergroupcollectionenum.htm
 tech.root: MsCS
 ms.assetid: 926f67bd-2933-4b95-8320-166fe5299d7a
-
 ms.date: 12/05/2018
 ms.keywords: ClusterGroupCollectionEnum, ClusterGroupCollectionEnum function [Failover Cluster], ClusterGroupSetEnum, clusapi/ClusterGroupCollectionEnum, mscs.clustergroupcollectionenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterGroupCollectionEnum"
+f1_keywords:
+- clusapi/ClusterGroupCollectionEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterGroupCollectionEnum
+- ClusterGroupCollectionEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

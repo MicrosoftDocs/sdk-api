@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersistStream.GetSizeMax
 title: IPersistStream::GetSizeMax (objidl.h)
-
 description: Retrieves the size of the stream needed to save the object.
 old-location: com\ipersiststream_getsizemax.htm
 tech.root: com
 ms.assetid: ef9f0afe-b7e5-4b88-b59d-1371ffeaacb8
-
 ms.date: 12/05/2018
 ms.keywords: GetSizeMax, GetSizeMax method [COM], GetSizeMax method [COM],IPersistStream interface, IPersistStream interface [COM],GetSizeMax method, IPersistStream.GetSizeMax, IPersistStream::GetSizeMax, _com_ipersiststream_getsizemax, com.ipersiststream_getsizemax, objidl/IPersistStream::GetSizeMax
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersistStream.GetSizeMax"
+f1_keywords:
+- objidl/IPersistStream.GetSizeMax
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistStream.GetSizeMax
+- IPersistStream.GetSizeMax
 targetos: Windows
 req.typenames: 
 req.redist: 

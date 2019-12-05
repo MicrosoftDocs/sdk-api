@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ObjectContext.SetAbort
 title: ObjectContext::SetAbort (comsvcs.h)
-
 description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated on return.
 old-location: cos\objectcontext_setabort.htm
 tech.root: cossdk
 ms.assetid: 709c1752-f2fb-463e-a95e-a082cd28b110
-
 ms.date: 12/05/2018
 ms.keywords: ObjectContext interface [COM+],SetAbort method, ObjectContext.SetAbort, ObjectContext::SetAbort, SetAbort, SetAbort method [COM+], SetAbort method [COM+],ObjectContext interface, _cos_ObjectContext_SetAbort, comsvcs/ObjectContext::SetAbort, cos.objectcontext_setabort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ObjectContext.SetAbort"
+f1_keywords:
+- comsvcs/ObjectContext.SetAbort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectContext.SetAbort
+- ObjectContext.SetAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

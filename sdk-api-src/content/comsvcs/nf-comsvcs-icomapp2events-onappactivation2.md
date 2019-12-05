@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComApp2Events.OnAppActivation2
 title: IComApp2Events::OnAppActivation2 (comsvcs.h)
-
 description: Generated when the server application process is loaded.
 old-location: cos\icomapp2events_onappactivation2.htm
 tech.root: cossdk
 ms.assetid: d621f46e-19c2-4fab-8820-a5716cb7cdc4
-
 ms.date: 12/05/2018
 ms.keywords: IComApp2Events interface [COM+],OnAppActivation2 method, IComApp2Events.OnAppActivation2, IComApp2Events::OnAppActivation2, OnAppActivation2, OnAppActivation2 method [COM+], OnAppActivation2 method [COM+],IComApp2Events interface, _dtc_IComApp2Events_OnAppActivation2, comsvcs/IComApp2Events::OnAppActivation2, cos.icomapp2events_onappactivation2
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComApp2Events.OnAppActivation2"
+f1_keywords:
+- comsvcs/IComApp2Events.OnAppActivation2
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComApp2Events.OnAppActivation2
+- IComApp2Events.OnAppActivation2
 targetos: Windows
 req.typenames: 
 req.redist: 

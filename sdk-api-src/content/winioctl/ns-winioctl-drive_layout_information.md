@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DRIVE_LAYOUT_INFORMATION
 title: DRIVE_LAYOUT_INFORMATION
-
 description: Contains information about the partitions of a drive.
 old-location: fs\drive_layout_information_str.htm
 tech.root: FileIO
 ms.assetid: e67ccaa7-a735-4695-8385-28f57b41821c
-
 ms.date: 12/05/2018
 ms.keywords: '*PDRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Files], PDRIVE_LAYOUT_INFORMATION, PDRIVE_LAYOUT_INFORMATION structure pointer [Files], _win32_drive_layout_information_str, base.drive_layout_information_str, fs.drive_layout_information_str, winioctl/DRIVE_LAYOUT_INFORMATION, winioctl/PDRIVE_LAYOUT_INFORMATION'
 ms.topic: struct
 f1_keywords:
 - winioctl/DRIVE_LAYOUT_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

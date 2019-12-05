@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.CreateSemaphoreW
 title: CreateSemaphoreW function (synchapi.h)
-
 description: Creates or opens a named or unnamed semaphore object.
 old-location: base\createsemaphore.htm
 tech.root: Sync
 ms.assetid: 2e55d67b-99de-4f10-8637-00d9d62e4460
-
 ms.date: 12/05/2018
 ms.keywords: CreateSemaphoreA, CreateSemaphoreW, CreateSemaphoreW function, _win32_createsemaphore, base.createsemaphore, synchapi/CreateSemaphoreA, synchapi/CreateSemaphoreW
 ms.topic: function
-f1_keywords: 
- - "synchapi/CreateSemaphoreW"
+f1_keywords:
+- synchapi/CreateSemaphoreW
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateSemaphoreW
- - CreateSemaphoreA
- - CreateSemaphoreW
+- CreateSemaphoreW
+- CreateSemaphoreA
+- CreateSemaphoreW
 targetos: Windows
 req.typenames: 
 req.redist: 

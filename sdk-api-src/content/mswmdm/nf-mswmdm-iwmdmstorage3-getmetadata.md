@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.GetMetadata
 title: IWMDMStorage3::GetMetadata (mswmdm.h)
-
 description: The GetMetadata method retrieves the metadata associated with the storage.
 old-location: wmdm\iwmdmstorage3_getmetadata.htm
 tech.root: WMDM
 ms.assetid: 7e436742-fb19-4e8e-98a2-d961c9f0ecbf
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadata, GetMetadata method [windows Media Device Manager], GetMetadata method [windows Media Device Manager],IWMDMStorage3 interface, IWMDMStorage3 interface [windows Media Device Manager],GetMetadata method, IWMDMStorage3.GetMetadata, IWMDMStorage3::GetMetadata, IWMDMStorage3GetMetadata, mswmdm/IWMDMStorage3::GetMetadata, wmdm.iwmdmstorage3_getmetadata
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage3.GetMetadata"
+f1_keywords:
+- mswmdm/IWMDMStorage3.GetMetadata
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage3.GetMetadata
+- IWMDMStorage3.GetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

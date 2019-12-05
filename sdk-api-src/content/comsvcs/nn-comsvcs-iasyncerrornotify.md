@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IAsyncErrorNotify
 title: IAsyncErrorNotify (comsvcs.h)
-
 description: Used to implement error trapping on the asynchronous batch work that is submitted through the activity created by CoCreateActivity.
 old-location: cos\iasyncerrornotify.htm
 tech.root: cossdk
 ms.assetid: 870ab43a-c675-499b-a1e3-1f48176768c0
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncErrorNotify, IAsyncErrorNotify interface [COM+], IAsyncErrorNotify interface [COM+],described, _cos_IAsyncErrorNotify, comsvcs/IAsyncErrorNotify, cos.iasyncerrornotify
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IAsyncErrorNotify"
+f1_keywords:
+- comsvcs/IAsyncErrorNotify
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IAsyncErrorNotify
+- IAsyncErrorNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

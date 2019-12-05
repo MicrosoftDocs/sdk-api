@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.VerifyScripts
 title: VerifyScripts function (winnls.h)
-
 description: Compares two enumerated lists of scripts.
 old-location: intl\verifyscripts.htm
 tech.root: Intl
 ms.assetid: 4780aa9f-6df0-4901-8de4-3f9118320e1b
-
 ms.date: 12/05/2018
 ms.keywords: VS_ALLOW_LATIN, VerifyScripts, VerifyScripts function [Internationalization for Windows Applications], _win32_VerifyScripts, intl.verifyscripts, winnls/VerifyScripts
 ms.topic: function
-f1_keywords: 
- - "winnls/VerifyScripts"
+f1_keywords:
+- winnls/VerifyScripts
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-normalization-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-normalization-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - VerifyScripts
+- VerifyScripts
 targetos: Windows
 req.typenames: 
 req.redist: 

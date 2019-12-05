@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IMarshal
 title: IMarshal (objidlbase.h)
-
 description: Enables a COM object to define and manage the marshaling of its interface pointers.
 old-location: com\imarshal.htm
 tech.root: com
 ms.assetid: e6f08949-f27d-4aba-adff-eaf9c356a928
-
 ms.date: 12/05/2018
 ms.keywords: IMarshal, IMarshal interface [COM], IMarshal interface [COM],described, _com_imarshal, com.imarshal, objidlbase/IMarshal
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IMarshal"
+f1_keywords:
+- objidlbase/IMarshal
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMarshal
+- IMarshal
 targetos: Windows
 req.typenames: 
 req.redist: 

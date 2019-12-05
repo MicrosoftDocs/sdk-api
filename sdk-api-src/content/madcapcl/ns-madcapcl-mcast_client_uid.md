@@ -1,19 +1,17 @@
 ---
 UID: NS:madcapcl._MCAST_CLIENT_UID
 title: MCAST_CLIENT_UID (madcapcl.h)
-
 description: The MCAST_CLIENT_UID structure describes the unique client identifier for each multicast request.
 old-location: madcap\mcast_client_uid.htm
 tech.root: Madcap
 ms.assetid: 6460ea80-f1b1-4939-a977-580d0db10fd0
-
 ms.date: 12/05/2018
 ms.keywords: '*LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID, LPMCAST_CLIENT_UID structure pointer [MADCAP], MCAST_CLIENT_UID, MCAST_CLIENT_UID structure [MADCAP], _mdhcp_mcast_client_uid, madcap.mcast_client_uid, madcapcl/LPMCAST_CLIENT_UID, madcapcl/MCAST_CLIENT_UID'
 ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_CLIENT_UID
 dev_langs:
- - c++
+- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

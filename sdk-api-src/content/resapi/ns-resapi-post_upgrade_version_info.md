@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.POST_UPGRADE_VERSION_INFO
 title: POST_UPGRADE_VERSION_INFO (resapi.h)
-
 description: Represents post-upgrade state information for the cluster service.
 old-location: mscs\post_upgrade_version_info.htm
 tech.root: MsCS
 ms.assetid: 6F5DE9C6-5499-49FE-99D1-C8B8AE88CB18
-
 ms.date: 12/05/2018
-ms.keywords: "*PPOST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO structure [Failover Cluster], PPOST_UPGRADE_VERSION_INFO, PPOST_UPGRADE_VERSION_INFO structure pointer [Failover Cluster], mscs.post_upgrade_version_info, resapi/POST_UPGRADE_VERSION_INFO, resapi/PPOST_UPGRADE_VERSION_INFO"
+ms.keywords: '*PPOST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO, POST_UPGRADE_VERSION_INFO structure [Failover Cluster], PPOST_UPGRADE_VERSION_INFO, PPOST_UPGRADE_VERSION_INFO structure pointer [Failover Cluster], mscs.post_upgrade_version_info, resapi/POST_UPGRADE_VERSION_INFO, resapi/PPOST_UPGRADE_VERSION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "resapi/POST_UPGRADE_VERSION_INFO"
+f1_keywords:
+- resapi/POST_UPGRADE_VERSION_INFO
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - POST_UPGRADE_VERSION_INFO
+- POST_UPGRADE_VERSION_INFO
 targetos: Windows
 req.typenames: POST_UPGRADE_VERSION_INFO, *PPOST_UPGRADE_VERSION_INFO
 req.redist: 

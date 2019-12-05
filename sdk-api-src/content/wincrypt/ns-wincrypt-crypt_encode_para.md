@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_ENCODE_PARA
 title: CRYPT_ENCODE_PARA (wincrypt.h)
-
 description: Used by the CryptEncodeObjectEx function to provide access to memory allocation and memory freeing callback functions.
 old-location: security\crypt_encode_para.htm
 tech.root: SecCrypto
 ms.assetid: 330af6ac-f1db-4cee-81fd-d3c2c341d493
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA structure [Security], PCRYPT_ENCODE_PARA, PCRYPT_ENCODE_PARA structure pointer [Security], _crypto2_crypt_encode_para, security.crypt_encode_para, wincrypt/CRYPT_ENCODE_PARA, wincrypt/PCRYPT_ENCODE_PARA"
+ms.keywords: '*PCRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA, CRYPT_ENCODE_PARA structure [Security], PCRYPT_ENCODE_PARA, PCRYPT_ENCODE_PARA structure pointer [Security], _crypto2_crypt_encode_para, security.crypt_encode_para, wincrypt/CRYPT_ENCODE_PARA, wincrypt/PCRYPT_ENCODE_PARA'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_ENCODE_PARA"
+f1_keywords:
+- wincrypt/CRYPT_ENCODE_PARA
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_ENCODE_PARA
+- CRYPT_ENCODE_PARA
 targetos: Windows
 req.typenames: CRYPT_ENCODE_PARA, *PCRYPT_ENCODE_PARA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetParamForMethodIndex
 title: IMetaDataImport::GetParamForMethodIndex (rometadataapi.h)
-
 description: Gets the token that represents a specified parameter of the method represented by the specified MethodDef token.
 old-location: winrt\imetadataimport_getparamformethodindex.htm
 tech.root: WinRT
 ms.assetid: 118a5ab3-b7db-4e0c-bf45-ab7e2e0e4f03
-
 ms.date: 12/05/2018
 ms.keywords: GetParamForMethodIndex, GetParamForMethodIndex method [Windows Runtime], GetParamForMethodIndex method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamForMethodIndex method, IMetaDataImport.GetParamForMethodIndex, IMetaDataImport::GetParamForMethodIndex, rometadataapi/IMetaDataImport::GetParamForMethodIndex, winrt.imetadataimport_getparamformethodindex
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetParamForMethodIndex"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetParamForMethodIndex
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetParamForMethodIndex
+- IMetaDataImport.GetParamForMethodIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

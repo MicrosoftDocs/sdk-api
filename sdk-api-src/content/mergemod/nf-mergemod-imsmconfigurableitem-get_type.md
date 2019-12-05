@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Type
 title: IMsmConfigurableItem::get_Type (mergemod.h)
-
 description: The get_Type method retrieves the Type property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_type.htm
 tech.root: Msi
 ms.assetid: 18745546-1aa7-4f52-9eba-adfedb46753a
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Type method, IMsmConfigurableItem.get_Type, IMsmConfigurableItem::get_Type, _msi_get_type_function_configurableitem_object_, get_Type, get_Type method, get_Type method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Type, setup.imsmconfigurableitem_get_type
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmConfigurableItem.get_Type"
+f1_keywords:
+- mergemod/IMsmConfigurableItem.get_Type
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigurableItem.get_Type
+- IMsmConfigurableItem.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

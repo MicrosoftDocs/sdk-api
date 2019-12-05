@@ -1,19 +1,17 @@
 ---
 UID: NN:propidl.IPropertySetStorage
 title: IPropertySetStorage (propidl.h)
-
 description: The IPropertySetStorage interface creates, opens, deletes, and enumerates property set storages that support instances of the IPropertyStorage interface.
 old-location: stg\ipropertysetstorage.htm
 tech.root: Stg
 ms.assetid: 0ea3e1e0-c135-4138-81e4-f72412fc3128
-
 ms.date: 12/05/2018
 ms.keywords: IPropertySetStorage, IPropertySetStorage [Strctd Stg], IPropertySetStorage interface [Structured Storage], IPropertySetStorage interface [Structured Storage],described, _stg_ipropertysetstorage, propidl/IPropertySetStorage, stg.ipropertysetstorage
 ms.topic: interface
-f1_keywords: 
- - "propidl/IPropertySetStorage"
+f1_keywords:
+- propidl/IPropertySetStorage
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertySetStorage
+- IPropertySetStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

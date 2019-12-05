@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetUnlockRequestFile
 title: InternetUnlockRequestFile function (wininet.h)
-
 description: Unlocks a file that was locked using InternetLockRequestFile.
 old-location: wininet\internetunlockrequestfile.htm
 tech.root: wininet
 ms.assetid: 356f7277-66ef-450f-ab5a-0303d0b1d807
-
 ms.date: 12/05/2018
 ms.keywords: InternetUnlockRequestFile, InternetUnlockRequestFile function [WinINet], _inet_internetunlockrequestfile_function, wininet.internetunlockrequestfile, wininet/InternetUnlockRequestFile
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetUnlockRequestFile"
+f1_keywords:
+- wininet/InternetUnlockRequestFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetUnlockRequestFile
+- InternetUnlockRequestFile
 targetos: Windows
 req.typenames: 
 req.redist: 

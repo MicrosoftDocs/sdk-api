@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpool
 title: CreateThreadpool function (threadpoolapiset.h)
-
 description: Allocates a new pool of threads to execute callbacks.
 old-location: base\createthreadpool.htm
 tech.root: ProcThread
 ms.assetid: cc00d7bf-ac52-44ff-a6a8-76c8eaace5e6
-
 ms.date: 12/05/2018
 ms.keywords: CreateThreadpool, CreateThreadpool function, base.createthreadpool, threadpoolapiset/CreateThreadpool, winbase/CreateThreadpool
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/CreateThreadpool"
+f1_keywords:
+- threadpoolapiset/CreateThreadpool
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CreateThreadpool
+- CreateThreadpool
 targetos: Windows
 req.typenames: 
 req.redist: 

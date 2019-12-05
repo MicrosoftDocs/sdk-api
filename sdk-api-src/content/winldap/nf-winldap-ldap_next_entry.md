@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_next_entry
 title: ldap_next_entry function (winldap.h)
-
 description: The ldap_next_entry function retrieves an entry from a search result chain.
 old-location: ldap\ldap_next_entry.htm
 tech.root: ldap
 ms.assetid: a0920107-6f99-4d28-a12f-c7f952933472
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_next_entry, ldap.ldap__next__entry, ldap.ldap_next_entry, ldap_next_entry, ldap_next_entry function [LDAP], winldap/ldap_next_entry"
+ms.keywords: _ldap_ldap_next_entry, ldap.ldap__next__entry, ldap.ldap_next_entry, ldap_next_entry, ldap_next_entry function [LDAP], winldap/ldap_next_entry
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_next_entry"
+f1_keywords:
+- winldap/ldap_next_entry
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_next_entry
+- ldap_next_entry
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_S3D_PACKING_MODE
 title: MF_MEDIA_ENGINE_S3D_PACKING_MODE (mfmediaengine.h)
-
 description: Specifies the layout for a packed 3D video frame.
 old-location: mf\mf_media_engine_s3d_packing_mode.htm
 tech.root: medfound
 ms.assetid: 13638568-11BE-4D1B-897E-5F8472C03677
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_S3D_PACKING_MODE, MF_MEDIA_ENGINE_S3D_PACKING_MODE enumeration [Media Foundation], MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE, MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE, MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM, mf.mf_media_engine_s3d_packing_mode, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_NONE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_SIDE_BY_SIDE, mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE_TOP_BOTTOM
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_S3D_PACKING_MODE
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_S3D_PACKING_MODE
+- MF_MEDIA_ENGINE_S3D_PACKING_MODE
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_S3D_PACKING_MODE
 req.redist: 

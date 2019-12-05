@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12sdklayers.D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 title: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR (d3d12sdklayers.h)
-
 description: Describes the amount of artificial slowdown inserted by the debug device to simulate lower-performance graphics adapters.
 old-location: direct3d12\d3d12_debug_device_gpu_slowdown_performance_factor.htm
 tech.root: direct3d12
 ms.assetid: C137DFAA-7AB9-49A6-882D-61ADE6E9E046
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR structure, d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR, direct3d12.d3d12_debug_device_gpu_slowdown_performance_factor
 ms.topic: struct
-f1_keywords: 
- - "d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR"
+f1_keywords:
+- d3d12sdklayers/D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
+- D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 targetos: Windows
 req.typenames: D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 req.redist: 

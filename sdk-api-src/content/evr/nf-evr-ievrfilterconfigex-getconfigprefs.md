@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IEVRFilterConfigEx.GetConfigPrefs
 title: IEVRFilterConfigEx::GetConfigPrefs (evr.h)
-
 description: Gets the configuration parameters for the Microsoft DirectShow Enhanced Video Renderer Filter filter.
 old-location: mf\ievrfilterconfigex_getconfigprefs.htm
 tech.root: medfound
 ms.assetid: 8b286b77-de5f-44ce-82f4-d11a76fe2c4d
-
 ms.date: 12/05/2018
 ms.keywords: GetConfigPrefs, GetConfigPrefs method [Media Foundation], GetConfigPrefs method [Media Foundation],IEVRFilterConfigEx interface, IEVRFilterConfigEx interface [Media Foundation],GetConfigPrefs method, IEVRFilterConfigEx.GetConfigPrefs, IEVRFilterConfigEx::GetConfigPrefs, evr/IEVRFilterConfigEx::GetConfigPrefs, mf.ievrfilterconfigex_getconfigprefs
 ms.topic: method
-f1_keywords: 
- - "evr/IEVRFilterConfigEx.GetConfigPrefs"
+f1_keywords:
+- evr/IEVRFilterConfigEx.GetConfigPrefs
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - evr.h
+- evr.h
 api_name:
- - IEVRFilterConfigEx.GetConfigPrefs
+- IEVRFilterConfigEx.GetConfigPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

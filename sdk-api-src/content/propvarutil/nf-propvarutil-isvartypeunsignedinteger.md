@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.IsVarTypeUnsignedInteger
 title: IsVarTypeUnsignedInteger function (propvarutil.h)
-
 description: Returns whether a VARTYPE is an unsigned integer.
 old-location: properties\IsVarTypeUnsignedInteger.htm
 tech.root: properties
 ms.assetid: e3af20d4-be61-446e-90be-765f1e84178a
-
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeUnsignedInteger, IsVarTypeUnsignedInteger function [Windows Properties], _shell_IsVarTypeUnsignedInteger, properties.IsVarTypeUnsignedInteger, propvarutil/IsVarTypeUnsignedInteger, shell.IsVarTypeUnsignedInteger
 ms.topic: function
-f1_keywords: 
- - "propvarutil/IsVarTypeUnsignedInteger"
+f1_keywords:
+- propvarutil/IsVarTypeUnsignedInteger
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - IsVarTypeUnsignedInteger
+- IsVarTypeUnsignedInteger
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

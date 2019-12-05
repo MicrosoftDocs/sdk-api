@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.GetCurrentPosition
 title: IMFByteStream::GetCurrentPosition (mfobjects.h)
-
 description: Retrieves the current read or write position in the stream.
 old-location: mf\imfbytestream_getcurrentposition.htm
 tech.root: medfound
 ms.assetid: de36742a-a8a5-4f40-9fea-af89d9a6bf2e
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPosition, GetCurrentPosition method [Media Foundation], GetCurrentPosition method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],GetCurrentPosition method, IMFByteStream.GetCurrentPosition, IMFByteStream::GetCurrentPosition, de36742a-a8a5-4f40-9fea-af89d9a6bf2e, mf.imfbytestream_getcurrentposition, mfobjects/IMFByteStream::GetCurrentPosition
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.GetCurrentPosition"
+f1_keywords:
+- mfobjects/IMFByteStream.GetCurrentPosition
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.GetCurrentPosition
+- IMFByteStream.GetCurrentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

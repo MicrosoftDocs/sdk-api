@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.get_ExposureRelative
 title: ICameraControl::get_ExposureRelative (vidcap.h)
-
 description: The get_ExposureRelative method returns the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_exposurerelative.htm
 tech.root: DirectShow
 ms.assetid: d63cf869-ccb6-45cb-85ba-a1e41faa8086
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_ExposureRelative method, ICameraControl.get_ExposureRelative, ICameraControl::get_ExposureRelative, ICameraControlget_ExposureRelative, dshow.icameracontrol_get_exposurerelative, get_ExposureRelative, get_ExposureRelative method [DirectShow], get_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_ExposureRelative
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.get_ExposureRelative"
+f1_keywords:
+- vidcap/ICameraControl.get_ExposureRelative
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.get_ExposureRelative
+- ICameraControl.get_ExposureRelative
 targetos: Windows
 req.typenames: 
 req.redist: 

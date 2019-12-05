@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Restart
 title: IFaxOutgoingJob::Restart (faxcomex.h)
-
 description: The IFaxOutgoingJob::Restart method restarts the failed outbound fax job. For example, if the fax job has exceeded the number of retries, IFaxOutgoingJob::Restart will restart the fax job.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_restart_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ak4.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],Restart method, IFaxOutgoingJob.Restart, IFaxOutgoingJob::Restart, Restart, Restart method [Fax Service], Restart method [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.restart, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_restart_cpp, fax._mfax_faxoutgoingjob_restart, faxcomex/IFaxOutgoingJob::Restart
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.Restart"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.Restart
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.Restart
- - IFaxOutgoingJob.Restart
+- IFaxOutgoingJob.Restart
+- IFaxOutgoingJob.Restart
 targetos: Windows
 req.typenames: 
 req.redist: 

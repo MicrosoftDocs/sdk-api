@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.DXVA2CreateDirect3DDeviceManager9
 title: DXVA2CreateDirect3DDeviceManager9 function (dxva2api.h)
-
 description: Creates an instance of the Direct3D Device Manager.
 old-location: mf\dxva2createdirect3ddevicemanager9.htm
 tech.root: medfound
 ms.assetid: b06e9c68-80ee-4997-bcf7-f05879aa5776
-
 ms.date: 12/05/2018
 ms.keywords: DXVA2CreateDirect3DDeviceManager9, DXVA2CreateDirect3DDeviceManager9 function [Media Foundation], b06e9c68-80ee-4997-bcf7-f05879aa5776, dxva2api/DXVA2CreateDirect3DDeviceManager9, mf.dxva2createdirect3ddevicemanager9
 ms.topic: function
-f1_keywords: 
- - "dxva2api/DXVA2CreateDirect3DDeviceManager9"
+f1_keywords:
+- dxva2api/DXVA2CreateDirect3DDeviceManager9
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - DXVA2CreateDirect3DDeviceManager9
+- DXVA2CreateDirect3DDeviceManager9
 targetos: Windows
 req.typenames: 
 req.redist: 

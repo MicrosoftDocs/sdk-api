@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsSecurityDescriptor
 title: IADsSecurityDescriptor (iads.h)
-
 description: Provides access to properties on an ADSI security descriptor object.
 old-location: adsi\iadssecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: c77547ab-e666-4d72-b8ef-4b2f3d61ad38
-
 ms.date: 12/05/2018
 ms.keywords: ADsSecurityUtility, IADsSecurityDescriptor, IADsSecurityDescriptor interface [ADSI], IADsSecurityDescriptor interface [ADSI],described, _ds_iadssecuritydescriptor, adsi.iadssecuritydescriptor, iads/IADsSecurityDescriptor
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsSecurityDescriptor"
+f1_keywords:
+- iads/IADsSecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsSecurityDescriptor
- - ADsSecurityUtility
+- IADsSecurityDescriptor
+- ADsSecurityUtility
 targetos: Windows
 req.typenames: 
 req.redist: 

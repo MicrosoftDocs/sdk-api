@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineProtectedContent
 title: IMFMediaEngineProtectedContent (mfmediaengine.h)
-
 description: Enables the Media Engine to play protected video content.
 old-location: mf\imfmediaengineprotectedcontent.htm
 tech.root: medfound
 ms.assetid: 85B37711-DB46-4BC7-A051-79E9507791FA
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent, IMFMediaEngineProtectedContent interface [Media Foundation], IMFMediaEngineProtectedContent interface [Media Foundation],described, mf.imfmediaengineprotectedcontent, mfmediaengine/IMFMediaEngineProtectedContent
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineProtectedContent"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineProtectedContent
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent
+- IMFMediaEngineProtectedContent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetExtendedStyle
 title: TreeView_SetExtendedStyle macro (commctrl.h)
-
 description: Sets the extended style for a specified TreeView control. Use this macro or send the TVM_SETEXTENDEDSTYLE message explicitly.
 old-location: controls\TreeView_SetExtendedStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setextendedstyle.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetExtendedStyle, TreeView_SetExtendedStyle macro [Windows Controls], _shell_TreeView_SetExtendedStyle, _shell_TreeView_SetExtendedStyle_cpp, commctrl/TreeView_SetExtendedStyle, controls.TreeView_SetExtendedStyle, controls._shell_TreeView_SetExtendedStyle
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetExtendedStyle"
+f1_keywords:
+- commctrl/TreeView_SetExtendedStyle
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetExtendedStyle
+- TreeView_SetExtendedStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

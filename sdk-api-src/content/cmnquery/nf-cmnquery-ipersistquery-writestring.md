@@ -1,19 +1,17 @@
 ---
 UID: NF:cmnquery.IPersistQuery.WriteString
 title: IPersistQuery::WriteString (cmnquery.h)
-
 description: Writes a string to the query store.
 old-location: ad\ipersistquery_writestring.htm
 tech.root: ad
 ms.assetid: 6bf8499a-6b3a-4786-8d42-67ab4e1a40c0
-
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery interface [Active Directory],WriteString method, IPersistQuery.WriteString, IPersistQuery::WriteString, WriteString, WriteString method [Active Directory], WriteString method [Active Directory],IPersistQuery interface, _glines_ipersistquery_writestring, ad.ipersistquery__writestring, ad.ipersistquery_writestring, cmnquery/IPersistQuery::WriteString
 ms.topic: method
-f1_keywords: 
- - "cmnquery/IPersistQuery.WriteString"
+f1_keywords:
+- cmnquery/IPersistQuery.WriteString
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - IPersistQuery.WriteString
+- IPersistQuery.WriteString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUPER_SCOPE_TABLE
 title: DHCP_SUPER_SCOPE_TABLE (dhcpsapi.h)
-
 description: Defines the superscope of a DHCP server.
 old-location: dhcp\dhcp_super_scope_table.htm
 tech.root: DHCP
 ms.assetid: ed7ad090-b13a-464b-af03-04944f018b36
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE, DHCP_SUPER_SCOPE_TABLE structure [DHCP], LPDHCP_SUPER_SCOPE_TABLE, LPDHCP_SUPER_SCOPE_TABLE structure pointer [DHCP], dhcp.dhcp_super_scope_table, dhcpsapi/LPDHCP_SUPER_SCOPE_TABLE, dhcpsapi/_DHCP_SUPER_SCOPE_TABLE'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SUPER_SCOPE_TABLE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

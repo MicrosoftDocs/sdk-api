@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCrmTransactionState
 title: CrmTransactionState (comsvcs.h)
-
 description: Represents the current transaction state of the transaction.
 old-location: cos\crmtransactionstate.htm
 tech.root: cossdk
 ms.assetid: ae096ba2-3347-4d8c-89af-ee4517554a91
-
 ms.date: 12/05/2018
 ms.keywords: CrmTransactionState, CrmTransactionState enumeration [COM+], TxState_Aborted, TxState_Active, TxState_Committed, TxState_Indoubt, _cos_CrmTransactionState, comsvcs/CrmTransactionState, comsvcs/TxState_Aborted, comsvcs/TxState_Active, comsvcs/TxState_Committed, comsvcs/TxState_Indoubt, cos.crmtransactionstate
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CrmTransactionState"
+f1_keywords:
+- comsvcs/CrmTransactionState
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CrmTransactionState
+- CrmTransactionState
 targetos: Windows
 req.typenames: CrmTransactionState
 req.redist: 

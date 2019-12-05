@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CheckEntitlementToken
 title: IBDA_ConditionalAccessEx::CheckEntitlementToken (bdaiface.h)
-
 description: Checks the access availability of content that is identified by an entitlement token.
 old-location: mstv\ibda_conditionalaccessex_checkentitlementtoken.htm
 tech.root: mstv
 ms.assetid: ea581065-b10b-4a2a-9090-99d6fd140ea9
-
 ms.date: 12/05/2018
 ms.keywords: CheckEntitlementToken, CheckEntitlementToken method [Microsoft TV Technologies], CheckEntitlementToken method [Microsoft TV Technologies],IBDA_ConditionalAccessEx interface, IBDA_ConditionalAccessEx interface [Microsoft TV Technologies],CheckEntitlementToken method, IBDA_ConditionalAccessEx.CheckEntitlementToken, IBDA_ConditionalAccessEx::CheckEntitlementToken, bdaiface/IBDA_ConditionalAccessEx::CheckEntitlementToken, mstv.ibda_conditionalaccessex_checkentitlementtoken
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccessEx.CheckEntitlementToken"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccessEx.CheckEntitlementToken
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_ConditionalAccessEx.CheckEntitlementToken
+- IBDA_ConditionalAccessEx.CheckEntitlementToken
 targetos: Windows
 req.typenames: 
 req.redist: 

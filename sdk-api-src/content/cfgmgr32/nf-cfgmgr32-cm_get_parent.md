@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Parent
 title: CM_Get_Parent function (cfgmgr32.h)
-
 description: The CM_Get_Parent function obtains a device instance handle to the parent node of a specified device node (devnode) in the local machine's device tree.
 old-location: devinst\cm_get_parent.htm
 tech.root: devinst
 ms.assetid: e9d1db59-e9fb-4704-81f6-86523397c114
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Parent, CM_Get_Parent function [Device and Driver Installation], cfgmgr32/CM_Get_Parent, cfgmgrfn_fdd00a0a-e79d-469d-9a1a-852096d89a48.xml, devinst.cm_get_parent
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Parent"
+f1_keywords:
+- cfgmgr32/CM_Get_Parent
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Get_Parent
+- CM_Get_Parent
 targetos: Windows
 req.typenames: 
 req.redist: 

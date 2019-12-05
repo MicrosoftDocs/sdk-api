@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumePlex.GetProperties
 title: IVdsVolumePlex::GetProperties (vds.h)
-
 description: Returns the property details of the current volume plex.
 old-location: base\ivdsvolumeplex_getproperties.htm
 tech.root: VDS
 ms.assetid: b5b6c141-3e9d-4e1a-9d3c-3c5063b3ab73
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsVolumePlex interface, IVdsVolumePlex interface [VDS],GetProperties method, IVdsVolumePlex.GetProperties, IVdsVolumePlex::GetProperties, base.ivdsvolumeplex_getproperties, vds/IVdsVolumePlex::GetProperties
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolumePlex.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

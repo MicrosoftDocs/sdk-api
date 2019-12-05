@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfSystemDeviceTypeLangBarItem.GetIconMode
 title: ITfSystemDeviceTypeLangBarItem::GetIconMode (ctfutb.h)
-
 description: ITfSystemDeviceTypeLangBarItem::GetIconMode method
 old-location: tsf\itfsystemdevicetypelangbaritem_geticonmode.htm
 tech.root: TSF
 ms.assetid: 0ac293de-0a35-4b3a-98af-f47849fd7149
-
 ms.date: 12/05/2018
 ms.keywords: GetIconMode, GetIconMode method [Text Services Framework], GetIconMode method [Text Services Framework],ITfSystemDeviceTypeLangBarItem interface, ITfSystemDeviceTypeLangBarItem interface [Text Services Framework],GetIconMode method, ITfSystemDeviceTypeLangBarItem.GetIconMode, ITfSystemDeviceTypeLangBarItem::GetIconMode, _tsf_itfsystemdevicetypelangbaritem_geticonmode_ref, ctfutb/ITfSystemDeviceTypeLangBarItem::GetIconMode, tsf.itfsystemdevicetypelangbaritem_geticonmode
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfSystemDeviceTypeLangBarItem.GetIconMode"
+f1_keywords:
+- ctfutb/ITfSystemDeviceTypeLangBarItem.GetIconMode
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfSystemDeviceTypeLangBarItem.GetIconMode
+- ITfSystemDeviceTypeLangBarItem.GetIconMode
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

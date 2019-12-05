@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderProperties
 title: IDiscRecorder::GetRecorderProperties (imapi.h)
-
 description: Retrieves a pointer to an IPropertyStorage interface.
 old-location: imapi\idiscrecorder_getrecorderproperties.htm
 tech.root: imapi
 ms.assetid: 24d46cbc-56fd-4c9f-933c-0207dea5ada5
-
 ms.date: 12/05/2018
 ms.keywords: GetRecorderProperties, GetRecorderProperties method [IMAPI], GetRecorderProperties method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderProperties method, IDiscRecorder.GetRecorderProperties, IDiscRecorder::GetRecorderProperties, _win32_idiscrecorder_getrecorderproperties, base.idiscrecorder_getrecorderproperties, imapi.idiscrecorder_getrecorderproperties, imapi/IDiscRecorder::GetRecorderProperties
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscRecorder.GetRecorderProperties"
+f1_keywords:
+- imapi/IDiscRecorder.GetRecorderProperties
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscRecorder.GetRecorderProperties
+- IDiscRecorder.GetRecorderProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

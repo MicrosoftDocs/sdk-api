@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.DeleteTrigger
 title: IScheduledWorkItem::DeleteTrigger (mstask.h)
-
 description: Deletes a trigger from a work item.
 old-location: taskschd\ischeduledworkitem_deletetrigger.htm
 tech.root: taskschd
 ms.assetid: 418e16d3-67ee-4b77-a7a9-67e722619d80
-
 ms.date: 12/05/2018
 ms.keywords: DeleteTrigger, DeleteTrigger method [Task Scheduler], DeleteTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],DeleteTrigger method, IScheduledWorkItem.DeleteTrigger, IScheduledWorkItem::DeleteTrigger, _msb_ischeduledworkitem_deletetrigger, mstask/IScheduledWorkItem::DeleteTrigger, taskschd.ischeduledworkitem_deletetrigger
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.DeleteTrigger"
+f1_keywords:
+- mstask/IScheduledWorkItem.DeleteTrigger
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.DeleteTrigger
+- IScheduledWorkItem.DeleteTrigger
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

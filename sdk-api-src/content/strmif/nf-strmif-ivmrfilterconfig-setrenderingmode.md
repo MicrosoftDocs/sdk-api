@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetRenderingMode
 title: IVMRFilterConfig::SetRenderingMode (strmif.h)
-
 description: The SetRenderingMode method sets the rendering mode used by the VMR.
 old-location: dshow\ivmrfilterconfig_setrenderingmode.htm
 tech.root: DirectShow
 ms.assetid: 11fbc818-b0c3-4ce1-b9fe-7e4ba1f81467
-
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig interface [DirectShow],SetRenderingMode method, IVMRFilterConfig.SetRenderingMode, IVMRFilterConfig::SetRenderingMode, IVMRFilterConfigSetRenderingMode, SetRenderingMode, SetRenderingMode method [DirectShow], SetRenderingMode method [DirectShow],IVMRFilterConfig interface, dshow.ivmrfilterconfig_setrenderingmode, strmif/IVMRFilterConfig::SetRenderingMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRFilterConfig.SetRenderingMode"
+f1_keywords:
+- strmif/IVMRFilterConfig.SetRenderingMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRFilterConfig.SetRenderingMode
+- IVMRFilterConfig.SetRenderingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

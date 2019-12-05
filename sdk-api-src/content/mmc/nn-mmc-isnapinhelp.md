@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.ISnapinHelp
 title: ISnapinHelp (mmc.h)
-
 description: Allows snap-ins to add HTML Help support.
 old-location: mmc\isnapinhelp.htm
 tech.root: mmc
 ms.assetid: 237E52F7-5EB9-45DA-ACC3-391ED3BF7C5E
-
 ms.date: 12/05/2018
 ms.keywords: ISnapinHelp, ISnapinHelp interface [MMC], ISnapinHelp interface [MMC],described, mmc.isnapinhelp, mmc/ISnapinHelp
 ms.topic: interface
-f1_keywords: 
- - "mmc/ISnapinHelp"
+f1_keywords:
+- mmc/ISnapinHelp
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - ISnapinHelp
+- ISnapinHelp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IAMStats
 title: IAMStats (control.h)
-
 description: The IAMStats interface retrieves performance data from the Filter Graph Manager.
 old-location: dshow\iamstats.htm
 tech.root: DirectShow
 ms.assetid: 01dbaba2-fdca-4f42-8816-fd99c4364dbd
-
 ms.date: 12/05/2018
 ms.keywords: IAMStats, IAMStats interface [DirectShow], IAMStats interface [DirectShow],described, IAMStatsInterface, control/IAMStats, dshow.iamstats
 ms.topic: interface
-f1_keywords: 
- - "control/IAMStats"
+f1_keywords:
+- control/IAMStats
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMStats
+- IAMStats
 targetos: Windows
 req.typenames: 
 req.redist: 

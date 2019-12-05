@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_ENROLLMENT_NAME_VALUE_PAIR
 title: CRYPT_ENROLLMENT_NAME_VALUE_PAIR (wincrypt.h)
-
 description: Used to create certificate requests on behalf of a user.
 old-location: security\crypt_enrollment_name_value_pair.htm
 tech.root: SecCrypto
 ms.assetid: 996bd28e-73c1-494e-957c-8dd4c7b8e064
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR structure [Security], _crypto2_crypt_enrollment_name_value_pair, security.crypt_enrollment_name_value_pair, wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
+ms.keywords: '*PCRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR, CRYPT_ENROLLMENT_NAME_VALUE_PAIR structure [Security], _crypto2_crypt_enrollment_name_value_pair, security.crypt_enrollment_name_value_pair, wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR"
+f1_keywords:
+- wincrypt/CRYPT_ENROLLMENT_NAME_VALUE_PAIR
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_ENROLLMENT_NAME_VALUE_PAIR
+- CRYPT_ENROLLMENT_NAME_VALUE_PAIR
 targetos: Windows
 req.typenames: CRYPT_ENROLLMENT_NAME_VALUE_PAIR, *PCRYPT_ENROLLMENT_NAME_VALUE_PAIR
 req.redist: 

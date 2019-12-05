@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.CALL_PRIVILEGE
 title: CALL_PRIVILEGE (tapi3if.h)
-
 description: A CALL_PRIVILEGE member is returned by the ITCallInfo::get_Privilege method, and indicates when the current application owns or is monitoring the current call.
 old-location: tapi3\call_privilege.htm
 tech.root: Tapi
 ms.assetid: 8d2ab3d2-9531-40fc-910d-2bd81a075cc3
-
 ms.date: 12/05/2018
 ms.keywords: CALL_PRIVILEGE, CALL_PRIVILEGE enumeration [TAPI 2.2], CP_MONITOR, CP_OWNER, _tapi3_call_privilege, tapi3.call_privilege, tapi3if/CALL_PRIVILEGE, tapi3if/CP_MONITOR, tapi3if/CP_OWNER
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/CALL_PRIVILEGE"
+f1_keywords:
+- tapi3if/CALL_PRIVILEGE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - CALL_PRIVILEGE
+- CALL_PRIVILEGE
 targetos: Windows
 req.typenames: CALL_PRIVILEGE
 req.redist: 

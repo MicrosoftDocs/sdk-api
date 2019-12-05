@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IFillLockBytes.FillAt
 title: IFillLockBytes::FillAt (objidl.h)
-
 description: The FillAt method writes a new block of data to a specified location in the byte array.
 old-location: stg\ifilllockbytes_fillat.htm
 tech.root: Stg
 ms.assetid: d378d87b-e081-4950-b87b-9b1ad6dfb29d
-
 ms.date: 12/05/2018
 ms.keywords: FillAt, FillAt method [Structured Storage], FillAt method [Structured Storage],IFillLockBytes interface, IFillLockBytes interface [Structured Storage],FillAt method, IFillLockBytes.FillAt, IFillLockBytes::FillAt, _stg_ifilllockbytes_fillat, objidl/IFillLockBytes::FillAt, stg.ifilllockbytes_fillat
 ms.topic: method
-f1_keywords: 
- - "objidl/IFillLockBytes.FillAt"
+f1_keywords:
+- objidl/IFillLockBytes.FillAt
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IFillLockBytes.FillAt
+- IFillLockBytes.FillAt
 targetos: Windows
 req.typenames: 
 req.redist: 

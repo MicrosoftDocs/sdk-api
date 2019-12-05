@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptSignHash
 title: NCryptSignHash function (ncrypt.h)
-
 description: Creates a signature of a hash value.
 old-location: security\ncryptsignhash_func.htm
 tech.root: SecCNG
 ms.assetid: 7404e37a-d7c6-49ed-b951-6081dd2b921a
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PAD_PKCS1, BCRYPT_PAD_PSS, NCRYPT_SILENT_FLAG, NCryptSignHash, NCryptSignHash function [Security], ncrypt/NCryptSignHash, security.ncryptsignhash_func
 ms.topic: function
 f1_keywords:
 - ncrypt/NCryptSignHash
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows

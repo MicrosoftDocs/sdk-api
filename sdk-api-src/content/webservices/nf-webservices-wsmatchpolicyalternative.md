@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsMatchPolicyAlternative
 title: WsMatchPolicyAlternative function (webservices.h)
-
 description: Verifies that a Policy Alternative is compatible with the specified Policy Constraint.
 old-location: wsw\wsmatchpolicyalternative.htm
 tech.root: wsw
 ms.assetid: 6e5f352b-5422-4bba-9525-7850bdddf0a5
-
 ms.date: 12/05/2018
 ms.keywords: WsMatchPolicyAlternative, WsMatchPolicyAlternative function [Web Services for Windows], webservices/WsMatchPolicyAlternative, wsw.wsmatchpolicyalternative
 ms.topic: function
 f1_keywords:
 - webservices/WsMatchPolicyAlternative
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

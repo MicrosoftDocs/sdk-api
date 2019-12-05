@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoItem
 title: ISyncKnowledge::ProjectOntoItem (winsync.h)
-
 description: Gets the knowledge for the specified item.
 old-location: winsync\isyncknowledge_projectontoitem.htm
 tech.root: winsync
 ms.assetid: 069fdc90-bea3-42e4-835c-b2a397d13b60
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoItem method, ISyncKnowledge.ProjectOntoItem, ISyncKnowledge::ProjectOntoItem, ProjectOntoItem, ProjectOntoItem method [Windows Sync], ProjectOntoItem method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontoitem, winsync/ISyncKnowledge::ProjectOntoItem
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.ProjectOntoItem"
+f1_keywords:
+- winsync/ISyncKnowledge.ProjectOntoItem
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.ProjectOntoItem
+- ISyncKnowledge.ProjectOntoItem
 targetos: Windows
 req.typenames: 
 req.redist: 

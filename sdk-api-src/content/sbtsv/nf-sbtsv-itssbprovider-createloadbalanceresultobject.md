@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.CreateLoadBalanceResultObject
 title: ITsSbProvider::CreateLoadBalanceResultObject (sbtsv.h)
-
 description: Creates an ITsSbLoadBalanceResult load-balancing result object.
 old-location: termserv\itssbprovider_createloadbalanceresultobject.htm
 tech.root: TermServ
 ms.assetid: aaa13ec1-d79c-4458-9340-3cc42bbcd948
-
 ms.date: 12/05/2018
 ms.keywords: CreateLoadBalanceResultObject, CreateLoadBalanceResultObject method [Remote Desktop Services], CreateLoadBalanceResultObject method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],CreateLoadBalanceResultObject method, ITsSbProvider.CreateLoadBalanceResultObject, ITsSbProvider::CreateLoadBalanceResultObject, sbtsv/ITsSbProvider::CreateLoadBalanceResultObject, termserv.itssbprovider_createloadbalanceresultobject
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.CreateLoadBalanceResultObject"
+f1_keywords:
+- sbtsv/ITsSbProvider.CreateLoadBalanceResultObject
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.CreateLoadBalanceResultObject
+- ITsSbProvider.CreateLoadBalanceResultObject
 targetos: Windows
 req.typenames: 
 req.redist: 

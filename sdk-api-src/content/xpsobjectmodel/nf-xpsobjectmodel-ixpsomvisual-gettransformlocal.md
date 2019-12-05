@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetTransformLocal
 title: IXpsOMVisual::GetTransformLocal (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the local, unshared, resolved matrix transform for the visual.
 old-location: xps\ixpsomvisual_gettransformlocal.htm
 tech.root: printdocs
 ms.assetid: a7152ba0-2b65-4c66-b99b-7450a8cdb6fd
-
 ms.date: 12/05/2018
 ms.keywords: GetTransformLocal, GetTransformLocal method [XPS Documents and Packaging], GetTransformLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetTransformLocal method, IXpsOMVisual.GetTransformLocal, IXpsOMVisual::GetTransformLocal, xps.ixpsomvisual_gettransformlocal, xpsobjectmodel/IXpsOMVisual::GetTransformLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetTransformLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetTransformLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetTransformLocal
+- IXpsOMVisual.GetTransformLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

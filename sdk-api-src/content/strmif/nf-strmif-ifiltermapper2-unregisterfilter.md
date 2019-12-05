@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterMapper2.UnregisterFilter
 title: IFilterMapper2::UnregisterFilter (strmif.h)
-
 description: The UnregisterFilter method removes filter information from the registry.
 old-location: dshow\ifiltermapper2_unregisterfilter.htm
 tech.root: DirectShow
 ms.assetid: cfba764d-ec94-49a2-9aaf-2b107b742f83
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper2 interface [DirectShow],UnregisterFilter method, IFilterMapper2.UnregisterFilter, IFilterMapper2::UnregisterFilter, IFilterMapper2UnregisterFilter, UnregisterFilter, UnregisterFilter method [DirectShow], UnregisterFilter method [DirectShow],IFilterMapper2 interface, dshow.ifiltermapper2_unregisterfilter, strmif/IFilterMapper2::UnregisterFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterMapper2.UnregisterFilter"
+f1_keywords:
+- strmif/IFilterMapper2.UnregisterFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterMapper2.UnregisterFilter
+- IFilterMapper2.UnregisterFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

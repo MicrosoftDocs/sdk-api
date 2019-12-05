@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLPersistApplicationPolicies
 title: SLPersistApplicationPolicies function (slpublic.h)
-
 description: Stores the current consumed policies to disk for fast policy access.
 old-location: security\slpersistapplicationpolicies.htm
 tech.root: SecSLApi
 ms.assetid: a4bf2bcc-3ea5-4288-9bad-b74efdd9969c
-
 ms.date: 12/05/2018
 ms.keywords: SLPersistApplicationPolicies, SLPersistApplicationPolicies function [Security], security.slpersistapplicationpolicies, slpublic/SLPersistApplicationPolicies
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLPersistApplicationPolicies"
+f1_keywords:
+- slpublic/SLPersistApplicationPolicies
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLPersistApplicationPolicies
+- SLPersistApplicationPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 

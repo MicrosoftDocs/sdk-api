@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.BindMoniker
 title: BindMoniker function (objbase.h)
-
 description: Locates an object by means of its moniker, activates the object if it is inactive, and retrieves a pointer to the specified interface on that object.
 old-location: com\bindmoniker.htm
 tech.root: com
 ms.assetid: 5a022c39-fc2c-458b-9dfe-fed1255d49a4
-
 ms.date: 12/05/2018
 ms.keywords: BindMoniker, BindMoniker function [COM], _com_BindMoniker, com.bindmoniker, objbase/BindMoniker
 ms.topic: function
-f1_keywords: 
- - "objbase/BindMoniker"
+f1_keywords:
+- objbase/BindMoniker
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - BindMoniker
+- BindMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

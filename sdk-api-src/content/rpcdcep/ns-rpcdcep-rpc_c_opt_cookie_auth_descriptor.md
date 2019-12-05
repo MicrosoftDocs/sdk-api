@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdcep._RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 title: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR (rpcdcep.h)
-
 description: The RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure contains a cookie that is inserted into the header of RPC/HTTP traffic.
 old-location: rpc\rpc_c_opt_cookie_auth_descriptor.htm
 tech.root: Rpc
 ms.assetid: 808fdf38-4b54-42ab-855c-da9f2081214a
-
 ms.date: 12/05/2018
 ms.keywords: PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure pointer [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure [RPC], rpc.rpc_c_opt_cookie_auth_descriptor, rpcdcep/PRPC_C_OPT_COOKIE_AUTH_DESCRIPTOR, rpcdcep/RPC_CALL_ATTRIBUTES_V1_A, rpcdcep/RPC_CALL_ATTRIBUTES_V1_W, rpcdcep/RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 ms.topic: struct
-f1_keywords: 
- - "rpcdcep/RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR"
+f1_keywords:
+- rpcdcep/RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: rpcdcep.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdcep.h
+- Rpcdcep.h
 api_name:
- - RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
- - RPC_CALL_ATTRIBUTES_V1_A
- - RPC_CALL_ATTRIBUTES_V1_W
+- RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
+- RPC_CALL_ATTRIBUTES_V1_A
+- RPC_CALL_ATTRIBUTES_V1_W
 targetos: Windows
 req.typenames: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
 req.redist: 

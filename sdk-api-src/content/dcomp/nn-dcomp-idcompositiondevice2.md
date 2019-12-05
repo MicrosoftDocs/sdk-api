@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionDevice2
 title: IDCompositionDevice2 (dcomp.h)
-
 description: Serves as a factory for all other Microsoft DirectComposition objects and provides methods to control transactional composition.
 old-location: directcomp\idcompositiondevice2.htm
 tech.root: directcomp
 ms.assetid: 0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDevice2, IDCompositionDevice2 interface [DirectComposition], IDCompositionDevice2 interface [DirectComposition],described, dcomp/IDCompositionDevice2, directcomp.idcompositiondevice2
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionDevice2"
+f1_keywords:
+- dcomp/IDCompositionDevice2
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice2
+- IDCompositionDevice2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IEnumFsiItems
 title: IEnumFsiItems (imapi2fs.h)
-
 description: Use this interface to enumerate the child directory and file items for a FsiDirectoryItem object.
 old-location: imapi\ienumfsiitems.htm
 tech.root: imapi
 ms.assetid: f3186af1-4056-4cb5-aac4-5253ee6dbc01
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFsiItems, IEnumFsiItems interface [IMAPI], IEnumFsiItems interface [IMAPI],described, imapi.ienumfsiitems, imapi2fs/IEnumFsiItems
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IEnumFsiItems"
+f1_keywords:
+- imapi2fs/IEnumFsiItems
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IEnumFsiItems
+- IEnumFsiItems
 targetos: Windows
 req.typenames: 
 req.redist: 

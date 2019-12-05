@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.RemoveDirectoryA
 title: RemoveDirectoryA function (fileapi.h)
-
 description: Deletes an existing empty directory.
 old-location: fs\removedirectory.htm
 tech.root: FileIO
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
-
 ms.date: 12/05/2018
 ms.keywords: RemoveDirectory, RemoveDirectory function [Files], RemoveDirectoryA, RemoveDirectoryW, _win32_removedirectory, base.removedirectory, fileapi/RemoveDirectory, fileapi/RemoveDirectoryA, fileapi/RemoveDirectoryW, fs.removedirectory, winbase/RemoveDirectory, winbase/RemoveDirectoryA, winbase/RemoveDirectoryW
 ms.topic: function
-f1_keywords: 
- - "fileapi/RemoveDirectory"
+f1_keywords:
+- fileapi/RemoveDirectory
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - RemoveDirectory
- - RemoveDirectoryA
- - RemoveDirectoryW
+- RemoveDirectory
+- RemoveDirectoryA
+- RemoveDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

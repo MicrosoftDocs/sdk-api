@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnUIDeactivate
 title: IOleInPlaceSite::OnUIDeactivate (oleidl.h)
-
 description: Notifies the container that it should reinstall its user interface and take focus, and whether the object has an undoable state.
 old-location: com\ioleinplacesite_onuideactivate.htm
 tech.root: com
 ms.assetid: 926c02b4-0bfa-4509-b5bc-4e5007e4db1a
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnUIDeactivate method, IOleInPlaceSite.OnUIDeactivate, IOleInPlaceSite::OnUIDeactivate, IOleInPlaceSiteWindowless.OnUIDeactivate, OnUIDeactivate, OnUIDeactivate method [COM], OnUIDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onuideactivate, com.ioleinplacesite_onuideactivate, oleidl/IOleInPlaceSite::OnUIDeactivate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.OnUIDeactivate"
+f1_keywords:
+- oleidl/IOleInPlaceSite.OnUIDeactivate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
- - browsewm.dll
+- OleIdl.h
+- browsewm.dll
 api_name:
- - IOleInPlaceSite.OnUIDeactivate
- - IOleInPlaceSiteWindowless.OnUIDeactivate
+- IOleInPlaceSite.OnUIDeactivate
+- IOleInPlaceSiteWindowless.OnUIDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

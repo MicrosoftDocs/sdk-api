@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTrackedSample
 title: IMFTrackedSample (mfidl.h)
-
 description: Tracks the reference counts on a video media sample.
 old-location: mf\imftrackedsample.htm
 tech.root: medfound
 ms.assetid: 4ad4b14c-94af-4314-8a16-163579dec67f
-
 ms.date: 12/05/2018
 ms.keywords: 4ad4b14c-94af-4314-8a16-163579dec67f, IMFTrackedSample, IMFTrackedSample interface [Media Foundation], IMFTrackedSample interface [Media Foundation],described, mf.imftrackedsample, mfidl/IMFTrackedSample
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTrackedSample"
+f1_keywords:
+- mfidl/IMFTrackedSample
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFTrackedSample
+- IMFTrackedSample
 targetos: Windows
 req.typenames: 
 req.redist: 

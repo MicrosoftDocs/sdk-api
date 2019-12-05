@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_PHY_RADIO_STATE
 title: WLAN_PHY_RADIO_STATE (wlanapi.h)
-
 description: Specifies the radio state.
 old-location: nwifi\wlan_phy_radio_state.htm
 tech.root: NativeWiFi
 ms.assetid: 20da1494-4264-4d0d-b789-25e2be6a8dd4
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE, PWLAN_PHY_RADIO_STATE structure pointer [NativeWIFI], WLAN_PHY_RADIO_STATE, WLAN_PHY_RADIO_STATE structure [NativeWIFI], nwifi.wlan_phy_radio_state, wlanapi/PWLAN_PHY_RADIO_STATE, wlanapi/WLAN_PHY_RADIO_STATE'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_PHY_RADIO_STATE
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

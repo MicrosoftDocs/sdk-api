@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRatingRegionCount
 title: IAtscContentAdvisoryDescriptor::GetRatingRegionCount (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsccontentadvisorydescriptor_getratingregioncount.htm
 tech.root: mstv
 ms.assetid: e9571bdb-5b0b-4798-b4dc-37ccee51a8b3
-
 ms.date: 12/05/2018
 ms.keywords: GetRatingRegionCount, GetRatingRegionCount method [Microsoft TV Technologies], GetRatingRegionCount method [Microsoft TV Technologies],IAtscContentAdvisoryDescriptor interface, IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies],GetRatingRegionCount method, IAtscContentAdvisoryDescriptor.GetRatingRegionCount, IAtscContentAdvisoryDescriptor::GetRatingRegionCount, IAtscContentAdvisoryDescriptorGetRatingRegionCount, atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount, mstv.iatsccontentadvisorydescriptor_getratingregioncount
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IAtscContentAdvisoryDescriptor.GetRatingRegionCount"
+f1_keywords:
+- atscpsipparser/IAtscContentAdvisoryDescriptor.GetRatingRegionCount
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscContentAdvisoryDescriptor.GetRatingRegionCount
+- IAtscContentAdvisoryDescriptor.GetRatingRegionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

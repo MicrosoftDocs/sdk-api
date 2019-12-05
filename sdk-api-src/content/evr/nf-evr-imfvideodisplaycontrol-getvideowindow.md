@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetVideoWindow
 title: IMFVideoDisplayControl::GetVideoWindow (evr.h)
-
 description: Gets the clipping window for the video.
 old-location: mf\imfvideodisplaycontrol_getvideowindow.htm
 tech.root: medfound
 ms.assetid: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5
-
 ms.date: 12/05/2018
 ms.keywords: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5, GetVideoWindow, GetVideoWindow method [Media Foundation], GetVideoWindow method [Media Foundation],IMFVideoDisplayControl interface, IMFVideoDisplayControl interface [Media Foundation],GetVideoWindow method, IMFVideoDisplayControl.GetVideoWindow, IMFVideoDisplayControl::GetVideoWindow, evr/IMFVideoDisplayControl::GetVideoWindow, mf.imfvideodisplaycontrol_getvideowindow
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.GetVideoWindow"
+f1_keywords:
+- evr/IMFVideoDisplayControl.GetVideoWindow
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.GetVideoWindow
+- IMFVideoDisplayControl.GetVideoWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

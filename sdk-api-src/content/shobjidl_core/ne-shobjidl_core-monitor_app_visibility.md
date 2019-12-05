@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.MONITOR_APP_VISIBILITY
 title: MONITOR_APP_VISIBILITY (shobjidl_core.h)
-
 description: Specifies whether a display is showing desktop windows instead of Windows Store apps.
 old-location: shell\MONITOR_APP_VISIBILITY.htm
 tech.root: shell
 ms.assetid: DE52080C-5EC3-489B-ACC8-D5EAEE3DDF78
-
 ms.date: 12/05/2018
 ms.keywords: MAV_APP_VISIBLE, MAV_NO_APP_VISIBLE, MAV_UNKNOWN, MONITOR_APP_VISIBILITY, MONITOR_APP_VISIBILITY enumeration [Windows Shell], shell.MONITOR_APP_VISIBILITY, shobjidl_core/MAV_APP_VISIBLE, shobjidl_core/MAV_NO_APP_VISIBLE, shobjidl_core/MAV_UNKNOWN, shobjidl_core/MONITOR_APP_VISIBILITY
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/MONITOR_APP_VISIBILITY"
+f1_keywords:
+- shobjidl_core/MONITOR_APP_VISIBILITY
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - MONITOR_APP_VISIBILITY
+- MONITOR_APP_VISIBILITY
 targetos: Windows
 req.typenames: MONITOR_APP_VISIBILITY
 req.redist: 

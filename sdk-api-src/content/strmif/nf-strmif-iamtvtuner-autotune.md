@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVTuner.AutoTune
 title: IAMTVTuner::AutoTune (strmif.h)
-
 description: The AutoTune method scans for a precise signal on the channel's frequency.
 old-location: dshow\iamtvtuner_autotune.htm
 tech.root: DirectShow
 ms.assetid: ae8338e4-b75d-42d5-bcb7-84352921458c
-
 ms.date: 12/05/2018
 ms.keywords: AutoTune, AutoTune method [DirectShow], AutoTune method [DirectShow],IAMTVTuner interface, IAMTVTuner interface [DirectShow],AutoTune method, IAMTVTuner.AutoTune, IAMTVTuner::AutoTune, IAMTVTunerAutoTune, dshow.iamtvtuner_autotune, strmif/IAMTVTuner::AutoTune
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVTuner.AutoTune"
+f1_keywords:
+- strmif/IAMTVTuner.AutoTune
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVTuner.AutoTune
+- IAMTVTuner.AutoTune
 targetos: Windows
 req.typenames: 
 req.redist: 

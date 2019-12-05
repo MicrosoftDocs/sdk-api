@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Next
 title: IProviderQueryConstraintCollection::Next (functiondiscoveryprovider.h)
-
 description: Gets the name and value of the next query constraint in the collection.
 old-location: ncd\iproviderqueryconstraintcollection_next.htm
 tech.root: FunDisc
 ms.assetid: 5dd03e98-5367-4434-aa68-be36cb7aaf24
-
 ms.date: 12/05/2018
 ms.keywords: IProviderQueryConstraintCollection interface,Next method, IProviderQueryConstraintCollection.Next, IProviderQueryConstraintCollection::Next, Next, Next method, Next method,IProviderQueryConstraintCollection interface, functiondiscoveryprovider/IProviderQueryConstraintCollection::Next, ncd.iproviderqueryconstraintcollection_next
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderQueryConstraintCollection.Next"
+f1_keywords:
+- functiondiscoveryprovider/IProviderQueryConstraintCollection.Next
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderQueryConstraintCollection.Next
+- IProviderQueryConstraintCollection.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

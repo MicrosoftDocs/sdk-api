@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetIntVectorArray
 title: ID3D10EffectVectorVariable::GetIntVectorArray (d3d10effect.h)
-
 description: Get an array of four-component vectors that contain integer data.
 old-location: direct3d10\id3d10effectvectorvariable_getintvectorarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getintvectorarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: 4e3ca029-17ed-c553-b92b-d01300a4477f, GetIntVectorArray, GetIntVectorArray method [Direct3D 10], GetIntVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, ID3D10EffectVectorVariable interface [Direct3D 10],GetIntVectorArray method, ID3D10EffectVectorVariable.GetIntVectorArray, ID3D10EffectVectorVariable::GetIntVectorArray, d3d10effect/ID3D10EffectVectorVariable::GetIntVectorArray, direct3d10.id3d10effectvectorvariable_getintvectorarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVectorVariable.GetIntVectorArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectVectorVariable.GetIntVectorArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVectorVariable.GetIntVectorArray
+- ID3D10EffectVectorVariable.GetIntVectorArray
 targetos: Windows
 req.typenames: 
 req.redist: 

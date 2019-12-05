@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcommon._D3D_SHADER_VARIABLE_FLAGS
 title: D3D_SHADER_VARIABLE_FLAGS (d3dcommon.h)
-
 description: Values that identify information about a shader variable.
 old-location: direct3d11\d3d_shader_variable_flags.htm
 tech.root: direct3d11
 ms.assetid: b89dc001-c335-4994-a644-88bfbeb7d663
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_SVF_USED, D3D10_SVF_USERPACKED, D3D11_SVF_INTERFACE_PARAMETER, D3D11_SVF_INTERFACE_POINTER, D3D_SHADER_VARIABLE_FLAGS, D3D_SHADER_VARIABLE_FLAGS enumeration [Direct3D 11], D3D_SVF_FORCE_DWORD, D3D_SVF_INTERFACE_PARAMETER, D3D_SVF_INTERFACE_POINTER, D3D_SVF_USED, D3D_SVF_USERPACKED, d3dcommon/D3D10_SVF_USED, d3dcommon/D3D10_SVF_USERPACKED, d3dcommon/D3D11_SVF_INTERFACE_PARAMETER, d3dcommon/D3D11_SVF_INTERFACE_POINTER, d3dcommon/D3D_SHADER_VARIABLE_FLAGS, d3dcommon/D3D_SVF_FORCE_DWORD, d3dcommon/D3D_SVF_INTERFACE_PARAMETER, d3dcommon/D3D_SVF_INTERFACE_POINTER, d3dcommon/D3D_SVF_USED, d3dcommon/D3D_SVF_USERPACKED, direct3d11.d3d_shader_variable_flags
 ms.topic: enum
 f1_keywords:
 - d3dcommon/D3D_SHADER_VARIABLE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows

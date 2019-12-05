@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt.__unnamed_enum_8
 title: ACTCTX_REQUESTED_RUN_LEVEL (winnt.h)
-
 description: The ACTCTX_REQUESTED_RUN_LEVEL enumeration describes the requested run level of the activation context.
 old-location: setup\actctx_requested_run_level.htm
 tech.root: SbsCs
 ms.assetid: 3bf75a4d-a209-43e4-9fe2-f7da1602fc6c
-
 ms.date: 12/05/2018
 ms.keywords: ACTCTX_REQUESTED_RUN_LEVEL, ACTCTX_REQUESTED_RUN_LEVEL enumeration [Side-by-side Assemblies], ACTCTX_RUN_LEVEL_AS_INVOKER, ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, ACTCTX_RUN_LEVEL_NUMBERS, ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, ACTCTX_RUN_LEVEL_UNSPECIFIED, setup.actctx_requested_run_level, winnt/ACTCTX_REQUESTED_RUN_LEVEL, winnt/ACTCTX_RUN_LEVEL_AS_INVOKER, winnt/ACTCTX_RUN_LEVEL_HIGHEST_AVAILABLE, winnt/ACTCTX_RUN_LEVEL_NUMBERS, winnt/ACTCTX_RUN_LEVEL_REQUIRE_ADMIN, winnt/ACTCTX_RUN_LEVEL_UNSPECIFIED
 ms.topic: enum
-f1_keywords: 
- - "winnt/ACTCTX_REQUESTED_RUN_LEVEL"
+f1_keywords:
+- winnt/ACTCTX_REQUESTED_RUN_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - ACTCTX_REQUESTED_RUN_LEVEL
+- ACTCTX_REQUESTED_RUN_LEVEL
 targetos: Windows
 req.typenames: ACTCTX_REQUESTED_RUN_LEVEL
 req.redist: 

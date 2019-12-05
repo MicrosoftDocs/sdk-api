@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResource.GetDictionary
 title: IXpsOMRemoteDictionaryResource::GetDictionary (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMDictionary interface of the remote dictionary that is associated with this resource.
 old-location: xps\ixpsomremotedictionaryresource_getdictionary.htm
 tech.root: printdocs
 ms.assetid: 8363aa97-b7ca-458e-84d9-d9316070a3d0
-
 ms.date: 12/05/2018
 ms.keywords: GetDictionary, GetDictionary method [XPS Documents and Packaging], GetDictionary method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResource interface, IXpsOMRemoteDictionaryResource interface [XPS Documents and Packaging],GetDictionary method, IXpsOMRemoteDictionaryResource.GetDictionary, IXpsOMRemoteDictionaryResource::GetDictionary, xps.ixpsomremotedictionaryresource_getdictionary, xpsobjectmodel/IXpsOMRemoteDictionaryResource::GetDictionary
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRemoteDictionaryResource.GetDictionary"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRemoteDictionaryResource.GetDictionary
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRemoteDictionaryResource.GetDictionary
+- IXpsOMRemoteDictionaryResource.GetDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

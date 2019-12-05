@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetTextExt
 title: ITfContextOwner::GetTextExt (msctf.h)
-
 description: The ITfContextOwner::GetTextExt method returns the bounding box, in screen coordinates, of the text at a specified character position. The caller must have a read-only lock on the document before calling this method.
 old-location: tsf\itfcontextowner_gettextext.htm
 tech.root: TSF
 ms.assetid: edde0ba7-1d88-4c32-b794-761b66d73507
-
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetTextExt method, ITfContextOwner.GetTextExt, ITfContextOwner::GetTextExt, _tsf_itfcontextowner_gettextext_ref, msctf/ITfContextOwner::GetTextExt, tsf.itfcontextowner_gettextext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwner.GetTextExt"
+f1_keywords:
+- msctf/ITfContextOwner.GetTextExt
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwner.GetTextExt
+- ITfContextOwner.GetTextExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

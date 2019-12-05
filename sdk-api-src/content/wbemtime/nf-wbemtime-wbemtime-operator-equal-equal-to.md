@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-equal-equal-to
 title: WBEMTime::operator-equal-equal-to (wbemtime.h)
-
 description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
 old-location: wmi\wbemtime_comparison_operators_equal.htm
 tech.root: WmiSdk
 ms.assetid: 9060553a-db93-44c3-ae64-1e14c5087485
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTime interface [Windows Management Instrumentation],operator== method, WBEMTime.operator-equal-equal-to, WBEMTime.operator==, WBEMTime::operator-equal-equal-to, WBEMTime::operator==, _hmm_wbemtime_comparison_operators, operator==, operator== method [Windows Management Instrumentation], operator== method [Windows Management Instrumentation],WBEMTime interface, wbemtime/WBEMTime::operator==, wmi.wbemtime_comparison_operators, wmi.wbemtime_comparison_operators_equal
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.operator=="
+f1_keywords:
+- wbemtime/WBEMTime.operator==
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.operator==
+- WBEMTime.operator==
 targetos: Windows
 req.typenames: 
 req.redist: 

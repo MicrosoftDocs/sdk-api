@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(float)
 title: IDCompositionHueRotationEffect::SetAngle(float) (dcomp.h)
-
 description: Sets the angle to rotate the hue.
 old-location: directcomp\idcompositionhuerotationeffect_setangle.htm
 tech.root: directcomp
 ms.assetid: BA98A918-EE51-40C7-9392-D5E0D78580F8
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(float), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(float), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionHueRotationEffect.SetAngle"
+f1_keywords:
+- dcomp/IDCompositionHueRotationEffect.SetAngle
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionHueRotationEffect.SetAngle
+- IDCompositionHueRotationEffect.SetAngle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.MAKELANGID
 title: MAKELANGID macro (winnt.h)
-
 description: Creates a language identifier from a primary language identifier and a sublanguage identifier.
 old-location: intl\makelangid.htm
 tech.root: Intl
 ms.assetid: cdf6424a-bf2b-4c14-8bc7-8b5f04c29ed3
-
 ms.date: 12/05/2018
 ms.keywords: MAKELANGID, MAKELANGID macro [Internationalization for Windows Applications], _win32_MAKELANGID, intl.makelangid, winnt/MAKELANGID
 ms.topic: macro
-f1_keywords: 
- - "winnt/MAKELANGID"
+f1_keywords:
+- winnt/MAKELANGID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MAKELANGID
+- MAKELANGID
 targetos: Windows
 req.typenames: 
 req.redist: 

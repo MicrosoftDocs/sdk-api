@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetAxisValueNames
 title: IDWriteFontResource::GetAxisValueNames
-
 description: Retrieves the localized names of specific values for a font axis.
 tech.root: DirectWrite
-
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetAxisValueNames method, IDWriteFontResource.GetAxisValueNames, IDWriteFontResource::GetAxisValueNames, GetAxisValueNames, GetAxisValueNames method [Direct Write], GetAxisValueNames method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getaxisvaluenames, dwrite_3/IDWriteFontResource::GetAxisValueNames
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontResource.GetAxisValueNames"
+f1_keywords:
+- dwrite_3/IDWriteFontResource.GetAxisValueNames
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontResource::GetAxisValueNames
+- IDWriteFontResource::GetAxisValueNames
 targetos: Windows
 req.typenames: 
 req.redist: 

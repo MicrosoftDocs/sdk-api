@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IEnumFilters
 title: IEnumFilters (strmif.h)
-
 description: The IEnumFilters interface enumerates the filters in a filter graph.
 old-location: dshow\ienumfilters.htm
 tech.root: DirectShow
 ms.assetid: e105ccff-86c6-45d5-aead-6d303d038e5a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters, IEnumFilters interface [DirectShow], IEnumFilters interface [DirectShow],described, IEnumFiltersInterface, dshow.ienumfilters, strmif/IEnumFilters
 ms.topic: interface
-f1_keywords: 
- - "strmif/IEnumFilters"
+f1_keywords:
+- strmif/IEnumFilters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumFilters
+- IEnumFilters
 targetos: Windows
 req.typenames: 
 req.redist: 

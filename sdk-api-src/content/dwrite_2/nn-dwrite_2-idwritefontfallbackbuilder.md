@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_2.IDWriteFontFallbackBuilder
 title: IDWriteFontFallbackBuilder (dwrite_2.h)
-
 description: Allows you to create Unicode font fallback mappings and create a font fall back object from those mappings.
 old-location: directwrite\idwritefontfallbackbuilder.htm
 tech.root: DirectWrite
 ms.assetid: 462AC12E-C856-4D8F-83AF-FAC3221425C2
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallbackBuilder, IDWriteFontFallbackBuilder interface [Direct Write], IDWriteFontFallbackBuilder interface [Direct Write],described, directwrite.idwritefontfallbackbuilder, dwrite_2/IDWriteFontFallbackBuilder
 ms.topic: interface
-f1_keywords: 
- - "dwrite_2/IDWriteFontFallbackBuilder"
+f1_keywords:
+- dwrite_2/IDWriteFontFallbackBuilder
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFallbackBuilder
+- IDWriteFontFallbackBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

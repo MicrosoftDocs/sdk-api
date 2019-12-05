@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetItemSpacing
 title: ListView_GetItemSpacing macro (commctrl.h)
-
 description: Determines the spacing between items in a list-view control. You can use this macro or send the LVM_GETITEMSPACING message explicitly.
 old-location: controls\ListView_GetItemSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemspacing.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetItemSpacing, ListView_GetItemSpacing macro [Windows Controls], _win32_ListView_GetItemSpacing, _win32_ListView_GetItemSpacing_cpp, commctrl/ListView_GetItemSpacing, controls.ListView_GetItemSpacing, controls._win32_ListView_GetItemSpacing
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetItemSpacing"
+f1_keywords:
+- commctrl/ListView_GetItemSpacing
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetItemSpacing
+- ListView_GetItemSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

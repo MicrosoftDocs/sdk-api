@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.IEnumDirectoryObject.Skip
 title: IEnumDirectoryObject::Skip (rend.h)
-
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdirectoryobject_skip.htm
 tech.root: Tapi
 ms.assetid: e14e71f1-5151-4562-bfbf-1370f65cb23a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDirectoryObject interface [TAPI 2.2],Skip method, IEnumDirectoryObject.Skip, IEnumDirectoryObject::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDirectoryObject interface, _tapi3_ienumdirectoryobject_skip, rend/IEnumDirectoryObject::Skip, tapi3.ienumdirectoryobject_skip
 ms.topic: method
-f1_keywords: 
- - "rend/IEnumDirectoryObject.Skip"
+f1_keywords:
+- rend/IEnumDirectoryObject.Skip
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - IEnumDirectoryObject.Skip
+- IEnumDirectoryObject.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmObject.get_Id
 title: IFsrmObject::get_Id (fsrm.h)
-
 description: Retrieves the identifier of the object.
 old-location: fsrm\ifsrmobject_id.htm
 tech.root: fsrm
 ms.assetid: 40134594-39e1-416c-9afd-056355bcb0b5
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmObject interface [File Server Resource Manager],Id property, IFsrmObject.Id, IFsrmObject.get_Id, IFsrmObject::Id, IFsrmObject::get_Id, Id property [File Server Resource Manager], Id property [File Server Resource Manager],IFsrmObject interface, fs.ifsrmobject_id, fsrm.ifsrmobject_id, fsrm/IFsrmObject::Id, fsrm/IFsrmObject::get_Id, get_Id
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmObject.Id"
+f1_keywords:
+- fsrm/IFsrmObject.Id
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmObject.Id
- - IFsrmObject.get_Id
+- IFsrmObject.Id
+- IFsrmObject.get_Id
 targetos: Windows
 req.typenames: 
 req.redist: 

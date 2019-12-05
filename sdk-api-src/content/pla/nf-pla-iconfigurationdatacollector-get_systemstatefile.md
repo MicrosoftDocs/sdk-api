@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_SystemStateFile
 title: IConfigurationDataCollector::get_SystemStateFile (pla.h)
-
 description: Retrieves or sets the name of the file that contains the saved system state.
 old-location: pla\iconfigurationdatacollector_systemstatefile.htm
 tech.root: PLA
 ms.assetid: e8e4ec1f-4b43-4252-8a31-55b2ed2dca36
-
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector interface [PLA],SystemStateFile property, IConfigurationDataCollector.SystemStateFile, IConfigurationDataCollector.get_SystemStateFile, IConfigurationDataCollector::SystemStateFile, IConfigurationDataCollector::get_SystemStateFile, IConfigurationDataCollector::put_SystemStateFile, SystemStateFile property [PLA], SystemStateFile property [PLA],IConfigurationDataCollector interface, get_SystemStateFile, pla.iconfigurationdatacollector_systemstatefile, pla/IConfigurationDataCollector::SystemStateFile, pla/IConfigurationDataCollector::get_SystemStateFile, pla/IConfigurationDataCollector::put_SystemStateFile
 ms.topic: method
-f1_keywords: 
- - "pla/IConfigurationDataCollector.SystemStateFile"
+f1_keywords:
+- pla/IConfigurationDataCollector.SystemStateFile
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IConfigurationDataCollector.SystemStateFile
- - IConfigurationDataCollector.get_SystemStateFile
- - IConfigurationDataCollector.put_SystemStateFile
+- IConfigurationDataCollector.SystemStateFile
+- IConfigurationDataCollector.get_SystemStateFile
+- IConfigurationDataCollector.put_SystemStateFile
 targetos: Windows
 req.typenames: 
 req.redist: 

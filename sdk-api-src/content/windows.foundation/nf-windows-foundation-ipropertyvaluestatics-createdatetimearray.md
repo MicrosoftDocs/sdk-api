@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDateTimeArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of DateTime values.
 old-location: winrt\ipropertyvaluestatics_createdatetimearray.htm
 tech.root: WinRT
 ms.assetid: 0c0beb76-0089-46b9-bcc5-ed07320859a3
-
 ms.date: 12/05/2018
 ms.keywords: CreateDateTimeArray, CreateDateTimeArray method [Windows Runtime], CreateDateTimeArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDateTimeArray method, IPropertyValueStatics.CreateDateTimeArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDateTimeArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDateTimeArray, winrt.ipropertyvaluefactory_createdatetimearray, winrt.ipropertyvaluestatics_createdatetimearray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateDateTimeArray"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateDateTimeArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateDateTimeArray
+- IPropertyValueStatics.CreateDateTimeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_TRANSCODE_TOPOLOGYMODE_FLAGS
 title: MF_TRANSCODE_TOPOLOGYMODE_FLAGS (mfidl.h)
-
 description: Defines flags for the MF_TRANSCODE_TOPOLOGYMODE attribute.
 old-location: mf\mf_transcode_topologymode_flags.htm
 tech.root: medfound
 ms.assetid: 9a98a052-9fb0-4c63-bc9c-8e112e37973f
-
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSCODE_TOPOLOGYMODE_FLAGS, MF_TRANSCODE_TOPOLOGYMODE_FLAGS enumeration [Media Foundation], MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED, MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY, mf.mf_transcode_topologymode_flags, mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS, mfidl/MF_TRANSCODE_TOPOLOGYMODE_HARDWARE_ALLOWED, mfidl/MF_TRANSCODE_TOPOLOGYMODE_SOFTWARE_ONLY
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS"
+f1_keywords:
+- mfidl/MF_TRANSCODE_TOPOLOGYMODE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_TRANSCODE_TOPOLOGYMODE_FLAGS
+- MF_TRANSCODE_TOPOLOGYMODE_FLAGS
 targetos: Windows
 req.typenames: MF_TRANSCODE_TOPOLOGYMODE_FLAGS
 req.redist: 

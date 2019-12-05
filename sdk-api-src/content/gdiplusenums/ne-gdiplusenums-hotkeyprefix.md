@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.HotkeyPrefix
 title: HotkeyPrefix (gdiplusenums.h)
-
 description: The HotkeyPrefix enumeration specifies how to display hot keys. There are three options:\_do nothing, display hot keys underlined, and hide the hot key underlines.
 old-location: gdiplus\_gdiplus_ENUM_HotkeyPrefix.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\hotkeyprefix.htm
-
 ms.date: 12/05/2018
 ms.keywords: HotkeyPrefix, HotkeyPrefix enumeration [GDI+], HotkeyPrefixHide, HotkeyPrefixNone, HotkeyPrefixShow, _gdiplus_ENUM_HotkeyPrefix, gdiplus._gdiplus_ENUM_HotkeyPrefix, gdiplusenums/HotkeyPrefix, gdiplusenums/HotkeyPrefixHide, gdiplusenums/HotkeyPrefixNone, gdiplusenums/HotkeyPrefixShow
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/HotkeyPrefix"
+f1_keywords:
+- gdiplusenums/HotkeyPrefix
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - HotkeyPrefix
+- HotkeyPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 

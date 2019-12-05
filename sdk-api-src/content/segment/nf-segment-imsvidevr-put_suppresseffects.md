@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidEVR.put_SuppressEffects
 title: IMSVidEVR::put_SuppressEffects (segment.h)
-
 description: The put_SuppressEffects method specifies whether the Video Control configures the system for optimal video playback.
 old-location: mstv\imsvidevr_put_suppresseffects.htm
 tech.root: mstv
 ms.assetid: 399250b6-4f2d-4dbf-b1e8-d32a0673617e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidEVR.put_SuppressEffects, IMSVidEVR::put_SuppressEffects, IMSVidEVRput_SuppressEffects, mstv.imsvidevr_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, segment/IMSVidEVR::put_SuppressEffects
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidEVR.put_SuppressEffects"
+f1_keywords:
+- segment/IMSVidEVR.put_SuppressEffects
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidEVR.put_SuppressEffects
+- IMSVidEVR.put_SuppressEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

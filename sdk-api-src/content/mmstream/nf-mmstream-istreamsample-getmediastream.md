@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IStreamSample.GetMediaStream
 title: IStreamSample::GetMediaStream (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the media stream object that created the current sample.
 old-location: dshow\istreamsample_getmediastream.htm
 tech.root: DirectShow
 ms.assetid: dfc38480-7b8d-42ad-937b-dd39384796c9
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaStream, GetMediaStream method [DirectShow], GetMediaStream method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],GetMediaStream method, IStreamSample.GetMediaStream, IStreamSample::GetMediaStream, IStreamSampleGetMediaStream, dshow.istreamsample_getmediastream, mmstream/IStreamSample::GetMediaStream
 ms.topic: method
-f1_keywords: 
- - "mmstream/IStreamSample.GetMediaStream"
+f1_keywords:
+- mmstream/IStreamSample.GetMediaStream
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IStreamSample.GetMediaStream
+- IStreamSample.GetMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

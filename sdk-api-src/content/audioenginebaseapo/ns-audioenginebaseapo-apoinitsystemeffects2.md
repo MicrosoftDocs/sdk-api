@@ -1,19 +1,17 @@
 ---
 UID: NS:audioenginebaseapo.APOInitSystemEffects2
 title: APOInitSystemEffects2 (audioenginebaseapo.h)
-
 description: The APOInitSystemEffects2 structure was introduced with Windows 8.1, to make it possible to provide additional initialization context to the audio processing object (APO) for initialization.
 old-location: audio\apoinitsystemeffects2.htm
 tech.root: audio
 ms.assetid: 87E59FCE-1965-4B23-B1F5-F54FEDD5A83E
-
 ms.date: 12/05/2018
 ms.keywords: APOInitSystemEffects2, APOInitSystemEffects2 structure [Audio Devices], PAPOInitSystemEffects2, PAPOInitSystemEffects2 structure pointer [Audio Devices], audio.apoinitsystemeffects2, audioenginebaseapo/APOInitSystemEffects2, audioenginebaseapo/PAPOInitSystemEffects2
 ms.topic: struct
-f1_keywords: 
- - "audioenginebaseapo/APOInitSystemEffects2"
+f1_keywords:
+- audioenginebaseapo/APOInitSystemEffects2
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioenginebaseapo.h
+- Audioenginebaseapo.h
 api_name:
- - APOInitSystemEffects2
+- APOInitSystemEffects2
 targetos: Windows
 req.typenames: APOInitSystemEffects2
 req.redist: 

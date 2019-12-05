@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.SetElements
 title: Matrix::SetElements (gdiplusmatrix.h)
-
 description: The Matrix::SetElements method sets the elements of this matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\setelements.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],SetElements method, Matrix.SetElements, Matrix::SetElements, SetElements, SetElements method [GDI+], SetElements method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_, gdiplus._gdiplus_CLASS_Matrix_SetElements_m11_m12_m21_m22_dx_dy_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.SetElements"
+f1_keywords:
+- gdiplusmatrix/Matrix.SetElements
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.SetElements
+- Matrix.SetElements
 targetos: Windows
 req.typenames: 
 req.redist: 

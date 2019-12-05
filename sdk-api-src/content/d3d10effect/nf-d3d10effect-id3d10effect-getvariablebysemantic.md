@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.GetVariableBySemantic
 title: ID3D10Effect::GetVariableBySemantic (d3d10effect.h)
-
 description: Get a variable by semantic.
 old-location: direct3d10\id3d10effect_getvariablebysemantic.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getvariablebysemantic.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetVariableBySemantic, GetVariableBySemantic method [Direct3D 10], GetVariableBySemantic method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetVariableBySemantic method, ID3D10Effect.GetVariableBySemantic, ID3D10Effect::GetVariableBySemantic, d3d10effect/ID3D10Effect::GetVariableBySemantic, direct3d10.id3d10effect_getvariablebysemantic, e578cd0d-594a-b43e-8baa-310f0b747079
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10Effect.GetVariableBySemantic"
+f1_keywords:
+- d3d10effect/ID3D10Effect.GetVariableBySemantic
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10Effect.GetVariableBySemantic
+- ID3D10Effect.GetVariableBySemantic
 targetos: Windows
 req.typenames: 
 req.redist: 

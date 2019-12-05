@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService.SetProperty
 title: IVisualTreeService::SetProperty (xamlom.h)
-
 description: Sets a property value on a XAML element.
 old-location: xaml_diagnostics\ivisualtreeservice_setproperty.htm
 tech.root: xaml_diagnostics
 ms.assetid: A9C6C67F-7767-454C-BA05-86C6B1E5D712
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService interface,SetProperty method, IVisualTreeService.SetProperty, IVisualTreeService::SetProperty, SetProperty, SetProperty method, SetProperty method,IVisualTreeService interface, xaml_diagnostics.ivisualtreeservice_setproperty, xamlom/IVisualTreeService::SetProperty
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService.SetProperty"
+f1_keywords:
+- xamlom/IVisualTreeService.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService.SetProperty
+- IVisualTreeService.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

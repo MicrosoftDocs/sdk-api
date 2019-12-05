@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IOleUndoManager
 title: IOleUndoManager (ocidl.h)
-
 description: The IOleUndoManager interface enables containers to implement multi-level undo and redo operations for actions that occur within contained controls.
 old-location: com\ioleundomanager.htm
 tech.root: com
 ms.assetid: 0f507506-3589-4d5b-b1b3-010bce9ae42f
-
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager, IOleUndoManager interface [COM], IOleUndoManager interface [COM],described, _ole_ioleundomanager, com.ioleundomanager, ocidl/IOleUndoManager
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IOleUndoManager"
+f1_keywords:
+- ocidl/IOleUndoManager
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager
+- IOleUndoManager
 targetos: Windows
 req.typenames: 
 req.redist: 

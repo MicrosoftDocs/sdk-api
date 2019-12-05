@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetRequestId
 title: IXpsSignatureRequest::GetRequestId (xpsdigitalsignature.h)
-
 description: Gets the unique identifier of the signature request.
 old-location: xps\ixpssignaturerequest_getrequestid.htm
 tech.root: printdocs
 ms.assetid: abca5fdf-258b-4ce8-8b29-eae9a6d17cd7
-
 ms.date: 12/05/2018
 ms.keywords: GetRequestId, GetRequestId method [XPS Documents and Packaging], GetRequestId method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetRequestId method, IXpsSignatureRequest.GetRequestId, IXpsSignatureRequest::GetRequestId, xps.ixpssignaturerequest_getrequestid, xpsdigitalsignature/IXpsSignatureRequest::GetRequestId
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureRequest.GetRequestId"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureRequest.GetRequestId
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.GetRequestId
+- IXpsSignatureRequest.GetRequestId
 targetos: Windows
 req.typenames: 
 req.redist: 

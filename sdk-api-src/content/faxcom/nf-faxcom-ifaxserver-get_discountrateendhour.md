@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.get_DiscountRateEndHour
 title: IFaxServer::get_DiscountRateEndHour (faxcom.h)
-
 description: Sets or retrieves the DiscountRateEndHour property for a FaxServer object. The DiscountRateEndHour property is a number that represents the hour the discount period ends. The discount period applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendhour_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2g4y.htm
-
 ms.date: 12/05/2018
 ms.keywords: DiscountRateEndHour property [Fax Service], DiscountRateEndHour property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],DiscountRateEndHour property, IFaxServer.DiscountRateEndHour, IFaxServer.get_DiscountRateEndHour, IFaxServer.put_DiscountRateEndHour, IFaxServer::DiscountRateEndHour, IFaxServer::get_DiscountRateEndHour, IFaxServer::put_DiscountRateEndHour, _mfax_ifaxserver_get_discountrateendhour, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_discountrateendhour_cpp, fax._mfax_ifaxserver_get_discountrateendhour, faxcom/IFaxServer::DiscountRateEndHour, faxcom/IFaxServer::get_DiscountRateEndHour, faxcom/IFaxServer::put_DiscountRateEndHour, get_DiscountRateEndHour
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.DiscountRateEndHour"
+f1_keywords:
+- faxcom/IFaxServer.DiscountRateEndHour
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.DiscountRateEndHour
- - IFaxServer.get_DiscountRateEndHour
- - IFaxServer.put_DiscountRateEndHour
- - IFaxServer.get_DiscountRateEndHour
- - IFaxServer.put_DiscountRateEndHour
+- IFaxServer.DiscountRateEndHour
+- IFaxServer.get_DiscountRateEndHour
+- IFaxServer.put_DiscountRateEndHour
+- IFaxServer.get_DiscountRateEndHour
+- IFaxServer.put_DiscountRateEndHour
 targetos: Windows
 req.typenames: 
 req.redist: 

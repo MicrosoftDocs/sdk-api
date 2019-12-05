@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidFeatureEvent
 title: IMSVidFeatureEvent (segment.h)
-
 description: The IMSVidFeatureEvent interface is the base interface for events from Video Control feature objects.
 old-location: mstv\imsvidfeatureevent.htm
 tech.root: mstv
 ms.assetid: 821a5524-5811-417b-9604-0883315080eb
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatureEvent, IMSVidFeatureEvent interface [Microsoft TV Technologies], IMSVidFeatureEvent interface [Microsoft TV Technologies],described, IMSVidFeatureEventInterface, mstv.imsvidfeatureevent, segment/IMSVidFeatureEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidFeatureEvent"
+f1_keywords:
+- segment/IMSVidFeatureEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFeatureEvent
+- IMSVidFeatureEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

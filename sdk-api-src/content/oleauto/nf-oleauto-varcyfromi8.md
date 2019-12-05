@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyFromI8
 title: VarCyFromI8 function (oleauto.h)
-
 description: Converts an 8-byte integer value to a currency value.
 old-location: automat\varcyfromi8.htm
 tech.root: automat
 ms.assetid: 2018dd99-a581-4d9f-a8de-e877970bc27e
-
 ms.date: 12/05/2018
 ms.keywords: VarCyFromI8, VarCyFromI8 function [Automation], _oa96_VarCyFromI8, automat.varcyfromi8, oleauto/VarCyFromI8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyFromI8"
+f1_keywords:
+- oleauto/VarCyFromI8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyFromI8
+- VarCyFromI8
 targetos: Windows
 req.typenames: 
 req.redist: 

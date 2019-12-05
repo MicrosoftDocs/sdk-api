@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OnlineClusterResource
 title: OnlineClusterResource function (clusapi.h)
-
 description: Brings an offline or failed resource online.
 old-location: mscs\onlineclusterresource.htm
 tech.root: MsCS
 ms.assetid: 8ea8d741-f6f7-48eb-9678-bbb53f76a9ec
-
 ms.date: 12/05/2018
 ms.keywords: OnlineClusterResource, OnlineClusterResource function [Failover Cluster], PCLUSAPI_ONLINE_CLUSTER_RESOURCE, PCLUSAPI_ONLINE_CLUSTER_RESOURCE function [Failover Cluster], _wolf_onlineclusterresource, clusapi/OnlineClusterResource, clusapi/PCLUSAPI_ONLINE_CLUSTER_RESOURCE, mscs.onlineclusterresource
 ms.topic: function
-f1_keywords: 
- - "clusapi/OnlineClusterResource"
+f1_keywords:
+- clusapi/OnlineClusterResource
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - OnlineClusterResource
+- OnlineClusterResource
 targetos: Windows
 req.typenames: 
 req.redist: 

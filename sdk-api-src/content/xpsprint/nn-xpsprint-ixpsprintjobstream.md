@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsprint.IXpsPrintJobStream
 title: IXpsPrintJobStream (xpsprint.h)
-
 description: A write-only stream interface into which an application writes print job data.
 old-location: gdi\ixpsprintjobstream.htm
 tech.root: printdocs
 ms.assetid: a7855015-32db-48ff-8f8d-3d84d2843fde
-
 ms.date: 12/05/2018
 ms.keywords: IXpsPrintJobStream, IXpsPrintJobStream interface [Windows GDI], IXpsPrintJobStream interface [Windows GDI],described, gdi.ixpsprintjobstream, xpsprint/IXpsPrintJobStream
 ms.topic: interface
-f1_keywords: 
- - "xpsprint/IXpsPrintJobStream"
+f1_keywords:
+- xpsprint/IXpsPrintJobStream
 dev_langs:
- - c++
+- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XpsPrint.h
+- XpsPrint.h
 api_name:
- - IXpsPrintJobStream
+- IXpsPrintJobStream
 targetos: Windows
 req.typenames: 
 req.redist: 

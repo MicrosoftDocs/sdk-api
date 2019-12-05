@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewbox
 title: IXpsOMTileBrush::GetViewbox (xpsobjectmodel.h)
-
 description: Gets the portion of the source image to be used by the tile.
 old-location: xps\ixpsomtilebrush_getviewbox.htm
 tech.root: printdocs
 ms.assetid: dc884aa6-3652-4b94-80f6-83c345973d46
-
 ms.date: 12/05/2018
 ms.keywords: GetViewbox, GetViewbox method [XPS Documents and Packaging], GetViewbox method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetViewbox method, IXpsOMTileBrush.GetViewbox, IXpsOMTileBrush::GetViewbox, xps.ixpsomtilebrush_getviewbox, xpsobjectmodel/IXpsOMTileBrush::GetViewbox
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMTileBrush.GetViewbox"
+f1_keywords:
+- xpsobjectmodel/IXpsOMTileBrush.GetViewbox
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.GetViewbox
+- IXpsOMTileBrush.GetViewbox
 targetos: Windows
 req.typenames: 
 req.redist: 

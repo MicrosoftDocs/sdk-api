@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IEnumDiskQuotaUsers.Clone
 title: IEnumDiskQuotaUsers::Clone (dskquota.h)
-
 description: Creates another enumerator of user quota entries that contains the same enumeration state as the current one.
 old-location: fs\ienumdiskquotausers_clone.htm
 tech.root: FileIO
 ms.assetid: 1c01b2d5-5419-4694-819f-fe6ef6e1636b
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Files], Clone method [Files],IEnumDiskQuotaUsers interface, IEnumDiskQuotaUsers interface [Files],Clone method, IEnumDiskQuotaUsers.Clone, IEnumDiskQuotaUsers::Clone, _win32_ienumdiskquotausers_clone, base.ienumdiskquotausers_clone, dskquota/IEnumDiskQuotaUsers::Clone, fs.ienumdiskquotausers_clone
 ms.topic: method
-f1_keywords: 
- - "dskquota/IEnumDiskQuotaUsers.Clone"
+f1_keywords:
+- dskquota/IEnumDiskQuotaUsers.Clone
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IEnumDiskQuotaUsers.Clone
+- IEnumDiskQuotaUsers.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

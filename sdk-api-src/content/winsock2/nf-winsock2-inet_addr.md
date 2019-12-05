@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.inet_addr
 title: inet_addr function (winsock2.h)
-
 description: The inet_addr function converts a string containing an IPv4 dotted-decimal address into a proper address for the IN_ADDR structure.
 old-location: winsock\inet_addr_2.htm
 tech.root: WinSock
 ms.assetid: 7d6df658-9d83-45c7-97e7-b2a016a73847
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr"
+ms.keywords: _win32_inet_addr_2, inet_addr, inet_addr function [Winsock], winsock.inet_addr_2, wsipv6ok/inet_addr
 ms.topic: function
-f1_keywords: 
- - "winsock2/inet_addr"
+f1_keywords:
+- winsock2/inet_addr
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - inet_addr
+- inet_addr
 targetos: Windows
 req.typenames: 
 req.redist: 

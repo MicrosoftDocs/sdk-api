@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.ExportPublicKey
 title: IX509EndorsementKey::ExportPublicKey (certenroll.h)
-
 description: Exports the endorsement public key.
 old-location: security\ix509endorsementkey_exportpublickey.htm
 tech.root: seccertenroll
 ms.assetid: b38c6421-2918-4d0e-81ed-d9d575817efa
-
 ms.date: 12/05/2018
 ms.keywords: ExportPublicKey, ExportPublicKey method [Security], ExportPublicKey method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],ExportPublicKey method, IX509EndorsementKey.ExportPublicKey, IX509EndorsementKey::ExportPublicKey, certenroll/IX509EndorsementKey::ExportPublicKey, security.ix509endorsementkey_exportpublickey
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EndorsementKey.ExportPublicKey"
+f1_keywords:
+- certenroll/IX509EndorsementKey.ExportPublicKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509EndorsementKey.ExportPublicKey
+- IX509EndorsementKey.ExportPublicKey
 targetos: Windows
 req.typenames: 
 req.redist: 

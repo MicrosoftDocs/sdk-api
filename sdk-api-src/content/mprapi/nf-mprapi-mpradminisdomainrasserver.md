@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminIsDomainRasServer
 title: MprAdminIsDomainRasServer function (mprapi.h)
-
 description: The MprAdminIsDomainRasServer function returns information regarding whether the given machine is registered as the remote access server in the domain.
 old-location: rras\mpradminisdomainrasserver.htm
 tech.root: RRAS
 ms.assetid: 5d9e09f9-3bb7-4877-b9f7-ce045fb30c8f
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminIsDomainRasServer, MprAdminIsDomainRasServer function [RAS], mprapi/MprAdminIsDomainRasServer, rras.mpradminisdomainrasserver
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminIsDomainRasServer"
+f1_keywords:
+- mprapi/MprAdminIsDomainRasServer
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminIsDomainRasServer
+- MprAdminIsDomainRasServer
 targetos: Windows
 req.typenames: 
 req.redist: 

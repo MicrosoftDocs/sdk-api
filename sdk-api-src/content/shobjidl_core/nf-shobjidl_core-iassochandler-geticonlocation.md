@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetIconLocation
 title: IAssocHandler::GetIconLocation (shobjidl_core.h)
-
 description: Retrieves the location of the icon associated with the application.
 old-location: shell\IAssocHandler_GetIconLocation.htm
 tech.root: shell
 ms.assetid: 4b883c2c-6845-4e53-b41b-83c09091ee53
-
 ms.date: 12/05/2018
 ms.keywords: GetIconLocation, GetIconLocation method [Windows Shell], GetIconLocation method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetIconLocation method, IAssocHandler.GetIconLocation, IAssocHandler::GetIconLocation, _shell_IAssocHandler_GetIconLocation, shell.IAssocHandler_GetIconLocation, shobjidl_core/IAssocHandler::GetIconLocation
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAssocHandler.GetIconLocation"
+f1_keywords:
+- shobjidl_core/IAssocHandler.GetIconLocation
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAssocHandler.GetIconLocation
+- IAssocHandler.GetIconLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get_Count
 title: IFaxInboundRoutingMethods::get_Count (faxcomex.h)
-
 description: The IFaxInboundRoutingMethods::get_Count property represents the number of objects in the IFaxInboundRoutingMethods collection. This is the total number of inbound routing methods associated with the fax server.
 old-location: fax\_mfax_faxinboundroutingmethods_cpp_mfax_faxinboundroutingmethods_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_956c.htm
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxInboundRoutingMethods interface, IFaxInboundRoutingMethods interface [Fax Service],Count property, IFaxInboundRoutingMethods.Count, IFaxInboundRoutingMethods.get_Count, IFaxInboundRoutingMethods::Count, IFaxInboundRoutingMethods::get_Count, _mfax_faxinboundroutingmethods.count, fax._mfax_faxinboundroutingmethods_count, fax._mfax_faxinboundroutingmethods_cpp_mfax_faxinboundroutingmethods_count_cpp, faxcomex/IFaxInboundRoutingMethods::Count, faxcomex/IFaxInboundRoutingMethods::get_Count, get_Count
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingMethods.Count"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingMethods.Count
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethods.Count
- - IFaxInboundRoutingMethods.get_Count
+- IFaxInboundRoutingMethods.Count
+- IFaxInboundRoutingMethods.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

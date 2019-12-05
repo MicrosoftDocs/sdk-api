@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListNameW
 title: IDvbLogicalChannel2Descriptor::GetListNameW (dvbsiparser.h)
-
 description: Gets the name of a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistnamew.htm
 tech.root: mstv
 ms.assetid: cbfee1d5-8a38-4c9a-ae5e-2d91970c132e
-
 ms.date: 12/05/2018
 ms.keywords: GetListNameW, GetListNameW method [Microsoft TV Technologies], GetListNameW method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListNameW method, IDvbLogicalChannel2Descriptor.GetListNameW, IDvbLogicalChannel2Descriptor::GetListNameW, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListNameW, mstv.idvblogicalchannel2descriptor_getlistnamew
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListNameW"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannel2Descriptor.GetListNameW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor.GetListNameW
+- IDvbLogicalChannel2Descriptor.GetListNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

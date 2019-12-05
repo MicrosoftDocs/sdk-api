@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.InitializeFromRegistry
 title: IPhotoAcquireSettings::InitializeFromRegistry (photoacquire.h)
-
 description: The InitializeFromRegistry method specifies a registry key from which to initialize settings.
 old-location: picacq\iphotoacquiresettings_initializefromregistry.htm
 tech.root: acquisition
 ms.assetid: 7459792f-20f8-4449-96c5-8c289b17db68
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],InitializeFromRegistry method, IPhotoAcquireSettings.InitializeFromRegistry, IPhotoAcquireSettings::InitializeFromRegistry, IPhotoAcquireSettingsInitializeFromRegistry, InitializeFromRegistry, InitializeFromRegistry method [Picture Acquisition], InitializeFromRegistry method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::InitializeFromRegistry, picacq.iphotoacquiresettings_initializefromregistry
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings.InitializeFromRegistry"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings.InitializeFromRegistry
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.InitializeFromRegistry
+- IPhotoAcquireSettings.InitializeFromRegistry
 targetos: Windows
 req.typenames: 
 req.redist: 

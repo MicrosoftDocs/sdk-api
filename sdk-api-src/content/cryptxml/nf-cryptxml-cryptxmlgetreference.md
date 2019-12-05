@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptxml.CryptXmlGetReference
 title: CryptXmlGetReference function (cryptxml.h)
-
 description: Returns the Reference element specified by the supplied handle.
 old-location: security\cryptxmlgetreference.htm
 tech.root: SecCrypto
 ms.assetid: aa482331-872d-4b51-a975-62d832a369fc
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetReference
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

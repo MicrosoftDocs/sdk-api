@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.ISimpleFrameSite
 title: ISimpleFrameSite (ocidl.h)
-
 description: Provides simple frame controls that act as simple containers for other nested controls.
 old-location: com\isimpleframesite.htm
 tech.root: com
 ms.assetid: ccddeae4-14fc-47df-a612-83d48a479b48
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleFrameSite, ISimpleFrameSite interface [COM], ISimpleFrameSite interface [COM],described, _ctrl_isimpleframesite, com.isimpleframesite, ocidl/ISimpleFrameSite
 ms.topic: interface
-f1_keywords: 
- - "ocidl/ISimpleFrameSite"
+f1_keywords:
+- ocidl/ISimpleFrameSite
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - ISimpleFrameSite
+- ISimpleFrameSite
 targetos: Windows
 req.typenames: 
 req.redist: 

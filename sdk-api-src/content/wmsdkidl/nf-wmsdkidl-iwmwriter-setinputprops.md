@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetInputProps
 title: IWMWriter::SetInputProps (wmsdkidl.h)
-
 description: The SetInputProps method specifies the media properties of an input stream.
 old-location: wmformat\iwmwriter_setinputprops.htm
 tech.root: wmformat
 ms.assetid: 15084a4d-06e8-4f74-9697-ced794d2cdae
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetInputProps method, IWMWriter.SetInputProps, IWMWriter::SetInputProps, IWMWriterSetInputProps, SetInputProps, SetInputProps method [windows Media Format], SetInputProps method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setinputprops, wmsdkidl/IWMWriter::SetInputProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.SetInputProps"
+f1_keywords:
+- wmsdkidl/IWMWriter.SetInputProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.SetInputProps
+- IWMWriter.SetInputProps
 targetos: Windows
 req.typenames: 
 req.redist: 

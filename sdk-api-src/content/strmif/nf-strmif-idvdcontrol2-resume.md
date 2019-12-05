@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.Resume
 title: IDvdControl2::Resume (strmif.h)
-
 description: The Resume method leaves a menu and resumes playback.
 old-location: dshow\idvdcontrol2_resume.htm
 tech.root: DirectShow
 ms.assetid: 522dcb38-8c17-46b0-b5aa-5ee380057077
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Resume method, IDvdControl2.Resume, IDvdControl2::Resume, IDvdControl2Resume, Resume, Resume method [DirectShow], Resume method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_resume, strmif/IDvdControl2::Resume
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.Resume"
+f1_keywords:
+- strmif/IDvdControl2.Resume
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.Resume
+- IDvdControl2.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

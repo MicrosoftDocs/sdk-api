@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyBag
 title: IFsrmPropertyBag (fsrmpipeline.h)
-
 description: Contains the classification properties for a file.
 old-location: fsrm\ifsrmpropertybag.htm
 tech.root: fsrm
 ms.assetid: 237f024d-2b1d-45d5-a63d-c530426278e6
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag, IFsrmPropertyBag interface [File Server Resource Manager], IFsrmPropertyBag interface [File Server Resource Manager],described, fs.ifsrmpropertybag, fsrm.ifsrmpropertybag, fsrm/IFsrmPropertyBag
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag
+- IFsrmPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 

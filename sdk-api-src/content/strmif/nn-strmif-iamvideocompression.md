@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMVideoCompression
 title: IAMVideoCompression (strmif.h)
-
 description: The IAMVideoCompression interface sets and retrieves video compression properties.
 old-location: dshow\iamvideocompression.htm
 tech.root: DirectShow
 ms.assetid: 6b7d8a98-35b8-442f-bf51-9e66fd03e2c9
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression, IAMVideoCompression interface [DirectShow], IAMVideoCompression interface [DirectShow],described, IAMVideoCompressionInterface, dshow.iamvideocompression, strmif/IAMVideoCompression
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMVideoCompression"
+f1_keywords:
+- strmif/IAMVideoCompression
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression
+- IAMVideoCompression
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetMuteDebugOutput
 title: IDXGIInfoQueue::GetMuteDebugOutput (dxgidebug.h)
-
 description: Determines whether the debug output is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getmutedebugoutput.htm
 tech.root: direct3ddxgi
 ms.assetid: 8123DE14-31C1-4304-A295-C7D0C3633C36
-
 ms.date: 12/05/2018
 ms.keywords: GetMuteDebugOutput, GetMuteDebugOutput method [DXGI], GetMuteDebugOutput method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetMuteDebugOutput method, IDXGIInfoQueue.GetMuteDebugOutput, IDXGIInfoQueue::GetMuteDebugOutput, direct3ddxgi.idxgiinfoqueue_getmutedebugoutput, dxgidebug/IDXGIInfoQueue::GetMuteDebugOutput
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetMuteDebugOutput"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetMuteDebugOutput
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetMuteDebugOutput
+- IDXGIInfoQueue.GetMuteDebugOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

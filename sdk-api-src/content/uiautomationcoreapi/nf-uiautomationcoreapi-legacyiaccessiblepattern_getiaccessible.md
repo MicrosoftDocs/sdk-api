@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.LegacyIAccessiblePattern_GetIAccessible
 title: LegacyIAccessiblePattern_GetIAccessible function (uiautomationcoreapi.h)
-
 description: Retrieves an IAccessible object that corresponds to the UI Automation element.
 old-location: winauto\uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat.htm
 tech.root: WinAuto
 ms.assetid: 4f05dae6-d315-457c-a496-fe915dd00265
-
 ms.date: 12/05/2018
 ms.keywords: LegacyIAccessiblePattern_GetIAccessible, LegacyIAccessiblePattern_GetIAccessible function [Windows Accessibility], uiauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat, uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat, uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible, winauto.uiauto_LegacyIAccessiblePattern_GetIAccessibleConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible"
+f1_keywords:
+- uiautomationcoreapi/LegacyIAccessiblePattern_GetIAccessible
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - LegacyIAccessiblePattern_GetIAccessible
+- LegacyIAccessiblePattern_GetIAccessible
 targetos: Windows
 req.typenames: 
 req.redist: 

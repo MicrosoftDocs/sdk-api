@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Attribute.get_ObjectId
 title: IX509Attribute::get_ObjectId (certenroll.h)
-
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\ix509attribute_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: a65c7989-5e6e-4253-8ddc-1d1207fecaf8
-
 ms.date: 12/05/2018
 ms.keywords: IX509Attribute interface [Security],ObjectId property, IX509Attribute.ObjectId, IX509Attribute.get_ObjectId, IX509Attribute::ObjectId, IX509Attribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],IX509Attribute interface, certenroll/IX509Attribute::ObjectId, certenroll/IX509Attribute::get_ObjectId, get_ObjectId, security.ix509attribute_objectid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Attribute.ObjectId"
+f1_keywords:
+- certenroll/IX509Attribute.ObjectId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Attribute.ObjectId
- - IX509Attribute.get_ObjectId
+- IX509Attribute.ObjectId
+- IX509Attribute.get_ObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 

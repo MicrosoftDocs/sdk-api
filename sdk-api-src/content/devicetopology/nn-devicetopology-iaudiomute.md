@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IAudioMute
 title: IAudioMute (devicetopology.h)
-
 description: The IAudioMute interface provides access to a hardware mute control.
 old-location: coreaudio\iaudiomute.htm
 tech.root: CoreAudio
 ms.assetid: 53d49af7-81c3-4e75-ba06-dcee34d84292
-
 ms.date: 12/05/2018
 ms.keywords: IAudioMute, IAudioMute interface [Core Audio], IAudioMute interface [Core Audio],described, coreaudio.iaudiomute, devicetopology/IAudioMute
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IAudioMute"
+f1_keywords:
+- devicetopology/IAudioMute
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioMute
+- IAudioMute
 targetos: Windows
 req.typenames: 
 req.redist: 

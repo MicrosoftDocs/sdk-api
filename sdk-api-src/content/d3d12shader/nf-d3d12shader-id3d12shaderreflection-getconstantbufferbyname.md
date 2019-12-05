@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetConstantBufferByName
 title: ID3D12ShaderReflection::GetConstantBufferByName (d3d12shader.h)
-
 description: Gets a constant buffer by name.
 old-location: direct3d12\id3d12shaderreflection_getconstantbufferbyname.htm
 tech.root: direct3d12
 ms.assetid: C8BE8C17-2B5A-45AB-8C39-778FFFA78992
-
 ms.date: 12/05/2018
 ms.keywords: GetConstantBufferByName, GetConstantBufferByName method, GetConstantBufferByName method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetConstantBufferByName method, ID3D12ShaderReflection.GetConstantBufferByName, ID3D12ShaderReflection::GetConstantBufferByName, d3d12shader/ID3D12ShaderReflection::GetConstantBufferByName, direct3d12.id3d12shaderreflection_getconstantbufferbyname
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetConstantBufferByName"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetConstantBufferByName
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetConstantBufferByName
+- ID3D12ShaderReflection.GetConstantBufferByName
 targetos: Windows
 req.typenames: 
 req.redist: 

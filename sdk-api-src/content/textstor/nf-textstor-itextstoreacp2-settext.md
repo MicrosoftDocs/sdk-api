@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.SetText
 title: ITextStoreACP2::SetText (textstor.h)
-
 description: Sets the text selection to the supplied character positions.
 old-location: tsf\itextstoreacp2_settext.htm
 tech.root: TSF
 ms.assetid: a00b8273-1690-4cf5-899f-afcb1092bfe8
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],SetText method, ITextStoreACP2.SetText, ITextStoreACP2::SetText, SetText, SetText method [Text Services Framework], SetText method [Text Services Framework],ITextStoreACP2 interface, acpNewEnd, acpOldEnd, acpStart, textstor/ITextStoreACP2::SetText, tsf.itextstoreacp2_settext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.SetText"
+f1_keywords:
+- textstor/ITextStoreACP2.SetText
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.SetText
+- ITextStoreACP2.SetText
 targetos: Windows
 req.typenames: 
 req.redist: 

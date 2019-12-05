@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerW.CancelLink
 title: IOleUILinkContainerW::CancelLink (oledlg.h)
-
 description: Disconnects the selected links.
 old-location: com\ioleuilinkcontainer_cancellink.htm
 tech.root: com
 ms.assetid: 97099e4d-20ea-47fb-8ca8-27330f980038
-
 ms.date: 12/05/2018
 ms.keywords: CancelLink, CancelLink method [COM], CancelLink method [COM],IOleUILinkContainer interface, CancelLink method [COM],IOleUILinkContainerA interface, CancelLink method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],CancelLink method, IOleUILinkContainer::CancelLink, IOleUILinkContainerA interface [COM],CancelLink method, IOleUILinkContainerA::CancelLink, IOleUILinkContainerW interface [COM],CancelLink method, IOleUILinkContainerW.CancelLink, IOleUILinkContainerW::CancelLink, _ole_IOleUILinkContainer_CancelLink, com.ioleuilinkcontainer_cancellink, oledlg/IOleUILinkContainer::CancelLink, oledlg/IOleUILinkContainerA::CancelLink, oledlg/IOleUILinkContainerW::CancelLink
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUILinkContainer.CancelLink"
+f1_keywords:
+- oledlg/IOleUILinkContainer.CancelLink
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkContainer.CancelLink
- - IOleUILinkContainerA.CancelLink
- - IOleUILinkContainerW.CancelLink
+- IOleUILinkContainer.CancelLink
+- IOleUILinkContainerA.CancelLink
+- IOleUILinkContainerW.CancelLink
 targetos: Windows
 req.typenames: 
 req.redist: 

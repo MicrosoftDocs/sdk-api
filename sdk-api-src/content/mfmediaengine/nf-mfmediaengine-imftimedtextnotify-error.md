@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Error
 title: IMFTimedTextNotify::Error (mfmediaengine.h)
-
 description: Called when an error occurs in a text track.
 old-location: mf\imftimedtextnotify_error.htm
 tech.root: medfound
 ms.assetid: 3658EE26-497D-4D33-BE68-572BCE1B28B1
-
 ms.date: 12/05/2018
 ms.keywords: Error, Error method [Media Foundation], Error method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Error method, IMFTimedTextNotify.Error, IMFTimedTextNotify::Error, mf.imftimedtextnotify_error, mfmediaengine/IMFTimedTextNotify::Error
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextNotify.Error"
+f1_keywords:
+- mfmediaengine/IMFTimedTextNotify.Error
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextNotify.Error
+- IMFTimedTextNotify.Error
 targetos: Windows
 req.typenames: 
 req.redist: 

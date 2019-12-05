@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetTypeDescAlias
 title: ICreateTypeInfo::SetTypeDescAlias (oaidl.h)
-
 description: Sets the type description for which this type description is an alias, if TYPEKIND=TKIND_ALIAS.
 old-location: automat\icreatetypeinfo_settypedescalias.htm
 tech.root: automat
 ms.assetid: 63435592-9fc8-4d49-a388-87f1d15f2603
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetTypeDescAlias method, ICreateTypeInfo.SetTypeDescAlias, ICreateTypeInfo::SetTypeDescAlias, SetTypeDescAlias, SetTypeDescAlias method [Automation], SetTypeDescAlias method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetTypeDescAlias, automat.icreatetypeinfo_settypedescalias, oaidl/ICreateTypeInfo::SetTypeDescAlias
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetTypeDescAlias"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetTypeDescAlias
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetTypeDescAlias
+- ICreateTypeInfo.SetTypeDescAlias
 targetos: Windows
 req.typenames: 
 req.redist: 

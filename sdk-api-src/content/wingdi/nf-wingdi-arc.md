@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.Arc
 title: Arc function (wingdi.h)
-
 description: The Arc function draws an elliptical arc.
 old-location: gdi\arc.htm
 tech.root: gdi
 ms.assetid: c15a2173-0fad-4a8a-b0f9-cd39fe4e7bac
-
 ms.date: 12/05/2018
 ms.keywords: Arc, Arc function [Windows GDI], _win32_Arc, gdi.arc, wingdi/Arc
 ms.topic: function
-f1_keywords: 
- - "wingdi/Arc"
+f1_keywords:
+- wingdi/Arc
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - Arc
+- Arc
 targetos: Windows
 req.typenames: 
 req.redist: 

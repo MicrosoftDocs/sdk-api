@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCSC_InheritanceConfig
 title: CSC_InheritanceConfig (comsvcs.h)
-
 description: Indicates whether to create a new context based on the current context or to create a new context based solely upon the information in CServiceConfig.
 old-location: cos\csc_inheritanceconfig.htm
 tech.root: cossdk
 ms.assetid: 9bc8c4f3-d13e-46b6-9187-904b05f66f66
-
 ms.date: 12/05/2018
 ms.keywords: CSC_Ignore, CSC_Inherit, CSC_InheritanceConfig, CSC_InheritanceConfig enumeration [COM+], _cos_csc_inheritanceconfig, comsvcs/CSC_Ignore, comsvcs/CSC_Inherit, comsvcs/CSC_InheritanceConfig, cos.csc_inheritanceconfig
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CSC_InheritanceConfig"
+f1_keywords:
+- comsvcs/CSC_InheritanceConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CSC_InheritanceConfig
+- CSC_InheritanceConfig
 targetos: Windows
 req.typenames: CSC_InheritanceConfig
 req.redist: 

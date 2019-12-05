@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IDropTarget
 title: IDropTarget (oleidl.h)
-
 description: The IDropTarget interface is one of the interfaces you implement to provide drag-and-drop operations in your application.
 old-location: com\idroptarget.htm
 tech.root: com
 ms.assetid: 13fbe834-1ef8-4944-b2e4-9f5c413c65c8
-
 ms.date: 12/05/2018
 ms.keywords: IDropTarget, IDropTarget interface [COM], IDropTarget interface [COM],described, _ole_idroptarget, com.idroptarget, oleidl/IDropTarget
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IDropTarget"
+f1_keywords:
+- oleidl/IDropTarget
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IDropTarget
+- IDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

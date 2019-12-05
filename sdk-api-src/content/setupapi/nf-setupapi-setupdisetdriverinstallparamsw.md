@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiSetDriverInstallParamsW
 title: SetupDiSetDriverInstallParamsW function (setupapi.h)
-
 description: The SetupDiSetDriverInstallParams function sets driver installation parameters for a driver information element.
 old-location: devinst\setupdisetdriverinstallparams.htm
 tech.root: devinst
 ms.assetid: a6084bb4-f0c1-43f3-94e7-8fd0682f5ac0
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiSetDriverInstallParams, SetupDiSetDriverInstallParams function [Device and Driver Installation], SetupDiSetDriverInstallParamsA, SetupDiSetDriverInstallParamsW, devinst.setupdisetdriverinstallparams, di-rtns_31ccb1b6-757d-48d0-b3bd-1c46ac3bc4bd.xml, setupapi/SetupDiSetDriverInstallParams
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiSetDriverInstallParams
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiSetDriverInstallParams
- - SetupDiSetDriverInstallParamsW
+- SetupDiSetDriverInstallParams - SetupDiSetDriverInstallParamsW
 targetos: Windows
 req.typenames: 
 req.redist: 

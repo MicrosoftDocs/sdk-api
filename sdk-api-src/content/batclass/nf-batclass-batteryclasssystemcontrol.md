@@ -1,19 +1,17 @@
 ---
 UID: NF:batclass.BatteryClassSystemControl
 title: BatteryClassSystemControl function (batclass.h)
-
 description: The BatteryClassSystemControl routine processes WMI IRPs on behalf of a battery miniclass driver.
 old-location: battery\batteryclasssystemcontrol.htm
 tech.root: battery
 ms.assetid: d462c51d-e175-4fc8-88b9-515ba648fab4
-
 ms.date: 12/05/2018
 ms.keywords: BatteryClassSystemControl, BatteryClassSystemControl routine [Battery Devices], bat-rtn_4e2bda63-ff7a-420f-96af-fa0d5041479b.xml, batclass/BatteryClassSystemControl, battery.batteryclasssystemcontrol
 ms.topic: function
-f1_keywords: 
- - "batclass/BatteryClassSystemControl"
+f1_keywords:
+- batclass/BatteryClassSystemControl
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Battc.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Battc.lib
- - Battc.dll
+- Battc.lib
+- Battc.dll
 api_name:
- - BatteryClassSystemControl
+- BatteryClassSystemControl
 targetos: Windows
 req.typenames: 
 req.redist: 

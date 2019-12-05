@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenException.put_AllowedFileGroups
 title: IFsrmFileScreenException::put_AllowedFileGroups (fsrmscreen.h)
-
 description: Retrieves or sets the names of the file groups that contain the file name patterns of the files that are allowed in the directory.
 old-location: fsrm\ifsrmfilescreenexception_allowedfilegroups.htm
 tech.root: fsrm
 ms.assetid: e02070dd-a51d-4572-a282-4e5a151cd987
-
 ms.date: 12/05/2018
 ms.keywords: AllowedFileGroups property [File Server Resource Manager], AllowedFileGroups property [File Server Resource Manager],IFsrmFileScreenException interface, IFsrmFileScreenException interface [File Server Resource Manager],AllowedFileGroups property, IFsrmFileScreenException.AllowedFileGroups, IFsrmFileScreenException.put_AllowedFileGroups, IFsrmFileScreenException::AllowedFileGroups, IFsrmFileScreenException::get_AllowedFileGroups, IFsrmFileScreenException::put_AllowedFileGroups, fs.ifsrmfilescreenexception_allowedfilegroups, fsrm.ifsrmfilescreenexception_allowedfilegroups, fsrmscreen/IFsrmFileScreenException::AllowedFileGroups, fsrmscreen/IFsrmFileScreenException::get_AllowedFileGroups, fsrmscreen/IFsrmFileScreenException::put_AllowedFileGroups, put_AllowedFileGroups
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenException.AllowedFileGroups"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenException.AllowedFileGroups
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenException.AllowedFileGroups
- - IFsrmFileScreenException.get_AllowedFileGroups
- - IFsrmFileScreenException.put_AllowedFileGroups
+- IFsrmFileScreenException.AllowedFileGroups
+- IFsrmFileScreenException.get_AllowedFileGroups
+- IFsrmFileScreenException.put_AllowedFileGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

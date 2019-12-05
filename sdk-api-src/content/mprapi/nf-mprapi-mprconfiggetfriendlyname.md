@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigGetFriendlyName
 title: MprConfigGetFriendlyName function (mprapi.h)
-
 description: The MprConfigGetFriendlyName function returns the friendly name for an interface that corresponds to the specified GUID name.
 old-location: rras\mprconfiggetfriendlyname.htm
 tech.root: RRAS
 ms.assetid: 16cd38f2-5029-4b95-871d-a8ba6c96b78c
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigGetFriendlyName, MprConfigGetFriendlyName function [RAS], _mpr_mprconfiggetfriendlyname, mprapi/MprConfigGetFriendlyName, rras.mprconfiggetfriendlyname
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigGetFriendlyName"
+f1_keywords:
+- mprapi/MprConfigGetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigGetFriendlyName
+- MprConfigGetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

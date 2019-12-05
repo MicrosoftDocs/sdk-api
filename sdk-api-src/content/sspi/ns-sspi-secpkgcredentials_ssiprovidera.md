@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgCredentials_SSIProviderA
 title: SecPkgCredentials_SSIProviderA (sspi.h)
-
 description: The SecPkgCredentials_SSIProvider structure holds the SSI provider information associated with a context. The QueryCredentialsAttributes function uses this structure.
 old-location: security\secpkgcredentials_ssiprovider.htm
 tech.root: SecAuthN
 ms.assetid: 0C6D6217-3A97-40B5-A7FB-B9D49C5FBC7C
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgCredentials_SSIProviderA, PSecPkgCredentials_SSIProvider, PSecPkgCredentials_SSIProvider structure pointer [Security], SecPkgCredentials_SSIProvider, SecPkgCredentials_SSIProvider structure [Security], SecPkgCredentials_SSIProviderA, SecPkgCredentials_SSIProviderW, security.secpkgcredentials_ssiprovider, sspi/PSecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProviderA, sspi/SecPkgCredentials_SSIProviderW"
+ms.keywords: '*PSecPkgCredentials_SSIProviderA, PSecPkgCredentials_SSIProvider, PSecPkgCredentials_SSIProvider structure pointer [Security], SecPkgCredentials_SSIProvider, SecPkgCredentials_SSIProvider structure [Security], SecPkgCredentials_SSIProviderA, SecPkgCredentials_SSIProviderW, security.secpkgcredentials_ssiprovider, sspi/PSecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProvider, sspi/SecPkgCredentials_SSIProviderA, sspi/SecPkgCredentials_SSIProviderW'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgCredentials_SSIProvider"
+f1_keywords:
+- sspi/SecPkgCredentials_SSIProvider
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgCredentials_SSIProvider
- - SecPkgCredentials_SSIProviderA
- - SecPkgCredentials_SSIProviderW
+- SecPkgCredentials_SSIProvider
+- SecPkgCredentials_SSIProviderA
+- SecPkgCredentials_SSIProviderW
 targetos: Windows
 req.typenames: SecPkgCredentials_SSIProviderA, *PSecPkgCredentials_SSIProviderA
 req.redist: 

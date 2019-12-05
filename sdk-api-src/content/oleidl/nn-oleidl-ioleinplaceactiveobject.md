@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleInPlaceActiveObject
 title: IOleInPlaceActiveObject (oleidl.h)
-
 description: Provides a direct channel of communication between an in-place object and the associated application's outer-most frame window and the document window within the application that contains the embedded object.
 old-location: com\ioleinplaceactiveobject.htm
 tech.root: com
 ms.assetid: b077c256-1109-494c-95c2-2d33bccbe47b
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject, IOleInPlaceActiveObject interface [COM], IOleInPlaceActiveObject interface [COM],described, _ole_ioleinplaceactiveobject, com.ioleinplaceactiveobject, oleidl/IOleInPlaceActiveObject
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleInPlaceActiveObject"
+f1_keywords:
+- oleidl/IOleInPlaceActiveObject
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceActiveObject
+- IOleInPlaceActiveObject
 targetos: Windows
 req.typenames: 
 req.redist: 

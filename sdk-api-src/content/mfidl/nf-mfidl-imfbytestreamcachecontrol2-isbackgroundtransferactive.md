@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamCacheControl2.IsBackgroundTransferActive
 title: IMFByteStreamCacheControl2::IsBackgroundTransferActive (mfidl.h)
-
 description: Queries whether background transfer is active.
 old-location: mf\imfbytestreamcachecontrol2_isbackgroundtransferactive.htm
 tech.root: medfound
 ms.assetid: FC08E5E8-A7E0-461C-B70C-B1273FCDD1A0
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamCacheControl2 interface [Media Foundation],IsBackgroundTransferActive method, IMFByteStreamCacheControl2.IsBackgroundTransferActive, IMFByteStreamCacheControl2::IsBackgroundTransferActive, IsBackgroundTransferActive, IsBackgroundTransferActive method [Media Foundation], IsBackgroundTransferActive method [Media Foundation],IMFByteStreamCacheControl2 interface, mf.imfbytestreamcachecontrol2_isbackgroundtransferactive, mfidl/IMFByteStreamCacheControl2::IsBackgroundTransferActive
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamCacheControl2.IsBackgroundTransferActive"
+f1_keywords:
+- mfidl/IMFByteStreamCacheControl2.IsBackgroundTransferActive
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFByteStreamCacheControl2.IsBackgroundTransferActive
+- IMFByteStreamCacheControl2.IsBackgroundTransferActive
 targetos: Windows
 req.typenames: 
 req.redist: 

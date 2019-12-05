@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the AngleX property of a 2D skew transform.
 old-location: directcomp\idcompositionskewtransform_setanglex_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 27da99b3-038d-4c18-bb43-09f04dd58ff5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSkewTransform interface [DirectComposition],SetAngleX method, IDCompositionSkewTransform.SetAngleX, IDCompositionSkewTransform.SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX, IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation), IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation*), SetAngleX, SetAngleX method [DirectComposition], SetAngleX method [DirectComposition],IDCompositionSkewTransform interface, dcomp/IDCompositionSkewTransform::SetAngleX, directcomp.idcompositionskewtransform_setanglex_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSkewTransform.SetAngleX"
+f1_keywords:
+- dcomp/IDCompositionSkewTransform.SetAngleX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSkewTransform.SetAngleX
+- IDCompositionSkewTransform.SetAngleX
 targetos: Windows
 req.typenames: 
 req.redist: 

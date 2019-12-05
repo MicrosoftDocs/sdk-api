@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetPreferredProviders
 title: IMbnMultiCarrier::GetPreferredProviders (mbnapi.h)
-
 description: Gets the list of subscribed providers visible in the current area for a multi-carrier device minus the current registered provider.
 old-location: mbn\imbnmulticarrier_getpreferredproviders.htm
 tech.root: mbn
 ms.assetid: 91D27D4D-5838-4D6D-BECF-B336B9F3B52A
-
 ms.date: 12/05/2018
 ms.keywords: GetPreferredProviders, GetPreferredProviders method [Microsoft Broadband Networks], GetPreferredProviders method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetPreferredProviders method, IMbnMultiCarrier.GetPreferredProviders, IMbnMultiCarrier::GetPreferredProviders, mbn.imbnmulticarrier_getpreferredproviders, mbnapi/IMbnMultiCarrier::GetPreferredProviders
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrier.GetPreferredProviders"
+f1_keywords:
+- mbnapi/IMbnMultiCarrier.GetPreferredProviders
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrier.GetPreferredProviders
+- IMbnMultiCarrier.GetPreferredProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

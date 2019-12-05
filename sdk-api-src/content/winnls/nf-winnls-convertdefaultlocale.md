@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.ConvertDefaultLocale
 title: ConvertDefaultLocale function (winnls.h)
-
 description: Converts a default locale value to an actual locale identifier.
 old-location: intl\convertdefaultlocale.htm
 tech.root: Intl
 ms.assetid: e227bb9f-f072-4e44-bd55-24c98b990a36
-
 ms.date: 12/05/2018
 ms.keywords: ConvertDefaultLocale, ConvertDefaultLocale function [Internationalization for Windows Applications], _win32_ConvertDefaultLocale, intl.convertdefaultlocale, winnls/ConvertDefaultLocale
 ms.topic: function
-f1_keywords: 
- - "winnls/ConvertDefaultLocale"
+f1_keywords:
+- winnls/ConvertDefaultLocale
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - ConvertDefaultLocale
+- ConvertDefaultLocale
 targetos: Windows
 req.typenames: 
 req.redist: 

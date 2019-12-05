@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminResolveCatalogPath
 title: CryptCATAdminResolveCatalogPath function (mscat.h)
-
 description: Retrieves the fully qualified path of the specified catalog.
 old-location: security\cryptcatadminresolvecatalogpath.htm
 tech.root: SecCrypto
 ms.assetid: bdbfa02d-8801-40d4-84f4-bc5a449bce50
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminResolveCatalogPath, CryptCATAdminResolveCatalogPath function [Security], mscat/CryptCATAdminResolveCatalogPath, security.cryptcatadminresolvecatalogpath
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATAdminResolveCatalogPath"
+f1_keywords:
+- mscat/CryptCATAdminResolveCatalogPath
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATAdminResolveCatalogPath
+- CryptCATAdminResolveCatalogPath
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.InjectNtmsMedia
 title: InjectNtmsMedia function (ntmsapi.h)
-
 description: The InjectNtmsMedia function allows media to be inserted into the port of the specified library. If the library is busy, RSM queues InjectNtmsMedia and returns success.
 old-location: fs\injectntmsmedia.htm
 tech.root: Rsm
 ms.assetid: c4274c9c-f052-42dd-859b-85606d455001
-
 ms.date: 12/05/2018
 ms.keywords: InjectNtmsMedia, InjectNtmsMedia function [Files], NTMS_INJECT_RETRACT, NTMS_INJECT_START, NTMS_INJECT_START_MANY, NTMS_INJECT_STOP, _zaw_injectntmsmedia, base.injectntmsmedia, fs.injectntmsmedia, ntmsapi/InjectNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/InjectNtmsMedia"
+f1_keywords:
+- ntmsapi/InjectNtmsMedia
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - InjectNtmsMedia
+- InjectNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

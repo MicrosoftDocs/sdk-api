@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.GetChangeState
 title: IBDA_DeviceControl::GetChangeState (bdaiface.h)
-
 description: The GetChangeState method returns a value indicating whether any uncommitted changes are currently pending in the filter.
 old-location: mstv\ibda_devicecontrol_getchangestate.htm
 tech.root: mstv
 ms.assetid: 17a36763-552a-44dc-8068-90f1b8fe09e5
-
 ms.date: 12/05/2018
 ms.keywords: GetChangeState, GetChangeState method [Microsoft TV Technologies], GetChangeState method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],GetChangeState method, IBDA_DeviceControl.GetChangeState, IBDA_DeviceControl::GetChangeState, IBDA_DeviceControlGetChangeState, bdaiface/IBDA_DeviceControl::GetChangeState, mstv.ibda_devicecontrol_getchangestate
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DeviceControl.GetChangeState"
+f1_keywords:
+- bdaiface/IBDA_DeviceControl.GetChangeState
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DeviceControl.GetChangeState
+- IBDA_DeviceControl.GetChangeState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_SerialNumber
 title: IUPnPDevice::get_SerialNumber (upnp.h)
-
 description: The SerialNumber property specifies a human-readable form of the serial number of the device.
 old-location: upnp\iupnpdevice_serialnumber.htm
 tech.root: upnp
 ms.assetid: de2f8594-a183-440a-aeb1-240cf0709e36
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_SerialNumber method, IUPnPDevice.get_SerialNumber, IUPnPDevice::get_SerialNumber, _upnp_iupnpdevice_serialnumber, get_SerialNumber, get_SerialNumber method [UPnP APIs], get_SerialNumber method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_serialnumber, upnp/IUPnPDevice::get_SerialNumber
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_SerialNumber"
+f1_keywords:
+- upnp/IUPnPDevice.get_SerialNumber
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_SerialNumber
+- IUPnPDevice.get_SerialNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

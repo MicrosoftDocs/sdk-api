@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestApplicationsEnumerator.MoveNext
 title: IAppxManifestApplicationsEnumerator::MoveNext (appxpackaging.h)
-
 description: Advances the position of the enumerator to the next application.
 old-location: appxpkg\iappxmanifestapplicationsenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: 4F6EB510-4227-460B-9E2D-C304F33A931E
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestApplicationsEnumerator interface [App packaging and management],MoveNext method, IAppxManifestApplicationsEnumerator.MoveNext, IAppxManifestApplicationsEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestApplicationsEnumerator interface, appxpackaging/IAppxManifestApplicationsEnumerator::MoveNext, appxpkg.iappxmanifestapplicationsenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestApplicationsEnumerator.MoveNext"
+f1_keywords:
+- appxpackaging/IAppxManifestApplicationsEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestApplicationsEnumerator.MoveNext
+- IAppxManifestApplicationsEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

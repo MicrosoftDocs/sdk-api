@@ -1,19 +1,17 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0008
 title: RdcSignaturePointer (msrdc.h)
-
 description: Describes an array of RdcSignature structures.
 old-location: rdc\rdcsignaturepointer.htm
 tech.root: rdc
 ms.assetid: ece0fddf-1c06-493d-aed9-6bc86bb014f3
-
 ms.date: 12/05/2018
 ms.keywords: RdcSignaturePointer, RdcSignaturePointer structure [Remote Differential Compression], fs.rdcsignaturepointer, msrdc/RdcSignaturePointer, rdc.rdcsignaturepointer
 ms.topic: struct
-f1_keywords: 
- - "msrdc/RdcSignaturePointer"
+f1_keywords:
+- msrdc/RdcSignaturePointer
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - RdcSignaturePointer
+- RdcSignaturePointer
 targetos: Windows
 req.typenames: RdcSignaturePointer
 req.redist: 

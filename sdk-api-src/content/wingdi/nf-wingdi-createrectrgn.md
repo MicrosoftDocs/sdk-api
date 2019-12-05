@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateRectRgn
 title: CreateRectRgn function (wingdi.h)
-
 description: The CreateRectRgn function creates a rectangular region.
 old-location: gdi\createrectrgn.htm
 tech.root: gdi
 ms.assetid: 17456440-c655-48ab-8d1e-ee770330f164
-
 ms.date: 12/05/2018
 ms.keywords: CreateRectRgn, CreateRectRgn function [Windows GDI], _win32_CreateRectRgn, gdi.createrectrgn, wingdi/CreateRectRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateRectRgn"
+f1_keywords:
+- wingdi/CreateRectRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-rgn-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - api-ms-win-gdi-ie-rgn-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-rgn-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- api-ms-win-gdi-ie-rgn-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- GDI32Full.dll
 api_name:
- - CreateRectRgn
+- CreateRectRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

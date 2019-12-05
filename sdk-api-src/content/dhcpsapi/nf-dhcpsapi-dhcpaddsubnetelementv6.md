@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpAddSubnetElementV6
 title: DhcpAddSubnetElementV6 function (dhcpsapi.h)
-
 description: The DhcpAddSubnetElementV6 function adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database.
 old-location: dhcp\dhcpaddsubnetelementv6.htm
 tech.root: DHCP
 ms.assetid: 9f009140-5301-4aee-a6e5-12f7cd56f906
-
 ms.date: 12/05/2018
 ms.keywords: DhcpAddSubnetElementV6, DhcpAddSubnetElementV6 function [DHCP], dhcp.dhcpaddsubnetelementv6, dhcpsapi/DhcpAddSubnetElementV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpAddSubnetElementV6"
+f1_keywords:
+- dhcpsapi/DhcpAddSubnetElementV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpAddSubnetElementV6
+- DhcpAddSubnetElementV6
 targetos: Windows
 req.typenames: 
 req.redist: 

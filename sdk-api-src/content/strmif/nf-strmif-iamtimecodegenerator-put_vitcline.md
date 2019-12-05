@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.put_VITCLine
 title: IAMTimecodeGenerator::put_VITCLine (strmif.h)
-
 description: The put_VITCLine method specifies which line to insert the vertical interval timecode information into.
 old-location: dshow\iamtimecodegenerator_put_vitcline.htm
 tech.root: DirectShow
 ms.assetid: 351bf80b-f14c-454f-9d20-ceff4a437fcd
-
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],put_VITCLine method, IAMTimecodeGenerator.put_VITCLine, IAMTimecodeGenerator::put_VITCLine, IAMTimecodeGeneratorput_VITCLine, dshow.iamtimecodegenerator_put_vitcline, put_VITCLine, put_VITCLine method [DirectShow], put_VITCLine method [DirectShow],IAMTimecodeGenerator interface, strmif/IAMTimecodeGenerator::put_VITCLine
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeGenerator.put_VITCLine"
+f1_keywords:
+- strmif/IAMTimecodeGenerator.put_VITCLine
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.put_VITCLine
+- IAMTimecodeGenerator.put_VITCLine
 targetos: Windows
 req.typenames: 
 req.redist: 

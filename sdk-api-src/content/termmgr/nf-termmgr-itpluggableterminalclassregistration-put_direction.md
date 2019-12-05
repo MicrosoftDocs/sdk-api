@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.put_Direction
 title: ITPluggableTerminalClassRegistration::put_Direction (termmgr.h)
-
 description: The put_Direction method sets the direction supported by the terminal.
 old-location: tapi3\itpluggableterminalclassregistration_put_direction.htm
 tech.root: Tapi
 ms.assetid: b68c0697-e889-471d-857a-d11e974c6552
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalClassRegistration interface [TAPI 2.2],put_Direction method, ITPluggableTerminalClassRegistration.put_Direction, ITPluggableTerminalClassRegistration::put_Direction, _tapi3_itpluggableterminalclassregistration_put_direction, put_Direction, put_Direction method [TAPI 2.2], put_Direction method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, tapi3.itpluggableterminalclassregistration_put_direction, termmgr/ITPluggableTerminalClassRegistration::put_Direction
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalClassRegistration.put_Direction"
+f1_keywords:
+- termmgr/ITPluggableTerminalClassRegistration.put_Direction
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration.put_Direction
+- ITPluggableTerminalClassRegistration.put_Direction
 targetos: Windows
 req.typenames: 
 req.redist: 

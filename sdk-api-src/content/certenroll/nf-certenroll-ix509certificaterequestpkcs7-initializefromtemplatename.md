@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7.InitializeFromTemplateName
 title: IX509CertificateRequestPkcs7::InitializeFromTemplateName (certenroll.h)
-
 description: Initializes the certificate request by using a template.
 old-location: security\ix509certificaterequestpkcs7_initializefromtemplatename_method.htm
 tech.root: seccertenroll
 ms.assetid: d6c15fcb-1883-4d87-af29-721102676535
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs7 interface [Security],InitializeFromTemplateName method, IX509CertificateRequestPkcs7.InitializeFromTemplateName, IX509CertificateRequestPkcs7::InitializeFromTemplateName, InitializeFromTemplateName, InitializeFromTemplateName method [Security], InitializeFromTemplateName method [Security],IX509CertificateRequestPkcs7 interface, certenroll/IX509CertificateRequestPkcs7::InitializeFromTemplateName, security.ix509certificaterequestpkcs7_initializefromtemplatename_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs7.InitializeFromTemplateName"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs7.InitializeFromTemplateName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs7.InitializeFromTemplateName
+- IX509CertificateRequestPkcs7.InitializeFromTemplateName
 targetos: Windows
 req.typenames: 
 req.redist: 

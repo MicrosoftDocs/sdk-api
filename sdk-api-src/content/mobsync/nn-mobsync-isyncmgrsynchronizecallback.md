@@ -1,19 +1,17 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronizeCallback
 title: ISyncMgrSynchronizeCallback (mobsync.h)
-
 description: Exposes methods that manage the synchronization process.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback.htm
 tech.root: shell
 ms.assetid: 1c817a21-be91-43af-86c8-aa7909ae2fa2
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback, ISyncMgrSynchronizeCallback interface [Windows Shell], ISyncMgrSynchronizeCallback interface [Windows Shell],described, mobsync/ISyncMgrSynchronizeCallback, shell.syncmgr_isyncmgrsynchronizecallback, syncmgr.isyncmgrsynchronizecallback
 ms.topic: interface
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeCallback"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeCallback
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback
+- ISyncMgrSynchronizeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.IEnumAgentSession.Clone
 title: IEnumAgentSession::Clone (tapi3.h)
-
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumagentsession_clone.htm
 tech.root: Tapi
 ms.assetid: 6ccc7601-4355-49c8-b280-875f1accf9ff
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumAgentSession interface, IEnumAgentSession interface [TAPI 2.2],Clone method, IEnumAgentSession.Clone, IEnumAgentSession::Clone, _tapi3_ienumagentsession_clone, tapi3.ienumagentsession_clone, tapi3cc/IEnumAgentSession::Clone
 ms.topic: method
-f1_keywords: 
- - "tapi3/IEnumAgentSession.Clone"
+f1_keywords:
+- tapi3/IEnumAgentSession.Clone
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAgentSession.Clone
+- IEnumAgentSession.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

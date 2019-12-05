@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.GetCertificate
 title: IDirect3DAuthenticatedChannel9::GetCertificate (d3d9.h)
-
 description: Gets the driver's certificate chain.
 old-location: mf\idirect3dauthenticatedchannel9_getcertificate.htm
 tech.root: medfound
 ms.assetid: 0663d3a0-256b-4c96-aca7-06c4d1853554
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, IDirect3DAuthenticatedChannel9 interface [Media Foundation],GetCertificate method, IDirect3DAuthenticatedChannel9.GetCertificate, IDirect3DAuthenticatedChannel9::GetCertificate, d3d9/IDirect3DAuthenticatedChannel9::GetCertificate, mf.idirect3dauthenticatedchannel9_getcertificate
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DAuthenticatedChannel9.GetCertificate"
+f1_keywords:
+- d3d9/IDirect3DAuthenticatedChannel9.GetCertificate
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DAuthenticatedChannel9.GetCertificate
+- IDirect3DAuthenticatedChannel9.GetCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

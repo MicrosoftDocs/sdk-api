@@ -1,19 +1,17 @@
 ---
 UID: NC:msacm.ACMFILTERENUMCB
 title: ACMFILTERENUMCB (msacm.h)
-
 description: The acmFilterEnumCallback function specifies a callback function used with the acmFilterEnum function. The acmFilterEnumCallback name is a placeholder for an application-defined function name.
 old-location: multimedia\acmfilterenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 8d2eb1eb-97a3-4001-bec0-7bb9b107d38e
-
 ms.date: 12/05/2018
 ms.keywords: ACMFILTERENUMCB, ACMFILTERENUMCB callback, ACMFILTERENUMCB callback function [Windows Multimedia], ACMFILTERENUMCBA, ACMFILTERENUMCBW, _win32_acmFilterEnumCallback, acmFilterEnumCallback, msacm/ACMFILTERENUMCB, msacm/ACMFILTERENUMCBA, msacm/ACMFILTERENUMCBW, multimedia.acmfilterenumcallback
 ms.topic: callback
-f1_keywords: 
- - "msacm/ACMFILTERENUMCB"
+f1_keywords:
+- msacm/ACMFILTERENUMCB
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMFILTERENUMCB
- - ACMFILTERENUMCBA
- - ACMFILTERENUMCBW
+- ACMFILTERENUMCB
+- ACMFILTERENUMCBA
+- ACMFILTERENUMCBW
 targetos: Windows
 req.typenames: 
 req.redist: 

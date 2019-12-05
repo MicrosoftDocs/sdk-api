@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.DEFAULTSAVEFOLDERTYPE
 title: DEFAULTSAVEFOLDERTYPE (shobjidl_core.h)
-
 description: Specifies the default save location.
 old-location: shell\DEFAULTSAVEFOLDERTYPE.htm
 tech.root: shell
 ms.assetid: 51478854-03b2-4e1a-bc07-b9ca7e6cc33d
-
 ms.date: 12/05/2018
 ms.keywords: DEFAULTSAVEFOLDERTYPE, DEFAULTSAVEFOLDERTYPE enumeration [Windows Shell], DSFT_DETECT, DSFT_PRIVATE, DSFT_PUBLIC, _shell_DEFAULTSAVEFOLDERTYPE, shell.DEFAULTSAVEFOLDERTYPE, shobjidl_core/DEFAULTSAVEFOLDERTYPE, shobjidl_core/DSFT_DETECT, shobjidl_core/DSFT_PRIVATE, shobjidl_core/DSFT_PUBLIC
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/DEFAULTSAVEFOLDERTYPE"
+f1_keywords:
+- shobjidl_core/DEFAULTSAVEFOLDERTYPE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - DEFAULTSAVEFOLDERTYPE
+- DEFAULTSAVEFOLDERTYPE
 targetos: Windows
 req.typenames: DEFAULTSAVEFOLDERTYPE
 req.redist: 

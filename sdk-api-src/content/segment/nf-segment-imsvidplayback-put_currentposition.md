@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_CurrentPosition
 title: IMSVidPlayback::put_CurrentPosition (segment.h)
-
 description: The put_CurrentPosition method seeks to a specified position in the source.
 old-location: mstv\imsvidplayback_put_currentposition.htm
 tech.root: mstv
 ms.assetid: 3e9e0128-5609-4a9f-bbfc-a29a2174c5d0
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],put_CurrentPosition method, IMSVidPlayback.put_CurrentPosition, IMSVidPlayback::put_CurrentPosition, IMSVidPlaybackput_CurrentPosition, mstv.imsvidplayback_put_currentposition, put_CurrentPosition, put_CurrentPosition method [Microsoft TV Technologies], put_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, segment/IMSVidPlayback::put_CurrentPosition
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.put_CurrentPosition"
+f1_keywords:
+- segment/IMSVidPlayback.put_CurrentPosition
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.put_CurrentPosition
+- IMSVidPlayback.put_CurrentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

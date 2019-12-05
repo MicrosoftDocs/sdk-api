@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.RegisterForNextTable
 title: IDVB_SIT::RegisterForNextTable (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 794c2fb0-ff8d-47b0-9a74-ccdb257a12c7
-
 ms.date: 12/05/2018
 ms.keywords: IDVB_SIT interface [Microsoft TV Technologies],RegisterForNextTable method, IDVB_SIT.RegisterForNextTable, IDVB_SIT::RegisterForNextTable, IDVB_SITRegisterForNextTable, RegisterForNextTable, RegisterForNextTable method [Microsoft TV Technologies], RegisterForNextTable method [Microsoft TV Technologies],IDVB_SIT interface, dvbsiparser/IDVB_SIT::RegisterForNextTable, mstv.idvb_sit_registerfornexttable
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_SIT.RegisterForNextTable"
+f1_keywords:
+- dvbsiparser/IDVB_SIT.RegisterForNextTable
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SIT.RegisterForNextTable
+- IDVB_SIT.RegisterForNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 

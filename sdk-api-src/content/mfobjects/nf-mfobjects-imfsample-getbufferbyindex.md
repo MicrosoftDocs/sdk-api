@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.GetBufferByIndex
 title: IMFSample::GetBufferByIndex (mfobjects.h)
-
 description: Gets a buffer from the sample, by index.
 old-location: mf\imfsample_getbufferbyindex.htm
 tech.root: medfound
 ms.assetid: 48d3b861-96e8-4767-a8b1-65614fd48254
-
 ms.date: 12/05/2018
 ms.keywords: 48d3b861-96e8-4767-a8b1-65614fd48254, GetBufferByIndex, GetBufferByIndex method [Media Foundation], GetBufferByIndex method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetBufferByIndex method, IMFSample.GetBufferByIndex, IMFSample::GetBufferByIndex, mf.imfsample_getbufferbyindex, mfobjects/IMFSample::GetBufferByIndex
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.GetBufferByIndex"
+f1_keywords:
+- mfobjects/IMFSample.GetBufferByIndex
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.GetBufferByIndex
+- IMFSample.GetBufferByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

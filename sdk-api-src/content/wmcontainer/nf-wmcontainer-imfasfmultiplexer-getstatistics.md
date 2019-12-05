@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMultiplexer.GetStatistics
 title: IMFASFMultiplexer::GetStatistics (wmcontainer.h)
-
 description: Retrieves multiplexer statistics.
 old-location: mf\imfasfmultiplexer_getstatistics.htm
 tech.root: medfound
 ms.assetid: 56083ceb-3d39-4fda-995a-f91fa0e16853
-
 ms.date: 12/05/2018
 ms.keywords: 56083ceb-3d39-4fda-995a-f91fa0e16853, GetStatistics, GetStatistics method [Media Foundation], GetStatistics method [Media Foundation],IMFASFMultiplexer interface, IMFASFMultiplexer interface [Media Foundation],GetStatistics method, IMFASFMultiplexer.GetStatistics, IMFASFMultiplexer::GetStatistics, mf.imfasfmultiplexer_getstatistics, wmcontainer/IMFASFMultiplexer::GetStatistics
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMultiplexer.GetStatistics"
+f1_keywords:
+- wmcontainer/IMFASFMultiplexer.GetStatistics
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMultiplexer.GetStatistics
+- IMFASFMultiplexer.GetStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 

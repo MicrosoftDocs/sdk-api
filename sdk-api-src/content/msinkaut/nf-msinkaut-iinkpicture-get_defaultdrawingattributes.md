@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_DefaultDrawingAttributes
 title: IInkPicture::get_DefaultDrawingAttributes (msinkaut.h)
-
 description: Gets or sets the default drawing attributes to use when drawing and displaying ink.
 old-location: tablet\inkpicture_defaultdrawingattributes.htm
 tech.root: tablet
 ms.assetid: 9a4dff66-9789-4979-947e-73bbf85cece2
-
 ms.date: 12/05/2018
 ms.keywords: DefaultDrawingAttributes property [Tablet PC], DefaultDrawingAttributes property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DefaultDrawingAttributes property, IInkPicture.DefaultDrawingAttributes, IInkPicture.get_DefaultDrawingAttributes, IInkPicture::DefaultDrawingAttributes, IInkPicture::get_DefaultDrawingAttributes, IInkPicture::put_DefaultDrawingAttributes, InkPicture.get_DefaultDrawingAttributes, InkPicture.put_DefaultDrawingAttributes, get_DefaultDrawingAttributes, msinkaut/IInkPicture::DefaultDrawingAttributes, msinkaut/IInkPicture::get_DefaultDrawingAttributes, msinkaut/IInkPicture::put_DefaultDrawingAttributes, putref_DefaultDrawingAttributes, tablet.inkpicture_defaultdrawingattributes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.DefaultDrawingAttributes"
+f1_keywords:
+- msinkaut/IInkPicture.DefaultDrawingAttributes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.DefaultDrawingAttributes
- - IInkPicture.get_DefaultDrawingAttributes
- - IInkPicture.put_DefaultDrawingAttributes
- - InkPicture.get_DefaultDrawingAttributes
- - InkPicture.put_DefaultDrawingAttributes
+- IInkPicture.DefaultDrawingAttributes
+- IInkPicture.get_DefaultDrawingAttributes
+- IInkPicture.put_DefaultDrawingAttributes
+- InkPicture.get_DefaultDrawingAttributes
+- InkPicture.put_DefaultDrawingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

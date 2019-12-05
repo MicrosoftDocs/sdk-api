@@ -1,19 +1,17 @@
 ---
 UID: NS:gdipluseffects.HueSaturationLightnessParams
 title: HueSaturationLightnessParams (gdipluseffects.h)
-
 description: The HueSaturationLightnessParams structure contains members that specify hue, saturation and lightness adjustments to a bitmap.
 old-location: gdiplus\_gdiplus_STRUC_HueSaturationLightnessParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\huesaturationlightnessparams.htm
-
 ms.date: 12/05/2018
 ms.keywords: HueSaturationLightnessParams, HueSaturationLightnessParams structure [GDI+], _gdiplus_STRUC_HueSaturationLightnessParams, gdiplus._gdiplus_STRUC_HueSaturationLightnessParams, gdipluseffects/HueSaturationLightnessParams
 ms.topic: struct
-f1_keywords: 
- - "gdipluseffects/HueSaturationLightnessParams"
+f1_keywords:
+- gdipluseffects/HueSaturationLightnessParams
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluseffects.h
+- Gdipluseffects.h
 api_name:
- - HueSaturationLightnessParams
+- HueSaturationLightnessParams
 targetos: Windows
 req.typenames: 
 req.redist: 

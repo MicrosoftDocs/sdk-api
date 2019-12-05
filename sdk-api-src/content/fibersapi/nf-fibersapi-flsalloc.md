@@ -1,19 +1,17 @@
 ---
 UID: NF:fibersapi.FlsAlloc
 title: FlsAlloc function
-
 description: Allocates a fiber local storage (FLS) index.
 old-location: base\flsalloc.htm
 tech.root: ProcThread
 ms.assetid: dc348ef3-37e5-40f2-bd5c-5f8aebc7cc59
-
 ms.date: 12/05/2018
 ms.keywords: FlsAlloc, FlsAlloc function, _win32_flsalloc, base.flsalloc, fibersapi/FlsAlloc, winbase/FlsAlloc
 ms.topic: function
-f1_keywords: 
- - "fibersapi/FlsAlloc"
+f1_keywords:
+- fibersapi/FlsAlloc
 dev_langs:
- - c++
+- c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-fibers-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-fibers-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - FlsAlloc
+- FlsAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

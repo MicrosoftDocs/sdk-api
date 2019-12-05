@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.EndInkInput
 title: EndInkInput function (recapis.h)
-
 description: Indicates that no more ink will be added to the context.You cannot add strokes to the context after calling this function.
 old-location: tablet\endinkinput.htm
 tech.root: tablet
 ms.assetid: e8aa252d-6b24-4864-9b3e-8edd30895303
-
 ms.date: 12/05/2018
 ms.keywords: EndInkInput, EndInkInput function [Tablet PC], e8aa252d-6b24-4864-9b3e-8edd30895303, recapis/EndInkInput, tablet.endinkinput
 ms.topic: function
-f1_keywords: 
- - "recapis/EndInkInput"
+f1_keywords:
+- recapis/EndInkInput
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - EndInkInput
+- EndInkInput
 targetos: Windows
 req.typenames: 
 req.redist: 

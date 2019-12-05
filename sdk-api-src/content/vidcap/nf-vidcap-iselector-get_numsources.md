@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ISelector.get_NumSources
 title: ISelector::get_NumSources (vidcap.h)
-
 description: The get_NumSources method returns the number of source nodes connected to the selector node.
 old-location: dshow\iselector_get_numsources.htm
 tech.root: DirectShow
 ms.assetid: ff04e32f-7902-417e-b0d4-125914928679
-
 ms.date: 12/05/2018
 ms.keywords: ISelector interface [DirectShow],get_NumSources method, ISelector.get_NumSources, ISelector::get_NumSources, ISelectorget_NumSources, dshow.iselector_get_numsources, get_NumSources, get_NumSources method [DirectShow], get_NumSources method [DirectShow],ISelector interface, vidcap/ISelector::get_NumSources
 ms.topic: method
-f1_keywords: 
- - "vidcap/ISelector.get_NumSources"
+f1_keywords:
+- vidcap/ISelector.get_NumSources
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - ISelector.get_NumSources
+- ISelector.get_NumSources
 targetos: Windows
 req.typenames: 
 req.redist: 

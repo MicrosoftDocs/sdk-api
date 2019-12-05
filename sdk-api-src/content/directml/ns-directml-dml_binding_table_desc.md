@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_BINDING_TABLE_DESC
 title: DML_BINDING_TABLE_DESC
-
 description: Specifies parameters to IDMLDevice::CreateBindingTable and IDMLBindingTable::Reset.
 old-location: direct3d12\dml_binding_table_desc.htm
 tech.root: direct3d12
 ms.assetid: 4ABA8CBB-C298-4F98-8156-CD81F83BB657
-
 ms.date: 12/5/2018
 ms.keywords: DML_BINDING_TABLE_DESC, DML_BINDING_TABLE_DESC structure, direct3d12.dml_binding_table_desc, directml/DML_BINDING_TABLE_DESC
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_BINDING_TABLE_DESC"
+f1_keywords:
+- directml/DML_BINDING_TABLE_DESC
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_BINDING_TABLE_DESC
+- DML_BINDING_TABLE_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

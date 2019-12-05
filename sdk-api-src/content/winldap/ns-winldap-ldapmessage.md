@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.ldapmsg
 title: LDAPMessage (winldap.h)
-
 description: Used by an LDAP function to return results and error data.
 old-location: ldap\ldapmessage.htm
 tech.root: ldap
 ms.assetid: 547a0736-23a4-4bfd-8ae0-866825228b53
-
 ms.date: 12/05/2018
-ms.keywords: "*PLDAPMessage, LDAPMessage, LDAPMessage structure [LDAP], PLDAPMessage, PLDAPMessage structure pointer [LDAP], _ldap_ldapmessage, ldap.ldapmessage, winldap/LDAPMessage, winldap/PLDAPMessage"
+ms.keywords: '*PLDAPMessage, LDAPMessage, LDAPMessage structure [LDAP], PLDAPMessage, PLDAPMessage structure pointer [LDAP], _ldap_ldapmessage, ldap.ldapmessage, winldap/LDAPMessage, winldap/PLDAPMessage'
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAPMessage"
+f1_keywords:
+- winldap/LDAPMessage
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAPMessage
+- LDAPMessage
 targetos: Windows
 req.typenames: LDAPMessage, *PLDAPMessage
 req.redist: 

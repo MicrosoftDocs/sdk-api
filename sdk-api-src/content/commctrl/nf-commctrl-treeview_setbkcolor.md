@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetBkColor
 title: TreeView_SetBkColor macro (commctrl.h)
-
 description: Sets the background color of the control. You can use this macro or send the TVM_SETBKCOLOR message explicitly.
 old-location: controls\TreeView_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setbkcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetBkColor, TreeView_SetBkColor macro [Windows Controls], _win32_TreeView_SetBkColor, _win32_TreeView_SetBkColor_cpp, commctrl/TreeView_SetBkColor, controls.TreeView_SetBkColor, controls._win32_TreeView_SetBkColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetBkColor"
+f1_keywords:
+- commctrl/TreeView_SetBkColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetBkColor
+- TreeView_SetBkColor
 targetos: Windows
 req.typenames: 
 req.redist: 

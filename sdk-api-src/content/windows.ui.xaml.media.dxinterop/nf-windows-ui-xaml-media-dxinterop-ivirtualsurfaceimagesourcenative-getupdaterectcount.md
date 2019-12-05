@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.IVirtualSurfaceImageSourceNative.GetUpdateRectCount
 title: IVirtualSurfaceImageSourceNative::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Gets the total number of regions of the surface that must be updated.
 old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterectcount.htm
 tech.root: WinRT
 ms.assetid: AE717587-0156-4DEC-B7B2-FF8937117D5A
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateRectCount, GetUpdateRectCount method [Windows Runtime], GetUpdateRectCount method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRectCount method, IVirtualSurfaceImageSourceNative.GetUpdateRectCount, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRectCount, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRectCount, winrt.ivirtualsurfaceimagesourcenative_getupdaterectcount
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.GetUpdateRectCount"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/IVirtualSurfaceImageSourceNative.GetUpdateRectCount
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - IVirtualSurfaceImageSourceNative.GetUpdateRectCount
+- IVirtualSurfaceImageSourceNative.GetUpdateRectCount
 targetos: Windows
 req.typenames: 
 req.redist: 

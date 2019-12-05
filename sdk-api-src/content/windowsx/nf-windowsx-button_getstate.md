@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Button_GetState
 title: Button_GetState macro (windowsx.h)
-
 description: Retrieves the state of a button or check box. You can use this macro or send the BM_GETSTATE message explicitly.
 old-location: controls\Button_GetState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_GetState, Button_GetState macro [Windows Controls], _win32_Button_GetState, _win32_Button_GetState_cpp, controls.Button_GetState, controls._win32_Button_GetState, windowsx/Button_GetState
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Button_GetState"
+f1_keywords:
+- windowsx/Button_GetState
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Button_GetState
+- Button_GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

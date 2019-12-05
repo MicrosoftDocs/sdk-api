@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._SHVTEMPLATEPROPERTIES
 title: SHVTEMPLATEPROPERTIES (sdoias.h)
-
 description: The values of the SHVTEMPLATEPROPERTIES enumeration type enumerate the properties of a System Health Validator (SHV) template.
 old-location: nps\SDO_shvtemplateproperties.htm
 tech.root: Nps
 ms.assetid: dc6aafe8-61c0-4dc6-9705-272ee2b6f2bb
-
 ms.date: 12/05/2018
 ms.keywords: PROPERTY_SHV_COMBINATION_TYPE, PROPERTY_SHV_LIST, SHVTEMPLATEPROPERTIES, SHVTEMPLATEPROPERTIES enumeration [Network Policy Server], nps.SDO_shvtemplateproperties, sdo.shvtemplateproperties, sdoias/PROPERTY_SHV_COMBINATION_TYPE, sdoias/PROPERTY_SHV_LIST, sdoias/SHVTEMPLATEPROPERTIES
 ms.topic: enum
 f1_keywords:
 - sdoias/SHVTEMPLATEPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

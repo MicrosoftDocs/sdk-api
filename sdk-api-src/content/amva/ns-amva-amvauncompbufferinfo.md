@@ -1,19 +1,17 @@
 ---
 UID: NS:amva._tag_AMVAUncompBufferInfo
 title: AMVAUncompBufferInfo (amva.h)
-
 description: The AMVAUncompBufferInfo structure describes the uncompressed surfaces to be allocated by the video renderer.
 old-location: dshow\amvauncompbufferinfo.htm
 tech.root: DirectShow
 ms.assetid: 113cc7ba-d05e-48a7-88cb-13645beb16d1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVAUncompBufferInfo, AMVAUncompBufferInfo, AMVAUncompBufferInfo structure [DirectShow], AMVAUncompBufferInfoStructure, LPAMVAUncompBufferInfo, LPAMVAUncompBufferInfo structure pointer [DirectShow], amva/AMVAUncompBufferInfo, amva/LPAMVAUncompBufferInfo, dshow.amvauncompbufferinfo"
+ms.keywords: '*LPAMVAUncompBufferInfo, AMVAUncompBufferInfo, AMVAUncompBufferInfo structure [DirectShow], AMVAUncompBufferInfoStructure, LPAMVAUncompBufferInfo, LPAMVAUncompBufferInfo structure pointer [DirectShow], amva/AMVAUncompBufferInfo, amva/LPAMVAUncompBufferInfo, dshow.amvauncompbufferinfo'
 ms.topic: struct
-f1_keywords: 
- - "amva/AMVAUncompBufferInfo"
+f1_keywords:
+- amva/AMVAUncompBufferInfo
 dev_langs:
- - c++
+- c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amva.h
+- amva.h
 api_name:
- - AMVAUncompBufferInfo
+- AMVAUncompBufferInfo
 targetos: Windows
 req.typenames: AMVAUncompBufferInfo, *LPAMVAUncompBufferInfo
 req.redist: 

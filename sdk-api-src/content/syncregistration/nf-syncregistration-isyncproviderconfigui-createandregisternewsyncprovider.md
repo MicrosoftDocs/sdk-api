@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 title: ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider (syncregistration.h)
-
 description: Creates and registers a new synchronization provider.
 old-location: winsync\isyncproviderconfigui_createandregisternewsyncprovider.htm
 tech.root: winsync
 ms.assetid: 4b256431-ed9a-414d-88c2-89f02000410d
-
 ms.date: 12/05/2018
 ms.keywords: CreateAndRegisterNewSyncProvider, CreateAndRegisterNewSyncProvider method [Windows Sync], CreateAndRegisterNewSyncProvider method [Windows Sync],ISyncProviderConfigUI interface, ISyncProviderConfigUI interface [Windows Sync],CreateAndRegisterNewSyncProvider method, ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider, ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, syncregistration/ISyncProviderConfigUI::CreateAndRegisterNewSyncProvider, winsync.isyncproviderconfigui_createandregisternewsyncprovider
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider"
+f1_keywords:
+- syncregistration/ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
+- ISyncProviderConfigUI.CreateAndRegisterNewSyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

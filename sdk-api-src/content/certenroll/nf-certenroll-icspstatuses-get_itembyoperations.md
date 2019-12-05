@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatuses.get_ItemByOperations
 title: ICspStatuses::get_ItemByOperations (certenroll.h)
-
 description: Retrieves an ICspStatus object that has the same name as the provider specified on input and the same algorithm but identifies a different cryptographic operation.
 old-location: security\icspstatuses_itembyoperations_property.htm
 tech.root: seccertenroll
 ms.assetid: ae314b76-61b7-4e28-87bb-f58ea14d7b71
-
 ms.date: 12/05/2018
 ms.keywords: ICspStatuses interface [Security],ItemByOperations property, ICspStatuses.ItemByOperations, ICspStatuses.get_ItemByOperations, ICspStatuses::ItemByOperations, ICspStatuses::get_ItemByOperations, ItemByOperations property [Security], ItemByOperations property [Security],ICspStatuses interface, certenroll/ICspStatuses::ItemByOperations, certenroll/ICspStatuses::get_ItemByOperations, get_ItemByOperations, security.icspstatuses_itembyoperations_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatuses.ItemByOperations"
+f1_keywords:
+- certenroll/ICspStatuses.ItemByOperations
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatuses.ItemByOperations
- - ICspStatuses.get_ItemByOperations
+- ICspStatuses.ItemByOperations
+- ICspStatuses.get_ItemByOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

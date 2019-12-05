@@ -1,19 +1,17 @@
 ---
 UID: NE:audioclient.AUDCLNT_STREAMOPTIONS
 title: AUDCLNT_STREAMOPTIONS (audioclient.h)
-
 description: Defines values that describe the characteristics of an audio stream.
 old-location: coreaudio\audclnt_streamoptions.htm
 tech.root: CoreAudio
 ms.assetid: C9A51FB2-46F5-4F20-B9F2-63EC53CAB3D7
-
 ms.date: 12/05/2018
 ms.keywords: AUDCLNT_STREAMOPTIONS, AUDCLNT_STREAMOPTIONS enumeration [Core Audio], AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, AUDCLNT_STREAMOPTIONS_NONE, AUDCLNT_STREAMOPTIONS_RAW, audioclient/AUDCLNT_STREAMOPTIONS, audioclient/AUDCLNT_STREAMOPTIONS_MATCH_FORMAT, audioclient/AUDCLNT_STREAMOPTIONS_NONE, audioclient/AUDCLNT_STREAMOPTIONS_RAW, coreaudio.audclnt_streamoptions
 ms.topic: enum
-f1_keywords: 
- - "audioclient/AUDCLNT_STREAMOPTIONS"
+f1_keywords:
+- audioclient/AUDCLNT_STREAMOPTIONS
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - audioclient.h
+- audioclient.h
 api_name:
- - AUDCLNT_STREAMOPTIONS
+- AUDCLNT_STREAMOPTIONS
 targetos: Windows
 req.typenames: AUDCLNT_STREAMOPTIONS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestReader2
 title: IAppxBundleManifestReader2 (appxpackaging.h)
-
 description: Provides a read-only object model for manifests of bundle packages.
 old-location: appxpkg\iappxbundlemanifestreader2.htm
 tech.root: appxpkg
 ms.assetid: 37236CED-F32F-4726-B945-F7359AEFF030
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleManifestReader2, IAppxBundleManifestReader2 interface [App packaging and management], IAppxBundleManifestReader2 interface [App packaging and management],described, appxpackaging/IAppxBundleManifestReader2, appxpkg.iappxbundlemanifestreader2
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestReader2"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestReader2
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestReader2
+- IAppxBundleManifestReader2
 targetos: Windows
 req.typenames: 
 req.redist: 

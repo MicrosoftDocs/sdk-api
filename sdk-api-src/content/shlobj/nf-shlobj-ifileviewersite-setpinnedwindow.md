@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IFileViewerSite.SetPinnedWindow
 title: IFileViewerSite::SetPinnedWindow (shlobj.h)
-
 description: Sets the pinned window. When the user selects a new file to view, the Shell directs the file viewer to display the new file in the pinned window instead of creating a new window.
 old-location: shell\IFileViewerSite_SetPinnedWindow.htm
 tech.root: shell
 ms.assetid: 7c2bcb76-84aa-404e-9e0a-9ee966b6c91e
-
 ms.date: 12/05/2018
 ms.keywords: IFileViewerSite interface [Windows Shell],SetPinnedWindow method, IFileViewerSite.SetPinnedWindow, IFileViewerSite::SetPinnedWindow, SetPinnedWindow, SetPinnedWindow method [Windows Shell], SetPinnedWindow method [Windows Shell],IFileViewerSite interface, _win32_IFileViewerSite_SetPinnedWindow, shell.IFileViewerSite_SetPinnedWindow, shlobj/IFileViewerSite::SetPinnedWindow
 ms.topic: method
-f1_keywords: 
- - "shlobj/IFileViewerSite.SetPinnedWindow"
+f1_keywords:
+- shlobj/IFileViewerSite.SetPinnedWindow
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFileViewerSite.SetPinnedWindow
+- IFileViewerSite.SetPinnedWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

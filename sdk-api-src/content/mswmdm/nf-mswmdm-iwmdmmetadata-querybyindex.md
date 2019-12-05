@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMMetaData.QueryByIndex
 title: IWMDMMetaData::QueryByIndex (mswmdm.h)
-
 description: The QueryByIndex method retrieves the value of a property specified by index.
 old-location: wmdm\iwmdmmetadata_querybyindex.htm
 tech.root: WMDM
 ms.assetid: 5d27e1e9-ab91-433d-8216-ace195386d44
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMMetaData interface [windows Media Device Manager],QueryByIndex method, IWMDMMetaData.QueryByIndex, IWMDMMetaData::QueryByIndex, IWMDMMetaDataQueryByIndex, QueryByIndex, QueryByIndex method [windows Media Device Manager], QueryByIndex method [windows Media Device Manager],IWMDMMetaData interface, mswmdm/IWMDMMetaData::QueryByIndex, wmdm.iwmdmmetadata_querybyindex
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMMetaData.QueryByIndex"
+f1_keywords:
+- mswmdm/IWMDMMetaData.QueryByIndex
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMMetaData.QueryByIndex
+- IWMDMMetaData.QueryByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

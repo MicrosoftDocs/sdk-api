@@ -1,7 +1,6 @@
 ---
 UID: NA:mprapi
 ms.assetid: ea15d374-4b4c-300c-846e-0b81c28d55dd
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

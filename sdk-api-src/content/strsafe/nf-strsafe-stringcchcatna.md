@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchCatNA
 title: StringCchCatNA function (strsafe.h)
-
 description: Concatenates the specified number of characters from one string to another string.
 old-location: menurc\stringcchcatn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcatn.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCchCatN, StringCchCatN function [Menus and Other Resources], StringCchCatNA, StringCchCatNW, _shell_StringCchCatN, _shell_stringcchcatn_cpp, menurc.stringcchcatn, strsafe/StringCchCatN, strsafe/StringCchCatNA, strsafe/StringCchCatNW, winui._shell_stringcchcatn
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchCatN"
+f1_keywords:
+- strsafe/StringCchCatN
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCchCatN
- - StringCchCatNA
- - StringCchCatNW
+- StringCchCatN
+- StringCchCatNA
+- StringCchCatNW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMNameCollection.GetCount
 title: IXpsOMNameCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of name strings in the collection.
 old-location: xps\ixpsomnamecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: f449c2f6-fe7b-4115-9a05-fef90f2954b0
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMNameCollection interface, IXpsOMNameCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMNameCollection.GetCount, IXpsOMNameCollection::GetCount, xps.ixpsomnamecollection_getcount, xpsobjectmodel/IXpsOMNameCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMNameCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMNameCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMNameCollection.GetCount
+- IXpsOMNameCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

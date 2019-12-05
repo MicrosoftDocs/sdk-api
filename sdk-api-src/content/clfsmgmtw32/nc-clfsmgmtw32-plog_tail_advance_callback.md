@@ -1,19 +1,17 @@
 ---
 UID: NC:clfsmgmtw32.PLOG_TAIL_ADVANCE_CALLBACK
 title: PLOG_TAIL_ADVANCE_CALLBACK (clfsmgmtw32.h)
-
 description: The LOG_TAIL_ADVANCE_CALLBACK function is an application-defined callback function that advances the log tail. The callback is invoked in the context of an asynchronous procedure call (APC) on the thread that registers for log management.
 old-location: fs\log_tail_advance_callback.htm
 tech.root: Clfs
 ms.assetid: dfa64e5e-55ef-4102-90d5-104b1a624267
-
 ms.date: 12/05/2018
 ms.keywords: LOG_TAIL_ADVANCE_CALLBACK, LOG_TAIL_ADVANCE_CALLBACK callback function [Files], PLOG_TAIL_ADVANCE_CALLBACK, PLOG_TAIL_ADVANCE_CALLBACK callback, clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK, fs.log_tail_advance_callback
 ms.topic: callback
-f1_keywords: 
- - "clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK"
+f1_keywords:
+- clfsmgmtw32/LOG_TAIL_ADVANCE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Clfsmgmtw32.h
+- Clfsmgmtw32.h
 api_name:
- - LOG_TAIL_ADVANCE_CALLBACK
+- LOG_TAIL_ADVANCE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

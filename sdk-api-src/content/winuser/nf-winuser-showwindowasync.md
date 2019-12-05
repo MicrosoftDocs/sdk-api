@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ShowWindowAsync
 title: ShowWindowAsync function (winuser.h)
-
 description: Sets the show state of a window without waiting for the operation to complete.
 old-location: winmsg\showwindowasync.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindowasync.htm
-
 ms.date: 12/05/2018
 ms.keywords: ShowWindowAsync, ShowWindowAsync function [Windows and Messages], _win32_ShowWindowAsync, _win32_showwindowasync_cpp, winmsg.showwindowasync, winui._win32_showwindowasync, winuser/ShowWindowAsync
 ms.topic: function
-f1_keywords: 
- - "winuser/ShowWindowAsync"
+f1_keywords:
+- winuser/ShowWindowAsync
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - ShowWindowAsync
+- ShowWindowAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

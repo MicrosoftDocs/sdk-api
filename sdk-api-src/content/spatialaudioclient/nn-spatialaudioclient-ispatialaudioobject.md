@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObject
 title: ISpatialAudioObject (spatialaudioclient.h)
-
 description: Represents an object that provides audio data to be rendered from a position in 3D space, relative to the user.
 old-location: coreaudio\ispatialaudioobject.htm
 tech.root: CoreAudio
 ms.assetid: EE83AF5F-4342-4CF2-81A7-1123F8DAFA6F
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObject, ISpatialAudioObject interface [Core Audio], ISpatialAudioObject interface [Core Audio],described, coreaudio.ispatialaudioobject, spatialaudioclient/ISpatialAudioObject
 ms.topic: interface
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObject"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObject
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObject
+- ISpatialAudioObject
 targetos: Windows
 req.typenames: 
 req.redist: 

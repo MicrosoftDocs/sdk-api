@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ComboBox_SetCueBannerText
 title: ComboBox_SetCueBannerText macro (commctrl.h)
-
 description: Sets the cue banner text that is displayed for the edit control of a combo box.
 old-location: controls\ComboBox_SetCueBannerText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setcuebannertext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetCueBannerText, ComboBox_SetCueBannerText macro [Windows Controls], _shell_ComboBox_SetCueBannerText, _shell_ComboBox_SetCueBannerText_cpp, commctrl/ComboBox_SetCueBannerText, controls.ComboBox_SetCueBannerText, controls._shell_ComboBox_SetCueBannerText
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ComboBox_SetCueBannerText"
+f1_keywords:
+- commctrl/ComboBox_SetCueBannerText
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ComboBox_SetCueBannerText
+- ComboBox_SetCueBannerText
 targetos: Windows
 req.typenames: 
 req.redist: 

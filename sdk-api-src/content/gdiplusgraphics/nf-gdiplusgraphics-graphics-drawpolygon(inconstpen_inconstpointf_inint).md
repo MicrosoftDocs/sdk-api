@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawPolygon(IN const Pen,IN const PointF,IN INT
 title: Graphics::DrawPolygon
 description: The Graphics::DrawPolygon method draws a polygon.
 ms.assetid: b9ae10d3-96a9-47eb-9a66-f8a118c4e2ef
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawPolygon
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawPolygon"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawPolygon
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawPolygon
+- Graphics::DrawPolygon
 ---
 
 # DrawPolygon(Pen*,PointF*,INT*)

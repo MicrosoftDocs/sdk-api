@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetTransform
 title: IMILBitmapEffectRenderContextImpl::GetTransform (mileffects.h)
-
 description: Gets the matrix transform of the render context.
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_gettransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\gettransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [WPF Bitmap Effects], GetTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],GetTransform method, IMILBitmapEffectRenderContextImpl.GetTransform, IMILBitmapEffectRenderContextImpl::GetTransform, _wibe_imilbitmapeffectrendercontextimpl_gettransform, mileffects/IMILBitmapEffectRenderContextImpl::GetTransform, wibe._wibe_imilbitmapeffectrendercontextimpl_gettransform
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContextImpl.GetTransform"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContextImpl.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContextImpl.GetTransform
+- IMILBitmapEffectRenderContextImpl.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

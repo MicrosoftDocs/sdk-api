@@ -1,19 +1,17 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.SetVCPFeature
 title: SetVCPFeature function (lowlevelmonitorconfigurationapi.h)
-
 description: Sets the value of a Virtual Control Panel (VCP) code for a monitor.
 old-location: monitor\setvcpfeature.htm
 tech.root: Monitor
 ms.assetid: 145c393e-dce0-4d50-94c2-61ba580c3d83
-
 ms.date: 12/05/2018
 ms.keywords: SetVCPFeature, SetVCPFeature function [Monitor Configuration], lowlevelmonitorconfigurationapi/SetVCPFeature, monitor.setvcpfeature
 ms.topic: function
-f1_keywords: 
- - "lowlevelmonitorconfigurationapi/SetVCPFeature"
+f1_keywords:
+- lowlevelmonitorconfigurationapi/SetVCPFeature
 dev_langs:
- - c++
+- c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetVCPFeature
+- SetVCPFeature
 targetos: Windows
 req.typenames: 
 req.redist: 

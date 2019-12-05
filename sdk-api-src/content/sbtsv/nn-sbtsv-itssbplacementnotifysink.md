@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbPlacementNotifySink
 title: ITsSbPlacementNotifySink (sbtsv.h)
-
 description: Exposes methods that return information about environments to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbplacementnotifysink.htm
 tech.root: TermServ
 ms.assetid: 7abc5454-141a-47bc-b9cd-341b41a093d2
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacementNotifySink, ITsSbPlacementNotifySink interface [Remote Desktop Services], ITsSbPlacementNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbPlacementNotifySink, termserv.itssbplacementnotifysink
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbPlacementNotifySink"
+f1_keywords:
+- sbtsv/ITsSbPlacementNotifySink
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPlacementNotifySink
+- ITsSbPlacementNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 

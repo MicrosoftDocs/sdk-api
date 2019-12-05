@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.midiincaps_tag
 title: MIDIINCAPS (mmeapi.h)
-
 description: The MIDIINCAPS structure describes the capabilities of a MIDI input device.
 old-location: multimedia\midiincaps.htm
 tech.root: Multimedia
 ms.assetid: 358f0d4e-afdd-4a20-9572-ebb6e0000780
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMIDIINCAPS, *NPMIDIINCAPS, *PMIDIINCAPS, MIDIINCAPS, MIDIINCAPS structure [Windows Multimedia], _win32_MIDIINCAPS_str, midiincaps_tag, mmeapi/MIDIINCAPS, multimedia.midiincaps, tagMIDIINCAPSA, tagMIDIINCAPSW"
+ms.keywords: '*LPMIDIINCAPS, *NPMIDIINCAPS, *PMIDIINCAPS, MIDIINCAPS, MIDIINCAPS structure [Windows Multimedia], _win32_MIDIINCAPS_str, midiincaps_tag, mmeapi/MIDIINCAPS, multimedia.midiincaps, tagMIDIINCAPSA, tagMIDIINCAPSW'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIDIINCAPS"
+f1_keywords:
+- mmeapi/MIDIINCAPS
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIDIINCAPS
+- MIDIINCAPS
 targetos: Windows
 req.typenames: MIDIINCAPS, *PMIDIINCAPS, *NPMIDIINCAPS, *LPMIDIINCAPS
 req.redist: 

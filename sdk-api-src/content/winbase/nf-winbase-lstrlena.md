@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.lstrlenA
 title: lstrlenA function (winbase.h)
-
 description: Determines the length of the specified string (not including the terminating null character).
 old-location: menurc\lstrlen.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrlen.htm
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_lstrlen, _win32_lstrlen_cpp, lstrlen, lstrlen function [Menus and Other Resources], lstrlenA, lstrlenW, menurc.lstrlen, winbase/lstrlen, winbase/lstrlenA, winbase/lstrlenW, winui._win32_lstrlen"
+ms.keywords: _win32_lstrlen, _win32_lstrlen_cpp, lstrlen, lstrlen function [Menus and Other Resources], lstrlenA, lstrlenW, menurc.lstrlen, winbase/lstrlen, winbase/lstrlenA, winbase/lstrlenW, winui._win32_lstrlen
 ms.topic: function
-f1_keywords: 
- - "winbase/lstrlen"
+f1_keywords:
+- winbase/lstrlen
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - lstrlen
- - lstrlenA
- - lstrlenW
+- lstrlen
+- lstrlenA
+- lstrlenW
 targetos: Windows
 req.typenames: 
 req.redist: 

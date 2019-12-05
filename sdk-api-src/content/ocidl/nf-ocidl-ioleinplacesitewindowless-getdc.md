@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.GetDC
 title: IOleInPlaceSiteWindowless::GetDC (ocidl.h)
-
 description: Provides an object with a handle to a device context for a screen or compatible device from its container.
 old-location: com\ioleinplacesitewindowless_getdc.htm
 tech.root: com
 ms.assetid: 232587a8-ed88-4339-9e28-6e34be263a51
-
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC method [COM], GetDC method [COM],IOleInPlaceSiteWindowless interface, IOleInPlaceSiteWindowless interface [COM],GetDC method, IOleInPlaceSiteWindowless.GetDC, IOleInPlaceSiteWindowless::GetDC, _ole_ioleinplacesitewindowless_getdc, com.ioleinplacesitewindowless_getdc, ocidl/IOleInPlaceSiteWindowless::GetDC
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceSiteWindowless.GetDC"
+f1_keywords:
+- ocidl/IOleInPlaceSiteWindowless.GetDC
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.GetDC
+- IOleInPlaceSiteWindowless.GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 

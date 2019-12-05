@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents.OnObjPoolPutObject
 title: IComObjectPoolEvents::OnObjPoolPutObject (comsvcs.h)
-
 description: Generated when a new object is added to the pool.
 old-location: cos\icomobjectpoolevents_onobjpoolputobject.htm
 tech.root: cossdk
 ms.assetid: 00b0b3b1-943d-4fba-bd5d-52d6de80fcf6
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents interface [COM+],OnObjPoolPutObject method, IComObjectPoolEvents.OnObjPoolPutObject, IComObjectPoolEvents::OnObjPoolPutObject, OnObjPoolPutObject, OnObjPoolPutObject method [COM+], OnObjPoolPutObject method [COM+],IComObjectPoolEvents interface, _dtc_IComObjectPoolEvents_OnObjPoolPutObject, comsvcs/IComObjectPoolEvents::OnObjPoolPutObject, cos.icomobjectpoolevents_onobjpoolputobject
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents.OnObjPoolPutObject"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents.OnObjPoolPutObject
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents.OnObjPoolPutObject
+- IComObjectPoolEvents.OnObjPoolPutObject
 targetos: Windows
 req.typenames: 
 req.redist: 

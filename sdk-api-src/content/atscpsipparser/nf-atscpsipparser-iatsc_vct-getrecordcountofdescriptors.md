@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordCountOfDescriptors
 title: IATSC_VCT::GetRecordCountOfDescriptors (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 8d85f653-181f-467f-b278-8bc721f8ff22
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IATSC_VCT.GetRecordCountOfDescriptors, IATSC_VCT::GetRecordCountOfDescriptors, IATSC_VCTGetRecordCountOfDescriptors, atscpsipparser/IATSC_VCT::GetRecordCountOfDescriptors, mstv.iatsc_vct_getrecordcountofdescriptors
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordCountOfDescriptors"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordCountOfDescriptors
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordCountOfDescriptors
+- IATSC_VCT.GetRecordCountOfDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagPictureAttributes
 title: PICTUREATTRIBUTES (ocidl.h)
-
 description: Specifies attributes of a picture object as returned through the IPicture::get_Attributes method.
 old-location: com\pictureattributes.htm
 tech.root: com
 ms.assetid: 3162a305-d35c-402d-a8d8-f0f124257dd5
-
 ms.date: 12/05/2018
 ms.keywords: PICTUREATTRIBUTES, PICTUREATTRIBUTES enumeration [COM], PICTURE_SCALABLE, PICTURE_TRANSPARENT, _ctrl_PICTURE, com.pictureattributes, ocidl/PICTUREATTRIBUTES, ocidl/PICTURE_SCALABLE, ocidl/PICTURE_TRANSPARENT
 ms.topic: enum
-f1_keywords: 
- - "ocidl/PICTUREATTRIBUTES"
+f1_keywords:
+- ocidl/PICTUREATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - PICTUREATTRIBUTES
+- PICTUREATTRIBUTES
 targetos: Windows
 req.typenames: PICTUREATTRIBUTES
 req.redist: 

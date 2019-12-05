@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SysReAllocString
 title: SysReAllocString function (oleauto.h)
-
 description: Reallocates a previously allocated string to be the size of a second string and copies the second string into the reallocated memory.
 old-location: automat\sysreallocstring.htm
 tech.root: automat
 ms.assetid: 0207c33b-c065-42bb-8d70-ccdc3fddb338
-
 ms.date: 12/05/2018
 ms.keywords: SysReAllocString, SysReAllocString function [Automation], _oa96_SysReAllocString, automat.sysreallocstring, oleauto/SysReAllocString
 ms.topic: function
-f1_keywords: 
- - "oleauto/SysReAllocString"
+f1_keywords:
+- oleauto/SysReAllocString
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SysReAllocString
+- SysReAllocString
 targetos: Windows
 req.typenames: 
 req.redist: 

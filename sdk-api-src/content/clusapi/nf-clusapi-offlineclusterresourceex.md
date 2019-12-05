@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OfflineClusterResourceEx
 title: OfflineClusterResourceEx function (clusapi.h)
-
 description: Extends the OfflineClusterResource method.
 old-location: mscs\offlineclusterresourceex.htm
 tech.root: MsCS
 ms.assetid: 8AE70F5F-349B-40D1-830B-A135D4364B83
-
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_RESOURCE_OFFLINE_FORCE_WITH_TERMINATION, CLUSAPI_RESOURCE_OFFLINE_IGNORE_RESOURCE_STATUS, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_DELETED, CLUSAPI_RESOURCE_OFFLINE_REASON_BEING_RESTARTED, CLUSAPI_RESOURCE_OFFLINE_REASON_MOVING, CLUSAPI_RESOURCE_OFFLINE_REASON_NONE, CLUSAPI_RESOURCE_OFFLINE_REASON_PREEMPTED, CLUSAPI_RESOURCE_OFFLINE_REASON_SHUTTING_DOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_UNKNOWN, CLUSAPI_RESOURCE_OFFLINE_REASON_USER_REQUESTED, OfflineClusterResourceEx, OfflineClusterResourceEx function [Failover Cluster], clusapi/OfflineClusterResourceEx, mscs.offlineclusterresourceex
 ms.topic: function
-f1_keywords: 
- - "clusapi/OfflineClusterResourceEx"
+f1_keywords:
+- clusapi/OfflineClusterResourceEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - OfflineClusterResourceEx
+- OfflineClusterResourceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

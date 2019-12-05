@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderResourceVariable.GetResource
 title: ID3D10EffectShaderResourceVariable::GetResource (d3d10effect.h)
-
 description: Get a shader resource.
 old-location: direct3d10\id3d10effectshaderresourcevariable_getresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable_getresource.htm
-
 ms.date: 12/05/2018
 ms.keywords: 32af50a5-ebdc-17c2-82b2-78786c51c269, GetResource, GetResource method [Direct3D 10], GetResource method [Direct3D 10],ID3D10EffectShaderResourceVariable interface, ID3D10EffectShaderResourceVariable interface [Direct3D 10],GetResource method, ID3D10EffectShaderResourceVariable.GetResource, ID3D10EffectShaderResourceVariable::GetResource, d3d10effect/ID3D10EffectShaderResourceVariable::GetResource, direct3d10.id3d10effectshaderresourcevariable_getresource
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectShaderResourceVariable.GetResource"
+f1_keywords:
+- d3d10effect/ID3D10EffectShaderResourceVariable.GetResource
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectShaderResourceVariable.GetResource
+- ID3D10EffectShaderResourceVariable.GetResource
 targetos: Windows
 req.typenames: 
 req.redist: 

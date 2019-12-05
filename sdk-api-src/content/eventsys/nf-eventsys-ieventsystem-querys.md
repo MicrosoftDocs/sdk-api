@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSystem.QueryS
 title: IEventSystem::QueryS (eventsys.h)
-
 description: Retrieves a collection of subscription or event objects from the event data store.
 old-location: cos\ieventsystem_querys.htm
 tech.root: cossdk
 ms.assetid: 6bb76b7b-c19c-43bd-a2cc-fbe7b98fa7b9
-
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],QueryS method, IEventSystem.QueryS, IEventSystem::QueryS, QueryS, QueryS method [COM+], QueryS method [COM+],IEventSystem interface, _cos_IEventSystem_QueryS, cos.ieventsystem_querys, eventsys/IEventSystem::QueryS
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSystem.QueryS"
+f1_keywords:
+- eventsys/IEventSystem.QueryS
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSystem.QueryS
+- IEventSystem.QueryS
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxFolders.get_OutgoingArchive
 title: IFaxFolders::get_OutgoingArchive (faxcomex.h)
-
 description: The IFaxFolders::get_OutgoingArchive property represents the archive of outgoing faxes.
 old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_outgoingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3q79.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxFolders interface [Fax Service],OutgoingArchive property, IFaxFolders.OutgoingArchive, IFaxFolders.get_OutgoingArchive, IFaxFolders::OutgoingArchive, IFaxFolders::get_OutgoingArchive, OutgoingArchive property [Fax Service], OutgoingArchive property [Fax Service],IFaxFolders interface, _mfax_faxfolders.outgoingarchive, fax._mfax_faxfolders_cpp_mfax_faxfolders_outgoingarchive_cpp, fax._mfax_faxfolders_outgoingarchive, faxcomex/IFaxFolders::OutgoingArchive, faxcomex/IFaxFolders::get_OutgoingArchive, get_OutgoingArchive
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxFolders.OutgoingArchive"
+f1_keywords:
+- faxcomex/IFaxFolders.OutgoingArchive
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxFolders.OutgoingArchive
- - IFaxFolders.get_OutgoingArchive
- - IFaxFolders.get_OutgoingArchive
+- IFaxFolders.OutgoingArchive
+- IFaxFolders.get_OutgoingArchive
+- IFaxFolders.get_OutgoingArchive
 targetos: Windows
 req.typenames: 
 req.redist: 

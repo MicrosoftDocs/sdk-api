@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IControlChangeNotify
 title: IControlChangeNotify (devicetopology.h)
-
 description: The IControlChangeNotify interface provides notifications when the status of a part (connector or subunit) changes.
 old-location: coreaudio\icontrolchangenotify.htm
 tech.root: CoreAudio
 ms.assetid: e50e13c2-1ef3-46f6-8c53-f99cc1631a79
-
 ms.date: 12/05/2018
 ms.keywords: IControlChangeNotify, IControlChangeNotify interface [Core Audio], IControlChangeNotify interface [Core Audio],described, coreaudio.icontrolchangenotify, devicetopology/IControlChangeNotify
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IControlChangeNotify"
+f1_keywords:
+- devicetopology/IControlChangeNotify
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IControlChangeNotify
+- IControlChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

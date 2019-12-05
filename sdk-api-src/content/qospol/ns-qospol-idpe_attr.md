@@ -1,19 +1,17 @@
 ---
 UID: NS:qospol._IDPE_ATTR
 title: IDPE_ATTR (qospol.h)
-
 description: The IDPE_ATTR structure contains identity policy element attribute information.
 old-location: qos\idpe_attr.htm
 tech.root: QOS
 ms.assetid: 9169cb84-be1c-46f6-b6f8-5babfb4310f3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIDPE_ATTR, *LPIDPE_ATTR structure [QOS], IDPE_ATTR, IDPE_ATTR structure [QOS], PE_ATTRIB_TYPE_POLICY_LOCATOR, POLICY_LOCATOR_SUB_TYPE_ASCII_DN, POLICY_LOCATOR_SUB_TYPE_ASCII_DN_ENC, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN_ENC, qos.idpe_attr, qospol/*LPIDPE_ATTR, qospol/IDPE_ATTR"
+ms.keywords: '*LPIDPE_ATTR, *LPIDPE_ATTR structure [QOS], IDPE_ATTR, IDPE_ATTR structure [QOS], PE_ATTRIB_TYPE_POLICY_LOCATOR, POLICY_LOCATOR_SUB_TYPE_ASCII_DN, POLICY_LOCATOR_SUB_TYPE_ASCII_DN_ENC, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN, POLICY_LOCATOR_SUB_TYPE_UNICODE_DN_ENC, qos.idpe_attr, qospol/*LPIDPE_ATTR, qospol/IDPE_ATTR'
 ms.topic: struct
-f1_keywords: 
- - "qospol/IDPE_ATTR"
+f1_keywords:
+- qospol/IDPE_ATTR
 dev_langs:
- - c++
+- c++
 req.header: qospol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qospol.h
+- Qospol.h
 api_name:
- - IDPE_ATTR
+- IDPE_ATTR
 targetos: Windows
 req.typenames: IDPE_ATTR, *LPIDPE_ATTR
 req.redist: 

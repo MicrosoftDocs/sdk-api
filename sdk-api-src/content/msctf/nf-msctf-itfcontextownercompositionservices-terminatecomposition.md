@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionServices.TerminateComposition
 title: ITfContextOwnerCompositionServices::TerminateComposition (msctf.h)
-
 description: ITfContextOwnerCompositionServices::TerminateComposition method
 old-location: tsf\itfcontextownercompositionservices_terminatecomposition.htm
 tech.root: TSF
 ms.assetid: 950ba2b3-cb12-4697-a4b2-1c87373b9a23
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionServices interface [Text Services Framework],TerminateComposition method, ITfContextOwnerCompositionServices.TerminateComposition, ITfContextOwnerCompositionServices::TerminateComposition, TerminateComposition, TerminateComposition method [Text Services Framework], TerminateComposition method [Text Services Framework],ITfContextOwnerCompositionServices interface, _tsf_itfcontextownercompositionservices_terminatecomposition_ref, msctf/ITfContextOwnerCompositionServices::TerminateComposition, tsf.itfcontextownercompositionservices_terminatecomposition
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwnerCompositionServices.TerminateComposition"
+f1_keywords:
+- msctf/ITfContextOwnerCompositionServices.TerminateComposition
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextOwnerCompositionServices.TerminateComposition
+- ITfContextOwnerCompositionServices.TerminateComposition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11ShaderResourceView
 title: ID3D11ShaderResourceView (d3d11.h)
-
 description: A shader-resource-view interface specifies the subresources a shader can access during rendering. Examples of shader resources include a constant buffer, a texture buffer, and a texture.
 old-location: direct3d11\id3d11shaderresourceview.htm
 tech.root: direct3d11
 ms.assetid: 289555d8-2a6e-454f-86bc-48fb2c8ea345
-
 ms.date: 12/05/2018
 ms.keywords: 7665f23b-5b1b-14d0-93b2-1c24ed09a978, ID3D11ShaderResourceView, ID3D11ShaderResourceView interface [Direct3D 11], ID3D11ShaderResourceView interface [Direct3D 11],described, d3d11/ID3D11ShaderResourceView, direct3d11.id3d11shaderresourceview
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11ShaderResourceView"
+f1_keywords:
+- d3d11/ID3D11ShaderResourceView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11ShaderResourceView
+- ID3D11ShaderResourceView
 targetos: Windows
 req.typenames: 
 req.redist: 

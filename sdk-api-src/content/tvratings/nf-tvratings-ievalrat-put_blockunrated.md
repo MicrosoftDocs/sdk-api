@@ -1,19 +1,17 @@
 ---
 UID: NF:tvratings.IEvalRat.put_BlockUnRated
 title: IEvalRat::put_BlockUnRated (tvratings.h)
-
 description: The put_BlockUnRated method specifies whether to block a program for which rating information has not been obtained.
 old-location: mstv\ievalrat_put_blockunrated.htm
 tech.root: mstv
 ms.assetid: 22f6bc32-3f41-45d4-83e5-f501cbeb772e
-
 ms.date: 12/05/2018
 ms.keywords: IEvalRat interface [Microsoft TV Technologies],put_BlockUnRated method, IEvalRat.put_BlockUnRated, IEvalRat::put_BlockUnRated, IEvalRatput_BlockUnRated, mstv.ievalrat_put_blockunrated, put_BlockUnRated, put_BlockUnRated method [Microsoft TV Technologies], put_BlockUnRated method [Microsoft TV Technologies],IEvalRat interface, tvratings/IEvalRat::put_BlockUnRated
 ms.topic: method
-f1_keywords: 
- - "tvratings/IEvalRat.put_BlockUnRated"
+f1_keywords:
+- tvratings/IEvalRat.put_BlockUnRated
 dev_langs:
- - c++
+- c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tvratings.h
+- Tvratings.h
 api_name:
- - IEvalRat.put_BlockUnRated
+- IEvalRat.put_BlockUnRated
 targetos: Windows
 req.typenames: 
 req.redist: 

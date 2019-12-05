@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolShadowCallback
 title: IWTSProtocolShadowCallback (wtsprotocol.h)
-
 description: IWTSProtocolShadowCallback is no longer available. Instead, use IWRdsProtocolShadowCallback.
 old-location: termserv\iwtsprotocolshadowcallback.htm
 tech.root: TermServ
 ms.assetid: ce224b9f-161c-4133-97d9-05c339eefb77
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowCallback, IWTSProtocolShadowCallback interface [Remote Desktop Services], IWTSProtocolShadowCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolshadowcallback, wtsprotocol/IWTSProtocolShadowCallback
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolShadowCallback"
+f1_keywords:
+- wtsprotocol/IWTSProtocolShadowCallback
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWTSProtocolShadowCallback
+- IWTSProtocolShadowCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

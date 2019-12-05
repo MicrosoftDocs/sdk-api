@@ -1,19 +1,17 @@
 ---
 UID: NN:certcli.ICertRequest2
 title: ICertRequest2 (certcli.h)
-
 description: Provide communications between a client or intermediary application and Certificate Services.
 old-location: security\icertrequest2.htm
 tech.root: SecCrypto
 ms.assetid: 8587a682-27a5-4f26-b4bb-7088e4e5d8d3
-
 ms.date: 12/05/2018
 ms.keywords: ICertRequest2, ICertRequest2 interface [Security], ICertRequest2 interface [Security],described, _certsrv_icertrequest2, certcli/ICertRequest2, security.icertrequest2
 ms.topic: interface
-f1_keywords: 
- - "certcli/ICertRequest2"
+f1_keywords:
+- certcli/ICertRequest2
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertRequest2
+- ICertRequest2
 targetos: Windows
 req.typenames: 
 req.redist: 

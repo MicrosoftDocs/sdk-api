@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_SAFERAPPBLOCKED
 title: WPC_ARGS_SAFERAPPBLOCKED (wpcevent.h)
-
 description: Indicates information about a safer application that is being blocked.
 old-location: parcon\wpc_args_saferappblocked.htm
 tech.root: parcon
 ms.assetid: 8fdc7d09-6bbb-4e0b-82f5-276186312f75
-
 ms.date: 12/05/2018
 ms.keywords: WPC_ARGS_SAFERAPPBLOCKED, WPC_ARGS_SAFERAPPBLOCKED enumeration, WPC_ARGS_SAFERAPPBLOCKED_CARGS, WPC_ARGS_SAFERAPPBLOCKED_PATH, WPC_ARGS_SAFERAPPBLOCKED_RULEID, WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP, WPC_ARGS_SAFERAPPBLOCKED_USERID, parcon.wpc_args_saferappblocked, wpcevent/WPC_ARGS_SAFERAPPBLOCKED, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_CARGS, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_PATH, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_RULEID, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_TIMESTAMP, wpcevent/WPC_ARGS_SAFERAPPBLOCKED_USERID
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPC_ARGS_SAFERAPPBLOCKED"
+f1_keywords:
+- wpcevent/WPC_ARGS_SAFERAPPBLOCKED
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPC_ARGS_SAFERAPPBLOCKED
+- WPC_ARGS_SAFERAPPBLOCKED
 targetos: Windows
 req.typenames: WPC_ARGS_SAFERAPPBLOCKED
 req.redist: 

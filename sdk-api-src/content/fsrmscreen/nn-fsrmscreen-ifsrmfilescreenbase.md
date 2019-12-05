@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenBase
 title: IFsrmFileScreenBase (fsrmscreen.h)
-
 description: Base class for all file screen interfaces.
 old-location: fsrm\ifsrmfilescreenbase.htm
 tech.root: fsrm
 ms.assetid: 9e52af8c-e03b-4b44-83bd-541fe1419d6c
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenBase, IFsrmFileScreenBase interface [File Server Resource Manager], IFsrmFileScreenBase interface [File Server Resource Manager],described, fs.ifsrmfilescreenbase, fsrm.ifsrmfilescreenbase, fsrmscreen/IFsrmFileScreenBase
 ms.topic: interface
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenBase"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenBase
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenBase
+- IFsrmFileScreenBase
 targetos: Windows
 req.typenames: 
 req.redist: 

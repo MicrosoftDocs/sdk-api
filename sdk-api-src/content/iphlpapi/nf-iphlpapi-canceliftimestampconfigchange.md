@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.CancelIfTimestampConfigChange
 title: CancelIfTimestampConfigChange function (iphlpapi.h)
-
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\canceliftimestampconfigchange.htm
 tech.root: IpHlp
 ms.assetid: F9F917D4-44E1-437C-A40F-4CA8FFB5702C
-
 ms.date: 12/05/2018
 ms.keywords: CancelIfTimestampConfigChange, CancelIfTimestampConfigChange function [IP Helper], iphlp.canceliftimestampconfigchange, iphlpapi/CancelIfTimestampConfigChange
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/CancelIfTimestampConfigChange"
+f1_keywords:
+- iphlpapi/CancelIfTimestampConfigChange
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CancelIfTimestampConfigChange
+- CancelIfTimestampConfigChange
 targetos: Windows
 req.typenames: 
 req.redist: 

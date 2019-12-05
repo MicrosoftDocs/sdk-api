@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetIdentity
 title: IVssExamineWriterMetadata::GetIdentity (vsbackup.h)
-
 description: The GetIdentity method obtains basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadata_getidentity.htm
 tech.root: VSS
 ms.assetid: 55240ef2-f480-4917-98f9-e88a2e23edea
-
 ms.date: 12/05/2018
 ms.keywords: GetIdentity, GetIdentity method [VSS], GetIdentity method [VSS],IVssExamineWriterMetadata interface, IVssExamineWriterMetadata interface [VSS],GetIdentity method, IVssExamineWriterMetadata.GetIdentity, IVssExamineWriterMetadata::GetIdentity, _win32_ivssexaminewritermetadata_getidentity, base.ivssexaminewritermetadata_getidentity, vsbackup/IVssExamineWriterMetadata::GetIdentity
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadata.GetIdentity"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadata.GetIdentity
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssExamineWriterMetadata.GetIdentity
+- IVssExamineWriterMetadata.GetIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaEventRemoveWindow
 title: UiaEventRemoveWindow function (uiautomationcoreapi.h)
-
 description: Removes a window from the event listener.
 old-location: winauto\uiauto_UiaEventRemoveWindowFunction.htm
 tech.root: WinAuto
 ms.assetid: 5c989cbf-b55a-4576-bacc-6e9955d4707f
-
 ms.date: 12/05/2018
 ms.keywords: UiaEventRemoveWindow, UiaEventRemoveWindow function [Windows Accessibility], uiauto.uiauto_UiaEventRemoveWindowFunction, uiauto_UiaEventRemoveWindowFunction, uiautomationcoreapi/UiaEventRemoveWindow, winauto.uiauto_UiaEventRemoveWindowFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaEventRemoveWindow"
+f1_keywords:
+- uiautomationcoreapi/UiaEventRemoveWindow
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaEventRemoveWindow
+- UiaEventRemoveWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

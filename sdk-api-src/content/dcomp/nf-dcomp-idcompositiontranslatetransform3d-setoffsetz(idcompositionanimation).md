@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform3D.SetOffsetZ(IDCompositionAnimation)
 title: IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the OffsetZ property of a 3D translation transform effect. The OffsetZ property specifies the distance to translate along the z-axis.
 old-location: directcomp\idcompositiontranslatetransform3d_setoffsetz_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: CAD58523-FBAD-4451-916A-E157F17F0A81
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform3D interface [DirectComposition],SetOffsetZ method, IDCompositionTranslateTransform3D.SetOffsetZ, IDCompositionTranslateTransform3D.SetOffsetZ(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetZ, IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation), IDCompositionTranslateTransform3D::SetOffsetZ(IDCompositionAnimation*), SetOffsetZ, SetOffsetZ method [DirectComposition], SetOffsetZ method [DirectComposition],IDCompositionTranslateTransform3D interface, dcomp/IDCompositionTranslateTransform3D::SetOffsetZ, directcomp.idcompositiontranslatetransform3d_setoffsetz_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTranslateTransform3D.SetOffsetZ"
+f1_keywords:
+- dcomp/IDCompositionTranslateTransform3D.SetOffsetZ
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform3D.SetOffsetZ
+- IDCompositionTranslateTransform3D.SetOffsetZ
 targetos: Windows
 req.typenames: 
 req.redist: 

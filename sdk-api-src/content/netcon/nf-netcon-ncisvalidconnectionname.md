@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.NcIsValidConnectionName
 title: NcIsValidConnectionName function (netcon.h)
-
 description: The NcIsValidConnectionName function verifies if the passed in connection name is valid.
 old-location: ics\ncisvalidconnectionname.htm
 tech.root: ics
 ms.assetid: 08fe9ba2-3314-45ff-8aea-742dd5b15560
-
 ms.date: 12/05/2018
 ms.keywords: NcIsValidConnectionName, NcIsValidConnectionName function [ICS/ICF], ics.ncisvalidconnectionname, netcon/NcIsValidConnectionName
 ms.topic: function
-f1_keywords: 
- - "netcon/NcIsValidConnectionName"
+f1_keywords:
+- netcon/NcIsValidConnectionName
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Netshell.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netshell.dll
+- Netshell.dll
 api_name:
- - NcIsValidConnectionName
+- NcIsValidConnectionName
 targetos: Windows
 req.typenames: 
 req.redist: 

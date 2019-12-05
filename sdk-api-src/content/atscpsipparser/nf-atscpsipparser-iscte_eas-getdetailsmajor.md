@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDetailsMajor
 title: ISCTE_EAS::GetDetailsMajor (atscpsipparser.h)
-
 description: The GetDetailsMajor method returns the major channel number for the details channel.
 old-location: mstv\iscte_eas_getdetailsmajor.htm
 tech.root: mstv
 ms.assetid: ecb6f06d-ccf5-44f3-ba36-b24176c3a20e
-
 ms.date: 12/05/2018
 ms.keywords: GetDetailsMajor, GetDetailsMajor method [Microsoft TV Technologies], GetDetailsMajor method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDetailsMajor method, ISCTE_EAS.GetDetailsMajor, ISCTE_EAS::GetDetailsMajor, ISCTE_EASGetDetailsMajor, atscpsipparser/ISCTE_EAS::GetDetailsMajor, mstv.iscte_eas_getdetailsmajor
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetDetailsMajor"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetDetailsMajor
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetDetailsMajor
+- ISCTE_EAS.GetDetailsMajor
 targetos: Windows
 req.typenames: 
 req.redist: 

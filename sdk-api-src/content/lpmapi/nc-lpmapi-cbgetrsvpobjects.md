@@ -1,19 +1,17 @@
 ---
 UID: NC:lpmapi.CBGETRSVPOBJECTS
 title: CBGETRSVPOBJECTS (lpmapi.h)
-
 description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.
 old-location: qos\cbgetrsvpobjects.htm
 tech.root: QOS
 ms.assetid: baedb3e9-7768-4666-8bd7-78dd1d0eb0de
-
 ms.date: 12/05/2018
 ms.keywords: CBGETRSVPOBJECTS, CBGETRSVPOBJECTS callback function [QOS], _gqos_cbpgetrsvpobjects, cbGetRsvpObjects, cbGetRsvpObjects callback, cbGetRsvpObjects callback function [QOS], lpmapi/cbGetRsvpObjects, qos.cbgetrsvpobjects, qos.cbpgetrsvpobjects
 ms.topic: callback
-f1_keywords: 
- - "lpmapi/CBGETRSVPOBJECTS"
+f1_keywords:
+- lpmapi/CBGETRSVPOBJECTS
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - CBGETRSVPOBJECTS
+- CBGETRSVPOBJECTS
 targetos: Windows
 req.typenames: 
 req.redist: 

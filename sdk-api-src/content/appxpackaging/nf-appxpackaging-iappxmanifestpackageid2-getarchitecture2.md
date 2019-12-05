@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId2.GetArchitecture2
 title: IAppxManifestPackageId2::GetArchitecture2 (appxpackaging.h)
-
 description: Gets the processor architecture as defined in the manifest.
 old-location: appxpkg\iappxmanifestpackageid2_getarchitecture2.htm
 tech.root: appxpkg
 ms.assetid: FBC34FBA-C6BB-45AD-8005-5C2B91A1369D
-
 ms.date: 12/05/2018
 ms.keywords: GetArchitecture2, GetArchitecture2 method [App packaging and management], GetArchitecture2 method [App packaging and management],IAppxManifestPackageId2 interface, IAppxManifestPackageId2 interface [App packaging and management],GetArchitecture2 method, IAppxManifestPackageId2.GetArchitecture2, IAppxManifestPackageId2::GetArchitecture2, appxpackaging/IAppxManifestPackageId2::GetArchitecture2, appxpkg.iappxmanifestpackageid2_getarchitecture2
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageId2.GetArchitecture2"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageId2.GetArchitecture2
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageId2.GetArchitecture2
+- IAppxManifestPackageId2.GetArchitecture2
 targetos: Windows
 req.typenames: 
 req.redist: 

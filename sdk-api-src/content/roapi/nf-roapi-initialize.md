@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.Initialize
 title: Initialize function (roapi.h)
-
 description: Initializes a thread to use Windows Runtime APIs.
 old-location: com\initialize.htm
 tech.root: com
 ms.assetid: 615E552B-46EF-4D94-BF60-A44885731F75
-
 ms.date: 12/05/2018
 ms.keywords: Initialize, Initialize function [COM], com.initialize, roapi/Initialize
 ms.topic: function
-f1_keywords: 
- - "roapi/Initialize"
+f1_keywords:
+- roapi/Initialize
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ROApi.h
+- ROApi.h
 api_name:
- - Initialize
+- Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

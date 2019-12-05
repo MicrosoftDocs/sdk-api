@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPrerequisite
 title: IAppxManifestReader::GetPrerequisite (appxpackaging.h)
-
 description: Gets the specified prerequisite as defined in the package manifest.
 old-location: appxpkg\iappxmanifestreader_getprerequisite.htm
 tech.root: appxpkg
 ms.assetid: 1CF44513-AA07-4591-9134-A156A538C8F1
-
 ms.date: 12/05/2018
 ms.keywords: GetPrerequisite, GetPrerequisite method [App packaging and management], GetPrerequisite method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPrerequisite method, IAppxManifestReader.GetPrerequisite, IAppxManifestReader::GetPrerequisite, appxpackaging/IAppxManifestReader::GetPrerequisite, appxpkg.iappxmanifestreader_getprerequisite
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestReader.GetPrerequisite"
+f1_keywords:
+- appxpackaging/IAppxManifestReader.GetPrerequisite
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestReader.GetPrerequisite
+- IAppxManifestReader.GetPrerequisite
 targetos: Windows
 req.typenames: 
 req.redist: 

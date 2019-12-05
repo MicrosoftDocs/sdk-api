@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemFromRelativeName
 title: SHCreateItemFromRelativeName function (shobjidl_core.h)
-
 description: Creates and initializes a Shell item object from a relative parsing name.
 old-location: shell\SHCreateItemFromRelativeName.htm
 tech.root: shell
 ms.assetid: af6c2e8b-c812-4858-a9db-24549dedc2aa
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemFromRelativeName, SHCreateItemFromRelativeName function [Windows Shell], _shell_SHCreateItemFromRelativeName, shell.SHCreateItemFromRelativeName, shobjidl_core/SHCreateItemFromRelativeName
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateItemFromRelativeName"
+f1_keywords:
+- shobjidl_core/SHCreateItemFromRelativeName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateItemFromRelativeName
+- SHCreateItemFromRelativeName
 targetos: Windows
 req.typenames: 
 req.redist: 

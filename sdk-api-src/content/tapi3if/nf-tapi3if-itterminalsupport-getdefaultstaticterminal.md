@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.GetDefaultStaticTerminal
 title: ITTerminalSupport::GetDefaultStaticTerminal (tapi3if.h)
-
 description: The GetDefaultStaticTerminal method gets the default static terminal for the media type specified.
 old-location: tapi3\itterminalsupport_getdefaultstaticterminal.htm
 tech.root: Tapi
 ms.assetid: aad3a566-eb95-402c-b26f-da6bd89e52ea
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultStaticTerminal, GetDefaultStaticTerminal method [TAPI 2.2], GetDefaultStaticTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],GetDefaultStaticTerminal method, ITTerminalSupport.GetDefaultStaticTerminal, ITTerminalSupport::GetDefaultStaticTerminal, _tapi3_itterminalsupport_getdefaultstaticterminal, tapi3.itterminalsupport_getdefaultstaticterminal, tapi3if/ITTerminalSupport::GetDefaultStaticTerminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTerminalSupport.GetDefaultStaticTerminal"
+f1_keywords:
+- tapi3if/ITTerminalSupport.GetDefaultStaticTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminalSupport.GetDefaultStaticTerminal
+- ITTerminalSupport.GetDefaultStaticTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

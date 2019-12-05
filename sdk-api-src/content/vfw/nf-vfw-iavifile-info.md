@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.IAVIFile.Info
 title: IAVIFile::Info (vfw.h)
-
 description: The Info method returns with information about an AVI file. Called when an application uses the AVIFileInfo function.
 old-location: multimedia\iavifile_info.htm
 tech.root: Multimedia
 ms.assetid: cac01da4-b979-4386-8fc7-f47a7771e6f4
-
 ms.date: 12/05/2018
 ms.keywords: IAVIFile interface [Windows Multimedia],Info method, IAVIFile.Info, IAVIFile::Info, Info, Info method [Windows Multimedia], Info method [Windows Multimedia],IAVIFile interface, _win32_IAVIFile_Info, multimedia.iavifile_info, vfw/IAVIFile::Info
 ms.topic: method
 f1_keywords:
 - vfw/IAVIFile.Info
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows

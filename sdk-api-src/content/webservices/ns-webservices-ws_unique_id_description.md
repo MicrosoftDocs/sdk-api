@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_UNIQUE_ID_DESCRIPTION
 title: WS_UNIQUE_ID_DESCRIPTION (webservices.h)
-
 description: An optional type description used with WS_UNIQUE_ID_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_unique_id_description.htm
 tech.root: wsw
 ms.assetid: d00695e6-2c3d-4eff-b5cd-f4f81954fb0f
-
 ms.date: 12/05/2018
 ms.keywords: WS_UNIQUE_ID_DESCRIPTION, WS_UNIQUE_ID_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNIQUE_ID_DESCRIPTION, wsw.ws_unique_id_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_UNIQUE_ID_DESCRIPTION"
+f1_keywords:
+- webservices/WS_UNIQUE_ID_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_UNIQUE_ID_DESCRIPTION
+- WS_UNIQUE_ID_DESCRIPTION
 targetos: Windows
 req.typenames: WS_UNIQUE_ID_DESCRIPTION
 req.redist: 

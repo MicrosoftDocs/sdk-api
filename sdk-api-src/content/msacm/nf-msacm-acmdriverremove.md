@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmDriverRemove
 title: acmDriverRemove function (msacm.h)
-
 description: The acmDriverRemove function removes an ACM driver from the list of available ACM drivers. The driver will be removed for the calling application only. If the driver is globally installed, other applications will still be able to use it.
 old-location: multimedia\acmdriverremove.htm
 tech.root: Multimedia
 ms.assetid: 7182d452-a935-4ed5-808a-595fca4f0429
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmDriverRemove, acmDriverRemove, acmDriverRemove function [Windows Multimedia], msacm/acmDriverRemove, multimedia.acmdriverremove"
+ms.keywords: _win32_acmDriverRemove, acmDriverRemove, acmDriverRemove function [Windows Multimedia], msacm/acmDriverRemove, multimedia.acmdriverremove
 ms.topic: function
-f1_keywords: 
- - "msacm/acmDriverRemove"
+f1_keywords:
+- msacm/acmDriverRemove
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmDriverRemove
+- acmDriverRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

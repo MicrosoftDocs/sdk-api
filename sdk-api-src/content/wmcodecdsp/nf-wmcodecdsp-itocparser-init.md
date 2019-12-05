@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocParser.Init
 title: ITocParser::Init (wmcodecdsp.h)
-
 description: The Init method initializes the TOC Parser object and associates it with a media file.
 old-location: mf\itocparser_init.htm
 tech.root: medfound
 ms.assetid: 8d7a9bda-56e8-4b42-ace5-4d6cf5d52b59
-
 ms.date: 12/05/2018
 ms.keywords: ITocParser interface [Media Foundation],Init method, ITocParser.Init, ITocParser::Init, Init, Init method [Media Foundation], Init method [Media Foundation],ITocParser interface, codecapi.itocparser_init, mf.itocparser_init, wmcodecdsp/ITocParser::Init
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocParser.Init"
+f1_keywords:
+- wmcodecdsp/ITocParser.Init
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocParser.Init
+- ITocParser.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

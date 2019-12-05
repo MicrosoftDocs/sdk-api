@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToBooleanWithDefault
 title: VariantToBooleanWithDefault function (propvarutil.h)
-
 description: Extracts a BOOL value from a VARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\VariantToBooleanWithDefault.htm
 tech.root: properties
 ms.assetid: 523c6e75-a51c-4ef7-928c-0d228ab0d337
-
 ms.date: 12/05/2018
 ms.keywords: VariantToBooleanWithDefault, VariantToBooleanWithDefault function [Windows Properties], _shell_VariantToBooleanWithDefault, properties.VariantToBooleanWithDefault, propvarutil/VariantToBooleanWithDefault, shell.VariantToBooleanWithDefault
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToBooleanWithDefault"
+f1_keywords:
+- propvarutil/VariantToBooleanWithDefault
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToBooleanWithDefault
+- VariantToBooleanWithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

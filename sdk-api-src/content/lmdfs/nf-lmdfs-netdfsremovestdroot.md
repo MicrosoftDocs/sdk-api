@@ -1,19 +1,17 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveStdRoot
 title: NetDfsRemoveStdRoot function (lmdfs.h)
-
 description: Deletes a stand-alone Distributed File System (DFS) namespace.
 old-location: dfs\netdfsremovestdroot.htm
 tech.root: Dfs
 ms.assetid: 850427cc-56da-45cc-8833-e242acc53589
-
 ms.date: 12/05/2018
 ms.keywords: NetDfsRemoveStdRoot, NetDfsRemoveStdRoot function [Distributed File System], _win32_netdfsremovestdroot, dfs.netdfsremovestdroot, fs.netdfsremovestdroot, lmdfs/NetDfsRemoveStdRoot, netmgmt.netdfsremovestdroot
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsRemoveStdRoot"
+f1_keywords:
+- lmdfs/NetDfsRemoveStdRoot
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsRemoveStdRoot
+- NetDfsRemoveStdRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

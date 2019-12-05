@@ -1,19 +1,17 @@
 ---
 UID: NE:vswriter.VSS_FILE_RESTORE_STATUS
 title: VSS_FILE_RESTORE_STATUS (vswriter.h)
-
 description: Defines the set of statuses of a file restore operation.
 old-location: base\vss_file_restore_status.htm
 tech.root: VSS
 ms.assetid: e1754fad-8da1-4a3e-a70a-ada37dde1c5d
-
 ms.date: 12/05/2018
 ms.keywords: VSS_FILE_RESTORE_STATUS, VSS_FILE_RESTORE_STATUS enumeration [VSS], VSS_RS_ALL, VSS_RS_FAILED, VSS_RS_NONE, VSS_RS_UNDEFINED, _win32_vss_file_restore_status, base.vss_file_restore_status, enumeration [VSS], vswriter/VSS_FILE_RESTORE_STATUS, vswriter/VSS_RS_ALL, vswriter/VSS_RS_FAILED, vswriter/VSS_RS_NONE, vswriter/VSS_RS_UNDEFINED
 ms.topic: enum
-f1_keywords: 
- - "vswriter/VSS_FILE_RESTORE_STATUS"
+f1_keywords:
+- vswriter/VSS_FILE_RESTORE_STATUS
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - VSS_FILE_RESTORE_STATUS
+- VSS_FILE_RESTORE_STATUS
 targetos: Windows
 req.typenames: VSS_FILE_RESTORE_STATUS
 req.redist: 

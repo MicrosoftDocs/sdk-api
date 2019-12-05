@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.IsErrorPropagationEnabled
 title: IsErrorPropagationEnabled function
-
 description: Indicates whether the CoreApplication.UnhandledErrorDetected event occurs for the errors that are returned by the delegate registered as a callback function for a Windows Runtime API event or the completion of an asynchronous method.
 old-location: winrt\iserrorpropagationenabled.htm
 tech.root: WinRT
 ms.assetid: 9F2DBD9C-5562-43F1-B3C4-475BB0000364
-
 ms.date: 12/5/2018
 ms.keywords: IsErrorPropagationEnabled, IsErrorPropagationEnabled function [Windows Runtime], roerrorapi/IsErrorPropagationEnabled, winrt.iserrorpropagationenabled
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/IsErrorPropagationEnabled"
+f1_keywords:
+- roerrorapi/IsErrorPropagationEnabled
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: RuntimeObject.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RuntimeObject.lib
- - RuntimeObject.dll
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- RuntimeObject.lib
+- RuntimeObject.dll
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - IsErrorPropagationEnabled
+- IsErrorPropagationEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

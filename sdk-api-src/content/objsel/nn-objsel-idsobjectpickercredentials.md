@@ -1,19 +1,17 @@
 ---
 UID: NN:objsel.IDsObjectPickerCredentials
 title: IDsObjectPickerCredentials (objsel.h)
-
 description: The IDsObjectPickerCredentials interface allows you to override credentials for the IDsObjectPicker object implementing this interface.
 old-location: ad\idsobjectpickercredentials.htm
 tech.root: ad
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de
-
 ms.date: 12/05/2018
 ms.keywords: IDsObjectPickerCredentials, IDsObjectPickerCredentials object [Active Directory], IDsObjectPickerCredentials object [Active Directory],described, ad.idsobjectpickercredentials, objsel/IDsObjectPickerCredentials
 ms.topic: interface
-f1_keywords: 
- - "objsel/IDsObjectPickerCredentials"
+f1_keywords:
+- objsel/IDsObjectPickerCredentials
 dev_langs:
- - c++
+- c++
 req.header: objsel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Objsel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Objsel.dll
+- Objsel.dll
 api_name:
- - IDsObjectPickerCredentials
+- IDsObjectPickerCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

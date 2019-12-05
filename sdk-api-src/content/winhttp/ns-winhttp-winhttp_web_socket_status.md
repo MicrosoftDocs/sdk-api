@@ -1,19 +1,17 @@
 ---
 UID: NS:winhttp._WINHTTP_WEB_SOCKET_STATUS
 title: WINHTTP_WEB_SOCKET_STATUS (winhttp.h)
-
 description: The WINHTTP_WEB_SOCKET_STATUS enumeration includes the status of a WebSocket operation.
 old-location: http\winhttp_web_socket_status.htm
 tech.root: WinHttp
 ms.assetid: 4e34a306-1238-4a3b-8336-475e904b0a60
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_STATUS, WINHTTP_WEB_SOCKET_STATUS structure [HTTP], http.winhttp_web_socket_status, winhttp/WINHTTP_WEB_SOCKET_STATUS
 ms.topic: struct
 f1_keywords:
 - winhttp/WINHTTP_WEB_SOCKET_STATUS
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows

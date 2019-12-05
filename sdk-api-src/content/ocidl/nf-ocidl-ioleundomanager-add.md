@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Add
 title: IOleUndoManager::Add (ocidl.h)
-
 description: Adds a simple undo unit to the collection. While a parent undo unit is open, the undo manager adds undo units to it by calling IOleParentUndoUnit::Add.
 old-location: com\ioleundomanager_add.htm
 tech.root: com
 ms.assetid: 3288e0c6-e345-4c4d-a7bf-0c5f45c19732
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [COM], Add method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Add method, IOleUndoManager.Add, IOleUndoManager::Add, _ole_ioleundomanager_add, com.ioleundomanager_add, ocidl/IOleUndoManager::Add
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoManager.Add"
+f1_keywords:
+- ocidl/IOleUndoManager.Add
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager.Add
+- IOleUndoManager.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

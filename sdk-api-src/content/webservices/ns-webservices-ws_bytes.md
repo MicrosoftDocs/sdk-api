@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_BYTES
 title: WS_BYTES (webservices.h)
-
 description: Used to serialize and deserialize an array of bytes.
 old-location: wsw\ws_bytes.htm
 tech.root: wsw
 ms.assetid: 0106e372-80bf-4a62-b941-1a4501c92a9c
-
 ms.date: 12/05/2018
 ms.keywords: WS_BYTES, WS_BYTES structure [Web Services for Windows], webservices/WS_BYTES, wsw.ws_bytes
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_BYTES"
+f1_keywords:
+- webservices/WS_BYTES
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_BYTES
+- WS_BYTES
 targetos: Windows
 req.typenames: WS_BYTES
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_COMPARISON_FLAG
 title: WBEM_COMPARISON_FLAG (wbemcli.h)
-
 description: Contains flags that define the comparison to perform when using the IWbemClassObject::CompareTo method.
 old-location: wmi\wbem_comparison_flag.htm
 tech.root: WmiSdk
 ms.assetid: B32685D3-C096-4E1F-BF59-EB68ED497FEC
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_COMPARISON_FLAG, WBEM_COMPARISON_FLAG enumeration [Windows Management Instrumentation], WBEM_COMPARISON_INCLUDE_ALL, WBEM_FLAG_IGNORE_CASE, WBEM_FLAG_IGNORE_CLASS, WBEM_FLAG_IGNORE_DEFAULT_VALUES, WBEM_FLAG_IGNORE_FLAVOR, WBEM_FLAG_IGNORE_OBJECT_SOURCE, WBEM_FLAG_IGNORE_QUALIFIERS, wbemcli/WBEM_COMPARISON_FLAG, wbemcli/WBEM_COMPARISON_INCLUDE_ALL, wbemcli/WBEM_FLAG_IGNORE_CASE, wbemcli/WBEM_FLAG_IGNORE_CLASS, wbemcli/WBEM_FLAG_IGNORE_DEFAULT_VALUES, wbemcli/WBEM_FLAG_IGNORE_FLAVOR, wbemcli/WBEM_FLAG_IGNORE_OBJECT_SOURCE, wbemcli/WBEM_FLAG_IGNORE_QUALIFIERS, wmi.wbem_comparison_flag
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_COMPARISON_FLAG"
+f1_keywords:
+- wbemcli/WBEM_COMPARISON_FLAG
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_COMPARISON_FLAG
+- WBEM_COMPARISON_FLAG
 targetos: Windows
 req.typenames: WBEM_COMPARISON_FLAG
 req.redist: 

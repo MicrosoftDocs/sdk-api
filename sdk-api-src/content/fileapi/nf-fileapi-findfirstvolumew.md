@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindFirstVolumeW
 title: FindFirstVolumeW function (fileapi.h)
-
 description: Retrieves the name of a volume on a computer.
 old-location: fs\findfirstvolume.htm
 tech.root: FileIO
 ms.assetid: 3eaf9903-ae20-47e7-b32c-943bf60e7bbd
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstVolume, FindFirstVolume function [Files], FindFirstVolumeA, FindFirstVolumeW, _win32_findfirstvolume, base.findfirstvolume, fileapi/FindFirstVolume, fileapi/FindFirstVolumeA, fileapi/FindFirstVolumeW, fs.findfirstvolume, winbase/FindFirstVolume, winbase/FindFirstVolumeA, winbase/FindFirstVolumeW
 ms.topic: function
-f1_keywords: 
- - "fileapi/FindFirstVolume"
+f1_keywords:
+- fileapi/FindFirstVolume
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - FindFirstVolume
- - FindFirstVolumeA
- - FindFirstVolumeW
+- FindFirstVolume
+- FindFirstVolumeA
+- FindFirstVolumeW
 targetos: Windows
 req.typenames: 
 req.redist: 

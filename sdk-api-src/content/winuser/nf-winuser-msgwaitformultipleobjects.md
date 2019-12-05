@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MsgWaitForMultipleObjects
 title: MsgWaitForMultipleObjects function (winuser.h)
-
 description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.
 old-location: base\msgwaitformultipleobjects.htm
 tech.root: Sync
 ms.assetid: 0629f1b3-6805-43a7-9aeb-4f80939ec62c
-
 ms.date: 12/05/2018
 ms.keywords: MsgWaitForMultipleObjects, MsgWaitForMultipleObjects function, QS_ALLEVENTS, QS_ALLINPUT, QS_ALLPOSTMESSAGE, QS_HOTKEY, QS_INPUT, QS_KEY, QS_MOUSE, QS_MOUSEBUTTON, QS_MOUSEMOVE, QS_PAINT, QS_POSTMESSAGE, QS_RAWINPUT, QS_SENDMESSAGE, QS_TIMER, _win32_msgwaitformultipleobjects, base.msgwaitformultipleobjects, winuser/MsgWaitForMultipleObjects
 ms.topic: function
-f1_keywords: 
- - "winuser/MsgWaitForMultipleObjects"
+f1_keywords:
+- winuser/MsgWaitForMultipleObjects
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Message-l1-1-0.dll
- - IE_Shims.dll
- - API-MS-Win-RTCore-NTUser-synch-l1-1-0.dll
- - MinUser.dll
- - Ext-MS-Win-NTUser-synch-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-synch-Ext-l1-1-0.dll
- - NTUserSynchExtHost.dll
- - ComBase.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Message-l1-1-0.dll
+- IE_Shims.dll
+- API-MS-Win-RTCore-NTUser-synch-l1-1-0.dll
+- MinUser.dll
+- Ext-MS-Win-NTUser-synch-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-synch-Ext-l1-1-0.dll
+- NTUserSynchExtHost.dll
+- ComBase.dll
 api_name:
- - MsgWaitForMultipleObjects
+- MsgWaitForMultipleObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

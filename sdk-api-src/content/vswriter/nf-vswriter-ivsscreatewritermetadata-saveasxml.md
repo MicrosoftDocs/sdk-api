@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.SaveAsXML
 title: IVssCreateWriterMetadata::SaveAsXML (vswriter.h)
-
 description: The SaveAsXML method saves the Writer Metadata Document that contains a writer's state information to a specified string.
 old-location: base\ivsscreatewritermetadata_saveasxml.htm
 tech.root: VSS
 ms.assetid: 0894912b-85e3-4a5b-bf1b-6bbfe8c9e820
-
 ms.date: 12/05/2018
 ms.keywords: IVssCreateWriterMetadata interface [VSS],SaveAsXML method, IVssCreateWriterMetadata.SaveAsXML, IVssCreateWriterMetadata::SaveAsXML, SaveAsXML, SaveAsXML method [VSS], SaveAsXML method [VSS],IVssCreateWriterMetadata interface, _win32_ivsscreatewritermetadata_saveasxml, base.ivsscreatewritermetadata_saveasxml, vswriter/IVssCreateWriterMetadata::SaveAsXML
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadata.SaveAsXML"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadata.SaveAsXML
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadata.SaveAsXML
+- IVssCreateWriterMetadata.SaveAsXML
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fci.FNFCIOPEN
 title: FNFCIOPEN macro (fci.h)
-
 description: The FNFCIOPEN macro provides the declaration for the application-defined callback function to open a file in an FCI context.
 old-location: winprog\fnfciopen.htm
 tech.root: DevNotes
 ms.assetid: 72cf50cb-c895-4953-9c4d-f8ddaa294f2a
-
 ms.date: 12/05/2018
 ms.keywords: FNFCIOPEN, FNFCIOPEN macro [Windows API], fci/FNFCIOPEN, winprog.fnfciopen
 ms.topic: macro
-f1_keywords: 
- - "fci/FNFCIOPEN"
+f1_keywords:
+- fci/FNFCIOPEN
 dev_langs:
- - c++
+- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fci.h
+- fci.h
 api_name:
- - FNFCIOPEN
+- FNFCIOPEN
 targetos: Windows
 req.typenames: 
 req.redist: 

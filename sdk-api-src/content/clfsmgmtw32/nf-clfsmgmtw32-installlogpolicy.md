@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsmgmtw32.InstallLogPolicy
 title: InstallLogPolicy function (clfsmgmtw32.h)
-
 description: Installs (sets) a policy for a log.
 old-location: fs\installlogpolicy.htm
 tech.root: Clfs
 ms.assetid: c397e506-b7a9-4189-bf1b-6df81db8e187
-
 ms.date: 12/05/2018
 ms.keywords: InstallLogPolicy, InstallLogPolicy function [Files], clfsmgmtw32/InstallLogPolicy, fs.installlogpolicy
 ms.topic: function
 f1_keywords:
 - clfsmgmtw32/InstallLogPolicy
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows

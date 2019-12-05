@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderProperties.GetAt
 title: IProviderProperties::GetAt (functiondiscoveryprovider.h)
-
 description: Gets the property key at the specified index.
 old-location: ncd\iproviderproperties_getat_method.htm
 tech.root: FunDisc
 ms.assetid: f76d010b-f9dd-46d7-9b1f-eba3d11aaef1
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IProviderProperties interface, IProviderProperties interface,GetAt method, IProviderProperties.GetAt, IProviderProperties::GetAt, functiondiscoveryprovider/IProviderProperties::GetAt, ncd.iproviderproperties_getat_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderProperties.GetAt"
+f1_keywords:
+- functiondiscoveryprovider/IProviderProperties.GetAt
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties.GetAt
+- IProviderProperties.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

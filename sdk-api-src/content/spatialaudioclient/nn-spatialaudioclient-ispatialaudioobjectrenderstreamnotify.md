@@ -1,19 +1,17 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectRenderStreamNotify
 title: ISpatialAudioObjectRenderStreamNotify (spatialaudioclient.h)
-
 description: Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.
 old-location: coreaudio\ispatialaudioobjectrenderstreamnotify.htm
 tech.root: CoreAudio
 ms.assetid: 3729D985-9040-43AD-A8B0-045509FE2F20
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectRenderStreamNotify, ISpatialAudioObjectRenderStreamNotify interface [Core Audio], ISpatialAudioObjectRenderStreamNotify interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamnotify, spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
 ms.topic: interface
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectRenderStreamNotify"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectRenderStreamNotify
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamNotify
+- ISpatialAudioObjectRenderStreamNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

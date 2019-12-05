@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordKeys
 title: IISDB_NBIT::GetRecordKeys (dvbsiparser.h)
-
 description: Gets the number_of_keys field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getrecordkeys.htm
 tech.root: mstv
 ms.assetid: c8f58c17-b3b1-4fc8-b6e0-2ab23681280d
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordKeys, GetRecordKeys method [Microsoft TV Technologies], GetRecordKeys method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetRecordKeys method, IISDB_NBIT.GetRecordKeys, IISDB_NBIT::GetRecordKeys, dvbsiparser/IISDB_NBIT::GetRecordKeys, mstv.iisdb_nbit_getrecordkeys
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_NBIT.GetRecordKeys"
+f1_keywords:
+- dvbsiparser/IISDB_NBIT.GetRecordKeys
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_NBIT.GetRecordKeys
+- IISDB_NBIT.GetRecordKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

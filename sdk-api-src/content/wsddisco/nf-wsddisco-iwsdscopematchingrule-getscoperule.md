@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDScopeMatchingRule.GetScopeRule
 title: IWSDScopeMatchingRule::GetScopeRule (wsddisco.h)
-
 description: Is called to return a URI defining the implemented scope matching rule.
 old-location: ncd\iwsdscopematchingrule_getscoperule_method.htm
 tech.root: WsdApi
 ms.assetid: 86ce14eb-555f-4575-a335-8a428cffa20d
-
 ms.date: 12/05/2018
 ms.keywords: GetScopeRule, GetScopeRule method, GetScopeRule method,IWSDScopeMatchingRule interface, IWSDScopeMatchingRule interface,GetScopeRule method, IWSDScopeMatchingRule.GetScopeRule, IWSDScopeMatchingRule::GetScopeRule, ncd.iwsdscopematchingrule_getscoperule_method, wsddisco/IWSDScopeMatchingRule::GetScopeRule
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDScopeMatchingRule.GetScopeRule"
+f1_keywords:
+- wsddisco/IWSDScopeMatchingRule.GetScopeRule
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDScopeMatchingRule.GetScopeRule
+- IWSDScopeMatchingRule.GetScopeRule
 targetos: Windows
 req.typenames: 
 req.redist: 

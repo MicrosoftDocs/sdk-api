@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetStringArray
 title: CInstance::GetStringArray (instance.h)
-
 description: The GetStringArray method retrieves a property that represents an array of strings.
 old-location: wmi\cinstance_getstringarray.htm
 tech.root: WmiSdk
 ms.assetid: d7fc870a-952e-49a9-87ff-c191e4896511
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetStringArray method, CInstance.GetStringArray, CInstance::GetStringArray, GetStringArray, GetStringArray method [Windows Management Instrumentation], GetStringArray method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getstringarray, instance/CInstance::GetStringArray, wmi.cinstance_getstringarray
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetStringArray"
+f1_keywords:
+- instance/CInstance.GetStringArray
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetStringArray
+- CInstance.GetStringArray
 targetos: Windows
 req.typenames: 
 req.redist: 

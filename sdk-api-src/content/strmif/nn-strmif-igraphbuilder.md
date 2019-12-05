@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IGraphBuilder
 title: IGraphBuilder (strmif.h)
-
 description: This interface provides methods that enable an application to build a filter graph.
 old-location: dshow\igraphbuilder.htm
 tech.root: DirectShow
 ms.assetid: 54ed8ac8-4821-4c0c-9fb9-789c70dbca37
-
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder, IGraphBuilder interface [DirectShow], IGraphBuilder interface [DirectShow],described, IGraphBuilderInterface, dshow.igraphbuilder, strmif/IGraphBuilder
 ms.topic: interface
-f1_keywords: 
- - "strmif/IGraphBuilder"
+f1_keywords:
+- strmif/IGraphBuilder
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphBuilder
+- IGraphBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectConstantBuffer
 title: ID3D10EffectConstantBuffer (d3d10effect.h)
-
 description: A constant-buffer interface accesses constant buffers or texture buffers.
 old-location: direct3d10\id3d10effectconstantbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: 03babb38-8c88-954d-43c3-eb8942a15d5a, ID3D10EffectConstantBuffer, ID3D10EffectConstantBuffer interface [Direct3D 10], ID3D10EffectConstantBuffer interface [Direct3D 10],described, d3d10effect/ID3D10EffectConstantBuffer, direct3d10.id3d10effectconstantbuffer
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectConstantBuffer"
+f1_keywords:
+- d3d10effect/ID3D10EffectConstantBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectConstantBuffer
+- ID3D10EffectConstantBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

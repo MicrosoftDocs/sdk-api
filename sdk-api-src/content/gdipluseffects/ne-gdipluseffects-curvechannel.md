@@ -1,19 +1,17 @@
 ---
 UID: NE:gdipluseffects.CurveChannel
 title: CurveChannel (gdipluseffects.h)
-
 description: The CurveChannel enumeration specifies which color channels are affected by a ColorCurve bitmap adjustment.
 old-location: gdiplus\_gdiplus_ENUM_CurveChannel.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\curvechannel.htm
-
 ms.date: 12/05/2018
 ms.keywords: CurveChannel, CurveChannel enumeration [GDI+], CurveChannelAll, CurveChannelBlue, CurveChannelGreen, CurveChannelRed, _gdiplus_ENUM_CurveChannel, gdiplus._gdiplus_ENUM_CurveChannel, gdipluseffects/CurveChannel, gdipluseffects/CurveChannelAll, gdipluseffects/CurveChannelBlue, gdipluseffects/CurveChannelGreen, gdipluseffects/CurveChannelRed
 ms.topic: enum
-f1_keywords: 
- - "gdipluseffects/CurveChannel"
+f1_keywords:
+- gdipluseffects/CurveChannel
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - GdiplusEffects.h
+- GdiplusEffects.h
 api_name:
- - CurveChannel
+- CurveChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

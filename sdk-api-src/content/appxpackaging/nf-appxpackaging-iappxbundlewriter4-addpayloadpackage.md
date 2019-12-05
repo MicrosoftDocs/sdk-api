@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter4.AddPayloadPackage
 title: IAppxBundleWriter4::AddPayloadPackage (appxpackaging.h)
-
 description: Adds a new app package to the bundle.
 old-location: appxpkg\iappxbundlewriter4_addpayloadpackage.htm
 tech.root: appxpkg
 ms.assetid: 5D313F6C-F2EC-42A4-A4A8-8026E7DBF67B
-
 ms.date: 12/05/2018
 ms.keywords: AddPayloadPackage, AddPayloadPackage method [App packaging and management], AddPayloadPackage method [App packaging and management],IAppxBundleWriter4 interface, IAppxBundleWriter4 interface [App packaging and management],AddPayloadPackage method, IAppxBundleWriter4.AddPayloadPackage, IAppxBundleWriter4::AddPayloadPackage, appxpackaging/IAppxBundleWriter4::AddPayloadPackage, appxpkg.iappxbundlewriter4_addpayloadpackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleWriter4.AddPayloadPackage"
+f1_keywords:
+- appxpackaging/IAppxBundleWriter4.AddPayloadPackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleWriter4.AddPayloadPackage
+- IAppxBundleWriter4.AddPayloadPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

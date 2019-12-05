@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.StgOpenAsyncDocfileOnIFillLockBytes
 title: StgOpenAsyncDocfileOnIFillLockBytes function (objbase.h)
-
 description: Opens an existing root asynchronous storage object on a byte-array wrapper object provided by the caller.
 old-location: stg\stgopenasyncdocfileonifilllockbytes.htm
 tech.root: Stg
 ms.assetid: 6772b669-b311-4b7d-8873-44fadbecdec7
-
 ms.date: 12/05/2018
 ms.keywords: StgOpenAsyncDocfileOnIFillLockBytes, StgOpenAsyncDocfileOnIFillLockBytes function [Structured Storage], _stg_stgopenasyncdocfileonifilllockbytes, objbase/StgOpenAsyncDocfileOnIFillLockBytes, stg.stgopenasyncdocfileonifilllockbytes
 ms.topic: function
-f1_keywords: 
- - "objbase/StgOpenAsyncDocfileOnIFillLockBytes"
+f1_keywords:
+- objbase/StgOpenAsyncDocfileOnIFillLockBytes
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - StgOpenAsyncDocfileOnIFillLockBytes
+- StgOpenAsyncDocfileOnIFillLockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

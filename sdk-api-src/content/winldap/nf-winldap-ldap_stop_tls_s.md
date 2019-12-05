@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_stop_tls_s
 title: ldap_stop_tls_s function (winldap.h)
-
 description: Stops the encryption operation started by a call to ldap_start_tls_s.
 old-location: ldap\ldap_stop_tls_s.htm
 tech.root: ldap
 ms.assetid: 7b82e79f-009e-4224-b4ce-12b60e0c1011
-
 ms.date: 12/05/2018
 ms.keywords: ldap.ldap_stop_tls_s, ldap_stop_tls_s, ldap_stop_tls_s function [LDAP], winldap/ldap_stop_tls_s
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_stop_tls_s"
+f1_keywords:
+- winldap/ldap_stop_tls_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_stop_tls_s
+- ldap_stop_tls_s
 targetos: Windows
 req.typenames: 
 req.redist: 

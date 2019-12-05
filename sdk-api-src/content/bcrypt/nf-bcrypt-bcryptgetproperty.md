@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptGetProperty
 title: BCryptGetProperty function (bcrypt.h)
-
 description: Retrieves the value of a named property for a CNG object.
 old-location: security\bcryptgetproperty_func.htm
 tech.root: SecCNG
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4
-
 ms.date: 12/05/2018
 ms.keywords: BCryptGetProperty, BCryptGetProperty function [Security], bcrypt/BCryptGetProperty, security.bcryptgetproperty_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptGetProperty"
+f1_keywords:
+- bcrypt/BCryptGetProperty
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptGetProperty
+- BCryptGetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

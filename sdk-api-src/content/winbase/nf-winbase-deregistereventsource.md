@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeregisterEventSource
 title: DeregisterEventSource function (winbase.h)
-
 description: Closes the specified event log.
 old-location: base\deregistereventsource.htm
 tech.root: EventLog
 ms.assetid: f5d1f4b0-5320-4aec-a129-cafff6f1fed1
-
 ms.date: 12/05/2018
 ms.keywords: DeregisterEventSource, DeregisterEventSource function, _win32_deregistereventsource, base.deregistereventsource, winbase/DeregisterEventSource
 ms.topic: function
-f1_keywords: 
- - "winbase/DeregisterEventSource"
+f1_keywords:
+- winbase/DeregisterEventSource
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-EventLog-Legacy-l1-1-0.dll
- - advapi32legacy.dll
- - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-EventLog-Legacy-l1-1-0.dll
+- advapi32legacy.dll
+- Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - DeregisterEventSource
+- DeregisterEventSource
 targetos: Windows
 req.typenames: 
 req.redist: 

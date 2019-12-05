@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_UseMouseForInput
 title: IInkEdit::put_UseMouseForInput (inked.h)
-
 description: Gets or sets a value that indicates whether the mouse can be used as an input device.
 old-location: tablet\inkedit_usemouseforinput.htm
 tech.root: tablet
 ms.assetid: e4a425db-6a81-494d-818f-50a53d8c124b
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],UseMouseForInput property, IInkEdit.UseMouseForInput, IInkEdit.put_UseMouseForInput, IInkEdit::UseMouseForInput, IInkEdit::get_UseMouseForInput, IInkEdit::put_UseMouseForInput, InkEdit.get_UseMouseForInput, InkEdit.put_UseMouseForInput, UseMouseForInput property [Tablet PC], UseMouseForInput property [Tablet PC],IInkEdit interface, e4a425db-6a81-494d-818f-50a53d8c124b, get_UseMouseForInput, inked/IInkEdit::UseMouseForInput, inked/IInkEdit::get_UseMouseForInput, inked/IInkEdit::put_UseMouseForInput, put_UseMouseForInput, tablet.inkedit_usemouseforinput
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.UseMouseForInput"
+f1_keywords:
+- inked/IInkEdit.UseMouseForInput
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.UseMouseForInput
- - IInkEdit.get_UseMouseForInput
- - IInkEdit.put_UseMouseForInput
- - InkEdit.get_UseMouseForInput
- - InkEdit.put_UseMouseForInput
+- IInkEdit.UseMouseForInput
+- IInkEdit.get_UseMouseForInput
+- IInkEdit.put_UseMouseForInput
+- InkEdit.get_UseMouseForInput
+- InkEdit.put_UseMouseForInput
 targetos: Windows
 req.typenames: 
 req.redist: 

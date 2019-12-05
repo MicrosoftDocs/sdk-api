@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetMediaTime
 title: IAMMediaTypeSample::SetMediaTime (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SetMediaTime method sets the media time stamps for this sample.
 old-location: dshow\iammediatypesample_setmediatime.htm
 tech.root: DirectShow
 ms.assetid: d255840f-9ff5-4eb0-b3b4-1295d77403f8
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetMediaTime method, IAMMediaTypeSample.SetMediaTime, IAMMediaTypeSample::SetMediaTime, IAMMediaTypeSampleSetMediaTime, SetMediaTime, SetMediaTime method [DirectShow], SetMediaTime method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetMediaTime, dshow.iammediatypesample_setmediatime
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.SetMediaTime"
+f1_keywords:
+- amstream/IAMMediaTypeSample.SetMediaTime
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.SetMediaTime
+- IAMMediaTypeSample.SetMediaTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.InsertMenusSB
 title: IShellBrowser::InsertMenusSB (shobjidl_core.h)
-
 description: Allows the container to insert its menu groups into the composite menu that is displayed when an extended namespace is being viewed or used.
 old-location: shell\IShellBrowser_InsertMenusSB.htm
 tech.root: shell
 ms.assetid: 62cbb593-7459-4a4f-96a2-3ec2287e6a26
-
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser interface [Windows Shell],InsertMenusSB method, IShellBrowser.InsertMenusSB, IShellBrowser::InsertMenusSB, InsertMenusSB, InsertMenusSB method [Windows Shell], InsertMenusSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_InsertMenusSB, shell.IShellBrowser_InsertMenusSB, shobjidl_core/IShellBrowser::InsertMenusSB
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellBrowser.InsertMenusSB"
+f1_keywords:
+- shobjidl_core/IShellBrowser.InsertMenusSB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser.InsertMenusSB
+- IShellBrowser.InsertMenusSB
 targetos: Windows
 req.typenames: 
 req.redist: 

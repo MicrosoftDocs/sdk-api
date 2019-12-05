@@ -1,19 +1,17 @@
 ---
 UID: NF:ip2string.RtlIpv4AddressToStringW
 title: RtlIpv4AddressToStringW function (ip2string.h)
-
 description: Converts an IPv4 address to a string in Internet standard dotted-decimal format.
 old-location: iphlp\rtlipv4addresstostring.htm
 tech.root: IpHlp
 ms.assetid: f198b770-9429-4b51-9fb4-06cf9917bc21
-
 ms.date: 12/05/2018
 ms.keywords: RtlIpv4AddressToString, RtlIpv4AddressToString function [IP Helper], RtlIpv4AddressToStringA, RtlIpv4AddressToStringW, ip2string/RtlIpv4AddressToString, ip2string/RtlIpv4AddressToStringA, ip2string/RtlIpv4AddressToStringW, iphlp.rtlipv4addresstostring
 ms.topic: function
-f1_keywords: 
- - "ip2string/RtlIpv4AddressToString"
+f1_keywords:
+- ip2string/RtlIpv4AddressToString
 dev_langs:
- - c++
+- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h, Ip2string.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlIpv4AddressToString
- - RtlIpv4AddressToStringA
- - RtlIpv4AddressToStringW
+- RtlIpv4AddressToString
+- RtlIpv4AddressToStringA
+- RtlIpv4AddressToStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

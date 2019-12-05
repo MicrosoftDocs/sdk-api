@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateUmsCompletionList
 title: CreateUmsCompletionList function (winbase.h)
-
 description: Creates a user-mode scheduling (UMS) completion list.
 old-location: base\createumscompletionlist.htm
 tech.root: ProcThread
 ms.assetid: 6e77b793-a82e-4e23-8c8b-7aff79d69346
-
 ms.date: 12/05/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateUmsCompletionList"
+f1_keywords:
+- winbase/CreateUmsCompletionList
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - CreateUmsCompletionList
+- CreateUmsCompletionList
 targetos: Windows
 req.typenames: 
 req.redist: 

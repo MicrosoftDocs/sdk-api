@@ -1,19 +1,17 @@
 ---
 UID: NE:dcomptypes.DCOMPOSITION_COMPOSITE_MODE
 title: DCOMPOSITION_COMPOSITE_MODE (dcomptypes.h)
-
 description: The mode to use to blend the bitmap content of a visual with the render target.
 old-location: directcomp\dcomposition_composite_mode.htm
 tech.root: directcomp
 ms.assetid: D89379F5-57F8-4838-8E8F-FF261D69DE59
-
 ms.date: 12/05/2018
 ms.keywords: DCOMPOSITION_COMPOSITE_MODE, DCOMPOSITION_COMPOSITE_MODE enumeration [DirectComposition], DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT, DCOMPOSITION_COMPOSITE_MODE_INHERIT, DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND, DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER, dcomptypes/DCOMPOSITION_COMPOSITE_MODE, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_DESTINATION_INVERT, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_INHERIT, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_MIN_BLEND, dcomptypes/DCOMPOSITION_COMPOSITE_MODE_SOURCE_OVER, directcomp.dcomposition_composite_mode
 ms.topic: enum
-f1_keywords: 
- - "dcomptypes/DCOMPOSITION_COMPOSITE_MODE"
+f1_keywords:
+- dcomptypes/DCOMPOSITION_COMPOSITE_MODE
 dev_langs:
- - c++
+- c++
 req.header: dcomptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DcompTypes.h
+- DcompTypes.h
 api_name:
- - DCOMPOSITION_COMPOSITE_MODE
+- DCOMPOSITION_COMPOSITE_MODE
 targetos: Windows
 req.typenames: 
 req.redist: 

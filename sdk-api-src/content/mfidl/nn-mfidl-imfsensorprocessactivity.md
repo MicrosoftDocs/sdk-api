@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSensorProcessActivity
 title: IMFSensorProcessActivity (mfidl.h)
-
 description: Represents the activity of a process associated with a sensor.
 old-location: mf\imfsensorprocessactivity.htm
 tech.root: medfound
 ms.assetid: 833A24EA-11E0-47CF-A710-06E38A1FD50A
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProcessActivity, IMFSensorProcessActivity interface [Media Foundation], IMFSensorProcessActivity interface [Media Foundation],described, mf.imfsensorprocessactivity, mfidl/IMFSensorProcessActivity
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSensorProcessActivity"
+f1_keywords:
+- mfidl/IMFSensorProcessActivity
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorProcessActivity
+- IMFSensorProcessActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

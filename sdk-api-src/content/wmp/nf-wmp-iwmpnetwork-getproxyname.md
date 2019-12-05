@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyName
 title: IWMPNetwork::getProxyName (wmp.h)
-
 description: The getProxyName method retrieves the name of the proxy server being used.
 old-location: wmp\iwmpnetwork_getproxyname.htm
 tech.root: WMP
 ms.assetid: 7bf3adaa-a89d-4ffe-8233-a9c606b39350
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxyName method, IWMPNetwork.getProxyName, IWMPNetwork::getProxyName, IWMPNetworkgetProxyName, getProxyName, getProxyName method [Windows Media Player], getProxyName method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxyname, wmp/IWMPNetwork::getProxyName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.getProxyName"
+f1_keywords:
+- wmp/IWMPNetwork.getProxyName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.getProxyName
+- IWMPNetwork.getProxyName
 targetos: Windows
 req.typenames: 
 req.redist: 

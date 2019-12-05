@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetGlyphOrientationTransform
 title: IDWriteTextAnalyzer1::GetGlyphOrientationTransform (dwrite_1.h)
-
 description: Returns 2x3 transform matrix for the respective angle to draw the glyph run.
 old-location: directwrite\idwritetextanalyzer1_getglyphorientationtransform.htm
 tech.root: DirectWrite
 ms.assetid: 583AFE54-F816-4098-844B-C3F838BE46B0
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphOrientationTransform, GetGlyphOrientationTransform method [Direct Write], GetGlyphOrientationTransform method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetGlyphOrientationTransform method, IDWriteTextAnalyzer1.GetGlyphOrientationTransform, IDWriteTextAnalyzer1::GetGlyphOrientationTransform, directwrite.idwritetextanalyzer1_getglyphorientationtransform, dwrite_1/IDWriteTextAnalyzer1::GetGlyphOrientationTransform
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextAnalyzer1.GetGlyphOrientationTransform"
+f1_keywords:
+- dwrite_1/IDWriteTextAnalyzer1.GetGlyphOrientationTransform
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer1.GetGlyphOrientationTransform
+- IDWriteTextAnalyzer1.GetGlyphOrientationTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

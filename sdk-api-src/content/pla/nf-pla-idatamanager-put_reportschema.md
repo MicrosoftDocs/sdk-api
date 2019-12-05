@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.put_ReportSchema
 title: IDataManager::put_ReportSchema (pla.h)
-
 description: Retrieves or sets the schema used to customize the report that the TraceRpt.exe application generates.
 old-location: pla\idatamanager_reportschema.htm
 tech.root: PLA
 ms.assetid: 32620e9d-9541-4c39-9312-937b0b4825ad
-
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],ReportSchema property, IDataManager.ReportSchema, IDataManager.put_ReportSchema, IDataManager::ReportSchema, IDataManager::get_ReportSchema, IDataManager::put_ReportSchema, ReportSchema property [PLA], ReportSchema property [PLA],IDataManager interface, pla.idatamanager_reportschema, pla/IDataManager::ReportSchema, pla/IDataManager::get_ReportSchema, pla/IDataManager::put_ReportSchema, put_ReportSchema
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.ReportSchema"
+f1_keywords:
+- pla/IDataManager.ReportSchema
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.ReportSchema
- - IDataManager.get_ReportSchema
- - IDataManager.put_ReportSchema
+- IDataManager.ReportSchema
+- IDataManager.get_ReportSchema
+- IDataManager.put_ReportSchema
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordVersionIndicator
 title: IISDB_SDTT::GetRecordVersionIndicator (dvbsiparser.h)
-
 description: Receives the version indicator from a record in an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordversionindicator.htm
 tech.root: mstv
 ms.assetid: 3b4b4b4b-84b3-4181-bc84-389e72b66053
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordVersionIndicator, GetRecordVersionIndicator method [Microsoft TV Technologies], GetRecordVersionIndicator method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordVersionIndicator method, IISDB_SDTT.GetRecordVersionIndicator, IISDB_SDTT::GetRecordVersionIndicator, dvbsiparser/IISDB_SDTT::GetRecordVersionIndicator, mstv.iisdb_sdtt_getrecordversionindicator
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_SDTT.GetRecordVersionIndicator"
+f1_keywords:
+- dvbsiparser/IISDB_SDTT.GetRecordVersionIndicator
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_SDTT.GetRecordVersionIndicator
+- IISDB_SDTT.GetRecordVersionIndicator
 targetos: Windows
 req.typenames: 
 req.redist: 

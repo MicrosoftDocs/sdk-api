@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DWriteBlobToFile
 title: D3DWriteBlobToFile function (d3dcompiler.h)
-
 description: Writes a memory blob to a file on disk.
 old-location: direct3dhlsl\d3dwriteblobtofile.htm
 tech.root: direct3dhlsl
 ms.assetid: F21FF3B4-5F69-4C93-9F93-6A12324A664A
-
 ms.date: 12/05/2018
 ms.keywords: D3DWriteBlobToFile, D3DWriteBlobToFile function [HLSL], d3dcompiler/D3DWriteBlobToFile, direct3dhlsl.d3dwriteblobtofile
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DWriteBlobToFile"
+f1_keywords:
+- d3dcompiler/D3DWriteBlobToFile
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - D3DWriteBlobToFile
+- D3DWriteBlobToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

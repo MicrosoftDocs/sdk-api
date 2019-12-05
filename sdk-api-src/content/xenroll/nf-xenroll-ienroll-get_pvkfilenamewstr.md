@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.get_PVKFileNameWStr
 title: IEnroll::get_PVKFileNameWStr (xenroll.h)
-
 description: Sets or retrieves the name of the file that will contain exported keys.
 old-location: security\ienroll4_pvkfilenamewstr.htm
 tech.root: SecCrypto
 ms.assetid: 5518c252-fdca-444b-b87e-9fe3cb3b3e3f
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],PVKFileNameWStr property, IEnroll.PVKFileNameWStr, IEnroll.get_PVKFileNameWStr, IEnroll::PVKFileNameWStr, IEnroll::get_PVKFileNameWStr, IEnroll::put_PVKFileNameWStr, PVKFileNameWStr property [Security], PVKFileNameWStr property [Security],IEnroll interface, get_PVKFileNameWStr, security.ienroll4_pvkfilenamewstr, xenroll/IEnroll::PVKFileNameWStr, xenroll/IEnroll::get_PVKFileNameWStr, xenroll/IEnroll::put_PVKFileNameWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.PVKFileNameWStr"
+f1_keywords:
+- xenroll/IEnroll.PVKFileNameWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.PVKFileNameWStr
- - IEnroll.get_PVKFileNameWStr
- - IEnroll.put_PVKFileNameWStr
+- IEnroll.PVKFileNameWStr
+- IEnroll.get_PVKFileNameWStr
+- IEnroll.put_PVKFileNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.RequestEditSession
 title: ITfContext::RequestEditSession (msctf.h)
-
 description: ITfContext::RequestEditSession method
 old-location: tsf\itfcontext_requesteditsession.htm
 tech.root: TSF
 ms.assetid: 6c7b150c-0ca0-4aa5-8828-0c548dbfb215
-
 ms.date: 12/05/2018
 ms.keywords: ITfContext interface [Text Services Framework],RequestEditSession method, ITfContext.RequestEditSession, ITfContext::RequestEditSession, RequestEditSession, RequestEditSession method [Text Services Framework], RequestEditSession method [Text Services Framework],ITfContext interface, TF_ES_ASYNC, TF_ES_ASYNCDONTCARE, TF_ES_READ, TF_ES_READWRITE, TF_ES_SYNC, _tsf_itfcontext_requesteditsession_ref, msctf/ITfContext::RequestEditSession, tsf.itfcontext_requesteditsession
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.RequestEditSession"
+f1_keywords:
+- msctf/ITfContext.RequestEditSession
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.RequestEditSession
+- ITfContext.RequestEditSession
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

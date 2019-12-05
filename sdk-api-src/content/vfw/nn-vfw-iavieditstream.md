@@ -1,20 +1,18 @@
 ---
 UID: NN:vfw.IAVIEditStream
 title: IAVIEditStream (vfw.h)
-
 description: The IAVIEditStream interface supports manipulating and modifying editable streams. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:\_
-The IAVIEditStream interface supports manipulating and modifying editable streams. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods:
+The IAVIEditStream interface supports manipulating and modifying editable streams. Uses IUnknown::QueryInterface, IUnknown::AddRef, IUnknown::Release in addition to the following custom methods: 
 old-location: multimedia\iavieditstream.htm
 tech.root: Multimedia
 ms.assetid: d32dc386-05cf-4f7b-9785-a38586a09402
-
 ms.date: 12/05/2018
 ms.keywords: IAVIEditStream, IAVIEditStream interface [Windows Multimedia], IAVIEditStream interface [Windows Multimedia],described, _win32_IAVIEditStream, multimedia.iavieditstream, vfw/IAVIEditStream
 ms.topic: interface
-f1_keywords: 
- - "vfw/IAVIEditStream"
+f1_keywords:
+- vfw/IAVIEditStream
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -33,15 +31,15 @@ req.lib: Vfw32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vfw32.lib
- - Vfw32.dll
+- Vfw32.lib
+- Vfw32.dll
 api_name:
- - IAVIEditStream
+- IAVIEditStream
 targetos: Windows
 req.typenames: 
 req.redist: 

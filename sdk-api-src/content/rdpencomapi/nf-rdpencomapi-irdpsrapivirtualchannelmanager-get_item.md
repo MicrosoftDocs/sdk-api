@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.get_Item
 title: IRDPSRAPIVirtualChannelManager::get_Item (rdpencomapi.h)
-
 description: An item in the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager_item.htm
 tech.root: rdp
 ms.assetid: 749072c9-9ad9-41e7-b706-9d27eb684a07
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],Item property, IRDPSRAPIVirtualChannelManager.Item, IRDPSRAPIVirtualChannelManager.get_Item, IRDPSRAPIVirtualChannelManager::Item, IRDPSRAPIVirtualChannelManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIVirtualChannelManager interface, Item property [RDP],RDPSRAPIVirtualChannelManager object, RDPSRAPIVirtualChannelManager object [RDP],Item property, get_Item, rdp.irdpsrapivirtualchannelmanager_item, rdpencomapi/IRDPSRAPIVirtualChannelManager::Item, rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIVirtualChannelManager.Item"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIVirtualChannelManager.Item
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannelManager.Item
- - IRDPSRAPIVirtualChannelManager.get_Item
- - RDPSRAPIVirtualChannelManager.Item
+- IRDPSRAPIVirtualChannelManager.Item
+- IRDPSRAPIVirtualChannelManager.get_Item
+- RDPSRAPIVirtualChannelManager.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

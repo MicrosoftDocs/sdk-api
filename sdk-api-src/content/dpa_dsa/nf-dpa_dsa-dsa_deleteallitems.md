@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_DeleteAllItems
 title: DSA_DeleteAllItems function (dpa_dsa.h)
-
 description: Deletes all items from a dynamic structure array (DSA).
 old-location: controls\DSA_DeleteAllItems.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_deleteallitems.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_DeleteAllItems, DSA_DeleteAllItems function [Windows Controls], _shell_DSA_DeleteAllItems, _shell_DSA_DeleteAllItems_cpp, controls.DSA_DeleteAllItems, controls._shell_DSA_DeleteAllItems, dpa_dsa/DSA_DeleteAllItems
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_DeleteAllItems"
+f1_keywords:
+- dpa_dsa/DSA_DeleteAllItems
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DSA_DeleteAllItems
+- DSA_DeleteAllItems
 targetos: Windows
 req.typenames: 
 req.redist: 

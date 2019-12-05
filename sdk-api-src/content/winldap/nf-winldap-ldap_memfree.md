@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_memfree
 title: ldap_memfree function (winldap.h)
-
 description: Frees memory allocated from the LDAP heap.
 old-location: ldap\ldap_memfree.htm
 tech.root: ldap
 ms.assetid: 3256a202-4245-4bea-a66c-0f28bfe2ef7e
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_memfree, ldap.ldap__memfree, ldap.ldap_memfree, ldap_memfree, ldap_memfree function [LDAP], ldap_memfreeA, ldap_memfreeW, winldap/ldap_memfree, winldap/ldap_memfreeA, winldap/ldap_memfreeW"
+ms.keywords: _ldap_ldap_memfree, ldap.ldap__memfree, ldap.ldap_memfree, ldap_memfree, ldap_memfree function [LDAP], ldap_memfreeA, ldap_memfreeW, winldap/ldap_memfree, winldap/ldap_memfreeA, winldap/ldap_memfreeW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_memfree"
+f1_keywords:
+- winldap/ldap_memfree
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_memfree
- - ldap_memfreeA
- - ldap_memfreeW
+- ldap_memfree
+- ldap_memfreeA
+- ldap_memfreeW
 targetos: Windows
 req.typenames: 
 req.redist: 

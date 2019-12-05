@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElement.IsShown
 title: ITfUIElement::IsShown (msctf.h)
-
 description: The ITfUIElement::IsShown method returns true if the UI is currently shown by a text service; otherwise false.
 old-location: tsf\itfuielement_isshown.htm
 tech.root: TSF
 ms.assetid: 84253cbe-a30e-4def-b268-0f5f1b7d54dc
-
 ms.date: 12/05/2018
 ms.keywords: ITfUIElement interface [Text Services Framework],IsShown method, ITfUIElement.IsShown, ITfUIElement::IsShown, IsShown, IsShown method [Text Services Framework], IsShown method [Text Services Framework],ITfUIElement interface, msctf/ITfUIElement::IsShown, tsf.itfuielement_isshown
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElement.IsShown"
+f1_keywords:
+- msctf/ITfUIElement.IsShown
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElement.IsShown
+- ITfUIElement.IsShown
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

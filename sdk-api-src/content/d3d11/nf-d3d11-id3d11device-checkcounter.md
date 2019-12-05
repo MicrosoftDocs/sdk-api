@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CheckCounter
 title: ID3D11Device::CheckCounter (d3d11.h)
-
 description: Get the type, name, units of measure, and a description of an existing counter.
 old-location: direct3d11\id3d11device_checkcounter.htm
 tech.root: direct3d11
 ms.assetid: b09feac6-79c8-4f40-bfa1-028d4490b039
-
 ms.date: 12/05/2018
 ms.keywords: 6fe48914-c164-b2f3-ada5-6ebc529a69a9, CheckCounter, CheckCounter method [Direct3D 11], CheckCounter method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CheckCounter method, ID3D11Device.CheckCounter, ID3D11Device::CheckCounter, d3d11/ID3D11Device::CheckCounter, direct3d11.id3d11device_checkcounter
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CheckCounter"
+f1_keywords:
+- d3d11/ID3D11Device.CheckCounter
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CheckCounter
+- ID3D11Device.CheckCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.IEnumAddress
 title: IEnumAddress (tapi3if.h)
-
 description: The IEnumAddress interface provides COM-standard enumeration methods for the ITAddress interface. The ITTAPI::EnumerateAddresses and ITAgentHandler::EnumerateUsableAddresses methods return a pointer to IEnumAddress.
 old-location: tapi3\ienumaddress.htm
 tech.root: Tapi
 ms.assetid: bfe9f12e-ceb7-4120-8193-70feb2bc7c85
-
 ms.date: 12/05/2018
 ms.keywords: IEnumAddress, IEnumAddress interface [TAPI 2.2], IEnumAddress interface [TAPI 2.2],described, _tapi3_ienumaddress, tapi3.ienumaddress, tapi3if/IEnumAddress
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/IEnumAddress"
+f1_keywords:
+- tapi3if/IEnumAddress
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumAddress
+- IEnumAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

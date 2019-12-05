@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_DescriptionUnresolved
 title: IDataCollectorSet::get_DescriptionUnresolved (pla.h)
-
 description: Retrieves the description of the data collector set in its original form.
 old-location: pla\idatacollectorset_descriptionunresolved.htm
 tech.root: PLA
 ms.assetid: 153159b2-54dc-477a-92eb-18328ea3351b
-
 ms.date: 12/05/2018
 ms.keywords: DescriptionUnresolved property [PLA], DescriptionUnresolved property [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],DescriptionUnresolved property, IDataCollectorSet.DescriptionUnresolved, IDataCollectorSet.get_DescriptionUnresolved, IDataCollectorSet::DescriptionUnresolved, IDataCollectorSet::get_DescriptionUnresolved, get_DescriptionUnresolved, pla.idatacollectorset_descriptionunresolved, pla/IDataCollectorSet::DescriptionUnresolved, pla/IDataCollectorSet::get_DescriptionUnresolved
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.DescriptionUnresolved"
+f1_keywords:
+- pla/IDataCollectorSet.DescriptionUnresolved
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.DescriptionUnresolved
- - IDataCollectorSet.get_DescriptionUnresolved
+- IDataCollectorSet.DescriptionUnresolved
+- IDataCollectorSet.get_DescriptionUnresolved
 targetos: Windows
 req.typenames: 
 req.redist: 

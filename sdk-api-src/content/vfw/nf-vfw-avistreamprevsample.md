@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamPrevSample
 title: AVIStreamPrevSample macro (vfw.h)
-
 description: The AVIStreamPrevSample macro locates the nearest nonempty sample that precedes a specified position in a stream.
 old-location: multimedia\avistreamprevsample.htm
 tech.root: Multimedia
 ms.assetid: 86bc141f-6e58-49ac-b3f1-1e29e028be31
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamPrevSample, AVIStreamPrevSample macro [Windows Multimedia], _win32_AVIStreamPrevSample, multimedia.avistreamprevsample, vfw/AVIStreamPrevSample
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamPrevSample"
+f1_keywords:
+- vfw/AVIStreamPrevSample
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamPrevSample
+- AVIStreamPrevSample
 targetos: Windows
 req.typenames: 
 req.redist: 

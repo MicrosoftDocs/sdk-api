@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.SetNameEntry
 title: ICertEncodeAltName::SetNameEntry (certenc.h)
-
 description: Sets a name at a specified index of the alternate name array.
 old-location: security\icertencodealtname_setnameentry.htm
 tech.root: SecCrypto
 ms.assetid: 5da07c09-9213-4604-b058-5e69df646b09
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],SetNameEntry method, CERT_ALT_NAME_DIRECTORY_NAME, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_IP_ADDRESS, CERT_ALT_NAME_OTHER_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeAltName interface [Security],SetNameEntry method, ICertEncodeAltName.SetNameEntry, ICertEncodeAltName::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeAltName object, SetNameEntry method [Security],ICertEncodeAltName interface, _certsrv_icertencodealtname_setnameentry, certenc/ICertEncodeAltName::SetNameEntry, security.icertencodealtname_setnameentry
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeAltName.SetNameEntry"
+f1_keywords:
+- certenc/ICertEncodeAltName.SetNameEntry
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeAltName.SetNameEntry
- - CCertEncodeAltName.SetNameEntry
+- ICertEncodeAltName.SetNameEntry
+- CCertEncodeAltName.SetNameEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

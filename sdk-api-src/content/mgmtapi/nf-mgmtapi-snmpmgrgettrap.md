@@ -1,19 +1,17 @@
 ---
 UID: NF:mgmtapi.SnmpMgrGetTrap
 title: SnmpMgrGetTrap function (mgmtapi.h)
-
 description: The SnmpMgrGetTrap function returns outstanding trap data that the caller has not received if trap reception is enabled. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrgettrap.htm
 tech.root: SNMP
 ms.assetid: ce773bbe-0a05-45b5-af80-fc594a83b87a
-
 ms.date: 12/05/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpMgrGetTrap, SnmpMgrGetTrap function [SNMP], _snmp_snmpmgrgettrap, mgmtapi/SnmpMgrGetTrap, snmp.snmpmgrgettrap
 ms.topic: function
-f1_keywords: 
- - "mgmtapi/SnmpMgrGetTrap"
+f1_keywords:
+- mgmtapi/SnmpMgrGetTrap
 dev_langs:
- - c++
+- c++
 req.header: mgmtapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mgmtapi.lib
 req.dll: Mgmtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mgmtapi.dll
+- Mgmtapi.dll
 api_name:
- - SnmpMgrGetTrap
+- SnmpMgrGetTrap
 targetos: Windows
 req.typenames: 
 req.redist: 

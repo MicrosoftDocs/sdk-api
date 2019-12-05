@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumSystemLanguageGroupsA
 title: EnumSystemLanguageGroupsA function (winnls.h)
-
 description: Enumerates the language groups that are either installed on or supported by an operating system.
 old-location: intl\enumsystemlanguagegroups.htm
 tech.root: Intl
 ms.assetid: 8cc2335e-b222-44d9-a966-4b6803639071
-
 ms.date: 12/05/2018
 ms.keywords: EnumSystemLanguageGroups, EnumSystemLanguageGroups function [Internationalization for Windows Applications], EnumSystemLanguageGroupsA, EnumSystemLanguageGroupsW, LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_EnumSystemLanguageGroups, intl.enumsystemlanguagegroups, winnls/EnumSystemLanguageGroups, winnls/EnumSystemLanguageGroupsA, winnls/EnumSystemLanguageGroupsW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumSystemLanguageGroups"
+f1_keywords:
+- winnls/EnumSystemLanguageGroups
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - EnumSystemLanguageGroups
- - EnumSystemLanguageGroupsA
- - EnumSystemLanguageGroupsW
+- EnumSystemLanguageGroups
+- EnumSystemLanguageGroupsA
+- EnumSystemLanguageGroupsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_CREATE_FLAGS
 title: CLUSTER_RESOURCE_CREATE_FLAGS (clusapi.h)
-
 description: Determines which resource monitor a given resource will be assigned to.
 old-location: mscs\cluster_resource_create_flags.htm
 tech.root: MsCS
 ms.assetid: 16f5ab58-2507-431a-98f9-bd00a24485ba
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_CREATE_FLAGS, CLUSTER_RESOURCE_CREATE_FLAGS enumeration [Failover Cluster], CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, CLUSTER_RESOURCE_VALID_FLAGS, _CLUSTER_RESOURCE_CREATE_FLAGS, _CLUSTER_RESOURCE_CREATE_FLAGS enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_CREATE_FLAGS, clusapi/CLUSTER_RESOURCE_DEFAULT_MONITOR, clusapi/CLUSTER_RESOURCE_SEPARATE_MONITOR, clusapi/CLUSTER_RESOURCE_VALID_FLAGS, clusapi/_CLUSTER_RESOURCE_CREATE_FLAGS, msclus/CLUSTER_RESOURCE_CREATE_FLAGS, msclus/CLUSTER_RESOURCE_DEFAULT_MONITOR, msclus/CLUSTER_RESOURCE_SEPARATE_MONITOR, msclus/CLUSTER_RESOURCE_VALID_FLAGS, msclus/_CLUSTER_RESOURCE_CREATE_FLAGS, mscs.cluster_resource_create_flags
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_RESOURCE_CREATE_FLAGS"
+f1_keywords:
+- clusapi/CLUSTER_RESOURCE_CREATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_RESOURCE_CREATE_FLAGS
+- CLUSTER_RESOURCE_CREATE_FLAGS
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_CREATE_FLAGS
 req.redist: 

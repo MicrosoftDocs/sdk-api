@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPathname.GetNumElements
 title: IADsPathname::GetNumElements (iads.h)
-
 description: Retrieves the number of elements in the path.
 old-location: adsi\iadspathname_getnumelements.htm
 tech.root: adsi
 ms.assetid: ad6518c8-d379-4062-888f-cbf84995fc39
-
 ms.date: 12/05/2018
 ms.keywords: GetNumElements, GetNumElements method [ADSI], GetNumElements method [ADSI],IADsPathname interface, IADsPathname interface [ADSI],GetNumElements method, IADsPathname.GetNumElements, IADsPathname::GetNumElements, _ds_iadspathname_getnumelements, adsi.iadspathname__getnumelements, adsi.iadspathname_getnumelements, iads/IADsPathname::GetNumElements
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPathname.GetNumElements"
+f1_keywords:
+- iads/IADsPathname.GetNumElements
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPathname.GetNumElements
+- IADsPathname.GetNumElements
 targetos: Windows
 req.typenames: 
 req.redist: 

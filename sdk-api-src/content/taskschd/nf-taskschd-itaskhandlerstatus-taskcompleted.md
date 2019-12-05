@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskHandlerStatus.TaskCompleted
 title: ITaskHandlerStatus::TaskCompleted (taskschd.h)
-
 description: Tells the Task Scheduler that the COM handler is completed.
 old-location: taskschd\itaskhandlerstatus_taskcompleted.htm
 tech.root: taskschd
 ms.assetid: e6f7adf5-3cdb-4691-bc0a-682df7f019e2
-
 ms.date: 12/05/2018
 ms.keywords: ITaskHandlerStatus interface [Task Scheduler],TaskCompleted method, ITaskHandlerStatus.TaskCompleted, ITaskHandlerStatus::TaskCompleted, TaskCompleted, TaskCompleted method [Task Scheduler], TaskCompleted method [Task Scheduler],ITaskHandlerStatus interface, taskschd.itaskhandlerstatus_taskcompleted, taskschd/ITaskHandlerStatus::TaskCompleted
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskHandlerStatus.TaskCompleted"
+f1_keywords:
+- taskschd/ITaskHandlerStatus.TaskCompleted
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskHandlerStatus.TaskCompleted
+- ITaskHandlerStatus.TaskCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

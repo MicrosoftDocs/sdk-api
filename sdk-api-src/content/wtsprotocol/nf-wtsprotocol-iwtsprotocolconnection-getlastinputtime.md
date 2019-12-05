@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLastInputTime
 title: IWTSProtocolConnection::GetLastInputTime (wtsprotocol.h)
-
 description: IWTSProtocolConnection::GetLastInputTime is no longer available. Instead, use IWRdsProtocolConnection::GetLastInputTime.
 old-location: termserv\iwtsprotocolconnection_getlastinputtime.htm
 tech.root: TermServ
 ms.assetid: 8daecbde-8866-4ae9-a07c-32d28d321392
-
 ms.date: 12/05/2018
 ms.keywords: GetLastInputTime, GetLastInputTime method [Remote Desktop Services], GetLastInputTime method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLastInputTime method, IWTSProtocolConnection.GetLastInputTime, IWTSProtocolConnection::GetLastInputTime, termserv.iwtsprotocolconnection_getlastinputtime, wtsprotocol/IWTSProtocolConnection::GetLastInputTime
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.GetLastInputTime"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.GetLastInputTime
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetLastInputTime
+- IWTSProtocolConnection.GetLastInputTime
 targetos: Windows
 req.typenames: 
 req.redist: 

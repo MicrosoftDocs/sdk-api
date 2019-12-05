@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.VideoModePreferrence
 title: IDvdControl::VideoModePreferrence (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the video display mode the user prefers.
 old-location: dshow\idvdcontrol_videomodepreferrence.htm
 tech.root: DirectShow
 ms.assetid: 9e68b09c-534c-46d2-bda0-72f3d1d86b66
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],VideoModePreferrence method, IDvdControl.VideoModePreferrence, IDvdControl::VideoModePreferrence, IDvdControlVideoModePreferrence, VideoModePreferrence, VideoModePreferrence method [DirectShow], VideoModePreferrence method [DirectShow],IDvdControl interface, dshow.idvdcontrol_videomodepreferrence, strmif/IDvdControl::VideoModePreferrence
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.VideoModePreferrence"
+f1_keywords:
+- strmif/IDvdControl.VideoModePreferrence
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.VideoModePreferrence
+- IDvdControl.VideoModePreferrence
 targetos: Windows
 req.typenames: 
 req.redist: 

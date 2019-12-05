@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetEffects
 title: ITextFont2::GetEffects (tom.h)
-
 description: Gets the character format effects.
 old-location: controls\itextfont2_geteffects.htm
 tech.root: Controls
 ms.assetid: a182df7e-2024-48fc-9767-7110ffff0b4c
-
 ms.date: 12/05/2018
 ms.keywords: GetEffects, GetEffects method [Windows Controls], GetEffects method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetEffects method, ITextFont2.GetEffects, ITextFont2::GetEffects, controls.itextfont2_geteffects, tom/ITextFont2::GetEffects, tomAllCaps, tomBold, tomDisabled, tomEmboss, tomHidden, tomImprint, tomInlineObjectStart, tomItalic, tomLink, tomLinkProtected, tomMathZone, tomMathZoneDisplay, tomMathZoneNoBuildUp, tomMathZoneOrdinary, tomOutline, tomProtected, tomRevised, tomShadow, tomSmallCaps, tomStrikeout, tomUnderline
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetEffects"
+f1_keywords:
+- tom/ITextFont2.GetEffects
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetEffects
+- ITextFont2.GetEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

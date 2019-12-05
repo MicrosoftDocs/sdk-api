@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._AdrClientDisplayFlags
 title: AdrClientDisplayFlags (fsrmenums.h)
-
 description: Describes the possible types of access denied remediation (ADR) client display flags.
 old-location: fsrm\adrclientdisplayflags.htm
 tech.root: fsrm
 ms.assetid: 939ecb44-e59b-452d-901f-72207a6ae89a
-
 ms.date: 12/05/2018
 ms.keywords: AdrClientDisplayFlags, AdrClientDisplayFlags enumeration [File Server Resource Manager], AdrClientDisplayFlags_AllowEmailRequests, AdrClientDisplayFlags_ShowDeviceTroubleshooting, fs.adrclientdisplayflags, fsrm.adrclientdisplayflags, fsrmenums/AdrClientDisplayFlags, fsrmenums/AdrClientDisplayFlags_AllowEmailRequests, fsrmenums/AdrClientDisplayFlags_ShowDeviceTroubleshooting
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/AdrClientDisplayFlags"
+f1_keywords:
+- fsrmenums/AdrClientDisplayFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - AdrClientDisplayFlags
+- AdrClientDisplayFlags
 targetos: Windows
 req.typenames: AdrClientDisplayFlags
 req.redist: 

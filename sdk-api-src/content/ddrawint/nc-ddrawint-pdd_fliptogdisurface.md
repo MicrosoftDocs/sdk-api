@@ -1,19 +1,17 @@
 ---
 UID: NC:ddrawint.PDD_FLIPTOGDISURFACE
 title: PDD_FLIPTOGDISURFACE (ddrawint.h)
-
 description: The DdFlipToGDISurface callback function notifies the driver when DirectDraw is flipping to or from a GDI surface.
 old-location: display\ddfliptogdisurface.htm
 tech.root: display
 ms.assetid: 279987bb-1697-4157-9d61-d503b0183e84
-
 ms.date: 12/05/2018
 ms.keywords: DdFlipToGDISurface, DdFlipToGDISurface callback function [Display Devices], PDD_FLIPTOGDISURFACE, PDD_FLIPTOGDISURFACE callback, ddfncs_667de7ca-b9d4-4267-9d46-79d6c950b51c.xml, ddrawint/DdFlipToGDISurface, display.ddfliptogdisurface
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdFlipToGDISurface
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

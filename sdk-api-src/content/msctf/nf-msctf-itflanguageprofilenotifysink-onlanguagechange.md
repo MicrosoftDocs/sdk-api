@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfLanguageProfileNotifySink.OnLanguageChange
 title: ITfLanguageProfileNotifySink::OnLanguageChange (msctf.h)
-
 description: ITfLanguageProfileNotifySink::OnLanguageChange method
 old-location: tsf\itflanguageprofilenotifysink_onlanguagechange.htm
 tech.root: TSF
 ms.assetid: 4367265b-892b-4f75-af23-e90327fb4144
-
 ms.date: 12/05/2018
 ms.keywords: ITfLanguageProfileNotifySink interface [Text Services Framework],OnLanguageChange method, ITfLanguageProfileNotifySink.OnLanguageChange, ITfLanguageProfileNotifySink::OnLanguageChange, OnLanguageChange, OnLanguageChange method [Text Services Framework], OnLanguageChange method [Text Services Framework],ITfLanguageProfileNotifySink interface, _tsf_itflanguageprofilenotifysink_onlanguagechange_ref, msctf/ITfLanguageProfileNotifySink::OnLanguageChange, tsf.itflanguageprofilenotifysink_onlanguagechange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfLanguageProfileNotifySink.OnLanguageChange"
+f1_keywords:
+- msctf/ITfLanguageProfileNotifySink.OnLanguageChange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLanguageProfileNotifySink.OnLanguageChange
+- ITfLanguageProfileNotifySink.OnLanguageChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

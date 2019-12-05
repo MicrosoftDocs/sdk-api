@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.CreateFontFaceWithSimulations
 title: IDWriteFontFaceReference::CreateFontFaceWithSimulations (dwrite_3.h)
-
 description: Creates a font face with alternate font simulations, for example, to explicitly simulate a bold font face out of a regular variant.
 old-location: directwrite\idwritefontfacereference_createfontfacewithsimulations.htm
 tech.root: DirectWrite
 ms.assetid: 99b6fb24-2f66-8132-b66e-ca711bb0c7e0
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontFaceWithSimulations, CreateFontFaceWithSimulations method [Direct Write], CreateFontFaceWithSimulations method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],CreateFontFaceWithSimulations method, IDWriteFontFaceReference.CreateFontFaceWithSimulations, IDWriteFontFaceReference::CreateFontFaceWithSimulations, directwrite.idwritefontfacereference_createfontfacewithsimulations, dwrite_3/IDWriteFontFaceReference::CreateFontFaceWithSimulations
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference.CreateFontFaceWithSimulations"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference.CreateFontFaceWithSimulations
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFaceReference.CreateFontFaceWithSimulations
+- IDWriteFontFaceReference.CreateFontFaceWithSimulations
 targetos: Windows
 req.typenames: 
 req.redist: 

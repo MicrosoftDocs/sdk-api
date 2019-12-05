@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Delete
 title: IWMDMStorageControl::Delete (mswmdm.h)
-
 description: The Delete method permanently deletes this storage.
 old-location: wmdm\iwmdmstoragecontrol_delete.htm
 tech.root: WMDM
 ms.assetid: f2b044d2-6386-4c2e-a437-5ebddf827fb4
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [windows Media Device Manager], Delete method [windows Media Device Manager],IWMDMStorageControl interface, IWMDMStorageControl interface [windows Media Device Manager],Delete method, IWMDMStorageControl.Delete, IWMDMStorageControl::Delete, IWMDMStorageControlDelete, mswmdm/IWMDMStorageControl::Delete, wmdm.iwmdmstoragecontrol_delete
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageControl.Delete"
+f1_keywords:
+- mswmdm/IWMDMStorageControl.Delete
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageControl.Delete
+- IWMDMStorageControl.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

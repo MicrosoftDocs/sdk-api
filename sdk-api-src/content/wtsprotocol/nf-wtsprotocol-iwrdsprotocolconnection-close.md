@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.Close
 title: IWRdsProtocolConnection::Close (wtsprotocol.h)
-
 description: Closes a connection after the session is disconnected.
 old-location: termserv\iwrdsprotocolconnection_close.htm
 tech.root: TermServ
 ms.assetid: 8d159e3f-b429-4522-b608-0068b1f7fa4e
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Remote Desktop Services], Close method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],Close method, IWRdsProtocolConnection.Close, IWRdsProtocolConnection::Close, termserv.iwrdsprotocolconnection_close, wtsprotocol/IWRdsProtocolConnection::Close
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.Close"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.Close
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.Close
+- IWRdsProtocolConnection.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

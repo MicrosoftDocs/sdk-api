@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTransform.SetTransform
 title: IInkTransform::SetTransform (msinkaut.h)
-
 description: Modifies the InkTransform member data.
 old-location: tablet\inktransform_settransform.htm
 tech.root: tablet
 ms.assetid: 5b734703-4117-4668-b881-4ba4e1c65189
-
 ms.date: 12/05/2018
 ms.keywords: 5b734703-4117-4668-b881-4ba4e1c65189, IInkTransform interface [Tablet PC],SetTransform method, IInkTransform.SetTransform, IInkTransform::SetTransform, SetTransform, SetTransform method [Tablet PC], SetTransform method [Tablet PC],IInkTransform interface, msinkaut/IInkTransform::SetTransform, tablet.inktransform_settransform
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTransform.SetTransform"
+f1_keywords:
+- msinkaut/IInkTransform.SetTransform
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTransform.SetTransform
+- IInkTransform.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

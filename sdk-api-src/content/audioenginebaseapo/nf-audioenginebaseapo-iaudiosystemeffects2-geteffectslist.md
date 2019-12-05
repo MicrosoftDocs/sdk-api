@@ -1,19 +1,17 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffects2.GetEffectsList
 title: IAudioSystemEffects2::GetEffectsList (audioenginebaseapo.h)
-
 description: The GetEffectsList method is used for retrieving the list of audio processing effects that are currently active, and stores an event to be signaled if the list changes.
 old-location: audio\iaudiosystemeffects2_geteffectslist.htm
 tech.root: audio
 ms.assetid: FC337D99-E992-43DB-9565-3B46827A7960
-
 ms.date: 12/05/2018
 ms.keywords: GetEffectsList, GetEffectsList method [Audio Devices], GetEffectsList method [Audio Devices],IAudioSystemEffects2 interface, IAudioSystemEffects2 interface [Audio Devices],GetEffectsList method, IAudioSystemEffects2.GetEffectsList, IAudioSystemEffects2::GetEffectsList, audio.iaudiosystemeffects2_geteffectslist, audioenginebaseapo/IAudioSystemEffects2::GetEffectsList
 ms.topic: method
-f1_keywords: 
- - "audioenginebaseapo/IAudioSystemEffects2.GetEffectsList"
+f1_keywords:
+- audioenginebaseapo/IAudioSystemEffects2.GetEffectsList
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioenginebaseapo.h
+- audioenginebaseapo.h
 api_name:
- - IAudioSystemEffects2.GetEffectsList
+- IAudioSystemEffects2.GetEffectsList
 targetos: Windows
 req.typenames: 
 req.redist: 

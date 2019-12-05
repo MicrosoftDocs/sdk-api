@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupParseInvitation
 title: PeerGroupParseInvitation function (p2p.h)
-
 description: The PeerGroupParseInvitation function returns a PEER_INVITATION_INFO structure with the details of a specific invitation.
 old-location: p2p\peergroupparseinvitation.htm
 tech.root: P2PSdk
 ms.assetid: ddc1c419-7be3-4115-af21-1108921c7b1d
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupParseInvitation, PeerGroupParseInvitation function [Peer Networking], p2p.peergroupparseinvitation, p2p/PeerGroupParseInvitation
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupParseInvitation"
+f1_keywords:
+- p2p/PeerGroupParseInvitation
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupParseInvitation
+- PeerGroupParseInvitation
 targetos: Windows
 req.typenames: 
 req.redist: 

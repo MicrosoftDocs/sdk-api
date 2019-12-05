@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
 title: IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter (eventsys.h)
-
 description: Assigns a publisher filter to an event method at run time.
 old-location: cos\imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter.htm
 tech.root: cossdk
 ms.assetid: 0eb52937-3bd8-45ab-b4ba-c0264c47c909
-
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfaceEventControl interface [COM+],SetMultiInterfacePublisherFilter method, IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter, IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter, SetMultiInterfacePublisherFilter method [COM+], SetMultiInterfacePublisherFilter method [COM+],IMultiInterfaceEventControl interface, _cos_IMultiInterfaceEventControl_SetMultiInterfacePublisherFilter, cos.imultiinterfaceeventcontrol_setmultiinterfacepublisherfilter, eventsys/IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
 ms.topic: method
-f1_keywords: 
- - "eventsys/IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter"
+f1_keywords:
+- eventsys/IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
+- IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

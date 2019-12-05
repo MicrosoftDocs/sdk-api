@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.put_Strikethrough
 title: IFont::put_Strikethrough (ocidl.h)
-
 description: Sets the font's Strikethrough property.
 old-location: com\ifont_put_strikethrough.htm
 tech.root: com
 ms.assetid: 32b9c3aa-4c89-441e-9b41-0ac6d8a52bba
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Strikethrough method, IFont.put_Strikethrough, IFont::put_Strikethrough, _ctrl_ifont_put_strikethrough, com.ifont_put_strikethrough, ocidl/IFont::put_Strikethrough, put_Strikethrough, put_Strikethrough method [COM], put_Strikethrough method [COM],IFont interface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.put_Strikethrough"
+f1_keywords:
+- ocidl/IFont.put_Strikethrough
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.put_Strikethrough
+- IFont.put_Strikethrough
 targetos: Windows
 req.typenames: 
 req.redist: 

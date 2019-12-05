@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmSetting.get_AdminEmail
 title: IFsrmSetting::get_AdminEmail (fsrm.h)
-
 description: Retrieves or sets the email address for the administrator.
 old-location: fsrm\ifsrmsetting_adminemail.htm
 tech.root: fsrm
 ms.assetid: 5985f697-f982-481c-896e-e6c3834f645d
-
 ms.date: 12/05/2018
 ms.keywords: AdminEmail property [File Server Resource Manager], AdminEmail property [File Server Resource Manager],FsrmSetting class, AdminEmail property [File Server Resource Manager],IFsrmSetting interface, FsrmSetting class [File Server Resource Manager],AdminEmail property, IFsrmSetting interface [File Server Resource Manager],AdminEmail property, IFsrmSetting.AdminEmail, IFsrmSetting.get_AdminEmail, IFsrmSetting::AdminEmail, IFsrmSetting::get_AdminEmail, IFsrmSetting::put_AdminEmail, fs.ifsrmsetting_adminemail, fsrm.ifsrmsetting_adminemail, fsrm/IFsrmSetting::AdminEmail, fsrm/IFsrmSetting::get_AdminEmail, fsrm/IFsrmSetting::put_AdminEmail, get_AdminEmail
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmSetting.AdminEmail"
+f1_keywords:
+- fsrm/IFsrmSetting.AdminEmail
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmSetting.AdminEmail
- - IFsrmSetting.get_AdminEmail
- - IFsrmSetting.put_AdminEmail
- - FsrmSetting.AdminEmail
+- IFsrmSetting.AdminEmail
+- IFsrmSetting.get_AdminEmail
+- IFsrmSetting.put_AdminEmail
+- FsrmSetting.AdminEmail
 targetos: Windows
 req.typenames: 
 req.redist: 

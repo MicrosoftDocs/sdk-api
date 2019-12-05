@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.RetrieveContents
 title: IWdsTransportNamespace::RetrieveContents (wdstptmgmt.h)
-
 description: Retrieves a collection of active transport content objects associated with the namespace.
 old-location: wds\iwdstransportnamespace_retrievecontents.htm
 tech.root: wds
 ms.assetid: 78afaf1c-f29f-4ab0-8329-d2199ea49c43
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],RetrieveContents method, IWdsTransportNamespace.RetrieveContents, IWdsTransportNamespace::RetrieveContents, RetrieveContents, RetrieveContents method [Windows Deployment Services], RetrieveContents method [Windows Deployment Services],IWdsTransportNamespace interface, wds.iwdstransportnamespace_retrievecontents, wdstptmgmt/IWdsTransportNamespace::RetrieveContents
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.RetrieveContents"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.RetrieveContents
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.RetrieveContents
+- IWdsTransportNamespace.RetrieveContents
 targetos: Windows
 req.typenames: 
 req.redist: 

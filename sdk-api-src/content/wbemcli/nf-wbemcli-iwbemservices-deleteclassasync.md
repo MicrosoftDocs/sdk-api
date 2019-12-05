@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteClassAsync
 title: IWbemServices::DeleteClassAsync (wbemcli.h)
-
 description: The IWbemServices::DeleteClassAsync method deletes the specified class from the current namespace.
 old-location: wmi\iwbemservices_deleteclassasync.htm
 tech.root: WmiSdk
 ms.assetid: ebb58f3b-201c-4e37-8a51-9b5e2365cf3c
-
 ms.date: 12/05/2018
 ms.keywords: DeleteClassAsync, DeleteClassAsync method [Windows Management Instrumentation], DeleteClassAsync method [Windows Management Instrumentation],IWbemServices interface, IWbemServices interface [Windows Management Instrumentation],DeleteClassAsync method, IWbemServices.DeleteClassAsync, IWbemServices::DeleteClassAsync, WBEM_FLAG_OWNER_UPDATE, WBEM_FLAG_SEND_STATUS, _hmm_iwbemservices_deleteclassasync, wbemcli/IWbemServices::DeleteClassAsync, wmi.iwbemservices_deleteclassasync
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemServices.DeleteClassAsync"
+f1_keywords:
+- wbemcli/IWbemServices.DeleteClassAsync
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll; Esscli.dll; FrameDyn.dll; FrameDynOS.dll; Ntevt.dll; Stdprov.dll; Viewprov.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wbemsvc.dll; Wmipicmp.dll; Wmidcprv.dll; Wmipjobj.dll; Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
- - Esscli.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Ntevt.dll
- - Stdprov.dll
- - Viewprov.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wbemsvc.dll
- - Wmipicmp.dll
- - Wmidcprv.dll
- - Wmipjobj.dll
- - Wmiprvsd.dll
+- Fastprox.dll
+- Esscli.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Ntevt.dll
+- Stdprov.dll
+- Viewprov.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wbemsvc.dll
+- Wmipicmp.dll
+- Wmidcprv.dll
+- Wmipjobj.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemServices.DeleteClassAsync
+- IWbemServices.DeleteClassAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

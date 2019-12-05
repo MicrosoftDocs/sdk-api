@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_METRICS
 title: DWRITE_GLYPH_METRICS (dwrite.h)
-
 description: Specifies the metrics of an individual glyph.
 old-location: directwrite\dwrite_glyph_metrics.htm
 tech.root: DirectWrite
 ms.assetid: d2a4ac9f-f510-4235-93bb-e7bdecc65873
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_METRICS, DWRITE_GLYPH_METRICS structure [Direct Write], directwrite.dwrite_glyph_metrics, dwrite/DWRITE_GLYPH_METRICS
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_GLYPH_METRICS"
+f1_keywords:
+- dwrite/DWRITE_GLYPH_METRICS
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_GLYPH_METRICS
+- DWRITE_GLYPH_METRICS
 targetos: Windows
 req.typenames: 
 req.redist: 

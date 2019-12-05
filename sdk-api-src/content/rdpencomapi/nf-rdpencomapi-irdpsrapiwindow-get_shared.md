@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Shared
 title: IRDPSRAPIWindow::get_Shared (rdpencomapi.h)
-
 description: Gets or sets the sharing property for a window.
 old-location: rdp\irdpsrapiwindow_shared.htm
 tech.root: rdp
 ms.assetid: e07ebdbc-79ce-4a85-9960-197c4c7ca445
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Shared property, IRDPSRAPIWindow.Shared, IRDPSRAPIWindow.get_Shared, IRDPSRAPIWindow::Shared, IRDPSRAPIWindow::get_Shared, IRDPSRAPIWindow::put_Shared, RDPSRAPIWindow object [RDP],Shared property, Shared property [RDP], Shared property [RDP],IRDPSRAPIWindow interface, Shared property [RDP],RDPSRAPIWindow object, get_Shared, rdp.irdpsrapiwindow_shared, rdpencomapi/IRDPSRAPIWindow::Shared, rdpencomapi/IRDPSRAPIWindow::get_Shared, rdpencomapi/IRDPSRAPIWindow::put_Shared
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIWindow.Shared"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIWindow.Shared
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIWindow.Shared
- - IRDPSRAPIWindow.get_Shared
- - IRDPSRAPIWindow.put_Shared
- - RDPSRAPIWindow.Shared
+- IRDPSRAPIWindow.Shared
+- IRDPSRAPIWindow.get_Shared
+- IRDPSRAPIWindow.put_Shared
+- RDPSRAPIWindow.Shared
 targetos: Windows
 req.typenames: 
 req.redist: 

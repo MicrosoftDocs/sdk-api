@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardAddReaderToGroupW
 title: SCardAddReaderToGroupW function (winscard.h)
-
 description: Adds a reader to a reader group.
 old-location: security\scardaddreadertogroup.htm
 tech.root: SecAuthN
 ms.assetid: f2f5fcd8-3b60-4c8a-b92c-c63be970cc35
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardAddReaderToGroup, SCardAddReaderToGroup function [Security], SCardAddReaderToGroupA, SCardAddReaderToGroupW, _smart_scardaddreadertogroup, security.scardaddreadertogroup, winscard/SCardAddReaderToGroup, winscard/SCardAddReaderToGroupA, winscard/SCardAddReaderToGroupW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardAddReaderToGroup"
+f1_keywords:
+- winscard/SCardAddReaderToGroup
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardAddReaderToGroup
- - SCardAddReaderToGroupA
- - SCardAddReaderToGroupW
+- SCardAddReaderToGroup
+- SCardAddReaderToGroupA
+- SCardAddReaderToGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 

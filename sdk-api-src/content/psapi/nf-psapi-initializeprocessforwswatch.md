@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.InitializeProcessForWsWatch
 title: InitializeProcessForWsWatch function (psapi.h)
-
 description: Initiates monitoring of the working set of the specified process.
 old-location: psapi\initializeprocessforwswatch.htm
 tech.root: psapi
 ms.assetid: c928656c-a59d-41b5-9434-911329b0278e
-
 ms.date: 12/05/2018
 ms.keywords: InitializeProcessForWsWatch, InitializeProcessForWsWatch function [PSAPI], K32InitializeProcessForWatch, K32InitializeProcessForWsWatch, _win32_initializeprocessforwswatch, base.initializeprocessforwswatch, psapi.initializeprocessforwswatch, psapi/InitializeProcessForWsWatch, psapi/K32InitializeProcessForWsWatch
 ms.topic: function
-f1_keywords: 
- - "psapi/InitializeProcessForWsWatch"
+f1_keywords:
+- psapi/InitializeProcessForWsWatch
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - InitializeProcessForWsWatch
- - K32InitializeProcessForWsWatch
+- InitializeProcessForWsWatch
+- K32InitializeProcessForWsWatch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpoint.GetLatency
 title: IAudioEndpoint::GetLatency (audioengineendpoint.h)
-
 description: Gets the latency of the audio endpoint.
 old-location: termserv\iaudioendpoint_getlatency.htm
 tech.root: TermServ
 ms.assetid: 9afca6b7-2e0e-40a1-bb4a-932dad21b9eb
-
 ms.date: 12/05/2018
 ms.keywords: GetLatency, GetLatency method [Remote Desktop Services], GetLatency method [Remote Desktop Services],IAudioEndpoint interface, IAudioEndpoint interface [Remote Desktop Services],GetLatency method, IAudioEndpoint.GetLatency, IAudioEndpoint::GetLatency, audioengineendpoint/IAudioEndpoint::GetLatency, termserv.iaudioendpoint_getlatency
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpoint.GetLatency"
+f1_keywords:
+- audioengineendpoint/IAudioEndpoint.GetLatency
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpoint.GetLatency
+- IAudioEndpoint.GetLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

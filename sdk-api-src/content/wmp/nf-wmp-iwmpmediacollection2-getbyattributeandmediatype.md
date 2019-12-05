@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection2.getByAttributeAndMediaType
 title: IWMPMediaCollection2::getByAttributeAndMediaType (wmp.h)
-
 description: The getByAttributeAndMediaType method retrieves a pointer to an IWMPPlaylist interface. This interface represents a playlist that contains media items that have a specified attribute and media type.
 old-location: wmp\iwmpmediacollection2_getbyattributeandmediatype.htm
 tech.root: WMP
 ms.assetid: cf925189-1f68-499c-9c98-063a0367dd3c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection2 interface [Windows Media Player],getByAttributeAndMediaType method, IWMPMediaCollection2.getByAttributeAndMediaType, IWMPMediaCollection2::getByAttributeAndMediaType, IWMPMediaCollection2getByAttributeAndMediaType, getByAttributeAndMediaType, getByAttributeAndMediaType method [Windows Media Player], getByAttributeAndMediaType method [Windows Media Player],IWMPMediaCollection2 interface, wmp.iwmpmediacollection2_getbyattributeandmediatype, wmp/IWMPMediaCollection2::getByAttributeAndMediaType
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection2.getByAttributeAndMediaType"
+f1_keywords:
+- wmp/IWMPMediaCollection2.getByAttributeAndMediaType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection2.getByAttributeAndMediaType
+- IWMPMediaCollection2.getByAttributeAndMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResult
 title: EapPeerGetResult function (eapmethodpeerapis.h)
-
 description: Obtains the result of an authentication session from the EAP method.
 old-location: eaphost\eappeergetresult.htm
 tech.root: eaphost
 ms.assetid: fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8
-
 ms.date: 12/05/2018
 ms.keywords: EapPeerGetResult, EapPeerGetResult function [EAPHost], eaphost.eappeergetresult, eapmethodpeerapis/EapPeerGetResult
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerGetResult
 dev_langs:
- - c++
+- c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

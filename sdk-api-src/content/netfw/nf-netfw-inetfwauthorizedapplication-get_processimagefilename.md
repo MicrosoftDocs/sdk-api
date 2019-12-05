@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_ProcessImageFileName
 title: INetFwAuthorizedApplication::get_ProcessImageFileName (netfw.h)
-
 description: Specifies the process image file name for this application.
 old-location: ics\inetfwauthorizedapplication_processimagefilename.htm
 tech.root: ics
 ms.assetid: 14e7c8e1-088c-4eae-8f93-7ee41bfa484b
-
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],ProcessImageFileName property, INetFwAuthorizedApplication.ProcessImageFileName, INetFwAuthorizedApplication.get_ProcessImageFileName, INetFwAuthorizedApplication::ProcessImageFileName, INetFwAuthorizedApplication::get_ProcessImageFileName, INetFwAuthorizedApplication::put_ProcessImageFileName, ProcessImageFileName property [ICS/ICF], ProcessImageFileName property [ICS/ICF],INetFwAuthorizedApplication interface, get_ProcessImageFileName, ics.inetfwauthorizedapplication_processimagefilename, netfw/INetFwAuthorizedApplication::ProcessImageFileName, netfw/INetFwAuthorizedApplication::get_ProcessImageFileName, netfw/INetFwAuthorizedApplication::put_ProcessImageFileName
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplication.ProcessImageFileName"
+f1_keywords:
+- netfw/INetFwAuthorizedApplication.ProcessImageFileName
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication.ProcessImageFileName
- - INetFwAuthorizedApplication.get_ProcessImageFileName
- - INetFwAuthorizedApplication.put_ProcessImageFileName
+- INetFwAuthorizedApplication.ProcessImageFileName
+- INetFwAuthorizedApplication.get_ProcessImageFileName
+- INetFwAuthorizedApplication.put_ProcessImageFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

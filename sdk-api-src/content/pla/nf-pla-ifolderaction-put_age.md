@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderAction.put_Age
 title: IFolderAction::put_Age (pla.h)
-
 description: Retrieves or sets the interval to wait between applying the actions.
 old-location: pla\ifolderaction_age.htm
 tech.root: PLA
 ms.assetid: 5f664ee8-895e-4235-a119-9dc10ababffe
-
 ms.date: 12/05/2018
 ms.keywords: Age property [PLA], Age property [PLA],IFolderAction interface, IFolderAction interface [PLA],Age property, IFolderAction.Age, IFolderAction.put_Age, IFolderAction::Age, IFolderAction::get_Age, IFolderAction::put_Age, base.ifolderaction_age, pla.ifolderaction_age, pla/IFolderAction::Age, pla/IFolderAction::get_Age, pla/IFolderAction::put_Age, put_Age
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderAction.Age"
+f1_keywords:
+- pla/IFolderAction.Age
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderAction.Age
- - IFolderAction.get_Age
- - IFolderAction.put_Age
+- IFolderAction.Age
+- IFolderAction.get_Age
+- IFolderAction.put_Age
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnCreate
 title: IBrowserService2::OnCreate (shdeprecated.h)
-
 description: Deprecated. Calls the derived class from the base class on receipt of a WM_CREATE message. The derived class handles the message.
 old-location: shell\IBrowserService2_OnCreate.htm
 tech.root: shell
 ms.assetid: abfcb67a-c383-4480-9da9-788fb9cebf5e
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],OnCreate method, IBrowserService2.OnCreate, IBrowserService2::OnCreate, OnCreate, OnCreate method [Windows Shell], OnCreate method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::OnCreate, shell.IBrowserService2_OnCreate, zone_IBrowserService2_OnCreate
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.OnCreate"
+f1_keywords:
+- shdeprecated/IBrowserService2.OnCreate
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.OnCreate
+- IBrowserService2.OnCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

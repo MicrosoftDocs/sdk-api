@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetPropertyType
 title: IPropertyDescription::GetPropertyType (propsys.h)
-
 description: Gets the variant type of the property.
 old-location: properties\IPropertyDescription_GetPropertyType.htm
 tech.root: properties
 ms.assetid: 88f960b0-4b83-48d9-af24-ad6995ade550
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyType, GetPropertyType method [Windows Properties], GetPropertyType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetPropertyType method, IPropertyDescription.GetPropertyType, IPropertyDescription::GetPropertyType, VT_BLOB, VT_BOOL, VT_CLSID, VT_FILETIME, VT_I2, VT_I4, VT_I8, VT_LPWSTR, VT_NULL, VT_R8, VT_STREAM, VT_UI1, VT_UI2, VT_UI4, VT_UI8, VT_UNKNOWN, properties.IPropertyDescription_GetPropertyType, propsys/IPropertyDescription::GetPropertyType, shell.IPropertyDescription_GetPropertyType, shell_IPropertyDescription_GetPropertyType
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetPropertyType"
+f1_keywords:
+- propsys/IPropertyDescription.GetPropertyType
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetPropertyType
+- IPropertyDescription.GetPropertyType
 targetos: Windows
 req.typenames: 
 req.redist: 

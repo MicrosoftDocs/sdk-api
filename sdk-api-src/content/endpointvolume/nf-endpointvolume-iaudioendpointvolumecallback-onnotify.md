@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolumeCallback.OnNotify
 title: IAudioEndpointVolumeCallback::OnNotify (endpointvolume.h)
-
 description: The OnNotify method notifies the client that the volume level or muting state of the audio endpoint device has changed.
 old-location: coreaudio\iaudioendpointvolumecallback_onnotify.htm
 tech.root: CoreAudio
 ms.assetid: a8ffad44-c621-4335-a312-16e7d6af2c18
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeCallback interface [Core Audio],OnNotify method, IAudioEndpointVolumeCallback.OnNotify, IAudioEndpointVolumeCallback::OnNotify, IAudioEndpointVolumeCallbackOnNotify, OnNotify, OnNotify method [Core Audio], OnNotify method [Core Audio],IAudioEndpointVolumeCallback interface, coreaudio.iaudioendpointvolumecallback_onnotify, endpointvolume/IAudioEndpointVolumeCallback::OnNotify
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolumeCallback.OnNotify"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolumeCallback.OnNotify
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolumeCallback.OnNotify
+- IAudioEndpointVolumeCallback.OnNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

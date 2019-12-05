@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRasterizerVariable.GetRasterizerState
 title: ID3D10EffectRasterizerVariable::GetRasterizerState (d3d10effect.h)
-
 description: Get a pointer to a rasterizer interface.
 old-location: direct3d10\id3d10effectrasterizervariable_getrasterizerstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable_getrasterizerstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: 34eeb6ad-48c0-8ea5-4ad6-2fc879f8d7a1, GetRasterizerState, GetRasterizerState method [Direct3D 10], GetRasterizerState method [Direct3D 10],ID3D10EffectRasterizerVariable interface, ID3D10EffectRasterizerVariable interface [Direct3D 10],GetRasterizerState method, ID3D10EffectRasterizerVariable.GetRasterizerState, ID3D10EffectRasterizerVariable::GetRasterizerState, d3d10effect/ID3D10EffectRasterizerVariable::GetRasterizerState, direct3d10.id3d10effectrasterizervariable_getrasterizerstate
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectRasterizerVariable.GetRasterizerState"
+f1_keywords:
+- d3d10effect/ID3D10EffectRasterizerVariable.GetRasterizerState
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectRasterizerVariable.GetRasterizerState
+- ID3D10EffectRasterizerVariable.GetRasterizerState
 targetos: Windows
 req.typenames: 
 req.redist: 

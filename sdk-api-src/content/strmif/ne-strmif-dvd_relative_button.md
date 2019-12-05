@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.__MIDL___MIDL_itf_strmif_0000_0132_0004
 title: DVD_RELATIVE_BUTTON (strmif.h)
-
 description: Identifies the four directional buttons used for DVD menu navigation and other operations.
 old-location: dshow\dvd_relative_button.htm
 tech.root: DirectShow
 ms.assetid: f2641b5c-08a4-44a1-8f53-fad636a03c45
-
 ms.date: 12/05/2018
 ms.keywords: DVD_RELATIVE_BUTTON, DVD_RELATIVE_BUTTON , DVD_RELATIVE_BUTTON enumeration [DirectShow], DVD_RELATIVE_BUTTONEnumeration, DVD_Relative_Left, DVD_Relative_Lower, DVD_Relative_Right, DVD_Relative_Upper, dshow.dvd_relative_button, strmif/DVD_RELATIVE_BUTTON, strmif/DVD_Relative_Left, strmif/DVD_Relative_Lower, strmif/DVD_Relative_Right, strmif/DVD_Relative_Upper
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_RELATIVE_BUTTON"
+f1_keywords:
+- strmif/DVD_RELATIVE_BUTTON
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_RELATIVE_BUTTON
+- DVD_RELATIVE_BUTTON
 targetos: Windows
 req.typenames: DVD_RELATIVE_BUTTON
 req.redist: 

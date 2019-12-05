@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupMapWriter
 title: IAppxContentGroupMapWriter (appxpackaging.h)
-
 description: Provides a write-only object model for a content group map.
 old-location: appxpkg\iappxcontentgroupmapwriter.htm
 tech.root: appxpkg
 ms.assetid: A9B3992C-D3D1-4190-9314-A21E388E88BA
-
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupMapWriter, IAppxContentGroupMapWriter interface [App packaging and management], IAppxContentGroupMapWriter interface [App packaging and management],described, appxpackaging/IAppxContentGroupMapWriter, appxpkg.iappxcontentgroupmapwriter
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupMapWriter"
+f1_keywords:
+- appxpackaging/IAppxContentGroupMapWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupMapWriter
+- IAppxContentGroupMapWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

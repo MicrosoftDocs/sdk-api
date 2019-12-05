@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistStartup
 title: PeerDistStartup function (peerdist.h)
-
 description: PeerDistStartup function creates a new Peer Distribution instance handle which must be passed to all other Peer Distribution APIs.
 old-location: p2p\peerdiststartup.htm
 tech.root: P2PSdk
 ms.assetid: 62d4f139-ab18-4d65-bda5-1cf09d7ddab9
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistStartup, PeerDistStartup function [Peer Networking], p2p.peerdiststartup, peerdist/PeerDistStartup
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistStartup"
+f1_keywords:
+- peerdist/PeerDistStartup
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistStartup
+- PeerDistStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tlhelp32.Process32Next
 title: Process32Next function (tlhelp32.h)
-
 description: Retrieves information about the next process recorded in a system snapshot.
 old-location: toolhelp\process32next.htm
 tech.root: ToolHelp
 ms.assetid: 843a95fd-27ae-4215-83d0-82fc402b82b6
-
 ms.date: 12/05/2018
 ms.keywords: Process32Next, Process32Next function [ToolHelp], Process32NextW, _win32_process32next, base.process32next, tlhelp32/Process32Next, tlhelp32/Process32NextW, toolhelp.process32next
 ms.topic: function
-f1_keywords: 
- - "tlhelp32/Process32Next"
+f1_keywords:
+- tlhelp32/Process32Next
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-toolhelp-l1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
- - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-toolhelp-l1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Process32Next
- - Process32Next
- - Process32NextW
+- Process32Next
+- Process32Next
+- Process32NextW
 targetos: Windows
 req.typenames: 
 req.redist: 

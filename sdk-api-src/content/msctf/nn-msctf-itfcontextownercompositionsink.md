@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfContextOwnerCompositionSink
 title: ITfContextOwnerCompositionSink (msctf.h)
-
 description: The ITfContextOwnerCompositionSink interface is implemented by an application to receive composition-related notifications.
 old-location: tsf\itfcontextownercompositionsink.htm
 tech.root: TSF
 ms.assetid: 4fea0a48-df5f-4f34-a3ea-d52883f6f8b1
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerCompositionSink, ITfContextOwnerCompositionSink interface [Text Services Framework], ITfContextOwnerCompositionSink interface [Text Services Framework],described, _tsf_itfcontextownercompositionsink_ref, msctf/ITfContextOwnerCompositionSink, tsf.itfcontextownercompositionsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfContextOwnerCompositionSink"
+f1_keywords:
+- msctf/ITfContextOwnerCompositionSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwnerCompositionSink
+- ITfContextOwnerCompositionSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

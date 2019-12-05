@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHTestTokenMembership
 title: SHTestTokenMembership function (shellapi.h)
-
 description: Uses CheckTokenMembership to test whether the given token is a member of the local group with the specified RID.
 old-location: shell\SHTestTokenMembership.htm
 tech.root: shell
 ms.assetid: ac2d591a-f431-4da7-aa9f-0476634ec9cf
-
 ms.date: 12/05/2018
 ms.keywords: SHTestTokenMembership, SHTestTokenMembership function [Windows Shell], _win32_SHTestTokenMembership, shell.SHTestTokenMembership, shellapi/SHTestTokenMembership
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHTestTokenMembership"
+f1_keywords:
+- shellapi/SHTestTokenMembership
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHTestTokenMembership
+- SHTestTokenMembership
 targetos: Windows
 req.typenames: 
 req.redist: 

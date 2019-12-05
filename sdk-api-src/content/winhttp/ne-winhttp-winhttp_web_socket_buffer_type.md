@@ -1,19 +1,17 @@
 ---
 UID: NE:winhttp._WINHTTP_WEB_SOCKET_BUFFER_TYPE
 title: WINHTTP_WEB_SOCKET_BUFFER_TYPE (winhttp.h)
-
 description: The WINHTTP_WEB_SOCKET_BUFFER_TYPE enumeration includes types of WebSocket buffers.
 old-location: http\winhttp_web_socket_buffer_type.htm
 tech.root: WinHttp
 ms.assetid: 9d730a6e-d05f-48ad-beec-cba6cc5cb17c
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, WINHTTP_WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, WINHTTP_WEB_SOCKET_BUFFER_TYPE, WINHTTP_WEB_SOCKET_BUFFER_TYPE enumeration [HTTP], WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE, WINHTTP_WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, WINHTTP_WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE, http.winhttp_web_socket_buffer_type, winhttp/WINHTTP_WEB_SOCKET_BINARY_FRAGMENT_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_BINARY_MESSAGE_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_CLOSE_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_UTF8_FRAGMENT_BUFFER_TYPE, winhttp/WINHTTP_WEB_SOCKET_UTF8_MESSAGE_BUFFER_TYPE
 ms.topic: enum
-f1_keywords: 
- - "winhttp/WINHTTP_WEB_SOCKET_BUFFER_TYPE"
+f1_keywords:
+- winhttp/WINHTTP_WEB_SOCKET_BUFFER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winhttp.h
+- winhttp.h
 api_name:
- - WINHTTP_WEB_SOCKET_BUFFER_TYPE
+- WINHTTP_WEB_SOCKET_BUFFER_TYPE
 targetos: Windows
 req.typenames: WINHTTP_WEB_SOCKET_BUFFER_TYPE
 req.redist: 

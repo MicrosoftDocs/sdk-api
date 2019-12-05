@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.auxOutMessage
 title: auxOutMessage function (mmeapi.h)
-
 description: The auxOutMessage function sends a message to the given auxiliary output device. This function also performs error checking on the device identifier passed as part of the message.
 old-location: multimedia\auxoutmessage.htm
 tech.root: Multimedia
 ms.assetid: fd4e4cc8-f6b6-4896-abaa-0f0be85f34c0
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_auxOutMessage, auxOutMessage, auxOutMessage function [Windows Multimedia], mmeapi/auxOutMessage, multimedia.auxoutmessage"
+ms.keywords: _win32_auxOutMessage, auxOutMessage, auxOutMessage function [Windows Multimedia], mmeapi/auxOutMessage, multimedia.auxoutmessage
 ms.topic: function
-f1_keywords: 
- - "mmeapi/auxOutMessage"
+f1_keywords:
+- mmeapi/auxOutMessage
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - auxOutMessage
+- auxOutMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

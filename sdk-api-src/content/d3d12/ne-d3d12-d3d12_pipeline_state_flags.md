@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_PIPELINE_STATE_FLAGS
 title: D3D12_PIPELINE_STATE_FLAGS (d3d12.h)
-
 description: Flags to control pipeline state.
 old-location: direct3d12\d3d12_pipeline_state_flags.htm
 tech.root: direct3d12
 ms.assetid: DAE5C06B-ED1F-4B35-812E-31E26B51704C
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_PIPELINE_STATE_FLAGS, D3D12_PIPELINE_STATE_FLAGS enumeration, D3D12_PIPELINE_STATE_FLAG_NONE, D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG, d3d12/D3D12_PIPELINE_STATE_FLAGS, d3d12/D3D12_PIPELINE_STATE_FLAG_NONE, d3d12/D3D12_PIPELINE_STATE_FLAG_TOOL_DEBUG, direct3d12.d3d12_pipeline_state_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_PIPELINE_STATE_FLAGS"
+f1_keywords:
+- d3d12/D3D12_PIPELINE_STATE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_PIPELINE_STATE_FLAGS
+- D3D12_PIPELINE_STATE_FLAGS
 targetos: Windows
 req.typenames: D3D12_PIPELINE_STATE_FLAGS
 req.redist: 

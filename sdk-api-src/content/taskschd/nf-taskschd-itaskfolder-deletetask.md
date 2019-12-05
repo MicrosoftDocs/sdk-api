@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolder.DeleteTask
 title: ITaskFolder::DeleteTask (taskschd.h)
-
 description: Deletes a task from the folder.
 old-location: taskschd\itaskfolder_deletetask.htm
 tech.root: taskschd
 ms.assetid: 5b929abd-c40a-4f6b-9a0b-702d2f26f1fe
-
 ms.date: 12/05/2018
 ms.keywords: DeleteTask, DeleteTask method [Task Scheduler], DeleteTask method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],DeleteTask method, ITaskFolder.DeleteTask, ITaskFolder::DeleteTask, taskschd.itaskfolder_deletetask, taskschd/ITaskFolder::DeleteTask
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolder.DeleteTask"
+f1_keywords:
+- taskschd/ITaskFolder.DeleteTask
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder.DeleteTask
+- ITaskFolder.DeleteTask
 targetos: Windows
 req.typenames: 
 req.redist: 

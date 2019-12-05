@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ISchedule.put_StartTime
 title: ISchedule::put_StartTime (pla.h)
-
 description: Retrieves or sets the time of day when the data collector set runs.
 old-location: pla\ischedule_starttime.htm
 tech.root: PLA
 ms.assetid: 296c9d7d-5629-456f-9119-f06d8b8c476f
-
 ms.date: 12/05/2018
 ms.keywords: ISchedule interface [PLA],StartTime property, ISchedule.StartTime, ISchedule.put_StartTime, ISchedule::StartTime, ISchedule::get_StartTime, ISchedule::put_StartTime, StartTime property [PLA], StartTime property [PLA],ISchedule interface, base.ischedule_starttime, pla.ischedule_starttime, pla/ISchedule::StartTime, pla/ISchedule::get_StartTime, pla/ISchedule::put_StartTime, put_StartTime
 ms.topic: method
-f1_keywords: 
- - "pla/ISchedule.StartTime"
+f1_keywords:
+- pla/ISchedule.StartTime
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ISchedule.StartTime
- - ISchedule.get_StartTime
- - ISchedule.put_StartTime
+- ISchedule.StartTime
+- ISchedule.get_StartTime
+- ISchedule.put_StartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

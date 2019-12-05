@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_TDT.Initialize
 title: IDVB_TDT::Initialize (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_tdt_initialize.htm
 tech.root: mstv
 ms.assetid: 265a171b-57be-40dd-9891-e8a3b64af574
-
 ms.date: 12/05/2018
 ms.keywords: IDVB_TDT interface [Microsoft TV Technologies],Initialize method, IDVB_TDT.Initialize, IDVB_TDT::Initialize, IDVB_TDTInitialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IDVB_TDT interface, dvbsiparser/IDVB_TDT::Initialize, mstv.idvb_tdt_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_TDT.Initialize"
+f1_keywords:
+- dvbsiparser/IDVB_TDT.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_TDT.Initialize
+- IDVB_TDT.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdbase.IWSDHttpAddress
 title: IWSDHttpAddress (wsdbase.h)
-
 description: Provides access to the individual components of an HTTP address.
 old-location: ncd\iwsdhttpaddress.htm
 tech.root: WsdApi
 ms.assetid: 79d3570a-56b2-40ad-b3c6-cddc3239da7e
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpAddress, IWSDHttpAddress interface, IWSDHttpAddress interface,described, ncd.iwsdhttpaddress, wsdbase/IWSDHttpAddress
 ms.topic: interface
-f1_keywords: 
- - "wsdbase/IWSDHttpAddress"
+f1_keywords:
+- wsdbase/IWSDHttpAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpAddress
+- IWSDHttpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.Initialize
 title: IDirectDrawPalette::Initialize (ddraw.h)
-
 description: Initializes the DirectDrawPalette object.
 old-location: directdraw\idirectdrawpalette_initialize.htm
 tech.root: directdraw
 ms.assetid: e0ad7ea1-759d-48e9-8d15-6601d9b15588
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawPalette interface [DirectDraw],Initialize method, IDirectDrawPalette.Initialize, IDirectDrawPalette::Initialize, Initialize, Initialize method [DirectDraw], Initialize method [DirectDraw],IDirectDrawPalette interface, ddraw/IDirectDrawPalette::Initialize, directdraw.idirectdrawpalette_initialize
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawPalette.Initialize"
+f1_keywords:
+- ddraw/IDirectDrawPalette.Initialize
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawPalette.Initialize
+- IDirectDrawPalette.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

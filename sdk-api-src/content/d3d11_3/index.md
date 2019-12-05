@@ -1,7 +1,6 @@
 ---
 UID: NA:d3d11_3
 ms.assetid: 96a11755-f63a-393e-a41b-5eb091bf0934
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

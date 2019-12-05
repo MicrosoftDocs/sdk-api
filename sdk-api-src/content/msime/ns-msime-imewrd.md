@@ -1,19 +1,17 @@
 ---
 UID: NS:msime._IMEWRD
 title: IMEWRD (msime.h)
-
 description: Contains data about a word in the Word data of the Microsoft IME dictionary.
 old-location: intl\imewrd.htm
 tech.root: Intl
 ms.assetid: BC0D039A-7EB4-4A8D-B063-479CF4294FF0
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windows Applications], PIMEWRD, PIMEWRD structure pointer [Internationalization for Windows Applications], intl.imewrd, msime/IMEWRD, msime/PIMEWRD"
+ms.keywords: '*PIMEWRD, IMEWRD, IMEWRD structure [Internationalization for Windows Applications], PIMEWRD, PIMEWRD structure pointer [Internationalization for Windows Applications], intl.imewrd, msime/IMEWRD, msime/PIMEWRD'
 ms.topic: struct
-f1_keywords: 
- - "msime/IMEWRD"
+f1_keywords:
+- msime/IMEWRD
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IMEWRD
+- IMEWRD
 targetos: Windows
 req.typenames: IMEWRD, *PIMEWRD
 req.redist: 

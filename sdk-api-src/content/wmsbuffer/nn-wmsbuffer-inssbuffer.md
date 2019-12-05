@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer
 title: INSSBuffer (wmsbuffer.h)
-
 description: The INSSBuffer interface is the basic interface of a buffer object.
 old-location: wmformat\inssbuffer.htm
 tech.root: wmformat
 ms.assetid: c47c016a-e7eb-4a2c-b365-5537749db5bc
-
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer, INSSBuffer interface [windows Media Format], INSSBuffer interface [windows Media Format],described, INSSBufferInterface, wmformat.inssbuffer, wmsbuffer/INSSBuffer
 ms.topic: interface
-f1_keywords: 
- - "wmsbuffer/INSSBuffer"
+f1_keywords:
+- wmsbuffer/INSSBuffer
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsbuffer.h
+- wmsbuffer.h
 api_name:
- - INSSBuffer
+- INSSBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

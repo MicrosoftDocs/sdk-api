@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsOpenChannel
 title: WsOpenChannel function (webservices.h)
-
 description: Open a channel to an endpoint.
 old-location: wsw\wsopenchannel.htm
 tech.root: wsw
 ms.assetid: a7226194-0974-4f3c-b92d-78a93e86eea5
-
 ms.date: 12/05/2018
 ms.keywords: WsOpenChannel, WsOpenChannel function [Web Services for Windows], webservices/WsOpenChannel, wsw.wsopenchannel
 ms.topic: function
-f1_keywords: 
- - "webservices/WsOpenChannel"
+f1_keywords:
+- webservices/WsOpenChannel
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsOpenChannel
+- WsOpenChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

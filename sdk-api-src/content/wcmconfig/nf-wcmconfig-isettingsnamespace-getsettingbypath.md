@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.GetSettingByPath
 title: ISettingsNamespace::GetSettingByPath (wcmconfig.h)
-
 description: Gets the setting object specified by a path.
 old-location: smi\isettingsnamespace_getsettingbypath.htm
 tech.root: SMI
 ms.assetid: 7deadfed-036d-40cd-88b6-7afaf8fc7d41
-
 ms.date: 12/05/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsNamespace interface, ISettingsNamespace interface [SMI],GetSettingByPath method, ISettingsNamespace.GetSettingByPath, ISettingsNamespace::GetSettingByPath, smi.isettingsnamespace_getsettingbypath, wcmconfig/ISettingsNamespace::GetSettingByPath
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsNamespace.GetSettingByPath"
+f1_keywords:
+- wcmconfig/ISettingsNamespace.GetSettingByPath
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsNamespace.GetSettingByPath
+- ISettingsNamespace.GetSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 

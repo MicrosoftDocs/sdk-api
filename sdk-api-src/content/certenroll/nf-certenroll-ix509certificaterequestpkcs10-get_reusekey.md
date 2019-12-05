@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_ReuseKey
 title: IX509CertificateRequestPkcs10::get_ReuseKey (certenroll.h)
-
 description: Retrieves a Boolean value that indicates whether an existing private key was used to sign the request.
 old-location: security\ix509certificaterequestpkcs10_reusekey_property.htm
 tech.root: seccertenroll
 ms.assetid: b6788885-1036-4edd-bbb9-4d9808771d95
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],ReuseKey property, IX509CertificateRequestPkcs10.ReuseKey, IX509CertificateRequestPkcs10.get_ReuseKey, IX509CertificateRequestPkcs10::ReuseKey, IX509CertificateRequestPkcs10::get_ReuseKey, ReuseKey property [Security], ReuseKey property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::ReuseKey, certenroll/IX509CertificateRequestPkcs10::get_ReuseKey, get_ReuseKey, security.ix509certificaterequestpkcs10_reusekey_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.ReuseKey"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.ReuseKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.ReuseKey
- - IX509CertificateRequestPkcs10.get_ReuseKey
+- IX509CertificateRequestPkcs10.ReuseKey
+- IX509CertificateRequestPkcs10.get_ReuseKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeTextMetrics
 title: GetThemeTextMetrics function (uxtheme.h)
-
 description: Retrieves information about the font specified by a visual style for a particular part.
 old-location: controls\GetThemeTextMetrics.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextmetrics.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeTextMetrics, GetThemeTextMetrics function [Windows Controls], controls.GetThemeTextMetrics, controls.inet_GetThemeTextMetrics, inet_GetThemeTextMetrics, inet_GetThemeTextMetrics_cpp, uxtheme/GetThemeTextMetrics
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeTextMetrics"
+f1_keywords:
+- uxtheme/GetThemeTextMetrics
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeTextMetrics
+- GetThemeTextMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-sub-assign
 title: WBEMTimeSpan::operator-sub-assign (wbemtime.h)
-
 description: Compares two WBEMTimeSpan objects using the subtract and assign operator (&#8211;=).
 old-location: wmi\wbemtimespan_operator_minus_equal.htm
 tech.root: WmiSdk
 ms.assetid: 4cf466bc-278e-4352-a818-ed74ff65903a
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator-= method, WBEMTimeSpan.operator-=, WBEMTimeSpan.operator-sub-assign, WBEMTimeSpan::operator-=, WBEMTimeSpan::operator-sub-assign, _hmm_wbemtimespan_operator_minus_equal, operator-=, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-=, wmi.wbemtimespan_operator_minus_equal
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.operator-="
+f1_keywords:
+- wbemtime/WBEMTimeSpan.operator-=
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.operator-=
+- WBEMTimeSpan.operator-=
 targetos: Windows
 req.typenames: 
 req.redist: 

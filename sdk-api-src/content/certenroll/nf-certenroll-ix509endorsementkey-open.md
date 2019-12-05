@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.Open
 title: IX509EndorsementKey::Open (certenroll.h)
-
 description: Opens the endorsement key. The endorsement key must be open before you can retrieve an information from the endorsement key, add or remove certificates, or export the endorsement key.
 old-location: security\ix509endorsementkey_open.htm
 tech.root: seccertenroll
 ms.assetid: 06855fc0-0d87-4fe7-9525-55eb60bffcd1
-
 ms.date: 12/05/2018
 ms.keywords: IX509EndorsementKey interface [Security],Open method, IX509EndorsementKey.Open, IX509EndorsementKey::Open, Open, Open method [Security], Open method [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Open, security.ix509endorsementkey_open
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EndorsementKey.Open"
+f1_keywords:
+- certenroll/IX509EndorsementKey.Open
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509EndorsementKey.Open
+- IX509EndorsementKey.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

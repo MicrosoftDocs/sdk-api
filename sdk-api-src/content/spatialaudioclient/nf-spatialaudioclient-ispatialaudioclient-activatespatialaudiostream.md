@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.ActivateSpatialAudioStream
 title: ISpatialAudioClient::ActivateSpatialAudioStream (spatialaudioclient.h)
-
 description: Activates and initializes spatial audio stream using one of the spatial audio stream activation structures.
 old-location: coreaudio\ispatialaudioclient_activatespatialaudiostream.htm
 tech.root: CoreAudio
 ms.assetid: CBBB5A62-D342-4FB7-890C-9FE37949CC07
-
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioStream, ActivateSpatialAudioStream method [Core Audio], ActivateSpatialAudioStream method [Core Audio],ISpatialAudioClient interface, ISpatialAudioClient interface [Core Audio],ActivateSpatialAudioStream method, ISpatialAudioClient.ActivateSpatialAudioStream, ISpatialAudioClient::ActivateSpatialAudioStream, coreaudio.ispatialaudioclient_activatespatialaudiostream, spatialaudioclient/ISpatialAudioClient::ActivateSpatialAudioStream
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioClient.ActivateSpatialAudioStream"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioClient.ActivateSpatialAudioStream
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioClient.ActivateSpatialAudioStream
+- ISpatialAudioClient.ActivateSpatialAudioStream
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_GAUSSIANBLUR_OPTIMIZATION
 title: D2D1_GAUSSIANBLUR_OPTIMIZATION (d2d1effects.h)
-
 description: The optimization mode for the Gaussian blur effect.
 old-location: direct2d\d2d1_gaussianblur_optimization.htm
 tech.root: Direct2D
 ms.assetid: D6A8BB3A-8286-4410-8EA3-A9AEA1797C5E
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_GAUSSIANBLUR_OPTIMIZATION, D2D1_GAUSSIANBLUR_OPTIMIZATION enumeration [Direct2D], D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED, D2D1_GAUSSIANBLUR_OPTIMIZATION_QUALITY, D2D1_GAUSSIANBLUR_OPTIMIZATION_SPEED, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION_BALANCED, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION_QUALITY, d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION_SPEED, direct2d.d2d1_gaussianblur_optimization
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION"
+f1_keywords:
+- d2d1effects/D2D1_GAUSSIANBLUR_OPTIMIZATION
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_GAUSSIANBLUR_OPTIMIZATION
+- D2D1_GAUSSIANBLUR_OPTIMIZATION
 targetos: Windows
 req.typenames: D2D1_GAUSSIANBLUR_OPTIMIZATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IShellRunDll
 title: IShellRunDll (shobjidl.h)
-
 description: Not supported.
 old-location: shell\IShellRunDll.htm
 tech.root: shell
 ms.assetid: e2e62966-dfe2-4458-8c3f-fc88669b3aeb
-
 ms.date: 12/05/2018
 ms.keywords: IShellRunDll, IShellRunDll interface [Windows Shell], IShellRunDll interface [Windows Shell],described, _shell_IShellRunDll, shell.IShellRunDll, shobjidl/IShellRunDll
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IShellRunDll"
+f1_keywords:
+- shobjidl/IShellRunDll
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl.h
+- shobjidl.h
 api_name:
- - IShellRunDll
+- IShellRunDll
 targetos: Windows
 req.typenames: 
 req.redist: 

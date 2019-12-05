@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_InputsAvailable
 title: IMSVidCtl::get_InputsAvailable (msvidctl.h)
-
 description: The get_InputsAvailable method retrieves the input devices that are available within a specified category.
 old-location: mstv\imsvidctl_get_inputsavailable.htm
 tech.root: mstv
 ms.assetid: 7ed22c3e-745a-4680-a5fc-accef56ab348
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_InputsAvailable method, IMSVidCtl.get_InputsAvailable, IMSVidCtl::get_InputsAvailable, IMSVidCtlget_InputsAvailable, get_InputsAvailable, get_InputsAvailable method [Microsoft TV Technologies], get_InputsAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_inputsavailable, msvidctl/IMSVidCtl::get_InputsAvailable
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_InputsAvailable"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_InputsAvailable
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_InputsAvailable
+- IMSVidCtl.get_InputsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

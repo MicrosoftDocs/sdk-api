@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._encorrecttext
 title: ENCORRECTTEXT (richedit.h)
-
 description: Contains information about the selected text to be corrected.
 old-location: controls\ENCORRECTTEXT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\encorrecttext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENCORRECTTEXT, ENCORRECTTEXT structure [Windows Controls], SEL_MULTICHAR, SEL_MULTIOBJECT, SEL_OBJECT, SEL_TEXT, _win32_ENCORRECTTEXT_str, _win32_ENCORRECTTEXT_str_cpp, controls.ENCORRECTTEXT, controls._win32_ENCORRECTTEXT_str, richedit/ENCORRECTTEXT
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENCORRECTTEXT"
+f1_keywords:
+- richedit/ENCORRECTTEXT
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENCORRECTTEXT
+- ENCORRECTTEXT
 targetos: Windows
 req.typenames: ENCORRECTTEXT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dmoreg._DMO_PARTIAL_MEDIATYPE
 title: DMO_PARTIAL_MEDIATYPE (dmoreg.h)
-
 description: The DMO_PARTIAL_MEDIATYPE structure partially describes a media type used by a Microsoft DirectX Media Object (DMO). The DMO registration functions use this structure to specify supported media types.
 old-location: dshow\dmo_partial_mediatype.htm
 tech.root: DirectShow
 ms.assetid: 53bf4c34-d180-4edd-b59a-55d7d90708b5
-
 ms.date: 12/05/2018
-ms.keywords: "*PDMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE structure [DirectShow], DMO_PARTIAL_MEDIATYPEStructure, PDMO_PARTIAL_MEDIATYPE, PDMO_PARTIAL_MEDIATYPE structure pointer [DirectShow], dmoreg/DMO_PARTIAL_MEDIATYPE, dmoreg/PDMO_PARTIAL_MEDIATYPE, dshow.dmo_partial_mediatype"
+ms.keywords: '*PDMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE, DMO_PARTIAL_MEDIATYPE structure [DirectShow], DMO_PARTIAL_MEDIATYPEStructure, PDMO_PARTIAL_MEDIATYPE, PDMO_PARTIAL_MEDIATYPE structure pointer [DirectShow], dmoreg/DMO_PARTIAL_MEDIATYPE, dmoreg/PDMO_PARTIAL_MEDIATYPE, dshow.dmo_partial_mediatype'
 ms.topic: struct
-f1_keywords: 
- - "dmoreg/DMO_PARTIAL_MEDIATYPE"
+f1_keywords:
+- dmoreg/DMO_PARTIAL_MEDIATYPE
 dev_langs:
- - c++
+- c++
 req.header: dmoreg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dmoreg.h
+- Dmoreg.h
 api_name:
- - DMO_PARTIAL_MEDIATYPE
+- DMO_PARTIAL_MEDIATYPE
 targetos: Windows
 req.typenames: DMO_PARTIAL_MEDIATYPE, *PDMO_PARTIAL_MEDIATYPE
 req.redist: 

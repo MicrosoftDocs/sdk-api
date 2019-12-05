@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsFilterStatusInfo
 title: DhcpEnumSubnetClientsFilterStatusInfo function (dhcpsapi.h)
-
 description: Enumerates all of the DHCP clients serviced on the specified subnet, and includes link-layer filter status for each of them.
 old-location: dhcp\dhcpenumsubnetclientsfilterstatusinfo.htm
 tech.root: DHCP
 ms.assetid: a88455ca-ba64-46d0-af8f-be90c57d96f3
-
 ms.date: 12/05/2018
 ms.keywords: DhcpEnumSubnetClientsFilterStatusInfo, DhcpEnumSubnetClientsFilterStatusInfo function [DHCP], dhcp.dhcpenumsubnetclientsfilterstatusinfo, dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo"
+f1_keywords:
+- dhcpsapi/DhcpEnumSubnetClientsFilterStatusInfo
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpEnumSubnetClientsFilterStatusInfo
+- DhcpEnumSubnetClientsFilterStatusInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

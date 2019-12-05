@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Tint.Tint
 title: Tint::Tint (gdipluseffects.h)
-
 description: Creates a Tint object.
 old-location: gdiplus\_gdiplus_CLASS_Tint_Tint_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintconstructors\tint.htm
-
 ms.date: 12/05/2018
 ms.keywords: Tint, Tint class [GDI+],Tint constructor, Tint constructor [GDI+], Tint constructor [GDI+],Tint class, Tint.Tint, Tint::Tint, _gdiplus_CLASS_Tint_Tint_, gdiplus._gdiplus_CLASS_Tint_Tint_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Tint.Tint"
+f1_keywords:
+- gdipluseffects/Tint.Tint
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Tint.Tint
+- Tint.Tint
 targetos: Windows
 req.typenames: 
 req.redist: 

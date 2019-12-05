@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_FEATURE_DATA_DOUBLES
 title: D2D1_FEATURE_DATA_DOUBLES (d2d1effectauthor.h)
-
 description: Describes the support for doubles in shaders.
 old-location: direct2d\d2d1_feature_data_doubles.htm
 tech.root: Direct2D
 ms.assetid: 29EDAD15-FFFF-4F0D-BB0D-B4BF37AC609F
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_FEATURE_DATA_DOUBLES, D2D1_FEATURE_DATA_DOUBLES structure [Direct2D], d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES, direct2d.d2d1_feature_data_doubles
 ms.topic: struct
-f1_keywords: 
- - "d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES"
+f1_keywords:
+- d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - D2D1_FEATURE_DATA_DOUBLES
+- D2D1_FEATURE_DATA_DOUBLES
 targetos: Windows
 req.typenames: D2D1_FEATURE_DATA_DOUBLES
 req.redist: 

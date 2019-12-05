@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMShareable.GetOwner
 title: IXpsOMShareable::GetOwner (xpsobjectmodel.h)
-
 description: Gets the IUnknown interface of the parent.
 old-location: xps\ixpsomshareable_getowner.htm
 tech.root: printdocs
 ms.assetid: da871b31-2787-44cc-8678-43d529472f61
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMShareable interface, IXpsOMShareable interface [XPS Documents and Packaging],GetOwner method, IXpsOMShareable.GetOwner, IXpsOMShareable::GetOwner, xps.ixpsomshareable_getowner, xpsobjectmodel/IXpsOMShareable::GetOwner
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMShareable.GetOwner"
+f1_keywords:
+- xpsobjectmodel/IXpsOMShareable.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMShareable.GetOwner
+- IXpsOMShareable.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerWriteValueMax
 title: PowerWriteValueMax function (powrprof.h)
-
 description: Sets the maximum value for the specified power setting.
 old-location: base\powerwritevaluemax.htm
 tech.root: power
 ms.assetid: 5a633d49-0d25-4073-b7a7-d1bdef1b8697
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteValueMax, PowerWriteValueMax function, base.powerwritevaluemax, powrprof/PowerWriteValueMax
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerWriteValueMax"
+f1_keywords:
+- powrprof/PowerWriteValueMax
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerWriteValueMax
+- PowerWriteValueMax
 targetos: Windows
 req.typenames: 
 req.redist: 

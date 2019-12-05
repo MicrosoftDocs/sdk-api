@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFSHUTDOWN_STATUS
 title: MFSHUTDOWN_STATUS (mfidl.h)
-
 description: Describes the current status of a call to the IMFShutdown::Shutdown method.
 old-location: mf\mfshutdown_status.htm
 tech.root: medfound
 ms.assetid: a2257260-3f2c-4c6b-88cc-b8927b899782
-
 ms.date: 12/05/2018
 ms.keywords: MFSHUTDOWN_COMPLETED, MFSHUTDOWN_INITIATED, MFSHUTDOWN_STATUS, MFSHUTDOWN_STATUS enumeration [Media Foundation], a2257260-3f2c-4c6b-88cc-b8927b899782, mf.mfshutdown_status, mfidl/MFSHUTDOWN_COMPLETED, mfidl/MFSHUTDOWN_INITIATED, mfidl/MFSHUTDOWN_STATUS
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFSHUTDOWN_STATUS"
+f1_keywords:
+- mfidl/MFSHUTDOWN_STATUS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFSHUTDOWN_STATUS
+- MFSHUTDOWN_STATUS
 targetos: Windows
 req.typenames: MFSHUTDOWN_STATUS
 req.redist: 

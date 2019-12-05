@@ -1,19 +1,17 @@
 ---
 UID: NF:lpmapi.LPM_Deinitialize
 title: LPM_Deinitialize function (lpmapi.h)
-
 description: The LPM_Deinitialize function allows the PCM to instruct LPMs to deinitialize, whether due to system shutdown or a change in Designated Subnet Bandwidth Manager (DSBM) status.
 old-location: qos\lpm_deinitialize.htm
 tech.root: QOS
 ms.assetid: d3a1edc5-a3fd-4c49-9cd9-f06ba56fec81
-
 ms.date: 12/05/2018
 ms.keywords: LPM_Deinitialize, LPM_Deinitialize callback, LPM_Deinitialize callback function [QOS], _gqos_lpm_deinitialize, lpmapi/LPM_Deinitialize, qos.lpm_deinitialize
 ms.topic: function
-f1_keywords: 
- - "lpmapi/LPM_Deinitialize"
+f1_keywords:
+- lpmapi/LPM_Deinitialize
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - LPM_Deinitialize
+- LPM_Deinitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

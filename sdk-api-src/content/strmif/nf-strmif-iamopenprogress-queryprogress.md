@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMOpenProgress.QueryProgress
 title: IAMOpenProgress::QueryProgress (strmif.h)
-
 description: The QueryProgress method retrieves the progress of the file-open operation.
 old-location: dshow\iamopenprogress_queryprogress.htm
 tech.root: DirectShow
 ms.assetid: 8471271d-36cc-4660-8a4e-4c234ba6b406
-
 ms.date: 12/05/2018
 ms.keywords: IAMOpenProgress interface [DirectShow],QueryProgress method, IAMOpenProgress.QueryProgress, IAMOpenProgress::QueryProgress, IAMOpenProgressQueryProgress, QueryProgress, QueryProgress method [DirectShow], QueryProgress method [DirectShow],IAMOpenProgress interface, dshow.iamopenprogress_queryprogress, strmif/IAMOpenProgress::QueryProgress
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMOpenProgress.QueryProgress"
+f1_keywords:
+- strmif/IAMOpenProgress.QueryProgress
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMOpenProgress.QueryProgress
+- IAMOpenProgress.QueryProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

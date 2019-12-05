@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetWCHAR
 title: CInstance::GetWCHAR (instance.h)
-
 description: The GetWCHAR method retrieves a WCHAR string property.
 old-location: wmi\cinstance_getwchar.htm
 tech.root: WmiSdk
 ms.assetid: 1c2f3dfc-aa84-4dff-a25b-b8f2ec3afa74
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWCHAR method, CInstance.GetWCHAR, CInstance::GetWCHAR, GetWCHAR, GetWCHAR method [Windows Management Instrumentation], GetWCHAR method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getwchar, instance/CInstance::GetWCHAR, wmi.cinstance_getwchar
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetWCHAR"
+f1_keywords:
+- instance/CInstance.GetWCHAR
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetWCHAR
+- CInstance.GetWCHAR
 targetos: Windows
 req.typenames: 
 req.redist: 

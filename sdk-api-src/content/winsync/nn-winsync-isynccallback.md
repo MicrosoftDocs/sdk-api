@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncCallback
 title: ISyncCallback (winsync.h)
-
 description: Represents application callbacks that are used to notify the application of synchronization events.
 old-location: winsync\isynccallback.htm
 tech.root: winsync
 ms.assetid: f6c96e02-e9db-402c-8197-580f688b068f
-
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback, ISyncCallback interface [Windows Sync], ISyncCallback interface [Windows Sync],described, winsync.isynccallback, winsync/ISyncCallback
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncCallback"
+f1_keywords:
+- winsync/ISyncCallback
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncCallback
+- ISyncCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

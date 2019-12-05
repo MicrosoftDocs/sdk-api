@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxEncryptedPackageWriter
 title: IAppxEncryptedPackageWriter (appxpackaging.h)
-
 description: Provides a write-only object model for encrypted app packages.
 old-location: appxpkg\iappxencryptedpackagewriter.htm
 tech.root: appxpkg
 ms.assetid: 19096DFB-A8CF-4DEF-863B-3DBB9E893A8D
-
 ms.date: 12/05/2018
 ms.keywords: IAppxEncryptedPackageWriter, IAppxEncryptedPackageWriter interface [App packaging and management], IAppxEncryptedPackageWriter interface [App packaging and management],described, appxpackaging/IAppxEncryptedPackageWriter, appxpkg.iappxencryptedpackagewriter
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxEncryptedPackageWriter"
+f1_keywords:
+- appxpackaging/IAppxEncryptedPackageWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptedPackageWriter
+- IAppxEncryptedPackageWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

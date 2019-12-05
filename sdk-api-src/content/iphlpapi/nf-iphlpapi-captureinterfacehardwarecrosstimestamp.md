@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.CaptureInterfaceHardwareCrossTimestamp
 title: CaptureInterfaceHardwareCrossTimestamp function (iphlpapi.h)
-
 description: This function is reserved for system use, and you should not call it from your code.
 old-location: iphlp\captureinterfacehardwarecrosstimestamp.htm
 tech.root: IpHlp
 ms.assetid: FB3C27CD-7D56-40F3-9DF9-A1115772D1C6
-
 ms.date: 12/05/2018
 ms.keywords: CaptureInterfaceHardwareCrossTimestamp, CaptureInterfaceHardwareCrossTimestamp function [IP Helper], iphlp.captureinterfacehardwarecrosstimestamp, iphlpapi/CaptureInterfaceHardwareCrossTimestamp
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/CaptureInterfaceHardwareCrossTimestamp"
+f1_keywords:
+- iphlpapi/CaptureInterfaceHardwareCrossTimestamp
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CaptureInterfaceHardwareCrossTimestamp
+- CaptureInterfaceHardwareCrossTimestamp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpDeleteSuperScopeV4
 title: DhcpDeleteSuperScopeV4 function (dhcpsapi.h)
-
 description: Deletes a superscope from the DHCP server.
 old-location: dhcp\dhcpdeletesuperscopev4.htm
 tech.root: DHCP
 ms.assetid: 5d61f39d-8423-43c4-89ab-4c28214ee84d
-
 ms.date: 12/05/2018
 ms.keywords: DhcpDeleteSuperScopeV4, DhcpDeleteSuperScopeV4 function [DHCP], dhcp.dhcpdeletesuperscopev4, dhcpsapi/DhcpDeleteSuperScopeV4
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpDeleteSuperScopeV4"
+f1_keywords:
+- dhcpsapi/DhcpDeleteSuperScopeV4
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpDeleteSuperScopeV4
+- DhcpDeleteSuperScopeV4
 targetos: Windows
 req.typenames: 
 req.redist: 

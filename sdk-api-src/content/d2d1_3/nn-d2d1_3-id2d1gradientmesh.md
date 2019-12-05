@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1GradientMesh
 title: ID2D1GradientMesh (d2d1_3.h)
-
 description: Represents a device-dependent representation of a gradient mesh composed of patches. Use the ID2D1DeviceContext2::CreateGradientMesh method to create an instance of ID2D1GradientMesh.
 old-location: direct2d\id2d1gradientmesh.htm
 tech.root: Direct2D
 ms.assetid: 0c51da97-7b70-d828-2a4d-cb62ff378a56
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GradientMesh, ID2D1GradientMesh interface [Direct2D], ID2D1GradientMesh interface [Direct2D],described, d2d1_3/ID2D1GradientMesh, direct2d.id2d1gradientmesh
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1GradientMesh"
+f1_keywords:
+- d2d1_3/ID2D1GradientMesh
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - ID2D1GradientMesh
+- ID2D1GradientMesh
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetCharRep
 title: ITextFont2::SetCharRep (tom.h)
-
 description: Sets the character repertoire (writing system).
 old-location: controls\itextfont2_setcharrep.htm
 tech.root: Controls
 ms.assetid: 6c57b5e5-a5c7-416a-851c-fc8ef16b5a9a
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetCharRep method, ITextFont2.SetCharRep, ITextFont2::SetCharRep, SetCharRep, SetCharRep method [Windows Controls], SetCharRep method [Windows Controls],ITextFont2 interface, controls.itextfont2_setcharrep, tom/ITextFont2::SetCharRep
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetCharRep"
+f1_keywords:
+- tom/ITextFont2.SetCharRep
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetCharRep
+- ITextFont2.SetCharRep
 targetos: Windows
 req.typenames: 
 req.redist: 

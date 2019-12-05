@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreFloat3
 title: XMStoreFloat3 function (directxmath.h)
-
 description: Stores an XMVECTOR in an XMFLOAT3.
 old-location: dxmath\xmstorefloat3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat3(XMFLOAT3@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreFloat3, XMStoreFloat3, XMStoreFloat3 method [DirectX Math Support APIs], dxmath.xmstorefloat3
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreFloat3"
+f1_keywords:
+- directxmath/XMStoreFloat3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreFloat3
+- XMStoreFloat3
 targetos: Windows
 req.typenames: 
 req.redist: 

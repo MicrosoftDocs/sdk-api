@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICommandHandler.UpdateProperty
 title: IUICommandHandler::UpdateProperty (uiribbon.h)
-
 description: Responds to property update requests from the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuicommandhandler_updateproperty.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\updateproperty.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUICommandHandler interface [Windows Ribbon],UpdateProperty method, IUICommandHandler.UpdateProperty, IUICommandHandler::UpdateProperty, UpdateProperty, UpdateProperty method [Windows Ribbon], UpdateProperty method [Windows Ribbon],IUICommandHandler interface, scenicintent_IUICommandHandler_UpdateProperty, uiribbon/IUICommandHandler::UpdateProperty, windowsribbon.windowsribbon_iuicommandhandler_updateproperty
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICommandHandler.UpdateProperty"
+f1_keywords:
+- uiribbon/IUICommandHandler.UpdateProperty
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICommandHandler.UpdateProperty
+- IUICommandHandler.UpdateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

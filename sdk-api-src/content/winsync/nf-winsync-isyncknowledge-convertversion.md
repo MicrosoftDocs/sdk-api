@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ConvertVersion
 title: ISyncKnowledge::ConvertVersion (winsync.h)
-
 description: Converts a version from another replica into one that is compatible with the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_convertversion.htm
 tech.root: winsync
 ms.assetid: f41edaa3-7c4e-4b2c-9897-474b3e7bfb67
-
 ms.date: 12/05/2018
 ms.keywords: ConvertVersion, ConvertVersion method [Windows Sync], ConvertVersion method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ConvertVersion method, ISyncKnowledge.ConvertVersion, ISyncKnowledge::ConvertVersion, winsync.isyncknowledge_convertversion, winsync/ISyncKnowledge::ConvertVersion
 ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.ConvertVersion
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

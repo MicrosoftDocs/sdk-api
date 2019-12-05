@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterClipboardFormatW
 title: RegisterClipboardFormatW function (winuser.h)
-
 description: Registers a new clipboard format. This format can then be used as a valid clipboard format.
 old-location: dataxchg\registerclipboardformat.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\registerclipboardformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: RegisterClipboardFormat, RegisterClipboardFormat function [Data Exchange], RegisterClipboardFormatA, RegisterClipboardFormatW, _win32_RegisterClipboardFormat, _win32_registerclipboardformat_cpp, dataxchg.registerclipboardformat, winui._win32_registerclipboardformat, winuser/RegisterClipboardFormat, winuser/RegisterClipboardFormatA, winuser/RegisterClipboardFormatW
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterClipboardFormat"
+f1_keywords:
+- winuser/RegisterClipboardFormat
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,27 +30,27 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - RegisterClipboardFormat
- - RegisterClipboardFormatA
- - RegisterClipboardFormatW
+- RegisterClipboardFormat
+- RegisterClipboardFormatA
+- RegisterClipboardFormatW
 targetos: Windows
 req.typenames: 
 req.redist: 

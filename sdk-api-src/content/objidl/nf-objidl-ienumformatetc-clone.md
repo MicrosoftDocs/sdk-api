@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Clone
 title: IEnumFORMATETC::Clone (objidl.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumformatetc_clone.htm
 tech.root: com
 ms.assetid: 637c3299-816f-4f3c-9758-b3200b5cf153
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumFORMATETC interface, IEnumFORMATETC interface [COM],Clone method, IEnumFORMATETC.Clone, IEnumFORMATETC::Clone, _ole_ienumformatetc_clone, com.ienumformatetc_clone, objidl/IEnumFORMATETC::Clone
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumFORMATETC.Clone"
+f1_keywords:
+- objidl/IEnumFORMATETC.Clone
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumFORMATETC.Clone
+- IEnumFORMATETC.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

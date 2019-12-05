@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CanResourceBeDependent
 title: CanResourceBeDependent function (clusapi.h)
-
 description: Determines if one resource can be dependent upon another resource.
 old-location: mscs\canresourcebedependent.htm
 tech.root: MsCS
 ms.assetid: 974ec036-3dd3-4453-9ce5-029f58d99d81
-
 ms.date: 12/05/2018
 ms.keywords: CanResourceBeDependent, CanResourceBeDependent function [Failover Cluster], PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT function [Failover Cluster], _wolf_canresourcebedependent, clusapi/CanResourceBeDependent, clusapi/PCLUSAPI_CAN_RESOURCE_BE_DEPENDENT, mscs.canresourcebedependent
 ms.topic: function
-f1_keywords: 
- - "clusapi/CanResourceBeDependent"
+f1_keywords:
+- clusapi/CanResourceBeDependent
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
 api_name:
- - CanResourceBeDependent
+- CanResourceBeDependent
 targetos: Windows
 req.typenames: 
 req.redist: 

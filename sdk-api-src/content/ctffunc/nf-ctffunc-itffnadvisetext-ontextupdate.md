@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnAdviseText.OnTextUpdate
 title: ITfFnAdviseText::OnTextUpdate (ctffunc.h)
-
 description: ITfFnAdviseText::OnTextUpdate method
 old-location: tsf\itffnadvisetext_ontextupdate.htm
 tech.root: TSF
 ms.assetid: 0b8235bd-22a6-4074-89e5-2223a20f3559
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnAdviseText interface [Text Services Framework],OnTextUpdate method, ITfFnAdviseText.OnTextUpdate, ITfFnAdviseText::OnTextUpdate, OnTextUpdate, OnTextUpdate method [Text Services Framework], OnTextUpdate method [Text Services Framework],ITfFnAdviseText interface, _tsf_itffnadvisetext_ontextupdate_ref, ctffunc/ITfFnAdviseText::OnTextUpdate, tsf.itffnadvisetext_ontextupdate
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnAdviseText.OnTextUpdate"
+f1_keywords:
+- ctffunc/ITfFnAdviseText.OnTextUpdate
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnAdviseText.OnTextUpdate
+- ITfFnAdviseText.OnTextUpdate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

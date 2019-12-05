@@ -1,19 +1,17 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_CIPHER_ALGORITHM
 title: DOT11_ADHOC_CIPHER_ALGORITHM (adhoc.h)
-
 description: Specifies a cipher algorithm used to encrypt and decrypt information on an ad hoc network.
 old-location: nwifi\dot11_adhoc_cipher_algorithm.htm
 tech.root: NativeWiFi
 ms.assetid: 2ea8173d-f528-4065-90ce-71a455a6b35f
-
 ms.date: 12/05/2018
 ms.keywords: DOT11_ADHOC_CIPHER_ALGORITHM, DOT11_ADHOC_CIPHER_ALGORITHM enumeration [NativeWIFI], DOT11_ADHOC_CIPHER_ALGO_CCMP, DOT11_ADHOC_CIPHER_ALGO_INVALID, DOT11_ADHOC_CIPHER_ALGO_NONE, DOT11_ADHOC_CIPHER_ALGO_WEP, adhoc/DOT11_ADHOC_CIPHER_ALGORITHM, adhoc/DOT11_ADHOC_CIPHER_ALGO_CCMP, adhoc/DOT11_ADHOC_CIPHER_ALGO_INVALID, adhoc/DOT11_ADHOC_CIPHER_ALGO_NONE, adhoc/DOT11_ADHOC_CIPHER_ALGO_WEP, nwifi.dot11_adhoc_cipher_algorithm
 ms.topic: enum
-f1_keywords: 
- - "adhoc/DOT11_ADHOC_CIPHER_ALGORITHM"
+f1_keywords:
+- adhoc/DOT11_ADHOC_CIPHER_ALGORITHM
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - DOT11_ADHOC_CIPHER_ALGORITHM
+- DOT11_ADHOC_CIPHER_ALGORITHM
 targetos: Windows
 req.typenames: DOT11_ADHOC_CIPHER_ALGORITHM
 req.redist: 

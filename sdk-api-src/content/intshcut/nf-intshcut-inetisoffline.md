@@ -1,19 +1,17 @@
 ---
 UID: NF:intshcut.InetIsOffline
 title: InetIsOffline function (intshcut.h)
-
 description: Determines whether the system is connected to the Internet.
 old-location: shell\InetIsOffline.htm
 tech.root: shell
 ms.assetid: e0afac1c-c083-4b60-a30f-5dfc1a4b8fd3
-
 ms.date: 12/05/2018
 ms.keywords: InetIsOffline, InetIsOffline function [Windows Shell], _win32_InetIsOffline, intshcut/InetIsOffline, shell.InetIsOffline
 ms.topic: function
-f1_keywords: 
- - "intshcut/InetIsOffline"
+f1_keywords:
+- intshcut/InetIsOffline
 dev_langs:
- - c++
+- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Url.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Url.dll
+- Url.dll
 api_name:
- - InetIsOffline
+- InetIsOffline
 targetos: Windows
 req.typenames: 
 req.redist: 

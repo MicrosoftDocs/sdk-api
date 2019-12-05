@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WriteProfileSectionA
 title: WriteProfileSectionA function (winbase.h)
-
 description: Replaces the contents of the specified section in the Win.ini file with specified keys and values.
 old-location: base\writeprofilesection.htm
 tech.root: SysInfo
 ms.assetid: f712a7b4-d945-499c-b003-22204bc590d7
-
 ms.date: 12/05/2018
 ms.keywords: WriteProfileSection, WriteProfileSection function, WriteProfileSectionA, WriteProfileSectionW, _win32_writeprofilesection, base.writeprofilesection, winbase/WriteProfileSection, winbase/WriteProfileSectionA, winbase/WriteProfileSectionW
 ms.topic: function
-f1_keywords: 
- - "winbase/WriteProfileSection"
+f1_keywords:
+- winbase/WriteProfileSection
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - WriteProfileSection
- - WriteProfileSectionA
- - WriteProfileSectionW
+- WriteProfileSection
+- WriteProfileSectionA
+- WriteProfileSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

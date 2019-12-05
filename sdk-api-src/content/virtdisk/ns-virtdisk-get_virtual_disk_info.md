@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._GET_VIRTUAL_DISK_INFO
 title: GET_VIRTUAL_DISK_INFO (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) information.
 old-location: vhd\get_virtual_disk_info.htm
 tech.root: VStor
 ms.assetid: 666c1d6e-cf23-4452-98ea-e7d4c31c3d3b
-
 ms.date: 12/05/2018
-ms.keywords: "*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO structure [VHD], PGET_VIRTUAL_DISK_INFO, PGET_VIRTUAL_DISK_INFO structure pointer [VHD], _GET_VIRTUAL_DISK_INFO, vdssys/GET_VIRTUAL_DISK_INFO, vdssys/PGET_VIRTUAL_DISK_INFO, vhd.get_virtual_disk_info, virtdisk/GET_VIRTUAL_DISK_INFO, virtdisk/PGET_VIRTUAL_DISK_INFO"
+ms.keywords: '*PGET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO, GET_VIRTUAL_DISK_INFO structure [VHD], PGET_VIRTUAL_DISK_INFO, PGET_VIRTUAL_DISK_INFO structure pointer [VHD], _GET_VIRTUAL_DISK_INFO, vdssys/GET_VIRTUAL_DISK_INFO, vdssys/PGET_VIRTUAL_DISK_INFO, vhd.get_virtual_disk_info, virtdisk/GET_VIRTUAL_DISK_INFO, virtdisk/PGET_VIRTUAL_DISK_INFO'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/GET_VIRTUAL_DISK_INFO"
+f1_keywords:
+- virtdisk/GET_VIRTUAL_DISK_INFO
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - GET_VIRTUAL_DISK_INFO
+- GET_VIRTUAL_DISK_INFO
 targetos: Windows
 req.typenames: GET_VIRTUAL_DISK_INFO, *PGET_VIRTUAL_DISK_INFO
 req.redist: 

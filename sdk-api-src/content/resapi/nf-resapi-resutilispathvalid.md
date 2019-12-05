@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilIsPathValid
 title: ResUtilIsPathValid function (resapi.h)
-
 description: Checks whether a path is syntactically valid.
 old-location: mscs\resutilispathvalid.htm
 tech.root: MsCS
 ms.assetid: 4cc8e0ad-8dbc-409d-b063-9fa26f810aac
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_IS_PATH_VALID, PRESUTIL_IS_PATH_VALID function [Failover Cluster], ResUtilIsPathValid, ResUtilIsPathValid function [Failover Cluster], _wolf_resutilispathvalid, mscs.resutilispathvalid, resapi/PRESUTIL_IS_PATH_VALID, resapi/ResUtilIsPathValid
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilIsPathValid"
+f1_keywords:
+- resapi/ResUtilIsPathValid
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilIsPathValid
+- ResUtilIsPathValid
 targetos: Windows
 req.typenames: 
 req.redist: 

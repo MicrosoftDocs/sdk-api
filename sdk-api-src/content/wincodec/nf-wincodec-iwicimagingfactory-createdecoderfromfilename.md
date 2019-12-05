@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromFilename
 title: IWICImagingFactory::CreateDecoderFromFilename (wincodec.h)
-
 description: Creates a new instance of the IWICBitmapDecoder class based on the given file.
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromfilename.htm
 tech.root: wic
 ms.assetid: 100c54c7-bb10-47dd-8436-04282ec6b110
-
 ms.date: 12/05/2018
 ms.keywords: CreateDecoderFromFilename, CreateDecoderFromFilename method [Windows Imaging Component], CreateDecoderFromFilename method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateDecoderFromFilename method, IWICImagingFactory.CreateDecoderFromFilename, IWICImagingFactory::CreateDecoderFromFilename, _wic_codec_iwicimagingfactory_createdecoderfromfilename, wic._wic_codec_iwicimagingfactory_createdecoderfromfilename, wincodec/IWICImagingFactory::CreateDecoderFromFilename
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateDecoderFromFilename"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateDecoderFromFilename
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateDecoderFromFilename
+- IWICImagingFactory.CreateDecoderFromFilename
 targetos: Windows
 req.typenames: 
 req.redist: 

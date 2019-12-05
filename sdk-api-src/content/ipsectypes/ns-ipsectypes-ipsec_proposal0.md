@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_PROPOSAL0_
 title: IPSEC_PROPOSAL0 (ipsectypes.h)
-
 description: Used to store an IPsec quick mode proposal.
 old-location: fwp\ipsec_proposal0_struct.htm
 tech.root: fwp
 ms.assetid: bc551733-dbba-4d66-8054-fbf4bbfa28b5
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_PROPOSAL0, IPSEC_PROPOSAL0 structure [Filtering], fwp.ipsec_proposal0_struct, ipsectypes/IPSEC_PROPOSAL0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_PROPOSAL0"
+f1_keywords:
+- ipsectypes/IPSEC_PROPOSAL0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_PROPOSAL0
+- IPSEC_PROPOSAL0
 targetos: Windows
 req.typenames: IPSEC_PROPOSAL0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:msp.__MIDL___MIDL_itf_msp_0000_0000_0005
 title: MSP_EVENT_INFO (msp.h)
-
 description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
 old-location: tapi3\msp_event_info.htm
 tech.root: Tapi
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
-
 ms.date: 12/05/2018
 ms.keywords: MSP_EVENT_INFO, MSP_EVENT_INFO structure [TAPI 2.2], __MIDL___MIDL_itf_tapi3_0000_0018_0005, _tapi3_msp_event_info, msp/MSP_EVENT_INFO, tapi3.msp_event_info
 ms.topic: struct
-f1_keywords: 
- - "msp/MSP_EVENT_INFO"
+f1_keywords:
+- msp/MSP_EVENT_INFO
 dev_langs:
- - c++
+- c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msp.h
+- msp.h
 api_name:
- - MSP_EVENT_INFO
+- MSP_EVENT_INFO
 targetos: Windows
 req.typenames: MSP_EVENT_INFO
 req.redist: 

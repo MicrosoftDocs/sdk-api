@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFsiFileItem2
 title: IFsiFileItem2 (imapi2fs.h)
-
 description: Use this interface to add, remove and enumerate named streams associated with a file. This interface also provides access to the 'Real-Time' attribute of a file.
 old-location: imapi\ifsifileitem2.htm
 tech.root: imapi
 ms.assetid: f35d1cd9-8a04-4c12-9af3-38f2c44b8c06
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2, IFsiFileItem2 interface [IMAPI], IFsiFileItem2 interface [IMAPI],described, imapi.ifsifileitem2, imapi2fs/IFsiFileItem2
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFsiFileItem2"
+f1_keywords:
+- imapi2fs/IFsiFileItem2
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem2
+- IFsiFileItem2
 targetos: Windows
 req.typenames: 
 req.redist: 

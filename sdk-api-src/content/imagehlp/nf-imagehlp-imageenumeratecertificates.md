@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageEnumerateCertificates
 title: ImageEnumerateCertificates function (imagehlp.h)
-
 description: Retrieves information about the certificates currently contained in an image file.
 old-location: base\imageenumeratecertificates.htm
 tech.root: Debug
 ms.assetid: 5f2e4fb7-180a-4172-9c38-5f65dfd29f69
-
 ms.date: 12/05/2018
 ms.keywords: ImageEnumerateCertificates, ImageEnumerateCertificates function, _win32_imageenumeratecertificates, base.imageenumeratecertificates, imagehlp/ImageEnumerateCertificates
 ms.topic: function
-f1_keywords: 
- - "imagehlp/ImageEnumerateCertificates"
+f1_keywords:
+- imagehlp/ImageEnumerateCertificates
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - ImageEnumerateCertificates
+- ImageEnumerateCertificates
 targetos: Windows
 req.typenames: 
 req.redist: 

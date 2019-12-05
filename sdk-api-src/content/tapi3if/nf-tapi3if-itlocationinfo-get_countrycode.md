@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_CountryCode
 title: ITLocationInfo::get_CountryCode (tapi3if.h)
-
 description: The get_CountryCode method gets the country/region code.
 old-location: tapi3\itlocationinfo_get_countrycode.htm
 tech.root: Tapi
 ms.assetid: 3ddd2e25-39ac-419b-9f99-85c6086f0377
-
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CountryCode method, ITLocationInfo.get_CountryCode, ITLocationInfo::get_CountryCode, _tapi3_itlocationinfo_get_countrycode, get_CountryCode, get_CountryCode method [TAPI 2.2], get_CountryCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_countrycode, tapi3if/ITLocationInfo::get_CountryCode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLocationInfo.get_CountryCode"
+f1_keywords:
+- tapi3if/ITLocationInfo.get_CountryCode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLocationInfo.get_CountryCode
+- ITLocationInfo.get_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

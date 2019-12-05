@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhExpandWildCardPathHW
 title: PdhExpandWildCardPathHW function (pdh.h)
-
 description: Examines the specified computer or log file and returns those counter paths that match the given counter path which contains wildcard characters.This function is identical to the PdhExpandWildCardPath function, except that it supports the use of handles to data sources.
 old-location: perf\pdhexpandwildcardpathh.htm
 tech.root: perfctrs
 ms.assetid: d7d13beb-02ab-4204-808e-d395197f09e1
-
 ms.date: 12/05/2018
 ms.keywords: PDH_NOEXPANDCOUNTERS, PDH_NOEXPANDINSTANCES, PdhExpandWildCardPathH, PdhExpandWildCardPathH function [Perf], PdhExpandWildCardPathHA, PdhExpandWildCardPathHW, _win32_pdhexpandwildcardpathh, base.pdhexpandwildcardpathh, pdh/PdhExpandWildCardPathH, pdh/PdhExpandWildCardPathHA, pdh/PdhExpandWildCardPathHW, perf.pdhexpandwildcardpathh
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhExpandWildCardPathH"
+f1_keywords:
+- pdh/PdhExpandWildCardPathH
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhExpandWildCardPathH
- - PdhExpandWildCardPathHA
- - PdhExpandWildCardPathHW
+- PdhExpandWildCardPathH
+- PdhExpandWildCardPathHA
+- PdhExpandWildCardPathHW
 targetos: Windows
 req.typenames: 
 req.redist: 

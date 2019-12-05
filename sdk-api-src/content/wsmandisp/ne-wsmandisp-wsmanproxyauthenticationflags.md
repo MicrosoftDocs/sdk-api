@@ -1,19 +1,17 @@
 ---
 UID: NE:wsmandisp._WSManProxyAuthenticationFlags
 title: WSManProxyAuthenticationFlags (wsmandisp.h)
-
 description: Determines the proxy authentication mechanism.
 old-location: winrm\wsmanproxyauthenticationflags.htm
 tech.root: winrm
 ms.assetid: 4a86dfae-18c9-4865-8b8b-bb0ac01f558c
-
 ms.date: 12/05/2018
 ms.keywords: WSManFlagProxyAuthenticationUseBasic, WSManFlagProxyAuthenticationUseDigest, WSManFlagProxyAuthenticationUseNegotiate, WSManProxyAuthenticationFlags, WSManProxyAuthenticationFlags enumeration [Windows Remote Management], winrm.wsmanproxyauthenticationflags, wsmandisp/WSManFlagProxyAuthenticationUseBasic, wsmandisp/WSManFlagProxyAuthenticationUseDigest, wsmandisp/WSManFlagProxyAuthenticationUseNegotiate, wsmandisp/WSManProxyAuthenticationFlags
 ms.topic: enum
-f1_keywords: 
- - "wsmandisp/WSManProxyAuthenticationFlags"
+f1_keywords:
+- wsmandisp/WSManProxyAuthenticationFlags
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WSManDisp.h
+- WSManDisp.h
 api_name:
- - WSManProxyAuthenticationFlags
+- WSManProxyAuthenticationFlags
 targetos: Windows
 req.typenames: WSManProxyAuthenticationFlags
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

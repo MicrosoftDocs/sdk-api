@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiTarget.QueryAssociatedLuns
 title: IVdsIscsiTarget::QueryAssociatedLuns (vdshwprv.h)
-
 description: Returns a enumeration of the LUNs associated with the target.
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm
 tech.root: VDS
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],QueryAssociatedLuns method, IVdsIscsiTarget.QueryAssociatedLuns, IVdsIscsiTarget::QueryAssociatedLuns, QueryAssociatedLuns, QueryAssociatedLuns method [VDS], QueryAssociatedLuns method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_queryassociatedluns, vds/IVdsIscsiTarget::QueryAssociatedLuns, vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiTarget.QueryAssociatedLuns"
+f1_keywords:
+- vdshwprv/IVdsIscsiTarget.QueryAssociatedLuns
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget.QueryAssociatedLuns
+- IVdsIscsiTarget.QueryAssociatedLuns
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

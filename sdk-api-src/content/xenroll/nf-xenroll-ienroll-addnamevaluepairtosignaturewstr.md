@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.AddNameValuePairToSignatureWStr
 title: IEnroll::AddNameValuePairToSignatureWStr (xenroll.h)
-
 description: Adds the authenticated name-value pair of an attribute to the request. The certification authority (CA) interprets the meaning of the name-value pair.
 old-location: security\ienroll4_addnamevaluepairtosignaturewstr.htm
 tech.root: SecCrypto
 ms.assetid: 8ccc0bdf-01db-4863-aaaf-94910bfa0b8b
-
 ms.date: 12/05/2018
 ms.keywords: AddNameValuePairToSignatureWStr, AddNameValuePairToSignatureWStr method [Security], AddNameValuePairToSignatureWStr method [Security],IEnroll interface, AddNameValuePairToSignatureWStr method [Security],IEnroll4 interface, IEnroll interface [Security],AddNameValuePairToSignatureWStr method, IEnroll.AddNameValuePairToSignatureWStr, IEnroll4 interface [Security],AddNameValuePairToSignatureWStr method, IEnroll4::AddNameValuePairToSignatureWStr, IEnroll::AddNameValuePairToSignatureWStr, security.ienroll4_addnamevaluepairtosignaturewstr, xenroll/IEnroll4::AddNameValuePairToSignatureWStr, xenroll/IEnroll::AddNameValuePairToSignatureWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.AddNameValuePairToSignatureWStr"
+f1_keywords:
+- xenroll/IEnroll.AddNameValuePairToSignatureWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.AddNameValuePairToSignatureWStr
- - IEnroll4.AddNameValuePairToSignatureWStr
+- IEnroll.AddNameValuePairToSignatureWStr
+- IEnroll4.AddNameValuePairToSignatureWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

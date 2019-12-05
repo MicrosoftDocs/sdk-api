@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetROP2
 title: GetROP2 function (wingdi.h)
-
 description: The GetROP2 function retrieves the foreground mix mode of the specified device context. The mix mode specifies how the pen or interior color and the color already on the screen are combined to yield a new color.
 old-location: gdi\getrop2.htm
 tech.root: gdi
 ms.assetid: ca1930e0-f6f4-44c8-979c-f50881f3c225
-
 ms.date: 12/05/2018
 ms.keywords: GetROP2, GetROP2 function [Windows GDI], _win32_GetROP2, gdi.getrop2, wingdi/GetROP2
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetROP2"
+f1_keywords:
+- wingdi/GetROP2
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetROP2
+- GetROP2
 targetos: Windows
 req.typenames: 
 req.redist: 

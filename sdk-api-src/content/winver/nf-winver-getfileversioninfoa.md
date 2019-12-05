@@ -1,19 +1,17 @@
 ---
 UID: NF:winver.GetFileVersionInfoA
 title: GetFileVersionInfoA function (winver.h)
-
 description: Retrieves version information for the specified file.
 old-location: menurc\getfileversioninfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\versioninformation\versioninformationreference\versioninformationfunctions\getfileversioninfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFileVersionInfo, GetFileVersionInfo function [Menus and Other Resources], GetFileVersionInfoA, GetFileVersionInfoW, _win32_GetFileVersionInfo, _win32_getfileversioninfo_cpp, menurc.getfileversioninfo, winui._win32_getfileversioninfo, winver/GetFileVersionInfo, winver/GetFileVersionInfoA, winver/GetFileVersionInfoW
 ms.topic: function
-f1_keywords: 
- - "winver/GetFileVersionInfo"
+f1_keywords:
+- winver/GetFileVersionInfo
 dev_langs:
- - c++
+- c++
 req.header: winver.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Version.lib
 req.dll: Api-ms-win-core-version-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-version-l1-1-0.dll
- - API-MS-Win-Core-Versionansi-L1-1-1.dll
- - API-MS-Win-Core-Version-L1-1-1.dll
- - KernelBase.dll
- - version.dll
+- api-ms-win-core-version-l1-1-0.dll
+- API-MS-Win-Core-Versionansi-L1-1-1.dll
+- API-MS-Win-Core-Version-L1-1-1.dll
+- KernelBase.dll
+- version.dll
 api_name:
- - GetFileVersionInfo
- - GetFileVersionInfoA
- - GetFileVersionInfoW
+- GetFileVersionInfo
+- GetFileVersionInfoA
+- GetFileVersionInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.HatchBrush(const HatchBrush &)
 title: HatchBrush::HatchBrush(const HatchBrush &) (gdiplusbrush.h)
-
 description: Creates a HatchBrush::HatchBrush object based on a hatch style, a foreground color, and a background color.
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrush_47hatchstyle_forecolor_backcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: HatchBrush, HatchBrush class [GDI+],HatchBrush constructor, HatchBrush constructor [GDI+], HatchBrush constructor [GDI+],HatchBrush class, HatchBrush.HatchBrush, HatchBrush.HatchBrush(const HatchBrush &), HatchBrush::HatchBrush, HatchBrush::HatchBrush(const HatchBrush &), _gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_, gdiplus._gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/HatchBrush.HatchBrush"
+f1_keywords:
+- gdiplusbrush/HatchBrush.HatchBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - HatchBrush.HatchBrush
+- HatchBrush.HatchBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

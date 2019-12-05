@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.GetEmbedded
 title: ITextStoreACP::GetEmbedded (textstor.h)
-
 description: Gets an embedded document.
 old-location: tsf\itextstoreacp_getembedded.htm
 tech.root: TSF
 ms.assetid: 82904a96-70ec-4ceb-a3c4-5d48c801a9ef
-
 ms.date: 12/05/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreACP interface, ITextStoreACP interface [Text Services Framework],GetEmbedded method, ITextStoreACP.GetEmbedded, ITextStoreACP::GetEmbedded, _tsf_itextstoreacp_getembedded_ref, textstor/ITextStoreACP::GetEmbedded, tsf.itextstoreacp_getembedded
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.GetEmbedded"
+f1_keywords:
+- textstor/ITextStoreACP.GetEmbedded
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.GetEmbedded
+- ITextStoreACP.GetEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

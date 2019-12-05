@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl
 title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl (certenroll.h)
-
 description: Retrieves a string that contains the URL for the certificate enrollment server.
 old-location: security\icertpropertyenrollmentpolicyserver_getenrollmentserverurl.htm
 tech.root: seccertenroll
 ms.assetid: 6d8e7f45-f7ff-48d0-95d8-4d426e122554
-
 ms.date: 12/05/2018
 ms.keywords: GetEnrollmentServerUrl, GetEnrollmentServerUrl method [Security], GetEnrollmentServerUrl method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetEnrollmentServerUrl method, ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl, ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl, certenroll/ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerUrl, security.icertpropertyenrollmentpolicyserver_getenrollmentserverurl
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl"
+f1_keywords:
+- certenroll/ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl
+- ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

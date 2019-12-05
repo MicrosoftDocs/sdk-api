@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagGetWindowTransform
 title: MagGetWindowTransform function (magnification.h)
-
 description: Retrieves the transformation matrix associated with a magnifier control.
 old-location: magapi\magapi_MagGetWindowTransform.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowtransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagGetWindowTransform, MagGetWindowTransform function [Magnification API], magapi.magapi_MagGetWindowTransform, magapi_MagGetWindowTransform, magnification/MagGetWindowTransform
 ms.topic: function
-f1_keywords: 
- - "magnification/MagGetWindowTransform"
+f1_keywords:
+- magnification/MagGetWindowTransform
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagGetWindowTransform
+- MagGetWindowTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

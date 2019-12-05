@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixInverse
 title: XMMatrixInverse function (directxmath.h)
-
 description: Computes the inverse of a matrix.
 old-location: dxmath\xmmatrixinverse.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixInverse(XMVECTOR@,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixInverse, XMMatrixInverse, XMMatrixInverse method [DirectX Math Support APIs], dxmath.xmmatrixinverse
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixInverse"
+f1_keywords:
+- directxmath/XMMatrixInverse
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixInverse
+- XMMatrixInverse
 targetos: Windows
 req.typenames: 
 req.redist: 

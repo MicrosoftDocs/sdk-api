@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12Debug2
 title: ID3D12Debug2 (d3d12sdklayers.h)
-
 description: Adds configurable levels of GPU-Based Validation to the debug layer.
 old-location: direct3d12\id3d12debug2.htm
 tech.root: direct3d12
 ms.assetid: 7FC7A17B-9DD3-4B6C-998E-F958AA1C56FC
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Debug2, ID3D12Debug2 interface, ID3D12Debug2 interface,described, d3d12sdklayers/ID3D12Debug2, direct3d12.id3d12debug2
 ms.topic: interface
-f1_keywords: 
- - "d3d12sdklayers/ID3D12Debug2"
+f1_keywords:
+- d3d12sdklayers/ID3D12Debug2
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12sdklayers.h
+- D3D12sdklayers.h
 api_name:
- - ID3D12Debug2
+- ID3D12Debug2
 targetos: Windows
 req.typenames: 
 req.redist: 

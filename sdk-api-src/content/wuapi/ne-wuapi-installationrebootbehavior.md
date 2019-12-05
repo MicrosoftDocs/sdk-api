@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagInstallationRebootBehavior
 title: InstallationRebootBehavior (wuapi.h)
-
 description: Defines the possible restart behaviors for an update.
 old-location: wua\installationrebootbehavior.htm
 tech.root: Wua_Sdk
 ms.assetid: 28c5179a-bdfa-40ca-9cf2-239a9fbf5856
-
 ms.date: 12/05/2018
 ms.keywords: InstallationRebootBehavior, InstallationRebootBehavior [Windows Update Services], InstallationRebootBehavior enumeration [Windows Update Agent], irbAlwaysRequiresReboot, irbCanRequestReboot, irbNeverReboots, wua.installationrebootbehavior, wuapi/InstallationRebootBehavior, wuapi/irbAlwaysRequiresReboot, wuapi/irbCanRequestReboot, wuapi/irbNeverReboots
 ms.topic: enum
-f1_keywords: 
- - "wuapi/InstallationRebootBehavior"
+f1_keywords:
+- wuapi/InstallationRebootBehavior
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - InstallationRebootBehavior
+- InstallationRebootBehavior
 targetos: Windows
 req.typenames: InstallationRebootBehavior
 req.redist: 

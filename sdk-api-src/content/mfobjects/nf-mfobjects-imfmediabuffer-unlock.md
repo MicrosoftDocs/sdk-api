@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.Unlock
 title: IMFMediaBuffer::Unlock (mfobjects.h)
-
 description: Unlocks a buffer that was previously locked. Call this method once for every call to IMFMediaBuffer::Lock.
 old-location: mf\imfmediabuffer_unlock.htm
 tech.root: medfound
 ms.assetid: 3ca53321-5533-45f0-b415-6a16f780ec54
-
 ms.date: 12/05/2018
 ms.keywords: 3ca53321-5533-45f0-b415-6a16f780ec54, IMFMediaBuffer interface [Media Foundation],Unlock method, IMFMediaBuffer.Unlock, IMFMediaBuffer::Unlock, Unlock, Unlock method [Media Foundation], Unlock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_unlock, mfobjects/IMFMediaBuffer::Unlock
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaBuffer.Unlock"
+f1_keywords:
+- mfobjects/IMFMediaBuffer.Unlock
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaBuffer.Unlock
+- IMFMediaBuffer.Unlock
 targetos: Windows
 req.typenames: 
 req.redist: 

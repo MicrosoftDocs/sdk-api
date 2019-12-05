@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.CreateChildItem
 title: IWiaItem::CreateChildItem (wia_xp.h)
-
 description: The IWiaItem::CreateChildItem method is used by applications to add IWiaItem objects to the IWiaItem tree of a device.
 old-location: wia\_wia_IWiaItem_CreateChildItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\createchilditem.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateChildItem, CreateChildItem method [WIA], CreateChildItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],CreateChildItem method, IWiaItem.CreateChildItem, IWiaItem::CreateChildItem, _wia_IWiaItem_CreateChildItem, wia._wia_IWiaItem_CreateChildItem, wia_xp/IWiaItem::CreateChildItem
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.CreateChildItem"
+f1_keywords:
+- wia_xp/IWiaItem.CreateChildItem
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.CreateChildItem
+- IWiaItem.CreateChildItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocationEvents.OnLocationChanged
 title: ILocationEvents::OnLocationChanged (locationapi.h)
-
 description: Called when a new location report is available.
 old-location: winlocation_com_ref\ilocationevents_onlocationchanged.htm
 tech.root: locationapi
 ms.assetid: 14353c8e-15f5-493b-9b49-139924f2397e
-
 ms.date: 12/05/2018
 ms.keywords: ILocationEvents interface [WinLocation],OnLocationChanged method, ILocationEvents.OnLocationChanged, ILocationEvents::OnLocationChanged, OnLocationChanged, OnLocationChanged method [WinLocation], OnLocationChanged method [WinLocation],ILocationEvents interface, WinLocation_COM_Ref.ilocationevents_onlocationchanged, locationapi/ILocationEvents::OnLocationChanged
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocationEvents.OnLocationChanged"
+f1_keywords:
+- locationapi/ILocationEvents.OnLocationChanged
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocationEvents.OnLocationChanged
+- ILocationEvents.OnLocationChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

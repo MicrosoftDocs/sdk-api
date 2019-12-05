@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterNotificationSink
 title: IWSDiscoveryPublisher::RegisterNotificationSink (wsddisco.h)
-
 description: Attaches a callback notification sink to the discovery publisher.
 old-location: ncd\iwsdiscoverypublisher_registernotificationsink_method.htm
 tech.root: WsdApi
 ms.assetid: 75a6c593-298b-45b4-bde5-2a383b7581cc
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterNotificationSink method, IWSDiscoveryPublisher.RegisterNotificationSink, IWSDiscoveryPublisher::RegisterNotificationSink, RegisterNotificationSink, RegisterNotificationSink method, RegisterNotificationSink method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registernotificationsink_method, wsddisco/IWSDiscoveryPublisher::RegisterNotificationSink
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisher.RegisterNotificationSink"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisher.RegisterNotificationSink
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.RegisterNotificationSink
+- IWSDiscoveryPublisher.RegisterNotificationSink
 targetos: Windows
 req.typenames: 
 req.redist: 

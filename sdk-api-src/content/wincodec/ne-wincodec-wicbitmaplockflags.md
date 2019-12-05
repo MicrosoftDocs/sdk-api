@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICBitmapLockFlags
 title: WICBitmapLockFlags (wincodec.h)
-
 description: Specifies access to an IWICBitmap.
 old-location: wic\_wic_codec_wicbitmaplockflags.htm
 tech.root: wic
 ms.assetid: d4d1bb38-3d1a-4e1e-a889-0491f3c01822
-
 ms.date: 12/05/2018
 ms.keywords: WICBitmapLockFlags, WICBitmapLockFlags enumeration [Windows Imaging Component], WICBitmapLockRead, WICBitmapLockWrite, _wic_codec_wicbitmaplockflags, wic._wic_codec_wicbitmaplockflags, wincodec/WICBitmapLockFlags, wincodec/WICBitmapLockRead, wincodec/WICBitmapLockWrite
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICBitmapLockFlags"
+f1_keywords:
+- wincodec/WICBitmapLockFlags
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapLockFlags
+- WICBitmapLockFlags
 targetos: Windows
 req.typenames: WICBitmapLockFlags
 req.redist: 

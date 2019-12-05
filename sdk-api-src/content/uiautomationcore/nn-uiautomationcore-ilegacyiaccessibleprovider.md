@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.ILegacyIAccessibleProvider
 title: ILegacyIAccessibleProvider (uiautomationcore.h)
-
 description: Enables Microsoft UI Automation clients to access the underlying IAccessible implementation of Microsoft Active Accessibility elements.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider.htm
 tech.root: WinAuto
 ms.assetid: 9d911238-05d9-4bba-920f-40ca23ab9549
-
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider, ILegacyIAccessibleProvider interface [Windows Accessibility], ILegacyIAccessibleProvider interface [Windows Accessibility],described, uiauto.uiauto_ILegacyIAccessibleProvider, uiauto_ILegacyIAccessibleProvider, uiautomationcore/ILegacyIAccessibleProvider, winauto.uiauto_ILegacyIAccessibleProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ILegacyIAccessibleProvider
+- ILegacyIAccessibleProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

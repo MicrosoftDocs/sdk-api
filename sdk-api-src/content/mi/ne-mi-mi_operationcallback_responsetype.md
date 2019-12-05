@@ -1,19 +1,17 @@
 ---
 UID: NE:mi._MI_OperationCallback_ResponseType
 title: MI_OperationCallback_ResponseType (mi.h)
-
 description: If the MI_CallbackMode is MI_CALLBACKMODE_INQUIRE, one of these values can be used in the callback.
 old-location: wmi_v2\mi_operationcallback_responsetype.htm
 tech.root: wmi_v2
 ms.assetid: 07e1d42b-b9e4-4199-88b1-71864de37282
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationCallback_ResponseType, MI_OperationCallback_ResponseType enumeration [Windows Management Infrastructure (MI)], MI_OperationCallback_ResponseType_No, MI_OperationCallback_ResponseType_NoToAll, MI_OperationCallback_ResponseType_Yes, MI_OperationCallback_ResponseType_YesToAll, mi/MI_OperationCallback_ResponseType, mi/MI_OperationCallback_ResponseType_No, mi/MI_OperationCallback_ResponseType_NoToAll, mi/MI_OperationCallback_ResponseType_Yes, mi/MI_OperationCallback_ResponseType_YesToAll, wmi._mi_operationcallback_responsetype, wmi_v2.mi_operationcallback_responsetype
 ms.topic: enum
-f1_keywords: 
- - "mi/MI_OperationCallback_ResponseType"
+f1_keywords:
+- mi/MI_OperationCallback_ResponseType
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_OperationCallback_ResponseType
+- MI_OperationCallback_ResponseType
 targetos: Windows
 req.typenames: MI_OperationCallback_ResponseType
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

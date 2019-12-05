@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ReleaseDC
 title: ReleaseDC function (winuser.h)
-
 description: The ReleaseDC function releases a device context (DC), freeing it for use by other applications. The effect of the ReleaseDC function depends on the type of DC. It frees only common and window DCs. It has no effect on class or private DCs.
 old-location: gdi\releasedc.htm
 tech.root: gdi
 ms.assetid: c4f48f1e-4a37-4330-908e-2ac5c65e1a1d
-
 ms.date: 12/05/2018
 ms.keywords: ReleaseDC, ReleaseDC function [Windows GDI], _win32_ReleaseDC, gdi.releasedc, winuser/ReleaseDC
 ms.topic: function
-f1_keywords: 
- - "winuser/ReleaseDC"
+f1_keywords:
+- winuser/ReleaseDC
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
- - minuser.dll
- - api-ms-win-ntuser-dc-access-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
+- user32.dll
+- Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
+- minuser.dll
+- api-ms-win-ntuser-dc-access-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
 api_name:
- - ReleaseDC
+- ReleaseDC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupClose
 title: CertSrvBackupClose function (certbcli.h)
-
 description: Closes the file opened by the CertSrvBackupOpenFile function.
 old-location: security\certsrvbackupclose.htm
 tech.root: SecCrypto
 ms.assetid: 123933b4-5496-460d-aaaa-a494786cd638
-
 ms.date: 12/05/2018
 ms.keywords: CertSrvBackupClose, CertSrvBackupClose function [Security], _certsrv_certsrvbackupclose, certbcli/CertSrvBackupClose, security.certsrvbackupclose
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupClose"
+f1_keywords:
+- certbcli/CertSrvBackupClose
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupClose
+- CertSrvBackupClose
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxPackageEditor
 title: IAppxPackageEditor (appxpackaging.h)
-
 description: Provides functionality to edit app packages.
 old-location: appxpkg\iappxpackageeditor.htm
 tech.root: appxpkg
 ms.assetid: 37D9494A-A5C0-4ABA-99BC-7F9B10E8D06C
-
 ms.date: 12/05/2018
 ms.keywords: IAppxPackageEditor, IAppxPackageEditor interface [App packaging and management], IAppxPackageEditor interface [App packaging and management],described, appxpackaging/IAppxPackageEditor, appxpkg.iappxpackageeditor
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxPackageEditor"
+f1_keywords:
+- appxpackaging/IAppxPackageEditor
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxPackageEditor
+- IAppxPackageEditor
 targetos: Windows
 req.typenames: 
 req.redist: 

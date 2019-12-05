@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.GetPhoneCapsBuffer
 title: ITPhone::GetPhoneCapsBuffer (tapi3if.h)
-
 description: The GetPhoneCapsBuffer method gets a buffer capability/information about the phone, based on the PHONECAPS_BUFFER enum passed in.
 old-location: tapi3\itphone_getphonecapsbuffer.htm
 tech.root: Tapi
 ms.assetid: 239902ca-0e9e-4b8d-927d-ee46a35dd9d8
-
 ms.date: 12/05/2018
 ms.keywords: GetPhoneCapsBuffer, GetPhoneCapsBuffer method [TAPI 2.2], GetPhoneCapsBuffer method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],GetPhoneCapsBuffer method, ITPhone.GetPhoneCapsBuffer, ITPhone::GetPhoneCapsBuffer, _tapi3_itphone_getphonecapsbuffer, tapi3.itphone_getphonecapsbuffer, tapi3if/ITPhone::GetPhoneCapsBuffer
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.GetPhoneCapsBuffer"
+f1_keywords:
+- tapi3if/ITPhone.GetPhoneCapsBuffer
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.GetPhoneCapsBuffer
+- ITPhone.GetPhoneCapsBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

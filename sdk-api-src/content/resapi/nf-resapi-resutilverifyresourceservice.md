@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilVerifyResourceService
 title: ResUtilVerifyResourceService function (resapi.h)
-
 description: Verifies that a named service is starting or currently running. The PRESUTIL_VERIFY_RESOURCE_SERVICE type defines a pointer to this function.
 old-location: mscs\resutilverifyresourceservice.htm
 tech.root: MsCS
 ms.assetid: 452f4e83-74a6-4830-b244-599e9dc5c854
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_VERIFY_RESOURCE_SERVICE, PRESUTIL_VERIFY_RESOURCE_SERVICE function [Failover Cluster], ResUtilVerifyResourceService, ResUtilVerifyResourceService function [Failover Cluster], _wolf_resutilverifyresourceservice, mscs.resutilverifyresourceservice, resapi/PRESUTIL_VERIFY_RESOURCE_SERVICE, resapi/ResUtilVerifyResourceService
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilVerifyResourceService"
+f1_keywords:
+- resapi/ResUtilVerifyResourceService
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilVerifyResourceService
+- ResUtilVerifyResourceService
 targetos: Windows
 req.typenames: 
 req.redist: 

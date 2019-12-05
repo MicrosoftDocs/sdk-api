@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_DeleteItem
 title: TreeView_DeleteItem macro (commctrl.h)
-
 description: Removes an item and all its children from a tree-view control. You can also send the TVM_DELETEITEM message explicitly.
 old-location: controls\TreeView_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_DeleteItem, TreeView_DeleteItem macro [Windows Controls], _win32_TreeView_DeleteItem, _win32_TreeView_DeleteItem_cpp, commctrl/TreeView_DeleteItem, controls.TreeView_DeleteItem, controls._win32_TreeView_DeleteItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_DeleteItem"
+f1_keywords:
+- commctrl/TreeView_DeleteItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_DeleteItem
+- TreeView_DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

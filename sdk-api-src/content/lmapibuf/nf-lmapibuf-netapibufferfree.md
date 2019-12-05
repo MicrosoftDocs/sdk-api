@@ -1,19 +1,17 @@
 ---
 UID: NF:lmapibuf.NetApiBufferFree
 title: NetApiBufferFree function (lmapibuf.h)
-
 description: The NetApiBufferFree function frees the memory that the NetApiBufferAllocate function allocates. Applications should also call NetApiBufferFree to free the memory that other network management functions use internally to return information.
 old-location: netmgmt\netapibufferfree.htm
 tech.root: NetMgmt
 ms.assetid: 0e99483c-8cd7-402a-8bf6-1e0118764dd3
-
 ms.date: 12/05/2018
 ms.keywords: NetApiBufferFree, NetApiBufferFree function [Network Management], _win32_netapibufferfree, lmapibuf/NetApiBufferFree, netmgmt.netapibufferfree
 ms.topic: function
-f1_keywords: 
- - "lmapibuf/NetApiBufferFree"
+f1_keywords:
+- lmapibuf/NetApiBufferFree
 dev_langs:
- - c++
+- c++
 req.header: lmapibuf.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
- - Netutils.dll
+- Netapi32.dll
+- Netutils.dll
 api_name:
- - NetApiBufferFree
+- NetApiBufferFree
 targetos: Windows
 req.typenames: 
 req.redist: 

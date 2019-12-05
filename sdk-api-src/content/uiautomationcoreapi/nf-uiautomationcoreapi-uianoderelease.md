@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeRelease
 title: UiaNodeRelease function (uiautomationcoreapi.h)
-
 description: Deletes a node from memory.
 old-location: winauto\uiauto_UiaNodeReleaseMemManMeth.htm
 tech.root: WinAuto
 ms.assetid: dce9fd8a-b307-46b6-9e1d-ee31904e383f
-
 ms.date: 12/05/2018
 ms.keywords: UiaNodeRelease, UiaNodeRelease function [Windows Accessibility], uiauto.uiauto_UiaNodeReleaseMemManMeth, uiauto_UiaNodeReleaseMemManMeth, uiautomationcoreapi/UiaNodeRelease, winauto.uiauto_UiaNodeReleaseMemManMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaNodeRelease"
+f1_keywords:
+- uiautomationcoreapi/UiaNodeRelease
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaNodeRelease
+- UiaNodeRelease
 targetos: Windows
 req.typenames: 
 req.redist: 

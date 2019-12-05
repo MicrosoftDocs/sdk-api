@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IStreamSample.CompletionStatus
 title: IStreamSample::CompletionStatus (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
 old-location: dshow\istreamsample_completionstatus.htm
 tech.root: DirectShow
 ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584
-
 ms.date: 12/05/2018
 ms.keywords: CompletionStatus, CompletionStatus method [DirectShow], CompletionStatus method [DirectShow],IStreamSample interface, IStreamSample interface [DirectShow],CompletionStatus method, IStreamSample.CompletionStatus, IStreamSample::CompletionStatus, IStreamSampleCompletionStatus, dshow.istreamsample_completionstatus, mmstream/IStreamSample::CompletionStatus
 ms.topic: method
-f1_keywords: 
- - "mmstream/IStreamSample.CompletionStatus"
+f1_keywords:
+- mmstream/IStreamSample.CompletionStatus
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IStreamSample.CompletionStatus
+- IStreamSample.CompletionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

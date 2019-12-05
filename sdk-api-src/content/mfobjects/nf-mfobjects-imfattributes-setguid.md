@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetGUID
 title: IMFAttributes::SetGUID (mfobjects.h)
-
 description: Associates a GUID value with a key.
 old-location: mf\imfattributes_setguid.htm
 tech.root: medfound
 ms.assetid: d73b53f5-4a8f-4903-986d-fbf4277a2d45
-
 ms.date: 12/05/2018
 ms.keywords: IMFAttributes interface [Media Foundation],SetGUID method, IMFAttributes.SetGUID, IMFAttributes::SetGUID, SetGUID, SetGUID method [Media Foundation], SetGUID method [Media Foundation],IMFAttributes interface, d73b53f5-4a8f-4903-986d-fbf4277a2d45, mf.imfattributes_setguid, mfobjects/IMFAttributes::SetGUID
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.SetGUID"
+f1_keywords:
+- mfobjects/IMFAttributes.SetGUID
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.SetGUID
+- IMFAttributes.SetGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

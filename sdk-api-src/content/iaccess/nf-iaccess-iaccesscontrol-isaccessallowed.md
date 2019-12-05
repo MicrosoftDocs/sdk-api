@@ -1,19 +1,17 @@
 ---
 UID: NF:iaccess.IAccessControl.IsAccessAllowed
 title: IAccessControl::IsAccessAllowed (iaccess.h)
-
 description: Determines whether the specified trustee has access rights to the object or property.
 old-location: com\iaccesscontrol_isaccessallowed.htm
 tech.root: com
 ms.assetid: ee9e7e2d-caec-443c-937d-b8fc64130ad4
-
 ms.date: 12/05/2018
 ms.keywords: IAccessControl interface [COM],IsAccessAllowed method, IAccessControl.IsAccessAllowed, IAccessControl::IsAccessAllowed, IsAccessAllowed, IsAccessAllowed method [COM], IsAccessAllowed method [COM],IAccessControl interface, _com_iaccesscontrol_isaccessallowed, com.iaccesscontrol_isaccessallowed, iaccess/IAccessControl::IsAccessAllowed
 ms.topic: method
-f1_keywords: 
- - "iaccess/IAccessControl.IsAccessAllowed"
+f1_keywords:
+- iaccess/IAccessControl.IsAccessAllowed
 dev_langs:
- - c++
+- c++
 req.header: iaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IAccess.h
+- IAccess.h
 api_name:
- - IAccessControl.IsAccessAllowed
+- IAccessControl.IsAccessAllowed
 targetos: Windows
 req.typenames: 
 req.redist: 

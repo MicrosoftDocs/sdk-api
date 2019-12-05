@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyEnrollmentPolicyServer
 title: ICertPropertyEnrollmentPolicyServer (certenroll.h)
-
 description: Represents an external certificate property that contains information about a certificate enrollment policy (CEP) server and a certificate enrollment server (CES).
 old-location: security\icertpropertyenrollmentpolicyserver.htm
 tech.root: seccertenroll
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollmentPolicyServer"
+f1_keywords:
+- certenroll/ICertPropertyEnrollmentPolicyServer
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyEnrollmentPolicyServer
+- ICertPropertyEnrollmentPolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 

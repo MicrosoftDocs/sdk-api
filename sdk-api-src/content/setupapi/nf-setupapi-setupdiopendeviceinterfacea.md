@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiOpenDeviceInterfaceA
 title: SetupDiOpenDeviceInterfaceA function (setupapi.h)
-
 description: The SetupDiOpenDeviceInterface function retrieves information about a device interface and adds the interface to the specified device information set for a local system or a remote system.
 old-location: devinst\setupdiopendeviceinterface.htm
 tech.root: devinst
 ms.assetid: 31ce43e5-08b4-4c1d-b31f-77ee4e278927
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiOpenDeviceInterface, SetupDiOpenDeviceInterface function [Device and Driver Installation], SetupDiOpenDeviceInterfaceA, SetupDiOpenDeviceInterfaceW, devinst.setupdiopendeviceinterface, di-rtns_4505f6a3-e634-4070-a9b3-1487c2808838.xml, setupapi/SetupDiOpenDeviceInterface
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiOpenDeviceInterface
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiOpenDeviceInterface
- - SetupDiOpenDeviceInterfaceA
+- SetupDiOpenDeviceInterface - SetupDiOpenDeviceInterfaceA
 targetos: Windows
 req.typenames: 
 req.redist: 

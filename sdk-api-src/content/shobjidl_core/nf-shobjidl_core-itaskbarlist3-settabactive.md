@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.SetTabActive
 title: ITaskbarList3::SetTabActive (shobjidl_core.h)
-
 description: Informs the taskbar that a tab or document window has been made the active window.
 old-location: shell\ITaskbarList3_SetTabActive.htm
 tech.root: shell
 ms.assetid: d82f11eb-bfff-4661-8e2e-520f8226809b
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],SetTabActive method, ITaskbarList3.SetTabActive, ITaskbarList3::SetTabActive, SetTabActive, SetTabActive method [Windows Shell], SetTabActive method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_SetTabActive, shell.ITaskbarList3_SetTabActive, shobjidl_core/ITaskbarList3::SetTabActive
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.SetTabActive"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.SetTabActive
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.SetTabActive
+- ITaskbarList3.SetTabActive
 targetos: Windows
 req.typenames: 
 req.redist: 

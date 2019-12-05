@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.IAnchor.SetGravity
 title: IAnchor::SetGravity (textstor.h)
-
 description: IAnchor::SetGravity method
 old-location: tsf\ianchor_setgravity.htm
 tech.root: TSF
 ms.assetid: c532abcf-9ae0-4566-80f7-0bb4ae908fce
-
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetGravity method, IAnchor.SetGravity, IAnchor::SetGravity, SetGravity, SetGravity method [Text Services Framework], SetGravity method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetGravity, tsf.ianchor_setgravity
 ms.topic: method
-f1_keywords: 
- - "textstor/IAnchor.SetGravity"
+f1_keywords:
+- textstor/IAnchor.SetGravity
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IAnchor.SetGravity
+- IAnchor.SetGravity
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

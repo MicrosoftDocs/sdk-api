@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linecallhubtrackinginfo_tag
 title: LINECALLHUBTRACKINGINFO (tapi.h)
-
 description: The LINECALLHUBTRACKINGINFO structure contains information that reports the type of tracking available to a call hub. This structure is exposed only to applications that negotiate a TAPI version of 2.2 or higher.
 old-location: tapi2\linecallhubtrackinginfo_str.htm
 tech.root: Tapi
 ms.assetid: 1f4eaf7d-fc80-4131-af5a-30c6869c74ef
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO structure [TAPI 2.2], LPLINECALLHUBTRACKINGINFO, LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2], _tapi2_linecallhubtrackinginfo_str, tapi/LINECALLHUBTRACKINGINFO, tapi/LPLINECALLHUBTRACKINGINFO, tapi2.linecallhubtrackinginfo_str"
+ms.keywords: '*LPLINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO, LINECALLHUBTRACKINGINFO structure [TAPI 2.2], LPLINECALLHUBTRACKINGINFO, LPLINECALLHUBTRACKINGINFO structure pointer [TAPI 2.2], _tapi2_linecallhubtrackinginfo_str, tapi/LINECALLHUBTRACKINGINFO, tapi/LPLINECALLHUBTRACKINGINFO, tapi2.linecallhubtrackinginfo_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINECALLHUBTRACKINGINFO"
+f1_keywords:
+- tapi/LINECALLHUBTRACKINGINFO
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINECALLHUBTRACKINGINFO
+- LINECALLHUBTRACKINGINFO
 targetos: Windows
 req.typenames: LINECALLHUBTRACKINGINFO, *LPLINECALLHUBTRACKINGINFO
 req.redist: 

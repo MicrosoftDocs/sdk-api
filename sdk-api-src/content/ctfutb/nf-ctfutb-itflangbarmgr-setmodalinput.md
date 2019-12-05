@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.SetModalInput
 title: ITfLangBarMgr::SetModalInput (ctfutb.h)
-
 description: ITfLangBarMgr::SetModalInput method
 old-location: tsf\itflangbarmgr_setmodalinput.htm
 tech.root: TSF
 ms.assetid: 754376e0-e7e4-4bd2-b89c-43d211634c65
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],SetModalInput method, ITfLangBarMgr.SetModalInput, ITfLangBarMgr::SetModalInput, SetModalInput, SetModalInput method [Text Services Framework], SetModalInput method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_setmodalinput_ref, ctfutb/ITfLangBarMgr::SetModalInput, tsf.itflangbarmgr_setmodalinput
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarMgr.SetModalInput"
+f1_keywords:
+- ctfutb/ITfLangBarMgr.SetModalInput
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarMgr.SetModalInput
+- ITfLangBarMgr.SetModalInput
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

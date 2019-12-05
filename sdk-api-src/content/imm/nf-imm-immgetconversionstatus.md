@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmGetConversionStatus
 title: ImmGetConversionStatus function (imm.h)
-
 description: Retrieves the current conversion status.
 old-location: intl\immgetconversionstatus.htm
 tech.root: Intl
 ms.assetid: 64220427-e352-4445-9476-35e6246e59cd
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetConversionStatus, ImmGetConversionStatus function [Internationalization for Windows Applications], _win32_ImmGetConversionStatus, imm/ImmGetConversionStatus, intl.immgetconversionstatus
 ms.topic: function
-f1_keywords: 
- - "imm/ImmGetConversionStatus"
+f1_keywords:
+- imm/ImmGetConversionStatus
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetConversionStatus
+- ImmGetConversionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

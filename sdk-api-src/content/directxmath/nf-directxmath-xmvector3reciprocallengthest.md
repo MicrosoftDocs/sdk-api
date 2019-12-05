@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3ReciprocalLengthEst
 title: XMVector3ReciprocalLengthEst function (directxmath.h)
-
 description: Estimates the reciprocal of the length of a 3D vector.
 old-location: dxmath\xmvector3reciprocallengthest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3ReciprocalLengthEst(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3ReciprocalLengthEst, XMVector3ReciprocalLengthEst, XMVector3ReciprocalLengthEst method [DirectX Math Support APIs], dxmath.xmvector3reciprocallengthest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3ReciprocalLengthEst"
+f1_keywords:
+- directxmath/XMVector3ReciprocalLengthEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3ReciprocalLengthEst
+- XMVector3ReciprocalLengthEst
 targetos: Windows
 req.typenames: 
 req.redist: 

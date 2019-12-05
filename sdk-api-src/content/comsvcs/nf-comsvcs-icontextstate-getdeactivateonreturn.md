@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextState.GetDeactivateOnReturn
 title: IContextState::GetDeactivateOnReturn (comsvcs.h)
-
 description: Retrieves the value of the done flag.
 old-location: cos\icontextstate_getdeactivateonreturn.htm
 tech.root: cossdk
 ms.assetid: 4e9623eb-1bf1-4649-9071-b731bf95a401
-
 ms.date: 12/05/2018
 ms.keywords: GetDeactivateOnReturn, GetDeactivateOnReturn method [COM+], GetDeactivateOnReturn method [COM+],IContextState interface, IContextState interface [COM+],GetDeactivateOnReturn method, IContextState.GetDeactivateOnReturn, IContextState::GetDeactivateOnReturn, _cos_IContextState_GetDeactivateOnReturn, comsvcs/IContextState::GetDeactivateOnReturn, cos.icontextstate_getdeactivateonreturn
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextState.GetDeactivateOnReturn"
+f1_keywords:
+- comsvcs/IContextState.GetDeactivateOnReturn
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextState.GetDeactivateOnReturn
+- IContextState.GetDeactivateOnReturn
 targetos: Windows
 req.typenames: 
 req.redist: 

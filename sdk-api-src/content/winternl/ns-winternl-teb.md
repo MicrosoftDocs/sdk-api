@@ -1,19 +1,17 @@
 ---
 UID: NS:winternl._TEB
 title: TEB (winternl.h)
-
 description: The Thread Environment Block (TEB structure) describes the state of a thread.
 old-location: base\teb.htm
 tech.root: ProcThread
 ms.assetid: fc77fc09-6319-4daa-ac96-1ded661ef800
-
 ms.date: 12/05/2018
-ms.keywords: "*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, base.teb, winternl/PTEB, winternl/TEB"
+ms.keywords: '*PTEB, PTEB, PTEB structure pointer, TEB, TEB structure, base.teb, winternl/PTEB, winternl/TEB'
 ms.topic: struct
-f1_keywords: 
- - "winternl/TEB"
+f1_keywords:
+- winternl/TEB
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winternl.h
+- Winternl.h
 api_name:
- - TEB
+- TEB
 targetos: Windows
 req.typenames: TEB, *PTEB
 req.redist: 

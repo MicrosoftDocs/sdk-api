@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.InsertEmbedded
 title: ITextStoreACP::InsertEmbedded (textstor.h)
-
 description: Inserts an embedded object at the specified character.
 old-location: tsf\itextstoreacp_insertembedded.htm
 tech.root: TSF
 ms.assetid: 3d1612ee-1eb2-44c1-921e-a84af56a0790
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],InsertEmbedded method, ITextStoreACP.InsertEmbedded, ITextStoreACP::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_insertembedded_ref, textstor/ITextStoreACP::InsertEmbedded, tsf.itextstoreacp_insertembedded
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.InsertEmbedded"
+f1_keywords:
+- textstor/ITextStoreACP.InsertEmbedded
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.InsertEmbedded
+- ITextStoreACP.InsertEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

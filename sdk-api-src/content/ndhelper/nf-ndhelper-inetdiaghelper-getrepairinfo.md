@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetRepairInfo
 title: INetDiagHelper::GetRepairInfo (ndhelper.h)
-
 description: Retrieves the repair information that the Helper Class Extension has for a given problem type.
 old-location: ndf\inetdiaghelpe_getrepairinfo.htm
 tech.root: NDF
 ms.assetid: a14b1f61-1ac7-4ee7-ad82-e0821f43a17d
-
 ms.date: 12/05/2018
 ms.keywords: GetRepairInfo, GetRepairInfo method [NDF], GetRepairInfo method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetRepairInfo method, INetDiagHelper.GetRepairInfo, INetDiagHelper::GetRepairInfo, ndf.inetdiaghelpe_getrepairinfo, ndhelper/INetDiagHelper::GetRepairInfo
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetRepairInfo"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetRepairInfo
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetRepairInfo
+- INetDiagHelper.GetRepairInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

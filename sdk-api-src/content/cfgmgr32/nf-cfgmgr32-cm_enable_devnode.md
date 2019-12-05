@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Enable_DevNode
 title: CM_Enable_DevNode function (cfgmgr32.h)
-
 description: The CM_Enable_DevNode function enables a device.
 old-location: devinst\cm_enable_devnode.htm
 tech.root: devinst
 ms.assetid: ddc3a507-03ee-4f44-89e3-64ec4290d0ff
-
 ms.date: 12/05/2018
 ms.keywords: CM_Enable_DevNode, CM_Enable_DevNode function [Device and Driver Installation], cfgmgr32/CM_Enable_DevNode, cfgmgrfn_10a592e0-91c9-47f2-aaa1-769e44bc1cbc.xml, devinst.cm_enable_devnode
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Enable_DevNode"
+f1_keywords:
+- cfgmgr32/CM_Enable_DevNode
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Enable_DevNode
+- CM_Enable_DevNode
 targetos: Windows
 req.typenames: 
 req.redist: 

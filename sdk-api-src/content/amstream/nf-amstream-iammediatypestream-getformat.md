@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.GetFormat
 title: IAMMediaTypeStream::GetFormat (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the format of the stream.
 old-location: dshow\iammediatypestream_getformat.htm
 tech.root: DirectShow
 ms.assetid: 9f00fe45-df4b-4787-980c-9fe434a8ab7e
-
 ms.date: 12/05/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAMMediaTypeStream interface, IAMMediaTypeStream interface [DirectShow],GetFormat method, IAMMediaTypeStream.GetFormat, IAMMediaTypeStream::GetFormat, IAMMediaTypeStreamGetFormat, amstream/IAMMediaTypeStream::GetFormat, dshow.iammediatypestream_getformat
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeStream.GetFormat"
+f1_keywords:
+- amstream/IAMMediaTypeStream.GetFormat
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeStream.GetFormat
+- IAMMediaTypeStream.GetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

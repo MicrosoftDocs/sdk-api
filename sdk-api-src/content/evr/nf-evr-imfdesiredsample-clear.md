@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFDesiredSample.Clear
 title: IMFDesiredSample::Clear (evr.h)
-
 description: Clears the time stamps previously set by a call to IMFDesiredSample::SetDesiredSampleTimeAndDuration.
 old-location: mf\imfdesiredsample_clear.htm
 tech.root: medfound
 ms.assetid: d5c6c1c2-c122-47b6-82b3-28b54bafc7b8
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Media Foundation], Clear method [Media Foundation],IMFDesiredSample interface, IMFDesiredSample interface [Media Foundation],Clear method, IMFDesiredSample.Clear, IMFDesiredSample::Clear, d5c6c1c2-c122-47b6-82b3-28b54bafc7b8, evr/IMFDesiredSample::Clear, mf.imfdesiredsample_clear
 ms.topic: method
-f1_keywords: 
- - "evr/IMFDesiredSample.Clear"
+f1_keywords:
+- evr/IMFDesiredSample.Clear
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFDesiredSample.Clear
+- IMFDesiredSample.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

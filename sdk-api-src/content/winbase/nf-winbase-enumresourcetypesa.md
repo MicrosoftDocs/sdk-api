@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EnumResourceTypesA
 title: EnumResourceTypesA function (winbase.h)
-
 description: Enumerates resource types within a binary module.
 old-location: menurc\enumresourcetypes.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypes.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumResourceTypes, EnumResourceTypes function [Menus and Other Resources], EnumResourceTypesA, EnumResourceTypesW, _win32_EnumResourceTypes, _win32_enumresourcetypes_cpp, menurc.enumresourcetypes, winbase/EnumResourceTypes, winbase/EnumResourceTypesA, winbase/EnumResourceTypesW, winui._win32_enumresourcetypes
 ms.topic: function
-f1_keywords: 
- - "winbase/EnumResourceTypes"
+f1_keywords:
+- winbase/EnumResourceTypes
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - EnumResourceTypes
- - EnumResourceTypesA
- - EnumResourceTypesW
+- EnumResourceTypes
+- EnumResourceTypesA
+- EnumResourceTypesW
 targetos: Windows
 req.typenames: 
 req.redist: 

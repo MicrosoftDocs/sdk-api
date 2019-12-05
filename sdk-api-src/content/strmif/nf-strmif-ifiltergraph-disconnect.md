@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterGraph.Disconnect
 title: IFilterGraph::Disconnect (strmif.h)
-
 description: The Disconnect method disconnects this pin.
 old-location: dshow\ifiltergraph_disconnect.htm
 tech.root: DirectShow
 ms.assetid: 8c7d6cb6-b91c-4461-8f2b-38342a88eafc
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [DirectShow], Disconnect method [DirectShow],IFilterGraph interface, Disconnect method [DirectShow],IGraphBuilder interface, IFilterGraph interface [DirectShow],Disconnect method, IFilterGraph.Disconnect, IFilterGraph::Disconnect, IFilterGraphDisconnect, IGraphBuilder interface [DirectShow],Disconnect method, IGraphBuilder.Disconnect, IGraphBuilder::Disconnect, dshow.ifiltergraph_disconnect, strmif/IFilterGraph::Disconnect, strmif/IGraphBuilder::Disconnect
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterGraph.Disconnect"
+f1_keywords:
+- strmif/IFilterGraph.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
- - wmp.dll
+- Strmiids.lib
+- Strmiids.dll
+- wmp.dll
 api_name:
- - IFilterGraph.Disconnect
- - IGraphBuilder.Disconnect
- - IGraphBuilder.Disconnect
+- IFilterGraph.Disconnect
+- IGraphBuilder.Disconnect
+- IGraphBuilder.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

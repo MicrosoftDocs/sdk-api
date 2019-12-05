@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionGaussianBlurEffect
 title: IDCompositionGaussianBlurEffect (dcomp.h)
-
-description: "."
+description: .
 old-location: directcomp\idcompositiongaussianblureffect.htm
 tech.root: directcomp
 ms.assetid: CFE79B69-75EC-4E22-BC3E-C82601AE1213
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionGaussianBlurEffect, IDCompositionGaussianBlurEffect interface [DirectComposition], IDCompositionGaussianBlurEffect interface [DirectComposition],described, dcomp/IDCompositionGaussianBlurEffect, directcomp.idcompositiongaussianblureffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionGaussianBlurEffect"
+f1_keywords:
+- dcomp/IDCompositionGaussianBlurEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionGaussianBlurEffect
+- IDCompositionGaussianBlurEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

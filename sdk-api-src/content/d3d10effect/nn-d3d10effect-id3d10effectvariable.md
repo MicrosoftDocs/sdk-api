@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectVariable
 title: ID3D10EffectVariable (d3d10effect.h)
-
 description: The ID3D10EffectVariable interface is the base class for all effect variables.
 old-location: direct3d10\id3d10effectvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: 8ca39e59-14b1-dd93-b1d0-8cf16752726e, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], ID3D10EffectVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectVariable, direct3d10.id3d10effectvariable
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectVariable
+- ID3D10EffectVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

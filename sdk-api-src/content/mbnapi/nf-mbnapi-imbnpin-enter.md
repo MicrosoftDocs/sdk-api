@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPin.Enter
 title: IMbnPin::Enter (mbnapi.h)
-
 description: Enters a PIN.
 old-location: mbn\imbnpin_enter.htm
 tech.root: mbn
 ms.assetid: 71bc0da9-af41-42d6-a7dc-91be54eb6f5c
-
 ms.date: 12/05/2018
 ms.keywords: Enter, Enter method [Microsoft Broadband Networks], Enter method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enter method, IMbnPin.Enter, IMbnPin::Enter, mbn.imbnpin_enter, mbnapi/IMbnPin::Enter
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPin.Enter"
+f1_keywords:
+- mbnapi/IMbnPin.Enter
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPin.Enter
+- IMbnPin.Enter
 targetos: Windows
 req.typenames: 
 req.redist: 

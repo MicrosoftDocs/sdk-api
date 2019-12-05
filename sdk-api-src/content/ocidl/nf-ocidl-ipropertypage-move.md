@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.Move
 title: IPropertyPage::Move (ocidl.h)
-
 description: Positions and resizes the property page dialog box within the frame.
 old-location: com\ipropertypage_move.htm
 tech.root: com
 ms.assetid: 305857c2-cb3a-4a56-9db3-b986b278bd02
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],Move method, IPropertyPage.Move, IPropertyPage::Move, Move, Move method [COM], Move method [COM],IPropertyPage interface, _ctrl_ipropertypage_move, com.ipropertypage_move, ocidl/IPropertyPage::Move
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.Move"
+f1_keywords:
+- ocidl/IPropertyPage.Move
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.Move
+- IPropertyPage.Move
 targetos: Windows
 req.typenames: 
 req.redist: 

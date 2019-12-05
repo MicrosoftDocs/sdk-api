@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ArcTo
 title: ArcTo function (wingdi.h)
-
 description: The ArcTo function draws an elliptical arc.
 old-location: gdi\arcto.htm
 tech.root: gdi
 ms.assetid: 5e358a14-9f39-4267-9a44-c8bf05b5dfbb
-
 ms.date: 12/05/2018
 ms.keywords: ArcTo, ArcTo function [Windows GDI], _win32_ArcTo, gdi.arcto, wingdi/ArcTo
 ms.topic: function
-f1_keywords: 
- - "wingdi/ArcTo"
+f1_keywords:
+- wingdi/ArcTo
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ArcTo
+- ArcTo
 targetos: Windows
 req.typenames: 
 req.redist: 

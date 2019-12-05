@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.ReleaseMutex
 title: ReleaseMutex function (synchapi.h)
-
 description: Releases ownership of the specified mutex object.
 old-location: base\releasemutex.htm
 tech.root: Sync
 ms.assetid: c3e4daa8-92de-455c-847c-ea59225b3aa2
-
 ms.date: 12/05/2018
 ms.keywords: ReleaseMutex, ReleaseMutex function, _win32_releasemutex, base.releasemutex, synchapi/ReleaseMutex, winbase/ReleaseMutex
 ms.topic: function
-f1_keywords: 
- - "synchapi/ReleaseMutex"
+f1_keywords:
+- synchapi/ReleaseMutex
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - ReleaseMutex
+- ReleaseMutex
 targetos: Windows
 req.typenames: 
 req.redist: 

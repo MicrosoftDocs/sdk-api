@@ -1,19 +1,17 @@
 ---
 UID: NS:winbio_adapter._WINBIO_STORAGE_RECORD
 title: WINBIO_STORAGE_RECORD (winbio_adapter.h)
-
 description: Contains a biometric template and associated data in a standard format.
 old-location: secbiomet\winbio_storage_record.htm
 tech.root: SecBioMet
 ms.assetid: fd638a08-cff0-4984-8580-a1eecd509a1f
-
 ms.date: 12/05/2018
-ms.keywords: "*PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_RECORD, WINBIO_STORAGE_RECORD structure [Windows Biometric Framework API], secbiomet.winbio_storage_record, winbio_adapter/PWINBIO_STORAGE_RECORD, winbio_adapter/WINBIO_STORAGE_RECORD"
+ms.keywords: '*PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD, PWINBIO_STORAGE_RECORD structure pointer [Windows Biometric Framework API], WINBIO_STORAGE_RECORD, WINBIO_STORAGE_RECORD structure [Windows Biometric Framework API], secbiomet.winbio_storage_record, winbio_adapter/PWINBIO_STORAGE_RECORD, winbio_adapter/WINBIO_STORAGE_RECORD'
 ms.topic: struct
-f1_keywords: 
- - "winbio_adapter/WINBIO_STORAGE_RECORD"
+f1_keywords:
+- winbio_adapter/WINBIO_STORAGE_RECORD
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbio_adapter.h
+- Winbio_adapter.h
 api_name:
- - WINBIO_STORAGE_RECORD
+- WINBIO_STORAGE_RECORD
 targetos: Windows
 req.typenames: WINBIO_STORAGE_RECORD, *PWINBIO_STORAGE_RECORD
 req.redist: 

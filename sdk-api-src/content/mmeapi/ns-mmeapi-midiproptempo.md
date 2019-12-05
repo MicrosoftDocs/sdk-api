@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.midiproptempo_tag
 title: MIDIPROPTEMPO (mmeapi.h)
-
 description: The MIDIPROPTEMPO structure contains the tempo property for a stream.
 old-location: multimedia\midiproptempo.htm
 tech.root: Multimedia
 ms.assetid: bc2941a8-e9c8-4a67-a931-01f86caa478a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMIDIPROPTEMPO, MIDIPROPTEMPO, MIDIPROPTEMPO structure [Windows Multimedia], _win32_MIDIPROPTEMPO_str, midiproptempo_tag, mmeapi/MIDIPROPTEMPO, multimedia.midiproptempo"
+ms.keywords: '*LPMIDIPROPTEMPO, MIDIPROPTEMPO, MIDIPROPTEMPO structure [Windows Multimedia], _win32_MIDIPROPTEMPO_str, midiproptempo_tag, mmeapi/MIDIPROPTEMPO, multimedia.midiproptempo'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIDIPROPTEMPO"
+f1_keywords:
+- mmeapi/MIDIPROPTEMPO
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIDIPROPTEMPO
+- MIDIPROPTEMPO
 targetos: Windows
 req.typenames: MIDIPROPTEMPO, *LPMIDIPROPTEMPO
 req.redist: 

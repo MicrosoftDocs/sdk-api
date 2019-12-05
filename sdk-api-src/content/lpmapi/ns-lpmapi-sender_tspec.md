@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_24
 title: SENDER_TSPEC (lpmapi.h)
-
 description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.
 old-location: qos\sender_tspec.htm
 tech.root: QOS
 ms.assetid: d7905687-1af8-4469-b8de-a2445afa90f4
-
 ms.date: 12/05/2018
 ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qos.sender_tspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/SENDER_TSPEC"
+f1_keywords:
+- lpmapi/SENDER_TSPEC
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - SENDER_TSPEC
+- SENDER_TSPEC
 targetos: Windows
 req.typenames: SENDER_TSPEC
 req.redist: 

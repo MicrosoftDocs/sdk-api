@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerIsSettingRangeDefined
 title: PowerIsSettingRangeDefined function (powrprof.h)
-
 description: Queries whether the specified power setting represents a range of possible values.
 old-location: base\powerissettingrangedefined.htm
 tech.root: power
 ms.assetid: 7babaf7b-ecb3-4b29-917e-2ed63bad4a38
-
 ms.date: 12/05/2018
 ms.keywords: PowerIsSettingRangeDefined, PowerIsSettingRangeDefined function, base.powerissettingrangedefined, powrprof/PowerIsSettingRangeDefined
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerIsSettingRangeDefined"
+f1_keywords:
+- powrprof/PowerIsSettingRangeDefined
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
+- Powrprof.dll
 api_name:
- - PowerIsSettingRangeDefined
+- PowerIsSettingRangeDefined
 targetos: Windows
 req.typenames: 
 req.redist: 

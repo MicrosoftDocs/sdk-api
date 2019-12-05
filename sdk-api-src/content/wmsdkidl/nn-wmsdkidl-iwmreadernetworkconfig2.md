@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderNetworkConfig2
 title: IWMReaderNetworkConfig2 (wmsdkidl.h)
-
 description: The IWMReaderNetworkConfig2 interface provides advanced networking functionality.An IWMReaderNetworkConfig2 interface exists for every reader object.
 old-location: wmformat\iwmreadernetworkconfig2.htm
 tech.root: wmformat
 ms.assetid: a0480243-53e0-4da5-a119-291b19f46951
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig2, IWMReaderNetworkConfig2 interface [windows Media Format], IWMReaderNetworkConfig2 interface [windows Media Format],described, IWMReaderNetworkConfig2Interface, wmformat.iwmreadernetworkconfig2, wmsdkidl/IWMReaderNetworkConfig2
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig2"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig2
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderNetworkConfig2
+- IWMReaderNetworkConfig2
 targetos: Windows
 req.typenames: 
 req.redist: 

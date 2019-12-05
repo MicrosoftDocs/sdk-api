@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFileLoader.CreateStreamFromKey
 title: IDWriteFontFileLoader::CreateStreamFromKey (dwrite.h)
-
 description: Creates a font file stream object that encapsulates an open file resource.
 old-location: directwrite\IDWriteFontFileLoader_CreateStreamFromKey.htm
 tech.root: DirectWrite
 ms.assetid: 1c0a7c7b-8201-45c5-ac46-20f0df034ccd
-
 ms.date: 12/05/2018
 ms.keywords: CreateStreamFromKey, CreateStreamFromKey method [Direct Write], CreateStreamFromKey method [Direct Write],IDWriteFontFileLoader interface, IDWriteFontFileLoader interface [Direct Write],CreateStreamFromKey method, IDWriteFontFileLoader.CreateStreamFromKey, IDWriteFontFileLoader::CreateStreamFromKey, directwrite.IDWriteFontFileLoader_CreateStreamFromKey, dwrite/IDWriteFontFileLoader::CreateStreamFromKey
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFileLoader.CreateStreamFromKey"
+f1_keywords:
+- dwrite/IDWriteFontFileLoader.CreateStreamFromKey
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFileLoader.CreateStreamFromKey
+- IDWriteFontFileLoader.CreateStreamFromKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSplatConstant
 title: XMVectorSplatConstant function (directxmath.h)
-
 description: Creates a vector with identical floating-point components. Each component is a constant divided by two raised to an integer exponent.
 old-location: dxmath\xmvectorsplatconstant.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatConstant(uint32_t,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatConstant, XMVectorSplatConstant, XMVectorSplatConstant method [DirectX Math Support APIs], dxmath.xmvectorsplatconstant
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSplatConstant"
+f1_keywords:
+- directxmath/XMVectorSplatConstant
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMVectorSplatConstant
+- XMVectorSplatConstant
 targetos: Windows
 req.typenames: 
 req.redist: 

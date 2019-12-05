@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusRemoveClusterHealthFault
 title: ClusRemoveClusterHealthFault function (resapi.h)
-
 description: TBD.
 old-location: mscs\clusremoveclusterhealthfault.htm
 tech.root: MsCS
 ms.assetid: ff20511b-beb0-4fa4-a8f3-cc2772cdc503
-
 ms.date: 12/05/2018
 ms.keywords: ClusRemoveClusterHealthFault, ClusRemoveClusterHealthFault function [Failover Cluster], mscs.clusremoveclusterhealthfault, resapi/ClusRemoveClusterHealthFault
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusRemoveClusterHealthFault"
+f1_keywords:
+- resapi/ClusRemoveClusterHealthFault
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - ClusRemoveClusterHealthFault
+- ClusRemoveClusterHealthFault
 targetos: Windows
 req.typenames: 
 req.redist: 

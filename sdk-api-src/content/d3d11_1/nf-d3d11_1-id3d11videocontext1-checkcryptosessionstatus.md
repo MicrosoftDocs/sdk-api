@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.CheckCryptoSessionStatus
 title: ID3D11VideoContext1::CheckCryptoSessionStatus (d3d11_1.h)
-
 description: Checks the status of a crypto session.
 old-location: mf\id3d11videocontext1_checkcryptosessionstatus.htm
 tech.root: medfound
 ms.assetid: 07126C45-2771-432C-9644-FD4099B8D26D
-
 ms.date: 12/05/2018
 ms.keywords: CheckCryptoSessionStatus, CheckCryptoSessionStatus method [Media Foundation], CheckCryptoSessionStatus method [Media Foundation],ID3D11VideoContext1 interface, ID3D11VideoContext1 interface [Media Foundation],CheckCryptoSessionStatus method, ID3D11VideoContext1.CheckCryptoSessionStatus, ID3D11VideoContext1::CheckCryptoSessionStatus, d3d11_1/ID3D11VideoContext1::CheckCryptoSessionStatus, mf.id3d11videocontext1_checkcryptosessionstatus
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoContext1.CheckCryptoSessionStatus"
+f1_keywords:
+- d3d11_1/ID3D11VideoContext1.CheckCryptoSessionStatus
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoContext1.CheckCryptoSessionStatus
+- ID3D11VideoContext1.CheckCryptoSessionStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

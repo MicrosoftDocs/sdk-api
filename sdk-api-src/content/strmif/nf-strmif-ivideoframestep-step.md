@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVideoFrameStep.Step
 title: IVideoFrameStep::Step (strmif.h)
-
 description: The Step method causes the filter graph to step forward by the specified number of frames.
 old-location: dshow\ivideoframestep_step.htm
 tech.root: DirectShow
 ms.assetid: 1366b8b4-ea7a-4528-8a5a-03a3de265d89
-
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameStep interface [DirectShow],Step method, IVideoFrameStep.Step, IVideoFrameStep::Step, IVideoFrameStepStep, Step, Step method [DirectShow], Step method [DirectShow],IVideoFrameStep interface, dshow.ivideoframestep_step, strmif/IVideoFrameStep::Step
 ms.topic: method
-f1_keywords: 
- - "strmif/IVideoFrameStep.Step"
+f1_keywords:
+- strmif/IVideoFrameStep.Step
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoFrameStep.Step
+- IVideoFrameStep.Step
 targetos: Windows
 req.typenames: 
 req.redist: 

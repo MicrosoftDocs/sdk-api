@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiDirectoryItem.get_EnumFsiItems
 title: IFsiDirectoryItem::get_EnumFsiItems (imapi2fs.h)
-
 description: Retrieves a list of child items contained within the directory in the file system image.
 old-location: imapi\ifsidirectoryitem_get_enumfsiitems.htm
 tech.root: imapi
 ms.assetid: 723f28ad-f77d-494f-9ae6-ba6120675cfd
-
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem interface [IMAPI],get_EnumFsiItems method, IFsiDirectoryItem.get_EnumFsiItems, IFsiDirectoryItem::get_EnumFsiItems, get_EnumFsiItems, get_EnumFsiItems method [IMAPI], get_EnumFsiItems method [IMAPI],IFsiDirectoryItem interface, imapi.ifsidirectoryitem_get_enumfsiitems, imapi2fs/IFsiDirectoryItem::get_EnumFsiItems
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem.get_EnumFsiItems"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem.get_EnumFsiItems
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem.get_EnumFsiItems
+- IFsiDirectoryItem.get_EnumFsiItems
 targetos: Windows
 req.typenames: 
 req.redist: 

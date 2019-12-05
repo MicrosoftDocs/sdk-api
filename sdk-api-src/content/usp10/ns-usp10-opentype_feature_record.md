@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.opentype_feature_record
 title: OPENTYPE_FEATURE_RECORD (usp10.h)
-
 description: Contains information about a single OpenType feature to apply to a run.
 old-location: intl\opentype_feature_record.htm
 tech.root: Intl
 ms.assetid: 3f4d76f7-fd50-4a38-973b-329e477e5960
-
 ms.date: 12/05/2018
 ms.keywords: OPENTYPE_FEATURE_RECORD, OPENTYPE_FEATURE_RECORD structure [Internationalization for Windows Applications], _win32_OPENTYPE_FEATURE_RECORD, intl.opentype_feature_record, usp10/OPENTYPE_FEATURE_RECORD
 ms.topic: struct
-f1_keywords: 
- - "usp10/OPENTYPE_FEATURE_RECORD"
+f1_keywords:
+- usp10/OPENTYPE_FEATURE_RECORD
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - OPENTYPE_FEATURE_RECORD
+- OPENTYPE_FEATURE_RECORD
 targetos: Windows
 req.typenames: OPENTYPE_FEATURE_RECORD
 req.redist: Usp10.dll version 1.600 or greater onWindows XP

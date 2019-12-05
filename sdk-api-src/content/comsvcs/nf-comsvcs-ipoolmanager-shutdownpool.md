@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IPoolManager.ShutdownPool
 title: IPoolManager::ShutdownPool (comsvcs.h)
-
 description: Shuts down the object pool.
 old-location: cos\ipoolmanager_shutdownpool.htm
 tech.root: cossdk
 ms.assetid: c374b0a4-d984-4fa6-80a7-8bc4d0aff284
-
 ms.date: 12/05/2018
 ms.keywords: IPoolManager interface [COM+],ShutdownPool method, IPoolManager.ShutdownPool, IPoolManager::ShutdownPool, ShutdownPool, ShutdownPool method [COM+], ShutdownPool method [COM+],IPoolManager interface, _cos_IPoolManager_ShutdownPool, comsvcs/IPoolManager::ShutdownPool, cos.ipoolmanager_shutdownpool
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IPoolManager.ShutdownPool"
+f1_keywords:
+- comsvcs/IPoolManager.ShutdownPool
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IPoolManager.ShutdownPool
+- IPoolManager.ShutdownPool
 targetos: Windows
 req.typenames: 
 req.redist: 

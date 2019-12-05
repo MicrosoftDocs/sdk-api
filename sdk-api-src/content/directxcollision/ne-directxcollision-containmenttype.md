@@ -1,19 +1,17 @@
 ---
 UID: NE:directxcollision.ContainmentType
 title: ContainmentType
-
 description: Indicates whether an object contains another object.
 old-location: dxmath\containmenttype.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.ContainmentType
-
 ms.date: 12/05/2018
 ms.keywords: CONTAINS, ContainmentType, ContainmentType enumeration [DirectX Math Support APIs], DISJOINT, INTERSECTS, directxcollision/CONTAINS, directxcollision/ContainmentType, directxcollision/DISJOINT, directxcollision/INTERSECTS, dxmath.containmenttype
 ms.topic: enum
-f1_keywords: 
- - "directxcollision/ContainmentType"
+f1_keywords:
+- directxcollision/ContainmentType
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - ContainmentType
+- ContainmentType
 targetos: Windows
 req.typenames: 
 req.redist: 

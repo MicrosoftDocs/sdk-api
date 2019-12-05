@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.accLocation
 title: IAccessible::accLocation (oleacc.h)
-
 description: The IAccessible::accLocation method retrieves the specified object's current screen location. All visual objects must support this method. Sound objects do not support this method.
 old-location: winauto\iaccessible_iaccessible__acclocation.htm
 tech.root: WinAuto
 ms.assetid: 1eb6f075-a8bf-4c03-96ee-460728317955
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],accLocation method, IAccessible.accLocation, IAccessible::accLocation, _msaa_IAccessible_accLocation, accLocation, accLocation method [Windows Accessibility], accLocation method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__acclocation, oleacc/IAccessible::accLocation, winauto.iaccessible_iaccessible__acclocation
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.accLocation"
+f1_keywords:
+- oleacc/IAccessible.accLocation
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.accLocation
+- IAccessible.accLocation
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

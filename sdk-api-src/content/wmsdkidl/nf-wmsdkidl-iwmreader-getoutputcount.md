@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.GetOutputCount
 title: IWMReader::GetOutputCount (wmsdkidl.h)
-
 description: The GetOutputCount method retrieves the number of uncompressed media streams that will be delivered for the file loaded in the reader.
 old-location: wmformat\iwmreader_getoutputcount.htm
 tech.root: wmformat
 ms.assetid: 4f04fad9-a638-45c6-b924-50f57472dfe3
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputCount, GetOutputCount method [windows Media Format], GetOutputCount method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputCount method, IWMReader.GetOutputCount, IWMReader::GetOutputCount, IWMReaderGetOutputCount, wmformat.iwmreader_getoutputcount, wmsdkidl/IWMReader::GetOutputCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.GetOutputCount"
+f1_keywords:
+- wmsdkidl/IWMReader.GetOutputCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.GetOutputCount
+- IWMReader.GetOutputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

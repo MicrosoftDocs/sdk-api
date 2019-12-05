@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetProfile
 title: IMFASFContentInfo::GetProfile (wmcontainer.h)
-
 description: Retrieves an Advanced Systems Format (ASF) profile that describes the ASF content.
 old-location: mf\imfasfcontentinfo_getprofile.htm
 tech.root: medfound
 ms.assetid: 6f74c896-a0c0-407b-b893-de15863bc2eb
-
 ms.date: 12/05/2018
 ms.keywords: 6f74c896-a0c0-407b-b893-de15863bc2eb, GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetProfile method, IMFASFContentInfo.GetProfile, IMFASFContentInfo::GetProfile, mf.imfasfcontentinfo_getprofile, wmcontainer/IMFASFContentInfo::GetProfile
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFContentInfo.GetProfile"
+f1_keywords:
+- wmcontainer/IMFASFContentInfo.GetProfile
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFContentInfo.GetProfile
+- IMFASFContentInfo.GetProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

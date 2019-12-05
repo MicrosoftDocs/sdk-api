@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingOrientedBox::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-
 description: Tests whether the BoundingOrientedBox contains a triangle.
 old-location: dxmath\boundingorientedbox_contains_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Contains(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Contains method, BoundingOrientedBox.Contains, BoundingOrientedBox.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingOrientedBox.Contains(XMVECTOR,XMVECTOR,XMVECTOR), BoundingOrientedBox::Contains, BoundingOrientedBox::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_contains_2
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingOrientedBox.Contains"
+f1_keywords:
+- directxcollision/BoundingOrientedBox.Contains
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingOrientedBox.Contains
+- BoundingOrientedBox.Contains
 targetos: Windows
 req.typenames: 
 req.redist: 

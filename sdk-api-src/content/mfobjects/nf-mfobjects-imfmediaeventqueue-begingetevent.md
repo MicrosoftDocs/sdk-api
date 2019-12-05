@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.BeginGetEvent
 title: IMFMediaEventQueue::BeginGetEvent (mfobjects.h)
-
 description: Begins an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::BeginGetEvent. Pass the parameters from that method directly to this method.
 old-location: mf\imfmediaeventqueue_begingetevent.htm
 tech.root: medfound
 ms.assetid: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5
-
 ms.date: 12/05/2018
 ms.keywords: 454d4b3b-6251-4b7e-b8f3-ff7cff5269b5, BeginGetEvent, BeginGetEvent method [Media Foundation], BeginGetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],BeginGetEvent method, IMFMediaEventQueue.BeginGetEvent, IMFMediaEventQueue::BeginGetEvent, mf.imfmediaeventqueue_begingetevent, mfobjects/IMFMediaEventQueue::BeginGetEvent
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaEventQueue.BeginGetEvent"
+f1_keywords:
+- mfobjects/IMFMediaEventQueue.BeginGetEvent
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEventQueue.BeginGetEvent
+- IMFMediaEventQueue.BeginGetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

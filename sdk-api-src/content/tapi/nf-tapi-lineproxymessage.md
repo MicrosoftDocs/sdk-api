@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineProxyMessage
 title: lineProxyMessage function (tapi.h)
-
 description: The lineProxyMessage function is used by a registered proxy request handler to generate TAPI messages related to its role.
 old-location: tapi2\lineproxymessage.htm
 tech.root: Tapi
 ms.assetid: 624a13f4-4be7-441b-abc0-e1fad8f01bdf
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineproxymessage, lineProxyMessage, lineProxyMessage function [TAPI 2.2], tapi/lineProxyMessage, tapi2.lineproxymessage"
+ms.keywords: _tapi2_lineproxymessage, lineProxyMessage, lineProxyMessage function [TAPI 2.2], tapi/lineProxyMessage, tapi2.lineproxymessage
 ms.topic: function
-f1_keywords: 
- - "tapi/lineProxyMessage"
+f1_keywords:
+- tapi/lineProxyMessage
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineProxyMessage
+- lineProxyMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

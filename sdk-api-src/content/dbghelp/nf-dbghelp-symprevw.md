@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymPrevW
 title: SymPrevW function (dbghelp.h)
-
 description: Retrieves symbol information for the previous symbol.
 old-location: base\symprev.htm
 tech.root: Debug
 ms.assetid: 45503f0c-cb66-4ddf-986d-02de7fc480f2
-
 ms.date: 12/05/2018
 ms.keywords: SymPrev, SymPrev function, SymPrevW, base.symprev, dbghelp/SymPrev, dbghelp/SymPrevW
 ms.topic: function
 f1_keywords:
 - dbghelp/SymPrev
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

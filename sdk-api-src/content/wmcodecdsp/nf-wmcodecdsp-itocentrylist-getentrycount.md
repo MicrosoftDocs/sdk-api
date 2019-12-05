@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntryList.GetEntryCount
 title: ITocEntryList::GetEntryCount (wmcodecdsp.h)
-
 description: The GetEntryCount method retrieves the number of entries in the list.
 old-location: mf\itocentrylist_getentrycount.htm
 tech.root: medfound
 ms.assetid: 74c45032-578d-4ee1-a13d-f95646f27ce9
-
 ms.date: 12/05/2018
 ms.keywords: GetEntryCount, GetEntryCount method [Media Foundation], GetEntryCount method [Media Foundation],ITocEntryList interface, ITocEntryList interface [Media Foundation],GetEntryCount method, ITocEntryList.GetEntryCount, ITocEntryList::GetEntryCount, codecapi.itocentrylist_getentrycount, mf.itocentrylist_getentrycount, wmcodecdsp/ITocEntryList::GetEntryCount
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntryList.GetEntryCount"
+f1_keywords:
+- wmcodecdsp/ITocEntryList.GetEntryCount
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntryList.GetEntryCount
+- ITocEntryList.GetEntryCount
 targetos: Windows
 req.typenames: 
 req.redist: 

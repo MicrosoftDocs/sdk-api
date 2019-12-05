@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Metafile.GetHENHMETAFILE
 title: Metafile::GetHENHMETAFILE (gdiplusheaders.h)
-
 description: The Metafile::GetHENHMETAFILE method gets a Windows handle to an Enhanced Metafile (EMF) file.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetHENHMETAFILE_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\gethenhmetafile.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetHENHMETAFILE, GetHENHMETAFILE method [GDI+], GetHENHMETAFILE method [GDI+],Metafile class, Metafile class [GDI+],GetHENHMETAFILE method, Metafile.GetHENHMETAFILE, Metafile::GetHENHMETAFILE, _gdiplus_CLASS_Metafile_GetHENHMETAFILE_, gdiplus._gdiplus_CLASS_Metafile_GetHENHMETAFILE_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Metafile.GetHENHMETAFILE"
+f1_keywords:
+- gdiplusheaders/Metafile.GetHENHMETAFILE
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Metafile.GetHENHMETAFILE
+- Metafile.GetHENHMETAFILE
 targetos: Windows
 req.typenames: 
 req.redist: 

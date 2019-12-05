@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSequencerSource.UpdateTopology
 title: IMFSequencerSource::UpdateTopology (mfidl.h)
-
 description: Updates a topology in the queue.
 old-location: mf\imfsequencersource_updatetopology.htm
 tech.root: medfound
 ms.assetid: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf
-
 ms.date: 12/05/2018
 ms.keywords: 4ed6be6c-a031-4628-a3c5-7f0676cc0baf, IMFSequencerSource interface [Media Foundation],UpdateTopology method, IMFSequencerSource.UpdateTopology, IMFSequencerSource::UpdateTopology, UpdateTopology, UpdateTopology method [Media Foundation], UpdateTopology method [Media Foundation],IMFSequencerSource interface, mf.imfsequencersource_updatetopology, mfidl/IMFSequencerSource::UpdateTopology
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSequencerSource.UpdateTopology"
+f1_keywords:
+- mfidl/IMFSequencerSource.UpdateTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSequencerSource.UpdateTopology
+- IMFSequencerSource.UpdateTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

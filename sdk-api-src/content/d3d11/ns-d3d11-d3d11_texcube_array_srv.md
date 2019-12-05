@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEXCUBE_ARRAY_SRV
 title: D3D11_TEXCUBE_ARRAY_SRV (d3d11.h)
-
 description: Specifies the subresources from an array of cube textures to use in a shader-resource view.
 old-location: direct3d11\d3d11_texcube_array_srv.htm
 tech.root: direct3d11
 ms.assetid: e8b496a7-89d9-4168-908a-1731ce045851
-
 ms.date: 12/05/2018
 ms.keywords: 3ac4ac3b-6edc-1416-88f6-1ee1c2ed12a4, D3D11_TEXCUBE_ARRAY_SRV, D3D11_TEXCUBE_ARRAY_SRV structure [Direct3D 11], d3d11/D3D11_TEXCUBE_ARRAY_SRV, direct3d11.d3d11_texcube_array_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEXCUBE_ARRAY_SRV"
+f1_keywords:
+- d3d11/D3D11_TEXCUBE_ARRAY_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_TEXCUBE_ARRAY_SRV
+- D3D11_TEXCUBE_ARRAY_SRV
 targetos: Windows
 req.typenames: D3D11_TEXCUBE_ARRAY_SRV
 req.redist: 

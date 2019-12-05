@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetItemState
 title: TreeView_GetItemState macro (commctrl.h)
-
 description: Retrieves some or all of a tree-view item's state attributes. You can use this macro or send the TVM_GETITEMSTATE message explicitly.
 old-location: controls\TreeView_GetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetItemState, TreeView_GetItemState macro [Windows Controls], _win32_TreeView_GetItemState, _win32_TreeView_GetItemState_cpp, commctrl/TreeView_GetItemState, controls.TreeView_GetItemState, controls._win32_TreeView_GetItemState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetItemState"
+f1_keywords:
+- commctrl/TreeView_GetItemState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetItemState
+- TreeView_GetItemState
 targetos: Windows
 req.typenames: 
 req.redist: 

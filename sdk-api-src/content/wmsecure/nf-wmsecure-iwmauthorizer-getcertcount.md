@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMAuthorizer.GetCertCount
 title: IWMAuthorizer::GetCertCount (wmsecure.h)
-
 description: Get the number of certificates.
 old-location: wmformat\iwmauthorizer_getcertcount.htm
 tech.root: wmformat
 ms.assetid: afe8a924-3d2b-42e6-9700-a6075f51ff10
-
 ms.date: 12/05/2018
 ms.keywords: GetCertCount, GetCertCount method [windows Media Format], GetCertCount method [windows Media Format],IWMAuthorizer interface, IWMAuthorizer interface [windows Media Format],GetCertCount method, IWMAuthorizer.GetCertCount, IWMAuthorizer::GetCertCount, wmformat.iwmauthorizer_getcertcount, wmsecure/IWMAuthorizer::GetCertCount
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMAuthorizer.GetCertCount"
+f1_keywords:
+- wmsecure/IWMAuthorizer.GetCertCount
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMAuthorizer.GetCertCount
+- IWMAuthorizer.GetCertCount
 targetos: Windows
 req.typenames: 
 req.redist: 

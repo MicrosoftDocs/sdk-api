@@ -1,19 +1,17 @@
 ---
 UID: NS:opmapi._OPM_ACTUAL_OUTPUT_FORMAT
 title: OPM_ACTUAL_OUTPUT_FORMAT (opmapi.h)
-
 description: Contains the result of an OPM_GET_ACTUAL_OUTPUT_FORMAT query in Output Protection Manager (OPM).
 old-location: mf\opm_actual_output_format.htm
 tech.root: medfound
 ms.assetid: 0b20cdcd-3d03-4da3-b81c-b5025dcb04c3
-
 ms.date: 12/05/2018
 ms.keywords: OPM_ACTUAL_OUTPUT_FORMAT, OPM_ACTUAL_OUTPUT_FORMAT structure [Media Foundation], mf.opm_actual_output_format, opmapi/OPM_ACTUAL_OUTPUT_FORMAT
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_ACTUAL_OUTPUT_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

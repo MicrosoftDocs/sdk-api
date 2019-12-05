@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextState.SetMyTransactionVote
 title: IContextState::SetMyTransactionVote (comsvcs.h)
-
 description: Sets the consistent flag.
 old-location: cos\icontextstate_setmytransactionvote.htm
 tech.root: cossdk
 ms.assetid: ec88f99a-cb24-42a9-8f2a-add7ddbec719
-
 ms.date: 12/05/2018
 ms.keywords: IContextState interface [COM+],SetMyTransactionVote method, IContextState.SetMyTransactionVote, IContextState::SetMyTransactionVote, SetMyTransactionVote, SetMyTransactionVote method [COM+], SetMyTransactionVote method [COM+],IContextState interface, _cos_IContextState_SetMyTransactionVote, comsvcs/IContextState::SetMyTransactionVote, cos.icontextstate_setmytransactionvote
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextState.SetMyTransactionVote"
+f1_keywords:
+- comsvcs/IContextState.SetMyTransactionVote
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextState.SetMyTransactionVote
+- IContextState.SetMyTransactionVote
 targetos: Windows
 req.typenames: 
 req.redist: 

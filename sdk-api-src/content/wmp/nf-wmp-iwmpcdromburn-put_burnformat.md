@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.put_burnFormat
 title: IWMPCdromBurn::put_burnFormat (wmp.h)
-
 description: The put_burnFormat method specifies the type of CD to burn.
 old-location: wmp\iwmpcdromburn_put_burnformat.htm
 tech.root: WMP
 ms.assetid: 1352e2f6-cad8-4d86-b973-b7d4d8f0c448
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],put_burnFormat method, IWMPCdromBurn.put_burnFormat, IWMPCdromBurn::put_burnFormat, IWMPCdromBurnput_burnFormat, put_burnFormat, put_burnFormat method [Windows Media Player], put_burnFormat method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_put_burnformat, wmp/IWMPCdromBurn::put_burnFormat
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.put_burnFormat"
+f1_keywords:
+- wmp/IWMPCdromBurn.put_burnFormat
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.put_burnFormat
+- IWMPCdromBurn.put_burnFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

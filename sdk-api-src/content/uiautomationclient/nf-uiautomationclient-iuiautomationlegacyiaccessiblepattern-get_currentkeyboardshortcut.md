@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut
 title: IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut (uiautomationclient.h)
-
 description: Retrieves the Microsoft Active Accessibility keyboard shortcut property for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut.htm
 tech.root: WinAuto
 ms.assetid: c0b205d3-b36a-4ad5-9d4a-f9d8a1ab7701
-
 ms.date: 12/05/2018
 ms.keywords: CurrentKeyboardShortcut property [Windows Accessibility], CurrentKeyboardShortcut property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CurrentKeyboardShortcut property, IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::CurrentKeyboardShortcut, IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut, get_CurrentKeyboardShortcut, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut, uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CurrentKeyboardShortcut, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CurrentKeyboardShortcut
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut
- - IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut
+- IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut
+- IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut
 targetos: Windows
 req.typenames: 
 req.redist: 

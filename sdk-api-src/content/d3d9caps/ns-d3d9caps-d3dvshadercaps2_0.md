@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d9caps._D3DVSHADERCAPS2_0
 title: D3DVSHADERCAPS2_0 (d3d9caps.h)
-
 description: Vertex shader caps.
 old-location: direct3d9\d3dvshadercaps2_0.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\d3dvshadercaps2_0.htm
-
 ms.date: 12/05/2018
 ms.keywords: 85a71d10-ae0f-bdc3-e929-6d1ff3c0b356, D3DVSHADERCAPS2_0, D3DVSHADERCAPS2_0 structure [Direct3D 9], LPD3DVSHADERCAPS2_0, LPD3DVSHADERCAPS2_0 structure pointer [Direct3D 9], d3d9caps/D3DVSHADERCAPS2_0, d3d9caps/LPD3DVSHADERCAPS2_0, direct3d9.d3dvshadercaps2_0
 ms.topic: struct
 f1_keywords:
 - d3d9caps/D3DVSHADERCAPS2_0
 dev_langs:
- - c++
+- c++
 req.header: d3d9caps.h
 req.include-header: 
 req.target-type: Windows

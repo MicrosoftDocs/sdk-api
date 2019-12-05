@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.ActiveEnd
 title: ActiveEnd (uiautomationcore.h)
-
 description: Contains possible values for the SelectionActiveEnd text attribute, which indicates the location of the caret relative to a text range that represents the currently selected text.
 old-location: winauto\uiauto_ActiveEnd.htm
 tech.root: WinAuto
 ms.assetid: 20A6813A-FA1B-43BD-A2D2-AF9AB5A7CC99
-
 ms.date: 12/05/2018
 ms.keywords: ActiveEnd, ActiveEnd enumeration [Windows Accessibility], ActiveEnd_End, ActiveEnd_None, ActiveEnd_Start, uiautomationcore/ActiveEnd, uiautomationcore/ActiveEnd_End, uiautomationcore/ActiveEnd_None, uiautomationcore/ActiveEnd_Start, winauto.uiauto_ActiveEnd
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/ActiveEnd"
+f1_keywords:
+- uiautomationcore/ActiveEnd
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ActiveEnd
+- ActiveEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

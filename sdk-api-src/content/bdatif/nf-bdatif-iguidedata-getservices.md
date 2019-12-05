@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideData.GetServices
 title: IGuideData::GetServices (bdatif.h)
-
 description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.
 old-location: mstv\iguidedata_getservices.htm
 tech.root: mstv
 ms.assetid: a3c08812-ed56-440e-a88d-80e20a681695
-
 ms.date: 12/05/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IGuideData interface, IGuideData interface [Microsoft TV Technologies],GetServices method, IGuideData.GetServices, IGuideData::GetServices, IGuideDataGetServices, bdatif/IGuideData::GetServices, mstv.iguidedata_getservices
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideData.GetServices"
+f1_keywords:
+- bdatif/IGuideData.GetServices
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideData.GetServices
+- IGuideData.GetServices
 targetos: Windows
 req.typenames: 
 req.redist: 

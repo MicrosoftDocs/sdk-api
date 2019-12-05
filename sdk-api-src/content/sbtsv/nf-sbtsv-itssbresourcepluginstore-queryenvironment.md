@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.QueryEnvironment
 title: ITsSbResourcePluginStore::QueryEnvironment (sbtsv.h)
-
 description: Returns the specified environment object.
 old-location: termserv\itssbresourcepluginstore_queryenvironment.htm
 tech.root: TermServ
 ms.assetid: 1497c638-ba9d-467e-8fbb-8467a43666cc
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStore.QueryEnvironment, ITsSbResourcePluginStore::QueryEnvironment, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],QueryEnvironment method, ITsSbResourcePluginStoreEx::QueryEnvironment, QueryEnvironment, QueryEnvironment method [Remote Desktop Services], QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStore interface, QueryEnvironment method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::QueryEnvironment, sbtsv/ITsSbResourcePluginStoreEx::QueryEnvironment, termserv.itssbresourcepluginstore_queryenvironment
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.QueryEnvironment"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.QueryEnvironment
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.QueryEnvironment
- - ITsSbResourcePluginStoreEx.QueryEnvironment
+- ITsSbResourcePluginStore.QueryEnvironment
+- ITsSbResourcePluginStoreEx.QueryEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

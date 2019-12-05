@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasUpdateConnection
 title: RasUpdateConnection function (ras.h)
-
 description: The RasUpdateConnection function updates the tunnel endpoints of an Internet Key Exchange version 2 (IKEv2) connection.
 old-location: rras\rasupdateconnection.htm
 tech.root: RRAS
 ms.assetid: ab4fd68c-acc0-4586-9d3d-b796e23d635d
-
 ms.date: 12/05/2018
 ms.keywords: RasUpdateConnection, RasUpdateConnection function [RAS], ras/RasUpdateConnection, rras.rasupdateconnection
 ms.topic: function
-f1_keywords: 
- - "ras/RasUpdateConnection"
+f1_keywords:
+- ras/RasUpdateConnection
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasUpdateConnection
+- RasUpdateConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionBasicConstraints.get_PathLenConstraint
 title: IX509ExtensionBasicConstraints::get_PathLenConstraint (certenroll.h)
-
 description: Retrieves the depth of the subordinate certification authority chain.
 old-location: security\ix509extensionbasicconstraints_pathlenconstraint_property.htm
 tech.root: seccertenroll
 ms.assetid: 6d688596-60fd-47d0-8f91-cfda448ac015
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionBasicConstraints interface [Security],PathLenConstraint property, IX509ExtensionBasicConstraints.PathLenConstraint, IX509ExtensionBasicConstraints.get_PathLenConstraint, IX509ExtensionBasicConstraints::PathLenConstraint, IX509ExtensionBasicConstraints::get_PathLenConstraint, PathLenConstraint property [Security], PathLenConstraint property [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::PathLenConstraint, certenroll/IX509ExtensionBasicConstraints::get_PathLenConstraint, get_PathLenConstraint, security.ix509extensionbasicconstraints_pathlenconstraint_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionBasicConstraints.PathLenConstraint"
+f1_keywords:
+- certenroll/IX509ExtensionBasicConstraints.PathLenConstraint
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionBasicConstraints.PathLenConstraint
- - IX509ExtensionBasicConstraints.get_PathLenConstraint
+- IX509ExtensionBasicConstraints.PathLenConstraint
+- IX509ExtensionBasicConstraints.get_PathLenConstraint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IEVRFilterConfig
 title: IEVRFilterConfig (evr.h)
-
 description: Sets the number of input pins on the DirectShow Enhanced Video Renderer (EVR) filter.
 old-location: mf\ievrfilterconfig.htm
 tech.root: medfound
 ms.assetid: 13086d85-3dbf-4e9f-b065-d95e16412832
-
 ms.date: 12/05/2018
 ms.keywords: 13086d85-3dbf-4e9f-b065-d95e16412832, IEVRFilterConfig, IEVRFilterConfig interface [Media Foundation], IEVRFilterConfig interface [Media Foundation],described, evr/IEVRFilterConfig, mf.ievrfilterconfig
 ms.topic: interface
-f1_keywords: 
- - "evr/IEVRFilterConfig"
+f1_keywords:
+- evr/IEVRFilterConfig
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IEVRFilterConfig
+- IEVRFilterConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

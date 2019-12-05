@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagPARAMDESCEX
 title: PARAMDESCEX (oaidl.h)
-
 description: Contains information about the default value of a parameter.
 old-location: automat\paramdescex.htm
 tech.root: automat
 ms.assetid: a7da5ded-f0b9-4f6e-8cea-750a338d6328
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPARAMDESCEX, LPPARAMDESCEX, LPPARAMDESCEX structure pointer [Automation], PARAMDESCEX, PARAMDESCEX structure [Automation], _oa96_PARAMDESCEX, automat.paramdescex, oaidl/LPPARAMDESCEX, oaidl/PARAMDESCEX"
+ms.keywords: '*LPPARAMDESCEX, LPPARAMDESCEX, LPPARAMDESCEX structure pointer [Automation], PARAMDESCEX, PARAMDESCEX structure [Automation], _oa96_PARAMDESCEX, automat.paramdescex, oaidl/LPPARAMDESCEX, oaidl/PARAMDESCEX'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/PARAMDESCEX"
+f1_keywords:
+- oaidl/PARAMDESCEX
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - PARAMDESCEX
+- PARAMDESCEX
 targetos: Windows
 req.typenames: PARAMDESCEX, *LPPARAMDESCEX
 req.redist: 

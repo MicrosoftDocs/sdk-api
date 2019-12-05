@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.GetColorBitmapGlyphImage
 title: ID2D1DeviceContext4::GetColorBitmapGlyphImage (d2d1_3.h)
-
 description: Retrieves an image of the color bitmap glyph from the color glyph cache.
 old-location: direct2d\id2d1devicecontext4_getcolorbitmapglyphimage.htm
 tech.root: Direct2D
 ms.assetid: 493224CD-A31E-405B-A084-24C377F713A0
-
 ms.date: 12/05/2018
 ms.keywords: GetColorBitmapGlyphImage, GetColorBitmapGlyphImage method [Direct2D], GetColorBitmapGlyphImage method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],GetColorBitmapGlyphImage method, ID2D1DeviceContext4.GetColorBitmapGlyphImage, ID2D1DeviceContext4::GetColorBitmapGlyphImage, d2d1_3/ID2D1DeviceContext4::GetColorBitmapGlyphImage, direct2d.id2d1devicecontext4_getcolorbitmapglyphimage
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext4.GetColorBitmapGlyphImage"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext4.GetColorBitmapGlyphImage
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext4.GetColorBitmapGlyphImage
+- ID2D1DeviceContext4.GetColorBitmapGlyphImage
 targetos: Windows
 req.typenames: 
 req.redist: 

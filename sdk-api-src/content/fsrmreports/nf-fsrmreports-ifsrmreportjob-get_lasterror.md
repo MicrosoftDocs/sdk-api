@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastError
 title: IFsrmReportJob::get_LastError (fsrmreports.h)
-
 description: Retrieves the error message from the last time the reports were run.
 old-location: fsrm\ifsrmreportjob_lasterror.htm
 tech.root: fsrm
 ms.assetid: 7a610d10-8e43-49b7-b85b-bb0ec122fda8
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],LastError property, IFsrmReportJob.LastError, IFsrmReportJob.get_LastError, IFsrmReportJob::LastError, IFsrmReportJob::get_LastError, LastError property [File Server Resource Manager], LastError property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_lasterror, fsrm.ifsrmreportjob_lasterror, fsrmreports/IFsrmReportJob::LastError, fsrmreports/IFsrmReportJob::get_LastError, get_LastError
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.LastError"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.LastError
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.LastError
- - IFsrmReportJob.get_LastError
+- IFsrmReportJob.LastError
+- IFsrmReportJob.get_LastError
 targetos: Windows
 req.typenames: 
 req.redist: 

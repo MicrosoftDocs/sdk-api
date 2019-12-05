@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.ReleaseCachedData
 title: IDynamicRenderer::ReleaseCachedData (rtscom.h)
-
 description: Releases specified stroke data from the temporal data held by DynamicRenderer Class.
 old-location: tablet\idynamicrenderer_releasecacheddata.htm
 tech.root: tablet
 ms.assetid: 691de815-a5be-4982-a59a-b904c070ede8
-
 ms.date: 12/05/2018
 ms.keywords: 691de815-a5be-4982-a59a-b904c070ede8, IDynamicRenderer interface [Tablet PC],ReleaseCachedData method, IDynamicRenderer.ReleaseCachedData, IDynamicRenderer::ReleaseCachedData, ReleaseCachedData, ReleaseCachedData method [Tablet PC], ReleaseCachedData method [Tablet PC],IDynamicRenderer interface, rtscom/IDynamicRenderer::ReleaseCachedData, tablet.idynamicrenderer_releasecacheddata
 ms.topic: method
-f1_keywords: 
- - "rtscom/IDynamicRenderer.ReleaseCachedData"
+f1_keywords:
+- rtscom/IDynamicRenderer.ReleaseCachedData
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IDynamicRenderer.ReleaseCachedData
+- IDynamicRenderer.ReleaseCachedData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3ds.ITAllocatorProperties
 title: ITAllocatorProperties (tapi3ds.h)
-
 description: The ITAllocatorProperties interface exposes the buffer allocator properties of the Media Streaming Terminal (MST) to an end-user or server application.
 old-location: tapi3\itallocatorproperties.htm
 tech.root: Tapi
 ms.assetid: a0facf08-1b03-415b-b97e-3fda5a164b89
-
 ms.date: 12/05/2018
 ms.keywords: ITAllocatorProperties, ITAllocatorProperties interface [TAPI 2.2], ITAllocatorProperties interface [TAPI 2.2],described, _tapi3_itallocatorproperties, tapi3.itallocatorproperties, tapi3ds/ITAllocatorProperties
 ms.topic: interface
-f1_keywords: 
- - "tapi3ds/ITAllocatorProperties"
+f1_keywords:
+- tapi3ds/ITAllocatorProperties
 dev_langs:
- - c++
+- c++
 req.header: tapi3ds.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAllocatorProperties
+- ITAllocatorProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

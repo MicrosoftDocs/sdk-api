@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_ImageName
 title: IUIAutomationProxyFactoryEntry::put_ImageName (uiautomationclient.h)
-
 description: Sets or retrieves the name of the image of the proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ImageName.htm
 tech.root: WinAuto
 ms.assetid: 7a3fde44-5b22-4686-9d48-4bc8b651cb37
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ImageName property, IUIAutomationProxyFactoryEntry.ImageName, IUIAutomationProxyFactoryEntry.put_ImageName, IUIAutomationProxyFactoryEntry::ImageName, IUIAutomationProxyFactoryEntry::get_ImageName, IUIAutomationProxyFactoryEntry::put_ImageName, ImageName property [Windows Accessibility], ImageName property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, put_ImageName, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName, uiauto_IUIAutomationProxyFactoryEntry_ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ImageName, uiautomationclient/IUIAutomationProxyFactoryEntry::put_ImageName, winauto.uiauto_IUIAutomationProxyFactoryEntry_ImageName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactoryEntry.ImageName"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactoryEntry.ImageName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryEntry.ImageName
- - IUIAutomationProxyFactoryEntry.get_ImageName
- - IUIAutomationProxyFactoryEntry.put_ImageName
+- IUIAutomationProxyFactoryEntry.ImageName
+- IUIAutomationProxyFactoryEntry.get_ImageName
+- IUIAutomationProxyFactoryEntry.put_ImageName
 targetos: Windows
 req.typenames: 
 req.redist: 

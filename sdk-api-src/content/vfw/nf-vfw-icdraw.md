@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDraw
 title: ICDraw function (vfw.h)
-
 description: The ICDraw function decompresses an image for drawing.
 old-location: multimedia\icdraw.htm
 tech.root: Multimedia
 ms.assetid: 0bf2c264-6adf-4773-95df-9cd77e73c022
-
 ms.date: 12/05/2018
 ms.keywords: ICDraw, ICDraw function [Windows Multimedia], _win32_ICDraw, multimedia.icdraw, vfw/ICDraw
 ms.topic: function
-f1_keywords: 
- - "vfw/ICDraw"
+f1_keywords:
+- vfw/ICDraw
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICDraw
+- ICDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

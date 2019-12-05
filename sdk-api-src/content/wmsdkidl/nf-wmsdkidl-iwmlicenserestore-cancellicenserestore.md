@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRestore.CancelLicenseRestore
 title: IWMLicenseRestore::CancelLicenseRestore (wmsdkidl.h)
-
 description: The CancelLicenseRestore method cancels a current restore operation.
 old-location: wmformat\iwmlicenserestore_cancellicenserestore.htm
 tech.root: wmformat
 ms.assetid: b8a39804-5ee6-43ab-8e89-d1008217622d
-
 ms.date: 12/05/2018
 ms.keywords: CancelLicenseRestore, CancelLicenseRestore method [windows Media Format], CancelLicenseRestore method [windows Media Format],IWMLicenseRestore interface, IWMLicenseRestore interface [windows Media Format],CancelLicenseRestore method, IWMLicenseRestore.CancelLicenseRestore, IWMLicenseRestore::CancelLicenseRestore, IWMLicenseRestoreCancelLicenseRestore, wmformat.iwmlicenserestore_cancellicenserestore, wmsdkidl/IWMLicenseRestore::CancelLicenseRestore
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMLicenseRestore.CancelLicenseRestore"
+f1_keywords:
+- wmsdkidl/IWMLicenseRestore.CancelLicenseRestore
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMLicenseRestore.CancelLicenseRestore
+- IWMLicenseRestore.CancelLicenseRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceSysTxnConfig
 title: IServiceSysTxnConfig (comsvcs.h)
-
 description: Enables you to run a set of code in the scope of an existing transaction that you specify with a transaction proxy.
 old-location: cos\iservicesystxnconfig.htm
 tech.root: cossdk
 ms.assetid: 8e721496-fc2b-46b8-ae28-432da6c429e6
-
 ms.date: 12/05/2018
 ms.keywords: IServiceSysTxnConfig, IServiceSysTxnConfig interface [COM+], IServiceSysTxnConfig interface [COM+],described, comsvcs/IServiceSysTxnConfig, cos.iservicesystxnconfig
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceSysTxnConfig"
+f1_keywords:
+- comsvcs/IServiceSysTxnConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceSysTxnConfig
+- IServiceSysTxnConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

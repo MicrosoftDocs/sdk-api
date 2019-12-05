@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidGenericSink2.ResetFilterList
 title: IMSVidGenericSink2::ResetFilterList (segment.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidgenericsink2_resetfilterlist.htm
 tech.root: mstv
 ms.assetid: fc899c48-703a-4bdc-849e-73633ae748d0
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink2 interface [Microsoft TV Technologies],ResetFilterList method, IMSVidGenericSink2.ResetFilterList, IMSVidGenericSink2::ResetFilterList, IMSVidGenericSink2ResetFilterList, ResetFilterList, ResetFilterList method [Microsoft TV Technologies], ResetFilterList method [Microsoft TV Technologies],IMSVidGenericSink2 interface, mstv.imsvidgenericsink2_resetfilterlist, segment/IMSVidGenericSink2::ResetFilterList
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidGenericSink2.ResetFilterList"
+f1_keywords:
+- segment/IMSVidGenericSink2.ResetFilterList
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidGenericSink2.ResetFilterList
+- IMSVidGenericSink2.ResetFilterList
 targetos: Windows
 req.typenames: 
 req.redist: 

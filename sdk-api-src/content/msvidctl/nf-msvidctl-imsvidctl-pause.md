@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Pause
 title: IMSVidCtl::Pause (msvidctl.h)
-
 description: The Pause method pauses the filter graph.
 old-location: mstv\imsvidctl_pause.htm
 tech.root: mstv
 ms.assetid: fd7687d8-325f-4a51-ab57-ffcc45a9157b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],Pause method, IMSVidCtl.Pause, IMSVidCtl::Pause, IMSVidCtlPause, Pause, Pause method [Microsoft TV Technologies], Pause method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_pause, msvidctl/IMSVidCtl::Pause
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.Pause"
+f1_keywords:
+- msvidctl/IMSVidCtl.Pause
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.Pause
+- IMSVidCtl.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

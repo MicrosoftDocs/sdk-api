@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetOverlapping
 title: ITextFont2::GetOverlapping (tom.h)
-
 description: Gets whether overlapping text is active.
 old-location: controls\itextfont2_getoverlapping.htm
 tech.root: Controls
 ms.assetid: 26937777-a44b-4196-aa6b-f35787f934a9
-
 ms.date: 12/05/2018
 ms.keywords: GetOverlapping, GetOverlapping method [Windows Controls], GetOverlapping method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetOverlapping method, ITextFont2.GetOverlapping, ITextFont2::GetOverlapping, controls.itextfont2_getoverlapping, tom/ITextFont2::GetOverlapping
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetOverlapping"
+f1_keywords:
+- tom/ITextFont2.GetOverlapping
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetOverlapping
+- ITextFont2.GetOverlapping
 targetos: Windows
 req.typenames: 
 req.redist: 

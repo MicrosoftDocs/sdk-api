@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.__unnamed_struct_8
 title: LVINSERTMARK (commctrl.h)
-
 description: Used to describe insertion points.
 old-location: controls\LVINSERTMARK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvinsertmark.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLVINSERTMARK, LVIM_AFTER, LVINSERTMARK, LVINSERTMARK structure [Windows Controls], PLVINSERTMARK, PLVINSERTMARK structure pointer [Windows Controls], commctrl/LVINSERTMARK, commctrl/PLVINSERTMARK, controls.LVINSERTMARK, controls.inet_LVINSERTMARK, inet_LVINSERTMARK, inet_LVINSERTMARK_cpp"
+ms.keywords: '*LPLVINSERTMARK, LVIM_AFTER, LVINSERTMARK, LVINSERTMARK structure [Windows Controls], PLVINSERTMARK, PLVINSERTMARK structure pointer [Windows Controls], commctrl/LVINSERTMARK, commctrl/PLVINSERTMARK, controls.LVINSERTMARK, controls.inet_LVINSERTMARK, inet_LVINSERTMARK, inet_LVINSERTMARK_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVINSERTMARK"
+f1_keywords:
+- commctrl/LVINSERTMARK
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVINSERTMARK
+- LVINSERTMARK
 targetos: Windows
 req.typenames: LVINSERTMARK, *LPLVINSERTMARK
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddMessage
 title: ID3D10InfoQueue::AddMessage (d3d10sdklayers.h)
-
 description: Add a Direct3D 10 debug message to the message queue and send that message to debug output.
 old-location: direct3d10\id3d10infoqueue_addmessage.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_addmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddMessage, AddMessage method [Direct3D 10], AddMessage method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],AddMessage method, ID3D10InfoQueue.AddMessage, ID3D10InfoQueue::AddMessage, cdfe0171-65a2-02d0-bad5-e630bf30db83, d3d10sdklayers/ID3D10InfoQueue::AddMessage, direct3d10.id3d10infoqueue_addmessage
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.AddMessage"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.AddMessage
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.AddMessage
+- ID3D10InfoQueue.AddMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

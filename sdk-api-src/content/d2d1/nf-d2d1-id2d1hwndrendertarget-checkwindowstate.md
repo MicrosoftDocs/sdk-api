@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1HwndRenderTarget.CheckWindowState
 title: ID2D1HwndRenderTarget::CheckWindowState (d2d1.h)
-
 description: Indicates whether the HWND associated with this render target is occluded.
 old-location: direct2d\ID2D1HwndRenderTarget_CheckWindowState.htm
 tech.root: Direct2D
 ms.assetid: f40d46dc-04ec-4d11-bc3e-96043b16dcb3
-
 ms.date: 12/05/2018
 ms.keywords: CheckWindowState, CheckWindowState method [Direct2D], CheckWindowState method [Direct2D],ID2D1HwndRenderTarget interface, ID2D1HwndRenderTarget interface [Direct2D],CheckWindowState method, ID2D1HwndRenderTarget.CheckWindowState, ID2D1HwndRenderTarget::CheckWindowState, d2d1/ID2D1HwndRenderTarget::CheckWindowState, direct2d.ID2D1HwndRenderTarget_CheckWindowState
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1HwndRenderTarget.CheckWindowState"
+f1_keywords:
+- d2d1/ID2D1HwndRenderTarget.CheckWindowState
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1HwndRenderTarget.CheckWindowState
+- ID2D1HwndRenderTarget.CheckWindowState
 targetos: Windows
 req.typenames: 
 req.redist: 

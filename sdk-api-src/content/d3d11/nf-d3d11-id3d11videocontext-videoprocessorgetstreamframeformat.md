@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
 title: ID3D11VideoContext::VideoProcessorGetStreamFrameFormat (d3d11.h)
-
 description: Gets the format of an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamframeformat.htm
 tech.root: medfound
 ms.assetid: 43879368-1730-4881-B77E-0A975DD5E473
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamFrameFormat method, ID3D11VideoContext.VideoProcessorGetStreamFrameFormat, ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, VideoProcessorGetStreamFrameFormat, VideoProcessorGetStreamFrameFormat method [Media Foundation], VideoProcessorGetStreamFrameFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamFrameFormat, mf.id3d11videocontext_videoprocessorgetstreamframeformat
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamFrameFormat"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
+- ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

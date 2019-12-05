@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolListener.StartListen
 title: IWRdsProtocolListener::StartListen (wtsprotocol.h)
-
 description: Notifies the protocol to start listening for client connection requests.
 old-location: termserv\iwrdsprotocollistener_startlisten.htm
 tech.root: TermServ
 ms.assetid: d3797411-2ac6-4d3c-8c90-5c566e6d8fa8
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolListener interface [Remote Desktop Services],StartListen method, IWRdsProtocolListener.StartListen, IWRdsProtocolListener::StartListen, StartListen, StartListen method [Remote Desktop Services], StartListen method [Remote Desktop Services],IWRdsProtocolListener interface, termserv.iwrdsprotocollistener_startlisten, wtsprotocol/IWRdsProtocolListener::StartListen
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolListener.StartListen"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolListener.StartListen
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolListener.StartListen
+- IWRdsProtocolListener.StartListen
 targetos: Windows
 req.typenames: 
 req.redist: 

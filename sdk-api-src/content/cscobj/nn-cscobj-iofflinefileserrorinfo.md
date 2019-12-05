@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesErrorInfo
 title: IOfflineFilesErrorInfo (cscobj.h)
-
 description: Provides a text description and raw data block associated with an error.
 old-location: of\iofflinefileserrorinfo.htm
 tech.root: offlinefiles
 ms.assetid: 6c78d475-aa63-49e4-863f-1a197801f2f9
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesErrorInfo, IOfflineFilesErrorInfo interface [Offline Files], IOfflineFilesErrorInfo interface [Offline Files],described, cscobj/IOfflineFilesErrorInfo, of.iofflinefileserrorinfo
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesErrorInfo"
+f1_keywords:
+- cscobj/IOfflineFilesErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesErrorInfo
+- IOfflineFilesErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

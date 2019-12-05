@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeStream
 title: GetThemeStream function (uxtheme.h)
-
 description: Retrieves a data stream corresponding to a specified theme, starting from a specified part, state, and property.
 old-location: controls\GetThemeStream.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemestream.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeStream, GetThemeStream function [Windows Controls], controls.GetThemeStream, controls.inet_GetThemeStream, inet_GetThemeStream, inet_GetThemeStream_cpp, uxtheme/GetThemeStream
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeStream"
+f1_keywords:
+- uxtheme/GetThemeStream
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeStream
+- GetThemeStream
 targetos: Windows
 req.typenames: 
 req.redist: 

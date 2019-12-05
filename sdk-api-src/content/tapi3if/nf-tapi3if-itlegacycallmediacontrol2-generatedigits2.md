@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl2.GenerateDigits2
 title: ITLegacyCallMediaControl2::GenerateDigits2 (tapi3if.h)
-
 description: The GenerateDigits2 method causes digits to be output on the current call. This method extends the ITLegacyCallMediaControl::GenerateDigits method by adding a duration parameter.
 old-location: tapi3\itlegacycallmediacontrol2_generatedigits2.htm
 tech.root: Tapi
 ms.assetid: 63ea18ef-18ca-4771-a7d9-60d4e8c514a5
-
 ms.date: 12/05/2018
 ms.keywords: GenerateDigits2, GenerateDigits2 method [TAPI 2.2], GenerateDigits2 method [TAPI 2.2],ITLegacyCallMediaControl2 interface, ITLegacyCallMediaControl2 interface [TAPI 2.2],GenerateDigits2 method, ITLegacyCallMediaControl2.GenerateDigits2, ITLegacyCallMediaControl2::GenerateDigits2, _tapi3_itlegacycallmediacontrol2_generatedigits2, tapi3.itlegacycallmediacontrol2_generatedigits2, tapi3if/ITLegacyCallMediaControl2::GenerateDigits2
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl2.GenerateDigits2"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl2.GenerateDigits2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2.GenerateDigits2
+- ITLegacyCallMediaControl2.GenerateDigits2
 targetos: Windows
 req.typenames: 
 req.redist: 

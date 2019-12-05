@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICProgressiveLevelControl
 title: IWICProgressiveLevelControl (wincodec.h)
-
 description: Exposes methods for obtaining information about and controlling progressive decoding.
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol.htm
 tech.root: wic
 ms.assetid: d77244bc-b9d4-4b7d-b718-4ee38de46614
-
 ms.date: 12/05/2018
 ms.keywords: IWICProgressiveLevelControl, IWICProgressiveLevelControl interface [Windows Imaging Component], IWICProgressiveLevelControl interface [Windows Imaging Component],described, _wic_codec_iwicprogressivelevelcontrol, wic._wic_codec_iwicprogressivelevelcontrol, wincodec/IWICProgressiveLevelControl
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICProgressiveLevelControl"
+f1_keywords:
+- wincodec/IWICProgressiveLevelControl
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICProgressiveLevelControl
+- IWICProgressiveLevelControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Contains(const BoundingSphere &)
 title: BoundingOrientedBox::Contains(const BoundingSphere &)
-
 description: Tests whether the BoundingOrientedBox contains a BoundingSphere.
 old-location: dxmath\boundingorientedbox_contains_5.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Contains(BoundingSphere)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingOrientedBox interface [DirectX Math Support APIs],Contains method, BoundingOrientedBox.Contains, BoundingOrientedBox.Contains(const BoundingSphere &), BoundingOrientedBox.Contains(const BoundingSphere&), BoundingOrientedBox::Contains, BoundingOrientedBox::Contains(const BoundingSphere &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingOrientedBox interface, dxmath.boundingorientedbox_contains_5
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingOrientedBox.Contains"
+f1_keywords:
+- directxcollision/BoundingOrientedBox.Contains
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingOrientedBox.Contains
+- BoundingOrientedBox.Contains
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_CIPHER_TRANSFORM_ID0_
 title: IPSEC_CIPHER_TRANSFORM_ID0 (ipsectypes.h)
-
 description: Specifies information used to uniquely identify the encryption algorithm used in an IPsec SA.
 old-location: fwp\ipsec_cipher_transform_id0_struct.htm
 tech.root: fwp
 ms.assetid: fc58606b-18a4-49ab-87bb-a6846b81520b
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_CIPHER_CONFIG_CBC_3DES, IPSEC_CIPHER_CONFIG_CBC_AES_128, IPSEC_CIPHER_CONFIG_CBC_AES_192, IPSEC_CIPHER_CONFIG_CBC_AES_256, IPSEC_CIPHER_CONFIG_CBC_DES, IPSEC_CIPHER_CONFIG_GCM_AES_128, IPSEC_CIPHER_CONFIG_GCM_AES_192, IPSEC_CIPHER_CONFIG_GCM_AES_256, IPSEC_CIPHER_TRANSFORM_ID0, IPSEC_CIPHER_TRANSFORM_ID0 structure [Filtering], fwp.ipsec_cipher_transform_id0_struct, ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0"
+f1_keywords:
+- ipsectypes/IPSEC_CIPHER_TRANSFORM_ID0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_CIPHER_TRANSFORM_ID0
+- IPSEC_CIPHER_TRANSFORM_ID0
 targetos: Windows
 req.typenames: IPSEC_CIPHER_TRANSFORM_ID0
 req.redist: 

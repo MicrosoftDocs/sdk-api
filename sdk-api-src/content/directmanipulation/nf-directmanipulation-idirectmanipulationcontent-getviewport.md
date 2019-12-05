@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetViewport
 title: IDirectManipulationContent::GetViewport (directmanipulation.h)
-
 description: Retrieves the viewport that contains the content.
 old-location: directmanipulation\idirectmanipulationcontent_getviewport.htm
 tech.root: directmanipulation
 ms.assetid: b03545d2-73a4-4638-818a-34f5957408e4
-
 ms.date: 12/05/2018
 ms.keywords: GetViewport, GetViewport method [Direct Manipulation], GetViewport method [Direct Manipulation],IDirectManipulationContent interface, IDirectManipulationContent interface [Direct Manipulation],GetViewport method, IDirectManipulationContent.GetViewport, IDirectManipulationContent::GetViewport, directmanipulation.idirectmanipulationcontent_getviewport, directmanipulation/IDirectManipulationContent::GetViewport
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationContent.GetViewport"
+f1_keywords:
+- directmanipulation/IDirectManipulationContent.GetViewport
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationContent.GetViewport
+- IDirectManipulationContent.GetViewport
 targetos: Windows
 req.typenames: 
 req.redist: 

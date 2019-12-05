@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontCollection
 title: IDWriteTextLayout::GetFontCollection (dwrite.h)
-
 description: Gets the font collection associated with the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontCollection.htm
 tech.root: DirectWrite
 ms.assetid: ce3e4510-2b40-4eb4-aaf8-fe830e96d618
-
 ms.date: 12/05/2018
 ms.keywords: GetFontCollection, GetFontCollection method [Direct Write], GetFontCollection method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontCollection method, IDWriteTextLayout.GetFontCollection, IDWriteTextLayout::GetFontCollection, directwrite.IDWriteTextLayout_GetFontCollection, dwrite/IDWriteTextLayout::GetFontCollection
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetFontCollection"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetFontCollection
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetFontCollection
+- IDWriteTextLayout.GetFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

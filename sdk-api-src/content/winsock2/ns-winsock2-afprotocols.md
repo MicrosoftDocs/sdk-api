@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock2._AFPROTOCOLS
 title: AFPROTOCOLS (winsock2.h)
-
 description: The AFPROTOCOLS structure supplies a list of protocols to which application programmers can constrain queries. The AFPROTOCOLS structure is used for query purposes only.
 old-location: winsock\afprotocols_2.htm
 tech.root: WinSock
 ms.assetid: ffd43aa1-bbc4-46f1-ad77-26c48f9ac0b7
-
 ms.date: 12/05/2018
 ms.keywords: '*LPAFPROTOCOLS, *PAFPROTOCOLS, AFPROTOCOLS, AFPROTOCOLS structure [Winsock], LPAFPROTOCOLS, LPAFPROTOCOLS structure pointer [Winsock], PAFPROTOCOLS, PAFPROTOCOLS structure pointer [Winsock], _win32_afprotocols_2, winsock.afprotocols_2, winsock2/AFPROTOCOLS, winsock2/LPAFPROTOCOLS, winsock2/PAFPROTOCOLS'
 ms.topic: struct
 f1_keywords:
 - winsock2/AFPROTOCOLS
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

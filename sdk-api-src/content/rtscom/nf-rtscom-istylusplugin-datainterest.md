@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.DataInterest
 title: IStylusPlugin::DataInterest (rtscom.h)
-
 description: Retrieves the events for which the plug-in is to receive notifications.
 old-location: tablet\istylusplugin_datainterest.htm
 tech.root: tablet
 ms.assetid: 7ff6ccf2-292c-4321-be2a-d6db7ce14943
-
 ms.date: 12/05/2018
 ms.keywords: 7ff6ccf2-292c-4321-be2a-d6db7ce14943, DataInterest, DataInterest method [Tablet PC], DataInterest method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],DataInterest method, IStylusPlugin.DataInterest, IStylusPlugin::DataInterest, rtscom/IStylusPlugin::DataInterest, tablet.istylusplugin_datainterest
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.DataInterest"
+f1_keywords:
+- rtscom/IStylusPlugin.DataInterest
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.DataInterest
+- IStylusPlugin.DataInterest
 targetos: Windows
 req.typenames: 
 req.redist: 

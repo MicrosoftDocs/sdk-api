@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFAudioStreamVolume.GetChannelVolume
 title: IMFAudioStreamVolume::GetChannelVolume (mfidl.h)
-
 description: Retrieves the volume level for a specified channel in the audio stream.
 old-location: mf\imfaudiostreamvolume_getchannelvolume.htm
 tech.root: medfound
 ms.assetid: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2
-
 ms.date: 12/05/2018
 ms.keywords: 5cfcc3a8-2911-45a3-8322-bf4e3b023dd2, GetChannelVolume, GetChannelVolume method [Media Foundation], GetChannelVolume method [Media Foundation],IMFAudioStreamVolume interface, IMFAudioStreamVolume interface [Media Foundation],GetChannelVolume method, IMFAudioStreamVolume.GetChannelVolume, IMFAudioStreamVolume::GetChannelVolume, mf.imfaudiostreamvolume_getchannelvolume, mfidl/IMFAudioStreamVolume::GetChannelVolume
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFAudioStreamVolume.GetChannelVolume"
+f1_keywords:
+- mfidl/IMFAudioStreamVolume.GetChannelVolume
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioStreamVolume.GetChannelVolume
+- IMFAudioStreamVolume.GetChannelVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.DeleteScheduleTask
 title: IFsrmReportScheduler::DeleteScheduleTask (fsrmreports.h)
-
 description: Deletes a task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_deletescheduletask.htm
 tech.root: fsrm
 ms.assetid: 31541668-6173-48d4-8650-13e78bc7a763
-
 ms.date: 12/05/2018
 ms.keywords: DeleteScheduleTask, DeleteScheduleTask method [File Server Resource Manager], DeleteScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, DeleteScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],DeleteScheduleTask method, IFsrmReportScheduler.DeleteScheduleTask, IFsrmReportScheduler::DeleteScheduleTask, fs.ifsrmreportscheduler_deletescheduletask, fsrm.ifsrmreportscheduler_deletescheduletask, fsrmreports/IFsrmReportScheduler::DeleteScheduleTask
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportScheduler.DeleteScheduleTask"
+f1_keywords:
+- fsrmreports/IFsrmReportScheduler.DeleteScheduleTask
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportScheduler.DeleteScheduleTask
- - FsrmReportScheduler.DeleteScheduleTask
+- IFsrmReportScheduler.DeleteScheduleTask
+- FsrmReportScheduler.DeleteScheduleTask
 targetos: Windows
 req.typenames: 
 req.redist: 

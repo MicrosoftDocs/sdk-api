@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.ResolveTypeRef
 title: IMetaDataImport::ResolveTypeRef (rometadataapi.h)
-
 description: Resolves a Type reference represented by the specified TypeRef token.
 old-location: winrt\imetadataimport_resolvetyperef.htm
 tech.root: WinRT
 ms.assetid: d19d47c7-bf06-4daa-bda6-8aca6939a543
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataImport interface [Windows Runtime],ResolveTypeRef method, IMetaDataImport.ResolveTypeRef, IMetaDataImport::ResolveTypeRef, ResolveTypeRef, ResolveTypeRef method [Windows Runtime], ResolveTypeRef method [Windows Runtime],IMetaDataImport interface, rometadataapi/IMetaDataImport::ResolveTypeRef, winrt.imetadataimport_resolvetyperef
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.ResolveTypeRef"
+f1_keywords:
+- rometadataapi/IMetaDataImport.ResolveTypeRef
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.ResolveTypeRef
+- IMetaDataImport.ResolveTypeRef
 targetos: Windows
 req.typenames: 
 req.redist: 

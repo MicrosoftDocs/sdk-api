@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPathKeyList.SetKey2
 title: IWbemPathKeyList::SetKey2 (wmiutils.h)
-
 description: Sets the name or value pair for a key using variants.
 old-location: wmi\iwbempathkeylist_setkey2.htm
 tech.root: WmiSdk
 ms.assetid: 3b282124-d544-405a-96e0-39cc504c8117
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList interface [Windows Management Instrumentation],SetKey2 method, IWbemPathKeyList.SetKey2, IWbemPathKeyList::SetKey2, SetKey2, SetKey2 method [Windows Management Instrumentation], SetKey2 method [Windows Management Instrumentation],IWbemPathKeyList interface, _hmm_iwbempathkeylist_setkey2, wmi.iwbempathkeylist_setkey2, wmiutils/IWbemPathKeyList::SetKey2
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPathKeyList.SetKey2"
+f1_keywords:
+- wmiutils/IWbemPathKeyList.SetKey2
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPathKeyList.SetKey2
+- IWbemPathKeyList.SetKey2
 targetos: Windows
 req.typenames: 
 req.redist: 

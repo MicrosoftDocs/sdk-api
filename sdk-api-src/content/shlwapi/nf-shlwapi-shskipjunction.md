@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHSkipJunction
 title: SHSkipJunction function (shlwapi.h)
-
 description: Checks a bind context to see if it is safe to bind to a particular component object.
 old-location: shell\SHSkipJunction.htm
 tech.root: shell
 ms.assetid: 73af64a4-57eb-43db-91bb-75fe7134ad28
-
 ms.date: 12/05/2018
 ms.keywords: SHSkipJunction, SHSkipJunction function [Windows Shell], _win32_SHSkipJunction, shell.SHSkipJunction, shlwapi/SHSkipJunction
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHSkipJunction"
+f1_keywords:
+- shlwapi/SHSkipJunction
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - SHSkipJunction
+- SHSkipJunction
 targetos: Windows
 req.typenames: 
 req.redist: 

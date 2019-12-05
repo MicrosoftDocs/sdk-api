@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMemAllocator.SetProperties
 title: IMemAllocator::SetProperties (strmif.h)
-
 description: The SetProperties method specifies the number of buffers to allocate and the size of each buffer.
 old-location: dshow\imemallocator_setproperties.htm
 tech.root: DirectShow
 ms.assetid: c68f2e2f-c70f-447d-804b-dfdfe8ae8a52
-
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator interface [DirectShow],SetProperties method, IMemAllocator.SetProperties, IMemAllocator::SetProperties, IMemAllocatorSetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMemAllocator interface, dshow.imemallocator_setproperties, strmif/IMemAllocator::SetProperties
 ms.topic: method
-f1_keywords: 
- - "strmif/IMemAllocator.SetProperties"
+f1_keywords:
+- strmif/IMemAllocator.SetProperties
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemAllocator.SetProperties
+- IMemAllocator.SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

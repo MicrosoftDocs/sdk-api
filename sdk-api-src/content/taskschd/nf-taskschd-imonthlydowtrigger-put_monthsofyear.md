@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.put_MonthsOfYear
 title: IMonthlyDOWTrigger::put_MonthsOfYear (taskschd.h)
-
 description: Gets or sets the months of the year during which the task runs.
 old-location: taskschd\imonthlydowtrigger_monthsofyear.htm
 tech.root: taskschd
 ms.assetid: cbc246cf-c577-49a5-8a4e-4b00be5c3e9d
-
 ms.date: 12/05/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],MonthsOfYear property, IMonthlyDOWTrigger.MonthsOfYear, IMonthlyDOWTrigger.put_MonthsOfYear, IMonthlyDOWTrigger::MonthsOfYear, IMonthlyDOWTrigger::get_MonthsOfYear, IMonthlyDOWTrigger::put_MonthsOfYear, MonthsOfYear property [Task Scheduler], MonthsOfYear property [Task Scheduler],IMonthlyDOWTrigger interface, put_MonthsOfYear, taskschd.imonthlydowtrigger_monthsofyear, taskschd/IMonthlyDOWTrigger::MonthsOfYear, taskschd/IMonthlyDOWTrigger::get_MonthsOfYear, taskschd/IMonthlyDOWTrigger::put_MonthsOfYear
 ms.topic: method
-f1_keywords: 
- - "taskschd/IMonthlyDOWTrigger.MonthsOfYear"
+f1_keywords:
+- taskschd/IMonthlyDOWTrigger.MonthsOfYear
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IMonthlyDOWTrigger.MonthsOfYear
- - IMonthlyDOWTrigger.get_MonthsOfYear
- - IMonthlyDOWTrigger.put_MonthsOfYear
+- IMonthlyDOWTrigger.MonthsOfYear
+- IMonthlyDOWTrigger.get_MonthsOfYear
+- IMonthlyDOWTrigger.put_MonthsOfYear
 targetos: Windows
 req.typenames: 
 req.redist: 

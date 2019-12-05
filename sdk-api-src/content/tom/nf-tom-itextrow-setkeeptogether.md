@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetKeepTogether
 title: ITextRow::SetKeepTogether (tom.h)
-
 description: Sets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_setkeeptogether.htm
 tech.root: Controls
 ms.assetid: ca2130b4-3e29-43d7-b03d-a6c45897e447
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetKeepTogether method, ITextRow.SetKeepTogether, ITextRow::SetKeepTogether, SetKeepTogether, SetKeepTogether method [Windows Controls], SetKeepTogether method [Windows Controls],ITextRow interface, controls.itextrow_setkeeptogether, tom/ITextRow::SetKeepTogether
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetKeepTogether"
+f1_keywords:
+- tom/ITextRow.SetKeepTogether
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetKeepTogether
+- ITextRow.SetKeepTogether
 targetos: Windows
 req.typenames: 
 req.redist: 

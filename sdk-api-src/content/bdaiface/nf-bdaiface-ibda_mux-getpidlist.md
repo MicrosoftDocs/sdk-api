@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_MUX.GetPidList
 title: IBDA_MUX::GetPidList (bdaiface.h)
-
 description: Gets the list of packet identifiers (PIDs) that are enabled to go across the Protected Broadcast Driver Architecture (PBDA) interface.
 old-location: mstv\ibda_mux_getpidlist.htm
 tech.root: mstv
 ms.assetid: 92b13d40-4841-45ce-b232-5e29a93d71c5
-
 ms.date: 12/05/2018
 ms.keywords: GetPidList, GetPidList method [Microsoft TV Technologies], GetPidList method [Microsoft TV Technologies],IBDA_MUX interface, IBDA_MUX interface [Microsoft TV Technologies],GetPidList method, IBDA_MUX.GetPidList, IBDA_MUX::GetPidList, bdaiface/IBDA_MUX::GetPidList, mstv.ibda_mux_getpidlist
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_MUX.GetPidList"
+f1_keywords:
+- bdaiface/IBDA_MUX.GetPidList
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_MUX.GetPidList
+- IBDA_MUX.GetPidList
 targetos: Windows
 req.typenames: 
 req.redist: 

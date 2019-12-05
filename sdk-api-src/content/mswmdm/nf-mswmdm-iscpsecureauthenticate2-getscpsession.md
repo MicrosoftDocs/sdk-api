@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureAuthenticate2.GetSCPSession
 title: ISCPSecureAuthenticate2::GetSCPSession (mswmdm.h)
-
 description: The GetSCPSession method is used to obtain a pointer to the ISCPSecureQuery interface that represents a session object.
 old-location: wmdm\iscpsecureauthenticate2_getscpsession.htm
 tech.root: WMDM
 ms.assetid: 7e09d8ea-65aa-427b-a876-00b089659b1b
-
 ms.date: 12/05/2018
 ms.keywords: GetSCPSession, GetSCPSession method [windows Media Device Manager], GetSCPSession method [windows Media Device Manager],ISCPSecureAuthenticate2 interface, ISCPSecureAuthenticate2 interface [windows Media Device Manager],GetSCPSession method, ISCPSecureAuthenticate2.GetSCPSession, ISCPSecureAuthenticate2::GetSCPSession, ISCPSecureAuthenticate2GetSCPSession, mswmdm/ISCPSecureAuthenticate2::GetSCPSession, wmdm.iscpsecureauthenticate2_getscpsession
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureAuthenticate2.GetSCPSession"
+f1_keywords:
+- mswmdm/ISCPSecureAuthenticate2.GetSCPSession
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureAuthenticate2.GetSCPSession
+- ISCPSecureAuthenticate2.GetSCPSession
 targetos: Windows
 req.typenames: 
 req.redist: 

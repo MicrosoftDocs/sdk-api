@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetSerializeSize
 title: IRdcGeneratorParameters::GetSerializeSize (msrdc.h)
-
 description: Returns the size, in bytes, of the serialized parameter data.
 old-location: rdc\irdcgeneratorparameters_getserializesize.htm
 tech.root: rdc
 ms.assetid: ebd41d6c-c321-4017-bcc1-a2cdf5202730
-
 ms.date: 12/05/2018
 ms.keywords: GetSerializeSize, GetSerializeSize method [Remote Differential Compression], GetSerializeSize method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetSerializeSize method, IRdcGeneratorParameters.GetSerializeSize, IRdcGeneratorParameters::GetSerializeSize, fs.irdcgeneratorparameters_getserializesize, msrdc/IRdcGeneratorParameters::GetSerializeSize, rdc.irdcgeneratorparameters_getserializesize
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcGeneratorParameters.GetSerializeSize"
+f1_keywords:
+- msrdc/IRdcGeneratorParameters.GetSerializeSize
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcGeneratorParameters.GetSerializeSize
+- IRdcGeneratorParameters.GetSerializeSize
 targetos: Windows
 req.typenames: 
 req.redist: 

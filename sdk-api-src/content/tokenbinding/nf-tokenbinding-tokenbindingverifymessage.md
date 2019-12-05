@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingVerifyMessage
 title: TokenBindingVerifyMessage function (tokenbinding.h)
-
 description: Validates the token binding message and verifies the token bindings that the message contains.
 old-location: security\tokenbindingverifymessage.htm
 tech.root: SecCNG
 ms.assetid: D6827DA3-75DC-4F31-B57A-4ED5B5F03112
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingVerifyMessage, TokenBindingVerifyMessage function [Security], security.tokenbindingverifymessage, tokenbinding/TokenBindingVerifyMessage
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingVerifyMessage"
+f1_keywords:
+- tokenbinding/TokenBindingVerifyMessage
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll (user mode); Ksecdd.sys (kernel mode)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
- - Ksecdd.sys
+- tokenbinding.dll
+- Ksecdd.sys
 api_name:
- - TokenBindingVerifyMessage
+- TokenBindingVerifyMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

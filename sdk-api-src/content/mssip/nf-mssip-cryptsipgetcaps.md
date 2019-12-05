@@ -1,19 +1,17 @@
 ---
 UID: NF:mssip.CryptSIPGetCaps
 title: CryptSIPGetCaps function (mssip.h)
-
 description: Retrieves the capabilities of a subject interface package (SIP).
 old-location: security\cryptsipgetcaps.htm
 tech.root: SecCrypto
 ms.assetid: F939F6D5-DDFE-478F-8FDD-8FA9FAB26010
-
 ms.date: 12/05/2018
 ms.keywords: CryptSIPGetCaps, CryptSIPGetCaps function [Security], mssip/CryptSIPGetCaps, security.cryptsipgetcaps
 ms.topic: function
 f1_keywords:
 - mssip/CryptSIPGetCaps
 dev_langs:
- - c++
+- c++
 req.header: mssip.h
 req.include-header: 
 req.target-type: Windows

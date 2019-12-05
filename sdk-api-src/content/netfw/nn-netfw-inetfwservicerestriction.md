@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwServiceRestriction
 title: INetFwServiceRestriction (netfw.h)
-
 description: Access to the Windows Service Hardening networking rules.
 old-location: ics\inetfwservicerestriction.htm
 tech.root: ics
 ms.assetid: e426cae9-8c39-44cf-bd48-3b385fdfbdf7
-
 ms.date: 12/05/2018
 ms.keywords: INetFwServiceRestriction, INetFwServiceRestriction interface [ICS/ICF], INetFwServiceRestriction interface [ICS/ICF],described, ics.inetfwservicerestriction, netfw/INetFwServiceRestriction
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwServiceRestriction"
+f1_keywords:
+- netfw/INetFwServiceRestriction
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwServiceRestriction
+- INetFwServiceRestriction
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindNextFileNameW
 title: FindNextFileNameW function (fileapi.h)
-
 description: Continues enumerating the hard links to a file using the handle returned by a successful call to the FindFirstFileNameW function.
 old-location: fs\findnextfilenamew.htm
 tech.root: FileIO
 ms.assetid: 1d2f8041-2744-4f37-afde-ddce49a8bdc5
-
 ms.date: 12/05/2018
 ms.keywords: FindNextFileNameW, FindNextFileNameW function [Files], fileapi/FindNextFileNameW, fs.findnextfilenamew
 ms.topic: function
-f1_keywords: 
- - "fileapi/FindNextFileNameW"
+f1_keywords:
+- fileapi/FindNextFileNameW
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-L1-2-2.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-L1-2-2.dll
+- KernelBase.dll
 api_name:
- - FindNextFileNameW
+- FindNextFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

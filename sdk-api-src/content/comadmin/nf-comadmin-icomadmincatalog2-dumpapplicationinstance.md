@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.DumpApplicationInstance
 title: ICOMAdminCatalog2::DumpApplicationInstance (comadmin.h)
-
 description: Creates a dump file containing an image of the state of the specified application instance (process).
 old-location: cos\icomadmincatalog2_dumpapplicationinstance.htm
 tech.root: cossdk
 ms.assetid: 76c121c6-4ba6-49da-93dc-9094acb1994c
-
 ms.date: 12/05/2018
 ms.keywords: DumpApplicationInstance, DumpApplicationInstance method [COM+], DumpApplicationInstance method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],DumpApplicationInstance method, ICOMAdminCatalog2.DumpApplicationInstance, ICOMAdminCatalog2::DumpApplicationInstance, _cos_icomadmincatalog2_DumpApplicationInstance, comadmin/ICOMAdminCatalog2::DumpApplicationInstance, cos.icomadmincatalog2_dumpapplicationinstance
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.DumpApplicationInstance"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.DumpApplicationInstance
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.DumpApplicationInstance
+- ICOMAdminCatalog2.DumpApplicationInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

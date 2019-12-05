@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectIds.Remove
 title: IObjectIds::Remove (certenroll.h)
-
 description: Removes an IObjectId object from the collection by index value.
 old-location: security\iobjectids_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: c8b9508d-f64a-453f-a336-0da47b2ccdec
-
 ms.date: 12/05/2018
 ms.keywords: IObjectIds interface [Security],Remove method, IObjectIds.Remove, IObjectIds::Remove, Remove, Remove method [Security], Remove method [Security],IObjectIds interface, certenroll/IObjectIds::Remove, security.iobjectids_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectIds.Remove"
+f1_keywords:
+- certenroll/IObjectIds.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectIds.Remove
+- IObjectIds.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

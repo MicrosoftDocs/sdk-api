@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.GenerateReport
 title: IGPMBackup::GenerateReport (gpmgmt.h)
-
 description: Gets the report for the backup Group Policy object (GPO).
 old-location: gpmc\igpmbackup_generatereport.htm
 tech.root: gpmc
 ms.assetid: d5daa512-547f-4b2d-85b3-0f6e9244acb2
-
 ms.date: 12/05/2018
 ms.keywords: GPMBackup object [GPMC],GenerateReport method, GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],GPMBackup object, GenerateReport method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReport method, IGPMBackup.GenerateReport, IGPMBackup::GenerateReport, gpmc.igpmbackup_generatereport, gpmgmt/IGPMBackup::GenerateReport
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMBackup.GenerateReport"
+f1_keywords:
+- gpmgmt/IGPMBackup.GenerateReport
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMBackup.GenerateReport
- - GPMBackup.GenerateReport
+- IGPMBackup.GenerateReport
+- GPMBackup.GenerateReport
 targetos: Windows
 req.typenames: 
 req.redist: 

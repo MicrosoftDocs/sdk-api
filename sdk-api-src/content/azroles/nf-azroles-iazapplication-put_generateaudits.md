@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.put_GenerateAudits
 title: IAzApplication::put_GenerateAudits (azroles.h)
-
 description: The GenerateAudits property of IAzApplication sets or retrieves a value that indicates whether run-time audits should be generated.
 old-location: security\iazapplication_generateaudits.htm
 tech.root: SecAuthZ
 ms.assetid: c35f612e-4a2c-46b6-913a-26b0819394f4
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],GenerateAudits property, GenerateAudits property [Security], GenerateAudits property [Security],AzApplication object, GenerateAudits property [Security],IAzApplication interface, IAzApplication interface [Security],GenerateAudits property, IAzApplication.GenerateAudits, IAzApplication.put_GenerateAudits, IAzApplication::GenerateAudits, IAzApplication::get_GenerateAudits, IAzApplication::put_GenerateAudits, azroles/IAzApplication::GenerateAudits, azroles/IAzApplication::get_GenerateAudits, azroles/IAzApplication::put_GenerateAudits, put_GenerateAudits, security.iazapplication_generateaudits
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.GenerateAudits"
+f1_keywords:
+- azroles/IAzApplication.GenerateAudits
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.GenerateAudits
- - IAzApplication.get_GenerateAudits
- - IAzApplication.put_GenerateAudits
- - AzApplication.GenerateAudits
+- IAzApplication.GenerateAudits
+- IAzApplication.get_GenerateAudits
+- IAzApplication.put_GenerateAudits
+- AzApplication.GenerateAudits
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

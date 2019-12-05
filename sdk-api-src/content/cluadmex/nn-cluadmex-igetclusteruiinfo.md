@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IGetClusterUIInfo
 title: IGetClusterUIInfo (cluadmex.h)
-
 description: Called by a Failover Cluster Administrator extension to retrieve information about Failover Cluster Administrator's user interface.
 old-location: mscs\igetclusteruiinfo.htm
 tech.root: MsCS
 ms.assetid: e41afb20-5bb8-475f-a056-53d7be8f4bf0
-
 ms.date: 12/05/2018
 ms.keywords: IGetClusterUIInfo, IGetClusterUIInfo interface [Failover Cluster], IGetClusterUIInfo interface [Failover Cluster],described, _wolf_igetclusteruiinfo, cluadmex/IGetClusterUIInfo, mscs.igetclusteruiinfo
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IGetClusterUIInfo"
+f1_keywords:
+- cluadmex/IGetClusterUIInfo
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterUIInfo
+- IGetClusterUIInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

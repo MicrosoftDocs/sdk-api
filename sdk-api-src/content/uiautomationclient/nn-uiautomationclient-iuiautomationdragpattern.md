@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationDragPattern
 title: IUIAutomationDragPattern (uiautomationclient.h)
-
 description: Provides access to information exposed by a UI Automation provider for an element that can be dragged as part of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdragpattern.htm
 tech.root: WinAuto
 ms.assetid: F7768A87-3981-48E0-A72D-BEA14C189E6E
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDragPattern, IUIAutomationDragPattern interface [Windows Accessibility], IUIAutomationDragPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationDragPattern, winauto.uiauto_iuiautomationdragpattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDragPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationDragPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationDragPattern
+- IUIAutomationDragPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

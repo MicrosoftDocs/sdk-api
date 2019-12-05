@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.GetClientMonitorData
 title: IWRdsProtocolConnection::GetClientMonitorData (wtsprotocol.h)
-
 description: Retrieves the number of monitors and the primary monitor number on the client.
 old-location: termserv\iwrdsprotocolconnection_getclientmonitordata.htm
 tech.root: TermServ
 ms.assetid: df70ff56-3e12-4842-a818-31ee75da96a9
-
 ms.date: 12/05/2018
 ms.keywords: GetClientMonitorData, GetClientMonitorData method [Remote Desktop Services], GetClientMonitorData method [Remote Desktop Services],IWRdsProtocolConnection interface, IWRdsProtocolConnection interface [Remote Desktop Services],GetClientMonitorData method, IWRdsProtocolConnection.GetClientMonitorData, IWRdsProtocolConnection::GetClientMonitorData, termserv.iwrdsprotocolconnection_getclientmonitordata, termserv.iwrdsremotefxgraphicsconnection_getclientmonitordata, wtsprotocol/IWRdsProtocolConnection::GetClientMonitorData
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.GetClientMonitorData"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.GetClientMonitorData
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.GetClientMonitorData
+- IWRdsProtocolConnection.GetClientMonitorData
 targetos: Windows
 req.typenames: 
 req.redist: 

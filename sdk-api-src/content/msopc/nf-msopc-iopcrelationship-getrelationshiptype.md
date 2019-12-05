@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetRelationshipType
 title: IOpcRelationship::GetRelationshipType (msopc.h)
-
 description: Gets the relationship type.
 old-location: opc\iopcrelationship_getrelationshiptype.htm
 tech.root: OPC
 ms.assetid: da832c8e-99e1-452a-90eb-97580f00f003
-
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipType, GetRelationshipType method [Open Packaging Conventions], GetRelationshipType method [Open Packaging Conventions],IOpcRelationship interface, IOpcRelationship interface [Open Packaging Conventions],GetRelationshipType method, IOpcRelationship.GetRelationshipType, IOpcRelationship::GetRelationshipType, msopc/IOpcRelationship::GetRelationshipType, opc.iopcrelationship_getrelationshiptype
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationship.GetRelationshipType"
+f1_keywords:
+- msopc/IOpcRelationship.GetRelationshipType
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationship.GetRelationshipType
+- IOpcRelationship.GetRelationshipType
 targetos: Windows
 req.typenames: 
 req.redist: 

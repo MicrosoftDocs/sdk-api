@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTGetPrintDeviceResources
 title: PTGetPrintDeviceResources function (prntvpt.h)
-
 description: It retrieves the print devices resources for a printer formatted in compliance with the XML Print Schema.
 old-location: xps\ptgetprintdeviceresources.htm
 tech.root: printdocs
 ms.assetid: 39F17562-B8EB-41AF-BA55-42FE35B4560F
-
 ms.date: 12/05/2018
 ms.keywords: PTGetPrintDeviceResources, PTGetPrintDeviceResources function [XPS Documents and Packaging], prntvpt/PTGetPrintDeviceResources, xps.ptgetprintdeviceresources
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTGetPrintDeviceResources"
+f1_keywords:
+- prntvpt/PTGetPrintDeviceResources
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
+- prntvpt.dll
 api_name:
- - PTGetPrintDeviceResources
+- PTGetPrintDeviceResources
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadBOOL
 title: PSPropertyBag_ReadBOOL function (propsys.h)
-
 description: Reads the BOOL data value of a property in a property bag.
 old-location: properties\PSPropertyBag_ReadBOOL.htm
 tech.root: properties
 ms.assetid: 95F9CB5E-E690-4d83-A094-02981F0578CF
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadBOOL, PSPropertyBag_ReadBOOL function [Windows Properties], properties.PSPropertyBag_ReadBOOL, propsys/PSPropertyBag_ReadBOOL, shell.PSPropertyBag_ReadBOOL, shell_PSPropertyBag_ReadBOOL
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadBOOL"
+f1_keywords:
+- propsys/PSPropertyBag_ReadBOOL
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadBOOL
+- PSPropertyBag_ReadBOOL
 targetos: Windows
 req.typenames: 
 req.redist: 

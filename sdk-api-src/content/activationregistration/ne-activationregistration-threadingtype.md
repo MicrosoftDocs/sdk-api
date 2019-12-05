@@ -1,19 +1,17 @@
 ---
 UID: NE:activationregistration.ThreadingType
 title: ThreadingType (activationregistration.h)
-
 description: Represents the apartment threading model to use for activating an in-process server.
 old-location: winrt\threadingtype.htm
 tech.root: WinRT
 ms.assetid: D7D3A6D3-52DF-4634-A6FC-F5081E2E13B0
-
 ms.date: 12/05/2018
 ms.keywords: ThreadingType, ThreadingType enumeration [Windows Runtime], ThreadingType_BOTH, ThreadingType_MTA, ThreadingType_STA, activationregistration/ThreadingType, activationregistration/ThreadingType_BOTH, activationregistration/ThreadingType_MTA, activationregistration/ThreadingType_STA, winrt.threadingtype
 ms.topic: enum
-f1_keywords: 
- - "activationregistration/ThreadingType"
+f1_keywords:
+- activationregistration/ThreadingType
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - ThreadingType
+- ThreadingType
 targetos: Windows
 req.typenames: ThreadingType
 req.redist: 

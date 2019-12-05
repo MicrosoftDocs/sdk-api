@@ -1,19 +1,17 @@
 ---
 UID: NF:dmoreg.DMOGetName
 title: DMOGetName function (dmoreg.h)
-
 description: The DMOGetName function retrieves the name of a DMO from the registry.
 old-location: dshow\dmogetname.htm
 tech.root: DirectShow
 ms.assetid: 7cb803c2-4fe1-46e3-868d-1b7c28b07a5b
-
 ms.date: 12/05/2018
 ms.keywords: DMOGetName, DMOGetName function [DirectShow], dmoreg/DMOGetName, dshow.dmogetname
 ms.topic: function
-f1_keywords: 
- - "dmoreg/DMOGetName"
+f1_keywords:
+- dmoreg/DMOGetName
 dev_langs:
- - c++
+- c++
 req.header: dmoreg.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdmo.dll
+- Msdmo.dll
 api_name:
- - DMOGetName
+- DMOGetName
 targetos: Windows
 req.typenames: 
 req.redist: 

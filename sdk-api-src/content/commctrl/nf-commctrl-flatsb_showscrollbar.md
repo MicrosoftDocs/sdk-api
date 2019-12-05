@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.FlatSB_ShowScrollBar
 title: FlatSB_ShowScrollBar function (commctrl.h)
-
 description: Shows or hides a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard ShowScrollBar function.
 old-location: controls\FlatSB_ShowScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_showscrollbar.htm
-
 ms.date: 12/05/2018
 ms.keywords: FlatSB_ShowScrollBar, FlatSB_ShowScrollBar function [Windows Controls], SB_BOTH, SB_HORZ, SB_VERT, _win32_FlatSB_ShowScrollBar, _win32_FlatSB_ShowScrollBar_cpp, commctrl/FlatSB_ShowScrollBar, controls.FlatSB_ShowScrollBar, controls._win32_FlatSB_ShowScrollBar
 ms.topic: function
-f1_keywords: 
- - "commctrl/FlatSB_ShowScrollBar"
+f1_keywords:
+- commctrl/FlatSB_ShowScrollBar
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - FlatSB_ShowScrollBar
+- FlatSB_ShowScrollBar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasDeleteSubEntryW
 title: RasDeleteSubEntryW function (ras.h)
-
 description: The RasDeleteSubEntry function deletes the specified subentry from the specified phone-book entry.
 old-location: rras\rasdeletesubentry.htm
 tech.root: RRAS
 ms.assetid: c423d0cc-7275-4703-abee-4eada625d956
-
 ms.date: 12/05/2018
 ms.keywords: RasDeleteSubEntry, RasDeleteSubEntry function [RAS], RasDeleteSubEntryA, RasDeleteSubEntryW, _ras_rasdeletesubentry, ras/RasDeleteSubEntry, ras/RasDeleteSubEntryA, ras/RasDeleteSubEntryW, rras.rasdeletesubentry
 ms.topic: function
-f1_keywords: 
- - "ras/RasDeleteSubEntry"
+f1_keywords:
+- ras/RasDeleteSubEntry
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasDeleteSubEntry
- - RasDeleteSubEntryA
- - RasDeleteSubEntryW
+- RasDeleteSubEntry
+- RasDeleteSubEntryA
+- RasDeleteSubEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 

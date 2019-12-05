@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.GetType
 title: ISensor::GetType (sensorsapi.h)
-
 description: Retrieves the sensor type ID.
 old-location: winsensors_com_ref\isensor_gettype.htm
 tech.root: SensorsAPI
 ms.assetid: b01434ec-163a-4d91-a457-3d2a2c2a710a
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ISensor interface, ISensor interface,GetType method, ISensor.GetType, ISensor::GetType, sensorsapi/ISensor::GetType, winsensors_com_ref.isensor_gettype
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.GetType"
+f1_keywords:
+- sensorsapi/ISensor.GetType
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.GetType
+- ISensor.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

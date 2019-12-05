@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensLogon.Logon
 title: ISensLogon::Logon (sensevts.h)
-
 description: The Logon method notifies an application that a user is logged on.
 old-location: sens\isenslogon_logon.htm
 tech.root: Sens
 ms.assetid: 76a811a2-70c4-4dda-99c0-1578e9402a3b
-
 ms.date: 12/05/2018
 ms.keywords: ISensLogon interface [SENS],Logon method, ISensLogon.Logon, ISensLogon::Logon, Logon, Logon method [SENS], Logon method [SENS],ISensLogon interface, _zaw_isenslogon_logon, sens.isenslogon_logon, sensevts/ISensLogon::Logon, syncmgr.isenslogon_logon
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensLogon.Logon"
+f1_keywords:
+- sensevts/ISensLogon.Logon
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensLogon.Logon
+- ISensLogon.Logon
 targetos: Windows
 req.typenames: 
 req.redist: 

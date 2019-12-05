@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetStatusMessages
 title: lineSetStatusMessages function (tapi.h)
-
 description: The lineSetStatusMessages function enables an application to specify which notification messages to receive for events related to status changes for the specified line or any of its addresses.
 old-location: tapi2\linesetstatusmessages.htm
 tech.root: Tapi
 ms.assetid: 08a93874-b0d5-4c00-b541-b51c312cfef6
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetstatusmessages, lineSetStatusMessages, lineSetStatusMessages function [TAPI 2.2], tapi/lineSetStatusMessages, tapi2.linesetstatusmessages"
+ms.keywords: _tapi2_linesetstatusmessages, lineSetStatusMessages, lineSetStatusMessages function [TAPI 2.2], tapi/lineSetStatusMessages, tapi2.linesetstatusmessages
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetStatusMessages"
+f1_keywords:
+- tapi/lineSetStatusMessages
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetStatusMessages
+- lineSetStatusMessages
 targetos: Windows
 req.typenames: 
 req.redist: 

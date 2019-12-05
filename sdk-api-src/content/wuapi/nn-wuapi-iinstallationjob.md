@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IInstallationJob
 title: IInstallationJob (wuapi.h)
-
 description: Contains properties and methods that are available to an installation or uninstallation operation.
 old-location: wua\iinstallationjob.htm
 tech.root: Wua_Sdk
 ms.assetid: 1a83a44e-cd3b-43b0-8741-a73fe9954063
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationJob, IInstallationJob interface [Windows Update Agent], IInstallationJob interface [Windows Update Agent],described, wua.iinstallationjob, wuapi/IInstallationJob
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IInstallationJob"
+f1_keywords:
+- wuapi/IInstallationJob
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationJob
+- IInstallationJob
 targetos: Windows
 req.typenames: 
 req.redist: 

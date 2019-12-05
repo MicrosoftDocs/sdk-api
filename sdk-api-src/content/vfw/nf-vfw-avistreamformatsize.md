@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamFormatSize
 title: AVIStreamFormatSize macro (vfw.h)
-
 description: The AVIStreamFormatSize macro determines the buffer size, in bytes, needed to store format information for a sample in a stream.
 old-location: multimedia\avistreamformatsize.htm
 tech.root: Multimedia
 ms.assetid: e29bbbc3-28b2-44d3-b1f1-66ad2b29a7a3
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamFormatSize, AVIStreamFormatSize macro [Windows Multimedia], _win32_AVIStreamFormatSize, multimedia.avistreamformatsize, vfw/AVIStreamFormatSize
 ms.topic: macro
-f1_keywords: 
- - "vfw/AVIStreamFormatSize"
+f1_keywords:
+- vfw/AVIStreamFormatSize
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIStreamFormatSize
+- AVIStreamFormatSize
 targetos: Windows
 req.typenames: 
 req.redist: 

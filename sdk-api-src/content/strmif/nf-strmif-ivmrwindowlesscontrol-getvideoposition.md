@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetVideoPosition
 title: IVMRWindowlessControl::GetVideoPosition (strmif.h)
-
 description: The GetVideoPosition method retrieves the current source and destination rectangles used to display the video.
 old-location: dshow\ivmrwindowlesscontrol_getvideoposition.htm
 tech.root: DirectShow
 ms.assetid: 1d7f1a8b-bbc4-43ae-b8e6-410561087204
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoPosition, GetVideoPosition method [DirectShow], GetVideoPosition method [DirectShow],IVMRWindowlessControl interface, IVMRWindowlessControl interface [DirectShow],GetVideoPosition method, IVMRWindowlessControl.GetVideoPosition, IVMRWindowlessControl::GetVideoPosition, IVMRWindowlessControlGetVideoPosition, dshow.ivmrwindowlesscontrol_getvideoposition, strmif/IVMRWindowlessControl::GetVideoPosition
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRWindowlessControl.GetVideoPosition"
+f1_keywords:
+- strmif/IVMRWindowlessControl.GetVideoPosition
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl.GetVideoPosition
+- IVMRWindowlessControl.GetVideoPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

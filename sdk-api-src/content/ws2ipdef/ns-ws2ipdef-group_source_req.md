@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.group_source_req
 title: GROUP_SOURCE_REQ (ws2ipdef.h)
-
 description: Provides multicast group information for IPv6 or IPv4 addresses that includes the source IP address.
 old-location: winsock\group_source_req.htm
 tech.root: WinSock
 ms.assetid: c8f442e0-e7c3-4421-a664-3f4e31a68eb9
-
 ms.date: 12/05/2018
-ms.keywords: "*PGROUP_SOURCE_REQ, GROUP_SOURCE_REQ, GROUP_SOURCE_REQ structure [Winsock], PGROUP_SOURCE_REQ, PGROUP_SOURCE_REQ structure pointer [Winsock], winsock.group_source_req, ws2ipdef/GROUP_SOURCE_REQ, ws2ipdef/PGROUP_SOURCE_REQ"
+ms.keywords: '*PGROUP_SOURCE_REQ, GROUP_SOURCE_REQ, GROUP_SOURCE_REQ structure [Winsock], PGROUP_SOURCE_REQ, PGROUP_SOURCE_REQ structure pointer [Winsock], winsock.group_source_req, ws2ipdef/GROUP_SOURCE_REQ, ws2ipdef/PGROUP_SOURCE_REQ'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/GROUP_SOURCE_REQ"
+f1_keywords:
+- ws2ipdef/GROUP_SOURCE_REQ
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
+- Ws2ipdef.h
 api_name:
- - GROUP_SOURCE_REQ
+- GROUP_SOURCE_REQ
 targetos: Windows
 req.typenames: GROUP_SOURCE_REQ, *PGROUP_SOURCE_REQ
 req.redist: 

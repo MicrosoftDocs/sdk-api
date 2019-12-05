@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfComposition.ShiftStart
 title: ITfComposition::ShiftStart (msctf.h)
-
 description: ITfComposition::ShiftStart method
 old-location: tsf\itfcomposition_shiftstart.htm
 tech.root: TSF
 ms.assetid: 85a5121a-7be0-4703-a1d4-4de21dd98697
-
 ms.date: 12/05/2018
 ms.keywords: ITfComposition interface [Text Services Framework],ShiftStart method, ITfComposition.ShiftStart, ITfComposition::ShiftStart, ShiftStart, ShiftStart method [Text Services Framework], ShiftStart method [Text Services Framework],ITfComposition interface, _tsf_itfcomposition_shiftstart_ref, msctf/ITfComposition::ShiftStart, tsf.itfcomposition_shiftstart
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfComposition.ShiftStart"
+f1_keywords:
+- msctf/ITfComposition.ShiftStart
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfComposition.ShiftStart
+- ITfComposition.ShiftStart
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

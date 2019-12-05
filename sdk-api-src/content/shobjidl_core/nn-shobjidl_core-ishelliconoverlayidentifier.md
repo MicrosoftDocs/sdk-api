@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellIconOverlayIdentifier
 title: IShellIconOverlayIdentifier (shobjidl_core.h)
-
 description: Exposes methods that handle all communication between icon overlay handlers and the Shell.
 old-location: shell\IShellIconOverlayIdentifier.htm
 tech.root: shell
 ms.assetid: c093bc13-def7-411d-b741-50996ffad84b
-
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlayIdentifier, IShellIconOverlayIdentifier interface [Windows Shell], IShellIconOverlayIdentifier interface [Windows Shell],described, _win32_IShellIconOverlayIdentifier, shell.IShellIconOverlayIdentifier, shobjidl_core/IShellIconOverlayIdentifier
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellIconOverlayIdentifier"
+f1_keywords:
+- shobjidl_core/IShellIconOverlayIdentifier
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellIconOverlayIdentifier
+- IShellIconOverlayIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

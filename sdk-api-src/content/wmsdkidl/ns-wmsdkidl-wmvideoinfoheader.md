@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl.tagWMVIDEOINFOHEADER
 title: WMVIDEOINFOHEADER (wmsdkidl.h)
-
 description: The WMVIDEOINFOHEADER structure describes the bitmap and color information for a video image.
 old-location: wmformat\wmvideoinfoheader.htm
 tech.root: wmformat
 ms.assetid: cf079efd-1759-4787-8aeb-85543847ac44
-
 ms.date: 12/05/2018
 ms.keywords: WMVIDEOINFOHEADER, WMVIDEOINFOHEADER structure [windows Media Format], wmformat.wmvideoinfoheader, wmsdkidl/WMVIDEOINFOHEADER
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMVIDEOINFOHEADER"
+f1_keywords:
+- wmsdkidl/WMVIDEOINFOHEADER
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMVIDEOINFOHEADER
+- WMVIDEOINFOHEADER
 targetos: Windows
 req.typenames: WMVIDEOINFOHEADER
 req.redist: 

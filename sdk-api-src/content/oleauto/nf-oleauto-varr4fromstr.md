@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4FromStr
 title: VarR4FromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to a float value.
 old-location: automat\varr4fromstr.htm
 tech.root: automat
 ms.assetid: ac90e093-3d18-4f3b-94bb-59ac111eadce
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarR4FromStr, VarR4FromStr function [Automation], _oa96_VarR4FromStr, automat.varr4fromstr, oleauto/VarR4FromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4FromStr"
+f1_keywords:
+- oleauto/VarR4FromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4FromStr
+- VarR4FromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

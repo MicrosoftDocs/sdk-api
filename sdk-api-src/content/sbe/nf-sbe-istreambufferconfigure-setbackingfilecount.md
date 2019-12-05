@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.SetBackingFileCount
 title: IStreamBufferConfigure::SetBackingFileCount (sbe.h)
-
 description: The SetBackingFileCount method sets the maximum and minimum number of backing files.
 old-location: mstv\istreambufferconfigure_setbackingfilecount.htm
 tech.root: mstv
 ms.assetid: c984ec40-22d0-4670-af7e-3c2ce611850f
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferConfigure interface [Microsoft TV Technologies],SetBackingFileCount method, IStreamBufferConfigure.SetBackingFileCount, IStreamBufferConfigure::SetBackingFileCount, IStreamBufferConfigureSetBackingFileCount, SetBackingFileCount, SetBackingFileCount method [Microsoft TV Technologies], SetBackingFileCount method [Microsoft TV Technologies],IStreamBufferConfigure interface, mstv.istreambufferconfigure_setbackingfilecount, sbe/IStreamBufferConfigure::SetBackingFileCount
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferConfigure.SetBackingFileCount"
+f1_keywords:
+- sbe/IStreamBufferConfigure.SetBackingFileCount
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure.SetBackingFileCount
+- IStreamBufferConfigure.SetBackingFileCount
 targetos: Windows
 req.typenames: 
 req.redist: 

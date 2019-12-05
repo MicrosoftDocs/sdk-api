@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_ENVIRONMENT_VARIABLE
 title: WSMAN_ENVIRONMENT_VARIABLE (wsman.h)
-
 description: Defines an individual environment variable by using a name and value pair.
 old-location: winrm\wsman_environment_variable.htm
 tech.root: winrm
 ms.assetid: 0bf58de5-0c0b-4dc2-ba8b-c75e8201adc8
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_ENVIRONMENT_VARIABLE, WSMAN_ENVIRONMENT_VARIABLE structure [Windows Remote Management], winrm.wsman_environment_variable, wsman/WSMAN_ENVIRONMENT_VARIABLE
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_ENVIRONMENT_VARIABLE"
+f1_keywords:
+- wsman/WSMAN_ENVIRONMENT_VARIABLE
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_ENVIRONMENT_VARIABLE
+- WSMAN_ENVIRONMENT_VARIABLE
 targetos: Windows
 req.typenames: WSMAN_ENVIRONMENT_VARIABLE
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

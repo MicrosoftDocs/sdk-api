@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetTableIdExtension
 title: IISDB_EMM::GetTableIdExtension (dvbsiparser.h)
-
 description: Gets a table_id_extension field identifying a subtable within an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_gettableidextension.htm
 tech.root: mstv
 ms.assetid: aa0aba5d-181b-4466-8ad1-5db541d36261
-
 ms.date: 12/05/2018
 ms.keywords: GetTableIdExtension, GetTableIdExtension method [Microsoft TV Technologies], GetTableIdExtension method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetTableIdExtension method, IISDB_EMM.GetTableIdExtension, IISDB_EMM::GetTableIdExtension, dvbsiparser/IISDB_EMM::GetTableIdExtension, mstv.iisdb_emm_gettableidextension
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_EMM.GetTableIdExtension"
+f1_keywords:
+- dvbsiparser/IISDB_EMM.GetTableIdExtension
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_EMM.GetTableIdExtension
+- IISDB_EMM.GetTableIdExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

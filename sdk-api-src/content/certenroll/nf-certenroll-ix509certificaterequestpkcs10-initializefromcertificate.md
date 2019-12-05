@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromCertificate
 title: IX509CertificateRequestPkcs10::InitializeFromCertificate (certenroll.h)
-
 description: Initializes the certificate request by using an existing certificate.
 old-location: security\ix509certificaterequestpkcs10_initializefromcertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 3f390abc-5c1c-4f9c-a5f4-4d6fec065acf
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeFromCertificate method, IX509CertificateRequestPkcs10.InitializeFromCertificate, IX509CertificateRequestPkcs10::InitializeFromCertificate, InheritDefault, InheritExtensionsFlag, InheritNewDefaultKey, InheritNewSimilarKey, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeFromCertificate, security.ix509certificaterequestpkcs10_initializefromcertificate_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.InitializeFromCertificate"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.InitializeFromCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.InitializeFromCertificate
+- IX509CertificateRequestPkcs10.InitializeFromCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

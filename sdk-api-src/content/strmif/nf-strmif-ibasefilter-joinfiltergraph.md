@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IBaseFilter.JoinFilterGraph
 title: IBaseFilter::JoinFilterGraph (strmif.h)
-
 description: The JoinFilterGraph method notifies the filter that it has joined or left the filter graph.
 old-location: dshow\ibasefilter_joinfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 1f01c71f-5c12-4bf3-937c-740168baf776
-
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],JoinFilterGraph method, IBaseFilter.JoinFilterGraph, IBaseFilter::JoinFilterGraph, IBaseFilterJoinFilterGraph, JoinFilterGraph, JoinFilterGraph method [DirectShow], JoinFilterGraph method [DirectShow],IBaseFilter interface, dshow.ibasefilter_joinfiltergraph, strmif/IBaseFilter::JoinFilterGraph
 ms.topic: method
-f1_keywords: 
- - "strmif/IBaseFilter.JoinFilterGraph"
+f1_keywords:
+- strmif/IBaseFilter.JoinFilterGraph
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBaseFilter.JoinFilterGraph
+- IBaseFilter.JoinFilterGraph
 targetos: Windows
 req.typenames: 
 req.redist: 

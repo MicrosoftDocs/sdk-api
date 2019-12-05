@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServices.ClearHmenuProps
 title: IAccPropServices::ClearHmenuProps (oleacc.h)
-
 description: This method wraps ClearProps, and provides a convenient entry point for callers who are annotating HMENU-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__clearhmenuprops.htm
 tech.root: WinAuto
 ms.assetid: dbff74b0-c67b-4ef4-add7-6063c4760455
-
 ms.date: 12/05/2018
 ms.keywords: ClearHmenuProps, ClearHmenuProps method [Windows Accessibility], ClearHmenuProps method [Windows Accessibility],IAccPropServices interface, IAccPropServices interface [Windows Accessibility],ClearHmenuProps method, IAccPropServices.ClearHmenuProps, IAccPropServices::ClearHmenuProps, oleacc/IAccPropServices::ClearHmenuProps, winauto.iaccpropservices_iaccpropservices__clearhmenuprops
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServices.ClearHmenuProps"
+f1_keywords:
+- oleacc/IAccPropServices.ClearHmenuProps
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServices.ClearHmenuProps
+- IAccPropServices.ClearHmenuProps
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

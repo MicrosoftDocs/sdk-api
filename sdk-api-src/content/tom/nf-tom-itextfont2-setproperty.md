@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetProperty
 title: ITextFont2::SetProperty (tom.h)
-
 description: Sets the value of the specified property.
 old-location: controls\itextfont2_setproperty.htm
 tech.root: Controls
 ms.assetid: c4d35fed-9bf5-431e-96c9-b1d51d51703a
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetProperty method, ITextFont2.SetProperty, ITextFont2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextFont2 interface, controls.itextfont2_setproperty, tom/ITextFont2::SetProperty
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetProperty"
+f1_keywords:
+- tom/ITextFont2.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetProperty
+- ITextFont2.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

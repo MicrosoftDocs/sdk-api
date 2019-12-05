@@ -1,19 +1,17 @@
 ---
 UID: NF:medparam.IMediaParams.SetTimeFormat
 title: IMediaParams::SetTimeFormat (medparam.h)
-
 description: The SetTimeFormat method specifies the time format for the object.
 old-location: dshow\imediaparams_settimeformat.htm
 tech.root: DirectShow
 ms.assetid: 48c28dd8-aeae-4212-9221-ab943113aa76
-
 ms.date: 12/05/2018
 ms.keywords: IMediaParams interface [DirectShow],SetTimeFormat method, IMediaParams.SetTimeFormat, IMediaParams::SetTimeFormat, IMediaParamsSetTimeFormat, SetTimeFormat, SetTimeFormat method [DirectShow], SetTimeFormat method [DirectShow],IMediaParams interface, dshow.imediaparams_settimeformat, medparam/IMediaParams::SetTimeFormat
 ms.topic: method
-f1_keywords: 
- - "medparam/IMediaParams.SetTimeFormat"
+f1_keywords:
+- medparam/IMediaParams.SetTimeFormat
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParams.SetTimeFormat
+- IMediaParams.SetTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

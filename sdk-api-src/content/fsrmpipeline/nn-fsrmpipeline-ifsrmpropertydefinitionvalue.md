@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyDefinitionValue
 title: IFsrmPropertyDefinitionValue (fsrmpipeline.h)
-
 description: Contains properties that describe a classification property definition value.
 old-location: fsrm\ifsrmpropertydefinitionvalue.htm
 tech.root: fsrm
 ms.assetid: 886f0f02-fe0e-4001-b6c2-e3d1d15d8e49
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyDefinitionValue, IFsrmPropertyDefinitionValue interface [File Server Resource Manager], IFsrmPropertyDefinitionValue interface [File Server Resource Manager],described, fs.ifsrmpropertydefinitionvalue, fsrm.ifsrmpropertydefinitionvalue, fsrmpipeline/IFsrmPropertyDefinitionValue
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyDefinitionValue"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyDefinitionValue
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinitionValue
+- IFsrmPropertyDefinitionValue
 targetos: Windows
 req.typenames: 
 req.redist: 

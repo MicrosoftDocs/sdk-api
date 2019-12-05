@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_InitialExpansionVelocity
 title: IInertiaProcessor::put_InitialExpansionVelocity (manipulations.h)
-
 description: The InitialExpansionVelocity property specifies the rate of radius expansion for a target when the target was affected by inertia.
 old-location: wintouch\iinertiaprocessor_initialexpansionvelocity.htm
 tech.root: wintouch
 ms.assetid: c0e60b1c-98d0-4b50-ba5d-deda44debf56
-
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialExpansionVelocity property, IInertiaProcessor.InitialExpansionVelocity, IInertiaProcessor.put_InitialExpansionVelocity, IInertiaProcessor::InitialExpansionVelocity, IInertiaProcessor::get_InitialExpansionVelocity, IInertiaProcessor::put_InitialExpansionVelocity, InitialExpansionVelocity property [Windows Touch], InitialExpansionVelocity property [Windows Touch],IInertiaProcessor interface, manipulations/IInertiaProcessor::InitialExpansionVelocity, manipulations/IInertiaProcessor::get_InitialExpansionVelocity, manipulations/IInertiaProcessor::put_InitialExpansionVelocity, put_InitialExpansionVelocity, wintouch.iinertiaprocessor_initialexpansionvelocity
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.InitialExpansionVelocity"
+f1_keywords:
+- manipulations/IInertiaProcessor.InitialExpansionVelocity
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.InitialExpansionVelocity
- - IInertiaProcessor.get_InitialExpansionVelocity
- - IInertiaProcessor.put_InitialExpansionVelocity
+- IInertiaProcessor.InitialExpansionVelocity
+- IInertiaProcessor.get_InitialExpansionVelocity
+- IInertiaProcessor.put_InitialExpansionVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 

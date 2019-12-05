@@ -1,19 +1,17 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingActivity
 title: TraceLoggingActivity
-
 description: Provides support for logging ETW events during an activity. All events must be manually tagged or nested.
 old-location: tracelogging\traceloggingactivity.htm
 tech.root: tracelogging
 ms.assetid: 75930876-4DF2-4559-BA06-133FC676B1AD
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingActivity, TraceLoggingActivity class, TraceLoggingActivity class,described, tracelogging.traceloggingactivity, traceloggingactivity/TraceLoggingActivity
 ms.topic: class
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingActivity"
+f1_keywords:
+- traceloggingactivity/TraceLoggingActivity
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingActivity
+- TraceLoggingActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

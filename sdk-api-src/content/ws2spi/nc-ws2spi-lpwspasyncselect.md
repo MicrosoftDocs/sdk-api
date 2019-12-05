@@ -19,20 +19,20 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt:
-req.target-min-winversvr:
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - ws2spi.h
+- ws2spi.h
 api_name:
- - LPWSPASYNCSELECT
+- LPWSPASYNCSELECT
 ---
 
 ## -description

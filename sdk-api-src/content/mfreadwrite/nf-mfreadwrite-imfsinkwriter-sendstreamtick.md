@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.SendStreamTick
 title: IMFSinkWriter::SendStreamTick (mfreadwrite.h)
-
 description: Indicates a gap in an input stream.
 old-location: mf\imfsinkwriter_sendstreamtick.htm
 tech.root: medfound
 ms.assetid: 3b4b76b7-1a39-4323-94e7-0b2d159a8038
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],SendStreamTick method, IMFSinkWriter.SendStreamTick, IMFSinkWriter::SendStreamTick, SendStreamTick, SendStreamTick method [Media Foundation], SendStreamTick method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_sendstreamtick, mfreadwrite/IMFSinkWriter::SendStreamTick
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.SendStreamTick"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.SendStreamTick
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.SendStreamTick
+- IMFSinkWriter.SendStreamTick
 targetos: Windows
 req.typenames: 
 req.redist: 

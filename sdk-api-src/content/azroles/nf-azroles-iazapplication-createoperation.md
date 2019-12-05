@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.CreateOperation
 title: IAzApplication::CreateOperation (azroles.h)
-
 description: Creates an IAzOperation object with the specified name.
 old-location: security\iazapplication_createoperation.htm
 tech.root: SecAuthZ
 ms.assetid: 4faf4fc3-5847-40a1-9f85-fb10bb3048b4
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateOperation method, CreateOperation, CreateOperation method [Security], CreateOperation method [Security],AzApplication object, CreateOperation method [Security],IAzApplication interface, IAzApplication interface [Security],CreateOperation method, IAzApplication.CreateOperation, IAzApplication::CreateOperation, azroles/IAzApplication::CreateOperation, security.iazapplication_createoperation
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.CreateOperation"
+f1_keywords:
+- azroles/IAzApplication.CreateOperation
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.CreateOperation
- - AzApplication.CreateOperation
+- IAzApplication.CreateOperation
+- AzApplication.CreateOperation
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

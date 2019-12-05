@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITunerCap.get_SupportedVideoFormats
 title: ITunerCap::get_SupportedVideoFormats (tuner.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itunercap_get_supportedvideoformats.htm
 tech.root: mstv
 ms.assetid: 301402bd-8c9c-4dab-a00b-29aaa8efb2a2
-
 ms.date: 12/05/2018
 ms.keywords: ITunerCap interface [Microsoft TV Technologies],get_SupportedVideoFormats method, ITunerCap.get_SupportedVideoFormats, ITunerCap::get_SupportedVideoFormats, ITunerCapget_SupportedVideoFormats, get_SupportedVideoFormats, get_SupportedVideoFormats method [Microsoft TV Technologies], get_SupportedVideoFormats method [Microsoft TV Technologies],ITunerCap interface, mstv.itunercap_get_supportedvideoformats, tuner/ITunerCap::get_SupportedVideoFormats
 ms.topic: method
-f1_keywords: 
- - "tuner/ITunerCap.get_SupportedVideoFormats"
+f1_keywords:
+- tuner/ITunerCap.get_SupportedVideoFormats
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITunerCap.get_SupportedVideoFormats
+- ITunerCap.get_SupportedVideoFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDVB_NIT
 title: IDVB_NIT (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_nit.htm
 tech.root: mstv
 ms.assetid: 70b638ae-0152-4a44-aeb1-f3ac382c19ce
-
 ms.date: 12/05/2018
 ms.keywords: IDVB_NIT, IDVB_NIT interface [Microsoft TV Technologies], IDVB_NIT interface [Microsoft TV Technologies],described, IDVB_NITInterface, dvbsiparser/IDVB_NIT, mstv.idvb_nit
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDVB_NIT"
+f1_keywords:
+- dvbsiparser/IDVB_NIT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_NIT
+- IDVB_NIT
 targetos: Windows
 req.typenames: 
 req.redist: 

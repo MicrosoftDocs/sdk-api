@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication3.DeleteScope2
 title: IAzApplication3::DeleteScope2 (azroles.h)
-
 description: Removes the specified IAzScope2 object from the IAzApplication3 object.
 old-location: security\iazapplication3_deletescope2.htm
 tech.root: SecAuthZ
 ms.assetid: f42f9288-896b-4034-a16c-3d555acea453
-
 ms.date: 12/05/2018
 ms.keywords: DeleteScope2, DeleteScope2 method [Security], DeleteScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],DeleteScope2 method, IAzApplication3.DeleteScope2, IAzApplication3::DeleteScope2, azroles/IAzApplication3::DeleteScope2, security.iazapplication3_deletescope2
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication3.DeleteScope2"
+f1_keywords:
+- azroles/IAzApplication3.DeleteScope2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication3.DeleteScope2
+- IAzApplication3.DeleteScope2
 targetos: Windows
 req.typenames: 
 req.redist: 

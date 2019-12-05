@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.INetSharingPortMapping
 title: INetSharingPortMapping (netcon.h)
-
 description: The INetSharingPortMapping interface provides methods for managing a particular port mapping.
 old-location: ics\inetsharingportmapping.htm
 tech.root: ics
 ms.assetid: 236608c3-061e-4db0-96df-25d263b6463b
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMapping, INetSharingPortMapping interface [ICS/ICF], INetSharingPortMapping interface [ICS/ICF],described, _ics_inetsharingportmapping, ics.inetsharingportmapping, netcon/INetSharingPortMapping
 ms.topic: interface
-f1_keywords: 
- - "netcon/INetSharingPortMapping"
+f1_keywords:
+- netcon/INetSharingPortMapping
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPortMapping
+- INetSharingPortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

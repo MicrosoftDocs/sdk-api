@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetShaderResources
 title: ID3D11DeviceContext::CSGetShaderResources (d3d11.h)
-
 description: Get the compute-shader resources.
 old-location: direct3d11\id3d11devicecontext_csgetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: 872dac3b-8461-4150-b51f-ce02f7356754
-
 ms.date: 12/05/2018
 ms.keywords: 8504e79a-bae1-cad5-dbaa-31ce196070b2, CSGetShaderResources, CSGetShaderResources method [Direct3D 11], CSGetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],CSGetShaderResources method, ID3D11DeviceContext.CSGetShaderResources, ID3D11DeviceContext::CSGetShaderResources, d3d11/ID3D11DeviceContext::CSGetShaderResources, direct3d11.id3d11devicecontext_csgetshaderresources
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.CSGetShaderResources"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.CSGetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.CSGetShaderResources
+- ID3D11DeviceContext.CSGetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

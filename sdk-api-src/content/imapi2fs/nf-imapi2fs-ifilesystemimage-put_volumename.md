@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_VolumeName
 title: IFileSystemImage::put_VolumeName (imapi2fs.h)
-
 description: Sets the volume name for this file system image.
 old-location: imapi\ifilesystemimage_put_volumename.htm
 tech.root: imapi
 ms.assetid: afb87eb1-5d14-413a-8830-2612920eac3d
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_VolumeName method, IFileSystemImage.put_VolumeName, IFileSystemImage::put_VolumeName, imapi.ifilesystemimage_put_volumename, imapi2fs/IFileSystemImage::put_VolumeName, put_VolumeName, put_VolumeName method [IMAPI], put_VolumeName method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.put_VolumeName"
+f1_keywords:
+- imapi2fs/IFileSystemImage.put_VolumeName
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.put_VolumeName
+- IFileSystemImage.put_VolumeName
 targetos: Windows
 req.typenames: 
 req.redist: 

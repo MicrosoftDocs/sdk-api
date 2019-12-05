@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFOutputPolicy.GetMinimumGRLVersion
 title: IMFOutputPolicy::GetMinimumGRLVersion (mfidl.h)
-
 description: Retrieves the minimum version of the global revocation list (GRL) that must be enforced by the protected environment for this policy.
 old-location: mf\imfoutputpolicy_getminimumgrlversion.htm
 tech.root: medfound
 ms.assetid: 41da430b-9cdd-4ab0-873d-f6d94f48d401
-
 ms.date: 12/05/2018
 ms.keywords: 41da430b-9cdd-4ab0-873d-f6d94f48d401, GetMinimumGRLVersion, GetMinimumGRLVersion method [Media Foundation], GetMinimumGRLVersion method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GetMinimumGRLVersion method, IMFOutputPolicy.GetMinimumGRLVersion, IMFOutputPolicy::GetMinimumGRLVersion, mf.imfoutputpolicy_getminimumgrlversion, mfidl/IMFOutputPolicy::GetMinimumGRLVersion
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFOutputPolicy.GetMinimumGRLVersion"
+f1_keywords:
+- mfidl/IMFOutputPolicy.GetMinimumGRLVersion
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFOutputPolicy.GetMinimumGRLVersion
+- IMFOutputPolicy.GetMinimumGRLVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

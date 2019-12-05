@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetCooperativeLevel
 title: IDirectInputJoyConfig8::SetCooperativeLevel (dinputd.h)
-
 description: The IDirectInputJoyConfig8::SetCooperativeLevel method establishes the cooperation level for the instance of the device. The only cooperative levels supported for the IDirectInputJoyConfig8 interface are DISCL_EXCLUSIVE and DISCL_BACKGROUND.
 old-location: hid\idirectinputjoyconfig8_setcooperativelevel.htm
 tech.root: hid
 ms.assetid: 0132194a-ee7b-4aa2-af79-f92071072429
-
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetCooperativeLevel method, IDirectInputJoyConfig8.SetCooperativeLevel, IDirectInputJoyConfig8::SetCooperativeLevel, SetCooperativeLevel, SetCooperativeLevel method [Human Input Devices], SetCooperativeLevel method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_3730e9ce-af55-43a3-866f-ecb288958005.xml, dinputd/IDirectInputJoyConfig8::SetCooperativeLevel, hid.idirectinputjoyconfig8_setcooperativelevel
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.SetCooperativeLevel"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.SetCooperativeLevel
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.SetCooperativeLevel
+- IDirectInputJoyConfig8.SetCooperativeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromPointBuildCache
 title: IUIAutomation::ElementFromPointBuildCache (uiautomationclient.h)
-
 description: Retrieves the UI Automation element at the specified point on the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromPointBuildCache.htm
 tech.root: WinAuto
 ms.assetid: fb3a8773-270a-4e33-bcbe-bde7794ea4ad
-
 ms.date: 12/05/2018
 ms.keywords: ElementFromPointBuildCache, ElementFromPointBuildCache method [Windows Accessibility], ElementFromPointBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromPointBuildCache method, IUIAutomation.ElementFromPointBuildCache, IUIAutomation::ElementFromPointBuildCache, uiauto.uiauto_IUIAutomation_ElementFromPointBuildCache, uiauto_IUIAutomation_ElementFromPointBuildCache, uiautomationclient/IUIAutomation::ElementFromPointBuildCache, winauto.uiauto_IUIAutomation_ElementFromPointBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.ElementFromPointBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomation.ElementFromPointBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.ElementFromPointBuildCache
+- IUIAutomation.ElementFromPointBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

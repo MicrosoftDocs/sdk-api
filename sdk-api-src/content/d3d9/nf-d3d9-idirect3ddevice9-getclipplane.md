@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.GetClipPlane
 title: IDirect3DDevice9::GetClipPlane (d3d9.h)
-
 description: Retrieves the coefficients of a user-defined clipping plane for the device.
 old-location: direct3d9\idirect3ddevice9__getclipplane.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getclipplane.htm
-
 ms.date: 12/05/2018
 ms.keywords: 4ee4abff-6964-013c-ead5-e1d4da1fe84b, GetClipPlane, GetClipPlane method [Direct3D 9], GetClipPlane method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetClipPlane method, IDirect3DDevice9.GetClipPlane, IDirect3DDevice9::GetClipPlane, d3d9helper/IDirect3DDevice9::GetClipPlane, direct3d9.idirect3ddevice9__getclipplane
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.GetClipPlane"
+f1_keywords:
+- d3d9/IDirect3DDevice9.GetClipPlane
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.GetClipPlane
+- IDirect3DDevice9.GetClipPlane
 targetos: Windows
 req.typenames: 
 req.redist: 

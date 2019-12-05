@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfDiagnoseIncident
 title: NdfDiagnoseIncident function (ndfapi.h)
-
 description: Diagnoses the root cause of an incident without displaying a user interface.
 old-location: ndf\ndfdiagnoseincident.htm
 tech.root: NDF
 ms.assetid: 69ae5624-7c3b-44a2-8468-d587739fc666
-
 ms.date: 12/05/2018
 ms.keywords: NDF_ADD_CAPTURE_TRACE, NDF_APPLY_INCLUSION_LIST_FILTER, NdfDiagnoseIncident, NdfDiagnoseIncident function [NDF], ndf.ndfdiagnoseincident, ndfapi/NdfDiagnoseIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfDiagnoseIncident"
+f1_keywords:
+- ndfapi/NdfDiagnoseIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfDiagnoseIncident
+- NdfDiagnoseIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

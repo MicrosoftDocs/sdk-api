@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.Acquire
 title: IDirectInputJoyConfig8::Acquire (dinputd.h)
-
 description: The IDirectInputJoyConfig8::Acquire method acquires &#0034;joystick configuration mode.&#0034; Only one application can be in joystick configuration mode at a time; subsequent attempts by other applications to acquire this mode should receive the error DIERR_OTHERAPPHASPRIO. After entering configuration mode, the application can make alterations to the global joystick configuration settings. The application should check the existing settings before installing the new ones in case another application changed the settings in the interim.
 old-location: hid\idirectinputjoyconfig8_acquire.htm
 tech.root: hid
 ms.assetid: 1df2eb92-9c55-4371-84c7-a4fb879efb7e
-
 ms.date: 12/05/2018
 ms.keywords: Acquire, Acquire method [Human Input Devices], Acquire method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],Acquire method, IDirectInputJoyConfig8.Acquire, IDirectInputJoyConfig8::Acquire, di_ref_299a63df-4623-437b-b106-2e8c0530f462.xml, dinputd/IDirectInputJoyConfig8::Acquire, hid.idirectinputjoyconfig8_acquire
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.Acquire"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.Acquire
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - IDirectInputJoyConfig8.Acquire
+- IDirectInputJoyConfig8.Acquire
 targetos: Windows
 req.typenames: 
 req.redist: 

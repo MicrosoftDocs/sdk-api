@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHGetViewStatePropertyBag
 title: SHGetViewStatePropertyBag function (shlwapi.h)
-
 description: SHGetViewStatePropertyBag may be altered or unavailable.
 old-location: shell\SHGetViewStatePropertyBag.htm
 tech.root: shell
 ms.assetid: 6852867a-30a5-4d4e-b790-3746104e3ed8
-
 ms.date: 12/05/2018
 ms.keywords: SHGVSPB_ALLFOLDERS, SHGVSPB_ALLUSERS, SHGVSPB_FOLDER, SHGVSPB_FOLDERNODEFAULTS, SHGVSPB_GLOBALDEFAULTS, SHGVSPB_INHERIT, SHGVSPB_NOAUTODEFAULTS, SHGVSPB_PERFOLDER, SHGVSPB_PERUSER, SHGVSPB_ROAM, SHGVSPB_USERDEFAULTS, SHGetViewStatePropertyBag, SHGetViewStatePropertyBag function [Windows Shell], shell.SHGetViewStatePropertyBag, shell_SHGetViewStatePropertyBag, shlwapi/SHGetViewStatePropertyBag
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHGetViewStatePropertyBag"
+f1_keywords:
+- shlwapi/SHGetViewStatePropertyBag
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - SHGetViewStatePropertyBag
+- SHGetViewStatePropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 

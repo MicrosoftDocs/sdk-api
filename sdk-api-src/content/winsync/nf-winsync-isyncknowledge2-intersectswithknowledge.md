@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.IntersectsWithKnowledge
 title: ISyncKnowledge2::IntersectsWithKnowledge (winsync.h)
-
 description: Indicates whether the specified knowledge intersects with this knowledge.
 old-location: winsync\isyncknowledge2_intersectswithknowledge.htm
 tech.root: winsync
 ms.assetid: 8d2ce743-7827-4ee4-a800-3ba706d4a7a6
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],IntersectsWithKnowledge method, ISyncKnowledge2.IntersectsWithKnowledge, ISyncKnowledge2::IntersectsWithKnowledge, IntersectsWithKnowledge, IntersectsWithKnowledge method [Windows Sync], IntersectsWithKnowledge method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_intersectswithknowledge, winsync/ISyncKnowledge2::IntersectsWithKnowledge
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge2.IntersectsWithKnowledge"
+f1_keywords:
+- winsync/ISyncKnowledge2.IntersectsWithKnowledge
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge2.IntersectsWithKnowledge
+- ISyncKnowledge2.IntersectsWithKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 

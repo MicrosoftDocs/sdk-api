@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsAccessControlEntry
 title: IADsAccessControlEntry (iads.h)
-
 description: The IADsAccessControlEntry interface is a dual interface that enables directory clients to access and manipulate individual access-control entries (ACEs) of the owning object.
 old-location: adsi\iadsaccesscontrolentry.htm
 tech.root: adsi
 ms.assetid: 6d2cd45b-0dc6-4bb3-9c41-014bec71f258
-
 ms.date: 12/05/2018
 ms.keywords: AccessControlEntry, IADsAccessControlEntry, IADsAccessControlEntry interface [ADSI], IADsAccessControlEntry interface [ADSI],described, _ds_iadsaccesscontrolentry, adsi.iadsaccesscontrolentry, iads/IADsAccessControlEntry
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsAccessControlEntry"
+f1_keywords:
+- iads/IADsAccessControlEntry
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsAccessControlEntry
- - AccessControlEntry
+- IADsAccessControlEntry
+- AccessControlEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.ShutdownNameResolution
 title: IDiskQuotaControl::ShutdownNameResolution (dskquota.h)
-
 description: Translates user security identifiers (SID) to user names.
 old-location: fs\idiskquotacontrol_shutdownnameresolution.htm
 tech.root: FileIO
 ms.assetid: 53a2dd49-46e8-4e84-bbc2-102a57f36abc
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl interface [Files],ShutdownNameResolution method, IDiskQuotaControl.ShutdownNameResolution, IDiskQuotaControl::ShutdownNameResolution, ShutdownNameResolution, ShutdownNameResolution method [Files], ShutdownNameResolution method [Files],IDiskQuotaControl interface, _win32_idiskquotacontrol_shutdownnameresolution, base.idiskquotacontrol_shutdownnameresolution, dskquota/IDiskQuotaControl::ShutdownNameResolution, fs.idiskquotacontrol_shutdownnameresolution
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.ShutdownNameResolution"
+f1_keywords:
+- dskquota/IDiskQuotaControl.ShutdownNameResolution
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.ShutdownNameResolution
+- IDiskQuotaControl.ShutdownNameResolution
 targetos: Windows
 req.typenames: 
 req.redist: 

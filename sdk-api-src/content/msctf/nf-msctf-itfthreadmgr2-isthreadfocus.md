@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.IsThreadFocus
 title: ITfThreadMgr2::IsThreadFocus (msctf.h)
-
 description: Determines if the calling thread has the TSF input focus.
 old-location: tsf\itfthreadmgr2_isthreadfocus.htm
 tech.root: TSF
 ms.assetid: 8440BEE8-865F-4403-8558-C77638290A7F
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],IsThreadFocus method, ITfThreadMgr2.IsThreadFocus, ITfThreadMgr2::IsThreadFocus, IsThreadFocus, IsThreadFocus method [Text Services Framework], IsThreadFocus method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::IsThreadFocus, tsf.itfthreadmgr2_isthreadfocus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.IsThreadFocus"
+f1_keywords:
+- msctf/ITfThreadMgr2.IsThreadFocus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.IsThreadFocus
+- ITfThreadMgr2.IsThreadFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

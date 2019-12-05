@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.ContainsTime
 title: IMFMediaTimeRange::ContainsTime (mfmediaengine.h)
-
 description: Queries whether a specified time falls within any of the time ranges.
 old-location: mf\imfmediatimerange_containstime.htm
 tech.root: medfound
 ms.assetid: 67BA2464-D8F0-4A5C-9C12-DBD9AD0238A7
-
 ms.date: 12/05/2018
 ms.keywords: ContainsTime, ContainsTime method [Media Foundation], ContainsTime method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],ContainsTime method, IMFMediaTimeRange.ContainsTime, IMFMediaTimeRange::ContainsTime, mf.imfmediatimerange_containstime, mfmediaengine/IMFMediaTimeRange::ContainsTime
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaTimeRange.ContainsTime"
+f1_keywords:
+- mfmediaengine/IMFMediaTimeRange.ContainsTime
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaTimeRange.ContainsTime
+- IMFMediaTimeRange.ContainsTime
 targetos: Windows
 req.typenames: 
 req.redist: 

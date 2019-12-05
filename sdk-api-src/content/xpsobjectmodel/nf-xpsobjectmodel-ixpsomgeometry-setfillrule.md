@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.SetFillRule
 title: IXpsOMGeometry::SetFillRule (xpsobjectmodel.h)
-
 description: Sets the XPS_FILL_RULE value that describes the fill rule to be used.
 old-location: xps\ixpsomgeometry_setfillrule.htm
 tech.root: printdocs
 ms.assetid: e219a505-48e0-46b0-a739-d46fb898bc58
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGeometry interface [XPS Documents and Packaging],SetFillRule method, IXpsOMGeometry.SetFillRule, IXpsOMGeometry::SetFillRule, SetFillRule, SetFillRule method [XPS Documents and Packaging], SetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, xps.ixpsomgeometry_setfillrule, xpsobjectmodel/IXpsOMGeometry::SetFillRule
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometry.SetFillRule"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometry.SetFillRule
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometry.SetFillRule
+- IXpsOMGeometry.SetFillRule
 targetos: Windows
 req.typenames: 
 req.redist: 

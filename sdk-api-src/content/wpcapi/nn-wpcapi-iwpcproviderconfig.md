@@ -1,19 +1,17 @@
 ---
 UID: NN:wpcapi.IWPCProviderConfig
 title: IWPCProviderConfig (wpcapi.h)
-
 description: Exposes configuration methods that are implemented by third parties.
 old-location: parcon\iwpcproviderconfig.htm
 tech.root: parcon
 ms.assetid: 008786aa-72ef-4591-8826-01176d3e3fba
-
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderConfig, IWPCProviderConfig interface, IWPCProviderConfig interface,described, parcon.iwpcproviderconfig, wpcapi/IWPCProviderConfig
 ms.topic: interface
-f1_keywords: 
- - "wpcapi/IWPCProviderConfig"
+f1_keywords:
+- wpcapi/IWPCProviderConfig
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderConfig
+- IWPCProviderConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

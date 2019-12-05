@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IDeviceSpecificProperty
 title: IDeviceSpecificProperty (devicetopology.h)
-
 description: The IDeviceSpecificProperty interface provides access to the control value of a device-specific hardware control.
 old-location: coreaudio\idevicespecificproperty.htm
 tech.root: CoreAudio
 ms.assetid: 52873fe2-7f59-4a30-b526-cbefa27a81bb
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceSpecificProperty, IDeviceSpecificProperty interface [Core Audio], IDeviceSpecificProperty interface [Core Audio],described, coreaudio.idevicespecificproperty, devicetopology/IDeviceSpecificProperty
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IDeviceSpecificProperty"
+f1_keywords:
+- devicetopology/IDeviceSpecificProperty
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceSpecificProperty
+- IDeviceSpecificProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

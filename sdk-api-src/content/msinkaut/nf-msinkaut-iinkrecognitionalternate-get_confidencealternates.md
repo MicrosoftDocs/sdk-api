@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_ConfidenceAlternates
 title: IInkRecognitionAlternate::get_ConfidenceAlternates (msinkaut.h)
-
 description: Gets the collection of alternates in which each alternate in the collection consists of the segments with the same property values.
 old-location: tablet\iinkrecognitionalternate_confidencealternates.htm
 tech.root: tablet
 ms.assetid: ef3ab614-7aff-4660-bb2a-783f14e75b94
-
 ms.date: 12/05/2018
 ms.keywords: ConfidenceAlternates property [Tablet PC], ConfidenceAlternates property [Tablet PC],IInkRecognitionAlternate interface, IInkRecognitionAlternate interface [Tablet PC],ConfidenceAlternates property, IInkRecognitionAlternate.ConfidenceAlternates, IInkRecognitionAlternate.get_ConfidenceAlternates, IInkRecognitionAlternate::ConfidenceAlternates, IInkRecognitionAlternate::get_ConfidenceAlternates, ef3ab614-7aff-4660-bb2a-783f14e75b94, get_ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::ConfidenceAlternates, msinkaut/IInkRecognitionAlternate::get_ConfidenceAlternates, tablet.iinkrecognitionalternate_confidencealternates
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionAlternate.ConfidenceAlternates"
+f1_keywords:
+- msinkaut/IInkRecognitionAlternate.ConfidenceAlternates
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate.ConfidenceAlternates
- - IInkRecognitionAlternate.get_ConfidenceAlternates
- - IInkRecognitionAlternate.get_ConfidenceAlternates
+- IInkRecognitionAlternate.ConfidenceAlternates
+- IInkRecognitionAlternate.get_ConfidenceAlternates
+- IInkRecognitionAlternate.get_ConfidenceAlternates
 targetos: Windows
 req.typenames: 
 req.redist: 

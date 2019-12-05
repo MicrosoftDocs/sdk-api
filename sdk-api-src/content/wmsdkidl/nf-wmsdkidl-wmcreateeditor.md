@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.WMCreateEditor
 title: WMCreateEditor function (wmsdkidl.h)
-
 description: The WMCreateEditor function creates a metadata editor object.
 old-location: wmformat\wmcreateeditor.htm
 tech.root: wmformat
 ms.assetid: 3eed88d5-18e9-40b4-998d-af33ac5440b2
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateEditor, WMCreateEditor function [windows Media Format], wmformat.wmcreateeditor, wmsdkidl/WMCreateEditor
 ms.topic: function
-f1_keywords: 
- - "wmsdkidl/WMCreateEditor"
+f1_keywords:
+- wmsdkidl/WMCreateEditor
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wmvcore.dll
+- Wmvcore.dll
 api_name:
- - WMCreateEditor
+- WMCreateEditor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetFileCompressionInfoExA
 title: SetupGetFileCompressionInfoExA function (setupapi.h)
-
 description: The SetupGetFileCompressionInfoEx function examines a potentially compressed file and gets the type of compression, the file's full path (including file name), the compressed size, and the size of the uncompressed target file.
 old-location: setup\setupgetfilecompressioninfoex.htm
 tech.root: SetupApi
 ms.assetid: e6f01e02-ea39-4b25-bcc0-2aee941c7834
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetFileCompressionInfoEx, SetupGetFileCompressionInfoEx function [Setup API], SetupGetFileCompressionInfoExA, SetupGetFileCompressionInfoExW, _setupapi_setupgetfilecompressioninfoex, setup.setupgetfilecompressioninfoex, setupapi/SetupGetFileCompressionInfoEx, setupapi/SetupGetFileCompressionInfoExA, setupapi/SetupGetFileCompressionInfoExW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetFileCompressionInfoEx"
+f1_keywords:
+- setupapi/SetupGetFileCompressionInfoEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupGetFileCompressionInfoEx
- - SetupGetFileCompressionInfoExA
- - SetupGetFileCompressionInfoExW
+- SetupGetFileCompressionInfoEx
+- SetupGetFileCompressionInfoExA
+- SetupGetFileCompressionInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 

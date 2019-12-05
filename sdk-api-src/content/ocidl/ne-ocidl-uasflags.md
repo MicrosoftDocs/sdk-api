@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagUASFLAGS
 title: UASFLAGS (ocidl.h)
-
 description: Provides information about the parent undo unit.
 old-location: com\uasflags.htm
 tech.root: com
 ms.assetid: cf711180-e38a-4cff-bd2d-2cfca41b376d
-
 ms.date: 12/05/2018
 ms.keywords: UASFLAGS, UASFLAGS enumeration [COM], UAS_BLOCKED, UAS_MASK, UAS_NOPARENTENABLE, UAS_NORMAL, _ole_UASFLAGS, com.uasflags, ocidl/UASFLAGS, ocidl/UAS_BLOCKED, ocidl/UAS_MASK, ocidl/UAS_NOPARENTENABLE, ocidl/UAS_NORMAL
 ms.topic: enum
-f1_keywords: 
- - "ocidl/UASFLAGS"
+f1_keywords:
+- ocidl/UASFLAGS
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - UASFLAGS
+- UASFLAGS
 targetos: Windows
 req.typenames: UASFLAGS
 req.redist: 

@@ -1,14 +1,14 @@
 ---
 UID: NN:d3d11_4.ID3D11VideoContext3
 title: ID3D11VideoContext3
-description: Provides the video functionality of a Microsoft Direct3D 11 device. 
+description: Provides the video functionality of a Microsoft Direct3D 11 device.
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3
 ms.topic: language-reference
 f1_keywords:
- - ID3D11VideoContext3
+- ID3D11VideoContext3
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -24,13 +24,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_4.h
+- d3d11_4.h
 api_name:
- - ID3D11VideoContext3
+- ID3D11VideoContext3
 ---
 
 ## -inheritance

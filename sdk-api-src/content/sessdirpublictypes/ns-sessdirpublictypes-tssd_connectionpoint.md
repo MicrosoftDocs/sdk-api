@@ -1,19 +1,17 @@
 ---
 UID: NS:sessdirpublictypes.__MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002
 title: TSSD_ConnectionPoint (sessdirpublictypes.h)
-
 description: Defines the IP address of a target.
 old-location: termserv\tssd_connectionpoint.htm
 tech.root: TermServ
 ms.assetid: 489d79ab-8a59-4789-9dca-df26018bf58c
-
 ms.date: 12/05/2018
-ms.keywords: "*PTSSD_ConnectionPoint, PTSSD_ConnectionPoint, PTSSD_ConnectionPoint structure pointer [Remote Desktop Services], TSSD_ConnectionPoint, TSSD_ConnectionPoint structure [Remote Desktop Services], sessdirpublictypes/PTSSD_ConnectionPoint, sessdirpublictypes/TSSD_ConnectionPoint, termserv.tssd_connectionpoint"
+ms.keywords: '*PTSSD_ConnectionPoint, PTSSD_ConnectionPoint, PTSSD_ConnectionPoint structure pointer [Remote Desktop Services], TSSD_ConnectionPoint, TSSD_ConnectionPoint structure [Remote Desktop Services], sessdirpublictypes/PTSSD_ConnectionPoint, sessdirpublictypes/TSSD_ConnectionPoint, termserv.tssd_connectionpoint'
 ms.topic: struct
-f1_keywords: 
- - "sessdirpublictypes/TSSD_ConnectionPoint"
+f1_keywords:
+- sessdirpublictypes/TSSD_ConnectionPoint
 dev_langs:
- - c++
+- c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SessDirPublicTypes.h
+- SessDirPublicTypes.h
 api_name:
- - TSSD_ConnectionPoint
+- TSSD_ConnectionPoint
 targetos: Windows
 req.typenames: TSSD_ConnectionPoint, *PTSSD_ConnectionPoint
 req.redist: 

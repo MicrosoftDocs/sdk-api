@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.GetFileProperty
 title: IFsrmPropertyBag::GetFileProperty (fsrmpipeline.h)
-
 description: Retrieves the specified property from the property bag.
 old-location: fsrm\ifsrmpropertybag_getfileproperty.htm
 tech.root: fsrm
 ms.assetid: 09fc3287-f2a2-4ba7-9626-65c6634b7f2d
-
 ms.date: 12/05/2018
 ms.keywords: GetFileProperty, GetFileProperty method [File Server Resource Manager], GetFileProperty method [File Server Resource Manager],IFsrmPropertyBag interface, IFsrmPropertyBag interface [File Server Resource Manager],GetFileProperty method, IFsrmPropertyBag.GetFileProperty, IFsrmPropertyBag::GetFileProperty, fs.ifsrmpropertybag_getfileproperty, fsrm.ifsrmpropertybag_getfileproperty, fsrmpipeline/IFsrmPropertyBag::GetFileProperty
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.GetFileProperty"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.GetFileProperty
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.GetFileProperty
+- IFsrmPropertyBag.GetFileProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

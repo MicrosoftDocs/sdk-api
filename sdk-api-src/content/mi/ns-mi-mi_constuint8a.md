@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ConstUint8A
 title: MI_ConstUint8A (mi.h)
-
 description: Represents an array of MI_Uint8 types.
 old-location: wmi_v2\mi_constuint8a.htm
 tech.root: wmi_v2
 ms.assetid: 459f3d7b-5801-453f-9274-1473aac2cfbf
-
 ms.date: 12/05/2018
 ms.keywords: MI_ConstUint8A, MI_ConstUint8A structure [Windows Management Infrastructure (MI)], mi/MI_ConstUint8A, wmi._mi_constuint8a, wmi_v2.mi_constuint8a
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ConstUint8A"
+f1_keywords:
+- mi/MI_ConstUint8A
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ConstUint8A
+- MI_ConstUint8A
 targetos: Windows
 req.typenames: MI_ConstUint8A
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

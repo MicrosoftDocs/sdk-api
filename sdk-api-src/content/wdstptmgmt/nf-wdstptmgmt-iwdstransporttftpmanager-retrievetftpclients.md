@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpManager.RetrieveTftpClients
 title: IWdsTransportTftpManager::RetrieveTftpClients (wdstptmgmt.h)
-
 description: Returns a pointer to the object of an IWdsTransportCollection interface containing a collection of objects of the IWdsTransportTftpClient interface for the clients currently connected to the TFTP server.
 old-location: wds\iwdstransporttftpclient_retrievetftpclients.htm
 tech.root: wds
 ms.assetid: 48527950-A29D-4BC0-AD85-7B40E9C19133
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpManager interface [Windows Deployment Services],RetrieveTftpClients method, IWdsTransportTftpManager.RetrieveTftpClients, IWdsTransportTftpManager::RetrieveTftpClients, RetrieveTftpClients, RetrieveTftpClients method [Windows Deployment Services], RetrieveTftpClients method [Windows Deployment Services],IWdsTransportTftpManager interface, wds.iwdstransporttftpclient_retrievetftpclients, wdstptmgmt/IWdsTransportTftpManager::RetrieveTftpClients
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportTftpManager.RetrieveTftpClients"
+f1_keywords:
+- wdstptmgmt/IWdsTransportTftpManager.RetrieveTftpClients
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpManager.RetrieveTftpClients
+- IWdsTransportTftpManager.RetrieveTftpClients
 targetos: Windows
 req.typenames: 
 req.redist: 

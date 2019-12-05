@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs.__WTS_PROPERTY_VALUE
 title: WTS_PROPERTY_VALUE (wtsdefs.h)
-
 description: Contains information about a property value to retrieve from the protocol.
 old-location: termserv\wts_property_value.htm
 tech.root: TermServ
 ms.assetid: 3a4d18db-ef6a-4a7f-a676-1bc952ecae50
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE structure pointer [Remote Desktop Services], PWTS_PROPERTY_VALUE, PWTS_PROPERTY_VALUE structure pointer [Remote Desktop Services], VALUE_TYPE_BINARY, VALUE_TYPE_GUID, VALUE_TYPE_STRING, VALUE_TYPE_ULONG, WRDS_PROPERTY_VALUE, WRDS_PROPERTY_VALUE structure [Remote Desktop Services], WTS_PROPERTY_VALUE, WTS_PROPERTY_VALUE structure [Remote Desktop Services], termserv.wts_property_value, wtsdefs/PWRDS_PROPERTY_VALUE, wtsdefs/PWTS_PROPERTY_VALUE, wtsdefs/WRDS_PROPERTY_VALUE, wtsdefs/WTS_PROPERTY_VALUE"
+ms.keywords: '*PWTS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE, PWRDS_PROPERTY_VALUE structure pointer [Remote Desktop Services], PWTS_PROPERTY_VALUE, PWTS_PROPERTY_VALUE structure pointer [Remote Desktop Services], VALUE_TYPE_BINARY, VALUE_TYPE_GUID, VALUE_TYPE_STRING, VALUE_TYPE_ULONG, WRDS_PROPERTY_VALUE, WRDS_PROPERTY_VALUE structure [Remote Desktop Services], WTS_PROPERTY_VALUE, WTS_PROPERTY_VALUE structure [Remote Desktop Services], termserv.wts_property_value, wtsdefs/PWRDS_PROPERTY_VALUE, wtsdefs/PWTS_PROPERTY_VALUE, wtsdefs/WRDS_PROPERTY_VALUE, wtsdefs/WTS_PROPERTY_VALUE'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_PROPERTY_VALUE"
+f1_keywords:
+- wtsdefs/WTS_PROPERTY_VALUE
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_PROPERTY_VALUE
+- WTS_PROPERTY_VALUE
 targetos: Windows
 req.typenames: WTS_PROPERTY_VALUE, *PWTS_PROPERTY_VALUE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:adsprop._ADSPROPERROR
 title: ADSPROPERROR (adsprop.h)
-
 description: The ADSPROPERROR structure is used to pass error data to the notification object with the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR message.
 old-location: ad\adsproperror.htm
 tech.root: ad
 ms.assetid: 584cb3e7-3b26-4346-9162-b3e3064ded1a
-
 ms.date: 12/05/2018
-ms.keywords: "*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR"
+ms.keywords: '*PADSPROPERROR, ADSPROPERROR, ADSPROPERROR structure [Active Directory], PADSPROPERROR, PADSPROPERROR structure pointer [Active Directory], _glines_adsproperror, ad.adsproperror, adsprop/ADSPROPERROR, adsprop/PADSPROPERROR'
 ms.topic: struct
-f1_keywords: 
- - "adsprop/ADSPROPERROR"
+f1_keywords:
+- adsprop/ADSPROPERROR
 dev_langs:
- - c++
+- c++
 req.header: adsprop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Adsprop.h
+- Adsprop.h
 api_name:
- - ADSPROPERROR
+- ADSPROPERROR
 targetos: Windows
 req.typenames: ADSPROPERROR, *PADSPROPERROR
 req.redist: 

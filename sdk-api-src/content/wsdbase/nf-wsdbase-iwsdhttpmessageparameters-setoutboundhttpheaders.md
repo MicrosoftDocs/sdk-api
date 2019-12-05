@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetOutboundHttpHeaders
 title: IWSDHttpMessageParameters::SetOutboundHttpHeaders (wsdbase.h)
-
 description: Sets the HTTP headers used for outbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_setoutboundhttpheaders.htm
 tech.root: WsdApi
 ms.assetid: f54f86dc-4b25-4faa-8a37-b241e9ba8c6c
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetOutboundHttpHeaders method, IWSDHttpMessageParameters.SetOutboundHttpHeaders, IWSDHttpMessageParameters::SetOutboundHttpHeaders, SetOutboundHttpHeaders, SetOutboundHttpHeaders method, SetOutboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setoutboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetOutboundHttpHeaders
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.SetOutboundHttpHeaders"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.SetOutboundHttpHeaders
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.SetOutboundHttpHeaders
+- IWSDHttpMessageParameters.SetOutboundHttpHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxAccounts.get_Count
 title: IFaxAccounts::get_Count (faxcomex.h)
-
 description: Holds the number of items in the IFaxAccounts collection.
 old-location: fax\_mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccounts\count.htm
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Fax Service], Count property [Fax Service],IFaxAccounts interface, IFaxAccounts interface [Fax Service],Count property, IFaxAccounts.Count, IFaxAccounts.get_Count, IFaxAccounts::Count, IFaxAccounts::get_Count, _mfax_faxaccounts.count, fax._mfax_faxaccounts_count, fax._mfax_faxaccounts_cpp_mfax_faxaccounts_count_cpp, faxcomex/IFaxAccounts::Count, faxcomex/IFaxAccounts::get_Count, get_Count
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxAccounts.Count"
+f1_keywords:
+- faxcomex/IFaxAccounts.Count
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccounts.Count
- - IFaxAccounts.get_Count
+- IFaxAccounts.Count
+- IFaxAccounts.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

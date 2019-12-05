@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Erase.get_ClientName
 title: IDiscFormat2Erase::get_ClientName (imapi2.h)
-
 description: Retrieves the friendly name of the client.
 old-location: imapi\idiscformat2erase_get_clientname.htm
 tech.root: imapi
 ms.assetid: be52c76d-3c6a-44b7-a948-4d0b02a7a7bb
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Erase interface [IMAPI],get_ClientName method, IDiscFormat2Erase.get_ClientName, IDiscFormat2Erase::get_ClientName, get_ClientName, get_ClientName method [IMAPI], get_ClientName method [IMAPI],IDiscFormat2Erase interface, imapi.idiscformat2erase_get_clientname, imapi2/IDiscFormat2Erase::get_ClientName
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Erase.get_ClientName"
+f1_keywords:
+- imapi2/IDiscFormat2Erase.get_ClientName
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Erase.get_ClientName
+- IDiscFormat2Erase.get_ClientName
 targetos: Windows
 req.typenames: 
 req.redist: 

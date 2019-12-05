@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMCameraControl.Set
 title: IAMCameraControl::Set (strmif.h)
-
 description: The Set method sets a specified property on the camera.
 old-location: dshow\iamcameracontrol_set.htm
 tech.root: DirectShow
 ms.assetid: d896fb5e-a43b-4cb8-a5d1-4ce6e60831be
-
 ms.date: 12/05/2018
 ms.keywords: IAMCameraControl interface [DirectShow],Set method, IAMCameraControl.Set, IAMCameraControl::Set, IAMCameraControlSet, Set, Set method [DirectShow], Set method [DirectShow],IAMCameraControl interface, dshow.iamcameracontrol_set, strmif/IAMCameraControl::Set
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCameraControl.Set"
+f1_keywords:
+- strmif/IAMCameraControl.Set
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCameraControl.Set
+- IAMCameraControl.Set
 targetos: Windows
 req.typenames: 
 req.redist: 

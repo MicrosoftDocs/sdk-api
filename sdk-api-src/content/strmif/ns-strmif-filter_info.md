@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._FilterInfo
 title: FILTER_INFO (strmif.h)
-
 description: The FILTER_INFO structure contains information about a filter.
 old-location: dshow\filter_info.htm
 tech.root: DirectShow
 ms.assetid: 43d1951e-448d-4139-879b-3fe021490d7d
-
 ms.date: 12/05/2018
 ms.keywords: FILTER_INFO, FILTER_INFO structure [DirectShow], FILTER_INFOStructure, dshow.filter_info, strmif/FILTER_INFO
 ms.topic: struct
-f1_keywords: 
- - "strmif/FILTER_INFO"
+f1_keywords:
+- strmif/FILTER_INFO
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - FILTER_INFO
+- FILTER_INFO
 targetos: Windows
 req.typenames: FILTER_INFO
 req.redist: 

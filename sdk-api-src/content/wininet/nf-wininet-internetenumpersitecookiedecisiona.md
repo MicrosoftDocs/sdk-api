@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetEnumPerSiteCookieDecisionA
 title: InternetEnumPerSiteCookieDecisionA function (wininet.h)
-
 description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
 old-location: wininet\internetenumpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c
-
 ms.date: 12/05/2018
 ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecision function [WinINet], InternetEnumPerSiteCookieDecisionA, InternetEnumPerSiteCookieDecisionW, wininet.internetenumpersitecookiedecision, winineti/InternetEnumPerSiteCookieDecision, winineti/InternetEnumPerSiteCookieDecisionA, winineti/InternetEnumPerSiteCookieDecisionW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetEnumPerSiteCookieDecision"
+f1_keywords:
+- wininet/InternetEnumPerSiteCookieDecision
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetEnumPerSiteCookieDecision
- - InternetEnumPerSiteCookieDecisionA
- - InternetEnumPerSiteCookieDecisionW
+- InternetEnumPerSiteCookieDecision
+- InternetEnumPerSiteCookieDecisionA
+- InternetEnumPerSiteCookieDecisionW
 targetos: Windows
 req.typenames: 
 req.redist: 

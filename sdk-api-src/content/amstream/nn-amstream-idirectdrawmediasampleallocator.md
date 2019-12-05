@@ -1,19 +1,17 @@
 ---
 UID: NN:amstream.IDirectDrawMediaSampleAllocator
 title: IDirectDrawMediaSampleAllocator (amstream.h)
-
 description: The IDirectDrawMediaSampleAllocator interface allocates samples that contain DirectDraw surfaces.The Overlay Mixer filter's input pin creates an allocator that implements this interface.
 old-location: dshow\idirectdrawmediasampleallocator.htm
 tech.root: DirectShow
 ms.assetid: 35fd81ce-058a-4caf-b1de-f669be586f33
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawMediaSampleAllocator, IDirectDrawMediaSampleAllocator interface [DirectShow], IDirectDrawMediaSampleAllocator interface [DirectShow],described, IDirectDrawMediaSampleAllocatorInterface, amstream/IDirectDrawMediaSampleAllocator, dshow.idirectdrawmediasampleallocator
 ms.topic: interface
-f1_keywords: 
- - "amstream/IDirectDrawMediaSampleAllocator"
+f1_keywords:
+- amstream/IDirectDrawMediaSampleAllocator
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawMediaSampleAllocator
+- IDirectDrawMediaSampleAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

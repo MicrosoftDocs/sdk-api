@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems
 title: IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems (uiautomationclient.h)
-
 description: Retrieves the column headers associated with a table item or cell.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems.htm
 tech.root: WinAuto
 ms.assetid: ccacd62c-c3f5-46a2-9449-5eb881f213b0
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentColumnHeaderItems, GetCurrentColumnHeaderItems method [Windows Accessibility], GetCurrentColumnHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCurrentColumnHeaderItems method, IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems, IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCurrentColumnHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCurrentColumnHeaderItems
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems"
+f1_keywords:
+- uiautomationclient/IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems
+- IUIAutomationTableItemPattern.GetCurrentColumnHeaderItems
 targetos: Windows
 req.typenames: 
 req.redist: 

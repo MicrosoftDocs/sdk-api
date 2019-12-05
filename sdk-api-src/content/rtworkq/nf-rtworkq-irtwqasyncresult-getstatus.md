@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.IRtwqAsyncResult.GetStatus
 title: IRtwqAsyncResult::GetStatus (rtworkq.h)
-
 description: Returns the status of the asynchronous operation.
 old-location: base\irtwqasyncresult_getstatus.htm
 tech.root: ProcThread
 ms.assetid: 90E965E5-29E6-4FC9-A923-FBBCC12195E2
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method, GetStatus method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetStatus method, IRtwqAsyncResult.GetStatus, IRtwqAsyncResult::GetStatus, base.irtwqasyncresult_getstatus, rtworkq/IRtwqAsyncResult::GetStatus
 ms.topic: method
-f1_keywords: 
- - "rtworkq/IRtwqAsyncResult.GetStatus"
+f1_keywords:
+- rtworkq/IRtwqAsyncResult.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult.GetStatus
+- IRtwqAsyncResult.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

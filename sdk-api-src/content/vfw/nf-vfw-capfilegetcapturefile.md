@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capFileGetCaptureFile
 title: capFileGetCaptureFile macro (vfw.h)
-
 description: The capFileGetCaptureFile macro returns the name of the current capture file. You can use this macro or explicitly call the WM_CAP_FILE_GET_CAPTURE_FILE message.
 old-location: multimedia\capfilegetcapturefile.htm
 tech.root: Multimedia
 ms.assetid: ea18ee1e-a53e-4032-ae9a-86f61365faaf
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile"
+ms.keywords: _win32_capFileGetCaptureFile, capFileGetCaptureFile, capFileGetCaptureFile macro [Windows Multimedia], multimedia.capfilegetcapturefile, vfw/capFileGetCaptureFile
 ms.topic: macro
-f1_keywords: 
- - "vfw/capFileGetCaptureFile"
+f1_keywords:
+- vfw/capFileGetCaptureFile
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capFileGetCaptureFile
+- capFileGetCaptureFile
 targetos: Windows
 req.typenames: 
 req.redist: 

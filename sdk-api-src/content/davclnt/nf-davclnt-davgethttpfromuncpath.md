@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavGetHTTPFromUNCPath
 title: DavGetHTTPFromUNCPath function (davclnt.h)
-
 description: Converts the specified UNC path to an equivalent HTTP path.
 old-location: webdav\davgethttpfromuncpath.htm
 tech.root: WebDAV
 ms.assetid: caa83e54-a029-45aa-9681-26b2be54fea3
-
 ms.date: 12/05/2018
 ms.keywords: DavGetHTTPFromUNCPath, DavGetHTTPFromUNCPath function [WebDAV], davclnt/DavGetHTTPFromUNCPath, webdav.davgethttpfromuncpath
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavGetHTTPFromUNCPath"
+f1_keywords:
+- davclnt/DavGetHTTPFromUNCPath
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - netapi32.dll
- - DavHlpr.dll
- - Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
+- netapi32.dll
+- DavHlpr.dll
+- Ext-MS-Win-Rdr-DavHlpr-L1-1-0.dll
 api_name:
- - DavGetHTTPFromUNCPath
+- DavGetHTTPFromUNCPath
 targetos: Windows
 req.typenames: 
 req.redist: 

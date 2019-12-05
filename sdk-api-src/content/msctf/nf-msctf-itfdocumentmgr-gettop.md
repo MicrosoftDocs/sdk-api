@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDocumentMgr.GetTop
 title: ITfDocumentMgr::GetTop (msctf.h)
-
 description: ITfDocumentMgr::GetTop method
 old-location: tsf\itfdocumentmgr_gettop.htm
 tech.root: TSF
 ms.assetid: 5be7635f-ec27-4892-9cfe-dba31e202510
-
 ms.date: 12/05/2018
 ms.keywords: GetTop, GetTop method [Text Services Framework], GetTop method [Text Services Framework],ITfDocumentMgr interface, ITfDocumentMgr interface [Text Services Framework],GetTop method, ITfDocumentMgr.GetTop, ITfDocumentMgr::GetTop, _tsf_itfdocumentmgr_gettop_ref, msctf/ITfDocumentMgr::GetTop, tsf.itfdocumentmgr_gettop
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDocumentMgr.GetTop"
+f1_keywords:
+- msctf/ITfDocumentMgr.GetTop
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfDocumentMgr.GetTop
+- ITfDocumentMgr.GetTop
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

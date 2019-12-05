@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueCopyA
 title: SetupQueueCopyA function (setupapi.h)
-
 description: The SetupQueueCopy function adds a single file copy operation to a setup file queue.
 old-location: setup\setupqueuecopy.htm
 tech.root: SetupApi
 ms.assetid: c8683438-7a28-4713-8781-45f9bd75b72c
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueCopy, SetupQueueCopy function [Setup API], SetupQueueCopyA, SetupQueueCopyW, _setupapi_setupqueuecopy, setup.setupqueuecopy, setupapi/SetupQueueCopy, setupapi/SetupQueueCopyA, setupapi/SetupQueueCopyW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueCopy"
+f1_keywords:
+- setupapi/SetupQueueCopy
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueCopy
- - SetupQueueCopyA
- - SetupQueueCopyW
+- SetupQueueCopy
+- SetupQueueCopyA
+- SetupQueueCopyW
 targetos: Windows
 req.typenames: 
 req.redist: 

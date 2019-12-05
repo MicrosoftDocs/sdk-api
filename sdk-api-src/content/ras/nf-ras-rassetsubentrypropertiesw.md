@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasSetSubEntryPropertiesW
 title: RasSetSubEntryPropertiesW function (ras.h)
-
 description: The RasSetSubEntryProperties function creates a new subentry or modifies an existing subentry of a specified phone-book entry.
 old-location: rras\rassetsubentryproperties.htm
 tech.root: RRAS
 ms.assetid: 6bbc826b-e296-42d0-89d0-a13d0ce94929
-
 ms.date: 12/05/2018
 ms.keywords: RasSetSubEntryProperties, RasSetSubEntryProperties function [RAS], RasSetSubEntryPropertiesA, RasSetSubEntryPropertiesW, _ras_rassetsubentryproperties, ras/RasSetSubEntryProperties, ras/RasSetSubEntryPropertiesA, ras/RasSetSubEntryPropertiesW, rras.rassetsubentryproperties
 ms.topic: function
-f1_keywords: 
- - "ras/RasSetSubEntryProperties"
+f1_keywords:
+- ras/RasSetSubEntryProperties
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasSetSubEntryProperties
- - RasSetSubEntryPropertiesA
- - RasSetSubEntryPropertiesW
+- RasSetSubEntryProperties
+- RasSetSubEntryPropertiesA
+- RasSetSubEntryPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 

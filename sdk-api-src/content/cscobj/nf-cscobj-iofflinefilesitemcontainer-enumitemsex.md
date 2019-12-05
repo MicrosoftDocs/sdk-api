@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesItemContainer.EnumItemsEx
 title: IOfflineFilesItemContainer::EnumItemsEx (cscobj.h)
-
 description: Returns an enumerator of child items for the cache item implementing this method.
 old-location: of\iofflinefilesitemcontainer_enumitemsex.htm
 tech.root: offlinefiles
 ms.assetid: 001d384f-013d-41c0-a636-40206a33508d
-
 ms.date: 12/05/2018
 ms.keywords: EnumItemsEx, EnumItemsEx method [Offline Files], EnumItemsEx method [Offline Files],IOfflineFilesItemContainer interface, IOfflineFilesItemContainer interface [Offline Files],EnumItemsEx method, IOfflineFilesItemContainer.EnumItemsEx, IOfflineFilesItemContainer::EnumItemsEx, OFFLINEFILES_ENUM_FLAT, OFFLINEFILES_ENUM_FLAT_FILESONLY, OFFLINEFILES_ITEM_QUERY_CONNECTIONSTATE, OFFLINEFILES_ITEM_QUERY_INCLUDETRANSPARENTCACHE, OFFLINEFILES_ITEM_QUERY_LOCALDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEDIRTYBYTECOUNT, OFFLINEFILES_ITEM_QUERY_REMOTEINFO, cscobj/IOfflineFilesItemContainer::EnumItemsEx, of.iofflinefilesitemcontainer_enumitemsex
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesItemContainer.EnumItemsEx"
+f1_keywords:
+- cscobj/IOfflineFilesItemContainer.EnumItemsEx
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesItemContainer.EnumItemsEx
+- IOfflineFilesItemContainer.EnumItemsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

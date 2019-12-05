@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendee
 title: IRDPSRAPIAttendee (rdpencomapi.h)
-
 description: Attendee objects are created as a result of clients connecting to the session and being authenticated. After an attendee object is created, it is automatically added to the attendees list.
 old-location: rdp\irdpsrapiattendee.htm
 tech.root: rdp
 ms.assetid: e9edd9f2-ccbf-45b2-b71c-e30368435a60
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee, IRDPSRAPIAttendee interface [RDP], IRDPSRAPIAttendee interface [RDP],described, rdp.irdpsrapiattendee, rdpencomapi/IRDPSRAPIAttendee
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendee"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendee
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee
+- IRDPSRAPIAttendee
 targetos: Windows
 req.typenames: 
 req.redist: 

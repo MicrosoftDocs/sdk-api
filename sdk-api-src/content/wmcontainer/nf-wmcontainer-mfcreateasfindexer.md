@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateASFIndexer
 title: MFCreateASFIndexer function (wmcontainer.h)
-
 description: Creates the ASF Indexer object.
 old-location: mf\mfcreateasfindexer.htm
 tech.root: medfound
 ms.assetid: df141f8e-10b4-4ac4-8a83-c25764b8f0c6
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFIndexer, MFCreateASFIndexer function [Media Foundation], df141f8e-10b4-4ac4-8a83-c25764b8f0c6, mf.mfcreateasfindexer, wmcontainer/MFCreateASFIndexer
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateASFIndexer"
+f1_keywords:
+- wmcontainer/MFCreateASFIndexer
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateASFIndexer
+- MFCreateASFIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 

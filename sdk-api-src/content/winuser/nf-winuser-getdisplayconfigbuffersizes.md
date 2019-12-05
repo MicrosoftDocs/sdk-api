@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDisplayConfigBufferSizes
 title: GetDisplayConfigBufferSizes function (winuser.h)
-
 description: The GetDisplayConfigBufferSizes function retrieves the size of the buffers that are required to call the QueryDisplayConfig function.
 old-location: display\getdisplayconfigbuffersizes.htm
 tech.root: display
 ms.assetid: 5ec7f521-28b5-4922-a3fc-aa4433de69e0
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Functions_0d604cd6-222b-4e6e-a8aa-60866d3f3ef6.xml, GetDisplayConfigBufferSizes, GetDisplayConfigBufferSizes function [Display Devices], display.getdisplayconfigbuffersizes, winuser/GetDisplayConfigBufferSizes
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDisplayConfigBufferSizes"
+f1_keywords:
+- winuser/GetDisplayConfigBufferSizes
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: User32.lib; OneCoreUAP.lib on Windows 10
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-SysParams-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
+- User32.dll
+- API-MS-Win-NTUser-SysParams-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-SysParams-l1-1-0.dll
 api_name:
- - GetDisplayConfigBufferSizes
+- GetDisplayConfigBufferSizes
 targetos: Windows
 req.typenames: 
 req.redist: 

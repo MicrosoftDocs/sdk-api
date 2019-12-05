@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMEncrypt
 title: DRMEncrypt function (msdrm.h)
-
 description: Encrypts data.
 old-location: rm\drmencrypt.htm
 tech.root: AdRms_Sdk
 ms.assetid: 1de19409-2b14-4ab0-9853-23ee5741a7ae
-
 ms.date: 12/05/2018
 ms.keywords: DRMEncrypt, DRMEncrypt function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMEncrypt, rm.drmencrypt
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMEncrypt"
+f1_keywords:
+- msdrm/DRMEncrypt
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMEncrypt
+- DRMEncrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

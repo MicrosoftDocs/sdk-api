@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptdlg.CertSelectCertificateA
 title: CertSelectCertificateA function (cryptdlg.h)
-
 description: Presents a dialog box that allows the user to select certificates from a set of certificates that match the given criteria.
 old-location: security\certselectcertificate.htm
 tech.root: SecCrypto
 ms.assetid: 8160ea08-c7c0-40f5-8771-6603f768744b
-
 ms.date: 12/05/2018
 ms.keywords: CertSelectCertificate, CertSelectCertificate function [Security], CertSelectCertificateA, CertSelectCertificateW, cryptdlg/CertSelectCertificate, cryptdlg/CertSelectCertificateA, cryptdlg/CertSelectCertificateW, security.certselectcertificate
 ms.topic: function
-f1_keywords: 
- - "cryptdlg/CertSelectCertificate"
+f1_keywords:
+- cryptdlg/CertSelectCertificate
 dev_langs:
- - c++
+- c++
 req.header: cryptdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CryptDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CryptDlg.dll
+- CryptDlg.dll
 api_name:
- - CertSelectCertificate
- - CertSelectCertificateA
- - CertSelectCertificateW
+- CertSelectCertificate
+- CertSelectCertificateA
+- CertSelectCertificateW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate
 title: IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate (segment.h)
-
 description: Indicates a change in the AVDecCommonMeanBitRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommonmeanbitrate.htm
 tech.root: mstv
 ms.assetid: ec5749d5-1ee0-4b3e-9e5d-cf07a62991ae
-
 ms.date: 12/05/2018
 ms.keywords: AVDecCommonMeanBitRate, AVDecCommonMeanBitRate method [Microsoft TV Technologies], AVDecCommonMeanBitRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonMeanBitRate method, IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate, IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate, mstv.imsvidaudiorendererevent2_avdeccommonmeanbitrate, segment/IMSVidAudioRendererEvent2::AVDecCommonMeanBitRate
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate"
+f1_keywords:
+- segment/IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate
+- IMSVidAudioRendererEvent2.AVDecCommonMeanBitRate
 targetos: Windows
 req.typenames: 
 req.redist: 

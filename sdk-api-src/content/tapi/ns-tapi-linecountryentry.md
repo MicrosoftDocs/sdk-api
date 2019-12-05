@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linecountryentry_tag
 title: LINECOUNTRYENTRY (tapi.h)
-
 description: Provides the data for a single country/region entry.
 old-location: tapi2\linecountryentry_str.htm
 tech.root: Tapi
 ms.assetid: 627ff743-f90b-4bcb-b646-cdbc9f768ad2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINECOUNTRYENTRY, LINECOUNTRYENTRY, LINECOUNTRYENTRY structure [TAPI 2.2], LPLINECOUNTRYENTRY, LPLINECOUNTRYENTRY structure pointer [TAPI 2.2], _tapi2_linecountryentry_str, tapi/LINECOUNTRYENTRY, tapi/LPLINECOUNTRYENTRY, tapi2.linecountryentry_str"
+ms.keywords: '*LPLINECOUNTRYENTRY, LINECOUNTRYENTRY, LINECOUNTRYENTRY structure [TAPI 2.2], LPLINECOUNTRYENTRY, LPLINECOUNTRYENTRY structure pointer [TAPI 2.2], _tapi2_linecountryentry_str, tapi/LINECOUNTRYENTRY, tapi/LPLINECOUNTRYENTRY, tapi2.linecountryentry_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINECOUNTRYENTRY"
+f1_keywords:
+- tapi/LINECOUNTRYENTRY
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINECOUNTRYENTRY
+- LINECOUNTRYENTRY
 targetos: Windows
 req.typenames: LINECOUNTRYENTRY, *LPLINECOUNTRYENTRY
 req.redist: 

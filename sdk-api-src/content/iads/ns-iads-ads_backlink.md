@@ -1,19 +1,17 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0008
 title: ADS_BACKLINK (iads.h)
-
 description: The ADS_BACKLINK structure is an ADSI representation of the Back Link attribute syntax.
 old-location: adsi\ads_backlink.htm
 tech.root: adsi
 ms.assetid: 1352d304-b984-43ab-8c47-5108f35ae193
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_BACKLINK, ADS_BACKLINK, ADS_BACKLINK structure [ADSI], PADS_BACKLINK, PADS_BACKLINK structure pointer [ADSI], _ds_ads_backlink, adsi.ads__backlink, adsi.ads_backlink, iads/ADS_BACKLINK, iads/PADS_BACKLINK"
+ms.keywords: '*PADS_BACKLINK, ADS_BACKLINK, ADS_BACKLINK structure [ADSI], PADS_BACKLINK, PADS_BACKLINK structure pointer [ADSI], _ds_ads_backlink, adsi.ads__backlink, adsi.ads_backlink, iads/ADS_BACKLINK, iads/PADS_BACKLINK'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_BACKLINK"
+f1_keywords:
+- iads/ADS_BACKLINK
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_BACKLINK
+- ADS_BACKLINK
 targetos: Windows
 req.typenames: ADS_BACKLINK, *PADS_BACKLINK
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT.GetUniqueIdentity
 title: IEnhancedStorageACT::GetUniqueIdentity (ehstorapi.h)
-
 description: Retrieves the unique identity of the Addressable Command Targer (ACT).
 old-location: enstor\ienhancedstorageact_getuniqueidentity.htm
 tech.root: enstor
 ms.assetid: 0f8d33af-a771-4cbd-9740-a72fbb7e9b42
-
 ms.date: 12/05/2018
 ms.keywords: GetUniqueIdentity, GetUniqueIdentity method [Enhanced Storage], GetUniqueIdentity method [Enhanced Storage],IEnhancedStorageACT interface, IEnhancedStorageACT interface [Enhanced Storage],GetUniqueIdentity method, IEnhancedStorageACT.GetUniqueIdentity, IEnhancedStorageACT::GetUniqueIdentity, ehstorapi/IEnhancedStorageACT::GetUniqueIdentity, enstor.ienhancedstorageact_getuniqueidentity
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageACT.GetUniqueIdentity"
+f1_keywords:
+- ehstorapi/IEnhancedStorageACT.GetUniqueIdentity
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageACT.GetUniqueIdentity
+- IEnhancedStorageACT.GetUniqueIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICImageDecompress
 title: ICImageDecompress function (vfw.h)
-
 description: The ICImageDecompress function decompresses an image without using initialization functions.
 old-location: multimedia\icimagedecompress.htm
 tech.root: Multimedia
 ms.assetid: 8d27f0bd-9db5-482d-9000-75ad04762a67
-
 ms.date: 12/05/2018
 ms.keywords: ICImageDecompress, ICImageDecompress function [Windows Multimedia], _win32_ICImageDecompress, multimedia.icimagedecompress, vfw/ICImageDecompress
 ms.topic: function
-f1_keywords: 
- - "vfw/ICImageDecompress"
+f1_keywords:
+- vfw/ICImageDecompress
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICImageDecompress
+- ICImageDecompress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMTTDISPINFOA
 title: NMTTDISPINFOA (commctrl.h)
-
 description: Contains information used in handling the TTN_GETDISPINFO notification code. This structure supersedes the TOOLTIPTEXT structure.
 old-location: controls\NMTTDISPINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tooltiptext.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTTDISPINFOA, LPNMTTDISPINFO, LPNMTTDISPINFO structure pointer [Windows Controls], NMTTDISPINFO, NMTTDISPINFO structure [Windows Controls], NMTTDISPINFOA, NMTTDISPINFOW, TTF_DI_SETITEM, TTF_IDISHWND, TTF_RTLREADING, _win32_NMTTDISPINFO, _win32_NMTTDISPINFO_cpp, commctrl/LPNMTTDISPINFO, commctrl/NMTTDISPINFO, commctrl/NMTTDISPINFOA, commctrl/NMTTDISPINFOW, controls.NMTTDISPINFO, controls._win32_NMTTDISPINFO'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTTDISPINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

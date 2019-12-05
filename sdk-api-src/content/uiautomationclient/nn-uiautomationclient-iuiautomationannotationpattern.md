@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationAnnotationPattern
 title: IUIAutomationAnnotationPattern (uiautomationclient.h)
-
 description: Provides access to the properties of an annotation in a document.
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern.htm
 tech.root: WinAuto
 ms.assetid: 596FC65A-32C8-47F6-A23F-7B02939E26E3
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationAnnotationPattern, IUIAutomationAnnotationPattern interface [Windows Accessibility], IUIAutomationAnnotationPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationAnnotationPattern, winauto.uiauto_IUIAutomationAnnotationPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationAnnotationPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationAnnotationPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationAnnotationPattern
+- IUIAutomationAnnotationPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

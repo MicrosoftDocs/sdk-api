@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsDisplay
 title: MetafileHeader::IsDisplay (gdiplusmetaheader.h)
-
 description: The MetafileHeader::IsDisplay method determines whether the associated metafile was recorded against a video display device context.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsDisplay_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isdisplay.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsDisplay, IsDisplay method [GDI+], IsDisplay method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsDisplay method, MetafileHeader.IsDisplay, MetafileHeader::IsDisplay, _gdiplus_CLASS_MetafileHeader_IsDisplay_, gdiplus._gdiplus_CLASS_MetafileHeader_IsDisplay_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader.IsDisplay"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader.IsDisplay
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - MetafileHeader.IsDisplay
+- MetafileHeader.IsDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

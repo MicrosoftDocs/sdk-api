@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.DeleteItemsForUser
 title: IOfflineFilesCache::DeleteItemsForUser (cscobj.h)
-
 description: Deletes a user's files and directories from the local cache.
 old-location: of\iofflinefilescache_deleteitemsforuser.htm
 tech.root: offlinefiles
 ms.assetid: a187fd6b-0717-4663-b460-df96876cd9c3
-
 ms.date: 12/05/2018
 ms.keywords: DeleteItemsForUser, DeleteItemsForUser method [Offline Files], DeleteItemsForUser method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],DeleteItemsForUser method, IOfflineFilesCache.DeleteItemsForUser, IOfflineFilesCache::DeleteItemsForUser, OFFLINEFILES_DELETE_FLAG_ADMIN, OFFLINEFILES_DELETE_FLAG_DELMODIFIED, OFFLINEFILES_DELETE_FLAG_NOAUTOCACHED, OFFLINEFILES_DELETE_FLAG_NOPINNED, cscobj/IOfflineFilesCache::DeleteItemsForUser, of.iofflinefilescache_deleteitemsforuser
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.DeleteItemsForUser"
+f1_keywords:
+- cscobj/IOfflineFilesCache.DeleteItemsForUser
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.DeleteItemsForUser
+- IOfflineFilesCache.DeleteItemsForUser
 targetos: Windows
 req.typenames: 
 req.redist: 

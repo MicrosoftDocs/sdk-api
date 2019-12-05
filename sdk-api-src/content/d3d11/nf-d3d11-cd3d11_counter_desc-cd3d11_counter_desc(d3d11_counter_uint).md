@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC(D3D11_COUNTER,UINT)
 title: CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC(D3D11_COUNTER,UINT) (d3d11.h)
-
 description: Instantiates a new instance of a CD3D11_COUNTER_DESC structure that is initialized with info for a counter.
 old-location: direct3d11\cd3d11_counter_desc_cd3d11_counter_desc_d3d11_counter_desc_values_.htm
 tech.root: direct3d11
 ms.assetid: 0F46FE3C-724D-4863-BE6B-48275447F819
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC constructor [Direct3D 11], CD3D11_COUNTER_DESC constructor [Direct3D 11],CD3D11_COUNTER_DESC interface, CD3D11_COUNTER_DESC interface [Direct3D 11],CD3D11_COUNTER_DESC constructor, CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC(D3D11_COUNTER,UINT), CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC, CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC(D3D11_COUNTER,UINT), d3d11/CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC, direct3d11.cd3d11_counter_desc_cd3d11_counter_desc_d3d11_counter_desc_values_
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC"
+f1_keywords:
+- d3d11/CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC
+- CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

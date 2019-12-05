@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMediaType
 title: DeleteNtmsMediaType function (ntmsapi.h)
-
 description: The DeleteNtmsMediaType function deletes the specified media type relation from the specified library, provided that the library does not contain any physical media objects of the specified media type.
 old-location: fs\deletentmsmediatype.htm
 tech.root: Rsm
 ms.assetid: c2a2bc8a-4230-44c4-b6bc-4b4e2a9fece1
-
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsMediaType, DeleteNtmsMediaType function [Files], _zaw_deletentmsmediatype, base.deletentmsmediatype, fs.deletentmsmediatype, ntmsapi/DeleteNtmsMediaType
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DeleteNtmsMediaType"
+f1_keywords:
+- ntmsapi/DeleteNtmsMediaType
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DeleteNtmsMediaType
+- DeleteNtmsMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

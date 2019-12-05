@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetEnumType
 title: IPropertyEnumType::GetEnumType (propsys.h)
-
 description: Gets an enumeration type from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetEnumType.htm
 tech.root: properties
 ms.assetid: f73ad824-5605-4c3c-b623-debdebdf5780
-
 ms.date: 12/05/2018
 ms.keywords: GetEnumType, GetEnumType method [Windows Properties], GetEnumType method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetEnumType method, IPropertyEnumType.GetEnumType, IPropertyEnumType::GetEnumType, PET_DEFAULTVALUE, PET_DISCRETEVALUE, PET_ENDRANGE, PET_RANGEDVALUE, _shell_IPropertyEnumType_GetEnumType, properties.IPropertyEnumType_GetEnumType, propsys/IPropertyEnumType::GetEnumType, shell.IPropertyEnumType_GetEnumType
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyEnumType.GetEnumType"
+f1_keywords:
+- propsys/IPropertyEnumType.GetEnumType
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyEnumType.GetEnumType
+- IPropertyEnumType.GetEnumType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetPreviousBackupStamp
 title: IVssBackupComponents::SetPreviousBackupStamp (vsbackup.h)
-
 description: The SetPreviousBackupStamp method sets the backup stamp of an earlier backup operation, upon which a differential or incremental backup operation will be based.
 old-location: base\ivssbackupcomponents_setpreviousbackupstamp.htm
 tech.root: VSS
 ms.assetid: cc1c75bf-b281-4741-9273-f7264532860f
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetPreviousBackupStamp method, IVssBackupComponents.SetPreviousBackupStamp, IVssBackupComponents::SetPreviousBackupStamp, SetPreviousBackupStamp, SetPreviousBackupStamp method [VSS], SetPreviousBackupStamp method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setpreviousbackupstamp, base.ivssbackupcomponents_setpreviousbackupstamp, vsbackup/IVssBackupComponents::SetPreviousBackupStamp
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.SetPreviousBackupStamp"
+f1_keywords:
+- vsbackup/IVssBackupComponents.SetPreviousBackupStamp
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.SetPreviousBackupStamp
+- IVssBackupComponents.SetPreviousBackupStamp
 targetos: Windows
 req.typenames: 
 req.redist: 

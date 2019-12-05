@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathSkipRootW
 title: PathSkipRootW function (shlwapi.h)
-
 description: Retrieves a pointer to the first character in a path following the drive letter or Universal Naming Convention (UNC) server/share path elements.
 old-location: shell\PathSkipRoot.htm
 tech.root: shell
 ms.assetid: 528a3953-26d7-4fff-be31-9c9788d429ab
-
 ms.date: 12/05/2018
 ms.keywords: PathSkipRoot, PathSkipRoot function [Windows Shell], PathSkipRootA, PathSkipRootW, _win32_PathSkipRoot, shell.PathSkipRoot, shlwapi/PathSkipRoot, shlwapi/PathSkipRootA, shlwapi/PathSkipRootW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathSkipRoot"
+f1_keywords:
+- shlwapi/PathSkipRoot
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathSkipRoot
- - PathSkipRootA
- - PathSkipRootW
+- PathSkipRoot
+- PathSkipRootA
+- PathSkipRootW
 targetos: Windows
 req.typenames: 
 req.redist: 

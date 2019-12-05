@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetByte
 title: CInstance::GetByte (instance.h)
-
 description: The GetByte method retrieves a BYTE-compatible property.
 old-location: wmi\cinstance_getbyte.htm
 tech.root: WmiSdk
 ms.assetid: a84b2de4-453d-4f69-8bac-df361180bc10
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetByte method, CInstance.GetByte, CInstance::GetByte, GetByte, GetByte method [Windows Management Instrumentation], GetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbyte, instance/CInstance::GetByte, wmi.cinstance_getbyte
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetByte"
+f1_keywords:
+- instance/CInstance.GetByte
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetByte
+- CInstance.GetByte
 targetos: Windows
 req.typenames: 
 req.redist: 

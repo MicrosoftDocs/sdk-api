@@ -1,7 +1,6 @@
 ---
 UID: NA:windows.ui.composition.interop
 ms.assetid: aad4cae5-af2c-3480-927d-f545cb58efe7
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

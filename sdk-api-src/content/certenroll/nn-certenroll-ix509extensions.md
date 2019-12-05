@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509Extensions
 title: IX509Extensions (certenroll.h)
-
 description: The IX509Extensions interface defines the following methods and properties to manage a collection of IX509Extension objects.
 old-location: security\ix509extensions.htm
 tech.root: seccertenroll
 ms.assetid: d6bdbcff-1d6b-4813-8269-b75061a42de8
-
 ms.date: 12/05/2018
 ms.keywords: IX509Extensions, IX509Extensions interface [Security], IX509Extensions interface [Security],described, certenroll/IX509Extensions, security.ix509extensions
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509Extensions"
+f1_keywords:
+- certenroll/IX509Extensions
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extensions
+- IX509Extensions
 targetos: Windows
 req.typenames: 
 req.redist: 

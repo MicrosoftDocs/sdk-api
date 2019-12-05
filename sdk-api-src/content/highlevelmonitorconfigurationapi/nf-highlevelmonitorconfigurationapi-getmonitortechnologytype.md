@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorTechnologyType
 title: GetMonitorTechnologyType function (highlevelmonitorconfigurationapi.h)
-
 description: Retrieves the type of technology used by a monitor.
 old-location: monitor\getmonitortechnologytype.htm
 tech.root: Monitor
 ms.assetid: da3a5f64-2638-464b-973b-33cbe4cc64e7
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorTechnologyType, GetMonitorTechnologyType function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorTechnologyType, monitor.getmonitortechnologytype
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/GetMonitorTechnologyType"
+f1_keywords:
+- highlevelmonitorconfigurationapi/GetMonitorTechnologyType
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetMonitorTechnologyType
+- GetMonitorTechnologyType
 targetos: Windows
 req.typenames: 
 req.redist: 

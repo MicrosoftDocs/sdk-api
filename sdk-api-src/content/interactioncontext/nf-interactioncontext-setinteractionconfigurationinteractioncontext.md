@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.SetInteractionConfigurationInteractionContext
 title: SetInteractionConfigurationInteractionContext function (interactioncontext.h)
-
 description: Configures the Interaction Context object to process the specified manipulations.
 old-location: input_intcontext\setinteractionconfigurationinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e792e7bc-1c7f-4fa1-810d-97391cbcf797
-
 ms.date: 12/05/2018
 ms.keywords: SetInteractionConfigurationInteractionContext, SetInteractionConfigurationInteractionContext function, input_intcontext.setinteractionconfigurationinteractioncontext, interactioncontext.setinteractionconfigurationinteractioncontext, interactioncontext/SetInteractionConfigurationInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/SetInteractionConfigurationInteractionContext"
+f1_keywords:
+- interactioncontext/SetInteractionConfigurationInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll; Edgehtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - edgehtml.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- edgehtml.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - SetInteractionConfigurationInteractionContext
+- SetInteractionConfigurationInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

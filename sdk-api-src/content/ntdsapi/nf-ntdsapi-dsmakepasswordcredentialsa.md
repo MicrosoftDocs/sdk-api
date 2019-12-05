@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsMakePasswordCredentialsA
 title: DsMakePasswordCredentialsA function (ntdsapi.h)
-
 description: Constructs a credential handle suitable for use with the DsBindWithCred function.
 old-location: ad\dsmakepasswordcredentials.htm
 tech.root: ad
 ms.assetid: 51aba58b-07c5-4e6d-8568-fa6f1a963d8e
-
 ms.date: 12/05/2018
 ms.keywords: DsMakePasswordCredentials, DsMakePasswordCredentials function [Active Directory], DsMakePasswordCredentialsA, DsMakePasswordCredentialsW, _glines_dsmakepasswordcredentials, ad.dsmakepasswordcredentials, ntdsapi/DsMakePasswordCredentials, ntdsapi/DsMakePasswordCredentialsA, ntdsapi/DsMakePasswordCredentialsW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsMakePasswordCredentials"
+f1_keywords:
+- ntdsapi/DsMakePasswordCredentials
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- Ntdsapi.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsMakePasswordCredentials
- - DsMakePasswordCredentialsA
- - DsMakePasswordCredentialsW
+- DsMakePasswordCredentials
+- DsMakePasswordCredentialsA
+- DsMakePasswordCredentialsW
 targetos: Windows
 req.typenames: 
 req.redist: 

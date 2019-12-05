@@ -1,19 +1,17 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetNotifyCmdLine
 title: IBackgroundCopyJob2::SetNotifyCmdLine
-
 description: Specifies a program to execute if the job enters the BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSFERRED state. BITS executes the program in the context of the user who called this method.
 old-location: bits\ibackgroundcopyjob2_setnotifycmdline.htm
 tech.root: Bits
 ms.assetid: 61b99d01-ca0f-4a89-b7ca-77d23c21a9ad
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob2 interface [BITS],SetNotifyCmdLine method, IBackgroundCopyJob2.SetNotifyCmdLine, IBackgroundCopyJob2::SetNotifyCmdLine, SetNotifyCmdLine, SetNotifyCmdLine method [BITS], SetNotifyCmdLine method [BITS],IBackgroundCopyJob2 interface, _drz_ibackgroundcopyjob2_setnotifycmdline, bits.ibackgroundcopyjob2_setnotifycmdline, bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.SetNotifyCmdLine"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.SetNotifyCmdLine
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.SetNotifyCmdLine
+- IBackgroundCopyJob2.SetNotifyCmdLine
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetMovInstructionCount
 title: ID3D12ShaderReflection::GetMovInstructionCount (d3d12shader.h)
-
 description: Gets the number of Mov instructions.
 old-location: direct3d12\id3d12shaderreflection_getmovinstructioncount.htm
 tech.root: direct3d12
 ms.assetid: D8E6FFEE-2384-4B22-A12A-9527C4EEE26B
-
 ms.date: 12/05/2018
 ms.keywords: GetMovInstructionCount, GetMovInstructionCount method, GetMovInstructionCount method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetMovInstructionCount method, ID3D12ShaderReflection.GetMovInstructionCount, ID3D12ShaderReflection::GetMovInstructionCount, d3d12shader/ID3D12ShaderReflection::GetMovInstructionCount, direct3d12.id3d12shaderreflection_getmovinstructioncount
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetMovInstructionCount"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetMovInstructionCount
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetMovInstructionCount
+- ID3D12ShaderReflection.GetMovInstructionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

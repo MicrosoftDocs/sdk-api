@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.IsDiscontinuity
 title: IAMMediaTypeSample::IsDiscontinuity (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The IsDiscontinuity method determines if this sample represents a discontinuity in the data stream.
 old-location: dshow\iammediatypesample_isdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 857729d9-ef46-461b-a3b5-bce9acb84538
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],IsDiscontinuity method, IAMMediaTypeSample.IsDiscontinuity, IAMMediaTypeSample::IsDiscontinuity, IAMMediaTypeSampleIsDiscontinuity, IsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::IsDiscontinuity, dshow.iammediatypesample_isdiscontinuity
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.IsDiscontinuity"
+f1_keywords:
+- amstream/IAMMediaTypeSample.IsDiscontinuity
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.IsDiscontinuity
+- IAMMediaTypeSample.IsDiscontinuity
 targetos: Windows
 req.typenames: 
 req.redist: 

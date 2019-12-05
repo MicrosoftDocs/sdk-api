@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IScheduleCollection
 title: IScheduleCollection (pla.h)
-
 description: Manages a collection of Schedule objects.To get this interface, access the IDataCollectorSet::Schedules property.
 old-location: pla\ischedulecollection.htm
 tech.root: PLA
 ms.assetid: 40b4a77c-5ab4-4443-801c-2e425b6ca1bc
-
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection, IScheduleCollection interface [PLA], IScheduleCollection interface [PLA],described, base.ischedulecollection, pla.ischedulecollection, pla/IScheduleCollection
 ms.topic: interface
-f1_keywords: 
- - "pla/IScheduleCollection"
+f1_keywords:
+- pla/IScheduleCollection
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IScheduleCollection
+- IScheduleCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

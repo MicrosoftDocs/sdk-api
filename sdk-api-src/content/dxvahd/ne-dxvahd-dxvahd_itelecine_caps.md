@@ -1,19 +1,17 @@
 ---
 UID: NE:dxvahd._DXVAHD_ITELECINE_CAPS
 title: DXVAHD_ITELECINE_CAPS (dxvahd.h)
-
 description: Specifies the inverse telecine (IVTC) capabilities of a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
 old-location: mf\dxvahd_itelecine_caps.htm
 tech.root: medfound
 ms.assetid: bf3e0d24-2671-4e79-9cfe-d776d8e5fb47
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_ITELECINE_CAPS, DXVAHD_ITELECINE_CAPS enumeration [Media Foundation], DXVAHD_ITELECINE_CAPS_22, DXVAHD_ITELECINE_CAPS_222222222223, DXVAHD_ITELECINE_CAPS_2224, DXVAHD_ITELECINE_CAPS_2332, DXVAHD_ITELECINE_CAPS_32, DXVAHD_ITELECINE_CAPS_32322, DXVAHD_ITELECINE_CAPS_55, DXVAHD_ITELECINE_CAPS_64, DXVAHD_ITELECINE_CAPS_87, DXVAHD_ITELECINE_CAPS_OTHER, dxvahd/DXVAHD_ITELECINE_CAPS, dxvahd/DXVAHD_ITELECINE_CAPS_22, dxvahd/DXVAHD_ITELECINE_CAPS_222222222223, dxvahd/DXVAHD_ITELECINE_CAPS_2224, dxvahd/DXVAHD_ITELECINE_CAPS_2332, dxvahd/DXVAHD_ITELECINE_CAPS_32, dxvahd/DXVAHD_ITELECINE_CAPS_32322, dxvahd/DXVAHD_ITELECINE_CAPS_55, dxvahd/DXVAHD_ITELECINE_CAPS_64, dxvahd/DXVAHD_ITELECINE_CAPS_87, dxvahd/DXVAHD_ITELECINE_CAPS_OTHER, mf.dxvahd_itelecine_caps
 ms.topic: enum
-f1_keywords: 
- - "dxvahd/DXVAHD_ITELECINE_CAPS"
+f1_keywords:
+- dxvahd/DXVAHD_ITELECINE_CAPS
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_ITELECINE_CAPS
+- DXVAHD_ITELECINE_CAPS
 targetos: Windows
 req.typenames: DXVAHD_ITELECINE_CAPS
 req.redist: 

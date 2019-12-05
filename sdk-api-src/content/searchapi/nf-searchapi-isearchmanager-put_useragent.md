@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager.put_UserAgent
 title: ISearchManager::put_UserAgent (searchapi.h)
-
 description: Sets the user agent string that a user agent passes to website and services to identify itself.
 old-location: search\_search_ISearchManager_put_UserAgent.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\put_useragent.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchManager interface [search],put_UserAgent method, ISearchManager.put_UserAgent, ISearchManager::put_UserAgent, _search_ISearchManager_put_UserAgent, put_UserAgent, put_UserAgent method [search], put_UserAgent method [search],ISearchManager interface, search._search_ISearchManager_put_UserAgent, searchapi/ISearchManager::put_UserAgent
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager.put_UserAgent"
+f1_keywords:
+- searchapi/ISearchManager.put_UserAgent
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchManager.put_UserAgent
+- ISearchManager.put_UserAgent
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

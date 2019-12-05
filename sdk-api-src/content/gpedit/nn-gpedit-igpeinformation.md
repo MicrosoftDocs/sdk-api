@@ -1,19 +1,17 @@
 ---
 UID: NN:gpedit.IGPEInformation
 title: IGPEInformation (gpedit.h)
-
 description: The IGPEInformation interface provides methods for Microsoft Management Console (MMC) extension snap-ins to communicate with the Group Policy Object Editor. For more information about MMC, see the Microsoft Management Console.
 old-location: policy\igpeinformation.htm
 tech.root: Policy
 ms.assetid: 3b3e7793-fc69-43a3-a2b1-0aa36748a19b
-
 ms.date: 12/05/2018
 ms.keywords: IGPEInformation, IGPEInformation interface [Group Policy], IGPEInformation interface [Group Policy],described, _win32_igpeinformation, gpedit/IGPEInformation, policy.igpeinformation
 ms.topic: interface
-f1_keywords: 
- - "gpedit/IGPEInformation"
+f1_keywords:
+- gpedit/IGPEInformation
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGPEInformation
+- IGPEInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

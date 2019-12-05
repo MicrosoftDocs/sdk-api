@@ -1,19 +1,17 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0009
 title: WTSSBX_SESSION_INFO (tssbx.h)
-
 description: Contains information about sessions that are available to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\wtssbx_session_info.htm
 tech.root: TermServ
 ms.assetid: d0c142a9-2495-46e6-b53b-0c415bddb0b2
-
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_SESSION_INFO, WTSSBX_SESSION_INFO structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0009, termserv.wtssbx_session_info, tssbx/WTSSBX_SESSION_INFO
 ms.topic: struct
-f1_keywords: 
- - "tssbx/WTSSBX_SESSION_INFO"
+f1_keywords:
+- tssbx/WTSSBX_SESSION_INFO
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - WTSSBX_SESSION_INFO
+- WTSSBX_SESSION_INFO
 targetos: Windows
 req.typenames: WTSSBX_SESSION_INFO
 req.redist: 

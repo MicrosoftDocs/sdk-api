@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._SPACTION
 title: SPACTION (shobjidl_core.h)
-
 description: Describes an action being performed that requires progress to be shown to the user using an IActionProgress interface.
 old-location: shell\SPACTION.htm
 tech.root: shell
 ms.assetid: fc5a0f96-e8c2-483f-86b0-d8c870a9f77a
-
 ms.date: 12/05/2018
 ms.keywords: SPACTION, SPACTION enumeration [Windows Shell], SPACTION_APPLYINGATTRIBS, SPACTION_CALCULATING, SPACTION_COPYING, SPACTION_COPY_MOVING, SPACTION_DELETING, SPACTION_DOWNLOADING, SPACTION_FORMATTING, SPACTION_MOVING, SPACTION_NONE, SPACTION_RECYCLING, SPACTION_RENAMING, SPACTION_SEARCHING_FILES, SPACTION_SEARCHING_INTERNET, SPACTION_UPLOADING, shell.SPACTION, shell_SPACTION, shobjidl_core/SPACTION, shobjidl_core/SPACTION_APPLYINGATTRIBS, shobjidl_core/SPACTION_CALCULATING, shobjidl_core/SPACTION_COPYING, shobjidl_core/SPACTION_COPY_MOVING, shobjidl_core/SPACTION_DELETING, shobjidl_core/SPACTION_DOWNLOADING, shobjidl_core/SPACTION_FORMATTING, shobjidl_core/SPACTION_MOVING, shobjidl_core/SPACTION_NONE, shobjidl_core/SPACTION_RECYCLING, shobjidl_core/SPACTION_RENAMING, shobjidl_core/SPACTION_SEARCHING_FILES, shobjidl_core/SPACTION_SEARCHING_INTERNET, shobjidl_core/SPACTION_UPLOADING
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/SPACTION"
+f1_keywords:
+- shobjidl_core/SPACTION
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SPACTION
+- SPACTION
 targetos: Windows
 req.typenames: SPACTION
 req.redist: 

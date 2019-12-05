@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificate.get_SignatureInformation
 title: ISignerCertificate::get_SignatureInformation (certenroll.h)
-
 description: Retrieves an IX509SignatureInformation object that contains information about the certificate signature.
 old-location: security\isignercertificate_signatureinformation_property.htm
 tech.root: seccertenroll
 ms.assetid: e870e17f-42e4-4548-b876-f5e0556bff0e
-
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],SignatureInformation property, ISignerCertificate.SignatureInformation, ISignerCertificate.get_SignatureInformation, ISignerCertificate::SignatureInformation, ISignerCertificate::get_SignatureInformation, SignatureInformation property [Security], SignatureInformation property [Security],ISignerCertificate interface, certenroll/ISignerCertificate::SignatureInformation, certenroll/ISignerCertificate::get_SignatureInformation, get_SignatureInformation, security.isignercertificate_signatureinformation_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificate.SignatureInformation"
+f1_keywords:
+- certenroll/ISignerCertificate.SignatureInformation
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificate.SignatureInformation
- - ISignerCertificate.get_SignatureInformation
+- ISignerCertificate.SignatureInformation
+- ISignerCertificate.get_SignatureInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

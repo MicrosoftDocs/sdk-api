@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.ITrayDeskBand
 title: ITrayDeskBand (shobjidl.h)
-
 description: Exposes methods that show, hide, and query deskbands.
 old-location: shell\ITrayDeskBand.htm
 tech.root: shell
 ms.assetid: 4542bd20-b7ca-4ab9-9c25-9f6eeabd7c2e
-
 ms.date: 12/05/2018
 ms.keywords: ITrayDeskBand, ITrayDeskBand interface [Windows Shell], ITrayDeskBand interface [Windows Shell],described, _shell_ITrayDeskBand, shell.ITrayDeskBand, shobjidl/ITrayDeskBand
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/ITrayDeskBand"
+f1_keywords:
+- shobjidl/ITrayDeskBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - ITrayDeskBand
+- ITrayDeskBand
 targetos: Windows
 req.typenames: 
 req.redist: 

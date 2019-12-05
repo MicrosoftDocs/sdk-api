@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcodecdsp.MIC_ARRAY_MODE
 title: MIC_ARRAY_MODE (wmcodecdsp.h)
-
 description: Specifies how the voice capture DSP performs microphone array processing. This enumeration is used with the MFPKEY_WMAAECMA_FEATR_MICARR_MODE property.
 old-location: mf\mic_array_modeenumeration.htm
 tech.root: medfound
 ms.assetid: 95335d2e-94f9-4e8d-b578-a4d08055bb56
-
 ms.date: 12/05/2018
 ms.keywords: MICARRAY_EXTERN_BEAM, MICARRAY_FIXED_BEAM, MICARRAY_SIMPLE_SUM, MICARRAY_SINGLE_BEAM, MICARRAY_SINGLE_CHAN, MIC_ARRAY_MODE, MIC_ARRAY_MODE enumeration [Media Foundation], codecapi.mic_array_modeenumeration, mf.mic_array_modeenumeration, wmcodecdsp/MICARRAY_EXTERN_BEAM, wmcodecdsp/MICARRAY_FIXED_BEAM, wmcodecdsp/MICARRAY_SIMPLE_SUM, wmcodecdsp/MICARRAY_SINGLE_BEAM, wmcodecdsp/MICARRAY_SINGLE_CHAN, wmcodecdsp/MIC_ARRAY_MODE
 ms.topic: enum
-f1_keywords: 
- - "wmcodecdsp/MIC_ARRAY_MODE"
+f1_keywords:
+- wmcodecdsp/MIC_ARRAY_MODE
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - MIC_ARRAY_MODE
+- MIC_ARRAY_MODE
 targetos: Windows
 req.typenames: MIC_ARRAY_MODE
 req.redist: 

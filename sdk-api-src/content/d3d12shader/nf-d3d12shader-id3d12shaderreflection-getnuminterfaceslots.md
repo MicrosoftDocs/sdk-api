@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetNumInterfaceSlots
 title: ID3D12ShaderReflection::GetNumInterfaceSlots (d3d12shader.h)
-
 description: Gets the number of interface slots in a shader.
 old-location: direct3d12\id3d12shaderreflection_getnuminterfaceslots.htm
 tech.root: direct3d12
 ms.assetid: 9D81990B-D5C3-495F-A0AC-E43712481093
-
 ms.date: 12/05/2018
 ms.keywords: GetNumInterfaceSlots, GetNumInterfaceSlots method, GetNumInterfaceSlots method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetNumInterfaceSlots method, ID3D12ShaderReflection.GetNumInterfaceSlots, ID3D12ShaderReflection::GetNumInterfaceSlots, d3d12shader/ID3D12ShaderReflection::GetNumInterfaceSlots, direct3d12.id3d12shaderreflection_getnuminterfaceslots
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetNumInterfaceSlots"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetNumInterfaceSlots
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetNumInterfaceSlots
+- ID3D12ShaderReflection.GetNumInterfaceSlots
 targetos: Windows
 req.typenames: 
 req.redist: 

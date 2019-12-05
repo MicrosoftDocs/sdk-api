@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat
 title: ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat (d3d11.h)
-
 description: Queries whether the video processor supports a specified video format.
 old-location: mf\id3d11videoprocessorenumerator_checkvideoprocessorformat.htm
 tech.root: medfound
 ms.assetid: 75DE439B-6849-4413-BF7D-0EBADA96F097
-
 ms.date: 12/05/2018
 ms.keywords: CheckVideoProcessorFormat, CheckVideoProcessorFormat method [Media Foundation], CheckVideoProcessorFormat method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],CheckVideoProcessorFormat method, ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat, ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat, d3d11/ID3D11VideoProcessorEnumerator::CheckVideoProcessorFormat, mf.id3d11videoprocessorenumerator_checkvideoprocessorformat
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat"
+f1_keywords:
+- d3d11/ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat
+- ID3D11VideoProcessorEnumerator.CheckVideoProcessorFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

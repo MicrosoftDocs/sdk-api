@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.SetWindowVisualState
 title: IUIAutomationWindowPattern::SetWindowVisualState (uiautomationclient.h)
-
 description: Minimizes, maximizes, or restores the window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_SetWindowVisualState.htm
 tech.root: WinAuto
 ms.assetid: 106322f8-cf43-48ca-8bc4-f51a75731127
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationWindowPattern interface [Windows Accessibility],SetWindowVisualState method, IUIAutomationWindowPattern.SetWindowVisualState, IUIAutomationWindowPattern::SetWindowVisualState, SetWindowVisualState, SetWindowVisualState method [Windows Accessibility], SetWindowVisualState method [Windows Accessibility],IUIAutomationWindowPattern interface, uiauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiauto_IUIAutomationWindowPattern_SetWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::SetWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_SetWindowVisualState
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.SetWindowVisualState"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.SetWindowVisualState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.SetWindowVisualState
+- IUIAutomationWindowPattern.SetWindowVisualState
 targetos: Windows
 req.typenames: 
 req.redist: 

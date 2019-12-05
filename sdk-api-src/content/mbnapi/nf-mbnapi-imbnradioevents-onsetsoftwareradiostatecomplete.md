@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRadioEvents.OnSetSoftwareRadioStateComplete
 title: IMbnRadioEvents::OnSetSoftwareRadioStateComplete (mbnapi.h)
-
 description: Notification that a set software radio state operation has completed.
 old-location: mbn\imbnradioevents_onsetsoftwareradiostatecomplete.htm
 tech.root: mbn
 ms.assetid: 0e62ff68-0a6b-4e22-9cce-0df5da14fa6a
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRadioEvents interface [Microsoft Broadband Networks],OnSetSoftwareRadioStateComplete method, IMbnRadioEvents.OnSetSoftwareRadioStateComplete, IMbnRadioEvents::OnSetSoftwareRadioStateComplete, OnSetSoftwareRadioStateComplete, OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks], OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks],IMbnRadioEvents interface, S_OK, mbn.imbnradioevents_onsetsoftwareradiostatecomplete, mbnapi/IMbnRadioEvents::OnSetSoftwareRadioStateComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRadioEvents.OnSetSoftwareRadioStateComplete"
+f1_keywords:
+- mbnapi/IMbnRadioEvents.OnSetSoftwareRadioStateComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRadioEvents.OnSetSoftwareRadioStateComplete
+- IMbnRadioEvents.OnSetSoftwareRadioStateComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

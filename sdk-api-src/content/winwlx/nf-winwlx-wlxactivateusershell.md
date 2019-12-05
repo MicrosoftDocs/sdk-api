@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxActivateUserShell
 title: WlxActivateUserShell function (winwlx.h)
-
 description: Activates the user shell program.
 old-location: security\wlxactivateusershell.htm
 tech.root: SecAuthN
 ms.assetid: 0db6653b-ec6f-4b2b-9371-b73d73be1f7b
-
 ms.date: 12/05/2018
 ms.keywords: WlxActivateUserShell, WlxActivateUserShell function [Security], _gina_wlxactivateusershell, security.wlxactivateusershell, winwlx/WlxActivateUserShell
 ms.topic: function
 f1_keywords:
 - winwlx/WlxActivateUserShell
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

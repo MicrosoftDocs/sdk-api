@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsFreeDomainControllerInfoW
 title: DsFreeDomainControllerInfoW function (ntdsapi.h)
-
 description: The DsFreeDomainControllerInfo function frees memory that is allocated by DsGetDomainControllerInfo for data about the domain controllers in a domain.
 old-location: ad\dsfreedomaincontrollerinfo.htm
 tech.root: ad
 ms.assetid: 1b6d3136-91e2-4653-a4b0-ae2f66a6c5a2
-
 ms.date: 12/05/2018
 ms.keywords: 1, 2, DsFreeDomainControllerInfo, DsFreeDomainControllerInfo function [Active Directory], DsFreeDomainControllerInfoA, DsFreeDomainControllerInfoW, _glines_dsfreedomaincontrollerinfo, ad.dsfreedomaincontrollerinfo, ntdsapi/DsFreeDomainControllerInfo, ntdsapi/DsFreeDomainControllerInfoA, ntdsapi/DsFreeDomainControllerInfoW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsFreeDomainControllerInfo"
+f1_keywords:
+- ntdsapi/DsFreeDomainControllerInfo
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- Ntdsapi.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsFreeDomainControllerInfo
- - DsFreeDomainControllerInfoA
- - DsFreeDomainControllerInfoW
+- DsFreeDomainControllerInfo
+- DsFreeDomainControllerInfoA
+- DsFreeDomainControllerInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistServerOpenContentInformation
 title: PeerDistServerOpenContentInformation function (peerdist.h)
-
 description: PeerDistServerOpenContentInformation function opens a PEERDIST_CONTENTINFO_HANDLE. The client uses the handle to retrieve content information.
 old-location: p2p\peerdistserveropencontentinformation.htm
 tech.root: P2PSdk
 ms.assetid: 17b07141-2786-4192-ba7b-f3210c10aad4
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerOpenContentInformation, PeerDistServerOpenContentInformation function [Peer Networking], p2p.peerdistserveropencontentinformation, peerdist/PeerDistServerOpenContentInformation
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistServerOpenContentInformation"
+f1_keywords:
+- peerdist/PeerDistServerOpenContentInformation
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistServerOpenContentInformation
+- PeerDistServerOpenContentInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

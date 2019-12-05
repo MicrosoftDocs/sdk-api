@@ -1,19 +1,17 @@
 ---
 UID: NS:rectypes.tagCHARACTER_RANGE
 title: CHARACTER_RANGE (rectypes.h)
-
 description: Specifies a range of Unicode points (characters).
 old-location: tablet\character_range.htm
 tech.root: tablet
 ms.assetid: 51d13adf-170e-4172-b752-c9dac5a96fa5
-
 ms.date: 12/05/2018
-ms.keywords: "*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER_RANGE, CHARACTER_RANGE structure [Tablet PC], rectypes/CHARACTER_RANGE, tablet.character_range"
+ms.keywords: '*PCHARACTER_RANGE, 51d13adf-170e-4172-b752-c9dac5a96fa5, CHARACTER_RANGE, CHARACTER_RANGE structure [Tablet PC], rectypes/CHARACTER_RANGE, tablet.character_range'
 ms.topic: struct
-f1_keywords: 
- - "rectypes/CHARACTER_RANGE"
+f1_keywords:
+- rectypes/CHARACTER_RANGE
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - CHARACTER_RANGE
+- CHARACTER_RANGE
 targetos: Windows
 req.typenames: CHARACTER_RANGE, *PCHARACTER_RANGE
 req.redist: 

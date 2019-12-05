@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceContent
 title: IPortableDeviceContent (portabledeviceapi.h)
-
 description: The IPortableDeviceContent interface provides methods to create, enumerate, examine, and delete content on a device. To get this interface, call IPortableDevice::Content.
 old-location: wpdsdk\iportabledevicecontent.htm
 tech.root: wpd_sdk
 ms.assetid: 7a03c673-8e7f-41a4-81ba-88406af2762d
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent, IPortableDeviceContent interface [Windows Portable Devices SDK], IPortableDeviceContent interface [Windows Portable Devices SDK],described, portabledeviceapi/IPortableDeviceContent, wpdsdk.iportabledevicecontent
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceContent"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceContent
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - portabledeviceapi.h
+- portabledeviceapi.h
 api_name:
- - IPortableDeviceContent
+- IPortableDeviceContent
 targetos: Windows
 req.typenames: 
 req.redist: 

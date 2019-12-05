@@ -1,19 +1,17 @@
 ---
 UID: NS:oledlg.tagOLEUICONVERTW
 title: OLEUICONVERTW (oledlg.h)
-
 description: Contains information that the OLE User Interface Library uses to initialize the Convert dialog box, and space for the library to return information when the dialog box is dismissed.
 old-location: com\oleuiconvert_struct.htm
 tech.root: com
 ms.assetid: 79206f06-b219-48c2-9fb2-74ebc2dbac65
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEUICONVERTW, *POLEUICONVERTW, CF_CONVERTONLY, CF_DISABLEACTIVATEAS, CF_DISABLEDISPLAYASICON, CF_HIDECHANGEICON, CF_SELECTACTIVATEAS, CF_SELECTCONVERTTO, CF_SETACTIVATEDEFAULT, CF_SETCONVERTDEFAULT, CF_SHOWHELPBUTTON, LPOLEUICONVERT, LPOLEUICONVERT structure pointer [COM], OLEUICONVERT, OLEUICONVERT structure [COM], OLEUICONVERTA, OLEUICONVERTW, POLEUICONVERT, POLEUICONVERT structure pointer [COM], _ole_OLEUICONVERT_str, com.oleuiconvert_struct, oledlg/LPOLEUICONVERT, oledlg/OLEUICONVERT, oledlg/OLEUICONVERTA, oledlg/OLEUICONVERTW, oledlg/POLEUICONVERT"
+ms.keywords: '*LPOLEUICONVERTW, *POLEUICONVERTW, CF_CONVERTONLY, CF_DISABLEACTIVATEAS, CF_DISABLEDISPLAYASICON, CF_HIDECHANGEICON, CF_SELECTACTIVATEAS, CF_SELECTCONVERTTO, CF_SETACTIVATEDEFAULT, CF_SETCONVERTDEFAULT, CF_SHOWHELPBUTTON, LPOLEUICONVERT, LPOLEUICONVERT structure pointer [COM], OLEUICONVERT, OLEUICONVERT structure [COM], OLEUICONVERTA, OLEUICONVERTW, POLEUICONVERT, POLEUICONVERT structure pointer [COM], _ole_OLEUICONVERT_str, com.oleuiconvert_struct, oledlg/LPOLEUICONVERT, oledlg/OLEUICONVERT, oledlg/OLEUICONVERTA, oledlg/OLEUICONVERTW, oledlg/POLEUICONVERT'
 ms.topic: struct
-f1_keywords: 
- - "oledlg/OLEUICONVERT"
+f1_keywords:
+- oledlg/OLEUICONVERT
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUICONVERT
- - OLEUICONVERTA
- - OLEUICONVERTW
+- OLEUICONVERT
+- OLEUICONVERTA
+- OLEUICONVERTW
 targetos: Windows
 req.typenames: OLEUICONVERTW, *POLEUICONVERTW, *LPOLEUICONVERTW
 req.redist: 

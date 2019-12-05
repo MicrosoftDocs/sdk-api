@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetPlayed
 title: IMFMediaEngine::GetPlayed (mfmediaengine.h)
-
 description: Gets the time ranges that have been rendered.
 old-location: mf\imfmediaengine_getplayed.htm
 tech.root: medfound
 ms.assetid: E74D1785-E8BA-4B3A-9FF8-63FBDED5FA9E
-
 ms.date: 12/05/2018
 ms.keywords: GetPlayed, GetPlayed method [Media Foundation], GetPlayed method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetPlayed method, IMFMediaEngine.GetPlayed, IMFMediaEngine::GetPlayed, mf.imfmediaengine_getplayed, mfmediaengine/IMFMediaEngine::GetPlayed
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetPlayed"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetPlayed
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetPlayed
+- IMFMediaEngine.GetPlayed
 targetos: Windows
 req.typenames: 
 req.redist: 

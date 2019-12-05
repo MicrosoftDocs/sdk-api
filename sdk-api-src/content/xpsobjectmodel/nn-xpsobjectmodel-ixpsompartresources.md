@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPartResources
 title: IXpsOMPartResources (xpsobjectmodel.h)
-
 description: Provides access to all shared, part-based resources of the XPS document.
 old-location: xps\ixpsompartresources.htm
 tech.root: printdocs
 ms.assetid: 9f706f23-25a0-40ee-93f4-3d7ac98ad6ed
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartResources, IXpsOMPartResources interface [XPS Documents and Packaging], IXpsOMPartResources interface [XPS Documents and Packaging],described, xps.ixpsompartresources, xpsobjectmodel/IXpsOMPartResources
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartResources"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartResources
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartResources
+- IXpsOMPartResources
 targetos: Windows
 req.typenames: 
 req.redist: 

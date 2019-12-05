@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Open
 title: IX509PrivateKey::Open (certenroll.h)
-
 description: Opens an existing private key.
 old-location: security\ix509privatekey_open_method.htm
 tech.root: seccertenroll
 ms.assetid: 965e3bf8-22b9-4015-8fb2-102c5f7b1cb5
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],Open method, IX509PrivateKey.Open, IX509PrivateKey::Open, Open, Open method [Security], Open method [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Open, security.ix509privatekey_open_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.Open"
+f1_keywords:
+- certenroll/IX509PrivateKey.Open
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.Open
+- IX509PrivateKey.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaProviderForNonClient
 title: UiaProviderForNonClient function (uiautomationcoreapi.h)
-
 description: Gets the provider for the entire non-client area of a window, or for a control in the non-client area of a window.
 old-location: winauto\uiauto_UiaProviderForNonClientFunction.htm
 tech.root: WinAuto
 ms.assetid: 440E6659-C62F-4567-B00F-B0F0B0F21817
-
 ms.date: 12/05/2018
 ms.keywords: UiaProviderForNonClient, UiaProviderForNonClient function [Windows Accessibility], uiautomationcoreapi/UiaProviderForNonClient, winauto.uiauto_UiaProviderForNonClientFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaProviderForNonClient"
+f1_keywords:
+- uiautomationcoreapi/UiaProviderForNonClient
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaProviderForNonClient
+- UiaProviderForNonClient
 targetos: Windows
 req.typenames: 
 req.redist: 

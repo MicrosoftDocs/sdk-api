@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetInputParameterDesc
 title: ID3D12ShaderReflection::GetInputParameterDesc (d3d12shader.h)
-
 description: Gets an input-parameter description for a shader.
 old-location: direct3d12\id3d12shaderreflection_getinputparameterdesc.htm
 tech.root: direct3d12
 ms.assetid: CD1AFABD-E830-4292-96F4-278BA84E5B54
-
 ms.date: 12/05/2018
 ms.keywords: GetInputParameterDesc, GetInputParameterDesc method, GetInputParameterDesc method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetInputParameterDesc method, ID3D12ShaderReflection.GetInputParameterDesc, ID3D12ShaderReflection::GetInputParameterDesc, d3d12shader/ID3D12ShaderReflection::GetInputParameterDesc, direct3d12.id3d12shaderreflection_getinputparameterdesc
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetInputParameterDesc"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetInputParameterDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetInputParameterDesc
+- ID3D12ShaderReflection.GetInputParameterDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

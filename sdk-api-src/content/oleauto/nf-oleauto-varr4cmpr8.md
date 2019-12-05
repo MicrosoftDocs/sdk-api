@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR4CmpR8
 title: VarR4CmpR8 function (oleauto.h)
-
 description: Compares two variants of types float and double.
 old-location: automat\varr4cmpr8.htm
 tech.root: automat
 ms.assetid: 0c871779-cfe2-4857-a391-ee28aca6c950
-
 ms.date: 12/05/2018
 ms.keywords: VarR4CmpR8, VarR4CmpR8 function [Automation], _oa96_VarR4CmpR8, automat.varr4cmpr8, oleauto/VarR4CmpR8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR4CmpR8"
+f1_keywords:
+- oleauto/VarR4CmpR8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR4CmpR8
+- VarR4CmpR8
 targetos: Windows
 req.typenames: 
 req.redist: 

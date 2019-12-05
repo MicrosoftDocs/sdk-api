@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineUncompleteCall
 title: TSPI_lineUncompleteCall function (tspi.h)
-
 description: The TSPI_lineUncompleteCall function is used to cancel the specified call completion request on the specified line.
 old-location: tspi\tspi_lineuncompletecall.htm
 tech.root: Tapi
 ms.assetid: e8b5ee74-245f-4d91-8996-eec482241e4d
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineUncompleteCall, TSPI_lineUncompleteCall function [TAPI 2.2], _tspi_tspi_lineuncompletecall, tspi.tspi_lineuncompletecall, tspi/TSPI_lineUncompleteCall
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineUncompleteCall"
+f1_keywords:
+- tspi/TSPI_lineUncompleteCall
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineUncompleteCall
+- TSPI_lineUncompleteCall
 targetos: Windows
 req.typenames: 
 req.redist: 

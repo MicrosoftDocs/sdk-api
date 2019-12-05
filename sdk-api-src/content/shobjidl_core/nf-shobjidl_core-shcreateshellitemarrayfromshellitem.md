@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateShellItemArrayFromShellItem
 title: SHCreateShellItemArrayFromShellItem function (shobjidl_core.h)
-
 description: Creates an array of one element from a single Shell item.
 old-location: shell\SHCreateShellItemArrayFromShellItem.htm
 tech.root: shell
 ms.assetid: 93401708-6f11-474d-8009-24554f316e79
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateShellItemArrayFromShellItem, SHCreateShellItemArrayFromShellItem function [Windows Shell], _shell_SHCreateShellItemArrayFromShellItem, shell.SHCreateShellItemArrayFromShellItem, shobjidl_core/SHCreateShellItemArrayFromShellItem
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateShellItemArrayFromShellItem"
+f1_keywords:
+- shobjidl_core/SHCreateShellItemArrayFromShellItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHCreateShellItemArrayFromShellItem
+- SHCreateShellItemArrayFromShellItem
 targetos: Windows
 req.typenames: 
 req.redist: 

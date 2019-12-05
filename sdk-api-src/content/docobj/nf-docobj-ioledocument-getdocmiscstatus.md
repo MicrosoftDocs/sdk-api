@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocument.GetDocMiscStatus
 title: IOleDocument::GetDocMiscStatus (docobj.h)
-
 description: Retrieves status information about the document object.
 old-location: com\ioledocument_getdocmiscstatus.htm
 tech.root: com
 ms.assetid: de279d46-057e-4c3a-8af3-14f7b65147fd
-
 ms.date: 12/05/2018
 ms.keywords: GetDocMiscStatus, GetDocMiscStatus method [COM], GetDocMiscStatus method [COM],IOleDocument interface, IOleDocument interface [COM],GetDocMiscStatus method, IOleDocument.GetDocMiscStatus, IOleDocument::GetDocMiscStatus, _ole_ioledocument_getdocmiscstatus, com.ioledocument_getdocmiscstatus, docobj/IOleDocument::GetDocMiscStatus
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocument.GetDocMiscStatus"
+f1_keywords:
+- docobj/IOleDocument.GetDocMiscStatus
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocument.GetDocMiscStatus
+- IOleDocument.GetDocMiscStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

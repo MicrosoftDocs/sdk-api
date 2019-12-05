@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetLocalName
 title: IBackgroundCopyFile::GetLocalName (bits.h)
-
 description: Retrieves the local name of the file.
 old-location: bits\ibackgroundcopyfile_getlocalname.htm
 tech.root: Bits
 ms.assetid: d27844b7-a5c6-4f4c-a1db-80e031898634
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalName, GetLocalName method [BITS], GetLocalName method [BITS],IBackgroundCopyFile interface, IBackgroundCopyFile interface [BITS],GetLocalName method, IBackgroundCopyFile.GetLocalName, IBackgroundCopyFile::GetLocalName, _drz_ibackgroundcopyfile_getlocalname, bits.ibackgroundcopyfile_getlocalname, bits/IBackgroundCopyFile::GetLocalName
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyFile.GetLocalName"
+f1_keywords:
+- bits/IBackgroundCopyFile.GetLocalName
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyFile.GetLocalName
+- IBackgroundCopyFile.GetLocalName
 targetos: Windows
 req.typenames: 
 req.redist: 

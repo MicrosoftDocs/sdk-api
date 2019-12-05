@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.RemoveProfile
 title: IMFSensorProfileCollection::RemoveProfile (mfidl.h)
-
 description: Removes the specified profile based on the specified profile ID.
 old-location: mf\imfsensorprofilecollection_removeprofile.htm
 tech.root: medfound
 ms.assetid: E0A0C773-7B60-46C7-9B89-07DF5CAA1E84
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfileCollection interface [Media Foundation],RemoveProfile method, IMFSensorProfileCollection.RemoveProfile, IMFSensorProfileCollection::RemoveProfile, RemoveProfile, RemoveProfile method [Media Foundation], RemoveProfile method [Media Foundation],IMFSensorProfileCollection interface, mf.imfsensorprofilecollection_removeprofile, mfidl/IMFSensorProfileCollection::RemoveProfile
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProfileCollection.RemoveProfile"
+f1_keywords:
+- mfidl/IMFSensorProfileCollection.RemoveProfile
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfsensorgroup.dll
+- Mfsensorgroup.dll
 api_name:
- - IMFSensorProfileCollection.RemoveProfile
+- IMFSensorProfileCollection.RemoveProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

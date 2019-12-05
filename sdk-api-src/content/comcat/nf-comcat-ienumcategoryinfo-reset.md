@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Reset
 title: IEnumCATEGORYINFO::Reset (comcat.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumcategoryinfo_reset.htm
 tech.root: com
 ms.assetid: 55b9197e-4138-4cd5-9d06-4f31f1f5781a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Reset method, IEnumCATEGORYINFO.Reset, IEnumCATEGORYINFO::Reset, Reset, Reset method [COM], Reset method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_reset, com.ienumcategoryinfo_reset, comcat/IEnumCATEGORYINFO::Reset
 ms.topic: method
-f1_keywords: 
- - "comcat/IEnumCATEGORYINFO.Reset"
+f1_keywords:
+- comcat/IEnumCATEGORYINFO.Reset
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - IEnumCATEGORYINFO.Reset
+- IEnumCATEGORYINFO.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

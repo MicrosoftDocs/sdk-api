@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle
 title: IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle (windowsstoragecom.h)
-
 description: Gets a handle from a random-access byte stream that the StorageFile.OpenAsync method created and registers a callback method that you want to run when the opportunistic lock for the handle is broken.
 old-location: winrt\iunbufferedfilehandleprovider_openunbufferedfilehandle.htm
 tech.root: WinRT
 ms.assetid: D001CD90-A621-403C-B9BD-BE79471AF18F
-
 ms.date: 12/05/2018
 ms.keywords: IUnbufferedFileHandleProvider interface [Windows Runtime],OpenUnbufferedFileHandle method, IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle, IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle, OpenUnbufferedFileHandle, OpenUnbufferedFileHandle method [Windows Runtime], OpenUnbufferedFileHandle method [Windows Runtime],IUnbufferedFileHandleProvider interface, windowsstoragecom/IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle, winrt.iunbufferedfilehandleprovider_openunbufferedfilehandle
 ms.topic: method
-f1_keywords: 
- - "windowsstoragecom/IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle"
+f1_keywords:
+- windowsstoragecom/IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle
+- IUnbufferedFileHandleProvider.OpenUnbufferedFileHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaObject.ApplyTemplate
 title: IFsrmQuotaObject::ApplyTemplate (fsrmquota.h)
-
 description: Applies the property values of the specified quota template to this quota object.
 old-location: fsrm\ifsrmquotaobject_applytemplate.htm
 tech.root: fsrm
 ms.assetid: f4e65d53-7841-4f84-9c14-bad43089a87f
-
 ms.date: 12/05/2018
 ms.keywords: ApplyTemplate, ApplyTemplate method [File Server Resource Manager], ApplyTemplate method [File Server Resource Manager],IFsrmQuotaObject interface, IFsrmQuotaObject interface [File Server Resource Manager],ApplyTemplate method, IFsrmQuotaObject.ApplyTemplate, IFsrmQuotaObject::ApplyTemplate, fs.ifsrmquotaobject_applytemplate, fsrm.ifsrmquotaobject_applytemplate, fsrmquota/IFsrmQuotaObject::ApplyTemplate
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaObject.ApplyTemplate"
+f1_keywords:
+- fsrmquota/IFsrmQuotaObject.ApplyTemplate
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaObject.ApplyTemplate
+- IFsrmQuotaObject.ApplyTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

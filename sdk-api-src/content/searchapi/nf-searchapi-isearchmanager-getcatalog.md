@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchManager.GetCatalog
 title: ISearchManager::GetCatalog (searchapi.h)
-
 description: Retrieves a catalog by name and creates a new ISearchCatalogManager object for that catalog.
 old-location: search\_search_ISearchManager_GetCatalog.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getcatalog.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCatalog, GetCatalog method [search], GetCatalog method [search],ISearchManager interface, ISearchManager interface [search],GetCatalog method, ISearchManager.GetCatalog, ISearchManager::GetCatalog, _search_ISearchManager_GetCatalog, search._search_ISearchManager_GetCatalog, searchapi/ISearchManager::GetCatalog
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchManager.GetCatalog"
+f1_keywords:
+- searchapi/ISearchManager.GetCatalog
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchManager.GetCatalog
+- ISearchManager.GetCatalog
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

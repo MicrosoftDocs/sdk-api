@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewProps
 title: IWMWriterPostView::GetPostViewProps (wmsdkidl.h)
-
 description: The GetPostViewProps method retrieves the properties for the specified output stream.
 old-location: wmformat\iwmwriterpostview_getpostviewprops.htm
 tech.root: wmformat
 ms.assetid: 39dc32d1-53e5-43b5-bc96-074dc286890e
-
 ms.date: 12/05/2018
 ms.keywords: GetPostViewProps, GetPostViewProps method [windows Media Format], GetPostViewProps method [windows Media Format],IWMWriterPostView interface, IWMWriterPostView interface [windows Media Format],GetPostViewProps method, IWMWriterPostView.GetPostViewProps, IWMWriterPostView::GetPostViewProps, IWMWriterPostViewGetPostViewProps, wmformat.iwmwriterpostview_getpostviewprops, wmsdkidl/IWMWriterPostView::GetPostViewProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostView.GetPostViewProps"
+f1_keywords:
+- wmsdkidl/IWMWriterPostView.GetPostViewProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterPostView.GetPostViewProps
+- IWMWriterPostView.GetPostViewProps
 targetos: Windows
 req.typenames: 
 req.redist: 

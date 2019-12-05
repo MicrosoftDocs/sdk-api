@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHmenuPropStr
 title: IAccPropServices::SetHmenuPropStr (oleacc.h)
-
 description: This method wraps SetPropValue, providing a more convenient entry point for callers who are annotating HMENU-based accessible elements.
 old-location: winauto\iaccpropservices_iaccpropservices__sethmenupropstr.htm
 tech.root: WinAuto
 ms.assetid: 891af40a-819b-4fce-a1bb-28db145b87f1
-
 ms.date: 12/05/2018
 ms.keywords: IAccPropServices interface [Windows Accessibility],SetHmenuPropStr method, IAccPropServices.SetHmenuPropStr, IAccPropServices::SetHmenuPropStr, SetHmenuPropStr, SetHmenuPropStr method [Windows Accessibility], SetHmenuPropStr method [Windows Accessibility],IAccPropServices interface, oleacc/IAccPropServices::SetHmenuPropStr, winauto.iaccpropservices_iaccpropservices__sethmenupropstr
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccPropServices.SetHmenuPropStr"
+f1_keywords:
+- oleacc/IAccPropServices.SetHmenuPropStr
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: OleAcc.h Include Initguid.h first.
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccPropServices.SetHmenuPropStr
+- IAccPropServices.SetHmenuPropStr
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

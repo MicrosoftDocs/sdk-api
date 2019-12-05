@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetItem
 title: ListView_GetItem macro (commctrl.h)
-
 description: Gets some or all of a list-view item's attributes. You can use this macro or send the LVM_GETITEM message explicitly.
 old-location: controls\ListView_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetItem, ListView_GetItem macro [Windows Controls], _win32_ListView_GetItem, _win32_ListView_GetItem_cpp, commctrl/ListView_GetItem, controls.ListView_GetItem, controls._win32_ListView_GetItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetItem"
+f1_keywords:
+- commctrl/ListView_GetItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetItem
+- ListView_GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

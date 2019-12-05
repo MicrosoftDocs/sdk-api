@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemSink.OnUpdate
 title: ITfLangBarItemSink::OnUpdate (ctfutb.h)
-
 description: ITfLangBarItemSink::OnUpdate method
 old-location: tsf\itflangbaritemsink_onupdate.htm
 tech.root: TSF
 ms.assetid: f4fbc301-efbe-4b43-b2bd-e1a7248ad2f7
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemSink interface [Text Services Framework],OnUpdate method, ITfLangBarItemSink.OnUpdate, ITfLangBarItemSink::OnUpdate, OnUpdate, OnUpdate method [Text Services Framework], OnUpdate method [Text Services Framework],ITfLangBarItemSink interface, _tsf_itflangbaritemsink_onupdate_ref, ctfutb/ITfLangBarItemSink::OnUpdate, tsf.itflangbaritemsink_onupdate
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemSink.OnUpdate"
+f1_keywords:
+- ctfutb/ITfLangBarItemSink.OnUpdate
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemSink.OnUpdate
+- ITfLangBarItemSink.OnUpdate
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

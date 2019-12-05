@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.SetAttributeInfo
 title: ITfDisplayAttributeInfo::SetAttributeInfo (msctf.h)
-
 description: ITfDisplayAttributeInfo::SetAttributeInfo method
 old-location: tsf\itfdisplayattributeinfo_setattributeinfo.htm
 tech.root: TSF
 ms.assetid: 3e9a472c-7992-48fc-be47-993f6d53f043
-
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],SetAttributeInfo method, ITfDisplayAttributeInfo.SetAttributeInfo, ITfDisplayAttributeInfo::SetAttributeInfo, SetAttributeInfo, SetAttributeInfo method [Text Services Framework], SetAttributeInfo method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_setattributeinfo_ref, msctf/ITfDisplayAttributeInfo::SetAttributeInfo, tsf.itfdisplayattributeinfo_setattributeinfo
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDisplayAttributeInfo.SetAttributeInfo"
+f1_keywords:
+- msctf/ITfDisplayAttributeInfo.SetAttributeInfo
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfDisplayAttributeInfo.SetAttributeInfo
+- ITfDisplayAttributeInfo.SetAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

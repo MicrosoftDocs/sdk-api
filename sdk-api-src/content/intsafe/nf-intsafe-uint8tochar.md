@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UInt8ToChar
 title: UInt8ToChar function (intsafe.h)
-
 description: Converts a value of type UINT8 to a value of type CHAR.
 old-location: shell\UInt8ToChar.htm
 tech.root: shell
 ms.assetid: f622eab3-4815-465a-823e-c52f1cb1c126
-
 ms.date: 12/05/2018
 ms.keywords: UInt8ToChar, UInt8ToChar function [Windows Shell], intsafe/UInt8ToChar, shell.UInt8ToChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/UInt8ToChar"
+f1_keywords:
+- intsafe/UInt8ToChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - UInt8ToChar
+- UInt8ToChar
 targetos: Windows
 req.typenames: 
 req.redist: 

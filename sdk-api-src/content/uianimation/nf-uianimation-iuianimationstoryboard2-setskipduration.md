@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.SetSkipDuration
 title: IUIAnimationStoryboard2::SetSkipDuration (uianimation.h)
-
 description: Specifies an offset from the beginning of a storyboard at which to start animating.
 old-location: uianimation\iuianimationstoryboard2_setskipduration.htm
 tech.root: UIAnimation
 ms.assetid: 177623D7-5516-41EA-9014-61B150E527D9
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationStoryboard2 interface [Windows Animation],SetSkipDuration method, IUIAnimationStoryboard2.SetSkipDuration, IUIAnimationStoryboard2::SetSkipDuration, SetSkipDuration, SetSkipDuration method [Windows Animation], SetSkipDuration method [Windows Animation],IUIAnimationStoryboard2 interface, uianimation.iuianimationstoryboard2_setskipduration, uianimation/IUIAnimationStoryboard2::SetSkipDuration
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.SetSkipDuration"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.SetSkipDuration
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.SetSkipDuration
+- IUIAnimationStoryboard2.SetSkipDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

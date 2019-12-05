@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCComponentType.put_Flags
 title: IATSCComponentType::put_Flags (tuner.h)
-
 description: The put_Flags method specifies whether an audio component is in AC-3 format.
 old-location: mstv\iatsccomponenttype_put_flags.htm
 tech.root: mstv
 ms.assetid: e2959a4c-70a8-43a4-8bc5-4bfc965e8085
-
 ms.date: 12/05/2018
 ms.keywords: IATSCComponentType interface [Microsoft TV Technologies],put_Flags method, IATSCComponentType.put_Flags, IATSCComponentType::put_Flags, IATSCComponentTypeput_Flags, mstv.iatsccomponenttype_put_flags, put_Flags, put_Flags method [Microsoft TV Technologies], put_Flags method [Microsoft TV Technologies],IATSCComponentType interface, tuner/IATSCComponentType::put_Flags
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCComponentType.put_Flags"
+f1_keywords:
+- tuner/IATSCComponentType.put_Flags
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCComponentType.put_Flags
+- IATSCComponentType.put_Flags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:workspaceruntime.IWorkspace
 title: IWorkspace (workspaceruntime.h)
-
 description: Exposes methods that provide information about a connection in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspace.htm
 tech.root: TermServ
 ms.assetid: 7a94ef42-8a63-4709-816d-1f51a948d486
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspace, IWorkspace interface [Remote Desktop Services], IWorkspace interface [Remote Desktop Services],described, termserv.iworkspace, workspaceruntime/IWorkspace
 ms.topic: interface
-f1_keywords: 
- - "workspaceruntime/IWorkspace"
+f1_keywords:
+- workspaceruntime/IWorkspace
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wksprt.exe
+- Wksprt.exe
 api_name:
- - IWorkspace
+- IWorkspace
 targetos: Windows
 req.typenames: 
 req.redist: 

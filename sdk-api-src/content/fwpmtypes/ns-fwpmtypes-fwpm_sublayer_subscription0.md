@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_SUBSCRIPTION0_
 title: FWPM_SUBLAYER_SUBSCRIPTION0 (fwpmtypes.h)
-
 description: Used to subscribe for change notifications.
 old-location: fwp\fwpm_sublayer_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: bfd0f35a-7f56-42e4-b3da-cd7c4a2bae5e
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_SUBLAYER_SUBSCRIPTION0, FWPM_SUBLAYER_SUBSCRIPTION0 structure [Filtering], FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD, FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE, fwp.fwpm_sublayer_subscription0_struct, fwpmtypes/FWPM_SUBLAYER_SUBSCRIPTION0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_SUBLAYER_SUBSCRIPTION0"
+f1_keywords:
+- fwpmtypes/FWPM_SUBLAYER_SUBSCRIPTION0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_SUBLAYER_SUBSCRIPTION0
+- FWPM_SUBLAYER_SUBSCRIPTION0
 targetos: Windows
 req.typenames: FWPM_SUBLAYER_SUBSCRIPTION0
 req.redist: 

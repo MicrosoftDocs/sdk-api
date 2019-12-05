@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetVersion
 title: DhcpGetVersion function (dhcpsapi.h)
-
 description: The DhcpGetVersion function returns the major and minor version numbers of the DHCP server.
 old-location: dhcp\dhcpgetversion.htm
 tech.root: DHCP
 ms.assetid: 1977c4d7-094c-41b0-a7bf-aacdb15e265f
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetVersion, DhcpGetVersion function [DHCP], dhcp.dhcpgetversion, dhcpsapi/DhcpGetVersion
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetVersion"
+f1_keywords:
+- dhcpsapi/DhcpGetVersion
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetVersion
+- DhcpGetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

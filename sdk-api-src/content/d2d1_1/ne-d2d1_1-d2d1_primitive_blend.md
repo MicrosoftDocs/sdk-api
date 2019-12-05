@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_PRIMITIVE_BLEND
 title: D2D1_PRIMITIVE_BLEND (d2d1_1.h)
-
 description: Used to specify the geometric blend mode for all Direct2D primitives.
 old-location: direct2d\__d2d1_primitive_blend.htm
 tech.root: Direct2D
 ms.assetid: 411a42c9-f8d7-46f3-a6e6-51afc83375ad
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PRIMITIVE_BLEND, D2D1_PRIMITIVE_BLEND enumeration [Direct2D], D2D1_PRIMITIVE_BLEND_ADD, D2D1_PRIMITIVE_BLEND_COPY, D2D1_PRIMITIVE_BLEND_MAX, D2D1_PRIMITIVE_BLEND_MIN, D2D1_PRIMITIVE_BLEND_SOURCE_OVER, d2d1_1/D2D1_PRIMITIVE_BLEND, d2d1_1/D2D1_PRIMITIVE_BLEND_ADD, d2d1_1/D2D1_PRIMITIVE_BLEND_COPY, d2d1_1/D2D1_PRIMITIVE_BLEND_MAX, d2d1_1/D2D1_PRIMITIVE_BLEND_MIN, d2d1_1/D2D1_PRIMITIVE_BLEND_SOURCE_OVER, direct2d.__d2d1_primitive_blend
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_PRIMITIVE_BLEND"
+f1_keywords:
+- d2d1_1/D2D1_PRIMITIVE_BLEND
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D2d1_1.h
+- D2d1_1.h
 api_name:
- - D2D1_PRIMITIVE_BLEND
+- D2D1_PRIMITIVE_BLEND
 targetos: Windows
 req.typenames: D2D1_PRIMITIVE_BLEND
 req.redist: 

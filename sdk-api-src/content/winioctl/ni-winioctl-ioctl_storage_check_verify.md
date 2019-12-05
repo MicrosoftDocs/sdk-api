@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_CHECK_VERIFY
 title: IOCTL_STORAGE_CHECK_VERIFY
-
 description: Determines whether media are accessible for a device.
 old-location: base\ioctl_storage_check_verify.htm
 tech.root: devio
 ms.assetid: b4705882-30ce-4527-a1b5-c0b296b70274
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_CHECK_VERIFY, IOCTL_STORAGE_CHECK_VERIFY control, IOCTL_STORAGE_CHECK_VERIFY control code, _win32_ioctl_storage_check_verify, base.ioctl_storage_check_verify, winioctl/IOCTL_STORAGE_CHECK_VERIFY
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_CHECK_VERIFY"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_CHECK_VERIFY
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_CHECK_VERIFY
+- IOCTL_STORAGE_CHECK_VERIFY
 targetos: Windows
 req.typenames: 
 req.redist: 

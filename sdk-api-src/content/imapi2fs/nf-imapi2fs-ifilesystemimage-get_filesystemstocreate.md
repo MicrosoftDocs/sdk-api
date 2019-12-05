@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FileSystemsToCreate
 title: IFileSystemImage::get_FileSystemsToCreate (imapi2fs.h)
-
 description: Retrieves the types of file systems to create when generating the result stream.
 old-location: imapi\ifilesystemimage_get_filesystemstocreate.htm
 tech.root: imapi
 ms.assetid: 7350de0b-683a-4363-9233-dbe40f637f2d
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FileSystemsToCreate method, IFileSystemImage.get_FileSystemsToCreate, IFileSystemImage::get_FileSystemsToCreate, get_FileSystemsToCreate, get_FileSystemsToCreate method [IMAPI], get_FileSystemsToCreate method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_filesystemstocreate, imapi2fs/IFileSystemImage::get_FileSystemsToCreate
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_FileSystemsToCreate"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_FileSystemsToCreate
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_FileSystemsToCreate
+- IFileSystemImage.get_FileSystemsToCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

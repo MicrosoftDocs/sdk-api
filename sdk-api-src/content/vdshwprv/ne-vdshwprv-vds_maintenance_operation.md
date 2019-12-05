@@ -1,19 +1,17 @@
 ---
 UID: NE:vdshwprv._VDS_MAINTENANCE_OPERATION
 title: VDS_MAINTENANCE_OPERATION (vdshwprv.h)
-
 description: Defines the set of valid subsystem maintenance operations.
 old-location: base\vds_maintenance_operation.htm
 tech.root: VDS
 ms.assetid: 29bc5eb3-2e4b-4ca1-8b0a-9b43d2723e56
-
 ms.date: 12/05/2018
 ms.keywords: BeepAlarm, BlinkLight, Ping, SpinDown, SpinUp, VDS_MAINTENANCE_OPERATION, VDS_MAINTENANCE_OPERATION enumeration [VDS], base.vds_maintenance_operation, vds/BeepAlarm, vds/BlinkLight, vds/Ping, vds/SpinDown, vds/SpinUp, vds/VDS_MAINTENANCE_OPERATION, vdshwprv/BeepAlarm, vdshwprv/BlinkLight, vdshwprv/Ping, vdshwprv/SpinDown, vdshwprv/SpinUp, vdshwprv/VDS_MAINTENANCE_OPERATION
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_MAINTENANCE_OPERATION"
+f1_keywords:
+- vdshwprv/VDS_MAINTENANCE_OPERATION
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_MAINTENANCE_OPERATION
+- VDS_MAINTENANCE_OPERATION
 targetos: Windows
 req.typenames: VDS_MAINTENANCE_OPERATION
 req.redist: 

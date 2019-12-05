@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigGetGuidName
 title: MprConfigGetGuidName function (mprapi.h)
-
 description: The MprConfigGetGuidName function returns the GUID name for an interface that corresponds to the specified friendly name.
 old-location: rras\mprconfiggetguidname.htm
 tech.root: RRAS
 ms.assetid: 017662f7-7974-4598-a729-19181ccdfbe0
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigGetGuidName, MprConfigGetGuidName function [RAS], _mpr_mprconfiggetguidname, mprapi/MprConfigGetGuidName, rras.mprconfiggetguidname
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigGetGuidName"
+f1_keywords:
+- mprapi/MprConfigGetGuidName
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigGetGuidName
+- MprConfigGetGuidName
 targetos: Windows
 req.typenames: 
 req.redist: 

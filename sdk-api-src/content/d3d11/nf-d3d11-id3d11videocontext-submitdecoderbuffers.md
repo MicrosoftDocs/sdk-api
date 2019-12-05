@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.SubmitDecoderBuffers
 title: ID3D11VideoContext::SubmitDecoderBuffers (d3d11.h)
-
 description: Submits one or more buffers for decoding.
 old-location: mf\id3d11videocontext_submitdecoderbuffers.htm
 tech.root: medfound
 ms.assetid: 39010E57-FFF2-4793-B839-E336E8D2C1B2
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],SubmitDecoderBuffers method, ID3D11VideoContext.SubmitDecoderBuffers, ID3D11VideoContext::SubmitDecoderBuffers, SubmitDecoderBuffers, SubmitDecoderBuffers method [Media Foundation], SubmitDecoderBuffers method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::SubmitDecoderBuffers, mf.id3d11videocontext_submitdecoderbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.SubmitDecoderBuffers"
+f1_keywords:
+- d3d11/ID3D11VideoContext.SubmitDecoderBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.SubmitDecoderBuffers
+- ID3D11VideoContext.SubmitDecoderBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Clone
 title: IWdsTransportNamespace::Clone (wdstptmgmt.h)
-
 description: Copies the information from this namespace object into a new, unregistered namespace object in memory.
 old-location: wds\iwdstransportnamespace_clone.htm
 tech.root: wds
 ms.assetid: bc7eb27e-8bbb-414a-bfc2-25cc762b451d
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Deployment Services], Clone method [Windows Deployment Services],IWdsTransportNamespace interface, IWdsTransportNamespace interface [Windows Deployment Services],Clone method, IWdsTransportNamespace.Clone, IWdsTransportNamespace::Clone, wds.iwdstransportnamespace_clone, wdstptmgmt/IWdsTransportNamespace::Clone
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.Clone"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.Clone
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.Clone
+- IWdsTransportNamespace.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

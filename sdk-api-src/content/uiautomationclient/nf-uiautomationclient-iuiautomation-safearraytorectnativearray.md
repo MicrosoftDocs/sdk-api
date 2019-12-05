@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.SafeArrayToRectNativeArray
 title: IUIAutomation::SafeArrayToRectNativeArray (uiautomationclient.h)
-
 description: Converts a SAFEARRAY containing rectangle coordinates to an array of type RECT.
 old-location: winauto\uiauto_IUIAutomation_SafeArrayToRectNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 1fa9fad1-55b9-4cb5-a5c2-687074fa5d56
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],SafeArrayToRectNativeArray method, IUIAutomation.SafeArrayToRectNativeArray, IUIAutomation::SafeArrayToRectNativeArray, SafeArrayToRectNativeArray, SafeArrayToRectNativeArray method [Windows Accessibility], SafeArrayToRectNativeArray method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_SafeArrayToRectNativeArray, uiauto_IUIAutomation_SafeArrayToRectNativeArray, uiautomationclient/IUIAutomation::SafeArrayToRectNativeArray, winauto.uiauto_IUIAutomation_SafeArrayToRectNativeArray
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.SafeArrayToRectNativeArray"
+f1_keywords:
+- uiautomationclient/IUIAutomation.SafeArrayToRectNativeArray
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.SafeArrayToRectNativeArray
+- IUIAutomation.SafeArrayToRectNativeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

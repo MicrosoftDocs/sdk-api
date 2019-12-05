@@ -1,19 +1,17 @@
 ---
 UID: NF:scrnsave.DefScreenSaverProc
 title: DefScreenSaverProc function (scrnsave.h)
-
 description: Provides default processing for any messages that a screen saver application does not process.
 old-location: shell\DefScreenSaverProc.htm
 tech.root: shell
 ms.assetid: eda5c4d4-0484-4c81-a699-5fedea0bd1c2
-
 ms.date: 12/05/2018
 ms.keywords: DefScreenSaverProc, DefScreenSaverProc function [Windows Shell], _win32_DefScreenSaverProc, scrnsave/DefScreenSaverProc, shell.DefScreenSaverProc
 ms.topic: function
-f1_keywords: 
- - "scrnsave/DefScreenSaverProc"
+f1_keywords:
+- scrnsave/DefScreenSaverProc
 dev_langs:
- - c++
+- c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Scrnsave.lib
 req.dll: None
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - None
+- None
 api_name:
- - DefScreenSaverProc
+- DefScreenSaverProc
 targetos: Windows
 req.typenames: 
 req.redist: 

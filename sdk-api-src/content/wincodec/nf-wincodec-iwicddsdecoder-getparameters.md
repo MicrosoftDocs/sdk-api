@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDdsDecoder.GetParameters
 title: IWICDdsDecoder::GetParameters (wincodec.h)
-
 description: Gets DDS-specific data.
 old-location: wic\iwicddsdecoder_getparameters.htm
 tech.root: wic
 ms.assetid: D4EE39D6-54DC-450D-A430-2996D349BEC6
-
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [Windows Imaging Component], GetParameters method [Windows Imaging Component],IWICDdsDecoder interface, IWICDdsDecoder interface [Windows Imaging Component],GetParameters method, IWICDdsDecoder.GetParameters, IWICDdsDecoder::GetParameters, wic.iwicddsdecoder_getparameters, wincodec/IWICDdsDecoder::GetParameters
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDdsDecoder.GetParameters"
+f1_keywords:
+- wincodec/IWICDdsDecoder.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDdsDecoder.GetParameters
+- IWICDdsDecoder.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:physicalmonitorenumerationapi.DestroyPhysicalMonitors
 title: DestroyPhysicalMonitors function (physicalmonitorenumerationapi.h)
-
 description: Closes an array of physical monitor handles.
 old-location: monitor\destroyphysicalmonitors.htm
 tech.root: Monitor
 ms.assetid: ec9bbadf-93f3-4842-9bcc-e6a76f2f1ccf
-
 ms.date: 12/05/2018
 ms.keywords: DestroyPhysicalMonitors, DestroyPhysicalMonitors function [Monitor Configuration], monitor.destroyphysicalmonitors, physicalmonitorenumerationapi/DestroyPhysicalMonitors
 ms.topic: function
-f1_keywords: 
- - "physicalmonitorenumerationapi/DestroyPhysicalMonitors"
+f1_keywords:
+- physicalmonitorenumerationapi/DestroyPhysicalMonitors
 dev_langs:
- - c++
+- c++
 req.header: physicalmonitorenumerationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - DestroyPhysicalMonitors
+- DestroyPhysicalMonitors
 targetos: Windows
 req.typenames: 
 req.redist: 

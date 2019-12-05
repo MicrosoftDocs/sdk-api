@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.Search
 title: IUpdateSearcher::Search (wuapi.h)
-
 description: Performs a synchronous search for updates. The search uses the search options that are currently configured.
 old-location: wua\iupdatesearchersearch.htm
 tech.root: Wua_Sdk
 ms.assetid: 0511cfd0-f4de-41ab-af35-32d757217386
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Search method, IUpdateSearcher.Search, IUpdateSearcher::Search, Search, Search method [Windows Update Agent], Search method [Windows Update Agent],IUpdateSearcher interface, wua.iupdatesearchersearch, wuapi/IUpdateSearcher::Search
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.Search"
+f1_keywords:
+- wuapi/IUpdateSearcher.Search
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.Search
+- IUpdateSearcher.Search
 targetos: Windows
 req.typenames: 
 req.redist: 

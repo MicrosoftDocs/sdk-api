@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoRegisterMallocSpy
 title: CoRegisterMallocSpy function (objbase.h)
-
 description: Registers an implementation of the IMallocSpy interface, thereafter requiring OLE to call its wrapper methods around every call to the corresponding IMalloc method.
 old-location: com\coregistermallocspy.htm
 tech.root: com
 ms.assetid: 28623c1f-e158-4cc5-8c7f-c13d7a65aa76
-
 ms.date: 12/05/2018
 ms.keywords: CoRegisterMallocSpy, CoRegisterMallocSpy function [COM], _com_CoRegisterMallocSpy, com.coregistermallocspy, objbase/CoRegisterMallocSpy
 ms.topic: function
-f1_keywords: 
- - "objbase/CoRegisterMallocSpy"
+f1_keywords:
+- objbase/CoRegisterMallocSpy
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-private-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-COM-Private-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-private-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-COM-Private-l1-1-1.dll
 api_name:
- - CoRegisterMallocSpy
+- CoRegisterMallocSpy
 targetos: Windows
 req.typenames: 
 req.redist: 

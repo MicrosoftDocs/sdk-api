@@ -1,19 +1,17 @@
 ---
 UID: NS:winfax._FAX_CONFIGURATIONA
 title: FAX_CONFIGURATIONA (winfax.h)
-
 description: The FAX_CONFIGURATION structure contains information about the global configuration settings of a fax server.
 old-location: fax\_mfax_fax_configuration_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_14aa.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*PFAX_CONFIGURATIONA, FAX_CONFIGURATION, FAX_CONFIGURATION structure [Fax Service], FAX_CONFIGURATIONA, FAX_CONFIGURATIONW, PFAX_CONFIGURATION, PFAX_CONFIGURATION structure pointer [Fax Service], _mfax_fax_configuration_str, fax._mfax_fax_configuration_str, winfax/FAX_CONFIGURATION, winfax/FAX_CONFIGURATIONA, winfax/FAX_CONFIGURATIONW, winfax/PFAX_CONFIGURATION'
 ms.topic: struct
 f1_keywords:
 - winfax/FAX_CONFIGURATION
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

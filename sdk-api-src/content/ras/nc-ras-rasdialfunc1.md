@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.RASDIALFUNC1
 title: RASDIALFUNC1 (ras.h)
-
 description: A RasDialFunc1 function is called by the RasDial function when a change of state occurs during a remote access connection process.
 old-location: rras\rasdialfunc1.htm
 tech.root: RRAS
 ms.assetid: f0b0dbbc-8544-4711-819a-48bb714a67d9
-
 ms.date: 12/05/2018
 ms.keywords: ERROR_AUTH_INTERNAL, ERROR_CANNOT_GET_LANA, ERROR_NETBIOS_ERROR, ERROR_SERVER_NOT_RESPONDING, RasDialFunc1, RasDialFunc1 callback, RasDialFunc1 callback function [RAS], _ras_rasdialfunc1, ras/RasDialFunc1, rras.rasdialfunc1
 ms.topic: callback
-f1_keywords: 
- - "ras/RasDialFunc1"
+f1_keywords:
+- ras/RasDialFunc1
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasDialFunc1
+- RasDialFunc1
 targetos: Windows
 req.typenames: 
 req.redist: 

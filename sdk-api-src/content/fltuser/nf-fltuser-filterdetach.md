@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterDetach
 title: FilterDetach function (fltuser.h)
-
 description: The FilterDetach function detaches the given minifilter instance from the given volume.
 old-location: ifsk\filterdetach.htm
 tech.root: ifsk
 ms.assetid: 798b1672-ea3a-418b-a52d-d57b15ed9426
-
 ms.date: 12/05/2018
 ms.keywords: FilterDetach, FilterDetach function [Installable File System Drivers], FltWin32ApiRef_ee7eb095-922a-48c6-943a-0a54fb0789f1.xml, fltuser/FilterDetach, ifsk.filterdetach
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterDetach"
+f1_keywords:
+- fltuser/FilterDetach
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterDetach
+- FilterDetach
 targetos: Windows
 req.typenames: 
 req.redist: 

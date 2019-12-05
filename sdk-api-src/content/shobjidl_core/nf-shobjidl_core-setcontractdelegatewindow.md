@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SetContractDelegateWindow
 title: SetContractDelegateWindow function (shobjidl_core.h)
-
 description: Associates an app window other than the primary foreground window with an app's contracts. Use this function if you are a developer writing a Windows Store app in native C++.
 old-location: shell\SetContractDelegateWindow.htm
 tech.root: shell
 ms.assetid: 681B2BEC-87C7-40F8-8795-B7965C3FBCCE
-
 ms.date: 12/05/2018
 ms.keywords: SetContractDelegateWindow, SetContractDelegateWindow function [Windows Shell], shell.SetContractDelegateWindow, shobjidl_core/SetContractDelegateWindow
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SetContractDelegateWindow"
+f1_keywords:
+- shobjidl_core/SetContractDelegateWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SetContractDelegateWindow
+- SetContractDelegateWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

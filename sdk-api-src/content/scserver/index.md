@@ -1,7 +1,6 @@
 ---
 UID: NA:scserver
 ms.assetid: 382cdac1-02d0-3b67-b262-ff8aa4e4d3a3
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

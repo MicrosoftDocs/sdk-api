@@ -1,19 +1,17 @@
 ---
 UID: NF:certpol.INDESPolicy.Initialize
 title: INDESPolicy::Initialize (certpol.h)
-
 description: Initializes the NDES policy module.
 old-location: security\indespolicy_initialize.htm
 tech.root: SecCrypto
 ms.assetid: 654b4e1d-f717-459a-bbf5-dcc733756608
-
 ms.date: 12/05/2018
 ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Initialize, INDESPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Initialize, security.indespolicy_initialize
 ms.topic: method
-f1_keywords: 
- - "certpol/INDESPolicy.Initialize"
+f1_keywords:
+- certpol/INDESPolicy.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - certpol.h
+- certpol.h
 api_name:
- - INDESPolicy.Initialize
+- INDESPolicy.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

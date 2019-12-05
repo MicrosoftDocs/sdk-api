@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetStream
 title: IPhotoAcquireItem::GetStream (photoacquire.h)
-
 description: The GetStream method retrieves a read-only stream containing the contents of an item.
 old-location: picacq\iphotoacquireitem_getstream.htm
 tech.root: acquisition
 ms.assetid: d0b138aa-42df-4bb6-905d-647b2289df58
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [Picture Acquisition], GetStream method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetStream method, IPhotoAcquireItem.GetStream, IPhotoAcquireItem::GetStream, IPhotoAcquireItemGetStream, photoacquire/IPhotoAcquireItem::GetStream, picacq.iphotoacquireitem_getstream
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireItem.GetStream"
+f1_keywords:
+- photoacquire/IPhotoAcquireItem.GetStream
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.GetStream
+- IPhotoAcquireItem.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

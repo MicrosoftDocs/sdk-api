@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFileOperationProgressSink
 title: IFileOperationProgressSink (shobjidl_core.h)
-
 description: Exposes methods that provide a rich notification system used by callers of IFileOperation to monitor the details of the operations they are performing through that interface.
 old-location: shell\IFileOperationProgressSink.htm
 tech.root: shell
 ms.assetid: 24b20e05-d8be-4060-a966-7b32d9225403
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink, IFileOperationProgressSink interface [Windows Shell], IFileOperationProgressSink interface [Windows Shell],described, _shell_IFileOperationProgressSink, shell.IFileOperationProgressSink, shobjidl_core/IFileOperationProgressSink
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink
+- IFileOperationProgressSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectButton
 title: IDvdControl2::SelectButton (strmif.h)
-
 description: The SelectButton method selects the specified menu button.
 old-location: dshow\idvdcontrol2_selectbutton.htm
 tech.root: DirectShow
 ms.assetid: b2903a76-2888-4f0e-b23e-36d7488c837b
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectButton method, IDvdControl2.SelectButton, IDvdControl2::SelectButton, IDvdControl2SelectButton, SelectButton, SelectButton method [DirectShow], SelectButton method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectbutton, strmif/IDvdControl2::SelectButton
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectButton"
+f1_keywords:
+- strmif/IDvdControl2.SelectButton
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectButton
+- IDvdControl2.SelectButton
 targetos: Windows
 req.typenames: 
 req.redist: 

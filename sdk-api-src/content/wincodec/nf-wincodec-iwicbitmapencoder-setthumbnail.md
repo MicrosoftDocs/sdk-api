@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetThumbnail
 title: IWICBitmapEncoder::SetThumbnail (wincodec.h)
-
 description: Sets the global thumbnail for the image.
 old-location: wic\_wic_codec_iwicbitmapencoder_setthumbnail.htm
 tech.root: wic
 ms.assetid: ecabfde8-0079-4059-8691-bbe3f0baa934
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetThumbnail method, IWICBitmapEncoder.SetThumbnail, IWICBitmapEncoder::SetThumbnail, SetThumbnail, SetThumbnail method [Windows Imaging Component], SetThumbnail method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setthumbnail, wic._wic_codec_iwicbitmapencoder_setthumbnail, wincodec/IWICBitmapEncoder::SetThumbnail
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.SetThumbnail"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.SetThumbnail
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.SetThumbnail
+- IWICBitmapEncoder.SetThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

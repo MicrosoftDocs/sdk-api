@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmDriverMessage
 title: acmDriverMessage function (msacm.h)
-
 description: The acmDriverMessage function sends a user-defined message to a given ACM driver instance.
 old-location: multimedia\acmdrivermessage.htm
 tech.root: Multimedia
 ms.assetid: c4e1685e-54b5-4c33-b23c-c3ccc31afe48
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmDriverMessage, acmDriverMessage, acmDriverMessage function [Windows Multimedia], msacm/acmDriverMessage, multimedia.acmdrivermessage"
+ms.keywords: _win32_acmDriverMessage, acmDriverMessage, acmDriverMessage function [Windows Multimedia], msacm/acmDriverMessage, multimedia.acmdrivermessage
 ms.topic: function
-f1_keywords: 
- - "msacm/acmDriverMessage"
+f1_keywords:
+- msacm/acmDriverMessage
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmDriverMessage
+- acmDriverMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

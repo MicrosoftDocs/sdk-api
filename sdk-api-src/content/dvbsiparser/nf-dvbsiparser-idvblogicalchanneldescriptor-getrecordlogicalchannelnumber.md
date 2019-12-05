@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 title: IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber (dvbsiparser.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. .
 old-location: mstv\idvblogicalchanneldescriptor_getrecordlogicalchannelnumber.htm
 tech.root: mstv
 ms.assetid: fa74587a-ba11-449c-ba0d-bea371e7f019
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordLogicalChannelNumber, GetRecordLogicalChannelNumber method [DirectShow], GetRecordLogicalChannelNumber method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordLogicalChannelNumber method, IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, IDvbLogicalChannelDescriptorGetRecordLogicalChannelNumber, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordLogicalChannelNumber, mstv.idvblogicalchanneldescriptor_getrecordlogicalchannelnumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
+- IDvbLogicalChannelDescriptor.GetRecordLogicalChannelNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

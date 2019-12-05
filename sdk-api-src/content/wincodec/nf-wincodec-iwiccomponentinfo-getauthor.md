@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetAuthor
 title: IWICComponentInfo::GetAuthor (wincodec.h)
-
 description: Retrieves the name of component's author.
 old-location: wic\_wic_codec_iwiccomponentinfo_getauthor.htm
 tech.root: wic
 ms.assetid: c92f707f-6077-4da0-9ac4-6d1f30fb5b75
-
 ms.date: 12/05/2018
 ms.keywords: GetAuthor, GetAuthor method [Windows Imaging Component], GetAuthor method [Windows Imaging Component],IWICComponentInfo interface, IWICComponentInfo interface [Windows Imaging Component],GetAuthor method, IWICComponentInfo.GetAuthor, IWICComponentInfo::GetAuthor, _wic_codec_iwiccomponentinfo_getauthor, wic._wic_codec_iwiccomponentinfo_getauthor, wincodec/IWICComponentInfo::GetAuthor
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICComponentInfo.GetAuthor"
+f1_keywords:
+- wincodec/IWICComponentInfo.GetAuthor
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentInfo.GetAuthor
+- IWICComponentInfo.GetAuthor
 targetos: Windows
 req.typenames: 
 req.redist: 

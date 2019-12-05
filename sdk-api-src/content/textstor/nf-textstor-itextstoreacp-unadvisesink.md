@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.UnadviseSink
 title: ITextStoreACP::UnadviseSink (textstor.h)
-
 description: The ITextStoreACP::UnadviseSink method is called by an application to indicate that it no longer requires notifications from the TSF manager. The TSF manager will release the sink interface and stop notifications.
 old-location: tsf\itextstoreacp_unadvisesink.htm
 tech.root: TSF
 ms.assetid: 11445652-e349-46a4-8887-1d1127e16275
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],UnadviseSink method, ITextStoreACP.UnadviseSink, ITextStoreACP::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITextStoreACP interface, _tsf_itextstoreacp_unadvisesink_ref, textstor/ITextStoreACP::UnadviseSink, tsf.itextstoreacp_unadvisesink
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.UnadviseSink"
+f1_keywords:
+- textstor/ITextStoreACP.UnadviseSink
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.UnadviseSink
+- ITextStoreACP.UnadviseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

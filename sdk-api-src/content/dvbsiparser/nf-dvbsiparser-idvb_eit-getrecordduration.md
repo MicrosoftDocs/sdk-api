@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordDuration
 title: IDVB_EIT::GetRecordDuration (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getrecordduration.htm
 tech.root: mstv
 ms.assetid: cb480110-0cf4-4b46-af06-f6c42907a184
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IDVB_EIT.GetRecordDuration, IDVB_EIT::GetRecordDuration, IDVB_EITGetRecordDuration, dvbsiparser/IDVB_EIT::GetRecordDuration, mstv.idvb_eit_getrecordduration
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_EIT.GetRecordDuration"
+f1_keywords:
+- dvbsiparser/IDVB_EIT.GetRecordDuration
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_EIT.GetRecordDuration
+- IDVB_EIT.GetRecordDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

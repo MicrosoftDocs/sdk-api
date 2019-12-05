@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceAutoCast
 title: IWdsTransportNamespaceAutoCast (wdstptmgmt.h)
-
 description: The WDS transport server can create, start, and end multicast sessions that are hosted by a namespace object of this interface.
 old-location: wds\iwdstransportnamespaceautocast.htm
 tech.root: wds
 ms.assetid: 8db671fa-da52-4063-ad0b-a3ee7cb05497
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceAutoCast, IWdsTransportNamespaceAutoCast interface [Windows Deployment Services], IWdsTransportNamespaceAutoCast interface [Windows Deployment Services],described, wds.iwdstransportnamespaceautocast, wdstptmgmt/IWdsTransportNamespaceAutoCast
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespaceAutoCast"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespaceAutoCast
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceAutoCast
+- IWdsTransportNamespaceAutoCast
 targetos: Windows
 req.typenames: 
 req.redist: 

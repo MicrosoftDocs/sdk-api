@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsGetDcNextA
 title: DsGetDcNextA function (dsgetdc.h)
-
 description: Retrieves the next domain controller in a domain controller enumeration operation.
 old-location: ad\dsgetdcnext.htm
 tech.root: ad
 ms.assetid: 2906772f-4391-411b-b0a9-5a20ebb6c0ee
-
 ms.date: 12/05/2018
 ms.keywords: DsGetDcNext, DsGetDcNext function [Active Directory], DsGetDcNextA, DsGetDcNextW, ad.dsgetdcnext, dsgetdc/DsGetDcNext, dsgetdc/DsGetDcNextA, dsgetdc/DsGetDcNextW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsGetDcNext"
+f1_keywords:
+- dsgetdc/DsGetDcNext
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsGetDcNext
- - DsGetDcNextA
- - DsGetDcNextW
+- DsGetDcNext
+- DsGetDcNextA
+- DsGetDcNextW
 targetos: Windows
 req.typenames: 
 req.redist: 

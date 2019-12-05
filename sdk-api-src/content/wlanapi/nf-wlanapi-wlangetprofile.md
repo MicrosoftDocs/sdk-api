@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanGetProfile
 title: WlanGetProfile function (wlanapi.h)
-
 description: Retrieves all information about a specified wireless profile.
 old-location: nwifi\wlangetprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 6486e961-402f-45c8-a806-ab91a4f0f156
-
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_GET_PLAINTEXT_KEY, WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_USER, WlanGetProfile, WlanGetProfile function [NativeWIFI], nwifi.wlangetprofile, wlanapi/WlanGetProfile
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanGetProfile
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

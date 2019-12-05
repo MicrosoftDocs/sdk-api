@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetContentProtectionSystemCLSID
 title: MFGetContentProtectionSystemCLSID function (mfapi.h)
-
 description: Gets the class identifier for a content protection system.
 old-location: mf\mfgetcontentprotectionsystemclsid.htm
 tech.root: medfound
 ms.assetid: 03E1AF8D-69C7-4988-A699-0BD71ED635AF
-
 ms.date: 12/05/2018
 ms.keywords: MFGetContentProtectionSystemCLSID, MFGetContentProtectionSystemCLSID function [Media Foundation], mf.mfgetcontentprotectionsystemclsid, mfapi/MFGetContentProtectionSystemCLSID
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetContentProtectionSystemCLSID"
+f1_keywords:
+- mfapi/MFGetContentProtectionSystemCLSID
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetContentProtectionSystemCLSID
+- MFGetContentProtectionSystemCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

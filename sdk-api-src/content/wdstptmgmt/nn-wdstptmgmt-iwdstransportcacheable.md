@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportCacheable
 title: IWdsTransportCacheable (wdstptmgmt.h)
-
 description: Provides caching for objects that handle persistent data. This interface can be inherited by other interfaces that represent persisted objects.
 old-location: wds\iwdstransportcacheable.htm
 tech.root: wds
 ms.assetid: 2245d198-056c-467f-aae7-b1bb02f188e2
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportCacheable, IWdsTransportCacheable interface [Windows Deployment Services], IWdsTransportCacheable interface [Windows Deployment Services],described, wds.iwdstransportcacheable, wdstptmgmt/IWdsTransportCacheable
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportCacheable"
+f1_keywords:
+- wdstptmgmt/IWdsTransportCacheable
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportCacheable
+- IWdsTransportCacheable
 targetos: Windows
 req.typenames: 
 req.redist: 

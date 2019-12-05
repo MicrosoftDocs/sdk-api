@@ -1,19 +1,17 @@
 ---
 UID: NN:msvidctl.IMSVidCtl
 title: IMSVidCtl (msvidctl.h)
-
 description: The IMSVidCtl interface is the main interface for the Video Control.
 old-location: mstv\imsvidctl.htm
 tech.root: mstv
 ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl, IMSVidCtl interface [Microsoft TV Technologies], IMSVidCtl interface [Microsoft TV Technologies],described, IMSVidCtlInterface, mstv.imsvidctl, msvidctl/IMSVidCtl
 ms.topic: interface
-f1_keywords: 
- - "msvidctl/IMSVidCtl"
+f1_keywords:
+- msvidctl/IMSVidCtl
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl
+- IMSVidCtl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EvaluateMode
 title: IDirectDraw7::EvaluateMode (ddraw.h)
-
 description: Used after a call to IDirectDraw7::StartModeTest to pass or fail each mode that the test presents and to step through the modes until the test is complete.
 old-location: directdraw\idirectdraw7_evaluatemode.htm
 tech.root: directdraw
 ms.assetid: c8027183-07b5-4b7f-8c36-7bd711dac7dd
-
 ms.date: 12/05/2018
 ms.keywords: DDEM_MODEFAILED, DDEM_MODEPASSED, EvaluateMode, EvaluateMode method [DirectDraw], EvaluateMode method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],EvaluateMode method, IDirectDraw7.EvaluateMode, IDirectDraw7::EvaluateMode, ddraw/IDirectDraw7::EvaluateMode, directdraw.idirectdraw7_evaluatemode
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.EvaluateMode"
+f1_keywords:
+- ddraw/IDirectDraw7.EvaluateMode
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.EvaluateMode
+- IDirectDraw7.EvaluateMode
 targetos: Windows
 req.typenames: 
 req.redist: 

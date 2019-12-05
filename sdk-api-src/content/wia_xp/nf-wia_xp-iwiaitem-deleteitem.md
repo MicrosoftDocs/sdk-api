@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeleteItem
 title: IWiaItem::DeleteItem (wia_xp.h)
-
 description: The IWiaItem::DeleteItem method removes the current IWiaItem object from the object tree of the device.
 old-location: wia\_wia_IWiaItem_DeleteItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\deleteitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeleteItem, DeleteItem method [WIA], DeleteItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],DeleteItem method, IWiaItem.DeleteItem, IWiaItem::DeleteItem, _wia_IWiaItem_DeleteItem, wia._wia_IWiaItem_DeleteItem, wia_xp/IWiaItem::DeleteItem
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.DeleteItem"
+f1_keywords:
+- wia_xp/IWiaItem.DeleteItem
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.DeleteItem
+- IWiaItem.DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

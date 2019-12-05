@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_5.IDXGISwapChain4
 title: IDXGISwapChain4 (dxgi1_5.h)
-
 description: This interface exposes a single method for setting video metadata.
 old-location: direct3ddxgi\idxgiswapchain4.htm
 tech.root: direct3ddxgi
 ms.assetid: F24AF5B3-AEEF-433E-A597-4A588B9B1D2B
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain4, IDXGISwapChain4 interface [DXGI], IDXGISwapChain4 interface [DXGI],described, direct3ddxgi.idxgiswapchain4, dxgi1_5/IDXGISwapChain4
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_5/IDXGISwapChain4"
+f1_keywords:
+- dxgi1_5/IDXGISwapChain4
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi1_5.lib
 req.dll: Dxgi1_5.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi1_5.dll
+- dxgi1_5.dll
 api_name:
- - IDXGISwapChain4
+- IDXGISwapChain4
 targetos: Windows
 req.typenames: 
 req.redist: 

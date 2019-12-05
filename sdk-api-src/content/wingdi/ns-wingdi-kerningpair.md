@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagKERNINGPAIR
 title: KERNINGPAIR (wingdi.h)
-
 description: The KERNINGPAIR structure defines a kerning pair.
 old-location: gdi\kerningpair.htm
 tech.root: gdi
 ms.assetid: af7bfcf7-467b-4ea9-87c5-3622303b1d8b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR"
+ms.keywords: '*LPKERNINGPAIR, KERNINGPAIR, KERNINGPAIR structure [Windows GDI], LPKERNINGPAIR, LPKERNINGPAIR structure pointer [Windows GDI], _win32_KERNINGPAIR_str, gdi.kerningpair, wingdi/KERNINGPAIR, wingdi/LPKERNINGPAIR'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/KERNINGPAIR"
+f1_keywords:
+- wingdi/KERNINGPAIR
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - KERNINGPAIR
+- KERNINGPAIR
 targetos: Windows
 req.typenames: KERNINGPAIR, *LPKERNINGPAIR
 req.redist: 

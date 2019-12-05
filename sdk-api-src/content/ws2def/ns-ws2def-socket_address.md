@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2def._SOCKET_ADDRESS
 title: SOCKET_ADDRESS (ws2def.h)
-
 description: SOCKET_ADDRESS structure stores protocol-specific address information.
 old-location: winsock\socket_address_2.htm
 tech.root: WinSock
 ms.assetid: 37fbcb96-a859-4eca-8928-8051f95407b9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSOCKET_ADDRESS, *PSOCKET_ADDRESS, PSOCKET_ADDRESS, PSOCKET_ADDRESS structure pointer [Winsock], SOCKET_ADDRESS, SOCKET_ADDRESS structure [Winsock], _win32_socket_address_2, winsock.socket_address_2, winsock2/PSOCKET_ADDRESS, winsock2/SOCKET_ADDRESS, ws2def/PSOCKET_ADDRESS, ws2def/SOCKET_ADDRESS"
+ms.keywords: '*LPSOCKET_ADDRESS, *PSOCKET_ADDRESS, PSOCKET_ADDRESS, PSOCKET_ADDRESS structure pointer [Winsock], SOCKET_ADDRESS, SOCKET_ADDRESS structure [Winsock], _win32_socket_address_2, winsock.socket_address_2, winsock2/PSOCKET_ADDRESS, winsock2/SOCKET_ADDRESS, ws2def/PSOCKET_ADDRESS, ws2def/SOCKET_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "ws2def/SOCKET_ADDRESS"
+f1_keywords:
+- ws2def/SOCKET_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2def.h
- - Winsock2.h
+- Ws2def.h
+- Winsock2.h
 api_name:
- - SOCKET_ADDRESS
+- SOCKET_ADDRESS
 targetos: Windows
 req.typenames: SOCKET_ADDRESS, *PSOCKET_ADDRESS, *LPSOCKET_ADDRESS
 req.redist: 

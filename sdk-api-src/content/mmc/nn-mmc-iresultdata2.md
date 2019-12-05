@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IResultData2
 title: IResultData2 (mmc.h)
-
 description: The IResultData2 interface supersedes the IResultData interface. The IResultData2 interface contains the IResultData2::RenameResultItem method, which allows a result node to programmatically be put in rename mode.
 old-location: mmc\iresultdata2.htm
 tech.root: mmc
 ms.assetid: cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05
-
 ms.date: 12/05/2018
 ms.keywords: IResultData2, IResultData2 interface [MMC], IResultData2 interface [MMC],described, _slate_iresultdata2, mmc.iresultdata2, mmc/IResultData2
 ms.topic: interface
-f1_keywords: 
- - "mmc/IResultData2"
+f1_keywords:
+- mmc/IResultData2
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData2
+- IResultData2
 targetos: Windows
 req.typenames: 
 req.redist: 

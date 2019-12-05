@@ -1,19 +1,17 @@
 ---
 UID: NN:spellcheck.IUserDictionariesRegistrar
 title: IUserDictionariesRegistrar (spellcheck.h)
-
 description: Manages the registration of user dictionaries.
 old-location: intl\iuserdictionariesregistrar.htm
 tech.root: Intl
 ms.assetid: eca9446a-268e-4318-a5e7-8bb8592c9660
-
 ms.date: 12/05/2018
 ms.keywords: IUserDictionariesRegistrar, IUserDictionariesRegistrar interface [Internationalization for Windows Applications], IUserDictionariesRegistrar interface [Internationalization for Windows Applications],described, intl.iuserdictionariesregistrar, spellcheck/IUserDictionariesRegistrar
 ms.topic: interface
-f1_keywords: 
- - "spellcheck/IUserDictionariesRegistrar"
+f1_keywords:
+- spellcheck/IUserDictionariesRegistrar
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - IUserDictionariesRegistrar
+- IUserDictionariesRegistrar
 targetos: Windows
 req.typenames: 
 req.redist: 

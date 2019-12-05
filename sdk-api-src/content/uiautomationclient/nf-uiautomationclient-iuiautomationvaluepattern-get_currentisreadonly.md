@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.get_CurrentIsReadOnly
 title: IUIAutomationValuePattern::get_CurrentIsReadOnly (uiautomationclient.h)
-
 description: Indicates whether the value of the element is read-only.
 old-location: winauto\uiauto_IUIAutomationValuePattern_CurrentIsReadOnly.htm
 tech.root: WinAuto
 ms.assetid: dc5111c4-6fc8-4a4f-b797-6da472fd0533
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsReadOnly property [Windows Accessibility], CurrentIsReadOnly property [Windows Accessibility],IUIAutomationValuePattern interface, IUIAutomationValuePattern interface [Windows Accessibility],CurrentIsReadOnly property, IUIAutomationValuePattern.CurrentIsReadOnly, IUIAutomationValuePattern.get_CurrentIsReadOnly, IUIAutomationValuePattern::CurrentIsReadOnly, IUIAutomationValuePattern::get_CurrentIsReadOnly, get_CurrentIsReadOnly, uiauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiauto_IUIAutomationValuePattern_CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::CurrentIsReadOnly, uiautomationclient/IUIAutomationValuePattern::get_CurrentIsReadOnly, winauto.uiauto_IUIAutomationValuePattern_CurrentIsReadOnly
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationValuePattern.CurrentIsReadOnly"
+f1_keywords:
+- uiautomationclient/IUIAutomationValuePattern.CurrentIsReadOnly
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationValuePattern.CurrentIsReadOnly
- - IUIAutomationValuePattern.get_CurrentIsReadOnly
+- IUIAutomationValuePattern.CurrentIsReadOnly
+- IUIAutomationValuePattern.get_CurrentIsReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

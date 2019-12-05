@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMLoadByte2
 title: XMLoadByte2 function (directxpackedvector.h)
-
 description: Loads an XMBYTE2 into an XMVECTOR.
 old-location: dxmath\xmloadbyte2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByte2(const XMBYTE2)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadByte2, XMLoadByte2, XMLoadByte2 method [DirectX Math Support APIs], dxmath.xmloadbyte2
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMLoadByte2"
+f1_keywords:
+- directxpackedvector/XMLoadByte2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMLoadByte2
+- XMLoadByte2
 targetos: Windows
 req.typenames: 
 req.redist: 

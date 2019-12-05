@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_BOX
 title: D3D12_BOX (d3d12.h)
-
 description: Describes a 3D box.
 old-location: direct3d12\d3d12_box.htm
 tech.root: direct3d12
 ms.assetid: DD3973CC-043E-486E-9403-B46D8B7DE644
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_BOX, D3D12_BOX structure, d3d12/D3D12_BOX, direct3d12.d3d12_box
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_BOX"
+f1_keywords:
+- d3d12/D3D12_BOX
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_BOX
+- D3D12_BOX
 targetos: Windows
 req.typenames: D3D12_BOX
 req.redist: 

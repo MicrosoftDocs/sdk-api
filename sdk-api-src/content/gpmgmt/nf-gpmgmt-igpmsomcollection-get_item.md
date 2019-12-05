@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get_Item
 title: IGPMSOMCollection::get_Item (gpmgmt.h)
-
 description: Given an index, returns a SOM from the collection.
 old-location: gpmc\igpmsomcollection_get_item.htm
 tech.root: gpmc
 ms.assetid: c1dae546-bee3-425c-a436-0931ac837f15
-
 ms.date: 12/05/2018
 ms.keywords: GPMSOMCollection class [GPMC],Item property, IGPMSOMCollection interface [GPMC],Item property, IGPMSOMCollection.Item, IGPMSOMCollection.get_Item, IGPMSOMCollection::Item, IGPMSOMCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMSOMCollection class, Item property [GPMC],IGPMSOMCollection interface, _win32_igpmsomcollection_get_item, get_Item, gpmc.igpmsomcollection_get_item, gpmgmt/IGPMSOMCollection::Item, gpmgmt/IGPMSOMCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSOMCollection.Item"
+f1_keywords:
+- gpmgmt/IGPMSOMCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSOMCollection.Item
- - IGPMSOMCollection.get_Item
- - GPMSOMCollection.Item
+- IGPMSOMCollection.Item
+- IGPMSOMCollection.get_Item
+- GPMSOMCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

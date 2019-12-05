@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_modify
 title: ldap_modify function (winldap.h)
-
 description: The ldap_modify function changes an existing entry.
 old-location: ldap\ldap_modify.htm
 tech.root: ldap
 ms.assetid: 93ae0af4-1b16-4bb0-952f-139241189d79
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_modify, ldap.ldap__modify, ldap.ldap_modify, ldap_modify, ldap_modify function [LDAP], ldap_modifyA, ldap_modifyW, winldap/ldap_modify, winldap/ldap_modifyA, winldap/ldap_modifyW"
+ms.keywords: _ldap_ldap_modify, ldap.ldap__modify, ldap.ldap_modify, ldap_modify, ldap_modify function [LDAP], ldap_modifyA, ldap_modifyW, winldap/ldap_modify, winldap/ldap_modifyA, winldap/ldap_modifyW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_modify"
+f1_keywords:
+- winldap/ldap_modify
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_modify
- - ldap_modifyA
- - ldap_modifyW
+- ldap_modify
+- ldap_modifyA
+- ldap_modifyW
 targetos: Windows
 req.typenames: 
 req.redist: 

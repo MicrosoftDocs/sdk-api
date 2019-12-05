@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationJob.get_Updates
 title: IInstallationJob::get_Updates (wuapi.h)
-
 description: Gets an interface that contains a read-only collection of the updates that are specified in the installation or uninstallation.
 old-location: wua\iinstallationjob_updates.htm
 tech.root: Wua_Sdk
 ms.assetid: f6a21db3-1182-4650-8502-814db88cbacb
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationJob interface [Windows Update Agent],Updates property, IInstallationJob.Updates, IInstallationJob.get_Updates, IInstallationJob::Updates, IInstallationJob::get_Updates, Updates property [Windows Update Agent], Updates property [Windows Update Agent],IInstallationJob interface, get_Updates, wua.iinstallationjob_updates, wuapi/IInstallationJob::Updates, wuapi/IInstallationJob::get_Updates
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationJob.Updates"
+f1_keywords:
+- wuapi/IInstallationJob.Updates
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationJob.Updates
- - IInstallationJob.get_Updates
+- IInstallationJob.Updates
+- IInstallationJob.get_Updates
 targetos: Windows
 req.typenames: 
 req.redist: 

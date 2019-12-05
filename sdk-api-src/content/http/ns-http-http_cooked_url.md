@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_COOKED_URL
 title: HTTP_COOKED_URL (http.h)
-
 description: Contains a validated, canonical, UTF-16 Unicode-encoded URL request string together with pointers into it and element lengths.
 old-location: http\http_cooked_url.htm
 tech.root: http
 ms.assetid: beb31444-4a4b-4d8d-b88b-7d74467c9ca1
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_COOKED_URL, HTTP_COOKED_URL, HTTP_COOKED_URL structure [HTTP], PHTTP_COOKED_URL, PHTTP_COOKED_URL structure pointer [HTTP], _http_http_cooked_url, http.http_cooked_url, http/HTTP_COOKED_URL, http/PHTTP_COOKED_URL"
+ms.keywords: '*PHTTP_COOKED_URL, HTTP_COOKED_URL, HTTP_COOKED_URL structure [HTTP], PHTTP_COOKED_URL, PHTTP_COOKED_URL structure pointer [HTTP], _http_http_cooked_url, http.http_cooked_url, http/HTTP_COOKED_URL, http/PHTTP_COOKED_URL'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_COOKED_URL"
+f1_keywords:
+- http/HTTP_COOKED_URL
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_COOKED_URL
+- HTTP_COOKED_URL
 targetos: Windows
 req.typenames: HTTP_COOKED_URL, *PHTTP_COOKED_URL
 req.redist: 

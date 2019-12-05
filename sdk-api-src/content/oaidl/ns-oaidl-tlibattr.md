@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagTLIBATTR
 title: TLIBATTR (oaidl.h)
-
 description: Contains information about a type library. Information from this structure is used to identify the type library and to provide national language support for member names.
 old-location: automat\tlibattr.htm
 tech.root: automat
 ms.assetid: 7715a862-1e20-4035-a146-2c9aa134f929
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTLIBATTR, LPTLIBATTR, LPTLIBATTR structure pointer [Automation], TLIBATTR, TLIBATTR structure [Automation], _oa96_TLIBATTR, automat.tlibattr, oaidl/LPTLIBATTR, oaidl/TLIBATTR"
+ms.keywords: '*LPTLIBATTR, LPTLIBATTR, LPTLIBATTR structure pointer [Automation], TLIBATTR, TLIBATTR structure [Automation], _oa96_TLIBATTR, automat.tlibattr, oaidl/LPTLIBATTR, oaidl/TLIBATTR'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/TLIBATTR"
+f1_keywords:
+- oaidl/TLIBATTR
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - TLIBATTR
+- TLIBATTR
 targetos: Windows
 req.typenames: TLIBATTR, *LPTLIBATTR
 req.redist: 

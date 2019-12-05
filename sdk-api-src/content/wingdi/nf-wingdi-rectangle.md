@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.Rectangle
 title: Rectangle function (wingdi.h)
-
 description: The Rectangle function draws a rectangle. The rectangle is outlined by using the current pen and filled by using the current brush.
 old-location: gdi\rectangle.htm
 tech.root: gdi
 ms.assetid: ed6b9824-1edc-4510-b9da-a4287845aa83
-
 ms.date: 12/05/2018
 ms.keywords: Rectangle, Rectangle function [Windows GDI], _win32_Rectangle, gdi.rectangle, wingdi/Rectangle
 ms.topic: function
-f1_keywords: 
- - "wingdi/Rectangle"
+f1_keywords:
+- wingdi/Rectangle
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - Rectangle
+- Rectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

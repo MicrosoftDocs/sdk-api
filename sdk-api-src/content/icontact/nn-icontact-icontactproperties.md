@@ -1,19 +1,17 @@
 ---
 UID: NN:icontact.IContactProperties
 title: IContactProperties (icontact.h)
-
 description: Do not use. Used to retrieve, set, create, and remove properties on an IContact. Property names and extension mechanisms are described in icontactproperties.h.
 old-location: wincontacts\_wincontacts_IContactProperties.htm
 tech.root: wincontacts
 ms.assetid: c9c0d73d-4c39-4f7c-9bc6-46d764f157bd
-
 ms.date: 12/05/2018
 ms.keywords: IContactProperties, IContactProperties interface [Windows Contacts], IContactProperties interface [Windows Contacts],described, _wincontacts_IContactProperties, icontact/IContactProperties, wincontacts._wincontacts_IContactProperties
 ms.topic: interface
-f1_keywords: 
- - "icontact/IContactProperties"
+f1_keywords:
+- icontact/IContactProperties
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties
+- IContactProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

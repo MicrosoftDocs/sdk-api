@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.operator-assign(XMFLOAT3PK &&)
 title: XMFLOAT3PK::operator-assign(XMFLOAT3PK &&) (directxpackedvector.h)
-
 description: Assigns the vector component data from one instance of XMFLOAT3PK to the current instance of XMFLOAT3PK.
 old-location: dxmath\xmfloat3pk_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.operator = (const XMFLOAT3PK)
-
 ms.date: 05/06/2019
 ms.keywords: XMFLOAT3PK structure [DirectX Math Support APIs],operator = method, XMFLOAT3PK.operator =(const XMFLOAT3PK&), XMFLOAT3PK.operator-assign(XMFLOAT3PK &&), XMFLOAT3PK.operator=, XMFLOAT3PK::operator-assign(XMFLOAT3PK &&), XMFLOAT3PK::operator=, dxmath.xmfloat3pk_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMFLOAT3PK structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMFLOAT3PK.operator ="
+f1_keywords:
+- directxpackedvector/XMFLOAT3PK.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMFLOAT3PK.operator =
+- XMFLOAT3PK.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

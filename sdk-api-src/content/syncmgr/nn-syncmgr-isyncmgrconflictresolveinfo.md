@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictResolveInfo
 title: ISyncMgrConflictResolveInfo (syncmgr.h)
-
 description: Exposes methods that get and set information about sync manager conflict resolution.
 old-location: shell\ISyncMgrConflictResolveInfo.htm
 tech.root: shell
 ms.assetid: c47d533f-7307-4db3-a025-961f3419203e
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolveInfo, ISyncMgrConflictResolveInfo interface [Windows Shell], ISyncMgrConflictResolveInfo interface [Windows Shell],described, _shell_ISyncMgrConflictResolveInfo, shell.ISyncMgrConflictResolveInfo, syncmgr/ISyncMgrConflictResolveInfo
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolveInfo"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolveInfo
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo
+- ISyncMgrConflictResolveInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

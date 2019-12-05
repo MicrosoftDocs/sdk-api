@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderTypeNegotiation
 title: IWMReaderTypeNegotiation (wmsdkidl.h)
-
 description: The IWMReaderTypeNegotiation interface provides a single method that can be used to test certain changes to the output properties of a stream.An IWMReaderTypeNegotiation interface exists for every reader object.
 old-location: wmformat\iwmreadertypenegotiation.htm
 tech.root: wmformat
 ms.assetid: 289ca857-5421-47f8-927e-6ca4204a31f9
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTypeNegotiation, IWMReaderTypeNegotiation interface [windows Media Format], IWMReaderTypeNegotiation interface [windows Media Format],described, IWMReaderTypeNegotiationInterface, wmformat.iwmreadertypenegotiation, wmsdkidl/IWMReaderTypeNegotiation
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderTypeNegotiation"
+f1_keywords:
+- wmsdkidl/IWMReaderTypeNegotiation
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderTypeNegotiation
+- IWMReaderTypeNegotiation
 targetos: Windows
 req.typenames: 
 req.redist: 

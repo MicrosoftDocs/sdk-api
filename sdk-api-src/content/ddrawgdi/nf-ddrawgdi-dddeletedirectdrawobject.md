@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdDeleteDirectDrawObject
 title: DdDeleteDirectDrawObject function (ddrawgdi.h)
-
 description: Wrapper for the NtGdiDdDeleteDirectDrawObject function and deletes a kernel-mode Microsoft DirectDraw object that was previously created using DdCreateDirectDrawObject. GdiEntry3 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_dddeletedirectdrawobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\dddeletedirectdrawobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdDeleteDirectDrawObject, DdDeleteDirectDrawObject function [Windows API], GdiEntry3, _dxgkernel_dddeletedirectdrawobject, ddrawgdi/DdDeleteDirectDrawObject, ddrawgdi/GdiEntry3, winprog._dxgkernel_dddeletedirectdrawobject, winui._dxgkernel_dddeletedirectdrawobject
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdDeleteDirectDrawObject"
+f1_keywords:
+- ddrawgdi/DdDeleteDirectDrawObject
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdDeleteDirectDrawObject
- - GdiEntry3
+- DdDeleteDirectDrawObject
+- GdiEntry3
 targetos: Windows
 req.typenames: 
 req.redist: 

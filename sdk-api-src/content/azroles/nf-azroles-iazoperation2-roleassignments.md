@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzOperation2.RoleAssignments
 title: IAzOperation2::RoleAssignments (azroles.h)
-
 description: Returns a collection of the role assignments associated with this operation.
 old-location: security\iazoperation2_roleassignments_method.htm
 tech.root: SecAuthZ
 ms.assetid: 99f1d60a-69c2-4736-a328-19796f4d37f0
-
 ms.date: 12/05/2018
 ms.keywords: IAzOperation2 interface [Security],RoleAssignments method, IAzOperation2.RoleAssignments, IAzOperation2::RoleAssignments, RoleAssignments, RoleAssignments method [Security], RoleAssignments method [Security],IAzOperation2 interface, azroles/IAzOperation2::RoleAssignments, security.iazoperation2_roleassignments_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzOperation2.RoleAssignments"
+f1_keywords:
+- azroles/IAzOperation2.RoleAssignments
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzOperation2.RoleAssignments
+- IAzOperation2.RoleAssignments
 targetos: Windows
 req.typenames: 
 req.redist: 

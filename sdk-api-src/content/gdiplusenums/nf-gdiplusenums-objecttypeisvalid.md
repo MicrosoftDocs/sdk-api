@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusenums.ObjectTypeIsValid
 title: ObjectTypeIsValid function (gdiplusenums.h)
-
 description: The ObjectTypeIsValid function determines whether an element of the ObjectType enumeration represents a valid object type.
 old-location: gdiplus\_gdiplus_FUNC_ObjectTypeIsValid_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\objecttypeisvalid.htm
-
 ms.date: 12/05/2018
 ms.keywords: ObjectTypeIsValid, ObjectTypeIsValid function [GDI+], _gdiplus_FUNC_ObjectTypeIsValid_, gdiplus._gdiplus_FUNC_ObjectTypeIsValid_, gdiplusenums/ObjectTypeIsValid
 ms.topic: function
-f1_keywords: 
- - "gdiplusenums/ObjectTypeIsValid"
+f1_keywords:
+- gdiplusenums/ObjectTypeIsValid
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - ObjectTypeIsValid
+- ObjectTypeIsValid
 targetos: Windows
 req.typenames: 
 req.redist: 

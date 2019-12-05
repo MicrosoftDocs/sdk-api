@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2bth._BTH_QUERY_DEVICE
 title: BTH_QUERY_DEVICE (ws2bth.h)
-
 description: The BTH_QUERY_DEVICE structure is used when querying for the presence of a Bluetooth device.
 old-location: bluetooth\bth_query_device.htm
 tech.root: bluetooth
 ms.assetid: c132c79e-5938-4436-a1fb-d0d6db5dc9d3
-
 ms.date: 12/05/2018
-ms.keywords: "*PBTHNS_INQUIRYBLOB, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, BTH_QUERY_DEVICE, BTH_QUERY_DEVICE structure [Bluetooth], PBTH_QUERY_DEVICE, PBTH_QUERY_DEVICE structure pointer [Bluetooth], _bth_bth_query_device, bluetooth.bth_query_device, ws2bth/BTH_QUERY_DEVICE, ws2bth/PBTH_QUERY_DEVICE"
+ms.keywords: '*PBTHNS_INQUIRYBLOB, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, BTH_QUERY_DEVICE, BTH_QUERY_DEVICE structure [Bluetooth], PBTH_QUERY_DEVICE, PBTH_QUERY_DEVICE structure pointer [Bluetooth], _bth_bth_query_device, bluetooth.bth_query_device, ws2bth/BTH_QUERY_DEVICE, ws2bth/PBTH_QUERY_DEVICE'
 ms.topic: struct
-f1_keywords: 
- - "ws2bth/BTH_QUERY_DEVICE"
+f1_keywords:
+- ws2bth/BTH_QUERY_DEVICE
 dev_langs:
- - c++
+- c++
 req.header: ws2bth.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2bth.h
+- Ws2bth.h
 api_name:
- - BTH_QUERY_DEVICE
+- BTH_QUERY_DEVICE
 targetos: Windows
 req.typenames: BTH_QUERY_DEVICE, *PBTH_QUERY_DEVICE, BTHNS_INQUIRYBLOB, *PBTHNS_INQUIRYBLOB
 req.redist: 

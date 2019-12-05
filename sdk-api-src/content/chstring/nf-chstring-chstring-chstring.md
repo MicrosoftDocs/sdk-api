@@ -3,14 +3,13 @@ UID: NF:chstring.CHString.CHString
 title: CHString::CHString
 description: 
 ms.assetid: cb7da79b-f808-4f2d-ac33-559fdc9a9978
-
 ms.date: 05/13/2019
 ms.keywords: CHString::CHString
 ms.topic: language-reference
-f1_keywords: 
- - "chstring/CHString::CHString"
+f1_keywords:
+- chstring/CHString::CHString
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - chstring.h
+- chstring.h
 api_name:
- - CHString::CHString
+- CHString::CHString
 ---
 
 # CHString::CHString

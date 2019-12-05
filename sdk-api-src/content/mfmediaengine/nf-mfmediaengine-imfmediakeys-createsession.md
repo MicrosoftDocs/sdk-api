@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaKeys.CreateSession
 title: IMFMediaKeys::CreateSession (mfmediaengine.h)
-
 description: Creates a media key session object using the specified initialization data and custom data. .
 old-location: mf\imfmediakeys_createsession.htm
 tech.root: medfound
 ms.assetid: 9f11433c-7cff-4a59-9d4a-7f4b56ba62cf
-
 ms.date: 12/05/2018
 ms.keywords: CreateSession, CreateSession method [Media Foundation], CreateSession method [Media Foundation],IMFMediaKeys interface, IMFMediaKeys interface [Media Foundation],CreateSession method, IMFMediaKeys.CreateSession, IMFMediaKeys::CreateSession, mf.imfmediakeys_createsession, mfmediaengine/IMFMediaKeys::CreateSession
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeys.CreateSession"
+f1_keywords:
+- mfmediaengine/IMFMediaKeys.CreateSession
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeys.CreateSession
+- IMFMediaKeys.CreateSession
 targetos: Windows
 req.typenames: 
 req.redist: 

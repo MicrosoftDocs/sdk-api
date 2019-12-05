@@ -1,19 +1,17 @@
 ---
 UID: NE:gdipluspixelformats.PaletteFlags
 title: PaletteFlags (gdipluspixelformats.h)
-
 description: The PaletteFlags enumeration indicates attributes of the color data in a palette.
 old-location: gdiplus\_gdiplus_ENUM_PaletteFlags.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\paletteflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: PaletteFlags, PaletteFlags enumeration [GDI+], PaletteFlagsGrayScale, PaletteFlagsHalftone, PaletteFlagsHasAlpha, _gdiplus_ENUM_PaletteFlags, gdiplus._gdiplus_ENUM_PaletteFlags, gdipluspixelformats/PaletteFlags, gdipluspixelformats/PaletteFlagsGrayScale, gdipluspixelformats/PaletteFlagsHalftone, gdipluspixelformats/PaletteFlagsHasAlpha
 ms.topic: enum
-f1_keywords: 
- - "gdipluspixelformats/PaletteFlags"
+f1_keywords:
+- gdipluspixelformats/PaletteFlags
 dev_langs:
- - c++
+- c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluspixelformats.h
+- Gdipluspixelformats.h
 api_name:
- - PaletteFlags
+- PaletteFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

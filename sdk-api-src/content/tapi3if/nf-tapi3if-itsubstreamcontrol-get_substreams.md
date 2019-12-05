@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.get_SubStreams
 title: ITSubStreamControl::get_SubStreams (tapi3if.h)
-
 description: The get_SubStreams method creates a collection of substreams currently available. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateSubStreams method.
 old-location: tapi3\itsubstreamcontrol_get_substreams.htm
 tech.root: Tapi
 ms.assetid: 1ea7dca0-9a0b-4966-83ba-0d1f6c5e5ccb
-
 ms.date: 12/05/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],get_SubStreams method, ITSubStreamControl.get_SubStreams, ITSubStreamControl::get_SubStreams, _tapi3_itsubstreamcontrol_get_substreams, get_SubStreams, get_SubStreams method [TAPI 2.2], get_SubStreams method [TAPI 2.2],ITSubStreamControl interface, tapi3.itsubstreamcontrol_get_substreams, tapi3if/ITSubStreamControl::get_SubStreams
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStreamControl.get_SubStreams"
+f1_keywords:
+- tapi3if/ITSubStreamControl.get_SubStreams
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStreamControl.get_SubStreams
+- ITSubStreamControl.get_SubStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

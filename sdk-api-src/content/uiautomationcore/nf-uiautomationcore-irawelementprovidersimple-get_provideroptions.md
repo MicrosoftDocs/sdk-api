@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple.get_ProviderOptions
 title: IRawElementProviderSimple::get_ProviderOptions (uiautomationcore.h)
-
 description: Specifies the type of Microsoft UI Automation provider; for example, whether it is a client-side (proxy) or server-side provider.
 old-location: winauto\uiauto_IRawElementProviderSimple_ProviderOptions.htm
 tech.root: WinAuto
 ms.assetid: fd41bb43-bbf1-4022-9472-0ad2816074c6
-
 ms.date: 12/05/2018
 ms.keywords: IRawElementProviderSimple interface [Windows Accessibility],ProviderOptions property, IRawElementProviderSimple.ProviderOptions, IRawElementProviderSimple.get_ProviderOptions, IRawElementProviderSimple::ProviderOptions, IRawElementProviderSimple::get_ProviderOptions, ProviderOptions property [Windows Accessibility], ProviderOptions property [Windows Accessibility],IRawElementProviderSimple interface, get_ProviderOptions, uiauto.uiauto_IRawElementProviderSimple_ProviderOptions, uiauto_IRawElementProviderSimple_ProviderOptions, uiautomationcore/IRawElementProviderSimple::ProviderOptions, uiautomationcore/IRawElementProviderSimple::get_ProviderOptions, winauto.uiauto_IRawElementProviderSimple_ProviderOptions
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderSimple.ProviderOptions"
+f1_keywords:
+- uiautomationcore/IRawElementProviderSimple.ProviderOptions
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderSimple.ProviderOptions
- - IRawElementProviderSimple.get_ProviderOptions
+- IRawElementProviderSimple.ProviderOptions
+- IRawElementProviderSimple.get_ProviderOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

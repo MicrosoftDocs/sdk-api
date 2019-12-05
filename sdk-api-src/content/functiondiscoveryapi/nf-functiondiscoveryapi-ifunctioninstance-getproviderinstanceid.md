@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetProviderInstanceID
 title: IFunctionInstance::GetProviderInstanceID (functiondiscoveryapi.h)
-
 description: Gets the identifier string for the provider instance.
 old-location: ncd\ifunctioninstance_getproviderinstanceid_method.htm
 tech.root: FunDisc
 ms.assetid: fad5e3f0-a440-4b09-ba8c-04bae2d14a2a
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderInstanceID, GetProviderInstanceID method, GetProviderInstanceID method,IFunctionInstance interface, IFunctionInstance interface,GetProviderInstanceID method, IFunctionInstance.GetProviderInstanceID, IFunctionInstance::GetProviderInstanceID, functiondiscoveryapi/IFunctionInstance::GetProviderInstanceID, ncd.ifunctioninstance_getproviderinstanceid_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstance.GetProviderInstanceID"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstance.GetProviderInstanceID
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstance.GetProviderInstanceID
+- IFunctionInstance.GetProviderInstanceID
 targetos: Windows
 req.typenames: 
 req.redist: 

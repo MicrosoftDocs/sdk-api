@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.Terminate
 title: IWdsTransportSession::Terminate (wdstptmgmt.h)
-
 description: Terminates an active session on the WDS transport server and disconnects all WDS clients joined to the session.
 old-location: wds\iwdstransportsession_terminate.htm
 tech.root: wds
 ms.assetid: 2b616a69-1387-4c55-a80e-95ead719b911
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportSession interface [Windows Deployment Services],Terminate method, IWdsTransportSession.Terminate, IWdsTransportSession::Terminate, Terminate, Terminate method [Windows Deployment Services], Terminate method [Windows Deployment Services],IWdsTransportSession interface, wds.iwdstransportsession_terminate, wdstptmgmt/IWdsTransportSession::Terminate
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportSession.Terminate"
+f1_keywords:
+- wdstptmgmt/IWdsTransportSession.Terminate
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession.Terminate
+- IWdsTransportSession.Terminate
 targetos: Windows
 req.typenames: 
 req.redist: 

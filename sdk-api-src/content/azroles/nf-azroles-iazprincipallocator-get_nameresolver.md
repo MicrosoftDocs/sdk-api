@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzPrincipalLocator.get_NameResolver
 title: IAzPrincipalLocator::get_NameResolver (azroles.h)
-
 description: Gets a pointer to the IAzNameResolver interface associated with this IAzPrincipalLocator object.
 old-location: security\iazprincipallocator_nameresolver_method.htm
 tech.root: SecAuthZ
 ms.assetid: 98826583-b31d-47f1-957b-38a0ab962f73
-
 ms.date: 12/05/2018
 ms.keywords: IAzPrincipalLocator interface [Security],NameResolver property, IAzPrincipalLocator.NameResolver, IAzPrincipalLocator.get_NameResolver, IAzPrincipalLocator::NameResolver, IAzPrincipalLocator::get_NameResolver, NameResolver property [Security], NameResolver property [Security],IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::NameResolver, azroles/IAzPrincipalLocator::get_NameResolver, get_NameResolver, security.iazprincipallocator_nameresolver_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzPrincipalLocator.NameResolver"
+f1_keywords:
+- azroles/IAzPrincipalLocator.NameResolver
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzPrincipalLocator.NameResolver
- - IAzPrincipalLocator.get_NameResolver
+- IAzPrincipalLocator.NameResolver
+- IAzPrincipalLocator.get_NameResolver
 targetos: Windows
 req.typenames: 
 req.redist: 

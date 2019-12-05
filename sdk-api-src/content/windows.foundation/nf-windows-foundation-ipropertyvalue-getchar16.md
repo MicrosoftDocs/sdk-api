@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetChar16
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the Unicode character that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getchar16.htm
 tech.root: WinRT
 ms.assetid: 46412359-A57E-489C-9992-5A30AB2DA8C4
-
 ms.date: 12/05/2018
 ms.keywords: GetChar16, GetChar16 method [Windows Runtime], GetChar16 method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetChar16 method, IPropertyValue.GetChar16, IPropertyValue.IPropertyValue, IPropertyValue::GetChar16, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetChar16, winrt.ipropertyvalue_getchar16
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetChar16"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetChar16
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetChar16
+- IPropertyValue.GetChar16
 targetos: Windows
 req.typenames: 
 req.redist: 

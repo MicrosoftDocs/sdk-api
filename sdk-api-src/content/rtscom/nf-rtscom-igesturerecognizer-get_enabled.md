@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.get_Enabled
 title: IGestureRecognizer::get_Enabled (rtscom.h)
-
 description: Gets or sets a value that indicates whether gesture recognition is enabled.
 old-location: tablet\igesturerecognizer_enabled.htm
 tech.root: tablet
 ms.assetid: 4e977348-30d8-474c-80af-56371be5aee4
-
 ms.date: 12/05/2018
 ms.keywords: 4e977348-30d8-474c-80af-56371be5aee4, Enabled property [Tablet PC], Enabled property [Tablet PC],IGestureRecognizer interface, IGestureRecognizer interface [Tablet PC],Enabled property, IGestureRecognizer.Enabled, IGestureRecognizer.get_Enabled, IGestureRecognizer.put_Enabled, IGestureRecognizer::Enabled, IGestureRecognizer::get_Enabled, IGestureRecognizer::put_Enabled, get_Enabled, rtscom/IGestureRecognizer::Enabled, rtscom/IGestureRecognizer::get_Enabled, rtscom/IGestureRecognizer::put_Enabled, tablet.igesturerecognizer_enabled
 ms.topic: method
-f1_keywords: 
- - "rtscom/IGestureRecognizer.Enabled"
+f1_keywords:
+- rtscom/IGestureRecognizer.Enabled
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IGestureRecognizer.Enabled
- - IGestureRecognizer.get_Enabled
- - IGestureRecognizer.put_Enabled
- - IGestureRecognizer.get_Enabled
- - IGestureRecognizer.put_Enabled
+- IGestureRecognizer.Enabled
+- IGestureRecognizer.get_Enabled
+- IGestureRecognizer.put_Enabled
+- IGestureRecognizer.get_Enabled
+- IGestureRecognizer.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

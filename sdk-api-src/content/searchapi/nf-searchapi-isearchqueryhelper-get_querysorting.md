@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySorting
 title: ISearchQueryHelper::get_QuerySorting (searchapi.h)
-
 description: Gets the sort order for the query result set.
 old-location: search\_search_ISearchQueryHelper_get_QuerySorting.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querysorting.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],get_QuerySorting method, ISearchQueryHelper.get_QuerySorting, ISearchQueryHelper::get_QuerySorting, _search_ISearchQueryHelper_get_QuerySorting, get_QuerySorting, get_QuerySorting method [search], get_QuerySorting method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_get_QuerySorting, searchapi/ISearchQueryHelper::get_QuerySorting
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.get_QuerySorting"
+f1_keywords:
+- searchapi/ISearchQueryHelper.get_QuerySorting
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.get_QuerySorting
+- ISearchQueryHelper.get_QuerySorting
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

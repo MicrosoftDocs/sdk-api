@@ -1,19 +1,17 @@
 ---
 UID: NE:ctfutb.__MIDL___MIDL_itf_ctfutb_0000_0010_0001
 title: TfLBIClick (ctfutb.h)
-
 description: Elements of the TfLBIClick enumeration specify which mouse button was used to click a toolbar item.
 old-location: tsf\tflbiclick.htm
 tech.root: TSF
 ms.assetid: 7fd151dd-e4be-4ec8-b373-2115717d5ef4
-
 ms.date: 12/05/2018
 ms.keywords: TF_LBI_CLK_LEFT, TF_LBI_CLK_RIGHT, TfLBIClick, TfLBIClick enumeration [Text Services Framework], _tsf_tflbiclick_ref, ctfutb/TF_LBI_CLK_LEFT, ctfutb/TF_LBI_CLK_RIGHT, ctfutb/TfLBIClick, tsf.tflbiclick
 ms.topic: enum
-f1_keywords: 
- - "ctfutb/TfLBIClick"
+f1_keywords:
+- ctfutb/TfLBIClick
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ctfutb.h
+- Ctfutb.h
 api_name:
- - TfLBIClick
+- TfLBIClick
 targetos: Windows
 req.typenames: TfLBIClick
 req.redist: TSF 1.0 on Windows 2000 Professional

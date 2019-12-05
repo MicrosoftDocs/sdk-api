@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.TransformPoints(IN OUT PointF,IN INT)
 title: Matrix::TransformPoints (gdiplusmatrix.h)
-
 description: This topic lists the TransformPoints methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix.TransformPoints, Matrix::TransformPoints, TransformPoints, TransformPoints methods [GDI+], _gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Methods, gdiplusmatrix/TransformPoints
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.TransformPoints"
+f1_keywords:
+- gdiplusmatrix/Matrix.TransformPoints
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplusmatrix.h
+- gdiplusmatrix.h
 api_name:
- - Matrix.TransformPoints
+- Matrix.TransformPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoServiceControl.ResetService
 title: ISdoServiceControl::ResetService (sdoias.h)
-
 description: The ResetService method resets the service administered by the SDO API. Resetting the service causes the service to refresh its data.
 old-location: nps\SDO_isdoservicecontrol_resetservice.htm
 tech.root: Nps
 ms.assetid: c93675ad-b7c2-42b9-9ab8-7fb4cbb7a07c
-
 ms.date: 12/05/2018
 ms.keywords: ISdoServiceControl interface [Network Policy Server],ResetService method, ISdoServiceControl.ResetService, ISdoServiceControl::ResetService, ResetService, ResetService method [Network Policy Server], ResetService method [Network Policy Server],ISdoServiceControl interface, _sdo_isdoservicecontrol_resetservice, nps.SDO_isdoservicecontrol_resetservice, sdo.isdoservicecontrol_resetservice, sdoias/ISdoServiceControl::ResetService
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoServiceControl.ResetService"
+f1_keywords:
+- sdoias/ISdoServiceControl.ResetService
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoServiceControl.ResetService
+- ISdoServiceControl.ResetService
 targetos: Windows
 req.typenames: 
 req.redist: 

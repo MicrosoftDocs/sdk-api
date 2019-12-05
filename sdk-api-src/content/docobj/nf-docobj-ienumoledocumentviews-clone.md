@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Clone
 title: IEnumOleDocumentViews::Clone (docobj.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumoledocumentviews_clone.htm
 tech.root: com
 ms.assetid: f3d6eaaf-455a-4d66-87d2-ba19a1db1faf
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumOleDocumentViews interface, IEnumOleDocumentViews interface [COM],Clone method, IEnumOleDocumentViews.Clone, IEnumOleDocumentViews::Clone, _ole_ienumoledocumentviews_clone, com.ienumoledocumentviews_clone, docobj/IEnumOleDocumentViews::Clone
 ms.topic: method
-f1_keywords: 
- - "docobj/IEnumOleDocumentViews.Clone"
+f1_keywords:
+- docobj/IEnumOleDocumentViews.Clone
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IEnumOleDocumentViews.Clone
+- IEnumOleDocumentViews.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

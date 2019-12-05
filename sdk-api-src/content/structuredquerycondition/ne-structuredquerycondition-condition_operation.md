@@ -1,19 +1,17 @@
 ---
 UID: NE:structuredquerycondition.tagCONDITION_OPERATION
 title: CONDITION_OPERATION (structuredquerycondition.h)
-
 description: Provides a set of flags to be used with following methods to indicate the operation in ICondition::GetComparisonInfo, ICondition2::GetLeafConditionInfo, IConditionFactory::MakeLeaf, IConditionFactory2::CreateBooleanLeaf, IConditionFactory2::CreateIntegerLeaf, IConditionFactory2::MakeLeaf, IConditionFactory2::CreateStringLeaf, and IConditionGenerator::GenerateForLeaf.
 old-location: search\_search_CONDITION_OPERATION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_operation.htm
-
 ms.date: 12/05/2018
 ms.keywords: CONDITION_OPERATION, CONDITION_OPERATION enumeration [search], COP_APPLICATION_SPECIFIC, COP_DOSWILDCARDS, COP_EQUAL, COP_GREATERTHAN, COP_GREATERTHANOREQUAL, COP_IMPLICIT, COP_LESSTHAN, COP_LESSTHANOREQUAL, COP_NOTEQUAL, COP_VALUE_CONTAINS, COP_VALUE_ENDSWITH, COP_VALUE_NOTCONTAINS, COP_VALUE_STARTSWITH, COP_WORD_EQUAL, COP_WORD_STARTSWITH, _search_CONDITION_OPERATION, search._search_CONDITION_OPERATION, structuredquerycondition/CONDITION_OPERATION, structuredquerycondition/COP_APPLICATION_SPECIFIC, structuredquerycondition/COP_DOSWILDCARDS, structuredquerycondition/COP_EQUAL, structuredquerycondition/COP_GREATERTHAN, structuredquerycondition/COP_GREATERTHANOREQUAL, structuredquerycondition/COP_IMPLICIT, structuredquerycondition/COP_LESSTHAN, structuredquerycondition/COP_LESSTHANOREQUAL, structuredquerycondition/COP_NOTEQUAL, structuredquerycondition/COP_VALUE_CONTAINS, structuredquerycondition/COP_VALUE_ENDSWITH, structuredquerycondition/COP_VALUE_NOTCONTAINS, structuredquerycondition/COP_VALUE_STARTSWITH, structuredquerycondition/COP_WORD_EQUAL, structuredquerycondition/COP_WORD_STARTSWITH
 ms.topic: enum
-f1_keywords: 
- - "structuredquerycondition/CONDITION_OPERATION"
+f1_keywords:
+- structuredquerycondition/CONDITION_OPERATION
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquerycondition.h
+- Structuredquerycondition.h
 api_name:
- - CONDITION_OPERATION
+- CONDITION_OPERATION
 targetos: Windows
 req.typenames: CONDITION_OPERATION
 req.redist: Windows Desktop Search (WDS) 3.0

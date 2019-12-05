@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPalette.InitializeFromPalette
 title: IWICPalette::InitializeFromPalette (wincodec.h)
-
 description: Initialize the palette based on a given palette.
 old-location: wic\_wic_codec_iwicpalette_initializefrompalette.htm
 tech.root: wic
 ms.assetid: c1e27b1a-5103-4111-8356-f35d53a07f4b
-
 ms.date: 12/05/2018
 ms.keywords: IWICPalette interface [Windows Imaging Component],InitializeFromPalette method, IWICPalette.InitializeFromPalette, IWICPalette::InitializeFromPalette, InitializeFromPalette, InitializeFromPalette method [Windows Imaging Component], InitializeFromPalette method [Windows Imaging Component],IWICPalette interface, _wic_codec_iwicpalette_initializefrompalette, wic._wic_codec_iwicpalette_initializefrompalette, wincodec/IWICPalette::InitializeFromPalette
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPalette.InitializeFromPalette"
+f1_keywords:
+- wincodec/IWICPalette.InitializeFromPalette
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPalette.InitializeFromPalette
+- IWICPalette.InitializeFromPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

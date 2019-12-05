@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDC
 title: GetDC function (winuser.h)
-
 description: The GetDC function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.
 old-location: gdi\getdc.htm
 tech.root: gdi
 ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd
-
 ms.date: 12/05/2018
 ms.keywords: GetDC, GetDC function [Windows GDI], _win32_GetDC, gdi.getdc, winuser/GetDC
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDC"
+f1_keywords:
+- winuser/GetDC
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
- - minuser.dll
- - api-ms-win-ntuser-dc-access-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
+- user32.dll
+- Ext-MS-Win-NTUser-DC-Access-Ext-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-DC-Access-l1-1-0.dll
+- minuser.dll
+- api-ms-win-ntuser-dc-access-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
 api_name:
- - GetDC
+- GetDC
 targetos: Windows
 req.typenames: 
 req.redist: 

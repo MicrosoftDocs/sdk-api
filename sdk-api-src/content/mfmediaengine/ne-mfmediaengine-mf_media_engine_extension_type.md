@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_EXTENSION_TYPE
 title: MF_MEDIA_ENGINE_EXTENSION_TYPE (mfmediaengine.h)
-
 description: Specifies media engine extension types.
 old-location: mf\mf_media_engine_extension_type.htm
 tech.root: medfound
 ms.assetid: B66D1A68-B3DA-4A03-B6E4-6C6566ADCAF1
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_EXTENSION_TYPE, MF_MEDIA_ENGINE_EXTENSION_TYPE enumeration [Media Foundation], MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE, mf.mf_media_engine_extension_type, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_BYTESTREAM, mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE_MEDIASOURCE
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_EXTENSION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_EXTENSION_TYPE
+- MF_MEDIA_ENGINE_EXTENSION_TYPE
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_EXTENSION_TYPE
 req.redist: 

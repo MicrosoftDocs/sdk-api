@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IConfigurationDataCollector
 title: IConfigurationDataCollector (pla.h)
-
 description: Collects computer settings at the time of collection.
 old-location: pla\iconfigurationdatacollector.htm
 tech.root: PLA
 ms.assetid: 7266c02d-0f56-4754-8a67-68394a5f0158
-
 ms.date: 12/05/2018
 ms.keywords: IConfigurationDataCollector, IConfigurationDataCollector interface [PLA], IConfigurationDataCollector interface [PLA],described, base.iconfigurationdatacollector, pla.iconfigurationdatacollector, pla/IConfigurationDataCollector
 ms.topic: interface
-f1_keywords: 
- - "pla/IConfigurationDataCollector"
+f1_keywords:
+- pla/IConfigurationDataCollector
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IConfigurationDataCollector
+- IConfigurationDataCollector
 targetos: Windows
 req.typenames: 
 req.redist: 

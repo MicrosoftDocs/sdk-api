@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS
 title: IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS (mfidl.h)
-
 description: Unregisters the topology work queues from the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfworkqueueservices_beginunregistertopologyworkqueueswithmmcss.htm
 tech.root: medfound
 ms.assetid: af68b792-6e00-4ed1-91f8-f275288dc680
-
 ms.date: 12/05/2018
 ms.keywords: BeginUnregisterTopologyWorkQueuesWithMMCSS, BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation], BeginUnregisterTopologyWorkQueuesWithMMCSS method [Media Foundation],IMFWorkQueueServices interface, IMFWorkQueueServices interface [Media Foundation],BeginUnregisterTopologyWorkQueuesWithMMCSS method, IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS, IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS, af68b792-6e00-4ed1-91f8-f275288dc680, mf.imfworkqueueservices_beginunregistertopologyworkqueueswithmmcss, mfidl/IMFWorkQueueServices::BeginUnregisterTopologyWorkQueuesWithMMCSS
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS"
+f1_keywords:
+- mfidl/IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS
+- IMFWorkQueueServices.BeginUnregisterTopologyWorkQueuesWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 

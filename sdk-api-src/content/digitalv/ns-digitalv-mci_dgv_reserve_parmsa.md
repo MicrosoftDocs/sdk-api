@@ -1,19 +1,17 @@
 ---
 UID: NS:digitalv.__unnamed_struct_18
 title: MCI_DGV_RESERVE_PARMSA (digitalv.h)
-
 description: The MCI_DGV_RESERVE_PARMS structure contains information for the MCI_RESERVE command for digital-video devices.
 old-location: multimedia\mci_dgv_reserve_parms.htm
 tech.root: Multimedia
 ms.assetid: f3105822-bdef-4e8d-912c-9d4b8d78cc47
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMCI_DGV_RESERVE_PARMSA, MCI_DGV_RESERVE_PARMS, MCI_DGV_RESERVE_PARMS structure [Windows Multimedia], MCI_DGV_RESERVE_PARMSA, _win32_MCI_DGV_RESERVE_PARMS_str, digitalv/MCI_DGV_RESERVE_PARMS, multimedia.mci_dgv_reserve_parms"
+ms.keywords: '*LPMCI_DGV_RESERVE_PARMSA, MCI_DGV_RESERVE_PARMS, MCI_DGV_RESERVE_PARMS structure [Windows Multimedia], MCI_DGV_RESERVE_PARMSA, _win32_MCI_DGV_RESERVE_PARMS_str, digitalv/MCI_DGV_RESERVE_PARMS, multimedia.mci_dgv_reserve_parms'
 ms.topic: struct
-f1_keywords: 
- - "digitalv/MCI_DGV_RESERVE_PARMS"
+f1_keywords:
+- digitalv/MCI_DGV_RESERVE_PARMS
 dev_langs:
- - c++
+- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Digitalv.h
+- Digitalv.h
 api_name:
- - MCI_DGV_RESERVE_PARMS
- - MCI_DGV_RESERVE_PARMSA
+- MCI_DGV_RESERVE_PARMS
+- MCI_DGV_RESERVE_PARMSA
 targetos: Windows
 req.typenames: MCI_DGV_RESERVE_PARMSA
 req.redist: 

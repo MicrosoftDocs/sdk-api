@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPDescriptionDocument
 title: IUPnPDescriptionDocument (upnp.h)
-
 description: The IUPnPDescriptionDocument interface enables an application to load a device description.
 old-location: upnp\iupnpdescriptiondocument.htm
 tech.root: upnp
 ms.assetid: 25bd3abd-b270-4609-93bb-a786ccaa95dd
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument, IUPnPDescriptionDocument interface [UPnP APIs], IUPnPDescriptionDocument interface [UPnP APIs],described, _upnp_iupnpdescriptiondocument, upnp.iupnpdescriptiondocument, upnp/IUPnPDescriptionDocument
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPDescriptionDocument"
+f1_keywords:
+- upnp/IUPnPDescriptionDocument
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDescriptionDocument
+- IUPnPDescriptionDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

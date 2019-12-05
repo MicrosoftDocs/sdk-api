@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetGlyphRunWorldBounds
 title: ID2D1DeviceContext::GetGlyphRunWorldBounds (d2d1_1.h)
-
 description: Gets the world-space bounds in DIPs of the glyph run using the device context DPI.
 old-location: direct2d\id2d1devicecontext_getglyphrunworldbounds.htm
 tech.root: Direct2D
 ms.assetid: 1196095A-4B26-4E71-A7F4-86F23B79E1F6
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphRunWorldBounds, GetGlyphRunWorldBounds method [Direct2D], GetGlyphRunWorldBounds method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],GetGlyphRunWorldBounds method, ID2D1DeviceContext.GetGlyphRunWorldBounds, ID2D1DeviceContext::GetGlyphRunWorldBounds, d2d1_1/ID2D1DeviceContext::GetGlyphRunWorldBounds, direct2d.id2d1devicecontext_getglyphrunworldbounds
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.GetGlyphRunWorldBounds"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.GetGlyphRunWorldBounds
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.GetGlyphRunWorldBounds
+- ID2D1DeviceContext.GetGlyphRunWorldBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

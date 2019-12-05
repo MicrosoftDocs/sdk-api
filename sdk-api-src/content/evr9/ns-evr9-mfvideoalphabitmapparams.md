@@ -1,19 +1,17 @@
 ---
 UID: NS:evr9.MFVideoAlphaBitmapParams
 title: MFVideoAlphaBitmapParams (evr9.h)
-
 description: Specifies how the enhanced video renderer (EVR) alpha-blends a bitmap with the video.
 old-location: mf\mfvideoalphabitmapparams.htm
 tech.root: medfound
 ms.assetid: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce
-
 ms.date: 12/05/2018
 ms.keywords: 3a7f67fa-ca54-4b6f-9cfc-e8eba57f00ce, MFVideoAlphaBitmapParams, MFVideoAlphaBitmapParams structure [Media Foundation], evr9/MFVideoAlphaBitmapParams, mf.mfvideoalphabitmapparams
 ms.topic: struct
-f1_keywords: 
- - "evr9/MFVideoAlphaBitmapParams"
+f1_keywords:
+- evr9/MFVideoAlphaBitmapParams
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evr9.h
+- evr9.h
 api_name:
- - MFVideoAlphaBitmapParams
+- MFVideoAlphaBitmapParams
 targetos: Windows
 req.typenames: MFVideoAlphaBitmapParams
 req.redist: 

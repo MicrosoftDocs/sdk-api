@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ColorMatchToTarget
 title: ColorMatchToTarget function (wingdi.h)
-
 description: The ColorMatchToTarget function enables you to preview colors as they would appear on the target device.
 old-location: wcs\colormatchtotarget.htm
 tech.root: WCS
 ms.assetid: eb922411-0808-4404-bdaf-bf29d0cad379
-
 ms.date: 12/05/2018
 ms.keywords: CS_DELETE_TRANSFORM, CS_DISABLE, CS_ENABLE, ColorMatchToTarget, ColorMatchToTarget function [Windows Color System], _color_ColorMatchToTarget, wcs.colormatchtotarget, wingdi/ColorMatchToTarget
 ms.topic: function
-f1_keywords: 
- - "wingdi/ColorMatchToTarget"
+f1_keywords:
+- wingdi/ColorMatchToTarget
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - ColorMatchToTarget
+- ColorMatchToTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

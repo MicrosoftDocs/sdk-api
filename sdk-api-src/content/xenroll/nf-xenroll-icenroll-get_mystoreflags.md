@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_MyStoreFlags
 title: ICEnroll::get_MyStoreFlags (xenroll.h)
-
 description: Sets or retrieves the registry location used for MY store.
 old-location: security\icenroll4_mystoreflags.htm
 tech.root: SecCrypto
 ms.assetid: 0616c666-9cfc-48f9-93a2-91d51d8dff04
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],MyStoreFlags property, ICEnroll interface [Security],MyStoreFlags property, ICEnroll.MyStoreFlags, ICEnroll.get_MyStoreFlags, ICEnroll2 interface [Security],MyStoreFlags property, ICEnroll2.MyStoreFlags, ICEnroll2::get_MyStoreFlags, ICEnroll2::put_MyStoreFlags, ICEnroll3 interface [Security],MyStoreFlags property, ICEnroll3.MyStoreFlags, ICEnroll3::get_MyStoreFlags, ICEnroll3::put_MyStoreFlags, ICEnroll4 interface [Security],MyStoreFlags property, ICEnroll4.MyStoreFlags, ICEnroll4::MyStoreFlags, ICEnroll4::get_MyStoreFlags, ICEnroll4::put_MyStoreFlags, ICEnroll::get_MyStoreFlags, ICEnroll::put_MyStoreFlags, MyStoreFlags property [Security], MyStoreFlags property [Security],CEnroll object, MyStoreFlags property [Security],ICEnroll interface, MyStoreFlags property [Security],ICEnroll2 interface, MyStoreFlags property [Security],ICEnroll3 interface, MyStoreFlags property [Security],ICEnroll4 interface, get_MyStoreFlags, security.icenroll4_mystoreflags, xenroll/ICEnroll2::MyStoreFlags, xenroll/ICEnroll2::get_MyStoreFlags, xenroll/ICEnroll2::put_MyStoreFlags, xenroll/ICEnroll3::MyStoreFlags, xenroll/ICEnroll3::get_MyStoreFlags, xenroll/ICEnroll3::put_MyStoreFlags, xenroll/ICEnroll4::MyStoreFlags, xenroll/ICEnroll4::get_MyStoreFlags, xenroll/ICEnroll4::put_MyStoreFlags, xenroll/ICEnroll::MyStoreFlags, xenroll/ICEnroll::get_MyStoreFlags, xenroll/ICEnroll::put_MyStoreFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.MyStoreFlags"
+f1_keywords:
+- xenroll/ICEnroll4.MyStoreFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.MyStoreFlags
- - ICEnroll4.get_MyStoreFlags
- - ICEnroll4.put_MyStoreFlags
- - ICEnroll3.MyStoreFlags
- - ICEnroll3.get_MyStoreFlags
- - ICEnroll3.put_MyStoreFlags
- - ICEnroll2.MyStoreFlags
- - ICEnroll2.get_MyStoreFlags
- - ICEnroll2.put_MyStoreFlags
- - ICEnroll.MyStoreFlags
- - ICEnroll.get_MyStoreFlags
- - ICEnroll.put_MyStoreFlags
- - CEnroll.MyStoreFlags
+- ICEnroll4.MyStoreFlags
+- ICEnroll4.get_MyStoreFlags
+- ICEnroll4.put_MyStoreFlags
+- ICEnroll3.MyStoreFlags
+- ICEnroll3.get_MyStoreFlags
+- ICEnroll3.put_MyStoreFlags
+- ICEnroll2.MyStoreFlags
+- ICEnroll2.get_MyStoreFlags
+- ICEnroll2.put_MyStoreFlags
+- ICEnroll.MyStoreFlags
+- ICEnroll.get_MyStoreFlags
+- ICEnroll.put_MyStoreFlags
+- CEnroll.MyStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

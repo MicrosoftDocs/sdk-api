@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.GetAllocLength
 title: CHString::GetAllocLength (chstring.h)
-
 description: The GetAllocLength method returns the size of the allocated string buffer.
 old-location: wmi\chstring_getalloclength.htm
 tech.root: WmiSdk
 ms.assetid: f6761c83-d5f2-4900-9863-96692fe897fa
-
 ms.date: 12/05/2018
-ms.keywords: "?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Management Instrumentation],GetAllocLength method, CHString.GetAllocLength, CHString::GetAllocLength, GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength"
+ms.keywords: ?GetAllocLength@CHString@@QBEHXZ, CHString interface [Windows Management Instrumentation],GetAllocLength method, CHString.GetAllocLength, CHString::GetAllocLength, GetAllocLength, GetAllocLength method [Windows Management Instrumentation], GetAllocLength method [Windows Management Instrumentation],CHString interface, _hmm_chstring_getalloclength, chstring/CHString::GetAllocLength, wmi.chstring_getalloclength
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.GetAllocLength"
+f1_keywords:
+- chstring/CHString.GetAllocLength
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.GetAllocLength
- - ?GetAllocLength@CHString@@QBEHXZ
+- CHString.GetAllocLength
+- ?GetAllocLength@CHString@@QBEHXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

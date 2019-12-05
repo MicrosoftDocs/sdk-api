@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SchedulesEnabled
 title: IDataCollectorSet::get_SchedulesEnabled (pla.h)
-
 description: Retrieves or sets a value that indicates whether the schedules are enabled.
 old-location: pla\idatacollectorset_get_schedulesenabled.htm
 tech.root: PLA
 ms.assetid: 75ebe328-1494-464c-9491-e8a39e1d8ee1
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SchedulesEnabled property, IDataCollectorSet.SchedulesEnabled, IDataCollectorSet.get_SchedulesEnabled, IDataCollectorSet::SchedulesEnabled, IDataCollectorSet::get_SchedulesEnabled, IDataCollectorSet::put_SchedulesEnabled, SchedulesEnabled property [PLA], SchedulesEnabled property [PLA],IDataCollectorSet interface, base.idatacollectorset_get_schedulesenabled, get_SchedulesEnabled, pla.idatacollectorset_get_schedulesenabled, pla/IDataCollectorSet::SchedulesEnabled, pla/IDataCollectorSet::get_SchedulesEnabled, pla/IDataCollectorSet::put_SchedulesEnabled
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.SchedulesEnabled"
+f1_keywords:
+- pla/IDataCollectorSet.SchedulesEnabled
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.SchedulesEnabled
- - IDataCollectorSet.get_SchedulesEnabled
- - IDataCollectorSet.put_SchedulesEnabled
+- IDataCollectorSet.SchedulesEnabled
+- IDataCollectorSet.get_SchedulesEnabled
+- IDataCollectorSet.put_SchedulesEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

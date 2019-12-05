@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DGetBlobPart
 title: D3DGetBlobPart function (d3dcompiler.h)
-
 description: Retrieves a specific part from a compilation result.
 old-location: direct3dhlsl\d3dgetblobpart.htm
 tech.root: direct3dhlsl
 ms.assetid: cf9cea53-e7a3-4473-bfdf-0cdeb8370974
-
 ms.date: 12/05/2018
 ms.keywords: D3DGetBlobPart, D3DGetBlobPart function [HLSL], d3dcompiler/D3DGetBlobPart, direct3dhlsl.d3dgetblobpart
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DGetBlobPart"
+f1_keywords:
+- d3dcompiler/D3DGetBlobPart
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - D3DGetBlobPart
+- D3DGetBlobPart
 targetos: Windows
 req.typenames: 
 req.redist: 

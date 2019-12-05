@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfSource.AdviseSink
 title: ITfSource::AdviseSink (msctf.h)
-
 description: ITfSource::AdviseSink method
 old-location: tsf\itfsource_advisesink.htm
 tech.root: TSF
 ms.assetid: 90928e6e-e11e-42ad-9b3e-d974642aca36
-
 ms.date: 12/05/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITfSource interface, IID_ITfActiveLanguageProfileNotifySink, IID_ITfDisplayAttributeNotifySink, IID_ITfKeyTraceEventSink, IID_ITfPreservedKeyNotifySink, IID_ITfThreadFocusSink, IID_ITfThreadMgrEventSink, ITfSource interface [Text Services Framework],AdviseSink method, ITfSource.AdviseSink, ITfSource::AdviseSink, _tsf_itfsource_advisesink_ref, msctf/ITfSource::AdviseSink, tsf.itfsource_advisesink
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfSource.AdviseSink"
+f1_keywords:
+- msctf/ITfSource.AdviseSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfSource.AdviseSink
+- ITfSource.AdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

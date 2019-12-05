@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.get_Authorization
 title: IWindowsMediaLibrarySharingDevice::get_Authorization (wmlss.h)
-
 description: The get_Authorization method retrieves a value that indicates whether the device is authorized to have access to the current user's media library.
 old-location: wmlss\IWMLSDeviceget_Authorization.htm
 tech.root: WMLSS
 ms.assetid: 0bdf06c4-f611-48c8-8289-e51351b234ee
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],get_Authorization method, IWindowsMediaLibrarySharingDevice.get_Authorization, IWindowsMediaLibrarySharingDevice::get_Authorization, get_Authorization, get_Authorization method [Windows Media Library Sharing Services], get_Authorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceget_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::get_Authorization
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingDevice.get_Authorization"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingDevice.get_Authorization
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDevice.get_Authorization
+- IWindowsMediaLibrarySharingDevice.get_Authorization
 targetos: Windows
 req.typenames: 
 req.redist: 

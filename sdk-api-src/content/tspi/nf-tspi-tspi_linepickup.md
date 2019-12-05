@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_linePickup
 title: TSPI_linePickup function (tspi.h)
-
 description: The TSPI_linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
 old-location: tspi\tspi_linepickup.htm
 tech.root: Tapi
 ms.assetid: 97ab8896-3794-4de2-a1af-41025d2b6b17
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_linePickup, TSPI_linePickup function [TAPI 2.2], _tspi_tspi_linepickup, tspi.tspi_linepickup, tspi/TSPI_linePickup
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_linePickup"
+f1_keywords:
+- tspi/TSPI_linePickup
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_linePickup
+- TSPI_linePickup
 targetos: Windows
 req.typenames: 
 req.redist: 

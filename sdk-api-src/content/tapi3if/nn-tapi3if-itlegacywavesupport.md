@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITLegacyWaveSupport
 title: ITLegacyWaveSupport (tapi3if.h)
-
 description: The ITLegacyWaveSupport interface allows an application to discover whether a terminal created by a legacy TSP (pre-TAPI 3) can be controlled using the Wave API.
 old-location: tapi3\itlegacywavesupport.htm
 tech.root: Tapi
 ms.assetid: f1ef5f5d-822d-466d-997e-e9c1a09abcbe
-
 ms.date: 12/05/2018
 ms.keywords: ITLegacyWaveSupport, ITLegacyWaveSupport interface [TAPI 2.2], ITLegacyWaveSupport interface [TAPI 2.2],described, _tapi3_itlegacywavesupport, tapi3.itlegacywavesupport, tapi3if/ITLegacyWaveSupport
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITLegacyWaveSupport"
+f1_keywords:
+- tapi3if/ITLegacyWaveSupport
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyWaveSupport
+- ITLegacyWaveSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

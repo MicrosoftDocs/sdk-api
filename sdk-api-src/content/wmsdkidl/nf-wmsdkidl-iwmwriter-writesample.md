@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.WriteSample
 title: IWMWriter::WriteSample (wmsdkidl.h)
-
 description: The WriteSample method passes in uncompressed data to be compressed and appended to the file that is being created.
 old-location: wmformat\iwmwriter_writesample.htm
 tech.root: wmformat
 ms.assetid: ba1cf121-1d01-4e90-9ab0-95af0b6e3850
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],WriteSample method, IWMWriter.WriteSample, IWMWriter::WriteSample, IWMWriterWriteSample, WriteSample, WriteSample method [windows Media Format], WriteSample method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_writesample, wmsdkidl/IWMWriter::WriteSample
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.WriteSample"
+f1_keywords:
+- wmsdkidl/IWMWriter.WriteSample
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.WriteSample
+- IWMWriter.WriteSample
 targetos: Windows
 req.typenames: 
 req.redist: 

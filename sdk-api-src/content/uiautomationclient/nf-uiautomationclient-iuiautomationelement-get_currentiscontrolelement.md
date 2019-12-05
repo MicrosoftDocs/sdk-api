@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentIsControlElement
 title: IUIAutomationElement::get_CurrentIsControlElement (uiautomationclient.h)
-
 description: Indicates whether the element is a control element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentIsControlElement.htm
 tech.root: WinAuto
 ms.assetid: 9205db9b-becd-4485-8cba-516b6842b44f
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsControlElement property [Windows Accessibility], CurrentIsControlElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentIsControlElement property, IUIAutomationElement.CurrentIsControlElement, IUIAutomationElement.get_CurrentIsControlElement, IUIAutomationElement::CurrentIsControlElement, IUIAutomationElement::get_CurrentIsControlElement, get_CurrentIsControlElement, uiauto.uiauto_IUIAutomationElement_CurrentIsControlElement, uiauto_IUIAutomationElement_CurrentIsControlElement, uiautomationclient/IUIAutomationElement::CurrentIsControlElement, uiautomationclient/IUIAutomationElement::get_CurrentIsControlElement, winauto.uiauto_IUIAutomationElement_CurrentIsControlElement
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentIsControlElement"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentIsControlElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentIsControlElement
- - IUIAutomationElement.get_CurrentIsControlElement
+- IUIAutomationElement.CurrentIsControlElement
+- IUIAutomationElement.get_CurrentIsControlElement
 targetos: Windows
 req.typenames: 
 req.redist: 

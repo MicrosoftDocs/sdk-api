@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_ServerName
 title: IExeServerRegistration::get_ServerName (activationregistration.h)
-
 description: Gets the name of the current out-of-process server.
 old-location: winrt\iexeserverregistration_servername.htm
 tech.root: WinRT
 ms.assetid: CB7CAA65-4DA9-4948-AEB4-150A45629947
-
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_ServerName method, IExeServerRegistration.get_ServerName, IExeServerRegistration::get_ServerName, activationregistration/IExeServerRegistration::get_ServerName, get_ServerName, get_ServerName method [Windows Runtime], get_ServerName method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_servername
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IExeServerRegistration.get_ServerName"
+f1_keywords:
+- activationregistration/IExeServerRegistration.get_ServerName
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IExeServerRegistration.get_ServerName
+- IExeServerRegistration.get_ServerName
 targetos: Windows
 req.typenames: 
 req.redist: 

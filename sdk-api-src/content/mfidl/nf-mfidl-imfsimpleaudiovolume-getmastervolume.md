@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMasterVolume
 title: IMFSimpleAudioVolume::GetMasterVolume (mfidl.h)
-
 description: Retrieves the master volume level.
 old-location: mf\imfsimpleaudiovolume_getmastervolume.htm
 tech.root: medfound
 ms.assetid: 03ce097e-c4e5-4dac-84c0-b569efc420bc
-
 ms.date: 12/05/2018
 ms.keywords: 03ce097e-c4e5-4dac-84c0-b569efc420bc, GetMasterVolume, GetMasterVolume method [Media Foundation], GetMasterVolume method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMasterVolume method, IMFSimpleAudioVolume.GetMasterVolume, IMFSimpleAudioVolume::GetMasterVolume, mf.imfsimpleaudiovolume_getmastervolume, mfidl/IMFSimpleAudioVolume::GetMasterVolume
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSimpleAudioVolume.GetMasterVolume"
+f1_keywords:
+- mfidl/IMFSimpleAudioVolume.GetMasterVolume
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.GetMasterVolume
+- IMFSimpleAudioVolume.GetMasterVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

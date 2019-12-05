@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfReleaseProtectedHandle
 title: CfReleaseProtectedHandle function (cfapi.h)
-
 description: Releases a protected handle referenced by CfReferenceProtectedHandle.
 old-location: cloudapi\cfreleaseprotectedhandle.htm
 tech.root: cfApi
 ms.assetid: BB63C5EE-92D7-4051-8198-09F50BBC75C5
-
 ms.date: 12/05/2018
 ms.keywords: CfReleaseProtectedHandle, CfReleaseProtectedHandle function, cfapi/CfReleaseProtectedHandle, cloudApi.cfreleaseprotectedhandle
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfReleaseProtectedHandle"
+f1_keywords:
+- cfapi/CfReleaseProtectedHandle
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfReleaseProtectedHandle
+- CfReleaseProtectedHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

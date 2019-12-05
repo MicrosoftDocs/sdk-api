@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.AuditEnumerateCategories
 title: AuditEnumerateCategories function (ntsecapi.h)
-
 description: Enumerates the available audit-policy categories.
 old-location: security\auditenumeratecategories_func.htm
 tech.root: SecAuthZ
 ms.assetid: bcfdb24b-182e-4845-95c0-a210915435ae
-
 ms.date: 12/05/2018
 ms.keywords: AuditEnumerateCategories, AuditEnumerateCategories function [Security], ntsecapi/AuditEnumerateCategories, security.auditenumeratecategories_func
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/AuditEnumerateCategories"
+f1_keywords:
+- ntsecapi/AuditEnumerateCategories
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-audit-l1-1-1.dll
- - sechost.dll
+- Advapi32.dll
+- API-MS-Win-Security-audit-l1-1-1.dll
+- sechost.dll
 api_name:
- - AuditEnumerateCategories
+- AuditEnumerateCategories
 targetos: Windows
 req.typenames: 
 req.redist: 

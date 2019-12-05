@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WIC8BIMIptcDigestProperties
 title: WIC8BIMIptcDigestProperties (wincodec.h)
-
 description: Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata block.
 old-location: wic\_wic_codec_wic8bimiptcdigestproperties.htm
 tech.root: wic
 ms.assetid: b0dbd1fa-face-4f6f-a943-60d108388b97
-
 ms.date: 12/05/2018
 ms.keywords: WIC8BIMIptcDigestIptcDigest, WIC8BIMIptcDigestPString, WIC8BIMIptcDigestProperties, WIC8BIMIptcDigestProperties enumeration [Windows Imaging Component], _wic_codec_wic8bimiptcdigestproperties, wic._wic_codec_wic8bimiptcdigestproperties, wincodec/WIC8BIMIptcDigestIptcDigest, wincodec/WIC8BIMIptcDigestPString, wincodec/WIC8BIMIptcDigestProperties
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WIC8BIMIptcDigestProperties"
+f1_keywords:
+- wincodec/WIC8BIMIptcDigestProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WIC8BIMIptcDigestProperties
+- WIC8BIMIptcDigestProperties
 targetos: Windows
 req.typenames: WIC8BIMIptcDigestProperties
 req.redist: 

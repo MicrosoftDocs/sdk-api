@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetFlattenedBezierPoints
 title: IInkStrokeDisp::GetFlattenedBezierPoints (msinkaut.h)
-
 description: Retrieves the bounding box in ink space coordinates for either all of the strokes in an InkDisp object, an individual stroke, or a InkStrokes collection.
 old-location: tablet\iinkstrokedisp_getflattenedbezierpoints.htm
 tech.root: tablet
 ms.assetid: e39e3fc3-bcdc-4d88-8051-18ed8b183c79
-
 ms.date: 12/05/2018
 ms.keywords: GetFlattenedBezierPoints, GetFlattenedBezierPoints method [Tablet PC], GetFlattenedBezierPoints method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],GetFlattenedBezierPoints method, IInkStrokeDisp.GetFlattenedBezierPoints, IInkStrokeDisp::GetFlattenedBezierPoints, e39e3fc3-bcdc-4d88-8051-18ed8b183c79, msinkaut/IInkStrokeDisp::GetFlattenedBezierPoints, tablet.iinkstrokedisp_getflattenedbezierpoints
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.GetFlattenedBezierPoints"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.GetFlattenedBezierPoints
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.GetFlattenedBezierPoints
+- IInkStrokeDisp.GetFlattenedBezierPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

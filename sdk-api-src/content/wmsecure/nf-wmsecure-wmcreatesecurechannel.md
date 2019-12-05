@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.WMCreateSecureChannel
 title: WMCreateSecureChannel function (wmsecure.h)
-
 description: Creates an object that implements IWMSecureChannel.
 old-location: wmformat\wmcreatesecurechannel.htm
 tech.root: wmformat
 ms.assetid: 0893162d-f110-472a-91c0-70ba58943a22
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateSecureChannel, WMCreateSecureChannel function [windows Media Format], wmformat.wmcreatesecurechannel, wmsecure/WMCreateSecureChannel
 ms.topic: function
-f1_keywords: 
- - "wmsecure/WMCreateSecureChannel"
+f1_keywords:
+- wmsecure/WMCreateSecureChannel
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - WMCreateSecureChannel
+- WMCreateSecureChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

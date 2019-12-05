@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfTextLayoutSink.OnLayoutChange
 title: ITfTextLayoutSink::OnLayoutChange (msctf.h)
-
 description: ITfTextLayoutSink::OnLayoutChange method
 old-location: tsf\itftextlayoutsink_onlayoutchange.htm
 tech.root: TSF
 ms.assetid: a99313ab-98a7-4fc0-b3ae-78ff26a41d8e
-
 ms.date: 12/05/2018
 ms.keywords: ITfTextLayoutSink interface [Text Services Framework],OnLayoutChange method, ITfTextLayoutSink.OnLayoutChange, ITfTextLayoutSink::OnLayoutChange, OnLayoutChange, OnLayoutChange method [Text Services Framework], OnLayoutChange method [Text Services Framework],ITfTextLayoutSink interface, _tsf_itftextlayoutsink_onlayoutchange_ref, msctf/ITfTextLayoutSink::OnLayoutChange, tsf.itftextlayoutsink_onlayoutchange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfTextLayoutSink.OnLayoutChange"
+f1_keywords:
+- msctf/ITfTextLayoutSink.OnLayoutChange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITfTextLayoutSink.OnLayoutChange
+- ITfTextLayoutSink.OnLayoutChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

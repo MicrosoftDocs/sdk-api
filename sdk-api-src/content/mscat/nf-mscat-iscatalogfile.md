@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.IsCatalogFile
 title: IsCatalogFile function (mscat.h)
-
 description: Retrieves a Boolean value that indicates whether the specified file is a catalog file.
 old-location: security\iscatalogfile.htm
 tech.root: SecCrypto
 ms.assetid: eeba34d4-08aa-456a-8fdc-16795cbce36a
-
 ms.date: 12/05/2018
 ms.keywords: IsCatalogFile, IsCatalogFile function [Security], mscat/IsCatalogFile, security.iscatalogfile
 ms.topic: function
-f1_keywords: 
- - "mscat/IsCatalogFile"
+f1_keywords:
+- mscat/IsCatalogFile
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - IsCatalogFile
+- IsCatalogFile
 targetos: Windows
 req.typenames: 
 req.redist: 

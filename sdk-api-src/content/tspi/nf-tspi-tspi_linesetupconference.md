@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetupConference
 title: TSPI_lineSetupConference function (tspi.h)
-
 description: The TSPI_lineSetupConference function sets up a conference call for the addition of the third party.
 old-location: tspi\tspi_linesetupconference.htm
 tech.root: Tapi
 ms.assetid: 71b9720b-54dc-44a7-9fad-38dcd9f57ab3
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetupConference, TSPI_lineSetupConference function [TAPI 2.2], _tspi_tspi_linesetupconference, tspi.tspi_linesetupconference, tspi/TSPI_lineSetupConference
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetupConference"
+f1_keywords:
+- tspi/TSPI_lineSetupConference
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetupConference
+- TSPI_lineSetupConference
 targetos: Windows
 req.typenames: 
 req.redist: 

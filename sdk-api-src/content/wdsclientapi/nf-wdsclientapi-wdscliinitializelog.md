@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliInitializeLog
 title: WdsCliInitializeLog function (wdsclientapi.h)
-
 description: Initializes logging for the WDS client.
 old-location: wds\wdscliinitializelog.htm
 tech.root: wds
 ms.assetid: 9d5ad574-a2b6-49cc-8783-4947c3d81d25
-
 ms.date: 12/05/2018
 ms.keywords: PROCESSOR_ARCHITECTURE_AMD64, PROCESSOR_ARCHITECTURE_IA64, PROCESSOR_ARCHITECTURE_INTEL, WdsCliInitializeLog, WdsCliInitializeLog function [Windows Deployment Services], wds.wdscliinitializelog, wdsclientapi/WdsCliInitializeLog
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliInitializeLog"
+f1_keywords:
+- wdsclientapi/WdsCliInitializeLog
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliInitializeLog
+- WdsCliInitializeLog
 targetos: Windows
 req.typenames: 
 req.redist: 

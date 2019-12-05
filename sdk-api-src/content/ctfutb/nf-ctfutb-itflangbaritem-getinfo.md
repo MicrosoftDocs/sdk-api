@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetInfo
 title: ITfLangBarItem::GetInfo (ctfutb.h)
-
 description: ITfLangBarItem::GetInfo method
 old-location: tsf\itflangbaritem_getinfo.htm
 tech.root: TSF
 ms.assetid: b32e433a-c0d6-418e-bf11-2291c85373c2
-
 ms.date: 12/05/2018
 ms.keywords: GetInfo, GetInfo method [Text Services Framework], GetInfo method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetInfo method, ITfLangBarItem.GetInfo, ITfLangBarItem::GetInfo, _tsf_itflangbaritem_getinfo_ref, ctfutb/ITfLangBarItem::GetInfo, tsf.itflangbaritem_getinfo
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItem.GetInfo"
+f1_keywords:
+- ctfutb/ITfLangBarItem.GetInfo
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarItem.GetInfo
+- ITfLangBarItem.GetInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

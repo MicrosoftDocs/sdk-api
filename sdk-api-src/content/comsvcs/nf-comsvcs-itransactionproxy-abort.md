@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Abort
 title: ITransactionProxy::Abort (comsvcs.h)
-
 description: Aborts the transaction.
 old-location: cos\itransactionproxy_abort.htm
 tech.root: cossdk
 ms.assetid: 15ad94ac-311f-486d-988b-9071396f6e34
-
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],Abort method, ITransactionProxy.Abort, ITransactionProxy::Abort, comsvcs/ITransactionProxy::Abort, cos.itransactionproxy_abort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionProxy.Abort"
+f1_keywords:
+- comsvcs/ITransactionProxy.Abort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProxy.Abort
+- ITransactionProxy.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 

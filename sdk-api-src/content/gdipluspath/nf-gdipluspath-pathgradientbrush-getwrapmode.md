@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetWrapMode
 title: PathGradientBrush::GetWrapMode (gdipluspath.h)
-
 description: The PathGradientBrush::GetWrapMode method gets the wrap mode currently set for this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetWrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getwrapmode_45.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetWrapMode method, PathGradientBrush.GetWrapMode, PathGradientBrush::GetWrapMode, _gdiplus_CLASS_PathGradientBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetWrapMode_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.GetWrapMode"
+f1_keywords:
+- gdipluspath/PathGradientBrush.GetWrapMode
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.GetWrapMode
+- PathGradientBrush.GetWrapMode
 targetos: Windows
 req.typenames: 
 req.redist: 

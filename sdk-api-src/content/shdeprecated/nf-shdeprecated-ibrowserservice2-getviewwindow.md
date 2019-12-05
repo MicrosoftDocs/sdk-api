@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.GetViewWindow
 title: IBrowserService2::GetViewWindow (shdeprecated.h)
-
 description: Deprecated. Provides direct access to the browser view window created by IBrowserService2::CreateViewWindow.
 old-location: shell\IBrowserService2_GetViewWindow.htm
 tech.root: shell
 ms.assetid: ec0b2304-cbcb-49ac-aca0-780f1e5205ad
-
 ms.date: 12/05/2018
 ms.keywords: GetViewWindow, GetViewWindow method [Windows Shell], GetViewWindow method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],GetViewWindow method, IBrowserService2.GetViewWindow, IBrowserService2::GetViewWindow, shdeprecated/IBrowserService2::GetViewWindow, shell.IBrowserService2_GetViewWindow, zone_IBrowserService2_GetViewWindow
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.GetViewWindow"
+f1_keywords:
+- shdeprecated/IBrowserService2.GetViewWindow
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.GetViewWindow
+- IBrowserService2.GetViewWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

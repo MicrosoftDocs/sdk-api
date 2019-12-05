@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IProcessLock
 title: IProcessLock (objidl.h)
-
 description: Used by ISurrogateService to prevent the process from terminating due to a time-out.
 old-location: com\iprocesslock.htm
 tech.root: com
 ms.assetid: 49ec5657-d54e-4af7-8c20-00de383ecf89
-
 ms.date: 12/05/2018
 ms.keywords: IProcessLock, IProcessLock interface [COM], IProcessLock interface [COM],described, _com_iprocesslock, com.iprocesslock, objidl/IProcessLock
 ms.topic: interface
-f1_keywords: 
- - "objidl/IProcessLock"
+f1_keywords:
+- objidl/IProcessLock
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IProcessLock
+- IProcessLock
 targetos: Windows
 req.typenames: 
 req.redist: 

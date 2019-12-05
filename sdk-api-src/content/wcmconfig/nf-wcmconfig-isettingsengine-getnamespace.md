@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetNamespace
 title: ISettingsEngine::GetNamespace (wcmconfig.h)
-
 description: Opens an existing namespace as specified by the ISettingsIdentity parameter.
 old-location: smi\isettingsengine_getnamespace.htm
 tech.root: SMI
 ms.assetid: 4f8193f5-9e9f-4819-aa2e-72b8623eca71
-
 ms.date: 12/05/2018
 ms.keywords: GetNamespace, GetNamespace method [SMI], GetNamespace method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespace method, ISettingsEngine.GetNamespace, ISettingsEngine::GetNamespace, smi.isettingsengine_getnamespace, wcmconfig/ISettingsEngine::GetNamespace
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.GetNamespace"
+f1_keywords:
+- wcmconfig/ISettingsEngine.GetNamespace
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.GetNamespace
+- ISettingsEngine.GetNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

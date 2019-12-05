@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPicture.get_Height
 title: IPicture::get_Height (ocidl.h)
-
 description: Retrieves the current height of the picture in the picture object.
 old-location: com\ipicture_get_height.htm
 tech.root: com
 ms.assetid: a582cc9d-4356-49ec-9f14-38c75e690fbe
-
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_Height method, IPicture.get_Height, IPicture::get_Height, _ctrl_ipicture_get_height, com.ipicture_get_height, get_Height, get_Height method [COM], get_Height method [COM],IPicture interface, ocidl/IPicture::get_Height
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPicture.get_Height"
+f1_keywords:
+- ocidl/IPicture.get_Height
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture.get_Height
+- IPicture.get_Height
 targetos: Windows
 req.typenames: 
 req.redist: 

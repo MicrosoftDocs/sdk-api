@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_LOCAL_SERVICE_INFO
 title: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT (bluetoothapis.h)
-
 description: Contains local service information for a Bluetooth device.
 old-location: bluetooth\bluetooth_local_service_info.htm
 tech.root: bluetooth
 ms.assetid: d16fe6f1-4b76-4dbe-825e-e3995d2b4961
-
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_LOCAL_SERVICE_INFO, BLUETOOTH_LOCAL_SERVICE_INFO structure [Bluetooth], BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT, _BLUETOOTH_LOCAL_SERVICE_INFO, bluetooth.bluetooth_local_service_info, bluetoothapis/BLUETOOTH_LOCAL_SERVICE_INFO
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_LOCAL_SERVICE_INFO"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_LOCAL_SERVICE_INFO
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_LOCAL_SERVICE_INFO
+- BLUETOOTH_LOCAL_SERVICE_INFO
 targetos: Windows
 req.typenames: BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
 req.redist: 

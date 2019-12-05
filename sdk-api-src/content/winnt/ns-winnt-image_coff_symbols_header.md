@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._IMAGE_COFF_SYMBOLS_HEADER
 title: IMAGE_COFF_SYMBOLS_HEADER (winnt.h)
-
 description: Represents the COFF symbols header.
 old-location: base\image_coff_symbols_header_str.htm
 tech.root: Debug
 ms.assetid: f3a0ba0e-ef6b-4355-8dc4-5099dd54ab7e
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER structure, PIMAGE_COFF_SYMBOLS_HEADER, PIMAGE_COFF_SYMBOLS_HEADER structure pointer, _IMAGE_COFF_SYMBOLS_HEADER, _win32_image_coff_symbols_header_str, base.image_coff_symbols_header_str, winnt/IMAGE_COFF_SYMBOLS_HEADER, winnt/PIMAGE_COFF_SYMBOLS_HEADER"
+ms.keywords: '*PIMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER, IMAGE_COFF_SYMBOLS_HEADER structure, PIMAGE_COFF_SYMBOLS_HEADER, PIMAGE_COFF_SYMBOLS_HEADER structure pointer, _IMAGE_COFF_SYMBOLS_HEADER, _win32_image_coff_symbols_header_str, base.image_coff_symbols_header_str, winnt/IMAGE_COFF_SYMBOLS_HEADER, winnt/PIMAGE_COFF_SYMBOLS_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "winnt/IMAGE_COFF_SYMBOLS_HEADER"
+f1_keywords:
+- winnt/IMAGE_COFF_SYMBOLS_HEADER
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - IMAGE_COFF_SYMBOLS_HEADER
+- IMAGE_COFF_SYMBOLS_HEADER
 targetos: Windows
 req.typenames: IMAGE_COFF_SYMBOLS_HEADER, *PIMAGE_COFF_SYMBOLS_HEADER
 req.redist: 

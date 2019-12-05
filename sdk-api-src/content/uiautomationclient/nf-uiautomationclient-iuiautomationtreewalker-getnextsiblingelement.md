@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetNextSiblingElement
 title: IUIAutomationTreeWalker::GetNextSiblingElement (uiautomationclient.h)
-
 description: Retrieves the next sibling element of the specified UI Automation element.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetNextSibling.htm
 tech.root: WinAuto
 ms.assetid: a1e42cb4-0b87-42c2-9ea5-67630c0b895a
-
 ms.date: 12/05/2018
 ms.keywords: GetNextSiblingElement, GetNextSiblingElement method [Windows Accessibility], GetNextSiblingElement method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetNextSiblingElement method, IUIAutomationTreeWalker.GetNextSiblingElement, IUIAutomationTreeWalker::GetNextSiblingElement, uiauto.uiauto_IUIAutomationTreeWalker_GetNextSibling, uiauto_IUIAutomationTreeWalker_GetNextSibling, uiautomationclient/IUIAutomationTreeWalker::GetNextSiblingElement, winauto.uiauto_IUIAutomationTreeWalker_GetNextSibling
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElement"
+f1_keywords:
+- uiautomationclient/IUIAutomationTreeWalker.GetNextSiblingElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker.GetNextSiblingElement
+- IUIAutomationTreeWalker.GetNextSiblingElement
 targetos: Windows
 req.typenames: 
 req.redist: 

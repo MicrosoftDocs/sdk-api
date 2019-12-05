@@ -1,19 +1,17 @@
 ---
 UID: NS:lmshare._SHARE_INFO_0
 title: SHARE_INFO_0 (lmshare.h)
-
 description: Contains the name of the shared resource.
 old-location: fs\share_info_0_str.htm
 tech.root: NetShare
 ms.assetid: 47a74c71-1fcb-4c49-93b5-ea7cf3a0e567
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHARE_INFO_0, *PSHARE_INFO_0, LPSHARE_INFO_0, LPSHARE_INFO_0 structure pointer [Files], PSHARE_INFO_0, PSHARE_INFO_0 structure pointer [Files], SHARE_INFO_0, SHARE_INFO_0 structure [Files], _win32_share_info_0_str, fs.share_info_0_str, lmshare/LPSHARE_INFO_0, lmshare/PSHARE_INFO_0, lmshare/SHARE_INFO_0, netmgmt.share_info_0_str"
+ms.keywords: '*LPSHARE_INFO_0, *PSHARE_INFO_0, LPSHARE_INFO_0, LPSHARE_INFO_0 structure pointer [Files], PSHARE_INFO_0, PSHARE_INFO_0 structure pointer [Files], SHARE_INFO_0, SHARE_INFO_0 structure [Files], _win32_share_info_0_str, fs.share_info_0_str, lmshare/LPSHARE_INFO_0, lmshare/PSHARE_INFO_0, lmshare/SHARE_INFO_0, netmgmt.share_info_0_str'
 ms.topic: struct
-f1_keywords: 
- - "lmshare/SHARE_INFO_0"
+f1_keywords:
+- lmshare/SHARE_INFO_0
 dev_langs:
- - c++
+- c++
 req.header: lmshare.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmshare.h
+- Lmshare.h
 api_name:
- - SHARE_INFO_0
+- SHARE_INFO_0
 targetos: Windows
 req.typenames: SHARE_INFO_0, *PSHARE_INFO_0, *LPSHARE_INFO_0
 req.redist: 

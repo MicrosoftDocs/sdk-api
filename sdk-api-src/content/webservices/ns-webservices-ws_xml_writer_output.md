@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_OUTPUT
 title: WS_XML_WRITER_OUTPUT (webservices.h)
-
 description: Specifies where the writer should emit the bytes that comprise the xml document.
 old-location: wsw\ws_xml_writer_output.htm
 tech.root: wsw
 ms.assetid: 367e6f98-9351-4a08-b8ce-036e7f2788e4
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_OUTPUT, WS_XML_WRITER_OUTPUT structure [Web Services for Windows], webservices/WS_XML_WRITER_OUTPUT, wsw.ws_xml_writer_output
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_XML_WRITER_OUTPUT"
+f1_keywords:
+- webservices/WS_XML_WRITER_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_XML_WRITER_OUTPUT
+- WS_XML_WRITER_OUTPUT
 targetos: Windows
 req.typenames: WS_XML_WRITER_OUTPUT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment2.InitializeFromTemplate
 title: IX509Enrollment2::InitializeFromTemplate (certenroll.h)
-
 description: Initializes the enrollment object by using a template.
 old-location: security\ix509enrollment2_initializefromtemplate.htm
 tech.root: seccertenroll
 ms.assetid: aa260ff7-d55b-4fda-88e2-2f1d68cc41e1
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509Enrollment2 interface [Security],InitializeFromTemplate method, IX509Enrollment2.InitializeFromTemplate, IX509Enrollment2::InitializeFromTemplate, InitializeFromTemplate, InitializeFromTemplate method [Security], InitializeFromTemplate method [Security],IX509Enrollment2 interface, certenroll/IX509Enrollment2::InitializeFromTemplate, security.ix509enrollment2_initializefromtemplate
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment2.InitializeFromTemplate"
+f1_keywords:
+- certenroll/IX509Enrollment2.InitializeFromTemplate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509Enrollment2.InitializeFromTemplate
+- IX509Enrollment2.InitializeFromTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

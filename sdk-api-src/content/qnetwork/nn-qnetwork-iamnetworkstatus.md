@@ -1,19 +1,17 @@
 ---
 UID: NN:qnetwork.IAMNetworkStatus
 title: IAMNetworkStatus (qnetwork.h)
-
 description: The IAMNetworkStatus interface reports the quality of the network connection for the legacy Windows Media Player 6.4 source filter.
 old-location: dshow\iamnetworkstatus.htm
 tech.root: DirectShow
 ms.assetid: 51d56b76-f9fc-44e1-88f0-d35d861a4697
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus, IAMNetworkStatus interface [DirectShow], IAMNetworkStatus interface [DirectShow],described, IAMNetworkStatusInterface, dshow.iamnetworkstatus, qnetwork/IAMNetworkStatus
 ms.topic: interface
-f1_keywords: 
- - "qnetwork/IAMNetworkStatus"
+f1_keywords:
+- qnetwork/IAMNetworkStatus
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetworkStatus
+- IAMNetworkStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

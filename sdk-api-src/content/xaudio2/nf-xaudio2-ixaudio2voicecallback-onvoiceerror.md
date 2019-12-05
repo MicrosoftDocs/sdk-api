@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceError
 title: IXAudio2VoiceCallback::OnVoiceError (xaudio2.h)
-
 description: Called when a critical error occurs during voice processing.
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceerror.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceError(void,HRESULT)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs],OnVoiceError method, IXAudio2VoiceCallback.OnVoiceError, IXAudio2VoiceCallback::OnVoiceError, OnVoiceError, OnVoiceError method [XAudio2 Audio Mixing APIs], OnVoiceError method [XAudio2 Audio Mixing APIs],IXAudio2VoiceCallback interface, xaudio2.ixaudio2voicecallback_interface_onvoiceerror, xaudio2/IXAudio2VoiceCallback::OnVoiceError
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2VoiceCallback.OnVoiceError"
+f1_keywords:
+- xaudio2/IXAudio2VoiceCallback.OnVoiceError
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2VoiceCallback.OnVoiceError
+- IXAudio2VoiceCallback.OnVoiceError
 targetos: Windows
 req.typenames: 
 req.redist: 

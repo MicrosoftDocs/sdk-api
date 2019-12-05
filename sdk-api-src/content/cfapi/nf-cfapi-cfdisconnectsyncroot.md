@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfDisconnectSyncRoot
 title: CfDisconnectSyncRoot function (cfapi.h)
-
 description: Disconnects a communication channel created by CfConnectSyncRoot.
 old-location: cloudapi\cfdisconnectsyncroot.htm
 tech.root: cfApi
 ms.assetid: AB09804A-257B-49A2-861E-B6E102D45182
-
 ms.date: 12/05/2018
 ms.keywords: CfDisconnectSyncRoot, CfDisconnectSyncRoot function, cfapi/CfDisconnectSyncRoot, cloudApi.cfdisconnectsyncroot
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfDisconnectSyncRoot"
+f1_keywords:
+- cfapi/CfDisconnectSyncRoot
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfDisconnectSyncRoot
+- CfDisconnectSyncRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

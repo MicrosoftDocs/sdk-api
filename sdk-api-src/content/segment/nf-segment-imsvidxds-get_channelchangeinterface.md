@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidXDS.get_ChannelChangeInterface
 title: IMSVidXDS::get_ChannelChangeInterface (segment.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. .
 old-location: mstv\imsvidxds_get_channelchangeinterface.htm
 tech.root: mstv
 ms.assetid: 078bd274-b8dc-425b-b14f-3dacff6744bb
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidXDS interface [Microsoft TV Technologies],get_ChannelChangeInterface method, IMSVidXDS.get_ChannelChangeInterface, IMSVidXDS::get_ChannelChangeInterface, IMSVidXDSgetChannelChangeInterface, get_ChannelChangeInterface, get_ChannelChangeInterface method [Microsoft TV Technologies], get_ChannelChangeInterface method [Microsoft TV Technologies],IMSVidXDS interface, mstv.imsvidxds_get_channelchangeinterface, segment/IMSVidXDS::get_ChannelChangeInterface
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidXDS.get_ChannelChangeInterface"
+f1_keywords:
+- segment/IMSVidXDS.get_ChannelChangeInterface
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidXDS.get_ChannelChangeInterface
+- IMSVidXDS.get_ChannelChangeInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

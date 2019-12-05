@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CreateStateObject
 title: ID3D12Device5::CreateStateObject (d3d12.h)
-
 description: Creates an ID3D12StateObject.
 old-location: direct3d12\id3d12device5_createstateobject.htm
 tech.root: direct3d12
 ms.assetid: 9CC759D5-6414-4B05-B8F3-FA6056A0A9AF
-
 ms.date: 12/05/2018
 ms.keywords: CreateStateObject, CreateStateObject method, CreateStateObject method,ID3D12Device5 interface, ID3D12Device5 interface,CreateStateObject method, ID3D12Device5.CreateStateObject, ID3D12Device5::CreateStateObject, d3d12/ID3D12Device5::CreateStateObject, direct3d12.id3d12device5_createstateobject
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device5.CreateStateObject"
+f1_keywords:
+- d3d12/ID3D12Device5.CreateStateObject
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device5.CreateStateObject
+- ID3D12Device5.CreateStateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

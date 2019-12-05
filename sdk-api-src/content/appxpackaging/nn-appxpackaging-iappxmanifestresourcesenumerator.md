@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestResourcesEnumerator
 title: IAppxManifestResourcesEnumerator (appxpackaging.h)
-
 description: Enumerates the resources defined in the package manifest.
 old-location: appxpkg\iappxmanifestresourcesenumerator.htm
 tech.root: appxpkg
 ms.assetid: D76C7512-962F-4AFE-934F-BBC215B5FE99
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestResourcesEnumerator, IAppxManifestResourcesEnumerator interface [App packaging and management], IAppxManifestResourcesEnumerator interface [App packaging and management],described, appxpackaging/IAppxManifestResourcesEnumerator, appxpkg.iappxmanifestresourcesenumerator
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestResourcesEnumerator"
+f1_keywords:
+- appxpackaging/IAppxManifestResourcesEnumerator
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestResourcesEnumerator
+- IAppxManifestResourcesEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

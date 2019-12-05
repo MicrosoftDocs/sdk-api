@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IStartMenuPinnedList
 title: IStartMenuPinnedList (shobjidl.h)
-
 description: Exposes a method that unpins an application shortcut from the Start menu or the taskbar.
 old-location: shell\IStartMenuPinnedList.htm
 tech.root: shell
 ms.assetid: e1f4dbdb-34c0-4bf5-bb8b-a622a81c1617
-
 ms.date: 12/05/2018
 ms.keywords: IStartMenuPinnedList, IStartMenuPinnedList interface [Windows Shell], IStartMenuPinnedList interface [Windows Shell],described, _shell_IStartMenuPinnedList, shell.IStartMenuPinnedList, shobjidl/IStartMenuPinnedList
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IStartMenuPinnedList"
+f1_keywords:
+- shobjidl/IStartMenuPinnedList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IStartMenuPinnedList
+- IStartMenuPinnedList
 targetos: Windows
 req.typenames: 
 req.redist: 

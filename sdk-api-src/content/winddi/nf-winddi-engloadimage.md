@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngLoadImage
 title: EngLoadImage macro (winddi.h)
-
 description: The EngLoadImage function loads the specified executable image into kernel-mode memory.
 old-location: display\engloadimage.htm
 tech.root: display
 ms.assetid: 03b1835a-5c4e-4f38-93b1-e557a2975be7
-
 ms.date: 12/05/2018
 ms.keywords: EngLoadImage, EngLoadImage function [Display Devices], display.engloadimage, gdifncs_8fb20a2d-c7ae-4d15-af65-219b44289130.xml, winddi/EngLoadImage
 ms.topic: macro
-f1_keywords: 
- - "winddi/EngLoadImage"
+f1_keywords:
+- winddi/EngLoadImage
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngLoadImage
+- EngLoadImage
 targetos: Windows
 req.typenames: 
 req.redist: 

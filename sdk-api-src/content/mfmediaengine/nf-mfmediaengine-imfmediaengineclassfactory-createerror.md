@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateError
 title: IMFMediaEngineClassFactory::CreateError (mfmediaengine.h)
-
 description: Creates a media error object.
 old-location: mf\imfmediaengineclassfactory_createerror.htm
 tech.root: medfound
 ms.assetid: C089473D-CD35-4F5D-8C78-EDE0FA8C13EB
-
 ms.date: 12/05/2018
 ms.keywords: CreateError, CreateError method [Media Foundation], CreateError method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateError method, IMFMediaEngineClassFactory.CreateError, IMFMediaEngineClassFactory::CreateError, mf.imfmediaengineclassfactory_createerror, mfmediaengine/IMFMediaEngineClassFactory::CreateError
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactory.CreateError"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactory.CreateError
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactory.CreateError
+- IMFMediaEngineClassFactory.CreateError
 targetos: Windows
 req.typenames: 
 req.redist: 

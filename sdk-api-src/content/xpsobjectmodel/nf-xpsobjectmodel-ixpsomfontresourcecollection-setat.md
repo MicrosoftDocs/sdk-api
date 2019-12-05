@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.SetAt
 title: IXpsOMFontResourceCollection::SetAt (xpsobjectmodel.h)
-
 description: Replaces an IXpsOMFontResource interface pointer at a specified location in the collection.
 old-location: xps\ixpsomfontresourcecollection_setat.htm
 tech.root: printdocs
 ms.assetid: 3eead538-544f-4c74-aba8-1ad496e44156
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMFontResourceCollection interface [XPS Documents and Packaging],SetAt method, IXpsOMFontResourceCollection.SetAt, IXpsOMFontResourceCollection::SetAt, SetAt, SetAt method [XPS Documents and Packaging], SetAt method [XPS Documents and Packaging],IXpsOMFontResourceCollection interface, xps.ixpsomfontresourcecollection_setat, xpsobjectmodel/IXpsOMFontResourceCollection::SetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMFontResourceCollection.SetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMFontResourceCollection.SetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMFontResourceCollection.SetAt
+- IXpsOMFontResourceCollection.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

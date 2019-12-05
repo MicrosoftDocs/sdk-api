@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InjectSyntheticPointerInput
 title: InjectSyntheticPointerInput function (winuser.h)
-
 description: Simulates pointer input (pen or touch).
 old-location: input_pointerdevice\injectsyntheticpointerinput.htm
 tech.root: Input_PointerDevice
 ms.assetid: 9F7FC5E2-F4B8-42C2-A4BE-240E36AFC13B
-
 ms.date: 12/05/2018
 ms.keywords: InjectSyntheticPointerInput, InjectSyntheticPointerInput function, input_pointerdevice.injectsyntheticpointerinput, winuser/InjectSyntheticPointerInput
 ms.topic: function
-f1_keywords: 
- - "winuser/InjectSyntheticPointerInput"
+f1_keywords:
+- winuser/InjectSyntheticPointerInput
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - InjectSyntheticPointerInput
+- InjectSyntheticPointerInput
 targetos: Windows
 req.typenames: 
 req.redist: 

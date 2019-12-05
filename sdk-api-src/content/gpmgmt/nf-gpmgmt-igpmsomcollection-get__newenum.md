@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSOMCollection.get__NewEnum
 title: IGPMSOMCollection::get__NewEnum (gpmgmt.h)
-
 description: Retrieves an enumerator for the collection.
 old-location: gpmc\igpmsomcollection_get__newenum.htm
 tech.root: gpmc
 ms.assetid: 3e6a33d8-5435-4ae9-93e7-439441d0f098
-
 ms.date: 12/05/2018
 ms.keywords: IGPMSOMCollection interface [GPMC],get__NewEnum method, IGPMSOMCollection.get__NewEnum, IGPMSOMCollection::get__NewEnum, _win32_igpmsomcollection_get__newenum, get__NewEnum, get__NewEnum method [GPMC], get__NewEnum method [GPMC],IGPMSOMCollection interface, gpmc.igpmsomcollection_get__newenum, gpmgmt/IGPMSOMCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSOMCollection.get__NewEnum"
+f1_keywords:
+- gpmgmt/IGPMSOMCollection.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSOMCollection.get__NewEnum
+- IGPMSOMCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService.GetPropertyValuesChain
 title: IVisualTreeService::GetPropertyValuesChain (xamlom.h)
-
 description: Gets an array of all the properties set on the element passed in, and an array of all the styles involved in setting the effective values of the properties.
 old-location: xaml_diagnostics\ivisualtreeservice_getpropertyvalueschain.htm
 tech.root: xaml_diagnostics
 ms.assetid: 3D997B09-7B20-47BC-B19C-98945CA41D17
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyValuesChain, GetPropertyValuesChain method, GetPropertyValuesChain method,IVisualTreeService interface, IVisualTreeService interface,GetPropertyValuesChain method, IVisualTreeService.GetPropertyValuesChain, IVisualTreeService::GetPropertyValuesChain, xaml_diagnostics.ivisualtreeservice_getpropertyvalueschain, xamlom/IVisualTreeService::GetPropertyValuesChain
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService.GetPropertyValuesChain"
+f1_keywords:
+- xamlom/IVisualTreeService.GetPropertyValuesChain
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService.GetPropertyValuesChain
+- IVisualTreeService.GetPropertyValuesChain
 targetos: Windows
 req.typenames: 
 req.redist: 

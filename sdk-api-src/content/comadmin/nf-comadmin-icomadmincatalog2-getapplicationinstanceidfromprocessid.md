@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID
 title: ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID (comadmin.h)
-
 description: Retrieives the application instance identifier for the specified process identifier.
 old-location: cos\icomadmincatalog2_getapplicationinstanceidfromprocessid.htm
 tech.root: cossdk
 ms.assetid: a09569af-11ec-406a-a51c-72b81b84fe41
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationInstanceIDFromProcessID, GetApplicationInstanceIDFromProcessID method [COM+], GetApplicationInstanceIDFromProcessID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetApplicationInstanceIDFromProcessID method, ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID, ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, _cos_icomadmincatalog2_GetApplicationInstanceIDFromProcessID, comadmin/ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, cos.icomadmincatalog2_getapplicationinstanceidfromprocessid
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID
+- ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID
 targetos: Windows
 req.typenames: 
 req.redist: 

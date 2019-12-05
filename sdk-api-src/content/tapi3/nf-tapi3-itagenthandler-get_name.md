@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgentHandler.get_Name
 title: ITAgentHandler::get_Name (tapi3.h)
-
 description: The get_Name method gets the agent handler name.
 old-location: tapi3\itagenthandler_get_name.htm
 tech.root: Tapi
 ms.assetid: 18596742-9a0e-44c1-97e1-1d13d84cc10c
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentHandler interface [TAPI 2.2],get_Name method, ITAgentHandler.get_Name, ITAgentHandler::get_Name, _tapi3_itagenthandler_get_name, get_Name, get_Name method [TAPI 2.2], get_Name method [TAPI 2.2],ITAgentHandler interface, tapi3.itagenthandler_get_name, tapi3cc/ITAgentHandler::get_Name
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgentHandler.get_Name"
+f1_keywords:
+- tapi3/ITAgentHandler.get_Name
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentHandler.get_Name
+- ITAgentHandler.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

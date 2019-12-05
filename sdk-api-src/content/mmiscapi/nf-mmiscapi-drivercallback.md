@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.DriverCallback
 title: DriverCallback function (mmiscapi.h)
-
 description: Calls a callback function, sends a message to a window, or unblocks a thread. The action depends on the value of the notification flag. This function is intended to be used only within the DriverProc function of an installable driver.
 old-location: multimedia\drivercallback.htm
 tech.root: Multimedia
 ms.assetid: 89afeb47-0a98-4db1-8664-6a0fe66d3413
-
 ms.date: 12/05/2018
 ms.keywords: DCB_FUNCTION, DCB_NOSWITCH, DCB_TASK, DCB_WINDOW, DriverCallback, DriverCallback function [Windows Multimedia], _win32_DriverCallback, digitalv/DriverCallback, multimedia.drivercallback
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/DriverCallback"
+f1_keywords:
+- mmiscapi/DriverCallback
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - DriverCallback
+- DriverCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

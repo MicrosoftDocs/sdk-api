@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetVisibleProviders
 title: IMbnInterface::GetVisibleProviders (mbnapi.h)
-
 description: Gets the list of visible providers.
 old-location: mbn\imbninterface_getvisibleproviders.htm
 tech.root: mbn
 ms.assetid: 916c29ee-adb3-402c-b4f3-97b8977f44ac
-
 ms.date: 12/05/2018
 ms.keywords: GetVisibleProviders, GetVisibleProviders method [Microsoft Broadband Networks], GetVisibleProviders method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetVisibleProviders method, IMbnInterface.GetVisibleProviders, IMbnInterface::GetVisibleProviders, mbn.imbninterface_getvisibleproviders, mbnapi/IMbnInterface::GetVisibleProviders
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.GetVisibleProviders"
+f1_keywords:
+- mbnapi/IMbnInterface.GetVisibleProviders
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.GetVisibleProviders
+- IMbnInterface.GetVisibleProviders
 targetos: Windows
 req.typenames: 
 req.redist: 

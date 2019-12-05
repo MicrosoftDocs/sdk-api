@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.GetChannelVolume
 title: IAudioStreamVolume::GetChannelVolume (audioclient.h)
-
 description: The GetChannelVolume method retrieves the volume level for the specified channel in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getchannelvolume.htm
 tech.root: CoreAudio
 ms.assetid: a5ac2c9a-2bbd-42de-b530-f668b26300af
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolume, GetChannelVolume method [Core Audio], GetChannelVolume method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetChannelVolume method, IAudioStreamVolume.GetChannelVolume, IAudioStreamVolume::GetChannelVolume, IAudioStreamVolumeGetChannelVolume, audioclient/IAudioStreamVolume::GetChannelVolume, coreaudio.iaudiostreamvolume_getchannelvolume
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioStreamVolume.GetChannelVolume"
+f1_keywords:
+- audioclient/IAudioStreamVolume.GetChannelVolume
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioStreamVolume.GetChannelVolume
+- IAudioStreamVolume.GetChannelVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

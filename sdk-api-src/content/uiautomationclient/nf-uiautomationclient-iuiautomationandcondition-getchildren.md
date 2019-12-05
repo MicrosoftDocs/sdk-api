@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAndCondition.GetChildren
 title: IUIAutomationAndCondition::GetChildren (uiautomationclient.h)
-
 description: Retrieves the conditions that make up this &#0034;and&#0034; condition.
 old-location: winauto\uiauto_IUIAutomationAndCondition_GetChildren.htm
 tech.root: WinAuto
 ms.assetid: 6868fae6-74fb-4133-8dc5-73ce5f8a6f7b
-
 ms.date: 12/05/2018
 ms.keywords: GetChildren, GetChildren method [Windows Accessibility], GetChildren method [Windows Accessibility],IUIAutomationAndCondition interface, IUIAutomationAndCondition interface [Windows Accessibility],GetChildren method, IUIAutomationAndCondition.GetChildren, IUIAutomationAndCondition::GetChildren, uiauto.uiauto_IUIAutomationAndCondition_GetChildren, uiauto_IUIAutomationAndCondition_GetChildren, uiautomationclient/IUIAutomationAndCondition::GetChildren, winauto.uiauto_IUIAutomationAndCondition_GetChildren
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationAndCondition.GetChildren"
+f1_keywords:
+- uiautomationclient/IUIAutomationAndCondition.GetChildren
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationAndCondition.GetChildren
+- IUIAutomationAndCondition.GetChildren
 targetos: Windows
 req.typenames: 
 req.redist: 

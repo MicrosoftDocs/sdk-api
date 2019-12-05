@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet)
 title: IDWriteFontSet::GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet) (dwrite_3.h)
-
 description: Returns a subset of fonts filtered by the given properties.
 old-location: directwrite\idwritefontset_getmatchingfonts_1.htm
 tech.root: DirectWrite
 ms.assetid: 3282d528-9997-ee8f-c001-34650551f0e5
-
 ms.date: 12/05/2018
 ms.keywords: GetMatchingFonts, GetMatchingFonts method [Direct Write], GetMatchingFonts method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetMatchingFonts method, IDWriteFontSet.GetMatchingFonts, IDWriteFontSet.GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet), IDWriteFontSet::GetMatchingFonts, IDWriteFontSet::GetMatchingFonts(WCHAR const,DWRITE_FONT_WEIGHT,DWRITE_FONT_STRETCH,DWRITE_FONT_STYLE,IDWriteFontSet), directwrite.idwritefontset_getmatchingfonts_1, dwrite_3/IDWriteFontSet::GetMatchingFonts
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSet.GetMatchingFonts"
+f1_keywords:
+- dwrite_3/IDWriteFontSet.GetMatchingFonts
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontSet.GetMatchingFonts
+- IDWriteFontSet.GetMatchingFonts
 targetos: Windows
 req.typenames: 
 req.redist: 

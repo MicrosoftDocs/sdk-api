@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumProductsA
 title: MsiEnumProductsA function (msi.h)
-
 description: The MsiEnumProducts function enumerates through all the products currently advertised or installed. Products that are installed in both the per-user and per-machine installation context and advertisements are enumerated.
 old-location: setup\msienumproducts.htm
 tech.root: Msi
 ms.assetid: c05ddc32-2c61-49ab-991f-8f9efae331a4
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnumProducts, MsiEnumProducts function, MsiEnumProductsA, MsiEnumProductsW, _msi_msienumproducts, msi/MsiEnumProducts, msi/MsiEnumProductsA, msi/MsiEnumProductsW, setup.msienumproducts
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumProducts"
+f1_keywords:
+- msi/MsiEnumProducts
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumProducts
- - MsiEnumProductsA
- - MsiEnumProductsW
+- MsiEnumProducts
+- MsiEnumProductsA
+- MsiEnumProductsW
 targetos: Windows
 req.typenames: 
 req.redist: 

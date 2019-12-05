@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushDenyAllStorageFilter
 title: IDXGIInfoQueue::PushDenyAllStorageFilter (dxgidebug.h)
-
 description: Pushes a deny-all storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 7985F43F-B0D3-4FF1-83D9-EEB568B29664
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllStorageFilter method, IDXGIInfoQueue.PushDenyAllStorageFilter, IDXGIInfoQueue::PushDenyAllStorageFilter, PushDenyAllStorageFilter, PushDenyAllStorageFilter method [DXGI], PushDenyAllStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushdenyallstoragefilter, dxgidebug/IDXGIInfoQueue::PushDenyAllStorageFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.PushDenyAllStorageFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.PushDenyAllStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushDenyAllStorageFilter
+- IDXGIInfoQueue.PushDenyAllStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

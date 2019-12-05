@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.get_FrequencyMapping
 title: ITuningSpace::get_FrequencyMapping (tuner.h)
-
 description: The get_FrequencyMapping method retrieves the frequency mapping previously created by the network provider by a call to put_FrequencyMapping.
 old-location: mstv\ituningspace_get_frequencymapping.htm
 tech.root: mstv
 ms.assetid: 86f6f991-7ba6-4dcc-86bd-03e44c799c22
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get_FrequencyMapping method, ITuningSpace.get_FrequencyMapping, ITuningSpace::get_FrequencyMapping, ITuningSpaceget_FrequencyMapping, get_FrequencyMapping, get_FrequencyMapping method [Microsoft TV Technologies], get_FrequencyMapping method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get_frequencymapping, tuner/ITuningSpace::get_FrequencyMapping
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.get_FrequencyMapping"
+f1_keywords:
+- tuner/ITuningSpace.get_FrequencyMapping
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.get_FrequencyMapping
+- ITuningSpace.get_FrequencyMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

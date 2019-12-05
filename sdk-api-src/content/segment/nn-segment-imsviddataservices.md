@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidDataServices
 title: IMSVidDataServices (segment.h)
-
 description: The IMSVidDataServices interface represents the data services feature. The MSVidDataServices feature object exposes this interface.
 old-location: mstv\imsviddataservices.htm
 tech.root: mstv
 ms.assetid: 6f70aa63-849c-4170-80c1-359210be4d61
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDataServices, IMSVidDataServices interface [Microsoft TV Technologies], IMSVidDataServices interface [Microsoft TV Technologies],described, IMSVidDataServicesInterface, mstv.imsviddataservices, segment/IMSVidDataServices
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidDataServices"
+f1_keywords:
+- segment/IMSVidDataServices
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDataServices
+- IMSVidDataServices
 targetos: Windows
 req.typenames: 
 req.redist: 

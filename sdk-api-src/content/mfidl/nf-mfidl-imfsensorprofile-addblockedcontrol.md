@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.AddBlockedControl
 title: IMFSensorProfile::AddBlockedControl (mfidl.h)
-
 description: Adds the specified blocked control .
 old-location: mf\imfsensorprofile_addblockedcontrol.htm
 tech.root: medfound
 ms.assetid: 1D1EAD84-5053-47B2-9366-EEBE8681970F
-
 ms.date: 12/05/2018
 ms.keywords: AddBlockedControl, AddBlockedControl method [Media Foundation], AddBlockedControl method [Media Foundation],IMFSensorProfile interface, IMFSensorProfile interface [Media Foundation],AddBlockedControl method, IMFSensorProfile.AddBlockedControl, IMFSensorProfile::AddBlockedControl, mf.imfsensorprofile_addblockedcontrol, mfidl/IMFSensorProfile::AddBlockedControl
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProfile.AddBlockedControl"
+f1_keywords:
+- mfidl/IMFSensorProfile.AddBlockedControl
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfsensorgroup.dll
+- Mfsensorgroup.dll
 api_name:
- - IMFSensorProfile.AddBlockedControl
+- IMFSensorProfile.AddBlockedControl
 targetos: Windows
 req.typenames: 
 req.redist: 

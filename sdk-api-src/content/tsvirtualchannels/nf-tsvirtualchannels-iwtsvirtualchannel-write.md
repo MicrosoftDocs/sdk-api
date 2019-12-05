@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannel.Write
 title: IWTSVirtualChannel::Write (tsvirtualchannels.h)
-
 description: Starts a write request on the channel.
 old-location: termserv\iwtsvirtualchannel_write.htm
 tech.root: TermServ
 ms.assetid: fef7067c-6d81-42b7-8534-191bc98906d4
-
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannel interface [Remote Desktop Services],Write method, IWTSVirtualChannel.Write, IWTSVirtualChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWTSVirtualChannel interface, termserv.iwtsvirtualchannel_write, tsvirtualchannels/IWTSVirtualChannel::Write
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSVirtualChannel.Write"
+f1_keywords:
+- tsvirtualchannels/IWTSVirtualChannel.Write
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannel.Write
+- IWTSVirtualChannel.Write
 targetos: Windows
 req.typenames: 
 req.redist: 

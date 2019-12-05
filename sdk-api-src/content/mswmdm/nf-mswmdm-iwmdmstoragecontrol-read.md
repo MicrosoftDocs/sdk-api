@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Read
 title: IWMDMStorageControl::Read (mswmdm.h)
-
 description: The Read method copies the current storage to the computer.
 old-location: wmdm\iwmdmstoragecontrol_read.htm
 tech.root: WMDM
 ms.assetid: 4b102666-b54b-4b60-b2e9-68def384268e
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Read method, IWMDMStorageControl.Read, IWMDMStorageControl::Read, IWMDMStorageControlRead, Read, Read method [windows Media Device Manager], Read method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Read, wmdm.iwmdmstoragecontrol_read
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageControl.Read"
+f1_keywords:
+- mswmdm/IWMDMStorageControl.Read
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageControl.Read
+- IWMDMStorageControl.Read
 targetos: Windows
 req.typenames: 
 req.redist: 

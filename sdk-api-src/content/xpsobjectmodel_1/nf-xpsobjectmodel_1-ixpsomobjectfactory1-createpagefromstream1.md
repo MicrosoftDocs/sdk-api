@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePageFromStream1
 title: IXpsOMObjectFactory1::CreatePageFromStream1 (xpsobjectmodel_1.h)
-
 description: Reads the page markup from the specified stream to create and populate an IXpsOMPage1 interface.
 old-location: xps\ixpsomobjectfactory1_createpagefromstream1.htm
 tech.root: printdocs
 ms.assetid: 6a400006-0f8f-4eb2-88c0-b559c6a4a0ba
-
 ms.date: 12/05/2018
 ms.keywords: CreatePageFromStream1, CreatePageFromStream1 method [XPS Documents and Packaging], CreatePageFromStream1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePageFromStream1 method, IXpsOMObjectFactory1.CreatePageFromStream1, IXpsOMObjectFactory1::CreatePageFromStream1, xps.ixpsomobjectfactory1_createpagefromstream1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePageFromStream1
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePageFromStream1"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePageFromStream1
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMObjectFactory1.CreatePageFromStream1
+- IXpsOMObjectFactory1.CreatePageFromStream1
 targetos: Windows
 req.typenames: 
 req.redist: 

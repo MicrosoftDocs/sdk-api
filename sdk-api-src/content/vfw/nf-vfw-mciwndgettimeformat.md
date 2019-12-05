@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndGetTimeFormat
 title: MCIWndGetTimeFormat macro (vfw.h)
-
 description: The MCIWndGetTimeFormat macro retrieves the current time format of an MCI device in two forms:\_as a numerical value and as a string. You can use this macro or explicitly send the MCIWNDM_GETTIMEFORMAT message.
 old-location: multimedia\mciwndgettimeformat.htm
 tech.root: Multimedia
 ms.assetid: 91d212b5-1c30-4470-9f94-f704ed53a615
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetTimeFormat, MCIWndGetTimeFormat macro [Windows Multimedia], _win32_MCIWndGetTimeFormat, multimedia.mciwndgettimeformat, vfw/MCIWndGetTimeFormat
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndGetTimeFormat"
+f1_keywords:
+- vfw/MCIWndGetTimeFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndGetTimeFormat
+- MCIWndGetTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

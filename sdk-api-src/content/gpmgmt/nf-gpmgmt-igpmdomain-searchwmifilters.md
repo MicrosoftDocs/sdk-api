@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchWMIFilters
 title: IGPMDomain::SearchWMIFilters (gpmgmt.h)
-
 description: Executes a search for GPMWMIFilter objects in the domain and then returns a GPMWMIFilterCollection object.
 old-location: gpmc\igpmdomain_searchwmifilters.htm
 tech.root: gpmc
 ms.assetid: 4e0abc25-bdcb-4277-90bb-542e922fc71c
-
 ms.date: 12/05/2018
 ms.keywords: GPMDomain object [GPMC],SearchWMIFilters method, IGPMDomain interface [GPMC],SearchWMIFilters method, IGPMDomain.SearchWMIFilters, IGPMDomain::SearchWMIFilters, SearchWMIFilters, SearchWMIFilters method [GPMC], SearchWMIFilters method [GPMC],GPMDomain object, SearchWMIFilters method [GPMC],IGPMDomain interface, _win32_igpmdomain_searchwmifilters, gpmc.igpmdomain_searchwmifilters, gpmgmt/IGPMDomain::SearchWMIFilters
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain.SearchWMIFilters"
+f1_keywords:
+- gpmgmt/IGPMDomain.SearchWMIFilters
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMDomain.SearchWMIFilters
- - GPMDomain.SearchWMIFilters
+- IGPMDomain.SearchWMIFilters
+- GPMDomain.SearchWMIFilters
 targetos: Windows
 req.typenames: 
 req.redist: 

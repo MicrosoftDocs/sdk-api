@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptDestroyHash
 title: BCryptDestroyHash function (bcrypt.h)
-
 description: Destroys a hash or Message Authentication Code (MAC) object.
 old-location: security\bcryptdestroyhash_func.htm
 tech.root: SecCNG
 ms.assetid: 067dac61-98b9-478c-ac4d-e141961865e9
-
 ms.date: 12/05/2018
 ms.keywords: BCryptDestroyHash, BCryptDestroyHash function [Security], bcrypt/BCryptDestroyHash, security.bcryptdestroyhash_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptDestroyHash"
+f1_keywords:
+- bcrypt/BCryptDestroyHash
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptDestroyHash
+- BCryptDestroyHash
 targetos: Windows
 req.typenames: 
 req.redist: 

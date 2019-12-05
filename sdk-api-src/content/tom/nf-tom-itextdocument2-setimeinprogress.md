@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.SetIMEInProgress
 title: ITextDocument2::SetIMEInProgress (tom.h)
-
 description: Sets the state of the Input Method Editor (IME) in-progress flag.
 old-location: controls\itextdocument2_setimeinprogress.htm
 tech.root: Controls
 ms.assetid: 65db4e97-48c9-48e0-b436-2b2e6713bebd
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetIMEInProgress method, ITextDocument2.SetIMEInProgress, ITextDocument2::SetIMEInProgress, SetIMEInProgress, SetIMEInProgress method [Windows Controls], SetIMEInProgress method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setimeinprogress, tom/ITextDocument2::SetIMEInProgress
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.SetIMEInProgress"
+f1_keywords:
+- tom/ITextDocument2.SetIMEInProgress
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.SetIMEInProgress
+- ITextDocument2.SetIMEInProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

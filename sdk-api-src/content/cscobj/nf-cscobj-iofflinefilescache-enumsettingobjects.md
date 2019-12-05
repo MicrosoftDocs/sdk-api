@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.EnumSettingObjects
 title: IOfflineFilesCache::EnumSettingObjects (cscobj.h)
-
 description: Creates an enumerator of instances of IOfflineFilesSetting.
 old-location: of\iofflinefilescache_enumsettingobjects.htm
 tech.root: offlinefiles
 ms.assetid: 1f2bb562-810a-4cc1-a072-eb870149954a
-
 ms.date: 12/05/2018
 ms.keywords: EnumSettingObjects, EnumSettingObjects method [Offline Files], EnumSettingObjects method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],EnumSettingObjects method, IOfflineFilesCache.EnumSettingObjects, IOfflineFilesCache::EnumSettingObjects, cscobj/IOfflineFilesCache::EnumSettingObjects, of.iofflinefilescache_enumsettingobjects
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.EnumSettingObjects"
+f1_keywords:
+- cscobj/IOfflineFilesCache.EnumSettingObjects
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.EnumSettingObjects
+- IOfflineFilesCache.EnumSettingObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

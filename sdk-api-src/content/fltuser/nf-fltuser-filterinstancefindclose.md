@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterInstanceFindClose
 title: FilterInstanceFindClose function (fltuser.h)
-
 description: The FilterInstanceFindClose function closes the specified minifilter instance search handle. The FilterInstanceFindFirst and FilterInstanceFindNext functions use this search handle to locate instances of a minifilter.
 old-location: ifsk\filterinstancefindclose.htm
 tech.root: ifsk
 ms.assetid: f4b066ca-4154-425d-85f6-682dc7460117
-
 ms.date: 12/05/2018
 ms.keywords: FilterInstanceFindClose, FilterInstanceFindClose function [Installable File System Drivers], FltWin32ApiRef_e9ea0ce5-7e02-40df-8e12-5b7fb8b0a189.xml, fltuser/FilterInstanceFindClose, ifsk.filterinstancefindclose
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterInstanceFindClose"
+f1_keywords:
+- fltuser/FilterInstanceFindClose
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: Fltuser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterInstanceFindClose
+- FilterInstanceFindClose
 targetos: Windows
 req.typenames: 
 req.redist: 

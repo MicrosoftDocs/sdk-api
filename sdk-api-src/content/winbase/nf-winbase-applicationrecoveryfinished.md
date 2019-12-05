@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ApplicationRecoveryFinished
 title: ApplicationRecoveryFinished function (winbase.h)
-
 description: Indicates that the calling application has completed its data recovery.
 old-location: recovery\applicationrecoveryfinished.htm
 tech.root: Recovery
 ms.assetid: 2c9309c5-c36d-4b68-a642-ed087024dba1
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationRecoveryFinished, ApplicationRecoveryFinished function [Recovery], recovery.applicationrecoveryfinished, winbase/ApplicationRecoveryFinished
 ms.topic: function
-f1_keywords: 
- - "winbase/ApplicationRecoveryFinished"
+f1_keywords:
+- winbase/ApplicationRecoveryFinished
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - ApplicationRecoveryFinished
+- ApplicationRecoveryFinished
 targetos: Windows
 req.typenames: 
 req.redist: 

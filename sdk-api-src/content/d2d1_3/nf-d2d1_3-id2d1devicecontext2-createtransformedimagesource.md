@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateTransformedImageSource
 title: ID2D1DeviceContext2::CreateTransformedImageSource (d2d1_3.h)
-
 description: Creates an image source which shares resources with an original.
 old-location: direct2d\id2d1devicecontext2_createtransformedimagesource.htm
 tech.root: Direct2D
 ms.assetid: 1ABA6A8E-B691-47FF-AE32-1FC5D29C48B2
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransformedImageSource, CreateTransformedImageSource method [Direct2D], CreateTransformedImageSource method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateTransformedImageSource method, ID2D1DeviceContext2.CreateTransformedImageSource, ID2D1DeviceContext2::CreateTransformedImageSource, d2d1_3/ID2D1DeviceContext2::CreateTransformedImageSource, direct2d.id2d1devicecontext2_createtransformedimagesource
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext2.CreateTransformedImageSource"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext2.CreateTransformedImageSource
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2D1.lib
 req.dll: D2D1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.dll
+- D2D1.dll
 api_name:
- - ID2D1DeviceContext2.CreateTransformedImageSource
+- ID2D1DeviceContext2.CreateTransformedImageSource
 targetos: Windows
 req.typenames: 
 req.redist: 

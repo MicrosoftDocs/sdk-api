@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHAddFolderPathToLibrary
 title: SHAddFolderPathToLibrary function (shobjidl_core.h)
-
 description: Adds a folder to a library.
 old-location: shell\SHAddFolderPathToLibrary.htm
 tech.root: shell
 ms.assetid: 308e7905-dfa1-438f-9e7e-f895517e7adb
-
 ms.date: 12/05/2018
 ms.keywords: SHAddFolderPathToLibrary, SHAddFolderPathToLibrary function [Windows Shell], _shell_SHAddFolderPathToLibrary, shell.SHAddFolderPathToLibrary, shobjidl_core/SHAddFolderPathToLibrary
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHAddFolderPathToLibrary"
+f1_keywords:
+- shobjidl_core/SHAddFolderPathToLibrary
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SHAddFolderPathToLibrary
+- SHAddFolderPathToLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

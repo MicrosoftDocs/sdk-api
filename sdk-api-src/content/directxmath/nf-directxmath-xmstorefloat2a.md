@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreFloat2A
 title: XMStoreFloat2A function (directxmath.h)
-
 description: Stores an XMVECTOR in an XMFLOAT2A.
 old-location: dxmath\xmstorefloat2a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat2A(XMFLOAT2A@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreFloat2A, XMStoreFloat2A, XMStoreFloat2A method [DirectX Math Support APIs], dxmath.xmstorefloat2a
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreFloat2A"
+f1_keywords:
+- directxmath/XMStoreFloat2A
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreFloat2A
+- XMStoreFloat2A
 targetos: Windows
 req.typenames: 
 req.redist: 

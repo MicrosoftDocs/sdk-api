@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetGreenDisable
 title: IDCompositionTableTransferEffect::SetGreenDisable (dcomp.h)
-
 description: Specifies whether to apply the transfer function to the green channel.
 old-location: directcomp\idcompositiontabletransfereffect_setgreendisable.htm
 tech.root: directcomp
 ms.assetid: C625ACED-C8E8-414D-A9E9-4119F8F1D434
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetGreenDisable method, IDCompositionTableTransferEffect.SetGreenDisable, IDCompositionTableTransferEffect::SetGreenDisable, SetGreenDisable, SetGreenDisable method [DirectComposition], SetGreenDisable method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetGreenDisable, directcomp.idcompositiontabletransfereffect_setgreendisable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetGreenDisable"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetGreenDisable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetGreenDisable
+- IDCompositionTableTransferEffect.SetGreenDisable
 targetos: Windows
 req.typenames: 
 req.redist: 

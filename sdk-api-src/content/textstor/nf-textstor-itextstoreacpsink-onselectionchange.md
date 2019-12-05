@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACPSink.OnSelectionChange
 title: ITextStoreACPSink::OnSelectionChange (textstor.h)
-
 description: ITextStoreACPSink::OnSelectionChange method
 old-location: tsf\itextstoreacpsink_onselectionchange.htm
 tech.root: TSF
 ms.assetid: 500333ae-06dc-4194-a21b-e03c1acc9f9a
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACPSink interface [Text Services Framework],OnSelectionChange method, ITextStoreACPSink.OnSelectionChange, ITextStoreACPSink::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Text Services Framework], OnSelectionChange method [Text Services Framework],ITextStoreACPSink interface, _tsf_itextstoreacpsink_onselectionchange_ref, textstor/ITextStoreACPSink::OnSelectionChange, tsf.itextstoreacpsink_onselectionchange
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACPSink.OnSelectionChange"
+f1_keywords:
+- textstor/ITextStoreACPSink.OnSelectionChange
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACPSink.OnSelectionChange
+- ITextStoreACPSink.OnSelectionChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

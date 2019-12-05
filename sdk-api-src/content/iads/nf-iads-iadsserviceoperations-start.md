@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsServiceOperations.Start
 title: IADsServiceOperations::Start (iads.h)
-
 description: The IADsServiceOperations::Start method starts a network service.
 old-location: adsi\iadsserviceoperations_start.htm
 tech.root: adsi
 ms.assetid: 8eabd59e-2abf-4e6f-be42-342f3b722d75
-
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Start method, IADsServiceOperations.Start, IADsServiceOperations::Start, Start, Start method [ADSI], Start method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_start, adsi.iadsserviceoperations__start, adsi.iadsserviceoperations_start, iads/IADsServiceOperations::Start
 ms.topic: method
-f1_keywords: 
- - "iads/IADsServiceOperations.Start"
+f1_keywords:
+- iads/IADsServiceOperations.Start
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsServiceOperations.Start
+- IADsServiceOperations.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

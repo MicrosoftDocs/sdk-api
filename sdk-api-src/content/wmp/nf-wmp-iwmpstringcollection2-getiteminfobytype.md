@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getItemInfoByType
 title: IWMPStringCollection2::getItemInfoByType (wmp.h)
-
 description: The getItemInfoByType method retrieves the value corresponding to the specified string collection item index, name, language, and attribute index.
 old-location: wmp\iwmpstringcollection2_getiteminfobytype.htm
 tech.root: WMP
 ms.assetid: ff395caf-9b5a-41e0-94c6-4a5eb96281ca
-
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getItemInfoByType method, IWMPStringCollection2.getItemInfoByType, IWMPStringCollection2::getItemInfoByType, IWMPStringCollection2getItemInfoByType, getItemInfoByType, getItemInfoByType method [Windows Media Player], getItemInfoByType method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getiteminfobytype, wmp/IWMPStringCollection2::getItemInfoByType
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPStringCollection2.getItemInfoByType"
+f1_keywords:
+- wmp/IWMPStringCollection2.getItemInfoByType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPStringCollection2.getItemInfoByType
+- IWMPStringCollection2.getItemInfoByType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:scrnsave.ScreenSaverProc
 title: ScreenSaverProc function (scrnsave.h)
-
 description: Receives messages sent to the specified screen saver window.
 old-location: shell\ScreenSaverProc.htm
 tech.root: shell
 ms.assetid: cc013841-41fc-404a-a239-4118f70542b5
-
 ms.date: 12/05/2018
 ms.keywords: ScreenSaverProc, ScreenSaverProc function [Windows Shell], _win32_ScreenSaverProc, scrnsave/ScreenSaverProc, shell.ScreenSaverProc
 ms.topic: function
-f1_keywords: 
- - "scrnsave/ScreenSaverProc"
+f1_keywords:
+- scrnsave/ScreenSaverProc
 dev_langs:
- - c++
+- c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Scrnsave.lib
 req.dll: None
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - None
+- None
 api_name:
- - ScreenSaverProc
+- ScreenSaverProc
 targetos: Windows
 req.typenames: 
 req.redist: 

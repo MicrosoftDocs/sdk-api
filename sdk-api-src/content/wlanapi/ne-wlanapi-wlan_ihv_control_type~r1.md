@@ -4,10 +4,10 @@ title: WLAN_IHV_CONTROL_TYPE
 ms.date: 01/30/19
 ms.keywords: _WLAN_IHV_CONTROL_TYPE, WLAN_IHV_CONTROL_TYPE
 ms.topic: language-reference
-f1_keywords: 
- - "wlanapi/_WLAN_IHV_CONTROL_TYPE"
+f1_keywords:
+- wlanapi/_WLAN_IHV_CONTROL_TYPE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -21,14 +21,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - _WLAN_IHV_CONTROL_TYPE
- - WLAN_IHV_CONTROL_TYPE
+- _WLAN_IHV_CONTROL_TYPE
+- WLAN_IHV_CONTROL_TYPE
 ---
 
 # WLAN_IHV_CONTROL_TYPE enumeration

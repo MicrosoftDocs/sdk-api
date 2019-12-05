@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsDialogMessageA
 title: IsDialogMessageA function (winuser.h)
-
 description: Determines whether a message is intended for the specified dialog box and, if it is, processes the message.
 old-location: dlgbox\isdialogmessage.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\isdialogmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsDialogMessage, IsDialogMessage function [Dialog Boxes], IsDialogMessageA, IsDialogMessageW, _win32_IsDialogMessage, _win32_isdialogmessage_cpp, dlgbox.isdialogmessage, winui._win32_isdialogmessage, winuser/IsDialogMessage, winuser/IsDialogMessageA, winuser/IsDialogMessageW
 ms.topic: function
-f1_keywords: 
- - "winuser/IsDialogMessage"
+f1_keywords:
+- winuser/IsDialogMessage
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - IsDialogMessage
- - IsDialogMessageA
- - IsDialogMessageW
+- IsDialogMessage
+- IsDialogMessageA
+- IsDialogMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

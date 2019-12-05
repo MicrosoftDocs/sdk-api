@@ -1,19 +1,17 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerFreeInformation
 title: KeyCredentialManagerFreeInformation function (keycredmgr.h)
-
 description: API to free the KeyCredentialManagerInfo pointer variable from the KeyCredentialManagerGetInformation call.
 old-location: security\keycredentialmanagerfreeinformation.htm
 tech.root: SecAuthN
 ms.assetid: CE89671C-C70D-49C0-AA22-E39EEAA310D7
-
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerFreeInformation, KeyCredentialManagerFreeInformation function [Security], keycredmgr/KeyCredentialManagerFreeInformation, security.keycredentialmanagerfreeinformation
 ms.topic: function
-f1_keywords: 
- - "keycredmgr/KeyCredentialManagerFreeInformation"
+f1_keywords:
+- keycredmgr/KeyCredentialManagerFreeInformation
 dev_langs:
- - c++
+- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Keycredmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - keycredmgr.lib
- - keycredmgr.dll
+- keycredmgr.lib
+- keycredmgr.dll
 api_name:
- - KeyCredentialManagerFreeInformation
+- KeyCredentialManagerFreeInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

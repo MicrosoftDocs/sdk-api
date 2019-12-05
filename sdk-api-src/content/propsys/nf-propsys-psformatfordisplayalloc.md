@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSFormatForDisplayAlloc
 title: PSFormatForDisplayAlloc function (propsys.h)
-
 description: Gets a formatted, Unicode string representation of a property value stored in a PROPVARIANT structure. This function allocates memory for the output string.
 old-location: properties\PSFormatForDisplayAlloc.htm
 tech.root: properties
 ms.assetid: d411ea72-fb29-47b6-a7f6-0839b3e2caf2
-
 ms.date: 12/05/2018
 ms.keywords: PSFormatForDisplayAlloc, PSFormatForDisplayAlloc function [Windows Properties], properties.PSFormatForDisplayAlloc, propsys/PSFormatForDisplayAlloc, shell.PSFormatForDisplayAlloc, shell_PSFormatForDisplayAlloc
 ms.topic: function
 f1_keywords:
 - propsys/PSFormatForDisplayAlloc
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

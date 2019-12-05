@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IObjectWithAppUserModelID
 title: IObjectWithAppUserModelID (shobjidl_core.h)
-
 description: Exposes methods that allow implementers of a custom IAssocHandler object to provide access to its explicit Application User Model ID (AppUserModelID).
 old-location: shell\IObjectWithAppUserModelID.htm
 tech.root: shell
 ms.assetid: f5b4e6bf-a5bf-49c5-b343-e9c1ec6c263d
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithAppUserModelID, IObjectWithAppUserModelID interface [Windows Shell], IObjectWithAppUserModelID interface [Windows Shell],described, _shell_IObjectWithAppUserModelID, shell.IObjectWithAppUserModelID, shobjidl_core/IObjectWithAppUserModelID
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IObjectWithAppUserModelID"
+f1_keywords:
+- shobjidl_core/IObjectWithAppUserModelID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IObjectWithAppUserModelID
+- IObjectWithAppUserModelID
 targetos: Windows
 req.typenames: 
 req.redist: 

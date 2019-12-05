@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.GetAnnotationObjects
 title: ISpreadsheetItemProvider::GetAnnotationObjects (uiautomationcore.h)
-
 description: Retrieves an array of objects that represent the annotations associated with this spreadsheet cell.
 old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationObjects.htm
 tech.root: WinAuto
 ms.assetid: 5B9BDAF8-A7A7-492B-97F7-8502E630203F
-
 ms.date: 12/05/2018
 ms.keywords: GetAnnotationObjects, GetAnnotationObjects method [Windows Accessibility], GetAnnotationObjects method [Windows Accessibility],ISpreadsheetItemProvider interface, ISpreadsheetItemProvider interface [Windows Accessibility],GetAnnotationObjects method, ISpreadsheetItemProvider.GetAnnotationObjects, ISpreadsheetItemProvider::GetAnnotationObjects, uiautomationcore/ISpreadsheetItemProvider::GetAnnotationObjects, winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationObjects
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISpreadsheetItemProvider.GetAnnotationObjects"
+f1_keywords:
+- uiautomationcore/ISpreadsheetItemProvider.GetAnnotationObjects
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISpreadsheetItemProvider.GetAnnotationObjects
+- ISpreadsheetItemProvider.GetAnnotationObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

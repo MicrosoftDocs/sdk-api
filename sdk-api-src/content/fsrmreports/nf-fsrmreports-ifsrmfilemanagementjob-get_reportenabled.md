@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_ReportEnabled
 title: IFsrmFileManagementJob::get_ReportEnabled (fsrmreports.h)
-
 description: Indicates whether the job will generate a report when it runs.
 old-location: fsrm\ifsrmfilemanagementjob_reportenabled.htm
 tech.root: fsrm
 ms.assetid: 687367c7-5bed-4f42-ade1-f841da484b38
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],ReportEnabled property, IFsrmFileManagementJob.ReportEnabled, IFsrmFileManagementJob.get_ReportEnabled, IFsrmFileManagementJob::ReportEnabled, IFsrmFileManagementJob::get_ReportEnabled, IFsrmFileManagementJob::put_ReportEnabled, ReportEnabled property [File Server Resource Manager], ReportEnabled property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_reportenabled, fsrm.ifsrmfilemanagementjob_reportenabled, fsrmreports/IFsrmFileManagementJob::ReportEnabled, fsrmreports/IFsrmFileManagementJob::get_ReportEnabled, fsrmreports/IFsrmFileManagementJob::put_ReportEnabled, get_ReportEnabled
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.ReportEnabled"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.ReportEnabled
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.ReportEnabled
- - IFsrmFileManagementJob.get_ReportEnabled
- - IFsrmFileManagementJob.put_ReportEnabled
+- IFsrmFileManagementJob.ReportEnabled
+- IFsrmFileManagementJob.get_ReportEnabled
+- IFsrmFileManagementJob.put_ReportEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

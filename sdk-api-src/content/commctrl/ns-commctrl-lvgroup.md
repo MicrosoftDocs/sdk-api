@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLVGROUP
 title: LVGROUP (commctrl.h)
-
 description: Used to set and retrieve groups.
 old-location: controls\LVGROUP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lv_group.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLVGROUP, LVGF_FOOTER, LVGF_HEADER, LVGF_NONE, LVGF_STATE, LVGROUP, LVGROUP structure [Windows Controls], PLVGROUP, PLVGROUP structure pointer [Windows Controls], commctrl/LVGROUP, commctrl/PLVGROUP, controls.LVGROUP, controls.inet_LVGROUP, inet_LVGROUP, inet_LVGROUP_cpp"
+ms.keywords: '*PLVGROUP, LVGF_FOOTER, LVGF_HEADER, LVGF_NONE, LVGF_STATE, LVGROUP, LVGROUP structure [Windows Controls], PLVGROUP, PLVGROUP structure pointer [Windows Controls], commctrl/LVGROUP, commctrl/PLVGROUP, controls.LVGROUP, controls.inet_LVGROUP, inet_LVGROUP, inet_LVGROUP_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVGROUP"
+f1_keywords:
+- commctrl/LVGROUP
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVGROUP
+- LVGROUP
 targetos: Windows
 req.typenames: LVGROUP, *PLVGROUP
 req.redist: 

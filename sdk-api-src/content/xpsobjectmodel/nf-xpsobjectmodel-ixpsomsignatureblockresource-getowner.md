@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResource.GetOwner
 title: IXpsOMSignatureBlockResource::GetOwner (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMDocument interface that contains the resource.
 old-location: xps\ixpsomsignatureblockresource_getowner.htm
 tech.root: printdocs
 ms.assetid: b94e5b76-ae45-483c-b9ea-3987d7b4837a
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [XPS Documents and Packaging], GetOwner method [XPS Documents and Packaging],IXpsOMSignatureBlockResource interface, IXpsOMSignatureBlockResource interface [XPS Documents and Packaging],GetOwner method, IXpsOMSignatureBlockResource.GetOwner, IXpsOMSignatureBlockResource::GetOwner, xps.ixpsomsignatureblockresource_getowner, xpsobjectmodel/IXpsOMSignatureBlockResource::GetOwner
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSignatureBlockResource.GetOwner"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSignatureBlockResource.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResource.GetOwner
+- IXpsOMSignatureBlockResource.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

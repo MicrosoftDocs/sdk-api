@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMFLOAT3X3
 title: XMFLOAT3X3 (directxmath.h)
-
 description: A 3*3 floating point matrix.
 old-location: dxmath\xmfloat3x3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3X3
-
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3X3, XMFLOAT3X3 structure [DirectX Math Support APIs], directxmath/XMFLOAT3X3, dxmath.xmfloat3x3
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMFLOAT3X3"
+f1_keywords:
+- directxmath/XMFLOAT3X3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT3X3
+- XMFLOAT3X3
 targetos: Windows
 req.typenames: 
 req.redist: 

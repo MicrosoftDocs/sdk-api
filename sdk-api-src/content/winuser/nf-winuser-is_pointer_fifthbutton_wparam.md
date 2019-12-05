@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IS_POINTER_FIFTHBUTTON_WPARAM
 title: IS_POINTER_FIFTHBUTTON_WPARAM macro (winuser.h)
-
 description: Checks whether the specified pointer took fifth action.
 old-location: inputmsg\is_pointer_fifthbutton_wparam.htm
 tech.root: InputMsg
 ms.assetid: 181E6E85-9387-4543-B0A1-B1BB66942054
-
 ms.date: 12/05/2018
 ms.keywords: IS_POINTER_FIFTHBUTTON_WPARAM, IS_POINTER_FIFTHBUTTON_WPARAM macro [Input Messages and Notifications], inputmsg.is_pointer_fifthbutton_wparam, winuser/IS_POINTER_FIFTHBUTTON_WPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/IS_POINTER_SECONDBUTTON_WPARAM"
+f1_keywords:
+- winuser/IS_POINTER_SECONDBUTTON_WPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - IS_POINTER_SECONDBUTTON_WPARAM
+- IS_POINTER_SECONDBUTTON_WPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

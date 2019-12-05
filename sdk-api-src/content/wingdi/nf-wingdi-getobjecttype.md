@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetObjectType
 title: GetObjectType function (wingdi.h)
-
 description: The GetObjectType retrieves the type of the specified object.
 old-location: gdi\getobjecttype.htm
 tech.root: gdi
 ms.assetid: 334a2c95-3bf4-44dc-abce-df3a3a2d37a8
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectType, GetObjectType function [Windows GDI], _win32_GetObjectType, gdi.getobjecttype, wingdi/GetObjectType
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetObjectType"
+f1_keywords:
+- wingdi/GetObjectType
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetObjectType
+- GetObjectType
 targetos: Windows
 req.typenames: 
 req.redist: 

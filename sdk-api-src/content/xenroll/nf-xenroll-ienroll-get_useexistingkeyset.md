@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.get_UseExistingKeySet
 title: IEnroll::get_UseExistingKeySet (xenroll.h)
-
 description: The UseExistingKeySet property of IEnroll4 sets or retrieves a Boolean value that determines whether the existing keys should be used.
 old-location: security\ienroll4_useexistingkeyset.htm
 tech.root: SecCrypto
 ms.assetid: 1534ec57-71d3-4189-a94e-7bcb3c0670e1
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],UseExistingKeySet property, IEnroll.UseExistingKeySet, IEnroll.get_UseExistingKeySet, IEnroll::UseExistingKeySet, IEnroll::get_UseExistingKeySet, IEnroll::put_UseExistingKeySet, UseExistingKeySet property [Security], UseExistingKeySet property [Security],IEnroll interface, get_UseExistingKeySet, security.ienroll4_useexistingkeyset, xenroll/IEnroll::UseExistingKeySet, xenroll/IEnroll::get_UseExistingKeySet, xenroll/IEnroll::put_UseExistingKeySet
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.UseExistingKeySet"
+f1_keywords:
+- xenroll/IEnroll.UseExistingKeySet
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.UseExistingKeySet
- - IEnroll.get_UseExistingKeySet
- - IEnroll.put_UseExistingKeySet
+- IEnroll.UseExistingKeySet
+- IEnroll.get_UseExistingKeySet
+- IEnroll.put_UseExistingKeySet
 targetos: Windows
 req.typenames: 
 req.redist: 

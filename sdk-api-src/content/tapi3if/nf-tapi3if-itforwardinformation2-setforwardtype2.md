@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.SetForwardType2
 title: ITForwardInformation2::SetForwardType2 (tapi3if.h)
-
 description: The SetForwardType2 method sets the current forwarding mode, specified by caller address.
 old-location: tapi3\itforwardinformation2_setforwardtype2.htm
 tech.root: Tapi
 ms.assetid: 774b91e8-b7f9-47b5-bbd9-025b03429b14
-
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],SetForwardType2 method, ITForwardInformation2.SetForwardType2, ITForwardInformation2::SetForwardType2, SetForwardType2, SetForwardType2 method [TAPI 2.2], SetForwardType2 method [TAPI 2.2],ITForwardInformation2 interface, _tapi3_itforwardinformation2_setforwardtype2, tapi3.itforwardinformation2_setforwardtype2, tapi3if/ITForwardInformation2::SetForwardType2
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation2.SetForwardType2"
+f1_keywords:
+- tapi3if/ITForwardInformation2.SetForwardType2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation2.SetForwardType2
+- ITForwardInformation2.SetForwardType2
 targetos: Windows
 req.typenames: 
 req.redist: 

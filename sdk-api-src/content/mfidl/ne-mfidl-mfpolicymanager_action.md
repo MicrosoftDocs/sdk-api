@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFPOLICYMANAGER_ACTION
 title: MFPOLICYMANAGER_ACTION (mfidl.h)
-
 description: Defines actions that can be performed on a stream.
 old-location: mf\mfpolicymanager_action.htm
 tech.root: medfound
 ms.assetid: 74cee983-e084-458b-b615-5447cca9abbc
-
 ms.date: 12/05/2018
 ms.keywords: 74cee983-e084-458b-b615-5447cca9abbc, MFPOLICYMANAGER_ACTION, MFPOLICYMANAGER_ACTION enumeration [Media Foundation], PEACTION_COPY, PEACTION_EXPORT, PEACTION_EXTRACT, PEACTION_LAST, PEACTION_NO, PEACTION_PLAY, PEACTION_RESERVED1, PEACTION_RESERVED2, PEACTION_RESERVED3, mf.mfpolicymanager_action, mfidl/MFPOLICYMANAGER_ACTION, mfidl/PEACTION_COPY, mfidl/PEACTION_EXPORT, mfidl/PEACTION_EXTRACT, mfidl/PEACTION_LAST, mfidl/PEACTION_NO, mfidl/PEACTION_PLAY, mfidl/PEACTION_RESERVED1, mfidl/PEACTION_RESERVED2, mfidl/PEACTION_RESERVED3
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFPOLICYMANAGER_ACTION"
+f1_keywords:
+- mfidl/MFPOLICYMANAGER_ACTION
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFPOLICYMANAGER_ACTION
+- MFPOLICYMANAGER_ACTION
 targetos: Windows
 req.typenames: MFPOLICYMANAGER_ACTION
 req.redist: 

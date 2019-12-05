@@ -1,19 +1,17 @@
 ---
 UID: NF:loadperf.LoadPerfCounterTextStringsA
 title: LoadPerfCounterTextStringsA function (loadperf.h)
-
 description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
 old-location: perf\loadperfcountertextstrings.htm
 tech.root: perfctrs
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
-
 ms.date: 12/05/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
 ms.topic: function
-f1_keywords: 
- - "loadperf/LoadPerfCounterTextStrings"
+f1_keywords:
+- loadperf/LoadPerfCounterTextStrings
 dev_langs:
- - c++
+- c++
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Loadperf.lib
 req.dll: Loadperf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Loadperf.dll
+- Loadperf.dll
 api_name:
- - LoadPerfCounterTextStrings
- - LoadPerfCounterTextStringsA
- - LoadPerfCounterTextStringsW
+- LoadPerfCounterTextStrings
+- LoadPerfCounterTextStringsA
+- LoadPerfCounterTextStringsW
 targetos: Windows
 req.typenames: 
 req.redist: 

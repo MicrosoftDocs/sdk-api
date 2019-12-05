@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVMRMixerControl
 title: IVMRMixerControl (strmif.h)
-
 description: The IVMRMixerControl interface is enables an application to manipulate the incoming video streams on the Video Mixing Renderer Filter 7 (VMR-7).
 old-location: dshow\ivmrmixercontrol.htm
 tech.root: DirectShow
 ms.assetid: 2aefaebc-14e7-4918-9256-c5e9e3449095
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl, IVMRMixerControl interface [DirectShow], IVMRMixerControl interface [DirectShow],described, IVMRMixerControlInterface, dshow.ivmrmixercontrol, strmif/IVMRMixerControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVMRMixerControl"
+f1_keywords:
+- strmif/IVMRMixerControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl
+- IVMRMixerControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:certview.IEnumCERTVIEWATTRIBUTE
 title: IEnumCERTVIEWATTRIBUTE (certview.h)
-
 description: Represents an attribute-enumeration sequence that contains the certificate attributes for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewattribute.htm
 tech.root: SecCrypto
 ms.assetid: fc1eb29d-27d9-4331-b588-dc0632b3db6a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE, IEnumCERTVIEWATTRIBUTE interface [Security], IEnumCERTVIEWATTRIBUTE interface [Security],described, _certsrv_ienumcertviewattribute, certview/IEnumCERTVIEWATTRIBUTE, security.ienumcertviewattribute
 ms.topic: interface
-f1_keywords: 
- - "certview/IEnumCERTVIEWATTRIBUTE"
+f1_keywords:
+- certview/IEnumCERTVIEWATTRIBUTE
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWATTRIBUTE
+- IEnumCERTVIEWATTRIBUTE
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_DeletePtr
 title: DPA_DeletePtr function (dpa_dsa.h)
-
 description: Removes an item from a dynamic pointer array (DPA). The DPA shrinks if necessary to accommodate the removed item.
 old-location: controls\DPA_DeletePtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_DeletePtr, DPA_DeletePtr function [Windows Controls], _win32_DPA_DeletePtr, _win32_DPA_DeletePtr_cpp, controls.DPA_DeletePtr, controls._win32_DPA_DeletePtr, dpa_dsa/DPA_DeletePtr
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_DeletePtr"
+f1_keywords:
+- dpa_dsa/DPA_DeletePtr
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_DeletePtr
+- DPA_DeletePtr
 targetos: Windows
 req.typenames: 
 req.redist: 

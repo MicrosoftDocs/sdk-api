@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_Row
 title: IGridItemProvider::get_Row (uiautomationcore.h)
-
 description: Specifies the ordinal number of the row that contains this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_Row.htm
 tech.root: WinAuto
 ms.assetid: 546e9914-3904-4386-9809-6c22ad9c9acd
-
 ms.date: 12/05/2018
 ms.keywords: IGridItemProvider interface [Windows Accessibility],Row property, IGridItemProvider.Row, IGridItemProvider.get_Row, IGridItemProvider::Row, IGridItemProvider::get_Row, Row property [Windows Accessibility], Row property [Windows Accessibility],IGridItemProvider interface, get_Row, uiauto.uiauto_IGridItemProvider_Row, uiauto_IGridItemProvider_Row, uiautomationcore/IGridItemProvider::Row, uiautomationcore/IGridItemProvider::get_Row, winauto.uiauto_IGridItemProvider_Row
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IGridItemProvider.Row"
+f1_keywords:
+- uiautomationcore/IGridItemProvider.Row
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IGridItemProvider.Row
- - IGridItemProvider.get_Row
+- IGridItemProvider.Row
+- IGridItemProvider.get_Row
 targetos: Windows
 req.typenames: 
 req.redist: 

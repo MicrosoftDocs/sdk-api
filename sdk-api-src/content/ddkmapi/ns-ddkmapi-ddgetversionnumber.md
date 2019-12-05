@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDGETVERSIONNUMBER
 title: DDGETVERSIONNUMBER (ddkmapi.h)
-
 description: The DDGETVERSIONNUMBER structure contains the version number of the kernel-mode video transport component of Microsoft DirectDraw that is supported by the video miniport driver's DxApi interface.
 old-location: display\ddgetversionnumber.htm
 tech.root: display
 ms.assetid: fa752700-8bc4-46be-bed9-d7d546f18f03
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDGETVERSIONNUMBER, DDGETVERSIONNUMBER, DDGETVERSIONNUMBER structure [Display Devices], LPDDGETVERSIONNUMBER, LPDDGETVERSIONNUMBER structure pointer [Display Devices], ddkmapi/DDGETVERSIONNUMBER, ddkmapi/LPDDGETVERSIONNUMBER, ddstrcts_82a9e57e-1569-44f2-b903-41140e18621f.xml, display.ddgetversionnumber"
+ms.keywords: '*LPDDGETVERSIONNUMBER, DDGETVERSIONNUMBER, DDGETVERSIONNUMBER structure [Display Devices], LPDDGETVERSIONNUMBER, LPDDGETVERSIONNUMBER structure pointer [Display Devices], ddkmapi/DDGETVERSIONNUMBER, ddkmapi/LPDDGETVERSIONNUMBER, ddstrcts_82a9e57e-1569-44f2-b903-41140e18621f.xml, display.ddgetversionnumber'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDGETVERSIONNUMBER"
+f1_keywords:
+- ddkmapi/DDGETVERSIONNUMBER
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDGETVERSIONNUMBER
+- DDGETVERSIONNUMBER
 targetos: Windows
 req.typenames: DDGETVERSIONNUMBER, *LPDDGETVERSIONNUMBER
 req.redist: 

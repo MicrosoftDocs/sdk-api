@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_RemoveEnabled
 title: ICatalogCollection::get_RemoveEnabled (comadmin.h)
-
 description: Indicates whether the Remove method is enabled for the collection.
 old-location: cos\icatalogcollection_removeenabled.htm
 tech.root: cossdk
 ms.assetid: eda0812f-a0e4-4239-87b5-c252e9e3492c
-
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],RemoveEnabled property, ICatalogCollection.RemoveEnabled, ICatalogCollection.get_RemoveEnabled, ICatalogCollection::RemoveEnabled, ICatalogCollection::get_RemoveEnabled, RemoveEnabled property [COM+], RemoveEnabled property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_RemoveEnabled, comadmin/ICatalogCollection::RemoveEnabled, comadmin/ICatalogCollection::get_RemoveEnabled, cos.icatalogcollection_removeenabled, get_RemoveEnabled
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICatalogCollection.RemoveEnabled"
+f1_keywords:
+- comadmin/ICatalogCollection.RemoveEnabled
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICatalogCollection.RemoveEnabled
- - ICatalogCollection.get_RemoveEnabled
+- ICatalogCollection.RemoveEnabled
+- ICatalogCollection.get_RemoveEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

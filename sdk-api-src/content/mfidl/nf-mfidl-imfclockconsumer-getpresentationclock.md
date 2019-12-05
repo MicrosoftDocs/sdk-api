@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFClockConsumer.GetPresentationClock
 title: IMFClockConsumer::GetPresentationClock (mfidl.h)
-
 description: Called by the media pipeline to get an instance of IMFPresentationClock.
 old-location: mf\imfclockconsumer_getpresentationclock.htm
 tech.root: medfound
 ms.assetid: 92EC184F-EF13-4453-B1C0-D7DCD4C7F44C
-
 ms.date: 12/05/2018
 ms.keywords: GetPresentationClock, GetPresentationClock method [Media Foundation], GetPresentationClock method [Media Foundation],IMFClockConsumer interface, IMFClockConsumer interface [Media Foundation],GetPresentationClock method, IMFClockConsumer.GetPresentationClock, IMFClockConsumer::GetPresentationClock, mf.imfclockconsumer_getpresentationclock, mfidl/IMFClockConsumer::GetPresentationClock
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFClockConsumer.GetPresentationClock"
+f1_keywords:
+- mfidl/IMFClockConsumer.GetPresentationClock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFClockConsumer.GetPresentationClock
+- IMFClockConsumer.GetPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 

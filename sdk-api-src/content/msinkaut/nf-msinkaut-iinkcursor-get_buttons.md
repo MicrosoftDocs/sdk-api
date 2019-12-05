@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Buttons
 title: IInkCursor::get_Buttons (msinkaut.h)
-
 description: Gets the IInkCursorButtons collection that is available on an IInkCursor.
 old-location: tablet\iinkcursor_buttons.htm
 tech.root: tablet
 ms.assetid: 21ea5b71-390e-448f-becc-1e3bb7015ed9
-
 ms.date: 12/05/2018
 ms.keywords: 21ea5b71-390e-448f-becc-1e3bb7015ed9, Buttons property [Tablet PC], Buttons property [Tablet PC],IInkCursor interface, IInkCursor interface [Tablet PC],Buttons property, IInkCursor.Buttons, IInkCursor.get_Buttons, IInkCursor::Buttons, IInkCursor::get_Buttons, get_Buttons, msinkaut/IInkCursor::Buttons, msinkaut/IInkCursor::get_Buttons, tablet.iinkcursor_buttons
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCursor.Buttons"
+f1_keywords:
+- msinkaut/IInkCursor.Buttons
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursor.Buttons
- - IInkCursor.get_Buttons
- - IInkCursor.get_Buttons
+- IInkCursor.Buttons
+- IInkCursor.get_Buttons
+- IInkCursor.get_Buttons
 targetos: Windows
 req.typenames: 
 req.redist: 

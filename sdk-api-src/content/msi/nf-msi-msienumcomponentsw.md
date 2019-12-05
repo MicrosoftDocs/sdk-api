@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumComponentsW
 title: MsiEnumComponentsW function (msi.h)
-
 description: The MsiEnumComponents function enumerates the installed components for all products. This function retrieves one component code each time it is called.
 old-location: setup\msienumcomponents.htm
 tech.root: Msi
 ms.assetid: 8ca07b2a-7616-4b0d-be3e-3e500172e5ab
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnumComponents, MsiEnumComponents function, MsiEnumComponentsA, MsiEnumComponentsW, _msi_msienumcomponents, msi/MsiEnumComponents, msi/MsiEnumComponentsA, msi/MsiEnumComponentsW, setup.msienumcomponents
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumComponents"
+f1_keywords:
+- msi/MsiEnumComponents
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumComponents
- - MsiEnumComponentsA
- - MsiEnumComponentsW
+- MsiEnumComponents
+- MsiEnumComponentsA
+- MsiEnumComponentsW
 targetos: Windows
 req.typenames: 
 req.redist: 

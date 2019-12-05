@@ -1,19 +1,17 @@
 ---
 UID: NN:d3dcsx.ID3DX11SegmentedScan
 title: ID3DX11SegmentedScan (d3dcsx.h)
-
 description: Segmented scan context.
 old-location: direct3d11\id3dx11segmentedscan.htm
 tech.root: direct3d11
 ms.assetid: 58d8d3ea-25d6-4767-9693-fbc97ae3e8b8
-
 ms.date: 12/05/2018
 ms.keywords: ID3DX11SegmentedScan, ID3DX11SegmentedScan interface [Direct3D 11], ID3DX11SegmentedScan interface [Direct3D 11],described, c6827b47-df7b-c393-42aa-d39fb87fcf6d, d3dcsx/ID3DX11SegmentedScan, direct3d11.id3dx11segmentedscan
 ms.topic: interface
-f1_keywords: 
- - "d3dcsx/ID3DX11SegmentedScan"
+f1_keywords:
+- d3dcsx/ID3DX11SegmentedScan
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - ID3DX11SegmentedScan
+- ID3DX11SegmentedScan
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundPacketTooBig
 title: INetFwIcmpSettings::get_AllowOutboundPacketTooBig (netfw.h)
-
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowoutboundpackettoobig.htm
 tech.root: ics
 ms.assetid: 057b2f45-1752-4f6d-a6a6-9871e20cd13a
-
 ms.date: 12/05/2018
 ms.keywords: AllowOutboundPacketTooBig property [ICS/ICF], AllowOutboundPacketTooBig property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowOutboundPacketTooBig property, INetFwIcmpSettings.AllowOutboundPacketTooBig, INetFwIcmpSettings.get_AllowOutboundPacketTooBig, INetFwIcmpSettings::AllowOutboundPacketTooBig, INetFwIcmpSettings::get_AllowOutboundPacketTooBig, INetFwIcmpSettings::put_AllowOutboundPacketTooBig, get_AllowOutboundPacketTooBig, ics.inetfwicmpsettings_allowoutboundpackettoobig, netfw/INetFwIcmpSettings::AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::get_AllowOutboundPacketTooBig, netfw/INetFwIcmpSettings::put_AllowOutboundPacketTooBig
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwIcmpSettings.AllowOutboundPacketTooBig"
+f1_keywords:
+- netfw/INetFwIcmpSettings.AllowOutboundPacketTooBig
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowOutboundPacketTooBig
- - INetFwIcmpSettings.get_AllowOutboundPacketTooBig
- - INetFwIcmpSettings.put_AllowOutboundPacketTooBig
+- INetFwIcmpSettings.AllowOutboundPacketTooBig
+- INetFwIcmpSettings.get_AllowOutboundPacketTooBig
+- INetFwIcmpSettings.put_AllowOutboundPacketTooBig
 targetos: Windows
 req.typenames: 
 req.redist: 

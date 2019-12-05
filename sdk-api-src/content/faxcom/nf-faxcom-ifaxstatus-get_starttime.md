@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_StartTime
 title: IFaxStatus::get_StartTime (faxcom.h)
-
 description: Retrieves the StartTime property for the FaxStatus object of a parent FaxPort object. The StartTime property is a number that represents the starting time for an active fax job.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_starttime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7cmd.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],StartTime property, IFaxStatus.StartTime, IFaxStatus.get_StartTime, IFaxStatus::StartTime, IFaxStatus::get_StartTime, StartTime property [Fax Service], StartTime property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_get_starttime, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_starttime_cpp, faxcom/IFaxStatus::StartTime, faxcom/IFaxStatus::get_StartTime, get_StartTime
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.StartTime"
+f1_keywords:
+- faxcom/IFaxStatus.StartTime
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.StartTime
- - IFaxStatus.get_StartTime
+- IFaxStatus.StartTime
+- IFaxStatus.get_StartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

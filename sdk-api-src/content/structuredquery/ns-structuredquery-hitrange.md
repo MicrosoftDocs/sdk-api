@@ -1,19 +1,17 @@
 ---
 UID: NS:structuredquery.tagHITRANGE
 title: HITRANGE (structuredquery.h)
-
 description: Identifies the range of matching data when query search conditions match indexed data.
 old-location: search\_search_HITRANGE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: HITRANGE, HITRANGE structure [search], _search_HITRANGE, search._search_HITRANGE, structuredquery/HITRANGE
 ms.topic: struct
-f1_keywords: 
- - "structuredquery/HITRANGE"
+f1_keywords:
+- structuredquery/HITRANGE
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - HITRANGE
+- HITRANGE
 targetos: Windows
 req.typenames: HITRANGE
 req.redist: 

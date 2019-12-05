@@ -1,19 +1,17 @@
 ---
 UID: NF:cmdtree.ICommandTree.SetCommandTree
 title: ICommandTree::SetCommandTree (cmdtree.h)
-
 description: The ICommandTree::SetCommandTree method sets a command object's command tree, replacing the existing one or replacing a text command specified with the ICommandText interface.
 old-location: indexsrv\icommandtree_setcommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_6omd.htm
-
 ms.date: 12/05/2018
 ms.keywords: ICommandTree interface [Indexing Service],SetCommandTree method, ICommandTree.SetCommandTree, ICommandTree::SetCommandTree, SetCommandTree, SetCommandTree method [Indexing Service], SetCommandTree method [Indexing Service],ICommandTree interface, _idxs_ICommandTree_SetCommandTree, cmdtree/ICommandTree::SetCommandTree, indexsrv.icommandtree_setcommandtree
 ms.topic: method
-f1_keywords: 
- - "cmdtree/ICommandTree.SetCommandTree"
+f1_keywords:
+- cmdtree/ICommandTree.SetCommandTree
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - ICommandTree.SetCommandTree
+- ICommandTree.SetCommandTree
 targetos: Windows
 req.typenames: 
 req.redist: 

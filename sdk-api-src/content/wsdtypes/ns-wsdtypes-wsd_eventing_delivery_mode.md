@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_DELIVERY_MODE
 title: WSD_EVENTING_DELIVERY_MODE (wsdtypes.h)
-
 description: Represents the delivery mode used in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode.htm
 tech.root: WsdApi
 ms.assetid: 6c767642-3b3c-47cb-afd9-c4c005241996
-
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE, WSD_EVENTING_DELIVERY_MODE structure, http://schemas.xmlsoap.org/ws/2004/08/eventing/DeliveryModes/Push, ncd.wsd_eventing_delivery_mode, wsdtypes/WSD_EVENTING_DELIVERY_MODE
 ms.topic: struct
-f1_keywords: 
- - "wsdtypes/WSD_EVENTING_DELIVERY_MODE"
+f1_keywords:
+- wsdtypes/WSD_EVENTING_DELIVERY_MODE
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdTypes.h
+- WsdTypes.h
 api_name:
- - WSD_EVENTING_DELIVERY_MODE
+- WSD_EVENTING_DELIVERY_MODE
 targetos: Windows
 req.typenames: WSD_EVENTING_DELIVERY_MODE
 req.redist: 

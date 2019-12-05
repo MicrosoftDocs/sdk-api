@@ -1,19 +1,17 @@
 ---
 UID: NF:inputscope.ITfInputScope2.EnumWordList
 title: ITfInputScope2::EnumWordList (inputscope.h)
-
 description: ITfInputScope2::EnumWordList method
 old-location: tsf\itfinputscope2_enumwordlist.htm
 tech.root: TSF
 ms.assetid: 89379dab-6f96-4a86-8433-b6b0a8e45516
-
 ms.date: 12/05/2018
 ms.keywords: EnumWordList, EnumWordList method [Text Services Framework], EnumWordList method [Text Services Framework],ITfInputScope2 interface, ITfInputScope2 interface [Text Services Framework],EnumWordList method, ITfInputScope2.EnumWordList, ITfInputScope2::EnumWordList, _tsf_itfinputscope2_enumwordlist_ref, inputscope/ITfInputScope2::EnumWordList, tsf.itfinputscope2_enumwordlist
 ms.topic: method
-f1_keywords: 
- - "inputscope/ITfInputScope2.EnumWordList"
+f1_keywords:
+- inputscope/ITfInputScope2.EnumWordList
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputScope2.EnumWordList
+- ITfInputScope2.EnumWordList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_TrackNumber
 title: IRawCDImageTrackInfo::get_TrackNumber (imapi2.h)
-
 description: Retrieves the track number for this track.
 old-location: imapi\irawcdimagetrackinfo_get_tracknumber.htm
 tech.root: imapi
 ms.assetid: ccc84237-3819-45b4-980a-a73669f605fb
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_TrackNumber method, IRawCDImageTrackInfo.get_TrackNumber, IRawCDImageTrackInfo::get_TrackNumber, get_TrackNumber, get_TrackNumber method [IMAPI], get_TrackNumber method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_tracknumber, imapi2/IRawCDImageTrackInfo::get_TrackNumber
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageTrackInfo.get_TrackNumber"
+f1_keywords:
+- imapi2/IRawCDImageTrackInfo.get_TrackNumber
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageTrackInfo.get_TrackNumber
+- IRawCDImageTrackInfo.get_TrackNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

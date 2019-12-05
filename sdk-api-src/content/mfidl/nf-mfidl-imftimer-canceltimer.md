@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTimer.CancelTimer
 title: IMFTimer::CancelTimer (mfidl.h)
-
 description: Cancels a timer that was set using the IMFTimer::SetTimer method.
 old-location: mf\imftimer_canceltimer.htm
 tech.root: medfound
 ms.assetid: 3fa65809-1652-4903-92ad-1034bcdf0743
-
 ms.date: 12/05/2018
 ms.keywords: 3fa65809-1652-4903-92ad-1034bcdf0743, CancelTimer, CancelTimer method [Media Foundation], CancelTimer method [Media Foundation],IMFTimer interface, IMFTimer interface [Media Foundation],CancelTimer method, IMFTimer.CancelTimer, IMFTimer::CancelTimer, mf.imftimer_canceltimer, mfidl/IMFTimer::CancelTimer
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTimer.CancelTimer"
+f1_keywords:
+- mfidl/IMFTimer.CancelTimer
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTimer.CancelTimer
+- IMFTimer.CancelTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

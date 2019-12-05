@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellColorBack
 title: ITextRow::SetCellColorBack (tom.h)
-
 description: Sets the background color of the active cell.
 old-location: controls\itextrow_setcellcolorback.htm
 tech.root: Controls
 ms.assetid: 3e0a7bb6-e146-4e51-abc0-e89f9faed235
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellColorBack method, ITextRow.SetCellColorBack, ITextRow::SetCellColorBack, SetCellColorBack, SetCellColorBack method [Windows Controls], SetCellColorBack method [Windows Controls],ITextRow interface, controls.itextrow_setcellcolorback, tom/ITextRow::SetCellColorBack
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellColorBack"
+f1_keywords:
+- tom/ITextRow.SetCellColorBack
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellColorBack
+- ITextRow.SetCellColorBack
 targetos: Windows
 req.typenames: 
 req.redist: 

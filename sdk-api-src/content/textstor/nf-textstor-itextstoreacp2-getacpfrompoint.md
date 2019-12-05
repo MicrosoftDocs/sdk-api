@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetACPFromPoint
 title: ITextStoreACP2::GetACPFromPoint (textstor.h)
-
 description: Converts a point in screen coordinates to an application character position.
 old-location: tsf\itextstoreacp2_getacpfrompoint.htm
 tech.root: TSF
 ms.assetid: 2907cd34-6ebe-45b4-afd6-8062212c3dc9
-
 ms.date: 12/05/2018
 ms.keywords: GXFPF_NEAREST, GXFPF_ROUND_NEAREST, GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetACPFromPoint method, ITextStoreACP2.GetACPFromPoint, ITextStoreACP2::GetACPFromPoint, textstor/ITextStoreACP2::GetACPFromPoint, tsf.itextstoreacp2_getacpfrompoint
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.GetACPFromPoint"
+f1_keywords:
+- textstor/ITextStoreACP2.GetACPFromPoint
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.GetACPFromPoint
+- ITextStoreACP2.GetACPFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

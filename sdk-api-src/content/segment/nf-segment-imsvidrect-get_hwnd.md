@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidRect.get_HWnd
 title: IMSVidRect::get_HWnd (segment.h)
-
 description: The get_HWnd method retrieves the window associated with the rectangle.
 old-location: mstv\imsvidrect_get_hwnd.htm
 tech.root: mstv
 ms.assetid: caa56beb-7eba-48a1-8645-f63666ba0593
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_HWnd method, IMSVidRect.get_HWnd, IMSVidRect::get_HWnd, IMSVidRectget_HWnd, get_HWnd, get_HWnd method [Microsoft TV Technologies], get_HWnd method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_hwnd, segment/IMSVidRect::get_HWnd
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidRect.get_HWnd"
+f1_keywords:
+- segment/IMSVidRect.get_HWnd
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect.get_HWnd
+- IMSVidRect.get_HWnd
 targetos: Windows
 req.typenames: 
 req.redist: 

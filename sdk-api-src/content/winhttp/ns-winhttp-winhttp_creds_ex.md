@@ -1,19 +1,17 @@
 ---
 UID: NS:winhttp.tagWINHTTP_CREDS_EX
 title: WINHTTP_CREDS_EX (winhttp.h)
-
 description: Contains user credential information used for server and proxy authentication.
 old-location: http\winhttp_creds_ex.htm
 tech.root: WinHttp
 ms.assetid: e9a9e882-383c-4f4f-ae1e-3e9e7fa957ad
-
 ms.date: 12/05/2018
-ms.keywords: "*PWINHTTP_CREDS_EX, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS_EX, PWINHTTP_CREDS_EX structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS_EX, WINHTTP_CREDS_EX structure [HTTP], http.winhttp_creds_ex, winhttp/PWINHTTP_CREDS_EX, winhttp/WINHTTP_CREDS_EX"
+ms.keywords: '*PWINHTTP_CREDS_EX, INHTTP_AUTH_SCHEME_DIGEST, PWINHTTP_CREDS_EX, PWINHTTP_CREDS_EX structure pointer [HTTP], WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_CREDS_EX, WINHTTP_CREDS_EX structure [HTTP], http.winhttp_creds_ex, winhttp/PWINHTTP_CREDS_EX, winhttp/WINHTTP_CREDS_EX'
 ms.topic: struct
-f1_keywords: 
- - "winhttp/WINHTTP_CREDS_EX"
+f1_keywords:
+- winhttp/WINHTTP_CREDS_EX
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winhttp.h
+- Winhttp.h
 api_name:
- - WINHTTP_CREDS_EX
+- WINHTTP_CREDS_EX
 targetos: Windows
 req.typenames: WINHTTP_CREDS_EX, *PWINHTTP_CREDS_EX
 req.redist: 

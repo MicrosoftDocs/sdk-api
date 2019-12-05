@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetupComm
 title: SetupComm function (winbase.h)
-
 description: Initializes the communications parameters for a specified communications device.
 old-location: base\setupcomm.htm
 tech.root: devio
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f
-
 ms.date: 12/05/2018
 ms.keywords: SetupComm, SetupComm function, _win32_setupcomm, base.setupcomm, winbase/SetupComm
 ms.topic: function
-f1_keywords: 
- - "winbase/SetupComm"
+f1_keywords:
+- winbase/SetupComm
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetupComm
+- SetupComm
 targetos: Windows
 req.typenames: 
 req.redist: 

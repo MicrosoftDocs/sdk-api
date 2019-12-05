@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfQueryCounterData
 title: PerfQueryCounterData function (perflib.h)
-
 description: Gets the values of the performance counters that match the counter specifications in the specified query.
 old-location: perf\perfquerycounterdata.htm
 tech.root: perfctrs
 ms.assetid: EBCF00E0-6C40-40E5-9F3D-9AE5F9AB74AC
-
 ms.date: 12/05/2018
 ms.keywords: PerfQueryCounterData, PerfQueryCounterData function [Perf], perf.perfquerycounterdata, perflib/PerfQueryCounterData
 ms.topic: function
 f1_keywords:
 - perflib/PerfQueryCounterData
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

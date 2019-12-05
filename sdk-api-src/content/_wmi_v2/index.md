@@ -1,7 +1,6 @@
 ---
 UID: TP:wmi_v2
 ms.assetid: 824b23dd-9cc9-3dd8-bc5a-af4068a53abd
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

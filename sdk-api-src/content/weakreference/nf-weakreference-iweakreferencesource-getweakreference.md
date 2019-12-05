@@ -1,19 +1,17 @@
 ---
 UID: NF:weakreference.IWeakReferenceSource.GetWeakReference
 title: IWeakReferenceSource::GetWeakReference (weakreference.h)
-
 description: Retrieves a weak reference from an IWeakReferenceSource.
 old-location: winrt\iweakreferencesource_getweakreference.htm
 tech.root: WinRT
 ms.assetid: 6856cad0-4571-4951-a917-8d010706f2d5
-
 ms.date: 12/05/2018
 ms.keywords: GetWeakReference, GetWeakReference method [Windows Runtime], GetWeakReference method [Windows Runtime],IWeakReferenceSource interface, IWeakReferenceSource interface [Windows Runtime],GetWeakReference method, IWeakReferenceSource.GetWeakReference, IWeakReferenceSource::GetWeakReference, weakreference/IWeakReferenceSource::GetWeakReference, winrt.iweakreferencesource_getweakreference
 ms.topic: method
-f1_keywords: 
- - "weakreference/IWeakReferenceSource.GetWeakReference"
+f1_keywords:
+- weakreference/IWeakReferenceSource.GetWeakReference
 dev_langs:
- - c++
+- c++
 req.header: weakreference.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WeakReference.h
+- WeakReference.h
 api_name:
- - IWeakReferenceSource.GetWeakReference
+- IWeakReferenceSource.GetWeakReference
 targetos: Windows
 req.typenames: 
 req.redist: 

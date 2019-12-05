@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagTransactionVote
 title: TransactionVote (comsvcs.h)
-
 description: Indicates the readiness of an object to commit or abort the current transaction.
 old-location: cos\transactionvote.htm
 tech.root: cossdk
 ms.assetid: 2fea9ac5-f714-4682-a78c-bfe9396fccd5
-
 ms.date: 12/05/2018
 ms.keywords: TransactionVote, TransactionVote enumeration [COM+], TxAbort, TxCommit, _cos_TransactionVote, comsvcs/TransactionVote, comsvcs/TxAbort, comsvcs/TxCommit, cos.transactionvote
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/TransactionVote"
+f1_keywords:
+- comsvcs/TransactionVote
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - TransactionVote
+- TransactionVote
 targetos: Windows
 req.typenames: TransactionVote
 req.redist: 

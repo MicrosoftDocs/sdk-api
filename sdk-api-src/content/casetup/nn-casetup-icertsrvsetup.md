@@ -1,19 +1,17 @@
 ---
 UID: NN:casetup.ICertSrvSetup
 title: ICertSrvSetup (casetup.h)
-
 description: Defines functionality to install and uninstall Certification Authority (CA) and Certification Authority Web Enrollment roles on a Certificate Services computer.
 old-location: security\icertsrvsetup.htm
 tech.root: SecCrypto
 ms.assetid: 6792a0d6-d304-481d-a97b-5fb7033c7eae
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup, ICertSrvSetup interface [Security], ICertSrvSetup interface [Security],described, casetup/ICertSrvSetup, security.icertsrvsetup
 ms.topic: interface
-f1_keywords: 
- - "casetup/ICertSrvSetup"
+f1_keywords:
+- casetup/ICertSrvSetup
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup
+- ICertSrvSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

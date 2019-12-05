@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IComponent
 title: IComponent (mmc.h)
-
 description: The IComponent interface enables MMC to communicate with snap-ins. Similar to the IComponentData interface, IComponent is typically implemented at the view level and is closely associated with items being displayed in the result pane.
 old-location: mmc\icomponent.htm
 tech.root: mmc
 ms.assetid: 65eaa5ef-182b-4fec-bb3d-a308ac9dc660
-
 ms.date: 12/05/2018
 ms.keywords: IComponent, IComponent interface [MMC], IComponent interface [MMC],described, _slate_icomponent, mmc.icomponent, mmc/IComponent
 ms.topic: interface
-f1_keywords: 
- - "mmc/IComponent"
+f1_keywords:
+- mmc/IComponent
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponent
+- IComponent
 targetos: Windows
 req.typenames: 
 req.redist: 

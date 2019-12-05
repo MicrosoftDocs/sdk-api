@@ -1,19 +1,17 @@
 ---
 UID: NF:atlthunk.AtlThunk_InitData
 title: AtlThunk_InitData function (atlthunk.h)
-
 description: Initializes an ATL thunk.
 old-location: base\atlthunk_initdata.htm
 tech.root: Memory
 ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9
-
 ms.date: 12/05/2018
 ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_InitData, base.atlthunk_initdata
 ms.topic: function
-f1_keywords: 
- - "atlthunk/AtlThunk_InitData"
+f1_keywords:
+- atlthunk/AtlThunk_InitData
 dev_langs:
- - c++
+- c++
 req.header: atlthunk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Atlthunk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - atlthunk.dll
+- atlthunk.dll
 api_name:
- - AtlThunk_InitData
+- AtlThunk_InitData
 targetos: Windows
 req.typenames: 
 req.redist: 

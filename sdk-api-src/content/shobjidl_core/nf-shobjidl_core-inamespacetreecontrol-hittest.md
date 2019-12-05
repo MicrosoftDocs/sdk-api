@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.HitTest
 title: INameSpaceTreeControl::HitTest (shobjidl_core.h)
-
 description: Retrieves the item that a given point is in, if any.
 old-location: shell\INameSpaceTreeControl_HitTest.htm
 tech.root: shell
 ms.assetid: 2287772d-2c06-4d4b-a11e-727dd5de5326
-
 ms.date: 12/05/2018
 ms.keywords: HitTest, HitTest method [Windows Shell], HitTest method [Windows Shell],INameSpaceTreeControl interface, INameSpaceTreeControl interface [Windows Shell],HitTest method, INameSpaceTreeControl.HitTest, INameSpaceTreeControl::HitTest, _shell_INameSpaceTreeControl_HitTest, shell.INameSpaceTreeControl_HitTest, shobjidl_core/INameSpaceTreeControl::HitTest
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.HitTest"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.HitTest
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.HitTest
+- INameSpaceTreeControl.HitTest
 targetos: Windows
 req.typenames: 
 req.redist: 

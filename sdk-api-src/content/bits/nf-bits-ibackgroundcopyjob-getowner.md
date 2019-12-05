@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetOwner
 title: IBackgroundCopyJob::GetOwner (bits.h)
-
 description: Retrieves the identity of the job's owner.
 old-location: bits\ibackgroundcopyjob_getowner.htm
 tech.root: Bits
 ms.assetid: 20a645d4-57ab-4b9c-b31a-b8dbb98ea550
-
 ms.date: 12/05/2018
 ms.keywords: GetOwner, GetOwner method [BITS], GetOwner method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetOwner method, IBackgroundCopyJob.GetOwner, IBackgroundCopyJob::GetOwner, _drz_ibackgroundcopyjob_getowner, bits.ibackgroundcopyjob_getowner, bits/IBackgroundCopyJob::GetOwner
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetOwner"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetOwner
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetOwner
+- IBackgroundCopyJob.GetOwner
 targetos: Windows
 req.typenames: 
 req.redist: 

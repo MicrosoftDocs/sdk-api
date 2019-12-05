@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPicture.PictureChanged
 title: IPicture::PictureChanged (ocidl.h)
-
 description: Notifies the picture object that its picture resource has changed. This method only calls IPropertyNotifySink::OnChanged with DISPID_PICT_HANDLE for any connected sinks.
 old-location: com\ipicture_picturechanged.htm
 tech.root: com
 ms.assetid: 60485293-8d5b-4f9f-a529-746ea3371491
-
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],PictureChanged method, IPicture.PictureChanged, IPicture::PictureChanged, PictureChanged, PictureChanged method [COM], PictureChanged method [COM],IPicture interface, _ctrl_ipicture_picturechanged, com.ipicture_picturechanged, ocidl/IPicture::PictureChanged
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPicture.PictureChanged"
+f1_keywords:
+- ocidl/IPicture.PictureChanged
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture.PictureChanged
+- IPicture.PictureChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

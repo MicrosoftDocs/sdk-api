@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IParseDisplayName
 title: IParseDisplayName (oleidl.h)
-
 description: Parses a displayable name string to convert it into a moniker for custom moniker implementations.
 old-location: com\iparsedisplayname.htm
 tech.root: com
 ms.assetid: 37844d9b-35ce-4d30-8a58-dac4c671896f
-
 ms.date: 12/05/2018
 ms.keywords: IParseDisplayName, IParseDisplayName interface [COM], IParseDisplayName interface [COM],described, _com_iparsedisplayname, com.iparsedisplayname, oleidl/IParseDisplayName
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IParseDisplayName"
+f1_keywords:
+- oleidl/IParseDisplayName
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IParseDisplayName
+- IParseDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

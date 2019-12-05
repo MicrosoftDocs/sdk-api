@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdxml._WSD_DURATION
 title: WSD_DURATION (wsdxml.h)
-
 description: Represents a length of time.
 old-location: ncd\wsd_duration_struct.htm
 tech.root: WsdApi
 ms.assetid: 43d4d0c5-509a-46c4-bdf6-24c3307fb811
-
 ms.date: 12/05/2018
 ms.keywords: WSD_DURATION, WSD_DURATION structure, _WSD_DURATION, ncd.wsd_duration_struct, wsdxml/WSD_DURATION
 ms.topic: struct
-f1_keywords: 
- - "wsdxml/WSD_DURATION"
+f1_keywords:
+- wsdxml/WSD_DURATION
 dev_langs:
- - c++
+- c++
 req.header: wsdxml.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WsdXml.h
+- WsdXml.h
 api_name:
- - WSD_DURATION
+- WSD_DURATION
 targetos: Windows
 req.typenames: WSD_DURATION
 req.redist: 

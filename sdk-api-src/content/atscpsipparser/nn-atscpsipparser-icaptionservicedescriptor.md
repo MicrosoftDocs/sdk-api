@@ -1,19 +1,17 @@
 ---
 UID: NN:atscpsipparser.ICaptionServiceDescriptor
 title: ICaptionServiceDescriptor (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor.htm
 tech.root: mstv
 ms.assetid: fc1f38af-2fe8-4c08-b6f8-312dd4771141
-
 ms.date: 12/05/2018
 ms.keywords: ICaptionServiceDescriptor, ICaptionServiceDescriptor interface [Microsoft TV Technologies], ICaptionServiceDescriptor interface [Microsoft TV Technologies],described, ICaptionServiceDescriptorInterface, atscpsipparser/ICaptionServiceDescriptor, mstv.icaptionservicedescriptor
 ms.topic: interface
-f1_keywords: 
- - "atscpsipparser/ICaptionServiceDescriptor"
+f1_keywords:
+- atscpsipparser/ICaptionServiceDescriptor
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ICaptionServiceDescriptor
+- ICaptionServiceDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform.SetCenterY(float)
 title: IDCompositionRotateTransform::SetCenterY (dcomp.h)
-
 description: Changes the value of the CenterY property of a 2D rotation transform.
 old-location: directcomp\idcompositionrotatetransform_setcentery_float.htm
 tech.root: directcomp
 ms.assetid: 7D4EF6C3-A0BA-42C4-841C-A40EEF5122F5
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform interface [DirectComposition],SetCenterY method, IDCompositionRotateTransform.SetCenterY, IDCompositionRotateTransform::SetCenterY, IDCompositionRotateTransform::SetCenterY(float), SetCenterY, SetCenterY method [DirectComposition], SetCenterY method [DirectComposition],IDCompositionRotateTransform interface, dcomp/IDCompositionRotateTransform::SetCenterY, directcomp.idcompositionrotatetransform_setcentery_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRotateTransform.SetCenterY"
+f1_keywords:
+- dcomp/IDCompositionRotateTransform.SetCenterY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRotateTransform.SetCenterY
+- IDCompositionRotateTransform.SetCenterY
 targetos: Windows
 req.typenames: 
 req.redist: 

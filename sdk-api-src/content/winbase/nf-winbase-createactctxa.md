@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateActCtxA
 title: CreateActCtxA function (winbase.h)
-
 description: The CreateActCtx function creates an activation context.
 old-location: setup\createactctx.htm
 tech.root: SbsCs
 ms.assetid: 11508215-8d8b-4040-a725-88804103fac4
-
 ms.date: 12/05/2018
 ms.keywords: CreateActCtx, CreateActCtx function [Side-by-side Assemblies], CreateActCtxA, CreateActCtxW, _win32_createactctx, setup.createactctx, winbase/CreateActCtx, winbase/CreateActCtxA, winbase/CreateActCtxW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateActCtx"
+f1_keywords:
+- winbase/CreateActCtx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - CreateActCtx
- - CreateActCtxA
- - CreateActCtxW
+- CreateActCtx
+- CreateActCtxA
+- CreateActCtxW
 targetos: Windows
 req.typenames: 
 req.redist: 

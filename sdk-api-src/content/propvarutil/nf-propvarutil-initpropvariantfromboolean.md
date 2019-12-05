@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromBoolean
 title: InitPropVariantFromBoolean function (propvarutil.h)
-
 description: Initializes a given PROPVARIANT structure as a VT_BOOL using a specified Boolean value.
 old-location: properties\InitPropVariantFromBoolean.htm
 tech.root: properties
 ms.assetid: aa23f7a2-1983-4a30-b2fc-601efa37e0ff
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromBoolean, InitPropVariantFromBoolean function [Windows Properties], properties.InitPropVariantFromBoolean, propvarutil/InitPropVariantFromBoolean, shell.InitPropVariantFromBoolean, shell_InitPropVariantFromBoolean
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromBoolean"
+f1_keywords:
+- propvarutil/InitPropVariantFromBoolean
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitPropVariantFromBoolean
+- InitPropVariantFromBoolean
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

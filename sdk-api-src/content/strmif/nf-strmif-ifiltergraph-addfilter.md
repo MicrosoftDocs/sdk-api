@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterGraph.AddFilter
 title: IFilterGraph::AddFilter (strmif.h)
-
 description: The AddFilter method adds a filter to the graph.
 old-location: dshow\ifiltergraph_addfilter.htm
 tech.root: DirectShow
 ms.assetid: 8f837917-015f-427f-b234-b0ccbcf943eb
-
 ms.date: 12/05/2018
 ms.keywords: AddFilter, AddFilter method [DirectShow], AddFilter method [DirectShow],IFilterGraph interface, IFilterGraph interface [DirectShow],AddFilter method, IFilterGraph.AddFilter, IFilterGraph::AddFilter, IFilterGraphAddFilter, dshow.ifiltergraph_addfilter, strmif/IFilterGraph::AddFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterGraph.AddFilter"
+f1_keywords:
+- strmif/IFilterGraph.AddFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterGraph.AddFilter
+- IFilterGraph.AddFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

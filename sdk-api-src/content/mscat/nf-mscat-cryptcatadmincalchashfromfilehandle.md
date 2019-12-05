@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminCalcHashFromFileHandle
 title: CryptCATAdminCalcHashFromFileHandle function (mscat.h)
-
 description: Calculates the hash for a file.
 old-location: security\cryptcatadmincalchashfromfilehandle.htm
 tech.root: SecCrypto
 ms.assetid: 4dc5688f-4b7a-4baf-9671-868cac7f1896
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminCalcHashFromFileHandle, CryptCATAdminCalcHashFromFileHandle function [Security], mscat/CryptCATAdminCalcHashFromFileHandle, security.cryptcatadmincalchashfromfilehandle
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATAdminCalcHashFromFileHandle"
+f1_keywords:
+- mscat/CryptCATAdminCalcHashFromFileHandle
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
- - mscat32.dll
+- Wintrust.dll
+- mscat32.dll
 api_name:
- - CryptCATAdminCalcHashFromFileHandle
+- CryptCATAdminCalcHashFromFileHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

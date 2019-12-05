@@ -1,19 +1,17 @@
 ---
 UID: NN:bits3_0.IBackgroundCopyJob4
 title: IBackgroundCopyJob4 (bits3_0.h)
-
 description: Use this interface to enable peer caching, restrict download time, and inspect user token characteristics.
 old-location: bits\ibackgroundcopyjob4.htm
 tech.root: Bits
 ms.assetid: 68909710-f749-487e-b064-9f8630929c53
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob4, IBackgroundCopyJob4 interface [BITS], IBackgroundCopyJob4 interface [BITS],described, bits.ibackgroundcopyjob4, bits3_0/IBackgroundCopyJob4
 ms.topic: interface
-f1_keywords: 
- - "bits3_0/IBackgroundCopyJob4"
+f1_keywords:
+- bits3_0/IBackgroundCopyJob4
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx4.dll
+- BitsPrx4.dll
 api_name:
- - IBackgroundCopyJob4
+- IBackgroundCopyJob4
 targetos: Windows
 req.typenames: 
 req.redist: BITS 2.5 on  Windows Server 2003,  Windows XP

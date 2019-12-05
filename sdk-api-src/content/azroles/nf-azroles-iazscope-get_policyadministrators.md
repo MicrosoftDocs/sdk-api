@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.get_PolicyAdministrators
 title: IAzScope::get_PolicyAdministrators (azroles.h)
-
 description: The PolicyAdministrators property of IAzScope retrieves the security identifiers (SIDs), in text form, of principals that act as policy administrators.
 old-location: security\iazscope_policyadministrators.htm
 tech.root: SecAuthZ
 ms.assetid: 13c11105-b44d-46e0-ab73-c11fede1507b
-
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],PolicyAdministrators property, IAzScope interface [Security],PolicyAdministrators property, IAzScope.PolicyAdministrators, IAzScope.get_PolicyAdministrators, IAzScope::PolicyAdministrators, IAzScope::get_PolicyAdministrators, PolicyAdministrators property [Security], PolicyAdministrators property [Security],AzScope object, PolicyAdministrators property [Security],IAzScope interface, azroles/IAzScope::PolicyAdministrators, azroles/IAzScope::get_PolicyAdministrators, get_PolicyAdministrators, security.iazscope_policyadministrators
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.PolicyAdministrators"
+f1_keywords:
+- azroles/IAzScope.PolicyAdministrators
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.PolicyAdministrators
- - IAzScope.get_PolicyAdministrators
- - AzScope.PolicyAdministrators
+- IAzScope.PolicyAdministrators
+- IAzScope.get_PolicyAdministrators
+- AzScope.PolicyAdministrators
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

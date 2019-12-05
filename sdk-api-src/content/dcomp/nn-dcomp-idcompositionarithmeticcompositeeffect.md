@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionArithmeticCompositeEffect
 title: IDCompositionArithmeticCompositeEffect (dcomp.h)
-
 description: The arithmetic composite effect is used to combine 2 images using a weighted sum of pixels from the input images.
 old-location: directcomp\idcompositionarithmeticcompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 06430DD6-B6BF-4F55-A99C-13860B800444
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionArithmeticCompositeEffect, IDCompositionArithmeticCompositeEffect interface [DirectComposition], IDCompositionArithmeticCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionArithmeticCompositeEffect, directcomp.idcompositionarithmeticcompositeeffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionArithmeticCompositeEffect"
+f1_keywords:
+- dcomp/IDCompositionArithmeticCompositeEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionArithmeticCompositeEffect
+- IDCompositionArithmeticCompositeEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

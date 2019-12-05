@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateTargets
 title: ITsSbResourcePluginStore::EnumerateTargets (sbtsv.h)
-
 description: Returns an array that contains the specified targets that are present in the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumeratetargets.htm
 tech.root: TermServ
 ms.assetid: bb05847a-e7fb-481b-ad84-9f6dc15f9be0
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateTargets, EnumerateTargets method [Remote Desktop Services], EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateTargets method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStore.EnumerateTargets, ITsSbResourcePluginStore::EnumerateTargets, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateTargets method, ITsSbResourcePluginStoreEx::EnumerateTargets, sbtsv/ITsSbResourcePluginStore::EnumerateTargets, sbtsv/ITsSbResourcePluginStoreEx::EnumerateTargets, termserv.itssbresourcepluginstore_enumeratetargets
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.EnumerateTargets"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.EnumerateTargets
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.EnumerateTargets
- - ITsSbResourcePluginStoreEx.EnumerateTargets
+- ITsSbResourcePluginStore.EnumerateTargets
+- ITsSbResourcePluginStoreEx.EnumerateTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

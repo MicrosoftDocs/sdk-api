@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmStreamOpen
 title: acmStreamOpen function (msacm.h)
-
 description: The acmStreamOpen function opens an ACM conversion stream. Conversion streams are used to convert data from one specified audio format to another.
 old-location: multimedia\acmstreamopen.htm
 tech.root: Multimedia
 ms.assetid: 9e323d35-e640-4c6d-ab74-c4abacaea1bd
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen"
+ms.keywords: _win32_acmStreamOpen, acmStreamOpen, acmStreamOpen function [Windows Multimedia], msacm/acmStreamOpen, multimedia.acmstreamopen
 ms.topic: function
-f1_keywords: 
- - "msacm/acmStreamOpen"
+f1_keywords:
+- msacm/acmStreamOpen
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmStreamOpen
+- acmStreamOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

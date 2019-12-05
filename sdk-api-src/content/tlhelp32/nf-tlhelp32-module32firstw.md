@@ -1,19 +1,17 @@
 ---
 UID: NF:tlhelp32.Module32FirstW
 title: Module32FirstW function (tlhelp32.h)
-
 description: Retrieves information about the first module associated with a process.
 old-location: toolhelp\module32first.htm
 tech.root: ToolHelp
 ms.assetid: bb41cab9-13a1-469d-bf76-68c172e982f6
-
 ms.date: 12/05/2018
 ms.keywords: Module32First, Module32First function [ToolHelp], Module32FirstW, _win32_module32first, base.module32first, tlhelp32/Module32First, tlhelp32/Module32FirstW, toolhelp.module32first
 ms.topic: function
-f1_keywords: 
- - "tlhelp32/Module32First"
+f1_keywords:
+- tlhelp32/Module32First
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-toolhelp-l1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
- - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-toolhelp-l1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Module32First
- - Module32First
- - Module32FirstW
+- Module32First
+- Module32First
+- Module32FirstW
 targetos: Windows
 req.typenames: 
 req.redist: 

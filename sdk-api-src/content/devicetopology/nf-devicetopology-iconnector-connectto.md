@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IConnector.ConnectTo
 title: IConnector::ConnectTo (devicetopology.h)
-
 description: The ConnectTo method connects this connector to a connector in another device-topology object.
 old-location: coreaudio\iconnector_connectto.htm
 tech.root: CoreAudio
 ms.assetid: 57704103-0124-4c02-8f96-980a50e98cca
-
 ms.date: 12/05/2018
 ms.keywords: ConnectTo, ConnectTo method [Core Audio], ConnectTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],ConnectTo method, IConnector.ConnectTo, IConnector::ConnectTo, IConnectorConnectTo, coreaudio.iconnector_connectto, devicetopology/IConnector::ConnectTo
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IConnector.ConnectTo"
+f1_keywords:
+- devicetopology/IConnector.ConnectTo
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IConnector.ConnectTo
+- IConnector.ConnectTo
 targetos: Windows
 req.typenames: 
 req.redist: 

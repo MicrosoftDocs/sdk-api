@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.SetAlignment
 title: StringFormat::SetAlignment (gdiplusstringformat.h)
-
 description: The StringFormat::SetAlignment method sets the character alignment of this StringFormat object in relation to the origin of the layout rectangle. A layout rectangle is used to position the displayed string.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_SetAlignment_align_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\setalignment_24align.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetAlignment, SetAlignment method [GDI+], SetAlignment method [GDI+],StringFormat class, StringFormat class [GDI+],SetAlignment method, StringFormat.SetAlignment, StringFormat::SetAlignment, _gdiplus_CLASS_StringFormat_SetAlignment_align_, gdiplus._gdiplus_CLASS_StringFormat_SetAlignment_align_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.SetAlignment"
+f1_keywords:
+- gdiplusstringformat/StringFormat.SetAlignment
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.SetAlignment
+- StringFormat.SetAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

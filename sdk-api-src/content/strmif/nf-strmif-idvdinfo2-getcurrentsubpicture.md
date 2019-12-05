@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCurrentSubpicture
 title: IDvdInfo2::GetCurrentSubpicture (strmif.h)
-
 description: The GetCurrentSubpicture method retrieves the number of available subpicture streams in the current title, the currently selected subpicture stream number, and the state of the subpicture.
 old-location: dshow\idvdinfo2_getcurrentsubpicture.htm
 tech.root: DirectShow
 ms.assetid: d41fb9ad-83e3-46d6-90b3-abdc61a6b997
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCurrentSubpicture method, IDvdInfo2.GetCurrentSubpicture, IDvdInfo2::GetCurrentSubpicture, IDvdInfo2GetCurrentSubpicture, dshow.idvdinfo2_getcurrentsubpicture, strmif/IDvdInfo2::GetCurrentSubpicture
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetCurrentSubpicture"
+f1_keywords:
+- strmif/IDvdInfo2.GetCurrentSubpicture
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetCurrentSubpicture
+- IDvdInfo2.GetCurrentSubpicture
 targetos: Windows
 req.typenames: 
 req.redist: 

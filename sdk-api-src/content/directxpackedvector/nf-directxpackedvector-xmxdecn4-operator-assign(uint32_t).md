@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.operator-assign(uint32_t)
 title: XMXDECN4::operator-assign(uint32_t) (directxpackedvector.h)
-
 description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMXDECN4.
 old-location: dxmath\xmxdecn4_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.operator = (const uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: XMXDECN4 structure [DirectX Math Support APIs],operator = method, XMXDECN4.operator =(const uint32_t), XMXDECN4.operator-assign(uint32_t), XMXDECN4.operator=, XMXDECN4::operator-assign(uint32_t), XMXDECN4::operator=, dxmath.xmxdecn4_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMXDECN4 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMXDECN4.operator ="
+f1_keywords:
+- directxpackedvector/XMXDECN4.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMXDECN4.operator =
+- XMXDECN4.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

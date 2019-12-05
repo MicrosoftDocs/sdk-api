@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.get_Mode
 title: IAMTuner::get_Mode (strmif.h)
-
 description: The get_Mode method retrieves the current mode on a multifunction tuner.
 old-location: dshow\iamtuner_get_mode.htm
 tech.root: DirectShow
 ms.assetid: 9a5f4cd8-8fde-4777-b9b6-caa7860b005c
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],get_Mode method, IAMTuner.get_Mode, IAMTuner::get_Mode, IAMTunerget_Mode, dshow.iamtuner_get_mode, get_Mode, get_Mode method [DirectShow], get_Mode method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_Mode
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.get_Mode"
+f1_keywords:
+- strmif/IAMTuner.get_Mode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.get_Mode
+- IAMTuner.get_Mode
 targetos: Windows
 req.typenames: 
 req.redist: 

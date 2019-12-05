@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IBindCtx.RevokeObjectParam
 title: IBindCtx::RevokeObjectParam (objidl.h)
-
 description: Removes the specified key and its associated pointer from the bind context's string-keyed table of objects. The key must have previously been inserted into the table with a call to RegisterObjectParam.
 old-location: com\ibindctx_revokeobjectparam.htm
 tech.root: com
 ms.assetid: e7dbf9c8-0ecf-4076-8bec-4da457c60cee
-
 ms.date: 12/05/2018
 ms.keywords: IBindCtx interface [COM],RevokeObjectParam method, IBindCtx.RevokeObjectParam, IBindCtx::RevokeObjectParam, RevokeObjectParam, RevokeObjectParam method [COM], RevokeObjectParam method [COM],IBindCtx interface, _com_ibindctx_revokeobjectparam, com.ibindctx_revokeobjectparam, objidl/IBindCtx::RevokeObjectParam
 ms.topic: method
-f1_keywords: 
- - "objidl/IBindCtx.RevokeObjectParam"
+f1_keywords:
+- objidl/IBindCtx.RevokeObjectParam
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBindCtx.RevokeObjectParam
+- IBindCtx.RevokeObjectParam
 targetos: Windows
 req.typenames: 
 req.redist: 

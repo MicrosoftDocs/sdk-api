@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObject.GetXml
 title: IOpcSignatureCustomObject::GetXml (msopc.h)
-
 description: Gets the XML markup of an application-specific Object element.
 old-location: opc\iopcsignaturecustomobject_getxml.htm
 tech.root: OPC
 ms.assetid: fedb6f47-59b9-4959-91ef-db1fb398aca9
-
 ms.date: 12/05/2018
 ms.keywords: GetXml, GetXml method [Open Packaging Conventions], GetXml method [Open Packaging Conventions],IOpcSignatureCustomObject interface, IOpcSignatureCustomObject interface [Open Packaging Conventions],GetXml method, IOpcSignatureCustomObject.GetXml, IOpcSignatureCustomObject::GetXml, msopc/IOpcSignatureCustomObject::GetXml, opc.iopcsignaturecustomobject_getxml
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureCustomObject.GetXml"
+f1_keywords:
+- msopc/IOpcSignatureCustomObject.GetXml
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureCustomObject.GetXml
+- IOpcSignatureCustomObject.GetXml
 targetos: Windows
 req.typenames: 
 req.redist: 

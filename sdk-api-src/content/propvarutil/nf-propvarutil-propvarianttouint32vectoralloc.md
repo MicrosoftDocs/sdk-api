@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32VectorAlloc
 title: PropVariantToUInt32VectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly-allocated ULONG vector.
 old-location: properties\PropVariantToUInt32VectorAlloc.htm
 tech.root: properties
 ms.assetid: 8127b569-aa20-4a15-9da5-cc7c3a7c5243
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt32VectorAlloc, PropVariantToUInt32VectorAlloc function [Windows Properties], _shell_PropVariantToUInt32VectorAlloc, properties.PropVariantToUInt32VectorAlloc, propvarutil/PropVariantToUInt32VectorAlloc, shell.PropVariantToUInt32VectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt32VectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToUInt32VectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt32VectorAlloc
+- PropVariantToUInt32VectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

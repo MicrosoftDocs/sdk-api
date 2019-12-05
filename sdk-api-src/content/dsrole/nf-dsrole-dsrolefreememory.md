@@ -1,19 +1,17 @@
 ---
 UID: NF:dsrole.DsRoleFreeMemory
 title: DsRoleFreeMemory function (dsrole.h)
-
 description: Frees memory allocated by the DsRoleGetPrimaryDomainInformation function.
 old-location: ad\dsrolefreememory.htm
 tech.root: ad
 ms.assetid: 5560dfec-2134-4e02-9c87-26d246cd5841
-
 ms.date: 12/05/2018
 ms.keywords: DsRoleFreeMemory, DsRoleFreeMemory function [Active Directory], _glines_dsrolefreememory, ad.dsrolefreememory, dsrole/DsRoleFreeMemory
 ms.topic: function
-f1_keywords: 
- - "dsrole/DsRoleFreeMemory"
+f1_keywords:
+- dsrole/DsRoleFreeMemory
 dev_langs:
- - c++
+- c++
 req.header: dsrole.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsRoleFreeMemory
+- DsRoleFreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

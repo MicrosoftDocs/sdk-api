@@ -1,19 +1,17 @@
 ---
 UID: NE:xblidpauthmanager._XBL_IDP_AUTH_TOKEN_STATUS
 title: XBL_IDP_AUTH_TOKEN_STATUS (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\xbl_idp_auth_token_status.htm
 tech.root: xblidp
 ms.assetid: A00933B7-382A-4FFF-98E4-D558B6D73370
-
 ms.date: 12/05/2018
 ms.keywords: XBL_IDP_AUTH_TOKEN_STATUS, XBL_IDP_AUTH_TOKEN_STATUS enumeration, XBL_IDP_AUTH_TOKEN_STATUS_LOAD_MSA_ACCOUNT_FAILED, XBL_IDP_AUTH_TOKEN_STATUS_MSA_INTERRUPT, XBL_IDP_AUTH_TOKEN_STATUS_NO_ACCOUNT_SET, XBL_IDP_AUTH_TOKEN_STATUS_OFFLINE_NO_CONSENT, XBL_IDP_AUTH_TOKEN_STATUS_OFFLINE_SUCCESS, XBL_IDP_AUTH_TOKEN_STATUS_SUCCESS, XBL_IDP_AUTH_TOKEN_STATUS_UNKNOWN, XBL_IDP_AUTH_TOKEN_STATUS_VIEW_NOT_SET, XBL_IDP_AUTH_TOKEN_STATUS_XBOX_VETO, xblidp.xbl_idp_auth_token_status, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_LOAD_MSA_ACCOUNT_FAILED, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_MSA_INTERRUPT, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_NO_ACCOUNT_SET, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_OFFLINE_NO_CONSENT, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_OFFLINE_SUCCESS, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_SUCCESS, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_UNKNOWN, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_VIEW_NOT_SET, xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS_XBOX_VETO
 ms.topic: enum
-f1_keywords: 
- - "xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS"
+f1_keywords:
+- xblidpauthmanager/XBL_IDP_AUTH_TOKEN_STATUS
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - XBL_IDP_AUTH_TOKEN_STATUS
+- XBL_IDP_AUTH_TOKEN_STATUS
 targetos: Windows
 req.typenames: XBL_IDP_AUTH_TOKEN_STATUS
 req.redist: 

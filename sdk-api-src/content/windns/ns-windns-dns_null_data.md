@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_13
 title: DNS_NULL_DATA (windns.h)
-
 description: The DNS_NULL_DATA structure represents NULL data for a DNS resource record as specified in section 3.3.10 of RFC 1035.
 old-location: dns\dns_null_data.htm
 tech.root: DNS
 ms.assetid: c31e468f-8efd-4173-bc2c-442ee4df737f
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_NULL_DATA, DNS_NULL_DATA, DNS_NULL_DATA structure [DNS], PDNS_NULL_DATA, PDNS_NULL_DATA structure pointer [DNS], _dns_dns_null_data, dns.dns_null_data, windns/DNS_NULL_DATA, windns/PDNS_NULL_DATA"
+ms.keywords: '*PDNS_NULL_DATA, DNS_NULL_DATA, DNS_NULL_DATA structure [DNS], PDNS_NULL_DATA, PDNS_NULL_DATA structure pointer [DNS], _dns_dns_null_data, dns.dns_null_data, windns/DNS_NULL_DATA, windns/PDNS_NULL_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_NULL_DATA"
+f1_keywords:
+- windns/DNS_NULL_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_NULL_DATA
+- DNS_NULL_DATA
 targetos: Windows
 req.typenames: DNS_NULL_DATA, *PDNS_NULL_DATA
 req.redist: 

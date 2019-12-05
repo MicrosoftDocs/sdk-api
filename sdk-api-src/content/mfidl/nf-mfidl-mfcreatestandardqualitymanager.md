@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateStandardQualityManager
 title: MFCreateStandardQualityManager function (mfidl.h)
-
 description: Creates the default implementation of the quality manager.
 old-location: mf\mfcreatestandardqualitymanager.htm
 tech.root: medfound
 ms.assetid: 9abaa474-8a00-4e36-897d-9de9578333b7
-
 ms.date: 12/05/2018
 ms.keywords: 9abaa474-8a00-4e36-897d-9de9578333b7, MFCreateStandardQualityManager, MFCreateStandardQualityManager function [Media Foundation], mf.mfcreatestandardqualitymanager, mfidl/MFCreateStandardQualityManager
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateStandardQualityManager"
+f1_keywords:
+- mfidl/MFCreateStandardQualityManager
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateStandardQualityManager
+- MFCreateStandardQualityManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IOleCacheControl
 title: IOleCacheControl (oleidl.h)
-
 description: Provides proper maintenance of caches. It maintains the caches by connecting the running object's IDataObject implementation to the cache, allowing the cache to receive notifications from the running object.
 old-location: com\iolecachecontrol.htm
 tech.root: com
 ms.assetid: 64cc7a29-0bbb-4535-a7b5-9b1d82ad7e8a
-
 ms.date: 12/05/2018
 ms.keywords: IOleCacheControl, IOleCacheControl interface [COM], IOleCacheControl interface [COM],described, _ole_iolecachecontrol, com.iolecachecontrol, oleidl/IOleCacheControl
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IOleCacheControl"
+f1_keywords:
+- oleidl/IOleCacheControl
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCacheControl
+- IOleCacheControl
 targetos: Windows
 req.typenames: 
 req.redist: 

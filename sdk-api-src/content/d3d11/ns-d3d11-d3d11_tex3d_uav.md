@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEX3D_UAV
 title: D3D11_TEX3D_UAV (d3d11.h)
-
 description: Describes a unordered-access 3D texture resource.
 old-location: direct3d11\d3d11_tex3d_uav.htm
 tech.root: direct3d11
 ms.assetid: 5668c7be-73d1-4407-ace6-8970d723fc44
-
 ms.date: 12/05/2018
 ms.keywords: 3576e4ac-e8c6-2390-6df1-4597956a1b86, D3D11_TEX3D_UAV, D3D11_TEX3D_UAV structure [Direct3D 11], d3d11/D3D11_TEX3D_UAV, direct3d11.d3d11_tex3d_uav
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEX3D_UAV"
+f1_keywords:
+- d3d11/D3D11_TEX3D_UAV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_TEX3D_UAV
+- D3D11_TEX3D_UAV
 targetos: Windows
 req.typenames: D3D11_TEX3D_UAV
 req.redist: 

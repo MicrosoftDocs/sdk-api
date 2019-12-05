@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IConfigInterleaving.get_Interleaving
 title: IConfigInterleaving::get_Interleaving (strmif.h)
-
 description: The get_Interleaving method gets the audio preroll time and the frequency of interleaving for an AVI file.
 old-location: dshow\iconfiginterleaving_get_interleaving.htm
 tech.root: DirectShow
 ms.assetid: 659aa136-c7fd-4955-913b-26f7c05325a8
-
 ms.date: 12/05/2018
 ms.keywords: IConfigInterleaving interface [DirectShow],get_Interleaving method, IConfigInterleaving.get_Interleaving, IConfigInterleaving::get_Interleaving, IConfigInterleavingget_Interleaving, dshow.iconfiginterleaving_get_interleaving, get_Interleaving, get_Interleaving method [DirectShow], get_Interleaving method [DirectShow],IConfigInterleaving interface, strmif/IConfigInterleaving::get_Interleaving
 ms.topic: method
-f1_keywords: 
- - "strmif/IConfigInterleaving.get_Interleaving"
+f1_keywords:
+- strmif/IConfigInterleaving.get_Interleaving
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IConfigInterleaving.get_Interleaving
+- IConfigInterleaving.get_Interleaving
 targetos: Windows
 req.typenames: 
 req.redist: 

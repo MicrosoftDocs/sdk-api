@@ -1,19 +1,17 @@
 ---
 UID: NC:fwpmu.FWPM_CONNECTION_CALLBACK0
 title: FWPM_CONNECTION_CALLBACK0 (fwpmu.h)
-
 description: Is used to add custom behavior to the connection object subscription process.
 old-location: fwp\fwpm_connection_callback0.htm
 tech.root: fwp
 ms.assetid: 92aac379-6145-4556-a4cd-6a27fda4d910
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_CONNECTION_CALLBACK0, FWPM_CONNECTION_CALLBACK0 callback, FWPM_CONNECTION_CALLBACK0 callback function [Filtering], fwp.fwpm_connection_callback0, fwpmu/FWPM_CONNECTION_CALLBACK0
 ms.topic: callback
-f1_keywords: 
- - "fwpmu/FWPM_CONNECTION_CALLBACK0"
+f1_keywords:
+- fwpmu/FWPM_CONNECTION_CALLBACK0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Fwpmu.h
+- Fwpmu.h
 api_name:
- - FWPM_CONNECTION_CALLBACK0
+- FWPM_CONNECTION_CALLBACK0
 targetos: Windows
 req.typenames: 
 req.redist: 

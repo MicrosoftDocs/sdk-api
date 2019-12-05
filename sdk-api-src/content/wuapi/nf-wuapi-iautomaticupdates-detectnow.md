@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.DetectNow
 title: IAutomaticUpdates::DetectNow (wuapi.h)
-
 description: Begins the Automatic Updates detection task if Automatic Updates is enabled. If any updates are detected, the installation behavior is determined by the NotificationLevel property of the IAutomaticUpdatesSettings interface.
 old-location: wua\iautomaticupdates_detectnow.htm
 tech.root: Wua_Sdk
 ms.assetid: ef40cd57-eab3-4ccf-a574-ab5237565e5b
-
 ms.date: 12/05/2018
 ms.keywords: DetectNow, DetectNow method [Windows Update Agent], DetectNow method [Windows Update Agent],IAutomaticUpdates interface, IAutomaticUpdates interface [Windows Update Agent],DetectNow method, IAutomaticUpdates.DetectNow, IAutomaticUpdates::DetectNow, wua.iautomaticupdates_detectnow, wuapi/IAutomaticUpdates::DetectNow
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdates.DetectNow"
+f1_keywords:
+- wuapi/IAutomaticUpdates.DetectNow
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdates.DetectNow
+- IAutomaticUpdates.DetectNow
 targetos: Windows
 req.typenames: 
 req.redist: 

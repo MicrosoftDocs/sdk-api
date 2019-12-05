@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt._interlockedbittestandset64
 title: _interlockedbittestandset64 function (winnt.h)
-
 description: Tests the specified bit of the specified LONG64 value and sets it to 1. The operation is atomic.
 old-location: base\interlockedbittestandset64.htm
 tech.root: Sync
 ms.assetid: 27f344c7-7143-42fe-b5b6-adc1d983abde
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedBitTestAndSet64, InterlockedBitTestAndSet64 function, _interlockedbittestandset64, base.interlockedbittestandset64, winnt/InterlockedBitTestAndSet64
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedBitTestAndSet64"
+f1_keywords:
+- winnt/InterlockedBitTestAndSet64
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedBitTestAndSet64
+- InterlockedBitTestAndSet64
 targetos: Windows
 req.typenames: 
 req.redist: 

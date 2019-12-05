@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionConjugate
 title: XMQuaternionConjugate function (directxmath.h)
-
 description: Computes the conjugate of a quaternion.
 old-location: dxmath\xmquaternionconjugate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionConjugate(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionConjugate, XMQuaternionConjugate, XMQuaternionConjugate method [DirectX Math Support APIs], dxmath.xmquaternionconjugate
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionConjugate"
+f1_keywords:
+- directxmath/XMQuaternionConjugate
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionConjugate
+- XMQuaternionConjugate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.AppPolicyGetClrCompat
 title: AppPolicyGetClrCompat function (appmodel.h)
-
 description: Retrieves a value indicating the application type of a process so that you can determine whether to enable private reflection and/or make managed objects agile.
 old-location: appxpkg\apppolicygetclrcompat.htm
 tech.root: appxpkg
 ms.assetid: FCB15725-CA80-4C4E-9592-D69E0C937DB4
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetClrCompat, AppPolicyGetClrCompat function [App packaging and management], appmodel/AppPolicyGetClrCompat, appxpkg.apppolicygetclrcompat
 ms.topic: function
-f1_keywords: 
- - "appmodel/AppPolicyGetClrCompat"
+f1_keywords:
+- appmodel/AppPolicyGetClrCompat
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OneCoreUap.lib
 req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-appmodel-runtime-l1-1-2.dll
+- api-ms-win-appmodel-runtime-l1-1-2.dll
 api_name:
- - AppPolicyGetClrCompat
+- AppPolicyGetClrCompat
 targetos: Windows
 req.typenames: 
 req.redist: 

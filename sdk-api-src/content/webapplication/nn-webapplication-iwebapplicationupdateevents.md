@@ -1,19 +1,17 @@
 ---
 UID: NN:webapplication.IWebApplicationUpdateEvents
 title: IWebApplicationUpdateEvents (webapplication.h)
-
 description: Enables an authoring app to receive notification of designer events and respond to those events.
 old-location: debug\iwebapplicationupdateevents.htm
 tech.root: debug_wwahost
 ms.assetid: C1ED87B6-CC24-48CF-BC9F-FF702A0903E8
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationUpdateEvents, IWebApplicationUpdateEvents interface [Debugging Windows Store apps], IWebApplicationUpdateEvents interface [Debugging Windows Store apps],described, debug.iwebapplicationupdateevents, webapplication/IWebApplicationUpdateEvents
 ms.topic: interface
-f1_keywords: 
- - "webapplication/IWebApplicationUpdateEvents"
+f1_keywords:
+- webapplication/IWebApplicationUpdateEvents
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationUpdateEvents
+- IWebApplicationUpdateEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IPerformanceCounterDataCollector
 title: IPerformanceCounterDataCollector (pla.h)
-
 description: Specifies the performance counters to query and the log file to which the counter data is written.To create this data collector, call the IDataCollectorCollection::CreateDataCollector or IDataCollectorCollection::CreateDataCollectorFromXml method.
 old-location: pla\iperformancecounterdatacollector.htm
 tech.root: PLA
 ms.assetid: c9a5f417-ffd5-452d-9218-3ac045a55de0
-
 ms.date: 12/05/2018
 ms.keywords: IPerformanceCounterDataCollector, IPerformanceCounterDataCollector interface [PLA], IPerformanceCounterDataCollector interface [PLA],described, base.iperformancecounterdatacollector, pla.iperformancecounterdatacollector, pla/IPerformanceCounterDataCollector
 ms.topic: interface
-f1_keywords: 
- - "pla/IPerformanceCounterDataCollector"
+f1_keywords:
+- pla/IPerformanceCounterDataCollector
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IPerformanceCounterDataCollector
+- IPerformanceCounterDataCollector
 targetos: Windows
 req.typenames: 
 req.redist: 

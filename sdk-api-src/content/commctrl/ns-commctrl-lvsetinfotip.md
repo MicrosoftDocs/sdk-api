@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLVSETINFOTIP
 title: LVSETINFOTIP (commctrl.h)
-
 description: Provides information about tooltip text that is to be set.
 old-location: controls\LVSETINFOTIP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvsetinfotip.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLVSETINFOTIP, LVSETINFOTIP, LVSETINFOTIP structure [Windows Controls], PLVSETINFOTIP, PLVSETINFOTIP structure pointer [Windows Controls], commctrl/LVSETINFOTIP, commctrl/PLVSETINFOTIP, controls.LVSETINFOTIP, controls.inet_LVSETINFOTIP, inet_LVSETINFOTIP, inet_LVSETINFOTIP_cpp"
+ms.keywords: '*PLVSETINFOTIP, LVSETINFOTIP, LVSETINFOTIP structure [Windows Controls], PLVSETINFOTIP, PLVSETINFOTIP structure pointer [Windows Controls], commctrl/LVSETINFOTIP, commctrl/PLVSETINFOTIP, controls.LVSETINFOTIP, controls.inet_LVSETINFOTIP, inet_LVSETINFOTIP, inet_LVSETINFOTIP_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVSETINFOTIP"
+f1_keywords:
+- commctrl/LVSETINFOTIP
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVSETINFOTIP
+- LVSETINFOTIP
 targetos: Windows
 req.typenames: LVSETINFOTIP, *PLVSETINFOTIP
 req.redist: 

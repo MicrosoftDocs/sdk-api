@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayRedim
 title: SafeArrayRedim function (oleauto.h)
-
 description: Changes the right-most (least significant) bound of the specified safe array.
 old-location: automat\safearrayredim.htm
 tech.root: automat
 ms.assetid: 1c7fa627-e5e4-4bb9-8237-2f7358ebc4b8
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayRedim, SafeArrayRedim function [Automation], _oa96_SafeArrayRedim, automat.safearrayredim, oleauto/SafeArrayRedim
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayRedim"
+f1_keywords:
+- oleauto/SafeArrayRedim
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayRedim
+- SafeArrayRedim
 targetos: Windows
 req.typenames: 
 req.redist: 

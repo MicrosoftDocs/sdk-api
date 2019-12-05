@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetProgress
 title: IProgressDialog::SetProgress (shlobj_core.h)
-
 description: Updates the progress dialog box with the current state of the operation.
 old-location: shell\IProgressDialog_SetProgress.htm
 tech.root: shell
 ms.assetid: 50df7b32-e345-4379-809f-6870b53417b8
-
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetProgress method, IProgressDialog.SetProgress, IProgressDialog::SetProgress, SetProgress, SetProgress method [Windows Shell], SetProgress method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetProgress, shell.IProgressDialog_SetProgress, shlobj_core/IProgressDialog::SetProgress
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IProgressDialog.SetProgress"
+f1_keywords:
+- shlobj_core/IProgressDialog.SetProgress
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog.SetProgress
+- IProgressDialog.SetProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

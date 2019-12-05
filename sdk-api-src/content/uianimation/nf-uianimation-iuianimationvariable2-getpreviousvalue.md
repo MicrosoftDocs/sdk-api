@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetPreviousValue
 title: IUIAnimationVariable2::GetPreviousValue (uianimation.h)
-
 description: Gets the previous value of the animation variable. This is the value of the animation variable before the most recent update.
 old-location: uianimation\iuianimationvariable2_getpreviousvalue.htm
 tech.root: UIAnimation
 ms.assetid: 1A2BF7DB-1C7B-43BF-A7F7-A4FB47250597
-
 ms.date: 12/05/2018
 ms.keywords: GetPreviousValue, GetPreviousValue method [Windows Animation], GetPreviousValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousValue method, IUIAnimationVariable2.GetPreviousValue, IUIAnimationVariable2::GetPreviousValue, uianimation.iuianimationvariable2_getpreviousvalue, uianimation/IUIAnimationVariable2::GetPreviousValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.GetPreviousValue"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.GetPreviousValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetPreviousValue
+- IUIAnimationVariable2.GetPreviousValue
 targetos: Windows
 req.typenames: 
 req.redist: 

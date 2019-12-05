@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.Append
 title: IXpsOMImageResourceCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IXpsOMImageResource interface to the end of the collection.
 old-location: xps\ixpsomimageresourcecollection_append.htm
 tech.root: printdocs
 ms.assetid: 0932d81d-7577-4063-8207-d818164175eb
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMImageResourceCollection.Append, IXpsOMImageResourceCollection::Append, xps.ixpsomimageresourcecollection_append, xpsobjectmodel/IXpsOMImageResourceCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResourceCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResourceCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResourceCollection.Append
+- IXpsOMImageResourceCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

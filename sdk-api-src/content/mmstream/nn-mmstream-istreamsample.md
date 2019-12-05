@@ -1,19 +1,17 @@
 ---
 UID: NN:mmstream.IStreamSample
 title: IStreamSample (mmstream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\istreamsample.htm
 tech.root: DirectShow
 ms.assetid: 57818d7d-3290-46f7-a3fd-8585cdd64ec3
-
 ms.date: 12/05/2018
 ms.keywords: IStreamSample, IStreamSample interface [DirectShow], IStreamSample interface [DirectShow],described, IStreamSampleInterface, dshow.istreamsample, mmstream/IStreamSample
 ms.topic: interface
-f1_keywords: 
- - "mmstream/IStreamSample"
+f1_keywords:
+- mmstream/IStreamSample
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IStreamSample
+- IStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 

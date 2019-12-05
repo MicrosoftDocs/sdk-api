@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateASFProfile
 title: MFCreateASFProfile function (wmcontainer.h)
-
 description: Creates the ASF profile object.
 old-location: mf\mfcreateasfprofile.htm
 tech.root: medfound
 ms.assetid: fa57fac7-a191-4d5b-89be-319af7b3e09c
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateASFProfile, MFCreateASFProfile function [Media Foundation], fa57fac7-a191-4d5b-89be-319af7b3e09c, mf.mfcreateasfprofile, wmcontainer/MFCreateASFProfile
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateASFProfile"
+f1_keywords:
+- wmcontainer/MFCreateASFProfile
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateASFProfile
+- MFCreateASFProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddpbackup.IDedupBackupSupport.RestoreFiles
 title: IDedupBackupSupport::RestoreFiles (ddpbackup.h)
-
 description: Reconstructs a set of files from a backup store that contains the fully optimized version of the files (reparse points) and the Data Deduplication store.
 old-location: dedup\idedupbackupsupport_restorefiles.htm
 tech.root: dedup
 ms.assetid: CFBB0B59-2869-4A30-8F2F-A473372B1E68
-
 ms.date: 12/05/2018
 ms.keywords: DDP_E_FILE_CORRUPT, DDP_E_FILE_SYSTEM_CORRUPT, DDP_E_INVALID_DATA, DDP_E_JOB_COMPLETED_PARTIAL_SUCCESS, DDP_E_NOT_FOUND, DDP_E_PATH_NOT_FOUND, DDP_E_UNEXPECTED, DDP_E_VOLUME_DEDUP_DISABLED, DDP_E_VOLUME_UNSUPPORTED, IDedupBackupSupport interface [Data Deduplication API],RestoreFiles method, IDedupBackupSupport.RestoreFiles, IDedupBackupSupport::RestoreFiles, RestoreFiles, RestoreFiles method [Data Deduplication API], RestoreFiles method [Data Deduplication API],IDedupBackupSupport interface, S_FALSE, S_OK, ddpbackup/IDedupBackupSupport::RestoreFiles, dedup.idedupbackupsupport_restorefile, dedup.idedupbackupsupport_restorefiles
 ms.topic: method
-f1_keywords: 
- - "ddpbackup/IDedupBackupSupport.RestoreFiles"
+f1_keywords:
+- ddpbackup/IDedupBackupSupport.RestoreFiles
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DdpBackup.h
+- DdpBackup.h
 api_name:
- - IDedupBackupSupport.RestoreFiles
+- IDedupBackupSupport.RestoreFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

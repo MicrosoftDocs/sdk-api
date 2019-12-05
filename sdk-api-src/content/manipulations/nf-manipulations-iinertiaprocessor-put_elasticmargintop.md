@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_ElasticMarginTop
 title: IInertiaProcessor::put_ElasticMarginTop (manipulations.h)
-
 description: The ElasticMarginTop property specifies the topmost region for bouncing the target object.
 old-location: wintouch\iinertiaprocessor_elasticmargintop.htm
 tech.root: wintouch
 ms.assetid: 76e332bf-180b-466f-8c22-cec4e44a7ab6
-
 ms.date: 12/05/2018
 ms.keywords: ElasticMarginTop property [Windows Touch], ElasticMarginTop property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginTop property, IInertiaProcessor.ElasticMarginTop, IInertiaProcessor.put_ElasticMarginTop, IInertiaProcessor::ElasticMarginTop, IInertiaProcessor::get_ElasticMarginTop, IInertiaProcessor::put_ElasticMarginTop, manipulations/IInertiaProcessor::ElasticMarginTop, manipulations/IInertiaProcessor::get_ElasticMarginTop, manipulations/IInertiaProcessor::put_ElasticMarginTop, put_ElasticMarginTop, wintouch.iinertiaprocessor_elasticmargintop
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.ElasticMarginTop"
+f1_keywords:
+- manipulations/IInertiaProcessor.ElasticMarginTop
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.ElasticMarginTop
- - IInertiaProcessor.get_ElasticMarginTop
- - IInertiaProcessor.put_ElasticMarginTop
+- IInertiaProcessor.ElasticMarginTop
+- IInertiaProcessor.get_ElasticMarginTop
+- IInertiaProcessor.put_ElasticMarginTop
 targetos: Windows
 req.typenames: 
 req.redist: 

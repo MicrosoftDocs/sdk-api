@@ -1,19 +1,17 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.SetFileACLFlags
 title: IBackgroundCopyJob3::SetFileACLFlags (bits2_0.h)
-
 description: Specifies the owner and ACL information to maintain when using SMB to download or upload a file.
 old-location: bits\ibackgroundcopyjob3_setfileaclflags.htm
 tech.root: Bits
 ms.assetid: de218e3d-8c42-4cf3-94b9-94dbc5edbb47
-
 ms.date: 12/05/2018
 ms.keywords: BG_COPY_FILE_ALL, BG_COPY_FILE_DACL, BG_COPY_FILE_GROUP, BG_COPY_FILE_OWNER, BG_COPY_FILE_SACL, IBackgroundCopyJob3 interface [BITS],SetFileACLFlags method, IBackgroundCopyJob3.SetFileACLFlags, IBackgroundCopyJob3::SetFileACLFlags, SetFileACLFlags, SetFileACLFlags method [BITS], SetFileACLFlags method [BITS],IBackgroundCopyJob3 interface, bits.ibackgroundcopyjob3_setfileaclflags, bits2_0/IBackgroundCopyJob3::SetFileACLFlags
 ms.topic: method
-f1_keywords: 
- - "bits2_0/IBackgroundCopyJob3.SetFileACLFlags"
+f1_keywords:
+- bits2_0/IBackgroundCopyJob3.SetFileACLFlags
 dev_langs:
- - c++
+- c++
 req.header: bits2_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx3.dll
+- BitsPrx3.dll
 api_name:
- - IBackgroundCopyJob3.SetFileACLFlags
+- IBackgroundCopyJob3.SetFileACLFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.AddPid
 title: IBDA_FDC::AddPid (bdaiface.h)
-
 description: Adds one or more packet identifiers (PIDs) to the MPEG flow.
 old-location: mstv\ibda_fdc_addpid.htm
 tech.root: mstv
 ms.assetid: 28bc019c-1b5e-43e2-9fb4-7274d9c0e275
-
 ms.date: 12/05/2018
 ms.keywords: AddPid, AddPid method [Microsoft TV Technologies], AddPid method [Microsoft TV Technologies],IBDA_FDC interface, IBDA_FDC interface [Microsoft TV Technologies],AddPid method, IBDA_FDC.AddPid, IBDA_FDC::AddPid, bdaiface/IBDA_FDC::AddPid, mstv.ibda_fdc_addpid
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FDC.AddPid"
+f1_keywords:
+- bdaiface/IBDA_FDC.AddPid
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FDC.AddPid
+- IBDA_FDC.AddPid
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.SetTypographyOptions
 title: ITextDocument2::SetTypographyOptions (tom.h)
-
 description: Specifies the typography options for the document.
 old-location: controls\itextdocument2_settypographyoptions.htm
 tech.root: Controls
 ms.assetid: 1013c9bf-b6fe-4396-b7a8-36e61edf1df3
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetTypographyOptions method, ITextDocument2.SetTypographyOptions, ITextDocument2::SetTypographyOptions, SetTypographyOptions, SetTypographyOptions method [Windows Controls], SetTypographyOptions method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_settypographyoptions, tom/ITextDocument2::SetTypographyOptions
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.SetTypographyOptions"
+f1_keywords:
+- tom/ITextDocument2.SetTypographyOptions
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.SetTypographyOptions
+- ITextDocument2.SetTypographyOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

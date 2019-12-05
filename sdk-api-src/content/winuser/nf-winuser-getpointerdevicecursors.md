@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetPointerDeviceCursors
 title: GetPointerDeviceCursors function (winuser.h)
-
 description: Gets the cursor IDs that are mapped to the cursors associated with a pointer device.
 old-location: input_pointerdevice\getpointerdevicecursors.htm
 tech.root: Input_PointerDevice
 ms.assetid: 4dd25033-e63a-4fa9-89b9-bfcae4061a76
-
 ms.date: 12/05/2018
 ms.keywords: GetPointerDeviceCursors, GetPointerDeviceCursors function, input_pointerdevice.getpointerdevicecursors, unifiedinputstack.getpointerdevicecursors, winuser/GetPointerDeviceCursors
 ms.topic: function
-f1_keywords: 
- - "winuser/GetPointerDeviceCursors"
+f1_keywords:
+- winuser/GetPointerDeviceCursors
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetPointerDeviceCursors
+- GetPointerDeviceCursors
 targetos: Windows
 req.typenames: 
 req.redist: 

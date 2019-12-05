@@ -1,19 +1,17 @@
 ---
 UID: NF:winefs.SetUserFileEncryptionKey
 title: SetUserFileEncryptionKey function (winefs.h)
-
 description: Sets the user's current key to the specified certificate.
 old-location: fs\setuserfileencryptionkey.htm
 tech.root: FileIO
 ms.assetid: dd23fab7-1675-4d0d-911c-e2aac2273e7f
-
 ms.date: 12/05/2018
 ms.keywords: SetUserFileEncryptionKey, SetUserFileEncryptionKey function [Files], _win32_setuserfileencryptionkey, base.setuserfileencryptionkey, fs.setuserfileencryptionkey, winefs/SetUserFileEncryptionKey
 ms.topic: function
 f1_keywords:
 - winefs/SetUserFileEncryptionKey
 dev_langs:
- - c++
+- c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

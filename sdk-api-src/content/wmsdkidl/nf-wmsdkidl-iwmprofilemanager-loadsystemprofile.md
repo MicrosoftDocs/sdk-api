@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadSystemProfile
 title: IWMProfileManager::LoadSystemProfile (wmsdkidl.h)
-
 description: The LoadSystemProfile method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use IWMProfileManager::LoadProfileByID. To load a custom profile, use IWMProfileManager::LoadProfileByData.
 old-location: wmformat\iwmprofilemanager_loadsystemprofile.htm
 tech.root: wmformat
 ms.assetid: 5de4bd41-953b-4f50-b495-1d852831ae34
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfileManager interface [windows Media Format],LoadSystemProfile method, IWMProfileManager.LoadSystemProfile, IWMProfileManager::LoadSystemProfile, IWMProfileManagerLoadSystemProfile, LoadSystemProfile, LoadSystemProfile method [windows Media Format], LoadSystemProfile method [windows Media Format],IWMProfileManager interface, wmformat.iwmprofilemanager_loadsystemprofile, wmsdkidl/IWMProfileManager::LoadSystemProfile
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfileManager.LoadSystemProfile"
+f1_keywords:
+- wmsdkidl/IWMProfileManager.LoadSystemProfile
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfileManager.LoadSystemProfile
+- IWMProfileManager.LoadSystemProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

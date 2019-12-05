@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnPreRestore
 title: CVssWriter::OnPreRestore (vswriter.h)
-
 description: The OnPreRestore method is called by a writer following a PreRestore event.
 old-location: base\cvsswriter_onprerestore.htm
 tech.root: VSS
 ms.assetid: 5f4a6168-4102-4790-81d6-d195a440471f
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnPreRestore method, CVssWriter.OnPreRestore, CVssWriter::OnPreRestore, OnPreRestore, OnPreRestore method [VSS], OnPreRestore method [VSS],CVssWriter interface, _win32_cvsswriter_onprerestore, base.cvsswriter_onprerestore, vswriter/CVssWriter::OnPreRestore
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnPreRestore"
+f1_keywords:
+- vswriter/CVssWriter.OnPreRestore
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnPreRestore
+- CVssWriter.OnPreRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

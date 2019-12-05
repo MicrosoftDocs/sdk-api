@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs._WTS_SERVICE_STATE
 title: WTS_SERVICE_STATE (wtsdefs.h)
-
 description: Contains information about changes in the state of the Remote Desktop Services service.
 old-location: termserv\wts_service_state.htm
 tech.root: TermServ
 ms.assetid: 5f4469f5-5a64-4292-bbe6-cc030f1421f5
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_SERVICE_STATE, PWRDS_SERVICE_STATE, PWRDS_SERVICE_STATE structure pointer [Remote Desktop Services], PWTS_SERVICE_STATE, PWTS_SERVICE_STATE structure pointer [Remote Desktop Services], WRDS_SERVICE_STATE, WRDS_SERVICE_STATE structure [Remote Desktop Services], WTS_SERVICE_STATE, WTS_SERVICE_STATE structure [Remote Desktop Services], termserv.wts_service_state, wtsdefs/PWRDS_SERVICE_STATE, wtsdefs/PWTS_SERVICE_STATE, wtsdefs/WRDS_SERVICE_STATE, wtsdefs/WTS_SERVICE_STATE"
+ms.keywords: '*PWTS_SERVICE_STATE, PWRDS_SERVICE_STATE, PWRDS_SERVICE_STATE structure pointer [Remote Desktop Services], PWTS_SERVICE_STATE, PWTS_SERVICE_STATE structure pointer [Remote Desktop Services], WRDS_SERVICE_STATE, WRDS_SERVICE_STATE structure [Remote Desktop Services], WTS_SERVICE_STATE, WTS_SERVICE_STATE structure [Remote Desktop Services], termserv.wts_service_state, wtsdefs/PWRDS_SERVICE_STATE, wtsdefs/PWTS_SERVICE_STATE, wtsdefs/WRDS_SERVICE_STATE, wtsdefs/WTS_SERVICE_STATE'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_SERVICE_STATE"
+f1_keywords:
+- wtsdefs/WTS_SERVICE_STATE
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_SERVICE_STATE
+- WTS_SERVICE_STATE
 targetos: Windows
 req.typenames: WTS_SERVICE_STATE, *PWTS_SERVICE_STATE
 req.redist: 

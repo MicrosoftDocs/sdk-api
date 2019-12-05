@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnControlActivating
 title: IFileDialogControlEvents::OnControlActivating (shobjidl.h)
-
 description: Called when an Open button drop-down list customized through EnableOpenDropDown or a Tools menu is about to display its contents.
 old-location: shell\IFileDialogControlEvents_OnControlActivating.htm
 tech.root: shell
 ms.assetid: 12efb183-65b9-4095-be57-7c7802bda2ce
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogControlEvents interface [Windows Shell],OnControlActivating method, IFileDialogControlEvents.OnControlActivating, IFileDialogControlEvents::OnControlActivating, OnControlActivating, OnControlActivating method [Windows Shell], OnControlActivating method [Windows Shell],IFileDialogControlEvents interface, shell.IFileDialogControlEvents_OnControlActivating, shell_IFileDialogControlEvents_OnControlActivating, shobjidl/IFileDialogControlEvents::OnControlActivating
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFileDialogControlEvents.OnControlActivating"
+f1_keywords:
+- shobjidl/IFileDialogControlEvents.OnControlActivating
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IFileDialogControlEvents.OnControlActivating
+- IFileDialogControlEvents.OnControlActivating
 targetos: Windows
 req.typenames: 
 req.redist: 

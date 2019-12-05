@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.GetProfileType
 title: GetProfileType function (userenv.h)
-
 description: Retrieves the type of profile loaded for the current user.
 old-location: shell\GetProfileType.htm
 tech.root: shell
 ms.assetid: 55ee76c8-1735-43eb-a98e-9e6c87ee1ba7
-
 ms.date: 12/05/2018
 ms.keywords: GetProfileType, GetProfileType function [Windows Shell], PT_MANDATORY, PT_ROAMING, PT_ROAMING_PREEXISTING, PT_TEMPORARY, _shell_GetProfileType, shell.GetProfileType, userenv/GetProfileType
 ms.topic: function
-f1_keywords: 
- - "userenv/GetProfileType"
+f1_keywords:
+- userenv/GetProfileType
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - GetProfileType
+- GetProfileType
 targetos: Windows
 req.typenames: 
 req.redist: 

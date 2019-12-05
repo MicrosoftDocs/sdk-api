@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamRead
 title: AVIStreamRead function (vfw.h)
-
 description: The AVIStreamRead function reads audio, video or other data from a stream according to the stream type.
 old-location: multimedia\avistreamread.htm
 tech.root: Multimedia
 ms.assetid: 9490d46f-b11d-466b-a756-092df2db0306
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamRead, AVIStreamRead function [Windows Multimedia], _win32_AVIStreamRead, multimedia.avistreamread, vfw/AVIStreamRead
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamRead"
+f1_keywords:
+- vfw/AVIStreamRead
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
- - Ext-MS-Win-Media-Avi-L1-1-0.dll
+- Avifil32.dll
+- Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIStreamRead
+- AVIStreamRead
 targetos: Windows
 req.typenames: 
 req.redist: 

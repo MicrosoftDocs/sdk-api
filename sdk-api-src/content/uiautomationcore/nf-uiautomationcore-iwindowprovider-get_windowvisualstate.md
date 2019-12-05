@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.get_WindowVisualState
 title: IWindowProvider::get_WindowVisualState (uiautomationcore.h)
-
 description: Specifies the visual state of the window; that is, whether the window is normal (restored), minimized, or maximized.
 old-location: winauto\uiauto_IWindowProvider_WindowVisualState.htm
 tech.root: WinAuto
 ms.assetid: c65e8687-51b7-45ea-8183-6d9674f77012
-
 ms.date: 12/05/2018
 ms.keywords: IWindowProvider interface [Windows Accessibility],WindowVisualState property, IWindowProvider.WindowVisualState, IWindowProvider.get_WindowVisualState, IWindowProvider::WindowVisualState, IWindowProvider::get_WindowVisualState, WindowVisualState property [Windows Accessibility], WindowVisualState property [Windows Accessibility],IWindowProvider interface, get_WindowVisualState, uiauto.uiauto_IWindowProvider_WindowVisualState, uiauto_IWindowProvider_WindowVisualState, uiautomationcore/IWindowProvider::WindowVisualState, uiautomationcore/IWindowProvider::get_WindowVisualState, winauto.uiauto_IWindowProvider_WindowVisualState
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IWindowProvider.WindowVisualState"
+f1_keywords:
+- uiautomationcore/IWindowProvider.WindowVisualState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IWindowProvider.WindowVisualState
- - IWindowProvider.get_WindowVisualState
+- IWindowProvider.WindowVisualState
+- IWindowProvider.get_WindowVisualState
 targetos: Windows
 req.typenames: 
 req.redist: 

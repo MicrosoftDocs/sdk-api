@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._SHChangeNotifyEntry
 title: SHChangeNotifyEntry (shlobj_core.h)
-
 description: Contains and receives information for change notifications. This structure is used with the SHChangeNotifyRegister function and the SFVM_QUERYFSNOTIFY notification.
 old-location: shell\SHChangeNotifyEntry.htm
 tech.root: shell
 ms.assetid: cb11435a-86f0-4b06-bfc6-e0417f2897a1
-
 ms.date: 12/05/2018
 ms.keywords: SHChangeNotifyEntry, SHChangeNotifyEntry structure [Windows Shell], _SHChangeNotifyEntry, _win32_SHChangeNotifyEntry, shell.SHChangeNotifyEntry, shlobj_core/SHChangeNotifyEntry
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SHChangeNotifyEntry"
+f1_keywords:
+- shlobj_core/SHChangeNotifyEntry
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SHChangeNotifyEntry
+- SHChangeNotifyEntry
 targetos: Windows
 req.typenames: SHChangeNotifyEntry
 req.redist: 

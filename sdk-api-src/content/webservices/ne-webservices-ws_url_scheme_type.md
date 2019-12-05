@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_100
 title: WS_URL_SCHEME_TYPE (webservices.h)
-
 description: The set of schemes used with WsDecodeUrl, WsEncodeUrl, and WsCombineUrl.
 old-location: wsw\ws_url_scheme_type.htm
 tech.root: wsw
 ms.assetid: e8763719-6ba0-4e5e-bb71-625d36a45eaf
-
 ms.date: 12/05/2018
 ms.keywords: WS_URL_HTTPS_SCHEME_TYPE, WS_URL_HTTP_SCHEME_TYPE, WS_URL_NETPIPE_SCHEME_TYPE, WS_URL_NETTCP_SCHEME_TYPE, WS_URL_SCHEME_TYPE, WS_URL_SCHEME_TYPE enumeration [Web Services for Windows], WS_URL_SOAPUDP_SCHEME_TYPE, webservices/WS_URL_HTTPS_SCHEME_TYPE, webservices/WS_URL_HTTP_SCHEME_TYPE, webservices/WS_URL_NETPIPE_SCHEME_TYPE, webservices/WS_URL_NETTCP_SCHEME_TYPE, webservices/WS_URL_SCHEME_TYPE, webservices/WS_URL_SOAPUDP_SCHEME_TYPE, wsw.ws_url_scheme_type
 ms.topic: enum
 f1_keywords:
 - webservices/WS_URL_SCHEME_TYPE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

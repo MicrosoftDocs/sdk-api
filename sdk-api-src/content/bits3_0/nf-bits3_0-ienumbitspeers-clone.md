@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Clone
 title: IEnumBitsPeers::Clone (bits3_0.h)
-
 description: Creates another IEnumBitsPeers enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbitspeers_clone.htm
 tech.root: Bits
 ms.assetid: 72b3e0bc-9426-4953-a910-2dfaa955c4c0
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBitsPeers interface, IEnumBitsPeers interface [BITS],Clone method, IEnumBitsPeers.Clone, IEnumBitsPeers::Clone, bits.ienumbitspeers_clone, bits3_0/IEnumBitsPeers::Clone
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IEnumBitsPeers.Clone"
+f1_keywords:
+- bits3_0/IEnumBitsPeers.Clone
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IEnumBitsPeers.Clone
+- IEnumBitsPeers.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

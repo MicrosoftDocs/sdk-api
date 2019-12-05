@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.D3D12GetDebugInterface
 title: D3D12GetDebugInterface function (d3d12.h)
-
 description: Gets a debug interface.
 old-location: direct3d12\d3d12getdebuginterface.htm
 tech.root: direct3d12
 ms.assetid: 6D1D6B73-3C2C-4BE0-B75D-2CD39DAC9499
-
 ms.date: 12/05/2018
 ms.keywords: D3D12GetDebugInterface, D3D12GetDebugInterface function, d3d12/D3D12GetDebugInterface, direct3d12.d3d12getdebuginterface
 ms.topic: function
-f1_keywords: 
- - "d3d12/D3D12GetDebugInterface"
+f1_keywords:
+- d3d12/D3D12GetDebugInterface
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - D3D12GetDebugInterface
+- D3D12GetDebugInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

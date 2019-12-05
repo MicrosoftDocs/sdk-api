@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DQuery9.GetType
 title: IDirect3DQuery9::GetType (d3d9helper.h)
-
 description: Gets the query type.
 old-location: direct3d9\idirect3dquery9__gettype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dquery9__gettype.htm
-
 ms.date: 12/05/2018
 ms.keywords: 581f12d8-a07f-3bef-8285-25360f8d6b4c, GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DQuery9 interface, IDirect3DQuery9 interface [Direct3D 9],GetType method, IDirect3DQuery9.GetType, IDirect3DQuery9::GetType, d3d9helper/IDirect3DQuery9::GetType, direct3d9.idirect3dquery9__gettype
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DQuery9.GetType"
+f1_keywords:
+- d3d9helper/IDirect3DQuery9.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DQuery9.GetType
+- IDirect3DQuery9.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

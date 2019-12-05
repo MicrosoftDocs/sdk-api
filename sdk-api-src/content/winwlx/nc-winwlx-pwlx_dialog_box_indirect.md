@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_DIALOG_BOX_INDIRECT
 title: PWLX_DIALOG_BOX_INDIRECT (winwlx.h)
-
 description: Called by GINA to create a modal dialog box from a dialog box template in memory.
 old-location: security\wlxdialogboxindirect.htm
 tech.root: SecAuthN
 ms.assetid: adace4e8-659e-4360-985d-d3daafdd3688
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_DIALOG_BOX_INDIRECT, PWLX_DIALOG_BOX_INDIRECT callback, WlxDialogBoxIndirect, WlxDialogBoxIndirect callback function [Security], _gina_wlxdialogboxindirect, security.wlxdialogboxindirect, winwlx/WlxDialogBoxIndirect
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxDialogBoxIndirect"
+f1_keywords:
+- winwlx/WlxDialogBoxIndirect
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxDialogBoxIndirect
+- WlxDialogBoxIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

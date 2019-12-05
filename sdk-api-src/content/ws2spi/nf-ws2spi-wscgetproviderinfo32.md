@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCGetProviderInfo32
 title: WSCGetProviderInfo32 function (ws2spi.h)
-
 description: Retrieves the data associated with an information class for a 32-bit layered service provider (LSP).Note  This call is a strictly 32-bit version of WSCGetProviderInfo for use on 64-bit platforms.
 old-location: winsock\wscgetproviderinfo32.htm
 tech.root: WinSock
 ms.assetid: 91686b38-3cde-4979-8bf6-45e805dd37ff
-
 ms.date: 12/05/2018
 ms.keywords: WSCGetProviderInfo32, WSCGetProviderInfo32 function [Winsock], winsock.wscgetproviderinfo32, ws2spi/WSCGetProviderInfo32
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCGetProviderInfo32
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

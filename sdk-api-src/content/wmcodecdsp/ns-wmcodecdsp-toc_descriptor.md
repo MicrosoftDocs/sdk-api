@@ -1,19 +1,17 @@
 ---
 UID: NS:wmcodecdsp._TOC_DESCRIPTOR
 title: TOC_DESCRIPTOR (wmcodecdsp.h)
-
 description: The TOC_DESCRIPTOR structure holds descriptive information for a table of contents.
 old-location: mf\toc_descriptor.htm
 tech.root: medfound
 ms.assetid: a79f75c5-be98-4120-85be-71bedbcc0ea2
-
 ms.date: 12/05/2018
 ms.keywords: TOC_DESCRIPTOR, TOC_DESCRIPTOR structure [Media Foundation], codecapi.toc_descriptor, mf.toc_descriptor, wmcodecdsp/TOC_DESCRIPTOR
 ms.topic: struct
-f1_keywords: 
- - "wmcodecdsp/TOC_DESCRIPTOR"
+f1_keywords:
+- wmcodecdsp/TOC_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - TOC_DESCRIPTOR
+- TOC_DESCRIPTOR
 targetos: Windows
 req.typenames: TOC_DESCRIPTOR
 req.redist: 

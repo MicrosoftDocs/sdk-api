@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.put_Direction
 title: INetFwRule::put_Direction (netfw.h)
-
 description: Specifies the direction of traffic for which the rule applies.
 old-location: ics\inetfwrule_direction.htm
 tech.root: ics
 ms.assetid: 4462c39a-27b8-497b-8393-ed63c7e4cc9b
-
 ms.date: 12/05/2018
 ms.keywords: Direction property [ICS/ICF], Direction property [ICS/ICF],INetFwRule interface, INetFwRule interface [ICS/ICF],Direction property, INetFwRule.Direction, INetFwRule.put_Direction, INetFwRule::Direction, INetFwRule::get_Direction, INetFwRule::put_Direction, ics.inetfwrule_direction, netfw/INetFwRule::Direction, netfw/INetFwRule::get_Direction, netfw/INetFwRule::put_Direction, put_Direction
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.Direction"
+f1_keywords:
+- netfw/INetFwRule.Direction
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.Direction
- - INetFwRule.get_Direction
- - INetFwRule.put_Direction
+- INetFwRule.Direction
+- INetFwRule.get_Direction
+- INetFwRule.put_Direction
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.InstallELAMCertificateInfo
 title: InstallELAMCertificateInfo function (sysinfoapi.h)
-
 description: Installs the certificate information specified in the resource file, which is linked into the ELAM driver at build time.
 old-location: base\installelamcertificateinfo.htm
 tech.root: Services
 ms.assetid: 0EF40169-A078-4B1E-96EC-5390C75639F8
-
 ms.date: 12/05/2018
 ms.keywords: InstallELAMCertificateInfo, InstallELAMCertificateInfo function, base.installelamcertificateinfo, sysinfoapi/InstallELAMCertificateInfo
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/InstallELAMCertificateInfo"
+f1_keywords:
+- sysinfoapi/InstallELAMCertificateInfo
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
- - bcrypt.dll
+- kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
+- bcrypt.dll
 api_name:
- - InstallELAMCertificateInfo
+- InstallELAMCertificateInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

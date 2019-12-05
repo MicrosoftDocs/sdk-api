@@ -1,19 +1,17 @@
 ---
 UID: NN:vsprov.IVssHardwareSnapshotProvider
 title: IVssHardwareSnapshotProvider (vsprov.h)
-
 description: Contains the methods used by VSS to map volumes to LUNs, discover LUNs created during the shadow copy process, and transport LUNs on a SAN.
 old-location: base\ivsshardwaresnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 97fbb6bf-110e-4393-bf25-1ec378b91bdc
-
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider, IVssHardwareSnapshotProvider interface [VSS], IVssHardwareSnapshotProvider interface [VSS],described, base.ivsshardwaresnapshotprovider, vsprov/IVssHardwareSnapshotProvider
 ms.topic: interface
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

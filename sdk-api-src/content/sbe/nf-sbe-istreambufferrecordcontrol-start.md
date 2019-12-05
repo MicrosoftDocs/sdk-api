@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecordControl.Start
 title: IStreamBufferRecordControl::Start (sbe.h)
-
 description: The Start method starts the recording.
 old-location: mstv\istreambufferrecordcontrol_start.htm
 tech.root: mstv
 ms.assetid: e72ec34e-d3e3-4f5f-9336-d55135dc1e47
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Start method, IStreamBufferRecordControl.Start, IStreamBufferRecordControl::Start, IStreamBufferRecordControlStart, Start, Start method [Microsoft TV Technologies], Start method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_start, sbe/IStreamBufferRecordControl::Start
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecordControl.Start"
+f1_keywords:
+- sbe/IStreamBufferRecordControl.Start
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecordControl.Start
+- IStreamBufferRecordControl.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

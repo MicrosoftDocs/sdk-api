@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKeyPBKDF2
 title: BCryptDeriveKeyPBKDF2 function (bcrypt.h)
-
 description: Derives a key from a hash value by using the PBKDF2 key derivation algorithm as defined by RFC 2898.
 old-location: security\bcryptderivekeypbkdf2.htm
 tech.root: SecCNG
 ms.assetid: afdddfec-a3a5-410c-998b-9a5af8e051b6
-
 ms.date: 12/05/2018
 ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], bcrypt/BCryptDeriveKeyPBKDF2, security.bcryptderivekeypbkdf2
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptDeriveKeyPBKDF2"
+f1_keywords:
+- bcrypt/BCryptDeriveKeyPBKDF2
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptDeriveKeyPBKDF2
+- BCryptDeriveKeyPBKDF2
 targetos: Windows
 req.typenames: 
 req.redist: 

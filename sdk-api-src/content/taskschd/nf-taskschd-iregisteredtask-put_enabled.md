@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.put_Enabled
 title: IRegisteredTask::put_Enabled (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates if the registered task is enabled.
 old-location: taskschd\iregisteredtask_enabled.htm
 tech.root: taskschd
 ms.assetid: 33486621-3984-4a07-8182-c193847a9f76
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Task Scheduler], Enabled property [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],Enabled property, IRegisteredTask.Enabled, IRegisteredTask.put_Enabled, IRegisteredTask::Enabled, IRegisteredTask::get_Enabled, IRegisteredTask::put_Enabled, put_Enabled, taskschd.iregisteredtask_enabled, taskschd/IRegisteredTask::Enabled, taskschd/IRegisteredTask::get_Enabled, taskschd/IRegisteredTask::put_Enabled
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.Enabled"
+f1_keywords:
+- taskschd/IRegisteredTask.Enabled
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.Enabled
- - IRegisteredTask.get_Enabled
- - IRegisteredTask.put_Enabled
+- IRegisteredTask.Enabled
+- IRegisteredTask.get_Enabled
+- IRegisteredTask.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

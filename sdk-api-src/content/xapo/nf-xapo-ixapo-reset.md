@@ -1,19 +1,17 @@
 ---
 UID: NF:xapo.IXAPO.Reset
 title: IXAPO::Reset (xapo.h)
-
 description: Resets variables dependent on frame history.
 old-location: xaudio2\ixapo_interface_reset.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Reset
-
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Reset method, IXAPO.Reset, IXAPO::Reset, Reset, Reset method [XAudio2 Audio Mixing APIs], Reset method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Reset, xaudio2.ixapo_interface_reset
 ms.topic: method
-f1_keywords: 
- - "xapo/IXAPO.Reset"
+f1_keywords:
+- xapo/IXAPO.Reset
 dev_langs:
- - c++
+- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPO.h
+- XAPO.h
 api_name:
- - IXAPO.Reset
+- IXAPO.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentDevMode
 title: IPrintDialogServices::GetCurrentDevMode (commdlg.h)
-
 description: Fills a DEVMODE structure with information about the currently selected printer for use with PrintDlgEx.
 old-location: dlgbox\iprintdialogservices_getcurrentdevmode.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentdevmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentDevMode, GetCurrentDevMode function, GetCurrentDevMode method [Dialog Boxes], GetCurrentDevMode method [Dialog Boxes],IPrintDialogServices interface, IPrintDialogServices interface [Dialog Boxes],GetCurrentDevMode method, IPrintDialogServices.GetCurrentDevMode, IPrintDialogServices::GetCurrentDevMode, _win32_IPrintDialogServices_GetCurrentDevMode, _win32_iprintdialogservices_getcurrentdevmode_cpp, commdlg/IPrintDialogServices::GetCurrentDevMode, dlgbox.iprintdialogservices_getcurrentdevmode, winui._win32_iprintdialogservices_getcurrentdevmode
 ms.topic: method
-f1_keywords: 
- - "commdlg/IPrintDialogServices.GetCurrentDevMode"
+f1_keywords:
+- commdlg/IPrintDialogServices.GetCurrentDevMode
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - IPrintDialogServices.GetCurrentDevMode
+- IPrintDialogServices.GetCurrentDevMode
 targetos: Windows
 req.typenames: 
 req.redist: 

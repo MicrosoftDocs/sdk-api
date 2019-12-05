@@ -1,19 +1,17 @@
 ---
 UID: NS:dxmini._DDGETPOLARITYOUTINFO
 title: DDGETPOLARITYOUTINFO (dxmini.h)
-
 description: The DDGETPOLARITYOUTINFO structure contains the polarity information of the video port extensions (VPE) object.
 old-location: display\ddgetpolarityoutinfo.htm
 tech.root: display
 ms.assetid: 191d6c79-6f73-44f9-8016-912e4bb70453
-
 ms.date: 12/05/2018
-ms.keywords: "*PDDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO structure [Display Devices], PDDGETPOLARITYOUTINFO, PDDGETPOLARITYOUTINFO structure pointer [Display Devices], Video_Structs_eec12c7a-29ad-4c50-b85e-a78342fcbd8a.xml, display.ddgetpolarityoutinfo, dxmini/DDGETPOLARITYOUTINFO, dxmini/PDDGETPOLARITYOUTINFO"
+ms.keywords: '*PDDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO, DDGETPOLARITYOUTINFO structure [Display Devices], PDDGETPOLARITYOUTINFO, PDDGETPOLARITYOUTINFO structure pointer [Display Devices], Video_Structs_eec12c7a-29ad-4c50-b85e-a78342fcbd8a.xml, display.ddgetpolarityoutinfo, dxmini/DDGETPOLARITYOUTINFO, dxmini/PDDGETPOLARITYOUTINFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDGETPOLARITYOUTINFO"
+f1_keywords:
+- dxmini/DDGETPOLARITYOUTINFO
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDGETPOLARITYOUTINFO
+- DDGETPOLARITYOUTINFO
 targetos: Windows
 req.typenames: DDGETPOLARITYOUTINFO, *PDDGETPOLARITYOUTINFO
 req.redist: 

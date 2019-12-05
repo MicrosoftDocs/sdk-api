@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymDeleteSymbolW
 title: SymDeleteSymbolW function (dbghelp.h)
-
 description: Deletes a virtual symbol from the specified module.
 old-location: base\symdeletesymbol.htm
 tech.root: Debug
 ms.assetid: 9fc5a19d-5984-4d0a-a3d6-3da474055f5e
-
 ms.date: 12/05/2018
 ms.keywords: SymDeleteSymbol, SymDeleteSymbol function, SymDeleteSymbolW, _win32_symdeletesymbol, base.symdeletesymbol, dbghelp/SymDeleteSymbol, dbghelp/SymDeleteSymbolW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymDeleteSymbol"
+f1_keywords:
+- dbghelp/SymDeleteSymbol
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymDeleteSymbol
- - SymDeleteSymbol
- - SymDeleteSymbolW
+- SymDeleteSymbol
+- SymDeleteSymbol
+- SymDeleteSymbolW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.0 or later

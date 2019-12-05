@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.GetCount
 title: IXpsOMVisualCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of IXpsOMVisual interface pointers in the collection.
 old-location: xps\ixpsomvisualcollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 5a89f2ab-47b3-4e82-94ac-d3aa8c02ff60
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMVisualCollection interface, IXpsOMVisualCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMVisualCollection.GetCount, IXpsOMVisualCollection::GetCount, xps.ixpsomvisualcollection_getcount, xpsobjectmodel/IXpsOMVisualCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualCollection.GetCount
+- IXpsOMVisualCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

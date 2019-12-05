@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CachedMinimum
 title: IUIAutomationRangeValuePattern::get_CachedMinimum (uiautomationclient.h)
-
 description: Retrieves the cached minimum value of the control.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CachedMinimum.htm
 tech.root: WinAuto
 ms.assetid: 40fe6309-8648-49b2-990c-78e7a65ef5ed
-
 ms.date: 12/05/2018
 ms.keywords: CachedMinimum property [Windows Accessibility], CachedMinimum property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CachedMinimum property, IUIAutomationRangeValuePattern.CachedMinimum, IUIAutomationRangeValuePattern.get_CachedMinimum, IUIAutomationRangeValuePattern::CachedMinimum, IUIAutomationRangeValuePattern::get_CachedMinimum, get_CachedMinimum, uiauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiauto_IUIAutomationRangeValuePattern_CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::CachedMinimum, uiautomationclient/IUIAutomationRangeValuePattern::get_CachedMinimum, winauto.uiauto_IUIAutomationRangeValuePattern_CachedMinimum
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationRangeValuePattern.CachedMinimum"
+f1_keywords:
+- uiautomationclient/IUIAutomationRangeValuePattern.CachedMinimum
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CachedMinimum
- - IUIAutomationRangeValuePattern.get_CachedMinimum
+- IUIAutomationRangeValuePattern.CachedMinimum
+- IUIAutomationRangeValuePattern.get_CachedMinimum
 targetos: Windows
 req.typenames: 
 req.redist: 

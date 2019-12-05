@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SatisfyNtmsOperatorRequest
 title: SatisfyNtmsOperatorRequest function (ntmsapi.h)
-
 description: The SatisfyNtmsOperatorRequest function completes the specified RSM operator request.
 old-location: fs\satisfyntmsoperatorrequest.htm
 tech.root: Rsm
 ms.assetid: 37f9c9c4-7fb2-4559-94a4-e508b277e69e
-
 ms.date: 12/05/2018
 ms.keywords: SatisfyNtmsOperatorRequest, SatisfyNtmsOperatorRequest function [Files], _zaw_satisfyntmsoperatorrequest, base.satisfyntmsoperatorrequest, fs.satisfyntmsoperatorrequest, ntmsapi/SatisfyNtmsOperatorRequest
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SatisfyNtmsOperatorRequest"
+f1_keywords:
+- ntmsapi/SatisfyNtmsOperatorRequest
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SatisfyNtmsOperatorRequest
+- SatisfyNtmsOperatorRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

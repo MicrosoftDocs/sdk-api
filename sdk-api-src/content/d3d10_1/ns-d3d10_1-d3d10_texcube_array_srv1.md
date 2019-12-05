@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10_1.D3D10_TEXCUBE_ARRAY_SRV1
 title: D3D10_TEXCUBE_ARRAY_SRV1 (d3d10_1.h)
-
 description: Specifies the subresource(s) from an array of cube textures to use in a shader-resource view.
 old-location: direct3d10\d3d10_texcube_array_srv1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texcube_array_srv1.htm
-
 ms.date: 12/05/2018
 ms.keywords: 7e56cb00-6357-582e-88ab-2d9d2918ebce, D3D10_TEXCUBE_ARRAY_SRV1, D3D10_TEXCUBE_ARRAY_SRV1 structure [Direct3D 10], d3d10_1/D3D10_TEXCUBE_ARRAY_SRV1, direct3d10.d3d10_texcube_array_srv1
 ms.topic: struct
-f1_keywords: 
- - "d3d10_1/D3D10_TEXCUBE_ARRAY_SRV1"
+f1_keywords:
+- d3d10_1/D3D10_TEXCUBE_ARRAY_SRV1
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1.h
 req.include-header: D3D10_1Shader.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1.h
+- d3d10_1.h
 api_name:
- - D3D10_TEXCUBE_ARRAY_SRV1
+- D3D10_TEXCUBE_ARRAY_SRV1
 targetos: Windows
 req.typenames: D3D10_TEXCUBE_ARRAY_SRV1
 req.redist: 

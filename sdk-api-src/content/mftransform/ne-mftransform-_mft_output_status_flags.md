@@ -1,19 +1,17 @@
 ---
 UID: NE:mftransform._MFT_OUTPUT_STATUS_FLAGS
 title: _MFT_OUTPUT_STATUS_FLAGS (mftransform.h)
-
 description: Indicates whether a Media Foundation transform (MFT) can produce output data.
 old-location: mf\_mft_output_status_flags.htm
 tech.root: medfound
 ms.assetid: 951900b1-364e-4867-a1f8-50d485d13c77
-
 ms.date: 12/05/2018
 ms.keywords: 951900b1-364e-4867-a1f8-50d485d13c77, MFT_OUTPUT_STATUS_SAMPLE_READY, _MFT_OUTPUT_STATUS_FLAGS, _MFT_OUTPUT_STATUS_FLAGS enumeration [Media Foundation], mf._mft_output_status_flags, mftransform/MFT_OUTPUT_STATUS_SAMPLE_READY, mftransform/_MFT_OUTPUT_STATUS_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "mftransform/_MFT_OUTPUT_STATUS_FLAGS"
+f1_keywords:
+- mftransform/_MFT_OUTPUT_STATUS_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - _MFT_OUTPUT_STATUS_FLAGS
+- _MFT_OUTPUT_STATUS_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

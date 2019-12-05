@@ -1,19 +1,17 @@
 ---
 UID: NF:fci.FNFCIREAD
 title: FNFCIREAD macro (fci.h)
-
 description: The FNFCIREAD macro provides the declaration for the application-defined callback function to read data from a file in an FCI context.
 old-location: winprog\fnfciread.htm
 tech.root: DevNotes
 ms.assetid: dd4e97ff-efbc-462b-b954-bc3260fa1513
-
 ms.date: 12/05/2018
 ms.keywords: FNFCIREAD, FNFCIREAD macro [Windows API], fci/FNFCIREAD, winprog.fnfciread
 ms.topic: macro
-f1_keywords: 
- - "fci/FNFCIREAD"
+f1_keywords:
+- fci/FNFCIREAD
 dev_langs:
- - c++
+- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fci.h
+- fci.h
 api_name:
- - FNFCIREAD
+- FNFCIREAD
 targetos: Windows
 req.typenames: 
 req.redist: 

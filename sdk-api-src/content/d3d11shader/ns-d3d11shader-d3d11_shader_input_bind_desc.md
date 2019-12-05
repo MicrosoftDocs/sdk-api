@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shader._D3D11_SHADER_INPUT_BIND_DESC
 title: D3D11_SHADER_INPUT_BIND_DESC (d3d11shader.h)
-
 description: Describes how a shader resource is bound to a shader input.
 old-location: direct3d11\d3d11_shader_input_bind_desc.htm
 tech.root: direct3d11
 ms.assetid: 384ad8f8-0991-4cd2-bb3d-76b8338686da
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_SHADER_INPUT_BIND_DESC, D3D11_SHADER_INPUT_BIND_DESC structure [Direct3D 11], b6214f45-418b-2509-b9d9-f7513efc5ba6, d3d11shader/D3D11_SHADER_INPUT_BIND_DESC, direct3d11.d3d11_shader_input_bind_desc
 ms.topic: struct
 f1_keywords:
 - d3d11shader/D3D11_SHADER_INPUT_BIND_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows

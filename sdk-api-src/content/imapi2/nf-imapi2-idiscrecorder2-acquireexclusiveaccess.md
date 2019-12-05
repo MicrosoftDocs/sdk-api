@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.AcquireExclusiveAccess
 title: IDiscRecorder2::AcquireExclusiveAccess (imapi2.h)
-
 description: Acquires exclusive access to the device.
 old-location: imapi\idiscrecorder2_acquireexclusiveaccess.htm
 tech.root: imapi
 ms.assetid: 58cb5efa-74bc-4444-aa05-be41a6c63b3a
-
 ms.date: 12/05/2018
 ms.keywords: AcquireExclusiveAccess, AcquireExclusiveAccess method [IMAPI], AcquireExclusiveAccess method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],AcquireExclusiveAccess method, IDiscRecorder2.AcquireExclusiveAccess, IDiscRecorder2::AcquireExclusiveAccess, imapi.idiscrecorder2_acquireexclusiveaccess, imapi2/IDiscRecorder2::AcquireExclusiveAccess
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.AcquireExclusiveAccess"
+f1_keywords:
+- imapi2/IDiscRecorder2.AcquireExclusiveAccess
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.AcquireExclusiveAccess
+- IDiscRecorder2.AcquireExclusiveAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_GETMOCOMPCOMPBUFFDATA
 title: DD_GETMOCOMPCOMPBUFFDATA (ddrawint.h)
-
 description: The DD_GETMOCOMPCOMPBUFFDATA structure contains the compressed buffer information.
 old-location: display\dd_getmocompcompbuffdata.htm
 tech.root: display
 ms.assetid: 5510d430-834c-42ea-a113-c17b1b87ea52
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA, DD_GETMOCOMPCOMPBUFFDATA structure [Display Devices], ddrawint/DD_GETMOCOMPCOMPBUFFDATA, ddstrcts_20d1802e-7979-4336-b730-a161f771c24a.xml, display.dd_getmocompcompbuffdata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETMOCOMPCOMPBUFFDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

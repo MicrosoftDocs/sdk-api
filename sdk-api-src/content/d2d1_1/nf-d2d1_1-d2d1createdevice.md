@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.D2D1CreateDevice
 title: D2D1CreateDevice function (d2d1_1.h)
-
 description: Creates a new Direct2D device associated with the provided DXGI device.
 old-location: direct2d\d2d1createdevice.htm
 tech.root: Direct2D
 ms.assetid: 5ed3ec21-b609-41b6-9568-6ede460bc395
-
 ms.date: 12/05/2018
 ms.keywords: D2D1CreateDevice, D2D1CreateDevice function [Direct2D], d2d1_1/D2D1CreateDevice, direct2d.d2d1createdevice
 ms.topic: function
-f1_keywords: 
- - "d2d1_1/D2D1CreateDevice"
+f1_keywords:
+- d2d1_1/D2D1CreateDevice
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - D2D1CreateDevice
+- D2D1CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

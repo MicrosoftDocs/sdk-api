@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetVersionNumber
 title: IPAT::GetVersionNumber (mpeg2psiparser.h)
-
 description: The GetVersionNumber method returns the version number for the PAT.
 old-location: mstv\ipat_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 1398a1b9-e9b9-4f30-ba93-0a08a0994cf9
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetVersionNumber method, IPAT.GetVersionNumber, IPAT::GetVersionNumber, IPATGetVersionNumber, mpeg2psiparser/IPAT::GetVersionNumber, mstv.ipat_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPAT.GetVersionNumber"
+f1_keywords:
+- mpeg2psiparser/IPAT.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPAT.GetVersionNumber
+- IPAT.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.RefTimeToSample
 title: IDirectMusicSynthSink::RefTimeToSample (dmusics.h)
-
 description: The RefTimeToSample method converts a reference time to a sample time.
 old-location: audio\idirectmusicsynthsink_reftimetosample.htm
 tech.root: audio
 ms.assetid: 11a6b670-93d6-4455-b279-a1fc5fca0d1d
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],RefTimeToSample method, IDirectMusicSynthSink.RefTimeToSample, IDirectMusicSynthSink::RefTimeToSample, RefTimeToSample, RefTimeToSample method [Audio Devices], RefTimeToSample method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_reftimetosample, audmp-routines_0e3d6a54-9625-48de-8ac2-2359047acd90.xml, dmusics/IDirectMusicSynthSink::RefTimeToSample
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynthSink.RefTimeToSample"
+f1_keywords:
+- dmusics/IDirectMusicSynthSink.RefTimeToSample
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynthSink.RefTimeToSample
+- IDirectMusicSynthSink.RefTimeToSample
 targetos: Windows
 req.typenames: 
 req.redist: 

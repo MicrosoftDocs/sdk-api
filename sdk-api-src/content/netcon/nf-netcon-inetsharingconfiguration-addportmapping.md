@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.AddPortMapping
 title: INetSharingConfiguration::AddPortMapping (netcon.h)
-
 description: Adds a service port mapping for this connection.
 old-location: ics\inetsharingconfiguration_addportmapping.htm
 tech.root: ics
 ms.assetid: 0d9e1520-6018-425c-a2f9-c408fa3025cf
-
 ms.date: 12/05/2018
 ms.keywords: AddPortMapping, AddPortMapping method [ICS/ICF], AddPortMapping method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],AddPortMapping method, INetSharingConfiguration.AddPortMapping, INetSharingConfiguration::AddPortMapping, _ics_inetsharingconfiguration_addportmapping, ics.inetsharingconfiguration_addportmapping, netcon/INetSharingConfiguration::AddPortMapping
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingConfiguration.AddPortMapping"
+f1_keywords:
+- netcon/INetSharingConfiguration.AddPortMapping
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingConfiguration.AddPortMapping
+- INetSharingConfiguration.AddPortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

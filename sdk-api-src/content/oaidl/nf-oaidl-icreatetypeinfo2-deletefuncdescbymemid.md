@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDescByMemId
 title: ICreateTypeInfo2::DeleteFuncDescByMemId (oaidl.h)
-
 description: Deletes the specified function description (FUNCDESC).
 old-location: automat\icreatetypeinfo2_deletefuncdescbymemid.htm
 tech.root: automat
 ms.assetid: 75de562b-3c08-4bab-957a-3a9eab16fb3f
-
 ms.date: 12/05/2018
 ms.keywords: DeleteFuncDescByMemId, DeleteFuncDescByMemId method [Automation], DeleteFuncDescByMemId method [Automation],ICreateTypeInfo2 interface, ICreateTypeInfo2 interface [Automation],DeleteFuncDescByMemId method, ICreateTypeInfo2.DeleteFuncDescByMemId, ICreateTypeInfo2::DeleteFuncDescByMemId, _oa96_ICreateTypeInfo2_DeleteFuncDescByMemId, automat.icreatetypeinfo2_deletefuncdescbymemid, oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo2.DeleteFuncDescByMemId"
+f1_keywords:
+- oaidl/ICreateTypeInfo2.DeleteFuncDescByMemId
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo2.DeleteFuncDescByMemId
+- ICreateTypeInfo2.DeleteFuncDescByMemId
 targetos: Windows
 req.typenames: 
 req.redist: 

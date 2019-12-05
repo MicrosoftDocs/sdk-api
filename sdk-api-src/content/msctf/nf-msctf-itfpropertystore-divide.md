@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Divide
 title: ITfPropertyStore::Divide (msctf.h)
-
 description: ITfPropertyStore::Divide method
 old-location: tsf\itfpropertystore_divide.htm
 tech.root: TSF
 ms.assetid: 5b982cb1-e1b6-440b-9ac6-9b34bb86731d
-
 ms.date: 12/05/2018
 ms.keywords: Divide, Divide method [Text Services Framework], Divide method [Text Services Framework],ITfPropertyStore interface, ITfPropertyStore interface [Text Services Framework],Divide method, ITfPropertyStore.Divide, ITfPropertyStore::Divide, _tsf_itfpropertystore_divide_ref, msctf/ITfPropertyStore::Divide, tsf.itfpropertystore_divide
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfPropertyStore.Divide"
+f1_keywords:
+- msctf/ITfPropertyStore.Divide
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfPropertyStore.Divide
+- ITfPropertyStore.Divide
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnection.get_InterfaceID
 title: IMbnConnection::get_InterfaceID (mbnapi.h)
-
 description: Gets the interface identifier.
 old-location: mbn\imbnconnection_interfaceid.htm
 tech.root: mbn
 ms.assetid: c98f1f69-1df1-4d72-8df4-166284dcb880
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnection interface [Microsoft Broadband Networks],InterfaceID property, IMbnConnection.InterfaceID, IMbnConnection.get_InterfaceID, IMbnConnection::InterfaceID, IMbnConnection::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnConnection interface, get_InterfaceID, mbn.imbnconnection_interfaceid, mbnapi/IMbnConnection::InterfaceID, mbnapi/IMbnConnection::get_InterfaceID
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnection.InterfaceID"
+f1_keywords:
+- mbnapi/IMbnConnection.InterfaceID
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection.InterfaceID
- - IMbnConnection.get_InterfaceID
+- IMbnConnection.InterfaceID
+- IMbnConnection.get_InterfaceID
 targetos: Windows
 req.typenames: 
 req.redist: 

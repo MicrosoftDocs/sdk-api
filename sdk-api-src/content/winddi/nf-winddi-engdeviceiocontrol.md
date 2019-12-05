@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDeviceIoControl
 title: EngDeviceIoControl function (winddi.h)
-
 description: The EngDeviceIoControl function sends a control code to the specified video miniport driver, causing the device to perform the specified operation.
 old-location: display\engdeviceiocontrol.htm
 tech.root: display
 ms.assetid: a38186b6-4b27-4360-8721-49c95dd94806
-
 ms.date: 12/05/2018
 ms.keywords: EngDeviceIoControl, EngDeviceIoControl function [Display Devices], display.engdeviceiocontrol, gdifncs_735d205a-99e3-4397-a5ac-31312ac734e7.xml, winddi/EngDeviceIoControl
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeviceIoControl"
+f1_keywords:
+- winddi/EngDeviceIoControl
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeviceIoControl
+- EngDeviceIoControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -22,14 +22,14 @@ req.typenames: WSATHREADID, *LPWSATHREADID
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ws2spi.h
+- ws2spi.h
 api_name:
- - _WSATHREADID
- - WSATHREADID
+- _WSATHREADID
+- WSATHREADID
 ---
 
 ## -description

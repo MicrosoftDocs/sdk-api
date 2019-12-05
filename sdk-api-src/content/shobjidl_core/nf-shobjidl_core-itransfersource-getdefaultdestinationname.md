@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.GetDefaultDestinationName
 title: ITransferSource::GetDefaultDestinationName (shobjidl_core.h)
-
 description: Gets the default name for a Shell item.
 old-location: shell\ITransferSource_GetDefaultDestinationName.htm
 tech.root: shell
 ms.assetid: a99d9622-b205-4a8a-9840-879f655463a5
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultDestinationName, GetDefaultDestinationName method [Windows Shell], GetDefaultDestinationName method [Windows Shell],ITransferSource interface, ITransferSource interface [Windows Shell],GetDefaultDestinationName method, ITransferSource.GetDefaultDestinationName, ITransferSource::GetDefaultDestinationName, _shell_ITransferSource_GetDefaultDestinationName, shell.ITransferSource_GetDefaultDestinationName, shobjidl_core/ITransferSource::GetDefaultDestinationName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferSource.GetDefaultDestinationName"
+f1_keywords:
+- shobjidl_core/ITransferSource.GetDefaultDestinationName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferSource.GetDefaultDestinationName
+- ITransferSource.GetDefaultDestinationName
 targetos: Windows
 req.typenames: 
 req.redist: 

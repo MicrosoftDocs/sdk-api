@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_TVFormat
 title: IAMTVTuner::get_TVFormat (strmif.h)
-
 description: The get_TVFormat method retrieves the current analog video TV standard in use.
 old-location: dshow\iamtvtuner_get_tvformat.htm
 tech.root: DirectShow
 ms.assetid: 26e20511-04f6-4713-967f-5828e6f2a46d
-
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_TVFormat method, IAMTVTuner.get_TVFormat, IAMTVTuner::get_TVFormat, IAMTVTunerget_TVFormat, dshow.iamtvtuner_get_tvformat, get_TVFormat, get_TVFormat method [DirectShow], get_TVFormat method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_TVFormat
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVTuner.get_TVFormat"
+f1_keywords:
+- strmif/IAMTVTuner.get_TVFormat
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVTuner.get_TVFormat
+- IAMTVTuner.get_TVFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetSelectionState
 title: IFolderView2::GetSelectionState (shobjidl_core.h)
-
 description: Gets the selection state including check state.
 old-location: shell\IFolderView2_GetSelectionState.htm
 tech.root: shell
 ms.assetid: fc446188-c7f8-4158-a5b4-631fb374e0c4
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectionState, GetSelectionState method [Windows Shell], GetSelectionState method [Windows Shell],IFolderView2 interface, IFolderView2 interface [Windows Shell],GetSelectionState method, IFolderView2.GetSelectionState, IFolderView2::GetSelectionState, _shell_IFolderView2_GetSelectionState, shell.IFolderView2_GetSelectionState, shobjidl_core/IFolderView2::GetSelectionState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.GetSelectionState"
+f1_keywords:
+- shobjidl_core/IFolderView2.GetSelectionState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.GetSelectionState
+- IFolderView2.GetSelectionState
 targetos: Windows
 req.typenames: 
 req.redist: 

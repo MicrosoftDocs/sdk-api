@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetIntent
 title: IXpsSignatureRequest::GetIntent (xpsdigitalsignature.h)
-
 description: Sets the string that describes the intent or meaning of the signature.
 old-location: xps\ixpssignaturerequest_getintent.htm
 tech.root: printdocs
 ms.assetid: d4da2d1b-e907-4498-a196-fd52742740b6
-
 ms.date: 12/05/2018
 ms.keywords: GetIntent, GetIntent method [XPS Documents and Packaging], GetIntent method [XPS Documents and Packaging],IXpsSignatureRequest interface, IXpsSignatureRequest interface [XPS Documents and Packaging],GetIntent method, IXpsSignatureRequest.GetIntent, IXpsSignatureRequest::GetIntent, xps.ixpssignaturerequest_getintent, xpsdigitalsignature/IXpsSignatureRequest::GetIntent
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureRequest.GetIntent"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureRequest.GetIntent
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.GetIntent
+- IXpsSignatureRequest.GetIntent
 targetos: Windows
 req.typenames: 
 req.redist: 

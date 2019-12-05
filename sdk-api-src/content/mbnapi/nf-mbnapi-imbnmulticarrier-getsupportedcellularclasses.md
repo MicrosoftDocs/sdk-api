@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetSupportedCellularClasses
 title: IMbnMultiCarrier::GetSupportedCellularClasses (mbnapi.h)
-
 description: Gets the list of supported cellular classes for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_getsupportedcellularclasses.htm
 tech.root: mbn
 ms.assetid: 80B29D28-9940-4A96-B95A-A9640CE5E929
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedCellularClasses, GetSupportedCellularClasses method [Microsoft Broadband Networks], GetSupportedCellularClasses method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetSupportedCellularClasses method, IMbnMultiCarrier.GetSupportedCellularClasses, IMbnMultiCarrier::GetSupportedCellularClasses, mbn.imbnmulticarrier_getsupportedcellularclasses, mbnapi/IMbnMultiCarrier::GetSupportedCellularClasses
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrier.GetSupportedCellularClasses"
+f1_keywords:
+- mbnapi/IMbnMultiCarrier.GetSupportedCellularClasses
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrier.GetSupportedCellularClasses
+- IMbnMultiCarrier.GetSupportedCellularClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

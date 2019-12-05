@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter2.GetLastErrorCode
 title: IDTFilter2::GetLastErrorCode (encdec.h)
-
 description: The GetLastErrorCode method returns the most recent error code from the Decrypter/Detagger filter.
 old-location: mstv\idtfilter2_getlasterrorcode.htm
 tech.root: mstv
 ms.assetid: e4de424c-0db6-408e-ab1a-57ae8899f4a7
-
 ms.date: 12/05/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IDTFilter2 interface, IDTFilter2 interface [Microsoft TV Technologies],GetLastErrorCode method, IDTFilter2.GetLastErrorCode, IDTFilter2::GetLastErrorCode, IDTFilter2GetLastErrorCode, encdec/IDTFilter2::GetLastErrorCode, mstv.idtfilter2_getlasterrorcode
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter2.GetLastErrorCode"
+f1_keywords:
+- encdec/IDTFilter2.GetLastErrorCode
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter2.GetLastErrorCode
+- IDTFilter2.GetLastErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphConfig.SetFilterFlags
 title: IGraphConfig::SetFilterFlags (strmif.h)
-
 description: The SetFilterFlags method sets a filter's configuration information.
 old-location: dshow\igraphconfig_setfilterflags.htm
 tech.root: DirectShow
 ms.assetid: 1f2ed50e-8bb9-4076-ad0e-a7311acb8285
-
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],SetFilterFlags method, IGraphConfig.SetFilterFlags, IGraphConfig::SetFilterFlags, IGraphConfigSetFilterFlags, SetFilterFlags, SetFilterFlags method [DirectShow], SetFilterFlags method [DirectShow],IGraphConfig interface, dshow.igraphconfig_setfilterflags, strmif/IGraphConfig::SetFilterFlags
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfig.SetFilterFlags"
+f1_keywords:
+- strmif/IGraphConfig.SetFilterFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig.SetFilterFlags
+- IGraphConfig.SetFilterFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

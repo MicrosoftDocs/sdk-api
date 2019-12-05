@@ -1,18 +1,16 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement9.get_CurrentIsDialog
 title: IUIAutomationElement9.get_CurrentIsDialog (uiautomationclient.h)
-
 description: Retrieves the current is dialog window indicator for the element.
 old-location: winauto\uiauto_IUIAutomationElement9_CurrentIsDialog.htm
 tech.root: WinAuto
-
 ms.date: 04/29/2019
 ms.keywords: CurrentIsDialog property [Windows Accessibility], CurrentIsDialog property [Windows Accessibility],IUIAutomationElement9 interface, IUIAutomationElement9 interface [Windows Accessibility],CurrentIsDialog property, IUIAutomationElement9.CurrentIsDialog, IUIAutomationElement9.get_CurrentIsDialog, IUIAutomationElement9::CurrentIsDialog, IUIAutomationElement9::get_CurrentIsDialog, get_CurrentIsDialog, uiautomationclient/IUIAutomationElement9::CurrentIsDialog, uiautomationclient/IUIAutomationElement9::get_CurrentIsDialog, winauto.uiauto_IUIAutomationElement9_CurrentIsDialog
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement9.CurrentIsDialog"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement9.CurrentIsDialog
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: 
 req.target-type: Windows
@@ -31,15 +29,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - uiautomationclient.h
+- uiautomationclient.h
 api_name:
- - IUIAutomationElement9.CurrentIsDialog
- - IUIAutomationElement9.get_CurrentIsDialog
+- IUIAutomationElement9.CurrentIsDialog
+- IUIAutomationElement9.get_CurrentIsDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

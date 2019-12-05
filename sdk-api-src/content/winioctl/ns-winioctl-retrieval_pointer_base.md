@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._RETRIEVAL_POINTER_BASE
 title: RETRIEVAL_POINTER_BASE
-
 description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTER_BASE control code.
 old-location: fs\retrieval_pointer_base.htm
 tech.root: FileIO
 ms.assetid: e0a779fb-6c46-4831-95dc-968e17f86a81
-
 ms.date: 12/05/2018
-ms.keywords: "*PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE structure pointer [Files], RETRIEVAL_POINTER_BASE, RETRIEVAL_POINTER_BASE structure [Files], fs.retrieval_pointer_base, winioctl/PRETRIEVAL_POINTER_BASE, winioctl/RETRIEVAL_POINTER_BASE"
+ms.keywords: '*PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE, PRETRIEVAL_POINTER_BASE structure pointer [Files], RETRIEVAL_POINTER_BASE, RETRIEVAL_POINTER_BASE structure [Files], fs.retrieval_pointer_base, winioctl/PRETRIEVAL_POINTER_BASE, winioctl/RETRIEVAL_POINTER_BASE'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/RETRIEVAL_POINTER_BASE"
+f1_keywords:
+- winioctl/RETRIEVAL_POINTER_BASE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - RETRIEVAL_POINTER_BASE
+- RETRIEVAL_POINTER_BASE
 targetos: Windows
 req.typenames: RETRIEVAL_POINTER_BASE, *PRETRIEVAL_POINTER_BASE
 req.redist: 

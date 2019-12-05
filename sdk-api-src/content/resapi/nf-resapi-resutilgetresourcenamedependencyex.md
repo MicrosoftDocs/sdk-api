@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetResourceNameDependencyEx
 title: ResUtilGetResourceNameDependencyEx function (resapi.h)
-
 description: Enumerates the dependencies of a specified resource in the local cluster and returns a handle to a dependency of a specified resource type. The PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX type defines a pointer to this function.
 old-location: mscs\resutilgetresourcenamedependencyex.htm
 tech.root: MsCS
 ms.assetid: 3A57C19C-F0A2-4183-ACA6-0CEF2F2FF23E
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX function [Failover Cluster], ResUtilGetResourceNameDependencyEx, ResUtilGetResourceNameDependencyEx function [Failover Cluster], mscs.resutilgetresourcenamedependencyex, resapi/PRESUTIL_GET_RESOURCE_NAME_DEPENDENCY_EX, resapi/ResUtilGetResourceNameDependencyEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetResourceNameDependencyEx"
+f1_keywords:
+- resapi/ResUtilGetResourceNameDependencyEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetResourceNameDependencyEx
+- ResUtilGetResourceNameDependencyEx
 targetos: Windows
 req.typenames: 
 req.redist: 

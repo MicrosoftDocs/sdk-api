@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmCollection.Cancel
 title: IFsrmCollection::Cancel (fsrm.h)
-
 description: Cancels the collection of objects when the objects are collected asynchronously.
 old-location: fsrm\ifsrmcollection_cancel.htm
 tech.root: fsrm
 ms.assetid: f51f1a8d-a857-4a17-96ca-1f3ed391b7d7
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [File Server Resource Manager], Cancel method [File Server Resource Manager],IFsrmCollection interface, IFsrmCollection interface [File Server Resource Manager],Cancel method, IFsrmCollection.Cancel, IFsrmCollection::Cancel, fs.ifsrmcollection_cancel, fsrm.ifsrmcollection_cancel, fsrm/IFsrmCollection::Cancel
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmCollection.Cancel"
+f1_keywords:
+- fsrm/IFsrmCollection.Cancel
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmCollection.Cancel
+- IFsrmCollection.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

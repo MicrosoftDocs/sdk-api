@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.QueryHeader
 title: IMFHttpDownloadRequest::QueryHeader (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to retrieve the values of specified HTTP headers from the response to a previously sent HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_queryheader.htm
 tech.root: medfound
 ms.assetid: BFAE5257-0BE8-47F3-B3CD-490885E60065
-
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadRequest interface [Media Foundation],QueryHeader method, IMFHttpDownloadRequest.QueryHeader, IMFHttpDownloadRequest::QueryHeader, QueryHeader, QueryHeader method [Media Foundation], QueryHeader method [Media Foundation],IMFHttpDownloadRequest interface, mf.imfhttpdownloadrequest_queryheader, mfidl/IMFHttpDownloadRequest::QueryHeader
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.QueryHeader"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.QueryHeader
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.QueryHeader
+- IMFHttpDownloadRequest.QueryHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

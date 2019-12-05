@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._DETACH_VIRTUAL_DISK_FLAG
 title: DETACH_VIRTUAL_DISK_FLAG (virtdisk.h)
-
 description: Contains virtual disk detach request flags.
 old-location: vhd\detach_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: 43f0687d-edb5-48d9-885c-530261c485fa
-
 ms.date: 12/05/2018
 ms.keywords: DETACH_VIRTUAL_DISK_FLAG, DETACH_VIRTUAL_DISK_FLAG enumeration [VHD], DETACH_VIRTUAL_DISK_FLAG_NONE, vdssys/DETACH_VIRTUAL_DISK_FLAG, vdssys/DETACH_VIRTUAL_DISK_FLAG_NONE, vhd.detach_virtual_disk_flag, vhd.unsurface_virtual_disk_flag, virtdisk/DETACH_VIRTUAL_DISK_FLAG, virtdisk/DETACH_VIRTUAL_DISK_FLAG_NONE
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/DETACH_VIRTUAL_DISK_FLAG"
+f1_keywords:
+- virtdisk/DETACH_VIRTUAL_DISK_FLAG
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - DETACH_VIRTUAL_DISK_FLAG
+- DETACH_VIRTUAL_DISK_FLAG
 targetos: Windows
 req.typenames: DETACH_VIRTUAL_DISK_FLAG
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetLifeTime
 title: INetDiagHelper::GetLifeTime (ndhelper.h)
-
 description: Retrieves the lifetime of the Helper Class Extension instance.
 old-location: ndf\inetdiaghelpe_getlifetime.htm
 tech.root: NDF
 ms.assetid: 0710b8d3-04d6-434f-9b0a-22049bf00ba0
-
 ms.date: 12/05/2018
 ms.keywords: GetLifeTime, GetLifeTime method [NDF], GetLifeTime method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetLifeTime method, INetDiagHelper.GetLifeTime, INetDiagHelper::GetLifeTime, ndf.inetdiaghelpe_getlifetime, ndhelper/INetDiagHelper::GetLifeTime
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetLifeTime"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetLifeTime
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetLifeTime
+- INetDiagHelper.GetLifeTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetSystemDefaultLocaleName
 title: GetSystemDefaultLocaleName function (winnls.h)
-
 description: Retrieves the system default locale name.Note  It is recommended that applications call GetUserDefaultLocaleName in preference over this function.
 old-location: intl\getsystemdefaultlocalename.htm
 tech.root: Intl
 ms.assetid: 1e925e41-64db-44aa-ab73-05d0f2036c8f
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultLocaleName, GetSystemDefaultLocaleName function [Internationalization for Windows Applications], _win32_GetSystemDefaultLocaleName, intl.getsystemdefaultlocalename, winnls/GetSystemDefaultLocaleName
 ms.topic: function
-f1_keywords: 
- - "winnls/GetSystemDefaultLocaleName"
+f1_keywords:
+- winnls/GetSystemDefaultLocaleName
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
 api_name:
- - GetSystemDefaultLocaleName
+- GetSystemDefaultLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

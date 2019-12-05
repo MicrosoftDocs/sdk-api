@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DRIDRMService.GetDRMStatus
 title: IBDA_DRIDRMService::GetDRMStatus (bdaiface.h)
-
 description: The GetDRMSTatus method returns the current status of the Digital Rights Management (DRM) system for a Media Transform Device (MTD) in a graph under the Protected Broadcast Device Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice_getdrmstatus.htm
 tech.root: mstv
 ms.assetid: 145e4716-05e1-41b8-98f3-72e719ca8b9f
-
 ms.date: 12/05/2018
 ms.keywords: GetDRMStatus, GetDRMStatus method [DirectShow], GetDRMStatus method [DirectShow],IBDA_DRIDRMService interface, IBDA_DRIDRMService interface [DirectShow],GetDRMStatus method, IBDA_DRIDRMService.GetDRMStatus, IBDA_DRIDRMService::GetDRMStatus, bdaiface/IBDA_DRIDRMService::GetDRMStatus, mstv.ibda_dridrmservice_getdrmstatus
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DRIDRMService.GetDRMStatus"
+f1_keywords:
+- bdaiface/IBDA_DRIDRMService.GetDRMStatus
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DRIDRMService.GetDRMStatus
+- IBDA_DRIDRMService.GetDRMStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

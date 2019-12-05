@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICPlanarOptions
 title: WICPlanarOptions (wincodec.h)
-
 description: Specifies additional options to an IWICPlanarBitmapSourceTransform implementation.
 old-location: wic\wicplanaroptions.htm
 tech.root: wic
 ms.assetid: 8B7F34AA-77A0-428D-800E-31AB43067102
-
 ms.date: 12/05/2018
 ms.keywords: WICPlanarOptions, WICPlanarOptions enumeration [Windows Imaging Component], WICPlanarOptionsDefault, WICPlanarOptionsPreserveSubsampling, wic.wicplanaroptions, wincodec/WICPlanarOptions, wincodec/WICPlanarOptionsDefault, wincodec/WICPlanarOptionsPreserveSubsampling
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICPlanarOptions"
+f1_keywords:
+- wincodec/WICPlanarOptions
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICPlanarOptions
+- WICPlanarOptions
 targetos: Windows
 req.typenames: WICPlanarOptions
 req.redist: 

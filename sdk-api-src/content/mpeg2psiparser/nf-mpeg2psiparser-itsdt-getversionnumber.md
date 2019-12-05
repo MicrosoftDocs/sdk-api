@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.GetVersionNumber
 title: ITSDT::GetVersionNumber (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 4784b7d6-1a20-4018-9ad5-7e8bafb700f8
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],ITSDT interface, ITSDT interface [Microsoft TV Technologies],GetVersionNumber method, ITSDT.GetVersionNumber, ITSDT::GetVersionNumber, ITSDTGetVersionNumber, mpeg2psiparser/ITSDT::GetVersionNumber, mstv.itsdt_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ITSDT.GetVersionNumber"
+f1_keywords:
+- mpeg2psiparser/ITSDT.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - ITSDT.GetVersionNumber
+- ITSDT.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.SetInitialValueAndVelocity
 title: IUIAnimationInterpolator::SetInitialValueAndVelocity (uianimation.h)
-
 description: Sets the initial value and velocity at the start of the transition.
 old-location: uianimation\iuianimationinterpolator_setinitialvalueandvelocity.htm
 tech.root: UIAnimation
 ms.assetid: a1c5451a-b8d0-4eb7-883c-6bd1d585cb11
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetInitialValueAndVelocity method, IUIAnimationInterpolator.SetInitialValueAndVelocity, IUIAnimationInterpolator::SetInitialValueAndVelocity, SetInitialValueAndVelocity, SetInitialValueAndVelocity method [Windows Animation], SetInitialValueAndVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_setinitialvalueandvelocity, uianimation/IUIAnimationInterpolator::SetInitialValueAndVelocity
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationInterpolator.SetInitialValueAndVelocity"
+f1_keywords:
+- uianimation/IUIAnimationInterpolator.SetInitialValueAndVelocity
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.SetInitialValueAndVelocity
+- IUIAnimationInterpolator.SetInitialValueAndVelocity
 targetos: Windows
 req.typenames: 
 req.redist: 

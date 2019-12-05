@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleControlSite.LockInPlaceActive
 title: IOleControlSite::LockInPlaceActive (ocidl.h)
-
 description: Indicates whether a control should remain in-place active. Calls to this method typically nest an event to ensure that the object's activation state remains stable throughout the processing of the event.
 old-location: com\iolecontrolsite_lockinplaceactive.htm
 tech.root: com
 ms.assetid: abd9a6c6-1551-4423-b1d6-f735159f6df4
-
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],LockInPlaceActive method, IOleControlSite.LockInPlaceActive, IOleControlSite::LockInPlaceActive, LockInPlaceActive, LockInPlaceActive method [COM], LockInPlaceActive method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_lockinplaceactive, com.iolecontrolsite_lockinplaceactive, ocidl/IOleControlSite::LockInPlaceActive
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleControlSite.LockInPlaceActive"
+f1_keywords:
+- ocidl/IOleControlSite.LockInPlaceActive
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleControlSite.LockInPlaceActive
+- IOleControlSite.LockInPlaceActive
 targetos: Windows
 req.typenames: 
 req.redist: 

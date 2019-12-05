@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPOCollection.get_Count
 title: IGPMGPOCollection::get_Count (gpmgmt.h)
-
 description: Returns the number of GPOs in the collection.
 old-location: gpmc\igpmgpocollection_get_count.htm
 tech.root: gpmc
 ms.assetid: eda3c574-baee-44fa-b6bc-7f0dfa239ecc
-
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMGPOCollection class, Count property [GPMC],IGPMGPOCollection interface, GPMGPOCollection class [GPMC],Count property, IGPMGPOCollection interface [GPMC],Count property, IGPMGPOCollection.Count, IGPMGPOCollection.get_Count, IGPMGPOCollection::Count, IGPMGPOCollection::get_Count, _win32_igpmgpocollection_get_count, get_Count, gpmc.igpmgpocollection_get_count, gpmgmt/IGPMGPOCollection::Count, gpmgmt/IGPMGPOCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPOCollection.Count"
+f1_keywords:
+- gpmgmt/IGPMGPOCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPOCollection.Count
- - IGPMGPOCollection.get_Count
- - GPMGPOCollection.Count
+- IGPMGPOCollection.Count
+- IGPMGPOCollection.get_Count
+- GPMGPOCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

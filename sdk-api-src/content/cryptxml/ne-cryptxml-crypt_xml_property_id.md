@@ -1,19 +1,17 @@
 ---
 UID: NE:cryptxml.__unnamed_enum_1
 title: CRYPT_XML_PROPERTY_ID (cryptxml.h)
-
 description: Specifies the type and usage of the XML property.
 old-location: security\crypt_xml_property_id.htm
 tech.root: SecCrypto
 ms.assetid: 7b396245-6dc5-4018-821e-a70db5f0d068
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_PROPERTY_DOC_DECLARATION, CRYPT_XML_PROPERTY_ID, CRYPT_XML_PROPERTY_ID enumeration [Security], CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, CRYPT_XML_PROPERTY_MAX_SIGNATURES, CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, cryptxml/CRYPT_XML_PROPERTY_DOC_DECLARATION, cryptxml/CRYPT_XML_PROPERTY_ID, cryptxml/CRYPT_XML_PROPERTY_MAX_HEAP_SIZE, cryptxml/CRYPT_XML_PROPERTY_MAX_SIGNATURES, cryptxml/CRYPT_XML_PROPERTY_SIGNATURE_LOCATION, cryptxml/CRYPT_XML_PROPERTY_XML_OUTPUT_CHARSET, security.crypt_xml_property_id
 ms.topic: enum
-f1_keywords: 
- - "cryptxml/CRYPT_XML_PROPERTY_ID"
+f1_keywords:
+- cryptxml/CRYPT_XML_PROPERTY_ID
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_PROPERTY_ID
+- CRYPT_XML_PROPERTY_ID
 targetos: Windows
 req.typenames: CRYPT_XML_PROPERTY_ID
 req.redist: 

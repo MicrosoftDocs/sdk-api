@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaEvent.WaitForCompletion
 title: IMediaEvent::WaitForCompletion (control.h)
-
 description: The WaitForCompletion method waits for the filter graph to render all available data. The filter graph must be running or the method fails.
 old-location: dshow\imediaevent_waitforcompletion.htm
 tech.root: DirectShow
 ms.assetid: 760a90fe-7cbc-4f09-ba64-afe0ab0b4c74
-
 ms.date: 12/05/2018
 ms.keywords: IMediaEvent interface [DirectShow],WaitForCompletion method, IMediaEvent.WaitForCompletion, IMediaEvent::WaitForCompletion, IMediaEventWaitForCompletion, WaitForCompletion, WaitForCompletion method [DirectShow], WaitForCompletion method [DirectShow],IMediaEvent interface, control/IMediaEvent::WaitForCompletion, dshow.imediaevent_waitforcompletion
 ms.topic: method
-f1_keywords: 
- - "control/IMediaEvent.WaitForCompletion"
+f1_keywords:
+- control/IMediaEvent.WaitForCompletion
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEvent.WaitForCompletion
+- IMediaEvent.WaitForCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

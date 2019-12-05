@@ -1,19 +1,17 @@
 ---
 UID: NN:natupnp.IStaticPortMapping
 title: IStaticPortMapping (natupnp.h)
-
 description: The IStaticPortMapping interface provides methods to retrieve and change the information for a particular port mapping.
 old-location: ics\istaticportmapping.htm
 tech.root: ics
 ms.assetid: 5013fea2-e767-4600-a10c-6859b7be42e4
-
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping, IStaticPortMapping interface [ICS/ICF], IStaticPortMapping interface [ICS/ICF],described, _ics_istaticportmapping, ics.istaticportmapping, natupnp/IStaticPortMapping
 ms.topic: interface
-f1_keywords: 
- - "natupnp/IStaticPortMapping"
+f1_keywords:
+- natupnp/IStaticPortMapping
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping
+- IStaticPortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

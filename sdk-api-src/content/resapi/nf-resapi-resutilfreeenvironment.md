@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFreeEnvironment
 title: ResUtilFreeEnvironment function (resapi.h)
-
 description: Destroys the environment variable block created with ResUtilGetEnvironmentWithNetName. The PRESUTIL_FREE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilfreeenvironment.htm
 tech.root: MsCS
 ms.assetid: 196f347e-2b2f-4bb1-a86c-b2a73881ed65
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FREE_ENVIRONMENT, PRESUTIL_FREE_ENVIRONMENT function [Failover Cluster], ResUtilFreeEnvironment, ResUtilFreeEnvironment function [Failover Cluster], _wolf_resutilfreeenvironment, mscs.resutilfreeenvironment, resapi/PRESUTIL_FREE_ENVIRONMENT, resapi/ResUtilFreeEnvironment
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFreeEnvironment"
+f1_keywords:
+- resapi/ResUtilFreeEnvironment
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilFreeEnvironment
+- ResUtilFreeEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

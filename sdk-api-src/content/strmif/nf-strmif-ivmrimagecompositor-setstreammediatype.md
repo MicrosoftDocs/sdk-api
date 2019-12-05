@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.SetStreamMediaType
 title: IVMRImageCompositor::SetStreamMediaType (strmif.h)
-
 description: The SetStreamMediaType method sets the media type for the input stream.
 old-location: dshow\ivmrimagecompositor_setstreammediatype.htm
 tech.root: DirectShow
 ms.assetid: ea3ed291-d837-4d11-bc82-0a060b093b21
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor interface [DirectShow],SetStreamMediaType method, IVMRImageCompositor.SetStreamMediaType, IVMRImageCompositor::SetStreamMediaType, IVMRImageCompositorSetStreamMediaType, SetStreamMediaType, SetStreamMediaType method [DirectShow], SetStreamMediaType method [DirectShow],IVMRImageCompositor interface, dshow.ivmrimagecompositor_setstreammediatype, strmif/IVMRImageCompositor::SetStreamMediaType
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRImageCompositor.SetStreamMediaType"
+f1_keywords:
+- strmif/IVMRImageCompositor.SetStreamMediaType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImageCompositor.SetStreamMediaType
+- IVMRImageCompositor.SetStreamMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

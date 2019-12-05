@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeByIndex
 title: IStreamBufferRecordingAttribute::GetAttributeByIndex (sbe.h)
-
 description: The GetAttributeByIndex method retrieves an attribute, specified by index number.
 old-location: mstv\istreambufferrecordingattribute_getattributebyindex.htm
 tech.root: mstv
 ms.assetid: a4d9d25f-1e21-40e5-80c4-a8fe15dbc216
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [Microsoft TV Technologies], GetAttributeByIndex method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],GetAttributeByIndex method, IStreamBufferRecordingAttribute.GetAttributeByIndex, IStreamBufferRecordingAttribute::GetAttributeByIndex, IStreamBufferRecordingAttributeGetAttributeByIndex, mstv.istreambufferrecordingattribute_getattributebyindex, sbe/IStreamBufferRecordingAttribute::GetAttributeByIndex
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecordingAttribute.GetAttributeByIndex"
+f1_keywords:
+- sbe/IStreamBufferRecordingAttribute.GetAttributeByIndex
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute.GetAttributeByIndex
+- IStreamBufferRecordingAttribute.GetAttributeByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._enlowfirtf
 title: ENLOWFIRTF (richedit.h)
-
 description: Contains information about an unsupported Rich Text Format (RTF) keyword in a Microsoft Rich Edit control.
 old-location: controls\ENLOWFIRTF.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlowfirtf.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENLOWFIRTF, ENLOWFIRTF structure [Windows Controls], _win32_ENLOWFIRTF_str, _win32_ENLOWFIRTF_str_cpp, controls.ENLOWFIRTF, controls._win32_ENLOWFIRTF_str, richedit/ENLOWFIRTF
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENLOWFIRTF"
+f1_keywords:
+- richedit/ENLOWFIRTF
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENLOWFIRTF
+- ENLOWFIRTF
 targetos: Windows
 req.typenames: ENLOWFIRTF
 req.redist: 

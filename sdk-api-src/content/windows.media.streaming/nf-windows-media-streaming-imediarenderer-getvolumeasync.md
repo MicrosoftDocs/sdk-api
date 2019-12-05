@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetVolumeAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Queries the DMR asynchronously for its current audio volume level.
 old-location: mediastreaming\imediarenderer_getvolumeasync.htm
 tech.root: mediastreaming
 ms.assetid: CBE8E7EE-DC64-4FB0-B09D-58EC9BACCA26
-
 ms.date: 12/05/2018
 ms.keywords: GetVolumeAsync, GetVolumeAsync method [Media Streaming API], GetVolumeAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetVolumeAsync method, IMediaRenderer.GetVolumeAsync, IMediaRenderer.streaming, IMediaRenderer::GetVolumeAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_getvolumeasync, windows/IMediaRenderer::GetVolumeAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.GetVolumeAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.GetVolumeAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.GetVolumeAsync
+- IMediaRenderer.GetVolumeAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

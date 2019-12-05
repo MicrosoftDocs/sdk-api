@@ -1,46 +1,43 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDevice.CreateVideoProcessor
 title: ID3D12VideoDevice::CreateVideoProcessor
-
 description: Creates a video processor instance.
 tech.root: mf
 ms.assetid: f19f0bfe-4b60-4f96-af85-fe7fec824875
-
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:
- - ID3D12VideoDevice::CreateVideoProcessor
+- ID3D12VideoDevice::CreateVideoProcessor
 dev_langs:
- - c++
+- c++
 ms.keywords: ID3D12VideoDevice::CreateVideoProcessor, CreateVideoProcessor, ID3D12VideoDevice.CreateVideoProcessor, ID3D12VideoDevice::CreateVideoProcessor, ID3D12VideoDevice.CreateVideoProcessor
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VideoDevice::CreateVideoProcessor
+- ID3D12VideoDevice::CreateVideoProcessor
 targetos: Windows
-
 ---
 
 # ID3D12VideoDevice::CreateVideoProcessor

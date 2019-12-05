@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.CATSORT_FLAGS
 title: CATSORT_FLAGS (shobjidl_core.h)
-
 description: Specifies methods for sorting category data.
 old-location: shell\CATSORT_FLAGS.htm
 tech.root: shell
 ms.assetid: 5e3f6c84-ebc4-45e7-8272-f5d98bffd4c8
-
 ms.date: 12/05/2018
 ms.keywords: CATSORT_DEFAULT, CATSORT_FLAGS, CATSORT_FLAGS enumeration [Windows Shell], CATSORT_NAME, inet_CATSORT_FLAGS, shell.CATSORT_FLAGS, shobjidl_core/CATSORT_DEFAULT, shobjidl_core/CATSORT_FLAGS, shobjidl_core/CATSORT_NAME
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/CATSORT_FLAGS"
+f1_keywords:
+- shobjidl_core/CATSORT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - CATSORT_FLAGS
+- CATSORT_FLAGS
 targetos: Windows
 req.typenames: CATSORT_FLAGS
 req.redist: 

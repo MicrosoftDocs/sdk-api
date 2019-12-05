@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ToAscii
 title: ToAscii function (winuser.h)
-
 description: Translates the specified virtual-key code and keyboard state to the corresponding character or characters.
 old-location: inputdev\toascii.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toascii.htm
-
 ms.date: 12/05/2018
 ms.keywords: ToAscii, ToAscii function [Keyboard and Mouse Input], _win32_ToAscii, _win32_toascii_cpp, inputdev.toascii, winui._win32_toascii, winuser/ToAscii
 ms.topic: function
-f1_keywords: 
- - "winuser/ToAscii"
+f1_keywords:
+- winuser/ToAscii
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - ToAscii
+- ToAscii
 targetos: Windows
 req.typenames: 
 req.redist: 

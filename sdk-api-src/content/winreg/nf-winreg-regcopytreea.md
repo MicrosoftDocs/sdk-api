@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegCopyTreeA
 title: RegCopyTreeA function (winreg.h)
-
 description: Copies the specified registry key, along with its values and subkeys, to the specified destination key.
 old-location: base\regcopytree.htm
 tech.root: SysInfo
 ms.assetid: d16f2b47-e537-42b0-90b3-9f9a00e61e76
-
 ms.date: 12/05/2018
 ms.keywords: RegCopyTree, RegCopyTree function, RegCopyTreeA, RegCopyTreeW, base.regcopytree, winreg/RegCopyTree, winreg/RegCopyTreeA, winreg/RegCopyTreeW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegCopyTree"
+f1_keywords:
+- winreg/RegCopyTree
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
- - api-ms-win-core-registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
+- api-ms-win-core-registry-l2-2-0.dll
 api_name:
- - RegCopyTree
- - RegCopyTreeA
- - RegCopyTreeW
+- RegCopyTree
+- RegCopyTreeA
+- RegCopyTreeW
 targetos: Windows
 req.typenames: 
 req.redist: 

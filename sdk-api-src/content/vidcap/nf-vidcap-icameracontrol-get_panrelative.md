@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PanRelative
 title: ICameraControl::get_PanRelative (vidcap.h)
-
 description: The get_PanRelative method returns the camera's relative pan. The relative pan is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_get_panrelative.htm
 tech.root: DirectShow
 ms.assetid: a7237e0a-82b3-4e2a-a6c7-97fbb03b5917
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],get_PanRelative method, ICameraControl.get_PanRelative, ICameraControl::get_PanRelative, ICameraControlget_PanRelative, dshow.icameracontrol_get_panrelative, get_PanRelative, get_PanRelative method [DirectShow], get_PanRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_PanRelative
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.get_PanRelative"
+f1_keywords:
+- vidcap/ICameraControl.get_PanRelative
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.get_PanRelative
+- ICameraControl.get_PanRelative
 targetos: Windows
 req.typenames: 
 req.redist: 

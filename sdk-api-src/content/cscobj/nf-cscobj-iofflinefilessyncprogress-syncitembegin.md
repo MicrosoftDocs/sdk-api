@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncProgress.SyncItemBegin
 title: IOfflineFilesSyncProgress::SyncItemBegin (cscobj.h)
-
 description: Reports that a synchronization operation on an item is beginning.
 old-location: of\iofflinefilessyncprogress_syncitembegin.htm
 tech.root: offlinefiles
 ms.assetid: c1cdbc30-bcc9-4023-a3a2-070fb9958609
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSyncProgress interface [Offline Files],SyncItemBegin method, IOfflineFilesSyncProgress.SyncItemBegin, IOfflineFilesSyncProgress::SyncItemBegin, SyncItemBegin, SyncItemBegin method [Offline Files], SyncItemBegin method [Offline Files],IOfflineFilesSyncProgress interface, cscobj/IOfflineFilesSyncProgress::SyncItemBegin, of.iofflinefilessyncprogress_syncitembegin
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncProgress.SyncItemBegin"
+f1_keywords:
+- cscobj/IOfflineFilesSyncProgress.SyncItemBegin
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncProgress.SyncItemBegin
+- IOfflineFilesSyncProgress.SyncItemBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

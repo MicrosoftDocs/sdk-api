@@ -1,19 +1,17 @@
 ---
 UID: NE:docobj.OLECMDEXECOPT
 title: OLECMDEXECOPT (docobj.h)
-
 description: Specifies command execution options.
 old-location: com\olecmdexecopt.htm
 tech.root: com
 ms.assetid: 6245725e-51d4-40e1-8cf1-a65657e790ef
-
 ms.date: 12/05/2018
 ms.keywords: OLECMDEXECOPT, OLECMDEXECOPT enumeration [COM], OLECMDEXECOPT_DODEFAULT, OLECMDEXECOPT_DONTPROMPTUSER, OLECMDEXECOPT_PROMPTUSER, OLECMDEXECOPT_SHOWHELP, _ole_OLECMDEXECOPT, com.olecmdexecopt, docobj/OLECMDEXECOPT, docobj/OLECMDEXECOPT_DODEFAULT, docobj/OLECMDEXECOPT_DONTPROMPTUSER, docobj/OLECMDEXECOPT_PROMPTUSER, docobj/OLECMDEXECOPT_SHOWHELP
 ms.topic: enum
-f1_keywords: 
- - "docobj/OLECMDEXECOPT"
+f1_keywords:
+- docobj/OLECMDEXECOPT
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - OLECMDEXECOPT
+- OLECMDEXECOPT
 targetos: Windows
 req.typenames: OLECMDEXECOPT
 req.redist: 

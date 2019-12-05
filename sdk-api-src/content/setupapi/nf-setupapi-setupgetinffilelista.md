@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetInfFileListA
 title: SetupGetInfFileListA function (setupapi.h)
-
 description: The SetupGetInfFileList function returns a list of INF files located in a caller-specified directory to a call-supplied buffer.
 old-location: setup\setupgetinffilelist.htm
 tech.root: SetupApi
 ms.assetid: d7074e88-757c-4ca9-adaf-2010472f106c
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetInfFileList, SetupGetInfFileList function [Setup API], SetupGetInfFileListA, SetupGetInfFileListW, _setupapi_setupgetinffilelist, setup.setupgetinffilelist, setupapi/SetupGetInfFileList, setupapi/SetupGetInfFileListA, setupapi/SetupGetInfFileListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetInfFileList"
+f1_keywords:
+- setupapi/SetupGetInfFileList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupGetInfFileList
- - SetupGetInfFileListA
- - SetupGetInfFileListW
+- SetupGetInfFileList
+- SetupGetInfFileListA
+- SetupGetInfFileListW
 targetos: Windows
 req.typenames: 
 req.redist: 

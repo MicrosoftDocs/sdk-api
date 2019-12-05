@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetMapperFlags
 title: SetMapperFlags function (wingdi.h)
-
 description: The SetMapperFlags function alters the algorithm the font mapper uses when it maps logical fonts to physical fonts.
 old-location: gdi\setmapperflags.htm
 tech.root: gdi
 ms.assetid: 74cfe0d3-0d20-4382-8e76-55a6e2323308
-
 ms.date: 12/05/2018
 ms.keywords: SetMapperFlags, SetMapperFlags function [Windows GDI], _win32_SetMapperFlags, gdi.setmapperflags, wingdi/SetMapperFlags
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetMapperFlags"
+f1_keywords:
+- wingdi/SetMapperFlags
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SetMapperFlags
+- SetMapperFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

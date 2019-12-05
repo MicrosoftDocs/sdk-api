@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.Add
 title: IMSVidAudioRendererDevices::Add (segment.h)
-
 description: The Add method adds an audio renderer to the collection.
 old-location: mstv\imsvidaudiorendererdevices_add.htm
 tech.root: mstv
 ms.assetid: 663ca24a-9f27-4642-b8e1-901f93090bd7
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, IMSVidAudioRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidAudioRendererDevices.Add, IMSVidAudioRendererDevices::Add, IMSVidAudioRendererDevicesAdd, mstv.imsvidaudiorendererdevices_add, segment/IMSVidAudioRendererDevices::Add
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererDevices.Add"
+f1_keywords:
+- segment/IMSVidAudioRendererDevices.Add
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererDevices.Add
+- IMSVidAudioRendererDevices.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

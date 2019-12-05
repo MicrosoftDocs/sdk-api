@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_DEVICE_INFO_HEADER
 title: DISPLAYCONFIG_DEVICE_INFO_HEADER (wingdi.h)
-
 description: The DISPLAYCONFIG_DEVICE_INFO_HEADER structure contains display information about the device.
 old-location: display\displayconfig_device_info_header.htm
 tech.root: display
 ms.assetid: 2fdfa54e-2a5f-448f-98e3-e51ce0acaeaf
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_b17380bb-3894-4832-bbe6-97c40607d366.xml, DISPLAYCONFIG_DEVICE_INFO_HEADER, DISPLAYCONFIG_DEVICE_INFO_HEADER structure [Display Devices], display.displayconfig_device_info_header, wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_DEVICE_INFO_HEADER
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_DEVICE_INFO_HEADER
+- DISPLAYCONFIG_DEVICE_INFO_HEADER
 targetos: Windows
 req.typenames: DISPLAYCONFIG_DEVICE_INFO_HEADER
 req.redist: 

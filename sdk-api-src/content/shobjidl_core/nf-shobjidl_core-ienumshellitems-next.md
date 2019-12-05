@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Next
 title: IEnumShellItems::Next (shobjidl_core.h)
-
 description: Gets an array of one or more IShellItem interfaces from the enumeration.
 old-location: shell\IEnumShellItems_Next.htm
 tech.root: shell
 ms.assetid: 8074ecea-30b9-4d1e-9184-457d3dd70bb8
-
 ms.date: 12/05/2018
 ms.keywords: IEnumShellItems interface [Windows Shell],Next method, IEnumShellItems.Next, IEnumShellItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumShellItems interface, _shell_IEnumShellItems_Next, shell.IEnumShellItems_Next, shobjidl_core/IEnumShellItems::Next
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumShellItems.Next"
+f1_keywords:
+- shobjidl_core/IEnumShellItems.Next
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumShellItems.Next
+- IEnumShellItems.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

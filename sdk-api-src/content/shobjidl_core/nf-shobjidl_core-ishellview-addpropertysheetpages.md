@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellView.AddPropertySheetPages
 title: IShellView::AddPropertySheetPages (shobjidl_core.h)
-
 description: Allows the view to add pages to the Options property sheet from the View menu.
 old-location: shell\IShellView_AddPropertySheetPages.htm
 tech.root: shell
 ms.assetid: 6f05ddf7-190e-41f5-b24a-d18112b34600
-
 ms.date: 12/05/2018
 ms.keywords: AddPropertySheetPages, AddPropertySheetPages method [Windows Shell], AddPropertySheetPages method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],AddPropertySheetPages method, IShellView.AddPropertySheetPages, IShellView::AddPropertySheetPages, _win32_IShellView_AddPropertySheetPages, shell.IShellView_AddPropertySheetPages, shobjidl_core/IShellView::AddPropertySheetPages
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellView.AddPropertySheetPages"
+f1_keywords:
+- shobjidl_core/IShellView.AddPropertySheetPages
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView.AddPropertySheetPages
+- IShellView.AddPropertySheetPages
 targetos: Windows
 req.typenames: 
 req.redist: 

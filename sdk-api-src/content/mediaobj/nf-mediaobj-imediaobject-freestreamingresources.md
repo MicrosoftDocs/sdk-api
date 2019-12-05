@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.FreeStreamingResources
 title: IMediaObject::FreeStreamingResources (mediaobj.h)
-
 description: The FreeStreamingResources method frees resources allocated by the DMO. Calling this method is always optional.
 old-location: dshow\imediaobject_freestreamingresources.htm
 tech.root: DirectShow
 ms.assetid: c4d2dbf1-45c9-47a2-a21f-5eb04f828ec1
-
 ms.date: 12/05/2018
 ms.keywords: FreeStreamingResources, FreeStreamingResources method [DirectShow], FreeStreamingResources method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],FreeStreamingResources method, IMediaObject.FreeStreamingResources, IMediaObject::FreeStreamingResources, IMediaObjectFreeStreamingResources, dshow.imediaobject_freestreamingresources, mediaobj/IMediaObject::FreeStreamingResources
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.FreeStreamingResources"
+f1_keywords:
+- mediaobj/IMediaObject.FreeStreamingResources
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.FreeStreamingResources
+- IMediaObject.FreeStreamingResources
 targetos: Windows
 req.typenames: 
 req.redist: 

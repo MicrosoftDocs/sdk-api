@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiZeroAuthIdentity
 title: SspiZeroAuthIdentity function (sspi.h)
-
 description: Fills the block of memory associated with the specified identity structure with zeros.
 old-location: security\sspizeroauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: 50b1f24a-c802-4691-a450-316cb31bf44d
-
 ms.date: 12/05/2018
 ms.keywords: SspiZeroAuthIdentity, SspiZeroAuthIdentity function [Security], security.sspizeroauthidentity, sspi/SspiZeroAuthIdentity
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiZeroAuthIdentity"
+f1_keywords:
+- sspi/SspiZeroAuthIdentity
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiZeroAuthIdentity
+- SspiZeroAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

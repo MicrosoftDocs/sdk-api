@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.SetValue
 title: IDeviceSpecificProperty::SetValue (devicetopology.h)
-
 description: The SetValue method sets the value of the device-specific property.
 old-location: coreaudio\idevicespecificproperty_setvalue.htm
 tech.root: CoreAudio
 ms.assetid: 48e7a638-f602-455f-96d1-9d1eb049a6c0
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceSpecificProperty interface [Core Audio],SetValue method, IDeviceSpecificProperty.SetValue, IDeviceSpecificProperty::SetValue, IDeviceSpecificPropertySetValue, SetValue, SetValue method [Core Audio], SetValue method [Core Audio],IDeviceSpecificProperty interface, coreaudio.idevicespecificproperty_setvalue, devicetopology/IDeviceSpecificProperty::SetValue
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IDeviceSpecificProperty.SetValue"
+f1_keywords:
+- devicetopology/IDeviceSpecificProperty.SetValue
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceSpecificProperty.SetValue
+- IDeviceSpecificProperty.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

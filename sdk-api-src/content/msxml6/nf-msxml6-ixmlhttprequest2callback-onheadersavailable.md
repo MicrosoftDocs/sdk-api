@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnHeadersAvailable
 title: IXMLHTTPRequest2Callback::OnHeadersAvailable (msxml6.h)
-
 description: Occurs after an HTTP request has been sent to the server and the server has responded with response headers.
 old-location: ixhr2\ixmlhttprequest2callback_onheadersavailable.htm
 tech.root: ixhr2
 ms.assetid: EB6580C5-B200-4281-BF1F-FA5C3220689E
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnHeadersAvailable method, IXMLHTTPRequest2Callback.OnHeadersAvailable, IXMLHTTPRequest2Callback::OnHeadersAvailable, OnHeadersAvailable, OnHeadersAvailable method [XMLHttpRequest2], OnHeadersAvailable method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onheadersavailable, msxml6/IXMLHTTPRequest2Callback::OnHeadersAvailable
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2Callback.OnHeadersAvailable"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2Callback.OnHeadersAvailable
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback.OnHeadersAvailable
+- IXMLHTTPRequest2Callback.OnHeadersAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

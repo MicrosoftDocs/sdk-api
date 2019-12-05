@@ -1,19 +1,17 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_DNS_SUFFIX
 title: IP_ADAPTER_DNS_SUFFIX (iptypes.h)
-
 description: The IP_ADAPTER_DNS_SUFFIX structure stores a DNS suffix in a linked list of DNS suffixes for a particular adapter.
 old-location: iphlp\ip_adapter_dns_suffix.htm
 tech.root: IpHlp
 ms.assetid: 3730a406-2995-48f7-b70e-1cf8258ee4a6
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX structure [IP Helper], PIP_ADAPTER_DNS_SUFFIX, PIP_ADAPTER_DNS_SUFFIX structure pointer [IP Helper], iphlp.ip_adapter_dns_suffix, iptypes/IP_ADAPTER_DNS_SUFFIX, iptypes/PIP_ADAPTER_DNS_SUFFIX"
+ms.keywords: '*PIP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX, IP_ADAPTER_DNS_SUFFIX structure [IP Helper], PIP_ADAPTER_DNS_SUFFIX, PIP_ADAPTER_DNS_SUFFIX structure pointer [IP Helper], iphlp.ip_adapter_dns_suffix, iptypes/IP_ADAPTER_DNS_SUFFIX, iptypes/PIP_ADAPTER_DNS_SUFFIX'
 ms.topic: struct
-f1_keywords: 
- - "iptypes/IP_ADAPTER_DNS_SUFFIX"
+f1_keywords:
+- iptypes/IP_ADAPTER_DNS_SUFFIX
 dev_langs:
- - c++
+- c++
 req.header: iptypes.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iptypes.h
+- Iptypes.h
 api_name:
- - IP_ADAPTER_DNS_SUFFIX
+- IP_ADAPTER_DNS_SUFFIX
 targetos: Windows
 req.typenames: IP_ADAPTER_DNS_SUFFIX, *PIP_ADAPTER_DNS_SUFFIX
 req.redist: 

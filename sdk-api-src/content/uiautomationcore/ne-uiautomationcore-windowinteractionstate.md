@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.WindowInteractionState
 title: WindowInteractionState (uiautomationcore.h)
-
 description: Contains values that specify the current state of the window for purposes of user interaction.
 old-location: winauto\uiauto_WindowInteractionStateEnum.htm
 tech.root: WinAuto
 ms.assetid: 143e7262-42a9-4b1c-a8a3-5559befed02b
-
 ms.date: 12/05/2018
 ms.keywords: WindowInteractionState, WindowInteractionState enumeration [Windows Accessibility], WindowInteractionState_BlockedByModalWindow, WindowInteractionState_Closing, WindowInteractionState_NotResponding, WindowInteractionState_ReadyForUserInteraction, WindowInteractionState_Running, uiauto.uiauto_WindowInteractionStateEnum, uiauto_WindowInteractionStateEnum, uiautomationcore/WindowInteractionState, uiautomationcore/WindowInteractionState_BlockedByModalWindow, uiautomationcore/WindowInteractionState_Closing, uiautomationcore/WindowInteractionState_NotResponding, uiautomationcore/WindowInteractionState_ReadyForUserInteraction, uiautomationcore/WindowInteractionState_Running, winauto.uiauto_WindowInteractionStateEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/WindowInteractionState"
+f1_keywords:
+- uiautomationcore/WindowInteractionState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - WindowInteractionState
+- WindowInteractionState
 targetos: Windows
 req.typenames: 
 req.redist: 

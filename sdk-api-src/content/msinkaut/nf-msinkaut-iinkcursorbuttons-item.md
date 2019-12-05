@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCursorButtons.Item
 title: IInkCursorButtons::Item (msinkaut.h)
-
 description: Retrieves the IInkCursorButton object at the specified index or string identifier within the IInkCursorButtons collection.
 old-location: tablet\iinkcursorbuttons_item.htm
 tech.root: tablet
 ms.assetid: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf
-
 ms.date: 12/05/2018
 ms.keywords: 801cc3f5-3e30-48b9-bf1b-8dbfaff08dbf, IInkCursorButtons interface [Tablet PC],Item method, IInkCursorButtons.Item, IInkCursorButtons::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkCursorButtons interface, msinkaut/IInkCursorButtons::Item, tablet.iinkcursorbuttons_item
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCursorButtons.Item"
+f1_keywords:
+- msinkaut/IInkCursorButtons.Item
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursorButtons.Item
+- IInkCursorButtons.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

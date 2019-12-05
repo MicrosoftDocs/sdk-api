@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Initialize
 title: IX509EnrollmentPolicyServer::Initialize (certenroll.h)
-
 description: Initializes an IX509EnrollmentPolicyServer object.
 old-location: security\ix509enrollmentpolicyserver_initialize.htm
 tech.root: seccertenroll
 ms.assetid: b0d848a2-1bac-4a30-ae02-26d5af719688
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509EnrollmentPolicyServer interface [Security],Initialize method, IX509EnrollmentPolicyServer.Initialize, IX509EnrollmentPolicyServer::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509EnrollmentPolicyServer interface, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/IX509EnrollmentPolicyServer::Initialize, security.ix509enrollmentpolicyserver_initialize
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.Initialize"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.Initialize
+- IX509EnrollmentPolicyServer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

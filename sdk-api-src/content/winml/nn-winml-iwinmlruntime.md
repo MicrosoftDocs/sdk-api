@@ -1,19 +1,17 @@
 ---
 UID: NN:winml.IWinMLRuntime
 title: IWinMLRuntime (winml.h)
-
 description: Represents the runtime to load and evaluate a WinML model.
 old-location: machinelearning\iwinmlruntime.htm
 tech.root: MachineLearning
 ms.assetid: C2FD74A1-EE38-46B1-98A8-43557485F92E
-
 ms.date: 12/05/2018
 ms.keywords: IWinMLRuntime, IWinMLRuntime interface, IWinMLRuntime interface,described, MachineLearning.iwinmlruntime, winml/IWinMLRuntime
 ms.topic: interface
-f1_keywords: 
- - "winml/IWinMLRuntime"
+f1_keywords:
+- winml/IWinMLRuntime
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLRuntime
+- IWinMLRuntime
 targetos: Windows
 req.typenames: 
 req.redist: 

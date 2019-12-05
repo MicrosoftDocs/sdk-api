@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetMimeTypes
 title: IWICBitmapCodecInfo::GetMimeTypes (wincodec.h)
-
 description: Retrieves a comma delimited sequence of mime types associated with the codec.
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getmimetypes.htm
 tech.root: wic
 ms.assetid: fbca8068-a57d-402b-85e1-0dd284824efa
-
 ms.date: 12/05/2018
 ms.keywords: GetMimeTypes, GetMimeTypes method [Windows Imaging Component], GetMimeTypes method [Windows Imaging Component],IWICBitmapCodecInfo interface, IWICBitmapCodecInfo interface [Windows Imaging Component],GetMimeTypes method, IWICBitmapCodecInfo.GetMimeTypes, IWICBitmapCodecInfo::GetMimeTypes, _wic_codec_iwicbitmapcodecinfo_getmimetypes, wic._wic_codec_iwicbitmapcodecinfo_getmimetypes, wincodec/IWICBitmapCodecInfo::GetMimeTypes
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapCodecInfo.GetMimeTypes"
+f1_keywords:
+- wincodec/IWICBitmapCodecInfo.GetMimeTypes
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapCodecInfo.GetMimeTypes
+- IWICBitmapCodecInfo.GetMimeTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

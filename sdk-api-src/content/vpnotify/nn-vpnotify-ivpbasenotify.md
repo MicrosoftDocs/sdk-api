@@ -1,19 +1,17 @@
 ---
 UID: NN:vpnotify.IVPBaseNotify
 title: IVPBaseNotify (vpnotify.h)
-
 description: Enables the Overlay Mixer to control the properties of a hardware device such as a decoder that uses a video port. The IVPNotify interface derives from this interface.Applications should never use this interface.
 old-location: dshow\ivpbasenotify.htm
 tech.root: DirectShow
 ms.assetid: c72bd662-366c-4102-9ad9-9e4c59096ede
-
 ms.date: 12/05/2018
 ms.keywords: IVPBaseNotify, IVPBaseNotify interface [DirectShow], IVPBaseNotify interface [DirectShow],described, IVPBaseNotifyInterface, dshow.ivpbasenotify, vpnotify/IVPBaseNotify
 ms.topic: interface
-f1_keywords: 
- - "vpnotify/IVPBaseNotify"
+f1_keywords:
+- vpnotify/IVPBaseNotify
 dev_langs:
- - c++
+- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpnotify.h
+- Vpnotify.h
 api_name:
- - IVPBaseNotify
+- IVPBaseNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

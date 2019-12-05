@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.IsVisible(IN INT,IN INT)
 title: Graphics::IsVisible
 description: The Graphics::IsVisible method determines whether the specified point is inside the visible clipping region of this Graphics object.
 ms.assetid: 81cadd52-1976-4328-85ca-e89aa5b649b5
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::IsVisible
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::IsVisible"
+f1_keywords:
+- gdiplusgraphics/Graphics::IsVisible
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::IsVisible
+- Graphics::IsVisible
 ---
 
 # IsVisible(INT,INT)

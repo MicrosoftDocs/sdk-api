@@ -5,10 +5,10 @@ description: Used to notify your application that service registration has compl
 ms.date: 02/19/2019
 ms.keywords: DNS_SERVICE_REGISTER_COMPLETE
 ms.topic: language-reference
-f1_keywords: 
- - "windns/DNS_SERVICE_REGISTER_COMPLETE"
+f1_keywords:
+- windns/DNS_SERVICE_REGISTER_COMPLETE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +31,13 @@ req.typenames: DNS_SERVICE_REGISTER_COMPLETE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - windns.h
+- windns.h
 api_name:
- - DNS_SERVICE_REGISTER_COMPLETE
+- DNS_SERVICE_REGISTER_COMPLETE
 ms.custom: 19H1
 ---
 

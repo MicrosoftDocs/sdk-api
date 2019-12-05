@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.MAKELCID
 title: MAKELCID macro (winnt.h)
-
 description: Creates a locale identifier from a language identifier and a sort order identifier.
 old-location: intl\makelcid.htm
 tech.root: Intl
 ms.assetid: 2f8893a0-f916-4a62-a423-e525cf281fa4
-
 ms.date: 12/05/2018
 ms.keywords: MAKELCID, MAKELCID macro [Internationalization for Windows Applications], _win32_MAKELCID, intl.makelcid, winnt/MAKELCID
 ms.topic: macro
-f1_keywords: 
- - "winnt/MAKELCID"
+f1_keywords:
+- winnt/MAKELCID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MAKELCID
+- MAKELCID
 targetos: Windows
 req.typenames: 
 req.redist: 

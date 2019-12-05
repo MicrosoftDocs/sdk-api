@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Remove
 title: ISmimeCapabilities::Remove (certenroll.h)
-
 description: Removes an object from the collection by index value.
 old-location: security\ismimecapabilities_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 516726cc-f7b9-4813-999f-036694322fe5
-
 ms.date: 12/05/2018
 ms.keywords: ISmimeCapabilities interface [Security],Remove method, ISmimeCapabilities.Remove, ISmimeCapabilities::Remove, Remove, Remove method [Security], Remove method [Security],ISmimeCapabilities interface, certenroll/ISmimeCapabilities::Remove, security.ismimecapabilities_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISmimeCapabilities.Remove"
+f1_keywords:
+- certenroll/ISmimeCapabilities.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISmimeCapabilities.Remove
+- ISmimeCapabilities.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

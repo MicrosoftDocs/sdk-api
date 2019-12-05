@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_AUTHZ_QUOTA
 title: WSMAN_AUTHZ_QUOTA (wsman.h)
-
 description: Reports quota information on a per-user basis for authorization plug-ins.
 old-location: winrm\wsman_authz_quota.htm
 tech.root: winrm
 ms.assetid: dff093be-34cb-4e31-b3ff-b1ad8ecc7069
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_AUTHZ_QUOTA, WSMAN_AUTHZ_QUOTA structure [Windows Remote Management], winrm.wsman_authz_quota, wsman/WSMAN_AUTHZ_QUOTA
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_AUTHZ_QUOTA"
+f1_keywords:
+- wsman/WSMAN_AUTHZ_QUOTA
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_AUTHZ_QUOTA
+- WSMAN_AUTHZ_QUOTA
 targetos: Windows
 req.typenames: WSMAN_AUTHZ_QUOTA
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

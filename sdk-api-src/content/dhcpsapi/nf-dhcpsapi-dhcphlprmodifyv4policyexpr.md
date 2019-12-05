@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprModifyV4PolicyExpr
 title: DhcpHlprModifyV4PolicyExpr function (dhcpsapi.h)
-
 description: Modifies the DHCP server policy expression in a DHCP server policy structure.
 old-location: dhcp\dhcphlprmodifyv4policyexpr.htm
 tech.root: DHCP
 ms.assetid: 5d6818f9-4e44-4f24-a489-84defd1117c0
-
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprModifyV4PolicyExpr, DhcpHlprModifyV4PolicyExpr function [DHCP], dhcp.dhcphlprmodifyv4policyexpr, dhcpsapi/DhcpHlprModifyV4PolicyExpr
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprModifyV4PolicyExpr
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

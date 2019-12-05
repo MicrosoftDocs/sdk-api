@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongToUChar
 title: LongToUChar function (intsafe.h)
-
 description: Converts a value of type LONG to a value of type UCHAR.
 old-location: shell\LongToUChar.htm
 tech.root: shell
 ms.assetid: 04c675f0-8193-4a21-a00f-03f010896b31
-
 ms.date: 12/05/2018
 ms.keywords: LongToUChar, LongToUChar function [Windows Shell], _shell_LongToUChar, intsafe/LongToUChar, shell.LongToUChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongToUChar"
+f1_keywords:
+- intsafe/LongToUChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - LongToUChar
+- LongToUChar
 targetos: Windows
 req.typenames: 
 req.redist: 

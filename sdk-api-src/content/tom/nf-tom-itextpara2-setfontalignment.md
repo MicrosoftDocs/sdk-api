@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara2.SetFontAlignment
 title: ITextPara2::SetFontAlignment (tom.h)
-
 description: Sets the paragraph font alignment for Chinese, Japanese, Korean text.
 old-location: controls\itextpara2_setfontalignment.htm
 tech.root: Controls
 ms.assetid: 2ed1f7f2-9523-4dda-bac0-c1eb3d217102
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetFontAlignment method, ITextPara2.SetFontAlignment, ITextPara2::SetFontAlignment, SetFontAlignment, SetFontAlignment method [Windows Controls], SetFontAlignment method [Windows Controls],ITextPara2 interface, controls.itextpara2_setfontalignment, tom/ITextPara2::SetFontAlignment
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara2.SetFontAlignment"
+f1_keywords:
+- tom/ITextPara2.SetFontAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara2.SetFontAlignment
+- ITextPara2.SetFontAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

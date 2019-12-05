@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetTag
 title: IIsdbEmergencyInformationDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: d0751a09-0336-48d7-a5f0-1182354774a4
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbEmergencyInformationDescriptor.GetTag, IIsdbEmergencyInformationDescriptor::GetTag, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetTag, mstv.iisdbemergencyinformationdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbEmergencyInformationDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEmergencyInformationDescriptor.GetTag
+- IIsdbEmergencyInformationDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.SetSystemTimeAdjustment
 title: SetSystemTimeAdjustment function (sysinfoapi.h)
-
 description: Enables or disables periodic time adjustments to the system's time-of-day clock. When enabled, such time adjustments can be used to synchronize the time of day with some other source of time information.
 old-location: base\setsystemtimeadjustment.htm
 tech.root: SysInfo
 ms.assetid: 93c72511-057c-4b26-a4ae-1d225a80c572
-
 ms.date: 12/05/2018
 ms.keywords: SetSystemTimeAdjustment, SetSystemTimeAdjustment function, _win32_setsystemtimeadjustment, base.setsystemtimeadjustment, sysinfoapi/SetSystemTimeAdjustment
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/SetSystemTimeAdjustment"
+f1_keywords:
+- sysinfoapi/SetSystemTimeAdjustment
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-2-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-SysInfo-l1-2-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-2-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - SetSystemTimeAdjustment
+- SetSystemTimeAdjustment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:debugapi.WaitForDebugEvent
 title: WaitForDebugEvent function (debugapi.h)
-
 description: Waits for a debugging event to occur in a process being debugged.
 old-location: base\waitfordebugevent.htm
 tech.root: Debug
 ms.assetid: 0d81a4ac-dd66-4648-9f3f-1f54aca84243
-
 ms.date: 12/05/2018
 ms.keywords: WaitForDebugEvent, WaitForDebugEvent function, _win32_waitfordebugevent, base.waitfordebugevent, debugapi/WaitForDebugEvent
 ms.topic: function
-f1_keywords: 
- - "debugapi/WaitForDebugEvent"
+f1_keywords:
+- debugapi/WaitForDebugEvent
 dev_langs:
- - c++
+- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-debug-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Debug-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-debug-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Debug-L1-1-2.dll
 api_name:
- - WaitForDebugEvent
+- WaitForDebugEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

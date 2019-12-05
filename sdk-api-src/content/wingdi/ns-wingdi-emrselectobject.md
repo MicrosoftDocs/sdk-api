@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSELECTOBJECT
 title: EMRSELECTOBJECT (wingdi.h)
-
 description: The EMRSELECTOBJECT and EMRDELETEOBJECT structures contain members for the SelectObject and DeleteObject enhanced metafile records.
 old-location: gdi\emrselectobject__emrdeleteobject.htm
 tech.root: gdi
 ms.assetid: 02ec5839-3390-429b-8f0c-6f2e74393c8f
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRDELETEOBJECT, *PEMRSELECTOBJECT, EMRDELETEOBJECT, EMRDELETEOBJECT structure [Windows GDI], EMRSELECTOBJECT, EMRSELECTOBJECT structure [Windows GDI], EMRSELECTOBJECT,EMRDELETEOBJECT, EMRSELECTOBJECT,EMRDELETEOBJECT structure [Windows GDI], PEMRDELETEOBJECT, PEMRDELETEOBJECT structure pointer [Windows GDI], PEMRSELECTOBJECT, PEMRSELECTOBJECT structure pointer [Windows GDI], _win32_EMRSELECTOBJECT_str, gdi.emrselectobject__emrdeleteobject, wingdi/EMRDELETEOBJECT, wingdi/EMRSELECTOBJECT,EMRDELETEOBJECT, wingdi/PEMRDELETEOBJECT, wingdi/PEMRSELECTOBJECT"
+ms.keywords: '*PEMRDELETEOBJECT, *PEMRSELECTOBJECT, EMRDELETEOBJECT, EMRDELETEOBJECT structure [Windows GDI], EMRSELECTOBJECT, EMRSELECTOBJECT structure [Windows GDI], EMRSELECTOBJECT,EMRDELETEOBJECT, EMRSELECTOBJECT,EMRDELETEOBJECT structure [Windows GDI], PEMRDELETEOBJECT, PEMRDELETEOBJECT structure pointer [Windows GDI], PEMRSELECTOBJECT, PEMRSELECTOBJECT structure pointer [Windows GDI], _win32_EMRSELECTOBJECT_str, gdi.emrselectobject__emrdeleteobject, wingdi/EMRDELETEOBJECT, wingdi/EMRSELECTOBJECT,EMRDELETEOBJECT, wingdi/PEMRDELETEOBJECT, wingdi/PEMRSELECTOBJECT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSELECTOBJECT"
+f1_keywords:
+- wingdi/EMRSELECTOBJECT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSELECTOBJECT
+- EMRSELECTOBJECT
 targetos: Windows
 req.typenames: EMRSELECTOBJECT, *PEMRSELECTOBJECT, EMRDELETEOBJECT, *PEMRDELETEOBJECT
 req.redist: 

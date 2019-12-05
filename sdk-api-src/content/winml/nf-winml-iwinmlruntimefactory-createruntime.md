@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLRuntimeFactory.CreateRuntime
 title: IWinMLRuntimeFactory::CreateRuntime (winml.h)
-
 description: Creates a WinML runtime.
 old-location: machinelearning\iwinmlruntimefactory_createruntime.htm
 tech.root: MachineLearning
 ms.assetid: 06EE4008-597D-4DA8-A7CD-E70784A2ADC3
-
 ms.date: 12/05/2018
 ms.keywords: CreateRuntime, CreateRuntime method, CreateRuntime method,IWinMLRuntimeFactory interface, IWinMLRuntimeFactory interface,CreateRuntime method, IWinMLRuntimeFactory.CreateRuntime, IWinMLRuntimeFactory::CreateRuntime, MachineLearning.iwinmlruntimefactory_createruntime, winml/IWinMLRuntimeFactory::CreateRuntime
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLRuntimeFactory.CreateRuntime"
+f1_keywords:
+- winml/IWinMLRuntimeFactory.CreateRuntime
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLRuntimeFactory.CreateRuntime
+- IWinMLRuntimeFactory.CreateRuntime
 targetos: Windows
 req.typenames: 
 req.redist: 

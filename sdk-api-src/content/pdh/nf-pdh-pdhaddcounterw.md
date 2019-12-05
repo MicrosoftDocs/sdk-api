@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhAddCounterW
 title: PdhAddCounterW function (pdh.h)
-
 description: Adds the specified counter to the query.
 old-location: perf\pdhaddcounter.htm
 tech.root: perfctrs
 ms.assetid: b8b9a332-ce28-46d4-92e2-91f9f6c24da5
-
 ms.date: 12/05/2018
 ms.keywords: PdhAddCounter, PdhAddCounter function [Perf], PdhAddCounterA, PdhAddCounterW, _win32_pdhaddcounter, base.pdhaddcounter, pdh/PdhAddCounter, pdh/PdhAddCounterA, pdh/PdhAddCounterW, perf.pdhaddcounter
 ms.topic: function
 f1_keywords:
 - pdh/PdhAddCounter
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows

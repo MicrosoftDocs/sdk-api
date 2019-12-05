@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmCollection.get__NewEnum
 title: IFsrmCollection::get__NewEnum (fsrm.h)
-
 description: Retrieves the IUnknown pointer of a new IEnumVARIANT enumeration for the items in the collection.
 old-location: fsrm\ifsrmcollection__newenum.htm
 tech.root: fsrm
 ms.assetid: 0973b046-e350-44df-a02d-40b0ba272638
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],_NewEnum property, IFsrmCollection._NewEnum, IFsrmCollection.get__NewEnum, IFsrmCollection::_NewEnum, IFsrmCollection::get__NewEnum, _NewEnum property [File Server Resource Manager], _NewEnum property [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection__newenum, fsrm.ifsrmcollection__newenum, fsrm/IFsrmCollection::_NewEnum, fsrm/IFsrmCollection::get__NewEnum, get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmCollection._NewEnum"
+f1_keywords:
+- fsrm/IFsrmCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmCollection._NewEnum
- - IFsrmCollection.get__NewEnum
+- IFsrmCollection._NewEnum
+- IFsrmCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

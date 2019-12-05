@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginInvokeAction
 title: IUPnPServiceAsync::BeginInvokeAction (upnp.h)
-
 description: BeginInvokeAction method invokes an action on a device in asynchronous mode. Additionally, if a delayed SCPD download and event subscription is opted-in, and it has not taken place already, this method will initiate SCPD download.
 old-location: upnp\iupnpserviceasync_begininvokeaction.htm
 tech.root: upnp
 ms.assetid: 40900CE1-03EE-451A-84DE-5C496EB2D7E5
-
 ms.date: 12/05/2018
 ms.keywords: BeginInvokeAction, BeginInvokeAction method [UPnP APIs], BeginInvokeAction method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginInvokeAction method, IUPnPServiceAsync.BeginInvokeAction, IUPnPServiceAsync::BeginInvokeAction, upnp.iupnpserviceasync_begininvokeaction, upnp/IUPnPServiceAsync::BeginInvokeAction
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.BeginInvokeAction"
+f1_keywords:
+- upnp/IUPnPServiceAsync.BeginInvokeAction
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.BeginInvokeAction
+- IUPnPServiceAsync.BeginInvokeAction
 targetos: Windows
 req.typenames: 
 req.redist: 

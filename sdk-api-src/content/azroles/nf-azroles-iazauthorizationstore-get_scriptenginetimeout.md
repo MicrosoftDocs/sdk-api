@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_ScriptEngineTimeout
 title: IAzAuthorizationStore::get_ScriptEngineTimeout (azroles.h)
-
 description: Sets or retrieves the time in milliseconds that the IAzClientContext::AccessCheck method will wait for a Business Rule (BizRule) to complete execution before canceling it.
 old-location: security\azauthorizationstore_scriptenginetimeout.htm
 tech.root: SecAuthZ
 ms.assetid: 7ac3db2d-11a6-4481-a86d-4b3a1063dee3
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],ScriptEngineTimeout property, IAzAuthorizationStore interface [Security],ScriptEngineTimeout property, IAzAuthorizationStore.ScriptEngineTimeout, IAzAuthorizationStore.get_ScriptEngineTimeout, IAzAuthorizationStore::ScriptEngineTimeout, IAzAuthorizationStore::get_ScriptEngineTimeout, IAzAuthorizationStore::put_ScriptEngineTimeout, ScriptEngineTimeout property [Security], ScriptEngineTimeout property [Security],AzAuthorizationStore object, ScriptEngineTimeout property [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::ScriptEngineTimeout, azroles/IAzAuthorizationStore::get_ScriptEngineTimeout, azroles/IAzAuthorizationStore::put_ScriptEngineTimeout, get_ScriptEngineTimeout, security.azauthorizationstore_scriptenginetimeout
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore.ScriptEngineTimeout"
+f1_keywords:
+- azroles/IAzAuthorizationStore.ScriptEngineTimeout
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzAuthorizationStore.ScriptEngineTimeout
- - IAzAuthorizationStore.get_ScriptEngineTimeout
- - IAzAuthorizationStore.put_ScriptEngineTimeout
- - AzAuthorizationStore.ScriptEngineTimeout
+- IAzAuthorizationStore.ScriptEngineTimeout
+- IAzAuthorizationStore.get_ScriptEngineTimeout
+- IAzAuthorizationStore.put_ScriptEngineTimeout
+- AzAuthorizationStore.ScriptEngineTimeout
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

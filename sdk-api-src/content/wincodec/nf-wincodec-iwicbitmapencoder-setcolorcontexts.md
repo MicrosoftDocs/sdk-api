@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetColorContexts
 title: IWICBitmapEncoder::SetColorContexts (wincodec.h)
-
 description: Sets the IWICColorContext objects for the encoder.
 old-location: wic\_wic_codec_iwicbitmapencoder_setcolorcontexts.htm
 tech.root: wic
 ms.assetid: 68e64db9-ee6a-4dc3-bf74-34274211e2dc
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapEncoder interface [Windows Imaging Component],SetColorContexts method, IWICBitmapEncoder.SetColorContexts, IWICBitmapEncoder::SetColorContexts, SetColorContexts, SetColorContexts method [Windows Imaging Component], SetColorContexts method [Windows Imaging Component],IWICBitmapEncoder interface, _wic_codec_iwicbitmapencoder_setcolorcontexts, wic._wic_codec_iwicbitmapencoder_setcolorcontexts, wincodec/IWICBitmapEncoder::SetColorContexts
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapEncoder.SetColorContexts"
+f1_keywords:
+- wincodec/IWICBitmapEncoder.SetColorContexts
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder.SetColorContexts
+- IWICBitmapEncoder.SetColorContexts
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseFuncDesc
 title: ITypeInfo::ReleaseFuncDesc (oaidl.h)
-
 description: Releases a FUNCDESC previously returned by ITypeInfo::GetFuncDesc.
 old-location: automat\itypeinfo_releasefuncdesc.htm
 tech.root: automat
 ms.assetid: 5c407301-87fd-4f79-89e1-c6db5d1cf36b
-
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseFuncDesc method, ITypeInfo.ReleaseFuncDesc, ITypeInfo::ReleaseFuncDesc, ReleaseFuncDesc, ReleaseFuncDesc method [Automation], ReleaseFuncDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseFuncDesc, automat.itypeinfo_releasefuncdesc, oaidl/ITypeInfo::ReleaseFuncDesc
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.ReleaseFuncDesc"
+f1_keywords:
+- oaidl/ITypeInfo.ReleaseFuncDesc
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.ReleaseFuncDesc
+- ITypeInfo.ReleaseFuncDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

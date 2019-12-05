@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateTransform3DGroup
 title: IDCompositionDevice::CreateTransform3DGroup (dcomp.h)
-
 description: Creates a 3D transform group object that holds an array of 3D transform objects.
 old-location: directcomp\idcompositiondevice_createtransform3dgroup.htm
 tech.root: directcomp
 ms.assetid: 47119ECA-CAA0-41E7-821E-18E99B6C91BD
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransform3DGroup, CreateTransform3DGroup method [DirectComposition], CreateTransform3DGroup method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateTransform3DGroup method, IDCompositionDevice.CreateTransform3DGroup, IDCompositionDevice::CreateTransform3DGroup, dcomp/IDCompositionDevice::CreateTransform3DGroup, directcomp.idcompositiondevice_createtransform3dgroup
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateTransform3DGroup"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateTransform3DGroup
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateTransform3DGroup
+- IDCompositionDevice.CreateTransform3DGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

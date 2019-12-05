@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DEVICE_TRIM_DESCRIPTOR
 title: DEVICE_TRIM_DESCRIPTOR
-
 description: Used in conjunction with the IOCTL_STORAGE_QUERY_PROPERTY request to retrieve the trim descriptor data for a device.
 old-location: fs\device_trim_descriptor.htm
 tech.root: FileIO
 ms.assetid: 60b38d08-5869-442f-845b-b3d8667d069f
-
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Files], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Files], fs.device_trim_descriptor, winioctl/DEVICE_TRIM_DESCRIPTOR, winioctl/PDEVICE_TRIM_DESCRIPTOR"
+ms.keywords: '*PDEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR, DEVICE_TRIM_DESCRIPTOR structure [Files], PDEVICE_TRIM_DESCRIPTOR, PDEVICE_TRIM_DESCRIPTOR structure pointer [Files], fs.device_trim_descriptor, winioctl/DEVICE_TRIM_DESCRIPTOR, winioctl/PDEVICE_TRIM_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_TRIM_DESCRIPTOR"
+f1_keywords:
+- winioctl/DEVICE_TRIM_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_TRIM_DESCRIPTOR
+- DEVICE_TRIM_DESCRIPTOR
 targetos: Windows
 req.typenames: DEVICE_TRIM_DESCRIPTOR, *PDEVICE_TRIM_DESCRIPTOR
 req.redist: 

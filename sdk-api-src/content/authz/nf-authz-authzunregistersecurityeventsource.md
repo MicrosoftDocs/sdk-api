@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzUnregisterSecurityEventSource
 title: AuthzUnregisterSecurityEventSource function (authz.h)
-
 description: Unregisters a security event source with the Local Security Authority (LSA).
 old-location: security\authzunregistersecurityeventsource.htm
 tech.root: SecAuthZ
 ms.assetid: 3ca3086b-f9c9-4305-aaf3-c41b5dba30ad
-
 ms.date: 12/05/2018
 ms.keywords: AuthzUnregisterSecurityEventSource, AuthzUnregisterSecurityEventSource function [Security], authz/AuthzUnregisterSecurityEventSource, security.authzunregistersecurityeventsource
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzUnregisterSecurityEventSource"
+f1_keywords:
+- authz/AuthzUnregisterSecurityEventSource
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzUnregisterSecurityEventSource
+- AuthzUnregisterSecurityEventSource
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

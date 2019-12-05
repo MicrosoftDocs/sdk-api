@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IBaseFilter.QueryFilterInfo
 title: IBaseFilter::QueryFilterInfo (strmif.h)
-
 description: The QueryFilterInfo method retrieves information about the filter.
 old-location: dshow\ibasefilter_queryfilterinfo.htm
 tech.root: DirectShow
 ms.assetid: 6cb9b6ef-05ae-4816-b337-dd90cab843fb
-
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],QueryFilterInfo method, IBaseFilter.QueryFilterInfo, IBaseFilter::QueryFilterInfo, IBaseFilterQueryFilterInfo, QueryFilterInfo, QueryFilterInfo method [DirectShow], QueryFilterInfo method [DirectShow],IBaseFilter interface, dshow.ibasefilter_queryfilterinfo, strmif/IBaseFilter::QueryFilterInfo
 ms.topic: method
-f1_keywords: 
- - "strmif/IBaseFilter.QueryFilterInfo"
+f1_keywords:
+- strmif/IBaseFilter.QueryFilterInfo
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBaseFilter.QueryFilterInfo
+- IBaseFilter.QueryFilterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

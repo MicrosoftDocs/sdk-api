@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_peek_tag
 title: ber_peek_tag function (winber.h)
-
 description: Returns the tag of the next element to be parsed in the supplied BerElement structure.
 old-location: ldap\ber_peek_tag.htm
 tech.root: ldap
 ms.assetid: 0c6f24fa-47df-401c-afe8-84bf2987dd36
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_peek_tag, ber_peek_tag, ber_peek_tag function [LDAP], ldap.ber__peek__tag, ldap.ber_peek_tag, winber/ber_peek_tag"
+ms.keywords: _ldap_ber_peek_tag, ber_peek_tag, ber_peek_tag function [LDAP], ldap.ber__peek__tag, ldap.ber_peek_tag, winber/ber_peek_tag
 ms.topic: function
-f1_keywords: 
- - "winber/ber_peek_tag"
+f1_keywords:
+- winber/ber_peek_tag
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_peek_tag
+- ber_peek_tag
 targetos: Windows
 req.typenames: 
 req.redist: 

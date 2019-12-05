@@ -1,19 +1,17 @@
 ---
 UID: NF:fhsvcctl.FhServiceOpenPipe
 title: FhServiceOpenPipe function (fhsvcctl.h)
-
 description: Opens a communication channel to the File History Service.
 old-location: winprog\fhserviceopenpipe.htm
 tech.root: DevNotes
 ms.assetid: D0927124-0568-4897-9169-445C252E8ED4
-
 ms.date: 12/05/2018
 ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcctl/FhServiceOpenPipe, winprog.fhserviceopenpipe
 ms.topic: function
-f1_keywords: 
- - "fhsvcctl/FhServiceOpenPipe"
+f1_keywords:
+- fhsvcctl/FhServiceOpenPipe
 dev_langs:
- - c++
+- c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FhSvcCtl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - FhSvcCtl.lib
- - FhSvcCtl.dll
+- FhSvcCtl.lib
+- FhSvcCtl.dll
 api_name:
- - FhServiceOpenPipe
+- FhServiceOpenPipe
 targetos: Windows
 req.typenames: 
 req.redist: 

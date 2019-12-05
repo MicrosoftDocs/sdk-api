@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSecureCall
 title: lineSecureCall function (tapi.h)
-
 description: The lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
 old-location: tapi2\linesecurecall.htm
 tech.root: Tapi
 ms.assetid: b12a5734-0638-4bb0-8f25-ca27d28e528b
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesecurecall, lineSecureCall, lineSecureCall function [TAPI 2.2], tapi/lineSecureCall, tapi2.linesecurecall"
+ms.keywords: _tapi2_linesecurecall, lineSecureCall, lineSecureCall function [TAPI 2.2], tapi/lineSecureCall, tapi2.linesecurecall
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSecureCall"
+f1_keywords:
+- tapi/lineSecureCall
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSecureCall
+- lineSecureCall
 targetos: Windows
 req.typenames: 
 req.redist: 

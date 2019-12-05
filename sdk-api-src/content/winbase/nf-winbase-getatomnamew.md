@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetAtomNameW
 title: GetAtomNameW function (winbase.h)
-
 description: Retrieves a copy of the character string associated with the specified local atom.
 old-location: dataxchg\getatomname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\getatomname.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAtomName, GetAtomName function [Data Exchange], GetAtomNameA, GetAtomNameW, _win32_GetAtomName, _win32_getatomname_cpp, dataxchg.getatomname, winbase/GetAtomName, winbase/GetAtomNameA, winbase/GetAtomNameW, winui._win32_getatomname
 ms.topic: function
-f1_keywords: 
- - "winbase/GetAtomName"
+f1_keywords:
+- winbase/GetAtomName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-atoms-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-atoms-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetAtomName
- - GetAtomNameA
- - GetAtomNameW
+- GetAtomName
+- GetAtomNameA
+- GetAtomNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

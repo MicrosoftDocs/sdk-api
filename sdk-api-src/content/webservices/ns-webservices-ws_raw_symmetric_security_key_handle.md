@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 title: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE (webservices.h)
-
 description: The type for specifying a symmetric cryptographic key as raw bytes.
 old-location: wsw\ws_raw_symmetric_security_key_handle.htm
 tech.root: wsw
 ms.assetid: 8c2c664b-2ee4-4647-a219-119eb5c5a0f6
-
 ms.date: 12/05/2018
 ms.keywords: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows], webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE, wsw.ws_raw_symmetric_security_key_handle
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE"
+f1_keywords:
+- webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
+- WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 targetos: Windows
 req.typenames: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 req.redist: 

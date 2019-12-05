@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.ReserveNtmsCleanerSlot
 title: ReserveNtmsCleanerSlot function (ntmsapi.h)
-
 description: The ReserveNtmsCleanerSlot function reserves a single slot in a library unit for a drive cleaner cartridge.
 old-location: fs\reserventmscleanerslot.htm
 tech.root: Rsm
 ms.assetid: 17e5acf8-c6b3-42a8-a9fe-fdda53779b67
-
 ms.date: 12/05/2018
 ms.keywords: ReserveNtmsCleanerSlot, ReserveNtmsCleanerSlot function [Files], _zaw_reserventmscleanerslot, base.reserventmscleanerslot, fs.reserventmscleanerslot, ntmsapi/ReserveNtmsCleanerSlot
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/ReserveNtmsCleanerSlot"
+f1_keywords:
+- ntmsapi/ReserveNtmsCleanerSlot
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - ReserveNtmsCleanerSlot
+- ReserveNtmsCleanerSlot
 targetos: Windows
 req.typenames: 
 req.redist: 

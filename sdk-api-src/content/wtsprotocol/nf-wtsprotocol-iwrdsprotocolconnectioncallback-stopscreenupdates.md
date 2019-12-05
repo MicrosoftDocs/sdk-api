@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.StopScreenUpdates
 title: IWRdsProtocolConnectionCallback::StopScreenUpdates (wtsprotocol.h)
-
 description: Requests that the Remote Desktop Services service stop updating the client screen.
 old-location: termserv\iwrdsprotocolconnectioncallback_stopscreenupdates.htm
 tech.root: TermServ
 ms.assetid: 698b59d3-8391-4101-801c-8d5fd701a757
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],StopScreenUpdates method, IWRdsProtocolConnectionCallback.StopScreenUpdates, IWRdsProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWRdsProtocolConnectionCallback::StopScreenUpdates
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnectionCallback.StopScreenUpdates"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnectionCallback.StopScreenUpdates
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnectionCallback.StopScreenUpdates
+- IWRdsProtocolConnectionCallback.StopScreenUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 

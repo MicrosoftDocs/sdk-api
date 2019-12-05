@@ -1,19 +1,17 @@
 ---
 UID: NE:dwmapi.DWMNCRENDERINGPOLICY
 title: DWMNCRENDERINGPOLICY (dwmapi.h)
-
 description: Flags used by the DwmSetWindowAttribute function to specify the non-client area rendering policy.
 old-location: dwm\dwmncrenderingpolicy.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\enums\dwmncrenderingpolicy.htm
-
 ms.date: 12/05/2018
 ms.keywords: DWMNCRENDERINGPOLICY, DWMNCRENDERINGPOLICY enumeration [Desktop Window Manager], DWMNCRP_DISABLED, DWMNCRP_ENABLED, DWMNCRP_LAST, DWMNCRP_USEWINDOWSTYLE, _udwm_dwmncrenderingpolicy, _udwm_dwmncrenderingpolicy_cpp, dwm.dwmncrenderingpolicy, dwmapi/DWMNCRENDERINGPOLICY, dwmapi/DWMNCRP_DISABLED, dwmapi/DWMNCRP_ENABLED, dwmapi/DWMNCRP_LAST, dwmapi/DWMNCRP_USEWINDOWSTYLE, winui._udwm_dwmncrenderingpolicy
 ms.topic: enum
-f1_keywords: 
- - "dwmapi/DWMNCRENDERINGPOLICY"
+f1_keywords:
+- dwmapi/DWMNCRENDERINGPOLICY
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwmapi.h
+- Dwmapi.h
 api_name:
- - DWMNCRENDERINGPOLICY
+- DWMNCRENDERINGPOLICY
 targetos: Windows
 req.typenames: 
 req.redist: 

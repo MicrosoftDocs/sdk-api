@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleNoteObjectVisible
 title: OleNoteObjectVisible function (ole2.h)
-
 description: Increments or decrements an external reference that keeps an object in the running state.
 old-location: com\olenoteobjectvisible.htm
 tech.root: com
 ms.assetid: f140f068-3115-4389-b67b-6d41d12f7525
-
 ms.date: 12/05/2018
 ms.keywords: OleNoteObjectVisible, OleNoteObjectVisible function [COM], _ole_OleNoteObjectVisible, com.olenoteobjectvisible, ole2/OleNoteObjectVisible
 ms.topic: function
-f1_keywords: 
- - "ole2/OleNoteObjectVisible"
+f1_keywords:
+- ole2/OleNoteObjectVisible
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleNoteObjectVisible
+- OleNoteObjectVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_LOG_LEVEL_ENUM
 title: FAX_LOG_LEVEL_ENUM (faxcomex.h)
-
 description: The FAX_LOG_LEVEL_ENUM enumeration defines the event logging levels for a logging category.
 old-location: fax\_mfax_fax_log_level_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7u3x.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_LOG_LEVEL_ENUM, FAX_LOG_LEVEL_ENUM enumeration [Fax Service], _mfax_fax_log_level_enum, fax._mfax_fax_log_level_enum, faxcomex/FAX_LOG_LEVEL_ENUM, faxcomex/fllMAX, faxcomex/fllMED, faxcomex/fllMIN, faxcomex/fllNONE, fllMAX, fllMED, fllMIN, fllNONE
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_LOG_LEVEL_ENUM"
+f1_keywords:
+- faxcomex/FAX_LOG_LEVEL_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_LOG_LEVEL_ENUM
+- FAX_LOG_LEVEL_ENUM
 targetos: Windows
 req.typenames: FAX_LOG_LEVEL_ENUM
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfcaptureengine.IMFCaptureEngineClassFactory
 title: IMFCaptureEngineClassFactory (mfcaptureengine.h)
-
 description: Creates an instance of the capture engine.
 old-location: mf\imfcaptureengineclassfactory.htm
 tech.root: medfound
 ms.assetid: FAFA52AD-B96E-4ADC-BE79-3BE5F1ACC92A
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineClassFactory, IMFCaptureEngineClassFactory interface [Media Foundation], IMFCaptureEngineClassFactory interface [Media Foundation],described, mf.imfcaptureengineclassfactory, mfcaptureengine/IMFCaptureEngineClassFactory
 ms.topic: interface
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineClassFactory"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineClassFactory
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineClassFactory
+- IMFCaptureEngineClassFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

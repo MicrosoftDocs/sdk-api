@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDeskBand.GetBandInfo
 title: IDeskBand::GetBandInfo (shobjidl_core.h)
-
 description: Gets state information for a band object.
 old-location: shell\IDeskBand_GetBandInfo.htm
 tech.root: shell
 ms.assetid: 7567a2f8-989e-4d11-ae55-209e4cfacad0
-
 ms.date: 12/05/2018
 ms.keywords: DBIF_VIEWMODE_FLOATING, DBIF_VIEWMODE_NORMAL, DBIF_VIEWMODE_TRANSPARENT, DBIF_VIEWMODE_VERTICAL, GetBandInfo, GetBandInfo method [Windows Shell], GetBandInfo method [Windows Shell],IDeskBand interface, IDeskBand interface [Windows Shell],GetBandInfo method, IDeskBand.GetBandInfo, IDeskBand::GetBandInfo, _win32_IDeskBand_GetBandInfo, shell.IDeskBand_GetBandInfo, shobjidl_core/IDeskBand::GetBandInfo
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDeskBand.GetBandInfo"
+f1_keywords:
+- shobjidl_core/IDeskBand.GetBandInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDeskBand.GetBandInfo
+- IDeskBand.GetBandInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

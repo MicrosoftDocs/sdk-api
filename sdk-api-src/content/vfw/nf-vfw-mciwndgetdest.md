@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndGetDest
 title: MCIWndGetDest macro (vfw.h)
-
 description: The MCIWndGetDest macro retrieves the coordinates of the destination rectangle used for zooming or stretching the images of an AVI file during playback. You can use this macro or explicitly send the MCIWNDM_GET_DEST message.
 old-location: multimedia\mciwndgetdest.htm
 tech.root: Multimedia
 ms.assetid: eca70819-fb7c-48b9-a479-d20aa0f05649
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetDest, MCIWndGetDest macro [Windows Multimedia], _win32_MCIWndGetDest, multimedia.mciwndgetdest, vfw/MCIWndGetDest
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndGetDest"
+f1_keywords:
+- vfw/MCIWndGetDest
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndGetDest
+- MCIWndGetDest
 targetos: Windows
 req.typenames: 
 req.redist: 

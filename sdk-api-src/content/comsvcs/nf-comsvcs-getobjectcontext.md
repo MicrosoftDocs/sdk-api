@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.GetObjectContext
 title: GetObjectContext macro (comsvcs.h)
-
 description: Retrieves a reference to the context that is associated with the current COM+ object.
 old-location: cos\getobjectcontext.htm
 tech.root: cossdk
 ms.assetid: e93406df-e61c-4ee5-9cd4-828aab2c05b6
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectContext, GetObjectContext function [COM+], _cos_GetObjectContext, comsvcs/GetObjectContext, cos.getobjectcontext
 ms.topic: macro
-f1_keywords: 
- - "comsvcs/GetObjectContext"
+f1_keywords:
+- comsvcs/GetObjectContext
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComSvcs.dll
+- ComSvcs.dll
 api_name:
- - GetObjectContext
+- GetObjectContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PublicKey.ComputeKeyIdentifier
 title: IX509PublicKey::ComputeKeyIdentifier (certenroll.h)
-
 description: Creates an identifier from a 160-bit SHA-1 hash of the public key.
 old-location: security\ix509publickey_computekeyidentifier_method.htm
 tech.root: seccertenroll
 ms.assetid: b2e471c7-1087-46a2-8938-5d3cea44f7f7
-
 ms.date: 12/05/2018
 ms.keywords: ComputeKeyIdentifier, ComputeKeyIdentifier method [Security], ComputeKeyIdentifier method [Security],IX509PublicKey interface, IX509PublicKey interface [Security],ComputeKeyIdentifier method, IX509PublicKey.ComputeKeyIdentifier, IX509PublicKey::ComputeKeyIdentifier, certenroll/IX509PublicKey::ComputeKeyIdentifier, security.ix509publickey_computekeyidentifier_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PublicKey.ComputeKeyIdentifier"
+f1_keywords:
+- certenroll/IX509PublicKey.ComputeKeyIdentifier
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PublicKey.ComputeKeyIdentifier
+- IX509PublicKey.ComputeKeyIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzFreeAuditEvent
 title: AuthzFreeAuditEvent function (authz.h)
-
 description: Frees the structure allocated by the AuthzInitializeObjectAccessAuditEvent function.
 old-location: security\authzfreeauditevent.htm
 tech.root: SecAuthZ
 ms.assetid: e2980ef7-45dd-47c7-ba4d-f36b52bbd7dc
-
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeAuditEvent, AuthzFreeAuditEvent function [Security], _win32_authzfreeauditevent, authz/AuthzFreeAuditEvent, security.authzfreeauditevent
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzFreeAuditEvent"
+f1_keywords:
+- authz/AuthzFreeAuditEvent
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
- - Ext-MS-Win-authz-context-l1-1-0.dll
+- Authz.dll
+- Ext-MS-Win-authz-context-l1-1-0.dll
 api_name:
- - AuthzFreeAuditEvent
+- AuthzFreeAuditEvent
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

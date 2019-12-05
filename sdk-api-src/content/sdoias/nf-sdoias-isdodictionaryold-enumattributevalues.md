@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.EnumAttributeValues
 title: ISdoDictionaryOld::EnumAttributeValues (sdoias.h)
-
 description: The EnumAttributeValues method retrieves the values for an enumerable attribute.
 old-location: nps\SDO_isdodictionaryold_enumattributevalues.htm
 tech.root: Nps
 ms.assetid: e46dc286-5316-49c2-a384-b486efc80d2a
-
 ms.date: 12/05/2018
 ms.keywords: EnumAttributeValues, EnumAttributeValues method [Network Policy Server], EnumAttributeValues method [Network Policy Server],ISdoDictionaryOld interface, ISdoDictionaryOld interface [Network Policy Server],EnumAttributeValues method, ISdoDictionaryOld.EnumAttributeValues, ISdoDictionaryOld::EnumAttributeValues, _sdo_isdodictionaryold_enumattributevalues, nps.SDO_isdodictionaryold_enumattributevalues, sdo.isdodictionaryold_enumattributevalues, sdoias/ISdoDictionaryOld::EnumAttributeValues
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoDictionaryOld.EnumAttributeValues"
+f1_keywords:
+- sdoias/ISdoDictionaryOld.EnumAttributeValues
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoDictionaryOld.EnumAttributeValues
+- ISdoDictionaryOld.EnumAttributeValues
 targetos: Windows
 req.typenames: 
 req.redist: 

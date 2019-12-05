@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagPALETTEENTRY
 title: PALETTEENTRY (wingdi.h)
-
 description: Specifies the color and usage of an entry in a logical palette.
 old-location: direct3d9\paletteentry.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\paletteentry.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPALETTEENTRY, *PPALETTEENTRY, 523c466d-5003-02e3-c336-f0e36539855e, LPPALETTEENTRY, LPPALETTEENTRY structure pointer [Direct3D 9], PALETTEENTRY, PALETTEENTRY structure [Direct3D 9], direct3d9.paletteentry, wingdi/LPPALETTEENTRY, wingdi/PALETTEENTRY"
+ms.keywords: '*LPPALETTEENTRY, *PPALETTEENTRY, 523c466d-5003-02e3-c336-f0e36539855e, LPPALETTEENTRY, LPPALETTEENTRY structure pointer [Direct3D 9], PALETTEENTRY, PALETTEENTRY structure [Direct3D 9], direct3d9.paletteentry, wingdi/LPPALETTEENTRY, wingdi/PALETTEENTRY'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/PALETTEENTRY"
+f1_keywords:
+- wingdi/PALETTEENTRY
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - PALETTEENTRY
+- PALETTEENTRY
 targetos: Windows
 req.typenames: PALETTEENTRY, *PPALETTEENTRY, *LPPALETTEENTRY
 req.redist: 

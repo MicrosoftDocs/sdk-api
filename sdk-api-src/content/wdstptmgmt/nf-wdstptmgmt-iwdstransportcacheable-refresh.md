@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Refresh
 title: IWdsTransportCacheable::Refresh (wdstptmgmt.h)
-
 description: Refreshes the object data members by rereading their values from the underlying data store. This is allowed only if the object's IWdsTransportCacheable::Dirty property has been set.
 old-location: wds\iwdstransportcacheable_refresh.htm
 tech.root: wds
 ms.assetid: 2fd838b5-5623-4133-9ad8-ec051b2b698d
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportCacheable interface [Windows Deployment Services],Refresh method, IWdsTransportCacheable.Refresh, IWdsTransportCacheable::Refresh, Refresh, Refresh method [Windows Deployment Services], Refresh method [Windows Deployment Services],IWdsTransportCacheable interface, wds.iwdstransportcacheable_refresh, wdstptmgmt/IWdsTransportCacheable::Refresh
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportCacheable.Refresh"
+f1_keywords:
+- wdstptmgmt/IWdsTransportCacheable.Refresh
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportCacheable.Refresh
+- IWdsTransportCacheable.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

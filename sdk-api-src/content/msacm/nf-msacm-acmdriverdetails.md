@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmDriverDetails
 title: acmDriverDetails function (msacm.h)
-
 description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.
 old-location: multimedia\acmdriverdetails.htm
 tech.root: Multimedia
 ms.assetid: f8fcce73-1cac-463d-8e2d-1372d6b64614
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmDriverDetails, acmDriverDetails, acmDriverDetails function [Windows Multimedia], acmDriverDetailsA, acmDriverDetailsW, msacm/acmDriverDetails, msacm/acmDriverDetailsA, msacm/acmDriverDetailsW, multimedia.acmdriverdetails"
+ms.keywords: _win32_acmDriverDetails, acmDriverDetails, acmDriverDetails function [Windows Multimedia], acmDriverDetailsA, acmDriverDetailsW, msacm/acmDriverDetails, msacm/acmDriverDetailsA, msacm/acmDriverDetailsW, multimedia.acmdriverdetails
 ms.topic: function
-f1_keywords: 
- - "msacm/acmDriverDetails"
+f1_keywords:
+- msacm/acmDriverDetails
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmDriverDetails
- - acmDriverDetailsA
- - acmDriverDetailsW
+- acmDriverDetails
+- acmDriverDetailsA
+- acmDriverDetailsW
 targetos: Windows
 req.typenames: 
 req.redist: 

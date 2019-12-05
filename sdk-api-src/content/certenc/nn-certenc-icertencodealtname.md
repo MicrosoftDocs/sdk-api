@@ -1,19 +1,17 @@
 ---
 UID: NN:certenc.ICertEncodeAltName
 title: ICertEncodeAltName (certenc.h)
-
 description: Provides methods for handling alternate names used in certificate extensions.
 old-location: security\icertencodealtname.htm
 tech.root: SecCrypto
 ms.assetid: e0ecfcb0-f2ca-4e1c-a054-c83c03d55465
-
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeAltName, ICertEncodeAltName interface [Security], ICertEncodeAltName interface [Security],described, _certsrv_icertencodealtname, certenc/ICertEncodeAltName, security.icertencodealtname
 ms.topic: interface
-f1_keywords: 
- - "certenc/ICertEncodeAltName"
+f1_keywords:
+- certenc/ICertEncodeAltName
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeAltName
+- ICertEncodeAltName
 targetos: Windows
 req.typenames: 
 req.redist: 

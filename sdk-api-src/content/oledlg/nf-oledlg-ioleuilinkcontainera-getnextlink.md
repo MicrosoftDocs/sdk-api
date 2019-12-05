@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.IOleUILinkContainerA.GetNextLink
 title: IOleUILinkContainerA::GetNextLink (oledlg.h)
-
 description: Enumerates the links in a container.
 old-location: com\ioleuilinkcontainer_getnextlink.htm
 tech.root: com
 ms.assetid: 60246b31-3677-4424-a131-840feeca030f
-
 ms.date: 12/05/2018
 ms.keywords: GetNextLink, GetNextLink method [COM], GetNextLink method [COM],IOleUILinkContainer interface, GetNextLink method [COM],IOleUILinkContainerA interface, GetNextLink method [COM],IOleUILinkContainerW interface, IOleUILinkContainer interface [COM],GetNextLink method, IOleUILinkContainer::GetNextLink, IOleUILinkContainerA interface [COM],GetNextLink method, IOleUILinkContainerA.GetNextLink, IOleUILinkContainerA::GetNextLink, IOleUILinkContainerW interface [COM],GetNextLink method, IOleUILinkContainerW::GetNextLink, _ole_IOleUILinkContainer_GetNextLink, com.ioleuilinkcontainer_getnextlink, oledlg/IOleUILinkContainer::GetNextLink, oledlg/IOleUILinkContainerA::GetNextLink, oledlg/IOleUILinkContainerW::GetNextLink
 ms.topic: method
-f1_keywords: 
- - "oledlg/IOleUILinkContainer.GetNextLink"
+f1_keywords:
+- oledlg/IOleUILinkContainer.GetNextLink
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkContainer.GetNextLink
- - IOleUILinkContainerA.GetNextLink
- - IOleUILinkContainerW.GetNextLink
+- IOleUILinkContainer.GetNextLink
+- IOleUILinkContainerA.GetNextLink
+- IOleUILinkContainerW.GetNextLink
 targetos: Windows
 req.typenames: 
 req.redist: 

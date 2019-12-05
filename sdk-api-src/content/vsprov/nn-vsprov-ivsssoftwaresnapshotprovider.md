@@ -1,19 +1,17 @@
 ---
 UID: NN:vsprov.IVssSoftwareSnapshotProvider
 title: IVssSoftwareSnapshotProvider (vsprov.h)
-
 description: Contains the methods used by VSS to manage shadow copy volumes. All software providers must support this interface.
 old-location: base\ivsssoftwaresnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f
-
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider, IVssSoftwareSnapshotProvider interface, IVssSoftwareSnapshotProvider interface,described, base.ivsssoftwaresnapshotprovider, vsprov/IVssSoftwareSnapshotProvider
 ms.topic: interface
-f1_keywords: 
- - "vsprov/IVssSoftwareSnapshotProvider"
+f1_keywords:
+- vsprov/IVssSoftwareSnapshotProvider
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider
+- IVssSoftwareSnapshotProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

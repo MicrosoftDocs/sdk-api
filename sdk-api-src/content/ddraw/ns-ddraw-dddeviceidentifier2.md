@@ -1,19 +1,17 @@
 ---
 UID: NS:ddraw.tagDDDEVICEIDENTIFIER2
 title: DDDEVICEIDENTIFIER2 (ddraw.h)
-
 description: The DDDEVICEIDENTIFIER2 structure is passed to the IDirectDraw7::GetDeviceIdentifier method to obtain information about a device.
 old-location: directdraw\dddeviceidentifier2.htm
 tech.root: directdraw
 ms.assetid: 3fdec953-72d4-48f8-b540-e2e6ca770b3c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 structure [DirectDraw], LPDDDEVICEIDENTIFIER2, LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw], ddraw/DDDEVICEIDENTIFIER2, ddraw/LPDDDEVICEIDENTIFIER2, directdraw.dddeviceidentifier2"
+ms.keywords: '*LPDDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2, DDDEVICEIDENTIFIER2 structure [DirectDraw], LPDDDEVICEIDENTIFIER2, LPDDDEVICEIDENTIFIER2 structure pointer [DirectDraw], ddraw/DDDEVICEIDENTIFIER2, ddraw/LPDDDEVICEIDENTIFIER2, directdraw.dddeviceidentifier2'
 ms.topic: struct
-f1_keywords: 
- - "ddraw/DDDEVICEIDENTIFIER2"
+f1_keywords:
+- ddraw/DDDEVICEIDENTIFIER2
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddraw.h
+- Ddraw.h
 api_name:
- - DDDEVICEIDENTIFIER2
+- DDDEVICEIDENTIFIER2
 targetos: Windows
 req.typenames: DDDEVICEIDENTIFIER2, *LPDDDEVICEIDENTIFIER2
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQuerySolution.GetErrors
 title: IQuerySolution::GetErrors (structuredquery.h)
-
 description: Identifies parts of the input string that the parser did not recognize or did not use when constructing the IQuerySolution condition tree.
 old-location: search\_search_IQuerySolution_GetErrors.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iquerysolution\geterrors.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetErrors, GetErrors method [search], GetErrors method [search],IQuerySolution interface, IQuerySolution interface [search],GetErrors method, IQuerySolution.GetErrors, IQuerySolution::GetErrors, _search_IQuerySolution_GetErrors, search._search_IQuerySolution_GetErrors, structuredquery/IQuerySolution::GetErrors
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQuerySolution.GetErrors"
+f1_keywords:
+- structuredquery/IQuerySolution.GetErrors
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQuerySolution.GetErrors
+- IQuerySolution.GetErrors
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

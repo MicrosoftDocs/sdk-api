@@ -1,19 +1,17 @@
 ---
 UID: NN:inkpresenterdesktop.IInkPresenterDesktop
 title: IInkPresenterDesktop (inkpresenterdesktop.h)
-
 description: An IInkPresenterDesktop object represents an InkPresenter that can be configured and inserted into the DirectComposition visual tree of the Classic Windows app.
 old-location: input_ink\iinkpresenterdesktop.htm
 tech.root: input_ink
 ms.assetid: 6d175981-6379-4a61-84b0-8b08274bc3a3
-
 ms.date: 12/05/2018
 ms.keywords: IInkPresenterDesktop, IInkPresenterDesktop interface, IInkPresenterDesktop interface,described, InkPresenterDesktop.iinkpresenterdesktop, inkpresenterdesktop/IInkPresenterDesktop, input_ink.iinkpresenterdesktop
 ms.topic: interface
-f1_keywords: 
- - "inkpresenterdesktop/IInkPresenterDesktop"
+f1_keywords:
+- inkpresenterdesktop/IInkPresenterDesktop
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkPresenterDesktop
+- IInkPresenterDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

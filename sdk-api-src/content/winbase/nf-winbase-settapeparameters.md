@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetTapeParameters
 title: SetTapeParameters function (winbase.h)
-
 description: Specifies the block size of a tape or configures the tape device.
 old-location: backup\settapeparameters.htm
 tech.root: Backup
 ms.assetid: 2043249b-b4ff-4bdd-9e6e-13c432a183cb
-
 ms.date: 12/05/2018
 ms.keywords: SET_TAPE_DRIVE_INFORMATION, SET_TAPE_MEDIA_INFORMATION, SetTapeParameters, SetTapeParameters function [Backup], _win32_settapeparameters, backup.settapeparameters, base.settapeparameters, winbase/SetTapeParameters
 ms.topic: function
 f1_keywords:
 - winbase/SetTapeParameters
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_CONDITION0_
 title: FWPM_FILTER_CONDITION0 (fwpmtypes.h)
-
 description: Expresses a filter condition that must be true for the action to be taken.
 old-location: fwp\fwpm_filter_condition0_struct.htm
 tech.root: fwp
 ms.assetid: 4dfed9d7-e51b-425c-9f27-014229c140be
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER_CONDITION0, FWPM_FILTER_CONDITION0 structure [Filtering], fwp.fwpm_filter_condition0_struct, fwpmtypes/FWPM_FILTER_CONDITION0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_FILTER_CONDITION0"
+f1_keywords:
+- fwpmtypes/FWPM_FILTER_CONDITION0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_FILTER_CONDITION0
+- FWPM_FILTER_CONDITION0
 targetos: Windows
 req.typenames: FWPM_FILTER_CONDITION0
 req.redist: 

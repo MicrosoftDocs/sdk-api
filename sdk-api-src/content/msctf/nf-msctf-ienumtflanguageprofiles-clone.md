@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Clone
 title: IEnumTfLanguageProfiles::Clone (msctf.h)
-
 description: IEnumTfLanguageProfiles::Clone method
 old-location: tsf\ienumtflanguageprofiles_clone.htm
 tech.root: TSF
 ms.assetid: 77fbb195-b3c8-4254-a4d9-117ea8052951
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfLanguageProfiles interface, IEnumTfLanguageProfiles interface [Text Services Framework],Clone method, IEnumTfLanguageProfiles.Clone, IEnumTfLanguageProfiles::Clone, _tsf_ienumtflanguageprofiles_clone_ref, msctf/IEnumTfLanguageProfiles::Clone, tsf.ienumtflanguageprofiles_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfLanguageProfiles.Clone"
+f1_keywords:
+- msctf/IEnumTfLanguageProfiles.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfLanguageProfiles.Clone
+- IEnumTfLanguageProfiles.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

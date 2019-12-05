@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.HAS_POINTER_CONFIDENCE_WPARAM
 title: HAS_POINTER_CONFIDENCE_WPARAM macro (winuser.h)
-
 description: Checks whether the specified pointer message is considered intentional rather than accidental.
 old-location: inputmsg\has_pointer_confidence_wparam.htm
 tech.root: InputMsg
 ms.assetid: 58E66EC4-D855-4B24-80E9-54B6DAE6D36C
-
 ms.date: 12/05/2018
 ms.keywords: HAS_POINTER_CONFIDENCE_WPARAM, HAS_POINTER_CONFIDENCE_WPARAM macro [Input Messages and Notifications], inputmsg.has_pointer_confidence_wparam, winuser/HAS_POINTER_CONFIDENCE_WPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/HAS_POINTER_CONFIDENCE_WPARAM"
+f1_keywords:
+- winuser/HAS_POINTER_CONFIDENCE_WPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - HAS_POINTER_CONFIDENCE_WPARAM
+- HAS_POINTER_CONFIDENCE_WPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

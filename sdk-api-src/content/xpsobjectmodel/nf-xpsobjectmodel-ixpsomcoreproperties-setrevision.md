@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetRevision
 title: IXpsOMCoreProperties::SetRevision (xpsobjectmodel.h)
-
 description: Sets the revision property.
 old-location: xps\ixpsomcoreproperties_setrevision.htm
 tech.root: printdocs
 ms.assetid: 7e2ef3b4-64dd-402e-a282-0ed01e588337
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetRevision method, IXpsOMCoreProperties.SetRevision, IXpsOMCoreProperties::SetRevision, SetRevision, SetRevision method [XPS Documents and Packaging], SetRevision method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setrevision, xpsobjectmodel/IXpsOMCoreProperties::SetRevision
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetRevision"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetRevision
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetRevision
+- IXpsOMCoreProperties.SetRevision
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTrackingInfoCollection.Item
 title: IComTrackingInfoCollection::Item (comsvcs.h)
-
 description: Retrieves the specified interface from a specified member of a tracking information collection.
 old-location: cos\icomtrackinginfocollection_item.htm
 tech.root: cossdk
 ms.assetid: 61da742b-d8cd-48db-a9b7-c754b8963907
-
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoCollection interface [COM+],Item method, IComTrackingInfoCollection.Item, IComTrackingInfoCollection::Item, Item, Item method [COM+], Item method [COM+],IComTrackingInfoCollection interface, _dtc_IComTrackingInfoCollection_Item, comsvcs/IComTrackingInfoCollection::Item, cos.icomtrackinginfocollection_item
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTrackingInfoCollection.Item"
+f1_keywords:
+- comsvcs/IComTrackingInfoCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTrackingInfoCollection.Item
+- IComTrackingInfoCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

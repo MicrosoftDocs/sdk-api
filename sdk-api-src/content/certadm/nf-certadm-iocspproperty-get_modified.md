@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPProperty.get_Modified
 title: IOCSPProperty::get_Modified (certadm.h)
-
 description: Gets a value that indicates whether an OCSPProperty object has been modified since it was instantiated.
 old-location: security\iocspproperty_modified_method.htm
 tech.root: SecCrypto
 ms.assetid: 3e965ee2-4b6f-4c95-b048-b9e9c7701306
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPProperty interface [Security],Modified property, IOCSPProperty.Modified, IOCSPProperty.get_Modified, IOCSPProperty::Modified, IOCSPProperty::get_Modified, Modified property [Security], Modified property [Security],IOCSPProperty interface, certadm/IOCSPProperty::Modified, certadm/IOCSPProperty::get_Modified, get_Modified, security.iocspproperty_modified_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPProperty.Modified"
+f1_keywords:
+- certadm/IOCSPProperty.Modified
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPProperty.Modified
- - IOCSPProperty.get_Modified
+- IOCSPProperty.Modified
+- IOCSPProperty.get_Modified
 targetos: Windows
 req.typenames: 
 req.redist: 

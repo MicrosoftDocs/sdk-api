@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetPrivileges
 title: IXblIdpAuthTokenResult::GetPrivileges (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getprivileges.htm
 tech.root: xblidp
 ms.assetid: A351B734-6311-4E89-8832-F2460E738BA0
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivileges, GetPrivileges method, GetPrivileges method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetPrivileges method, IXblIdpAuthTokenResult.GetPrivileges, IXblIdpAuthTokenResult::GetPrivileges, xblidp.ixblidpauthtokenresult_getprivileges, xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetPrivileges"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetPrivileges
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetPrivileges
+- IXblIdpAuthTokenResult.GetPrivileges
 targetos: Windows
 req.typenames: 
 req.redist: 

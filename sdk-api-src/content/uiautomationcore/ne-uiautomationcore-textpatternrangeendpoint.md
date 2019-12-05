@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.TextPatternRangeEndpoint
 title: TextPatternRangeEndpoint (uiautomationcore.h)
-
 description: Contains values that specify the endpoints of a text range.
 old-location: winauto\uiauto_TextPatternRangeEndpointEnum.htm
 tech.root: WinAuto
 ms.assetid: 4a294376-a401-4380-ba5a-b899548290b7
-
 ms.date: 12/05/2018
 ms.keywords: TextPatternRangeEndpoint, TextPatternRangeEndpoint enumeration [Windows Accessibility], TextPatternRangeEndpoint_End, TextPatternRangeEndpoint_Start, uiauto.uiauto_TextPatternRangeEndpointEnum, uiauto_TextPatternRangeEndpointEnum, uiautomationcore/TextPatternRangeEndpoint, uiautomationcore/TextPatternRangeEndpoint_End, uiautomationcore/TextPatternRangeEndpoint_Start, winauto.uiauto_TextPatternRangeEndpointEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/TextPatternRangeEndpoint"
+f1_keywords:
+- uiautomationcore/TextPatternRangeEndpoint
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - TextPatternRangeEndpoint
+- TextPatternRangeEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

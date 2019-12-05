@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetPredication
 title: ID3D11DeviceContext::GetPredication (d3d11.h)
-
 description: Get the rendering predicate state.
 old-location: direct3d11\id3d11devicecontext_getpredication.htm
 tech.root: direct3d11
 ms.assetid: 9a283895-51c4-4de5-bdeb-994f3085bd79
-
 ms.date: 12/05/2018
 ms.keywords: GetPredication, GetPredication method [Direct3D 11], GetPredication method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetPredication method, ID3D11DeviceContext.GetPredication, ID3D11DeviceContext::GetPredication, ae323354-9c3a-634f-4e86-882e408d29d5, d3d11/ID3D11DeviceContext::GetPredication, direct3d11.id3d11devicecontext_getpredication
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.GetPredication"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.GetPredication
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.GetPredication
+- ID3D11DeviceContext.GetPredication
 targetos: Windows
 req.typenames: 
 req.redist: 

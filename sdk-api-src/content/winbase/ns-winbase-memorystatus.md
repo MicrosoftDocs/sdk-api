@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._MEMORYSTATUS
 title: MEMORYSTATUS (winbase.h)
-
 description: Contains information about the current state of both physical and virtual memory.
 old-location: base\memorystatus_str.htm
 tech.root: Memory
 ms.assetid: 7815ec8f-cacf-4c1b-b5f7-5bb3ef8d759c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMEMORYSTATUS, LPMEMORYSTATUS, LPMEMORYSTATUS structure pointer, MEMORYSTATUS, MEMORYSTATUS structure, _MEMORYSTATUS, _win32_memorystatus_str, base.memorystatus_str, winbase/LPMEMORYSTATUS, winbase/_MEMORYSTATUS"
+ms.keywords: '*LPMEMORYSTATUS, LPMEMORYSTATUS, LPMEMORYSTATUS structure pointer, MEMORYSTATUS, MEMORYSTATUS structure, _MEMORYSTATUS, _win32_memorystatus_str, base.memorystatus_str, winbase/LPMEMORYSTATUS, winbase/_MEMORYSTATUS'
 ms.topic: struct
-f1_keywords: 
- - "winbase/MEMORYSTATUS"
+f1_keywords:
+- winbase/MEMORYSTATUS
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - MEMORYSTATUS
+- MEMORYSTATUS
 targetos: Windows
 req.typenames: MEMORYSTATUS, *LPMEMORYSTATUS
 req.redist: 

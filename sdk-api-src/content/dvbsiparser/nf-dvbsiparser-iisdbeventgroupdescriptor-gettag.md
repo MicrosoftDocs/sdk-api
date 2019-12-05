@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetTag
 title: IIsdbEventGroupDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 249c57a6-dcf8-4701-975d-39f8e8735798
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbEventGroupDescriptor.GetTag, IIsdbEventGroupDescriptor::GetTag, dvbsiparser/IIsdbEventGroupDescriptor::GetTag, mstv.iisdbeventgroupdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbEventGroupDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbEventGroupDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEventGroupDescriptor.GetTag
+- IIsdbEventGroupDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVDDSurroundMode
 title: eAVDDSurroundMode (codecapi.h)
-
 description: Specifies whether the audio is encoded in Dolby Surround. This enumeration is used with the AVDDSurroundMode property.
 old-location: dshow\eavddsurroundmode.htm
 tech.root: DirectShow
 ms.assetid: daebcbdf-3a4d-494a-a403-8b075a6d393b
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDDSurroundMode, codecapi/eAVDDSurroundMode_No, codecapi/eAVDDSurroundMode_NotIndicated, codecapi/eAVDDSurroundMode_Yes, dshow.eavddsurroundmode, eAVDDSurroundMode, eAVDDSurroundMode enumeration [DirectShow], eAVDDSurroundModeEnumeration, eAVDDSurroundMode_No, eAVDDSurroundMode_NotIndicated, eAVDDSurroundMode_Yes
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVDDSurroundMode"
+f1_keywords:
+- codecapi/eAVDDSurroundMode
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVDDSurroundMode
+- eAVDDSurroundMode
 targetos: Windows
 req.typenames: 
 req.redist: 

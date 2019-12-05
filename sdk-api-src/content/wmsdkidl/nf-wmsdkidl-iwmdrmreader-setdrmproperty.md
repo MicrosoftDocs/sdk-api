@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.SetDRMProperty
 title: IWMDRMReader::SetDRMProperty (wmsdkidl.h)
-
 description: The SetDRMProperty method on the reader object is used to set a DRM property, such as the DRM_Rights property.
 old-location: wmformat\iwmdrmreader_setdrmproperty.htm
 tech.root: wmformat
 ms.assetid: 52f606c2-a746-488f-bbf7-0d0e54b89bf9
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader interface [windows Media Format],SetDRMProperty method, IWMDRMReader.SetDRMProperty, IWMDRMReader::SetDRMProperty, IWMDRMReaderSetDRMProperty, SetDRMProperty, SetDRMProperty method [windows Media Format], SetDRMProperty method [windows Media Format],IWMDRMReader interface, wmformat.iwmdrmreader_setdrmproperty, wmsdkidl/IWMDRMReader::SetDRMProperty
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader.SetDRMProperty"
+f1_keywords:
+- wmsdkidl/IWMDRMReader.SetDRMProperty
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader.SetDRMProperty
+- IWMDRMReader.SetDRMProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

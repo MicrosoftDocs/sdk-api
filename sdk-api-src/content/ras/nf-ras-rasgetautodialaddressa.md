@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetAutodialAddressA
 title: RasGetAutodialAddressA function (ras.h)
-
 description: The RasGetAutodialAddress function retrieves information about all the AutoDial entries associated with a network address in the AutoDial mapping database.
 old-location: rras\rasgetautodialaddress.htm
 tech.root: RRAS
 ms.assetid: b7182760-30c0-4c09-ae99-f656d868e150
-
 ms.date: 12/05/2018
 ms.keywords: RasGetAutodialAddress, RasGetAutodialAddress function [RAS], RasGetAutodialAddressA, RasGetAutodialAddressW, _ras_rasgetautodialaddress, ras/RasGetAutodialAddress, ras/RasGetAutodialAddressA, ras/RasGetAutodialAddressW, rras.rasgetautodialaddress
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetAutodialAddress"
+f1_keywords:
+- ras/RasGetAutodialAddress
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetAutodialAddress
- - RasGetAutodialAddressA
- - RasGetAutodialAddressW
+- RasGetAutodialAddress
+- RasGetAutodialAddressA
+- RasGetAutodialAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 

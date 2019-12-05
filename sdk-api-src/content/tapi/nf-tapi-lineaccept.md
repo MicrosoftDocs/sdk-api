@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineAccept
 title: lineAccept function (tapi.h)
-
 description: The lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
 old-location: tapi2\lineaccept.htm
 tech.root: Tapi
 ms.assetid: 185f129a-ba8c-496b-ab1a-ba22e5928c54
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineaccept, lineAccept, lineAccept function [TAPI 2.2], tapi/lineAccept, tapi2.lineaccept"
+ms.keywords: _tapi2_lineaccept, lineAccept, lineAccept function [TAPI 2.2], tapi/lineAccept, tapi2.lineaccept
 ms.topic: function
-f1_keywords: 
- - "tapi/lineAccept"
+f1_keywords:
+- tapi/lineAccept
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineAccept
+- lineAccept
 targetos: Windows
 req.typenames: 
 req.redist: 

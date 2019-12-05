@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbComponentDescriptor.GetTextW
 title: IDvbComponentDescriptor::GetTextW (dvbsiparser.h)
-
 description: Gets the text describing the elementary stream, in Unicode string format, from a Digital Video Broadcast (DVB) component descriptor.
 old-location: mstv\idvbcomponentdescriptor_gettextw.htm
 tech.root: mstv
 ms.assetid: 1b4ff757-24d0-4dca-8def-c8079724e571
-
 ms.date: 12/05/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IDvbComponentDescriptor interface, IDvbComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IDvbComponentDescriptor.GetTextW, IDvbComponentDescriptor::GetTextW, dvbsiparser/IDvbComponentDescriptor::GetTextW, mstv.idvbcomponentdescriptor_gettextw
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbComponentDescriptor.GetTextW"
+f1_keywords:
+- dvbsiparser/IDvbComponentDescriptor.GetTextW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbComponentDescriptor.GetTextW
+- IDvbComponentDescriptor.GetTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

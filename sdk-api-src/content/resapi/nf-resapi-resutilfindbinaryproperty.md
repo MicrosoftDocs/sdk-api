@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFindBinaryProperty
 title: ResUtilFindBinaryProperty function (resapi.h)
-
 description: Locates a specified binary property in a property list and can also return the value of the property. The PRESUTIL_FIND_BINARY_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindbinaryproperty.htm
 tech.root: MsCS
 ms.assetid: 3be864ae-dc02-47e7-aa86-a6c14be13091
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_BINARY_PROPERTY, PRESUTIL_FIND_BINARY_PROPERTY function [Failover Cluster], ResUtilFindBinaryProperty, ResUtilFindBinaryProperty function [Failover Cluster], _wolf_resutilfindbinaryproperty, mscs.resutilfindbinaryproperty, resapi/PRESUTIL_FIND_BINARY_PROPERTY, resapi/ResUtilFindBinaryProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFindBinaryProperty"
+f1_keywords:
+- resapi/ResUtilFindBinaryProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilFindBinaryProperty
+- ResUtilFindBinaryProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

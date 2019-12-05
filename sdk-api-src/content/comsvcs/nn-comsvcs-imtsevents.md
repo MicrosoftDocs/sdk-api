@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IMtsEvents
 title: IMtsEvents (comsvcs.h)
-
 description: Provides methods for obtaining information about the running package and establishing event sinks.
 old-location: cos\imtsevents.htm
 tech.root: cossdk
 ms.assetid: 7db3a373-00d3-480e-8f8e-7e65a468d5dc
-
 ms.date: 12/05/2018
 ms.keywords: IMtsEvents, IMtsEvents interface [COM+], IMtsEvents interface [COM+],described, _dtc_IMtsEvents_Interface, comsvcs/IMtsEvents, cos.imtsevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IMtsEvents"
+f1_keywords:
+- comsvcs/IMtsEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsEvents
+- IMtsEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

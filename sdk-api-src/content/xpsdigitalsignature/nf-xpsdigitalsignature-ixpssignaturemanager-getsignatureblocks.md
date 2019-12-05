@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatureBlocks
 title: IXpsSignatureManager::GetSignatureBlocks (xpsdigitalsignature.h)
-
 description: Gets a pointer to an IXpsSignatureBlockCollection interface that contains a collection of signature blocks.
 old-location: xps\ixpssignaturemanager_getsignatureblocks.htm
 tech.root: printdocs
 ms.assetid: 6f7ba22f-7c3b-47bf-8cb5-2e4e4a548dc2
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureBlocks, GetSignatureBlocks method [XPS Documents and Packaging], GetSignatureBlocks method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],GetSignatureBlocks method, IXpsSignatureManager.GetSignatureBlocks, IXpsSignatureManager::GetSignatureBlocks, xps.ixpssignaturemanager_getsignatureblocks, xpsdigitalsignature/IXpsSignatureManager::GetSignatureBlocks
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager.GetSignatureBlocks"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager.GetSignatureBlocks
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.GetSignatureBlocks
+- IXpsSignatureManager.GetSignatureBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

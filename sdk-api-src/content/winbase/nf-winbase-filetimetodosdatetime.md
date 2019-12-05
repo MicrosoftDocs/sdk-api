@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FileTimeToDosDateTime
 title: FileTimeToDosDateTime function (winbase.h)
-
 description: Converts a file time to MS-DOS date and time values.
 old-location: base\filetimetodosdatetime.htm
 tech.root: SysInfo
 ms.assetid: 7295da08-02f0-4390-862f-cf4267b69230
-
 ms.date: 12/05/2018
 ms.keywords: FileTimeToDosDateTime, FileTimeToDosDateTime function, _win32_filetimetodosdatetime, base.filetimetodosdatetime, winbase/FileTimeToDosDateTime
 ms.topic: function
-f1_keywords: 
- - "winbase/FileTimeToDosDateTime"
+f1_keywords:
+- winbase/FileTimeToDosDateTime
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - FileTimeToDosDateTime
+- FileTimeToDosDateTime
 targetos: Windows
 req.typenames: 
 req.redist: 

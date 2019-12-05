@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerInqBindings
 title: RpcServerInqBindings function (rpcdce.h)
-
 description: The RpcServerInqBindings function returns the binding handles over which remote procedure calls can be received.
 old-location: rpc\rpcserverinqbindings.htm
 tech.root: Rpc
 ms.assetid: 96f081ab-6210-4ca0-a913-182477463981
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqBindings, RpcServerInqBindings function [RPC], _rpc_rpcserverinqbindings, rpc.rpcserverinqbindings, rpcdce/RpcServerInqBindings
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerInqBindings"
+f1_keywords:
+- rpcdce/RpcServerInqBindings
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInqBindings
+- RpcServerInqBindings
 targetos: Windows
 req.typenames: 
 req.redist: 

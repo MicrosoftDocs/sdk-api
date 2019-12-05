@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentClassName
 title: IUIAutomationElement::get_CurrentClassName (uiautomationclient.h)
-
 description: Retrieves the class name of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentClassName.htm
 tech.root: WinAuto
 ms.assetid: df019800-7467-48ef-8c16-0cb8c8d05ed5
-
 ms.date: 12/05/2018
 ms.keywords: CurrentClassName property [Windows Accessibility], CurrentClassName property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentClassName property, IUIAutomationElement.CurrentClassName, IUIAutomationElement.get_CurrentClassName, IUIAutomationElement::CurrentClassName, IUIAutomationElement::get_CurrentClassName, get_CurrentClassName, uiauto.uiauto_IUIAutomationElement_CurrentClassName, uiauto_IUIAutomationElement_CurrentClassName, uiautomationclient/IUIAutomationElement::CurrentClassName, uiautomationclient/IUIAutomationElement::get_CurrentClassName, winauto.uiauto_IUIAutomationElement_CurrentClassName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentClassName"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentClassName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentClassName
- - IUIAutomationElement.get_CurrentClassName
+- IUIAutomationElement.CurrentClassName
+- IUIAutomationElement.get_CurrentClassName
 targetos: Windows
 req.typenames: 
 req.redist: 

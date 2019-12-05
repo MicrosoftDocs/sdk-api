@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAutomationPropertyChangedEvent
 title: UiaRaiseAutomationPropertyChangedEvent function (uiautomationcoreapi.h)
-
 description: Called by providers to notify the Microsoft UI Automation core that an element property has changed.
 old-location: winauto\uiauto_RaiseAutoPropChangedEventFunction.htm
 tech.root: WinAuto
 ms.assetid: ec9da198-eb1d-4883-9b5c-539c92bd530b
-
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseAutomationPropertyChangedEvent, UiaRaiseAutomationPropertyChangedEvent function [Windows Accessibility], uiauto.uiauto_RaiseAutoPropChangedEventFunction, uiauto_RaiseAutoPropChangedEventFunction, uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent, winauto.uiauto_RaiseAutoPropChangedEventFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent"
+f1_keywords:
+- uiautomationcoreapi/UiaRaiseAutomationPropertyChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaRaiseAutomationPropertyChangedEvent
+- UiaRaiseAutomationPropertyChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

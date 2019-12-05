@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.AttachThreadInput
 title: AttachThreadInput function (winuser.h)
-
 description: Attaches or detaches the input processing mechanism of one thread to that of another thread.
 old-location: base\attachthreadinput.htm
 tech.root: ProcThread
 ms.assetid: 0c343fab-56ae-4c70-a79e-0c5f827158a3
-
 ms.date: 12/05/2018
 ms.keywords: AttachThreadInput, AttachThreadInput function, _win32_attachthreadinput, base.attachthreadinput, winuser/AttachThreadInput
 ms.topic: function
-f1_keywords: 
- - "winuser/AttachThreadInput"
+f1_keywords:
+- winuser/AttachThreadInput
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - AttachThreadInput
+- AttachThreadInput
 targetos: Windows
 req.typenames: 
 req.redist: 

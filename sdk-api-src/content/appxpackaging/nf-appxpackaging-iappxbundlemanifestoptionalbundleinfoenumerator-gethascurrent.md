@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
 title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent (appxpackaging.h)
-
 description: Determines whether there is optional bundle information at the current position of the enumerator.
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: C7473291-89EA-4412-848E-07257C0AC0FB
-
 ms.date: 12/05/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
+- IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.MFCreateSinkWriterFromURL
 title: MFCreateSinkWriterFromURL function (mfreadwrite.h)
-
 description: Creates the sink writer from a URL or byte stream.
 old-location: mf\mfcreatesinkwriterfromurl.htm
 tech.root: medfound
 ms.assetid: ac6a30c7-5e44-453a-8114-8d7d65332024
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSinkWriterFromURL, MFCreateSinkWriterFromURL function [Media Foundation], mf.mfcreatesinkwriterfromurl, mfreadwrite/MFCreateSinkWriterFromURL
 ms.topic: function
-f1_keywords: 
- - "mfreadwrite/MFCreateSinkWriterFromURL"
+f1_keywords:
+- mfreadwrite/MFCreateSinkWriterFromURL
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfreadwrite.lib
 req.dll: Mfreadwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfreadwrite.dll
+- mfreadwrite.dll
 api_name:
- - MFCreateSinkWriterFromURL
+- MFCreateSinkWriterFromURL
 targetos: Windows
 req.typenames: 
 req.redist: 

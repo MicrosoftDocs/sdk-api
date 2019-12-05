@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.InsertAt
 title: IXpsOMGradientStopCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMGradientStop interface pointer at a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_insertat.htm
 tech.root: printdocs
 ms.assetid: b5ab5db8-ad94-4949-9d74-bddef3f29895
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGradientStopCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMGradientStopCollection.InsertAt, IXpsOMGradientStopCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, xps.ixpsomgradientstopcollection_insertat, xpsobjectmodel/IXpsOMGradientStopCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStopCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStopCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStopCollection.InsertAt
+- IXpsOMGradientStopCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

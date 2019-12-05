@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.WMCreateIndexer
 title: WMCreateIndexer function (wmsdkidl.h)
-
 description: The WMCreateIndexer function creates an indexer object.
 old-location: wmformat\wmcreateindexer.htm
 tech.root: wmformat
 ms.assetid: 08f83923-ed33-41d2-b7f8-d70627197b31
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateIndexer, WMCreateIndexer function [windows Media Format], wmformat.wmcreateindexer, wmsdkidl/WMCreateIndexer
 ms.topic: function
-f1_keywords: 
- - "wmsdkidl/WMCreateIndexer"
+f1_keywords:
+- wmsdkidl/WMCreateIndexer
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wmvcore.dll
+- Wmvcore.dll
 api_name:
- - WMCreateIndexer
+- WMCreateIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 

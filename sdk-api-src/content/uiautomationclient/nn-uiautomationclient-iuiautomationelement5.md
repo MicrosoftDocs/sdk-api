@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement5
 title: IUIAutomationElement5 (uiautomationclient.h)
-
 description: Extends the IUIAutomationElement4 interface to provide access to current and cached landmark data.
 old-location: winauto\uiauto_IUIAutomationElement5.htm
 tech.root: WinAuto
 ms.assetid: 9E3DE7EE-E569-4AE6-8A55-C9CDB28C51E5
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationElement5, IUIAutomationElement5 interface [Windows Accessibility], IUIAutomationElement5 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationElement5, winauto.uiauto_IUIAutomationElement5
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement5"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement5
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement5
+- IUIAutomationElement5
 targetos: Windows
 req.typenames: 
 req.redist: 

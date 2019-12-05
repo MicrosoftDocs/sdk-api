@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Next
 title: IEnumChangeUnitExceptions::Next (winsync.h)
-
 description: Returns the next elements in the change unit exception set, if they are available.
 old-location: winsync\ienumchangeunitexceptions_next.htm
 tech.root: winsync
 ms.assetid: 97bf473d-4e63-4192-a5d8-b802d5887a55
-
 ms.date: 12/05/2018
 ms.keywords: IEnumChangeUnitExceptions interface [Windows Sync],Next method, IEnumChangeUnitExceptions.Next, IEnumChangeUnitExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumChangeUnitExceptions interface, winsync.ienumchangeunitexceptions_next, winsync/IEnumChangeUnitExceptions::Next
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumChangeUnitExceptions.Next"
+f1_keywords:
+- winsync/IEnumChangeUnitExceptions.Next
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumChangeUnitExceptions.Next
+- IEnumChangeUnitExceptions.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

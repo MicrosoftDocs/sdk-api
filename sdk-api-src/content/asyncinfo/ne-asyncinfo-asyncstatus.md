@@ -1,19 +1,17 @@
 ---
 UID: NE:asyncinfo.AsyncStatus
 title: AsyncStatus (asyncinfo.h)
-
 description: Represents the status for an asynchronous operation.
 old-location: winrt\asyncstatus.htm
 tech.root: WinRT
 ms.assetid: 085BF8A1-087F-4B01-8A20-69730BA603B1
-
 ms.date: 12/05/2018
 ms.keywords: AsyncStatus, AsyncStatus enumeration [Windows Runtime], Cancelled, Completed, Created, Error, Started, asyncinfo/AsyncStatus, asyncinfo/Cancelled, asyncinfo/Completed, asyncinfo/Created, asyncinfo/Error, asyncinfo/Started, winrt.asyncstatus
 ms.topic: enum
-f1_keywords: 
- - "asyncinfo/AsyncStatus"
+f1_keywords:
+- asyncinfo/AsyncStatus
 dev_langs:
- - c++
+- c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AsyncInfo.h
+- AsyncInfo.h
 api_name:
- - AsyncStatus
+- AsyncStatus
 targetos: Windows
 req.typenames: AsyncStatus
 req.redist: 

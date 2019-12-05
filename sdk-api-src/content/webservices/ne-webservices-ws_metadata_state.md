@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_103
 title: WS_METADATA_STATE (webservices.h)
-
 description: The state of the metadata object.
 old-location: wsw\ws_metadata_state.htm
 tech.root: wsw
 ms.assetid: 4d2b8c31-d5ff-4b96-9aaf-57e59d075431
-
 ms.date: 12/05/2018
 ms.keywords: WS_METADATA_STATE, WS_METADATA_STATE enumeration [Web Services for Windows], WS_METADATA_STATE_CREATED, WS_METADATA_STATE_FAULTED, WS_METADATA_STATE_RESOLVED, webservices/WS_METADATA_STATE, webservices/WS_METADATA_STATE_CREATED, webservices/WS_METADATA_STATE_FAULTED, webservices/WS_METADATA_STATE_RESOLVED, wsw.ws_metadata_state
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_METADATA_STATE"
+f1_keywords:
+- webservices/WS_METADATA_STATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_METADATA_STATE
+- WS_METADATA_STATE
 targetos: Windows
 req.typenames: WS_METADATA_STATE
 req.redist: 

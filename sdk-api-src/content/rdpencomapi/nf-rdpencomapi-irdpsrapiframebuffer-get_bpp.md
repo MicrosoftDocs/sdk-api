@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIFrameBuffer.get_Bpp
 title: IRDPSRAPIFrameBuffer::get_Bpp (rdpencomapi.h)
-
 description: The bits per pixel for the frame buffer.
 old-location: rdp\irdpsrapiframebuffer_bpp.htm
 tech.root: rdp
 ms.assetid: 864e7669-fc33-4473-9106-d436d6900bf2
-
 ms.date: 12/05/2018
 ms.keywords: Bpp property [RDP], Bpp property [RDP],IRDPSRAPIFrameBuffer interface, IRDPSRAPIFrameBuffer interface [RDP],Bpp property, IRDPSRAPIFrameBuffer.Bpp, IRDPSRAPIFrameBuffer.get_Bpp, IRDPSRAPIFrameBuffer::Bpp, IRDPSRAPIFrameBuffer::get_Bpp, get_Bpp, rdp.irdpsrapiframebuffer_bpp, rdpencomapi/IRDPSRAPIFrameBuffer::Bpp, rdpencomapi/IRDPSRAPIFrameBuffer::get_Bpp
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIFrameBuffer.Bpp"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIFrameBuffer.Bpp
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIFrameBuffer.Bpp
- - IRDPSRAPIFrameBuffer.get_Bpp
+- IRDPSRAPIFrameBuffer.Bpp
+- IRDPSRAPIFrameBuffer.get_Bpp
 targetos: Windows
 req.typenames: 
 req.redist: 

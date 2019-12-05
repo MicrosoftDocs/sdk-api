@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.InsertAt(int,LPCWSTR,int)
 title: CHStringArray::InsertAt (chstrarr.h)
-
 description: The InsertAt method inserts an element (or multiple copies of an element) or all the elements of another array at a specified index.
 old-location: wmi\insertat_method_in_class_chstringarray.htm
 tech.root: WmiSdk
 ms.assetid: 1d6355bc-7df2-4aa3-8e47-0239d726ed7d
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray.InsertAt, CHStringArray::InsertAt, CHStringArray::InsertAt methods [Windows Management Instrumentation], InsertAt, chstrarr/CHStringArray::InsertAt, wmi.insertat_method_in_class_chstringarray
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray::InsertAt"
+f1_keywords:
+- chstrarr/CHStringArray::InsertAt
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray::InsertAt
+- CHStringArray::InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

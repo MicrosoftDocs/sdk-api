@@ -1,19 +1,17 @@
 ---
 UID: NE:objidlbase._APTTYPEQUALIFIER
 title: APTTYPEQUALIFIER (objidlbase.h)
-
 description: Specifies the set of possible COM apartment type qualifiers.
 old-location: com\apttypequalifier.htm
 tech.root: com
 ms.assetid: ac28076d-d266-4939-b6c1-d56494ffbcd8
-
 ms.date: 12/05/2018
 ms.keywords: APTTYPEQUALIFIER, APTTYPEQUALIFIER enumeration [COM], APTTYPEQUALIFIER_IMPLICIT_MTA, APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA, APTTYPEQUALIFIER_NA_ON_MAINSTA, APTTYPEQUALIFIER_NA_ON_MTA, APTTYPEQUALIFIER_NA_ON_STA, APTTYPEQUALIFIER_NONE, com.apttypequalifier, objidlbase/APTTYPEQUALIFIER, objidlbase/APTTYPEQUALIFIER_IMPLICIT_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_IMPLICIT_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_MAINSTA, objidlbase/APTTYPEQUALIFIER_NA_ON_MTA, objidlbase/APTTYPEQUALIFIER_NA_ON_STA, objidlbase/APTTYPEQUALIFIER_NONE
 ms.topic: enum
-f1_keywords: 
- - "objidlbase/APTTYPEQUALIFIER"
+f1_keywords:
+- objidlbase/APTTYPEQUALIFIER
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - APTTYPEQUALIFIER
+- APTTYPEQUALIFIER
 targetos: Windows
 req.typenames: APTTYPEQUALIFIER
 req.redist: 

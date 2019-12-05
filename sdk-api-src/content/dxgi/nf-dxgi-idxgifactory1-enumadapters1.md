@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIFactory1.EnumAdapters1
 title: IDXGIFactory1::EnumAdapters1 (dxgi.h)
-
 description: Enumerates both adapters (video cards) with or without outputs.
 old-location: direct3ddxgi\idxgifactory1_enumadapters1.htm
 tech.root: direct3ddxgi
 ms.assetid: 351b7b2d-abb7-449e-bee2-eea96fef3b9d
-
 ms.date: 12/05/2018
 ms.keywords: 0a909fb2-9d08-a479-d85f-14de8ba21f69, EnumAdapters1, EnumAdapters1 method [DXGI], EnumAdapters1 method [DXGI],IDXGIFactory1 interface, IDXGIFactory1 interface [DXGI],EnumAdapters1 method, IDXGIFactory1.EnumAdapters1, IDXGIFactory1::EnumAdapters1, direct3ddxgi.idxgifactory1_enumadapters1, dxgi/IDXGIFactory1::EnumAdapters1
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIFactory1.EnumAdapters1"
+f1_keywords:
+- dxgi/IDXGIFactory1.EnumAdapters1
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIFactory1.EnumAdapters1
+- IDXGIFactory1.EnumAdapters1
 targetos: Windows
 req.typenames: 
 req.redist: 

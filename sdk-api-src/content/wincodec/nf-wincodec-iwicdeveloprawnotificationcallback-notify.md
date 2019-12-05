@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRawNotificationCallback.Notify
 title: IWICDevelopRawNotificationCallback::Notify (wincodec.h)
-
 description: An application-defined callback method used for raw image parameter change notifications.
 old-location: wic\_wic_codec_iwicdeveloprawnotificationcallback_notify.htm
 tech.root: wic
 ms.assetid: a91fb8e8-a4f4-4a6d-87d0-00bf2ef205e6
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRawNotificationCallback interface [Windows Imaging Component],Notify method, IWICDevelopRawNotificationCallback.Notify, IWICDevelopRawNotificationCallback::Notify, Notify, Notify method [Windows Imaging Component], Notify method [Windows Imaging Component],IWICDevelopRawNotificationCallback interface, _wic_codec_iwicdeveloprawnotificationcallback_notify, wic._wic_codec_iwicdeveloprawnotificationcallback_notify, wincodec/IWICDevelopRawNotificationCallback::Notify
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRawNotificationCallback.Notify"
+f1_keywords:
+- wincodec/IWICDevelopRawNotificationCallback.Notify
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRawNotificationCallback.Notify
+- IWICDevelopRawNotificationCallback.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoProcAmp.Set
 title: IAMVideoProcAmp::Set (strmif.h)
-
 description: The Set method sets video quality for a specified property.
 old-location: dshow\iamvideoprocamp_set.htm
 tech.root: DirectShow
 ms.assetid: 18826377-ddf7-4c36-8995-43310ea077dd
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoProcAmp interface [DirectShow],Set method, IAMVideoProcAmp.Set, IAMVideoProcAmp::Set, IAMVideoProcAmpSet, Set, Set method [DirectShow], Set method [DirectShow],IAMVideoProcAmp interface, dshow.iamvideoprocamp_set, strmif/IAMVideoProcAmp::Set
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoProcAmp.Set"
+f1_keywords:
+- strmif/IAMVideoProcAmp.Set
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoProcAmp.Set
+- IAMVideoProcAmp.Set
 targetos: Windows
 req.typenames: 
 req.redist: 

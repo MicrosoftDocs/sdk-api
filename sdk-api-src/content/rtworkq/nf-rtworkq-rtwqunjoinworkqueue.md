@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqUnjoinWorkQueue
 title: RtwqUnjoinWorkQueue function (rtworkq.h)
-
 description: Disassociates a work queue from an input/output (I/O) handle.
 old-location: base\rtwqunjoinworkqueue.htm
 tech.root: ProcThread
 ms.assetid: 360f595a-ee9b-4979-a763-6d7cbf31d2ea
-
 ms.date: 12/05/2018
 ms.keywords: RtwqUnjoinWorkQueue, RtwqUnjoinWorkQueue function, base.rtwqunjoinworkqueue, rtworkq/RtwqUnjoinWorkQueue
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqUnjoinWorkQueue"
+f1_keywords:
+- rtworkq/RtwqUnjoinWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqUnjoinWorkQueue
+- RtwqUnjoinWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

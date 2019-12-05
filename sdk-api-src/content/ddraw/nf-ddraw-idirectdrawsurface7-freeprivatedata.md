@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.FreePrivateData
 title: IDirectDrawSurface7::FreePrivateData (ddraw.h)
-
 description: Frees the specified private data that is associated with this surface.
 old-location: directdraw\idirectdrawsurface7_freeprivatedata.htm
 tech.root: directdraw
 ms.assetid: 66d3f701-735c-4dca-b7b6-47a17d63c23e
-
 ms.date: 12/05/2018
 ms.keywords: FreePrivateData, FreePrivateData method [DirectDraw], FreePrivateData method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],FreePrivateData method, IDirectDrawSurface7.FreePrivateData, IDirectDrawSurface7::FreePrivateData, ddraw/IDirectDrawSurface7::FreePrivateData, directdraw.idirectdrawsurface7_freeprivatedata
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.FreePrivateData"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.FreePrivateData
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.FreePrivateData
+- IDirectDrawSurface7.FreePrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

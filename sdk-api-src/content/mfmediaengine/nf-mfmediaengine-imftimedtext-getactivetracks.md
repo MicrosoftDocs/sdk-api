@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetActiveTracks
 title: IMFTimedText::GetActiveTracks (mfmediaengine.h)
-
 description: Gets the list of active timed-text tracks in the timed-text component.
 old-location: mf\imftimedtext_getactivetracks.htm
 tech.root: medfound
 ms.assetid: DF9EEFD2-E699-4251-9769-D1F940938D45
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveTracks, GetActiveTracks method [Media Foundation], GetActiveTracks method [Media Foundation],IMFTimedText interface, IMFTimedText interface [Media Foundation],GetActiveTracks method, IMFTimedText.GetActiveTracks, IMFTimedText::GetActiveTracks, mf.imftimedtext_getactivetracks, mfmediaengine/IMFTimedText::GetActiveTracks
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.GetActiveTracks"
+f1_keywords:
+- mfmediaengine/IMFTimedText.GetActiveTracks
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedText.GetActiveTracks
+- IMFTimedText.GetActiveTracks
 targetos: Windows
 req.typenames: 
 req.redist: 

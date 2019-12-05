@@ -3,14 +3,13 @@ UID: NS:directxmath.XMFLOAT4A
 title: XMFLOAT4A
 description: Describes an XMFLOAT4 structure aligned on a 16-byte boundary.
 ms.assetid: 1cb0c521-3494-4bad-b6c4-3fbe029034f3
-
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT4A
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/XMFLOAT4A"
+f1_keywords:
+- directxmath/XMFLOAT4A
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -28,13 +27,13 @@ req.typenames:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - XMFLOAT4A
+- XMFLOAT4A
 ---
 
 # XMFLOAT4A structure

@@ -1,19 +1,17 @@
 ---
 UID: NE:sensorsapi.LOCATION_DESIRED_ACCURACY
 title: LOCATION_DESIRED_ACCURACY (sensorsapi.h)
-
 description: The LOCATION_DESIRED_ACCURACY enumeration type defines values for the SENSOR_PROPERTY_LOCATION_DESIRED_ACCURACY property.
 old-location: sensors\location_desired_accuracy.htm
 tech.root: sensors
 ms.assetid: 21eefb20-b5ad-43c7-a1aa-92731c856363
-
 ms.date: 12/05/2018
 ms.keywords: LOCATION_DESIRED_ACCURACY, LOCATION_DESIRED_ACCURACY enumeration [Sensor Devices], LOCATION_DESIRED_ACCURACY_DEFAULT, LOCATION_DESIRED_ACCURACY_HIGH, Sensor_Enums_a794ec29-a465-4d6a-b32e-c5eb890c95ae.xml, sensors.location_desired_accuracy, sensorsapi/LOCATION_DESIRED_ACCURACY, sensorsapi/LOCATION_DESIRED_ACCURACY_DEFAULT, sensorsapi/LOCATION_DESIRED_ACCURACY_HIGH
 ms.topic: enum
-f1_keywords: 
- - "sensorsapi/LOCATION_DESIRED_ACCURACY"
+f1_keywords:
+- sensorsapi/LOCATION_DESIRED_ACCURACY
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SensorsApi.h
+- SensorsApi.h
 api_name:
- - LOCATION_DESIRED_ACCURACY
+- LOCATION_DESIRED_ACCURACY
 targetos: Windows
 req.typenames: LOCATION_DESIRED_ACCURACY
 req.redist: 

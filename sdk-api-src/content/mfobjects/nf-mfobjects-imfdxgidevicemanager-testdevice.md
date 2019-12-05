@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.TestDevice
 title: IMFDXGIDeviceManager::TestDevice (mfobjects.h)
-
 description: Tests whether a Microsoft Direct3D device handle is valid.
 old-location: mf\imfdxgidevicemanager_testdevice.htm
 tech.root: medfound
 ms.assetid: DBBECFE0-110D-4A77-88D4-7D6AB8B2A67C
-
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager interface [Media Foundation],TestDevice method, IMFDXGIDeviceManager.TestDevice, IMFDXGIDeviceManager::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IMFDXGIDeviceManager interface, mf.imfdxgidevicemanager_testdevice, mfobjects/IMFDXGIDeviceManager::TestDevice
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFDXGIDeviceManager.TestDevice"
+f1_keywords:
+- mfobjects/IMFDXGIDeviceManager.TestDevice
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFDXGIDeviceManager.TestDevice
+- IMFDXGIDeviceManager.TestDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTableItemPattern
 title: IUIAutomationTableItemPattern (uiautomationclient.h)
-
 description: Provides access to a child element in a container that supports IUIAutomationTablePattern.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern.htm
 tech.root: WinAuto
 ms.assetid: 8e9948ec-7c31-45dd-ac9f-e9eafed9d2db
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTableItemPattern, IUIAutomationTableItemPattern interface [Windows Accessibility], IUIAutomationTableItemPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTableItemPattern, uiauto_IUIAutomationTableItemPattern, uiautomationclient/IUIAutomationTableItemPattern, winauto.uiauto_IUIAutomationTableItemPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTableItemPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationTableItemPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTableItemPattern
+- IUIAutomationTableItemPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

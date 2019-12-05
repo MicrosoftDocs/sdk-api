@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptDeleteContext
 title: BCryptDeleteContext function (bcrypt.h)
-
 description: Deletes an existing CNG configuration context.
 old-location: security\bcryptdeletecontext.htm
 tech.root: SecCNG
 ms.assetid: 6a250bed-0ea4-4cae-86e6-f0cea95dc56e
-
 ms.date: 12/05/2018
 ms.keywords: BCryptDeleteContext, BCryptDeleteContext function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptDeleteContext, security.bcryptdeletecontext
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptDeleteContext"
+f1_keywords:
+- bcrypt/BCryptDeleteContext
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptDeleteContext
+- BCryptDeleteContext
 targetos: Windows
 req.typenames: 
 req.redist: 

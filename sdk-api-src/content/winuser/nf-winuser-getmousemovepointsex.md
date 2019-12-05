@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetMouseMovePointsEx
 title: GetMouseMovePointsEx function (winuser.h)
-
 description: Retrieves a history of up to 64 previous coordinates of the mouse or pen.
 old-location: inputdev\getmousemovepointsex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\getmousemovepointsex.htm
-
 ms.date: 12/05/2018
 ms.keywords: GMMP_USE_DISPLAY_POINTS, GMMP_USE_HIGH_RESOLUTION_POINTS, GetMouseMovePointsEx, GetMouseMovePointsEx function [Keyboard and Mouse Input], _win32_GetMouseMovePointsEx, _win32_getmousemovepointsex_cpp, inputdev.getmousemovepointsex, winui._win32_getmousemovepointsex, winuser/GetMouseMovePointsEx
 ms.topic: function
-f1_keywords: 
- - "winuser/GetMouseMovePointsEx"
+f1_keywords:
+- winuser/GetMouseMovePointsEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetMouseMovePointsEx
+- GetMouseMovePointsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

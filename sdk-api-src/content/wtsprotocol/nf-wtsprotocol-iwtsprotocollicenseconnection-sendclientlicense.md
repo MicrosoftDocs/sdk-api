@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.SendClientLicense
 title: IWTSProtocolLicenseConnection::SendClientLicense (wtsprotocol.h)
-
 description: IWTSProtocolLicenseConnection::SendClientLicense is no longer available. Instead, use IWRdsProtocolLicenseConnection::SendClientLicense.
 old-location: termserv\iwtsprotocollicenseconnection_sendclientlicense.htm
 tech.root: TermServ
 ms.assetid: cafd23ed-2085-4d58-a9b1-1918995fa09c
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolLicenseConnection interface [Remote Desktop Services],SendClientLicense method, IWTSProtocolLicenseConnection.SendClientLicense, IWTSProtocolLicenseConnection::SendClientLicense, SendClientLicense, SendClientLicense method [Remote Desktop Services], SendClientLicense method [Remote Desktop Services],IWTSProtocolLicenseConnection interface, termserv.iwtsprotocollicenseconnection_sendclientlicense, wtsprotocol/IWTSProtocolLicenseConnection::SendClientLicense
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolLicenseConnection.SendClientLicense"
+f1_keywords:
+- wtsprotocol/IWTSProtocolLicenseConnection.SendClientLicense
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWTSProtocolLicenseConnection.SendClientLicense
+- IWTSProtocolLicenseConnection.SendClientLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

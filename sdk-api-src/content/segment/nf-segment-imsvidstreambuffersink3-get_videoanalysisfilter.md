@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_VideoAnalysisFilter
 title: IMSVidStreamBufferSink3::get_VideoAnalysisFilter (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_videoanalysisfilter.htm
 tech.root: mstv
 ms.assetid: 4f4080d3-4092-4a36-9e2e-5a53bffe9ee3
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_VideoAnalysisFilter method, IMSVidStreamBufferSink3.get_VideoAnalysisFilter, IMSVidStreamBufferSink3::get_VideoAnalysisFilter, IMSVidStreamBufferSink3get_VideoAnalysisFilter, get_VideoAnalysisFilter, get_VideoAnalysisFilter method [Microsoft TV Technologies], get_VideoAnalysisFilter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_videoanalysisfilter, segment/IMSVidStreamBufferSink3::get_VideoAnalysisFilter
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink3.get_VideoAnalysisFilter"
+f1_keywords:
+- segment/IMSVidStreamBufferSink3.get_VideoAnalysisFilter
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink3.get_VideoAnalysisFilter
+- IMSVidStreamBufferSink3.get_VideoAnalysisFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

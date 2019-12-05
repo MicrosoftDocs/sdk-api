@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowInboundRouterRequest
 title: INetFwIcmpSettings::get_AllowInboundRouterRequest (netfw.h)
-
 description: Indicates whether this is allowed.
 old-location: ics\inetfwicmpsettings_allowinboundrouterrequest.htm
 tech.root: ics
 ms.assetid: 26d9b17c-808d-4d01-921a-9ac435f327db
-
 ms.date: 12/05/2018
 ms.keywords: AllowInboundRouterRequest property [ICS/ICF], AllowInboundRouterRequest property [ICS/ICF],INetFwIcmpSettings interface, INetFwIcmpSettings interface [ICS/ICF],AllowInboundRouterRequest property, INetFwIcmpSettings.AllowInboundRouterRequest, INetFwIcmpSettings.get_AllowInboundRouterRequest, INetFwIcmpSettings::AllowInboundRouterRequest, INetFwIcmpSettings::get_AllowInboundRouterRequest, INetFwIcmpSettings::put_AllowInboundRouterRequest, get_AllowInboundRouterRequest, ics.inetfwicmpsettings_allowinboundrouterrequest, netfw/INetFwIcmpSettings::AllowInboundRouterRequest, netfw/INetFwIcmpSettings::get_AllowInboundRouterRequest, netfw/INetFwIcmpSettings::put_AllowInboundRouterRequest
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwIcmpSettings.AllowInboundRouterRequest"
+f1_keywords:
+- netfw/INetFwIcmpSettings.AllowInboundRouterRequest
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings.AllowInboundRouterRequest
- - INetFwIcmpSettings.get_AllowInboundRouterRequest
- - INetFwIcmpSettings.put_AllowInboundRouterRequest
+- INetFwIcmpSettings.AllowInboundRouterRequest
+- INetFwIcmpSettings.get_AllowInboundRouterRequest
+- INetFwIcmpSettings.put_AllowInboundRouterRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

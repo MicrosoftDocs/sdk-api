@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetDashStyle
 title: Pen::SetDashStyle (gdipluspen.h)
-
 description: The Pen::SetDashStyle method sets the dash style for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashStyle_dashStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashstyle.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetDashStyle method, Pen.SetDashStyle, Pen::SetDashStyle, SetDashStyle, SetDashStyle method [GDI+], SetDashStyle method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashStyle_dashStyle_, gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetDashStyle"
+f1_keywords:
+- gdipluspen/Pen.SetDashStyle
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetDashStyle
+- Pen.SetDashStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

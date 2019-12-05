@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider2.get_ZoomLevel
 title: ITransformProvider2::get_ZoomLevel (uiautomationcore.h)
-
 description: Retrieves the current zoom level of the element.
 old-location: winauto\uiauto_itransformprovider2_zoomlevel.htm
 tech.root: WinAuto
 ms.assetid: AFC38A55-C2E4-4E5A-AD52-AE0CE96F86AC
-
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2 interface [Windows Accessibility],ZoomLevel property, ITransformProvider2.ZoomLevel, ITransformProvider2.get_ZoomLevel, ITransformProvider2::ZoomLevel, ITransformProvider2::get_ZoomLevel, ZoomLevel property [Windows Accessibility], ZoomLevel property [Windows Accessibility],ITransformProvider2 interface, get_ZoomLevel, uiautomationcore/ITransformProvider2::ZoomLevel, uiautomationcore/ITransformProvider2::get_ZoomLevel, winauto.uiauto_itransformprovider2_zoomlevel
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITransformProvider2.ZoomLevel"
+f1_keywords:
+- uiautomationcore/ITransformProvider2.ZoomLevel
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITransformProvider2.ZoomLevel
- - ITransformProvider2.get_ZoomLevel
+- ITransformProvider2.ZoomLevel
+- ITransformProvider2.get_ZoomLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

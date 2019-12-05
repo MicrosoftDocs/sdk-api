@@ -1,19 +1,17 @@
 ---
 UID: NN:wsddisco.IWSDiscoveredService
 title: IWSDiscoveredService (wsddisco.h)
-
 description: This interface represents a remotely discovered host.
 old-location: ncd\iwsdiscoveredservice.htm
 tech.root: WsdApi
 ms.assetid: 6516098a-e440-4dec-b275-165ea3072d49
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveredService, IWSDiscoveredService interface, IWSDiscoveredService interface,described, ncd.iwsdiscoveredservice, wsddisco/IWSDiscoveredService
 ms.topic: interface
-f1_keywords: 
- - "wsddisco/IWSDiscoveredService"
+f1_keywords:
+- wsddisco/IWSDiscoveredService
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveredService
+- IWSDiscoveredService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.InEmergencyMode
 title: IMbnInterface::InEmergencyMode (mbnapi.h)
-
 description: Determines whether the device is in emergency mode.
 old-location: mbn\imbninterface_inemergencymode.htm
 tech.root: mbn
 ms.assetid: b4ce2c10-627d-4cbe-a884-7bb8731c3bcf
-
 ms.date: 12/05/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],InEmergencyMode method, IMbnInterface.InEmergencyMode, IMbnInterface::InEmergencyMode, InEmergencyMode, InEmergencyMode method [Microsoft Broadband Networks], InEmergencyMode method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_inemergencymode, mbnapi/IMbnInterface::InEmergencyMode
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.InEmergencyMode"
+f1_keywords:
+- mbnapi/IMbnInterface.InEmergencyMode
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.InEmergencyMode
+- IMbnInterface.InEmergencyMode
 targetos: Windows
 req.typenames: 
 req.redist: 

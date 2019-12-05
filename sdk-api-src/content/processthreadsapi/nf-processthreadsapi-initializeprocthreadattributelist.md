@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.InitializeProcThreadAttributeList
 title: InitializeProcThreadAttributeList function (processthreadsapi.h)
-
 description: Initializes the specified list of attributes for process and thread creation.
 old-location: base\initializeprocthreadattributelist.htm
 tech.root: ProcThread
 ms.assetid: 58ce70a1-5b73-429f-a062-bacd9b9c5bc8
-
 ms.date: 12/05/2018
 ms.keywords: InitializeProcThreadAttributeList, InitializeProcThreadAttributeList function, base.initializeprocthreadattributelist, processthreadsapi/InitializeProcThreadAttributeList, winbase/InitializeProcThreadAttributeList
 ms.topic: function
 f1_keywords:
 - processthreadsapi/InitializeProcThreadAttributeList
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows

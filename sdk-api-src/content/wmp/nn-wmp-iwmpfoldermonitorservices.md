@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPFolderMonitorServices
 title: IWMPFolderMonitorServices (wmp.h)
-
 description: The IWMPFolderMonitorServices interface is deprecated.The IWMPFolderMonitorServices interface provides methods to enumerate, scan, and modify file folders that Windows Media Player monitors for digital media content.To use this interface, you must create a remoted instance of the Windows Media Player 11 control. For more information about remoting, see Remoting the Windows Media Player Control.
 old-location: wmp\iwmpfoldermonitorservices.htm
 tech.root: WMP
 ms.assetid: 42c3b03c-f8f8-4219-91e1-da54a175fb24
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices, IWMPFolderMonitorServices interface [Windows Media Player], IWMPFolderMonitorServices interface [Windows Media Player],described, IWMPFolderMonitorServicesInterface, wmp.iwmpfoldermonitorservices, wmp/IWMPFolderMonitorServices
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPFolderMonitorServices
+- IWMPFolderMonitorServices
 targetos: Windows
 req.typenames: 
 req.redist: 

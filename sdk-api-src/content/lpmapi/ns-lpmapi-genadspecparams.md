@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_31
 title: GenAdspecParams (lpmapi.h)
-
 description: The GenAdspecParams structure contains general path characterization parameters.
 old-location: qos\genadspecparams.htm
 tech.root: QOS
 ms.assetid: 0d980286-bce6-483e-b2a1-117c7280c1c1
-
 ms.date: 12/05/2018
 ms.keywords: GenAdspecParams, GenAdspecParams structure [QOS], lpmapi/GenAdspecParams, qos.genadspecparams
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/GenAdspecParams"
+f1_keywords:
+- lpmapi/GenAdspecParams
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - GenAdspecParams
+- GenAdspecParams
 targetos: Windows
 req.typenames: GenAdspecParams
 req.redist: 

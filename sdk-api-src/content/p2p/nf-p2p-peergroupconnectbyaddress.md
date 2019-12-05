@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupConnectByAddress
 title: PeerGroupConnectByAddress function (p2p.h)
-
 description: Attempts to connect to the peer group that other peers with known IPv6 addresses are participating in.
 old-location: p2p\peergroupconnectbyaddress.htm
 tech.root: P2PSdk
 ms.assetid: 44885110-fcb1-402a-86c6-1229b087165b
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupConnectByAddress, PeerGroupConnectByAddress function [Peer Networking], p2p.peergroupconnectbyaddress, p2p/PeerGroupConnectByAddress
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupConnectByAddress"
+f1_keywords:
+- p2p/PeerGroupConnectByAddress
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupConnectByAddress
+- PeerGroupConnectByAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

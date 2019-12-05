@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2ReciprocalLength
 title: XMVector2ReciprocalLength function (directxmath.h)
-
 description: Computes the reciprocal of the length of a 2D vector.
 old-location: dxmath\xmvector2reciprocallength.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2ReciprocalLength(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2ReciprocalLength, XMVector2ReciprocalLength, XMVector2ReciprocalLength method [DirectX Math Support APIs], dxmath.xmvector2reciprocallength
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2ReciprocalLength"
+f1_keywords:
+- directxmath/XMVector2ReciprocalLength
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2ReciprocalLength
+- XMVector2ReciprocalLength
 targetos: Windows
 req.typenames: 
 req.redist: 

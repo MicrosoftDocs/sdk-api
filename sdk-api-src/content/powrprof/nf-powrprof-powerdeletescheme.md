@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerDeleteScheme
 title: PowerDeleteScheme function (powrprof.h)
-
 description: Deletes the specified power scheme from the database.
 old-location: base\powerdeletescheme.htm
 tech.root: power
 ms.assetid: 5f9969a1-e598-4ca8-a5b8-f8bb3410223d
-
 ms.date: 12/05/2018
 ms.keywords: PowerDeleteScheme, PowerDeleteScheme function, base.powerdeletescheme, powrprof/PowerDeleteScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerDeleteScheme"
+f1_keywords:
+- powrprof/PowerDeleteScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerDeleteScheme
+- PowerDeleteScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcommon.D3D_FEATURE_LEVEL
 title: D3D_FEATURE_LEVEL (d3dcommon.h)
-
 description: Describes the set of features targeted by a Direct3D device.
 old-location: direct3d11\d3d_feature_level.htm
 tech.root: direct3d11
 ms.assetid: afbc1a02-1730-4502-af15-b668412d664c
-
 ms.date: 12/05/2018
 ms.keywords: 8da2f171-7790-4f89-b422-ce3f6be0762e, D3D_FEATURE_LEVEL, D3D_FEATURE_LEVEL enumeration [Direct3D 11], D3D_FEATURE_LEVEL_10_0, D3D_FEATURE_LEVEL_10_1, D3D_FEATURE_LEVEL_11_0, D3D_FEATURE_LEVEL_11_1, D3D_FEATURE_LEVEL_12_0, D3D_FEATURE_LEVEL_12_1, D3D_FEATURE_LEVEL_9_1, D3D_FEATURE_LEVEL_9_2, D3D_FEATURE_LEVEL_9_3, d3dcommon/D3D_FEATURE_LEVEL, d3dcommon/D3D_FEATURE_LEVEL_10_0, d3dcommon/D3D_FEATURE_LEVEL_10_1, d3dcommon/D3D_FEATURE_LEVEL_11_0, d3dcommon/D3D_FEATURE_LEVEL_11_1, d3dcommon/D3D_FEATURE_LEVEL_12_0, d3dcommon/D3D_FEATURE_LEVEL_12_1, d3dcommon/D3D_FEATURE_LEVEL_9_1, d3dcommon/D3D_FEATURE_LEVEL_9_2, d3dcommon/D3D_FEATURE_LEVEL_9_3, direct3d11.d3d_feature_level
 ms.topic: enum
-f1_keywords: 
- - "d3dcommon/D3D_FEATURE_LEVEL"
+f1_keywords:
+- d3dcommon/D3D_FEATURE_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3DCommon.h
+- D3DCommon.h
 api_name:
- - D3D_FEATURE_LEVEL
+- D3D_FEATURE_LEVEL
 targetos: Windows
 req.typenames: D3D_FEATURE_LEVEL
 req.redist: 

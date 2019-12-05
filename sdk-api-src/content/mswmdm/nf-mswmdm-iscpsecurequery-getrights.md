@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.GetRights
 title: ISCPSecureQuery::GetRights (mswmdm.h)
-
 description: The GetRights method retrieves rights information for the current piece of content. Rights are file-specific.
 old-location: wmdm\iscpsecurequery_getrights.htm
 tech.root: WMDM
 ms.assetid: 3d9991f4-ce20-45c4-a408-d7a846b019ef
-
 ms.date: 12/05/2018
 ms.keywords: GetRights, GetRights method [windows Media Device Manager], GetRights method [windows Media Device Manager],ISCPSecureQuery interface, ISCPSecureQuery interface [windows Media Device Manager],GetRights method, ISCPSecureQuery.GetRights, ISCPSecureQuery::GetRights, ISCPSecureQueryGetRights, mswmdm/ISCPSecureQuery::GetRights, wmdm.iscpsecurequery_getrights
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureQuery.GetRights"
+f1_keywords:
+- mswmdm/ISCPSecureQuery.GetRights
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureQuery.GetRights
+- ISCPSecureQuery.GetRights
 targetos: Windows
 req.typenames: 
 req.redist: 

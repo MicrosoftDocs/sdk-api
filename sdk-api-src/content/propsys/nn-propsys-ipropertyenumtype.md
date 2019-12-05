@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyEnumType
 title: IPropertyEnumType (propsys.h)
-
 description: Exposes methods that extract data from enumeration information. IPropertyEnumType gives access to the enum and enumRange elements in the property schema in a programmatic way at run time.
 old-location: properties\IPropertyEnumType.htm
 tech.root: properties
 ms.assetid: 05ae6763-a3e1-461d-af90-08bddbe82300
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyEnumType, IPropertyEnumType interface [Windows Properties], IPropertyEnumType interface [Windows Properties],described, _shell_IPropertyEnumType, properties.IPropertyEnumType, propsys/IPropertyEnumType, shell.IPropertyEnumType
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyEnumType"
+f1_keywords:
+- propsys/IPropertyEnumType
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyEnumType
+- IPropertyEnumType
 targetos: Windows
 req.typenames: 
 req.redist: 

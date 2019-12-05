@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextSelection.GetType
 title: ITextSelection::GetType (tom.h)
-
 description: Gets the type of text selection.
 old-location: controls\ITextSelection_GetType.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Windows Controls], GetType method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],GetType method, ITextSelection.GetType, ITextSelection::GetType, _win32_ITextSelection_GetType, _win32_ITextSelection_GetType_cpp, controls.ITextSelection_GetType, controls._win32_ITextSelection_GetType, tom/ITextSelection::GetType
 ms.topic: method
-f1_keywords: 
- - "tom/ITextSelection.GetType"
+f1_keywords:
+- tom/ITextSelection.GetType
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextSelection.GetType
+- ITextSelection.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

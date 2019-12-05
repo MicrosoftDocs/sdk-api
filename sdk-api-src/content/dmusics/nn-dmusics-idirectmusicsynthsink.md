@@ -1,19 +1,17 @@
 ---
 UID: NN:dmusics.IDirectMusicSynthSink
 title: IDirectMusicSynthSink (dmusics.h)
-
 description: The IDirectMusicSynthSink interface is now largely obsolete and is supported only by versions of DirectMusic before DirectX 8.
 old-location: audio\idirectmusicsynthsink.htm
 tech.root: audio
 ms.assetid: 11944933-cd95-4979-82b2-2c3875b221b3
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink, IDirectMusicSynthSink interface [Audio Devices], IDirectMusicSynthSink interface [Audio Devices],described, audio.idirectmusicsynthsink, audmp-routines_9b9d541e-f841-40e1-8962-d93ec6650465.xml, dmusics/IDirectMusicSynthSink
 ms.topic: interface
-f1_keywords: 
- - "dmusics/IDirectMusicSynthSink"
+f1_keywords:
+- dmusics/IDirectMusicSynthSink
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynthSink
+- IDirectMusicSynthSink
 targetos: Windows
 req.typenames: 
 req.redist: 

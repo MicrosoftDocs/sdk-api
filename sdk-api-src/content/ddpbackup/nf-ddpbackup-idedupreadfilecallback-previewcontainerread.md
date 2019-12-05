@@ -1,19 +1,17 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.PreviewContainerRead
 title: IDedupReadFileCallback::PreviewContainerRead (ddpbackup.h)
-
 description: Provides the application with a preview of the sequence of reads that are pending for a given container file extent.
 old-location: dedup\idedupreadfilecallback_previewcontainerread.htm
 tech.root: dedup
 ms.assetid: A3AFB530-ED97-4BEC-BF9D-668115E36A36
-
 ms.date: 12/05/2018
 ms.keywords: IDedupReadFileCallback interface [Data Deduplication API],PreviewContainerRead method, IDedupReadFileCallback.PreviewContainerRead, IDedupReadFileCallback::PreviewContainerRead, PreviewContainerRead, PreviewContainerRead method [Data Deduplication API], PreviewContainerRead method [Data Deduplication API],IDedupReadFileCallback interface, ddpbackup/IDedupReadFileCallback::PreviewContainerRead, dedup.idedupreadfilecallback_previewcontainerread
 ms.topic: method
 f1_keywords:
 - ddpbackup/IDedupReadFileCallback.PreviewContainerRead
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows

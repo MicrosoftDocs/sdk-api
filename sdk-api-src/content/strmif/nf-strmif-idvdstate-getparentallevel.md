@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdState.GetParentalLevel
 title: IDvdState::GetParentalLevel (strmif.h)
-
 description: The GetParentalLevel method retrieves the user's parental level as saved in the DvdState object.
 old-location: dshow\idvdstate_getparentallevel.htm
 tech.root: DirectShow
 ms.assetid: f87c128f-d751-4593-ac26-3249b803bbe4
-
 ms.date: 12/05/2018
 ms.keywords: GetParentalLevel, GetParentalLevel method [DirectShow], GetParentalLevel method [DirectShow],IDvdState interface, IDvdState interface [DirectShow],GetParentalLevel method, IDvdState.GetParentalLevel, IDvdState::GetParentalLevel, IDvdStateGetParentalLevel, dshow.idvdstate_getparentallevel, strmif/IDvdState::GetParentalLevel
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdState.GetParentalLevel"
+f1_keywords:
+- strmif/IDvdState.GetParentalLevel
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdState.GetParentalLevel
+- IDvdState.GetParentalLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

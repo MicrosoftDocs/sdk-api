@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_READY
 title: MF_MEDIA_ENGINE_READY (mfmediaengine.h)
-
 description: Defines ready-state values for the Media Engine.
 old-location: mf\mf_media_engine_ready.htm
 tech.root: medfound
 ms.assetid: ADA5BBD6-B831-4C19-8770-318F0C5FDD6F
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_READY, MF_MEDIA_ENGINE_READY enumeration [Media Foundation], MF_MEDIA_ENGINE_READY_HAVE_CURRENT_DATA, MF_MEDIA_ENGINE_READY_HAVE_ENOUGH_DATA, MF_MEDIA_ENGINE_READY_HAVE_FUTURE_DATA, MF_MEDIA_ENGINE_READY_HAVE_METADATA, MF_MEDIA_ENGINE_READY_HAVE_NOTHING, mf.mf_media_engine_ready, mfmediaengine/MF_MEDIA_ENGINE_READY, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_CURRENT_DATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_ENOUGH_DATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_FUTURE_DATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_METADATA, mfmediaengine/MF_MEDIA_ENGINE_READY_HAVE_NOTHING
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_READY"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_READY
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_READY
+- MF_MEDIA_ENGINE_READY
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_READY
 req.redist: 

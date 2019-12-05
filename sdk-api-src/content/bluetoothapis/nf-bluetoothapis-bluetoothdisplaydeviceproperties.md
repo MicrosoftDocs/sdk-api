@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothDisplayDeviceProperties
 title: BluetoothDisplayDeviceProperties function (bluetoothapis.h)
-
 description: Starts Control Panel device information property sheet.
 old-location: bluetooth\bluetoothdisplaydeviceproperties.htm
 tech.root: bluetooth
 ms.assetid: cb33cf35-eb1e-4953-a779-4eb38afe0c34
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothDisplayDeviceProperties, BluetoothDisplayDeviceProperties function [Bluetooth], bluetooth.bluetoothdisplaydeviceproperties, bluetoothapis/BluetoothDisplayDeviceProperties
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothDisplayDeviceProperties"
+f1_keywords:
+- bluetoothapis/BluetoothDisplayDeviceProperties
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
+- Bthprops.dll
 api_name:
- - BluetoothDisplayDeviceProperties
+- BluetoothDisplayDeviceProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

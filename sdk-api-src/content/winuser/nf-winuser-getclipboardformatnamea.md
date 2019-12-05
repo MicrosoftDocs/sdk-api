@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetClipboardFormatNameA
 title: GetClipboardFormatNameA function (winuser.h)
-
 description: Retrieves from the clipboard the name of the specified registered format. The function copies the name to the specified buffer.
 old-location: dataxchg\getclipboardformatname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardformatname.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClipboardFormatName, GetClipboardFormatName function [Data Exchange], GetClipboardFormatNameA, GetClipboardFormatNameW, _win32_GetClipboardFormatName, _win32_getclipboardformatname_cpp, dataxchg.getclipboardformatname, winui._win32_getclipboardformatname, winuser/GetClipboardFormatName, winuser/GetClipboardFormatNameA, winuser/GetClipboardFormatNameW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetClipboardFormatName"
+f1_keywords:
+- winuser/GetClipboardFormatName
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,27 +30,27 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Misc-l1-1-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-clipboard-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Misc-l1-1-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- api-ms-win-ntuser-ie-clipboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - GetClipboardFormatName
- - GetClipboardFormatNameA
- - GetClipboardFormatNameW
+- GetClipboardFormatName
+- GetClipboardFormatNameA
+- GetClipboardFormatNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

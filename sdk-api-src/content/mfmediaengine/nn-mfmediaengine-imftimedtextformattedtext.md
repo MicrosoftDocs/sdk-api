@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextFormattedText
 title: IMFTimedTextFormattedText (mfmediaengine.h)
-
 description: Represents a block of formatted timed-text.
 old-location: mf\imftimedtextformattedtext.htm
 tech.root: medfound
 ms.assetid: 98327CA2-21C4-481F-B979-12C31AA1E7B2
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextFormattedText, IMFTimedTextFormattedText interface [Media Foundation], IMFTimedTextFormattedText interface [Media Foundation],described, mf.imftimedtextformattedtext, mfmediaengine/IMFTimedTextFormattedText
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextFormattedText"
+f1_keywords:
+- mfmediaengine/IMFTimedTextFormattedText
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextFormattedText
+- IMFTimedTextFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: 

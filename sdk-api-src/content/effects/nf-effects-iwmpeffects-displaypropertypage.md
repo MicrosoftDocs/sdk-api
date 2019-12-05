@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects.DisplayPropertyPage
 title: IWMPEffects::DisplayPropertyPage (effects.h)
-
 description: The DisplayPropertyPage method displays the property page of a visualization, if it exists.
 old-location: wmp\iwmpeffects_displaypropertypage.htm
 tech.root: WMP
 ms.assetid: dadde782-577d-4dcb-b8ae-2f6ddca77a40
-
 ms.date: 12/05/2018
 ms.keywords: DisplayPropertyPage, DisplayPropertyPage method [Windows Media Player], DisplayPropertyPage method [Windows Media Player],IWMPEffects interface, EffectsDisplayPropertyPage, IWMPEffects interface [Windows Media Player],DisplayPropertyPage method, IWMPEffects.DisplayPropertyPage, IWMPEffects::DisplayPropertyPage, effects/IWMPEffects::DisplayPropertyPage, wmp.iwmpeffects_displaypropertypage
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects.DisplayPropertyPage"
+f1_keywords:
+- effects/IWMPEffects.DisplayPropertyPage
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects.DisplayPropertyPage
+- IWMPEffects.DisplayPropertyPage
 targetos: Windows
 req.typenames: 
 req.redist: 

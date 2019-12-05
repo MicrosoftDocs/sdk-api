@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.SetDescription
 title: IWMProfile::SetDescription (wmsdkidl.h)
-
 description: The SetDescription method specifies the description of a profile. The description is a string that contains an explanation of what the profile should be used for.
 old-location: wmformat\iwmprofile_setdescription.htm
 tech.root: wmformat
 ms.assetid: 79ff6ba8-b94b-4c06-a7a5-18b6a8ebc222
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],SetDescription method, IWMProfile.SetDescription, IWMProfile2 interface [windows Media Format],SetDescription method, IWMProfile2::SetDescription, IWMProfile3 interface [windows Media Format],SetDescription method, IWMProfile3::SetDescription, IWMProfile::SetDescription, IWMProfileSetDescription, SetDescription, SetDescription method [windows Media Format], SetDescription method [windows Media Format],IWMProfile interface, SetDescription method [windows Media Format],IWMProfile2 interface, SetDescription method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_setdescription, wmsdkidl/IWMProfile2::SetDescription, wmsdkidl/IWMProfile3::SetDescription, wmsdkidl/IWMProfile::SetDescription
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.SetDescription"
+f1_keywords:
+- wmsdkidl/IWMProfile.SetDescription
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.SetDescription
- - IWMProfile2.SetDescription
- - IWMProfile3.SetDescription
+- IWMProfile.SetDescription
+- IWMProfile2.SetDescription
+- IWMProfile3.SetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasClearConnectionStatistics
 title: RasClearConnectionStatistics function (ras.h)
-
 description: The RasClearConnectionStatistics functions clears any accumulated statistics for the specified RAS connection.
 old-location: rras\rasclearconnectionstatistics.htm
 tech.root: RRAS
 ms.assetid: b5c87ecd-4f21-46b5-91a3-41706907157a
-
 ms.date: 12/05/2018
 ms.keywords: RasClearConnectionStatistics, RasClearConnectionStatistics function [RAS], _ras_rasclearconnectionstatistics, ras/RasClearConnectionStatistics, rras.rasclearconnectionstatistics
 ms.topic: function
 f1_keywords:
 - ras/RasClearConnectionStatistics
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows

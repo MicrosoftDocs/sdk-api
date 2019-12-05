@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IPNET_TABLE2
 title: MIB_IPNET_TABLE2 (netioapi.h)
-
 description: Contains a table of neighbor IP address entries.
 old-location: mib\mib_ipnet_table2.htm
 tech.root: MIB
 ms.assetid: 39b87d81-69ce-4f9b-8af6-5e0c5051657c
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPNET_TABLE2, MIB_IPNET_TABLE2, MIB_IPNET_TABLE2 structure [MIB], PMIB_IPNET_TABLE2, PMIB_IPNET_TABLE2 structure pointer [MIB], _MIB_IPNET_TABLE2, mib.mib_ipnet_table2, netioapi/MIB_IPNET_TABLE2, netioapi/PMIB_IPNET_TABLE2"
+ms.keywords: '*PMIB_IPNET_TABLE2, MIB_IPNET_TABLE2, MIB_IPNET_TABLE2 structure [MIB], PMIB_IPNET_TABLE2, PMIB_IPNET_TABLE2 structure pointer [MIB], _MIB_IPNET_TABLE2, mib.mib_ipnet_table2, netioapi/MIB_IPNET_TABLE2, netioapi/PMIB_IPNET_TABLE2'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IPNET_TABLE2"
+f1_keywords:
+- netioapi/MIB_IPNET_TABLE2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IPNET_TABLE2
+- MIB_IPNET_TABLE2
 targetos: Windows
 req.typenames: MIB_IPNET_TABLE2, *PMIB_IPNET_TABLE2
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetPrimitiveTopology
 title: ID3D12GraphicsCommandList::IASetPrimitiveTopology (d3d12.h)
-
 description: Bind information about the primitive type, and data order that describes input data for the input assembler stage.
 old-location: direct3d12\id3d12graphicscommandlist_iasetprimitivetopology.htm
 tech.root: direct3d12
 ms.assetid: 743C48DF-C67E-48A0-B027-B2776E65968F
-
 ms.date: 12/05/2018
 ms.keywords: IASetPrimitiveTopology, IASetPrimitiveTopology method, IASetPrimitiveTopology method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetPrimitiveTopology method, ID3D12GraphicsCommandList.IASetPrimitiveTopology, ID3D12GraphicsCommandList::IASetPrimitiveTopology, d3d12/ID3D12GraphicsCommandList::IASetPrimitiveTopology, direct3d12.id3d12graphicscommandlist_iasetprimitivetopology
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.IASetPrimitiveTopology"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.IASetPrimitiveTopology
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.IASetPrimitiveTopology
+- ID3D12GraphicsCommandList.IASetPrimitiveTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

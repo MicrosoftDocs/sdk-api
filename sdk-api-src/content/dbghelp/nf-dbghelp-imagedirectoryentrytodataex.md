@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.ImageDirectoryEntryToDataEx
 title: ImageDirectoryEntryToDataEx function (dbghelp.h)
-
 description: Locates a directory entry within the image header and returns the address of the data for the directory entry. This function returns the section header for the data located, if one exists.
 old-location: base\imagedirectoryentrytodataex.htm
 tech.root: Debug
 ms.assetid: b768a89e-c3bc-43f8-b3be-7e9d99e3504c
-
 ms.date: 12/05/2018
 ms.keywords: IMAGE_DIRECTORY_ENTRY_ARCHITECTURE, IMAGE_DIRECTORY_ENTRY_BASERELOC, IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT, IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR, IMAGE_DIRECTORY_ENTRY_DEBUG, IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT, IMAGE_DIRECTORY_ENTRY_EXCEPTION, IMAGE_DIRECTORY_ENTRY_EXPORT, IMAGE_DIRECTORY_ENTRY_GLOBALPTR, IMAGE_DIRECTORY_ENTRY_IAT, IMAGE_DIRECTORY_ENTRY_IMPORT, IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG, IMAGE_DIRECTORY_ENTRY_RESOURCE, IMAGE_DIRECTORY_ENTRY_SECURITY, IMAGE_DIRECTORY_ENTRY_TLS, ImageDirectoryEntryToDataEx, ImageDirectoryEntryToDataEx function, _win32_imagedirectoryentrytodataex, base.imagedirectoryentrytodataex, dbghelp/ImageDirectoryEntryToDataEx
 ms.topic: function
 f1_keywords:
 - dbghelp/ImageDirectoryEntryToDataEx
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

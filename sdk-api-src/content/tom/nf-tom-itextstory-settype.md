@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStory.SetType
 title: ITextStory::SetType (tom.h)
-
 description: Sets the story type.
 old-location: controls\itextstory_settype.htm
 tech.root: Controls
 ms.assetid: b1fda663-cbfa-4972-bc40-004b82631f92
-
 ms.date: 12/05/2018
 ms.keywords: ITextStory interface [Windows Controls],SetType method, ITextStory.SetType, ITextStory::SetType, SetType, SetType method [Windows Controls], SetType method [Windows Controls],ITextStory interface, controls.itextstory_settype, tom/ITextStory::SetType
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStory.SetType"
+f1_keywords:
+- tom/ITextStory.SetType
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tom.h
+- tom.h
 api_name:
- - ITextStory.SetType
+- ITextStory.SetType
 targetos: Windows
 req.typenames: 
 req.redist: 

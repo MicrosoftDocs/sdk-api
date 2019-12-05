@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Contains(const BoundingOrientedBox &)
 title: BoundingFrustum::Contains(const BoundingOrientedBox &)
-
 description: Tests whether the BoundingFrustum contains the specified BoundingOrientedBox.
 old-location: dxmath\boundingfrustum_contains_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Contains(BoundingOrientedBox)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingFrustum interface [DirectX Math Support APIs],Contains method, BoundingFrustum.Contains, BoundingFrustum.Contains(const BoundingOrientedBox &), BoundingFrustum.Contains(const BoundingOrientedBox&), BoundingFrustum::Contains, BoundingFrustum::Contains(const BoundingOrientedBox &), Contains, Contains method [DirectX Math Support APIs], Contains method [DirectX Math Support APIs],BoundingFrustum interface, dxmath.boundingfrustum_contains_4
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingFrustum.Contains"
+f1_keywords:
+- directxcollision/BoundingFrustum.Contains
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingFrustum.Contains
+- BoundingFrustum.Contains
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionContextEx.Abort
 title: ITransactionContextEx::Abort (comsvcs.h)
-
 description: Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
 old-location: cos\itransactioncontextex_abort.htm
 tech.root: cossdk
 ms.assetid: 78f9169f-ecb3-4774-bd28-b1ba83c0838c
-
 ms.date: 12/05/2018
 ms.keywords: Abort, Abort method [COM+], Abort method [COM+],ITransactionContextEx interface, ITransactionContextEx interface [COM+],Abort method, ITransactionContextEx.Abort, ITransactionContextEx::Abort, _cos_ITransactionContextEx_Abort, comsvcs/ITransactionContextEx::Abort, cos.itransactioncontextex_abort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionContextEx.Abort"
+f1_keywords:
+- comsvcs/ITransactionContextEx.Abort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionContextEx.Abort
+- ITransactionContextEx.Abort
 targetos: Windows
 req.typenames: 
 req.redist: 

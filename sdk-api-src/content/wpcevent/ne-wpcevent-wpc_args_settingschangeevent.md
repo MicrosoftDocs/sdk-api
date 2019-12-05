@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_SETTINGSCHANGEEVENT
 title: WPC_ARGS_SETTINGSCHANGEEVENT (wpcevent.h)
-
 description: Indicates information about the changes to settings being made by a user.
 old-location: parcon\wpc_args_settingschangeevent.htm
 tech.root: parcon
 ms.assetid: 6a933661-cf6d-4904-8e11-cd8e2bade5f0
-
 ms.date: 12/05/2018
 ms.keywords: WPC_ARGS_SETTINGSCHANGEEVENT, WPC_ARGS_SETTINGSCHANGEEVENT enumeration, WPC_ARGS_SETTINGSCHANGEEVENT_CARGS, WPC_ARGS_SETTINGSCHANGEEVENT_CLASS, WPC_ARGS_SETTINGSCHANGEEVENT_NEWVAL, WPC_ARGS_SETTINGSCHANGEEVENT_OLDVAL, WPC_ARGS_SETTINGSCHANGEEVENT_OPTIONAL, WPC_ARGS_SETTINGSCHANGEEVENT_OWNER, WPC_ARGS_SETTINGSCHANGEEVENT_REASON, WPC_ARGS_SETTINGSCHANGEEVENT_SETTING, parcon.wpc_args_settingschangeevent, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_CARGS, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_CLASS, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_NEWVAL, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_OLDVAL, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_OPTIONAL, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_OWNER, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_REASON, wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT_SETTING
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT"
+f1_keywords:
+- wpcevent/WPC_ARGS_SETTINGSCHANGEEVENT
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPC_ARGS_SETTINGSCHANGEEVENT
+- WPC_ARGS_SETTINGSCHANGEEVENT
 targetos: Windows
 req.typenames: WPC_ARGS_SETTINGSCHANGEEVENT
 req.redist: 

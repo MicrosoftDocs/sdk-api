@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileGroupImported
 title: IFsrmFileGroupImported (fsrmscreen.h)
-
 description: Used to configure imported file group objects.
 old-location: fsrm\ifsrmfilegroupimported.htm
 tech.root: fsrm
 ms.assetid: fb4f6b03-01cc-4855-8bc7-de5191068040
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroupImported, IFsrmFileGroupImported interface [File Server Resource Manager], IFsrmFileGroupImported interface [File Server Resource Manager],described, fs.ifsrmfilegroupimported, fsrm.ifsrmfilegroupimported, fsrm/IFsrmFileGroupImported
 ms.topic: interface
-f1_keywords: 
- - "fsrmscreen/IFsrmFileGroupImported"
+f1_keywords:
+- fsrmscreen/IFsrmFileGroupImported
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileGroupImported
+- IFsrmFileGroupImported
 targetos: Windows
 req.typenames: 
 req.redist: 

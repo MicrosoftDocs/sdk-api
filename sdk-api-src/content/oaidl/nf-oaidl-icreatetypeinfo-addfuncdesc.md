@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddFuncDesc
 title: ICreateTypeInfo::AddFuncDesc (oaidl.h)
-
 description: Adds a function description to the type description.
 old-location: automat\icreatetypeinfo_addfuncdesc.htm
 tech.root: automat
 ms.assetid: f6816778-86f6-4e59-8eb2-444fd7bd6354
-
 ms.date: 12/05/2018
 ms.keywords: AddFuncDesc, AddFuncDesc method [Automation], AddFuncDesc method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddFuncDesc method, ICreateTypeInfo.AddFuncDesc, ICreateTypeInfo::AddFuncDesc, _oa96_ICreateTypeInfo_AddFuncDesc, automat.icreatetypeinfo_addfuncdesc, oaidl/ICreateTypeInfo::AddFuncDesc
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.AddFuncDesc"
+f1_keywords:
+- oaidl/ICreateTypeInfo.AddFuncDesc
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.AddFuncDesc
+- ICreateTypeInfo.AddFuncDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

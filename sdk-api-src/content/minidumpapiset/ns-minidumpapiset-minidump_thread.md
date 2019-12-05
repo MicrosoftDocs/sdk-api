@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD
 title: MINIDUMP_THREAD (minidumpapiset.h)
-
 description: Contains information for a specific thread.
 old-location: base\minidump_thread_str.htm
 tech.root: Debug
 ms.assetid: 07d4ba98-e74d-4f50-9afa-d09d93da3d6b
-
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_THREAD, MINIDUMP_THREAD, MINIDUMP_THREAD structure, PMINIDUMP_THREAD, PMINIDUMP_THREAD structure pointer, _MINIDUMP_THREAD, _win32_minidump_thread_str, base.minidump_thread_str, minidumpapiset/MINIDUMP_THREAD, minidumpapiset/PMINIDUMP_THREAD"
+ms.keywords: '*PMINIDUMP_THREAD, MINIDUMP_THREAD, MINIDUMP_THREAD structure, PMINIDUMP_THREAD, PMINIDUMP_THREAD structure pointer, _MINIDUMP_THREAD, _win32_minidump_thread_str, base.minidump_thread_str, minidumpapiset/MINIDUMP_THREAD, minidumpapiset/PMINIDUMP_THREAD'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_THREAD"
+f1_keywords:
+- minidumpapiset/MINIDUMP_THREAD
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_THREAD
+- MINIDUMP_THREAD
 targetos: Windows
 req.typenames: MINIDUMP_THREAD, *PMINIDUMP_THREAD
 req.redist: DbgHelp.dll 5.1 or later

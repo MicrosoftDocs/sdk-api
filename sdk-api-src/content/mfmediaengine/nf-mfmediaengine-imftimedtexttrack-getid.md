@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetId
 title: IMFTimedTextTrack::GetId (mfmediaengine.h)
-
 description: Gets the identifier of the track of timed text.
 old-location: mf\imftimedtexttrack_getid.htm
 tech.root: medfound
 ms.assetid: 0DDC7864-654E-416B-9EF5-4CD47244E8BE
-
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetId method, IMFTimedTextTrack.GetId, IMFTimedTextTrack::GetId, mf.imftimedtexttrack_getid, mfmediaengine/IMFTimedTextTrack::GetId
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrack.GetId"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrack.GetId
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrack.GetId
+- IMFTimedTextTrack.GetId
 targetos: Windows
 req.typenames: 
 req.redist: 

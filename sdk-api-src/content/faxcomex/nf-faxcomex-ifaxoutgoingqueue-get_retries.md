@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_Retries
 title: IFaxOutgoingQueue::get_Retries (faxcomex.h)
-
 description: The IFaxOutgoingQueue::get_Retries property is a value that indicates the number of times that the fax service attempts to retransmit an outgoing fax when the initial transmission fails.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9a9f.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],Retries property, IFaxOutgoingQueue.Retries, IFaxOutgoingQueue.get_Retries, IFaxOutgoingQueue.put_Retries, IFaxOutgoingQueue::Retries, IFaxOutgoingQueue::get_Retries, IFaxOutgoingQueue::put_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.retries, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_retries_cpp, fax._mfax_faxoutgoingqueue_retries, faxcomex/IFaxOutgoingQueue::Retries, faxcomex/IFaxOutgoingQueue::get_Retries, faxcomex/IFaxOutgoingQueue::put_Retries, get_Retries
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingQueue.Retries"
+f1_keywords:
+- faxcomex/IFaxOutgoingQueue.Retries
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.Retries
- - IFaxOutgoingQueue.get_Retries
- - IFaxOutgoingQueue.put_Retries
- - IFaxOutgoingQueue.get_Retries
- - IFaxOutgoingQueue.put_Retries
+- IFaxOutgoingQueue.Retries
+- IFaxOutgoingQueue.get_Retries
+- IFaxOutgoingQueue.put_Retries
+- IFaxOutgoingQueue.get_Retries
+- IFaxOutgoingQueue.put_Retries
 targetos: Windows
 req.typenames: 
 req.redist: 

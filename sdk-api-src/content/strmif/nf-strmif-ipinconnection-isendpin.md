@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPinConnection.IsEndPin
 title: IPinConnection::IsEndPin (strmif.h)
-
 description: The IsEndPin method indicates whether a reconnection search should end at this pin.
 old-location: dshow\ipinconnection_isendpin.htm
 tech.root: DirectShow
 ms.assetid: e078c952-2c3b-48cd-a898-ac2de9fc359a
-
 ms.date: 12/05/2018
 ms.keywords: IPinConnection interface [DirectShow],IsEndPin method, IPinConnection.IsEndPin, IPinConnection::IsEndPin, IPinConnectionIsEndPin, IsEndPin, IsEndPin method [DirectShow], IsEndPin method [DirectShow],IPinConnection interface, dshow.ipinconnection_isendpin, strmif/IPinConnection::IsEndPin
 ms.topic: method
-f1_keywords: 
- - "strmif/IPinConnection.IsEndPin"
+f1_keywords:
+- strmif/IPinConnection.IsEndPin
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPinConnection.IsEndPin
+- IPinConnection.IsEndPin
 targetos: Windows
 req.typenames: 
 req.redist: 

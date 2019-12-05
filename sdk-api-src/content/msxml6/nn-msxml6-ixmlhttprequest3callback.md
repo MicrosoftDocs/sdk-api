@@ -1,19 +1,17 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3Callback
 title: IXMLHTTPRequest3Callback (msxml6.h)
-
 description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest3 request of events that affect HTTP request and response processing.
 old-location: ixhr2\ixmlhttprequest3callback.htm
 tech.root: ixhr2
 ms.assetid: f745669a-a594-457d-ae6b-952a55576bae
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3Callback, IXMLHTTPRequest3Callback interface [XMLHttpRequest2], IXMLHTTPRequest3Callback interface [XMLHttpRequest2],described, ixhr2.ixmlhttprequest3callback, msxml6/IXMLHTTPRequest3Callback
 ms.topic: interface
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest3Callback"
+f1_keywords:
+- msxml6/IXMLHTTPRequest3Callback
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest3Callback
+- IXMLHTTPRequest3Callback
 targetos: Windows
 req.typenames: 
 req.redist: 

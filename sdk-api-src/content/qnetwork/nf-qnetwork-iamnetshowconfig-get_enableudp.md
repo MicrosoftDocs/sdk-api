@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableUDP
 title: IAMNetShowConfig::get_EnableUDP (qnetwork.h)
-
 description: The get_EnableUDP method queries whether UDP-based streaming is enabled.
 old-location: dshow\iamnetshowconfig_get_enableudp.htm
 tech.root: DirectShow
 ms.assetid: 95c689c9-34f6-49b2-bd3b-0f68a110c4f2
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableUDP method, IAMNetShowConfig.get_EnableUDP, IAMNetShowConfig::get_EnableUDP, IAMNetShowConfigget_EnableUDP, dshow.iamnetshowconfig_get_enableudp, get_EnableUDP, get_EnableUDP method [DirectShow], get_EnableUDP method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableUDP
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.get_EnableUDP"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.get_EnableUDP
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.get_EnableUDP
+- IAMNetShowConfig.get_EnableUDP
 targetos: Windows
 req.typenames: 
 req.redist: 

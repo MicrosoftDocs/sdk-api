@@ -1,19 +1,17 @@
 ---
 UID: NC:evntrace.PEVENT_CALLBACK
 title: PEVENT_CALLBACK (evntrace.h)
-
 description: Consumers implement this function to receive events from a session. The PEVENT_CALLBACK type defines a pointer to this callback function. EventCallback is a placeholder for the application-defined function name.
 old-location: etw\eventcallback.htm
 tech.root: ETW
 ms.assetid: 9312eaed-2997-4d44-952a-fcae3b262947
-
 ms.date: 12/05/2018
 ms.keywords: EventCallback, EventCallback callback function [ETW], PEVENT_CALLBACK, PEVENT_CALLBACK callback, _evt_eventcallback, base.eventcallback, etw.eventcallback, evntrace/EventCallback
 ms.topic: callback
-f1_keywords: 
- - "evntrace/EventCallback"
+f1_keywords:
+- evntrace/EventCallback
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - EventCallback
+- EventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

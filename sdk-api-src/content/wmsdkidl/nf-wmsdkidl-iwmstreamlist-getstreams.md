@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.GetStreams
 title: IWMStreamList::GetStreams (wmsdkidl.h)
-
 description: The GetStreams method retrieves an array of stream numbers that make up the list.
 old-location: wmformat\iwmstreamlist_getstreams.htm
 tech.root: wmformat
 ms.assetid: ef7e1141-284f-4570-8891-9f53b2da7229
-
 ms.date: 12/05/2018
 ms.keywords: GetStreams, GetStreams method [windows Media Format], GetStreams method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],GetStreams method, IWMStreamList.GetStreams, IWMStreamList::GetStreams, IWMStreamListGetStreams, wmformat.iwmstreamlist_getstreams, wmsdkidl/IWMStreamList::GetStreams
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamList.GetStreams"
+f1_keywords:
+- wmsdkidl/IWMStreamList.GetStreams
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamList.GetStreams
+- IWMStreamList.GetStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

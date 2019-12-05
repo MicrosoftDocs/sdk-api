@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IEnumSTATSTG
 title: IEnumSTATSTG (objidl.h)
-
 description: Enumerates an array of STATSTG structures.
 old-location: stg\ienumstatstg.htm
 tech.root: Stg
 ms.assetid: 93b8b14e-94e4-460b-9846-413affad8e4f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATSTG, IEnumSTATSTG interface [Structured Storage], IEnumSTATSTG interface [Structured Storage],described, _stg_ienumstatstg, objidl/IEnumSTATSTG, stg.ienumstatstg
 ms.topic: interface
-f1_keywords: 
- - "objidl/IEnumSTATSTG"
+f1_keywords:
+- objidl/IEnumSTATSTG
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IEnumSTATSTG
+- IEnumSTATSTG
 targetos: Windows
 req.typenames: 
 req.redist: 

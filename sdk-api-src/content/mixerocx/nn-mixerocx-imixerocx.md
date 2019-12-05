@@ -1,19 +1,17 @@
 ---
 UID: NN:mixerocx.IMixerOCX
 title: IMixerOCX (mixerocx.h)
-
 description: The IMixerOCX interface is implemented on the Overlay Mixer.
 old-location: dshow\imixerocx.htm
 tech.root: DirectShow
 ms.assetid: b80d720d-921d-4d24-a168-49944cfcc411
-
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX, IMixerOCX interface [DirectShow], IMixerOCX interface [DirectShow],described, IMixerOCXInterface, dshow.imixerocx, mixerocx/IMixerOCX
 ms.topic: interface
-f1_keywords: 
- - "mixerocx/IMixerOCX"
+f1_keywords:
+- mixerocx/IMixerOCX
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCX
+- IMixerOCX
 targetos: Windows
 req.typenames: 
 req.redist: 

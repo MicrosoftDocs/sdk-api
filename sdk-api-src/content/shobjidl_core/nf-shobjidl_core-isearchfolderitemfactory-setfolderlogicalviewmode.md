@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetFolderLogicalViewMode
 title: ISearchFolderItemFactory::SetFolderLogicalViewMode (shobjidl_core.h)
-
 description: Sets folder logical view mode. The default settings are based on the FolderTypeID which is set by the ISearchFolderItemFactory::SetFolderTypeID method.
 old-location: shell\ISearchFolderItemFactory_SetFolderLogicalViewMode.htm
 tech.root: shell
 ms.assetid: ef72f196-cfd5-4547-85cb-0ccfdc496c46
-
 ms.date: 12/05/2018
 ms.keywords: ISearchFolderItemFactory interface [Windows Shell],SetFolderLogicalViewMode method, ISearchFolderItemFactory.SetFolderLogicalViewMode, ISearchFolderItemFactory::SetFolderLogicalViewMode, SetFolderLogicalViewMode, SetFolderLogicalViewMode method [Windows Shell], SetFolderLogicalViewMode method [Windows Shell],ISearchFolderItemFactory interface, _shell_ISearchFolderItemFactory_SetFolderLogicalViewMode, shell.ISearchFolderItemFactory_SetFolderLogicalViewMode, shobjidl_core/ISearchFolderItemFactory::SetFolderLogicalViewMode
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ISearchFolderItemFactory.SetFolderLogicalViewMode"
+f1_keywords:
+- shobjidl_core/ISearchFolderItemFactory.SetFolderLogicalViewMode
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory.SetFolderLogicalViewMode
+- ISearchFolderItemFactory.SetFolderLogicalViewMode
 targetos: Windows
 req.typenames: 
 req.redist: 

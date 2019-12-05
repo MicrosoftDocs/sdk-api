@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPErrorItem
 title: IWMPErrorItem (wmp.h)
-
 description: The IWMPErrorItem interface provides a way to access error information.
 old-location: wmp\iwmperroritem.htm
 tech.root: WMP
 ms.assetid: 4675eebf-80d7-4412-b3f1-ec54b977db31
-
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem, IWMPErrorItem interface [Windows Media Player], IWMPErrorItem interface [Windows Media Player],described, IWMPErrorItemInterface, wmp.iwmperroritem, wmp/IWMPErrorItem
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPErrorItem"
+f1_keywords:
+- wmp/IWMPErrorItem
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPErrorItem
+- IWMPErrorItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsDisk2.SetSANMode
 title: IVdsDisk2::SetSANMode (vds.h)
-
 description: Sets the SAN mode of a disk to offline or online.
 old-location: base\ivdsdisk2_setsanmode.htm
 tech.root: VDS
 ms.assetid: 17bdb6f4-7d85-4aa6-b89b-a752332cc224
-
 ms.date: 12/05/2018
 ms.keywords: IVdsDisk2 interface,SetSANMode method, IVdsDisk2.SetSANMode, IVdsDisk2::SetSANMode, SetSANMode, SetSANMode method, SetSANMode method,IVdsDisk2 interface, base.ivdsdisk2_setsanmode, vds/IVdsDisk2::SetSANMode
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsDisk2.SetSANMode"
+f1_keywords:
+- vds/IVdsDisk2.SetSANMode
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDisk2.SetSANMode
+- IVdsDisk2.SetSANMode
 targetos: Windows
 req.typenames: 
 req.redist: 

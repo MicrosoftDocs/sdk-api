@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndSendString
 title: MCIWndSendString macro (vfw.h)
-
 description: The MCIWndSendString macro sends an MCI command in string form to the device associated with the MCIWnd window. You can use this macro or explicitly send the MCIWNDM_SENDSTRING message.
 old-location: multimedia\mciwndsendstring.htm
 tech.root: Multimedia
 ms.assetid: d73b087b-c697-470b-aa19-ca14d18ac430
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndSendString, MCIWndSendString macro [Windows Multimedia], _win32_MCIWndSendString, multimedia.mciwndsendstring, vfw/MCIWndSendString
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndSendString"
+f1_keywords:
+- vfw/MCIWndSendString
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndSendString
+- MCIWndSendString
 targetos: Windows
 req.typenames: 
 req.redist: 

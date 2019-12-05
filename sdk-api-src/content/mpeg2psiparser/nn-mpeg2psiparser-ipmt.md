@@ -1,19 +1,17 @@
 ---
 UID: NN:mpeg2psiparser.IPMT
 title: IPMT (mpeg2psiparser.h)
-
 description: The IPMT interface enables the client to get information from a program map table (PMT).
 old-location: mstv\ipmt.htm
 tech.root: mstv
 ms.assetid: 0dbd4cc3-5ef3-4c71-ba3f-149d5050ba24
-
 ms.date: 12/05/2018
 ms.keywords: IPMT, IPMT interface [Microsoft TV Technologies], IPMT interface [Microsoft TV Technologies],described, IPMTInterface, mpeg2psiparser/IPMT, mstv.ipmt
 ms.topic: interface
-f1_keywords: 
- - "mpeg2psiparser/IPMT"
+f1_keywords:
+- mpeg2psiparser/IPMT
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPMT
+- IPMT
 targetos: Windows
 req.typenames: 
 req.redist: 

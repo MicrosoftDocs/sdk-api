@@ -1,19 +1,17 @@
 ---
 UID: NS:iads._ADS_CASEIGNORE_LIST
 title: ADS_CASEIGNORE_LIST (iads.h)
-
 description: The ADS_CASEIGNORE_LIST structure is an ADSI representation of the Case Ignore List attribute syntax.
 old-location: adsi\ads_caseignore_list.htm
 tech.root: adsi
 ms.assetid: 448c4541-7478-44f3-9be3-f1200f83978a
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST structure [ADSI], PADS_CASEIGNORE_LIST, PADS_CASEIGNORE_LIST structure pointer [ADSI], _ds_ads_caseignore_list, adsi.ads__caseignore__list, adsi.ads_caseignore_list, iads/ADS_CASEIGNORE_LIST, iads/PADS_CASEIGNORE_LIST"
+ms.keywords: '*PADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST, ADS_CASEIGNORE_LIST structure [ADSI], PADS_CASEIGNORE_LIST, PADS_CASEIGNORE_LIST structure pointer [ADSI], _ds_ads_caseignore_list, adsi.ads__caseignore__list, adsi.ads_caseignore_list, iads/ADS_CASEIGNORE_LIST, iads/PADS_CASEIGNORE_LIST'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_CASEIGNORE_LIST"
+f1_keywords:
+- iads/ADS_CASEIGNORE_LIST
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_CASEIGNORE_LIST
+- ADS_CASEIGNORE_LIST
 targetos: Windows
 req.typenames: ADS_CASEIGNORE_LIST, *PADS_CASEIGNORE_LIST
 req.redist: 

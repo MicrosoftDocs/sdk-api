@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadCharsUtf8
 title: WsReadCharsUtf8 function (webservices.h)
-
 description: Reads a specified number of text characters from the reader and returns them encoded in UTF-8.
 old-location: wsw\wsreadcharsutf8.htm
 tech.root: wsw
 ms.assetid: 03326291-a61b-457b-80ca-dbe5bef6bf9d
-
 ms.date: 12/05/2018
 ms.keywords: WsReadCharsUtf8, WsReadCharsUtf8 function [Web Services for Windows], webservices/WsReadCharsUtf8, wsw.wsreadcharsutf8
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadCharsUtf8"
+f1_keywords:
+- webservices/WsReadCharsUtf8
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadCharsUtf8
+- WsReadCharsUtf8
 targetos: Windows
 req.typenames: 
 req.redist: 

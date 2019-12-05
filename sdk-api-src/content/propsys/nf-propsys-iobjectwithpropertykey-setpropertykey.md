@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IObjectWithPropertyKey.SetPropertyKey
 title: IObjectWithPropertyKey::SetPropertyKey (propsys.h)
-
 description: Sets the property key.
 old-location: shell\IObjectWithPropertyKey_SetPropertyKey.htm
 tech.root: shell
 ms.assetid: f7352fb0-7e6f-4145-bd5d-4ed3de0c9659
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithPropertyKey interface [Windows Shell],SetPropertyKey method, IObjectWithPropertyKey.SetPropertyKey, IObjectWithPropertyKey::SetPropertyKey, SetPropertyKey, SetPropertyKey method [Windows Shell], SetPropertyKey method [Windows Shell],IObjectWithPropertyKey interface, _shell_IObjectWithPropertyKey_SetPropertyKey, propsys/IObjectWithPropertyKey::SetPropertyKey, shell.IObjectWithPropertyKey_SetPropertyKey
 ms.topic: method
-f1_keywords: 
- - "propsys/IObjectWithPropertyKey.SetPropertyKey"
+f1_keywords:
+- propsys/IObjectWithPropertyKey.SetPropertyKey
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IObjectWithPropertyKey.SetPropertyKey
+- IObjectWithPropertyKey.SetPropertyKey
 targetos: Windows
 req.typenames: 
 req.redist: 

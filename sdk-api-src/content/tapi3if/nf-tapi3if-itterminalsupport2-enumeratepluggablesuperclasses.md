@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport2.EnumeratePluggableSuperclasses
 title: ITTerminalSupport2::EnumeratePluggableSuperclasses (tapi3if.h)
-
 description: The EnumeratePluggableSuperclasses method enumerates the pluggable terminal superclasses registered on the current system.
 old-location: tapi3\itterminalsupport2_enumeratepluggablesuperclasses.htm
 tech.root: Tapi
 ms.assetid: 5f1e8490-1b26-45e6-9f9a-e7ddcc840e90
-
 ms.date: 12/05/2018
 ms.keywords: EnumeratePluggableSuperclasses, EnumeratePluggableSuperclasses method [TAPI 2.2], EnumeratePluggableSuperclasses method [TAPI 2.2],ITTerminalSupport2 interface, ITTerminalSupport2 interface [TAPI 2.2],EnumeratePluggableSuperclasses method, ITTerminalSupport2.EnumeratePluggableSuperclasses, ITTerminalSupport2::EnumeratePluggableSuperclasses, _tapi3_itterminalsupport2_enumeratepluggablesuperclasses, tapi3.itterminalsupport2_enumeratepluggablesuperclasses, tapi3if/ITTerminalSupport2::EnumeratePluggableSuperclasses
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTerminalSupport2.EnumeratePluggableSuperclasses"
+f1_keywords:
+- tapi3if/ITTerminalSupport2.EnumeratePluggableSuperclasses
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminalSupport2.EnumeratePluggableSuperclasses
+- ITTerminalSupport2.EnumeratePluggableSuperclasses
 targetos: Windows
 req.typenames: 
 req.redist: 

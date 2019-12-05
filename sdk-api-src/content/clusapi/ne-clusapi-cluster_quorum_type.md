@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_QUORUM_TYPE
 title: CLUSTER_QUORUM_TYPE (clusapi.h)
-
 description: The type of quorum resource to be created.
 old-location: mscs\cluster_quorum_type.htm
 tech.root: MsCS
 ms.assetid: 2a1d24ab-236e-4fee-b411-cafc2cbd1832
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_QUORUM_TYPE, CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], ModifyQuorum, OperationalQuorum, _CLUSTER_QUORUM_TYPE, _CLUSTER_QUORUM_TYPE enumeration [Failover Cluster], clusapi/CLUSTER_QUORUM_TYPE, clusapi/ModifyQuorum, clusapi/OperationalQuorum, clusapi/_CLUSTER_QUORUM_TYPE, msclus/CLUSTER_QUORUM_TYPE, msclus/ModifyQuorum, msclus/OperationalQuorum, msclus/_CLUSTER_QUORUM_TYPE, mscs.cluster_quorum_type
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_QUORUM_TYPE"
+f1_keywords:
+- clusapi/CLUSTER_QUORUM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - CLUSTER_QUORUM_TYPE
+- CLUSTER_QUORUM_TYPE
 targetos: Windows
 req.typenames: CLUSTER_QUORUM_TYPE
 req.redist: 

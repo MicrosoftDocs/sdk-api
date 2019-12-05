@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiViewModify
 title: MsiViewModify function (msiquery.h)
-
 description: The MsiViewModify function updates a fetched record.
 old-location: setup\msiviewmodify.htm
 tech.root: Msi
 ms.assetid: 312c3e62-4c08-447b-951f-d8d944daff3e
-
 ms.date: 12/05/2018
 ms.keywords: MSIMODIFY_ASSIGN, MSIMODIFY_DELETE, MSIMODIFY_INSERT, MSIMODIFY_INSERT_TEMPORARY, MSIMODIFY_MERGE, MSIMODIFY_REFRESH, MSIMODIFY_REPLACE, MSIMODIFY_SEEK, MSIMODIFY_UPDATE, MSIMODIFY_VALIDATE, MSIMODIFY_VALIDATE_DELETE, MSIMODIFY_VALIDATE_FIELD, MSIMODIFY_VALIDATE_NEW, MsiViewModify, MsiViewModify function, _msi_msiviewmodify, msiquery/MsiViewModify, setup.msiviewmodify
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiViewModify"
+f1_keywords:
+- msiquery/MsiViewModify
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiViewModify
+- MsiViewModify
 targetos: Windows
 req.typenames: 
 req.redist: 

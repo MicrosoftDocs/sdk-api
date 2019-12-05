@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.WriteBuffer
 title: IRDPSRAPITransportStream::WriteBuffer (rdpencomapi.h)
-
 description: Called by the Remote Desktop Protocol (RDP) stack to write the contents of a stream buffer to the network.
 old-location: rdp\irdpsrapitransportstream_writebuffer.htm
 tech.root: rdp
 ms.assetid: 9e78360d-9ea6-4a74-8a20-5546057c24b0
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITransportStream interface [RDP],WriteBuffer method, IRDPSRAPITransportStream.WriteBuffer, IRDPSRAPITransportStream::WriteBuffer, WriteBuffer, WriteBuffer method [RDP], WriteBuffer method [RDP],IRDPSRAPITransportStream interface, rdp.irdpsrapitransportstream_writebuffer, rdpencomapi/IRDPSRAPITransportStream::WriteBuffer
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITransportStream.WriteBuffer"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITransportStream.WriteBuffer
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStream.WriteBuffer
+- IRDPSRAPITransportStream.WriteBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

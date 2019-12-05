@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothRegisterForAuthenticationEx
 title: BluetoothRegisterForAuthenticationEx function (bluetoothapis.h)
-
 description: The BluetoothRegisterForAuthenticationEx function registers an application for a pin request, numeric comparison and callback function.
 old-location: bluetooth\bluetoothregisterforauthenticationex.htm
 tech.root: bluetooth
 ms.assetid: c9838f27-3450-4d51-be58-ce515d06d5cb
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothRegisterForAuthenticationEx, BluetoothRegisterForAuthenticationEx function [Bluetooth], bluetooth.bluetoothregisterforauthenticationex, bluetoothapis/BluetoothRegisterForAuthenticationEx
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothRegisterForAuthenticationEx"
+f1_keywords:
+- bluetoothapis/BluetoothRegisterForAuthenticationEx
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothRegisterForAuthenticationEx
+- BluetoothRegisterForAuthenticationEx
 targetos: Windows
 req.typenames: 
 req.redist: 

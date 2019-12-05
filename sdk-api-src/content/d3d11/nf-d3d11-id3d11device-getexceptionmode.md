@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.GetExceptionMode
 title: ID3D11Device::GetExceptionMode (d3d11.h)
-
 description: Get the exception-mode flags.
 old-location: direct3d11\id3d11device_getexceptionmode.htm
 tech.root: direct3d11
 ms.assetid: c5deddde-4355-4a34-b40a-50006029d590
-
 ms.date: 12/05/2018
 ms.keywords: 00dedc29-911b-cd5e-0b45-8f2505b70599, GetExceptionMode, GetExceptionMode method [Direct3D 11], GetExceptionMode method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetExceptionMode method, ID3D11Device.GetExceptionMode, ID3D11Device::GetExceptionMode, d3d11/ID3D11Device::GetExceptionMode, direct3d11.id3d11device_getexceptionmode
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.GetExceptionMode"
+f1_keywords:
+- d3d11/ID3D11Device.GetExceptionMode
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.GetExceptionMode
+- ID3D11Device.GetExceptionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

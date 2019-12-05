@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetAcceleratorTable
 title: IFullScreenVideoEx::SetAcceleratorTable (amvideo.h)
-
 description: The SetAcceleratorTable method specifies an accelerator table that will be used to translate keyboard messages. The Full Screen Renderer filter does not support this method.
 old-location: dshow\ifullscreenvideoex_setacceleratortable.htm
 tech.root: DirectShow
 ms.assetid: aff393e8-e0a5-418d-8706-3fde96dbcfd9
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetAcceleratorTable method, IFullScreenVideoEx.SetAcceleratorTable, IFullScreenVideoEx::SetAcceleratorTable, IFullScreenVideoExSetAcceleratorTable, SetAcceleratorTable, SetAcceleratorTable method [DirectShow], SetAcceleratorTable method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetAcceleratorTable, dshow.ifullscreenvideoex_setacceleratortable
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.SetAcceleratorTable"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.SetAcceleratorTable
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetAcceleratorTable
+- IFullScreenVideoEx.SetAcceleratorTable
 targetos: Windows
 req.typenames: 
 req.redist: 

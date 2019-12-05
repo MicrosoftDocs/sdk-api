@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.ILanguageComponentType
 title: ILanguageComponentType (tuner.h)
-
 description: The ILanguageComponentType interface is implemented on LanguageComponentType objects. It provides methods that define the language of the stream content. Not all streams have a language component.
 old-location: mstv\ilanguagecomponenttype.htm
 tech.root: mstv
 ms.assetid: 775b5e8d-d9ed-4371-a651-bfeed6fa0ad5
-
 ms.date: 12/05/2018
 ms.keywords: ILanguageComponentType, ILanguageComponentType interface [Microsoft TV Technologies], ILanguageComponentType interface [Microsoft TV Technologies],described, ILanguageComponentTypeInterface, mstv.ilanguagecomponenttype, tuner/ILanguageComponentType
 ms.topic: interface
-f1_keywords: 
- - "tuner/ILanguageComponentType"
+f1_keywords:
+- tuner/ILanguageComponentType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILanguageComponentType
+- ILanguageComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 

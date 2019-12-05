@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.StopForResume
 title: IDvdControl::StopForResume (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Transitions playback to the DVD_DOMAIN_Stop state after saving resume information.
 old-location: dshow\idvdcontrol_stopforresume.htm
 tech.root: DirectShow
 ms.assetid: 61c5b863-038b-4c4a-a7a4-d1fd1801f843
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],StopForResume method, IDvdControl.StopForResume, IDvdControl::StopForResume, IDvdControlStopForResume, StopForResume, StopForResume method [DirectShow], StopForResume method [DirectShow],IDvdControl interface, dshow.idvdcontrol_stopforresume, strmif/IDvdControl::StopForResume
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.StopForResume"
+f1_keywords:
+- strmif/IDvdControl.StopForResume
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.StopForResume
+- IDvdControl.StopForResume
 targetos: Windows
 req.typenames: 
 req.redist: 

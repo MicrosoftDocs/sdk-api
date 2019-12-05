@@ -1,19 +1,17 @@
 ---
 UID: NE:richedit.tagTextMode
 title: TEXTMODE (richedit.h)
-
 description: Indicates the text mode of a rich edit control. The EM_SETTEXTMODE and EM_GETTEXTMODE messages use this enumeration type.
 old-location: controls\TEXTMODE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditenumerationtypes\textmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: TEXTMODE, TEXTMODE enumeration [Windows Controls], TM_MULTICODEPAGE, TM_MULTILEVELUNDO, TM_PLAINTEXT, TM_RICHTEXT, TM_SINGLECODEPAGE, TM_SINGLELEVELUNDO, _win32_TEXTMODE_str, _win32_TEXTMODE_str_cpp, controls.TEXTMODE, controls._win32_TEXTMODE_str, richedit/TEXTMODE, richedit/TM_MULTICODEPAGE, richedit/TM_MULTILEVELUNDO, richedit/TM_PLAINTEXT, richedit/TM_RICHTEXT, richedit/TM_SINGLECODEPAGE, richedit/TM_SINGLELEVELUNDO
 ms.topic: enum
-f1_keywords: 
- - "richedit/TEXTMODE"
+f1_keywords:
+- richedit/TEXTMODE
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - TEXTMODE
+- TEXTMODE
 targetos: Windows
 req.typenames: TEXTMODE
 req.redist: 

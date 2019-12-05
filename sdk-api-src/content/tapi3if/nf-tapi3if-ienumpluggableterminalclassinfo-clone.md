@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumPluggableTerminalClassInfo.Clone
 title: IEnumPluggableTerminalClassInfo::Clone (tapi3if.h)
-
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one. This method is hidden from Visual Basic and scripting languages.
 old-location: tapi3\ienumpluggableterminalclassinfo_clone.htm
 tech.root: Tapi
 ms.assetid: cc5fb452-c166-46dc-a529-be08924b15a4
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumPluggableTerminalClassInfo interface, IEnumPluggableTerminalClassInfo interface [TAPI 2.2],Clone method, IEnumPluggableTerminalClassInfo.Clone, IEnumPluggableTerminalClassInfo::Clone, _tapi3_ienumpluggableterminalclassinfo_clone, tapi3.ienumpluggableterminalclassinfo_clone, tapi3if/IEnumPluggableTerminalClassInfo::Clone
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumPluggableTerminalClassInfo.Clone"
+f1_keywords:
+- tapi3if/IEnumPluggableTerminalClassInfo.Clone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumPluggableTerminalClassInfo.Clone
+- IEnumPluggableTerminalClassInfo.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

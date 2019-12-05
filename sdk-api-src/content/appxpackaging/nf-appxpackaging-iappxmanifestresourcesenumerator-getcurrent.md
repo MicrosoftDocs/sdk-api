@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.GetCurrent
 title: IAppxManifestResourcesEnumerator::GetCurrent (appxpackaging.h)
-
 description: Gets the resource at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestresourcesenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: FCFEEC2B-F047-4417-B110-BD3C90C30BE2
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestResourcesEnumerator interface, IAppxManifestResourcesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestResourcesEnumerator.GetCurrent, IAppxManifestResourcesEnumerator::GetCurrent, appxpackaging/IAppxManifestResourcesEnumerator::GetCurrent, appxpkg.iappxmanifestresourcesenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestResourcesEnumerator.GetCurrent"
+f1_keywords:
+- appxpackaging/IAppxManifestResourcesEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestResourcesEnumerator.GetCurrent
+- IAppxManifestResourcesEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

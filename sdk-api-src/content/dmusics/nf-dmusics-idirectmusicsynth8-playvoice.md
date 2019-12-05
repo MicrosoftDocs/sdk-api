@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth8.PlayVoice
 title: IDirectMusicSynth8::PlayVoice (dmusics.h)
-
 description: PlayVoice is unsupported and may be altered or unavailable in the future.
 old-location: audio\idirectmusicsynth8_playvoice.htm
 tech.root: audio
 ms.assetid: BFD0D40E-C880-4574-BB66-C393F806FAFA
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth8 interface [Audio Devices],PlayVoice method, IDirectMusicSynth8.PlayVoice, IDirectMusicSynth8::PlayVoice, PlayVoice, PlayVoice method [Audio Devices], PlayVoice method [Audio Devices],IDirectMusicSynth8 interface, audio.idirectmusicsynth8_playvoice, dmusics/IDirectMusicSynth8::PlayVoice
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth8.PlayVoice"
+f1_keywords:
+- dmusics/IDirectMusicSynth8.PlayVoice
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmusics.h
+- Dmusics.h
 api_name:
- - IDirectMusicSynth8.PlayVoice
+- IDirectMusicSynth8.PlayVoice
 targetos: Windows
 req.typenames: 
 req.redist: 

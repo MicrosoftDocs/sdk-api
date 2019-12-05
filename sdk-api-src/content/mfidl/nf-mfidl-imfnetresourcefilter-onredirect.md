@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetResourceFilter.OnRedirect
 title: IMFNetResourceFilter::OnRedirect (mfidl.h)
-
 description: Called when the byte stream redirects to a URL.
 old-location: mf\imfnetresourcefilter_onredirect.htm
 tech.root: medfound
 ms.assetid: 418EA3E0-9732-43B7-BF80-A85ECB7A9485
-
 ms.date: 12/05/2018
 ms.keywords: IMFNetResourceFilter interface [Media Foundation],OnRedirect method, IMFNetResourceFilter.OnRedirect, IMFNetResourceFilter::OnRedirect, OnRedirect, OnRedirect method [Media Foundation], OnRedirect method [Media Foundation],IMFNetResourceFilter interface, mf.imfnetresourcefilter_onredirect, mfidl/IMFNetResourceFilter::OnRedirect
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetResourceFilter.OnRedirect"
+f1_keywords:
+- mfidl/IMFNetResourceFilter.OnRedirect
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFNetResourceFilter.OnRedirect
+- IMFNetResourceFilter.OnRedirect
 targetos: Windows
 req.typenames: 
 req.redist: 

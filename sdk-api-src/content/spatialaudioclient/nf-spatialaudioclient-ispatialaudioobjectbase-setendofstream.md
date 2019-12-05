@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioObjectBase.SetEndOfStream
 title: ISpatialAudioObjectBase::SetEndOfStream (spatialaudioclient.h)
-
 description: Instructs the system that the final block of audio data has been submitted for the ISpatialAudioObject so that the object can be deactivated and it's resources reused.
 old-location: coreaudio\ispatialaudioobject_setendofstream.htm
 tech.root: CoreAudio
 ms.assetid: 17294E5D-04D7-43B9-AD41-392344309308
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectBase interface [Core Audio],SetEndOfStream method, ISpatialAudioObjectBase.SetEndOfStream, ISpatialAudioObjectBase::SetEndOfStream, SetEndOfStream, SetEndOfStream method [Core Audio], SetEndOfStream method [Core Audio],ISpatialAudioObjectBase interface, coreaudio.ispatialaudioobject_setendofstream, spatialaudioclient/ISpatialAudioObjectBase::SetEndOfStream
 ms.topic: method
-f1_keywords: 
- - "spatialaudioclient/ISpatialAudioObjectBase.SetEndOfStream"
+f1_keywords:
+- spatialaudioclient/ISpatialAudioObjectBase.SetEndOfStream
 dev_langs:
- - c++
+- c++
 req.header: spatialaudioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudioclient.h
+- spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectBase.SetEndOfStream
+- ISpatialAudioObjectBase.SetEndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 

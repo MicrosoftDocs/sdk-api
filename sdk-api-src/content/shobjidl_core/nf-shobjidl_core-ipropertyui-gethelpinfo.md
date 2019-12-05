@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetHelpInfo
 title: IPropertyUI::GetHelpInfo (shobjidl_core.h)
-
 description: Developers should use IPropertyDescription instead.
 old-location: properties\IPropertyUI_GetHelpInfo.htm
 tech.root: properties
 ms.assetid: 165ABA55-7CDB-48cf-AE14-DA314197BA42
-
 ms.date: 12/05/2018
 ms.keywords: GetHelpInfo, GetHelpInfo method [Windows Properties], GetHelpInfo method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetHelpInfo method, IPropertyUI.GetHelpInfo, IPropertyUI::GetHelpInfo, _shell_IPropertyUI_GetHelpInfo, properties.IPropertyUI_GetHelpInfo, shell.IPropertyUI_GetHelpInfo, shobjidl_core/IPropertyUI::GetHelpInfo
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPropertyUI.GetHelpInfo"
+f1_keywords:
+- shobjidl_core/IPropertyUI.GetHelpInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPropertyUI.GetHelpInfo
+- IPropertyUI.GetHelpInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

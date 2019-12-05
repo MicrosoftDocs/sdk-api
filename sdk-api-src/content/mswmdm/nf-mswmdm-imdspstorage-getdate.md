@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetDate
 title: IMDSPStorage::GetDate (mswmdm.h)
-
 description: The GetDate method retrieves the date on which the storage object (file or folder) was most recently modified.
 old-location: wmdm\imdspstorage_getdate.htm
 tech.root: WMDM
 ms.assetid: 4ba0c598-9ea2-42cc-a234-1c0e192971a8
-
 ms.date: 12/05/2018
 ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate method [windows Media Device Manager],IMDSPStorage interface, IMDSPStorage interface [windows Media Device Manager],GetDate method, IMDSPStorage.GetDate, IMDSPStorage::GetDate, IMDSPStorageGetDate, mswmdm/IMDSPStorage::GetDate, wmdm.imdspstorage_getdate
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorage.GetDate"
+f1_keywords:
+- mswmdm/IMDSPStorage.GetDate
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorage.GetDate
+- IMDSPStorage.GetDate
 targetos: Windows
 req.typenames: 
 req.redist: 

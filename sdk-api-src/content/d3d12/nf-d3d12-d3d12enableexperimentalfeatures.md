@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.D3D12EnableExperimentalFeatures
 title: D3D12EnableExperimentalFeatures function (d3d12.h)
-
 description: Enables a list of experimental features.
 old-location: direct3d12\d3d12enableexperimentalfeatures.htm
 tech.root: direct3d12
 ms.assetid: 290E147E-8545-4572-BB36-58481065C541
-
 ms.date: 12/05/2018
 ms.keywords: D3D12EnableExperimentalFeatures, D3D12EnableExperimentalFeatures function, d3d12/D3D12EnableExperimentalFeatures, direct3d12.d3d12enableexperimentalfeatures
 ms.topic: function
-f1_keywords: 
- - "d3d12/D3D12EnableExperimentalFeatures"
+f1_keywords:
+- d3d12/D3D12EnableExperimentalFeatures
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - D3D12EnableExperimentalFeatures
+- D3D12EnableExperimentalFeatures
 targetos: Windows
 req.typenames: 
 req.redist: 

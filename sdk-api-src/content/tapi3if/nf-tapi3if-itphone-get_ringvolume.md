@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.get_RingVolume
 title: ITPhone::get_RingVolume (tapi3if.h)
-
 description: The get_RingVolume method retrieves the current ring volume for the phone.
 old-location: tapi3\itphone_get_ringvolume.htm
 tech.root: Tapi
 ms.assetid: 147553f1-74a7-4f80-bbf3-b140d9b375ba
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_RingVolume method, ITPhone.get_RingVolume, ITPhone::get_RingVolume, _tapi3_itphone_get_ringvolume, get_RingVolume, get_RingVolume method [TAPI 2.2], get_RingVolume method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_ringvolume, tapi3if/ITPhone::get_RingVolume
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.get_RingVolume"
+f1_keywords:
+- tapi3if/ITPhone.get_RingVolume
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.get_RingVolume
+- ITPhone.get_RingVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

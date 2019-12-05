@@ -3,14 +3,13 @@ UID: NF:chstring.CHString.Format(UINT,...)
 title: CHString::Format
 description: 
 ms.assetid: 5fadf422-fa36-4c68-b150-c79a71346768
-
 ms.date: 05/13/2019
 ms.keywords: CHString::Format
 ms.topic: language-reference
-f1_keywords: 
- - "chstring/CHString::Format"
+f1_keywords:
+- chstring/CHString::Format
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - chstring.h
+- chstring.h
 api_name:
- - CHString::Format
+- CHString::Format
 ---
 
 # CHString::Format

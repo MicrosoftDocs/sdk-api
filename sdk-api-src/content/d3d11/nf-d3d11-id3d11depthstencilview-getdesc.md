@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DepthStencilView.GetDesc
 title: ID3D11DepthStencilView::GetDesc (d3d11.h)
-
 description: Get the depth-stencil view.
 old-location: direct3d11\id3d11depthstencilview_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 00fd30de-ceae-4bcb-8602-36d43edd17b1
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11DepthStencilView interface, ID3D11DepthStencilView interface [Direct3D 11],GetDesc method, ID3D11DepthStencilView.GetDesc, ID3D11DepthStencilView::GetDesc, a6b6e6e5-533d-8ea1-7645-eae1b36b5a5a, d3d11/ID3D11DepthStencilView::GetDesc, direct3d11.id3d11depthstencilview_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DepthStencilView.GetDesc"
+f1_keywords:
+- d3d11/ID3D11DepthStencilView.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DepthStencilView.GetDesc
+- ID3D11DepthStencilView.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

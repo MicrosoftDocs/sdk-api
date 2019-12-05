@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRestrictions
 title: IXblIdpAuthTokenResult::GetRestrictions (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getrestrictions.htm
 tech.root: xblidp
 ms.assetid: 6F3B7959-BFAF-496B-A8AB-FD29606199AF
-
 ms.date: 12/05/2018
 ms.keywords: GetRestrictions, GetRestrictions method, GetRestrictions method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetRestrictions method, IXblIdpAuthTokenResult.GetRestrictions, IXblIdpAuthTokenResult::GetRestrictions, xblidp.ixblidpauthtokenresult_getrestrictions, xblidpauthmanager/IXblIdpAuthTokenResult::GetRestrictions
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetRestrictions"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetRestrictions
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetRestrictions
+- IXblIdpAuthTokenResult.GetRestrictions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetWMIFilter
 title: IGPMGPO::GetWMIFilter (gpmgmt.h)
-
 description: Retrieves the GPMWMIFilter object linked to the Group Policy object (GPO).
 old-location: gpmc\igpmgpo_getwmifilter.htm
 tech.root: gpmc
 ms.assetid: eca1dffb-1e92-42a1-b950-c6c6c88bd064
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPO class [GPMC],GetWMIFilter method, GetWMIFilter, GetWMIFilter method [GPMC], GetWMIFilter method [GPMC],GPMGPO class, GetWMIFilter method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GetWMIFilter method, IGPMGPO.GetWMIFilter, IGPMGPO::GetWMIFilter, _win32_igpmgpo_getwmifilter, gpmc.igpmgpo_getwmifilter, gpmgmt/IGPMGPO::GetWMIFilter
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.GetWMIFilter"
+f1_keywords:
+- gpmgmt/IGPMGPO.GetWMIFilter
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.GetWMIFilter
- - GPMGPO.GetWMIFilter
+- IGPMGPO.GetWMIFilter
+- GPMGPO.GetWMIFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

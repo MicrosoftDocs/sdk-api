@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetName
 title: IAppxFile::GetName (appxpackaging.h)
-
 description: Retrieves the name of the file, including its path relative to the package root directory.
 old-location: appxpkg\iappxfile_getname.htm
 tech.root: appxpkg
 ms.assetid: B56F7A31-686A-4A8B-9388-E30718632AE9
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [App packaging and management], GetName method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetName method, IAppxFile.GetName, IAppxFile::GetName, appxpackaging/IAppxFile::GetName, appxpkg.iappxfile_getname
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFile.GetName"
+f1_keywords:
+- appxpackaging/IAppxFile.GetName
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFile.GetName
+- IAppxFile.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

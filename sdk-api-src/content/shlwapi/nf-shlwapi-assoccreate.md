@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.AssocCreate
 title: AssocCreate function (shlwapi.h)
-
 description: Returns a pointer to an IQueryAssociations object.
 old-location: shell\AssocCreate.htm
 tech.root: shell
 ms.assetid: 33099e0e-73e3-4047-804f-765a59e42e3f
-
 ms.date: 12/05/2018
 ms.keywords: AssocCreate, AssocCreate function [Windows Shell], _win32_AssocCreate, shell.AssocCreate, shlwapi/AssocCreate
 ms.topic: function
-f1_keywords: 
- - "shlwapi/AssocCreate"
+f1_keywords:
+- shlwapi/AssocCreate
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - AssocCreate
+- AssocCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

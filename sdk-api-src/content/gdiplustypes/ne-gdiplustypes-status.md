@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplustypes.Status
 title: Status (gdiplustypes.h)
-
 description: The Status enumeration indicates the result of a Windows GDI+ method call.
 old-location: gdiplus\_gdiplus_ENUM_Status.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\status.htm
-
 ms.date: 12/05/2018
 ms.keywords: Aborted, AccessDenied, FileNotFound, FontFamilyNotFound, FontStyleNotFound, GdiplusNotInitialized, GenericError, InsufficientBuffer, InvalidParameter, NotImplemented, NotTrueTypeFont, ObjectBusy, Ok, OutOfMemory, ProfileNotFound, PropertyNotFound, PropertyNotSupported, Status, Status enumeration [GDI+], UnknownImageFormat, UnsupportedGdiplusVersion, ValueOverflow, Win32Error, WrongState, _gdiplus_ENUM_Status, gdiplus._gdiplus_ENUM_Status, gdiplustypes/Aborted, gdiplustypes/AccessDenied, gdiplustypes/FileNotFound, gdiplustypes/FontFamilyNotFound, gdiplustypes/FontStyleNotFound, gdiplustypes/GdiplusNotInitialized, gdiplustypes/GenericError, gdiplustypes/InsufficientBuffer, gdiplustypes/InvalidParameter, gdiplustypes/NotImplemented, gdiplustypes/NotTrueTypeFont, gdiplustypes/ObjectBusy, gdiplustypes/Ok, gdiplustypes/OutOfMemory, gdiplustypes/ProfileNotFound, gdiplustypes/PropertyNotFound, gdiplustypes/PropertyNotSupported, gdiplustypes/Status, gdiplustypes/UnknownImageFormat, gdiplustypes/UnsupportedGdiplusVersion, gdiplustypes/ValueOverflow, gdiplustypes/Win32Error, gdiplustypes/WrongState
 ms.topic: enum
-f1_keywords: 
- - "gdiplustypes/Status"
+f1_keywords:
+- gdiplustypes/Status
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplustypes.h
+- Gdiplustypes.h
 api_name:
- - Status
+- Status
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.Clone
 title: IXpsOMMatrixTransform::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsommatrixtransform_clone.htm
 tech.root: printdocs
 ms.assetid: 088e758c-5839-4560-955c-98c8a1ee99ae
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, IXpsOMMatrixTransform interface [XPS Documents and Packaging],Clone method, IXpsOMMatrixTransform.Clone, IXpsOMMatrixTransform::Clone, xps.ixpsommatrixtransform_clone, xpsobjectmodel/IXpsOMMatrixTransform::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMMatrixTransform.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMMatrixTransform.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMMatrixTransform.Clone
+- IXpsOMMatrixTransform.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

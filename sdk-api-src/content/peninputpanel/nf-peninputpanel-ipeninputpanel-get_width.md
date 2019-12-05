@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Width
 title: IPenInputPanel::get_Width (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the width of the pen input panel in client coordinates.
 old-location: tablet\peninputpanel_width.htm
 tech.root: tablet
 ms.assetid: 81173c64-5d8b-48ae-866c-5292814a97c0
-
 ms.date: 12/05/2018
 ms.keywords: 81173c64-5d8b-48ae-866c-5292814a97c0, IPenInputPanel interface [Tablet PC],Width property, IPenInputPanel.Width, IPenInputPanel.get_Width, IPenInputPanel::Width, IPenInputPanel::get_Width, PenInputPanel.get_Width, Width property [Tablet PC], Width property [Tablet PC],IPenInputPanel interface, get_Width, peninputpanel/IPenInputPanel::Width, peninputpanel/IPenInputPanel::get_Width, put_Width, tablet.peninputpanel_width
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.Width"
+f1_keywords:
+- peninputpanel/IPenInputPanel.Width
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.Width
- - IPenInputPanel.get_Width
- - PenInputPanel.get_Width
+- IPenInputPanel.Width
+- IPenInputPanel.get_Width
+- PenInputPanel.get_Width
 targetos: Windows
 req.typenames: 
 req.redist: 

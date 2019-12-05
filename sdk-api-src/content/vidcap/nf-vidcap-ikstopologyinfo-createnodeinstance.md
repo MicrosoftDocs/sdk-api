@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IKsTopologyInfo.CreateNodeInstance
 title: IKsTopologyInfo::CreateNodeInstance (vidcap.h)
-
 description: The CreateNodeInstance method creates a COM object that represents a node in the filter.
 old-location: dshow\ikstopologyinfo_createnodeinstance.htm
 tech.root: DirectShow
 ms.assetid: f2c7ea1d-abd6-4179-b5b7-d89837ceecd7
-
 ms.date: 12/05/2018
 ms.keywords: CreateNodeInstance, CreateNodeInstance method [DirectShow], CreateNodeInstance method [DirectShow],IKsTopologyInfo interface, IKsTopologyInfo interface [DirectShow],CreateNodeInstance method, IKsTopologyInfo.CreateNodeInstance, IKsTopologyInfo::CreateNodeInstance, IKsTopologyInfoCreateNodeInstance, dshow.ikstopologyinfo_createnodeinstance, vidcap/IKsTopologyInfo::CreateNodeInstance
 ms.topic: method
-f1_keywords: 
- - "vidcap/IKsTopologyInfo.CreateNodeInstance"
+f1_keywords:
+- vidcap/IKsTopologyInfo.CreateNodeInstance
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IKsTopologyInfo.CreateNodeInstance
+- IKsTopologyInfo.CreateNodeInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:unknwnbase.IUnknown_QueryInterface_Proxy
 title: IUnknown_QueryInterface_Proxy function (unknwnbase.h)
-
 description: The IUnknown_QueryInterface_Proxy function implements the QueryInterface method for all interface proxies.
 old-location: rpc\iunknown_queryinterface_proxy.htm
 tech.root: Rpc
 ms.assetid: 4f266740-e33a-4dc1-8ade-720308bb82fe
-
 ms.date: 12/05/2018
 ms.keywords: IUnknown_QueryInterface_Proxy, IUnknown_QueryInterface_Proxy function [RPC], rpc.iunknown_queryinterface_proxy, unknwnbase/IUnknown_QueryInterface_Proxy
 ms.topic: function
-f1_keywords: 
- - "unknwnbase/IUnknown_QueryInterface_Proxy"
+f1_keywords:
+- unknwnbase/IUnknown_QueryInterface_Proxy
 dev_langs:
- - c++
+- c++
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - IUnknown_QueryInterface_Proxy
+- IUnknown_QueryInterface_Proxy
 targetos: Windows
 req.typenames: 
 req.redist: 

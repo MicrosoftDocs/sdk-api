@@ -1,19 +1,17 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandUnRegisterNotification
 title: OnDemandUnRegisterNotification function (ondemandconnroutehelper.h)
-
 description: The OnDemandUnregisterNotification function allows an application to unregister for notifications and clean up resources.
 old-location: nla\ondemandunregisternotification.htm
 tech.root: nla
 ms.assetid: A7FA6035-D089-4A65-8F4E-F8722C147B0F
-
 ms.date: 12/05/2018
 ms.keywords: OnDemandUnRegisterNotification, OnDemandUnregisterNotification, OnDemandUnregisterNotification function [Network Awareness], nla.ondemandunregisternotification, ondemandconnroutehelper/OnDemandUnregisterNotification
 ms.topic: function
-f1_keywords: 
- - "ondemandconnroutehelper/OnDemandUnregisterNotification"
+f1_keywords:
+- ondemandconnroutehelper/OnDemandUnregisterNotification
 dev_langs:
- - c++
+- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OnDemandConnRouteHelper.lib
 req.dll: OnDemandConnRouteHelper.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OnDemandConnRouteHelper.dll
+- OnDemandConnRouteHelper.dll
 api_name:
- - OnDemandUnregisterNotification
+- OnDemandUnregisterNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

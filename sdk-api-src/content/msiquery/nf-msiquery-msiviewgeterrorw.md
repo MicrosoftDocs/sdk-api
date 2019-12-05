@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiViewGetErrorW
 title: MsiViewGetErrorW function (msiquery.h)
-
 description: The MsiViewGetError function returns the error that occurred in the MsiViewModify function.
 old-location: setup\msiviewgeterror.htm
 tech.root: Msi
 ms.assetid: a59ab850-204b-40b7-bf24-d6a2d7ae82f4
-
 ms.date: 12/05/2018
 ms.keywords: MsiViewGetError, MsiViewGetError function, MsiViewGetErrorA, MsiViewGetErrorW, _msi_msiviewgeterror, msiquery/MsiViewGetError, msiquery/MsiViewGetErrorA, msiquery/MsiViewGetErrorW, setup.msiviewgeterror
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiViewGetError"
+f1_keywords:
+- msiquery/MsiViewGetError
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiViewGetError
- - MsiViewGetErrorA
- - MsiViewGetErrorW
+- MsiViewGetError
+- MsiViewGetErrorA
+- MsiViewGetErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 

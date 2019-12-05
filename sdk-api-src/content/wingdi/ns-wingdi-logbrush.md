@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagLOGBRUSH
 title: LOGBRUSH (wingdi.h)
-
 description: The LOGBRUSH structure defines the style, color, and pattern of a physical brush. It is used by the CreateBrushIndirect and ExtCreatePen functions.
 old-location: gdi\logbrush.htm
 tech.root: gdi
 ms.assetid: ded2c7a4-2248-4d01-95c6-ab4050719094
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLOGBRUSH, *LPPATTERN, *NPLOGBRUSH, *NPPATTERN, *PLOGBRUSH, *PPATTERN, LOGBRUSH, LOGBRUSH structure [Windows GDI], PATTERN, PLOGBRUSH, PLOGBRUSH structure pointer [Windows GDI], _win32_LOGBRUSH_str, gdi.logbrush, wingdi/LOGBRUSH, wingdi/PLOGBRUSH"
+ms.keywords: '*LPLOGBRUSH, *LPPATTERN, *NPLOGBRUSH, *NPPATTERN, *PLOGBRUSH, *PPATTERN, LOGBRUSH, LOGBRUSH structure [Windows GDI], PATTERN, PLOGBRUSH, PLOGBRUSH structure pointer [Windows GDI], _win32_LOGBRUSH_str, gdi.logbrush, wingdi/LOGBRUSH, wingdi/PLOGBRUSH'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/LOGBRUSH"
+f1_keywords:
+- wingdi/LOGBRUSH
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - LOGBRUSH
+- LOGBRUSH
 targetos: Windows
 req.typenames: LOGBRUSH, *PLOGBRUSH, *NPLOGBRUSH, *LPLOGBRUSH
 req.redist: 

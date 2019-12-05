@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Unlock
 title: IDirectDrawSurface7::Unlock (ddraw.h)
-
 description: Notifies DirectDraw that the direct surface manipulations are complete.
 old-location: directdraw\idirectdrawsurface7_unlock.htm
 tech.root: directdraw
 ms.assetid: 1606869a-83b1-4278-a0b5-c183cc7ea285
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],Unlock method, IDirectDrawSurface7.Unlock, IDirectDrawSurface7::Unlock, Unlock, Unlock method [DirectDraw], Unlock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Unlock, directdraw.idirectdrawsurface7_unlock
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.Unlock"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.Unlock
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.Unlock
+- IDirectDrawSurface7.Unlock
 targetos: Windows
 req.typenames: 
 req.redist: 

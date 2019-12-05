@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.TestKeyDown
 title: ITfKeystrokeMgr::TestKeyDown (msctf.h)
-
 description: ITfKeystrokeMgr::TestKeyDown method
 old-location: tsf\itfkeystrokemgr_testkeydown.htm
 tech.root: TSF
 ms.assetid: e1f03aff-ce6e-4bb6-ad08-666e04cf6c13
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],TestKeyDown method, ITfKeystrokeMgr.TestKeyDown, ITfKeystrokeMgr::TestKeyDown, TestKeyDown, TestKeyDown method [Text Services Framework], TestKeyDown method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_testkeydown_ref, msctf/ITfKeystrokeMgr::TestKeyDown, tsf.itfkeystrokemgr_testkeydown
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.TestKeyDown"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.TestKeyDown
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.TestKeyDown
+- ITfKeystrokeMgr.TestKeyDown
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

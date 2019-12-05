@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Skip
 title: IEnumPIDMap::Skip (bdaiface.h)
-
 description: The Skip method skips the specified number of elements in the collection.
 old-location: dshow\ienumpidmap_skip.htm
 tech.root: DirectShow
 ms.assetid: e611e5a0-beb1-4a31-974a-29b2b8349a17
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPIDMap interface [DirectShow],Skip method, IEnumPIDMap.Skip, IEnumPIDMap::Skip, IEnumPIDMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumPIDMap interface, bdaiface/IEnumPIDMap::Skip, dshow.ienumpidmap_skip
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IEnumPIDMap.Skip"
+f1_keywords:
+- bdaiface/IEnumPIDMap.Skip
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumPIDMap.Skip
+- IEnumPIDMap.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

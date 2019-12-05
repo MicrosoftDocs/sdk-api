@@ -1,19 +1,17 @@
 ---
 UID: NF:qos2.QOSNotifyFlow
 title: QOSNotifyFlow function (qos2.h)
-
 description: Registers the calling application to receive a notification.
 old-location: qos\qosnotifyflow.htm
 tech.root: QOS
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
-
 ms.date: 12/05/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
 ms.topic: function
 f1_keywords:
 - qos2/QOSNotifyFlow
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows

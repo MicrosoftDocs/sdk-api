@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.Stop
 title: IDvdControl2::Stop (strmif.h)
-
 description: The Stop method stops playback of a title or menu by moving the DVD Navigator into the DVD Stop domain.
 old-location: dshow\idvdcontrol2_stop.htm
 tech.root: DirectShow
 ms.assetid: 9c1ebe2b-c40a-410f-a4a5-ad79350a27dd
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],Stop method, IDvdControl2.Stop, IDvdControl2::Stop, IDvdControl2Stop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_stop, strmif/IDvdControl2::Stop
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.Stop"
+f1_keywords:
+- strmif/IDvdControl2.Stop
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.Stop
+- IDvdControl2.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

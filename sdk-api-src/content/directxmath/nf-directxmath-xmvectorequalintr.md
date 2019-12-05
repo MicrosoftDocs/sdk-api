@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorEqualIntR
 title: XMVectorEqualIntR function (directxmath.h)
-
 description: Performs a per-component test for equality of two vectors, treating each component as an unsigned integer. In addition, this function sets a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvectorequalintr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorEqualIntR(uint32_t@,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorEqualIntR, XMVectorEqualIntR, XMVectorEqualIntR method [DirectX Math Support APIs], dxmath.xmvectorequalintr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorEqualIntR"
+f1_keywords:
+- directxmath/XMVectorEqualIntR
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorEqualIntR
+- XMVectorEqualIntR
 targetos: Windows
 req.typenames: 
 req.redist: 

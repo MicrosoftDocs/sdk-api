@@ -1,19 +1,17 @@
 ---
 UID: NE:oaidl.tagFUNCKIND
 title: FUNCKIND (oaidl.h)
-
 description: Specifies the function type.
 old-location: automat\funckind.htm
 tech.root: automat
 ms.assetid: da13d9ba-b910-44cc-9926-4368df3f1606
-
 ms.date: 12/05/2018
 ms.keywords: FUNCKIND, FUNCKIND enumeration [Automation], FUNC_DISPATCH, FUNC_NONVIRTUAL, FUNC_PUREVIRTUAL, FUNC_STATIC, FUNC_VIRTUAL, _oa96_FUNCKIND, automat.funckind, oaidl/FUNCKIND, oaidl/FUNC_DISPATCH, oaidl/FUNC_NONVIRTUAL, oaidl/FUNC_PUREVIRTUAL, oaidl/FUNC_STATIC, oaidl/FUNC_VIRTUAL
 ms.topic: enum
-f1_keywords: 
- - "oaidl/FUNCKIND"
+f1_keywords:
+- oaidl/FUNCKIND
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: OleAuto.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OAIdl.h
+- OAIdl.h
 api_name:
- - FUNCKIND
+- FUNCKIND
 targetos: Windows
 req.typenames: FUNCKIND
 req.redist: 

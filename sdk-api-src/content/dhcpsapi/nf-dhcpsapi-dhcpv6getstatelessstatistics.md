@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV6GetStatelessStatistics
 title: DhcpV6GetStatelessStatistics function (dhcpsapi.h)
-
 description: Retrieves the stateless server IPv6 subnet statistics.
 old-location: dhcp\dhcpv6getstatelessstatistics.htm
 tech.root: DHCP
 ms.assetid: 4f6ba79c-5ab5-4d89-907d-83bdddbd09a2
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV6GetStatelessStatistics, DhcpV6GetStatelessStatistics function [DHCP], dhcp.dhcpv6getstatelessstatistics, dhcpsapi/DhcpV6GetStatelessStatistics
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV6GetStatelessStatistics"
+f1_keywords:
+- dhcpsapi/DhcpV6GetStatelessStatistics
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV6GetStatelessStatistics
+- DhcpV6GetStatelessStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 

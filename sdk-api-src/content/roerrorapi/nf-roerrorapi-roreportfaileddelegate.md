@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoReportFailedDelegate
 title: RoReportFailedDelegate function
-
 description: Triggers the Global Error Handler when a delegate failure occurs.
 old-location: winrt\roreportfaileddelegate.htm
 tech.root: WinRT
 ms.assetid: 0A35A174-9020-438E-94CF-3A790D158144
-
 ms.date: 12/5/2018
 ms.keywords: RoReportFailedDelegate, RoReportFailedDelegate function [Windows Runtime], roerrorapi/RoReportFailedDelegate, winrt.roreportfaileddelegate
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoReportFailedDelegate"
+f1_keywords:
+- roerrorapi/RoReportFailedDelegate
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: RuntimeObject.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RuntimeObject.lib
- - RuntimeObject.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
- - COMBase.dll
+- RuntimeObject.lib
+- RuntimeObject.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- COMBase.dll
 api_name:
- - RoReportFailedDelegate
+- RoReportFailedDelegate
 targetos: Windows
 req.typenames: 
 req.redist: 

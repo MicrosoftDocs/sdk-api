@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Fence.GetCompletedValue
 title: ID3D12Fence::GetCompletedValue (d3d12.h)
-
 description: Gets the current value of the fence.
 old-location: direct3d12\id3d12fence_getcompletedvalue.htm
 tech.root: direct3d12
 ms.assetid: 2F2DDFC5-8D31-4BCE-B378-610C95D7805F
-
 ms.date: 12/05/2018
 ms.keywords: GetCompletedValue, GetCompletedValue method, GetCompletedValue method,ID3D12Fence interface, ID3D12Fence interface,GetCompletedValue method, ID3D12Fence.GetCompletedValue, ID3D12Fence::GetCompletedValue, d3d12/ID3D12Fence::GetCompletedValue, direct3d12.id3d12fence_getcompletedvalue
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Fence.GetCompletedValue"
+f1_keywords:
+- d3d12/ID3D12Fence.GetCompletedValue
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Fence.GetCompletedValue
+- ID3D12Fence.GetCompletedValue
 targetos: Windows
 req.typenames: 
 req.redist: 

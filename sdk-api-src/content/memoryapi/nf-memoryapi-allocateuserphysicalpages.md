@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.AllocateUserPhysicalPages
 title: AllocateUserPhysicalPages function (memoryapi.h)
-
 description: Allocates physical memory pages to be mapped and unmapped within any Address Windowing Extensions (AWE) region of a specified process.
 old-location: base\allocateuserphysicalpages.htm
 tech.root: Memory
 ms.assetid: cf45b24b-0622-4ba1-b485-8429cbf146b6
-
 ms.date: 12/05/2018
 ms.keywords: AllocateUserPhysicalPages, AllocateUserPhysicalPages function, _win32_allocateuserphysicalpages, base.allocateuserphysicalpages, winbase/AllocateUserPhysicalPages
 ms.topic: function
-f1_keywords: 
- - "memoryapi/AllocateUserPhysicalPages"
+f1_keywords:
+- memoryapi/AllocateUserPhysicalPages
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - AllocateUserPhysicalPages
+- AllocateUserPhysicalPages
 targetos: Windows
 req.typenames: 
 req.redist: 

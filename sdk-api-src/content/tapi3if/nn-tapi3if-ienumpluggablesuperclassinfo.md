@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.IEnumPluggableSuperclassInfo
 title: IEnumPluggableSuperclassInfo (tapi3if.h)
-
 description: The IEnumPluggableSuperclassInfo interface provides COM-standard enumeration methods for the ITPluggableTerminalSuperclassInfo interface. The ITTerminalSupport2::EnumeratePluggableSuperclasses method returns a pointer to IEnumPluggableSuperclassInfo.
 old-location: tapi3\ienumpluggablesuperclassinfo.htm
 tech.root: Tapi
 ms.assetid: 80b84976-4256-47d2-a965-3ebe89a3821a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPluggableSuperclassInfo, IEnumPluggableSuperclassInfo interface [TAPI 2.2], IEnumPluggableSuperclassInfo interface [TAPI 2.2],described, _tapi3_ienumpluggablesuperclassinfo, tapi3.ienumpluggablesuperclassinfo, tapi3if/IEnumPluggableSuperclassInfo
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/IEnumPluggableSuperclassInfo"
+f1_keywords:
+- tapi3if/IEnumPluggableSuperclassInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumPluggableSuperclassInfo
+- IEnumPluggableSuperclassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

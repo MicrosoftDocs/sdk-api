@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.get_PreferredAddresses
 title: ITPhone::get_PreferredAddresses (tapi3if.h)
-
 description: The get_PreferredAddresses method returns a collection of addresses that the phone is preferred for use on. The application does not have to call ITPhone::Open before executing this method.
 old-location: tapi3\itphone_get_preferredaddresses.htm
 tech.root: Tapi
 ms.assetid: bda43c65-a1f9-4143-b808-2a4e61220b1b
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_PreferredAddresses method, ITPhone.get_PreferredAddresses, ITPhone::get_PreferredAddresses, _tapi3_itphone_get_preferredaddresses, get_PreferredAddresses, get_PreferredAddresses method [TAPI 2.2], get_PreferredAddresses method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_preferredaddresses, tapi3if/ITPhone::get_PreferredAddresses
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.get_PreferredAddresses"
+f1_keywords:
+- tapi3if/ITPhone.get_PreferredAddresses
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.get_PreferredAddresses
+- ITPhone.get_PreferredAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 

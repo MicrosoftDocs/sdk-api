@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Decode
 title: ICertEncodeStringArray::Decode (certenc.h)
-
 description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded string array and stores the resulting array of strings in the CertEncodeStringArray object.
 old-location: security\icertencodestringarray_decode.htm
 tech.root: SecCrypto
 ms.assetid: 35799b54-2c04-4bb4-a227-d2902b2379ec
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],Decode method, Decode, Decode method [Security], Decode method [Security],CCertEncodeStringArray object, Decode method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],Decode method, ICertEncodeStringArray.Decode, ICertEncodeStringArray::Decode, _certsrv_icertencodestringarray_decode, certenc/ICertEncodeStringArray::Decode, security.icertencodestringarray_decode
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeStringArray.Decode"
+f1_keywords:
+- certenc/ICertEncodeStringArray.Decode
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray.Decode
- - CCertEncodeStringArray.Decode
+- ICertEncodeStringArray.Decode
+- CCertEncodeStringArray.Decode
 targetos: Windows
 req.typenames: 
 req.redist: 

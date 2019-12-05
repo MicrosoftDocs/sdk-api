@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecapi._LSA_LAST_INTER_LOGON_INFO
 title: LSA_LAST_INTER_LOGON_INFO (ntsecapi.h)
-
 description: Contains information about a logon session.
 old-location: security\lsa_last_inter_logon_info.htm
 tech.root: SecAuthN
 ms.assetid: FB935FED-571F-4298-8F83-0F805408179D
-
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO structure [Security], PLSA_LAST_INTER_LOGON_INFO, PLSA_LAST_INTER_LOGON_INFO structure pointer [Security], _LSA_LAST_INTER_LOGON_INFO, ntsecapi/LSA_LAST_INTER_LOGON_INFO, ntsecapi/PLSA_LAST_INTER_LOGON_INFO, security.lsa_last_inter_logon_info"
+ms.keywords: '*PLSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO, LSA_LAST_INTER_LOGON_INFO structure [Security], PLSA_LAST_INTER_LOGON_INFO, PLSA_LAST_INTER_LOGON_INFO structure pointer [Security], _LSA_LAST_INTER_LOGON_INFO, ntsecapi/LSA_LAST_INTER_LOGON_INFO, ntsecapi/PLSA_LAST_INTER_LOGON_INFO, security.lsa_last_inter_logon_info'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/LSA_LAST_INTER_LOGON_INFO"
+f1_keywords:
+- ntsecapi/LSA_LAST_INTER_LOGON_INFO
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_LAST_INTER_LOGON_INFO
+- LSA_LAST_INTER_LOGON_INFO
 targetos: Windows
 req.typenames: LSA_LAST_INTER_LOGON_INFO, *PLSA_LAST_INTER_LOGON_INFO
 req.redist: 

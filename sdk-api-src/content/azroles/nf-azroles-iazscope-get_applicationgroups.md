@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.get_ApplicationGroups
 title: IAzScope::get_ApplicationGroups (azroles.h)
-
 description: Retrieves an IAzApplicationGroups object that is used to enumerate IAzApplicationGroup objects from the policy data.
 old-location: security\iazscope_applicationgroups.htm
 tech.root: SecAuthZ
 ms.assetid: a8c9cffa-aebb-4bb1-834b-338082a9c8de
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationGroups property [Security], ApplicationGroups property [Security],AzScope object, ApplicationGroups property [Security],IAzScope interface, AzScope object [Security],ApplicationGroups property, IAzScope interface [Security],ApplicationGroups property, IAzScope.ApplicationGroups, IAzScope.get_ApplicationGroups, IAzScope::ApplicationGroups, IAzScope::get_ApplicationGroups, azroles/IAzScope::ApplicationGroups, azroles/IAzScope::get_ApplicationGroups, get_ApplicationGroups, security.iazscope_applicationgroups
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.ApplicationGroups"
+f1_keywords:
+- azroles/IAzScope.ApplicationGroups
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.ApplicationGroups
- - IAzScope.get_ApplicationGroups
- - AzScope.ApplicationGroups
+- IAzScope.ApplicationGroups
+- IAzScope.get_ApplicationGroups
+- AzScope.ApplicationGroups
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

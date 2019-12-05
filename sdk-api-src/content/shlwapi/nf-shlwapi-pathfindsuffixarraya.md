@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathFindSuffixArrayA
 title: PathFindSuffixArrayA function (shlwapi.h)
-
 description: Determines whether a given file name has one of a list of suffixes.
 old-location: shell\PathFindSuffixArray.htm
 tech.root: shell
 ms.assetid: e2285f7d-bb5d-48c5-bdf1-10ca410389f0
-
 ms.date: 12/05/2018
 ms.keywords: PathFindSuffixArray, PathFindSuffixArray function [Windows Shell], PathFindSuffixArrayA, PathFindSuffixArrayW, _win32_PathFindSuffixArray, shell.PathFindSuffixArray, shlwapi/PathFindSuffixArray, shlwapi/PathFindSuffixArrayA, shlwapi/PathFindSuffixArrayW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathFindSuffixArray"
+f1_keywords:
+- shlwapi/PathFindSuffixArray
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathFindSuffixArray
- - PathFindSuffixArrayA
- - PathFindSuffixArrayW
+- PathFindSuffixArray
+- PathFindSuffixArrayA
+- PathFindSuffixArrayW
 targetos: Windows
 req.typenames: 
 req.redist: 

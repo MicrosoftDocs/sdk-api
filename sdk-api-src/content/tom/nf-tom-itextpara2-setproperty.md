@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara2.SetProperty
 title: ITextPara2::SetProperty (tom.h)
-
 description: Sets the property value.
 old-location: controls\itextpara2_setproperty.htm
 tech.root: Controls
 ms.assetid: 5a95c055-5118-4c2a-8f63-3a2a3114451e
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetProperty method, ITextPara2.SetProperty, ITextPara2::SetProperty, SetProperty, SetProperty method [Windows Controls], SetProperty method [Windows Controls],ITextPara2 interface, controls.itextpara2_setproperty, tom/ITextPara2::SetProperty
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara2.SetProperty"
+f1_keywords:
+- tom/ITextPara2.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara2.SetProperty
+- ITextPara2.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

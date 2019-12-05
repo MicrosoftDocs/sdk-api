@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._SVSIF
 title: _SVSIF (shobjidl_core.h)
-
 description: Indicates flags used by IFolderView, IFolderView2, IShellView and IShellView2 to specify a type of selection to apply.
 old-location: shell\SVSIF.htm
 tech.root: shell
 ms.assetid: 3b0a7ec3-f365-48ec-86b0-ffd4c345deaf
-
 ms.date: 12/05/2018
 ms.keywords: SVSI_CHECK, SVSI_CHECK2, SVSI_DESELECT, SVSI_DESELECTOTHERS, SVSI_EDIT, SVSI_ENSUREVISIBLE, SVSI_FOCUSED, SVSI_KEYBOARDSELECT, SVSI_NOTAKEFOCUS, SVSI_POSITIONITEM, SVSI_SELECT, SVSI_SELECTIONMARK, SVSI_TRANSLATEPT, _SVSIF, _SVSIF enumeration [Windows Shell], _shell_SVSIF, shell.SVSIF, shobjidl_core/SVSI_CHECK, shobjidl_core/SVSI_CHECK2, shobjidl_core/SVSI_DESELECT, shobjidl_core/SVSI_DESELECTOTHERS, shobjidl_core/SVSI_EDIT, shobjidl_core/SVSI_ENSUREVISIBLE, shobjidl_core/SVSI_FOCUSED, shobjidl_core/SVSI_KEYBOARDSELECT, shobjidl_core/SVSI_NOTAKEFOCUS, shobjidl_core/SVSI_POSITIONITEM, shobjidl_core/SVSI_SELECT, shobjidl_core/SVSI_SELECTIONMARK, shobjidl_core/SVSI_TRANSLATEPT, shobjidl_core/_SVSIF
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/_SVSIF"
+f1_keywords:
+- shobjidl_core/_SVSIF
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - _SVSIF
+- _SVSIF
 targetos: Windows
-req.typenames: "_SVSIF"
+req.typenames: _SVSIF
 req.redist: 
 ms.custom: 19H1
 ---

@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsDeleteString
 title: WindowsDeleteString function (winstring.h)
-
 description: Decrements the reference count of a string buffer.
 old-location: winrt\windowsdeletestring.htm
 tech.root: WinRT
 ms.assetid: 79B9E5CF-396C-45FB-931B-7B50281A0446
-
 ms.date: 12/05/2018
 ms.keywords: WindowsDeleteString, WindowsDeleteString function [Windows Runtime], winrt.windowsdeletestring, winstring/WindowsDeleteString
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsDeleteString"
+f1_keywords:
+- winstring/WindowsDeleteString
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsDeleteString
+- WindowsDeleteString
 targetos: Windows
 req.typenames: 
 req.redist: 

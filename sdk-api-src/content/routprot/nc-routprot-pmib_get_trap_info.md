@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PMIB_GET_TRAP_INFO
 title: PMIB_GET_TRAP_INFO (routprot.h)
-
 description: The MibGetTrapInfo function queries the module that set a trap event for more information about the trap.
 old-location: rras\mibgettrapinfo.htm
 tech.root: RRAS
 ms.assetid: 2eb77b83-27bb-414b-8fbf-519d5e0cb08a
-
 ms.date: 12/05/2018
 ms.keywords: MibGetTrapInfo, MibGetTrapInfo callback function [RAS], PMIB_GET_TRAP_INFO, PMIB_GET_TRAP_INFO callback, _mpr_mibgettrapinfo, routprot/MibGetTrapInfo, rras.mibgettrapinfo
 ms.topic: callback
 f1_keywords:
 - routprot/MibGetTrapInfo
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

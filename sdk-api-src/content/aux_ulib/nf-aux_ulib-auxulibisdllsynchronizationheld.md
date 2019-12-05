@@ -1,19 +1,17 @@
 ---
 UID: NF:aux_ulib.AuxUlibIsDLLSynchronizationHeld
 title: AuxUlibIsDLLSynchronizationHeld function (aux_ulib.h)
-
 description: Determines whether the caller is holding a synchronization primitive.
 old-location: winprog\auxulibisdllsynchronizationheld.htm
 tech.root: DevNotes
 ms.assetid: fa2adb90-757c-4796-9842-e1f1a16d46fa
-
 ms.date: 12/05/2018
 ms.keywords: AuxUlibIsDLLSynchronizationHeld, AuxUlibIsDLLSynchronizationHeld function [Windows API], aux_ulib/AuxUlibIsDLLSynchronizationHeld, winprog.auxulibisdllsynchronizationheld
 ms.topic: function
-f1_keywords: 
- - "aux_ulib/AuxUlibIsDLLSynchronizationHeld"
+f1_keywords:
+- aux_ulib/AuxUlibIsDLLSynchronizationHeld
 dev_langs:
- - c++
+- c++
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Aux_ulib.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Aux_ulib.lib
+- Aux_ulib.lib
 api_name:
- - AuxUlibIsDLLSynchronizationHeld
+- AuxUlibIsDLLSynchronizationHeld
 targetos: Windows
 req.typenames: 
 req.redist: Windows Auxiliary API library version 2.0

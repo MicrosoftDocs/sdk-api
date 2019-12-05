@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertSelectCertificateChains
 title: CertSelectCertificateChains function (wincrypt.h)
-
 description: Retrieves certificate chains based on specified selection criteria.
 old-location: security\certselectcertificatechains.htm
 tech.root: SecCrypto
 ms.assetid: b740772b-d25b-4b3d-9acb-03f7018750d6
-
 ms.date: 12/05/2018
 ms.keywords: CERT_SELECT_ALLOW_DUPLICATES, CERT_SELECT_ALLOW_EXPIRED, CERT_SELECT_DISALLOW_SELFSIGNED, CERT_SELECT_HARDWARE_ONLY, CERT_SELECT_HAS_KEY_FOR_KEY_EXCHANGE, CERT_SELECT_HAS_KEY_FOR_SIGNATURE, CERT_SELECT_HAS_PRIVATE_KEY, CERT_SELECT_TRUSTED_ROOT, CertSelectCertificateChains, CertSelectCertificateChains function [Security], security.certselectcertificatechains, wincrypt/CertSelectCertificateChains
 ms.topic: function
 f1_keywords:
 - wincrypt/CertSelectCertificateChains
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

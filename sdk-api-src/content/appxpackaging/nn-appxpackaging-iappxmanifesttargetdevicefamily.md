@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestTargetDeviceFamily
 title: IAppxManifestTargetDeviceFamily (appxpackaging.h)
-
 description: Retrieves information about the target device family from the AppxManifest.xml.
 old-location: appxpkg\iappxmanifesttargetdevicefamily.htm
 tech.root: appxpkg
 ms.assetid: 52C2950B-FB7F-44A8-BAB5-BCC238B012FE
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestTargetDeviceFamily, IAppxManifestTargetDeviceFamily interface [App packaging and management], IAppxManifestTargetDeviceFamily interface [App packaging and management],described, appxpackaging/IAppxManifestTargetDeviceFamily, appxpkg.iappxmanifesttargetdevicefamily
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestTargetDeviceFamily"
+f1_keywords:
+- appxpackaging/IAppxManifestTargetDeviceFamily
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestTargetDeviceFamily
+- IAppxManifestTargetDeviceFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessor
 title: ID3D11VideoProcessor (d3d11.h)
-
 description: Represents a video processor for Microsoft Direct3D 11.
 old-location: mf\id3d11videoprocessor.htm
 tech.root: medfound
 ms.assetid: AF6F6781-A7F9-4196-8E91-FDFDD1924E24
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessor, ID3D11VideoProcessor interface [Media Foundation], ID3D11VideoProcessor interface [Media Foundation],described, d3d11/ID3D11VideoProcessor, mf.id3d11videoprocessor
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessor"
+f1_keywords:
+- d3d11/ID3D11VideoProcessor
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessor
+- ID3D11VideoProcessor
 targetos: Windows
 req.typenames: 
 req.redist: 

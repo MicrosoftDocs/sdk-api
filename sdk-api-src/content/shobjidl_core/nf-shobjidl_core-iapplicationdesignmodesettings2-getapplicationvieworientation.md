@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.GetApplicationViewOrientation
 title: IApplicationDesignModeSettings2::GetApplicationViewOrientation (shobjidl_core.h)
-
 description: Gets the orientation of the application design mode window.
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationViewOrientation.htm
 tech.root: shell
 ms.assetid: D6DF8432-7D37-4D39-9E08-2F5B874A0BCB
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationViewOrientation, GetApplicationViewOrientation method [Windows Shell], GetApplicationViewOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, IApplicationDesignModeSettings2 interface [Windows Shell],GetApplicationViewOrientation method, IApplicationDesignModeSettings2.GetApplicationViewOrientation, IApplicationDesignModeSettings2::GetApplicationViewOrientation, shell.IApplicationDesignModeSettings2_GetApplicationViewOrientation, shobjidl_core/IApplicationDesignModeSettings2::GetApplicationViewOrientation
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDesignModeSettings2.GetApplicationViewOrientation"
+f1_keywords:
+- shobjidl_core/IApplicationDesignModeSettings2.GetApplicationViewOrientation
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Twinapi.lib
 req.dll: Twinapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - twinapi.dll
+- twinapi.dll
 api_name:
- - IApplicationDesignModeSettings2.GetApplicationViewOrientation
+- IApplicationDesignModeSettings2.GetApplicationViewOrientation
 targetos: Windows
 req.typenames: 
 req.redist: 

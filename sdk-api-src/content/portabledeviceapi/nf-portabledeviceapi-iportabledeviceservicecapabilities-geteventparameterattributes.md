@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetEventParameterAttributes
 title: IPortableDeviceServiceCapabilities::GetEventParameterAttributes (portabledeviceapi.h)
-
 description: Retrieves the attributes of an event parameter.
 old-location: wpdsdk\iportabledeviceservicecapabilities_geteventparameterattributes.htm
 tech.root: wpd_sdk
 ms.assetid: f842dc94-440f-4488-80e3-b10bf72e6269
-
 ms.date: 12/05/2018
 ms.keywords: GetEventParameterAttributes, GetEventParameterAttributes method [Windows Portable Devices SDK], GetEventParameterAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetEventParameterAttributes method, IPortableDeviceServiceCapabilities.GetEventParameterAttributes, IPortableDeviceServiceCapabilities::GetEventParameterAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventParameterAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventparameterattributes
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetEventParameterAttributes"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceCapabilities.GetEventParameterAttributes
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetEventParameterAttributes
+- IPortableDeviceServiceCapabilities.GetEventParameterAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

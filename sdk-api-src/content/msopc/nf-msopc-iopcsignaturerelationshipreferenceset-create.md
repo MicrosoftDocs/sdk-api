@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceSet.Create
 title: IOpcSignatureRelationshipReferenceSet::Create (msopc.h)
-
 description: Creates an IOpcSignatureRelationshipReference interface pointer that represents a reference to a Relationships part, and adds the new interface pointer to the set.
 old-location: opc\iopcsignaturerelationshipreferenceset_create.htm
 tech.root: OPC
 ms.assetid: c348ac25-f2b3-491d-b378-f0daf282b1ca
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Open Packaging Conventions], Create method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceSet interface, IOpcSignatureRelationshipReferenceSet interface [Open Packaging Conventions],Create method, IOpcSignatureRelationshipReferenceSet.Create, IOpcSignatureRelationshipReferenceSet::Create, msopc/IOpcSignatureRelationshipReferenceSet::Create, opc.iopcsignaturerelationshipreferenceset_create
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReferenceSet.Create"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReferenceSet.Create
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReferenceSet.Create
+- IOpcSignatureRelationshipReferenceSet.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

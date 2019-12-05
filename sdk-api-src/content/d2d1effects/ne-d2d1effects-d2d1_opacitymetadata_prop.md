@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_OPACITYMETADATA_PROP
 title: D2D1_OPACITYMETADATA_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Opacity metadata effect.
 old-location: direct2d\d2d1_opacitymetadata_prop.htm
 tech.root: Direct2D
 ms.assetid: D8BA5767-EDB0-4BD0-9B07-9009DB1FD678
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_OPACITYMETADATA_PROP, D2D1_OPACITYMETADATA_PROP enumeration [Direct2D], D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT, d2d1effects/D2D1_OPACITYMETADATA_PROP, d2d1effects/D2D1_OPACITYMETADATA_PROP_INPUT_OPAQUE_RECT, direct2d.d2d1_opacitymetadata_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_OPACITYMETADATA_PROP"
+f1_keywords:
+- d2d1effects/D2D1_OPACITYMETADATA_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_OPACITYMETADATA_PROP
+- D2D1_OPACITYMETADATA_PROP
 targetos: Windows
 req.typenames: D2D1_OPACITYMETADATA_PROP
 req.redist: 

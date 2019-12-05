@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemEventProviderQuerySink.NewQuery
 title: IWbemEventProviderQuerySink::NewQuery (wbemprov.h)
-
 description: Call the IWbemEventProviderQuerySink::NewQuery method when a logical event consumer registers a relevant event query filter with Windows Management.
 old-location: wmi\iwbemeventproviderquerysink_newquery.htm
 tech.root: WmiSdk
 ms.assetid: 82f76b19-2035-4567-b619-31ce8a35e422
-
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProviderQuerySink interface [Windows Management Instrumentation],NewQuery method, IWbemEventProviderQuerySink.NewQuery, IWbemEventProviderQuerySink::NewQuery, NewQuery, NewQuery method [Windows Management Instrumentation], NewQuery method [Windows Management Instrumentation],IWbemEventProviderQuerySink interface, _hmm_iwbemeventproviderquerysink_newquery, wbemprov/IWbemEventProviderQuerySink::NewQuery, wmi.iwbemeventproviderquerysink_newquery
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemEventProviderQuerySink.NewQuery"
+f1_keywords:
+- wbemprov/IWbemEventProviderQuerySink.NewQuery
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemEventProviderQuerySink.NewQuery
+- IWbemEventProviderQuerySink.NewQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

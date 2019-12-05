@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.CALL_STATE_EVENT_CAUSE
 title: CALL_STATE_EVENT_CAUSE (tapi3if.h)
-
 description: The CALL_STATE_EVENT_CAUSE enum is returned by the ITCallStateEvent::get_Cause method.
 old-location: tapi3\call_state_event_cause.htm
 tech.root: Tapi
 ms.assetid: 9bc9e050-41f7-4330-a263-db745d3fa3f8
-
 ms.date: 12/05/2018
 ms.keywords: CALL_STATE_EVENT_CAUSE, CALL_STATE_EVENT_CAUSE enumeration [TAPI 2.2], CEC_DISCONNECT_BADADDRESS, CEC_DISCONNECT_BUSY, CEC_DISCONNECT_CANCELLED, CEC_DISCONNECT_FAILED, CEC_DISCONNECT_NOANSWER, CEC_DISCONNECT_NORMAL, CEC_DISCONNECT_REJECTED, CEC_NONE, _tapi3_call_state_event_cause, tapi3.call_state_event_cause, tapi3if/CALL_STATE_EVENT_CAUSE, tapi3if/CEC_DISCONNECT_BADADDRESS, tapi3if/CEC_DISCONNECT_BUSY, tapi3if/CEC_DISCONNECT_CANCELLED, tapi3if/CEC_DISCONNECT_FAILED, tapi3if/CEC_DISCONNECT_NOANSWER, tapi3if/CEC_DISCONNECT_NORMAL, tapi3if/CEC_DISCONNECT_REJECTED, tapi3if/CEC_NONE
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/CALL_STATE_EVENT_CAUSE"
+f1_keywords:
+- tapi3if/CALL_STATE_EVENT_CAUSE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - CALL_STATE_EVENT_CAUSE
+- CALL_STATE_EVENT_CAUSE
 targetos: Windows
 req.typenames: CALL_STATE_EVENT_CAUSE
 req.redist: 

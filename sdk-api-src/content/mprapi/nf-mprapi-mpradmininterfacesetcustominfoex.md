@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceSetCustomInfoEx
 title: MprAdminInterfaceSetCustomInfoEx function (mprapi.h)
-
 description: Sets the tunnel specific custom configuration for a specified demand dial interface on a specified server.
 old-location: rras\mpradmininterfacesetcustominfoex.htm
 tech.root: RRAS
 ms.assetid: 306d9d6c-6196-4a1f-8549-f8dd0fb5ab6f
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCustomInfoEx, MprAdminInterfaceSetCustomInfoEx function [RAS], mprapi/MprAdminInterfaceSetCustomInfoEx, rras.mpradmininterfacesetcustominfoex
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceSetCustomInfoEx
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

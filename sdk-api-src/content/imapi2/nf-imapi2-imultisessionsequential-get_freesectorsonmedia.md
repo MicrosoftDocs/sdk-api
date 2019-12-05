@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_FreeSectorsOnMedia
 title: IMultisessionSequential::get_FreeSectorsOnMedia (imapi2.h)
-
 description: Retrieves the number of free sectors available on the media.
 old-location: imapi\imultisessionsequential_get_freesectorsonmedia.htm
 tech.root: imapi
 ms.assetid: d308a080-8858-4d80-8203-bce9f8d9bed6
-
 ms.date: 12/05/2018
 ms.keywords: IMultisessionSequential interface [IMAPI],get_FreeSectorsOnMedia method, IMultisessionSequential.get_FreeSectorsOnMedia, IMultisessionSequential::get_FreeSectorsOnMedia, get_FreeSectorsOnMedia, get_FreeSectorsOnMedia method [IMAPI], get_FreeSectorsOnMedia method [IMAPI],IMultisessionSequential interface, imapi.imultisessionsequential_get_freesectorsonmedia, imapi2/IMultisessionSequential::get_FreeSectorsOnMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IMultisessionSequential.get_FreeSectorsOnMedia"
+f1_keywords:
+- imapi2/IMultisessionSequential.get_FreeSectorsOnMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisessionSequential.get_FreeSectorsOnMedia
+- IMultisessionSequential.get_FreeSectorsOnMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

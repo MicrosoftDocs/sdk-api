@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwPolicy
 title: INetFwPolicy (netfw.h)
-
 description: The INetFwPolicy interface provides access to a firewall policy.
 old-location: ics\inetfwpolicy.htm
 tech.root: ics
 ms.assetid: 8bfe55b6-c38d-47f8-9160-a304a85eb67f
-
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy, INetFwPolicy interface [ICS/ICF], INetFwPolicy interface [ICS/ICF],described, ics.inetfwpolicy, netfw/INetFwPolicy
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwPolicy"
+f1_keywords:
+- netfw/INetFwPolicy
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwPolicy
+- INetFwPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

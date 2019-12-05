@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.FilterView
 title: IShellFolderViewDual3::FilterView (shldisp.h)
-
 description: Sets the filter on the contents of the current view.
 old-location: shell\IShellFolderViewDual3_FilterView.htm
 tech.root: shell
 ms.assetid: 60808015-317e-469f-aa28-a2c2bfdb16a8
-
 ms.date: 12/05/2018
 ms.keywords: FilterView, FilterView method [Windows Shell], FilterView method [Windows Shell],IShellFolderViewDual3 interface, IShellFolderViewDual3 interface [Windows Shell],FilterView method, IShellFolderViewDual3.FilterView, IShellFolderViewDual3::FilterView, _shell_IShellFolderViewDual3_FilterView, shell.IShellFolderViewDual3_FilterView, shldisp/IShellFolderViewDual3::FilterView
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual3.FilterView"
+f1_keywords:
+- shldisp/IShellFolderViewDual3.FilterView
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual3.FilterView
+- IShellFolderViewDual3.FilterView
 targetos: Windows
 req.typenames: 
 req.redist: 

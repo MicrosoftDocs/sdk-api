@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.AbortList
 title: ICustomDestinationList::AbortList (shobjidl_core.h)
-
 description: Discontinues a Jump List building session initiated by ICustomDestinationList::BeginList without committing any changes.
 old-location: shell\ICustomDestinationList_AbortList.htm
 tech.root: shell
 ms.assetid: 922eb957-8031-4b4c-9b13-78a86f199bfa
-
 ms.date: 12/05/2018
 ms.keywords: AbortList, AbortList method [Windows Shell], AbortList method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],AbortList method, ICustomDestinationList.AbortList, ICustomDestinationList::AbortList, _shell_ICustomDestinationList_AbortList, shell.ICustomDestinationList_AbortList, shobjidl_core/ICustomDestinationList::AbortList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICustomDestinationList.AbortList"
+f1_keywords:
+- shobjidl_core/ICustomDestinationList.AbortList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICustomDestinationList.AbortList
+- ICustomDestinationList.AbortList
 targetos: Windows
 req.typenames: 
 req.redist: 

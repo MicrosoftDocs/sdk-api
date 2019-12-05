@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyBufferRegion
 title: ID3D12GraphicsCommandList::CopyBufferRegion (d3d12.h)
-
 description: Copies a region of a buffer from one resource to another.
 old-location: direct3d12\id3d12graphicscommandlist_copybufferregion.htm
 tech.root: direct3d12
 ms.assetid: 46F89B85-EDAA-4095-B6C6-4CC47F972F09
-
 ms.date: 12/05/2018
 ms.keywords: CopyBufferRegion, CopyBufferRegion method, CopyBufferRegion method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,CopyBufferRegion method, ID3D12GraphicsCommandList.CopyBufferRegion, ID3D12GraphicsCommandList::CopyBufferRegion, d3d12/ID3D12GraphicsCommandList::CopyBufferRegion, direct3d12.id3d12graphicscommandlist_copybufferregion
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.CopyBufferRegion"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.CopyBufferRegion
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.CopyBufferRegion
+- ID3D12GraphicsCommandList.CopyBufferRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

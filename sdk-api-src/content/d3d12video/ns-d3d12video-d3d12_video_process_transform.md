@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_TRANSFORM
 title: D3D12_VIDEO_PROCESS_TRANSFORM
-
 description: Specifies transform parameters for video processing.
 tech.root: mf
 ms.assetid: 1939e664-81b1-4138-8103-3d721e38d19a
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_PROCESS_TRANSFORM
+- D3D12_VIDEO_PROCESS_TRANSFORM
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_PROCESS_TRANSFORM, D3D12_VIDEO_PROCESS_TRANSFORM, 
+- c++
+ms.keywords: D3D12_VIDEO_PROCESS_TRANSFORM, D3D12_VIDEO_PROCESS_TRANSFORM,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_TRANSFORM
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_PROCESS_TRANSFORM
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_PROCESS_TRANSFORM
 targetos: Windows
 ---
 

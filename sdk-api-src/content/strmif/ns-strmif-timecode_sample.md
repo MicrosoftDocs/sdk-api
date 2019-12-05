@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagTIMECODE_SAMPLE
 title: TIMECODE_SAMPLE (strmif.h)
-
 description: The TIMECODE_SAMPLE structure contains complete timecode information.
 old-location: dshow\timecode_sample.htm
 tech.root: DirectShow
 ms.assetid: 7b17e152-99eb-4d6d-a8b1-bf4ef7ab83be
-
 ms.date: 12/05/2018
-ms.keywords: "*PTIMECODE_SAMPLE, AM_TIMECODE_COLORFRAME, AM_TIMECODE_COLORSEQUENCE, AM_TIMECODE_FILMSEQUENCE_TYPE, AM_TIMECODE_FLAG_CF, AM_TIMECODE_FLAG_DF, AM_TIMECODE_FLAG_FCM, AM_TIMECODE_FLAG_FIELD, ED_DEVCAP_ATN_READ, ED_DEVCAP_RTC_READ, ED_DEVCAP_TIMECODE_READ, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [DirectShow], TIMECODE_SAMPLEStructure, dshow.timecode_sample, strmif/TIMECODE_SAMPLE, tagTIMECODE_SAMPLE"
+ms.keywords: '*PTIMECODE_SAMPLE, AM_TIMECODE_COLORFRAME, AM_TIMECODE_COLORSEQUENCE, AM_TIMECODE_FILMSEQUENCE_TYPE, AM_TIMECODE_FLAG_CF, AM_TIMECODE_FLAG_DF, AM_TIMECODE_FLAG_FCM, AM_TIMECODE_FLAG_FIELD, ED_DEVCAP_ATN_READ, ED_DEVCAP_RTC_READ, ED_DEVCAP_TIMECODE_READ, TIMECODE_SAMPLE, TIMECODE_SAMPLE structure [DirectShow], TIMECODE_SAMPLEStructure, dshow.timecode_sample, strmif/TIMECODE_SAMPLE, tagTIMECODE_SAMPLE'
 ms.topic: struct
-f1_keywords: 
- - "strmif/TIMECODE_SAMPLE"
+f1_keywords:
+- strmif/TIMECODE_SAMPLE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - TIMECODE_SAMPLE
+- TIMECODE_SAMPLE
 targetos: Windows
 req.typenames: TIMECODE_SAMPLE
 req.redist: 

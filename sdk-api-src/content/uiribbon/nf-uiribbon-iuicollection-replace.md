@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICollection.Replace
 title: IUICollection::Replace (uiribbon.h)
-
 description: Replaces an item at the specified index of the IUICollection with another item.
 old-location: windowsribbon\windowsribbon_iuicollection_replace.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\replace.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Replace method, IUICollection.Replace, IUICollection::Replace, Replace, Replace method [Windows Ribbon], Replace method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Replace, uiribbon/IUICollection::Replace, windowsribbon.windowsribbon_iuicollection_replace
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICollection.Replace"
+f1_keywords:
+- uiribbon/IUICollection.Replace
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICollection.Replace
+- IUICollection.Replace
 targetos: Windows
 req.typenames: 
 req.redist: 

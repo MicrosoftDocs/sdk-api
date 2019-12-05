@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.ModifyItemState
 title: IResultData::ModifyItemState (mmc.h)
-
 description: Enables the snap-in to modify the state of an item.
 old-location: mmc\iresultdata_modifyitemstate.htm
 tech.root: mmc
 ms.assetid: f7eb7a23-27e6-40f3-a2f3-139ad1d3cde0
-
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],ModifyItemState method, IResultData.ModifyItemState, IResultData2 interface [MMC],ModifyItemState method, IResultData2::ModifyItemState, IResultData::ModifyItemState, LVIS_CUT, LVIS_DROPHILITED, LVIS_FOCUSED, LVIS_SELECTED, ModifyItemState, ModifyItemState method [MMC], ModifyItemState method [MMC],IResultData interface, ModifyItemState method [MMC],IResultData2 interface, _slate_iresultdata_modifyitemstate, mmc.iresultdata_modifyitemstate, mmc/IResultData2::ModifyItemState, mmc/IResultData::ModifyItemState
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.ModifyItemState"
+f1_keywords:
+- mmc/IResultData.ModifyItemState
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.ModifyItemState
- - IResultData2.ModifyItemState
+- IResultData.ModifyItemState
+- IResultData2.ModifyItemState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICrmCompensatorVariants
 title: ICrmCompensatorVariants (comsvcs.h)
-
 description: Delivers structured log records to the CRM Compensator when using Microsoft Visual Basic.
 old-location: cos\icrmcompensatorvariants.htm
 tech.root: cossdk
 ms.assetid: 44b80062-b2bb-4c34-b9e1-31229c8e40ca
-
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensatorVariants, ICrmCompensatorVariants interface [COM+], ICrmCompensatorVariants interface [COM+],described, _dtc_ICrmCompensatorVariants_Interface, comsvcs/ICrmCompensatorVariants, cos.icrmcompensatorvariants
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICrmCompensatorVariants"
+f1_keywords:
+- comsvcs/ICrmCompensatorVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensatorVariants
+- ICrmCompensatorVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

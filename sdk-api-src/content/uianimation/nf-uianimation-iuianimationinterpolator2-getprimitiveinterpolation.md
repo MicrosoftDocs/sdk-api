@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator2.GetPrimitiveInterpolation
 title: IUIAnimationInterpolator2::GetPrimitiveInterpolation (uianimation.h)
-
 description: Generates a primitive interpolation of the specified animation curve.
 old-location: uianimation\iuianimationinterpolator2_getprimitiveinterpolation.htm
 tech.root: UIAnimation
 ms.assetid: E3CE4D97-08C8-46F4-B8B0-42CA4212DF50
-
 ms.date: 12/05/2018
 ms.keywords: GetPrimitiveInterpolation, GetPrimitiveInterpolation method [Windows Animation], GetPrimitiveInterpolation method [Windows Animation],IUIAnimationInterpolator2 interface, IUIAnimationInterpolator2 interface [Windows Animation],GetPrimitiveInterpolation method, IUIAnimationInterpolator2.GetPrimitiveInterpolation, IUIAnimationInterpolator2::GetPrimitiveInterpolation, uianimation.iuianimationinterpolator2_getprimitiveinterpolation, uianimation/IUIAnimationInterpolator2::GetPrimitiveInterpolation
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationInterpolator2.GetPrimitiveInterpolation"
+f1_keywords:
+- uianimation/IUIAnimationInterpolator2.GetPrimitiveInterpolation
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator2.GetPrimitiveInterpolation
+- IUIAnimationInterpolator2.GetPrimitiveInterpolation
 targetos: Windows
 req.typenames: 
 req.redist: 

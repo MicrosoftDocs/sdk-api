@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetClusterNetInterfaceState
 title: GetClusterNetInterfaceState function (clusapi.h)
-
 description: Returns the current state of a network interface.
 old-location: mscs\getclusternetinterfacestate.htm
 tech.root: MsCS
 ms.assetid: d84a5e3f-d0f9-4345-b008-e15c277dcbd5
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterNetInterfaceState, GetClusterNetInterfaceState function [Failover Cluster], PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE function [Failover Cluster], _wolf_getclusternetinterfacestate, clusapi/GetClusterNetInterfaceState, clusapi/PCLUSAPI_GET_CLUSTER_NET_INTERFACE_STATE, mscs.getclusternetinterfacestate
 ms.topic: function
-f1_keywords: 
- - "clusapi/GetClusterNetInterfaceState"
+f1_keywords:
+- clusapi/GetClusterNetInterfaceState
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - GetClusterNetInterfaceState
+- GetClusterNetInterfaceState
 targetos: Windows
 req.typenames: 
 req.redist: 

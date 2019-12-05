@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.BindToFilter
 title: IUrlAccessor::BindToFilter (searchapi.h)
-
 description: Binds the item being processed to the appropriate IFilterand retrieves a pointer to the IFilter.
 old-location: search\_search_IUrlAccessor_BindToFilter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\bindtofilter.htm
-
 ms.date: 12/05/2018
 ms.keywords: BindToFilter, BindToFilter method [search], BindToFilter method [search],IUrlAccessor interface, IUrlAccessor interface [search],BindToFilter method, IUrlAccessor.BindToFilter, IUrlAccessor::BindToFilter, _search_IUrlAccessor_BindToFilter, search._search_IUrlAccessor_BindToFilter, searchapi/IUrlAccessor::BindToFilter
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.BindToFilter"
+f1_keywords:
+- searchapi/IUrlAccessor.BindToFilter
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.BindToFilter
+- IUrlAccessor.BindToFilter
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingEveryConnectionCollection.get_Count
 title: INetSharingEveryConnectionCollection::get_Count (netcon.h)
-
 description: The get__Count method retrieves the number of items in the connections collection.
 old-location: ics\inetsharingeveryconnectioncollection_get_count.htm
 tech.root: ics
 ms.assetid: c387ab2c-7edd-4975-a735-d555dd7191cf
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingEveryConnectionCollection interface [ICS/ICF],get_Count method, INetSharingEveryConnectionCollection.get_Count, INetSharingEveryConnectionCollection::get_Count, _ics_inetsharingeveryconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingEveryConnectionCollection interface, ics.inetsharingeveryconnectioncollection_get_count, netcon/INetSharingEveryConnectionCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingEveryConnectionCollection.get_Count"
+f1_keywords:
+- netcon/INetSharingEveryConnectionCollection.get_Count
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingEveryConnectionCollection.get_Count
+- INetSharingEveryConnectionCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

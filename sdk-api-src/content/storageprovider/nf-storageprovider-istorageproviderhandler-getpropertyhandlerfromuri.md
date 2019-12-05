@@ -1,19 +1,17 @@
 ---
 UID: NF:storageprovider.IStorageProviderHandler.GetPropertyHandlerFromUri
 title: IStorageProviderHandler::GetPropertyHandlerFromUri (storageprovider.h)
-
 description: Gets an instance of IStorageProviderPropertyHandler associated with the provided URI.
 old-location: shell\istorageproviderhandler_getpropertyhandlerfromuri.htm
 tech.root: shell
 ms.assetid: C02A9690-1E98-4960-B5E7-E75BDAAF9A62
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyHandlerFromUri, GetPropertyHandlerFromUri method [Windows Shell], GetPropertyHandlerFromUri method [Windows Shell],IStorageProviderHandler interface, IStorageProviderHandler interface [Windows Shell],GetPropertyHandlerFromUri method, IStorageProviderHandler.GetPropertyHandlerFromUri, IStorageProviderHandler::GetPropertyHandlerFromUri, shell.istorageproviderhandler_getpropertyhandlerfromuri, storageprovider/IStorageProviderHandler::GetPropertyHandlerFromUri
 ms.topic: method
-f1_keywords: 
- - "storageprovider/IStorageProviderHandler.GetPropertyHandlerFromUri"
+f1_keywords:
+- storageprovider/IStorageProviderHandler.GetPropertyHandlerFromUri
 dev_langs:
- - c++
+- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - storageprovider.h
+- storageprovider.h
 api_name:
- - IStorageProviderHandler.GetPropertyHandlerFromUri
+- IStorageProviderHandler.GetPropertyHandlerFromUri
 targetos: Windows
 req.typenames: 
 req.redist: 

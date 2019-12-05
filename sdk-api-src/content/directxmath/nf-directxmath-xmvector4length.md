@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4Length
 title: XMVector4Length function (directxmath.h)
-
 description: Computes the length of a 4D vector.
 old-location: dxmath\xmvector4length.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4Length(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Length, XMVector4Length, XMVector4Length method [DirectX Math Support APIs], dxmath.xmvector4length
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4Length"
+f1_keywords:
+- directxmath/XMVector4Length
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4Length
+- XMVector4Length
 targetos: Windows
 req.typenames: 
 req.redist: 

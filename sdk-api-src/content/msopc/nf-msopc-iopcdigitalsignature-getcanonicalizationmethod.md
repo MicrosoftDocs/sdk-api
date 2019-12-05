@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCanonicalizationMethod
 title: IOpcDigitalSignature::GetCanonicalizationMethod (msopc.h)
-
 description: Gets the canonicalization method that was applied to the SignedInfo element of the serialized signature.
 old-location: opc\iopcdigitalsignature_getcanonicalizationmethod.htm
 tech.root: OPC
 ms.assetid: 59c89909-6e35-4210-b76c-c820a9bb0d8e
-
 ms.date: 12/05/2018
 ms.keywords: GetCanonicalizationMethod, GetCanonicalizationMethod method [Open Packaging Conventions], GetCanonicalizationMethod method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetCanonicalizationMethod method, IOpcDigitalSignature.GetCanonicalizationMethod, IOpcDigitalSignature::GetCanonicalizationMethod, msopc/IOpcDigitalSignature::GetCanonicalizationMethod, opc.iopcdigitalsignature_getcanonicalizationmethod
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetCanonicalizationMethod"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetCanonicalizationMethod
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetCanonicalizationMethod
+- IOpcDigitalSignature.GetCanonicalizationMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

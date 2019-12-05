@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2NormalizeEst
 title: XMVector2NormalizeEst function (directxmath.h)
-
 description: Estimates the normalized version of a 2D vector.
 old-location: dxmath\xmvector2normalizeest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2NormalizeEst(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2NormalizeEst, XMVector2NormalizeEst, XMVector2NormalizeEst method [DirectX Math Support APIs], dxmath.xmvector2normalizeest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2NormalizeEst"
+f1_keywords:
+- directxmath/XMVector2NormalizeEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2NormalizeEst
+- XMVector2NormalizeEst
 targetos: Windows
 req.typenames: 
 req.redist: 

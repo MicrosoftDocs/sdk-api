@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetQueryDataAvailable
 title: InternetQueryDataAvailable function (wininet.h)
-
 description: Queries the server to determine the amount of data available.
 old-location: wininet\internetquerydataavailable.htm
 tech.root: wininet
 ms.assetid: fea8250d-f260-421f-b4dd-14b8685e8dac
-
 ms.date: 12/05/2018
 ms.keywords: InternetQueryDataAvailable, InternetQueryDataAvailable function [WinINet], _inet_internetquerydataavailable_function, wininet.internetquerydataavailable, wininet/InternetQueryDataAvailable
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetQueryDataAvailable"
+f1_keywords:
+- wininet/InternetQueryDataAvailable
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetQueryDataAvailable
+- InternetQueryDataAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

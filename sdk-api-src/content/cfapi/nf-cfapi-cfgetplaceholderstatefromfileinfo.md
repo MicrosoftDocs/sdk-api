@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderStateFromFileInfo
 title: CfGetPlaceholderStateFromFileInfo function (cfapi.h)
-
 description: Gets a set of placeholder states based on the various information of the file.
 old-location: cloudapi\cfgetplaceholderstatefromfileinfo.htm
 tech.root: cfApi
 ms.assetid: 33DB8FAC-D2C9-4BBB-8505-1D9A680EA2BF
-
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderStateFromFileInfo, CfGetPlaceholderStateFromFileInfo function, cfapi/CfGetPlaceholderStateFromFileInfo, cloudApi.cfgetplaceholderstatefromfileinfo
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfGetPlaceholderStateFromFileInfo"
+f1_keywords:
+- cfapi/CfGetPlaceholderStateFromFileInfo
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfGetPlaceholderStateFromFileInfo
+- CfGetPlaceholderStateFromFileInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

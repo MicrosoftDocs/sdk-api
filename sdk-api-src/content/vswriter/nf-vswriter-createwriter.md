@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CreateWriter
 title: CreateWriter function (vswriter.h)
-
 description: This function is reserved for system use.
 old-location: base\createwriter.htm
 tech.root: VSS
 ms.assetid: d459f025-3c47-4c9b-9fed-2da31aa63102
-
 ms.date: 12/05/2018
 ms.keywords: CreateWriter, CreateWriter function, base.createwriter, vswriter/CreateWriter
 ms.topic: function
-f1_keywords: 
- - "vswriter/CreateWriter"
+f1_keywords:
+- vswriter/CreateWriter
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vswriter.h
+- vswriter.h
 api_name:
- - CreateWriter
+- CreateWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

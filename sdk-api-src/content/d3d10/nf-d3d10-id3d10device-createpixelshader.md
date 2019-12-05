@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreatePixelShader
 title: ID3D10Device::CreatePixelShader (d3d10.h)
-
 description: Create a pixel shader.
 old-location: direct3d10\id3d10device_createpixelshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createpixelshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreatePixelShader, CreatePixelShader method [Direct3D 10], CreatePixelShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreatePixelShader method, ID3D10Device.CreatePixelShader, ID3D10Device::CreatePixelShader, d3d10/ID3D10Device::CreatePixelShader, direct3d10.id3d10device_createpixelshader, eaddd998-99a2-ab8d-51dd-98d72c93e291
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreatePixelShader"
+f1_keywords:
+- d3d10/ID3D10Device.CreatePixelShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreatePixelShader
+- ID3D10Device.CreatePixelShader
 targetos: Windows
 req.typenames: 
 req.redist: 

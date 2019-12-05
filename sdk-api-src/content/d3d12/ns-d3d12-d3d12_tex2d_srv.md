@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_SRV
 title: D3D12_TEX2D_SRV (d3d12.h)
-
 description: Describes the subresource from a 2D texture to use in a shader-resource view.
 old-location: direct3d12\d3d12_tex2d_srv.htm
 tech.root: direct3d12
 ms.assetid: BBD60A25-99C7-4C11-87F0-9E1D678EC44E
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEX2D_SRV, D3D12_TEX2D_SRV structure, d3d12/D3D12_TEX2D_SRV, direct3d12.d3d12_tex2d_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_TEX2D_SRV"
+f1_keywords:
+- d3d12/D3D12_TEX2D_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_TEX2D_SRV
+- D3D12_TEX2D_SRV
 targetos: Windows
 req.typenames: D3D12_TEX2D_SRV
 req.redist: 

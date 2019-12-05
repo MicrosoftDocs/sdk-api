@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMVfwCaptureDialogs
 title: IAMVfwCaptureDialogs (strmif.h)
-
 description: The IAMVfwCaptureDialogs interface displays a dialog box provided by a Video for Windows (VFW) capture driver.The VFW Capture filter implements this interface.
 old-location: dshow\iamvfwcapturedialogs.htm
 tech.root: DirectShow
 ms.assetid: 5198c80c-28f3-4b5c-9b3b-aa502bf3a384
-
 ms.date: 12/05/2018
 ms.keywords: IAMVfwCaptureDialogs, IAMVfwCaptureDialogs interface [DirectShow], IAMVfwCaptureDialogs interface [DirectShow],described, IAMVfwCaptureDialogsInterface, dshow.iamvfwcapturedialogs, strmif/IAMVfwCaptureDialogs
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMVfwCaptureDialogs"
+f1_keywords:
+- strmif/IAMVfwCaptureDialogs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVfwCaptureDialogs
+- IAMVfwCaptureDialogs
 targetos: Windows
 req.typenames: 
 req.redist: 

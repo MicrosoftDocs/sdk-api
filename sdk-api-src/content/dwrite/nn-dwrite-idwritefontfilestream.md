@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteFontFileStream
 title: IDWriteFontFileStream (dwrite.h)
-
 description: Loads font file data from a custom font file loader.
 old-location: directwrite\IDWriteFontFileStream.htm
 tech.root: DirectWrite
 ms.assetid: 792ab9be-853f-427d-a762-2da8e81423f8
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileStream, IDWriteFontFileStream interface [Direct Write], IDWriteFontFileStream interface [Direct Write],described, directwrite.IDWriteFontFileStream, dwrite/IDWriteFontFileStream
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteFontFileStream"
+f1_keywords:
+- dwrite/IDWriteFontFileStream
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFileStream
+- IDWriteFontFileStream
 targetos: Windows
 req.typenames: 
 req.redist: 

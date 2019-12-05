@@ -1,19 +1,17 @@
 ---
 UID: NN:effects.IWMPEffects
 title: IWMPEffects (effects.h)
-
 description: IWMPEffects interface
 old-location: wmp\iwmpeffects.htm
 tech.root: WMP
 ms.assetid: 0f2a6bda-3e1f-4509-b8ff-ccf0909aa9ba
-
 ms.date: 12/05/2018
 ms.keywords: EffectsInterface, IWMPEffects, IWMPEffects interface [Windows Media Player], IWMPEffects interface [Windows Media Player],described, effects/IWMPEffects, wmp.iwmpeffects
 ms.topic: interface
-f1_keywords: 
- - "effects/IWMPEffects"
+f1_keywords:
+- effects/IWMPEffects
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects
+- IWMPEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

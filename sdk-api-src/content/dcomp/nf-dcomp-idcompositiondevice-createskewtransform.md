@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSkewTransform
 title: IDCompositionDevice::CreateSkewTransform (dcomp.h)
-
 description: Creates a 2D skew transform object.
 old-location: directcomp\idcompositiondevice_createskewtransform.htm
 tech.root: directcomp
 ms.assetid: c67d1c75-8704-44b3-8794-58cf08ea2572
-
 ms.date: 12/05/2018
 ms.keywords: CreateSkewTransform, CreateSkewTransform method [DirectComposition], CreateSkewTransform method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],CreateSkewTransform method, IDCompositionDevice.CreateSkewTransform, IDCompositionDevice::CreateSkewTransform, dcomp/IDCompositionDevice::CreateSkewTransform, directcomp.idcompositiondevice_createskewtransform
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.CreateSkewTransform"
+f1_keywords:
+- dcomp/IDCompositionDevice.CreateSkewTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.CreateSkewTransform
+- IDCompositionDevice.CreateSkewTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

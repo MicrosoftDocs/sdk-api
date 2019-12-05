@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaDataCallback
 title: IWiaDataCallback (wia_xp.h)
-
 description: Provides an application callback mechanism during data transfers from Windows Image Acquisition (WIA) hardware devices to applications.Note  For Windows Vista applications, use IWiaTransferCallback instead of IWiaDataCallback.
 old-location: wia\_wia_IWiaDataCallback.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatacallback\iwiadatacallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaDataCallback, IWiaDataCallback interface [WIA], IWiaDataCallback interface [WIA],described, _wia_IWiaDataCallback, wia._wia_IWiaDataCallback, wia_xp/IWiaDataCallback
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaDataCallback"
+f1_keywords:
+- wia_xp/IWiaDataCallback
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IWiaDataCallback
+- IWiaDataCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarNumFromParseNum
 title: VarNumFromParseNum function (oleauto.h)
-
 description: Converts parsed results to a variant.
 old-location: automat\varnumfromparsenum.htm
 tech.root: automat
 ms.assetid: 6a01a779-ab1b-4fd5-a550-449b19358b7a
-
 ms.date: 12/05/2018
 ms.keywords: VTBIT_CY, VTBIT_DECIMAL, VTBIT_I1, VTBIT_I2, VTBIT_I4, VTBIT_R4, VTBIT_R8, VTBIT_UI1, VTBIT_UI2, VTBIT_UI4, VarNumFromParseNum, VarNumFromParseNum function [Automation], _oa96_VarNumFromParseNum, automat.varnumfromparsenum, oleauto/VarNumFromParseNum
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarNumFromParseNum"
+f1_keywords:
+- oleauto/VarNumFromParseNum
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarNumFromParseNum
+- VarNumFromParseNum
 targetos: Windows
 req.typenames: 
 req.redist: 

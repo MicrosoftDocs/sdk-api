@@ -1,19 +1,17 @@
 ---
 UID: NF:evntprov.EventProviderEnabled
 title: EventProviderEnabled function (evntprov.h)
-
 description: Determines if the event is enabled for any session.
 old-location: etw\eventproviderenabled_func.htm
 tech.root: ETW
 ms.assetid: 84c035b1-cdc7-47b7-b887-e5b508f17266
-
 ms.date: 12/05/2018
 ms.keywords: EventProviderEnabled, EventProviderEnabled function [ETW], WINEVENT_LEVEL_CRITICAL, WINEVENT_LEVEL_ERROR, WINEVENT_LEVEL_INFO, WINEVENT_LEVEL_VERBOSE, WINEVENT_LEVEL_WARNING, base.eventproviderenabled_func, etw.eventproviderenabled_func, evntprov/EventProviderEnabled
 ms.topic: function
 f1_keywords:
 - evntprov/EventProviderEnabled
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows

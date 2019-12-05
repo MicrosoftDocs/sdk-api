@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider3.SetDeviceEnumPreference
 title: IMDServiceProvider3::SetDeviceEnumPreference (mswmdm.h)
-
 description: The SetDeviceEnumPreference method sets the device enumeration preferences.
 old-location: wmdm\imdserviceprovider3_setdeviceenumpreference.htm
 tech.root: WMDM
 ms.assetid: f3807e80-82ea-437e-ab30-bd00bc0fc6ad
-
 ms.date: 12/05/2018
 ms.keywords: IMDServiceProvider3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IMDServiceProvider3.SetDeviceEnumPreference, IMDServiceProvider3::SetDeviceEnumPreference, IMDServiceProvider3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IMDServiceProvider3 interface, mswmdm/IMDServiceProvider3::SetDeviceEnumPreference, wmdm.imdserviceprovider3_setdeviceenumpreference
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDServiceProvider3.SetDeviceEnumPreference"
+f1_keywords:
+- mswmdm/IMDServiceProvider3.SetDeviceEnumPreference
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDServiceProvider3.SetDeviceEnumPreference
+- IMDServiceProvider3.SetDeviceEnumPreference
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IPrincipal.put_GroupId
 title: IPrincipal::put_GroupId (taskschd.h)
-
 description: Gets or sets the identifier of the user group that is required to run the tasks that are associated with the principal.
 old-location: taskschd\iprincipal_groupid.htm
 tech.root: taskschd
 ms.assetid: df4bffa3-ee38-49cd-bec7-28edda48a953
-
 ms.date: 12/05/2018
 ms.keywords: GroupId property [Task Scheduler], GroupId property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],GroupId property, IPrincipal.GroupId, IPrincipal.put_GroupId, IPrincipal::GroupId, IPrincipal::get_GroupId, IPrincipal::put_GroupId, put_GroupId, taskschd.iprincipal_groupid, taskschd/IPrincipal::GroupId, taskschd/IPrincipal::get_GroupId, taskschd/IPrincipal::put_GroupId
 ms.topic: method
-f1_keywords: 
- - "taskschd/IPrincipal.GroupId"
+f1_keywords:
+- taskschd/IPrincipal.GroupId
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal.GroupId
- - IPrincipal.get_GroupId
- - IPrincipal.put_GroupId
+- IPrincipal.GroupId
+- IPrincipal.get_GroupId
+- IPrincipal.put_GroupId
 targetos: Windows
 req.typenames: 
 req.redist: 

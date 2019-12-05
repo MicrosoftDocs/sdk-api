@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.GetCount
 title: IEnumBackgroundCopyGroups::GetCount (qmgr.h)
-
 description: Use the GetCount method to retrieve a count of the number of groups in the enumeration.
 old-location: bits\ienumbackgroundcopygroups_getcount.htm
 tech.root: Bits
 ms.assetid: 70bbc495-f133-4703-a51a-1a1a180720f4
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [BITS], GetCount method [BITS],IEnumBackgroundCopyGroups interface, IEnumBackgroundCopyGroups interface [BITS],GetCount method, IEnumBackgroundCopyGroups.GetCount, IEnumBackgroundCopyGroups::GetCount, bits.ienumbackgroundcopygroups_getcount, qmgr/IEnumBackgroundCopyGroups::GetCount
 ms.topic: method
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyGroups.GetCount"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyGroups.GetCount
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyGroups.GetCount
+- IEnumBackgroundCopyGroups.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

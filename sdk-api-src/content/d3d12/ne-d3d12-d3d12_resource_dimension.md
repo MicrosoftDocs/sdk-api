@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_DIMENSION
 title: D3D12_RESOURCE_DIMENSION (d3d12.h)
-
 description: Identifies the type of resource being used.
 old-location: direct3d12\d3d12_resource_dimension.htm
 tech.root: direct3d12
 ms.assetid: E04F3124-01FB-4EE7-BDF8-4821F2F1FCEB
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_DIMENSION, D3D12_RESOURCE_DIMENSION enumeration, D3D12_RESOURCE_DIMENSION_BUFFER, D3D12_RESOURCE_DIMENSION_TEXTURE1D, D3D12_RESOURCE_DIMENSION_TEXTURE2D, D3D12_RESOURCE_DIMENSION_TEXTURE3D, D3D12_RESOURCE_DIMENSION_UNKNOWN, d3d12/D3D12_RESOURCE_DIMENSION, d3d12/D3D12_RESOURCE_DIMENSION_BUFFER, d3d12/D3D12_RESOURCE_DIMENSION_TEXTURE1D, d3d12/D3D12_RESOURCE_DIMENSION_TEXTURE2D, d3d12/D3D12_RESOURCE_DIMENSION_TEXTURE3D, d3d12/D3D12_RESOURCE_DIMENSION_UNKNOWN, direct3d12.d3d12_resource_dimension
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RESOURCE_DIMENSION"
+f1_keywords:
+- d3d12/D3D12_RESOURCE_DIMENSION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_RESOURCE_DIMENSION
+- D3D12_RESOURCE_DIMENSION
 targetos: Windows
 req.typenames: D3D12_RESOURCE_DIMENSION
 req.redist: 

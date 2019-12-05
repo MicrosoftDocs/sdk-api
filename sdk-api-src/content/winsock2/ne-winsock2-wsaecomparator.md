@@ -1,19 +1,17 @@
 ---
 UID: NE:winsock2._WSAEcomparator
 title: WSAECOMPARATOR (winsock2.h)
-
 description: The Windows Sockets WSAECOMPARATOR enumeration type is used for version-comparison semantics in Windows Sockets 2.
 old-location: winsock\wsaecomparator_2.htm
 tech.root: WinSock
 ms.assetid: a1de171e-42d7-4d57-b241-1db9989dbd8e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAECOMPARATOR, *PWSAECOMPARATOR, COMP_EQUAL, COMP_NOTLESS, PWSAECOMPARATOR, PWSAECOMPARATOR enumeration pointer [Winsock], WSAECOMPARATOR, WSAECOMPARATOR enumeration [Winsock], _win32_wsaecomparator_2, winsock.wsaecomparator_2, winsock2/COMP_EQUAL, winsock2/COMP_NOTLESS, winsock2/PWSAECOMPARATOR, winsock2/WSAECOMPARATOR"
+ms.keywords: '*LPWSAECOMPARATOR, *PWSAECOMPARATOR, COMP_EQUAL, COMP_NOTLESS, PWSAECOMPARATOR, PWSAECOMPARATOR enumeration pointer [Winsock], WSAECOMPARATOR, WSAECOMPARATOR enumeration [Winsock], _win32_wsaecomparator_2, winsock.wsaecomparator_2, winsock2/COMP_EQUAL, winsock2/COMP_NOTLESS, winsock2/PWSAECOMPARATOR, winsock2/WSAECOMPARATOR'
 ms.topic: enum
-f1_keywords: 
- - "winsock2/WSAECOMPARATOR"
+f1_keywords:
+- winsock2/WSAECOMPARATOR
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAECOMPARATOR
+- WSAECOMPARATOR
 targetos: Windows
 req.typenames: WSAECOMPARATOR, *PWSAECOMPARATOR, *LPWSAECOMPARATOR
 req.redist: 

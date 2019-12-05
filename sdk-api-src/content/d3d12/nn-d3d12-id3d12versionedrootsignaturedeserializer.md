@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12VersionedRootSignatureDeserializer
 title: ID3D12VersionedRootSignatureDeserializer (d3d12.h)
-
 description: Contains methods to return the deserialized D3D12_ROOT_SIGNATURE_DESC1 data structure, of any version of a serialized root signature.
 old-location: direct3d12\id3d12versionedrootsignaturedeserializer.htm
 tech.root: direct3d12
 ms.assetid: 3B1E9837-72CA-4C44-B06C-C77E32480958
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12VersionedRootSignatureDeserializer, ID3D12VersionedRootSignatureDeserializer interface, ID3D12VersionedRootSignatureDeserializer interface,described, d3d12/ID3D12VersionedRootSignatureDeserializer, direct3d12.id3d12versionedrootsignaturedeserializer
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12VersionedRootSignatureDeserializer"
+f1_keywords:
+- d3d12/ID3D12VersionedRootSignatureDeserializer
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VersionedRootSignatureDeserializer
+- ID3D12VersionedRootSignatureDeserializer
 targetos: Windows
 req.typenames: 
 req.redist: 

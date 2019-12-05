@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.SetServer
 title: IDsDisplaySpecifier::SetServer (dsclient.h)
-
 description: Specifies the server from which display specifier data is obtained.
 old-location: ad\idsdisplayspecifier_setserver.htm
 tech.root: ad
 ms.assetid: f72cc711-7dec-4f5a-9cf1-57612240b435
-
 ms.date: 12/05/2018
 ms.keywords: DSSSF_DONTSIGNSEAL, DSSSF_DSAVAILABLE, DSSSF_SIMPLEAUTHENTICATE, IDsDisplaySpecifier interface [Active Directory],SetServer method, IDsDisplaySpecifier.SetServer, IDsDisplaySpecifier::SetServer, SetServer, SetServer method [Active Directory], SetServer method [Active Directory],IDsDisplaySpecifier interface, _glines_idsdisplayspecifier_setserver, ad.idsdisplayspecifier__setserver, ad.idsdisplayspecifier_setserver, dsclient/IDsDisplaySpecifier::SetServer
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsDisplaySpecifier.SetServer"
+f1_keywords:
+- dsclient/IDsDisplaySpecifier.SetServer
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.SetServer
+- IDsDisplaySpecifier.SetServer
 targetos: Windows
 req.typenames: 
 req.redist: 

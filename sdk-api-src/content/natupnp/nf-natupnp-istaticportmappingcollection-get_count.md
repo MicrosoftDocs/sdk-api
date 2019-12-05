@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMappingCollection.get_Count
 title: IStaticPortMappingCollection::get_Count (natupnp.h)
-
 description: The get_Count method retrieves the number of port mappings in the collection.
 old-location: ics\istaticportmappingcollection_get_count.htm
 tech.root: ics
 ms.assetid: 8ececd98-a700-4d64-8f89-a1ec36597edf
-
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMappingCollection interface [ICS/ICF],get_Count method, IStaticPortMappingCollection.get_Count, IStaticPortMappingCollection::get_Count, _ics_istaticportmappingcollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],IStaticPortMappingCollection interface, ics.istaticportmappingcollection_get_count, natupnp/IStaticPortMappingCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMappingCollection.get_Count"
+f1_keywords:
+- natupnp/IStaticPortMappingCollection.get_Count
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMappingCollection.get_Count
+- IStaticPortMappingCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

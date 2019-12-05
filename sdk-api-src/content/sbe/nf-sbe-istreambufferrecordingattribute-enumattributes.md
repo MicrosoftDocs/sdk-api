@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.EnumAttributes
 title: IStreamBufferRecordingAttribute::EnumAttributes (sbe.h)
-
 description: The EnumAttributes method enumerates the existing attributes of the stream buffer file. This method returns an enumerator object, which the caller can then use to enumerate the attributes.
 old-location: mstv\istreambufferrecordingattribute_enumattributes.htm
 tech.root: mstv
 ms.assetid: 2944d1c4-a4ed-47a7-a0c4-a75cddb9cc99
-
 ms.date: 12/05/2018
 ms.keywords: EnumAttributes, EnumAttributes method [Microsoft TV Technologies], EnumAttributes method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],EnumAttributes method, IStreamBufferRecordingAttribute.EnumAttributes, IStreamBufferRecordingAttribute::EnumAttributes, IStreamBufferRecordingAttributeEnumAttributes, mstv.istreambufferrecordingattribute_enumattributes, sbe/IStreamBufferRecordingAttribute::EnumAttributes
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecordingAttribute.EnumAttributes"
+f1_keywords:
+- sbe/IStreamBufferRecordingAttribute.EnumAttributes
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute.EnumAttributes
+- IStreamBufferRecordingAttribute.EnumAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

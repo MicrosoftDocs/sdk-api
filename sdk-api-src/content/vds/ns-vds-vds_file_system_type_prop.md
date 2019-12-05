@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_FILE_SYSTEM_TYPE_PROP
 title: VDS_FILE_SYSTEM_TYPE_PROP (vds.h)
-
 description: Defines the properties of a file system type.
 old-location: base\vds_file_system_type_prop.htm
 tech.root: VDS
 ms.assetid: 92383a59-d7dd-419b-b6d0-959fef41ad4e
-
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP, PVDS_FILE_SYSTEM_TYPE_PROP structure pointer [VDS], VDS_FILE_SYSTEM_TYPE_PROP, VDS_FILE_SYSTEM_TYPE_PROP structure [VDS], base.vds_file_system_type_prop, vds/PVDS_FILE_SYSTEM_TYPE_PROP, vds/_VDS_FILE_SYSTEM_TYPE_PROP'
 ms.topic: struct
 f1_keywords:
 - vds/VDS_FILE_SYSTEM_TYPE_PROP
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

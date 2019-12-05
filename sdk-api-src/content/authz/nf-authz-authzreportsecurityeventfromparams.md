@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzReportSecurityEventFromParams
 title: AuthzReportSecurityEventFromParams function (authz.h)
-
 description: Generates a security audit for a registered security event source by using the specified array of audit parameters.
 old-location: security\authzreportsecurityeventfromparams.htm
 tech.root: SecAuthZ
 ms.assetid: ee5b598a-0a89-4b32-a9bc-e9c811573b08
-
 ms.date: 12/05/2018
 ms.keywords: AuthzReportSecurityEventFromParams, AuthzReportSecurityEventFromParams function [Security], authz/AuthzReportSecurityEventFromParams, security.authzreportsecurityeventfromparams
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzReportSecurityEventFromParams"
+f1_keywords:
+- authz/AuthzReportSecurityEventFromParams
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzReportSecurityEventFromParams
+- AuthzReportSecurityEventFromParams
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

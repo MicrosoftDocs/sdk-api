@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindCloseChangeNotification
 title: FindCloseChangeNotification function (fileapi.h)
-
 description: Stops change notification handle monitoring.
 old-location: fs\findclosechangenotification.htm
 tech.root: FileIO
 ms.assetid: 17ca915c-3891-41f0-8816-6ac31c957afe
-
 ms.date: 12/05/2018
 ms.keywords: FindCloseChangeNotification, FindCloseChangeNotification function [Files], _win32_findclosechangenotification, base.findclosechangenotification, fileapi/FindCloseChangeNotification, fs.findclosechangenotification, winbase/FindCloseChangeNotification
 ms.topic: function
-f1_keywords: 
- - "fileapi/FindCloseChangeNotification"
+f1_keywords:
+- fileapi/FindCloseChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - FindCloseChangeNotification
+- FindCloseChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

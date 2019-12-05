@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromCLSID
 title: InitPropVariantFromCLSID function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a class identifier (CLSID).
 old-location: properties\InitPropVariantFromCLSID.htm
 tech.root: properties
 ms.assetid: a48a8927-2718-4f9c-96f2-ab370206550b
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromCLSID, InitPropVariantFromCLSID function [Windows Properties], properties.InitPropVariantFromCLSID, propvarutil/InitPropVariantFromCLSID, shell.InitPropVariantFromCLSID, shell_InitPropVariantFromCLSID
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromCLSID"
+f1_keywords:
+- propvarutil/InitPropVariantFromCLSID
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantFromCLSID
+- InitPropVariantFromCLSID
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

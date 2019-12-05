@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyGroups.Next
 title: IEnumBackgroundCopyGroups::Next (qmgr.h)
-
 description: Use the Next method to retrieve the specified number of items in the enumeration sequence. If there are fewer than the requested number of elements left in the sequence, it retrieves the remaining elements.
 old-location: bits\ienumbackgroundcopygroups_next.htm
 tech.root: Bits
 ms.assetid: cc21f663-e8f8-4348-920c-bffad46d0aa0
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups interface [BITS],Next method, IEnumBackgroundCopyGroups.Next, IEnumBackgroundCopyGroups::Next, Next, Next method [BITS], Next method [BITS],IEnumBackgroundCopyGroups interface, bits.ienumbackgroundcopygroups_next, qmgr/IEnumBackgroundCopyGroups::Next
 ms.topic: method
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyGroups.Next"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyGroups.Next
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyGroups.Next
+- IEnumBackgroundCopyGroups.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

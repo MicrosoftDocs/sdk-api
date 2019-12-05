@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device1.SetEventOnMultipleFenceCompletion
 title: ID3D12Device1::SetEventOnMultipleFenceCompletion (d3d12.h)
-
 description: Specifies an event that should be fired when one or more of a collection of fences reach specific values.
 old-location: direct3d12\id3d12device1_seteventonmultiplefencecompletion.htm
 tech.root: direct3d12
 ms.assetid: C187EEB7-DCD0-4535-AF0E-EF2C0E2DC83C
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device1 interface,SetEventOnMultipleFenceCompletion method, ID3D12Device1.SetEventOnMultipleFenceCompletion, ID3D12Device1::SetEventOnMultipleFenceCompletion, SetEventOnMultipleFenceCompletion, SetEventOnMultipleFenceCompletion method, SetEventOnMultipleFenceCompletion method,ID3D12Device1 interface, d3d12/ID3D12Device1::SetEventOnMultipleFenceCompletion, direct3d12.id3d12device1_seteventonmultiplefencecompletion
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device1.SetEventOnMultipleFenceCompletion"
+f1_keywords:
+- d3d12/ID3D12Device1.SetEventOnMultipleFenceCompletion
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device1.SetEventOnMultipleFenceCompletion
+- ID3D12Device1.SetEventOnMultipleFenceCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

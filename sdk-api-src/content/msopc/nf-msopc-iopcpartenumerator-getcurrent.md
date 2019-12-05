@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.GetCurrent
 title: IOpcPartEnumerator::GetCurrent (msopc.h)
-
 description: Gets the IOpcPart interface pointer at the current position of the enumerator.
 old-location: opc\iopcpartenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: 54759fcb-858f-434c-92e9-6164f3d972fb
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcPartEnumerator interface, IOpcPartEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcPartEnumerator.GetCurrent, IOpcPartEnumerator::GetCurrent, msopc/IOpcPartEnumerator::GetCurrent, opc.iopcpartenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartEnumerator.GetCurrent"
+f1_keywords:
+- msopc/IOpcPartEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartEnumerator.GetCurrent
+- IOpcPartEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

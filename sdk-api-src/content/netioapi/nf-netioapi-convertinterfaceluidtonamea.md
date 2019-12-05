@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.ConvertInterfaceLuidToNameA
 title: ConvertInterfaceLuidToNameA function (netioapi.h)
-
 description: Converts a locally unique identifier (LUID) for a network interface to the ANSI interface name.
 old-location: iphlp\convertinterfaceluidtonamea.htm
 tech.root: IpHlp
 ms.assetid: c65f7b3c-55f4-40f8-9a7a-19d1066deca4
-
 ms.date: 12/05/2018
 ms.keywords: ConvertInterfaceLuidToNameA, ConvertInterfaceLuidToNameA function [IP Helper], iphlp.convertinterfaceluidtonamea, netioapi/ConvertInterfaceLuidToNameA
 ms.topic: function
-f1_keywords: 
- - "netioapi/ConvertInterfaceLuidToNameA"
+f1_keywords:
+- netioapi/ConvertInterfaceLuidToNameA
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - ConvertInterfaceLuidToNameA
+- ConvertInterfaceLuidToNameA
 targetos: Windows
 req.typenames: 
 req.redist: 

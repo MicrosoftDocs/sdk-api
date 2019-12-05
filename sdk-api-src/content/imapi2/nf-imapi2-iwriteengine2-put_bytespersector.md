@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_BytesPerSector
 title: IWriteEngine2::put_BytesPerSector (imapi2.h)
-
 description: Sets the number of bytes to use for each sector during writing.
 old-location: imapi\iwriteengine2_put_bytespersector.htm
 tech.root: imapi
 ms.assetid: aac64c0a-4304-4a20-822e-4aa247d3d9e8
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2 interface [IMAPI],put_BytesPerSector method, IWriteEngine2.put_BytesPerSector, IWriteEngine2::put_BytesPerSector, imapi.iwriteengine2_put_bytespersector, imapi2/IWriteEngine2::put_BytesPerSector, put_BytesPerSector, put_BytesPerSector method [IMAPI], put_BytesPerSector method [IMAPI],IWriteEngine2 interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2.put_BytesPerSector"
+f1_keywords:
+- imapi2/IWriteEngine2.put_BytesPerSector
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2.put_BytesPerSector
+- IWriteEngine2.put_BytesPerSector
 targetos: Windows
 req.typenames: 
 req.redist: 

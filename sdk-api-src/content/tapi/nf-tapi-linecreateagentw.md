@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineCreateAgentW
 title: lineCreateAgentW function (tapi.h)
-
 description: The lineCreateAgent function creates a new Agent object. It generates a LINE_PROXYREQUEST message to be sent to a registered proxy function handler, referencing a LINEPROXYREQUEST structure of type LINEPROXYREQUEST_CREATEAGENT.
 old-location: tapi2\linecreateagent.htm
 tech.root: Tapi
 ms.assetid: 14b2e9c8-32ab-42c0-acfa-17a0f8a9b73f
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linecreateagent, lineCreateAgent, lineCreateAgent function [TAPI 2.2], lineCreateAgentA, lineCreateAgentW, tapi/lineCreateAgent, tapi/lineCreateAgentA, tapi/lineCreateAgentW, tapi2.linecreateagent"
+ms.keywords: _tapi2_linecreateagent, lineCreateAgent, lineCreateAgent function [TAPI 2.2], lineCreateAgentA, lineCreateAgentW, tapi/lineCreateAgent, tapi/lineCreateAgentA, tapi/lineCreateAgentW, tapi2.linecreateagent
 ms.topic: function
-f1_keywords: 
- - "tapi/lineCreateAgent"
+f1_keywords:
+- tapi/lineCreateAgent
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineCreateAgent
- - lineCreateAgentA
- - lineCreateAgentW
+- lineCreateAgent
+- lineCreateAgentA
+- lineCreateAgentW
 targetos: Windows
 req.typenames: 
 req.redist: 

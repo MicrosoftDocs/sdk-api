@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPAdmin.GetConfiguration
 title: IOCSPAdmin::GetConfiguration (certadm.h)
-
 description: Connects to an Online Certificate Status Protocol (OCSP) responder server and initializes an OCSPAdmin object with the configuration information from the server.
 old-location: security\iocspadmin_getconfiguration_method.htm
 tech.root: SecCrypto
 ms.assetid: bf3c5757-0e97-46d2-89c2-f62a5e367fbb
-
 ms.date: 12/05/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Security], GetConfiguration method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetConfiguration method, IOCSPAdmin.GetConfiguration, IOCSPAdmin::GetConfiguration, certadm/IOCSPAdmin::GetConfiguration, security.iocspadmin_getconfiguration_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPAdmin.GetConfiguration"
+f1_keywords:
+- certadm/IOCSPAdmin.GetConfiguration
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPAdmin.GetConfiguration
+- IOCSPAdmin.GetConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

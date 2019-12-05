@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfLanguageProfiles.Skip
 title: IEnumTfLanguageProfiles::Skip (msctf.h)
-
 description: IEnumTfLanguageProfiles::Skip method
 old-location: tsf\ienumtflanguageprofiles_skip.htm
 tech.root: TSF
 ms.assetid: 67e6d841-a3e9-4e55-ac35-9197f256d9bf
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLanguageProfiles interface [Text Services Framework],Skip method, IEnumTfLanguageProfiles.Skip, IEnumTfLanguageProfiles::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfLanguageProfiles interface, _tsf_ienumtflanguageprofiles_skip_ref, msctf/IEnumTfLanguageProfiles::Skip, tsf.ienumtflanguageprofiles_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfLanguageProfiles.Skip"
+f1_keywords:
+- msctf/IEnumTfLanguageProfiles.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfLanguageProfiles.Skip
+- IEnumTfLanguageProfiles.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothIsVersionAvailable
 title: BluetoothIsVersionAvailable function (bluetoothapis.h)
-
 description: BluetoothIsVersionAvailable function indicates if the installed Bluetooth binary set supports the requested version.
 old-location: bluetooth\bluetoothisversionavailable.htm
 tech.root: bluetooth
 ms.assetid: 735a4c3f-1977-4600-afb2-272de3f4e7ba
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothIsVersionAvailable, BluetoothIsVersionAvailable function [Bluetooth], bluetooth.bluetoothisversionavailable, bluetoothapis/BluetoothIsVersionAvailable
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothIsVersionAvailable"
+f1_keywords:
+- bluetoothapis/BluetoothIsVersionAvailable
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.cpl
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.cpl
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.cpl
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothIsVersionAvailable
+- BluetoothIsVersionAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

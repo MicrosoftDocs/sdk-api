@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFClock.GetContinuityKey
 title: IMFClock::GetContinuityKey (mfidl.h)
-
 description: Retrieves the clock's continuity key. (Not supported.).
 old-location: mf\imfclock_getcontinuitykey.htm
 tech.root: medfound
 ms.assetid: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f
-
 ms.date: 12/05/2018
 ms.keywords: 8afda8c7-bab6-40fd-b20c-6bb29ed4900f, GetContinuityKey, GetContinuityKey method [Media Foundation], GetContinuityKey method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetContinuityKey method, IMFClock.GetContinuityKey, IMFClock::GetContinuityKey, mf.imfclock_getcontinuitykey, mfidl/IMFClock::GetContinuityKey
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFClock.GetContinuityKey"
+f1_keywords:
+- mfidl/IMFClock.GetContinuityKey
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFClock.GetContinuityKey
+- IMFClock.GetContinuityKey
 targetos: Windows
 req.typenames: 
 req.redist: 

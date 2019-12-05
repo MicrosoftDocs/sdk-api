@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.SetReferent
 title: INewShortcutHookA::SetReferent (shlobj.h)
-
 description: Sets the referent of the shortcut object.
 old-location: shell\INewShortcutHook_SetReferent.htm
 tech.root: shell
 ms.assetid: 402d305e-1657-45c2-9f0d-04703c8d6e5c
-
 ms.date: 12/05/2018
 ms.keywords: INewShortcutHook interface [Windows Shell],SetReferent method, INewShortcutHook::SetReferent, INewShortcutHookA, INewShortcutHookA interface [Windows Shell],SetReferent method, INewShortcutHookA.SetReferent, INewShortcutHookA::SetReferent, INewShortcutHookW, INewShortcutHookW interface [Windows Shell],SetReferent method, INewShortcutHookW::SetReferent, SetReferent, SetReferent method [Windows Shell], SetReferent method [Windows Shell],INewShortcutHook interface, SetReferent method [Windows Shell],INewShortcutHookA interface, SetReferent method [Windows Shell],INewShortcutHookW interface, _win32_INewShortcutHook_SetReferent, shell.INewShortcutHook_SetReferent, shlobj/INewShortcutHook::SetReferent, shlobj/INewShortcutHookA::SetReferent, shlobj/INewShortcutHookW::SetReferent
 ms.topic: method
-f1_keywords: 
- - "shlobj/INewShortcutHookA.SetReferent"
+f1_keywords:
+- shlobj/INewShortcutHookA.SetReferent
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - INewShortcutHookA.SetReferent
- - INewShortcutHookW.SetReferent
- - INewShortcutHook.SetReferent
- - INewShortcutHookA::SetReferent
- - INewShortcutHookW::SetReferent
+- INewShortcutHookA.SetReferent
+- INewShortcutHookW.SetReferent
+- INewShortcutHook.SetReferent
+- INewShortcutHookA::SetReferent
+- INewShortcutHookW::SetReferent
 targetos: Windows
 req.typenames: 
 req.redist: 

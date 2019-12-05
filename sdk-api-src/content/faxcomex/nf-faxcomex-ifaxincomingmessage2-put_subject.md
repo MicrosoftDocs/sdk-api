@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.put_Subject
 title: IFaxIncomingMessage2::put_Subject (faxcomex.h)
-
 description: The Subject property contains the subject associated with the inbound fax message. This property is a null-terminated string.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_subject_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\subject.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Subject property, IFaxIncomingMessage2.Subject, IFaxIncomingMessage2.get_Subject, IFaxIncomingMessage2.put_Subject, IFaxIncomingMessage2::Subject, IFaxIncomingMessage2::get_Subject, IFaxIncomingMessage2::put_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.subject, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_subject_cpp, fax._mfax_faxincomingmessage_subject, faxcomex/IFaxIncomingMessage2::Subject, faxcomex/IFaxIncomingMessage2::get_Subject, faxcomex/IFaxIncomingMessage2::put_Subject, put_Subject
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.Subject"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.Subject
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Subject
- - IFaxIncomingMessage2.get_Subject
- - IFaxIncomingMessage2.put_Subject
- - IFaxIncomingMessage2.get_Subject
- - IFaxIncomingMessage2.put_Subject
+- IFaxIncomingMessage2.Subject
+- IFaxIncomingMessage2.get_Subject
+- IFaxIncomingMessage2.put_Subject
+- IFaxIncomingMessage2.get_Subject
+- IFaxIncomingMessage2.put_Subject
 targetos: Windows
 req.typenames: 
 req.redist: 

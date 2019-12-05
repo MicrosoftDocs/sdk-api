@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminMIBServerDisconnect
 title: MprAdminMIBServerDisconnect function (mprapi.h)
-
 description: The MprAdminMIBServerDisconnect function disconnects the connection made by a previous call to MprAdminMIBServerConnect.
 old-location: rras\mpradminmibserverdisconnect.htm
 tech.root: RRAS
 ms.assetid: 63ea910a-b9d7-43a3-97ae-2f9c26b52059
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBServerDisconnect, MprAdminMIBServerDisconnect function [RAS], _mpr_mpradminmibserverdisconnect, mprapi/MprAdminMIBServerDisconnect, rras.mpradminmibserverdisconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminMIBServerDisconnect"
+f1_keywords:
+- mprapi/MprAdminMIBServerDisconnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminMIBServerDisconnect
+- MprAdminMIBServerDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

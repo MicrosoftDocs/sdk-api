@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetDirectivity
 title: ISpatialAudioObjectForHrtf::SetDirectivity (spatialaudiohrtf.h)
-
 description: Sets the spatial audio directivity model for the ISpatialAudioObjectForHrtf.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setdirectivity.htm
 tech.root: CoreAudio
 ms.assetid: 20934FA5-2B4E-4FC4-B5B5-AFC4024ED2F8
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetDirectivity method, ISpatialAudioObjectForHrtf.SetDirectivity, ISpatialAudioObjectForHrtf::SetDirectivity, SetDirectivity, SetDirectivity method [Core Audio], SetDirectivity method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setdirectivity, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetDirectivity
 ms.topic: method
-f1_keywords: 
- - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetDirectivity"
+f1_keywords:
+- spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetDirectivity
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf.SetDirectivity
+- ISpatialAudioObjectForHrtf.SetDirectivity
 targetos: Windows
 req.typenames: 
 req.redist: 

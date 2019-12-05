@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.GetProvisionedContexts
 title: IMbnConnectionContext::GetProvisionedContexts (mbnapi.h)
-
 description: Gets a list of connection contexts.
 old-location: mbn\imbnconnectioncontext_getprovisionedcontexts.htm
 tech.root: mbn
 ms.assetid: eceba2a8-baff-436f-b561-d9e130df5702
-
 ms.date: 12/05/2018
 ms.keywords: GetProvisionedContexts, GetProvisionedContexts method [Microsoft Broadband Networks], GetProvisionedContexts method [Microsoft Broadband Networks],IMbnConnectionContext interface, IMbnConnectionContext interface [Microsoft Broadband Networks],GetProvisionedContexts method, IMbnConnectionContext.GetProvisionedContexts, IMbnConnectionContext::GetProvisionedContexts, mbn.imbnconnectioncontext_getprovisionedcontexts, mbnapi/IMbnConnectionContext::GetProvisionedContexts
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionContext.GetProvisionedContexts"
+f1_keywords:
+- mbnapi/IMbnConnectionContext.GetProvisionedContexts
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionContext.GetProvisionedContexts
+- IMbnConnectionContext.GetProvisionedContexts
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSRefreshPropertySchema
 title: PSRefreshPropertySchema function (propsys.h)
-
 description: Not supported.It is valid to call this function, but it is not implemented to perform any function so there is no reason to do so.
 old-location: properties\PSRefreshPropertySchema.htm
 tech.root: properties
 ms.assetid: 07efbf66-3594-4b9d-b959-278dc9000572
-
 ms.date: 12/05/2018
 ms.keywords: PSRefreshPropertySchema, PSRefreshPropertySchema function [Windows Properties], properties.PSRefreshPropertySchema, propsys/PSRefreshPropertySchema, shell.PSRefreshPropertySchema, shell_PSRefreshPropertySchema
 ms.topic: function
-f1_keywords: 
- - "propsys/PSRefreshPropertySchema"
+f1_keywords:
+- propsys/PSRefreshPropertySchema
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: Propsys.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSRefreshPropertySchema
+- PSRefreshPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

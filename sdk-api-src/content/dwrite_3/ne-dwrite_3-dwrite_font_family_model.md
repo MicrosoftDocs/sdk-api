@@ -1,17 +1,15 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_FAMILY_MODEL
 title: DWRITE_FONT_FAMILY_MODEL
-
 description: Defines constants that specify how font families are grouped together.
 tech.root: DirectWrite
-
 ms.date: 09/12/2019
 ms.keywords: DWRITE_FONT_FAMILY_MODEL, DWRITE_FONT_FAMILY_MODEL enumeration [Direct Write], directwrite.dwrite_font_family_model, dwrite_3/DWRITE_FONT_FAMILY_MODEL
 ms.topic: enum
-f1_keywords: 
- - "dwrite_3/DWRITE_FONT_FAMILY_MODEL"
+f1_keywords:
+- dwrite_3/DWRITE_FONT_FAMILY_MODEL
 dev_langs:
- - c++
+- c++
 req.construct-type: enumeration
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,14 +29,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite_3.h
+- dwrite_3.h
 api_name:
- - DWRITE_FONT_FAMILY_MODEL
+- DWRITE_FONT_FAMILY_MODEL
 targetos: Windows
 req.typenames: 
 req.redist: 

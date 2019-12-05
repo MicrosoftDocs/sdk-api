@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.DeletePreference
 title: IOfflineFilesSetting::DeletePreference (cscobj.h)
-
 description: Removes a preference setting.
 old-location: of\iofflinefilessetting_deletepreference.htm
 tech.root: offlinefiles
 ms.assetid: 815791e8-3e41-4511-9789-9b9258e5fcf4
-
 ms.date: 12/05/2018
 ms.keywords: DeletePreference, DeletePreference method [Offline Files], DeletePreference method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],DeletePreference method, IOfflineFilesSetting.DeletePreference, IOfflineFilesSetting::DeletePreference, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::DeletePreference, of.iofflinefilessetting_deletepreference
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSetting.DeletePreference"
+f1_keywords:
+- cscobj/IOfflineFilesSetting.DeletePreference
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSetting.DeletePreference
+- IOfflineFilesSetting.DeletePreference
 targetos: Windows
 req.typenames: 
 req.redist: 

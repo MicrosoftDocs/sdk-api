@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestReader.GetStream
 title: IAppxBundleManifestReader::GetStream (appxpackaging.h)
-
 description: Gets the raw XML document without any preprocessing.
 old-location: appxpkg\iappxbundlemanifestreader_getstream.htm
 tech.root: appxpkg
 ms.assetid: DC276734-3837-466E-ADBA-60B68356504E
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxBundleManifestReader interface, IAppxBundleManifestReader interface [App packaging and management],GetStream method, IAppxBundleManifestReader.GetStream, IAppxBundleManifestReader::GetStream, appxpackaging/IAppxBundleManifestReader::GetStream, appxpkg.iappxbundlemanifestreader_getstream
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestReader.GetStream"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestReader.GetStream
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestReader.GetStream
+- IAppxBundleManifestReader.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

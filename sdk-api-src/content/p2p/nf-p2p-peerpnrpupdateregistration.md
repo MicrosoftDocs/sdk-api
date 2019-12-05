@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerPnrpUpdateRegistration
 title: PeerPnrpUpdateRegistration function (p2p.h)
-
 description: Updates the PNRP registration information for a name.
 old-location: p2p\peerpnrpupdateregistration.htm
 tech.root: P2PSdk
 ms.assetid: 628aa553-4a55-452b-bcca-4bb763fa6440
-
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpUpdateRegistration, PeerPnrpUpdateRegistration function [Peer Networking], p2p.peerpnrpupdateregistration, p2p/PeerPnrpUpdateRegistration
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerPnrpUpdateRegistration"
+f1_keywords:
+- p2p/PeerPnrpUpdateRegistration
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerPnrpUpdateRegistration
+- PeerPnrpUpdateRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

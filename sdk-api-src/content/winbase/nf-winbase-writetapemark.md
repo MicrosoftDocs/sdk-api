@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WriteTapemark
 title: WriteTapemark function (winbase.h)
-
 description: Writes a specified number of filemarks, setmarks, short filemarks, or long filemarks to a tape device.
 old-location: backup\writetapemark.htm
 tech.root: Backup
 ms.assetid: 74effd3b-693d-4808-9d80-6c70e2aef7fb
-
 ms.date: 12/05/2018
 ms.keywords: TAPE_FILEMARKS, TAPE_LONG_FILEMARKS, TAPE_SETMARKS, TAPE_SHORT_FILEMARKS, WriteTapemark, WriteTapemark function [Backup], _win32_writetapemark, backup.writetapemark, base.writetapemark, winbase/WriteTapemark
 ms.topic: function
-f1_keywords: 
- - "winbase/WriteTapemark"
+f1_keywords:
+- winbase/WriteTapemark
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - WriteTapemark
+- WriteTapemark
 targetos: Windows
 req.typenames: 
 req.redist: 

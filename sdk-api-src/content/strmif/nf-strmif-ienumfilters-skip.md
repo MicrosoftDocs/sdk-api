@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumFilters.Skip
 title: IEnumFilters::Skip (strmif.h)
-
 description: The Skip method skips over a specified number of filters.
 old-location: dshow\ienumfilters_skip.htm
 tech.root: DirectShow
 ms.assetid: 594e25b1-03a8-4b6c-965c-f34dae9f3d3b
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFilters interface [DirectShow],Skip method, IEnumFilters.Skip, IEnumFilters::Skip, IEnumFiltersSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumFilters interface, dshow.ienumfilters_skip, strmif/IEnumFilters::Skip
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumFilters.Skip"
+f1_keywords:
+- strmif/IEnumFilters.Skip
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumFilters.Skip
+- IEnumFilters.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

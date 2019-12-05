@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.FindPackagesByPackageFamily
 title: FindPackagesByPackageFamily function (appmodel.h)
-
 description: Finds the packages with the specified family name for the current user.
 old-location: appxpkg\findpackagesbypackagefamily.htm
 tech.root: appxpkg
 ms.assetid: D52E98BD-726F-4AC0-A034-02896B1D1687
-
 ms.date: 12/05/2018
 ms.keywords: FindPackagesByPackageFamily, FindPackagesByPackageFamily function [App packaging and management], appmodel/FindPackagesByPackageFamily, appxpkg.findpackagesbypackagefamily
 ms.topic: function
-f1_keywords: 
- - "appmodel/FindPackagesByPackageFamily"
+f1_keywords:
+- appmodel/FindPackagesByPackageFamily
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - FindPackagesByPackageFamily
+- FindPackagesByPackageFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

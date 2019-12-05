@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Button_GetText
 title: Button_GetText macro (windowsx.h)
-
 description: Gets the text of a button.
 old-location: controls\Button_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettext.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_GetText, Button_GetText macro [Windows Controls], _win32_Button_GetText, _win32_Button_GetText_cpp, controls.Button_GetText, controls._win32_Button_GetText, windowsx/Button_GetText
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Button_GetText"
+f1_keywords:
+- windowsx/Button_GetText
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Button_GetText
+- Button_GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

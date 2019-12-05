@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastAddressAllocation.CreateLeaseInfoFromVariant
 title: IMcastAddressAllocation::CreateLeaseInfoFromVariant (mdhcp.h)
-
 description: The CreateLeaseInfoFromVariant method creates a lease information object for a subsequent call to RenewAddress or ReleaseAddress. This method is similar to CreateLeaseInfo but is used by Automation client languages such as Visual Basic.
 old-location: tapi3\imcastaddressallocation_createleaseinfofromvariant.htm
 tech.root: Tapi
 ms.assetid: e6390b21-348a-4bb9-8d21-3c585672199d
-
 ms.date: 12/05/2018
 ms.keywords: CreateLeaseInfoFromVariant, CreateLeaseInfoFromVariant method [TAPI 2.2], CreateLeaseInfoFromVariant method [TAPI 2.2],IMcastAddressAllocation interface, IMcastAddressAllocation interface [TAPI 2.2],CreateLeaseInfoFromVariant method, IMcastAddressAllocation.CreateLeaseInfoFromVariant, IMcastAddressAllocation::CreateLeaseInfoFromVariant, _tapi3_imcastaddressallocation_createleaseinfofromvariant, mdhcp/IMcastAddressAllocation::CreateLeaseInfoFromVariant, tapi3.imcastaddressallocation_createleaseinfofromvariant
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastAddressAllocation.CreateLeaseInfoFromVariant"
+f1_keywords:
+- mdhcp/IMcastAddressAllocation.CreateLeaseInfoFromVariant
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastAddressAllocation.CreateLeaseInfoFromVariant
+- IMcastAddressAllocation.CreateLeaseInfoFromVariant
 targetos: Windows
 req.typenames: 
 req.redist: 

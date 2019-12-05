@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetShadow
 title: ITextFont::GetShadow (tom.h)
-
 description: Gets whether characters are displayed as shadowed characters.
 old-location: controls\ITextFont_GetShadow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getshadow.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetShadow, GetShadow method [Windows Controls], GetShadow method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetShadow method, ITextFont.GetShadow, ITextFont::GetShadow, _win32_ITextFont_GetShadow, _win32_ITextFont_GetShadow_cpp, controls.ITextFont_GetShadow, controls._win32_ITextFont_GetShadow, tom/ITextFont::GetShadow
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetShadow"
+f1_keywords:
+- tom/ITextFont.GetShadow
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetShadow
+- ITextFont.GetShadow
 targetos: Windows
 req.typenames: 
 req.redist: 

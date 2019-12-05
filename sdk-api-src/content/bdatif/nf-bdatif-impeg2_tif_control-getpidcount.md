@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.GetPIDCount
 title: IMPEG2_TIF_CONTROL::GetPIDCount (bdatif.h)
-
 description: The GetPIDCount method retrieves the number of MPEG-2 Packet IDs being filtered by the MPEG-2 Demultiplexer into the TIF's input data.
 old-location: mstv\impeg2_tif_control_getpidcount.htm
 tech.root: mstv
 ms.assetid: 2d77c3d8-b91c-43de-b4c1-bd41636eb4ad
-
 ms.date: 12/05/2018
 ms.keywords: GetPIDCount, GetPIDCount method [Microsoft TV Technologies], GetPIDCount method [Microsoft TV Technologies],IMPEG2_TIF_CONTROL interface, IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies],GetPIDCount method, IMPEG2_TIF_CONTROL.GetPIDCount, IMPEG2_TIF_CONTROL::GetPIDCount, IMPEG2_TIF_CONTROLGetPIDCount, bdatif/IMPEG2_TIF_CONTROL::GetPIDCount, mstv.impeg2_tif_control_getpidcount
 ms.topic: method
-f1_keywords: 
- - "bdatif/IMPEG2_TIF_CONTROL.GetPIDCount"
+f1_keywords:
+- bdatif/IMPEG2_TIF_CONTROL.GetPIDCount
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL.GetPIDCount
+- IMPEG2_TIF_CONTROL.GetPIDCount
 targetos: Windows
 req.typenames: 
 req.redist: 

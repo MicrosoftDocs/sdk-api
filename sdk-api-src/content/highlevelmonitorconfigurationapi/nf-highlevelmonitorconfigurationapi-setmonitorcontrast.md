@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorContrast
 title: SetMonitorContrast function (highlevelmonitorconfigurationapi.h)
-
 description: Sets a monitor's contrast value.
 old-location: monitor\setmonitorcontrast.htm
 tech.root: Monitor
 ms.assetid: 7957702b-0ca2-4aaa-bae7-2518d2628f64
-
 ms.date: 12/05/2018
 ms.keywords: SetMonitorContrast, SetMonitorContrast function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorContrast, monitor.setmonitorcontrast
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/SetMonitorContrast"
+f1_keywords:
+- highlevelmonitorconfigurationapi/SetMonitorContrast
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetMonitorContrast
+- SetMonitorContrast
 targetos: Windows
 req.typenames: 
 req.redist: 

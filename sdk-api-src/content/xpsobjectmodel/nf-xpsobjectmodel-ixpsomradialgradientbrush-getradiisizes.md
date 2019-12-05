@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRadialGradientBrush.GetRadiiSizes
 title: IXpsOMRadialGradientBrush::GetRadiiSizes (xpsobjectmodel.h)
-
 description: Gets the sizes of the radii that define the ellipse of the radial gradient region.
 old-location: xps\ixpsomradialgradientbrush_getradiisizes.htm
 tech.root: printdocs
 ms.assetid: c57c125b-7a21-4b94-b4c3-1aa34d615a12
-
 ms.date: 12/05/2018
 ms.keywords: GetRadiiSizes, GetRadiiSizes method [XPS Documents and Packaging], GetRadiiSizes method [XPS Documents and Packaging],IXpsOMRadialGradientBrush interface, IXpsOMRadialGradientBrush interface [XPS Documents and Packaging],GetRadiiSizes method, IXpsOMRadialGradientBrush.GetRadiiSizes, IXpsOMRadialGradientBrush::GetRadiiSizes, xps.ixpsomradialgradientbrush_getradiisizes, xpsobjectmodel/IXpsOMRadialGradientBrush::GetRadiiSizes
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRadialGradientBrush.GetRadiiSizes"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRadialGradientBrush.GetRadiiSizes
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRadialGradientBrush.GetRadiiSizes
+- IXpsOMRadialGradientBrush.GetRadiiSizes
 targetos: Windows
 req.typenames: 
 req.redist: 

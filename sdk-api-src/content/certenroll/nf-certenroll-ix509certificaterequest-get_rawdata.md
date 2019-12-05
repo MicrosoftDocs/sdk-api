@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_RawData
 title: IX509CertificateRequest::get_RawData (certenroll.h)
-
 description: Retrieves a byte array that contains the signed, Distinguished Encoding Rules (DER) encoded certificate request.
 old-location: security\ix509certificaterequest_rawdata_property.htm
 tech.root: seccertenroll
 ms.assetid: 1830a569-03a4-4692-adbf-b627bf4370a1
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],RawData property, IX509CertificateRequest.RawData, IX509CertificateRequest.get_RawData, IX509CertificateRequest::RawData, IX509CertificateRequest::get_RawData, RawData property [Security], RawData property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::RawData, certenroll/IX509CertificateRequest::get_RawData, get_RawData, security.ix509certificaterequest_rawdata_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.RawData"
+f1_keywords:
+- certenroll/IX509CertificateRequest.RawData
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.RawData
- - IX509CertificateRequest.get_RawData
+- IX509CertificateRequest.RawData
+- IX509CertificateRequest.get_RawData
 targetos: Windows
 req.typenames: 
 req.redist: 

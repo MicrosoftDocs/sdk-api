@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.clear
 title: IWMPPlaylist::clear (wmp.h)
-
 description: The clear method is reserved for future use.
 old-location: wmp\iwmpplaylist_clear.htm
 tech.root: WMP
 ms.assetid: 3de2410d-e35a-4f27-bdcf-2a6d85eafe9d
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],clear method, IWMPPlaylist.clear, IWMPPlaylist::clear, IWMPPlaylistclear, clear, clear method [Windows Media Player], clear method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_clear, wmp/IWMPPlaylist::clear
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.clear"
+f1_keywords:
+- wmp/IWMPPlaylist.clear
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPPlaylist.clear
+- IWMPPlaylist.clear
 targetos: Windows
 req.typenames: 
 req.redist: 

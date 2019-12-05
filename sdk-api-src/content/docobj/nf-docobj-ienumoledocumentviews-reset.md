@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IEnumOleDocumentViews.Reset
 title: IEnumOleDocumentViews::Reset (docobj.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumoledocumentviews_reset.htm
 tech.root: com
 ms.assetid: b9dbdf36-fff1-4cd5-a890-219c8311dadf
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOleDocumentViews interface [COM],Reset method, IEnumOleDocumentViews.Reset, IEnumOleDocumentViews::Reset, Reset, Reset method [COM], Reset method [COM],IEnumOleDocumentViews interface, _ole_ienumoledocumentviews_reset, com.ienumoledocumentviews_reset, docobj/IEnumOleDocumentViews::Reset
 ms.topic: method
-f1_keywords: 
- - "docobj/IEnumOleDocumentViews.Reset"
+f1_keywords:
+- docobj/IEnumOleDocumentViews.Reset
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IEnumOleDocumentViews.Reset
+- IEnumOleDocumentViews.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

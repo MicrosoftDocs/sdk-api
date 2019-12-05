@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.IEnumQueue
 title: IEnumQueue (tapi3.h)
-
 description: The IEnumQueue interface provides COM-standard enumeration methods for the ITQueue interface. The ITACDGroup::EnumerateQueues method returns a pointer to IEnumQueue.
 old-location: tapi3\ienumqueue.htm
 tech.root: Tapi
 ms.assetid: 0bbe3533-d5ce-447b-82e1-3bd61c5a7ca2
-
 ms.date: 12/05/2018
 ms.keywords: IEnumQueue, IEnumQueue interface [TAPI 2.2], IEnumQueue interface [TAPI 2.2],described, _tapi3_ienumqueue, tapi3.ienumqueue, tapi3cc/IEnumQueue
 ms.topic: interface
-f1_keywords: 
- - "tapi3/IEnumQueue"
+f1_keywords:
+- tapi3/IEnumQueue
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumQueue
+- IEnumQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

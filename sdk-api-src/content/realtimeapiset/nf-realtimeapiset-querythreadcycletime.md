@@ -1,19 +1,17 @@
 ---
 UID: NF:realtimeapiset.QueryThreadCycleTime
 title: QueryThreadCycleTime function (realtimeapiset.h)
-
 description: Retrieves the cycle time for the specified thread.
 old-location: base\querythreadcycletime.htm
 tech.root: ProcThread
 ms.assetid: 5828b073-48af-4118-9206-096b87c978e7
-
 ms.date: 12/05/2018
 ms.keywords: QueryThreadCycleTime, QueryThreadCycleTime function, base.querythreadcycletime, realtimeapiset/QueryThreadCycleTime, winbase/QueryThreadCycleTime
 ms.topic: function
-f1_keywords: 
- - "realtimeapiset/QueryThreadCycleTime"
+f1_keywords:
+- realtimeapiset/QueryThreadCycleTime
 dev_langs:
- - c++
+- c++
 req.header: realtimeapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-realtime-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-RealTime-l1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-realtime-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-RealTime-l1-1-1.dll
 api_name:
- - QueryThreadCycleTime
+- QueryThreadCycleTime
 targetos: Windows
 req.typenames: 
 req.redist: 

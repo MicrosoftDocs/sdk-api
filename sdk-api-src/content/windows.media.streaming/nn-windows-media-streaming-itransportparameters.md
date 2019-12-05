@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.streaming.ITransportParameters
 title: ITransportParameters (windows.media.streaming.h)
-
 description: Encapsulates the methods needed to provide information about the current transport-related settings of the DMR. These settings include the current transport state and information about what methods can currently be invoked on the DMR.
 old-location: mediastreaming\itransportparameters.htm
 tech.root: mediastreaming
 ms.assetid: 4D104C4E-18EE-418F-8D99-3E766A5478F6
-
 ms.date: 12/05/2018
 ms.keywords: ITransportParameters, ITransportParameters interface [Media Streaming API], ITransportParameters interface [Media Streaming API],described, mediastreaming.itransportparameters, windows/ITransportParameters
 ms.topic: interface
-f1_keywords: 
- - "windows.media.streaming/ITransportParameters"
+f1_keywords:
+- windows.media.streaming/ITransportParameters
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - ITransportParameters
+- ITransportParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

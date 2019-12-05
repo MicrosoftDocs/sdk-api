@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent.Delete
 title: IPortableDeviceContent::Delete (portabledeviceapi.h)
-
 description: The Delete method deletes one or more objects from the device.
 old-location: wpdsdk\iportabledevicecontent_delete.htm
 tech.root: wpd_sdk
 ms.assetid: 7315c869-d2b6-4ccf-9315-ec1fc1d827ac
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Windows Portable Devices SDK], Delete method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],Delete method, IPortableDeviceContent.Delete, IPortableDeviceContent::Delete, IPortableDeviceContentDelete, portabledeviceapi/IPortableDeviceContent::Delete, wpdsdk.iportabledevicecontent_delete
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceContent.Delete"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceContent.Delete
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent.Delete
+- IPortableDeviceContent.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

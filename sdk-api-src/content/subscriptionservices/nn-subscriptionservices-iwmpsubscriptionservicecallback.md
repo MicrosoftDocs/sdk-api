@@ -1,19 +1,17 @@
 ---
 UID: NN:subscriptionservices.IWMPSubscriptionServiceCallback
 title: IWMPSubscriptionServiceCallback (subscriptionservices.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservicecallback.htm
 tech.root: WMP
 ms.assetid: c40d492e-030a-4e67-9199-09f44f39a507
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionServiceCallback, IWMPSubscriptionServiceCallback interface [Windows Media Player], IWMPSubscriptionServiceCallback interface [Windows Media Player],described, IWMPSubscriptionServiceCallbackInterface, subscriptionservices/IWMPSubscriptionServiceCallback, wmp.iwmpsubscriptionservicecallback
 ms.topic: interface
-f1_keywords: 
- - "subscriptionservices/IWMPSubscriptionServiceCallback"
+f1_keywords:
+- subscriptionservices/IWMPSubscriptionServiceCallback
 dev_langs:
- - c++
+- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - subscriptionservices.h
+- subscriptionservices.h
 api_name:
- - IWMPSubscriptionServiceCallback
+- IWMPSubscriptionServiceCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

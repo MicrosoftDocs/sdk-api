@@ -1,19 +1,17 @@
 ---
 UID: NF:debugapi.OutputDebugStringA
 title: OutputDebugStringA function (debugapi.h)
-
 description: Sends a string to the debugger for display.
 old-location: base\outputdebugstring.htm
 tech.root: Debug
 ms.assetid: ca23d9a9-65b7-4a36-bd09-857a6997f482
-
 ms.date: 12/05/2018
 ms.keywords: OutputDebugString, OutputDebugString function, OutputDebugStringA, OutputDebugStringW, _win32_outputdebugstring, base.outputdebugstring, debugapi/OutputDebugString, debugapi/OutputDebugStringA, debugapi/OutputDebugStringW
 ms.topic: function
-f1_keywords: 
- - "debugapi/OutputDebugString"
+f1_keywords:
+- debugapi/OutputDebugString
 dev_langs:
- - c++
+- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-debug-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-debug-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Debug-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-debug-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-debug-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Debug-L1-1-2.dll
 api_name:
- - OutputDebugString
- - OutputDebugStringA
- - OutputDebugStringW
+- OutputDebugString
+- OutputDebugStringA
+- OutputDebugStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

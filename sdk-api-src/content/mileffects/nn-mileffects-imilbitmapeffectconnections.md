@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnections
 title: IMILBitmapEffectConnections (mileffects.h)
-
 description: Exposes methods used to retrieve input and output connectors exposed by the bitmap effect.
 old-location: wibe\_wibe_imilbitmapeffectconnections.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\imilbitmapeffectconnections.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectConnections, IMILBitmapEffectConnections interface [WPF Bitmap Effects], IMILBitmapEffectConnections interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnections, mileffects/IMILBitmapEffectConnections, wibe._wibe_imilbitmapeffectconnections
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectConnections"
+f1_keywords:
+- mileffects/IMILBitmapEffectConnections
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectConnections
+- IMILBitmapEffectConnections
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

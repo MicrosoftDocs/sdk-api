@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElement.GetDescription
 title: ITfUIElement::GetDescription (msctf.h)
-
 description: The ITfUIElement::GetDescription method returns the description of the UI element.
 old-location: tsf\itfuielement_getdescription.htm
 tech.root: TSF
 ms.assetid: 1d6fad13-e90a-4c5a-a735-d6e54f53488f
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Text Services Framework], GetDescription method [Text Services Framework],ITfUIElement interface, ITfUIElement interface [Text Services Framework],GetDescription method, ITfUIElement.GetDescription, ITfUIElement::GetDescription, msctf/ITfUIElement::GetDescription, tsf.itfuielement_getdescription
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElement.GetDescription"
+f1_keywords:
+- msctf/ITfUIElement.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElement.GetDescription
+- ITfUIElement.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

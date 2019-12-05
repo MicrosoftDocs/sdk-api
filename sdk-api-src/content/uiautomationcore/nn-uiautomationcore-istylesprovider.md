@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IStylesProvider
 title: IStylesProvider (uiautomationcore.h)
-
 description: Provides access to the visual styles associated with the content of a document.
 old-location: winauto\uiauto_IStylesProvider.htm
 tech.root: WinAuto
 ms.assetid: 9424a6cd-9f4b-4653-9737-4afb9cfb510f
-
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider, IStylesProvider interface [Windows Accessibility], IStylesProvider interface [Windows Accessibility],described, uiautomationcore/IStylesProvider, winauto.uiauto_IStylesProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IStylesProvider"
+f1_keywords:
+- uiautomationcore/IStylesProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IStylesProvider
+- IStylesProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

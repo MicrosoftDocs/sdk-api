@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11on12.D3D11_RESOURCE_FLAGS
 title: D3D11_RESOURCE_FLAGS (d3d11on12.h)
-
 description: Used with ID3D11On12Device::CreateWrappedResourceto override flags that would be inferred by the resource properties or heap properties, including bind flags, misc flags, and CPU access flags.
 old-location: direct3d12\d3d11_resource_flags.htm
 tech.root: direct3d12
 ms.assetid: 50C1ACA1-714C-467A-A548-B5EE50DA3E3D
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_RESOURCE_FLAGS, D3D11_RESOURCE_FLAGS structure, d3d11on12/D3D11_RESOURCE_FLAGS, direct3d12.d3d11_resource_flags
 ms.topic: struct
-f1_keywords: 
- - "d3d11on12/D3D11_RESOURCE_FLAGS"
+f1_keywords:
+- d3d11on12/D3D11_RESOURCE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11on12.h
+- d3d11on12.h
 api_name:
- - D3D11_RESOURCE_FLAGS
+- D3D11_RESOURCE_FLAGS
 targetos: Windows
 req.typenames: D3D11_RESOURCE_FLAGS
 req.redist: 

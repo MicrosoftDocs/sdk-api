@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusForId
 title: IRealTimeStylus::GetStylusForId (rtscom.h)
-
 description: Retrieves a stylus for the specified stylus identifier.
 old-location: tablet\irealtimestylus_getstylusforid.htm
 tech.root: tablet
 ms.assetid: 16218bd3-9e92-407b-99b1-155d4387641e
-
 ms.date: 12/05/2018
 ms.keywords: 16218bd3-9e92-407b-99b1-155d4387641e, GetStylusForId, GetStylusForId method [Tablet PC], GetStylusForId method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusForId method, IRealTimeStylus.GetStylusForId, IRealTimeStylus::GetStylusForId, rtscom/IRealTimeStylus::GetStylusForId, tablet.irealtimestylus_getstylusforid
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.GetStylusForId"
+f1_keywords:
+- rtscom/IRealTimeStylus.GetStylusForId
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.GetStylusForId
+- IRealTimeStylus.GetStylusForId
 targetos: Windows
 req.typenames: 
 req.redist: 

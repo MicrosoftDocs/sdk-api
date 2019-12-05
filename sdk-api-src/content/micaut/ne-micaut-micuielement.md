@@ -1,19 +1,17 @@
 ---
 UID: NE:micaut.__MIDL___MIDL_itf_micaut_0000_0000_0001
 title: MICUIELEMENT (micaut.h)
-
 description: Specifies the user interface (UI) elements of a math input control (MIC).
 old-location: tablet\micuielement.htm
 tech.root: tablet
 ms.assetid: 3091480b-cb75-4faf-9005-1d9ddccea236
-
 ms.date: 12/05/2018
 ms.keywords: MICUIELEMENT, MICUIELEMENT enumeration [Tablet PC], MICUIELEMENT_BUTTON_CANCEL, MICUIELEMENT_BUTTON_CLEAR, MICUIELEMENT_BUTTON_CORRECT, MICUIELEMENT_BUTTON_ERASE, MICUIELEMENT_BUTTON_INSERT, MICUIELEMENT_BUTTON_REDO, MICUIELEMENT_BUTTON_UNDO, MICUIELEMENT_BUTTON_WRITE, MICUIELEMENT_INKPANEL_BACKGROUND, MICUIELEMENT_RESULTPANEL_BACKGROUND, micaut/MICUIELEMENT, micaut/MICUIELEMENT_BUTTON_CANCEL, micaut/MICUIELEMENT_BUTTON_CLEAR, micaut/MICUIELEMENT_BUTTON_CORRECT, micaut/MICUIELEMENT_BUTTON_ERASE, micaut/MICUIELEMENT_BUTTON_INSERT, micaut/MICUIELEMENT_BUTTON_REDO, micaut/MICUIELEMENT_BUTTON_UNDO, micaut/MICUIELEMENT_BUTTON_WRITE, micaut/MICUIELEMENT_INKPANEL_BACKGROUND, micaut/MICUIELEMENT_RESULTPANEL_BACKGROUND, tablet.micuielement
 ms.topic: enum
-f1_keywords: 
- - "micaut/MICUIELEMENT"
+f1_keywords:
+- micaut/MICUIELEMENT
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - MICUIELEMENT
+- MICUIELEMENT
 targetos: Windows
 req.typenames: MICUIELEMENT
 req.redist: 

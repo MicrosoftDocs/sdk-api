@@ -1,19 +1,17 @@
 ---
 UID: NF:fxsutility.SendToFaxRecipient
 title: SendToFaxRecipient function (fxsutility.h)
-
 description: Called by an application to fax a file.
 old-location: fax\_mfax_sendtofaxrecipient.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\shellextension\f\faxshell_sendtofaxrecipient.htm
-
 ms.date: 12/05/2018
 ms.keywords: SendToFaxRecipient, SendToFaxRecipient function [Fax Service], _mfax_sendtofaxrecipient, fax._mfax_sendtofaxrecipient, fxsutility/SendToFaxRecipient
 ms.topic: function
-f1_keywords: 
- - "fxsutility/SendToFaxRecipient"
+f1_keywords:
+- fxsutility/SendToFaxRecipient
 dev_langs:
- - c++
+- c++
 req.header: fxsutility.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxsutility.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fxsutility.dll
+- Fxsutility.dll
 api_name:
- - SendToFaxRecipient
+- SendToFaxRecipient
 targetos: Windows
 req.typenames: 
 req.redist: 

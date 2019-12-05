@@ -1,19 +1,17 @@
 ---
 UID: NC:winfax.PFAXGETPAGEDATA
 title: PFAXGETPAGEDATA (winfax.h)
-
 description: The FaxGetPageData function returns to a fax client application the first page of data for a fax job.
 old-location: fax\_mfax_faxgetpagedata.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3ko1.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxGetPageDataA, FaxGetPageDataW, PFAXGETPAGEDATA, PFAXGETPAGEDATA callback, PFAXGETPAGEDATA callback function [Fax Service], _mfax_faxgetpagedata, fax._mfax_faxgetpagedata, winfax/FaxGetPageDataA, winfax/FaxGetPageDataW, winfax/PFAXGETPAGEDATA
 ms.topic: callback
-f1_keywords: 
- - "winfax/PFAXGETPAGEDATA"
+f1_keywords:
+- winfax/PFAXGETPAGEDATA
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - PFAXGETPAGEDATA
- - FaxGetPageDataA
- - FaxGetPageDataW
+- PFAXGETPAGEDATA
+- FaxGetPageDataA
+- FaxGetPageDataW
 targetos: Windows
 req.typenames: 
 req.redist: 

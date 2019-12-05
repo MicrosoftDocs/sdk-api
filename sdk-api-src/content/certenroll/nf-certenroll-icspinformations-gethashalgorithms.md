@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformations.GetHashAlgorithms
 title: ICspInformations::GetHashAlgorithms (certenroll.h)
-
 description: Retrieves the collection of hash algorithms supported by a provider.
 old-location: security\icspinformations_gethashalgorithms_method.htm
 tech.root: seccertenroll
 ms.assetid: 647cad18-ed2e-4f3a-92d4-28fcfe60a800
-
 ms.date: 12/05/2018
 ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetHashAlgorithms method, ICspInformations.GetHashAlgorithms, ICspInformations::GetHashAlgorithms, certenroll/ICspInformations::GetHashAlgorithms, security.icspinformations_gethashalgorithms_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformations.GetHashAlgorithms"
+f1_keywords:
+- certenroll/ICspInformations.GetHashAlgorithms
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformations.GetHashAlgorithms
+- ICspInformations.GetHashAlgorithms
 targetos: Windows
 req.typenames: 
 req.redist: 

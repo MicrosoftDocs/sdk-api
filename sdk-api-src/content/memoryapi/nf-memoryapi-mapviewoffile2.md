@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.MapViewOfFile2
 title: MapViewOfFile2 function (memoryapi.h)
-
 description: Maps a view of a file or a pagefile-backed section into the address space of the specified process.
 old-location: base\mapviewoffile2.htm
 tech.root: Memory
 ms.assetid: D97138F0-2FB3-488A-91AC-A654B22FE9AD
-
 ms.date: 12/05/2018
 ms.keywords: MapViewOfFile2, MapViewOfFile2 function, base.mapviewoffile2, winbase/MapViewOfFile2
 ms.topic: function
-f1_keywords: 
- - "memoryapi/MapViewOfFile2"
+f1_keywords:
+- memoryapi/MapViewOfFile2
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - MapViewOfFile2
+- MapViewOfFile2
 targetos: Windows
 req.typenames: 
 req.redist: 

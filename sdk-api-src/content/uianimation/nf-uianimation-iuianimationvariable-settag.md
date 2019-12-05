@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.SetTag
 title: IUIAnimationVariable::SetTag (uianimation.h)
-
 description: Sets the tag for an animation variable.
 old-location: uianimation\iuianimationvariable_settag.htm
 tech.root: UIAnimation
 ms.assetid: 176b0047-cac8-474b-9126-fdab4bc41537
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable interface [Windows Animation],SetTag method, IUIAnimationVariable.SetTag, IUIAnimationVariable::SetTag, SetTag, SetTag method [Windows Animation], SetTag method [Windows Animation],IUIAnimationVariable interface, uianimation.iuianimationvariable_settag, uianimation/IUIAnimationVariable::SetTag
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable.SetTag"
+f1_keywords:
+- uianimation/IUIAnimationVariable.SetTag
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable.SetTag
+- IUIAnimationVariable.SetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

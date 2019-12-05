@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.BindToObject
 title: IMoniker::BindToObject (objidl.h)
-
 description: Binds to the specified object. The binding process involves finding the object, putting it into the running state if necessary, and providing the caller with a pointer to a specified interface on the identified object.
 old-location: com\imoniker_bindtoobject.htm
 tech.root: com
 ms.assetid: b5ce39ff-3387-4f72-9aea-5a26eed3810c
-
 ms.date: 12/05/2018
 ms.keywords: BindToObject, BindToObject method [COM], BindToObject method [COM],IMoniker interface, IMoniker interface [COM],BindToObject method, IMoniker.BindToObject, IMoniker::BindToObject, _com_imoniker_bindtoobject, com.imoniker_bindtoobject, objidl/IMoniker::BindToObject
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.BindToObject"
+f1_keywords:
+- objidl/IMoniker.BindToObject
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.BindToObject
+- IMoniker.BindToObject
 targetos: Windows
 req.typenames: 
 req.redist: 

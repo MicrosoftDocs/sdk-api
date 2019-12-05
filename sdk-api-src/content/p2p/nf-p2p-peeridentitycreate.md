@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerIdentityCreate
 title: PeerIdentityCreate function (p2p.h)
-
 description: The PeerIdentityCreate function creates a new peer identity and returns its name.
 old-location: p2p\peeridentitycreate.htm
 tech.root: P2PSdk
 ms.assetid: 24600215-afa0-4e6b-8455-b19b0de60b65
-
 ms.date: 12/05/2018
 ms.keywords: PeerIdentityCreate, PeerIdentityCreate function [Peer Networking], p2p.peeridentitycreate, p2p/PeerIdentityCreate
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerIdentityCreate"
+f1_keywords:
+- p2p/PeerIdentityCreate
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerIdentityCreate
+- PeerIdentityCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

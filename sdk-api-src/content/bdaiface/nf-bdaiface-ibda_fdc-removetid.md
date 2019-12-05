@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.RemoveTid
 title: IBDA_FDC::RemoveTid (bdaiface.h)
-
 description: Removes one or more table identifiers (TIDs) from the MPEG flow.
 old-location: mstv\ibda_fdc_removetid.htm
 tech.root: mstv
 ms.assetid: fac8f486-e24e-4996-a90f-f8947d43d209
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FDC interface [Microsoft TV Technologies],RemoveTid method, IBDA_FDC.RemoveTid, IBDA_FDC::RemoveTid, RemoveTid, RemoveTid method [Microsoft TV Technologies], RemoveTid method [Microsoft TV Technologies],IBDA_FDC interface, bdaiface/IBDA_FDC::RemoveTid, mstv.ibda_fdc_removetid
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FDC.RemoveTid"
+f1_keywords:
+- bdaiface/IBDA_FDC.RemoveTid
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FDC.RemoveTid
+- IBDA_FDC.RemoveTid
 targetos: Windows
 req.typenames: 
 req.redist: 

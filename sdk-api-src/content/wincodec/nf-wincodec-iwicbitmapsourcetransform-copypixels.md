@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.CopyPixels
 title: IWICBitmapSourceTransform::CopyPixels (wincodec.h)
-
 description: Copies pixel data using the supplied input parameters.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_copypixels.htm
 tech.root: wic
 ms.assetid: c4c36750-bf30-4e58-aca6-bbb49c7cde4b
-
 ms.date: 12/05/2018
 ms.keywords: CopyPixels, CopyPixels method [Windows Imaging Component], CopyPixels method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],CopyPixels method, IWICBitmapSourceTransform.CopyPixels, IWICBitmapSourceTransform::CopyPixels, _wic_codec_iwicbitmapsourcetransform_copypixels, wic._wic_codec_iwicbitmapsourcetransform_copypixels, wincodec/IWICBitmapSourceTransform::CopyPixels
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapSourceTransform.CopyPixels"
+f1_keywords:
+- wincodec/IWICBitmapSourceTransform.CopyPixels
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICBitmapSourceTransform.CopyPixels
+- IWICBitmapSourceTransform.CopyPixels
 targetos: Windows
 req.typenames: 
 req.redist: 

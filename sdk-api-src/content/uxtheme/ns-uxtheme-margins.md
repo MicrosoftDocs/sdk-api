@@ -1,19 +1,17 @@
 ---
 UID: NS:uxtheme._MARGINS
 title: MARGINS (uxtheme.h)
-
 description: Returned by the GetThemeMargins function to define the margins of windows that have visual styles applied.
 old-location: controls\MARGINS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\margins.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS, PMARGINS structure pointer [Windows Controls], controls.MARGINS, controls.inet_MARGINS, inet_MARGINS, inet_MARGINS_cpp, uxtheme/MARGINS, uxtheme/PMARGINS"
+ms.keywords: '*PMARGINS, MARGINS, MARGINS structure [Windows Controls], PMARGINS, PMARGINS structure pointer [Windows Controls], controls.MARGINS, controls.inet_MARGINS, inet_MARGINS, inet_MARGINS_cpp, uxtheme/MARGINS, uxtheme/PMARGINS'
 ms.topic: struct
-f1_keywords: 
- - "uxtheme/MARGINS"
+f1_keywords:
+- uxtheme/MARGINS
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uxtheme.h
+- Uxtheme.h
 api_name:
- - MARGINS
+- MARGINS
 targetos: Windows
 req.typenames: MARGINS, *PMARGINS
 req.redist: 

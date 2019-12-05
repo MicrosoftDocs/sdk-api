@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Revoke
 title: IRunningObjectTable::Revoke (objidl.h)
-
 description: Removes an entry from the running object table (ROT) that was previously registered by a call to IRunningObjectTable::Register.
 old-location: com\irunningobjecttable_revoke.htm
 tech.root: com
 ms.assetid: d3d83966-035d-4077-a770-cb62c8011132
-
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],Revoke method, IRunningObjectTable.Revoke, IRunningObjectTable::Revoke, Revoke, Revoke method [COM], Revoke method [COM],IRunningObjectTable interface, _com_irunningobjecttable_revoke, com.irunningobjecttable_revoke, objidl/IRunningObjectTable::Revoke
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunningObjectTable.Revoke"
+f1_keywords:
+- objidl/IRunningObjectTable.Revoke
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunningObjectTable.Revoke
+- IRunningObjectTable.Revoke
 targetos: Windows
 req.typenames: 
 req.redist: 

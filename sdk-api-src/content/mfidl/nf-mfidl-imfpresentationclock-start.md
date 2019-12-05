@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.Start
 title: IMFPresentationClock::Start (mfidl.h)
-
 description: Starts the presentation clock.
 old-location: mf\imfpresentationclock_start.htm
 tech.root: medfound
 ms.assetid: ba5986d1-9c94-4747-a221-43d0583f1fed
-
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],Start method, IMFPresentationClock.Start, IMFPresentationClock::Start, Start, Start method [Media Foundation], Start method [Media Foundation],IMFPresentationClock interface, ba5986d1-9c94-4747-a221-43d0583f1fed, mf.imfpresentationclock_start, mfidl/IMFPresentationClock::Start
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationClock.Start"
+f1_keywords:
+- mfidl/IMFPresentationClock.Start
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock.Start
+- IMFPresentationClock.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

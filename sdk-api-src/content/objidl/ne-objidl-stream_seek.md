@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl.tagSTREAM_SEEK
 title: STREAM_SEEK (objidl.h)
-
 description: The STREAM_SEEK enumeration values specify the origin from which to calculate the new seek-pointer location.
 old-location: stg\stream_seek.htm
 tech.root: Stg
 ms.assetid: f73a8f98-c004-40c7-b8d2-5b84d7aa2c31
-
 ms.date: 12/05/2018
 ms.keywords: STREAM_SEEK, STREAM_SEEK enumeration [Structured Storage], STREAM_SEEK_CUR, STREAM_SEEK_END, STREAM_SEEK_SET, _stg_stream_seek, objidl/STREAM_SEEK, objidl/STREAM_SEEK_CUR, objidl/STREAM_SEEK_END, objidl/STREAM_SEEK_SET, stg.stream_seek
 ms.topic: enum
-f1_keywords: 
- - "objidl/STREAM_SEEK"
+f1_keywords:
+- objidl/STREAM_SEEK
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - STREAM_SEEK
+- STREAM_SEEK
 targetos: Windows
 req.typenames: STREAM_SEEK
 req.redist: 

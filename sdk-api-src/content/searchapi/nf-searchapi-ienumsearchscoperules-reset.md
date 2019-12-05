@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Reset
 title: IEnumSearchScopeRules::Reset (searchapi.h)
-
 description: Moves the internal counter to the beginning of the list so that a subsequent call to IEnumSearchScopeRules::Next retrieves from the beginning.
 old-location: search\_search_IEnumSearchScopeRules_Reset.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\reset.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSearchScopeRules interface [search],Reset method, IEnumSearchScopeRules.Reset, IEnumSearchScopeRules::Reset, Reset, Reset method [search], Reset method [search],IEnumSearchScopeRules interface, _search_IEnumSearchScopeRules_Reset, search._search_IEnumSearchScopeRules_Reset, searchapi/IEnumSearchScopeRules::Reset
 ms.topic: method
-f1_keywords: 
- - "searchapi/IEnumSearchScopeRules.Reset"
+f1_keywords:
+- searchapi/IEnumSearchScopeRules.Reset
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IEnumSearchScopeRules.Reset
+- IEnumSearchScopeRules.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

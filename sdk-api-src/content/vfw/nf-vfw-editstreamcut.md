@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.EditStreamCut
 title: EditStreamCut function (vfw.h)
-
 description: The EditStreamCut function deletes all or part of an editable stream and creates a temporary editable stream from the deleted portion of the stream.
 old-location: multimedia\editstreamcut.htm
 tech.root: Multimedia
 ms.assetid: 201f977c-926b-470c-b1ae-62946e6f691e
-
 ms.date: 12/05/2018
 ms.keywords: EditStreamCut, EditStreamCut function [Windows Multimedia], _win32_EditStreamCut, multimedia.editstreamcut, vfw/EditStreamCut
 ms.topic: function
-f1_keywords: 
- - "vfw/EditStreamCut"
+f1_keywords:
+- vfw/EditStreamCut
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - EditStreamCut
+- EditStreamCut
 targetos: Windows
 req.typenames: 
 req.redist: 

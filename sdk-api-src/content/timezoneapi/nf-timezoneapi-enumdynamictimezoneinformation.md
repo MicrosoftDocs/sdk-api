@@ -1,19 +1,17 @@
 ---
 UID: NF:timezoneapi.EnumDynamicTimeZoneInformation
 title: EnumDynamicTimeZoneInformation function (timezoneapi.h)
-
 description: Enumerates DYNAMIC_TIME_ZONE_INFORMATION entries stored in the registry.
 old-location: base\enumdynamictimezoneinformation.htm
 tech.root: SysInfo
 ms.assetid: EBB2366A-86FE-4764-B7F9-5D305993CE0A
-
 ms.date: 12/05/2018
 ms.keywords: EnumDynamicTimeZoneInformation, EnumDynamicTimeZoneInformation function, base.enumdynamictimezoneinformation, timezoneapi/EnumDynamicTimeZoneInformation
 ms.topic: function
-f1_keywords: 
- - "timezoneapi/EnumDynamicTimeZoneInformation"
+f1_keywords:
+- timezoneapi/EnumDynamicTimeZoneInformation
 dev_langs:
- - c++
+- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-TimeZone-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - advapi32.dll
+- Kernel32.dll
+- API-MS-Win-Core-TimeZone-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- advapi32.dll
 api_name:
- - EnumDynamicTimeZoneInformation
+- EnumDynamicTimeZoneInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

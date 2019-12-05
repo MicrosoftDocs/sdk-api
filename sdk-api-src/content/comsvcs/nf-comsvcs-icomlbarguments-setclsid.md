@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.SetCLSID
 title: ICOMLBArguments::SetCLSID (comsvcs.h)
-
 description: Sets the object's CLSID.
 old-location: cos\icomlbarguments_setclsid.htm
 tech.root: cossdk
 ms.assetid: 66f24611-0f98-4226-858b-90fef35cc257
-
 ms.date: 12/05/2018
 ms.keywords: ICOMLBArguments interface [COM+],SetCLSID method, ICOMLBArguments.SetCLSID, ICOMLBArguments::SetCLSID, SetCLSID, SetCLSID method [COM+], SetCLSID method [COM+],ICOMLBArguments interface, _cos_ICOMLBArguments_SetCLSID, comsvcs/ICOMLBArguments::SetCLSID, cos.icomlbarguments_setclsid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICOMLBArguments.SetCLSID"
+f1_keywords:
+- comsvcs/ICOMLBArguments.SetCLSID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICOMLBArguments.SetCLSID
+- ICOMLBArguments.SetCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

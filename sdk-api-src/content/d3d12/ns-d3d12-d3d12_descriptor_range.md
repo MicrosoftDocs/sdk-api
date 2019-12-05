@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_DESCRIPTOR_RANGE
 title: D3D12_DESCRIPTOR_RANGE (d3d12.h)
-
 description: Describes a descriptor range.
 old-location: direct3d12\d3d12_descriptor_range.htm
 tech.root: direct3d12
 ms.assetid: 6F1C4D05-3E08-4353-B5B9-4C4270FC1403
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DESCRIPTOR_RANGE, D3D12_DESCRIPTOR_RANGE structure, d3d12/D3D12_DESCRIPTOR_RANGE, direct3d12.d3d12_descriptor_range
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_DESCRIPTOR_RANGE"
+f1_keywords:
+- d3d12/D3D12_DESCRIPTOR_RANGE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_DESCRIPTOR_RANGE
+- D3D12_DESCRIPTOR_RANGE
 targetos: Windows
 req.typenames: D3D12_DESCRIPTOR_RANGE
 req.redist: 

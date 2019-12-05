@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindUnorderedAccessView
 title: ID3D11ModuleInstance::BindUnorderedAccessView (d3d11shader.h)
-
 description: Rebinds an unordered access view (UAV) from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindunorderedaccessview.htm
 tech.root: direct3d11
 ms.assetid: 2948964B-73B1-4656-8547-F5238C3DC928
-
 ms.date: 12/05/2018
 ms.keywords: BindUnorderedAccessView, BindUnorderedAccessView method [Direct3D 11], BindUnorderedAccessView method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindUnorderedAccessView method, ID3D11ModuleInstance.BindUnorderedAccessView, ID3D11ModuleInstance::BindUnorderedAccessView, d3d11shader/ID3D11ModuleInstance::BindUnorderedAccessView, direct3d11.id3d11moduleinstance_bindunorderedaccessview
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ModuleInstance.BindUnorderedAccessView"
+f1_keywords:
+- d3d11shader/ID3D11ModuleInstance.BindUnorderedAccessView
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ModuleInstance.BindUnorderedAccessView
+- ID3D11ModuleInstance.BindUnorderedAccessView
 targetos: Windows
 req.typenames: 
 req.redist: 

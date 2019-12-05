@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.GetDevice
 title: IWindowsMediaLibrarySharingDevices::GetDevice (wmlss.h)
-
 description: The GetDevice method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
 old-location: wmlss\IWMLSDevicesGetDevice.htm
 tech.root: WMLSS
 ms.assetid: 38a1f5d2-0347-4564-9403-2bf726198aa6
-
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Windows Media Library Sharing Services], GetDevice method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevices interface, IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],GetDevice method, IWindowsMediaLibrarySharingDevices.GetDevice, IWindowsMediaLibrarySharingDevices::GetDevice, wmlss.IWMLSDevicesGetDevice, wmlss/IWindowsMediaLibrarySharingDevices::GetDevice
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingDevices.GetDevice"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingDevices.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDevices.GetDevice
+- IWindowsMediaLibrarySharingDevices.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

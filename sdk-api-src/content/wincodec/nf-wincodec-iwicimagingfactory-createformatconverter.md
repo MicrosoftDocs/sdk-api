@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateFormatConverter
 title: IWICImagingFactory::CreateFormatConverter (wincodec.h)
-
 description: Creates a new instance of the IWICFormatConverter class.
 old-location: wic\_wic_codec_iwicimagingfactory_createformatconverter.htm
 tech.root: wic
 ms.assetid: 50ceabdf-574e-4083-86a4-dddd4da06bbf
-
 ms.date: 12/05/2018
 ms.keywords: CreateFormatConverter, CreateFormatConverter method [Windows Imaging Component], CreateFormatConverter method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateFormatConverter method, IWICImagingFactory.CreateFormatConverter, IWICImagingFactory::CreateFormatConverter, _wic_codec_iwicimagingfactory_createformatconverter, wic._wic_codec_iwicimagingfactory_createformatconverter, wincodec/IWICImagingFactory::CreateFormatConverter
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateFormatConverter"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateFormatConverter
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateFormatConverter
+- IWICImagingFactory.CreateFormatConverter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:identityprovider.IIdentityAdvise
 title: IIdentityAdvise (identityprovider.h)
-
 description: Allows an identity provider to notify a calling application when an identity is updated.
 old-location: security\iidentityadvise.htm
 tech.root: SecAuthN
 ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b
-
 ms.date: 12/05/2018
 ms.keywords: IIdentityAdvise, IIdentityAdvise interface [Security], IIdentityAdvise interface [Security],described, identityprovider/IIdentityAdvise, identitystore/IIdentityAdvise, security.iidentityadvise
 ms.topic: interface
-f1_keywords: 
- - "identityprovider/IIdentityAdvise"
+f1_keywords:
+- identityprovider/IIdentityAdvise
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IdentityProvider.h
- - Identitystore.h
+- IdentityProvider.h
+- Identitystore.h
 api_name:
- - IIdentityAdvise
+- IIdentityAdvise
 targetos: Windows
 req.typenames: 
 req.redist: 

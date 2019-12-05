@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.PROPPRG
 title: PROPPRG (shlobj_core.h)
-
 description: This structure contains information from a .pif file. It is used by PifMgr_GetProperties.
 old-location: properties\PROPPRG.htm
 tech.root: properties
 ms.assetid: 603f990b-efb8-4d72-bc96-27bda4ffcbd8
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPROPPRG, *PPROPPRG, LPPROPPRG, LPPROPPRG structure pointer [Windows Properties], PRGINIT_AMBIGUOUSPIF, PRGINIT_DEFAULT, PRGINIT_DEFAULTPIF, PRGINIT_INFSETTINGS, PRGINIT_INHIBITPIF, PRGINIT_MAXIMIZED, PRGINIT_MINIMIZED, PRGINIT_NOPIF, PRGINIT_REALMODE, PRGINIT_REALMODESILENT, PRG_CLOSEONEXIT, PRG_DEFAULT, PROPPRG, PROPPRG structure [Windows Properties], RMOPT_CDROM, RMOPT_DISKLOCK, RMOPT_EMS, RMOPT_MOUSE, RMOPT_NETWORK, RMOPT_PRIVATECFG, RMOPT_VESA, _win32_PROPPRG, properties.PROPPRG, shell.PROPPRG, shlobj_core/LPPROPPRG, shlobj_core/PROPPRG"
+ms.keywords: '*LPPROPPRG, *PPROPPRG, LPPROPPRG, LPPROPPRG structure pointer [Windows Properties], PRGINIT_AMBIGUOUSPIF, PRGINIT_DEFAULT, PRGINIT_DEFAULTPIF, PRGINIT_INFSETTINGS, PRGINIT_INHIBITPIF, PRGINIT_MAXIMIZED, PRGINIT_MINIMIZED, PRGINIT_NOPIF, PRGINIT_REALMODE, PRGINIT_REALMODESILENT, PRG_CLOSEONEXIT, PRG_DEFAULT, PROPPRG, PROPPRG structure [Windows Properties], RMOPT_CDROM, RMOPT_DISKLOCK, RMOPT_EMS, RMOPT_MOUSE, RMOPT_NETWORK, RMOPT_PRIVATECFG, RMOPT_VESA, _win32_PROPPRG, properties.PROPPRG, shell.PROPPRG, shlobj_core/LPPROPPRG, shlobj_core/PROPPRG'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/PROPPRG"
+f1_keywords:
+- shlobj_core/PROPPRG
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - PROPPRG
+- PROPPRG
 targetos: Windows
 req.typenames: PROPPRG
 req.redist: 

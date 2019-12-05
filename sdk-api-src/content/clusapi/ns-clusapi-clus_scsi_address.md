@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_SCSI_ADDRESS
 title: CLUS_SCSI_ADDRESS (clusapi.h)
-
 description: Contains SCSI address data. It is used as the data member of a CLUSPROP_SCSI_ADDRESS structure and as the return value of some control code operations.
 old-location: mscs\clus_scsi_address.htm
 tech.root: MsCS
 ms.assetid: 05a640c7-16b4-4394-b22f-a78ab1dfab77
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS structure [Failover Cluster], PCLUS_SCSI_ADDRESS, PCLUS_SCSI_ADDRESS structure pointer [Failover Cluster], _wolf_clus_scsi_address, clusapi/CLUS_SCSI_ADDRESS, clusapi/PCLUS_SCSI_ADDRESS, mscs.clus_scsi_address"
+ms.keywords: '*PCLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS, CLUS_SCSI_ADDRESS structure [Failover Cluster], PCLUS_SCSI_ADDRESS, PCLUS_SCSI_ADDRESS structure pointer [Failover Cluster], _wolf_clus_scsi_address, clusapi/CLUS_SCSI_ADDRESS, clusapi/PCLUS_SCSI_ADDRESS, mscs.clus_scsi_address'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_SCSI_ADDRESS"
+f1_keywords:
+- clusapi/CLUS_SCSI_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_SCSI_ADDRESS
+- CLUS_SCSI_ADDRESS
 targetos: Windows
 req.typenames: CLUS_SCSI_ADDRESS, *PCLUS_SCSI_ADDRESS
 req.redist: 

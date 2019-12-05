@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetCertificateEmbeddingOption
 title: IOpcSigningOptions::SetCertificateEmbeddingOption (msopc.h)
-
 description: Set the storage location of the certificate to be used for the signature.
 old-location: opc\iopcsigningoptions_setcertificateembeddingoption.htm
 tech.root: OPC
 ms.assetid: afae4b98-c05f-4fa3-bb1e-f9f43ee86e64
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSigningOptions interface [Open Packaging Conventions],SetCertificateEmbeddingOption method, IOpcSigningOptions.SetCertificateEmbeddingOption, IOpcSigningOptions::SetCertificateEmbeddingOption, SetCertificateEmbeddingOption, SetCertificateEmbeddingOption method [Open Packaging Conventions], SetCertificateEmbeddingOption method [Open Packaging Conventions],IOpcSigningOptions interface, msopc/IOpcSigningOptions::SetCertificateEmbeddingOption, opc.iopcsigningoptions_setcertificateembeddingoption
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSigningOptions.SetCertificateEmbeddingOption"
+f1_keywords:
+- msopc/IOpcSigningOptions.SetCertificateEmbeddingOption
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSigningOptions.SetCertificateEmbeddingOption
+- IOpcSigningOptions.SetCertificateEmbeddingOption
 targetos: Windows
 req.typenames: 
 req.redist: 

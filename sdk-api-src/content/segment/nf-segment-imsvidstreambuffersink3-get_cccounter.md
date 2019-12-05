@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_CCCounter
 title: IMSVidStreamBufferSink3::get_CCCounter (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersink3_get_cccounter.htm
 tech.root: mstv
 ms.assetid: 76c3e3e5-521a-40d3-98b9-c5a757fc2bec
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink3 interface [Microsoft TV Technologies],get_CCCounter method, IMSVidStreamBufferSink3.get_CCCounter, IMSVidStreamBufferSink3::get_CCCounter, IMSVidStreamBufferSink3get_CCCounter, get_CCCounter, get_CCCounter method [Microsoft TV Technologies], get_CCCounter method [Microsoft TV Technologies],IMSVidStreamBufferSink3 interface, mstv.imsvidstreambuffersink3_get_cccounter, segment/IMSVidStreamBufferSink3::get_CCCounter
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink3.get_CCCounter"
+f1_keywords:
+- segment/IMSVidStreamBufferSink3.get_CCCounter
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink3.get_CCCounter
+- IMSVidStreamBufferSink3.get_CCCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

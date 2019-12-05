@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetClassInfoExW
 title: GetClassInfoExW function (winuser.h)
-
 description: Retrieves information about a window class, including a handle to the small icon associated with the window class. The GetClassInfo function does not retrieve a handle to the small icon.
 old-location: winmsg\getclassinfoex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfoex.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClassInfoEx, GetClassInfoEx function [Windows and Messages], GetClassInfoExA, GetClassInfoExW, _win32_GetClassInfoEx, _win32_getclassinfoex_cpp, winmsg.getclassinfoex, winui._win32_getclassinfoex, winuser/GetClassInfoEx, winuser/GetClassInfoExA, winuser/GetClassInfoExW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetClassInfoEx"
+f1_keywords:
+- winuser/GetClassInfoEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-Window-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-Window-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - GetClassInfoEx
- - GetClassInfoExA
- - GetClassInfoExW
+- GetClassInfoEx
+- GetClassInfoExA
+- GetClassInfoExW
 targetos: Windows
 req.typenames: 
 req.redist: 

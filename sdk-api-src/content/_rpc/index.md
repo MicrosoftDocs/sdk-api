@@ -1,7 +1,6 @@
 ---
 UID: TP:rpc
 ms.assetid: 47b47c5f-ee14-33e0-96c0-18c7b2796fcb
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

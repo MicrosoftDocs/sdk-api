@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent3.BroadcastEventEx
 title: IMSVidStreamBufferSourceEvent3::BroadcastEventEx (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersourceevent3_broadcasteventex.htm
 tech.root: mstv
 ms.assetid: 2d97bcc0-ae13-436b-b741-2f22eb36f5de
-
 ms.date: 12/05/2018
 ms.keywords: BroadcastEventEx, BroadcastEventEx method [Microsoft TV Technologies], BroadcastEventEx method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent3 interface, IMSVidStreamBufferSourceEvent3 interface [Microsoft TV Technologies],BroadcastEventEx method, IMSVidStreamBufferSourceEvent3.BroadcastEventEx, IMSVidStreamBufferSourceEvent3::BroadcastEventEx, IMSVidStreamBufferSourceEvent3BroadcastEventEx, mstv.imsvidstreambuffersourceevent3_broadcasteventex, segment/IMSVidStreamBufferSourceEvent3::BroadcastEventEx
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent3.BroadcastEventEx"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent3.BroadcastEventEx
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent3.BroadcastEventEx
+- IMSVidStreamBufferSourceEvent3.BroadcastEventEx
 targetos: Windows
 req.typenames: 
 req.redist: 

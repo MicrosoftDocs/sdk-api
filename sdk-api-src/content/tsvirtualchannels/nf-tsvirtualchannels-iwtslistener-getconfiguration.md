@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSListener.GetConfiguration
 title: IWTSListener::GetConfiguration (tsvirtualchannels.h)
-
 description: Retrieves the listener-specific configuration.
 old-location: termserv\iwtslistener_getconfiguration.htm
 tech.root: TermServ
 ms.assetid: 2d45ab39-0a65-4424-b6ea-2a54bb063c0f
-
 ms.date: 12/05/2018
 ms.keywords: GetConfiguration, GetConfiguration method [Remote Desktop Services], GetConfiguration method [Remote Desktop Services],IWTSListener interface, IWTSListener interface [Remote Desktop Services],GetConfiguration method, IWTSListener.GetConfiguration, IWTSListener::GetConfiguration, termserv.iwtslistener_getconfiguration, tsvirtualchannels/IWTSListener::GetConfiguration
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSListener.GetConfiguration"
+f1_keywords:
+- tsvirtualchannels/IWTSListener.GetConfiguration
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSListener.GetConfiguration
+- IWTSListener.GetConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaType.IsCompressedFormat
 title: IMFMediaType::IsCompressedFormat (mfobjects.h)
-
 description: Queries whether the media type is a temporally compressed format.
 old-location: mf\imfmediatype_iscompressedformat.htm
 tech.root: medfound
 ms.assetid: d15d683b-f2ce-40ac-9724-a0785f5d335c
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaType interface [Media Foundation],IsCompressedFormat method, IMFMediaType.IsCompressedFormat, IMFMediaType::IsCompressedFormat, IsCompressedFormat, IsCompressedFormat method [Media Foundation], IsCompressedFormat method [Media Foundation],IMFMediaType interface, d15d683b-f2ce-40ac-9724-a0785f5d335c, mf.imfmediatype_iscompressedformat, mfobjects/IMFMediaType::IsCompressedFormat
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaType.IsCompressedFormat"
+f1_keywords:
+- mfobjects/IMFMediaType.IsCompressedFormat
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaType.IsCompressedFormat
+- IMFMediaType.IsCompressedFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

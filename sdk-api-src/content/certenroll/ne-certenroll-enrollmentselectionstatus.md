@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.EnrollmentSelectionStatus
 title: EnrollmentSelectionStatus (certenroll.h)
-
 description: Specifies whether the enrollment status of an object will be monitored during the enrollment process.
 old-location: security\enrollmentselectionstatus_enum.htm
 tech.root: seccertenroll
 ms.assetid: a762d81b-0426-483c-a9c0-70f531f4b6ac
-
 ms.date: 12/05/2018
 ms.keywords: EnrollmentSelectionStatus, EnrollmentSelectionStatus enumeration [Security], SelectedNo, SelectedYes, certenroll/EnrollmentSelectionStatus, certenroll/SelectedNo, certenroll/SelectedYes, security.enrollmentselectionstatus_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/EnrollmentSelectionStatus"
+f1_keywords:
+- certenroll/EnrollmentSelectionStatus
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - EnrollmentSelectionStatus
+- EnrollmentSelectionStatus
 targetos: Windows
 req.typenames: EnrollmentSelectionStatus
 req.redist: 

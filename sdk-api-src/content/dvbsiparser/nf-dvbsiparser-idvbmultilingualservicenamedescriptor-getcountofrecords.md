@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
 title: IDvbMultilingualServiceNameDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of service records in a Digital Video Broadcast (DVB) multilingual service name descriptor.
 old-location: mstv\idvbmultilingualservicenamedescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: c157e520-696f-45d8-8e43-0e6845882404
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbMultilingualServiceNameDescriptor interface, IDvbMultilingualServiceNameDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbMultilingualServiceNameDescriptor.GetCountOfRecords, IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, dvbsiparser/IDvbMultilingualServiceNameDescriptor::GetCountOfRecords, mstv.idvbmultilingualservicenamedescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
+- IDvbMultilingualServiceNameDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

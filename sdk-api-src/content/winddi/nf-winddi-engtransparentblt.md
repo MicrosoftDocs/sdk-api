@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngTransparentBlt
 title: EngTransparentBlt function (winddi.h)
-
 description: The EngTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: display\engtransparentblt.htm
 tech.root: display
 ms.assetid: db98b15f-6b4b-4efc-aa24-20c728b09358
-
 ms.date: 12/05/2018
 ms.keywords: EngTransparentBlt, EngTransparentBlt function [Display Devices], display.engtransparentblt, gdifncs_1f33c0a3-6062-494c-aef0-2fa368d278ac.xml, winddi/EngTransparentBlt
 ms.topic: function
 f1_keywords:
 - winddi/EngTransparentBlt
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

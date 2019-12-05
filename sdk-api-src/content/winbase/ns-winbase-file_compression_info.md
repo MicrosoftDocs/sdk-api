@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_COMPRESSION_INFO
 title: FILE_COMPRESSION_INFO (winbase.h)
-
 description: Receives file compression information.
 old-location: fs\file_compression_info.htm
 tech.root: FileIO
 ms.assetid: 2f64e7cc-e23c-4e3d-8e17-0e8e38f1ea24
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO structure [Files], PFILE_COMPRESSION_INFO, PFILE_COMPRESSION_INFO structure pointer [Files], fileextd/FILE_COMPRESSION_INFO, fileextd/PFILE_COMPRESSION_INFO, fs.file_compression_info, winbase/FILE_COMPRESSION_INFO, winbase/PFILE_COMPRESSION_INFO"
+ms.keywords: '*PFILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO, FILE_COMPRESSION_INFO structure [Files], PFILE_COMPRESSION_INFO, PFILE_COMPRESSION_INFO structure pointer [Files], fileextd/FILE_COMPRESSION_INFO, fileextd/PFILE_COMPRESSION_INFO, fs.file_compression_info, winbase/FILE_COMPRESSION_INFO, winbase/PFILE_COMPRESSION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_COMPRESSION_INFO"
+f1_keywords:
+- winbase/FILE_COMPRESSION_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_COMPRESSION_INFO
+- FILE_COMPRESSION_INFO
 targetos: Windows
 req.typenames: FILE_COMPRESSION_INFO, *PFILE_COMPRESSION_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

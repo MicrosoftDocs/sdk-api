@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUIEventingManager
 title: IUIEventingManager (uiribbon.h)
-
 description: The IUIEventingManager interface is implemented by the Ribbon framework and provides the notification functionality for applications that register for ribbon events.
 old-location: windowsribbon\iuieventingmanager.htm
 tech.root: windowsribbon
 ms.assetid: 11E53D75-B8C0-40A3-8E4D-ACAA10BEAC84
-
 ms.date: 12/05/2018
 ms.keywords: IUIEventingManager, IUIEventingManager interface [Windows Ribbon], IUIEventingManager interface [Windows Ribbon],described, uiribbon/IUIEventingManager, windowsribbon.iuieventingmanager
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUIEventingManager"
+f1_keywords:
+- uiribbon/IUIEventingManager
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUIEventingManager
+- IUIEventingManager
 targetos: Windows
 req.typenames: 
 req.redist: 

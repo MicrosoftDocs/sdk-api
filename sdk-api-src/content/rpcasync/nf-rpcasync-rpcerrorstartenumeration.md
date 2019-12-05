@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcErrorStartEnumeration
 title: RpcErrorStartEnumeration function (rpcasync.h)
-
 description: The RpcErrorStartEnumeration function begins enumeration of extended error information.
 old-location: rpc\rpcerrorstartenumeration.htm
 tech.root: Rpc
 ms.assetid: 56c61902-4b34-4d92-b352-cd1837754aa3
-
 ms.date: 12/05/2018
 ms.keywords: RpcErrorStartEnumeration, RpcErrorStartEnumeration function [RPC], _rpc_rpcerrorstartenumeration, rpc.rpcerrorstartenumeration, rpcasync/RpcErrorStartEnumeration
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcErrorStartEnumeration"
+f1_keywords:
+- rpcasync/RpcErrorStartEnumeration
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcErrorStartEnumeration
+- RpcErrorStartEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

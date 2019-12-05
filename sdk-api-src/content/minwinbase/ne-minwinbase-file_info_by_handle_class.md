@@ -1,19 +1,17 @@
 ---
 UID: NE:minwinbase._FILE_INFO_BY_HANDLE_CLASS
 title: FILE_INFO_BY_HANDLE_CLASS (minwinbase.h)
-
 description: Identifies the type of file information that GetFileInformationByHandleEx should retrieve or SetFileInformationByHandle should set.
 old-location: fs\file_info_by_handle_class.htm
 tech.root: FileIO
 ms.assetid: 8f02e824-ca41-48c1-a5e8-5b12d81886b5
-
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_INFO_BY_HANDLE_CLASS, FILE_INFO_BY_HANDLE_CLASS, FILE_INFO_BY_HANDLE_CLASS enumeration [Files], FileAlignmentInfo, FileAllocationInfo, FileAttributeTagInfo, FileBasicInfo, FileCompressionInfo, FileDispositionInfo, FileEndOfFileInfo, FileFullDirectoryInfo, FileFullDirectoryRestartInfo, FileIdBothDirectoryInfo, FileIdBothDirectoryRestartInfo, FileIdExtdDirectoryInfo, FileIdExtdDirectoryRestartInfo, FileIdInfo, FileIoPriorityHintInfo, FileNameInfo, FileRemoteProtocolInfo, FileRenameInfo, FileStandardInfo, FileStorageInfo, FileStreamInfo, MaximumFileInfoByHandlesClass, PFILE_INFO_BY_HANDLE_CLASS, PFILE_INFO_BY_HANDLE_CLASS enumeration pointer [Files], fileextd/FILE_INFO_BY_HANDLE_CLASS, fileextd/FileAlignmentInfo, fileextd/FileAllocationInfo, fileextd/FileAttributeTagInfo, fileextd/FileBasicInfo, fileextd/FileCompressionInfo, fileextd/FileDispositionInfo, fileextd/FileEndOfFileInfo, fileextd/FileFullDirectoryInfo, fileextd/FileFullDirectoryRestartInfo, fileextd/FileIdBothDirectoryInfo, fileextd/FileIdBothDirectoryRestartInfo, fileextd/FileIdExtdDirectoryInfo, fileextd/FileIdExtdDirectoryRestartInfo, fileextd/FileIdInfo, fileextd/FileIoPriorityHintInfo, fileextd/FileNameInfo, fileextd/FileRemoteProtocolInfo, fileextd/FileRenameInfo, fileextd/FileStandardInfo, fileextd/FileStorageInfo, fileextd/FileStreamInfo, fileextd/MaximumFileInfoByHandlesClass, fileextd/PFILE_INFO_BY_HANDLE_CLASS, fs.file_info_by_handle_class, minwinbase/FILE_INFO_BY_HANDLE_CLASS, minwinbase/FileAlignmentInfo, minwinbase/FileAllocationInfo, minwinbase/FileAttributeTagInfo, minwinbase/FileBasicInfo, minwinbase/FileCompressionInfo, minwinbase/FileDispositionInfo, minwinbase/FileEndOfFileInfo, minwinbase/FileFullDirectoryInfo, minwinbase/FileFullDirectoryRestartInfo, minwinbase/FileIdBothDirectoryInfo, minwinbase/FileIdBothDirectoryRestartInfo, minwinbase/FileIdExtdDirectoryInfo, minwinbase/FileIdExtdDirectoryRestartInfo, minwinbase/FileIdInfo, minwinbase/FileIoPriorityHintInfo, minwinbase/FileNameInfo, minwinbase/FileRemoteProtocolInfo, minwinbase/FileRenameInfo, minwinbase/FileStandardInfo, minwinbase/FileStorageInfo, minwinbase/FileStreamInfo, minwinbase/MaximumFileInfoByHandlesClass, minwinbase/PFILE_INFO_BY_HANDLE_CLASS'
 ms.topic: enum
 f1_keywords:
 - minwinbase/FILE_INFO_BY_HANDLE_CLASS
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows

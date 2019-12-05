@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.InternetHangUp
 title: InternetHangUp function (winineti.h)
-
 description: Instructs the modem to disconnect from the Internet.
 old-location: wininet\internethangup.htm
 tech.root: wininet
 ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12
-
 ms.date: 12/05/2018
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
 ms.topic: function
-f1_keywords: 
- - "winineti/InternetHangUp"
+f1_keywords:
+- winineti/InternetHangUp
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: Wininet.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetHangUp
+- InternetHangUp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.CreateReport
 title: IFsrmReportJob::CreateReport (fsrmreports.h)
-
 description: Creates a new report object of the specified type.
 old-location: fsrm\ifsrmreportjob_createreport.htm
 tech.root: fsrm
 ms.assetid: 484941d1-726c-4765-8652-bcb378f277b4
-
 ms.date: 12/05/2018
 ms.keywords: CreateReport, CreateReport method [File Server Resource Manager], CreateReport method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],CreateReport method, IFsrmReportJob.CreateReport, IFsrmReportJob::CreateReport, fs.ifsrmreportjob_createreport, fsrm.ifsrmreportjob_createreport, fsrmreports/IFsrmReportJob::CreateReport
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportJob.CreateReport
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows

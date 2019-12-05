@@ -1,19 +1,17 @@
 ---
 UID: NF:wmiutils.IWbemPath.SetServer
 title: IWbemPath::SetServer (wmiutils.h)
-
 description: The IWbemPath::SetServer method sets the server portion of the path.
 old-location: wmi\iwbempath_setserver.htm
 tech.root: WmiSdk
 ms.assetid: 4da66edf-bf38-4246-82fc-27fd14e7d183
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPath interface [Windows Management Instrumentation],SetServer method, IWbemPath.SetServer, IWbemPath::SetServer, SetServer, SetServer method [Windows Management Instrumentation], SetServer method [Windows Management Instrumentation],IWbemPath interface, _hmm_iwbempath_setserver, wmi.iwbempath_setserver, wmiutils/IWbemPath::SetServer
 ms.topic: method
-f1_keywords: 
- - "wmiutils/IWbemPath.SetServer"
+f1_keywords:
+- wmiutils/IWbemPath.SetServer
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath.SetServer
+- IWbemPath.SetServer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.SetParam
 title: ICallFrame::SetParam (callobj.h)
-
 description: Sets the value of a specified parameter in the call frame.
 old-location: com\icallframe_setparam.htm
 tech.root: com
 ms.assetid: ec828206-d49f-49da-91fc-554d703b53db
-
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],SetParam method, ICallFrame.SetParam, ICallFrame::SetParam, SetParam, SetParam method [COM], SetParam method [COM],ICallFrame interface, _com_icallframe_setparam, callobj/ICallFrame::SetParam, com.icallframe_setparam
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.SetParam"
+f1_keywords:
+- callobj/ICallFrame.SetParam
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.SetParam
+- ICallFrame.SetParam
 targetos: Windows
 req.typenames: 
 req.redist: 

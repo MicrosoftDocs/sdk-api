@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt._AUDIT_EVENT_TYPE
 title: AUDIT_EVENT_TYPE (winnt.h)
-
 description: Defines values that indicate the type of object being audited. The AccessCheckByTypeAndAuditAlarm and AccessCheckByTypeResultListAndAuditAlarm functions use these values.
 old-location: security\audit_event_type.htm
 tech.root: SecAuthZ
 ms.assetid: 7dc21840-6dcc-445b-a254-f8ca27008d63
-
 ms.date: 12/05/2018
-ms.keywords: "*PAUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE enumeration [Security], AuditEventDirectoryServiceAccess, AuditEventObjectAccess, PAUDIT_EVENT_TYPE, PAUDIT_EVENT_TYPE enumeration pointer [Security], _win32_audit_event_type_str, security.audit_event_type, winnt/AUDIT_EVENT_TYPE, winnt/AuditEventDirectoryServiceAccess, winnt/AuditEventObjectAccess, winnt/PAUDIT_EVENT_TYPE"
+ms.keywords: '*PAUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE, AUDIT_EVENT_TYPE enumeration [Security], AuditEventDirectoryServiceAccess, AuditEventObjectAccess, PAUDIT_EVENT_TYPE, PAUDIT_EVENT_TYPE enumeration pointer [Security], _win32_audit_event_type_str, security.audit_event_type, winnt/AUDIT_EVENT_TYPE, winnt/AuditEventDirectoryServiceAccess, winnt/AuditEventObjectAccess, winnt/PAUDIT_EVENT_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "winnt/AUDIT_EVENT_TYPE"
+f1_keywords:
+- winnt/AUDIT_EVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - AUDIT_EVENT_TYPE
+- AUDIT_EVENT_TYPE
 targetos: Windows
 req.typenames: AUDIT_EVENT_TYPE, *PAUDIT_EVENT_TYPE
 req.redist: 

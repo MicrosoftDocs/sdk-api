@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.AllocateDataUnit
 title: IWMWriterSink::AllocateDataUnit (wmsdkidl.h)
-
 description: The AllocateDataUnit method is called by the writer object when it needs a buffer to deliver a data unit.
 old-location: wmformat\iwmwritersink_allocatedataunit.htm
 tech.root: wmformat
 ms.assetid: 56a16163-84e7-4235-8bf3-03e81696bb63
-
 ms.date: 12/05/2018
 ms.keywords: AllocateDataUnit, AllocateDataUnit method [windows Media Format], AllocateDataUnit method [windows Media Format],IWMWriterSink interface, IWMWriterSink interface [windows Media Format],AllocateDataUnit method, IWMWriterSink.AllocateDataUnit, IWMWriterSink::AllocateDataUnit, IWMWriterSinkAllocateDataUnit, wmformat.iwmwritersink_allocatedataunit, wmsdkidl/IWMWriterSink::AllocateDataUnit
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterSink.AllocateDataUnit"
+f1_keywords:
+- wmsdkidl/IWMWriterSink.AllocateDataUnit
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterSink.AllocateDataUnit
+- IWMWriterSink.AllocateDataUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

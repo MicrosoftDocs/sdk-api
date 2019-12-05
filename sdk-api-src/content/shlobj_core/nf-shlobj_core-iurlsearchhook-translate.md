@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IURLSearchHook.Translate
 title: IURLSearchHook::Translate (shlobj_core.h)
-
 description: Called by the browser when the browser cannot determine the protocol of a URL address.
 old-location: shell\IURLSearchHook_Translate.htm
 tech.root: shell
 ms.assetid: 02fa8ee7-f9cb-4872-895c-7b3078391cc4
-
 ms.date: 12/05/2018
 ms.keywords: IURLSearchHook interface [Windows Shell],Translate method, IURLSearchHook.Translate, IURLSearchHook::Translate, Translate, Translate method [Windows Shell], Translate method [Windows Shell],IURLSearchHook interface, _win32_IURLSearchHook_Translate, shell.IURLSearchHook_Translate, shlobj_core/IURLSearchHook::Translate
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IURLSearchHook.Translate"
+f1_keywords:
+- shlobj_core/IURLSearchHook.Translate
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IURLSearchHook.Translate
+- IURLSearchHook.Translate
 targetos: Windows
 req.typenames: 
 req.redist: 

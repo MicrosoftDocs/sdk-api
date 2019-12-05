@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_UserAccount
 title: IFsrmFileScreen::get_UserAccount (fsrmscreen.h)
-
 description: The account name of the user whose files will be screened.
 old-location: fsrm\ifsrmfilescreen_useraccount.htm
 tech.root: fsrm
 ms.assetid: c47a61b8-3e9b-404f-9100-8e8ccb08ecd1
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],UserAccount property, IFsrmFileScreen.UserAccount, IFsrmFileScreen.get_UserAccount, IFsrmFileScreen::UserAccount, IFsrmFileScreen::get_UserAccount, UserAccount property [File Server Resource Manager], UserAccount property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_useraccount, fsrm.ifsrmfilescreen_useraccount, fsrmscreen/IFsrmFileScreen::UserAccount, fsrmscreen/IFsrmFileScreen::get_UserAccount, get_UserAccount
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreen.UserAccount"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreen.UserAccount
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreen.UserAccount
- - IFsrmFileScreen.get_UserAccount
+- IFsrmFileScreen.UserAccount
+- IFsrmFileScreen.get_UserAccount
 targetos: Windows
 req.typenames: 
 req.redist: 

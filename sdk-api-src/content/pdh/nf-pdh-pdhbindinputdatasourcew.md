@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhBindInputDataSourceW
 title: PdhBindInputDataSourceW function (pdh.h)
-
 description: Binds one or more binary log files together for reading log data.
 old-location: perf\pdhbindinputdatasource.htm
 tech.root: perfctrs
 ms.assetid: eaed9b28-eb09-4123-9317-5d3d50e2d77a
-
 ms.date: 12/05/2018
 ms.keywords: PdhBindInputDataSource, PdhBindInputDataSource function [Perf], PdhBindInputDataSourceA, PdhBindInputDataSourceW, _win32_pdhbindinputdatasource, base.pdhbindinputdatasource, pdh/PdhBindInputDataSource, pdh/PdhBindInputDataSourceA, pdh/PdhBindInputDataSourceW, perf.pdhbindinputdatasource
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhBindInputDataSource"
+f1_keywords:
+- pdh/PdhBindInputDataSource
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhBindInputDataSource
- - PdhBindInputDataSourceA
- - PdhBindInputDataSourceW
+- PdhBindInputDataSource
+- PdhBindInputDataSourceA
+- PdhBindInputDataSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

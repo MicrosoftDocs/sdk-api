@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.put_accName
 title: IAccessible::put_accName (oleacc.h)
-
 description: The IAccessible::put_accName method is no longer supported. Client applications should use a control-specific workaround, such as the SetWindowText function. Servers should return E_NOTIMPL.
 old-location: winauto\iaccessible_put_accname.htm
 tech.root: WinAuto
 ms.assetid: 562df006-cbde-407b-b539-f86cb3403a97
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],put_accName method, IAccessible.put_accName, IAccessible::put_accName, oleacc/IAccessible::put_accName, put_accName, put_accName method [Windows Accessibility], put_accName method [Windows Accessibility],IAccessible interface, winauto.iaccessible_put_accname
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.put_accName"
+f1_keywords:
+- oleacc/IAccessible.put_accName
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
- - srchctls.dll
+- Oleacc.dll
+- srchctls.dll
 api_name:
- - IAccessible.put_accName
+- IAccessible.put_accName
 targetos: Windows
 req.typenames: 
 req.redist: 

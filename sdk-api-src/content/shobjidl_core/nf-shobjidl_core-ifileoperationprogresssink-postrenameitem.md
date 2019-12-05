@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostRenameItem
 title: IFileOperationProgressSink::PostRenameItem (shobjidl_core.h)
-
 description: Performs caller-implemented actions after the rename process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostRenameItem.htm
 tech.root: shell
 ms.assetid: 3bb55ecf-a975-4e7f-9e41-30e778d4cbac
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostRenameItem method, IFileOperationProgressSink.PostRenameItem, IFileOperationProgressSink::PostRenameItem, PostRenameItem, PostRenameItem method [Windows Shell], PostRenameItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostRenameItem, shell.IFileOperationProgressSink_PostRenameItem, shobjidl_core/IFileOperationProgressSink::PostRenameItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PostRenameItem"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PostRenameItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PostRenameItem
+- IFileOperationProgressSink.PostRenameItem
 targetos: Windows
 req.typenames: 
 req.redist: 

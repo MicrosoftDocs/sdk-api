@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncVideoContentType
 title: eAVEncVideoContentType (codecapi.h)
-
 description: Specifies the type of video content.
 old-location: mf\eavencvideocontenttype.htm
 tech.root: medfound
 ms.assetid: 24670733-18F8-489A-AE43-E59F444F8340
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncVideoContentType, codecapi/eAVEncVideoContentType_FixedCameraAngle, codecapi/eAVEncVideoContentType_Unknown, eAVEncVideoContentType, eAVEncVideoContentType enumeration [Media Foundation], eAVEncVideoContentType_FixedCameraAngle, eAVEncVideoContentType_Unknown, mf.eavencvideocontenttype
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncVideoContentType"
+f1_keywords:
+- codecapi/eAVEncVideoContentType
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncVideoContentType
+- eAVEncVideoContentType
 targetos: Windows
 req.typenames: 
 req.redist: 

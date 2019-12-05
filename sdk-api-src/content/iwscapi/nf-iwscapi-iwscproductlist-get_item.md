@@ -1,19 +1,17 @@
 ---
 UID: NF:iwscapi.IWSCProductList.get_Item
 title: IWSCProductList::get_Item (iwscapi.h)
-
 description: Returns one of the types of providers on the computer.
 old-location: winprog\iwscproductlist_item.htm
 tech.root: DevNotes
 ms.assetid: 041F45EF-BE1E-4C37-9BD7-ED9F45587ADA
-
 ms.date: 12/05/2018
 ms.keywords: IWSCProductList interface [Windows API],get_Item method, IWSCProductList.get_Item, IWSCProductList::get_Item, get_Item, get_Item method [Windows API], get_Item method [Windows API],IWSCProductList interface, iwscapi/IWSCProductList::get_Item, winprog.iwscproductlist_item
 ms.topic: method
-f1_keywords: 
- - "iwscapi/IWSCProductList.get_Item"
+f1_keywords:
+- iwscapi/IWSCProductList.get_Item
 dev_langs:
- - c++
+- c++
 req.header: iwscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wscapi.lib
 req.dll: Wscapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wscapi.dll
+- Wscapi.dll
 api_name:
- - IWSCProductList.get_Item
+- IWSCProductList.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

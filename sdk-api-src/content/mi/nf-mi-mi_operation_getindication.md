@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Operation_GetIndication
 title: MI_Operation_GetIndication function (mi.h)
-
 description: Get the synchronous results from a subscription.
 old-location: wmi_v2\mi_operation_getindication.htm
 tech.root: wmi_v2
 ms.assetid: 3e3e8472-ea33-485b-9e86-b5ba770af95b
-
 ms.date: 12/05/2018
 ms.keywords: MI_Operation_GetIndication, MI_Operation_GetIndication function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetIndication, wmi_v2.mi_operation_getindication
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Operation_GetIndication"
+f1_keywords:
+- mi/MI_Operation_GetIndication
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Operation_GetIndication
+- MI_Operation_GetIndication
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

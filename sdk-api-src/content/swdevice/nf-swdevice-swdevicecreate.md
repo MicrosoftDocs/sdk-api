@@ -1,19 +1,17 @@
 ---
 UID: NF:swdevice.SwDeviceCreate
 title: SwDeviceCreate function (swdevice.h)
-
 description: Initiates the enumeration of a software device.
 old-location: swdevice\swdevicecreate.htm
 tech.root: swdevice
 ms.assetid: 8274D7D9-D4AD-412E-A9C0-7D4A08C8A14F
-
 ms.date: 12/05/2018
 ms.keywords: SwDeviceCreate, SwDeviceCreate function, swdevice.swdevicecreate, swdevice/SwDeviceCreate
 ms.topic: function
-f1_keywords: 
- - "swdevice/SwDeviceCreate"
+f1_keywords:
+- swdevice/SwDeviceCreate
 dev_langs:
- - c++
+- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - API-MS-Win-devices-swdevice-l1-1-0.dll
- - API-MS-Win-devices-swdevice-l1-1-1.dll
+- Cfgmgr32.dll
+- API-MS-Win-devices-swdevice-l1-1-0.dll
+- API-MS-Win-devices-swdevice-l1-1-1.dll
 api_name:
- - SwDeviceCreate
+- SwDeviceCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

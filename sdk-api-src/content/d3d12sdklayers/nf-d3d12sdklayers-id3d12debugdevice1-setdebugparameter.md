@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice1.SetDebugParameter
 title: ID3D12DebugDevice1::SetDebugParameter (d3d12sdklayers.h)
-
 description: Modifies the D3D12 optional device-wide Debug Layer settings.
 old-location: direct3d12\id3d12debugdevice1_setdebugparameter.htm
 tech.root: direct3d12
 ms.assetid: D97086C6-CED8-4C4E-ADA1-7A172B3202F3
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugDevice1 interface,SetDebugParameter method, ID3D12DebugDevice1.SetDebugParameter, ID3D12DebugDevice1::SetDebugParameter, SetDebugParameter, SetDebugParameter method, SetDebugParameter method,ID3D12DebugDevice1 interface, d3d12sdklayers/ID3D12DebugDevice1::SetDebugParameter, direct3d12.id3d12debugdevice1_setdebugparameter
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugDevice1.SetDebugParameter"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugDevice1.SetDebugParameter
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugDevice1.SetDebugParameter
+- ID3D12DebugDevice1.SetDebugParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sas.SendSAS
 title: SendSAS function (sas.h)
-
 description: Simulates a secure attention sequence (SAS).
 old-location: security\sendsas.htm
 tech.root: SecAuthN
 ms.assetid: da5d0915-dc41-4b63-a500-a0bec3f19a65
-
 ms.date: 12/05/2018
 ms.keywords: SendSAS, SendSAS function [Security], sas/SendSAS, security.sendsas
 ms.topic: function
-f1_keywords: 
- - "sas/SendSAS"
+f1_keywords:
+- sas/SendSAS
 dev_langs:
- - c++
+- c++
 req.header: sas.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sas.lib
 req.dll: Sas.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sas.dll
+- Sas.dll
 api_name:
- - SendSAS
+- SendSAS
 targetos: Windows
 req.typenames: 
 req.redist: 

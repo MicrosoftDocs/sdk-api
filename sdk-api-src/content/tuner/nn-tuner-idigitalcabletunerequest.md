@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IDigitalCableTuneRequest
 title: IDigitalCableTuneRequest (tuner.h)
-
 description: The IDigitalCableTuneRequest interface provides methods for tuning to a channel in a digital cable network.
 old-location: mstv\idigitalcabletunerequest.htm
 tech.root: mstv
 ms.assetid: 75c3c80f-2f02-4cb7-a9e0-aad4076793e4
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuneRequest, IDigitalCableTuneRequest interface [Microsoft TV Technologies], IDigitalCableTuneRequest interface [Microsoft TV Technologies],described, IDigitalCableTuneRequestInterface, mstv.idigitalcabletunerequest, tuner/IDigitalCableTuneRequest
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDigitalCableTuneRequest"
+f1_keywords:
+- tuner/IDigitalCableTuneRequest
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuneRequest
+- IDigitalCableTuneRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

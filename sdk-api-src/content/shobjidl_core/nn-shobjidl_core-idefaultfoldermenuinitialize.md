@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IDefaultFolderMenuInitialize
 title: IDefaultFolderMenuInitialize (shobjidl_core.h)
-
 description: Provides methods used to get and set shortcut menu information. This information is the same as that provided to SHCreateDefaultContextMenu through the DEFCONTEXTMENU structure.
 old-location: shell\IDefaultFolderMenuInitialize.htm
 tech.root: shell
 ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize, IDefaultFolderMenuInitialize interface [Windows Shell], IDefaultFolderMenuInitialize interface [Windows Shell],described, shell.IDefaultFolderMenuInitialize, shobjidl_core/IDefaultFolderMenuInitialize
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IDefaultFolderMenuInitialize"
+f1_keywords:
+- shobjidl_core/IDefaultFolderMenuInitialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDefaultFolderMenuInitialize
+- IDefaultFolderMenuInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

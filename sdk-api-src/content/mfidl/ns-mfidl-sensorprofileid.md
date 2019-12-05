@@ -1,19 +1,17 @@
 ---
 UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0113_0001
 title: SENSORPROFILEID (mfidl.h)
-
 description: Describes a sensor profile ID.
 old-location: mf\sensorprofileid.htm
 tech.root: medfound
 ms.assetid: 29BF454E-60DD-4709-A1B2-2A46C3BD3F42
-
 ms.date: 12/05/2018
 ms.keywords: PSENSORPROFILEID, PSENSORPROFILEID structure pointer [Media Foundation], SENSORPROFILEID, SENSORPROFILEID structure [Media Foundation], mf.sensorprofileid, mfidl/PSENSORPROFILEID, mfidl/SENSORPROFILEID
 ms.topic: struct
-f1_keywords: 
- - "mfidl/SENSORPROFILEID"
+f1_keywords:
+- mfidl/SENSORPROFILEID
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - SENSORPROFILEID
+- SENSORPROFILEID
 targetos: Windows
 req.typenames: SENSORPROFILEID
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.MakeEmpty
 title: Region::MakeEmpty (gdiplusheaders.h)
-
 description: The Region::MakeEmpty method updates this region to an empty region. In other words, the region occupies no space on the display device.
 old-location: gdiplus\_gdiplus_CLASS_Region_MakeEmpty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\makeempty.htm
-
 ms.date: 12/05/2018
 ms.keywords: MakeEmpty, MakeEmpty method [GDI+], MakeEmpty method [GDI+],Region class, Region class [GDI+],MakeEmpty method, Region.MakeEmpty, Region::MakeEmpty, _gdiplus_CLASS_Region_MakeEmpty_, gdiplus._gdiplus_CLASS_Region_MakeEmpty_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.MakeEmpty"
+f1_keywords:
+- gdiplusheaders/Region.MakeEmpty
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.MakeEmpty
+- Region.MakeEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

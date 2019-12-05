@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarNeg
 title: VarNeg function (oleauto.h)
-
 description: Performs logical negation on a variant.
 old-location: automat\varneg.htm
 tech.root: automat
 ms.assetid: 95a8c1ee-6c8a-4eff-871b-63be3a616995
-
 ms.date: 12/05/2018
 ms.keywords: VarNeg, VarNeg function [Automation], _oa96_VarNeg, automat.varneg, oleauto/VarNeg
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarNeg"
+f1_keywords:
+- oleauto/VarNeg
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarNeg
+- VarNeg
 targetos: Windows
 req.typenames: 
 req.redist: 

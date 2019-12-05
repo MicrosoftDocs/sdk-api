@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfCandidateList
 title: ITfCandidateList (ctffunc.h)
-
 description: The ITfCandidateList interface is implemented by a text service and is used by the TSF manager or a client (application or other text service) to obtain and manipulate candidate string objects.
 old-location: tsf\itfcandidatelist.htm
 tech.root: TSF
 ms.assetid: e41ba461-6337-4feb-ba16-3942920ebb9f
-
 ms.date: 12/05/2018
 ms.keywords: ITfCandidateList, ITfCandidateList interface [Text Services Framework], ITfCandidateList interface [Text Services Framework],described, _tsf_itfcandidatelist_ref, ctffunc/ITfCandidateList, tsf.itfcandidatelist
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfCandidateList"
+f1_keywords:
+- ctffunc/ITfCandidateList
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tiptsf.dll
+- Tiptsf.dll
 api_name:
- - ITfCandidateList
+- ITfCandidateList
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

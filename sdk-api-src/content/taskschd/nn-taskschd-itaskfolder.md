@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskFolder
 title: ITaskFolder (taskschd.h)
-
 description: Provides the methods that are used to register (create) tasks in the folder, remove tasks from the folder, and create or remove subfolders from the folder.
 old-location: taskschd\itaskfolder.htm
 tech.root: taskschd
 ms.assetid: da0cc808-b284-4d10-be61-d96c5e07d0a8
-
 ms.date: 12/05/2018
 ms.keywords: ITaskFolder, ITaskFolder interface [Task Scheduler], ITaskFolder interface [Task Scheduler],described, taskschd.itaskfolder, taskschd/ITaskFolder
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskFolder"
+f1_keywords:
+- taskschd/ITaskFolder
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder
+- ITaskFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

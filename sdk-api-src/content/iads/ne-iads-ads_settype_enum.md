@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0078_0001
 title: ADS_SETTYPE_ENUM (iads.h)
-
 description: The ADS_SETTYPE_ENUM enumeration specifies the available pathname format used by the IADsPathname::Set method.
 old-location: adsi\ads_settype_enum.htm
 tech.root: adsi
 ms.assetid: fbf7de54-3ea7-4d66-ad56-21cae1e28c07
-
 ms.date: 12/05/2018
 ms.keywords: ADS_SETTYPE_DN, ADS_SETTYPE_ENUM, ADS_SETTYPE_ENUM enumeration [ADSI], ADS_SETTYPE_FULL, ADS_SETTYPE_PROVIDER, ADS_SETTYPE_SERVER, _ds_ads_settype_enum, adsi.ads__settype__enum, adsi.ads_settype_enum, iads/ADS_SETTYPE_DN, iads/ADS_SETTYPE_ENUM, iads/ADS_SETTYPE_FULL, iads/ADS_SETTYPE_PROVIDER, iads/ADS_SETTYPE_SERVER
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_SETTYPE_ENUM"
+f1_keywords:
+- iads/ADS_SETTYPE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SETTYPE_ENUM
+- ADS_SETTYPE_ENUM
 targetos: Windows
 req.typenames: ADS_SETTYPE_ENUM
 req.redist: 

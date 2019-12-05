@@ -1,19 +1,17 @@
 ---
 UID: NS:qossp._FLOWDESCRIPTOR
 title: FLOWDESCRIPTOR (qossp.h)
-
 description: The FLOWDESCRIPTOR structure specifies one or more filters for a given FLOWSPEC.
 old-location: qos\flowdescriptor.htm
 tech.root: QOS
 ms.assetid: c81a9c68-7124-4a66-9c68-d147d41c0c4d
-
 ms.date: 12/05/2018
 ms.keywords: '*LPFLOWDESCRIPTOR, *LPFLOWDESCRIPTOR structure [QOS], FLOWDESCRIPTOR, FLOWDESCRIPTOR structure [QOS], qos.flowdescriptor, qossp/*LPFLOWDESCRIPTOR, qossp/FLOWDESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - qossp/FLOWDESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

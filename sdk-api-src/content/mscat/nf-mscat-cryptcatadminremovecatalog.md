@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminRemoveCatalog
 title: CryptCATAdminRemoveCatalog function (mscat.h)
-
 description: Deletes a catalog file and removes that catalog's entry from the Windows catalog database.
 old-location: security\cryptcatadminremovecatalog.htm
 tech.root: SecCrypto
 ms.assetid: e09fe991-0e7a-45da-910a-8cb148bdff9a
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminRemoveCatalog, CryptCATAdminRemoveCatalog function [Security], mscat/CryptCATAdminRemoveCatalog, security.cryptcatadminremovecatalog
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATAdminRemoveCatalog"
+f1_keywords:
+- mscat/CryptCATAdminRemoveCatalog
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATAdminRemoveCatalog
+- CryptCATAdminRemoveCatalog
 targetos: Windows
 req.typenames: 
 req.redist: 

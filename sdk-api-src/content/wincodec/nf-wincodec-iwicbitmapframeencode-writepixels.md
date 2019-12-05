@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.WritePixels
 title: IWICBitmapFrameEncode::WritePixels (wincodec.h)
-
 description: Copies scan-line data from a caller-supplied buffer to the IWICBitmapFrameEncode object.
 old-location: wic\_wic_codec_iwicbitmapframeencode_writepixels.htm
 tech.root: wic
 ms.assetid: 6b430fe0-5230-47dc-95c0-aeabd138cefe
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WritePixels method, IWICBitmapFrameEncode.WritePixels, IWICBitmapFrameEncode::WritePixels, WritePixels, WritePixels method [Windows Imaging Component], WritePixels method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writepixels, wic._wic_codec_iwicbitmapframeencode_writepixels, wincodec/IWICBitmapFrameEncode::WritePixels
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.WritePixels"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.WritePixels
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.WritePixels
+- IWICBitmapFrameEncode.WritePixels
 targetos: Windows
 req.typenames: 
 req.redist: 

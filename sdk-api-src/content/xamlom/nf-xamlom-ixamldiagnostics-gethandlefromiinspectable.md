@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetHandleFromIInspectable
 title: IXamlDiagnostics::GetHandleFromIInspectable (xamlom.h)
-
 description: Gets an InstanceHandle representation of an IInspectable.
 old-location: xaml_diagnostics\ixamldiagnostics_gethandlefromiinspectable.htm
 tech.root: xaml_diagnostics
 ms.assetid: 334497D9-11ED-4002-AEAB-0454EB62E53C
-
 ms.date: 12/05/2018
 ms.keywords: GetHandleFromIInspectable, GetHandleFromIInspectable method, GetHandleFromIInspectable method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetHandleFromIInspectable method, IXamlDiagnostics.GetHandleFromIInspectable, IXamlDiagnostics::GetHandleFromIInspectable, xaml_diagnostics.ixamldiagnostics_gethandlefromiinspectable, xamlom/IXamlDiagnostics::GetHandleFromIInspectable
 ms.topic: method
-f1_keywords: 
- - "xamlom/IXamlDiagnostics.GetHandleFromIInspectable"
+f1_keywords:
+- xamlom/IXamlDiagnostics.GetHandleFromIInspectable
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IXamlDiagnostics.GetHandleFromIInspectable
+- IXamlDiagnostics.GetHandleFromIInspectable
 targetos: Windows
 req.typenames: 
 req.redist: 

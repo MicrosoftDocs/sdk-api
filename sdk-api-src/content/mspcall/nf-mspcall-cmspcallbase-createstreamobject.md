@@ -1,19 +1,17 @@
 ---
 UID: NF:mspcall.CMSPCallBase.CreateStreamObject
 title: CMSPCallBase::CreateStreamObject (mspcall.h)
-
 description: The CreateStreamObject method is called by InternalCreateStream.
 old-location: tapi3\cmspcallbase_createstreamobject.htm
 tech.root: Tapi
 ms.assetid: ac98dd08-4250-40f6-91a8-e1f67b94b51f
-
 ms.date: 12/05/2018
 ms.keywords: CMSPCallBase interface [TAPI 2.2],CreateStreamObject method, CMSPCallBase.CreateStreamObject, CMSPCallBase::CreateStreamObject, CreateStreamObject, CreateStreamObject method [TAPI 2.2], CreateStreamObject method [TAPI 2.2],CMSPCallBase interface, _tapi3_cmspcallbase_createstreamobject, mspcall/CMSPCallBase::CreateStreamObject, tapi3.cmspcallbase_createstreamobject
 ms.topic: method
-f1_keywords: 
- - "mspcall/CMSPCallBase.CreateStreamObject"
+f1_keywords:
+- mspcall/CMSPCallBase.CreateStreamObject
 dev_langs:
- - c++
+- c++
 req.header: mspcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspcall.h
+- Mspcall.h
 api_name:
- - CMSPCallBase.CreateStreamObject
+- CMSPCallBase.CreateStreamObject
 targetos: Windows
 req.typenames: 
 req.redist: 

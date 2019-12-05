@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetSource
 title: ISettingsResult::GetSource (wcmconfig.h)
-
 description: Returns the file or path where the error has occurred.
 old-location: smi\isettingsresult_getsource.htm
 tech.root: SMI
 ms.assetid: 2a76b243-5294-47a7-8ad3-b39425735866
-
 ms.date: 12/05/2018
 ms.keywords: GetSource, GetSource method [SMI], GetSource method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetSource method, ISettingsResult.GetSource, ISettingsResult::GetSource, smi.isettingsresult_getsource, wcmconfig/ISettingsResult::GetSource
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsResult.GetSource"
+f1_keywords:
+- wcmconfig/ISettingsResult.GetSource
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsResult.GetSource
+- ISettingsResult.GetSource
 targetos: Windows
 req.typenames: 
 req.redist: 

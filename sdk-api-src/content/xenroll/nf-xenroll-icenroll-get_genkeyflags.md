@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_GenKeyFlags
 title: ICEnroll::get_GenKeyFlags (xenroll.h)
-
 description: Sets or retrieves the values passed to the CryptGenKey function when the certificate request is generated.
 old-location: security\icenroll4_genkeyflags.htm
 tech.root: SecCrypto
 ms.assetid: d22fe4d4-a939-4f77-8e11-f9312c81ec1e
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],GenKeyFlags property, GenKeyFlags property [Security], GenKeyFlags property [Security],CEnroll object, GenKeyFlags property [Security],ICEnroll interface, GenKeyFlags property [Security],ICEnroll2 interface, GenKeyFlags property [Security],ICEnroll3 interface, GenKeyFlags property [Security],ICEnroll4 interface, ICEnroll interface [Security],GenKeyFlags property, ICEnroll.GenKeyFlags, ICEnroll.get_GenKeyFlags, ICEnroll2 interface [Security],GenKeyFlags property, ICEnroll2.GenKeyFlags, ICEnroll2::get_GenKeyFlags, ICEnroll2::put_GenKeyFlags, ICEnroll3 interface [Security],GenKeyFlags property, ICEnroll3.GenKeyFlags, ICEnroll3::get_GenKeyFlags, ICEnroll3::put_GenKeyFlags, ICEnroll4 interface [Security],GenKeyFlags property, ICEnroll4.GenKeyFlags, ICEnroll4::GenKeyFlags, ICEnroll4::get_GenKeyFlags, ICEnroll4::put_GenKeyFlags, ICEnroll::get_GenKeyFlags, ICEnroll::put_GenKeyFlags, get_GenKeyFlags, security.icenroll4_genkeyflags, xenroll/ICEnroll2::GenKeyFlags, xenroll/ICEnroll2::get_GenKeyFlags, xenroll/ICEnroll2::put_GenKeyFlags, xenroll/ICEnroll3::GenKeyFlags, xenroll/ICEnroll3::get_GenKeyFlags, xenroll/ICEnroll3::put_GenKeyFlags, xenroll/ICEnroll4::GenKeyFlags, xenroll/ICEnroll4::get_GenKeyFlags, xenroll/ICEnroll4::put_GenKeyFlags, xenroll/ICEnroll::GenKeyFlags, xenroll/ICEnroll::get_GenKeyFlags, xenroll/ICEnroll::put_GenKeyFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.GenKeyFlags"
+f1_keywords:
+- xenroll/ICEnroll4.GenKeyFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.GenKeyFlags
- - ICEnroll4.get_GenKeyFlags
- - ICEnroll4.put_GenKeyFlags
- - ICEnroll3.GenKeyFlags
- - ICEnroll3.get_GenKeyFlags
- - ICEnroll3.put_GenKeyFlags
- - ICEnroll2.GenKeyFlags
- - ICEnroll2.get_GenKeyFlags
- - ICEnroll2.put_GenKeyFlags
- - ICEnroll.GenKeyFlags
- - ICEnroll.get_GenKeyFlags
- - ICEnroll.put_GenKeyFlags
- - CEnroll.GenKeyFlags
+- ICEnroll4.GenKeyFlags
+- ICEnroll4.get_GenKeyFlags
+- ICEnroll4.put_GenKeyFlags
+- ICEnroll3.GenKeyFlags
+- ICEnroll3.get_GenKeyFlags
+- ICEnroll3.put_GenKeyFlags
+- ICEnroll2.GenKeyFlags
+- ICEnroll2.get_GenKeyFlags
+- ICEnroll2.put_GenKeyFlags
+- ICEnroll.GenKeyFlags
+- ICEnroll.get_GenKeyFlags
+- ICEnroll.put_GenKeyFlags
+- CEnroll.GenKeyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

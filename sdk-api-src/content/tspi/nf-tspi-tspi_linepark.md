@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_linePark
 title: TSPI_linePark function (tspi.h)
-
 description: The TSPI_linePark function parks the specified call according to the specified park mode.
 old-location: tspi\tspi_linepark.htm
 tech.root: Tapi
 ms.assetid: 6ff14bfc-ba48-4f70-b732-81c19dba92c5
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_linePark, TSPI_linePark function [TAPI 2.2], _tspi_tspi_linepark, tspi.tspi_linepark, tspi/TSPI_linePark
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_linePark"
+f1_keywords:
+- tspi/TSPI_linePark
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_linePark
+- TSPI_linePark
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetVolume
 title: IMFMediaEngine::GetVolume (mfmediaengine.h)
-
 description: Gets the audio volume level.
 old-location: mf\imfmediaengine_getvolume.htm
 tech.root: medfound
 ms.assetid: E7890777-480E-4EA1-88BA-657182B66010
-
 ms.date: 12/05/2018
 ms.keywords: GetVolume, GetVolume method [Media Foundation], GetVolume method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetVolume method, IMFMediaEngine.GetVolume, IMFMediaEngine::GetVolume, mf.imfmediaengine_getvolume, mfmediaengine/IMFMediaEngine::GetVolume
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetVolume"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetVolume
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetVolume
+- IMFMediaEngine.GetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

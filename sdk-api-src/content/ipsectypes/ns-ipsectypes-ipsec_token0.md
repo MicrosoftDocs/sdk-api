@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_TOKEN0_
 title: IPSEC_TOKEN0 (ipsectypes.h)
-
 description: Various information about an IPsec-specific access token.
 old-location: fwp\ipsec_token0.htm
 tech.root: fwp
 ms.assetid: 12adf88e-05c7-4e08-bbf7-6da529387af1
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN0, IPSEC_TOKEN0 structure [Filtering], fwp.ipsec_token0, ipsectypes/IPSEC_TOKEN0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_TOKEN0"
+f1_keywords:
+- ipsectypes/IPSEC_TOKEN0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TOKEN0
+- IPSEC_TOKEN0
 targetos: Windows
 req.typenames: IPSEC_TOKEN0
 req.redist: 

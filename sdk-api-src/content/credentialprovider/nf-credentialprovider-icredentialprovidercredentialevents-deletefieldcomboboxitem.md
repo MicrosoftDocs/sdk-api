@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem
 title: ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem (credentialprovider.h)
-
 description: Communicates to the Logon UI or Credential UI that an item should be deleted from a combo box and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem.htm
 tech.root: shell
 ms.assetid: 1d871480-4424-4a5b-8650-0211bad8b09a
-
 ms.date: 12/05/2018
 ms.keywords: DeleteFieldComboBoxItem, DeleteFieldComboBoxItem method [Windows Shell], DeleteFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],DeleteFieldComboBoxItem method, ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem, ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem
+- ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem
 targetos: Windows
 req.typenames: 
 req.redist: 

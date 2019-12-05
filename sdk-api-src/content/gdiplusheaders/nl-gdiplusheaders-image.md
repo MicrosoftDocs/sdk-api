@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusheaders.Image
 title: Image (gdiplusheaders.h)
-
 description: The Image class provides methods for loading and saving raster images (bitmaps) and vector images (metafiles).
 old-location: gdiplus\_gdiplus_CLASS_Image_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\image.htm
-
 ms.date: 12/05/2018
 ms.keywords: Image, Image class [GDI+], Image class [GDI+],described, _gdiplus_CLASS_Image_Class, gdiplus._gdiplus_CLASS_Image_Class, gdiplusheaders/Image
 ms.topic: class
-f1_keywords: 
- - "gdiplusheaders/Image"
+f1_keywords:
+- gdiplusheaders/Image
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Image
+- Image
 targetos: Windows
 req.typenames: 
 req.redist: 

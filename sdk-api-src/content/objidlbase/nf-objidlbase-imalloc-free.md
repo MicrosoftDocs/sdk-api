@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IMalloc.Free
 title: IMalloc::Free (objidlbase.h)
-
 description: Frees a previously allocated block of memory.
 old-location: com\imalloc_free.htm
 tech.root: com
 ms.assetid: d65411ea-13d5-4932-a757-d897311e9e28
-
 ms.date: 12/05/2018
 ms.keywords: Free, Free method [COM], Free method [COM],IMalloc interface, IMalloc interface [COM],Free method, IMalloc.Free, IMalloc::Free, _com_imalloc_free, com.imalloc_free, objidlbase/IMalloc::Free
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IMalloc.Free"
+f1_keywords:
+- objidlbase/IMalloc.Free
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMalloc.Free
+- IMalloc.Free
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_WhiteBalanceComponent
 title: IVideoProcAmp::put_WhiteBalanceComponent (vidcap.h)
-
 description: The put_WhiteBalanceComponent method sets the camera's white balance, specified as red and blue component values.
 old-location: dshow\ivideoprocamp_put_whitebalancecomponent.htm
 tech.root: DirectShow
 ms.assetid: 800d7ddb-9f66-4fc4-a246-e6501377b9ce
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_WhiteBalanceComponent method, IVideoProcAmp.put_WhiteBalanceComponent, IVideoProcAmp::put_WhiteBalanceComponent, IVideoProcAmpput_WhiteBalanceComponent, dshow.ivideoprocamp_put_whitebalancecomponent, put_WhiteBalanceComponent, put_WhiteBalanceComponent method [DirectShow], put_WhiteBalanceComponent method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_WhiteBalanceComponent
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.put_WhiteBalanceComponent"
+f1_keywords:
+- vidcap/IVideoProcAmp.put_WhiteBalanceComponent
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.put_WhiteBalanceComponent
+- IVideoProcAmp.put_WhiteBalanceComponent
 targetos: Windows
 req.typenames: 
 req.redist: 

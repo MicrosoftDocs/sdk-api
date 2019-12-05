@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.GetDefaultColumn
 title: IShellFolder2::GetDefaultColumn (shobjidl_core.h)
-
 description: Gets the default sorting and display columns.
 old-location: shell\IShellFolder2_GetDefaultColumn.htm
 tech.root: shell
 ms.assetid: 5d1a1273-be67-4bb3-b549-8adacea0cb5f
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultColumn, GetDefaultColumn method [Windows Shell], GetDefaultColumn method [Windows Shell],IShellFolder2 interface, IShellFolder2 interface [Windows Shell],GetDefaultColumn method, IShellFolder2.GetDefaultColumn, IShellFolder2::GetDefaultColumn, _win32_IShellFolder2_GetDefaultColumn, shell.IShellFolder2_GetDefaultColumn, shobjidl_core/IShellFolder2::GetDefaultColumn
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellFolder2.GetDefaultColumn"
+f1_keywords:
+- shobjidl_core/IShellFolder2.GetDefaultColumn
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellFolder2.GetDefaultColumn
+- IShellFolder2.GetDefaultColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

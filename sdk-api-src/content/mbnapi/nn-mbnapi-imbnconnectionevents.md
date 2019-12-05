@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnectionEvents
 title: IMbnConnectionEvents (mbnapi.h)
-
 description: This notification interface signals an application about change and completion status of asynchronous connection requests.
 old-location: mbn\imbnconnectionevents.htm
 tech.root: mbn
 ms.assetid: 9135ba2e-62f6-495e-b136-9efc5f260581
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionEvents, IMbnConnectionEvents interface [Microsoft Broadband Networks], IMbnConnectionEvents interface [Microsoft Broadband Networks],described, mbn.imbnconnectionevents, mbnapi/IMbnConnectionEvents
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnectionEvents"
+f1_keywords:
+- mbnapi/IMbnConnectionEvents
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionEvents
+- IMbnConnectionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

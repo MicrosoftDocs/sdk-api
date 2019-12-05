@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetVideoAttributes
 title: IMFTranscodeProfile::GetVideoAttributes (mfidl.h)
-
 description: Gets the video stream settings that are currently set in the transcode profile.
 old-location: mf\imftranscodeprofile_getvideoattributes.htm
 tech.root: medfound
 ms.assetid: 734cb4d0-7017-4a30-9d0c-a6b5ce42fec6
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoAttributes, GetVideoAttributes method [Media Foundation], GetVideoAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetVideoAttributes method, IMFTranscodeProfile.GetVideoAttributes, IMFTranscodeProfile::GetVideoAttributes, mf.imftranscodeprofile_getvideoattributes, mfidl/IMFTranscodeProfile::GetVideoAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTranscodeProfile.GetVideoAttributes"
+f1_keywords:
+- mfidl/IMFTranscodeProfile.GetVideoAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeProfile.GetVideoAttributes
+- IMFTranscodeProfile.GetVideoAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

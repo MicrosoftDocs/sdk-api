@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnLangProfileUtil
 title: ITfFnLangProfileUtil (ctffunc.h)
-
 description: The ITfFnLangProfileUtil interface is implemented by the speech text service and used to provide utility methods for the speech text service.
 old-location: tsf\itffnlangprofileutil.htm
 tech.root: TSF
 ms.assetid: 42dd534d-9786-4276-b227-fee2d58806b7
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnLangProfileUtil, ITfFnLangProfileUtil interface [Text Services Framework], ITfFnLangProfileUtil interface [Text Services Framework],described, _tsf_itffnlangprofileutil_ref, ctffunc/ITfFnLangProfileUtil, tsf.itffnlangprofileutil
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnLangProfileUtil"
+f1_keywords:
+- ctffunc/ITfFnLangProfileUtil
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnLangProfileUtil
+- ITfFnLangProfileUtil
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

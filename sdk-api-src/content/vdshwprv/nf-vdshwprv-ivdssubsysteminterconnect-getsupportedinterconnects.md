@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystemInterconnect.GetSupportedInterconnects
 title: IVdsSubSystemInterconnect::GetSupportedInterconnects (vdshwprv.h)
-
 description: Returns the interconnect types that the subsystem supports.
 old-location: base\ivdssubsysteminterconnect_getsupportedinterconnects.htm
 tech.root: VDS
 ms.assetid: 5e8e69b4-023d-49f7-a363-bae1ae9536ac
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedInterconnects, GetSupportedInterconnects method, GetSupportedInterconnects method,IVdsSubSystemInterconnect interface, IVdsSubSystemInterconnect interface,GetSupportedInterconnects method, IVdsSubSystemInterconnect.GetSupportedInterconnects, IVdsSubSystemInterconnect::GetSupportedInterconnects, base.ivdssubsysteminterconnect_getsupportedinterconnects, vds/IVdsSubSystemInterconnect::GetSupportedInterconnects, vdshwprv/IVdsSubSystemInterconnect::GetSupportedInterconnects
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsSubSystemInterconnect.GetSupportedInterconnects
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

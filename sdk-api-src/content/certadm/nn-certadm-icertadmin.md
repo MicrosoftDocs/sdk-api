@@ -1,19 +1,17 @@
 ---
 UID: NN:certadm.ICertAdmin
 title: ICertAdmin (certadm.h)
-
 description: Provides administration functionality for properly authorized clients.
 old-location: security\icertadmin.htm
 tech.root: SecCrypto
 ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
-
 ms.date: 12/05/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
 ms.topic: interface
-f1_keywords: 
- - "certadm/ICertAdmin"
+f1_keywords:
+- certadm/ICertAdmin
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin
+- ICertAdmin
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_STATE
 title: CF_PLACEHOLDER_STATE (cfapi.h)
-
 description: The state of a placeholder file or folder.
 old-location: cloudapi\cf_placeholder_state.htm
 tech.root: cfApi
 ms.assetid: 5E814458-2045-4CFD-90AC-F1F53DEB4FD0
-
 ms.date: 12/05/2018
 ms.keywords: CF_PLACEHOLDER_STATE, CF_PLACEHOLDER_STATE enumeration, CF_PLACEHOLDER_STATE_ESSENTIAL_PROP_PRESENT, CF_PLACEHOLDER_STATE_INVALID, CF_PLACEHOLDER_STATE_IN_SYNC, CF_PLACEHOLDER_STATE_NO_STATES, CF_PLACEHOLDER_STATE_PARTIAL, CF_PLACEHOLDER_STATE_PARTIALLY_ON_DISK, CF_PLACEHOLDER_STATE_PLACEHOLDER, CF_PLACEHOLDER_STATE_SYNC_ROOT, cfapi/CF_PLACEHOLDER_STATE, cfapi/CF_PLACEHOLDER_STATE_ESSENTIAL_PROP_PRESENT, cfapi/CF_PLACEHOLDER_STATE_INVALID, cfapi/CF_PLACEHOLDER_STATE_IN_SYNC, cfapi/CF_PLACEHOLDER_STATE_NO_STATES, cfapi/CF_PLACEHOLDER_STATE_PARTIAL, cfapi/CF_PLACEHOLDER_STATE_PARTIALLY_ON_DISK, cfapi/CF_PLACEHOLDER_STATE_PLACEHOLDER, cfapi/CF_PLACEHOLDER_STATE_SYNC_ROOT, cloudApi.cf_placeholder_state
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_PLACEHOLDER_STATE"
+f1_keywords:
+- cfapi/CF_PLACEHOLDER_STATE
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_PLACEHOLDER_STATE
+- CF_PLACEHOLDER_STATE
 targetos: Windows
 req.typenames: CF_PLACEHOLDER_STATE
 req.redist: 

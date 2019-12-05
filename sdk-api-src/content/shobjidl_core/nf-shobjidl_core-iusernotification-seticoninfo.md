@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.SetIconInfo
 title: IUserNotification::SetIconInfo (shobjidl_core.h)
-
 description: Sets the notification area icon associated with specific user information.
 old-location: shell\IUserNotification_SetIconInfo.htm
 tech.root: shell
 ms.assetid: f9a3612e-8a25-48d5-8122-44d6aa217bab
-
 ms.date: 12/05/2018
 ms.keywords: IUserNotification interface [Windows Shell],SetIconInfo method, IUserNotification.SetIconInfo, IUserNotification::SetIconInfo, SetIconInfo, SetIconInfo method [Windows Shell], SetIconInfo method [Windows Shell],IUserNotification interface, inet_IUserNotification_SetIconInfo, shell.IUserNotification_SetIconInfo, shobjidl_core/IUserNotification::SetIconInfo
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IUserNotification.SetIconInfo"
+f1_keywords:
+- shobjidl_core/IUserNotification.SetIconInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IUserNotification.SetIconInfo
+- IUserNotification.SetIconInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

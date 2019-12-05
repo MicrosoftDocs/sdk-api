@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupGetThreadLogToken
 title: SetupGetThreadLogToken function (setupapi.h)
-
 description: The SetupGetThreadLogToken function retrieves the log token for the thread from which this function was called.
 old-location: devinst\setupgetthreadlogtoken.htm
 tech.root: devinst
 ms.assetid: a4d870d0-2a1a-4319-9e52-e5bf469c4cdf
-
 ms.date: 12/05/2018
 ms.keywords: SetupGetThreadLogToken, SetupGetThreadLogToken function [Device and Driver Installation], devinst.setupgetthreadlogtoken, setupapi/SetupGetThreadLogToken, setupapilog-ref_2d342787-8c0e-4198-85cc-e64d51e98abb.xml
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupGetThreadLogToken"
+f1_keywords:
+- setupapi/SetupGetThreadLogToken
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.lib
- - Setupapi.dll
- - Ext-MS-Win-setupapi-logging-l1-1-0.dll
- - setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
+- Ext-MS-Win-setupapi-logging-l1-1-0.dll
+- setupapi.dll
 api_name:
- - SetupGetThreadLogToken
+- SetupGetThreadLogToken
 targetos: Windows
 req.typenames: 
 req.redist: 

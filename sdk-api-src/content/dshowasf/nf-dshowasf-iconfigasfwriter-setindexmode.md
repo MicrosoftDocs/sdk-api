@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.SetIndexMode
 title: IConfigAsfWriter::SetIndexMode (dshowasf.h)
-
 description: The SetIndexMode method controls whether the WM ASF Writer filter creates a file with a temporal index.
 old-location: dshow\iconfigasfwriter_setindexmode.htm
 tech.root: DirectShow
 ms.assetid: d7f5d13a-d36e-4da2-babc-0446e5697b61
-
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter interface [DirectShow],SetIndexMode method, IConfigAsfWriter.SetIndexMode, IConfigAsfWriter::SetIndexMode, IConfigAsfWriterSetIndexMode, SetIndexMode, SetIndexMode method [DirectShow], SetIndexMode method [DirectShow],IConfigAsfWriter interface, dshow.iconfigasfwriter_setindexmode, dshowasf/IConfigAsfWriter::SetIndexMode
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter.SetIndexMode"
+f1_keywords:
+- dshowasf/IConfigAsfWriter.SetIndexMode
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter.SetIndexMode
+- IConfigAsfWriter.SetIndexMode
 targetos: Windows
 req.typenames: 
 req.redist: 

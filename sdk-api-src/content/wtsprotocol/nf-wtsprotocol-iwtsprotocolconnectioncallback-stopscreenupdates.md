@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.StopScreenUpdates
 title: IWTSProtocolConnectionCallback::StopScreenUpdates (wtsprotocol.h)
-
 description: IWTSProtocolConnectionCallback::StopScreenUpdates is no longer available. Instead, use IWRdsProtocolConnectionCallback::StopScreenUpdates.
 old-location: termserv\iwtsprotocolconnectioncallback_stopscreenupdates.htm
 tech.root: TermServ
 ms.assetid: 69fab470-8763-405e-96f1-d3b1c5a26422
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],StopScreenUpdates method, IWTSProtocolConnectionCallback.StopScreenUpdates, IWTSProtocolConnectionCallback::StopScreenUpdates, StopScreenUpdates, StopScreenUpdates method [Remote Desktop Services], StopScreenUpdates method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_stopscreenupdates, wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnectionCallback.StopScreenUpdates"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnectionCallback.StopScreenUpdates
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnectionCallback.StopScreenUpdates
+- IWTSProtocolConnectionCallback.StopScreenUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 

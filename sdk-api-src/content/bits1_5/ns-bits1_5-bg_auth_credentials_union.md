@@ -1,19 +1,17 @@
 ---
 UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0002
 title: BG_AUTH_CREDENTIALS_UNION
-
 description: Identifies the credentials to use for the authentication scheme specified in the BG_AUTH_CREDENTIALS structure.
 old-location: bits\bg_auth_credentials_union.htm
 tech.root: Bits
 ms.assetid: c16c616c-f4cb-483d-8a15-6ff9d45762ae
-
 ms.date: 12/05/2018
 ms.keywords: BG_AUTH_CREDENTIALS_UNION, BG_AUTH_CREDENTIALS_UNION union [BITS], _drz_bg_auth_credentials_union, bits.bg_auth_credentials_union, bits1_5/BG_AUTH_CREDENTIALS_UNION
 ms.topic: struct
-f1_keywords: 
- - "bits1_5/BG_AUTH_CREDENTIALS_UNION"
+f1_keywords:
+- bits1_5/BG_AUTH_CREDENTIALS_UNION
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits1_5.h
+- Bits1_5.h
 api_name:
- - BG_AUTH_CREDENTIALS_UNION
+- BG_AUTH_CREDENTIALS_UNION
 targetos: Windows
 req.typenames: BG_AUTH_CREDENTIALS_UNION
 req.redist: BITS 1.5 on  Windows XP

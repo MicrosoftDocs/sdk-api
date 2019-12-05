@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 title: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO (wincrypt.h)
-
 description: Contains the length, in bits, of the public key and the names of the signing and hashing algorithms used for strong signing.
 old-location: security\crypt_verify_cert_sign_strong_properties_info.htm
 tech.root: SecCrypto
 ms.assetid: 7D68DE3D-B05D-4E06-9BA1-72E407E5FED2
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure [Security], PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure pointer [Security], security.crypt_verify_cert_sign_strong_properties_info, wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, wincrypt/PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
+ms.keywords: '*PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure [Security], PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO structure pointer [Security], security.crypt_verify_cert_sign_strong_properties_info, wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, wincrypt/PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO"
+f1_keywords:
+- wincrypt/CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
+- CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 targetos: Windows
 req.typenames: CRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO, *PCRYPT_VERIFY_CERT_SIGN_STRONG_PROPERTIES_INFO
 req.redist: 

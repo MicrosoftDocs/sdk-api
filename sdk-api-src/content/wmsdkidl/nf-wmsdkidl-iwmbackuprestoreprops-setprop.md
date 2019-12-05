@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.SetProp
 title: IWMBackupRestoreProps::SetProp (wmsdkidl.h)
-
 description: The SetProp method adds a property, and specifies its name and value.
 old-location: wmformat\iwmbackuprestoreprops_setprop.htm
 tech.root: wmformat
 ms.assetid: 582c1590-8855-409c-9964-a0fb7baa05bd
-
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],SetProp method, IWMBackupRestoreProps.SetProp, IWMBackupRestoreProps::SetProp, IWMBackupRestorePropsSetProp, SetProp, SetProp method [windows Media Format], SetProp method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_setprop, wmsdkidl/IWMBackupRestoreProps::SetProp
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMBackupRestoreProps.SetProp"
+f1_keywords:
+- wmsdkidl/IWMBackupRestoreProps.SetProp
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps.SetProp
+- IWMBackupRestoreProps.SetProp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.FindVertexBuffer
 title: ID2D1EffectContext::FindVertexBuffer (d2d1effectauthor.h)
-
 description: This finds the given vertex buffer if it has already been created with ID2D1EffectContext::CreateVertexBuffer with the same GUID.
 old-location: direct2d\id2d1contextinternal_findvertexbuffer.htm
 tech.root: Direct2D
 ms.assetid: 8CAC0872-2368-4926-8FF9-87D73136986F
-
 ms.date: 12/05/2018
 ms.keywords: FindVertexBuffer, FindVertexBuffer method [Direct2D], FindVertexBuffer method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],FindVertexBuffer method, ID2D1EffectContext.FindVertexBuffer, ID2D1EffectContext::FindVertexBuffer, d2d1effectauthor/ID2D1EffectContext::FindVertexBuffer, direct2d.id2d1contextinternal_findvertexbuffer
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.FindVertexBuffer"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.FindVertexBuffer
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1EffectContext.FindVertexBuffer
+- ID2D1EffectContext.FindVertexBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

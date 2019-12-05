@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellFolder.ParseDisplayName
 title: IShellFolder::ParseDisplayName (shobjidl_core.h)
-
 description: Translates the display name of a file object or a folder into an item identifier list.
 old-location: shell\IShellFolder_ParseDisplayName.htm
 tech.root: shell
 ms.assetid: 099e71b0-04f2-4f82-aa00-7581bd357900
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolder interface [Windows Shell],ParseDisplayName method, IShellFolder.ParseDisplayName, IShellFolder2 interface [Windows Shell],ParseDisplayName method, IShellFolder2::ParseDisplayName, IShellFolder::ParseDisplayName, ParseDisplayName, ParseDisplayName method [Windows Shell], ParseDisplayName method [Windows Shell],IShellFolder interface, ParseDisplayName method [Windows Shell],IShellFolder2 interface, _win32_IShellFolder_ParseDisplayName, shell.IShellFolder_ParseDisplayName, shobjidl_core/IShellFolder2::ParseDisplayName, shobjidl_core/IShellFolder::ParseDisplayName
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IShellFolder.ParseDisplayName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

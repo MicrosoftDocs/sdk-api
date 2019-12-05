@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.GetAclInformation
 title: GetAclInformation function (securitybaseapi.h)
-
 description: Retrieves information about an access control list (ACL).
 old-location: security\getaclinformation.htm
 tech.root: SecAuthZ
 ms.assetid: 23ef6abd-03e9-439e-ba05-629c8d61cd66
-
 ms.date: 12/05/2018
 ms.keywords: GetAclInformation, GetAclInformation function [Security], _win32_getaclinformation, security.getaclinformation, securitybaseapi/GetAclInformation
 ms.topic: function
 f1_keywords:
 - securitybaseapi/GetAclInformation
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

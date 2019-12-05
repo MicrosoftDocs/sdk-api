@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetPolicies
 title: ISyncMgrHandler::GetPolicies (syncmgr.h)
-
 description: Gets a set of flags describing the policies set by the handler.
 old-location: shell\ISyncMgrHandler_GetPolicies.htm
 tech.root: shell
 ms.assetid: ff30441a-43bb-4f30-af04-4d2056b8dfb0
-
 ms.date: 12/05/2018
 ms.keywords: GetPolicies, GetPolicies method [Windows Shell], GetPolicies method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetPolicies method, ISyncMgrHandler.GetPolicies, ISyncMgrHandler::GetPolicies, _shell_ISyncMgrHandler_GetPolicies, shell.ISyncMgrHandler_GetPolicies, syncmgr/ISyncMgrHandler::GetPolicies
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandler.GetPolicies"
+f1_keywords:
+- syncmgr/ISyncMgrHandler.GetPolicies
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandler.GetPolicies
+- ISyncMgrHandler.GetPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 

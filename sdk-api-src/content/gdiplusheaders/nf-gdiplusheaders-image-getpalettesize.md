@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPaletteSize
 title: Image::GetPaletteSize (gdiplusheaders.h)
-
 description: The Image::GetPaletteSize method gets the size, in bytes, of the color palette of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPaletteSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpalettesize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPaletteSize, GetPaletteSize method [GDI+], GetPaletteSize method [GDI+],Image class, Image class [GDI+],GetPaletteSize method, Image.GetPaletteSize, Image::GetPaletteSize, _gdiplus_CLASS_Image_GetPaletteSize_, gdiplus._gdiplus_CLASS_Image_GetPaletteSize_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetPaletteSize"
+f1_keywords:
+- gdiplusheaders/Image.GetPaletteSize
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetPaletteSize
+- Image.GetPaletteSize
 targetos: Windows
 req.typenames: 
 req.redist: 

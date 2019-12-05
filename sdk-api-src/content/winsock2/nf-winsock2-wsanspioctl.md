@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSANSPIoctl
 title: WSANSPIoctl function (winsock2.h)
-
 description: Enables developers to make I/O control calls to a registered namespace.
 old-location: winsock\wsanspioctl_2.htm
 tech.root: WinSock
 ms.assetid: 6ecaedf0-0038-46d3-9916-c9cb069c5e92
-
 ms.date: 12/05/2018
 ms.keywords: SIO_NSP_NOTIFY_CHANGE, WSANSPIoctl, WSANSPIoctl function [Winsock], _win32_wsanspioctl_2, winsock.wsanspioctl_2, winsock2/WSANSPIoctl
 ms.topic: function
 f1_keywords:
 - winsock2/WSANSPIoctl
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

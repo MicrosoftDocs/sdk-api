@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IChangeUnitListFilterInfo
 title: IChangeUnitListFilterInfo (winsync.h)
-
 description: Represents a filter that can be used to control which change units are included for items in an ISyncChangeBatch object.
 old-location: winsync\ichangeunitlistfilterinfo.htm
 tech.root: winsync
 ms.assetid: fd379fc6-22e5-4165-b4e6-480bc65cccb3
-
 ms.date: 12/05/2018
 ms.keywords: IChangeUnitListFilterInfo, IChangeUnitListFilterInfo interface [Windows Sync], IChangeUnitListFilterInfo interface [Windows Sync],described, winsync.ichangeunitlistfilterinfo, winsync/IChangeUnitListFilterInfo
 ms.topic: interface
-f1_keywords: 
- - "winsync/IChangeUnitListFilterInfo"
+f1_keywords:
+- winsync/IChangeUnitListFilterInfo
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeUnitListFilterInfo
+- IChangeUnitListFilterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

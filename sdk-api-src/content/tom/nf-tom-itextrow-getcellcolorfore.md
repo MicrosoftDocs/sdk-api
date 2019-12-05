@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetCellColorFore
 title: ITextRow::GetCellColorFore (tom.h)
-
 description: Gets the foreground color of the active cell.
 old-location: controls\itextrow_getcellcolorfore.htm
 tech.root: Controls
 ms.assetid: 92c8bff3-a56b-4adc-9f49-728f22c1089b
-
 ms.date: 12/05/2018
 ms.keywords: GetCellColorFore, GetCellColorFore method [Windows Controls], GetCellColorFore method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetCellColorFore method, ITextRow.GetCellColorFore, ITextRow::GetCellColorFore, controls.itextrow_getcellcolorfore, tom/ITextRow::GetCellColorFore
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetCellColorFore"
+f1_keywords:
+- tom/ITextRow.GetCellColorFore
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetCellColorFore
+- ITextRow.GetCellColorFore
 targetos: Windows
 req.typenames: 
 req.redist: 

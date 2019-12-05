@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_First_Log_Conf
 title: CM_Get_First_Log_Conf function (cfgmgr32.h)
-
 description: The CM_Get_First_Log_Conf function obtains the first logical configuration, of a specified configuration type, associated with a specified device instance on the local machine.
 old-location: devinst\cm_get_first_log_conf.htm
 tech.root: devinst
 ms.assetid: 7ef14797-ea67-40cb-ad8d-e8c846ae1fd4
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_First_Log_Conf, CM_Get_First_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Get_First_Log_Conf, cfgmgrfn_5310503c-65cc-4185-9d26-bf29c1af74c4.xml, devinst.cm_get_first_log_conf
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_First_Log_Conf"
+f1_keywords:
+- cfgmgr32/CM_Get_First_Log_Conf
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Get_First_Log_Conf
+- CM_Get_First_Log_Conf
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindNextVolumeW
 title: FindNextVolumeW function (fileapi.h)
-
 description: Continues a volume search started by a call to the FindFirstVolume function.
 old-location: fs\findnextvolume.htm
 tech.root: FileIO
 ms.assetid: 6ab4467a-f84a-403e-9327-b523ceead19f
-
 ms.date: 12/05/2018
 ms.keywords: FindNextVolume, FindNextVolume function [Files], FindNextVolumeA, FindNextVolumeW, _win32_findnextvolume, base.findnextvolume, fileapi/FindNextVolume, fileapi/FindNextVolumeA, fileapi/FindNextVolumeW, fs.findnextvolume, winbase/FindNextVolume, winbase/FindNextVolumeA, winbase/FindNextVolumeW
 ms.topic: function
-f1_keywords: 
- - "fileapi/FindNextVolume"
+f1_keywords:
+- fileapi/FindNextVolume
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-File-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - FindNextVolume
- - FindNextVolumeA
- - FindNextVolumeW
+- FindNextVolume
+- FindNextVolumeA
+- FindNextVolumeW
 targetos: Windows
 req.typenames: 
 req.redist: 

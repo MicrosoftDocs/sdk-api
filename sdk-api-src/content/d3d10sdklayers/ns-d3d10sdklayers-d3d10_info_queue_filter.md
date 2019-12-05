@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10sdklayers.D3D10_INFO_QUEUE_FILTER
 title: D3D10_INFO_QUEUE_FILTER (d3d10sdklayers.h)
-
 description: Debug message filter; contains a lists of message types to allow or deny.
 old-location: direct3d10\d3d10_info_queue_filter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_info_queue_filter.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9c94d10b-2b6f-b70e-75d1-72a61687e2b9, D3D10_INFO_QUEUE_FILTER, D3D10_INFO_QUEUE_FILTER structure [Direct3D 10], d3d10sdklayers/D3D10_INFO_QUEUE_FILTER, direct3d10.d3d10_info_queue_filter
 ms.topic: struct
-f1_keywords: 
- - "d3d10sdklayers/D3D10_INFO_QUEUE_FILTER"
+f1_keywords:
+- d3d10sdklayers/D3D10_INFO_QUEUE_FILTER
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: D3D10.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10sdklayers.h
+- d3d10sdklayers.h
 api_name:
- - D3D10_INFO_QUEUE_FILTER
+- D3D10_INFO_QUEUE_FILTER
 targetos: Windows
 req.typenames: D3D10_INFO_QUEUE_FILTER
 req.redist: 

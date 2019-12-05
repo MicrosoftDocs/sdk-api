@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.SetState
 title: IMultiMediaStream::SetState (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SetState method runs or stops the multimedia stream object.
 old-location: dshow\imultimediastream_setstate.htm
 tech.root: DirectShow
 ms.assetid: 69c3612f-e91a-4ab3-8f6d-2966e64a9220
-
 ms.date: 12/05/2018
 ms.keywords: IMultiMediaStream interface [DirectShow],SetState method, IMultiMediaStream.SetState, IMultiMediaStream::SetState, IMultiMediaStreamSetState, SetState, SetState method [DirectShow], SetState method [DirectShow],IMultiMediaStream interface, dshow.imultimediastream_setstate, mmstream/IMultiMediaStream::SetState
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMultiMediaStream.SetState"
+f1_keywords:
+- mmstream/IMultiMediaStream.SetState
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMultiMediaStream.SetState
+- IMultiMediaStream.SetState
 targetos: Windows
 req.typenames: 
 req.redist: 

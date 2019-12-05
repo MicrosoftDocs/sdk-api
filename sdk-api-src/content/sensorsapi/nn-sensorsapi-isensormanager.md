@@ -1,19 +1,17 @@
 ---
 UID: NN:sensorsapi.ISensorManager
 title: ISensorManager (sensorsapi.h)
-
 description: Provides methods for discovering and retrieving available sensors and a method to request sensor manager events.
 old-location: winsensors\isensormanager.htm
 tech.root: SensorsAPI
 ms.assetid: 313742c9-58a7-4ddd-9582-a6ee276e97d0
-
 ms.date: 12/05/2018
 ms.keywords: ISensorManager, ISensorManager interface [WinSensors], ISensorManager interface [WinSensors],described, sensorsapi/ISensorManager, winsensors.isensormanager
 ms.topic: interface
-f1_keywords: 
- - "sensorsapi/ISensorManager"
+f1_keywords:
+- sensorsapi/ISensorManager
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorManager
+- ISensorManager
 targetos: Windows
 req.typenames: 
 req.redist: 

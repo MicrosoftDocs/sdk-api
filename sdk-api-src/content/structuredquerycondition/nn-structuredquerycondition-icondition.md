@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquerycondition.ICondition
 title: ICondition (structuredquerycondition.h)
-
 description: Provides methods for retrieving information about a search condition.
 old-location: search\_search_ICondition.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\icondition.htm
-
 ms.date: 12/05/2018
 ms.keywords: ICondition, ICondition interface [search], ICondition interface [search],described, _search_ICondition, search._search_ICondition, structuredquerycondition/ICondition
 ms.topic: interface
-f1_keywords: 
- - "structuredquerycondition/ICondition"
+f1_keywords:
+- structuredquerycondition/ICondition
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquerycondition.h
+- Structuredquerycondition.h
 api_name:
- - ICondition
+- ICondition
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.SuffixTop
 title: ITextStrings::SuffixTop (tom.h)
-
 description: Suffixes a string to the top string in the collection.
 old-location: controls\itextstrings_suffixtop.htm
 tech.root: Controls
 ms.assetid: 66f4e5c6-e97b-48a5-9c71-3efb1eba12d6
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],SuffixTop method, ITextStrings.SuffixTop, ITextStrings::SuffixTop, SuffixTop, SuffixTop method [Windows Controls], SuffixTop method [Windows Controls],ITextStrings interface, controls.itextstrings_suffixtop, tom/ITextStrings::SuffixTop
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.SuffixTop"
+f1_keywords:
+- tom/ITextStrings.SuffixTop
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.SuffixTop
+- ITextStrings.SuffixTop
 targetos: Windows
 req.typenames: 
 req.redist: 

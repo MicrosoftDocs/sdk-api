@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetLocalTransportAddress
 title: IWSDiscoveredService::GetLocalTransportAddress (wsddisco.h)
-
 description: Retrieves the string representation of the local transport (IP) address.
 old-location: ncd\iwsdiscoveredservice_getlocaltransportaddress.htm
 tech.root: WsdApi
 ms.assetid: a7127ce7-175f-463e-8d54-0c637639a108
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalTransportAddress, GetLocalTransportAddress method, GetLocalTransportAddress method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetLocalTransportAddress method, IWSDiscoveredService.GetLocalTransportAddress, IWSDiscoveredService::GetLocalTransportAddress, ncd.iwsdiscoveredservice_getlocaltransportaddress, wsddisco/IWSDiscoveredService::GetLocalTransportAddress
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveredService.GetLocalTransportAddress"
+f1_keywords:
+- wsddisco/IWSDiscoveredService.GetLocalTransportAddress
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveredService.GetLocalTransportAddress
+- IWSDiscoveredService.GetLocalTransportAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetCount
 title: IXpsOMImageResourceCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of IXpsOMImageResource interface pointers in the collection.
 old-location: xps\ixpsomimageresourcecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 9a5e5bfa-6c37-4008-a5be-6a7ed59631df
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, IXpsOMImageResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMImageResourceCollection.GetCount, IXpsOMImageResourceCollection::GetCount, xps.ixpsomimageresourcecollection_getcount, xpsobjectmodel/IXpsOMImageResourceCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResourceCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResourceCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResourceCollection.GetCount
+- IXpsOMImageResourceCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

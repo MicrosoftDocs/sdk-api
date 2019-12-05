@@ -1,19 +1,17 @@
 ---
 UID: NC:stm.PCLOSE_SERVICE_ENUMERATION_HANDLE
 title: PCLOSE_SERVICE_ENUMERATION_HANDLE (stm.h)
-
 description: The CloseServiceEnumerationHandle function terminates the enumeration and frees associated resources.
 old-location: rras\closeserviceenumerationhandle.htm
 tech.root: RRAS
 ms.assetid: c127f914-b655-4b6a-bb13-daeb5e82e343
-
 ms.date: 12/05/2018
 ms.keywords: CloseServiceEnumerationHandle, CloseServiceEnumerationHandle callback function [RAS], PCLOSE_SERVICE_ENUMERATION_HANDLE, PCLOSE_SERVICE_ENUMERATION_HANDLE callback, _mpr_closeserviceenumerationhandle, rras.closeserviceenumerationhandle, stm/CloseServiceEnumerationHandle
 ms.topic: callback
-f1_keywords: 
- - "stm/CloseServiceEnumerationHandle"
+f1_keywords:
+- stm/CloseServiceEnumerationHandle
 dev_langs:
- - c++
+- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - CloseServiceEnumerationHandle
+- CloseServiceEnumerationHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

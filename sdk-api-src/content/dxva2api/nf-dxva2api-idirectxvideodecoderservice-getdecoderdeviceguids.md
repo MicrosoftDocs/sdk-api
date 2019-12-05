@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderDeviceGuids
 title: IDirectXVideoDecoderService::GetDecoderDeviceGuids (dxva2api.h)
-
 description: Retrieves an array of GUIDs that identifies the decoder devices supported by the graphics hardware.
 old-location: mf\idirectxvideodecoderservice_getdecoderdeviceguids.htm
 tech.root: medfound
 ms.assetid: 53980b1f-2be1-4267-a581-a4b09255b89f
-
 ms.date: 12/05/2018
 ms.keywords: 53980b1f-2be1-4267-a581-a4b09255b89f, GetDecoderDeviceGuids, GetDecoderDeviceGuids method [Media Foundation], GetDecoderDeviceGuids method [Media Foundation],IDirectXVideoDecoderService interface, IDirectXVideoDecoderService interface [Media Foundation],GetDecoderDeviceGuids method, IDirectXVideoDecoderService.GetDecoderDeviceGuids, IDirectXVideoDecoderService::GetDecoderDeviceGuids, dxva2api/IDirectXVideoDecoderService::GetDecoderDeviceGuids, mf.idirectxvideodecoderservice_getdecoderdeviceguids
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoderService.GetDecoderDeviceGuids"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoderService.GetDecoderDeviceGuids
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoderService.GetDecoderDeviceGuids
+- IDirectXVideoDecoderService.GetDecoderDeviceGuids
 targetos: Windows
 req.typenames: 
 req.redist: 

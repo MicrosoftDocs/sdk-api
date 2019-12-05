@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IDropTargetProvider.get_DropTargetEffects
 title: IDropTargetProvider::get_DropTargetEffects (uiautomationcore.h)
-
 description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
 old-location: winauto\uiauto_idroptargetprovider_droptargeteffects.htm
 tech.root: WinAuto
 ms.assetid: FF4080DD-CED0-4F3C-9F0C-BB37BA94DC7D
-
 ms.date: 12/05/2018
 ms.keywords: DropTargetEffects property [Windows Accessibility], DropTargetEffects property [Windows Accessibility],IDropTargetProvider interface, IDropTargetProvider interface [Windows Accessibility],DropTargetEffects property, IDropTargetProvider.DropTargetEffects, IDropTargetProvider.get_DropTargetEffects, IDropTargetProvider::DropTargetEffects, IDropTargetProvider::get_DropTargetEffects, get_DropTargetEffects, uiautomationcore/IDropTargetProvider::DropTargetEffects, uiautomationcore/IDropTargetProvider::get_DropTargetEffects, winauto.uiauto_idroptargetprovider_droptargeteffects
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IDropTargetProvider.DropTargetEffects"
+f1_keywords:
+- uiautomationcore/IDropTargetProvider.DropTargetEffects
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IDropTargetProvider.DropTargetEffects
- - IDropTargetProvider.get_DropTargetEffects
+- IDropTargetProvider.DropTargetEffects
+- IDropTargetProvider.get_DropTargetEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

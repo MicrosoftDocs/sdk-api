@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptItemizeOpenType
 title: ScriptItemizeOpenType function (usp10.h)
-
 description: Breaks a Unicode string into individually shapeable items and provides an array of feature tags for each shapeable item for OpenType processing.
 old-location: intl\scriptitemizeopentype.htm
 tech.root: Intl
 ms.assetid: da15d6b3-6725-43b8-9a2c-c19269a79d1e
-
 ms.date: 12/05/2018
 ms.keywords: ScriptItemizeOpenType, ScriptItemizeOpenType function [Internationalization for Windows Applications], _win32_ScriptItemizeOpenType, intl.scriptitemizeopentype, usp10/ScriptItemizeOpenType
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptItemizeOpenType"
+f1_keywords:
+- usp10/ScriptItemizeOpenType
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptItemizeOpenType
+- ScriptItemizeOpenType
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP

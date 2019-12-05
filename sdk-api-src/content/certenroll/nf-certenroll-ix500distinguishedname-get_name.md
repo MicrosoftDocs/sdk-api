@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX500DistinguishedName.get_Name
 title: IX500DistinguishedName::get_Name (certenroll.h)
-
 description: Retrieves a distinguished name.
 old-location: security\ix500distinguishedname_name_property.htm
 tech.root: seccertenroll
 ms.assetid: 1335c726-c16a-4a15-b231-8a3bd212f4ec
-
 ms.date: 12/05/2018
 ms.keywords: IX500DistinguishedName interface [Security],Name property, IX500DistinguishedName.Name, IX500DistinguishedName.get_Name, IX500DistinguishedName::Name, IX500DistinguishedName::get_Name, Name property [Security], Name property [Security],IX500DistinguishedName interface, certenroll/IX500DistinguishedName::Name, certenroll/IX500DistinguishedName::get_Name, get_Name, security.ix500distinguishedname_name_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX500DistinguishedName.Name"
+f1_keywords:
+- certenroll/IX500DistinguishedName.Name
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX500DistinguishedName.Name
- - IX500DistinguishedName.get_Name
+- IX500DistinguishedName.Name
+- IX500DistinguishedName.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

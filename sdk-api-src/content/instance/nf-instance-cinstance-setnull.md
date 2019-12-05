@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetNull
 title: CInstance::SetNull (instance.h)
-
 description: The SetNull method sets a property to NULL.
 old-location: wmi\cinstance_setnull.htm
 tech.root: WmiSdk
 ms.assetid: 4157275a-cf71-4aca-ae86-0ae0b0e7fda7
-
 ms.date: 12/05/2018
-ms.keywords: "?SetNull@CInstance@@QAE_NPBG@Z, CInstance interface [Windows Management Instrumentation],SetNull method, CInstance.SetNull, CInstance::SetNull, SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull"
+ms.keywords: ?SetNull@CInstance@@QAE_NPBG@Z, CInstance interface [Windows Management Instrumentation],SetNull method, CInstance.SetNull, CInstance::SetNull, SetNull, SetNull method [Windows Management Instrumentation], SetNull method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setnull, instance/CInstance::SetNull, wmi.cinstance_setnull
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetNull"
+f1_keywords:
+- instance/CInstance.SetNull
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetNull
- - ?SetNull@CInstance@@QAE_NPBG@Z
+- CInstance.SetNull
+- ?SetNull@CInstance@@QAE_NPBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

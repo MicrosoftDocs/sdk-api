@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_SectorCount
 title: IRawCDImageTrackInfo::get_SectorCount (imapi2.h)
-
 description: Retrieves the number of user sectors in this track.
 old-location: imapi\irawcdimagetrackinfo_get_sectorcount.htm
 tech.root: imapi
 ms.assetid: 1762620b-b429-4674-85e2-f6f206de1a4f
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageTrackInfo interface [IMAPI],get_SectorCount method, IRawCDImageTrackInfo.get_SectorCount, IRawCDImageTrackInfo::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IRawCDImageTrackInfo interface, imapi.irawcdimagetrackinfo_get_sectorcount, imapi2/IRawCDImageTrackInfo::get_SectorCount
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageTrackInfo.get_SectorCount"
+f1_keywords:
+- imapi2/IRawCDImageTrackInfo.get_SectorCount
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageTrackInfo.get_SectorCount
+- IRawCDImageTrackInfo.get_SectorCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetFillBrush
 title: IXpsOMPath::GetFillBrush (xpsobjectmodel.h)
-
 description: Gets a pointer to the resolved IXpsOMBrush interface that contains the fill brush for the path.
 old-location: xps\ixpsompath_getfillbrush.htm
 tech.root: printdocs
 ms.assetid: fc121659-c04f-433a-aaf7-ab7ecd1fd763
-
 ms.date: 12/05/2018
 ms.keywords: GetFillBrush, GetFillBrush method [XPS Documents and Packaging], GetFillBrush method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetFillBrush method, IXpsOMPath.GetFillBrush, IXpsOMPath::GetFillBrush, xps.ixpsompath_getfillbrush, xpsobjectmodel/IXpsOMPath::GetFillBrush
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetFillBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetFillBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetFillBrush
+- IXpsOMPath.GetFillBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

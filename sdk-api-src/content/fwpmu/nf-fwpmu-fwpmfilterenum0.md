@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmFilterEnum0
 title: FwpmFilterEnum0 function (fwpmu.h)
-
 description: Returns the next page of results from the filter enumerator.
 old-location: fwp\fwpmfilterenum0_func.htm
 tech.root: fwp
 ms.assetid: ced06ffd-668f-4d2b-b727-b705ad6a3149
-
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterEnum0, FwpmFilterEnum0 function [Filtering], fwp.fwpmfilterenum0_func, fwpmu/FwpmFilterEnum0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmFilterEnum0"
+f1_keywords:
+- fwpmu/FwpmFilterEnum0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmFilterEnum0
+- FwpmFilterEnum0
 targetos: Windows
 req.typenames: 
 req.redist: 

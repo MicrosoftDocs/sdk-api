@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetInputMaxLatency
 title: IMediaObject::GetInputMaxLatency (mediaobj.h)
-
 description: The GetInputMaxLatency method retrieves the maximum latency on a specified input stream.
 old-location: dshow\imediaobject_getinputmaxlatency.htm
 tech.root: DirectShow
 ms.assetid: f8a18b4c-a59c-4e9d-aff7-62333e9ffda9
-
 ms.date: 12/05/2018
 ms.keywords: GetInputMaxLatency, GetInputMaxLatency method [DirectShow], GetInputMaxLatency method [DirectShow],IMediaObject interface, IMediaObject interface [DirectShow],GetInputMaxLatency method, IMediaObject.GetInputMaxLatency, IMediaObject::GetInputMaxLatency, IMediaObjectGetInputMaxLatency, dshow.imediaobject_getinputmaxlatency, mediaobj/IMediaObject::GetInputMaxLatency
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObject.GetInputMaxLatency"
+f1_keywords:
+- mediaobj/IMediaObject.GetInputMaxLatency
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject.GetInputMaxLatency
+- IMediaObject.GetInputMaxLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

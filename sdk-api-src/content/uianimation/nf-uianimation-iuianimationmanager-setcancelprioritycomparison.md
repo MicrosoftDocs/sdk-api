@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetCancelPriorityComparison
 title: IUIAnimationManager::SetCancelPriorityComparison (uianimation.h)
-
 description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be canceled.
 old-location: uianimation\iuianimationmanager_setcancelprioritycomparison.htm
 tech.root: UIAnimation
 ms.assetid: cea146d1-4a9c-4089-8015-ac16602f5afd
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetCancelPriorityComparison method, IUIAnimationManager.SetCancelPriorityComparison, IUIAnimationManager::SetCancelPriorityComparison, SetCancelPriorityComparison, SetCancelPriorityComparison method [Windows Animation], SetCancelPriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setcancelprioritycomparison, uianimation/IUIAnimationManager::SetCancelPriorityComparison
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.SetCancelPriorityComparison"
+f1_keywords:
+- uianimation/IUIAnimationManager.SetCancelPriorityComparison
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.SetCancelPriorityComparison
+- IUIAnimationManager.SetCancelPriorityComparison
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMImageResourceCollection
 title: IXpsOMImageResourceCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMImageResource interface pointers.
 old-location: xps\ixpsomimageresourcecollection.htm
 tech.root: printdocs
 ms.assetid: aed8b23e-71fd-49e6-aae9-006a59e0111b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection, IXpsOMImageResourceCollection interface [XPS Documents and Packaging], IXpsOMImageResourceCollection interface [XPS Documents and Packaging],described, xps.ixpsomimageresourcecollection, xpsobjectmodel/IXpsOMImageResourceCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResourceCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResourceCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResourceCollection
+- IXpsOMImageResourceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

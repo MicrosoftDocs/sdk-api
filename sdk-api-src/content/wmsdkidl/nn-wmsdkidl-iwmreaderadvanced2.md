@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced2
 title: IWMReaderAdvanced2 (wmsdkidl.h)
-
 description: The IWMReaderAdvanced2 interface provides additional advanced methods for a reader object.
 old-location: wmformat\iwmreaderadvanced2.htm
 tech.root: wmformat
 ms.assetid: 5d741e49-9fdf-4f8d-9ea1-faaecf879be4
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2, IWMReaderAdvanced2 interface [windows Media Format], IWMReaderAdvanced2 interface [windows Media Format],described, IWMReaderAdvanced2Interface, wmformat.iwmreaderadvanced2, wmsdkidl/IWMReaderAdvanced2
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderAdvanced2
+- IWMReaderAdvanced2
 targetos: Windows
 req.typenames: 
 req.redist: 

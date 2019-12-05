@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumDateFormatsExEx
 title: EnumDateFormatsExEx function (winnls.h)
-
 description: Enumerates the long date, short date, or year/month formats that are available for a locale specified by name.Note  The application should call this function in preference to EnumDateFormats or EnumDateFormatsEx if designed to run only on Windows Vista and later. Note  This function can enumerate data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\enumdateformatsexex.htm
 tech.root: Intl
 ms.assetid: 52bfec03-4cb3-4418-b467-f75d2900ba40
-
 ms.date: 12/05/2018
 ms.keywords: DATE_LONGDATE, DATE_MONTHDAY, DATE_SHORTDATE, DATE_YEARMONTH, EnumDateFormatsExEx, EnumDateFormatsExEx function [Internationalization for Windows Applications], _win32_EnumDateFormatsExEx, intl.enumdateformatsexex, winnls/EnumDateFormatsExEx
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumDateFormatsExEx"
+f1_keywords:
+- winnls/EnumDateFormatsExEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - EnumDateFormatsExEx
+- EnumDateFormatsExEx
 targetos: Windows
 req.typenames: 
 req.redist: 

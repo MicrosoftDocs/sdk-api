@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.SetLocaleInfoA
 title: SetLocaleInfoA function (winnls.h)
-
 description: Sets an item of information in the user override portion of the current locale. This function does not set the system defaults.
 old-location: intl\setlocaleinfo.htm
 tech.root: Intl
 ms.assetid: 96e031cb-0d9f-4556-b9b3-3451d8f80da5
-
 ms.date: 12/05/2018
 ms.keywords: SetLocaleInfo, SetLocaleInfo function [Internationalization for Windows Applications], SetLocaleInfoA, SetLocaleInfoW, _win32_SetLocaleInfo, intl.setlocaleinfo, winnls/SetLocaleInfo, winnls/SetLocaleInfoA, winnls/SetLocaleInfoW
 ms.topic: function
-f1_keywords: 
- - "winnls/SetLocaleInfo"
+f1_keywords:
+- winnls/SetLocaleInfo
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - SetLocaleInfo
- - SetLocaleInfoA
- - SetLocaleInfoW
+- SetLocaleInfo
+- SetLocaleInfoA
+- SetLocaleInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

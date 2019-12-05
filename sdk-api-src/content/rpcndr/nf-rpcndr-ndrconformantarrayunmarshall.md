@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrConformantArrayUnmarshall
 title: NdrConformantArrayUnmarshall function (rpcndr.h)
-
 description: The NdrConformantArrayUnmarshall function unmarshals a conformant array.
 old-location: rpc\ndrconformantarrayunmarshall.htm
 tech.root: Rpc
 ms.assetid: 09acbea7-a835-4365-917f-4b12b2602bf0
-
 ms.date: 12/05/2018
 ms.keywords: NdrConformantArrayUnmarshall, NdrConformantArrayUnmarshall, pStubMsg, pStubMsg function [RPC], rpc.ndrconformantarrayunmarshall, rpcndr/pStubMsg
 ms.topic: function
 f1_keywords:
 - rpcndr/pStubMsg
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

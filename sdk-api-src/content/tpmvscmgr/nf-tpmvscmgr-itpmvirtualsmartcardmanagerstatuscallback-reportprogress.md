@@ -1,19 +1,17 @@
 ---
 UID: NF:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback.ReportProgress
 title: ITpmVirtualSmartCardManagerStatusCallback::ReportProgress (tpmvscmgr.h)
-
 description: Reports the progress of the current operation.
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback_reportprogress.htm
 tech.root: SecAuthN
 ms.assetid: E20CF68F-0DFB-48E4-9B68-83A8E8763424
-
 ms.date: 12/05/2018
 ms.keywords: ITpmVirtualSmartCardManagerStatusCallback interface [Security],ReportProgress method, ITpmVirtualSmartCardManagerStatusCallback.ReportProgress, ITpmVirtualSmartCardManagerStatusCallback::ReportProgress, ReportProgress, ReportProgress method [Security], ReportProgress method [Security],ITpmVirtualSmartCardManagerStatusCallback interface, security.itpmvirtualsmartcardmanagerstatuscallback_reportprogress, tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback::ReportProgress
 ms.topic: method
-f1_keywords: 
- - "tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback.ReportProgress"
+f1_keywords:
+- tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback.ReportProgress
 dev_langs:
- - c++
+- c++
 req.header: tpmvscmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vscmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vscmgr.lib
- - Vscmgr.dll
+- Vscmgr.lib
+- Vscmgr.dll
 api_name:
- - ITpmVirtualSmartCardManagerStatusCallback.ReportProgress
+- ITpmVirtualSmartCardManagerStatusCallback.ReportProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

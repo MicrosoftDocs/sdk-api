@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFsiDirectoryItem
 title: IFsiDirectoryItem (imapi2fs.h)
-
 description: Use this interface to add items to or remove items from the file-system image.
 old-location: imapi\ifsidirectoryitem.htm
 tech.root: imapi
 ms.assetid: 1c9a2e36-0e79-4bad-b880-ddfbf473308b
-
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem, IFsiDirectoryItem interface [IMAPI], IFsiDirectoryItem interface [IMAPI],described, imapi.ifsidirectoryitem, imapi2fs/IFsiDirectoryItem
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem
+- IFsiDirectoryItem
 targetos: Windows
 req.typenames: 
 req.redist: 

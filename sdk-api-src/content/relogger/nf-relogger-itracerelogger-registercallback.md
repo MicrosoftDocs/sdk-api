@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceRelogger.RegisterCallback
 title: ITraceRelogger::RegisterCallback (relogger.h)
-
 description: Registers an implementation of IEventCallback with the relogger in order to signal trace activity (starting, stopping, and logging new events).
 old-location: etw\itracerelogger_registercallback.htm
 tech.root: ETW
 ms.assetid: d3c739bd-9285-49ec-b2cf-d607f3d9be0c
-
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],RegisterCallback method, ITraceRelogger.RegisterCallback, ITraceRelogger::RegisterCallback, RegisterCallback, RegisterCallback method [ETW], RegisterCallback method [ETW],ITraceRelogger interface, etw.itracerelogger_registercallback, relogger/ITraceRelogger::RegisterCallback
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceRelogger.RegisterCallback"
+f1_keywords:
+- relogger/ITraceRelogger.RegisterCallback
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger.RegisterCallback
+- ITraceRelogger.RegisterCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

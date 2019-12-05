@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.ProtocolComplete
 title: IWRdsProtocolLicenseConnection::ProtocolComplete (wtsprotocol.h)
-
 description: Notifies the protocol whether the licensing process completed successfully.
 old-location: termserv\iwrdsprotocollicenseconnection_protocolcomplete.htm
 tech.root: TermServ
 ms.assetid: d9b0efe8-2988-4797-921a-544f410ac6d0
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLicenseConnection interface [Remote Desktop Services],ProtocolComplete method, IWRdsProtocolLicenseConnection.ProtocolComplete, IWRdsProtocolLicenseConnection::ProtocolComplete, ProtocolComplete, ProtocolComplete method [Remote Desktop Services], ProtocolComplete method [Remote Desktop Services],IWRdsProtocolLicenseConnection interface, termserv.iwrdsprotocollicenseconnection_protocolcomplete, wtsprotocol/IWRdsProtocolLicenseConnection::ProtocolComplete
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolLicenseConnection.ProtocolComplete"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolLicenseConnection.ProtocolComplete
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolLicenseConnection.ProtocolComplete
+- IWRdsProtocolLicenseConnection.ProtocolComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

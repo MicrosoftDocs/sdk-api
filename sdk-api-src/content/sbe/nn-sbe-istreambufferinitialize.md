@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.IStreamBufferInitialize
 title: IStreamBufferInitialize (sbe.h)
-
 description: The IStreamBufferInitialize interface is used to configure the stream buffer filters. The Stream Buffer Source filter, Stream Buffer Sink filter, and StreamBufferConfig object all expose this interface.
 old-location: mstv\istreambufferinitialize.htm
 tech.root: mstv
 ms.assetid: 357b2979-78de-4a99-bf52-4117af7dfaad
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferInitialize, IStreamBufferInitialize interface [Microsoft TV Technologies], IStreamBufferInitialize interface [Microsoft TV Technologies],described, IStreamBufferInitializeInterface, mstv.istreambufferinitialize, sbe/IStreamBufferInitialize
 ms.topic: interface
-f1_keywords: 
- - "sbe/IStreamBufferInitialize"
+f1_keywords:
+- sbe/IStreamBufferInitialize
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferInitialize
+- IStreamBufferInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromUInt32Vector
 title: InitPropVariantFromUInt32Vector function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a vector of 32-bit unsigned integer values.
 old-location: properties\InitPropVariantFromUInt32Vector.htm
 tech.root: properties
 ms.assetid: 807793fc-c679-4749-816c-005a77a37f08
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromUInt32Vector, InitPropVariantFromUInt32Vector function [Windows Properties], properties.InitPropVariantFromUInt32Vector, propvarutil/InitPropVariantFromUInt32Vector, shell.InitPropVariantFromUInt32Vector, shell_InitPropVariantFromUInt32Vector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromUInt32Vector"
+f1_keywords:
+- propvarutil/InitPropVariantFromUInt32Vector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantFromUInt32Vector
+- InitPropVariantFromUInt32Vector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

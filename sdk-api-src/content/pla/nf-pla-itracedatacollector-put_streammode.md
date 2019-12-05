@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_StreamMode
 title: ITraceDataCollector::put_StreamMode (pla.h)
-
 description: Retrieves or sets the logging mode of the trace session.
 old-location: pla\itracedatacollector_streammode.htm
 tech.root: PLA
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],StreamMode property, ITraceDataCollector.StreamMode, ITraceDataCollector.put_StreamMode, ITraceDataCollector::StreamMode, ITraceDataCollector::get_StreamMode, ITraceDataCollector::put_StreamMode, StreamMode property [PLA], StreamMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_streammode, pla.itracedatacollector_streammode, pla/ITraceDataCollector::StreamMode, pla/ITraceDataCollector::get_StreamMode, pla/ITraceDataCollector::put_StreamMode, put_StreamMode
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.StreamMode"
+f1_keywords:
+- pla/ITraceDataCollector.StreamMode
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.StreamMode
- - ITraceDataCollector.get_StreamMode
- - ITraceDataCollector.put_StreamMode
+- ITraceDataCollector.StreamMode
+- ITraceDataCollector.get_StreamMode
+- ITraceDataCollector.put_StreamMode
 targetos: Windows
 req.typenames: 
 req.redist: 

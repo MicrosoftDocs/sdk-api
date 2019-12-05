@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionSaturationEffect
 title: IDCompositionSaturationEffect (dcomp.h)
-
 description: This effect is used to alter the saturation of an image. The saturation effect is a specialization of the color matrix effect.
 old-location: directcomp\idcompositionsaturationeffect.htm
 tech.root: directcomp
 ms.assetid: ADA7C54C-E237-4455-8808-962A631B37E0
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSaturationEffect, IDCompositionSaturationEffect interface [DirectComposition], IDCompositionSaturationEffect interface [DirectComposition],described, dcomp/IDCompositionSaturationEffect, directcomp.idcompositionsaturationeffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionSaturationEffect"
+f1_keywords:
+- dcomp/IDCompositionSaturationEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSaturationEffect
+- IDCompositionSaturationEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

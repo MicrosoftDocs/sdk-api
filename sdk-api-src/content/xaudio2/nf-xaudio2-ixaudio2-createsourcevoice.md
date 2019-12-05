@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateSourceVoice
 title: IXAudio2::CreateSourceVoice (xaudio2.h)
-
 description: Creates and configures a source voice.
 old-location: xaudio2\ixaudio2_interface_createsourcevoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSourceVoice(IXAudio2SourceVoice@,const WAVEFORMATEX,UINT32,float,IXAudio2VoiceCallback,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
-
 ms.date: 12/05/2018
 ms.keywords: CreateSourceVoice, CreateSourceVoice method [XAudio2 Audio Mixing APIs], CreateSourceVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSourceVoice method, IXAudio2.CreateSourceVoice, IXAudio2::CreateSourceVoice, xaudio2.ixaudio2_interface_createsourcevoice, xaudio2/IXAudio2::CreateSourceVoice
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2.CreateSourceVoice"
+f1_keywords:
+- xaudio2/IXAudio2.CreateSourceVoice
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2.CreateSourceVoice
+- IXAudio2.CreateSourceVoice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.InsertEmbedded
 title: ITfRange::InsertEmbedded (msctf.h)
-
 description: The ITfRange::InsertEmbedded method inserts an object at the location of the start anchor of the range of text.
 old-location: tsf\itfrange_insertembedded.htm
 tech.root: TSF
 ms.assetid: 95b8622d-c934-4293-abb4-9eface451be5
-
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],InsertEmbedded method, ITfRange.InsertEmbedded, ITfRange::InsertEmbedded, InsertEmbedded, InsertEmbedded method [Text Services Framework], InsertEmbedded method [Text Services Framework],ITfRange interface, _tsf_itfrange_insertembedded_ref, msctf/ITfRange::InsertEmbedded, tsf.itfrange_insertembedded
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.InsertEmbedded"
+f1_keywords:
+- msctf/ITfRange.InsertEmbedded
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.InsertEmbedded
+- ITfRange.InsertEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

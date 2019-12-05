@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetFilterInfo
 title: ISyncChangeBatchAdvanced::GetFilterInfo (winsync.h)
-
 description: Gets the ISyncFilterInfo that was specified when the change batch was created.
 old-location: winsync\isyncchangebatchadvanced_getfilterinfo.htm
 tech.root: winsync
 ms.assetid: f630f806-cc5a-408e-bd84-49555ebb41c1
-
 ms.date: 12/05/2018
 ms.keywords: GetFilterInfo, GetFilterInfo method [Windows Sync], GetFilterInfo method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],GetFilterInfo method, ISyncChangeBatchAdvanced.GetFilterInfo, ISyncChangeBatchAdvanced::GetFilterInfo, winsync.isyncchangebatchadvanced_getfilterinfo, winsync/ISyncChangeBatchAdvanced::GetFilterInfo
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchAdvanced.GetFilterInfo"
+f1_keywords:
+- winsync/ISyncChangeBatchAdvanced.GetFilterInfo
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchAdvanced.GetFilterInfo
+- ISyncChangeBatchAdvanced.GetFilterInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

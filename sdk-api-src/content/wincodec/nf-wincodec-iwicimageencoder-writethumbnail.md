@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteThumbnail
 title: IWICImageEncoder::WriteThumbnail (wincodec.h)
-
 description: Encodes the given image as the thumbnail to the given WIC bitmap encoder.
 old-location: wic\iwicimageencoder_writethumbnail.htm
 tech.root: wic
 ms.assetid: 322AD13D-E755-45BD-A31D-D603DBD7FA81
-
 ms.date: 12/05/2018
 ms.keywords: IWICImageEncoder interface [Windows Imaging Component],WriteThumbnail method, IWICImageEncoder.WriteThumbnail, IWICImageEncoder::WriteThumbnail, WriteThumbnail, WriteThumbnail method [Windows Imaging Component], WriteThumbnail method [Windows Imaging Component],IWICImageEncoder interface, wic.iwicimageencoder_writethumbnail, wincodec/IWICImageEncoder::WriteThumbnail
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImageEncoder.WriteThumbnail"
+f1_keywords:
+- wincodec/IWICImageEncoder.WriteThumbnail
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImageEncoder.WriteThumbnail
+- IWICImageEncoder.WriteThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

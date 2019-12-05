@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11_3.D3D11_TEXTURE3D_DESC1
 title: D3D11_TEXTURE3D_DESC1 (d3d11_3.h)
-
 description: Describes a 3D texture.
 old-location: direct3d11\d3d11_texture3d_desc1.htm
 tech.root: direct3d11
 ms.assetid: DC20371E-6675-4AAC-A7F6-DC523BB8DBF6
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_TEXTURE3D_DESC1, D3D11_TEXTURE3D_DESC1, D3D11_TEXTURE3D_DESC1 structure [Direct3D 11], d3d11_3/D3D11_TEXTURE3D_DESC1, direct3d11.d3d11_texture3d_desc1
 ms.topic: struct
-f1_keywords: 
- - "d3d11_3/D3D11_TEXTURE3D_DESC1"
+f1_keywords:
+- d3d11_3/D3D11_TEXTURE3D_DESC1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_3.h
+- D3D11_3.h
 api_name:
- - D3D11_TEXTURE3D_DESC1
+- D3D11_TEXTURE3D_DESC1
 targetos: Windows
 req.typenames: D3D11_TEXTURE3D_DESC1
 req.redist: 

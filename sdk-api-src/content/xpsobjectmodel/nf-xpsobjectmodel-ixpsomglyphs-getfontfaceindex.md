@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetFontFaceIndex
 title: IXpsOMGlyphs::GetFontFaceIndex (xpsobjectmodel.h)
-
 description: Gets the index of the font face to be used.
 old-location: xps\ixpsomglyphs_getfontfaceindex.htm
 tech.root: printdocs
 ms.assetid: 375e6391-c75f-4dbe-b51f-ce394f5088ec
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFaceIndex, GetFontFaceIndex method [XPS Documents and Packaging], GetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetFontFaceIndex method, IXpsOMGlyphs.GetFontFaceIndex, IXpsOMGlyphs::GetFontFaceIndex, xps.ixpsomglyphs_getfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::GetFontFaceIndex
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetFontFaceIndex"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetFontFaceIndex
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetFontFaceIndex
+- IXpsOMGlyphs.GetFontFaceIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

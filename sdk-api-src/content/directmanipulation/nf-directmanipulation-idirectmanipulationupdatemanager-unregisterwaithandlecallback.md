@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
 title: IDirectManipulationUpdateManager::UnregisterWaitHandleCallback (directmanipulation.h)
-
 description: Deregisters a callback.
 old-location: directmanipulation\idirectmanipulationupdatemanager_unregisterwaithandlecallback.htm
 tech.root: directmanipulation
 ms.assetid: d932a4a9-827f-4e23-b30a-3a4b85a60c6e
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationUpdateManager interface [Direct Manipulation],UnregisterWaitHandleCallback method, IDirectManipulationUpdateManager.UnregisterWaitHandleCallback, IDirectManipulationUpdateManager::UnregisterWaitHandleCallback, UnregisterWaitHandleCallback, UnregisterWaitHandleCallback method [Direct Manipulation], UnregisterWaitHandleCallback method [Direct Manipulation],IDirectManipulationUpdateManager interface, directmanipulation.idirectmanipulationupdatemanager_unregisterwaithandlecallback, directmanipulation/IDirectManipulationUpdateManager::UnregisterWaitHandleCallback
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationUpdateManager.UnregisterWaitHandleCallback"
+f1_keywords:
+- directmanipulation/IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
+- IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

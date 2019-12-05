@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device1.SetResidencyPriority
 title: ID3D12Device1::SetResidencyPriority (d3d12.h)
-
 description: This method sets residency priorities of a specified list of objects.
 old-location: direct3d12\id3d12device1_setresidencypriority.htm
 tech.root: direct3d12
 ms.assetid: C489AA41-B2FC-418D-8268-9C02E5E10E0D
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device1 interface,SetResidencyPriority method, ID3D12Device1.SetResidencyPriority, ID3D12Device1::SetResidencyPriority, SetResidencyPriority, SetResidencyPriority method, SetResidencyPriority method,ID3D12Device1 interface, d3d12/ID3D12Device1::SetResidencyPriority, direct3d12.id3d12device1_setresidencypriority
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device1.SetResidencyPriority"
+f1_keywords:
+- d3d12/ID3D12Device1.SetResidencyPriority
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device1.SetResidencyPriority
+- ID3D12Device1.SetResidencyPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

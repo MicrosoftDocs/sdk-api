@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IManagedActivationEvents.CreateManagedStub
 title: IManagedActivationEvents::CreateManagedStub (comsvcs.h)
-
 description: Creates a stub for a managed object within the current COM+ context.
 old-location: cos\imanagedactivationevents_createmanagedstub.htm
 tech.root: cossdk
 ms.assetid: a2ba7ece-ac17-42fb-b22f-976ad849eca5
-
 ms.date: 12/05/2018
 ms.keywords: CreateManagedStub, CreateManagedStub method [COM+], CreateManagedStub method [COM+],IManagedActivationEvents interface, IManagedActivationEvents interface [COM+],CreateManagedStub method, IManagedActivationEvents.CreateManagedStub, IManagedActivationEvents::CreateManagedStub, _cos_IManagedActivationEvents_CreateManagedStub, comsvcs/IManagedActivationEvents::CreateManagedStub, cos.imanagedactivationevents_createmanagedstub
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IManagedActivationEvents.CreateManagedStub"
+f1_keywords:
+- comsvcs/IManagedActivationEvents.CreateManagedStub
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedActivationEvents.CreateManagedStub
+- IManagedActivationEvents.CreateManagedStub
 targetos: Windows
 req.typenames: 
 req.redist: 

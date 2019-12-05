@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI2FromDate
 title: VarUI2FromDate function (oleauto.h)
-
 description: Converts a date value to an unsigned short value.
 old-location: automat\varui2fromdate.htm
 tech.root: automat
 ms.assetid: b611526d-3bc1-4943-9fb4-319e5899426a
-
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromDate, VarUI2FromDate function [Automation], _oa96_VarUI2FromDate, automat.varui2fromdate, oleauto/VarUI2FromDate
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI2FromDate"
+f1_keywords:
+- oleauto/VarUI2FromDate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI2FromDate
+- VarUI2FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 

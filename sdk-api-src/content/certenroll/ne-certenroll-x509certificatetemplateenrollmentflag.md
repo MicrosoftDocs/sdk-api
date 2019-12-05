@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.X509CertificateTemplateEnrollmentFlag
 title: X509CertificateTemplateEnrollmentFlag (certenroll.h)
-
 description: Contains values that specify server and client actions during enrollment.
 old-location: security\x509certificatetemplateenrollmentflag.htm
 tech.root: seccertenroll
 ms.assetid: eefb2120-637d-45ae-91be-e18a9d9cb14f
-
 ms.date: 12/05/2018
 ms.keywords: EnrollmentAddOCSPNoCheck, EnrollmentAddTemplateName, EnrollmentAllowEnrollOnBehalfOf, EnrollmentAutoEnrollment, EnrollmentAutoEnrollmentCheckUserDSCertificate, EnrollmentDomainAuthenticationNotRequired, EnrollmentIncludeBasicConstraintsForEECerts, EnrollmentIncludeSymmetricAlgorithms, EnrollmentNoRevocationInfoInCerts, EnrollmentPendAllRequests, EnrollmentPreviousApprovalValidateReenrollment, EnrollmentPublishToDS, EnrollmentPublishToKRAContainer, EnrollmentRemoveInvalidCertificateFromPersonalStore, EnrollmentReuseKeyOnFullSmartCard, EnrollmentUserInteractionRequired, X509CertificateTemplateEnrollmentFlag, X509CertificateTemplateEnrollmentFlag enumeration [Security], certenroll/EnrollmentAddOCSPNoCheck, certenroll/EnrollmentAddTemplateName, certenroll/EnrollmentAllowEnrollOnBehalfOf, certenroll/EnrollmentAutoEnrollment, certenroll/EnrollmentAutoEnrollmentCheckUserDSCertificate, certenroll/EnrollmentDomainAuthenticationNotRequired, certenroll/EnrollmentIncludeBasicConstraintsForEECerts, certenroll/EnrollmentIncludeSymmetricAlgorithms, certenroll/EnrollmentNoRevocationInfoInCerts, certenroll/EnrollmentPendAllRequests, certenroll/EnrollmentPreviousApprovalValidateReenrollment, certenroll/EnrollmentPublishToDS, certenroll/EnrollmentPublishToKRAContainer, certenroll/EnrollmentRemoveInvalidCertificateFromPersonalStore, certenroll/EnrollmentReuseKeyOnFullSmartCard, certenroll/EnrollmentUserInteractionRequired, certenroll/X509CertificateTemplateEnrollmentFlag, security.x509certificatetemplateenrollmentflag
 ms.topic: enum
-f1_keywords: 
- - "certenroll/X509CertificateTemplateEnrollmentFlag"
+f1_keywords:
+- certenroll/X509CertificateTemplateEnrollmentFlag
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - X509CertificateTemplateEnrollmentFlag
+- X509CertificateTemplateEnrollmentFlag
 targetos: Windows
 req.typenames: X509CertificateTemplateEnrollmentFlag
 req.redist: 

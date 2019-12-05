@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcGeneratorFilterMaxParameters.GetHorizonSize
 title: IRdcGeneratorFilterMaxParameters::GetHorizonSize (msrdc.h)
-
 description: Returns the horizon size&#8212;the length over which the FilterMax generator looks for local maxima.
 old-location: rdc\irdcgeneratorfiltermaxparameters_gethorizonsize.htm
 tech.root: rdc
 ms.assetid: 6509330a-9592-4e10-91fb-43e4b63dceb9
-
 ms.date: 12/05/2018
 ms.keywords: GetHorizonSize, GetHorizonSize method [Remote Differential Compression], GetHorizonSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],GetHorizonSize method, IRdcGeneratorFilterMaxParameters.GetHorizonSize, IRdcGeneratorFilterMaxParameters::GetHorizonSize, fs.irdcgeneratorfiltermaxparameters_gethorizonsize, msrdc/IRdcGeneratorFilterMaxParameters::GetHorizonSize, rdc.irdcgeneratorfiltermaxparameters_gethorizonsize
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcGeneratorFilterMaxParameters.GetHorizonSize"
+f1_keywords:
+- msrdc/IRdcGeneratorFilterMaxParameters.GetHorizonSize
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcGeneratorFilterMaxParameters.GetHorizonSize
+- IRdcGeneratorFilterMaxParameters.GetHorizonSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wcsplugin._GamutBoundaryDescription
 title: GamutBoundaryDescription (wcsplugin.h)
-
 description: Defines a gamut boundary.
 old-location: wcs\gamutboundarydescription.htm
 tech.root: WCS
 ms.assetid: b7551967-ff2f-48ed-9346-a75e19fe2c31
-
 ms.date: 12/05/2018
 ms.keywords: GamutBoundaryDescription, GamutBoundaryDescription structure [Windows Color System], _color_GamutBoundaryDescription_str, wcs.gamutboundarydescription, wcsplugin/GamutBoundaryDescription
 ms.topic: struct
-f1_keywords: 
- - "wcsplugin/GamutBoundaryDescription"
+f1_keywords:
+- wcsplugin/GamutBoundaryDescription
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - GamutBoundaryDescription
+- GamutBoundaryDescription
 targetos: Windows
 req.typenames: GamutBoundaryDescription
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_VOICE_DETAILS
 title: XAUDIO2_VOICE_DETAILS (xaudio2.h)
-
 description: Contains information about the creation flags, input channels, and sample rate of a voice.
 old-location: xaudio2\xaudio2_voice_details.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_VOICE_DETAILS
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_VOICE_DETAILS, XAUDIO2_VOICE_DETAILS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_voice_details, xaudio2/XAUDIO2_VOICE_DETAILS
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_VOICE_DETAILS"
+f1_keywords:
+- xaudio2/XAUDIO2_VOICE_DETAILS
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_VOICE_DETAILS
+- XAUDIO2_VOICE_DETAILS
 targetos: Windows
 req.typenames: XAUDIO2_VOICE_DETAILS
 req.redist: 

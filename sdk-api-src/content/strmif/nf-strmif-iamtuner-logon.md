@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.Logon
 title: IAMTuner::Logon (strmif.h)
-
 description: The Logon method logs a user onto the system.
 old-location: dshow\iamtuner_logon.htm
 tech.root: DirectShow
 ms.assetid: b4a5a927-254c-44cd-b17d-e1f47b3f62a7
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],Logon method, IAMTuner.Logon, IAMTuner::Logon, IAMTunerLogon, Logon, Logon method [DirectShow], Logon method [DirectShow],IAMTuner interface, dshow.iamtuner_logon, strmif/IAMTuner::Logon
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.Logon"
+f1_keywords:
+- strmif/IAMTuner.Logon
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.Logon
+- IAMTuner.Logon
 targetos: Windows
 req.typenames: 
 req.redist: 

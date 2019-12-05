@@ -1,19 +1,17 @@
 ---
 UID: NS:wincred._USERNAME_TARGET_CREDENTIAL_INFO
 title: USERNAME_TARGET_CREDENTIAL_INFO (wincred.h)
-
 description: The USERNAME_TARGET_CREDENTIAL_INFO structure contains a reference to a credential.
 old-location: security\username_target_credential_info.htm
 tech.root: SecAuthN
 ms.assetid: 1cb56a85-fafd-4471-b0e9-660ac0dc0219
-
 ms.date: 12/05/2018
-ms.keywords: "*PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO structure pointer [Security], USERNAME_TARGET_CREDENTIAL_INFO, USERNAME_TARGET_CREDENTIAL_INFO structure [Security], _cred_username_target_credential_info, security.username_target_credential_info, wincred/PUSERNAME_TARGET_CREDENTIAL_INFO, wincred/USERNAME_TARGET_CREDENTIAL_INFO"
+ms.keywords: '*PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO, PUSERNAME_TARGET_CREDENTIAL_INFO structure pointer [Security], USERNAME_TARGET_CREDENTIAL_INFO, USERNAME_TARGET_CREDENTIAL_INFO structure [Security], _cred_username_target_credential_info, security.username_target_credential_info, wincred/PUSERNAME_TARGET_CREDENTIAL_INFO, wincred/USERNAME_TARGET_CREDENTIAL_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincred/USERNAME_TARGET_CREDENTIAL_INFO"
+f1_keywords:
+- wincred/USERNAME_TARGET_CREDENTIAL_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinCred.h
+- WinCred.h
 api_name:
- - USERNAME_TARGET_CREDENTIAL_INFO
+- USERNAME_TARGET_CREDENTIAL_INFO
 targetos: Windows
 req.typenames: USERNAME_TARGET_CREDENTIAL_INFO, *PUSERNAME_TARGET_CREDENTIAL_INFO
 req.redist: 

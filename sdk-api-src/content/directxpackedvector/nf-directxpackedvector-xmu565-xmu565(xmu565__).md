@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(XMU565 &&)
 title: XMU565::XMU565(XMU565 &&) (directxpackedvector.h)
-
 description: A constructor for XMU565.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/06/2019
 ms.keywords: XMU565, XMU565 constructor [DirectX Math Support APIs], XMU565 constructor [DirectX Math Support APIs],XMU565 structure, XMU565 structure [DirectX Math Support APIs],XMU565 constructor, XMU565.XMU565, XMU565.XMU565(), XMU565.XMU565(XMU565 &&), XMU565::XMU565, XMU565::XMU565(XMU565 &&), dxmath.xmu565_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMU565.XMU565"
+f1_keywords:
+- directxpackedvector/XMU565.XMU565
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU565.XMU565
+- XMU565.XMU565
 targetos: Windows
 req.typenames: 
 req.redist: 

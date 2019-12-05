@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmMutableCollection.RemoveById
 title: IFsrmMutableCollection::RemoveById (fsrm.h)
-
 description: Removes the specified object from the collection using an object identifier.
 old-location: fsrm\ifsrmmutablecollection_removebyid.htm
 tech.root: fsrm
 ms.assetid: 42f6fc4c-72fe-47c8-91c5-21987fa91848
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmMutableCollection interface [File Server Resource Manager],RemoveById method, IFsrmMutableCollection.RemoveById, IFsrmMutableCollection::RemoveById, RemoveById, RemoveById method [File Server Resource Manager], RemoveById method [File Server Resource Manager],IFsrmMutableCollection interface, fs.ifsrmmutablecollection_removebyid, fsrm.ifsrmmutablecollection_removebyid, fsrm/IFsrmMutableCollection::RemoveById
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmMutableCollection.RemoveById"
+f1_keywords:
+- fsrm/IFsrmMutableCollection.RemoveById
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmMutableCollection.RemoveById
+- IFsrmMutableCollection.RemoveById
 targetos: Windows
 req.typenames: 
 req.redist: 

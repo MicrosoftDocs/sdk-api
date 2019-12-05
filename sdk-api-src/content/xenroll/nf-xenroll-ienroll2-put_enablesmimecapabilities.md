@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll2.put_EnableSMIMECapabilities
 title: IEnroll2::put_EnableSMIMECapabilities (xenroll.h)
-
-description: Controls whether the PKCS #10 will contain a signed attribute for Secure/Multipurpose Internet Mail Extensions (S/MIME) capabilities.
+description: Controls whether the PKCS
 old-location: security\ienroll4_enablesmimecapabilities.htm
 tech.root: SecCrypto
 ms.assetid: e0571a8c-c682-44fd-a479-ace627b314b5
-
 ms.date: 12/05/2018
 ms.keywords: EnableSMIMECapabilities property [Security], EnableSMIMECapabilities property [Security],IEnroll2 interface, IEnroll2 interface [Security],EnableSMIMECapabilities property, IEnroll2.EnableSMIMECapabilities, IEnroll2.put_EnableSMIMECapabilities, IEnroll2::EnableSMIMECapabilities, IEnroll2::get_EnableSMIMECapabilities, IEnroll2::put_EnableSMIMECapabilities, put_EnableSMIMECapabilities, security.ienroll4_enablesmimecapabilities, xenroll/IEnroll2::EnableSMIMECapabilities, xenroll/IEnroll2::get_EnableSMIMECapabilities, xenroll/IEnroll2::put_EnableSMIMECapabilities
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll2.EnableSMIMECapabilities"
+f1_keywords:
+- xenroll/IEnroll2.EnableSMIMECapabilities
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll2.EnableSMIMECapabilities
- - IEnroll2.get_EnableSMIMECapabilities
- - IEnroll2.put_EnableSMIMECapabilities
+- IEnroll2.EnableSMIMECapabilities
+- IEnroll2.get_EnableSMIMECapabilities
+- IEnroll2.put_EnableSMIMECapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

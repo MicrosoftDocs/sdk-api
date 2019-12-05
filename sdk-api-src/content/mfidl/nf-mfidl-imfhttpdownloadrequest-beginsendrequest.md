@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginSendRequest
 title: IMFHttpDownloadRequest::BeginSendRequest (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to send a HTTP or HTTPS request.
 old-location: mf\imfhttpdownloadrequest_beginsendrequest.htm
 tech.root: medfound
 ms.assetid: 38025B19-146A-4050-9BD2-2CF974729FE3
-
 ms.date: 12/05/2018
 ms.keywords: BeginSendRequest, BeginSendRequest method [Media Foundation], BeginSendRequest method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],BeginSendRequest method, IMFHttpDownloadRequest.BeginSendRequest, IMFHttpDownloadRequest::BeginSendRequest, mf.imfhttpdownloadrequest_beginsendrequest, mfidl/IMFHttpDownloadRequest::BeginSendRequest
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.BeginSendRequest"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.BeginSendRequest
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.BeginSendRequest
+- IMFHttpDownloadRequest.BeginSendRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

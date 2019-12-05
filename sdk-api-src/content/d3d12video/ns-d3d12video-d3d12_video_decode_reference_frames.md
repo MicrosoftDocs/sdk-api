@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_REFERENCE_FRAMES
 title: D3D12_VIDEO_DECODE_REFERENCE_FRAMES
-
 description: Contains the list of reference frames for the current decode operation.
 tech.root: mf
 ms.assetid: 9b0151d7-aaeb-4f85-bd41-b68df916b9d0
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_DECODE_REFERENCE_FRAMES
+- D3D12_VIDEO_DECODE_REFERENCE_FRAMES
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_REFERENCE_FRAMES, D3D12_VIDEO_DECODE_REFERENCE_FRAMES, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_REFERENCE_FRAMES, D3D12_VIDEO_DECODE_REFERENCE_FRAMES,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_REFERENCE_FRAMES
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_REFERENCE_FRAMES
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_REFERENCE_FRAMES
 targetos: Windows
 ---
 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture1D
 title: ID3D10Device::CreateTexture1D (d3d10.h)
-
 description: Create an array of 1D textures (see Texture1D).
 old-location: direct3d10\id3d10device_createtexture1d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture1d.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0ea074c9-00a2-6fa9-2aad-24c30631a07a, CreateTexture1D, CreateTexture1D method [Direct3D 10], CreateTexture1D method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateTexture1D method, ID3D10Device.CreateTexture1D, ID3D10Device::CreateTexture1D, d3d10/ID3D10Device::CreateTexture1D, direct3d10.id3d10device_createtexture1d
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateTexture1D"
+f1_keywords:
+- d3d10/ID3D10Device.CreateTexture1D
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateTexture1D
+- ID3D10Device.CreateTexture1D
 targetos: Windows
 req.typenames: 
 req.redist: 

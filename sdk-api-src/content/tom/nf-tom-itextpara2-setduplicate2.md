@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara2.SetDuplicate2
 title: ITextPara2::SetDuplicate2 (tom.h)
-
 description: Sets the properties of this object by copying the properties of another text paragraph object.
 old-location: controls\itextpara2_setduplicate2.htm
 tech.root: Controls
 ms.assetid: 403fd23b-5d66-4e30-b1aa-eec9e4676318
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara2 interface [Windows Controls],SetDuplicate2 method, ITextPara2.SetDuplicate2, ITextPara2::SetDuplicate2, SetDuplicate2, SetDuplicate2 method [Windows Controls], SetDuplicate2 method [Windows Controls],ITextPara2 interface, controls.itextpara2_setduplicate2, tom/ITextPara2::SetDuplicate2
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara2.SetDuplicate2"
+f1_keywords:
+- tom/ITextPara2.SetDuplicate2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara2.SetDuplicate2
+- ITextPara2.SetDuplicate2
 targetos: Windows
 req.typenames: 
 req.redist: 

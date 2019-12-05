@@ -1,19 +1,17 @@
 ---
 UID: NS:wdstci._WDS_TRANSPORTCLIENT_REQUEST
 title: WDS_TRANSPORTCLIENT_REQUEST (wdstci.h)
-
 description: This structure is used by the WdsTransportClientStartSession function.
 old-location: wds\wds_transportclient_request.htm
 tech.root: wds
 ms.assetid: efa1ea12-5234-474b-a859-cd074290e375
-
 ms.date: 12/05/2018
-ms.keywords: "*PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST structure pointer [Windows Deployment Services], WDS_TRANSPORTCLIENT_AUTH, WDS_TRANSPORTCLIENT_NO_AUTH, WDS_TRANSPORTCLIENT_PROTOCOL_MULTICAST, WDS_TRANSPORTCLIENT_REQUEST, WDS_TRANSPORTCLIENT_REQUEST structure [Windows Deployment Services], WDS_TRANSPORT_CLIENT_CURRENT_API_VERSION, wds.wds_transportclient_request, wdstci/PWDS_TRANSPORTCLIENT_REQUEST, wdstci/WDS_TRANSPORTCLIENT_REQUEST"
+ms.keywords: '*PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST, PWDS_TRANSPORTCLIENT_REQUEST structure pointer [Windows Deployment Services], WDS_TRANSPORTCLIENT_AUTH, WDS_TRANSPORTCLIENT_NO_AUTH, WDS_TRANSPORTCLIENT_PROTOCOL_MULTICAST, WDS_TRANSPORTCLIENT_REQUEST, WDS_TRANSPORTCLIENT_REQUEST structure [Windows Deployment Services], WDS_TRANSPORT_CLIENT_CURRENT_API_VERSION, wds.wds_transportclient_request, wdstci/PWDS_TRANSPORTCLIENT_REQUEST, wdstci/WDS_TRANSPORTCLIENT_REQUEST'
 ms.topic: struct
-f1_keywords: 
- - "wdstci/WDS_TRANSPORTCLIENT_REQUEST"
+f1_keywords:
+- wdstci/WDS_TRANSPORTCLIENT_REQUEST
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdstci.h
+- Wdstci.h
 api_name:
- - WDS_TRANSPORTCLIENT_REQUEST
+- WDS_TRANSPORTCLIENT_REQUEST
 targetos: Windows
 req.typenames: WDS_TRANSPORTCLIENT_REQUEST, *PWDS_TRANSPORTCLIENT_REQUEST
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpQueryOption
 title: WinHttpQueryOption function (winhttp.h)
-
 description: The WinHttpQueryOption function queries an Internet option on the specified handle.
 old-location: http\winhttpqueryoption.htm
 tech.root: WinHttp
 ms.assetid: 47973eab-de70-47bf-9713-97b87a500cfa
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpQueryOption, WinHttpQueryOption function [WinHTTP], http.winhttpqueryoption, winhttp.winhttpqueryoption_function, winhttp/WinHttpQueryOption
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpQueryOption"
+f1_keywords:
+- winhttp/WinHttpQueryOption
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpQueryOption
+- WinHttpQueryOption
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

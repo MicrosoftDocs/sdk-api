@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAsyncReader.WaitForNext
 title: IAsyncReader::WaitForNext (strmif.h)
-
 description: The WaitForNext method waits for the next pending read request to complete.
 old-location: dshow\iasyncreader_waitfornext.htm
 tech.root: DirectShow
 ms.assetid: fc54f917-3b86-4c0b-b356-217bc9793504
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],WaitForNext method, IAsyncReader.WaitForNext, IAsyncReader::WaitForNext, IAsyncReaderWaitForNext, WaitForNext, WaitForNext method [DirectShow], WaitForNext method [DirectShow],IAsyncReader interface, dshow.iasyncreader_waitfornext, strmif/IAsyncReader::WaitForNext
 ms.topic: method
-f1_keywords: 
- - "strmif/IAsyncReader.WaitForNext"
+f1_keywords:
+- strmif/IAsyncReader.WaitForNext
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAsyncReader.WaitForNext
+- IAsyncReader.WaitForNext
 targetos: Windows
 req.typenames: 
 req.redist: 

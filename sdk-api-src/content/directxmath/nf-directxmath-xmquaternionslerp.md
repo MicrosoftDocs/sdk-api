@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionSlerp
 title: XMQuaternionSlerp function (directxmath.h)
-
 description: Interpolates between two unit quaternions, using spherical linear interpolation.
 old-location: dxmath\xmquaternionslerp.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionSlerp(XMVECTOR,XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionSlerp, XMQuaternionSlerp, XMQuaternionSlerp method [DirectX Math Support APIs], dxmath.xmquaternionslerp
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionSlerp"
+f1_keywords:
+- directxmath/XMQuaternionSlerp
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionSlerp
+- XMQuaternionSlerp
 targetos: Windows
 req.typenames: 
 req.redist: 

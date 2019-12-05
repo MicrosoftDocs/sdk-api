@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetwork.SetName
 title: INetwork::SetName (netlistmgr.h)
-
 description: The SetName method sets or renames a network.
 old-location: nla\inetwork_setname.htm
 tech.root: nla
 ms.assetid: 7495e26f-b7cf-4abd-ab7d-82b0d4bd4d87
-
 ms.date: 12/05/2018
 ms.keywords: INetwork interface [Network Awareness],SetName method, INetwork.SetName, INetwork::SetName, SetName, SetName method [Network Awareness], SetName method [Network Awareness],INetwork interface, netlistmgr/INetwork::SetName, nla.inetwork_setname
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetwork.SetName"
+f1_keywords:
+- netlistmgr/INetwork.SetName
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork.SetName
+- INetwork.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 

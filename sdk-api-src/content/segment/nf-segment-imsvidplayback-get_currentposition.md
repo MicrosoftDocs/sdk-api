@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_CurrentPosition
 title: IMSVidPlayback::get_CurrentPosition (segment.h)
-
 description: The get_CurrentPosition method returns the current playback position of the source.
 old-location: mstv\imsvidplayback_get_currentposition.htm
 tech.root: mstv
 ms.assetid: 08facda5-3c17-4dac-b06f-6032f9490087
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_CurrentPosition method, IMSVidPlayback.get_CurrentPosition, IMSVidPlayback::get_CurrentPosition, IMSVidPlaybackget_CurrentPosition, get_CurrentPosition, get_CurrentPosition method [Microsoft TV Technologies], get_CurrentPosition method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_currentposition, segment/IMSVidPlayback::get_CurrentPosition
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.get_CurrentPosition"
+f1_keywords:
+- segment/IMSVidPlayback.get_CurrentPosition
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.get_CurrentPosition
+- IMSVidPlayback.get_CurrentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

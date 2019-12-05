@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Session
 title: MI_Session (mi.h)
-
 description: An object that is associated with a destination and has a set of credentials and options associated with it. .
 old-location: wmi_v2\mi_session.htm
 tech.root: wmi_v2
 ms.assetid: 68a69321-0aa9-423e-a72f-aa2f4dee2d51
-
 ms.date: 12/05/2018
 ms.keywords: MI_Session, MI_Session structure [Windows Management Infrastructure (MI)], mi/MI_Session, wmi._mi_session, wmi_v2.mi_session
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Session"
+f1_keywords:
+- mi/MI_Session
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Session
+- MI_Session
 targetos: Windows
 req.typenames: MI_Session
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

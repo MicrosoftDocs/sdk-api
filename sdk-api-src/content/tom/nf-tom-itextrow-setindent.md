@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetIndent
 title: ITextRow::SetIndent (tom.h)
-
 description: Sets the indent of a row.
 old-location: controls\itextrow_setindent.htm
 tech.root: Controls
 ms.assetid: 9846fbd5-c210-49c4-8abe-dfb9cb85f7ae
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetIndent method, ITextRow.SetIndent, ITextRow::SetIndent, SetIndent, SetIndent method [Windows Controls], SetIndent method [Windows Controls],ITextRow interface, controls.itextrow_setindent, tom/ITextRow::SetIndent
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetIndent"
+f1_keywords:
+- tom/ITextRow.SetIndent
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetIndent
+- ITextRow.SetIndent
 targetos: Windows
 req.typenames: 
 req.redist: 

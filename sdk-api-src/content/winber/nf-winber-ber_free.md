@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_free
 title: ber_free function (winber.h)
-
 description: The ber_free function frees a BerElement structure that was previously allocated with ber_alloc_t, ber_init, or the ldap_first_attribute/ ldap_next_attribute search functions.
 old-location: ldap\ber_free.htm
 tech.root: ldap
 ms.assetid: b0f5a81e-a1d1-41c3-802c-b17be2275964
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_free, ber_free, ber_free function [LDAP], ldap.ber__free, ldap.ber_free, winber/ber_free"
+ms.keywords: _ldap_ber_free, ber_free, ber_free function [LDAP], ldap.ber__free, ldap.ber_free, winber/ber_free
 ms.topic: function
-f1_keywords: 
- - "winber/ber_free"
+f1_keywords:
+- winber/ber_free
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_free
+- ber_free
 targetos: Windows
 req.typenames: 
 req.redist: 

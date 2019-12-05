@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLun.AddPlex
 title: IVdsLun::AddPlex (vds.h)
-
 description: Adds a LUN to the target LUN as a new plex.
 old-location: base\ivdslun_addplex.htm
 tech.root: VDS
 ms.assetid: a5d6d746-e740-40b0-b9e1-0c5537d00338
-
 ms.date: 12/05/2018
 ms.keywords: AddPlex, AddPlex method [VDS], AddPlex method [VDS],IVdsLun interface, IVdsLun interface [VDS],AddPlex method, IVdsLun.AddPlex, IVdsLun::AddPlex, base.ivdslun_addplex, vds/IVdsLun::AddPlex, vdshwprv/IVdsLun::AddPlex
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLun.AddPlex"
+f1_keywords:
+- vds/IVdsLun.AddPlex
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.AddPlex
+- IVdsLun.AddPlex
 targetos: Windows
 req.typenames: 
 req.redist: 

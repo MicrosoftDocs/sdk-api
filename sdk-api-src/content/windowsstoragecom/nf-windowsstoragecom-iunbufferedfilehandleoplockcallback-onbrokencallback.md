@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleOplockCallback.OnBrokenCallback
 title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback (windowsstoragecom.h)
-
 description: Runs when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
 old-location: winrt\iunbufferedfilehandleoplockcallback_onbrokencallback.htm
 tech.root: WinRT
 ms.assetid: F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60
-
 ms.date: 12/05/2018
 ms.keywords: IUnbufferedFileHandleOplockCallback interface [Windows Runtime],OnBrokenCallback method, IUnbufferedFileHandleOplockCallback.OnBrokenCallback, IUnbufferedFileHandleOplockCallback::OnBrokenCallback, OnBrokenCallback, OnBrokenCallback method [Windows Runtime], OnBrokenCallback method [Windows Runtime],IUnbufferedFileHandleOplockCallback interface, windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback, winrt.iunbufferedfilehandleoplockcallback_onbrokencallback
 ms.topic: method
-f1_keywords: 
- - "windowsstoragecom/IUnbufferedFileHandleOplockCallback.OnBrokenCallback"
+f1_keywords:
+- windowsstoragecom/IUnbufferedFileHandleOplockCallback.OnBrokenCallback
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IUnbufferedFileHandleOplockCallback.OnBrokenCallback
+- IUnbufferedFileHandleOplockCallback.OnBrokenCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

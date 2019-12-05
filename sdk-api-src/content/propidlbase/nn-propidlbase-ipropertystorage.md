@@ -1,19 +1,17 @@
 ---
 UID: NN:propidlbase.IPropertyStorage
 title: IPropertyStorage (propidlbase.h)
-
 description: The IPropertyStorage interface manages the persistent properties of a single property set.
 old-location: stg\ipropertystorage.htm
 tech.root: Stg
 ms.assetid: c021f695-db54-4861-9f30-35a81d2dccd5
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage, IPropertyStorage interface [Structured Storage], IPropertyStorage interface [Structured Storage],described, _stg_ipropertystorage, propidl/IPropertyStorage, stg.ipropertystorage
 ms.topic: interface
-f1_keywords: 
- - "propidlbase/IPropertyStorage"
+f1_keywords:
+- propidlbase/IPropertyStorage
 dev_langs:
- - c++
+- c++
 req.header: propidlbase.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage
+- IPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

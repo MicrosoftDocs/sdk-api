@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDeleteFile
 title: EngDeleteFile function (winddi.h)
-
 description: The EngDeleteFile function deletes a file.
 old-location: display\engdeletefile.htm
 tech.root: display
 ms.assetid: 2ed030cf-6d26-4bde-8d63-83fd6848ec0d
-
 ms.date: 12/05/2018
 ms.keywords: EngDeleteFile, EngDeleteFile function [Display Devices], display.engdeletefile, gdifncs_58a3395d-8a58-4a8a-b034-5dadc2dfc161.xml, winddi/EngDeleteFile
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeleteFile"
+f1_keywords:
+- winddi/EngDeleteFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeleteFile
+- EngDeleteFile
 targetos: Windows
 req.typenames: 
 req.redist: 

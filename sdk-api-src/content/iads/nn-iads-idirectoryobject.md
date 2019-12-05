@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IDirectoryObject
 title: IDirectoryObject (iads.h)
-
 description: The IDirectoryObject interface is a non-Automation COM interface that provides clients with direct access to directory service objects.
 old-location: adsi\idirectoryobject.htm
 tech.root: adsi
 ms.assetid: bc4f8920-2881-4393-bb01-ed837c3db6ad
-
 ms.date: 12/05/2018
 ms.keywords: IDirectoryObject, IDirectoryObject interface [ADSI], IDirectoryObject interface [ADSI],described, _ds_idirectoryobject_ref, adsi.idirectoryobject, adsi.idirectoryobject__ref, iads/IDirectoryObject
 ms.topic: interface
-f1_keywords: 
- - "iads/IDirectoryObject"
+f1_keywords:
+- iads/IDirectoryObject
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IDirectoryObject
+- IDirectoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CERT_BIOMETRIC_EXT_INFO
 title: CERT_BIOMETRIC_EXT_INFO (wincrypt.h)
-
 description: Contains a set of biometric information.
 old-location: security\cert_biometric_ext_info.htm
 tech.root: SecCrypto
 ms.assetid: b2a877e1-2be2-428c-bc47-ec5ce6cef7e6
-
 ms.date: 12/05/2018
 ms.keywords: '*PCERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO, CERT_BIOMETRIC_EXT_INFO structure [Security], PCERT_BIOMETRIC_EXT_INFO, PCERT_BIOMETRIC_EXT_INFO structure pointer [Security], security.cert_biometric_ext_info, wincrypt/CERT_BIOMETRIC_EXT_INFO, wincrypt/PCERT_BIOMETRIC_EXT_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CERT_BIOMETRIC_EXT_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

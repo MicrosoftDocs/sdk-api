@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.RegisterApplicationRestart
 title: RegisterApplicationRestart function (winbase.h)
-
 description: Registers the active instance of an application for restart.
 old-location: recovery\registerapplicationrestart.htm
 tech.root: Recovery
 ms.assetid: f4cd25b3-2aee-460f-9f9f-b45ecded094f
-
 ms.date: 12/05/2018
 ms.keywords: RESTART_NO_CRASH, RESTART_NO_HANG, RESTART_NO_PATCH, RESTART_NO_REBOOT, RegisterApplicationRestart, RegisterApplicationRestart function [Recovery], base.registerapplicationrestart, recovery.registerapplicationrestart, winbase/RegisterApplicationRestart
 ms.topic: function
-f1_keywords: 
- - "winbase/RegisterApplicationRestart"
+f1_keywords:
+- winbase/RegisterApplicationRestart
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ext-ms-win-kernel32-windowserrorreporting-l1-1-1.dll
- - werapiexthost.dll
+- Kernel32.dll
+- ext-ms-win-kernel32-windowserrorreporting-l1-1-1.dll
+- werapiexthost.dll
 api_name:
- - RegisterApplicationRestart
+- RegisterApplicationRestart
 targetos: Windows
 req.typenames: 
 req.redist: 

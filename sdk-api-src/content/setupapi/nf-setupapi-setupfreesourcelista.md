@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupFreeSourceListA
 title: SetupFreeSourceListA function (setupapi.h)
-
 description: The SetupFreeSourceList function frees the system resources allocated to a source list.
 old-location: setup\setupfreesourcelist.htm
 tech.root: SetupApi
 ms.assetid: ac326a2c-df67-4a3e-9290-663f84027a48
-
 ms.date: 12/05/2018
 ms.keywords: SetupFreeSourceList, SetupFreeSourceList function [Setup API], SetupFreeSourceListA, SetupFreeSourceListW, _setupapi_setupfreesourcelist, setup.setupfreesourcelist, setupapi/SetupFreeSourceList, setupapi/SetupFreeSourceListA, setupapi/SetupFreeSourceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupFreeSourceList"
+f1_keywords:
+- setupapi/SetupFreeSourceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupFreeSourceList
- - SetupFreeSourceListA
- - SetupFreeSourceListW
+- SetupFreeSourceList
+- SetupFreeSourceListA
+- SetupFreeSourceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

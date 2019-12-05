@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesGhostInfo.IsGhosted
 title: IOfflineFilesGhostInfo::IsGhosted (cscobj.h)
-
 description: Determines whether the item is ghosted.
 old-location: of\iofflinefilesghostinfo_isghosted.htm
 tech.root: offlinefiles
 ms.assetid: b2e8ca73-4186-4971-b5be-41ecfc6b5e4a
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesGhostInfo interface [Offline Files],IsGhosted method, IOfflineFilesGhostInfo.IsGhosted, IOfflineFilesGhostInfo::IsGhosted, IsGhosted, IsGhosted method [Offline Files], IsGhosted method [Offline Files],IOfflineFilesGhostInfo interface, cscobj/IOfflineFilesGhostInfo::IsGhosted, of.iofflinefilesghostinfo_isghosted
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesGhostInfo.IsGhosted"
+f1_keywords:
+- cscobj/IOfflineFilesGhostInfo.IsGhosted
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesGhostInfo.IsGhosted
+- IOfflineFilesGhostInfo.IsGhosted
 targetos: Windows
 req.typenames: 
 req.redist: 

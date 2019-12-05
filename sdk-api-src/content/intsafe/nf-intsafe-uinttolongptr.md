@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntToLongPtr
 title: UIntToLongPtr function (intsafe.h)
-
 description: Converts a value of type UINT to a value of type LONG_PTR.
 old-location: shell\UIntToLongPtr.htm
 tech.root: shell
 ms.assetid: bf26b6da-ecc6-4ee0-9da8-54fa0261427a
-
 ms.date: 12/05/2018
 ms.keywords: UIntToLongPtr, UIntToLongPtr function [Windows Shell], UIntToSSIZET, _shell_UIntToLongPtr, intsafe/UIntToLongPtr, shell.UIntToLongPtr
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntToLongPtr"
+f1_keywords:
+- intsafe/UIntToLongPtr
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntToLongPtr
+- UIntToLongPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

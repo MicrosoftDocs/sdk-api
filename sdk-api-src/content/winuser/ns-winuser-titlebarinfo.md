@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagTITLEBARINFO
 title: TITLEBARINFO (winuser.h)
-
 description: Contains title bar information.
 old-location: winmsg\titlebarinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\titlebarinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTITLEBARINFO, *PTITLEBARINFO, LPTITLEBARINFO, LPTITLEBARINFO structure pointer [Windows and Messages], PTITLEBARINFO, PTITLEBARINFO structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFO, TITLEBARINFO structure [Windows and Messages], _win32_TITLEBARINFO_str, _win32_titlebarinfo_str_cpp, winmsg.titlebarinfo, winui._win32_titlebarinfo_str, winuser/LPTITLEBARINFO, winuser/PTITLEBARINFO, winuser/TITLEBARINFO"
+ms.keywords: '*LPTITLEBARINFO, *PTITLEBARINFO, LPTITLEBARINFO, LPTITLEBARINFO structure pointer [Windows and Messages], PTITLEBARINFO, PTITLEBARINFO structure pointer [Windows and Messages], STATE_SYSTEM_FOCUSABLE, STATE_SYSTEM_INVISIBLE, STATE_SYSTEM_OFFSCREEN, STATE_SYSTEM_PRESSED, STATE_SYSTEM_UNAVAILABLE, TITLEBARINFO, TITLEBARINFO structure [Windows and Messages], _win32_TITLEBARINFO_str, _win32_titlebarinfo_str_cpp, winmsg.titlebarinfo, winui._win32_titlebarinfo_str, winuser/LPTITLEBARINFO, winuser/PTITLEBARINFO, winuser/TITLEBARINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/TITLEBARINFO"
+f1_keywords:
+- winuser/TITLEBARINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - TITLEBARINFO
+- TITLEBARINFO
 targetos: Windows
 req.typenames: TITLEBARINFO, *PTITLEBARINFO, *LPTITLEBARINFO
 req.redist: 

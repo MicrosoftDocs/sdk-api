@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace5.HasVariations
 title: IDWriteFontFace5::HasVariations
-
 description: Determines whether this font face's resource supports any variable axes.
 tech.root: DirectWrite
-
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontFace5 interface [Direct Write],HasVariations method, IDWriteFontFace5.HasVariations, IDWriteFontFace5::HasVariations, HasVariations, HasVariations method [Direct Write], HasVariations method [Direct Write],IDWriteFontFace5 interface, directwrite.idwritefontface5_hasvariations, dwrite_3/IDWriteFontFace5::HasVariations
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace5.HasVariations"
+f1_keywords:
+- dwrite_3/IDWriteFontFace5.HasVariations
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontFace5::HasVariations
+- IDWriteFontFace5::HasVariations
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetPrevVisible
 title: TreeView_GetPrevVisible macro (commctrl.h)
-
 description: Retrieves the first visible item that precedes a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PREVIOUSVISIBLE flag.
 old-location: controls\TreeView_GetPrevVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getprevvisible.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetPrevVisible, TreeView_GetPrevVisible macro [Windows Controls], _win32_TreeView_GetPrevVisible, _win32_TreeView_GetPrevVisible_cpp, commctrl/TreeView_GetPrevVisible, controls.TreeView_GetPrevVisible, controls._win32_TreeView_GetPrevVisible
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetPrevVisible"
+f1_keywords:
+- commctrl/TreeView_GetPrevVisible
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetPrevVisible
+- TreeView_GetPrevVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

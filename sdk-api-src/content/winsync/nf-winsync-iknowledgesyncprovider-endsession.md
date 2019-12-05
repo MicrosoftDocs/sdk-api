@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.EndSession
 title: IKnowledgeSyncProvider::EndSession (winsync.h)
-
 description: Notifies the provider that a synchronization session to which it was enlisted has finished.
 old-location: winsync\iknowledgesyncprovider_endsession.htm
 tech.root: winsync
 ms.assetid: b726c902-6ccb-4c73-85f1-7256b92ef7e2
-
 ms.date: 12/05/2018
 ms.keywords: EndSession, EndSession method [Windows Sync], EndSession method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],EndSession method, IKnowledgeSyncProvider.EndSession, IKnowledgeSyncProvider::EndSession, winsync.iknowledgesyncprovider_endsession, winsync/IKnowledgeSyncProvider::EndSession
 ms.topic: method
-f1_keywords: 
- - "winsync/IKnowledgeSyncProvider.EndSession"
+f1_keywords:
+- winsync/IKnowledgeSyncProvider.EndSession
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IKnowledgeSyncProvider.EndSession
+- IKnowledgeSyncProvider.EndSession
 targetos: Windows
 req.typenames: 
 req.redist: 

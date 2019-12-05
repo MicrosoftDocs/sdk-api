@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_89
 title: WS_OPERATION_STYLE (webservices.h)
-
 description: An enumeration of the different operation styles.
 old-location: wsw\ws_operation_style.htm
 tech.root: wsw
 ms.assetid: c0cc2c3c-5050-444a-95e9-2cfb0e755253
-
 ms.date: 12/05/2018
 ms.keywords: WS_NON_RPC_LITERAL_OPERATION, WS_OPERATION_STYLE, WS_OPERATION_STYLE enumeration [Web Services for Windows], WS_RPC_LITERAL_OPERATION, webservices/WS_NON_RPC_LITERAL_OPERATION, webservices/WS_OPERATION_STYLE, webservices/WS_RPC_LITERAL_OPERATION, wsw.ws_operation_style
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_OPERATION_STYLE"
+f1_keywords:
+- webservices/WS_OPERATION_STYLE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_OPERATION_STYLE
+- WS_OPERATION_STYLE
 targetos: Windows
 req.typenames: WS_OPERATION_STYLE
 req.redist: 

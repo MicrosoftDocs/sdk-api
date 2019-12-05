@@ -1,19 +1,17 @@
 ---
 UID: NN:vmr9.IVMRImageCompositor9
 title: IVMRImageCompositor9 (vmr9.h)
-
 description: The IVMRImageCompositor9 interface is implemented by the default compositor for the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrimagecompositor9.htm
 tech.root: DirectShow
 ms.assetid: 19fda7f2-000f-47d0-a7c7-d8421de418a2
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor9, IVMRImageCompositor9 interface [DirectShow], IVMRImageCompositor9 interface [DirectShow],described, IVMRImageCompositor9Interface, dshow.ivmrimagecompositor9, vmr9/IVMRImageCompositor9
 ms.topic: interface
-f1_keywords: 
- - "vmr9/IVMRImageCompositor9"
+f1_keywords:
+- vmr9/IVMRImageCompositor9
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImageCompositor9
+- IVMRImageCompositor9
 targetos: Windows
 req.typenames: 
 req.redist: 

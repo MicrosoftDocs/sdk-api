@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._MPR_CREDENTIALSEX_0
 title: MPR_CREDENTIALSEX_0 (mprapi.h)
-
 description: The MPR_CREDENTIALSEX_0 structure contains extended credentials information such as the information used by Extensible Authentication Protocols (EAPs).
 old-location: rras\mpr_credentialsex_0.htm
 tech.root: RRAS
 ms.assetid: a1524c6e-3a94-4fc1-be28-bcaca8bcc62e
-
 ms.date: 12/05/2018
-ms.keywords: "*PMPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 structure [RAS], PMPR_CREDENTIALSEX_0, PMPR_CREDENTIALSEX_0 structure pointer [RAS], _MPR_CREDENTIALSEX_0, _mpr_mpr_credentialsex_0, mprapi/MPR_CREDENTIALSEX_0, mprapi/PMPR_CREDENTIALSEX_0, rras.mpr_credentialsex_0"
+ms.keywords: '*PMPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 structure [RAS], PMPR_CREDENTIALSEX_0, PMPR_CREDENTIALSEX_0 structure pointer [RAS], _MPR_CREDENTIALSEX_0, _mpr_mpr_credentialsex_0, mprapi/MPR_CREDENTIALSEX_0, mprapi/PMPR_CREDENTIALSEX_0, rras.mpr_credentialsex_0'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/MPR_CREDENTIALSEX_0"
+f1_keywords:
+- mprapi/MPR_CREDENTIALSEX_0
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MPR_CREDENTIALSEX_0
+- MPR_CREDENTIALSEX_0
 targetos: Windows
 req.typenames: MPR_CREDENTIALSEX_0, *PMPR_CREDENTIALSEX_0
 req.redist: 

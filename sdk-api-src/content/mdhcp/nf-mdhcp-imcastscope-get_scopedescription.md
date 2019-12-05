@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastScope.get_ScopeDescription
 title: IMcastScope::get_ScopeDescription (mdhcp.h)
-
 description: The get_ScopeDescription method obtains a textual description associated with this scope. The description is used only for clarifying the purpose or meaning of a scope and is not needed for any subsequent calls.
 old-location: tapi3\imcastscope_get_scopedescription.htm
 tech.root: Tapi
 ms.assetid: e675ba4a-8e5f-42a6-8edf-9b136cf9dd46
-
 ms.date: 12/05/2018
 ms.keywords: IMcastScope interface [TAPI 2.2],get_ScopeDescription method, IMcastScope.get_ScopeDescription, IMcastScope::get_ScopeDescription, _tapi3_imcastscope_get_scopedescription, get_ScopeDescription, get_ScopeDescription method [TAPI 2.2], get_ScopeDescription method [TAPI 2.2],IMcastScope interface, mdhcp/IMcastScope::get_ScopeDescription, tapi3.imcastscope_get_scopedescription
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastScope.get_ScopeDescription"
+f1_keywords:
+- mdhcp/IMcastScope.get_ScopeDescription
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastScope.get_ScopeDescription
+- IMcastScope.get_ScopeDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

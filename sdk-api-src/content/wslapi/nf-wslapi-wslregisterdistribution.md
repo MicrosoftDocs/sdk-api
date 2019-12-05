@@ -1,19 +1,17 @@
 ---
 UID: NF:wslapi.WslRegisterDistribution
 title: WslRegisterDistribution function (wslapi.h)
-
 description: Registers a new distribution with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslregisterdistribution.htm
 tech.root: wsl
 ms.assetid: 34D5D38D-A155-42DE-9E9B-2BD7E414E4EC
-
 ms.date: 12/05/2018
 ms.keywords: WslRegisterDistribution, WslRegisterDistribution function, wsl.wslregisterdistribution, wslapi/WslRegisterDistribution
 ms.topic: function
-f1_keywords: 
- - "wslapi/WslRegisterDistribution"
+f1_keywords:
+- wslapi/WslRegisterDistribution
 dev_langs:
- - c++
+- c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wslapi.lib
 req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-wsl-api-l1-1-0.dll
+- api-ms-win-wsl-api-l1-1-0.dll
 api_name:
- - WslRegisterDistribution
+- WslRegisterDistribution
 targetos: Windows
 req.typenames: 
 req.redist: 

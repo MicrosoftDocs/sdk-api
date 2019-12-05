@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.SeekAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Instructs the DMR asynchronously to seek to a particular time offset.
 old-location: mediastreaming\imediarenderer_seekasync.htm
 tech.root: mediastreaming
 ms.assetid: 3179A942-7756-4763-A2F8-629D89D39542
-
 ms.date: 12/05/2018
 ms.keywords: IMediaRenderer interface [Media Streaming API],SeekAsync method, IMediaRenderer.SeekAsync, IMediaRenderer.streaming, IMediaRenderer::SeekAsync, IMediaRenderer::streaming, SeekAsync, SeekAsync method [Media Streaming API], SeekAsync method [Media Streaming API],IMediaRenderer interface, mediastreaming.imediarenderer_seekasync, windows/IMediaRenderer::SeekAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.SeekAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.SeekAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.SeekAsync
+- IMediaRenderer.SeekAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

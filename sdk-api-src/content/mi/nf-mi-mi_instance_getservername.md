@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Instance_GetServerName
 title: MI_Instance_GetServerName function (mi.h)
-
 description: Gets the server name from the specified instance.
 old-location: wmi_v2\mi_instance_getservername.htm
 tech.root: wmi_v2
 ms.assetid: 773b2cb9-9296-4da9-8c13-288524bfccd5
-
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_GetServerName, MI_Instance_GetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetServerName, wmi_v2.mi_instance_getservername
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_GetServerName
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

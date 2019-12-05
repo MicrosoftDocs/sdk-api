@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComUserEvent.OnUserEvent
 title: IComUserEvent::OnUserEvent (comsvcs.h)
-
 description: Provided for user components to generate user-defined events.
 old-location: cos\icomuserevent_onuserevent.htm
 tech.root: cossdk
 ms.assetid: 3c14bf53-7466-4cb0-b90f-681796e40fd3
-
 ms.date: 12/05/2018
 ms.keywords: IComUserEvent interface [COM+],OnUserEvent method, IComUserEvent.OnUserEvent, IComUserEvent::OnUserEvent, OnUserEvent, OnUserEvent method [COM+], OnUserEvent method [COM+],IComUserEvent interface, _dtc_IComUserEvent_OnUserEvent, comsvcs/IComUserEvent::OnUserEvent, cos.icomuserevent_onuserevent
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComUserEvent.OnUserEvent"
+f1_keywords:
+- comsvcs/IComUserEvent.OnUserEvent
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComUserEvent.OnUserEvent
+- IComUserEvent.OnUserEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

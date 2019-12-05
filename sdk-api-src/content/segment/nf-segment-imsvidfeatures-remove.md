@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidFeatures.Remove
 title: IMSVidFeatures::Remove (segment.h)
-
 description: The Remove method removes an item from the collection.
 old-location: mstv\imsvidfeatures_remove.htm
 tech.root: mstv
 ms.assetid: 6a9e35e2-231e-4ad6-ac57-e6258df2777f
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],Remove method, IMSVidFeatures.Remove, IMSVidFeatures::Remove, IMSVidFeaturesRemove, Remove, Remove method [Microsoft TV Technologies], Remove method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_remove, segment/IMSVidFeatures::Remove
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidFeatures.Remove"
+f1_keywords:
+- segment/IMSVidFeatures.Remove
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFeatures.Remove
+- IMSVidFeatures.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

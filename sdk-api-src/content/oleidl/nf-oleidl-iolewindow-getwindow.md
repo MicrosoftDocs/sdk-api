@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleWindow.GetWindow
 title: IOleWindow::GetWindow (oleidl.h)
-
 description: Retrieves a handle to one of the windows participating in in-place activation (frame, document, parent, or in-place object window).
 old-location: com\iolewindow_getwindow.htm
 tech.root: com
 ms.assetid: 833adc81-be58-44a1-88f1-9aa28808e67b
-
 ms.date: 12/05/2018
 ms.keywords: GetWindow, GetWindow method [COM], GetWindow method [COM],IOleWindow interface, IOleWindow interface [COM],GetWindow method, IOleWindow.GetWindow, IOleWindow::GetWindow, _ole_iolewindow_getwindow, com.iolewindow_getwindow, oleidl/IOleWindow::GetWindow
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleWindow.GetWindow"
+f1_keywords:
+- oleidl/IOleWindow.GetWindow
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleWindow.GetWindow
+- IOleWindow.GetWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

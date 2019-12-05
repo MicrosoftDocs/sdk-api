@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.Connect
 title: IDot11AdHocNetwork::Connect (adhoc.h)
-
 description: Connects to a previously created wireless ad hoc network.
 old-location: nwifi\idot11adhocnetwork_connect.htm
 tech.root: NativeWiFi
 ms.assetid: 3272e0fe-0844-4e02-bd5f-a1e1c656074d
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [NativeWIFI], Connect method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],Connect method, IDot11AdHocNetwork.Connect, IDot11AdHocNetwork::Connect, adhoc/IDot11AdHocNetwork::Connect, nwifi.idot11adhocnetwork_connect
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.Connect"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.Connect
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.Connect
+- IDot11AdHocNetwork.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IXDSCodecConfig.SetPauseBufferTime
 title: IXDSCodecConfig::SetPauseBufferTime (encdec.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\ixdscodecconfig_setpausebuffertime.htm
 tech.root: mstv
 ms.assetid: 46e71958-86bc-4649-a401-b16131dd6bbd
-
 ms.date: 12/05/2018
 ms.keywords: IXDSCodecConfig interface [Microsoft TV Technologies],SetPauseBufferTime method, IXDSCodecConfig.SetPauseBufferTime, IXDSCodecConfig::SetPauseBufferTime, IXDSCodecConfigSetPauseBufferTime, SetPauseBufferTime, SetPauseBufferTime method [Microsoft TV Technologies], SetPauseBufferTime method [Microsoft TV Technologies],IXDSCodecConfig interface, encdec/IXDSCodecConfig::SetPauseBufferTime, mstv.ixdscodecconfig_setpausebuffertime
 ms.topic: method
-f1_keywords: 
- - "encdec/IXDSCodecConfig.SetPauseBufferTime"
+f1_keywords:
+- encdec/IXDSCodecConfig.SetPauseBufferTime
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IXDSCodecConfig.SetPauseBufferTime
+- IXDSCodecConfig.SetPauseBufferTime
 targetos: Windows
 req.typenames: 
 req.redist: 

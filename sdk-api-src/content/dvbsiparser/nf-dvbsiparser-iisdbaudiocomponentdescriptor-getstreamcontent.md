@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetStreamContent
 title: IIsdbAudioComponentDescriptor::GetStreamContent (dvbsiparser.h)
-
 description: Gets the value of the stream_content field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This field contains a code that identifies the descriptor as an ISDB audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getstreamcontent.htm
 tech.root: mstv
 ms.assetid: 1283c029-d1f5-4da8-a0fe-c795b4cd093c
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamContent, GetStreamContent method [Microsoft TV Technologies], GetStreamContent method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetStreamContent method, IIsdbAudioComponentDescriptor.GetStreamContent, IIsdbAudioComponentDescriptor::GetStreamContent, dvbsiparser/IIsdbAudioComponentDescriptor::GetStreamContent, mstv.iisdbaudiocomponentdescriptor_getstreamcontent
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbAudioComponentDescriptor.GetStreamContent"
+f1_keywords:
+- dvbsiparser/IIsdbAudioComponentDescriptor.GetStreamContent
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor.GetStreamContent
+- IIsdbAudioComponentDescriptor.GetStreamContent
 targetos: Windows
 req.typenames: 
 req.redist: 

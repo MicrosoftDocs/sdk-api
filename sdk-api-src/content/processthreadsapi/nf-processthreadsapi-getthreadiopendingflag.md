@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetThreadIOPendingFlag
 title: GetThreadIOPendingFlag function (processthreadsapi.h)
-
 description: Determines whether a specified thread has any I/O requests pending.
 old-location: base\getthreadiopendingflag.htm
 tech.root: ProcThread
 ms.assetid: 5502f735-38f5-44a4-908d-1b421ee66aec
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadIOPendingFlag, GetThreadIOPendingFlag function, base.getthreadiopendingflag, processthreadsapi/GetThreadIOPendingFlag
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetThreadIOPendingFlag"
+f1_keywords:
+- processthreadsapi/GetThreadIOPendingFlag
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - GetThreadIOPendingFlag
+- GetThreadIOPendingFlag
 targetos: Windows
 req.typenames: 
 req.redist: 

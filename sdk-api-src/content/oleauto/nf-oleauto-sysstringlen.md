@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SysStringLen
 title: SysStringLen function (oleauto.h)
-
 description: Returns the length of a BSTR.
 old-location: automat\sysstringlen.htm
 tech.root: automat
 ms.assetid: 65e792af-f8a8-4cdc-a279-494bba59394a
-
 ms.date: 12/05/2018
 ms.keywords: SysStringLen, SysStringLen function [Automation], _oa96_SysStringLen, automat.sysstringlen, oleauto/SysStringLen
 ms.topic: function
-f1_keywords: 
- - "oleauto/SysStringLen"
+f1_keywords:
+- oleauto/SysStringLen
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SysStringLen
+- SysStringLen
 targetos: Windows
 req.typenames: 
 req.redist: 

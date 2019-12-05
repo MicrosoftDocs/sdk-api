@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfMouseTrackerACP
 title: ITfMouseTrackerACP (msctf.h)
-
 description: The ITfMouseTrackerACP interface is implemented by an application to support mouse event sinks.
 old-location: tsf\itfmousetrackeracp.htm
 tech.root: TSF
 ms.assetid: 6761cf80-60b1-4c3a-8c3f-f040fab60f24
-
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTrackerACP, ITfMouseTrackerACP interface [Text Services Framework], ITfMouseTrackerACP interface [Text Services Framework],described, _tsf_itfmousetrackeracp_ref, msctf/ITfMouseTrackerACP, tsf.itfmousetrackeracp
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfMouseTrackerACP"
+f1_keywords:
+- msctf/ITfMouseTrackerACP
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMouseTrackerACP
+- ITfMouseTrackerACP
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

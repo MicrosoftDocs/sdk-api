@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWCWizardCallback.AddWizardPage
 title: IWCWizardCallback::AddWizardPage (cluadmex.h)
-
 description: Adds a property page to a Failover Cluster Administrator Wizard.
 old-location: mscs\iwcwizardcallback_addwizardpage.htm
 tech.root: MsCS
 ms.assetid: e5ce7798-c1e6-47b6-a1bf-1262b3511b22
-
 ms.date: 12/05/2018
 ms.keywords: AddWizardPage, AddWizardPage method [Failover Cluster], AddWizardPage method [Failover Cluster],IWCWizardCallback interface, IWCWizardCallback interface [Failover Cluster],AddWizardPage method, IWCWizardCallback.AddWizardPage, IWCWizardCallback::AddWizardPage, _wolf_iwcwizardcallback_addwizardpage, cluadmex/IWCWizardCallback::AddWizardPage, mscs.iwcwizardcallback_addwizardpage
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWCWizardCallback.AddWizardPage"
+f1_keywords:
+- cluadmex/IWCWizardCallback.AddWizardPage
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWCWizardCallback.AddWizardPage
+- IWCWizardCallback.AddWizardPage
 targetos: Windows
 req.typenames: 
 req.redist: 

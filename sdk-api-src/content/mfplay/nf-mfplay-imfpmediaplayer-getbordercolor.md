@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetBorderColor
 title: IMFPMediaPlayer::GetBorderColor (mfplay.h)
-
 description: Gets the current color of the video border.
 old-location: mf\imfpmediaplayer_getbordercolor.htm
 tech.root: medfound
 ms.assetid: a07bacbd-3d45-4733-a506-3c54ec10b634
-
 ms.date: 12/05/2018
 ms.keywords: GetBorderColor, GetBorderColor method [Media Foundation], GetBorderColor method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetBorderColor method, IMFPMediaPlayer.GetBorderColor, IMFPMediaPlayer::GetBorderColor, mf.imfpmediaplayer_getbordercolor, mfplay/IMFPMediaPlayer::GetBorderColor
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.GetBorderColor"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.GetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.GetBorderColor
+- IMFPMediaPlayer.GetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

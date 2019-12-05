@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.SetCreationClassName
 title: Provider::SetCreationClassName (provider.h)
-
 description: The SetCreationClassName method sets the CreationClassName string property, if any, of the given instance to the name of this provider.
 old-location: wmi\provider_setcreationclassname.htm
 tech.root: WmiSdk
 ms.assetid: 0a02e767-95b7-42cb-ab82-66e2d28342fc
-
 ms.date: 12/05/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],SetCreationClassName method, Provider.SetCreationClassName, Provider::SetCreationClassName, SetCreationClassName, SetCreationClassName method [Windows Management Instrumentation], SetCreationClassName method [Windows Management Instrumentation],Provider interface, _hmm_provider_setcreationclassname, provider/Provider::SetCreationClassName, wmi.provider_setcreationclassname
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.SetCreationClassName"
+f1_keywords:
+- provider/Provider.SetCreationClassName
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.SetCreationClassName
+- Provider.SetCreationClassName
 targetos: Windows
 req.typenames: 
 req.redist: 

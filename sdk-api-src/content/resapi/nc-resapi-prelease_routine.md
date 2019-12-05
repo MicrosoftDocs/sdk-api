@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PRELEASE_ROUTINE
 title: PRELEASE_ROUTINE (resapi.h)
-
 description: Releases the quorum resource from arbitration.
 old-location: mscs\release.htm
 tech.root: MsCS
 ms.assetid: 9e8e4557-b223-4f8f-9393-67f589181754
-
 ms.date: 12/05/2018
 ms.keywords: PRELEASE_ROUTINE, PRELEASE_ROUTINE callback, Release, Release callback function [Failover Cluster], _wolf_release, mscs.release, resapi/PRELEASE_ROUTINE, resapi/Release
 ms.topic: callback
-f1_keywords: 
- - "resapi/Release"
+f1_keywords:
+- resapi/Release
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - Release
+- Release
 targetos: Windows
 req.typenames: 
 req.redist: 

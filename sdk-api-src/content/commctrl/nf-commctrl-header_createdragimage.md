@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_CreateDragImage
 title: Header_CreateDragImage macro (commctrl.h)
-
 description: Creates a transparent version of an item image within an existing header control. You can use this macro or send the HDM_CREATEDRAGIMAGE message explicitly.
 old-location: controls\Header_CreateDragImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_createdragimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_CreateDragImage, Header_CreateDragImage macro [Windows Controls], _win32_Header_CreateDragImage, _win32_Header_CreateDragImage_cpp, commctrl/Header_CreateDragImage, controls.Header_CreateDragImage, controls._win32_Header_CreateDragImage
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_CreateDragImage"
+f1_keywords:
+- commctrl/Header_CreateDragImage
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_CreateDragImage
+- Header_CreateDragImage
 targetos: Windows
 req.typenames: 
 req.redist: 

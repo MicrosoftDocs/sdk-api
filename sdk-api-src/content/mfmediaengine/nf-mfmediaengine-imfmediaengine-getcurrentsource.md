@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetCurrentSource
 title: IMFMediaEngine::GetCurrentSource (mfmediaengine.h)
-
 description: Gets the URL of the current media resource, or an empty string if no media resource is present.
 old-location: mf\imfmediaengine_getcurrentsource.htm
 tech.root: medfound
 ms.assetid: 04C4281D-20ED-49B3-B00C-14ECF1E3BDE1
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSource, GetCurrentSource method [Media Foundation], GetCurrentSource method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentSource method, IMFMediaEngine.GetCurrentSource, IMFMediaEngine::GetCurrentSource, mf.imfmediaengine_getcurrentsource, mfmediaengine/IMFMediaEngine::GetCurrentSource
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetCurrentSource"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetCurrentSource
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetCurrentSource
+- IMFMediaEngine.GetCurrentSource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.ObjectFromLresult
 title: ObjectFromLresult function (oleacc.h)
-
 description: Retrieves a requested interface pointer for an accessible object based on a previously generated object reference.
 old-location: winauto\objectfromlresult.htm
 tech.root: WinAuto
 ms.assetid: 97e766fd-e142-40d1-aba7-408b45d33426
-
 ms.date: 12/05/2018
 ms.keywords: ObjectFromLresult, ObjectFromLresult function [Windows Accessibility], _msaa_ObjectFromLresult, msaa.objectfromlresult, oleacc/ObjectFromLresult, winauto.objectfromlresult
 ms.topic: function
-f1_keywords: 
- - "oleacc/ObjectFromLresult"
+f1_keywords:
+- oleacc/ObjectFromLresult
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
- - ext-ms-win-oleacc-l1-1-1.dll
+- Oleacc.dll
+- ext-ms-win-oleacc-l1-1-1.dll
 api_name:
- - ObjectFromLresult
+- ObjectFromLresult
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

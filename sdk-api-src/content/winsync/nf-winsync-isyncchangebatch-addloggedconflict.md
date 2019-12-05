@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatch.AddLoggedConflict
 title: ISyncChangeBatch::AddLoggedConflict (winsync.h)
-
 description: Adds metadata that represents a conflict to the change batch.
 old-location: winsync\isyncchangebatch_addloggedconflict.htm
 tech.root: winsync
 ms.assetid: e7f83c35-754a-4211-b893-2df6f65266a6
-
 ms.date: 12/05/2018
 ms.keywords: AddLoggedConflict, AddLoggedConflict method [Windows Sync], AddLoggedConflict method [Windows Sync],ISyncChangeBatch interface, ISyncChangeBatch interface [Windows Sync],AddLoggedConflict method, ISyncChangeBatch.AddLoggedConflict, ISyncChangeBatch::AddLoggedConflict, winsync.isyncchangebatch_addloggedconflict, winsync/ISyncChangeBatch::AddLoggedConflict
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatch.AddLoggedConflict"
+f1_keywords:
+- winsync/ISyncChangeBatch.AddLoggedConflict
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatch.AddLoggedConflict
+- ISyncChangeBatch.AddLoggedConflict
 targetos: Windows
 req.typenames: 
 req.redist: 

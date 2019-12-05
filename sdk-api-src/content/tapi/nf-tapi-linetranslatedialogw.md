@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineTranslateDialogW
 title: lineTranslateDialogW function (tapi.h)
-
 description: The lineTranslateDialog function displays an application-modal dialog box that allows the user to change the current location of a phone number about to be dialed, adjust location and calling card parameters, and see the effect.
 old-location: tapi2\linetranslatedialog.htm
 tech.root: Tapi
 ms.assetid: c9fd7abb-3b4b-442b-badc-371a12724f67
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog"
+ms.keywords: _tapi2_linetranslatedialog, lineTranslateDialog, lineTranslateDialog function [TAPI 2.2], lineTranslateDialogA, lineTranslateDialogW, tapi/lineTranslateDialog, tapi/lineTranslateDialogA, tapi/lineTranslateDialogW, tapi2.linetranslatedialog
 ms.topic: function
-f1_keywords: 
- - "tapi/lineTranslateDialog"
+f1_keywords:
+- tapi/lineTranslateDialog
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineTranslateDialog
- - lineTranslateDialogA
- - lineTranslateDialogW
+- lineTranslateDialog
+- lineTranslateDialogA
+- lineTranslateDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 

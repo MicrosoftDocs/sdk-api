@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchProtocol.CloseAccessor
 title: ISearchProtocol::CloseAccessor (searchapi.h)
-
 description: Closes a previously created IUrlAccessor object.
 old-location: search\_search_ISearchProtocol_CloseAccessor.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol\closeaccessor.htm
-
 ms.date: 12/05/2018
 ms.keywords: CloseAccessor, CloseAccessor method [search], CloseAccessor method [search],ISearchProtocol interface, ISearchProtocol interface [search],CloseAccessor method, ISearchProtocol.CloseAccessor, ISearchProtocol::CloseAccessor, _search_ISearchProtocol_CloseAccessor, search._search_ISearchProtocol_CloseAccessor, searchapi/ISearchProtocol::CloseAccessor
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchProtocol.CloseAccessor"
+f1_keywords:
+- searchapi/ISearchProtocol.CloseAccessor
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocol.CloseAccessor
+- ISearchProtocol.CloseAccessor
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509AttributeRenewalCertificate
 title: IX509AttributeRenewalCertificate (certenroll.h)
-
-description: Represents an attribute that contains the certificate being renewed. This attribute is automatically placed in the PKCS #10 attribute collection when you call the Encode method.
+description: Represents an attribute that contains the certificate being renewed. This attribute is automatically placed in the PKCS
 old-location: security\ix509attributerenewalcertificate.htm
 tech.root: seccertenroll
 ms.assetid: fc432a7a-6ef7-4359-bb53-1ed5df6bc0ab
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeRenewalCertificate, IX509AttributeRenewalCertificate interface [Security], IX509AttributeRenewalCertificate interface [Security],described, certenroll/IX509AttributeRenewalCertificate, security.ix509attributerenewalcertificate
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509AttributeRenewalCertificate"
+f1_keywords:
+- certenroll/IX509AttributeRenewalCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeRenewalCertificate
+- IX509AttributeRenewalCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

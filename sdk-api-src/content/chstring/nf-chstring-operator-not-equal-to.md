@@ -3,14 +3,13 @@ UID: NF:chstring.operator-not-equal-to
 title: operator!=
 description: 
 ms.assetid: 5ab84140-31c8-4759-aaee-f79408e7d61c
-
 ms.date: 05/20/2019
 ms.keywords: operator!=
 ms.topic: language-reference
-f1_keywords: 
- - "chstring/operator!="
+f1_keywords:
+- chstring/operator!=
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - chstring.h
+- chstring.h
 api_name:
- - operator!=
+- operator!=
 ---
 
 # operator!=

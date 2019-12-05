@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMConvertFloatToHalfStream
 title: XMConvertFloatToHalfStream function (directxpackedvector.h)
-
 description: Converts a stream of single-precision floating-point values to a stream of half-precision floating-point values.
 old-location: dxmath\xmconvertfloattohalfstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.conversion.XMConvertFloatToHalfStream(HALF@,uint32_t,const float,uint32_t,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMConvertFloatToHalfStream, XMConvertFloatToHalfStream, XMConvertFloatToHalfStream method [DirectX Math Support APIs], dxmath.xmconvertfloattohalfstream
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMConvertFloatToHalfStream"
+f1_keywords:
+- directxpackedvector/XMConvertFloatToHalfStream
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.h
+- directxpackedvector.h
 api_name:
- - XMConvertFloatToHalfStream
+- XMConvertFloatToHalfStream
 targetos: Windows
 req.typenames: 
 req.redist: 

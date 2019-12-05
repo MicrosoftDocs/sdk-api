@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagTPMPARAMS
 title: TPMPARAMS (winuser.h)
-
 description: Contains extended parameters for the TrackPopupMenuEx function.
 old-location: menurc\tpmparams.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menustructures\tpmparams.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTPMPARAMS, LPTPMPARAMS, LPTPMPARAMS structure pointer [Menus and Other Resources], TPMPARAMS, TPMPARAMS structure [Menus and Other Resources], _win32_TPMPARAMS_str, _win32_tpmparams_str_cpp, menurc.tpmparams, winui._win32_tpmparams_str, winuser/LPTPMPARAMS, winuser/TPMPARAMS"
+ms.keywords: '*LPTPMPARAMS, LPTPMPARAMS, LPTPMPARAMS structure pointer [Menus and Other Resources], TPMPARAMS, TPMPARAMS structure [Menus and Other Resources], _win32_TPMPARAMS_str, _win32_tpmparams_str_cpp, menurc.tpmparams, winui._win32_tpmparams_str, winuser/LPTPMPARAMS, winuser/TPMPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/TPMPARAMS"
+f1_keywords:
+- winuser/TPMPARAMS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - TPMPARAMS
+- TPMPARAMS
 targetos: Windows
 req.typenames: TPMPARAMS
 req.redist: 

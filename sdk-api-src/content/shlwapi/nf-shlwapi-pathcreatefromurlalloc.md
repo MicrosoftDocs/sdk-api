@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlAlloc
 title: PathCreateFromUrlAlloc function (shlwapi.h)
-
 description: Creates a path from a file URL.
 old-location: shell\PathCreateFromUrlAlloc.htm
 tech.root: shell
 ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd
-
 ms.date: 12/05/2018
 ms.keywords: PathCreateFromUrlAlloc, PathCreateFromUrlAlloc function [Windows Shell], _shell_PathCreateFromUrlAlloc, shell.PathCreateFromUrlAlloc, shlwapi/PathCreateFromUrlAlloc
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathCreateFromUrlAlloc"
+f1_keywords:
+- shlwapi/PathCreateFromUrlAlloc
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathCreateFromUrlAlloc
+- PathCreateFromUrlAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.put_Branding
 title: IFaxOutgoingQueue::put_Branding (faxcomex.h)
-
 description: The IFaxOutgoingQueue::get_Branding property is a Boolean value that indicates whether the fax service generates a brand (banner) at the top of outgoing fax transmissions.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_branding_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8acn.htm
-
 ms.date: 12/05/2018
 ms.keywords: Branding property [Fax Service], Branding property [Fax Service],IFaxOutgoingQueue interface, IFaxOutgoingQueue interface [Fax Service],Branding property, IFaxOutgoingQueue.Branding, IFaxOutgoingQueue.put_Branding, IFaxOutgoingQueue::Branding, IFaxOutgoingQueue::get_Branding, IFaxOutgoingQueue::put_Branding, _mfax_faxoutgoingqueue.branding, fax._mfax_faxoutgoingqueue_branding, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_branding_cpp, faxcomex/IFaxOutgoingQueue::Branding, faxcomex/IFaxOutgoingQueue::get_Branding, faxcomex/IFaxOutgoingQueue::put_Branding, put_Branding
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingQueue.Branding"
+f1_keywords:
+- faxcomex/IFaxOutgoingQueue.Branding
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.Branding
- - IFaxOutgoingQueue.get_Branding
- - IFaxOutgoingQueue.put_Branding
+- IFaxOutgoingQueue.Branding
+- IFaxOutgoingQueue.get_Branding
+- IFaxOutgoingQueue.put_Branding
 targetos: Windows
 req.typenames: 
 req.redist: 

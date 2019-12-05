@@ -1,19 +1,17 @@
 ---
 UID: NE:appmodel.AppPolicyProcessTerminationMethod
 title: AppPolicyProcessTerminationMethod (appmodel.h)
-
 description: The AppPolicyProcessTerminationMethod enumeration indicates the method used to end a process.
 old-location: appxpkg\apppolicyprocessterminationmethod_enumeration.htm
 tech.root: appxpkg
 ms.assetid: 874B576A-1AB5-4712-BF04-0406E5FE4923
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyProcessTerminationMethod, AppPolicyProcessTerminationMethod enumeration [App packaging and management], AppPolicyProcessTerminationMethod_ExitProcess, AppPolicyProcessTerminationMethod_TerminateProcess, appmodel/AppPolicyProcessTerminationMethod, appmodel/AppPolicyProcessTerminationMethod_ExitProcess, appmodel/AppPolicyProcessTerminationMethod_TerminateProcess, appxpkg.apppolicyprocessterminationmethod_enumeration
 ms.topic: enum
-f1_keywords: 
- - "appmodel/AppPolicyProcessTerminationMethod"
+f1_keywords:
+- appmodel/AppPolicyProcessTerminationMethod
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - AppPolicyProcessTerminationMethod
+- AppPolicyProcessTerminationMethod
 targetos: Windows
 req.typenames: AppPolicyProcessTerminationMethod
 req.redist: 

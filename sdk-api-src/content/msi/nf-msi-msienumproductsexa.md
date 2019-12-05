@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumProductsExA
 title: MsiEnumProductsExA function (msi.h)
-
 description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.
 old-location: setup\msienumproductsex.htm
 tech.root: Msi
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854
-
 ms.date: 12/05/2018
 ms.keywords: MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiEnumProductsEx, MsiEnumProductsEx function, MsiEnumProductsExA, MsiEnumProductsExW, NULL, User SID, msi/MsiEnumProductsEx, msi/MsiEnumProductsExA, msi/MsiEnumProductsExW, s-1-1-0, setup.msienumproductsex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumProductsEx"
+f1_keywords:
+- msi/MsiEnumProductsEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumProductsEx
- - MsiEnumProductsExA
- - MsiEnumProductsExW
+- MsiEnumProductsEx
+- MsiEnumProductsExA
+- MsiEnumProductsExW
 targetos: Windows
 req.typenames: 
 req.redist: 

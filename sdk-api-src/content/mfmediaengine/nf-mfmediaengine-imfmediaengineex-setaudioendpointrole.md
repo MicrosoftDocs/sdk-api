@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetAudioEndpointRole
 title: IMFMediaEngineEx::SetAudioEndpointRole (mfmediaengine.h)
-
 description: Sets the audio device endpoint used for the next call to SetSource or Load.
 old-location: mf\imfmediaengineex_setaudioendpointrole.htm
 tech.root: medfound
 ms.assetid: 00fd78ce-e046-40a0-8bad-f4a1e1f517bb
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineEx interface [Media Foundation],SetAudioEndpointRole method, IMFMediaEngineEx.SetAudioEndpointRole, IMFMediaEngineEx::SetAudioEndpointRole, SetAudioEndpointRole, SetAudioEndpointRole method [Media Foundation], SetAudioEndpointRole method [Media Foundation],IMFMediaEngineEx interface, mf.imfmediaengineex_setaudioendpointrole, mfmediaengine/IMFMediaEngineEx::SetAudioEndpointRole
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.SetAudioEndpointRole"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.SetAudioEndpointRole
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.SetAudioEndpointRole
+- IMFMediaEngineEx.SetAudioEndpointRole
 targetos: Windows
 req.typenames: 
 req.redist: 

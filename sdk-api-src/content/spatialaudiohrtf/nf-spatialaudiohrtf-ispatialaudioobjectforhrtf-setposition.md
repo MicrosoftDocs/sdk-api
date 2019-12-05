@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetPosition
 title: ISpatialAudioObjectForHrtf::SetPosition (spatialaudiohrtf.h)
-
 description: Sets the position in 3D space, relative to the listener, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
 old-location: coreaudio\ispatialaudioobjectforhrtf_setposition.htm
 tech.root: CoreAudio
 ms.assetid: 4FB6852D-A793-43A1-A58F-E7DCFDB5BBDD
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetPosition method, ISpatialAudioObjectForHrtf.SetPosition, ISpatialAudioObjectForHrtf::SetPosition, SetPosition, SetPosition method [Core Audio], SetPosition method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setposition, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetPosition
 ms.topic: method
-f1_keywords: 
- - "spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetPosition"
+f1_keywords:
+- spatialaudiohrtf/ISpatialAudioObjectForHrtf.SetPosition
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf.SetPosition
+- ISpatialAudioObjectForHrtf.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

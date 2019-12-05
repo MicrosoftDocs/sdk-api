@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagTOGGLEKEYS
 title: TOGGLEKEYS (winuser.h)
-
 description: Contains information about the ToggleKeys accessibility feature.
 old-location: winauto\togglekeys.htm
 tech.root: WinAuto
 ms.assetid: 85ebc8c2-ac0b-45f2-aee5-11ec4ba582b7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTOGGLEKEYS, LPTOGGLEKEYS, LPTOGGLEKEYS structure pointer [Windows Accessibility], TKF_AVAILABLE, TKF_CONFIRMHOTKEY, TKF_HOTKEYACTIVE, TKF_HOTKEYSOUND, TKF_INDICATOR, TKF_TOGGLEKEYSON, TOGGLEKEYS, TOGGLEKEYS structure [Windows Accessibility], _win32_TOGGLEKEYS_str, msaa.togglekeys, tagTOGGLEKEYS, winauto.togglekeys, winuser/LPTOGGLEKEYS, winuser/TOGGLEKEYS"
+ms.keywords: '*LPTOGGLEKEYS, LPTOGGLEKEYS, LPTOGGLEKEYS structure pointer [Windows Accessibility], TKF_AVAILABLE, TKF_CONFIRMHOTKEY, TKF_HOTKEYACTIVE, TKF_HOTKEYSOUND, TKF_INDICATOR, TKF_TOGGLEKEYSON, TOGGLEKEYS, TOGGLEKEYS structure [Windows Accessibility], _win32_TOGGLEKEYS_str, msaa.togglekeys, tagTOGGLEKEYS, winauto.togglekeys, winuser/LPTOGGLEKEYS, winuser/TOGGLEKEYS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/TOGGLEKEYS"
+f1_keywords:
+- winuser/TOGGLEKEYS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - TOGGLEKEYS
+- TOGGLEKEYS
 targetos: Windows
 req.typenames: TOGGLEKEYS, *LPTOGGLEKEYS
 req.redist: 

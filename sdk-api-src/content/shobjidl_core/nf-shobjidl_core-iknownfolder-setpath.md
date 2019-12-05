@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.SetPath
 title: IKnownFolder::SetPath (shobjidl_core.h)
-
 description: Assigns a new path to a known folder.
 old-location: shell\IKnownFolder_SetPath.htm
 tech.root: shell
 ms.assetid: 235f69de-3571-4184-aa52-b409fbc1d643
-
 ms.date: 12/05/2018
 ms.keywords: IKnownFolder interface [Windows Shell],SetPath method, IKnownFolder.SetPath, IKnownFolder::SetPath, KF_FLAG_DONT_UNEXPAND, SetPath, SetPath method [Windows Shell], SetPath method [Windows Shell],IKnownFolder interface, _shell_IKnownFolder_SetPath, shell.IKnownFolder_SetPath, shobjidl_core/IKnownFolder::SetPath
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolder.SetPath"
+f1_keywords:
+- shobjidl_core/IKnownFolder.SetPath
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IKnownFolder.SetPath
+- IKnownFolder.SetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.RemoveTrustee
 title: IGPMSecurityInfo::RemoveTrustee (gpmgmt.h)
-
 description: Removes all policy-related permissions for the specified trustee. A trustee is a user, computer, or security group that can be granted permissions on a GPO, SOM, or WMI filter.
 old-location: gpmc\igpmsecurityinfo_removetrustee.htm
 tech.root: gpmc
 ms.assetid: e290648d-f480-4834-93a3-4759da581611
-
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo class [GPMC],RemoveTrustee method, IGPMSecurityInfo interface [GPMC],RemoveTrustee method, IGPMSecurityInfo.RemoveTrustee, IGPMSecurityInfo::RemoveTrustee, RemoveTrustee, RemoveTrustee method [GPMC], RemoveTrustee method [GPMC],GPMSecurityInfo class, RemoveTrustee method [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_removetrustee, gpmc.igpmsecurityinfo_removetrustee, gpmgmt/IGPMSecurityInfo::RemoveTrustee
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSecurityInfo.RemoveTrustee"
+f1_keywords:
+- gpmgmt/IGPMSecurityInfo.RemoveTrustee
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo.RemoveTrustee
- - GPMSecurityInfo.RemoveTrustee
+- IGPMSecurityInfo.RemoveTrustee
+- GPMSecurityInfo.RemoveTrustee
 targetos: Windows
 req.typenames: 
 req.redist: 

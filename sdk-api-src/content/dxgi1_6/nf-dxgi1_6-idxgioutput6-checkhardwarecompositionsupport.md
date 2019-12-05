@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_6.IDXGIOutput6.CheckHardwareCompositionSupport
 title: IDXGIOutput6::CheckHardwareCompositionSupport (dxgi1_6.h)
-
 description: Notifies applications that hardware stretching is supported.
 old-location: direct3ddxgi\idxgioutput6_checkhardwarecompositionsupport.htm
 tech.root: direct3ddxgi
 ms.assetid: 1FFB01F3-9C12-41CE-9CF6-F130CC65A7DC
-
 ms.date: 12/05/2018
 ms.keywords: CheckHardwareCompositionSupport, CheckHardwareCompositionSupport method [DXGI], CheckHardwareCompositionSupport method [DXGI],IDXGIOutput6 interface, IDXGIOutput6 interface [DXGI],CheckHardwareCompositionSupport method, IDXGIOutput6.CheckHardwareCompositionSupport, IDXGIOutput6::CheckHardwareCompositionSupport, direct3ddxgi.idxgioutput6_checkhardwarecompositionsupport, dxgi1_6/IDXGIOutput6::CheckHardwareCompositionSupport
 ms.topic: method
-f1_keywords: 
- - "dxgi1_6/IDXGIOutput6.CheckHardwareCompositionSupport"
+f1_keywords:
+- dxgi1_6/IDXGIOutput6.CheckHardwareCompositionSupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput6.CheckHardwareCompositionSupport
+- IDXGIOutput6.CheckHardwareCompositionSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutCreateEnumHandle0
 title: FwpmCalloutCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of callout objects.
 old-location: fwp\fwpmcalloutcreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: bd37eebb-8a07-4b67-9595-34cc96463254
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutCreateEnumHandle0, FwpmCalloutCreateEnumHandle0 function [Filtering], fwp.fwpmcalloutcreateenumhandle0_func, fwpmu/FwpmCalloutCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutCreateEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmCalloutCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutCreateEnumHandle0
+- FwpmCalloutCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.CheckCapabilities
 title: IMediaSeeking::CheckCapabilities (strmif.h)
-
 description: The CheckCapabilities method queries whether a stream has specified seeking capabilities.
 old-location: dshow\imediaseeking_checkcapabilities.htm
 tech.root: DirectShow
 ms.assetid: d0062f66-213d-4f91-9f73-780be39ee432
-
 ms.date: 12/05/2018
 ms.keywords: CheckCapabilities, CheckCapabilities method [DirectShow], CheckCapabilities method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],CheckCapabilities method, IMediaSeeking.CheckCapabilities, IMediaSeeking::CheckCapabilities, IMediaSeekingCheckCapabilities, dshow.imediaseeking_checkcapabilities, strmif/IMediaSeeking::CheckCapabilities
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.CheckCapabilities"
+f1_keywords:
+- strmif/IMediaSeeking.CheckCapabilities
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.CheckCapabilities
+- IMediaSeeking.CheckCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

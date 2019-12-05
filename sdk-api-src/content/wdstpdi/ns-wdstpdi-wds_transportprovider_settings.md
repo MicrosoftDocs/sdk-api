@@ -1,19 +1,17 @@
 ---
 UID: NS:wdstpdi._WDS_TRANSPORTPROVIDER_SETTINGS
 title: WDS_TRANSPORTPROVIDER_SETTINGS (wdstpdi.h)
-
 description: This structure is used by the WdsTransportProviderInitialize callback function.
 old-location: wds\wds_transportprovider_settings.htm
 tech.root: wds
 ms.assetid: 334e86f2-97fa-4f64-93a4-b6aed6212eb1
-
 ms.date: 12/05/2018
-ms.keywords: "*PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_SETTINGS, WDS_TRANSPORTPROVIDER_SETTINGS structure [Windows Deployment Services], wds.wds_transportprovider_settings, wdstpdi/PWDS_TRANSPORTPROVIDER_SETTINGS, wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS"
+ms.keywords: '*PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS, PWDS_TRANSPORTPROVIDER_SETTINGS structure pointer [Windows Deployment Services], WDS_TRANSPORTPROVIDER_SETTINGS, WDS_TRANSPORTPROVIDER_SETTINGS structure [Windows Deployment Services], wds.wds_transportprovider_settings, wdstpdi/PWDS_TRANSPORTPROVIDER_SETTINGS, wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS"
+f1_keywords:
+- wdstpdi/WDS_TRANSPORTPROVIDER_SETTINGS
 dev_langs:
- - c++
+- c++
 req.header: wdstpdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdstpdi.h
+- Wdstpdi.h
 api_name:
- - WDS_TRANSPORTPROVIDER_SETTINGS
+- WDS_TRANSPORTPROVIDER_SETTINGS
 targetos: Windows
 req.typenames: WDS_TRANSPORTPROVIDER_SETTINGS, *PWDS_TRANSPORTPROVIDER_SETTINGS
 req.redist: 

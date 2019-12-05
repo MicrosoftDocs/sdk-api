@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_BackColor
 title: IMSVidCtl::get_BackColor (msvidctl.h)
-
 description: The get_BackColor method retrieves the background color of the Video Control.
 old-location: mstv\imsvidctl_get_backcolor.htm
 tech.root: mstv
 ms.assetid: 1f67f1f9-e4e1-47fc-a92d-b6dfb65e7ec9
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_BackColor method, IMSVidCtl.get_BackColor, IMSVidCtl::get_BackColor, IMSVidCtlget_BackColor, get_BackColor, get_BackColor method [Microsoft TV Technologies], get_BackColor method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_backcolor, msvidctl/IMSVidCtl::get_BackColor
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_BackColor"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_BackColor
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_BackColor
+- IMSVidCtl.get_BackColor
 targetos: Windows
 req.typenames: 
 req.redist: 

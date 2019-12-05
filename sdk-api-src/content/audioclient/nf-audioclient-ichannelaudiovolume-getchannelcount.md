@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.GetChannelCount
 title: IChannelAudioVolume::GetChannelCount (audioclient.h)
-
 description: The GetChannelCount method retrieves the number of channels in the stream format for the audio session.
 old-location: coreaudio\ichannelaudiovolume_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: e3149d02-b0a2-4bdd-af04-b94b063c784b
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IChannelAudioVolume interface, IChannelAudioVolume interface [Core Audio],GetChannelCount method, IChannelAudioVolume.GetChannelCount, IChannelAudioVolume::GetChannelCount, IChannelAudioVolumeGetChannelCount, audioclient/IChannelAudioVolume::GetChannelCount, coreaudio.ichannelaudiovolume_getchannelcount
 ms.topic: method
-f1_keywords: 
- - "audioclient/IChannelAudioVolume.GetChannelCount"
+f1_keywords:
+- audioclient/IChannelAudioVolume.GetChannelCount
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IChannelAudioVolume.GetChannelCount
+- IChannelAudioVolume.GetChannelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.EditWorkItem
 title: IScheduledWorkItem::EditWorkItem (mstask.h)
-
 description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.
 old-location: taskschd\ischeduledworkitem_editworkitem.htm
 tech.root: taskschd
 ms.assetid: 3b0b335a-4386-4726-8758-ef5944cb5dfe
-
 ms.date: 12/05/2018
 ms.keywords: EditWorkItem, EditWorkItem method [Task Scheduler], EditWorkItem method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],EditWorkItem method, IScheduledWorkItem.EditWorkItem, IScheduledWorkItem::EditWorkItem, _msb_ischeduledworkitem_editworkitem, mstask/IScheduledWorkItem::EditWorkItem, taskschd.ischeduledworkitem_editworkitem
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.EditWorkItem"
+f1_keywords:
+- mstask/IScheduledWorkItem.EditWorkItem
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.EditWorkItem
+- IScheduledWorkItem.EditWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

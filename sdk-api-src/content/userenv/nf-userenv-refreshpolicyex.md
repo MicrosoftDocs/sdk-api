@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.RefreshPolicyEx
 title: RefreshPolicyEx function (userenv.h)
-
 description: The RefreshPolicyEx function causes policy to be applied immediately on the computer. The extended function allows you to specify the type of policy refresh to apply.
 old-location: policy\refreshpolicyex.htm
 tech.root: Policy
 ms.assetid: 905ab96b-a7f2-4bb4-a539-385f78284644
-
 ms.date: 12/05/2018
 ms.keywords: RP_FORCE, RefreshPolicyEx, RefreshPolicyEx function [Group Policy], _win32_refreshpolicyex, policy.refreshpolicyex, userenv/RefreshPolicyEx
 ms.topic: function
-f1_keywords: 
- - "userenv/RefreshPolicyEx"
+f1_keywords:
+- userenv/RefreshPolicyEx
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - RefreshPolicyEx
+- RefreshPolicyEx
 targetos: Windows
 req.typenames: 
 req.redist: 

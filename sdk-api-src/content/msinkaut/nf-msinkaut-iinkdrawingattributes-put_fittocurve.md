@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDrawingAttributes.put_FitToCurve
 title: IInkDrawingAttributes::put_FitToCurve (msinkaut.h)
-
 description: Gets or sets the value that specifies whether Bezier smoothing is used to render ink.
 old-location: tablet\inkdrawingattributes_fittocurve.htm
 tech.root: tablet
 ms.assetid: 93b11903-84dd-4f7a-a47c-555d19fede8d
-
 ms.date: 12/05/2018
 ms.keywords: 93b11903-84dd-4f7a-a47c-555d19fede8d, FitToCurve property [Tablet PC], FitToCurve property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],FitToCurve property, IInkDrawingAttributes.FitToCurve, IInkDrawingAttributes.put_FitToCurve, IInkDrawingAttributes::FitToCurve, IInkDrawingAttributes::get_FitToCurve, IInkDrawingAttributes::put_FitToCurve, InkDrawingAttributes.get_FitToCurve, InkDrawingAttributes.put_FitToCurve, msinkaut/IInkDrawingAttributes::FitToCurve, msinkaut/IInkDrawingAttributes::get_FitToCurve, msinkaut/IInkDrawingAttributes::put_FitToCurve, put_FitToCurve, tablet.inkdrawingattributes_fittocurve
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDrawingAttributes.FitToCurve"
+f1_keywords:
+- msinkaut/IInkDrawingAttributes.FitToCurve
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes.FitToCurve
- - IInkDrawingAttributes.get_FitToCurve
- - IInkDrawingAttributes.put_FitToCurve
- - InkDrawingAttributes.get_FitToCurve
- - InkDrawingAttributes.put_FitToCurve
+- IInkDrawingAttributes.FitToCurve
+- IInkDrawingAttributes.get_FitToCurve
+- IInkDrawingAttributes.put_FitToCurve
+- InkDrawingAttributes.get_FitToCurve
+- InkDrawingAttributes.put_FitToCurve
 targetos: Windows
 req.typenames: 
 req.redist: 

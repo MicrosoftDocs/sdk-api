@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeSendReply
 title: PxeSendReply function (wdspxe.h)
-
 description: Sends a packet to a client request.
 old-location: wds\pxesendreply.htm
 tech.root: wds
 ms.assetid: b4809f0b-b8a5-45d1-b6ef-8f812379e706
-
 ms.date: 12/05/2018
 ms.keywords: PxeSendReply, PxeSendReply function [Windows Deployment Services], wds.pxesendreply, wdspxe/PxeSendReply
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeSendReply"
+f1_keywords:
+- wdspxe/PxeSendReply
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeSendReply
+- PxeSendReply
 targetos: Windows
 req.typenames: 
 req.redist: 

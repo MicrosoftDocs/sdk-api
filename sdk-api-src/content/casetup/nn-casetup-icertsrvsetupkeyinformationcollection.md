@@ -1,19 +1,17 @@
 ---
 UID: NN:casetup.ICertSrvSetupKeyInformationCollection
 title: ICertSrvSetupKeyInformationCollection (casetup.h)
-
 description: Defines functionality to populate and enumerate a collection of ICertSrvSetupKeyInformation objects.
 old-location: security\icertsrvsetupkeyinformationcollection.htm
 tech.root: SecCrypto
 ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformationCollection, ICertSrvSetupKeyInformationCollection interface [Security], ICertSrvSetupKeyInformationCollection interface [Security],described, casetup/ICertSrvSetupKeyInformationCollection, security.icertsrvsetupkeyinformationcollection
 ms.topic: interface
-f1_keywords: 
- - "casetup/ICertSrvSetupKeyInformationCollection"
+f1_keywords:
+- casetup/ICertSrvSetupKeyInformationCollection
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformationCollection
+- ICertSrvSetupKeyInformationCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

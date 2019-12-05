@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowClosing
 title: IUIManagerEventSink::OnWindowClosing (ctffunc.h)
-
 description: Called by the TSF before closing the IME UI.
 old-location: tsf\iuimanagereventsink_onwindowclosing.htm
 tech.root: TSF
 ms.assetid: 1350286D-522D-4549-B69C-31874352AEAD
-
 ms.date: 12/05/2018
 ms.keywords: IUIManagerEventSink interface [Text Services Framework],OnWindowClosing method, IUIManagerEventSink.OnWindowClosing, IUIManagerEventSink::OnWindowClosing, OnWindowClosing, OnWindowClosing method [Text Services Framework], OnWindowClosing method [Text Services Framework],IUIManagerEventSink interface, ctffunc/IUIManagerEventSink::OnWindowClosing, tsf.iuimanagereventsink_onwindowclosing
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IUIManagerEventSink.OnWindowClosing"
+f1_keywords:
+- ctffunc/IUIManagerEventSink.OnWindowClosing
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - IUIManagerEventSink.OnWindowClosing
+- IUIManagerEventSink.OnWindowClosing
 targetos: Windows
 req.typenames: 
 req.redist: 

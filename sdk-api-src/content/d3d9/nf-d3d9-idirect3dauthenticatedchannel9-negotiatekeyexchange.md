@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.NegotiateKeyExchange
 title: IDirect3DAuthenticatedChannel9::NegotiateKeyExchange (d3d9.h)
-
 description: Establishes a session key for the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_negotiatekeyexchange.htm
 tech.root: medfound
 ms.assetid: 35605d35-76c9-43d7-a022-6db6af179c41
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DAuthenticatedChannel9 interface [Media Foundation],NegotiateKeyExchange method, IDirect3DAuthenticatedChannel9.NegotiateKeyExchange, IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, NegotiateKeyExchange, NegotiateKeyExchange method [Media Foundation], NegotiateKeyExchange method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, d3d9/IDirect3DAuthenticatedChannel9::NegotiateKeyExchange, mf.idirect3dauthenticatedchannel9_negotiatekeyexchange
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DAuthenticatedChannel9.NegotiateKeyExchange"
+f1_keywords:
+- d3d9/IDirect3DAuthenticatedChannel9.NegotiateKeyExchange
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DAuthenticatedChannel9.NegotiateKeyExchange
+- IDirect3DAuthenticatedChannel9.NegotiateKeyExchange
 targetos: Windows
 req.typenames: 
 req.redist: 

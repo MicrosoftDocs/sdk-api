@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtOpenChannelEnum
 title: EvtOpenChannelEnum function (winevt.h)
-
 description: Gets a handle that you use to enumerate the list of channels that are registered on the computer.
 old-location: wes\evtopenchannelenum.htm
 tech.root: wes
 ms.assetid: eb077b0c-1ae6-40ae-becc-98d840302e6f
-
 ms.date: 12/05/2018
 ms.keywords: EvtOpenChannelEnum, EvtOpenChannelEnum function [EventLog], wes.evtopenchannelenum, winevt/EvtOpenChannelEnum
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtOpenChannelEnum"
+f1_keywords:
+- winevt/EvtOpenChannelEnum
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtOpenChannelEnum
+- EvtOpenChannelEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

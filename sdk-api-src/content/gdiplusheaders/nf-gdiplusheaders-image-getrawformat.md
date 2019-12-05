@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetRawFormat
 title: Image::GetRawFormat (gdiplusheaders.h)
-
 description: The Image::GetRawFormat method gets a globally unique identifier ( GUID) that identifies the format of this Image object. GUIDs that identify various file formats are defined in Gdiplusimaging.h.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetRawFormat_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getrawformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRawFormat, GetRawFormat method [GDI+], GetRawFormat method [GDI+],Image class, Image class [GDI+],GetRawFormat method, Image.GetRawFormat, Image::GetRawFormat, _gdiplus_CLASS_Image_GetRawFormat_format_, gdiplus._gdiplus_CLASS_Image_GetRawFormat_format_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetRawFormat"
+f1_keywords:
+- gdiplusheaders/Image.GetRawFormat
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetRawFormat
+- Image.GetRawFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

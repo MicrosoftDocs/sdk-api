@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiStreamStop
 title: midiStreamStop function (mmeapi.h)
-
 description: The midiStreamStop function turns off all notes on all MIDI channels for the specified MIDI output device.
 old-location: multimedia\midistreamstop.htm
 tech.root: Multimedia
 ms.assetid: cf91b50c-9be9-49a6-a52c-7a56467ec21a
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiStreamStop, midiStreamStop, midiStreamStop function [Windows Multimedia], mmeapi/midiStreamStop, multimedia.midistreamstop"
+ms.keywords: _win32_midiStreamStop, midiStreamStop, midiStreamStop function [Windows Multimedia], mmeapi/midiStreamStop, multimedia.midistreamstop
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiStreamStop"
+f1_keywords:
+- mmeapi/midiStreamStop
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiStreamStop
+- midiStreamStop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetObject
 title: IShellFolderView::GetObject (shlobj_core.h)
-
 description: Gets an item from the view.
 old-location: shell\IShellFolderView_GetObject.htm
 tech.root: shell
 ms.assetid: a231e92f-b467-4fd7-929d-92259272a734
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObject method, IShellFolderView.GetObject, IShellFolderView::GetObject, _shell_IShellFolderView_GetObject, shell.IShellFolderView_GetObject, shlobj_core/IShellFolderView::GetObject
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.GetObject"
+f1_keywords:
+- shlobj_core/IShellFolderView.GetObject
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - IShellFolderView.GetObject
+- IShellFolderView.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

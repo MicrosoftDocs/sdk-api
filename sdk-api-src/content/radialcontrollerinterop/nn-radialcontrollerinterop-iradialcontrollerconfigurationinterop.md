@@ -1,19 +1,17 @@
 ---
 UID: NN:radialcontrollerinterop.IRadialControllerConfigurationInterop
 title: IRadialControllerConfigurationInterop (radialcontrollerinterop.h)
-
 description: Enables interoperability with a Universal Windows Platform (UWP)&#160;RadialControllerConfiguration object and provides access to RadialControllerConfiguration members for customizing a RadialController menu.
 old-location: input_radial\iradialcontrollerconfigurationinterop.htm
 tech.root: Input_Radial
 ms.assetid: eb8672c1-a7e6-45f5-a61f-3bee67f5ff5e
-
 ms.date: 12/05/2018
 ms.keywords: IRadialControllerConfigurationInterop, IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,described, Input_Radial.iradialcontrollerconfigurationinterop, radialcontrollerinterop/IRadialControllerConfigurationInterop
 ms.topic: interface
-f1_keywords: 
- - "radialcontrollerinterop/IRadialControllerConfigurationInterop"
+f1_keywords:
+- radialcontrollerinterop/IRadialControllerConfigurationInterop
 dev_langs:
- - c++
+- c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RadialControllerInterop.h
+- RadialControllerInterop.h
 api_name:
- - IRadialControllerConfigurationInterop
+- IRadialControllerConfigurationInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

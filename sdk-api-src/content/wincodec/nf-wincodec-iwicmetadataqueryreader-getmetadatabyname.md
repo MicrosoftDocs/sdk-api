@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetMetadataByName
 title: IWICMetadataQueryReader::GetMetadataByName (wincodec.h)
-
 description: Retrieves the metadata block or item identified by a metadata query expression.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getmetadatabyname.htm
 tech.root: wic
 ms.assetid: 29d53a14-0509-4a96-9b8b-59952770559a
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataByName, GetMetadataByName method [Windows Imaging Component], GetMetadataByName method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetMetadataByName method, IWICMetadataQueryReader.GetMetadataByName, IWICMetadataQueryReader::GetMetadataByName, _wic_codec_iwicmetadataqueryreader_getmetadatabyname, wic._wic_codec_iwicmetadataqueryreader_getmetadatabyname, wincodec/IWICMetadataQueryReader::GetMetadataByName
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICMetadataQueryReader.GetMetadataByName"
+f1_keywords:
+- wincodec/IWICMetadataQueryReader.GetMetadataByName
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataQueryReader.GetMetadataByName
+- IWICMetadataQueryReader.GetMetadataByName
 targetos: Windows
 req.typenames: 
 req.redist: 

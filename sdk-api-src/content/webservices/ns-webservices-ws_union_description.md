@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_UNION_DESCRIPTION
 title: WS_UNION_DESCRIPTION (webservices.h)
-
 description: Information about the choices within a union type. This is used with WS_UNION_TYPE.
 old-location: wsw\ws_union_description.htm
 tech.root: wsw
 ms.assetid: 04eddc88-f0ba-4a0b-8078-12c0d955d055
-
 ms.date: 12/05/2018
 ms.keywords: WS_UNION_DESCRIPTION, WS_UNION_DESCRIPTION structure [Web Services for Windows], webservices/WS_UNION_DESCRIPTION, wsw.ws_union_description
 ms.topic: struct
 f1_keywords:
 - webservices/WS_UNION_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

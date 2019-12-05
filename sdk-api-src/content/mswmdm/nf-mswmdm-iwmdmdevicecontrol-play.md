@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.Play
 title: IWMDMDeviceControl::Play (mswmdm.h)
-
 description: The Play method begins playing at the current seek position. If the IWMDMDeviceControl::Seek method has not been called, then playing begins at the beginning of the first file, and the play length is not defined.
 old-location: wmdm\iwmdmdevicecontrol_play.htm
 tech.root: WMDM
 ms.assetid: e8d717e6-365c-44ad-b24e-daa3c35664de
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Play method, IWMDMDeviceControl.Play, IWMDMDeviceControl::Play, IWMDMDeviceControlPlay, Play, Play method [windows Media Device Manager], Play method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Play, wmdm.iwmdmdevicecontrol_play
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDeviceControl.Play"
+f1_keywords:
+- mswmdm/IWMDMDeviceControl.Play
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDeviceControl.Play
+- IWMDMDeviceControl.Play
 targetos: Windows
 req.typenames: 
 req.redist: 

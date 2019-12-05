@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleFlushClipboard
 title: OleFlushClipboard function (ole2.h)
-
 description: Carries out the clipboard shutdown sequence. It also releases the IDataObject pointer that was placed on the clipboard by the OleSetClipboard function.
 old-location: com\oleflushclipboard.htm
 tech.root: com
 ms.assetid: 18291a91-be7d-42ec-a44a-d1bbfb017c6e
-
 ms.date: 12/05/2018
 ms.keywords: OleFlushClipboard, OleFlushClipboard function [COM], _ole_OleFlushClipboard, com.oleflushclipboard, ole2/OleFlushClipboard
 ms.topic: function
-f1_keywords: 
- - "ole2/OleFlushClipboard"
+f1_keywords:
+- ole2/OleFlushClipboard
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
- - ie_shims.dll
- - ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
- - API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
+- Ole32.dll
+- API-MS-Win-RTCore-OLE32-clipboard-l1-1-0.dll
+- ie_shims.dll
+- ext-ms-win-ole32-clipboard-ie-l1-1-0.dll
+- API-MS-Win-RTCore-Ole32-Clipboard-L1-1-1.dll
 api_name:
- - OleFlushClipboard
+- OleFlushClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

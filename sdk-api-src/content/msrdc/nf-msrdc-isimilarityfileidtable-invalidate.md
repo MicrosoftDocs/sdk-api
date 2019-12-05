@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityFileIdTable.Invalidate
 title: ISimilarityFileIdTable::Invalidate (msrdc.h)
-
 description: Marks a file ID as not valid in the similarity file ID table.
 old-location: rdc\isimilarityfileidtable_invalidate.htm
 tech.root: rdc
 ms.assetid: fdd6ff92-d312-4789-b535-4859fa7c871c
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Invalidate method, ISimilarityFileIdTable.Invalidate, ISimilarityFileIdTable::Invalidate, Invalidate, Invalidate method [Remote Differential Compression], Invalidate method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_invalidate, msrdc/ISimilarityFileIdTable::Invalidate, rdc.isimilarityfileidtable_invalidate
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityFileIdTable.Invalidate"
+f1_keywords:
+- msrdc/ISimilarityFileIdTable.Invalidate
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityFileIdTable.Invalidate
+- ISimilarityFileIdTable.Invalidate
 targetos: Windows
 req.typenames: 
 req.redist: 

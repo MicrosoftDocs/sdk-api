@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.get__NetworkType
 title: ITuningSpace::get__NetworkType (tuner.h)
-
 description: The get_NetworkType method retrieves the network type for this tuning space.
 old-location: mstv\ituningspace_get__networktype.htm
 tech.root: mstv
 ms.assetid: 54cf0c5b-03fb-4419-976c-acc821dfc7e8
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],get__NetworkType method, ITuningSpace.get__NetworkType, ITuningSpace::get__NetworkType, ITuningSpaceget__NetworkType, get__NetworkType, get__NetworkType method [Microsoft TV Technologies], get__NetworkType method [Microsoft TV Technologies],ITuningSpace interface, mstv.ituningspace_get__networktype, tuner/ITuningSpace::get__NetworkType
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.get__NetworkType"
+f1_keywords:
+- tuner/ITuningSpace.get__NetworkType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.get__NetworkType
+- ITuningSpace.get__NetworkType
 targetos: Windows
 req.typenames: 
 req.redist: 

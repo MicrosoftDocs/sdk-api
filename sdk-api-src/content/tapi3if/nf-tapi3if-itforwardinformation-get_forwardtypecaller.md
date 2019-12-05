@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.get_ForwardTypeCaller
 title: ITForwardInformation::get_ForwardTypeCaller (tapi3if.h)
-
 description: The get_ForwardTypeCaller method gets the type of caller for a given forwarding mode.
 old-location: tapi3\itforwardinformation_get_forwardtypecaller.htm
 tech.root: Tapi
 ms.assetid: 3fca5b5c-dd1e-4c8d-878a-99a7e3ec45f9
-
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],get_ForwardTypeCaller method, ITForwardInformation.get_ForwardTypeCaller, ITForwardInformation::get_ForwardTypeCaller, _tapi3_itforwardinformation_get_forwardtypecaller, get_ForwardTypeCaller, get_ForwardTypeCaller method [TAPI 2.2], get_ForwardTypeCaller method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_get_forwardtypecaller, tapi3if/ITForwardInformation::get_ForwardTypeCaller
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation.get_ForwardTypeCaller"
+f1_keywords:
+- tapi3if/ITForwardInformation.get_ForwardTypeCaller
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation.get_ForwardTypeCaller
+- ITForwardInformation.get_ForwardTypeCaller
 targetos: Windows
 req.typenames: 
 req.redist: 

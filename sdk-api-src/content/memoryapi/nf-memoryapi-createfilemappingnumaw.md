@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.CreateFileMappingNumaW
 title: CreateFileMappingNumaW function (memoryapi.h)
-
 description: Creates or opens a named or unnamed file mapping object for a specified file and specifies the NUMA node for the physical memory.
 old-location: base\createfilemappingnuma.htm
 tech.root: Memory
 ms.assetid: d10ead2c-e8a1-4e41-9bcd-d9025dbba3ff
-
 ms.date: 12/05/2018
 ms.keywords: CreateFileMappingNuma, CreateFileMappingNuma function, CreateFileMappingNumaA, CreateFileMappingNumaW, NUMA_NO_PREFERRED_NODE, PAGE_EXECUTE_READ, PAGE_EXECUTE_READWRITE, PAGE_EXECUTE_WRITECOPY, PAGE_READONLY, PAGE_READWRITE, PAGE_WRITECOPY, SEC_COMMIT, SEC_IMAGE, SEC_IMAGE_NO_EXECUTE, SEC_LARGE_PAGES, SEC_NOCACHE, SEC_RESERVE, SEC_WRITECOMBINE, base.createfilemappingnuma, winbase/CreateFileMappingNuma, winbase/CreateFileMappingNumaA, winbase/CreateFileMappingNumaW
 ms.topic: function
-f1_keywords: 
- - "memoryapi/CreateFileMappingNuma"
+f1_keywords:
+- memoryapi/CreateFileMappingNuma
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - CreateFileMappingNuma
- - CreateFileMappingNumaA
- - CreateFileMappingNumaW
+- CreateFileMappingNuma
+- CreateFileMappingNumaA
+- CreateFileMappingNumaW
 targetos: Windows
 req.typenames: 
 req.redist: 

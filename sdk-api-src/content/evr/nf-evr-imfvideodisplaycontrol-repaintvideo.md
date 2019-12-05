@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.RepaintVideo
 title: IMFVideoDisplayControl::RepaintVideo (evr.h)
-
 description: Repaints the current video frame. Call this method whenever the application receives a WM_PAINT message.
 old-location: mf\imfvideodisplaycontrol_repaintvideo.htm
 tech.root: medfound
 ms.assetid: c8051883-2a48-4ca4-a7d2-c90d0d451cd2
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoDisplayControl interface [Media Foundation],RepaintVideo method, IMFVideoDisplayControl.RepaintVideo, IMFVideoDisplayControl::RepaintVideo, RepaintVideo, RepaintVideo method [Media Foundation], RepaintVideo method [Media Foundation],IMFVideoDisplayControl interface, c8051883-2a48-4ca4-a7d2-c90d0d451cd2, evr/IMFVideoDisplayControl::RepaintVideo, mf.imfvideodisplaycontrol_repaintvideo
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.RepaintVideo"
+f1_keywords:
+- evr/IMFVideoDisplayControl.RepaintVideo
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.RepaintVideo
+- IMFVideoDisplayControl.RepaintVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

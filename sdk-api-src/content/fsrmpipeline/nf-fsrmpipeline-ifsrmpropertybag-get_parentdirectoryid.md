@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_ParentDirectoryId
 title: IFsrmPropertyBag::get_ParentDirectoryId (fsrmpipeline.h)
-
 description: The NTFS identifier of the file's parent directory.
 old-location: fsrm\ifsrmpropertybag_parentdirectoryid.htm
 tech.root: fsrm
 ms.assetid: a62f9562-06ba-41bc-8450-300dd50ee728
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],ParentDirectoryId property, IFsrmPropertyBag.ParentDirectoryId, IFsrmPropertyBag.get_ParentDirectoryId, IFsrmPropertyBag::ParentDirectoryId, IFsrmPropertyBag::get_ParentDirectoryId, ParentDirectoryId property [File Server Resource Manager], ParentDirectoryId property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_parentdirectoryid, fsrm.ifsrmpropertybag_parentdirectoryid, fsrmpipeline/IFsrmPropertyBag::ParentDirectoryId, fsrmpipeline/IFsrmPropertyBag::get_ParentDirectoryId, get_ParentDirectoryId
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.ParentDirectoryId"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.ParentDirectoryId
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.ParentDirectoryId
- - IFsrmPropertyBag.get_ParentDirectoryId
+- IFsrmPropertyBag.ParentDirectoryId
+- IFsrmPropertyBag.get_ParentDirectoryId
 targetos: Windows
 req.typenames: 
 req.redist: 

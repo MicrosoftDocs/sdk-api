@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantGetDoubleElem
 title: PropVariantGetDoubleElem function (propvarutil.h)
-
 description: Extracts a single double element from a PROPVARIANT structure of type VT_R8, VT_VECTOR | VT_R8, or VT_ARRAY | VT_R8.
 old-location: properties\PropVariantGetDoubleElem.htm
 tech.root: properties
 ms.assetid: 387e23df-bfbd-42c0-adef-dc53ba95a9f2
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantGetDoubleElem, PropVariantGetDoubleElem function [Windows Properties], _shell_PropVariantGetDoubleElem, properties.PropVariantGetDoubleElem, propvarutil/PropVariantGetDoubleElem, shell.PropVariantGetDoubleElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantGetDoubleElem"
+f1_keywords:
+- propvarutil/PropVariantGetDoubleElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantGetDoubleElem
+- PropVariantGetDoubleElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

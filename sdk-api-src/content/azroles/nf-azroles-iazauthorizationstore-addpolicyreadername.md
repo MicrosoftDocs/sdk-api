@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddPolicyReaderName
 title: IAzAuthorizationStore::AddPolicyReaderName (azroles.h)
-
 description: Adds the specified account name to the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_addpolicyreadername.htm
 tech.root: SecAuthZ
 ms.assetid: 3b111542-61d6-4e5d-abf8-0af61161c885
-
 ms.date: 12/05/2018
 ms.keywords: AddPolicyReaderName, AddPolicyReaderName method [Security], AddPolicyReaderName method [Security],AzAuthorizationStore object, AddPolicyReaderName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReaderName method, IAzAuthorizationStore interface [Security],AddPolicyReaderName method, IAzAuthorizationStore.AddPolicyReaderName, IAzAuthorizationStore::AddPolicyReaderName, azroles/IAzAuthorizationStore::AddPolicyReaderName, security.azauthorizationstore_addpolicyreadername
 ms.topic: method
-f1_keywords: 
- - "azroles/AzAuthorizationStore.AddPolicyReaderName"
+f1_keywords:
+- azroles/AzAuthorizationStore.AddPolicyReaderName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - AzAuthorizationStore.AddPolicyReaderName
- - IAzAuthorizationStore.AddPolicyReaderName
+- AzAuthorizationStore.AddPolicyReaderName
+- IAzAuthorizationStore.AddPolicyReaderName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

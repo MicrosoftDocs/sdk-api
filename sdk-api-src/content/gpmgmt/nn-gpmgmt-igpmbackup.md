@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMBackup
 title: IGPMBackup (gpmgmt.h)
-
 description: The IGPMBackup interface supports methods that allow you to delete GPMBackup objects and to retrieve various properties of GPMBackup objects.
 old-location: gpmc\igpmbackup.htm
 tech.root: gpmc
 ms.assetid: a593740a-9541-465a-9a2d-64ddf29793bf
-
 ms.date: 12/05/2018
 ms.keywords: GPMBackup, IGPMBackup, IGPMBackup interface [GPMC], IGPMBackup interface [GPMC],described, _win32_igpmbackup, gpmc.igpmbackup, gpmgmt/IGPMBackup
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMBackup"
+f1_keywords:
+- gpmgmt/IGPMBackup
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMBackup
- - GPMBackup
+- IGPMBackup
+- GPMBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

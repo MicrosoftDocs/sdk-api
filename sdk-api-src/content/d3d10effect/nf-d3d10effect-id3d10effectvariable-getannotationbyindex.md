@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetAnnotationByIndex
 title: ID3D10EffectVariable::GetAnnotationByIndex (d3d10effect.h)
-
 description: Get an annotation by index.
 old-location: direct3d10\id3d10effectvariable_getannotationbyindex.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getannotationbyindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAnnotationByIndex, GetAnnotationByIndex method [Direct3D 10], GetAnnotationByIndex method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],GetAnnotationByIndex method, ID3D10EffectVariable.GetAnnotationByIndex, ID3D10EffectVariable::GetAnnotationByIndex, c60bf6b1-5d05-ec0d-545c-b26e3e436ab8, d3d10effect/ID3D10EffectVariable::GetAnnotationByIndex, direct3d10.id3d10effectvariable_getannotationbyindex
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.GetAnnotationByIndex"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.GetAnnotationByIndex
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.GetAnnotationByIndex
+- ID3D10EffectVariable.GetAnnotationByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

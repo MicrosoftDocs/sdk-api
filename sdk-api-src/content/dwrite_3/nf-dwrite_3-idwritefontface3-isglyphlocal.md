@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.IsGlyphLocal
 title: IDWriteFontFace3::IsGlyphLocal (dwrite_3.h)
-
 description: Determines whether the glyph is locally downloaded from the font.
 old-location: directwrite\idwritefontface3_isglyphlocal.htm
 tech.root: DirectWrite
 ms.assetid: def185b6-a717-5390-8521-46e38335800b
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsGlyphLocal method, IDWriteFontFace3.IsGlyphLocal, IDWriteFontFace3::IsGlyphLocal, IsGlyphLocal, IsGlyphLocal method [Direct Write], IsGlyphLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_isglyphlocal, dwrite_3/IDWriteFontFace3::IsGlyphLocal
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace3.IsGlyphLocal"
+f1_keywords:
+- dwrite_3/IDWriteFontFace3.IsGlyphLocal
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace3.IsGlyphLocal
+- IDWriteFontFace3.IsGlyphLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

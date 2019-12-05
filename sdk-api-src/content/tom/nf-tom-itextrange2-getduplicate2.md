@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.GetDuplicate2
 title: ITextRange2::GetDuplicate2 (tom.h)
-
 description: Gets a duplicate of a range object.
 old-location: controls\itextrange2_getduplicate2.htm
 tech.root: Controls
 ms.assetid: 6dce56b6-463a-49d4-8e4b-397e2841544c
-
 ms.date: 12/05/2018
 ms.keywords: GetDuplicate2, GetDuplicate2 method [Windows Controls], GetDuplicate2 method [Windows Controls],ITextRange2 interface, ITextRange2 interface [Windows Controls],GetDuplicate2 method, ITextRange2.GetDuplicate2, ITextRange2::GetDuplicate2, controls.itextrange2_getduplicate2, tom/ITextRange2::GetDuplicate2
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.GetDuplicate2"
+f1_keywords:
+- tom/ITextRange2.GetDuplicate2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.GetDuplicate2
+- ITextRange2.GetDuplicate2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEvent.SetProcessId
 title: ITraceEvent::SetProcessId (relogger.h)
-
 description: Assigns an event to a specific process.
 old-location: etw\ievent_setprocessid.htm
 tech.root: ETW
 ms.assetid: c2e5e6bf-cdff-42fa-9352-2f234f39849d
-
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent interface [ETW],SetProcessId method, ITraceEvent.SetProcessId, ITraceEvent::SetProcessId, SetProcessId, SetProcessId method [ETW], SetProcessId method [ETW],ITraceEvent interface, etw.ievent_setprocessid, relogger/ITraceEvent::SetProcessId
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEvent.SetProcessId"
+f1_keywords:
+- relogger/ITraceEvent.SetProcessId
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEvent.SetProcessId
+- ITraceEvent.SetProcessId
 targetos: Windows
 req.typenames: 
 req.redist: 

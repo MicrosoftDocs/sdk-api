@@ -1,19 +1,17 @@
 ---
 UID: NS:fwptypes.FWP_VALUE0_
 title: FWP_VALUE0 (fwptypes.h)
-
 description: Defines a data value that can be one of a number of different data types.
 old-location: fwp\fwp_value0_struct.htm
 tech.root: fwp
 ms.assetid: d3ffe19b-2c9b-4c7b-82c1-f9b846546212
-
 ms.date: 12/05/2018
 ms.keywords: FWP_VALUE0, FWP_VALUE0 structure [Filtering], fwp.fwp_value0_struct, fwptypes/FWP_VALUE0
 ms.topic: struct
 f1_keywords:
 - fwptypes/FWP_VALUE0
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows

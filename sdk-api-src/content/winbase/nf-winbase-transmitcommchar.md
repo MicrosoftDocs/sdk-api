@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.TransmitCommChar
 title: TransmitCommChar function (winbase.h)
-
 description: Transmits a specified character ahead of any pending data in the output buffer of the specified communications device.
 old-location: base\transmitcommchar.htm
 tech.root: devio
 ms.assetid: 599c3d04-6cd3-41ac-88a8-752f4b83d46b
-
 ms.date: 12/05/2018
 ms.keywords: TransmitCommChar, TransmitCommChar function, _win32_transmitcommchar, base.transmitcommchar, winbase/TransmitCommChar
 ms.topic: function
-f1_keywords: 
- - "winbase/TransmitCommChar"
+f1_keywords:
+- winbase/TransmitCommChar
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - TransmitCommChar
+- TransmitCommChar
 targetos: Windows
 req.typenames: 
 req.redist: 

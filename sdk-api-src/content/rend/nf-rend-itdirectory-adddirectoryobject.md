@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectory.AddDirectoryObject
 title: ITDirectory::AddDirectoryObject (rend.h)
-
 description: The AddDirectoryObject method adds an ITDirectoryObject object to the server. This may be a directory or a user machine mapping.
 old-location: tapi3\itdirectory_adddirectoryobject.htm
 tech.root: Tapi
 ms.assetid: 7a379bdc-50e3-4034-ac16-d20d1b03cd35
-
 ms.date: 12/05/2018
 ms.keywords: AddDirectoryObject, AddDirectoryObject method [TAPI 2.2], AddDirectoryObject method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],AddDirectoryObject method, ITDirectory.AddDirectoryObject, ITDirectory::AddDirectoryObject, _tapi3_itdirectory_adddirectoryobject, rend/ITDirectory::AddDirectoryObject, tapi3.itdirectory_adddirectoryobject
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectory.AddDirectoryObject"
+f1_keywords:
+- rend/ITDirectory.AddDirectoryObject
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectory.AddDirectoryObject
+- ITDirectory.AddDirectoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

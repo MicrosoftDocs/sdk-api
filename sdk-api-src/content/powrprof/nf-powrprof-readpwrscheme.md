@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.ReadPwrScheme
 title: ReadPwrScheme function (powrprof.h)
-
 description: Retrieves the power policy settings that are unique to the specified power scheme.
 old-location: base\readpwrscheme.htm
 tech.root: power
 ms.assetid: a8d93820-b652-4358-8039-8987fac95dca
-
 ms.date: 12/05/2018
 ms.keywords: ReadPwrScheme, ReadPwrScheme function, _win32_readpwrscheme, base.readpwrscheme, powrprof/ReadPwrScheme
 ms.topic: function
 f1_keywords:
 - powrprof/ReadPwrScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

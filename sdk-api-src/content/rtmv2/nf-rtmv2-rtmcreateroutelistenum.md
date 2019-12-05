@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmCreateRouteListEnum
 title: RtmCreateRouteListEnum function (rtmv2.h)
-
 description: The RtmCreateRouteListEnum function creates an enumeration of routes on the specified route list.
 old-location: rras\rtmcreateroutelistenum.htm
 tech.root: RRAS
 ms.assetid: 107fc253-58b3-479c-9cda-2c3b322e76f8
-
 ms.date: 12/05/2018
 ms.keywords: RtmCreateRouteListEnum, RtmCreateRouteListEnum function [RAS], _rtmv2ref_rtmcreateroutelistenum, rras.rtmcreateroutelistenum, rtmv2/RtmCreateRouteListEnum
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmCreateRouteListEnum"
+f1_keywords:
+- rtmv2/RtmCreateRouteListEnum
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmCreateRouteListEnum
+- RtmCreateRouteListEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioDescend
 title: mmioDescend function (mmiscapi.h)
-
 description: The mmioDescend function descends into a chunk of a RIFF file that was opened by using the mmioOpen function. It can also search for a given chunk.
 old-location: multimedia\mmiodescend.htm
 tech.root: Multimedia
 ms.assetid: 7ec730fc-3286-4b83-88ac-d59bda85a6ae
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioDescend, mmioDescend, mmioDescend function [Windows Multimedia], mmsystem/mmioDescend, multimedia.mmiodescend"
+ms.keywords: _win32_mmioDescend, mmioDescend, mmioDescend function [Windows Multimedia], mmsystem/mmioDescend, multimedia.mmiodescend
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioDescend"
+f1_keywords:
+- mmiscapi/mmioDescend
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioDescend
+- mmioDescend
 targetos: Windows
 req.typenames: 
 req.redist: 

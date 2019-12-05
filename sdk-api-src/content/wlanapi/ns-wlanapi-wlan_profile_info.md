@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_PROFILE_INFO
 title: WLAN_PROFILE_INFO (wlanapi.h)
-
 description: Basic information about a profile.
 old-location: nwifi\wlan_profile_info.htm
 tech.root: NativeWiFi
 ms.assetid: ca45278c-2e1e-4080-825a-d6a05e463858
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO, PWLAN_PROFILE_INFO structure pointer [NativeWIFI], WLAN_PROFILE_GROUP_POLICY, WLAN_PROFILE_INFO, WLAN_PROFILE_INFO structure [NativeWIFI], WLAN_PROFILE_USER, nwifi.wlan_profile_info, wlanapi/PWLAN_PROFILE_INFO, wlanapi/WLAN_PROFILE_INFO'
 ms.topic: struct
 f1_keywords:
 - wlanapi/WLAN_PROFILE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows

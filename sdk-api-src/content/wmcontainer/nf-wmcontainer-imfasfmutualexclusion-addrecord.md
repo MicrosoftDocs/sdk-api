@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.AddRecord
 title: IMFASFMutualExclusion::AddRecord (wmcontainer.h)
-
 description: Adds a record to the mutual exclusion object. A record specifies streams that are mutually exclusive with the streams in all other records.
 old-location: mf\imfasfmutualexclusion_addrecord.htm
 tech.root: medfound
 ms.assetid: f5dedc87-a29c-4c8d-b493-486d975f9ac4
-
 ms.date: 12/05/2018
 ms.keywords: AddRecord, AddRecord method [Media Foundation], AddRecord method [Media Foundation],IMFASFMutualExclusion interface, IMFASFMutualExclusion interface [Media Foundation],AddRecord method, IMFASFMutualExclusion.AddRecord, IMFASFMutualExclusion::AddRecord, f5dedc87-a29c-4c8d-b493-486d975f9ac4, mf.imfasfmutualexclusion_addrecord, wmcontainer/IMFASFMutualExclusion::AddRecord
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMutualExclusion.AddRecord"
+f1_keywords:
+- wmcontainer/IMFASFMutualExclusion.AddRecord
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.AddRecord
+- IMFASFMutualExclusion.AddRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

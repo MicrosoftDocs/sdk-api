@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSimpleTypeHandler
 title: MFCreateSimpleTypeHandler function (mfidl.h)
-
 description: Creates a media-type handler that supports a single media type at a time.
 old-location: mf\mfcreatesimpletypehandler.htm
 tech.root: medfound
 ms.assetid: 441bd03d-b314-4f26-ad67-e6997e5edc9d
-
 ms.date: 12/05/2018
 ms.keywords: 441bd03d-b314-4f26-ad67-e6997e5edc9d, MFCreateSimpleTypeHandler, MFCreateSimpleTypeHandler function [Media Foundation], mf.mfcreatesimpletypehandler, mfidl/MFCreateSimpleTypeHandler
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSimpleTypeHandler"
+f1_keywords:
+- mfidl/MFCreateSimpleTypeHandler
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateSimpleTypeHandler
+- MFCreateSimpleTypeHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

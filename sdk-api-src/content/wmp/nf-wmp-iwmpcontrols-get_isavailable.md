@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.get_isAvailable
 title: IWMPControls::get_isAvailable (wmp.h)
-
 description: The get_isAvailable method indicates whether a specified type of information is available or a specified action can be performed.
 old-location: wmp\iwmpcontrols_get_isavailable.htm
 tech.root: WMP
 ms.assetid: 702e09f2-e086-45e3-9ae1-b62ec3e9561f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_isAvailable method, IWMPControls.get_isAvailable, IWMPControls::get_isAvailable, IWMPControlsget_isAvailable, get_isAvailable, get_isAvailable method [Windows Media Player], get_isAvailable method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_isavailable, wmp/IWMPControls::get_isAvailable
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.get_isAvailable"
+f1_keywords:
+- wmp/IWMPControls.get_isAvailable
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.get_isAvailable
+- IWMPControls.get_isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

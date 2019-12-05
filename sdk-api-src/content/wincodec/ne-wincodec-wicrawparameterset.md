@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICRawParameterSet
 title: WICRawParameterSet (wincodec.h)
-
 description: Specifies the parameter set used by a raw codec.
 old-location: wic\_wic_codec_wicrawparameterset.htm
 tech.root: wic
 ms.assetid: 0c39b769-9523-42ce-942f-761e6d39ec5b
-
 ms.date: 12/05/2018
 ms.keywords: WICAsShotParameterSet, WICAutoAdjustedParameterSet, WICRawParameterSet, WICRawParameterSet enumeration [Windows Imaging Component], WICUserAdjustedParameterSet, _wic_codec_wicrawparameterset, wic._wic_codec_wicrawparameterset, wincodec/WICAsShotParameterSet, wincodec/WICAutoAdjustedParameterSet, wincodec/WICRawParameterSet, wincodec/WICUserAdjustedParameterSet
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICRawParameterSet"
+f1_keywords:
+- wincodec/WICRawParameterSet
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICRawParameterSet
+- WICRawParameterSet
 targetos: Windows
 req.typenames: WICRawParameterSet
 req.redist: 

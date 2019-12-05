@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.ADsBuildVarArrayInt
 title: ADsBuildVarArrayInt function (adshlp.h)
-
 description: The ADsBuildVarArrayInt function builds a variant array of integers from an array of DWORD values.
 old-location: adsi\adsbuildvararrayint.htm
 tech.root: adsi
 ms.assetid: 61b8a3c1-b8ea-4909-b2a6-f1ce342f396d
-
 ms.date: 12/05/2018
 ms.keywords: ADsBuildVarArrayInt, ADsBuildVarArrayInt function [ADSI], _ds_adsbuildvararrayint, adshlp/ADsBuildVarArrayInt, adsi.adsbuildvararrayint
 ms.topic: function
-f1_keywords: 
- - "adshlp/ADsBuildVarArrayInt"
+f1_keywords:
+- adshlp/ADsBuildVarArrayInt
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - ADsBuildVarArrayInt
+- ADsBuildVarArrayInt
 targetos: Windows
 req.typenames: 
 req.redist: 

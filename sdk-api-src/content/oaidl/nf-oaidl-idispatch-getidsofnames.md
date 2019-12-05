@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IDispatch.GetIDsOfNames
 title: IDispatch::GetIDsOfNames (oaidl.h)
-
 description: Maps a single member and an optional set of argument names to a corresponding set of integer DISPIDs, which can be used on subsequent calls to Invoke.
 old-location: automat\idispatch_getidsofnames.htm
 tech.root: automat
 ms.assetid: 6f6cf233-3481-436e-8d6a-51f93bf91619
-
 ms.date: 12/05/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],IDispatch interface, IDispatch interface [Automation],GetIDsOfNames method, IDispatch.GetIDsOfNames, IDispatch::GetIDsOfNames, _oa96_IDispatch::GetIDsOfNames, automat.idispatch_getidsofnames, oaidl/IDispatch::GetIDsOfNames
 ms.topic: method
-f1_keywords: 
- - "oaidl/IDispatch.GetIDsOfNames"
+f1_keywords:
+- oaidl/IDispatch.GetIDsOfNames
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IDispatch.GetIDsOfNames
+- IDispatch.GetIDsOfNames
 targetos: Windows
 req.typenames: 
 req.redist: 

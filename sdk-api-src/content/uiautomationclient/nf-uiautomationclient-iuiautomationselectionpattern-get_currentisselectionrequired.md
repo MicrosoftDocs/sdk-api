@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
 title: IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired (uiautomationclient.h)
-
 description: Indicates whether at least one item must be selected at all times.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired.htm
 tech.root: WinAuto
 ms.assetid: 608c9b6d-bc53-4d6d-8747-897ac9a24571
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsSelectionRequired property [Windows Accessibility], CurrentIsSelectionRequired property [Windows Accessibility],IUIAutomationSelectionPattern interface, IUIAutomationSelectionPattern interface [Windows Accessibility],CurrentIsSelectionRequired property, IUIAutomationSelectionPattern.CurrentIsSelectionRequired, IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired, IUIAutomationSelectionPattern::CurrentIsSelectionRequired, IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, get_CurrentIsSelectionRequired, uiauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::CurrentIsSelectionRequired, uiautomationclient/IUIAutomationSelectionPattern::get_CurrentIsSelectionRequired, winauto.uiauto_IUIAutomationSelectionPattern_CurrentIsSelectionRequired
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSelectionPattern.CurrentIsSelectionRequired"
+f1_keywords:
+- uiautomationclient/IUIAutomationSelectionPattern.CurrentIsSelectionRequired
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern.CurrentIsSelectionRequired
- - IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
+- IUIAutomationSelectionPattern.CurrentIsSelectionRequired
+- IUIAutomationSelectionPattern.get_CurrentIsSelectionRequired
 targetos: Windows
 req.typenames: 
 req.redist: 

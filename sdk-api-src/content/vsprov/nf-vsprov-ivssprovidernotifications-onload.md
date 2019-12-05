@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssProviderNotifications.OnLoad
 title: IVssProviderNotifications::OnLoad (vsprov.h)
-
 description: Notifies a provider that it was loaded.
 old-location: base\ivssprovidernotifications_onload.htm
 tech.root: VSS
 ms.assetid: dd3df604-074b-4206-827e-3cc4d5f71f87
-
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications interface [VSS],OnLoad method, IVssProviderNotifications.OnLoad, IVssProviderNotifications::OnLoad, OnLoad, OnLoad method [VSS], OnLoad method [VSS],IVssProviderNotifications interface, base.ivssprovidernotifications_onload, vsprov/IVssProviderNotifications::OnLoad
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssProviderNotifications.OnLoad"
+f1_keywords:
+- vsprov/IVssProviderNotifications.OnLoad
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderNotifications.OnLoad
+- IVssProviderNotifications.OnLoad
 targetos: Windows
 req.typenames: 
 req.redist: 

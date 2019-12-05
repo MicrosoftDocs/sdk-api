@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPointerInactive
 title: IPointerInactive (ocidl.h)
-
 description: Enables an object to remain inactive most of the time, yet still participate in interaction with the mouse, including drag and drop.
 old-location: com\ipointerinactive.htm
 tech.root: com
 ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f
-
 ms.date: 12/05/2018
 ms.keywords: IPointerInactive, IPointerInactive interface [COM], IPointerInactive interface [COM],described, _ctrl_ipointerinactive, com.ipointerinactive, ocidl/IPointerInactive
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPointerInactive"
+f1_keywords:
+- ocidl/IPointerInactive
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPointerInactive
+- IPointerInactive
 targetos: Windows
 req.typenames: 
 req.redist: 

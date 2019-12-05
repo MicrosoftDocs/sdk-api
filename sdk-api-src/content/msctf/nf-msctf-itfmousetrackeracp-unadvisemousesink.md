@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfMouseTrackerACP.UnadviseMouseSink
 title: ITfMouseTrackerACP::UnadviseMouseSink (msctf.h)
-
 description: ITfMouseTrackerACP::UnadviseMouseSink method
 old-location: tsf\itfmousetrackeracp_unadvisemousesink.htm
 tech.root: TSF
 ms.assetid: 6c753e09-f67a-45d6-b2f9-c08d5c05c04d
-
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTrackerACP interface [Text Services Framework],UnadviseMouseSink method, ITfMouseTrackerACP.UnadviseMouseSink, ITfMouseTrackerACP::UnadviseMouseSink, UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework],ITfMouseTrackerACP interface, _tsf_itfmousetrackeracp_unadvisemousesink_ref, msctf/ITfMouseTrackerACP::UnadviseMouseSink, tsf.itfmousetrackeracp_unadvisemousesink
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfMouseTrackerACP.UnadviseMouseSink"
+f1_keywords:
+- msctf/ITfMouseTrackerACP.UnadviseMouseSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMouseTrackerACP.UnadviseMouseSink
+- ITfMouseTrackerACP.UnadviseMouseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

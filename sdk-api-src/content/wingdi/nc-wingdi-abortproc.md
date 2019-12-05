@@ -1,19 +1,17 @@
 ---
 UID: NC:wingdi.ABORTPROC
 title: ABORTPROC (wingdi.h)
-
 description: The AbortProc function is an application-defined callback function used with the SetAbortProc function.
 old-location: gdi\abortproc.htm
 tech.root: printdocs
 ms.assetid: 3728a491-28ff-49ec-9131-ed6238b2be3d
-
 ms.date: 12/05/2018
 ms.keywords: AbortProc, AbortProc callback, AbortProc callback function [Windows GDI], _win32_AbortProc, gdi.abortproc, wingdi/AbortProc
 ms.topic: callback
-f1_keywords: 
- - "wingdi/AbortProc"
+f1_keywords:
+- wingdi/AbortProc
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - AbortProc
+- AbortProc
 targetos: Windows
 req.typenames: 
 req.redist: 

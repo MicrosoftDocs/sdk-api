@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.SetParameters
 title: ITask::SetParameters (mstask.h)
-
 description: This method sets the command-line parameters for the task.
 old-location: taskschd\itask_setparameters.htm
 tech.root: taskschd
 ms.assetid: 094dcd8f-35aa-4300-b58d-c846bca1c88c
-
 ms.date: 12/05/2018
 ms.keywords: ITask interface [Task Scheduler],SetParameters method, ITask.SetParameters, ITask::SetParameters, SetParameters, SetParameters method [Task Scheduler], SetParameters method [Task Scheduler],ITask interface, _msb_itask_setparameters, mstask/ITask::SetParameters, taskschd.itask_setparameters
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.SetParameters"
+f1_keywords:
+- mstask/ITask.SetParameters
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.SetParameters
+- ITask.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

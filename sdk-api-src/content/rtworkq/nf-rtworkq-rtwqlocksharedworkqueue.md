@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqLockSharedWorkQueue
 title: RtwqLockSharedWorkQueue function (rtworkq.h)
-
 description: Obtains and locks a shared work queue.
 old-location: base\rtwqlocksharedworkqueue.htm
 tech.root: ProcThread
 ms.assetid: ccebdbd8-fd3e-4e99-b1dd-1ec8e57cbff6
-
 ms.date: 12/05/2018
 ms.keywords: RtwqLockSharedWorkQueue, RtwqLockSharedWorkQueue function, base.rtwqlocksharedworkqueue, rtworkq/RtwqLockSharedWorkQueue
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqLockSharedWorkQueue"
+f1_keywords:
+- rtworkq/RtwqLockSharedWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqLockSharedWorkQueue
+- RtwqLockSharedWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

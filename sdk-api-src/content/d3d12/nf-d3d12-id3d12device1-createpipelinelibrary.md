@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device1.CreatePipelineLibrary
 title: ID3D12Device1::CreatePipelineLibrary (d3d12.h)
-
 description: Creates a cached pipeline library.
 old-location: direct3d12\id3d12device1_createpipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 572A95A6-A02F-4512-9BDE-2A8CA58A0A27
-
 ms.date: 12/05/2018
 ms.keywords: CreatePipelineLibrary, CreatePipelineLibrary method, CreatePipelineLibrary method,ID3D12Device1 interface, ID3D12Device1 interface,CreatePipelineLibrary method, ID3D12Device1.CreatePipelineLibrary, ID3D12Device1::CreatePipelineLibrary, d3d12/ID3D12Device1::CreatePipelineLibrary, direct3d12.id3d12device1_createpipelinelibrary
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device1.CreatePipelineLibrary"
+f1_keywords:
+- d3d12/ID3D12Device1.CreatePipelineLibrary
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device1.CreatePipelineLibrary
+- ID3D12Device1.CreatePipelineLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

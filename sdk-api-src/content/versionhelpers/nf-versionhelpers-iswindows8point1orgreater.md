@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindows8Point1OrGreater
 title: IsWindows8Point1OrGreater function (versionhelpers.h)
-
 description: Indicates if the current OS version matches, or is greater than, the Windows 8.1 version.
 old-location: base\iswindows8_1orgreater.htm
 tech.root: SysInfo
 ms.assetid: E391B568-5E43-42C7-B186-8CA524331FFE
-
 ms.date: 12/05/2018
 ms.keywords: IsWindows8Point1OrGreater, IsWindows8Point1OrGreater function, base.iswindows8_1orgreater, versionhelpers/IsWindows8Point1OrGreater
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindows8Point1OrGreater"
+f1_keywords:
+- versionhelpers/IsWindows8Point1OrGreater
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindows8Point1OrGreater
+- IsWindows8Point1OrGreater
 targetos: Windows
 req.typenames: 
 req.redist: 

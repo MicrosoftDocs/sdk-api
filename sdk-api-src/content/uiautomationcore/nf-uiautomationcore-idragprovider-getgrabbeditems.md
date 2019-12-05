@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.GetGrabbedItems
 title: IDragProvider::GetGrabbedItems (uiautomationcore.h)
-
 description: Retrieves the collection of elements that are being dragged as part of a drag operation.
 old-location: winauto\uiauto_idragprovider_getgrabbeditems.htm
 tech.root: WinAuto
 ms.assetid: B56F5975-279C-48C7-84C9-35BBBE222F6A
-
 ms.date: 12/05/2018
 ms.keywords: GetGrabbedItems, GetGrabbedItems method [Windows Accessibility], GetGrabbedItems method [Windows Accessibility],IDragProvider interface, IDragProvider interface [Windows Accessibility],GetGrabbedItems method, IDragProvider.GetGrabbedItems, IDragProvider::GetGrabbedItems, uiautomationcore/IDragProvider::GetGrabbedItems, winauto.uiauto_idragprovider_getgrabbeditems
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IDragProvider.GetGrabbedItems"
+f1_keywords:
+- uiautomationcore/IDragProvider.GetGrabbedItems
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IDragProvider.GetGrabbedItems
+- IDragProvider.GetGrabbedItems
 targetos: Windows
 req.typenames: 
 req.redist: 

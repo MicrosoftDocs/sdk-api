@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfActiveLanguageProfileNotifySink
 title: ITfActiveLanguageProfileNotifySink (msctf.h)
-
 description: The ITfActiveLanguageProfileNotifySink interface is implemented by an application to receive a notification when the active language or text service changes.
 old-location: tsf\itfactivelanguageprofilenotifysink.htm
 tech.root: TSF
 ms.assetid: c70141e8-c948-44f4-914e-454327aadf2b
-
 ms.date: 12/05/2018
 ms.keywords: ITfActiveLanguageProfileNotifySink, ITfActiveLanguageProfileNotifySink interface [Text Services Framework], ITfActiveLanguageProfileNotifySink interface [Text Services Framework],described, _tsf_itfactivelanguageprofilenotifysink_ref, msctf/ITfActiveLanguageProfileNotifySink, tsf.itfactivelanguageprofilenotifysink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfActiveLanguageProfileNotifySink"
+f1_keywords:
+- msctf/ITfActiveLanguageProfileNotifySink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfActiveLanguageProfileNotifySink
+- ITfActiveLanguageProfileNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpSendRequest
 title: WinHttpSendRequest function (winhttp.h)
-
 description: Sends the specified request to the HTTP server.
 old-location: http\winhttpsendrequest.htm
 tech.root: WinHttp
 ms.assetid: 991bf531-2e6b-4581-8069-f75789915522
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpSendRequest, WinHttpSendRequest function [WinHTTP], http.winhttpsendrequest, winhttp.winhttpsendrequest_function, winhttp/WinHttpSendRequest
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpSendRequest"
+f1_keywords:
+- winhttp/WinHttpSendRequest
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpSendRequest
+- WinHttpSendRequest
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

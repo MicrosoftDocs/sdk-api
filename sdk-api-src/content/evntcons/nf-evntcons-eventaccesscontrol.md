@@ -1,19 +1,17 @@
 ---
 UID: NF:evntcons.EventAccessControl
 title: EventAccessControl function (evntcons.h)
-
 description: Adds or modifies the permissions of the specified provider or session.
 old-location: etw\eventaccesscontrol_func.htm
 tech.root: ETW
 ms.assetid: 699bb165-680f-4d3b-8859-959f319ca4be
-
 ms.date: 12/05/2018
 ms.keywords: EventAccessControl, EventAccessControl function [ETW], TRACELOG_ACCESS_KERNEL_LOGGER, TRACELOG_ACCESS_REALTIME, TRACELOG_CREATE_ONDISK, TRACELOG_CREATE_REALTIME, TRACELOG_GUID_ENABLE, TRACELOG_LOG_EVENT, TRACELOG_REGISTER_GUIDS, WMIGUID_QUERY, base.eventaccesscontrol_func, etw.eventaccesscontrol_func, evntcons/EventAccessControl
 ms.topic: function
-f1_keywords: 
- - "evntcons/EventAccessControl"
+f1_keywords:
+- evntcons/EventAccessControl
 dev_langs:
- - c++
+- c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012; Sechost.lib on Wi
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012; Advapi32.dll on Windows 8, Windows Server 2012, Windows 7, Windows Server 2008 R2, Windows Server 2008 and Windows Vista
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sechost.dll
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
- - API-MS-Win-Eventing-Controller-l1-1-0.dll
- - KernelBase.dll
+- Sechost.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvAPI32-l2-1-1.dll
+- API-MS-Win-Eventing-Controller-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - EventAccessControl
+- EventAccessControl
 targetos: Windows
 req.typenames: 
 req.redist: 

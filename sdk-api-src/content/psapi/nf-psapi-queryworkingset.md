@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.QueryWorkingSet
 title: QueryWorkingSet function (psapi.h)
-
 description: Retrieves information about the pages currently added to the working set of the specified process.
 old-location: psapi\queryworkingset.htm
 tech.root: psapi
 ms.assetid: b932153f-2bbd-460e-8ff7-b3e493c397bb
-
 ms.date: 12/05/2018
 ms.keywords: K32QueryWorkingSet, QueryWorkingSet, QueryWorkingSet function [PSAPI], _win32_queryworkingset, base.queryworkingset, psapi.queryworkingset, psapi/K32QueryWorkingSet, psapi/QueryWorkingSet
 ms.topic: function
 f1_keywords:
 - psapi/QueryWorkingSet
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectory
 title: SHCreateDirectory function (shlobj_core.h)
-
 description: Creates a new file system folder.
 old-location: shell\SHCreateDirectory.htm
 tech.root: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateDirectory, SHCreateDirectory function [Windows Shell], _win32_SHCreateDirectory, shell.SHCreateDirectory, shlobj_core/SHCreateDirectory
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateDirectory"
+f1_keywords:
+- shlobj_core/SHCreateDirectory
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateDirectory
+- SHCreateDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ActivateKeyboardLayout
 title: ActivateKeyboardLayout function (winuser.h)
-
 description: Sets the input locale identifier (formerly called the keyboard layout handle) for the calling thread or the current process. The input locale identifier specifies a locale as well as the physical layout of the keyboard.
 old-location: inputdev\activatekeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\activatekeyboardlayout.htm
-
 ms.date: 12/05/2018
 ms.keywords: ActivateKeyboardLayout, ActivateKeyboardLayout function [Keyboard and Mouse Input], HKL_NEXT, HKL_PREV, KLF_REORDER, KLF_RESET, KLF_SETFORPROCESS, KLF_SHIFTLOCK, KLF_UNLOADPREVIOUS, _win32_ActivateKeyboardLayout, _win32_activatekeyboardlayout_cpp, inputdev.activatekeyboardlayout, winui._win32_activatekeyboardlayout, winuser/ActivateKeyboardLayout
 ms.topic: function
-f1_keywords: 
- - "winuser/ActivateKeyboardLayout"
+f1_keywords:
+- winuser/ActivateKeyboardLayout
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - ActivateKeyboardLayout
+- ActivateKeyboardLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

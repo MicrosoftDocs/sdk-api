@@ -1,19 +1,17 @@
 ---
 UID: NF:stringapiset.CompareStringOrdinal
 title: CompareStringOrdinal function (stringapiset.h)
-
 description: Compares two Unicode strings to test binary equivalence.
 old-location: intl\comparestringordinal.htm
 tech.root: Intl
 ms.assetid: 6a457076-7992-4912-8ac5-2258f9651a8c
-
 ms.date: 12/05/2018
 ms.keywords: CompareStringOrdinal, CompareStringOrdinal function [Internationalization for Windows Applications], _win32_CompareStringOrdinal, intl.comparestringordinal, stringapiset/CompareStringOrdinal
 ms.topic: function
-f1_keywords: 
- - "stringapiset/CompareStringOrdinal"
+f1_keywords:
+- stringapiset/CompareStringOrdinal
 dev_langs:
- - c++
+- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CompareStringOrdinal
+- CompareStringOrdinal
 targetos: Windows
 req.typenames: 
 req.redist: 

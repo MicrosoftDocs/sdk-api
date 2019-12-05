@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IComponentType
 title: IComponentType (tuner.h)
-
 description: The IComponentType interface is implemented on ComponentType objects, and contains methods for setting and retrieving various properties for a Component.
 old-location: mstv\icomponenttype.htm
 tech.root: mstv
 ms.assetid: e83bbbbe-64a9-4ed3-9c32-925ca80c2c38
-
 ms.date: 12/05/2018
 ms.keywords: IComponentType, IComponentType interface [Microsoft TV Technologies], IComponentType interface [Microsoft TV Technologies],described, IComponentTypeInterface, mstv.icomponenttype, tuner/IComponentType
 ms.topic: interface
-f1_keywords: 
- - "tuner/IComponentType"
+f1_keywords:
+- tuner/IComponentType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentType
+- IComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 

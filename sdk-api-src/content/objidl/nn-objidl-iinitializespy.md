@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IInitializeSpy
 title: IInitializeSpy (objidl.h)
-
 description: Performs initialization or cleanup when entering or exiting a COM apartment.
 old-location: com\iinitializespy.htm
 tech.root: com
 ms.assetid: 9cf1a3fa-dbc6-4760-a9e9-ef237737acfb
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy, IInitializeSpy interface [COM], IInitializeSpy interface [COM],described, _com_iinitializespy, com.iinitializespy, objidl/IInitializeSpy
 ms.topic: interface
-f1_keywords: 
- - "objidl/IInitializeSpy"
+f1_keywords:
+- objidl/IInitializeSpy
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IInitializeSpy
+- IInitializeSpy
 targetos: Windows
 req.typenames: 
 req.redist: 

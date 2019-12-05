@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMTSActivity.SynchronousCall
 title: IMTSActivity::SynchronousCall (comsvcs.h)
-
 description: Performs the user-defined work synchronously.
 old-location: cos\imtsactivity_synchronouscall.htm
 tech.root: cossdk
 ms.assetid: 4f69956b-fdb3-47c4-9a19-e9f39a8d5e06
-
 ms.date: 12/05/2018
 ms.keywords: IMTSActivity interface [COM+],SynchronousCall method, IMTSActivity.SynchronousCall, IMTSActivity::SynchronousCall, SynchronousCall, SynchronousCall method [COM+], SynchronousCall method [COM+],IMTSActivity interface, _cos_IMTSActivity_SynchronousCall, comsvcs/IMTSActivity::SynchronousCall, cos.imtsactivity_synchronouscall
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMTSActivity.SynchronousCall"
+f1_keywords:
+- comsvcs/IMTSActivity.SynchronousCall
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMTSActivity.SynchronousCall
+- IMTSActivity.SynchronousCall
 targetos: Windows
 req.typenames: 
 req.redist: 

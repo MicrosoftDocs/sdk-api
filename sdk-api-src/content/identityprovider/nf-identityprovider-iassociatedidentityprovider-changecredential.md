@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.ChangeCredential
 title: IAssociatedIdentityProvider::ChangeCredential (identityprovider.h)
-
 description: Changes the credentials associated with the specified identity.
 old-location: security\iassociatedidentityprovider_changecredential.htm
 tech.root: SecAuthN
 ms.assetid: 6a4361a8-8054-434e-9852-fcc20b1086cd
-
 ms.date: 12/05/2018
 ms.keywords: ChangeCredential, ChangeCredential method [Security], ChangeCredential method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],ChangeCredential method, IAssociatedIdentityProvider.ChangeCredential, IAssociatedIdentityProvider::ChangeCredential, identityprovider/IAssociatedIdentityProvider::ChangeCredential, identitystore/IAssociatedIdentityProvider::ChangeCredential, security.iassociatedidentityprovider_changecredential
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IAssociatedIdentityProvider.ChangeCredential"
+f1_keywords:
+- identityprovider/IAssociatedIdentityProvider.ChangeCredential
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IdentityProvider.h
- - Identitystore.h
+- IdentityProvider.h
+- Identitystore.h
 api_name:
- - IAssociatedIdentityProvider.ChangeCredential
+- IAssociatedIdentityProvider.ChangeCredential
 targetos: Windows
 req.typenames: 
 req.redist: 

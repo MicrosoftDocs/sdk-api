@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiOpenDatabaseA
 title: MsiOpenDatabaseA function (msiquery.h)
-
 description: The MsiOpenDatabase function opens a database file for data access. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msiopendatabase.htm
 tech.root: Msi
 ms.assetid: 984996e3-aa2c-49ff-9067-ebefd3afdecb
-
 ms.date: 12/05/2018
 ms.keywords: MSIDBOPEN_CREATE, MSIDBOPEN_CREATEDIRECT, MSIDBOPEN_DIRECT, MSIDBOPEN_PATCHFILE, MSIDBOPEN_READONLY, MSIDBOPEN_TRANSACT, MsiOpenDatabase, MsiOpenDatabase function, MsiOpenDatabaseA, MsiOpenDatabaseW, _msi_msiopendatabase, msiquery/MsiOpenDatabase, msiquery/MsiOpenDatabaseA, msiquery/MsiOpenDatabaseW, setup.msiopendatabase
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiOpenDatabase"
+f1_keywords:
+- msiquery/MsiOpenDatabase
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiOpenDatabase
- - MsiOpenDatabaseA
- - MsiOpenDatabaseW
+- MsiOpenDatabase
+- MsiOpenDatabaseA
+- MsiOpenDatabaseW
 targetos: Windows
 req.typenames: 
 req.redist: 

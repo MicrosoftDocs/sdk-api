@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.CALL_MEDIA_EVENT_CAUSE
 title: CALL_MEDIA_EVENT_CAUSE (tapi3if.h)
-
 description: The CALL_MEDIA_EVENT_CAUSE enum is used by ITCallMediaEvent::get_Cause method to return a description of what caused a media event, such as a device timeout.
 old-location: tapi3\call_media_event_cause.htm
 tech.root: Tapi
 ms.assetid: c43e0a72-decc-47e3-bd5e-d94a95a2e404
-
 ms.date: 12/05/2018
 ms.keywords: CALL_MEDIA_EVENT_CAUSE, CALL_MEDIA_EVENT_CAUSE enumeration [TAPI 2.2], CMC_BAD_DEVICE, CMC_CONNECT_FAIL, CMC_LOCAL_REQUEST, CMC_MEDIA_RECOVERED, CMC_MEDIA_TIMEOUT, CMC_REMOTE_REQUEST, CMC_UNKNOWN, _tapi3_call_media_event_cause, tapi3.call_media_event_cause, tapi3if/CALL_MEDIA_EVENT_CAUSE, tapi3if/CMC_BAD_DEVICE, tapi3if/CMC_CONNECT_FAIL, tapi3if/CMC_LOCAL_REQUEST, tapi3if/CMC_MEDIA_RECOVERED, tapi3if/CMC_MEDIA_TIMEOUT, tapi3if/CMC_REMOTE_REQUEST, tapi3if/CMC_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/CALL_MEDIA_EVENT_CAUSE"
+f1_keywords:
+- tapi3if/CALL_MEDIA_EVENT_CAUSE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - CALL_MEDIA_EVENT_CAUSE
+- CALL_MEDIA_EVENT_CAUSE
 targetos: Windows
 req.typenames: CALL_MEDIA_EVENT_CAUSE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3Dot
 title: XMVector3Dot function (directxmath.h)
-
 description: Computes the dot product between 3D vectors.
 old-location: dxmath\xmvector3dot.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Dot(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Dot, XMVector3Dot, XMVector3Dot method [DirectX Math Support APIs], dxmath.xmvector3dot
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3Dot"
+f1_keywords:
+- directxmath/XMVector3Dot
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3Dot
+- XMVector3Dot
 targetos: Windows
 req.typenames: 
 req.redist: 

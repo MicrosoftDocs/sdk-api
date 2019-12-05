@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetCharWidthW
 title: GetCharWidthW function (wingdi.h)
-
 description: The GetCharWidth function retrieves the widths, in logical coordinates, of consecutive characters in a specified range from the current font.
 old-location: gdi\getcharwidth.htm
 tech.root: gdi
 ms.assetid: be29c195-cf67-45d5-8a46-ac572afb756d
-
 ms.date: 12/05/2018
 ms.keywords: GetCharWidth, GetCharWidth function [Windows GDI], GetCharWidthA, GetCharWidthW, _win32_GetCharWidth, gdi.getcharwidth, wingdi/GetCharWidth, wingdi/GetCharWidthA, wingdi/GetCharWidthW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetCharWidth"
+f1_keywords:
+- wingdi/GetCharWidth
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetCharWidth
- - GetCharWidthA
- - GetCharWidthW
+- GetCharWidth
+- GetCharWidthA
+- GetCharWidthW
 targetos: Windows
 req.typenames: 
 req.redist: 

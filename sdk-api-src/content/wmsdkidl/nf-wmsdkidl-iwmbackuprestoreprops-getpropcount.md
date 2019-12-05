@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropCount
 title: IWMBackupRestoreProps::GetPropCount (wmsdkidl.h)
-
 description: The GetPropCount method retrieves the number of properties.
 old-location: wmformat\iwmbackuprestoreprops_getpropcount.htm
 tech.root: wmformat
 ms.assetid: 70b8dcf7-e48b-4c1e-be39-d0ae3c8a2b23
-
 ms.date: 12/05/2018
 ms.keywords: GetPropCount, GetPropCount method [windows Media Format], GetPropCount method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropCount method, IWMBackupRestoreProps.GetPropCount, IWMBackupRestoreProps::GetPropCount, IWMBackupRestorePropsGetPropCount, wmformat.iwmbackuprestoreprops_getpropcount, wmsdkidl/IWMBackupRestoreProps::GetPropCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMBackupRestoreProps.GetPropCount"
+f1_keywords:
+- wmsdkidl/IWMBackupRestoreProps.GetPropCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps.GetPropCount
+- IWMBackupRestoreProps.GetPropCount
 targetos: Windows
 req.typenames: 
 req.redist: 

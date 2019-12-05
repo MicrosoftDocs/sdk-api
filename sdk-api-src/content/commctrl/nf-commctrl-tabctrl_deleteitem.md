@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TabCtrl_DeleteItem
 title: TabCtrl_DeleteItem macro (commctrl.h)
-
 description: Removes an item from a tab control. You can use this macro or send the TCM_DELETEITEM message explicitly.
 old-location: controls\TabCtrl_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deleteitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: TabCtrl_DeleteItem, TabCtrl_DeleteItem macro [Windows Controls], _win32_TabCtrl_DeleteItem, _win32_TabCtrl_DeleteItem_cpp, commctrl/TabCtrl_DeleteItem, controls.TabCtrl_DeleteItem, controls._win32_TabCtrl_DeleteItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TabCtrl_DeleteItem"
+f1_keywords:
+- commctrl/TabCtrl_DeleteItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TabCtrl_DeleteItem
+- TabCtrl_DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICreateWithTransactionEx
 title: ICreateWithTransactionEx (comsvcs.h)
-
 description: Creates an object that is enlisted within a manual transaction.
 old-location: cos\icreatewithtransactionex.htm
 tech.root: cossdk
 ms.assetid: 39b455d3-d3d2-46ae-a45e-b036c18e45bc
-
 ms.date: 12/05/2018
 ms.keywords: ICreateWithTransactionEx, ICreateWithTransactionEx interface [COM+], ICreateWithTransactionEx interface [COM+],described, _dtc_ICreateWithTransactionEx_Interface, comsvcs/ICreateWithTransactionEx, cos.icreatewithtransactionex
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICreateWithTransactionEx"
+f1_keywords:
+- comsvcs/ICreateWithTransactionEx
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICreateWithTransactionEx
+- ICreateWithTransactionEx
 targetos: Windows
 req.typenames: 
 req.redist: 

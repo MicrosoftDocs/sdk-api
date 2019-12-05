@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter
 title: IAppxBundleWriter (appxpackaging.h)
-
 description: Provides a write-only object model for bundle packages.
 old-location: appxpkg\iappxbundlewriter.htm
 tech.root: appxpkg
 ms.assetid: 5762E634-CBA6-496C-A771-CA5718E7E6AD
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter, IAppxBundleWriter interface [App packaging and management], IAppxBundleWriter interface [App packaging and management],described, appxpackaging/IAppxBundleWriter, appxpkg.iappxbundlewriter
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBundleWriter"
+f1_keywords:
+- appxpackaging/IAppxBundleWriter
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleWriter
+- IAppxBundleWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

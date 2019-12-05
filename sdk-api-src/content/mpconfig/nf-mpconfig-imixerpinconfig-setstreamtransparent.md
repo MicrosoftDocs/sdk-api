@@ -1,19 +1,17 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.SetStreamTransparent
 title: IMixerPinConfig::SetStreamTransparent (mpconfig.h)
-
 description: The SetStreamTransparent method sets the stream to transparent.
 old-location: dshow\imixerpinconfig_setstreamtransparent.htm
 tech.root: DirectShow
 ms.assetid: d1f60a35-ffef-4ebb-b331-558772310bcb
-
 ms.date: 12/05/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetStreamTransparent method, IMixerPinConfig.SetStreamTransparent, IMixerPinConfig::SetStreamTransparent, IMixerPinConfigSetStreamTransparent, SetStreamTransparent, SetStreamTransparent method [DirectShow], SetStreamTransparent method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setstreamtransparent, mpconfig/IMixerPinConfig::SetStreamTransparent
 ms.topic: method
-f1_keywords: 
- - "mpconfig/IMixerPinConfig.SetStreamTransparent"
+f1_keywords:
+- mpconfig/IMixerPinConfig.SetStreamTransparent
 dev_langs:
- - c++
+- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerPinConfig.SetStreamTransparent
+- IMixerPinConfig.SetStreamTransparent
 targetos: Windows
 req.typenames: 
 req.redist: 

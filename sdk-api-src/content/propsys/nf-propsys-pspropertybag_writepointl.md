@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WritePOINTL
 title: PSPropertyBag_WritePOINTL function (propsys.h)
-
 description: Stores the property coordinates in aPOINTL structure of a specified property bag.
 old-location: properties\PSPropertyBag_WritePOINTL.htm
 tech.root: properties
 ms.assetid: 881A9D35-DF77-44d1-86DF-D6BC97AC0DD4
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WritePOINTL, PSPropertyBag_WritePOINTL function [Windows Properties], properties.PSPropertyBag_WritePOINTL, propsys/PSPropertyBag_WritePOINTL, shell.PSPropertyBag_WritePOINTL, shell_PSPropertyBag_WritePOINTL
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WritePOINTL"
+f1_keywords:
+- propsys/PSPropertyBag_WritePOINTL
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WritePOINTL
+- PSPropertyBag_WritePOINTL
 targetos: Windows
 req.typenames: 
 req.redist: 

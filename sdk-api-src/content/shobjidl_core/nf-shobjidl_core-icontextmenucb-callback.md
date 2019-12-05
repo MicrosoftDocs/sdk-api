@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IContextMenuCB.CallBack
 title: IContextMenuCB::CallBack (shobjidl_core.h)
-
 description: Enables the callback function for a context menu.
 old-location: shell\IContextMenuCB_CallBack.htm
 tech.root: shell
 ms.assetid: 9d091b1a-26b5-4cab-a3ec-6d59dc7d103e
-
 ms.date: 12/05/2018
 ms.keywords: CallBack, CallBack method [Windows Shell], CallBack method [Windows Shell],IContextMenuCB interface, IContextMenuCB interface [Windows Shell],CallBack method, IContextMenuCB.CallBack, IContextMenuCB::CallBack, _shell_IContextMenuCB_CallBack, shell.IContextMenuCB_CallBack, shobjidl_core/IContextMenuCB::CallBack
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IContextMenuCB.CallBack"
+f1_keywords:
+- shobjidl_core/IContextMenuCB.CallBack
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IContextMenuCB.CallBack
+- IContextMenuCB.CallBack
 targetos: Windows
 req.typenames: 
 req.redist: 

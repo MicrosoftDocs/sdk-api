@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIPromptUserA
 title: OleUIPromptUserA function (oledlg.h)
-
 description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
 old-location: com\oleuipromptuser.htm
 tech.root: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
-
 ms.date: 12/05/2018
 ms.keywords: OleUIPromptUser, OleUIPromptUser function [COM], OleUIPromptUserA, OleUIPromptUserW, _ole_OleUIPromptUser, com.oleuipromptuser, oledlg/OleUIPromptUser, oledlg/OleUIPromptUserA, oledlg/OleUIPromptUserW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIPromptUser"
+f1_keywords:
+- oledlg/OleUIPromptUser
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIPromptUser
- - OleUIPromptUserA
- - OleUIPromptUserW
+- OleUIPromptUser
+- OleUIPromptUserA
+- OleUIPromptUserW
 targetos: Windows
 req.typenames: 
 req.redist: 

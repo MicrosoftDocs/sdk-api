@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetOptions
 title: IFileDialog::SetOptions (shobjidl_core.h)
-
 description: Sets flags to control the behavior of the dialog.
 old-location: shell\IFileDialog_SetOptions.htm
 tech.root: shell
 ms.assetid: 99def5c2-3fc3-416c-80a6-6009927ab63e
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOptions method, IFileDialog.SetOptions, IFileDialog::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOptions, shell_IFileDialog_SetOptions, shobjidl_core/IFileDialog::SetOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetOptions"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetOptions
+- IFileDialog.SetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAccountOptions
 title: ICredentialProviderUserArray::GetAccountOptions (credentialprovider.h)
-
 description: Retrieves a value that indicates whether the &#0034;Other user&#0034; tile for local or Microsoft accounts is shown in the logon or credential UI.
 old-location: shell\ICredentialProviderUserArray_GetAccountOptions.htm
 tech.root: shell
 ms.assetid: A274F799-FB0C-40a7-AB9E-9525F6079C9A
-
 ms.date: 12/05/2018
 ms.keywords: GetAccountOptions, GetAccountOptions method [Windows Shell], GetAccountOptions method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetAccountOptions method, ICredentialProviderUserArray.GetAccountOptions, ICredentialProviderUserArray::GetAccountOptions, credentialprovider/ICredentialProviderUserArray::GetAccountOptions, shell.ICredentialProviderUserArray_GetAccountOptions, shell.ICredentialProviderUserArray_GetUserEnum
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUserArray.GetAccountOptions"
+f1_keywords:
+- credentialprovider/ICredentialProviderUserArray.GetAccountOptions
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUserArray.GetAccountOptions
+- ICredentialProviderUserArray.GetAccountOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

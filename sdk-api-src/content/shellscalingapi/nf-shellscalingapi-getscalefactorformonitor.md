@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.GetScaleFactorForMonitor
 title: GetScaleFactorForMonitor function (shellscalingapi.h)
-
 description: Gets the scale factor of a specific monitor. This function replaces GetScaleFactorForDevice.
 old-location: shell\GetScaleFactorForMonitor.htm
 tech.root: shell
 ms.assetid: 2F214512-704D-41A2-86A6-1EF880CD3DB4
-
 ms.date: 12/05/2018
 ms.keywords: GetScaleFactorForMonitor, GetScaleFactorForMonitor function [Windows Shell], shell.GetScaleFactorForMonitor, shellscalingapi/GetScaleFactorForMonitor
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/GetScaleFactorForMonitor"
+f1_keywords:
+- shellscalingapi/GetScaleFactorForMonitor
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - shcore.dll
- - API-MS-Win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-l1-1-2.dll
- - api-ms-win-shcore-scaling-l1.dll
+- shcore.dll
+- API-MS-Win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-l1-1-2.dll
+- api-ms-win-shcore-scaling-l1.dll
 api_name:
- - GetScaleFactorForMonitor
+- GetScaleFactorForMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12CommandQueue
 title: ID3D12CommandQueue (d3d12.h)
-
 description: Provides methods for submitting command lists, synchronizing command list execution, instrumenting the command queue, and updating resource tile mappings.
 old-location: direct3d12\id3d12commandqueue.htm
 tech.root: direct3d12
 ms.assetid: 88A4E8BA-02B9-48A1-8E46-2D2560544539
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12CommandQueue, ID3D12CommandQueue interface, ID3D12CommandQueue interface,described, d3d12/ID3D12CommandQueue, direct3d12.id3d12commandqueue
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue"
+f1_keywords:
+- d3d12/ID3D12CommandQueue
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12CommandQueue
+- ID3D12CommandQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

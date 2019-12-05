@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Resource_Conflict_Count
 title: CM_Get_Resource_Conflict_Count function (cfgmgr32.h)
-
 description: The CM_Get_Resource_Conflict_Count function obtains the number of conflicts contained in a specified resource conflict list.
 old-location: devinst\cm_get_resource_conflict_count.htm
 tech.root: devinst
 ms.assetid: 758fbc4c-499f-492d-b64d-f80b1fc7ee25
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Resource_Conflict_Count, CM_Get_Resource_Conflict_Count function [Device and Driver Installation], cfgmgr32/CM_Get_Resource_Conflict_Count, cfgmgrfn_ac18aaca-cd62-4629-a29e-c717b293e8c9.xml, devinst.cm_get_resource_conflict_count
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Resource_Conflict_Count"
+f1_keywords:
+- cfgmgr32/CM_Get_Resource_Conflict_Count
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Resource_Conflict_Count
+- CM_Get_Resource_Conflict_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

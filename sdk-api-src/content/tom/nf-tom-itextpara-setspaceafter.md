@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.SetSpaceAfter
 title: ITextPara::SetSpaceAfter (tom.h)
-
 description: Sets the amount of space that follows a paragraph.
 old-location: controls\ITextPara_SetSpaceAfter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspaceafter.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara interface [Windows Controls],SetSpaceAfter method, ITextPara.SetSpaceAfter, ITextPara::SetSpaceAfter, SetSpaceAfter, SetSpaceAfter method [Windows Controls], SetSpaceAfter method [Windows Controls],ITextPara interface, _win32_ITextPara_SetSpaceAfter, _win32_ITextPara_SetSpaceAfter_cpp, controls.ITextPara_SetSpaceAfter, controls._win32_ITextPara_SetSpaceAfter, tom/ITextPara::SetSpaceAfter
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.SetSpaceAfter"
+f1_keywords:
+- tom/ITextPara.SetSpaceAfter
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.SetSpaceAfter
+- ITextPara.SetSpaceAfter
 targetos: Windows
 req.typenames: 
 req.redist: 

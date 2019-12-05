@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_RENDER_TARGET_PROPERTIES
 title: D2D1_RENDER_TARGET_PROPERTIES (d2d1.h)
-
 description: Contains rendering options (hardware or software), pixel format, DPI information, remoting options, and Direct3D support requirements for a render target.
 old-location: direct2d\D2D1_RENDER_TARGET_PROPERTIES.htm
 tech.root: Direct2D
 ms.assetid: 360900bd-1353-4a92-865c-ad34d5e98123
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_RENDER_TARGET_PROPERTIES, D2D1_RENDER_TARGET_PROPERTIES structure [Direct2D], d2d1/D2D1_RENDER_TARGET_PROPERTIES, direct2d.D2D1_RENDER_TARGET_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_RENDER_TARGET_PROPERTIES"
+f1_keywords:
+- d2d1/D2D1_RENDER_TARGET_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_RENDER_TARGET_PROPERTIES
+- D2D1_RENDER_TARGET_PROPERTIES
 targetos: Windows
 req.typenames: D2D1_RENDER_TARGET_PROPERTIES
 req.redist: 

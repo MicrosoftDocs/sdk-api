@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensLogon.StartScreenSaver
 title: ISensLogon::StartScreenSaver (sensevts.h)
-
 description: The StartScreenSaver method notifies an application that a screen saver is started.
 old-location: sens\isenslogon_startscreensaver.htm
 tech.root: Sens
 ms.assetid: 47531e1f-e2d4-4475-a109-e213c903a7ba
-
 ms.date: 12/05/2018
 ms.keywords: ISensLogon interface [SENS],StartScreenSaver method, ISensLogon.StartScreenSaver, ISensLogon::StartScreenSaver, StartScreenSaver, StartScreenSaver method [SENS], StartScreenSaver method [SENS],ISensLogon interface, _zaw_isenslogon_startscreensaver, sens.isenslogon_startscreensaver, sensevts/ISensLogon::StartScreenSaver, syncmgr.isenslogon_startscreensaver
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensLogon.StartScreenSaver"
+f1_keywords:
+- sensevts/ISensLogon.StartScreenSaver
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensLogon.StartScreenSaver
+- ISensLogon.StartScreenSaver
 targetos: Windows
 req.typenames: 
 req.redist: 

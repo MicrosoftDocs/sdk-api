@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDVEnc
 title: IDVEnc (strmif.h)
-
 description: The IDVEnc interface sets and retrieves properties on the DV Video Encoder filter.
 old-location: dshow\idvenc.htm
 tech.root: DirectShow
 ms.assetid: f193b76f-ca6a-44f5-b097-1570c4527ab4
-
 ms.date: 12/05/2018
 ms.keywords: IDVEnc, IDVEnc interface [DirectShow], IDVEnc interface [DirectShow],described, IDVEncInterface, dshow.idvenc, strmif/IDVEnc
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDVEnc"
+f1_keywords:
+- strmif/IDVEnc
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDVEnc
+- IDVEnc
 targetos: Windows
 req.typenames: 
 req.redist: 

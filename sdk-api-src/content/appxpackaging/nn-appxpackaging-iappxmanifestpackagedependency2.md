@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageDependency2
 title: IAppxManifestPackageDependency2 (appxpackaging.h)
-
 description: Describes the dependency of one package on another package.
 old-location: appxpkg\iappxmanifestpackagedependency2.htm
 tech.root: appxpkg
 ms.assetid: 9363C5BB-BDEF-4671-9545-5B8C0EF14FBE
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestPackageDependency2, IAppxManifestPackageDependency2 interface [App packaging and management], IAppxManifestPackageDependency2 interface [App packaging and management],described, appxpackaging/IAppxManifestPackageDependency2, appxpkg.iappxmanifestpackagedependency2
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageDependency2"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageDependency2
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageDependency2
+- IAppxManifestPackageDependency2
 targetos: Windows
 req.typenames: 
 req.redist: 

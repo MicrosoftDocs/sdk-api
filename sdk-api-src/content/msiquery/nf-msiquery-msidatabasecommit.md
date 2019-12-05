@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseCommit
 title: MsiDatabaseCommit function (msiquery.h)
-
 description: The MsiDatabaseCommit function commits changes to a database.
 old-location: setup\msidatabasecommit.htm
 tech.root: Msi
 ms.assetid: bc42b90b-51db-4e13-af2f-4942923badf6
-
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseCommit, MsiDatabaseCommit function, _msi_msidatabasecommit, msiquery/MsiDatabaseCommit, setup.msidatabasecommit
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseCommit"
+f1_keywords:
+- msiquery/MsiDatabaseCommit
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDatabaseCommit
+- MsiDatabaseCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

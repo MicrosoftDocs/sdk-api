@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.ColorHLSToRGB
 title: ColorHLSToRGB function (shlwapi.h)
-
 description: Converts colors from hue-luminance-saturation (HLS) to RGB format.
 old-location: shell\ColorHLSToRGB.htm
 tech.root: shell
 ms.assetid: 1bf0b337-01de-4ce3-851f-d845866fb46f
-
 ms.date: 12/05/2018
 ms.keywords: ColorHLSToRGB, ColorHLSToRGB function [Windows Shell], _win32_ColorHLSToRGB, shell.ColorHLSToRGB, shlwapi/ColorHLSToRGB
 ms.topic: function
-f1_keywords: 
- - "shlwapi/ColorHLSToRGB"
+f1_keywords:
+- shlwapi/ColorHLSToRGB
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - ColorHLSToRGB
+- ColorHLSToRGB
 targetos: Windows
 req.typenames: 
 req.redist: 

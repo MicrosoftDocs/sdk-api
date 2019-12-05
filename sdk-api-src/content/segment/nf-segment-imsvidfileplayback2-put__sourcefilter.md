@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidFilePlayback2.put__SourceFilter
 title: IMSVidFilePlayback2::put__SourceFilter (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsvidfileplayback2_put__sourcefilter.htm
 tech.root: mstv
 ms.assetid: ef536087-dd2b-417f-b139-916d930e3d25
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback2 interface [Microsoft TV Technologies],put__SourceFilter method, IMSVidFilePlayback2.put__SourceFilter, IMSVidFilePlayback2::put__SourceFilter, IMSVidFilePlayback2put__SourceFilter, mstv.imsvidfileplayback2_put__sourcefilter, put__SourceFilter, put__SourceFilter method [Microsoft TV Technologies], put__SourceFilter method [Microsoft TV Technologies],IMSVidFilePlayback2 interface, segment/IMSVidFilePlayback2::put__SourceFilter
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidFilePlayback2.put__SourceFilter"
+f1_keywords:
+- segment/IMSVidFilePlayback2.put__SourceFilter
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFilePlayback2.put__SourceFilter
+- IMSVidFilePlayback2.put__SourceFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

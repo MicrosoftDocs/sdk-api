@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellBorderColors
 title: ITextRow::SetCellBorderColors (tom.h)
-
 description: Sets the border colors of the active cell.
 old-location: controls\itextrow_setcellbordercolors.htm
 tech.root: Controls
 ms.assetid: 2a8762ba-a92b-46aa-99bc-57406a872174
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellBorderColors method, ITextRow.SetCellBorderColors, ITextRow::SetCellBorderColors, SetCellBorderColors, SetCellBorderColors method [Windows Controls], SetCellBorderColors method [Windows Controls],ITextRow interface, controls.itextrow_setcellbordercolors, tom/ITextRow::SetCellBorderColors
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellBorderColors"
+f1_keywords:
+- tom/ITextRow.SetCellBorderColors
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellBorderColors
+- ITextRow.SetCellBorderColors
 targetos: Windows
 req.typenames: 
 req.redist: 

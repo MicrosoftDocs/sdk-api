@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminReleaseCatalogContext
 title: CryptCATAdminReleaseCatalogContext function (mscat.h)
-
 description: Releases a handle to a catalog context previously returned by the CryptCATAdminAddCatalog function.
 old-location: security\cryptcatadminreleasecatalogcontext.htm
 tech.root: SecCrypto
 ms.assetid: 6cc13013-2c0a-4934-a866-30b69cbcf934
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminReleaseCatalogContext, CryptCATAdminReleaseCatalogContext function [Security], mscat/CryptCATAdminReleaseCatalogContext, security.cryptcatadminreleasecatalogcontext
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATAdminReleaseCatalogContext"
+f1_keywords:
+- mscat/CryptCATAdminReleaseCatalogContext
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATAdminReleaseCatalogContext
+- CryptCATAdminReleaseCatalogContext
 targetos: Windows
 req.typenames: 
 req.redist: 

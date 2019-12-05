@@ -1,19 +1,17 @@
 ---
 UID: NS:vmr9._VMR9AllocationInfo
 title: VMR9AllocationInfo (vmr9.h)
-
 description: The VMR9AllocationInfo structure describes the Direct3D surfaces that a VMR-9 Allocator-Presenter object should allocate.
 old-location: dshow\vmr9allocationinfo.htm
 tech.root: DirectShow
 ms.assetid: d263b004-30e6-4dff-9df2-f4ca492f09f7
-
 ms.date: 12/05/2018
 ms.keywords: VMR9AllocationInfo, VMR9AllocationInfo structure [DirectShow], VMR9AllocationInfoStructure, dshow.vmr9allocationinfo, vmr9/VMR9AllocationInfo
 ms.topic: struct
-f1_keywords: 
- - "vmr9/VMR9AllocationInfo"
+f1_keywords:
+- vmr9/VMR9AllocationInfo
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9AllocationInfo
+- VMR9AllocationInfo
 targetos: Windows
 req.typenames: VMR9AllocationInfo
 req.redist: 

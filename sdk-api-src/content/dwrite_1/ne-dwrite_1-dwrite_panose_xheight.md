@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_1.DWRITE_PANOSE_XHEIGHT
 title: DWRITE_PANOSE_XHEIGHT (dwrite_1.h)
-
 description: The DWRITE_PANOSE_XHEIGHT enumeration contains values that specify info about the relative size of lowercase letters and the treatment of diacritic marks (xheight).
 old-location: directwrite\dwrite_panose_xheight.htm
 tech.root: DirectWrite
 ms.assetid: E4448DC6-9014-41FB-B14B-2C6FB4E4D13D
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_PANOSE_XHEIGHT, DWRITE_PANOSE_XHEIGHT enumeration [Direct Write], DWRITE_PANOSE_XHEIGHT_ANY, DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE, DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL, DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD, DWRITE_PANOSE_XHEIGHT_CONSTANT_STD, DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE, DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL, DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD, DWRITE_PANOSE_XHEIGHT_DUCKING_STD, DWRITE_PANOSE_XHEIGHT_NO_FIT, directwrite.dwrite_panose_xheight, dwrite_1/DWRITE_PANOSE_XHEIGHT, dwrite_1/DWRITE_PANOSE_XHEIGHT_ANY, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_LARGE, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_SMALL, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_STANDARD, dwrite_1/DWRITE_PANOSE_XHEIGHT_CONSTANT_STD, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_LARGE, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_SMALL, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_STANDARD, dwrite_1/DWRITE_PANOSE_XHEIGHT_DUCKING_STD, dwrite_1/DWRITE_PANOSE_XHEIGHT_NO_FIT
 ms.topic: enum
-f1_keywords: 
- - "dwrite_1/DWRITE_PANOSE_XHEIGHT"
+f1_keywords:
+- dwrite_1/DWRITE_PANOSE_XHEIGHT
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_PANOSE_XHEIGHT
+- DWRITE_PANOSE_XHEIGHT
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.EnableRedrawRegions
 title: IDCompositionVisualDebug::EnableRedrawRegions (dcomp.h)
-
 description: Enables highlighting visuals when content is being redrawn.
 old-location: directcomp\idcompositionvisualdebug_enableredrawregions.htm
 tech.root: directcomp
 ms.assetid: 71591ABF-7B7F-4A8D-9FE2-EC5412ACB3EE
-
 ms.date: 12/05/2018
 ms.keywords: EnableRedrawRegions, EnableRedrawRegions method [DirectComposition], EnableRedrawRegions method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],EnableRedrawRegions method, IDCompositionVisualDebug.EnableRedrawRegions, IDCompositionVisualDebug::EnableRedrawRegions, dcomp/IDCompositionVisualDebug::EnableRedrawRegions, directcomp.idcompositionvisualdebug_enableredrawregions
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisualDebug.EnableRedrawRegions"
+f1_keywords:
+- dcomp/IDCompositionVisualDebug.EnableRedrawRegions
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisualDebug.EnableRedrawRegions
+- IDCompositionVisualDebug.EnableRedrawRegions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzFreeContext
 title: AuthzFreeContext function (authz.h)
-
 description: Frees all structures and memory associated with the client context. The list of handles for a client is freed in this call.
 old-location: security\authzfreecontext.htm
 tech.root: SecAuthZ
 ms.assetid: cad9fff0-9aa6-4cb2-a34f-94cf72f66bca
-
 ms.date: 12/05/2018
 ms.keywords: AuthzFreeContext, AuthzFreeContext function [Security], _win32_authzfreecontext, authz/AuthzFreeContext, security.authzfreecontext
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzFreeContext"
+f1_keywords:
+- authz/AuthzFreeContext
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
- - Ext-MS-Win-authz-context-l1-1-0.dll
+- Authz.dll
+- Ext-MS-Win-authz-context-l1-1-0.dll
 api_name:
- - AuthzFreeContext
+- AuthzFreeContext
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

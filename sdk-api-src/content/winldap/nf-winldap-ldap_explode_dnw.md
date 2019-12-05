@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_explode_dnW
 title: ldap_explode_dnW function (winldap.h)
-
 description: The ldap_explode_dn function breaks up an entry name into its component parts.
 old-location: ldap\ldap_explode_dn.htm
 tech.root: ldap
 ms.assetid: 9d151adf-f8b2-4ed1-8e25-86c95a89a948
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_explode_dn, ldap.ldap__explode__dn, ldap.ldap_explode_dn, ldap_explode_dn, ldap_explode_dn function [LDAP], ldap_explode_dnA, ldap_explode_dnW, winldap/ldap_explode_dn, winldap/ldap_explode_dnA, winldap/ldap_explode_dnW"
+ms.keywords: _ldap_ldap_explode_dn, ldap.ldap__explode__dn, ldap.ldap_explode_dn, ldap_explode_dn, ldap_explode_dn function [LDAP], ldap_explode_dnA, ldap_explode_dnW, winldap/ldap_explode_dn, winldap/ldap_explode_dnA, winldap/ldap_explode_dnW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_explode_dn"
+f1_keywords:
+- winldap/ldap_explode_dn
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_explode_dn
- - ldap_explode_dnA
- - ldap_explode_dnW
+- ldap_explode_dn
+- ldap_explode_dnA
+- ldap_explode_dnW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHCreateStreamOnFileEx
 title: SHCreateStreamOnFileEx function (shlwapi.h)
-
 description: Opens or creates a file and retrieves a stream to read or write to that file.
 old-location: shell\SHCreateStreamOnFileEx.htm
 tech.root: shell
 ms.assetid: f948f7dd-987d-4c2d-b650-62081133c3f4
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateStreamOnFileEx, SHCreateStreamOnFileEx function [Windows Shell], _shell_SHCreateStreamOnFileEx, shell.SHCreateStreamOnFileEx, shlwapi/SHCreateStreamOnFileEx
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHCreateStreamOnFileEx"
+f1_keywords:
+- shlwapi/SHCreateStreamOnFileEx
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-stream-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
- - SHCreateStreamOnFileEx
+- SHCreateStreamOnFileEx
 targetos: Windows
 req.typenames: 
 req.redist: 

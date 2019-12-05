@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICBitmapPlaneDescription
 title: WICBitmapPlaneDescription (wincodec.h)
-
 description: Specifies the pixel format and size of a component plane.
 old-location: wic\wicbitmapplanedescription.htm
 tech.root: wic
 ms.assetid: A5685E9B-F2B9-4A1B-9CEA-044E5FA1CC6D
-
 ms.date: 12/05/2018
 ms.keywords: PWICBitmapPlaneDescription, PWICBitmapPlaneDescription structure pointer [Windows Imaging Component], WICBitmapPlaneDescription, WICBitmapPlaneDescription structure [Windows Imaging Component], wic.wicbitmapplanedescription, wincodec/PWICBitmapPlaneDescription, wincodec/WICBitmapPlaneDescription
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICBitmapPlaneDescription"
+f1_keywords:
+- wincodec/WICBitmapPlaneDescription
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapPlaneDescription
+- WICBitmapPlaneDescription
 targetos: Windows
 req.typenames: WICBitmapPlaneDescription
 req.redist: 

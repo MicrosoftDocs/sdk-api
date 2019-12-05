@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._VMRVideoDesc
 title: VMRVideoDesc (strmif.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later. The VMRVideoDesc structure describes a video stream to be deinterlaced.
 old-location: dshow\vmrvideodesc.htm
 tech.root: DirectShow
 ms.assetid: b02683ec-9bf9-4a69-87fb-d37a98f02e61
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, TRUE, VMRVideoDesc, VMRVideoDesc structure [DirectShow], VMRVideoDescStructure, dshow.vmrvideodesc, strmif/VMRVideoDesc
 ms.topic: struct
 f1_keywords:
 - strmif/VMRVideoDesc
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows

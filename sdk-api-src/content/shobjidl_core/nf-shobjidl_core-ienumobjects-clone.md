@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Clone
 title: IEnumObjects::Clone (shobjidl_core.h)
-
 description: Not implemented.Not implemented.
 old-location: shell\IEnumObjects_Clone.htm
 tech.root: shell
 ms.assetid: 17dd1539-cf98-4cbf-8c06-4e21123f6f54
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumObjects interface, IEnumObjects interface [Windows Shell],Clone method, IEnumObjects.Clone, IEnumObjects::Clone, _shell_IEnumObjects_Clone, shell.IEnumObjects_Clone, shobjidl_core/IEnumObjects::Clone
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumObjects.Clone"
+f1_keywords:
+- shobjidl_core/IEnumObjects.Clone
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumObjects.Clone
+- IEnumObjects.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagUninitialize
 title: MagUninitialize function (magnification.h)
-
 description: Destroys the magnifier run-time objects.
 old-location: magapi\magapi_MagUninitialize.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maguninitialize.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagUninitialize, MagUninitialize function [Magnification API], magapi.magapi_MagUninitialize, magapi_MagUninitialize, magnification/MagUninitialize
 ms.topic: function
-f1_keywords: 
- - "magnification/MagUninitialize"
+f1_keywords:
+- magnification/MagUninitialize
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagUninitialize
+- MagUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

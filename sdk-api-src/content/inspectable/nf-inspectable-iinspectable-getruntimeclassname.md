@@ -1,19 +1,17 @@
 ---
 UID: NF:inspectable.IInspectable.GetRuntimeClassName
 title: IInspectable::GetRuntimeClassName (inspectable.h)
-
 description: Gets the fully qualified name of the current Windows Runtime object.
 old-location: winrt\iinspectable_getruntimeclassname.htm
 tech.root: WinRT
 ms.assetid: E0A0B56D-E676-46FD-873D-11309102DFFD
-
 ms.date: 12/05/2018
 ms.keywords: GetRuntimeClassName, GetRuntimeClassName method [Windows Runtime], GetRuntimeClassName method [Windows Runtime],IInputPaneInterop interface, GetRuntimeClassName method [Windows Runtime],IInspectable interface, IInputPaneInterop interface [Windows Runtime],GetRuntimeClassName method, IInputPaneInterop::GetRuntimeClassName, IInspectable interface [Windows Runtime],GetRuntimeClassName method, IInspectable.GetRuntimeClassName, IInspectable::GetRuntimeClassName, inspectable/IInputPaneInterop::GetRuntimeClassName, inspectable/IInspectable::GetRuntimeClassName, winrt.iinspectable_getruntimeclassname
 ms.topic: method
-f1_keywords: 
- - "inspectable/IInspectable.GetRuntimeClassName"
+f1_keywords:
+- inspectable/IInspectable.GetRuntimeClassName
 dev_langs:
- - c++
+- c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inspectable.h
+- Inspectable.h
 api_name:
- - IInspectable.GetRuntimeClassName
- - IInputPaneInterop.GetRuntimeClassName
+- IInspectable.GetRuntimeClassName
+- IInputPaneInterop.GetRuntimeClassName
 targetos: Windows
 req.typenames: 
 req.redist: 

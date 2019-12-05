@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_PIN_INFO
 title: BLUETOOTH_PIN_INFO (bluetoothapis.h)
-
 description: BLUETOOTH_PIN_INFO structure contains information used for authentication via PIN.
 old-location: bluetooth\bluetooth_pin_info.htm
 tech.root: bluetooth
 ms.assetid: 9fae3b95-eeed-4f06-af27-762b8de615ed
-
 ms.date: 12/05/2018
-ms.keywords: "*PBLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO structure [Bluetooth], PBLUETOOTH_PIN_INFO, PBLUETOOTH_PIN_INFO structure pointer [Bluetooth], bluetooth.bluetooth_pin_info, bluetoothapis/BLUETOOTH_PIN_INFO, bluetoothapis/PBLUETOOTH_PIN_INFO"
+ms.keywords: '*PBLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO, BLUETOOTH_PIN_INFO structure [Bluetooth], PBLUETOOTH_PIN_INFO, PBLUETOOTH_PIN_INFO structure pointer [Bluetooth], bluetooth.bluetooth_pin_info, bluetoothapis/BLUETOOTH_PIN_INFO, bluetoothapis/PBLUETOOTH_PIN_INFO'
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_PIN_INFO"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_PIN_INFO
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_PIN_INFO
+- BLUETOOTH_PIN_INFO
 targetos: Windows
 req.typenames: BLUETOOTH_PIN_INFO, *PBLUETOOTH_PIN_INFO
 req.redist: 

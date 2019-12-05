@@ -1,19 +1,17 @@
 ---
 UID: NS:objidlbase.tagSOLE_AUTHENTICATION_LIST
 title: SOLE_AUTHENTICATION_LIST (objidlbase.h)
-
 description: Indicates the default authentication information to use with each authentication service.
 old-location: com\sole_authentication_list.htm
 tech.root: com
 ms.assetid: 21f7aef3-b6be-41cc-a6ed-16d3778e3cee
-
 ms.date: 12/05/2018
-ms.keywords: "*PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST structure pointer [COM], SOLE_AUTHENTICATION_LIST, SOLE_AUTHENTICATION_LIST structure [COM], _com_SOLE_AUTHENTICATION_LIST, com.sole_authentication_list, objidlbase/PSOLE_AUTHENTICATION_LIST, objidlbase/SOLE_AUTHENTICATION_LIST, tagSOLE_AUTHENTICATION_LIST"
+ms.keywords: '*PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST, PSOLE_AUTHENTICATION_LIST structure pointer [COM], SOLE_AUTHENTICATION_LIST, SOLE_AUTHENTICATION_LIST structure [COM], _com_SOLE_AUTHENTICATION_LIST, com.sole_authentication_list, objidlbase/PSOLE_AUTHENTICATION_LIST, objidlbase/SOLE_AUTHENTICATION_LIST, tagSOLE_AUTHENTICATION_LIST'
 ms.topic: struct
-f1_keywords: 
- - "objidlbase/SOLE_AUTHENTICATION_LIST"
+f1_keywords:
+- objidlbase/SOLE_AUTHENTICATION_LIST
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - SOLE_AUTHENTICATION_LIST
+- SOLE_AUTHENTICATION_LIST
 targetos: Windows
 req.typenames: SOLE_AUTHENTICATION_LIST, *PSOLE_AUTHENTICATION_LIST
 req.redist: 

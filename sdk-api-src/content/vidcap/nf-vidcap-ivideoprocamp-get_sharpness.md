@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Sharpness
 title: IVideoProcAmp::get_Sharpness (vidcap.h)
-
 description: The get_Sharpness method returns the camera's sharpness setting.
 old-location: dshow\ivideoprocamp_get_sharpness.htm
 tech.root: DirectShow
 ms.assetid: 12cb9934-4cef-4356-9b59-6b4e6caca573
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_Sharpness method, IVideoProcAmp.get_Sharpness, IVideoProcAmp::get_Sharpness, IVideoProcAmpget_Sharpness, dshow.ivideoprocamp_get_sharpness, get_Sharpness, get_Sharpness method [DirectShow], get_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_Sharpness
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.get_Sharpness"
+f1_keywords:
+- vidcap/IVideoProcAmp.get_Sharpness
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.get_Sharpness
+- IVideoProcAmp.get_Sharpness
 targetos: Windows
 req.typenames: 
 req.redist: 

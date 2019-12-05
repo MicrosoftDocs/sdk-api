@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_BLEND
 title: D2D1_BLEND (d2d1effectauthor.h)
-
 description: Specifies how one of the color sources is to be derived and optionally specifies a preblend operation on the color source.
 old-location: direct2d\d2d1_blend.htm
 tech.root: Direct2D
 ms.assetid: 9bc91efd-f695-4bc6-a63e-a3862cca91dd
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_BLEND, D2D1_BLEND enumeration [Direct2D], D2D1_BLEND_BLEND_FACTOR, D2D1_BLEND_DEST_ALPHA, D2D1_BLEND_DEST_COLOR, D2D1_BLEND_INV_BLEND_FACTOR, D2D1_BLEND_INV_DEST_ALPHA, D2D1_BLEND_INV_DEST_COLOR, D2D1_BLEND_INV_SRC_ALPHA, D2D1_BLEND_INV_SRC_COLOR, D2D1_BLEND_ONE, D2D1_BLEND_SRC_ALPHA, D2D1_BLEND_SRC_ALPHA_SAT, D2D1_BLEND_SRC_COLOR, D2D1_BLEND_ZERO, d2d1effectauthor/D2D1_BLEND, d2d1effectauthor/D2D1_BLEND_BLEND_FACTOR, d2d1effectauthor/D2D1_BLEND_DEST_ALPHA, d2d1effectauthor/D2D1_BLEND_DEST_COLOR, d2d1effectauthor/D2D1_BLEND_INV_BLEND_FACTOR, d2d1effectauthor/D2D1_BLEND_INV_DEST_ALPHA, d2d1effectauthor/D2D1_BLEND_INV_DEST_COLOR, d2d1effectauthor/D2D1_BLEND_INV_SRC_ALPHA, d2d1effectauthor/D2D1_BLEND_INV_SRC_COLOR, d2d1effectauthor/D2D1_BLEND_ONE, d2d1effectauthor/D2D1_BLEND_SRC_ALPHA, d2d1effectauthor/D2D1_BLEND_SRC_ALPHA_SAT, d2d1effectauthor/D2D1_BLEND_SRC_COLOR, d2d1effectauthor/D2D1_BLEND_ZERO, direct2d.d2d1_blend
 ms.topic: enum
-f1_keywords: 
- - "d2d1effectauthor/D2D1_BLEND"
+f1_keywords:
+- d2d1effectauthor/D2D1_BLEND
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - d2d1effectauthor.lib
+- d2d1effectauthor.lib
 api_name:
- - D2D1_BLEND
+- D2D1_BLEND
 targetos: Windows
 req.typenames: D2D1_BLEND
 req.redist: 

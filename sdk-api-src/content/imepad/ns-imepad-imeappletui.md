@@ -1,19 +1,17 @@
 ---
 UID: NS:imepad.tagIMEAPPLETUI
 title: IMEAPPLETUI (imepad.h)
-
 description: Used by IImePadApplet::CreateUI to specify applet window style.
 old-location: intl\imeappletui.htm
 tech.root: Intl
 ms.assetid: 9C44287B-77A9-48FB-8A17-6CB0FA234EE2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationalization for Windows Applications], PIMEAPPLETUI, PIMEAPPLETUI structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETUI, imepad/PIMEAPPLETUI, intl.imeappletui"
+ms.keywords: '*LPIMEAPPLETUI, IMEAPPLETUI, IMEAPPLETUI structure [Internationalization for Windows Applications], PIMEAPPLETUI, PIMEAPPLETUI structure pointer [Internationalization for Windows Applications], imepad/IMEAPPLETUI, imepad/PIMEAPPLETUI, intl.imeappletui'
 ms.topic: struct
-f1_keywords: 
- - "imepad/IMEAPPLETUI"
+f1_keywords:
+- imepad/IMEAPPLETUI
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - IMEAPPLETUI
+- IMEAPPLETUI
 targetos: Windows
 req.typenames: IMEAPPLETUI, *LPIMEAPPLETUI
 req.redist: 

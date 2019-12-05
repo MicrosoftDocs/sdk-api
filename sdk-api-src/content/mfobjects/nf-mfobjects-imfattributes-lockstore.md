@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.LockStore
 title: IMFAttributes::LockStore (mfobjects.h)
-
 description: Locks the attribute store so that no other thread can access it.
 old-location: mf\imfattributes_lockstore.htm
 tech.root: medfound
 ms.assetid: 6ec7aed3-7dbc-4aa4-92d5-646aee757db7
-
 ms.date: 12/05/2018
 ms.keywords: 6ec7aed3-7dbc-4aa4-92d5-646aee757db7, IMFAttributes interface [Media Foundation],LockStore method, IMFAttributes.LockStore, IMFAttributes::LockStore, LockStore, LockStore method [Media Foundation], LockStore method [Media Foundation],IMFAttributes interface, mf.imfattributes_lockstore, mfobjects/IMFAttributes::LockStore
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.LockStore"
+f1_keywords:
+- mfobjects/IMFAttributes.LockStore
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.LockStore
+- IMFAttributes.LockStore
 targetos: Windows
 req.typenames: 
 req.redist: 

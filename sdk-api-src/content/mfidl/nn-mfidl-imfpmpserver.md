@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFPMPServer
 title: IMFPMPServer (mfidl.h)
-
 description: Enables two instances of the Media Session to share the same protected media path (PMP) process.
 old-location: mf\imfpmpserver.htm
 tech.root: medfound
 ms.assetid: ba6dc70a-d77d-41de-afe1-65f2efcc4a95
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMPServer, IMFPMPServer interface [Media Foundation], IMFPMPServer interface [Media Foundation],described, ba6dc70a-d77d-41de-afe1-65f2efcc4a95, mf.imfpmpserver, mfidl/IMFPMPServer
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFPMPServer"
+f1_keywords:
+- mfidl/IMFPMPServer
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPMPServer
+- IMFPMPServer
 targetos: Windows
 req.typenames: 
 req.redist: 

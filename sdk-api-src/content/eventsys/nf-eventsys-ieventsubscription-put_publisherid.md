@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_PublisherID
 title: IEventSubscription::put_PublisherID (eventsys.h)
-
 description: The unique ID of the event publisher.
 old-location: cos\ieventsubscription_publisherid.htm
 tech.root: cossdk
 ms.assetid: 94f335be-aeb5-4d24-b475-e2aaae2b0a17
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],PublisherID property, IEventSubscription.PublisherID, IEventSubscription.put_PublisherID, IEventSubscription::PublisherID, IEventSubscription::get_PublisherID, IEventSubscription::put_PublisherID, PublisherID property [COM+], PublisherID property [COM+],IEventSubscription interface, cos.ieventsubscription_publisherid, eventsys/IEventSubscription::PublisherID, eventsys/IEventSubscription::get_PublisherID, eventsys/IEventSubscription::put_PublisherID, put_PublisherID
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.PublisherID"
+f1_keywords:
+- eventsys/IEventSubscription.PublisherID
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.PublisherID
- - IEventSubscription.get_PublisherID
- - IEventSubscription.put_PublisherID
+- IEventSubscription.PublisherID
+- IEventSubscription.get_PublisherID
+- IEventSubscription.put_PublisherID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsFreeSchemaGuidMapW
 title: DsFreeSchemaGuidMapW function (ntdsapi.h)
-
 description: Frees memory that the DsMapSchemaGuids function has allocated for a DS_SCHEMA_GUID_MAP structure.
 old-location: ad\dsfreeschemaguidmap.htm
 tech.root: ad
 ms.assetid: 54d6acb9-5602-4996-a483-08534143bc0a
-
 ms.date: 12/05/2018
 ms.keywords: DsFreeSchemaGuidMap, DsFreeSchemaGuidMap function [Active Directory], DsFreeSchemaGuidMapA, DsFreeSchemaGuidMapW, _glines_dsfreeschemaguidmap, ad.dsfreeschemaguidmap, ntdsapi/DsFreeSchemaGuidMap, ntdsapi/DsFreeSchemaGuidMapA, ntdsapi/DsFreeSchemaGuidMapW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsFreeSchemaGuidMap"
+f1_keywords:
+- ntdsapi/DsFreeSchemaGuidMap
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsFreeSchemaGuidMap
- - DsFreeSchemaGuidMapA
- - DsFreeSchemaGuidMapW
+- DsFreeSchemaGuidMap
+- DsFreeSchemaGuidMapA
+- DsFreeSchemaGuidMapW
 targetos: Windows
 req.typenames: 
 req.redist: 

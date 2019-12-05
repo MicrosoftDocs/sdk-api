@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpaceEx
 title: WSCInstallNameSpaceEx function (ws2spi.h)
-
 description: Installs a namespace provider.
 old-location: winsock\wscinstallnamespaceex.htm
 tech.root: WinSock
 ms.assetid: 13dde602-c958-4312-a16f-a393dd6fb829
-
 ms.date: 12/05/2018
 ms.keywords: WSCInstallNameSpaceEx, WSCInstallNameSpaceEx function [Winsock], winsock.wscinstallnamespaceex, ws2spi/WSCInstallNameSpaceEx
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCInstallNameSpaceEx"
+f1_keywords:
+- ws2spi/WSCInstallNameSpaceEx
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCInstallNameSpaceEx
+- WSCInstallNameSpaceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

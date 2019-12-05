@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICSeqCompressFrameEnd
 title: ICSeqCompressFrameEnd function (vfw.h)
-
 description: The ICSeqCompressFrameEnd function ends sequence compression that was initiated by using the ICSeqCompressFrameStart and ICSeqCompressFrame functions.
 old-location: multimedia\icseqcompressframeend.htm
 tech.root: Multimedia
 ms.assetid: 3fdcd18d-4ee7-4b5a-871d-61316c716e06
-
 ms.date: 12/05/2018
 ms.keywords: ICSeqCompressFrameEnd, ICSeqCompressFrameEnd function [Windows Multimedia], _win32_ICSeqCompressFrameEnd, multimedia.icseqcompressframeend, vfw/ICSeqCompressFrameEnd
 ms.topic: function
-f1_keywords: 
- - "vfw/ICSeqCompressFrameEnd"
+f1_keywords:
+- vfw/ICSeqCompressFrameEnd
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICSeqCompressFrameEnd
+- ICSeqCompressFrameEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

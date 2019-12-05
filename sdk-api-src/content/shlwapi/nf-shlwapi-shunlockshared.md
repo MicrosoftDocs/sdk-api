@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHUnlockShared
 title: SHUnlockShared function (shlwapi.h)
-
 description: SHUnlockShared may be altered or unavailable.
 old-location: shell\SHUnlockShared.htm
 tech.root: shell
 ms.assetid: 8ecbf62b-fd0d-4a8d-bd55-42c0c3f64390
-
 ms.date: 12/05/2018
 ms.keywords: SHUnlockShared, SHUnlockShared function [Windows Shell], _win32_SHUnlockShared, shell.SHUnlockShared, shlwapi/SHUnlockShared
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHUnlockShared"
+f1_keywords:
+- shlwapi/SHUnlockShared
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHUnlockShared
+- SHUnlockShared
 targetos: Windows
 req.typenames: 
 req.redist: 

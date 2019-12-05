@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolutionItems.GetCount
 title: ISyncMgrConflictResolutionItems::GetCount (syncmgr.h)
-
 description: Gets item count.
 old-location: shell\ISyncMgrConflictResolutionItems_GetCount.htm
 tech.root: shell
 ms.assetid: 6842d091-210c-46de-b768-e9a145b0565d
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ISyncMgrConflictResolutionItems interface, ISyncMgrConflictResolutionItems interface [Windows Shell],GetCount method, ISyncMgrConflictResolutionItems.GetCount, ISyncMgrConflictResolutionItems::GetCount, _shell_ISyncMgrConflictResolutionItems_GetCount, shell.ISyncMgrConflictResolutionItems_GetCount, syncmgr/ISyncMgrConflictResolutionItems::GetCount
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolutionItems.GetCount"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolutionItems.GetCount
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolutionItems.GetCount
+- ISyncMgrConflictResolutionItems.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

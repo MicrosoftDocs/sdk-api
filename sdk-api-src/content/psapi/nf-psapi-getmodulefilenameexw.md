@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.GetModuleFileNameExW
 title: GetModuleFileNameExW function (psapi.h)
-
 description: Retrieves the fully qualified path for the file containing the specified module.
 old-location: psapi\getmodulefilenameex.htm
 tech.root: psapi
 ms.assetid: 4199ce12-e82f-4a58-ac66-e0ddc0dffbff
-
 ms.date: 12/05/2018
 ms.keywords: GetModuleFileNameEx, GetModuleFileNameEx function [PSAPI], GetModuleFileNameExA, GetModuleFileNameExW, K32GetModuleFileNameEx, K32GetModuleFileNameExA, K32GetModuleFileNameExW, _win32_getmodulefilenameex, base.getmodulefilenameex, psapi.getmodulefilenameex, psapi/GetModuleFileNameEx, psapi/GetModuleFileNameExA, psapi/GetModuleFileNameExW, psapi/K32GetModuleFileNameEx, psapi/K32GetModuleFileNameExA, psapi/K32GetModuleFileNameExW
 ms.topic: function
-f1_keywords: 
- - "psapi/GetModuleFileNameEx"
+f1_keywords:
+- psapi/GetModuleFileNameEx
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
- - API-Ms-Win-Core-PsAPI-L1-1-0.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-Obsolete-L1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
+- API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
- - GetModuleFileNameEx
- - GetModuleFileNameExA
- - GetModuleFileNameExW
- - K32GetModuleFileNameEx
- - K32GetModuleFileNameExW
- - K32GetModuleFileNameExA
+- GetModuleFileNameEx
+- GetModuleFileNameExA
+- GetModuleFileNameExW
+- K32GetModuleFileNameEx
+- K32GetModuleFileNameExW
+- K32GetModuleFileNameExA
 targetos: Windows
 req.typenames: 
 req.redist: 

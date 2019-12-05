@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.put_Name
 title: IWdsTransportNamespace::put_Name (wdstptmgmt.h)
-
 description: Sets or retrieves the name of the namespace.
 old-location: wds\iwdstransportnamespace_name.htm
 tech.root: wds
 ms.assetid: 242f97de-1748-4d60-b945-3d38e1976879
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],Name property, IWdsTransportNamespace.Name, IWdsTransportNamespace.put_Name, IWdsTransportNamespace::Name, IWdsTransportNamespace::get_Name, IWdsTransportNamespace::put_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportNamespace interface, put_Name, wds.iwdstransportnamespace_name, wdstptmgmt/IWdsTransportNamespace::Name, wdstptmgmt/IWdsTransportNamespace::get_Name, wdstptmgmt/IWdsTransportNamespace::put_Name
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.Name"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.Name
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.Name
- - IWdsTransportNamespace.get_Name
- - IWdsTransportNamespace.put_Name
+- IWdsTransportNamespace.Name
+- IWdsTransportNamespace.get_Name
+- IWdsTransportNamespace.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

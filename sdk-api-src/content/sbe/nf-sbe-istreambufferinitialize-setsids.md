@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferInitialize.SetSIDs
 title: IStreamBufferInitialize::SetSIDs (sbe.h)
-
 description: The SetSIDs method sets the security identifiers (SIDs) that are used to protect access to the backing files.
 old-location: mstv\istreambufferinitialize_setsids.htm
 tech.root: mstv
 ms.assetid: bd25a967-9335-4bbd-ac85-f8b25f2be563
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferInitialize interface [Microsoft TV Technologies],SetSIDs method, IStreamBufferInitialize.SetSIDs, IStreamBufferInitialize::SetSIDs, IStreamBufferInitializeSetSIDs, SetSIDs, SetSIDs method [Microsoft TV Technologies], SetSIDs method [Microsoft TV Technologies],IStreamBufferInitialize interface, mstv.istreambufferinitialize_setsids, sbe/IStreamBufferInitialize::SetSIDs
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferInitialize.SetSIDs"
+f1_keywords:
+- sbe/IStreamBufferInitialize.SetSIDs
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferInitialize.SetSIDs
+- IStreamBufferInitialize.SetSIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

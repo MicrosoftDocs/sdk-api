@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IFolderBandPriv.SetAccelerators
 title: IFolderBandPriv::SetAccelerators (shobjidl.h)
-
 description: Sets accelerators.
 old-location: shell\IFolderBandPriv_SetAccelerators.htm
 tech.root: shell
 ms.assetid: c8461870-2fe7-49ae-8a8e-c5d929d963e5
-
 ms.date: 12/05/2018
 ms.keywords: IFolderBandPriv interface [Windows Shell],SetAccelerators method, IFolderBandPriv.SetAccelerators, IFolderBandPriv::SetAccelerators, SetAccelerators, SetAccelerators method [Windows Shell], SetAccelerators method [Windows Shell],IFolderBandPriv interface, _win32_IFolderBandPriv_SetAccelerators, shell.IFolderBandPriv_SetAccelerators, shobjidl/IFolderBandPriv::SetAccelerators
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IFolderBandPriv.SetAccelerators"
+f1_keywords:
+- shobjidl/IFolderBandPriv.SetAccelerators
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderBandPriv.SetAccelerators
+- IFolderBandPriv.SetAccelerators
 targetos: Windows
 req.typenames: 
 req.redist: 

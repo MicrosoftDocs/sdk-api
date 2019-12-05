@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList2.GetCallback
 title: IImageList2::GetCallback (commoncontrols.h)
-
 description: Gets an image list callback object.
 old-location: controls\IImageList2_GetCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\getcallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCallback, GetCallback method [Windows Controls], GetCallback method [Windows Controls],IImageList2 interface, IImageList2 interface [Windows Controls],GetCallback method, IImageList2.GetCallback, IImageList2::GetCallback, _shell_IImageList2_GetCallback, _shell_IImageList2_GetCallback_cpp, commoncontrols/IImageList2::GetCallback, controls.IImageList2_GetCallback, controls._shell_IImageList2_GetCallback
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList2.GetCallback"
+f1_keywords:
+- commoncontrols/IImageList2.GetCallback
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList2.GetCallback
+- IImageList2.GetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

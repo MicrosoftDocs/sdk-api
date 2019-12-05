@@ -1,19 +1,17 @@
 ---
 UID: NN:tvratings.IXDSToRat
 title: IXDSToRat (tvratings.h)
-
 description: The IXDSToRat interface parses rating information from extended data services (XDS) information in line 21.
 old-location: mstv\ixdstorat.htm
 tech.root: mstv
 ms.assetid: de65e5cd-3f4b-4925-a6b8-636fc2e332ec
-
 ms.date: 12/05/2018
 ms.keywords: IXDSToRat, IXDSToRat interface [Microsoft TV Technologies], IXDSToRat interface [Microsoft TV Technologies],described, IXDSToRatInterface, mstv.ixdstorat, tvratings/IXDSToRat
 ms.topic: interface
-f1_keywords: 
- - "tvratings/IXDSToRat"
+f1_keywords:
+- tvratings/IXDSToRat
 dev_langs:
- - c++
+- c++
 req.header: tvratings.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tvratings.h
+- Tvratings.h
 api_name:
- - IXDSToRat
+- IXDSToRat
 targetos: Windows
 req.typenames: 
 req.redist: 

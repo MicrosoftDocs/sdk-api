@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionVisual2
 title: IDCompositionVisual2 (dcomp.h)
-
 description: Represents one DirectComposition visual in a visual tree.
 old-location: directcomp\idcompositionvisual2.htm
 tech.root: directcomp
 ms.assetid: D4D04A43-BF00-482A-9CDD-A476BD1CB953
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual2, IDCompositionVisual2 interface [DirectComposition], IDCompositionVisual2 interface [DirectComposition],described, dcomp/IDCompositionVisual2, directcomp.idcompositionvisual2
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionVisual2"
+f1_keywords:
+- dcomp/IDCompositionVisual2
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual2
+- IDCompositionVisual2
 targetos: Windows
 req.typenames: 
 req.redist: 

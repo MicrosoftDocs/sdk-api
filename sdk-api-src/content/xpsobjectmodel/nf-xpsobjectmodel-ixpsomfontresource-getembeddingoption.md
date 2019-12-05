@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetEmbeddingOption
 title: IXpsOMFontResource::GetEmbeddingOption (xpsobjectmodel.h)
-
 description: Gets the embedding option that will be applied when the resource is serialized.
 old-location: xps\ixpsomfontresource_getembeddingoption.htm
 tech.root: printdocs
 ms.assetid: 8c4b3741-2c9c-4964-ae51-53dd738e8d9b
-
 ms.date: 12/05/2018
 ms.keywords: GetEmbeddingOption, GetEmbeddingOption method [XPS Documents and Packaging], GetEmbeddingOption method [XPS Documents and Packaging],IXpsOMFontResource interface, IXpsOMFontResource interface [XPS Documents and Packaging],GetEmbeddingOption method, IXpsOMFontResource.GetEmbeddingOption, IXpsOMFontResource::GetEmbeddingOption, XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, xps.ixpsomfontresource_getembeddingoption, xpsobjectmodel/IXpsOMFontResource::GetEmbeddingOption
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMFontResource.GetEmbeddingOption"
+f1_keywords:
+- xpsobjectmodel/IXpsOMFontResource.GetEmbeddingOption
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMFontResource.GetEmbeddingOption
+- IXpsOMFontResource.GetEmbeddingOption
 targetos: Windows
 req.typenames: 
 req.redist: 

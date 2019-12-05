@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IISDB_SDT
 title: IISDB_SDT (dvbsiparser.h)
-
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) service description table (SDT). An SDT lists the names and other parameters of the services in an MPEG-2 transport stream.
 old-location: mstv\iisdb_sdt.htm
 tech.root: mstv
 ms.assetid: a9824eb9-ec12-4a09-ba42-243fe19c0670
-
 ms.date: 12/05/2018
 ms.keywords: IISDB_SDT, IISDB_SDT interface [Microsoft TV Technologies], IISDB_SDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_SDT, mstv.iisdb_sdt
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IISDB_SDT"
+f1_keywords:
+- dvbsiparser/IISDB_SDT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_SDT
+- IISDB_SDT
 targetos: Windows
 req.typenames: 
 req.redist: 

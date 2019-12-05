@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstci.WdsTransportClientInitialize
 title: WdsTransportClientInitialize function (wdstci.h)
-
 description: Initializes the Multicast Client.
 old-location: wds\wdstransportclientinitialize.htm
 tech.root: wds
 ms.assetid: 6494a155-61de-40bd-a29a-79134da96bbe
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientInitialize, WdsTransportClientInitialize function [Windows Deployment Services], wds.wdstransportclientinitialize, wdstci/WdsTransportClientInitialize
 ms.topic: function
-f1_keywords: 
- - "wdstci/WdsTransportClientInitialize"
+f1_keywords:
+- wdstci/WdsTransportClientInitialize
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdstptc.lib
 req.dll: Wdstptc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdstptc.dll
+- Wdstptc.dll
 api_name:
- - WdsTransportClientInitialize
+- WdsTransportClientInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

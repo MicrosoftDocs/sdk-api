@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngEnumForms
 title: EngEnumForms function (winddi.h)
-
 description: The EngEnumForms function enumerates the forms supported by the specified printer.
 old-location: display\engenumforms.htm
 tech.root: display
 ms.assetid: c249bb86-52cf-4c9d-9ea2-7e3a7d14a31a
-
 ms.date: 12/05/2018
 ms.keywords: EngEnumForms, EngEnumForms function [Display Devices], display.engenumforms, gdifncs_62f2ba18-75e2-4636-94cf-c4a0b2b63ab1.xml, winddi/EngEnumForms
 ms.topic: function
-f1_keywords: 
- - "winddi/EngEnumForms"
+f1_keywords:
+- winddi/EngEnumForms
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngEnumForms
+- EngEnumForms
 targetos: Windows
 req.typenames: 
 req.redist: 

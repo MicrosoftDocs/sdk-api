@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IExtendView.GetViews
 title: IExtendView::GetViews (mmc.h)
-
 description: The GetViews method retrieves information about the extended view and adds extended views to the result pane.
 old-location: mmc\iextendview_getviews.htm
 tech.root: mmc
 ms.assetid: 447b51b1-e206-43c8-8536-049c831dedb7
-
 ms.date: 12/05/2018
 ms.keywords: GetViews, GetViews method [MMC], GetViews method [MMC],IExtendView interface, IExtendView interface [MMC],GetViews method, IExtendView.GetViews, IExtendView::GetViews, _slate_iextendview_getviews, mmc.iextendview_getviews, mmc/IExtendView::GetViews
 ms.topic: method
-f1_keywords: 
- - "mmc/IExtendView.GetViews"
+f1_keywords:
+- mmc/IExtendView.GetViews
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendView.GetViews
+- IExtendView.GetViews
 targetos: Windows
 req.typenames: 
 req.redist: 

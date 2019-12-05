@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminTransportCreate
 title: MprAdminTransportCreate function (mprapi.h)
-
 description: The MprAdminTransportCreate function loads a new transport, and starts the router manager for the transport.
 old-location: rras\mpradmintransportcreate.htm
 tech.root: RRAS
 ms.assetid: 14639cec-9c9a-48f5-b7cc-0aaca7ececbc
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminTransportCreate, MprAdminTransportCreate function [RAS], _mpr_mpradmintransportcreate, mprapi/MprAdminTransportCreate, rras.mpradmintransportcreate
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminTransportCreate"
+f1_keywords:
+- mprapi/MprAdminTransportCreate
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminTransportCreate
+- MprAdminTransportCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:mswsock.LPFN_RIOSENDEX
 title: LPFN_RIOSENDEX
-
 description: Sends network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket with additional options for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: BD246278-C2BF-48E6-97AD-65057EDA1F59
-
 ms.date: 01/30/19
 ms.keywords: LPFN_RIOSENDEX
 ms.topic: language-reference
-f1_keywords: 
- - "mswsock/LPFN_RIOSENDEX"
+f1_keywords:
+- mswsock/LPFN_RIOSENDEX
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -35,13 +33,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - mswsock.h
+- mswsock.h
 api_name:
- - LPFN_RIOSENDEX
+- LPFN_RIOSENDEX
 ---
 
 ## -description

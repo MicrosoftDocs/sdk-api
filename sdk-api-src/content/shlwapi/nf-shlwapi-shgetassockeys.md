@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHGetAssocKeys
 title: SHGetAssocKeys function (shlwapi.h)
-
 description: Retrieves an array of class subkeys associated with an IQueryAssociations object.
 old-location: shell\shgetassockeys.htm
 tech.root: shell
 ms.assetid: 0DCB7E41-5986-40CA-A68D-EC6688EB42C0
-
 ms.date: 12/05/2018
 ms.keywords: SHGetAssocKeys, SHGetAssocKeys function [Windows Shell], shell.shgetassockeys, shlwapi/SHGetAssocKeys
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHGetAssocKeys"
+f1_keywords:
+- shlwapi/SHGetAssocKeys
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHGetAssocKeys
+- SHGetAssocKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

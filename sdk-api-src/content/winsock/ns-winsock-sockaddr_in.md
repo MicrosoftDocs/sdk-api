@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock.sockaddr_in
 title: SOCKADDR_IN (winsock.h)
-
 description: The sockaddr structure varies depending on the protocol selected.
 old-location: winsock\sockaddr_2.htm
 tech.root: WinSock
 ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSOCKADDR_IN, *PSOCKADDR_IN, SOCKADDR, SOCKADDR_IN, SOCKADDR_IN6, _win32_sockaddr_2, sockaddr, sockaddr structure [Winsock], sockaddr_in, sockaddr_in6, sockaddr_in6_old, winsock.sockaddr_2, winsock/sockaddr"
+ms.keywords: '*LPSOCKADDR_IN, *PSOCKADDR_IN, SOCKADDR, SOCKADDR_IN, SOCKADDR_IN6, _win32_sockaddr_2, sockaddr, sockaddr structure [Winsock], sockaddr_in, sockaddr_in6, sockaddr_in6_old, winsock.sockaddr_2, winsock/sockaddr'
 ms.topic: struct
-f1_keywords: 
- - "winsock/sockaddr"
+f1_keywords:
+- winsock/sockaddr
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Ws2ipdef.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsock.h
+- winsock.h
 api_name:
- - sockaddr
+- sockaddr
 targetos: Windows
 req.typenames: SOCKADDR_IN, *PSOCKADDR_IN, *LPSOCKADDR_IN
 req.redist: 

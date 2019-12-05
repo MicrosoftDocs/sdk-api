@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateColorContextFromWicColorContext
 title: ID2D1EffectContext::CreateColorContextFromWicColorContext (d2d1effectauthor.h)
-
 description: Creates a color context from an IWICColorContext. The D2D1ColorContext space of the resulting context varies, see Remarks for more info.
 old-location: direct2d\id2d1contextinternal_createcolorcontextfromwiccolorcontext.htm
 tech.root: Direct2D
 ms.assetid: 4A269666-28A1-4A03-823B-60C6A1A9D73E
-
 ms.date: 12/05/2018
 ms.keywords: CreateColorContextFromWicColorContext, CreateColorContextFromWicColorContext method [Direct2D], CreateColorContextFromWicColorContext method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateColorContextFromWicColorContext method, ID2D1EffectContext.CreateColorContextFromWicColorContext, ID2D1EffectContext::CreateColorContextFromWicColorContext, d2d1effectauthor/ID2D1EffectContext::CreateColorContextFromWicColorContext, direct2d.id2d1contextinternal_createcolorcontextfromwiccolorcontext
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.CreateColorContextFromWicColorContext"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.CreateColorContextFromWicColorContext
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - ID2D1EffectContext.CreateColorContextFromWicColorContext
+- ID2D1EffectContext.CreateColorContextFromWicColorContext
 targetos: Windows
 req.typenames: 
 req.redist: 

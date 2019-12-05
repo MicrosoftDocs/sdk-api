@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.IsUpdateNeeded
 title: IAzAuthorizationStore3::IsUpdateNeeded (azroles.h)
-
 description: Checks whether the persisted version of this authorization store is newer than the cached version.
 old-location: security\iazauthorizationstore3_isupdateneeded_method.htm
 tech.root: SecAuthZ
 ms.assetid: 2b5bed8f-f38a-46dd-b889-65d43b13ce7c
-
 ms.date: 12/05/2018
 ms.keywords: IAzAuthorizationStore3 interface [Security],IsUpdateNeeded method, IAzAuthorizationStore3.IsUpdateNeeded, IAzAuthorizationStore3::IsUpdateNeeded, IsUpdateNeeded, IsUpdateNeeded method [Security], IsUpdateNeeded method [Security],IAzAuthorizationStore3 interface, azroles/IAzAuthorizationStore3::IsUpdateNeeded, security.iazauthorizationstore3_isupdateneeded_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzAuthorizationStore3.IsUpdateNeeded"
+f1_keywords:
+- azroles/IAzAuthorizationStore3.IsUpdateNeeded
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzAuthorizationStore3.IsUpdateNeeded
+- IAzAuthorizationStore3.IsUpdateNeeded
 targetos: Windows
 req.typenames: 
 req.redist: 

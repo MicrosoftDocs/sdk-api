@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToBuffer
 title: ISpatialAudioMetadataItemsBuffer::AttachToBuffer (spatialaudiometadata.h)
-
 description: Attaches caller-provided memory for storage of ISpatialAudioMetadataItems objects.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtobuffer.htm
 tech.root: CoreAudio
 ms.assetid: CAB1E4C6-5572-47D0-B96F-0479773B8106
-
 ms.date: 12/05/2018
 ms.keywords: AttachToBuffer, AttachToBuffer method [Core Audio], AttachToBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToBuffer, ISpatialAudioMetadataItemsBuffer::AttachToBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtobuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToBuffer
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToBuffer"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToBuffer
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItemsBuffer.AttachToBuffer
+- ISpatialAudioMetadataItemsBuffer.AttachToBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

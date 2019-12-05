@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.GetMaximumCacheSize
 title: IBitsPeerCacheAdministration::GetMaximumCacheSize (bits3_0.h)
-
 description: Gets the maximum size of the cache.
 old-location: bits\ibitspeercacheadministration_getmaximumcachesize.htm
 tech.root: Bits
 ms.assetid: 6ea0e6f7-c674-4088-9085-5f6246681009
-
 ms.date: 12/05/2018
 ms.keywords: GetMaximumCacheSize, GetMaximumCacheSize method [BITS], GetMaximumCacheSize method [BITS],IBitsPeerCacheAdministration interface, IBitsPeerCacheAdministration interface [BITS],GetMaximumCacheSize method, IBitsPeerCacheAdministration.GetMaximumCacheSize, IBitsPeerCacheAdministration::GetMaximumCacheSize, bits.ibitspeercacheadministration_getmaximumcachesize, bits3_0/IBitsPeerCacheAdministration::GetMaximumCacheSize
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheAdministration.GetMaximumCacheSize"
+f1_keywords:
+- bits3_0/IBitsPeerCacheAdministration.GetMaximumCacheSize
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheAdministration.GetMaximumCacheSize
+- IBitsPeerCacheAdministration.GetMaximumCacheSize
 targetos: Windows
 req.typenames: 
 req.redist: 

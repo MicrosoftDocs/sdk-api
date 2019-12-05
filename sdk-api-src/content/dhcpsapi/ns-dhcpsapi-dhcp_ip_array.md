@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_IP_ARRAY
 title: DHCP_IP_ARRAY (dhcpsapi.h)
-
 description: The DHCP_IP_ARRAY structure defines an array of IP addresses.
 old-location: dhcp\dhcp_ip_array.htm
 tech.root: DHCP
 ms.assetid: 84f42e55-8364-4119-83e4-c03699a9aa0a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_IP_ARRAY, DHCP_IP_ARRAY, DHCP_IP_ARRAY structure [DHCP], LPDHCP_IP_ARRAY, LPDHCP_IP_ARRAY structure pointer [DHCP], dhcp.dhcp_ip_array, dhcpsapi/LPDHCP_IP_ARRAY, dhcpsapi/_DHCP_IP_ARRAY"
+ms.keywords: '*LPDHCP_IP_ARRAY, DHCP_IP_ARRAY, DHCP_IP_ARRAY structure [DHCP], LPDHCP_IP_ARRAY, LPDHCP_IP_ARRAY structure pointer [DHCP], dhcp.dhcp_ip_array, dhcpsapi/LPDHCP_IP_ARRAY, dhcpsapi/_DHCP_IP_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_IP_ARRAY"
+f1_keywords:
+- dhcpsapi/DHCP_IP_ARRAY
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_IP_ARRAY
+- DHCP_IP_ARRAY
 targetos: Windows
 req.typenames: DHCP_IP_ARRAY, *LPDHCP_IP_ARRAY
 req.redist: 

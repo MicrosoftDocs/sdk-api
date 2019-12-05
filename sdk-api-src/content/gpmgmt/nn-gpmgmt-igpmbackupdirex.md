@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMBackupDirEx
 title: IGPMBackupDirEx (gpmgmt.h)
-
 description: The IGPMBackupDirEx interface supports methods that allow you to query GPMBackup, GPMBackupCollection, GPMStarterGPOBackup, and GPMStarterGPOBackupCollection objects when you are using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmbackupdirex.htm
 tech.root: gpmc
 ms.assetid: 3008e70c-cc34-45b0-bdfc-17f2e9cd5de0
-
 ms.date: 12/05/2018
 ms.keywords: GPMBackupDirEx, IGPMBackupDirEx, IGPMBackupDirEx interface [GPMC], IGPMBackupDirEx interface [GPMC],described, gpmc.igpmbackupdirex, gpmgmt/IGPMBackupDirEx
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMBackupDirEx"
+f1_keywords:
+- gpmgmt/IGPMBackupDirEx
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMBackupDirEx
- - GPMBackupDirEx
+- IGPMBackupDirEx
+- GPMBackupDirEx
 targetos: Windows
 req.typenames: 
 req.redist: 

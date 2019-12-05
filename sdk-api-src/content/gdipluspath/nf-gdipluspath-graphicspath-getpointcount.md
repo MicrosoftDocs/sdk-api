@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPointCount
 title: GraphicsPath::GetPointCount (gdipluspath.h)
-
 description: The GraphicsPath::GetPointCount method gets the number of points in this path's array of data points. This is the same as the number of types in the path's array of point types.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPointCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\getpointcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPointCount, GetPointCount method [GDI+], GetPointCount method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPointCount method, GraphicsPath.GetPointCount, GraphicsPath::GetPointCount, _gdiplus_CLASS_GraphicsPath_GetPointCount_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPointCount_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GetPointCount"
+f1_keywords:
+- gdipluspath/GraphicsPath.GetPointCount
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.GetPointCount
+- GraphicsPath.GetPointCount
 targetos: Windows
 req.typenames: 
 req.redist: 

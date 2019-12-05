@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMPage1.GetDocumentType
 title: IXpsOMPage1::GetDocumentType (xpsobjectmodel_1.h)
-
 description: Gets the type of FixedPage markup that was used to initialize this page. This method is used to determine whether a document is the XPS or OpenXPS type. For more information, see XPS Documents.
 old-location: xps\ixpsompage1_getdocumenttype.htm
 tech.root: printdocs
 ms.assetid: b2456ffc-7a9d-41c2-b693-eb71909ccf3d
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentType, GetDocumentType method [XPS Documents and Packaging], GetDocumentType method [XPS Documents and Packaging],IXpsOMPage1 interface, IXpsOMPage1 interface [XPS Documents and Packaging],GetDocumentType method, IXpsOMPage1.GetDocumentType, IXpsOMPage1::GetDocumentType, xps.ixpsompage1_getdocumenttype, xpsobjectmodel_1/IXpsOMPage1::GetDocumentType
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMPage1.GetDocumentType"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMPage1.GetDocumentType
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMPage1.GetDocumentType
+- IXpsOMPage1.GetDocumentType
 targetos: Windows
 req.typenames: 
 req.redist: 

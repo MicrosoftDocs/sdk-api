@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstanceQuery
 title: IFunctionInstanceQuery (functiondiscoveryapi.h)
-
 description: Implements the asynchronous query for a function instance based on category and subcategory.
 old-location: ncd\ifunctioninstancequery.htm
 tech.root: FunDisc
 ms.assetid: 03343d85-c0db-436d-bedc-c001b1886173
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceQuery, IFunctionInstanceQuery interface, IFunctionInstanceQuery interface,described, functiondiscoveryapi/IFunctionInstanceQuery, ncd.ifunctioninstancequery
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceQuery"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceQuery
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceQuery
+- IFunctionInstanceQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

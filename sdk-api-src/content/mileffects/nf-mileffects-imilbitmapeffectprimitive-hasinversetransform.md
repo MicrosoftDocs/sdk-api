@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.HasInverseTransform
 title: IMILBitmapEffectPrimitive::HasInverseTransform (mileffects.h)
-
 description: Determines whether the effect has an inverse transform.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasinversetransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasinversetransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: HasInverseTransform, HasInverseTransform method [WPF Bitmap Effects], HasInverseTransform method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],HasInverseTransform method, IMILBitmapEffectPrimitive.HasInverseTransform, IMILBitmapEffectPrimitive::HasInverseTransform, _wibe_imilbitmapeffectprimitive_hasinversetransform, mileffects/IMILBitmapEffectPrimitive::HasInverseTransform, wibe._wibe_imilbitmapeffectprimitive_hasinversetransform
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectPrimitive.HasInverseTransform"
+f1_keywords:
+- mileffects/IMILBitmapEffectPrimitive.HasInverseTransform
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.HasInverseTransform
+- IMILBitmapEffectPrimitive.HasInverseTransform
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

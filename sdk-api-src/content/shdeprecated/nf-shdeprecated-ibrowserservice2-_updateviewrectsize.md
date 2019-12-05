@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._UpdateViewRectSize
 title: IBrowserService2::_UpdateViewRectSize (shdeprecated.h)
-
 description: Deprecated. Called to inform other functions involved in the browser view size negotiations that the allowable browser view dimensions have changed.
 old-location: shell\IBrowserService2__UpdateViewRectSize.htm
 tech.root: shell
 ms.assetid: 92860c13-cb67-4499-90fe-2b0254ae25c7
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_UpdateViewRectSize method, IBrowserService2._UpdateViewRectSize, IBrowserService2::_UpdateViewRectSize, _UpdateViewRectSize, _UpdateViewRectSize method [Windows Shell], _UpdateViewRectSize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_UpdateViewRectSize, shell.IBrowserService2__UpdateViewRectSize, zone_IBrowserService2__UpdateViewRectSize
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._UpdateViewRectSize"
+f1_keywords:
+- shdeprecated/IBrowserService2._UpdateViewRectSize
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._UpdateViewRectSize
+- IBrowserService2._UpdateViewRectSize
 targetos: Windows
 req.typenames: 
 req.redist: 

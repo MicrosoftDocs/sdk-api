@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaFilter.Pause
 title: IMediaFilter::Pause (strmif.h)
-
 description: The Pause method pauses the filter.
 old-location: dshow\imediafilter_pause.htm
 tech.root: DirectShow
 ms.assetid: 0dbd79be-8f44-4bac-b117-03e6316693f8
-
 ms.date: 12/05/2018
 ms.keywords: IBaseFilter interface [DirectShow],Pause method, IBaseFilter::Pause, IMediaFilter interface [DirectShow],Pause method, IMediaFilter.Pause, IMediaFilter::Pause, IMediaFilterPause, Pause, Pause method [DirectShow], Pause method [DirectShow],IBaseFilter interface, Pause method [DirectShow],IMediaFilter interface, dshow.imediafilter_pause, strmif/IBaseFilter::Pause, strmif/IMediaFilter::Pause
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaFilter.Pause"
+f1_keywords:
+- strmif/IMediaFilter.Pause
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaFilter.Pause
- - IBaseFilter.Pause
+- IMediaFilter.Pause
+- IBaseFilter.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

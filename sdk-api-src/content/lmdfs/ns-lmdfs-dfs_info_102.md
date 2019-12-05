@@ -1,19 +1,17 @@
 ---
 UID: NS:lmdfs._DFS_INFO_102
 title: DFS_INFO_102 (lmdfs.h)
-
 description: Contains a time-out value to associate with a Distributed File System (DFS) root or a link in a named DFS root.
 old-location: dfs\dfs_info_102_str.htm
 tech.root: Dfs
 ms.assetid: ca4da0a2-d5b3-4ad6-bc00-6629b9bf13e7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_102, *PDFS_INFO_102, DFS_INFO_102, DFS_INFO_102 structure [Distributed File System], LPDFS_INFO_102, LPDFS_INFO_102 structure pointer [Distributed File System], PDFS_INFO_102, PDFS_INFO_102 structure pointer [Distributed File System], _win32_dfs_info_102_str, dfs.dfs_info_102_str, fs.dfs_info_102_str, lmdfs/DFS_INFO_102, lmdfs/LPDFS_INFO_102, lmdfs/PDFS_INFO_102, netmgmt.dfs_info_102_str"
+ms.keywords: '*LPDFS_INFO_102, *PDFS_INFO_102, DFS_INFO_102, DFS_INFO_102 structure [Distributed File System], LPDFS_INFO_102, LPDFS_INFO_102 structure pointer [Distributed File System], PDFS_INFO_102, PDFS_INFO_102 structure pointer [Distributed File System], _win32_dfs_info_102_str, dfs.dfs_info_102_str, fs.dfs_info_102_str, lmdfs/DFS_INFO_102, lmdfs/LPDFS_INFO_102, lmdfs/PDFS_INFO_102, netmgmt.dfs_info_102_str'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_102"
+f1_keywords:
+- lmdfs/DFS_INFO_102
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_102
+- DFS_INFO_102
 targetos: Windows
 req.typenames: DFS_INFO_102, *PDFS_INFO_102, *LPDFS_INFO_102
 req.redist: 

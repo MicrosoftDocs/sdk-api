@@ -1,19 +1,17 @@
 ---
 UID: NF:mfspatialaudio.IMFSpatialAudioObjectBuffer.GetID
 title: IMFSpatialAudioObjectBuffer::GetID (mfspatialaudio.h)
-
 description: Returns the unique, unsigned 32-bit ID of the spatial audio object represented by the buffer.
 old-location: mf\imfspatialaudioobjectbuffer_getid.htm
 tech.root: medfound
 ms.assetid: 5BB0DEB2-B3B9-4723-973D-A9296D94DDE6
-
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [Media Foundation], GetID method [Media Foundation],IMFSpatialAudioObjectBuffer interface, IMFSpatialAudioObjectBuffer interface [Media Foundation],GetID method, IMFSpatialAudioObjectBuffer.GetID, IMFSpatialAudioObjectBuffer::GetID, mf.imfspatialaudioobjectbuffer_getid, mfspatialaudio/IMFSpatialAudioObjectBuffer::GetID
 ms.topic: method
-f1_keywords: 
- - "mfspatialaudio/IMFSpatialAudioObjectBuffer.GetID"
+f1_keywords:
+- mfspatialaudio/IMFSpatialAudioObjectBuffer.GetID
 dev_langs:
- - c++
+- c++
 req.header: mfspatialaudio.h
 req.include-header: Mfobjects.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfobjects.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.lib
- - mfobjects.dll
+- mfobjects.lib
+- mfobjects.dll
 api_name:
- - IMFSpatialAudioObjectBuffer.GetID
+- IMFSpatialAudioObjectBuffer.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 

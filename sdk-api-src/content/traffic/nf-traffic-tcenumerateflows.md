@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcEnumerateFlows
 title: TcEnumerateFlows function (traffic.h)
-
 description: The TcEnumerateFlows function enumerates installed flows and their associated filters on an interface.
 old-location: qos\tcenumerateflows.htm
 tech.root: QOS
 ms.assetid: eae90fae-a29a-4005-b8c6-a5e2c9a6c07f
-
 ms.date: 12/05/2018
 ms.keywords: TcEnumerateFlows, TcEnumerateFlows function [QOS], _gqos_tcenumerateflows, qos.tcenumerateflows, traffic/TcEnumerateFlows
 ms.topic: function
 f1_keywords:
 - traffic/TcEnumerateFlows
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

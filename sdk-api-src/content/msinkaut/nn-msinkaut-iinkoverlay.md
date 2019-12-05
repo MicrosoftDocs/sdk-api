@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkOverlay
 title: IInkOverlay (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinkoverlay.htm
 tech.root: tablet
 ms.assetid: ACE11946-113B-42EE-A3F1-0036B1DF8141
-
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC], IInkOverlay interface [Tablet PC],described, msinkaut/IInkOverlay, tablet.iinkoverlay
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkOverlay"
+f1_keywords:
+- msinkaut/IInkOverlay
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkOverlay
+- IInkOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 

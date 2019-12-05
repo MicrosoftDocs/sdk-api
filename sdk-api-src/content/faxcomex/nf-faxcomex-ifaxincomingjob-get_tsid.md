@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_TSID
 title: IFaxIncomingJob::get_TSID (faxcomex.h)
-
 description: The TSID property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax inbound job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9rqc.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingJob interface [Fax Service],TSID property, IFaxIncomingJob.TSID, IFaxIncomingJob.get_TSID, IFaxIncomingJob::TSID, IFaxIncomingJob::get_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxIncomingJob interface, _mfax_faxincomingjob.tsid, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_tsid_cpp, fax._mfax_faxincomingjob_tsid, faxcomex/IFaxIncomingJob::TSID, faxcomex/IFaxIncomingJob::get_TSID, get_TSID
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingJob.TSID"
+f1_keywords:
+- faxcomex/IFaxIncomingJob.TSID
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingJob.TSID
- - IFaxIncomingJob.get_TSID
- - IFaxIncomingJob.get_TSID
+- IFaxIncomingJob.TSID
+- IFaxIncomingJob.get_TSID
+- IFaxIncomingJob.get_TSID
 targetos: Windows
 req.typenames: 
 req.redist: 

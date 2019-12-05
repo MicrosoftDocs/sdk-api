@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Languages
 title: IInkRecognizer::get_Languages (msinkaut.h)
-
 description: Gets an array of language identifiers for the languages that the IInkRecognizer object supports.
 old-location: tablet\iinkrecognizer_languages.htm
 tech.root: tablet
 ms.assetid: 96419ffa-6af1-4e45-a831-f11564501975
-
 ms.date: 12/05/2018
 ms.keywords: 96419ffa-6af1-4e45-a831-f11564501975, IInkRecognizer interface [Tablet PC],Languages property, IInkRecognizer.Languages, IInkRecognizer.get_Languages, IInkRecognizer::Languages, IInkRecognizer::get_Languages, Languages property [Tablet PC], Languages property [Tablet PC],IInkRecognizer interface, get_Languages, msinkaut/IInkRecognizer::Languages, msinkaut/IInkRecognizer::get_Languages, tablet.iinkrecognizer_languages
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizer.Languages"
+f1_keywords:
+- msinkaut/IInkRecognizer.Languages
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizer.Languages
- - IInkRecognizer.get_Languages
- - IInkRecognizer.get_Languages
+- IInkRecognizer.Languages
+- IInkRecognizer.get_Languages
+- IInkRecognizer.get_Languages
 targetos: Windows
 req.typenames: 
 req.redist: 

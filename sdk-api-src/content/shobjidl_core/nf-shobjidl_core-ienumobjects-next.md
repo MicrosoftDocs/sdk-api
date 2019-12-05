@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumObjects.Next
 title: IEnumObjects::Next (shobjidl_core.h)
-
 description: Gets the next specified number and type of objects.
 old-location: shell\IEnumObjects_Next.htm
 tech.root: shell
 ms.assetid: 5c79d3e2-c1c9-4529-9a60-457c2d2e6af5
-
 ms.date: 12/05/2018
 ms.keywords: IEnumObjects interface [Windows Shell],Next method, IEnumObjects.Next, IEnumObjects::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumObjects interface, _shell_IEnumObjects_Next, shell.IEnumObjects_Next, shobjidl_core/IEnumObjects::Next
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumObjects.Next"
+f1_keywords:
+- shobjidl_core/IEnumObjects.Next
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumObjects.Next
+- IEnumObjects.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Serialize
 title: ITfPropertyStore::Serialize (msctf.h)
-
 description: ITfPropertyStore::Serialize method
 old-location: tsf\itfpropertystore_serialize.htm
 tech.root: TSF
 ms.assetid: b84bce22-684f-4326-9e28-0fc16b818732
-
 ms.date: 12/05/2018
 ms.keywords: ITfPropertyStore interface [Text Services Framework],Serialize method, ITfPropertyStore.Serialize, ITfPropertyStore::Serialize, Serialize, Serialize method [Text Services Framework], Serialize method [Text Services Framework],ITfPropertyStore interface, _tsf_itfpropertystore_serialize_ref, msctf/ITfPropertyStore::Serialize, tsf.itfpropertystore_serialize
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfPropertyStore.Serialize"
+f1_keywords:
+- msctf/ITfPropertyStore.Serialize
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfPropertyStore.Serialize
+- ITfPropertyStore.Serialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

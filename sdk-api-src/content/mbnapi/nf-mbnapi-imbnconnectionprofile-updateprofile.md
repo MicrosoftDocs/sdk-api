@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.UpdateProfile
 title: IMbnConnectionProfile::UpdateProfile (mbnapi.h)
-
 description: Updates the contents of the profile.
 old-location: mbn\imbnconnectionprofile_updateprofile.htm
 tech.root: mbn
 ms.assetid: 3243ffec-1897-4f26-853d-81a7198a892d
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionProfile interface [Microsoft Broadband Networks],UpdateProfile method, IMbnConnectionProfile.UpdateProfile, IMbnConnectionProfile::UpdateProfile, UpdateProfile, UpdateProfile method [Microsoft Broadband Networks], UpdateProfile method [Microsoft Broadband Networks],IMbnConnectionProfile interface, mbn.imbnconnectionprofile_updateprofile, mbnapi/IMbnConnectionProfile::UpdateProfile
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionProfile.UpdateProfile"
+f1_keywords:
+- mbnapi/IMbnConnectionProfile.UpdateProfile
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionProfile.UpdateProfile
+- IMbnConnectionProfile.UpdateProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

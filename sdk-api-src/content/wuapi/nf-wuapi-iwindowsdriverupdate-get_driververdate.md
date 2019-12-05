@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverVerDate
 title: IWindowsDriverUpdate::get_DriverVerDate (wuapi.h)
-
 description: Gets the driver version date of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driververdate.htm
 tech.root: Wua_Sdk
 ms.assetid: c9fd5ac5-13d3-4210-b4b9-a8e4d98d12be
-
 ms.date: 12/05/2018
 ms.keywords: DriverVerDate property [Windows Update Agent], DriverVerDate property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverVerDate property, IWindowsDriverUpdate.DriverVerDate, IWindowsDriverUpdate.get_DriverVerDate, IWindowsDriverUpdate::DriverVerDate, IWindowsDriverUpdate::get_DriverVerDate, get_DriverVerDate, wua.iwindowsdriverupdate_driververdate, wuapi/IWindowsDriverUpdate::DriverVerDate, wuapi/IWindowsDriverUpdate::get_DriverVerDate
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdate.DriverVerDate"
+f1_keywords:
+- wuapi/IWindowsDriverUpdate.DriverVerDate
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdate.DriverVerDate
- - IWindowsDriverUpdate.get_DriverVerDate
+- IWindowsDriverUpdate.DriverVerDate
+- IWindowsDriverUpdate.get_DriverVerDate
 targetos: Windows
 req.typenames: 
 req.redist: 

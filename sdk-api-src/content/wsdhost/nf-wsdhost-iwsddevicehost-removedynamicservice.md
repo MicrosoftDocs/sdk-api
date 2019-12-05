@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.RemoveDynamicService
 title: IWSDDeviceHost::RemoveDynamicService (wsdhost.h)
-
 description: Unregisters a service object that was registered using AddDynamicService.
 old-location: ncd\iwsddevicehost_removedynamicservice_method.htm
 tech.root: WsdApi
 ms.assetid: 45c314d3-966b-4b90-ab23-fec2a8e4bc0f
-
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,RemoveDynamicService method, IWSDDeviceHost.RemoveDynamicService, IWSDDeviceHost::RemoveDynamicService, RemoveDynamicService, RemoveDynamicService method, RemoveDynamicService method,IWSDDeviceHost interface, ncd.iwsddevicehost_removedynamicservice_method, wsdhost/IWSDDeviceHost::RemoveDynamicService
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost.RemoveDynamicService"
+f1_keywords:
+- wsdhost/IWSDDeviceHost.RemoveDynamicService
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost.RemoveDynamicService
+- IWSDDeviceHost.RemoveDynamicService
 targetos: Windows
 req.typenames: 
 req.redist: 

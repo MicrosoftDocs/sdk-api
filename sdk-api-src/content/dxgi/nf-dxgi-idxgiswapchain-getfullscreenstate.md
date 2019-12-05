@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetFullscreenState
 title: IDXGISwapChain::GetFullscreenState (dxgi.h)
-
 description: Get the state associated with full-screen mode.
 old-location: direct3ddxgi\idxgiswapchain_getfullscreenstate.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getfullscreenstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFullscreenState, GetFullscreenState method [DXGI], GetFullscreenState method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetFullscreenState method, IDXGISwapChain.GetFullscreenState, IDXGISwapChain::GetFullscreenState, d3b177d7-2b70-fc90-2a07-3046eb5fdf48, direct3ddxgi.idxgiswapchain_getfullscreenstate, dxgi/IDXGISwapChain::GetFullscreenState
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISwapChain.GetFullscreenState"
+f1_keywords:
+- dxgi/IDXGISwapChain.GetFullscreenState
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISwapChain.GetFullscreenState
+- IDXGISwapChain.GetFullscreenState
 targetos: Windows
 req.typenames: 
 req.redist: 

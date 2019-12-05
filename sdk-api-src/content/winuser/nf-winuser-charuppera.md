@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CharUpperA
 title: CharUpperA function (winuser.h)
-
 description: Converts a character string or a single character to uppercase. If the operand is a character string, the function converts the characters in place.
 old-location: menurc\charupper.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charupper.htm
-
 ms.date: 12/05/2018
 ms.keywords: CharUpper, CharUpper function [Menus and Other Resources], CharUpperA, CharUpperW, _win32_CharUpper, _win32_charupper_cpp, menurc.charupper, winui._win32_charupper, winuser/CharUpper, winuser/CharUpperA, winuser/CharUpperW
 ms.topic: function
-f1_keywords: 
- - "winuser/CharUpper"
+f1_keywords:
+- winuser/CharUpper
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-Core-String-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-String-l2-1-1.dll
- - API-MS-Win-Core-Stringansi-l1-1-0.dll
- - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-1.dll
+- User32.dll
+- API-MS-Win-Core-String-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-String-l2-1-1.dll
+- API-MS-Win-Core-Stringansi-l1-1-0.dll
+- API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharUpper
- - CharUpperA
- - CharUpperW
+- CharUpper
+- CharUpperA
+- CharUpperW
 targetos: Windows
 req.typenames: 
 req.redist: 

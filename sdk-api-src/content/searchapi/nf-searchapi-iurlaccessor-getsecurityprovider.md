@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityProvider
 title: IUrlAccessor::GetSecurityProvider (searchapi.h)
-
 description: Gets the security provider for the URL.
 old-location: search\_search_IUrlAccessor_GetSecurityProvider.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecurityprovider.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSecurityProvider, GetSecurityProvider method [search], GetSecurityProvider method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetSecurityProvider method, IUrlAccessor.GetSecurityProvider, IUrlAccessor::GetSecurityProvider, _search_IUrlAccessor_GetSecurityProvider, search._search_IUrlAccessor_GetSecurityProvider, searchapi/IUrlAccessor::GetSecurityProvider
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.GetSecurityProvider"
+f1_keywords:
+- searchapi/IUrlAccessor.GetSecurityProvider
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.GetSecurityProvider
+- IUrlAccessor.GetSecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

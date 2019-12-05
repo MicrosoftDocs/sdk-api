@@ -1,19 +1,17 @@
 ---
 UID: NC:wabapi.WABOpenEx
 title: WABOpenEx (wabapi.h)
-
 description: WABOpenEx is no longer available for use as of Windows Vista.
 old-location: wab\_wab_WABOpenEx.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopenex.htm
-
 ms.date: 12/05/2018
 ms.keywords: WABOpenEx, WABOpenEx callback, WABOpenEx callback function [Windows Address Book], _wab_WABOpenEx, wab._wab_WABOpenEx, wabapi/WABOpenEx
 ms.topic: callback
 f1_keywords:
 - wabapi/WABOpenEx
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows

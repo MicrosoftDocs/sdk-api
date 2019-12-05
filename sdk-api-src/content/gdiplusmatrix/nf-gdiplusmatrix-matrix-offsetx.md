@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.OffsetX
 title: Matrix::OffsetX (gdiplusmatrix.h)
-
 description: The Matrix::OffsetX method gets the horizontal translation value of this matrix, which is the element in row 3, column 1.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetX_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsetx.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],OffsetX method, Matrix.OffsetX, Matrix::OffsetX, OffsetX, OffsetX method [GDI+], OffsetX method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_OffsetX_, gdiplus._gdiplus_CLASS_Matrix_OffsetX_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.OffsetX"
+f1_keywords:
+- gdiplusmatrix/Matrix.OffsetX
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.OffsetX
+- Matrix.OffsetX
 targetos: Windows
 req.typenames: 
 req.redist: 

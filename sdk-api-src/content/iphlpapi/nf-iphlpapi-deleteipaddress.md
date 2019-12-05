@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.DeleteIPAddress
 title: DeleteIPAddress function (iphlpapi.h)
-
 description: The DeleteIPAddress function deletes an IP address previously added using AddIPAddress.
 old-location: iphlp\deleteipaddress.htm
 tech.root: IpHlp
 ms.assetid: d7ed986d-d62e-4723-ab74-85c3edfdf4ff
-
 ms.date: 12/05/2018
 ms.keywords: DeleteIPAddress, DeleteIPAddress function [IP Helper], _iphlp_deleteipaddress, iphlp.deleteipaddress, iphlpapi/DeleteIPAddress
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/DeleteIPAddress"
+f1_keywords:
+- iphlpapi/DeleteIPAddress
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - DeleteIPAddress
+- DeleteIPAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.IRelationship
 title: IRelationship (structuredquery.h)
-
 description: Provides methods for retrieving information about a schema property.
 old-location: search\_search_IRelationship.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\irelationship.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRelationship, IRelationship interface [search], IRelationship interface [search],described, _search_IRelationship, search._search_IRelationship, structuredquery/IRelationship
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/IRelationship"
+f1_keywords:
+- structuredquery/IRelationship
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IRelationship
+- IRelationship
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetBreakOnCategory
 title: IDXGIInfoQueue::GetBreakOnCategory (dxgidebug.h)
-
 description: Determines whether the break on a message category is turned on or off.
 old-location: direct3ddxgi\idxgiinfoqueue_getbreakoncategory.htm
 tech.root: direct3ddxgi
 ms.assetid: 12099FA2-2801-45E7-98C3-5A29F5764B8D
-
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnCategory, GetBreakOnCategory method [DXGI], GetBreakOnCategory method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetBreakOnCategory method, IDXGIInfoQueue.GetBreakOnCategory, IDXGIInfoQueue::GetBreakOnCategory, direct3ddxgi.idxgiinfoqueue_getbreakoncategory, dxgidebug/IDXGIInfoQueue::GetBreakOnCategory
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetBreakOnCategory"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetBreakOnCategory
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetBreakOnCategory
+- IDXGIInfoQueue.GetBreakOnCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

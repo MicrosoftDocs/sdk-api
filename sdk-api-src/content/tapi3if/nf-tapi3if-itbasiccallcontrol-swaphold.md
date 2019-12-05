@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.SwapHold
 title: ITBasicCallControl::SwapHold (tapi3if.h)
-
 description: The SwapHold method swaps the call (which is active) with the specified call on hold.
 old-location: tapi3\itbasiccallcontrol_swaphold.htm
 tech.root: Tapi
 ms.assetid: 372e8ca9-53fb-4ec0-aae8-52f85523b7c4
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],SwapHold method, ITBasicCallControl.SwapHold, ITBasicCallControl::SwapHold, SwapHold, SwapHold method [TAPI 2.2], SwapHold method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_swaphold, tapi3.itbasiccallcontrol_swaphold, tapi3if/ITBasicCallControl::SwapHold
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.SwapHold"
+f1_keywords:
+- tapi3if/ITBasicCallControl.SwapHold
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.SwapHold
+- ITBasicCallControl.SwapHold
 targetos: Windows
 req.typenames: 
 req.redist: 

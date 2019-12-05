@@ -1,19 +1,17 @@
 ---
 UID: NE:ndhelper.tagDIAGNOSIS_STATUS
 title: DIAGNOSIS_STATUS (ndhelper.h)
-
 description: The DIAGNOSIS_STATUS enumeration describes the result of a hypothesis submitted to a helper class in which the health of a component has been determined.
 old-location: ndf\diagnosis_status.htm
 tech.root: NDF
 ms.assetid: 2ad72ac5-3f33-4206-be39-1cfe11ee840d
-
 ms.date: 12/05/2018
 ms.keywords: DIAGNOSIS_STATUS, DIAGNOSIS_STATUS enumeration [NDF], DS_CONFIRMED, DS_DEFERRED, DS_INDETERMINATE, DS_NOT_IMPLEMENTED, DS_PASSTHROUGH, DS_REJECTED, ndf.diagnosis_status, ndhelper/DIAGNOSIS_STATUS, ndhelper/DS_CONFIRMED, ndhelper/DS_DEFERRED, ndhelper/DS_INDETERMINATE, ndhelper/DS_NOT_IMPLEMENTED, ndhelper/DS_PASSTHROUGH, ndhelper/DS_REJECTED
 ms.topic: enum
-f1_keywords: 
- - "ndhelper/DIAGNOSIS_STATUS"
+f1_keywords:
+- ndhelper/DIAGNOSIS_STATUS
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - DIAGNOSIS_STATUS
+- DIAGNOSIS_STATUS
 targetos: Windows
 req.typenames: DIAGNOSIS_STATUS
 req.redist: 

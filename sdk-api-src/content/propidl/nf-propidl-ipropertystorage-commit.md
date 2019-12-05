@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.IPropertyStorage.Commit
 title: IPropertyStorage::Commit (propidl.h)
-
 description: Saves changes made to a property storage object to the parent storage object.
 old-location: stg\ipropertystorage_commit.htm
 tech.root: Stg
 ms.assetid: 00efae8b-023e-425d-b7cd-c40c17d7948e
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Structured Storage], Commit method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],Commit, IPropertyStorage interface [Structured Storage],Commit method, IPropertyStorage.Commit, IPropertyStorage::Commit, _stg_ipropertystorage_commit, propidl/IPropertyStorage::Commit, stg.ipropertystorage_commit
 ms.topic: method
-f1_keywords: 
- - "propidl/IPropertyStorage.Commit"
+f1_keywords:
+- propidl/IPropertyStorage.Commit
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage.Commit
+- IPropertyStorage.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

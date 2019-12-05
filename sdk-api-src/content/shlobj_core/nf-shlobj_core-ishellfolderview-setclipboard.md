@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetClipboard
 title: IShellFolderView::SetClipboard (shlobj_core.h)
-
 description: SetClipboard may be altered or unavailable.
 old-location: shell\IShellFolderView_SetClipboard.htm
 tech.root: shell
 ms.assetid: 372cc6db-f9c1-4110-98aa-a7ad90312048
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetClipboard method, IShellFolderView.SetClipboard, IShellFolderView::SetClipboard, SetClipboard, SetClipboard method [Windows Shell], SetClipboard method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetClipboard, shell.IShellFolderView_SetClipboard, shlobj_core/IShellFolderView::SetClipboard
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.SetClipboard"
+f1_keywords:
+- shlobj_core/IShellFolderView.SetClipboard
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.SetClipboard
+- IShellFolderView.SetClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 title: IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount (vsbackup.h)
-
 description: Obtains the number of file sets that have been explicitly excluded from a given shadow copy.
 old-location: base\ivssexaminewritermetadataex2_getexcludefromsnapshotcount.htm
 tech.root: VSS
 ms.assetid: 77f21feb-bd7c-4fd0-820b-9dabb1bcbc89
-
 ms.date: 12/05/2018
 ms.keywords: GetExcludeFromSnapshotCount, GetExcludeFromSnapshotCount method, GetExcludeFromSnapshotCount method,IVssExamineWriterMetadataEx2 interface, IVssExamineWriterMetadataEx2 interface,GetExcludeFromSnapshotCount method, IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount, IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount, base.ivssexaminewritermetadataex2_getexcludefromsnapshotcount, vsbackup/IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount"
+f1_keywords:
+- vsbackup/IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
+- IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 targetos: Windows
 req.typenames: 
 req.redist: 

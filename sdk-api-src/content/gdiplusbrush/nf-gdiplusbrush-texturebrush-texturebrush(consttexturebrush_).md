@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TextureBrush(const TextureBrush &)
 title: TextureBrush::TextureBrush(const TextureBrush &) (gdiplusbrush.h)
-
 description: This topic lists the constructors of the TextureBrush class. For a complete class listing, see TextureBrush Class.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: TextureBrush, TextureBrush constructors [GDI+], TextureBrush.TextureBrush, TextureBrush.TextureBrush(const TextureBrush &), TextureBrush::TextureBrush, TextureBrush::TextureBrush(const TextureBrush &), _gdiplus_CLASS_TextureBrush_Constructors, gdiplus._gdiplus_CLASS_TextureBrush_Constructors, gdiplusbrush/TextureBrush
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.TextureBrush"
+f1_keywords:
+- gdiplusbrush/TextureBrush.TextureBrush
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplusbrush.h
+- gdiplusbrush.h
 api_name:
- - TextureBrush.TextureBrush
+- TextureBrush.TextureBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

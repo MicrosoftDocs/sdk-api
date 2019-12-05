@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNative.GetData
 title: IVideoFrameNative::core (windows.media.core.interop.h)
-
 description: This method returns an interface that provides access to the video data.
 old-location: winrt\ivideoframenative_getdata.htm
 tech.root: WinRT
 ms.assetid: 084F020F-A6F5-4982-BA4B-A8F8D6182868
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],IVideoFrameNative interface, IVideoFrameNative interface [Windows Runtime],GetData method, IVideoFrameNative.GetData, IVideoFrameNative.core, IVideoFrameNative::GetData, IVideoFrameNative::core, windows/IVideoFrameNative::GetData, winrt.ivideoframenative_getdata
 ms.topic: method
-f1_keywords: 
- - "windows.media.core.interop/IVideoFrameNative.GetData"
+f1_keywords:
+- windows.media.core.interop/IVideoFrameNative.GetData
 dev_langs:
- - c++
+- c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.core.interop.h
+- windows.media.core.interop.h
 api_name:
- - IVideoFrameNative.GetData
+- IVideoFrameNative.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

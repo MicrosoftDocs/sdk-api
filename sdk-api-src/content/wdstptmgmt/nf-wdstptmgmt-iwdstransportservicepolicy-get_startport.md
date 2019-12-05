@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_StartPort
 title: IWdsTransportServicePolicy::get_StartPort (wdstptmgmt.h)
-
 description: Enables a WDS client computer to configure the start of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_startport.htm
 tech.root: wds
 ms.assetid: 0ef74479-f732-4b7b-8d40-29c359901837
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartPort property, IWdsTransportServicePolicy.StartPort, IWdsTransportServicePolicy.get_StartPort, IWdsTransportServicePolicy::StartPort, IWdsTransportServicePolicy::get_StartPort, IWdsTransportServicePolicy::put_StartPort, StartPort property [Windows Deployment Services], StartPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_StartPort, wds.iwdstransportservicepolicy_startport, wdstptmgmt/IWdsTransportServicePolicy::StartPort, wdstptmgmt/IWdsTransportServicePolicy::get_StartPort, wdstptmgmt/IWdsTransportServicePolicy::put_StartPort
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy.StartPort"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy.StartPort
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.StartPort
- - IWdsTransportServicePolicy.get_StartPort
- - IWdsTransportServicePolicy.put_StartPort
+- IWdsTransportServicePolicy.StartPort
+- IWdsTransportServicePolicy.get_StartPort
+- IWdsTransportServicePolicy.put_StartPort
 targetos: Windows
 req.typenames: 
 req.redist: 

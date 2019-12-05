@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.ReportLiveDeviceObjects
 title: ID3D11Debug::ReportLiveDeviceObjects (d3d11sdklayers.h)
-
 description: Report information about a device object's lifetime.
 old-location: direct3d11\id3d11debug_reportlivedeviceobjects.htm
 tech.root: direct3d11
 ms.assetid: a4e5f3c1-8b67-488b-8476-464c5ea5abc6
-
 ms.date: 12/05/2018
 ms.keywords: 734af011-a2b7-a89f-361d-01350006a197, ID3D11Debug interface [Direct3D 11],ReportLiveDeviceObjects method, ID3D11Debug.ReportLiveDeviceObjects, ID3D11Debug::ReportLiveDeviceObjects, ReportLiveDeviceObjects, ReportLiveDeviceObjects method [Direct3D 11], ReportLiveDeviceObjects method [Direct3D 11],ID3D11Debug interface, d3d11sdklayers/ID3D11Debug::ReportLiveDeviceObjects, direct3d11.id3d11debug_reportlivedeviceobjects
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11Debug.ReportLiveDeviceObjects"
+f1_keywords:
+- d3d11sdklayers/ID3D11Debug.ReportLiveDeviceObjects
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Debug.ReportLiveDeviceObjects
+- ID3D11Debug.ReportLiveDeviceObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

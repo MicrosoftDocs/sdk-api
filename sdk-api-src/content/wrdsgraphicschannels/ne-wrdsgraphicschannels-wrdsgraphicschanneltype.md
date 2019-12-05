@@ -1,19 +1,17 @@
 ---
 UID: NE:wrdsgraphicschannels.__MIDL___MIDL_itf_wrdsgraphicschannels_0000_0002_0001
 title: WRdsGraphicsChannelType (wrdsgraphicschannels.h)
-
 description: Used to specify the type of graphics virtual channel to create in the IWRdsGraphicsChannelManager::CreateChannel method.
 old-location: termserv\wrdsgraphicschanneltype.htm
 tech.root: TermServ
 ms.assetid: 79B63FCD-6BCD-44E6-A5C3-6F5E1336DAA5
-
 ms.date: 12/05/2018
 ms.keywords: WRdsGraphicsChannelType, WRdsGraphicsChannelType enumeration [Remote Desktop Services], WRdsGraphicsChannelType_BestEffortDelivery, WRdsGraphicsChannelType_GuaranteedDelivery, termserv.wrdsgraphicschanneltype, wrdsgraphicschannels/WRdsGraphicsChannelType, wrdsgraphicschannels/WRdsGraphicsChannelType_BestEffortDelivery, wrdsgraphicschannels/WRdsGraphicsChannelType_GuaranteedDelivery
 ms.topic: enum
-f1_keywords: 
- - "wrdsgraphicschannels/WRdsGraphicsChannelType"
+f1_keywords:
+- wrdsgraphicschannels/WRdsGraphicsChannelType
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - WRdsGraphicsChannelType
+- WRdsGraphicsChannelType
 targetos: Windows
 req.typenames: WRdsGraphicsChannelType
 req.redist: 

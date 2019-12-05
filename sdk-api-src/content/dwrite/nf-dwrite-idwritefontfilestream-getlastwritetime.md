@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.GetLastWriteTime
 title: IDWriteFontFileStream::GetLastWriteTime (dwrite.h)
-
 description: Obtains the last modified time of the file.
 old-location: directwrite\IDWriteFontFileStream_GetLastWriteTime.htm
 tech.root: DirectWrite
 ms.assetid: eb4045c0-a333-40aa-8ec3-b89cfd835be3
-
 ms.date: 12/05/2018
 ms.keywords: GetLastWriteTime, GetLastWriteTime method [Direct Write], GetLastWriteTime method [Direct Write],IDWriteFontFileStream interface, IDWriteFontFileStream interface [Direct Write],GetLastWriteTime method, IDWriteFontFileStream.GetLastWriteTime, IDWriteFontFileStream::GetLastWriteTime, directwrite.IDWriteFontFileStream_GetLastWriteTime, dwrite/IDWriteFontFileStream::GetLastWriteTime
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFileStream.GetLastWriteTime"
+f1_keywords:
+- dwrite/IDWriteFontFileStream.GetLastWriteTime
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFileStream.GetLastWriteTime
+- IDWriteFontFileStream.GetLastWriteTime
 targetos: Windows
 req.typenames: 
 req.redist: 

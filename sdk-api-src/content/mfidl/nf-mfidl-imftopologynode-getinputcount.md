@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInputCount
 title: IMFTopologyNode::GetInputCount (mfidl.h)
-
 description: Retrieves the number of input streams that currently exist on this node.
 old-location: mf\imftopologynode_getinputcount.htm
 tech.root: medfound
 ms.assetid: 84c079da-5de6-4c33-b0c7-5ffd017d5513
-
 ms.date: 12/05/2018
 ms.keywords: 84c079da-5de6-4c33-b0c7-5ffd017d5513, GetInputCount, GetInputCount method [Media Foundation], GetInputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInputCount method, IMFTopologyNode.GetInputCount, IMFTopologyNode::GetInputCount, mf.imftopologynode_getinputcount, mfidl/IMFTopologyNode::GetInputCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetInputCount"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetInputCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetInputCount
+- IMFTopologyNode.GetInputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

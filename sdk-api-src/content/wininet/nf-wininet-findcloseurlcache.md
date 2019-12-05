@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FindCloseUrlCache
 title: FindCloseUrlCache function (wininet.h)
-
 description: Closes the specified cache enumeration handle.
 old-location: wininet\findcloseurlcache.htm
 tech.root: wininet
 ms.assetid: 54fc7bea-4cc1-4034-93c3-49ec88817648
-
 ms.date: 12/05/2018
 ms.keywords: FindCloseUrlCache, FindCloseUrlCache function [WinINet], _inet_findcloseurlcache_function, wininet.findcloseurlcache, wininet/FindCloseUrlCache
 ms.topic: function
-f1_keywords: 
- - "wininet/FindCloseUrlCache"
+f1_keywords:
+- wininet/FindCloseUrlCache
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FindCloseUrlCache
+- FindCloseUrlCache
 targetos: Windows
 req.typenames: 
 req.redist: 

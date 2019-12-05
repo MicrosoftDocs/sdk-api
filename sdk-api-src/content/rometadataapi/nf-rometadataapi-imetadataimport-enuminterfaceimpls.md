@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumInterfaceImpls
 title: IMetaDataImport::EnumInterfaceImpls (rometadataapi.h)
-
 description: Enumerates MethodDef tokens representing interface implementations.
 old-location: winrt\imetadataimport_enuminterfaceimpls.htm
 tech.root: WinRT
 ms.assetid: 37f3eada-7719-4303-a9c7-57ee396a5dc5
-
 ms.date: 12/05/2018
 ms.keywords: EnumInterfaceImpls, EnumInterfaceImpls method [Windows Runtime], EnumInterfaceImpls method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumInterfaceImpls method, IMetaDataImport.EnumInterfaceImpls, IMetaDataImport::EnumInterfaceImpls, rometadataapi/IMetaDataImport::EnumInterfaceImpls, winrt.imetadataimport_enuminterfaceimpls
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumInterfaceImpls"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumInterfaceImpls
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumInterfaceImpls
+- IMetaDataImport.EnumInterfaceImpls
 targetos: Windows
 req.typenames: 
 req.redist: 

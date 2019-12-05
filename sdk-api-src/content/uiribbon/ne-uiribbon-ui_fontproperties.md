@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_FONTPROPERTIES
 title: UI_FONTPROPERTIES (uiribbon.h)
-
 description: Specifies values that identify the font property state of a FontControl, such as Strikethrough.
 old-location: windowsribbon\windowsribbon_ui_fontproperties.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontproperties.htm
-
 ms.date: 12/05/2018
 ms.keywords: UI_FONTPROPERTIES, UI_FONTPROPERTIES enumeration [Windows Ribbon], UI_FONTPROPERTIES_NOTAVAILABLE, UI_FONTPROPERTIES_NOTSET, UI_FONTPROPERTIES_SET, scenicintent_UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES, uiribbon/UI_FONTPROPERTIES_NOTAVAILABLE, uiribbon/UI_FONTPROPERTIES_NOTSET, uiribbon/UI_FONTPROPERTIES_SET, windowsribbon.windowsribbon_ui_fontproperties
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_FONTPROPERTIES"
+f1_keywords:
+- uiribbon/UI_FONTPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_FONTPROPERTIES
+- UI_FONTPROPERTIES
 targetos: Windows
 req.typenames: UI_FONTPROPERTIES
 req.redist: 

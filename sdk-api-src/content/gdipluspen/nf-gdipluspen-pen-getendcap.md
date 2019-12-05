@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetEndCap
 title: Pen::GetEndCap (gdipluspen.h)
-
 description: The Pen::GetEndCap method gets the end cap currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetEndCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getendcap.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetEndCap, GetEndCap method [GDI+], GetEndCap method [GDI+],Pen class, Pen class [GDI+],GetEndCap method, Pen.GetEndCap, Pen::GetEndCap, _gdiplus_CLASS_Pen_GetEndCap_, gdiplus._gdiplus_CLASS_Pen_GetEndCap_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetEndCap"
+f1_keywords:
+- gdipluspen/Pen.GetEndCap
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetEndCap
+- Pen.GetEndCap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateFFT1DReal
 title: D3DX11CreateFFT1DReal function (d3dcsx.h)
-
 description: Creates an ID3DX11FFT COM interface object.
 old-location: direct3d11\d3dx11createfft1dreal.htm
 tech.root: direct3d11
 ms.assetid: 49186642-2591-4943-b686-83bf24f470dd
-
 ms.date: 12/05/2018
 ms.keywords: 542c01f8-d563-c1ab-aa89-495a7e96e411, D3DX11CreateFFT1DReal, D3DX11CreateFFT1DReal function [Direct3D 11], d3dcsx/D3DX11CreateFFT1DReal, direct3d11.d3dx11createfft1dreal
 ms.topic: function
-f1_keywords: 
- - "d3dcsx/D3DX11CreateFFT1DReal"
+f1_keywords:
+- d3dcsx/D3DX11CreateFFT1DReal
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - D3DX11CreateFFT1DReal
+- D3DX11CreateFFT1DReal
 targetos: Windows
 req.typenames: 
 req.redist: 

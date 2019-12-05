@@ -1,19 +1,17 @@
 ---
 UID: NN:mediaobj.IMediaObject
 title: IMediaObject (mediaobj.h)
-
 description: The IMediaObject interface provides methods for manipulating a Microsoft DirectX Media Object (DMO).
 old-location: dshow\imediaobject.htm
 tech.root: DirectShow
 ms.assetid: a3fd17aa-7df2-40f4-8f2c-45bae38e4c0b
-
 ms.date: 12/05/2018
 ms.keywords: IMediaObject, IMediaObject interface [DirectShow], IMediaObject interface [DirectShow],described, IMediaObjectInterface, dshow.imediaobject, mediaobj/IMediaObject
 ms.topic: interface
-f1_keywords: 
- - "mediaobj/IMediaObject"
+f1_keywords:
+- mediaobj/IMediaObject
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObject
+- IMediaObject
 targetos: Windows
 req.typenames: 
 req.redist: 

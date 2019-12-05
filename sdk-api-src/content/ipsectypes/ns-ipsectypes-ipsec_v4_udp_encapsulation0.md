@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_V4_UDP_ENCAPSULATION0_
 title: IPSEC_V4_UDP_ENCAPSULATION0 (ipsectypes.h)
-
 description: Stores the User Datagram Protocol (UDP) encapsulation ports for Encapsulating Security Payload (ESP) encapsulation.
 old-location: fwp\ipsec_v4_udp_encapsulation0_struct.htm
 tech.root: fwp
 ms.assetid: 69cddec0-7311-4833-8b24-293ad714054e
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_V4_UDP_ENCAPSULATION0, IPSEC_V4_UDP_ENCAPSULATION0 structure [Filtering], IPSEC_V4_UDP_ENCAPSULATION0_, fwp.ipsec_v4_udp_encapsulation0_struct, ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0"
+f1_keywords:
+- ipsectypes/IPSEC_V4_UDP_ENCAPSULATION0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_V4_UDP_ENCAPSULATION0
+- IPSEC_V4_UDP_ENCAPSULATION0
 targetos: Windows
 req.typenames: IPSEC_V4_UDP_ENCAPSULATION0
 req.redist: 

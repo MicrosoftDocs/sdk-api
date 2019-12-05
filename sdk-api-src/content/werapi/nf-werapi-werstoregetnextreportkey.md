@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerStoreGetNextReportKey
 title: WerStoreGetNextReportKey function (werapi.h)
-
 description: Gets a reference to the next report in the error report store.
 old-location: wer\werstoregetnextreportkey.htm
 tech.root: wer
 ms.assetid: 781D54A9-6F51-445E-89A8-A0C944081B81
-
 ms.date: 12/05/2018
 ms.keywords: WerStoreGetNextReportKey, WerStoreGetNextReportKey function [Windows Error Reporting], wer.werstoregetnextreportkey, werapi/WerStoreGetNextReportKey
 ms.topic: function
-f1_keywords: 
- - "werapi/WerStoreGetNextReportKey"
+f1_keywords:
+- werapi/WerStoreGetNextReportKey
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wer.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- wer.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerStoreGetNextReportKey
+- WerStoreGetNextReportKey
 targetos: Windows
 req.typenames: 
 req.redist: 

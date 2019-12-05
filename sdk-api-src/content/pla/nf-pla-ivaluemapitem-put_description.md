@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMapItem.put_Description
 title: IValueMapItem::put_Description (pla.h)
-
 description: Retrieves or sets a description of the item.
 old-location: pla\ivaluemapitem_description.htm
 tech.root: PLA
 ms.assetid: ee0669f1-6400-4c32-9f5f-82fd69b7cacd
-
 ms.date: 12/05/2018
 ms.keywords: Description property [PLA], Description property [PLA],IValueMapItem interface, IValueMapItem interface [PLA],Description property, IValueMapItem.Description, IValueMapItem.put_Description, IValueMapItem::Description, IValueMapItem::get_Description, IValueMapItem::put_Description, base.ivaluemapitem_description, pla.ivaluemapitem_description, pla/IValueMapItem::Description, pla/IValueMapItem::get_Description, pla/IValueMapItem::put_Description, put_Description
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMapItem.Description"
+f1_keywords:
+- pla/IValueMapItem.Description
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMapItem.Description
- - IValueMapItem.get_Description
- - IValueMapItem.put_Description
+- IValueMapItem.Description
+- IValueMapItem.get_Description
+- IValueMapItem.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

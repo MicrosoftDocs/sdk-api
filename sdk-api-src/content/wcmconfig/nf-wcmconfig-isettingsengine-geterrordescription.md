@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetErrorDescription
 title: ISettingsEngine::GetErrorDescription (wcmconfig.h)
-
 description: Retrieves a text message for a returned HRESULT code.
 old-location: smi\isettingsengine_geterrordescription.htm
 tech.root: SMI
 ms.assetid: 1a1ac3eb-c2d5-4a23-928e-51ef1a52ad73
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorDescription, GetErrorDescription method [SMI], GetErrorDescription method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetErrorDescription method, ISettingsEngine.GetErrorDescription, ISettingsEngine::GetErrorDescription, smi.isettingsengine_geterrordescription, wcmconfig/ISettingsEngine::GetErrorDescription
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.GetErrorDescription"
+f1_keywords:
+- wcmconfig/ISettingsEngine.GetErrorDescription
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.GetErrorDescription
+- ISettingsEngine.GetErrorDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

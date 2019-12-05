@@ -1,19 +1,17 @@
 ---
 UID: NE:activationregistration.ActivationType
 title: ActivationType (activationregistration.h)
-
 description: Specifies the kind of activation for an activatable class.
 old-location: winrt\activationtype.htm
 tech.root: WinRT
 ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
-
 ms.date: 12/05/2018
 ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], ActivationType_InProcess, ActivationType_OutOfProcess, ActivationType_RemoteProcess, __x_ABI_CWindows_CFoundation_CActivationType, activationregistration/ActivationType, activationregistration/ActivationType_InProcess, activationregistration/ActivationType_OutOfProcess, activationregistration/ActivationType_RemoteProcess, winrt.activationtype
 ms.topic: enum
-f1_keywords: 
- - "activationregistration/ActivationType"
+f1_keywords:
+- activationregistration/ActivationType
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - ActivationType
+- ActivationType
 targetos: Windows
 req.typenames: ActivationType
 req.redist: 

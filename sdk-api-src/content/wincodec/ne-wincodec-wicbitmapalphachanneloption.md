@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICBitmapAlphaChannelOption
 title: WICBitmapAlphaChannelOption (wincodec.h)
-
 description: Specifies the desired alpha channel usage.
 old-location: wic\_wic_codec_wicbitmapalphachanneloption.htm
 tech.root: wic
 ms.assetid: caa10c35-9af4-4310-b031-3347cf795087
-
 ms.date: 12/05/2018
 ms.keywords: WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD, WICBitmapAlphaChannelOption, WICBitmapAlphaChannelOption enumeration [Windows Imaging Component], WICBitmapIgnoreAlpha, WICBitmapUseAlpha, WICBitmapUsePremultipliedAlpha, _wic_codec_wicbitmapalphachanneloption, wic._wic_codec_wicbitmapalphachanneloption, wincodec/WICBITMAPALPHACHANNELOPTIONS_FORCE_DWORD, wincodec/WICBitmapAlphaChannelOption, wincodec/WICBitmapIgnoreAlpha, wincodec/WICBitmapUseAlpha, wincodec/WICBitmapUsePremultipliedAlpha
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICBitmapAlphaChannelOption"
+f1_keywords:
+- wincodec/WICBitmapAlphaChannelOption
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapAlphaChannelOption
+- WICBitmapAlphaChannelOption
 targetos: Windows
 req.typenames: WICBitmapAlphaChannelOption
 req.redist: 

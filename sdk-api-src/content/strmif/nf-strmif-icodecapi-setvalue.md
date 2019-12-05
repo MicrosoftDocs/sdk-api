@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.SetValue
 title: ICodecAPI::SetValue (strmif.h)
-
 description: The SetValue method sets the value of a codec property.
 old-location: dshow\icodecapi_setvalue.htm
 tech.root: DirectShow
 ms.assetid: e78a310a-3605-4cb3-a0c3-7864c890c1fa
-
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetValue method, ICodecAPI.SetValue, ICodecAPI::SetValue, ICodecAPISetValue, SetValue, SetValue method [DirectShow], SetValue method [DirectShow],ICodecAPI interface, dshow.icodecapi_setvalue, strmif/ICodecAPI::SetValue
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.SetValue"
+f1_keywords:
+- strmif/ICodecAPI.SetValue
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.SetValue
+- ICodecAPI.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

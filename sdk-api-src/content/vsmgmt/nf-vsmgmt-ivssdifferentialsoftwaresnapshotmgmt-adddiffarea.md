@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 title: IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea (vsmgmt.h)
-
 description: Adds a shadow copy storage area association for the specified volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_adddiffarea.htm
 tech.root: VSS
 ms.assetid: 7b58331c-b8a2-4333-a05d-563395d5f0c2
-
 ms.date: 12/05/2018
 ms.keywords: AddDiffArea, AddDiffArea method [VSS], AddDiffArea method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],AddDiffArea method, IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea, IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea, base.ivssdifferentialsoftwaresnapshotmgmt_adddiffarea, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea"
+f1_keywords:
+- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
+- IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 targetos: Windows
 req.typenames: 
 req.redist: 

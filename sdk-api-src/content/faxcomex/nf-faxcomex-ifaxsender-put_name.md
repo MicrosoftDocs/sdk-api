@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxSender.put_Name
 title: IFaxSender::put_Name (faxcomex.h)
-
 description: The IFaxSender::get_Name property is a null-terminated string that contains the name of the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_name_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_77vp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],Name property, IFaxSender.Name, IFaxSender.get_Name, IFaxSender.put_Name, IFaxSender::Name, IFaxSender::get_Name, IFaxSender::put_Name, Name property [Fax Service], Name property [Fax Service],IFaxSender interface, _mfax_faxsender.name, fax._mfax_faxsender_cpp_mfax_faxsender_name_cpp, fax._mfax_faxsender_name, faxcomex/IFaxSender::Name, faxcomex/IFaxSender::get_Name, faxcomex/IFaxSender::put_Name, put_Name
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxSender.Name"
+f1_keywords:
+- faxcomex/IFaxSender.Name
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxSender.Name
- - IFaxSender.get_Name
- - IFaxSender.put_Name
- - IFaxSender.get_Name
- - IFaxSender.put_Name
+- IFaxSender.Name
+- IFaxSender.get_Name
+- IFaxSender.put_Name
+- IFaxSender.get_Name
+- IFaxSender.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

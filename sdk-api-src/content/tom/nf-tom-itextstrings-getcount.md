@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.GetCount
 title: ITextStrings::GetCount (tom.h)
-
 description: Gets the number of strings in a string collection.
 old-location: controls\itextstrings_getcount.htm
 tech.root: Controls
 ms.assetid: 6bbe53ab-bd03-4445-8d36-0186a43da451
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Controls], GetCount method [Windows Controls],ITextStrings interface, ITextStrings interface [Windows Controls],GetCount method, ITextStrings.GetCount, ITextStrings::GetCount, controls.itextstrings_getcount, tom/ITextStrings::GetCount
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.GetCount"
+f1_keywords:
+- tom/ITextStrings.GetCount
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.GetCount
+- ITextStrings.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

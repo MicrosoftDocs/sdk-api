@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMStreamPrioritizationRecord
 title: WM_STREAM_PRIORITY_RECORD (wmsdkidl.h)
-
 description: The WM_STREAM_PRIORITY_RECORD structure contains a stream number and specifies whether delivery of that stream is mandatory.
 old-location: wmformat\wm_stream_priority_record.htm
 tech.root: wmformat
 ms.assetid: 43c9370c-cd43-4dd0-8258-d6dbdb98f1de
-
 ms.date: 12/05/2018
 ms.keywords: WM_STREAM_PRIORITY_RECORD, WM_STREAM_PRIORITY_RECORD structure [windows Media Format], wmformat.wm_stream_priority_record, wmsdkidl/WM_STREAM_PRIORITY_RECORD
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_STREAM_PRIORITY_RECORD"
+f1_keywords:
+- wmsdkidl/WM_STREAM_PRIORITY_RECORD
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_STREAM_PRIORITY_RECORD
+- WM_STREAM_PRIORITY_RECORD
 targetos: Windows
 req.typenames: WM_STREAM_PRIORITY_RECORD
 req.redist: 

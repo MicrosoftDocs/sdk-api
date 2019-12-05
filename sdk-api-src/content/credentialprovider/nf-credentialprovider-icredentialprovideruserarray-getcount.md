@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetCount
 title: ICredentialProviderUserArray::GetCount (credentialprovider.h)
-
 description: Retrieves the number of ICredentialProviderUser objects in the user array.
 old-location: shell\ICredentialProviderUserArray_GetCount.htm
 tech.root: shell
 ms.assetid: 524A9FA1-5106-42d2-A4B6-5D3B83E3A6BA
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Shell], GetCount method [Windows Shell],ICredentialProviderUserArray interface, ICredentialProviderUserArray interface [Windows Shell],GetCount method, ICredentialProviderUserArray.GetCount, ICredentialProviderUserArray::GetCount, credentialprovider/ICredentialProviderUserArray::GetCount, shell.ICredentialProviderUserArray_GetCount
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUserArray.GetCount"
+f1_keywords:
+- credentialprovider/ICredentialProviderUserArray.GetCount
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUserArray.GetCount
+- ICredentialProviderUserArray.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

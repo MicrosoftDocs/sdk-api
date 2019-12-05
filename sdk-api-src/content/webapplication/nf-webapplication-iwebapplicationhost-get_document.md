@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationHost.get_Document
 title: IWebApplicationHost::get_Document (webapplication.h)
-
 description: Gets the HTML document object model of the current top-level document.
 old-location: debug\iwebapplicationhost_document.htm
 tech.root: debug_wwahost
 ms.assetid: e2ba8ea7-0179-42d6-8d85-1617d14f85e4
-
 ms.date: 12/05/2018
 ms.keywords: Document property [Debugging Windows Store apps], Document property [Debugging Windows Store apps],IWebApplicationHost interface, IWebApplicationHost interface [Debugging Windows Store apps],Document property, IWebApplicationHost.Document, IWebApplicationHost.get_Document, IWebApplicationHost::Document, IWebApplicationHost::get_Document, debug.iwebapplicationhost_document, get_Document, webapplication/IWebApplicationHost::Document, webapplication/IWebApplicationHost::get_Document
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationHost.Document"
+f1_keywords:
+- webapplication/IWebApplicationHost.Document
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationHost.Document
- - IWebApplicationHost.get_Document
+- IWebApplicationHost.Document
+- IWebApplicationHost.get_Document
 targetos: Windows
 req.typenames: 
 req.redist: 

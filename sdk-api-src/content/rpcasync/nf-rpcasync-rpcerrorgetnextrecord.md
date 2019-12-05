@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcErrorGetNextRecord
 title: RpcErrorGetNextRecord function (rpcasync.h)
-
 description: The RpcErrorGetNextRecord function retrieves the next extended error information record for an enumeration handle.
 old-location: rpc\rpcerrorgetnextrecord.htm
 tech.root: Rpc
 ms.assetid: cc2d3aa0-2956-4710-ad31-a347d9ef9043
-
 ms.date: 12/05/2018
 ms.keywords: RpcErrorGetNextRecord, RpcErrorGetNextRecord function [RPC], _rpc_rpcerrorgetnextrecord, rpc.rpcerrorgetnextrecord, rpcasync/RpcErrorGetNextRecord
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcErrorGetNextRecord"
+f1_keywords:
+- rpcasync/RpcErrorGetNextRecord
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcErrorGetNextRecord
+- RpcErrorGetNextRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

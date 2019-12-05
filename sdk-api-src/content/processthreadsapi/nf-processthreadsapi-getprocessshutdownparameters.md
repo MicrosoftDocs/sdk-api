@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetProcessShutdownParameters
 title: GetProcessShutdownParameters function (processthreadsapi.h)
-
 description: Retrieves the shutdown parameters for the currently calling process.
 old-location: base\getprocessshutdownparameters.htm
 tech.root: ProcThread
 ms.assetid: 68b48e67-c7e0-4434-bef5-b2aaebb343ff
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessShutdownParameters, GetProcessShutdownParameters function, SHUTDOWN_NORETRY, _win32_getprocessshutdownparameters, base.getprocessshutdownparameters, processthreadsapi/GetProcessShutdownParameters
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetProcessShutdownParameters"
+f1_keywords:
+- processthreadsapi/GetProcessShutdownParameters
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-Ms-Win-Core-ProcessThreads-L1-1-3.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-Ms-Win-Core-ProcessThreads-L1-1-3.dll
+- KernelBase.dll
 api_name:
- - GetProcessShutdownParameters
+- GetProcessShutdownParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorGetW
 title: XMVectorGetW function (directxmath.h)
-
 description: Retrieve the w component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorgetw.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetW(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetW, XMVectorGetW, XMVectorGetW method [DirectX Math Support APIs], dxmath.xmvectorgetw
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorGetW"
+f1_keywords:
+- directxmath/XMVectorGetW
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorGetW
+- XMVectorGetW
 targetos: Windows
 req.typenames: 
 req.redist: 

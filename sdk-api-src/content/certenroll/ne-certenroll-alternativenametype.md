@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.AlternativeNameType
 title: AlternativeNameType (certenroll.h)
-
 description: Specifies the alternative name types that can be specified when initializing an IAlternativeName object.
 old-location: security\alternativenametype_enum.htm
 tech.root: seccertenroll
 ms.assetid: 79b675cc-c979-46ab-aee1-0031af2efd40
-
 ms.date: 12/05/2018
 ms.keywords: AlternativeNameType, AlternativeNameType enumeration [Security], XCN_CERT_ALT_NAME_DIRECTORY_NAME, XCN_CERT_ALT_NAME_DNS_NAME, XCN_CERT_ALT_NAME_GUID, XCN_CERT_ALT_NAME_IP_ADDRESS, XCN_CERT_ALT_NAME_OTHER_NAME, XCN_CERT_ALT_NAME_REGISTERED_ID, XCN_CERT_ALT_NAME_RFC822_NAME, XCN_CERT_ALT_NAME_UNKNOWN, XCN_CERT_ALT_NAME_URL, XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, certenroll/AlternativeNameType, certenroll/XCN_CERT_ALT_NAME_DIRECTORY_NAME, certenroll/XCN_CERT_ALT_NAME_DNS_NAME, certenroll/XCN_CERT_ALT_NAME_GUID, certenroll/XCN_CERT_ALT_NAME_IP_ADDRESS, certenroll/XCN_CERT_ALT_NAME_OTHER_NAME, certenroll/XCN_CERT_ALT_NAME_REGISTERED_ID, certenroll/XCN_CERT_ALT_NAME_RFC822_NAME, certenroll/XCN_CERT_ALT_NAME_UNKNOWN, certenroll/XCN_CERT_ALT_NAME_URL, certenroll/XCN_CERT_ALT_NAME_USER_PRINCIPLE_NAME, security.alternativenametype_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/AlternativeNameType"
+f1_keywords:
+- certenroll/AlternativeNameType
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - AlternativeNameType
+- AlternativeNameType
 targetos: Windows
 req.typenames: AlternativeNameType
 req.redist: 

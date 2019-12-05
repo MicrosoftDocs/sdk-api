@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICMetadataQueryReader.GetContainerFormat
 title: IWICMetadataQueryReader::GetContainerFormat (wincodec.h)
-
 description: Gets the metadata query readers container format.
 old-location: wic\_wic_codec_iwicmetadataqueryreader_getcontainerformat.htm
 tech.root: wic
 ms.assetid: f27c576a-3ff8-42bd-bad9-f7df18351a7f
-
 ms.date: 12/05/2018
 ms.keywords: GetContainerFormat, GetContainerFormat method [Windows Imaging Component], GetContainerFormat method [Windows Imaging Component],IWICMetadataQueryReader interface, IWICMetadataQueryReader interface [Windows Imaging Component],GetContainerFormat method, IWICMetadataQueryReader.GetContainerFormat, IWICMetadataQueryReader::GetContainerFormat, _wic_codec_iwicmetadataqueryreader_getcontainerformat, wic._wic_codec_iwicmetadataqueryreader_getcontainerformat, wincodec/IWICMetadataQueryReader::GetContainerFormat
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICMetadataQueryReader.GetContainerFormat"
+f1_keywords:
+- wincodec/IWICMetadataQueryReader.GetContainerFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataQueryReader.GetContainerFormat
+- IWICMetadataQueryReader.GetContainerFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

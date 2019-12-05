@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.RevertToSelf
 title: RevertToSelf function (securitybaseapi.h)
-
 description: Terminates the impersonation of a client application.
 old-location: security\reverttoself.htm
 tech.root: SecAuthZ
 ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283
-
 ms.date: 12/05/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/RevertToSelf"
+f1_keywords:
+- securitybaseapi/RevertToSelf
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - RevertToSelf
+- RevertToSelf
 targetos: Windows
 req.typenames: 
 req.redist: 

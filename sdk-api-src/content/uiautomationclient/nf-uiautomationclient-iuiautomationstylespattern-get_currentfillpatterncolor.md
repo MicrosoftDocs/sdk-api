@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CurrentFillPatternColor
 title: IUIAutomationStylesPattern::get_CurrentFillPatternColor (uiautomationclient.h)
-
 description: Retrieves the color of the pattern used to fill an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor.htm
 tech.root: WinAuto
 ms.assetid: 38CFF0E5-D96D-4FA3-86B1-581DC5E7F1F3
-
 ms.date: 12/05/2018
 ms.keywords: CurrentFillPatternColor property [Windows Accessibility], CurrentFillPatternColor property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CurrentFillPatternColor property, IUIAutomationStylesPattern.CurrentFillPatternColor, IUIAutomationStylesPattern.get_CurrentFillPatternColor, IUIAutomationStylesPattern::CurrentFillPatternColor, IUIAutomationStylesPattern::get_CurrentFillPatternColor, get_CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::CurrentFillPatternColor, uiautomationclient/IUIAutomationStylesPattern::get_CurrentFillPatternColor, winauto.uiauto_IUIAutomationStylesPattern_CurrentFillPatternColor
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationStylesPattern.CurrentFillPatternColor"
+f1_keywords:
+- uiautomationclient/IUIAutomationStylesPattern.CurrentFillPatternColor
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern.CurrentFillPatternColor
- - IUIAutomationStylesPattern.get_CurrentFillPatternColor
+- IUIAutomationStylesPattern.CurrentFillPatternColor
+- IUIAutomationStylesPattern.get_CurrentFillPatternColor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EndPath
 title: EndPath function (wingdi.h)
-
 description: The EndPath function closes a path bracket and selects the path defined by the bracket into the specified device context.
 old-location: gdi\endpath.htm
 tech.root: gdi
 ms.assetid: 0b4daf81-d1d6-45c1-b081-855b7cd8527a
-
 ms.date: 12/05/2018
 ms.keywords: EndPath, EndPath function [Windows GDI], _win32_EndPath, gdi.endpath, wingdi/EndPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/EndPath"
+f1_keywords:
+- wingdi/EndPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Path-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Path-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - EndPath
+- EndPath
 targetos: Windows
 req.typenames: 
 req.redist: 

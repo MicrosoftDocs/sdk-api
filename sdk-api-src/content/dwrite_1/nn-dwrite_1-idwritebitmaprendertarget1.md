@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_1.IDWriteBitmapRenderTarget1
 title: IDWriteBitmapRenderTarget1 (dwrite_1.h)
-
 description: Encapsulates a 32-bit device independent bitmap and device context, which you can use for rendering glyphs.
 old-location: directwrite\idwritebitmaprendertarget1.htm
 tech.root: DirectWrite
 ms.assetid: 5A7D2723-932B-4707-ABCC-0C0282FB7A56
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget1, IDWriteBitmapRenderTarget1 interface [Direct Write], IDWriteBitmapRenderTarget1 interface [Direct Write],described, directwrite.idwritebitmaprendertarget1, dwrite_1/IDWriteBitmapRenderTarget1
 ms.topic: interface
-f1_keywords: 
- - "dwrite_1/IDWriteBitmapRenderTarget1"
+f1_keywords:
+- dwrite_1/IDWriteBitmapRenderTarget1
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget1
+- IDWriteBitmapRenderTarget1
 targetos: Windows
 req.typenames: 
 req.redist: 

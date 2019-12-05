@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.SetDestinationAddresses
 title: INetworkCostManager::SetDestinationAddresses (netlistmgr.h)
-
 description: SetDestinationAddresses method registers specified destination IPv4/IPv6 addresses to receive cost or data plan status change notifications.
 old-location: nla\inetworkcostmanager_setdestinationaddresses.htm
 tech.root: nla
 ms.assetid: D4CA45C5-0AF1-443A-9134-BB82268ABFD5
-
 ms.date: 12/05/2018
 ms.keywords: INetworkCostManager interface [Network Awareness],SetDestinationAddresses method, INetworkCostManager.SetDestinationAddresses, INetworkCostManager::SetDestinationAddresses, SetDestinationAddresses, SetDestinationAddresses method [Network Awareness], SetDestinationAddresses method [Network Awareness],INetworkCostManager interface, netlistmgr/INetworkCostManager::SetDestinationAddresses, nla.inetworkcostmanager_setdestinationaddresses
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkCostManager.SetDestinationAddresses"
+f1_keywords:
+- netlistmgr/INetworkCostManager.SetDestinationAddresses
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkCostManager.SetDestinationAddresses
+- INetworkCostManager.SetDestinationAddresses
 targetos: Windows
 req.typenames: 
 req.redist: 

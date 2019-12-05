@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample2.SetProperties
 title: IMediaSample2::SetProperties (strmif.h)
-
 description: The SetProperties method sets the properties of a media sample.
 old-location: dshow\imediasample2_setproperties.htm
 tech.root: DirectShow
 ms.assetid: f024fe3a-802d-4dc1-9f4d-ebeeed0b067a
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample2 interface [DirectShow],SetProperties method, IMediaSample2.SetProperties, IMediaSample2::SetProperties, IMediaSample2SetProperties, SetProperties, SetProperties method [DirectShow], SetProperties method [DirectShow],IMediaSample2 interface, dshow.imediasample2_setproperties, strmif/IMediaSample2::SetProperties
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample2.SetProperties"
+f1_keywords:
+- strmif/IMediaSample2.SetProperties
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample2.SetProperties
+- IMediaSample2.SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

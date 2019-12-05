@@ -1,19 +1,17 @@
 ---
 UID: NF:winfax.FaxSendDocumentForBroadcastW
 title: FaxSendDocumentForBroadcastW function (winfax.h)
-
 description: A fax client application calls the FaxSendDocumentForBroadcast function to queue several fax jobs that will transmit the same outgoing fax transmission to several recipients.
 old-location: fax\_mfax_faxsenddocumentforbroadcast.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0sz8.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxSendDocumentForBroadcast, FaxSendDocumentForBroadcast function [Fax Service], FaxSendDocumentForBroadcastA, FaxSendDocumentForBroadcastW, _mfax_faxsenddocumentforbroadcast, fax._mfax_faxsenddocumentforbroadcast, winfax/FaxSendDocumentForBroadcast, winfax/FaxSendDocumentForBroadcastA, winfax/FaxSendDocumentForBroadcastW
 ms.topic: function
 f1_keywords:
 - winfax/FaxSendDocumentForBroadcast
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

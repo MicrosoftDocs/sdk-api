@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects.GoFullscreen
 title: IWMPEffects::GoFullscreen (effects.h)
-
 description: The GoFullscreen method instructs the visualization to switch to full-screen mode.
 old-location: wmp\iwmpeffects_gofullscreen.htm
 tech.root: WMP
 ms.assetid: daf69206-5756-4504-9738-e16b9af39790
-
 ms.date: 12/05/2018
 ms.keywords: EffectsGoFullscreen, GoFullscreen, GoFullscreen method [Windows Media Player], GoFullscreen method [Windows Media Player],IWMPEffects interface, IWMPEffects interface [Windows Media Player],GoFullscreen method, IWMPEffects.GoFullscreen, IWMPEffects::GoFullscreen, effects/IWMPEffects::GoFullscreen, wmp.iwmpeffects_gofullscreen
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects.GoFullscreen"
+f1_keywords:
+- effects/IWMPEffects.GoFullscreen
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects.GoFullscreen
+- IWMPEffects.GoFullscreen
 targetos: Windows
 req.typenames: 
 req.redist: 

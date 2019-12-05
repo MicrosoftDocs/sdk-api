@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineUncompleteCall
 title: lineUncompleteCall function (tapi.h)
-
 description: The lineUncompleteCall function cancels the specified call completion request on the specified line.
 old-location: tapi2\lineuncompletecall.htm
 tech.root: Tapi
 ms.assetid: e6b87d84-071c-4b75-afbf-569a5a861e3a
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineuncompletecall, lineUncompleteCall, lineUncompleteCall function [TAPI 2.2], tapi/lineUncompleteCall, tapi2.lineuncompletecall"
+ms.keywords: _tapi2_lineuncompletecall, lineUncompleteCall, lineUncompleteCall function [TAPI 2.2], tapi/lineUncompleteCall, tapi2.lineuncompletecall
 ms.topic: function
-f1_keywords: 
- - "tapi/lineUncompleteCall"
+f1_keywords:
+- tapi/lineUncompleteCall
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineUncompleteCall
+- lineUncompleteCall
 targetos: Windows
 req.typenames: 
 req.redist: 

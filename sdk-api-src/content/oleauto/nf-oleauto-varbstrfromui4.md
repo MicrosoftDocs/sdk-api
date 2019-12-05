@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrFromUI4
 title: VarBstrFromUI4 function (oleauto.h)
-
 description: Converts an unsigned long value to a BSTR value.
 old-location: automat\varbstrfromui4.htm
 tech.root: automat
 ms.assetid: 6b3d21c4-d473-4f47-8b98-bef4d898f624
-
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromUI4, VarBstrFromUI4 function [Automation], _oa96_VarBstrFromUI4, automat.varbstrfromui4, oleauto/VarBstrFromUI4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrFromUI4"
+f1_keywords:
+- oleauto/VarBstrFromUI4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrFromUI4
+- VarBstrFromUI4
 targetos: Windows
 req.typenames: 
 req.redist: 

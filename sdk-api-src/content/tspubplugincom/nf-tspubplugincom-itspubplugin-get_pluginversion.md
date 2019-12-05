@@ -1,19 +1,17 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.get_pluginVersion
 title: ItsPubPlugin::get_pluginVersion (tspubplugincom.h)
-
 description: Retrieves the version of the plug-in.
 old-location: termserv\itspubplugin_pluginversion.htm
 tech.root: TermServ
 ms.assetid: 39e5cc01-3945-4e78-bbce-bff5d5a5f22d
-
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],pluginVersion property, ItsPubPlugin.get_pluginVersion, ItsPubPlugin.pluginVersion, ItsPubPlugin::get_pluginVersion, ItsPubPlugin::pluginVersion, get_pluginVersion, pluginVersion property [Remote Desktop Services], pluginVersion property [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_pluginversion, tspubplugincom/ItsPubPlugin::get_pluginVersion, tspubplugincom/ItsPubPlugin::pluginVersion
 ms.topic: method
-f1_keywords: 
- - "tspubplugincom/ItsPubPlugin.pluginVersion"
+f1_keywords:
+- tspubplugincom/ItsPubPlugin.pluginVersion
 dev_langs:
- - c++
+- c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tspubplugincom.h
+- tspubplugincom.h
 api_name:
- - ItsPubPlugin.pluginVersion
- - ItsPubPlugin.get_pluginVersion
+- ItsPubPlugin.pluginVersion
+- ItsPubPlugin.get_pluginVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

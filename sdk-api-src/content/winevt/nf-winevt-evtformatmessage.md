@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtFormatMessage
 title: EvtFormatMessage function (winevt.h)
-
 description: Formats a message string.
 old-location: wes\evtformatmessage.htm
 tech.root: wes
 ms.assetid: 744fe166-b12c-49d4-ab13-b2ef6a6f9625
-
 ms.date: 12/05/2018
 ms.keywords: EvtFormatMessage, EvtFormatMessage function [EventLog], wes.evtformatmessage, winevt/EvtFormatMessage
 ms.topic: function
 f1_keywords:
 - winevt/EvtFormatMessage
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

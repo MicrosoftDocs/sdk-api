@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgpolicyengine.ITSGPolicyEngine.Refresh
 title: ITSGPolicyEngine::Refresh (tsgpolicyengine.h)
-
 description: This method is reserved.
 old-location: termserv\itsgpolicyengine_refresh.htm
 tech.root: TermServ
 ms.assetid: 29432884-c844-4c38-92e6-e1bcbba32b2b
-
 ms.date: 12/05/2018
 ms.keywords: ITSGPolicyEngine interface [Remote Desktop Services],Refresh method, ITSGPolicyEngine.Refresh, ITSGPolicyEngine::Refresh, Refresh, Refresh method [Remote Desktop Services], Refresh method [Remote Desktop Services],ITSGPolicyEngine interface, termserv.itsgpolicyengine_refresh, tsgpolicyengine/ITSGPolicyEngine::Refresh
 ms.topic: method
-f1_keywords: 
- - "tsgpolicyengine/ITSGPolicyEngine.Refresh"
+f1_keywords:
+- tsgpolicyengine/ITSGPolicyEngine.Refresh
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine.Refresh
+- ITSGPolicyEngine.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

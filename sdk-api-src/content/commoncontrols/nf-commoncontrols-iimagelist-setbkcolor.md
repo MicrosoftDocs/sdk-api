@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.SetBkColor
 title: IImageList::SetBkColor (commoncontrols.h)
-
 description: Sets the background color for an image list.
 old-location: controls\IImageList_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setbkcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],SetBkColor method, IImageList.SetBkColor, IImageList::SetBkColor, SetBkColor, SetBkColor method [Windows Controls], SetBkColor method [Windows Controls],IImageList interface, comctl_IImageList_SetBkColor, comctl_IImageList_SetBkColor_cpp, commoncontrols/IImageList::SetBkColor, controls.IImageList_SetBkColor, controls.comctl_IImageList_SetBkColor
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.SetBkColor"
+f1_keywords:
+- commoncontrols/IImageList.SetBkColor
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.SetBkColor
+- IImageList.SetBkColor
 targetos: Windows
 req.typenames: 
 req.redist: 

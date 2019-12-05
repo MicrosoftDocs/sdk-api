@@ -1,19 +1,17 @@
 ---
 UID: NE:networkisolation._NETISO_ERROR_TYPE
 title: NETISO_ERROR_TYPE (networkisolation.h)
-
 description: Specifies the type of error related to a network isolation operation.
 old-location: ics\netiso_error_type.htm
 tech.root: ics
 ms.assetid: 0daa9d07-8a65-4254-b197-a37e6e04ce32
-
 ms.date: 12/05/2018
 ms.keywords: NETISO_ERROR_TYPE, NETISO_ERROR_TYPE enumeration [ICS/ICF], NETISO_ERROR_TYPE_INTERNET_CLIENT, NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER, NETISO_ERROR_TYPE_MAX, NETISO_ERROR_TYPE_NONE, NETISO_ERROR_TYPE_PRIVATE_NETWORK, ics.netiso_error_type, networkisolation/NETISO_ERROR_TYPE, networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT, networkisolation/NETISO_ERROR_TYPE_INTERNET_CLIENT_SERVER, networkisolation/NETISO_ERROR_TYPE_MAX, networkisolation/NETISO_ERROR_TYPE_NONE, networkisolation/NETISO_ERROR_TYPE_PRIVATE_NETWORK
 ms.topic: enum
-f1_keywords: 
- - "networkisolation/NETISO_ERROR_TYPE"
+f1_keywords:
+- networkisolation/NETISO_ERROR_TYPE
 dev_langs:
- - c++
+- c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - networkisolation.h
+- networkisolation.h
 api_name:
- - NETISO_ERROR_TYPE
+- NETISO_ERROR_TYPE
 targetos: Windows
 req.typenames: NETISO_ERROR_TYPE
 req.redist: 

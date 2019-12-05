@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateDXGISurfaceBuffer
 title: MFCreateDXGISurfaceBuffer function (mfapi.h)
-
 description: Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
 old-location: mf\mfcreatedxgisurfacebuffer.htm
 tech.root: medfound
 ms.assetid: 5D859F36-A82B-488B-A2F6-C697A1AA86BC
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateDXGISurfaceBuffer, MFCreateDXGISurfaceBuffer function [Media Foundation], mf.mfcreatedxgisurfacebuffer, mfapi/MFCreateDXGISurfaceBuffer
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateDXGISurfaceBuffer"
+f1_keywords:
+- mfapi/MFCreateDXGISurfaceBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateDXGISurfaceBuffer
+- MFCreateDXGISurfaceBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceRelogger.AddRealtimeTraceStream
 title: ITraceRelogger::AddRealtimeTraceStream (relogger.h)
-
 description: Adds a new real-time ETW trace stream to the relogger.
 old-location: etw\itracerelogger_addrealtimetracestream.htm
 tech.root: ETW
 ms.assetid: 68bb5715-49b8-45bc-ae98-0b4a519c8e62
-
 ms.date: 12/05/2018
 ms.keywords: AddRealtimeTraceStream, AddRealtimeTraceStream method [ETW], AddRealtimeTraceStream method [ETW],ITraceRelogger interface, ITraceRelogger interface [ETW],AddRealtimeTraceStream method, ITraceRelogger.AddRealtimeTraceStream, ITraceRelogger::AddRealtimeTraceStream, etw.itracerelogger_addrealtimetracestream, relogger/ITraceRelogger::AddRealtimeTraceStream
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceRelogger.AddRealtimeTraceStream"
+f1_keywords:
+- relogger/ITraceRelogger.AddRealtimeTraceStream
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger.AddRealtimeTraceStream
+- ITraceRelogger.AddRealtimeTraceStream
 targetos: Windows
 req.typenames: 
 req.redist: 

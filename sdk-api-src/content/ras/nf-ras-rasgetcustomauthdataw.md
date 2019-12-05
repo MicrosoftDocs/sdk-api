@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetCustomAuthDataW
 title: RasGetCustomAuthDataW function (ras.h)
-
 description: Use the RasGetCustomAuthData function to retrieve connection-specific authentication information. This information is not specific to a particular user.
 old-location: rras\rasgetcustomauthdata.htm
 tech.root: RRAS
 ms.assetid: 626d372c-4da8-4c79-92dd-9cc5b4b8a618
-
 ms.date: 12/05/2018
 ms.keywords: RasGetCustomAuthData, RasGetCustomAuthData function [RAS], RasGetCustomAuthDataA, RasGetCustomAuthDataW, _ras_rasgetcustomauthdata, ras/RasGetCustomAuthData, ras/RasGetCustomAuthDataA, ras/RasGetCustomAuthDataW, rras.rasgetcustomauthdata
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetCustomAuthData"
+f1_keywords:
+- ras/RasGetCustomAuthData
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetCustomAuthData
- - RasGetCustomAuthDataA
- - RasGetCustomAuthDataW
+- RasGetCustomAuthData
+- RasGetCustomAuthDataA
+- RasGetCustomAuthDataW
 targetos: Windows
 req.typenames: 
 req.redist: 

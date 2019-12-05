@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsPropertyValue
 title: IADsPropertyValue (iads.h)
-
 description: Used to represent the value of an IADsPropertyEntry object in a predefined data type.
 old-location: adsi\iadspropertyvalue.htm
 tech.root: adsi
 ms.assetid: 7cad4d04-80d4-4f9a-95b7-2f1809ddb8fb
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyValue, IADsPropertyValue interface [ADSI], IADsPropertyValue interface [ADSI],described, PropertyValue, _ds_iadspropertyvalue, adsi.iadspropertyvalue, iads/IADsPropertyValue
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsPropertyValue"
+f1_keywords:
+- iads/IADsPropertyValue
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyValue
- - PropertyValue
+- IADsPropertyValue
+- PropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_GetSelection
 title: TextPattern_GetSelection function (uiautomationcoreapi.h)
-
 description: Gets the current range of selected text from a text container supporting the text pattern.
 old-location: winauto\uiauto_TextPattern_GetSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: 277768af-ac6e-441c-8bf1-27a2c95a109c
-
 ms.date: 12/05/2018
 ms.keywords: TextPattern_GetSelection, TextPattern_GetSelection function [Windows Accessibility], uiauto.uiauto_TextPattern_GetSelectionConPat, uiauto_TextPattern_GetSelectionConPat, uiautomationcoreapi/TextPattern_GetSelection, winauto.uiauto_TextPattern_GetSelectionConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextPattern_GetSelection"
+f1_keywords:
+- uiautomationcoreapi/TextPattern_GetSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextPattern_GetSelection
+- TextPattern_GetSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

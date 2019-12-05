@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Close
 title: IPortableDevice::Close (portabledeviceapi.h)
-
 description: The Close method closes the connection with the device.
 old-location: wpdsdk\iportabledevice_close.htm
 tech.root: wpd_sdk
 ms.assetid: aa60a439-7589-465e-98e5-56b93d594f96
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Portable Devices SDK], Close method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Close method, IPortableDevice.Close, IPortableDevice::Close, IPortableDeviceClose, portabledeviceapi/IPortableDevice::Close, wpdsdk.iportabledevice_close
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDevice.Close"
+f1_keywords:
+- portabledeviceapi/IPortableDevice.Close
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice.Close
+- IPortableDevice.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmActionEventLog
 title: IFsrmActionEventLog (fsrm.h)
-
 description: Used to log an event to the Windows Application event log in response to a quota, file screen, or file management job event.
 old-location: fsrm\ifsrmactioneventlog.htm
 tech.root: fsrm
 ms.assetid: 418cd7aa-c363-4ab7-9c7e-2d0388483a8f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionEventLog, IFsrmActionEventLog interface [File Server Resource Manager], IFsrmActionEventLog interface [File Server Resource Manager],described, fs.ifsrmactioneventlog, fsrm.ifsrmactioneventlog, fsrm/IFsrmActionEventLog
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmActionEventLog"
+f1_keywords:
+- fsrm/IFsrmActionEventLog
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEventLog
+- IFsrmActionEventLog
 targetos: Windows
 req.typenames: 
 req.redist: 

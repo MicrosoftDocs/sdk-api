@@ -1,19 +1,17 @@
 ---
 UID: NN:wcmconfig.ISettingsNamespace
 title: ISettingsNamespace (wcmconfig.h)
-
 description: Performs operations to set, retrieve, and validate settings, and save changes for a namespace instance.
 old-location: smi\isettingsnamespace.htm
 tech.root: SMI
 ms.assetid: a5d7b9ff-eb6f-40be-b246-17189cad92be
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace, ISettingsNamespace interface [SMI], ISettingsNamespace interface [SMI],described, smi.isettingsnamespace, wcmconfig/ISettingsNamespace
 ms.topic: interface
-f1_keywords: 
- - "wcmconfig/ISettingsNamespace"
+f1_keywords:
+- wcmconfig/ISettingsNamespace
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsNamespace
+- ISettingsNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

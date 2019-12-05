@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Button_Enable
 title: Button_Enable macro (windowsx.h)
-
 description: Enables or disables a button.
 old-location: controls\Button_Enable.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_enable.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_Enable, Button_Enable macro [Windows Controls], _win32_Button_Enable, _win32_Button_Enable_cpp, controls.Button_Enable, controls._win32_Button_Enable, windowsx/Button_Enable
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Button_Enable"
+f1_keywords:
+- windowsx/Button_Enable
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Button_Enable
+- Button_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.RegisterThreadsEx
 title: IMFRealTimeClientEx::RegisterThreadsEx (mfidl.h)
-
 description: Notifies the object to register its worker threads with the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclientex_registerthreadsex.htm
 tech.root: medfound
 ms.assetid: 45E3121A-F6FD-49C7-B147-5317C045DE35
-
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],RegisterThreadsEx method, IMFRealTimeClientEx.RegisterThreadsEx, IMFRealTimeClientEx::RegisterThreadsEx, RegisterThreadsEx, RegisterThreadsEx method [Media Foundation], RegisterThreadsEx method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_registerthreadsex, mfidl/IMFRealTimeClientEx::RegisterThreadsEx
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRealTimeClientEx.RegisterThreadsEx"
+f1_keywords:
+- mfidl/IMFRealTimeClientEx.RegisterThreadsEx
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFRealTimeClientEx.RegisterThreadsEx
+- IMFRealTimeClientEx.RegisterThreadsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1InkStyle
 title: ID2D1InkStyle (d2d1_3.h)
-
 description: Represents a collection of style properties to be used by methods like ID2D1DeviceContext2::DrawInkwhen rendering ink. The ink style defines the nib (pen tip) shape and transform.
 old-location: direct2d\id2d1inkstyle.htm
 tech.root: Direct2D
 ms.assetid: 03853FA5-1377-42FB-A4C2-50069DDF6E2D
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1InkStyle, ID2D1InkStyle interface [Direct2D], ID2D1InkStyle interface [Direct2D],described, d2d1_3/ID2D1InkStyle, direct2d.id2d1inkstyle
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1InkStyle"
+f1_keywords:
+- d2d1_3/ID2D1InkStyle
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1InkStyle
+- ID2D1InkStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

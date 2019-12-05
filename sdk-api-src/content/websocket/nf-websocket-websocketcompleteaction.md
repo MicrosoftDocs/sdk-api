@@ -1,19 +1,17 @@
 ---
 UID: NF:websocket.WebSocketCompleteAction
 title: WebSocketCompleteAction function (websocket.h)
-
 description: Completes an action started by WebSocketGetAction.
 old-location: websock\websocketcompleteaction.htm
 tech.root: WebSock
 ms.assetid: e9b90176-c76f-42c2-b378-834a690bfe72
-
 ms.date: 12/05/2018
 ms.keywords: WebSocketCompleteAction, WebSocketCompleteAction function [Websocket Protocol Component API], websock.websocketcompleteaction, websocket/WebSocketCompleteAction
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketCompleteAction
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

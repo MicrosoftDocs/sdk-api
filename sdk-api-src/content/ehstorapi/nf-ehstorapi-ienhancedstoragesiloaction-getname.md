@@ -1,19 +1,17 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageSiloAction.GetName
 title: IEnhancedStorageSiloAction::GetName (ehstorapi.h)
-
 description: Returns a string for the name of the action specified by the IEnhancedStorageSiloAction object.
 old-location: enstor\ienhancedstoragesiloaction_getname.htm
 tech.root: enstor
 ms.assetid: 3690d395-c83e-4253-adc2-d30a96a5ce47
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Enhanced Storage], GetName method [Enhanced Storage],IEnhancedStorageSiloAction interface, IEnhancedStorageSiloAction interface [Enhanced Storage],GetName method, IEnhancedStorageSiloAction.GetName, IEnhancedStorageSiloAction::GetName, ehstorapi/IEnhancedStorageSiloAction::GetName, enstor.ienhancedstoragesiloaction_getname
 ms.topic: method
-f1_keywords: 
- - "ehstorapi/IEnhancedStorageSiloAction.GetName"
+f1_keywords:
+- ehstorapi/IEnhancedStorageSiloAction.GetName
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - IEnhancedStorageSiloAction.GetName
+- IEnhancedStorageSiloAction.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

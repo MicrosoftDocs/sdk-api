@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetVolume
 title: IMFMediaEngine::SetVolume (mfmediaengine.h)
-
 description: Sets the audio volume level.
 old-location: mf\imfmediaengine_setvolume.htm
 tech.root: medfound
 ms.assetid: 010EE05C-3F81-404E-8AFB-7C57CA55A8AE
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetVolume method, IMFMediaEngine.SetVolume, IMFMediaEngine::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setvolume, mfmediaengine/IMFMediaEngine::SetVolume
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetVolume"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetVolume
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetVolume
+- IMFMediaEngine.SetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

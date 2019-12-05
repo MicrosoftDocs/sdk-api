@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ChannelName
 title: IAMChannelInfo::get_ChannelName (qnetwork.h)
-
 description: The get_ChannelName method retrieves the channel name.
 old-location: dshow\iamchannelinfo_get_channelname.htm
 tech.root: DirectShow
 ms.assetid: 6cf4f8aa-d6aa-46bd-83b1-fba762fbb8bb
-
 ms.date: 12/05/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ChannelName method, IAMChannelInfo.get_ChannelName, IAMChannelInfo::get_ChannelName, IAMChannelInfoget_ChannelName, dshow.iamchannelinfo_get_channelname, get_ChannelName, get_ChannelName method [DirectShow], get_ChannelName method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ChannelName
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMChannelInfo.get_ChannelName"
+f1_keywords:
+- qnetwork/IAMChannelInfo.get_ChannelName
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMChannelInfo.get_ChannelName
+- IAMChannelInfo.get_ChannelName
 targetos: Windows
 req.typenames: 
 req.redist: 

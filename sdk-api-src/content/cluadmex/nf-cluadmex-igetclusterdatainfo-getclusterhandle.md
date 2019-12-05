@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetClusterHandle
 title: IGetClusterDataInfo::GetClusterHandle (cluadmex.h)
-
 description: Returns a handle to the cluster.
 old-location: mscs\igetclusterdatainfo_getclusterhandle.htm
 tech.root: MsCS
 ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63
-
 ms.date: 12/05/2018
 ms.keywords: GetClusterHandle, GetClusterHandle method [Failover Cluster], GetClusterHandle method [Failover Cluster],IGetClusterDataInfo interface, IGetClusterDataInfo interface [Failover Cluster],GetClusterHandle method, IGetClusterDataInfo.GetClusterHandle, IGetClusterDataInfo::GetClusterHandle, _wolf_igetclusterdatainfo_getclusterhandle, cluadmex/IGetClusterDataInfo::GetClusterHandle, mscs.igetclusterdatainfo_getclusterhandle
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterDataInfo.GetClusterHandle"
+f1_keywords:
+- cluadmex/IGetClusterDataInfo.GetClusterHandle
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterDataInfo.GetClusterHandle
+- IGetClusterDataInfo.GetClusterHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

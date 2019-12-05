@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT2.GetSegmentInfo
 title: IDVB_EIT2::GetSegmentInfo (dvbsiparser.h)
-
 description: Gets the table identifier and segment number for the current EIT segment.
 old-location: mstv\idvb_eit2_getsegmentinfo.htm
 tech.root: mstv
 ms.assetid: acc83c4e-7ec5-43f3-8d29-5c974fea91b8
-
 ms.date: 12/05/2018
 ms.keywords: GetSegmentInfo, GetSegmentInfo method [Microsoft TV Technologies], GetSegmentInfo method [Microsoft TV Technologies],IDVB_EIT2 interface, IDVB_EIT2 interface [Microsoft TV Technologies],GetSegmentInfo method, IDVB_EIT2.GetSegmentInfo, IDVB_EIT2::GetSegmentInfo, dvbsiparser/IDVB_EIT2::GetSegmentInfo, mstv.idvb_eit2_getsegmentinfo
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_EIT2.GetSegmentInfo"
+f1_keywords:
+- dvbsiparser/IDVB_EIT2.GetSegmentInfo
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_EIT2.GetSegmentInfo
+- IDVB_EIT2.GetSegmentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

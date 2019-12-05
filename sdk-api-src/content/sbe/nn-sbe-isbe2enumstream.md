@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.ISBE2EnumStream
 title: ISBE2EnumStream (sbe.h)
-
 description: Enumerates a collection of streams. This is a utility interface, which you can use to enumerate the streams discovered in a WTV file. The Stream Buffer Source filter implements this interface.
 old-location: mstv\isbe2enumstream.htm
 tech.root: mstv
 ms.assetid: 77a918f8-d305-4d4d-9a5c-523ddb796b26
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream, ISBE2EnumStream interface [Microsoft TV Technologies], ISBE2EnumStream interface [Microsoft TV Technologies],described, mstv.isbe2enumstream, sbe/ISBE2EnumStream
 ms.topic: interface
-f1_keywords: 
- - "sbe/ISBE2EnumStream"
+f1_keywords:
+- sbe/ISBE2EnumStream
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sbe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.dll
+- sbe.dll
 api_name:
- - ISBE2EnumStream
+- ISBE2EnumStream
 targetos: Windows
 req.typenames: 
 req.redist: 

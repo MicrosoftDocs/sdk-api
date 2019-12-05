@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateSensorProfile
 title: MFCreateSensorProfile function (mfidl.h)
-
 description: Creates a sensor profile, based on the specified type, index, and optional constraints.
 old-location: mf\mfcreatesensorprofile.htm
 tech.root: medfound
 ms.assetid: 76D14E98-0DB5-4D2C-9F6A-17D9B3CAA73E
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSensorProfile, MFCreateSensorProfile function [Media Foundation], mf.mfcreatesensorprofile, mfidl/MFCreateSensorProfile
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateSensorProfile"
+f1_keywords:
+- mfidl/MFCreateSensorProfile
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mfsensorgroup.dll
+- Mfsensorgroup.dll
 api_name:
- - MFCreateSensorProfile
+- MFCreateSensorProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

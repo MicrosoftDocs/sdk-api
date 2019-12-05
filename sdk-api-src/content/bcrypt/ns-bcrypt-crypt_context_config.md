@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXT_CONFIG
 title: CRYPT_CONTEXT_CONFIG (bcrypt.h)
-
 description: Contains configuration information for a CNG context.
 old-location: security\crypt_context_config.htm
 tech.root: SecCNG
 ms.assetid: 3e07b7ae-84ef-4b77-bd49-d96906eaa4f8
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config"
+ms.keywords: '*PCRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG, CRYPT_CONTEXT_CONFIG structure [Security], CRYPT_EXCLUSIVE, CRYPT_OVERRIDE, PCRYPT_CONTEXT_CONFIG, PCRYPT_CONTEXT_CONFIG structure pointer [Security], bcrypt/CRYPT_CONTEXT_CONFIG, bcrypt/PCRYPT_CONTEXT_CONFIG, security.crypt_context_config'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_CONTEXT_CONFIG"
+f1_keywords:
+- bcrypt/CRYPT_CONTEXT_CONFIG
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_CONTEXT_CONFIG
+- CRYPT_CONTEXT_CONFIG
 targetos: Windows
 req.typenames: CRYPT_CONTEXT_CONFIG, *PCRYPT_CONTEXT_CONFIG
 req.redist: 

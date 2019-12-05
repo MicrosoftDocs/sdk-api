@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_delete
 title: ldap_delete function (winldap.h)
-
 description: The ldap_delete function deletes an entry from the directory tree.
 old-location: ldap\ldap_delete.htm
 tech.root: ldap
 ms.assetid: 314f3128-ab09-45a7-a678-779d5b7d4d72
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_delete, ldap.ldap__delete, ldap.ldap_delete, ldap_delete, ldap_delete function [LDAP], ldap_deleteA, ldap_deleteW, winldap/ldap_delete, winldap/ldap_deleteA, winldap/ldap_deleteW"
+ms.keywords: _ldap_ldap_delete, ldap.ldap__delete, ldap.ldap_delete, ldap_delete, ldap_delete function [LDAP], ldap_deleteA, ldap_deleteW, winldap/ldap_delete, winldap/ldap_deleteA, winldap/ldap_deleteW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_delete"
+f1_keywords:
+- winldap/ldap_delete
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_delete
- - ldap_deleteA
- - ldap_deleteW
+- ldap_delete
+- ldap_deleteA
+- ldap_deleteW
 targetos: Windows
 req.typenames: 
 req.redist: 

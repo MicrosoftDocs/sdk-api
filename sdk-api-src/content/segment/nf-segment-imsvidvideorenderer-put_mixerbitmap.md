@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_MixerBitmap
 title: IMSVidVideoRenderer::put_MixerBitmap (segment.h)
-
 description: The put_MixerBitmap method specifies the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_put_mixerbitmap.htm
 tech.root: mstv
 ms.assetid: fa9d9bea-f711-42f1-a247-322036744c44
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_MixerBitmap method, IMSVidVideoRenderer.put_MixerBitmap, IMSVidVideoRenderer::put_MixerBitmap, IMSVidVideoRendererput_MixerBitmap, mstv.imsvidvideorenderer_put_mixerbitmap, put_MixerBitmap, put_MixerBitmap method [Microsoft TV Technologies], put_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_MixerBitmap
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.put_MixerBitmap"
+f1_keywords:
+- segment/IMSVidVideoRenderer.put_MixerBitmap
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.put_MixerBitmap
+- IMSVidVideoRenderer.put_MixerBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

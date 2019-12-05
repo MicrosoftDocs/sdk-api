@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmFilterTagEnumA
 title: acmFilterTagEnumA function (msacm.h)
-
 description: The acmFilterTagEnum function enumerates waveform-audio filter tags available from an ACM driver. This function continues enumerating until there are no more suitable filter tags or the callback function returns FALSE.
 old-location: multimedia\acmfiltertagenum.htm
 tech.root: Multimedia
 ms.assetid: eaec57c2-51b8-4842-ba78-f5726c2dc31d
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFilterTagEnum, acmFilterTagEnum, acmFilterTagEnum function [Windows Multimedia], acmFilterTagEnumA, acmFilterTagEnumW, msacm/acmFilterTagEnum, msacm/acmFilterTagEnumA, msacm/acmFilterTagEnumW, multimedia.acmfiltertagenum"
+ms.keywords: _win32_acmFilterTagEnum, acmFilterTagEnum, acmFilterTagEnum function [Windows Multimedia], acmFilterTagEnumA, acmFilterTagEnumW, msacm/acmFilterTagEnum, msacm/acmFilterTagEnumA, msacm/acmFilterTagEnumW, multimedia.acmfiltertagenum
 ms.topic: function
-f1_keywords: 
- - "msacm/acmFilterTagEnum"
+f1_keywords:
+- msacm/acmFilterTagEnum
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFilterTagEnum
- - acmFilterTagEnumA
- - acmFilterTagEnumW
+- acmFilterTagEnum
+- acmFilterTagEnumA
+- acmFilterTagEnumW
 targetos: Windows
 req.typenames: 
 req.redist: 

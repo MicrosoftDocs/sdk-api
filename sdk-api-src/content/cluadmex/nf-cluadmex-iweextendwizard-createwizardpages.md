@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWEExtendWizard.CreateWizardPages
 title: IWEExtendWizard::CreateWizardPages (cluadmex.h)
-
 description: Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
 old-location: mscs\iweextendwizard_createwizardpages.htm
 tech.root: MsCS
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01
-
 ms.date: 12/05/2018
 ms.keywords: CreateWizardPages, CreateWizardPages method [Failover Cluster], CreateWizardPages method [Failover Cluster],IWEExtendWizard interface, IWEExtendWizard interface [Failover Cluster],CreateWizardPages method, IWEExtendWizard.CreateWizardPages, IWEExtendWizard::CreateWizardPages, _wolf_iweextendwizard_createwizardpages, cluadmex/IWEExtendWizard::CreateWizardPages, mscs.iweextendwizard_createwizardpages
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWEExtendWizard.CreateWizardPages"
+f1_keywords:
+- cluadmex/IWEExtendWizard.CreateWizardPages
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEExtendWizard.CreateWizardPages
+- IWEExtendWizard.CreateWizardPages
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardRemoveReaderFromGroupW
 title: SCardRemoveReaderFromGroupW function (winscard.h)
-
 description: Removes a reader from an existing reader group. This function has no effect on the reader.
 old-location: security\scardremovereaderfromgroup.htm
 tech.root: SecAuthN
 ms.assetid: a9bdaf16-1a6f-4a84-ab29-3d6df9003ff9
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardRemoveReaderFromGroup, SCardRemoveReaderFromGroup function [Security], SCardRemoveReaderFromGroupA, SCardRemoveReaderFromGroupW, _smart_scardremovereaderfromgroup, security.scardremovereaderfromgroup, winscard/SCardRemoveReaderFromGroup, winscard/SCardRemoveReaderFromGroupA, winscard/SCardRemoveReaderFromGroupW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardRemoveReaderFromGroup"
+f1_keywords:
+- winscard/SCardRemoveReaderFromGroup
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardRemoveReaderFromGroup
- - SCardRemoveReaderFromGroupA
- - SCardRemoveReaderFromGroupW
+- SCardRemoveReaderFromGroup
+- SCardRemoveReaderFromGroupA
+- SCardRemoveReaderFromGroupW
 targetos: Windows
 req.typenames: 
 req.redist: 

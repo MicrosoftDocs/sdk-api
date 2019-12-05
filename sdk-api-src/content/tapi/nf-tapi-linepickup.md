@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.linePickup
 title: linePickup function (tapi.h)
-
 description: The linePickup function picks up a call alerting at the specified destination address and returns a call handle for the picked-up call.
 old-location: tapi2\linepickup.htm
 tech.root: Tapi
 ms.assetid: 94773ca0-8ea4-443f-9c61-81969dd72a7a
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linepickup, linePickup, linePickup function [TAPI 2.2], linePickupA, linePickupW, tapi/linePickup, tapi/linePickupA, tapi/linePickupW, tapi2.linepickup"
+ms.keywords: _tapi2_linepickup, linePickup, linePickup function [TAPI 2.2], linePickupA, linePickupW, tapi/linePickup, tapi/linePickupA, tapi/linePickupW, tapi2.linepickup
 ms.topic: function
-f1_keywords: 
- - "tapi/linePickup"
+f1_keywords:
+- tapi/linePickup
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - linePickup
- - linePickupA
- - linePickupW
+- linePickup
+- linePickupA
+- linePickupW
 targetos: Windows
 req.typenames: 
 req.redist: 

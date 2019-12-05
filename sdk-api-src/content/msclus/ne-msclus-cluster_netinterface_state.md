@@ -1,19 +1,17 @@
 ---
 UID: NE:msclus.CLUSTER_NETINTERFACE_STATE
 title: CLUSTER_NETINTERFACE_STATE (msclus.h)
-
 description: Enumerates the possible values of the state of a network interface.
 old-location: mscs\cluster_netinterface_state.htm
 tech.root: MsCS
 ms.assetid: 8b4dc26c-0bac-4ff1-b5ae-4524c81ccdf7
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_NETINTERFACE_STATE, CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], ClusterNetInterfaceFailed, ClusterNetInterfaceStateUnknown, ClusterNetInterfaceUnavailable, ClusterNetInterfaceUnreachable, ClusterNetInterfaceUp, _CLUSTER_NETINTERFACE_STATE, _CLUSTER_NETINTERFACE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NETINTERFACE_STATE, clusapi/ClusterNetInterfaceFailed, clusapi/ClusterNetInterfaceStateUnknown, clusapi/ClusterNetInterfaceUnavailable, clusapi/ClusterNetInterfaceUnreachable, clusapi/ClusterNetInterfaceUp, clusapi/_CLUSTER_NETINTERFACE_STATE, msclus/CLUSTER_NETINTERFACE_STATE, msclus/ClusterNetInterfaceFailed, msclus/ClusterNetInterfaceStateUnknown, msclus/ClusterNetInterfaceUnavailable, msclus/ClusterNetInterfaceUnreachable, msclus/ClusterNetInterfaceUp, msclus/_CLUSTER_NETINTERFACE_STATE, mscs.cluster_netinterface_state
 ms.topic: enum
-f1_keywords: 
- - "msclus/CLUSTER_NETINTERFACE_STATE"
+f1_keywords:
+- msclus/CLUSTER_NETINTERFACE_STATE
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_NETINTERFACE_STATE
+- CLUSTER_NETINTERFACE_STATE
 targetos: Windows
 req.typenames: CLUSTER_NETINTERFACE_STATE
 req.redist: 

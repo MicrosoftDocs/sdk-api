@@ -1,19 +1,17 @@
 ---
 UID: NC:netsh.NS_CONTEXT_CONNECT_FN
 title: NS_CONTEXT_CONNECT_FN (netsh.h)
-
 description: Is the connect function for helpers.
 old-location: netshell\ns_context_connect_fn.htm
 tech.root: netshell
 ms.assetid: bbdc4a1c-4deb-44d0-bd87-0f3fce4d9883
-
 ms.date: 12/05/2018
 ms.keywords: NS_CONTEXT_CONNECT_FN, NS_CONTEXT_CONNECT_FN callback, NS_CONTEXT_CONNECT_FN callback function [NetShell], SampleConnect, _netsh_ns_context_connect_fn, netsh/NS_CONTEXT_CONNECT_FN, netshell.ns_context_connect_fn
 ms.topic: callback
 f1_keywords:
 - netsh/NS_CONTEXT_CONNECT_FN
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows

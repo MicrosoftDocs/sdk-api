@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.IAssemblyCacheItem.Commit
 title: IAssemblyCacheItem::Commit (winsxs.h)
-
 description: The Commit method copies information into the side-by-side store. When this method returns, the assembly is visible in the side-by-side store.
 old-location: setup\iassemblycacheitem_commit.htm
 tech.root: SbsCs
 ms.assetid: d8f8b6b3-72b4-400b-a780-fc25d1f4b9d0
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Side-by-side Assemblies], Commit method [Side-by-side Assemblies],IAssemblyCacheItem interface, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_ALREADY_INSTALLED, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_INSTALLED, IASSEMBLYCACHEITEM_COMMIT_DISPOSITION_REFRESHED, IASSEMBLYCACHEITEM_COMMIT_FLAG_FORCE_REFRESH, IASSEMBLYCACHEITEM_COMMIT_FLAG_REFRESH, IAssemblyCacheItem interface [Side-by-side Assemblies],Commit method, IAssemblyCacheItem.Commit, IAssemblyCacheItem::Commit, setup.iassemblycacheitem_commit, winsxs/IAssemblyCacheItem::Commit
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyCacheItem.Commit"
+f1_keywords:
+- winsxs/IAssemblyCacheItem.Commit
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyCacheItem.Commit
+- IAssemblyCacheItem.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

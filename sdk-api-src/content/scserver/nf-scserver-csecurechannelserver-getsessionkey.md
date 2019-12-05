@@ -1,19 +1,17 @@
 ---
 UID: NF:scserver.CSecureChannelServer.GetSessionKey
 title: CSecureChannelServer::GetSessionKey (scserver.h)
-
 description: The GetSessionKey method retrieves the current session key that is used for encryption and decryption. This method is published and available, but normally is used only by Windows Media Device Manager.
 old-location: wmdm\csecurechannelserver_getsessionkey.htm
 tech.root: WMDM
 ms.assetid: 1be09669-434e-4774-92bf-4ea470d6c4b9
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],GetSessionKey method, CSecureChannelServer.GetSessionKey, CSecureChannelServer::GetSessionKey, CSecureChannelServerGetSessionKey, GetSessionKey, GetSessionKey method [windows Media Device Manager], GetSessionKey method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::GetSessionKey, wmdm.csecurechannelserver_getsessionkey
 ms.topic: method
-f1_keywords: 
- - "scserver/CSecureChannelServer.GetSessionKey"
+f1_keywords:
+- scserver/CSecureChannelServer.GetSessionKey
 dev_langs:
- - c++
+- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelServer.GetSessionKey
+- CSecureChannelServer.GetSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 

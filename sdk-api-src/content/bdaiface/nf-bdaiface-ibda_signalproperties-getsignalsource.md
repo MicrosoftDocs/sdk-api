@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.GetSignalSource
 title: IBDA_SignalProperties::GetSignalSource (bdaiface.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_getsignalsource.htm
 tech.root: mstv
 ms.assetid: 929ec042-3f43-468e-944a-919dda3893be
-
 ms.date: 12/05/2018
 ms.keywords: GetSignalSource, GetSignalSource method [Microsoft TV Technologies], GetSignalSource method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetSignalSource method, IBDA_SignalProperties.GetSignalSource, IBDA_SignalProperties::GetSignalSource, IBDA_SignalPropertiesGetSignalSource, bdaiface/IBDA_SignalProperties::GetSignalSource, mstv.ibda_signalproperties_getsignalsource
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_SignalProperties.GetSignalSource"
+f1_keywords:
+- bdaiface/IBDA_SignalProperties.GetSignalSource
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_SignalProperties.GetSignalSource
+- IBDA_SignalProperties.GetSignalSource
 targetos: Windows
 req.typenames: 
 req.redist: 

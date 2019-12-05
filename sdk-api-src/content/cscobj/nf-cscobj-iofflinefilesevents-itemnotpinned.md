@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.ItemNotPinned
 title: IOfflineFilesEvents::ItemNotPinned (cscobj.h)
-
 description: Reports that an item in the Offline Files cache is no longer pinned.
 old-location: of\iofflinefilesevents_itemnotpinned.htm
 tech.root: offlinefiles
 ms.assetid: cefd7408-9e98-48a4-ad43-0bdef9da1c95
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],ItemNotPinned method, IOfflineFilesEvents.ItemNotPinned, IOfflineFilesEvents::ItemNotPinned, ItemNotPinned, ItemNotPinned method [Offline Files], ItemNotPinned method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::ItemNotPinned, of.iofflinefilesevents_itemnotpinned
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.ItemNotPinned"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.ItemNotPinned
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.ItemNotPinned
+- IOfflineFilesEvents.ItemNotPinned
 targetos: Windows
 req.typenames: 
 req.redist: 

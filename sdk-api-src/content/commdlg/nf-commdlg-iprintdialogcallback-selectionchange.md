@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.SelectionChange
 title: IPrintDialogCallback::SelectionChange (commdlg.h)
-
 description: Called by PrintDlgEx when the user selects a different printer from the list of installed printers on the General page of the Print Property Sheet.
 old-location: dlgbox\iprintdialogcallback_selectionchange.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackselectionchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: IPrintDialogCallback interface [Dialog Boxes],SelectionChange method, IPrintDialogCallback.SelectionChange, IPrintDialogCallback::SelectionChange, SelectionChange, SelectionChange method [Dialog Boxes], SelectionChange method [Dialog Boxes],IPrintDialogCallback interface, _win32_IPrintDialogCallback_SelectionChange, _win32_iprintdialogcallback_selectionchange_cpp, commdlg/IPrintDialogCallback::SelectionChange, dlgbox.iprintdialogcallback_selectionchange, winui._win32_iprintdialogcallback_selectionchange
 ms.topic: method
-f1_keywords: 
- - "commdlg/IPrintDialogCallback.SelectionChange"
+f1_keywords:
+- commdlg/IPrintDialogCallback.SelectionChange
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comdlg32.dll
+- Comdlg32.dll
 api_name:
- - IPrintDialogCallback.SelectionChange
+- IPrintDialogCallback.SelectionChange
 targetos: Windows
 req.typenames: 
 req.redist: 

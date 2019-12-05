@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetStatus
 title: IAMExtTransport::GetStatus (strmif.h)
-
 description: The GetStatus method returns information about the transport's status.
 old-location: dshow\iamexttransport_getstatus.htm
 tech.root: DirectShow
 ms.assetid: 01d90527-4851-45a3-9481-929a9f4aa0cd
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetStatus method, IAMExtTransport.GetStatus, IAMExtTransport::GetStatus, IAMExtTransportGetStatus, dshow.iamexttransport_getstatus, strmif/IAMExtTransport::GetStatus
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.GetStatus"
+f1_keywords:
+- strmif/IAMExtTransport.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.GetStatus
+- IAMExtTransport.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

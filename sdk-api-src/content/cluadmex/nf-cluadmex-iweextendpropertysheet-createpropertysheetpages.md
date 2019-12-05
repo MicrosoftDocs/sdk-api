@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IWEExtendPropertySheet.CreatePropertySheetPages
 title: IWEExtendPropertySheet::CreatePropertySheetPages (cluadmex.h)
-
 description: Creates property pages for a cluster object and adds them to a Failover Cluster Administrator property sheet.
 old-location: mscs\iweextendpropertysheet_createpropertysheetpages.htm
 tech.root: MsCS
 ms.assetid: 00eca370-a2c6-4f5c-94a9-7d7e4334ccd5
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertySheetPages, CreatePropertySheetPages method [Failover Cluster], CreatePropertySheetPages method [Failover Cluster],IWEExtendPropertySheet interface, IWEExtendPropertySheet interface [Failover Cluster],CreatePropertySheetPages method, IWEExtendPropertySheet.CreatePropertySheetPages, IWEExtendPropertySheet::CreatePropertySheetPages, _wolf_iweextendpropertysheet_createpropertysheetpages, cluadmex/IWEExtendPropertySheet::CreatePropertySheetPages, mscs.iweextendpropertysheet_createpropertysheetpages
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IWEExtendPropertySheet.CreatePropertySheetPages"
+f1_keywords:
+- cluadmex/IWEExtendPropertySheet.CreatePropertySheetPages
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEExtendPropertySheet.CreatePropertySheetPages
+- IWEExtendPropertySheet.CreatePropertySheetPages
 targetos: Windows
 req.typenames: 
 req.redist: 

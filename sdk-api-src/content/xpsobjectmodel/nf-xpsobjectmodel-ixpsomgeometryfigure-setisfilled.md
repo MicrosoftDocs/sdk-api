@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.SetIsFilled
 title: IXpsOMGeometryFigure::SetIsFilled (xpsobjectmodel.h)
-
 description: Sets a value that indicates whether the figure is filled.
 old-location: xps\ixpsomgeometryfigure_setisfilled.htm
 tech.root: printdocs
 ms.assetid: 18054987-35a9-4049-ba0f-1425e2e54ed3
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMGeometryFigure interface [XPS Documents and Packaging],SetIsFilled method, IXpsOMGeometryFigure.SetIsFilled, IXpsOMGeometryFigure::SetIsFilled, SetIsFilled, SetIsFilled method [XPS Documents and Packaging], SetIsFilled method [XPS Documents and Packaging],IXpsOMGeometryFigure interface, TRUE, xps.ixpsomgeometryfigure_setisfilled, xpsobjectmodel/IXpsOMGeometryFigure::SetIsFilled
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometryFigure.SetIsFilled"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometryFigure.SetIsFilled
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure.SetIsFilled
+- IXpsOMGeometryFigure.SetIsFilled
 targetos: Windows
 req.typenames: 
 req.redist: 

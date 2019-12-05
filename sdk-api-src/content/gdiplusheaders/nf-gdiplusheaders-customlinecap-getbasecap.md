@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.GetBaseCap
 title: CustomLineCap::GetBaseCap (gdiplusheaders.h)
-
 description: The CustomLineCap::GetBaseCap method gets the style of the base cap. The base cap is a LineCap object used as a cap at the end of a line along with this CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_GetBaseCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\getbasecap.htm
-
 ms.date: 12/05/2018
 ms.keywords: CustomLineCap class [GDI+],GetBaseCap method, CustomLineCap.GetBaseCap, CustomLineCap::GetBaseCap, GetBaseCap, GetBaseCap method [GDI+], GetBaseCap method [GDI+],CustomLineCap class, _gdiplus_CLASS_CustomLineCap_GetBaseCap_, gdiplus._gdiplus_CLASS_CustomLineCap_GetBaseCap_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.GetBaseCap"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.GetBaseCap
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.GetBaseCap
+- CustomLineCap.GetBaseCap
 targetos: Windows
 req.typenames: 
 req.redist: 

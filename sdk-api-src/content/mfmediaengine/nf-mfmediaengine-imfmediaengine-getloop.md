@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetLoop
 title: IMFMediaEngine::GetLoop (mfmediaengine.h)
-
 description: Queries whether the Media Engine will loop playback.
 old-location: mf\imfmediaengine_getloop.htm
 tech.root: medfound
 ms.assetid: EBAB4E73-164D-4AE5-87A4-0D37C10071E9
-
 ms.date: 12/05/2018
 ms.keywords: GetLoop, GetLoop method [Media Foundation], GetLoop method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetLoop method, IMFMediaEngine.GetLoop, IMFMediaEngine::GetLoop, mf.imfmediaengine_getloop, mfmediaengine/IMFMediaEngine::GetLoop
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetLoop"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetLoop
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetLoop
+- IMFMediaEngine.GetLoop
 targetos: Windows
 req.typenames: 
 req.redist: 

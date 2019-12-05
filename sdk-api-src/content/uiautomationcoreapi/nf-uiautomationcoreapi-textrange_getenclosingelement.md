@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_GetEnclosingElement
 title: TextRange_GetEnclosingElement function (uiautomationcoreapi.h)
-
 description: Returns the node for the next smallest provider that covers the range.
 old-location: winauto\uiauto_TextRange_GetEnclosingElementConPat.htm
 tech.root: WinAuto
 ms.assetid: 842754a0-1fe7-4432-ab7f-716ef870df92
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_GetEnclosingElement, TextRange_GetEnclosingElement function [Windows Accessibility], uiauto.uiauto_TextRange_GetEnclosingElementConPat, uiauto_TextRange_GetEnclosingElementConPat, uiautomationcoreapi/TextRange_GetEnclosingElement, winauto.uiauto_TextRange_GetEnclosingElementConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_GetEnclosingElement"
+f1_keywords:
+- uiautomationcoreapi/TextRange_GetEnclosingElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_GetEnclosingElement
+- TextRange_GetEnclosingElement
 targetos: Windows
 req.typenames: 
 req.redist: 

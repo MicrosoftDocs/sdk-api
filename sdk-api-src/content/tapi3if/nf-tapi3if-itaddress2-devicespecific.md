@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress2.DeviceSpecific
 title: ITAddress2::DeviceSpecific (tapi3if.h)
-
 description: The DeviceSpecific method enables service providers to provide access to features not offered by other TAPI functions.
 old-location: tapi3\itaddress2_devicespecific.htm
 tech.root: Tapi
 ms.assetid: d3b9e04d-ec20-4e30-847f-eb77f426f0f3
-
 ms.date: 12/05/2018
 ms.keywords: DeviceSpecific, DeviceSpecific method [TAPI 2.2], DeviceSpecific method [TAPI 2.2],ITAddress2 interface, ITAddress2 interface [TAPI 2.2],DeviceSpecific method, ITAddress2.DeviceSpecific, ITAddress2::DeviceSpecific, _tapi3_itaddress2_devicespecific, tapi3.itaddress2_devicespecific, tapi3if/ITAddress2::DeviceSpecific
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress2.DeviceSpecific"
+f1_keywords:
+- tapi3if/ITAddress2.DeviceSpecific
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress2.DeviceSpecific
+- ITAddress2.DeviceSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 

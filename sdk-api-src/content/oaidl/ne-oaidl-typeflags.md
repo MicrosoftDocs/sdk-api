@@ -1,19 +1,17 @@
 ---
 UID: NE:oaidl.tagTYPEFLAGS
 title: TYPEFLAGS (oaidl.h)
-
 description: The type flags.
 old-location: automat\typeflags.htm
 tech.root: automat
 ms.assetid: bf34cc90-f772-4562-9d18-7cf35aeed41e
-
 ms.date: 12/05/2018
 ms.keywords: TYPEFLAGS, TYPEFLAGS enumeration [Automation], TYPEFLAG_FAGGREGATABLE, TYPEFLAG_FAPPOBJECT, TYPEFLAG_FCANCREATE, TYPEFLAG_FCONTROL, TYPEFLAG_FDISPATCHABLE, TYPEFLAG_FDUAL, TYPEFLAG_FHIDDEN, TYPEFLAG_FLICENSED, TYPEFLAG_FNONEXTENSIBLE, TYPEFLAG_FOLEAUTOMATION, TYPEFLAG_FPREDECLID, TYPEFLAG_FPROXY, TYPEFLAG_FREPLACEABLE, TYPEFLAG_FRESTRICTED, TYPEFLAG_FREVERSEBIND, _oa96_TYPEFLAGS, automat.typeflags, oaidl/TYPEFLAGS, oaidl/TYPEFLAG_FAGGREGATABLE, oaidl/TYPEFLAG_FAPPOBJECT, oaidl/TYPEFLAG_FCANCREATE, oaidl/TYPEFLAG_FCONTROL, oaidl/TYPEFLAG_FDISPATCHABLE, oaidl/TYPEFLAG_FDUAL, oaidl/TYPEFLAG_FHIDDEN, oaidl/TYPEFLAG_FLICENSED, oaidl/TYPEFLAG_FNONEXTENSIBLE, oaidl/TYPEFLAG_FOLEAUTOMATION, oaidl/TYPEFLAG_FPREDECLID, oaidl/TYPEFLAG_FPROXY, oaidl/TYPEFLAG_FREPLACEABLE, oaidl/TYPEFLAG_FRESTRICTED, oaidl/TYPEFLAG_FREVERSEBIND
 ms.topic: enum
-f1_keywords: 
- - "oaidl/TYPEFLAGS"
+f1_keywords:
+- oaidl/TYPEFLAGS
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - TYPEFLAGS
+- TYPEFLAGS
 targetos: Windows
 req.typenames: TYPEFLAGS
 req.redist: 

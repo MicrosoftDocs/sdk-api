@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.RenameItem
 title: ITransferSource::RenameItem (shobjidl_core.h)
-
 description: Changes the name of an item, returning the IShellItem with the new name.
 old-location: shell\ITransferSource_RenameItem.htm
 tech.root: shell
 ms.assetid: 793eba59-6d21-4c7b-8fdb-bb7658fc410e
-
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],RenameItem method, ITransferSource.RenameItem, ITransferSource::RenameItem, RenameItem, RenameItem method [Windows Shell], RenameItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_RenameItem, shell.ITransferSource_RenameItem, shobjidl_core/ITransferSource::RenameItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferSource.RenameItem"
+f1_keywords:
+- shobjidl_core/ITransferSource.RenameItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferSource.RenameItem
+- ITransferSource.RenameItem
 targetos: Windows
 req.typenames: 
 req.redist: 

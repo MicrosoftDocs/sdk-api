@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagGetInputTransform
 title: MagGetInputTransform function (magnification.h)
-
 description: Retrieves the current input transformation for pen and touch input, represented as a source rectangle and a destination rectangle.
 old-location: magapi\magapi_maggetinputtransform.htm
 tech.root: magapi
 ms.assetid: 3825B5DB-BD25-4073-8EB3-65A57709A804
-
 ms.date: 12/05/2018
 ms.keywords: MagGetInputTransform, MagGetInputTransform function [Magnification API], magapi.magapi_maggetinputtransform, magnification/MagGetInputTransform
 ms.topic: function
-f1_keywords: 
- - "magnification/MagGetInputTransform"
+f1_keywords:
+- magnification/MagGetInputTransform
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagGetInputTransform
+- MagGetInputTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

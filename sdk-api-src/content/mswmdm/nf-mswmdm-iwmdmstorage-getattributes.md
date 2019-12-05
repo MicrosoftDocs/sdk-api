@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetAttributes
 title: IWMDMStorage::GetAttributes (mswmdm.h)
-
 description: The GetAttributes method retrieves the attributes of the storage.
 old-location: wmdm\iwmdmstorage_getattributes.htm
 tech.root: WMDM
 ms.assetid: e43139d2-260a-4f27-a06c-aca741204663
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributes, GetAttributes method [windows Media Device Manager], GetAttributes method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetAttributes method, IWMDMStorage.GetAttributes, IWMDMStorage::GetAttributes, IWMDMStorageGetAttributes, mswmdm/IWMDMStorage::GetAttributes, wmdm.iwmdmstorage_getattributes
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage.GetAttributes"
+f1_keywords:
+- mswmdm/IWMDMStorage.GetAttributes
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage.GetAttributes
+- IWMDMStorage.GetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

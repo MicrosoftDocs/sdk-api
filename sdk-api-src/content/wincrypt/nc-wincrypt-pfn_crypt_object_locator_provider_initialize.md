@@ -1,19 +1,17 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 title: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE (wincrypt.h)
-
 description: Initializes the provider.
 old-location: security\pfn_crypt_object_locator_provider_initialize.htm
 tech.root: SecCrypto
 ms.assetid: DBDE5B98-AC31-4CA0-A7C6-1FCD8FAC51FC
-
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback, PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE callback function [Security], security.pfn_crypt_object_locator_provider_initialize, wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE"
+f1_keywords:
+- wincrypt/PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
+- PFN_CRYPT_OBJECT_LOCATOR_PROVIDER_INITIALIZE
 targetos: Windows
 req.typenames: 
 req.redist: 

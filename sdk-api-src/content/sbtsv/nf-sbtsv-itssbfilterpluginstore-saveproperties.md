@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.SaveProperties
 title: ITsSbFilterPluginStore::SaveProperties (sbtsv.h)
-
 description: Saves a property set.
 old-location: termserv\itssbfilterpluginstore_saveproperties.htm
 tech.root: TermServ
 ms.assetid: 79e5e519-e004-49c8-9d1b-705704446628
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbFilterPluginStore interface [Remote Desktop Services],SaveProperties method, ITsSbFilterPluginStore.SaveProperties, ITsSbFilterPluginStore::SaveProperties, SaveProperties, SaveProperties method [Remote Desktop Services], SaveProperties method [Remote Desktop Services],ITsSbFilterPluginStore interface, sbtsv/ITsSbFilterPluginStore::SaveProperties, termserv.itssbfilterpluginstore_saveproperties
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbFilterPluginStore.SaveProperties"
+f1_keywords:
+- sbtsv/ITsSbFilterPluginStore.SaveProperties
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbFilterPluginStore.SaveProperties
+- ITsSbFilterPluginStore.SaveProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

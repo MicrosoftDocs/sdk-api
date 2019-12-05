@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.Advise
 title: IFileOperation::Advise (shobjidl_core.h)
-
 description: Enables a handler to provide status and error information for all operations.
 old-location: shell\IFileOperation_Advise.htm
 tech.root: shell
 ms.assetid: 458c24b0-9288-4ed7-9a4b-7534f26dd32e
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],Advise method, IFileOperation.Advise, IFileOperation::Advise, _shell_IFileOperation_Advise, shell.IFileOperation_Advise, shobjidl_core/IFileOperation::Advise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.Advise"
+f1_keywords:
+- shobjidl_core/IFileOperation.Advise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.Advise
+- IFileOperation.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

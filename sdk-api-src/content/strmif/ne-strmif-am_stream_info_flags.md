@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.AM_STREAM_INFO_FLAGS
 title: AM_STREAM_INFO_FLAGS (strmif.h)
-
 description: The AM_STREAM_INFO_FLAGS enumeration defines flags that indicate a pin's stream-control status.
 old-location: dshow\am_stream_info_flags.htm
 tech.root: DirectShow
 ms.assetid: 48f6ab36-f019-4096-b6e7-6f6ebc7c454a
-
 ms.date: 12/05/2018
 ms.keywords: AM_STREAM_INFO_DISCARDING, AM_STREAM_INFO_FLAGS, AM_STREAM_INFO_FLAGS , AM_STREAM_INFO_FLAGS enumeration [DirectShow], AM_STREAM_INFO_FLAGSEnumeration, AM_STREAM_INFO_START_DEFINED, AM_STREAM_INFO_STOP_DEFINED, AM_STREAM_INFO_STOP_SEND_EXTRA, dshow.am_stream_info_flags, strmif/AM_STREAM_INFO_DISCARDING, strmif/AM_STREAM_INFO_FLAGS, strmif/AM_STREAM_INFO_START_DEFINED, strmif/AM_STREAM_INFO_STOP_DEFINED, strmif/AM_STREAM_INFO_STOP_SEND_EXTRA
 ms.topic: enum
-f1_keywords: 
- - "strmif/AM_STREAM_INFO_FLAGS"
+f1_keywords:
+- strmif/AM_STREAM_INFO_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AM_STREAM_INFO_FLAGS
+- AM_STREAM_INFO_FLAGS
 targetos: Windows
 req.typenames: AM_STREAM_INFO_FLAGS
 req.redist: 

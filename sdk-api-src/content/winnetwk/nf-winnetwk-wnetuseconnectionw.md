@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetUseConnectionW
 title: WNetUseConnectionW function (winnetwk.h)
-
 description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource.
 old-location: wnet\wnetuseconnection.htm
 tech.root: WNet
 ms.assetid: 80fa471d-074c-468f-b90f-1636081e1583
-
 ms.date: 12/05/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_LOCALDRIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetUseConnection, WNetUseConnection function [Windows Networking (WNet)], WNetUseConnectionA, WNetUseConnectionW, _win32_wnetuseconnection, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetUseConnection, winnetwk/WNetUseConnectionA, winnetwk/WNetUseConnectionW, wnet.wnetuseconnection
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetUseConnection"
+f1_keywords:
+- winnetwk/WNetUseConnection
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetUseConnection
- - WNetUseConnectionA
- - WNetUseConnectionW
+- WNetUseConnection
+- WNetUseConnectionA
+- WNetUseConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

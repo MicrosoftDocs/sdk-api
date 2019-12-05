@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetCountOfRecords
 title: IIsdbCAContractInformationDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 00df3bb9-494b-4e2c-b836-4893fd6eff8c
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbCAContractInformationDescriptor.GetCountOfRecords, IIsdbCAContractInformationDescriptor::GetCountOfRecords, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCountOfRecords, mstv.iisdbcacontractinformationdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IIsdbCAContractInformationDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAContractInformationDescriptor.GetCountOfRecords
+- IIsdbCAContractInformationDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

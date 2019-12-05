@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetOriginalCreatorSID
 title: ISecurityProperty::GetOriginalCreatorSID (comsvcs.h)
-
 description: In MTS 2.0, this method retrieves the security identifier of the base process that initiated the activity in which the current object is executing. Do not use this method in COM+.
 old-location: cos\isecurityproperty_getoriginalcreatorsid.htm
 tech.root: cossdk
 ms.assetid: 599b0773-feee-4e3d-a23b-cc2c294f49f9
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCreatorSID, GetOriginalCreatorSID method [COM+], GetOriginalCreatorSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCreatorSID method, ISecurityProperty.GetOriginalCreatorSID, ISecurityProperty::GetOriginalCreatorSID, _cos_ISecurityProperty_GetOriginalCreatorSID, comsvcs/ISecurityProperty::GetOriginalCreatorSID, cos.isecurityproperty_getoriginalcreatorsid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityProperty.GetOriginalCreatorSID"
+f1_keywords:
+- comsvcs/ISecurityProperty.GetOriginalCreatorSID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityProperty.GetOriginalCreatorSID
+- ISecurityProperty.GetOriginalCreatorSID
 targetos: Windows
 req.typenames: 
 req.redist: 

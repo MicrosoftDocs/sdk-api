@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteGdiInterop
 title: IDWriteGdiInterop (dwrite.h)
-
 description: Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects.
 old-location: directwrite\IDWriteGdiInterop.htm
 tech.root: DirectWrite
 ms.assetid: 79472021-ee12-45dd-a943-3908c9e06cde
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteGdiInterop, IDWriteGdiInterop interface [Direct Write], IDWriteGdiInterop interface [Direct Write],described, directwrite.IDWriteGdiInterop, dwrite/IDWriteGdiInterop
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteGdiInterop"
+f1_keywords:
+- dwrite/IDWriteGdiInterop
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGdiInterop
+- IDWriteGdiInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

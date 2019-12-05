@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.put_DestinationWidth
 title: IBasicVideo::put_DestinationWidth (control.h)
-
 description: The put_DestinationWidth method sets the width of the destination rectangle.
 old-location: dshow\ibasicvideo_put_destinationwidth.htm
 tech.root: DirectShow
 ms.assetid: 4ae22194-19ca-4a20-9b4f-d9f39e346606
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_DestinationWidth method, IBasicVideo.put_DestinationWidth, IBasicVideo::put_DestinationWidth, IBasicVideoput_DestinationWidth, control/IBasicVideo::put_DestinationWidth, dshow.ibasicvideo_put_destinationwidth, put_DestinationWidth, put_DestinationWidth method [DirectShow], put_DestinationWidth method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.put_DestinationWidth"
+f1_keywords:
+- control/IBasicVideo.put_DestinationWidth
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.put_DestinationWidth
+- IBasicVideo.put_DestinationWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

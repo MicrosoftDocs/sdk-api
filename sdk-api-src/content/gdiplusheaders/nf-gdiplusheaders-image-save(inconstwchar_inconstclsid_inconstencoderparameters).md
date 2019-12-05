@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Image.Save(IN const WCHAR,IN const CLSID,IN const Encoder
 title: Image::Save
 description: The Image::Save method saves this image to a file.
 ms.assetid: e2c57259-fe82-40dc-86a3-3f4110e6c0ee
-
 ms.date: 05/20/2019
 ms.keywords: Image::Save
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Image::Save"
+f1_keywords:
+- gdiplusheaders/Image::Save
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Image::Save
+- Image::Save
 ---
 
 # Image::Save(WCHAR*,CLSID*,EncoderParameters*)

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.PolicyChangeDetected
 title: IOfflineFilesEvents2::PolicyChangeDetected (cscobj.h)
-
 description: Reports that the Offline Files service detected a change in one or more of its setting values that are controlled by Group Policy.
 old-location: of\iofflinefilesevents2_policychangedetected.htm
 tech.root: offlinefiles
 ms.assetid: 1009c67a-09f4-40ea-8aa9-fb42f1ab54ff
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents2 interface [Offline Files],PolicyChangeDetected method, IOfflineFilesEvents2.PolicyChangeDetected, IOfflineFilesEvents2::PolicyChangeDetected, PolicyChangeDetected, PolicyChangeDetected method [Offline Files], PolicyChangeDetected method [Offline Files],IOfflineFilesEvents2 interface, cscobj/IOfflineFilesEvents2::PolicyChangeDetected, of.iofflinefilesevents2_policychangedetected
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents2.PolicyChangeDetected"
+f1_keywords:
+- cscobj/IOfflineFilesEvents2.PolicyChangeDetected
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents2.PolicyChangeDetected
+- IOfflineFilesEvents2.PolicyChangeDetected
 targetos: Windows
 req.typenames: 
 req.redist: 

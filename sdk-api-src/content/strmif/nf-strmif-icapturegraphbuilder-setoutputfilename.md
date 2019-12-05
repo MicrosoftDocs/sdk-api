@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.SetOutputFileName
 title: ICaptureGraphBuilder::SetOutputFileName (strmif.h)
-
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Creates the rendering section of the filter graph, which will save bits to disk with the specified file name.
 old-location: dshow\icapturegraphbuilder_setoutputfilename.htm
 tech.root: DirectShow
 ms.assetid: f410465f-c560-49ab-9194-66d708274f77
-
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],SetOutputFileName method, ICaptureGraphBuilder.SetOutputFileName, ICaptureGraphBuilder::SetOutputFileName, ICaptureGraphBuilderSetOutputFileName, SetOutputFileName, SetOutputFileName method [DirectShow], SetOutputFileName method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_setoutputfilename, strmif/ICaptureGraphBuilder::SetOutputFileName
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder.SetOutputFileName"
+f1_keywords:
+- strmif/ICaptureGraphBuilder.SetOutputFileName
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Quartz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Quartz.dll
+- Quartz.dll
 api_name:
- - ICaptureGraphBuilder.SetOutputFileName
+- ICaptureGraphBuilder.SetOutputFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

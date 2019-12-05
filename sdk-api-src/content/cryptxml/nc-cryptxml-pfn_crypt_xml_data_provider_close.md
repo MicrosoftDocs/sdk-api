@@ -1,19 +1,17 @@
 ---
 UID: NC:cryptxml.PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
 title: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE (cryptxml.h)
-
 description: Releases the data provider.
 old-location: security\pfn_crypt_xml_data_provider_close.htm
 tech.root: SecCrypto
 ms.assetid: 886fbe92-f9ab-49d4-968a-afeadbf2f030
-
 ms.date: 12/05/2018
 ms.keywords: PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback, PFN_CRYPT_XML_DATA_PROVIDER_CLOSE callback function [Security], cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE, security.pfn_crypt_xml_data_provider_close
 ms.topic: callback
-f1_keywords: 
- - "cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE"
+f1_keywords:
+- cryptxml/PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
+- PFN_CRYPT_XML_DATA_PROVIDER_CLOSE
 targetos: Windows
 req.typenames: 
 req.redist: 

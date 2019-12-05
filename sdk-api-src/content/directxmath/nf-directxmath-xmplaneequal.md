@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMPlaneEqual
 title: XMPlaneEqual function (directxmath.h)
-
 description: Determines if two planes are equal.
 old-location: dxmath\xmplaneequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneEqual(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneEqual, XMPlaneEqual, XMPlaneEqual method [DirectX Math Support APIs], dxmath.xmplaneequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMPlaneEqual"
+f1_keywords:
+- directxmath/XMPlaneEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMPlaneEqual
+- XMPlaneEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

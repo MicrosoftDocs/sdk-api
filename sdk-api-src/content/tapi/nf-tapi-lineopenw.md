@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineOpenW
 title: lineOpenW function (tapi.h)
-
 description: The lineOpen function opens the line device specified by its device identifier and returns a line handle for the corresponding opened line device. This line handle is used in subsequent operations on the line device.
 old-location: tapi2\lineopen.htm
 tech.root: Tapi
 ms.assetid: 7dd39866-0b3e-47be-8aa8-adfb66df6644
-
 ms.date: 12/05/2018
 ms.keywords: LINEMAPPER, _tapi2_lineopen, lineOpen, lineOpen function [TAPI 2.2], lineOpenA, lineOpenW, tapi/lineOpen, tapi/lineOpenA, tapi/lineOpenW, tapi2.lineopen
 ms.topic: function
-f1_keywords: 
- - "tapi/lineOpen"
+f1_keywords:
+- tapi/lineOpen
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineOpen
- - lineOpenA
- - lineOpenW
+- lineOpen
+- lineOpenA
+- lineOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 

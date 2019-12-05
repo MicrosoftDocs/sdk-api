@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SkipPointerFrameMessages
 title: SkipPointerFrameMessages function (winuser.h)
-
 description: Determines which pointer input frame generated the most recently retrieved message for the specified pointer and discards any queued (unretrieved) pointer input messages generated from the same pointer input frame.
 old-location: inputmsg\skippointerframemessages.htm
 tech.root: InputMsg
 ms.assetid: d67f8d44-3e19-4523-a0f3-38f09f5df91f
-
 ms.date: 12/05/2018
 ms.keywords: SkipPointerFrameMessages, SkipPointerFrameMessages function [Input Messages and Notifications], inputmsg.skippointerframemessages, winuser/SkipPointerFrameMessages
 ms.topic: function
-f1_keywords: 
- - "winuser/SkipPointerFrameMessages"
+f1_keywords:
+- winuser/SkipPointerFrameMessages
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - MinUser.dll
- - api-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- MinUser.dll
+- api-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - SkipPointerFrameMessages
+- SkipPointerFrameMessages
 targetos: Windows
 req.typenames: 
 req.redist: 

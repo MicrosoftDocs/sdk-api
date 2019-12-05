@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCompartmentEventSink.OnChange
 title: ITfCompartmentEventSink::OnChange (msctf.h)
-
 description: ITfCompartmentEventSink::OnChange method
 old-location: tsf\itfcompartmenteventsink_onchange.htm
 tech.root: TSF
 ms.assetid: 1756754c-6353-4296-bdb5-1cbef1d29ec5
-
 ms.date: 12/05/2018
 ms.keywords: ITfCompartmentEventSink interface [Text Services Framework],OnChange method, ITfCompartmentEventSink.OnChange, ITfCompartmentEventSink::OnChange, OnChange, OnChange method [Text Services Framework], OnChange method [Text Services Framework],ITfCompartmentEventSink interface, _tsf_itfcompartmenteventsink_onchange_ref, msctf/ITfCompartmentEventSink::OnChange, tsf.itfcompartmenteventsink_onchange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCompartmentEventSink.OnChange"
+f1_keywords:
+- msctf/ITfCompartmentEventSink.OnChange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCompartmentEventSink.OnChange
+- ITfCompartmentEventSink.OnChange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

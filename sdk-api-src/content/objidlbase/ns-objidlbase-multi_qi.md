@@ -1,19 +1,17 @@
 ---
 UID: NS:objidlbase.tagMULTI_QI
 title: MULTI_QI (objidlbase.h)
-
 description: Represents an interface in a query for multiple interfaces.
 old-location: com\multi_qi.htm
 tech.root: com
 ms.assetid: 845040c9-fad4-4ac8-856d-d35edbf48ec9
-
 ms.date: 12/05/2018
 ms.keywords: MULTI_QI, MULTI_QI structure [COM], _com_MULTI_QI, com.multi_qi, objidlbase/MULTI_QI, tagMULTI_QI
 ms.topic: struct
-f1_keywords: 
- - "objidlbase/MULTI_QI"
+f1_keywords:
+- objidlbase/MULTI_QI
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - MULTI_QI
+- MULTI_QI
 targetos: Windows
 req.typenames: MULTI_QI
 req.redist: 

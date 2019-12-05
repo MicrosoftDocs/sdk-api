@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleCreateLink
 title: OleCreateLink function (ole2.h)
-
 description: Creates an OLE compound-document linked object.
 old-location: com\olecreatelink.htm
 tech.root: com
 ms.assetid: ef52dc37-aa63-47f3-a04f-f9d22178690f
-
 ms.date: 12/05/2018
 ms.keywords: OleCreateLink, OleCreateLink function [COM], _ole_OleCreateLink, com.olecreatelink, ole2/OleCreateLink
 ms.topic: function
-f1_keywords: 
- - "ole2/OleCreateLink"
+f1_keywords:
+- ole2/OleCreateLink
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleCreateLink
+- OleCreateLink
 targetos: Windows
 req.typenames: 
 req.redist: 

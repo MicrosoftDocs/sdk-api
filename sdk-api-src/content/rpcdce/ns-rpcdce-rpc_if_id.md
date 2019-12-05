@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdce._RPC_IF_ID
 title: RPC_IF_ID (rpcdce.h)
-
 description: The RPC_IF_ID structure contains the interface UUID and major and minor version numbers of an interface.
 old-location: rpc\rpc_if_id.htm
 tech.root: Rpc
 ms.assetid: 6fad80e0-4239-48f7-9cd1-3b9c56303346
-
 ms.date: 12/05/2018
 ms.keywords: RPC_IF_ID, RPC_IF_ID structure [RPC], _rpc_rpc_if_id, rpc.rpc_if_id, rpcdce/RPC_IF_ID
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_IF_ID"
+f1_keywords:
+- rpcdce/RPC_IF_ID
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_IF_ID
+- RPC_IF_ID
 targetos: Windows
 req.typenames: RPC_IF_ID
 req.redist: 

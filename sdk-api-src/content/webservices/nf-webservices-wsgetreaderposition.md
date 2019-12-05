@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetReaderPosition
 title: WsGetReaderPosition function (webservices.h)
-
 description: Returns the current position of the reader. This can only be used on a reader that is set to an XmlBuffer.
 old-location: wsw\wsgetreaderposition.htm
 tech.root: wsw
 ms.assetid: 91e543f3-7325-4a90-9b99-c98918478853
-
 ms.date: 12/05/2018
 ms.keywords: WsGetReaderPosition, WsGetReaderPosition function [Web Services for Windows], webservices/WsGetReaderPosition, wsw.wsgetreaderposition
 ms.topic: function
 f1_keywords:
 - webservices/WsGetReaderPosition
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilRemoveResourceServiceEnvironment
 title: ResUtilRemoveResourceServiceEnvironment function (resapi.h)
-
 description: Removes the environment data from a service. This function must be called from a resource DLL. The PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT type defines a pointer to this function.
 old-location: mscs\resutilremoveresourceserviceenvironment.htm
 tech.root: MsCS
 ms.assetid: e0e3ea2d-9cf2-40f6-a3a8-fdcacb63479c
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT, PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT function [Failover Cluster], ResUtilRemoveResourceServiceEnvironment, ResUtilRemoveResourceServiceEnvironment function [Failover Cluster], mscs.resutilremoveresourceserviceenvironment, resapi/PRESUTIL_REMOVE_RESOURCE_SERVICE_ENVIRONMENT, resapi/ResUtilRemoveResourceServiceEnvironment
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilRemoveResourceServiceEnvironment"
+f1_keywords:
+- resapi/ResUtilRemoveResourceServiceEnvironment
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilRemoveResourceServiceEnvironment
+- ResUtilRemoveResourceServiceEnvironment
 targetos: Windows
 req.typenames: 
 req.redist: 

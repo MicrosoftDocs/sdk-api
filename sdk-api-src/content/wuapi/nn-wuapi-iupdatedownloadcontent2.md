@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateDownloadContent2
 title: IUpdateDownloadContent2 (wuapi.h)
-
 description: Represents the download content of an update.
 old-location: wua\iupdatedownloadcontent2.htm
 tech.root: Wua_Sdk
 ms.assetid: adf2e5df-42ca-41dc-aa84-60302c36a494
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloadContent2, IUpdateDownloadContent2 interface [Windows Update Agent], IUpdateDownloadContent2 interface [Windows Update Agent],described, wua.iupdatedownloadcontent2, wuapi/IUpdateDownloadContent2
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateDownloadContent2"
+f1_keywords:
+- wuapi/IUpdateDownloadContent2
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloadContent2
+- IUpdateDownloadContent2
 targetos: Windows
 req.typenames: 
 req.redist: 

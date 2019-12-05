@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagKEYBDINPUT
 title: KEYBDINPUT (winuser.h)
-
 description: Contains information about a simulated keyboard event.
 old-location: inputdev\keybdinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputstructures\keybdinput.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPKEYBDINPUT, *PKEYBDINPUT, KEYBDINPUT, KEYBDINPUT structure [Keyboard and Mouse Input], KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, KEYEVENTF_SCANCODE, KEYEVENTF_UNICODE, PKEYBDINPUT, PKEYBDINPUT structure pointer [Keyboard and Mouse Input], _win32_KEYBDINPUT_str, _win32_keybdinput_str_cpp, inputdev.keybdinput, winui._win32_keybdinput_str, winuser/KEYBDINPUT, winuser/PKEYBDINPUT"
+ms.keywords: '*LPKEYBDINPUT, *PKEYBDINPUT, KEYBDINPUT, KEYBDINPUT structure [Keyboard and Mouse Input], KEYEVENTF_EXTENDEDKEY, KEYEVENTF_KEYUP, KEYEVENTF_SCANCODE, KEYEVENTF_UNICODE, PKEYBDINPUT, PKEYBDINPUT structure pointer [Keyboard and Mouse Input], _win32_KEYBDINPUT_str, _win32_keybdinput_str_cpp, inputdev.keybdinput, winui._win32_keybdinput_str, winuser/KEYBDINPUT, winuser/PKEYBDINPUT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/KEYBDINPUT"
+f1_keywords:
+- winuser/KEYBDINPUT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - KEYBDINPUT
+- KEYBDINPUT
 targetos: Windows
 req.typenames: KEYBDINPUT, *PKEYBDINPUT, *LPKEYBDINPUT
 req.redist: 

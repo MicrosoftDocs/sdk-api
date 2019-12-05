@@ -1,19 +1,17 @@
 ---
 UID: NN:shimgdata.IShellImageDataAbort
 title: IShellImageDataAbort (shimgdata.h)
-
 description: Exposes a single method used to abort IShellImageData processes.
 old-location: shell\IShellImageDataAbort.htm
 tech.root: shell
 ms.assetid: 98a79c41-a384-4486-af51-a33cd5f0750e
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageDataAbort, IShellImageDataAbort interface [Windows Shell], IShellImageDataAbort interface [Windows Shell],described, _shell_IShellImageDataAbort, shell.IShellImageDataAbort, shimgdata/IShellImageDataAbort
 ms.topic: interface
-f1_keywords: 
- - "shimgdata/IShellImageDataAbort"
+f1_keywords:
+- shimgdata/IShellImageDataAbort
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageDataAbort
+- IShellImageDataAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IDirectWriterLock
 title: IDirectWriterLock (objidl.h)
-
 description: The IDirectWriterLock interface enables a single writer to obtain exclusive write access to a root storage object opened in direct mode while allowing concurrent access by multiple readers.
 old-location: stg\idirectwriterlock.htm
 tech.root: Stg
 ms.assetid: cff56e4f-b8c5-4d87-9289-f8f2212d7c42
-
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock, IDirectWriterLock interface [Structured Storage], IDirectWriterLock interface [Structured Storage],described, _stg_idirectwriterlock, objidl/IDirectWriterLock, stg.idirectwriterlock
 ms.topic: interface
-f1_keywords: 
- - "objidl/IDirectWriterLock"
+f1_keywords:
+- objidl/IDirectWriterLock
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IDirectWriterLock
+- IDirectWriterLock
 targetos: Windows
 req.typenames: 
 req.redist: 

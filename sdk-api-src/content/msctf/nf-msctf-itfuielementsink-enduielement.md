@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElementSink.EndUIElement
 title: ITfUIElementSink::EndUIElement (msctf.h)
-
 description: The ITfUIElementSink::EndUIElement method is called when the UIElement is finished.
 old-location: tsf\itfuielementsink_enduielement.htm
 tech.root: TSF
 ms.assetid: b29539fe-a240-498b-8267-be243d437005
-
 ms.date: 12/05/2018
 ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIElement method [Text Services Framework],ITfUIElementSink interface, ITfUIElementSink interface [Text Services Framework],EndUIElement method, ITfUIElementSink.EndUIElement, ITfUIElementSink::EndUIElement, msctf/ITfUIElementSink::EndUIElement, tsf.itfuielementsink_enduielement
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElementSink.EndUIElement"
+f1_keywords:
+- msctf/ITfUIElementSink.EndUIElement
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElementSink.EndUIElement
+- ITfUIElementSink.EndUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

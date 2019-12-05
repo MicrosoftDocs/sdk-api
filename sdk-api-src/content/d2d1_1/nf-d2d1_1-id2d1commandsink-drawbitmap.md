@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawBitmap
 title: ID2D1CommandSink::DrawBitmap (d2d1_1.h)
-
 description: Draws a bitmap to the render target.
 old-location: direct2d\id2d1commandsink_drawbitmap.htm
 tech.root: Direct2D
 ms.assetid: 95F73EBD-989E-4FB1-B1D2-86642E99FA3E
-
 ms.date: 12/05/2018
 ms.keywords: DrawBitmap, DrawBitmap method [Direct2D], DrawBitmap method [Direct2D],ID2D1CommandSink interface, ID2D1CommandSink interface [Direct2D],DrawBitmap method, ID2D1CommandSink.DrawBitmap, ID2D1CommandSink::DrawBitmap, d2d1_1/ID2D1CommandSink::DrawBitmap, direct2d.id2d1commandsink_drawbitmap
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1CommandSink.DrawBitmap"
+f1_keywords:
+- d2d1_1/ID2D1CommandSink.DrawBitmap
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1CommandSink.DrawBitmap
+- ID2D1CommandSink.DrawBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

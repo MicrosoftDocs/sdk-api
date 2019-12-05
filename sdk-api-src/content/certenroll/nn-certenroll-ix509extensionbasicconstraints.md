@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509ExtensionBasicConstraints
 title: IX509ExtensionBasicConstraints (certenroll.h)
-
 description: Enables you to specify whether the certificate subject is a certification authority and, if so, the depth of the subordinate certification authority chain that can exist beneath the certification authority for which this extension ID is defined.
 old-location: security\ix509extensionbasicconstraints.htm
 tech.root: seccertenroll
 ms.assetid: 81a1d567-191f-463c-ba67-0867025d8756
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionBasicConstraints, IX509ExtensionBasicConstraints interface [Security], IX509ExtensionBasicConstraints interface [Security],described, certenroll/IX509ExtensionBasicConstraints, security.ix509extensionbasicconstraints
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509ExtensionBasicConstraints"
+f1_keywords:
+- certenroll/IX509ExtensionBasicConstraints
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionBasicConstraints
+- IX509ExtensionBasicConstraints
 targetos: Windows
 req.typenames: 
 req.redist: 

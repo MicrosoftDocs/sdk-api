@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IDocViewSite.OnSetTitle
 title: IDocViewSite::OnSetTitle (shlobj.h)
-
 description: Sets or retrieves the title of the site object.
 old-location: shell\IDocViewSite_OnSetTitle.htm
 tech.root: shell
 ms.assetid: 941a8fe0-27db-4646-97d0-287fc94e7721
-
 ms.date: 12/05/2018
 ms.keywords: IDocViewSite interface [Windows Shell],OnSetTitle method, IDocViewSite.OnSetTitle, IDocViewSite::OnSetTitle, OnSetTitle, OnSetTitle method [Windows Shell], OnSetTitle method [Windows Shell],IDocViewSite interface, _win32_IDocViewSite_OnSetTitle, shell.IDocViewSite_OnSetTitle, shlobj/IDocViewSite::OnSetTitle
 ms.topic: method
-f1_keywords: 
- - "shlobj/IDocViewSite.OnSetTitle"
+f1_keywords:
+- shlobj/IDocViewSite.OnSetTitle
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDocViewSite.OnSetTitle
+- IDocViewSite.OnSetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

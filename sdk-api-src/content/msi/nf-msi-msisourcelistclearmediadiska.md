@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListClearMediaDiskA
 title: MsiSourceListClearMediaDiskA function (msi.h)
-
 description: The MsiSourceListClearMediaDisk function provides the ability to remove an existing registered disk under the media source for a product or patch in a specific context.
 old-location: setup\msisourcelistclearmediadisks.htm
 tech.root: Msi
 ms.assetid: e2e7cc95-e41b-4270-8650-30a1c12a0057
-
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MsiSourceListClearMediaDisk, MsiSourceListClearMediaDisk function, MsiSourceListClearMediaDiskA, MsiSourceListClearMediaDiskW, NULL, User SID, msi/MsiSourceListClearMediaDisk, msi/MsiSourceListClearMediaDiskA, msi/MsiSourceListClearMediaDiskW, setup.msisourcelistclearmediadisks
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListClearMediaDisk"
+f1_keywords:
+- msi/MsiSourceListClearMediaDisk
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSourceListClearMediaDisk
- - MsiSourceListClearMediaDiskA
- - MsiSourceListClearMediaDiskW
+- MsiSourceListClearMediaDisk
+- MsiSourceListClearMediaDiskA
+- MsiSourceListClearMediaDiskW
 targetos: Windows
 req.typenames: 
 req.redist: 

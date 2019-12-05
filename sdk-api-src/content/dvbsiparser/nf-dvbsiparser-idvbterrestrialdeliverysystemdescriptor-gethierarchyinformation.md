@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation
 title: IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation.htm
 tech.root: mstv
 ms.assetid: 8ad35924-b6e0-47b1-9873-14bf48574669
-
 ms.date: 12/05/2018
 ms.keywords: GetHierarchyInformation, GetHierarchyInformation method [Microsoft TV Technologies], GetHierarchyInformation method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetHierarchyInformation method, IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, IDvbTerrestrialDeliverySystemDescriptorGetHierarchyInformation, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetHierarchyInformation, mstv.idvbterrestrialdeliverysystemdescriptor_gethierarchyinformation
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation"
+f1_keywords:
+- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation
+- IDvbTerrestrialDeliverySystemDescriptor.GetHierarchyInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

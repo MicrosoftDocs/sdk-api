@@ -1,19 +1,17 @@
 ---
 UID: NS:winbio_adapter._WINBIO_PIPELINE
 title: WINBIO_PIPELINE (winbio_adapter.h)
-
 description: Contains shared context information used by the sensor, engine, and storage adapter components in a single biometric unit.
 old-location: secbiomet\winbio_pipeline.htm
 tech.root: SecBioMet
 ms.assetid: b5fc2b14-b0b6-4327-a42a-ecae41c3e12a
-
 ms.date: 12/05/2018
-ms.keywords: "*PWINBIO_PIPELINE, PWINBIO_PIPELINE, PWINBIO_PIPELINE structure pointer [Windows Biometric Framework API], WINBIO_PIPELINE, WINBIO_PIPELINE structure [Windows Biometric Framework API], secbiomet.winbio_pipeline, winbio_adapter/PWINBIO_PIPELINE, winbio_adapter/WINBIO_PIPELINE"
+ms.keywords: '*PWINBIO_PIPELINE, PWINBIO_PIPELINE, PWINBIO_PIPELINE structure pointer [Windows Biometric Framework API], WINBIO_PIPELINE, WINBIO_PIPELINE structure [Windows Biometric Framework API], secbiomet.winbio_pipeline, winbio_adapter/PWINBIO_PIPELINE, winbio_adapter/WINBIO_PIPELINE'
 ms.topic: struct
-f1_keywords: 
- - "winbio_adapter/WINBIO_PIPELINE"
+f1_keywords:
+- winbio_adapter/WINBIO_PIPELINE
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winbio_adapter.h
+- Winbio_adapter.h
 api_name:
- - WINBIO_PIPELINE
+- WINBIO_PIPELINE
 targetos: Windows
 req.typenames: WINBIO_PIPELINE, *PWINBIO_PIPELINE
 req.redist: 

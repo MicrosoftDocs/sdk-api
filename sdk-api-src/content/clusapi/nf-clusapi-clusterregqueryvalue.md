@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegQueryValue
 title: ClusterRegQueryValue function (clusapi.h)
-
 description: Returns the name, type, and data components associated with a value for an open cluster database key.
 old-location: mscs\clusterregqueryvalue.htm
 tech.root: MsCS
 ms.assetid: 78ea27da-2b95-46df-b01e-4a3717276859
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegQueryValue, ClusterRegQueryValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregqueryvalue, clusapi/ClusterRegQueryValue, mscs.clusterregqueryvalue
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegQueryValue"
+f1_keywords:
+- clusapi/ClusterRegQueryValue
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterRegQueryValue
+- ClusterRegQueryValue
 targetos: Windows
 req.typenames: 
 req.redist: 

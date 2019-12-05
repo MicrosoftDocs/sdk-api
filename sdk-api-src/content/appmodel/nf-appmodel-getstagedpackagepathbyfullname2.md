@@ -6,39 +6,37 @@ tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: GetStagedPackagePathByFullName2
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetStagedPackagePathByFullName2"
+f1_keywords:
+- appmodel/GetStagedPackagePathByFullName2
 dev_langs:
- - c++
+- c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: Kernel32.dll
 req.header: appmodel.h
 req.idl: 
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: Kernel32.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: Windows 10 [desktop apps only]
-req.target-min-winversvr: Windows Server 2016 [desktop apps only] 
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
 req.target-type: Windows
 req.type-library: 
-req.lib: Kernel32.lib
-req.dll: Kernel32.dll
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - appmodel.h
+- appmodel.h
 api_name:
- - GetStagedPackagePathByFullName2
+- GetStagedPackagePathByFullName2
 targetos: Windows
 ms.custom: 19H1
 ---

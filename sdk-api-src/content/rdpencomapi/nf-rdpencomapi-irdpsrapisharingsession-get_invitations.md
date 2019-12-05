@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_Invitations
 title: IRDPSRAPISharingSession::get_Invitations (rdpencomapi.h)
-
 description: Returns an object implementing the IRDPSRAPIInvitationManager interface.
 old-location: rdp\irdpsrapisharingsession_invitations.htm
 tech.root: rdp
 ms.assetid: 6e5116d9-7b65-4d93-ab1e-caac080e870e
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],Invitations property, IRDPSRAPISharingSession.Invitations, IRDPSRAPISharingSession.get_Invitations, IRDPSRAPISharingSession2 interface [RDP],Invitations property, IRDPSRAPISharingSession2.Invitations, IRDPSRAPISharingSession2::Invitations, IRDPSRAPISharingSession2::get_Invitations, IRDPSRAPISharingSession::get_Invitations, Invitations property [RDP], Invitations property [RDP],IRDPSRAPISharingSession interface, Invitations property [RDP],IRDPSRAPISharingSession2 interface, Invitations property [RDP],RDPSession object, RDPSession object [RDP],Invitations property, get_Invitations, rdp.irdpsrapisharingsession_invitations, rdpencomapi/IRDPSRAPISharingSession2::Invitations, rdpencomapi/IRDPSRAPISharingSession2::get_Invitations, rdpencomapi/IRDPSRAPISharingSession::Invitations, rdpencomapi/IRDPSRAPISharingSession::get_Invitations
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISharingSession2.Invitations"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISharingSession2.Invitations
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.Invitations
- - IRDPSRAPISharingSession2.get_Invitations
- - IRDPSRAPISharingSession.Invitations
- - IRDPSRAPISharingSession.get_Invitations
- - RDPSession.Invitations
+- IRDPSRAPISharingSession2.Invitations
+- IRDPSRAPISharingSession2.get_Invitations
+- IRDPSRAPISharingSession.Invitations
+- IRDPSRAPISharingSession.get_Invitations
+- RDPSession.Invitations
 targetos: Windows
 req.typenames: 
 req.redist: 

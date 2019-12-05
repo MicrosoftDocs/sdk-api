@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_ShowDropdown
 title: ComboBox_ShowDropdown macro (windowsx.h)
-
 description: Shows or hides the list in a combo box. You can use this macro or send the CB_SHOWDROPDOWN message explicitly.
 old-location: controls\ComboBox_ShowDropdown.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_showdropdown.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_ShowDropdown, ComboBox_ShowDropdown macro [Windows Controls], _win32_ComboBox_ShowDropdown, _win32_ComboBox_ShowDropdown_cpp, controls.ComboBox_ShowDropdown, controls._win32_ComboBox_ShowDropdown, windowsx/ComboBox_ShowDropdown
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_ShowDropdown"
+f1_keywords:
+- windowsx/ComboBox_ShowDropdown
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_ShowDropdown
+- ComboBox_ShowDropdown
 targetos: Windows
 req.typenames: 
 req.redist: 

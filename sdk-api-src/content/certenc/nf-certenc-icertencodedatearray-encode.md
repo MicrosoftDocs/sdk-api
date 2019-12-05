@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.Encode
 title: ICertEncodeDateArray::Encode (certenc.h)
-
 description: Returns an Abstract Syntax Notation One (ASN.1)-encoded string of the date array stored in this object.
 old-location: security\icertencodedatearray_encode.htm
 tech.root: SecCrypto
 ms.assetid: 102ca165-c320-4e18-986f-7375fbc617e0
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],Encode method, Encode, Encode method [Security], Encode method [Security],CCertEncodeDateArray object, Encode method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],Encode method, ICertEncodeDateArray.Encode, ICertEncodeDateArray::Encode, _certsrv_icertencodedatearray_encode, certenc/ICertEncodeDateArray::Encode, security.icertencodedatearray_encode
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeDateArray.Encode"
+f1_keywords:
+- certenc/ICertEncodeDateArray.Encode
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeDateArray.Encode
- - CCertEncodeDateArray.Encode
+- ICertEncodeDateArray.Encode
+- CCertEncodeDateArray.Encode
 targetos: Windows
 req.typenames: 
 req.redist: 

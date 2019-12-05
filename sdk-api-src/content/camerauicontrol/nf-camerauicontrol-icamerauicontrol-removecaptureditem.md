@@ -1,19 +1,17 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.RemoveCapturedItem
 title: ICameraUIControl::RemoveCapturedItem (camerauicontrol.h)
-
 description: Removes the captured item.
 old-location: winprog\icamerauicontrol_removecaptureditem.htm
 tech.root: DevNotes
 ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f
-
 ms.date: 12/05/2018
 ms.keywords: ICameraUIControl interface [Windows API],RemoveCapturedItem method, ICameraUIControl.RemoveCapturedItem, ICameraUIControl::RemoveCapturedItem, RemoveCapturedItem, RemoveCapturedItem method [Windows API], RemoveCapturedItem method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::RemoveCapturedItem, winprog.icamerauicontrol_removecaptureditem
 ms.topic: method
-f1_keywords: 
- - "camerauicontrol/ICameraUIControl.RemoveCapturedItem"
+f1_keywords:
+- camerauicontrol/ICameraUIControl.RemoveCapturedItem
 dev_langs:
- - c++
+- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - camerauicontrol.h
+- camerauicontrol.h
 api_name:
- - ICameraUIControl.RemoveCapturedItem
+- ICameraUIControl.RemoveCapturedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

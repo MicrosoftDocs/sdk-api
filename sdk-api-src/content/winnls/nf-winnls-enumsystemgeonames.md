@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumSystemGeoNames
 title: EnumSystemGeoNames function (winnls.h)
-
 description: Enumerates the two-letter International Organization for Standardization (ISO) 3166-1 codes or numeric United Nations (UN) Series M, Number 49 (M.49) codes for geographical locations that are available on the operating system.
 old-location: intl\enumsystemgeonames.htm
 tech.root: Intl
 ms.assetid: 0CB7AE4E-F48A-49A6-A5E8-F151D38CE11E
-
 ms.date: 12/05/2018
 ms.keywords: EnumSystemGeoNames, EnumSystemGeoNames function [Internationalization for Windows Applications], intl.enumsystemgeonames, winnls/EnumSystemGeoNames
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumSystemGeoNames"
+f1_keywords:
+- winnls/EnumSystemGeoNames
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - EnumSystemGeoNames
+- EnumSystemGeoNames
 targetos: Windows
 req.typenames: 
 req.redist: 

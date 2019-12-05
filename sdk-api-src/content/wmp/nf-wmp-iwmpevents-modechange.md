@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.ModeChange
 title: IWMPEvents::ModeChange (wmp.h)
-
 description: The ModeChange event occurs when a mode of the player is changed.
 old-location: wmp\iwmpevents_iwmpevents__modechange.htm
 tech.root: WMP
 ms.assetid: 64761f19-914a-4ab5-aeb9-12c0aefc8113
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],ModeChange method, IWMPEvents.ModeChange, IWMPEvents::ModeChange, IWMPEventsModeChange, ModeChange, ModeChange method [Windows Media Player], ModeChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__modechange, wmp/IWMPEvents::ModeChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.ModeChange"
+f1_keywords:
+- wmp/IWMPEvents.ModeChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.ModeChange
+- IWMPEvents.ModeChange
 targetos: Windows
 req.typenames: 
 req.redist: 

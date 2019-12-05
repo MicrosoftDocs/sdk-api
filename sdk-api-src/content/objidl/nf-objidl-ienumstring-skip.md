@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumString.Skip
 title: IEnumString::Skip (objidl.h)
-
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumstring_skip.htm
 tech.root: com
 ms.assetid: 8c1cd7b4-ec68-4b60-9f1e-ed01674f7f8c
-
 ms.date: 12/05/2018
 ms.keywords: IEnumString interface [COM],Skip method, IEnumString.Skip, IEnumString::Skip, Skip, Skip method [COM], Skip method [COM],IEnumString interface, _com_ienumstring_skip, com.ienumstring_skip, objidlbase/IEnumString::Skip
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumString.Skip"
+f1_keywords:
+- objidl/IEnumString.Skip
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IEnumString.Skip
+- IEnumString.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

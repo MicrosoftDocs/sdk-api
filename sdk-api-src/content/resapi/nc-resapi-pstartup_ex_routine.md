@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PSTARTUP_EX_ROUTINE
 title: PSTARTUP_EX_ROUTINE (resapi.h)
-
 description: Loads a resource DLL, returning a structure that contains a function table and a version number.
 old-location: mscs\startupex.htm
 tech.root: MsCS
 ms.assetid: 7C669EDC-B7A1-4623-91A9-5D8C5949B50A
-
 ms.date: 12/05/2018
 ms.keywords: PSTARTUP_EX_ROUTINE, PSTARTUP_EX_ROUTINE callback function [Failover Cluster], StartupEx, StartupEx callback, StartupEx callback function [Failover Cluster], mscs.startupex, resapi/PSTARTUP_EX_ROUTINE, resapi/StartupEx
 ms.topic: callback
-f1_keywords: 
- - "resapi/StartupEx callback"
+f1_keywords:
+- resapi/StartupEx callback
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - StartupEx callback
+- StartupEx callback
 targetos: Windows
 req.typenames: 
 req.redist: 

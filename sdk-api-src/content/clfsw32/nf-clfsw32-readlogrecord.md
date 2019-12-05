@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsw32.ReadLogRecord
 title: ReadLogRecord function (clfsw32.h)
-
 description: Initiates a sequence of reads from a specified log sequence number (LSN) in one of three modes, and returns the first of the specified log records and a read context.
 old-location: fs\readlogrecord.htm
 tech.root: Clfs
 ms.assetid: 1c56c47b-d898-4c70-ba70-8978057c66b9
-
 ms.date: 12/05/2018
 ms.keywords: ClfsContextForward, ClfsContextPrevious, ClfsContextUndoNext, ReadLogRecord, ReadLogRecord function [Files], clfsw32/ReadLogRecord, fs.readlogrecord
 ms.topic: function
 f1_keywords:
 - clfsw32/ReadLogRecord
 dev_langs:
- - c++
+- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows

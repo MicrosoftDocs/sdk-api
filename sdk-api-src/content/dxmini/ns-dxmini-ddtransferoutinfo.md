@@ -1,19 +1,17 @@
 ---
 UID: NS:dxmini._DDTRANSFEROUTINFO
 title: DDTRANSFEROUTINFO (dxmini.h)
-
 description: The DDTRANSFEROUTINFO structure returns the polarity of the field being captured.
 old-location: display\ddtransferoutinfo.htm
 tech.root: display
 ms.assetid: 0c029912-0540-438a-a255-aeb1a58ad275
-
 ms.date: 12/05/2018
-ms.keywords: "*PDDTRANSFEROUTINFO, DDTRANSFEROUTINFO, DDTRANSFEROUTINFO structure [Display Devices], PDDTRANSFEROUTINFO, PDDTRANSFEROUTINFO structure pointer [Display Devices], Video_Structs_c2b03ae4-21b0-4c16-8ddc-e3ef4c79e6ff.xml, display.ddtransferoutinfo, dxmini/DDTRANSFEROUTINFO, dxmini/PDDTRANSFEROUTINFO"
+ms.keywords: '*PDDTRANSFEROUTINFO, DDTRANSFEROUTINFO, DDTRANSFEROUTINFO structure [Display Devices], PDDTRANSFEROUTINFO, PDDTRANSFEROUTINFO structure pointer [Display Devices], Video_Structs_c2b03ae4-21b0-4c16-8ddc-e3ef4c79e6ff.xml, display.ddtransferoutinfo, dxmini/DDTRANSFEROUTINFO, dxmini/PDDTRANSFEROUTINFO'
 ms.topic: struct
-f1_keywords: 
- - "dxmini/DDTRANSFEROUTINFO"
+f1_keywords:
+- dxmini/DDTRANSFEROUTINFO
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxmini.h
+- dxmini.h
 api_name:
- - DDTRANSFEROUTINFO
+- DDTRANSFEROUTINFO
 targetos: Windows
 req.typenames: DDTRANSFEROUTINFO, *PDDTRANSFEROUTINFO
 req.redist: 

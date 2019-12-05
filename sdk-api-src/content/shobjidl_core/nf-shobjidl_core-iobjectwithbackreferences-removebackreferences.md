@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithBackReferences.RemoveBackReferences
 title: IObjectWithBackReferences::RemoveBackReferences (shobjidl_core.h)
-
 description: Removes all back references held by an object.
 old-location: shell\IObjectWithBackReferences_RemoveBackReferences.htm
 tech.root: shell
 ms.assetid: 642fe793-974f-48e5-90a2-de6ba7a5b033
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithBackReferences interface [Windows Shell],RemoveBackReferences method, IObjectWithBackReferences.RemoveBackReferences, IObjectWithBackReferences::RemoveBackReferences, RemoveBackReferences, RemoveBackReferences method [Windows Shell], RemoveBackReferences method [Windows Shell],IObjectWithBackReferences interface, _shell_IObjectWithBackReferences_RemoveBackReferences, shell.IObjectWithBackReferences_RemoveBackReferences, shobjidl_core/IObjectWithBackReferences::RemoveBackReferences
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithBackReferences.RemoveBackReferences"
+f1_keywords:
+- shobjidl_core/IObjectWithBackReferences.RemoveBackReferences
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithBackReferences.RemoveBackReferences
+- IObjectWithBackReferences.RemoveBackReferences
 targetos: Windows
 req.typenames: 
 req.redist: 

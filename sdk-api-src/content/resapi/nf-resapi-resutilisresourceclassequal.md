@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilIsResourceClassEqual
 title: ResUtilIsResourceClassEqual function (resapi.h)
-
 description: Tests whether the resource class of a specified resource is equal to a specified resource class. The PRESUTIL_IS_RESOURCE_CLASS_EQUAL type defines a pointer to this function.
 old-location: mscs\resutilisresourceclassequal.htm
 tech.root: MsCS
 ms.assetid: 3200abd3-5f95-48c5-acd9-8094c0072039
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_IS_RESOURCE_CLASS_EQUAL, PRESUTIL_IS_RESOURCE_CLASS_EQUAL function [Failover Cluster], ResUtilIsResourceClassEqual, ResUtilIsResourceClassEqual function [Failover Cluster], _wolf_resutilisresourceclassequal, mscs.resutilisresourceclassequal, resapi/PRESUTIL_IS_RESOURCE_CLASS_EQUAL, resapi/ResUtilIsResourceClassEqual
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilIsResourceClassEqual"
+f1_keywords:
+- resapi/ResUtilIsResourceClassEqual
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilIsResourceClassEqual
+- ResUtilIsResourceClassEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

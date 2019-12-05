@@ -1,19 +1,17 @@
 ---
 UID: NF:oobenotification.RegisterWaitUntilOOBECompleted
 title: RegisterWaitUntilOOBECompleted function (oobenotification.h)
-
 description: Registers a callback to be called once OOBE (Windows Welcome) has been completed.
 old-location: windowssetupandmigration\registerwaituntiloobecompleted.htm
 tech.root: WNF
 ms.assetid: D1581B09-06A7-483F-929D-1AF93832942D
-
 ms.date: 12/05/2018
 ms.keywords: RegisterWaitUntilOOBECompleted, RegisterWaitUntilOOBECompleted function, oobenotification/RegisterWaitUntilOOBECompleted, windowssetupandmigration.registerwaituntiloobecompleted
 ms.topic: function
-f1_keywords: 
- - "oobenotification/RegisterWaitUntilOOBECompleted"
+f1_keywords:
+- oobenotification/RegisterWaitUntilOOBECompleted
 dev_langs:
- - c++
+- c++
 req.header: oobenotification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-oobe-notification-l1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-oobe-notification-l1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - RegisterWaitUntilOOBECompleted
+- RegisterWaitUntilOOBECompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

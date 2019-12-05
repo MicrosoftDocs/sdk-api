@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPictureDisp
 title: IPictureDisp (ocidl.h)
-
 description: Exposes the picture object's properties through Automation. It provides a subset of the functionality available through IPicture methods.
 old-location: com\ipicturedisp.htm
 tech.root: com
 ms.assetid: 42efa5a3-66af-4432-a2fd-616261b1f407
-
 ms.date: 12/05/2018
 ms.keywords: IPictureDisp, IPictureDisp interface [COM], IPictureDisp interface [COM],described, _ctrl_ipicturedisp, com.ipicturedisp, ocidl/IPictureDisp
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPictureDisp"
+f1_keywords:
+- ocidl/IPictureDisp
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPictureDisp
+- IPictureDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

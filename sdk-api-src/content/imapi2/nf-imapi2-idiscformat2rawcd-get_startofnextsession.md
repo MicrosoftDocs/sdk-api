@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_StartOfNextSession
 title: IDiscFormat2RawCD::get_StartOfNextSession (imapi2.h)
-
 description: Retrieves the first sector of the next session.
 old-location: imapi\idiscformat2rawcd_get_startofnextsession.htm
 tech.root: imapi
 ms.assetid: d9ffe037-c7a6-40c2-a809-58dbfd9e7415
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_StartOfNextSession method, IDiscFormat2RawCD.get_StartOfNextSession, IDiscFormat2RawCD::get_StartOfNextSession, get_StartOfNextSession, get_StartOfNextSession method [IMAPI], get_StartOfNextSession method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_startofnextsession, imapi2/IDiscFormat2RawCD::get_StartOfNextSession
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCD.get_StartOfNextSession"
+f1_keywords:
+- imapi2/IDiscFormat2RawCD.get_StartOfNextSession
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_StartOfNextSession
+- IDiscFormat2RawCD.get_StartOfNextSession
 targetos: Windows
 req.typenames: 
 req.redist: 

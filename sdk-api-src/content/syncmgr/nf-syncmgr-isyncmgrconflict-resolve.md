@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.Resolve
 title: ISyncMgrConflict::Resolve (syncmgr.h)
-
 description: Resolves the conflict using its own sync handler, controls UI.
 old-location: shell\ISyncMgrConflict_Resolve.htm
 tech.root: shell
 ms.assetid: 9680b96e-9a83-45e1-a2bf-674aff6490ec
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflict interface [Windows Shell],Resolve method, ISyncMgrConflict.Resolve, ISyncMgrConflict::Resolve, Resolve, Resolve method [Windows Shell], Resolve method [Windows Shell],ISyncMgrConflict interface, _shell_ISyncMgrConflict_Resolve, shell.ISyncMgrConflict_Resolve, syncmgr/ISyncMgrConflict::Resolve
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflict.Resolve"
+f1_keywords:
+- syncmgr/ISyncMgrConflict.Resolve
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflict.Resolve
+- ISyncMgrConflict.Resolve
 targetos: Windows
 req.typenames: 
 req.redist: 

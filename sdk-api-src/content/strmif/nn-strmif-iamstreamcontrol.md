@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMStreamControl
 title: IAMStreamControl (strmif.h)
-
 description: The IAMStreamControl interface controls individual streams on a filter.
 old-location: dshow\iamstreamcontrol.htm
 tech.root: DirectShow
 ms.assetid: 126c7ed7-acc0-4248-a3ab-c91c9f1c5cee
-
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl, IAMStreamControl interface [DirectShow], IAMStreamControl interface [DirectShow],described, IAMStreamControlInterface, dshow.iamstreamcontrol, strmif/IAMStreamControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMStreamControl"
+f1_keywords:
+- strmif/IAMStreamControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMStreamControl
+- IAMStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ISurrogate.FreeSurrogate
 title: ISurrogate::FreeSurrogate (objidl.h)
-
 description: Unloads a DLL server.
 old-location: com\isurrogate_freesurrogate.htm
 tech.root: com
 ms.assetid: d897b02a-2540-4274-a0e3-e5c9299104a2
-
 ms.date: 12/05/2018
 ms.keywords: FreeSurrogate, FreeSurrogate method [COM], FreeSurrogate method [COM],ISurrogate interface, ISurrogate interface [COM],FreeSurrogate method, ISurrogate.FreeSurrogate, ISurrogate::FreeSurrogate, _com_isurrogate_freesurrogate, com.isurrogate_freesurrogate, objidlbase/ISurrogate::FreeSurrogate
 ms.topic: method
-f1_keywords: 
- - "objidl/ISurrogate.FreeSurrogate"
+f1_keywords:
+- objidl/ISurrogate.FreeSurrogate
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISurrogate.FreeSurrogate
+- ISurrogate.FreeSurrogate
 targetos: Windows
 req.typenames: 
 req.redist: 

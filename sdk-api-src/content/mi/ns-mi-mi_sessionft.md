@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_SessionFT
 title: MI_SessionFT (mi.h)
-
 description: Function table for all actions on a session object.
 old-location: wmi_v2\mi_sessionft.htm
 tech.root: wmi_v2
 ms.assetid: 24bf4ca7-db0e-4ce5-bffd-48d94130c424
-
 ms.date: 12/05/2018
 ms.keywords: MI_SessionFT, MI_SessionFT structure [Windows Management Infrastructure (MI)], mi/MI_SessionFT, wmi_v2.mi_sessionft
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_SessionFT"
+f1_keywords:
+- mi/MI_SessionFT
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mi.h
+- mi.h
 api_name:
- - MI_SessionFT
+- MI_SessionFT
 targetos: Windows
 req.typenames: MI_SessionFT
 req.redist: 

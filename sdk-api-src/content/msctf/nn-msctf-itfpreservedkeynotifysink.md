@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfPreservedKeyNotifySink
 title: ITfPreservedKeyNotifySink (msctf.h)
-
 description: The ITfPreservedKeyNotifySink interface is implemented by an application or TSF text service to receive notifications when keys are preserved, unpreserved, or when a preserved key description changes.
 old-location: tsf\itfpreservedkeynotifysink.htm
 tech.root: TSF
 ms.assetid: 0bf786b5-efcd-4c58-835b-47e7adf9be63
-
 ms.date: 12/05/2018
 ms.keywords: ITfPreservedKeyNotifySink, ITfPreservedKeyNotifySink interface [Text Services Framework], ITfPreservedKeyNotifySink interface [Text Services Framework],described, _tsf_itfpreservedkeynotifysink_ref, msctf/ITfPreservedKeyNotifySink, tsf.itfpreservedkeynotifysink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfPreservedKeyNotifySink"
+f1_keywords:
+- msctf/ITfPreservedKeyNotifySink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfPreservedKeyNotifySink
+- ITfPreservedKeyNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

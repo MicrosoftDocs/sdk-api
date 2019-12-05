@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsBlend
 title: ID3D10EffectVariable::AsBlend (d3d10effect.h)
-
 description: Get a effect-blend variable.
 old-location: direct3d10\id3d10effectvariable_asblend.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asblend.htm
-
 ms.date: 12/05/2018
 ms.keywords: AsBlend, AsBlend method [Direct3D 10], AsBlend method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsBlend method, ID3D10EffectVariable.AsBlend, ID3D10EffectVariable::AsBlend, bc3da4a0-2ef6-7ffd-8a6d-1bf74e1ef7da, d3d10effect/ID3D10EffectVariable::AsBlend, direct3d10.id3d10effectvariable_asblend
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.AsBlend"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.AsBlend
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.AsBlend
+- ID3D10EffectVariable.AsBlend
 targetos: Windows
 req.typenames: 
 req.redist: 

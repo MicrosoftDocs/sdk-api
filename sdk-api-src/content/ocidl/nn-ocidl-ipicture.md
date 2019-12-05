@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPicture
 title: IPicture (ocidl.h)
-
 description: Manages a picture object and its properties. Picture objects provide a language-neutral abstraction for bitmaps, icons, and metafiles.
 old-location: com\ipicture.htm
 tech.root: com
 ms.assetid: 42e3cd0e-2413-494a-8be8-2952089e02d2
-
 ms.date: 12/05/2018
 ms.keywords: IPicture, IPicture interface [COM], IPicture interface [COM],described, _ctrl_ipicture, com.ipicture, ocidl/IPicture
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPicture"
+f1_keywords:
+- ocidl/IPicture
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture
+- IPicture
 targetos: Windows
 req.typenames: 
 req.redist: 

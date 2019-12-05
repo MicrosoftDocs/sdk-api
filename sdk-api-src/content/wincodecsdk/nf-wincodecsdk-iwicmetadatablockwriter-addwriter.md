@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.AddWriter
 title: IWICMetadataBlockWriter::AddWriter (wincodecsdk.h)
-
 description: Adds a top-level metadata block by adding a IWICMetadataWriter for it.
 old-location: wic\_wic_codec_iwicmetadatablockwriter_addwriter.htm
 tech.root: wic
 ms.assetid: 25a0e662-a249-4218-a77e-37b11e0f8536
-
 ms.date: 12/05/2018
 ms.keywords: AddWriter, AddWriter method [Windows Imaging Component], AddWriter method [Windows Imaging Component],IWICMetadataBlockWriter interface, IWICMetadataBlockWriter interface [Windows Imaging Component],AddWriter method, IWICMetadataBlockWriter.AddWriter, IWICMetadataBlockWriter::AddWriter, _wic_codec_iwicmetadatablockwriter_addwriter, wic._wic_codec_iwicmetadatablockwriter_addwriter, wincodecsdk/IWICMetadataBlockWriter::AddWriter
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockWriter.AddWriter"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockWriter.AddWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockWriter.AddWriter
+- IWICMetadataBlockWriter.AddWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

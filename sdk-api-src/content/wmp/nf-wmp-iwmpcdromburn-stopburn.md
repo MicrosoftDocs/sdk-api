@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.stopBurn
 title: IWMPCdromBurn::stopBurn (wmp.h)
-
 description: The stopBurn method stops the CD burning process.
 old-location: wmp\iwmpcdromburn_stopburn.htm
 tech.root: WMP
 ms.assetid: cf001a08-97e9-4f88-919a-54651e3bfd5d
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],stopBurn method, IWMPCdromBurn.stopBurn, IWMPCdromBurn::stopBurn, IWMPCdromBurnstopBurn, stopBurn, stopBurn method [Windows Media Player], stopBurn method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_stopburn, wmp/IWMPCdromBurn::stopBurn
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.stopBurn"
+f1_keywords:
+- wmp/IWMPCdromBurn.stopBurn
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.stopBurn
+- IWMPCdromBurn.stopBurn
 targetos: Windows
 req.typenames: 
 req.redist: 

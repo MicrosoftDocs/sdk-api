@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SetSourceSampleRate
 title: IXAudio2SourceVoice::SetSourceSampleRate (xaudio2.h)
-
 description: Reconfigures the voice to consume source data at a different sample rate than the rate specified when the voice was created.
 old-location: xaudio2\ixaudio2sourcevoice_interface_setsourcesamplerate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetSourceSampleRate(UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetSourceSampleRate method, IXAudio2SourceVoice.SetSourceSampleRate, IXAudio2SourceVoice::SetSourceSampleRate, SetSourceSampleRate, SetSourceSampleRate method [XAudio2 Audio Mixing APIs], SetSourceSampleRate method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setsourcesamplerate, xaudio2/IXAudio2SourceVoice::SetSourceSampleRate
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2SourceVoice.SetSourceSampleRate"
+f1_keywords:
+- xaudio2/IXAudio2SourceVoice.SetSourceSampleRate
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2SourceVoice.SetSourceSampleRate
+- IXAudio2SourceVoice.SetSourceSampleRate
 targetos: Windows
 req.typenames: 
 req.redist: 

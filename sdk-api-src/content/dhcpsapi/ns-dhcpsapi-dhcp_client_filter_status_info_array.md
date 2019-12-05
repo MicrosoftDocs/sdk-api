@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
 title: DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY (dhcpsapi.h)
-
 description: Contains an array of information elements for DHCPv4 clients.
 old-location: dhcp\dhcp_client_filter_status_info_array.htm
 tech.root: DHCP
 ms.assetid: 3145befc-9274-4719-9cd7-1f6426a86fba
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure [DHCP], PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY structure pointer [DHCP], dhcp.dhcp_client_filter_status_info_array, dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY, dhcpsapi/PDHCP_CLIENT_FILTER_STATUS_INFO_ARRAY'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_CLIENT_FILTER_STATUS_INFO_ARRAY
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

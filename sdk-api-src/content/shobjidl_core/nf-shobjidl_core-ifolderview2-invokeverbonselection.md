@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.InvokeVerbOnSelection
 title: IFolderView2::InvokeVerbOnSelection (shobjidl_core.h)
-
 description: Invokes the given verb on the current selection.
 old-location: shell\IFolderView2_InvokeVerbOnSelection.htm
 tech.root: shell
 ms.assetid: 085a08f9-c6a2-417c-973a-d0df84d8c821
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],InvokeVerbOnSelection method, IFolderView2.InvokeVerbOnSelection, IFolderView2::InvokeVerbOnSelection, InvokeVerbOnSelection, InvokeVerbOnSelection method [Windows Shell], InvokeVerbOnSelection method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_InvokeVerbOnSelection, shell.IFolderView2_InvokeVerbOnSelection, shobjidl_core/IFolderView2::InvokeVerbOnSelection
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.InvokeVerbOnSelection"
+f1_keywords:
+- shobjidl_core/IFolderView2.InvokeVerbOnSelection
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.InvokeVerbOnSelection
+- IFolderView2.InvokeVerbOnSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

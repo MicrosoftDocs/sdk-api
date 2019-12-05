@@ -1,19 +1,17 @@
 ---
 UID: NS:mmreg.waveformat_tag
 title: WAVEFORMAT (mmreg.h)
-
 description: The WAVEFORMAT structure describes the format of waveform-audio data. Only format information common to all waveform-audio data formats is included in this structure. This structure has been superseded by the WAVEFORMATEX structure.
 old-location: multimedia\waveformat.htm
 tech.root: Multimedia
 ms.assetid: 48871868-792a-4479-9e92-95306c25673a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX"
+ms.keywords: '*LPWAVEFORMAT, *NPWAVEFORMAT, *PWAVEFORMAT, WAVEFORMAT, WAVEFORMAT structure [Windows Multimedia], WAVE_FORMAT_PCM, _win32_WAVEFORMAT_str, mmeapi/WAVEFORMAT, multimedia.waveformat, tWAVEFORMATEX'
 ms.topic: struct
-f1_keywords: 
- - "mmreg/WAVEFORMAT"
+f1_keywords:
+- mmreg/WAVEFORMAT
 dev_langs:
- - c++
+- c++
 req.header: mmreg.h
 req.include-header: Mmreg.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - WAVEFORMAT
+- WAVEFORMAT
 targetos: Windows
 req.typenames: WAVEFORMAT
 req.redist: 

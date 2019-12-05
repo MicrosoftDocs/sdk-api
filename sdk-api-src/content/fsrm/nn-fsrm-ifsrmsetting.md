@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmSetting
 title: IFsrmSetting (fsrm.h)
-
 description: Used to configure FSRM.
 old-location: fsrm\ifsrmsetting.htm
 tech.root: fsrm
 ms.assetid: 432fbaaa-7ddb-4d8c-bfbe-40cd26b08f9b
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmSetting, IFsrmSetting interface [File Server Resource Manager], IFsrmSetting interface [File Server Resource Manager],described, fs.ifsrmsetting, fsrm.ifsrmsetting, fsrm/IFsrmSetting
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmSetting"
+f1_keywords:
+- fsrm/IFsrmSetting
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmSetting
+- IFsrmSetting
 targetos: Windows
 req.typenames: 
 req.redist: 

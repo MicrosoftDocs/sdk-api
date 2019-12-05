@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateEffect
 title: ID2D1DeviceContext::CreateEffect (d2d1_1.h)
-
 description: Creates an effect for the specified class ID.
 old-location: direct2d\id2d1devicecontext_createeffect.htm
 tech.root: Direct2D
 ms.assetid: dfe587f9-e92f-4367-a503-edd446a91cb8
-
 ms.date: 12/05/2018
 ms.keywords: CreateEffect, CreateEffect method [Direct2D], CreateEffect method [Direct2D],ID2D1DeviceContext interface, ID2D1DeviceContext interface [Direct2D],CreateEffect method, ID2D1DeviceContext.CreateEffect, ID2D1DeviceContext::CreateEffect, d2d1_1/ID2D1DeviceContext::CreateEffect, direct2d.id2d1devicecontext_createeffect
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext.CreateEffect"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext.CreateEffect
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext.CreateEffect
+- ID2D1DeviceContext.CreateEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Reset
 title: ICertEncodeStringArray::Reset (certenc.h)
-
 description: Specifies the size of the string array and the type of strings the array will contain.
 old-location: security\icertencodestringarray_reset.htm
 tech.root: SecCrypto
 ms.assetid: 125524ae-236d-4507-9c00-76a016bf6c62
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],Reset method, CERT_RDN_ANY_TYPE, CERT_RDN_GENERAL_STRING, CERT_RDN_GRAPHIC_STRING, CERT_RDN_IA5_STRING, CERT_RDN_INT4_STRING, CERT_RDN_ISO646_STRING, CERT_RDN_NUMERIC_STRING, CERT_RDN_PRINTABLE_STRING, CERT_RDN_T61_STRING, CERT_RDN_UNICODE_STRING, CERT_RDN_VIDEOTEX_STRING, ICertEncodeStringArray interface [Security],Reset method, ICertEncodeStringArray.Reset, ICertEncodeStringArray::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeStringArray object, Reset method [Security],ICertEncodeStringArray interface, _certsrv_icertencodestringarray_reset, certenc/ICertEncodeStringArray::Reset, security.icertencodestringarray_reset
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeStringArray.Reset"
+f1_keywords:
+- certenc/ICertEncodeStringArray.Reset
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray.Reset
- - CCertEncodeStringArray.Reset
+- ICertEncodeStringArray.Reset
+- CCertEncodeStringArray.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

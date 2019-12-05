@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.RegisterForWhenCurrent
 title: ITSDT::RegisterForWhenCurrent (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\itsdt_registerforwhencurrent.htm
 tech.root: mstv
 ms.assetid: f2ce7908-3650-4ecf-8014-6bae377dcb5c
-
 ms.date: 12/05/2018
 ms.keywords: ITSDT interface [Microsoft TV Technologies],RegisterForWhenCurrent method, ITSDT.RegisterForWhenCurrent, ITSDT::RegisterForWhenCurrent, ITSDTRegisterForWhenCurrent, RegisterForWhenCurrent, RegisterForWhenCurrent method [Microsoft TV Technologies], RegisterForWhenCurrent method [Microsoft TV Technologies],ITSDT interface, mpeg2psiparser/ITSDT::RegisterForWhenCurrent, mstv.itsdt_registerforwhencurrent
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ITSDT.RegisterForWhenCurrent"
+f1_keywords:
+- mpeg2psiparser/ITSDT.RegisterForWhenCurrent
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - ITSDT.RegisterForWhenCurrent
+- ITSDT.RegisterForWhenCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.CreateCommandRecorder
 title: IDMLDevice::CreateCommandRecorder
-
 description: Creates a DirectML command recorder.
 old-location: direct3d12\idmldevice_createcommandrecorder.htm
 tech.root: direct3d12
 ms.assetid: 95A70E8B-6C39-422B-91A6-1660E7E05D4C
-
 ms.date: 12/5/2018
 ms.keywords: CreateCommandRecorder, CreateCommandRecorder method, CreateCommandRecorder method,IDMLDevice interface, IDMLDevice interface,CreateCommandRecorder method, IDMLDevice.CreateCommandRecorder, IDMLDevice::CreateCommandRecorder, direct3d12.idmldevice_createcommandrecorder, directml/IDMLDevice::CreateCommandRecorder
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.CreateCommandRecorder"
+f1_keywords:
+- directml/IDMLDevice.CreateCommandRecorder
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.CreateCommandRecorder
+- IDMLDevice.CreateCommandRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 

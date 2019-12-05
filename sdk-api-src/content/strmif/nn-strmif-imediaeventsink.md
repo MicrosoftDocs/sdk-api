@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMediaEventSink
 title: IMediaEventSink (strmif.h)
-
 description: Notifies the Filter Graph Manager of events that occur within the filter graph.
 old-location: dshow\imediaeventsink.htm
 tech.root: DirectShow
 ms.assetid: 50aa04b4-9a04-4d0d-a558-42595a69aef7
-
 ms.date: 12/05/2018
 ms.keywords: IMediaEventSink, IMediaEventSink interface [DirectShow], IMediaEventSink interface [DirectShow],described, IMediaEventSinkInterface, dshow.imediaeventsink, strmif/IMediaEventSink
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMediaEventSink"
+f1_keywords:
+- strmif/IMediaEventSink
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEventSink
+- IMediaEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_40
 title: WS_MESSAGE_INITIALIZATION (webservices.h)
-
 description: Specifies what headers the WsInitializeMessageshould add to the message.
 old-location: wsw\ws_message_initialization.htm
 tech.root: wsw
 ms.assetid: f4a674c1-4017-49c8-aa9a-68f1d2b84378
-
 ms.date: 12/05/2018
 ms.keywords: WS_BLANK_MESSAGE, WS_DUPLICATE_MESSAGE, WS_FAULT_MESSAGE, WS_MESSAGE_INITIALIZATION, WS_MESSAGE_INITIALIZATION enumeration [Web Services for Windows], WS_REPLY_MESSAGE, WS_REQUEST_MESSAGE, webservices/WS_BLANK_MESSAGE, webservices/WS_DUPLICATE_MESSAGE, webservices/WS_FAULT_MESSAGE, webservices/WS_MESSAGE_INITIALIZATION, webservices/WS_REPLY_MESSAGE, webservices/WS_REQUEST_MESSAGE, wsw.ws_message_initialization
 ms.topic: enum
 f1_keywords:
 - webservices/WS_MESSAGE_INITIALIZATION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

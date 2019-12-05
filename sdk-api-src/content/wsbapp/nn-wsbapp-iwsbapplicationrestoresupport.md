@@ -1,19 +1,17 @@
 ---
 UID: NN:wsbapp.IWsbApplicationRestoreSupport
 title: IWsbApplicationRestoreSupport (wsbapp.h)
-
 description: Defines methods for performing application-specific restore tasks.
 old-location: wsb\iwsbapplicationrestoresupport.htm
 tech.root: wsb
 ms.assetid: 694f9b4d-0ca8-4dbe-829c-6ac18c9aa140
-
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport, IWsbApplicationRestoreSupport interface [Windows Server Backup], IWsbApplicationRestoreSupport interface [Windows Server Backup],described, wsb.iwsbapplicationrestoresupport, wsbapp/IWsbApplicationRestoreSupport
 ms.topic: interface
-f1_keywords: 
- - "wsbapp/IWsbApplicationRestoreSupport"
+f1_keywords:
+- wsbapp/IWsbApplicationRestoreSupport
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport
+- IWsbApplicationRestoreSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

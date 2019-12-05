@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._NET_DISPLAY_MACHINE
 title: NET_DISPLAY_MACHINE (lmaccess.h)
-
 description: The NET_DISPLAY_MACHINE structure contains information that an account manager can access to determine information about computers and their attributes.
 old-location: netmgmt\net_display_machine_str.htm
 tech.root: NetMgmt
 ms.assetid: bdb1bef0-51f1-41d7-97fb-bda4ad24e386
-
 ms.date: 12/05/2018
-ms.keywords: "*PNET_DISPLAY_MACHINE, NET_DISPLAY_MACHINE, NET_DISPLAY_MACHINE structure [Network Management], PNET_DISPLAY_MACHINE, PNET_DISPLAY_MACHINE structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, _win32_net_display_machine_str, lmaccess/NET_DISPLAY_MACHINE, lmaccess/PNET_DISPLAY_MACHINE, netmgmt.net_display_machine_str"
+ms.keywords: '*PNET_DISPLAY_MACHINE, NET_DISPLAY_MACHINE, NET_DISPLAY_MACHINE structure [Network Management], PNET_DISPLAY_MACHINE, PNET_DISPLAY_MACHINE structure pointer [Network Management], UF_ACCOUNTDISABLE, UF_DONT_EXPIRE_PASSWD, UF_DONT_REQUIRE_PREAUTH, UF_ENCRYPTED_TEXT_PASSWORD_ALLOWED, UF_INTERDOMAIN_TRUST_ACCOUNT, UF_LOCKOUT, UF_NORMAL_ACCOUNT, UF_NOT_DELEGATED, UF_PASSWD_CANT_CHANGE, UF_PASSWD_NOTREQD, UF_PASSWORD_EXPIRED, UF_SCRIPT, UF_SERVER_TRUST_ACCOUNT, UF_SMARTCARD_REQUIRED, UF_TEMP_DUPLICATE_ACCOUNT, UF_TRUSTED_FOR_DELEGATION, UF_TRUSTED_TO_AUTHENTICATE_FOR_DELEGATION, UF_USE_DES_KEY_ONLY, UF_WORKSTATION_TRUST_ACCOUNT, _win32_net_display_machine_str, lmaccess/NET_DISPLAY_MACHINE, lmaccess/PNET_DISPLAY_MACHINE, netmgmt.net_display_machine_str'
 ms.topic: struct
-f1_keywords: 
- - "lmaccess/NET_DISPLAY_MACHINE"
+f1_keywords:
+- lmaccess/NET_DISPLAY_MACHINE
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - NET_DISPLAY_MACHINE
+- NET_DISPLAY_MACHINE
 targetos: Windows
 req.typenames: NET_DISPLAY_MACHINE, *PNET_DISPLAY_MACHINE
 req.redist: 

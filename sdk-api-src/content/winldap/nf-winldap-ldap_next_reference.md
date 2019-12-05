@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_next_reference
 title: ldap_next_reference function (winldap.h)
-
 description: Retrieves a reference from a search result chain.
 old-location: ldap\ldap_next_reference.htm
 tech.root: ldap
 ms.assetid: ea67f0e9-5cf7-4755-9bfd-856e26589a8d
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_next_reference, ldap.ldap__next__reference, ldap.ldap_next_reference, ldap_next_reference, ldap_next_reference function [LDAP], winldap/ldap_next_reference"
+ms.keywords: _ldap_ldap_next_reference, ldap.ldap__next__reference, ldap.ldap_next_reference, ldap_next_reference, ldap_next_reference function [LDAP], winldap/ldap_next_reference
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_next_reference"
+f1_keywords:
+- winldap/ldap_next_reference
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_next_reference
+- ldap_next_reference
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItem.GetTooltipString
 title: ITfLangBarItem::GetTooltipString (ctfutb.h)
-
 description: ITfLangBarItem::GetTooltipString method
 old-location: tsf\itflangbaritem_gettooltipstring.htm
 tech.root: TSF
 ms.assetid: f0bb3c7f-c21e-443a-965a-0601de0210b5
-
 ms.date: 12/05/2018
 ms.keywords: GetTooltipString, GetTooltipString method [Text Services Framework], GetTooltipString method [Text Services Framework],ITfLangBarItem interface, ITfLangBarItem interface [Text Services Framework],GetTooltipString method, ITfLangBarItem.GetTooltipString, ITfLangBarItem::GetTooltipString, _tsf_itflangbaritem_gettooltipstring_ref, ctfutb/ITfLangBarItem::GetTooltipString, tsf.itflangbaritem_gettooltipstring
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItem.GetTooltipString"
+f1_keywords:
+- ctfutb/ITfLangBarItem.GetTooltipString
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarItem.GetTooltipString
+- ITfLangBarItem.GetTooltipString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

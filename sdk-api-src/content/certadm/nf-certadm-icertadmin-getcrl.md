@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin.GetCRL
 title: ICertAdmin::GetCRL (certadm.h)
-
 description: Retrieves the current certificate revocation list (CRL) for the Certificate Services certification authority (CA).
 old-location: security\icertadmin2_getcrl.htm
 tech.root: SecCrypto
 ms.assetid: bdfc64dd-7446-4c44-997f-fa0086bfbb4f
-
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin object [Security],GetCRL method, CR_OUT_BASE64, CR_OUT_BASE64HEADER, CR_OUT_BINARY, GetCRL, GetCRL method [Security], GetCRL method [Security],CCertAdmin object, GetCRL method [Security],ICertAdmin interface, GetCRL method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetCRL method, ICertAdmin.GetCRL, ICertAdmin2 interface [Security],GetCRL method, ICertAdmin2::GetCRL, ICertAdmin::GetCRL, certadm/ICertAdmin2::GetCRL, certadm/ICertAdmin::GetCRL, security.icertadmin2_getcrl
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.GetCRL"
+f1_keywords:
+- certadm/ICertAdmin2.GetCRL
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.GetCRL
- - ICertAdmin.GetCRL
- - CCertAdmin.GetCRL
+- ICertAdmin2.GetCRL
+- ICertAdmin.GetCRL
+- CCertAdmin.GetCRL
 targetos: Windows
 req.typenames: 
 req.redist: 

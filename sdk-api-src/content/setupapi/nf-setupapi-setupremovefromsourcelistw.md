@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupRemoveFromSourceListW
 title: SetupRemoveFromSourceListW function (setupapi.h)
-
 description: The SetupRemoveFromSourceList function removes a value from the list of installation sources for either the current user or the system. The system and user lists are merged at run time.
 old-location: setup\setupremovefromsourcelist.htm
 tech.root: SetupApi
 ms.assetid: 9e87f481-7d6a-4d8e-8f71-d104de3533f8
-
 ms.date: 12/05/2018
 ms.keywords: SetupRemoveFromSourceList, SetupRemoveFromSourceList function [Setup API], SetupRemoveFromSourceListA, SetupRemoveFromSourceListW, _setupapi_setupremovefromsourcelist, setup.setupremovefromsourcelist, setupapi/SetupRemoveFromSourceList, setupapi/SetupRemoveFromSourceListA, setupapi/SetupRemoveFromSourceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupRemoveFromSourceList"
+f1_keywords:
+- setupapi/SetupRemoveFromSourceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupRemoveFromSourceList
- - SetupRemoveFromSourceListA
- - SetupRemoveFromSourceListW
+- SetupRemoveFromSourceList
+- SetupRemoveFromSourceListA
+- SetupRemoveFromSourceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

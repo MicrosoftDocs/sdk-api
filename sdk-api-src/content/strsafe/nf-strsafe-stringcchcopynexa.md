@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchCopyNExA
 title: StringCchCopyNExA function (strsafe.h)
-
 description: Copies the specified number of characters from one string to another.
 old-location: menurc\stringcchcopynex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopynex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCchCopyNEx, StringCchCopyNEx function [Menus and Other Resources], StringCchCopyNExA, StringCchCopyNExW, _shell_StringCchCopyNEx, _shell_stringcchcopynex_cpp, menurc.stringcchcopynex, strsafe/StringCchCopyNEx, strsafe/StringCchCopyNExA, strsafe/StringCchCopyNExW, winui._shell_stringcchcopynex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchCopyNEx"
+f1_keywords:
+- strsafe/StringCchCopyNEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCchCopyNEx
- - StringCchCopyNExA
- - StringCchCopyNExW
+- StringCchCopyNEx
+- StringCchCopyNExA
+- StringCchCopyNExW
 targetos: Windows
 req.typenames: 
 req.redist: 

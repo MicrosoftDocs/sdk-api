@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemEventProvider.ProvideEvents
 title: IWbemEventProvider::ProvideEvents (wbemprov.h)
-
 description: Windows Management calls the IWbemEventProvider::ProvideEvents method to signal an event provider to begin delivery of its events.
 old-location: wmi\iwbemeventprovider_provideevents.htm
 tech.root: WmiSdk
 ms.assetid: 0ebabdaf-fd91-49f8-8454-38ff77952662
-
 ms.date: 12/05/2018
 ms.keywords: IWbemEventProvider interface [Windows Management Instrumentation],ProvideEvents method, IWbemEventProvider.ProvideEvents, IWbemEventProvider::ProvideEvents, ProvideEvents, ProvideEvents method [Windows Management Instrumentation], ProvideEvents method [Windows Management Instrumentation],IWbemEventProvider interface, _hmm_iwbemeventprovider_provideevents, wbemprov/IWbemEventProvider::ProvideEvents, wmi.iwbemeventprovider_provideevents
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemEventProvider.ProvideEvents"
+f1_keywords:
+- wbemprov/IWbemEventProvider.ProvideEvents
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemEventProvider.ProvideEvents
+- IWbemEventProvider.ProvideEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

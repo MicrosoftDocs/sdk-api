@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometryLookup
 title: IXpsOMVisual::GetClipGeometryLookup (xpsobjectmodel.h)
-
 description: Gets the lookup key for the IXpsOMGeometry interface in a resource dictionary that contains the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometrylookup.htm
 tech.root: printdocs
 ms.assetid: aa101ac6-65e8-4f6b-a6fa-59f3a003ffc5
-
 ms.date: 12/05/2018
 ms.keywords: GetClipGeometryLookup, GetClipGeometryLookup method [XPS Documents and Packaging], GetClipGeometryLookup method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometryLookup method, IXpsOMVisual.GetClipGeometryLookup, IXpsOMVisual::GetClipGeometryLookup, xps.ixpsomvisual_getclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::GetClipGeometryLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetClipGeometryLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetClipGeometryLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetClipGeometryLookup
+- IXpsOMVisual.GetClipGeometryLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

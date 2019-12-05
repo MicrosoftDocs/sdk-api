@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DeallocateNtmsMedia
 title: DeallocateNtmsMedia function (ntmsapi.h)
-
 description: The DeallocateNtmsMedia function deallocates the side associated with the specified logical media.
 old-location: fs\deallocatentmsmedia.htm
 tech.root: Rsm
 ms.assetid: e053c725-2da6-4eeb-b471-644847dd8db5
-
 ms.date: 12/05/2018
 ms.keywords: DeallocateNtmsMedia, DeallocateNtmsMedia function [Files], _zaw_deallocatentmsmedia, base.deallocatentmsmedia, fs.deallocatentmsmedia, ntmsapi/DeallocateNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DeallocateNtmsMedia"
+f1_keywords:
+- ntmsapi/DeallocateNtmsMedia
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DeallocateNtmsMedia
+- DeallocateNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

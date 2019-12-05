@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.ConvertToContiguousBuffer
 title: IMFSample::ConvertToContiguousBuffer (mfobjects.h)
-
 description: Converts a sample with multiple buffers into a sample with a single buffer.
 old-location: mf\imfsample_converttocontiguousbuffer.htm
 tech.root: medfound
 ms.assetid: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66
-
 ms.date: 12/05/2018
 ms.keywords: 6ea950eb-7f2e-4549-93dc-fa62f95b7b66, ConvertToContiguousBuffer, ConvertToContiguousBuffer method [Media Foundation], ConvertToContiguousBuffer method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],ConvertToContiguousBuffer method, IMFSample.ConvertToContiguousBuffer, IMFSample::ConvertToContiguousBuffer, mf.imfsample_converttocontiguousbuffer, mfobjects/IMFSample::ConvertToContiguousBuffer
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.ConvertToContiguousBuffer"
+f1_keywords:
+- mfobjects/IMFSample.ConvertToContiguousBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.ConvertToContiguousBuffer
+- IMFSample.ConvertToContiguousBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

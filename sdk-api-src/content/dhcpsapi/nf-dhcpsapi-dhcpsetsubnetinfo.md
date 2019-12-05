@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSubnetInfo
 title: DhcpSetSubnetInfo function (dhcpsapi.h)
-
 description: The DhcpSetSubnetInfo function sets information about a subnet defined on the DHCP server.
 old-location: dhcp\dhcpsetsubnetinfo.htm
 tech.root: DHCP
 ms.assetid: a7978da5-945f-4893-83a8-5986c55703a5
-
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSubnetInfo, DhcpSetSubnetInfo function [DHCP], dhcp.dhcpsetsubnetinfo, dhcpsapi/DhcpSetSubnetInfo
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpSetSubnetInfo
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

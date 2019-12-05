@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneGetIcon
 title: TSPI_phoneGetIcon function (tspi.h)
-
 description: The TSPI_phoneGetIcon function retrieves a service phone device-specific (or provider-specific) icon to display to the user.
 old-location: tspi\tspi_phonegeticon.htm
 tech.root: Tapi
 ms.assetid: 765a0f52-9360-4190-abc8-597028f781ac
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetIcon, TSPI_phoneGetIcon function [TAPI 2.2], _tspi_tspi_phonegeticon, tspi.tspi_phonegeticon, tspi/TSPI_phoneGetIcon
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneGetIcon"
+f1_keywords:
+- tspi/TSPI_phoneGetIcon
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneGetIcon
+- TSPI_phoneGetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

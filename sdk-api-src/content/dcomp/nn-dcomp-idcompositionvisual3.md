@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionVisual3
 title: IDCompositionVisual3 (dcomp.h)
-
 description: Represents one DirectComposition visual in a visual tree.
 old-location: directcomp\idcompositionvisual3.htm
 tech.root: directcomp
 ms.assetid: c7bf4e6f-119b-2122-1103-d6ab240121c9
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual3, IDCompositionVisual3 interface [DirectComposition], IDCompositionVisual3 interface [DirectComposition],described, dcomp/IDCompositionVisual3, directcomp.idcompositionvisual3
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionVisual3"
+f1_keywords:
+- dcomp/IDCompositionVisual3
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual3
+- IDCompositionVisual3
 targetos: Windows
 req.typenames: 
 req.redist: 

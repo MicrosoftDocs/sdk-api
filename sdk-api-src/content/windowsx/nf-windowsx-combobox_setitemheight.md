@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_SetItemHeight
 title: ComboBox_SetItemHeight macro (windowsx.h)
-
 description: Sets the height of list items or the selection field in a combo box. You can use this macro or send the CB_SETITEMHEIGHT message explicitly.
 old-location: controls\ComboBox_SetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemheight.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetItemHeight, ComboBox_SetItemHeight macro [Windows Controls], _win32_ComboBox_SetItemHeight, _win32_ComboBox_SetItemHeight_cpp, controls.ComboBox_SetItemHeight, controls._win32_ComboBox_SetItemHeight, windowsx/ComboBox_SetItemHeight
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_SetItemHeight"
+f1_keywords:
+- windowsx/ComboBox_SetItemHeight
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_SetItemHeight
+- ComboBox_SetItemHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

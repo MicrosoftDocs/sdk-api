@@ -1,19 +1,17 @@
 ---
 UID: NS:rectypes.tagRECO_GUIDE
 title: RECO_GUIDE (rectypes.h)
-
 description: Defines the boundaries of the ink to the recognizer.
 old-location: tablet\reco_guide.htm
 tech.root: tablet
 ms.assetid: e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7
-
 ms.date: 12/05/2018
 ms.keywords: RECO_GUIDE, RECO_GUIDE structure [Tablet PC], e28347aa-08ed-4f40-b9c3-4d3b5dacbeb7, rectypes/RECO_GUIDE, tablet.reco_guide
 ms.topic: struct
-f1_keywords: 
- - "rectypes/RECO_GUIDE"
+f1_keywords:
+- rectypes/RECO_GUIDE
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - RECO_GUIDE
+- RECO_GUIDE
 targetos: Windows
 req.typenames: RECO_GUIDE
 req.redist: 

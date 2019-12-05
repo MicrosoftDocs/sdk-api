@@ -1,19 +1,17 @@
 ---
 UID: NL:chstring.CHString
 title: CHString (chstring.h)
-
 description: The following table lists the CHString methods.
 old-location: wmi\chstring.htm
 tech.root: WmiSdk
 ms.assetid: e2e4378f-d842-4bca-bffc-a60e718caed3
-
 ms.date: 12/05/2018
-ms.keywords: "??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring"
+ms.keywords: ??1CHString@@QAE@XZ, ??1CHString@@QEAA@XZ, CHString, CHString class [Windows Management Instrumentation], CHString class [Windows Management Instrumentation],described, _hmm_chstring, chstring/CHString, wmi.chstring
 ms.topic: class
-f1_keywords: 
- - "chstring/CHString"
+f1_keywords:
+- chstring/CHString
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString
- - ??1CHString@@QAE@XZ
- - ??1CHString@@QEAA@XZ
+- CHString
+- ??1CHString@@QAE@XZ
+- ??1CHString@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

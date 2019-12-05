@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurface9.LockSurface
 title: IVMRSurface9::LockSurface (vmr9.h)
-
 description: The LockSurface method locks the attached Direct3D surface.
 old-location: dshow\ivmrsurface9_locksurface.htm
 tech.root: DirectShow
 ms.assetid: fb185898-5d65-48ee-a7be-f4207199f5e9
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],LockSurface method, IVMRSurface9.LockSurface, IVMRSurface9::LockSurface, IVMRSurface9LockSurface, LockSurface, LockSurface method [DirectShow], LockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_locksurface, vmr9/IVMRSurface9::LockSurface
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurface9.LockSurface"
+f1_keywords:
+- vmr9/IVMRSurface9.LockSurface
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface9.LockSurface
+- IVMRSurface9.LockSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.GetErrorMessage
 title: IWSManEx::GetErrorMessage (wsmandisp.h)
-
 description: Returns a formatted string containing the text of an error number.
 old-location: winrm\iwsmanex_geterrormessage.htm
 tech.root: winrm
 ms.assetid: af5ae515-458a-4d7f-80f8-0fd51f97e7f1
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorMessage, GetErrorMessage method [Windows Remote Management], GetErrorMessage method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],GetErrorMessage method, IWSManEx.GetErrorMessage, IWSManEx::GetErrorMessage, winrm.iwsmanex_geterrormessage, wsmandisp/IWSManEx::GetErrorMessage
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.GetErrorMessage"
+f1_keywords:
+- wsmandisp/IWSManEx.GetErrorMessage
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.GetErrorMessage
+- IWSManEx.GetErrorMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

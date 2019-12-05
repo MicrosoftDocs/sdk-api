@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodecsdk.IWICComponentFactory
 title: IWICComponentFactory (wincodecsdk.h)
-
 description: Exposes methods that create components used by component developers. This includes metadata readers, writers and other services for use by codec and metadata handler developers.
 old-location: wic\_wic_codec_iwiccomponentfactory.htm
 tech.root: wic
 ms.assetid: 7aac7268-8f80-4169-9208-1002ca9703e5
-
 ms.date: 12/05/2018
 ms.keywords: IWICComponentFactory, IWICComponentFactory interface [Windows Imaging Component], IWICComponentFactory interface [Windows Imaging Component],described, _wic_codec_iwiccomponentfactory, wic._wic_codec_iwiccomponentfactory, wincodecsdk/IWICComponentFactory
 ms.topic: interface
-f1_keywords: 
- - "wincodecsdk/IWICComponentFactory"
+f1_keywords:
+- wincodecsdk/IWICComponentFactory
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentFactory
+- IWICComponentFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

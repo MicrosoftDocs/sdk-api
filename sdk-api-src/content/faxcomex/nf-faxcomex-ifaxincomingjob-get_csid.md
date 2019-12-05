@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_CSID
 title: IFaxIncomingJob::get_CSID (faxcomex.h)
-
 description: The CSID property is a null-terminated string that contains the called station identifier (CSID) for the job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_csid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4944.htm
-
 ms.date: 12/05/2018
 ms.keywords: CSID property [Fax Service], CSID property [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],CSID property, IFaxIncomingJob.CSID, IFaxIncomingJob.get_CSID, IFaxIncomingJob::CSID, IFaxIncomingJob::get_CSID, _mfax_faxincomingjob.csid, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_csid_cpp, fax._mfax_faxincomingjob_csid, faxcomex/IFaxIncomingJob::CSID, faxcomex/IFaxIncomingJob::get_CSID, get_CSID
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingJob.CSID"
+f1_keywords:
+- faxcomex/IFaxIncomingJob.CSID
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingJob.CSID
- - IFaxIncomingJob.get_CSID
- - IFaxIncomingJob.get_CSID
+- IFaxIncomingJob.CSID
+- IFaxIncomingJob.get_CSID
+- IFaxIncomingJob.get_CSID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:oledlg.tagOLEUIPASTEFLAG
 title: OLEUIPASTEFLAG (oledlg.h)
-
 description: Indicates the user options that are available to the user when pasting this format, and within which group or list of choices (Paste, Paste Link, etc.).
 old-location: com\oleuipasteflag.htm
 tech.root: com
 ms.assetid: 4467f82b-34be-4d10-816c-b3e4231c92a1
-
 ms.date: 12/05/2018
 ms.keywords: OLEUIPASTEFLAG, OLEUIPASTEFLAG enumeration [COM], OLEUIPASTE_ENABLEICON, OLEUIPASTE_LINKANYTYPE, OLEUIPASTE_LINKTYPE1, OLEUIPASTE_LINKTYPE2, OLEUIPASTE_LINKTYPE3, OLEUIPASTE_LINKTYPE4, OLEUIPASTE_LINKTYPE5, OLEUIPASTE_LINKTYPE6, OLEUIPASTE_LINKTYPE7, OLEUIPASTE_LINKTYPE8, OLEUIPASTE_PASTE, OLEUIPASTE_PASTEONLY, _ole_OLEUIPASTEFLAG, com.oleuipasteflag, oledlg/OLEUIPASTEFLAG, oledlg/OLEUIPASTE_ENABLEICON, oledlg/OLEUIPASTE_LINKANYTYPE, oledlg/OLEUIPASTE_LINKTYPE1, oledlg/OLEUIPASTE_LINKTYPE2, oledlg/OLEUIPASTE_LINKTYPE3, oledlg/OLEUIPASTE_LINKTYPE4, oledlg/OLEUIPASTE_LINKTYPE5, oledlg/OLEUIPASTE_LINKTYPE6, oledlg/OLEUIPASTE_LINKTYPE7, oledlg/OLEUIPASTE_LINKTYPE8, oledlg/OLEUIPASTE_PASTE, oledlg/OLEUIPASTE_PASTEONLY
 ms.topic: enum
-f1_keywords: 
- - "oledlg/OLEUIPASTEFLAG"
+f1_keywords:
+- oledlg/OLEUIPASTEFLAG
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - OLEUIPASTEFLAG
+- OLEUIPASTEFLAG
 targetos: Windows
 req.typenames: OLEUIPASTEFLAG
 req.redist: 

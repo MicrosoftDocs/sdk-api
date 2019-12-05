@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineDial
 title: TSPI_lineDial function (tspi.h)
-
 description: The TSPI_lineDial function dials the specified dialable number on the specified call.
 old-location: tspi\tspi_linedial.htm
 tech.root: Tapi
 ms.assetid: 8b24b9a3-af97-45dc-aaaf-d95ce9007ba8
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineDial, TSPI_lineDial function [TAPI 2.2], _tspi_tspi_linedial, tspi.tspi_linedial, tspi/TSPI_lineDial
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineDial"
+f1_keywords:
+- tspi/TSPI_lineDial
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineDial
+- TSPI_lineDial
 targetos: Windows
 req.typenames: 
 req.redist: 

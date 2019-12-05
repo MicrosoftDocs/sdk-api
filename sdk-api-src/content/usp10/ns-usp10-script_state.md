@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tag_SCRIPT_STATE
 title: SCRIPT_STATE (usp10.h)
-
 description: Contains script state information.
 old-location: intl\script_state.htm
 tech.root: Intl
 ms.assetid: 4b1724f7-7773-42c0-9c19-fbded5aef14e
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_STATE, SCRIPT_STATE structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_STATE_str, intl.script_state, usp10/SCRIPT_STATE
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_STATE"
+f1_keywords:
+- usp10/SCRIPT_STATE
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_STATE
+- SCRIPT_STATE
 targetos: Windows
 req.typenames: SCRIPT_STATE
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

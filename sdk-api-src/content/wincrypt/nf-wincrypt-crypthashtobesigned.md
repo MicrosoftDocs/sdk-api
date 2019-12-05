@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptHashToBeSigned
 title: CryptHashToBeSigned function (wincrypt.h)
-
 description: Important  This API is deprecated.
 old-location: security\crypthashtobesigned.htm
 tech.root: SecCrypto
 ms.assetid: 84477054-dd76-4dde-b465-9edeaf192714
-
 ms.date: 12/05/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptHashToBeSigned
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509CertificateRequest
 title: IX509CertificateRequest (certenroll.h)
-
 description: The IX509CertificateRequest interface represents an abstract base certificate request that identifies methods and properties common to and inherited by each of the request objects implemented by the Certificate Enrollment API.
 old-location: security\ix509certificaterequest.htm
 tech.root: seccertenroll
 ms.assetid: 5425c9ab-565d-449d-87e1-e5765868acfb
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest, IX509CertificateRequest interface [Security], IX509CertificateRequest interface [Security],described, certenroll/IX509CertificateRequest, security.ix509certificaterequest
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509CertificateRequest"
+f1_keywords:
+- certenroll/IX509CertificateRequest
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest
+- IX509CertificateRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

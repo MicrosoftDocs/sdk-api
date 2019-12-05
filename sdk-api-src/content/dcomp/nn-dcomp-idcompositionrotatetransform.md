@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionRotateTransform
 title: IDCompositionRotateTransform (dcomp.h)
-
 description: Represents a 2D transformation that affects the rotation of a visual around the z-axis. The coordinate system is rotated around the specified center point.
 old-location: directcomp\idcompositionrotatetransform.htm
 tech.root: directcomp
 ms.assetid: 6c92bd6b-4479-45c2-986c-0a6c91248361
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRotateTransform, IDCompositionRotateTransform interface [DirectComposition], IDCompositionRotateTransform interface [DirectComposition],described, dcomp/IDCompositionRotateTransform, directcomp.idcompositionrotatetransform
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionRotateTransform"
+f1_keywords:
+- dcomp/IDCompositionRotateTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRotateTransform
+- IDCompositionRotateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
 title: IDWriteGdiInterop1::GetMatchingFontsByLOGFONT (dwrite_3.h)
-
 description: Gets a list of matching fonts based on the specified LOGFONT values. Only fonts of that family name will be returned.
 old-location: directwrite\idwritegdiinterop1_getmatchingfontsbylogfont.htm
 tech.root: DirectWrite
 ms.assetid: 38D547D2-0C1C-4673-83BD-38458DFD7E5A
-
 ms.date: 12/05/2018
 ms.keywords: GetMatchingFontsByLOGFONT, GetMatchingFontsByLOGFONT method [Direct Write], GetMatchingFontsByLOGFONT method [Direct Write],IDWriteGdiInterop1 interface, IDWriteGdiInterop1 interface [Direct Write],GetMatchingFontsByLOGFONT method, IDWriteGdiInterop1.GetMatchingFontsByLOGFONT, IDWriteGdiInterop1::GetMatchingFontsByLOGFONT, directwrite.idwritegdiinterop1_getmatchingfontsbylogfont, dwrite_3/IDWriteGdiInterop1::GetMatchingFontsByLOGFONT
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteGdiInterop1.GetMatchingFontsByLOGFONT"
+f1_keywords:
+- dwrite_3/IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
+- IDWriteGdiInterop1.GetMatchingFontsByLOGFONT
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPin
 title: IMbnPinManager::GetPin (mbnapi.h)
-
 description: Gets a specific type of PIN.
 old-location: mbn\imbnpinmanager_getpin.htm
 tech.root: mbn
 ms.assetid: 21752fb9-db6b-4fd1-9c6f-a756408bda53
-
 ms.date: 12/05/2018
 ms.keywords: GetPin, GetPin method [Microsoft Broadband Networks], GetPin method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPin method, IMbnPinManager.GetPin, IMbnPinManager::GetPin, mbn.imbnpinmanager_getpin, mbnapi/IMbnPinManager::GetPin
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPinManager.GetPin"
+f1_keywords:
+- mbnapi/IMbnPinManager.GetPin
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinManager.GetPin
+- IMbnPinManager.GetPin
 targetos: Windows
 req.typenames: 
 req.redist: 

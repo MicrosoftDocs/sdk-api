@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DPtoLP
 title: DPtoLP function (wingdi.h)
-
 description: The DPtoLP function converts device coordinates into logical coordinates. The conversion depends on the mapping mode of the device context, the settings of the origins and extents for the window and viewport, and the world transformation.
 old-location: gdi\dptolp.htm
 tech.root: gdi
 ms.assetid: 0106867c-e8c5-4826-8cba-60c29e1d021a
-
 ms.date: 12/05/2018
 ms.keywords: DPtoLP, DPtoLP function [Windows GDI], _win32_DPtoLP, gdi.dptolp, wingdi/DPtoLP
 ms.topic: function
-f1_keywords: 
- - "wingdi/DPtoLP"
+f1_keywords:
+- wingdi/DPtoLP
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - DPtoLP
+- DPtoLP
 targetos: Windows
 req.typenames: 
 req.redist: 

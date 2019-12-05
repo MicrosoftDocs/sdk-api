@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_Call
 title: ITPhoneEvent::get_Call (tapi3if.h)
-
 description: The get_Call method returns a pointer to the ITCallInfo interface for the call object involved in the event.
 old-location: tapi3\itphoneevent_get_call.htm
 tech.root: Tapi
 ms.assetid: 52305981-d97a-4b7c-9886-6e2543bd1a27
-
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_Call method, ITPhoneEvent.get_Call, ITPhoneEvent::get_Call, _tapi3_itphoneevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_call, tapi3if/ITPhoneEvent::get_Call
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhoneEvent.get_Call"
+f1_keywords:
+- tapi3if/ITPhoneEvent.get_Call
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhoneEvent.get_Call
+- ITPhoneEvent.get_Call
 targetos: Windows
 req.typenames: 
 req.redist: 

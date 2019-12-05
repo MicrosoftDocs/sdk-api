@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.Clone(IN INT,IN INT,IN INT,IN INT,IN PixelFormat)
 title: Bitmap::Clone(IN INT,IN INT,IN INT,IN INT,IN PixelFormat) (gdiplusheaders.h)
-
 description: The Bitmap::Clone method creates a new Bitmapobject by copying a portion of this bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Clone_INT_x_INT_y_INT_width_INT_height_PixelFormat_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\bitmapclonemethods\clone_83intx_inty_intwidth_intheight_pixelform.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],Clone method, Bitmap.Clone, Bitmap.Clone(IN INT,IN INT,IN INT,IN INT,IN PixelFormat), Bitmap.Clone(INT,INT,INT,INT,PixelFormat), Bitmap::Clone, Bitmap::Clone(IN INT,IN INT,IN INT,IN INT,IN PixelFormat), Clone, Clone method [GDI+], Clone method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_Clone_INT_x_INT_y_INT_width_INT_height_PixelFormat_format_, gdiplus._gdiplus_CLASS_Bitmap_Clone_INT_x_INT_y_INT_width_INT_height_PixelFormat_format_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.Clone"
+f1_keywords:
+- gdiplusheaders/Bitmap.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.Clone
+- Bitmap.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

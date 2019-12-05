@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ISSUER_SERIAL
 title: CRYPT_XML_ISSUER_SERIAL (cryptxml.h)
-
 description: Contains an X.509 issued distinguished name&#8211;serial number pair.
 old-location: security\crypt_xml_issuer_serial.htm
 tech.root: SecCrypto
 ms.assetid: 8d74e119-c7ea-4c7c-9d2a-e81f7ae40310
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_ISSUER_SERIAL, CRYPT_XML_ISSUER_SERIAL structure [Security], cryptxml/CRYPT_XML_ISSUER_SERIAL, security.crypt_xml_issuer_serial
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_ISSUER_SERIAL"
+f1_keywords:
+- cryptxml/CRYPT_XML_ISSUER_SERIAL
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_ISSUER_SERIAL
+- CRYPT_XML_ISSUER_SERIAL
 targetos: Windows
 req.typenames: CRYPT_XML_ISSUER_SERIAL
 req.redist: 

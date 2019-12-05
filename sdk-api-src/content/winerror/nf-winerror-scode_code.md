@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.SCODE_CODE
 title: SCODE_CODE macro (winerror.h)
-
 description: Extracts the code portion of the specified SCODE.
 old-location: com\scode_code_macro.htm
 tech.root: com
 ms.assetid: 878456dc-3da4-470a-b9cc-16018f540c17
-
 ms.date: 12/05/2018
 ms.keywords: SCODE_CODE, SCODE_CODE macro [COM], _com_SCODE_CODE, com.scode_code, com.scode_code_macro, winerror/SCODE_CODE
 ms.topic: macro
-f1_keywords: 
- - "winerror/SCODE_CODE"
+f1_keywords:
+- winerror/SCODE_CODE
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - SCODE_CODE
+- SCODE_CODE
 targetos: Windows
 req.typenames: 
 req.redist: 

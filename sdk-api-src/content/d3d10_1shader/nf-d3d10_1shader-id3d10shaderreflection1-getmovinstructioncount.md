@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10_1shader.ID3D10ShaderReflection1.GetMovInstructionCount
 title: ID3D10ShaderReflection1::GetMovInstructionCount (d3d10_1shader.h)
-
 description: Gets the number of Mov instructions.
 old-location: direct3d10\id3d10shaderreflection1_getmovinstructioncount.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection1_getmovinstructioncount.htm
-
 ms.date: 12/05/2018
 ms.keywords: 4e498569-995e-e845-cb5e-8c9a0bd2351f, GetMovInstructionCount, GetMovInstructionCount method [Direct3D 10], GetMovInstructionCount method [Direct3D 10],ID3D10ShaderReflection1 interface, ID3D10ShaderReflection1 interface [Direct3D 10],GetMovInstructionCount method, ID3D10ShaderReflection1.GetMovInstructionCount, ID3D10ShaderReflection1::GetMovInstructionCount, d3d10_1shader/ID3D10ShaderReflection1::GetMovInstructionCount, direct3d10.id3d10shaderreflection1_getmovinstructioncount
 ms.topic: method
-f1_keywords: 
- - "d3d10_1shader/ID3D10ShaderReflection1.GetMovInstructionCount"
+f1_keywords:
+- d3d10_1shader/ID3D10ShaderReflection1.GetMovInstructionCount
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10_1Shader.h
+- D3D10_1Shader.h
 api_name:
- - ID3D10ShaderReflection1.GetMovInstructionCount
+- ID3D10ShaderReflection1.GetMovInstructionCount
 targetos: Windows
 req.typenames: 
 req.redist: 

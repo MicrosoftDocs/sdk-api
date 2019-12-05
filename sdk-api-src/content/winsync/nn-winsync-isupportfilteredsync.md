@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISupportFilteredSync
 title: ISupportFilteredSync (winsync.h)
-
 description: When implemented by a derived class, represents a source provider that supports filtered change enumeration, and that can negotiate the type of filter that is used.
 old-location: winsync\isupportfilteredsync.htm
 tech.root: winsync
 ms.assetid: cf07e322-7c75-49a4-a514-b4c782ceb2d7
-
 ms.date: 12/05/2018
 ms.keywords: ISupportFilteredSync, ISupportFilteredSync interface [Windows Sync], ISupportFilteredSync interface [Windows Sync],described, winsync.isupportfilteredsync, winsync/ISupportFilteredSync
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISupportFilteredSync"
+f1_keywords:
+- winsync/ISupportFilteredSync
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISupportFilteredSync
+- ISupportFilteredSync
 targetos: Windows
 req.typenames: 
 req.redist: 

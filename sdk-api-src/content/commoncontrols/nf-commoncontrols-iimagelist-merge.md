@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.Merge
 title: IImageList::Merge (commoncontrols.h)
-
 description: Creates a new image by combining two existing images. This method also creates a new image list in which to store the image.
 old-location: controls\IImageList_Merge.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\merge.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],Merge method, IImageList.Merge, IImageList::Merge, Merge, Merge method [Windows Controls], Merge method [Windows Controls],IImageList interface, comctl_IImageList_Merge, comctl_IImageList_Merge_cpp, commoncontrols/IImageList::Merge, controls.IImageList_Merge, controls.comctl_IImageList_Merge
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.Merge"
+f1_keywords:
+- commoncontrols/IImageList.Merge
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.Merge
+- IImageList.Merge
 targetos: Windows
 req.typenames: 
 req.redist: 

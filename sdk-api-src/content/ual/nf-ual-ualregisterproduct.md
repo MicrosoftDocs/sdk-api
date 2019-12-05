@@ -1,19 +1,17 @@
 ---
 UID: NF:ual.UalRegisterProduct
 title: UalRegisterProduct function (ual.h)
-
 description: Registers a product with User Access Logging (UAL).
 old-location: ual\ualregisterproduct.htm
 tech.root: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8
-
 ms.date: 12/05/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
 ms.topic: function
-f1_keywords: 
- - "ual/UalRegisterProduct"
+f1_keywords:
+- ual/UalRegisterProduct
 dev_langs:
- - c++
+- c++
 req.header: ual.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ualapi.lib
 req.dll: Ualapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ualapi.dll
+- Ualapi.dll
 api_name:
- - UalRegisterProduct
+- UalRegisterProduct
 targetos: Windows
 req.typenames: 
 req.redist: 

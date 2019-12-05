@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Skip
 title: IEnumSyncMgrEvents::Skip (syncmgr.h)
-
 description: Skips forward the specified number of events in the enumeration.
 old-location: shell\IEnumSyncMgrEvents_Skip.htm
 tech.root: shell
 ms.assetid: 6e8257e8-fab3-407c-a6d0-26a7a9ca0961
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncMgrEvents interface [Windows Shell],Skip method, IEnumSyncMgrEvents.Skip, IEnumSyncMgrEvents::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumSyncMgrEvents interface, _shell_IEnumSyncMgrEvents_Skip, shell.IEnumSyncMgrEvents_Skip, syncmgr/IEnumSyncMgrEvents::Skip
 ms.topic: method
-f1_keywords: 
- - "syncmgr/IEnumSyncMgrEvents.Skip"
+f1_keywords:
+- syncmgr/IEnumSyncMgrEvents.Skip
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - IEnumSyncMgrEvents.Skip
+- IEnumSyncMgrEvents.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

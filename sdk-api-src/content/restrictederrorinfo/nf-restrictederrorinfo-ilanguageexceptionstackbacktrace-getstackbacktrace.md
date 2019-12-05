@@ -1,19 +1,17 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionStackBackTrace.GetStackBackTrace
 title: ILanguageExceptionStackBackTrace::GetStackBackTrace (restrictederrorinfo.h)
-
 description: Retrieves the back stack trace.
 old-location: winrt\ilanguageexceptionstackbacktrace_getstackbacktrace.htm
 tech.root: WinRT
 ms.assetid: 6EB89F76-C518-41A3-A1F8-EC480B0FC68B
-
 ms.date: 12/05/2018
 ms.keywords: GetStackBackTrace, GetStackBackTrace method [Windows Runtime], GetStackBackTrace method [Windows Runtime],ILanguageExceptionStackBackTrace interface, ILanguageExceptionStackBackTrace interface [Windows Runtime],GetStackBackTrace method, ILanguageExceptionStackBackTrace.GetStackBackTrace, ILanguageExceptionStackBackTrace::GetStackBackTrace, restrictederrorinfo/ILanguageExceptionStackBackTrace::GetStackBackTrace, winrt.ilanguageexceptionstackbacktrace_getstackbacktrace
 ms.topic: method
-f1_keywords: 
- - "restrictederrorinfo/ILanguageExceptionStackBackTrace.GetStackBackTrace"
+f1_keywords:
+- restrictederrorinfo/ILanguageExceptionStackBackTrace.GetStackBackTrace
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - restrictederrorinfo.h
+- restrictederrorinfo.h
 api_name:
- - ILanguageExceptionStackBackTrace.GetStackBackTrace
+- ILanguageExceptionStackBackTrace.GetStackBackTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

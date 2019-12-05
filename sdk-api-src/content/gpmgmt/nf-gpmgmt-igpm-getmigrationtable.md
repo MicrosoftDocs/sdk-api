@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM.GetMigrationTable
 title: IGPM::GetMigrationTable (gpmgmt.h)
-
 description: Loads the migration table at a specified path.
 old-location: gpmc\igpm_getmigrationtable.htm
 tech.root: gpmc
 ms.assetid: 4a39d4f8-777d-4cf8-8dd5-053f73bdfdfa
-
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],GetMigrationTable method, GetMigrationTable, GetMigrationTable method [GPMC], GetMigrationTable method [GPMC],GPM object, GetMigrationTable method [GPMC],IGPM interface, IGPM interface [GPMC],GetMigrationTable method, IGPM.GetMigrationTable, IGPM::GetMigrationTable, gpmc.igpm_getmigrationtable, gpmgmt/IGPM::GetMigrationTable
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM.GetMigrationTable"
+f1_keywords:
+- gpmgmt/IGPM.GetMigrationTable
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM.GetMigrationTable
- - GPM.GetMigrationTable
+- IGPM.GetMigrationTable
+- GPM.GetMigrationTable
 targetos: Windows
 req.typenames: 
 req.redist: 

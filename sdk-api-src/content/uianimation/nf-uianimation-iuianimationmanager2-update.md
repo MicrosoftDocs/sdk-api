@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.Update
 title: IUIAnimationManager2::Update (uianimation.h)
-
 description: Updates the values of all animation variables.
 old-location: uianimation\iuianimationmanager2_update.htm
 tech.root: UIAnimation
 ms.assetid: 5735ABDB-E1AE-41C0-9F37-92084CEF6FAD
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Update method, IUIAnimationManager2.Update, IUIAnimationManager2::Update, Update, Update method [Windows Animation], Update method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_update, uianimation/IUIAnimationManager2::Update
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.Update"
+f1_keywords:
+- uianimation/IUIAnimationManager2.Update
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.Update
+- IUIAnimationManager2.Update
 targetos: Windows
 req.typenames: 
 req.redist: 

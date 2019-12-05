@@ -1,19 +1,17 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0003
 title: PanelInputArea (peninputpanel.h)
-
 description: Specifies the values that represent the default input areas of the Tablet PC Input Panel.
 old-location: tablet\panelinputarea.htm
 tech.root: tablet
 ms.assetid: fc262f07-aa73-49c8-a26a-1f0a47f8269a
-
 ms.date: 12/05/2018
 ms.keywords: InputArea2, InputArea2 enumeration [Tablet PC], PanelInputArea, PanelInputArea enumeration [Tablet PC], PanelInputArea_Auto, PanelInputArea_CharacterPad, PanelInputArea_Keyboard, PanelInputArea_WritingPad, fc262f07-aa73-49c8-a26a-1f0a47f8269a, peninputpanel/PanelInputArea, peninputpanel/PanelInputArea_Auto, peninputpanel/PanelInputArea_CharacterPad, peninputpanel/PanelInputArea_Keyboard, peninputpanel/PanelInputArea_WritingPad, tablet.panelinputarea
 ms.topic: enum
-f1_keywords: 
- - "peninputpanel/InputArea2"
+f1_keywords:
+- peninputpanel/InputArea2
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peninputpanel.h
+- peninputpanel.h
 api_name:
- - InputArea2
+- InputArea2
 targetos: Windows
 req.typenames: PanelInputArea
 req.redist: 

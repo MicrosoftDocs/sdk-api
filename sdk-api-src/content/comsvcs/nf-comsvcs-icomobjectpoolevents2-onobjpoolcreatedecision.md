@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreateDecision
 title: IComObjectPoolEvents2::OnObjPoolCreateDecision (comsvcs.h)
-
 description: Generated when a pool provides a requesting client with an existing object or creates a new one.
 old-location: cos\icomobjectpoolevents2_onobjpoolcreatedecision.htm
 tech.root: cossdk
 ms.assetid: a66c00ac-b9b9-431e-b1c8-6642cb35ec3c
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreateDecision method, IComObjectPoolEvents2.OnObjPoolCreateDecision, IComObjectPoolEvents2::OnObjPoolCreateDecision, OnObjPoolCreateDecision, OnObjPoolCreateDecision method [COM+], OnObjPoolCreateDecision method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreateDecision, comsvcs/IComObjectPoolEvents2::OnObjPoolCreateDecision, cos.icomobjectpoolevents2_onobjpoolcreatedecision
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents2.OnObjPoolCreateDecision"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents2.OnObjPoolCreateDecision
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents2.OnObjPoolCreateDecision
+- IComObjectPoolEvents2.OnObjPoolCreateDecision
 targetos: Windows
 req.typenames: 
 req.redist: 

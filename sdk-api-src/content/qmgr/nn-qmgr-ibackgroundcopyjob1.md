@@ -1,19 +1,17 @@
 ---
 UID: NN:qmgr.IBackgroundCopyJob1
 title: IBackgroundCopyJob1 (qmgr.h)
-
 description: Use the IBackgroundCopyJob1 interface to add files to the job and retrieve the job's status.
 old-location: bits\ibackgroundcopyjob1.htm
 tech.root: Bits
 ms.assetid: ccf1b355-c1af-4b5e-b613-181c426ed777
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob1, IBackgroundCopyJob1 interface [BITS], IBackgroundCopyJob1 interface [BITS],described, bits.ibackgroundcopyjob1, qmgr/IBackgroundCopyJob1
 ms.topic: interface
-f1_keywords: 
- - "qmgr/IBackgroundCopyJob1"
+f1_keywords:
+- qmgr/IBackgroundCopyJob1
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1
- - IBackgroundCopyJob1.CancelJob
- - IBackgroundCopyJob1.SwitchToForeground
- - IBackgroundCopyJob1.GetTimes
+- IBackgroundCopyJob1
+- IBackgroundCopyJob1.CancelJob
+- IBackgroundCopyJob1.SwitchToForeground
+- IBackgroundCopyJob1.GetTimes
 targetos: Windows
 req.typenames: 
 req.redist: 

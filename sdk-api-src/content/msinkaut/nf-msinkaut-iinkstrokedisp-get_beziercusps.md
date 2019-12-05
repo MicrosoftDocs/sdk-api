@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_BezierCusps
 title: IInkStrokeDisp::get_BezierCusps (msinkaut.h)
-
 description: Gets an array that contains the indices of the cusps of the Bezier approximation of the stroke.
 old-location: tablet\iinkstrokedisp_beziercusps.htm
 tech.root: tablet
 ms.assetid: 9fdd007a-1c8e-4389-975c-849a67be94a1
-
 ms.date: 12/05/2018
 ms.keywords: 9fdd007a-1c8e-4389-975c-849a67be94a1, BezierCusps property [Tablet PC], BezierCusps property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],BezierCusps property, IInkStrokeDisp.BezierCusps, IInkStrokeDisp.get_BezierCusps, IInkStrokeDisp::BezierCusps, IInkStrokeDisp::get_BezierCusps, get_BezierCusps, msinkaut/IInkStrokeDisp::BezierCusps, msinkaut/IInkStrokeDisp::get_BezierCusps, tablet.iinkstrokedisp_beziercusps
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.BezierCusps"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.BezierCusps
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.BezierCusps
- - IInkStrokeDisp.get_BezierCusps
- - IInkStrokeDisp.get_BezierCusps
+- IInkStrokeDisp.BezierCusps
+- IInkStrokeDisp.get_BezierCusps
+- IInkStrokeDisp.get_BezierCusps
 targetos: Windows
 req.typenames: 
 req.redist: 

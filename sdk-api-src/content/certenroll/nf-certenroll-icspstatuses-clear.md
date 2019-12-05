@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatuses.Clear
 title: ICspStatuses::Clear (certenroll.h)
-
 description: Removes all ICspStatus objects from the collection.
 old-location: security\icspstatuses_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICspStatuses interface, ICspStatuses interface [Security],Clear method, ICspStatuses.Clear, ICspStatuses::Clear, certenroll/ICspStatuses::Clear, security.icspstatuses_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatuses.Clear"
+f1_keywords:
+- certenroll/ICspStatuses.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatuses.Clear
+- ICspStatuses.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

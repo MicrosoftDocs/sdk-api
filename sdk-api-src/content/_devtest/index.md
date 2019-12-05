@@ -1,7 +1,6 @@
 ---
 UID: TP:devtest
 ms.assetid: df82015f-ea9d-3150-8041-fb2c5ed17afc
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DCompile
 title: D3DCompile function (d3dcompiler.h)
-
 description: Compile HLSL code or an effect file into bytecode for a given target.
 old-location: direct3dhlsl\d3dcompile.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dcompile.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3DCompile, D3DCompile function [HLSL], a18240ba-8d29-6dcc-da59-7c146428c2b8, d3dcompiler/D3DCompile, direct3dhlsl.d3dcompile
 ms.topic: function
 f1_keywords:
 - d3dcompiler/D3DCompile
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows

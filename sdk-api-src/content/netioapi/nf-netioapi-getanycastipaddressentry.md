@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetAnycastIpAddressEntry
 title: GetAnycastIpAddressEntry function (netioapi.h)
-
 description: Retrieves information for an existing anycast IP address entry on the local computer.
 old-location: iphlp\getanycastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: d60828ed-e1fd-4e57-92be-08a189c27fe5
-
 ms.date: 12/05/2018
 ms.keywords: GetAnycastIpAddressEntry, GetAnycastIpAddressEntry function [IP Helper], iphlp.getanycastipaddressentry, netioapi/GetAnycastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetAnycastIpAddressEntry"
+f1_keywords:
+- netioapi/GetAnycastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetAnycastIpAddressEntry
+- GetAnycastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

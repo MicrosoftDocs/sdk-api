@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_RESOURCE_ENUM
 title: CLUSTER_RESOURCE_ENUM (clusapi.h)
-
 description: Describes the type of cluster object being enumerated by the ClusterResourceEnum or ClusterResourceOpenEnum functions.
 old-location: mscs\cluster_resource_enum.htm
 tech.root: MsCS
 ms.assetid: 8b59ab43-7e03-4ddf-82cc-9945e9da6462
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM, CLUSTER_RESOURCE_ENUM enumeration [Failover Cluster], CLUSTER_RESOURCE_ENUM_ALL, CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, _CLUSTER_RESOURCE_ENUM, _CLUSTER_RESOURCE_ENUM enumeration [Failover Cluster], clusapi/CLUSTER_RESOURCE_ENUM, clusapi/CLUSTER_RESOURCE_ENUM_ALL, clusapi/CLUSTER_RESOURCE_ENUM_DEPENDS, clusapi/CLUSTER_RESOURCE_ENUM_NODES, clusapi/CLUSTER_RESOURCE_ENUM_PROVIDES, clusapi/_CLUSTER_RESOURCE_ENUM, msclus/CLUSTER_RESOURCE_ENUM, msclus/CLUSTER_RESOURCE_ENUM_ALL, msclus/CLUSTER_RESOURCE_ENUM_DEPENDS, msclus/CLUSTER_RESOURCE_ENUM_NODES, msclus/CLUSTER_RESOURCE_ENUM_PROVIDES, msclus/_CLUSTER_RESOURCE_ENUM, mscs.cluster_resource_enum
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_RESOURCE_ENUM"
+f1_keywords:
+- clusapi/CLUSTER_RESOURCE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_RESOURCE_ENUM
+- CLUSTER_RESOURCE_ENUM
 targetos: Windows
 req.typenames: CLUSTER_RESOURCE_ENUM
 req.redist: 

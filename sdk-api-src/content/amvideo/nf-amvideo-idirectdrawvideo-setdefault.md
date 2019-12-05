@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetDefault
 title: IDirectDrawVideo::SetDefault (amvideo.h)
-
 description: The SetDefault method makes the current property settings the global default.
 old-location: dshow\idirectdrawvideo_setdefault.htm
 tech.root: DirectShow
 ms.assetid: 9525ee57-3c53-42db-bc40-eb1d4658d9b6
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetDefault method, IDirectDrawVideo.SetDefault, IDirectDrawVideo::SetDefault, IDirectDrawVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetDefault, dshow.idirectdrawvideo_setdefault
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.SetDefault"
+f1_keywords:
+- amvideo/IDirectDrawVideo.SetDefault
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.SetDefault
+- IDirectDrawVideo.SetDefault
 targetos: Windows
 req.typenames: 
 req.redist: 

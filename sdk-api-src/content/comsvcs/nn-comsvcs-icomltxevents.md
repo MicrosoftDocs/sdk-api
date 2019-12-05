@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComLTxEvents
 title: IComLTxEvents (comsvcs.h)
-
 description: Notifies the subscriber of events that relate to COM+ transactions.
 old-location: cos\icomltxevents.htm
 tech.root: cossdk
 ms.assetid: 8be6dddb-ed57-4715-8933-8a0e478095c8
-
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents, IComLTxEvents interface [COM+], IComLTxEvents interface [COM+],described, comsvcs/IComLTxEvents, cos.icomltxevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComLTxEvents"
+f1_keywords:
+- comsvcs/IComLTxEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComLTxEvents
+- IComLTxEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

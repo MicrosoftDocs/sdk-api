@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.GetOutputFormat
 title: IWMReader::GetOutputFormat (wmsdkidl.h)
-
 description: The GetOutputFormat method retrieves the supported formats for a specified output media stream.
 old-location: wmformat\iwmreader_getoutputformat.htm
 tech.root: wmformat
 ms.assetid: e73d13b9-3fca-4de1-b89d-5cacc6311cd3
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [windows Media Format], GetOutputFormat method [windows Media Format],IWMReader interface, IWMReader interface [windows Media Format],GetOutputFormat method, IWMReader.GetOutputFormat, IWMReader::GetOutputFormat, IWMReaderGetOutputFormat, wmformat.iwmreader_getoutputformat, wmsdkidl/IWMReader::GetOutputFormat
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.GetOutputFormat"
+f1_keywords:
+- wmsdkidl/IWMReader.GetOutputFormat
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.GetOutputFormat
+- IWMReader.GetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

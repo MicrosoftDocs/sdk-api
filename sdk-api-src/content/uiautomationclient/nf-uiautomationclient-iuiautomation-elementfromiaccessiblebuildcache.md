@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromIAccessibleBuildCache
 title: IUIAutomation::ElementFromIAccessibleBuildCache (uiautomationclient.h)
-
 description: Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomation_ElementFromIAccessibleBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 7feadfc9-0be3-40ec-a986-526b207d1f38
-
 ms.date: 12/05/2018
 ms.keywords: ElementFromIAccessibleBuildCache, ElementFromIAccessibleBuildCache method [Windows Accessibility], ElementFromIAccessibleBuildCache method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromIAccessibleBuildCache method, IUIAutomation.ElementFromIAccessibleBuildCache, IUIAutomation::ElementFromIAccessibleBuildCache, uiauto.uiauto_IUIAutomation_ElementFromIAccessibleBuildCache, uiauto_IUIAutomation_ElementFromIAccessibleBuildCache, uiautomationclient/IUIAutomation::ElementFromIAccessibleBuildCache, winauto.uiauto_IUIAutomation_ElementFromIAccessibleBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.ElementFromIAccessibleBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomation.ElementFromIAccessibleBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.ElementFromIAccessibleBuildCache
+- IUIAutomation.ElementFromIAccessibleBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

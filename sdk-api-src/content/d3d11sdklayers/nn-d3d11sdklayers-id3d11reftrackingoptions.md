@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11RefTrackingOptions
 title: ID3D11RefTrackingOptions (d3d11sdklayers.h)
-
 description: The tracking interface sets reference tracking options.
 old-location: direct3d11\id3d11reftrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: 8A3D1E4E-ED56-47F8-9281-7A8DD82B4DFC
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11RefTrackingOptions, ID3D11RefTrackingOptions interface [Direct3D 11], ID3D11RefTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefTrackingOptions, direct3d11.id3d11reftrackingoptions
 ms.topic: interface
-f1_keywords: 
- - "d3d11sdklayers/ID3D11RefTrackingOptions"
+f1_keywords:
+- d3d11sdklayers/ID3D11RefTrackingOptions
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3DCompiler.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler.lib
- - D3DCompiler.dll
+- D3DCompiler.lib
+- D3DCompiler.dll
 api_name:
- - ID3D11RefTrackingOptions
+- ID3D11RefTrackingOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

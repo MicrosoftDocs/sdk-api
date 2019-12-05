@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_FEATURE_LEVELS
 title: D3D12_FEATURE_DATA_FEATURE_LEVELS (d3d12.h)
-
 description: Describes info about the feature levels supported by the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_feature_levels.htm
 tech.root: direct3d12
 ms.assetid: 8C709889-0C7E-4D6D-84BD-1449BB8EA96A
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_FEATURE_LEVELS, D3D12_FEATURE_DATA_FEATURE_LEVELS structure, d3d12/D3D12_FEATURE_DATA_FEATURE_LEVELS, direct3d12.d3d12_feature_data_feature_levels
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_FEATURE_DATA_FEATURE_LEVELS"
+f1_keywords:
+- d3d12/D3D12_FEATURE_DATA_FEATURE_LEVELS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_FEATURE_DATA_FEATURE_LEVELS
+- D3D12_FEATURE_DATA_FEATURE_LEVELS
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_FEATURE_LEVELS
 req.redist: 

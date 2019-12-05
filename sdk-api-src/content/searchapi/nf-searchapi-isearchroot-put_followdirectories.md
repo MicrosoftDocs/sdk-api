@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_FollowDirectories
 title: ISearchRoot::put_FollowDirectories (searchapi.h)
-
 description: Sets a BOOL value that indicates whether the search engine should follow subdirectories and hierarchical scopes for this search root.
 old-location: search\_search_ISearchRoot_put_FollowDirectories.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_followdirectories.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],put_FollowDirectories method, ISearchRoot.put_FollowDirectories, ISearchRoot::put_FollowDirectories, _search_ISearchRoot_put_FollowDirectories, put_FollowDirectories, put_FollowDirectories method [search], put_FollowDirectories method [search],ISearchRoot interface, search._search_ISearchRoot_put_FollowDirectories, searchapi/ISearchRoot::put_FollowDirectories
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.put_FollowDirectories"
+f1_keywords:
+- searchapi/ISearchRoot.put_FollowDirectories
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchRoot.put_FollowDirectories
+- ISearchRoot.put_FollowDirectories
 targetos: Windows
 req.typenames: 
 req.redist: 

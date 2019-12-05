@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyCmp
 title: VarCyCmp function (oleauto.h)
-
 description: Compares two variants of type currency.
 old-location: automat\varcycmp.htm
 tech.root: automat
 ms.assetid: 18146c52-c4ca-48b6-b0be-d93a849cee96
-
 ms.date: 12/05/2018
 ms.keywords: VarCyCmp, VarCyCmp function [Automation], _oa96_VarCyCmp, automat.varcycmp, oleauto/VarCyCmp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyCmp"
+f1_keywords:
+- oleauto/VarCyCmp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyCmp
+- VarCyCmp
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2ipdef.in_pktinfo
 title: IN_PKTINFO (ws2ipdef.h)
-
 description: The in_pktinfo structure is used to store received packet address information, and is used by Windows to return information about received packets and also allows specifying the local IPv4 address to use for sending packets.
 old-location: winsock\in_pktinfo_2.htm
 tech.root: WinSock
 ms.assetid: a20cb3ff-38fb-471d-b940-7265c114e209
-
 ms.date: 12/05/2018
-ms.keywords: "*PIN_PKTINFO, IN_PKTINFO, IN_PKTINFO structure [Winsock], PIN_PKTINFO, PIN_PKTINFO structure pointer [Winsock], _win32_in_pktinfo_2, in_pktinfo, in_pktinfo structure [Winsock], winsock.in_pktinfo_2, ws2ipdef/PIN_PKTINFO, ws2ipdef/in_pktinfo, ws2tcpip/PIN_PKTINFO, ws2tcpip/in_pktinfo"
+ms.keywords: '*PIN_PKTINFO, IN_PKTINFO, IN_PKTINFO structure [Winsock], PIN_PKTINFO, PIN_PKTINFO structure pointer [Winsock], _win32_in_pktinfo_2, in_pktinfo, in_pktinfo structure [Winsock], winsock.in_pktinfo_2, ws2ipdef/PIN_PKTINFO, ws2ipdef/in_pktinfo, ws2tcpip/PIN_PKTINFO, ws2tcpip/in_pktinfo'
 ms.topic: struct
-f1_keywords: 
- - "ws2ipdef/IN_PKTINFO"
+f1_keywords:
+- ws2ipdef/IN_PKTINFO
 dev_langs:
- - c++
+- c++
 req.header: ws2ipdef.h
 req.include-header: Ws2tcpip.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2ipdef.h
- - Ws2tcpip.h
+- Ws2ipdef.h
+- Ws2tcpip.h
 api_name:
- - IN_PKTINFO
+- IN_PKTINFO
 targetos: Windows
 req.typenames: IN_PKTINFO, *PIN_PKTINFO
 req.redist: 

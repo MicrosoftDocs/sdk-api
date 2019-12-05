@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._Initialize
 title: IBrowserService2::_Initialize (shdeprecated.h)
-
 description: Deprecated. Coordinates the initializing of state between the base and the derived classes.
 old-location: shell\IBrowserService2__Initialize.htm
 tech.root: shell
 ms.assetid: 990f7456-dce3-4c67-9a1e-97c8772e4332
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_Initialize method, IBrowserService2._Initialize, IBrowserService2::_Initialize, _Initialize, _Initialize method [Windows Shell], _Initialize method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_Initialize, shell.IBrowserService2__Initialize, zone_IBrowserService2__Initialize
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._Initialize"
+f1_keywords:
+- shdeprecated/IBrowserService2._Initialize
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._Initialize
+- IBrowserService2._Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

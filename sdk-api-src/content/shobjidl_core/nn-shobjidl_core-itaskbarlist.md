@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList
 title: ITaskbarList (shobjidl_core.h)
-
 description: Exposes methods that control the taskbar. It allows you to dynamically add, remove, and activate items on the taskbar.
 old-location: shell\ITaskbarList.htm
 tech.root: shell
 ms.assetid: c63f5fe8-4a8f-4ca8-bd6a-7733110bbb38
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList, ITaskbarList interface [Windows Shell], ITaskbarList interface [Windows Shell],described, _win32_ITaskbarList, shell.ITaskbarList, shobjidl_core/ITaskbarList
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ITaskbarList"
+f1_keywords:
+- shobjidl_core/ITaskbarList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ITaskbarList
+- ITaskbarList
 targetos: Windows
 req.typenames: 
 req.redist: 

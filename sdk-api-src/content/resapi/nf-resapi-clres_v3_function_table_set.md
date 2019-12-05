@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.CLRES_V3_FUNCTION_TABLE_SET
 title: CLRES_V3_FUNCTION_TABLE_SET macro (resapi.h)
-
 description: Initializes a function table for version 3.0 of the Resource API.
 old-location: mscs\clres_v3_function_table_set.htm
 tech.root: MsCS
 ms.assetid: 4915EAD2-771E-4BD5-B2A7-4149007F4E47
-
 ms.date: 12/05/2018
 ms.keywords: CLRES_V3_FUNCTION_TABLE_SET, CLRES_V3_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v3_function_table_set, resapi/CLRES_V3_FUNCTION_TABLE_SET
 ms.topic: macro
-f1_keywords: 
- - "resapi/CLRES_V3_FUNCTION_TABLE_SET"
+f1_keywords:
+- resapi/CLRES_V3_FUNCTION_TABLE_SET
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - CLRES_V3_FUNCTION_TABLE_SET
+- CLRES_V3_FUNCTION_TABLE_SET
 targetos: Windows
 req.typenames: 
 req.redist: 

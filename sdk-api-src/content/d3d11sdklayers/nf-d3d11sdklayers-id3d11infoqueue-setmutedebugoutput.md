@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.SetMuteDebugOutput
 title: ID3D11InfoQueue::SetMuteDebugOutput (d3d11sdklayers.h)
-
 description: Set a boolean that turns the debug output on or off.
 old-location: direct3d11\id3d11infoqueue_setmutedebugoutput.htm
 tech.root: direct3d11
 ms.assetid: 0b155d2c-f7b0-4879-8086-8cccbca16a25
-
 ms.date: 12/05/2018
 ms.keywords: 845ced1c-0b30-f73c-38de-69cd6425f139, ID3D11InfoQueue interface [Direct3D 11],SetMuteDebugOutput method, ID3D11InfoQueue.SetMuteDebugOutput, ID3D11InfoQueue::SetMuteDebugOutput, SetMuteDebugOutput, SetMuteDebugOutput method [Direct3D 11], SetMuteDebugOutput method [Direct3D 11],ID3D11InfoQueue interface, d3d11sdklayers/ID3D11InfoQueue::SetMuteDebugOutput, direct3d11.id3d11infoqueue_setmutedebugoutput
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11InfoQueue.SetMuteDebugOutput"
+f1_keywords:
+- d3d11sdklayers/ID3D11InfoQueue.SetMuteDebugOutput
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11InfoQueue.SetMuteDebugOutput
+- ID3D11InfoQueue.SetMuteDebugOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

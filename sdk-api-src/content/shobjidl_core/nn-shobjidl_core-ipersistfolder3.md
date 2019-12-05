@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IPersistFolder3
 title: IPersistFolder3 (shobjidl_core.h)
-
 description: Extends the IPersistFolder and IPersistFolder2 interfaces by allowing a folder object to implement nondefault handling of folder shortcuts.
 old-location: shell\IPersistFolder3.htm
 tech.root: shell
 ms.assetid: 77a10997-1512-41ee-a84c-f3fa2e500d20
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder3, IPersistFolder3 interface [Windows Shell], IPersistFolder3 interface [Windows Shell],described, _win32_IPersistFolder3, shell.IPersistFolder3, shobjidl_core/IPersistFolder3
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IPersistFolder3"
+f1_keywords:
+- shobjidl_core/IPersistFolder3
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IPersistFolder3
+- IPersistFolder3
 targetos: Windows
 req.typenames: 
 req.redist: 

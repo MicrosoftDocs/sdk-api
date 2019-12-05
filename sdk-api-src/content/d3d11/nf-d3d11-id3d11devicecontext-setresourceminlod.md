@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SetResourceMinLOD
 title: ID3D11DeviceContext::SetResourceMinLOD (d3d11.h)
-
 description: Sets the minimum level-of-detail (LOD) for a resource.
 old-location: direct3d11\id3d11devicecontext_setresourceminlod.htm
 tech.root: direct3d11
 ms.assetid: c718bc0b-fb3b-49fd-91f1-098edc0c115d
-
 ms.date: 12/05/2018
 ms.keywords: 09f84905-66c1-c11b-7669-74d84525bebd, ID3D11DeviceContext interface [Direct3D 11],SetResourceMinLOD method, ID3D11DeviceContext.SetResourceMinLOD, ID3D11DeviceContext::SetResourceMinLOD, SetResourceMinLOD, SetResourceMinLOD method [Direct3D 11], SetResourceMinLOD method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::SetResourceMinLOD, direct3d11.id3d11devicecontext_setresourceminlod
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.SetResourceMinLOD"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.SetResourceMinLOD
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.SetResourceMinLOD
+- ID3D11DeviceContext.SetResourceMinLOD
 targetos: Windows
 req.typenames: 
 req.redist: 

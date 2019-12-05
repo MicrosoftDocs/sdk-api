@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetSpaceAfter
 title: ITextPara::GetSpaceAfter (tom.h)
-
 description: Retrieves the amount of vertical space below a paragraph.
 old-location: controls\ITextPara_GetSpaceAfter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspaceafter.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSpaceAfter, GetSpaceAfter method [Windows Controls], GetSpaceAfter method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetSpaceAfter method, ITextPara.GetSpaceAfter, ITextPara::GetSpaceAfter, _win32_ITextPara_GetSpaceAfter, _win32_ITextPara_GetSpaceAfter_cpp, controls.ITextPara_GetSpaceAfter, controls._win32_ITextPara_GetSpaceAfter, tom/ITextPara::GetSpaceAfter
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetSpaceAfter"
+f1_keywords:
+- tom/ITextPara.GetSpaceAfter
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetSpaceAfter
+- ITextPara.GetSpaceAfter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaPropertyStorage
 title: IWiaPropertyStorage (wia_xp.h)
-
 description: The IWiaPropertyStorage interface is used to access information about the IWiaItem object's properties. Applications must query an item to obtain its IWiaPropertyStorage interface.
 old-location: wia\_wia_IWiaPropertyStorage.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\iwiapropertystorage.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaPropertyStorage, IWiaPropertyStorage interface [WIA], IWiaPropertyStorage interface [WIA],described, _wia_IWiaPropertyStorage, wia._wia_IWiaPropertyStorage, wia_xp/IWiaPropertyStorage
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaPropertyStorage"
+f1_keywords:
+- wia_xp/IWiaPropertyStorage
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaPropertyStorage
+- IWiaPropertyStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

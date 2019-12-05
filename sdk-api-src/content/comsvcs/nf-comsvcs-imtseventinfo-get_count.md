@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_Count
 title: IMtsEventInfo::get_Count (comsvcs.h)
-
 description: Retrieves the number of data values from the object.
 old-location: cos\imtseventinfo_get_count.htm
 tech.root: cossdk
 ms.assetid: f92c93eb-841a-4bc8-9c02-644c30daccad
-
 ms.date: 12/05/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Count method, IMtsEventInfo.get_Count, IMtsEventInfo::get_Count, _dtc_IMtsEventInfo_Count, comsvcs/IMtsEventInfo::get_Count, cos.imtseventinfo_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsEventInfo interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMtsEventInfo.get_Count"
+f1_keywords:
+- comsvcs/IMtsEventInfo.get_Count
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsEventInfo.get_Count
+- IMtsEventInfo.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

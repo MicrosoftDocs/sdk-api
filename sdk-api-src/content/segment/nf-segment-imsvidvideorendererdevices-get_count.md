@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.get_Count
 title: IMSVidVideoRendererDevices::get_Count (segment.h)
-
 description: The get_Count method retrieves the number of items in the collection.
 old-location: mstv\imsvidvideorendererdevices_get_count.htm
 tech.root: mstv
 ms.assetid: 4308ed6a-b9c4-46f3-98eb-be23cd49c7dc
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererDevices interface [Microsoft TV Technologies],get_Count method, IMSVidVideoRendererDevices.get_Count, IMSVidVideoRendererDevices::get_Count, IMSVidVideoRendererDevicesget_Count, get_Count, get_Count method [Microsoft TV Technologies], get_Count method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, mstv.imsvidvideorendererdevices_get_count, segment/IMSVidVideoRendererDevices::get_Count
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRendererDevices.get_Count"
+f1_keywords:
+- segment/IMSVidVideoRendererDevices.get_Count
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRendererDevices.get_Count
+- IMSVidVideoRendererDevices.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

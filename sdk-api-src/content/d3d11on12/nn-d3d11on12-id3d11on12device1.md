@@ -4,10 +4,10 @@ title: ID3D11On12Device1 (d3d11on12.h)
 ms.date: 02/25/2019
 ms.keywords: ID3D11On12Device1
 ms.topic: language-reference
-f1_keywords: 
- - "d3d11on12/ID3D11On12Device1"
+f1_keywords:
+- d3d11on12/ID3D11On12Device1
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -23,13 +23,13 @@ req.target-min-winversvr: Windows Server 2016 [desktop apps | UWP apps]
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d11on12.h
+- d3d11on12.h
 api_name:
- - ID3D11On12Device1
+- ID3D11On12Device1
 ---
 
 ## -description

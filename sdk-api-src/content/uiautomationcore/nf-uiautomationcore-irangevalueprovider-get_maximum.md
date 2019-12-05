@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_Maximum
 title: IRangeValueProvider::get_Maximum (uiautomationcore.h)
-
 description: Specifies the maximum range value supported by the control.
 old-location: winauto\uiauto_IRangeValueProvider_Maximum.htm
 tech.root: WinAuto
 ms.assetid: a681b992-c3db-497a-ae38-df62f9016ba6
-
-ms.date: 12/04/2019
+ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],Maximum property, IRangeValueProvider.Maximum, IRangeValueProvider.get_Maximum, IRangeValueProvider::Maximum, IRangeValueProvider::get_Maximum, Maximum property [Windows Accessibility], Maximum property [Windows Accessibility],IRangeValueProvider interface, get_Maximum, uiauto.uiauto_IRangeValueProvider_Maximum, uiauto_IRangeValueProvider_Maximum, uiautomationcore/IRangeValueProvider::Maximum, uiautomationcore/IRangeValueProvider::get_Maximum, winauto.uiauto_IRangeValueProvider_Maximum
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRangeValueProvider.Maximum"
+f1_keywords:
+- uiautomationcore/IRangeValueProvider.Maximum
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IRangeValueProvider.Maximum
- - IRangeValueProvider.get_Maximum
+- IRangeValueProvider.Maximum
+- IRangeValueProvider.get_Maximum
 targetos: Windows
 req.typenames: 
 req.redist: 
@@ -59,7 +57,7 @@ This property is read-only.
 
 ## -remarks
 
-This value should be larger than [Minimum](nf-uiautomationcore-irangevalueprovider-get_minimum.md), with the upper limit defined by the UI framework.
+This value should be larger than [Minimum](nf-uiautomationcore-irangevalueprovider-get_minimum.md).
 
 ## -see-also
 

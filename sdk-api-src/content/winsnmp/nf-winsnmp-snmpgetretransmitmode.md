@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpGetRetransmitMode
 title: SnmpGetRetransmitMode function (winsnmp.h)
-
 description: The WinSNMP SnmpGetRetransmitMode function returns the current setting of the retransmission mode to a WinSNMP application.
 old-location: snmp\snmpgetretransmitmode.htm
 tech.root: SNMP
 ms.assetid: 8df40980-56e2-485f-87e0-42878b320e4e
-
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpGetRetransmitMode, SnmpGetRetransmitMode function [SNMP], _snmp_snmpgetretransmitmode, snmp.snmpgetretransmitmode, winsnmp/SnmpGetRetransmitMode
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpGetRetransmitMode"
+f1_keywords:
+- winsnmp/SnmpGetRetransmitMode
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpGetRetransmitMode
+- SnmpGetRetransmitMode
 targetos: Windows
 req.typenames: 
 req.redist: 

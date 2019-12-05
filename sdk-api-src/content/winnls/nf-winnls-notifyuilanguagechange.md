@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.NotifyUILanguageChange
 title: NotifyUILanguageChange function (winnls.h)
-
 description: Unsupported. NotifyUILanguageChange may be altered or unavailable.
 old-location: intl\notifyuilanguagechange.htm
 tech.root: Intl
 ms.assetid: DA75201D-38F9-470E-BA04-9135C5CE169F
-
 ms.date: 12/05/2018
 ms.keywords: NotifyUILanguageChange, NotifyUILanguageChange function [Internationalization for Windows Applications], intl.notifyuilanguagechange, winnls/NotifyUILanguageChange
 ms.topic: function
-f1_keywords: 
- - "winnls/NotifyUILanguageChange"
+f1_keywords:
+- winnls/NotifyUILanguageChange
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Ext-MS-Win-Kernel32-localization-l1-1-0.dll
+- Kernel32.dll
+- Ext-MS-Win-Kernel32-localization-l1-1-0.dll
 api_name:
- - NotifyUILanguageChange
+- NotifyUILanguageChange
 targetos: Windows
 req.typenames: 
 req.redist: 

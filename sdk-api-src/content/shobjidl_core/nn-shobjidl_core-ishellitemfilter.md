@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellItemFilter
 title: IShellItemFilter (shobjidl_core.h)
-
 description: Exposed by a client to specify how to filter the enumeration of a Shell item by a server application.
 old-location: shell\IShellItemFilter.htm
 tech.root: shell
 ms.assetid: c2873385-a25d-4d9d-94ef-05dcdf284be1
-
 ms.date: 12/05/2018
 ms.keywords: IShellItemFilter, IShellItemFilter interface [Windows Shell], IShellItemFilter interface [Windows Shell],described, _shell_IShellItemFilter, shell.IShellItemFilter, shobjidl_core/IShellItemFilter
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellItemFilter"
+f1_keywords:
+- shobjidl_core/IShellItemFilter
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemFilter
+- IShellItemFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ContextInfo.GetTransactionId
 title: ContextInfo::GetTransactionId (comsvcs.h)
-
 description: Retrieves the transaction identifier associated with the object context. Objects in the same transaction share the same transaction identifier.
 old-location: cos\contextinfo_gettransactionid.htm
 tech.root: cossdk
 ms.assetid: 9eb77a13-14f0-4d45-a6de-4ae28d6bcac4
-
 ms.date: 12/05/2018
 ms.keywords: ContextInfo interface [COM+],GetTransactionId method, ContextInfo.GetTransactionId, ContextInfo::GetTransactionId, GetTransactionId, GetTransactionId method [COM+], GetTransactionId method [COM+],ContextInfo interface, _cos_ContextInfo_GetTransactionId, comsvcs/ContextInfo::GetTransactionId, cos.contextinfo_gettransactionid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ContextInfo.GetTransactionId"
+f1_keywords:
+- comsvcs/ContextInfo.GetTransactionId
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ContextInfo.GetTransactionId
+- ContextInfo.GetTransactionId
 targetos: Windows
 req.typenames: 
 req.redist: 

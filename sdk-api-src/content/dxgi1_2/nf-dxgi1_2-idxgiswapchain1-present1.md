@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.Present1
 title: IDXGISwapChain1::Present1 (dxgi1_2.h)
-
 description: Presents a frame on the display screen.
 old-location: direct3ddxgi\idxgiswapchain1_present1.htm
 tech.root: direct3ddxgi
 ms.assetid: F795A719-71BA-4A25-B41A-9D93F96B6CA4
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],Present1 method, IDXGISwapChain1.Present1, IDXGISwapChain1::Present1, Present1, Present1 method [DXGI], Present1 method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_present1, dxgi1_2/IDXGISwapChain1::Present1
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.Present1"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.Present1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.Present1
+- IDXGISwapChain1.Present1
 targetos: Windows
 req.typenames: 
 req.redist: 

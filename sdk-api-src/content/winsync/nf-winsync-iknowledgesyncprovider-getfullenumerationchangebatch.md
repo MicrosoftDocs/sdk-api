@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetFullEnumerationChangeBatch
 title: IKnowledgeSyncProvider::GetFullEnumerationChangeBatch (winsync.h)
-
 description: Gets a change batch that contains item metadata for items that have IDs greater than the specified lower bound, as part of a full enumeration.
 old-location: winsync\iknowledgesyncprovider_getfullenumerationchangebatch.htm
 tech.root: winsync
 ms.assetid: 344d0921-1e4e-4813-a095-8ae9ddf734f1
-
 ms.date: 12/05/2018
 ms.keywords: GetFullEnumerationChangeBatch, GetFullEnumerationChangeBatch method [Windows Sync], GetFullEnumerationChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetFullEnumerationChangeBatch method, IKnowledgeSyncProvider.GetFullEnumerationChangeBatch, IKnowledgeSyncProvider::GetFullEnumerationChangeBatch, winsync.iknowledgesyncprovider_getfullenumerationchangebatch, winsync/IKnowledgeSyncProvider::GetFullEnumerationChangeBatch
 ms.topic: method
-f1_keywords: 
- - "winsync/IKnowledgeSyncProvider.GetFullEnumerationChangeBatch"
+f1_keywords:
+- winsync/IKnowledgeSyncProvider.GetFullEnumerationChangeBatch
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IKnowledgeSyncProvider.GetFullEnumerationChangeBatch
+- IKnowledgeSyncProvider.GetFullEnumerationChangeBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

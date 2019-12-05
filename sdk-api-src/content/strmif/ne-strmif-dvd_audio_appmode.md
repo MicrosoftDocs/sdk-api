@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_APPMODE
 title: DVD_AUDIO_APPMODE (strmif.h)
-
 description: Indicates the current audio mode as retrieved in a call to IDvdInfo2::GetAudioAttributes.
 old-location: dshow\dvd_audio_appmode.htm
 tech.root: DirectShow
 ms.assetid: 900fd812-7ca0-4dd8-bb30-3c8eff136939
-
 ms.date: 12/05/2018
 ms.keywords: DVD_AUDIO_APPMODE, DVD_AUDIO_APPMODE , DVD_AUDIO_APPMODE enumeration [DirectShow], DVD_AUDIO_APPMODEEnumeration, DVD_AudioMode_Karaoke, DVD_AudioMode_None, DVD_AudioMode_Other, DVD_AudioMode_Surround, dshow.dvd_audio_appmode, strmif/DVD_AUDIO_APPMODE, strmif/DVD_AudioMode_Karaoke, strmif/DVD_AudioMode_None, strmif/DVD_AudioMode_Other, strmif/DVD_AudioMode_Surround
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_AUDIO_APPMODE"
+f1_keywords:
+- strmif/DVD_AUDIO_APPMODE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_AUDIO_APPMODE
+- DVD_AUDIO_APPMODE
 targetos: Windows
 req.typenames: DVD_AUDIO_APPMODE
 req.redist: 

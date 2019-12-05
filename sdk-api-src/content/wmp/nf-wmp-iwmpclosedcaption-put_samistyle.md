@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.put_SAMIStyle
 title: IWMPClosedCaption::put_SAMIStyle (wmp.h)
-
 description: The put_SAMIStyle method specifies the closed captioning style.
 old-location: wmp\iwmpclosedcaption_put_samistyle.htm
 tech.root: WMP
 ms.assetid: 8f9a4f6e-4596-4c4a-ade7-5b7e1b82b229
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],put_SAMIStyle method, IWMPClosedCaption.put_SAMIStyle, IWMPClosedCaption::put_SAMIStyle, IWMPClosedCaptionput_SAMIStyle, put_SAMIStyle, put_SAMIStyle method [Windows Media Player], put_SAMIStyle method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_put_samistyle, wmp/IWMPClosedCaption::put_SAMIStyle
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption.put_SAMIStyle"
+f1_keywords:
+- wmp/IWMPClosedCaption.put_SAMIStyle
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption.put_SAMIStyle
+- IWMPClosedCaption.put_SAMIStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

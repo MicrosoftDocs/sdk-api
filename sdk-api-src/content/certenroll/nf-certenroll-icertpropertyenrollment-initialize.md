@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.Initialize
 title: ICertPropertyEnrollment::Initialize (certenroll.h)
-
 description: Initializes the property from the certificate request ID, the certification authority (CA) configuration string, and an optional certificate display name.
 old-location: security\icertpropertyenrollment_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 47e9b11f-3f23-4e2f-817a-4b6311e3d710
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyEnrollment interface [Security],Initialize method, ICertPropertyEnrollment.Initialize, ICertPropertyEnrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyEnrollment interface, certenroll/ICertPropertyEnrollment::Initialize, security.icertpropertyenrollment_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollment.Initialize"
+f1_keywords:
+- certenroll/ICertPropertyEnrollment.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyEnrollment.Initialize
+- ICertPropertyEnrollment.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

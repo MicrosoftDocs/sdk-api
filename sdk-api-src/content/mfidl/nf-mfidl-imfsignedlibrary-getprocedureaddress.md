@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSignedLibrary.GetProcedureAddress
 title: IMFSignedLibrary::GetProcedureAddress (mfidl.h)
-
 description: Gets the procedure address of the specified function in the signed library.
 old-location: mf\imfsignedlibrary_getprocedureaddress.htm
 tech.root: medfound
 ms.assetid: d32678b0-422d-4fe8-9bbc-fc203a39fdd5
-
 ms.date: 12/05/2018
 ms.keywords: GetProcedureAddress, GetProcedureAddress method [Media Foundation], GetProcedureAddress method [Media Foundation],IMFSignedLibrary interface, IMFSignedLibrary interface [Media Foundation],GetProcedureAddress method, IMFSignedLibrary.GetProcedureAddress, IMFSignedLibrary::GetProcedureAddress, mf.imfsignedlibrary_getprocedureaddress, mfidl/IMFSignedLibrary::GetProcedureAddress
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSignedLibrary.GetProcedureAddress"
+f1_keywords:
+- mfidl/IMFSignedLibrary.GetProcedureAddress
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSignedLibrary.GetProcedureAddress
+- IMFSignedLibrary.GetProcedureAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

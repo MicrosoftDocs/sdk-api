@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIGetFromClipboard
 title: AVIGetFromClipboard function (vfw.h)
-
 description: The AVIGetFromClipboard function copies an AVI file from the clipboard.
 old-location: multimedia\avigetfromclipboard.htm
 tech.root: Multimedia
 ms.assetid: 17115441-8809-4fc2-9749-0e9d4c4f9cac
-
 ms.date: 12/05/2018
 ms.keywords: AVIGetFromClipboard, AVIGetFromClipboard function [Windows Multimedia], _win32_AVIGetFromClipboard, multimedia.avigetfromclipboard, vfw/AVIGetFromClipboard
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIGetFromClipboard"
+f1_keywords:
+- vfw/AVIGetFromClipboard
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIGetFromClipboard
+- AVIGetFromClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

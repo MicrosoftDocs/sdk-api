@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItem.SetTooltipString
 title: ITfSystemLangBarItem::SetTooltipString (ctfutb.h)
-
 description: ITfSystemLangBarItem::SetTooltipString method
 old-location: tsf\itfsystemlangbaritem_settooltipstring.htm
 tech.root: TSF
 ms.assetid: 6917fcd1-acce-4e5d-b04f-ee8ea69e71b4
-
 ms.date: 12/05/2018
 ms.keywords: ITfSystemLangBarItem interface [Text Services Framework],SetTooltipString method, ITfSystemLangBarItem.SetTooltipString, ITfSystemLangBarItem::SetTooltipString, SetTooltipString, SetTooltipString method [Text Services Framework], SetTooltipString method [Text Services Framework],ITfSystemLangBarItem interface, _tsf_itfsystemlangbaritem_settooltipstring_ref, ctfutb/ITfSystemLangBarItem::SetTooltipString, tsf.itfsystemlangbaritem_settooltipstring
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfSystemLangBarItem.SetTooltipString"
+f1_keywords:
+- ctfutb/ITfSystemLangBarItem.SetTooltipString
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfSystemLangBarItem.SetTooltipString
+- ITfSystemLangBarItem.SetTooltipString
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

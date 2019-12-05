@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMProximityDetection
 title: IWMProximityDetection (wmsdkidl.h)
-
 description: The IWMProximityDetection interface validates a playback device for receiving media data.
 old-location: wmformat\iwmproximitydetection.htm
 tech.root: wmformat
 ms.assetid: 0897ad8f-8e06-4de9-840e-1588e0e20c54
-
 ms.date: 12/05/2018
 ms.keywords: IWMProximityDetection, IWMProximityDetection interface [windows Media Format], IWMProximityDetection interface [windows Media Format],described, IWMProximityDetectionInterface, wmformat.iwmproximitydetection, wmsdkidl/IWMProximityDetection
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMProximityDetection"
+f1_keywords:
+- wmsdkidl/IWMProximityDetection
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMProximityDetection
+- IWMProximityDetection
 targetos: Windows
 req.typenames: 
 req.redist: 

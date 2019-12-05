@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertPropertyBackedUp
 title: ICertPropertyBackedUp (certenroll.h)
-
 description: Represents an external certificate property that identifies whether a certificate has been backed up and, if so, the date and time that it was saved.
 old-location: security\icertpropertybackedup.htm
 tech.root: seccertenroll
 ms.assetid: 9c694991-6f2d-420e-9f9f-5a36b10c39aa
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyBackedUp, ICertPropertyBackedUp interface [Security], ICertPropertyBackedUp interface [Security],described, certenroll/ICertPropertyBackedUp, security.icertpropertybackedup
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertPropertyBackedUp"
+f1_keywords:
+- certenroll/ICertPropertyBackedUp
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyBackedUp
+- ICertPropertyBackedUp
 targetos: Windows
 req.typenames: 
 req.redist: 

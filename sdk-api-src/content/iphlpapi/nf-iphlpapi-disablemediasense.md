@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.DisableMediaSense
 title: DisableMediaSense function (iphlpapi.h)
-
 description: The DisableMediaSense function disables the media sensing capability of the TCP/IP stack on a local computer.
 old-location: iphlp\disablemediasense.htm
 tech.root: IpHlp
 ms.assetid: ec845db8-d544-4291-8221-0fde82c2de27
-
 ms.date: 12/05/2018
 ms.keywords: DisableMediaSense, DisableMediaSense function [IP Helper], iphlp.disablemediasense, iphlpapi/DisableMediaSense
 ms.topic: function
 f1_keywords:
 - iphlpapi/DisableMediaSense
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

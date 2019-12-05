@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_free_controlsA
 title: ldap_free_controlsA function (winldap.h)
-
 description: Obsolete function which frees an array of LDAPControl structures.
 old-location: ldap\ldap_free_controls.htm
 tech.root: ldap
 ms.assetid: 0c663189-5aa7-4dad-b265-c9af873bf576
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_free_controls, ldap.ldap__free__controls, ldap.ldap_free_controls, ldap_free_controls, ldap_free_controls function [LDAP], ldap_free_controlsA, ldap_free_controlsW, winldap/ldap_free_controls, winldap/ldap_free_controlsA, winldap/ldap_free_controlsW"
+ms.keywords: _ldap_ldap_free_controls, ldap.ldap__free__controls, ldap.ldap_free_controls, ldap_free_controls, ldap_free_controls function [LDAP], ldap_free_controlsA, ldap_free_controlsW, winldap/ldap_free_controls, winldap/ldap_free_controlsA, winldap/ldap_free_controlsW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_free_controls"
+f1_keywords:
+- winldap/ldap_free_controls
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_free_controls
- - ldap_free_controlsA
- - ldap_free_controlsW
+- ldap_free_controls
+- ldap_free_controlsA
+- ldap_free_controlsW
 targetos: Windows
 req.typenames: 
 req.redist: 

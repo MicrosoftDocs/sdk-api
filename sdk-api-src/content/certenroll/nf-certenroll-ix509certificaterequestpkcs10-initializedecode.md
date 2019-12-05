@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeDecode
 title: IX509CertificateRequestPkcs10::InitializeDecode (certenroll.h)
-
-description: Decodes an existing signed or unsigned PKCS #10 certificate request and uses it to initialize the new PKCS #10 request object.
+description: Decodes an existing signed or unsigned PKCS
 old-location: security\ix509certificaterequestpkcs10_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: 10ab62c3-9c6f-4e1b-8a86-131d08282d9c
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],InitializeDecode method, IX509CertificateRequestPkcs10.InitializeDecode, IX509CertificateRequestPkcs10::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::InitializeDecode, security.ix509certificaterequestpkcs10_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.InitializeDecode"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.InitializeDecode
+- IX509CertificateRequestPkcs10.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

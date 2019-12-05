@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataCopier.Open
 title: ISpatialAudioMetadataCopier::Open (spatialaudiometadata.h)
-
 description: Opens an ISpatialAudioMetadataItems object for copying.
 old-location: coreaudio\ispatialaudiometadatacopier_open.htm
 tech.root: CoreAudio
 ms.assetid: F2D077EF-89B0-4BD6-85FB-F0AF63F1986D
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioMetadataCopier interface [Core Audio],Open method, ISpatialAudioMetadataCopier.Open, ISpatialAudioMetadataCopier::Open, Open, Open method [Core Audio], Open method [Core Audio],ISpatialAudioMetadataCopier interface, coreaudio.ispatialaudiometadatacopier_open, spatialaudiometadata/ISpatialAudioMetadataCopier::Open
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataCopier.Open"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataCopier.Open
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataCopier.Open
+- ISpatialAudioMetadataCopier.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

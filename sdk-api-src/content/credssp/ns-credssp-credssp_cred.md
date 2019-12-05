@@ -1,19 +1,17 @@
 ---
 UID: NS:credssp._CREDSSP_CRED
 title: CREDSSP_CRED (credssp.h)
-
 description: Specifies authentication data for both Schannel and Negotiate security packages.
 old-location: security\credssp_cred.htm
 tech.root: SecAuthN
 ms.assetid: b22bd22c-e6e1-4817-b5cf-ab49f574e75f
-
 ms.date: 12/05/2018
-ms.keywords: "*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], PCREDSSP_CRED, PCREDSSP_CRED structure pointer [Security], credssp/CREDSSP_CRED, credssp/PCREDSSP_CRED, security.credssp_cred"
+ms.keywords: '*PCREDSSP_CRED, CREDSSP_CRED, CREDSSP_CRED structure [Security], PCREDSSP_CRED, PCREDSSP_CRED structure pointer [Security], credssp/CREDSSP_CRED, credssp/PCREDSSP_CRED, security.credssp_cred'
 ms.topic: struct
-f1_keywords: 
- - "credssp/CREDSSP_CRED"
+f1_keywords:
+- credssp/CREDSSP_CRED
 dev_langs:
- - c++
+- c++
 req.header: credssp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credssp.h
+- Credssp.h
 api_name:
- - CREDSSP_CRED
+- CREDSSP_CRED
 targetos: Windows
 req.typenames: CREDSSP_CRED, *PCREDSSP_CRED
 req.redist: 

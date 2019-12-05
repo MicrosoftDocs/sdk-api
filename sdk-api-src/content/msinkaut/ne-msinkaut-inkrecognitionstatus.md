@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkRecognitionStatus
 title: InkRecognitionStatus (msinkaut.h)
-
 description: Specifies whether an error occurred during recognition and, if so, which error occurred.
 old-location: tablet\inkrecognitionstatus.htm
 tech.root: tablet
 ms.assetid: d6ff29a8-d100-4bfe-848b-941367d8b2dd
-
 ms.date: 12/05/2018
 ms.keywords: IRS_InkAddedFailed, IRS_Interrupted, IRS_NoError, IRS_ProcessFailed, IRS_SetAutoCompletionModeFailed, IRS_SetFactoidFailed, IRS_SetFlagsFailed, IRS_SetGuideFailed, IRS_SetPrefixSuffixFailed, IRS_SetStrokesFailed, IRS_SetWordListFailed, InkRecognitionStatus, InkRecognitionStatus enumeration [Tablet PC], d6ff29a8-d100-4bfe-848b-941367d8b2dd, msinkaut/IRS_InkAddedFailed, msinkaut/IRS_Interrupted, msinkaut/IRS_NoError, msinkaut/IRS_ProcessFailed, msinkaut/IRS_SetAutoCompletionModeFailed, msinkaut/IRS_SetFactoidFailed, msinkaut/IRS_SetFlagsFailed, msinkaut/IRS_SetGuideFailed, msinkaut/IRS_SetPrefixSuffixFailed, msinkaut/IRS_SetStrokesFailed, msinkaut/IRS_SetWordListFailed, msinkaut/InkRecognitionStatus, tablet.inkrecognitionstatus
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkRecognitionStatus"
+f1_keywords:
+- msinkaut/InkRecognitionStatus
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkRecognitionStatus
+- InkRecognitionStatus
 targetos: Windows
 req.typenames: InkRecognitionStatus
 req.redist: 

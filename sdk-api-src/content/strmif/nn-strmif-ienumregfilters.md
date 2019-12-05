@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IEnumRegFilters
 title: IEnumRegFilters (strmif.h)
-
 description: Note  This interface has been deprecated.
 old-location: dshow\ienumregfilters.htm
 tech.root: DirectShow
 ms.assetid: 59cb809d-84f5-42c4-a385-0f586af4d048
-
 ms.date: 12/05/2018
 ms.keywords: IEnumRegFilters, IEnumRegFilters interface [DirectShow], IEnumRegFilters interface [DirectShow],described, IEnumRegFiltersInterface, dshow.ienumregfilters, strmif/IEnumRegFilters
 ms.topic: interface
-f1_keywords: 
- - "strmif/IEnumRegFilters"
+f1_keywords:
+- strmif/IEnumRegFilters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IEnumRegFilters
+- IEnumRegFilters
 targetos: Windows
 req.typenames: 
 req.redist: 

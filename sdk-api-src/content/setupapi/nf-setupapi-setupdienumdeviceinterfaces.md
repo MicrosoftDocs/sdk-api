@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiEnumDeviceInterfaces
 title: SetupDiEnumDeviceInterfaces function (setupapi.h)
-
 description: The SetupDiEnumDeviceInterfaces function enumerates the device interfaces that are contained in a device information set.
 old-location: devinst\setupdienumdeviceinterfaces.htm
 tech.root: devinst
 ms.assetid: 5095404d-2447-407e-99e2-dd3ef3c3b905
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiEnumDeviceInterfaces, SetupDiEnumDeviceInterfaces function [Device and Driver Installation], devinst.setupdienumdeviceinterfaces, di-rtns_1fd59eb7-0934-4747-9a0e-81dac96c23ef.xml, setupapi/SetupDiEnumDeviceInterfaces
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiEnumDeviceInterfaces
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

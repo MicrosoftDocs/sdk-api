@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSession.CreateUpdateSearcher
 title: IUpdateSession::CreateUpdateSearcher (wuapi.h)
-
 description: Returns an IUpdateSearcher interface for this session.
 old-location: wua\iupdatesession_createupdatesearcher.htm
 tech.root: Wua_Sdk
 ms.assetid: 7e7a4aa9-7952-4080-9ac0-9544f959475f
-
 ms.date: 12/05/2018
 ms.keywords: CreateUpdateSearcher, CreateUpdateSearcher method [Windows Update Agent], CreateUpdateSearcher method [Windows Update Agent],IUpdateSession interface, IUpdateSession interface [Windows Update Agent],CreateUpdateSearcher method, IUpdateSession.CreateUpdateSearcher, IUpdateSession::CreateUpdateSearcher, wua.iupdatesession_createupdatesearcher, wuapi/IUpdateSession::CreateUpdateSearcher
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSession.CreateUpdateSearcher"
+f1_keywords:
+- wuapi/IUpdateSession.CreateUpdateSearcher
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSession.CreateUpdateSearcher
+- IUpdateSession.CreateUpdateSearcher
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.IdnToNameprepUnicode
 title: IdnToNameprepUnicode function (winnls.h)
-
 description: Converts an internationalized domain name (IDN) or another internationalized label to the NamePrep form specified by Network Working Group RFC 3491, but does not perform the additional conversion to Punycode.
 old-location: intl\idntonameprepunicode.htm
 tech.root: Intl
 ms.assetid: 25790685-9797-4cde-a530-94793b1245a0
-
 ms.date: 12/05/2018
 ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationalization for Windows Applications], _win32_IdnToNameprepUnicode, intl.idntonameprepunicode, winnls/IdnToNameprepUnicode
 ms.topic: function
-f1_keywords: 
- - "winnls/IdnToNameprepUnicode"
+f1_keywords:
+- winnls/IdnToNameprepUnicode
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Normaliz.lib
 req.dll: Normaliz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Normaliz.dll
- - API-MS-Win-Core-normalization-l1-1-0.dll
- - KernelBase.dll
+- Normaliz.dll
+- API-MS-Win-Core-normalization-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - IdnToNameprepUnicode
+- IdnToNameprepUnicode
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft Internationalized Domain Name (IDN) Mitigation APIs onWindows XP with SP2 and later, orWindows Server 2003 with SP1

@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AdviseVisualTreeChange
 title: IVisualTreeService::AdviseVisualTreeChange (xamlom.h)
-
 description: Starts listening for changes to the visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice_advisevisualtreechange.htm
 tech.root: xaml_diagnostics
 ms.assetid: 83971154-4E40-474C-91AD-2436B1D02CB8
-
 ms.date: 12/05/2018
 ms.keywords: AdviseVisualTreeChange, AdviseVisualTreeChange method, AdviseVisualTreeChange method,IVisualTreeService interface, IVisualTreeService interface,AdviseVisualTreeChange method, IVisualTreeService.AdviseVisualTreeChange, IVisualTreeService::AdviseVisualTreeChange, xaml_diagnostics.ivisualtreeservice_advisevisualtreechange, xamlom/IVisualTreeService::AdviseVisualTreeChange
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService.AdviseVisualTreeChange"
+f1_keywords:
+- xamlom/IVisualTreeService.AdviseVisualTreeChange
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService.AdviseVisualTreeChange
+- IVisualTreeService.AdviseVisualTreeChange
 targetos: Windows
 req.typenames: 
 req.redist: 

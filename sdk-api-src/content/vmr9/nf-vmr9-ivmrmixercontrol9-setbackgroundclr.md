@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRMixerControl9.SetBackgroundClr
 title: IVMRMixerControl9::SetBackgroundClr (vmr9.h)
-
 description: The SetBackgroundClr method sets the background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol9_setbackgroundclr.htm
 tech.root: DirectShow
 ms.assetid: fed7f4bb-519c-4e02-be99-065b9131e57c
-
 ms.date: 12/05/2018
 ms.keywords: IVMRMixerControl9 interface [DirectShow],SetBackgroundClr method, IVMRMixerControl9.SetBackgroundClr, IVMRMixerControl9::SetBackgroundClr, IVMRMixerControl9SetBackgroundClr, SetBackgroundClr, SetBackgroundClr method [DirectShow], SetBackgroundClr method [DirectShow],IVMRMixerControl9 interface, dshow.ivmrmixercontrol9_setbackgroundclr, vmr9/IVMRMixerControl9::SetBackgroundClr
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMixerControl9.SetBackgroundClr"
+f1_keywords:
+- vmr9/IVMRMixerControl9.SetBackgroundClr
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl9.SetBackgroundClr
+- IVMRMixerControl9.SetBackgroundClr
 targetos: Windows
 req.typenames: 
 req.redist: 

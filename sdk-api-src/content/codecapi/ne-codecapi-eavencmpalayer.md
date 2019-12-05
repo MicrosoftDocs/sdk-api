@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncMPALayer
 title: eAVEncMPALayer (codecapi.h)
-
 description: Specifies the MPEG audio layer. This enumeration is used with the AVEncMPALayer property.
 old-location: dshow\eavencmpalayer.htm
 tech.root: DirectShow
 ms.assetid: dbe5c4ac-15c8-443b-a344-a9d529ed841f
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncMPALayer, codecapi/eAVEncMPALayer_1, codecapi/eAVEncMPALayer_2, codecapi/eAVEncMPALayer_3, dshow.eavencmpalayer, eAVEncMPALayer, eAVEncMPALayer enumeration [DirectShow], eAVEncMPALayerEnumeration, eAVEncMPALayer_1, eAVEncMPALayer_2, eAVEncMPALayer_3
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncMPALayer"
+f1_keywords:
+- codecapi/eAVEncMPALayer
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncMPALayer
+- eAVEncMPALayer
 targetos: Windows
 req.typenames: 
 req.redist: 

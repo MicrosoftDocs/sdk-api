@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICEnumMetadataItem
 title: IWICEnumMetadataItem (wincodec.h)
-
 description: Exposes methods that provide enumeration services for individual metadata items.
 old-location: wic\_wic_codec_iwicenummetadataitem.htm
 tech.root: wic
 ms.assetid: 4fe0e47f-9ef4-4aa1-a3ae-578b3759f9ef
-
 ms.date: 12/05/2018
 ms.keywords: IWICEnumMetadataItem, IWICEnumMetadataItem interface [Windows Imaging Component], IWICEnumMetadataItem interface [Windows Imaging Component],described, _wic_codec_iwicenummetadataitem, wic._wic_codec_iwicenummetadataitem, wincodec/IWICEnumMetadataItem
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICEnumMetadataItem"
+f1_keywords:
+- wincodec/IWICEnumMetadataItem
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICEnumMetadataItem
+- IWICEnumMetadataItem
 targetos: Windows
 req.typenames: 
 req.redist: 

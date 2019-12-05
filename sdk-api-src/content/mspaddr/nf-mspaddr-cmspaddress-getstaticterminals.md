@@ -1,19 +1,17 @@
 ---
 UID: NF:mspaddr.CMSPAddress.GetStaticTerminals
 title: CMSPAddress::GetStaticTerminals (mspaddr.h)
-
 description: The GetStaticTerminals method is called by our wrapper methods ( get_StaticTerminals and EnumerateStaticTerminals) to get an array of static terminals that can be used on this address.
 old-location: tapi3\cmspaddress_getstaticterminals.htm
 tech.root: Tapi
 ms.assetid: 8fffc00d-a783-47bc-a081-fe2116060da0
-
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],GetStaticTerminals method, CMSPAddress.GetStaticTerminals, CMSPAddress::GetStaticTerminals, GetStaticTerminals, GetStaticTerminals method [TAPI 2.2], GetStaticTerminals method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_getstaticterminals, mspaddr/CMSPAddress::GetStaticTerminals, tapi3.cmspaddress_getstaticterminals
 ms.topic: method
-f1_keywords: 
- - "mspaddr/CMSPAddress.GetStaticTerminals"
+f1_keywords:
+- mspaddr/CMSPAddress.GetStaticTerminals
 dev_langs:
- - c++
+- c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspaddr.h
+- Mspaddr.h
 api_name:
- - CMSPAddress.GetStaticTerminals
+- CMSPAddress.GetStaticTerminals
 targetos: Windows
 req.typenames: 
 req.redist: 

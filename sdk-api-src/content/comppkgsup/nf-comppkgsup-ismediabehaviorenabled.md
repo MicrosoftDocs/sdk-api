@@ -1,19 +1,17 @@
 ---
 UID: NF:comppkgsup.IsMediaBehaviorEnabled
 title: IsMediaBehaviorEnabled function (comppkgsup.h)
-
 description: Gets a value indicating whether the media behavior associated with the specified GUID is enabled.
 old-location: winprog\ismediabehaviorenabled.htm
 tech.root: DevNotes
 ms.assetid: 6D1F52E3-3AC0-4270-8931-53D8687A10C7
-
 ms.date: 12/05/2018
 ms.keywords: IsMediaBehaviorEnabled, IsMediaBehaviorEnabled function [Windows API], comppkgsup/IsMediaBehaviorEnabled, winprog.ismediabehaviorenabled
 ms.topic: function
-f1_keywords: 
- - "comppkgsup/IsMediaBehaviorEnabled"
+f1_keywords:
+- comppkgsup/IsMediaBehaviorEnabled
 dev_langs:
- - c++
+- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CompPkgSup.dll
+- CompPkgSup.dll
 api_name:
- - IsMediaBehaviorEnabled
+- IsMediaBehaviorEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

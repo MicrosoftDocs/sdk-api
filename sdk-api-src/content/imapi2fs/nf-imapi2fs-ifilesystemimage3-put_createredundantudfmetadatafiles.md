@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage3.put_CreateRedundantUdfMetadataFiles
 title: IFileSystemImage3::put_CreateRedundantUdfMetadataFiles (imapi2fs.h)
-
 description: Sets the property that specifies if the UDF Metadata will be redundant in the file system image.
 old-location: imapi\ifilesystemimage3_put_createredundantudfmetadatafiles.htm
 tech.root: imapi
 ms.assetid: 594ef77e-57be-4ef0-9eba-3e6fc0340f6e
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage3 interface [IMAPI],put_CreateRedundantUdfMetadataFiles method, IFileSystemImage3.put_CreateRedundantUdfMetadataFiles, IFileSystemImage3::put_CreateRedundantUdfMetadataFiles, imapi.ifilesystemimage3_put_createredundantudfmetadatafiles, imapi2fs/IFileSystemImage3::put_CreateRedundantUdfMetadataFiles, put_CreateRedundantUdfMetadataFiles, put_CreateRedundantUdfMetadataFiles method [IMAPI], put_CreateRedundantUdfMetadataFiles method [IMAPI],IFileSystemImage3 interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage3.put_CreateRedundantUdfMetadataFiles"
+f1_keywords:
+- imapi2fs/IFileSystemImage3.put_CreateRedundantUdfMetadataFiles
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage3.put_CreateRedundantUdfMetadataFiles
+- IFileSystemImage3.put_CreateRedundantUdfMetadataFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

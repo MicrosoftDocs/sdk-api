@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_SizeAllocated
 title: IFsrmPropertyBag::get_SizeAllocated (fsrmpipeline.h)
-
 description: The allocation size of the file.
 old-location: fsrm\ifsrmpropertybag_sizeallocated.htm
 tech.root: fsrm
 ms.assetid: d1ec946b-2769-4e0d-b01c-08ef6032df16
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPropertyBag interface [File Server Resource Manager],SizeAllocated property, IFsrmPropertyBag.SizeAllocated, IFsrmPropertyBag.get_SizeAllocated, IFsrmPropertyBag::SizeAllocated, IFsrmPropertyBag::get_SizeAllocated, SizeAllocated property [File Server Resource Manager], SizeAllocated property [File Server Resource Manager],IFsrmPropertyBag interface, fs.ifsrmpropertybag_sizeallocated, fsrm.ifsrmpropertybag_sizeallocated, fsrmpipeline/IFsrmPropertyBag::SizeAllocated, fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated, get_SizeAllocated
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPropertyBag.SizeAllocated"
+f1_keywords:
+- fsrmpipeline/IFsrmPropertyBag.SizeAllocated
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPropertyBag.SizeAllocated
- - IFsrmPropertyBag.get_SizeAllocated
+- IFsrmPropertyBag.SizeAllocated
+- IFsrmPropertyBag.get_SizeAllocated
 targetos: Windows
 req.typenames: 
 req.redist: 

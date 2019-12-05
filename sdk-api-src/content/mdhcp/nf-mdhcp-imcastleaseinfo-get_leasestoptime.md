@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_LeaseStopTime
 title: IMcastLeaseInfo::get_LeaseStopTime (mdhcp.h)
-
 description: The get_LeaseStopTime method obtains the stop time of the lease.
 old-location: tapi3\imcastleaseinfo_get_leasestoptime.htm
 tech.root: Tapi
 ms.assetid: b2b99329-b176-4e5d-afb1-754c418e843a
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_LeaseStopTime method, IMcastLeaseInfo.get_LeaseStopTime, IMcastLeaseInfo::get_LeaseStopTime, _tapi3_imcastleaseinfo_get_leasestoptime, get_LeaseStopTime, get_LeaseStopTime method [TAPI 2.2], get_LeaseStopTime method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_LeaseStopTime, tapi3.imcastleaseinfo_get_leasestoptime
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo.get_LeaseStopTime"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo.get_LeaseStopTime
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_LeaseStopTime
+- IMcastLeaseInfo.get_LeaseStopTime
 targetos: Windows
 req.typenames: 
 req.redist: 

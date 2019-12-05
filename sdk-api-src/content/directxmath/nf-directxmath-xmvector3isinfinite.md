@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3IsInfinite
 title: XMVector3IsInfinite function (directxmath.h)
-
 description: Tests whether any component of a 3D vector is positive or negative infinity.
 old-location: dxmath\xmvector3isinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3IsInfinite(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3IsInfinite, XMVector3IsInfinite, XMVector3IsInfinite method [DirectX Math Support APIs], dxmath.xmvector3isinfinite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3IsInfinite"
+f1_keywords:
+- directxmath/XMVector3IsInfinite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3IsInfinite
+- XMVector3IsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

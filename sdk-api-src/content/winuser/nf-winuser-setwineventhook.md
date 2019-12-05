@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetWinEventHook
 title: SetWinEventHook function (winuser.h)
-
 description: Sets an event hook function for a range of events.
 old-location: winauto\setwineventhook.htm
 tech.root: WinAuto
 ms.assetid: 090bda1b-0635-4aa3-ae33-3987b36e30b8
-
 ms.date: 12/05/2018
 ms.keywords: SetWinEventHook, SetWinEventHook function [Windows Accessibility], WINEVENT_INCONTEXT, WINEVENT_OUTOFCONTEXT, WINEVENT_SKIPOWNPROCESS, WINEVENT_SKIPOWNTHREAD, _msaa_SetWinEventHook, msaa.setwineventhook, winauto.setwineventhook, winuser/SetWinEventHook
 ms.topic: function
-f1_keywords: 
- - "winuser/SetWinEventHook"
+f1_keywords:
+- winuser/SetWinEventHook
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
- - minuser.dll
+- user32.dll
+- API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
+- minuser.dll
 api_name:
- - SetWinEventHook
+- SetWinEventHook
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

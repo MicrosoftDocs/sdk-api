@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DrawFocusRect
 title: DrawFocusRect function (winuser.h)
-
 description: The DrawFocusRect function draws a rectangle in the style used to indicate that the rectangle has the focus.
 old-location: gdi\drawfocusrect.htm
 tech.root: gdi
 ms.assetid: a910d04f-fe4d-4fc9-a518-abac864da6f3
-
 ms.date: 12/05/2018
 ms.keywords: DrawFocusRect, DrawFocusRect function [Windows GDI], _win32_DrawFocusRect, gdi.drawfocusrect, winuser/DrawFocusRect
 ms.topic: function
-f1_keywords: 
- - "winuser/DrawFocusRect"
+f1_keywords:
+- winuser/DrawFocusRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - DrawFocusRect
+- DrawFocusRect
 targetos: Windows
 req.typenames: 
 req.redist: 

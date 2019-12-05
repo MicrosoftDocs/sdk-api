@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngUnmapFontFile
 title: EngUnmapFontFile function (winddi.h)
-
 description: The EngUnmapFontFile function is obsolete. Use EngUnmapFontFileFD instead.
 old-location: display\engunmapfontfile.htm
 tech.root: display
 ms.assetid: 0fc34dfe-fbe8-4bee-8766-4b1db9b5ccfa
-
 ms.date: 12/05/2018
 ms.keywords: EngUnmapFontFile, EngUnmapFontFile function [Display Devices], display.engunmapfontfile, gdifncs_8e66998b-e7dd-4ccb-b388-9b5faf4a64f4.xml, winddi/EngUnmapFontFile
 ms.topic: function
-f1_keywords: 
- - "winddi/EngUnmapFontFile"
+f1_keywords:
+- winddi/EngUnmapFontFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngUnmapFontFile
+- EngUnmapFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

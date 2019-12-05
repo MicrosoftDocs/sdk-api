@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_ROUNDED_RECT
 title: D2D1_ROUNDED_RECT (d2d1.h)
-
 description: Contains the dimensions and corner radii of a rounded rectangle.
 old-location: direct2d\D2D1_ROUNDED_RECT.htm
 tech.root: Direct2D
 ms.assetid: 7069ca65-170e-42fc-8c1a-849a2f25c36f
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_ROUNDED_RECT, D2D1_ROUNDED_RECT structure [Direct2D], d2d1/D2D1_ROUNDED_RECT, direct2d.D2D1_ROUNDED_RECT
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_ROUNDED_RECT"
+f1_keywords:
+- d2d1/D2D1_ROUNDED_RECT
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_ROUNDED_RECT
+- D2D1_ROUNDED_RECT
 targetos: Windows
 req.typenames: D2D1_ROUNDED_RECT
 req.redist: 

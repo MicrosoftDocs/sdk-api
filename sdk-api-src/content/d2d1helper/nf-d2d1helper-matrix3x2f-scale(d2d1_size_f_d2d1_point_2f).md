@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Scale(D2D1_SIZE_F,D2D1_POINT_2F)
 title: Matrix3x2F::Scale (d2d1helper.h)
-
 description: Creates a scale transformation that has the specified scale factors and center point.
 old-location: direct2d\matrix3x2f_scale_d2d1_size_f_d2d1_point_2f_.htm
 tech.root: Direct2D
 ms.assetid: c2aa64eb-c69a-4938-91de-1541f1c7844f
-
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Scale, D2D1::Matrix3x2F::Scale, Matrix3x2F class [Direct2D],Scale method, Matrix3x2F.Scale, Matrix3x2F::Scale, Matrix3x2F::Scale(D2D1_SIZE_F,D2D1_POINT_2F), Scale, Scale method [Direct2D], Scale method [Direct2D],Matrix3x2F class, d2d1helper/Matrix3x2F::Scale, direct2d.matrix3x2f_scale_d2d1_size_f_d2d1_point_2f_
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/Matrix3x2F.Scale"
+f1_keywords:
+- d2d1helper/Matrix3x2F.Scale
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Matrix3x2F.Scale
+- Matrix3x2F.Scale
 targetos: Windows
 req.typenames: 
 req.redist: 

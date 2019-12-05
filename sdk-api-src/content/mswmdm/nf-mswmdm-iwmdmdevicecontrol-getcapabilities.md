@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceControl.GetCapabilities
 title: IWMDMDeviceControl::GetCapabilities (mswmdm.h)
-
 description: The GetCapabilities method retrieves the device capabilities to determine what operations the device can perform. The capabilities describe the methods of the device control that are supported by the media device.
 old-location: wmdm\iwmdmdevicecontrol_getcapabilities.htm
 tech.root: WMDM
 ms.assetid: 61d0e44c-f1be-4837-a773-48c6c5278fe0
-
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IWMDMDeviceControl interface, IWMDMDeviceControl interface [windows Media Device Manager],GetCapabilities method, IWMDMDeviceControl.GetCapabilities, IWMDMDeviceControl::GetCapabilities, IWMDMDeviceControlGetCapabilities, mswmdm/IWMDMDeviceControl::GetCapabilities, wmdm.iwmdmdevicecontrol_getcapabilities
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDeviceControl.GetCapabilities"
+f1_keywords:
+- mswmdm/IWMDMDeviceControl.GetCapabilities
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDeviceControl.GetCapabilities
+- IWMDMDeviceControl.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

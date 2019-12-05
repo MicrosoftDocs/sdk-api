@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbGetsA
 title: StringCbGetsA function (strsafe.h)
-
 description: Gets one line of text from stdin, up to and including the newline character ('\n').
 old-location: menurc\stringcbgets.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgets.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCbGets, StringCbGets function [Menus and Other Resources], StringCbGetsA, StringCbGetsW, _shell_StringCbGets, _shell_stringcbgets_cpp, menurc.stringcbgets, strsafe/StringCbGets, strsafe/StringCbGetsA, strsafe/StringCbGetsW, winui._shell_stringcbgets
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbGets"
+f1_keywords:
+- strsafe/StringCbGets
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbGets
- - StringCbGetsA
- - StringCbGetsW
+- StringCbGets
+- StringCbGetsA
+- StringCbGetsW
 targetos: Windows
 req.typenames: 
 req.redist: 

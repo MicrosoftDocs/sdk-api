@@ -1,19 +1,17 @@
 ---
 UID: NC:winuser.PROPENUMPROCW
 title: PROPENUMPROCW (winuser.h)
-
 description: An application-defined callback function used with the EnumProps function.
 old-location: winmsg\propenumproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\propenumproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: PropEnumProc, PropEnumProc callback, PropEnumProc callback function [Windows and Messages], PropEnumProcA, PropEnumProcW, _win32_PropEnumProc, _win32_propenumproc_cpp, winmsg.propenumproc, winui._win32_propenumproc, winuser/PropEnumProc, winuser/PropEnumProcA, winuser/PropEnumProcW
 ms.topic: callback
-f1_keywords: 
- - "winuser/PropEnumProc"
+f1_keywords:
+- winuser/PropEnumProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - PropEnumProc
- - PropEnumProcA
- - PropEnumProcW
+- PropEnumProc
+- PropEnumProcA
+- PropEnumProcW
 targetos: Windows
 req.typenames: 
 req.redist: 

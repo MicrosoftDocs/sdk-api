@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicAudioTerminal.get_Balance
 title: ITBasicAudioTerminal::get_Balance (tapi3if.h)
-
 description: The get_Balance method gets the balance. This method is not implemented for terminals shipped with TAPI 3.0 and higher.
 old-location: tapi3\itbasicaudioterminal_get_balance.htm
 tech.root: Tapi
 ms.assetid: 36aff613-6065-4d92-98e7-3e5b851bf544
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal interface [TAPI 2.2],get_Balance method, ITBasicAudioTerminal.get_Balance, ITBasicAudioTerminal::get_Balance, _tapi3_itbasicaudioterminal_get_balance, get_Balance, get_Balance method [TAPI 2.2], get_Balance method [TAPI 2.2],ITBasicAudioTerminal interface, tapi3.itbasicaudioterminal_get_balance, tapi3if/ITBasicAudioTerminal::get_Balance
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicAudioTerminal.get_Balance"
+f1_keywords:
+- tapi3if/ITBasicAudioTerminal.get_Balance
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicAudioTerminal.get_Balance
+- ITBasicAudioTerminal.get_Balance
 targetos: Windows
 req.typenames: 
 req.redist: 

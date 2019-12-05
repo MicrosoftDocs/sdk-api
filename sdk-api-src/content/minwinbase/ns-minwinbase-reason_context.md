@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._REASON_CONTEXT
 title: REASON_CONTEXT (minwinbase.h)
-
 description: Contains information about a power request. This structure is used by the PowerCreateRequest and SetWaitableTimerEx functions.
 old-location: base\reason_context.htm
 tech.root: power
 ms.assetid: 006bb84f-5e51-4f6e-8a44-6b50e763c5ca
-
 ms.date: 12/05/2018
-ms.keywords: "*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQUEST_CONTEXT_SIMPLE_STRING, PREASON_CONTEXT, PREASON_CONTEXT structure pointer, REASON_CONTEXT, REASON_CONTEXT structure, base.reason_context, minwinbase/PREASON_CONTEXT, minwinbase/REASON_CONTEXT, winbase/PREASON_CONTEXT, winbase/REASON_CONTEXT"
+ms.keywords: '*PREASON_CONTEXT, POWER_REQUEST_CONTEXT_DETAILED_STRING, POWER_REQUEST_CONTEXT_SIMPLE_STRING, PREASON_CONTEXT, PREASON_CONTEXT structure pointer, REASON_CONTEXT, REASON_CONTEXT structure, base.reason_context, minwinbase/PREASON_CONTEXT, minwinbase/REASON_CONTEXT, winbase/PREASON_CONTEXT, winbase/REASON_CONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/REASON_CONTEXT"
+f1_keywords:
+- minwinbase/REASON_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MinWinBase.h
- - WinBase.h
+- MinWinBase.h
+- WinBase.h
 api_name:
- - REASON_CONTEXT
+- REASON_CONTEXT
 targetos: Windows
 req.typenames: REASON_CONTEXT, *PREASON_CONTEXT
 req.redist: 

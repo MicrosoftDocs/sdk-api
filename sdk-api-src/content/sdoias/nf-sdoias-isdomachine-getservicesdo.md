@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoMachine.GetServiceSDO
 title: ISdoMachine::GetServiceSDO (sdoias.h)
-
 description: The GetServiceSDO method retrieves a Server Data Object (SDO) for the specified service.
 old-location: nps\SDO_isdomachine_getservicesdo.htm
 tech.root: Nps
 ms.assetid: 265f034a-78be-4792-958e-80ad7a71d1a7
-
 ms.date: 12/05/2018
 ms.keywords: IAS, RemoteAccess, GetServiceSDO, GetServiceSDO method [Network Policy Server], GetServiceSDO method [Network Policy Server],ISdoMachine interface, GetServiceSDO method [Network Policy Server],SdoMachine object, ISdoMachine interface [Network Policy Server],GetServiceSDO method, ISdoMachine.GetServiceSDO, ISdoMachine::GetServiceSDO, SdoMachine object [Network Policy Server],GetServiceSDO method, _sdo_isdomachine_getservicesdo, nps.SDO_isdomachine_getservicesdo, sdo.isdomachine_getservicesdo, sdoias/ISdoMachine::GetServiceSDO
 ms.topic: method
 f1_keywords:
 - sdoias/ISdoMachine.GetServiceSDO
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

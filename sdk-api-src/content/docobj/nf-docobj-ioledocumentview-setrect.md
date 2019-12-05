@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetRect
 title: IOleDocumentView::SetRect (docobj.h)
-
 description: Sets the rectangular coordinates of the viewport in which the view is to be activated or resets the coordinates of the viewport in which a view is currently activated.
 old-location: com\ioledocumentview_setrect.htm
 tech.root: com
 ms.assetid: 994eddef-65e6-4ccd-92e7-1e76a7c11681
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetRect method, IOleDocumentView.SetRect, IOleDocumentView::SetRect, SetRect, SetRect method [COM], SetRect method [COM],IOleDocumentView interface, _ole_ioledocumentview_setrect, com.ioledocumentview_setrect, docobj/IOleDocumentView::SetRect
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.SetRect"
+f1_keywords:
+- docobj/IOleDocumentView.SetRect
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.SetRect
+- IOleDocumentView.SetRect
 targetos: Windows
 req.typenames: 
 req.redist: 

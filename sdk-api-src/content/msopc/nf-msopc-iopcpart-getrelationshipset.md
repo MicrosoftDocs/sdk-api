@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPart.GetRelationshipSet
 title: IOpcPart::GetRelationshipSet (msopc.h)
-
 description: Gets a relationship set object that represents the Relationships part that stores relationships that have the part as their source.
 old-location: opc\iopcpart_getrelationshipset.htm
 tech.root: OPC
 ms.assetid: a8a8ce1f-3420-457f-b02a-5dc3e9725a02
-
 ms.date: 12/05/2018
 ms.keywords: GetRelationshipSet, GetRelationshipSet method [Open Packaging Conventions], GetRelationshipSet method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetRelationshipSet method, IOpcPart.GetRelationshipSet, IOpcPart::GetRelationshipSet, msopc/IOpcPart::GetRelationshipSet, opc.iopcpart_getrelationshipset
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPart.GetRelationshipSet"
+f1_keywords:
+- msopc/IOpcPart.GetRelationshipSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPart.GetRelationshipSet
+- IOpcPart.GetRelationshipSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._IASOSTYPE
 title: IASOSTYPE (sdoias.h)
-
 description: The values of the IASOSTYPE enumeration type specify what type of operating system the client requesting authentication (SDO computer) is running.
 old-location: nps\SDO_iasostype.htm
 tech.root: Nps
 ms.assetid: 83a3d4cf-e0ab-467a-8c5a-b7372c76cca3
-
 ms.date: 12/05/2018
-ms.keywords: "*PIASOSTYPE, IASOSTYPE, IASOSTYPE enumeration [Network Policy Server], PIASOSTYPE, PIASOSTYPE enumeration pointer [Network Policy Server], SYSTEM_TYPE_NT4_SERVER, SYSTEM_TYPE_NT4_WORKSTATION, SYSTEM_TYPE_NT5_SERVER, SYSTEM_TYPE_NT5_WORKSTATION, SYSTEM_TYPE_NT6_SERVER, SYSTEM_TYPE_NT6_WORKSTATION, _sdo_iasostype, nps.SDO_iasostype, sdo.iasostype, sdoias/IASOSTYPE, sdoias/PIASOSTYPE, sdoias/SYSTEM_TYPE_NT4_SERVER, sdoias/SYSTEM_TYPE_NT4_WORKSTATION, sdoias/SYSTEM_TYPE_NT5_SERVER, sdoias/SYSTEM_TYPE_NT5_WORKSTATION, sdoias/SYSTEM_TYPE_NT6_SERVER, sdoias/SYSTEM_TYPE_NT6_WORKSTATION"
+ms.keywords: '*PIASOSTYPE, IASOSTYPE, IASOSTYPE enumeration [Network Policy Server], PIASOSTYPE, PIASOSTYPE enumeration pointer [Network Policy Server], SYSTEM_TYPE_NT4_SERVER, SYSTEM_TYPE_NT4_WORKSTATION, SYSTEM_TYPE_NT5_SERVER, SYSTEM_TYPE_NT5_WORKSTATION, SYSTEM_TYPE_NT6_SERVER, SYSTEM_TYPE_NT6_WORKSTATION, _sdo_iasostype, nps.SDO_iasostype, sdo.iasostype, sdoias/IASOSTYPE, sdoias/PIASOSTYPE, sdoias/SYSTEM_TYPE_NT4_SERVER, sdoias/SYSTEM_TYPE_NT4_WORKSTATION, sdoias/SYSTEM_TYPE_NT5_SERVER, sdoias/SYSTEM_TYPE_NT5_WORKSTATION, sdoias/SYSTEM_TYPE_NT6_SERVER, sdoias/SYSTEM_TYPE_NT6_WORKSTATION'
 ms.topic: enum
-f1_keywords: 
- - "sdoias/IASOSTYPE"
+f1_keywords:
+- sdoias/IASOSTYPE
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - IASOSTYPE
+- IASOSTYPE
 targetos: Windows
 req.typenames: IASOSTYPE, *PIASOSTYPE
 req.redist: 

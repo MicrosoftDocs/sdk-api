@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilTerminateServiceProcessFromResDll
 title: ResUtilTerminateServiceProcessFromResDll function (resapi.h)
-
 description: Attempts to terminate the process of a service being managed as a cluster resource by a resource DLL. The PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL type defines a pointer to this function.
 old-location: mscs\resutilterminateserviceprocessfromresdll.htm
 tech.root: MsCS
 ms.assetid: 8ac3bd90-a717-479c-b976-9ef536853ffe
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL function [Failover Cluster], ResUtilTerminateServiceProcessFromResDll, ResUtilTerminateServiceProcessFromResDll function [Failover Cluster], _wolf_resutilterminateserviceprocessfromresdll, mscs.resutilterminateserviceprocessfromresdll, resapi/PRESUTIL_TERMINATE_SERVICE_PROCESS_FROM_RES_DLL, resapi/ResUtilTerminateServiceProcessFromResDll
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilTerminateServiceProcessFromResDll"
+f1_keywords:
+- resapi/ResUtilTerminateServiceProcessFromResDll
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilTerminateServiceProcessFromResDll
+- ResUtilTerminateServiceProcessFromResDll
 targetos: Windows
 req.typenames: 
 req.redist: 

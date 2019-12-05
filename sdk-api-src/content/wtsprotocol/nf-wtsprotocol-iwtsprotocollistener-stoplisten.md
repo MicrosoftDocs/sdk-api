@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListener.StopListen
 title: IWTSProtocolListener::StopListen (wtsprotocol.h)
-
 description: IWTSProtocolListener::StopListen is no longer available. Instead, use IWRdsProtocolListener::StopListen.
 old-location: termserv\iwtsprotocollistener_stoplisten.htm
 tech.root: TermServ
 ms.assetid: 5c5b09d3-74d6-4067-b18b-ed2a54af4153
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListener interface [Remote Desktop Services],StopListen method, IWTSProtocolListener.StopListen, IWTSProtocolListener::StopListen, StopListen, StopListen method [Remote Desktop Services], StopListen method [Remote Desktop Services],IWTSProtocolListener interface, termserv.iwtsprotocollistener_stoplisten, wtsprotocol/IWTSProtocolListener::StopListen
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolListener.StopListen"
+f1_keywords:
+- wtsprotocol/IWTSProtocolListener.StopListen
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolListener.StopListen
+- IWTSProtocolListener.StopListen
 targetos: Windows
 req.typenames: 
 req.redist: 

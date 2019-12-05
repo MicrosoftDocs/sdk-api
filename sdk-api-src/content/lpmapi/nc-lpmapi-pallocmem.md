@@ -1,19 +1,17 @@
 ---
 UID: NC:lpmapi.PALLOCMEM
 title: PALLOCMEM (lpmapi.h)
-
 description: The PALLOCMEM function is a memory allocation function provided by the PCM, used for allocating memory when returning policy information to the PCM.
 old-location: qos\pallocmem.htm
 tech.root: QOS
 ms.assetid: e7b38820-4a7e-4f17-a67d-b94caa9037f5
-
 ms.date: 12/05/2018
 ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
 ms.topic: callback
-f1_keywords: 
- - "lpmapi/PALLOCMEM"
+f1_keywords:
+- lpmapi/PALLOCMEM
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - PALLOCMEM
+- PALLOCMEM
 targetos: Windows
 req.typenames: 
 req.redist: 

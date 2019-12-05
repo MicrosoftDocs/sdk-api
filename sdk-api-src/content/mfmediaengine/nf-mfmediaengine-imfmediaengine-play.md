@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Play
 title: IMFMediaEngine::Play (mfmediaengine.h)
-
 description: Starts playback.
 old-location: mf\imfmediaengine_play.htm
 tech.root: medfound
 ms.assetid: 2D6083F5-734A-4350-8E54-56C79038389D
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Play method, IMFMediaEngine.Play, IMFMediaEngine::Play, Play, Play method [Media Foundation], Play method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_play, mfmediaengine/IMFMediaEngine::Play
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.Play"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.Play
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.Play
+- IMFMediaEngine.Play
 targetos: Windows
 req.typenames: 
 req.redist: 

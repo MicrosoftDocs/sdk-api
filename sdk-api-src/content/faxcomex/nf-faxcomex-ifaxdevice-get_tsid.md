@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_TSID
 title: IFaxDevice::get_TSID (faxcomex.h)
-
 description: The IFaxDevice::get_TSID property is a null-terminated string that contains the transmitting station identifier (TSID) for the device.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1c10.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevice interface [Fax Service],TSID property, IFaxDevice.TSID, IFaxDevice.get_TSID, IFaxDevice.put_TSID, IFaxDevice::TSID, IFaxDevice::get_TSID, IFaxDevice::put_TSID, TSID property [Fax Service], TSID property [Fax Service],IFaxDevice interface, _mfax_faxdevice.tsid, fax._mfax_faxdevice_cpp_mfax_faxdevice_tsid_cpp, fax._mfax_faxdevice_tsid, faxcomex/IFaxDevice::TSID, faxcomex/IFaxDevice::get_TSID, faxcomex/IFaxDevice::put_TSID, get_TSID
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevice.TSID"
+f1_keywords:
+- faxcomex/IFaxDevice.TSID
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevice.TSID
- - IFaxDevice.get_TSID
- - IFaxDevice.put_TSID
- - IFaxDevice.get_TSID
- - IFaxDevice.put_TSID
+- IFaxDevice.TSID
+- IFaxDevice.get_TSID
+- IFaxDevice.put_TSID
+- IFaxDevice.get_TSID
+- IFaxDevice.put_TSID
 targetos: Windows
 req.typenames: 
 req.redist: 

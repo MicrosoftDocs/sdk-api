@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhEnumObjectItemsA
 title: PdhEnumObjectItemsA function (pdh.h)
-
 description: Returns the specified object's counter and instance names that exist on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectItemsH function.
 old-location: perf\pdhenumobjectitems.htm
 tech.root: perfctrs
 ms.assetid: b3efdd31-44e6-47ff-bd0e-d31451c32818
-
 ms.date: 12/05/2018
 ms.keywords: PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjectItems, PdhEnumObjectItems function [Perf], PdhEnumObjectItemsA, PdhEnumObjectItemsW, _win32_pdhenumobjectitems, base.pdhenumobjectitems, pdh/PdhEnumObjectItems, pdh/PdhEnumObjectItemsA, pdh/PdhEnumObjectItemsW, perf.pdhenumobjectitems
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhEnumObjectItems"
+f1_keywords:
+- pdh/PdhEnumObjectItems
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhEnumObjectItems
- - PdhEnumObjectItemsA
- - PdhEnumObjectItemsW
+- PdhEnumObjectItems
+- PdhEnumObjectItemsA
+- PdhEnumObjectItemsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IETFilter.get_EvalRatObjOK
 title: IETFilter::get_EvalRatObjOK (encdec.h)
-
-description: "."
+description: .
 old-location: mstv\ietfilter_get_evalratobjok.htm
 tech.root: mstv
 ms.assetid: ac76a634-af8d-4cf7-aab5-9022ce79ff31
-
 ms.date: 12/05/2018
 ms.keywords: IETFilter interface [Microsoft TV Technologies],get_EvalRatObjOK method, IETFilter.get_EvalRatObjOK, IETFilter::get_EvalRatObjOK, IETFilterget_EvalRatObjOK, encdec/IETFilter::get_EvalRatObjOK, get_EvalRatObjOK, get_EvalRatObjOK method [Microsoft TV Technologies], get_EvalRatObjOK method [Microsoft TV Technologies],IETFilter interface, mstv.ietfilter_get_evalratobjok
 ms.topic: method
-f1_keywords: 
- - "encdec/IETFilter.get_EvalRatObjOK"
+f1_keywords:
+- encdec/IETFilter.get_EvalRatObjOK
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IETFilter.get_EvalRatObjOK
+- IETFilter.get_EvalRatObjOK
 targetos: Windows
 req.typenames: 
 req.redist: 

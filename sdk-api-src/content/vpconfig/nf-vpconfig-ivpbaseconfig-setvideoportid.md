@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetVideoPortID
 title: IVPBaseConfig::SetVideoPortID (vpconfig.h)
-
 description: The SetVideoPortID method specifies the ID of the hardware video port to use.
 old-location: dshow\ivpbaseconfig_setvideoportid.htm
 tech.root: DirectShow
 ms.assetid: 9be16349-b214-4441-8093-dfb0caa84507
-
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetVideoPortID method, IVPBaseConfig.SetVideoPortID, IVPBaseConfig::SetVideoPortID, IVPBaseConfigSetVideoPortID, SetVideoPortID, SetVideoPortID method [DirectShow], SetVideoPortID method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setvideoportid, vpconfig/IVPBaseConfig::SetVideoPortID
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.SetVideoPortID"
+f1_keywords:
+- vpconfig/IVPBaseConfig.SetVideoPortID
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.SetVideoPortID
+- IVPBaseConfig.SetVideoPortID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LocalLock
 title: LocalLock function (winbase.h)
-
 description: Locks a local memory object and returns a pointer to the first byte of the object's memory block.
 old-location: base\locallock.htm
 tech.root: Memory
 ms.assetid: a9432e28-9fbd-4a7e-8dce-fad3da04804a
-
 ms.date: 12/05/2018
 ms.keywords: LocalLock, LocalLock function, _win32_locallock, base.locallock, winbase/LocalLock
 ms.topic: function
-f1_keywords: 
- - "winbase/LocalLock"
+f1_keywords:
+- winbase/LocalLock
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-Ms-Win-Core-Heap-L2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-Ms-Win-Core-Heap-L2-1-0.dll
 api_name:
- - LocalLock
+- LocalLock
 targetos: Windows
 req.typenames: 
 req.redist: 

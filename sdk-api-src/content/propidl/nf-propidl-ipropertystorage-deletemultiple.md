@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.IPropertyStorage.DeleteMultiple
 title: IPropertyStorage::DeleteMultiple (propidl.h)
-
 description: The DeleteMultiple method deletes as many of the indicated properties as exist in this property set.
 old-location: stg\ipropertystorage_deletemultiple.htm
 tech.root: Stg
 ms.assetid: 95c218f1-2bf7-4946-ae9c-934e5916395a
-
 ms.date: 12/05/2018
 ms.keywords: DeleteMultiple, DeleteMultiple method [Structured Storage], DeleteMultiple method [Structured Storage],IPropertyStorage interface, IPropertyStorage [Strctd Stg],DeleteMultiple, IPropertyStorage interface [Structured Storage],DeleteMultiple method, IPropertyStorage.DeleteMultiple, IPropertyStorage::DeleteMultiple, _stg_ipropertystorage_deletemultiple, propidl/IPropertyStorage::DeleteMultiple, stg.ipropertystorage_deletemultiple
 ms.topic: method
-f1_keywords: 
- - "propidl/IPropertyStorage.DeleteMultiple"
+f1_keywords:
+- propidl/IPropertyStorage.DeleteMultiple
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage.DeleteMultiple
+- IPropertyStorage.DeleteMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnetwk.WNetCancelConnection2A
 title: WNetCancelConnection2A function (winnetwk.h)
-
 description: The WNetCancelConnection2 function cancels an existing network connection. You can also call the function to remove remembered network connections that are not currently connected.
 old-location: wnet\wnetcancelconnection2.htm
 tech.root: WNet
 ms.assetid: 8bb8222f-6ede-4bf4-a6e4-681560cce162
-
 ms.date: 12/05/2018
 ms.keywords: 0, CONNECT_UPDATE_PROFILE, WNetCancelConnection2, WNetCancelConnection2 function [Windows Networking (WNet)], WNetCancelConnection2A, WNetCancelConnection2W, _win32_wnetcancelconnection2, winnetwk/WNetCancelConnection2, winnetwk/WNetCancelConnection2A, winnetwk/WNetCancelConnection2W, wnet.wnetcancelconnection2
 ms.topic: function
-f1_keywords: 
- - "winnetwk/WNetCancelConnection2"
+f1_keywords:
+- winnetwk/WNetCancelConnection2
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Mpr.lib
 req.dll: Mpr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mpr.dll
+- Mpr.dll
 api_name:
- - WNetCancelConnection2
- - WNetCancelConnection2A
- - WNetCancelConnection2W
+- WNetCancelConnection2
+- WNetCancelConnection2A
+- WNetCancelConnection2W
 targetos: Windows
 req.typenames: 
 req.redist: 

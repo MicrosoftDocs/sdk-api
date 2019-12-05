@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsPropertyEntry
 title: IADsPropertyEntry (iads.h)
-
 description: The IADsPropertyEntry interface is used to manage a property entry in the property cache.
 old-location: adsi\iadspropertyentry.htm
 tech.root: adsi
 ms.assetid: 6c398d05-ac12-4c9a-b61a-70cd795c991f
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyEntry, IADsPropertyEntry interface [ADSI], IADsPropertyEntry interface [ADSI],described, PropertyEntry, _ds_iadspropertyentry, adsi.iadspropertyentry, iads/IADsPropertyEntry
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsPropertyEntry"
+f1_keywords:
+- iads/IADsPropertyEntry
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyEntry
- - PropertyEntry
+- IADsPropertyEntry
+- PropertyEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

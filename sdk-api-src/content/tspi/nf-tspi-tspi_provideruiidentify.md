@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_providerUIIdentify
 title: TSPI_providerUIIdentify function (tspi.h)
-
 description: The TSPI_providerUIIdentify function extracts from the service provider the fully qualified path to load the service provider's UI DLL component.
 old-location: tspi\tspi_provideruiidentify.htm
 tech.root: Tapi
 ms.assetid: 4ff4b695-8947-4ece-998c-6b443025c2d9
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerUIIdentify, TSPI_providerUIIdentify function [TAPI 2.2], _tspi_tspi_provideruiidentify, tspi.tspi_provideruiidentify, tspi/TSPI_providerUIIdentify
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_providerUIIdentify"
+f1_keywords:
+- tspi/TSPI_providerUIIdentify
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_providerUIIdentify
+- TSPI_providerUIIdentify
 targetos: Windows
 req.typenames: 
 req.redist: 

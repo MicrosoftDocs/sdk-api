@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.Extract
 title: IDataManager::Extract (pla.h)
-
 description: Extracts the specified CAB file.
 old-location: pla\idatamanager_extract.htm
 tech.root: PLA
 ms.assetid: 73f5ca4c-6e7d-491e-a977-d41b7b69ff8c
-
 ms.date: 12/05/2018
 ms.keywords: Extract, Extract method [PLA], Extract method [PLA],IDataManager interface, IDataManager interface [PLA],Extract method, IDataManager.Extract, IDataManager::Extract, pla.idatamanager_extract, pla/IDataManager::Extract
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.Extract"
+f1_keywords:
+- pla/IDataManager.Extract
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.Extract
+- IDataManager.Extract
 targetos: Windows
 req.typenames: 
 req.redist: 

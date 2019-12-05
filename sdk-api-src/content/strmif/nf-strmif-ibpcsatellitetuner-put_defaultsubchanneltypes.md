@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IBPCSatelliteTuner.put_DefaultSubChannelTypes
 title: IBPCSatelliteTuner::put_DefaultSubChannelTypes (strmif.h)
-
 description: Note  The IBPCSatelliteTuner interface is deprecated. Sets the default sub-channel types.
 old-location: dshow\ibpcsatellitetuner_put_defaultsubchanneltypes.htm
 tech.root: DirectShow
 ms.assetid: 90f73ca0-1d9a-4161-bc86-d69cc71e88c6
-
 ms.date: 12/05/2018
 ms.keywords: IBPCSatelliteTuner interface [DirectShow],put_DefaultSubChannelTypes method, IBPCSatelliteTuner.put_DefaultSubChannelTypes, IBPCSatelliteTuner::put_DefaultSubChannelTypes, IBPCSatelliteTunerput_DefaultSubChannelTypes, dshow.ibpcsatellitetuner_put_defaultsubchanneltypes, put_DefaultSubChannelTypes, put_DefaultSubChannelTypes method [DirectShow], put_DefaultSubChannelTypes method [DirectShow],IBPCSatelliteTuner interface, strmif/IBPCSatelliteTuner::put_DefaultSubChannelTypes
 ms.topic: method
-f1_keywords: 
- - "strmif/IBPCSatelliteTuner.put_DefaultSubChannelTypes"
+f1_keywords:
+- strmif/IBPCSatelliteTuner.put_DefaultSubChannelTypes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IBPCSatelliteTuner.put_DefaultSubChannelTypes
+- IBPCSatelliteTuner.put_DefaultSubChannelTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

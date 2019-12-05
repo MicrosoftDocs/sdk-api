@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetGammaCorrection
 title: LinearGradientBrush::GetGammaCorrection (gdiplusbrush.h)
-
 description: The LinearGradientBrush::GetGammaCorrection method determines whether gamma correction is enabled for this LinearGradientBrush object.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getgammacorrection.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetGammaCorrection, GetGammaCorrection method [GDI+], GetGammaCorrection method [GDI+],LinearGradientBrush class, LinearGradientBrush class [GDI+],GetGammaCorrection method, LinearGradientBrush.GetGammaCorrection, LinearGradientBrush::GetGammaCorrection, _gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_, gdiplus._gdiplus_CLASS_LinearGradientBrush_GetGammaCorrection_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush.GetGammaCorrection"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush.GetGammaCorrection
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - LinearGradientBrush.GetGammaCorrection
+- LinearGradientBrush.GetGammaCorrection
 targetos: Windows
 req.typenames: 
 req.redist: 

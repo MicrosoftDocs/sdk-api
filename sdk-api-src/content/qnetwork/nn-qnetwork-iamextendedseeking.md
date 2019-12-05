@@ -1,19 +1,17 @@
 ---
 UID: NN:qnetwork.IAMExtendedSeeking
 title: IAMExtendedSeeking (qnetwork.h)
-
 description: The IAMExtendedSeeking interface seeks to a marker in a Windows Media stream or changes the playback rate for a Windows Media file. This interface is implemented by the Windows Media Source filter and the WM ASF Reader filter.
 old-location: dshow\iamextendedseeking.htm
 tech.root: DirectShow
 ms.assetid: 9e0e49af-61ef-408c-8c26-bb29ab26a1f5
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtendedSeeking, IAMExtendedSeeking interface [DirectShow], IAMExtendedSeeking interface [DirectShow],described, IAMExtendedSeekingInterface, dshow.iamextendedseeking, qnetwork/IAMExtendedSeeking
 ms.topic: interface
-f1_keywords: 
- - "qnetwork/IAMExtendedSeeking"
+f1_keywords:
+- qnetwork/IAMExtendedSeeking
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMExtendedSeeking
+- IAMExtendedSeeking
 targetos: Windows
 req.typenames: 
 req.redist: 

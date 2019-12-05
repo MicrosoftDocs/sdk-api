@@ -1,19 +1,17 @@
 ---
 UID: NF:austream.IMemoryData.SetBuffer
 title: IMemoryData::SetBuffer (austream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Initializes a memory buffer with a pointer to memory and length.
 old-location: dshow\imemorydata_setbuffer.htm
 tech.root: DirectShow
 ms.assetid: d565b493-0ee6-4a10-9af3-ff9d9ba48ba8
-
 ms.date: 12/05/2018
 ms.keywords: IMemoryData interface [DirectShow],SetBuffer method, IMemoryData.SetBuffer, IMemoryData::SetBuffer, IMemoryDataSetBuffer, SetBuffer, SetBuffer method [DirectShow], SetBuffer method [DirectShow],IMemoryData interface, austream/IMemoryData::SetBuffer, dshow.imemorydata_setbuffer
 ms.topic: method
-f1_keywords: 
- - "austream/IMemoryData.SetBuffer"
+f1_keywords:
+- austream/IMemoryData.SetBuffer
 dev_langs:
- - c++
+- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - austream.h
+- austream.h
 api_name:
- - IMemoryData.SetBuffer
+- IMemoryData.SetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

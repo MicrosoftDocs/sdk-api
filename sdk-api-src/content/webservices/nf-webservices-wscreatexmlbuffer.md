@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCreateXmlBuffer
 title: WsCreateXmlBuffer function (webservices.h)
-
 description: Creates an XML Buffer which can be used to process XML data .
 old-location: wsw\wscreatexmlbuffer.htm
 tech.root: wsw
 ms.assetid: 4e122283-f285-4fff-b240-22e4a7476639
-
 ms.date: 12/05/2018
 ms.keywords: WsCreateXmlBuffer, WsCreateXmlBuffer function [Web Services for Windows], webservices/WsCreateXmlBuffer, wsw.wscreatexmlbuffer
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateXmlBuffer
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

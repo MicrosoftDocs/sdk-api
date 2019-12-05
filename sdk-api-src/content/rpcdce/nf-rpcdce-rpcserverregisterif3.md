@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIf3
 title: RpcServerRegisterIf3 function (rpcdce.h)
-
 description: The RpcServerRegisterIf3 function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterif3.htm
 tech.root: Rpc
 ms.assetid: D685B7A6-7E22-419F-B476-F0372836D16A
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterIf3, RpcServerRegisterIf3 function [RPC], rpc.rpcserverregisterif3, rpcdce/RpcServerRegisterIf3
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerRegisterIf3"
+f1_keywords:
+- rpcdce/RpcServerRegisterIf3
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerRegisterIf3
+- RpcServerRegisterIf3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagNetworkSoH
 title: NetworkSoH (naptypes.h)
-
 description: Defines the wire SoH protocol.
 old-location: nap\networksoh_struct.htm
 tech.root: NAP
 ms.assetid: 7b1d4563-4758-40d8-be6c-51533bbcb09e
-
 ms.date: 12/05/2018
 ms.keywords: NetworkSoH, NetworkSoH structure [NAP], NetworkSoHRequest, NetworkSoHRequest structure [NAP], NetworkSoHResponse, NetworkSoHResponse structure [NAP], nap.networksoh_struct, naptypes/NetworkSoH, naptypes/NetworkSoHRequest, naptypes/NetworkSoHResponse
 ms.topic: struct
-f1_keywords: 
- - "naptypes/NetworkSoH"
+f1_keywords:
+- naptypes/NetworkSoH
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - NetworkSoH
+- NetworkSoH
 targetos: Windows
 req.typenames: NetworkSoH, NetworkSoHRequest, NetworkSoHResponse
 req.redist: 

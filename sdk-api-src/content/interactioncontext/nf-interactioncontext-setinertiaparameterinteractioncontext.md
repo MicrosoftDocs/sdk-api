@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.SetInertiaParameterInteractionContext
 title: SetInertiaParameterInteractionContext function (interactioncontext.h)
-
 description: Configures the inertia behavior of a manipulation (translation, rotation, scaling) after the contact is lifted.
 old-location: input_intcontext\setinertiaparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 5b228339-3830-407f-a8ea-55f40156cc32
-
 ms.date: 12/05/2018
 ms.keywords: SetInertiaParameterInteractionContext, SetInertiaParameterInteractionContext function, input_intcontext.setinertiaparameterinteractioncontext, interactioncontext.setinertiaparameterinteractioncontext, interactioncontext/SetInertiaParameterInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/SetInertiaParameterInteractionContext"
+f1_keywords:
+- interactioncontext/SetInertiaParameterInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - SetInertiaParameterInteractionContext
+- SetInertiaParameterInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

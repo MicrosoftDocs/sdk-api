@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdate
 title: IMFSourceBufferNotify::OnUpdate (mfmediaengine.h)
-
 description: Used to indicate that the source buffer is updating.
 old-location: mf\imfsourcebuffernotify_onupdate.htm
 tech.root: medfound
 ms.assetid: 3c41f50f-7f0b-4676-9522-3866aedab047
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnUpdate method, IMFSourceBufferNotify.OnUpdate, IMFSourceBufferNotify::OnUpdate, OnUpdate, OnUpdate method [Media Foundation], OnUpdate method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onupdate, mfmediaengine/IMFSourceBufferNotify::OnUpdate
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBufferNotify.OnUpdate"
+f1_keywords:
+- mfmediaengine/IMFSourceBufferNotify.OnUpdate
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBufferNotify.OnUpdate
+- IMFSourceBufferNotify.OnUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

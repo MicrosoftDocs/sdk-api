@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.CreateBasicDeviceAsync
 title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
-
 description: Asynchronously creates an active basic device.
 old-location: mediastreaming\iactivebasicdevicestatics_createbasicdeviceasync.htm
 tech.root: mediastreaming
 ms.assetid: 52342B15-6250-4D46-9188-CC7AD98F09F7
-
 ms.date: 12/05/2018
 ms.keywords: CreateBasicDeviceAsync, CreateBasicDeviceAsync method [Media Streaming API], CreateBasicDeviceAsync method [Media Streaming API],IActiveBasicDeviceStatics interface, IActiveBasicDeviceStatics interface [Media Streaming API],CreateBasicDeviceAsync method, IActiveBasicDeviceStatics.CreateBasicDeviceAsync, IActiveBasicDeviceStatics.streaming, IActiveBasicDeviceStatics::CreateBasicDeviceAsync, IActiveBasicDeviceStatics::streaming, mediastreaming.iactivebasicdevicestatics_createbasicdeviceasync, windows/IActiveBasicDeviceStatics::CreateBasicDeviceAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IActiveBasicDeviceStatics.CreateBasicDeviceAsync"
+f1_keywords:
+- windows.media.streaming/IActiveBasicDeviceStatics.CreateBasicDeviceAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IActiveBasicDeviceStatics.CreateBasicDeviceAsync
+- IActiveBasicDeviceStatics.CreateBasicDeviceAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

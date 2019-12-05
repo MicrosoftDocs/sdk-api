@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmFilterDeleteByKey0
 title: FwpmFilterDeleteByKey0 function (fwpmu.h)
-
 description: Removes a filter object from the system.
 old-location: fwp\fwpmfilterdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: 75c0796c-84d0-4282-bc93-267a17dd3edc
-
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterDeleteByKey0, FwpmFilterDeleteByKey0 function [Filtering], fwp.fwpmfilterdeletebykey0_func, fwpmu/FwpmFilterDeleteByKey0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmFilterDeleteByKey0"
+f1_keywords:
+- fwpmu/FwpmFilterDeleteByKey0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmFilterDeleteByKey0
+- FwpmFilterDeleteByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumFeaturesA
 title: MsiEnumFeaturesA function (msi.h)
-
 description: The MsiEnumFeatures function enumerates the published features for a given product. This function retrieves one feature ID each time it is called.
 old-location: setup\msienumfeatures.htm
 tech.root: Msi
 ms.assetid: 0ac6fea4-cdc8-4799-9001-f9399b22e7a5
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnumFeatures, MsiEnumFeatures function, MsiEnumFeaturesA, MsiEnumFeaturesW, _msi_msienumfeatures, msi/MsiEnumFeatures, msi/MsiEnumFeaturesA, msi/MsiEnumFeaturesW, setup.msienumfeatures
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumFeatures"
+f1_keywords:
+- msi/MsiEnumFeatures
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumFeatures
- - MsiEnumFeaturesA
- - MsiEnumFeaturesW
+- MsiEnumFeatures
+- MsiEnumFeaturesA
+- MsiEnumFeaturesW
 targetos: Windows
 req.typenames: 
 req.redist: 

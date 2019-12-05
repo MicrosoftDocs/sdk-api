@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ParameterSetFT
 title: MI_ParameterSetFT (mi.h)
-
 description: A support structure used in the MI_ParameterSet structure. Use the functions with the name prefix MI_ParameterSet_ to manipulate these structures.
 old-location: wmi_v2\mi_parametersetft.htm
 tech.root: wmi_v2
 ms.assetid: 48e10e9c-8e50-4811-bd2a-1934d27373f0
-
 ms.date: 12/05/2018
 ms.keywords: MI_ParameterSetFT, MI_ParameterSetFT structure [Windows Management Infrastructure (MI)], mi/MI_ParameterSetFT, wmi_v2.mi_parametersetft
 ms.topic: struct
 f1_keywords:
 - mi/MI_ParameterSetFT
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

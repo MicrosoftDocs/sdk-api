@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTablets.Item
 title: IInkTablets::Item (msinkaut.h)
-
 description: Retrieves the IInkTablet object at the specified index within the InkTablets collection.
 old-location: tablet\inktablets_item.htm
 tech.root: tablet
 ms.assetid: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6
-
 ms.date: 12/05/2018
 ms.keywords: 02ead8bd-9f96-4862-b9b4-b1f3def1efa6, IInkTablets interface [Tablet PC],Item method, IInkTablets.Item, IInkTablets::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkTablets interface, msinkaut/IInkTablets::Item, tablet.inktablets_item
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTablets.Item"
+f1_keywords:
+- msinkaut/IInkTablets.Item
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablets.Item
+- IInkTablets.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

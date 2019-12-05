@@ -1,19 +1,17 @@
 ---
 UID: NN:commoncontrols.IImageList2
 title: IImageList2 (commoncontrols.h)
-
 description: Extends IImageList by providing additional methods for manipulating and interacting with image lists.
 old-location: controls\IImageList2.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\iimagelist2.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList2, IImageList2 interface [Windows Controls], IImageList2 interface [Windows Controls],described, _shell_IImageList2, _shell_IImageList2_cpp, commoncontrols/IImageList2, controls.IImageList2, controls._shell_IImageList2
 ms.topic: interface
-f1_keywords: 
- - "commoncontrols/IImageList2"
+f1_keywords:
+- commoncontrols/IImageList2
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Commoncontrols.h
+- Commoncontrols.h
 api_name:
- - IImageList2
+- IImageList2
 targetos: Windows
 req.typenames: 
 req.redist: 

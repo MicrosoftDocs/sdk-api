@@ -1,19 +1,17 @@
 ---
 UID: NN:certadm.IOCSPProperty
 title: IOCSPProperty (certadm.h)
-
 description: Represents a name-value pair for OCSPServiceProperties or ProviderProperties.
 old-location: security\iocspproperty.htm
 tech.root: SecCrypto
 ms.assetid: 854848f0-ea89-4c25-a8a5-40f1e4d229be
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPProperty, IOCSPProperty interface [Security], IOCSPProperty interface [Security],described, certadm/IOCSPProperty, security.iocspproperty
 ms.topic: interface
-f1_keywords: 
- - "certadm/IOCSPProperty"
+f1_keywords:
+- certadm/IOCSPProperty
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPProperty
+- IOCSPProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

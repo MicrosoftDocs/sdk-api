@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.TerminateConnection
 title: IRDPSRAPIAttendee::TerminateConnection (rdpencomapi.h)
-
 description: Disconnects the client represented by the attendee.
 old-location: rdp\irdpsrapiattendee_terminateconnection.htm
 tech.root: rdp
 ms.assetid: e666fdd4-7417-40ea-9643-d7df587294f2
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],TerminateConnection method, IRDPSRAPIAttendee.TerminateConnection, IRDPSRAPIAttendee::TerminateConnection, TerminateConnection, TerminateConnection method [RDP], TerminateConnection method [RDP],IRDPSRAPIAttendee interface, rdp.irdpsrapiattendee_terminateconnection, rdpencomapi/IRDPSRAPIAttendee::TerminateConnection
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendee.TerminateConnection"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendee.TerminateConnection
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.TerminateConnection
+- IRDPSRAPIAttendee.TerminateConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

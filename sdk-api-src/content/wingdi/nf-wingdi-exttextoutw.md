@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ExtTextOutW
 title: ExtTextOutW function (wingdi.h)
-
 description: The ExtTextOut function draws text using the currently selected font, background color, and text color. You can optionally provide dimensions to be used for clipping, opaquing, or both.
 old-location: gdi\exttextout.htm
 tech.root: gdi
 ms.assetid: 74f8fcb8-8ad4-47f2-a330-fa56713bdb37
-
 ms.date: 12/05/2018
 ms.keywords: ETO_CLIPPED, ETO_GLYPH_INDEX, ETO_IGNORELANGUAGE, ETO_NUMERICSLATIN, ETO_NUMERICSLOCAL, ETO_OPAQUE, ETO_PDY, ETO_RTLREADING, ExtTextOut, ExtTextOut function [Windows GDI], ExtTextOutA, ExtTextOutW, _win32_ExtTextOut, gdi.exttextout, wingdi/ExtTextOut, wingdi/ExtTextOutA, wingdi/ExtTextOutW
 ms.topic: function
-f1_keywords: 
- - "wingdi/ExtTextOut"
+f1_keywords:
+- wingdi/ExtTextOut
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - ExtTextOut
- - ExtTextOutA
- - ExtTextOutW
+- ExtTextOut
+- ExtTextOutA
+- ExtTextOutW
 targetos: Windows
 req.typenames: 
 req.redist: 

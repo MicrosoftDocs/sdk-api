@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IShellImageStore.GetEntry
 title: IShellImageStore::GetEntry (shlobj.h)
-
 description: Gets a handle to an image in the cache.
 old-location: shell\IShellImageStore_GetEntry.htm
 tech.root: shell
 ms.assetid: 580e2901-ae08-4c9f-99ee-7ba2f7fe6e52
-
 ms.date: 12/05/2018
 ms.keywords: GetEntry, GetEntry method [Windows Shell], GetEntry method [Windows Shell],IShellImageStore interface, IShellImageStore interface [Windows Shell],GetEntry method, IShellImageStore.GetEntry, IShellImageStore::GetEntry, _win32_IShellImageStore_GetEntry, shell.IShellImageStore_GetEntry, shlobj/IShellImageStore::GetEntry
 ms.topic: method
-f1_keywords: 
- - "shlobj/IShellImageStore.GetEntry"
+f1_keywords:
+- shlobj/IShellImageStore.GetEntry
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageStore.GetEntry
+- IShellImageStore.GetEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

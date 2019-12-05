@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectControl.Activate
 title: IObjectControl::Activate (comsvcs.h)
-
 description: Enables a COM+ object to perform context-specific initialization whenever it is activated.
 old-location: cos\iobjectcontrol_activate.htm
 tech.root: cossdk
 ms.assetid: 53bf55a2-0cfa-4612-bca7-c6693f84e18f
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [COM+], Activate method [COM+],IObjectControl interface, IObjectControl interface [COM+],Activate method, IObjectControl.Activate, IObjectControl::Activate, _cos_IObjectControl_Activate, comsvcs/IObjectControl::Activate, cos.iobjectcontrol_activate
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectControl.Activate"
+f1_keywords:
+- comsvcs/IObjectControl.Activate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectControl.Activate
+- IObjectControl.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

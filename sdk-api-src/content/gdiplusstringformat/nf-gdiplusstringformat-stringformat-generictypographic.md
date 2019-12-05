@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GenericTypographic
 title: StringFormat::GenericTypographic (gdiplusstringformat.h)
-
 description: The StringFormat::GenericTypographic method creates a generic, typographic StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GenericTypographic_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\generictypographic.htm
-
 ms.date: 12/05/2018
 ms.keywords: GenericTypographic, GenericTypographic method [GDI+], GenericTypographic method [GDI+],StringFormat class, StringFormat class [GDI+],GenericTypographic method, StringFormat.GenericTypographic, StringFormat::GenericTypographic, _gdiplus_CLASS_StringFormat_GenericTypographic_, gdiplus._gdiplus_CLASS_StringFormat_GenericTypographic_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GenericTypographic"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GenericTypographic
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GenericTypographic
+- StringFormat.GenericTypographic
 targetos: Windows
 req.typenames: 
 req.redist: 

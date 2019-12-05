@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_HEAP_TIER
 title: D3D12_RESOURCE_HEAP_TIER (d3d12.h)
-
 description: Specifies which resource heap tier the hardware and driver support.
 old-location: direct3d12\d3d12_resource_heap_tier.htm
 tech.root: direct3d12
 ms.assetid: 47C5B30C-BFFE-437A-878B-FE49F8EFFD02
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_HEAP_TIER, D3D12_RESOURCE_HEAP_TIER enumeration, D3D12_RESOURCE_HEAP_TIER_1, D3D12_RESOURCE_HEAP_TIER_2, d3d12/D3D12_RESOURCE_HEAP_TIER, d3d12/D3D12_RESOURCE_HEAP_TIER_1, d3d12/D3D12_RESOURCE_HEAP_TIER_2, direct3d12.d3d12_resource_heap_tier
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RESOURCE_HEAP_TIER"
+f1_keywords:
+- d3d12/D3D12_RESOURCE_HEAP_TIER
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_RESOURCE_HEAP_TIER
+- D3D12_RESOURCE_HEAP_TIER
 targetos: Windows
 req.typenames: D3D12_RESOURCE_HEAP_TIER
 req.redist: 

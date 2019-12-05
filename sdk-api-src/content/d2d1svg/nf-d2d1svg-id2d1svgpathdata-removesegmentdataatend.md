@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.RemoveSegmentDataAtEnd
 title: ID2D1SvgPathData::RemoveSegmentDataAtEnd (d2d1svg.h)
-
 description: Removes data from the end of the segment data array.
 old-location: direct2d\id2d1svgpathdata_removesegmentdataatend.htm
 tech.root: Direct2D
 ms.assetid: 549531A1-099D-477E-8D77-CF90BD75FAB8
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPathData interface [Direct2D],RemoveSegmentDataAtEnd method, ID2D1SvgPathData.RemoveSegmentDataAtEnd, ID2D1SvgPathData::RemoveSegmentDataAtEnd, RemoveSegmentDataAtEnd, RemoveSegmentDataAtEnd method [Direct2D], RemoveSegmentDataAtEnd method [Direct2D],ID2D1SvgPathData interface, d2d1svg/ID2D1SvgPathData::RemoveSegmentDataAtEnd, direct2d.id2d1svgpathdata_removesegmentdataatend
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgPathData.RemoveSegmentDataAtEnd"
+f1_keywords:
+- d2d1svg/ID2D1SvgPathData.RemoveSegmentDataAtEnd
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgPathData.RemoveSegmentDataAtEnd
+- ID2D1SvgPathData.RemoveSegmentDataAtEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

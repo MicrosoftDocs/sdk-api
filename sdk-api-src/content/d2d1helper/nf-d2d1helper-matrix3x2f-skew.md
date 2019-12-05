@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Skew
 title: Matrix3x2F::Skew (d2d1helper.h)
-
 description: Creates a skew transformation that has the specified x-axis and y-axis values and center point.
 old-location: direct2d\matrix3x2f_skew.htm
 tech.root: Direct2D
 ms.assetid: 7d53aaff-3a6f-4949-9835-a30027d247dd
-
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Skew, D2D1::Matrix3x2F::Skew, Matrix3x2F interface [Direct2D],Skew method, Matrix3x2F.Skew, Matrix3x2F::Skew, Skew, Skew method [Direct2D], Skew method [Direct2D],Matrix3x2F interface, d2d1helper/Matrix3x2F::Skew, direct2d.matrix3x2f_skew
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/Matrix3x2F.Skew"
+f1_keywords:
+- d2d1helper/Matrix3x2F.Skew
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Matrix3x2F.Skew
+- Matrix3x2F.Skew
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICRawToneCurve
 title: WICRawToneCurve (wincodec.h)
-
 description: Represents a raw image tone curve.
 old-location: wic\_wic_codec_wicrawtonecurve.htm
 tech.root: wic
 ms.assetid: 45eedc32-a642-4ef6-a02a-63eaeacf0012
-
 ms.date: 12/05/2018
 ms.keywords: WICRawToneCurve, WICRawToneCurve structure [Windows Imaging Component], _wic_codec_wicrawtonecurve, wic._wic_codec_wicrawtonecurve, wincodec/WICRawToneCurve
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICRawToneCurve"
+f1_keywords:
+- wincodec/WICRawToneCurve
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICRawToneCurve
+- WICRawToneCurve
 targetos: Windows
 req.typenames: WICRawToneCurve
 req.redist: 

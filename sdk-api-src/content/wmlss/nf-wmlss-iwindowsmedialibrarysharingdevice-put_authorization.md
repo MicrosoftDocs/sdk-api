@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.put_Authorization
 title: IWindowsMediaLibrarySharingDevice::put_Authorization (wmlss.h)
-
 description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.
 old-location: wmlss\IWMLSDeviceput_Authorization.htm
 tech.root: WMLSS
 ms.assetid: 26ac8f24-d212-4558-a66e-ffe5e90bd73b
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],put_Authorization method, IWindowsMediaLibrarySharingDevice.put_Authorization, IWindowsMediaLibrarySharingDevice::put_Authorization, put_Authorization, put_Authorization method [Windows Media Library Sharing Services], put_Authorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceput_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingDevice.put_Authorization"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingDevice.put_Authorization
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDevice.put_Authorization
+- IWindowsMediaLibrarySharingDevice.put_Authorization
 targetos: Windows
 req.typenames: 
 req.redist: 

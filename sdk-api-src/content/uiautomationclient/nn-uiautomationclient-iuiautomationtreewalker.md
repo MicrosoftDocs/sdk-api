@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTreeWalker
 title: IUIAutomationTreeWalker (uiautomationclient.h)
-
 description: Exposes properties and methods that UI Automation client applications use to view and navigate the UI Automation elements on the desktop.
 old-location: winauto\uiauto_IUIAutomationTreeWalker.htm
 tech.root: WinAuto
 ms.assetid: adb4afed-63b9-42b4-8a8d-673d4813bb52
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTreeWalker, IUIAutomationTreeWalker interface [Windows Accessibility], IUIAutomationTreeWalker interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTreeWalker, uiauto_IUIAutomationTreeWalker, uiautomationclient/IUIAutomationTreeWalker, winauto.uiauto_IUIAutomationTreeWalker
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTreeWalker"
+f1_keywords:
+- uiautomationclient/IUIAutomationTreeWalker
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTreeWalker
+- IUIAutomationTreeWalker
 targetos: Windows
 req.typenames: 
 req.redist: 

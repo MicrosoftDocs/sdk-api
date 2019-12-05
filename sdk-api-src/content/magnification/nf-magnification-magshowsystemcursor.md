@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagShowSystemCursor
 title: MagShowSystemCursor function (magnification.h)
-
 description: Shows or hides the system cursor.
 old-location: magapi\magapi_magshowsystemcursor.htm
 tech.root: magapi
 ms.assetid: 0C4D92D8-9B06-4592-A0FF-8AE4378E5641
-
 ms.date: 12/05/2018
 ms.keywords: MagShowSystemCursor, MagShowSystemCursor function [Magnification API], magapi.magapi_magshowsystemcursor, magnification/MagShowSystemCursor
 ms.topic: function
-f1_keywords: 
- - "magnification/MagShowSystemCursor"
+f1_keywords:
+- magnification/MagShowSystemCursor
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagShowSystemCursor
+- MagShowSystemCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

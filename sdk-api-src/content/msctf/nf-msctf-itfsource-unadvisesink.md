@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfSource.UnadviseSink
 title: ITfSource::UnadviseSink (msctf.h)
-
 description: ITfSource::UnadviseSink method
 old-location: tsf\itfsource_unadvisesink.htm
 tech.root: TSF
 ms.assetid: e5d40c6f-c8ab-4e53-94d0-a6b475ce7a84
-
 ms.date: 12/05/2018
 ms.keywords: ITfSource interface [Text Services Framework],UnadviseSink method, ITfSource.UnadviseSink, ITfSource::UnadviseSink, UnadviseSink, UnadviseSink method [Text Services Framework], UnadviseSink method [Text Services Framework],ITfSource interface, _tsf_itfsource_unadvisesink_ref, msctf/ITfSource::UnadviseSink, tsf.itfsource_unadvisesink
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfSource.UnadviseSink"
+f1_keywords:
+- msctf/ITfSource.UnadviseSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfSource.UnadviseSink
+- ITfSource.UnadviseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

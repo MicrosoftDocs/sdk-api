@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationLegacyIAccessiblePattern
 title: IUIAutomationLegacyIAccessiblePattern (uiautomationclient.h)
-
 description: Exposes methods and properties that enable Microsoft UI Automation clients to retrieve UI information from Microsoft Active Accessibility (MSAA) servers.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern.htm
 tech.root: WinAuto
 ms.assetid: d6564d14-a739-47bf-9202-0757ac3ba7f8
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility], IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern, uiauto_IUIAutomationLegacyIAccessiblePattern, uiautomationclient/IUIAutomationLegacyIAccessiblePattern, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationLegacyIAccessiblePattern
+- IUIAutomationLegacyIAccessiblePattern
 targetos: Windows
 req.typenames: 
 req.redist: 

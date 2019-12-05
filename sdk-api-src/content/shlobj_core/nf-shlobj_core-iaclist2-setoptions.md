@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IACList2.SetOptions
 title: IACList2::SetOptions (shlobj_core.h)
-
 description: Sets the current autocomplete options.
 old-location: shell\IACList2_SetOptions.htm
 tech.root: shell
 ms.assetid: 963428b3-408f-4bdd-b230-9e73f21247a7
-
 ms.date: 12/05/2018
 ms.keywords: ACLO_CURRENTDIR, ACLO_DESKTOP, ACLO_FAVORITES, ACLO_FILESYSDIRS, ACLO_FILESYSONLY, ACLO_MYCOMPUTER, ACLO_NONE, IACList2 interface [Windows Shell],SetOptions method, IACList2.SetOptions, IACList2::SetOptions, SetOptions, SetOptions method [Windows Shell], SetOptions method [Windows Shell],IACList2 interface, _win32_IACList2_SetOptions, shell.IACList2_SetOptions, shlobj_core/IACList2::SetOptions
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IACList2.SetOptions"
+f1_keywords:
+- shlobj_core/IACList2.SetOptions
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IACList2.SetOptions
+- IACList2.SetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

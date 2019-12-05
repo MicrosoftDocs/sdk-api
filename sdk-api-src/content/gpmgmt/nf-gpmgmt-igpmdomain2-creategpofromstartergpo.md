@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.CreateGPOFromStarterGPO
 title: IGPMDomain2::CreateGPOFromStarterGPO (gpmgmt.h)
-
 description: Creates and retrieves a GPMGPO object from a GPMStarterGPO object.
 old-location: gpmc\igpmdomain2_creategpofromstartergpo.htm
 tech.root: gpmc
 ms.assetid: 3a74f763-a9f5-4e93-94fb-7ef2a116c82b
-
 ms.date: 12/05/2018
 ms.keywords: CreateGPOFromStarterGPO, CreateGPOFromStarterGPO method [GPMC], CreateGPOFromStarterGPO method [GPMC],IGPMDomain2 interface, IGPMDomain2 interface [GPMC],CreateGPOFromStarterGPO method, IGPMDomain2.CreateGPOFromStarterGPO, IGPMDomain2::CreateGPOFromStarterGPO, gpmc.igpmdomain2_creategpofromstartergpo, gpmgmt/IGPMDomain2::CreateGPOFromStarterGPO
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain2.CreateGPOFromStarterGPO"
+f1_keywords:
+- gpmgmt/IGPMDomain2.CreateGPOFromStarterGPO
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMDomain2.CreateGPOFromStarterGPO
+- IGPMDomain2.CreateGPOFromStarterGPO
 targetos: Windows
 req.typenames: 
 req.redist: 

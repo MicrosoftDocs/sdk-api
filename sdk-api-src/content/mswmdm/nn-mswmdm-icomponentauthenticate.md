@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IComponentAuthenticate
 title: IComponentAuthenticate (mswmdm.h)
-
 description: The IComponentAuthenticate interface provides secure, encrypted communication between modules of Windows Media Device Manager.
 old-location: wmdm\icomponentauthenticate.htm
 tech.root: WMDM
 ms.assetid: 5da66dc2-825d-4332-b1cb-2b9d0fabb445
-
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate, IComponentAuthenticate interface [windows Media Device Manager], IComponentAuthenticate interface [windows Media Device Manager],described, IComponentAuthenticateInterface, mswmdm/IComponentAuthenticate, wmdm.icomponentauthenticate
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IComponentAuthenticate"
+f1_keywords:
+- mswmdm/IComponentAuthenticate
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IComponentAuthenticate
+- IComponentAuthenticate
 targetos: Windows
 req.typenames: 
 req.redist: 

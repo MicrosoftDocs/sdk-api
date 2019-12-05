@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetProfileBytes
 title: IWICColorContext::GetProfileBytes (wincodec.h)
-
 description: Retrieves the color context profile.
 old-location: wic\_wic_codec_iwiccolorcontext_getprofilebytes.htm
 tech.root: wic
 ms.assetid: 59427a49-ef68-4680-b6d8-4ffa2a1913b8
-
 ms.date: 12/05/2018
 ms.keywords: GetProfileBytes, GetProfileBytes method [Windows Imaging Component], GetProfileBytes method [Windows Imaging Component],IWICColorContext interface, IWICColorContext interface [Windows Imaging Component],GetProfileBytes method, IWICColorContext.GetProfileBytes, IWICColorContext::GetProfileBytes, _wic_codec_iwiccolorcontext_getprofilebytes, wic._wic_codec_iwiccolorcontext_getprofilebytes, wincodec/IWICColorContext::GetProfileBytes
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICColorContext.GetProfileBytes"
+f1_keywords:
+- wincodec/IWICColorContext.GetProfileBytes
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICColorContext.GetProfileBytes
+- IWICColorContext.GetProfileBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

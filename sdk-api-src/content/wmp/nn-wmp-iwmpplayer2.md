@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPPlayer2
 title: IWMPPlayer2 (wmp.h)
-
 description: The IWMPPlayer2 interface provides additional methods for modifying the basic behavior of the Windows Media Player control user interface.
 old-location: wmp\iwmpplayer2.htm
 tech.root: WMP
 ms.assetid: bf51d54d-d0aa-42ad-8180-d1f6487baac8
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2, IWMPPlayer2 interface [Windows Media Player], IWMPPlayer2 interface [Windows Media Player],described, IWMPPlayer2Interface, wmp.iwmpplayer2, wmp/IWMPPlayer2
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPPlayer2"
+f1_keywords:
+- wmp/IWMPPlayer2
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPPlayer2
+- IWMPPlayer2
 targetos: Windows
 req.typenames: 
 req.redist: 

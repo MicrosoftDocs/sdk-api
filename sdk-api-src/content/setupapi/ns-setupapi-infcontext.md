@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._INFCONTEXT
 title: INFCONTEXT (setupapi.h)
-
 description: The INFCONTEXT structure stores context information that functions such as SetupGetLineText use to navigate INF files.
 old-location: setup\infcontext_str.htm
 tech.root: SetupApi
 ms.assetid: 5b3d32a8-e651-4017-aaa7-b532ec47da53
-
 ms.date: 12/05/2018
-ms.keywords: "*PINFCONTEXT, INFCONTEXT, INFCONTEXT structure [Setup API], PINFCONTEXT, PINFCONTEXT structure pointer [Setup API], _setupapi_infcontext_str, setup.infcontext_str, setupapi/INFCONTEXT, setupapi/PINFCONTEXT"
+ms.keywords: '*PINFCONTEXT, INFCONTEXT, INFCONTEXT structure [Setup API], PINFCONTEXT, PINFCONTEXT structure pointer [Setup API], _setupapi_infcontext_str, setup.infcontext_str, setupapi/INFCONTEXT, setupapi/PINFCONTEXT'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/INFCONTEXT"
+f1_keywords:
+- setupapi/INFCONTEXT
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Setupapi.h
+- Setupapi.h
 api_name:
- - INFCONTEXT
+- INFCONTEXT
 targetos: Windows
 req.typenames: INFCONTEXT, *PINFCONTEXT
 req.redist: 

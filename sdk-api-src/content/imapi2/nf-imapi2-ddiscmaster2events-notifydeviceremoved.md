@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.DDiscMaster2Events.NotifyDeviceRemoved
 title: DDiscMaster2Events::NotifyDeviceRemoved (imapi2.h)
-
 description: Receives notification when an optical media device is removed from the computer.
 old-location: imapi\ddiscmaster2events_notifydeviceremoved.htm
 tech.root: imapi
 ms.assetid: 626096ba-f2d7-4a75-b04c-f95aad6915cc
-
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceRemoved method, DDiscMaster2Events.NotifyDeviceRemoved, DDiscMaster2Events::NotifyDeviceRemoved, NotifyDeviceRemoved, NotifyDeviceRemoved method [IMAPI], NotifyDeviceRemoved method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceremoved, imapi2/DDiscMaster2Events::NotifyDeviceRemoved
 ms.topic: method
-f1_keywords: 
- - "imapi2/DDiscMaster2Events.NotifyDeviceRemoved"
+f1_keywords:
+- imapi2/DDiscMaster2Events.NotifyDeviceRemoved
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - DDiscMaster2Events.NotifyDeviceRemoved
+- DDiscMaster2Events.NotifyDeviceRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

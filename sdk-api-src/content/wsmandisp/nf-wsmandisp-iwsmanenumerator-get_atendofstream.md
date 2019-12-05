@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.get_AtEndOfStream
 title: IWSManEnumerator::get_AtEndOfStream (wsmandisp.h)
-
 description: Indicates that the end of items in the IWSManEnumerator object has been reached by calls to IWSManEnumerator::ReadItem.
 old-location: winrm\iwsmanenumerator_atendofstream.htm
 tech.root: winrm
 ms.assetid: d80028b0-04ff-4c6d-90f5-1c81141a956c
-
 ms.date: 12/05/2018
 ms.keywords: AtEndOfStream property [Windows Remote Management], AtEndOfStream property [Windows Remote Management],IWSManEnumerator interface, IWSManEnumerator interface [Windows Remote Management],AtEndOfStream property, IWSManEnumerator.AtEndOfStream, IWSManEnumerator.get_AtEndOfStream, IWSManEnumerator::AtEndOfStream, IWSManEnumerator::get_AtEndOfStream, get_AtEndOfStream, winrm.iwsmanenumerator_atendofstream, wsmandisp/IWSManEnumerator::AtEndOfStream, wsmandisp/IWSManEnumerator::get_AtEndOfStream
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEnumerator.AtEndOfStream"
+f1_keywords:
+- wsmandisp/IWSManEnumerator.AtEndOfStream
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEnumerator.AtEndOfStream
- - IWSManEnumerator.get_AtEndOfStream
+- IWSManEnumerator.AtEndOfStream
+- IWSManEnumerator.get_AtEndOfStream
 targetos: Windows
 req.typenames: 
 req.redist: 

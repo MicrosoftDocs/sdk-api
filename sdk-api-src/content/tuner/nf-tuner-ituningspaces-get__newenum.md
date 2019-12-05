@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaces.get__NewEnum
 title: ITuningSpaces::get__NewEnum (tuner.h)
-
 description: The get__NewEnum method returns an enumerator for the collection.
 old-location: mstv\ituningspaces_get__newenum.htm
 tech.root: mstv
 ms.assetid: 9f0aec7a-954d-4399-8d15-5869c5353677
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get__NewEnum method, ITuningSpaces.get__NewEnum, ITuningSpaces::get__NewEnum, ITuningSpacesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get__newenum, tuner/ITuningSpaces::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaces.get__NewEnum"
+f1_keywords:
+- tuner/ITuningSpaces.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaces.get__NewEnum
+- ITuningSpaces.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

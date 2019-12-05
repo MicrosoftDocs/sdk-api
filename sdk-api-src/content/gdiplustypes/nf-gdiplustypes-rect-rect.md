@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Rect
 title: Rect::Rect (gdiplustypes.h)
-
 description: Creates a Rect object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_36.htm
-
 ms.date: 12/05/2018
 ms.keywords: Rect, Rect class [GDI+],Rect constructor, Rect constructor [GDI+], Rect constructor [GDI+],Rect class, Rect.Rect, Rect.Rect(), Rect::Rect, _gdiplus_CLASS_Rect_Rect_, gdiplus._gdiplus_CLASS_Rect_Rect_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Rect"
+f1_keywords:
+- gdiplustypes/Rect.Rect
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Rect
+- Rect.Rect
 targetos: Windows
 req.typenames: 
 req.redist: 

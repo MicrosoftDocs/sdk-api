@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelManager.CreateListener
 title: IWTSVirtualChannelManager::CreateListener (tsvirtualchannels.h)
-
 description: Returns an instance of a listener object that listens on a specific endpoint.
 old-location: termserv\iwtsvirtualchannelmanager_createlistener.htm
 tech.root: TermServ
 ms.assetid: 62800999-bd13-4529-b5e4-5c6d67d3a6bc
-
 ms.date: 12/05/2018
 ms.keywords: CreateListener, CreateListener method [Remote Desktop Services], CreateListener method [Remote Desktop Services],IWTSVirtualChannelManager interface, IWTSVirtualChannelManager interface [Remote Desktop Services],CreateListener method, IWTSVirtualChannelManager.CreateListener, IWTSVirtualChannelManager::CreateListener, termserv.iwtsvirtualchannelmanager_createlistener, tsvirtualchannels/IWTSVirtualChannelManager::CreateListener
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSVirtualChannelManager.CreateListener"
+f1_keywords:
+- tsvirtualchannels/IWTSVirtualChannelManager.CreateListener
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannelManager.CreateListener
+- IWTSVirtualChannelManager.CreateListener
 targetos: Windows
 req.typenames: 
 req.redist: 

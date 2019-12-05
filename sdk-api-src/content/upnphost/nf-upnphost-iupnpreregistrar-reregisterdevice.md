@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPReregistrar.ReregisterDevice
 title: IUPnPReregistrar::ReregisterDevice (upnphost.h)
-
 description: The ReregisterDevice method re-registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.
 old-location: upnp\iupnpreregistrar_reregisterdevice.htm
 tech.root: upnp
 ms.assetid: 9f8a0a49-49e4-47b9-93bf-ca32cc80e243
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPReregistrar interface [UPnP APIs],ReregisterDevice method, IUPnPReregistrar.ReregisterDevice, IUPnPReregistrar::ReregisterDevice, ReregisterDevice, ReregisterDevice method [UPnP APIs], ReregisterDevice method [UPnP APIs],IUPnPReregistrar interface, _upnp_iupnpreregistrar_reregisterdevice, upnp.iupnpreregistrar_reregisterdevice, upnphost/IUPnPReregistrar::ReregisterDevice
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPReregistrar.ReregisterDevice"
+f1_keywords:
+- upnphost/IUPnPReregistrar.ReregisterDevice
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPReregistrar.ReregisterDevice
+- IUPnPReregistrar.ReregisterDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

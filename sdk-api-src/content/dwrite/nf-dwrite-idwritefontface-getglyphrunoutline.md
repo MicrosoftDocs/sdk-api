@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGlyphRunOutline
 title: IDWriteFontFace::GetGlyphRunOutline (dwrite.h)
-
 description: Computes the outline of a run of glyphs by calling back to the outline sink interface.
 old-location: directwrite\IDWriteFontFace_GetGlyphRunOutline.htm
 tech.root: DirectWrite
 ms.assetid: 06edbd68-efc3-44e5-875c-a84488fca252
-
 ms.date: 12/05/2018
 ms.keywords: GetGlyphRunOutline, GetGlyphRunOutline method [Direct Write], GetGlyphRunOutline method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphRunOutline method, IDWriteFontFace.GetGlyphRunOutline, IDWriteFontFace::GetGlyphRunOutline, directwrite.IDWriteFontFace_GetGlyphRunOutline, dwrite/IDWriteFontFace::GetGlyphRunOutline
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.GetGlyphRunOutline"
+f1_keywords:
+- dwrite/IDWriteFontFace.GetGlyphRunOutline
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.GetGlyphRunOutline
+- IDWriteFontFace.GetGlyphRunOutline
 targetos: Windows
 req.typenames: 
 req.redist: 

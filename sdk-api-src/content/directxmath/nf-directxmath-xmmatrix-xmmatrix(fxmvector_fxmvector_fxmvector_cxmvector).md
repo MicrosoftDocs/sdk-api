@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR)
 title: XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR) (directxmath.h)
-
 description: Initializes a new instance of the XMMATRIX structure from four instances of XMVECTOR.
 old-location: 
 tech.root: dxmath
 ms.assetid: 8b405a17-be16-4001-b076-95acca0ce467
-
 ms.date: 05/13/2019
 ms.keywords: XMMATRIX, XMMATRIX constructor [DirectX Math Support APIs], XMMATRIX constructor [DirectX Math Support APIs],XMMATRIX structure, XMMATRIX structure [DirectX Math Support APIs],XMMATRIX constructor, XMMATRIX.XMMATRIX, XMMATRIX.XMMATRIX(), XMMATRIX.XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR), XMMATRIX::XMMATRIX, XMMATRIX::XMMATRIX(FXMVECTOR,FXMVECTOR,FXMVECTOR,CXMVECTOR), dxmath.xmmatrix_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMMATRIX.XMMATRIX"
+f1_keywords:
+- directxmath/XMMATRIX.XMMATRIX
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMATRIX.XMMATRIX
+- XMMATRIX.XMMATRIX
 targetos: Windows
 req.typenames: 
 req.redist: 

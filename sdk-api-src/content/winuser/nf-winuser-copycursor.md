@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CopyCursor
 title: CopyCursor macro (winuser.h)
-
 description: Copies the specified cursor.
 old-location: menurc\copycursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\copycursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: CopyCursor, CopyCursor function [Menus and Other Resources], _win32_CopyCursor, _win32_copycursor_cpp, menurc.copycursor, winui._win32_copycursor, winuser/CopyCursor
 ms.topic: macro
-f1_keywords: 
- - "winuser/CopyCursor"
+f1_keywords:
+- winuser/CopyCursor
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - CopyCursor
+- CopyCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VariantInit
 title: VariantInit function (oleauto.h)
-
 description: Initializes a variant.
 old-location: automat\variantinit.htm
 tech.root: automat
 ms.assetid: 96aeb671-5528-4d3c-8e70-313716550b42
-
 ms.date: 12/05/2018
 ms.keywords: VariantInit, VariantInit function [Automation], _oa96_VariantInit, automat.variantinit, oleauto/VariantInit
 ms.topic: function
-f1_keywords: 
- - "oleauto/VariantInit"
+f1_keywords:
+- oleauto/VariantInit
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VariantInit
+- VariantInit
 targetos: Windows
 req.typenames: 
 req.redist: 

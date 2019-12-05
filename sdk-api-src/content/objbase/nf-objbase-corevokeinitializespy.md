@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CoRevokeInitializeSpy
 title: CoRevokeInitializeSpy function (objbase.h)
-
 description: Revokes a registered implementation of the IInitializeSpy interface.
 old-location: com\corevokeinitializespy.htm
 tech.root: com
 ms.assetid: 24b0bedd-421a-4215-8edc-9fdce53e3b44
-
 ms.date: 12/05/2018
 ms.keywords: CoRevokeInitializeSpy, CoRevokeInitializeSpy function [COM], _com_CoRevokeInitializeSpy, com.corevokeinitializespy, objbase/CoRevokeInitializeSpy
 ms.topic: function
-f1_keywords: 
- - "objbase/CoRevokeInitializeSpy"
+f1_keywords:
+- objbase/CoRevokeInitializeSpy
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-private-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
- - API-MS-Win-Core-COM-Private-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-private-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- API-MS-Win-Core-COM-Private-l1-1-1.dll
 api_name:
- - CoRevokeInitializeSpy
+- CoRevokeInitializeSpy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMStorage
 title: IWMDMStorage (mswmdm.h)
-
 description: An instance of the IWMDMStorage interface provides methods to examine and explore a storage (a generic name for a data or collection object, such as a file, folder, or playlist) on a device.
 old-location: wmdm\iwmdmstorage.htm
 tech.root: WMDM
 ms.assetid: 1ede7c68-0169-4375-9b45-b0995ad14e44
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorage, IWMDMStorage interface [windows Media Device Manager], IWMDMStorage interface [windows Media Device Manager],described, IWMDMStorageInterface, mswmdm/IWMDMStorage, wmdm.iwmdmstorage
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMStorage"
+f1_keywords:
+- mswmdm/IWMDMStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMStorage
+- IWMDMStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

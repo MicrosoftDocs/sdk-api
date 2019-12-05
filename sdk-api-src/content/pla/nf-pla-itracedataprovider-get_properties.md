@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_Properties
 title: ITraceDataProvider::get_Properties (pla.h)
-
 description: Retrieves the list of extended data items that Event Tracing for Windows (ETW) includes with the event.
 old-location: pla\itracedataprovider_properties.htm
 tech.root: PLA
 ms.assetid: 1dc21423-fa55-4312-b86a-63d4f59e4cf1
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Properties property, ITraceDataProvider.Properties, ITraceDataProvider.get_Properties, ITraceDataProvider::Properties, ITraceDataProvider::get_Properties, Properties property [PLA], Properties property [PLA],ITraceDataProvider interface, base.itracedataprovider_properties, get_Properties, pla.itracedataprovider_properties, pla/ITraceDataProvider::Properties, pla/ITraceDataProvider::get_Properties
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProvider.Properties"
+f1_keywords:
+- pla/ITraceDataProvider.Properties
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProvider.Properties
- - ITraceDataProvider.get_Properties
+- ITraceDataProvider.Properties
+- ITraceDataProvider.get_Properties
 targetos: Windows
 req.typenames: 
 req.redist: 

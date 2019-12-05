@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetText
 title: ITextRange::GetText (tom.h)
-
 description: Gets the plain text in this range. The Text property is the default property of the ITextRange interface.
 old-location: controls\ITextRange_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetText, GetText method [Windows Controls], GetText method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetText method, ITextRange.GetText, ITextRange::GetText, _win32_ITextRange_GetText, _win32_ITextRange_GetText_cpp, controls.ITextRange_GetText, controls._win32_ITextRange_GetText, tom/ITextRange::GetText
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetText"
+f1_keywords:
+- tom/ITextRange.GetText
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetText
+- ITextRange.GetText
 targetos: Windows
 req.typenames: 
 req.redist: 

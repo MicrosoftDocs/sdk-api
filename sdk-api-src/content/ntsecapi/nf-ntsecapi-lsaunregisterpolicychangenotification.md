@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaUnregisterPolicyChangeNotification
 title: LsaUnregisterPolicyChangeNotification function (ntsecapi.h)
-
 description: The LsaUnregisterPolicyChangeNotification function disables a previously registered notification event.
 old-location: security\lsaunregisterpolicychangenotification.htm
 tech.root: SecMgmt
 ms.assetid: c1000904-20a6-40db-9b59-2cbb79e00a67
-
 ms.date: 12/05/2018
 ms.keywords: LsaUnregisterPolicyChangeNotification, LsaUnregisterPolicyChangeNotification function [Security], PolicyNotifyAccountDomainInformation, PolicyNotifyAuditEventsInformation, PolicyNotifyDnsDomainInformation, PolicyNotifyDomainEfsInformation, PolicyNotifyDomainKerberosTicketInformation, PolicyNotifyServerRoleInformation, _lsa_lsaunregisterpolicychangenotification, ntsecapi/LsaUnregisterPolicyChangeNotification, security.lsaunregisterpolicychangenotification
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaUnregisterPolicyChangeNotification"
+f1_keywords:
+- ntsecapi/LsaUnregisterPolicyChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaUnregisterPolicyChangeNotification
+- LsaUnregisterPolicyChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

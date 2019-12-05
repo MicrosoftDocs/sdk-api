@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDDrawExclModeVideoCallback
 title: IDDrawExclModeVideoCallback (strmif.h)
-
 description: The IDDrawExclModeVideoCallback interface is a callback interface for the IDDrawExclModeVideo interface.This callback interface enables applications to get synchronous notification about changes to the overlay position, size, visibility, and so on, so that the application can adjust its video visibility, size, and position. This avoids any color key flash at the beginning, end, or during playback. The application must implement the interface. It is important that none of the methods block or slow down the video processing, because this will cause problems with playback.Use this interface if you are writing a filter that supports IDDrawExclModeVideo or needs to generate callbacks to enable an application to draw color keys at the right time.
 old-location: dshow\iddrawexclmodevideocallback.htm
 tech.root: DirectShow
 ms.assetid: 7f22d4cd-93e0-4d7d-b8f3-932488d2c672
-
 ms.date: 12/05/2018
 ms.keywords: IDDrawExclModeVideoCallback, IDDrawExclModeVideoCallback interface [DirectShow], IDDrawExclModeVideoCallback interface [DirectShow],described, IDDrawExclModeVideoCallbackInterface, dshow.iddrawexclmodevideocallback, strmif/IDDrawExclModeVideoCallback
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDDrawExclModeVideoCallback"
+f1_keywords:
+- strmif/IDDrawExclModeVideoCallback
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDDrawExclModeVideoCallback
+- IDDrawExclModeVideoCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

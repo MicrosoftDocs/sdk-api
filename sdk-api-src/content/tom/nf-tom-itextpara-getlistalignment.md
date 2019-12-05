@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetListAlignment
 title: ITextPara::GetListAlignment (tom.h)
-
 description: Retrieves the kind of alignment to use for bulleted and numbered lists.
 old-location: controls\ITextPara_GetListAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistalignment.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetListAlignment, GetListAlignment method [Windows Controls], GetListAlignment method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetListAlignment method, ITextPara.GetListAlignment, ITextPara::GetListAlignment, _win32_ITextPara_GetListAlignment, _win32_ITextPara_GetListAlignment_cpp, controls.ITextPara_GetListAlignment, controls._win32_ITextPara_GetListAlignment, tom/ITextPara::GetListAlignment
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetListAlignment"
+f1_keywords:
+- tom/ITextPara.GetListAlignment
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetListAlignment
+- ITextPara.GetListAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

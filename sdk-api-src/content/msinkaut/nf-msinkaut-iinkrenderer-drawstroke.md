@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.DrawStroke
 title: IInkRenderer::DrawStroke (msinkaut.h)
-
 description: Draws the IInkStrokeDisp object using the known device context, and optionally draws the IInkStrokeDisp object with the known InkDrawingAttributes object.
 old-location: tablet\inkrenderer_drawstroke.htm
 tech.root: tablet
 ms.assetid: 3d8b7892-a120-452a-b83c-474df9be5f52
-
 ms.date: 12/05/2018
 ms.keywords: 3d8b7892-a120-452a-b83c-474df9be5f52, DrawStroke, DrawStroke method [Tablet PC], DrawStroke method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],DrawStroke method, IInkRenderer.DrawStroke, IInkRenderer::DrawStroke, msinkaut/IInkRenderer::DrawStroke, tablet.inkrenderer_drawstroke
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.DrawStroke"
+f1_keywords:
+- msinkaut/IInkRenderer.DrawStroke
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.DrawStroke
+- IInkRenderer.DrawStroke
 targetos: Windows
 req.typenames: 
 req.redist: 

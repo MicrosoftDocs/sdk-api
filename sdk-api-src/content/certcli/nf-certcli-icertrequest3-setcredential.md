@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertRequest3.SetCredential
 title: ICertRequest3::SetCredential (certcli.h)
-
 description: Sets the credential used to contact the Certificate Enrollment Web Service.
 old-location: security\icertrequest3_setcredential.htm
 tech.root: SecCrypto
 ms.assetid: cdc3fc7b-aef6-4d73-876e-c958d7bf8f98
-
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],SetCredential method, ICertRequest3 class [Security],SetCredential method, ICertRequest3.SetCredential, ICertRequest3::SetCredential, SetCredential, SetCredential method [Security], SetCredential method [Security],CCertRequest object, SetCredential method [Security],ICertRequest3 class, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certcli/ICertRequest3::SetCredential, security.icertrequest3_setcredential
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertRequest3.SetCredential"
+f1_keywords:
+- certcli/ICertRequest3.SetCredential
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertRequest3.SetCredential
- - CCertRequest.SetCredential
+- ICertRequest3.SetCredential
+- CCertRequest.SetCredential
 targetos: Windows
 req.typenames: 
 req.redist: 

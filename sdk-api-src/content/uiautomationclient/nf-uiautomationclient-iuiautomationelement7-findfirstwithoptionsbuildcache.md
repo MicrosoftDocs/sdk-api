@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindFirstWithOptionsBuildCache
 title: IUIAutomationElement7::FindFirstWithOptionsBuildCache (uiautomationclient.h)
-
 description: Finds the first matching element in the specified order, but also caches its properties and pattern.
 old-location: winauto\uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 03683C11-7AB0-4933-A7C1-4A75A12079E1
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstWithOptionsBuildCache, FindFirstWithOptionsBuildCache method [Windows Accessibility], FindFirstWithOptionsBuildCache method [Windows Accessibility],IUIAutomationElement7 interface, IUIAutomationElement7 interface [Windows Accessibility],FindFirstWithOptionsBuildCache method, IUIAutomationElement7.FindFirstWithOptionsBuildCache, IUIAutomationElement7::FindFirstWithOptionsBuildCache, uiautomationclient/IUIAutomationElement7::FindFirstWithOptionsBuildCache, winauto.uiauto_IUIAutomationElement7_FindFirstWithOptionsBuildCache, winauto.uiauto_iuiautomationelement_findfirstwithoptionsbuildcache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement7.FindFirstWithOptionsBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement7.FindFirstWithOptionsBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement7.FindFirstWithOptionsBuildCache
+- IUIAutomationElement7.FindFirstWithOptionsBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

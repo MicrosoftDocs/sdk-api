@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPFormatNetworkName
 title: NPFormatNetworkName function (npapi.h)
-
 description: Formats a network name in a provider-specific format for display in a control.
 old-location: security\npformatnetworkname.htm
 tech.root: SecAuthN
 ms.assetid: a1d599fb-7b1c-4828-9cd7-bd520513f5be
-
 ms.date: 12/05/2018
 ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT_ABBREVIATED, WNFMT_INENUM, WNFMT_MULTILINE, _mnp_npformatnetworkname, npapi/NPFormatNetworkName, security.npformatnetworkname
 ms.topic: function
-f1_keywords: 
- - "npapi/NPFormatNetworkName"
+f1_keywords:
+- npapi/NPFormatNetworkName
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPFormatNetworkName
+- NPFormatNetworkName
 targetos: Windows
 req.typenames: 
 req.redist: 

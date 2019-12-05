@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlFreeUnicodeString
 title: RtlFreeUnicodeString function (winternl.h)
-
 description: Frees the string buffer allocated by RtlAnsiStringToUnicodeString or by RtlUpcaseUnicodeString.
 old-location: winprog\rtlfreeunicodestring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeunicodestring.htm
-
 ms.date: 12/05/2018
 ms.keywords: RtlFreeUnicodeString, RtlFreeUnicodeString function [Windows API], winprog.rtlfreeunicodestring, winternl/RtlFreeUnicodeString, winui.rtlfreeunicodestring
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlFreeUnicodeString"
+f1_keywords:
+- winternl/RtlFreeUnicodeString
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: NtosKrnl.lib
 req.dll: Ntdll.dll; NtosKrnl.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
- - NtosKrnl.exe
+- Ntdll.dll
+- NtosKrnl.exe
 api_name:
- - RtlFreeUnicodeString
+- RtlFreeUnicodeString
 targetos: Windows
 req.typenames: 
 req.redist: 

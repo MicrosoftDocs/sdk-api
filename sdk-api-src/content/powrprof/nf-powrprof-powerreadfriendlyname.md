@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerReadFriendlyName
 title: PowerReadFriendlyName function (powrprof.h)
-
 description: Retrieves the friendly name for the specified power setting, subgroup, or scheme.
 old-location: base\powerreadfriendlyname.htm
 tech.root: power
 ms.assetid: e6e46bbf-f9be-4dee-8976-df48bb1ccdf4
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadFriendlyName, PowerReadFriendlyName function, base.powerreadfriendlyname, powrprof/PowerReadFriendlyName
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerReadFriendlyName"
+f1_keywords:
+- powrprof/PowerReadFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerReadFriendlyName
+- PowerReadFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

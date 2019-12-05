@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.FDAP
 title: FDAP (shobjidl_core.h)
-
 description: Specifies list placement.
 old-location: shell\FDAP.htm
 tech.root: shell
 ms.assetid: 96865947-abd1-4045-9bb2-5839e9592ad2
-
 ms.date: 12/05/2018
 ms.keywords: FDAP, FDAP enumeration [Windows Shell], FDAP_BOTTOM, FDAP_TOP, _shell_FDAP, shell.FDAP, shobjidl_core/FDAP, shobjidl_core/FDAP_BOTTOM, shobjidl_core/FDAP_TOP
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/FDAP"
+f1_keywords:
+- shobjidl_core/FDAP
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - FDAP
+- FDAP
 targetos: Windows
 req.typenames: FDAP
 req.redist: 

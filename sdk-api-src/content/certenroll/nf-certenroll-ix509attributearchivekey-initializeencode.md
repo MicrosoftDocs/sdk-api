@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.InitializeEncode
 title: IX509AttributeArchiveKey::InitializeEncode (certenroll.h)
-
 description: Initializes the attribute from an IX509PrivateKey object, the certification authority encryption certificate, and the symmetric encryption algorithm object identifier (OID).
 old-location: security\ix509attributearchivekey_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 44865c22-0eca-4781-962c-a10698a435f4
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKey interface [Security],InitializeEncode method, IX509AttributeArchiveKey.InitializeEncode, IX509AttributeArchiveKey::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509AttributeArchiveKey interface, certenroll/IX509AttributeArchiveKey::InitializeEncode, security.ix509attributearchivekey_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeArchiveKey.InitializeEncode"
+f1_keywords:
+- certenroll/IX509AttributeArchiveKey.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKey.InitializeEncode
+- IX509AttributeArchiveKey.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHSetValueW
 title: SHSetValueW function (shlwapi.h)
-
 description: Sets the value of a registry key.
 old-location: shell\SHSetValue.htm
 tech.root: shell
 ms.assetid: 6cd5b7fd-8fb9-4c24-9670-20c23ca709bf
-
 ms.date: 12/05/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHSetValue, SHSetValue function [Windows Shell], SHSetValueA, SHSetValueW, _win32_SHSetValue, shell.SHSetValue, shlwapi/SHSetValue, shlwapi/SHSetValueA, shlwapi/SHSetValueW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHSetValue"
+f1_keywords:
+- shlwapi/SHSetValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-Registry-l1-1-0.dll
- - API-MS-Win-ShCore-Registry-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-Registry-l1-1-0.dll
+- API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHSetValue
- - SHSetValueA
- - SHSetValueW
+- SHSetValue
+- SHSetValueA
+- SHSetValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

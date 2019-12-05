@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.OfferVirtualMemory
 title: OfferVirtualMemory function (memoryapi.h)
-
 description: Indicates that the data contained in a range of memory pages is no longer needed by the application and can be discarded by the system if necessary.
 old-location: base\offervirtualmemory.htm
 tech.root: Memory
 ms.assetid: 45f8a433-0a9e-31d1-f21d-a17d7247e164
-
 ms.date: 12/05/2018
 ms.keywords: OfferVirtualMemory, OfferVirtualMemory function, VMOfferPriorityBelowNormal, VMOfferPriorityLow, VMOfferPriorityNormal, VMOfferPriorityVeryLow, base.offervirtualmemory, winbase/OfferVirtualMemory
 ms.topic: function
-f1_keywords: 
- - "memoryapi/OfferVirtualMemory"
+f1_keywords:
+- memoryapi/OfferVirtualMemory
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - OfferVirtualMemory
+- OfferVirtualMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

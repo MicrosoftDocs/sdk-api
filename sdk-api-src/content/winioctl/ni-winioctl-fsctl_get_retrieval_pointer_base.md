@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_GET_RETRIEVAL_POINTER_BASE
 title: FSCTL_GET_RETRIEVAL_POINTER_BASE
-
 description: Returns the sector offset to the first logical cluster number (LCN) of the file system relative to the start of the volume.
 old-location: fs\fsctl_get_retrieval_pointer_base.htm
 tech.root: FileIO
 ms.assetid: 17925fe8-ab5a-4bfb-8d9e-cd574c024107
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_RETRIEVAL_POINTER_BASE, FSCTL_GET_RETRIEVAL_POINTER_BASE control, FSCTL_GET_RETRIEVAL_POINTER_BASE control code [Files], fs.fsctl_get_retrieval_pointer_base, winioctl/FSCTL_GET_RETRIEVAL_POINTER_BASE
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_GET_RETRIEVAL_POINTER_BASE"
+f1_keywords:
+- winioctl/FSCTL_GET_RETRIEVAL_POINTER_BASE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_GET_RETRIEVAL_POINTER_BASE
+- FSCTL_GET_RETRIEVAL_POINTER_BASE
 targetos: Windows
 req.typenames: 
 req.redist: 

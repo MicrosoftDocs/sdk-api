@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetSessionCompartmentId
 title: GetSessionCompartmentId function (netioapi.h)
-
 description: Reserved for future use. Do not use this function.
 old-location: netvista\getsessioncompartmentid.htm
 tech.root: NetVista
 ms.assetid: e051f228-6d53-49b8-a94b-32c65dc41b77
-
 ms.date: 12/05/2018
 ms.keywords: GetSessionCompartmentId, GetSessionCompartmentId function [Network Drivers Starting with Windows Vista], iphelper_969bb416-bc97-41a4-85ca-54869540d6ca.xml, netioapi/GetSessionCompartmentId, netvista.getsessioncompartmentid
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetSessionCompartmentId"
+f1_keywords:
+- netioapi/GetSessionCompartmentId
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - GetSessionCompartmentId
+- GetSessionCompartmentId
 targetos: Windows
 req.typenames: 
 req.redist: 

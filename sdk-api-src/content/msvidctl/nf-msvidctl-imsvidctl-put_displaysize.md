@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_DisplaySize
 title: IMSVidCtl::put_DisplaySize (msvidctl.h)
-
 description: The put_DisplaySize method specifies the display size.
 old-location: mstv\imsvidctl_put_displaysize.htm
 tech.root: mstv
 ms.assetid: 1771e66b-e5f3-44f5-a489-e57baaf5cf25
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_DisplaySize method, IMSVidCtl.put_DisplaySize, IMSVidCtl::put_DisplaySize, IMSVidCtlput_DisplaySize, mstv.imsvidctl_put_displaysize, msvidctl/IMSVidCtl::put_DisplaySize, put_DisplaySize, put_DisplaySize method [Microsoft TV Technologies], put_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.put_DisplaySize"
+f1_keywords:
+- msvidctl/IMSVidCtl.put_DisplaySize
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.put_DisplaySize
+- IMSVidCtl.put_DisplaySize
 targetos: Windows
 req.typenames: 
 req.redist: 

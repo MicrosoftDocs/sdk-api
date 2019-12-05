@@ -5,10 +5,10 @@ description: Used to cancel a pending registration operation.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceRegisterCancel
 ms.topic: language-reference
-f1_keywords: 
- - "windns/DnsServiceRegisterCancel"
+f1_keywords:
+- windns/DnsServiceRegisterCancel
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - windns.h
+- windns.h
 api_name:
- - DnsServiceRegisterCancel
+- DnsServiceRegisterCancel
 ms.custom: 19H1
 ---
 

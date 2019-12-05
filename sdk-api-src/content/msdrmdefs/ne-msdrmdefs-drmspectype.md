@@ -1,19 +1,17 @@
 ---
 UID: NE:msdrmdefs._DRMSPECTYPE
 title: DRMSPECTYPE (msdrmdefs.h)
-
 description: The DRMSPECTYPE enumeration indicates what type of security or library providers are used.
 old-location: rm\drmspectype.htm
 tech.root: AdRms_Sdk
 ms.assetid: 40997883-2636-4dd1-adf4-deff997abcc8
-
 ms.date: 12/05/2018
 ms.keywords: DRMSPECTYPE, DRMSPECTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMSPECTYPE_FILENAME, DRMSPECTYPE_UNKNOWN, msdrmdefs/DRMSPECTYPE, msdrmdefs/DRMSPECTYPE_FILENAME, msdrmdefs/DRMSPECTYPE_UNKNOWN, rm.drmspectype
 ms.topic: enum
-f1_keywords: 
- - "msdrmdefs/DRMSPECTYPE"
+f1_keywords:
+- msdrmdefs/DRMSPECTYPE
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRMSPECTYPE
+- DRMSPECTYPE
 targetos: Windows
 req.typenames: DRMSPECTYPE
 req.redist: 

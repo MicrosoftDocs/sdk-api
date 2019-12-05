@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertProperty.InitializeFromCertificate
 title: ICertProperty::InitializeFromCertificate (certenroll.h)
-
 description: Initializes the object by using a property value associated with an existing certificate.
 old-location: security\icertproperty_initializefromcertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 5d23bacc-bbe5-42fa-b4c5-57a6767f79ba
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],InitializeFromCertificate method, ICertProperty.InitializeFromCertificate, ICertProperty::InitializeFromCertificate, InitializeFromCertificate, InitializeFromCertificate method [Security], InitializeFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::InitializeFromCertificate, security.icertproperty_initializefromcertificate_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertProperty.InitializeFromCertificate"
+f1_keywords:
+- certenroll/ICertProperty.InitializeFromCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperty.InitializeFromCertificate
+- ICertProperty.InitializeFromCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

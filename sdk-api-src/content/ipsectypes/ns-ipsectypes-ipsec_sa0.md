@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA0_
 title: IPSEC_SA0 (ipsectypes.h)
-
 description: Is used to store information about an IPsec security association (SA).
 old-location: fwp\ipsec_sa0_struct.htm
 tech.root: fwp
 ms.assetid: 9d60f5d7-57af-4c33-90ed-b69a9671a9ce
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA0, IPSEC_SA0 structure [Filtering], fwp.ipsec_sa0_struct, ipsectypes/IPSEC_SA0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA0"
+f1_keywords:
+- ipsectypes/IPSEC_SA0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA0
+- IPSEC_SA0
 targetos: Windows
 req.typenames: IPSEC_SA0
 req.redist: 

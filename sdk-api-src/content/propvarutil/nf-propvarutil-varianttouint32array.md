@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToUInt32Array
 title: VariantToUInt32Array function (propvarutil.h)
-
 description: Extracts data from a vector structure into an unsigned Int32 array.
 old-location: properties\VariantToUInt32Array.htm
 tech.root: properties
 ms.assetid: 506a02f8-6390-44a0-9f14-bfc8fb7ad180
-
 ms.date: 12/05/2018
 ms.keywords: VariantToUInt32Array, VariantToUInt32Array function [Windows Properties], _shell_VariantToUInt32Array, properties.VariantToUInt32Array, propvarutil/VariantToUInt32Array, shell.VariantToUInt32Array
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToUInt32Array"
+f1_keywords:
+- propvarutil/VariantToUInt32Array
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToUInt32Array
+- VariantToUInt32Array
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

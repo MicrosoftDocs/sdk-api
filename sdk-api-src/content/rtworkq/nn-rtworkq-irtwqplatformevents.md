@@ -1,19 +1,17 @@
 ---
 UID: NN:rtworkq.IRtwqPlatformEvents
 title: IRtwqPlatformEvents (rtworkq.h)
-
 description: Provides events related platform work queue.
 old-location: base\irtwqplatformevents.htm
 tech.root: ProcThread
 ms.assetid: 9184D930-9305-4CA0-8E89-0CBAA5E4D53F
-
 ms.date: 12/05/2018
 ms.keywords: IRtwqPlatformEvents, IRtwqPlatformEvents interface, IRtwqPlatformEvents interface,described, base.irtwqplatformevents, rtworkq/IRtwqPlatformEvents
 ms.topic: interface
-f1_keywords: 
- - "rtworkq/IRtwqPlatformEvents"
+f1_keywords:
+- rtworkq/IRtwqPlatformEvents
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - IRtwqPlatformEvents
+- IRtwqPlatformEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

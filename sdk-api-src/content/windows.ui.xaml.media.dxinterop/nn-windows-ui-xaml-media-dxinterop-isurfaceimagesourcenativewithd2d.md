@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceNativeWithD2D
 title: ISurfaceImageSourceNativeWithD2D (windows.ui.xaml.media.dxinterop.h)
-
 description: Provides the implementation of a shared Microsoft DirectX surface which is displayed in a SurfaceImageSource or VirtualSurfaceImageSource.
 old-location: winrt\isurfaceimagesourcenativewithd2d.htm
 tech.root: WinRT
 ms.assetid: 5C004E4F-12C6-4C2E-AE9A-D841411FF689
-
 ms.date: 12/05/2018
 ms.keywords: ISurfaceImageSourceNativeWithD2D, ISurfaceImageSourceNativeWithD2D interface [Windows Runtime], ISurfaceImageSourceNativeWithD2D interface [Windows Runtime],described, windows/ISurfaceImageSourceNativeWithD2D, winrt.isurfaceimagesourcenativewithd2d
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceNativeWithD2D
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceNativeWithD2D
+- ISurfaceImageSourceNativeWithD2D
 targetos: Windows
 req.typenames: 
 req.redist: 

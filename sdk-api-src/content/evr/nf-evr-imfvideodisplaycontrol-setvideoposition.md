@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetVideoPosition
 title: IMFVideoDisplayControl::SetVideoPosition (evr.h)
-
 description: Sets the source and destination rectangles for the video.
 old-location: mf\imfvideodisplaycontrol_setvideoposition.htm
 tech.root: medfound
 ms.assetid: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184
-
 ms.date: 12/05/2018
 ms.keywords: 5dc789b7-e206-4f1d-a0b2-12cb98ce4184, IMFVideoDisplayControl interface [Media Foundation],SetVideoPosition method, IMFVideoDisplayControl.SetVideoPosition, IMFVideoDisplayControl::SetVideoPosition, SetVideoPosition, SetVideoPosition method [Media Foundation], SetVideoPosition method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetVideoPosition, mf.imfvideodisplaycontrol_setvideoposition
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.SetVideoPosition"
+f1_keywords:
+- evr/IMFVideoDisplayControl.SetVideoPosition
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.SetVideoPosition
+- IMFVideoDisplayControl.SetVideoPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

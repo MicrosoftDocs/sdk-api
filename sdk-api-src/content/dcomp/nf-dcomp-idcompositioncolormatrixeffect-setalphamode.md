@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionColorMatrixEffect.SetAlphaMode
 title: IDCompositionColorMatrixEffect::SetAlphaMode (dcomp.h)
-
 description: Sets the alpha mode of the output for the color matrix effect.
 old-location: directcomp\idcompositioncolormatrixeffect_setalphamode.htm
 tech.root: directcomp
 ms.assetid: BB1464B4-BCF3-4A38-88F0-2B2637DCCBC6
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionColorMatrixEffect interface [DirectComposition],SetAlphaMode method, IDCompositionColorMatrixEffect.SetAlphaMode, IDCompositionColorMatrixEffect::SetAlphaMode, SetAlphaMode, SetAlphaMode method [DirectComposition], SetAlphaMode method [DirectComposition],IDCompositionColorMatrixEffect interface, dcomp/IDCompositionColorMatrixEffect::SetAlphaMode, directcomp.idcompositioncolormatrixeffect_setalphamode
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionColorMatrixEffect.SetAlphaMode"
+f1_keywords:
+- dcomp/IDCompositionColorMatrixEffect.SetAlphaMode
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionColorMatrixEffect.SetAlphaMode
+- IDCompositionColorMatrixEffect.SetAlphaMode
 targetos: Windows
 req.typenames: 
 req.redist: 

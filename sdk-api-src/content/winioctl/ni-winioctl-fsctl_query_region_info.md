@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_QUERY_REGION_INFO
 title: FSCTL_QUERY_REGION_INFO
-
 description: Retrieves the storage tier regions defined for a volume that supports data tiering.
 old-location: fs\fsctl_query_region_info.htm
 tech.root: FileIO
 ms.assetid: 292D377B-F7DE-489B-B686-0CE5278360BC
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_QUERY_REGION_INFO, FSCTL_QUERY_REGION_INFO control, FSCTL_QUERY_REGION_INFO control code [Files], fs.fsctl_query_region_info, winioctl/FSCTL_QUERY_REGION_INFO
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_QUERY_REGION_INFO"
+f1_keywords:
+- winioctl/FSCTL_QUERY_REGION_INFO
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - FSCTL_QUERY_REGION_INFO
+- FSCTL_QUERY_REGION_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

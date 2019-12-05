@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11HullShader
 title: ID3D11HullShader (d3d11.h)
-
 description: A hull-shader interface manages an executable program (a hull shader) that controls the hull-shader stage.
 old-location: direct3d11\id3d11hullshader.htm
 tech.root: direct3d11
 ms.assetid: 3459f533-e2ac-4b0e-bfdd-d9dae704f418
-
 ms.date: 12/05/2018
 ms.keywords: 47a9bf26-6dd1-87f4-4259-36e6163908d8, ID3D11HullShader, ID3D11HullShader interface [Direct3D 11], ID3D11HullShader interface [Direct3D 11],described, d3d11/ID3D11HullShader, direct3d11.id3d11hullshader
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11HullShader"
+f1_keywords:
+- d3d11/ID3D11HullShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11HullShader
+- ID3D11HullShader
 targetos: Windows
 req.typenames: 
 req.redist: 

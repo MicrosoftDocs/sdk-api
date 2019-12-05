@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4Less
 title: XMVector4Less function (directxmath.h)
-
 description: Tests whether one 4D vector is less than another 4D vector.
 old-location: dxmath\xmvector4less.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4Less(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4Less, XMVector4Less, XMVector4Less method [DirectX Math Support APIs], dxmath.xmvector4less
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4Less"
+f1_keywords:
+- directxmath/XMVector4Less
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4Less
+- XMVector4Less
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_Revoked
 title: IRDPSRAPIInvitation::get_Revoked (rdpencomapi.h)
-
 description: The revoked state of the invitation.
 old-location: rdp\irdpsrapiinvitation_revoked.htm
 tech.root: rdp
 ms.assetid: a5a2d1a4-a51b-4fd4-b79c-3381f296d072
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitation interface [RDP],Revoked property, IRDPSRAPIInvitation.Revoked, IRDPSRAPIInvitation.get_Revoked, IRDPSRAPIInvitation::Revoked, IRDPSRAPIInvitation::get_Revoked, IRDPSRAPIInvitation::put_Revoked, RDPSRAPIInvitation object [RDP],Revoked property, Revoked property [RDP], Revoked property [RDP],IRDPSRAPIInvitation interface, Revoked property [RDP],RDPSRAPIInvitation object, get_Revoked, rdp.irdpsrapiinvitation_revoked, rdpencomapi/IRDPSRAPIInvitation::Revoked, rdpencomapi/IRDPSRAPIInvitation::get_Revoked, rdpencomapi/IRDPSRAPIInvitation::put_Revoked
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIInvitation.Revoked"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIInvitation.Revoked
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation.Revoked
- - IRDPSRAPIInvitation.get_Revoked
- - IRDPSRAPIInvitation.put_Revoked
- - RDPSRAPIInvitation.Revoked
+- IRDPSRAPIInvitation.Revoked
+- IRDPSRAPIInvitation.get_Revoked
+- IRDPSRAPIInvitation.put_Revoked
+- RDPSRAPIInvitation.Revoked
 targetos: Windows
 req.typenames: 
 req.redist: 

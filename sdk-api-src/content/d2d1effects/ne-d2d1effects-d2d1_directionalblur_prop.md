@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_DIRECTIONALBLUR_PROP
 title: D2D1_DIRECTIONALBLUR_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Directional blur effect.
 old-location: direct2d\d2d1_directionalblur_prop.htm
 tech.root: Direct2D
 ms.assetid: BEC82079-543E-4675-84DD-0DE7D852866E
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_DIRECTIONALBLUR_PROP, D2D1_DIRECTIONALBLUR_PROP enumeration [Direct2D], D2D1_DIRECTIONALBLUR_PROP_ANGLE, D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE, D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION, D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION, d2d1effects/D2D1_DIRECTIONALBLUR_PROP, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_ANGLE, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_BORDER_MODE, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_OPTIMIZATION, d2d1effects/D2D1_DIRECTIONALBLUR_PROP_STANDARD_DEVIATION, direct2d.d2d1_directionalblur_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_DIRECTIONALBLUR_PROP"
+f1_keywords:
+- d2d1effects/D2D1_DIRECTIONALBLUR_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_DIRECTIONALBLUR_PROP
+- D2D1_DIRECTIONALBLUR_PROP
 targetos: Windows
 req.typenames: D2D1_DIRECTIONALBLUR_PROP
 req.redist: 

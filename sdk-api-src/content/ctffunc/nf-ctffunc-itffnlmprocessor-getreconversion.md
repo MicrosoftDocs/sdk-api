@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.GetReconversion
 title: ITfFnLMProcessor::GetReconversion (ctffunc.h)
-
 description: ITfFnLMProcessor::GetReconversion method
 old-location: tsf\itffnlmprocessor_getreconversion.htm
 tech.root: TSF
 ms.assetid: 21fcef3f-252c-4f67-a789-4527b8ee1b94
-
 ms.date: 12/05/2018
 ms.keywords: GetReconversion, GetReconversion method [Text Services Framework], GetReconversion method [Text Services Framework],ITfFnLMProcessor interface, ITfFnLMProcessor interface [Text Services Framework],GetReconversion method, ITfFnLMProcessor.GetReconversion, ITfFnLMProcessor::GetReconversion, _tsf_itffnlmprocessor_getreconversion_ref, ctffunc/ITfFnLMProcessor::GetReconversion, tsf.itffnlmprocessor_getreconversion
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnLMProcessor.GetReconversion"
+f1_keywords:
+- ctffunc/ITfFnLMProcessor.GetReconversion
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnLMProcessor.GetReconversion
+- ITfFnLMProcessor.GetReconversion
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

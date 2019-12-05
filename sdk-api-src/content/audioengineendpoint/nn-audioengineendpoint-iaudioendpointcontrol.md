@@ -1,19 +1,17 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointControl
 title: IAudioEndpointControl (audioengineendpoint.h)
-
 description: Controls the stream state of an endpoint.
 old-location: termserv\iaudioendpointcontrol.htm
 tech.root: TermServ
 ms.assetid: 4514521a-e9a9-4f39-ab7d-4ef7e514bd10
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointControl, IAudioEndpointControl interface [Remote Desktop Services], IAudioEndpointControl interface [Remote Desktop Services],described, audioengineendpoint/IAudioEndpointControl, termserv.iaudioendpointcontrol
 ms.topic: interface
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointControl"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointControl
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointControl
+- IAudioEndpointControl
 targetos: Windows
 req.typenames: 
 req.redist: 

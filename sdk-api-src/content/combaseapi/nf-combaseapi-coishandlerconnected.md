@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoIsHandlerConnected
 title: CoIsHandlerConnected function (combaseapi.h)
-
 description: Determines whether a remote object is connected to the corresponding in-process object.
 old-location: com\coishandlerconnected.htm
 tech.root: com
 ms.assetid: f58bdec6-3709-439d-9867-0022a069c53d
-
 ms.date: 12/05/2018
 ms.keywords: CoIsHandlerConnected, CoIsHandlerConnected function [COM], _com_CoIsHandlerConnected, com.coishandlerconnected, combaseapi/CoIsHandlerConnected
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoIsHandlerConnected"
+f1_keywords:
+- combaseapi/CoIsHandlerConnected
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoIsHandlerConnected
+- CoIsHandlerConnected
 targetos: Windows
 req.typenames: 
 req.redist: 

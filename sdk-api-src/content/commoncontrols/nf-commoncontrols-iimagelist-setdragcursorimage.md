@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.SetDragCursorImage
 title: IImageList::SetDragCursorImage (commoncontrols.h)
-
 description: Creates a new drag image by combining the specified image, which is typically a mouse cursor image, with the current drag image.
 old-location: controls\IImageList_SetDragCursorImage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\setdragcursorimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],SetDragCursorImage method, IImageList.SetDragCursorImage, IImageList::SetDragCursorImage, SetDragCursorImage, SetDragCursorImage method [Windows Controls], SetDragCursorImage method [Windows Controls],IImageList interface, comctl_IImageList_SetDragCursorImage, comctl_IImageList_SetDragCursorImage_cpp, commoncontrols/IImageList::SetDragCursorImage, controls.IImageList_SetDragCursorImage, controls.comctl_IImageList_SetDragCursorImage
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.SetDragCursorImage"
+f1_keywords:
+- commoncontrols/IImageList.SetDragCursorImage
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.SetDragCursorImage
+- IImageList.SetDragCursorImage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.SetCaptionText
 title: IMathInputControl::SetCaptionText (micaut.h)
-
 description: Modifies the string that will be used as the control's caption when the window is created.
 old-location: tablet\imathinputcontrol_setcaptiontext.htm
 tech.root: tablet
 ms.assetid: 8790fb9b-38df-42a4-9125-2c04d46aef0b
-
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],SetCaptionText method, IMathInputControl.SetCaptionText, IMathInputControl::SetCaptionText, SetCaptionText, SetCaptionText method [Tablet PC], SetCaptionText method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::SetCaptionText, tablet.imathinputcontrol_setcaptiontext
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.SetCaptionText"
+f1_keywords:
+- micaut/IMathInputControl.SetCaptionText
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.SetCaptionText
+- IMathInputControl.SetCaptionText
 targetos: Windows
 req.typenames: 
 req.redist: 

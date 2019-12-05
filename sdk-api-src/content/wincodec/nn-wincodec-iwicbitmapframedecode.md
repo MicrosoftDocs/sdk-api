@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICBitmapFrameDecode
 title: IWICBitmapFrameDecode (wincodec.h)
-
 description: Defines methods for decoding individual image frames of an encoded file.
 old-location: wic\_wic_codec_iwicbitmapframedecode.htm
 tech.root: wic
 ms.assetid: 1498b800-6449-440f-bed7-85891637e559
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameDecode, IWICBitmapFrameDecode interface [Windows Imaging Component], IWICBitmapFrameDecode interface [Windows Imaging Component],described, _wic_codec_iwicbitmapframedecode, wic._wic_codec_iwicbitmapframedecode, wincodec/IWICBitmapFrameDecode
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICBitmapFrameDecode"
+f1_keywords:
+- wincodec/IWICBitmapFrameDecode
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameDecode
+- IWICBitmapFrameDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

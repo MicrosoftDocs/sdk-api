@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.SHLoadOLE
 title: SHLoadOLE function (shlobj.h)
-
 description: Deprecated. Provided for backward compatibility.
 old-location: shell\SHLoadOLE.htm
 tech.root: shell
 ms.assetid: 1c1306bc-443c-4486-b2bc-9bd869b833c3
-
 ms.date: 12/05/2018
 ms.keywords: SHLoadOLE, SHLoadOLE function [Windows Shell], _win32_SHLoadOLE, shell.SHLoadOLE, shlobj/SHLoadOLE
 ms.topic: function
-f1_keywords: 
- - "shlobj/SHLoadOLE"
+f1_keywords:
+- shlobj/SHLoadOLE
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHLoadOLE
+- SHLoadOLE
 targetos: Windows
 req.typenames: 
 req.redist: 

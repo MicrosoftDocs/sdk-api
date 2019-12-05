@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPOLinksCollection.get_Item
 title: IGPMGPOLinksCollection::get_Item (gpmgmt.h)
-
 description: Given an index, returns a GPO link from the collection.
 old-location: gpmc\igpmgpolinkscollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 33630927-7bac-4efb-b79b-5db1981a51fb
-
 ms.date: 12/05/2018
 ms.keywords: GPMGPOLinksCollection class [GPMC],Item property, IGPMGPOLinksCollection interface [GPMC],Item property, IGPMGPOLinksCollection.Item, IGPMGPOLinksCollection.get_Item, IGPMGPOLinksCollection::Item, IGPMGPOLinksCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMGPOLinksCollection class, Item property [GPMC],IGPMGPOLinksCollection interface, _win32_igpmgpolinkscollection_get_item, get_Item, gpmc.igpmgpolinkscollection_get_item, gpmgmt/IGPMGPOLinksCollection::Item, gpmgmt/IGPMGPOLinksCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPOLinksCollection.Item"
+f1_keywords:
+- gpmgmt/IGPMGPOLinksCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPOLinksCollection.Item
- - IGPMGPOLinksCollection.get_Item
- - GPMGPOLinksCollection.Item
+- IGPMGPOLinksCollection.Item
+- IGPMGPOLinksCollection.get_Item
+- GPMGPOLinksCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

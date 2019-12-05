@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetDatabaseState
 title: MsiGetDatabaseState function (msiquery.h)
-
 description: The MsiGetDatabaseState function returns the state of the database.
 old-location: setup\msigetdatabasestate.htm
 tech.root: Msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetDatabaseState"
+f1_keywords:
+- msiquery/MsiGetDatabaseState
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetDatabaseState
+- MsiGetDatabaseState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetLastPrinted
 title: IXpsOMCoreProperties::GetLastPrinted (xpsobjectmodel.h)
-
 description: Gets the lastPrinted property.
 old-location: xps\ixpsomcoreproperties_getlastprinted.htm
 tech.root: printdocs
 ms.assetid: c7e4b994-ec4f-415d-a340-813f00adba19
-
 ms.date: 12/05/2018
 ms.keywords: GetLastPrinted, GetLastPrinted method [XPS Documents and Packaging], GetLastPrinted method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetLastPrinted method, IXpsOMCoreProperties.GetLastPrinted, IXpsOMCoreProperties::GetLastPrinted, xps.ixpsomcoreproperties_getlastprinted, xpsobjectmodel/IXpsOMCoreProperties::GetLastPrinted
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetLastPrinted"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetLastPrinted
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetLastPrinted
+- IXpsOMCoreProperties.GetLastPrinted
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_bvdup
 title: ber_bvdup function (winber.h)
-
 description: The ber_bvdup function creates a copy of the supplied berval structure.
 old-location: ldap\ber_bvdup.htm
 tech.root: ldap
 ms.assetid: 512addea-2738-4063-970a-10c5c365fc7d
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_bvdup, ber_bvdup, ber_bvdup function [LDAP], ldap.ber__bvdup, ldap.ber_bvdup, winber/ber_bvdup"
+ms.keywords: _ldap_ber_bvdup, ber_bvdup, ber_bvdup function [LDAP], ldap.ber__bvdup, ldap.ber_bvdup, winber/ber_bvdup
 ms.topic: function
-f1_keywords: 
- - "winber/ber_bvdup"
+f1_keywords:
+- winber/ber_bvdup
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_bvdup
+- ber_bvdup
 targetos: Windows
 req.typenames: 
 req.redist: 

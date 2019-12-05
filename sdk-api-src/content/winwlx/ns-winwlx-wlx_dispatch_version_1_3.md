@@ -1,19 +1,17 @@
 ---
 UID: NS:winwlx._WLX_DISPATCH_VERSION_1_3
 title: WLX_DISPATCH_VERSION_1_3 (winwlx.h)
-
 description: Defines the format of the Winlogon version 1.3 function dispatch table passed to your GINA DLL in the WlxInitialize call.
 old-location: security\wlx_dispatch_version_1_3.htm
 tech.root: SecAuthN
 ms.assetid: 47e343b8-ee54-45de-98c6-0ec75b45aa90
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3 structure pointer [Security], WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_3 structure [Security], _gina_wlx_dispatch_version_1_3, security.wlx_dispatch_version_1_3, winwlx/PWLX_DISPATCH_VERSION_1_3, winwlx/WLX_DISPATCH_VERSION_1_3"
+ms.keywords: '*PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3, PWLX_DISPATCH_VERSION_1_3 structure pointer [Security], WLX_DISPATCH_VERSION_1_3, WLX_DISPATCH_VERSION_1_3 structure [Security], _gina_wlx_dispatch_version_1_3, security.wlx_dispatch_version_1_3, winwlx/PWLX_DISPATCH_VERSION_1_3, winwlx/WLX_DISPATCH_VERSION_1_3'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_DISPATCH_VERSION_1_3"
+f1_keywords:
+- winwlx/WLX_DISPATCH_VERSION_1_3
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_DISPATCH_VERSION_1_3
+- WLX_DISPATCH_VERSION_1_3
 targetos: Windows
 req.typenames: WLX_DISPATCH_VERSION_1_3, *PWLX_DISPATCH_VERSION_1_3
 req.redist: 

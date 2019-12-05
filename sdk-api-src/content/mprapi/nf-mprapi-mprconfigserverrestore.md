@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigServerRestore
 title: MprConfigServerRestore function (mprapi.h)
-
 description: The MprConfigServerRestore function restores the router-manager, interface, and phone-book configuration from a backup created by a previous call to MprConfigServerBackup.
 old-location: rras\mprconfigserverrestore.htm
 tech.root: RRAS
 ms.assetid: 1489ce8a-4f9d-4cf0-8729-b24e8c571557
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerRestore, MprConfigServerRestore function [RAS], _mpr_mprconfigserverrestore, mprapi/MprConfigServerRestore, rras.mprconfigserverrestore
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigServerRestore"
+f1_keywords:
+- mprapi/MprConfigServerRestore
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigServerRestore
+- MprConfigServerRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

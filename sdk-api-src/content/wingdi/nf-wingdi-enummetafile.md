@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EnumMetaFile
 title: EnumMetaFile function (wingdi.h)
-
 description: The EnumMetaFile function enumerates the records within a Windows-format metafile by retrieving each record and passing it to the specified callback function.
 old-location: gdi\enummetafile.htm
 tech.root: gdi
 ms.assetid: b11c7467-64a9-442b-8dee-26e15f64a26b
-
 ms.date: 12/05/2018
 ms.keywords: EnumMetaFile, EnumMetaFile function [Windows GDI], _win32_EnumMetaFile, gdi.enummetafile, wingdi/EnumMetaFile
 ms.topic: function
-f1_keywords: 
- - "wingdi/EnumMetaFile"
+f1_keywords:
+- wingdi/EnumMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - EnumMetaFile
+- EnumMetaFile
 targetos: Windows
 req.typenames: 
 req.redist: 

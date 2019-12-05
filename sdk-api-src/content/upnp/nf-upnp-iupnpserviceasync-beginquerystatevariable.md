@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.BeginQueryStateVariable
 title: IUPnPServiceAsync::BeginQueryStateVariable (upnp.h)
-
 description: BeginQueryStateVariable method initiates an asynchronous request for the state variable value from a specific service.
 old-location: upnp\iupnpserviceasync_beginquerystatevariable.htm
 tech.root: upnp
 ms.assetid: 1E97589C-A06B-4012-A2A2-C88BBE9B2530
-
 ms.date: 12/05/2018
 ms.keywords: BeginQueryStateVariable, BeginQueryStateVariable method [UPnP APIs], BeginQueryStateVariable method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginQueryStateVariable method, IUPnPServiceAsync.BeginQueryStateVariable, IUPnPServiceAsync::BeginQueryStateVariable, upnp.iupnpserviceasync_beginquerystatevariable, upnp/IUPnPServiceAsync::BeginQueryStateVariable
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPServiceAsync.BeginQueryStateVariable"
+f1_keywords:
+- upnp/IUPnPServiceAsync.BeginQueryStateVariable
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPServiceAsync.BeginQueryStateVariable
+- IUPnPServiceAsync.BeginQueryStateVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

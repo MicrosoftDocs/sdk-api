@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IPrincipal.put_DisplayName
 title: IPrincipal::put_DisplayName (taskschd.h)
-
 description: Gets or sets the name of the principal.
 old-location: taskschd\iprincipal_displayname.htm
 tech.root: taskschd
 ms.assetid: 285a0e64-d796-4b0d-84b1-9ebd0728ddc0
-
 ms.date: 12/05/2018
 ms.keywords: DisplayName property [Task Scheduler], DisplayName property [Task Scheduler],IPrincipal interface, IPrincipal interface [Task Scheduler],DisplayName property, IPrincipal.DisplayName, IPrincipal.put_DisplayName, IPrincipal::DisplayName, IPrincipal::get_DisplayName, IPrincipal::put_DisplayName, put_DisplayName, taskschd.iprincipal_displayname, taskschd/IPrincipal::DisplayName, taskschd/IPrincipal::get_DisplayName, taskschd/IPrincipal::put_DisplayName
 ms.topic: method
-f1_keywords: 
- - "taskschd/IPrincipal.DisplayName"
+f1_keywords:
+- taskschd/IPrincipal.DisplayName
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal.DisplayName
- - IPrincipal.get_DisplayName
- - IPrincipal.put_DisplayName
+- IPrincipal.DisplayName
+- IPrincipal.get_DisplayName
+- IPrincipal.put_DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

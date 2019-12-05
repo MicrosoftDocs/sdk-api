@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_LINE_BREAKPOINT
 title: DWRITE_LINE_BREAKPOINT (dwrite.h)
-
 description: Line breakpoint characteristics of a character.
 old-location: directwrite\dwrite_line_breakpoint.htm
 tech.root: DirectWrite
 ms.assetid: 6f2b26e9-95b3-4ac5-ba8e-7055f873d1da
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_LINE_BREAKPOINT, DWRITE_LINE_BREAKPOINT structure [Direct Write], directwrite.dwrite_line_breakpoint, dwrite/DWRITE_LINE_BREAKPOINT
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_LINE_BREAKPOINT"
+f1_keywords:
+- dwrite/DWRITE_LINE_BREAKPOINT
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_LINE_BREAKPOINT
+- DWRITE_LINE_BREAKPOINT
 targetos: Windows
 req.typenames: 
 req.redist: 

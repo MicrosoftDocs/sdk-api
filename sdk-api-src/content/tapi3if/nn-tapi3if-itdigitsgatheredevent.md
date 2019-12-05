@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITDigitsGatheredEvent
 title: ITDigitsGatheredEvent (tapi3if.h)
-
 description: The ITDigitsGatheredEvent interface exposes methods that allow an application to retrieve data when the TAPI Server sends an event indicating that the Server has gathered digits required by the application.
 old-location: tapi3\itdigitsgatheredevent.htm
 tech.root: Tapi
 ms.assetid: 2d710bea-a0fd-492b-81a3-03b741685c91
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitsGatheredEvent, ITDigitsGatheredEvent interface [TAPI 2.2], ITDigitsGatheredEvent interface [TAPI 2.2],described, _tapi3_itdigitsgatheredevent, tapi3.itdigitsgatheredevent, tapi3if/ITDigitsGatheredEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITDigitsGatheredEvent"
+f1_keywords:
+- tapi3if/ITDigitsGatheredEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitsGatheredEvent
+- ITDigitsGatheredEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

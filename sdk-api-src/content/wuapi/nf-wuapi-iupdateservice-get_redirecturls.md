@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateService.get_RedirectUrls
 title: IUpdateService::get_RedirectUrls (wuapi.h)
-
 description: Contains the URLs for the redirector cabinet file.
 old-location: wua\iupdateservice_redirecturls.htm
 tech.root: Wua_Sdk
 ms.assetid: 264e46d5-d72b-42c9-aed2-badbfc701cff
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],RedirectUrls property, IUpdateService.RedirectUrls, IUpdateService.get_RedirectUrls, IUpdateService::RedirectUrls, IUpdateService::get_RedirectUrls, RedirectUrls property [Windows Update Agent], RedirectUrls property [Windows Update Agent],IUpdateService interface, get_RedirectUrls, wua.iupdateservice_redirecturls, wuapi/IUpdateService::RedirectUrls, wuapi/IUpdateService::get_RedirectUrls
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateService.RedirectUrls"
+f1_keywords:
+- wuapi/IUpdateService.RedirectUrls
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateService.RedirectUrls
- - IUpdateService.get_RedirectUrls
+- IUpdateService.RedirectUrls
+- IUpdateService.get_RedirectUrls
 targetos: Windows
 req.typenames: 
 req.redist: 

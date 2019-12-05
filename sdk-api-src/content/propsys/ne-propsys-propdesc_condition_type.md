@@ -1,19 +1,17 @@
 ---
 UID: NE:propsys.PROPDESC_CONDITION_TYPE
 title: PROPDESC_CONDITION_TYPE (propsys.h)
-
 description: Describes the condition type to use when displaying the property in the query builder UI in Windows Vista, but not in Windows 7 and later.
 old-location: properties\PROPDESC_CONDITION_TYPE.htm
 tech.root: properties
 ms.assetid: 35ed3b49-8b36-4681-bad6-1669c0da94e0
-
 ms.date: 12/05/2018
 ms.keywords: PDCOT_BOOLEAN, PDCOT_DATETIME, PDCOT_NONE, PDCOT_NUMBER, PDCOT_SIZE, PDCOT_STRING, PROPDESC_CONDITION_TYPE, PROPDESC_CONDITION_TYPE enumeration [Windows Properties], properties.PROPDESC_CONDITION_TYPE, propsys/PDCOT_BOOLEAN, propsys/PDCOT_DATETIME, propsys/PDCOT_NONE, propsys/PDCOT_NUMBER, propsys/PDCOT_SIZE, propsys/PDCOT_STRING, propsys/PROPDESC_CONDITION_TYPE, shell.PROPDESC_CONDITION_TYPE, shell_PROPDESC_CONDITION_TYPE
 ms.topic: enum
-f1_keywords: 
- - "propsys/PROPDESC_CONDITION_TYPE"
+f1_keywords:
+- propsys/PROPDESC_CONDITION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - PROPDESC_CONDITION_TYPE
+- PROPDESC_CONDITION_TYPE
 targetos: Windows
 req.typenames: PROPDESC_CONDITION_TYPE
 req.redist: 

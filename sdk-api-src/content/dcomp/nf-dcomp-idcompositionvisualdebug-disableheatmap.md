@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisualDebug.DisableHeatMap
 title: IDCompositionVisualDebug::DisableHeatMap (dcomp.h)
-
 description: Disables visual heatmaps.
 old-location: directcomp\idcompositionvisualdebug_disableheatmap.htm
 tech.root: directcomp
 ms.assetid: C186E930-4523-4DF7-8E74-B69AF91622F4
-
 ms.date: 12/05/2018
 ms.keywords: DisableHeatMap, DisableHeatMap method [DirectComposition], DisableHeatMap method [DirectComposition],IDCompositionVisualDebug interface, IDCompositionVisualDebug interface [DirectComposition],DisableHeatMap method, IDCompositionVisualDebug.DisableHeatMap, IDCompositionVisualDebug::DisableHeatMap, dcomp/IDCompositionVisualDebug::DisableHeatMap, directcomp.idcompositionvisualdebug_disableheatmap
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisualDebug.DisableHeatMap"
+f1_keywords:
+- dcomp/IDCompositionVisualDebug.DisableHeatMap
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisualDebug.DisableHeatMap
+- IDCompositionVisualDebug.DisableHeatMap
 targetos: Windows
 req.typenames: 
 req.redist: 

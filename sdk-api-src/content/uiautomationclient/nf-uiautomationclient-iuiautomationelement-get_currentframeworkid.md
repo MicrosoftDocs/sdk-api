@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentFrameworkId
 title: IUIAutomationElement::get_CurrentFrameworkId (uiautomationclient.h)
-
 description: Retrieves the name of the underlying UI framework.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentFrameworkId.htm
 tech.root: WinAuto
 ms.assetid: b54af8d4-87b1-4fd3-bc25-1a7c038899ea
-
 ms.date: 12/05/2018
 ms.keywords: CurrentFrameworkId property [Windows Accessibility], CurrentFrameworkId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentFrameworkId property, IUIAutomationElement.CurrentFrameworkId, IUIAutomationElement.get_CurrentFrameworkId, IUIAutomationElement::CurrentFrameworkId, IUIAutomationElement::get_CurrentFrameworkId, get_CurrentFrameworkId, uiauto.uiauto_IUIAutomationElement_CurrentFrameworkId, uiauto_IUIAutomationElement_CurrentFrameworkId, uiautomationclient/IUIAutomationElement::CurrentFrameworkId, uiautomationclient/IUIAutomationElement::get_CurrentFrameworkId, winauto.uiauto_IUIAutomationElement_CurrentFrameworkId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentFrameworkId"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentFrameworkId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentFrameworkId
- - IUIAutomationElement.get_CurrentFrameworkId
+- IUIAutomationElement.CurrentFrameworkId
+- IUIAutomationElement.get_CurrentFrameworkId
 targetos: Windows
 req.typenames: 
 req.redist: 

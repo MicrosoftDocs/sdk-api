@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_TERMINATED
 title: LSA_AP_LOGON_TERMINATED (ntsecpkg.h)
-
 description: Used to notify an authentication package when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
 old-location: security\lsaaplogonterminated.htm
 tech.root: SecAuthN
 ms.assetid: 17e8426a-5a25-48ca-8cef-91bbeda8490c
-
 ms.date: 12/05/2018
 ms.keywords: LSA_AP_LOGON_TERMINATED, LSA_AP_LOGON_TERMINATED callback, LsaApLogonTerminated, LsaApLogonTerminated callback function [Security], _lsa_lsaaplogonterminated, ntsecpkg/LsaApLogonTerminated, security.lsaaplogonterminated
 ms.topic: callback
-f1_keywords: 
- - "ntsecpkg/LsaApLogonTerminated"
+f1_keywords:
+- ntsecpkg/LsaApLogonTerminated
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - LsaApLogonTerminated
+- LsaApLogonTerminated
 targetos: Windows
 req.typenames: 
 req.redist: 

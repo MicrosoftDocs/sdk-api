@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleSave
 title: OleSave function (ole2.h)
-
 description: Saves an object opened in transacted mode into the specified storage object.
 old-location: com\olesave.htm
 tech.root: com
 ms.assetid: b8d8e1af-05a3-42f5-8672-910a2606e613
-
 ms.date: 12/05/2018
 ms.keywords: OleSave, OleSave function [COM], _ole_OleSave, com.olesave, ole2/OleSave
 ms.topic: function
-f1_keywords: 
- - "ole2/OleSave"
+f1_keywords:
+- ole2/OleSave
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleSave
+- OleSave
 targetos: Windows
 req.typenames: 
 req.redist: 

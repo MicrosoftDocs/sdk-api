@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneSetVolume
 title: phoneSetVolume function (tapi.h)
-
 description: The phoneSetVolume function sets the volume of the speaker component of the specified hookswitch device to the specified level.
 old-location: tapi2\phonesetvolume.htm
 tech.root: Tapi
 ms.assetid: 114aba48-f058-47c9-9ee7-493bd758b8a6
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonesetvolume, phoneSetVolume, phoneSetVolume function [TAPI 2.2], tapi/phoneSetVolume, tapi2.phonesetvolume"
+ms.keywords: _tapi2_phonesetvolume, phoneSetVolume, phoneSetVolume function [TAPI 2.2], tapi/phoneSetVolume, tapi2.phonesetvolume
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneSetVolume"
+f1_keywords:
+- tapi/phoneSetVolume
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneSetVolume
+- phoneSetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

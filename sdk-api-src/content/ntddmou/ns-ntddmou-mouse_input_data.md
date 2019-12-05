@@ -1,19 +1,17 @@
 ---
 UID: NS:ntddmou._MOUSE_INPUT_DATA
 title: MOUSE_INPUT_DATA (ntddmou.h)
-
 description: MOUSE_INPUT_DATA contains one packet of mouse input data.
 old-location: hid\mouse_input_data.htm
 tech.root: hid
 ms.assetid: 363699d5-e91c-43ea-bae3-8ed997487e31
-
 ms.date: 12/05/2018
-ms.keywords: "*PMOUSE_INPUT_DATA, MOUSE_INPUT_DATA, MOUSE_INPUT_DATA structure [Human Input Devices], PMOUSE_INPUT_DATA, PMOUSE_INPUT_DATA structure pointer [Human Input Devices], hid.mouse_input_data, mref_7f184199-ae93-458c-8e4b-25fcacc57263.xml, ntddmou/MOUSE_INPUT_DATA, ntddmou/PMOUSE_INPUT_DATA"
+ms.keywords: '*PMOUSE_INPUT_DATA, MOUSE_INPUT_DATA, MOUSE_INPUT_DATA structure [Human Input Devices], PMOUSE_INPUT_DATA, PMOUSE_INPUT_DATA structure pointer [Human Input Devices], hid.mouse_input_data, mref_7f184199-ae93-458c-8e4b-25fcacc57263.xml, ntddmou/MOUSE_INPUT_DATA, ntddmou/PMOUSE_INPUT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "ntddmou/MOUSE_INPUT_DATA"
+f1_keywords:
+- ntddmou/MOUSE_INPUT_DATA
 dev_langs:
- - c++
+- c++
 req.header: ntddmou.h
 req.include-header: Ntddmou.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntddmou.h
+- ntddmou.h
 api_name:
- - MOUSE_INPUT_DATA
+- MOUSE_INPUT_DATA
 targetos: Windows
 req.typenames: MOUSE_INPUT_DATA, *PMOUSE_INPUT_DATA
 req.redist: 

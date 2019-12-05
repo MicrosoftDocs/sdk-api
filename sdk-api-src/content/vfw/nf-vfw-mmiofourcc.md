@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.mmioFOURCC
 title: mmioFOURCC macro (vfw.h)
-
 description: The mmioFOURCC macro converts four characters into a four-character code.
 old-location: multimedia\mmiofourcc.htm
 tech.root: Multimedia
 ms.assetid: 616c3b43-9305-49c1-bc46-2e1256647c7d
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioFOURCC, mmioFOURCC, mmioFOURCC macro [Windows Multimedia], multimedia.mmiofourcc, vfw/mmioFOURCC"
+ms.keywords: _win32_mmioFOURCC, mmioFOURCC, mmioFOURCC macro [Windows Multimedia], multimedia.mmiofourcc, vfw/mmioFOURCC
 ms.topic: macro
-f1_keywords: 
- - "vfw/mmioFOURCC"
+f1_keywords:
+- vfw/mmioFOURCC
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vfw.h
+- vfw.h
 api_name:
- - mmioFOURCC
+- mmioFOURCC
 targetos: Windows
 req.typenames: 
 req.redist: 

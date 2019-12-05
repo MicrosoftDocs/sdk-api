@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptSecretAgreement
 title: BCryptSecretAgreement function (bcrypt.h)
-
 description: Creates a secret agreement value from a private and a public key.
 old-location: security\bcryptsecretagreement.htm
 tech.root: SecCNG
 ms.assetid: 96863d81-3643-4962-8abf-db1cc2acde07
-
 ms.date: 12/05/2018
 ms.keywords: BCryptSecretAgreement, BCryptSecretAgreement function [Security], bcrypt/BCryptSecretAgreement, security.bcryptsecretagreement
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptSecretAgreement"
+f1_keywords:
+- bcrypt/BCryptSecretAgreement
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptSecretAgreement
+- BCryptSecretAgreement
 targetos: Windows
 req.typenames: 
 req.redist: 

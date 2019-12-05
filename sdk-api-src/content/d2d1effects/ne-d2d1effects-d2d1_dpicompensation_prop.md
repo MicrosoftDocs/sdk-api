@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_DPICOMPENSATION_PROP
 title: D2D1_DPICOMPENSATION_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the DPI compensation effect.
 old-location: direct2d\d2d1_dpicompensation_prop.htm
 tech.root: Direct2D
 ms.assetid: B8956D69-B014-49EA-BCBA-5AE9DC051A5A
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_DPICOMPENSATION_PROP, D2D1_DPICOMPENSATION_PROP enumeration [Direct2D], D2D1_DPICOMPENSATION_PROP_BORDER_MODE, D2D1_DPICOMPENSATION_PROP_INPUT_DPI, D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP, d2d1effects/D2D1_DPICOMPENSATION_PROP_BORDER_MODE, d2d1effects/D2D1_DPICOMPENSATION_PROP_INPUT_DPI, d2d1effects/D2D1_DPICOMPENSATION_PROP_INTERPOLATION_MODE, direct2d.d2d1_dpicompensation_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_DPICOMPENSATION_PROP"
+f1_keywords:
+- d2d1effects/D2D1_DPICOMPENSATION_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_DPICOMPENSATION_PROP
+- D2D1_DPICOMPENSATION_PROP
 targetos: Windows
 req.typenames: D2D1_DPICOMPENSATION_PROP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.getCertFromFileResponse
 title: ICEnroll4::getCertFromFileResponse (xenroll.h)
-
 description: Retrieves the certificate from a file containing a response from a certification authority. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_getcertfromfileresponse.htm
 tech.root: SecCrypto
 ms.assetid: 0e89465b-4525-4b36-b0c7-7f34dc4a34aa
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],getCertFromFileResponse method, ICEnroll4 interface [Security],getCertFromFileResponse method, ICEnroll4.getCertFromFileResponse, ICEnroll4::getCertFromFileResponse, _xen_icenroll4_getcertfromfileresponse, getCertFromFileResponse, getCertFromFileResponse method [Security], getCertFromFileResponse method [Security],CEnroll object, getCertFromFileResponse method [Security],ICEnroll4 interface, security.icenroll4_getcertfromfileresponse, xenroll/ICEnroll4::getCertFromFileResponse
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.getCertFromFileResponse"
+f1_keywords:
+- xenroll/ICEnroll4.getCertFromFileResponse
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.getCertFromFileResponse
- - CEnroll.getCertFromFileResponse
+- ICEnroll4.getCertFromFileResponse
+- CEnroll.getCertFromFileResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

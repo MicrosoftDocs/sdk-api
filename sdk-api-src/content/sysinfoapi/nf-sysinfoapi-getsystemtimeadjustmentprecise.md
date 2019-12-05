@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetSystemTimeAdjustmentPrecise
 title: GetSystemTimeAdjustmentPrecise function (sysinfoapi.h)
-
 description: Determines whether the system is applying periodic, programmed time adjustments to its time-of-day clock, and obtains the value and period of any such adjustments.
 old-location: base\getsystemtimeadjustmentprecise.htm
 tech.root: SysInfo
 ms.assetid: 95EEE23D-01D8-49E1-BA64-49C07E8B1619
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemTimeAdjustmentPrecise, GetSystemTimeAdjustmentPrecise function, base.getsystemtimeadjustmentprecise, sysinfoapi/GetSystemTimeAdjustmentPrecise
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetSystemTimeAdjustmentPrecise"
+f1_keywords:
+- sysinfoapi/GetSystemTimeAdjustmentPrecise
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mincore.lib
 req.dll: Api-ms-win-core-version-l1-2-3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Api-ms-win-core-version-l1-2-3.dll
+- Api-ms-win-core-version-l1-2-3.dll
 api_name:
- - GetSystemTimeAdjustmentPrecise
+- GetSystemTimeAdjustmentPrecise
 targetos: Windows
 req.typenames: 
 req.redist: 

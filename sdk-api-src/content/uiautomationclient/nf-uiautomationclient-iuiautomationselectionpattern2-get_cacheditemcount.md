@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSelectionPattern2.get_CachedItemCount
 title: IUIAutomationSelectionPattern2::get_CachedItemCount (uiautomationclient.h)
-
 description: Gets a cached integer value indicating the number of selected items.
 old-location: winauto\uiauto_IUIAutomationSelectionPattern2_CachedItemCount.htm
 tech.root: WinAuto
 ms.assetid: B00450CF-58CD-4FB7-AE0A-AB89350D9B02
-
 ms.date: 12/05/2018
 ms.keywords: CachedItemCount property [Windows Accessibility], CachedItemCount property [Windows Accessibility],IUIAutomationSelectionPattern2 interface, IUIAutomationSelectionPattern2 interface [Windows Accessibility],CachedItemCount property, IUIAutomationSelectionPattern2.CachedItemCount, IUIAutomationSelectionPattern2.get_CachedItemCount, IUIAutomationSelectionPattern2::CachedItemCount, IUIAutomationSelectionPattern2::get_CachedItemCount, IUIAutomationSelectionPattern2::put_CachedItemCount, get_CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::get_CachedItemCount, uiautomationclient/IUIAutomationSelectionPattern2::put_CachedItemCount, winauto.uiauto_IUIAutomationSelectionPattern2_CachedItemCount
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationSelectionPattern2.CachedItemCount"
+f1_keywords:
+- uiautomationclient/IUIAutomationSelectionPattern2.CachedItemCount
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern2.CachedItemCount
- - IUIAutomationSelectionPattern2.get_CachedItemCount
- - IUIAutomationSelectionPattern2.put_CachedItemCount
+- IUIAutomationSelectionPattern2.CachedItemCount
+- IUIAutomationSelectionPattern2.get_CachedItemCount
+- IUIAutomationSelectionPattern2.put_CachedItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

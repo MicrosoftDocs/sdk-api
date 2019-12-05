@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchCatalogManager
 title: ISearchCatalogManager (searchapi.h)
-
 description: Provides methods to manage a search catalog for purposes such as re-indexing or setting timeouts.
 old-location: search\_search_ISearchCatalogManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\isearchcatalogmanager.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager, ISearchCatalogManager interface [search], ISearchCatalogManager interface [search],described, _search_ISearchCatalogManager, search._search_ISearchCatalogManager, searchapi/ISearchCatalogManager
 ms.topic: interface
 f1_keywords:
 - searchapi/ISearchCatalogManager
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMFilterGraphCallback.UnableToRender
 title: IAMFilterGraphCallback::UnableToRender (strmif.h)
-
 description: The UnableToRender method is called by the Filter Graph Manager if it cannot find any combination of filters to render the specified pin.
 old-location: dshow\iamfiltergraphcallback_unabletorender.htm
 tech.root: DirectShow
 ms.assetid: c7fa0eae-f950-423a-8a89-9a7619b27ce6
-
 ms.date: 12/05/2018
 ms.keywords: IAMFilterGraphCallback interface [DirectShow],UnableToRender method, IAMFilterGraphCallback.UnableToRender, IAMFilterGraphCallback::UnableToRender, IAMFilterGraphCallbackUnableToRender, UnableToRender, UnableToRender method [DirectShow], UnableToRender method [DirectShow],IAMFilterGraphCallback interface, dshow.iamfiltergraphcallback_unabletorender, strmif/IAMFilterGraphCallback::UnableToRender
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMFilterGraphCallback.UnableToRender"
+f1_keywords:
+- strmif/IAMFilterGraphCallback.UnableToRender
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMFilterGraphCallback.UnableToRender
+- IAMFilterGraphCallback.UnableToRender
 targetos: Windows
 req.typenames: 
 req.redist: 

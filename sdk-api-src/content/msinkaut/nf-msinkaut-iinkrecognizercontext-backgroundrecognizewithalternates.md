@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.BackgroundRecognizeWithAlternates
 title: IInkRecognizerContext::BackgroundRecognizeWithAlternates (msinkaut.h)
-
 description: Causes the IInkRecognizer object to recognize the associated strokes collection and fire a RecognitionWithAlternates event when recognition is complete.
 old-location: tablet\inkrecognizercontext_backgroundrecognizewithalternates.htm
 tech.root: tablet
 ms.assetid: 1559678c-c220-4c67-aa0f-566377d95818
-
 ms.date: 12/05/2018
 ms.keywords: 1559678c-c220-4c67-aa0f-566377d95818, BackgroundRecognizeWithAlternates, BackgroundRecognizeWithAlternates method [Tablet PC], BackgroundRecognizeWithAlternates method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC],BackgroundRecognizeWithAlternates method, IInkRecognizerContext.BackgroundRecognizeWithAlternates, IInkRecognizerContext::BackgroundRecognizeWithAlternates, msinkaut/IInkRecognizerContext::BackgroundRecognizeWithAlternates, tablet.inkrecognizercontext_backgroundrecognizewithalternates
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.BackgroundRecognizeWithAlternates"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.BackgroundRecognizeWithAlternates
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.BackgroundRecognizeWithAlternates
+- IInkRecognizerContext.BackgroundRecognizeWithAlternates
 targetos: Windows
 req.typenames: 
 req.redist: 

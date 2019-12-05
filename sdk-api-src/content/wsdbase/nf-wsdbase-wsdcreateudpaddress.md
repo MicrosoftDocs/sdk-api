@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.WSDCreateUdpAddress
 title: WSDCreateUdpAddress function (wsdbase.h)
-
 description: Creates an IWSDUdpAddress object.
 old-location: ncd\wsdcreateudpaddress.htm
 tech.root: WsdApi
 ms.assetid: 84610d5f-9b90-4830-b6d3-7b5622709668
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateUdpAddress, WSDCreateUdpAddress function, ncd.wsdcreateudpaddress, wsdbase/WSDCreateUdpAddress
 ms.topic: function
-f1_keywords: 
- - "wsdbase/WSDCreateUdpAddress"
+f1_keywords:
+- wsdbase/WSDCreateUdpAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateUdpAddress
+- WSDCreateUdpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

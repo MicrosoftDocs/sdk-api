@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage.get_TransmissionEnd
 title: IFaxIncomingMessage::get_TransmissionEnd (faxcomex.h)
-
 description: The TransmissionEnd property indicates the time that the inbound fax message completed transmission.
 old-location: fax\_mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_transmissionend_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0cbo.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage interface [Fax Service],TransmissionEnd property, IFaxIncomingMessage.TransmissionEnd, IFaxIncomingMessage.get_TransmissionEnd, IFaxIncomingMessage::TransmissionEnd, IFaxIncomingMessage::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxIncomingMessage interface, _mfax_faxincomingmessage.transmissionend, fax._mfax_faxincomingmessage_cpp_mfax_faxincomingmessage_transmissionend_cpp, fax._mfax_faxincomingmessage_transmissionend, faxcomex/IFaxIncomingMessage::TransmissionEnd, faxcomex/IFaxIncomingMessage::get_TransmissionEnd, get_TransmissionEnd
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage.TransmissionEnd"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage.TransmissionEnd
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage.TransmissionEnd
- - IFaxIncomingMessage.get_TransmissionEnd
- - IFaxIncomingMessage.get_TransmissionEnd
+- IFaxIncomingMessage.TransmissionEnd
+- IFaxIncomingMessage.get_TransmissionEnd
+- IFaxIncomingMessage.get_TransmissionEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

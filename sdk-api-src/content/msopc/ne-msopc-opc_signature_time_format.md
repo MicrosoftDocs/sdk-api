@@ -1,19 +1,17 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0005
 title: OPC_SIGNATURE_TIME_FORMAT (msopc.h)
-
 description: Describes how to interpret the signingTime parameter, which is a record of when a signature was created, of the IOpcDigitalSignature::GetSigningTime method.
 old-location: opc\opc_signature_time_format.htm
 tech.root: OPC
 ms.assetid: 9b8ff585-5795-48ce-b2fd-a49e3d34ccb9
-
 ms.date: 12/05/2018
 ms.keywords: OPC_SIGNATURE_TIME_FORMAT, OPC_SIGNATURE_TIME_FORMAT enumeration [Open Packaging Conventions], OPC_SIGNATURE_TIME_FORMAT_DAYS, OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS, OPC_SIGNATURE_TIME_FORMAT_MINUTES, OPC_SIGNATURE_TIME_FORMAT_MONTHS, OPC_SIGNATURE_TIME_FORMAT_SECONDS, OPC_SIGNATURE_TIME_FORMAT_YEARS, msopc/OPC_SIGNATURE_TIME_FORMAT, msopc/OPC_SIGNATURE_TIME_FORMAT_DAYS, msopc/OPC_SIGNATURE_TIME_FORMAT_MILLISECONDS, msopc/OPC_SIGNATURE_TIME_FORMAT_MINUTES, msopc/OPC_SIGNATURE_TIME_FORMAT_MONTHS, msopc/OPC_SIGNATURE_TIME_FORMAT_SECONDS, msopc/OPC_SIGNATURE_TIME_FORMAT_YEARS, opc.opc_signature_time_format
 ms.topic: enum
-f1_keywords: 
- - "msopc/OPC_SIGNATURE_TIME_FORMAT"
+f1_keywords:
+- msopc/OPC_SIGNATURE_TIME_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - OPC_SIGNATURE_TIME_FORMAT
+- OPC_SIGNATURE_TIME_FORMAT
 targetos: Windows
 req.typenames: OPC_SIGNATURE_TIME_FORMAT
 req.redist: 

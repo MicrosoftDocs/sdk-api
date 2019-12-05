@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetServiceId
 title: IIsdbEmergencyInformationDescriptor::GetServiceId (dvbsiparser.h)
-
 description: Gets the identifier for a broadcasting event from an emergency information descriptor.
 old-location: mstv\iisdbemergencyinformationdescriptor_getserviceid.htm
 tech.root: mstv
 ms.assetid: 298f0637-eea1-4247-a9ff-cbe1a82fb8f6
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceId, GetServiceId method [Microsoft TV Technologies], GetServiceId method [Microsoft TV Technologies],IIsdbEmergencyInformationDescriptor interface, IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies],GetServiceId method, IIsdbEmergencyInformationDescriptor.GetServiceId, IIsdbEmergencyInformationDescriptor::GetServiceId, dvbsiparser/IIsdbEmergencyInformationDescriptor::GetServiceId, mstv.iisdbemergencyinformationdescriptor_getserviceid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbEmergencyInformationDescriptor.GetServiceId"
+f1_keywords:
+- dvbsiparser/IIsdbEmergencyInformationDescriptor.GetServiceId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEmergencyInformationDescriptor.GetServiceId
+- IIsdbEmergencyInformationDescriptor.GetServiceId
 targetos: Windows
 req.typenames: 
 req.redist: 

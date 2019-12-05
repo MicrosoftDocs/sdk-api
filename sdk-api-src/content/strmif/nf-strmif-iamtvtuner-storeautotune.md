@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVTuner.StoreAutoTune
 title: IAMTVTuner::StoreAutoTune (strmif.h)
-
 description: The StoreAutoTune method saves the fine-tuning information for all channels.
 old-location: dshow\iamtvtuner_storeautotune.htm
 tech.root: DirectShow
 ms.assetid: 6e39d757-d8bd-4011-9a67-6bf57b5d820b
-
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],StoreAutoTune method, IAMTVTuner.StoreAutoTune, IAMTVTuner::StoreAutoTune, IAMTVTunerStoreAutoTune, StoreAutoTune, StoreAutoTune method [DirectShow], StoreAutoTune method [DirectShow],IAMTVTuner interface, dshow.iamtvtuner_storeautotune, strmif/IAMTVTuner::StoreAutoTune
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVTuner.StoreAutoTune"
+f1_keywords:
+- strmif/IAMTVTuner.StoreAutoTune
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVTuner.StoreAutoTune
+- IAMTVTuner.StoreAutoTune
 targetos: Windows
 req.typenames: 
 req.redist: 

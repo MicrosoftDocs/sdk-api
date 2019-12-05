@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvGetSupplement
 title: SymSrvGetSupplement function (dbghelp.h)
-
 description: Retrieves the specified file from the supplement for a symbol store.
 old-location: base\symsrvgetsupplement.htm
 tech.root: Debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
-
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvGetSupplement"
+f1_keywords:
+- dbghelp/SymSrvGetSupplement
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSrvGetSupplement
- - SymSrvGetSupplement
- - SymSrvGetSupplementW
+- SymSrvGetSupplement
+- SymSrvGetSupplement
+- SymSrvGetSupplementW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

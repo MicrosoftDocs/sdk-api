@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ConstUint16Field
 title: MI_ConstUint16Field (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constuint16field.htm
 tech.root: wmi_v2
 ms.assetid: b25764f3-9e90-44be-9f0d-919c4fd1a2b4
-
 ms.date: 12/05/2018
 ms.keywords: MI_ConstUint16Field, MI_ConstUint16Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstUint16Field, wmi._mi_constuint16field, wmi_v2.mi_constuint16field
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstUint16Field
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

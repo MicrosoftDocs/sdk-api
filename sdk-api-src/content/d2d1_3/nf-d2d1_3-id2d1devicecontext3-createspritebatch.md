@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext3.CreateSpriteBatch
 title: ID2D1DeviceContext3::CreateSpriteBatch (d2d1_3.h)
-
 description: Creates a new, empty sprite batch. After creating a sprite batch, use ID2D1SpriteBatch::AddSprites to add sprites to it, then use ID2D1DeviceContext3::DrawSpriteBatch to draw it.
 old-location: direct2d\id2d1devicecontext3_createspritebatch.htm
 tech.root: Direct2D
 ms.assetid: C9CCDF6B-BAEC-4C37-B3C1-60D50BACF973
-
 ms.date: 12/05/2018
 ms.keywords: CreateSpriteBatch, CreateSpriteBatch method [Direct2D], CreateSpriteBatch method [Direct2D],ID2D1DeviceContext3 interface, ID2D1DeviceContext3 interface [Direct2D],CreateSpriteBatch method, ID2D1DeviceContext3.CreateSpriteBatch, ID2D1DeviceContext3::CreateSpriteBatch, d2d1_3/ID2D1DeviceContext3::CreateSpriteBatch, direct2d.id2d1devicecontext3_createspritebatch
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext3.CreateSpriteBatch"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext3.CreateSpriteBatch
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext3.CreateSpriteBatch
+- ID2D1DeviceContext3.CreateSpriteBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

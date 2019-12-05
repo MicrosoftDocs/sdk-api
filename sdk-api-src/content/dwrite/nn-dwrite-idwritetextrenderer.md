@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteTextRenderer
 title: IDWriteTextRenderer (dwrite.h)
-
 description: Represents a set of application-defined callbacks that perform rendering of text, inline objects, and decorations such as underlines.
 old-location: directwrite\IDWriteTextRenderer.htm
 tech.root: DirectWrite
 ms.assetid: a2ac70c8-e33b-46f1-b53b-1ab07555f109
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextRenderer, IDWriteTextRenderer interface [Direct Write], IDWriteTextRenderer interface [Direct Write],described, directwrite.IDWriteTextRenderer, dwrite/IDWriteTextRenderer
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteTextRenderer"
+f1_keywords:
+- dwrite/IDWriteTextRenderer
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextRenderer
+- IDWriteTextRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

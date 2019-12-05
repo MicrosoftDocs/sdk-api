@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_12
 title: DRAWDIBTIME (vfw.h)
-
 description: The DRAWDIBTIME structure contains elapsed timing information for performing a set of DrawDib operations. The DrawDibTime function resets the count and the elapsed time value for each operation each time it is called.
 old-location: multimedia\drawdibtime_struct.htm
 tech.root: Multimedia
 ms.assetid: ec8a4e04-9e38-4db3-bb2b-838c63284f3a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME"
+ms.keywords: '*LPDRAWDIBTIME, DRAWDIBTIME, DRAWDIBTIME structure [Windows Multimedia], LPDRAWDIBTIME, LPDRAWDIBTIME structure pointer [Windows Multimedia], multimedia.drawdibtime_COLLISION618, multimedia.drawdibtime_struct, vfw/DRAWDIBTIME, vfw/LPDRAWDIBTIME'
 ms.topic: struct
-f1_keywords: 
- - "vfw/DRAWDIBTIME"
+f1_keywords:
+- vfw/DRAWDIBTIME
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - DRAWDIBTIME
+- DRAWDIBTIME
 targetos: Windows
 req.typenames: DRAWDIBTIME, *LPDRAWDIBTIME
 req.redist: 

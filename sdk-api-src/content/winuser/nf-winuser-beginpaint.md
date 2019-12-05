@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.BeginPaint
 title: BeginPaint function (winuser.h)
-
 description: The BeginPaint function prepares the specified window for painting and fills a PAINTSTRUCT structure with information about the painting.
 old-location: gdi\beginpaint.htm
 tech.root: gdi
 ms.assetid: 513341d7-bed8-469c-a067-ee71dc8860f9
-
 ms.date: 12/05/2018
 ms.keywords: BeginPaint, BeginPaint function [Windows GDI], _win32_BeginPaint, gdi.beginpaint, winuser/BeginPaint
 ms.topic: function
-f1_keywords: 
- - "winuser/BeginPaint"
+f1_keywords:
+- winuser/BeginPaint
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - BeginPaint
+- BeginPaint
 targetos: Windows
 req.typenames: 
 req.redist: 

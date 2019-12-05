@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IReferenceClockTimerControl
 title: IReferenceClockTimerControl (strmif.h)
-
 description: The IReferenceClockTimerControl interface changes the timer period used by a reference clock. This interface is exposed by the DirectShow System Reference Clock.
 old-location: dshow\ireferenceclocktimercontrol.htm
 tech.root: DirectShow
 ms.assetid: 08638917-88b1-42f0-8324-ae6fb9afe5bd
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceClockTimerControl, IReferenceClockTimerControl interface [DirectShow], IReferenceClockTimerControl interface [DirectShow],described, IReferenceClockTimerControlInterface, dshow.ireferenceclocktimercontrol, strmif/IReferenceClockTimerControl
 ms.topic: interface
-f1_keywords: 
- - "strmif/IReferenceClockTimerControl"
+f1_keywords:
+- strmif/IReferenceClockTimerControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IReferenceClockTimerControl
+- IReferenceClockTimerControl
 targetos: Windows
 req.typenames: 
 req.redist: 

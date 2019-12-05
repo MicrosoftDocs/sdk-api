@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstance.GetCategory
 title: IFunctionInstance::GetCategory (functiondiscoveryapi.h)
-
 description: Gets the category and subcategory strings for the function instance.
 old-location: ncd\ifunctioninstance_getcategory_method.htm
 tech.root: FunDisc
 ms.assetid: dfb5f144-c9b0-455e-aff9-0c07225a21f6
-
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method, GetCategory method,IFunctionInstance interface, IFunctionInstance interface,GetCategory method, IFunctionInstance.GetCategory, IFunctionInstance::GetCategory, functiondiscoveryapi/IFunctionInstance::GetCategory, ncd.ifunctioninstance_getcategory_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstance.GetCategory"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstance.GetCategory
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstance.GetCategory
+- IFunctionInstance.GetCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

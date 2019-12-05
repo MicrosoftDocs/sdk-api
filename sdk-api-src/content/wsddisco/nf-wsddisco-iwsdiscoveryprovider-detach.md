@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.Detach
 title: IWSDiscoveryProvider::Detach (wsddisco.h)
-
 description: Detaches a callback interface from the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_detach_method.htm
 tech.root: WsdApi
 ms.assetid: 562e7618-06ac-4bd3-9746-6ff3a7531b6b
-
 ms.date: 12/05/2018
 ms.keywords: Detach, Detach method, Detach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Detach method, IWSDiscoveryProvider.Detach, IWSDiscoveryProvider::Detach, ncd.iwsdiscoveryprovider_detach_method, wsddisco/IWSDiscoveryProvider::Detach
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProvider.Detach"
+f1_keywords:
+- wsddisco/IWSDiscoveryProvider.Detach
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.Detach
+- IWSDiscoveryProvider.Detach
 targetos: Windows
 req.typenames: 
 req.redist: 

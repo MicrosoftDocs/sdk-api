@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMPlaneTransform
 title: XMPlaneTransform function (directxmath.h)
-
 description: Transforms a plane by a given matrix.
 old-location: dxmath\xmplanetransform.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneTransform(XMVECTOR,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneTransform, XMPlaneTransform, XMPlaneTransform method [DirectX Math Support APIs], dxmath.xmplanetransform
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMPlaneTransform"
+f1_keywords:
+- directxmath/XMPlaneTransform
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMPlaneTransform
+- XMPlaneTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

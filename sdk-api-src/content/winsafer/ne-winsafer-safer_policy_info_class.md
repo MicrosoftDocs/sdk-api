@@ -1,19 +1,17 @@
 ---
 UID: NE:winsafer._SAFER_POLICY_INFO_CLASS
 title: SAFER_POLICY_INFO_CLASS (winsafer.h)
-
 description: Defines the ways in which a policy may be queried.
 old-location: security\safer_policy_info_class.htm
 tech.root: SecMgmt
 ms.assetid: e1438a9f-abca-463d-8a3a-3a820cba16e8
-
 ms.date: 12/05/2018
 ms.keywords: SAFER_POLICY_INFO_CLASS, SAFER_POLICY_INFO_CLASS enumeration [Security], SaferPolicyDefaultLevel, SaferPolicyEnableTransparentEnforcement, SaferPolicyEvaluateUserScope, SaferPolicyLevelList, SaferPolicyScopeFlags, _mnp_safer_policy_info_class, security.safer_policy_info_class, winsafer/SAFER_POLICY_INFO_CLASS, winsafer/SaferPolicyDefaultLevel, winsafer/SaferPolicyEnableTransparentEnforcement, winsafer/SaferPolicyEvaluateUserScope, winsafer/SaferPolicyLevelList, winsafer/SaferPolicyScopeFlags
 ms.topic: enum
-f1_keywords: 
- - "winsafer/SAFER_POLICY_INFO_CLASS"
+f1_keywords:
+- winsafer/SAFER_POLICY_INFO_CLASS
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinSafer.h
+- WinSafer.h
 api_name:
- - SAFER_POLICY_INFO_CLASS
+- SAFER_POLICY_INFO_CLASS
 targetos: Windows
 req.typenames: SAFER_POLICY_INFO_CLASS
 req.redist: 

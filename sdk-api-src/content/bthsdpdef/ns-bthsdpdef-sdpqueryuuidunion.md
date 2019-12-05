@@ -1,19 +1,17 @@
 ---
 UID: NS:bthsdpdef.SdpQueryUuidUnion
 title: SdpQueryUuidUnion (bthsdpdef.h)
-
 description: The SdpQueryUuidUnion union contains the UUID on which to perform an SDP query. Used in conjunction with the SdpQueryUuid structure.
 old-location: bluetooth\sdpqueryuuidunion.htm
 tech.root: bluetooth
 ms.assetid: 446b0337-ea83-4d8a-bee7-3cccf03e61a5
-
 ms.date: 12/05/2018
 ms.keywords: SdpQueryUuidUnion, SdpQueryUuidUnion structure [Bluetooth], bluetooth.sdpqueryuuidunion, bthsdpdef/SdpQueryUuidUnion
 ms.topic: struct
 f1_keywords:
 - bthsdpdef/SdpQueryUuidUnion
 dev_langs:
- - c++
+- c++
 req.header: bthsdpdef.h
 req.include-header: 
 req.target-type: Windows

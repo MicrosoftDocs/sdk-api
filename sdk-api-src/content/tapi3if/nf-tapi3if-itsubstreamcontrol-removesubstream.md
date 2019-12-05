@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.RemoveSubStream
 title: ITSubStreamControl::RemoveSubStream (tapi3if.h)
-
 description: The RemoveSubStream method removes a substream.
 old-location: tapi3\itsubstreamcontrol_removesubstream.htm
 tech.root: Tapi
 ms.assetid: 1a1be17c-2cae-4eea-a20a-3344915c5234
-
 ms.date: 12/05/2018
 ms.keywords: ITSubStreamControl interface [TAPI 2.2],RemoveSubStream method, ITSubStreamControl.RemoveSubStream, ITSubStreamControl::RemoveSubStream, RemoveSubStream, RemoveSubStream method [TAPI 2.2], RemoveSubStream method [TAPI 2.2],ITSubStreamControl interface, _tapi3_itsubstreamcontrol_removesubstream, tapi3.itsubstreamcontrol_removesubstream, tapi3if/ITSubStreamControl::RemoveSubStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStreamControl.RemoveSubStream"
+f1_keywords:
+- tapi3if/ITSubStreamControl.RemoveSubStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStreamControl.RemoveSubStream
+- ITSubStreamControl.RemoveSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 

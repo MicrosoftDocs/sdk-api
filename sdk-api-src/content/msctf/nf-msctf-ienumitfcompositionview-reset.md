@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Reset
 title: IEnumITfCompositionView::Reset (msctf.h)
-
 description: IEnumITfCompositionView::Reset method
 old-location: tsf\ienumitfcompositionview_reset.htm
 tech.root: TSF
 ms.assetid: d0f63b58-fe9c-4c2c-8e70-e7be88030417
-
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Reset method, IEnumITfCompositionView.Reset, IEnumITfCompositionView::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_reset_ref, msctf/IEnumITfCompositionView::Reset, tsf.ienumitfcompositionview_reset
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumITfCompositionView.Reset"
+f1_keywords:
+- msctf/IEnumITfCompositionView.Reset
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumITfCompositionView.Reset
+- IEnumITfCompositionView.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

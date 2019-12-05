@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdbase._WSD_CONFIG_ADDRESSES
 title: WSD_CONFIG_ADDRESSES (wsdbase.h)
-
 description: Information about specific addresses that a host should listen on.
 old-location: ncd\wsd_config_addresses.htm
 tech.root: WsdApi
 ms.assetid: aaec97f4-c0b9-49d3-ab4c-758feda15d6a
-
 ms.date: 12/05/2018
-ms.keywords: "*PWSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES structure, _WSD_CONFIG_ADDRESSES, ncd.wsd_config_addresses, wsdbase/WSD_CONFIG_ADDRESSES"
+ms.keywords: '*PWSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES structure, _WSD_CONFIG_ADDRESSES, ncd.wsd_config_addresses, wsdbase/WSD_CONFIG_ADDRESSES'
 ms.topic: struct
-f1_keywords: 
- - "wsdbase/WSD_CONFIG_ADDRESSES"
+f1_keywords:
+- wsdbase/WSD_CONFIG_ADDRESSES
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wsdbase.h
+- wsdbase.h
 api_name:
- - WSD_CONFIG_ADDRESSES
+- WSD_CONFIG_ADDRESSES
 targetos: Windows
 req.typenames: WSD_CONFIG_ADDRESSES, *PWSD_CONFIG_ADDRESSES
 req.redist: 

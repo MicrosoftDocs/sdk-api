@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITaskScheduler.GetTargetComputer
 title: ITaskScheduler::GetTargetComputer (mstask.h)
-
 description: The GetTargetComputer method returns the name of the computer on which ITaskScheduler is currently targeted.
 old-location: taskschd\itaskscheduler_gettargetcomputer.htm
 tech.root: taskschd
 ms.assetid: c421a739-3290-4698-88e6-5c746baf903d
-
 ms.date: 12/05/2018
 ms.keywords: GetTargetComputer, GetTargetComputer method [Task Scheduler], GetTargetComputer method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],GetTargetComputer method, ITaskScheduler.GetTargetComputer, ITaskScheduler::GetTargetComputer, _msb_itaskscheduler_gettargetcomputer, mstask/ITaskScheduler::GetTargetComputer, taskschd.itaskscheduler_gettargetcomputer
 ms.topic: method
-f1_keywords: 
- - "mstask/ITaskScheduler.GetTargetComputer"
+f1_keywords:
+- mstask/ITaskScheduler.GetTargetComputer
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskScheduler.GetTargetComputer
+- ITaskScheduler.GetTargetComputer
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

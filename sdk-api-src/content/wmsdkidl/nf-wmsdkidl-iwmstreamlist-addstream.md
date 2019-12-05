@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamList.AddStream
 title: IWMStreamList::AddStream (wmsdkidl.h)
-
 description: The AddStream method adds a stream to the list.
 old-location: wmformat\iwmstreamlist_addstream.htm
 tech.root: wmformat
 ms.assetid: 20aeed9d-029b-4b60-9ff3-14555bd53eb9
-
 ms.date: 12/05/2018
 ms.keywords: AddStream, AddStream method [windows Media Format], AddStream method [windows Media Format],IWMStreamList interface, IWMStreamList interface [windows Media Format],AddStream method, IWMStreamList.AddStream, IWMStreamList::AddStream, IWMStreamListAddStream, wmformat.iwmstreamlist_addstream, wmsdkidl/IWMStreamList::AddStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamList.AddStream"
+f1_keywords:
+- wmsdkidl/IWMStreamList.AddStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamList.AddStream
+- IWMStreamList.AddStream
 targetos: Windows
 req.typenames: 
 req.redist: 

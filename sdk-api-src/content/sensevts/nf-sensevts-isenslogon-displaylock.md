@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensLogon.DisplayLock
 title: ISensLogon::DisplayLock (sensevts.h)
-
 description: The DisplayLock method notifies an application that the screen display is locked.
 old-location: sens\isenslogon_displaylock.htm
 tech.root: Sens
 ms.assetid: 1675ffc7-7031-492d-bf39-64281a16a074
-
 ms.date: 12/05/2018
 ms.keywords: DisplayLock, DisplayLock method [SENS], DisplayLock method [SENS],ISensLogon interface, ISensLogon interface [SENS],DisplayLock method, ISensLogon.DisplayLock, ISensLogon::DisplayLock, _zaw_isenslogon_displaylock, sens.isenslogon_displaylock, sensevts/ISensLogon::DisplayLock, syncmgr.isenslogon_displaylock
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensLogon.DisplayLock"
+f1_keywords:
+- sensevts/ISensLogon.DisplayLock
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensLogon.DisplayLock
+- ISensLogon.DisplayLock
 targetos: Windows
 req.typenames: 
 req.redist: 

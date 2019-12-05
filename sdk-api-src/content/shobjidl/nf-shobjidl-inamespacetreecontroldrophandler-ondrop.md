@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDrop
 title: INameSpaceTreeControlDropHandler::OnDrop (shobjidl.h)
-
 description: Called on drop to set drop effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDrop.htm
 tech.root: shell
 ms.assetid: 05c677fb-a2e2-4aa5-bb27-4dc437ca408c
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDrop method, INameSpaceTreeControlDropHandler.OnDrop, INameSpaceTreeControlDropHandler::OnDrop, OnDrop, OnDrop method [Windows Shell], OnDrop method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDrop, shell.INameSpaceTreeControlDropHandler_OnDrop, shobjidl/INameSpaceTreeControlDropHandler::OnDrop
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlDropHandler.OnDrop"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlDropHandler.OnDrop
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlDropHandler.OnDrop
+- INameSpaceTreeControlDropHandler.OnDrop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumerateModulesW64
 title: SymEnumerateModulesW64 function (dbghelp.h)
-
 description: Enumerates all modules that have been loaded for the process by the SymLoadModule64 or SymLoadModuleEx function.
 old-location: base\symenumeratemodules64.htm
 tech.root: Debug
 ms.assetid: d2372521-eff7-4ac4-a0f3-1267ef50db6e
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumerateModules, SymEnumerateModules function, SymEnumerateModules64, SymEnumerateModules64 function, SymEnumerateModulesW64, _win32_symenumeratemodules64, base.symenumeratemodules64, dbghelp/SymEnumerateModules, dbghelp/SymEnumerateModules64, dbghelp/SymEnumerateModulesW64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumerateModules64"
+f1_keywords:
+- dbghelp/SymEnumerateModules64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumerateModules64
- - SymEnumerateModules64
- - SymEnumerateModulesW64
- - SymEnumerateModules
+- SymEnumerateModules64
+- SymEnumerateModules64
+- SymEnumerateModulesW64
+- SymEnumerateModules
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

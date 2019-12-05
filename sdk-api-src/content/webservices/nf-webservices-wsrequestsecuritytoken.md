@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsRequestSecurityToken
 title: WsRequestSecurityToken function (webservices.h)
-
 description: Get a security token from a security token service (STS) that acts as the token issuer in a federation scenario.
 old-location: wsw\wsrequestsecuritytoken.htm
 tech.root: wsw
 ms.assetid: ee754a7d-73a9-49ae-afc7-b443fbbe0cce
-
 ms.date: 12/05/2018
 ms.keywords: WsRequestSecurityToken, WsRequestSecurityToken function [Web Services for Windows], webservices/WsRequestSecurityToken, wsw.wsrequestsecuritytoken
 ms.topic: function
 f1_keywords:
 - webservices/WsRequestSecurityToken
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

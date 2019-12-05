@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoPresenter.ProcessMessage
 title: IMFVideoPresenter::ProcessMessage (evr.h)
-
 description: Sends a message to the video presenter. Messages are used to signal the presenter that it must perform some action, or that some event has occurred.
 old-location: mf\imfvideopresenter_processmessage.htm
 tech.root: medfound
 ms.assetid: f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoPresenter interface [Media Foundation],ProcessMessage method, IMFVideoPresenter.ProcessMessage, IMFVideoPresenter::ProcessMessage, ProcessMessage, ProcessMessage method [Media Foundation], ProcessMessage method [Media Foundation],IMFVideoPresenter interface, evr/IMFVideoPresenter::ProcessMessage, f7113cb3-2ea9-4d4f-b6c7-ef4e1025cc6d, mf.imfvideopresenter_processmessage
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoPresenter.ProcessMessage"
+f1_keywords:
+- evr/IMFVideoPresenter.ProcessMessage
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoPresenter.ProcessMessage
+- IMFVideoPresenter.ProcessMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

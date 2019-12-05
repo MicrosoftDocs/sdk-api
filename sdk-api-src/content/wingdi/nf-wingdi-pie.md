@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.Pie
 title: Pie function (wingdi.h)
-
 description: The Pie function draws a pie-shaped wedge bounded by the intersection of an ellipse and two radials. The pie is outlined by using the current pen and filled by using the current brush.
 old-location: gdi\pie.htm
 tech.root: gdi
 ms.assetid: 86daa936-b483-4432-aa32-0b9328ff76f9
-
 ms.date: 12/05/2018
 ms.keywords: Pie, Pie function [Windows GDI], _win32_Pie, gdi.pie, wingdi/Pie
 ms.topic: function
-f1_keywords: 
- - "wingdi/Pie"
+f1_keywords:
+- wingdi/Pie
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - Pie
+- Pie
 targetos: Windows
 req.typenames: 
 req.redist: 

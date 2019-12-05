@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerWritePossibleDescription
 title: PowerWritePossibleDescription function (powrprof.h)
-
 description: Sets the description for one of the possible choices of a power setting value.
 old-location: base\powerwritepossibledescription.htm
 tech.root: power
 ms.assetid: 5dce4dc1-d8af-41b8-bef0-8f11b246960f
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWritePossibleDescription, PowerWritePossibleDescription function, base.powerwritepossibledescription, powrprof/PowerWritePossibleDescription
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerWritePossibleDescription"
+f1_keywords:
+- powrprof/PowerWritePossibleDescription
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerWritePossibleDescription
+- PowerWritePossibleDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

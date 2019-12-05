@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSecureChannel
 title: IMFSecureChannel (mfidl.h)
-
 description: Establishes a one-way secure channel between two objects.
 old-location: mf\imfsecurechannel.htm
 tech.root: medfound
 ms.assetid: 063170b8-9483-4acd-9b42-a226e9c38f0e
-
 ms.date: 12/05/2018
 ms.keywords: 063170b8-9483-4acd-9b42-a226e9c38f0e, IMFSecureChannel, IMFSecureChannel interface [Media Foundation], IMFSecureChannel interface [Media Foundation],described, mf.imfsecurechannel, mfidl/IMFSecureChannel
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSecureChannel"
+f1_keywords:
+- mfidl/IMFSecureChannel
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSecureChannel
+- IMFSecureChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

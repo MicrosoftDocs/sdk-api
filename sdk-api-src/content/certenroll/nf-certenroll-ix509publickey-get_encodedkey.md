@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PublicKey.get_EncodedKey
 title: IX509PublicKey::get_EncodedKey (certenroll.h)
-
 description: Retrieves a byte array that contains the public key.
 old-location: security\ix509publickey_encodedkey_property.htm
 tech.root: seccertenroll
 ms.assetid: 3573f4b6-ecfd-4540-bc43-c88943992fe2
-
 ms.date: 12/05/2018
 ms.keywords: EncodedKey property [Security], EncodedKey property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],EncodedKey property, IX509PublicKey.EncodedKey, IX509PublicKey.get_EncodedKey, IX509PublicKey::EncodedKey, IX509PublicKey::get_EncodedKey, certenroll/IX509PublicKey::EncodedKey, certenroll/IX509PublicKey::get_EncodedKey, get_EncodedKey, security.ix509publickey_encodedkey_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PublicKey.EncodedKey"
+f1_keywords:
+- certenroll/IX509PublicKey.EncodedKey
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PublicKey.EncodedKey
- - IX509PublicKey.get_EncodedKey
+- IX509PublicKey.EncodedKey
+- IX509PublicKey.get_EncodedKey
 targetos: Windows
 req.typenames: 
 req.redist: 

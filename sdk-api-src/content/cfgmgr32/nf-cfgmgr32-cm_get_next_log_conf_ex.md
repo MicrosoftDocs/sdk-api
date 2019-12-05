@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Next_Log_Conf_Ex
 title: CM_Get_Next_Log_Conf_Ex function (cfgmgr32.h)
-
 description: The CM_Get_Next_Log_Conf_Ex function obtains the next logical configuration associated with a specific device instance on a local or a remote machine.
 old-location: devinst\cm_get_next_log_conf_ex.htm
 tech.root: devinst
 ms.assetid: 590baeb8-9234-4895-a05b-1917b2ee0155
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Next_Log_Conf_Ex, CM_Get_Next_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Next_Log_Conf_Ex, cfgmgrfn_99fe9088-8c83-4fd5-854a-40f92c412d0f.xml, devinst.cm_get_next_log_conf_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Next_Log_Conf_Ex"
+f1_keywords:
+- cfgmgr32/CM_Get_Next_Log_Conf_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Next_Log_Conf_Ex
+- CM_Get_Next_Log_Conf_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

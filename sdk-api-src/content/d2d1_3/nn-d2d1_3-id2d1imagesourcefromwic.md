@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1ImageSourceFromWic
 title: ID2D1ImageSourceFromWic (d2d1_3.h)
-
 description: Produces 2D pixel data that has been sourced from WIC.
 old-location: direct2d\id2d1imagesourcefromwic.htm
 tech.root: Direct2D
 ms.assetid: EA1F1377-A314-4375-AB86-A36CFE5AF0C8
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1ImageSourceFromWic, ID2D1ImageSourceFromWic interface [Direct2D], ID2D1ImageSourceFromWic interface [Direct2D],described, d2d1_3/ID2D1ImageSourceFromWic, direct2d.id2d1imagesourcefromwic
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1ImageSourceFromWic"
+f1_keywords:
+- d2d1_3/ID2D1ImageSourceFromWic
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1ImageSourceFromWic
+- ID2D1ImageSourceFromWic
 targetos: Windows
 req.typenames: 
 req.redist: 

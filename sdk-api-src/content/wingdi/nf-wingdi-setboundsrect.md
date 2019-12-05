@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetBoundsRect
 title: SetBoundsRect function (wingdi.h)
-
 description: The SetBoundsRect function controls the accumulation of bounding rectangle information for the specified device context.
 old-location: gdi\setboundsrect.htm
 tech.root: gdi
 ms.assetid: ad361e78-42e8-4945-9395-fab983e396df
-
 ms.date: 12/05/2018
 ms.keywords: DCB_ACCUMULATE, DCB_DISABLE, DCB_ENABLE, DCB_RESET, SetBoundsRect, SetBoundsRect function [Windows GDI], _win32_SetBoundsRect, gdi.setboundsrect, wingdi/SetBoundsRect
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetBoundsRect"
+f1_keywords:
+- wingdi/SetBoundsRect
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SetBoundsRect
+- SetBoundsRect
 targetos: Windows
 req.typenames: 
 req.redist: 

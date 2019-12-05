@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_ProcessMode
 title: ITraceDataCollector::put_ProcessMode (pla.h)
-
 description: Retrieves or sets a value that indicates whether the session is a private, in-process session.
 old-location: pla\itracedatacollector_processmode.htm
 tech.root: PLA
 ms.assetid: 63962145-7627-46bc-9be1-3a0738bdb1ce
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],ProcessMode property, ITraceDataCollector.ProcessMode, ITraceDataCollector.put_ProcessMode, ITraceDataCollector::ProcessMode, ITraceDataCollector::get_ProcessMode, ITraceDataCollector::put_ProcessMode, ProcessMode property [PLA], ProcessMode property [PLA],ITraceDataCollector interface, base.itracedatacollector_processmode, pla.itracedatacollector_processmode, pla/ITraceDataCollector::ProcessMode, pla/ITraceDataCollector::get_ProcessMode, pla/ITraceDataCollector::put_ProcessMode, put_ProcessMode
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.ProcessMode"
+f1_keywords:
+- pla/ITraceDataCollector.ProcessMode
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.ProcessMode
- - ITraceDataCollector.get_ProcessMode
- - ITraceDataCollector.put_ProcessMode
+- ITraceDataCollector.ProcessMode
+- ITraceDataCollector.get_ProcessMode
+- ITraceDataCollector.put_ProcessMode
 targetos: Windows
 req.typenames: 
 req.redist: 

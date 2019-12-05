@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_skip_tag
 title: ber_skip_tag function (winber.h)
-
 description: The ber_skip_tag function skips the current tag and returns the tag of the next element in the supplied BerElement structure.
 old-location: ldap\ber_skip_tag.htm
 tech.root: ldap
 ms.assetid: aa7548db-7752-4ce5-9f24-434abe77b000
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_skip_tag, ber_skip_tag, ber_skip_tag function [LDAP], ldap.ber__skip__tag, ldap.ber_skip_tag, winber/ber_skip_tag"
+ms.keywords: _ldap_ber_skip_tag, ber_skip_tag, ber_skip_tag function [LDAP], ldap.ber__skip__tag, ldap.ber_skip_tag, winber/ber_skip_tag
 ms.topic: function
-f1_keywords: 
- - "winber/ber_skip_tag"
+f1_keywords:
+- winber/ber_skip_tag
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_skip_tag
+- ber_skip_tag
 targetos: Windows
 req.typenames: 
 req.redist: 

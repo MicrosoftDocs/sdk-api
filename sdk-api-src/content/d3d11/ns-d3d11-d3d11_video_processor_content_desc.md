@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_CONTENT_DESC
 title: D3D11_VIDEO_PROCESSOR_CONTENT_DESC (d3d11.h)
-
 description: Describes a video stream for a video processor.
 old-location: mf\d3d11_video_processor_content_desc.htm
 tech.root: medfound
 ms.assetid: A1649897-B368-4D03-9A08-630C8C59E44A
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_CONTENT_DESC, D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC, mf.d3d11_video_processor_content_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_CONTENT_DESC
+- D3D11_VIDEO_PROCESSOR_CONTENT_DESC
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_CONTENT_DESC
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsdefender.WDEnable
 title: WDEnable function (windowsdefender.h)
-
 description: Changes Windows Defender status to on or off.
 old-location: lwef\defender_wdenable.htm
 tech.root: lwef
 ms.assetid: a12d3b2a-6873-4ef4-90d6-08dbd5feb959
-
 ms.date: 12/05/2018
 ms.keywords: WDEnable, WDEnable function [Legacy Windows Environment Features], lwef.defender_wdenable, shell.defender_wdenable, shell_defender_WDEnable, windowsdefender/WDEnable
 ms.topic: function
-f1_keywords: 
- - "windowsdefender/WDEnable"
+f1_keywords:
+- windowsdefender/WDEnable
 dev_langs:
- - c++
+- c++
 req.header: windowsdefender.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MpClient.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MpClient.dll
+- MpClient.dll
 api_name:
- - WDEnable
+- WDEnable
 targetos: Windows
 req.typenames: 
 req.redist: 

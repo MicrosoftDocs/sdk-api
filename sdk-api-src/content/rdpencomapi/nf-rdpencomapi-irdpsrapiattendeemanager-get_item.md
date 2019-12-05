@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendeeManager.get_Item
 title: IRDPSRAPIAttendeeManager::get_Item (rdpencomapi.h)
-
 description: An item in the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager_item.htm
 tech.root: rdp
 ms.assetid: 963f795a-3da4-45d0-b609-8fcc2d6e5700
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],Item property, IRDPSRAPIAttendeeManager.Item, IRDPSRAPIAttendeeManager.get_Item, IRDPSRAPIAttendeeManager::Item, IRDPSRAPIAttendeeManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIAttendeeManager interface, Item property [RDP],RDPSRAPIAttendeeManager object, RDPSRAPIAttendeeManager object [RDP],Item property, get_Item, rdp.irdpsrapiattendeemanager_item, rdpencomapi/IRDPSRAPIAttendeeManager::Item, rdpencomapi/IRDPSRAPIAttendeeManager::get_Item
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendeeManager.Item"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendeeManager.Item
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeManager.Item
- - IRDPSRAPIAttendeeManager.get_Item
- - RDPSRAPIAttendeeManager.Item
+- IRDPSRAPIAttendeeManager.Item
+- IRDPSRAPIAttendeeManager.get_Item
+- RDPSRAPIAttendeeManager.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

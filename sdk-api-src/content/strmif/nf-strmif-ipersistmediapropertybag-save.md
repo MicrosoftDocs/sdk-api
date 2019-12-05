@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IPersistMediaPropertyBag.Save
 title: IPersistMediaPropertyBag::Save (strmif.h)
-
 description: The Save method saves properties from the filter into the media property bag.
 old-location: dshow\ipersistmediapropertybag_save.htm
 tech.root: DirectShow
 ms.assetid: 12c66650-31c1-40b8-9f3d-bc5553dbfa94
-
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag interface [DirectShow],Save method, IPersistMediaPropertyBag.Save, IPersistMediaPropertyBag::Save, IPersistMediaPropertyBagSave, Save, Save method [DirectShow], Save method [DirectShow],IPersistMediaPropertyBag interface, dshow.ipersistmediapropertybag_save, strmif/IPersistMediaPropertyBag::Save
 ms.topic: method
-f1_keywords: 
- - "strmif/IPersistMediaPropertyBag.Save"
+f1_keywords:
+- strmif/IPersistMediaPropertyBag.Save
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPersistMediaPropertyBag.Save
+- IPersistMediaPropertyBag.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

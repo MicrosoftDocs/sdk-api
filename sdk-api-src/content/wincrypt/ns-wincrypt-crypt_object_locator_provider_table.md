@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 title: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE (wincrypt.h)
-
 description: Contains pointers to functions implemented by an object location provider.
 old-location: security\crypt_object_locator_provider_table.htm
 tech.root: SecCrypto
 ms.assetid: 4B319A83-C230-4BFE-AF21-1395ED2D234B
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure [Security], PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure pointer [Security], security.crypt_object_locator_provider_table, wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, wincrypt/PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
+ms.keywords: '*PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure [Security], PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE structure pointer [Security], security.crypt_object_locator_provider_table, wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, wincrypt/PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE"
+f1_keywords:
+- wincrypt/CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
+- CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 targetos: Windows
 req.typenames: CRYPT_OBJECT_LOCATOR_PROVIDER_TABLE, *PCRYPT_OBJECT_LOCATOR_PROVIDER_TABLE
 req.redist: 

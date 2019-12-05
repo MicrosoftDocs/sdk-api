@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.UnicodeToHex
 title: ITextRange2::UnicodeToHex (tom.h)
-
 description: Converts the Unicode character(s) preceding the start position of this text range to a hexadecimal number, and selects it.
 old-location: controls\itextrange2_unicodetohex.htm
 tech.root: Controls
 ms.assetid: 538f7db4-0739-421c-9d51-8144b2d52334
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],UnicodeToHex method, ITextRange2.UnicodeToHex, ITextRange2::UnicodeToHex, UnicodeToHex, UnicodeToHex method [Windows Controls], UnicodeToHex method [Windows Controls],ITextRange2 interface, controls.itextrange2_unicodetohex, tom/ITextRange2::UnicodeToHex
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.UnicodeToHex"
+f1_keywords:
+- tom/ITextRange2.UnicodeToHex
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.UnicodeToHex
+- ITextRange2.UnicodeToHex
 targetos: Windows
 req.typenames: 
 req.redist: 

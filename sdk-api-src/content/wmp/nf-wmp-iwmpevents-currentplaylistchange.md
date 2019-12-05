@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.CurrentPlaylistChange
 title: IWMPEvents::CurrentPlaylistChange (wmp.h)
-
 description: The CurrentPlaylistChange event occurs when something changes within the current playlist.
 old-location: wmp\iwmpevents_iwmpevents__currentplaylistchange.htm
 tech.root: WMP
 ms.assetid: b8020b8a-4f2e-4039-862e-9c0f371645fa
-
 ms.date: 12/05/2018
 ms.keywords: CurrentPlaylistChange, CurrentPlaylistChange method [Windows Media Player], CurrentPlaylistChange method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],CurrentPlaylistChange method, IWMPEvents.CurrentPlaylistChange, IWMPEvents::CurrentPlaylistChange, IWMPEventsCurrentPlaylistChange, wmp.iwmpevents_iwmpevents__currentplaylistchange, wmp/IWMPEvents::CurrentPlaylistChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.CurrentPlaylistChange"
+f1_keywords:
+- wmp/IWMPEvents.CurrentPlaylistChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.CurrentPlaylistChange
+- IWMPEvents.CurrentPlaylistChange
 targetos: Windows
 req.typenames: 
 req.redist: 

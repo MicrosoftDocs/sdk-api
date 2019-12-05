@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagQualityMessageType
 title: QualityMessageType (strmif.h)
-
 description: Describes a quality message type.
 old-location: dshow\qualitymessagetype.htm
 tech.root: DirectShow
 ms.assetid: 54a2239d-bf37-499d-b8c4-f797c1b46933
-
 ms.date: 12/05/2018
 ms.keywords: Famine, Flood, QualityMessageType, QualityMessageType enumeration [DirectShow], QualityMessageTypeEnumeration, dshow.qualitymessagetype, strmif/Famine, strmif/Flood, strmif/QualityMessageType
 ms.topic: enum
-f1_keywords: 
- - "strmif/QualityMessageType"
+f1_keywords:
+- strmif/QualityMessageType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - QualityMessageType
+- QualityMessageType
 targetos: Windows
 req.typenames: QualityMessageType
 req.redist: 

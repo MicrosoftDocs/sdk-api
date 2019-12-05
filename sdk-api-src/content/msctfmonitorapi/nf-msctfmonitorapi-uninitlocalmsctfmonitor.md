@@ -1,19 +1,17 @@
 ---
 UID: NF:msctfmonitorapi.UninitLocalMsCtfMonitor
 title: UninitLocalMsCtfMonitor function (msctfmonitorapi.h)
-
 description: The UninitLocalMsCtfMonitor function uninitializes TextServicesFramework on the current desktop.
 old-location: tsf\UninitLocalMsCtfMonitor.htm
 tech.root: TSF
 ms.assetid: 73c8b170-da76-4710-b307-61c42954997a
-
 ms.date: 12/05/2018
 ms.keywords: UninitLocalMsCtfMonitor, UninitLocalMsCtfMonitor function [Text Services Framework], msctfmonitorapi/UninitLocalMsCtfMonitor, tsf.UninitLocalMsCtfMonitor
 ms.topic: function
-f1_keywords: 
- - "msctfmonitorapi/UninitLocalMsCtfMonitor"
+f1_keywords:
+- msctfmonitorapi/UninitLocalMsCtfMonitor
 dev_langs:
- - c++
+- c++
 req.header: msctfmonitorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MsCtfMonitor.lib
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - UninitLocalMsCtfMonitor
+- UninitLocalMsCtfMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

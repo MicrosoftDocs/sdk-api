@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnGetSAPIObject
 title: ITfFnGetSAPIObject (ctffunc.h)
-
 description: The ITfFnGetSAPIObject interface is implemented by the Speech API (SAPI) text service. This interface is used by the TSF manager or a client (application or other text service) to obtain various SAPI objects.
 old-location: tsf\itffngetsapiobject.htm
 tech.root: TSF
 ms.assetid: d7b4caa5-e915-4e57-878a-2a2d6ce609a7
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnGetSAPIObject, ITfFnGetSAPIObject interface [Text Services Framework], ITfFnGetSAPIObject interface [Text Services Framework],described, _tsf_itffngetsapiobject_ref, ctffunc/ITfFnGetSAPIObject, tsf.itffngetsapiobject
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnGetSAPIObject"
+f1_keywords:
+- ctffunc/ITfFnGetSAPIObject
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnGetSAPIObject
+- ITfFnGetSAPIObject
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeClientId.get_ProcessName
 title: IX509AttributeClientId::get_ProcessName (certenroll.h)
-
 description: Retrieves the name of the application that generated the request.
 old-location: security\ix509attributeclientid_processname_property.htm
 tech.root: seccertenroll
 ms.assetid: 7e273ffe-3f80-49b6-a4e5-939f5ba9d5bd
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeClientId interface [Security],ProcessName property, IX509AttributeClientId.ProcessName, IX509AttributeClientId.get_ProcessName, IX509AttributeClientId::ProcessName, IX509AttributeClientId::get_ProcessName, ProcessName property [Security], ProcessName property [Security],IX509AttributeClientId interface, certenroll/IX509AttributeClientId::ProcessName, certenroll/IX509AttributeClientId::get_ProcessName, get_ProcessName, security.ix509attributeclientid_processname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeClientId.ProcessName"
+f1_keywords:
+- certenroll/IX509AttributeClientId.ProcessName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeClientId.ProcessName
- - IX509AttributeClientId.get_ProcessName
+- IX509AttributeClientId.ProcessName
+- IX509AttributeClientId.get_ProcessName
 targetos: Windows
 req.typenames: 
 req.redist: 

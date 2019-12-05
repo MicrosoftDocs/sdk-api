@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingMessage2
 title: IFaxOutgoingMessage2 (faxcomex.h)
-
 description: Used by a fax client application to retrieve information about a sent fax message in the archive of outbound faxes.
 old-location: fax\_mfax_faxoutgoingmessage2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\faxinta_n_ifaxoutgoingmessage2_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingMessage2, IFaxOutgoingMessage2 interface [Fax Service], IFaxOutgoingMessage2 interface [Fax Service],described, _mfax_faxoutgoingmessage2_cpp, fax._mfax_faxoutgoingmessage2_cpp, faxcomex/IFaxOutgoingMessage2
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage2"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage2
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage2
+- IFaxOutgoingMessage2
 targetos: Windows
 req.typenames: 
 req.redist: 

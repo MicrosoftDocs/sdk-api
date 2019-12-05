@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagACCEL
 title: ACCEL (winuser.h)
-
 description: Defines an accelerator key used in an accelerator table.
 old-location: menurc\accel.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorstructures\accel.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPACCEL, ACCEL, ACCEL structure [Menus and Other Resources], FALT, FCONTROL, FNOINVERT, FSHIFT, FVIRTKEY, LPACCEL, LPACCEL structure pointer [Menus and Other Resources], _win32_ACCEL_str, _win32_accel_str_cpp, menurc.accel, winui._win32_accel_str, winuser/ACCEL, winuser/LPACCEL"
+ms.keywords: '*LPACCEL, ACCEL, ACCEL structure [Menus and Other Resources], FALT, FCONTROL, FNOINVERT, FSHIFT, FVIRTKEY, LPACCEL, LPACCEL structure pointer [Menus and Other Resources], _win32_ACCEL_str, _win32_accel_str_cpp, menurc.accel, winui._win32_accel_str, winuser/ACCEL, winuser/LPACCEL'
 ms.topic: struct
-f1_keywords: 
- - "winuser/ACCEL"
+f1_keywords:
+- winuser/ACCEL
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - ACCEL
+- ACCEL
 targetos: Windows
 req.typenames: ACCEL, *LPACCEL
 req.redist: 

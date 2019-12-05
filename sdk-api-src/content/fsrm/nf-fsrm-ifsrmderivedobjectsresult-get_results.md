@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmDerivedObjectsResult.get_Results
 title: IFsrmDerivedObjectsResult::get_Results (fsrm.h)
-
 description: Retrieves the HRESULT values that indicate the success or failure of the update for each derived object.
 old-location: fsrm\ifsrmderivedobjectsresult_results.htm
 tech.root: fsrm
 ms.assetid: b5946160-565b-4c94-ba2e-18f270eb1af1
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmDerivedObjectsResult interface [File Server Resource Manager],Results property, IFsrmDerivedObjectsResult.Results, IFsrmDerivedObjectsResult.get_Results, IFsrmDerivedObjectsResult::Results, IFsrmDerivedObjectsResult::get_Results, Results property [File Server Resource Manager], Results property [File Server Resource Manager],IFsrmDerivedObjectsResult interface, fs.ifsrmderivedobjectsresult_results, fsrm.ifsrmderivedobjectsresult_results, fsrm/IFsrmDerivedObjectsResult::Results, fsrm/IFsrmDerivedObjectsResult::get_Results, get_Results
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmDerivedObjectsResult.Results"
+f1_keywords:
+- fsrm/IFsrmDerivedObjectsResult.Results
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmDerivedObjectsResult.Results
- - IFsrmDerivedObjectsResult.get_Results
+- IFsrmDerivedObjectsResult.Results
+- IFsrmDerivedObjectsResult.get_Results
 targetos: Windows
 req.typenames: 
 req.redist: 

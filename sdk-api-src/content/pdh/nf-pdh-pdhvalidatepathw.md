@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhValidatePathW
 title: PdhValidatePathW function (pdh.h)
-
 description: Validates that the counter is present on the computer specified in the counter path.
 old-location: perf\pdhvalidatepath.htm
 tech.root: perfctrs
 ms.assetid: 9248e63c-2672-466f-85f5-46f26e31dc75
-
 ms.date: 12/05/2018
 ms.keywords: PdhValidatePath, PdhValidatePath function [Perf], PdhValidatePathA, PdhValidatePathW, _win32_pdhvalidatepath, base.pdhvalidatepath, pdh/PdhValidatePath, pdh/PdhValidatePathA, pdh/PdhValidatePathW, perf.pdhvalidatepath
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhValidatePath"
+f1_keywords:
+- pdh/PdhValidatePath
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhValidatePath
- - PdhValidatePathA
- - PdhValidatePathW
+- PdhValidatePath
+- PdhValidatePathA
+- PdhValidatePathW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -3,14 +3,13 @@ UID: NF:gdipluspath.PathGradientBrush.GetRectangle(OUT RectF)
 title: PathGradientBrush::GetRectangle
 description: The PathGradientBrush::GetRectangle method gets the smallest rectangle that encloses the boundary path of this path gradient brush.
 ms.assetid: da6ff6c8-4be9-46fe-8509-5e72b2feab71
-
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::GetRectangle
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/PathGradientBrush::GetRectangle"
+f1_keywords:
+- gdipluspath/PathGradientBrush::GetRectangle
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - PathGradientBrush::GetRectangle
+- PathGradientBrush::GetRectangle
 ---
 
 # PathGradientBrush::GetRectangle

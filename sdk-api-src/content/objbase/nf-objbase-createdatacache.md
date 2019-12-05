@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreateDataCache
 title: CreateDataCache function (objbase.h)
-
 description: Retrieves a pointer to a new instance of an OLE-provided implementation of a data cache.
 old-location: com\createdatacache.htm
 tech.root: com
 ms.assetid: 8a64675b-1337-4555-b9a6-e19f9b987ba2
-
 ms.date: 12/05/2018
 ms.keywords: CreateDataCache, CreateDataCache function [COM], _ole_CreateDataCache, com.createdatacache, objbase/CreateDataCache
 ms.topic: function
-f1_keywords: 
- - "objbase/CreateDataCache"
+f1_keywords:
+- objbase/CreateDataCache
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
+- Ole32.dll
+- Ext-MS-Win-OLE32-IE-Ext-l1-1-0.dll
 api_name:
- - CreateDataCache
+- CreateDataCache
 targetos: Windows
 req.typenames: 
 req.redist: 

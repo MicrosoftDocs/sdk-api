@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantGetElementCount
 title: VariantGetElementCount function (propvarutil.h)
-
 description: Retrieves the element count of a variant structure.
 old-location: properties\VariantGetElementCount.htm
 tech.root: properties
 ms.assetid: 2bf96650-c0c4-4c99-9a04-d36d506b8f68
-
 ms.date: 12/05/2018
 ms.keywords: VariantGetElementCount, VariantGetElementCount function [Windows Properties], _shell_VariantGetElementCount, properties.VariantGetElementCount, propvarutil/VariantGetElementCount, shell.VariantGetElementCount
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantGetElementCount"
+f1_keywords:
+- propvarutil/VariantGetElementCount
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantGetElementCount
+- VariantGetElementCount
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

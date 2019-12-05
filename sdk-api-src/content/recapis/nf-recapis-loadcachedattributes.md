@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.LoadCachedAttributes
 title: LoadCachedAttributes function (recapis.h)
-
 description: Loads the cached attributes of a recognizer.
 old-location: tablet\loadcachedattributes.htm
 tech.root: tablet
 ms.assetid: 19DC01B8-FB2C-4724-907A-E68A9DD37FF3
-
 ms.date: 12/05/2018
 ms.keywords: LoadCachedAttributes, LoadCachedAttributes function [Tablet PC], recapis/LoadCachedAttributes, tablet.loadcachedattributes
 ms.topic: function
-f1_keywords: 
- - "recapis/LoadCachedAttributes"
+f1_keywords:
+- recapis/LoadCachedAttributes
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - LoadCachedAttributes
+- LoadCachedAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

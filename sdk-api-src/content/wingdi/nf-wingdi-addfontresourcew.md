@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.AddFontResourceW
 title: AddFontResourceW function (wingdi.h)
-
 description: The AddFontResource function adds the font resource from the specified file to the system font table. The font can subsequently be used for text output by any application.
 old-location: gdi\addfontresource.htm
 tech.root: gdi
 ms.assetid: e553a25a-f281-4ddc-8e95-1f61ed8238f9
-
 ms.date: 12/05/2018
-ms.keywords: ".fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW"
+ms.keywords: .fnt, .fon, .fot, .mmm, .otf, .pfb, .pfm, .ttc, .ttf, AddFontResource, AddFontResource function [Windows GDI], AddFontResourceA, AddFontResourceW, _win32_AddFontResource, gdi.addfontresource, wingdi/AddFontResource, wingdi/AddFontResourceA, wingdi/AddFontResourceW
 ms.topic: function
-f1_keywords: 
- - "wingdi/AddFontResource"
+f1_keywords:
+- wingdi/AddFontResource
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - AddFontResource
- - AddFontResourceA
- - AddFontResourceW
+- AddFontResource
+- AddFontResourceA
+- AddFontResourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

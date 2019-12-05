@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_Frequency
 title: ITCustomTone::get_Frequency (tapi3if.h)
-
 description: The get_Frequency method retrieves the frequency of the tone component to generate.
 old-location: tapi3\itcustomtone_get_frequency.htm
 tech.root: Tapi
 ms.assetid: 2521d754-234a-4ef0-a3b2-23cea999ad45
-
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_Frequency method, ITCustomTone.get_Frequency, ITCustomTone::get_Frequency, _tapi3_itcustomtone_get_frequency, get_Frequency, get_Frequency method [TAPI 2.2], get_Frequency method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_frequency, tapi3if/ITCustomTone::get_Frequency
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCustomTone.get_Frequency"
+f1_keywords:
+- tapi3if/ITCustomTone.get_Frequency
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCustomTone.get_Frequency
+- ITCustomTone.get_Frequency
 targetos: Windows
 req.typenames: 
 req.redist: 

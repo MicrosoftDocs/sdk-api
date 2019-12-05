@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.IS_SURROGATE_PAIR
 title: IS_SURROGATE_PAIR macro (winnls.h)
-
 description: Determines if the specified code units form a UTF-16 surrogate pair.
 old-location: intl\is_surrogate_pair.htm
 tech.root: Intl
 ms.assetid: cf7bf905-2cf7-416f-985f-cda4e03b86f9
-
 ms.date: 12/05/2018
 ms.keywords: IS_SURROGATE_PAIR, IS_SURROGATE_PAIR macro [Internationalization for Windows Applications], _win32_IS_SURROGATE_PAIR, intl.is_surrogate_pair, winnls/IS_SURROGATE_PAIR
 ms.topic: macro
-f1_keywords: 
- - "winnls/IS_SURROGATE_PAIR"
+f1_keywords:
+- winnls/IS_SURROGATE_PAIR
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - IS_SURROGATE_PAIR
+- IS_SURROGATE_PAIR
 targetos: Windows
 req.typenames: 
 req.redist: 

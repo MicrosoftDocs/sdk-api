@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.CreateSigningOptions
 title: IOpcDigitalSignatureManager::CreateSigningOptions (msopc.h)
-
 description: Creates an IOpcSigningOptions interface pointer.
 old-location: opc\iopcdigitalsignaturemanager_createsigningoptions.htm
 tech.root: OPC
 ms.assetid: c58f9730-b2c2-40cd-8aae-03fbd09f8c76
-
 ms.date: 12/05/2018
 ms.keywords: CreateSigningOptions, CreateSigningOptions method [Open Packaging Conventions], CreateSigningOptions method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, IOpcDigitalSignatureManager interface [Open Packaging Conventions],CreateSigningOptions method, IOpcDigitalSignatureManager.CreateSigningOptions, IOpcDigitalSignatureManager::CreateSigningOptions, msopc/IOpcDigitalSignatureManager::CreateSigningOptions, opc.iopcdigitalsignaturemanager_createsigningoptions
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureManager.CreateSigningOptions"
+f1_keywords:
+- msopc/IOpcDigitalSignatureManager.CreateSigningOptions
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureManager.CreateSigningOptions
+- IOpcDigitalSignatureManager.CreateSigningOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

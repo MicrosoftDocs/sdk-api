@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluspath.GraphicsPathIterator
 title: GraphicsPathIterator (gdipluspath.h)
-
 description: This GraphicsPathIterator class provides methods for isolating selected subsets of the path stored in a GraphicsPath object.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiterator.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator, GraphicsPathIterator class [GDI+], GraphicsPathIterator class [GDI+],described, _gdiplus_CLASS_GraphicsPathIterator_Class, gdiplus._gdiplus_CLASS_GraphicsPathIterator_Class, gdipluspath/GraphicsPathIterator
 ms.topic: class
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPathIterator
+- GraphicsPathIterator
 targetos: Windows
 req.typenames: 
 req.redist: 

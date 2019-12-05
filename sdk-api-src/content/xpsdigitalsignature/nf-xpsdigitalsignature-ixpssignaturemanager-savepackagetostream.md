@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.SavePackageToStream
 title: IXpsSignatureManager::SavePackageToStream (xpsdigitalsignature.h)
-
 description: Saves the XPS package by writing it to a stream.
 old-location: xps\ixpssignaturemanager_savepackagetostream.htm
 tech.root: printdocs
 ms.assetid: 1a29c8e2-2e5d-4cc0-adfd-6debabca9243
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager interface [XPS Documents and Packaging],SavePackageToStream method, IXpsSignatureManager.SavePackageToStream, IXpsSignatureManager::SavePackageToStream, SavePackageToStream, SavePackageToStream method [XPS Documents and Packaging], SavePackageToStream method [XPS Documents and Packaging],IXpsSignatureManager interface, xps.ixpssignaturemanager_savepackagetostream, xpsdigitalsignature/IXpsSignatureManager::SavePackageToStream
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager.SavePackageToStream"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager.SavePackageToStream
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.SavePackageToStream
+- IXpsSignatureManager.SavePackageToStream
 targetos: Windows
 req.typenames: 
 req.redist: 

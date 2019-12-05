@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfUIElementMgr.EndUIElement
 title: ITfUIElementMgr::EndUIElement (msctf.h)
-
 description: The ITfUIElementMgr::EndUIElement method is called by a text service when the element of UI is hidden.
 old-location: tsf\itfuielementmgr_enduielement.htm
 tech.root: TSF
 ms.assetid: cec22994-c233-4f84-8237-749ef3cc8aff
-
 ms.date: 12/05/2018
 ms.keywords: EndUIElement, EndUIElement method [Text Services Framework], EndUIElement method [Text Services Framework],ITfUIElementMgr interface, ITfUIElementMgr interface [Text Services Framework],EndUIElement method, ITfUIElementMgr.EndUIElement, ITfUIElementMgr::EndUIElement, msctf/ITfUIElementMgr::EndUIElement, tsf.itfuielementmgr_enduielement
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfUIElementMgr.EndUIElement"
+f1_keywords:
+- msctf/ITfUIElementMgr.EndUIElement
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfUIElementMgr.EndUIElement
+- ITfUIElementMgr.EndUIElement
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

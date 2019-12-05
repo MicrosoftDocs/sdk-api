@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.NotifyStableUnicastIpAddressTable
 title: NotifyStableUnicastIpAddressTable function (netioapi.h)
-
 description: Retrieves the stable unicast IP address table on a local computer.
 old-location: iphlp\notifystableunicastipaddresstable.htm
 tech.root: IpHlp
 ms.assetid: 80d10088-79ef-41fd-add7-994d2a780ddb
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyStableUnicastIpAddressTable, NotifyStableUnicastIpAddressTable function [IP Helper], iphlp.notifystableunicastipaddresstable, netioapi/NotifyStableUnicastIpAddressTable
 ms.topic: function
 f1_keywords:
 - netioapi/NotifyStableUnicastIpAddressTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

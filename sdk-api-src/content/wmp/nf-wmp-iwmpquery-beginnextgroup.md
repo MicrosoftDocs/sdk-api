@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPQuery.beginNextGroup
 title: IWMPQuery::beginNextGroup (wmp.h)
-
 description: The beginNextGroup method begins a new condition group.
 old-location: wmp\iwmpquery_beginnextgroup.htm
 tech.root: WMP
 ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880
-
 ms.date: 12/05/2018
 ms.keywords: IWMPQuery interface [Windows Media Player],beginNextGroup method, IWMPQuery.beginNextGroup, IWMPQuery::beginNextGroup, IWMPQuerybeginNextGroup, beginNextGroup, beginNextGroup method [Windows Media Player], beginNextGroup method [Windows Media Player],IWMPQuery interface, wmp.iwmpquery_beginnextgroup, wmp/IWMPQuery::beginNextGroup
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPQuery.beginNextGroup"
+f1_keywords:
+- wmp/IWMPQuery.beginNextGroup
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPQuery.beginNextGroup
+- IWMPQuery.beginNextGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

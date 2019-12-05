@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Deserializer_Close
 title: MI_Deserializer_Close function (mi.h)
-
 description: Closes a deserializer object and deletes any associated memory that is held within the deserializer.
 old-location: wmi_v2\mi_deserializer_close.htm
 tech.root: wmi_v2
 ms.assetid: 34ddbd4f-723f-4580-aad6-c5c236a1f5d9
-
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_Close, MI_Deserializer_Close function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Close, wmi_v2.mi_deserializer_close
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Deserializer_Close"
+f1_keywords:
+- mi/MI_Deserializer_Close
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Deserializer_Close
+- MI_Deserializer_Close
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

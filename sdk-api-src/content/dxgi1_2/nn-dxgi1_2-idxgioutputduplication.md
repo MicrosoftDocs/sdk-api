@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_2.IDXGIOutputDuplication
 title: IDXGIOutputDuplication (dxgi1_2.h)
-
 description: The IDXGIOutputDuplication interface accesses and manipulates the duplicated desktop image.
 old-location: direct3ddxgi\idxgioutputduplication.htm
 tech.root: direct3ddxgi
 ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], IDXGIOutputDuplication interface [DXGI],described, direct3ddxgi.idxgioutputduplication, dxgi1_2/IDXGIOutputDuplication
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_2/IDXGIOutputDuplication"
+f1_keywords:
+- dxgi1_2/IDXGIOutputDuplication
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIOutputDuplication
+- IDXGIOutputDuplication
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwProduct
 title: INetFwProduct (netfw.h)
-
 description: To access the properties of a third-party firewall registration.
 old-location: ics\inetfwproduct.htm
 tech.root: ics
 ms.assetid: e4cadbfd-d48d-4b38-a068-fc005d6f72af
-
 ms.date: 12/05/2018
 ms.keywords: INetFwProduct, INetFwProduct interface [ICS/ICF], INetFwProduct interface [ICS/ICF],described, ics.inetfwproduct, netfw/INetFwProduct
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwProduct"
+f1_keywords:
+- netfw/INetFwProduct
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwProduct
+- INetFwProduct
 targetos: Windows
 req.typenames: 
 req.redist: 

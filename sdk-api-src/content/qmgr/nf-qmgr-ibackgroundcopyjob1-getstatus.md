@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetStatus
 title: IBackgroundCopyJob1::GetStatus (qmgr.h)
-
 description: Use the GetStatus method to retrieve the state of the job.
 old-location: bits\ibackgroundcopyjob1_getstatus.htm
 tech.root: Bits
 ms.assetid: 6a4530fd-6b8e-4f31-a16e-5ed40adb4957
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [BITS], GetStatus method [BITS],IBackgroundCopyJob1 interface, IBackgroundCopyJob1 interface [BITS],GetStatus method, IBackgroundCopyJob1.GetStatus, IBackgroundCopyJob1::GetStatus, QM_STATUS_JOB_COMPLETE, QM_STATUS_JOB_ERROR, QM_STATUS_JOB_FOREGROUND, QM_STATUS_JOB_INCOMPLETE, bits.ibackgroundcopyjob1_getstatus, qmgr/IBackgroundCopyJob1::GetStatus
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyJob1.GetStatus"
+f1_keywords:
+- qmgr/IBackgroundCopyJob1.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1.GetStatus
+- IBackgroundCopyJob1.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

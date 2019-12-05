@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerRestoreIndividualDefaultPowerScheme
 title: PowerRestoreIndividualDefaultPowerScheme function (powrprof.h)
-
 description: Replaces a specific power scheme for the current user with one from the default user (stored in HKEY_USERS\.Default).
 old-location: base\powerrestoreindividualdefaultpowerscheme.htm
 tech.root: power
 ms.assetid: f1a9cfb1-1b56-4873-994b-7fe929fdc86c
-
 ms.date: 12/05/2018
 ms.keywords: PowerRestoreIndividualDefaultPowerScheme, PowerRestoreIndividualDefaultPowerScheme function, base.powerrestoreindividualdefaultpowerscheme, powrprof/PowerRestoreIndividualDefaultPowerScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerRestoreIndividualDefaultPowerScheme"
+f1_keywords:
+- powrprof/PowerRestoreIndividualDefaultPowerScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerRestoreIndividualDefaultPowerScheme
+- PowerRestoreIndividualDefaultPowerScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

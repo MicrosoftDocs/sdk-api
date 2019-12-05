@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextBinary
 title: IMFTimedTextBinary (mfmediaengine.h)
-
 description: Represents the data content of a timed-text object.
 old-location: mf\imftimedtextbinary.htm
 tech.root: medfound
 ms.assetid: C76FAC0F-6C15-4874-BAE6-7315E1C3066E
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextBinary, IMFTimedTextBinary interface [Media Foundation], IMFTimedTextBinary interface [Media Foundation],described, mf.imftimedtextbinary, mfmediaengine/IMFTimedTextBinary
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextBinary"
+f1_keywords:
+- mfmediaengine/IMFTimedTextBinary
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextBinary
+- IMFTimedTextBinary
 targetos: Windows
 req.typenames: 
 req.redist: 

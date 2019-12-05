@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateMatrixTransform
 title: IDCompositionDevice2::CreateMatrixTransform (dcomp.h)
-
 description: Creates a 2D 3-by-2 matrix transform object.
 old-location: directcomp\idcompositiondevice2_creatematrixtransform.htm
 tech.root: directcomp
 ms.assetid: 4E8D8560-F7D3-4075-A4E9-00AFCEB526BE
-
 ms.date: 12/05/2018
 ms.keywords: CreateMatrixTransform, CreateMatrixTransform method [DirectComposition], CreateMatrixTransform method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateMatrixTransform method, IDCompositionDevice2.CreateMatrixTransform, IDCompositionDevice2::CreateMatrixTransform, dcomp/IDCompositionDevice2::CreateMatrixTransform, directcomp.idcompositiondevice2_creatematrixtransform
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice2.CreateMatrixTransform"
+f1_keywords:
+- dcomp/IDCompositionDevice2.CreateMatrixTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateMatrixTransform
+- IDCompositionDevice2.CreateMatrixTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects.MediaInfo
 title: IWMPEffects::MediaInfo (effects.h)
-
 description: The MediaInfo method sends channel and sample rate data to the visualization.
 old-location: wmp\iwmpeffects_mediainfo.htm
 tech.root: WMP
 ms.assetid: 1267cb11-1b45-4f38-ad3c-02213405ed66
-
 ms.date: 12/05/2018
 ms.keywords: EffectsMediaInfo, IWMPEffects interface [Windows Media Player],MediaInfo method, IWMPEffects.MediaInfo, IWMPEffects::MediaInfo, MediaInfo, MediaInfo method [Windows Media Player], MediaInfo method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::MediaInfo, wmp.iwmpeffects_mediainfo
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects.MediaInfo"
+f1_keywords:
+- effects/IWMPEffects.MediaInfo
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects.MediaInfo
+- IWMPEffects.MediaInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

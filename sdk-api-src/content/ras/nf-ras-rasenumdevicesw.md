@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasEnumDevicesW
 title: RasEnumDevicesW function (ras.h)
-
 description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
 old-location: rras\rasenumdevices.htm
 tech.root: RRAS
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
-
 ms.date: 12/05/2018
 ms.keywords: RasEnumDevices, RasEnumDevices function [RAS], RasEnumDevicesA, RasEnumDevicesW, _ras_rasenumdevices, ras/RasEnumDevices, ras/RasEnumDevicesA, ras/RasEnumDevicesW, rras.rasenumdevices
 ms.topic: function
-f1_keywords: 
- - "ras/RasEnumDevices"
+f1_keywords:
+- ras/RasEnumDevices
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasEnumDevices
- - RasEnumDevicesA
- - RasEnumDevicesW
+- RasEnumDevices
+- RasEnumDevicesA
+- RasEnumDevicesW
 targetos: Windows
 req.typenames: 
 req.redist: 

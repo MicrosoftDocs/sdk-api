@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.get_ClassificationReportMailTo
 title: IFsrmClassificationManager::get_ClassificationReportMailTo (fsrmpipeline.h)
-
 description: The email address to which to send the classification reports, if any.
 old-location: fsrm\ifsrmclassificationmanager_classificationreportmailto.htm
 tech.root: fsrm
 ms.assetid: fa998edc-7ef8-43fa-a83a-7e4ba911e970
-
 ms.date: 12/05/2018
 ms.keywords: ClassificationReportMailTo property [File Server Resource Manager], ClassificationReportMailTo property [File Server Resource Manager],FsrmClassificationManager class, ClassificationReportMailTo property [File Server Resource Manager],IFsrmClassificationManager interface, ClassificationReportMailTo property [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager interface [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager.ClassificationReportMailTo, IFsrmClassificationManager.get_ClassificationReportMailTo, IFsrmClassificationManager2 interface [File Server Resource Manager],ClassificationReportMailTo property, IFsrmClassificationManager2.ClassificationReportMailTo, IFsrmClassificationManager2::get_ClassificationReportMailTo, IFsrmClassificationManager2::put_ClassificationReportMailTo, IFsrmClassificationManager::ClassificationReportMailTo, IFsrmClassificationManager::get_ClassificationReportMailTo, IFsrmClassificationManager::put_ClassificationReportMailTo, fs.ifsrmclassificationmanager_classificationreportmailto, fsrm.ifsrmclassificationmanager_classificationreportmailto, fsrmpipeline/IFsrmClassificationManager2::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager2::put_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::get_ClassificationReportMailTo, fsrmpipeline/IFsrmClassificationManager::put_ClassificationReportMailTo, get_ClassificationReportMailTo
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.ClassificationReportMailTo"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.ClassificationReportMailTo
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.ClassificationReportMailTo
- - IFsrmClassificationManager.get_ClassificationReportMailTo
- - IFsrmClassificationManager.put_ClassificationReportMailTo
- - IFsrmClassificationManager2.ClassificationReportMailTo
- - IFsrmClassificationManager2.get_ClassificationReportMailTo
- - IFsrmClassificationManager2.put_ClassificationReportMailTo
- - FsrmClassificationManager.ClassificationReportMailTo
+- IFsrmClassificationManager.ClassificationReportMailTo
+- IFsrmClassificationManager.get_ClassificationReportMailTo
+- IFsrmClassificationManager.put_ClassificationReportMailTo
+- IFsrmClassificationManager2.ClassificationReportMailTo
+- IFsrmClassificationManager2.get_ClassificationReportMailTo
+- IFsrmClassificationManager2.put_ClassificationReportMailTo
+- FsrmClassificationManager.ClassificationReportMailTo
 targetos: Windows
 req.typenames: 
 req.redist: 

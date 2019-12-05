@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetDefaultFontAxisValues
 title: IDWriteFontResource::GetDefaultFontAxisValues
-
 description: Retrieves the default values for all axes supported by the font resource.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetDefaultFontAxisValues method, IDWriteFontResource.GetDefaultFontAxisValues, IDWriteFontResource::GetDefaultFontAxisValues, GetDefaultFontAxisValues, GetDefaultFontAxisValues method [Direct Write], GetDefaultFontAxisValues method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getdefaultfontaxisvalues, dwrite_3/IDWriteFontResource::GetDefaultFontAxisValues
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontResource.GetDefaultFontAxisValues"
+f1_keywords:
+- dwrite_3/IDWriteFontResource.GetDefaultFontAxisValues
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontResource::GetDefaultFontAxisValues
+- IDWriteFontResource::GetDefaultFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 

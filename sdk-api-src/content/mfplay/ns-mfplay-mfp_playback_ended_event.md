@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_PLAYBACK_ENDED_EVENT
 title: MFP_PLAYBACK_ENDED_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_PLAYBACK_ENDED event.
 old-location: mf\mfp_playback_ended_event.htm
 tech.root: medfound
 ms.assetid: 08cea881-dce9-4170-9b44-9943b014d300
-
 ms.date: 12/05/2018
 ms.keywords: MFP_PLAYBACK_ENDED_EVENT, MFP_PLAYBACK_ENDED_EVENT structure [Media Foundation], mf.mfp_playback_ended_event, mfplay/MFP_PLAYBACK_ENDED_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_PLAYBACK_ENDED_EVENT"
+f1_keywords:
+- mfplay/MFP_PLAYBACK_ENDED_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_PLAYBACK_ENDED_EVENT
+- MFP_PLAYBACK_ENDED_EVENT
 targetos: Windows
 req.typenames: MFP_PLAYBACK_ENDED_EVENT
 req.redist: 

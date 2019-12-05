@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMSampleExtensionSupport.SetUseSampleExtensions
 title: IWMSampleExtensionSupport::SetUseSampleExtensions (wmcodecdsp.h)
-
 description: Configures whether the codec supports sample extensions.
 old-location: mf\iwmsampleextensionsupportsetusesampleextensions.htm
 tech.root: medfound
 ms.assetid: e268167e-4c29-45ec-9ce3-733374268113
-
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport interface [Media Foundation],SetUseSampleExtensions method, IWMSampleExtensionSupport.SetUseSampleExtensions, IWMSampleExtensionSupport::SetUseSampleExtensions, SetUseSampleExtensions, SetUseSampleExtensions method [Media Foundation], SetUseSampleExtensions method [Media Foundation],IWMSampleExtensionSupport interface, codecapi.iwmsampleextensionsupportsetusesampleextensions, mf.iwmsampleextensionsupportsetusesampleextensions, wmcodecdsp/IWMSampleExtensionSupport::SetUseSampleExtensions
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMSampleExtensionSupport.SetUseSampleExtensions"
+f1_keywords:
+- wmcodecdsp/IWMSampleExtensionSupport.SetUseSampleExtensions
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMSampleExtensionSupport.SetUseSampleExtensions
+- IWMSampleExtensionSupport.SetUseSampleExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetProcessCount
 title: IMFSensorActivityReport::GetProcessCount (mfidl.h)
-
 description: Gets the count of IMFSensorProcessActivity objects, representing the current activity of a process associated with the sensor, that are available to be retrieved.
 old-location: mf\imfsensoractivityreport_getprocesscount.htm
 tech.root: medfound
 ms.assetid: 9C3DAB31-9D28-42CB-AFB8-6288658FF6B0
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessCount, GetProcessCount method [Media Foundation], GetProcessCount method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetProcessCount method, IMFSensorActivityReport.GetProcessCount, IMFSensorActivityReport::GetProcessCount, mf.imfsensoractivityreport_getprocesscount, mfidl/IMFSensorActivityReport::GetProcessCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorActivityReport.GetProcessCount"
+f1_keywords:
+- mfidl/IMFSensorActivityReport.GetProcessCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivityReport.GetProcessCount
+- IMFSensorActivityReport.GetProcessCount
 targetos: Windows
 req.typenames: 
 req.redist: 

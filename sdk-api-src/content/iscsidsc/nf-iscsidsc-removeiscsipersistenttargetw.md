@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiPersistentTargetW
 title: RemoveIScsiPersistentTargetW function (iscsidsc.h)
-
 description: RemoveIscsiPersistentTarget function removes a persistent login for the specified hardware initiator Host Bus Adapter (HBA), initiator port, and target portal.
 old-location: iscsidisc\removeiscsipersistenttarget.htm
 tech.root: iSCSIDisc
 ms.assetid: 2522f906-2a91-4d5b-8d6b-86e22c707046
-
 ms.date: 12/05/2018
 ms.keywords: RemoveIScsiPersistentTargetW, RemoveIscsiPersistentTarget, RemoveIscsiPersistentTarget function [iSCSI Discovery Library API], RemoveIscsiPersistentTargetA, RemoveIscsiPersistentTargetW, iscsidisc.removeiscsipersistenttarget, iscsidsc/RemoveIscsiPersistentTarget, iscsidsc/RemoveIscsiPersistentTargetA, iscsidsc/RemoveIscsiPersistentTargetW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RemoveIscsiPersistentTarget"
+f1_keywords:
+- iscsidsc/RemoveIscsiPersistentTarget
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RemoveIscsiPersistentTarget
- - RemoveIscsiPersistentTargetA
- - RemoveIscsiPersistentTargetW
+- RemoveIscsiPersistentTarget
+- RemoveIscsiPersistentTargetA
+- RemoveIscsiPersistentTargetW
 targetos: Windows
 req.typenames: 
 req.redist: 

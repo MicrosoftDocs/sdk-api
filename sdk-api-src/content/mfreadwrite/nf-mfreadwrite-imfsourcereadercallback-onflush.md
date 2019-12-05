@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnFlush
 title: IMFSourceReaderCallback::OnFlush (mfreadwrite.h)
-
 description: Called when the IMFSourceReader::Flush method completes.
 old-location: mf\imfsourcereadercallback_onflush.htm
 tech.root: medfound
 ms.assetid: a8273b0a-a75a-453f-bb42-38d554e44262
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnFlush method, IMFSourceReaderCallback.OnFlush, IMFSourceReaderCallback::OnFlush, OnFlush, OnFlush method [Media Foundation], OnFlush method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onflush, mfreadwrite/IMFSourceReaderCallback::OnFlush
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReaderCallback.OnFlush"
+f1_keywords:
+- mfreadwrite/IMFSourceReaderCallback.OnFlush
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReaderCallback.OnFlush
+- IMFSourceReaderCallback.OnFlush
 targetos: Windows
 req.typenames: 
 req.redist: 

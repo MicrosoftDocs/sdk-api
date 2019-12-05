@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.SetThreadpoolThreadMinimum
 title: SetThreadpoolThreadMinimum function (threadpoolapiset.h)
-
 description: Sets the minimum number of threads that the specified thread pool must make available to process callbacks.
 old-location: base\setthreadpoolthreadminimum.htm
 tech.root: ProcThread
 ms.assetid: 39ab262d-50ff-4aaa-93a8-ded2b0f72615
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolThreadMinimum, SetThreadpoolThreadMinimum function, base.setthreadpoolthreadminimum, threadpoolapiset/SetThreadpoolThreadMinimum, winbase/SetThreadpoolThreadMinimum
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/SetThreadpoolThreadMinimum"
+f1_keywords:
+- threadpoolapiset/SetThreadpoolThreadMinimum
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetThreadpoolThreadMinimum
+- SetThreadpoolThreadMinimum
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:xenroll.IEnroll4
 title: IEnroll4 (xenroll.h)
-
 description: The IEnroll4 interface represents the Certificate Enrollment Control and is used primarily to generate certificate requests.
 old-location: security\ienroll4.htm
 tech.root: SecCrypto
 ms.assetid: 133529fb-e02a-41a2-83df-646cbc01dbe9
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll4, IEnroll4 interface [Security], IEnroll4 interface [Security],described, security.ienroll4, xenroll/IEnroll4
 ms.topic: interface
-f1_keywords: 
- - "xenroll/IEnroll4"
+f1_keywords:
+- xenroll/IEnroll4
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4
+- IEnroll4
 targetos: Windows
 req.typenames: 
 req.redist: 

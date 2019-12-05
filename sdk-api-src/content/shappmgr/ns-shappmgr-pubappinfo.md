@@ -1,19 +1,17 @@
 ---
 UID: NS:shappmgr._PubAppInfo
 title: PUBAPPINFO (shappmgr.h)
-
 description: Provides information about a published application from an application publisher to Add/Remove Programs in Control Panel.
 old-location: shell\PUBAPPINFO.htm
 tech.root: shell
 ms.assetid: 927c58d3-4208-4fd3-a3fa-18ae7d8d3136
-
 ms.date: 12/05/2018
-ms.keywords: "*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO"
+ms.keywords: '*PPUBAPPINFO, PUBAPPINFO, PUBAPPINFO structure [Windows Shell], inet_PUBAPPINFO, shappmgr/PUBAPPINFO, shell.PUBAPPINFO'
 ms.topic: struct
-f1_keywords: 
- - "shappmgr/PUBAPPINFO"
+f1_keywords:
+- shappmgr/PUBAPPINFO
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - PUBAPPINFO
+- PUBAPPINFO
 targetos: Windows
 req.typenames: PUBAPPINFO, *PPUBAPPINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.CreateSwapChainForHwnd
 title: IDXGIFactory2::CreateSwapChainForHwnd (dxgi1_2.h)
-
 description: Creates a swap chain that is associated with an HWND handle to the output window for the swap chain.
 old-location: direct3ddxgi\idxgifactory2_createswapchain1.htm
 tech.root: direct3ddxgi
 ms.assetid: B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD
-
 ms.date: 12/05/2018
 ms.keywords: CreateSwapChainForHwnd, CreateSwapChainForHwnd method [DXGI], CreateSwapChainForHwnd method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForHwnd method, IDXGIFactory2.CreateSwapChainForHwnd, IDXGIFactory2::CreateSwapChainForHwnd, direct3ddxgi.idxgifactory2_createswapchain1, dxgi1_2/IDXGIFactory2::CreateSwapChainForHwnd
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIFactory2.CreateSwapChainForHwnd"
+f1_keywords:
+- dxgi1_2/IDXGIFactory2.CreateSwapChainForHwnd
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory2.CreateSwapChainForHwnd
+- IDXGIFactory2.CreateSwapChainForHwnd
 targetos: Windows
 req.typenames: 
 req.redist: 

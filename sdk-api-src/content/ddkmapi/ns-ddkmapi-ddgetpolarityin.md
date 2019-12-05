@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDGETPOLARITYIN
 title: DDGETPOLARITYIN (ddkmapi.h)
-
 description: The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handles.
 old-location: display\ddgetpolarityin.htm
 tech.root: display
 ms.assetid: 8ef7a1b7-1111-440d-8318-46d2135142e2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDGETPOLARITYIN, DDGETPOLARITYIN, DDGETPOLARITYIN structure [Display Devices], LPDDGETPOLARITYIN, LPDDGETPOLARITYIN structure pointer [Display Devices], ddkmapi/DDGETPOLARITYIN, ddkmapi/LPDDGETPOLARITYIN, ddstrcts_d84baddb-b5f0-4b66-86fd-504dbf05608c.xml, display.ddgetpolarityin"
+ms.keywords: '*LPDDGETPOLARITYIN, DDGETPOLARITYIN, DDGETPOLARITYIN structure [Display Devices], LPDDGETPOLARITYIN, LPDDGETPOLARITYIN structure pointer [Display Devices], ddkmapi/DDGETPOLARITYIN, ddkmapi/LPDDGETPOLARITYIN, ddstrcts_d84baddb-b5f0-4b66-86fd-504dbf05608c.xml, display.ddgetpolarityin'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDGETPOLARITYIN"
+f1_keywords:
+- ddkmapi/DDGETPOLARITYIN
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDGETPOLARITYIN
+- DDGETPOLARITYIN
 targetos: Windows
 req.typenames: DDGETPOLARITYIN, *LPDDGETPOLARITYIN
 req.redist: 

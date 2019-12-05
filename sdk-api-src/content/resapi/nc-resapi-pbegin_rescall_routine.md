@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PBEGIN_RESCALL_ROUTINE
 title: PBEGIN_RESCALL_ROUTINE (resapi.h)
-
 description: Starts a call to a resource control code. The PBEGIN_RESCALL_ROUTINE type defines a pointer to this callback function.
 old-location: mscs\beginresourcecontrol.htm
 tech.root: MsCS
 ms.assetid: 1B95607F-658A-469D-8935-DF7E537D1509
-
 ms.date: 12/05/2018
 ms.keywords: BeginResourceControl, BeginResourceControl callback, BeginResourceControl callback function [Failover Cluster], PBEGIN_RESCALL_ROUTINE, PBEGIN_RESCALL_ROUTINE callback function [Failover Cluster], mscs.beginresourcecontrol, resapi/BeginResourceControl, resapi/PBEGIN_RESCALL_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "resapi/BeginResourceControl"
+f1_keywords:
+- resapi/BeginResourceControl
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - BeginResourceControl
+- BeginResourceControl
 targetos: Windows
 req.typenames: 
 req.redist: 

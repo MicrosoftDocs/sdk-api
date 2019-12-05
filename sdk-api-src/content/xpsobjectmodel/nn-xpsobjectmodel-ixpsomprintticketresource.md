@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPrintTicketResource
 title: IXpsOMPrintTicketResource (xpsobjectmodel.h)
-
 description: Provides an IStream interface to a PrintTicket resource.
 old-location: xps\ixpsomprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 2f37dbd2-3078-4aa8-97e7-556a0ff2dd74
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPrintTicketResource, IXpsOMPrintTicketResource interface [XPS Documents and Packaging], IXpsOMPrintTicketResource interface [XPS Documents and Packaging],described, xps.ixpsomprintticketresource, xpsobjectmodel/IXpsOMPrintTicketResource
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPrintTicketResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPrintTicketResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPrintTicketResource
+- IXpsOMPrintTicketResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithCancelEvent.GetCancelEvent
 title: IObjectWithCancelEvent::GetCancelEvent (shobjidl_core.h)
-
 description: Retrieves an event that will be sent when an operation is canceled.
 old-location: shell\IObjectWithCancelEvent_GetCancelEvent.htm
 tech.root: shell
 ms.assetid: 6aef54b0-a7aa-4ff9-b50f-f84131614853
-
 ms.date: 12/05/2018
 ms.keywords: GetCancelEvent, GetCancelEvent method [Windows Shell], GetCancelEvent method [Windows Shell],IObjectWithCancelEvent interface, IObjectWithCancelEvent interface [Windows Shell],GetCancelEvent method, IObjectWithCancelEvent.GetCancelEvent, IObjectWithCancelEvent::GetCancelEvent, _shell_IObjectWithCancelEvent_GetCancelEvent, shell.IObjectWithCancelEvent_GetCancelEvent, shobjidl_core/IObjectWithCancelEvent::GetCancelEvent
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithCancelEvent.GetCancelEvent"
+f1_keywords:
+- shobjidl_core/IObjectWithCancelEvent.GetCancelEvent
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithCancelEvent.GetCancelEvent
+- IObjectWithCancelEvent.GetCancelEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

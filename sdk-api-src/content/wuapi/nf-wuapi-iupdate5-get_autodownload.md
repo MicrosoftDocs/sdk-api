@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate5.get_AutoDownload
 title: IUpdate5::get_AutoDownload (wuapi.h)
-
 description: Gets a value indicating the automatic download mode of update.
 old-location: wua\iupdate5_autodownload.htm
 tech.root: Wua_Sdk
 ms.assetid: b8819ba8-7333-488c-b337-0a51f995d942
-
 ms.date: 12/05/2018
 ms.keywords: AutoDownload property [Windows Update Agent], AutoDownload property [Windows Update Agent],IUpdate5 interface, IUpdate5 interface [Windows Update Agent],AutoDownload property, IUpdate5.AutoDownload, IUpdate5.get_AutoDownload, IUpdate5::AutoDownload, IUpdate5::get_AutoDownload, get_AutoDownload, wua.iupdate5_autodownload, wuapi/IUpdate5::AutoDownload, wuapi/IUpdate5::get_AutoDownload
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate5.AutoDownload"
+f1_keywords:
+- wuapi/IUpdate5.AutoDownload
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate5.AutoDownload
- - IUpdate5.get_AutoDownload
+- IUpdate5.AutoDownload
+- IUpdate5.get_AutoDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

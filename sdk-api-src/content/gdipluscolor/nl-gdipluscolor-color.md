@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluscolor.Color
 title: Color (gdipluscolor.h)
-
 description: A Color object stores a 32-bit value that represents a color.
 old-location: gdiplus\_gdiplus_CLASS_Color_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\color.htm
-
 ms.date: 12/05/2018
 ms.keywords: Color, Color class [GDI+], Color class [GDI+],described, _gdiplus_CLASS_Color_Class, gdiplus._gdiplus_CLASS_Color_Class, gdipluscolor/Color
 ms.topic: class
-f1_keywords: 
- - "gdipluscolor/Color"
+f1_keywords:
+- gdipluscolor/Color
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluscolor.h
+- gdipluscolor.h
 api_name:
- - Color
+- Color
 targetos: Windows
 req.typenames: 
 req.redist: 

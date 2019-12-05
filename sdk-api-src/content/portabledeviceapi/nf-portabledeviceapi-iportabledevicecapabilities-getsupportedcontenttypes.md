@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedContentTypes
 title: IPortableDeviceCapabilities::GetSupportedContentTypes (portabledeviceapi.h)
-
 description: The GetSupportedContentTypes method retrieves all supported content types for a specified functional object type on a device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedcontenttypes.htm
 tech.root: wpd_sdk
 ms.assetid: 5f56ca91-552f-4a52-8a68-225601c5f6f4
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedContentTypes, GetSupportedContentTypes method [Windows Portable Devices SDK], GetSupportedContentTypes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedContentTypes method, IPortableDeviceCapabilities.GetSupportedContentTypes, IPortableDeviceCapabilities::GetSupportedContentTypes, IPortableDeviceCapabilitiesGetSupportedContentTypes, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedContentTypes, wpdsdk.iportabledevicecapabilities_getsupportedcontenttypes
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceCapabilities.GetSupportedContentTypes"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceCapabilities.GetSupportedContentTypes
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetSupportedContentTypes
+- IPortableDeviceCapabilities.GetSupportedContentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

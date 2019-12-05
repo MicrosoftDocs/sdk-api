@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneSetGain
 title: TSPI_phoneSetGain function (tspi.h)
-
 description: The TSPI_phoneSetGain function sets the gain of the microphone of the specified hookswitch device to the specified gain level.
 old-location: tspi\tspi_phonesetgain.htm
 tech.root: Tapi
 ms.assetid: c7eb459d-6b59-4bc1-8f2b-c3c03a0a5bd9
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetGain, TSPI_phoneSetGain function [TAPI 2.2], _tspi_tspi_phonesetgain, tspi.tspi_phonesetgain, tspi/TSPI_phoneSetGain
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneSetGain"
+f1_keywords:
+- tspi/TSPI_phoneSetGain
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneSetGain
+- TSPI_phoneSetGain
 targetos: Windows
 req.typenames: 
 req.redist: 

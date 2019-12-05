@@ -1,19 +1,17 @@
 ---
 UID: NF:wsipv6ok.WSAAsyncGetHostByAddr
 title: WSAAsyncGetHostByAddr macro (wsipv6ok.h)
-
 description: The WSAAsyncGetHostByAddr function asynchronously retrieves host information that corresponds to an address.Note  The WSAAsyncGetHostByAddr function is not designed to provide parallel resolution of several addresses.
 old-location: winsock\wsaasyncgethostbyaddr_2.htm
 tech.root: WinSock
 ms.assetid: 814cbb2e-8dd2-44b0-b8be-cfc5491bdc49
-
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncGetHostByAddr, WSAAsyncGetHostByAddr function [Winsock], _win32_wsaasyncgethostbyaddr_2, winsock.wsaasyncgethostbyaddr_2, wsipv6ok/WSAAsyncGetHostByAddr
 ms.topic: macro
-f1_keywords: 
- - "wsipv6ok/WSAAsyncGetHostByAddr"
+f1_keywords:
+- wsipv6ok/WSAAsyncGetHostByAddr
 dev_langs:
- - c++
+- c++
 req.header: wsipv6ok.h
 req.include-header: Winsock2.h, Winsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAAsyncGetHostByAddr
+- WSAAsyncGetHostByAddr
 targetos: Windows
 req.typenames: 
 req.redist: 

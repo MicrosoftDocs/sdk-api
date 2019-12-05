@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileHeader
 title: GetEnhMetaFileHeader function (wingdi.h)
-
 description: The GetEnhMetaFileHeader function retrieves the record containing the header for the specified enhanced-format metafile.
 old-location: gdi\getenhmetafileheader.htm
 tech.root: gdi
 ms.assetid: c42bcbe2-2e8f-42bd-a8e3-2827c6563300
-
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFileHeader, GetEnhMetaFileHeader function [Windows GDI], _win32_GetEnhMetaFileHeader, gdi.getenhmetafileheader, wingdi/GetEnhMetaFileHeader
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetEnhMetaFileHeader"
+f1_keywords:
+- wingdi/GetEnhMetaFileHeader
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - GetEnhMetaFileHeader
+- GetEnhMetaFileHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

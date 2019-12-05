@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioGetEnrolledFactors
 title: WinBioGetEnrolledFactors function (winbio.h)
-
 description: Gets information about the biometric enrollments that the specified user has on the computer.
 old-location: secbiomet\winbiogetenrolledfactors.htm
 tech.root: SecBioMet
 ms.assetid: 25DCB7FC-6971-4EFD-A686-E994F4345D2B
-
 ms.date: 12/05/2018
 ms.keywords: WinBioGetEnrolledFactors, WinBioGetEnrolledFactors function [Windows Biometric Framework API], secbiomet.winbiogetenrolledfactors, winbio/WinBioGetEnrolledFactors
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioGetEnrolledFactors"
+f1_keywords:
+- winbio/WinBioGetEnrolledFactors
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winbio.dll
- - Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- winbio.dll
+- Ext-MS-Win-Biometrics-WinBio-Core-L1-1-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioGetEnrolledFactors
+- WinBioGetEnrolledFactors
 targetos: Windows
 req.typenames: 
 req.redist: 

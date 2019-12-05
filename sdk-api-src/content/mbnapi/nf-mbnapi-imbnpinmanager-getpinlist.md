@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinList
 title: IMbnPinManager::GetPinList (mbnapi.h)
-
 description: Gets a list of different PIN types supported by the device.
 old-location: mbn\imbnpinmanager_getpinlist.htm
 tech.root: mbn
 ms.assetid: 732906dd-7d1e-49a1-a3cc-60075eed9c7c
-
 ms.date: 12/05/2018
 ms.keywords: GetPinList, GetPinList method [Microsoft Broadband Networks], GetPinList method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPinList method, IMbnPinManager.GetPinList, IMbnPinManager::GetPinList, mbn.imbnpinmanager_getpinlist, mbnapi/IMbnPinManager::GetPinList
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPinManager.GetPinList"
+f1_keywords:
+- mbnapi/IMbnPinManager.GetPinList
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinManager.GetPinList
+- IMbnPinManager.GetPinList
 targetos: Windows
 req.typenames: 
 req.redist: 

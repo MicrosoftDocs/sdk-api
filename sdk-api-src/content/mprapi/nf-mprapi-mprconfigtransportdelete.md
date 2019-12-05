@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigTransportDelete
 title: MprConfigTransportDelete function (mprapi.h)
-
 description: The MprConfigTransportDelete function removes the specified transport from the list of transports present in the specified router configuration.
 old-location: rras\mprconfigtransportdelete.htm
 tech.root: RRAS
 ms.assetid: e022d0bc-f5ae-4c04-80f7-40ec77e2fa80
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportDelete, MprConfigTransportDelete function [RAS], _mpr_mprconfigtransportdelete, mprapi/MprConfigTransportDelete, rras.mprconfigtransportdelete
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigTransportDelete"
+f1_keywords:
+- mprapi/MprConfigTransportDelete
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigTransportDelete
+- MprConfigTransportDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

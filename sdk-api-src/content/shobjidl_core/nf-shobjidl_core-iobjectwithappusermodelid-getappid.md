@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithAppUserModelID.GetAppID
 title: IObjectWithAppUserModelID::GetAppID (shobjidl_core.h)
-
 description: Retrieves a file type handler's explicit Application User Model ID (AppUserModelID), if one has been declared.
 old-location: shell\IObjectWithAppUserModelID_GetAppID.htm
 tech.root: shell
 ms.assetid: da6c4799-fda9-43e5-86eb-91a40db5ab6c
-
 ms.date: 12/05/2018
 ms.keywords: GetAppID, GetAppID method [Windows Shell], GetAppID method [Windows Shell],IObjectWithAppUserModelID interface, IObjectWithAppUserModelID interface [Windows Shell],GetAppID method, IObjectWithAppUserModelID.GetAppID, IObjectWithAppUserModelID::GetAppID, _shell_IObjectWithAppUserModelID_GetAppID, shell.IObjectWithAppUserModelID_GetAppID, shobjidl_core/IObjectWithAppUserModelID::GetAppID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithAppUserModelID.GetAppID"
+f1_keywords:
+- shobjidl_core/IObjectWithAppUserModelID.GetAppID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IObjectWithAppUserModelID.GetAppID
+- IObjectWithAppUserModelID.GetAppID
 targetos: Windows
 req.typenames: 
 req.redist: 

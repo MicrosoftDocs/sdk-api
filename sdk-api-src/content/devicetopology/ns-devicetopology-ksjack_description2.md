@@ -1,19 +1,17 @@
 ---
 UID: NS:devicetopology._tagKSJACK_DESCRIPTION2
 title: KSJACK_DESCRIPTION2 (devicetopology.h)
-
 description: The KSJACK_DESCRIPTION2 structure describes an audio jack.To get the description of an audio jack of a connector, call IKsJackDescription2::GetJackDescription2.
 old-location: coreaudio\ksjack_description2.htm
 tech.root: CoreAudio
 ms.assetid: 67714767-24b8-4838-953a-d6aca0c55bbb
-
 ms.date: 12/05/2018
-ms.keywords: "*PKSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2 structure [Core Audio], PKSJACK_DESCRIPTION2, PKSJACK_DESCRIPTION2 structure pointer [Core Audio], coreaudio.ksjack_description2, devicetopology/KSJACK_DESCRIPTION2, devicetopology/PKSJACK_DESCRIPTION2"
+ms.keywords: '*PKSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2, KSJACK_DESCRIPTION2 structure [Core Audio], PKSJACK_DESCRIPTION2, PKSJACK_DESCRIPTION2 structure pointer [Core Audio], coreaudio.ksjack_description2, devicetopology/KSJACK_DESCRIPTION2, devicetopology/PKSJACK_DESCRIPTION2'
 ms.topic: struct
-f1_keywords: 
- - "devicetopology/KSJACK_DESCRIPTION2"
+f1_keywords:
+- devicetopology/KSJACK_DESCRIPTION2
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - KSJACK_DESCRIPTION2
+- KSJACK_DESCRIPTION2
 targetos: Windows
 req.typenames: KSJACK_DESCRIPTION2, *PKSJACK_DESCRIPTION2
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryReaderFromBlockReader
 title: IWICComponentFactory::CreateQueryReaderFromBlockReader (wincodecsdk.h)
-
 description: Creates a IWICMetadataQueryReader from the given IWICMetadataBlockReader.
 old-location: wic\_wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader.htm
 tech.root: wic
 ms.assetid: 638d7c29-9c13-4a4b-ac60-8bccd01c65d5
-
 ms.date: 12/05/2018
 ms.keywords: CreateQueryReaderFromBlockReader, CreateQueryReaderFromBlockReader method [Windows Imaging Component], CreateQueryReaderFromBlockReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateQueryReaderFromBlockReader method, IWICComponentFactory.CreateQueryReaderFromBlockReader, IWICComponentFactory::CreateQueryReaderFromBlockReader, _wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader, wic._wic_codec_iwiccomponentfactory_createqueryreaderfromblockreader, wincodecsdk/IWICComponentFactory::CreateQueryReaderFromBlockReader
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICComponentFactory.CreateQueryReaderFromBlockReader"
+f1_keywords:
+- wincodecsdk/IWICComponentFactory.CreateQueryReaderFromBlockReader
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentFactory.CreateQueryReaderFromBlockReader
+- IWICComponentFactory.CreateQueryReaderFromBlockReader
 targetos: Windows
 req.typenames: 
 req.redist: 

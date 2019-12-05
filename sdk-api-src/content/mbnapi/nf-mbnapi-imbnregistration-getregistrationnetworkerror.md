@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegistrationNetworkError
 title: IMbnRegistration::GetRegistrationNetworkError (mbnapi.h)
-
 description: Gets the network error from a registration operation.
 old-location: mbn\imbnregistration_getregistrationnetworkerror.htm
 tech.root: mbn
 ms.assetid: b0e6df7a-7b47-4587-92c2-f01fd96e768f
-
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationNetworkError, GetRegistrationNetworkError method [Microsoft Broadband Networks], GetRegistrationNetworkError method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegistrationNetworkError method, IMbnRegistration.GetRegistrationNetworkError, IMbnRegistration::GetRegistrationNetworkError, mbn.imbnregistration_getregistrationnetworkerror, mbnapi/IMbnRegistration::GetRegistrationNetworkError
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetRegistrationNetworkError"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetRegistrationNetworkError
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetRegistrationNetworkError
+- IMbnRegistration.GetRegistrationNetworkError
 targetos: Windows
 req.typenames: 
 req.redist: 

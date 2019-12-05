@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_PreferredInPlaceDirection
 title: ITextInputPanel::get_PreferredInPlaceDirection (peninputpanel.h)
-
 description: Gets or sets the preferred direction of the in-place Input Panel relative to the text entry field.
 old-location: tablet\itextinputpanel_preferredinplacedirection.htm
 tech.root: tablet
 ms.assetid: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b
-
 ms.date: 12/05/2018
 ms.keywords: 5d05e315-4e6d-4591-83d8-9cc98f2c2e2b, ITextInputPanel interface [Tablet PC],PreferredInPlaceDirection property, ITextInputPanel.PreferredInPlaceDirection, ITextInputPanel.get_PreferredInPlaceDirection, ITextInputPanel.put_PreferredInPlaceDirection, ITextInputPanel::PreferredInPlaceDirection, ITextInputPanel::get_PreferredInPlaceDirection, ITextInputPanel::put_PreferredInPlaceDirection, PreferredInPlaceDirection property [Tablet PC], PreferredInPlaceDirection property [Tablet PC],ITextInputPanel interface, get_PreferredInPlaceDirection, peninputpanel/ITextInputPanel::PreferredInPlaceDirection, peninputpanel/ITextInputPanel::get_PreferredInPlaceDirection, peninputpanel/ITextInputPanel::put_PreferredInPlaceDirection, tablet.itextinputpanel_preferredinplacedirection
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.PreferredInPlaceDirection"
+f1_keywords:
+- peninputpanel/ITextInputPanel.PreferredInPlaceDirection
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.PreferredInPlaceDirection
- - ITextInputPanel.get_PreferredInPlaceDirection
- - ITextInputPanel.put_PreferredInPlaceDirection
- - ITextInputPanel.get_PreferredInPlaceDirection
- - ITextInputPanel.put_PreferredInPlaceDirection
+- ITextInputPanel.PreferredInPlaceDirection
+- ITextInputPanel.get_PreferredInPlaceDirection
+- ITextInputPanel.put_PreferredInPlaceDirection
+- ITextInputPanel.get_PreferredInPlaceDirection
+- ITextInputPanel.put_PreferredInPlaceDirection
 targetos: Windows
 req.typenames: 
 req.redist: 

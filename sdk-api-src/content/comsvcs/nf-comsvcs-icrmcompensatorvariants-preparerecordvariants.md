@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensatorVariants.PrepareRecordVariants
 title: ICrmCompensatorVariants::PrepareRecordVariants (comsvcs.h)
-
 description: Delivers a log record to the CRM Compensator during the prepare phase.
 old-location: cos\icrmcompensatorvariants_preparerecordvariants.htm
 tech.root: cossdk
 ms.assetid: 5cbe3bf9-b82c-42da-ac19-dddb5837368e
-
 ms.date: 12/05/2018
 ms.keywords: ICrmCompensatorVariants interface [COM+],PrepareRecordVariants method, ICrmCompensatorVariants.PrepareRecordVariants, ICrmCompensatorVariants::PrepareRecordVariants, PrepareRecordVariants, PrepareRecordVariants method [COM+], PrepareRecordVariants method [COM+],ICrmCompensatorVariants interface, _dtc_ICrmCompensatorVariants_PrepareRecordVariants, comsvcs/ICrmCompensatorVariants::PrepareRecordVariants, cos.icrmcompensatorvariants_preparerecordvariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensatorVariants.PrepareRecordVariants"
+f1_keywords:
+- comsvcs/ICrmCompensatorVariants.PrepareRecordVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensatorVariants.PrepareRecordVariants
+- ICrmCompensatorVariants.PrepareRecordVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

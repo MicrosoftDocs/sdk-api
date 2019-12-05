@@ -1,19 +1,17 @@
 ---
 UID: NF:mspstrm.CMSPStream.GetState
 title: CMSPStream::GetState (mspstrm.h)
-
 description: The GetState method is called by the MSPCall object. It returns the current status of the stream. The default implementation returns E_NOTIMPL.
 old-location: tapi3\cmspstream_getstate.htm
 tech.root: Tapi
 ms.assetid: 03fc3801-8bd4-432a-b0ca-f6506bd8c788
-
 ms.date: 12/05/2018
 ms.keywords: CMSPStream interface [TAPI 2.2],GetState method, CMSPStream.GetState, CMSPStream::GetState, GetState, GetState method [TAPI 2.2], GetState method [TAPI 2.2],CMSPStream interface, _tapi3_cmspstream_getstate, mspstrm/CMSPStream::GetState, tapi3.cmspstream_getstate
 ms.topic: method
-f1_keywords: 
- - "mspstrm/CMSPStream.GetState"
+f1_keywords:
+- mspstrm/CMSPStream.GetState
 dev_langs:
- - c++
+- c++
 req.header: mspstrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspstrm.h
+- Mspstrm.h
 api_name:
- - CMSPStream.GetState
+- CMSPStream.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.SelectTrack
 title: IMFTimedText::SelectTrack (mfmediaengine.h)
-
 description: Selects or deselects a track of text in the timed-text component.
 old-location: mf\imftimedtext_selecttrack.htm
 tech.root: medfound
 ms.assetid: 868FE620-6FF3-4623-BB61-B47D0290D005
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedText interface [Media Foundation],SelectTrack method, IMFTimedText.SelectTrack, IMFTimedText::SelectTrack, SelectTrack, SelectTrack method [Media Foundation], SelectTrack method [Media Foundation],IMFTimedText interface, mf.imftimedtext_selecttrack, mfmediaengine/IMFTimedText::SelectTrack
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedText.SelectTrack"
+f1_keywords:
+- mfmediaengine/IMFTimedText.SelectTrack
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedText.SelectTrack
+- IMFTimedText.SelectTrack
 targetos: Windows
 req.typenames: 
 req.redist: 

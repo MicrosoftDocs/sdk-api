@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVISaveOptions
 title: AVISaveOptions function (vfw.h)
-
 description: The AVISaveOptions function retrieves the save options for a file and returns them in a buffer.
 old-location: multimedia\avisaveoptions.htm
 tech.root: Multimedia
 ms.assetid: 6141272f-a815-4ba8-bc6b-41751d6e0104
-
 ms.date: 12/05/2018
 ms.keywords: AVISaveOptions, AVISaveOptions function [Windows Multimedia], _win32_AVISaveOptions, multimedia.avisaveoptions, vfw/AVISaveOptions
 ms.topic: function
-f1_keywords: 
- - "vfw/AVISaveOptions"
+f1_keywords:
+- vfw/AVISaveOptions
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVISaveOptions
+- AVISaveOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

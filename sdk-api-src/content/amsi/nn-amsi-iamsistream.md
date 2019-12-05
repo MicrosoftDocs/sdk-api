@@ -1,19 +1,17 @@
 ---
 UID: NN:amsi.IAmsiStream
 title: IAmsiStream (amsi.h)
-
 description: Represents a stream to be scanned.
 old-location: amsi\iamsistream.htm
 tech.root: AMSI
 ms.assetid: 409CE6BF-57A5-454E-91F9-3D66FE7E323F
-
 ms.date: 01/28/2019
 ms.keywords: IAmsiStream, IAmsiStream interface [Antimalware Scan Interface], IAmsiStream interface [Antimalware Scan Interface],described, amsi.iamsistream, amsi/IAmsiStream
 ms.topic: interface
-f1_keywords: 
- - "amsi/IAmsiStream"
+f1_keywords:
+- amsi/IAmsiStream
 dev_langs:
- - c++
+- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amsi.h
+- amsi.h
 api_name:
- - IAmsiStream
+- IAmsiStream
 targetos: Windows
 req.typenames: 
 req.redist: 

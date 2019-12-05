@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecordControl.Stop
 title: IStreamBufferRecordControl::Stop (sbe.h)
-
 description: The Stop method stops the recording and closes the file.
 old-location: mstv\istreambufferrecordcontrol_stop.htm
 tech.root: mstv
 ms.assetid: 1b6a3ac4-076a-4fca-909c-6063637248a8
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordControl interface [Microsoft TV Technologies],Stop method, IStreamBufferRecordControl.Stop, IStreamBufferRecordControl::Stop, IStreamBufferRecordControlStop, Stop, Stop method [Microsoft TV Technologies], Stop method [Microsoft TV Technologies],IStreamBufferRecordControl interface, mstv.istreambufferrecordcontrol_stop, sbe/IStreamBufferRecordControl::Stop
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecordControl.Stop"
+f1_keywords:
+- sbe/IStreamBufferRecordControl.Stop
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecordControl.Stop
+- IStreamBufferRecordControl.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

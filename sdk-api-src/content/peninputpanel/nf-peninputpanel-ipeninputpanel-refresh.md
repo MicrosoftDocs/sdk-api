@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.Refresh
 title: IPenInputPanel::Refresh (peninputpanel.h)
-
 description: Refresh is no longer available for use as of Windows XP Tablet PC Edition.
 old-location: tablet\peninputpanel_refresh.htm
 tech.root: tablet
 ms.assetid: 7f135184-76cc-4636-8c20-db29ca7d5540
-
 ms.date: 12/05/2018
 ms.keywords: 7f135184-76cc-4636-8c20-db29ca7d5540, IPenInputPanel interface [Tablet PC],Refresh method, IPenInputPanel.Refresh, IPenInputPanel::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IPenInputPanel interface, peninputpanel/IPenInputPanel::Refresh, tablet.peninputpanel_refresh
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.Refresh"
+f1_keywords:
+- peninputpanel/IPenInputPanel.Refresh
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.Refresh
+- IPenInputPanel.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

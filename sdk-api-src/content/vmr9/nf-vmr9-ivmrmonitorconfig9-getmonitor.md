@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRMonitorConfig9.GetMonitor
 title: IVMRMonitorConfig9::GetMonitor (vmr9.h)
-
 description: The GetMonitor method retrieves the monitor that this instance of the VMR is using for video playback.
 old-location: dshow\ivmrmonitorconfig9_getmonitor.htm
 tech.root: DirectShow
 ms.assetid: 8b3e19d2-23de-42ae-9e5b-d53e24bb764a
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitor, GetMonitor method [DirectShow], GetMonitor method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetMonitor method, IVMRMonitorConfig9.GetMonitor, IVMRMonitorConfig9::GetMonitor, IVMRMonitorConfig9GetMonitor, dshow.ivmrmonitorconfig9_getmonitor, vmr9/IVMRMonitorConfig9::GetMonitor
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRMonitorConfig9.GetMonitor"
+f1_keywords:
+- vmr9/IVMRMonitorConfig9.GetMonitor
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMonitorConfig9.GetMonitor
+- IVMRMonitorConfig9.GetMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

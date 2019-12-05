@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.AddSignatureBlock
 title: IXpsSignatureManager::AddSignatureBlock (xpsdigitalsignature.h)
-
 description: Creates a new IXpsSignatureBlock interface and adds it to the signature block collection.
 old-location: xps\ixpssignaturemanager_addsignatureblock.htm
 tech.root: printdocs
 ms.assetid: a299882f-b9f4-4297-8438-e92d148a4014
-
 ms.date: 12/05/2018
 ms.keywords: AddSignatureBlock, AddSignatureBlock method [XPS Documents and Packaging], AddSignatureBlock method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],AddSignatureBlock method, IXpsSignatureManager.AddSignatureBlock, IXpsSignatureManager::AddSignatureBlock, xps.ixpssignaturemanager_addsignatureblock, xpsdigitalsignature/IXpsSignatureManager::AddSignatureBlock
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager.AddSignatureBlock"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager.AddSignatureBlock
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.AddSignatureBlock
+- IXpsSignatureManager.AddSignatureBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

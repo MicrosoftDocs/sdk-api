@@ -1,19 +1,17 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.Execute
 title: IAMVideoAccelerator::Execute (videoacc.h)
-
 description: The Execute method performs a DirectX Video Acceleration (DXVA) decoding operation.
 old-location: dshow\iamvideoaccelerator_execute.htm
 tech.root: DirectShow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b
-
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method [DirectShow], Execute method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],Execute method, IAMVideoAccelerator.Execute, IAMVideoAccelerator::Execute, IAMVideoAcceleratorExecute, dshow.iamvideoaccelerator_execute, videoacc/IAMVideoAccelerator::Execute
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.Execute
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

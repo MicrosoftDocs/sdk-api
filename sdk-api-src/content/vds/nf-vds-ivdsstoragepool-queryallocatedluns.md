@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsStoragePool.QueryAllocatedLuns
 title: IVdsStoragePool::QueryAllocatedLuns (vds.h)
-
 description: Returns an object that enumerates the allocated LUNs for a storage pool.
 old-location: base\ivdsstoragepool_queryallocatedluns.htm
 tech.root: VDS
 ms.assetid: 348472ac-1b8b-4943-9b80-813616861e01
-
 ms.date: 12/05/2018
 ms.keywords: IVdsStoragePool interface,QueryAllocatedLuns method, IVdsStoragePool.QueryAllocatedLuns, IVdsStoragePool::QueryAllocatedLuns, QueryAllocatedLuns, QueryAllocatedLuns method, QueryAllocatedLuns method,IVdsStoragePool interface, base.ivdsstoragepool_queryallocatedluns, vds/IVdsStoragePool::QueryAllocatedLuns, vdshwprv/IVdsStoragePool::QueryAllocatedLuns
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsStoragePool.QueryAllocatedLuns"
+f1_keywords:
+- vds/IVdsStoragePool.QueryAllocatedLuns
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsStoragePool.QueryAllocatedLuns
+- IVdsStoragePool.QueryAllocatedLuns
 targetos: Windows
 req.typenames: 
 req.redist: 

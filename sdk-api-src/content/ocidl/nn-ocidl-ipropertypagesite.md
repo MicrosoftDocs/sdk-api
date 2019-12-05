@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPropertyPageSite
 title: IPropertyPageSite (ocidl.h)
-
 description: Provides the main features for a property page site object.
 old-location: com\ipropertypagesite.htm
 tech.root: com
 ms.assetid: a9035a10-2078-4626-8386-f9298526dfb7
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPageSite, IPropertyPageSite interface [COM], IPropertyPageSite interface [COM],described, _ctrl_ipropertypagesite, com.ipropertypagesite, ocidl/IPropertyPageSite
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPropertyPageSite"
+f1_keywords:
+- ocidl/IPropertyPageSite
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPageSite
+- IPropertyPageSite
 targetos: Windows
 req.typenames: 
 req.redist: 

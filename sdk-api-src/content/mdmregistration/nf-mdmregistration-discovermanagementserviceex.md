@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.DiscoverManagementServiceEx
 title: DiscoverManagementServiceEx function (mdmregistration.h)
-
 description: Discovers the MDM service using a candidate server.
 old-location: mdmreg\discovermanagementserviceex.htm
 tech.root: MDMReg
 ms.assetid: 600269ff-df88-49ed-b151-df0302cbc4d4
-
 ms.date: 12/05/2018
 ms.keywords: DiscoverManagementServiceEx, DiscoverManagementServiceEx function [MDM Registration], mdmreg.discovermanagementserviceex, mdmregistration/DiscoverManagementServiceEx
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/DiscoverManagementServiceEx"
+f1_keywords:
+- mdmregistration/DiscoverManagementServiceEx
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - DiscoverManagementServiceEx
+- DiscoverManagementServiceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

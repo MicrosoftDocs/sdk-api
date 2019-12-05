@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetLowestUncontainedId
 title: ISyncKnowledge2::GetLowestUncontainedId (winsync.h)
-
 description: Returns the lowest item ID that is not contained in this knowledge and that is contained in the specified knowledge.
 old-location: winsync\isyncknowledge2_getlowestuncontainedid.htm
 tech.root: winsync
 ms.assetid: 06a1a380-3fe8-4c99-be97-d84b6be9838d
-
 ms.date: 12/05/2018
 ms.keywords: GetLowestUncontainedId, GetLowestUncontainedId method [Windows Sync], GetLowestUncontainedId method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetLowestUncontainedId method, ISyncKnowledge2.GetLowestUncontainedId, ISyncKnowledge2::GetLowestUncontainedId, winsync.isyncknowledge2_getlowestuncontainedid, winsync/ISyncKnowledge2::GetLowestUncontainedId
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge2.GetLowestUncontainedId"
+f1_keywords:
+- winsync/ISyncKnowledge2.GetLowestUncontainedId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge2.GetLowestUncontainedId
+- ISyncKnowledge2.GetLowestUncontainedId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabRegisterApplication
 title: PeerCollabRegisterApplication function (p2p.h)
-
 description: Registers an application with the local computer so that it can be launched in a peer collaboration activity.
 old-location: p2p\peercollabregisterapplication.htm
 tech.root: P2PSdk
 ms.assetid: 962982a6-171f-4c13-ae03-84698482dea4
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRegisterApplication, PeerCollabRegisterApplication function [Peer Networking], p2p.peercollabregisterapplication, p2p/PeerCollabRegisterApplication
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabRegisterApplication"
+f1_keywords:
+- p2p/PeerCollabRegisterApplication
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabRegisterApplication
+- PeerCollabRegisterApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

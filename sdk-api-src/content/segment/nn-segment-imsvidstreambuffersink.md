@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSink
 title: IMSVidStreamBufferSink (segment.h)
-
 description: The IMSVidStreamBufferSink interface represents the Stream Buffer Sink filter within the Video Control.
 old-location: mstv\imsvidstreambuffersink.htm
 tech.root: mstv
 ms.assetid: 80f6cd3a-8cb8-4bda-9b66-33e7d214015a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink, IMSVidStreamBufferSink interface [Microsoft TV Technologies], IMSVidStreamBufferSink interface [Microsoft TV Technologies],described, IMSVidStreamBufferSinkInterface, mstv.imsvidstreambuffersink, segment/IMSVidStreamBufferSink
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink"
+f1_keywords:
+- segment/IMSVidStreamBufferSink
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink
+- IMSVidStreamBufferSink
 targetos: Windows
 req.typenames: 
 req.redist: 

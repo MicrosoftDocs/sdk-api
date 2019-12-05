@@ -1,19 +1,17 @@
 ---
 UID: NN:vss.IVssEnumObject
 title: IVssEnumObject (vss.h)
-
 description: Contains methods to iterate over and perform other operations on a list of enumerated objects.
 old-location: base\ivssenumobject.htm
 tech.root: VSS
 ms.assetid: b8e80909-a28a-45d7-87e2-4f44bf6990f4
-
 ms.date: 12/05/2018
 ms.keywords: IVssEnumObject, IVssEnumObject interface [VSS], IVssEnumObject interface [VSS],described, _win32_ivssenumobject, base.ivssenumobject, vss/IVssEnumObject
 ms.topic: interface
-f1_keywords: 
- - "vss/IVssEnumObject"
+f1_keywords:
+- vss/IVssEnumObject
 dev_langs:
- - c++
+- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssEnumObject
+- IVssEnumObject
 targetos: Windows
 req.typenames: 
 req.redist: 

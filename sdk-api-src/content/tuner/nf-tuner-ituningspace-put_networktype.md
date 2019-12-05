@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.put_NetworkType
 title: ITuningSpace::put_NetworkType (tuner.h)
-
 description: The put_NetworkType method specifies the network type of the tuning space as a BSTR.
 old-location: mstv\ituningspace_put_networktype.htm
 tech.root: mstv
 ms.assetid: 6af7062c-41c9-447f-8d92-bd67b8348933
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_NetworkType method, ITuningSpace.put_NetworkType, ITuningSpace::put_NetworkType, ITuningSpaceput_NetworkType, mstv.ituningspace_put_networktype, put_NetworkType, put_NetworkType method [Microsoft TV Technologies], put_NetworkType method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_NetworkType
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.put_NetworkType"
+f1_keywords:
+- tuner/ITuningSpace.put_NetworkType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.put_NetworkType
+- ITuningSpace.put_NetworkType
 targetos: Windows
 req.typenames: 
 req.redist: 

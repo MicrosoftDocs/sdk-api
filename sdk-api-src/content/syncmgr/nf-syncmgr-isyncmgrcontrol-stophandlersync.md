@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StopHandlerSync
 title: ISyncMgrControl::StopHandlerSync (syncmgr.h)
-
 description: Stops the synchronization of a specified handler.
 old-location: shell\ISyncMgrControl_StopHandlerSync.htm
 tech.root: shell
 ms.assetid: 0a1ba08a-8765-49b5-be71-373af76375f8
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StopHandlerSync method, ISyncMgrControl.StopHandlerSync, ISyncMgrControl::StopHandlerSync, StopHandlerSync, StopHandlerSync method [Windows Shell], StopHandlerSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StopHandlerSync, shell.ISyncMgrControl_StopHandlerSync, syncmgr/ISyncMgrControl::StopHandlerSync
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.StopHandlerSync"
+f1_keywords:
+- syncmgr/ISyncMgrControl.StopHandlerSync
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.StopHandlerSync
+- ISyncMgrControl.StopHandlerSync
 targetos: Windows
 req.typenames: 
 req.redist: 

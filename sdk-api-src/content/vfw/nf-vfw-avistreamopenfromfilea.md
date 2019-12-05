@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamOpenFromFileA
 title: AVIStreamOpenFromFileA function (vfw.h)
-
 description: The AVIStreamOpenFromFile function opens a single stream from a file.
 old-location: multimedia\avistreamopenfromfile.htm
 tech.root: Multimedia
 ms.assetid: f9ac2a8a-08b7-42a7-b71b-a1d44c924b20
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamOpenFromFile, AVIStreamOpenFromFile function [Windows Multimedia], AVIStreamOpenFromFileA, AVIStreamOpenFromFileW, _win32_AVIStreamOpenFromFile, multimedia.avistreamopenfromfile, vfw/AVIStreamOpenFromFile, vfw/AVIStreamOpenFromFileA, vfw/AVIStreamOpenFromFileW
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamOpenFromFile"
+f1_keywords:
+- vfw/AVIStreamOpenFromFile
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIStreamOpenFromFile
- - AVIStreamOpenFromFileA
- - AVIStreamOpenFromFileW
+- AVIStreamOpenFromFile
+- AVIStreamOpenFromFileA
+- AVIStreamOpenFromFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

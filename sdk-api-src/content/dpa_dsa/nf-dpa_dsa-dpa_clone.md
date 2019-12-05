@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_Clone
 title: DPA_Clone function (dpa_dsa.h)
-
 description: Duplicates a dynamic pointer array (DPA).
 old-location: controls\DPA_Clone.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_clone.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_Clone, DPA_Clone function [Windows Controls], _shell_DPA_Clone, _shell_DPA_Clone_cpp, controls.DPA_Clone, controls._shell_DPA_Clone, dpa_dsa/DPA_Clone
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_Clone"
+f1_keywords:
+- dpa_dsa/DPA_Clone
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - DPA_Clone
+- DPA_Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

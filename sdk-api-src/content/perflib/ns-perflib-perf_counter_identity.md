@@ -1,19 +1,17 @@
 ---
 UID: NS:perflib._PERF_COUNTER_IDENTITY
 title: PERF_COUNTER_IDENTITY (perflib.h)
-
 description: Defines the counter that is sent to a provider's callback when the consumer adds or removes a counter from the query.
 old-location: perf\perf_counter_identity.htm
 tech.root: perfctrs
 ms.assetid: a18d2546-642b-4e83-be05-4b4aae1f2d2c
-
 ms.date: 12/05/2018
-ms.keywords: "*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY structure [Perf], PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY structure [Perf], base.perf_counter_identity, perf.perf_counter_identity, perflib/PERF_COUNTER_IDENTITY"
+ms.keywords: '*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY structure [Perf], PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY, PERF_COUNTER_IDENTITY,*PPERF_COUNTER_IDENTITY structure [Perf], base.perf_counter_identity, perf.perf_counter_identity, perflib/PERF_COUNTER_IDENTITY'
 ms.topic: struct
-f1_keywords: 
- - "perflib/PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY"
+f1_keywords:
+- perflib/PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Perflib.h
+- Perflib.h
 api_name:
- - PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
+- PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
 targetos: Windows
 req.typenames: PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgidebug.IDXGIDebug
 title: IDXGIDebug (dxgidebug.h)
-
 description: This interface controls debug settings, and can only be used if the debug layer is turned on.
 old-location: direct3ddxgi\idxgidebug.htm
 tech.root: direct3ddxgi
 ms.assetid: 7DCA4750-A397-4B5A-908F-A046427D30FB
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIDebug, IDXGIDebug interface [DXGI], IDXGIDebug interface [DXGI],described, direct3ddxgi.idxgidebug, dxgidebug/IDXGIDebug
 ms.topic: interface
-f1_keywords: 
- - "dxgidebug/IDXGIDebug"
+f1_keywords:
+- dxgidebug/IDXGIDebug
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIDebug
+- IDXGIDebug
 targetos: Windows
 req.typenames: 
 req.redist: 

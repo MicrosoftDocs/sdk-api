@@ -1,19 +1,17 @@
 ---
 UID: NS:winwlx._WLX_DESKTOP
 title: WLX_DESKTOP (winwlx.h)
-
 description: Used to pass desktop information between your GINA DLL and Winlogon.
 old-location: security\wlx_desktop.htm
 tech.root: SecAuthN
 ms.assetid: 3cde1b9e-5109-400d-a67f-1e263f2283d1
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Security], WLX_DESKTOP, WLX_DESKTOP structure [Security], WLX_DESKTOP_HANDLE, WLX_DESKTOP_NAME, _gina_wlx_desktop, security.wlx_desktop, winwlx/PWLX_DESKTOP, winwlx/WLX_DESKTOP"
+ms.keywords: '*PWLX_DESKTOP, PWLX_DESKTOP, PWLX_DESKTOP structure pointer [Security], WLX_DESKTOP, WLX_DESKTOP structure [Security], WLX_DESKTOP_HANDLE, WLX_DESKTOP_NAME, _gina_wlx_desktop, security.wlx_desktop, winwlx/PWLX_DESKTOP, winwlx/WLX_DESKTOP'
 ms.topic: struct
-f1_keywords: 
- - "winwlx/WLX_DESKTOP"
+f1_keywords:
+- winwlx/WLX_DESKTOP
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WLX_DESKTOP
+- WLX_DESKTOP
 targetos: Windows
 req.typenames: WLX_DESKTOP, *PWLX_DESKTOP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetRedDisable
 title: IDCompositionLinearTransferEffect::SetRedDisable (dcomp.h)
-
 description: Specifies whether to apply the transfer function to the red channel.
 old-location: directcomp\idcompositionlineartransfereffect_setreddisable.htm
 tech.root: directcomp
 ms.assetid: 59B82C2B-9DAE-4B6C-A5ED-425A8ACEF24E
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetRedDisable method, IDCompositionLinearTransferEffect.SetRedDisable, IDCompositionLinearTransferEffect::SetRedDisable, SetRedDisable, SetRedDisable method [DirectComposition], SetRedDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetRedDisable, directcomp.idcompositionlineartransfereffect_setreddisable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetRedDisable"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetRedDisable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetRedDisable
+- IDCompositionLinearTransferEffect.SetRedDisable
 targetos: Windows
 req.typenames: 
 req.redist: 

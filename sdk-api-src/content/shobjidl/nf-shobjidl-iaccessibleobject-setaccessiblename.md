@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IAccessibleObject.SetAccessibleName
 title: IAccessibleObject::SetAccessibleName (shobjidl.h)
-
 description: Sets text that is retrieved by IAccessible::get_accName which accessibility tools use to obtain the Name Property of an object.
 old-location: shell\IAccessibleObject_SetAccessibleName.htm
 tech.root: shell
 ms.assetid: 455d9434-1ea3-4a4e-ae4d-0952c895178c
-
 ms.date: 12/05/2018
 ms.keywords: IAccessibleObject interface [Windows Shell],SetAccessibleName method, IAccessibleObject.SetAccessibleName, IAccessibleObject::SetAccessibleName, SetAccessibleName, SetAccessibleName method [Windows Shell], SetAccessibleName method [Windows Shell],IAccessibleObject interface, _shell_IAccessibleObject_SetAccessibleName, shell.IAccessibleObject_SetAccessibleName, shobjidl/IAccessibleObject::SetAccessibleName
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IAccessibleObject.SetAccessibleName"
+f1_keywords:
+- shobjidl/IAccessibleObject.SetAccessibleName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IAccessibleObject.SetAccessibleName
+- IAccessibleObject.SetAccessibleName
 targetos: Windows
 req.typenames: 
 req.redist: 

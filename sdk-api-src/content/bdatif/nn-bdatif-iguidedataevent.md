@@ -1,19 +1,17 @@
 ---
 UID: NN:bdatif.IGuideDataEvent
 title: IGuideDataEvent (bdatif.h)
-
 description: The IGuideDataEvent interface is used to receive events from the BDA MPEG-2 Transport Information Filter (TIF).This interface is an outgoing connection-point interface.
 old-location: mstv\iguidedataevent.htm
 tech.root: mstv
 ms.assetid: 9da565f2-fbcb-4d71-ae40-7d9821f46630
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent, IGuideDataEvent interface [Microsoft TV Technologies], IGuideDataEvent interface [Microsoft TV Technologies],described, IGuideDataEventInterface, bdatif/IGuideDataEvent, mstv.iguidedataevent
 ms.topic: interface
-f1_keywords: 
- - "bdatif/IGuideDataEvent"
+f1_keywords:
+- bdatif/IGuideDataEvent
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdatif.h
+- Bdatif.h
 api_name:
- - IGuideDataEvent
+- IGuideDataEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

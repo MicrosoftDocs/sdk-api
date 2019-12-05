@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.WMT_NET_PROTOCOL
 title: WMT_NET_PROTOCOL (wmsdkidl.h)
-
 description: The WMT_STREAM_SELECTION enumeration type defines the types of protocols that the network sink supports.
 old-location: wmformat\wmt_net_protocol.htm
 tech.root: wmformat
 ms.assetid: dc8b67a9-33fe-408b-b0b5-62a2b219b6b5
-
 ms.date: 12/05/2018
 ms.keywords: WMT_NET_PROTOCOL, WMT_NET_PROTOCOL enumeration [windows Media Format], WMT_PROTOCOL_HTTP, wmformat.wmt_net_protocol, wmsdkidl/WMT_NET_PROTOCOL, wmsdkidl/WMT_PROTOCOL_HTTP
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_NET_PROTOCOL"
+f1_keywords:
+- wmsdkidl/WMT_NET_PROTOCOL
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_NET_PROTOCOL
+- WMT_NET_PROTOCOL
 targetos: Windows
 req.typenames: WMT_NET_PROTOCOL
 req.redist: 

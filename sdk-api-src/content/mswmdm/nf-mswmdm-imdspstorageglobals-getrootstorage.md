@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetRootStorage
 title: IMDSPStorageGlobals::GetRootStorage (mswmdm.h)
-
 description: The GetRootStorage method retrieves a pointer to the IMDSPStorage interface for the root storage of the storage medium.
 old-location: wmdm\imdspstorageglobals_getrootstorage.htm
 tech.root: WMDM
 ms.assetid: 80b6cb71-d567-4fb5-9f75-82ae2fe118c7
-
 ms.date: 12/05/2018
 ms.keywords: GetRootStorage, GetRootStorage method [windows Media Device Manager], GetRootStorage method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetRootStorage method, IMDSPStorageGlobals.GetRootStorage, IMDSPStorageGlobals::GetRootStorage, IMDSPStorageGlobalsGetRootStorage, mswmdm/IMDSPStorageGlobals::GetRootStorage, wmdm.imdspstorageglobals_getrootstorage
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorageGlobals.GetRootStorage"
+f1_keywords:
+- mswmdm/IMDSPStorageGlobals.GetRootStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.GetRootStorage
+- IMDSPStorageGlobals.GetRootStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

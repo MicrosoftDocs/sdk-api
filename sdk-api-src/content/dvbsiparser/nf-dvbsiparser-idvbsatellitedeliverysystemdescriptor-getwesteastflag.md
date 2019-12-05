@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 title: IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor_getwesteastflag.htm
 tech.root: mstv
 ms.assetid: 533a2ed4-f5ac-4f41-a03b-0b274f327436
-
 ms.date: 12/05/2018
 ms.keywords: GetWestEastFlag, GetWestEastFlag method [Microsoft TV Technologies], GetWestEastFlag method [Microsoft TV Technologies],IDvbSatelliteDeliverySystemDescriptor interface, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],GetWestEastFlag method, IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, IDvbSatelliteDeliverySystemDescriptorGetWestEastFlag, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor::GetWestEastFlag, mstv.idvbsatellitedeliverysystemdescriptor_getwesteastflag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag"
+f1_keywords:
+- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
+- IDvbSatelliteDeliverySystemDescriptor.GetWestEastFlag
 targetos: Windows
 req.typenames: 
 req.redist: 

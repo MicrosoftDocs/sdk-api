@@ -1,19 +1,17 @@
 ---
 UID: NF:faxext.FaxExtFreeBuffer
 title: FaxExtFreeBuffer function (faxext.h)
-
 description: The FaxExtFreeBuffer callback function deallocates memory previously allocated by a successful call to the FaxExtGetData function.
 old-location: fax\_mfax_faxextfreebuffer.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_75bm.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxExtFreeBuffer, FaxExtFreeBuffer function [Fax Service], _mfax_faxextfreebuffer, fax._mfax_faxextfreebuffer, faxext/FaxExtFreeBuffer
 ms.topic: function
-f1_keywords: 
- - "faxext/FaxExtFreeBuffer"
+f1_keywords:
+- faxext/FaxExtFreeBuffer
 dev_langs:
- - c++
+- c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxExt.h
+- FaxExt.h
 api_name:
- - FaxExtFreeBuffer
+- FaxExtFreeBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

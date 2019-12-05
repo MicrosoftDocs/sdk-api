@@ -1,19 +1,17 @@
 ---
 UID: NS:scesvc._SCESVC_CONFIGURATION_LINE_
 title: SCESVC_CONFIGURATION_LINE (scesvc.h)
-
 description: The SCESVC_CONFIGURATION_LINE structure contains information about a line of configuration data. It is used by the SCESVC_CONFIGURATION_INFO structure.
 old-location: security\scesvc_configuration_line.htm
 tech.root: SecMgmt
 ms.assetid: 25801b20-9a7a-423e-8fa3-86896a8fbae4
-
 ms.date: 12/05/2018
-ms.keywords: "*PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE structure pointer [Security], SCESVC_CONFIGURATION_LINE, SCESVC_CONFIGURATION_LINE structure [Security], _config_scesvc_configuration_line, scesvc/PSCESVC_CONFIGURATION_LINE, scesvc/SCESVC_CONFIGURATION_LINE, security.scesvc_configuration_line"
+ms.keywords: '*PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE, PSCESVC_CONFIGURATION_LINE structure pointer [Security], SCESVC_CONFIGURATION_LINE, SCESVC_CONFIGURATION_LINE structure [Security], _config_scesvc_configuration_line, scesvc/PSCESVC_CONFIGURATION_LINE, scesvc/SCESVC_CONFIGURATION_LINE, security.scesvc_configuration_line'
 ms.topic: struct
-f1_keywords: 
- - "scesvc/SCESVC_CONFIGURATION_LINE"
+f1_keywords:
+- scesvc/SCESVC_CONFIGURATION_LINE
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Scesvc.h
+- Scesvc.h
 api_name:
- - SCESVC_CONFIGURATION_LINE
+- SCESVC_CONFIGURATION_LINE
 targetos: Windows
 req.typenames: SCESVC_CONFIGURATION_LINE, *PSCESVC_CONFIGURATION_LINE
 req.redist: 

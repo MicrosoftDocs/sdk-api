@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.put_MaxMajorChannel
 title: IDigitalCableTuningSpace::put_MaxMajorChannel (tuner.h)
-
 description: The put_MaxMajorChannel method sets the highest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_put_maxmajorchannel.htm
 tech.root: mstv
 ms.assetid: fbe0add4-dc2e-4d0b-9d78-a67ce75edba0
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],put_MaxMajorChannel method, IDigitalCableTuningSpace.put_MaxMajorChannel, IDigitalCableTuningSpace::put_MaxMajorChannel, IDigitalCableTuningSpaceput_MaxMajorChannel, mstv.idigitalcabletuningspace_put_maxmajorchannel, put_MaxMajorChannel, put_MaxMajorChannel method [Microsoft TV Technologies], put_MaxMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, tuner/IDigitalCableTuningSpace::put_MaxMajorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IDigitalCableTuningSpace.put_MaxMajorChannel"
+f1_keywords:
+- tuner/IDigitalCableTuningSpace.put_MaxMajorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuningSpace.put_MaxMajorChannel
+- IDigitalCableTuningSpace.put_MaxMajorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

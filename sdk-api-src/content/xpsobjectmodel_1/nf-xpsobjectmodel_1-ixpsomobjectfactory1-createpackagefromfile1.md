@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageFromFile1
 title: IXpsOMObjectFactory1::CreatePackageFromFile1 (xpsobjectmodel_1.h)
-
 description: Opens an XPS package file and returns an instantiated XPS document object tree. This method will read a file that contains an XPS document that is of type XPS_DOCUMENT_TYPE_ XPS or XPS_DOCUMENT_TYPE_ OPENXPS.
 old-location: xps\ixpsomobjectfactory1_createpackagefromfile1.htm
 tech.root: printdocs
 ms.assetid: c5641576-9280-48a5-9fb6-ef3d2811386a
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackageFromFile1, CreatePackageFromFile1 method [XPS Documents and Packaging], CreatePackageFromFile1 method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],CreatePackageFromFile1 method, IXpsOMObjectFactory1.CreatePackageFromFile1, IXpsOMObjectFactory1::CreatePackageFromFile1, xps.ixpsomobjectfactory1_createpackagefromfile1, xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageFromFile1
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePackageFromFile1"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMObjectFactory1.CreatePackageFromFile1
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMObjectFactory1.CreatePackageFromFile1
+- IXpsOMObjectFactory1.CreatePackageFromFile1
 targetos: Windows
 req.typenames: 
 req.redist: 

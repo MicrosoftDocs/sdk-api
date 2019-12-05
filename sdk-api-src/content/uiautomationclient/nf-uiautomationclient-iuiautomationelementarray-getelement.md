@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElementArray.GetElement
 title: IUIAutomationElementArray::GetElement (uiautomationclient.h)
-
 description: Retrieves a Microsoft UI Automation element from the collection.
 old-location: winauto\uiauto_IUIAutomationElementArray_GetElement.htm
 tech.root: WinAuto
 ms.assetid: c8651061-3a17-49d0-abc6-78ce3fa02363
-
 ms.date: 12/05/2018
 ms.keywords: GetElement, GetElement method [Windows Accessibility], GetElement method [Windows Accessibility],IUIAutomationElementArray interface, IUIAutomationElementArray interface [Windows Accessibility],GetElement method, IUIAutomationElementArray.GetElement, IUIAutomationElementArray::GetElement, uiauto.uiauto_IUIAutomationElementArray_GetElement, uiauto_IUIAutomationElementArray_GetElement, uiautomationclient/IUIAutomationElementArray::GetElement, winauto.uiauto_IUIAutomationElementArray_GetElement
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElementArray.GetElement"
+f1_keywords:
+- uiautomationclient/IUIAutomationElementArray.GetElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElementArray.GetElement
+- IUIAutomationElementArray.GetElement
 targetos: Windows
 req.typenames: 
 req.redist: 

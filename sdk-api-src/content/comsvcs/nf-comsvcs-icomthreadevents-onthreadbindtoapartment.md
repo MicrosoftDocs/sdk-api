@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadBindToApartment
 title: IComThreadEvents::OnThreadBindToApartment (comsvcs.h)
-
 description: Generated when an apartment thread is allocated for a single-thread apartment (STA) thread that does not have an apartment thread to run in.
 old-location: cos\icomthreadevents_onthreadbindtoapartment.htm
 tech.root: cossdk
 ms.assetid: d05c784a-5dcd-4155-baa0-775c499bd936
-
 ms.date: 12/05/2018
 ms.keywords: IComThreadEvents interface [COM+],OnThreadBindToApartment method, IComThreadEvents.OnThreadBindToApartment, IComThreadEvents::OnThreadBindToApartment, OnThreadBindToApartment, OnThreadBindToApartment method [COM+], OnThreadBindToApartment method [COM+],IComThreadEvents interface, _dtc_IComThreadEvents_OnThreadBindToApartment, comsvcs/IComThreadEvents::OnThreadBindToApartment, cos.icomthreadevents_onthreadbindtoapartment
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComThreadEvents.OnThreadBindToApartment"
+f1_keywords:
+- comsvcs/IComThreadEvents.OnThreadBindToApartment
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComThreadEvents.OnThreadBindToApartment
+- IComThreadEvents.OnThreadBindToApartment
 targetos: Windows
 req.typenames: 
 req.redist: 

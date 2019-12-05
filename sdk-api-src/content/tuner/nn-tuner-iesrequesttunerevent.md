@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IESRequestTunerEvent
 title: IESRequestTunerEvent (tuner.h)
-
 description: Contains methods that enable a Protected Broadcast Driver Architecture (PBDA)-supported device to get exclusive access to a tuner and its Conditional Access Services (CAS).
 old-location: mstv\iesrequesttunerevent.htm
 tech.root: mstv
 ms.assetid: da1183a3-6f31-402a-b103-448cf13705a9
-
 ms.date: 12/05/2018
 ms.keywords: IESRequestTunerEvent, IESRequestTunerEvent interface [Microsoft TV Technologies], IESRequestTunerEvent interface [Microsoft TV Technologies],described, mstv.iesrequesttunerevent, tuner/IESRequestTunerEvent
 ms.topic: interface
-f1_keywords: 
- - "tuner/IESRequestTunerEvent"
+f1_keywords:
+- tuner/IESRequestTunerEvent
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESRequestTunerEvent
+- IESRequestTunerEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

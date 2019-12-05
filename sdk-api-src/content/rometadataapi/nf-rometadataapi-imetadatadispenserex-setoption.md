@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataDispenserEx.SetOption
 title: IMetaDataDispenserEx::SetOption (rometadataapi.h)
-
 description: Sets the specified option to a given value for the current metadata scope. The option controls how calls to the current metadata scope are handled.
 old-location: winrt\imetadatadispenserex_setoption.htm
 tech.root: WinRT
 ms.assetid: bb84abf1-0bba-4f9d-98fb-3ed67819a9dc
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataDispenserEx interface [Windows Runtime],SetOption method, IMetaDataDispenserEx.SetOption, IMetaDataDispenserEx::SetOption, SetOption, SetOption method [Windows Runtime], SetOption method [Windows Runtime],IMetaDataDispenserEx interface, rometadataapi/IMetaDataDispenserEx::SetOption, winrt.imetadatadispenserex_setoption
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataDispenserEx.SetOption"
+f1_keywords:
+- rometadataapi/IMetaDataDispenserEx.SetOption
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataDispenserEx.SetOption
+- IMetaDataDispenserEx.SetOption
 targetos: Windows
 req.typenames: 
 req.redist: 

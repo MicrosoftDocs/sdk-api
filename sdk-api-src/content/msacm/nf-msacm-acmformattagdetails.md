@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmFormatTagDetails
 title: acmFormatTagDetails function (msacm.h)
-
 description: The acmFormatTagDetails function queries the ACM for details on a specific waveform-audio format tag.
 old-location: multimedia\acmformattagdetails.htm
 tech.root: Multimedia
 ms.assetid: 294d9e8b-de47-4ebe-8989-558469ba1356
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFormatTagDetails, acmFormatTagDetails, acmFormatTagDetails function [Windows Multimedia], acmFormatTagDetailsA, acmFormatTagDetailsW, msacm/acmFormatTagDetails, msacm/acmFormatTagDetailsA, msacm/acmFormatTagDetailsW, multimedia.acmformattagdetails"
+ms.keywords: _win32_acmFormatTagDetails, acmFormatTagDetails, acmFormatTagDetails function [Windows Multimedia], acmFormatTagDetailsA, acmFormatTagDetailsW, msacm/acmFormatTagDetails, msacm/acmFormatTagDetailsA, msacm/acmFormatTagDetailsW, multimedia.acmformattagdetails
 ms.topic: function
-f1_keywords: 
- - "msacm/acmFormatTagDetails"
+f1_keywords:
+- msacm/acmFormatTagDetails
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFormatTagDetails
- - acmFormatTagDetailsA
- - acmFormatTagDetailsW
+- acmFormatTagDetails
+- acmFormatTagDetailsA
+- acmFormatTagDetailsW
 targetos: Windows
 req.typenames: 
 req.redist: 

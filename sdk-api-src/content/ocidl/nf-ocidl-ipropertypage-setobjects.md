@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.SetObjects
 title: IPropertyPage::SetObjects (ocidl.h)
-
 description: Provides the property page with an array of pointers to objects associated with this property page.
 old-location: com\ipropertypage_setobjects.htm
 tech.root: com
 ms.assetid: 0d7a73ce-8e3c-40c5-9040-6370df5edc2b
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyPage interface [COM],SetObjects method, IPropertyPage.SetObjects, IPropertyPage::SetObjects, SetObjects, SetObjects method [COM], SetObjects method [COM],IPropertyPage interface, _ctrl_ipropertypage_setobjects, com.ipropertypage_setobjects, ocidl/IPropertyPage::SetObjects
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.SetObjects"
+f1_keywords:
+- ocidl/IPropertyPage.SetObjects
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.SetObjects
+- IPropertyPage.SetObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

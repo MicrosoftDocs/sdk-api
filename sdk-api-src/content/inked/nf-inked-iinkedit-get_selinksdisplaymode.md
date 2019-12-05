@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.get_SelInksDisplayMode
 title: IInkEdit::get_SelInksDisplayMode (inked.h)
-
 description: Gets or sets a value that allows for toggling the appearance of the selection between ink and text.
 old-location: tablet\inkedit_selinksdisplaymode.htm
 tech.root: tablet
 ms.assetid: c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelInksDisplayMode property, IInkEdit.SelInksDisplayMode, IInkEdit.get_SelInksDisplayMode, IInkEdit::SelInksDisplayMode, IInkEdit::get_SelInksDisplayMode, IInkEdit::put_SelInksDisplayMode, Ink, InkEdit.get_SelInksDisplayMode, InkEdit.put_SelInksDisplayMode, SelInksDisplayMode property [Tablet PC], SelInksDisplayMode property [Tablet PC],IInkEdit interface, Text, c4e6f85a-b776-41ca-bfd2-6eb8d2425cd1, get_SelInksDisplayMode, inked/IInkEdit::SelInksDisplayMode, inked/IInkEdit::get_SelInksDisplayMode, inked/IInkEdit::put_SelInksDisplayMode, put_SelInksDisplayMode, tablet.inkedit_selinksdisplaymode
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.SelInksDisplayMode"
+f1_keywords:
+- inked/IInkEdit.SelInksDisplayMode
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.SelInksDisplayMode
- - IInkEdit.get_SelInksDisplayMode
- - IInkEdit.put_SelInksDisplayMode
- - InkEdit.get_SelInksDisplayMode
- - InkEdit.put_SelInksDisplayMode
+- IInkEdit.SelInksDisplayMode
+- IInkEdit.get_SelInksDisplayMode
+- IInkEdit.put_SelInksDisplayMode
+- InkEdit.get_SelInksDisplayMode
+- InkEdit.put_SelInksDisplayMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12LibraryReflection.GetFunctionByIndex
 title: ID3D12LibraryReflection::GetFunctionByIndex (d3d12shader.h)
-
 description: Gets the function reflector.
 old-location: direct3d12\id3d12libraryreflection_getfunctionbyindex.htm
 tech.root: direct3d12
 ms.assetid: 1600824A-6C9E-4C87-8D6B-07F299D47A53
-
 ms.date: 12/05/2018
 ms.keywords: GetFunctionByIndex, GetFunctionByIndex method, GetFunctionByIndex method,ID3D12LibraryReflection interface, ID3D12LibraryReflection interface,GetFunctionByIndex method, ID3D12LibraryReflection.GetFunctionByIndex, ID3D12LibraryReflection::GetFunctionByIndex, d3d12shader/ID3D12LibraryReflection::GetFunctionByIndex, direct3d12.id3d12libraryreflection_getfunctionbyindex
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12LibraryReflection.GetFunctionByIndex"
+f1_keywords:
+- d3d12shader/ID3D12LibraryReflection.GetFunctionByIndex
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12LibraryReflection.GetFunctionByIndex
+- ID3D12LibraryReflection.GetFunctionByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,16 +1,14 @@
 ---
 UID: NE:d3d12.D3D12_DRED_FLAGS
 title: D3D12_DRED_FLAGS
-
 description: Defines constants used in the D3D12_DEVICE_REMOVED_EXTENDED_DATA structure to specify control flags for the Direct3D runtime.
-
 ms.date: 02/06/2019
 ms.keywords: D3D12_DRED_FLAGS, D3D12_DRED_FLAGS enumeration, D3D12_DRED_FLAG_NONE, D3D12_DRED_FLAG_FORCE_ENABLE, D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS, d3d12/D3D12_DRED_FLAGS, d3d12/D3D12_DRED_FLAGS enumeration, d3d12/D3D12_DRED_FLAG_NONE, d3d12/D3D12_DRED_FLAG_FORCE_ENABLE, d3d12/D3D12_DRED_FLAG_DISABLE_AUTOBREADCRUMBS, direct3d12.d3d12_dred_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_DRED_FLAGS"
+f1_keywords:
+- d3d12/D3D12_DRED_FLAGS
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -24,13 +22,13 @@ req.target-type:
 req.typenames: D3D12_DRED_FLAGS
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_DRED_FLAGS
+- D3D12_DRED_FLAGS
 ms.custom: 19H1
 ---
 

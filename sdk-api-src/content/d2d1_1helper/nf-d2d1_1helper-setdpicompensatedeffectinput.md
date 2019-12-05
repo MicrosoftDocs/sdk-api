@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.SetDpiCompensatedEffectInput
 title: SetDpiCompensatedEffectInput function (d2d1_1helper.h)
-
 description: Sets a bitmap as an effect input, while inserting a DPI compensation effect to preserve visual appearance as the device context's DPI changes.
 old-location: direct2d\setdpicompensatedeffectinput.htm
 tech.root: Direct2D
 ms.assetid: B9E2C5F7-2E05-441D-A902-6473E0235659
-
 ms.date: 12/05/2018
 ms.keywords: SetDpiCompensatedEffectInput, SetDpiCompensatedEffectInput function [Direct2D], d2d1_1helper/SetDpiCompensatedEffectInput, direct2d.setdpicompensatedeffectinput
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/SetDpiCompensatedEffectInput"
+f1_keywords:
+- d2d1_1helper/SetDpiCompensatedEffectInput
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - SetDpiCompensatedEffectInput
+- SetDpiCompensatedEffectInput
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearRenderTargetView
 title: ID3D12GraphicsCommandList::ClearRenderTargetView (d3d12.h)
-
 description: Sets all the elements in a render target to one value.
 old-location: direct3d12\id3d12graphicscommandlist_clearrendertargetview.htm
 tech.root: direct3d12
 ms.assetid: 5AB13E36-A189-41B4-AEF8-B5C5831655DB
-
 ms.date: 12/05/2018
 ms.keywords: ClearRenderTargetView, ClearRenderTargetView method, ClearRenderTargetView method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,ClearRenderTargetView method, ID3D12GraphicsCommandList.ClearRenderTargetView, ID3D12GraphicsCommandList::ClearRenderTargetView, d3d12/ID3D12GraphicsCommandList::ClearRenderTargetView, direct3d12.id3d12graphicscommandlist_clearrendertargetview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.ClearRenderTargetView"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.ClearRenderTargetView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.ClearRenderTargetView
+- ID3D12GraphicsCommandList.ClearRenderTargetView
 targetos: Windows
 req.typenames: 
 req.redist: 

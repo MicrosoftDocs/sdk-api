@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.GenerateForLeaf
 title: IConditionGenerator::GenerateForLeaf (structuredquery.h)
-
 description: Generates a special query expression for what would otherwise become a leaf query expression.
 old-location: search\_search_IConditionGenerator_GenerateForLeaf.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\generateforleaf.htm
-
 ms.date: 12/05/2018
 ms.keywords: GenerateForLeaf, GenerateForLeaf method [search], GenerateForLeaf method [search],IConditionGenerator interface, IConditionGenerator interface [search],GenerateForLeaf method, IConditionGenerator.GenerateForLeaf, IConditionGenerator::GenerateForLeaf, _search_IConditionGenerator_GenerateForLeaf, search._search_IConditionGenerator_GenerateForLeaf, structuredquery/IConditionGenerator::GenerateForLeaf
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionGenerator.GenerateForLeaf"
+f1_keywords:
+- structuredquery/IConditionGenerator.GenerateForLeaf
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionGenerator.GenerateForLeaf
+- IConditionGenerator.GenerateForLeaf
 targetos: Windows
 req.typenames: 
 req.redist: 

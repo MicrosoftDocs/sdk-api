@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.GetCurrentStoryboard
 title: IUIAnimationVariable2::GetCurrentStoryboard (uianimation.h)
-
 description: Gets the active storyboard for the animation variable.
 old-location: uianimation\iuianimationvariable2_getcurrentstoryboard.htm
 tech.root: UIAnimation
 ms.assetid: 7A9B4A84-94E4-4B6C-B2FF-0A0A70397D21
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentStoryboard, GetCurrentStoryboard method [Windows Animation], GetCurrentStoryboard method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetCurrentStoryboard method, IUIAnimationVariable2.GetCurrentStoryboard, IUIAnimationVariable2::GetCurrentStoryboard, uianimation.iuianimationvariable2_getcurrentstoryboard, uianimation/IUIAnimationVariable2::GetCurrentStoryboard
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.GetCurrentStoryboard"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.GetCurrentStoryboard
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.GetCurrentStoryboard
+- IUIAnimationVariable2.GetCurrentStoryboard
 targetos: Windows
 req.typenames: 
 req.redist: 

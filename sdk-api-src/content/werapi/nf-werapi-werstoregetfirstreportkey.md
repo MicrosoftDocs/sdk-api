@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerStoreGetFirstReportKey
 title: WerStoreGetFirstReportKey function (werapi.h)
-
 description: Gets a reference to the first report in the report store.
 old-location: wer\werstoregetfirstreportkey.htm
 tech.root: wer
 ms.assetid: E4732B60-BFBE-4916-83A6-5F031D267913
-
 ms.date: 12/05/2018
 ms.keywords: WerStoreGetFirstReportKey, WerStoreGetFirstReportKey function [Windows Error Reporting], wer.werstoregetfirstreportkey, werapi/WerStoreGetFirstReportKey
 ms.topic: function
-f1_keywords: 
- - "werapi/WerStoreGetFirstReportKey"
+f1_keywords:
+- werapi/WerStoreGetFirstReportKey
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wer.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- wer.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerStoreGetFirstReportKey
+- WerStoreGetFirstReportKey
 targetos: Windows
 req.typenames: 
 req.redist: 

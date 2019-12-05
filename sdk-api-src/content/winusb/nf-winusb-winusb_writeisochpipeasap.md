@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_WriteIsochPipeAsap
 title: WinUsb_WriteIsochPipeAsap function (winusb.h)
-
 description: The WinUsb_WriteIsochPipeAsap submits a request for writing the contents of a buffer to an isochronous OUT endpoint.
 old-location: buses\winusb_writeisochpipeasap.htm
 tech.root: usbref
 ms.assetid: CC8776DF-9DC6-4B75-A4CE-EAC644EABABA
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WriteIsochPipeAsap, WinUsb_WriteIsochPipeAsap function [Buses], buses.winusb_writeisochpipeasap, winusb/WinUsb_WriteIsochPipeAsap
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_WriteIsochPipeAsap
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

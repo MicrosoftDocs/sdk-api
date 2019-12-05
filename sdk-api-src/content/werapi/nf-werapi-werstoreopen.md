@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerStoreOpen
 title: WerStoreOpen function (werapi.h)
-
 description: Opens the collection of stored error reports.
 old-location: wer\werstoreopen.htm
 tech.root: wer
 ms.assetid: FA7E0EC6-00F1-45E2-BE34-D732965FBA15
-
 ms.date: 12/05/2018
 ms.keywords: WerStoreOpen, WerStoreOpen function [Windows Error Reporting], wer.werstoreopen, werapi/WerStoreOpen
 ms.topic: function
-f1_keywords: 
- - "werapi/WerStoreOpen"
+f1_keywords:
+- werapi/WerStoreOpen
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wer.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- wer.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerStoreOpen
+- WerStoreOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

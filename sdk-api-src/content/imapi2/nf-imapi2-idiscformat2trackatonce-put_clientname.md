@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.put_ClientName
 title: IDiscFormat2TrackAtOnce::put_ClientName (imapi2.h)
-
 description: Sets the friendly name of the client.
 old-location: imapi\idiscformat2trackatonce_put_clientname.htm
 tech.root: imapi
 ms.assetid: 9140aa9f-f592-4ef4-85c7-321e5503b0b8
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],put_ClientName method, IDiscFormat2TrackAtOnce.put_ClientName, IDiscFormat2TrackAtOnce::put_ClientName, imapi.idiscformat2trackatonce_put_clientname, imapi2/IDiscFormat2TrackAtOnce::put_ClientName, put_ClientName, put_ClientName method [IMAPI], put_ClientName method [IMAPI],IDiscFormat2TrackAtOnce interface
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.put_ClientName"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.put_ClientName
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.put_ClientName
+- IDiscFormat2TrackAtOnce.put_ClientName
 targetos: Windows
 req.typenames: 
 req.redist: 

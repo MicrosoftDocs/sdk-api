@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo
 title: IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo (dvbsiparser.h)
-
 description: Gets the transmission_type_info field from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo.htm
 tech.root: mstv
 ms.assetid: 992ef7de-ccf8-42a1-bb83-4b5f396164ce
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordTransmissionTypeInfo, GetRecordTransmissionTypeInfo method [Microsoft TV Technologies], GetRecordTransmissionTypeInfo method [Microsoft TV Technologies],IIsdbTSInformationDescriptor interface, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],GetRecordTransmissionTypeInfo method, IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo, IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, dvbsiparser/IIsdbTSInformationDescriptor::GetRecordTransmissionTypeInfo, mstv.iisdbtsinformationdescriptor_getrecordtransmissiontypeinfo
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo"
+f1_keywords:
+- dvbsiparser/IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo
+- IIsdbTSInformationDescriptor.GetRecordTransmissionTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

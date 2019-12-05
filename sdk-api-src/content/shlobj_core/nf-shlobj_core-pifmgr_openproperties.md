@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PifMgr_OpenProperties
 title: PifMgr_OpenProperties function (shlobj_core.h)
-
 description: Opens the .pif file associated with a Microsoft MS-DOS application, and returns a handle to the application's properties.
 old-location: properties\PifMgr_OpenProperties.htm
 tech.root: properties
 ms.assetid: 0bc11528-7278-4765-b3cb-671ba82c9155
-
 ms.date: 12/05/2018
 ms.keywords: OPENPROPS_INHIBITPIF, OPENPROPS_NONE, PifMgr_OpenProperties, PifMgr_OpenProperties function [Windows Properties], _win32_PifMgr_OpenProperties, properties.PifMgr_OpenProperties, shell.PifMgr_OpenProperties, shlobj_core/PifMgr_OpenProperties
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PifMgr_OpenProperties"
+f1_keywords:
+- shlobj_core/PifMgr_OpenProperties
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - PifMgr_OpenProperties
+- PifMgr_OpenProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

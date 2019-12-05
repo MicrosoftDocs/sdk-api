@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsMergeForestTrustInformationW
 title: DsMergeForestTrustInformationW function (dsgetdc.h)
-
 description: Merges the changes from a new forest trust data structure with an old forest trust data structure.
 old-location: ad\dsmergeforesttrustinformationw.htm
 tech.root: ad
 ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c
-
 ms.date: 12/05/2018
 ms.keywords: DsMergeForestTrustInformationW, DsMergeForestTrustInformationW function [Active Directory], ad.dsmergeforesttrustinformationw, dsgetdc/DsMergeForestTrustInformationW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsMergeForestTrustInformationW"
+f1_keywords:
+- dsgetdc/DsMergeForestTrustInformationW
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsMergeForestTrustInformationW
+- DsMergeForestTrustInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ndattrib.tagRepairInfo
 title: RepairInfo (ndattrib.h)
-
 description: The RepairInfo structure contains data required for a particular repair option.
 old-location: ndf\repairinfo.htm
 tech.root: NDF
 ms.assetid: 07639ac5-e586-4ab1-96e8-502c378de940
-
 ms.date: 12/05/2018
-ms.keywords: "*PRepairInfo, PRepairInfo, PRepairInfo structure pointer [NDF], RF_CONTACT_ADMIN, RF_INFORMATION_ONLY, RF_REPRO, RF_RESERVED, RF_RESERVED_CA, RF_RESERVED_LNI, RF_USER_ACTION, RF_USER_CONFIRMATION, RF_VALIDATE_HELPTOPIC, RF_WORKAROUND, RepairInfo, RepairInfo structure [NDF], ndattrib/PRepairInfo, ndattrib/RepairInfo, ndf.repairinfo"
+ms.keywords: '*PRepairInfo, PRepairInfo, PRepairInfo structure pointer [NDF], RF_CONTACT_ADMIN, RF_INFORMATION_ONLY, RF_REPRO, RF_RESERVED, RF_RESERVED_CA, RF_RESERVED_LNI, RF_USER_ACTION, RF_USER_CONFIRMATION, RF_VALIDATE_HELPTOPIC, RF_WORKAROUND, RepairInfo, RepairInfo structure [NDF], ndattrib/PRepairInfo, ndattrib/RepairInfo, ndf.repairinfo'
 ms.topic: struct
-f1_keywords: 
- - "ndattrib/RepairInfo"
+f1_keywords:
+- ndattrib/RepairInfo
 dev_langs:
- - c++
+- c++
 req.header: ndattrib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndattrib.h
+- ndattrib.h
 api_name:
- - RepairInfo
+- RepairInfo
 targetos: Windows
 req.typenames: RepairInfo, *PRepairInfo
 req.redist: 

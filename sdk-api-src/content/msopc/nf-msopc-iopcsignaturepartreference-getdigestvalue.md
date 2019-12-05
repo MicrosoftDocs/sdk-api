@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetDigestValue
 title: IOpcSignaturePartReference::GetDigestValue (msopc.h)
-
 description: Gets the digest value that is calculated for part content of the referenced part when the part is signed.
 old-location: opc\iopcsignaturepartreference_getdigestvalue.htm
 tech.root: OPC
 ms.assetid: 43ae8891-34fb-46cf-8b61-f7d1bd67a2d2
-
 ms.date: 12/05/2018
 ms.keywords: GetDigestValue, GetDigestValue method [Open Packaging Conventions], GetDigestValue method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetDigestValue method, IOpcSignaturePartReference.GetDigestValue, IOpcSignaturePartReference::GetDigestValue, msopc/IOpcSignaturePartReference::GetDigestValue, opc.iopcsignaturepartreference_getdigestvalue
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignaturePartReference.GetDigestValue"
+f1_keywords:
+- msopc/IOpcSignaturePartReference.GetDigestValue
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReference.GetDigestValue
+- IOpcSignaturePartReference.GetDigestValue
 targetos: Windows
 req.typenames: 
 req.redist: 

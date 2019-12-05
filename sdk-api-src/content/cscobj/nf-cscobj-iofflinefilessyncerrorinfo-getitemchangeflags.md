@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetItemChangeFlags
 title: IOfflineFilesSyncErrorInfo::GetItemChangeFlags (cscobj.h)
-
 description: Retrieves a value containing a set of flags that describe what changes were encountered during the sync operation associated with the sync error.
 old-location: of\iofflinefilessyncerrorinfo_getitemchangeflags.htm
 tech.root: offlinefiles
 ms.assetid: 1014e42f-83af-493e-b264-a46055f646a5
-
 ms.date: 12/05/2018
 ms.keywords: GetItemChangeFlags, GetItemChangeFlags method [Offline Files], GetItemChangeFlags method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetItemChangeFlags method, IOfflineFilesSyncErrorInfo.GetItemChangeFlags, IOfflineFilesSyncErrorInfo::GetItemChangeFlags, OFFLINEFILES_SYNC_ITEM_CHANGE_ATTRIBUTES, OFFLINEFILES_SYNC_ITEM_CHANGE_CHANGETIME, OFFLINEFILES_SYNC_ITEM_CHANGE_FILESIZE, OFFLINEFILES_SYNC_ITEM_CHANGE_NONE, OFFLINEFILES_SYNC_ITEM_CHANGE_WRITETIME, cscobj/IOfflineFilesSyncErrorInfo::GetItemChangeFlags, of.iofflinefilessyncerrorinfo_getitemchangeflags
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncErrorInfo.GetItemChangeFlags"
+f1_keywords:
+- cscobj/IOfflineFilesSyncErrorInfo.GetItemChangeFlags
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorInfo.GetItemChangeFlags
+- IOfflineFilesSyncErrorInfo.GetItemChangeFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

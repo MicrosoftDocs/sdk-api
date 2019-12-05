@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Decrypt
 title: IWMSecureChannel::WMSC_Decrypt (wmsecure.h)
-
 description: The WMSC_Decrypt method decrypts data across DLL boundaries.
 old-location: wmformat\iwmsecurechannel_wmsc_decrypt.htm
 tech.root: wmformat
 ms.assetid: c477c1f9-0264-4d3f-8670-f0c52df9e6a6
-
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_Decrypt method, IWMSecureChannel.WMSC_Decrypt, IWMSecureChannel::WMSC_Decrypt, WMSC_Decrypt, WMSC_Decrypt method [windows Media Format], WMSC_Decrypt method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_decrypt, wmsecure/IWMSecureChannel::WMSC_Decrypt
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMSecureChannel.WMSC_Decrypt"
+f1_keywords:
+- wmsecure/IWMSecureChannel.WMSC_Decrypt
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_Decrypt
+- IWMSecureChannel.WMSC_Decrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

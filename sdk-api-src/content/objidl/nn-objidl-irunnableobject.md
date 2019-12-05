@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IRunnableObject
 title: IRunnableObject (objidl.h)
-
 description: Enables a container to control the running of its embedded objects.
 old-location: com\irunnableobject.htm
 tech.root: com
 ms.assetid: c682447b-5b12-41d5-a81d-fe94a117f740
-
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject, IRunnableObject interface [COM], IRunnableObject interface [COM],described, _com_irunnableobject, com.irunnableobject, objidl/IRunnableObject
 ms.topic: interface
-f1_keywords: 
- - "objidl/IRunnableObject"
+f1_keywords:
+- objidl/IRunnableObject
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunnableObject
+- IRunnableObject
 targetos: Windows
 req.typenames: 
 req.redist: 

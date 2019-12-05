@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LookupIconIdFromDirectory
 title: LookupIconIdFromDirectory function (winuser.h)
-
 description: Searches through icon or cursor data for the icon or cursor that best fits the current display device.
 old-location: menurc\lookupiconidfromdirectory.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\lookupiconidfromdirectory.htm
-
 ms.date: 12/05/2018
 ms.keywords: LookupIconIdFromDirectory, LookupIconIdFromDirectory function [Menus and Other Resources], _win32_LookupIconIdFromDirectory, _win32_lookupiconidfromdirectory_cpp, menurc.lookupiconidfromdirectory, winui._win32_lookupiconidfromdirectory, winuser/LookupIconIdFromDirectory
 ms.topic: function
-f1_keywords: 
- - "winuser/LookupIconIdFromDirectory"
+f1_keywords:
+- winuser/LookupIconIdFromDirectory
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - LookupIconIdFromDirectory
+- LookupIconIdFromDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

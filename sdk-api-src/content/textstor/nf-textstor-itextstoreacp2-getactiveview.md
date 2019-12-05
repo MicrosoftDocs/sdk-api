@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetActiveView
 title: ITextStoreACP2::GetActiveView (textstor.h)
-
 description: Gets a TsViewCookie that represents the current active view.
 old-location: tsf\itextstoreacp2_getactiveview.htm
 tech.root: TSF
 ms.assetid: 38db4fd3-3268-4b3d-9e2c-19d80afeba47
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveView, GetActiveView method [Text Services Framework], GetActiveView method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetActiveView method, ITextStoreACP2.GetActiveView, ITextStoreACP2::GetActiveView, textstor/ITextStoreACP2::GetActiveView, tsf.itextstoreacp2_getactiveview
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.GetActiveView"
+f1_keywords:
+- textstor/ITextStoreACP2.GetActiveView
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.GetActiveView
+- ITextStoreACP2.GetActiveView
 targetos: Windows
 req.typenames: 
 req.redist: 

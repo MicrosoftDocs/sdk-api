@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetPlaneSize
 title: MFGetPlaneSize function (mfapi.h)
-
 description: Retrieves the image size, in bytes, for an uncompressed video format.
 old-location: mf\mfgetplanesize.htm
 tech.root: medfound
 ms.assetid: 53ce83f3-b06e-4c91-a3e2-6369963e7810
-
 ms.date: 12/05/2018
 ms.keywords: 53ce83f3-b06e-4c91-a3e2-6369963e7810, MFGetPlaneSize, MFGetPlaneSize function [Media Foundation], mf.mfgetplanesize, mfapi/MFGetPlaneSize
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetPlaneSize"
+f1_keywords:
+- mfapi/MFGetPlaneSize
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetPlaneSize
+- MFGetPlaneSize
 targetos: Windows
 req.typenames: 
 req.redist: 

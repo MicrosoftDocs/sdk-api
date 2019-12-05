@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsFree
 title: DnsFree function (windns.h)
-
 description: Frees memory allocated for DNS records that was obtained using the DnsQuery function.
 old-location: dns\dnsfree.htm
 tech.root: DNS
 ms.assetid: 32baa672-2106-4c4a-972a-f7f79996b613
-
 ms.date: 12/05/2018
 ms.keywords: DnsFree, DnsFree function [DNS], dns.dnsfree, windns/DnsFree
 ms.topic: function
-f1_keywords: 
- - "windns/DnsFree"
+f1_keywords:
+- windns/DnsFree
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsFree
+- DnsFree
 targetos: Windows
 req.typenames: 
 req.redist: 

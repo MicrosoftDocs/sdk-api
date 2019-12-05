@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidFilePlayback2
 title: IMSVidFilePlayback2 (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later.
 old-location: mstv\imsvidfileplayback2.htm
 tech.root: mstv
 ms.assetid: 5779d5f8-74b1-4318-9fda-1dae3bf4a3f5
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFilePlayback2, IMSVidFilePlayback2 interface [Microsoft TV Technologies], IMSVidFilePlayback2 interface [Microsoft TV Technologies],described, IMSVidFilePlayback2Interface, mstv.imsvidfileplayback2, segment/IMSVidFilePlayback2
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidFilePlayback2"
+f1_keywords:
+- segment/IMSVidFilePlayback2
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFilePlayback2
+- IMSVidFilePlayback2
 targetos: Windows
 req.typenames: 
 req.redist: 

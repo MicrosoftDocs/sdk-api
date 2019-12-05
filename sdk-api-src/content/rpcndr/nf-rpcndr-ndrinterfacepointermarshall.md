@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerMarshall
 title: NdrInterfacePointerMarshall function (rpcndr.h)
-
 description: The NdrInterfacePointerMarshall function marshals the interface pointer into a network buffer to be sent to the server.
 old-location: rpc\ndrinterfacepointermarshall.htm
 tech.root: Rpc
 ms.assetid: b6a8ca3c-a386-48c9-9347-ef9329678b5d
-
 ms.date: 12/05/2018
 ms.keywords: NdrInterfacePointerMarshall, NdrInterfacePointerMarshall function [RPC], rpc.ndrinterfacepointermarshall, rpcndr/NdrInterfacePointerMarshall
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrInterfacePointerMarshall
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

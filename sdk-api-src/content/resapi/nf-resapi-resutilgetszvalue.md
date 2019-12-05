@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetSzValue
 title: ResUtilGetSzValue function (resapi.h)
-
 description: Returns a string value from the cluster database.
 old-location: mscs\resutilgetszvalue.htm
 tech.root: MsCS
 ms.assetid: c2ba04ea-0f98-4513-b8f8-658056a493e6
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_SZ_VALUE, PRESUTIL_GET_SZ_VALUE function [Failover Cluster], ResUtilGetSzValue, ResUtilGetSzValue function [Failover Cluster], _wolf_resutilgetszvalue, mscs.resutilgetszvalue, resapi/PRESUTIL_GET_SZ_VALUE, resapi/ResUtilGetSzValue
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetSzValue"
+f1_keywords:
+- resapi/ResUtilGetSzValue
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetSzValue
+- ResUtilGetSzValue
 targetos: Windows
 req.typenames: 
 req.redist: 

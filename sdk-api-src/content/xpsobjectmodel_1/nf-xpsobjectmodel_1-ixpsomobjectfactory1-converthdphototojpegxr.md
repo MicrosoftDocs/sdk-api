@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
 title: IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR (xpsobjectmodel_1.h)
-
 description: Converts an image resource from an HD Photo to a JpegXR.
 old-location: xps\ixpsomobjectfactory1_converthdphototojpegxr.htm
 tech.root: printdocs
 ms.assetid: 07994e2b-b87b-49de-949d-eb7d771f0345
-
 ms.date: 12/05/2018
 ms.keywords: ConvertHDPhotoToJpegXR, ConvertHDPhotoToJpegXR method [XPS Documents and Packaging], ConvertHDPhotoToJpegXR method [XPS Documents and Packaging],IXpsOMObjectFactory1 interface, IXpsOMObjectFactory1 interface [XPS Documents and Packaging],ConvertHDPhotoToJpegXR method, IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR, IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR, xps.ixpsomobjectfactory1_converthdphototojpegxr, xpsobjectmodel_1/IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
+- IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
 targetos: Windows
 req.typenames: 
 req.redist: 

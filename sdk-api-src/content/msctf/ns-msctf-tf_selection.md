@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_SELECTION
 title: TF_SELECTION (msctf.h)
-
 description: The TF_SELECTION structure contains text selection data.
 old-location: tsf\tf_selection.htm
 tech.root: TSF
 ms.assetid: c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54
-
 ms.date: 12/05/2018
 ms.keywords: TF_SELECTION, TF_SELECTION structure [Text Services Framework], _tsf_tf_selection_ref, msctf/TF_SELECTION, tsf.tf_selection
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_SELECTION"
+f1_keywords:
+- msctf/TF_SELECTION
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_SELECTION
+- TF_SELECTION
 targetos: Windows
 req.typenames: TF_SELECTION
 req.redist: TSF 1.0 on Windows 2000 Professional

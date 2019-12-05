@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.XAudio2Create
 title: XAudio2Create function (xaudio2.h)
-
 description: Creates a new XAudio2 object and returns a pointer to its IXAudio2 interface.
 old-location: xaudio2\xaudio2create.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2Create(IXAudio2@,UINT32,XAUDIO2_PROCESSOR)
-
 ms.date: 12/05/2018
 ms.keywords: XAudio2Create, XAudio2Create function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2create, xaudio2/XAudio2Create
 ms.topic: function
-f1_keywords: 
- - "xaudio2/XAudio2Create"
+f1_keywords:
+- xaudio2/XAudio2Create
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Xaudio2.lib
 req.dll: Windows.Media.Audio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Windows.Media.Audio.dll
+- Windows.Media.Audio.dll
 api_name:
- - XAudio2Create
+- XAudio2Create
 targetos: Windows
 req.typenames: 
 req.redist: 

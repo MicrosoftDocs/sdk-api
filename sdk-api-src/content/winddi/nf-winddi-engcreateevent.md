@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngCreateEvent
 title: EngCreateEvent function (winddi.h)
-
 description: The EngCreateEvent function creates a synchronization event object that can be used to synchronize hardware access between a display driver and the video miniport driver.
 old-location: display\engcreateevent.htm
 tech.root: display
 ms.assetid: 0fe4c840-ba85-492c-ac3d-b7c8639d1210
-
 ms.date: 12/05/2018
 ms.keywords: EngCreateEvent, EngCreateEvent function [Display Devices], display.engcreateevent, gdifncs_d8f6efc2-d0a2-4790-88c5-16e4487e2ce2.xml, winddi/EngCreateEvent
 ms.topic: function
-f1_keywords: 
- - "winddi/EngCreateEvent"
+f1_keywords:
+- winddi/EngCreateEvent
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngCreateEvent
+- EngCreateEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

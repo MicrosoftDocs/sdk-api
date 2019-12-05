@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.FindOneOf
 title: CHString::FindOneOf (chstring.h)
-
 description: The FindOneOf method searches a string for the first character that matches any character contained in lpszCharSet.
 old-location: wmi\chstring_findoneof.htm
 tech.root: WmiSdk
 ms.assetid: f3f9111d-9191-4ba5-877a-736e11d0a168
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FindOneOf method, CHString.FindOneOf, CHString::FindOneOf, FindOneOf, FindOneOf method [Windows Management Instrumentation], FindOneOf method [Windows Management Instrumentation],CHString interface, _hmm_chstring_findoneof, chstring/CHString::FindOneOf, wmi.chstring_findoneof
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.FindOneOf"
+f1_keywords:
+- chstring/CHString.FindOneOf
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.FindOneOf
+- CHString.FindOneOf
 targetos: Windows
 req.typenames: 
 req.redist: 

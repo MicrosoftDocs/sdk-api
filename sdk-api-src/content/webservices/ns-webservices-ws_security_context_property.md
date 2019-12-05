@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_PROPERTY
 title: WS_SECURITY_CONTEXT_PROPERTY (webservices.h)
-
 description: Defines a property of a WS_SECURITY_CONTEXT
 old-location: wsw\ws_security_context_property.htm
 tech.root: wsw
 ms.assetid: 426b9847-8217-41ce-8962-138176e0555b
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_CONTEXT_PROPERTY, WS_SECURITY_CONTEXT_PROPERTY structure [Web Services for Windows], webservices/WS_SECURITY_CONTEXT_PROPERTY, wsw.ws_security_context_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SECURITY_CONTEXT_PROPERTY"
+f1_keywords:
+- webservices/WS_SECURITY_CONTEXT_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SECURITY_CONTEXT_PROPERTY
+- WS_SECURITY_CONTEXT_PROPERTY
 targetos: Windows
 req.typenames: WS_SECURITY_CONTEXT_PROPERTY
 req.redist: 

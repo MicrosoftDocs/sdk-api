@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsTransparent
 title: IShellImageData::IsTransparent (shimgdata.h)
-
 description: Determines whether the image is transparent.
 old-location: shell\IShellImageData_IsTransparent.htm
 tech.root: shell
 ms.assetid: 613d2c01-47d5-41c3-8dba-5b1e1feabdf3
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsTransparent method, IShellImageData.IsTransparent, IShellImageData::IsTransparent, IsTransparent, IsTransparent method [Windows Shell], IsTransparent method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsTransparent, shell.IShellImageData_IsTransparent, shimgdata/IShellImageData::IsTransparent
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.IsTransparent"
+f1_keywords:
+- shimgdata/IShellImageData.IsTransparent
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.IsTransparent
+- IShellImageData.IsTransparent
 targetos: Windows
 req.typenames: 
 req.redist: 

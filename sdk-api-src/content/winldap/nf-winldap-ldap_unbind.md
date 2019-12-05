@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_unbind
 title: ldap_unbind function (winldap.h)
-
 description: The ldap_unbind function frees resources associated with an LDAP session.
 old-location: ldap\ldap_unbind.htm
 tech.root: ldap
 ms.assetid: 5d8b3198-3935-4305-b0f1-eaf1a9355cf3
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_unbind, ldap.ldap__unbind, ldap.ldap_unbind, ldap_unbind, ldap_unbind function [LDAP], winldap/ldap_unbind"
+ms.keywords: _ldap_ldap_unbind, ldap.ldap__unbind, ldap.ldap_unbind, ldap_unbind, ldap_unbind function [LDAP], winldap/ldap_unbind
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_unbind"
+f1_keywords:
+- winldap/ldap_unbind
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_unbind
+- ldap_unbind
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_REASSIGN_BLOCKS_EX
 title: IOCTL_DISK_REASSIGN_BLOCKS_EX
-
 description: Directs the disk device to map one or more blocks to its spare-block pool.
 old-location: fs\ioctl_disk_reassign_blocks_ex.htm
 tech.root: FileIO
 ms.assetid: 126ffefa-165b-4ca1-a905-1aebc8e790c7
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Files], base.ioctl_disk_reassign_blocks_ex, fs.ioctl_disk_reassign_blocks_ex, winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
 ms.topic: ioctl
 f1_keywords:
 - winioctl/IOCTL_DISK_REASSIGN_BLOCKS_EX
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

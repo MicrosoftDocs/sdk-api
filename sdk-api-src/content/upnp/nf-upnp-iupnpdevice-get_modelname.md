@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ModelName
 title: IUPnPDevice::get_ModelName (upnp.h)
-
 description: The ModelName property specifies a human-readable form of the model name of the device.
 old-location: upnp\iupnpdevice_modelname.htm
 tech.root: upnp
 ms.assetid: c71868ab-e05d-4e6a-b157-4474afc8f61f
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelName method, IUPnPDevice.get_ModelName, IUPnPDevice::get_ModelName, _upnp_iupnpdevice_modelname, get_ModelName, get_ModelName method [UPnP APIs], get_ModelName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelname, upnp/IUPnPDevice::get_ModelName
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_ModelName"
+f1_keywords:
+- upnp/IUPnPDevice.get_ModelName
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_ModelName
+- IUPnPDevice.get_ModelName
 targetos: Windows
 req.typenames: 
 req.redist: 

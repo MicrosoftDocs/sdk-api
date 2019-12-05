@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalAddAtomExW
 title: GlobalAddAtomExW function (winbase.h)
-
 description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.
 old-location: dataxchg\globaladdatomex.htm
 tech.root: dataxchg
 ms.assetid: C5D982F5-94A9-4B08-AE07-8F40E4128123
-
 ms.date: 12/05/2018
 ms.keywords: GlobalAddAtomEx, GlobalAddAtomEx function [Data Exchange], GlobalAddAtomExA, GlobalAddAtomExW, dataxchg.globaladdatomex, winbase/GlobalAddAtomEx, winbase/GlobalAddAtomExA, winbase/GlobalAddAtomExW
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalAddAtomEx"
+f1_keywords:
+- winbase/GlobalAddAtomEx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GlobalAddAtomEx
- - GlobalAddAtomExA
- - GlobalAddAtomExW
+- GlobalAddAtomEx
+- GlobalAddAtomExA
+- GlobalAddAtomExW
 targetos: Windows
 req.typenames: 
 req.redist: 

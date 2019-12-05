@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTextLayout
 title: IDWriteFactory::CreateTextLayout (dwrite.h)
-
 description: Takes a string, text format, and associated constraints, and produces an object that represents the fully analyzed and formatted result.
 old-location: directwrite\IDWriteFactory_CreateTextLayout.htm
 tech.root: DirectWrite
 ms.assetid: f76f85df-112f-4bc3-b922-a0d7940d2954
-
 ms.date: 12/05/2018
 ms.keywords: CreateTextLayout, CreateTextLayout method [Direct Write], CreateTextLayout method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextLayout method, IDWriteFactory.CreateTextLayout, IDWriteFactory::CreateTextLayout, directwrite.IDWriteFactory_CreateTextLayout, dwrite/IDWriteFactory::CreateTextLayout
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFactory.CreateTextLayout"
+f1_keywords:
+- dwrite/IDWriteFactory.CreateTextLayout
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory.CreateTextLayout
+- IDWriteFactory.CreateTextLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

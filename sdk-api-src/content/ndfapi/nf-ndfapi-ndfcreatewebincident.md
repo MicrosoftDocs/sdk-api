@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateWebIncident
 title: NdfCreateWebIncident function (ndfapi.h)
-
 description: Diagnoses web connectivity problems.
 old-location: ndf\ndfcreatewebincident.htm
 tech.root: NDF
 ms.assetid: 28ca2949-6867-4c9a-aebc-bf2a57627c04
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreateWebIncident, NdfCreateWebIncident function [NDF], ndf.ndfcreatewebincident, ndfapi/NdfCreateWebIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateWebIncident"
+f1_keywords:
+- ndfapi/NdfCreateWebIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateWebIncident
+- NdfCreateWebIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

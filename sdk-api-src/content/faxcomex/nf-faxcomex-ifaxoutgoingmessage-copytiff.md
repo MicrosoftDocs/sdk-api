@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.CopyTiff
 title: IFaxOutgoingMessage::CopyTiff (faxcomex.h)
-
 description: The IFaxOutgoingMessage::CopyTiff method copies the Tagged Image File Format Class F (TIFF Class F) file associated with the outbound fax message, to a file on the local computer.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_copytiff_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_19eu.htm
-
 ms.date: 12/05/2018
 ms.keywords: CopyTiff, CopyTiff method [Fax Service], CopyTiff method [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],CopyTiff method, IFaxOutgoingMessage.CopyTiff, IFaxOutgoingMessage::CopyTiff, _mfax_faxoutgoingmessage.copytiff, fax._mfax_faxoutgoingmessage_copytiff, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_copytiff_cpp, faxcomex/IFaxOutgoingMessage::CopyTiff
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage.CopyTiff"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage.CopyTiff
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.CopyTiff
+- IFaxOutgoingMessage.CopyTiff
 targetos: Windows
 req.typenames: 
 req.redist: 

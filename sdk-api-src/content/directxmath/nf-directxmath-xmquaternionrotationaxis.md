@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationAxis
 title: XMQuaternionRotationAxis function (directxmath.h)
-
 description: Computes a rotation quaternion about an axis.
 old-location: dxmath\xmquaternionrotationaxis.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationAxis(XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationAxis, XMQuaternionRotationAxis, XMQuaternionRotationAxis method [DirectX Math Support APIs], dxmath.xmquaternionrotationaxis
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionRotationAxis"
+f1_keywords:
+- directxmath/XMQuaternionRotationAxis
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionRotationAxis
+- XMQuaternionRotationAxis
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateReservedResource
 title: ID3D12Device::CreateReservedResource
-
 description: Creates a resource that is reserved, and not yet mapped to any pages in a heap.
 old-location: direct3d12\id3d12device_createreservedresource.htm
 tech.root: direct3d12
 ms.assetid: 37E74129-1B5C-4997-A584-D7E9F92342EA
-
 ms.date: 12/05/2018
 ms.keywords: CreateReservedResource, CreateReservedResource method, CreateReservedResource method,ID3D12Device interface, ID3D12Device interface,CreateReservedResource method, ID3D12Device.CreateReservedResource, ID3D12Device::CreateReservedResource, d3d12/ID3D12Device::CreateReservedResource, direct3d12.id3d12device_createreservedresource
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateReservedResource"
+f1_keywords:
+- d3d12/ID3D12Device.CreateReservedResource
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateReservedResource
+- ID3D12Device.CreateReservedResource
 targetos: Windows
 req.typenames: 
 req.redist: 

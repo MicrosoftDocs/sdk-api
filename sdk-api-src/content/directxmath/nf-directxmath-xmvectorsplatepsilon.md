@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSplatEpsilon
 title: XMVectorSplatEpsilon function (directxmath.h)
-
 description: Returns a vector, each of whose components are epsilon (1.192092896e-7).
 old-location: dxmath\xmvectorsplatepsilon.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorSplatEpsilon
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatEpsilon, XMVectorSplatEpsilon, XMVectorSplatEpsilon method [DirectX Math Support APIs], dxmath.xmvectorsplatepsilon
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSplatEpsilon"
+f1_keywords:
+- directxmath/XMVectorSplatEpsilon
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSplatEpsilon
+- XMVectorSplatEpsilon
 targetos: Windows
 req.typenames: 
 req.redist: 

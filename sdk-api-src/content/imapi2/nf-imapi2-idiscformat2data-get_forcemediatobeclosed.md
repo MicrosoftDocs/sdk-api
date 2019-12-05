@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_ForceMediaToBeClosed
 title: IDiscFormat2Data::get_ForceMediaToBeClosed (imapi2.h)
-
 description: Determines if further additions to the file system are prevented.
 old-location: imapi\idiscformat2data_get_forcemediatobeclosed.htm
 tech.root: imapi
 ms.assetid: 9de0afa9-93b7-4a12-b8e2-a9c083692f98
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],get_ForceMediaToBeClosed method, IDiscFormat2Data.get_ForceMediaToBeClosed, IDiscFormat2Data::get_ForceMediaToBeClosed, get_ForceMediaToBeClosed, get_ForceMediaToBeClosed method [IMAPI], get_ForceMediaToBeClosed method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_get_forcemediatobeclosed, imapi2/IDiscFormat2Data::get_ForceMediaToBeClosed
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.get_ForceMediaToBeClosed"
+f1_keywords:
+- imapi2/IDiscFormat2Data.get_ForceMediaToBeClosed
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.get_ForceMediaToBeClosed
+- IDiscFormat2Data.get_ForceMediaToBeClosed
 targetos: Windows
 req.typenames: 
 req.redist: 

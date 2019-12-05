@@ -1,19 +1,17 @@
 ---
 UID: NF:tlhelp32.Heap32ListFirst
 title: Heap32ListFirst function (tlhelp32.h)
-
 description: Retrieves information about the first heap that has been allocated by a specified process.
 old-location: toolhelp\heap32listfirst.htm
 tech.root: ToolHelp
 ms.assetid: b9a2992b-0dc1-41c3-aa23-796def674831
-
 ms.date: 12/05/2018
 ms.keywords: Heap32ListFirst, Heap32ListFirst function [ToolHelp], _win32_heap32listfirst, base.heap32listfirst, tlhelp32/Heap32ListFirst, toolhelp.heap32listfirst
 ms.topic: function
-f1_keywords: 
- - "tlhelp32/Heap32ListFirst"
+f1_keywords:
+- tlhelp32/Heap32ListFirst
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ToolHelp-L1-1-1.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-ToolHelp-L1-1-1.dll
+- Kernel32Legacy.dll
 api_name:
- - Heap32ListFirst
+- Heap32ListFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

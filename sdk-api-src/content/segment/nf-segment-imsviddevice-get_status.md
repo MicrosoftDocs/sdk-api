@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidDevice.get_Status
 title: IMSVidDevice::get_Status (segment.h)
-
 description: The get_Status method retrieves status information about the device.
 old-location: mstv\imsviddevice_get_status.htm
 tech.root: mstv
 ms.assetid: b11df7f3-d227-4c74-89a3-90716b3b3a12
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice interface [Microsoft TV Technologies],get_Status method, IMSVidDevice.get_Status, IMSVidDevice::get_Status, IMSVidDeviceget_Status, get_Status, get_Status method [Microsoft TV Technologies], get_Status method [Microsoft TV Technologies],IMSVidDevice interface, mstv.imsviddevice_get_status, segment/IMSVidDevice::get_Status
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidDevice.get_Status"
+f1_keywords:
+- segment/IMSVidDevice.get_Status
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDevice.get_Status
+- IMSVidDevice.get_Status
 targetos: Windows
 req.typenames: 
 req.redist: 

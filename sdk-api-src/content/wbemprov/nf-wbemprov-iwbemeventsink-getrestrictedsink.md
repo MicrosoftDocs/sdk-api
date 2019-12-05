@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.GetRestrictedSink
 title: IWbemEventSink::GetRestrictedSink (wbemprov.h)
-
 description: The IWbemEventSink::GetRestrictedSink method retrieves a restricted event sink. A restricted event sink is one which filters a subset of the events defined in the event provider's registration.
 old-location: wmi\iwbemeventsink_getrestrictedsink.htm
 tech.root: WmiSdk
 ms.assetid: f72ab8f7-e4de-4f64-80db-6981b0bd13d3
-
 ms.date: 12/05/2018
 ms.keywords: GetRestrictedSink, GetRestrictedSink method [Windows Management Instrumentation], GetRestrictedSink method [Windows Management Instrumentation],IWbemEventSink interface, IWbemEventSink interface [Windows Management Instrumentation],GetRestrictedSink method, IWbemEventSink.GetRestrictedSink, IWbemEventSink::GetRestrictedSink, _hmm_iwbemeventsink_getrestrictedsink, wbemprov/IWbemEventSink::GetRestrictedSink, wmi.iwbemeventsink_getrestrictedsink
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemEventSink.GetRestrictedSink"
+f1_keywords:
+- wbemprov/IWbemEventSink.GetRestrictedSink
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemEventSink.GetRestrictedSink
+- IWbemEventSink.GetRestrictedSink
 targetos: Windows
 req.typenames: 
 req.redist: 

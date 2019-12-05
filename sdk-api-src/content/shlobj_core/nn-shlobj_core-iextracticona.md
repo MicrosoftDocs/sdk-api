@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IExtractIconA
 title: IExtractIconA (shlobj_core.h)
-
 description: Exposes methods that allow a client to retrieve the icon that is associated with one of the objects in a folder.
 old-location: shell\IExtractIcon.htm
 tech.root: shell
 ms.assetid: f8e0ab98-c225-4cc1-93f8-b7ab6b2f706f
-
 ms.date: 12/05/2018
 ms.keywords: IExtractIcon, IExtractIcon interface [Windows Shell], IExtractIcon interface [Windows Shell],described, IExtractIconA, IExtractIconW, _win32_IExtractIcon, shell.IExtractIcon, shlobj_core/IExtractIcon
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IExtractIcon"
+f1_keywords:
+- shlobj_core/IExtractIcon
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IExtractIcon
+- IExtractIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

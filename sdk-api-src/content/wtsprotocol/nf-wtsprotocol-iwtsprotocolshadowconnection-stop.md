@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.Stop
 title: IWTSProtocolShadowConnection::Stop (wtsprotocol.h)
-
 description: IWTSProtocolShadowConnection::Stop is no longer available. Instead, use IWRdsProtocolShadowConnection::Stop.
 old-location: termserv\iwtsprotocolshadowconnection_stop.htm
 tech.root: TermServ
 ms.assetid: 629b82cb-7bf3-4a83-bc96-a1e6a757f974
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolShadowConnection interface [Remote Desktop Services],Stop method, IWTSProtocolShadowConnection.Stop, IWTSProtocolShadowConnection::Stop, Stop, Stop method [Remote Desktop Services], Stop method [Remote Desktop Services],IWTSProtocolShadowConnection interface, termserv.iwtsprotocolshadowconnection_stop, wtsprotocol/IWTSProtocolShadowConnection::Stop
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolShadowConnection.Stop"
+f1_keywords:
+- wtsprotocol/IWTSProtocolShadowConnection.Stop
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolShadowConnection.Stop
+- IWTSProtocolShadowConnection.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMOperation
 title: IWMDMOperation (mswmdm.h)
-
 description: This optional, application-implemented IWMDMOperation interface allows the application to control how data is read from or written to the computer during a file transfer.
 old-location: wmdm\iwmdmoperation.htm
 tech.root: WMDM
 ms.assetid: 7277a8fe-3006-4456-b2e7-6041d3324f35
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation, IWMDMOperation interface [windows Media Device Manager], IWMDMOperation interface [windows Media Device Manager],described, IWMDMOperationInterface, mswmdm/IWMDMOperation, wmdm.iwmdmoperation
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMOperation"
+f1_keywords:
+- mswmdm/IWMDMOperation
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMOperation
+- IWMDMOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

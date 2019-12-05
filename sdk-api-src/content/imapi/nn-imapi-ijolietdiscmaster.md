@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi.IJolietDiscMaster
 title: IJolietDiscMaster (imapi.h)
-
 description: The IJolietDiscMaster interface enables the staging of a CD data disc.
 old-location: imapi\ijolietdiscmaster.htm
 tech.root: imapi
 ms.assetid: e2269b68-1860-4afd-90f2-d61297f3fa9b
-
 ms.date: 12/05/2018
 ms.keywords: IJolietDiscMaster, IJolietDiscMaster interface [IMAPI], IJolietDiscMaster interface [IMAPI],described, _win32_ijolietdiscmaster, base.ijolietdiscmaster, imapi.ijolietdiscmaster, imapi/IJolietDiscMaster
 ms.topic: interface
-f1_keywords: 
- - "imapi/IJolietDiscMaster"
+f1_keywords:
+- imapi/IJolietDiscMaster
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IJolietDiscMaster
+- IJolietDiscMaster
 targetos: Windows
 req.typenames: 
 req.redist: 

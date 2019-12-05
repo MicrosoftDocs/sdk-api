@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusimaging.PropertyItem
 title: PropertyItem (gdiplusimaging.h)
-
 description: The PropertyItem class is a helper class for the Image and Bitmap classes. A PropertyItem object holds one piece of image metadata.
 old-location: gdiplus\_gdiplus_CLASS_PropertyItem_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\propertyitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: PropertyItem, PropertyItem class [GDI+], PropertyItem class [GDI+],described, _gdiplus_CLASS_PropertyItem_Class, gdiplus._gdiplus_CLASS_PropertyItem_Class, gdiplusimaging/PropertyItem
 ms.topic: class
-f1_keywords: 
- - "gdiplusimaging/PropertyItem"
+f1_keywords:
+- gdiplusimaging/PropertyItem
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - PropertyItem
+- PropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

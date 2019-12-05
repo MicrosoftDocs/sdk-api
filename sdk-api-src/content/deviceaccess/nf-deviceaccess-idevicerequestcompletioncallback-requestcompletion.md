@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.IDeviceRequestCompletionCallback.RequestCompletion
 title: IDeviceRequestCompletionCallback::RequestCompletion (deviceaccess.h)
-
 description: Implement the RequestCompletion method to handle the completion of calls to the DeviceIoControlAsyncmethod.
 old-location: deviceaccess\idevicerequestcompletioncallback_requestcompletion.htm
 tech.root: deviceaccess
 ms.assetid: 5cc7bd36-3b8f-40af-badc-e8fc16d4a4c5
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceRequestCompletionCallback interface [Device Access Broker API],RequestCompletion method, IDeviceRequestCompletionCallback.RequestCompletion, IDeviceRequestCompletionCallback::RequestCompletion, RequestCompletion, RequestCompletion method [Device Access Broker API], RequestCompletion method [Device Access Broker API],IDeviceRequestCompletionCallback interface, deviceaccess.idevicerequestcompletioncallback_requestcompletion, deviceaccess/IDeviceRequestCompletionCallback::RequestCompletion
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/IDeviceRequestCompletionCallback.RequestCompletion"
+f1_keywords:
+- deviceaccess/IDeviceRequestCompletionCallback.RequestCompletion
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - deviceaccess.h
+- deviceaccess.h
 api_name:
- - IDeviceRequestCompletionCallback.RequestCompletion
+- IDeviceRequestCompletionCallback.RequestCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_UsedSystemBuffer
 title: IWriteEngine2EventArgs::get_UsedSystemBuffer (imapi2.h)
-
 description: Retrieves the number of used bytes in the internal data buffer that is used for writing to disc.
 old-location: imapi\iwriteengine2eventargs_get_usedsystembuffer.htm
 tech.root: imapi
 ms.assetid: 905c476f-33cd-4eda-a342-c7a20479d63c
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_UsedSystemBuffer method, IWriteEngine2EventArgs.get_UsedSystemBuffer, IWriteEngine2EventArgs::get_UsedSystemBuffer, get_UsedSystemBuffer, get_UsedSystemBuffer method [IMAPI], get_UsedSystemBuffer method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_usedsystembuffer, imapi2/IWriteEngine2EventArgs::get_UsedSystemBuffer
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2EventArgs.get_UsedSystemBuffer"
+f1_keywords:
+- imapi2/IWriteEngine2EventArgs.get_UsedSystemBuffer
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2EventArgs.get_UsedSystemBuffer
+- IWriteEngine2EventArgs.get_UsedSystemBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

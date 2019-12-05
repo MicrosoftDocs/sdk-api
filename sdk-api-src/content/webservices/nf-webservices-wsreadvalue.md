@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadValue
 title: WsReadValue function (webservices.h)
-
 description: Reads text from a Reader and parses it according to the specified value type.
 old-location: wsw\wsreadvalue.htm
 tech.root: wsw
 ms.assetid: d2dbeaf1-29cb-4848-8188-7922fdc15091
-
 ms.date: 12/05/2018
 ms.keywords: WsReadValue, WsReadValue function [Web Services for Windows], webservices/WsReadValue, wsw.wsreadvalue
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadValue"
+f1_keywords:
+- webservices/WsReadValue
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadValue
+- WsReadValue
 targetos: Windows
 req.typenames: 
 req.redist: 

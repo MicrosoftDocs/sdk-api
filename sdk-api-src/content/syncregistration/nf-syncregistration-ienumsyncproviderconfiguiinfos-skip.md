@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Skip
 title: IEnumSyncProviderConfigUIInfos::Skip (syncregistration.h)
-
 description: Skips the specified number of ISyncProviderConfigUIInfo objects.
 old-location: winsync\ienumsyncproviderconfiguiinfos_skip.htm
 tech.root: winsync
 ms.assetid: 7ecd6cce-77af-423a-9b95-80b1d7ec9d2f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Skip method, IEnumSyncProviderConfigUIInfos.Skip, IEnumSyncProviderConfigUIInfos::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Skip, winsync.ienumsyncproviderconfiguiinfos_skip
 ms.topic: method
-f1_keywords: 
- - "syncregistration/IEnumSyncProviderConfigUIInfos.Skip"
+f1_keywords:
+- syncregistration/IEnumSyncProviderConfigUIInfos.Skip
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - IEnumSyncProviderConfigUIInfos.Skip
+- IEnumSyncProviderConfigUIInfos.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

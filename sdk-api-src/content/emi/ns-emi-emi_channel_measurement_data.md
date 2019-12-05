@@ -1,19 +1,17 @@
 ---
 UID: NS:emi.__unnamed_struct_2
 title: EMI_CHANNEL_MEASUREMENT_DATA (emi.h)
-
 description: The EMI_MEASUREMENT_DATA structure provides data about the current energy measurement and the time at which the measurement was taken.
 old-location: powermeter\emi_measurement_data.htm
 tech.root: powermeter
 ms.assetid: 5D8E8146-D6B4-427B-9B17-0FB4FB0372A8
-
 ms.date: 12/05/2018
 ms.keywords: EMI_CHANNEL_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA, EMI_MEASUREMENT_DATA structure [Power Metering and Budgeting Devices], EMI_MEASUREMENT_DATA_V1, PEMI_MEASUREMENT_DATA, PEMI_MEASUREMENT_DATA structure pointer [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA, emi/PEMI_MEASUREMENT_DATA, powermeter.emi_measurement_data
 ms.topic: struct
-f1_keywords: 
- - "emi/EMI_MEASUREMENT_DATA"
+f1_keywords:
+- emi/EMI_MEASUREMENT_DATA
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - EMI_MEASUREMENT_DATA
+- EMI_MEASUREMENT_DATA
 targetos: Windows
 req.typenames: EMI_CHANNEL_MEASUREMENT_DATA
 req.redist: 

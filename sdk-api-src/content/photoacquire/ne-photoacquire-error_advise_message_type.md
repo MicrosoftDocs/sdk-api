@@ -1,19 +1,17 @@
 ---
 UID: NE:photoacquire.tagERROR_ADVISE_MESSAGE_TYPE
 title: ERROR_ADVISE_MESSAGE_TYPE (photoacquire.h)
-
 description: The ERROR_ADVISE_MESSAGE_TYPE enumeration type indicates the type of error values that can be passed to the nMessageType parameter of IPhotoAcquireProgressCB::ErrorAdvise.
 old-location: picacq\error_advise_message_type.htm
 tech.root: acquisition
 ms.assetid: 2fde8aa9-126a-4908-8faf-71ecad231f8d
-
 ms.date: 12/05/2018
 ms.keywords: ERROR_ADVISE_MESSAGE_TYPE, ERROR_ADVISE_MESSAGE_TYPE enumeration [Picture Acquisition], PHOTOACQUIRE_ERROR_OK, PHOTOACQUIRE_ERROR_RETRYCANCEL, PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL, PHOTOACQUIRE_ERROR_YESNO, enumeration [Picture Acquisition], photoacquire/ERROR_ADVISE_MESSAGE_TYPE, photoacquire/PHOTOACQUIRE_ERROR_OK, photoacquire/PHOTOACQUIRE_ERROR_RETRYCANCEL, photoacquire/PHOTOACQUIRE_ERROR_SKIPRETRYCANCEL, photoacquire/PHOTOACQUIRE_ERROR_YESNO, picacq.error_advise_message_type
 ms.topic: enum
-f1_keywords: 
- - "photoacquire/ERROR_ADVISE_MESSAGE_TYPE"
+f1_keywords:
+- photoacquire/ERROR_ADVISE_MESSAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PhotoAcquire.h
+- PhotoAcquire.h
 api_name:
- - ERROR_ADVISE_MESSAGE_TYPE
+- ERROR_ADVISE_MESSAGE_TYPE
 targetos: Windows
 req.typenames: ERROR_ADVISE_MESSAGE_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetDuration
 title: IMultiMediaStream::GetDuration (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetDuration method retrieves the duration of the multimedia stream.
 old-location: dshow\imultimediastream_getduration.htm
 tech.root: DirectShow
 ms.assetid: 4d8104ec-aa2a-4151-bb7f-53611d4a71f2
-
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [DirectShow], GetDuration method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetDuration method, IMultiMediaStream.GetDuration, IMultiMediaStream::GetDuration, IMultiMediaStreamGetDuration, dshow.imultimediastream_getduration, mmstream/IMultiMediaStream::GetDuration
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMultiMediaStream.GetDuration"
+f1_keywords:
+- mmstream/IMultiMediaStream.GetDuration
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMultiMediaStream.GetDuration
+- IMultiMediaStream.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

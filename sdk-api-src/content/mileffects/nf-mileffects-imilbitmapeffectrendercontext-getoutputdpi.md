@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetOutputDPI
 title: IMILBitmapEffectRenderContext::GetOutputDPI (mileffects.h)
-
 description: Gets the output dots per inch (dpi).
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getoutputdpi.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getoutputdpi.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputDPI, GetOutputDPI method [WPF Bitmap Effects], GetOutputDPI method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetOutputDPI method, IMILBitmapEffectRenderContext.GetOutputDPI, IMILBitmapEffectRenderContext::GetOutputDPI, _wibe_imilbitmapeffectrendercontext_getoutputdpi, mileffects/IMILBitmapEffectRenderContext::GetOutputDPI, wibe._wibe_imilbitmapeffectrendercontext_getoutputdpi
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContext.GetOutputDPI"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContext.GetOutputDPI
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext.GetOutputDPI
+- IMILBitmapEffectRenderContext.GetOutputDPI
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

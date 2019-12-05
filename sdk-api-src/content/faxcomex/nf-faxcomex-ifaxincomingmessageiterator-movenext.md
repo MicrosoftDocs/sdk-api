@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessageIterator.MoveNext
 title: IFaxIncomingMessageIterator::MoveNext (faxcomex.h)
-
 description: The MoveNext method moves the archive cursor to the next message in the archive of inbound faxes.
 old-location: fax\_mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movenext_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_27lg.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessageIterator interface [Fax Service],MoveNext method, IFaxIncomingMessageIterator.MoveNext, IFaxIncomingMessageIterator::MoveNext, MoveNext, MoveNext method [Fax Service], MoveNext method [Fax Service],IFaxIncomingMessageIterator interface, _mfax_faxincomingmessageiterator.movenext, fax._mfax_faxincomingmessageiterator_cpp_mfax_faxincomingmessageiterator_movenext_cpp, fax._mfax_faxincomingmessageiterator_movenext, faxcomex/IFaxIncomingMessageIterator::MoveNext
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessageIterator.MoveNext"
+f1_keywords:
+- faxcomex/IFaxIncomingMessageIterator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessageIterator.MoveNext
- - IFaxIncomingMessageIterator.MoveNext
+- IFaxIncomingMessageIterator.MoveNext
+- IFaxIncomingMessageIterator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

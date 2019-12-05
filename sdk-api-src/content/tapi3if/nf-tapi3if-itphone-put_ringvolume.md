@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.put_RingVolume
 title: ITPhone::put_RingVolume (tapi3if.h)
-
 description: The put_RingVolume method requests that the phone change its ring volume.
 old-location: tapi3\itphone_put_ringvolume.htm
 tech.root: Tapi
 ms.assetid: 858ca6a8-a53b-4858-b4b0-985230ec8ea0
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_RingVolume method, ITPhone.put_RingVolume, ITPhone::put_RingVolume, _tapi3_itphone_put_ringvolume, put_RingVolume, put_RingVolume method [TAPI 2.2], put_RingVolume method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_ringvolume, tapi3if/ITPhone::put_RingVolume
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.put_RingVolume"
+f1_keywords:
+- tapi3if/ITPhone.put_RingVolume
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.put_RingVolume
+- ITPhone.put_RingVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

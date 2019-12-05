@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IFilterMapper
 title: IFilterMapper (strmif.h)
-
 description: Note  This interface has been deprecated.
 old-location: dshow\ifiltermapper.htm
 tech.root: DirectShow
 ms.assetid: e2f32235-e331-4c3c-925a-7cfa531e9ab3
-
 ms.date: 12/05/2018
 ms.keywords: IFilterMapper, IFilterMapper interface [DirectShow], IFilterMapper interface [DirectShow],described, IFilterMapperInterface, dshow.ifiltermapper, strmif/IFilterMapper
 ms.topic: interface
-f1_keywords: 
- - "strmif/IFilterMapper"
+f1_keywords:
+- strmif/IFilterMapper
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IFilterMapper
+- IFilterMapper
 targetos: Windows
 req.typenames: 
 req.redist: 

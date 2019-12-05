@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsCreateString
 title: WindowsCreateString function (winstring.h)
-
 description: Creates a new HSTRING based on the specified source string.
 old-location: winrt\windowscreatestring.htm
 tech.root: WinRT
 ms.assetid: CACEFB80-A47E-45A7-9E13-29C1326B9453
-
 ms.date: 12/05/2018
 ms.keywords: WindowsCreateString, WindowsCreateString function [Windows Runtime], winrt.windowscreatestring, winstring/WindowsCreateString
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsCreateString"
+f1_keywords:
+- winstring/WindowsCreateString
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsCreateString
+- WindowsCreateString
 targetos: Windows
 req.typenames: 
 req.redist: 

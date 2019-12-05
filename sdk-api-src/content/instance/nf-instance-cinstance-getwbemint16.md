@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetWBEMINT16
 title: CInstance::GetWBEMINT16 (instance.h)
-
 description: The GetWBEMINT16 method retrieves a 16-bit integer property.
 old-location: wmi\cinstance_getwbemint16.htm
 tech.root: WmiSdk
 ms.assetid: 9f22a939-58a9-4444-8d17-04330cded7d1
-
 ms.date: 12/05/2018
-ms.keywords: "?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z, ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z, CInstance interface [Windows Management Instrumentation],GetWBEMINT16 method, CInstance.GetWBEMINT16, CInstance::GetWBEMINT16, GetWBEMINT16, GetWBEMINT16 method [Windows Management Instrumentation], GetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getwbemint16, instance/CInstance::GetWBEMINT16, wmi.cinstance_getwbemint16"
+ms.keywords: ?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z, ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z, CInstance interface [Windows Management Instrumentation],GetWBEMINT16 method, CInstance.GetWBEMINT16, CInstance::GetWBEMINT16, GetWBEMINT16, GetWBEMINT16 method [Windows Management Instrumentation], GetWBEMINT16 method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getwbemint16, instance/CInstance::GetWBEMINT16, wmi.cinstance_getwbemint16
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetWBEMINT16"
+f1_keywords:
+- instance/CInstance.GetWBEMINT16
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetWBEMINT16
- - ?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z
- - ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z
+- CInstance.GetWBEMINT16
+- ?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z
+- ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

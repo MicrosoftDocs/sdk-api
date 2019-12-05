@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.EnumerateLoadedModules
 title: EnumerateLoadedModules function (dbghelp.h)
-
 description: Enumerates the loaded modules for the specified process.
 old-location: base\enumerateloadedmodules64.htm
 tech.root: Debug
 ms.assetid: 9bfa683f-2a0f-418f-8ac4-5c4224265f2e
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateLoadedModules, EnumerateLoadedModules function, EnumerateLoadedModules64, EnumerateLoadedModules64 function, EnumerateLoadedModulesW64, _win32_enumerateloadedmodules64, base.enumerateloadedmodules64, dbghelp/EnumerateLoadedModules, dbghelp/EnumerateLoadedModules64, dbghelp/EnumerateLoadedModulesW64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/EnumerateLoadedModules64"
+f1_keywords:
+- dbghelp/EnumerateLoadedModules64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - EnumerateLoadedModules64
- - EnumerateLoadedModules64
- - EnumerateLoadedModulesW64
- - EnumerateLoadedModules
+- EnumerateLoadedModules64
+- EnumerateLoadedModules64
+- EnumerateLoadedModulesW64
+- EnumerateLoadedModules
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

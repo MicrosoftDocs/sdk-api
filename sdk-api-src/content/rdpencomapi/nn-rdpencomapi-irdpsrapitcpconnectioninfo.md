@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPITcpConnectionInfo
 title: IRDPSRAPITcpConnectionInfo (rdpencomapi.h)
-
 description: Supports the methods to retrieve the TCP connection information on the viewer and on the sharer side.
 old-location: rdp\irdpsrapitcpconnectioninfo.htm
 tech.root: rdp
 ms.assetid: 4d6b1fc8-91b4-4a49-b3aa-ce719ca23d32
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo, IRDPSRAPITcpConnectionInfo interface [RDP], IRDPSRAPITcpConnectionInfo interface [RDP],described, rdp.irdpsrapitcpconnectioninfo, rdpencomapi/IRDPSRAPITcpConnectionInfo
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITcpConnectionInfo"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITcpConnectionInfo
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITcpConnectionInfo
+- IRDPSRAPITcpConnectionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winsvc._SERVICE_SID_INFO
 title: SERVICE_SID_INFO (winsvc.h)
-
 description: Represents a service security identifier (SID).
 old-location: base\service_sid_info.htm
 tech.root: Services
 ms.assetid: cb1a32bd-aafb-4e41-8d6f-673c3d747f14
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVICE_SID_INFO, LPSERVICE_SID_INFO, LPSERVICE_SID_INFO structure pointer, SERVICE_SID_INFO, SERVICE_SID_INFO structure, SERVICE_SID_TYPE_NONE, SERVICE_SID_TYPE_RESTRICTED, SERVICE_SID_TYPE_UNRESTRICTED, base.service_sid_info, winsvc/LPSERVICE_SID_INFO, winsvc/SERVICE_SID_INFO"
+ms.keywords: '*LPSERVICE_SID_INFO, LPSERVICE_SID_INFO, LPSERVICE_SID_INFO structure pointer, SERVICE_SID_INFO, SERVICE_SID_INFO structure, SERVICE_SID_TYPE_NONE, SERVICE_SID_TYPE_RESTRICTED, SERVICE_SID_TYPE_UNRESTRICTED, base.service_sid_info, winsvc/LPSERVICE_SID_INFO, winsvc/SERVICE_SID_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winsvc/SERVICE_SID_INFO"
+f1_keywords:
+- winsvc/SERVICE_SID_INFO
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsvc.h
+- Winsvc.h
 api_name:
- - SERVICE_SID_INFO
+- SERVICE_SID_INFO
 targetos: Windows
 req.typenames: SERVICE_SID_INFO, *LPSERVICE_SID_INFO
 req.redist: 

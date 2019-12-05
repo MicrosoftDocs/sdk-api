@@ -1,19 +1,17 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_OEM
 title: DEV_BROADCAST_OEM (dbt.h)
-
 description: Contains information about a OEM-defined device type.
 old-location: base\dev_broadcast_oem_str.htm
 tech.root: devio
 ms.assetid: 32d72002-1e67-4f72-8821-6712eb898e7d
-
 ms.date: 12/05/2018
 ms.keywords: DEV_BROADCAST_OEM, DEV_BROADCAST_OEM structure, PDEV_BROADCAST_OEM, PDEV_BROADCAST_OEM structure pointer, _win32_dev_broadcast_oem_str, base.dev_broadcast_oem_str, dbt/DEV_BROADCAST_OEM, dbt/PDEV_BROADCAST_OEM
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_OEM
 dev_langs:
- - c++
+- c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows

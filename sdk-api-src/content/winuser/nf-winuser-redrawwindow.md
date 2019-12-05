@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RedrawWindow
 title: RedrawWindow function (winuser.h)
-
 description: The RedrawWindow function updates the specified rectangle or region in a window's client area.
 old-location: gdi\redrawwindow.htm
 tech.root: gdi
 ms.assetid: c6cb7f74-237e-4d3e-a852-894da36e990c
-
 ms.date: 12/05/2018
 ms.keywords: RDW_ALLCHILDREN, RDW_ERASE, RDW_ERASENOW, RDW_FRAME, RDW_INTERNALPAINT, RDW_INVALIDATE, RDW_NOCHILDREN, RDW_NOERASE, RDW_NOFRAME, RDW_NOINTERNALPAINT, RDW_UPDATENOW, RDW_VALIDATE, RedrawWindow, RedrawWindow function [Windows GDI], _win32_RedrawWindow, gdi.redrawwindow, winuser/RedrawWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/RedrawWindow"
+f1_keywords:
+- winuser/RedrawWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-RTCore-NTUser-Draw-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-0.dll
- - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
- - Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
+- user32.dll
+- API-MS-Win-RTCore-NTUser-Draw-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-0.dll
+- Ext-MS-Win-NTUser-Draw-l1-1-1.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
+- Ext-MS-Win-RTCore-NTUser-Draw-Ext-L1-1-0.dll
 api_name:
- - RedrawWindow
+- RedrawWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

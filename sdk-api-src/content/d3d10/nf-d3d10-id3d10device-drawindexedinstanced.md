@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.DrawIndexedInstanced
 title: ID3D10Device::DrawIndexedInstanced (d3d10.h)
-
 description: Draw indexed, instanced primitives.
 old-location: direct3d10\id3d10device_drawindexedinstanced.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawindexedinstanced.htm
-
 ms.date: 12/05/2018
 ms.keywords: 38658e6f-340e-68e9-eb0a-101f9c8f0c5e, DrawIndexedInstanced, DrawIndexedInstanced method [Direct3D 10], DrawIndexedInstanced method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawIndexedInstanced method, ID3D10Device.DrawIndexedInstanced, ID3D10Device::DrawIndexedInstanced, d3d10/ID3D10Device::DrawIndexedInstanced, direct3d10.id3d10device_drawindexedinstanced
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.DrawIndexedInstanced"
+f1_keywords:
+- d3d10/ID3D10Device.DrawIndexedInstanced
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.DrawIndexedInstanced
+- ID3D10Device.DrawIndexedInstanced
 targetos: Windows
 req.typenames: 
 req.redist: 

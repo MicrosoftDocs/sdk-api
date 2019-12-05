@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.GetDeviceRemovedReason
 title: ID3D11Device::GetDeviceRemovedReason (d3d11.h)
-
 description: Get the reason why the device was removed.
 old-location: direct3d11\id3d11device_getdeviceremovedreason.htm
 tech.root: direct3d11
 ms.assetid: 9e09c954-5c61-49fd-b25a-87dc0051a84d
-
 ms.date: 12/05/2018
 ms.keywords: 09615373-9ecd-296a-1d5f-ef9f2b085826, GetDeviceRemovedReason, GetDeviceRemovedReason method [Direct3D 11], GetDeviceRemovedReason method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetDeviceRemovedReason method, ID3D11Device.GetDeviceRemovedReason, ID3D11Device::GetDeviceRemovedReason, d3d11/ID3D11Device::GetDeviceRemovedReason, direct3d11.id3d11device_getdeviceremovedreason
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.GetDeviceRemovedReason"
+f1_keywords:
+- d3d11/ID3D11Device.GetDeviceRemovedReason
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.GetDeviceRemovedReason
+- ID3D11Device.GetDeviceRemovedReason
 targetos: Windows
 req.typenames: 
 req.redist: 

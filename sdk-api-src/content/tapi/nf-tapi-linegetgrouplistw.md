@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetGroupListW
 title: lineGetGroupListW function (tapi.h)
-
 description: The lineGetGroupList function returns a list of ACD groups available on the ACD system.
 old-location: tapi2\linegetgrouplist.htm
 tech.root: Tapi
 ms.assetid: 3e1d63e2-f87d-41ed-92ba-fe3bbdade8d3
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetgrouplist, lineGetGroupList, lineGetGroupList function [TAPI 2.2], lineGetGroupListA, lineGetGroupListW, tapi/lineGetGroupList, tapi/lineGetGroupListA, tapi/lineGetGroupListW, tapi2.linegetgrouplist"
+ms.keywords: _tapi2_linegetgrouplist, lineGetGroupList, lineGetGroupList function [TAPI 2.2], lineGetGroupListA, lineGetGroupListW, tapi/lineGetGroupList, tapi/lineGetGroupListA, tapi/lineGetGroupListW, tapi2.linegetgrouplist
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetGroupList"
+f1_keywords:
+- tapi/lineGetGroupList
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetGroupList
- - lineGetGroupListA
- - lineGetGroupListW
+- lineGetGroupList
+- lineGetGroupListA
+- lineGetGroupListW
 targetos: Windows
 req.typenames: 
 req.redist: 

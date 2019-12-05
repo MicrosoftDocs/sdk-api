@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerUnregisterCustomMetadata
 title: WerUnregisterCustomMetadata function (werapi.h)
-
 description: Removes an item of app-specific metadata being collected during error reporting for the application.
 old-location: wer\werunregistercustommetadata.htm
 tech.root: wer
 ms.assetid: 29DB2CE5-2A96-450B-96C8-082B786613F9
-
 ms.date: 12/05/2018
 ms.keywords: WerUnRegisterCustomMetadata, WerUnRegisterCustomMetadata function [Windows Error Reporting], WerUnregisterCustomMetadata, wer.werunregistercustommetadata, werapi/WerUnRegisterCustomMetadata
 ms.topic: function
-f1_keywords: 
- - "werapi/WerUnRegisterCustomMetadata"
+f1_keywords:
+- werapi/WerUnRegisterCustomMetadata
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerUnRegisterCustomMetadata
+- WerUnRegisterCustomMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

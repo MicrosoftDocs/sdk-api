@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnScanNetworkComplete
 title: IMbnInterfaceEvents::OnScanNetworkComplete (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate the completion of a network scan.
 old-location: mbn\imbninterfaceevents_onscannetworkcomplete.htm
 tech.root: mbn
 ms.assetid: 6320c76b-b8a6-44dc-88bb-e20a85d5cfca
-
 ms.date: 12/05/2018
 ms.keywords: E_MBN_ALREADY_ACTIVE, E_MBN_DEVICE_BUSY, E_MBN_RADIO_POWER_OFF, IMbnInterfaceEvents interface [Microsoft Broadband Networks],OnScanNetworkComplete method, IMbnInterfaceEvents.OnScanNetworkComplete, IMbnInterfaceEvents::OnScanNetworkComplete, OnScanNetworkComplete, OnScanNetworkComplete method [Microsoft Broadband Networks], OnScanNetworkComplete method [Microsoft Broadband Networks],IMbnInterfaceEvents interface, S_OK, mbn.imbninterfaceevents_onscannetworkcomplete, mbnapi/IMbnInterfaceEvents::OnScanNetworkComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterfaceEvents.OnScanNetworkComplete"
+f1_keywords:
+- mbnapi/IMbnInterfaceEvents.OnScanNetworkComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterfaceEvents.OnScanNetworkComplete
+- IMbnInterfaceEvents.OnScanNetworkComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

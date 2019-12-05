@@ -1,19 +1,17 @@
 ---
 UID: NS:iprtrmib._MIB_IPMCAST_SCOPE
 title: MIB_IPMCAST_SCOPE (iprtrmib.h)
-
 description: Contains a multicast scope name and the associated IPv4 multicast group address and mask that define the scope.
 old-location: mib\mib_ipmcast_scope.htm
 tech.root: MIB
 ms.assetid: dbdbfdc6-becb-4ad5-9388-c2715d225fb0
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structure [MIB], PMIB_IPMCAST_SCOPE, PMIB_IPMCAST_SCOPE structure pointer [MIB], iprtrmib/MIB_IPMCAST_SCOPE, iprtrmib/PMIB_IPMCAST_SCOPE, mib.mib_ipmcast_scope"
+ms.keywords: '*PMIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE, MIB_IPMCAST_SCOPE structure [MIB], PMIB_IPMCAST_SCOPE, PMIB_IPMCAST_SCOPE structure pointer [MIB], iprtrmib/MIB_IPMCAST_SCOPE, iprtrmib/PMIB_IPMCAST_SCOPE, mib.mib_ipmcast_scope'
 ms.topic: struct
-f1_keywords: 
- - "iprtrmib/MIB_IPMCAST_SCOPE"
+f1_keywords:
+- iprtrmib/MIB_IPMCAST_SCOPE
 dev_langs:
- - c++
+- c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iprtrmib.h
+- Iprtrmib.h
 api_name:
- - MIB_IPMCAST_SCOPE
+- MIB_IPMCAST_SCOPE
 targetos: Windows
 req.typenames: MIB_IPMCAST_SCOPE, *PMIB_IPMCAST_SCOPE
 req.redist: 

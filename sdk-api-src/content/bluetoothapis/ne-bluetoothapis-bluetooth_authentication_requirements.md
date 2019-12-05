@@ -1,19 +1,17 @@
 ---
 UID: NE:bluetoothapis._BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 title: BLUETOOTH_AUTHENTICATION_REQUIREMENTS (bluetoothapis.h)
-
 description: BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration specifies the 'Man in the Middle' protection required for authentication.
 old-location: bluetooth\bluetooth_authentication_requirements.htm
 tech.root: bluetooth
 ms.assetid: 644372af-d613-4fd6-adcd-7faf0afb0033
-
 ms.date: 12/05/2018
 ms.keywords: BLUETOOTH_AUTHENTICATION_REQUIREMENTS, BLUETOOTH_AUTHENTICATION_REQUIREMENTS enumeration [Bluetooth], BLUETOOTH_MITM_ProtectionNotDefined, BLUETOOTH_MITM_ProtectionNotRequired, BLUETOOTH_MITM_ProtectionNotRequiredBonding, BLUETOOTH_MITM_ProtectionRequired, BLUETOOTH_MITM_ProtectionRequiredBonding, BLUETOOTH_MITM_ProtectionRequiredGeneralBonding, MBLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding, _BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetooth.bluetooth_authentication_requirements, bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS, bluetoothapis/BLUETOOTH_MITM_ProtectionNotDefined, bluetoothapis/BLUETOOTH_MITM_ProtectionNotRequired, bluetoothapis/BLUETOOTH_MITM_ProtectionNotRequiredBonding, bluetoothapis/BLUETOOTH_MITM_ProtectionRequired, bluetoothapis/BLUETOOTH_MITM_ProtectionRequiredBonding, bluetoothapis/BLUETOOTH_MITM_ProtectionRequiredGeneralBonding, bluetoothapis/MBLUETOOTH_MITM_ProtectionNotRequiredGeneralBonding
 ms.topic: enum
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_AUTHENTICATION_REQUIREMENTS
+- BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 targetos: Windows
 req.typenames: BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 req.redist: 

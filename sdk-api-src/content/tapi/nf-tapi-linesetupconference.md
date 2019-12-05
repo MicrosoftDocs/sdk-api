@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetupConference
 title: lineSetupConference function (tapi.h)
-
 description: The lineSetupConference function sets up a conference call for the addition of the third party.
 old-location: tapi2\linesetupconference.htm
 tech.root: Tapi
 ms.assetid: 13bf81c6-f7f6-4fd4-b546-15e58f7bc618
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetupconference, lineSetupConference, lineSetupConference function [TAPI 2.2], lineSetupConferenceA, lineSetupConferenceW, tapi/lineSetupConference, tapi/lineSetupConferenceA, tapi/lineSetupConferenceW, tapi2.linesetupconference"
+ms.keywords: _tapi2_linesetupconference, lineSetupConference, lineSetupConference function [TAPI 2.2], lineSetupConferenceA, lineSetupConferenceW, tapi/lineSetupConference, tapi/lineSetupConferenceA, tapi/lineSetupConferenceW, tapi2.linesetupconference
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetupConference"
+f1_keywords:
+- tapi/lineSetupConference
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetupConference
- - lineSetupConferenceA
- - lineSetupConferenceW
+- lineSetupConference
+- lineSetupConferenceA
+- lineSetupConferenceW
 targetos: Windows
 req.typenames: 
 req.redist: 

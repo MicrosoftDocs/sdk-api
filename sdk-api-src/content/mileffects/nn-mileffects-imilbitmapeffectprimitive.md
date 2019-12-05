@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectPrimitive
 title: IMILBitmapEffectPrimitive (mileffects.h)
-
 description: Exposes methods that create a bitmap effect's output. This interface must be implemented to create third party Windows Presentation Foundation (WPF) bitmap effects.
 old-location: wibe\_wibe_imilbitmapeffectprimitive.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\imilbitmapeffectprimitive.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectPrimitive, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects], IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectprimitive, mileffects/IMILBitmapEffectPrimitive, wibe._wibe_imilbitmapeffectprimitive
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectPrimitive"
+f1_keywords:
+- mileffects/IMILBitmapEffectPrimitive
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectPrimitive
+- IMILBitmapEffectPrimitive
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

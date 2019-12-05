@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHFindFiles
 title: SHFindFiles function (shlobj_core.h)
-
 description: SHFindFiles may be altered or unavailable.
 old-location: shell\SHFindFiles.htm
 tech.root: shell
 ms.assetid: c54036c2-e6b9-4b21-b2b2-a6721c502ee5
-
 ms.date: 12/05/2018
 ms.keywords: SHFindFiles, SHFindFiles function [Windows Shell], _win32_SHFindFiles, shell.SHFindFiles, shlobj_core/SHFindFiles
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHFindFiles"
+f1_keywords:
+- shlobj_core/SHFindFiles
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHFindFiles
+- SHFindFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx2.SessionFlagUseClientCertificate
 title: IWSManEx2::SessionFlagUseClientCertificate (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagUseClientCertificate for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex2_sessionflaguseclientcertificate.htm
 tech.root: winrm
 ms.assetid: 287e17b4-ca2f-4816-af26-b76b4e717c70
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx2 interface [Windows Remote Management],SessionFlagUseClientCertificate method, IWSManEx2.SessionFlagUseClientCertificate, IWSManEx2::SessionFlagUseClientCertificate, SessionFlagUseClientCertificate, SessionFlagUseClientCertificate method [Windows Remote Management], SessionFlagUseClientCertificate method [Windows Remote Management],IWSManEx2 interface, winrm.iwsmanex2_sessionflaguseclientcertificate, wsmandisp/IWSManEx2::SessionFlagUseClientCertificate
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx2.SessionFlagUseClientCertificate"
+f1_keywords:
+- wsmandisp/IWSManEx2.SessionFlagUseClientCertificate
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx2.SessionFlagUseClientCertificate
+- IWSManEx2.SessionFlagUseClientCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

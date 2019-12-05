@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeSysColor
 title: GetThemeSysColor function (uxtheme.h)
-
 description: Retrieves the value of a system color.
 old-location: controls\GetThemeSysColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesyscolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysColor, GetThemeSysColor function [Windows Controls], controls.GetThemeSysColor, controls.inet_GetThemeSysColor, inet_GetThemeSysColor, inet_GetThemeSysColor_cpp, uxtheme/GetThemeSysColor
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeSysColor"
+f1_keywords:
+- uxtheme/GetThemeSysColor
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeSysColor
+- GetThemeSysColor
 targetos: Windows
 req.typenames: 
 req.redist: 

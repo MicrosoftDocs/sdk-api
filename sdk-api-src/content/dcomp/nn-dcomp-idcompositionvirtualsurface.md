@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionVirtualSurface
 title: IDCompositionVirtualSurface (dcomp.h)
-
 description: Represents a sparsely allocated bitmap that can be associated with a visual for composition in a visual tree.
 old-location: directcomp\idcompositionvirtualsurface.htm
 tech.root: directcomp
 ms.assetid: 51E8D52C-2446-46B6-A5C1-0DC7FA9DF4CC
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVirtualSurface, IDCompositionVirtualSurface interface [DirectComposition], IDCompositionVirtualSurface interface [DirectComposition],described, dcomp/IDCompositionVirtualSurface, directcomp.idcompositionvirtualsurface
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionVirtualSurface"
+f1_keywords:
+- dcomp/IDCompositionVirtualSurface
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVirtualSurface
+- IDCompositionVirtualSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateStreamDescriptor
 title: MFCreateStreamDescriptor function (mfidl.h)
-
 description: Creates a stream descriptor.
 old-location: mf\mfcreatestreamdescriptor.htm
 tech.root: medfound
 ms.assetid: 77a63d30-c03f-4339-9db3-eda60db9b194
-
 ms.date: 12/05/2018
 ms.keywords: 77a63d30-c03f-4339-9db3-eda60db9b194, MFCreateStreamDescriptor, MFCreateStreamDescriptor function [Media Foundation], mf.mfcreatestreamdescriptor, mfidl/MFCreateStreamDescriptor
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateStreamDescriptor"
+f1_keywords:
+- mfidl/MFCreateStreamDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateStreamDescriptor
+- MFCreateStreamDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

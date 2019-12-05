@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetRenderTargets
 title: ID3D12GraphicsCommandList::OMSetRenderTargets (d3d12.h)
-
 description: Sets CPU descriptor handles for the render targets and depth stencil.
 old-location: direct3d12\id3d12graphicscommandlist_omsetrendertargets.htm
 tech.root: direct3d12
 ms.assetid: FE565AA2-FA34-4824-870E-9C4C7C19C93C
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,OMSetRenderTargets method, ID3D12GraphicsCommandList.OMSetRenderTargets, ID3D12GraphicsCommandList::OMSetRenderTargets, OMSetRenderTargets, OMSetRenderTargets method, OMSetRenderTargets method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::OMSetRenderTargets, direct3d12.id3d12graphicscommandlist_omsetrendertargets
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.OMSetRenderTargets"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.OMSetRenderTargets
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.OMSetRenderTargets
+- ID3D12GraphicsCommandList.OMSetRenderTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

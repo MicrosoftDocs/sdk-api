@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSetIntX
 title: XMVectorSetIntX function (directxmath.h)
-
 description: Set the value of the x component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsetintx.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntX(XMVECTOR,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntX, XMVectorSetIntX, XMVectorSetIntX method [DirectX Math Support APIs], dxmath.xmvectorsetintx
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSetIntX"
+f1_keywords:
+- directxmath/XMVectorSetIntX
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSetIntX
+- XMVectorSetIntX
 targetos: Windows
 req.typenames: 
 req.redist: 

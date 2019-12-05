@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_EnsureVisible
 title: TreeView_EnsureVisible macro (commctrl.h)
-
 description: Ensures that a tree-view item is visible, expanding the parent item or scrolling the tree-view control, if necessary. You can use this macro or send the TVM_ENSUREVISIBLE message explicitly.
 old-location: controls\TreeView_EnsureVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_ensurevisible.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_EnsureVisible, TreeView_EnsureVisible macro [Windows Controls], _win32_TreeView_EnsureVisible, _win32_TreeView_EnsureVisible_cpp, commctrl/TreeView_EnsureVisible, controls.TreeView_EnsureVisible, controls._win32_TreeView_EnsureVisible
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_EnsureVisible"
+f1_keywords:
+- commctrl/TreeView_EnsureVisible
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_EnsureVisible
+- TreeView_EnsureVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

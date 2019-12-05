@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.IsInBand
 title: IMFTimedTextTrack::IsInBand (mfmediaengine.h)
-
 description: Determines whether the timed-text track is inband.
 old-location: mf\imftimedtexttrack_isinband.htm
 tech.root: medfound
 ms.assetid: 02B69F41-313A-4792-BB0C-D14A02738002
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextTrack interface [Media Foundation],IsInBand method, IMFTimedTextTrack.IsInBand, IMFTimedTextTrack::IsInBand, IsInBand, IsInBand method [Media Foundation], IsInBand method [Media Foundation],IMFTimedTextTrack interface, mf.imftimedtexttrack_isinband, mfmediaengine/IMFTimedTextTrack::IsInBand
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrack.IsInBand"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrack.IsInBand
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrack.IsInBand
+- IMFTimedTextTrack.IsInBand
 targetos: Windows
 req.typenames: 
 req.redist: 

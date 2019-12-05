@@ -1,19 +1,17 @@
 ---
 UID: NS:udpmib._MIB_UDP6TABLE
 title: MIB_UDP6TABLE (udpmib.h)
-
 description: Contains the User Datagram Protocol (UDP) listener table for IPv6 on the local computer.
 old-location: mib\mib_udp6table.htm
 tech.root: MIB
 ms.assetid: 49da9a1f-f244-464e-96b2-944a286445d4
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_UDP6TABLE, MIB_UDP6TABLE, MIB_UDP6TABLE structure [MIB], PMIB_UDP6TABLE, PMIB_UDP6TABLE structure pointer [MIB], mib.mib_udp6table, udpmib/MIB_UDP6TABLE, udpmib/PMIB_UDP6TABLE'
 ms.topic: struct
 f1_keywords:
 - udpmib/MIB_UDP6TABLE
 dev_langs:
- - c++
+- c++
 req.header: udpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

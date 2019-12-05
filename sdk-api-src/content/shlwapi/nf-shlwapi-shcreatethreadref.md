@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHCreateThreadRef
 title: SHCreateThreadRef function (shlwapi.h)
-
 description: Creates a per-thread reference to a Component Object Model (COM) object.
 old-location: shell\SHCreateThreadRef.htm
 tech.root: shell
 ms.assetid: 6abca2df-832c-410b-93c7-5131e481e595
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateThreadRef, SHCreateThreadRef function [Windows Shell], _shell_SHCreateThreadRef, shell.SHCreateThreadRef, shlwapi/SHCreateThreadRef
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHCreateThreadRef"
+f1_keywords:
+- shlwapi/SHCreateThreadRef
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-thread-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-thread-l1-1-0.dll
 api_name:
- - SHCreateThreadRef
+- SHCreateThreadRef
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GSGetShader
 title: ID3D11DeviceContext::GSGetShader (d3d11.h)
-
 description: Get the geometry shader currently set on the device.
 old-location: direct3d11\id3d11devicecontext_gsgetshader.htm
 tech.root: direct3d11
 ms.assetid: 5d5b935f-7eef-48ee-a2ed-82dd6c59aa19
-
 ms.date: 12/05/2018
 ms.keywords: 154380d2-d835-0821-b4a5-1f810f07c0e3, GSGetShader, GSGetShader method [Direct3D 11], GSGetShader method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GSGetShader method, ID3D11DeviceContext.GSGetShader, ID3D11DeviceContext::GSGetShader, d3d11/ID3D11DeviceContext::GSGetShader, direct3d11.id3d11devicecontext_gsgetshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.GSGetShader"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.GSGetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.GSGetShader
+- ID3D11DeviceContext.GSGetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

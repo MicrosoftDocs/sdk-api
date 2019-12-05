@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.SetNameEntry
 title: ICertEncodeCRLDistInfo::SetNameEntry (certenc.h)
-
 description: Sets a name at a specified index of a distribution point in a certificate revocation list (CRL) distribution information array.
 old-location: security\icertencodecrldistinfo_setnameentry.htm
 tech.root: SecCrypto
 ms.assetid: fe33265a-8c75-4e16-8178-3569cf30d8e4
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],SetNameEntry method, CERT_ALT_NAME_DNS_NAME, CERT_ALT_NAME_REGISTERED_ID, CERT_ALT_NAME_RFC822_NAME, CERT_ALT_NAME_URL, ICertEncodeCRLDistInfo interface [Security],SetNameEntry method, ICertEncodeCRLDistInfo.SetNameEntry, ICertEncodeCRLDistInfo::SetNameEntry, SetNameEntry, SetNameEntry method [Security], SetNameEntry method [Security],CCertEncodeCRLDistInfo object, SetNameEntry method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_setnameentry, certenc/ICertEncodeCRLDistInfo::SetNameEntry, security.icertencodecrldistinfo_setnameentry
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeCRLDistInfo.SetNameEntry"
+f1_keywords:
+- certenc/ICertEncodeCRLDistInfo.SetNameEntry
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo.SetNameEntry
- - CCertEncodeCRLDistInfo.SetNameEntry
+- ICertEncodeCRLDistInfo.SetNameEntry
+- CCertEncodeCRLDistInfo.SetNameEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

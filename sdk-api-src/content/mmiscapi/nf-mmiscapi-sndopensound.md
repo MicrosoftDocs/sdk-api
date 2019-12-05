@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.sndOpenSound
 title: sndOpenSound function (mmiscapi.h)
-
 description: Opens the specified sound event.
 old-location: multimedia\sndopensound.htm
 tech.root: Multimedia
 ms.assetid: 59871C13-4275-4E69-AFE5-989998C9AB69
-
 ms.date: 12/05/2018
 ms.keywords: mmiscapi/sndOpenSound, multimedia.sndopensound, sndOpenSound, sndOpenSound function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/sndOpenSound"
+f1_keywords:
+- mmiscapi/sndOpenSound
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmmbse.lib
 req.dll: Winmmbse.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winmmbse.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
- - winmmbase.dll
+- winmmbse.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
+- winmmbase.dll
 api_name:
- - sndOpenSound
+- sndOpenSound
 targetos: Windows
 req.typenames: 
 req.redist: 

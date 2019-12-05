@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_User
 title: ISearchRoot::get_User (searchapi.h)
-
 description: Not implemented.
 old-location: search\_search_ISearchRoot_get_User.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_user.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_User method, ISearchRoot.get_User, ISearchRoot::get_User, _search_ISearchRoot_get_User, get_User, get_User method [search], get_User method [search],ISearchRoot interface, search._search_ISearchRoot_get_User, searchapi/ISearchRoot::get_User
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.get_User"
+f1_keywords:
+- searchapi/ISearchRoot.get_User
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchRoot.get_User
+- ISearchRoot.get_User
 targetos: Windows
 req.typenames: 
 req.redist: 

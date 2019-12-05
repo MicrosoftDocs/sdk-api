@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_VolumeName
 title: IFileSystemImage::get_VolumeName (imapi2fs.h)
-
 description: Retrieves the volume name for this file system image.
 old-location: imapi\ifilesystemimage_get_volumename.htm
 tech.root: imapi
 ms.assetid: 95d5738b-a720-4f47-b3a0-97f7474b051a
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_VolumeName method, IFileSystemImage.get_VolumeName, IFileSystemImage::get_VolumeName, get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_volumename, imapi2fs/IFileSystemImage::get_VolumeName
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_VolumeName"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_VolumeName
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_VolumeName
+- IFileSystemImage.get_VolumeName
 targetos: Windows
 req.typenames: 
 req.redist: 

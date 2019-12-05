@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IValueMapItem.put_ValueMapType
 title: IValueMapItem::put_ValueMapType (pla.h)
-
 description: Retrieves or sets the type of the item.
 old-location: pla\ivaluemapitem_valuemaptype.htm
 tech.root: PLA
 ms.assetid: 006d134d-d14b-4964-b46c-7dd2353d2493
-
 ms.date: 12/05/2018
 ms.keywords: IValueMapItem interface [PLA],ValueMapType property, IValueMapItem.ValueMapType, IValueMapItem.put_ValueMapType, IValueMapItem::ValueMapType, IValueMapItem::get_ValueMapType, IValueMapItem::put_ValueMapType, ValueMapType property [PLA], ValueMapType property [PLA],IValueMapItem interface, base.ivaluemapitem_valuemaptype, pla.ivaluemapitem_valuemaptype, pla/IValueMapItem::ValueMapType, pla/IValueMapItem::get_ValueMapType, pla/IValueMapItem::put_ValueMapType, put_ValueMapType
 ms.topic: method
-f1_keywords: 
- - "pla/IValueMapItem.ValueMapType"
+f1_keywords:
+- pla/IValueMapItem.ValueMapType
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IValueMapItem.ValueMapType
- - IValueMapItem.get_ValueMapType
- - IValueMapItem.put_ValueMapType
+- IValueMapItem.ValueMapType
+- IValueMapItem.get_ValueMapType
+- IValueMapItem.put_ValueMapType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IActionCollection.Remove
 title: IActionCollection::Remove (taskschd.h)
-
 description: Removes the specified action from the collection.
 old-location: taskschd\iactioncollection_remove.htm
 tech.root: taskschd
 ms.assetid: 91332ec0-8225-421a-baae-1a106be157a9
-
 ms.date: 12/05/2018
 ms.keywords: IActionCollection interface [Task Scheduler],Remove method, IActionCollection.Remove, IActionCollection::Remove, Remove, Remove method [Task Scheduler], Remove method [Task Scheduler],IActionCollection interface, actions [Task Scheduler],removing, taskschd.iactioncollection_remove, taskschd/IActionCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "taskschd/IActionCollection.Remove"
+f1_keywords:
+- taskschd/IActionCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IActionCollection.Remove
+- IActionCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

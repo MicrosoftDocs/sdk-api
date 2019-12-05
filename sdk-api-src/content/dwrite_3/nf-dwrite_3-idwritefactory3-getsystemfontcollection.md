@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.GetSystemFontCollection
 title: IDWriteFactory3::GetSystemFontCollection (dwrite_3.h)
-
 description: Retrieves a weight/width/slope tree of system fonts.
 old-location: directwrite\idwritefactory3_getsystemfontcollection.htm
 tech.root: DirectWrite
 ms.assetid: f6e983b5-5c5f-a2de-59f8-722f967bb992
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemFontCollection, GetSystemFontCollection method [Direct Write], GetSystemFontCollection method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontCollection method, IDWriteFactory3.GetSystemFontCollection, IDWriteFactory3::GetSystemFontCollection, directwrite.idwritefactory3_getsystemfontcollection, dwrite_3/IDWriteFactory3::GetSystemFontCollection
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory3.GetSystemFontCollection"
+f1_keywords:
+- dwrite_3/IDWriteFactory3.GetSystemFontCollection
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory3.GetSystemFontCollection
+- IDWriteFactory3.GetSystemFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

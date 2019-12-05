@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_GETSPI1_
 title: IPSEC_GETSPI1 (ipsectypes.h)
-
 description: The IPSEC_GETSPI1 structure contains information that must be supplied when requesting a security parameter index (SPI) from the IPsec driver.Note  IPSEC_GETSPI1 is the specific implementation of IPSEC_GETSPI used in Windows 7 and later.
 old-location: fwp\ipsec_getspi1.htm
 tech.root: fwp
 ms.assetid: 671a8dd2-b4f6-4bdd-a6f1-1bf4260c6cbe
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_GETSPI1, IPSEC_GETSPI1 structure [Filtering], fwp.ipsec_getspi1, ipsectypes/IPSEC_GETSPI1
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_GETSPI1"
+f1_keywords:
+- ipsectypes/IPSEC_GETSPI1
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_GETSPI1
+- IPSEC_GETSPI1
 targetos: Windows
 req.typenames: IPSEC_GETSPI1
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusimaging.ImageCodecInfo
 title: ImageCodecInfo (gdiplusimaging.h)
-
 description: An ImageCodecInfo object stores information about an image codec (encoder/decoder).
 old-location: gdiplus\_gdiplus_CLASS_ImageCodecInfo_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imagecodecinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageCodecInfo, ImageCodecInfo class [GDI+], ImageCodecInfo class [GDI+],described, _gdiplus_CLASS_ImageCodecInfo_Class, gdiplus._gdiplus_CLASS_ImageCodecInfo_Class, gdiplusimaging/ImageCodecInfo
 ms.topic: class
-f1_keywords: 
- - "gdiplusimaging/ImageCodecInfo"
+f1_keywords:
+- gdiplusimaging/ImageCodecInfo
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - ImageCodecInfo
+- ImageCodecInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

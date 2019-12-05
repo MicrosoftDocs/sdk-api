@@ -1,19 +1,17 @@
 ---
 UID: NE:shlobj_core.tagIESHORTCUTFLAGS
 title: IESHORTCUTFLAGS (shlobj_core.h)
-
 description: Specifies how a shortcut should be handled by the browser.
 old-location: shell\IESHORTCUTFLAGS.htm
 tech.root: shell
 ms.assetid: 0821a990-5cae-41b3-aebf-20be13b6e89b
-
 ms.date: 12/05/2018
 ms.keywords: IESHORTCUTFLAGS, IESHORTCUTFLAGS enumeration [Windows Shell], IESHORTCUT_BACKGROUNDTAB, IESHORTCUT_FORCENAVIGATE, IESHORTCUT_NEWBROWSER, IESHORTCUT_OPENNEWTAB, _shell_IESHORTCUTFLAGS, shell.IESHORTCUTFLAGS, shlobj_core/IESHORTCUTFLAGS, shlobj_core/IESHORTCUT_BACKGROUNDTAB, shlobj_core/IESHORTCUT_FORCENAVIGATE, shlobj_core/IESHORTCUT_NEWBROWSER, shlobj_core/IESHORTCUT_OPENNEWTAB
 ms.topic: enum
-f1_keywords: 
- - "shlobj_core/IESHORTCUTFLAGS"
+f1_keywords:
+- shlobj_core/IESHORTCUTFLAGS
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IESHORTCUTFLAGS
+- IESHORTCUTFLAGS
 targetos: Windows
 req.typenames: IESHORTCUTFLAGS
 req.redist: 

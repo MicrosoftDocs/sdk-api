@@ -1,19 +1,17 @@
 ---
 UID: NN:efswrtinterop.IProtectionPolicyManagerInterop
 title: IProtectionPolicyManagerInterop (efswrtinterop.h)
-
 description: Manages enterprise protection policy on protected content.
 old-location: edp\iprotectionpolicymanagerinterop.htm
 tech.root: EDP
 ms.assetid: AFA7F918-8730-40A2-871E-9356391B47F8
-
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop, IProtectionPolicyManagerInterop, IProtectionPolicyManagerInterop interface, IProtectionPolicyManagerInterop interface,described, efswrtinterop/IProtectionPolicyManagerInterop interface
 ms.topic: interface
-f1_keywords: 
- - "efswrtinterop/IProtectionPolicyManagerInterop"
+f1_keywords:
+- efswrtinterop/IProtectionPolicyManagerInterop
 dev_langs:
- - c++
+- c++
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - efswrtinterop.h
+- efswrtinterop.h
 api_name:
- - IProtectionPolicyManagerInterop
+- IProtectionPolicyManagerInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

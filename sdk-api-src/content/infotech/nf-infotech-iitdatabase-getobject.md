@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITDatabase.GetObject
 title: IITDatabase::GetObject (infotech.h)
-
 description: Retrieves a specified IUnknown-based interface on the object identified by the dwObjInstance parameter.
 old-location: htmlhelp\iitdatabase_getobject.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasegetobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [HTML Help Workshop], GetObject method [HTML Help Workshop],IITDatabase interface, IITDatabase interface [HTML Help Workshop],GetObject method, IITDatabase.GetObject, IITDatabase::GetObject, htmlhelp.iitdatabase_getobject, infotech/IITDatabase::GetObject, refIITDatabaseGetObject
 ms.topic: method
-f1_keywords: 
- - "infotech/IITDatabase.GetObject"
+f1_keywords:
+- infotech/IITDatabase.GetObject
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITDatabase.GetObject
+- IITDatabase.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

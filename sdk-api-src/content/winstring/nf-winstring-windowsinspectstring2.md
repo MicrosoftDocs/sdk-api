@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsInspectString2
 title: WindowsInspectString2 function (winstring.h)
-
 description: Provides a way to for debuggers to display the value of an Windows Runtime&#160;HSTRING in another address space, remotely, or from a dump.
 old-location: winrt\windowsinspectstring2.htm
 tech.root: WinRT
 ms.assetid: 6A359C2A-21A3-4DCD-B40A-B983E790AC3C
-
 ms.date: 12/05/2018
 ms.keywords: WindowsInspectString2, WindowsInspectString2 function [Windows Runtime], winrt.windowsinspectstring2, winstring/WindowsInspectString2
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsInspectString2"
+f1_keywords:
+- winstring/WindowsInspectString2
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsInspectString2
+- WindowsInspectString2
 targetos: Windows
 req.typenames: 
 req.redist: 

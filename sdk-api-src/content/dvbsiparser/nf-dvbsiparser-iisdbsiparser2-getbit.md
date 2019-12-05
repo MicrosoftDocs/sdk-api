@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbSiParser2.GetBIT
 title: IIsdbSiParser2::GetBIT (dvbsiparser.h)
-
 description: Gets the broadcaster information table (BIT) from an Integrated Services Digital Broadcasting (ISDB) transport stream. A BIT contains a broadcaster unit and the service information transmission parameter for each broadcaster unit.
 old-location: mstv\iisdbsiparser2_getbit.htm
 tech.root: mstv
 ms.assetid: 25993059-a1a9-486f-97b3-fd240c8931dc
-
 ms.date: 12/05/2018
 ms.keywords: GetBIT, GetBIT method [Microsoft TV Technologies], GetBIT method [Microsoft TV Technologies],IIsdbSiParser2 interface, IIsdbSiParser2 interface [Microsoft TV Technologies],GetBIT method, IIsdbSiParser2.GetBIT, IIsdbSiParser2::GetBIT, dvbsiparser/IIsdbSiParser2::GetBIT, mstv.iisdbsiparser2_getbit
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbSiParser2.GetBIT"
+f1_keywords:
+- dvbsiparser/IIsdbSiParser2.GetBIT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbSiParser2.GetBIT
+- IIsdbSiParser2.GetBIT
 targetos: Windows
 req.typenames: 
 req.redist: 

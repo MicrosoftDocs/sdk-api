@@ -1,19 +1,17 @@
 ---
 UID: NN:indexsrv.IWordFormSink
 title: IWordFormSink (indexsrv.h)
-
 description: Handles the list of alternative word forms that stemmers generate during query time.
 old-location: search\iwordformsink.htm
 tech.root: search
 ms.assetid: 81D52B0C-BADD-48C0-85DB-57CA82D7BBA8
-
 ms.date: 12/05/2018
 ms.keywords: IWordFormSink, IWordFormSink interface [search], IWordFormSink interface [search],described, indexsrv/IWordFormSink, search.iwordformsink
 ms.topic: interface
-f1_keywords: 
- - "indexsrv/IWordFormSink"
+f1_keywords:
+- indexsrv/IWordFormSink
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IWordFormSink
+- IWordFormSink
 targetos: Windows
 req.typenames: 
 req.redist: 

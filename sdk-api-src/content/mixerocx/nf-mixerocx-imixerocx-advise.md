@@ -1,19 +1,17 @@
 ---
 UID: NF:mixerocx.IMixerOCX.Advise
 title: IMixerOCX::Advise (mixerocx.h)
-
 description: The Advise method provides the Overlay Mixer with a pointer to the client's IMixerOCXNotify interface for callback notifications.
 old-location: dshow\imixerocx_advise.htm
 tech.root: DirectShow
 ms.assetid: 6708fc46-19cb-4843-9c9d-99ff67ee6d08
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [DirectShow], Advise method [DirectShow],IMixerOCX interface, IMixerOCX interface [DirectShow],Advise method, IMixerOCX.Advise, IMixerOCX::Advise, IMixerOCXAdvise, dshow.imixerocx_advise, mixerocx/IMixerOCX::Advise
 ms.topic: method
-f1_keywords: 
- - "mixerocx/IMixerOCX.Advise"
+f1_keywords:
+- mixerocx/IMixerOCX.Advise
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCX.Advise
+- IMixerOCX.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

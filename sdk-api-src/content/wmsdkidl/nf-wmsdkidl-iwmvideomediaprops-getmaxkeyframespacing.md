@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.GetMaxKeyFrameSpacing
 title: IWMVideoMediaProps::GetMaxKeyFrameSpacing (wmsdkidl.h)
-
 description: The GetMaxKeyFrameSpacing method retrieves the maximum interval between key frames.
 old-location: wmformat\iwmvideomediaprops_getmaxkeyframespacing.htm
 tech.root: wmformat
 ms.assetid: 125d352e-b181-4baa-8763-21315534beea
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxKeyFrameSpacing, GetMaxKeyFrameSpacing method [windows Media Format], GetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, IWMVideoMediaProps interface [windows Media Format],GetMaxKeyFrameSpacing method, IWMVideoMediaProps.GetMaxKeyFrameSpacing, IWMVideoMediaProps::GetMaxKeyFrameSpacing, IWMVideoMediaPropsGetMaxKeyFrameSpacing, wmformat.iwmvideomediaprops_getmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::GetMaxKeyFrameSpacing
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMVideoMediaProps.GetMaxKeyFrameSpacing"
+f1_keywords:
+- wmsdkidl/IWMVideoMediaProps.GetMaxKeyFrameSpacing
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wmvcore.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
+- Wmvcore.lib
+- Wmvcore.dll
 api_name:
- - IWMVideoMediaProps.GetMaxKeyFrameSpacing
+- IWMVideoMediaProps.GetMaxKeyFrameSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

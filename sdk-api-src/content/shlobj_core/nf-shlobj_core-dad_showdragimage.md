@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.DAD_ShowDragImage
 title: DAD_ShowDragImage function (shlobj_core.h)
-
 description: Shows or hides the image being dragged.
 old-location: shell\DAD_ShowDragImage.htm
 tech.root: shell
 ms.assetid: 71448b05-9657-41e4-b5e4-6ae403219c6a
-
 ms.date: 12/05/2018
 ms.keywords: DAD_ShowDragImage, DAD_ShowDragImage function [Windows Shell], FALSE, TRUE, shell.DAD_ShowDragImage, shell_DAD_ShowDragImage, shlobj_core/DAD_ShowDragImage
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/DAD_ShowDragImage"
+f1_keywords:
+- shlobj_core/DAD_ShowDragImage
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - DAD_ShowDragImage
+- DAD_ShowDragImage
 targetos: Windows
 req.typenames: 
 req.redist: 

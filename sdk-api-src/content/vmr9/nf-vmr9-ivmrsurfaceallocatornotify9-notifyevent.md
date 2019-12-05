@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.NotifyEvent
 title: IVMRSurfaceAllocatorNotify9::NotifyEvent (vmr9.h)
-
 description: The NotifyEvent method is called by the allocator-presenter to inform the VMR of any significant DirectShow events that it (the allocator presenter) generates during the allocation or presentation processes.
 old-location: dshow\ivmrsurfaceallocatornotify9_notifyevent.htm
 tech.root: DirectShow
 ms.assetid: 04c92e0f-9f6e-484c-96cd-3567c09a2ff6
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9 interface [DirectShow],NotifyEvent method, IVMRSurfaceAllocatorNotify9.NotifyEvent, IVMRSurfaceAllocatorNotify9::NotifyEvent, IVMRSurfaceAllocatorNotify9NotifyEvent, NotifyEvent, NotifyEvent method [DirectShow], NotifyEvent method [DirectShow],IVMRSurfaceAllocatorNotify9 interface, dshow.ivmrsurfaceallocatornotify9_notifyevent, vmr9/IVMRSurfaceAllocatorNotify9::NotifyEvent
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocatorNotify9.NotifyEvent"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocatorNotify9.NotifyEvent
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify9.NotifyEvent
+- IVMRSurfaceAllocatorNotify9.NotifyEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

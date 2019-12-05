@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtNext
 title: EvtNext function (winevt.h)
-
 description: Gets the next event from the query or subscription results.
 old-location: wes\evtnext.htm
 tech.root: wes
 ms.assetid: 46d40734-f022-4775-aa4f-13f4069c43c8
-
 ms.date: 12/05/2018
 ms.keywords: EvtNext, EvtNext function [EventLog], wes.evtnext, winevt/EvtNext
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtNext"
+f1_keywords:
+- winevt/EvtNext
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
- - Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
+- Wevtapi.dll
+- Ext-MS-Win-WEvtAPI-EventLog-L1-1-2.dll
 api_name:
- - EvtNext
+- EvtNext
 targetos: Windows
 req.typenames: 
 req.redist: 

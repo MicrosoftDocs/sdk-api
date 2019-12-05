@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.GetFormattedText
 title: ITextStoreACP2::GetFormattedText (textstor.h)
-
 description: Gets formatted text data about a specified text string. The caller must have a read/write lock on the document before calling this method.
 old-location: tsf\itextstoreacp2_getformattedtext.htm
 tech.root: TSF
 ms.assetid: 0993861d-ef2a-4da5-a564-7559e7c4dcec
-
 ms.date: 12/05/2018
 ms.keywords: GetFormattedText, GetFormattedText method [Text Services Framework], GetFormattedText method [Text Services Framework],ITextStoreACP2 interface, ITextStoreACP2 interface [Text Services Framework],GetFormattedText method, ITextStoreACP2.GetFormattedText, ITextStoreACP2::GetFormattedText, textstor/ITextStoreACP2::GetFormattedText, tsf.itextstoreacp2_getformattedtext
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.GetFormattedText"
+f1_keywords:
+- textstor/ITextStoreACP2.GetFormattedText
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.GetFormattedText
+- ITextStoreACP2.GetFormattedText
 targetos: Windows
 req.typenames: 
 req.redist: 

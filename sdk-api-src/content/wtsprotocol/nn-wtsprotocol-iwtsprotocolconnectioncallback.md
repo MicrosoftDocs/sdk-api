@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolConnectionCallback
 title: IWTSProtocolConnectionCallback (wtsprotocol.h)
-
 description: IWTSProtocolConnectionCallback is no longer available. Instead, use IWRdsProtocolConnectionCallback.
 old-location: termserv\iwtsprotocolconnectioncallback.htm
 tech.root: TermServ
 ms.assetid: ac8a2a66-fa1f-48bd-9502-def833e26f31
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback, IWTSProtocolConnectionCallback interface [Remote Desktop Services], IWTSProtocolConnectionCallback interface [Remote Desktop Services],described, termserv.iwtsprotocolconnectioncallback, wtsprotocol/IWTSProtocolConnectionCallback
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnectionCallback"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnectionCallback
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWTSProtocolConnectionCallback
+- IWTSProtocolConnectionCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

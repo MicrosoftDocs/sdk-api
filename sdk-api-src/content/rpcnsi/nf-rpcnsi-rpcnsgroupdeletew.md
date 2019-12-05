@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupDeleteW
 title: RpcNsGroupDeleteW function (rpcnsi.h)
-
 description: The RpcNsGroupDelete function deletes a group attribute.
 old-location: rpc\rpcnsgroupdelete.htm
 tech.root: Rpc
 ms.assetid: 4455e891-7846-47b5-9283-549c3451b70e
-
 ms.date: 12/05/2018
 ms.keywords: RPC_C_NS_SYNTAX_DCE, RPC_C_NS_SYNTAX_DEFAULT, RpcNsGroupDelete, RpcNsGroupDelete function [RPC], RpcNsGroupDeleteA, RpcNsGroupDeleteW, _rpc_rpcnsgroupdelete, rpc.rpcnsgroupdelete, rpcnsi/RpcNsGroupDelete, rpcnsi/RpcNsGroupDeleteA, rpcnsi/RpcNsGroupDeleteW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsGroupDelete"
+f1_keywords:
+- rpcnsi/RpcNsGroupDelete
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsGroupDelete
- - RpcNsGroupDeleteA
- - RpcNsGroupDeleteW
+- RpcNsGroupDelete
+- RpcNsGroupDeleteA
+- RpcNsGroupDeleteW
 targetos: Windows
 req.typenames: 
 req.redist: 

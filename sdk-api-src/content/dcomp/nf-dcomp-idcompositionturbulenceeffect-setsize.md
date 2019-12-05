@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetSize
 title: IDCompositionTurbulenceEffect::SetSize (dcomp.h)
-
 description: Sets the size of the turbulence output.
 old-location: directcomp\idcompositionturbulenceeffect_setsize.htm
 tech.root: directcomp
 ms.assetid: A25788DC-83EE-455F-BC73-67639F47FFEC
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetSize method, IDCompositionTurbulenceEffect.SetSize, IDCompositionTurbulenceEffect::SetSize, SetSize, SetSize method [DirectComposition], SetSize method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetSize, directcomp.idcompositionturbulenceeffect_setsize
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTurbulenceEffect.SetSize"
+f1_keywords:
+- dcomp/IDCompositionTurbulenceEffect.SetSize
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTurbulenceEffect.SetSize
+- IDCompositionTurbulenceEffect.SetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

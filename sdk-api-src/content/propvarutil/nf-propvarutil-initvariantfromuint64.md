@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromUInt64
 title: InitVariantFromUInt64 function (propvarutil.h)
-
 description: Initializes a VARIANT structure with an unsigned 64-bit integer value.
 old-location: properties\InitVariantFromUInt64.htm
 tech.root: properties
 ms.assetid: 8fa8bfe9-b9a6-4292-b303-621ef9d8aa4d
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromUInt64, InitVariantFromUInt64 function [Windows Properties], _shell_InitVariantFromUInt64, properties.InitVariantFromUInt64, propvarutil/InitVariantFromUInt64, shell.InitVariantFromUInt64
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromUInt64"
+f1_keywords:
+- propvarutil/InitVariantFromUInt64
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitVariantFromUInt64
+- InitVariantFromUInt64
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

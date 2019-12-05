@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SortChildren
 title: TreeView_SortChildren macro (commctrl.h)
-
 description: Sorts the child items of the specified parent item in a tree-view control. You can use this macro or send the TVM_SORTCHILDREN message explicitly.
 old-location: controls\TreeView_SortChildren.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_sortchildren.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SortChildren, TreeView_SortChildren macro [Windows Controls], _win32_TreeView_SortChildren, _win32_TreeView_SortChildren_cpp, commctrl/TreeView_SortChildren, controls.TreeView_SortChildren, controls._win32_TreeView_SortChildren
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SortChildren"
+f1_keywords:
+- commctrl/TreeView_SortChildren
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SortChildren
+- TreeView_SortChildren
 targetos: Windows
 req.typenames: 
 req.redist: 

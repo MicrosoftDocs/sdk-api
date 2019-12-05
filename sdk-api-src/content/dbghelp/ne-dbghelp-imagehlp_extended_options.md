@@ -1,19 +1,17 @@
 ---
 UID: NE:dbghelp.__unnamed_enum_4
 title: IMAGEHLP_EXTENDED_OPTIONS (dbghelp.h)
-
 description: Lists the extended symbol options that you can get and set by using the SymGetExtendedOption and SymSetExtendedOption functions.
 old-location: base\imagehlp_extended_options.htm
 tech.root: Debug
 ms.assetid: 5354F53C-F161-4887-85E4-7A00521034EE
-
 ms.date: 12/05/2018
 ms.keywords: IMAGEHLP_EXTENDED_OPTIONS, IMAGEHLP_EXTENDED_OPTIONS enumeration, SYMOPT_EX_DISABLEACCESSTIMEUPDATE, SYMOPT_EX_MAX, base.imagehlp_extended_options, dbghelp/IMAGEHLP_EXTENDED_OPTIONS, dbghelp/SYMOPT_EX_DISABLEACCESSTIMEUPDATE, dbghelp/SYMOPT_EX_MAX
 ms.topic: enum
-f1_keywords: 
- - "dbghelp/IMAGEHLP_EXTENDED_OPTIONS"
+f1_keywords:
+- dbghelp/IMAGEHLP_EXTENDED_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_EXTENDED_OPTIONS
+- IMAGEHLP_EXTENDED_OPTIONS
 targetos: Windows
 req.typenames: IMAGEHLP_EXTENDED_OPTIONS
 req.redist: DbgHelp.dll 10.0.16232.1000 or later

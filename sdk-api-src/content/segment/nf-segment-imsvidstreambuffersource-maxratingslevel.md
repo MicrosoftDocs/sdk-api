@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.MaxRatingsLevel
 title: IMSVidStreamBufferSource::MaxRatingsLevel (segment.h)
-
 description: The MaxRatingsLevel method specifies the maximum ratings level the object is permitted to play.
 old-location: mstv\imsvidstreambuffersource_maxratingslevel.htm
 tech.root: mstv
 ms.assetid: 74dbb008-21c9-4651-8386-761626b7bf19
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSource interface [Microsoft TV Technologies],MaxRatingsLevel method, IMSVidStreamBufferSource.MaxRatingsLevel, IMSVidStreamBufferSource::MaxRatingsLevel, IMSVidStreamBufferSourceMaxRatingsLevel, MaxRatingsLevel, MaxRatingsLevel method [Microsoft TV Technologies], MaxRatingsLevel method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, mstv.imsvidstreambuffersource_maxratingslevel, segment/IMSVidStreamBufferSource::MaxRatingsLevel
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSource.MaxRatingsLevel"
+f1_keywords:
+- segment/IMSVidStreamBufferSource.MaxRatingsLevel
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSource.MaxRatingsLevel
+- IMSVidStreamBufferSource.MaxRatingsLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertCreateCTLEntryFromCertificateContextProperties
 title: CertCreateCTLEntryFromCertificateContextProperties function (wincrypt.h)
-
 description: The CertCreateCTLEntryFromCertificateContextProperties function creates a certificate trust list (CTL) entry whose attributes are the properties of the certificate context. The SubjectIdentifier in the CTL entry is the SHA1 hash of the certificate.
 old-location: security\certcreatectlentryfromcertificatecontextproperties.htm
 tech.root: SecCrypto
 ms.assetid: 90ac512f-3cbe-4543-9b34-8e384f730cfe
-
 ms.date: 12/05/2018
 ms.keywords: CertCreateCTLEntryFromCertificateContextProperties, CertCreateCTLEntryFromCertificateContextProperties function [Security], _crypto2_certcreatectlentryfromcertificatecontextproperties, security.certcreatectlentryfromcertificatecontextproperties, wincrypt/CertCreateCTLEntryFromCertificateContextProperties
 ms.topic: function
 f1_keywords:
 - wincrypt/CertCreateCTLEntryFromCertificateContextProperties
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

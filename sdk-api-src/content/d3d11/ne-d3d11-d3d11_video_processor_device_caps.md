@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_DEVICE_CAPS
 title: D3D11_VIDEO_PROCESSOR_DEVICE_CAPS (d3d11.h)
-
 description: Defines video processing capabilities for a Microsoft Direct3D 11 video processor.
 old-location: mf\d3d11_video_processor_device_caps.htm
 tech.root: medfound
 ms.assetid: 35335C16-D8BD-4C52-9C9A-4B28DCB53A7F
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_DEVICE_CAPS, D3D11_VIDEO_PROCESSOR_DEVICE_CAPS enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_LINEAR_SPACE, D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_NOMINAL_RANGE, D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_RGB_RANGE_CONVERSION, D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION, D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_xvYCC, d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS, d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_LINEAR_SPACE, d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_NOMINAL_RANGE, d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_RGB_RANGE_CONVERSION, d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_YCbCr_MATRIX_CONVERSION, d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_xvYCC, mf.d3d11_video_processor_device_caps
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_DEVICE_CAPS
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_DEVICE_CAPS
+- D3D11_VIDEO_PROCESSOR_DEVICE_CAPS
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_DEVICE_CAPS
 req.redist: 

@@ -1,18 +1,16 @@
 ---
 UID: NF:shlobj.IFileViewerA.Show
 title: IFileViewerA::Show
-
 description: Displays a file.
 tech.root: shell
 ms.assetid: 7555b40b-62c1-467a-b9d5-324fd1a7fd8e
-
 ms.date: 01/30/19
 ms.keywords: IFileViewerA::Show
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj/IFileViewerA::Show"
+f1_keywords:
+- shlobj/IFileViewerA::Show
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -34,13 +32,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - shlobj.h
+- shlobj.h
 api_name:
- - IFileViewerA::Show
+- IFileViewerA::Show
 ---
 
 ## -description

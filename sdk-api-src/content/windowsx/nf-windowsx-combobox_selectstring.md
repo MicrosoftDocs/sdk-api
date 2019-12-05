@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_SelectString
 title: ComboBox_SelectString macro (windowsx.h)
-
 description: Searches a list in a combo box for an item that begins with the characters in a specified string. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SelectString, ComboBox_SelectString macro [Windows Controls], _win32_ComboBox_SelectString, _win32_ComboBox_SelectString_cpp, controls.ComboBox_SelectString, controls._win32_ComboBox_SelectString, windowsx/ComboBox_SelectString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_SelectString"
+f1_keywords:
+- windowsx/ComboBox_SelectString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_SelectString
+- ComboBox_SelectString
 targetos: Windows
 req.typenames: 
 req.redist: 

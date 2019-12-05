@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopology.GetOutputNodeCollection
 title: IMFTopology::GetOutputNodeCollection (mfidl.h)
-
 description: Gets the output nodes in the topology.
 old-location: mf\imftopology_getoutputnodecollection.htm
 tech.root: medfound
 ms.assetid: 0862cd4a-4d22-4d8d-a754-0cd376d44b22
-
 ms.date: 12/05/2018
 ms.keywords: 0862cd4a-4d22-4d8d-a754-0cd376d44b22, GetOutputNodeCollection, GetOutputNodeCollection method [Media Foundation], GetOutputNodeCollection method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],GetOutputNodeCollection method, IMFTopology.GetOutputNodeCollection, IMFTopology::GetOutputNodeCollection, mf.imftopology_getoutputnodecollection, mfidl/IMFTopology::GetOutputNodeCollection
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopology.GetOutputNodeCollection"
+f1_keywords:
+- mfidl/IMFTopology.GetOutputNodeCollection
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopology.GetOutputNodeCollection
+- IMFTopology.GetOutputNodeCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

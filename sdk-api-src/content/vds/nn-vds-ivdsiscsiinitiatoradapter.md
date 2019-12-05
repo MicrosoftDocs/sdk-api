@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsIscsiInitiatorAdapter
 title: IVdsIscsiInitiatorAdapter (vds.h)
-
 description: Provides methods to query and interact with iSCSI initiator adapters on the local system.
 old-location: base\ivdsiscsiinitiatoradapter.htm
 tech.root: VDS
 ms.assetid: 3f911878-28c6-41db-ae9c-81e282aabf9d
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiInitiatorAdapter, IVdsIscsiInitiatorAdapter interface [VDS], IVdsIscsiInitiatorAdapter interface [VDS],described, base.ivdsiscsiinitiatoradapter, vds/IVdsIscsiInitiatorAdapter
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsIscsiInitiatorAdapter"
+f1_keywords:
+- vds/IVdsIscsiInitiatorAdapter
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiInitiatorAdapter
+- IVdsIscsiInitiatorAdapter
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

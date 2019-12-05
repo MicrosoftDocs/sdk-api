@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidDevice2
 title: IMSVidDevice2 (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 or later. The IMSVidDevice2 interface is implemented by some Video Control device objects.
 old-location: mstv\imsviddevice2.htm
 tech.root: mstv
 ms.assetid: cd0955cb-602f-4a47-a6f8-6fb2f0c9cb31
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice2, IMSVidDevice2 interface [Microsoft TV Technologies], IMSVidDevice2 interface [Microsoft TV Technologies],described, IMSVidDevice2Interface, mstv.imsviddevice2, segment/IMSVidDevice2
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidDevice2"
+f1_keywords:
+- segment/IMSVidDevice2
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDevice2
+- IMSVidDevice2
 targetos: Windows
 req.typenames: 
 req.redist: 

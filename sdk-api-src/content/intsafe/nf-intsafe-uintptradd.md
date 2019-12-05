@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrAdd
 title: UIntPtrAdd function (intsafe.h)
-
 description: Adds two values of type UINT_PTR.
 old-location: shell\UIntPtrAdd.htm
 tech.root: shell
 ms.assetid: 85658194-cb13-443f-8e6b-84034f7cd46b
-
 ms.date: 12/05/2018
 ms.keywords: UIntPtrAdd, UIntPtrAdd function [Windows Shell], _shell_UIntPtrAdd, intsafe/UIntPtrAdd, shell.UIntPtrAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntPtrAdd"
+f1_keywords:
+- intsafe/UIntPtrAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntPtrAdd
+- UIntPtrAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

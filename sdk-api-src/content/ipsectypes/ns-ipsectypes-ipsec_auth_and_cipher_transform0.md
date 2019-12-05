@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_AUTH_AND_CIPHER_TRANSFORM0_
 title: IPSEC_AUTH_AND_CIPHER_TRANSFORM0 (ipsectypes.h)
-
 description: Is used to store hash and encryption specific information together for an SA transform in an IPsec quick mode policy.
 old-location: fwp\ipsec_auth_and_cipher_transform0_struct.htm
 tech.root: fwp
 ms.assetid: 9f8086c3-1862-432a-af0e-6a434833c651
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_AND_CIPHER_TRANSFORM0, IPSEC_AUTH_AND_CIPHER_TRANSFORM0 structure [Filtering], fwp.ipsec_auth_and_cipher_transform0_struct, ipsectypes/IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_AUTH_AND_CIPHER_TRANSFORM0"
+f1_keywords:
+- ipsectypes/IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_AUTH_AND_CIPHER_TRANSFORM0
+- IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 targetos: Windows
 req.typenames: IPSEC_AUTH_AND_CIPHER_TRANSFORM0
 req.redist: 

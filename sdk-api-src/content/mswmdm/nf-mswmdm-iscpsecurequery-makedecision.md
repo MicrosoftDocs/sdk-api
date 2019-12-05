@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.MakeDecision
 title: ISCPSecureQuery::MakeDecision (mswmdm.h)
-
 description: The MakeDecision method determines whether access to the content is allowed. If access is allowed, this method returns the interface that will be used to access the content.
 old-location: wmdm\iscpsecurequery_makedecision.htm
 tech.root: WMDM
 ms.assetid: cbcc8999-d7e4-4b67-a5ba-dd850ff7a07a
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureQuery interface [windows Media Device Manager],MakeDecision method, ISCPSecureQuery.MakeDecision, ISCPSecureQuery::MakeDecision, ISCPSecureQueryMakeDecision, MakeDecision, MakeDecision method [windows Media Device Manager], MakeDecision method [windows Media Device Manager],ISCPSecureQuery interface, mswmdm/ISCPSecureQuery::MakeDecision, wmdm.iscpsecurequery_makedecision
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureQuery.MakeDecision"
+f1_keywords:
+- mswmdm/ISCPSecureQuery.MakeDecision
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureQuery.MakeDecision
+- ISCPSecureQuery.MakeDecision
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:werapi._WER_REPORT_INFORMATION
 title: WER_REPORT_INFORMATION (werapi.h)
-
 description: Contains information used by the WerReportCreate function.
 old-location: wer\wer_report_information.htm
 tech.root: wer
 ms.assetid: 3efe2b43-53ac-48e3-bc39-4a9fe6041fca
-
 ms.date: 12/05/2018
-ms.keywords: "*PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting], WER_REPORT_INFORMATION, WER_REPORT_INFORMATION structure [Windows Error Reporting], base.wer_report_information, wer.wer_report_information, werapi/PWER_REPORT_INFORMATION, werapi/WER_REPORT_INFORMATION"
+ms.keywords: '*PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION, PWER_REPORT_INFORMATION structure pointer [Windows Error Reporting], WER_REPORT_INFORMATION, WER_REPORT_INFORMATION structure [Windows Error Reporting], base.wer_report_information, wer.wer_report_information, werapi/PWER_REPORT_INFORMATION, werapi/WER_REPORT_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "werapi/WER_REPORT_INFORMATION"
+f1_keywords:
+- werapi/WER_REPORT_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Werapi.h
+- Werapi.h
 api_name:
- - WER_REPORT_INFORMATION
+- WER_REPORT_INFORMATION
 targetos: Windows
 req.typenames: WER_REPORT_INFORMATION, *PWER_REPORT_INFORMATION
 req.redist: 

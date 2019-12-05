@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument2.Submit2
 title: IFaxDocument2::Submit2 (faxcomex.h)
-
 description: Submits one or more documents to the fax service for processing.Note  This method is supported only in Windows Vista and later.
 old-location: fax\_mfax_faxdocument2_cpp_mfax_faxdocument2_submit2_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxdocument2\submit2.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument2 interface [Fax Service],Submit2 method, IFaxDocument2.Submit2, IFaxDocument2::Submit2, Submit2, Submit2 method [Fax Service], Submit2 method [Fax Service],IFaxDocument2 interface, _mfax_faxdocument2.submit2, fax._mfax_faxdocument2_cpp_mfax_faxdocument2_submit2_cpp, fax._mfax_faxdocument2_submit2, faxcomex/IFaxDocument2::Submit2
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument2.Submit2"
+f1_keywords:
+- faxcomex/IFaxDocument2.Submit2
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument2.Submit2
- - IFaxDocument2.Submit2
+- IFaxDocument2.Submit2
+- IFaxDocument2.Submit2
 targetos: Windows
 req.typenames: 
 req.redist: 

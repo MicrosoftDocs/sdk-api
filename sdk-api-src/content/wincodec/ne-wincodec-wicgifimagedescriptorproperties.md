@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICGifImageDescriptorProperties
 title: WICGifImageDescriptorProperties (wincodec.h)
-
 description: Specifies the image descriptor metadata properties for Graphics Interchange Format (GIF) frames.
 old-location: wic\_wic_codec_wicgifimagedescriptorproperties.htm
 tech.root: wic
 ms.assetid: 5488e63b-503b-47cd-99f3-5d359c7e0070
-
 ms.date: 12/05/2018
 ms.keywords: WICGifImageDescriptorHeight, WICGifImageDescriptorInterlaceFlag, WICGifImageDescriptorLeft, WICGifImageDescriptorLocalColorTableFlag, WICGifImageDescriptorLocalColorTableSize, WICGifImageDescriptorProperties, WICGifImageDescriptorProperties enumeration [Windows Imaging Component], WICGifImageDescriptorSortFlag, WICGifImageDescriptorTop, WICGifImageDescriptorWidth, _wic_codec_wicgifimagedescriptorproperties, wic._wic_codec_wicgifimagedescriptorproperties, wincodec/WICGifImageDescriptorHeight, wincodec/WICGifImageDescriptorInterlaceFlag, wincodec/WICGifImageDescriptorLeft, wincodec/WICGifImageDescriptorLocalColorTableFlag, wincodec/WICGifImageDescriptorLocalColorTableSize, wincodec/WICGifImageDescriptorProperties, wincodec/WICGifImageDescriptorSortFlag, wincodec/WICGifImageDescriptorTop, wincodec/WICGifImageDescriptorWidth
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICGifImageDescriptorProperties"
+f1_keywords:
+- wincodec/WICGifImageDescriptorProperties
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICGifImageDescriptorProperties
+- WICGifImageDescriptorProperties
 targetos: Windows
 req.typenames: WICGifImageDescriptorProperties
 req.redist: 

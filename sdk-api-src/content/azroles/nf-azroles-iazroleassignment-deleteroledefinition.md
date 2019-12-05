@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.DeleteRoleDefinition
 title: IAzRoleAssignment::DeleteRoleDefinition (azroles.h)
-
 description: Removes the IAzRoleDefinition object with the specified name from this IAzRoleAssignment object.
 old-location: security\iazroleassignment_deleteroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: 17af80d0-d9b4-4e20-b7a8-72e8dc42b69d
-
 ms.date: 12/05/2018
 ms.keywords: DeleteRoleDefinition, DeleteRoleDefinition method [Security], DeleteRoleDefinition method [Security],IAzRoleAssignment interface, IAzRoleAssignment interface [Security],DeleteRoleDefinition method, IAzRoleAssignment.DeleteRoleDefinition, IAzRoleAssignment::DeleteRoleDefinition, azroles/IAzRoleAssignment::DeleteRoleDefinition, security.iazroleassignment_deleteroledefinition
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoleAssignment.DeleteRoleDefinition"
+f1_keywords:
+- azroles/IAzRoleAssignment.DeleteRoleDefinition
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleAssignment.DeleteRoleDefinition
+- IAzRoleAssignment.DeleteRoleDefinition
 targetos: Windows
 req.typenames: 
 req.redist: 

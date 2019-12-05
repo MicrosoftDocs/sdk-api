@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.REGFILTER2
 title: REGFILTER2 (strmif.h)
-
 description: The REGFILTER2 structure contains information for registering a filter.
 old-location: dshow\regfilter2.htm
 tech.root: DirectShow
 ms.assetid: 651b94e6-b343-4957-9781-768b04c098dd
-
 ms.date: 12/05/2018
 ms.keywords: REGFILTER2, REGFILTER2 structure [DirectShow], REGFILTER2Structure, dshow.regfilter2, strmif/REGFILTER2
 ms.topic: struct
-f1_keywords: 
- - "strmif/REGFILTER2"
+f1_keywords:
+- strmif/REGFILTER2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - REGFILTER2
+- REGFILTER2
 targetos: Windows
 req.typenames: REGFILTER2
 req.redist: 

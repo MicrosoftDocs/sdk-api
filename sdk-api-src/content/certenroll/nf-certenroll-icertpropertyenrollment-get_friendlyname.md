@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollment.get_FriendlyName
 title: ICertPropertyEnrollment::get_FriendlyName (certenroll.h)
-
 description: Retrieves the display name of the certificate.
 old-location: security\icertpropertyenrollment_friendlyname_property.htm
 tech.root: seccertenroll
 ms.assetid: a12b7368-cace-47c4-bfd4-08845dc2634c
-
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],ICertPropertyEnrollment interface, ICertPropertyEnrollment interface [Security],FriendlyName property, ICertPropertyEnrollment.FriendlyName, ICertPropertyEnrollment.get_FriendlyName, ICertPropertyEnrollment::FriendlyName, ICertPropertyEnrollment::get_FriendlyName, certenroll/ICertPropertyEnrollment::FriendlyName, certenroll/ICertPropertyEnrollment::get_FriendlyName, get_FriendlyName, security.icertpropertyenrollment_friendlyname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollment.FriendlyName"
+f1_keywords:
+- certenroll/ICertPropertyEnrollment.FriendlyName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyEnrollment.FriendlyName
- - ICertPropertyEnrollment.get_FriendlyName
+- ICertPropertyEnrollment.FriendlyName
+- ICertPropertyEnrollment.get_FriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

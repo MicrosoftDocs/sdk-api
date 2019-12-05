@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsmgmtw32.DeregisterManageableLogClient
 title: DeregisterManageableLogClient function (clfsmgmtw32.h)
-
 description: Deregisters a client with the log manager.
 old-location: fs\deregistermanageablelogclient.htm
 tech.root: Clfs
 ms.assetid: 293a4856-62d4-49a3-9177-4d09a0897200
-
 ms.date: 12/05/2018
 ms.keywords: DeregisterManageableLogClient, DeregisterManageableLogClient function [Files], clfsmgmtw32/DeregisterManageableLogClient, fs.deregistermanageablelogclient
 ms.topic: function
-f1_keywords: 
- - "clfsmgmtw32/DeregisterManageableLogClient"
+f1_keywords:
+- clfsmgmtw32/DeregisterManageableLogClient
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - DeregisterManageableLogClient
+- DeregisterManageableLogClient
 targetos: Windows
 req.typenames: 
 req.redist: 

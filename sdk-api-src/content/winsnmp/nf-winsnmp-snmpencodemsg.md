@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpEncodeMsg
 title: SnmpEncodeMsg function (winsnmp.h)
-
 description: The Microsoft WinSNMP implementation uses the parameters passed in the WinSNMP SnmpEncodeMsg function to encode an SNMP message.
 old-location: snmp\snmpencodemsg.htm
 tech.root: SNMP
 ms.assetid: 0c8ebf49-b59e-4483-a7cf-456794e24bd6
-
 ms.date: 12/05/2018
 ms.keywords: SnmpEncodeMsg, SnmpEncodeMsg function [SNMP], _snmp_snmpencodemsg, snmp.snmpencodemsg, winsnmp/SnmpEncodeMsg
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpEncodeMsg"
+f1_keywords:
+- winsnmp/SnmpEncodeMsg
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpEncodeMsg
+- SnmpEncodeMsg
 targetos: Windows
 req.typenames: 
 req.redist: 

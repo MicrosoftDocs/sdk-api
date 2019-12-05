@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_FriendlyName
 title: IFaxDeviceProvider::get_FriendlyName (faxcomex.h)
-
 description: The IFaxDeviceProvider::get_FriendlyName property is a null-terminated string that contains the user-friendly name for the fax service provider (FSP). This string is suitable for display to users.
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_friendlyname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7t7p.htm
-
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Fax Service], FriendlyName property [Fax Service],IFaxDeviceProvider interface, IFaxDeviceProvider interface [Fax Service],FriendlyName property, IFaxDeviceProvider.FriendlyName, IFaxDeviceProvider.get_FriendlyName, IFaxDeviceProvider::FriendlyName, IFaxDeviceProvider::get_FriendlyName, _mfax_faxdeviceprovider.friendlyname, fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_friendlyname_cpp, fax._mfax_faxdeviceprovider_friendlyname, faxcomex/IFaxDeviceProvider::FriendlyName, faxcomex/IFaxDeviceProvider::get_FriendlyName, get_FriendlyName
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceProvider.FriendlyName"
+f1_keywords:
+- faxcomex/IFaxDeviceProvider.FriendlyName
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceProvider.FriendlyName
- - IFaxDeviceProvider.get_FriendlyName
- - IFaxDeviceProvider.get_FriendlyName
+- IFaxDeviceProvider.FriendlyName
+- IFaxDeviceProvider.get_FriendlyName
+- IFaxDeviceProvider.get_FriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

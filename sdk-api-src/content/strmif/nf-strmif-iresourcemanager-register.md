@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IResourceManager.Register
 title: IResourceManager::Register (strmif.h)
-
 description: The Register method registers a single named resource with the resource manager.
 old-location: dshow\iresourcemanager_register.htm
 tech.root: DirectShow
 ms.assetid: 23fa6830-144b-479f-8a8e-b637d82f51d1
-
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],Register method, IResourceManager.Register, IResourceManager::Register, IResourceManagerRegister, Register, Register method [DirectShow], Register method [DirectShow],IResourceManager interface, dshow.iresourcemanager_register, strmif/IResourceManager::Register
 ms.topic: method
-f1_keywords: 
- - "strmif/IResourceManager.Register"
+f1_keywords:
+- strmif/IResourceManager.Register
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceManager.Register
+- IResourceManager.Register
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetFuncDesc
 title: ITypeInfo::GetFuncDesc (oaidl.h)
-
 description: Retrieves the FUNCDESC structure that contains information about a specified function.
 old-location: automat\itypeinfo_getfuncdesc.htm
 tech.root: automat
 ms.assetid: 1e3331a2-0156-4d8f-aa7f-e32cecd3eb74
-
 ms.date: 12/05/2018
 ms.keywords: GetFuncDesc, GetFuncDesc method [Automation], GetFuncDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetFuncDesc method, ITypeInfo.GetFuncDesc, ITypeInfo::GetFuncDesc, _oa96_ITypeInfo_GetFuncDesc, automat.itypeinfo_getfuncdesc, oaidl/ITypeInfo::GetFuncDesc
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetFuncDesc"
+f1_keywords:
+- oaidl/ITypeInfo.GetFuncDesc
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetFuncDesc
+- ITypeInfo.GetFuncDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPFMXEditPerm
 title: NPFMXEditPerm function (npapi.h)
-
 description: Enables network vendors to supply their own permission editor dialog boxes.
 old-location: security\npfmxeditperm.htm
 tech.root: SecAuthN
 ms.assetid: 72ea90ce-3493-49bf-beaa-833217495e47
-
 ms.date: 12/05/2018
 ms.keywords: NPFMXEditPerm, NPFMXEditPerm function [Security], WNPERM_DLG_AUDIT, WNPERM_DLG_OWNER, WNPERM_DLG_PERM, _mnp_npfmxeditperm, npapi/NPFMXEditPerm, security.npfmxeditperm
 ms.topic: function
-f1_keywords: 
- - "npapi/NPFMXEditPerm"
+f1_keywords:
+- npapi/NPFMXEditPerm
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPFMXEditPerm
+- NPFMXEditPerm
 targetos: Windows
 req.typenames: 
 req.redist: 

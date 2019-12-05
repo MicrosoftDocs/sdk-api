@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserGuid
 title: IAzClientContext::get_UserGuid (azroles.h)
-
 description: Retrieves the name of the current client in GUID format.
 old-location: security\iazclientcontext_userguid.htm
 tech.root: SecAuthZ
 ms.assetid: fd60d1d0-67b9-457f-a01e-6ea470d9db6a
-
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],UserGuid property, IAzClientContext interface [Security],UserGuid property, IAzClientContext.UserGuid, IAzClientContext.get_UserGuid, IAzClientContext::UserGuid, IAzClientContext::get_UserGuid, UserGuid property [Security], UserGuid property [Security],AzClientContext object, UserGuid property [Security],IAzClientContext interface, azroles/IAzClientContext::UserGuid, azroles/IAzClientContext::get_UserGuid, get_UserGuid, security.iazclientcontext_userguid
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.UserGuid"
+f1_keywords:
+- azroles/IAzClientContext.UserGuid
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.UserGuid
- - IAzClientContext.get_UserGuid
- - AzClientContext.UserGuid
+- IAzClientContext.UserGuid
+- IAzClientContext.get_UserGuid
+- AzClientContext.UserGuid
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

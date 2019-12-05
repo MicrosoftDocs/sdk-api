@@ -1,19 +1,17 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetReplyFileName
 title: IBackgroundCopyJob2::GetReplyFileName
-
 description: Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
 old-location: bits\ibackgroundcopyjob2_getreplyfilename.htm
 tech.root: Bits
 ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3
-
 ms.date: 12/05/2018
 ms.keywords: GetReplyFileName, GetReplyFileName method [BITS], GetReplyFileName method [BITS],IBackgroundCopyJob2 interface, IBackgroundCopyJob2 interface [BITS],GetReplyFileName method, IBackgroundCopyJob2.GetReplyFileName, IBackgroundCopyJob2::GetReplyFileName, _drz_ibackgroundcopyjob2_getreplyfilename, bits.ibackgroundcopyjob2_getreplyfilename, bits1_5/IBackgroundCopyJob2::GetReplyFileName
 ms.topic: method
-f1_keywords: 
- - "bits1_5/IBackgroundCopyJob2.GetReplyFileName"
+f1_keywords:
+- bits1_5/IBackgroundCopyJob2.GetReplyFileName
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: BitsPrx2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - BitsPrx2.dll
+- BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2.GetReplyFileName
+- IBackgroundCopyJob2.GetReplyFileName
 targetos: Windows
 req.typenames: 
 req.redist: BITS 1.5 on  Windows XP

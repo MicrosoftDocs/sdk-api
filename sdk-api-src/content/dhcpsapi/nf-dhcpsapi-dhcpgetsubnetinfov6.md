@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetInfoV6
 title: DhcpGetSubnetInfoV6 function (dhcpsapi.h)
-
 description: The DhcpGetSubnetInfoV6 function returns information on a specific subnet.
 old-location: dhcp\dhcpgetsubnetinfov6.htm
 tech.root: DHCP
 ms.assetid: 181015de-c109-4365-a87c-04706f568297
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetSubnetInfoV6, DhcpGetSubnetInfoV6 function [DHCP], dhcp.dhcpgetsubnetinfov6, dhcpsapi/DhcpGetSubnetInfoV6
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetSubnetInfoV6"
+f1_keywords:
+- dhcpsapi/DhcpGetSubnetInfoV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetSubnetInfoV6
+- DhcpGetSubnetInfoV6
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.RequestAttrsAtPosition
 title: ITextStoreACP2::RequestAttrsAtPosition (textstor.h)
-
 description: Gets text attributes at the specified character position.
 old-location: tsf\itextstoreacp2_requestattrsatposition.htm
 tech.root: TSF
 ms.assetid: 0eb663be-3e70-415b-89cd-7e5a0308e72a
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreACP2.RequestAttrsAtPosition, ITextStoreACP2::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreACP2 interface, TS_ATTR_FIND_WANT_END, TS_ATTR_FIND_WANT_VALUE, textstor/ITextStoreACP2::RequestAttrsAtPosition, tsf.itextstoreacp2_requestattrsatposition
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.RequestAttrsAtPosition"
+f1_keywords:
+- textstor/ITextStoreACP2.RequestAttrsAtPosition
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.RequestAttrsAtPosition
+- ITextStoreACP2.RequestAttrsAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

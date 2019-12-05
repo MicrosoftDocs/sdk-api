@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawIndexedInstanced
 title: ID3D11DeviceContext::DrawIndexedInstanced (d3d11.h)
-
 description: Draw indexed, instanced primitives.
 old-location: direct3d11\id3d11devicecontext_drawindexedinstanced.htm
 tech.root: direct3d11
 ms.assetid: c7a4821a-324c-47e4-b89f-603d2afcfb51
-
 ms.date: 12/05/2018
 ms.keywords: 8742ce56-5b31-7869-ab62-cb36d33cc5ca, DrawIndexedInstanced, DrawIndexedInstanced method [Direct3D 11], DrawIndexedInstanced method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawIndexedInstanced method, ID3D11DeviceContext.DrawIndexedInstanced, ID3D11DeviceContext::DrawIndexedInstanced, d3d11/ID3D11DeviceContext::DrawIndexedInstanced, direct3d11.id3d11devicecontext_drawindexedinstanced
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.DrawIndexedInstanced"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.DrawIndexedInstanced
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.DrawIndexedInstanced
+- ID3D11DeviceContext.DrawIndexedInstanced
 targetos: Windows
 req.typenames: 
 req.redist: 

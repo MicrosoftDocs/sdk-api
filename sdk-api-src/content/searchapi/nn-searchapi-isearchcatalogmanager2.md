@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchCatalogManager2
 title: ISearchCatalogManager2 (searchapi.h)
-
 description: Extends the ISearchCatalogManager interface to manage a search catalog, for purposes such as re-indexing or setting timeouts.
 old-location: search\_search_ISearchCatalogManager2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\isearchcatalogmanager2.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager2, ISearchCatalogManager2 interface [search], ISearchCatalogManager2 interface [search],described, _search_ISearchCatalogManager2, search._search_ISearchCatalogManager2, searchapi/ISearchCatalogManager2
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchCatalogManager2"
+f1_keywords:
+- searchapi/ISearchCatalogManager2
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager2
+- ISearchCatalogManager2
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

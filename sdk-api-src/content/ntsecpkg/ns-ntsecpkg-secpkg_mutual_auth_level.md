@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_MUTUAL_AUTH_LEVEL
 title: SECPKG_MUTUAL_AUTH_LEVEL (ntsecpkg.h)
-
 description: The SECPKG_MUTUAL_AUTH_LEVEL structure contains the authentication level used by a security package.
 old-location: security\secpkg_mutual_auth_level.htm
 tech.root: SecAuthN
 ms.assetid: f56cd322-8f82-43d7-a666-7067bf23b0a7
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUTUAL_AUTH_LEVEL structure pointer [Security], SECPKG_MUTUAL_AUTH_LEVEL, SECPKG_MUTUAL_AUTH_LEVEL structure [Security], _ssp_secpkg_mutual_auth_level, ntsecpkg/PSECPKG_MUTUAL_AUTH_LEVEL, ntsecpkg/SECPKG_MUTUAL_AUTH_LEVEL, security.secpkg_mutual_auth_level"
+ms.keywords: '*PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUTUAL_AUTH_LEVEL, PSECPKG_MUTUAL_AUTH_LEVEL structure pointer [Security], SECPKG_MUTUAL_AUTH_LEVEL, SECPKG_MUTUAL_AUTH_LEVEL structure [Security], _ssp_secpkg_mutual_auth_level, ntsecpkg/PSECPKG_MUTUAL_AUTH_LEVEL, ntsecpkg/SECPKG_MUTUAL_AUTH_LEVEL, security.secpkg_mutual_auth_level'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_MUTUAL_AUTH_LEVEL"
+f1_keywords:
+- ntsecpkg/SECPKG_MUTUAL_AUTH_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_MUTUAL_AUTH_LEVEL
+- SECPKG_MUTUAL_AUTH_LEVEL
 targetos: Windows
 req.typenames: SECPKG_MUTUAL_AUTH_LEVEL, *PSECPKG_MUTUAL_AUTH_LEVEL
 req.redist: 

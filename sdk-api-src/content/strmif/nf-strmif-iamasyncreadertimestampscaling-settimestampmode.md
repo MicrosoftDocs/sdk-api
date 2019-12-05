@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAsyncReaderTimestampScaling.SetTimestampMode
 title: IAMAsyncReaderTimestampScaling::SetTimestampMode (strmif.h)
-
 description: Sets the filter's time-stamping mode.
 old-location: dshow\iamasyncreadertimestampscaling_settimestampmode.htm
 tech.root: DirectShow
 ms.assetid: 7f556e26-049d-4024-95a2-c899be1ef180
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IAMAsyncReaderTimestampScaling interface [DirectShow],SetTimestampMode method, IAMAsyncReaderTimestampScaling.SetTimestampMode, IAMAsyncReaderTimestampScaling::SetTimestampMode, SetTimestampMode, SetTimestampMode method [DirectShow], SetTimestampMode method [DirectShow],IAMAsyncReaderTimestampScaling interface, TRUE, dshow.iamasyncreadertimestampscaling_settimestampmode, strmif/IAMAsyncReaderTimestampScaling::SetTimestampMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAsyncReaderTimestampScaling.SetTimestampMode"
+f1_keywords:
+- strmif/IAMAsyncReaderTimestampScaling.SetTimestampMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMAsyncReaderTimestampScaling.SetTimestampMode
+- IAMAsyncReaderTimestampScaling.SetTimestampMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.GetStateTextA
 title: GetStateTextA function (oleacc.h)
-
 description: Retrieves a localized string that describes an object's state for a single predefined state bit flag. Because state values are a combination of one or more bit flags, clients call this function more than once to retrieve all state strings.
 old-location: winauto\getstatetext.htm
 tech.root: WinAuto
 ms.assetid: 2a136883-870e-48c3-b182-1cdc64768894
-
 ms.date: 12/05/2018
 ms.keywords: GetStateText, GetStateText function [Windows Accessibility], GetStateTextA, GetStateTextW, _msaa_GetStateText, msaa.getstatetext, oleacc/GetStateText, oleacc/GetStateTextA, oleacc/GetStateTextW, winauto.getstatetext
 ms.topic: function
-f1_keywords: 
- - "oleacc/GetStateText"
+f1_keywords:
+- oleacc/GetStateText
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - GetStateText
- - GetStateTextA
- - GetStateTextW
+- GetStateText
+- GetStateTextA
+- GetStateTextW
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.get_FragmentDialect
 title: IWSManResourceLocator::get_FragmentDialect (wsmandisp.h)
-
 description: Gets or sets the language dialect for a resource fragment dialect when IWSManResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_fragmentdialect.htm
 tech.root: winrm
 ms.assetid: eb458fc4-ddcc-42a2-8dd3-05498e035de2
-
 ms.date: 12/05/2018
 ms.keywords: FragmentDialect property [Windows Remote Management], FragmentDialect property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],FragmentDialect property, IWSManResourceLocator.FragmentDialect, IWSManResourceLocator.get_FragmentDialect, IWSManResourceLocator::FragmentDialect, IWSManResourceLocator::get_FragmentDialect, IWSManResourceLocator::put_FragmentDialect, get_FragmentDialect, winrm.iwsmanresourcelocator_fragmentdialect, wsmandisp/IWSManResourceLocator::FragmentDialect, wsmandisp/IWSManResourceLocator::get_FragmentDialect, wsmandisp/IWSManResourceLocator::put_FragmentDialect
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManResourceLocator.FragmentDialect"
+f1_keywords:
+- wsmandisp/IWSManResourceLocator.FragmentDialect
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManResourceLocator.FragmentDialect
- - IWSManResourceLocator.get_FragmentDialect
- - IWSManResourceLocator.put_FragmentDialect
+- IWSManResourceLocator.FragmentDialect
+- IWSManResourceLocator.get_FragmentDialect
+- IWSManResourceLocator.put_FragmentDialect
 targetos: Windows
 req.typenames: 
 req.redist: 

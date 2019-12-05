@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_EditingMode
 title: IInkOverlay::put_EditingMode (msinkaut.h)
-
 description: Gets or sets a value that specifies whether the object/control is in ink mode, deletion mode, or selecting/editing mode.
 old-location: tablet\inkoverlay_editingmode.htm
 tech.root: tablet
 ms.assetid: 3b734da3-5784-4504-b22e-b86844d42f4e
-
 ms.date: 12/05/2018
 ms.keywords: 3b734da3-5784-4504-b22e-b86844d42f4e, EditingMode property [Tablet PC], EditingMode property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EditingMode property, IInkOverlay.EditingMode, IInkOverlay.put_EditingMode, IInkOverlay::EditingMode, IInkOverlay::get_EditingMode, IInkOverlay::put_EditingMode, InkOverlay.get_EditingMode, InkOverlay.put_EditingMode, get_EditingMode, msinkaut/IInkOverlay::EditingMode, msinkaut/IInkOverlay::get_EditingMode, msinkaut/IInkOverlay::put_EditingMode, put_EditingMode, tablet.inkoverlay_editingmode
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.EditingMode"
+f1_keywords:
+- msinkaut/IInkOverlay.EditingMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.EditingMode
- - IInkOverlay.get_EditingMode
- - IInkOverlay.put_EditingMode
- - InkOverlay.get_EditingMode
- - InkOverlay.put_EditingMode
+- IInkOverlay.EditingMode
+- IInkOverlay.get_EditingMode
+- IInkOverlay.put_EditingMode
+- InkOverlay.get_EditingMode
+- InkOverlay.put_EditingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

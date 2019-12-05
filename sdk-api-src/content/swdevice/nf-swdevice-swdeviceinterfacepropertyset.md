@@ -1,19 +1,17 @@
 ---
 UID: NF:swdevice.SwDeviceInterfacePropertySet
 title: SwDeviceInterfacePropertySet function (swdevice.h)
-
 description: Sets properties on a software device interface.
 old-location: swdevice\swdeviceinterfacepropertyset.htm
 tech.root: swdevice
 ms.assetid: 397E6CAB-EE99-4723-84DB-8C48859E39D8
-
 ms.date: 12/05/2018
 ms.keywords: SwDeviceInterfacePropertySet, SwDeviceInterfacePropertySet function, swdevice.swdeviceinterfacepropertyset, swdevice/SwDeviceInterfacePropertySet
 ms.topic: function
-f1_keywords: 
- - "swdevice/SwDeviceInterfacePropertySet"
+f1_keywords:
+- swdevice/SwDeviceInterfacePropertySet
 dev_langs:
- - c++
+- c++
 req.header: swdevice.h
 req.include-header: 
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Swdevice.lib; OneCoreUAP.lib on Windows 10
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
- - API-MS-Win-devices-swdevice-l1-1-0.dll
- - API-MS-Win-devices-swdevice-l1-1-1.dll
+- Cfgmgr32.dll
+- API-MS-Win-devices-swdevice-l1-1-0.dll
+- API-MS-Win-devices-swdevice-l1-1-1.dll
 api_name:
- - SwDeviceInterfacePropertySet
+- SwDeviceInterfacePropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

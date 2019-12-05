@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetProductPropertyW
 title: MsiGetProductPropertyW function (msi.h)
-
 description: The MsiGetProductProperty function retrieves product properties. These properties are in the product database.
 old-location: setup\msigetproductproperty.htm
 tech.root: Msi
 ms.assetid: 724f6034-c492-4bab-97dc-d9b2f75e9642
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetProductProperty, MsiGetProductProperty function, MsiGetProductPropertyA, MsiGetProductPropertyW, _msi_msigetproductproperty, msi/MsiGetProductProperty, msi/MsiGetProductPropertyA, msi/MsiGetProductPropertyW, setup.msigetproductproperty
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetProductProperty"
+f1_keywords:
+- msi/MsiGetProductProperty
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetProductProperty
- - MsiGetProductPropertyA
- - MsiGetProductPropertyW
+- MsiGetProductProperty
+- MsiGetProductPropertyA
+- MsiGetProductPropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:p2p.PFNPEER_VALIDATE_RECORD
 title: PFNPEER_VALIDATE_RECORD (p2p.h)
-
 description: The PFNPEER_VALIDATE_RECORD callback specifies the function that the Peer Graphing Infrastructure calls to validate records.
 old-location: p2p\pfnpeer_validate_record.htm
 tech.root: P2PSdk
 ms.assetid: 5d81f09b-e46b-43e6-b0a8-ed7c236f2968
-
 ms.date: 12/05/2018
 ms.keywords: PFNPEER_VALIDATE_RECORD, PFNPEER_VALIDATE_RECORD callback, PFNPEER_VALIDATE_RECORD callback function [Peer Networking], p2p.pfnpeer_validate_record, p2p/PFNPEER_VALIDATE_RECORD
 ms.topic: callback
-f1_keywords: 
- - "p2p/PFNPEER_VALIDATE_RECORD"
+f1_keywords:
+- p2p/PFNPEER_VALIDATE_RECORD
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PFNPEER_VALIDATE_RECORD
+- PFNPEER_VALIDATE_RECORD
 targetos: Windows
 req.typenames: 
 req.redist: 

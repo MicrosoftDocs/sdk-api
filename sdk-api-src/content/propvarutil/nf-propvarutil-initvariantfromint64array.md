@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromInt64Array
 title: InitVariantFromInt64Array function (propvarutil.h)
-
 description: Initializes a VARIANT structure with an array of 64-bit integer values.
 old-location: properties\InitVariantFromInt64Array.htm
 tech.root: properties
 ms.assetid: 18e9c804-b5e4-4abe-adcd-eaa402c6c94a
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromInt64Array, InitVariantFromInt64Array function [Windows Properties], _shell_InitVariantFromInt64Array, properties.InitVariantFromInt64Array, propvarutil/InitVariantFromInt64Array, shell.InitVariantFromInt64Array
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromInt64Array"
+f1_keywords:
+- propvarutil/InitVariantFromInt64Array
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitVariantFromInt64Array
+- InitVariantFromInt64Array
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

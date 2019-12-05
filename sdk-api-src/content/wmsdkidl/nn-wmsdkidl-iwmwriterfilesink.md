@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMWriterFileSink
 title: IWMWriterFileSink (wmsdkidl.h)
-
 description: The IWMWriterFileSink interface is used to open a file to which the writer can write data. The file sink object exposes this interface. To create the file sink object, call the WMCreateWriterFileSink function.
 old-location: wmformat\iwmwriterfilesink.htm
 tech.root: wmformat
 ms.assetid: af47b130-353e-411d-8432-09ecd20a70d2
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink, IWMWriterFileSink interface [windows Media Format], IWMWriterFileSink interface [windows Media Format],described, IWMWriterFileSinkInterface, wmformat.iwmwriterfilesink, wmsdkidl/IWMWriterFileSink
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMWriterFileSink
+- IWMWriterFileSink
 targetos: Windows
 req.typenames: 
 req.redist: 

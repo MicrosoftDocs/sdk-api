@@ -1,19 +1,17 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.CapabilitiesRequestAndCapabilitiesReply
 title: CapabilitiesRequestAndCapabilitiesReply function (lowlevelmonitorconfigurationapi.h)
-
 description: Retrieves a string describing a monitor's capabilities.
 old-location: monitor\capabilitiesrequestandcapabilitiesreply.htm
 tech.root: Monitor
 ms.assetid: 1e556f66-a77a-43f3-b54f-d14995d841f8
-
 ms.date: 12/05/2018
 ms.keywords: CapabilitiesRequestAndCapabilitiesReply, CapabilitiesRequestAndCapabilitiesReply function [Monitor Configuration], lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply, monitor.capabilitiesrequestandcapabilitiesreply
 ms.topic: function
-f1_keywords: 
- - "lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply"
+f1_keywords:
+- lowlevelmonitorconfigurationapi/CapabilitiesRequestAndCapabilitiesReply
 dev_langs:
- - c++
+- c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - CapabilitiesRequestAndCapabilitiesReply
+- CapabilitiesRequestAndCapabilitiesReply
 targetos: Windows
 req.typenames: 
 req.redist: 

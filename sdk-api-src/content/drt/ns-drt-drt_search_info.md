@@ -1,19 +1,17 @@
 ---
 UID: NS:drt.drt_search_info_tag
 title: DRT_SEARCH_INFO (drt.h)
-
 description: DRT_SEARCH_INFO structure represents a search query issued with DrtStartSearch.
 old-location: p2p\drt_search_info.htm
 tech.root: P2PSdk
 ms.assetid: a3f12d8a-95ef-4168-8d2d-c317ae2c57b4
-
 ms.date: 12/05/2018
-ms.keywords: "*PDRT_SEARCH_INFO, DRT_SEARCH_INFO, DRT_SEARCH_INFO structure [Peer Networking], PDRT_SEARCH_INFO, PDRT_SEARCH_INFO structure pointer [Peer Networking], drt/DRT_SEARCH_INFO, drt/PDRT_SEARCH_INFO, p2p.drt_search_info"
+ms.keywords: '*PDRT_SEARCH_INFO, DRT_SEARCH_INFO, DRT_SEARCH_INFO structure [Peer Networking], PDRT_SEARCH_INFO, PDRT_SEARCH_INFO structure pointer [Peer Networking], drt/DRT_SEARCH_INFO, drt/PDRT_SEARCH_INFO, p2p.drt_search_info'
 ms.topic: struct
-f1_keywords: 
- - "drt/DRT_SEARCH_INFO"
+f1_keywords:
+- drt/DRT_SEARCH_INFO
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - drt.h
+- drt.h
 api_name:
- - DRT_SEARCH_INFO
+- DRT_SEARCH_INFO
 targetos: Windows
 req.typenames: DRT_SEARCH_INFO, *PDRT_SEARCH_INFO
 req.redist: 

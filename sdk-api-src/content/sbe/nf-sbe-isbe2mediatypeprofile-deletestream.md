@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.DeleteStream
 title: ISBE2MediaTypeProfile::DeleteStream (sbe.h)
-
 description: Removes a stream from a media type profile.
 old-location: mstv\isbe2mediatypeprofile_deletestream.htm
 tech.root: mstv
 ms.assetid: 83e8b802-d28f-4130-addf-772682ac327f
-
 ms.date: 12/05/2018
 ms.keywords: DeleteStream, DeleteStream method [Microsoft TV Technologies], DeleteStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],DeleteStream method, ISBE2MediaTypeProfile.DeleteStream, ISBE2MediaTypeProfile::DeleteStream, mstv.isbe2mediatypeprofile_deletestream, sbe/ISBE2MediaTypeProfile::DeleteStream
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2MediaTypeProfile.DeleteStream"
+f1_keywords:
+- sbe/ISBE2MediaTypeProfile.DeleteStream
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sbe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.dll
+- sbe.dll
 api_name:
- - ISBE2MediaTypeProfile.DeleteStream
+- ISBE2MediaTypeProfile.DeleteStream
 targetos: Windows
 req.typenames: 
 req.redist: 

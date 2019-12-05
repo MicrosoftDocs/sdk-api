@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.RESUTIL_LARGEINT_DATA
 title: RESUTIL_LARGEINT_DATA (resapi.h)
-
 description: Describes the default, maximum, and minimum values allowed for a signed large integer.
 old-location: mscs\resutil_largeint_data.htm
 tech.root: MsCS
 ms.assetid: 2498a771-f430-4faa-81c8-78d56905d18b
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_LARGEINT_DATA, RESUTIL_LARGEINT_DATA structure [Failover Cluster], _wolf_resutil_largeint_data, mscs.resutil_largeint_data, resapi/PRESUTIL_LARGEINT_DATA, resapi/RESUTIL_LARGEINT_DATA"
+ms.keywords: '*PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA, PRESUTIL_LARGEINT_DATA structure pointer [Failover Cluster], RESUTIL_LARGEINT_DATA, RESUTIL_LARGEINT_DATA structure [Failover Cluster], _wolf_resutil_largeint_data, mscs.resutil_largeint_data, resapi/PRESUTIL_LARGEINT_DATA, resapi/RESUTIL_LARGEINT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "resapi/RESUTIL_LARGEINT_DATA"
+f1_keywords:
+- resapi/RESUTIL_LARGEINT_DATA
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - RESUTIL_LARGEINT_DATA
+- RESUTIL_LARGEINT_DATA
 targetos: Windows
 req.typenames: RESUTIL_LARGEINT_DATA, *PRESUTIL_LARGEINT_DATA
 req.redist: 

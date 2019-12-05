@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCapture
 title: IAdvancedMediaCapture (mfmediacapture.h)
-
 description: Enables advanced media capture.
 old-location: mf\iadvancedmediacapture.htm
 tech.root: medfound
 ms.assetid: 932b0cbf-c264-4c3b-b143-023dd7f809f1
-
 ms.date: 12/05/2018
 ms.keywords: IAdvancedMediaCapture, IAdvancedMediaCapture interface [Media Foundation], IAdvancedMediaCapture interface [Media Foundation],described, mf.iadvancedmediacapture, mfmediacapture/IAdvancedMediaCapture
 ms.topic: interface
-f1_keywords: 
- - "mfmediacapture/IAdvancedMediaCapture"
+f1_keywords:
+- mfmediacapture/IAdvancedMediaCapture
 dev_langs:
- - c++
+- c++
 req.header: mfmediacapture.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfmediacapture.h
+- Mfmediacapture.h
 api_name:
- - IAdvancedMediaCapture
+- IAdvancedMediaCapture
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetInformation
 title: IMultiMediaStream::GetInformation (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetInformation method retrieves the capabilities of the multimedia stream object.
 old-location: dshow\imultimediastream_getinformation.htm
 tech.root: DirectShow
 ms.assetid: 27be6104-9ca4-48d7-aeda-5b633460e252
-
 ms.date: 12/05/2018
 ms.keywords: GetInformation, GetInformation method [DirectShow], GetInformation method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetInformation method, IMultiMediaStream.GetInformation, IMultiMediaStream::GetInformation, IMultiMediaStreamGetInformation, dshow.imultimediastream_getinformation, mmstream/IMultiMediaStream::GetInformation
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMultiMediaStream.GetInformation"
+f1_keywords:
+- mmstream/IMultiMediaStream.GetInformation
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMultiMediaStream.GetInformation
+- IMultiMediaStream.GetInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

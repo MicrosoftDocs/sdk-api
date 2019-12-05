@@ -1,19 +1,17 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_ELEMENT
 title: RECO_LATTICE_ELEMENT (rectypes.h)
-
 description: Corresponds to one word or one East Asian character, typically; however, an element may also correspond to a gesture, a shape, or some other code.
 old-location: tablet\reco_lattice_element.htm
 tech.root: tablet
 ms.assetid: c4100cb9-d666-4e74-ac12-7f242b3c60d4
-
 ms.date: 12/05/2018
 ms.keywords: RECO_LATTICE_ELEMENT, RECO_LATTICE_ELEMENT structure [Tablet PC], c4100cb9-d666-4e74-ac12-7f242b3c60d4, rectypes/RECO_LATTICE_ELEMENT, tablet.reco_lattice_element
 ms.topic: struct
-f1_keywords: 
- - "rectypes/RECO_LATTICE_ELEMENT"
+f1_keywords:
+- rectypes/RECO_LATTICE_ELEMENT
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - RECO_LATTICE_ELEMENT
+- RECO_LATTICE_ELEMENT
 targetos: Windows
 req.typenames: RECO_LATTICE_ELEMENT
 req.redist: 

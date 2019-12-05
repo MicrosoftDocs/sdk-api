@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.DWordPtrSub
 title: DWordPtrSub function (intsafe.h)
-
 description: Subtracts one value of type DWORD_PTR from another.
 old-location: shell\DWordPtrSub.htm
 tech.root: shell
 ms.assetid: cfe9ec32-ed6a-42fa-9891-3ce2e88cd5d0
-
 ms.date: 12/05/2018
 ms.keywords: DWordPtrSub, DWordPtrSub function [Windows Shell], _shell_DWordPtrSub, intsafe/DWordPtrSub, shell.DWordPtrSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/DWordPtrSub"
+f1_keywords:
+- intsafe/DWordPtrSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: None
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - None
+- None
 api_name:
- - DWordPtrSub
+- DWordPtrSub
 targetos: Windows
 req.typenames: 
 req.redist: 

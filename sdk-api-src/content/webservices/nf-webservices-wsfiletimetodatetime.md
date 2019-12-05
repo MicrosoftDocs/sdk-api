@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFileTimeToDateTime
 title: WsFileTimeToDateTime function (webservices.h)
-
 description: Takes a reference to a FILETIME object and converts it into a WS_DATETIME object. A reference to the WS_DATETIME object is returned by output parameter.
 old-location: wsw\wsfiletimetodatetime.htm
 tech.root: wsw
 ms.assetid: 75a547f8-c8dc-47c3-97c9-2a39b046263f
-
 ms.date: 12/05/2018
 ms.keywords: WsFileTimeToDateTime, WsFileTimeToDateTime function [Web Services for Windows], webservices/WsFileTimeToDateTime, wsw.wsfiletimetodatetime
 ms.topic: function
 f1_keywords:
 - webservices/WsFileTimeToDateTime
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

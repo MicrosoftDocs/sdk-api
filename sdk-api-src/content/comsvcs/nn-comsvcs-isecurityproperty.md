@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISecurityProperty
 title: ISecurityProperty (comsvcs.h)
-
 description: Determines the security identifier of the current object's original caller or direct caller. However, the preferred way to get information about an object's callers is to use the ISecurityCallContext interface.
 old-location: cos\isecurityproperty.htm
 tech.root: cossdk
 ms.assetid: 116715a5-a3e1-48aa-b155-107ea330b7ee
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityProperty, ISecurityProperty interface [COM+], ISecurityProperty interface [COM+],described, _cos_ISecurityProperty, comsvcs/ISecurityProperty, cos.isecurityproperty
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISecurityProperty"
+f1_keywords:
+- comsvcs/ISecurityProperty
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityProperty
+- ISecurityProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

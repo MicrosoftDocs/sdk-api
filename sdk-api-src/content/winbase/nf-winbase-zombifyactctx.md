@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ZombifyActCtx
 title: ZombifyActCtx function (winbase.h)
-
 description: The ZombifyActCtx function deactivates the specified activation context, but does not deallocate it.
 old-location: setup\zombifyactctx.htm
 tech.root: SbsCs
 ms.assetid: f421350a-66b5-4c5a-9e4c-ef69dbe39e7c
-
 ms.date: 12/05/2018
 ms.keywords: ZombifyActCtx, ZombifyActCtx function [Side-by-side Assemblies], _win32_zombifyactctx, setup.zombifyactctx, winbase/ZombifyActCtx
 ms.topic: function
-f1_keywords: 
- - "winbase/ZombifyActCtx"
+f1_keywords:
+- winbase/ZombifyActCtx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - ZombifyActCtx
+- ZombifyActCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

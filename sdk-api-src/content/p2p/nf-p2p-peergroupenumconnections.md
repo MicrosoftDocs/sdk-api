@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupEnumConnections
 title: PeerGroupEnumConnections function (p2p.h)
-
 description: The PeerGroupEnumConnections function creates an enumeration of connections currently active on the peer.
 old-location: p2p\peergroupenumconnections.htm
 tech.root: P2PSdk
 ms.assetid: 84a26066-3d6a-44c8-86a1-b3f997c17739
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupEnumConnections, PeerGroupEnumConnections function [Peer Networking], p2p.peergroupenumconnections, p2p/PeerGroupEnumConnections
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupEnumConnections"
+f1_keywords:
+- p2p/PeerGroupEnumConnections
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupEnumConnections
+- PeerGroupEnumConnections
 targetos: Windows
 req.typenames: 
 req.redist: 

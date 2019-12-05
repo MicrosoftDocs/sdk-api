@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_8
 title: FILTER_SPEC (lpmapi.h)
-
 description: The FILTER_SPEC structure stores information about an RSVP FILTERSPEC.
 old-location: qos\filter_spec.htm
 tech.root: QOS
 ms.assetid: 72d08944-7ac9-496f-a18b-e6fcddb59c56
-
 ms.date: 12/05/2018
 ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/FILTER_SPEC, qos.filter_spec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/FILTER_SPEC"
+f1_keywords:
+- lpmapi/FILTER_SPEC
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - FILTER_SPEC
+- FILTER_SPEC
 targetos: Windows
 req.typenames: FILTER_SPEC
 req.redist: 

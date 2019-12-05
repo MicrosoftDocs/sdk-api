@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IStringCollection
 title: IStringCollection (wuapi.h)
-
 description: Represents an ordered list of strings.
 old-location: wua\istringcollection.htm
 tech.root: Wua_Sdk
 ms.assetid: 3aaab669-1f80-41ee-8c29-6da613ebccff
-
 ms.date: 12/05/2018
 ms.keywords: IStringCollection, IStringCollection interface [Windows Update Agent], IStringCollection interface [Windows Update Agent],described, wua.istringcollection, wuapi/IStringCollection
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IStringCollection"
+f1_keywords:
+- wuapi/IStringCollection
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection
+- IStringCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

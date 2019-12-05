@@ -1,19 +1,17 @@
 ---
 UID: NF:fibersapi.FlsGetValue
 title: FlsGetValue function
-
 description: Retrieves the value in the calling fiber's fiber local storage (FLS) slot for the specified FLS index. Each fiber has its own slot for each FLS index.
 old-location: base\flsgetvalue.htm
 tech.root: ProcThread
 ms.assetid: 5d5a1fe6-10ed-42c5-87db-b24eef6f174c
-
 ms.date: 12/05/2018
 ms.keywords: FlsGetValue, FlsGetValue function, _win32_flsgetvalue, base.flsgetvalue, fibersapi/FlsGetValue, winbase/FlsGetValue
 ms.topic: function
-f1_keywords: 
- - "fibersapi/FlsGetValue"
+f1_keywords:
+- fibersapi/FlsGetValue
 dev_langs:
- - c++
+- c++
 req.header: fibersapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-fibers-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-fibers-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - FlsGetValue
+- FlsGetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

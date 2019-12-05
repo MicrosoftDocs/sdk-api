@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.SplitSymbols
 title: SplitSymbols function (imagehlp.h)
-
 description: Strips symbols from the specified image.
 old-location: base\splitsymbols.htm
 tech.root: Debug
 ms.assetid: b9b940ce-8349-472e-b802-b477bd195b63
-
 ms.date: 12/05/2018
 ms.keywords: SPLITSYM_EXTRACT_ALL, SPLITSYM_REMOVE_PRIVATE, SPLITSYM_SYMBOLPATH_IS_SRC, SplitSymbols, SplitSymbols function, _win32_splitsymbols, base.splitsymbols, imagehlp/SplitSymbols
 ms.topic: function
-f1_keywords: 
- - "imagehlp/SplitSymbols"
+f1_keywords:
+- imagehlp/SplitSymbols
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - SplitSymbols
+- SplitSymbols
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.IsEqualEnd
 title: ITfRange::IsEqualEnd (msctf.h)
-
 description: The ITfRange::IsEqualStart method verifies that the end anchor of this range of text matches an anchor of another specified range.
 old-location: tsf\itfrange_isequalend.htm
 tech.root: TSF
 ms.assetid: 03b87230-457f-4483-a183-d8a8cc7cead4
-
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],IsEqualEnd method, ITfRange.IsEqualEnd, ITfRange::IsEqualEnd, IsEqualEnd, IsEqualEnd method [Text Services Framework], IsEqualEnd method [Text Services Framework],ITfRange interface, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_isequalend_ref, msctf/ITfRange::IsEqualEnd, tsf.itfrange_isequalend
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.IsEqualEnd"
+f1_keywords:
+- msctf/ITfRange.IsEqualEnd
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.IsEqualEnd
+- ITfRange.IsEqualEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

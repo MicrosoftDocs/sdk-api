@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagIpv4Address
 title: Ipv4Address (naptypes.h)
-
 description: Defines an IPv4 address.
 old-location: nap\ipv4address_struct.htm
 tech.root: NAP
 ms.assetid: 75f1c6db-c1d5-46dd-b455-ffe49af921d2
-
 ms.date: 12/05/2018
 ms.keywords: Ipv4Address, Ipv4Address structure [NAP], nap.ipv4address_struct, naptypes/Ipv4Address
 ms.topic: struct
-f1_keywords: 
- - "naptypes/Ipv4Address"
+f1_keywords:
+- naptypes/Ipv4Address
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - Ipv4Address
+- Ipv4Address
 targetos: Windows
 req.typenames: Ipv4Address
 req.redist: 

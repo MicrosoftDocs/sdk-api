@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFAttributes.UnlockStore
 title: IMFAttributes::UnlockStore (mfobjects.h)
-
 description: Unlocks the attribute store after a call to the IMFAttributes::LockStore method. While the object is unlocked, multiple threads can access the object's attributes.
 old-location: mf\imfattributes_unlockstore.htm
 tech.root: medfound
 ms.assetid: 65e35864-868a-4ae9-86ed-772a2b2daeb6
-
 ms.date: 12/05/2018
 ms.keywords: 65e35864-868a-4ae9-86ed-772a2b2daeb6, IMFAttributes interface [Media Foundation],UnlockStore method, IMFAttributes.UnlockStore, IMFAttributes::UnlockStore, UnlockStore, UnlockStore method [Media Foundation], UnlockStore method [Media Foundation],IMFAttributes interface, mf.imfattributes_unlockstore, mfobjects/IMFAttributes::UnlockStore
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFAttributes.UnlockStore"
+f1_keywords:
+- mfobjects/IMFAttributes.UnlockStore
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAttributes.UnlockStore
+- IMFAttributes.UnlockStore
 targetos: Windows
 req.typenames: 
 req.redist: 

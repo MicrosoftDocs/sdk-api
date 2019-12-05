@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IExtendPropertySheet2
 title: IExtendPropertySheet2 (mmc.h)
-
 description: The IExtendPropertySheet2 interface is introduced in MMC 1.1.
 old-location: mmc\iextendpropertysheet2.htm
 tech.root: mmc
 ms.assetid: 9beb0a0a-b3bf-46d0-b10c-0fc3ab25c18d
-
 ms.date: 12/05/2018
 ms.keywords: IExtendPropertySheet2, IExtendPropertySheet2 interface [MMC], IExtendPropertySheet2 interface [MMC],described, _slate_iextendpropertysheet2, mmc.iextendpropertysheet2, mmc/IExtendPropertySheet2
 ms.topic: interface
-f1_keywords: 
- - "mmc/IExtendPropertySheet2"
+f1_keywords:
+- mmc/IExtendPropertySheet2
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendPropertySheet2
+- IExtendPropertySheet2
 targetos: Windows
 req.typenames: 
 req.redist: 

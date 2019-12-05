@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleContainer.EnumObjects
 title: IOleContainer::EnumObjects (oleidl.h)
-
 description: Enumerates the objects in the current container.
 old-location: com\iolecontainer_enumobjects.htm
 tech.root: com
 ms.assetid: 7d825c71-506c-4fd3-ab48-6006f2858d05
-
 ms.date: 12/05/2018
 ms.keywords: EnumObjects, EnumObjects method [COM], EnumObjects method [COM],IOleContainer interface, IOleContainer interface [COM],EnumObjects method, IOleContainer.EnumObjects, IOleContainer::EnumObjects, _ole_iolecontainer_enumobjects, com.iolecontainer_enumobjects, oleidl/IOleContainer::EnumObjects
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleContainer.EnumObjects"
+f1_keywords:
+- oleidl/IOleContainer.EnumObjects
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleContainer.EnumObjects
+- IOleContainer.EnumObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

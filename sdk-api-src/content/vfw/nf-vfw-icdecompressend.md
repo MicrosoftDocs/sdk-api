@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDecompressEnd
 title: ICDecompressEnd macro (vfw.h)
-
 description: The ICDecompressEnd macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the ICM_DECOMPRESS_END message.
 old-location: multimedia\icdecompressend.htm
 tech.root: Multimedia
 ms.assetid: 9d66174a-b6bd-4bcd-a88a-bb1876bbc510
-
 ms.date: 12/05/2018
 ms.keywords: ICDecompressEnd, ICDecompressEnd macro [Windows Multimedia], _win32_ICDecompressEnd, multimedia.icdecompressend, vfw/ICDecompressEnd
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDecompressEnd"
+f1_keywords:
+- vfw/ICDecompressEnd
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDecompressEnd
+- ICDecompressEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

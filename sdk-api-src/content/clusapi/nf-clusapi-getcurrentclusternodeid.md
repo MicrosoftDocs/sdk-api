@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.GetCurrentClusterNodeId
 title: GetCurrentClusterNodeId macro (clusapi.h)
-
 description: Returns the unique identifier of the current cluster node.
 old-location: mscs\getcurrentclusternodeid.htm
 tech.root: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentClusterNodeId, GetCurrentClusterNodeId macro [Failover Cluster], clusapi/GetCurrentClusterNodeId, mscs.getcurrentclusternodeid
 ms.topic: macro
-f1_keywords: 
- - "clusapi/GetCurrentClusterNodeId"
+f1_keywords:
+- clusapi/GetCurrentClusterNodeId
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - GetCurrentClusterNodeId
+- GetCurrentClusterNodeId
 targetos: Windows
 req.typenames: 
 req.redist: 

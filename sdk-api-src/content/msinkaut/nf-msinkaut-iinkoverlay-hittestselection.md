@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.HitTestSelection
 title: IInkOverlay::HitTestSelection (msinkaut.h)
-
 description: Determines what portion of the selection was hit during a hit test.
 old-location: tablet\inkoverlay_hittestselection.htm
 tech.root: tablet
 ms.assetid: 289589fa-84da-40b3-b60e-551ef0114279
-
 ms.date: 12/05/2018
 ms.keywords: 289589fa-84da-40b3-b60e-551ef0114279, HitTestSelection, HitTestSelection method [Tablet PC], HitTestSelection method [Tablet PC],IInkOverlay interface, IInkOverlay, IInkOverlay interface [Tablet PC],HitTestSelection method, IInkOverlay.HitTestSelection, IInkOverlay::HitTestSelection, msinkaut/IInkOverlay::HitTestSelection, tablet.inkoverlay_hittestselection
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.HitTestSelection"
+f1_keywords:
+- msinkaut/IInkOverlay.HitTestSelection
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.HitTestSelection
+- IInkOverlay.HitTestSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

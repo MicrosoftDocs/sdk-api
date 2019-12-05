@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegEnumKeyA
 title: RegEnumKeyA function (winreg.h)
-
 description: Enumerates the subkeys of the specified open registry key.
 old-location: base\regenumkey.htm
 tech.root: SysInfo
 ms.assetid: 18a05c60-6c6d-438f-9003-f07d688d86a3
-
 ms.date: 12/05/2018
 ms.keywords: RegEnumKey, RegEnumKey function, RegEnumKeyA, RegEnumKeyW, _win32_regenumkey, base.regenumkey, winreg/RegEnumKey, winreg/RegEnumKeyA, winreg/RegEnumKeyW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegEnumKey"
+f1_keywords:
+- winreg/RegEnumKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegEnumKey
- - RegEnumKeyA
- - RegEnumKeyW
+- RegEnumKey
+- RegEnumKeyA
+- RegEnumKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0023_0001
 title: ADS_GROUP_TYPE_ENUM (iads.h)
-
 description: Specifies the type of group objects in ADSI.
 old-location: adsi\ads_group_type_enum.htm
 tech.root: adsi
 ms.assetid: c046ffbf-15e2-44d7-a997-f992c6289bcd
-
 ms.date: 12/05/2018
 ms.keywords: ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, ADS_GROUP_TYPE_ENUM, ADS_GROUP_TYPE_ENUM enumeration [ADSI], ADS_GROUP_TYPE_GLOBAL_GROUP, ADS_GROUP_TYPE_LOCAL_GROUP, ADS_GROUP_TYPE_SECURITY_ENABLED, ADS_GROUP_TYPE_UNIVERSAL_GROUP, _ds_ads_group_type_enum, adsi.ads__group__type__enum, adsi.ads_group_type_enum, iads/ADS_GROUP_TYPE_DOMAIN_LOCAL_GROUP, iads/ADS_GROUP_TYPE_ENUM, iads/ADS_GROUP_TYPE_GLOBAL_GROUP, iads/ADS_GROUP_TYPE_LOCAL_GROUP, iads/ADS_GROUP_TYPE_SECURITY_ENABLED, iads/ADS_GROUP_TYPE_UNIVERSAL_GROUP
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_GROUP_TYPE_ENUM"
+f1_keywords:
+- iads/ADS_GROUP_TYPE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_GROUP_TYPE_ENUM
+- ADS_GROUP_TYPE_ENUM
 targetos: Windows
 req.typenames: ADS_GROUP_TYPE_ENUM
 req.redist: 

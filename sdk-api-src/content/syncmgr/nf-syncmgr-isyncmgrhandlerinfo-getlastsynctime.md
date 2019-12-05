@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.GetLastSyncTime
 title: ISyncMgrHandlerInfo::GetLastSyncTime (syncmgr.h)
-
 description: Gets the date and time when the handler was last synchronized.
 old-location: shell\ISyncMgrHandlerInfo_GetLastSyncTime.htm
 tech.root: shell
 ms.assetid: 12b670e1-2da1-4a67-bff0-6945b13c3335
-
 ms.date: 12/05/2018
 ms.keywords: GetLastSyncTime, GetLastSyncTime method [Windows Shell], GetLastSyncTime method [Windows Shell],ISyncMgrHandlerInfo interface, ISyncMgrHandlerInfo interface [Windows Shell],GetLastSyncTime method, ISyncMgrHandlerInfo.GetLastSyncTime, ISyncMgrHandlerInfo::GetLastSyncTime, _shell_ISyncMgrHandlerInfo_GetLastSyncTime, shell.ISyncMgrHandlerInfo_GetLastSyncTime, syncmgr/ISyncMgrHandlerInfo::GetLastSyncTime
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandlerInfo.GetLastSyncTime"
+f1_keywords:
+- syncmgr/ISyncMgrHandlerInfo.GetLastSyncTime
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo.GetLastSyncTime
+- ISyncMgrHandlerInfo.GetLastSyncTime
 targetos: Windows
 req.typenames: 
 req.redist: 

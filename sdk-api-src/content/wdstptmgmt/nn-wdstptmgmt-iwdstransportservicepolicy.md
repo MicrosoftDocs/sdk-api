@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportServicePolicy
 title: IWdsTransportServicePolicy (wdstptmgmt.h)
-
 description: Represents the service policy part of the WDS transport server's configuration.
 old-location: wds\iwdstransportservicepolicy.htm
 tech.root: wds
 ms.assetid: 0a522633-87da-426c-9778-30949257e931
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy, IWdsTransportServicePolicy interface [Windows Deployment Services], IWdsTransportServicePolicy interface [Windows Deployment Services],described, wds.iwdstransportservicepolicy, wdstptmgmt/IWdsTransportServicePolicy
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy
+- IWdsTransportServicePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

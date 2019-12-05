@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMVideoDecoderHurryup.GetHurryup
 title: IWMVideoDecoderHurryup::GetHurryup (wmcodecdsp.h)
-
 description: Retrieves the current speed mode of the video decoder.
 old-location: mf\iwmvideodecoderhurryupgethurryup.htm
 tech.root: medfound
 ms.assetid: c5c58acd-ebf9-46ce-977b-1478b42559c4
-
 ms.date: 12/05/2018
 ms.keywords: GetHurryup, GetHurryup method [Media Foundation], GetHurryup method [Media Foundation],IWMVideoDecoderHurryup interface, IWMVideoDecoderHurryup interface [Media Foundation],GetHurryup method, IWMVideoDecoderHurryup.GetHurryup, IWMVideoDecoderHurryup::GetHurryup, codecapi.iwmvideodecoderhurryupgethurryup, mf.iwmvideodecoderhurryupgethurryup, wmcodecdsp/IWMVideoDecoderHurryup::GetHurryup
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMVideoDecoderHurryup.GetHurryup"
+f1_keywords:
+- wmcodecdsp/IWMVideoDecoderHurryup.GetHurryup
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMVideoDecoderHurryup.GetHurryup
+- IWMVideoDecoderHurryup.GetHurryup
 targetos: Windows
 req.typenames: 
 req.redist: 

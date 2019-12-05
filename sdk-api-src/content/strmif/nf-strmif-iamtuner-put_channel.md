@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.put_Channel
 title: IAMTuner::put_Channel (strmif.h)
-
 description: The put_Channel method sets the TV channel.
 old-location: dshow\iamtuner_put_channel.htm
 tech.root: DirectShow
 ms.assetid: 47ad4288-d855-41cd-b8a2-7b3733a87b41
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],put_Channel method, IAMTuner.put_Channel, IAMTuner::put_Channel, IAMTunerput_Channel, dshow.iamtuner_put_channel, put_Channel, put_Channel method [DirectShow], put_Channel method [DirectShow],IAMTuner interface, strmif/IAMTuner::put_Channel
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.put_Channel"
+f1_keywords:
+- strmif/IAMTuner.put_Channel
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.put_Channel
+- IAMTuner.put_Channel
 targetos: Windows
 req.typenames: 
 req.redist: 

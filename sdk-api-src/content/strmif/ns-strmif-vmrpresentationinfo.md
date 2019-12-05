@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagVMRPRESENTATIONINFO
 title: VMRPRESENTATIONINFO (strmif.h)
-
 description: The VMRPRESENTATIONINFO structure is used in the IVMRImagePresenter::PresentImage method (VMR-7 only).
 old-location: dshow\vmrpresentationinfo.htm
 tech.root: DirectShow
 ms.assetid: cddbe3de-c5e2-4161-801f-f3497714922c
-
 ms.date: 12/05/2018
 ms.keywords: VMRPRESENTATIONINFO, VMRPRESENTATIONINFO structure [DirectShow], VMRPRESENTATIONINFOStructure, dshow.vmrpresentationinfo, strmif/VMRPRESENTATIONINFO
 ms.topic: struct
-f1_keywords: 
- - "strmif/VMRPRESENTATIONINFO"
+f1_keywords:
+- strmif/VMRPRESENTATIONINFO
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRPRESENTATIONINFO
+- VMRPRESENTATIONINFO
 targetos: Windows
 req.typenames: VMRPRESENTATIONINFO
 req.redist: 

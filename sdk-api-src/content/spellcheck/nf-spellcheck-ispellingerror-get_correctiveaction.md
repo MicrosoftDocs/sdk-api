@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_CorrectiveAction
 title: ISpellingError::get_CorrectiveAction (spellcheck.h)
-
 description: Indicates which corrective action should be taken for the spelling error.
 old-location: intl\ispellingerror_correctiveaction.htm
 tech.root: Intl
 ms.assetid: 9b28d194-01a3-4ea2-8428-d2e91e6abad8
-
 ms.date: 12/05/2018
 ms.keywords: CorrectiveAction property [Internationalization for Windows Applications], CorrectiveAction property [Internationalization for Windows Applications],ISpellingError interface, ISpellingError interface [Internationalization for Windows Applications],CorrectiveAction property, ISpellingError.CorrectiveAction, ISpellingError.get_CorrectiveAction, ISpellingError::CorrectiveAction, ISpellingError::get_CorrectiveAction, get_CorrectiveAction, intl.ispellingerror_correctiveaction, spellcheck/ISpellingError::CorrectiveAction, spellcheck/ISpellingError::get_CorrectiveAction
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellingError.CorrectiveAction"
+f1_keywords:
+- spellcheck/ISpellingError.CorrectiveAction
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellingError.CorrectiveAction
- - ISpellingError.get_CorrectiveAction
+- ISpellingError.CorrectiveAction
+- ISpellingError.get_CorrectiveAction
 targetos: Windows
 req.typenames: 
 req.redist: 

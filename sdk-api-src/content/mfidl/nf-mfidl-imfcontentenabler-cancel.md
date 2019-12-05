@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFContentEnabler.Cancel
 title: IMFContentEnabler::Cancel (mfidl.h)
-
 description: Cancels a pending content enabling action.
 old-location: mf\imfcontentenabler_cancel.htm
 tech.root: medfound
 ms.assetid: e273b702-1f42-4aeb-9259-778d3f206682
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Media Foundation], Cancel method [Media Foundation],IMFContentEnabler interface, IMFContentEnabler interface [Media Foundation],Cancel method, IMFContentEnabler.Cancel, IMFContentEnabler::Cancel, e273b702-1f42-4aeb-9259-778d3f206682, mf.imfcontentenabler_cancel, mfidl/IMFContentEnabler::Cancel
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFContentEnabler.Cancel"
+f1_keywords:
+- mfidl/IMFContentEnabler.Cancel
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentEnabler.Cancel
+- IMFContentEnabler.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

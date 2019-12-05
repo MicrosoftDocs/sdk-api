@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusterEncrypt
 title: ClusterEncrypt function (resapi.h)
-
 description: Encrypts Checkpointing data for a Cryptographic Service Provider (CSP).
 old-location: mscs\clusterencrypt.htm
 tech.root: MsCS
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87
-
 ms.date: 12/05/2018
 ms.keywords: ClusterEncrypt, ClusterEncrypt function [Failover Cluster], PCLUSTER_ENCRYPT, PCLUSTER_ENCRYPT function [Failover Cluster], mscs.clusterencrypt, resapi/ClusterEncrypt, resapi/PCLUSTER_ENCRYPT
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusterEncrypt"
+f1_keywords:
+- resapi/ClusterEncrypt
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ClusterEncrypt
+- ClusterEncrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

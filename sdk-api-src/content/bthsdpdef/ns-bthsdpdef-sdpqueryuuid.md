@@ -1,19 +1,17 @@
 ---
 UID: NS:bthsdpdef._SdpQueryUuid
 title: SdpQueryUuid (bthsdpdef.h)
-
 description: The SdpQueryUuid structure facilitates searching for UUIDs.
 old-location: bluetooth\sdpqueryuuid.htm
 tech.root: bluetooth
 ms.assetid: 8c67b1b1-d289-4273-a512-589b19cd1f85
-
 ms.date: 12/05/2018
 ms.keywords: SdpQueryUuid, SdpQueryUuid structure [Bluetooth], bluetooth.sdpqueryuuid, bthsdpdef/SdpQueryUuid
 ms.topic: struct
 f1_keywords:
 - bthsdpdef/SdpQueryUuid
 dev_langs:
- - c++
+- c++
 req.header: bthsdpdef.h
 req.include-header: 
 req.target-type: Windows

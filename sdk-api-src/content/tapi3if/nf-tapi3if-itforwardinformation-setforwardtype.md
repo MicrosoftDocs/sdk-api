@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.SetForwardType
 title: ITForwardInformation::SetForwardType (tapi3if.h)
-
 description: The SetForwardType method sets the forwarding mode and destination by caller address.
 old-location: tapi3\itforwardinformation_setforwardtype.htm
 tech.root: Tapi
 ms.assetid: 5f7972a8-c9b0-4033-8b00-a107a513ee66
-
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],SetForwardType method, ITForwardInformation.SetForwardType, ITForwardInformation::SetForwardType, SetForwardType, SetForwardType method [TAPI 2.2], SetForwardType method [TAPI 2.2],ITForwardInformation interface, _tapi3_itforwardinformation_setforwardtype, tapi3.itforwardinformation_setforwardtype, tapi3if/ITForwardInformation::SetForwardType
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation.SetForwardType"
+f1_keywords:
+- tapi3if/ITForwardInformation.SetForwardType
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation.SetForwardType
+- ITForwardInformation.SetForwardType
 targetos: Windows
 req.typenames: 
 req.redist: 

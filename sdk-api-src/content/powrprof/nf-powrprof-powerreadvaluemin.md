@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerReadValueMin
 title: PowerReadValueMin function (powrprof.h)
-
 description: Retrieves the minimum value for the specified power setting.
 old-location: base\powerreadvaluemin.htm
 tech.root: power
 ms.assetid: 4a28cc2e-359b-45b3-8d2f-2f88baebb9c1
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerReadValueMin, PowerReadValueMin function, base.powerreadvaluemin, powrprof/PowerReadValueMin
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerReadValueMin"
+f1_keywords:
+- powrprof/PowerReadValueMin
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerReadValueMin
+- PowerReadValueMin
 targetos: Windows
 req.typenames: 
 req.redist: 

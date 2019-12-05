@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl.__tagDRM_COPY_OPL
 title: DRM_COPY_OPL (wmsdkidl.h)
-
 description: The DRM_COPY_OPL structure holds information about the output protection levels specified in a license for copy actions.
 old-location: wmformat\drm_copy_opl.htm
 tech.root: wmformat
 ms.assetid: cf35626a-5583-440f-8f17-0c9b79bd843d
-
 ms.date: 12/05/2018
 ms.keywords: DRM_COPY_OPL, DRM_COPY_OPL structure [windows Media Format], structure [windows Media Format], wmformat.drm_copy_opl, wmsdkidl/DRM_COPY_OPL
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/DRM_COPY_OPL"
+f1_keywords:
+- wmsdkidl/DRM_COPY_OPL
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Drmexternals.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - DRM_COPY_OPL
+- DRM_COPY_OPL
 targetos: Windows
 req.typenames: DRM_COPY_OPL
 req.redist: 

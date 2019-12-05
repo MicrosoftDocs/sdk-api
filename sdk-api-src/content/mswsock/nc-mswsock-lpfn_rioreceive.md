@@ -1,19 +1,17 @@
 ---
 UID: NC:mswsock.LPFN_RIORECEIVE
 title: LPFN_RIORECEIVE
-
 description: Receives network data on a connected registered I/O TCP socket or a bound registered I/O UDP socket for use with the Winsock registered I/O extensions.
 old-location: 
 tech.root: WinSock
 ms.assetid: 26726277-4907-47A1-BACF-868389B46EA8
-
 ms.date: 01/30/19
 ms.keywords: LPFN_RIORECEIVE
 ms.topic: language-reference
-f1_keywords: 
- - "mswsock/LPFN_RIORECEIVE"
+f1_keywords:
+- mswsock/LPFN_RIORECEIVE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -35,13 +33,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - mswsock.h
+- mswsock.h
 api_name:
- - LPFN_RIORECEIVE
+- LPFN_RIORECEIVE
 ---
 
 ## -description

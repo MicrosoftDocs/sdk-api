@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.OpenBackupEventLogW
 title: OpenBackupEventLogW function (winbase.h)
-
 description: Opens a handle to a backup event log created by the BackupEventLog function.
 old-location: base\openbackupeventlog.htm
 tech.root: EventLog
 ms.assetid: cfef0912-9d35-44aa-a1d3-f9bb37213ce0
-
 ms.date: 12/05/2018
 ms.keywords: OpenBackupEventLog, OpenBackupEventLog function, OpenBackupEventLogA, OpenBackupEventLogW, _win32_openbackupeventlog, base.openbackupeventlog, winbase/OpenBackupEventLog, winbase/OpenBackupEventLogA, winbase/OpenBackupEventLogW
 ms.topic: function
-f1_keywords: 
- - "winbase/OpenBackupEventLog"
+f1_keywords:
+- winbase/OpenBackupEventLog
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
+- Advapi32.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
- - OpenBackupEventLog
- - OpenBackupEventLogA
- - OpenBackupEventLogW
+- OpenBackupEventLog
+- OpenBackupEventLogA
+- OpenBackupEventLogW
 targetos: Windows
 req.typenames: 
 req.redist: 

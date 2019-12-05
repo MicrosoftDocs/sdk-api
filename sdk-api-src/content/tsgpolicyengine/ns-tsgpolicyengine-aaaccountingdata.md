@@ -1,19 +1,17 @@
 ---
 UID: NS:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003
 title: AAAccountingData (tsgpolicyengine.h)
-
 description: This structure contains information about a connection event.
 old-location: termserv\aaaccountingdata.htm
 tech.root: TermServ
 ms.assetid: 1c79f910-8dd9-47dc-80d1-f6252f0a43dd
-
 ms.date: 12/05/2018
 ms.keywords: AAAccountingData, AAAccountingData structure [Remote Desktop Services], __MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0003, termserv.aaaccountingdata, tsgpolicyengine/AAAccountingData
 ms.topic: struct
-f1_keywords: 
- - "tsgpolicyengine/AAAccountingData"
+f1_keywords:
+- tsgpolicyengine/AAAccountingData
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - AAAccountingData
+- AAAccountingData
 targetos: Windows
 req.typenames: AAAccountingData
 req.redist: 

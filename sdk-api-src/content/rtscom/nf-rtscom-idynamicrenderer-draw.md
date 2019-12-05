@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.Draw
 title: IDynamicRenderer::Draw (rtscom.h)
-
 description: Draws the cached data to the specified device context.
 old-location: tablet\idynamicrenderer_draw.htm
 tech.root: tablet
 ms.assetid: d0f05fc7-2b54-40fc-823a-dad0a86174d6
-
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method [Tablet PC], Draw method [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],Draw method, IDynamicRenderer.Draw, IDynamicRenderer::Draw, d0f05fc7-2b54-40fc-823a-dad0a86174d6, rtscom/IDynamicRenderer::Draw, tablet.idynamicrenderer_draw
 ms.topic: method
-f1_keywords: 
- - "rtscom/IDynamicRenderer.Draw"
+f1_keywords:
+- rtscom/IDynamicRenderer.Draw
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IDynamicRenderer.Draw
+- IDynamicRenderer.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

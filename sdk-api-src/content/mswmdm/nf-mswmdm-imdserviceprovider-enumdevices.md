@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDServiceProvider.EnumDevices
 title: IMDServiceProvider::EnumDevices (mswmdm.h)
-
 description: The EnumDevices method enumerates the installed physical or software devices that are currently attached and are known by the service provider.
 old-location: wmdm\imdserviceprovider_enumdevices.htm
 tech.root: WMDM
 ms.assetid: a3d4e404-7441-4a61-b2bb-ca373eb79b99
-
 ms.date: 12/05/2018
 ms.keywords: EnumDevices, EnumDevices method [windows Media Device Manager], EnumDevices method [windows Media Device Manager],IMDServiceProvider interface, IMDServiceProvider interface [windows Media Device Manager],EnumDevices method, IMDServiceProvider.EnumDevices, IMDServiceProvider::EnumDevices, IMDServiceProviderEnumDevices, mswmdm/IMDServiceProvider::EnumDevices, wmdm.imdserviceprovider_enumdevices
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDServiceProvider.EnumDevices"
+f1_keywords:
+- mswmdm/IMDServiceProvider.EnumDevices
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDServiceProvider.EnumDevices
+- IMDServiceProvider.EnumDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

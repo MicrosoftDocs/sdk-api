@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSubnetDelayOffer
 title: DhcpGetSubnetDelayOffer function (dhcpsapi.h)
-
 description: Obtains the delay period for DHCP OFFER messages after a DISCOVER message is received.
 old-location: dhcp\dhcpgetsubnetdelayoffer.htm
 tech.root: DHCP
 ms.assetid: fce1b0e8-d41c-45f7-99df-4233e76b2597
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetSubnetDelayOffer, DhcpGetSubnetDelayOffer function [DHCP], dhcp.dhcpgetsubnetdelayoffer, dhcpsapi/DhcpGetSubnetDelayOffer
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpGetSubnetDelayOffer"
+f1_keywords:
+- dhcpsapi/DhcpGetSubnetDelayOffer
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpGetSubnetDelayOffer
+- DhcpGetSubnetDelayOffer
 targetos: Windows
 req.typenames: 
 req.redist: 

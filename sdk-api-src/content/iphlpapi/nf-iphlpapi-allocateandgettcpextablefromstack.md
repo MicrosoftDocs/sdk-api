@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.AllocateAndGetTcpExTableFromStack
 title: AllocateAndGetTcpExTableFromStack function (iphlpapi.h)
-
 description: Retrieves the TCP connection table and allocates memory from the local heap to store the table.
 old-location: iphlp\allocateandgettcpextablefromstack.htm
 tech.root: IpHlp
 ms.assetid: c79dd5ba-e80b-494f-80fa-efa10c021773
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AllocateAndGetTcpExTableFromStack, AllocateAndGetTcpExTableFromStack function [IP Helper], iphlp.allocateandgettcpextablefromstack, iphlpapi/AllocateAndGetTcpExTableFromStack
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/AllocateAndGetTcpExTableFromStack"
+f1_keywords:
+- iphlpapi/AllocateAndGetTcpExTableFromStack
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - AllocateAndGetTcpExTableFromStack
+- AllocateAndGetTcpExTableFromStack
 targetos: Windows
 req.typenames: 
 req.redist: 

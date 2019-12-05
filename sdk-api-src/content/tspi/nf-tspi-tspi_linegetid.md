@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetID
 title: TSPI_lineGetID function (tspi.h)
-
 description: The TSPI_lineGetID function returns a device identifier for the specified device class associated with the selected line, address, or call.
 old-location: tspi\tspi_linegetid.htm
 tech.root: Tapi
 ms.assetid: d4331721-61c3-4de0-bb1f-c27f475170d1
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetID, TSPI_lineGetID function [TAPI 2.2], _tspi_tspi_linegetid, tspi.tspi_linegetid, tspi/TSPI_lineGetID
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetID"
+f1_keywords:
+- tspi/TSPI_lineGetID
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetID
+- TSPI_lineGetID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetPackageDependencies
 title: IAppxManifestReader::GetPackageDependencies (appxpackaging.h)
-
 description: Gets an enumerator that iterates through dependencies defined in the manifest.
 old-location: appxpkg\iappxmanifestreader_getpackagedependencies.htm
 tech.root: appxpkg
 ms.assetid: C40276CC-8F97-4DCF-A5C4-193453B8FA02
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageDependencies, GetPackageDependencies method [App packaging and management], GetPackageDependencies method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetPackageDependencies method, IAppxManifestReader.GetPackageDependencies, IAppxManifestReader::GetPackageDependencies, appxpackaging/IAppxManifestReader::GetPackageDependencies, appxpkg.iappxmanifestreader_getpackagedependencies
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestReader.GetPackageDependencies"
+f1_keywords:
+- appxpackaging/IAppxManifestReader.GetPackageDependencies
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestReader.GetPackageDependencies
+- IAppxManifestReader.GetPackageDependencies
 targetos: Windows
 req.typenames: 
 req.redist: 

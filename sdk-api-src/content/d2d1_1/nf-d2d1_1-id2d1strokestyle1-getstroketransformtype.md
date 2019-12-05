@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1StrokeStyle1.GetStrokeTransformType
 title: ID2D1StrokeStyle1::GetStrokeTransformType (d2d1_1.h)
-
 description: Gets the stroke transform type.
 old-location: direct2d\id2d1strokestyle1_getstroketransformtype.htm
 tech.root: Direct2D
 ms.assetid: bbf3726f-4f54-4914-a0f0-7b08add4c3e8
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeTransformType, GetStrokeTransformType method [Direct2D], GetStrokeTransformType method [Direct2D],ID2D1StrokeStyle1 interface, ID2D1StrokeStyle1 interface [Direct2D],GetStrokeTransformType method, ID2D1StrokeStyle1.GetStrokeTransformType, ID2D1StrokeStyle1::GetStrokeTransformType, d2d1_1/ID2D1StrokeStyle1::GetStrokeTransformType, direct2d.id2d1strokestyle1_getstroketransformtype
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1StrokeStyle1.GetStrokeTransformType"
+f1_keywords:
+- d2d1_1/ID2D1StrokeStyle1.GetStrokeTransformType
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1StrokeStyle1.GetStrokeTransformType
+- ID2D1StrokeStyle1.GetStrokeTransformType
 targetos: Windows
 req.typenames: 
 req.redist: 

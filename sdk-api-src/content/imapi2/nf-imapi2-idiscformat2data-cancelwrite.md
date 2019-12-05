@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.CancelWrite
 title: IDiscFormat2Data::CancelWrite (imapi2.h)
-
 description: Cancels the current write operation.
 old-location: imapi\idiscformat2data_cancelwrite.htm
 tech.root: imapi
 ms.assetid: 0fe5705e-7f48-4a4e-a535-a3dd105a6139
-
 ms.date: 12/05/2018
 ms.keywords: CancelWrite, CancelWrite method [IMAPI], CancelWrite method [IMAPI],IDiscFormat2Data interface, IDiscFormat2Data interface [IMAPI],CancelWrite method, IDiscFormat2Data.CancelWrite, IDiscFormat2Data::CancelWrite, imapi.idiscformat2data_cancelwrite, imapi2/IDiscFormat2Data::CancelWrite
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.CancelWrite"
+f1_keywords:
+- imapi2/IDiscFormat2Data.CancelWrite
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.CancelWrite
+- IDiscFormat2Data.CancelWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

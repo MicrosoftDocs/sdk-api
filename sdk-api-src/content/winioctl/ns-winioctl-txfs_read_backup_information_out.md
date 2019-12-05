@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._TXFS_READ_BACKUP_INFORMATION_OUT
 title: TXFS_READ_BACKUP_INFORMATION_OUT
-
 description: Contains a Transactional NTFS (TxF) specific structure. This information should only be used when calling TXFS_WRITE_BACKUP_INFORMATION.
 old-location: fs\txfs_read_backup_information_out.htm
 tech.root: FileIO
 ms.assetid: c2b9ce2f-9f08-4706-9565-423ab0dc493f
-
 ms.date: 12/05/2018
 ms.keywords: '*PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT, PTXFS_READ_BACKUP_INFORMATION_OUT structure pointer [Files], TXFS_READ_BACKUP_INFORMATION_OUT, TXFS_READ_BACKUP_INFORMATION_OUT structure [Files], fs.txfs_read_backup_information_out, winioctl/PTXFS_READ_BACKUP_INFORMATION_OUT, winioctl/TXFS_READ_BACKUP_INFORMATION_OUT'
 ms.topic: struct
 f1_keywords:
 - winioctl/TXFS_READ_BACKUP_INFORMATION_OUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

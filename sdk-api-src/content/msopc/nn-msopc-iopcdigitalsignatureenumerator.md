@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcDigitalSignatureEnumerator
 title: IOpcDigitalSignatureEnumerator (msopc.h)
-
 description: A read-only enumerator of IOpcDigitalSignature interface pointers.
 old-location: opc\iopcdigitalsignatureenumerator.htm
 tech.root: OPC
 ms.assetid: 73fd0e47-7503-470d-b649-e4b2ba492bf1
-
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureEnumerator, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions], IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignatureEnumerator, opc.iopcdigitalsignatureenumerator
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureEnumerator"
+f1_keywords:
+- msopc/IOpcDigitalSignatureEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureEnumerator
+- IOpcDigitalSignatureEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

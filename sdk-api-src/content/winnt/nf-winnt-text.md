@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.TEXT
 title: TEXT macro (winnt.h)
-
 description: Identifies a string as Unicode when UNICODE is defined by a preprocessor directive during compilation. Otherwise, the macro identifies a string as an ANSI string.
 old-location: intl\text.htm
 tech.root: Intl
 ms.assetid: 427d365f-2277-460c-8120-3ccb6c6cea4f
-
 ms.date: 12/05/2018
 ms.keywords: TEXT, TEXT macro [Internationalization for Windows Applications], _win32_TEXT_Macro, intl.text, winnt/TEXT
 ms.topic: macro
-f1_keywords: 
- - "winnt/TEXT"
+f1_keywords:
+- winnt/TEXT
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TEXT
+- TEXT
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsUnblocked
 title: IMSVidStreamBufferSourceEvent::RatingsUnblocked (segment.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\imsvidstreambuffersourceevent_ratingsunblocked.htm
 tech.root: mstv
 ms.assetid: a255df5b-f7fe-4f99-9d29-59e30b922975
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies],RatingsUnblocked method, IMSVidStreamBufferSourceEvent.RatingsUnblocked, IMSVidStreamBufferSourceEvent::RatingsUnblocked, IMSVidStreamBufferSourceEventRatingsUnblocked, RatingsUnblocked, RatingsUnblocked method [Microsoft TV Technologies], RatingsUnblocked method [Microsoft TV Technologies],IMSVidStreamBufferSourceEvent interface, mstv.imsvidstreambuffersourceevent_ratingsunblocked, segment/IMSVidStreamBufferSourceEvent::RatingsUnblocked
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSourceEvent.RatingsUnblocked"
+f1_keywords:
+- segment/IMSVidStreamBufferSourceEvent.RatingsUnblocked
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent.RatingsUnblocked
+- IMSVidStreamBufferSourceEvent.RatingsUnblocked
 targetos: Windows
 req.typenames: 
 req.redist: 

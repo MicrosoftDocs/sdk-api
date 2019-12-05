@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig2.SetEnableThinning
 title: IWMReaderNetworkConfig2::SetEnableThinning (wmsdkidl.h)
-
 description: The SetEnableThinning method enables or disables Intelligent Streaming. Intelligent Streaming is the communication between the reader and the streaming server that enables the server to change the content sent based on available bandwidth.
 old-location: wmformat\iwmreadernetworkconfig2_setenablethinning.htm
 tech.root: wmformat
 ms.assetid: 98d4eb7e-e712-4ca0-a532-1160254748b8
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig2 interface [windows Media Format],SetEnableThinning method, IWMReaderNetworkConfig2.SetEnableThinning, IWMReaderNetworkConfig2::SetEnableThinning, IWMReaderNetworkConfig2SetEnableThinning, SetEnableThinning, SetEnableThinning method [windows Media Format], SetEnableThinning method [windows Media Format],IWMReaderNetworkConfig2 interface, wmformat.iwmreadernetworkconfig2_setenablethinning, wmsdkidl/IWMReaderNetworkConfig2::SetEnableThinning
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig2.SetEnableThinning"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig2.SetEnableThinning
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2.SetEnableThinning
+- IWMReaderNetworkConfig2.SetEnableThinning
 targetos: Windows
 req.typenames: 
 req.redist: 

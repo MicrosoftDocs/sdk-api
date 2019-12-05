@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcEnumNextSubscription
 title: EcEnumNextSubscription function (evcoll.h)
-
 description: Continues the enumeration of the subscriptions registered on the local machine.
 old-location: wec\ecenumnextsubscription.htm
 tech.root: WEC
 ms.assetid: 4228c9ca-6143-4301-8ff3-0ee296a53239
-
 ms.date: 12/05/2018
 ms.keywords: EcEnumNextSubscription, EcEnumNextSubscription function, evcoll/EcEnumNextSubscription, wec.ecenumnextsubscription, wes.ecenumnextsubscription
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcEnumNextSubscription"
+f1_keywords:
+- evcoll/EcEnumNextSubscription
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcEnumNextSubscription
+- EcEnumNextSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSETPALETTEENTRIES
 title: EMRSETPALETTEENTRIES (wingdi.h)
-
 description: The EMRSETPALETTEENTRIES structure contains members for the SetPaletteEntries enhanced metafile record.
 old-location: gdi\emrsetpaletteentries.htm
 tech.root: gdi
 ms.assetid: df75567e-150f-4f88-b6ae-938b451a7b7d
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES structure [Windows GDI], PEMRSETPALETTEENTRIES, PEMRSETPALETTEENTRIES structure pointer [Windows GDI], _win32_EMRSETPALETTEENTRIES_str, gdi.emrsetpaletteentries, wingdi/EMRSETPALETTEENTRIES, wingdi/PEMRSETPALETTEENTRIES"
+ms.keywords: '*PEMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES, EMRSETPALETTEENTRIES structure [Windows GDI], PEMRSETPALETTEENTRIES, PEMRSETPALETTEENTRIES structure pointer [Windows GDI], _win32_EMRSETPALETTEENTRIES_str, gdi.emrsetpaletteentries, wingdi/EMRSETPALETTEENTRIES, wingdi/PEMRSETPALETTEENTRIES'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSETPALETTEENTRIES"
+f1_keywords:
+- wingdi/EMRSETPALETTEENTRIES
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSETPALETTEENTRIES
+- EMRSETPALETTEENTRIES
 targetos: Windows
 req.typenames: EMRSETPALETTEENTRIES, *PEMRSETPALETTEENTRIES
 req.redist: 

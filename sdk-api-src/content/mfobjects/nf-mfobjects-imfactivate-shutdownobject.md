@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFActivate.ShutdownObject
 title: IMFActivate::ShutdownObject (mfobjects.h)
-
 description: Shuts down the created object.
 old-location: mf\imfactivate_shutdownobject.htm
 tech.root: medfound
 ms.assetid: 1f88ff31-5a91-4838-bfce-673a5a85c766
-
 ms.date: 12/05/2018
 ms.keywords: 1f88ff31-5a91-4838-bfce-673a5a85c766, IMFActivate interface [Media Foundation],ShutdownObject method, IMFActivate.ShutdownObject, IMFActivate::ShutdownObject, ShutdownObject, ShutdownObject method [Media Foundation], ShutdownObject method [Media Foundation],IMFActivate interface, mf.imfactivate_shutdownobject, mfobjects/IMFActivate::ShutdownObject
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFActivate.ShutdownObject"
+f1_keywords:
+- mfobjects/IMFActivate.ShutdownObject
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFActivate.ShutdownObject
+- IMFActivate.ShutdownObject
 targetos: Windows
 req.typenames: 
 req.redist: 

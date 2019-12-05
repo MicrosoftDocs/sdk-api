@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHFormatDrive
 title: SHFormatDrive function (shlobj_core.h)
-
 description: SHFormatDrive may be altered or unavailable.
 old-location: shell\SHFormatDrive.htm
 tech.root: shell
 ms.assetid: 4aa255fa-c407-47db-9b1f-d449e0a0e94f
-
 ms.date: 12/05/2018
 ms.keywords: SHFMT_ID_DEFAULT, SHFMT_OPT_FULL, SHFMT_OPT_SYSONLY, SHFormatDrive, SHFormatDrive function [Windows Shell], shell.SHFormatDrive, shell_SHFormatDrive, shlobj_core/SHFormatDrive
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHFormatDrive"
+f1_keywords:
+- shlobj_core/SHFormatDrive
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHFormatDrive
+- SHFormatDrive
 targetos: Windows
 req.typenames: 
 req.redist: 

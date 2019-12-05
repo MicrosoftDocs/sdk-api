@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 title: ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge (winsync.h)
-
 description: Gets the minimum knowledge that a destination provider is required to have to process this change.
 old-location: winsync\isyncchangewithprerequisite_getprerequisiteknowledge.htm
 tech.root: winsync
 ms.assetid: 48aa9436-b708-4dad-9201-d57988baf749
-
 ms.date: 12/05/2018
 ms.keywords: GetPrerequisiteKnowledge, GetPrerequisiteKnowledge method [Windows Sync], GetPrerequisiteKnowledge method [Windows Sync],ISyncChangeWithPrerequisite interface, ISyncChangeWithPrerequisite interface [Windows Sync],GetPrerequisiteKnowledge method, ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge, ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge, winsync.isyncchangewithprerequisite_getprerequisiteknowledge, winsync/ISyncChangeWithPrerequisite::GetPrerequisiteKnowledge
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge"
+f1_keywords:
+- winsync/ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
+- ISyncChangeWithPrerequisite.GetPrerequisiteKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 

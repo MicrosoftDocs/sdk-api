@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSettings.put_playCount
 title: IWMPSettings::put_playCount (wmp.h)
-
 description: The put_playCount method specifies the number of times a media item will play.
 old-location: wmp\iwmpsettings_put_playcount.htm
 tech.root: WMP
 ms.assetid: b9fdd596-8ca3-497e-8d40-6dd5ddbf0a1e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_playCount method, IWMPSettings.put_playCount, IWMPSettings::put_playCount, IWMPSettingsput_playCount, put_playCount, put_playCount method [Windows Media Player], put_playCount method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_playcount, wmp/IWMPSettings::put_playCount
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSettings.put_playCount"
+f1_keywords:
+- wmp/IWMPSettings.put_playCount
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSettings.put_playCount
+- IWMPSettings.put_playCount
 targetos: Windows
 req.typenames: 
 req.redist: 

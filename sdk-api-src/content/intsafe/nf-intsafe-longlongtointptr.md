@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongLongToIntPtr
 title: LongLongToIntPtr function (intsafe.h)
-
 description: Converts a value of type LONGLONG to a value of type INT_PTR.
 old-location: shell\LongLongToIntPtr.htm
 tech.root: shell
 ms.assetid: fb10650f-6536-491c-8897-0f826b506e5a
-
 ms.date: 12/05/2018
 ms.keywords: Int64ToIntPtr, Int64ToPtrdiffT, LongLongToIntPtr, LongLongToIntPtr function [Windows Shell], intsafe/LongLongToIntPtr, shell.LongLongToIntPtr
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongLongToIntPtr"
+f1_keywords:
+- intsafe/LongLongToIntPtr
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongLongToIntPtr
+- LongLongToIntPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

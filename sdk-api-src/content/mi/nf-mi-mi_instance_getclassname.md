@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Instance_GetClassName
 title: MI_Instance_GetClassName function (mi.h)
-
 description: Gets the class name of the specified instance.
 old-location: wmi_v2\mi_instance_getclassname.htm
 tech.root: wmi_v2
 ms.assetid: d2129902-3a2d-479d-b83a-3582094b2fce
-
 ms.date: 12/05/2018
 ms.keywords: MI_Instance_GetClassName, MI_Instance_GetClassName function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClassName, wmi_v2.mi_instance_getclassname
 ms.topic: function
 f1_keywords:
 - mi/MI_Instance_GetClassName
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

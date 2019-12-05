@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.AddDataUnitExtension
 title: IWMStreamConfig2::AddDataUnitExtension (wmsdkidl.h)
-
 description: The AddDataUnitExtension method adds a data unit extension system to the stream. You can use data unit extension systems to attach custom data to samples in an output file.
 old-location: wmformat\iwmstreamconfig2_adddataunitextension.htm
 tech.root: wmformat
 ms.assetid: db84a33c-bd83-46cb-a97c-76ddeeb74927
-
 ms.date: 12/05/2018
 ms.keywords: AddDataUnitExtension, AddDataUnitExtension method [windows Media Format], AddDataUnitExtension method [windows Media Format],IWMStreamConfig2 interface, IWMStreamConfig2 interface [windows Media Format],AddDataUnitExtension method, IWMStreamConfig2.AddDataUnitExtension, IWMStreamConfig2::AddDataUnitExtension, IWMStreamConfig2AddDataUnitExtension, wmformat.iwmstreamconfig2_adddataunitextension, wmsdkidl/IWMStreamConfig2::AddDataUnitExtension
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig2.AddDataUnitExtension"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig2.AddDataUnitExtension
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig2.AddDataUnitExtension
+- IWMStreamConfig2.AddDataUnitExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

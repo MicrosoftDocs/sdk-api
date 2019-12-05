@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_AddString
 title: ComboBox_AddString macro (windowsx.h)
-
 description: Adds a string to a list in a combo box.
 old-location: controls\ComboBox_AddString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_addstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_AddString, ComboBox_AddString macro [Windows Controls], _win32_ComboBox_AddString, _win32_ComboBox_AddString_cpp, controls.ComboBox_AddString, controls._win32_ComboBox_AddString, windowsx/ComboBox_AddString
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_AddString"
+f1_keywords:
+- windowsx/ComboBox_AddString
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_AddString
+- ComboBox_AddString
 targetos: Windows
 req.typenames: 
 req.redist: 

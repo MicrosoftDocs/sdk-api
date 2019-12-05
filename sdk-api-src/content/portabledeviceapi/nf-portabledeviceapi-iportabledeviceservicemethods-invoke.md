@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceMethods.Invoke
 title: IPortableDeviceServiceMethods::Invoke (portabledeviceapi.h)
-
 description: Synchronously invokes a method.
 old-location: wpdsdk\iportabledeviceservicemethods_invoke.htm
 tech.root: wpd_sdk
 ms.assetid: 9c972815-c95a-4718-abac-dcc28a2198e1
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceServiceMethods interface [Windows Portable Devices SDK],Invoke method, IPortableDeviceServiceMethods.Invoke, IPortableDeviceServiceMethods::Invoke, Invoke, Invoke method [Windows Portable Devices SDK], Invoke method [Windows Portable Devices SDK],IPortableDeviceServiceMethods interface, portabledeviceapi/IPortableDeviceServiceMethods::Invoke, wpdsdk.iportabledeviceservicemethods_invoke
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceMethods.Invoke"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceMethods.Invoke
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceMethods.Invoke
+- IPortableDeviceServiceMethods.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

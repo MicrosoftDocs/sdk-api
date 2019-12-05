@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPointerInactive.GetActivationPolicy
 title: IPointerInactive::GetActivationPolicy (ocidl.h)
-
 description: Retrieves the current activation policy for the object. This method is called by the container on receipt of a WM_SETCURSOR or WM_MOUSEMOVE message when an inactive object is under the mouse pointer.
 old-location: com\ipointerinactive_getactivationpolicy.htm
 tech.root: com
 ms.assetid: bbdea7e1-620f-4b2b-8ac9-77061b8cfc1a
-
 ms.date: 12/05/2018
 ms.keywords: GetActivationPolicy, GetActivationPolicy method [COM], GetActivationPolicy method [COM],IPointerInactive interface, IPointerInactive interface [COM],GetActivationPolicy method, IPointerInactive.GetActivationPolicy, IPointerInactive::GetActivationPolicy, _ctrl_ipointerinactive_getactivationpolicy, com.ipointerinactive_getactivationpolicy, ocidl/IPointerInactive::GetActivationPolicy
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPointerInactive.GetActivationPolicy"
+f1_keywords:
+- ocidl/IPointerInactive.GetActivationPolicy
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPointerInactive.GetActivationPolicy
+- IPointerInactive.GetActivationPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

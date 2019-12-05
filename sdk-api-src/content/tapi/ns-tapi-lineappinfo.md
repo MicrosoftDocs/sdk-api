@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineappinfo_tag
 title: LINEAPPINFO (tapi.h)
-
 description: The LINEAPPINFO structure contains information about the application that is currently running. The LINEDEVSTATUS structure can contain an array of LINEAPPINFO structures.
 old-location: tapi2\lineappinfo_str.htm
 tech.root: Tapi
 ms.assetid: 1c1d2d31-a234-407e-b9fc-4823928c5ca1
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEAPPINFO, LINEAPPINFO, LINEAPPINFO structure [TAPI 2.2], LPLINEAPPINFO, LPLINEAPPINFO structure pointer [TAPI 2.2], _tapi2_lineappinfo_str, tapi/LINEAPPINFO, tapi/LPLINEAPPINFO, tapi2.lineappinfo_str"
+ms.keywords: '*LPLINEAPPINFO, LINEAPPINFO, LINEAPPINFO structure [TAPI 2.2], LPLINEAPPINFO, LPLINEAPPINFO structure pointer [TAPI 2.2], _tapi2_lineappinfo_str, tapi/LINEAPPINFO, tapi/LPLINEAPPINFO, tapi2.lineappinfo_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEAPPINFO"
+f1_keywords:
+- tapi/LINEAPPINFO
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEAPPINFO
+- LINEAPPINFO
 targetos: Windows
 req.typenames: LINEAPPINFO, *LPLINEAPPINFO
 req.redist: 

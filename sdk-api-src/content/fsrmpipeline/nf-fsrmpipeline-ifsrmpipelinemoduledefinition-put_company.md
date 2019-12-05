@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_Company
 title: IFsrmPipelineModuleDefinition::put_Company (fsrmpipeline.h)
-
 description: The name of the company that created the classification or storage module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_company.htm
 tech.root: fsrm
 ms.assetid: 0e09569c-b090-4006-81e5-6d34d43ce7b6
-
 ms.date: 12/05/2018
 ms.keywords: Company property [File Server Resource Manager], Company property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, IFsrmPipelineModuleDefinition interface [File Server Resource Manager],Company property, IFsrmPipelineModuleDefinition.Company, IFsrmPipelineModuleDefinition.put_Company, IFsrmPipelineModuleDefinition::Company, IFsrmPipelineModuleDefinition::get_Company, IFsrmPipelineModuleDefinition::put_Company, fs.ifsrmpipelinemoduledefinition_company, fsrm.ifsrmpipelinemoduledefinition_company, fsrmpipeline/IFsrmPipelineModuleDefinition::Company, fsrmpipeline/IFsrmPipelineModuleDefinition::get_Company, fsrmpipeline/IFsrmPipelineModuleDefinition::put_Company, put_Company
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleDefinition.Company"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleDefinition.Company
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.Company
- - IFsrmPipelineModuleDefinition.get_Company
- - IFsrmPipelineModuleDefinition.put_Company
+- IFsrmPipelineModuleDefinition.Company
+- IFsrmPipelineModuleDefinition.get_Company
+- IFsrmPipelineModuleDefinition.put_Company
 targetos: Windows
 req.typenames: 
 req.redist: 

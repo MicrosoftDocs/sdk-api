@@ -1,19 +1,17 @@
 ---
 UID: NS:mfreadwrite._MF_SINK_WRITER_STATISTICS
 title: MF_SINK_WRITER_STATISTICS (mfreadwrite.h)
-
 description: Contains statistics about the performance of the sink writer.
 old-location: mf\mf_sink_writer_statistics.htm
 tech.root: medfound
 ms.assetid: ff083ae1-9a53-4215-9738-d1776f8d7f9b
-
 ms.date: 12/05/2018
 ms.keywords: MF_SINK_WRITER_STATISTICS, MF_SINK_WRITER_STATISTICS structure [Media Foundation], mf.mf_sink_writer_statistics, mfreadwrite/MF_SINK_WRITER_STATISTICS
 ms.topic: struct
-f1_keywords: 
- - "mfreadwrite/MF_SINK_WRITER_STATISTICS"
+f1_keywords:
+- mfreadwrite/MF_SINK_WRITER_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - MF_SINK_WRITER_STATISTICS
+- MF_SINK_WRITER_STATISTICS
 targetos: Windows
 req.typenames: MF_SINK_WRITER_STATISTICS
 req.redist: 

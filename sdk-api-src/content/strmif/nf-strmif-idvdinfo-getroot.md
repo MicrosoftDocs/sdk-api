@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetRoot
 title: IDvdInfo::GetRoot (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the root directory that is set in the player.
 old-location: dshow\idvdinfo_getroot.htm
 tech.root: DirectShow
 ms.assetid: e3869da3-15c9-449e-bb0e-29dd4625a857
-
 ms.date: 12/05/2018
 ms.keywords: GetRoot, GetRoot method [DirectShow], GetRoot method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetRoot method, IDvdInfo.GetRoot, IDvdInfo::GetRoot, IDvdInfoGetRoot, dshow.idvdinfo_getroot, strmif/IDvdInfo::GetRoot
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetRoot"
+f1_keywords:
+- strmif/IDvdInfo.GetRoot
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetRoot
+- IDvdInfo.GetRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

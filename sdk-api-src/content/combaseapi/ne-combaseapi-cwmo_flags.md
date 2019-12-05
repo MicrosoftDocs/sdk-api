@@ -1,19 +1,17 @@
 ---
 UID: NE:combaseapi.CWMO_FLAGS
 title: CWMO_FLAGS (combaseapi.h)
-
 description: Provides flags for the CoWaitForMultipleObjects function.
 old-location: com\cwmo_flags.htm
 tech.root: com
 ms.assetid: 5FE605A9-DE92-4CD9-9390-6C9F5189A7CB
-
 ms.date: 12/05/2018
 ms.keywords: CWMO_DEFAULT, CWMO_DISPATCH_CALLS, CWMO_DISPATCH_WINDOW_MESSAGE, CWMO_FLAGS, CWMO_FLAGS enumeration [COM], com.cwmo_flags, combaseapi/CWMO_DEFAULT, combaseapi/CWMO_DISPATCH_CALLS, combaseapi/CWMO_DISPATCH_WINDOW_MESSAGE, combaseapi/CWMO_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "combaseapi/CWMO_FLAGS"
+f1_keywords:
+- combaseapi/CWMO_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - combaseapi.h
+- combaseapi.h
 api_name:
- - CWMO_FLAGS
+- CWMO_FLAGS
 targetos: Windows
 req.typenames: CWMO_FLAGS
 req.redist: 

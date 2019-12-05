@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegisterMode
 title: IMbnRegistration::GetRegisterMode (mbnapi.h)
-
 description: Gets the network registration mode of a Mobile Broadband device.
 old-location: mbn\imbnregistration_getregistermode.htm
 tech.root: mbn
 ms.assetid: 30030eb8-3b08-4583-a7ba-0560db32007f
-
 ms.date: 12/05/2018
 ms.keywords: GetRegisterMode, GetRegisterMode method [Microsoft Broadband Networks], GetRegisterMode method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegisterMode method, IMbnRegistration.GetRegisterMode, IMbnRegistration::GetRegisterMode, mbn.imbnregistration_getregistermode, mbnapi/IMbnRegistration::GetRegisterMode
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetRegisterMode"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetRegisterMode
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetRegisterMode
+- IMbnRegistration.GetRegisterMode
 targetos: Windows
 req.typenames: 
 req.redist: 

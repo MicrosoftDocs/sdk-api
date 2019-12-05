@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.DrawTextLayout
 title: ID2D1RenderTarget::DrawTextLayout (d2d1.h)
-
 description: Draws the formatted text described by the specified IDWriteTextLayout object.
 old-location: direct2d\ID2D1RenderTarget_DrawTextLayout.htm
 tech.root: Direct2D
 ms.assetid: 9356071a-35ca-462a-8a77-887e63850586
-
 ms.date: 12/05/2018
 ms.keywords: DrawTextLayout, DrawTextLayout method [Direct2D], DrawTextLayout method [Direct2D],ID2D1RenderTarget interface, ID2D1RenderTarget interface [Direct2D],DrawTextLayout method, ID2D1RenderTarget.DrawTextLayout, ID2D1RenderTarget::DrawTextLayout, d2d1/ID2D1RenderTarget::DrawTextLayout, direct2d.ID2D1RenderTarget_DrawTextLayout
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget.DrawTextLayout"
+f1_keywords:
+- d2d1/ID2D1RenderTarget.DrawTextLayout
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget.DrawTextLayout
+- ID2D1RenderTarget.DrawTextLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

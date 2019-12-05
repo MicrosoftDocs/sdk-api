@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddControlItem
 title: IFileDialogCustomize::AddControlItem (shobjidl_core.h)
-
 description: Adds an item to a container control in the dialog.
 old-location: shell\IFileDialogCustomize_AddControlItem.htm
 tech.root: shell
 ms.assetid: 56d7d0df-0c3e-4bc3-b91e-3b191f5dad76
-
 ms.date: 12/05/2018
 ms.keywords: AddControlItem, AddControlItem method [Windows Shell], AddControlItem method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddControlItem method, IFileDialogCustomize.AddControlItem, IFileDialogCustomize::AddControlItem, shell.IFileDialogCustomize_AddControlItem, shell_IFileDialogCustomize_AddControlItem, shobjidl_core/IFileDialogCustomize::AddControlItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddControlItem"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddControlItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddControlItem
+- IFileDialogCustomize.AddControlItem
 targetos: Windows
 req.typenames: 
 req.redist: 

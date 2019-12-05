@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Pager_RecalcSize
 title: Pager_RecalcSize macro (commctrl.h)
-
 description: Forces the pager control to recalculate the size of the contained window. Using this macro will result in a PGN_CALCSIZE notification being sent. You can use this macro or send the PGM_RECALCSIZE message explicitly.
 old-location: controls\Pager_RecalcSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_recalcsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pager_RecalcSize, Pager_RecalcSize macro [Windows Controls], _win32_Pager_RecalcSize, _win32_Pager_RecalcSize_cpp, commctrl/Pager_RecalcSize, controls.Pager_RecalcSize, controls._win32_Pager_RecalcSize
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Pager_RecalcSize"
+f1_keywords:
+- commctrl/Pager_RecalcSize
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Pager_RecalcSize
+- Pager_RecalcSize
 targetos: Windows
 req.typenames: 
 req.redist: 

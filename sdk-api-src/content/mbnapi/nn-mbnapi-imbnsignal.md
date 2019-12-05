@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnSignal
 title: IMbnSignal (mbnapi.h)
-
 description: Get radio signal quality of a Mobile Broadband connection.
 old-location: mbn\imbnsignal.htm
 tech.root: mbn
 ms.assetid: 2b60d078-ccbd-4cc5-addf-e6e95832b3a1
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSignal, IMbnSignal interface [Microsoft Broadband Networks], IMbnSignal interface [Microsoft Broadband Networks],described, mbn.imbnsignal, mbnapi/IMbnSignal
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnSignal"
+f1_keywords:
+- mbnapi/IMbnSignal
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSignal
+- IMbnSignal
 targetos: Windows
 req.typenames: 
 req.redist: 

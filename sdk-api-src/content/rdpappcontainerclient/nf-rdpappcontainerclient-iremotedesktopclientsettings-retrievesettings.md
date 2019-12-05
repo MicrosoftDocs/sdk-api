@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientSettings.RetrieveSettings
 title: IRemoteDesktopClientSettings::RetrieveSettings (rdpappcontainerclient.h)
-
 description: Retrieves the entire RDP file as a string.
 old-location: termserv\iremotedesktopclientsettings_retrievesettings.htm
 tech.root: TermServ
 ms.assetid: 5c28a172-42f3-4abd-9983-ee5acb1c9c78
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientSettings interface [Remote Desktop Services],RetrieveSettings method, IRemoteDesktopClientSettings.RetrieveSettings, IRemoteDesktopClientSettings::RetrieveSettings, RetrieveSettings, RetrieveSettings method [Remote Desktop Services], RetrieveSettings method [Remote Desktop Services],IRemoteDesktopClientSettings interface, rdpappcontainerclient/IRemoteDesktopClientSettings::RetrieveSettings, termserv.iremotedesktopclientsettings_retrievesettings
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientSettings.RetrieveSettings"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientSettings.RetrieveSettings
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientSettings.RetrieveSettings
+- IRemoteDesktopClientSettings.RetrieveSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

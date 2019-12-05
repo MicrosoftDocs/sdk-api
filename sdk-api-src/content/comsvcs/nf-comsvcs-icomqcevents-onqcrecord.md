@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCRecord
 title: IComQCEvents::OnQCRecord (comsvcs.h)
-
 description: Generated when the queued components recorder creates the queued message.
 old-location: cos\icomqcevents_onqcrecord.htm
 tech.root: cossdk
 ms.assetid: 6a7ff5ac-df0f-4aea-b6f1-813c7e22e6c2
-
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCRecord method, IComQCEvents.OnQCRecord, IComQCEvents::OnQCRecord, OnQCRecord, OnQCRecord method [COM+], OnQCRecord method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCRecord, comsvcs/IComQCEvents::OnQCRecord, cos.icomqcevents_onqcrecord
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComQCEvents.OnQCRecord"
+f1_keywords:
+- comsvcs/IComQCEvents.OnQCRecord
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComQCEvents.OnQCRecord
+- IComQCEvents.OnQCRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

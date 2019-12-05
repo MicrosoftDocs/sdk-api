@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_CREATE_LOGON_SESSION
 title: LSA_CREATE_LOGON_SESSION (ntsecpkg.h)
-
 description: Creates logon sessions.
 old-location: security\createlogonsession.htm
 tech.root: SecAuthN
 ms.assetid: 383c935c-a1f2-4d1b-bb02-e7e37f154771
-
 ms.date: 12/05/2018
 ms.keywords: CreateLogonSession, CreateLogonSession callback function [Security], LSA_CREATE_LOGON_SESSION, LSA_CREATE_LOGON_SESSION callback, _lsa_createlogonsession, ntsecpkg/CreateLogonSession, security.createlogonsession
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/CreateLogonSession
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

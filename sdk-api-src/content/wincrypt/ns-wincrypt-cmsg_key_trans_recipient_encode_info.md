@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
 title: CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO (wincrypt.h)
-
 description: Contains encoded key transport information for a message recipient.
 old-location: security\cmsg_key_trans_recipient_encode_info.htm
 tech.root: SecCrypto
 ms.assetid: 20b20759-3d76-4814-9e71-7376dd326f7b
-
 ms.date: 12/05/2018
 ms.keywords: '*PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure [Security], PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO structure pointer [Security], _crypto2_cmsg_key_trans_recipient_encode_info, security.cmsg_key_trans_recipient_encode_info, wincrypt/CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO, wincrypt/PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

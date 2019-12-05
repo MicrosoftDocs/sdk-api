@@ -1,19 +1,17 @@
 ---
 UID: NN:ddpbackup.IDedupBackupSupport
 title: IDedupBackupSupport (ddpbackup.h)
-
 description: Provides a method for restoring a file from a backup store containing copies of Data Deduplication reparse points, metadata, and container files.
 old-location: dedup\idedupbackupsupport.htm
 tech.root: dedup
 ms.assetid: 45AACC37-3C83-4DBA-8C18-26D76ED831BB
-
 ms.date: 12/05/2018
 ms.keywords: IDedupBackupSupport, IDedupBackupSupport interface [Data Deduplication API], IDedupBackupSupport interface [Data Deduplication API],described, ddpbackup/IDedupBackupSupport, dedup.idedupbackupsupport
 ms.topic: interface
-f1_keywords: 
- - "ddpbackup/IDedupBackupSupport"
+f1_keywords:
+- ddpbackup/IDedupBackupSupport
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DdpBackup.dll
+- DdpBackup.dll
 api_name:
- - IDedupBackupSupport
+- IDedupBackupSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl.VPCOLORFLAGS
 title: VPCOLORFLAGS (shobjidl.h)
-
 description: Specifies the use of a color. Used by IVisualProperties methods.
 old-location: shell\VPCOLORFLAGS.htm
 tech.root: shell
 ms.assetid: 438fb7ee-c0ce-4c20-9dbb-51593005d3ad
-
 ms.date: 12/05/2018
 ms.keywords: VPCF_BACKGROUND, VPCF_SORTCOLUMN, VPCF_SUBTEXT, VPCF_TEXT, VPCF_TEXTBACKGROUND, VPCOLORFLAGS, VPCOLORFLAGS enumeration [Windows Shell], _shell_VPCOLORFLAGS, shell.VPCOLORFLAGS, shobjidl/VPCF_BACKGROUND, shobjidl/VPCF_SORTCOLUMN, shobjidl/VPCF_SUBTEXT, shobjidl/VPCF_TEXT, shobjidl/VPCF_TEXTBACKGROUND, shobjidl/VPCOLORFLAGS
 ms.topic: enum
-f1_keywords: 
- - "shobjidl/VPCOLORFLAGS"
+f1_keywords:
+- shobjidl/VPCOLORFLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - VPCOLORFLAGS
+- VPCOLORFLAGS
 targetos: Windows
 req.typenames: VPCOLORFLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.GetStatus
 title: IDMOQualityControl::GetStatus (mediaobj.h)
-
 description: The GetStatus method determines whether quality control is active.
 old-location: dshow\idmoqualitycontrol_getstatus.htm
 tech.root: DirectShow
 ms.assetid: 5c45874f-5546-40cc-a113-bea92bd9784b
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IDMOQualityControl interface, IDMOQualityControl interface [DirectShow],GetStatus method, IDMOQualityControl.GetStatus, IDMOQualityControl::GetStatus, IDMOQualityControlGetStatus, dshow.idmoqualitycontrol_getstatus, mediaobj/IDMOQualityControl::GetStatus
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IDMOQualityControl.GetStatus"
+f1_keywords:
+- mediaobj/IDMOQualityControl.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOQualityControl.GetStatus
+- IDMOQualityControl.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IHandlerActivationHost
 title: IHandlerActivationHost (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\IHandlerActivationHost.htm
 tech.root: shell
 ms.assetid: 4c60a3f8-48ec-4686-9e27-692f88cd1c55
-
 ms.date: 12/05/2018
 ms.keywords: IHandlerActivationHost, IHandlerActivationHost interface [Windows Shell], IHandlerActivationHost interface [Windows Shell],described, shell.IHandlerActivationHost, shobjidl_core/IHandlerActivationHost
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IHandlerActivationHost"
+f1_keywords:
+- shobjidl_core/IHandlerActivationHost
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IHandlerActivationHost
+- IHandlerActivationHost
 targetos: Windows
 req.typenames: 
 req.redist: 

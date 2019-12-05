@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetCopyableFootprints
 title: ID3D12Device::GetCopyableFootprints (d3d12.h)
-
 description: Gets a resource layout that can be copied. Helps the app fill-in D3D12_PLACED_SUBRESOURCE_FOOTPRINT and D3D12_SUBRESOURCE_FOOTPRINT when suballocating space in upload heaps.
 old-location: direct3d12\id3d12device_getcopyablefootprints.htm
 tech.root: direct3d12
 ms.assetid: EB3715A9-5A73-45DA-A46F-7889188409A3
-
 ms.date: 12/05/2018
 ms.keywords: GetCopyableFootprints, GetCopyableFootprints method, GetCopyableFootprints method,ID3D12Device interface, ID3D12Device interface,GetCopyableFootprints method, ID3D12Device.GetCopyableFootprints, ID3D12Device::GetCopyableFootprints, d3d12/ID3D12Device::GetCopyableFootprints, direct3d12.id3d12device_getcopyablefootprints
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.GetCopyableFootprints"
+f1_keywords:
+- d3d12/ID3D12Device.GetCopyableFootprints
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device.GetCopyableFootprints
+- ID3D12Device.GetCopyableFootprints
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateCustomRenderingParams
 title: IDWriteFactory3::CreateCustomRenderingParams (dwrite_3.h)
-
 description: Creates a rendering parameters object with the specified properties.
 old-location: directwrite\idwritefactory3_createcustomrenderingparams.htm
 tech.root: DirectWrite
 ms.assetid: 60FA5675-C1E2-40CC-874D-F7E8942165CC
-
 ms.date: 12/05/2018
 ms.keywords: CreateCustomRenderingParams, CreateCustomRenderingParams method [Direct Write], CreateCustomRenderingParams method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateCustomRenderingParams method, IDWriteFactory3.CreateCustomRenderingParams, IDWriteFactory3::CreateCustomRenderingParams, directwrite.idwritefactory3_createcustomrenderingparams, dwrite_3/IDWriteFactory3::CreateCustomRenderingParams
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory3.CreateCustomRenderingParams"
+f1_keywords:
+- dwrite_3/IDWriteFactory3.CreateCustomRenderingParams
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory3.CreateCustomRenderingParams
+- IDWriteFactory3.CreateCustomRenderingParams
 targetos: Windows
 req.typenames: 
 req.redist: 

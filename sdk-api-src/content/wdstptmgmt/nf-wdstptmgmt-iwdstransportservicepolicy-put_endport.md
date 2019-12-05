@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_EndPort
 title: IWdsTransportServicePolicy::put_EndPort (wdstptmgmt.h)
-
 description: Enables a WDS client computer to configure the end of a UDP port range that is used by WDS transport services.
 old-location: wds\iwdstransportservicepolicy_endport.htm
 tech.root: wds
 ms.assetid: ee458ab8-38f1-43ec-a9b4-a2c31f80fce2
-
 ms.date: 12/05/2018
 ms.keywords: EndPort property [Windows Deployment Services], EndPort property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndPort property, IWdsTransportServicePolicy.EndPort, IWdsTransportServicePolicy.put_EndPort, IWdsTransportServicePolicy::EndPort, IWdsTransportServicePolicy::get_EndPort, IWdsTransportServicePolicy::put_EndPort, put_EndPort, wds.iwdstransportservicepolicy_endport, wdstptmgmt/IWdsTransportServicePolicy::EndPort, wdstptmgmt/IWdsTransportServicePolicy::get_EndPort, wdstptmgmt/IWdsTransportServicePolicy::put_EndPort
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy.EndPort"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy.EndPort
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.EndPort
- - IWdsTransportServicePolicy.get_EndPort
- - IWdsTransportServicePolicy.put_EndPort
+- IWdsTransportServicePolicy.EndPort
+- IWdsTransportServicePolicy.get_EndPort
+- IWdsTransportServicePolicy.put_EndPort
 targetos: Windows
 req.typenames: 
 req.redist: 

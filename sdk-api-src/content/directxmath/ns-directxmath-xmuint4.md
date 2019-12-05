@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMUINT4
 title: XMUINT4 (directxmath.h)
-
 description: A 4D vector where each component is an unsigned integer.
 old-location: dxmath\xmuint4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUINT4
-
 ms.date: 12/05/2018
 ms.keywords: XMUINT4, XMUINT4 structure [DirectX Math Support APIs], directxmath/XMUINT4, dxmath.xmuint4
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMUINT4"
+f1_keywords:
+- directxmath/XMUINT4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMUINT4
+- XMUINT4
 targetos: Windows
 req.typenames: 
 req.redist: 

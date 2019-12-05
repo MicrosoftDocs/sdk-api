@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRCREATEPEN
 title: EMRCREATEPEN (wingdi.h)
-
 description: The EMRCREATEPEN structure contains members for the CreatePen enhanced metafile record.
 old-location: gdi\emrcreatepen.htm
 tech.root: gdi
 ms.assetid: bd338c56-00b4-4eae-9e4f-57ac49809f32
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCREATEPEN, EMRCREATEPEN, EMRCREATEPEN structure [Windows GDI], PEMRCREATEPEN, PEMRCREATEPEN structure pointer [Windows GDI], _win32_EMRCREATEPEN_str, gdi.emrcreatepen, wingdi/EMRCREATEPEN, wingdi/PEMRCREATEPEN"
+ms.keywords: '*PEMRCREATEPEN, EMRCREATEPEN, EMRCREATEPEN structure [Windows GDI], PEMRCREATEPEN, PEMRCREATEPEN structure pointer [Windows GDI], _win32_EMRCREATEPEN_str, gdi.emrcreatepen, wingdi/EMRCREATEPEN, wingdi/PEMRCREATEPEN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCREATEPEN"
+f1_keywords:
+- wingdi/EMRCREATEPEN
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCREATEPEN
+- EMRCREATEPEN
 targetos: Windows
 req.typenames: EMRCREATEPEN, *PEMRCREATEPEN
 req.redist: 

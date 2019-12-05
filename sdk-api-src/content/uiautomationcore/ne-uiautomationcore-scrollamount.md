@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.ScrollAmount
 title: ScrollAmount (uiautomationcore.h)
-
 description: Contains values that specify the direction and distance to scroll.
 old-location: winauto\uiauto_ScrollAmount.htm
 tech.root: WinAuto
 ms.assetid: 94d84a66-5222-48e4-9675-444eb04558a4
-
 ms.date: 12/05/2018
 ms.keywords: ScrollAmount, ScrollAmount enumeration [Windows Accessibility], ScrollAmount_LargeDecrement, ScrollAmount_LargeIncrement, ScrollAmount_NoAmount, ScrollAmount_SmallDecrement, ScrollAmount_SmallIncrement, uiauto.uiauto_ScrollAmount, uiauto_ScrollAmount, uiautomationcore/ScrollAmount, uiautomationcore/ScrollAmount_LargeDecrement, uiautomationcore/ScrollAmount_LargeIncrement, uiautomationcore/ScrollAmount_NoAmount, uiautomationcore/ScrollAmount_SmallDecrement, uiautomationcore/ScrollAmount_SmallIncrement, winauto.uiauto_ScrollAmount
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/ScrollAmount"
+f1_keywords:
+- uiautomationcore/ScrollAmount
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ScrollAmount
+- ScrollAmount
 targetos: Windows
 req.typenames: 
 req.redist: 

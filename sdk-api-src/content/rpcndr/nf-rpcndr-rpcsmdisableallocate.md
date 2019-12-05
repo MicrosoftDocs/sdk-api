@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSmDisableAllocate
 title: RpcSmDisableAllocate function (rpcndr.h)
-
 description: The RpcSmDisableAllocate function frees resources and memory within the stub memory&#8211;management environment.
 old-location: rpc\rpcsmdisableallocate.htm
 tech.root: Rpc
 ms.assetid: 229cab16-eabf-49d3-a61e-3c06e001d0ac
-
 ms.date: 12/05/2018
 ms.keywords: RpcSmDisableAllocate, RpcSmDisableAllocate function [RPC], _rpc_rpcsmdisableallocate, rpc.rpcsmdisableallocate, rpcndr/RpcSmDisableAllocate
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSmDisableAllocate"
+f1_keywords:
+- rpcndr/RpcSmDisableAllocate
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSmDisableAllocate
+- RpcSmDisableAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 

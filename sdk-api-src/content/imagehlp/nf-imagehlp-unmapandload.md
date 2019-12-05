@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.UnMapAndLoad
 title: UnMapAndLoad function (imagehlp.h)
-
 description: Deallocate all resources that are allocated by a previous call to the MapAndLoad function.
 old-location: base\unmapandload.htm
 tech.root: Debug
 ms.assetid: 63a39d2b-a3a1-4c91-be93-f9a681756293
-
 ms.date: 12/05/2018
 ms.keywords: UnMapAndLoad, UnMapAndLoad function, _win32_unmapandload, base.unmapandload, imagehlp/UnMapAndLoad
 ms.topic: function
 f1_keywords:
 - imagehlp/UnMapAndLoad
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows

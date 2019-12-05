@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.SetName
 title: IWMProfile::SetName (wmsdkidl.h)
-
 description: The SetName method specifies the name of a profile.
 old-location: wmformat\iwmprofile_setname.htm
 tech.root: wmformat
 ms.assetid: b4b38ec1-8fd8-4bfe-8513-33132379f6da
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],SetName method, IWMProfile.SetName, IWMProfile2 interface [windows Media Format],SetName method, IWMProfile2::SetName, IWMProfile3 interface [windows Media Format],SetName method, IWMProfile3::SetName, IWMProfile::SetName, IWMProfileSetName, SetName, SetName method [windows Media Format], SetName method [windows Media Format],IWMProfile interface, SetName method [windows Media Format],IWMProfile2 interface, SetName method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_setname, wmsdkidl/IWMProfile2::SetName, wmsdkidl/IWMProfile3::SetName, wmsdkidl/IWMProfile::SetName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.SetName"
+f1_keywords:
+- wmsdkidl/IWMProfile.SetName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.SetName
- - IWMProfile2.SetName
- - IWMProfile3.SetName
+- IWMProfile.SetName
+- IWMProfile2.SetName
+- IWMProfile3.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 

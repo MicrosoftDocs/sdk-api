@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynthSink.SetDirectSound
 title: IDirectMusicSynthSink::SetDirectSound (dmusics.h)
-
 description: The SetDirectSound method connects the synthesizer sink with an existing DirectSound object and a DirectSound buffer.
 old-location: audio\idirectmusicsynthsink_setdirectsound.htm
 tech.root: audio
 ms.assetid: 879292e1-b8e9-4f11-bb3d-f92c18e915e2
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynthSink interface [Audio Devices],SetDirectSound method, IDirectMusicSynthSink.SetDirectSound, IDirectMusicSynthSink::SetDirectSound, SetDirectSound, SetDirectSound method [Audio Devices], SetDirectSound method [Audio Devices],IDirectMusicSynthSink interface, audio.idirectmusicsynthsink_setdirectsound, audmp-routines_6c018b77-9478-4754-b40e-428ba758f7dc.xml, dmusics/IDirectMusicSynthSink::SetDirectSound
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynthSink.SetDirectSound"
+f1_keywords:
+- dmusics/IDirectMusicSynthSink.SetDirectSound
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynthSink.SetDirectSound
+- IDirectMusicSynthSink.SetDirectSound
 targetos: Windows
 req.typenames: 
 req.redist: 

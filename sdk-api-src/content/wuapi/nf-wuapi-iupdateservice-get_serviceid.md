@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ServiceID
 title: IUpdateService::get_ServiceID (wuapi.h)
-
 description: Retrieves or sets the identifier for a service.
 old-location: wua\iupdateservice_serviceid.htm
 tech.root: Wua_Sdk
 ms.assetid: 55cea655-09ac-410e-b802-f54b797ac609
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],ServiceID property, IUpdateService.ServiceID, IUpdateService.get_ServiceID, IUpdateService::ServiceID, IUpdateService::get_ServiceID, ServiceID property [Windows Update Agent], ServiceID property [Windows Update Agent],IUpdateService interface, get_ServiceID, wua.iupdateservice_serviceid, wuapi/IUpdateService::ServiceID, wuapi/IUpdateService::get_ServiceID
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateService.ServiceID"
+f1_keywords:
+- wuapi/IUpdateService.ServiceID
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateService.ServiceID
- - IUpdateService.get_ServiceID
+- IUpdateService.ServiceID
+- IUpdateService.get_ServiceID
 targetos: Windows
 req.typenames: 
 req.redist: 

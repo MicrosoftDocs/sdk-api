@@ -1,19 +1,17 @@
 ---
 UID: NF:frquery.CFrameworkQuery.IsPropertyRequired
 title: CFrameworkQuery::IsPropertyRequired (frquery.h)
-
 description: The IsPropertyRequired method determines if a particular property was requested by the query. Both the SELECT and WHERE clauses are checked.
 old-location: wmi\cframeworkquery_ispropertyrequired.htm
 tech.root: WmiSdk
 ms.assetid: 36f5a261-435c-494d-aae5-a420eee030f2
-
 ms.date: 12/05/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],IsPropertyRequired method, CFrameworkQuery.IsPropertyRequired, CFrameworkQuery::IsPropertyRequired, IsPropertyRequired, IsPropertyRequired method [Windows Management Instrumentation], IsPropertyRequired method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_ispropertyrequired, frquery/CFrameworkQuery::IsPropertyRequired, wmi.cframeworkquery_ispropertyrequired
 ms.topic: method
-f1_keywords: 
- - "frquery/CFrameworkQuery.IsPropertyRequired"
+f1_keywords:
+- frquery/CFrameworkQuery.IsPropertyRequired
 dev_langs:
- - c++
+- c++
 req.header: frquery.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CFrameworkQuery.IsPropertyRequired
+- CFrameworkQuery.IsPropertyRequired
 targetos: Windows
 req.typenames: 
 req.redist: 

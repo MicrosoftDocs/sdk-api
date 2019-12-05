@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtDevice.get_ExternalDeviceVersion
 title: IAMExtDevice::get_ExternalDeviceVersion (strmif.h)
-
 description: The get_ExternalDeviceVersion retrieves the version number of the external device's operating software.
 old-location: dshow\iamextdevice_get_externaldeviceversion.htm
 tech.root: DirectShow
 ms.assetid: 66a98ad3-850a-4b41-a169-f971fde83266
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtDevice interface [DirectShow],get_ExternalDeviceVersion method, IAMExtDevice.get_ExternalDeviceVersion, IAMExtDevice::get_ExternalDeviceVersion, IAMExtDeviceget_ExternalDeviceVersion, dshow.iamextdevice_get_externaldeviceversion, get_ExternalDeviceVersion, get_ExternalDeviceVersion method [DirectShow], get_ExternalDeviceVersion method [DirectShow],IAMExtDevice interface, strmif/IAMExtDevice::get_ExternalDeviceVersion
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtDevice.get_ExternalDeviceVersion"
+f1_keywords:
+- strmif/IAMExtDevice.get_ExternalDeviceVersion
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtDevice.get_ExternalDeviceVersion
+- IAMExtDevice.get_ExternalDeviceVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

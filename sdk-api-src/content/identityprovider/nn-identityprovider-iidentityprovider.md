@@ -1,19 +1,17 @@
 ---
 UID: NN:identityprovider.IIdentityProvider
 title: IIdentityProvider (identityprovider.h)
-
 description: Represents an identity provider.
 old-location: security\iidentityprovider.htm
 tech.root: SecAuthN
 ms.assetid: 0f23e369-1501-4e72-94d1-dadb9dac5be6
-
 ms.date: 12/05/2018
 ms.keywords: IIdentityProvider, IIdentityProvider interface [Security], IIdentityProvider interface [Security],described, identityprovider/IIdentityProvider, security.iidentityprovider
 ms.topic: interface
-f1_keywords: 
- - "identityprovider/IIdentityProvider"
+f1_keywords:
+- identityprovider/IIdentityProvider
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider
+- IIdentityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0021
 title: XPS_GLYPH_INDEX (xpsobjectmodel.h)
-
 description: Describes the placement and location of a glyph.
 old-location: xps\xps_glyph_index.htm
 tech.root: printdocs
 ms.assetid: 0ea30e0f-f32b-4a38-9591-27cb1fe7f234
-
 ms.date: 12/05/2018
 ms.keywords: XPS_GLYPH_INDEX, XPS_GLYPH_INDEX structure [XPS Documents and Packaging], xps.xps_glyph_index, xpsobjectmodel/XPS_GLYPH_INDEX
 ms.topic: struct
-f1_keywords: 
- - "xpsobjectmodel/XPS_GLYPH_INDEX"
+f1_keywords:
+- xpsobjectmodel/XPS_GLYPH_INDEX
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_GLYPH_INDEX
+- XPS_GLYPH_INDEX
 targetos: Windows
 req.typenames: XPS_GLYPH_INDEX
 req.redist: 

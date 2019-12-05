@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorTanEst
 title: XMVectorTanEst function (directxmath.h)
-
 description: Estimates the tangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectortanest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorTanEst(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorTanEst, XMVectorTanEst, XMVectorTanEst method [DirectX Math Support APIs], dxmath.xmvectortanest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorTanEst"
+f1_keywords:
+- directxmath/XMVectorTanEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorTanEst
+- XMVectorTanEst
 targetos: Windows
 req.typenames: 
 req.redist: 

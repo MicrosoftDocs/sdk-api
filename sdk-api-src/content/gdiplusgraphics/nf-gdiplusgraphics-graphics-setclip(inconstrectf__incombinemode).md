@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetClip(IN const RectF &,IN CombineMode)
 title: Graphics::SetClip(IN const RectF &,IN CombineMode) (gdiplusgraphics.h)
-
 description: The Graphics::SetClip method updates the clipping region of this Graphics object to a region that is the combination of itself and a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetClip_RectF_rect_CombineMode_combineMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicssetclipmethods\setclip_95rectfamprect_combinemodecombinemode.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetClip method, Graphics.SetClip, Graphics.SetClip(IN const RectF &,IN CombineMode), Graphics.SetClip(const RectF&,CombineMode), Graphics::SetClip, Graphics::SetClip(IN const RectF &,IN CombineMode), SetClip, SetClip method [GDI+], SetClip method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetClip_RectF_rect_CombineMode_combineMode_, gdiplus._gdiplus_CLASS_Graphics_SetClip_RectF_rect_CombineMode_combineMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.SetClip"
+f1_keywords:
+- gdiplusgraphics/Graphics.SetClip
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.SetClip
+- Graphics.SetClip
 targetos: Windows
 req.typenames: 
 req.redist: 

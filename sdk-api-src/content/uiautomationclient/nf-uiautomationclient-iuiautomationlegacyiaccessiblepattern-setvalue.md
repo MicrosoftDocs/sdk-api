@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.SetValue
 title: IUIAutomationLegacyIAccessiblePattern::SetValue (uiautomationclient.h)
-
 description: Sets the Microsoft Active Accessibility value property for the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: c5891bb3-e727-430c-a4d4-5c59750b01ce
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],SetValue method, IUIAutomationLegacyIAccessiblePattern.SetValue, IUIAutomationLegacyIAccessiblePattern::SetValue, SetValue, SetValue method [Windows Accessibility], SetValue method [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::SetValue, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_SetValue
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.SetValue"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.SetValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.SetValue
+- IUIAutomationLegacyIAccessiblePattern.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

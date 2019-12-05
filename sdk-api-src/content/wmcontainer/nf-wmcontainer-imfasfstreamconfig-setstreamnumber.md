@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.SetStreamNumber
 title: IMFASFStreamConfig::SetStreamNumber (wmcontainer.h)
-
 description: Assigns a stream number to the stream.
 old-location: mf\imfasfstreamconfig_setstreamnumber.htm
 tech.root: medfound
 ms.assetid: 5b22d857-fced-4094-a0ad-891f3ccf8b18
-
 ms.date: 12/05/2018
 ms.keywords: 5b22d857-fced-4094-a0ad-891f3ccf8b18, IMFASFStreamConfig interface [Media Foundation],SetStreamNumber method, IMFASFStreamConfig.SetStreamNumber, IMFASFStreamConfig::SetStreamNumber, SetStreamNumber, SetStreamNumber method [Media Foundation], SetStreamNumber method [Media Foundation],IMFASFStreamConfig interface, mf.imfasfstreamconfig_setstreamnumber, wmcontainer/IMFASFStreamConfig::SetStreamNumber
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamConfig.SetStreamNumber"
+f1_keywords:
+- wmcontainer/IMFASFStreamConfig.SetStreamNumber
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamConfig.SetStreamNumber
+- IMFASFStreamConfig.SetStreamNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

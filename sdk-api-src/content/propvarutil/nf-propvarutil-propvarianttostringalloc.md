@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToStringAlloc
 title: PropVariantToStringAlloc function (propvarutil.h)
-
 description: Extracts a string property value from a PROPVARIANT structure.
 old-location: properties\PropVariantToStringAlloc.htm
 tech.root: properties
 ms.assetid: 5e47cc72-4179-4ebe-8700-87861146b3d7
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringAlloc, PropVariantToStringAlloc function [Windows Properties], _shell_PropVariantToStringAlloc, properties.PropVariantToStringAlloc, propvarutil/PropVariantToStringAlloc, shell.PropVariantToStringAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToStringAlloc"
+f1_keywords:
+- propvarutil/PropVariantToStringAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToStringAlloc
+- PropVariantToStringAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

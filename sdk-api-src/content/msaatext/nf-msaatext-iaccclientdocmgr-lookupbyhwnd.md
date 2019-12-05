@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IAccClientDocMgr.LookupByHWND
 title: IAccClientDocMgr::LookupByHWND (msaatext.h)
-
 description: Clients call IAccClientDocMgr::LookupByHWND to get a document by providing the HWND for the document.
 old-location: winauto\iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd.htm
 tech.root: WinAuto
 ms.assetid: fb67c208-b79b-4219-ba5b-2235ae4a1dcf
-
 ms.date: 12/05/2018
 ms.keywords: IAccClientDocMgr interface [Windows Accessibility],LookupByHWND method, IAccClientDocMgr.LookupByHWND, IAccClientDocMgr::LookupByHWND, LookupByHWND, LookupByHWND method [Windows Accessibility], LookupByHWND method [Windows Accessibility],IAccClientDocMgr interface, _msaa_IAccClientDocMgr_LookupByHWND, msaa.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd, msaatext/IAccClientDocMgr::LookupByHWND, winauto.iaccclientdocmgr_iaccclientdocmgr__lookupbyhwnd
 ms.topic: method
-f1_keywords: 
- - "msaatext/IAccClientDocMgr.LookupByHWND"
+f1_keywords:
+- msaatext/IAccClientDocMgr.LookupByHWND
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IAccClientDocMgr.LookupByHWND
+- IAccClientDocMgr.LookupByHWND
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

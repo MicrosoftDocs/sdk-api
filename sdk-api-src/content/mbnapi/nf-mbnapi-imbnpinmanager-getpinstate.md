@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPinManager.GetPinState
 title: IMbnPinManager::GetPinState (mbnapi.h)
-
 description: Gets the current PIN state of the device.
 old-location: mbn\imbnpinmanager_getpinstate.htm
 tech.root: mbn
 ms.assetid: 34378403-cf58-4ada-9eb6-f5dad5f69bc9
-
 ms.date: 12/05/2018
 ms.keywords: GetPinState, GetPinState method [Microsoft Broadband Networks], GetPinState method [Microsoft Broadband Networks],IMbnPinManager interface, IMbnPinManager interface [Microsoft Broadband Networks],GetPinState method, IMbnPinManager.GetPinState, IMbnPinManager::GetPinState, mbn.imbnpinmanager_getpinstate, mbnapi/IMbnPinManager::GetPinState
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPinManager.GetPinState"
+f1_keywords:
+- mbnapi/IMbnPinManager.GetPinState
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinManager.GetPinState
+- IMbnPinManager.GetPinState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UInt8Add
 title: UInt8Add function (intsafe.h)
-
 description: Adds two values of type UINT8.
 old-location: shell\UInt8Add.htm
 tech.root: shell
 ms.assetid: 576be346-55bc-41a7-93d3-612b6ef8a267
-
 ms.date: 12/05/2018
 ms.keywords: UInt8Add, UInt8Add function [Windows Shell], intsafe/UInt8Add, shell.UInt8Add
 ms.topic: function
-f1_keywords: 
- - "intsafe/UInt8Add"
+f1_keywords:
+- intsafe/UInt8Add
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - UInt8Add
+- UInt8Add
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptDuplicateKey
 title: BCryptDuplicateKey function (bcrypt.h)
-
 description: Creates a duplicate of a symmetric key.
 old-location: security\bcryptduplicatekey_func.htm
 tech.root: SecCNG
 ms.assetid: 13a0b904-353f-498a-bdc2-2fd4e51144ff
-
 ms.date: 12/05/2018
 ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptDuplicateKey"
+f1_keywords:
+- bcrypt/BCryptDuplicateKey
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptDuplicateKey
+- BCryptDuplicateKey
 targetos: Windows
 req.typenames: 
 req.redist: 

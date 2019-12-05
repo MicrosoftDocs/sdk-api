@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Add
 title: IInkStrokes::Add (msinkaut.h)
-
 description: Adds an IInkStrokeDisp object or InkStrokes collection to an existing InkStrokes collection.
 old-location: tablet\inkstrokes_add.htm
 tech.root: tablet
 ms.assetid: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86
-
 ms.date: 12/05/2018
 ms.keywords: 5ea0932a-ba21-4c6a-a3bc-c122b5805e86, Add, Add method [Tablet PC], Add method [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Add method, IInkStrokes.Add, IInkStrokes::Add, msinkaut/IInkStrokes::Add, tablet.inkstrokes_add
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.Add"
+f1_keywords:
+- msinkaut/IInkStrokes.Add
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.Add
+- IInkStrokes.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

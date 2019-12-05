@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriter.RemoveValue
 title: IWICMetadataWriter::RemoveValue (wincodecsdk.h)
-
 description: Removes the metadata item that matches the given parameters.
 old-location: wic\_wic_codec_iwicmetadatawriter_removevalue.htm
 tech.root: wic
 ms.assetid: cc47b0d1-5772-4609-9696-816d39d04b34
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter interface [Windows Imaging Component],RemoveValue method, IWICMetadataWriter.RemoveValue, IWICMetadataWriter::RemoveValue, RemoveValue, RemoveValue method [Windows Imaging Component], RemoveValue method [Windows Imaging Component],IWICMetadataWriter interface, _wic_codec_iwicmetadatawriter_removevalue, wic._wic_codec_iwicmetadatawriter_removevalue, wincodecsdk/IWICMetadataWriter::RemoveValue
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataWriter.RemoveValue"
+f1_keywords:
+- wincodecsdk/IWICMetadataWriter.RemoveValue
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataWriter.RemoveValue
+- IWICMetadataWriter.RemoveValue
 targetos: Windows
 req.typenames: 
 req.redist: 

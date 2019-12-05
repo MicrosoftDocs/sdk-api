@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 title: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
-
 description: Receives the volume information from a call to FSCTL_QUERY_ON_DISK_VOLUME_INFO.
 old-location: fs\file_query_on_disk_vol_info_buffer.htm
 tech.root: FileIO
 ms.assetid: 812c8840-5e69-4a85-ad93-3be5bf09b917
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure [Files], PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure pointer [Files], fs.file_query_on_disk_vol_info_buffer, winioctl/FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, winioctl/PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
+ms.keywords: '*PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, FILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure [Files], PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER, PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER structure pointer [Files], fs.file_query_on_disk_vol_info_buffer, winioctl/FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, winioctl/PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_QUERY_ON_DISK_VOL_INFO_BUFFER"
+f1_keywords:
+- winioctl/FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
+- FILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 targetos: Windows
 req.typenames: FILE_QUERY_ON_DISK_VOL_INFO_BUFFER, *PFILE_QUERY_ON_DISK_VOL_INFO_BUFFER
 req.redist: 

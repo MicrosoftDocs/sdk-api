@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_MouseIcon
 title: IInkOverlay::get_MouseIcon (msinkaut.h)
-
 description: Gets or sets the custom mouse icon.
 old-location: tablet\inkoverlay_mouseicon.htm
 tech.root: tablet
 ms.assetid: 4bfc82db-9086-4ad5-9db0-84d7fedadec0
-
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MouseIcon property, IInkOverlay.MouseIcon, IInkOverlay.get_MouseIcon, IInkOverlay::MouseIcon, IInkOverlay::get_MouseIcon, IInkOverlay::put_MouseIcon, InkOverlay.get_MouseIcon, InkOverlay.put_MouseIcon, MouseIcon property [Tablet PC], MouseIcon property [Tablet PC],IInkOverlay interface, get_MouseIcon, msinkaut/IInkOverlay::MouseIcon, msinkaut/IInkOverlay::get_MouseIcon, msinkaut/IInkOverlay::put_MouseIcon, put_MouseIcon, putref_MouseIcon, tablet.inkoverlay_mouseicon
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.MouseIcon"
+f1_keywords:
+- msinkaut/IInkOverlay.MouseIcon
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.MouseIcon
- - IInkOverlay.get_MouseIcon
- - IInkOverlay.put_MouseIcon
- - InkOverlay.get_MouseIcon
- - InkOverlay.put_MouseIcon
+- IInkOverlay.MouseIcon
+- IInkOverlay.get_MouseIcon
+- IInkOverlay.put_MouseIcon
+- InkOverlay.get_MouseIcon
+- InkOverlay.put_MouseIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

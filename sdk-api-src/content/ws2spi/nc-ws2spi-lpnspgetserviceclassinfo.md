@@ -1,19 +1,17 @@
 ---
 UID: NC:ws2spi.LPNSPGETSERVICECLASSINFO
 title: LPNSPGETSERVICECLASSINFO (ws2spi.h)
-
 description: Retrieves all the pertinent class information (schema) pertaining to the namespace provider.
 old-location: winsock\nspgetserviceclassinfo_2.htm
 tech.root: WinSock
 ms.assetid: babe1c96-9077-4d91-a52a-839c89d7a83b
-
 ms.date: 12/05/2018
 ms.keywords: LPNSPGETSERVICECLASSINFO, NSPGetServiceClassInfo, NSPGetServiceClassInfo function [Winsock], _win32_nspgetserviceclassinfo_2, winsock.nspgetserviceclassinfo_2, ws2spi/NSPGetServiceClassInfo
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPGetServiceClassInfo
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PostMoveItem
 title: IFileOperationProgressSink::PostMoveItem (shobjidl_core.h)
-
 description: Performs caller-implemented actions after the move process for each item is complete.
 old-location: shell\IFileOperationProgressSink_PostMoveItem.htm
 tech.root: shell
 ms.assetid: cd353e15-4b1c-4d02-aa3f-c8d744a1722f
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PostMoveItem method, IFileOperationProgressSink.PostMoveItem, IFileOperationProgressSink::PostMoveItem, PostMoveItem, PostMoveItem method [Windows Shell], PostMoveItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PostMoveItem, shell.IFileOperationProgressSink_PostMoveItem, shobjidl_core/IFileOperationProgressSink::PostMoveItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PostMoveItem"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PostMoveItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PostMoveItem
+- IFileOperationProgressSink.PostMoveItem
 targetos: Windows
 req.typenames: 
 req.redist: 

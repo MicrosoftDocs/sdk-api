@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSmSetThreadHandle
 title: RpcSmSetThreadHandle function (rpcndr.h)
-
 description: The RpcSmSetThreadHandle function sets a thread handle for the stub memory&#8211;management environment.
 old-location: rpc\rpcsmsetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: 90bfd7f3-c95b-450b-8578-6e46d3ac7517
-
 ms.date: 12/05/2018
 ms.keywords: RpcSmSetThreadHandle, RpcSmSetThreadHandle function [RPC], _rpc_rpcsmsetthreadhandle, rpc.rpcsmsetthreadhandle, rpcndr/RpcSmSetThreadHandle
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSmSetThreadHandle"
+f1_keywords:
+- rpcndr/RpcSmSetThreadHandle
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSmSetThreadHandle
+- RpcSmSetThreadHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

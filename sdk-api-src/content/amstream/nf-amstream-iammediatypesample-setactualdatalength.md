@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetActualDataLength
 title: IAMMediaTypeSample::SetActualDataLength (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SetActualDataLength method sets the sample's data length.
 old-location: dshow\iammediatypesample_setactualdatalength.htm
 tech.root: DirectShow
 ms.assetid: 158a1761-7d42-4611-9667-9e717b23a2da
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaTypeSample interface [DirectShow],SetActualDataLength method, IAMMediaTypeSample.SetActualDataLength, IAMMediaTypeSample::SetActualDataLength, IAMMediaTypeSampleSetActualDataLength, SetActualDataLength, SetActualDataLength method [DirectShow], SetActualDataLength method [DirectShow],IAMMediaTypeSample interface, amstream/IAMMediaTypeSample::SetActualDataLength, dshow.iammediatypesample_setactualdatalength
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMediaTypeSample.SetActualDataLength"
+f1_keywords:
+- amstream/IAMMediaTypeSample.SetActualDataLength
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMediaTypeSample.SetActualDataLength
+- IAMMediaTypeSample.SetActualDataLength
 targetos: Windows
 req.typenames: 
 req.redist: 

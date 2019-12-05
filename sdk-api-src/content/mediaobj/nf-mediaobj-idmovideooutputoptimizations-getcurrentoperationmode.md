@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.GetCurrentOperationMode
 title: IDMOVideoOutputOptimizations::GetCurrentOperationMode (mediaobj.h)
-
 description: The GetCurrentOperationMode method retrieves the optimization features in effect.
 old-location: dshow\idmovideooutputoptimizations_getcurrentoperationmode.htm
 tech.root: DirectShow
 ms.assetid: ddfc65ea-e336-40b8-a901-53ebc3ee7d86
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentOperationMode, GetCurrentOperationMode method [DirectShow], GetCurrentOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, IDMOVideoOutputOptimizations interface [DirectShow],GetCurrentOperationMode method, IDMOVideoOutputOptimizations.GetCurrentOperationMode, IDMOVideoOutputOptimizations::GetCurrentOperationMode, IDMOVideoOutputOptimizationsGetCurrentOperationMode, dshow.idmovideooutputoptimizations_getcurrentoperationmode, mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IDMOVideoOutputOptimizations.GetCurrentOperationMode"
+f1_keywords:
+- mediaobj/IDMOVideoOutputOptimizations.GetCurrentOperationMode
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations.GetCurrentOperationMode
+- IDMOVideoOutputOptimizations.GetCurrentOperationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

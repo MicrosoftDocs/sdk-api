@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptSetProperty
 title: BCryptSetProperty function (bcrypt.h)
-
 description: Sets the value of a named property for a CNG object.
 old-location: security\bcryptsetproperty_func.htm
 tech.root: SecCNG
 ms.assetid: 687f3410-d28b-4ce2-a2a1-c564f757c668
-
 ms.date: 12/05/2018
 ms.keywords: BCryptSetProperty, BCryptSetProperty function [Security], bcrypt/BCryptSetProperty, security.bcryptsetproperty_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptSetProperty"
+f1_keywords:
+- bcrypt/BCryptSetProperty
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptSetProperty
+- BCryptSetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.OpenVirtualDisk
 title: OpenVirtualDisk function (virtdisk.h)
-
 description: Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
 old-location: vhd\openvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
-
 ms.date: 12/05/2018
 ms.keywords: OpenVirtualDisk, OpenVirtualDisk function [VHD], vdssys/OpenVirtualDisk, vhd.openvirtualdisk, virtdisk/OpenVirtualDisk
 ms.topic: function
-f1_keywords: 
- - "virtdisk/OpenVirtualDisk"
+f1_keywords:
+- virtdisk/OpenVirtualDisk
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - OpenVirtualDisk
+- OpenVirtualDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

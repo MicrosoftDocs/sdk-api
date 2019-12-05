@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback.OnSample
 title: IMFCaptureEngineOnSampleCallback::OnSample (mfcaptureengine.h)
-
 description: Called when the capture sink receives a sample.
 old-location: mf\imfcaptureengineonsamplecallback_onsample.htm
 tech.root: medfound
 ms.assetid: 83FEFE33-DEAD-4CE0-9EEE-B8F3801ADC1C
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngineOnSampleCallback interface [Media Foundation],OnSample method, IMFCaptureEngineOnSampleCallback.OnSample, IMFCaptureEngineOnSampleCallback::OnSample, OnSample, OnSample method [Media Foundation], OnSample method [Media Foundation],IMFCaptureEngineOnSampleCallback interface, mf.imfcaptureengineonsamplecallback_onsample, mfcaptureengine/IMFCaptureEngineOnSampleCallback::OnSample
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngineOnSampleCallback.OnSample"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngineOnSampleCallback.OnSample
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnSampleCallback.OnSample
+- IMFCaptureEngineOnSampleCallback.OnSample
 targetos: Windows
 req.typenames: 
 req.redist: 

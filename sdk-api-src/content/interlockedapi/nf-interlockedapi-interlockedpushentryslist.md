@@ -1,19 +1,17 @@
 ---
 UID: NF:interlockedapi.InterlockedPushEntrySList
 title: InterlockedPushEntrySList function (interlockedapi.h)
-
 description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\interlockedpushentryslist.htm
 tech.root: Sync
 ms.assetid: 60e3b6f7-f556-4699-be90-db7330cfb8ca
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushEntrySList, InterlockedPushEntrySList function, _win32_interlockedpushentryslist, base.interlockedpushentryslist, interlockedapi/InterlockedPushEntrySList, winbase/InterlockedPushEntrySList
 ms.topic: function
-f1_keywords: 
- - "interlockedapi/InterlockedPushEntrySList"
+f1_keywords:
+- interlockedapi/InterlockedPushEntrySList
 dev_langs:
- - c++
+- c++
 req.header: interlockedapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-interlocked-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-interlocked-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - Ntoskrnl.exe
+- Kernel32.dll
+- API-MS-Win-Core-interlocked-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-interlocked-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- Ntoskrnl.exe
 api_name:
- - InterlockedPushEntrySList
+- InterlockedPushEntrySList
 targetos: Windows
 req.typenames: 
 req.redist: 

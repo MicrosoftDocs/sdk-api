@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.OleSavePictureFile
 title: OleSavePictureFile function (olectl.h)
-
 description: Saves a picture to a file.
 old-location: automat\olesavepicturefile.htm
 tech.root: automat
 ms.assetid: ac46d390-9e08-4f79-a621-60ea75f4acff
-
 ms.date: 12/05/2018
 ms.keywords: OleSavePictureFile, OleSavePictureFile function [Automation], _oa96_OleSavePictureFile, automat.olesavepicturefile, olectl/OleSavePictureFile
 ms.topic: function
-f1_keywords: 
- - "olectl/OleSavePictureFile"
+f1_keywords:
+- olectl/OleSavePictureFile
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - OleSavePictureFile
+- OleSavePictureFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsHiddenBitSet
 title: IATSC_VCT::GetRecordIsHiddenBitSet (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordishiddenbitset.htm
 tech.root: mstv
 ms.assetid: ef02da20-7c81-4c0b-83fd-7e4c0a36ea1a
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsHiddenBitSet, GetRecordIsHiddenBitSet method [Microsoft TV Technologies], GetRecordIsHiddenBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsHiddenBitSet method, IATSC_VCT.GetRecordIsHiddenBitSet, IATSC_VCT::GetRecordIsHiddenBitSet, IATSC_VCTGetRecordIsHiddenBitSet, atscpsipparser/IATSC_VCT::GetRecordIsHiddenBitSet, mstv.iatsc_vct_getrecordishiddenbitset
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordIsHiddenBitSet"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordIsHiddenBitSet
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordIsHiddenBitSet
+- IATSC_VCT.GetRecordIsHiddenBitSet
 targetos: Windows
 req.typenames: 
 req.redist: 

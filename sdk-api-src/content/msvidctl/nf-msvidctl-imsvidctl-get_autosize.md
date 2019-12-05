@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_AutoSize
 title: IMSVidCtl::get_AutoSize (msvidctl.h)
-
 description: The get_AutoSize method retrieves a value that determines whether the Video Control is automatically resized to display its entire contents.
 old-location: mstv\imsvidctl_get_autosize.htm
 tech.root: mstv
 ms.assetid: 8adbc701-fd05-4520-8f06-95bd67a08d1e
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_AutoSize method, IMSVidCtl.get_AutoSize, IMSVidCtl::get_AutoSize, IMSVidCtlget_AutoSize, get_AutoSize, get_AutoSize method [Microsoft TV Technologies], get_AutoSize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_autosize, msvidctl/IMSVidCtl::get_AutoSize
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_AutoSize"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_AutoSize
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_AutoSize
+- IMSVidCtl.get_AutoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

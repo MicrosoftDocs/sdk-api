@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetPropertyCount
 title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
-
 description: Retrieve the property count for the effect.
 old-location: w_graph_fx\igraphicseffectd2d1interop_getpropertycount.htm
 tech.root: w_graph_fx
 ms.assetid: B1A89551-72B3-4C30-B75F-5159DD774E04
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCount, GetPropertyCount method, GetPropertyCount method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetPropertyCount method, IGraphicsEffectD2D1Interop.GetPropertyCount, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetPropertyCount, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getpropertycount, windows/IGraphicsEffectD2D1Interop::GetPropertyCount
 ms.topic: method
-f1_keywords: 
- - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetPropertyCount"
+f1_keywords:
+- windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetPropertyCount
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.effects.interop.h
+- windows.graphics.effects.interop.h
 api_name:
- - IGraphicsEffectD2D1Interop.GetPropertyCount
+- IGraphicsEffectD2D1Interop.GetPropertyCount
 targetos: Windows
 req.typenames: 
 req.redist: 

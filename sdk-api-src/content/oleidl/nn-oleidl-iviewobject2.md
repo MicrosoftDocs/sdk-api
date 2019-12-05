@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IViewObject2
 title: IViewObject2 (oleidl.h)
-
 description: An extension to the IViewObject interface which returns the size of the drawing for a given view of an object. You can prevent the object from being run if it isn't already running by calling this method instead of IOleObject::GetExtent.
 old-location: com\iviewobject2.htm
 tech.root: com
 ms.assetid: b150ca4b-c53c-4bcb-85fa-461f9fa8b63b
-
 ms.date: 12/05/2018
 ms.keywords: IViewObject2, IViewObject2 interface [COM], IViewObject2 interface [COM],described, _ole_iviewobject2, com.iviewobject2, oleidl/IViewObject2
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IViewObject2"
+f1_keywords:
+- oleidl/IViewObject2
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IViewObject2
+- IViewObject2
 targetos: Windows
 req.typenames: 
 req.redist: 

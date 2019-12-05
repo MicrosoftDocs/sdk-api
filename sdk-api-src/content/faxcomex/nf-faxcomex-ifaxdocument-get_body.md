@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_Body
 title: IFaxDocument::get_Body (faxcomex.h)
-
 description: The IFaxDocument::get_Body property provides the path to the file that comprises the body of a fax. The body of a fax consists of the fax pages other than the cover page.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_body_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1d6h.htm
-
 ms.date: 12/05/2018
 ms.keywords: Body property [Fax Service], Body property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],Body property, IFaxDocument.Body, IFaxDocument.get_Body, IFaxDocument::Body, IFaxDocument::get_Body, IFaxDocument::put_Body, _mfax_faxdocument.body, fax._mfax_faxdocument_body, fax._mfax_faxdocument_cpp_mfax_faxdocument_body_cpp, faxcomex/IFaxDocument::Body, faxcomex/IFaxDocument::get_Body, faxcomex/IFaxDocument::put_Body, get_Body
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.Body"
+f1_keywords:
+- faxcomex/IFaxDocument.Body
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.Body
- - IFaxDocument.get_Body
- - IFaxDocument.put_Body
+- IFaxDocument.Body
+- IFaxDocument.get_Body
+- IFaxDocument.put_Body
 targetos: Windows
 req.typenames: 
 req.redist: 

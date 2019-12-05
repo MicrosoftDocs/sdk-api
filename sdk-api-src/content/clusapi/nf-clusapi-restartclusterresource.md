@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.RestartClusterResource
 title: RestartClusterResource function (clusapi.h)
-
 description: Restarts a cluster resource.
 old-location: mscs\restartclusterresource.htm
 tech.root: MsCS
 ms.assetid: 4DF2EF5A-F9F2-4230-96D8-F4B2CB6E4B92
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_RESTART_CLUSTER_RESOURCE, PCLUSAPI_RESTART_CLUSTER_RESOURCE function [Failover Cluster], RestartClusterResource, RestartClusterResource function [Failover Cluster], clusapi/PCLUSAPI_RESTART_CLUSTER_RESOURCE, clusapi/RestartClusterResource, mscs.restartclusterresource
 ms.topic: function
-f1_keywords: 
- - "clusapi/RestartClusterResource"
+f1_keywords:
+- clusapi/RestartClusterResource
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - RestartClusterResource
+- RestartClusterResource
 targetos: Windows
 req.typenames: 
 req.redist: 

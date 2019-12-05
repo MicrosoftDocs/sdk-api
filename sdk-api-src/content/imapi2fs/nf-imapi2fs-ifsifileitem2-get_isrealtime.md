@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.get_IsRealTime
 title: IFsiFileItem2::get_IsRealTime (imapi2fs.h)
-
 description: Retrieves the property value that specifies if a file item in the file system image is a 'Real-Time' or standard file.
 old-location: imapi\ifsifileitem2_get_isrealtime.htm
 tech.root: imapi
 ms.assetid: a8b8fca4-f24c-4698-b84d-7b79ad81d467
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],get_IsRealTime method, IFsiFileItem2.get_IsRealTime, IFsiFileItem2::get_IsRealTime, get_IsRealTime, get_IsRealTime method [IMAPI], get_IsRealTime method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_get_isrealtime, imapi2fs/IFsiFileItem2::get_IsRealTime
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem2.get_IsRealTime"
+f1_keywords:
+- imapi2fs/IFsiFileItem2.get_IsRealTime
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem2.get_IsRealTime
+- IFsiFileItem2.get_IsRealTime
 targetos: Windows
 req.typenames: 
 req.redist: 

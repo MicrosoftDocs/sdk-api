@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngAssociateSurface
 title: EngAssociateSurface function (winddi.h)
-
 description: The EngAssociateSurface function marks a given surface as belonging to a specified device.
 old-location: display\engassociatesurface.htm
 tech.root: display
 ms.assetid: 8cb6d4bf-67bd-4bfb-9605-eeb954fc590c
-
 ms.date: 12/05/2018
 ms.keywords: EngAssociateSurface, EngAssociateSurface function [Display Devices], display.engassociatesurface, gdifncs_6be89779-b79a-4620-b740-d702945464c5.xml, winddi/EngAssociateSurface
 ms.topic: function
-f1_keywords: 
- - "winddi/EngAssociateSurface"
+f1_keywords:
+- winddi/EngAssociateSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngAssociateSurface
+- EngAssociateSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

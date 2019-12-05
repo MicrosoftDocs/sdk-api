@@ -1,19 +1,17 @@
 ---
 UID: NF:winfax.FaxConnectFaxServerW
 title: FaxConnectFaxServerW function (winfax.h)
-
 description: The FaxConnectFaxServer function connects a fax client application to the local fax server. The function returns a fax server handle that is required to call other fax client functions that facilitate job, device, configuration, and document management.
 old-location: fax\_mfax_faxconnectfaxserver.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3qya.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxConnectFaxServer, FaxConnectFaxServer function [Fax Service], FaxConnectFaxServerA, FaxConnectFaxServerW, _mfax_faxconnectfaxserver, fax._mfax_faxconnectfaxserver, winfax/FaxConnectFaxServer, winfax/FaxConnectFaxServerA, winfax/FaxConnectFaxServerW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxConnectFaxServer"
+f1_keywords:
+- winfax/FaxConnectFaxServer
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxConnectFaxServer
- - FaxConnectFaxServerA
- - FaxConnectFaxServerW
+- FaxConnectFaxServer
+- FaxConnectFaxServerA
+- FaxConnectFaxServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

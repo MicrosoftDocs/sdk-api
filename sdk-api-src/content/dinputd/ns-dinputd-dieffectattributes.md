@@ -1,19 +1,17 @@
 ---
 UID: NS:dinputd.DIEFFECTATTRIBUTES
 title: DIEFFECTATTRIBUTES (dinputd.h)
-
 description: The DIEFFECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each effect that is supported by a force-feedback device.
 old-location: hid\dieffectattributes.htm
 tech.root: hid
 ms.assetid: accec45c-de3c-43db-adc9-f878c40c47b0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES structure [Human Input Devices], di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml, dinputd/DIEFFECTATTRIBUTES, hid.dieffectattributes"
+ms.keywords: '*LPDIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES, DIEFFECTATTRIBUTES structure [Human Input Devices], di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml, dinputd/DIEFFECTATTRIBUTES, hid.dieffectattributes'
 ms.topic: struct
-f1_keywords: 
- - "dinputd/DIEFFECTATTRIBUTES"
+f1_keywords:
+- dinputd/DIEFFECTATTRIBUTES
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dinputd.h
+- Dinputd.h
 api_name:
- - DIEFFECTATTRIBUTES
+- DIEFFECTATTRIBUTES
 targetos: Windows
 req.typenames: DIEFFECTATTRIBUTES, *LPDIEFFECTATTRIBUTES
 req.redist: 

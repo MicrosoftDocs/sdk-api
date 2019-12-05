@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.auxcaps_tag
 title: AUXCAPS (mmeapi.h)
-
 description: The AUXCAPS structure describes the capabilities of an auxiliary output device.
 old-location: multimedia\auxcaps.htm
 tech.root: Multimedia
 ms.assetid: 5b94a468-88b2-40a4-b28d-49f262e62749
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAUXCAPS, *NPAUXCAPS, *PAUXCAPS, AUXCAPS, AUXCAPS structure [Windows Multimedia], AUXCAPSA, AUXCAPSW, AUXCAPS_AUXIN, AUXCAPS_CDAUDIO, AUXCAPS_LRVOLUME, AUXCAPS_VOLUME, _win32_AUXCAPS_str, auxcaps_tag, mmeapi/AUXCAPS, multimedia.auxcaps"
+ms.keywords: '*LPAUXCAPS, *NPAUXCAPS, *PAUXCAPS, AUXCAPS, AUXCAPS structure [Windows Multimedia], AUXCAPSA, AUXCAPSW, AUXCAPS_AUXIN, AUXCAPS_CDAUDIO, AUXCAPS_LRVOLUME, AUXCAPS_VOLUME, _win32_AUXCAPS_str, auxcaps_tag, mmeapi/AUXCAPS, multimedia.auxcaps'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/AUXCAPS"
+f1_keywords:
+- mmeapi/AUXCAPS
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - AUXCAPS
+- AUXCAPS
 targetos: Windows
 req.typenames: AUXCAPS, *PAUXCAPS, *NPAUXCAPS, *LPAUXCAPS
 req.redist: 

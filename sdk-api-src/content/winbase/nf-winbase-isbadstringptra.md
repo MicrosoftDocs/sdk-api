@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.IsBadStringPtrA
 title: IsBadStringPtrA function (winbase.h)
-
 description: Verifies that the calling process has read access to the specified range of memory.
 old-location: base\isbadstringptr.htm
 tech.root: Memory
 ms.assetid: ec708f97-36c8-4484-96d7-b8dfb8578667
-
 ms.date: 12/05/2018
 ms.keywords: IsBadStringPtr, IsBadStringPtr function, IsBadStringPtrA, IsBadStringPtrW, _win32_isbadstringptr, base.isbadstringptr, winbase/IsBadStringPtr, winbase/IsBadStringPtrA, winbase/IsBadStringPtrW
 ms.topic: function
-f1_keywords: 
- - "winbase/IsBadStringPtr"
+f1_keywords:
+- winbase/IsBadStringPtr
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - IsBadStringPtr
- - IsBadStringPtrA
- - IsBadStringPtrW
+- IsBadStringPtr
+- IsBadStringPtrA
+- IsBadStringPtrW
 targetos: Windows
 req.typenames: 
 req.redist: 

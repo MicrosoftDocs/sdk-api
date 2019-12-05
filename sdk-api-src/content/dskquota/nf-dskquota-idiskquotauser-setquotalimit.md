@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.SetQuotaLimit
 title: IDiskQuotaUser::SetQuotaLimit (dskquota.h)
-
 description: Sets the user's quota limit value on the volume.
 old-location: fs\idiskquotauser_setquotalimit.htm
 tech.root: FileIO
 ms.assetid: f7c99415-685b-4a21-ac7b-68f4816aafb0
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaUser interface [Files],SetQuotaLimit method, IDiskQuotaUser.SetQuotaLimit, IDiskQuotaUser::SetQuotaLimit, SetQuotaLimit, SetQuotaLimit method [Files], SetQuotaLimit method [Files],IDiskQuotaUser interface, _win32_idiskquotauser_setquotalimit, base.idiskquotauser_setquotalimit, dskquota/IDiskQuotaUser::SetQuotaLimit, fs.idiskquotauser_setquotalimit
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.SetQuotaLimit"
+f1_keywords:
+- dskquota/IDiskQuotaUser.SetQuotaLimit
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.SetQuotaLimit
+- IDiskQuotaUser.SetQuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

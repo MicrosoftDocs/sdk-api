@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMediaProps.SetMediaType
 title: IWMMediaProps::SetMediaType (wmsdkidl.h)
-
 description: The SetMediaType method specifies the media type.
 old-location: wmformat\iwmmediaprops_setmediatype.htm
 tech.root: wmformat
 ms.assetid: 7a89bf24-6b76-4645-8f39-f1979029d67e
-
 ms.date: 12/05/2018
 ms.keywords: IWMMediaProps interface [windows Media Format],SetMediaType method, IWMMediaProps.SetMediaType, IWMMediaProps::SetMediaType, IWMMediaPropsSetMediaType, SetMediaType, SetMediaType method [windows Media Format], SetMediaType method [windows Media Format],IWMMediaProps interface, wmformat.iwmmediaprops_setmediatype, wmsdkidl/IWMMediaProps::SetMediaType
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMediaProps.SetMediaType"
+f1_keywords:
+- wmsdkidl/IWMMediaProps.SetMediaType
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMediaProps.SetMediaType
+- IWMMediaProps.SetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

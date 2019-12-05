@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
 title: IUIAutomationScrollPattern::get_CachedHorizontallyScrollable (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the element can scroll horizontally.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable.htm
 tech.root: WinAuto
 ms.assetid: 9089e237-2115-47b6-a1eb-eaea5a93586e
-
 ms.date: 12/05/2018
 ms.keywords: CachedHorizontallyScrollable property [Windows Accessibility], CachedHorizontallyScrollable property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontallyScrollable property, IUIAutomationScrollPattern.CachedHorizontallyScrollable, IUIAutomationScrollPattern.get_CachedHorizontallyScrollable, IUIAutomationScrollPattern::CachedHorizontallyScrollable, IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, get_CachedHorizontallyScrollable, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontallyScrollable, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontallyScrollable, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontallyScrollable
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern.CachedHorizontallyScrollable"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern.CachedHorizontallyScrollable
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CachedHorizontallyScrollable
- - IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
+- IUIAutomationScrollPattern.CachedHorizontallyScrollable
+- IUIAutomationScrollPattern.get_CachedHorizontallyScrollable
 targetos: Windows
 req.typenames: 
 req.redist: 

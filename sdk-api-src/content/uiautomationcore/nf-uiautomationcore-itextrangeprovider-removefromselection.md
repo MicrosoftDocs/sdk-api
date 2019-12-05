@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.RemoveFromSelection
 title: ITextRangeProvider::RemoveFromSelection (uiautomationcore.h)
-
 description: Removes the text range from the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
 old-location: winauto\uiauto_ITextRangeProvider_RemoveFromSelection.htm
 tech.root: WinAuto
 ms.assetid: 057d784e-906a-4de8-bdd8-b58a2e26f37c
-
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],RemoveFromSelection method, ITextRangeProvider.RemoveFromSelection, ITextRangeProvider::RemoveFromSelection, RemoveFromSelection, RemoveFromSelection method [Windows Accessibility], RemoveFromSelection method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_RemoveFromSelection, uiauto_ITextRangeProvider_RemoveFromSelection, uiautomationcore/ITextRangeProvider::RemoveFromSelection, winauto.uiauto_ITextRangeProvider_RemoveFromSelection
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider.RemoveFromSelection"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider.RemoveFromSelection
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider.RemoveFromSelection
+- ITextRangeProvider.RemoveFromSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

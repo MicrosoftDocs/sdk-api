@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Free_Log_Conf_Handle
 title: CM_Free_Log_Conf_Handle function (cfgmgr32.h)
-
 description: The CM_Free_Log_Conf_Handle function invalidates a logical configuration handle and frees its associated memory allocation.
 old-location: devinst\cm_free_log_conf_handle.htm
 tech.root: devinst
 ms.assetid: dd8a4a2a-9f99-48c0-acb6-e5ceed63c88e
-
 ms.date: 12/05/2018
 ms.keywords: CM_Free_Log_Conf_Handle, CM_Free_Log_Conf_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Handle, cfgmgrfn_acfb6a9e-f12b-40af-a239-dba8aff1e22b.xml, devinst.cm_free_log_conf_handle
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Free_Log_Conf_Handle"
+f1_keywords:
+- cfgmgr32/CM_Free_Log_Conf_Handle
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Free_Log_Conf_Handle
+- CM_Free_Log_Conf_Handle
 targetos: Windows
 req.typenames: 
 req.redist: 

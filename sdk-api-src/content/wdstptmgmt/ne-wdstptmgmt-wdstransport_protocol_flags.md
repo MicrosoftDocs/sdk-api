@@ -1,19 +1,17 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002
 title: WDSTRANSPORT_PROTOCOL_FLAGS (wdstptmgmt.h)
-
 description: Specifies which protocols the WDS transport server supports.
 old-location: wds\wdstransport_protocol_flags.htm
 tech.root: wds
 ms.assetid: 4de9168b-a0c1-4f92-b573-5072bfc22c0d
-
 ms.date: 12/05/2018
-ms.keywords: "*PWDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS enumeration [Windows Deployment Services], WdsTptProtocolMulticast, WdsTptProtocolUnicast, wds.wdstransport_protocol_flags, wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS, wdstptmgmt/WdsTptProtocolMulticast, wdstptmgmt/WdsTptProtocolUnicast"
+ms.keywords: '*PWDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS, WDSTRANSPORT_PROTOCOL_FLAGS enumeration [Windows Deployment Services], WdsTptProtocolMulticast, WdsTptProtocolUnicast, wds.wdstransport_protocol_flags, wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS, wdstptmgmt/WdsTptProtocolMulticast, wdstptmgmt/WdsTptProtocolUnicast'
 ms.topic: enum
-f1_keywords: 
- - "wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS"
+f1_keywords:
+- wdstptmgmt/WDSTRANSPORT_PROTOCOL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdstptmgmt.h
+- Wdstptmgmt.h
 api_name:
- - WDSTRANSPORT_PROTOCOL_FLAGS
+- WDSTRANSPORT_PROTOCOL_FLAGS
 targetos: Windows
 req.typenames: WDSTRANSPORT_PROTOCOL_FLAGS, *PWDSTRANSPORT_PROTOCOL_FLAGS
 req.redist: 

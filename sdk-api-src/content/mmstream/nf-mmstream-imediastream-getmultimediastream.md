@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMediaStream.GetMultiMediaStream
 title: IMediaStream::GetMultiMediaStream (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the multimedia stream that contains the specified media stream.
 old-location: dshow\imediastream_getmultimediastream.htm
 tech.root: DirectShow
 ms.assetid: 09af4bfc-2427-4992-b508-fe9a7ac150d7
-
 ms.date: 12/05/2018
 ms.keywords: GetMultiMediaStream, GetMultiMediaStream method [DirectShow], GetMultiMediaStream method [DirectShow],IMediaStream interface, IMediaStream interface [DirectShow],GetMultiMediaStream method, IMediaStream.GetMultiMediaStream, IMediaStream::GetMultiMediaStream, IMediaStreamGetMultiMediaStream, dshow.imediastream_getmultimediastream, mmstream/IMediaStream::GetMultiMediaStream
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMediaStream.GetMultiMediaStream"
+f1_keywords:
+- mmstream/IMediaStream.GetMultiMediaStream
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMediaStream.GetMultiMediaStream
+- IMediaStream.GetMultiMediaStream
 targetos: Windows
 req.typenames: 
 req.redist: 

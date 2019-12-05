@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetRectArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of Rect values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getrectarray.htm
 tech.root: WinRT
 ms.assetid: 7e1f39f6-0ccb-4841-ae5e-36adaf72a4ee
-
 ms.date: 12/05/2018
 ms.keywords: GetRectArray, GetRectArray method [Windows Runtime], GetRectArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetRectArray method, IPropertyValue.GetRectArray, IPropertyValue.IPropertyValue, IPropertyValue::GetRectArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetRectArray, winrt.ipropertyvalue_getrectarray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetRectArray"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetRectArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetRectArray
+- IPropertyValue.GetRectArray
 targetos: Windows
 req.typenames: 
 req.redist: 

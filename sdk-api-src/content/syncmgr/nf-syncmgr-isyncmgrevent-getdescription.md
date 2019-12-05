@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetDescription
 title: ISyncMgrEvent::GetDescription (syncmgr.h)
-
 description: Gets the event description.
 old-location: shell\ISyncMgrEvent_GetDescription.htm
 tech.root: shell
 ms.assetid: 3ec45cf6-d282-4df9-bd4a-b5d75df69ff4
-
 ms.date: 12/05/2018
 ms.keywords: GetDescription, GetDescription method [Windows Shell], GetDescription method [Windows Shell],ISyncMgrEvent interface, ISyncMgrEvent interface [Windows Shell],GetDescription method, ISyncMgrEvent.GetDescription, ISyncMgrEvent::GetDescription, _shell_ISyncMgrEvent_GetDescription, shell.ISyncMgrEvent_GetDescription, syncmgr/ISyncMgrEvent::GetDescription
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrEvent.GetDescription"
+f1_keywords:
+- syncmgr/ISyncMgrEvent.GetDescription
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEvent.GetDescription
+- ISyncMgrEvent.GetDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

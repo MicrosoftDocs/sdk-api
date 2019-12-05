@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRemoteEndpointInfo.GetStringValue
 title: IUPnPRemoteEndpointInfo::GetStringValue (upnphost.h)
-
 description: The GetStringValue method gets a string that provides information about either a request or requester.
 old-location: upnp\iupnpremoteendpointinfo_getstringvalue.htm
 tech.root: upnp
 ms.assetid: c3b0dcd2-2195-4e09-aac4-073a3d848fa9
-
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [UPnP APIs], GetStringValue method [UPnP APIs],IUPnPRemoteEndpointInfo interface, IUPnPRemoteEndpointInfo interface [UPnP APIs],GetStringValue method, IUPnPRemoteEndpointInfo.GetStringValue, IUPnPRemoteEndpointInfo::GetStringValue, upnp.iupnpremoteendpointinfo_getstringvalue, upnphost/IUPnPRemoteEndpointInfo::GetStringValue
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRemoteEndpointInfo.GetStringValue"
+f1_keywords:
+- upnphost/IUPnPRemoteEndpointInfo.GetStringValue
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRemoteEndpointInfo.GetStringValue
+- IUPnPRemoteEndpointInfo.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 

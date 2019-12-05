@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IMenuBand
 title: IMenuBand (shobjidl_core.h)
-
 description: Exposes methods that allow a Component Object Model (COM) object to receive and translate appropriate messages.
 old-location: shell\IMenuBand.htm
 tech.root: shell
 ms.assetid: 67e12738-9951-4118-b968-7959cd175cf2
-
 ms.date: 12/05/2018
 ms.keywords: IMenuBand, IMenuBand interface [Windows Shell], IMenuBand interface [Windows Shell],described, _shell_IMenuBand, shell.IMenuBand, shobjidl_core/IMenuBand
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IMenuBand"
+f1_keywords:
+- shobjidl_core/IMenuBand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IMenuBand
+- IMenuBand
 targetos: Windows
 req.typenames: 
 req.redist: 

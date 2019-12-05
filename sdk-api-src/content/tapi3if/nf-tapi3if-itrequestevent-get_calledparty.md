@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_CalledParty
 title: ITRequestEvent::get_CalledParty (tapi3if.h)
-
 description: The get_CalledParty method gets the called party.
 old-location: tapi3\itrequestevent_get_calledparty.htm
 tech.root: Tapi
 ms.assetid: 0dfbf033-83cf-4e2c-b107-963c10595ee5
-
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_CalledParty method, ITRequestEvent.get_CalledParty, ITRequestEvent::get_CalledParty, _tapi3_itrequestevent_get_calledparty, get_CalledParty, get_CalledParty method [TAPI 2.2], get_CalledParty method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_calledparty, tapi3if/ITRequestEvent::get_CalledParty
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITRequestEvent.get_CalledParty"
+f1_keywords:
+- tapi3if/ITRequestEvent.get_CalledParty
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITRequestEvent.get_CalledParty
+- ITRequestEvent.get_CalledParty
 targetos: Windows
 req.typenames: 
 req.redist: 

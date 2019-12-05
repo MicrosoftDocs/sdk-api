@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ConvertFiberToThread
 title: ConvertFiberToThread function (winbase.h)
-
 description: Converts the current fiber into a thread.
 old-location: base\convertfibertothread.htm
 tech.root: ProcThread
 ms.assetid: 194c5289-0d25-4ce1-9c32-9e87b12db825
-
 ms.date: 12/05/2018
 ms.keywords: ConvertFiberToThread, ConvertFiberToThread function, _win32_convertfibertothread, base.convertfibertothread, winbase/ConvertFiberToThread
 ms.topic: function
-f1_keywords: 
- - "winbase/ConvertFiberToThread"
+f1_keywords:
+- winbase/ConvertFiberToThread
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l2-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-fibers-l2-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l2-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-fibers-l2-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - ConvertFiberToThread
+- ConvertFiberToThread
 targetos: Windows
 req.typenames: 
 req.redist: 

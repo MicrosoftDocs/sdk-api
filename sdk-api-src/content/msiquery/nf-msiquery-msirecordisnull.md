@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiRecordIsNull
 title: MsiRecordIsNull function (msiquery.h)
-
 description: Reports a null record field.
 old-location: setup\msirecordisnull.htm
 tech.root: Msi
 ms.assetid: e37a458c-8868-4f8c-96fd-a713d2a9c5ad
-
 ms.date: 12/05/2018
 ms.keywords: MsiRecordIsNull, MsiRecordIsNull function, _msi_msirecordisnull, msiquery/MsiRecordIsNull, setup.msirecordisnull
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiRecordIsNull"
+f1_keywords:
+- msiquery/MsiRecordIsNull
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiRecordIsNull
+- MsiRecordIsNull
 targetos: Windows
 req.typenames: 
 req.redist: 

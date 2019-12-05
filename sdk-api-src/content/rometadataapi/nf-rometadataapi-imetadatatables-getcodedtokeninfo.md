@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetCodedTokenInfo
 title: IMetaDataTables::GetCodedTokenInfo (rometadataapi.h)
-
 description: Gets a pointer to an array of tokens associated with the specified row index.
 old-location: winrt\imetadatatables_getcodedtokeninfo.htm
 tech.root: WinRT
 ms.assetid: 6467affc-0f86-4926-b72f-629c6580e1bf
-
 ms.date: 12/05/2018
 ms.keywords: GetCodedTokenInfo, GetCodedTokenInfo method [Windows Runtime], GetCodedTokenInfo method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetCodedTokenInfo method, IMetaDataTables.GetCodedTokenInfo, IMetaDataTables::GetCodedTokenInfo, rometadataapi/IMetaDataTables::GetCodedTokenInfo, winrt.imetadatatables_getcodedtokeninfo
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetCodedTokenInfo"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetCodedTokenInfo
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetCodedTokenInfo
+- IMetaDataTables.GetCodedTokenInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateSample
 title: MFCreateSample function (mfapi.h)
-
 description: Creates an empty media sample.
 old-location: mf\mfcreatesample.htm
 tech.root: medfound
 ms.assetid: b8bc29a5-e872-4c7b-ad1d-6c6085aa1984
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateSample, MFCreateSample function [Media Foundation], b8bc29a5-e872-4c7b-ad1d-6c6085aa1984, mf.mfcreatesample, mfapi/MFCreateSample
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateSample"
+f1_keywords:
+- mfapi/MFCreateSample
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateSample
+- MFCreateSample
 targetos: Windows
 req.typenames: 
 req.redist: 

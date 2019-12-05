@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IMultiInterfacePublisherFilter.Initialize
 title: IMultiInterfacePublisherFilter::Initialize (eventsys.h)
-
 description: Associates an event class with a publisher filter.
 old-location: cos\imultiinterfacepublisherfilter_initialize.htm
 tech.root: cossdk
 ms.assetid: d69075a3-7b5a-4c99-9e51-d07a3dde511a
-
 ms.date: 12/05/2018
 ms.keywords: IMultiInterfacePublisherFilter interface [COM+],Initialize method, IMultiInterfacePublisherFilter.Initialize, IMultiInterfacePublisherFilter::Initialize, Initialize, Initialize method [COM+], Initialize method [COM+],IMultiInterfacePublisherFilter interface, _cos_IMultiInterfacePublisherFilter_Initialize, cos.imultiinterfacepublisherfilter_initialize, eventsys/IMultiInterfacePublisherFilter::Initialize
 ms.topic: method
-f1_keywords: 
- - "eventsys/IMultiInterfacePublisherFilter.Initialize"
+f1_keywords:
+- eventsys/IMultiInterfacePublisherFilter.Initialize
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IMultiInterfacePublisherFilter.Initialize
+- IMultiInterfacePublisherFilter.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

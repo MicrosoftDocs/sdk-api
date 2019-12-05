@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetDefaultQuotaLimit
 title: IDiskQuotaControl::GetDefaultQuotaLimit (dskquota.h)
-
 description: Retrieves the default quota limit for the volume.
 old-location: fs\idiskquotacontrol_getdefaultquotalimit.htm
 tech.root: FileIO
 ms.assetid: 05af5869-0c77-4078-b6af-601a7df44244
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultQuotaLimit, GetDefaultQuotaLimit method [Files], GetDefaultQuotaLimit method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],GetDefaultQuotaLimit method, IDiskQuotaControl.GetDefaultQuotaLimit, IDiskQuotaControl::GetDefaultQuotaLimit, _win32_idiskquotacontrol_getdefaultquotalimit, base.idiskquotacontrol_getdefaultquotalimit, dskquota/IDiskQuotaControl::GetDefaultQuotaLimit, fs.idiskquotacontrol_getdefaultquotalimit
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.GetDefaultQuotaLimit"
+f1_keywords:
+- dskquota/IDiskQuotaControl.GetDefaultQuotaLimit
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.GetDefaultQuotaLimit
+- IDiskQuotaControl.GetDefaultQuotaLimit
 targetos: Windows
 req.typenames: 
 req.redist: 

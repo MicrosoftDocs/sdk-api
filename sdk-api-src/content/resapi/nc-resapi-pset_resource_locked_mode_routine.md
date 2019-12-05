@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PSET_RESOURCE_LOCKED_MODE_ROUTINE
 title: PSET_RESOURCE_LOCKED_MODE_ROUTINE (resapi.h)
-
 description: Reports that locked mode was configured for a resource.
 old-location: mscs\setresourcelockedmode.htm
 tech.root: MsCS
 ms.assetid: 000D127C-7BDE-4FC1-984E-2EE805E603FC
-
 ms.date: 12/05/2018
 ms.keywords: PSET_RESOURCE_LOCKED_MODE_ROUTINE, PSET_RESOURCE_LOCKED_MODE_ROUTINE callback function [Failover Cluster], SetResourceLockedMode, SetResourceLockedMode callback, SetResourceLockedMode callback function [Failover Cluster], mscs.setresourcelockedmode, resapi/PSET_RESOURCE_LOCKED_MODE_ROUTINE, resapi/SetResourceLockedMode
 ms.topic: callback
-f1_keywords: 
- - "resapi/SetResourceLockedMode"
+f1_keywords:
+- resapi/SetResourceLockedMode
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - SetResourceLockedMode
+- SetResourceLockedMode
 targetos: Windows
 req.typenames: 
 req.redist: 

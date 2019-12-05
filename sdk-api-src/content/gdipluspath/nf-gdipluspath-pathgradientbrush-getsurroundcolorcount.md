@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetSurroundColorCount
 title: PathGradientBrush::GetSurroundColorCount (gdipluspath.h)
-
 description: The PathGradientBrush::GetSurroundColorCount method gets the number of colors that have been specified for the boundary path of this path gradient brush.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getsurroundcolorcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSurroundColorCount, GetSurroundColorCount method [GDI+], GetSurroundColorCount method [GDI+],PathGradientBrush class, PathGradientBrush class [GDI+],GetSurroundColorCount method, PathGradientBrush.GetSurroundColorCount, PathGradientBrush::GetSurroundColorCount, _gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_, gdiplus._gdiplus_CLASS_PathGradientBrush_GetSurroundColorCount_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.GetSurroundColorCount"
+f1_keywords:
+- gdipluspath/PathGradientBrush.GetSurroundColorCount
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.GetSurroundColorCount
+- PathGradientBrush.GetSurroundColorCount
 targetos: Windows
 req.typenames: 
 req.redist: 

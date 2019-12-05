@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdCreateDirectDrawObject
 title: DdCreateDirectDrawObject function (ddrawgdi.h)
-
 description: Wrapper for the NtGdiDdCreateDirectDrawObject function and creates a kernel-side representation of the Microsoft DirectDraw object.
 old-location: winprog\_dxgkernel_ddcreatedirectdrawobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedirectdrawobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdCreateDirectDrawObject, DdCreateDirectDrawObject function [Windows API], GdiEntry1, _dxgkernel_ddcreatedirectdrawobject, ddrawgdi/DdCreateDirectDrawObject, ddrawgdi/GdiEntry1, winprog._dxgkernel_ddcreatedirectdrawobject, winui._dxgkernel_ddcreatedirectdrawobject
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdCreateDirectDrawObject"
+f1_keywords:
+- ddrawgdi/DdCreateDirectDrawObject
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdCreateDirectDrawObject
- - GdiEntry1
+- DdCreateDirectDrawObject
+- GdiEntry1
 targetos: Windows
 req.typenames: 
 req.redist: 

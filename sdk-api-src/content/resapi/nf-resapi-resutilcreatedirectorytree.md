@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilCreateDirectoryTree
 title: ResUtilCreateDirectoryTree function (resapi.h)
-
 description: Creates every directory specified in a path, skipping directories that already exist. The PRESUTIL_CREATE_DIRECTORY_TREE type defines a pointer to this function.
 old-location: mscs\resutilcreatedirectorytree.htm
 tech.root: MsCS
 ms.assetid: 5e1e689f-cc33-4cc7-9c6c-9799a6d6f70a
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_CREATE_DIRECTORY_TREE, PRESUTIL_CREATE_DIRECTORY_TREE function [Failover Cluster], ResUtilCreateDirectoryTree, ResUtilCreateDirectoryTree function [Failover Cluster], _wolf_resutilcreatedirectorytree, mscs.resutilcreatedirectorytree, resapi/PRESUTIL_CREATE_DIRECTORY_TREE, resapi/ResUtilCreateDirectoryTree
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilCreateDirectoryTree"
+f1_keywords:
+- resapi/ResUtilCreateDirectoryTree
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilCreateDirectoryTree
+- ResUtilCreateDirectoryTree
 targetos: Windows
 req.typenames: 
 req.redist: 

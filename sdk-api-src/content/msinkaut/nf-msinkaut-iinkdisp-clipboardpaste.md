@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.ClipboardPaste
 title: IInkDisp::ClipboardPaste (msinkaut.h)
-
 description: Copies the IDataObject from the Clipboard to the InkDisp object.
 old-location: tablet\inkdisp_clipboardpaste.htm
 tech.root: tablet
 ms.assetid: c2760791-4238-45a9-a561-a48a55d6444b
-
 ms.date: 12/05/2018
 ms.keywords: ClipboardPaste, ClipboardPaste method [Tablet PC], ClipboardPaste method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardPaste method, IInkDisp.ClipboardPaste, IInkDisp::ClipboardPaste, c2760791-4238-45a9-a561-a48a55d6444b, msinkaut/IInkDisp::ClipboardPaste, tablet.inkdisp_clipboardpaste
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.ClipboardPaste"
+f1_keywords:
+- msinkaut/IInkDisp.ClipboardPaste
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.ClipboardPaste
+- IInkDisp.ClipboardPaste
 targetos: Windows
 req.typenames: 
 req.redist: 

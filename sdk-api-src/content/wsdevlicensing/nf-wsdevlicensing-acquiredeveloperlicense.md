@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdevlicensing.AcquireDeveloperLicense
 title: AcquireDeveloperLicense function (wsdevlicensing.h)
-
 description: Acquires a developer license.
 old-location: devlic\acquiredeveloperlicense.htm
 tech.root: devlic
 ms.assetid: 0F6316B4-3FE2-405E-B8C0-AB371F95BCE1
-
 ms.date: 12/05/2018
 ms.keywords: AcquireDeveloperLicense, AcquireDeveloperLicense function, devlic.acquiredeveloperlicense, wsdevlicensing/AcquireDeveloperLicense
 ms.topic: function
-f1_keywords: 
- - "wsdevlicensing/AcquireDeveloperLicense"
+f1_keywords:
+- wsdevlicensing/AcquireDeveloperLicense
 dev_langs:
- - c++
+- c++
 req.header: wsdevlicensing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WSClient.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WSClient.dll
+- WSClient.dll
 api_name:
- - AcquireDeveloperLicense
+- AcquireDeveloperLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

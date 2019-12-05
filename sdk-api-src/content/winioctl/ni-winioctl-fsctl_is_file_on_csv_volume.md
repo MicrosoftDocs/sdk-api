@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_IS_FILE_ON_CSV_VOLUME
 title: FSCTL_IS_FILE_ON_CSV_VOLUME
-
 description: Determines whether a file is stored on a CSVFS volume, or retrieves namespace information.
 old-location: fs\fsctl_is_file_on_csv_volume.htm
 tech.root: FileIO
 ms.assetid: ABE7A4B5-6DB2-4119-A4F7-9DC5C7276EB1
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_IS_FILE_ON_CSV_VOLUME, FSCTL_IS_FILE_ON_CSV_VOLUME control, FSCTL_IS_FILE_ON_CSV_VOLUME control code [Files], fs.fsctl_is_file_on_csv_volume, winioctl/FSCTL_IS_FILE_ON_CSV_VOLUME
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_IS_FILE_ON_CSV_VOLUME
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

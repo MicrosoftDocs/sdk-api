@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.PLACEMENT_OPTIONS
 title: PLACEMENT_OPTIONS (clusapi.h)
-
 description: Defines options for placing the cluster.
 old-location: mscs\placement_options.htm
 tech.root: MsCS
 ms.assetid: 21b968c7-3132-4dda-9b27-404026cd525c
-
 ms.date: 12/05/2018
 ms.keywords: PLACEMENT_OPTIONS, PLACEMENT_OPTIONS enumeration [Failover Cluster], PLACEMENT_OPTIONS_ALL, PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, PLACEMENT_OPTIONS_DONT_USE_CPU, PLACEMENT_OPTIONS_DONT_USE_MEMORY, PLACEMENT_OPTIONS_MIN_VALUE, clusapi/PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_ALL, clusapi/PLACEMENT_OPTIONS_CONSIDER_OFFLINE_VMS, clusapi/PLACEMENT_OPTIONS_DEFAULT_PLACEMENT_OPTIONS, clusapi/PLACEMENT_OPTIONS_DISABLE_CSV_VM_DEPENDENCY, clusapi/PLACEMENT_OPTIONS_DONT_USE_CPU, clusapi/PLACEMENT_OPTIONS_DONT_USE_MEMORY, clusapi/PLACEMENT_OPTIONS_MIN_VALUE, mscs.placement_options
 ms.topic: enum
-f1_keywords: 
- - "clusapi/PLACEMENT_OPTIONS"
+f1_keywords:
+- clusapi/PLACEMENT_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - clusapi.h
+- clusapi.h
 api_name:
- - PLACEMENT_OPTIONS
+- PLACEMENT_OPTIONS
 targetos: Windows
 req.typenames: PLACEMENT_OPTIONS
 req.redist: 

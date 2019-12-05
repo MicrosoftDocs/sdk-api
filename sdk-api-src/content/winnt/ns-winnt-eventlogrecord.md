@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._EVENTLOGRECORD
 title: EVENTLOGRECORD (winnt.h)
-
 description: Contains information about an event record returned by the ReadEventLog function.
 old-location: base\eventlogrecord_str.htm
 tech.root: EventLog
 ms.assetid: 669b182a-bc81-4386-9815-6ffa09e2e743
-
 ms.date: 12/05/2018
-ms.keywords: "*PEVENTLOGRECORD, EVENTLOGRECORD, EVENTLOGRECORD structure, EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_WARNING_TYPE, PEVENTLOGRECORD, PEVENTLOGRECORD structure pointer, _EVENTLOGRECORD, _win32_eventlogrecord_str, base.eventlogrecord_str, winnt/EVENTLOGRECORD, winnt/PEVENTLOGRECORD"
+ms.keywords: '*PEVENTLOGRECORD, EVENTLOGRECORD, EVENTLOGRECORD structure, EVENTLOG_AUDIT_FAILURE, EVENTLOG_AUDIT_SUCCESS, EVENTLOG_ERROR_TYPE, EVENTLOG_INFORMATION_TYPE, EVENTLOG_WARNING_TYPE, PEVENTLOGRECORD, PEVENTLOGRECORD structure pointer, _EVENTLOGRECORD, _win32_eventlogrecord_str, base.eventlogrecord_str, winnt/EVENTLOGRECORD, winnt/PEVENTLOGRECORD'
 ms.topic: struct
-f1_keywords: 
- - "winnt/EVENTLOGRECORD"
+f1_keywords:
+- winnt/EVENTLOGRECORD
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - EVENTLOGRECORD
+- EVENTLOGRECORD
 targetos: Windows
 req.typenames: EVENTLOGRECORD, *PEVENTLOGRECORD
 req.redist: 

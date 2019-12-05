@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetOwnerReplicaId
 title: ISyncKnowledge::GetOwnerReplicaId (winsync.h)
-
 description: Gets the ID of the replica that owns this knowledge.
 old-location: winsync\isyncknowledge_getownerreplicaid.htm
 tech.root: winsync
 ms.assetid: 868ed5da-0bcb-43d9-9a43-81186f8b3409
-
 ms.date: 12/05/2018
 ms.keywords: GetOwnerReplicaId, GetOwnerReplicaId method [Windows Sync], GetOwnerReplicaId method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetOwnerReplicaId method, ISyncKnowledge.GetOwnerReplicaId, ISyncKnowledge::GetOwnerReplicaId, winsync.isyncknowledge_getownerreplicaid, winsync/ISyncKnowledge::GetOwnerReplicaId
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.GetOwnerReplicaId"
+f1_keywords:
+- winsync/ISyncKnowledge.GetOwnerReplicaId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.GetOwnerReplicaId
+- ISyncKnowledge.GetOwnerReplicaId
 targetos: Windows
 req.typenames: 
 req.redist: 

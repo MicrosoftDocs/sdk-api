@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.CompareEnd
 title: ITfRange::CompareEnd (msctf.h)
-
 description: The ITfRange::CompareEnd method compares the end anchor position of this range of text to an anchor in another range.
 old-location: tsf\itfrange_compareend.htm
 tech.root: TSF
 ms.assetid: 23841f07-f2ea-4365-a8cb-128c4fb210ab
-
 ms.date: 12/05/2018
-ms.keywords: "+1, -1, 0, CompareEnd, CompareEnd method [Text Services Framework], CompareEnd method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareEnd method, ITfRange.CompareEnd, ITfRange::CompareEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_compareend_ref, msctf/ITfRange::CompareEnd, tsf.itfrange_compareend"
+ms.keywords: +1, -1, 0, CompareEnd, CompareEnd method [Text Services Framework], CompareEnd method [Text Services Framework],ITfRange interface, ITfRange interface [Text Services Framework],CompareEnd method, ITfRange.CompareEnd, ITfRange::CompareEnd, TF_ANCHOR_END, TF_ANCHOR_START, _tsf_itfrange_compareend_ref, msctf/ITfRange::CompareEnd, tsf.itfrange_compareend
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.CompareEnd"
+f1_keywords:
+- msctf/ITfRange.CompareEnd
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.CompareEnd
+- ITfRange.CompareEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

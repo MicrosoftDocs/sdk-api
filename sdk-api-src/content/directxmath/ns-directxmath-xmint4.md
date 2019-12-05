@@ -1,19 +1,17 @@
 ---
 UID: NS:directxmath.XMINT4
 title: XMINT4 (directxmath.h)
-
 description: A 4D vector where each component is a signed integer.
 old-location: dxmath\xmint4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT4
-
 ms.date: 12/05/2018
 ms.keywords: XMINT4, XMINT4 structure [DirectX Math Support APIs], directxmath/XMINT4, dxmath.xmint4
 ms.topic: struct
-f1_keywords: 
- - "directxmath/XMINT4"
+f1_keywords:
+- directxmath/XMINT4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMINT4
+- XMINT4
 targetos: Windows
 req.typenames: 
 req.redist: 

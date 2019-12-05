@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.UnlockUrlCacheEntryStream
 title: UnlockUrlCacheEntryStream function (wininet.h)
-
 description: Closes the stream that has been retrieved using the RetrieveUrlCacheEntryStream function.
 old-location: wininet\unlockurlcacheentrystream.htm
 tech.root: wininet
 ms.assetid: 9fcc257e-732c-4545-a81b-7db20a98e497
-
 ms.date: 12/05/2018
 ms.keywords: UnlockUrlCacheEntryStream, UnlockUrlCacheEntryStream function [WinINet], _inet_unlockurlcacheentrystream_function, wininet.unlockurlcacheentrystream, wininet/UnlockUrlCacheEntryStream
 ms.topic: function
-f1_keywords: 
- - "wininet/UnlockUrlCacheEntryStream"
+f1_keywords:
+- wininet/UnlockUrlCacheEntryStream
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - UnlockUrlCacheEntryStream
+- UnlockUrlCacheEntryStream
 targetos: Windows
 req.typenames: 
 req.redist: 

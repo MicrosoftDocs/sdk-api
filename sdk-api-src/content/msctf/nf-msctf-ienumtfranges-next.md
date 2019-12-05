@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Next
 title: IEnumTfRanges::Next (msctf.h)
-
 description: IEnumTfRanges::Next method
 old-location: tsf\ienumtfranges_next.htm
 tech.root: TSF
 ms.assetid: 95fe45f0-bf30-4f8c-86f3-e20a0d70127e
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Next method, IEnumTfRanges.Next, IEnumTfRanges::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_next_ref, msctf/IEnumTfRanges::Next, tsf.ienumtfranges_next
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfRanges.Next"
+f1_keywords:
+- msctf/IEnumTfRanges.Next
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfRanges.Next
+- IEnumTfRanges.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

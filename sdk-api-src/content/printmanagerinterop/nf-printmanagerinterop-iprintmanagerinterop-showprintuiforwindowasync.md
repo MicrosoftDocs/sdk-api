@@ -1,19 +1,17 @@
 ---
 UID: NF:printmanagerinterop.IPrintManagerInterop.ShowPrintUIForWindowAsync
 title: IPrintManagerInterop::ShowPrintUIForWindowAsync (printmanagerinterop.h)
-
 description: Displays the UI for printing content for the specified window.
 old-location: winrt\iprintmanagerinterop_showprintuiforwindowasync.htm
 tech.root: WinRT
 ms.assetid: 2414279e-e1ef-48c7-87a1-a09ad367aec4
-
 ms.date: 12/05/2018
 ms.keywords: IPrintManagerInterop interface [Windows Runtime],ShowPrintUIForWindowAsync method, IPrintManagerInterop.ShowPrintUIForWindowAsync, IPrintManagerInterop::ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync, ShowPrintUIForWindowAsync method [Windows Runtime], ShowPrintUIForWindowAsync method [Windows Runtime],IPrintManagerInterop interface, printmanagerinterop/IPrintManagerInterop::ShowPrintUIForWindowAsync, winrt.iprintmanagerinterop_showprintuiforwindowasync
 ms.topic: method
-f1_keywords: 
- - "printmanagerinterop/IPrintManagerInterop.ShowPrintUIForWindowAsync"
+f1_keywords:
+- printmanagerinterop/IPrintManagerInterop.ShowPrintUIForWindowAsync
 dev_langs:
- - c++
+- c++
 req.header: printmanagerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - printmanagerinterop.h
+- printmanagerinterop.h
 api_name:
- - IPrintManagerInterop.ShowPrintUIForWindowAsync
+- IPrintManagerInterop.ShowPrintUIForWindowAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

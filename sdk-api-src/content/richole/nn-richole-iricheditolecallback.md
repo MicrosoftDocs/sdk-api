@@ -1,19 +1,17 @@
 ---
 UID: NN:richole.IRichEditOleCallback
 title: IRichEditOleCallback (richole.h)
-
 description: The IRichEditOleCallback interface is used by a rich text edit control to retrieve OLE-related information from its client.
 old-location: controls\IRichEditOleCallback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRichEditOleCallback, IRichEditOleCallback interface [Windows Controls], IRichEditOleCallback interface [Windows Controls],described, _win32_IRichEditOleCallback, _win32_IRichEditOleCallback_cpp, controls.IRichEditOleCallback, controls._win32_IRichEditOleCallback, richole/IRichEditOleCallback
 ms.topic: interface
-f1_keywords: 
- - "richole/IRichEditOleCallback"
+f1_keywords:
+- richole/IRichEditOleCallback
 dev_langs:
- - c++
+- c++
 req.header: richole.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditOleCallback
+- IRichEditOleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

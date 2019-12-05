@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SendMessageCallbackW
 title: SendMessageCallbackW function (winuser.h)
-
 description: Sends the specified message to a window or windows.
 old-location: winmsg\sendmessagecallback.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagecallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: SendMessageCallback, SendMessageCallback function [Windows and Messages], SendMessageCallbackA, SendMessageCallbackW, _win32_SendMessageCallback, _win32_sendmessagecallback_cpp, winmsg.sendmessagecallback, winui._win32_sendmessagecallback, winuser/SendMessageCallback, winuser/SendMessageCallbackA, winuser/SendMessageCallbackW
 ms.topic: function
-f1_keywords: 
- - "winuser/SendMessageCallback"
+f1_keywords:
+- winuser/SendMessageCallback
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - SendMessageCallback
- - SendMessageCallbackA
- - SendMessageCallbackW
+- SendMessageCallback
+- SendMessageCallbackA
+- SendMessageCallbackW
 targetos: Windows
 req.typenames: 
 req.redist: 

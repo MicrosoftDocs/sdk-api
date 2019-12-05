@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectSamplerVariable
 title: ID3D10EffectSamplerVariable (d3d10effect.h)
-
 description: A sampler interface accesses sampler state.
 old-location: direct3d10\id3d10effectsamplervariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5f4e0586-ee65-dc10-114c-2c07af8387a7, ID3D10EffectSamplerVariable, ID3D10EffectSamplerVariable interface [Direct3D 10], ID3D10EffectSamplerVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectSamplerVariable, direct3d10.id3d10effectsamplervariable
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectSamplerVariable"
+f1_keywords:
+- d3d10effect/ID3D10EffectSamplerVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectSamplerVariable
+- ID3D10EffectSamplerVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

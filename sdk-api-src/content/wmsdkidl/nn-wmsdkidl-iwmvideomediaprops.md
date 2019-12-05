@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMVideoMediaProps
 title: IWMVideoMediaProps (wmsdkidl.h)
-
 description: With this interface, the application can specify additional video-specific parameters not available on the IWMMediaProps interface.To get access to the methods of this interface, call QueryInterface on a stream configuration object.
 old-location: wmformat\iwmvideomediaprops.htm
 tech.root: wmformat
 ms.assetid: 4d6ba1d8-b046-450b-a3f9-4810faba5b77
-
 ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps, IWMVideoMediaProps interface [windows Media Format], IWMVideoMediaProps interface [windows Media Format],described, IWMVideoMediaPropsInterface, wmformat.iwmvideomediaprops, wmsdkidl/IWMVideoMediaProps
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMVideoMediaProps"
+f1_keywords:
+- wmsdkidl/IWMVideoMediaProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wmvcore.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
+- Wmvcore.lib
+- Wmvcore.dll
 api_name:
- - IWMVideoMediaProps
+- IWMVideoMediaProps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreate2DMediaBuffer
 title: MFCreate2DMediaBuffer function (mfapi.h)
-
 description: Creates a system-memory buffer object to hold 2D image data.
 old-location: mf\mfcreate2dmediabuffer.htm
 tech.root: medfound
 ms.assetid: 7D999070-87BD-46AF-A4F0-C0A23DC1C876
-
 ms.date: 12/05/2018
 ms.keywords: MFCreate2DMediaBuffer, MFCreate2DMediaBuffer function [Media Foundation], mf.mfcreate2dmediabuffer, mfapi/MFCreate2DMediaBuffer
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreate2DMediaBuffer"
+f1_keywords:
+- mfapi/MFCreate2DMediaBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreate2DMediaBuffer
+- MFCreate2DMediaBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

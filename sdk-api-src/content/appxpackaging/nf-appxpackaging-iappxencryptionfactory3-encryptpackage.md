@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory3.EncryptPackage
 title: IAppxEncryptionFactory3::EncryptPackage (appxpackaging.h)
-
 description: Creates an encrypted Windows app package from an unencrypted one.
 old-location: appxpkg\iappxencryptionfactory3_encryptpackage.htm
 tech.root: appxpkg
 ms.assetid: 2B3FE76E-57B5-411C-BD87-B9AE3208A11D
-
 ms.date: 12/05/2018
 ms.keywords: EncryptPackage, EncryptPackage method [App packaging and management], EncryptPackage method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],EncryptPackage method, IAppxEncryptionFactory3.EncryptPackage, IAppxEncryptionFactory3::EncryptPackage, appxpackaging/IAppxEncryptionFactory3::EncryptPackage, appxpkg.iappxencryptionfactory3_encryptpackage
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptionFactory3.EncryptPackage"
+f1_keywords:
+- appxpackaging/IAppxEncryptionFactory3.EncryptPackage
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory3.EncryptPackage
+- IAppxEncryptionFactory3.EncryptPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_Status
 title: IAsyncInfo::get_Status (asyncinfo.h)
-
 description: Gets a value that indicates the status of the asynchronous operation.
 old-location: winrt\iasyncinfo_status.htm
 tech.root: WinRT
 ms.assetid: b34d9318-8a0f-4986-a678-76ba6c5bb051
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncInfo interface [Windows Runtime],Status property, IAsyncInfo.Status, IAsyncInfo.get_Status, IAsyncInfo::Status, IAsyncInfo::get_Status, Status property [Windows Runtime], Status property [Windows Runtime],IAsyncInfo interface, asyncinfo/IAsyncInfo::Status, asyncinfo/IAsyncInfo::get_Status, get_Status, winrt.iasyncinfo_status
 ms.topic: method
-f1_keywords: 
- - "asyncinfo/IAsyncInfo.Status"
+f1_keywords:
+- asyncinfo/IAsyncInfo.Status
 dev_langs:
- - c++
+- c++
 req.header: asyncinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AsyncInfo.h
+- AsyncInfo.h
 api_name:
- - IAsyncInfo.Status
- - IAsyncInfo.get_Status
+- IAsyncInfo.Status
+- IAsyncInfo.get_Status
 targetos: Windows
 req.typenames: 
 req.redist: 

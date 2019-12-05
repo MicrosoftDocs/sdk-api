@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxAccountSet
 title: IFaxAccountSet (faxcomex.h)
-
 description: Provides methods for fax account management, including adding, removing, and retrieving fax accounts.
 old-location: fax\_mfax_faxaccountset_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\faxinta_n_ifaxaccountset.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountSet, IFaxAccountSet interface [Fax Service], IFaxAccountSet interface [Fax Service],described, _mfax_faxaccountset_cpp, fax._mfax_faxaccountset_cpp, faxcomex/IFaxAccountSet
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxAccountSet"
+f1_keywords:
+- faxcomex/IFaxAccountSet
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountSet
+- IFaxAccountSet
 targetos: Windows
 req.typenames: 
 req.redist: 

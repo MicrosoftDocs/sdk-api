@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IOverlayNotify2
 title: IOverlayNotify2 (strmif.h)
-
 description: The IOverlayNotify2 interface derives from the IOverlayNotify interface.
 old-location: dshow\ioverlaynotify2.htm
 tech.root: DirectShow
 ms.assetid: 439b3939-84da-48f5-b2a5-47f68fedef06
-
 ms.date: 12/05/2018
 ms.keywords: IOverlayNotify2, IOverlayNotify2 interface [DirectShow], IOverlayNotify2 interface [DirectShow],described, IOverlayNotify2Interface, dshow.ioverlaynotify2, strmif/IOverlayNotify2
 ms.topic: interface
-f1_keywords: 
- - "strmif/IOverlayNotify2"
+f1_keywords:
+- strmif/IOverlayNotify2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlayNotify2
+- IOverlayNotify2
 targetos: Windows
 req.typenames: 
 req.redist: 

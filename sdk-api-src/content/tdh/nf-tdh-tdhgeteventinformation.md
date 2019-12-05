@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhGetEventInformation
 title: TdhGetEventInformation function (tdh.h)
-
 description: Retrieves metadata about an event.
 old-location: etw\tdhgeteventinformation_func.htm
 tech.root: ETW
 ms.assetid: 81542550-79aa-4d67-a472-ac3ee3a3ce63
-
 ms.date: 12/05/2018
 ms.keywords: TdhGetEventInformation, TdhGetEventInformation function [ETW], etw.tdhgeteventinformation_func, tdh.tdhgeteventinformation_func, tdh/TdhGetEventInformation
 ms.topic: function
 f1_keywords:
 - tdh/TdhGetEventInformation
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

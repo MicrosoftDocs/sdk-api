@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.get_Selected
 title: IX509EnrollmentStatus::get_Selected (certenroll.h)
-
 description: Specifies or retrieves a value that indicates whether an item can be used during the enrollment process.
 old-location: security\ix509enrollmentstatus_selected_property.htm
 tech.root: seccertenroll
 ms.assetid: 9050f394-ccad-4a6e-90bc-53af3a874f91
-
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentStatus interface [Security],Selected property, IX509EnrollmentStatus.Selected, IX509EnrollmentStatus.get_Selected, IX509EnrollmentStatus::Selected, IX509EnrollmentStatus::get_Selected, IX509EnrollmentStatus::put_Selected, Selected property [Security], Selected property [Security],IX509EnrollmentStatus interface, certenroll/IX509EnrollmentStatus::Selected, certenroll/IX509EnrollmentStatus::get_Selected, certenroll/IX509EnrollmentStatus::put_Selected, get_Selected, security.ix509enrollmentstatus_selected_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentStatus.Selected"
+f1_keywords:
+- certenroll/IX509EnrollmentStatus.Selected
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509EnrollmentStatus.Selected
- - IX509EnrollmentStatus.get_Selected
- - IX509EnrollmentStatus.put_Selected
+- IX509EnrollmentStatus.Selected
+- IX509EnrollmentStatus.get_Selected
+- IX509EnrollmentStatus.put_Selected
 targetos: Windows
 req.typenames: 
 req.redist: 

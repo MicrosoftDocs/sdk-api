@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPropertyList.PurgePropertyList
 title: IADsPropertyList::PurgePropertyList (iads.h)
-
 description: Deletes all items from the property list.
 old-location: adsi\iadspropertylist_purgepropertylist.htm
 tech.root: adsi
 ms.assetid: 872c8af7-60c4-4dfc-aa37-0cbb2229a93f
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList interface [ADSI],PurgePropertyList method, IADsPropertyList.PurgePropertyList, IADsPropertyList::PurgePropertyList, PurgePropertyList, PurgePropertyList method [ADSI], PurgePropertyList method [ADSI],IADsPropertyList interface, _ds_iadspropertylist_purgepropertylist, adsi.iadspropertylist__purgepropertylist, adsi.iadspropertylist_purgepropertylist, iads/IADsPropertyList::PurgePropertyList
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPropertyList.PurgePropertyList"
+f1_keywords:
+- iads/IADsPropertyList.PurgePropertyList
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList.PurgePropertyList
+- IADsPropertyList.PurgePropertyList
 targetos: Windows
 req.typenames: 
 req.redist: 

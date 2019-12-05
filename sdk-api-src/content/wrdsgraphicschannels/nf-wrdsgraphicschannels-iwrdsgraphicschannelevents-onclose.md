@@ -1,19 +1,17 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnClose
 title: IWRdsGraphicsChannelEvents::OnClose (wrdsgraphicschannels.h)
-
 description: Called when the channel has been closed.
 old-location: termserv\iwrdsgraphicschannelevents_onclose.htm
 tech.root: TermServ
 ms.assetid: fd195c0e-68bf-4361-9795-0e436c1abc90
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnClose method, IWRdsGraphicsChannelEvents.OnClose, IWRdsGraphicsChannelEvents::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onclose, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnClose
 ms.topic: method
-f1_keywords: 
- - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnClose"
+f1_keywords:
+- wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnClose
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannelEvents.OnClose
+- IWRdsGraphicsChannelEvents.OnClose
 targetos: Windows
 req.typenames: 
 req.redist: 

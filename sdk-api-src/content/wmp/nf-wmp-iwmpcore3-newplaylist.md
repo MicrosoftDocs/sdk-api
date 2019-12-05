@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore3.newPlaylist
 title: IWMPCore3::newPlaylist (wmp.h)
-
 description: The newPlaylist method retrieves a pointer to an IWMPPlaylist interface for a new playlist.
 old-location: wmp\iwmpcore3_newplaylist.htm
 tech.root: WMP
 ms.assetid: 61af7ce9-7fc6-4907-b423-3e6d2d8f39ac
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newPlaylist method, IWMPCore3.newPlaylist, IWMPCore3::newPlaylist, IWMPCore3newPlaylist, newPlaylist, newPlaylist method [Windows Media Player], newPlaylist method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newplaylist, wmp/IWMPCore3::newPlaylist
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore3.newPlaylist"
+f1_keywords:
+- wmp/IWMPCore3.newPlaylist
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore3.newPlaylist
+- IWMPCore3.newPlaylist
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_Arguments
 title: IFsrmActionCommand::put_Arguments (fsrm.h)
-
 description: Retrieves or sets the arguments to pass to the executable program specified in the ExecutablePath property.
 old-location: fsrm\ifsrmactioncommand_arguments.htm
 tech.root: fsrm
 ms.assetid: 2ffc8753-3a63-4619-936d-f2f4d2362508
-
 ms.date: 12/05/2018
 ms.keywords: Arguments property [File Server Resource Manager], Arguments property [File Server Resource Manager],IFsrmActionCommand interface, IFsrmActionCommand interface [File Server Resource Manager],Arguments property, IFsrmActionCommand.Arguments, IFsrmActionCommand.put_Arguments, IFsrmActionCommand::Arguments, IFsrmActionCommand::get_Arguments, IFsrmActionCommand::put_Arguments, fs.ifsrmactioncommand_arguments, fsrm.ifsrmactioncommand_arguments, fsrm/IFsrmActionCommand::Arguments, fsrm/IFsrmActionCommand::get_Arguments, fsrm/IFsrmActionCommand::put_Arguments, put_Arguments
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionCommand.Arguments"
+f1_keywords:
+- fsrm/IFsrmActionCommand.Arguments
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionCommand.Arguments
- - IFsrmActionCommand.get_Arguments
- - IFsrmActionCommand.put_Arguments
+- IFsrmActionCommand.Arguments
+- IFsrmActionCommand.get_Arguments
+- IFsrmActionCommand.put_Arguments
 targetos: Windows
 req.typenames: 
 req.redist: 

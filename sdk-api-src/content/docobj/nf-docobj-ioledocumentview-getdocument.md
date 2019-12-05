@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetDocument
 title: IOleDocumentView::GetDocument (docobj.h)
-
 description: Obtains the IUnknown interface pointer on the document object that owns this view.
 old-location: com\ioledocumentview_getdocument.htm
 tech.root: com
 ms.assetid: 46174e4f-c943-4e70-af68-79363962cdee
-
 ms.date: 12/05/2018
 ms.keywords: GetDocument, GetDocument method [COM], GetDocument method [COM],IOleDocumentView interface, IOleDocumentView interface [COM],GetDocument method, IOleDocumentView.GetDocument, IOleDocumentView::GetDocument, _ole_ioledocumentview_getdocument, com.ioledocumentview_getdocument, docobj/IOleDocumentView::GetDocument
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.GetDocument"
+f1_keywords:
+- docobj/IOleDocumentView.GetDocument
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.GetDocument
+- IOleDocumentView.GetDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

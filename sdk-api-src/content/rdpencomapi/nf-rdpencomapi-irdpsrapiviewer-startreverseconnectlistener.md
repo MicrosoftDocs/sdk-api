@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.StartReverseConnectListener
 title: IRDPSRAPIViewer::StartReverseConnectListener (rdpencomapi.h)
-
 description: Initiates a listener for accepting reverse connections from the sharer to the viewer, or obtains the connection string that the sharer uses to reverse connect to the viewer.
 old-location: rdp\irdpsrapiviewer_startreverseconnectlistener.htm
 tech.root: rdp
 ms.assetid: 6e45e21f-f3a5-4a9e-9d63-45d7a1972114
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIViewer interface [RDP],StartReverseConnectListener method, IRDPSRAPIViewer.StartReverseConnectListener, IRDPSRAPIViewer::StartReverseConnectListener, StartReverseConnectListener, StartReverseConnectListener method [RDP], StartReverseConnectListener method [RDP],IRDPSRAPIViewer interface, rdp.irdpsrapiviewer_startreverseconnectlistener, rdpencomapi/IRDPSRAPIViewer::StartReverseConnectListener
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIViewer.StartReverseConnectListener"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIViewer.StartReverseConnectListener
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.StartReverseConnectListener
+- IRDPSRAPIViewer.StartReverseConnectListener
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.ItemCount
 title: IFolderView::ItemCount (shobjidl_core.h)
-
 description: Gets the number of items in the folder. This can be the number of all items, or a subset such as the number of selected items.
 old-location: shell\IFolderView_ItemCount.htm
 tech.root: shell
 ms.assetid: dadf91c5-7d27-4b1b-875b-6f0615440f47
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView interface [Windows Shell],ItemCount method, IFolderView.ItemCount, IFolderView::ItemCount, ItemCount, ItemCount method [Windows Shell], ItemCount method [Windows Shell],IFolderView interface, _shell_IFolderView_ItemCount, shell.IFolderView_ItemCount, shobjidl_core/IFolderView::ItemCount
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.ItemCount"
+f1_keywords:
+- shobjidl_core/IFolderView.ItemCount
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.ItemCount
+- IFolderView.ItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

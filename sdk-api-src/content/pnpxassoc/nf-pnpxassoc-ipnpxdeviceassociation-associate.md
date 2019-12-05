@@ -1,19 +1,17 @@
 ---
 UID: NF:pnpxassoc.IPNPXDeviceAssociation.Associate
 title: IPNPXDeviceAssociation::Associate (pnpxassoc.h)
-
 description: Marks an association database entry as associated and sends an appropriate notification.
 old-location: ncd\ipnpxdeviceassociation_associate.htm
 tech.root: FunDisc
 ms.assetid: 2024c2b8-ef47-4352-80ea-c68b22f38d4c
-
 ms.date: 12/05/2018
 ms.keywords: Associate, Associate method, Associate method,IPNPXDeviceAssociation interface, IPNPXDeviceAssociation interface,Associate method, IPNPXDeviceAssociation.Associate, IPNPXDeviceAssociation::Associate, ncd.ipnpxdeviceassociation_associate, pnpxassoc/IPNPXDeviceAssociation::Associate
 ms.topic: method
-f1_keywords: 
- - "pnpxassoc/IPNPXDeviceAssociation.Associate"
+f1_keywords:
+- pnpxassoc/IPNPXDeviceAssociation.Associate
 dev_langs:
- - c++
+- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - pnpxassoc.h
+- pnpxassoc.h
 api_name:
- - IPNPXDeviceAssociation.Associate
+- IPNPXDeviceAssociation.Associate
 targetos: Windows
 req.typenames: 
 req.redist: 

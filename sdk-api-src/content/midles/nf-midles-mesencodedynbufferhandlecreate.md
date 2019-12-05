@@ -1,19 +1,17 @@
 ---
 UID: NF:midles.MesEncodeDynBufferHandleCreate
 title: MesEncodeDynBufferHandleCreate function (midles.h)
-
 description: The MesEncodeDynBufferHandleCreate function creates an encoding handle and then initializes it for a dynamic buffer style of serialization.
 old-location: rpc\mesencodedynbufferhandlecreate.htm
 tech.root: Rpc
 ms.assetid: 4d8cb8e3-aa5a-4354-87e7-57543baa57e8
-
 ms.date: 12/05/2018
 ms.keywords: MesEncodeDynBufferHandleCreate, MesEncodeDynBufferHandleCreate function [RPC], _rpc_mesencodedynbufferhandlecreate, midles/MesEncodeDynBufferHandleCreate, rpc.mesencodedynbufferhandlecreate
 ms.topic: function
-f1_keywords: 
- - "midles/MesEncodeDynBufferHandleCreate"
+f1_keywords:
+- midles/MesEncodeDynBufferHandleCreate
 dev_langs:
- - c++
+- c++
 req.header: midles.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - MesEncodeDynBufferHandleCreate
+- MesEncodeDynBufferHandleCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

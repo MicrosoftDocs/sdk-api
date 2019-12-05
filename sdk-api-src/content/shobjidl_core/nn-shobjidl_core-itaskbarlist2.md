@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList2
 title: ITaskbarList2 (shobjidl_core.h)
-
 description: Extends the ITaskbarList interface by exposing a method to mark a window as a full-screen display.
 old-location: shell\ITaskbarList2.htm
 tech.root: shell
 ms.assetid: 8af23586-349f-4d21-98cb-0aaa27a586ff
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList2, ITaskbarList2 interface [Windows Shell], ITaskbarList2 interface [Windows Shell],described, shell.ITaskbarList2, shell_ITaskbarList2, shobjidl_core/ITaskbarList2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ITaskbarList2"
+f1_keywords:
+- shobjidl_core/ITaskbarList2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ITaskbarList2
+- ITaskbarList2
 targetos: Windows
 req.typenames: 
 req.redist: 

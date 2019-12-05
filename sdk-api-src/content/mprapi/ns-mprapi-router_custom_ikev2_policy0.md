@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._ROUTER_CUSTOM_IKEv2_POLICY0
 title: ROUTER_CUSTOM_IKEv2_POLICY0 (mprapi.h)
-
 description: Contains the IKEv2 main mode and quick mode policy configuration.
 old-location: rras\router_custom_ikev2_policy0.htm
 tech.root: RRAS
 ms.assetid: 46ea7b05-0d2d-4ba1-b3c3-fab67eabf552
-
 ms.date: 12/05/2018
-ms.keywords: "*PROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0 structure pointer [RAS], ROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_IKEv2_POLICY0 structure [RAS], ROUTER_CUSTOM_L2TP_POLICY0, mprapi/PROUTER_CUSTOM_IKEv2_POLICY0, mprapi/ROUTER_CUSTOM_IKEv2_POLICY0, rras.router_custom_ikev2_policy0"
+ms.keywords: '*PROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0, PROUTER_CUSTOM_IKEv2_POLICY0 structure pointer [RAS], ROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_IKEv2_POLICY0 structure [RAS], ROUTER_CUSTOM_L2TP_POLICY0, mprapi/PROUTER_CUSTOM_IKEv2_POLICY0, mprapi/ROUTER_CUSTOM_IKEv2_POLICY0, rras.router_custom_ikev2_policy0'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/ROUTER_CUSTOM_IKEv2_POLICY0"
+f1_keywords:
+- mprapi/ROUTER_CUSTOM_IKEv2_POLICY0
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mprapi.h
+- mprapi.h
 api_name:
- - ROUTER_CUSTOM_IKEv2_POLICY0
+- ROUTER_CUSTOM_IKEv2_POLICY0
 targetos: Windows
 req.typenames: ROUTER_CUSTOM_IKEv2_POLICY0, *PROUTER_CUSTOM_IKEv2_POLICY0, ROUTER_CUSTOM_L2TP_POLICY0, *PROUTER_CUSTOM_L2TP_POLICY0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.IConnectableCredentialProviderCredential.Connect
 title: IConnectableCredentialProviderCredential::Connect (credentialprovider.h)
-
 description: Connects an IConnectableCredentialProviderCredential object. This method is called after the user clicks the Submit button within the Pre-Logon-Access Provider screen and before ICredentialProviderCredential::GetSerialization is called.
 old-location: shell\IConnectableCredentialProviderCredential_Connect.htm
 tech.root: shell
 ms.assetid: 0fe91d1a-811a-4956-bb2f-47712ae2a155
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Windows Shell], Connect method [Windows Shell],IConnectableCredentialProviderCredential interface, IConnectableCredentialProviderCredential interface [Windows Shell],Connect method, IConnectableCredentialProviderCredential.Connect, IConnectableCredentialProviderCredential::Connect, _shell_IConnectableCredentialProviderCredential_Connect, credentialprovider/IConnectableCredentialProviderCredential::Connect, shell.IConnectableCredentialProviderCredential_Connect
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/IConnectableCredentialProviderCredential.Connect"
+f1_keywords:
+- credentialprovider/IConnectableCredentialProviderCredential.Connect
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - IConnectableCredentialProviderCredential.Connect
+- IConnectableCredentialProviderCredential.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

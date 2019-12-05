@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Xml
 title: IRegisteredTask::get_Xml (taskschd.h)
-
 description: Gets the XML-formatted registration information for the registered task.
 old-location: taskschd\iregisteredtask_xml.htm
 tech.root: taskschd
 ms.assetid: cfa85a88-99f5-4c4f-afe8-44b3f27833e5
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Xml property, IRegisteredTask.Xml, IRegisteredTask.get_Xml, IRegisteredTask::Xml, IRegisteredTask::get_Xml, Xml property [Task Scheduler], Xml property [Task Scheduler],IRegisteredTask interface, get_Xml, taskschd.iregisteredtask_xml, taskschd/IRegisteredTask::Xml, taskschd/IRegisteredTask::get_Xml
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.Xml"
+f1_keywords:
+- taskschd/IRegisteredTask.Xml
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.Xml
- - IRegisteredTask.get_Xml
+- IRegisteredTask.Xml
+- IRegisteredTask.get_Xml
 targetos: Windows
 req.typenames: 
 req.redist: 

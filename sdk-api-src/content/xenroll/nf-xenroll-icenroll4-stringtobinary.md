@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.stringToBinary
 title: ICEnroll4::stringToBinary (xenroll.h)
-
 description: Converts an encoded string to a binary data BLOB. This method was first defined in the ICEnroll4 interface.
 old-location: security\icenroll4_stringtobinary.htm
 tech.root: SecCrypto
 ms.assetid: abcc395f-f989-4098-818a-160e427b1da0
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],stringToBinary method, ICEnroll4 interface [Security],stringToBinary method, ICEnroll4.stringToBinary, ICEnroll4::stringToBinary, _xen_icenroll4_stringtobinary, security.icenroll4_stringtobinary, stringToBinary, stringToBinary method [Security], stringToBinary method [Security],CEnroll object, stringToBinary method [Security],ICEnroll4 interface, xenroll/ICEnroll4::stringToBinary
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.stringToBinary"
+f1_keywords:
+- xenroll/ICEnroll4.stringToBinary
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.stringToBinary
- - CEnroll.stringToBinary
+- ICEnroll4.stringToBinary
+- CEnroll.stringToBinary
 targetos: Windows
 req.typenames: 
 req.redist: 

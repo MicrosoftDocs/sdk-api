@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSGetPropertyKeyFromName
 title: PSGetPropertyKeyFromName function (propsys.h)
-
 description: Gets the property key for a canonical property name.
 old-location: properties\PSGetPropertyKeyFromName.htm
 tech.root: properties
 ms.assetid: a80301d9-8b4e-4a17-8e24-4362ba3b1ab5
-
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyKeyFromName, PSGetPropertyKeyFromName function [Windows Properties], properties.PSGetPropertyKeyFromName, propsys/PSGetPropertyKeyFromName, shell.PSGetPropertyKeyFromName, shell_PSGetPropertyKeyFromName
 ms.topic: function
 f1_keywords:
 - propsys/PSGetPropertyKeyFromName
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

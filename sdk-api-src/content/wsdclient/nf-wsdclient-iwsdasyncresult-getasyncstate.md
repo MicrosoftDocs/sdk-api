@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.GetAsyncState
 title: IWSDAsyncResult::GetAsyncState (wsdclient.h)
-
 description: Gets the state of the asynchronous operation.
 old-location: ncd\iwsdasyncresult_getasyncstate_method.htm
 tech.root: WsdApi
 ms.assetid: 4f4115bd-748e-41cd-928f-3dd3a354d336
-
 ms.date: 12/05/2018
 ms.keywords: GetAsyncState, GetAsyncState method, GetAsyncState method,IWSDAsyncResult interface, IWSDAsyncResult interface,GetAsyncState method, IWSDAsyncResult.GetAsyncState, IWSDAsyncResult::GetAsyncState, ncd.iwsdasyncresult_getasyncstate_method, wsdclient/IWSDAsyncResult::GetAsyncState
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDAsyncResult.GetAsyncState"
+f1_keywords:
+- wsdclient/IWSDAsyncResult.GetAsyncState
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDAsyncResult.GetAsyncState
+- IWSDAsyncResult.GetAsyncState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.Add
 title: IFaxDeviceIds::Add (faxcomex.h)
-
 description: The IFaxDeviceIds::Add method adds a fax device to the FaxDeviceIds collection, using the device's ID.
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4g2s.htm
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxDeviceIds interface, IFaxDeviceIds interface [Fax Service],Add method, IFaxDeviceIds.Add, IFaxDeviceIds::Add, _mfax_faxdeviceids.add, fax._mfax_faxdeviceids_add, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_add_cpp, faxcomex/IFaxDeviceIds::Add
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceIds.Add"
+f1_keywords:
+- faxcomex/IFaxDeviceIds.Add
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceIds.Add
+- IFaxDeviceIds.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

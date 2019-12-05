@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtQueryGetData
 title: IWiaDataTransfer::idtQueryGetData (wia_xp.h)
-
 description: The IWiaDataTransfer::idtQueryGetData method is used by applications to query a Windows Image Acquisition (WIA) device to determine what types of data formats it supports.
 old-location: wia\_wia_IWiaDataTransfer_idtQueryGetData.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtquerygetdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtQueryGetData method, IWiaDataTransfer.idtQueryGetData, IWiaDataTransfer::idtQueryGetData, _wia_IWiaDataTransfer_idtQueryGetData, idtQueryGetData, idtQueryGetData method [WIA], idtQueryGetData method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtQueryGetData, wia_xp/IWiaDataTransfer::idtQueryGetData
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDataTransfer.idtQueryGetData
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

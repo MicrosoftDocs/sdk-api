@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.IsAvailable
 title: FontFamily::IsAvailable (gdiplusheaders.h)
-
 description: The FontFamily::IsAvailable method determines whether this FontFamily object was created successfully.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsAvailable_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\isavailable_5.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],IsAvailable method, FontFamily.IsAvailable, FontFamily::IsAvailable, IsAvailable, IsAvailable method [GDI+], IsAvailable method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_IsAvailable_, gdiplus._gdiplus_CLASS_FontFamily_IsAvailable_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontFamily.IsAvailable"
+f1_keywords:
+- gdiplusheaders/FontFamily.IsAvailable
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontFamily.IsAvailable
+- FontFamily.IsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

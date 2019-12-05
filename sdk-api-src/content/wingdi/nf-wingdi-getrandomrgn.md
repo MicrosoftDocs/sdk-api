@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetRandomRgn
 title: GetRandomRgn function (wingdi.h)
-
 description: The GetRandomRgn function copies the system clipping region of a specified device context to a specific region.
 old-location: gdi\getrandomrgn.htm
 tech.root: gdi
 ms.assetid: a7527d7a-7b5e-4dd5-9270-94bc92b5a4a0
-
 ms.date: 12/05/2018
 ms.keywords: GetRandomRgn, GetRandomRgn function [Windows GDI], _win32_GetRandomRgn, gdi.getrandomrgn, wingdi/GetRandomRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetRandomRgn"
+f1_keywords:
+- wingdi/GetRandomRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-Rgn-L1-1-1.dll
- - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
- - GDI32Full.dll
- - GDI32Min.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-Rgn-L1-1-1.dll
+- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+- GDI32Full.dll
+- GDI32Min.dll
 api_name:
- - GetRandomRgn
+- GetRandomRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetIconSize
 title: IFolderViewSettings::GetIconSize (shobjidl_core.h)
-
 description: Gets the folder icon size.
 old-location: shell\IFolderViewSettings_GetIconSize.htm
 tech.root: shell
 ms.assetid: 69fa2ce6-7f44-42e8-b4b9-4eb9adb35b54
-
 ms.date: 12/05/2018
 ms.keywords: GetIconSize, GetIconSize method [Windows Shell], GetIconSize method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetIconSize method, IFolderViewSettings.GetIconSize, IFolderViewSettings::GetIconSize, _shell_IFolderViewSettings_GetIconSize, shell.IFolderViewSettings_GetIconSize, shobjidl_core/IFolderViewSettings::GetIconSize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderViewSettings.GetIconSize"
+f1_keywords:
+- shobjidl_core/IFolderViewSettings.GetIconSize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderViewSettings.GetIconSize
+- IFolderViewSettings.GetIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 

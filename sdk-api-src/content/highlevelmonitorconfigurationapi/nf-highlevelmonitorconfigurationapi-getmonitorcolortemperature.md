@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorColorTemperature
 title: GetMonitorColorTemperature function (highlevelmonitorconfigurationapi.h)
-
 description: Retrieves a monitor's current color temperature.
 old-location: monitor\getmonitorcolortemperature.htm
 tech.root: Monitor
 ms.assetid: 872aabcc-b274-454c-a08b-6c4c5aa83012
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorColorTemperature, GetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorColorTemperature, monitor.getmonitorcolortemperature
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/GetMonitorColorTemperature"
+f1_keywords:
+- highlevelmonitorconfigurationapi/GetMonitorColorTemperature
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetMonitorColorTemperature
+- GetMonitorColorTemperature
 targetos: Windows
 req.typenames: 
 req.redist: 

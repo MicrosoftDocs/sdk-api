@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupCommitFileQueueW
 title: SetupCommitFileQueueW function (setupapi.h)
-
 description: The SetupCommitFileQueue function performs file operations queued on a setup file queue.
 old-location: setup\setupcommitfilequeue.htm
 tech.root: SetupApi
 ms.assetid: c532f435-7393-49f0-975c-4c0ecca64407
-
 ms.date: 12/05/2018
 ms.keywords: SetupCommitFileQueue, SetupCommitFileQueue function [Setup API], SetupCommitFileQueueA, SetupCommitFileQueueW, _setupapi_setupcommitfilequeue, setup.setupcommitfilequeue, setupapi/SetupCommitFileQueue, setupapi/SetupCommitFileQueueA, setupapi/SetupCommitFileQueueW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupCommitFileQueue"
+f1_keywords:
+- setupapi/SetupCommitFileQueue
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupCommitFileQueue
- - SetupCommitFileQueueA
- - SetupCommitFileQueueW
+- SetupCommitFileQueue
+- SetupCommitFileQueueA
+- SetupCommitFileQueueW
 targetos: Windows
 req.typenames: 
 req.redist: 

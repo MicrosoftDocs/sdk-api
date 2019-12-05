@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.WMCreateLicenseRevocationAgent
 title: WMCreateLicenseRevocationAgent function (wmsdkidl.h)
-
 description: The WMCreateLicenseRevocationAgent function creates a license revocation object.
 old-location: wmformat\wmcreatelicenserevocationagent.htm
 tech.root: wmformat
 ms.assetid: 46898846-780f-4a86-93c7-826f55c358ba
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateLicenseRevocationAgent, WMCreateLicenseRevocationAgent function [windows Media Format], wmformat.wmcreatelicenserevocationagent, wmsdkidl/WMCreateLicenseRevocationAgent
 ms.topic: function
-f1_keywords: 
- - "wmsdkidl/WMCreateLicenseRevocationAgent"
+f1_keywords:
+- wmsdkidl/WMCreateLicenseRevocationAgent
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wmvcore.dll
+- Wmvcore.dll
 api_name:
- - WMCreateLicenseRevocationAgent
+- WMCreateLicenseRevocationAgent
 targetos: Windows
 req.typenames: 
 req.redist: 

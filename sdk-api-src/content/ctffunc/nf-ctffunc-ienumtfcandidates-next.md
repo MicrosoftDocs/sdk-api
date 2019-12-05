@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Next
 title: IEnumTfCandidates::Next (ctffunc.h)
-
 description: IEnumTfCandidates::Next method
 old-location: tsf\ienumtfcandidates_next.htm
 tech.root: TSF
 ms.assetid: 50aaa3c0-6998-49de-9753-7be38625a10d
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Next method, IEnumTfCandidates.Next, IEnumTfCandidates::Next, Next, Next method [Text Services Framework], Next method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_next_ref, ctffunc/IEnumTfCandidates::Next, tsf.ienumtfcandidates_next
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IEnumTfCandidates.Next"
+f1_keywords:
+- ctffunc/IEnumTfCandidates.Next
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfCandidates.Next
+- IEnumTfCandidates.Next
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

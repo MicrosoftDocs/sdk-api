@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFBufferListNotify
 title: IMFBufferListNotify (mfmediaengine.h)
-
 description: Enables IMFSourceBufferList object to notify its clients of important state changes.
 old-location: mf\imfbufferlistnotify.htm
 tech.root: medfound
 ms.assetid: 2a2705b4-fac3-4059-b2c9-c03efaa9c15e
-
 ms.date: 12/05/2018
 ms.keywords: IMFBufferListNotify, IMFBufferListNotify interface [Media Foundation], IMFBufferListNotify interface [Media Foundation],described, mf.imfbufferlistnotify, mfmediaengine/IMFBufferListNotify
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFBufferListNotify"
+f1_keywords:
+- mfmediaengine/IMFBufferListNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFBufferListNotify
+- IMFBufferListNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

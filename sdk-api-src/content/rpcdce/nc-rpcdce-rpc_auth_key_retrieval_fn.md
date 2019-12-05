@@ -1,19 +1,17 @@
 ---
 UID: NC:rpcdce.RPC_AUTH_KEY_RETRIEVAL_FN
 title: RPC_AUTH_KEY_RETRIEVAL_FN (rpcdce.h)
-
 description: The RPC_AUTH_KEY_RETRIEVAL_FN function is a prototype for a function that specifies the address of a server-application-provided routine returning encryption keys.
 old-location: rpc\rpc_auth_key_retrieval_fn.htm
 tech.root: Rpc
 ms.assetid: 643ce467-5df9-4b1a-a149-cf301865d47a
-
 ms.date: 12/05/2018
 ms.keywords: RPC_AUTH_KEY_RETRIEVAL_FN, RPC_AUTH_KEY_RETRIEVAL_FN callback, RPC_AUTH_KEY_RETRIEVAL_FN callback function [RPC], RpcAuthKeyRetrievalFn, _rpc_rpc_auth_key_retrieval_fn, rpc.rpc_auth_key_retrieval_fn, rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN
 ms.topic: callback
-f1_keywords: 
- - "rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN"
+f1_keywords:
+- rpcdce/RPC_AUTH_KEY_RETRIEVAL_FN
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_AUTH_KEY_RETRIEVAL_FN
+- RPC_AUTH_KEY_RETRIEVAL_FN
 targetos: Windows
 req.typenames: 
 req.redist: 

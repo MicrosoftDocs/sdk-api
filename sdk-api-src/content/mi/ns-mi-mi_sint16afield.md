@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Sint16AField
 title: MI_Sint16AField (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_sint16afield.htm
 tech.root: wmi_v2
 ms.assetid: 458e2821-bce6-4ceb-957c-680adedd5300
-
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_Sint16AField, MI_Sint16AField structure [Windows Management Infrastructure (MI)], mi/MI_Sint16AField, wmi._mi_sint16afield, wmi_v2.mi_sint16afield
 ms.topic: struct
 f1_keywords:
 - mi/MI_Sint16AField
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

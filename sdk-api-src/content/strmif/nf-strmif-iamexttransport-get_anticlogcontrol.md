@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_AntiClogControl
 title: IAMExtTransport::get_AntiClogControl (strmif.h)
-
 description: The get_AntiClogControl method determines whether the anti-headclog control is enabled or disabled.
 old-location: dshow\iamexttransport_get_anticlogcontrol.htm
 tech.root: DirectShow
 ms.assetid: e0175b44-d1e6-4f3a-8aa7-893b41d0c487
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_AntiClogControl method, IAMExtTransport.get_AntiClogControl, IAMExtTransport::get_AntiClogControl, IAMExtTransportget_AntiClogControl, dshow.iamexttransport_get_anticlogcontrol, get_AntiClogControl, get_AntiClogControl method [DirectShow], get_AntiClogControl method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_AntiClogControl
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.get_AntiClogControl"
+f1_keywords:
+- strmif/IAMExtTransport.get_AntiClogControl
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.get_AntiClogControl
+- IAMExtTransport.get_AntiClogControl
 targetos: Windows
 req.typenames: 
 req.redist: 

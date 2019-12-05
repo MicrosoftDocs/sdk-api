@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathUndecorateA
 title: PathUndecorateA function (shlwapi.h)
-
 description: Removes the decoration from a path string.
 old-location: shell\PathUndecorate.htm
 tech.root: shell
 ms.assetid: 2d98ad60-8a7d-4b8d-9b5c-27e348bdc2c3
-
 ms.date: 12/05/2018
 ms.keywords: PathUndecorate, PathUndecorate function [Windows Shell], PathUndecorateA, PathUndecorateW, _win32_PathUndecorate, shell.PathUndecorate, shlwapi/PathUndecorate, shlwapi/PathUndecorateA, shlwapi/PathUndecorateW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathUndecorate"
+f1_keywords:
+- shlwapi/PathUndecorate
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
- - PathUndecorate
- - PathUndecorateA
- - PathUndecorateW
+- PathUndecorate
+- PathUndecorateA
+- PathUndecorateW
 targetos: Windows
 req.typenames: 
 req.redist: 

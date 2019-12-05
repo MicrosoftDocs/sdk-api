@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFOutputTrustAuthority.SetPolicy
 title: IMFOutputTrustAuthority::SetPolicy (mfidl.h)
-
 description: Sets one or more policy objects on the output trust authority (OTA).
 old-location: mf\imfoutputtrustauthority_setpolicy.htm
 tech.root: medfound
 ms.assetid: f5102ef3-472f-4a38-889c-e1c25dd46765
-
 ms.date: 12/05/2018
 ms.keywords: IMFOutputTrustAuthority interface [Media Foundation],SetPolicy method, IMFOutputTrustAuthority.SetPolicy, IMFOutputTrustAuthority::SetPolicy, SetPolicy, SetPolicy method [Media Foundation], SetPolicy method [Media Foundation],IMFOutputTrustAuthority interface, f5102ef3-472f-4a38-889c-e1c25dd46765, mf.imfoutputtrustauthority_setpolicy, mfidl/IMFOutputTrustAuthority::SetPolicy
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFOutputTrustAuthority.SetPolicy"
+f1_keywords:
+- mfidl/IMFOutputTrustAuthority.SetPolicy
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFOutputTrustAuthority.SetPolicy
+- IMFOutputTrustAuthority.SetPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

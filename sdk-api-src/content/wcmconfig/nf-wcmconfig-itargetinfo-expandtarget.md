@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.ExpandTarget
 title: ITargetInfo::ExpandTarget (wcmconfig.h)
-
 description: Expands a location string to indicate the offline installation location.
 old-location: smi\itargetinfo_expandtarget.htm
 tech.root: SMI
 ms.assetid: c9c757f4-ad71-42d7-864a-26f3d1e8000b
-
 ms.date: 12/05/2018
 ms.keywords: ExpandTarget, ExpandTarget method [SMI], ExpandTarget method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],ExpandTarget method, ITargetInfo.ExpandTarget, ITargetInfo::ExpandTarget, smi.itargetinfo_expandtarget, wcmconfig/ITargetInfo::ExpandTarget
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.ExpandTarget"
+f1_keywords:
+- wcmconfig/ITargetInfo.ExpandTarget
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.ExpandTarget
+- ITargetInfo.ExpandTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

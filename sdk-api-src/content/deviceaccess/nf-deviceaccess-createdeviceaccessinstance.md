@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.CreateDeviceAccessInstance
 title: CreateDeviceAccessInstance function (deviceaccess.h)
-
 description: Creates the object that's used to access a device. The instantiated object implements the IDeviceIoControl and ICreateDeviceAccessAsync interfaces.
 old-location: deviceaccess\createdeviceaccessinstance.htm
 tech.root: deviceaccess
 ms.assetid: 082d6297-20ac-4557-8205-0451482a5758
-
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceAccessInstance, CreateDeviceAccessInstance function [Device Access Broker API], deviceaccess.createdeviceaccessinstance, deviceaccess/CreateDeviceAccessInstance
 ms.topic: function
-f1_keywords: 
- - "deviceaccess/CreateDeviceAccessInstance"
+f1_keywords:
+- deviceaccess/CreateDeviceAccessInstance
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Deviceaccess.lib
 req.dll: Deviceaccess.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - deviceaccess.dll
+- deviceaccess.dll
 api_name:
- - CreateDeviceAccessInstance
+- CreateDeviceAccessInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

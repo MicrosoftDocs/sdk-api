@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.get_PolicyServer
 title: IX509CertificateRequestCmc2::get_PolicyServer (certenroll.h)
-
 description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
 old-location: security\ix509certificaterequestcmc2_policyserver.htm
 tech.root: seccertenroll
 ms.assetid: 3a0aa790-c337-4033-a8fa-52f2b06ac005
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],PolicyServer property, IX509CertificateRequestCmc2.PolicyServer, IX509CertificateRequestCmc2.get_PolicyServer, IX509CertificateRequestCmc2::PolicyServer, IX509CertificateRequestCmc2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::PolicyServer, certenroll/IX509CertificateRequestCmc2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestcmc2_policyserver
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc2.PolicyServer"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc2.PolicyServer
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509CertificateRequestCmc2.PolicyServer
- - IX509CertificateRequestCmc2.get_PolicyServer
+- IX509CertificateRequestCmc2.PolicyServer
+- IX509CertificateRequestCmc2.get_PolicyServer
 targetos: Windows
 req.typenames: 
 req.redist: 

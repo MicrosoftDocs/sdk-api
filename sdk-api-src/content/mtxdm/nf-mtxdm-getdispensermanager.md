@@ -1,19 +1,17 @@
 ---
 UID: NF:mtxdm.GetDispenserManager
 title: GetDispenserManager function (mtxdm.h)
-
 description: Retrieves the dispenser manager's IDispenserManager interface.
 old-location: cos\getdispensermanager.htm
 tech.root: cossdk
 ms.assetid: db344236-a8be-49ec-91fd-dfcc0bd4412c
-
 ms.date: 12/05/2018
 ms.keywords: GetDispenserManager, GetDispenserManager function [COM+], _dtc_GetDispenserManager_Function, cos.getdispensermanager, mtxdm/GetDispenserManager
 ms.topic: function
-f1_keywords: 
- - "mtxdm/GetDispenserManager"
+f1_keywords:
+- mtxdm/GetDispenserManager
 dev_langs:
- - c++
+- c++
 req.header: mtxdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MtxDM.lib
 req.dll: MtxDM.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MtxDM.dll
+- MtxDM.dll
 api_name:
- - GetDispenserManager
+- GetDispenserManager
 targetos: Windows
 req.typenames: 
 req.redist: 

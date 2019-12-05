@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICRawRenderMode
 title: WICRawRenderMode (wincodec.h)
-
 description: Specifies the render intent of the next CopyPixels call.
 old-location: wic\_wic_codec_wicrawrendermode.htm
 tech.root: wic
 ms.assetid: dc020c78-a018-42ee-a500-65a743b96107
-
 ms.date: 12/05/2018
 ms.keywords: WICRawRenderMode, WICRawRenderMode enumeration [Windows Imaging Component], WICRawRenderModeBestQuality, WICRawRenderModeDraft, WICRawRenderModeNormal, _wic_codec_wicrawrendermode, wic._wic_codec_wicrawrendermode, wincodec/WICRawRenderMode, wincodec/WICRawRenderModeBestQuality, wincodec/WICRawRenderModeDraft, wincodec/WICRawRenderModeNormal
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICRawRenderMode"
+f1_keywords:
+- wincodec/WICRawRenderMode
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICRawRenderMode
+- WICRawRenderMode
 targetos: Windows
 req.typenames: WICRawRenderMode
 req.redist: 

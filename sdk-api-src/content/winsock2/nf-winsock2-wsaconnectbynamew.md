@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAConnectByNameW
 title: WSAConnectByNameW function (winsock2.h)
-
 description: Establishes a connection to a specified host and port.
 old-location: winsock\wsaconnectbyname_2.htm
 tech.root: WinSock
 ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
-
 ms.date: 12/05/2018
 ms.keywords: WSAConnectByName, WSAConnectByName function [Winsock], WSAConnectByNameA, WSAConnectByNameW, winsock.wsaconnectbyname_2, winsock2/WSAConnectByName, winsock2/WSAConnectByNameA, winsock2/WSAConnectByNameW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAConnectByName"
+f1_keywords:
+- winsock2/WSAConnectByName
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAConnectByName
- - WSAConnectByNameA
- - WSAConnectByNameW
+- WSAConnectByName
+- WSAConnectByNameA
+- WSAConnectByNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

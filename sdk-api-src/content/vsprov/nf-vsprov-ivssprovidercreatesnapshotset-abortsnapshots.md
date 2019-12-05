@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.AbortSnapshots
 title: IVssProviderCreateSnapshotSet::AbortSnapshots (vsprov.h)
-
 description: Aborts prepared shadow copies in this provider.
 old-location: base\ivssprovidercreatesnapshotset_abortsnapshots.htm
 tech.root: VSS
 ms.assetid: 393fd5aa-9934-4918-8699-25c41d0dc982
-
 ms.date: 12/05/2018
 ms.keywords: AbortSnapshots, AbortSnapshots method [VSS], AbortSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],AbortSnapshots method, IVssProviderCreateSnapshotSet.AbortSnapshots, IVssProviderCreateSnapshotSet::AbortSnapshots, base.ivssprovidercreatesnapshotset_abortsnapshots, vsprov/IVssProviderCreateSnapshotSet::AbortSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssProviderCreateSnapshotSet.AbortSnapshots"
+f1_keywords:
+- vsprov/IVssProviderCreateSnapshotSet.AbortSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.AbortSnapshots
+- IVssProviderCreateSnapshotSet.AbortSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

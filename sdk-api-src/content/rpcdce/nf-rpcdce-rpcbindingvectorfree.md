@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingVectorFree
 title: RpcBindingVectorFree function (rpcdce.h)
-
 description: The RpcBindingVectorFree function frees the binding handles contained in the vector and the vector itself.
 old-location: rpc\rpcbindingvectorfree.htm
 tech.root: Rpc
 ms.assetid: a8af56ae-bacc-497d-b65e-c0a56f3b09de
-
 ms.date: 12/05/2018
 ms.keywords: RpcBindingVectorFree, RpcBindingVectorFree function [RPC], _rpc_rpcbindingvectorfree, rpc.rpcbindingvectorfree, rpcdce/RpcBindingVectorFree
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingVectorFree"
+f1_keywords:
+- rpcdce/RpcBindingVectorFree
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingVectorFree
+- RpcBindingVectorFree
 targetos: Windows
 req.typenames: 
 req.redist: 

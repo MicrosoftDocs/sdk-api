@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.GetStartPoint
 title: ID2D1Ink::GetStartPoint (d2d1_3.h)
-
 description: Retrieves the starting point for this ink object.
 old-location: direct2d\id2d1ink_getstartpoint.htm
 tech.root: Direct2D
 ms.assetid: 95CD771D-1B7A-4E6F-B9B2-B0565221F8F4
-
 ms.date: 12/05/2018
 ms.keywords: GetStartPoint, GetStartPoint method [Direct2D], GetStartPoint method [Direct2D],ID2D1Ink interface, ID2D1Ink interface [Direct2D],GetStartPoint method, ID2D1Ink.GetStartPoint, ID2D1Ink::GetStartPoint, d2d1_3/ID2D1Ink::GetStartPoint, direct2d.id2d1ink_getstartpoint
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Ink.GetStartPoint"
+f1_keywords:
+- d2d1_3/ID2D1Ink.GetStartPoint
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Ink.GetStartPoint
+- ID2D1Ink.GetStartPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._MPR_TRANSPORT_0
 title: MPR_TRANSPORT_0 (mprapi.h)
-
 description: The MPR_TRANSPORT_0 structure contains information for a particular transport.
 old-location: rras\mpr_transport_0.htm
 tech.root: RRAS
 ms.assetid: f5515a39-377d-4767-b508-2306832d81f7
-
 ms.date: 12/05/2018
 ms.keywords: '*PMPR_TRANSPORT_0, MPR_TRANSPORT_0, MPR_TRANSPORT_0 structure [RAS], PMPR_TRANSPORT_0, PMPR_TRANSPORT_0 structure pointer [RAS], _mpr_mpr_transport_0, mprapi/MPR_TRANSPORT_0, mprapi/PMPR_TRANSPORT_0, rras.mpr_transport_0'
 ms.topic: struct
 f1_keywords:
 - mprapi/MPR_TRANSPORT_0
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

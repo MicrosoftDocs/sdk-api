@@ -4,10 +4,10 @@ title: MFASYNCRESULT
 ms.date: 01/30/19
 ms.keywords: tagMFASYNCRESULT, MFASYNCRESULT
 ms.topic: language-reference
-f1_keywords: 
- - "mfapi/tagMFASYNCRESULT"
+f1_keywords:
+- mfapi/tagMFASYNCRESULT
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: MFASYNCRESULT
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - tagMFASYNCRESULT
- - MFASYNCRESULT
+- tagMFASYNCRESULT
+- MFASYNCRESULT
 ---
 
 # MFASYNCRESULT structure

@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.DashStyle
 title: DashStyle (gdiplusenums.h)
-
 description: The DashStyle enumeration specifies the line style of a line drawn with a Windows GDI+ pen. The line can be drawn by using one of several predefined styles or a custom style.
 old-location: gdiplus\_gdiplus_ENUM_DashStyle.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\dashstyle.htm
-
 ms.date: 12/05/2018
 ms.keywords: DashStyle, DashStyle enumeration [GDI+], DashStyleCustom, DashStyleDash, DashStyleDashDot, DashStyleDashDotDot, DashStyleDot, DashStyleSolid, _gdiplus_ENUM_DashStyle, gdiplus._gdiplus_ENUM_DashStyle, gdiplusenums/DashStyle, gdiplusenums/DashStyleCustom, gdiplusenums/DashStyleDash, gdiplusenums/DashStyleDashDot, gdiplusenums/DashStyleDashDotDot, gdiplusenums/DashStyleDot, gdiplusenums/DashStyleSolid
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/DashStyle"
+f1_keywords:
+- gdiplusenums/DashStyle
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - DashStyle
+- DashStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

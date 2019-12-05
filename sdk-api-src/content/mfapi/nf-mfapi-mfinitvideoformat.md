@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFInitVideoFormat
 title: MFInitVideoFormat function (mfapi.h)
-
 description: Initializes an MFVIDEOFORMAT structure for a standard video format such as DVD, analog television, or ATSC digital television.
 old-location: mf\mfinitvideoformat.htm
 tech.root: medfound
 ms.assetid: 1cb47f95-cdb6-4998-9980-2f22e282df11
-
 ms.date: 12/05/2018
 ms.keywords: 1cb47f95-cdb6-4998-9980-2f22e282df11, MFInitVideoFormat, MFInitVideoFormat function [Media Foundation], mf.mfinitvideoformat, mfapi/MFInitVideoFormat
 ms.topic: function
 f1_keywords:
 - mfapi/MFInitVideoFormat
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

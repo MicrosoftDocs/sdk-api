@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchPersistentItemsChangedSink.StoppedMonitoringScope
 title: ISearchPersistentItemsChangedSink::StoppedMonitoringScope (searchapi.h)
-
 description: Called by a notifications provider to notify the indexer to stop monitoring changes to items within a specified hierarchical scope.
 old-location: search\_search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchpersistentitemschangedsink\stoppedmonitoringscope.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchPersistentItemsChangedSink interface [search],StoppedMonitoringScope method, ISearchPersistentItemsChangedSink.StoppedMonitoringScope, ISearchPersistentItemsChangedSink::StoppedMonitoringScope, StoppedMonitoringScope, StoppedMonitoringScope method [search], StoppedMonitoringScope method [search],ISearchPersistentItemsChangedSink interface, _search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, search._search_ISearchPersistentItemsChangedSink_StoppedMonitoringScope, searchapi/ISearchPersistentItemsChangedSink::StoppedMonitoringScope
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchPersistentItemsChangedSink.StoppedMonitoringScope"
+f1_keywords:
+- searchapi/ISearchPersistentItemsChangedSink.StoppedMonitoringScope
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchPersistentItemsChangedSink.StoppedMonitoringScope
+- ISearchPersistentItemsChangedSink.StoppedMonitoringScope
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsDataValidForForm
 title: IUIAutomationElement::get_CachedIsDataValidForForm (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the element contains valid data for the form.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsDataValidForForm.htm
 tech.root: WinAuto
 ms.assetid: 2f1027fd-7d95-412f-a9e8-73236252e49f
-
 ms.date: 12/05/2018
 ms.keywords: CachedIsDataValidForForm property [Windows Accessibility], CachedIsDataValidForForm property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsDataValidForForm property, IUIAutomationElement.CachedIsDataValidForForm, IUIAutomationElement.get_CachedIsDataValidForForm, IUIAutomationElement::CachedIsDataValidForForm, IUIAutomationElement::get_CachedIsDataValidForForm, get_CachedIsDataValidForForm, uiauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiauto_IUIAutomationElement_CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::CachedIsDataValidForForm, uiautomationclient/IUIAutomationElement::get_CachedIsDataValidForForm, winauto.uiauto_IUIAutomationElement_CachedIsDataValidForForm
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedIsDataValidForForm"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedIsDataValidForForm
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedIsDataValidForForm
- - IUIAutomationElement.get_CachedIsDataValidForForm
+- IUIAutomationElement.CachedIsDataValidForForm
+- IUIAutomationElement.get_CachedIsDataValidForForm
 targetos: Windows
 req.typenames: 
 req.redist: 

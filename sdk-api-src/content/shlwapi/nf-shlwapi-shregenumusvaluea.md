@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegEnumUSValueA
 title: SHRegEnumUSValueA function (shlwapi.h)
-
 description: Enumerates the values of the specified registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegEnumUSValue.htm
 tech.root: shell
 ms.assetid: 78ba5df4-8ee3-473f-b3ef-0bca65bb0a2a
-
 ms.date: 12/05/2018
 ms.keywords: SHRegEnumUSValue, SHRegEnumUSValue function [Windows Shell], SHRegEnumUSValueA, SHRegEnumUSValueW, _win32_SHRegEnumUSValue, shell.SHRegEnumUSValue, shlwapi/SHRegEnumUSValue, shlwapi/SHRegEnumUSValueA, shlwapi/SHRegEnumUSValueW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegEnumUSValue"
+f1_keywords:
+- shlwapi/SHRegEnumUSValue
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - SHRegEnumUSValue
- - SHRegEnumUSValueA
- - SHRegEnumUSValueW
+- SHRegEnumUSValue
+- SHRegEnumUSValueA
+- SHRegEnumUSValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

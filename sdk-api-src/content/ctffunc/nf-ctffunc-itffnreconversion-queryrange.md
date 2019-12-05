@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.QueryRange
 title: ITfFnReconversion::QueryRange (ctffunc.h)
-
 description: The ITfFnReconversion::QueryRange method obtains the range of text that the reconversion applies to.
 old-location: tsf\itffnreconversion_queryrange.htm
 tech.root: TSF
 ms.assetid: 022d0ad7-5359-48df-b83b-2319eb1a84bf
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnReconversion interface [Text Services Framework],QueryRange method, ITfFnReconversion.QueryRange, ITfFnReconversion::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnReconversion interface, _tsf_itffnreconversion_queryrange_ref, ctffunc/ITfFnReconversion::QueryRange, tsf.itffnreconversion_queryrange
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnReconversion.QueryRange"
+f1_keywords:
+- ctffunc/ITfFnReconversion.QueryRange
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnReconversion.QueryRange
+- ITfFnReconversion.QueryRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

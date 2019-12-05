@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
 title: IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot (vswriter.h)
-
 description: Reports any file sets that will be explicitly excluded by the writer when a shadow copy is created.
 old-location: base\ivsscreatewritermetadataex_addexcludefilesfromsnapshot.htm
 tech.root: VSS
 ms.assetid: 6be4c63c-c36a-4ff4-92b7-63b69a030b86
-
 ms.date: 12/05/2018
 ms.keywords: AddExcludeFilesFromSnapshot, AddExcludeFilesFromSnapshot method, AddExcludeFilesFromSnapshot method,IVssCreateWriterMetadataEx interface, IVssCreateWriterMetadataEx interface,AddExcludeFilesFromSnapshot method, IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot, IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot, base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot, vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot"
+f1_keywords:
+- vswriter/IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
+- IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

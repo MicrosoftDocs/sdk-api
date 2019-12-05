@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddImplType
 title: ICreateTypeInfo::AddImplType (oaidl.h)
-
 description: Specifies an inherited interface, or an interface implemented by a component object class (coclass).
 old-location: automat\icreatetypeinfo_addimpltype.htm
 tech.root: automat
 ms.assetid: fef8421f-67de-402b-8efd-7a104c84ca6e
-
 ms.date: 12/05/2018
 ms.keywords: AddImplType, AddImplType method [Automation], AddImplType method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],AddImplType method, ICreateTypeInfo.AddImplType, ICreateTypeInfo::AddImplType, _oa96_ICreateTypeInfo_AddImplType, automat.icreatetypeinfo_addimpltype, oaidl/ICreateTypeInfo::AddImplType
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.AddImplType"
+f1_keywords:
+- oaidl/ICreateTypeInfo.AddImplType
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.AddImplType
+- ICreateTypeInfo.AddImplType
 targetos: Windows
 req.typenames: 
 req.redist: 

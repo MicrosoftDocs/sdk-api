@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminAcquireContext2
 title: CryptCATAdminAcquireContext2 function (mscat.h)
-
 description: Acquires a handle to a catalog administrator context for a given hash algorithm and hash policy.
 old-location: security\cryptcatadminacquirecontext2.htm
 tech.root: SecCrypto
 ms.assetid: B089217A-5C12-4C51-8E46-3A9243347B21
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminAcquireContext2, CryptCATAdminAcquireContext2 function [Security], mscat/CryptCATAdminAcquireContext2, security.cryptcatadminacquirecontext2
 ms.topic: function
 f1_keywords:
 - mscat/CryptCATAdminAcquireContext2
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:tlhelp32.Thread32First
 title: Thread32First function (tlhelp32.h)
-
 description: Retrieves information about the first thread of any process encountered in a system snapshot.
 old-location: toolhelp\thread32first.htm
 tech.root: ToolHelp
 ms.assetid: d4cb7a19-850e-43b5-bda5-91be48382d2a
-
 ms.date: 12/05/2018
 ms.keywords: Thread32First, Thread32First function [ToolHelp], _win32_thread32first, base.thread32first, tlhelp32/Thread32First, toolhelp.thread32first
 ms.topic: function
-f1_keywords: 
- - "tlhelp32/Thread32First"
+f1_keywords:
+- tlhelp32/Thread32First
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-toolhelp-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-toolhelp-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Thread32First
+- Thread32First
 targetos: Windows
 req.typenames: 
 req.redist: 

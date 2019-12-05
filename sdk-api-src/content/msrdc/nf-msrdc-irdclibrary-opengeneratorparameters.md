@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcLibrary.OpenGeneratorParameters
 title: IRdcLibrary::OpenGeneratorParameters (msrdc.h)
-
 description: Opens an existing serialized parameter block and returns an IRdcGeneratorParameters interface pointer initialized with the data.
 old-location: rdc\irdclibrary_opengeneratorparameters.htm
 tech.root: rdc
 ms.assetid: 6fbced31-a230-44d4-a9ee-bb3e15df2563
-
 ms.date: 12/05/2018
 ms.keywords: IRdcLibrary interface [Remote Differential Compression],OpenGeneratorParameters method, IRdcLibrary.OpenGeneratorParameters, IRdcLibrary::OpenGeneratorParameters, OpenGeneratorParameters, OpenGeneratorParameters method [Remote Differential Compression], OpenGeneratorParameters method [Remote Differential Compression],IRdcLibrary interface, fs.irdclibrary_opengeneratorparameters, msrdc/IRdcLibrary::OpenGeneratorParameters, rdc.irdclibrary_opengeneratorparameters
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcLibrary.OpenGeneratorParameters"
+f1_keywords:
+- msrdc/IRdcLibrary.OpenGeneratorParameters
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcLibrary.OpenGeneratorParameters
+- IRdcLibrary.OpenGeneratorParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

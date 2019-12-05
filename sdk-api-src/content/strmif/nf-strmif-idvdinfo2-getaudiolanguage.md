@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAudioLanguage
 title: IDvdInfo2::GetAudioLanguage (strmif.h)
-
 description: The GetAudioLanguage method retrieves the language of the specified audio stream within the current title.
 old-location: dshow\idvdinfo2_getaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: c95afa36-879b-4fd5-bf92-0b9b93c708ef
-
 ms.date: 12/05/2018
 ms.keywords: GetAudioLanguage, GetAudioLanguage method [DirectShow], GetAudioLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioLanguage method, IDvdInfo2.GetAudioLanguage, IDvdInfo2::GetAudioLanguage, IDvdInfo2GetAudioLanguage, dshow.idvdinfo2_getaudiolanguage, strmif/IDvdInfo2::GetAudioLanguage
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetAudioLanguage"
+f1_keywords:
+- strmif/IDvdInfo2.GetAudioLanguage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetAudioLanguage
+- IDvdInfo2.GetAudioLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

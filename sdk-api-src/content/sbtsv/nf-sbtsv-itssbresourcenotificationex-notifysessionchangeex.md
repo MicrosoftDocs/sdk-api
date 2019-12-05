@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotificationEx.NotifySessionChangeEx
 title: ITsSbResourceNotificationEx::NotifySessionChangeEx (sbtsv.h)
-
 description: Notifies registered plug-ins about state changes in a session object.
 old-location: termserv\itssbresourcenotificationex_notifysessionchangeex.htm
 tech.root: TermServ
 ms.assetid: 75f7371a-fd3e-4045-b8fe-23d57d75b27a
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourceNotificationEx interface [Remote Desktop Services],NotifySessionChangeEx method, ITsSbResourceNotificationEx.NotifySessionChangeEx, ITsSbResourceNotificationEx::NotifySessionChangeEx, NotifySessionChangeEx, NotifySessionChangeEx method [Remote Desktop Services], NotifySessionChangeEx method [Remote Desktop Services],ITsSbResourceNotificationEx interface, sbtsv/ITsSbResourceNotificationEx::NotifySessionChangeEx, termserv.itssbresourcenotificationex_notifysessionchangeex
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourceNotificationEx.NotifySessionChangeEx"
+f1_keywords:
+- sbtsv/ITsSbResourceNotificationEx.NotifySessionChangeEx
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourceNotificationEx.NotifySessionChangeEx
+- ITsSbResourceNotificationEx.NotifySessionChangeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:setupapi.PSP_FILE_CALLBACK_A
 title: PSP_FILE_CALLBACK_A (setupapi.h)
-
 description: The FileCallback callback function is used by a few setup functions.
 old-location: setup\psp_file_callback.htm
 tech.root: SetupApi
 ms.assetid: 41eaa57a-e116-443c-93ee-397456a5c466
-
 ms.date: 12/05/2018
 ms.keywords: FileCallback, PSP_FILE_CALLBACK, PSP_FILE_CALLBACK callback, PSP_FILE_CALLBACK callback function [Setup API], PSP_FILE_CALLBACK_A, PSP_FILE_CALLBACK_W, _setupapi_psp_file_callback, setup.psp_file_callback, setupapi/PSP_FILE_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "setupapi/PSP_FILE_CALLBACK"
+f1_keywords:
+- setupapi/PSP_FILE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - PSP_FILE_CALLBACK
- - psp_file_callback_a
+- PSP_FILE_CALLBACK
+- psp_file_callback_a
 targetos: Windows
 req.typenames: 
 req.redist: 

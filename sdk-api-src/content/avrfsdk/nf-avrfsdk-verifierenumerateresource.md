@@ -1,19 +1,17 @@
 ---
 UID: NF:avrfsdk.VerifierEnumerateResource
 title: VerifierEnumerateResource function (avrfsdk.h)
-
 description: Enumerates operating system resources for use by debugging and support tools.
 old-location: winprog\verifierenumerateresource.htm
 tech.root: DevNotes
 ms.assetid: e1715f2a-5928-44e6-afbf-f2f0ab0ba3dd
-
 ms.date: 12/05/2018
 ms.keywords: AVRF_ENUM_RESOURCES_FLAGS_DONT_RESOLVE_TRACES, AVRF_ENUM_RESOURCES_FLAGS_SUSPEND, AvrfResourceHandleTrace, AvrfResourceHeapAllocation, VerifierEnumerateResource, VerifierEnumerateResource function [Windows API], avrfsdk/VerifierEnumerateResource, base.verifierenumerateresource, winprog.verifierenumerateresource
 ms.topic: function
-f1_keywords: 
- - "avrfsdk/VerifierEnumerateResource"
+f1_keywords:
+- avrfsdk/VerifierEnumerateResource
 dev_langs:
- - c++
+- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Verifier.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Verifier.dll
+- Verifier.dll
 api_name:
- - VerifierEnumerateResource
+- VerifierEnumerateResource
 targetos: Windows
 req.typenames: 
 req.redist: 

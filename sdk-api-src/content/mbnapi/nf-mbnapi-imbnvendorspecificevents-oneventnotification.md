@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnVendorSpecificEvents.OnEventNotification
 title: IMbnVendorSpecificEvents::OnEventNotification (mbnapi.h)
-
 description: Notification method signaling a change event from the underlying Mobile Broadband device miniport driver.
 old-location: mbn\imbnvendorspecificevents_oneventnotification.htm
 tech.root: mbn
 ms.assetid: c3d10e9c-b60f-42e8-adaa-2c0ba3c77718
-
 ms.date: 12/05/2018
 ms.keywords: IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnVendorSpecificEvents.OnEventNotification, IMbnVendorSpecificEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnVendorSpecificEvents interface, mbn.imbnvendorspecificevents_oneventnotification, mbnapi/IMbnVendorSpecificEvents::OnEventNotification
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnVendorSpecificEvents.OnEventNotification"
+f1_keywords:
+- mbnapi/IMbnVendorSpecificEvents.OnEventNotification
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnVendorSpecificEvents.OnEventNotification
+- IMbnVendorSpecificEvents.OnEventNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

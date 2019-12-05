@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationRegistrar
 title: IUIAutomationRegistrar (uiautomationcore.h)
-
 description: Exposes methods for registering new control patterns, properties, and events.
 old-location: winauto\uiauto_IUIAutomationRegistrar.htm
 tech.root: WinAuto
 ms.assetid: b5d979aa-7a87-4d6c-acdc-6e9eb19aac98
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationRegistrar, IUIAutomationRegistrar interface [Windows Accessibility], IUIAutomationRegistrar interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationRegistrar, uiauto_IUIAutomationRegistrar, uiautomationcore/IUIAutomationRegistrar, winauto.uiauto_IUIAutomationRegistrar
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IUIAutomationRegistrar"
+f1_keywords:
+- uiautomationcore/IUIAutomationRegistrar
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationRegistrar
+- IUIAutomationRegistrar
 targetos: Windows
 req.typenames: 
 req.redist: 

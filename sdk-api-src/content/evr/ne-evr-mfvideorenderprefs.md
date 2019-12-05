@@ -1,19 +1,17 @@
 ---
 UID: NE:evr.MFVideoRenderPrefs
 title: MFVideoRenderPrefs (evr.h)
-
 description: Contains flags that define how the enhanced video renderer (EVR) displays the video.
 old-location: mf\mfvideorenderprefs.htm
 tech.root: medfound
 ms.assetid: a56e7e09-23af-4ad3-9846-4102233ed3c4
-
 ms.date: 12/05/2018
 ms.keywords: MFVideoRenderPrefs, MFVideoRenderPrefs enumeration [Media Foundation], MFVideoRenderPrefs_AllowBatching, MFVideoRenderPrefs_AllowOutputThrottling, MFVideoRenderPrefs_AllowScaling, MFVideoRenderPrefs_DoNotClipToDevice, MFVideoRenderPrefs_DoNotRenderBorder, MFVideoRenderPrefs_DoNotRepaintOnStop, MFVideoRenderPrefs_ForceBatching, MFVideoRenderPrefs_ForceOutputThrottling, MFVideoRenderPrefs_ForceScaling, MFVideoRenderPrefs_Mask, a56e7e09-23af-4ad3-9846-4102233ed3c4, evr/MFVideoRenderPrefs, evr/MFVideoRenderPrefs_AllowBatching, evr/MFVideoRenderPrefs_AllowOutputThrottling, evr/MFVideoRenderPrefs_AllowScaling, evr/MFVideoRenderPrefs_DoNotClipToDevice, evr/MFVideoRenderPrefs_DoNotRenderBorder, evr/MFVideoRenderPrefs_DoNotRepaintOnStop, evr/MFVideoRenderPrefs_ForceBatching, evr/MFVideoRenderPrefs_ForceOutputThrottling, evr/MFVideoRenderPrefs_ForceScaling, evr/MFVideoRenderPrefs_Mask, mf.mfvideorenderprefs
 ms.topic: enum
-f1_keywords: 
- - "evr/MFVideoRenderPrefs"
+f1_keywords:
+- evr/MFVideoRenderPrefs
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFVideoRenderPrefs
+- MFVideoRenderPrefs
 targetos: Windows
 req.typenames: MFVideoRenderPrefs
 req.redist: 

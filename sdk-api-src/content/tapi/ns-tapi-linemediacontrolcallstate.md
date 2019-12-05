@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linemediacontrolcallstate_tag
 title: LINEMEDIACONTROLCALLSTATE (tapi.h)
-
 description: The LINEMEDIACONTROLCALLSTATE structure describes a media action to be executed when detecting transitions into one or more call states. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
 old-location: tapi2\linemediacontrolcallstate_str.htm
 tech.root: Tapi
 ms.assetid: c0768c2a-3015-41af-b32f-0b228a0f2ee6
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEMEDIACONTROLCALLSTATE, LINEMEDIACONTROLCALLSTATE, LINEMEDIACONTROLCALLSTATE structure [TAPI 2.2], LPLINEMEDIACONTROLCALLSTATE, LPLINEMEDIACONTROLCALLSTATE structure pointer [TAPI 2.2], _tapi2_linemediacontrolcallstate_str, tapi/LINEMEDIACONTROLCALLSTATE, tapi/LPLINEMEDIACONTROLCALLSTATE, tapi2.linemediacontrolcallstate_str"
+ms.keywords: '*LPLINEMEDIACONTROLCALLSTATE, LINEMEDIACONTROLCALLSTATE, LINEMEDIACONTROLCALLSTATE structure [TAPI 2.2], LPLINEMEDIACONTROLCALLSTATE, LPLINEMEDIACONTROLCALLSTATE structure pointer [TAPI 2.2], _tapi2_linemediacontrolcallstate_str, tapi/LINEMEDIACONTROLCALLSTATE, tapi/LPLINEMEDIACONTROLCALLSTATE, tapi2.linemediacontrolcallstate_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEMEDIACONTROLCALLSTATE"
+f1_keywords:
+- tapi/LINEMEDIACONTROLCALLSTATE
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEMEDIACONTROLCALLSTATE
+- LINEMEDIACONTROLCALLSTATE
 targetos: Windows
 req.typenames: LINEMEDIACONTROLCALLSTATE, *LPLINEMEDIACONTROLCALLSTATE
 req.redist: 

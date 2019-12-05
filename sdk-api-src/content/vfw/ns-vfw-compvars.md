@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.__unnamed_struct_11
 title: COMPVARS (vfw.h)
-
 description: The COMPVARS structure describes compressor settings for functions such as ICCompressorChoose, ICSeqCompressFrame, and ICCompressorFree.
 old-location: multimedia\compvars.htm
 tech.root: Multimedia
 ms.assetid: b34378cb-ccf0-4d97-a952-1966999e3f65
-
 ms.date: 12/05/2018
-ms.keywords: "*PCOMPVARS, COMPVARS, COMPVARS structure [Windows Multimedia], ICMF_COMPVARS_VALID, _win32_COMPVARS_str, multimedia.compvars, vfw/COMPVARS"
+ms.keywords: '*PCOMPVARS, COMPVARS, COMPVARS structure [Windows Multimedia], ICMF_COMPVARS_VALID, _win32_COMPVARS_str, multimedia.compvars, vfw/COMPVARS'
 ms.topic: struct
-f1_keywords: 
- - "vfw/COMPVARS"
+f1_keywords:
+- vfw/COMPVARS
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - COMPVARS
+- COMPVARS
 targetos: Windows
 req.typenames: COMPVARS, *PCOMPVARS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetAnycastIpAddressTable
 title: GetAnycastIpAddressTable function (netioapi.h)
-
 description: Retrieves the anycast IP address table on the local computer.
 old-location: iphlp\getanycastipaddresstable.htm
 tech.root: IpHlp
 ms.assetid: 4eccae59-00be-4f9c-bb62-a507d7dad2e0
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, GetAnycastIpAddressTable, GetAnycastIpAddressTable function [IP Helper], iphlp.getanycastipaddresstable, netioapi/GetAnycastIpAddressTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetAnycastIpAddressTable"
+f1_keywords:
+- netioapi/GetAnycastIpAddressTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetAnycastIpAddressTable
+- GetAnycastIpAddressTable
 targetos: Windows
 req.typenames: 
 req.redist: 

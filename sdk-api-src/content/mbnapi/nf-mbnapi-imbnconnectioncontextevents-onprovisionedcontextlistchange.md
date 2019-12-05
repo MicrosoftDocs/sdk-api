@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContextEvents.OnProvisionedContextListChange
 title: IMbnConnectionContextEvents::OnProvisionedContextListChange (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate that a provisioned context stored in the device is available or updated.
 old-location: mbn\imbnconnectioncontextevents_onprovisionedcontextlistchange.htm
 tech.root: mbn
 ms.assetid: 3c8fa150-7c36-4ad8-ada8-2b17693671d9
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContextEvents interface [Microsoft Broadband Networks],OnProvisionedContextListChange method, IMbnConnectionContextEvents.OnProvisionedContextListChange, IMbnConnectionContextEvents::OnProvisionedContextListChange, OnProvisionedContextListChange, OnProvisionedContextListChange method [Microsoft Broadband Networks], OnProvisionedContextListChange method [Microsoft Broadband Networks],IMbnConnectionContextEvents interface, mbn.imbnconnectioncontextevents_onprovisionedcontextlistchange, mbnapi/IMbnConnectionContextEvents::OnProvisionedContextListChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionContextEvents.OnProvisionedContextListChange"
+f1_keywords:
+- mbnapi/IMbnConnectionContextEvents.OnProvisionedContextListChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionContextEvents.OnProvisionedContextListChange
+- IMbnConnectionContextEvents.OnProvisionedContextListChange
 targetos: Windows
 req.typenames: 
 req.redist: 

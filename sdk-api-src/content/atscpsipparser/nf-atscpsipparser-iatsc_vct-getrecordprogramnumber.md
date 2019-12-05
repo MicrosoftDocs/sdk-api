@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordProgramNumber
 title: IATSC_VCT::GetRecordProgramNumber (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordprogramnumber.htm
 tech.root: mstv
 ms.assetid: 11bf3b27-98da-4f4f-a6a9-6c69b20aedda
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordProgramNumber, GetRecordProgramNumber method [Microsoft TV Technologies], GetRecordProgramNumber method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordProgramNumber method, IATSC_VCT.GetRecordProgramNumber, IATSC_VCT::GetRecordProgramNumber, IATSC_VCTGetRecordProgramNumber, atscpsipparser/IATSC_VCT::GetRecordProgramNumber, mstv.iatsc_vct_getrecordprogramnumber
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordProgramNumber"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordProgramNumber
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordProgramNumber
+- IATSC_VCT.GetRecordProgramNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
 title: IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange (uianimation.h)
-
 description: Creates a sinusoidal-range transition, with a specified range of oscillation.
 old-location: uianimation\iuianimationtransitionlibrary_createsinusoidaltransitionfromrange.htm
 tech.root: UIAnimation
 ms.assetid: 7164bcac-3de3-4b52-8eb3-d38156573feb
-
 ms.date: 12/05/2018
 ms.keywords: CreateSinusoidalTransitionFromRange, CreateSinusoidalTransitionFromRange method [Windows Animation], CreateSinusoidalTransitionFromRange method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateSinusoidalTransitionFromRange method, IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange, IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange, uianimation.iuianimationtransitionlibrary_createsinusoidaltransitionfromrange, uianimation/IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
+- IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
 targetos: Windows
 req.typenames: 
 req.redist: 

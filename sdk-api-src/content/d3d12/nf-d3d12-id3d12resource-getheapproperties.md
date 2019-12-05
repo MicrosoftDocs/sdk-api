@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Resource.GetHeapProperties
 title: ID3D12Resource::GetHeapProperties (d3d12.h)
-
 description: Retrieves the properties of the resource heap, for placed and committed resources.
 old-location: direct3d12\id3d12resource_getheapproperties.htm
 tech.root: direct3d12
 ms.assetid: 7F76986D-02F1-4E5A-B9A4-CFB021B72026
-
 ms.date: 12/05/2018
 ms.keywords: GetHeapProperties, GetHeapProperties method, GetHeapProperties method,ID3D12Resource interface, ID3D12Resource interface,GetHeapProperties method, ID3D12Resource.GetHeapProperties, ID3D12Resource::GetHeapProperties, d3d12/ID3D12Resource::GetHeapProperties, direct3d12.id3d12resource_getheapproperties
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Resource.GetHeapProperties"
+f1_keywords:
+- d3d12/ID3D12Resource.GetHeapProperties
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Resource.GetHeapProperties
+- ID3D12Resource.GetHeapProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersistStorage.InitNew
 title: IPersistStorage::InitNew (objidl.h)
-
 description: Initializes a new storage object.
 old-location: com\ipersiststorage_initnew.htm
 tech.root: com
 ms.assetid: 79caf1f6-d974-4aee-8563-eda4876a0a90
-
 ms.date: 12/05/2018
 ms.keywords: IPersistStorage interface [COM],InitNew method, IPersistStorage.InitNew, IPersistStorage::InitNew, InitNew, InitNew method [COM], InitNew method [COM],IPersistStorage interface, _com_ipersiststorage_initnew, com.ipersiststorage_initnew, objidl/IPersistStorage::InitNew
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersistStorage.InitNew"
+f1_keywords:
+- objidl/IPersistStorage.InitNew
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistStorage.InitNew
+- IPersistStorage.InitNew
 targetos: Windows
 req.typenames: 
 req.redist: 

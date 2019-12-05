@@ -1,19 +1,17 @@
 ---
 UID: NN:wpcapi.IWPCProviderSupport
 title: IWPCProviderSupport (wpcapi.h)
-
 description: Exposes methods that allow third-party providers to query the currently enabled provider.
 old-location: parcon\iwpcprovidersupport.htm
 tech.root: parcon
 ms.assetid: 5c2a793b-d136-4d03-9e46-b24009af2c7d
-
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderSupport, IWPCProviderSupport interface, IWPCProviderSupport interface,described, parcon.iwpcprovidersupport, wpcapi/IWPCProviderSupport
 ms.topic: interface
-f1_keywords: 
- - "wpcapi/IWPCProviderSupport"
+f1_keywords:
+- wpcapi/IWPCProviderSupport
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderSupport
+- IWPCProviderSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

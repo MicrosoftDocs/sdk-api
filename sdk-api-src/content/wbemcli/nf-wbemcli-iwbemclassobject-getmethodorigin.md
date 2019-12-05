@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.GetMethodOrigin
 title: IWbemClassObject::GetMethodOrigin (wbemcli.h)
-
 description: The IWbemClassObject::GetMethodOrigin method is used to determine the class for which a method was declared.
 old-location: wmi\iwbemclassobject_getmethodorigin.htm
 tech.root: WmiSdk
 ms.assetid: e3d55b1f-f9bd-40d1-9ad5-990c264524d5
-
 ms.date: 12/05/2018
 ms.keywords: GetMethodOrigin, GetMethodOrigin method [Windows Management Instrumentation], GetMethodOrigin method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],GetMethodOrigin method, IWbemClassObject.GetMethodOrigin, IWbemClassObject::GetMethodOrigin, _hmm_iwbemclassobject_getmethodorigin, wbemcli/IWbemClassObject::GetMethodOrigin, wmi.iwbemclassobject_getmethodorigin
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.GetMethodOrigin"
+f1_keywords:
+- wbemcli/IWbemClassObject.GetMethodOrigin
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.GetMethodOrigin
+- IWbemClassObject.GetMethodOrigin
 targetos: Windows
 req.typenames: 
 req.redist: 

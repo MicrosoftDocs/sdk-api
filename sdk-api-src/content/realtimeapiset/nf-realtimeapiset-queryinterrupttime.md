@@ -1,19 +1,17 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTime
 title: QueryInterruptTime function (realtimeapiset.h)
-
 description: Gets the current interrupt-time count.
 old-location: base\queryinterrupttime.htm
 tech.root: SysInfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90
-
 ms.date: 12/05/2018
 ms.keywords: QueryInterruptTime, QueryInterruptTime function, base.queryinterrupttime, realtimeapiset/QueryInterruptTime
 ms.topic: function
-f1_keywords: 
- - "realtimeapiset/QueryInterruptTime"
+f1_keywords:
+- realtimeapiset/QueryInterruptTime
 dev_langs:
- - c++
+- c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-realtime-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-RealTime-l1-1-1.dll
+- kernel32.dll
+- API-MS-Win-Core-realtime-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-RealTime-l1-1-1.dll
 api_name:
- - QueryInterruptTime
+- QueryInterruptTime
 targetos: Windows
 req.typenames: 
 req.redist: 

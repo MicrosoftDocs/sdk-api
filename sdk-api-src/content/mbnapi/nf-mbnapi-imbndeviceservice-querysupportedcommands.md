@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.QuerySupportedCommands
 title: IMbnDeviceService::QuerySupportedCommands (mbnapi.h)
-
 description: Gets the list of commands IDs supported by the Mobile Broadband device service.
 old-location: mbn\imbndeviceservice_querysupportedcommands.htm
 tech.root: mbn
 ms.assetid: E82AAD40-1E91-449D-8F1C-CE31B394B2DF
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],QuerySupportedCommands method, IMbnDeviceService.QuerySupportedCommands, IMbnDeviceService::QuerySupportedCommands, QuerySupportedCommands, QuerySupportedCommands method [Microsoft Broadband Networks], QuerySupportedCommands method [Microsoft Broadband Networks],IMbnDeviceService interface, mbn.imbndeviceservice_querysupportedcommands, mbnapi/IMbnDeviceService::QuerySupportedCommands
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceService.QuerySupportedCommands"
+f1_keywords:
+- mbnapi/IMbnDeviceService.QuerySupportedCommands
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService.QuerySupportedCommands
+- IMbnDeviceService.QuerySupportedCommands
 targetos: Windows
 req.typenames: 
 req.redist: 

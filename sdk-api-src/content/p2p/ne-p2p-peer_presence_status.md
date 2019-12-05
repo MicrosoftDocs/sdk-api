@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_presence_status_tag
 title: PEER_PRESENCE_STATUS (p2p.h)
-
 description: The PEER_PRESENCE_STATUS enumeration defines the set of possible presence status settings available to a peer that participates in a peer collaboration network.
 old-location: p2p\peer_presence_status.htm
 tech.root: P2PSdk
 ms.assetid: 0f7f6fa8-5da4-4f59-b9ea-0117ff8a3e28
-
 ms.date: 12/05/2018
 ms.keywords: PEER_PRESENCE_AWAY, PEER_PRESENCE_BE_RIGHT_BACK, PEER_PRESENCE_BUSY, PEER_PRESENCE_IDLE, PEER_PRESENCE_OFFLINE, PEER_PRESENCE_ONLINE, PEER_PRESENCE_ON_THE_PHONE, PEER_PRESENCE_OUT_TO_LUNCH, PEER_PRESENCE_STATUS, PEER_PRESENCE_STATUS enumeration [Peer Networking], p2p.peer_presence_status, p2p/PEER_PRESENCE_AWAY, p2p/PEER_PRESENCE_BE_RIGHT_BACK, p2p/PEER_PRESENCE_BUSY, p2p/PEER_PRESENCE_IDLE, p2p/PEER_PRESENCE_OFFLINE, p2p/PEER_PRESENCE_ONLINE, p2p/PEER_PRESENCE_ON_THE_PHONE, p2p/PEER_PRESENCE_OUT_TO_LUNCH, p2p/PEER_PRESENCE_STATUS
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_PRESENCE_STATUS"
+f1_keywords:
+- p2p/PEER_PRESENCE_STATUS
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_PRESENCE_STATUS
+- PEER_PRESENCE_STATUS
 targetos: Windows
 req.typenames: PEER_PRESENCE_STATUS
 req.redist: 

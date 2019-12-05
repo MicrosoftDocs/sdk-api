@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_SHADER_CACHE
 title: D3D12_FEATURE_DATA_SHADER_CACHE (d3d12.h)
-
 description: Describes the level of shader caching supported in the current graphics driver.
 old-location: direct3d12\d3d12_feature_data_shader_cache.htm
 tech.root: direct3d12
 ms.assetid: B6BC2E8F-04FE-4855-87C2-89A054519AFD
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_FEATURE_DATA_SHADER_CACHE, D3D12_FEATURE_DATA_SHADER_CACHE structure, d3d12/D3D12_FEATURE_DATA_SHADER_CACHE, direct3d12.d3d12_feature_data_shader_cache
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_FEATURE_DATA_SHADER_CACHE"
+f1_keywords:
+- d3d12/D3D12_FEATURE_DATA_SHADER_CACHE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_FEATURE_DATA_SHADER_CACHE
+- D3D12_FEATURE_DATA_SHADER_CACHE
 targetos: Windows
 req.typenames: D3D12_FEATURE_DATA_SHADER_CACHE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl2.RequestTerminal
 title: ITBasicCallControl2::RequestTerminal (tapi3if.h)
-
 description: The RequestTerminal method gets a suitable terminal, given the class, media, and direction required.
 old-location: tapi3\itbasiccallcontrol2_requestterminal.htm
 tech.root: Tapi
 ms.assetid: 20b7266c-8990-457c-94cf-18cc2bed6b21
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl2 interface [TAPI 2.2],RequestTerminal method, ITBasicCallControl2.RequestTerminal, ITBasicCallControl2::RequestTerminal, RequestTerminal, RequestTerminal method [TAPI 2.2], RequestTerminal method [TAPI 2.2],ITBasicCallControl2 interface, _tapi3_itbasiccallcontrol2_requestterminal, tapi3.itbasiccallcontrol2_requestterminal, tapi3if/ITBasicCallControl2::RequestTerminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl2.RequestTerminal"
+f1_keywords:
+- tapi3if/ITBasicCallControl2.RequestTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl2.RequestTerminal
+- ITBasicCallControl2.RequestTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

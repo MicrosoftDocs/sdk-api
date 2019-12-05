@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.OleCreatePropertyFrame
 title: OleCreatePropertyFrame function (olectl.h)
-
 description: Invokes a new property frame, that is, a property sheet dialog box, whose parent is hwndOwner, where the dialog is positioned at the point (x,y) in the parent window and has the caption lpszCaption.
 old-location: com\olecreatepropertyframe.htm
 tech.root: com
 ms.assetid: 06f75ac2-3ee6-4209-83cf-a4e5244a18bd
-
 ms.date: 12/05/2018
 ms.keywords: OleCreatePropertyFrame, OleCreatePropertyFrame function [COM], _ctrl_OleCreatePropertyFrame, com.olecreatepropertyframe, olectl/OleCreatePropertyFrame
 ms.topic: function
-f1_keywords: 
- - "olectl/OleCreatePropertyFrame"
+f1_keywords:
+- olectl/OleCreatePropertyFrame
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - OleCreatePropertyFrame
+- OleCreatePropertyFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

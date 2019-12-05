@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCalculateBitmapImageSize
 title: MFCalculateBitmapImageSize function (mfapi.h)
-
 description: Retrieves the image size for a video format.
 old-location: mf\mfcalculatebitmapimagesize.htm
 tech.root: medfound
 ms.assetid: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0
-
 ms.date: 12/05/2018
 ms.keywords: 67d80db8-996e-4f59-82f0-efd3d4bd8ff0, MFCalculateBitmapImageSize, MFCalculateBitmapImageSize function [Media Foundation], mf.mfcalculatebitmapimagesize, mfapi/MFCalculateBitmapImageSize
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCalculateBitmapImageSize"
+f1_keywords:
+- mfapi/MFCalculateBitmapImageSize
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCalculateBitmapImageSize
+- MFCalculateBitmapImageSize
 targetos: Windows
 req.typenames: 
 req.redist: 

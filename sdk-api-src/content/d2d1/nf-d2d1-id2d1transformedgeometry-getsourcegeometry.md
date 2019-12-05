@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1TransformedGeometry.GetSourceGeometry
 title: ID2D1TransformedGeometry::GetSourceGeometry (d2d1.h)
-
 description: Retrieves the source geometry of this transformed geometry object.
 old-location: direct2d\ID2D1TransformedGeometry_GetSourceGeometry.htm
 tech.root: Direct2D
 ms.assetid: 2e07c2e4-5f34-4949-bca1-92183652d2fb
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceGeometry, GetSourceGeometry method [Direct2D], GetSourceGeometry method [Direct2D],ID2D1TransformedGeometry interface, ID2D1TransformedGeometry interface [Direct2D],GetSourceGeometry method, ID2D1TransformedGeometry.GetSourceGeometry, ID2D1TransformedGeometry::GetSourceGeometry, d2d1/ID2D1TransformedGeometry::GetSourceGeometry, direct2d.ID2D1TransformedGeometry_GetSourceGeometry
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1TransformedGeometry.GetSourceGeometry"
+f1_keywords:
+- d2d1/ID2D1TransformedGeometry.GetSourceGeometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1TransformedGeometry.GetSourceGeometry
+- ID2D1TransformedGeometry.GetSourceGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

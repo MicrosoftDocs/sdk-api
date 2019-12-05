@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0_
 title: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0 (fwpmtypes.h)
-
 description: Used for enumerating provider contexts.
 old-location: fwp\fwpm_provider_context_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 0d43931a-93ae-43dd-9c5b-3989799e7b60
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0, FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0 structure [Filtering], fwp.fwpm_provider_context_enum_template0_struct, fwpmtypes/FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0"
+f1_keywords:
+- fwpmtypes/FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
+- FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
 targetos: Windows
 req.typenames: FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0
 req.redist: 

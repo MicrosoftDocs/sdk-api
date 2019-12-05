@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Tsid
 title: IFaxPort::put_Tsid (faxcom.h)
-
 description: The IFaxPort::get_Tsid property is a null-terminated string that contains the transmitting station identifier (TSID) associated with the fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6p0k.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Tsid property, IFaxPort.Tsid, IFaxPort.put_Tsid, IFaxPort::Tsid, IFaxPort::get_Tsid, IFaxPort::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_tsid, fax._mfax_ifaxport_get_tsid, fax._mfax_ifaxport_mfax_ifaxport_get_tsid_cpp, faxcom/IFaxPort::Tsid, faxcom/IFaxPort::get_Tsid, faxcom/IFaxPort::put_Tsid, put_Tsid
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.Tsid"
+f1_keywords:
+- faxcom/IFaxPort.Tsid
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.Tsid
- - IFaxPort.get_Tsid
- - IFaxPort.put_Tsid
+- IFaxPort.Tsid
+- IFaxPort.get_Tsid
+- IFaxPort.put_Tsid
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetStreamCount
 title: IMFASFStreamSelector::GetStreamCount (wmcontainer.h)
-
 description: Retrieves the number of streams that are in the Advanced Systems Format (ASF) content.
 old-location: mf\imfasfstreamselector_getstreamcount.htm
 tech.root: medfound
 ms.assetid: e1e80c32-bfd4-4404-9ccc-05b5077b83a6
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetStreamCount method, IMFASFStreamSelector.GetStreamCount, IMFASFStreamSelector::GetStreamCount, e1e80c32-bfd4-4404-9ccc-05b5077b83a6, mf.imfasfstreamselector_getstreamcount, wmcontainer/IMFASFStreamSelector::GetStreamCount
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.GetStreamCount"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.GetStreamCount
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetStreamCount
+- IMFASFStreamSelector.GetStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

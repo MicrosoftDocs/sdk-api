@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SetFrequencyRatio
 title: IXAudio2SourceVoice::SetFrequencyRatio (xaudio2.h)
-
 description: Sets the frequency adjustment ratio of the voice.
 old-location: xaudio2\ixaudio2sourcevoice_interface_setfrequencyratio.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetFrequencyRatio(float,UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],SetFrequencyRatio method, IXAudio2SourceVoice.SetFrequencyRatio, IXAudio2SourceVoice::SetFrequencyRatio, SetFrequencyRatio, SetFrequencyRatio method [XAudio2 Audio Mixing APIs], SetFrequencyRatio method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, xaudio2.ixaudio2sourcevoice_interface_setfrequencyratio, xaudio2/IXAudio2SourceVoice::SetFrequencyRatio
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2SourceVoice.SetFrequencyRatio"
+f1_keywords:
+- xaudio2/IXAudio2SourceVoice.SetFrequencyRatio
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2SourceVoice.SetFrequencyRatio
+- IXAudio2SourceVoice.SetFrequencyRatio
 targetos: Windows
 req.typenames: 
 req.redist: 

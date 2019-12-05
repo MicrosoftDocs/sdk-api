@@ -1,19 +1,17 @@
 ---
 UID: NE:vswriter.VSS_WRITERRESTORE_ENUM
 title: VSS_WRITERRESTORE_ENUM (vswriter.h)
-
 description: Indicate to a requester the conditions under which it will handle events generated during a restore operation.
 old-location: base\vss_writerrestore_enum.htm
 tech.root: VSS
 ms.assetid: a3e45d52-4d9a-4bdf-a8e5-622939be6f2c
-
 ms.date: 12/05/2018
 ms.keywords: VSS_WRE_ALWAYS, VSS_WRE_IF_REPLACE_FAILS, VSS_WRE_NEVER, VSS_WRE_UNDEFINED, VSS_WRITERRESTORE_ENUM, VSS_WRITERRESTORE_ENUM enumeration [VSS], _win32_vss_writerrestore_enum, base.vss_writerrestore_enum, enumeration [VSS], vswriter/VSS_WRE_ALWAYS, vswriter/VSS_WRE_IF_REPLACE_FAILS, vswriter/VSS_WRE_NEVER, vswriter/VSS_WRE_UNDEFINED, vswriter/VSS_WRITERRESTORE_ENUM
 ms.topic: enum
-f1_keywords: 
- - "vswriter/VSS_WRITERRESTORE_ENUM"
+f1_keywords:
+- vswriter/VSS_WRITERRESTORE_ENUM
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - VSS_WRITERRESTORE_ENUM
+- VSS_WRITERRESTORE_ENUM
 targetos: Windows
 req.typenames: VSS_WRITERRESTORE_ENUM
 req.redist: 

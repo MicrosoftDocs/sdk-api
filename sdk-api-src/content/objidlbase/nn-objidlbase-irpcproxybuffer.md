@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IRpcProxyBuffer
 title: IRpcProxyBuffer (objidlbase.h)
-
 description: Controls the RPC proxy used to marshal data between COM components.
 old-location: com\irpcproxybuffer.htm
 tech.root: com
 ms.assetid: e1b18997-f99b-4611-8ba6-da28fd8df898
-
 ms.date: 12/05/2018
 ms.keywords: IRpcProxyBuffer, IRpcProxyBuffer interface [COM], IRpcProxyBuffer interface [COM],described, _com_irpcproxybuffer, com.irpcproxybuffer, objidlbase/IRpcProxyBuffer
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IRpcProxyBuffer"
+f1_keywords:
+- objidlbase/IRpcProxyBuffer
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcProxyBuffer
+- IRpcProxyBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

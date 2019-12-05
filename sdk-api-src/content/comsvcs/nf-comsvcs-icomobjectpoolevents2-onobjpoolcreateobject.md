@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComObjectPoolEvents2.OnObjPoolCreateObject
 title: IComObjectPoolEvents2::OnObjPoolCreateObject (comsvcs.h)
-
 description: Generated when an object is created for the pool.
 old-location: cos\icomobjectpoolevents2_onobjpoolcreateobject.htm
 tech.root: cossdk
 ms.assetid: 85e50bf4-2660-409c-8812-cbe389283202
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents2 interface [COM+],OnObjPoolCreateObject method, IComObjectPoolEvents2.OnObjPoolCreateObject, IComObjectPoolEvents2::OnObjPoolCreateObject, OnObjPoolCreateObject, OnObjPoolCreateObject method [COM+], OnObjPoolCreateObject method [COM+],IComObjectPoolEvents2 interface, _dtc_IComObjectPoolEvents2_OnObjPoolCreateObject, comsvcs/IComObjectPoolEvents2::OnObjPoolCreateObject, cos.icomobjectpoolevents2_onobjpoolcreateobject
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents2.OnObjPoolCreateObject"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents2.OnObjPoolCreateObject
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents2.OnObjPoolCreateObject
+- IComObjectPoolEvents2.OnObjPoolCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

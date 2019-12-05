@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.RepaintVideo
 title: IVMRWindowlessControl9::RepaintVideo (vmr9.h)
-
 description: The RepaintVideo method repaints the current video frame.
 old-location: dshow\ivmrwindowlesscontrol9_repaintvideo.htm
 tech.root: DirectShow
 ms.assetid: 7a25301c-00e4-4f54-a34d-416a52daeaa7
-
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],RepaintVideo method, IVMRWindowlessControl9.RepaintVideo, IVMRWindowlessControl9::RepaintVideo, IVMRWindowlessControl9RepaintVideo, RepaintVideo, RepaintVideo method [DirectShow], RepaintVideo method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_repaintvideo, vmr9/IVMRWindowlessControl9::RepaintVideo
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRWindowlessControl9.RepaintVideo"
+f1_keywords:
+- vmr9/IVMRWindowlessControl9.RepaintVideo
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl9.RepaintVideo
+- IVMRWindowlessControl9.RepaintVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

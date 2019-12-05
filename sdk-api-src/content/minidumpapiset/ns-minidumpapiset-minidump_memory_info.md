@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MEMORY_INFO
 title: MINIDUMP_MEMORY_INFO (minidumpapiset.h)
-
 description: Describes a region of memory.
 old-location: base\minidump_memory_info_str.htm
 tech.root: Debug
 ms.assetid: e9a797b9-5cad-48c0-bb33-ca9c13de8239
-
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_MEMORY_INFO, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, MINIDUMP_MEMORY_INFO, MINIDUMP_MEMORY_INFO structure, PMINIDUMP_MEMORY_INFO, PMINIDUMP_MEMORY_INFO structure pointer, _MINIDUMP_MEMORY_INFO, base.minidump_memory_info_str, minidumpapiset/MINIDUMP_MEMORY_INFO, minidumpapiset/PMINIDUMP_MEMORY_INFO"
+ms.keywords: '*PMINIDUMP_MEMORY_INFO, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, MINIDUMP_MEMORY_INFO, MINIDUMP_MEMORY_INFO structure, PMINIDUMP_MEMORY_INFO, PMINIDUMP_MEMORY_INFO structure pointer, _MINIDUMP_MEMORY_INFO, base.minidump_memory_info_str, minidumpapiset/MINIDUMP_MEMORY_INFO, minidumpapiset/PMINIDUMP_MEMORY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_MEMORY_INFO"
+f1_keywords:
+- minidumpapiset/MINIDUMP_MEMORY_INFO
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_MEMORY_INFO
+- MINIDUMP_MEMORY_INFO
 targetos: Windows
 req.typenames: MINIDUMP_MEMORY_INFO, *PMINIDUMP_MEMORY_INFO
 req.redist: DbgHelp.dll 6.3 or later

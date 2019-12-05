@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IRelatedItem
 title: IRelatedItem (shobjidl_core.h)
-
 description: Exposes methods that derive related items with specific relationships.
 old-location: shell\IRelatedItem.htm
 tech.root: shell
 ms.assetid: f42d218c-0251-45e0-b05a-f1ccdcaf036c
-
 ms.date: 12/05/2018
 ms.keywords: IRelatedItem, IRelatedItem interface [Windows Shell], IRelatedItem interface [Windows Shell],described, _shell_IRelatedItem, shell.IRelatedItem, shobjidl_core/IRelatedItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IRelatedItem"
+f1_keywords:
+- shobjidl_core/IRelatedItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IRelatedItem
+- IRelatedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

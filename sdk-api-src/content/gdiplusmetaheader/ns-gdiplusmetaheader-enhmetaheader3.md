@@ -1,19 +1,17 @@
 ---
 UID: NS:gdiplusmetaheader.__unnamed_struct_0
 title: ENHMETAHEADER3 (gdiplusmetaheader.h)
-
 description: The ENHMETAHEADER3 structure contains enhanced-metafile data including the dimensions of the metafile image, the number of records in the metafile, and the resolution of the device on which the metafile was created.
 old-location: gdiplus\_gdiplus_STRUC_ENHMETAHEADER3.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\enhmetaheader3.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENHMETAHEADER3, ENHMETAHEADER3 structure [GDI+], _gdiplus_STRUC_ENHMETAHEADER3, gdiplus._gdiplus_STRUC_ENHMETAHEADER3, gdiplusmetaheader/ENHMETAHEADER3
 ms.topic: struct
-f1_keywords: 
- - "gdiplusmetaheader/ENHMETAHEADER3"
+f1_keywords:
+- gdiplusmetaheader/ENHMETAHEADER3
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusmetaheader.h
+- Gdiplusmetaheader.h
 api_name:
- - ENHMETAHEADER3
+- ENHMETAHEADER3
 targetos: Windows
 req.typenames: ENHMETAHEADER3
 req.redist: 

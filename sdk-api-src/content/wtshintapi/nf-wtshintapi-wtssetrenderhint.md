@@ -1,19 +1,17 @@
 ---
 UID: NF:wtshintapi.WTSSetRenderHint
 title: WTSSetRenderHint function (wtshintapi.h)
-
 description: Used by an application that is displaying content that can be optimized for displaying in a remote session to identify the region of a window that is the actual content.
 old-location: termserv\wtssetrenderhint.htm
 tech.root: TermServ
 ms.assetid: CF8AE408-AE3A-44AC-91F9-6F6D9858893F
-
 ms.date: 12/05/2018
 ms.keywords: RENDER_HINT_CLEAR, RENDER_HINT_MAPPEDWINDOW, RENDER_HINT_VIDEO, WTSSetRenderHint, WTSSetRenderHint function [Remote Desktop Services], termserv.wtssetrenderhint, wtshintapi/WTSSetRenderHint
 ms.topic: function
-f1_keywords: 
- - "wtshintapi/WTSSetRenderHint"
+f1_keywords:
+- wtshintapi/WTSSetRenderHint
 dev_langs:
- - c++
+- c++
 req.header: wtshintapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WtsApi32.lib
 req.dll: WtsApi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WtsApi32.dll
+- WtsApi32.dll
 api_name:
- - WTSSetRenderHint
+- WTSSetRenderHint
 targetos: Windows
 req.typenames: 
 req.redist: 

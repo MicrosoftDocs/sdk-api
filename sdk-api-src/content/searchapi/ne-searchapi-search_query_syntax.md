@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi._SEARCH_QUERY_SYNTAX
 title: SEARCH_QUERY_SYNTAX (searchapi.h)
-
 description: Specifies the type of query syntax.
 old-location: search\_search_SEARCH_QUERY_SYNTAX.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_query_syntax.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ADVANCED_QUERY_SYNTAX, SEARCH_NATURAL_QUERY_SYNTAX, SEARCH_NO_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX, SEARCH_QUERY_SYNTAX enumeration [search], _search_SEARCH_QUERY_SYNTAX, search._search_SEARCH_QUERY_SYNTAX, searchapi/SEARCH_ADVANCED_QUERY_SYNTAX, searchapi/SEARCH_NATURAL_QUERY_SYNTAX, searchapi/SEARCH_NO_QUERY_SYNTAX, searchapi/SEARCH_QUERY_SYNTAX
 ms.topic: enum
-f1_keywords: 
- - "searchapi/SEARCH_QUERY_SYNTAX"
+f1_keywords:
+- searchapi/SEARCH_QUERY_SYNTAX
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - SEARCH_QUERY_SYNTAX
+- SEARCH_QUERY_SYNTAX
 targetos: Windows
 req.typenames: SEARCH_QUERY_SYNTAX
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.DeleteClusterGroup
 title: DeleteClusterGroup function (clusapi.h)
-
 description: Removes an offline and empty group from a cluster.
 old-location: mscs\deleteclustergroup.htm
 tech.root: MsCS
 ms.assetid: a0a8461c-8919-4620-83a2-bb8e5d03b0c4
-
 ms.date: 12/05/2018
 ms.keywords: DeleteClusterGroup, DeleteClusterGroup function [Failover Cluster], PCLUSAPI_DELETE_CLUSTER_GROUP, PCLUSAPI_DELETE_CLUSTER_GROUP function [Failover Cluster], _wolf_deleteclustergroup, clusapi/DeleteClusterGroup, clusapi/PCLUSAPI_DELETE_CLUSTER_GROUP, mscs.deleteclustergroup
 ms.topic: function
-f1_keywords: 
- - "clusapi/DeleteClusterGroup"
+f1_keywords:
+- clusapi/DeleteClusterGroup
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - DeleteClusterGroup
+- DeleteClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

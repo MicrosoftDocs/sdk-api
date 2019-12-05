@@ -1,19 +1,17 @@
 ---
 UID: NC:mfapi.MFPERIODICCALLBACK
 title: MFPERIODICCALLBACK (mfapi.h)
-
 description: Callback function for the MFAddPeriodicCallback function.
 old-location: mf\mfperiodiccallback_callback.htm
 tech.root: medfound
 ms.assetid: 9449fa04-867c-4f27-a05c-ff0d6e912c53
-
 ms.date: 12/05/2018
 ms.keywords: 9449fa04-867c-4f27-a05c-ff0d6e912c53, MFPERIODICCALLBACK, MFPERIODICCALLBACK callback, MFPERIODICCALLBACK callback function [Media Foundation], mf.mfperiodiccallback_callback, mfapi/MFPERIODICCALLBACK
 ms.topic: callback
-f1_keywords: 
- - "mfapi/MFPERIODICCALLBACK"
+f1_keywords:
+- mfapi/MFPERIODICCALLBACK
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFPERIODICCALLBACK
+- MFPERIODICCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

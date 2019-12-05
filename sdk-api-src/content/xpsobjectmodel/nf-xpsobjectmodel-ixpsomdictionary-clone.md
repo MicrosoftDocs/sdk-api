@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.Clone
 title: IXpsOMDictionary::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomdictionary_clone.htm
 tech.root: printdocs
 ms.assetid: f0e57247-73c2-466e-beba-b4dd09fb1f3c
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],Clone method, IXpsOMDictionary.Clone, IXpsOMDictionary::Clone, xps.ixpsomdictionary_clone, xpsobjectmodel/IXpsOMDictionary::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDictionary.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDictionary.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary.Clone
+- IXpsOMDictionary.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

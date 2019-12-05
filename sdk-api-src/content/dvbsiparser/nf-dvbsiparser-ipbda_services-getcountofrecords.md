@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDA_Services.GetCountOfRecords
 title: IPBDA_Services::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of service records from a Program and System Information Protocol (PSIP) table in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_services_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: a39a0ec2-aabc-4609-91cc-667c14773515
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IPBDA_Services interface, IPBDA_Services interface [Microsoft TV Technologies],GetCountOfRecords method, IPBDA_Services.GetCountOfRecords, IPBDA_Services::GetCountOfRecords, dvbsiparser/IPBDA_Services::GetCountOfRecords, mstv.ipbda_services_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDA_Services.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IPBDA_Services.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDA_Services.GetCountOfRecords
+- IPBDA_Services.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

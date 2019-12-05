@@ -1,19 +1,17 @@
 ---
 UID: NF:medparam.IMediaParams.SetParam
 title: IMediaParams::SetParam (medparam.h)
-
 description: The SetParam method sets the value of a parameter.
 old-location: dshow\imediaparams_setparam.htm
 tech.root: DirectShow
 ms.assetid: e92681d4-2c77-4c72-b3ad-f0a6be7920e2
-
 ms.date: 12/05/2018
 ms.keywords: IMediaParams interface [DirectShow],SetParam method, IMediaParams.SetParam, IMediaParams::SetParam, IMediaParamsSetParam, SetParam, SetParam method [DirectShow], SetParam method [DirectShow],IMediaParams interface, dshow.imediaparams_setparam, medparam/IMediaParams::SetParam
 ms.topic: method
-f1_keywords: 
- - "medparam/IMediaParams.SetParam"
+f1_keywords:
+- medparam/IMediaParams.SetParam
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaParams.SetParam
+- IMediaParams.SetParam
 targetos: Windows
 req.typenames: 
 req.redist: 

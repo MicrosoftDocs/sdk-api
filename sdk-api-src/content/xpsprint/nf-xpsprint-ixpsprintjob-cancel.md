@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsprint.IXpsPrintJob.Cancel
 title: IXpsPrintJob::Cancel (xpsprint.h)
-
 description: Cancels the print job.
 old-location: gdi\ixpsprintjob_cancel.htm
 tech.root: printdocs
 ms.assetid: f9fab578-95f0-498b-85ad-fd6ee2c72c63
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows GDI], Cancel method [Windows GDI],IXpsPrintJob interface, IXpsPrintJob interface [Windows GDI],Cancel method, IXpsPrintJob.Cancel, IXpsPrintJob::Cancel, gdi.ixpsprintjob_cancel, xpsprint/IXpsPrintJob::Cancel
 ms.topic: method
-f1_keywords: 
- - "xpsprint/IXpsPrintJob.Cancel"
+f1_keywords:
+- xpsprint/IXpsPrintJob.Cancel
 dev_langs:
- - c++
+- c++
 req.header: xpsprint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XpsPrint.h
+- XpsPrint.h
 api_name:
- - IXpsPrintJob.Cancel
+- IXpsPrintJob.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

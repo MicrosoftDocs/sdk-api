@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePage
 title: IXpsOMObjectFactory::CreatePage (xpsobjectmodel.h)
-
 description: Creates an IXpsOMPage interface, which provides the root node of a tree of objects that represent the contents of a single page.
 old-location: xps\ixpsomobjectfactory_createpage.htm
 tech.root: printdocs
 ms.assetid: 9212ccd8-0793-40cc-bab5-609ea74715f7
-
 ms.date: 12/05/2018
 ms.keywords: CreatePage, CreatePage method [XPS Documents and Packaging], CreatePage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePage method, IXpsOMObjectFactory.CreatePage, IXpsOMObjectFactory::CreatePage, xps.ixpsomobjectfactory_createpage, xpsobjectmodel/IXpsOMObjectFactory::CreatePage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePage
+- IXpsOMObjectFactory.CreatePage
 targetos: Windows
 req.typenames: 
 req.redist: 

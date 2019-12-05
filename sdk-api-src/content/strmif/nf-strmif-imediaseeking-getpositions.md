@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetPositions
 title: IMediaSeeking::GetPositions (strmif.h)
-
 description: The GetPositions method retrieves the current position and the stop position, relative to the total duration of the stream.
 old-location: dshow\imediaseeking_getpositions.htm
 tech.root: DirectShow
 ms.assetid: 1b267c02-ec2d-4251-aac7-f2f711b16062
-
 ms.date: 12/05/2018
 ms.keywords: GetPositions, GetPositions method [DirectShow], GetPositions method [DirectShow],IMediaSeeking interface, IMediaSeeking interface [DirectShow],GetPositions method, IMediaSeeking.GetPositions, IMediaSeeking::GetPositions, IMediaSeekingGetPositions, dshow.imediaseeking_getpositions, strmif/IMediaSeeking::GetPositions
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.GetPositions"
+f1_keywords:
+- strmif/IMediaSeeking.GetPositions
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.GetPositions
+- IMediaSeeking.GetPositions
 targetos: Windows
 req.typenames: 
 req.redist: 

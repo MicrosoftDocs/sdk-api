@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbProvisioningPluginNotifySink
 title: ITsSbProvisioningPluginNotifySink (sbtsv.h)
-
 description: Exposes methods that notify Remote Desktop Connection Broker (RD Connection Broker) about the provisioning of virtual machines.
 old-location: termserv\itssbprovisioningpluginnotifysink.htm
 tech.root: TermServ
 ms.assetid: 6f91021c-d7a5-4131-bef7-b4f5f37f9f8b
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioningPluginNotifySink, ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services], ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioningPluginNotifySink, termserv.itssbprovisioningpluginnotifysink
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbProvisioningPluginNotifySink"
+f1_keywords:
+- sbtsv/ITsSbProvisioningPluginNotifySink
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioningPluginNotifySink
+- ITsSbProvisioningPluginNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 

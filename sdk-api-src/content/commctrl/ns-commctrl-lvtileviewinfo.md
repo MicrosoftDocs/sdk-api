@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagLVTILEVIEWINFO
 title: LVTILEVIEWINFO (commctrl.h)
-
 description: Provides information about a list-view control when it is displayed in tile view.
 old-location: controls\LVTILEVIEWINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvtileviewinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PLVTILEVIEWINFO, LVTILEVIEWINFO, LVTILEVIEWINFO structure [Windows Controls], LVTVIF_EXTENDED, PLVTILEVIEWINFO, PLVTILEVIEWINFO structure pointer [Windows Controls], commctrl/LVTILEVIEWINFO, commctrl/PLVTILEVIEWINFO, controls.LVTILEVIEWINFO, controls.inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO_cpp"
+ms.keywords: '*PLVTILEVIEWINFO, LVTILEVIEWINFO, LVTILEVIEWINFO structure [Windows Controls], LVTVIF_EXTENDED, PLVTILEVIEWINFO, PLVTILEVIEWINFO structure pointer [Windows Controls], commctrl/LVTILEVIEWINFO, commctrl/PLVTILEVIEWINFO, controls.LVTILEVIEWINFO, controls.inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO, inet_LVTILEVIEWINFO_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/LVTILEVIEWINFO"
+f1_keywords:
+- commctrl/LVTILEVIEWINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - LVTILEVIEWINFO
+- LVTILEVIEWINFO
 targetos: Windows
 req.typenames: LVTILEVIEWINFO, *PLVTILEVIEWINFO
 req.redist: 

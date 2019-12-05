@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineOPMInfo.GetOPMInfo
 title: IMFMediaEngineOPMInfo::GetOPMInfo (mfmediaengine.h)
-
 description: Gets status information about the Output Protection Manager (OPM).
 old-location: mf\imfmediaengineopminfo_getopminfo.htm
 tech.root: medfound
 ms.assetid: 5e4a6e8f-5042-4de1-8cea-64b8e6cc928a
-
 ms.date: 12/05/2018
 ms.keywords: GetOPMInfo, GetOPMInfo method [Media Foundation], GetOPMInfo method [Media Foundation],IMFMediaEngineOPMInfo interface, IMFMediaEngineOPMInfo interface [Media Foundation],GetOPMInfo method, IMFMediaEngineOPMInfo.GetOPMInfo, IMFMediaEngineOPMInfo::GetOPMInfo, mf.imfmediaengineopminfo_getopminfo, mfmediaengine/IMFMediaEngineOPMInfo::GetOPMInfo
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineOPMInfo.GetOPMInfo"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineOPMInfo.GetOPMInfo
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineOPMInfo.GetOPMInfo
+- IMFMediaEngineOPMInfo.GetOPMInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

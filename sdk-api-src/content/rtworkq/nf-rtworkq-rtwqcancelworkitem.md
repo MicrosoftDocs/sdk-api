@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqCancelWorkItem
 title: RtwqCancelWorkItem function (rtworkq.h)
-
 description: Attempts to cancel an asynchronous operation that was scheduled with RtwqScheduleWorkItem.
 old-location: base\rtwqcancelworkitem.htm
 tech.root: ProcThread
 ms.assetid: 55d5c6d6-310e-4f73-bbf4-9ac47a3ed295
-
 ms.date: 12/05/2018
 ms.keywords: RtwqCancelWorkItem, RtwqCancelWorkItem function, base.rtwqcancelworkitem, rtworkq/RtwqCancelWorkItem
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqCancelWorkItem"
+f1_keywords:
+- rtworkq/RtwqCancelWorkItem
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqCancelWorkItem
+- RtwqCancelWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 

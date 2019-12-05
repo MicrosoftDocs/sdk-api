@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmGetGuideLineW
 title: ImmGetGuideLineW function (immdev.h)
-
 description: Retrieves information about errors. Applications use the information for user notifications.
 old-location: intl\immgetguideline.htm
 tech.root: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
-
 ms.date: 12/05/2018
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmGetGuideLine"
+f1_keywords:
+- immdev/ImmGetGuideLine
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetGuideLine
- - ImmGetGuideLineA
- - ImmGetGuideLineW
+- ImmGetGuideLine
+- ImmGetGuideLineA
+- ImmGetGuideLineW
 targetos: Windows
 req.typenames: 
 req.redist: 

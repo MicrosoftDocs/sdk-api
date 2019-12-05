@@ -1,19 +1,17 @@
 ---
 UID: NN:vidcap.IKsTopologyInfo
 title: IKsTopologyInfo (vidcap.h)
-
 description: The IKsTopologyInfo interface enumerates the nodes in a stream class driver. The KsProxy filter exposes this interface. Applications can use this interface to examine the internal topology of a kernel-mode filter.
 old-location: dshow\ikstopologyinfo.htm
 tech.root: DirectShow
 ms.assetid: 641a10fe-8e8c-4225-b05e-b09dfb5f2fee
-
 ms.date: 12/05/2018
 ms.keywords: IKsTopologyInfo, IKsTopologyInfo interface [DirectShow], IKsTopologyInfo interface [DirectShow],described, IKsTopologyInfoInterface, dshow.ikstopologyinfo, vidcap/IKsTopologyInfo
 ms.topic: interface
-f1_keywords: 
- - "vidcap/IKsTopologyInfo"
+f1_keywords:
+- vidcap/IKsTopologyInfo
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IKsTopologyInfo
+- IKsTopologyInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

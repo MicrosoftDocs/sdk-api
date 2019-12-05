@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPGetConnection3
 title: NPGetConnection3 function (npapi.h)
-
 description: Retrieves information about a network connection, even if it is currently disconnected.
 old-location: security\npgetconnection3.htm
 tech.root: SecAuthN
 ms.assetid: 6beb0a9e-4f32-4e83-be78-858185b30521
-
 ms.date: 12/05/2018
 ms.keywords: NPGetConnection3, NPGetConnection3 function [Security], WNGETCON_CONNECTED, WNGETCON_DISCONNECTED, _mnp_npgetconnection3, npapi/NPGetConnection3, security.npgetconnection3
 ms.topic: function
-f1_keywords: 
- - "npapi/NPGetConnection3"
+f1_keywords:
+- npapi/NPGetConnection3
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPGetConnection3
+- NPGetConnection3
 targetos: Windows
 req.typenames: 
 req.redist: 

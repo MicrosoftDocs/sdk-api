@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextBinary.GetData
 title: IMFTimedTextBinary::GetData (mfmediaengine.h)
-
 description: Gets the data content of the timed-text object.
 old-location: mf\imftimedtextbinary_getdata.htm
 tech.root: medfound
 ms.assetid: F8A0770D-87DD-4253-81F6-A002BEB8B896
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Media Foundation], GetData method [Media Foundation],IMFTimedTextBinary interface, IMFTimedTextBinary interface [Media Foundation],GetData method, IMFTimedTextBinary.GetData, IMFTimedTextBinary::GetData, mf.imftimedtextbinary_getdata, mfmediaengine/IMFTimedTextBinary::GetData
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextBinary.GetData"
+f1_keywords:
+- mfmediaengine/IMFTimedTextBinary.GetData
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextBinary.GetData
+- IMFTimedTextBinary.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:timeprov.LogTimeProvEventFunc
 title: LogTimeProvEventFunc (timeprov.h)
-
 description: Logs a time provider event in the event log.
 old-location: base\logtimeprovevent.htm
 tech.root: SysInfo
 ms.assetid: ddaea389-3f58-4011-bcf8-c60546d1bce1
-
 ms.date: 12/05/2018
 ms.keywords: Error, Information, LogTimeProvEventFunc, LogTimeProvEventFunc callback, LogTimeProvEventFunc callback function, Warning, _win32_logtimeprovevent, base.logtimeprovevent, timeprov/LogTimeProvEventFunc
 ms.topic: callback
-f1_keywords: 
- - "timeprov/LogTimeProvEventFunc"
+f1_keywords:
+- timeprov/LogTimeProvEventFunc
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - LogTimeProvEventFunc
+- LogTimeProvEventFunc
 targetos: Windows
 req.typenames: 
 req.redist: 

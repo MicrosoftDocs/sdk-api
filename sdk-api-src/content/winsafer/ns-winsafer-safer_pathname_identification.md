@@ -1,19 +1,17 @@
 ---
 UID: NS:winsafer._SAFER_PATHNAME_IDENTIFICATION
 title: SAFER_PATHNAME_IDENTIFICATION (winsafer.h)
-
 description: Represents a path identification rule.
 old-location: security\safer_pathname_identification.htm
 tech.root: SecMgmt
 ms.assetid: d845a750-2931-4c17-be78-92843e2bd76f
-
 ms.date: 12/05/2018
 ms.keywords: '*PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION, PSAFER_PATHNAME_IDENTIFICATION structure pointer [Security], SAFER_PATHNAME_IDENTIFICATION, SAFER_PATHNAME_IDENTIFICATION structure [Security], _mnp_safer_pathname_identification, security.safer_pathname_identification, winsafer/PSAFER_PATHNAME_IDENTIFICATION, winsafer/SAFER_PATHNAME_IDENTIFICATION'
 ms.topic: struct
 f1_keywords:
 - winsafer/SAFER_PATHNAME_IDENTIFICATION
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

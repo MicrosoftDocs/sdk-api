@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin2.SetCAProperty
 title: ICertAdmin2::SetCAProperty (certadm.h)
-
 description: Sets a property value for the certification authority (CA).
 old-location: security\icertadmin2_setcaproperty.htm
 tech.root: SecCrypto
 ms.assetid: 29570a8f-41d4-4c6a-88d0-97d6aa9d0784
-
 ms.date: 12/05/2018
 ms.keywords: CR_PROP_KRACERT, CR_PROP_KRACERTCOUNT, CR_PROP_KRACERTUSEDCOUNT, CR_PROP_ROLESEPARATIONENABLED, CR_PROP_TEMPLATES, ICertAdmin2 interface [Security],SetCAProperty method, ICertAdmin2.SetCAProperty, ICertAdmin2::SetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, SetCAProperty, SetCAProperty method [Security], SetCAProperty method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::SetCAProperty, security.icertadmin2_setcaproperty
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.SetCAProperty"
+f1_keywords:
+- certadm/ICertAdmin2.SetCAProperty
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.SetCAProperty
+- ICertAdmin2.SetCAProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:qmgr.IEnumBackgroundCopyGroups
 title: IEnumBackgroundCopyGroups (qmgr.h)
-
 description: Use the IEnumBackgroundCopyGroups interface to enumerate the list of groups in the download queue. To get an IEnumBackgroundCopyGroups interface pointer, call the IBackgroundCopyQMgr::EnumGroups method.
 old-location: bits\ienumbackgroundcopygroups.htm
 tech.root: Bits
 ms.assetid: 64a05103-9749-41fd-9987-8bb17b9284f7
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyGroups, IEnumBackgroundCopyGroups interface [BITS], IEnumBackgroundCopyGroups interface [BITS],described, bits.ienumbackgroundcopygroups, qmgr/IEnumBackgroundCopyGroups
 ms.topic: interface
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyGroups"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyGroups
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyGroups
+- IEnumBackgroundCopyGroups
 targetos: Windows
 req.typenames: 
 req.redist: 

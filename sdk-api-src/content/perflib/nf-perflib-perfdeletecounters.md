@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfDeleteCounters
 title: PerfDeleteCounters function (perflib.h)
-
 description: Removes the specified performance counter specifications from the specified query.
 old-location: perf\perfdeletecounters.htm
 tech.root: perfctrs
 ms.assetid: 330CA041-41CA-4C48-B88B-C48A0143505E
-
 ms.date: 12/05/2018
 ms.keywords: PerfDeleteCounters, PerfDeleteCounters function [Perf], perf.perfdeletecounters, perflib/PerfDeleteCounters
 ms.topic: function
 f1_keywords:
 - perflib/PerfDeleteCounters
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

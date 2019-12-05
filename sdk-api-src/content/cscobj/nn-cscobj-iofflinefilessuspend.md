@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesSuspend
 title: IOfflineFilesSuspend (cscobj.h)
-
 description: Suspends or releases a share root or directory tree in the Offline Files cache.
 old-location: of\iofflinefilessuspend.htm
 tech.root: offlinefiles
 ms.assetid: 697018c4-7cce-480a-b078-993cdac32bf5
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspend, IOfflineFilesSuspend interface [Offline Files], IOfflineFilesSuspend interface [Offline Files],described, cscobj/IOfflineFilesSuspend, of.iofflinefilessuspend
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesSuspend"
+f1_keywords:
+- cscobj/IOfflineFilesSuspend
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSuspend
+- IOfflineFilesSuspend
 targetos: Windows
 req.typenames: 
 req.redist: 

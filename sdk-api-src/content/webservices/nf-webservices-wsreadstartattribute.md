@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadStartAttribute
 title: WsReadStartAttribute function (webservices.h)
-
 description: Moves the Reader to the specified attribute so that the content may be read using WsReadValue, WsReadChars, or WsReadBytes.
 old-location: wsw\wsreadstartattribute.htm
 tech.root: wsw
 ms.assetid: 6fd0c8c2-2eac-4d98-898d-1c5849220c36
-
 ms.date: 12/05/2018
 ms.keywords: WsReadStartAttribute, WsReadStartAttribute function [Web Services for Windows], webservices/WsReadStartAttribute, wsw.wsreadstartattribute
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadStartAttribute"
+f1_keywords:
+- webservices/WsReadStartAttribute
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadStartAttribute
+- WsReadStartAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetOutputPrefType
 title: IMFTopologyNode::SetOutputPrefType (mfidl.h)
-
 description: Sets the preferred media type for an output stream on this node.
 old-location: mf\imftopologynode_setoutputpreftype.htm
 tech.root: medfound
 ms.assetid: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8
-
 ms.date: 12/05/2018
 ms.keywords: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8, IMFTopologyNode interface [Media Foundation],SetOutputPrefType method, IMFTopologyNode.SetOutputPrefType, IMFTopologyNode::SetOutputPrefType, SetOutputPrefType, SetOutputPrefType method [Media Foundation], SetOutputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setoutputpreftype, mfidl/IMFTopologyNode::SetOutputPrefType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.SetOutputPrefType"
+f1_keywords:
+- mfidl/IMFTopologyNode.SetOutputPrefType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.SetOutputPrefType
+- IMFTopologyNode.SetOutputPrefType
 targetos: Windows
 req.typenames: 
 req.redist: 

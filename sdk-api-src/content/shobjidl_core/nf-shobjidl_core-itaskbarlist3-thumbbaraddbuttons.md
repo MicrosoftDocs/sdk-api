@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarAddButtons
 title: ITaskbarList3::ThumbBarAddButtons (shobjidl_core.h)
-
 description: Adds a thumbnail toolbar with a specified set of buttons to the thumbnail image of a window in a taskbar button flyout.
 old-location: shell\ITaskbarList3_ThumbBarAddButtons.htm
 tech.root: shell
 ms.assetid: 5d573879-aa90-41d9-a9b7-b813dafa78ae
-
 ms.date: 12/05/2018
 ms.keywords: ITaskbarList3 interface [Windows Shell],ThumbBarAddButtons method, ITaskbarList3.ThumbBarAddButtons, ITaskbarList3::ThumbBarAddButtons, ThumbBarAddButtons, ThumbBarAddButtons method [Windows Shell], ThumbBarAddButtons method [Windows Shell],ITaskbarList3 interface, _shell_ITaskbarList3_ThumbBarAddButtons, shell.ITaskbarList3_ThumbBarAddButtons, shobjidl_core/ITaskbarList3::ThumbBarAddButtons
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITaskbarList3.ThumbBarAddButtons"
+f1_keywords:
+- shobjidl_core/ITaskbarList3.ThumbBarAddButtons
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Explorerframe.lib
 req.dll: Explorerframe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Explorerframe.dll
+- Explorerframe.dll
 api_name:
- - ITaskbarList3.ThumbBarAddButtons
+- ITaskbarList3.ThumbBarAddButtons
 targetos: Windows
 req.typenames: 
 req.redist: 

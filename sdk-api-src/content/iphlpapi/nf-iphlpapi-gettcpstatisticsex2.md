@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetTcpStatisticsEx2
 title: GetTcpStatisticsEx2 function (iphlpapi.h)
-
 description: The GetTcpStatisticsEx2 function retrieves the Transmission Control Protocol (TCP) statistics for the current computer.
 old-location: iphlp\gettcpstatisticsex2.htm
 tech.root: IpHlp
 ms.assetid: E7D988E3-4CE9-4BD3-96C7-4C16D2D6FA9C
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetTcpStatisticsEx2, GetTcpStatisticsEx2 function [IP Helper], iphlp.gettcpstatisticsex2, iphlpapi/GetTcpStatisticsEx2
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetTcpStatisticsEx2
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

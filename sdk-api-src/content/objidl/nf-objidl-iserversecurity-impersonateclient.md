@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IServerSecurity.ImpersonateClient
 title: IServerSecurity::ImpersonateClient (objidl.h)
-
 description: Enables a server to impersonate a client for the duration of a call.
 old-location: com\iserversecurity_impersonateclient.htm
 tech.root: com
 ms.assetid: 20398b63-0fcb-40ab-93ed-f4c75760eb9e
-
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity interface [COM],ImpersonateClient method, IServerSecurity.ImpersonateClient, IServerSecurity::ImpersonateClient, ImpersonateClient, ImpersonateClient method [COM], ImpersonateClient method [COM],IServerSecurity interface, _com_iserversecurity_impersonateclient, com.iserversecurity_impersonateclient, objidlbase/IServerSecurity::ImpersonateClient
 ms.topic: method
-f1_keywords: 
- - "objidl/IServerSecurity.ImpersonateClient"
+f1_keywords:
+- objidl/IServerSecurity.ImpersonateClient
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IServerSecurity.ImpersonateClient
+- IServerSecurity.ImpersonateClient
 targetos: Windows
 req.typenames: 
 req.redist: 

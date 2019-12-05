@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetIndexBuffer
 title: ID3D12GraphicsCommandList::IASetIndexBuffer (d3d12.h)
-
 description: Sets the view for the index buffer.
 old-location: direct3d12\id3d12graphicscommandlist_iasetindexbuffer.htm
 tech.root: direct3d12
 ms.assetid: EB776EC7-42F2-47D3-A1FA-771EC6C4E3AB
-
 ms.date: 12/05/2018
 ms.keywords: IASetIndexBuffer, IASetIndexBuffer method, IASetIndexBuffer method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetIndexBuffer method, ID3D12GraphicsCommandList.IASetIndexBuffer, ID3D12GraphicsCommandList::IASetIndexBuffer, d3d12/ID3D12GraphicsCommandList::IASetIndexBuffer, direct3d12.id3d12graphicscommandlist_iasetindexbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.IASetIndexBuffer"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.IASetIndexBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.IASetIndexBuffer
+- ID3D12GraphicsCommandList.IASetIndexBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

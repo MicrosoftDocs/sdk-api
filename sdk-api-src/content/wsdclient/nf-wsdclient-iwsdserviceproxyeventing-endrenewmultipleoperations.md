@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.EndRenewMultipleOperations
 title: IWSDServiceProxyEventing::EndRenewMultipleOperations (wsdclient.h)
-
 description: Completes an asynchronous operation that renews a collection of existing notification subscriptions by submitting a new duration.
 old-location: ncd\iwsdserviceproxyeventing_endrenewmultipleoperations.htm
 tech.root: WsdApi
 ms.assetid: fb5be204-a775-4abb-af5b-9a829b69fa14
-
 ms.date: 12/05/2018
 ms.keywords: EndRenewMultipleOperations, EndRenewMultipleOperations method, EndRenewMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,EndRenewMultipleOperations method, IWSDServiceProxyEventing.EndRenewMultipleOperations, IWSDServiceProxyEventing::EndRenewMultipleOperations, ncd.iwsdserviceproxyeventing_endrenewmultipleoperations, wsdclient/IWSDServiceProxyEventing::EndRenewMultipleOperations
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.EndRenewMultipleOperations
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryprovider.IFunctionDiscoveryProviderFactory
 title: IFunctionDiscoveryProviderFactory (functiondiscoveryprovider.h)
-
 description: Provides factory methods to create Function Discovery objects.
 old-location: ncd\ifunctiondiscoveryproviderfactory.htm
 tech.root: FunDisc
 ms.assetid: 576db617-0bca-4b46-839b-0f133f28cacb
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProviderFactory, IFunctionDiscoveryProviderFactory interface, IFunctionDiscoveryProviderFactory interface,described, functiondiscoveryprovider/IFunctionDiscoveryProviderFactory, ncd.ifunctiondiscoveryproviderfactory
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProviderFactory"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProviderFactory
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderFactory
+- IFunctionDiscoveryProviderFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

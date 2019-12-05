@@ -1,19 +1,17 @@
 ---
 UID: NF:filehc.InsertFile
 title: InsertFile function (filehc.h)
-
 description: Inserts a file into the cache.
 old-location: winprog\_insertfile.htm
 tech.root: DevNotes
 ms.assetid: 5461dc96-a625-43d7-87e7-c25389e9c822
-
 ms.date: 12/05/2018
 ms.keywords: InsertFile, InsertFile function [Windows API], filehc/InsertFile, winprog._insertfile
 ms.topic: function
-f1_keywords: 
- - "filehc/InsertFile"
+f1_keywords:
+- filehc/InsertFile
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fcachdll.lib
 req.dll: Fcachdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fcachdll.dll
+- Fcachdll.dll
 api_name:
- - InsertFile
+- InsertFile
 targetos: Windows
 req.typenames: 
 req.redist: 

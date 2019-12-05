@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaEventCallback
 title: IWiaEventCallback (wia_xp.h)
-
 description: The IWiaEventCallback interface is used by applications to receive notification of Windows Image Acquisition (WIA) hardware device events.
 old-location: wia\_wia_IWiaEventCallback.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaeventcallback\iwiaeventcallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaEventCallback, IWiaEventCallback interface [WIA], IWiaEventCallback interface [WIA],described, _wia_IWiaEventCallback, wia._wia_IWiaEventCallback, wia_xp/IWiaEventCallback
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaEventCallback"
+f1_keywords:
+- wia_xp/IWiaEventCallback
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IWiaEventCallback
+- IWiaEventCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Application_NewInstance
 title: MI_Application_NewInstance function (mi.h)
-
 description: Creates a new MI_Instance object to be passed to various MI operation APIs that require instances.
 old-location: wmi_v2\mi_application_newinstance.htm
 tech.root: wmi_v2
 ms.assetid: e46adc55-c5dc-4395-b746-2ff13cc1e4bb
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewInstance, MI_Application_NewInstance function [Windows Management Infrastructure (MI)], mi/MI_Application_NewInstance, wmi_v2.mi_application_newinstance
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewInstance
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

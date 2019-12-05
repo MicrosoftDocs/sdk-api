@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.IpRenewAddress
 title: IpRenewAddress function (iphlpapi.h)
-
 description: The IpRenewAddressfunction renews a lease on an IPv4 address previously obtained through Dynamic Host Configuration Protocol (DHCP).
 old-location: iphlp\iprenewaddress.htm
 tech.root: IpHlp
 ms.assetid: 25b1bf9f-3ae1-453c-baae-5f70ae46cd24
-
 ms.date: 12/05/2018
 ms.keywords: IpRenewAddress, IpRenewAddress function [IP Helper], _iphlp_iprenewaddress, iphlp.iprenewaddress, iphlpapi/IpRenewAddress
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/IpRenewAddress"
+f1_keywords:
+- iphlpapi/IpRenewAddress
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - IpRenewAddress
+- IpRenewAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

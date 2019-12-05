@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2(const uint8_t)
 title: XMUBYTE2::XMUBYTE2(const uint8_t) (directxpackedvector.h)
-
 description: Initializes a new instance of **XMUBYTE2** from a two-element int8_t array argument.
-old-location:
+old-location: 
 tech.root: dxmath
 ms.assetid: d7f51876-9fc9-40b7-8b42-ff4ee4c9afa0
-
 ms.date: 05/06/2019
 ms.keywords: XMUBYTE2, XMUBYTE2 constructor [DirectX Math Support APIs], XMUBYTE2 constructor [DirectX Math Support APIs],XMUBYTE2 structure, XMUBYTE2 structure [DirectX Math Support APIs],XMUBYTE2 constructor, XMUBYTE2.XMUBYTE2, XMUBYTE2.XMUBYTE2(), XMUBYTE2.XMUBYTE2(const uint8_t), XMUBYTE2::XMUBYTE2, XMUBYTE2::XMUBYTE2(const uint8_t), dxmath.xmubyte2_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUBYTE2.XMUBYTE2"
+f1_keywords:
+- directxpackedvector/XMUBYTE2.XMUBYTE2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUBYTE2.XMUBYTE2
+- XMUBYTE2.XMUBYTE2
 targetos: Windows
 req.typenames: 
 req.redist: 

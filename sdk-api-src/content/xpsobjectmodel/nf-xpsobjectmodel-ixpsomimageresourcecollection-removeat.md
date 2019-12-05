@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.RemoveAt
 title: IXpsOMImageResourceCollection::RemoveAt (xpsobjectmodel.h)
-
 description: Removes and releases an IXpsOMImageResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomimageresourcecollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 29945211-d204-4da9-a77d-20598060750f
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResourceCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMImageResourceCollection.RemoveAt, IXpsOMImageResourceCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMImageResourceCollection interface, xps.ixpsomimageresourcecollection_removeat, xpsobjectmodel/IXpsOMImageResourceCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResourceCollection.RemoveAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResourceCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResourceCollection.RemoveAt
+- IXpsOMImageResourceCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

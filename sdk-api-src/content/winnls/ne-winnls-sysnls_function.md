@@ -1,19 +1,17 @@
 ---
 UID: NE:winnls.SYSNLS_FUNCTION
 title: SYSNLS_FUNCTION (winnls.h)
-
 description: Specifies NLS function capabilities.
 old-location: intl\sysnls_function.htm
 tech.root: Intl
 ms.assetid: c34eb904-e264-4f7d-ac7f-4ec8cfc588b6
-
 ms.date: 12/05/2018
 ms.keywords: COMPARE_STRING, SYSNLS_FUNCTION, SYSNLS_FUNCTION enumeration [Internationalization for Windows Applications], intl.nls_function, intl.sysnls_function, winnls/COMPARE_STRING, winnls/SYSNLS_FUNCTION
 ms.topic: enum
-f1_keywords: 
- - "winnls/SYSNLS_FUNCTION"
+f1_keywords:
+- winnls/SYSNLS_FUNCTION
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - SYSNLS_FUNCTION
+- SYSNLS_FUNCTION
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient3.GetSharedModeEnginePeriod
 title: IAudioClient3::GetSharedModeEnginePeriod (audioclient.h)
-
 description: Returns the range of periodicities supported by the engine for the specified stream format.
 old-location: coreaudio\iaudioclient3_getsharedmodeengineperiod.htm
 tech.root: CoreAudio
 ms.assetid: 41ED045F-0C47-40BE-9ECD-6A925E166E6D
-
 ms.date: 12/05/2018
 ms.keywords: GetSharedModeEnginePeriod, GetSharedModeEnginePeriod method [Core Audio], GetSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetSharedModeEnginePeriod method, IAudioClient3.GetSharedModeEnginePeriod, IAudioClient3::GetSharedModeEnginePeriod, audioclient/IAudioClient3::GetSharedModeEnginePeriod, coreaudio.iaudioclient3_getsharedmodeengineperiod
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient3.GetSharedModeEnginePeriod"
+f1_keywords:
+- audioclient/IAudioClient3.GetSharedModeEnginePeriod
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioclient.h
+- audioclient.h
 api_name:
- - IAudioClient3.GetSharedModeEnginePeriod
+- IAudioClient3.GetSharedModeEnginePeriod
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.SOGetTargets
 title: ID3D10Device::SOGetTargets (d3d10.h)
-
 description: Get the target output buffers for the StreamOutput stage of the pipeline.
 old-location: direct3d10\id3d10device_sogettargets.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_sogettargets.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1b186699-d71b-b02e-0591-a512a5b0109d, ID3D10Device interface [Direct3D 10],SOGetTargets method, ID3D10Device.SOGetTargets, ID3D10Device::SOGetTargets, SOGetTargets, SOGetTargets method [Direct3D 10], SOGetTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SOGetTargets, direct3d10.id3d10device_sogettargets
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.SOGetTargets"
+f1_keywords:
+- d3d10/ID3D10Device.SOGetTargets
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.SOGetTargets
+- ID3D10Device.SOGetTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

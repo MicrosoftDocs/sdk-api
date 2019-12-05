@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupUpdateRecord
 title: PeerGroupUpdateRecord function (p2p.h)
-
 description: The PeerGroupUpdateRecord function updates a record within a specific peer group.
 old-location: p2p\peergroupupdaterecord.htm
 tech.root: P2PSdk
 ms.assetid: bfff0422-452c-4780-8df7-d3e8d5ad385c
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupUpdateRecord, PeerGroupUpdateRecord function [Peer Networking], p2p.peergroupupdaterecord, p2p/PeerGroupUpdateRecord
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupUpdateRecord"
+f1_keywords:
+- p2p/PeerGroupUpdateRecord
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupUpdateRecord
+- PeerGroupUpdateRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Add
 title: IDataCollectorSetCollection::Add (pla.h)
-
 description: Adds a data collector set to the collection.
 old-location: pla\idatacollectorsetcollection_add.htm
 tech.root: PLA
 ms.assetid: c551e373-77a4-4bac-848d-5aaec1e89cf1
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [PLA], Add method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],Add method, IDataCollectorSetCollection.Add, IDataCollectorSetCollection::Add, base.idatacollectorsetcollection_add, pla.idatacollectorsetcollection_add, pla/IDataCollectorSetCollection::Add
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSetCollection.Add"
+f1_keywords:
+- pla/IDataCollectorSetCollection.Add
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSetCollection.Add
+- IDataCollectorSetCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

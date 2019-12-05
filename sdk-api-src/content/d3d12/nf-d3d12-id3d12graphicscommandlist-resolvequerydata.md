@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveQueryData
 title: ID3D12GraphicsCommandList::ResolveQueryData (d3d12.h)
-
 description: Extracts data from a query. ResolveQueryData works with all heap types (default, upload, and readback).  ResolveQueryData works with all heap types (default, upload, and readback). .
 old-location: direct3d12\id3d12graphicscommandlist_resolvequerydata.htm
 tech.root: direct3d12
 ms.assetid: E3154DB7-DDA9-4480-A918-19C3A62944F2
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResolveQueryData method, ID3D12GraphicsCommandList.ResolveQueryData, ID3D12GraphicsCommandList::ResolveQueryData, ResolveQueryData, ResolveQueryData method, ResolveQueryData method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResolveQueryData, direct3d12.id3d12graphicscommandlist_resolvequerydata
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.ResolveQueryData"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.ResolveQueryData
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.ResolveQueryData
+- ID3D12GraphicsCommandList.ResolveQueryData
 targetos: Windows
 req.typenames: 
 req.redist: 

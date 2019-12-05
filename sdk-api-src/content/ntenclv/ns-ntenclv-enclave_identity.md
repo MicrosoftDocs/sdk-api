@@ -1,19 +1,17 @@
 ---
 UID: NS:ntenclv.ENCLAVE_IDENTITY
 title: ENCLAVE_IDENTITY (ntenclv.h)
-
 description: Describes the identity of the primary module of an enclave.
 old-location: base\enclave_identity.htm
 tech.root: Memory
 ms.assetid: D584D824-3C86-4BBB-9086-6DBE0290E0A4
-
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_FLAG_DYNAMIC_DEBUG_ACTIVE, ENCLAVE_FLAG_DYNAMIC_DEBUG_ENABLED, ENCLAVE_FLAG_FULL_DEBUG_ENABLED, ENCLAVE_IDENTITY, ENCLAVE_IDENTITY structure, base.enclave_identity, ntenclv/ENCLAVE_IDENTITY
 ms.topic: struct
-f1_keywords: 
- - "ntenclv/ENCLAVE_IDENTITY"
+f1_keywords:
+- ntenclv/ENCLAVE_IDENTITY
 dev_langs:
- - c++
+- c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntenclv.h
+- ntenclv.h
 api_name:
- - ENCLAVE_IDENTITY
+- ENCLAVE_IDENTITY
 targetos: Windows
 req.typenames: ENCLAVE_IDENTITY
 req.redist: 

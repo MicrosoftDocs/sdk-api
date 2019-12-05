@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_ELEMENT_DESCRIPTION
 title: WS_ELEMENT_DESCRIPTION (webservices.h)
-
 description: Represents a mapping between a C data type and an XML element.
 old-location: wsw\ws_element_description.htm
 tech.root: wsw
 ms.assetid: 17035b64-9b2c-40d3-bdce-45e9b132e9f1
-
 ms.date: 12/05/2018
 ms.keywords: WS_ELEMENT_DESCRIPTION, WS_ELEMENT_DESCRIPTION structure [Web Services for Windows], webservices/WS_ELEMENT_DESCRIPTION, wsw.ws_element_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ELEMENT_DESCRIPTION"
+f1_keywords:
+- webservices/WS_ELEMENT_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ELEMENT_DESCRIPTION
+- WS_ELEMENT_DESCRIPTION
 targetos: Windows
 req.typenames: WS_ELEMENT_DESCRIPTION
 req.redist: 

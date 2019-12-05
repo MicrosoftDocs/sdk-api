@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.RedEyeCorrection.SetParameters
 title: RedEyeCorrection::SetParameters (gdipluseffects.h)
-
 description: The RedEyeCorrection::SetParameters method sets the parameters of this RedEyeCorrection object.
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionmethods\setparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: RedEyeCorrection class [GDI+],SetParameters method, RedEyeCorrection.SetParameters, RedEyeCorrection::SetParameters, SetParameters, SetParameters method [GDI+], SetParameters method [GDI+],RedEyeCorrection class, _gdiplus_CLASS_RedEyeCorrection_SetParameters_, gdiplus._gdiplus_CLASS_RedEyeCorrection_SetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/RedEyeCorrection.SetParameters"
+f1_keywords:
+- gdipluseffects/RedEyeCorrection.SetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - RedEyeCorrection.SetParameters
+- RedEyeCorrection.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

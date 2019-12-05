@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyKeyFromString
 title: PSPropertyKeyFromString function (propsys.h)
-
 description: Converts a string to a PROPERTYKEY structure.
 old-location: properties\PSPropertyKeyFromString.htm
 tech.root: properties
 ms.assetid: 9096912a-14ad-4a45-a564-08f98fce3f96
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyKeyFromString, PSPropertyKeyFromString function [Windows Properties], _shell_PSPropertyKeyFromString, properties.PSPropertyKeyFromString, propsys/PSPropertyKeyFromString, shell.PSPropertyKeyFromString
 ms.topic: function
 f1_keywords:
 - propsys/PSPropertyKeyFromString
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

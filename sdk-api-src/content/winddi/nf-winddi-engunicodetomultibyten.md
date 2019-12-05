@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngUnicodeToMultiByteN
 title: EngUnicodeToMultiByteN function (winddi.h)
-
 description: The EngUnicodeToMultiByteN function converts the specified Unicode string into an ANSI string using the current ANSI code page.
 old-location: display\engunicodetomultibyten.htm
 tech.root: display
 ms.assetid: 5c36322f-7a88-4c24-9f98-aaf3d30f3be4
-
 ms.date: 12/05/2018
 ms.keywords: EngUnicodeToMultiByteN, EngUnicodeToMultiByteN function [Display Devices], display.engunicodetomultibyten, gdifncs_4c6f2a59-787b-48a8-9676-c9a88f4201f4.xml, winddi/EngUnicodeToMultiByteN
 ms.topic: function
-f1_keywords: 
- - "winddi/EngUnicodeToMultiByteN"
+f1_keywords:
+- winddi/EngUnicodeToMultiByteN
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngUnicodeToMultiByteN
+- EngUnicodeToMultiByteN
 targetos: Windows
 req.typenames: 
 req.redist: 

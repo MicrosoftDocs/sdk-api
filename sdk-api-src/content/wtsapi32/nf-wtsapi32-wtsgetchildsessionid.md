@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSGetChildSessionId
 title: WTSGetChildSessionId function (wtsapi32.h)
-
 description: Retrieves the child session identifier, if present.
 old-location: termserv\wtsgetchildsessionid.htm
 tech.root: TermServ
 ms.assetid: EA78660C-438D-458C-B723-ED1C8AA60FA5
-
 ms.date: 12/05/2018
 ms.keywords: WTSGetChildSessionId, WTSGetChildSessionId function [Remote Desktop Services], termserv.wtsgetchildsessionid, wtsapi32/WTSGetChildSessionId
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSGetChildSessionId"
+f1_keywords:
+- wtsapi32/WTSGetChildSessionId
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSGetChildSessionId
+- WTSGetChildSessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

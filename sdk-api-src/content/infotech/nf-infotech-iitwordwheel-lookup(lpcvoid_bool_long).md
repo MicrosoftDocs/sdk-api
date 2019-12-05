@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITWordWheel.Lookup(LPCVOID,BOOL,LONG)
 title: IITWordWheel::Lookup(LPCVOID,BOOL,LONG) (infotech.h)
-
 description: Looks up an entry and returns contents in a buffer.
 old-location: htmlhelp\iitwordwheel_lookup1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheellookupbuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: IITWordWheel interface [HTML Help Workshop],Lookup method, IITWordWheel.Lookup, IITWordWheel.Lookup(LPCVOID,BOOL,LONG), IITWordWheel::Lookup, IITWordWheel::Lookup(LONG,LPVOID,DWORD), IITWordWheel::Lookup(LPCVOID,BOOL,LONG), Lookup, Lookup method [HTML Help Workshop], Lookup method [HTML Help Workshop],IITWordWheel interface, htmlhelp.iitwordwheel_lookup1, infotech/IITWordWheel::Lookup, refIITWordWheelLookupBuffer
 ms.topic: method
-f1_keywords: 
- - "infotech/IITWordWheel.Lookup"
+f1_keywords:
+- infotech/IITWordWheel.Lookup
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITWordWheel.Lookup
+- IITWordWheel.Lookup
 targetos: Windows
 req.typenames: 
 req.redist: 

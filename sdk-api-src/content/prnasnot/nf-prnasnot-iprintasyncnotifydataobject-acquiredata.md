@@ -1,19 +1,17 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyDataObject.AcquireData
 title: IPrintAsyncNotifyDataObject::AcquireData (prnasnot.h)
-
 description: Directs listening applications to the notification data, including the data's size and type.
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata.htm
 tech.root: printdocs
 ms.assetid: c6272583-6907-4c9f-b0c8-4d788e0b2173
-
 ms.date: 12/05/2018
 ms.keywords: AcquireData, AcquireData method [Windows GDI], AcquireData method [Windows GDI],IPrintAsyncNotifyDataObject interface, IPrintAsyncNotifyDataObject interface [Windows GDI],AcquireData method, IPrintAsyncNotifyDataObject.AcquireData, IPrintAsyncNotifyDataObject::AcquireData, _win32_IPrintAsyncNotifyDataObject_AcquireData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__acquiredata, prnasnot/IPrintAsyncNotifyDataObject::AcquireData
 ms.topic: method
-f1_keywords: 
- - "prnasnot/IPrintAsyncNotifyDataObject.AcquireData"
+f1_keywords:
+- prnasnot/IPrintAsyncNotifyDataObject.AcquireData
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Prnasnot.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - prnasnot.dll
+- prnasnot.dll
 api_name:
- - IPrintAsyncNotifyDataObject.AcquireData
+- IPrintAsyncNotifyDataObject.AcquireData
 targetos: Windows
 req.typenames: 
 req.redist: 

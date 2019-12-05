@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Animate_IsPlaying
 title: Animate_IsPlaying macro (commctrl.h)
-
 description: Checks to see if an Audio-Video Interleaved (AVI) clip is playing. You can use this macro or send an ACM_ISPLAYING message.
 old-location: controls\Animate_IsPlaying.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_isplaying.htm
-
 ms.date: 12/05/2018
 ms.keywords: Animate_IsPlaying, Animate_IsPlaying macro [Windows Controls], _shell_Animate_IsPlaying, _shell_Animate_IsPlaying_cpp, commctrl/Animate_IsPlaying, controls.Animate_IsPlaying, controls._shell_Animate_IsPlaying
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Animate_IsPlaying"
+f1_keywords:
+- commctrl/Animate_IsPlaying
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Animate_IsPlaying
+- Animate_IsPlaying
 targetos: Windows
 req.typenames: 
 req.redist: 

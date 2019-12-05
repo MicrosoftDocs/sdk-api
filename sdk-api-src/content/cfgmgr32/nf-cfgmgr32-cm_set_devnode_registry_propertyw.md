@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Registry_PropertyW
 title: CM_Set_DevNode_Registry_PropertyW function (cfgmgr32.h)
-
 description: The CM_Set_DevNode_Registry_Property function sets a specified device property in the registry.
 old-location: devinst\cm_set_devnode_registry_property.htm
 tech.root: devinst
 ms.assetid: 0f1b6883-c232-4f51-8f5c-5e9c00708727
-
 ms.date: 12/05/2018
 ms.keywords: CM_Set_DevNode_Registry_Property, CM_Set_DevNode_Registry_Property function [Device and Driver Installation], CM_Set_DevNode_Registry_PropertyW, cfgmgr32/CM_Set_DevNode_Registry_Property, cfgmgr32/CM_Set_DevNode_Registry_PropertyW, cfgmgrfn_7ad90f32-c153-4ba1-b2bf-c5f86da160ff.xml, devinst.cm_set_devnode_registry_property
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Set_DevNode_Registry_Property"
+f1_keywords:
+- cfgmgr32/CM_Set_DevNode_Registry_Property
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Set_DevNode_Registry_Property
- - CM_Set_DevNode_Registry_PropertyW
+- CM_Set_DevNode_Registry_Property
+- CM_Set_DevNode_Registry_PropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

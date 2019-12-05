@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagSERIALKEYSA
 title: SERIALKEYSA (winuser.h)
-
 description: Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input.
 old-location: winauto\serialkeys.htm
 tech.root: WinAuto
 ms.assetid: 934446ab-b6bc-49f9-ab26-34eb3dc88f05
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERIALKEYSA, LPSERIALKEYS, LPSERIALKEYS structure pointer [Windows Accessibility], SERIALKEYS, SERIALKEYS structure [Windows Accessibility], SERIALKEYSA, SERKF_AVAILABLE, SERKF_INDICATOR, SERKF_SERIALKEYSON, _win32_SERIALKEYS_str, msaa.serialkeys, tagSERIALKEYSA, tagSERIALKEYSW, winauto.serialkeys, winuser/LPSERIALKEYS, winuser/SERIALKEYS"
+ms.keywords: '*LPSERIALKEYSA, LPSERIALKEYS, LPSERIALKEYS structure pointer [Windows Accessibility], SERIALKEYS, SERIALKEYS structure [Windows Accessibility], SERIALKEYSA, SERKF_AVAILABLE, SERKF_INDICATOR, SERKF_SERIALKEYSON, _win32_SERIALKEYS_str, msaa.serialkeys, tagSERIALKEYSA, tagSERIALKEYSW, winauto.serialkeys, winuser/LPSERIALKEYS, winuser/SERIALKEYS'
 ms.topic: struct
-f1_keywords: 
- - "winuser/SERIALKEYS"
+f1_keywords:
+- winuser/SERIALKEYS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - SERIALKEYS
+- SERIALKEYS
 targetos: Windows
 req.typenames: SERIALKEYSA, *LPSERIALKEYSA
 req.redist: 

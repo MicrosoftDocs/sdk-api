@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(float,float,float,float,float,float,float,float,float)
 title: XMFLOAT3X3::XMFLOAT3X3(float,float,float,float,float,float,float,float,float) (directxmath.h)
-
 description: Initializes a new instance of the XMFLOAT3X3 structure from nine scalar float values.
 old-location: dxmath\xmfloat3x3_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor(float,float,float,float,float,float,float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT3X3, XMFLOAT3X3 constructor [DirectX Math Support APIs], XMFLOAT3X3 constructor [DirectX Math Support APIs],XMFLOAT3X3 structure, XMFLOAT3X3 structure [DirectX Math Support APIs],XMFLOAT3X3 constructor, XMFLOAT3X3.XMFLOAT3X3, XMFLOAT3X3.XMFLOAT3X3(float,float,float,float,float,float,float,float,float), XMFLOAT3X3::XMFLOAT3X3, XMFLOAT3X3::XMFLOAT3X3(float,float,float,float,float,float,float,float,float), dxmath.xmfloat3x3_ctor_2
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMFLOAT3X3.XMFLOAT3X3"
+f1_keywords:
+- directxmath/XMFLOAT3X3.XMFLOAT3X3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT3X3.XMFLOAT3X3
+- XMFLOAT3X3.XMFLOAT3X3
 targetos: Windows
 req.typenames: 
 req.redist: 

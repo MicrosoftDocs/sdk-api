@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnGeneralServerConfigChanged
 title: _IFaxServerNotify2::OnGeneralServerConfigChanged (faxcomex.h)
-
 description: Called by the fax service when the IFaxServer2::Configuration property changes.
 old-location: fax\_mfax_ifaxservernotify2_ongeneralserverconfigchanged.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxservernotify2\ongeneralserverconfigchanged.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnGeneralServerConfigChanged method, IFaxServerNotify2.OnGeneralServerConfigChanged, IFaxServerNotify2::OnGeneralServerConfigChanged, OnGeneralServerConfigChanged, OnGeneralServerConfigChanged method [Fax Service], OnGeneralServerConfigChanged method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnGeneralServerConfigChanged, _IFaxServerNotify2::OnGeneralServerConfigChanged, _mfax_ifaxservernotify2_ongeneralserverconfigchanged, fax._mfax_ifaxservernotify2_ongeneralserverconfigchanged, faxcomex/IFaxServerNotify2::OnGeneralServerConfigChanged
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnGeneralServerConfigChanged"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnGeneralServerConfigChanged
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnGeneralServerConfigChanged
- - IFaxServerNotify2.OnGeneralServerConfigChanged
+- IFaxServerNotify2.OnGeneralServerConfigChanged
+- IFaxServerNotify2.OnGeneralServerConfigChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

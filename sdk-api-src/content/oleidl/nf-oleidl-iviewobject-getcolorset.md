@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IViewObject.GetColorSet
 title: IViewObject::GetColorSet (oleidl.h)
-
 description: Returns the logical palette that the object will use for drawing in its IViewObject::Draw method with the corresponding parameters.
 old-location: com\iviewobject_getcolorset.htm
 tech.root: com
 ms.assetid: 68454266-ca31-44ec-8847-4d47001d9849
-
 ms.date: 12/05/2018
 ms.keywords: GetColorSet, GetColorSet method [COM], GetColorSet method [COM],IViewObject interface, IViewObject interface [COM],GetColorSet method, IViewObject.GetColorSet, IViewObject::GetColorSet, _ole_iviewobject_getcolorset, com.iviewobject_getcolorset, oleidl/IViewObject::GetColorSet
 ms.topic: method
-f1_keywords: 
- - "oleidl/IViewObject.GetColorSet"
+f1_keywords:
+- oleidl/IViewObject.GetColorSet
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IViewObject.GetColorSet
+- IViewObject.GetColorSet
 targetos: Windows
 req.typenames: 
 req.redist: 

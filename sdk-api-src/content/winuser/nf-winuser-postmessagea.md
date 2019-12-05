@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.PostMessageA
 title: PostMessageA function (winuser.h)
-
 description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
 old-location: winmsg\postmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: HWND_BROADCAST, PostMessage, PostMessage function [Windows and Messages], PostMessageA, PostMessageW, _win32_PostMessage, _win32_postmessage_cpp, winmsg.postmessage, winui._win32_postmessage, winuser/PostMessage, winuser/PostMessageA, winuser/PostMessageW
 ms.topic: function
-f1_keywords: 
- - "winuser/PostMessage"
+f1_keywords:
+- winuser/PostMessage
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-NTUser-IE-message-l1-1-0.dll
- - ie_shims.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-message-l1-1-0.dll
- - Ext-MS-Win-NTUser-message-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - Ext-MS-Win-NTUser-Message-l1-1-2.dll
- - Ext-MS-Win-NTUser-Message-L1-1-3.dll
+- User32.dll
+- API-MS-Win-NTUser-IE-message-l1-1-0.dll
+- ie_shims.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-message-l1-1-0.dll
+- Ext-MS-Win-NTUser-message-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- Ext-MS-Win-NTUser-Message-l1-1-2.dll
+- Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - PostMessage
- - PostMessageA
- - PostMessageW
+- PostMessage
+- PostMessageA
+- PostMessageW
 targetos: Windows
 req.typenames: 
 req.redist: 

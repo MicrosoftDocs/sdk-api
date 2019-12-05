@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.AlgorithmType
 title: AlgorithmType (certenroll.h)
-
 description: Specifies the intended purpose of a cryptographic algorithm supported by a cryptographic provider.
 old-location: security\algorithmtype_enum.htm
 tech.root: seccertenroll
 ms.assetid: 1a3da2df-b3e2-45fa-bae7-a9c0bac8b210
-
 ms.date: 12/05/2018
 ms.keywords: AlgorithmType, AlgorithmType enumeration [Security], XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, XCN_BCRYPT_CIPHER_INTERFACE, XCN_BCRYPT_HASH_INTERFACE, XCN_BCRYPT_RNG_INTERFACE, XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, XCN_BCRYPT_SIGNATURE_INTERFACE, XCN_BCRYPT_UNKNOWN_INTERFACE, certenroll/AlgorithmType, certenroll/XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, certenroll/XCN_BCRYPT_CIPHER_INTERFACE, certenroll/XCN_BCRYPT_HASH_INTERFACE, certenroll/XCN_BCRYPT_RNG_INTERFACE, certenroll/XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE, certenroll/XCN_BCRYPT_SIGNATURE_INTERFACE, certenroll/XCN_BCRYPT_UNKNOWN_INTERFACE, security.algorithmtype_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/AlgorithmType"
+f1_keywords:
+- certenroll/AlgorithmType
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - AlgorithmType
+- AlgorithmType
 targetos: Windows
 req.typenames: AlgorithmType
 req.redist: 

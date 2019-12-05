@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMF2DBuffer.Lock2D
 title: IMF2DBuffer::Lock2D (mfobjects.h)
-
 description: Gives the caller access to the memory in the buffer.
 old-location: mf\imf2dbuffer_lock2d.htm
 tech.root: medfound
 ms.assetid: 887a7394-9fe0-473a-825b-f095b01626c4
-
 ms.date: 12/05/2018
 ms.keywords: 887a7394-9fe0-473a-825b-f095b01626c4, IMF2DBuffer interface [Media Foundation],Lock2D method, IMF2DBuffer.Lock2D, IMF2DBuffer::Lock2D, Lock2D, Lock2D method [Media Foundation], Lock2D method [Media Foundation],IMF2DBuffer interface, mf.imf2dbuffer_lock2d, mfobjects/IMF2DBuffer::Lock2D
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMF2DBuffer.Lock2D"
+f1_keywords:
+- mfobjects/IMF2DBuffer.Lock2D
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMF2DBuffer.Lock2D
+- IMF2DBuffer.Lock2D
 targetos: Windows
 req.typenames: 
 req.redist: 

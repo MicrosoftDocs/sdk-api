@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetFlags
 title: IXpsSigningOptions::GetFlags (xpsdigitalsignature.h)
-
 description: Gets the XPS_SIGN_FLAGS value that specifies the signing flags to be used for this signature.
 old-location: xps\ixpssigningoptions_getflags.htm
 tech.root: printdocs
 ms.assetid: 02d07300-e8f2-44fa-a562-5cec03af9a8c
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [XPS Documents and Packaging], GetFlags method [XPS Documents and Packaging],IXpsSigningOptions interface, IXpsSigningOptions interface [XPS Documents and Packaging],GetFlags method, IXpsSigningOptions.GetFlags, IXpsSigningOptions::GetFlags, xps.ixpssigningoptions_getflags, xpsdigitalsignature/IXpsSigningOptions::GetFlags
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.GetFlags"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.GetFlags
+- IXpsSigningOptions.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

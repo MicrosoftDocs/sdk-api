@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage2.GetAttributes2
 title: IWMDMStorage2::GetAttributes2 (mswmdm.h)
-
 description: The GetAttributes2 method retrieves extended attributes of the storage.
 old-location: wmdm\iwmdmstorage2_getattributes2.htm
 tech.root: WMDM
 ms.assetid: 8212ab78-0a2a-41cd-8a7c-da6e3886b586
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributes2, GetAttributes2 method [windows Media Device Manager], GetAttributes2 method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetAttributes2 method, IWMDMStorage2.GetAttributes2, IWMDMStorage2::GetAttributes2, IWMDMStorage2GetAttributes2, mswmdm/IWMDMStorage2::GetAttributes2, wmdm.iwmdmstorage2_getattributes2
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage2.GetAttributes2"
+f1_keywords:
+- mswmdm/IWMDMStorage2.GetAttributes2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage2.GetAttributes2
+- IWMDMStorage2.GetAttributes2
 targetos: Windows
 req.typenames: 
 req.redist: 

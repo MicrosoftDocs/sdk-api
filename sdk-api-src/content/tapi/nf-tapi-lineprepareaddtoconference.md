@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.linePrepareAddToConference
 title: linePrepareAddToConference function (tapi.h)
-
 description: The linePrepareAddToConference function prepares an existing conference call for the addition of another party.
 old-location: tapi2\lineprepareaddtoconference.htm
 tech.root: Tapi
 ms.assetid: e1603b36-8bcb-4665-b711-6d2b6794c963
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineprepareaddtoconference, linePrepareAddToConference, linePrepareAddToConference function [TAPI 2.2], linePrepareAddToConferenceA, linePrepareAddToConferenceW, tapi/linePrepareAddToConference, tapi/linePrepareAddToConferenceA, tapi/linePrepareAddToConferenceW, tapi2.lineprepareaddtoconference"
+ms.keywords: _tapi2_lineprepareaddtoconference, linePrepareAddToConference, linePrepareAddToConference function [TAPI 2.2], linePrepareAddToConferenceA, linePrepareAddToConferenceW, tapi/linePrepareAddToConference, tapi/linePrepareAddToConferenceA, tapi/linePrepareAddToConferenceW, tapi2.lineprepareaddtoconference
 ms.topic: function
-f1_keywords: 
- - "tapi/linePrepareAddToConference"
+f1_keywords:
+- tapi/linePrepareAddToConference
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - linePrepareAddToConference
- - linePrepareAddToConferenceA
- - linePrepareAddToConferenceW
+- linePrepareAddToConference
+- linePrepareAddToConferenceA
+- linePrepareAddToConferenceW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:directml.IDMLDevice
 title: IDMLDevice
-
 description: Represents a DirectML device, which is used to create operators, binding tables, command recorders, and other objects.
 old-location: direct3d12\idmldevice.htm
 tech.root: direct3d12
 ms.assetid: C6E13DEF-1FE1-416E-9917-ECE20FBCA401
-
 ms.date: 12/5/2018
 ms.keywords: IDMLDevice, IDMLDevice interface, IDMLDevice interface,described, direct3d12.idmldevice, directml/IDMLDevice
 ms.topic: interface
-f1_keywords: 
- - "directml/IDMLDevice"
+f1_keywords:
+- directml/IDMLDevice
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - IDMLDevice
+- IDMLDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaOpenPolicy
 title: LsaOpenPolicy function (ntsecapi.h)
-
 description: Opens a handle to the Policy object on a local or remote system.
 old-location: security\lsaopenpolicy.htm
 tech.root: SecAuthN
 ms.assetid: 361bc962-1e97-4606-a835-cbce37692c55
-
 ms.date: 12/05/2018
 ms.keywords: LsaOpenPolicy, LsaOpenPolicy function [Security], _lsa_lsaopenpolicy, ntsecapi/LsaOpenPolicy, security.lsaopenpolicy
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaOpenPolicy
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

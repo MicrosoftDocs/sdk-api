@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateSubmixVoice
 title: IXAudio2::CreateSubmixVoice (xaudio2.h)
-
 description: Creates and configures a submix voice.
 old-location: xaudio2\ixaudio2_interface_createsubmixvoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateSubmixVoice(IXAudio2SubmixVoice@,UINT32,UINT32,UINT32,UINT32,const XAUDIO2_VOICE_SENDS,const XAUDIO2_EFFECT_CHAIN)
-
 ms.date: 12/05/2018
 ms.keywords: CreateSubmixVoice, CreateSubmixVoice method [XAudio2 Audio Mixing APIs], CreateSubmixVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateSubmixVoice method, IXAudio2.CreateSubmixVoice, IXAudio2::CreateSubmixVoice, xaudio2.ixaudio2_interface_createsubmixvoice, xaudio2/IXAudio2::CreateSubmixVoice
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2.CreateSubmixVoice"
+f1_keywords:
+- xaudio2/IXAudio2.CreateSubmixVoice
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2.CreateSubmixVoice
+- IXAudio2.CreateSubmixVoice
 targetos: Windows
 req.typenames: 
 req.redist: 

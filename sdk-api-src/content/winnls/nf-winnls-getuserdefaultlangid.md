@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetUserDefaultLangID
 title: GetUserDefaultLangID function (winnls.h)
-
 description: Returns the language identifier of the Region Format setting for the current user.
 old-location: intl\getuserdefaultlangid.htm
 tech.root: Intl
 ms.assetid: b1f25fc1-9435-4e9b-b8d0-a670a198ab3a
-
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultLangID, GetUserDefaultLangID function [Internationalization for Windows Applications], _win32_GetUserDefaultLangID, intl.getuserdefaultlangid, winnls/GetUserDefaultLangID
 ms.topic: function
-f1_keywords: 
- - "winnls/GetUserDefaultLangID"
+f1_keywords:
+- winnls/GetUserDefaultLangID
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetUserDefaultLangID
+- GetUserDefaultLangID
 targetos: Windows
 req.typenames: 
 req.redist: 

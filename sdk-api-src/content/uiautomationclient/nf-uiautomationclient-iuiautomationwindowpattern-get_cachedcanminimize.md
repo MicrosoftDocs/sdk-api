@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedCanMinimize
 title: IUIAutomationWindowPattern::get_CachedCanMinimize (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the window can be minimized.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedCanMinimize.htm
 tech.root: WinAuto
 ms.assetid: 35965009-db9b-4009-b324-b47783bd318d
-
 ms.date: 12/05/2018
 ms.keywords: CachedCanMinimize property [Windows Accessibility], CachedCanMinimize property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedCanMinimize property, IUIAutomationWindowPattern.CachedCanMinimize, IUIAutomationWindowPattern.get_CachedCanMinimize, IUIAutomationWindowPattern::CachedCanMinimize, IUIAutomationWindowPattern::get_CachedCanMinimize, get_CachedCanMinimize, uiauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiauto_IUIAutomationWindowPattern_CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::CachedCanMinimize, uiautomationclient/IUIAutomationWindowPattern::get_CachedCanMinimize, winauto.uiauto_IUIAutomationWindowPattern_CachedCanMinimize
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.CachedCanMinimize"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.CachedCanMinimize
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.CachedCanMinimize
- - IUIAutomationWindowPattern.get_CachedCanMinimize
+- IUIAutomationWindowPattern.CachedCanMinimize
+- IUIAutomationWindowPattern.get_CachedCanMinimize
 targetos: Windows
 req.typenames: 
 req.redist: 

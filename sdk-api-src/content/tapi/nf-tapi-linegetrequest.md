@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetRequest
 title: lineGetRequest function (tapi.h)
-
 description: Retrieves the next by-proxy request for the specified request mode.
 old-location: tapi2\linegetrequest.htm
 tech.root: Tapi
 ms.assetid: c72ed61f-abbe-4a6d-9f8d-95afbd5dfb04
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetrequest, lineGetRequest, lineGetRequest function [TAPI 2.2], lineGetRequestA, lineGetRequestW, tapi/lineGetRequest, tapi/lineGetRequestA, tapi/lineGetRequestW, tapi2.linegetrequest"
+ms.keywords: _tapi2_linegetrequest, lineGetRequest, lineGetRequest function [TAPI 2.2], lineGetRequestA, lineGetRequestW, tapi/lineGetRequest, tapi/lineGetRequestA, tapi/lineGetRequestW, tapi2.linegetrequest
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetRequest"
+f1_keywords:
+- tapi/lineGetRequest
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetRequest
- - lineGetRequestA
- - lineGetRequestW
+- lineGetRequest
+- lineGetRequestA
+- lineGetRequestW
 targetos: Windows
 req.typenames: 
 req.redist: 

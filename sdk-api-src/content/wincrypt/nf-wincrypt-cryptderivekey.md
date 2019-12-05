@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptDeriveKey
 title: CryptDeriveKey function (wincrypt.h)
-
 description: Generates cryptographic session keys derived from a base data value.
 old-location: security\cryptderivekey.htm
 tech.root: SecCrypto
 ms.assetid: b031e3b4-0102-400e-96db-019d31402adc
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_CREATE_SALT, CRYPT_EXPORTABLE, CRYPT_NO_SALT, CRYPT_SERVER, CRYPT_UPDATE_KEY, CryptDeriveKey, CryptDeriveKey function [Security], _crypto2_cryptderivekey, security.cryptderivekey, wincrypt/CryptDeriveKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptDeriveKey"
+f1_keywords:
+- wincrypt/CryptDeriveKey
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptDeriveKey
+- CryptDeriveKey
 targetos: Windows
 req.typenames: 
 req.redist: 

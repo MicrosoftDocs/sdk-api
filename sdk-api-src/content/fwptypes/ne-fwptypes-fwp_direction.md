@@ -1,19 +1,17 @@
 ---
 UID: NE:fwptypes.FWP_DIRECTION_
 title: FWP_DIRECTION (fwptypes.h)
-
 description: Direction of network traffic.
 old-location: fwp\fwp_direction_enum.htm
 tech.root: fwp
 ms.assetid: ae0eeb36-1a41-426a-9878-77558464a91b
-
 ms.date: 12/05/2018
 ms.keywords: FWP_DIRECTION, FWP_DIRECTION enumeration [Filtering], FWP_DIRECTION_INBOUND, FWP_DIRECTION_MAX, FWP_DIRECTION_OUTBOUND, fwp.fwp_direction_enum, fwptypes/FWP_DIRECTION, fwptypes/FWP_DIRECTION_INBOUND, fwptypes/FWP_DIRECTION_MAX, fwptypes/FWP_DIRECTION_OUTBOUND
 ms.topic: enum
-f1_keywords: 
- - "fwptypes/FWP_DIRECTION"
+f1_keywords:
+- fwptypes/FWP_DIRECTION
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_DIRECTION
+- FWP_DIRECTION
 targetos: Windows
 req.typenames: FWP_DIRECTION
 req.redist: 

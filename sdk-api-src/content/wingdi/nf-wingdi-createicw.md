@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateICW
 title: CreateICW function (wingdi.h)
-
 description: The CreateIC function creates an information context for the specified device.
 old-location: gdi\createic.htm
 tech.root: gdi
 ms.assetid: dcb08ce7-9ded-497c-936c-48d3026a0004
-
 ms.date: 12/05/2018
 ms.keywords: CreateIC, CreateIC function [Windows GDI], CreateICA, CreateICW, _win32_CreateIC, gdi.createic, wingdi/CreateIC, wingdi/CreateICA, wingdi/CreateICW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateIC"
+f1_keywords:
+- wingdi/CreateIC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
- - ext-ms-win-gdi-dc-create-l1-1-2.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-Create-l1-1-1.dll
+- ext-ms-win-gdi-dc-create-l1-1-2.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateIC
- - CreateICA
- - CreateICW
+- CreateIC
+- CreateICA
+- CreateICW
 targetos: Windows
 req.typenames: 
 req.redist: 

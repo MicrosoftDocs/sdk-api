@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)
 title: TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&) (traceloggingactivity.h)
-
 description: Initializes a new instance of the TraceLoggingThreadActivity class.
 old-location: tracelogging\traceloggingthreadactivity_traceloggingthreadactivity.htm
 tech.root: tracelogging
 ms.assetid: A83EE18B-F443-42B8-841D-83CF2BA0FCBC
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingThreadActivity, TraceLoggingThreadActivity interface,TraceLoggingThreadActivity method, TraceLoggingThreadActivity method, TraceLoggingThreadActivity method,TraceLoggingThreadActivity interface, TraceLoggingThreadActivity.TraceLoggingThreadActivity, TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&), TraceLoggingThreadActivity::TraceLoggingThreadActivity, TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&), tracelogging.traceloggingthreadactivity_traceloggingthreadactivity, traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity
 ms.topic: method
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingThreadActivity.TraceLoggingThreadActivity"
+f1_keywords:
+- traceloggingactivity/TraceLoggingThreadActivity.TraceLoggingThreadActivity
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingThreadActivity.TraceLoggingThreadActivity
+- TraceLoggingThreadActivity.TraceLoggingThreadActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

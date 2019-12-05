@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMWMIFilterCollection
 title: IGPMWMIFilterCollection (gpmgmt.h)
-
 description: The IGPMWMIFilterCollection interface contains methods that enable applications to access a collection of WMI filters when using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmwmifiltercollection.htm
 tech.root: gpmc
 ms.assetid: 8f65e6f6-fca3-46b7-aa0d-804470feb5bb
-
 ms.date: 12/05/2018
 ms.keywords: GPMWMIFilterCollection, IGPMWMIFilterCollection, IGPMWMIFilterCollection interface [GPMC], IGPMWMIFilterCollection interface [GPMC],described, _win32_igpmwmifiltercollection, gpmc.igpmwmifiltercollection, gpmgmt/IGPMWMIFilterCollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMWMIFilterCollection"
+f1_keywords:
+- gpmgmt/IGPMWMIFilterCollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMWMIFilterCollection
- - IGPMWMIFilterCollection.Count
- - IGPMWMIFilterCollection.get_Count
- - IGPMWMIFilterCollection.Item
- - IGPMWMIFilterCollection.get_Item
- - GPMWMIFilterCollection
+- IGPMWMIFilterCollection
+- IGPMWMIFilterCollection.Count
+- IGPMWMIFilterCollection.get_Count
+- IGPMWMIFilterCollection.Item
+- IGPMWMIFilterCollection.get_Item
+- GPMWMIFilterCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

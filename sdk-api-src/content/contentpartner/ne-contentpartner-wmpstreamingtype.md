@@ -1,19 +1,17 @@
 ---
 UID: NE:contentpartner.WMPStreamingType
 title: WMPStreamingType (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPStreamingType enumeration specifies the type of streaming media.
 old-location: wmp\wmpstreamingtype.htm
 tech.root: WMP
 ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9
-
 ms.date: 12/05/2018
 ms.keywords: WMPStreamingType, WMPStreamingType enumeration [Windows Media Player], contentpartner/WMPStreamingType, contentpartner/wmpstMusic, contentpartner/wmpstRadio, contentpartner/wmpstUnknown, contentpartner/wmpstVideo, enumeration [Windows Media Player], wmp.wmpstreamingtype, wmpstMusic, wmpstRadio, wmpstUnknown, wmpstVideo
 ms.topic: enum
-f1_keywords: 
- - "contentpartner/WMPStreamingType"
+f1_keywords:
+- contentpartner/WMPStreamingType
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - WMPStreamingType
+- WMPStreamingType
 targetos: Windows
 req.typenames: WMPStreamingType
 req.redist: 

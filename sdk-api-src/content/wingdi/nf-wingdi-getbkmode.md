@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetBkMode
 title: GetBkMode function (wingdi.h)
-
 description: The GetBkMode function returns the current background mix mode for a specified device context. The background mix mode of a device context affects text, hatched brushes, and pen styles that are not solid lines.
 old-location: gdi\getbkmode.htm
 tech.root: gdi
 ms.assetid: 3faedb48-3163-48fd-b26e-712de9c4bfaf
-
 ms.date: 12/05/2018
 ms.keywords: GetBkMode, GetBkMode function [Windows GDI], _win32_GetBkMode, gdi.getbkmode, wingdi/GetBkMode
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetBkMode"
+f1_keywords:
+- wingdi/GetBkMode
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetBkMode
+- GetBkMode
 targetos: Windows
 req.typenames: 
 req.redist: 

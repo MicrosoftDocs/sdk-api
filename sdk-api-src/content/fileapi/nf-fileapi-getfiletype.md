@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetFileType
 title: GetFileType function (fileapi.h)
-
 description: Retrieves the file type of the specified file.
 old-location: fs\getfiletype.htm
 tech.root: FileIO
 ms.assetid: 11760e2f-5e8b-4ec7-959b-fb23d5d9a0aa
-
 ms.date: 12/05/2018
 ms.keywords: GetFileType, GetFileType function [Files], _win32_getfiletype, base.getfiletype, fileapi/GetFileType, fs.getfiletype, winbase/GetFileType
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetFileType"
+f1_keywords:
+- fileapi/GetFileType
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetFileType
+- GetFileType
 targetos: Windows
 req.typenames: 
 req.redist: 

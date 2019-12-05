@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.AudioStreamChange
 title: IDvdControl::AudioStreamChange (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the current audio stream.
 old-location: dshow\idvdcontrol_audiostreamchange.htm
 tech.root: DirectShow
 ms.assetid: 08fca00b-e187-40db-99c0-8b978dd0f10e
-
 ms.date: 12/05/2018
 ms.keywords: AudioStreamChange, AudioStreamChange method [DirectShow], AudioStreamChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AudioStreamChange method, IDvdControl.AudioStreamChange, IDvdControl::AudioStreamChange, IDvdControlAudioStreamChange, dshow.idvdcontrol_audiostreamchange, strmif/IDvdControl::AudioStreamChange
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.AudioStreamChange"
+f1_keywords:
+- strmif/IDvdControl.AudioStreamChange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.AudioStreamChange
+- IDvdControl.AudioStreamChange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:ntsecpkg._SECPKG_EXTENDED_INFORMATION_CLASS
 title: SECPKG_EXTENDED_INFORMATION_CLASS (ntsecpkg.h)
-
 description: The SECPKG_EXTENDED_INFORMATION_CLASS enumeration describes the type of information to set or get for a security package.This enumeration is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
 old-location: security\secpkg_extended_information_class.htm
 tech.root: SecAuthN
 ms.assetid: 52c24886-ae81-4ac8-97d5-d638016e82bf
-
 ms.date: 12/05/2018
 ms.keywords: SECPKG_EXTENDED_INFORMATION_CLASS, SECPKG_EXTENDED_INFORMATION_CLASS enumeration [Security], SecpkgContextThunks, SecpkgExtraOids, SecpkgGssInfo, SecpkgMaxInfo, SecpkgMutualAuthLevel, SecpkgNego2Info, SecpkgWowClientDll, _ssp_secpkg_extended_information_class, ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS, ntsecpkg/SecpkgContextThunks, ntsecpkg/SecpkgExtraOids, ntsecpkg/SecpkgGssInfo, ntsecpkg/SecpkgMaxInfo, ntsecpkg/SecpkgMutualAuthLevel, ntsecpkg/SecpkgNego2Info, ntsecpkg/SecpkgWowClientDll, security.secpkg_extended_information_class
 ms.topic: enum
-f1_keywords: 
- - "ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS"
+f1_keywords:
+- ntsecpkg/SECPKG_EXTENDED_INFORMATION_CLASS
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_EXTENDED_INFORMATION_CLASS
+- SECPKG_EXTENDED_INFORMATION_CLASS
 targetos: Windows
 req.typenames: SECPKG_EXTENDED_INFORMATION_CLASS
 req.redist: 

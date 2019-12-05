@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.start
 title: IWMPSyncDevice::start (wmp.h)
-
 description: The start method begins synchronization.
 old-location: wmp\iwmpsyncdevice_start.htm
 tech.root: WMP
 ms.assetid: f12e5abe-3d1b-48ab-8a03-420a40ae8b4f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],start method, IWMPSyncDevice.start, IWMPSyncDevice::start, IWMPSyncDevicestart, start, start method [Windows Media Player], start method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_start, wmp/IWMPSyncDevice::start
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.start"
+f1_keywords:
+- wmp/IWMPSyncDevice.start
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.start
+- IWMPSyncDevice.start
 targetos: Windows
 req.typenames: 
 req.redist: 

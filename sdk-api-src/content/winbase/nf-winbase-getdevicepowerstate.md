@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetDevicePowerState
 title: GetDevicePowerState function (winbase.h)
-
 description: Retrieves the current power state of the specified device.
 old-location: base\getdevicepowerstate.htm
 tech.root: power
 ms.assetid: 017965d8-78f1-4643-b3d1-25f1303bced7
-
 ms.date: 12/05/2018
 ms.keywords: GetDevicePowerState, GetDevicePowerState function, _win32_getdevicepowerstate, base.getdevicepowerstate, winbase/GetDevicePowerState
 ms.topic: function
-f1_keywords: 
- - "winbase/GetDevicePowerState"
+f1_keywords:
+- winbase/GetDevicePowerState
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetDevicePowerState
+- GetDevicePowerState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter.put_BlockedRatingAttributes
 title: IDTFilter::put_BlockedRatingAttributes (encdec.h)
-
 description: The put_BlockedRatingAttributes method specifies whether to block content that has a specified rating.
 old-location: mstv\idtfilter_put_blockedratingattributes.htm
 tech.root: mstv
 ms.assetid: ae81e427-305e-43b8-ad4d-e23f0bbbdc4a
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],put_BlockedRatingAttributes method, IDTFilter.put_BlockedRatingAttributes, IDTFilter::put_BlockedRatingAttributes, IDTFilterput_BlockedRatingAttributes, encdec/IDTFilter::put_BlockedRatingAttributes, mstv.idtfilter_put_blockedratingattributes, put_BlockedRatingAttributes, put_BlockedRatingAttributes method [Microsoft TV Technologies], put_BlockedRatingAttributes method [Microsoft TV Technologies],IDTFilter interface
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter.put_BlockedRatingAttributes"
+f1_keywords:
+- encdec/IDTFilter.put_BlockedRatingAttributes
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter.put_BlockedRatingAttributes
+- IDTFilter.put_BlockedRatingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

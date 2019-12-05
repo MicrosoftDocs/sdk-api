@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.GetUdpStatisticsEx2
 title: GetUdpStatisticsEx2 function (iphlpapi.h)
-
 description: The GetUdpStatisticsEx2 function retrieves the User Datagram Protocol (UDP) statistics for the current computer.
 old-location: iphlp\getudpstatisticsex2.htm
 tech.root: IpHlp
 ms.assetid: 8DE392C5-90EF-490D-B53A-58D75A854138
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx2, GetUdpStatisticsEx2 function [IP Helper], iphlp.getudpstatisticsex2, iphlpapi/GetUdpStatisticsEx2
 ms.topic: function
 f1_keywords:
 - iphlpapi/GetUdpStatisticsEx2
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Reset
 title: IEnumPortableDeviceObjectIDs::Reset (portabledeviceapi.h)
-
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: wpdsdk\ienumportabledeviceobjectids_reset.htm
 tech.root: wpd_sdk
 ms.assetid: 506c138e-6836-458f-823c-68978f224625
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Reset method, IEnumPortableDeviceObjectIDs.Reset, IEnumPortableDeviceObjectIDs::Reset, IEnumPortableDeviceObjectIDsReset, Reset, Reset method [Windows Portable Devices SDK], Reset method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Reset, wpdsdk.ienumportabledeviceobjectids_reset
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Reset"
+f1_keywords:
+- portabledeviceapi/IEnumPortableDeviceObjectIDs.Reset
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs.Reset
+- IEnumPortableDeviceObjectIDs.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

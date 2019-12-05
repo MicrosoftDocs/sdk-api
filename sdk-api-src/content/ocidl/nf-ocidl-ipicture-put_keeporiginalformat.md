@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPicture.put_KeepOriginalFormat
 title: IPicture::put_KeepOriginalFormat (ocidl.h)
-
 description: Sets the value of the picture's KeepOriginalFormat property.
 old-location: com\ipicture_put_keeporiginalformat.htm
 tech.root: com
 ms.assetid: 04d952cf-a3c0-4220-9d24-8188ce52f862
-
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],put_KeepOriginalFormat method, IPicture.put_KeepOriginalFormat, IPicture::put_KeepOriginalFormat, _ctrl_ipicture_put_keeporiginalformat, com.ipicture_put_keeporiginalformat, ocidl/IPicture::put_KeepOriginalFormat, put_KeepOriginalFormat, put_KeepOriginalFormat method [COM], put_KeepOriginalFormat method [COM],IPicture interface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPicture.put_KeepOriginalFormat"
+f1_keywords:
+- ocidl/IPicture.put_KeepOriginalFormat
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture.put_KeepOriginalFormat
+- IPicture.put_KeepOriginalFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

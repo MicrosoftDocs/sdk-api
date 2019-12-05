@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.get_CountryCode
 title: IFaxOutboundRoutingRule::get_CountryCode (faxcomex.h)
-
 description: The IFaxOutboundRoutingRule::get_CountryCode property specifies the country/region code to which the outbound routing rule applies.
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_countrycode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ysl.htm
-
 ms.date: 12/05/2018
 ms.keywords: CountryCode property [Fax Service], CountryCode property [Fax Service],IFaxOutboundRoutingRule interface, IFaxOutboundRoutingRule interface [Fax Service],CountryCode property, IFaxOutboundRoutingRule.CountryCode, IFaxOutboundRoutingRule.get_CountryCode, IFaxOutboundRoutingRule::CountryCode, IFaxOutboundRoutingRule::get_CountryCode, _mfax_faxoutboundroutingrule.countrycode, fax._mfax_faxoutboundroutingrule_countrycode, fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_countrycode_cpp, faxcomex/IFaxOutboundRoutingRule::CountryCode, faxcomex/IFaxOutboundRoutingRule::get_CountryCode, get_CountryCode
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingRule.CountryCode"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingRule.CountryCode
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule.CountryCode
- - IFaxOutboundRoutingRule.get_CountryCode
+- IFaxOutboundRoutingRule.CountryCode
+- IFaxOutboundRoutingRule.get_CountryCode
 targetos: Windows
 req.typenames: 
 req.redist: 

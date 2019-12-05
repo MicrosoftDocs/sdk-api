@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetFinalPathNameByHandleA
 title: GetFinalPathNameByHandleA function (fileapi.h)
-
 description: Retrieves the final path for the specified file.
 old-location: fs\getfinalpathnamebyhandle.htm
 tech.root: FileIO
 ms.assetid: 02783ba9-a8d7-482f-a8b1-7cac934cf476
-
 ms.date: 12/05/2018
 ms.keywords: FILE_NAME_NORMALIZED, FILE_NAME_OPENED, GetFinalPathNameByHandle, GetFinalPathNameByHandle function [Files], GetFinalPathNameByHandleA, GetFinalPathNameByHandleW, VOLUME_NAME_DOS, VOLUME_NAME_GUID, VOLUME_NAME_NONE, VOLUME_NAME_NT, fileapi/GetFinalPathNameByHandle, fileapi/GetFinalPathNameByHandleA, fileapi/GetFinalPathNameByHandleW, fs.getfinalpathnamebyhandle, fs.getfinalpathnamebyhandlew, winbase/GetFinalPathNameByHandle, winbase/GetFinalPathNameByHandleA, winbase/GetFinalPathNameByHandleW
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetFinalPathNameByHandle"
+f1_keywords:
+- fileapi/GetFinalPathNameByHandle
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetFinalPathNameByHandle
- - GetFinalPathNameByHandleA
- - GetFinalPathNameByHandleW
+- GetFinalPathNameByHandle
+- GetFinalPathNameByHandleA
+- GetFinalPathNameByHandleW
 targetos: Windows
 req.typenames: 
 req.redist: 

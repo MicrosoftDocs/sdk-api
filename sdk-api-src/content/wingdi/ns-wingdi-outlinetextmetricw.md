@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._OUTLINETEXTMETRICW
 title: OUTLINETEXTMETRICW (wingdi.h)
-
 description: The OUTLINETEXTMETRIC structure contains metrics describing a TrueType font.
 old-location: gdi\outlinetextmetric.htm
 tech.root: gdi
 ms.assetid: 79d77df0-193a-49a8-b93d-4ef5807c3c9b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOUTLINETEXTMETRICW, *NPOUTLINETEXTMETRICW, *POUTLINETEXTMETRICW, OUTLINETEXTMETRIC, OUTLINETEXTMETRIC structure [Windows GDI], OUTLINETEXTMETRICA, OUTLINETEXTMETRICW, POUTLINETEXTMETRIC, POUTLINETEXTMETRIC structure pointer [Windows GDI], _win32_OUTLINETEXTMETRIC_str, gdi.outlinetextmetric, wingdi/OUTLINETEXTMETRIC, wingdi/OUTLINETEXTMETRICA, wingdi/OUTLINETEXTMETRICW, wingdi/POUTLINETEXTMETRIC"
+ms.keywords: '*LPOUTLINETEXTMETRICW, *NPOUTLINETEXTMETRICW, *POUTLINETEXTMETRICW, OUTLINETEXTMETRIC, OUTLINETEXTMETRIC structure [Windows GDI], OUTLINETEXTMETRICA, OUTLINETEXTMETRICW, POUTLINETEXTMETRIC, POUTLINETEXTMETRIC structure pointer [Windows GDI], _win32_OUTLINETEXTMETRIC_str, gdi.outlinetextmetric, wingdi/OUTLINETEXTMETRIC, wingdi/OUTLINETEXTMETRICA, wingdi/OUTLINETEXTMETRICW, wingdi/POUTLINETEXTMETRIC'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/OUTLINETEXTMETRIC"
+f1_keywords:
+- wingdi/OUTLINETEXTMETRIC
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - OUTLINETEXTMETRIC
- - OUTLINETEXTMETRICA
- - OUTLINETEXTMETRICW
+- OUTLINETEXTMETRIC
+- OUTLINETEXTMETRICA
+- OUTLINETEXTMETRICW
 targetos: Windows
 req.typenames: OUTLINETEXTMETRICW, *POUTLINETEXTMETRICW, *NPOUTLINETEXTMETRICW, *LPOUTLINETEXTMETRICW
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistServerRetrieveContentInformation
 title: PeerDistServerRetrieveContentInformation function (peerdist.h)
-
 description: PeerDistServerRetrieveContentInformation function retrieves the encoded content information associated with a handle returned by PeerDistServerOpenContentInformation.
 old-location: p2p\peerdistserverretrievecontentinformation.htm
 tech.root: P2PSdk
 ms.assetid: 376ece5f-93ea-4650-a6d8-351ae60fc15b
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerRetrieveContentInformation, PeerDistServerRetrieveContentInformation function [Peer Networking], p2p.peerdistserverretrievecontentinformation, peerdist/PeerDistServerRetrieveContentInformation
 ms.topic: function
 f1_keywords:
 - peerdist/PeerDistServerRetrieveContentInformation
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

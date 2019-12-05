@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet.__unnamed_struct_15
 title: InternetCookieHistory (wininet.h)
-
 description: The InternetCookieHistory structure contains the cookie history.
 old-location: wininet\internetcookiehistory.htm
 tech.root: wininet
 ms.assetid: c3aba5be-da66-4471-98e7-95fa5bd88c99
-
 ms.date: 12/05/2018
 ms.keywords: InternetCookieHistory, InternetCookieHistory structure [WinINet], wininet.internetcookiehistory, wininet/InternetCookieHistory
 ms.topic: struct
-f1_keywords: 
- - "wininet/InternetCookieHistory"
+f1_keywords:
+- wininet/InternetCookieHistory
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - InternetCookieHistory
+- InternetCookieHistory
 targetos: Windows
 req.typenames: InternetCookieHistory
 req.redist: 

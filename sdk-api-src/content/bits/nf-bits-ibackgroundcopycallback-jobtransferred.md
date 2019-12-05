@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyCallback.JobTransferred
 title: IBackgroundCopyCallback::JobTransferred (bits.h)
-
 description: BITS calls your implementation of the JobTransferred method when all of the files in the job have been successfully transferred.
 old-location: bits\ibackgroundcopycallback_jobtransferred.htm
 tech.root: Bits
 ms.assetid: 04ff96c4-5b22-4935-bce8-5b9d3196cbe5
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback interface [BITS],JobTransferred method, IBackgroundCopyCallback.JobTransferred, IBackgroundCopyCallback::JobTransferred, JobTransferred, JobTransferred method [BITS], JobTransferred method [BITS],IBackgroundCopyCallback interface, _drz_ibackgroundcopycallback_jobtransferred, bits.ibackgroundcopycallback_jobtransferred, bits/IBackgroundCopyCallback::JobTransferred
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyCallback.JobTransferred"
+f1_keywords:
+- bits/IBackgroundCopyCallback.JobTransferred
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.h
+- Bits.h
 api_name:
- - IBackgroundCopyCallback.JobTransferred
+- IBackgroundCopyCallback.JobTransferred
 targetos: Windows
 req.typenames: 
 req.redist: 

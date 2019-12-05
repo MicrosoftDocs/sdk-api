@@ -1,19 +1,17 @@
 ---
 UID: NL:textserv.ITextHost2
 title: ITextHost2 (textserv.h)
-
 description: The ITextHost2 interface extends the ITextHost interface.
 old-location: controls\itexthost2.htm
 tech.root: Controls
 ms.assetid: A715E70C-E8BB-4796-BDA6-90B745EC7761
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost2, ITextHost2 interface [Windows Controls], ITextHost2 interface [Windows Controls],described, controls.itexthost2, textserv/ITextHost2
 ms.topic: class
-f1_keywords: 
- - "textserv/ITextHost2"
+f1_keywords:
+- textserv/ITextHost2
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost2
+- ITextHost2
 targetos: Windows
 req.typenames: 
 req.redist: 

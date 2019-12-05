@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJobManager.get_ActionVariables
 title: IFsrmFileManagementJobManager::get_ActionVariables (fsrmreports.h)
-
 description: Retrieves a list of macros that you can specify in action property values.
 old-location: fsrm\ifsrmfilemanagementjobmanager_actionvariables.htm
 tech.root: fsrm
 ms.assetid: 222c826f-0ade-4e5d-be2e-5c0dfa8758d0
-
 ms.date: 12/05/2018
 ms.keywords: ActionVariables property [File Server Resource Manager], ActionVariables property [File Server Resource Manager],FsrmFileManagementJobManager class, ActionVariables property [File Server Resource Manager],IFsrmFileManagementJobManager interface, FsrmFileManagementJobManager class [File Server Resource Manager],ActionVariables property, IFsrmFileManagementJobManager interface [File Server Resource Manager],ActionVariables property, IFsrmFileManagementJobManager.ActionVariables, IFsrmFileManagementJobManager.get_ActionVariables, IFsrmFileManagementJobManager::ActionVariables, IFsrmFileManagementJobManager::get_ActionVariables, fs.ifsrmfilemanagementjobmanager_actionvariables, fsrm.ifsrmfilemanagementjobmanager_actionvariables, fsrmreports/IFsrmFileManagementJobManager::ActionVariables, fsrmreports/IFsrmFileManagementJobManager::get_ActionVariables, get_ActionVariables
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJobManager.ActionVariables"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJobManager.ActionVariables
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJobManager.ActionVariables
- - IFsrmFileManagementJobManager.get_ActionVariables
- - FsrmFileManagementJobManager.ActionVariables
+- IFsrmFileManagementJobManager.ActionVariables
+- IFsrmFileManagementJobManager.get_ActionVariables
+- FsrmFileManagementJobManager.ActionVariables
 targetos: Windows
 req.typenames: 
 req.redist: 

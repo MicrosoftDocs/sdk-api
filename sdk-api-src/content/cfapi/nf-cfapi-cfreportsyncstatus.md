@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfReportSyncStatus
 title: CfReportSyncStatus function (cfapi.h)
-
 description: Allows a sync provider to notify the platform of its status on a specified sync root without having to connect with a call to CfConnectSyncRoot first.
 old-location: cloudapi\cfreportsyncstatus.htm
 tech.root: cfApi
 ms.assetid: DC77D18A-CBF4-4172-815A-AB49A48D10B3
-
 ms.date: 12/05/2018
 ms.keywords: CfReportSyncStatus, CfReportSyncStatus function, cfapi/CfReportSyncStatus, cloudApi.cfreportsyncstatus
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfReportSyncStatus"
+f1_keywords:
+- cfapi/CfReportSyncStatus
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfReportSyncStatus
+- CfReportSyncStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

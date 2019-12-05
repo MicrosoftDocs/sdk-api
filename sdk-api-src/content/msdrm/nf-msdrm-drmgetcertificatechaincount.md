@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetCertificateChainCount
 title: DRMGetCertificateChainCount function (msdrm.h)
-
 description: Retrieves the number of certificates in a certificate chain.
 old-location: rm\drmgetcertificatechaincount.htm
 tech.root: AdRms_Sdk
 ms.assetid: c19e7cfe-2a28-41d5-9075-3e159be1d9ab
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetCertificateChainCount, DRMGetCertificateChainCount function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetCertificateChainCount, rm.drmgetcertificatechaincount
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetCertificateChainCount"
+f1_keywords:
+- msdrm/DRMGetCertificateChainCount
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetCertificateChainCount
+- DRMGetCertificateChainCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtGetInstanceNameSize
 title: DrtGetInstanceNameSize function (drt.h)
-
 description: The DrtGetInstanceNameSize function returns the size of the Distributed Routing Table instance name.
 old-location: p2p\drtgetinstancenamesize.htm
 tech.root: P2PSdk
 ms.assetid: b600ee27-bcea-4496-888f-1300f74d41e4
-
 ms.date: 12/05/2018
 ms.keywords: DrtGetInstanceNameSize, DrtGetInstanceNameSize function [Peer Networking], drt/DrtGetInstanceNameSize, p2p.drtgetinstancenamesize
 ms.topic: function
-f1_keywords: 
- - "drt/DrtGetInstanceNameSize"
+f1_keywords:
+- drt/DrtGetInstanceNameSize
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drt.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtGetInstanceNameSize
+- DrtGetInstanceNameSize
 targetos: Windows
 req.typenames: 
 req.redist: 

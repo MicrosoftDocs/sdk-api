@@ -1,19 +1,17 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0008
 title: GPMReportingOptions (gpmgmt.h)
-
 description: Options for Group Policy Management Console reports.
 old-location: gpmc\gpmreportingoptions.htm
 tech.root: gpmc
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1
-
 ms.date: 12/05/2018
 ms.keywords: GPMReportingOptions, GPMReportingOptions enumeration [GPMC], gpmc.gpmreportingoptions, gpmgmt/GPMReportingOptions, gpmgmt/opReportComments, gpmgmt/opReportLegacy, opReportComments, opReportLegacy
 ms.topic: enum
-f1_keywords: 
- - "gpmgmt/GPMReportingOptions"
+f1_keywords:
+- gpmgmt/GPMReportingOptions
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gpmgmt.h
+- gpmgmt.h
 api_name:
- - GPMReportingOptions
+- GPMReportingOptions
 targetos: Windows
 req.typenames: GPMReportingOptions
 req.redist: 

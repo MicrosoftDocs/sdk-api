@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_InsertItem
 title: Header_InsertItem macro (commctrl.h)
-
 description: Inserts a new item into a header control. You can use this macro or send the HDM_INSERTITEM message explicitly.
 old-location: controls\Header_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_insertitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_InsertItem, Header_InsertItem macro [Windows Controls], _win32_Header_InsertItem, _win32_Header_InsertItem_cpp, commctrl/Header_InsertItem, controls.Header_InsertItem, controls._win32_Header_InsertItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_InsertItem"
+f1_keywords:
+- commctrl/Header_InsertItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_InsertItem
+- Header_InsertItem
 targetos: Windows
 req.typenames: 
 req.redist: 

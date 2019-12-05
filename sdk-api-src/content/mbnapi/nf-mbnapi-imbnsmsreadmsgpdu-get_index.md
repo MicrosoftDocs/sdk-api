@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Index
 title: IMbnSmsReadMsgPdu::get_Index (mbnapi.h)
-
 description: The index of the message in the device SMS store.
 old-location: mbn\imbnsmsreadmsgpdu_index.htm
 tech.root: mbn
 ms.assetid: d464fd2f-40fe-4c94-9a6b-fdc45b566b6d
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgPdu.Index, IMbnSmsReadMsgPdu.get_Index, IMbnSmsReadMsgPdu::Index, IMbnSmsReadMsgPdu::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgPdu interface, get_Index, mbn.imbnsmsreadmsgpdu_index, mbnapi/IMbnSmsReadMsgPdu::Index, mbnapi/IMbnSmsReadMsgPdu::get_Index
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsReadMsgPdu.Index"
+f1_keywords:
+- mbnapi/IMbnSmsReadMsgPdu.Index
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsReadMsgPdu.Index
- - IMbnSmsReadMsgPdu.get_Index
+- IMbnSmsReadMsgPdu.Index
+- IMbnSmsReadMsgPdu.get_Index
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneGetDisplay
 title: TSPI_phoneGetDisplay function (tspi.h)
-
 description: The TSPI_phoneGetDisplay function returns the current contents of the specified phone display.
 old-location: tspi\tspi_phonegetdisplay.htm
 tech.root: Tapi
 ms.assetid: dff5fdc5-a627-4282-85d3-2a7ceaf063ed
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetDisplay, TSPI_phoneGetDisplay function [TAPI 2.2], _tspi_tspi_phonegetdisplay, tspi.tspi_phonegetdisplay, tspi/TSPI_phoneGetDisplay
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneGetDisplay"
+f1_keywords:
+- tspi/TSPI_phoneGetDisplay
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneGetDisplay
+- TSPI_phoneGetDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecapi._KERB_INTERACTIVE_PROFILE
 title: KERB_INTERACTIVE_PROFILE (ntsecapi.h)
-
 description: The KERB_INTERACTIVE_PROFILE structure contains information about an interactive logon profile. This structure is used by the LsaLogonUser function.
 old-location: security\kerb_interactive_profile.htm
 tech.root: SecAuthN
 ms.assetid: 8e9dd04b-8155-4f85-be00-ff9d8297deaa
-
 ms.date: 12/05/2018
 ms.keywords: '*PKERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE, KERB_INTERACTIVE_PROFILE structure [Security], LOGON_EXTRA_SIDS, LOGON_RESOURCE_GROUPS, PKERB_INTERACTIVE_PROFILE, PKERB_INTERACTIVE_PROFILE structure pointer [Security], _lsa_kerb_interactive_profile, ntsecapi/KERB_INTERACTIVE_PROFILE, ntsecapi/PKERB_INTERACTIVE_PROFILE, security.kerb_interactive_profile'
 ms.topic: struct
 f1_keywords:
 - ntsecapi/KERB_INTERACTIVE_PROFILE
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

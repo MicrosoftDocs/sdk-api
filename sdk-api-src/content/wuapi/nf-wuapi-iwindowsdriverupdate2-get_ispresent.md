@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate2.get_IsPresent
 title: IWindowsDriverUpdate2::get_IsPresent (wuapi.h)
-
 description: Gets a Boolean value that indicates whether an update is installed on a computer.
 old-location: wua\iwindowsdriverupdate2_ispresent.htm
 tech.root: Wua_Sdk
 ms.assetid: 4ed74cf9-bd97-4b6a-a8c2-d2d65d18f693
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsDriverUpdate2 interface [Windows Update Agent],IsPresent property, IWindowsDriverUpdate2.IsPresent, IWindowsDriverUpdate2.get_IsPresent, IWindowsDriverUpdate2::IsPresent, IWindowsDriverUpdate2::get_IsPresent, IsPresent property [Windows Update Agent], IsPresent property [Windows Update Agent],IWindowsDriverUpdate2 interface, get_IsPresent, wua.iwindowsdriverupdate2_ispresent, wuapi/IWindowsDriverUpdate2::IsPresent, wuapi/IWindowsDriverUpdate2::get_IsPresent
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdate2.IsPresent"
+f1_keywords:
+- wuapi/IWindowsDriverUpdate2.IsPresent
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdate2.IsPresent
- - IWindowsDriverUpdate2.get_IsPresent
+- IWindowsDriverUpdate2.IsPresent
+- IWindowsDriverUpdate2.get_IsPresent
 targetos: Windows
 req.typenames: 
 req.redist: 

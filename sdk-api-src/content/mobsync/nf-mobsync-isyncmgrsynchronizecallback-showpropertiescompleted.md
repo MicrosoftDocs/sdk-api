@@ -1,19 +1,17 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
 title: ISyncMgrSynchronizeCallback::ShowPropertiesCompleted (mobsync.h)
-
 description: Called by the registered application's handler before or after its ShowProperties operation is completed.
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_showpropertiescompleted.htm
 tech.root: shell
 ms.assetid: d451e72e-d4a8-4899-b18e-d8912d817de5
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronizeCallback interface [Windows Shell],ShowPropertiesCompleted method, ISyncMgrSynchronizeCallback.ShowPropertiesCompleted, ISyncMgrSynchronizeCallback::ShowPropertiesCompleted, ShowPropertiesCompleted, ShowPropertiesCompleted method [Windows Shell], ShowPropertiesCompleted method [Windows Shell],ISyncMgrSynchronizeCallback interface, mobsync/ISyncMgrSynchronizeCallback::ShowPropertiesCompleted, shell.syncmgr_isyncmgrsynchronizecallback_showpropertiescompleted, syncmgr.isyncmgrsynchronizecallback_showpropertiescompleted
 ms.topic: method
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronizeCallback.ShowPropertiesCompleted"
+f1_keywords:
+- mobsync/ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
+- ISyncMgrSynchronizeCallback.ShowPropertiesCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

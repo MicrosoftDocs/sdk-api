@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumTypeRefs
 title: IMetaDataImport::EnumTypeRefs (rometadataapi.h)
-
 description: Enumerates TypeRef tokens defined in the current metadata scope.
 old-location: winrt\imetadataimport_enumtyperefs.htm
 tech.root: WinRT
 ms.assetid: 8d77548d-dfba-4be1-b19d-41b21ab3a112
-
 ms.date: 12/05/2018
 ms.keywords: EnumTypeRefs, EnumTypeRefs method [Windows Runtime], EnumTypeRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumTypeRefs method, IMetaDataImport.EnumTypeRefs, IMetaDataImport::EnumTypeRefs, rometadataapi/IMetaDataImport::EnumTypeRefs, winrt.imetadataimport_enumtyperefs
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumTypeRefs"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumTypeRefs
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumTypeRefs
+- IMetaDataImport.EnumTypeRefs
 targetos: Windows
 req.typenames: 
 req.redist: 

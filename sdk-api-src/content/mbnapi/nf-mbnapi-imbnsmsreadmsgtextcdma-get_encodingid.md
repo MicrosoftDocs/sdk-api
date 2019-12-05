@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_EncodingID
 title: IMbnSmsReadMsgTextCdma::get_EncodingID (mbnapi.h)
-
 description: The data encoding used in the message.
 old-location: mbn\imbnsmsreadmsgtextcdma_encodingid.htm
 tech.root: mbn
 ms.assetid: 46a06e03-31de-40a6-ae05-b9b1384bac65
-
 ms.date: 12/05/2018
 ms.keywords: EncodingID property [Microsoft Broadband Networks], EncodingID property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],EncodingID property, IMbnSmsReadMsgTextCdma.EncodingID, IMbnSmsReadMsgTextCdma.get_EncodingID, IMbnSmsReadMsgTextCdma::EncodingID, IMbnSmsReadMsgTextCdma::get_EncodingID, get_EncodingID, mbn.imbnsmsreadmsgtextcdma_encodingid, mbnapi/IMbnSmsReadMsgTextCdma::EncodingID, mbnapi/IMbnSmsReadMsgTextCdma::get_EncodingID
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsReadMsgTextCdma.EncodingID"
+f1_keywords:
+- mbnapi/IMbnSmsReadMsgTextCdma.EncodingID
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma.EncodingID
- - IMbnSmsReadMsgTextCdma.get_EncodingID
+- IMbnSmsReadMsgTextCdma.EncodingID
+- IMbnSmsReadMsgTextCdma.get_EncodingID
 targetos: Windows
 req.typenames: 
 req.redist: 

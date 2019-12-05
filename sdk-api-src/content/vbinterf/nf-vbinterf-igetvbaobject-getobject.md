@@ -1,19 +1,17 @@
 ---
 UID: NF:vbinterf.IGetVBAObject.GetObject
 title: IGetVBAObject::GetObject (vbinterf.h)
-
 description: Gets a pointer to an interface on the VBA object.
 old-location: com\igetvbaobject_getobject.htm
 tech.root: com
 ms.assetid: 0701c4e7-9a35-42fe-893c-ca898b3716ea
-
 ms.date: 12/05/2018
 ms.keywords: GetObject, GetObject method [COM], GetObject method [COM],IGetVBAObject interface, IGetVBAObject interface [COM],GetObject method, IGetVBAObject.GetObject, IGetVBAObject::GetObject, _com_IGetVBAObject_GetObject, com.igetvbaobject_getobject, vbinterf/IGetVBAObject::GetObject
 ms.topic: method
-f1_keywords: 
- - "vbinterf/IGetVBAObject.GetObject"
+f1_keywords:
+- vbinterf/IGetVBAObject.GetObject
 dev_langs:
- - c++
+- c++
 req.header: vbinterf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VbInterf.h
+- VbInterf.h
 api_name:
- - IGetVBAObject.GetObject
+- IGetVBAObject.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

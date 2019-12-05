@@ -1,19 +1,17 @@
 ---
 UID: NS:ncrypt.NCryptKeyName
 title: NCryptKeyName (ncrypt.h)
-
 description: Used to contain information about a CNG key.
 old-location: security\ncryptkeyname_struct.htm
 tech.root: SecCNG
 ms.assetid: 9d9ebbb7-c491-49b0-9686-e37085929271
-
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCryptKeyName, NCryptKeyName structure [Security], ncrypt/NCryptKeyName, security.ncryptkeyname_struct
 ms.topic: struct
-f1_keywords: 
- - "ncrypt/NCryptKeyName"
+f1_keywords:
+- ncrypt/NCryptKeyName
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ncrypt.h
+- Ncrypt.h
 api_name:
- - NCryptKeyName
+- NCryptKeyName
 targetos: Windows
 req.typenames: NCryptKeyName
 req.redist: 

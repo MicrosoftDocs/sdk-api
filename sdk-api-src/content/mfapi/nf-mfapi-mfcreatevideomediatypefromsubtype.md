@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromSubtype
 title: MFCreateVideoMediaTypeFromSubtype function (mfapi.h)
-
 description: Creates a partial video media type with a specified subtype.
 old-location: mf\mfcreatevideomediatypefromsubtype.htm
 tech.root: medfound
 ms.assetid: 3ae58096-fe11-4cc8-9887-2e13f56a958d
-
 ms.date: 12/05/2018
 ms.keywords: 3ae58096-fe11-4cc8-9887-2e13f56a958d, MFCreateVideoMediaTypeFromSubtype, MFCreateVideoMediaTypeFromSubtype function [Media Foundation], mf.mfcreatevideomediatypefromsubtype, mfapi/MFCreateVideoMediaTypeFromSubtype
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateVideoMediaTypeFromSubtype"
+f1_keywords:
+- mfapi/MFCreateVideoMediaTypeFromSubtype
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateVideoMediaTypeFromSubtype
+- MFCreateVideoMediaTypeFromSubtype
 targetos: Windows
 req.typenames: 
 req.redist: 

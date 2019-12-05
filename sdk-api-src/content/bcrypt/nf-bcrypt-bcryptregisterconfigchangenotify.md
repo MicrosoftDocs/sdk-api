@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptRegisterConfigChangeNotify
 title: BCryptRegisterConfigChangeNotify function (bcrypt.h)
-
 description: Creates a user mode CNG configuration change event handler.
 old-location: security\bcryptregisterconfigchangenotify_handle.htm
 tech.root: SecCNG
 ms.assetid: e0d60ea1-3b0b-4afe-bbfc-52f0d48b7399
-
 ms.date: 12/05/2018
 ms.keywords: BCryptRegisterConfigChangeNotify, BCryptRegisterConfigChangeNotify function [Security], BCryptRegisterConfigChangeNotify(HANDLE*), bcrypt/BCryptRegisterConfigChangeNotify, security.bcryptregisterconfigchangenotify_handle
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptRegisterConfigChangeNotify"
+f1_keywords:
+- bcrypt/BCryptRegisterConfigChangeNotify
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptRegisterConfigChangeNotify
+- BCryptRegisterConfigChangeNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

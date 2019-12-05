@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreatePrivateNamespaceA
 title: CreatePrivateNamespaceA function (winbase.h)
-
 description: Creates a private namespace.
 old-location: base\createprivatenamespace.htm
 tech.root: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
-
 ms.date: 12/05/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreatePrivateNamespace"
+f1_keywords:
+- winbase/CreatePrivateNamespace
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Namespace-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - API-Ms-Win-Core-Namespace-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Namespace-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- API-Ms-Win-Core-Namespace-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - CreatePrivateNamespace
- - CreatePrivateNamespaceA
- - CreatePrivateNamespaceW
+- CreatePrivateNamespace
+- CreatePrivateNamespaceA
+- CreatePrivateNamespaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

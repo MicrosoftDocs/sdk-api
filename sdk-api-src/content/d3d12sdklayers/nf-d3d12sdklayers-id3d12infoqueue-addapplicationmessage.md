@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.AddApplicationMessage
 title: ID3D12InfoQueue::AddApplicationMessage (d3d12sdklayers.h)
-
 description: Adds a user-defined message to the message queue and sends that message to debug output.
 old-location: direct3d12\id3d12infoqueue_addapplicationmessage.htm
 tech.root: direct3d12
 ms.assetid: C5979BF4-C44D-461F-8FAB-D0577691C5BF
-
 ms.date: 12/05/2018
 ms.keywords: AddApplicationMessage, AddApplicationMessage method, AddApplicationMessage method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,AddApplicationMessage method, ID3D12InfoQueue.AddApplicationMessage, ID3D12InfoQueue::AddApplicationMessage, d3d12sdklayers/ID3D12InfoQueue::AddApplicationMessage, direct3d12.id3d12infoqueue_addapplicationmessage
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.AddApplicationMessage"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.AddApplicationMessage
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.AddApplicationMessage
+- ID3D12InfoQueue.AddApplicationMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

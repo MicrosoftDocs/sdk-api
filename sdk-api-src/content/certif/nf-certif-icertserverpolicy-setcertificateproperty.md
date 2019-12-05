@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetCertificateProperty
 title: ICertServerPolicy::SetCertificateProperty (certif.h)
-
 description: To set a property associated with a certificate.
 old-location: security\icertserverpolicy_setcertificateproperty.htm
 tech.root: SecCrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerPolicy.SetCertificateProperty"
+f1_keywords:
+- certif/ICertServerPolicy.SetCertificateProperty
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerPolicy.SetCertificateProperty
- - CCertServerPolicy.SetCertificateProperty
+- ICertServerPolicy.SetCertificateProperty
+- CCertServerPolicy.SetCertificateProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11AuthenticatedChannel.GetCertificate
 title: ID3D11AuthenticatedChannel::GetCertificate (d3d11.h)
-
 description: Gets the driver's certificate chain.
 old-location: mf\id3d11authenticatedchannel_getcertificate.htm
 tech.root: medfound
 ms.assetid: D7FC07CA-B045-4C44-B3FD-B902C5437E47
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificate, GetCertificate method [Media Foundation], GetCertificate method [Media Foundation],ID3D11AuthenticatedChannel interface, ID3D11AuthenticatedChannel interface [Media Foundation],GetCertificate method, ID3D11AuthenticatedChannel.GetCertificate, ID3D11AuthenticatedChannel::GetCertificate, d3d11/ID3D11AuthenticatedChannel::GetCertificate, mf.id3d11authenticatedchannel_getcertificate
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11AuthenticatedChannel.GetCertificate"
+f1_keywords:
+- d3d11/ID3D11AuthenticatedChannel.GetCertificate
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11AuthenticatedChannel.GetCertificate
+- ID3D11AuthenticatedChannel.GetCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

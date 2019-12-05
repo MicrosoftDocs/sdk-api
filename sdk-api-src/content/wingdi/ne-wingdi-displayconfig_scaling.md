@@ -1,19 +1,17 @@
 ---
 UID: NE:wingdi.__unnamed_enum_2
 title: DISPLAYCONFIG_SCALING (wingdi.h)
-
 description: The DISPLAYCONFIG_SCALING enumeration specifies the scaling transformation applied to content displayed on a video present network (VidPN) present path.
 old-location: display\displayconfig_scaling.htm
 tech.root: display
 ms.assetid: 6f073aa6-2647-4a51-9256-b2da488fd382
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Enumerations_67f71fcc-f83c-4a11-94d4-169ab6d55f7c.xml, DISPLAYCONFIG_SCALING, DISPLAYCONFIG_SCALING enumeration [Display Devices], DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX, DISPLAYCONFIG_SCALING_CENTERED, DISPLAYCONFIG_SCALING_CUSTOM, DISPLAYCONFIG_SCALING_FORCE_UINT32, DISPLAYCONFIG_SCALING_IDENTITY, DISPLAYCONFIG_SCALING_PREFERRED, DISPLAYCONFIG_SCALING_STRETCHED, display.displayconfig_scaling, wingdi/DISPLAYCONFIG_SCALING, wingdi/DISPLAYCONFIG_SCALING_ASPECTRATIOCENTEREDMAX, wingdi/DISPLAYCONFIG_SCALING_CENTERED, wingdi/DISPLAYCONFIG_SCALING_CUSTOM, wingdi/DISPLAYCONFIG_SCALING_FORCE_UINT32, wingdi/DISPLAYCONFIG_SCALING_IDENTITY, wingdi/DISPLAYCONFIG_SCALING_PREFERRED, wingdi/DISPLAYCONFIG_SCALING_STRETCHED
 ms.topic: enum
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_SCALING"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_SCALING
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_SCALING
+- DISPLAYCONFIG_SCALING
 targetos: Windows
 req.typenames: DISPLAYCONFIG_SCALING
 req.redist: 

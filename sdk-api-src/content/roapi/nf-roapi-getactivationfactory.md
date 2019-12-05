@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.GetActivationFactory
 title: GetActivationFactory function (roapi.h)
-
 description: Gets the activation factory for the specified runtime class.
 old-location: winrt\getactivationfactory.htm
 tech.root: WinRT
 ms.assetid: FD1A62C6-069E-40D1-A009-78C157E08F20
-
 ms.date: 12/05/2018
 ms.keywords: GetActivationFactory, GetActivationFactory function [Windows Runtime], WinRTGetActivationFactory, roapi/GetActivationFactory, roapi/WinRTGetActivationFactory, winrt.getactivationfactory
 ms.topic: function
-f1_keywords: 
- - "roapi/GetActivationFactory"
+f1_keywords:
+- roapi/GetActivationFactory
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: Stdafx.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Combase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - combase.dll
- - API-MS-Win-Core-Winrt-l1-1-0.dll
+- combase.dll
+- API-MS-Win-Core-Winrt-l1-1-0.dll
 api_name:
- - GetActivationFactory
- - WinRTGetActivationFactory
+- GetActivationFactory
+- WinRTGetActivationFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

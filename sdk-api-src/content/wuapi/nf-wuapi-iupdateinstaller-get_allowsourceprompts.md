@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.get_AllowSourcePrompts
 title: IUpdateInstaller::get_AllowSourcePrompts (wuapi.h)
-
 description: Gets and sets a Boolean value that indicates whether to show source prompts to the user when installing the updates.
 old-location: wua\iupdateinstaller_allowsourceprompts.htm
 tech.root: Wua_Sdk
 ms.assetid: 6975fdc7-48db-4e34-986b-5504687fc53f
-
 ms.date: 12/05/2018
 ms.keywords: AllowSourcePrompts property [Windows Update Agent], AllowSourcePrompts property [Windows Update Agent],IUpdateInstaller interface, IUpdateInstaller interface [Windows Update Agent],AllowSourcePrompts property, IUpdateInstaller.AllowSourcePrompts, IUpdateInstaller.get_AllowSourcePrompts, IUpdateInstaller::AllowSourcePrompts, IUpdateInstaller::get_AllowSourcePrompts, IUpdateInstaller::put_AllowSourcePrompts, get_AllowSourcePrompts, wua.iupdateinstaller_allowsourceprompts, wuapi/IUpdateInstaller::AllowSourcePrompts, wuapi/IUpdateInstaller::get_AllowSourcePrompts, wuapi/IUpdateInstaller::put_AllowSourcePrompts
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateInstaller.AllowSourcePrompts"
+f1_keywords:
+- wuapi/IUpdateInstaller.AllowSourcePrompts
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller.AllowSourcePrompts
- - IUpdateInstaller.get_AllowSourcePrompts
- - IUpdateInstaller.put_AllowSourcePrompts
+- IUpdateInstaller.AllowSourcePrompts
+- IUpdateInstaller.get_AllowSourcePrompts
+- IUpdateInstaller.put_AllowSourcePrompts
 targetos: Windows
 req.typenames: 
 req.redist: 

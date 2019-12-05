@@ -1,7 +1,6 @@
 ---
 UID: NA:swdevicedef
 ms.assetid: cc3029b5-2552-335e-8f05-b135a0447e74
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

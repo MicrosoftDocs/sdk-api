@@ -1,19 +1,17 @@
 ---
 UID: NE:nldef.__unnamed_enum_4
 title: NL_ADDRESS_TYPE (nldef.h)
-
 description: The NL_ADDRESS_TYPE enumeration type specifies the IP address type of the network layer.
 old-location: netvista\nl_address_type.htm
 tech.root: NetVista
 ms.assetid: fc91bebc-e023-4f6a-a588-c4f1fbecd200
-
 ms.date: 12/05/2018
-ms.keywords: "*PNL_ADDRESS_TYPE, NL_ADDRESS_TYPE, NL_ADDRESS_TYPE enumeration [Network Drivers Starting with Windows Vista], NlatAnycast, NlatBroadcast, NlatInvalid, NlatMulticast, NlatUnicast, NlatUnspecified, PNL_ADDRESS_TYPE, PNL_ADDRESS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_2e71b644-fdff-4c64-bd7f-3f0e24006dc6.xml, netvista.nl_address_type, nldef/NL_ADDRESS_TYPE, nldef/NlatAnycast, nldef/NlatBroadcast, nldef/NlatInvalid, nldef/NlatMulticast, nldef/NlatUnicast, nldef/NlatUnspecified, nldef/PNL_ADDRESS_TYPE"
+ms.keywords: '*PNL_ADDRESS_TYPE, NL_ADDRESS_TYPE, NL_ADDRESS_TYPE enumeration [Network Drivers Starting with Windows Vista], NlatAnycast, NlatBroadcast, NlatInvalid, NlatMulticast, NlatUnicast, NlatUnspecified, PNL_ADDRESS_TYPE, PNL_ADDRESS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], iphelper_2e71b644-fdff-4c64-bd7f-3f0e24006dc6.xml, netvista.nl_address_type, nldef/NL_ADDRESS_TYPE, nldef/NlatAnycast, nldef/NlatBroadcast, nldef/NlatInvalid, nldef/NlatMulticast, nldef/NlatUnicast, nldef/NlatUnspecified, nldef/PNL_ADDRESS_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "nldef/NL_ADDRESS_TYPE"
+f1_keywords:
+- nldef/NL_ADDRESS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - nldef.h
+- nldef.h
 api_name:
- - NL_ADDRESS_TYPE
+- NL_ADDRESS_TYPE
 targetos: Windows
 req.typenames: NL_ADDRESS_TYPE, *PNL_ADDRESS_TYPE
 req.redist: 

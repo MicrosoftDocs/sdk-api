@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMemAllocator.GetBuffer
 title: IMemAllocator::GetBuffer (strmif.h)
-
 description: The GetBuffer method retrieves a media sample that contains an empty buffer.
 old-location: dshow\imemallocator_getbuffer.htm
 tech.root: DirectShow
 ms.assetid: a5d015c8-ef15-4bac-906f-5d064fbff11f
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [DirectShow], GetBuffer method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetBuffer method, IMemAllocator.GetBuffer, IMemAllocator::GetBuffer, IMemAllocatorGetBuffer, dshow.imemallocator_getbuffer, strmif/IMemAllocator::GetBuffer
 ms.topic: method
-f1_keywords: 
- - "strmif/IMemAllocator.GetBuffer"
+f1_keywords:
+- strmif/IMemAllocator.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemAllocator.GetBuffer
+- IMemAllocator.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

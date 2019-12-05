@@ -1,19 +1,17 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.GetActiveTopology
 title: IViewHelper::GetActiveTopology (cloneviewhelper.h)
-
 description: The GetActiveTopology method retrieves, for a given adapter, an array of identifiers for targets that are active on a given source.
 old-location: display\iviewhelper_getactivetopology.htm
 tech.root: display
 ms.assetid: 9862cbf4-26d7-440c-a1eb-bd8decd257c0
-
 ms.date: 12/05/2018
 ms.keywords: GetActiveTopology, GetActiveTopology method [Display Devices], GetActiveTopology method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetActiveTopology method, IViewHelper.GetActiveTopology, IViewHelper::GetActiveTopology, TMM_Ref_584d74ec-d61d-4119-87c6-94de6b568a6f.xml, cloneviewhelper/IViewHelper::GetActiveTopology, display.iviewhelper_getactivetopology
 ms.topic: method
-f1_keywords: 
- - "cloneviewhelper/IViewHelper.GetActiveTopology"
+f1_keywords:
+- cloneviewhelper/IViewHelper.GetActiveTopology
 dev_langs:
- - c++
+- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cloneviewhelper.h
+- cloneviewhelper.h
 api_name:
- - IViewHelper.GetActiveTopology
+- IViewHelper.GetActiveTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

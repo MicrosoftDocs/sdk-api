@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagCOPYDATASTRUCT
 title: COPYDATASTRUCT (winuser.h)
-
 description: Contains data to be passed to another application by the WM_COPYDATA message.
 old-location: dataxchg\copydatastruct.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\datacopy\datacopyreference\datacopystructures\copydatastruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PCOPYDATASTRUCT, COPYDATASTRUCT, COPYDATASTRUCT structure [Data Exchange], PCOPYDATASTRUCT, PCOPYDATASTRUCT structure pointer [Data Exchange], _win32_COPYDATASTRUCT_str, _win32_copydatastruct_str_cpp, dataxchg.copydatastruct, winui._win32_copydatastruct_str, winuser/COPYDATASTRUCT, winuser/PCOPYDATASTRUCT"
+ms.keywords: '*PCOPYDATASTRUCT, COPYDATASTRUCT, COPYDATASTRUCT structure [Data Exchange], PCOPYDATASTRUCT, PCOPYDATASTRUCT structure pointer [Data Exchange], _win32_COPYDATASTRUCT_str, _win32_copydatastruct_str_cpp, dataxchg.copydatastruct, winui._win32_copydatastruct_str, winuser/COPYDATASTRUCT, winuser/PCOPYDATASTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/COPYDATASTRUCT"
+f1_keywords:
+- winuser/COPYDATASTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - COPYDATASTRUCT
+- COPYDATASTRUCT
 targetos: Windows
 req.typenames: COPYDATASTRUCT, *PCOPYDATASTRUCT
 req.redist: 

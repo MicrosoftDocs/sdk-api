@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.RtlEncryptMemory
 title: RtlEncryptMemory function (ntsecapi.h)
-
 description: Encrypts memory contents.
 old-location: security\rtlencryptmemory.htm
 tech.root: SecCrypto
 ms.assetid: b124a7fe-c62c-42f7-9d2b-cbf74d17186a
-
 ms.date: 12/05/2018
 ms.keywords: RTL_ENCRYPT_OPTION_CROSS_PROCESS, RTL_ENCRYPT_OPTION_SAME_LOGON, RtlEncryptMemory, RtlEncryptMemory function [Security], ntsecapi/RtlEncryptMemory, security.rtlencryptmemory
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/RtlEncryptMemory"
+f1_keywords:
+- ntsecapi/RtlEncryptMemory
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - RtlEncryptMemory
+- RtlEncryptMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Create
 title: ITaskNamedValueCollection::Create (taskschd.h)
-
 description: Creates a name-value pair in the collection.
 old-location: taskschd\itasknamedvaluecollection_create.htm
 tech.root: taskschd
 ms.assetid: aec5ca20-b983-48e1-a5d0-761f18557fe4
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Task Scheduler], Create method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Create method, ITaskNamedValueCollection.Create, ITaskNamedValueCollection::Create, taskschd.itasknamedvaluecollection_create, taskschd/ITaskNamedValueCollection::Create
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskNamedValueCollection.Create"
+f1_keywords:
+- taskschd/ITaskNamedValueCollection.Create
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskNamedValueCollection.Create
+- ITaskNamedValueCollection.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

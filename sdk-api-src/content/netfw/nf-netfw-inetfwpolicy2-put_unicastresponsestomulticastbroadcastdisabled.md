@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
 title: INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled (netfw.h)
-
 description: Indicates whether the firewall should not allow unicast responses to multicast and broadcast traffic.
 old-location: ics\inetfwpolicy2_unicastresponsestomulticastbroadcastdisabled.htm
 tech.root: ics
 ms.assetid: 4ab9cadf-7ecb-4b3d-a166-b491d89101d7
-
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2 interface [ICS/ICF],UnicastResponsesToMulticastBroadcastDisabled property, INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2::UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2::get_UnicastResponsesToMulticastBroadcastDisabled, INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled, UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF], UnicastResponsesToMulticastBroadcastDisabled property [ICS/ICF],INetFwPolicy2 interface, ics.inetfwpolicy2_unicastresponsestomulticastbroadcastdisabled, netfw/INetFwPolicy2::UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwPolicy2::get_UnicastResponsesToMulticastBroadcastDisabled, netfw/INetFwPolicy2::put_UnicastResponsesToMulticastBroadcastDisabled, put_UnicastResponsesToMulticastBroadcastDisabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled"
+f1_keywords:
+- netfw/INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: FirewallAPI.h, Netfw.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wfapi.dll
+- wfapi.dll
 api_name:
- - INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled
- - INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled
- - INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
+- INetFwPolicy2.UnicastResponsesToMulticastBroadcastDisabled
+- INetFwPolicy2.get_UnicastResponsesToMulticastBroadcastDisabled
+- INetFwPolicy2.put_UnicastResponsesToMulticastBroadcastDisabled
 targetos: Windows
 req.typenames: 
 req.redist: 

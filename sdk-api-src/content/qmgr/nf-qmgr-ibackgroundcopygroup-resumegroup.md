@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.ResumeGroup
 title: IBackgroundCopyGroup::ResumeGroup (qmgr.h)
-
 description: Use the ResumeGroup method to start a group that has been suspended in the download queue.
 old-location: bits\ibackgroundcopygroup_resumegroup.htm
 tech.root: Bits
 ms.assetid: a9b0b7df-9149-4d09-a37c-c0a4f5dc6e45
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],ResumeGroup method, IBackgroundCopyGroup.ResumeGroup, IBackgroundCopyGroup::ResumeGroup, ResumeGroup, ResumeGroup method [BITS], ResumeGroup method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_resumegroup, qmgr/IBackgroundCopyGroup::ResumeGroup
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.ResumeGroup"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.ResumeGroup
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.ResumeGroup
+- IBackgroundCopyGroup.ResumeGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

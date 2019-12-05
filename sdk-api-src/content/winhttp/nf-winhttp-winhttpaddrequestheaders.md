@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpAddRequestHeaders
 title: WinHttpAddRequestHeaders function (winhttp.h)
-
 description: Adds one or more HTTP request headers to the HTTP request handle.
 old-location: http\winhttpaddrequestheaders.htm
 tech.root: WinHttp
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_ADDREQ_FLAG_ADD, WINHTTP_ADDREQ_FLAG_ADD_IF_NEW, WINHTTP_ADDREQ_FLAG_COALESCE, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA, WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON, WINHTTP_ADDREQ_FLAG_REPLACE, WinHttpAddRequestHeaders, WinHttpAddRequestHeaders function [WinHTTP], http.winhttpaddrequestheaders, winhttp/WinHttpAddRequestHeaders, winhttp_winhttpaddrequestheaders_function
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpAddRequestHeaders"
+f1_keywords:
+- winhttp/WinHttpAddRequestHeaders
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpAddRequestHeaders
+- WinHttpAddRequestHeaders
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

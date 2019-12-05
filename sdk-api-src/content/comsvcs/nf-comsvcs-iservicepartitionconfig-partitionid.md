@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePartitionConfig.PartitionID
 title: IServicePartitionConfig::PartitionID (comsvcs.h)
-
 description: Sets the GUID for the partition that is used for the enclosed work.
 old-location: cos\iservicepartitionconfig_partitionid.htm
 tech.root: cossdk
 ms.assetid: 40480925-dfb6-40ea-a8ea-72659e359b47
-
 ms.date: 12/05/2018
 ms.keywords: IServicePartitionConfig interface [COM+],PartitionID method, IServicePartitionConfig.PartitionID, IServicePartitionConfig::PartitionID, PartitionID, PartitionID method [COM+], PartitionID method [COM+],IServicePartitionConfig interface, _cos_IServicePartitionConfig_PartitionID, comsvcs/IServicePartitionConfig::PartitionID, cos.iservicepartitionconfig_partitionid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePartitionConfig.PartitionID"
+f1_keywords:
+- comsvcs/IServicePartitionConfig.PartitionID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePartitionConfig.PartitionID
+- IServicePartitionConfig.PartitionID
 targetos: Windows
 req.typenames: 
 req.redist: 

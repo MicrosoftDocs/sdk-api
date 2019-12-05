@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.GetVideoFormats
 title: IVPBaseConfig::GetVideoFormats (vpconfig.h)
-
 description: The GetVideoFormats method retrieves the video formats the driver supports.
 old-location: dshow\ivpbaseconfig_getvideoformats.htm
 tech.root: DirectShow
 ms.assetid: a0426a2a-a856-4e5d-8ff2-4afa3b18355e
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoFormats, GetVideoFormats method [DirectShow], GetVideoFormats method [DirectShow],IVPBaseConfig interface, IVPBaseConfig interface [DirectShow],GetVideoFormats method, IVPBaseConfig.GetVideoFormats, IVPBaseConfig::GetVideoFormats, IVPBaseConfigGetVideoFormats, dshow.ivpbaseconfig_getvideoformats, vpconfig/IVPBaseConfig::GetVideoFormats
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.GetVideoFormats"
+f1_keywords:
+- vpconfig/IVPBaseConfig.GetVideoFormats
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.GetVideoFormats
+- IVPBaseConfig.GetVideoFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerReplaceDefaultPowerSchemes
 title: PowerReplaceDefaultPowerSchemes function (powrprof.h)
-
 description: Replaces the default power schemes with the current user's power schemes.
 old-location: base\powerreplacedefaultpowerschemes.htm
 tech.root: power
 ms.assetid: 0d028ed9-3505-4f08-b064-14cbc8172ce0
-
 ms.date: 12/05/2018
 ms.keywords: PowerReplaceDefaultPowerSchemes, PowerReplaceDefaultPowerSchemes function, base.powerreplacedefaultpowerschemes, powrprof/PowerReplaceDefaultPowerSchemes
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerReplaceDefaultPowerSchemes"
+f1_keywords:
+- powrprof/PowerReplaceDefaultPowerSchemes
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerReplaceDefaultPowerSchemes
+- PowerReplaceDefaultPowerSchemes
 targetos: Windows
 req.typenames: 
 req.redist: 

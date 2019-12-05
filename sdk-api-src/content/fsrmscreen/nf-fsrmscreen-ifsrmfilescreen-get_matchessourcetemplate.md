@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreen.get_MatchesSourceTemplate
 title: IFsrmFileScreen::get_MatchesSourceTemplate (fsrmscreen.h)
-
 description: Retrieves a value that determines whether the property values of this file screen object match those values of the template from which the object was derived.
 old-location: fsrm\ifsrmfilescreen_matchessourcetemplate.htm
 tech.root: fsrm
 ms.assetid: 9ea79d7e-2f81-46c4-8afe-ebe4e2f3c49f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreen interface [File Server Resource Manager],MatchesSourceTemplate property, IFsrmFileScreen.MatchesSourceTemplate, IFsrmFileScreen.get_MatchesSourceTemplate, IFsrmFileScreen::MatchesSourceTemplate, IFsrmFileScreen::get_MatchesSourceTemplate, MatchesSourceTemplate property [File Server Resource Manager], MatchesSourceTemplate property [File Server Resource Manager],IFsrmFileScreen interface, fs.ifsrmfilescreen_matchessourcetemplate, fsrm.ifsrmfilescreen_matchessourcetemplate, fsrmscreen/IFsrmFileScreen::MatchesSourceTemplate, fsrmscreen/IFsrmFileScreen::get_MatchesSourceTemplate, get_MatchesSourceTemplate
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreen.MatchesSourceTemplate"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreen.MatchesSourceTemplate
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreen.MatchesSourceTemplate
- - IFsrmFileScreen.get_MatchesSourceTemplate
+- IFsrmFileScreen.MatchesSourceTemplate
+- IFsrmFileScreen.get_MatchesSourceTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

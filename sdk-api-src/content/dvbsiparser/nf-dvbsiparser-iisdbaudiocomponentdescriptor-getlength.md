@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetLength
 title: IIsdbAudioComponentDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in bytes.
 old-location: mstv\iisdbaudiocomponentdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: a3e2f0f8-7e06-43fd-94c2-da54ea5a761b
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbAudioComponentDescriptor.GetLength, IIsdbAudioComponentDescriptor::GetLength, dvbsiparser/IIsdbAudioComponentDescriptor::GetLength, mstv.iisdbaudiocomponentdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbAudioComponentDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IIsdbAudioComponentDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor.GetLength
+- IIsdbAudioComponentDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

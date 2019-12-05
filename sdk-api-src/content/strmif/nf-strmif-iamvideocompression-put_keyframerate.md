@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_KeyFrameRate
 title: IAMVideoCompression::put_KeyFrameRate (strmif.h)
-
 description: The put_KeyFrameRate method sets the key-frame rate.
 old-location: dshow\iamvideocompression_put_keyframerate.htm
 tech.root: DirectShow
 ms.assetid: dc229333-3524-4228-ab13-a6e9619643fd
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_KeyFrameRate method, IAMVideoCompression.put_KeyFrameRate, IAMVideoCompression::put_KeyFrameRate, IAMVideoCompressionput_KeyFrameRate, dshow.iamvideocompression_put_keyframerate, put_KeyFrameRate, put_KeyFrameRate method [DirectShow], put_KeyFrameRate method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_KeyFrameRate
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.put_KeyFrameRate"
+f1_keywords:
+- strmif/IAMVideoCompression.put_KeyFrameRate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.put_KeyFrameRate
+- IAMVideoCompression.put_KeyFrameRate
 targetos: Windows
 req.typenames: 
 req.redist: 

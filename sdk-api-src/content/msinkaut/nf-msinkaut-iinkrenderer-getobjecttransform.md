@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.GetObjectTransform
 title: IInkRenderer::GetObjectTransform (msinkaut.h)
-
 description: Gets the InkTransform object that represents the object transform that was used to render ink.
 old-location: tablet\inkrenderer_getobjecttransform.htm
 tech.root: tablet
 ms.assetid: 11195fa1-ca59-4da6-8454-6209c75ccc67
-
 ms.date: 12/05/2018
 ms.keywords: 11195fa1-ca59-4da6-8454-6209c75ccc67, GetObjectTransform, GetObjectTransform method [Tablet PC], GetObjectTransform method [Tablet PC],IInkRenderer interface, IInkRenderer interface [Tablet PC],GetObjectTransform method, IInkRenderer.GetObjectTransform, IInkRenderer::GetObjectTransform, msinkaut/IInkRenderer::GetObjectTransform, tablet.inkrenderer_getobjecttransform
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.GetObjectTransform"
+f1_keywords:
+- msinkaut/IInkRenderer.GetObjectTransform
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.GetObjectTransform
+- IInkRenderer.GetObjectTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

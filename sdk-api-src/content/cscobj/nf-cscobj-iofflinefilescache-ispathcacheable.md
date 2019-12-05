@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.IsPathCacheable
 title: IOfflineFilesCache::IsPathCacheable (cscobj.h)
-
 description: Determines whether a specified UNC path is in the Offline Files cache.
 old-location: of\iofflinefilescache_ispathcacheable.htm
 tech.root: offlinefiles
 ms.assetid: 4d9a2fda-baad-4ada-8a07-f39c9cfafdfa
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],IsPathCacheable method, IOfflineFilesCache.IsPathCacheable, IOfflineFilesCache::IsPathCacheable, IsPathCacheable, IsPathCacheable method [Offline Files], IsPathCacheable method [Offline Files],IOfflineFilesCache interface, OFFLINEFILES_CACHING_MODE_AUTO_DOC, OFFLINEFILES_CACHING_MODE_AUTO_PROGANDDOC, OFFLINEFILES_CACHING_MODE_MANUAL, OFFLINEFILES_CACHING_MODE_NOCACHING, OFFLINEFILES_CACHING_MODE_NONE, cscobj/IOfflineFilesCache::IsPathCacheable, of.iofflinefilescache_ispathcacheable
 ms.topic: method
 f1_keywords:
 - cscobj/IOfflineFilesCache.IsPathCacheable
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows

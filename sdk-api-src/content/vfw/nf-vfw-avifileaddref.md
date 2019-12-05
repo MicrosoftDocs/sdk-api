@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIFileAddRef
 title: AVIFileAddRef function (vfw.h)
-
 description: The AVIFileAddRef function increments the reference count of an AVI file.
 old-location: multimedia\avifileaddref.htm
 tech.root: Multimedia
 ms.assetid: f3dd4fa0-69e3-4249-8c74-7502d09ff341
-
 ms.date: 12/05/2018
 ms.keywords: AVIFileAddRef, AVIFileAddRef function [Windows Multimedia], _win32_AVIFileAddRef, multimedia.avifileaddref, vfw/AVIFileAddRef
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIFileAddRef"
+f1_keywords:
+- vfw/AVIFileAddRef
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIFileAddRef
+- AVIFileAddRef
 targetos: Windows
 req.typenames: 
 req.redist: 

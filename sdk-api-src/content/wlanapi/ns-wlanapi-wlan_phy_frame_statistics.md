@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi.WLAN_PHY_FRAME_STATISTICS
 title: WLAN_PHY_FRAME_STATISTICS (wlanapi.h)
-
 description: Contains information about sent and received PHY frames.
 old-location: nwifi\wlan_phy_frame_statistics.htm
 tech.root: NativeWiFi
 ms.assetid: c675a3cd-bbe5-473e-b734-12e74fd19a50
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY_FRAME_STATISTICS structure pointer [NativeWIFI], WLAN_PHY_FRAME_STATISTICS, WLAN_PHY_FRAME_STATISTICS structure [NativeWIFI], nwifi.wlan_phy_frame_statistics, wlanapi/PWLAN_PHY_FRAME_STATISTICS, wlanapi/WLAN_PHY_FRAME_STATISTICS"
+ms.keywords: '*PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY_FRAME_STATISTICS, PWLAN_PHY_FRAME_STATISTICS structure pointer [NativeWIFI], WLAN_PHY_FRAME_STATISTICS, WLAN_PHY_FRAME_STATISTICS structure [NativeWIFI], nwifi.wlan_phy_frame_statistics, wlanapi/PWLAN_PHY_FRAME_STATISTICS, wlanapi/WLAN_PHY_FRAME_STATISTICS'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_PHY_FRAME_STATISTICS"
+f1_keywords:
+- wlanapi/WLAN_PHY_FRAME_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_PHY_FRAME_STATISTICS
+- WLAN_PHY_FRAME_STATISTICS
 targetos: Windows
 req.typenames: WLAN_PHY_FRAME_STATISTICS, *PWLAN_PHY_FRAME_STATISTICS
 req.redist: 

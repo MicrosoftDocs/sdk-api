@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetTargetInfo
 title: ISettingsEngine::GetTargetInfo (wcmconfig.h)
-
 description: Gets the current offline target for the engine.
 old-location: smi\isettingsengine_gettargetinfo.htm
 tech.root: SMI
 ms.assetid: 2e14644b-84bc-48eb-8d8c-d6290db72dea
-
 ms.date: 12/05/2018
 ms.keywords: GetTargetInfo, GetTargetInfo method [SMI], GetTargetInfo method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetTargetInfo method, ISettingsEngine.GetTargetInfo, ISettingsEngine::GetTargetInfo, smi.isettingsengine_gettargetinfo, wcmconfig/ISettingsEngine::GetTargetInfo
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.GetTargetInfo"
+f1_keywords:
+- wcmconfig/ISettingsEngine.GetTargetInfo
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.GetTargetInfo
+- ISettingsEngine.GetTargetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpRemoveUrlFromUrlGroup
 title: HttpRemoveUrlFromUrlGroup function (http.h)
-
 description: Removes the specified URL from the group identified by the URL Group ID.
 old-location: http\httpremoveurlfromurlgroup.htm
 tech.root: http
 ms.assetid: 9c5c1fec-f3b4-414f-a841-e360f5f4e4db
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_URL_FLAG_REMOVE_ALL, HttpRemoveUrlFromUrlGroup, HttpRemoveUrlFromUrlGroup function [HTTP], http.httpremoveurlfromurlgroup, http/HttpRemoveUrlFromUrlGroup
 ms.topic: function
-f1_keywords: 
- - "http/HttpRemoveUrlFromUrlGroup"
+f1_keywords:
+- http/HttpRemoveUrlFromUrlGroup
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpRemoveUrlFromUrlGroup
+- HttpRemoveUrlFromUrlGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

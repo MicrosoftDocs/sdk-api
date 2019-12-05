@@ -1,19 +1,17 @@
 ---
 UID: NE:http._HTTP_SERVICE_CONFIG_TIMEOUT_KEY
 title: HTTP_SERVICE_CONFIG_TIMEOUT_KEY (http.h)
-
 description: The HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration defines the type of timer that is queried or configured through the HTTP_SERVICE_CONFIG_TIMEOUT_SET structure.
 old-location: http\http_service_config_timeout_key.htm
 tech.root: http
 ms.assetid: e591a6b8-e63f-40c3-bd48-e14cb9f89453
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, *PHTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HTTP_SERVICE_CONFIG_TIMEOUT_KEY, HTTP_SERVICE_CONFIG_TIMEOUT_KEY enumeration [HTTP], HeaderWaitTimeout, IdleConnectionTimeout, http.http_service_config_timeout_key, http/*PHTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HTTP_SERVICE_CONFIG_TIMEOUT_KEY, http/HeaderWaitTimeout, http/IdleConnectionTimeout'
 ms.topic: enum
 f1_keywords:
 - http/HTTP_SERVICE_CONFIG_TIMEOUT_KEY
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

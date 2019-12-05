@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagWCRANGE
 title: WCRANGE (wingdi.h)
-
 description: The WCRANGE structure specifies a range of Unicode characters.
 old-location: gdi\wcrange.htm
 tech.root: gdi
 ms.assetid: 20959057-6062-4c1e-a23d-535584ba6ea3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWCRANGE, *PWCRANGE, PWCRANGE, PWCRANGE structure pointer [Windows GDI], WCRANGE, WCRANGE structure [Windows GDI], _win32_WCRANGE_str, gdi.wcrange, wingdi/PWCRANGE, wingdi/WCRANGE"
+ms.keywords: '*LPWCRANGE, *PWCRANGE, PWCRANGE, PWCRANGE structure pointer [Windows GDI], WCRANGE, WCRANGE structure [Windows GDI], _win32_WCRANGE_str, gdi.wcrange, wingdi/PWCRANGE, wingdi/WCRANGE'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/WCRANGE"
+f1_keywords:
+- wingdi/WCRANGE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - WCRANGE
+- WCRANGE
 targetos: Windows
 req.typenames: WCRANGE, *PWCRANGE, *LPWCRANGE
 req.redist: 

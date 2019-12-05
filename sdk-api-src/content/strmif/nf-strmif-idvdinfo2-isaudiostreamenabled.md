@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.IsAudioStreamEnabled
 title: IDvdInfo2::IsAudioStreamEnabled (strmif.h)
-
 description: The IsAudioStreamEnabled method determines if the specified audio stream is enabled in the current title.
 old-location: dshow\idvdinfo2_isaudiostreamenabled.htm
 tech.root: DirectShow
 ms.assetid: 34938f9b-d3d8-4f38-95b4-bd65a5e88458
-
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2 interface [DirectShow],IsAudioStreamEnabled method, IDvdInfo2.IsAudioStreamEnabled, IDvdInfo2::IsAudioStreamEnabled, IDvdInfo2IsAudioStreamEnabled, IsAudioStreamEnabled, IsAudioStreamEnabled method [DirectShow], IsAudioStreamEnabled method [DirectShow],IDvdInfo2 interface, dshow.idvdinfo2_isaudiostreamenabled, strmif/IDvdInfo2::IsAudioStreamEnabled
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.IsAudioStreamEnabled"
+f1_keywords:
+- strmif/IDvdInfo2.IsAudioStreamEnabled
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.IsAudioStreamEnabled
+- IDvdInfo2.IsAudioStreamEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

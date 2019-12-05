@@ -1,19 +1,17 @@
 ---
 UID: NS:lmdfs._DFS_STORAGE_INFO
 title: DFS_STORAGE_INFO (lmdfs.h)
-
 description: Contains information about a DFS root or link target in a DFS namespace or from the cache maintained by the DFS client.
 old-location: dfs\dfs_storage_info.htm
 tech.root: Dfs
 ms.assetid: f50f32d8-1745-4ff6-97a6-ddd6fff95955
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDFS_STORAGE_INFO, *PDFS_STORAGE_INFO, DFS_STORAGE_INFO, DFS_STORAGE_INFO structure [Distributed File System], DFS_STORAGE_STATE_ACTIVE, DFS_STORAGE_STATE_OFFLINE, DFS_STORAGE_STATE_ONLINE, LPDFS_STORAGE_INFO, LPDFS_STORAGE_INFO structure pointer [Distributed File System], PDFS_STORAGE_INFO, PDFS_STORAGE_INFO structure pointer [Distributed File System], _win32_dfs_storage_info_str, dfs.dfs_storage_info, fs.dfs_storage_info, fs.dfs_storage_info_str, lmdfs/DFS_STORAGE_INFO, lmdfs/LPDFS_STORAGE_INFO, lmdfs/PDFS_STORAGE_INFO, netmgmt.dfs_storage_info'
 ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_STORAGE_INFO
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

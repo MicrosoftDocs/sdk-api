@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackageFromFile
 title: IXpsOMObjectFactory::CreatePackageFromFile (xpsobjectmodel.h)
-
 description: Opens an XPS package file and returns an instantiated XPS document object tree.
 old-location: xps\ixpsomobjectfactory_createpackagefromfile.htm
 tech.root: printdocs
 ms.assetid: 2498792b-a33c-47cd-8d88-8e89b99c432d
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackageFromFile, CreatePackageFromFile method [XPS Documents and Packaging], CreatePackageFromFile method [XPS Documents and Packaging],IXpsOMObjectFactory interface, FALSE, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackageFromFile method, IXpsOMObjectFactory.CreatePackageFromFile, IXpsOMObjectFactory::CreatePackageFromFile, TRUE, xps.ixpsomobjectfactory_createpackagefromfile, xpsobjectmodel/IXpsOMObjectFactory::CreatePackageFromFile
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePackageFromFile"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePackageFromFile
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePackageFromFile
+- IXpsOMObjectFactory.CreatePackageFromFile
 targetos: Windows
 req.typenames: 
 req.redist: 

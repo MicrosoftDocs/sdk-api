@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetPeerCachingFlags
 title: IBackgroundCopyJob4::GetPeerCachingFlags (bits3_0.h)
-
 description: Retrieves flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
 old-location: bits\ibackgroundcopyjob4_getpeercachingflags.htm
 tech.root: Bits
 ms.assetid: 1b9cdd81-91e8-4d24-a451-61bed51289d4
-
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_ENABLE_PEERCACHING_CLIENT, BG_JOB_ENABLE_PEERCACHING_SERVER, GetPeerCachingFlags, GetPeerCachingFlags method [BITS], GetPeerCachingFlags method [BITS],IBackgroundCopyJob4 interface, IBackgroundCopyJob4 interface [BITS],GetPeerCachingFlags method, IBackgroundCopyJob4.GetPeerCachingFlags, IBackgroundCopyJob4::GetPeerCachingFlags, bits.ibackgroundcopyjob4_getpeercachingflags, bits3_0/IBackgroundCopyJob4::GetPeerCachingFlags
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBackgroundCopyJob4.GetPeerCachingFlags"
+f1_keywords:
+- bits3_0/IBackgroundCopyJob4.GetPeerCachingFlags
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJob4.GetPeerCachingFlags
+- IBackgroundCopyJob4.GetPeerCachingFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

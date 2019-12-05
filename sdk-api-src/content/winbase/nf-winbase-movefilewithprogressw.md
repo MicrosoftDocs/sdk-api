@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.MoveFileWithProgressW
 title: MoveFileWithProgressW function (winbase.h)
-
 description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications.
 old-location: fs\movefilewithprogress.htm
 tech.root: FileIO
 ms.assetid: f490aadc-7934-498a-8131-5c1be9e6f1aa
-
 ms.date: 12/05/2018
 ms.keywords: MOVEFILE_COPY_ALLOWED, MOVEFILE_CREATE_HARDLINK, MOVEFILE_DELAY_UNTIL_REBOOT, MOVEFILE_FAIL_IF_NOT_TRACKABLE, MOVEFILE_REPLACE_EXISTING, MOVEFILE_WRITE_THROUGH, MoveFileWithProgress, MoveFileWithProgress function [Files], MoveFileWithProgressA, MoveFileWithProgressW, Rename file [Files], _win32_movefilewithprogress, base.movefilewithprogress, fs.movefilewithprogress, winbase/MoveFileWithProgress, winbase/MoveFileWithProgressA, winbase/MoveFileWithProgressW
 ms.topic: function
-f1_keywords: 
- - "winbase/MoveFileWithProgress"
+f1_keywords:
+- winbase/MoveFileWithProgress
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - API-MS-Win-Core-File-l2-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- API-MS-Win-Core-File-l2-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - MoveFileWithProgress
- - MoveFileWithProgressA
- - MoveFileWithProgressW
+- MoveFileWithProgress
+- MoveFileWithProgressA
+- MoveFileWithProgressW
 targetos: Windows
 req.typenames: 
 req.redist: 

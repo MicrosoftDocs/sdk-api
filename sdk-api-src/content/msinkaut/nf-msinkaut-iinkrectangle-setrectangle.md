@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRectangle.SetRectangle
 title: IInkRectangle::SetRectangle (msinkaut.h)
-
 description: Sets the elements of the InkRectangle object in a single call.
 old-location: tablet\inkrectangle_setrectangle.htm
 tech.root: tablet
 ms.assetid: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf
-
 ms.date: 12/05/2018
 ms.keywords: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf, IInkRectangle interface [Tablet PC],SetRectangle method, IInkRectangle.SetRectangle, IInkRectangle::SetRectangle, SetRectangle, SetRectangle method [Tablet PC], SetRectangle method [Tablet PC],IInkRectangle interface, msinkaut/IInkRectangle::SetRectangle, tablet.inkrectangle_setrectangle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRectangle.SetRectangle"
+f1_keywords:
+- msinkaut/IInkRectangle.SetRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRectangle.SetRectangle
+- IInkRectangle.SetRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

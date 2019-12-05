@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmError.get_ModuleTable
 title: IMsmError::get_ModuleTable (mergemod.h)
-
 description: The get_ModuleTable method retrieves the ModuleTable property of the Error object. This method returns the name of the table in the module that caused the error.
 old-location: setup\imsmerror_get_moduletable.htm
 tech.root: Msi
 ms.assetid: c24145dc-0907-4916-bbec-f9e0ec7584db
-
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_ModuleTable method, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, _msi_get_moduletable_function, get_ModuleTable, get_ModuleTable method, get_ModuleTable method,IMsmError interface, mergemod/IMsmError::get_ModuleTable, setup.imsmerror_get_moduletable
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmError.get_ModuleTable"
+f1_keywords:
+- mergemod/IMsmError.get_ModuleTable
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmError.get_ModuleTable
+- IMsmError.get_ModuleTable
 targetos: Windows
 req.typenames: 
 req.redist: 

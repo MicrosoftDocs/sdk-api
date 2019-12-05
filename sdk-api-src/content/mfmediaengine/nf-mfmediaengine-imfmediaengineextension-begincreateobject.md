@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.BeginCreateObject
 title: IMFMediaEngineExtension::BeginCreateObject (mfmediaengine.h)
-
 description: Begins an asynchronous request to create either a byte stream or a media source.
 old-location: mf\imfmediaengineextension_begincreateobject.htm
 tech.root: medfound
 ms.assetid: 804E9F16-E4C9-41F6-8913-950A569FB835
-
 ms.date: 12/05/2018
 ms.keywords: BeginCreateObject, BeginCreateObject method [Media Foundation], BeginCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],BeginCreateObject method, IMFMediaEngineExtension.BeginCreateObject, IMFMediaEngineExtension::BeginCreateObject, MF_OBJECT_BYTESTREAM, MF_OBJECT_MEDIASOURCE, mf.imfmediaengineextension_begincreateobject, mfmediaengine/IMFMediaEngineExtension::BeginCreateObject
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineExtension.BeginCreateObject"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineExtension.BeginCreateObject
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineExtension.BeginCreateObject
+- IMFMediaEngineExtension.BeginCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObject.get_DialableAddrs
 title: ITDirectoryObject::get_DialableAddrs (rend.h)
-
 description: The get_DialableAddrs method gets all dialable addresses of a given type from the directory. This method performs the same function as EnumerateDialableAddrs but is used by scripting languages such as Visual Basic.
 old-location: tapi3\itdirectoryobject_get_dialableaddrs.htm
 tech.root: Tapi
 ms.assetid: b72e9c49-4d5a-432a-b21b-ec444912ea61
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObject interface [TAPI 2.2],get_DialableAddrs method, ITDirectoryObject.get_DialableAddrs, ITDirectoryObject::get_DialableAddrs, _tapi3_itdirectoryobject_get_dialableaddrs, get_DialableAddrs, get_DialableAddrs method [TAPI 2.2], get_DialableAddrs method [TAPI 2.2],ITDirectoryObject interface, rend/ITDirectoryObject::get_DialableAddrs, tapi3.itdirectoryobject_get_dialableaddrs
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObject.get_DialableAddrs"
+f1_keywords:
+- rend/ITDirectoryObject.get_DialableAddrs
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObject.get_DialableAddrs
+- ITDirectoryObject.get_DialableAddrs
 targetos: Windows
 req.typenames: 
 req.redist: 

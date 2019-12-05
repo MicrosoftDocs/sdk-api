@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.IsEqual
 title: ITextRow::IsEqual (tom.h)
-
 description: Compares two table rows to determine if they have the same properties.
 old-location: controls\itextrow_isequal.htm
 tech.root: Controls
 ms.assetid: 2e516a4d-0f3b-475b-969d-661662bfaeef
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],IsEqual method, ITextRow.IsEqual, ITextRow::IsEqual, IsEqual, IsEqual method [Windows Controls], IsEqual method [Windows Controls],ITextRow interface, controls.itextrow_isequal, tom/ITextRow::IsEqual
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.IsEqual"
+f1_keywords:
+- tom/ITextRow.IsEqual
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.IsEqual
+- ITextRow.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.createPFXWStr
 title: IEnroll4::createPFXWStr (xenroll.h)
-
-description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS #12.
+description: Saves the accepted certificate chain and private key in a Personal Information Exchange (PFX) format string. The PFX format is also known as PKCS
 old-location: security\ienroll4_createpfxwstr.htm
 tech.root: SecCrypto
 ms.assetid: 38ab5b07-2a84-484b-b413-58f0e11599e9
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],createPFXWStr method, IEnroll4.createPFXWStr, IEnroll4::createPFXWStr, createPFXWStr, createPFXWStr method [Security], createPFXWStr method [Security],IEnroll4 interface, security.ienroll4_createpfxwstr, xenroll/IEnroll4::createPFXWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.createPFXWStr"
+f1_keywords:
+- xenroll/IEnroll4.createPFXWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.createPFXWStr
+- IEnroll4.createPFXWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

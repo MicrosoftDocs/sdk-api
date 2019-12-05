@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.SupportsDataField
 title: ISensor::SupportsDataField (sensorsapi.h)
-
 description: Indicates whether the sensor supports the specified data field.
 old-location: winsensors_com_ref\isensor_supportsdatafield.htm
 tech.root: SensorsAPI
 ms.assetid: 95e7211f-9335-4ecf-b9e9-b86ec6a63cba
-
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SupportsDataField method, ISensor.SupportsDataField, ISensor::SupportsDataField, SupportsDataField, SupportsDataField method, SupportsDataField method,ISensor interface, sensorsapi/ISensor::SupportsDataField, winsensors_com_ref.isensor_supportsdatafield
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.SupportsDataField"
+f1_keywords:
+- sensorsapi/ISensor.SupportsDataField
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.SupportsDataField
+- ISensor.SupportsDataField
 targetos: Windows
 req.typenames: 
 req.redist: 

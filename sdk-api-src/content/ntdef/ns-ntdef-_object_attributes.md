@@ -6,14 +6,12 @@ old-location: kernel\object_attributes.htm
 tech.root: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.date: 04/30/2018
-ms.keywords: "*POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, kernel.object_attributes, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, ntdef/OBJECT_ATTRIBUTES, ntdef/POBJECT_ATTRIBUTES"
+ms.keywords: '*POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, kernel.object_attributes, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, ntdef/OBJECT_ATTRIBUTES, ntdef/POBJECT_ATTRIBUTES'
 ms.topic: struct
 f1_keywords:
- - OBJECT_ATTRIBUTES
+- ntdef/- OBJECT_ATTRIBUTES
 dev_langs:
- - c++
-f1_keywords:
- - "ntdef/- OBJECT_ATTRIBUTES"
+- c++
 req.header: ntdef.h
 req.include-header: D3dkmthk.h, Ntdef.h, Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

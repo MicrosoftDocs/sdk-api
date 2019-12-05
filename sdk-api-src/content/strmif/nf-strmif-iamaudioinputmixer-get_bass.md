@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Bass
 title: IAMAudioInputMixer::get_Bass (strmif.h)
-
 description: The get_Bass method retrieves the bass equalization.
 old-location: dshow\iamaudioinputmixer_get_bass.htm
 tech.root: DirectShow
 ms.assetid: 08edf6be-81b7-4402-a500-1b7d9c389042
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Bass method, IAMAudioInputMixer.get_Bass, IAMAudioInputMixer::get_Bass, IAMAudioInputMixerget_Bass, dshow.iamaudioinputmixer_get_bass, get_Bass, get_Bass method [DirectShow], get_Bass method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Bass
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.get_Bass"
+f1_keywords:
+- strmif/IAMAudioInputMixer.get_Bass
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.get_Bass
+- IAMAudioInputMixer.get_Bass
 targetos: Windows
 req.typenames: 
 req.redist: 

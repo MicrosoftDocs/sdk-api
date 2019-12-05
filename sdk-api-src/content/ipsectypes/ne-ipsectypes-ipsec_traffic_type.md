@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_TRAFFIC_TYPE_
 title: IPSEC_TRAFFIC_TYPE (ipsectypes.h)
-
 description: Specifies the type of IPsec traffic being described.
 old-location: fwp\ipsec_traffic_type_enum.htm
 tech.root: fwp
 ms.assetid: e87154ce-7f19-424c-a577-04e2eb81560e
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC_TYPE, IPSEC_TRAFFIC_TYPE enumeration [Filtering], IPSEC_TRAFFIC_TYPE_MAX, IPSEC_TRAFFIC_TYPE_TRANSPORT, IPSEC_TRAFFIC_TYPE_TUNNEL, fwp.ipsec_traffic_type_enum, ipsectypes/IPSEC_TRAFFIC_TYPE, ipsectypes/IPSEC_TRAFFIC_TYPE_MAX, ipsectypes/IPSEC_TRAFFIC_TYPE_TRANSPORT, ipsectypes/IPSEC_TRAFFIC_TYPE_TUNNEL
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_TRAFFIC_TYPE"
+f1_keywords:
+- ipsectypes/IPSEC_TRAFFIC_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TRAFFIC_TYPE
+- IPSEC_TRAFFIC_TYPE
 targetos: Windows
 req.typenames: IPSEC_TRAFFIC_TYPE
 req.redist: 

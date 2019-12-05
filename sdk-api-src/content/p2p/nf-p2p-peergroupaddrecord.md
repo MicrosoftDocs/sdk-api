@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupAddRecord
 title: PeerGroupAddRecord function (p2p.h)
-
 description: The PeerGroupAddRecord function adds a new record to the peer group, which is propagated to all participating peers.
 old-location: p2p\peergroupaddrecord.htm
 tech.root: P2PSdk
 ms.assetid: d9ca87bc-30da-4a19-b34a-8d8388ccd19a
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupAddRecord, PeerGroupAddRecord function [Peer Networking], p2p.peergroupaddrecord, p2p/PeerGroupAddRecord
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupAddRecord"
+f1_keywords:
+- p2p/PeerGroupAddRecord
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupAddRecord
+- PeerGroupAddRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

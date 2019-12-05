@@ -1,19 +1,17 @@
 ---
 UID: NS:faxroute._FAX_ROUTE_CALLBACKROUTINES
 title: FAX_ROUTE_CALLBACKROUTINES (faxroute.h)
-
 description: The FAX_ROUTE_CALLBACKROUTINES structure contains pointers to callback functions the fax service provides.
 old-location: fax\_mfax_fax_route_callbackroutines_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_6ctu.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES structure [Fax Service], PFAX_ROUTE_CALLBACKROUTINES, PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service], _mfax_fax_route_callbackroutines_str, fax._mfax_fax_route_callbackroutines_str, faxroute/FAX_ROUTE_CALLBACKROUTINES, faxroute/PFAX_ROUTE_CALLBACKROUTINES"
+ms.keywords: '*PFAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES, FAX_ROUTE_CALLBACKROUTINES structure [Fax Service], PFAX_ROUTE_CALLBACKROUTINES, PFAX_ROUTE_CALLBACKROUTINES structure pointer [Fax Service], _mfax_fax_route_callbackroutines_str, fax._mfax_fax_route_callbackroutines_str, faxroute/FAX_ROUTE_CALLBACKROUTINES, faxroute/PFAX_ROUTE_CALLBACKROUTINES'
 ms.topic: struct
-f1_keywords: 
- - "faxroute/FAX_ROUTE_CALLBACKROUTINES"
+f1_keywords:
+- faxroute/FAX_ROUTE_CALLBACKROUTINES
 dev_langs:
- - c++
+- c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxRoute.h
+- FaxRoute.h
 api_name:
- - FAX_ROUTE_CALLBACKROUTINES
+- FAX_ROUTE_CALLBACKROUTINES
 targetos: Windows
 req.typenames: FAX_ROUTE_CALLBACKROUTINES, *PFAX_ROUTE_CALLBACKROUTINES
 req.redist: 

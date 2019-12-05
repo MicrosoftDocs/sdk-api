@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ConstBooleanAField
 title: MI_ConstBooleanAField (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_constbooleanafield.htm
 tech.root: wmi_v2
 ms.assetid: e5014642-b5a2-4959-9b30-cfd2e1fb63c8
-
 ms.date: 12/05/2018
 ms.keywords: MI_ConstBooleanAField, MI_ConstBooleanAField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, mi/MI_ConstBooleanAField, wmi._mi_constbooleanafield, wmi_v2.mi_constbooleanafield
 ms.topic: struct
 f1_keywords:
 - mi/MI_ConstBooleanAField
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

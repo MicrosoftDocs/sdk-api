@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.GetWrittenRegister
 title: ID3D11ShaderTrace::GetWrittenRegister (d3d11shadertracing.h)
-
 description: Retrieves information about a register that was written by a step in the trace.
 old-location: direct3d11\id3d11shadertrace_getwrittenregister.htm
 tech.root: direct3d11
 ms.assetid: 360BB797-D5A9-486A-94ED-AF1CD3A4E118
-
 ms.date: 12/05/2018
 ms.keywords: GetWrittenRegister, GetWrittenRegister method [Direct3D 11], GetWrittenRegister method [Direct3D 11],ID3D11ShaderTrace interface, ID3D11ShaderTrace interface [Direct3D 11],GetWrittenRegister method, ID3D11ShaderTrace.GetWrittenRegister, ID3D11ShaderTrace::GetWrittenRegister, d3d11shadertracing/ID3D11ShaderTrace::GetWrittenRegister, direct3d11.id3d11shadertrace_getwrittenregister
 ms.topic: method
-f1_keywords: 
- - "d3d11shadertracing/ID3D11ShaderTrace.GetWrittenRegister"
+f1_keywords:
+- d3d11shadertracing/ID3D11ShaderTrace.GetWrittenRegister
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11SDKLayers.dll
- - D3D11_1SDKLayers.dll
- - D3D11_2SDKLayers.dll
+- D3D11SDKLayers.dll
+- D3D11_1SDKLayers.dll
+- D3D11_2SDKLayers.dll
 api_name:
- - ID3D11ShaderTrace.GetWrittenRegister
+- ID3D11ShaderTrace.GetWrittenRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

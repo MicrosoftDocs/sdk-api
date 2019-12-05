@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveInStart
 title: waveInStart function (mmeapi.h)
-
 description: The waveInStart function starts input on the given waveform-audio input device.
 old-location: multimedia\waveinstart.htm
 tech.root: Multimedia
 ms.assetid: f55625f4-1503-48ea-a654-eb87d1db3043
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveInStart, mmeapi/waveInStart, multimedia.waveinstart, waveInStart, waveInStart function [Windows Multimedia]"
+ms.keywords: _win32_waveInStart, mmeapi/waveInStart, multimedia.waveinstart, waveInStart, waveInStart function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveInStart"
+f1_keywords:
+- mmeapi/waveInStart
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveInStart
+- waveInStart
 targetos: Windows
 req.typenames: 
 req.redist: 

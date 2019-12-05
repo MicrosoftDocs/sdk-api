@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHSaveLibraryInFolderPath
 title: SHSaveLibraryInFolderPath function (shobjidl_core.h)
-
 description: Saves an IShellLibrary object to disk.
 old-location: shell\SHSaveLibraryInFolderPath.htm
 tech.root: shell
 ms.assetid: 953b209b-fd18-49d0-84d3-ad9b815f2a3a
-
 ms.date: 12/05/2018
 ms.keywords: SHSaveLibraryInFolderPath, SHSaveLibraryInFolderPath function [Windows Shell], _shell_SHSaveLibraryInFolderPath, shell.SHSaveLibraryInFolderPath, shobjidl_core/SHSaveLibraryInFolderPath
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHSaveLibraryInFolderPath"
+f1_keywords:
+- shobjidl_core/SHSaveLibraryInFolderPath
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SHSaveLibraryInFolderPath
+- SHSaveLibraryInFolderPath
 targetos: Windows
 req.typenames: 
 req.redist: 

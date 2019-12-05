@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.ProcessBufferedPacketsInteractionContext
 title: ProcessBufferedPacketsInteractionContext function (interactioncontext.h)
-
 description: Process buffered packets at the end of a pointer input frame.
 old-location: input_intcontext\processbufferedpacketsinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 52bbeae9-70ab-403c-a035-de2acc2e0599
-
 ms.date: 12/05/2018
 ms.keywords: ProcessBufferedPacketsInteractionContext, ProcessBufferedPacketsInteractionContext function, input_intcontext.processbufferedpacketsinteractioncontext, interactioncontext.processbufferedpacketsinteractioncontext, interactioncontext/ProcessBufferedPacketsInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/ProcessBufferedPacketsInteractionContext"
+f1_keywords:
+- interactioncontext/ProcessBufferedPacketsInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - ProcessBufferedPacketsInteractionContext
+- ProcessBufferedPacketsInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

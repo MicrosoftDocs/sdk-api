@@ -1,19 +1,17 @@
 ---
 UID: NS:fwptypes.FWPM_DISPLAY_DATA0_
 title: FWPM_DISPLAY_DATA0 (fwptypes.h)
-
 description: Stores an optional friendly name and an optional description for an object.
 old-location: fwp\fwpm_display_data0_struct.htm
 tech.root: fwp
 ms.assetid: b86ca572-b4f4-4d40-adfd-fb0e9d32fcd5
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_DISPLAY_DATA0, FWPM_DISPLAY_DATA0 structure [Filtering], FWPM_DISPLAY_DATA0_, fwp.fwpm_display_data0_struct, fwptypes/FWPM_DISPLAY_DATA0
 ms.topic: struct
-f1_keywords: 
- - "fwptypes/FWPM_DISPLAY_DATA0"
+f1_keywords:
+- fwptypes/FWPM_DISPLAY_DATA0
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWPM_DISPLAY_DATA0
+- FWPM_DISPLAY_DATA0
 targetos: Windows
 req.typenames: FWPM_DISPLAY_DATA0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetWnd
 title: ITextStoreAnchor::GetWnd (textstor.h)
-
 description: The ITextStoreAnchor::GetWnd method returns the handle to a window that corresponds to the current text stream.
 old-location: tsf\itextstoreanchor_getwnd.htm
 tech.root: TSF
 ms.assetid: e77b5218-45e4-4fe1-a41f-1d7b5887ba30
-
 ms.date: 12/05/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetWnd method, ITextStoreAnchor.GetWnd, ITextStoreAnchor::GetWnd, textstor/ITextStoreAnchor::GetWnd, tsf.itextstoreanchor_getwnd
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetWnd"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetWnd
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetWnd
+- ITextStoreAnchor.GetWnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

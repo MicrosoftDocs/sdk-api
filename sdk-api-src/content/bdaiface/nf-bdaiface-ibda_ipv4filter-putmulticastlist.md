@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.PutMulticastList
 title: IBDA_IPV4Filter::PutMulticastList (bdaiface.h)
-
 description: The PutMulticastList method sets the list of multicast addresses on the Network Provider.
 old-location: mstv\ibda_ipv4filter_putmulticastlist.htm
 tech.root: mstv
 ms.assetid: 06b93c7d-662e-408b-94e3-137287160898
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPV4Filter interface [Microsoft TV Technologies],PutMulticastList method, IBDA_IPV4Filter.PutMulticastList, IBDA_IPV4Filter::PutMulticastList, IBDA_IPV4FilterPutMulticastList, PutMulticastList, PutMulticastList method [Microsoft TV Technologies], PutMulticastList method [Microsoft TV Technologies],IBDA_IPV4Filter interface, bdaiface/IBDA_IPV4Filter::PutMulticastList, mstv.ibda_ipv4filter_putmulticastlist
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_IPV4Filter.PutMulticastList"
+f1_keywords:
+- bdaiface/IBDA_IPV4Filter.PutMulticastList
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPV4Filter.PutMulticastList
+- IBDA_IPV4Filter.PutMulticastList
 targetos: Windows
 req.typenames: 
 req.redist: 

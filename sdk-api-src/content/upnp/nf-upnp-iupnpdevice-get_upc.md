@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_UPC
 title: IUPnPDevice::get_UPC (upnp.h)
-
 description: The UPC property specifies a human-readable form of the product code.
 old-location: upnp\iupnpdevice_upc.htm
 tech.root: upnp
 ms.assetid: 33349885-96da-47ef-9b09-83c2c332b509
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_UPC method, IUPnPDevice.get_UPC, IUPnPDevice::get_UPC, _upnp_iupnpdevice_upc, get_UPC, get_UPC method [UPnP APIs], get_UPC method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_upc, upnp/IUPnPDevice::get_UPC
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_UPC"
+f1_keywords:
+- upnp/IUPnPDevice.get_UPC
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_UPC
+- IUPnPDevice.get_UPC
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetLanguage
 title: IXpsOMVisual::GetLanguage (xpsobjectmodel.h)
-
 description: Gets the Language property of the visual and of its contents.
 old-location: xps\ixpsomvisual_getlanguage.htm
 tech.root: printdocs
 ms.assetid: 22cddce5-f881-4585-9ab8-d8cdce06511f
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetLanguage method, IXpsOMVisual.GetLanguage, IXpsOMVisual::GetLanguage, xps.ixpsomvisual_getlanguage, xpsobjectmodel/IXpsOMVisual::GetLanguage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetLanguage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetLanguage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetLanguage
+- IXpsOMVisual.GetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

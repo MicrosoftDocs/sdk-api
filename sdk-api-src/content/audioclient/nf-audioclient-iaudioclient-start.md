@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient.Start
 title: IAudioClient::Start (audioclient.h)
-
 description: The Start method starts the audio stream.
 old-location: coreaudio\iaudioclient_start.htm
 tech.root: CoreAudio
 ms.assetid: 706f9833-7f06-4bdc-96d5-6872f6effcb9
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClient interface [Core Audio],Start method, IAudioClient.Start, IAudioClient::Start, IAudioClientStart, Start, Start method [Core Audio], Start method [Core Audio],IAudioClient interface, audioclient/IAudioClient::Start, coreaudio.iaudioclient_start
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient.Start"
+f1_keywords:
+- audioclient/IAudioClient.Start
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient.Start
+- IAudioClient.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

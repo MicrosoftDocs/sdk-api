@@ -1,19 +1,17 @@
 ---
 UID: NS:elscore._MAPPING_OPTIONS
 title: MAPPING_OPTIONS (elscore.h)
-
 description: Contains options for text recognition. The values stored in this structure affect the behavior and results of MappingRecognizeText.
 old-location: intl\mappingoptions.htm
 tech.root: Intl
 ms.assetid: 228625b3-928c-451f-9a3f-7eb3130ac622
-
 ms.date: 12/05/2018
 ms.keywords: '*PMAPPING_OPTIONS, MAPPING_OPTIONS, MAPPING_OPTIONS structure [Internationalization for Windows Applications], PMAPPING_OPTIONS, PMAPPING_OPTIONS structure pointer [Internationalization for Windows Applications], elscore/MAPPING_OPTIONS, elscore/PMAPPING_OPTIONS, intl.mappingoptions'
 ms.topic: struct
 f1_keywords:
 - elscore/MAPPING_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: elscore.h
 req.include-header: 
 req.target-type: Windows

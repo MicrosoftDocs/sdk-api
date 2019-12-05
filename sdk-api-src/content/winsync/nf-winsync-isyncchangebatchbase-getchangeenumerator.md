@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetChangeEnumerator
 title: ISyncChangeBatchBase::GetChangeEnumerator (winsync.h)
-
 description: Gets an IEnumSyncChanges object that enumerates the item changes in this change batch.
 old-location: winsync\isyncchangebatchbase_getchangeenumerator.htm
 tech.root: winsync
 ms.assetid: af979d71-1eb4-463d-8e90-27a985ea289d
-
 ms.date: 12/05/2018
 ms.keywords: GetChangeEnumerator, GetChangeEnumerator method [Windows Sync], GetChangeEnumerator method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetChangeEnumerator method, ISyncChangeBatchBase.GetChangeEnumerator, ISyncChangeBatchBase::GetChangeEnumerator, winsync.isyncchangebatchbase_getchangeenumerator, winsync/ISyncChangeBatchBase::GetChangeEnumerator
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.GetChangeEnumerator"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.GetChangeEnumerator
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.GetChangeEnumerator
+- ISyncChangeBatchBase.GetChangeEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

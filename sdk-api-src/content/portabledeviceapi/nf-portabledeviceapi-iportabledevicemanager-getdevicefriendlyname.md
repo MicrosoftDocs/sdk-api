@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceFriendlyName
 title: IPortableDeviceManager::GetDeviceFriendlyName (portabledeviceapi.h)
-
 description: Retrieves the user-friendly name for the device.
 old-location: wpdsdk\iportabledevicemanager_getdevicefriendlyname.htm
 tech.root: wpd_sdk
 ms.assetid: 589995bb-fcce-412e-8828-a84e5809af2b
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFriendlyName, GetDeviceFriendlyName method [Windows Portable Devices SDK], GetDeviceFriendlyName method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceFriendlyName method, IPortableDeviceManager.GetDeviceFriendlyName, IPortableDeviceManager::GetDeviceFriendlyName, IPortableDeviceManagerGetDeviceFriendlyName, portabledeviceapi/IPortableDeviceManager::GetDeviceFriendlyName, wpdsdk.iportabledevicemanager_getdevicefriendlyname
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceManager.GetDeviceFriendlyName"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceManager.GetDeviceFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager.GetDeviceFriendlyName
+- IPortableDeviceManager.GetDeviceFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

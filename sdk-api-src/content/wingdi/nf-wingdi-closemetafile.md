@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CloseMetaFile
 title: CloseMetaFile function (wingdi.h)
-
 description: The CloseMetaFile function closes a metafile device context and returns a handle that identifies a Windows-format metafile.
 old-location: gdi\closemetafile.htm
 tech.root: gdi
 ms.assetid: 8e50457a-8ef8-4e71-8c56-38cfb277f57d
-
 ms.date: 12/05/2018
 ms.keywords: CloseMetaFile, CloseMetaFile function [Windows GDI], _win32_CloseMetaFile, gdi.closemetafile, wingdi/CloseMetaFile
 ms.topic: function
-f1_keywords: 
- - "wingdi/CloseMetaFile"
+f1_keywords:
+- wingdi/CloseMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - CloseMetaFile
+- CloseMetaFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:indexsrv.IColumnMapper
 title: IColumnMapper (indexsrv.h)
-
 description: Retrieves property information for file based queries.
 old-location: search\icolumnmapper.htm
 tech.root: search
 ms.assetid: CBC7EE6C-299D-4B9D-839A-0A2755CA8112
-
 ms.date: 12/05/2018
 ms.keywords: IColumnMapper, IColumnMapper interface [search], IColumnMapper interface [search],described, indexsrv/IColumnMapper, search.icolumnmapper
 ms.topic: interface
-f1_keywords: 
- - "indexsrv/IColumnMapper"
+f1_keywords:
+- indexsrv/IColumnMapper
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - IColumnMapper
+- IColumnMapper
 targetos: Windows
 req.typenames: 
 req.redist: 

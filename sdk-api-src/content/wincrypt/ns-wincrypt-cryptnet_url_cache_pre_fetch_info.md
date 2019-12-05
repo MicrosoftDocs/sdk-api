@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPTNET_URL_CACHE_PRE_FETCH_INFO
 title: CRYPTNET_URL_CACHE_PRE_FETCH_INFO (wincrypt.h)
-
 description: Contains update information used by the Cryptnet URL Cache (CUC) service to maintain a URL cache entry.
 old-location: security\cryptnet_url_cache_pre_fetch_info.htm
 tech.root: SecCrypto
 ms.assetid: 4c3e3248-83d2-45f4-84a5-a73f0434b804
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPTNET_URL_CACHE_PRE_FETCH_INFO, CRYPTNET_URL_CACHE_PRE_FETCH_AUTOROOT_CAB, CRYPTNET_URL_CACHE_PRE_FETCH_BLOB, CRYPTNET_URL_CACHE_PRE_FETCH_CRL, CRYPTNET_URL_CACHE_PRE_FETCH_INFO, CRYPTNET_URL_CACHE_PRE_FETCH_INFO structure [Security], CRYPTNET_URL_CACHE_PRE_FETCH_NONE, CRYPTNET_URL_CACHE_PRE_FETCH_OCSP, ERROR_FILE_OFFLINE, ERROR_INVALID_DATA, ERROR_MEDIA_OFFLINE, Other values, PCRYPTNET_URL_CACHE_PRE_FETCH_INFO, PCRYPTNET_URL_CACHE_PRE_FETCH_INFO structure pointer [Security], S_OK, security.cryptnet_url_cache_pre_fetch_info, szOID_CRL_NEXT_PUBLISH, wincrypt/CRYPTNET_URL_CACHE_PRE_FETCH_INFO, wincrypt/PCRYPTNET_URL_CACHE_PRE_FETCH_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPTNET_URL_CACHE_PRE_FETCH_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

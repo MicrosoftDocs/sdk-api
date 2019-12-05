@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaFilter.Stop
 title: IMediaFilter::Stop (strmif.h)
-
 description: The Stop method stops the filter.
 old-location: dshow\imediafilter_stop.htm
 tech.root: DirectShow
 ms.assetid: 8c415b5c-1aee-4ea4-b182-fd95da4898aa
-
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter interface [DirectShow],Stop method, IMediaFilter.Stop, IMediaFilter::Stop, IMediaFilterStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaFilter interface, dshow.imediafilter_stop, strmif/IMediaFilter::Stop
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaFilter.Stop"
+f1_keywords:
+- strmif/IMediaFilter.Stop
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaFilter.Stop
+- IMediaFilter.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

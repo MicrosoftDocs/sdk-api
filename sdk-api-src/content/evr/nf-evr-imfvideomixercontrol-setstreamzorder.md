@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.SetStreamZOrder
 title: IMFVideoMixerControl::SetStreamZOrder (evr.h)
-
 description: Sets the z-order of a video stream.
 old-location: mf\imfvideomixercontrol_setstreamzorder.htm
 tech.root: medfound
 ms.assetid: 6187724a-6345-4feb-90a0-097b6d21180f
-
 ms.date: 12/05/2018
 ms.keywords: 6187724a-6345-4feb-90a0-097b6d21180f, IMFVideoMixerControl interface [Media Foundation],SetStreamZOrder method, IMFVideoMixerControl.SetStreamZOrder, IMFVideoMixerControl::SetStreamZOrder, SetStreamZOrder, SetStreamZOrder method [Media Foundation], SetStreamZOrder method [Media Foundation],IMFVideoMixerControl interface, evr/IMFVideoMixerControl::SetStreamZOrder, mf.imfvideomixercontrol_setstreamzorder
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoMixerControl.SetStreamZOrder"
+f1_keywords:
+- evr/IMFVideoMixerControl.SetStreamZOrder
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerControl.SetStreamZOrder
+- IMFVideoMixerControl.SetStreamZOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_LastBlock
 title: IProgressItem::get_LastBlock (imapi2fs.h)
-
 description: Retrieves the last block in this segment of the result image.
 old-location: imapi\iprogressitem_get_lastblock.htm
 tech.root: imapi
 ms.assetid: ad75e708-4a10-45b9-89c2-11270f6edd9e
-
 ms.date: 12/05/2018
 ms.keywords: IProgressItem interface [IMAPI],get_LastBlock method, IProgressItem.get_LastBlock, IProgressItem::get_LastBlock, get_LastBlock, get_LastBlock method [IMAPI], get_LastBlock method [IMAPI],IProgressItem interface, imapi.iprogressitem_get_lastblock, imapi2fs/IProgressItem::get_LastBlock
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IProgressItem.get_LastBlock"
+f1_keywords:
+- imapi2fs/IProgressItem.get_LastBlock
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IProgressItem.get_LastBlock
+- IProgressItem.get_LastBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

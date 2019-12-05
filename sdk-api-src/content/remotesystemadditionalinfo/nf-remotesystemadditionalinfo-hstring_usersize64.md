@@ -1,19 +1,17 @@
 ---
 UID: NF:remotesystemadditionalinfo.HSTRING_UserSize64
 title: HSTRING_UserSize64 function (remotesystemadditionalinfo.h)
-
 description: Calculates the wire size of the HSTRING object, and gets its handle and data.
 old-location: winrt\hstring_usersize64.htm
 tech.root: WinRT
 ms.assetid: 38ACC82C-959C-4E15-ABEF-0B92EE712E87
-
 ms.date: 12/05/2018
 ms.keywords: HSTRING_UserSize64, HSTRING_UserSize64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize64, winrt.hstring_usersize64
 ms.topic: function
-f1_keywords: 
- - "remotesystemadditionalinfo/HSTRING_UserSize64"
+f1_keywords:
+- remotesystemadditionalinfo/HSTRING_UserSize64
 dev_langs:
- - c++
+- c++
 req.header: remotesystemadditionalinfo.h
 req.include-header: Winstring.h, Inspectable.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - HSTRING_UserSize64
+- HSTRING_UserSize64
 targetos: Windows
 req.typenames: 
 req.redist: 

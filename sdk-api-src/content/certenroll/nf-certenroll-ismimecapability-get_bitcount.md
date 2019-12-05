@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISmimeCapability.get_BitCount
 title: ISmimeCapability::get_BitCount (certenroll.h)
-
 description: Retrieves the length, in bits, of the encryption key.
 old-location: security\ismimecapability_bitcount_property.htm
 tech.root: seccertenroll
 ms.assetid: 582f5d85-9045-4c6f-a4c0-869e6f9e9b9e
-
 ms.date: 12/05/2018
 ms.keywords: BitCount property [Security], BitCount property [Security],ISmimeCapability interface, ISmimeCapability interface [Security],BitCount property, ISmimeCapability.BitCount, ISmimeCapability.get_BitCount, ISmimeCapability::BitCount, ISmimeCapability::get_BitCount, certenroll/ISmimeCapability::BitCount, certenroll/ISmimeCapability::get_BitCount, get_BitCount, security.ismimecapability_bitcount_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISmimeCapability.BitCount"
+f1_keywords:
+- certenroll/ISmimeCapability.BitCount
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISmimeCapability.BitCount
- - ISmimeCapability.get_BitCount
+- ISmimeCapability.BitCount
+- ISmimeCapability.get_BitCount
 targetos: Windows
 req.typenames: 
 req.redist: 

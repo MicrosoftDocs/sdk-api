@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_SetText
 title: ComboBox_SetText macro (windowsx.h)
-
 description: Sets the text of a combo box.
 old-location: controls\ComboBox_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_settext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SetText, ComboBox_SetText macro [Windows Controls], _win32_ComboBox_SetText, _win32_ComboBox_SetText_cpp, controls.ComboBox_SetText, controls._win32_ComboBox_SetText, windowsx/ComboBox_SetText
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_SetText"
+f1_keywords:
+- windowsx/ComboBox_SetText
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_SetText
+- ComboBox_SetText
 targetos: Windows
 req.typenames: 
 req.redist: 

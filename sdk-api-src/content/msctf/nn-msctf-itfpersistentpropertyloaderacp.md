@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfPersistentPropertyLoaderACP
 title: ITfPersistentPropertyLoaderACP (msctf.h)
-
 description: The ITfPersistentPropertyLoaderACP interface is implemented by an application and used by the TSF manager to load properties asynchronously.
 old-location: tsf\itfpersistentpropertyloaderacp.htm
 tech.root: TSF
 ms.assetid: 7d7af737-6241-43a9-946e-6a03a423b20f
-
 ms.date: 12/05/2018
 ms.keywords: ITfPersistentPropertyLoaderACP, ITfPersistentPropertyLoaderACP interface [Text Services Framework], ITfPersistentPropertyLoaderACP interface [Text Services Framework],described, _tsf_itfpersistentpropertyloaderacp_ref, msctf/ITfPersistentPropertyLoaderACP, tsf.itfpersistentpropertyloaderacp
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfPersistentPropertyLoaderACP"
+f1_keywords:
+- msctf/ITfPersistentPropertyLoaderACP
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfPersistentPropertyLoaderACP
+- ITfPersistentPropertyLoaderACP
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

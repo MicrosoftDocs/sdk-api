@@ -1,19 +1,17 @@
 ---
 UID: NS:qos._QOS_SHAPING_RATE
 title: QOS_SHAPING_RATE (qos.h)
-
 description: The QOS object QOS_SHAPING_RATE specifies the uniform traffic shaping rate be applied to a given flow.
 old-location: qos\qos_shaping_rate.htm
 tech.root: QOS
 ms.assetid: 2be833dc-d9e1-495d-831e-09c900c8adb2
-
 ms.date: 12/05/2018
 ms.keywords: '*LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE structure pointer [QOS], QOS_SHAPING_RATE, QOS_SHAPING_RATE structure [QOS], _gqos_qos_shaping_rate, qos.qos_shaping_rate, qos/LPQOS_SHAPING_RATE, qos/QOS_SHAPING_RATE'
 ms.topic: struct
 f1_keywords:
 - qos/QOS_SHAPING_RATE
 dev_langs:
- - c++
+- c++
 req.header: qos.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiCopyAuthIdentity
 title: SspiCopyAuthIdentity function (sspi.h)
-
 description: Creates a copy of the specified opaque credential structure.
 old-location: security\sspicopyauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: e53807bf-b5a1-4479-a73b-dd85c5da173e
-
 ms.date: 12/05/2018
 ms.keywords: SspiCopyAuthIdentity, SspiCopyAuthIdentity function [Security], security.sspicopyauthidentity, sspi/SspiCopyAuthIdentity
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiCopyAuthIdentity"
+f1_keywords:
+- sspi/SspiCopyAuthIdentity
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiCopyAuthIdentity
+- SspiCopyAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

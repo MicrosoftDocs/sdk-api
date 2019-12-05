@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMLoadShort4
 title: XMLoadShort4 function (directxpackedvector.h)
-
 description: Loads an XMSHORT4 into an XMVECTOR.
 old-location: dxmath\xmloadshort4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShort4(const XMSHORT4)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadShort4, XMLoadShort4, XMLoadShort4 method [DirectX Math Support APIs], dxmath.xmloadshort4
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMLoadShort4"
+f1_keywords:
+- directxpackedvector/XMLoadShort4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXPackedVector.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.inl
+- directxpackedvector.inl
 api_name:
- - XMLoadShort4
+- XMLoadShort4
 targetos: Windows
 req.typenames: 
 req.redist: 

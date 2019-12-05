@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMSampleExtensionSupport
 title: IWMSampleExtensionSupport (wmcodecdsp.h)
-
 description: Configures codec support for sample extensions.
 old-location: mf\iwmsampleextensionsupportinterface.htm
 tech.root: medfound
 ms.assetid: 3c6dd1c2-4692-4176-b164-bb90d661defc
-
 ms.date: 12/05/2018
 ms.keywords: IWMSampleExtensionSupport, IWMSampleExtensionSupport interface [Media Foundation], IWMSampleExtensionSupport interface [Media Foundation],described, codecapi.iwmsampleextensionsupportinterface, mf.iwmsampleextensionsupport, mf.iwmsampleextensionsupportinterface, wmcodecdsp/IWMSampleExtensionSupport
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMSampleExtensionSupport"
+f1_keywords:
+- wmcodecdsp/IWMSampleExtensionSupport
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMSampleExtensionSupport
+- IWMSampleExtensionSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

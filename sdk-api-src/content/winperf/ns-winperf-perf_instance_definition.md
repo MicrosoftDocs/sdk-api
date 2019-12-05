@@ -1,19 +1,17 @@
 ---
 UID: NS:winperf._PERF_INSTANCE_DEFINITION
 title: PERF_INSTANCE_DEFINITION (winperf.h)
-
 description: Describes an instance of a performance object.
 old-location: perf\perf_instance_definition_str.htm
 tech.root: perfctrs
 ms.assetid: 5ea617d3-857d-4e0a-ad10-4d63044fc927
-
 ms.date: 12/05/2018
 ms.keywords: '*PPERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION, PERF_INSTANCE_DEFINITION structure [Perf], _win32_perf_instance_definition_str, base.perf_instance_definition_str, perf.perf_instance_definition_str, winperf/PERF_INSTANCE_DEFINITION'
 ms.topic: struct
 f1_keywords:
 - winperf/PERF_INSTANCE_DEFINITION
 dev_langs:
- - c++
+- c++
 req.header: winperf.h
 req.include-header: Windows.h
 req.target-type: Windows

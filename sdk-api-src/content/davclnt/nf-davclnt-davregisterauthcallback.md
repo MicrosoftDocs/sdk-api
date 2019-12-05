@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavRegisterAuthCallback
 title: DavRegisterAuthCallback function (davclnt.h)
-
 description: Registers an application-defined callback function that the WebDAV client can use to prompt the user for credentials.
 old-location: webdav\davregisterauthcallback.htm
 tech.root: WebDAV
 ms.assetid: 7b381929-174f-4b7b-aa22-dc7a2c3e3b4d
-
 ms.date: 12/05/2018
 ms.keywords: DavRegisterAuthCallback, DavRegisterAuthCallback function [WebDAV], davclnt/DavRegisterAuthCallback, webdav.davregisterauthcallback
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavRegisterAuthCallback"
+f1_keywords:
+- davclnt/DavRegisterAuthCallback
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Davclnt.lib
 req.dll: Davclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Davclnt.dll
+- Davclnt.dll
 api_name:
- - DavRegisterAuthCallback
+- DavRegisterAuthCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

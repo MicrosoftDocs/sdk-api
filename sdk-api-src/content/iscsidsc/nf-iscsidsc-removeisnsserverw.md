@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RemoveISNSServerW
 title: RemoveISNSServerW function (iscsidsc.h)
-
 description: RemoveIsnsServer function removes a server from the list of Internet Storage Name Service (iSNS) servers that the iSCSI initiator service uses to discover targets.
 old-location: iscsidisc\removeisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: 702a86e3-eeac-40cd-9203-ee865e2b710a
-
 ms.date: 12/05/2018
 ms.keywords: RemoveISNSServerW, RemoveIsnsServer, RemoveIsnsServer function [iSCSI Discovery Library API], RemoveIsnsServerA, RemoveIsnsServerW, iscsidisc.removeisnsserver, iscsidsc/RemoveIsnsServer, iscsidsc/RemoveIsnsServerA, iscsidsc/RemoveIsnsServerW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RemoveIsnsServer"
+f1_keywords:
+- iscsidsc/RemoveIsnsServer
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RemoveIsnsServer
- - RemoveIsnsServerA
- - RemoveIsnsServerW
+- RemoveIsnsServer
+- RemoveIsnsServerA
+- RemoveIsnsServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSRegisterSessionNotificationEx
 title: WTSRegisterSessionNotificationEx function (wtsapi32.h)
-
 description: Registers the specified window to receive session change notifications.
 old-location: termserv\wtsregistersessionnotificationex.htm
 tech.root: TermServ
 ms.assetid: 8670643e-33e0-482a-ade0-d136b8c97d37
-
 ms.date: 12/05/2018
 ms.keywords: NOTIFY_FOR_ALL_SESSIONS, NOTIFY_FOR_THIS_SESSION, WTSRegisterSessionNotificationEx, WTSRegisterSessionNotificationEx function [Remote Desktop Services], termserv.wtsregistersessionnotificationex, wtsapi32/WTSRegisterSessionNotificationEx
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSRegisterSessionNotificationEx"
+f1_keywords:
+- wtsapi32/WTSRegisterSessionNotificationEx
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSRegisterSessionNotificationEx
+- WTSRegisterSessionNotificationEx
 targetos: Windows
 req.typenames: 
 req.redist: 

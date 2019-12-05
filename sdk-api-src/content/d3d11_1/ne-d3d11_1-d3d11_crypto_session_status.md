@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_1.D3D11_CRYPTO_SESSION_STATUS
 title: D3D11_CRYPTO_SESSION_STATUS (d3d11_1.h)
-
 description: Represents the status of an ID3D11CryptoSession interface.
 old-location: mf\d3d11_crypto_session_status.htm
 tech.root: medfound
 ms.assetid: C98DEC40-21D0-483A-A982-E6E19BBDE241
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_CRYPTO_SESSION_STATUS, D3D11_CRYPTO_SESSION_STATUS enumeration [Media Foundation], D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, D3D11_CRYPTO_SESSION_STATUS_KEY_LOST, D3D11_CRYPTO_SESSION_STATUS_OK, d3d11_1/D3D11_CRYPTO_SESSION_STATUS, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_KEY_AND_CONTENT_LOST, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_KEY_LOST, d3d11_1/D3D11_CRYPTO_SESSION_STATUS_OK, mf.d3d11_crypto_session_status
 ms.topic: enum
-f1_keywords: 
- - "d3d11_1/D3D11_CRYPTO_SESSION_STATUS"
+f1_keywords:
+- d3d11_1/D3D11_CRYPTO_SESSION_STATUS
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - D3D11_CRYPTO_SESSION_STATUS
+- D3D11_CRYPTO_SESSION_STATUS
 targetos: Windows
 req.typenames: D3D11_CRYPTO_SESSION_STATUS
 req.redist: 

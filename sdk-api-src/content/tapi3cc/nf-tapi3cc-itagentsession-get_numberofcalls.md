@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_NumberOfCalls
 title: ITAgentSession::get_NumberOfCalls (tapi3cc.h)
-
 description: The get_NumberOfCalls method gets the number of ACD calls handled by this agent during this session.
 old-location: tapi3\itagentsession_get_numberofcalls.htm
 tech.root: Tapi
 ms.assetid: 8a3f00fc-9da2-4dc9-ab9a-ebc92664e907
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_NumberOfCalls method, ITAgentSession.get_NumberOfCalls, ITAgentSession::get_NumberOfCalls, _tapi3_itagentsession_get_numberofcalls, get_NumberOfCalls, get_NumberOfCalls method [TAPI 2.2], get_NumberOfCalls method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_numberofcalls, tapi3cc/ITAgentSession::get_NumberOfCalls
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgentSession.get_NumberOfCalls"
+f1_keywords:
+- tapi3cc/ITAgentSession.get_NumberOfCalls
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSession.get_NumberOfCalls
+- ITAgentSession.get_NumberOfCalls
 targetos: Windows
 req.typenames: 
 req.redist: 

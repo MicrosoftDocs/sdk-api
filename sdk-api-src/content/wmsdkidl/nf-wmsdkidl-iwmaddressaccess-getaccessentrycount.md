@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess.GetAccessEntryCount
 title: IWMAddressAccess::GetAccessEntryCount (wmsdkidl.h)
-
 description: The GetAccessEntryCount method retrieves the number of entries in the IP address access list.
 old-location: wmformat\iwmaddressaccess_getaccessentrycount.htm
 tech.root: wmformat
 ms.assetid: 996d8a8a-887e-4e2f-b810-c57a4251f771
-
 ms.date: 12/05/2018
 ms.keywords: GetAccessEntryCount, GetAccessEntryCount method [windows Media Format], GetAccessEntryCount method [windows Media Format],IWMAddressAccess interface, IWMAddressAccess interface [windows Media Format],GetAccessEntryCount method, IWMAddressAccess.GetAccessEntryCount, IWMAddressAccess::GetAccessEntryCount, IWMAddressAccessGetAccessEntryCount, wmformat.iwmaddressaccess_getaccessentrycount, wmsdkidl/IWMAddressAccess::GetAccessEntryCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMAddressAccess.GetAccessEntryCount"
+f1_keywords:
+- wmsdkidl/IWMAddressAccess.GetAccessEntryCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMAddressAccess.GetAccessEntryCount
+- IWMAddressAccess.GetAccessEntryCount
 targetos: Windows
 req.typenames: 
 req.redist: 

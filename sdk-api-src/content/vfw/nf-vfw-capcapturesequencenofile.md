@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capCaptureSequenceNoFile
 title: capCaptureSequenceNoFile macro (vfw.h)
-
 description: The capCaptureSequenceNoFile macro initiates streaming video capture without writing data to a file. You can use this macro or explicitly send the WM_CAP_SEQUENCE_NOFILE message.
 old-location: multimedia\capcapturesequencenofile.htm
 tech.root: Multimedia
 ms.assetid: 40af5582-f801-4437-b782-8d03ffffcb82
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capCaptureSequenceNoFile, capCaptureSequenceNoFile, capCaptureSequenceNoFile macro [Windows Multimedia], multimedia.capcapturesequencenofile, vfw/capCaptureSequenceNoFile"
+ms.keywords: _win32_capCaptureSequenceNoFile, capCaptureSequenceNoFile, capCaptureSequenceNoFile macro [Windows Multimedia], multimedia.capcapturesequencenofile, vfw/capCaptureSequenceNoFile
 ms.topic: macro
-f1_keywords: 
- - "vfw/capCaptureSequenceNoFile"
+f1_keywords:
+- vfw/capCaptureSequenceNoFile
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capCaptureSequenceNoFile
+- capCaptureSequenceNoFile
 targetos: Windows
 req.typenames: 
 req.redist: 

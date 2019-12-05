@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcStringBindingParseW
 title: RpcStringBindingParseW function (rpcdce.h)
-
 description: The RpcStringBindingParse function returns the object UUID part and the address parts of a string binding as separate strings.
 old-location: rpc\rpcstringbindingparse.htm
 tech.root: Rpc
 ms.assetid: c55d0259-e251-42d0-8565-ce71ab3bb59c
-
 ms.date: 12/05/2018
 ms.keywords: RpcStringBindingParse, RpcStringBindingParse function [RPC], RpcStringBindingParseA, RpcStringBindingParseW, _rpc_rpcstringbindingparse, rpc.rpcstringbindingparse, rpcdce/RpcStringBindingParse, rpcdce/RpcStringBindingParseA, rpcdce/RpcStringBindingParseW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcStringBindingParse"
+f1_keywords:
+- rpcdce/RpcStringBindingParse
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcStringBindingParse
- - RpcStringBindingParseA
- - RpcStringBindingParseW
+- RpcStringBindingParse
+- RpcStringBindingParseA
+- RpcStringBindingParseW
 targetos: Windows
 req.typenames: 
 req.redist: 

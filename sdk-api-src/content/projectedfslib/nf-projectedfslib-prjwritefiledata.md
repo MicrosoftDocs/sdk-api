@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjWriteFileData
 title: PrjWriteFileData function (projectedfslib.h)
-
 description: TBD.
 old-location: projfs\prjwritefiledata.htm
 tech.root: ProjFS
 ms.assetid: A09D8E74-D574-41C6-A586-86E03839DA89
-
 ms.date: 12/05/2018
 ms.keywords: PrjWriteFileData, PrjWriteFileData function, ProjFS.prjwritefiledata, projectedfslib/PrjWriteFileData
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjWriteFileData"
+f1_keywords:
+- projectedfslib/PrjWriteFileData
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjWriteFileData
+- PrjWriteFileData
 targetos: Windows
 req.typenames: 
 req.redist: 

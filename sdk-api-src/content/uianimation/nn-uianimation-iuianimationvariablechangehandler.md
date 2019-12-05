@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableChangeHandler
 title: IUIAnimationVariableChangeHandler (uianimation.h)
-
 description: Defines a method for handling events related to animation variable updates.
 old-location: uianimation\iuianimationvariablechangehandler.htm
 tech.root: UIAnimation
 ms.assetid: 2288b256-aaf4-44fe-9ad1-f05ef7b0e30b
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandler interface [Windows Animation], IUIAnimationVariableChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler, uianimation/IUIAnimationVariableChangeHandler
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationVariableChangeHandler"
+f1_keywords:
+- uianimation/IUIAnimationVariableChangeHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariableChangeHandler
+- IUIAnimationVariableChangeHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.ISearchCompletedCallbackArgs
 title: ISearchCompletedCallbackArgs (wuapi.h)
-
 description: Contains information about the completion of an asynchronous search. It also acts as a parameter to the SearchCompletedCallback delegate.
 old-location: wua\isearchcompletedcallbackargs.htm
 tech.root: Wua_Sdk
 ms.assetid: 809e4a09-3ad8-4e7f-8ace-ae613d05a7e1
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCompletedCallbackArgs, ISearchCompletedCallbackArgs interface [Windows Update Agent], ISearchCompletedCallbackArgs interface [Windows Update Agent],described, wua.isearchcompletedcallbackargs, wuapi/ISearchCompletedCallbackArgs
 ms.topic: interface
-f1_keywords: 
- - "wuapi/ISearchCompletedCallbackArgs"
+f1_keywords:
+- wuapi/ISearchCompletedCallbackArgs
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ISearchCompletedCallbackArgs
+- ISearchCompletedCallbackArgs
 targetos: Windows
 req.typenames: 
 req.redist: 

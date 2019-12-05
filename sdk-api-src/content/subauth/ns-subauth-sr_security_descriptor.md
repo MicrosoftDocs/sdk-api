@@ -1,19 +1,17 @@
 ---
 UID: NS:subauth._SR_SECURITY_DESCRIPTOR
 title: SR_SECURITY_DESCRIPTOR (subauth.h)
-
 description: The SR_SECURITY_DESCRIPTOR structure contains information about the security privileges of the user.
 old-location: security\sr_security_descriptor.htm
 tech.root: SecAuthN
 ms.assetid: 000ffbbe-5750-449b-8237-27c8d3c45454
-
 ms.date: 12/05/2018
-ms.keywords: "*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR structure pointer [Security], SR_SECURITY_DESCRIPTOR, SR_SECURITY_DESCRIPTOR structure [Security], _lsa_sr_security_descriptor, security.sr_security_descriptor, subauth/PSR_SECURITY_DESCRIPTOR, subauth/SR_SECURITY_DESCRIPTOR"
+ms.keywords: '*PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR, PSR_SECURITY_DESCRIPTOR structure pointer [Security], SR_SECURITY_DESCRIPTOR, SR_SECURITY_DESCRIPTOR structure [Security], _lsa_sr_security_descriptor, security.sr_security_descriptor, subauth/PSR_SECURITY_DESCRIPTOR, subauth/SR_SECURITY_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "subauth/SR_SECURITY_DESCRIPTOR"
+f1_keywords:
+- subauth/SR_SECURITY_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: subauth.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Subauth.h
+- Subauth.h
 api_name:
- - SR_SECURITY_DESCRIPTOR
+- SR_SECURITY_DESCRIPTOR
 targetos: Windows
 req.typenames: SR_SECURITY_DESCRIPTOR, *PSR_SECURITY_DESCRIPTOR
 req.redist: 

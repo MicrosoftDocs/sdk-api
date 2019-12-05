@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStream.PauseSubStream
 title: ITSubStream::PauseSubStream (tapi3if.h)
-
 description: The PauseSubStream method pauses the substream.
 old-location: tapi3\itsubstream_pausesubstream.htm
 tech.root: Tapi
 ms.assetid: 77bd3726-3996-45a6-88be-cb033f5dddc0
-
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],PauseSubStream method, ITSubStream.PauseSubStream, ITSubStream::PauseSubStream, PauseSubStream, PauseSubStream method [TAPI 2.2], PauseSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_pausesubstream, tapi3.itsubstream_pausesubstream, tapi3if/ITSubStream::PauseSubStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStream.PauseSubStream"
+f1_keywords:
+- tapi3if/ITSubStream.PauseSubStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStream.PauseSubStream
+- ITSubStream.PauseSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 

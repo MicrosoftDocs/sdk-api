@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusheaders.InstalledFontCollection
 title: InstalledFontCollection (gdiplusheaders.h)
-
 description: The InstalledFontCollection class defines a class that represents the fonts installed on the system.
 old-location: gdiplus\_gdiplus_CLASS_InstalledFontCollection_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\installedfontcollection.htm
-
 ms.date: 12/05/2018
 ms.keywords: InstalledFontCollection, InstalledFontCollection class [GDI+], InstalledFontCollection class [GDI+],described, _gdiplus_CLASS_InstalledFontCollection_Class, gdiplus._gdiplus_CLASS_InstalledFontCollection_Class, gdiplusheaders/InstalledFontCollection
 ms.topic: class
-f1_keywords: 
- - "gdiplusheaders/InstalledFontCollection"
+f1_keywords:
+- gdiplusheaders/InstalledFontCollection
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - InstalledFontCollection
+- InstalledFontCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

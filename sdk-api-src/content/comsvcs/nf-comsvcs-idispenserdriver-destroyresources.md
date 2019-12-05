@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.DestroyResourceS
 title: IDispenserDriver::DestroyResourceS (comsvcs.h)
-
 description: Destroys a resource (string resource version).
 old-location: cos\idispenserdriver_destroyresources.htm
 tech.root: cossdk
 ms.assetid: 0c7fe9ca-8a27-4459-a95d-084d717d3a65
-
 ms.date: 12/05/2018
 ms.keywords: DestroyResourceS, DestroyResourceS method [COM+], DestroyResourceS method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],DestroyResourceS method, IDispenserDriver.DestroyResourceS, IDispenserDriver::DestroyResourceS, _dtc_IDispenserDriver_DestroyResourceS, comsvcs/IDispenserDriver::DestroyResourceS, cos.idispenserdriver_destroyresources
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IDispenserDriver.DestroyResourceS"
+f1_keywords:
+- comsvcs/IDispenserDriver.DestroyResourceS
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserDriver.DestroyResourceS
+- IDispenserDriver.DestroyResourceS
 targetos: Windows
 req.typenames: 
 req.redist: 

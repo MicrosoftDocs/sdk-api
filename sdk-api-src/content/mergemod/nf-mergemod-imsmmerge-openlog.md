@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge.OpenLog
 title: IMsmMerge::OpenLog (mergemod.h)
-
 description: The OpenLog method opens a log file that receives progress and error messages.
 old-location: setup\imsmmerge_openlog.htm
 tech.root: Msi
 ms.assetid: b34e7f28-2cf3-4cc7-9a39-e1da6fb8c788
-
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenLog method, IMsmMerge.OpenLog, IMsmMerge::OpenLog, OpenLog, OpenLog method, OpenLog method,IMsmMerge interface, _msi_openlog_function, mergemod/IMsmMerge::OpenLog, setup.imsmmerge_openlog
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge.OpenLog"
+f1_keywords:
+- mergemod/IMsmMerge.OpenLog
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge.OpenLog
+- IMsmMerge.OpenLog
 targetos: Windows
 req.typenames: 
 req.redist: 

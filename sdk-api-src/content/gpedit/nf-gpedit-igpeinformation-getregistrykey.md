@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetRegistryKey
 title: IGPEInformation::GetRegistryKey (gpedit.h)
-
 description: The GetRegistryKey method retrieves a handle to the root of the registry key for the specified section of the GPO.
 old-location: policy\igpeinformation_getregistrykey.htm
 tech.root: Policy
 ms.assetid: 23ccca67-6e49-44d1-b69e-e72b9095bed8
-
 ms.date: 12/05/2018
 ms.keywords: GPO_SECTION_MACHINE, GPO_SECTION_USER, GetRegistryKey, GetRegistryKey method [Group Policy], GetRegistryKey method [Group Policy],IGPEInformation interface, IGPEInformation interface [Group Policy],GetRegistryKey method, IGPEInformation.GetRegistryKey, IGPEInformation::GetRegistryKey, _win32_igpeinformation_getregistrykey, gpedit/IGPEInformation::GetRegistryKey, policy.igpeinformation_getregistrykey
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGPEInformation.GetRegistryKey"
+f1_keywords:
+- gpedit/IGPEInformation.GetRegistryKey
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGPEInformation.GetRegistryKey
+- IGPEInformation.GetRegistryKey
 targetos: Windows
 req.typenames: 
 req.redist: 

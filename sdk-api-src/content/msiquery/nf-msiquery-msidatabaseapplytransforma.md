@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseApplyTransformA
 title: MsiDatabaseApplyTransformA function (msiquery.h)
-
 description: The MsiDatabaseApplyTransform function applies a transform to a database.
 old-location: setup\msidatabaseapplytransform.htm
 tech.root: Msi
 ms.assetid: a0222465-f778-43c1-8007-22df6a01f8bd
-
 ms.date: 12/05/2018
 ms.keywords: MSITRANSFORM_ERROR_ADDEXISTINGROW, MSITRANSFORM_ERROR_ADDEXISTINGTABLE, MSITRANSFORM_ERROR_CHANGECODEPAGE, MSITRANSFORM_ERROR_DELMISSINGROW, MSITRANSFORM_ERROR_DELMISSINGTABLE, MSITRANSFORM_ERROR_UPDATEMISSINGROW, MSITRANSFORM_ERROR_VIEWTRANSFORM, MsiDatabaseApplyTransform, MsiDatabaseApplyTransform function, MsiDatabaseApplyTransformA, MsiDatabaseApplyTransformW, _msi_msidatabaseapplytransform, msiquery/MsiDatabaseApplyTransform, msiquery/MsiDatabaseApplyTransformA, msiquery/MsiDatabaseApplyTransformW, setup.msidatabaseapplytransform
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseApplyTransform"
+f1_keywords:
+- msiquery/MsiDatabaseApplyTransform
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDatabaseApplyTransform
- - MsiDatabaseApplyTransformA
- - MsiDatabaseApplyTransformW
+- MsiDatabaseApplyTransform
+- MsiDatabaseApplyTransformA
+- MsiDatabaseApplyTransformW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionScaleTransform3D
 title: IDCompositionScaleTransform3D (dcomp.h)
-
 description: Represents a 3D transformation effect that affects the scale of a visual along the x-axis, y-axis, and z-axis. The coordinate system is scaled from the specified center point.
 old-location: directcomp\idcompositionscaletransform3d.htm
 tech.root: directcomp
 ms.assetid: 0526B772-EA84-40B2-88D6-CFB1A70A1D5A
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D, IDCompositionScaleTransform3D interface [DirectComposition], IDCompositionScaleTransform3D interface [DirectComposition],described, dcomp/IDCompositionScaleTransform3D, directcomp.idcompositionscaletransform3d
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform3D"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform3D
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D
+- IDCompositionScaleTransform3D
 targetos: Windows
 req.typenames: 
 req.redist: 

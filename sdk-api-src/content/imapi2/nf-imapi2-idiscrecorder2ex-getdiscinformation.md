@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetDiscInformation
 title: IDiscRecorder2Ex::GetDiscInformation (imapi2.h)
-
 description: Retrieves the disc information from the media.
 old-location: imapi\idiscrecorder2ex_getdiscinformation.htm
 tech.root: imapi
 ms.assetid: 4f2888cb-3f9e-4dc3-ba9a-c13a0a46f731
-
 ms.date: 12/05/2018
 ms.keywords: GetDiscInformation, GetDiscInformation method [IMAPI], GetDiscInformation method [IMAPI],IDiscRecorder2Ex interface, IDiscRecorder2Ex interface [IMAPI],GetDiscInformation method, IDiscRecorder2Ex.GetDiscInformation, IDiscRecorder2Ex::GetDiscInformation, imapi.idiscrecorder2ex_getdiscinformation, imapi2/IDiscRecorder2Ex::GetDiscInformation
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2Ex.GetDiscInformation"
+f1_keywords:
+- imapi2/IDiscRecorder2Ex.GetDiscInformation
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2Ex.GetDiscInformation
+- IDiscRecorder2Ex.GetDiscInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

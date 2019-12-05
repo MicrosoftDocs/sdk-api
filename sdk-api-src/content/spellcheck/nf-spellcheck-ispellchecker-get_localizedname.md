@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_LocalizedName
 title: ISpellChecker::get_LocalizedName (spellcheck.h)
-
 description: Gets text, suitable to display to the user, that describes this spell checker.
 old-location: intl\ispellchecker_localizedname.htm
 tech.root: Intl
 ms.assetid: 93bd9224-11fc-42cd-8b2a-93eec972a943
-
 ms.date: 12/05/2018
 ms.keywords: ISpellChecker interface [Internationalization for Windows Applications],LocalizedName property, ISpellChecker.LocalizedName, ISpellChecker.get_LocalizedName, ISpellChecker::LocalizedName, ISpellChecker::get_LocalizedName, LocalizedName property [Internationalization for Windows Applications], LocalizedName property [Internationalization for Windows Applications],ISpellChecker interface, get_LocalizedName, intl.ispellchecker_localizedname, spellcheck/ISpellChecker::LocalizedName, spellcheck/ISpellChecker::get_LocalizedName
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.LocalizedName"
+f1_keywords:
+- spellcheck/ISpellChecker.LocalizedName
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.LocalizedName
- - ISpellChecker.get_LocalizedName
+- ISpellChecker.LocalizedName
+- ISpellChecker.get_LocalizedName
 targetos: Windows
 req.typenames: 
 req.redist: 

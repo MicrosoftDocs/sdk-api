@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.PulseEndpoint
 title: IAudioOutputEndpointRT::PulseEndpoint (audioengineendpoint.h)
-
 description: Is reserved.
 old-location: termserv\iaudiooutputendpointrt_pulseendpoint.htm
 tech.root: TermServ
 ms.assetid: 8ab117d6-5b13-4420-9cf2-865ff2011806
-
 ms.date: 12/05/2018
 ms.keywords: IAudioOutputEndpointRT interface [Remote Desktop Services],PulseEndpoint method, IAudioOutputEndpointRT.PulseEndpoint, IAudioOutputEndpointRT::PulseEndpoint, PulseEndpoint, PulseEndpoint method [Remote Desktop Services], PulseEndpoint method [Remote Desktop Services],IAudioOutputEndpointRT interface, audioengineendpoint/IAudioOutputEndpointRT::PulseEndpoint, termserv.iaudiooutputendpointrt_pulseendpoint
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioOutputEndpointRT.PulseEndpoint"
+f1_keywords:
+- audioengineendpoint/IAudioOutputEndpointRT.PulseEndpoint
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioOutputEndpointRT.PulseEndpoint
+- IAudioOutputEndpointRT.PulseEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

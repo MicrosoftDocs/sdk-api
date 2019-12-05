@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_RESERVED_AUTHENTICATION0__
 title: IKEEXT_RESERVED_AUTHENTICATION0 (iketypes.h)
-
 description: Reserved for internal use.
 old-location: fwp\ikeext_reserved_authentication0.htm
 tech.root: fwp
 ms.assetid: afae9b31-363a-47d9-9fc9-18efd8332fce
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_RESERVED_AUTHENTICATION0, IKEEXT_RESERVED_AUTHENTICATION0 structure [Filtering], IKEEXT_RESERVED_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, fwp.ikeext_reserved_authentication0, iketypes/IKEEXT_RESERVED_AUTHENTICATION0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_RESERVED_AUTHENTICATION0"
+f1_keywords:
+- iketypes/IKEEXT_RESERVED_AUTHENTICATION0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_RESERVED_AUTHENTICATION0
+- IKEEXT_RESERVED_AUTHENTICATION0
 targetos: Windows
 req.typenames: IKEEXT_RESERVED_AUTHENTICATION0
 req.redist: 

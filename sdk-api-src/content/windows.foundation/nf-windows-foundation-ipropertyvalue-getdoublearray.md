@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDoubleArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of 64-bit floating point values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getdoublearray.htm
 tech.root: WinRT
 ms.assetid: 197a3626-e349-4027-913c-e8203dad4fc1
-
 ms.date: 12/05/2018
 ms.keywords: GetDoubleArray, GetDoubleArray method [Windows Runtime], GetDoubleArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDoubleArray method, IPropertyValue.GetDoubleArray, IPropertyValue.IPropertyValue, IPropertyValue::GetDoubleArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDoubleArray, winrt.ipropertyvalue_getdoublearray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetDoubleArray"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetDoubleArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetDoubleArray
+- IPropertyValue.GetDoubleArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcontainer.IMFASFSplitter
 title: IMFASFSplitter (wmcontainer.h)
-
 description: Provides methods to read data from an Advanced Systems Format (ASF) file.
 old-location: mf\imfasfsplitter.htm
 tech.root: medfound
 ms.assetid: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602
-
 ms.date: 12/05/2018
 ms.keywords: 75d8b2a3-7c50-4dd5-8927-b11eb9f12602, IMFASFSplitter, IMFASFSplitter interface [Media Foundation], IMFASFSplitter interface [Media Foundation],described, mf.imfasfsplitter, wmcontainer/IMFASFSplitter
 ms.topic: interface
-f1_keywords: 
- - "wmcontainer/IMFASFSplitter"
+f1_keywords:
+- wmcontainer/IMFASFSplitter
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFSplitter
+- IMFASFSplitter
 targetos: Windows
 req.typenames: 
 req.redist: 

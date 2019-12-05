@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IEnumMcastScope.Clone
 title: IEnumMcastScope::Clone (mdhcp.h)
-
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienummcastscope_clone.htm
 tech.root: Tapi
 ms.assetid: 96b2a09f-8a02-471d-a738-f81a8132e0c1
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumMcastScope interface, IEnumMcastScope interface [TAPI 2.2],Clone method, IEnumMcastScope.Clone, IEnumMcastScope::Clone, _tapi3_ienummcastscope_clone, mdhcp/IEnumMcastScope::Clone, tapi3.ienummcastscope_clone
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IEnumMcastScope.Clone"
+f1_keywords:
+- mdhcp/IEnumMcastScope.Clone
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IEnumMcastScope.Clone
+- IEnumMcastScope.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

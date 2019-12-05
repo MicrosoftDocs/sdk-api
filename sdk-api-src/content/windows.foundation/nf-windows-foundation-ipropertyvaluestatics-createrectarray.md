@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateRectArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified array of Rect values.
 old-location: winrt\ipropertyvaluestatics_createrectarray.htm
 tech.root: WinRT
 ms.assetid: 945f9c0a-22fe-42f6-b29b-3260607345f7
-
 ms.date: 12/05/2018
 ms.keywords: CreateRectArray, CreateRectArray method [Windows Runtime], CreateRectArray method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateRectArray method, IPropertyValueStatics.CreateRectArray, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateRectArray, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateRectArray, winrt.ipropertyvaluefactory_createrectarray, winrt.ipropertyvaluestatics_createrectarray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateRectArray"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateRectArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateRectArray
+- IPropertyValueStatics.CreateRectArray
 targetos: Windows
 req.typenames: 
 req.redist: 

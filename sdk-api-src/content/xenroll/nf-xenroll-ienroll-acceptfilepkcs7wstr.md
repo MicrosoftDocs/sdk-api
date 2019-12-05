@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.acceptFilePKCS7WStr
 title: IEnroll::acceptFilePKCS7WStr (xenroll.h)
-
-description: Accepts and processes a PKCS #7 message containing a certificate, then stores the message to a file.
+description: Accepts and processes a PKCS
 old-location: security\ienroll4_acceptfilepkcs7wstr.htm
 tech.root: SecCrypto
 ms.assetid: 9c2b99df-769b-457b-b5c5-7690b73d6f84
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],acceptFilePKCS7WStr method, IEnroll.acceptFilePKCS7WStr, IEnroll::acceptFilePKCS7WStr, acceptFilePKCS7WStr, acceptFilePKCS7WStr method [Security], acceptFilePKCS7WStr method [Security],IEnroll interface, security.ienroll4_acceptfilepkcs7wstr, xenroll/IEnroll::acceptFilePKCS7WStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.acceptFilePKCS7WStr"
+f1_keywords:
+- xenroll/IEnroll.acceptFilePKCS7WStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.acceptFilePKCS7WStr
+- IEnroll.acceptFilePKCS7WStr
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetCategory
 title: IKnownFolder::GetCategory (shobjidl_core.h)
-
 description: Retrieves the category&#8212;virtual, fixed, common, or per-user&#8212;of the selected folder.
 old-location: shell\IKnownFolder_GetCategory.htm
 tech.root: shell
 ms.assetid: b3a7f249-9d57-4bd1-830f-1c83c745782f
-
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [Windows Shell], GetCategory method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetCategory method, IKnownFolder.GetCategory, IKnownFolder::GetCategory, _shell_IKnownFolder_GetCategory, shell.IKnownFolder_GetCategory, shobjidl_core/IKnownFolder::GetCategory
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolder.GetCategory"
+f1_keywords:
+- shobjidl_core/IKnownFolder.GetCategory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IKnownFolder.GetCategory
+- IKnownFolder.GetCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

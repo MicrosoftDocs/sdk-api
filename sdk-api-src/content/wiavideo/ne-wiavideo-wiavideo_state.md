@@ -1,19 +1,17 @@
 ---
 UID: NE:wiavideo.__MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001
 title: WIAVIDEO_STATE (wiavideo.h)
-
 description: The WIAVIDEO_STATE enumeration is used to specify the current state of a video stream.
 old-location: wia\_wia_WIAVIDEO_STATE.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\enums\wiavideo_state.htm
-
 ms.date: 12/05/2018
 ms.keywords: WIAVIDEO_CREATING_VIDEO, WIAVIDEO_DESTROYING_VIDEO, WIAVIDEO_NO_VIDEO, WIAVIDEO_STATE, WIAVIDEO_STATE enumeration [WIA], WIAVIDEO_VIDEO_CREATED, WIAVIDEO_VIDEO_PAUSED, WIAVIDEO_VIDEO_PLAYING, _wia_WIAVIDEO_STATE, wia._wia_WIAVIDEO_STATE, wiavideo/WIAVIDEO_CREATING_VIDEO, wiavideo/WIAVIDEO_DESTROYING_VIDEO, wiavideo/WIAVIDEO_NO_VIDEO, wiavideo/WIAVIDEO_STATE, wiavideo/WIAVIDEO_VIDEO_CREATED, wiavideo/WIAVIDEO_VIDEO_PAUSED, wiavideo/WIAVIDEO_VIDEO_PLAYING
 ms.topic: enum
-f1_keywords: 
- - "wiavideo/WIAVIDEO_STATE"
+f1_keywords:
+- wiavideo/WIAVIDEO_STATE
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wiavideo.h
+- Wiavideo.h
 api_name:
- - WIAVIDEO_STATE
+- WIAVIDEO_STATE
 targetos: Windows
 req.typenames: WIAVIDEO_STATE
 req.redist: 

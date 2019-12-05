@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreInt3A
 title: XMStoreInt3A function (directxmath.h)
-
 description: Stores an XMVECTOR in a 16-byte aligned 3 element uint32_t array.
 old-location: dxmath\xmstoreint3a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt3A(VOID@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreInt3A, XMStoreInt3A, XMStoreInt3A method [DirectX Math Support APIs], dxmath.xmstoreint3a
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreInt3A"
+f1_keywords:
+- directxmath/XMStoreInt3A
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreInt3A
+- XMStoreInt3A
 targetos: Windows
 req.typenames: 
 req.redist: 

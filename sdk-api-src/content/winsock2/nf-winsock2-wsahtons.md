@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAHtons
 title: WSAHtons function (winsock2.h)
-
 description: The WSAHtons function converts a u_short from host byte order to network byte order.
 old-location: winsock\wsahtons_2.htm
 tech.root: WinSock
 ms.assetid: 95fb103b-f7dd-4fa4-bf68-ed8e87cdd96b
-
 ms.date: 12/05/2018
 ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.wsahtons_2, winsock2/WSAHtons
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAHtons"
+f1_keywords:
+- winsock2/WSAHtons
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAHtons
+- WSAHtons
 targetos: Windows
 req.typenames: 
 req.redist: 

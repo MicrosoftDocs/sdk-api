@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PFINDFILEINPATHCALLBACKW
 title: PFINDFILEINPATHCALLBACKW (dbghelp.h)
-
 description: An application-defined callback function used with the SymFindFileInPath function.
 old-location: base\symfindfileinpathproc.htm
 tech.root: Debug
 ms.assetid: e579158e-053d-4c81-a2c3-ac3af3d3a201
-
 ms.date: 12/05/2018
 ms.keywords: PFINDFILEINPATHCALLBACK, PFINDFILEINPATHCALLBACKW, SymFindFileInPathProc, SymFindFileInPathProc callback, SymFindFileInPathProc callback function, _win32_symfindfileinpathproc, base.symfindfileinpathproc, dbghelp/SymFindFileInPathProc
 ms.topic: callback
-f1_keywords: 
- - "dbghelp/SymFindFileInPathProc"
+f1_keywords:
+- dbghelp/SymFindFileInPathProc
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - SymFindFileInPathProc
+- SymFindFileInPathProc
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

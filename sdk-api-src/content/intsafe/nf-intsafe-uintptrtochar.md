@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrToChar
 title: UIntPtrToChar function (intsafe.h)
-
 description: Converts a value of type UINT_PTR to a value of type CHAR.
 old-location: shell\UIntPtrToChar.htm
 tech.root: shell
 ms.assetid: b98ec1ee-8439-494b-b8e6-aa3d127042fa
-
 ms.date: 12/05/2018
 ms.keywords: UIntPtrToChar, UIntPtrToChar function [Windows Shell], intsafe/UIntPtrToChar, shell.UIntPtrToChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntPtrToChar"
+f1_keywords:
+- intsafe/UIntPtrToChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - UIntPtrToChar
+- UIntPtrToChar
 targetos: Windows
 req.typenames: 
 req.redist: 

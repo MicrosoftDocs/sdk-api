@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.Collapse
 title: ITextRange::Collapse (tom.h)
-
 description: Collapses the specified text range into a degenerate point at either the beginning or end of the range.
 old-location: controls\ITextRange_Collapse.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\collapse.htm
-
 ms.date: 12/05/2018
 ms.keywords: Collapse, Collapse method [Windows Controls], Collapse method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],Collapse method, ITextRange.Collapse, ITextRange::Collapse, _win32_ITextRange_Collapse, _win32_ITextRange_Collapse_cpp, controls.ITextRange_Collapse, controls._win32_ITextRange_Collapse, tom/ITextRange::Collapse, tomEnd or tomFalse, tomStart or tomTrue
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.Collapse"
+f1_keywords:
+- tom/ITextRange.Collapse
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.Collapse
+- ITextRange.Collapse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertRequest3.GetRequestIdString
 title: ICertRequest3::GetRequestIdString (certcli.h)
-
 description: Gets the current internal request number, formatted as a string, for the request and subsequent certificate.
 old-location: security\icertrequest3_getrequestidstring.htm
 tech.root: SecCrypto
 ms.assetid: 09afc06f-95e8-4519-b0c7-36da5986e077
-
 ms.date: 12/05/2018
 ms.keywords: CCertRequest object [Security],GetRequestIdString method, GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],CCertRequest object, GetRequestIdString method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetRequestIdString method, ICertRequest3.GetRequestIdString, ICertRequest3::GetRequestIdString, certcli/ICertRequest3::GetRequestIdString, security.icertrequest3_getrequestidstring
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertRequest3.GetRequestIdString"
+f1_keywords:
+- certcli/ICertRequest3.GetRequestIdString
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertRequest3.GetRequestIdString
- - CCertRequest.GetRequestIdString
+- ICertRequest3.GetRequestIdString
+- CCertRequest.GetRequestIdString
 targetos: Windows
 req.typenames: 
 req.redist: 

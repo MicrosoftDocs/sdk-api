@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsSyntax
 title: IADsSyntax (iads.h)
-
 description: The IADsSyntax interface specifies methods to identify and modify the available Automation data types used to represent its data.
 old-location: adsi\iadssyntax.htm
 tech.root: adsi
 ms.assetid: 1ff8703f-b89d-435d-81af-e5c9a2dc01e2
-
 ms.date: 12/05/2018
 ms.keywords: IADsSyntax, IADsSyntax interface [ADSI], IADsSyntax interface [ADSI],described, _ds_iadssyntax, adsi.iadssyntax, iads/IADsSyntax
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsSyntax"
+f1_keywords:
+- iads/IADsSyntax
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsSyntax
+- IADsSyntax
 targetos: Windows
 req.typenames: 
 req.redist: 

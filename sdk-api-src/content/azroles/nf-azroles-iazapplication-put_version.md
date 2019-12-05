@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.put_Version
 title: IAzApplication::put_Version (azroles.h)
-
 description: Sets or retrieves the version of the application.
 old-location: security\iazapplication_version.htm
 tech.root: SecAuthZ
 ms.assetid: 4fa03e8c-e039-465c-aca2-4b68b894eb29
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],Version property, IAzApplication interface [Security],Version property, IAzApplication.Version, IAzApplication.put_Version, IAzApplication::Version, IAzApplication::get_Version, IAzApplication::put_Version, Version property [Security], Version property [Security],AzApplication object, Version property [Security],IAzApplication interface, azroles/IAzApplication::Version, azroles/IAzApplication::get_Version, azroles/IAzApplication::put_Version, put_Version, security.iazapplication_version
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.Version"
+f1_keywords:
+- azroles/IAzApplication.Version
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.Version
- - IAzApplication.get_Version
- - IAzApplication.put_Version
- - AzApplication.Version
+- IAzApplication.Version
+- IAzApplication.get_Version
+- IAzApplication.put_Version
+- AzApplication.Version
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

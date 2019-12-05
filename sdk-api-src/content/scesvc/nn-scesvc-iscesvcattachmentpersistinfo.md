@@ -1,19 +1,17 @@
 ---
 UID: NN:scesvc.ISceSvcAttachmentPersistInfo
 title: ISceSvcAttachmentPersistInfo (scesvc.h)
-
 description: The ISceSvcAttachmentPersistInfo interface retrieves any modified configuration or analysis information from an attachment snap-in.
 old-location: security\iscesvcattachmentpersistinfo.htm
 tech.root: SecMgmt
 ms.assetid: 3cd4bde2-55f6-4ab1-b175-7689b0cc529b
-
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentPersistInfo, ISceSvcAttachmentPersistInfo interface [Security], ISceSvcAttachmentPersistInfo interface [Security],described, _config_iscesvcattachmentpersistinfo, scesvc/ISceSvcAttachmentPersistInfo, security.iscesvcattachmentpersistinfo
 ms.topic: interface
-f1_keywords: 
- - "scesvc/ISceSvcAttachmentPersistInfo"
+f1_keywords:
+- scesvc/ISceSvcAttachmentPersistInfo
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsecedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsecedit.dll
+- Wsecedit.dll
 api_name:
- - ISceSvcAttachmentPersistInfo
+- ISceSvcAttachmentPersistInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

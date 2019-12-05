@@ -1,19 +1,17 @@
 ---
 UID: NF:lmremutl.NetRemoteTOD
 title: NetRemoteTOD function (lmremutl.h)
-
 description: The NetRemoteTOD function returns the time of day information from a specified server.
 old-location: netmgmt\netremotetod.htm
 tech.root: NetMgmt
 ms.assetid: 5a935e09-f188-4ee1-b998-c67488475baa
-
 ms.date: 12/05/2018
 ms.keywords: NetRemoteTOD, NetRemoteTOD function [Network Management], _win32_netremotetod, lmremutl/NetRemoteTOD, netmgmt.netremotetod
 ms.topic: function
 f1_keywords:
 - lmremutl/NetRemoteTOD
 dev_langs:
- - c++
+- c++
 req.header: lmremutl.h
 req.include-header: Lm.h
 req.target-type: Windows

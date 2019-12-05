@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.RemoveSegmentsAtEnd
 title: ID2D1Ink::RemoveSegmentsAtEnd (d2d1_3.h)
-
 description: Removes the given number of segments from the end of this ink object.
 old-location: direct2d\id2d1ink_removesegmentsatend.htm
 tech.root: Direct2D
 ms.assetid: 8EA09675-971E-4399-B718-E7433D894867
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Ink interface [Direct2D],RemoveSegmentsAtEnd method, ID2D1Ink.RemoveSegmentsAtEnd, ID2D1Ink::RemoveSegmentsAtEnd, RemoveSegmentsAtEnd, RemoveSegmentsAtEnd method [Direct2D], RemoveSegmentsAtEnd method [Direct2D],ID2D1Ink interface, d2d1_3/ID2D1Ink::RemoveSegmentsAtEnd, direct2d.id2d1ink_removesegmentsatend
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1Ink.RemoveSegmentsAtEnd"
+f1_keywords:
+- d2d1_3/ID2D1Ink.RemoveSegmentsAtEnd
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1_3.lib
 req.dll: D2d1_3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_3.dll
+- d2d1_3.dll
 api_name:
- - ID2D1Ink.RemoveSegmentsAtEnd
+- ID2D1Ink.RemoveSegmentsAtEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

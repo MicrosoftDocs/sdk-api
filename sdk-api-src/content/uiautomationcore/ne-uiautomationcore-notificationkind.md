@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.NotificationKind
 title: NotificationKind (uiautomationcore.h)
-
 description: Defines values that indicate the type of a notification event, and a hint to the listener about the processing of the event.
 old-location: winauto\uiauto_NotificationKind.htm
 tech.root: WinAuto
 ms.assetid: A74C1897-F762-4D7B-9A4D-6D09B9564A7C
-
 ms.date: 12/05/2018
 ms.keywords: NotificationKind, NotificationKind enumeration [Windows Accessibility], NotificationKind_ActionAborted, NotificationKind_ActionCompleted, NotificationKind_ItemAdded, NotificationKind_ItemRemoved, NotificationKind_Other, uiautomationclient/ NotificationKind_ActionCompleted, uiautomationclient/ NotificationKind_ItemAdded, uiautomationclient/ NotificationKind_ItemRemoved, uiautomationclient/NotificationKind, uiautomationclient/NotificationKind_ActionAborted, uiautomationclient/NotificationKind_Other, winauto.uiauto_NotificationKind
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/NotificationKind"
+f1_keywords:
+- uiautomationcore/NotificationKind
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h, Uiautomationcore.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - NotificationKind
+- NotificationKind
 targetos: Windows
 req.typenames: 
 req.redist: 

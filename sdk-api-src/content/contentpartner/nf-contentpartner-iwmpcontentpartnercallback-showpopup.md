@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.ShowPopup
 title: IWMPContentPartnerCallback::ShowPopup (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_showpopup.htm
 tech.root: WMP
 ms.assetid: 93b2938c-e3e7-4c9f-92b1-a0b37ed573e6
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartnerCallback interface [Windows Media Player],ShowPopup method, IWMPContentPartnerCallback.ShowPopup, IWMPContentPartnerCallback::ShowPopup, IWMPContentPartnerCallbackShowPopup, ShowPopup, ShowPopup method [Windows Media Player], ShowPopup method [Windows Media Player],IWMPContentPartnerCallback interface, contentpartner/IWMPContentPartnerCallback::ShowPopup, wmp.iwmpcontentpartnercallback_showpopup
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartnerCallback.ShowPopup"
+f1_keywords:
+- contentpartner/IWMPContentPartnerCallback.ShowPopup
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.ShowPopup
+- IWMPContentPartnerCallback.ShowPopup
 targetos: Windows
 req.typenames: 
 req.redist: 

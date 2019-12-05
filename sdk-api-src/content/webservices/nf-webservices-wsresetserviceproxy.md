@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsResetServiceProxy
 title: WsResetServiceProxy function (webservices.h)
-
 description: Resets service proxy.
 old-location: wsw\wsresetserviceproxy.htm
 tech.root: wsw
 ms.assetid: 6a99c958-92f9-4487-8768-3265dab7f0ea
-
 ms.date: 12/05/2018
 ms.keywords: WsResetServiceProxy, WsResetServiceProxy function [Web Services for Windows], webservices/WsResetServiceProxy, wsw.wsresetserviceproxy
 ms.topic: function
-f1_keywords: 
- - "webservices/WsResetServiceProxy"
+f1_keywords:
+- webservices/WsResetServiceProxy
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsResetServiceProxy
+- WsResetServiceProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

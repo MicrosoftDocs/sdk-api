@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPinEvents.OnEnterComplete
 title: IMbnPinEvents::OnEnterComplete (mbnapi.h)
-
 description: Notification method called by the Mobile Broadband service to indicate that a PIN enter operation has completed.
 old-location: mbn\imbnpinevents_onentercomplete.htm
 tech.root: mbn
 ms.assetid: 6a4bc731-e498-4afb-a648-0b49d2f592ca
-
 ms.date: 12/05/2018
 ms.keywords: E_FAIL, E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnPinEvents interface [Microsoft Broadband Networks],OnEnterComplete method, IMbnPinEvents.OnEnterComplete, IMbnPinEvents::OnEnterComplete, OnEnterComplete, OnEnterComplete method [Microsoft Broadband Networks], OnEnterComplete method [Microsoft Broadband Networks],IMbnPinEvents interface, S_OK, mbn.imbnpinevents_onentercomplete, mbnapi/IMbnPinEvents::OnEnterComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPinEvents.OnEnterComplete"
+f1_keywords:
+- mbnapi/IMbnPinEvents.OnEnterComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinEvents.OnEnterComplete
+- IMbnPinEvents.OnEnterComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

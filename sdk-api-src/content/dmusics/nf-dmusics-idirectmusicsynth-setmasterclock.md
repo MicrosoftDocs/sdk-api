@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.SetMasterClock
 title: IDirectMusicSynth::SetMasterClock (dmusics.h)
-
 description: The SetMasterClock method provides the synthesizer with a master time source, which the synthesizer requires to synchronize itself with the rest of DirectMusic.
 old-location: audio\idirectmusicsynth_setmasterclock.htm
 tech.root: audio
 ms.assetid: 1585cfcc-2c83-4705-b465-52a621ccc163
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth interface [Audio Devices],SetMasterClock method, IDirectMusicSynth.SetMasterClock, IDirectMusicSynth::SetMasterClock, SetMasterClock, SetMasterClock method [Audio Devices], SetMasterClock method [Audio Devices],IDirectMusicSynth interface, audio.idirectmusicsynth_setmasterclock, audmp-routines_4e91a462-de4e-4aed-bd0d-7ba1e91ccb36.xml, dmusics/IDirectMusicSynth::SetMasterClock
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth.SetMasterClock"
+f1_keywords:
+- dmusics/IDirectMusicSynth.SetMasterClock
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth.SetMasterClock
+- IDirectMusicSynth.SetMasterClock
 targetos: Windows
 req.typenames: 
 req.redist: 

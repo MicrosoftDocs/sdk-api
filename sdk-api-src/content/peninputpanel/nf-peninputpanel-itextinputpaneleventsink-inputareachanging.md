@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InputAreaChanging
 title: ITextInputPanelEventSink::InputAreaChanging (peninputpanel.h)
-
 description: Occurs when the input area is about to change on the Tablet PC Input Panel.
 old-location: tablet\itextinputpaneleventsink_inputareachanging.htm
 tech.root: tablet
 ms.assetid: e5f96798-2428-4acd-9d9a-addfdf14bb84
-
 ms.date: 12/05/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InputAreaChanging method, ITextInputPanelEventSink.InputAreaChanging, ITextInputPanelEventSink::InputAreaChanging, InputAreaChanging, InputAreaChanging method [Tablet PC], InputAreaChanging method [Tablet PC],ITextInputPanelEventSink interface, e5f96798-2428-4acd-9d9a-addfdf14bb84, peninputpanel/ITextInputPanelEventSink::InputAreaChanging, tablet.itextinputpaneleventsink_inputareachanging
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanelEventSink.InputAreaChanging"
+f1_keywords:
+- peninputpanel/ITextInputPanelEventSink.InputAreaChanging
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.InputAreaChanging
+- ITextInputPanelEventSink.InputAreaChanging
 targetos: Windows
 req.typenames: 
 req.redist: 

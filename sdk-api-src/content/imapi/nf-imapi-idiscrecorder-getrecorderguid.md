@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderGUID
 title: IDiscRecorder::GetRecorderGUID (imapi.h)
-
 description: Retrieves the GUID of the physical disc recorder currently associated with the recorder object.
 old-location: imapi\idiscrecorder_getrecorderguid.htm
 tech.root: imapi
 ms.assetid: 9d13d352-bc48-43c7-9800-12855d754435
-
 ms.date: 12/05/2018
 ms.keywords: GetRecorderGUID, GetRecorderGUID method [IMAPI], GetRecorderGUID method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderGUID method, IDiscRecorder.GetRecorderGUID, IDiscRecorder::GetRecorderGUID, _win32_idiscrecorder_getrecorderguid, base.idiscrecorder_getrecorderguid, imapi.idiscrecorder_getrecorderguid, imapi/IDiscRecorder::GetRecorderGUID
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscRecorder.GetRecorderGUID"
+f1_keywords:
+- imapi/IDiscRecorder.GetRecorderGUID
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscRecorder.GetRecorderGUID
+- IDiscRecorder.GetRecorderGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

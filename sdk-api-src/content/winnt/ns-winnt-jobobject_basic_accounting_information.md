@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._JOBOBJECT_BASIC_ACCOUNTING_INFORMATION
 title: JOBOBJECT_BASIC_ACCOUNTING_INFORMATION (winnt.h)
-
 description: Contains basic accounting information for a job object.
 old-location: base\jobobject_basic_accounting_information_str.htm
 tech.root: ProcThread
 ms.assetid: 84dbe191-a5bf-4f55-815f-c4f2e60da22b
-
 ms.date: 12/05/2018
-ms.keywords: "*PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_ACCOUNTING_INFORMATION structure, PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION, PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION structure pointer, _JOBOBJECT_BASIC_ACCOUNTING_INFORMATION, _win32_jobobject_basic_accounting_information_str, base.jobobject_basic_accounting_information_str, winnt/JOBOBJECT_BASIC_ACCOUNTING_INFORMATION, winnt/PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION"
+ms.keywords: '*PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_ACCOUNTING_INFORMATION, JOBOBJECT_BASIC_ACCOUNTING_INFORMATION structure, PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION, PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION structure pointer, _JOBOBJECT_BASIC_ACCOUNTING_INFORMATION, _win32_jobobject_basic_accounting_information_str, base.jobobject_basic_accounting_information_str, winnt/JOBOBJECT_BASIC_ACCOUNTING_INFORMATION, winnt/PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/JOBOBJECT_BASIC_ACCOUNTING_INFORMATION"
+f1_keywords:
+- winnt/JOBOBJECT_BASIC_ACCOUNTING_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - JOBOBJECT_BASIC_ACCOUNTING_INFORMATION
+- JOBOBJECT_BASIC_ACCOUNTING_INFORMATION
 targetos: Windows
 req.typenames: JOBOBJECT_BASIC_ACCOUNTING_INFORMATION, *PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION
 req.redist: 

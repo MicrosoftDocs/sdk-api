@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.UnregisterAudioSessionNotification
 title: IAudioSessionControl::UnregisterAudioSessionNotification (audiopolicy.h)
-
 description: The UnregisterAudioSessionNotification method deletes a previous registration by the client to receive notifications.
 old-location: coreaudio\iaudiosessioncontrol_unregisteraudiosessionnotification.htm
 tech.root: CoreAudio
 ms.assetid: 1b496d58-c855-44b8-b437-6cb6017dcc9d
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],UnregisterAudioSessionNotification method, IAudioSessionControl.UnregisterAudioSessionNotification, IAudioSessionControl::UnregisterAudioSessionNotification, IAudioSessionControlUnregisterAudioSessionNotification, UnregisterAudioSessionNotification, UnregisterAudioSessionNotification method [Core Audio], UnregisterAudioSessionNotification method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::UnregisterAudioSessionNotification, coreaudio.iaudiosessioncontrol_unregisteraudiosessionnotification
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionControl.UnregisterAudioSessionNotification"
+f1_keywords:
+- audiopolicy/IAudioSessionControl.UnregisterAudioSessionNotification
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionControl.UnregisterAudioSessionNotification
+- IAudioSessionControl.UnregisterAudioSessionNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

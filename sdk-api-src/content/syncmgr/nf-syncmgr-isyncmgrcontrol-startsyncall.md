@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartSyncAll
 title: ISyncMgrControl::StartSyncAll (syncmgr.h)
-
 description: Synchronizes all items managed by all handlers.
 old-location: shell\ISyncMgrControl_StartSyncAll.htm
 tech.root: shell
 ms.assetid: 3b0d5070-1866-4346-b2bf-93b48a952af6
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartSyncAll method, ISyncMgrControl.StartSyncAll, ISyncMgrControl::StartSyncAll, StartSyncAll, StartSyncAll method [Windows Shell], StartSyncAll method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartSyncAll, shell.ISyncMgrControl_StartSyncAll, syncmgr/ISyncMgrControl::StartSyncAll
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.StartSyncAll"
+f1_keywords:
+- syncmgr/ISyncMgrControl.StartSyncAll
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.StartSyncAll
+- ISyncMgrControl.StartSyncAll
 targetos: Windows
 req.typenames: 
 req.redist: 

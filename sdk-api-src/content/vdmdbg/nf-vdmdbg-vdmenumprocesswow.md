@@ -1,19 +1,17 @@
 ---
 UID: NF:vdmdbg.VDMEnumProcessWOW
 title: VDMEnumProcessWOW function (vdmdbg.h)
-
 description: Enumerates all virtual DOS machines running 16-bit Windows tasks.
 old-location: winprog\vdmenumprocesswow.htm
 tech.root: DevNotes
 ms.assetid: fd79ff50-cac2-40e0-86ad-2d6af97c99a9
-
 ms.date: 12/05/2018
 ms.keywords: VDMEnumProcessWOW, VDMEnumProcessWOW function [Windows API], vdmdbg/VDMEnumProcessWOW, winprog.vdmenumprocesswow
 ms.topic: function
-f1_keywords: 
- - "vdmdbg/VDMEnumProcessWOW"
+f1_keywords:
+- vdmdbg/VDMEnumProcessWOW
 dev_langs:
- - c++
+- c++
 req.header: vdmdbg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VdmDbg.lib
 req.dll: VdmDbg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VdmDbg.dll
+- VdmDbg.dll
 api_name:
- - VDMEnumProcessWOW
+- VDMEnumProcessWOW
 targetos: Windows
 req.typenames: 
 req.redist: 

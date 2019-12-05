@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidPlayback
 title: IMSVidPlayback (segment.h)
-
 description: The IMSVidPlayback interface controls a Video Control playback device.
 old-location: mstv\imsvidplayback.htm
 tech.root: mstv
 ms.assetid: ed954545-f58f-4841-9ffd-185350f76388
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback, IMSVidPlayback interface [Microsoft TV Technologies], IMSVidPlayback interface [Microsoft TV Technologies],described, IMSVidPlaybackInterface, mstv.imsvidplayback, segment/IMSVidPlayback
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidPlayback"
+f1_keywords:
+- segment/IMSVidPlayback
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback
+- IMSVidPlayback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vpnotify.IVPNotify
 title: IVPNotify (vpnotify.h)
-
 description: Supports a private communication mechanism between the Overlay Mixer filter and a VPE decoder filter that represents a hardware decoder.Only the Overlay Mixer filter implements this interface. Applications should never use it.
 old-location: dshow\ivpnotify.htm
 tech.root: DirectShow
 ms.assetid: 6b40ba9e-8562-4d31-beaf-e4d4858bf145
-
 ms.date: 12/05/2018
 ms.keywords: IVPNotify, IVPNotify interface [DirectShow], IVPNotify interface [DirectShow],described, IVPNotifyInterface, dshow.ivpnotify, vpnotify/IVPNotify
 ms.topic: interface
-f1_keywords: 
- - "vpnotify/IVPNotify"
+f1_keywords:
+- vpnotify/IVPNotify
 dev_langs:
- - c++
+- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVPNotify
+- IVPNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

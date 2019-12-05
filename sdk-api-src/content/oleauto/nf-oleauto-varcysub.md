@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCySub
 title: VarCySub function (oleauto.h)
-
 description: Subtracts two variants of type currency.
 old-location: automat\varcysub.htm
 tech.root: automat
 ms.assetid: 248640b4-4c53-402b-af53-b76a809f0741
-
 ms.date: 12/05/2018
 ms.keywords: VarCySub, VarCySub function [Automation], _oa96_VarCySub, automat.varcysub, oleauto/VarCySub
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCySub"
+f1_keywords:
+- oleauto/VarCySub
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCySub
+- VarCySub
 targetos: Windows
 req.typenames: 
 req.redist: 

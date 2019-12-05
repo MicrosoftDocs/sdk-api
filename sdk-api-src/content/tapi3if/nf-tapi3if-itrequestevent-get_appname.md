@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITRequestEvent.get_AppName
 title: ITRequestEvent::get_AppName (tapi3if.h)
-
 description: The get_AppName method gets the name of the application.
 old-location: tapi3\itrequestevent_get_appname.htm
 tech.root: Tapi
 ms.assetid: d53fae21-4a4d-46ab-a0ff-48a7474b8782
-
 ms.date: 12/05/2018
 ms.keywords: ITRequestEvent interface [TAPI 2.2],get_AppName method, ITRequestEvent.get_AppName, ITRequestEvent::get_AppName, _tapi3_itrequestevent_get_appname, get_AppName, get_AppName method [TAPI 2.2], get_AppName method [TAPI 2.2],ITRequestEvent interface, tapi3.itrequestevent_get_appname, tapi3if/ITRequestEvent::get_AppName
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITRequestEvent.get_AppName"
+f1_keywords:
+- tapi3if/ITRequestEvent.get_AppName
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITRequestEvent.get_AppName
+- ITRequestEvent.get_AppName
 targetos: Windows
 req.typenames: 
 req.redist: 

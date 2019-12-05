@@ -1,19 +1,17 @@
 ---
 UID: NF:exdisp.IShellWindows.Item
 title: IShellWindows::Item (exdisp.h)
-
 description: Returns the registered Shell window for a specified index.
 old-location: shell\IShellWindows_Item.htm
 tech.root: shell
 ms.assetid: 04157d1a-8a4d-4ffd-882d-41748408ba2b
-
 ms.date: 12/05/2018
 ms.keywords: IShellWindows interface [Windows Shell],Item method, IShellWindows.Item, IShellWindows::Item, Item, Item method [Windows Shell], Item method [Windows Shell],IShellWindows interface, _win32_IShellWindows_Item, exdisp/IShellWindows::Item, shell.IShellWindows_Item
 ms.topic: method
-f1_keywords: 
- - "exdisp/IShellWindows.Item"
+f1_keywords:
+- exdisp/IShellWindows.Item
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 5.00.2014.0216 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IShellWindows.Item
+- IShellWindows.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

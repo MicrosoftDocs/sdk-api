@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMProfile2
 title: IWMProfile2 (wmsdkidl.h)
-
 description: The IWMProfile2 interface exposes the globally unique identifier for a system profile.
 old-location: wmformat\iwmprofile2.htm
 tech.root: wmformat
 ms.assetid: 34e30edb-3247-4eaa-9a63-6d94c9e37c0b
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile2, IWMProfile2 interface [windows Media Format], IWMProfile2 interface [windows Media Format],described, IWMProfile2Interface, wmformat.iwmprofile2, wmsdkidl/IWMProfile2
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMProfile2"
+f1_keywords:
+- wmsdkidl/IWMProfile2
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMProfile2
+- IWMProfile2
 targetos: Windows
 req.typenames: 
 req.redist: 

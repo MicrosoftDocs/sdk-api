@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgCreateDocfile
 title: StgCreateDocfile function (coml2api.h)
-
 description: Creates a new compound file storage object using the COM-provided compound file implementation for the IStorage interface.
 old-location: stg\stgcreatedocfile.htm
 tech.root: Stg
 ms.assetid: 3292484b-8eff-438d-b989-b58ae323872b
-
 ms.date: 12/05/2018
 ms.keywords: StgCreateDocfile, StgCreateDocfile function [Structured Storage], _stg_stgcreatedocfile, coml2api/StgCreateDocfile, stg.stgcreatedocfile
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgCreateDocfile"
+f1_keywords:
+- coml2api/StgCreateDocfile
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-COM-OLE32-l1-1-0.dll
- - Ext-MS-Win-COM-OLE32-l1-1-1.dll
- - Ext-MS-Win-COM-OLE32-l1-1-2.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-COM-OLE32-l1-1-0.dll
+- Ext-MS-Win-COM-OLE32-l1-1-1.dll
+- Ext-MS-Win-COM-OLE32-l1-1-2.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - StgCreateDocfile
+- StgCreateDocfile
 targetos: Windows
 req.typenames: 
 req.redist: 

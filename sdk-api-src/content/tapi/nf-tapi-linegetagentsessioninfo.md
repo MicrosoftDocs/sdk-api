@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetAgentSessionInfo
 title: lineGetAgentSessionInfo function (tapi.h)
-
 description: The lineGetAgentSessionInfo function returns a structure that holds the ACD information associated with a particular agent session handle.
 old-location: tapi2\linegetagentsessioninfo.htm
 tech.root: Tapi
 ms.assetid: 06a5ea23-4205-46fd-abe7-ee4575be81c8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetagentsessioninfo, lineGetAgentSessionInfo, lineGetAgentSessionInfo function [TAPI 2.2], tapi/lineGetAgentSessionInfo, tapi2.linegetagentsessioninfo"
+ms.keywords: _tapi2_linegetagentsessioninfo, lineGetAgentSessionInfo, lineGetAgentSessionInfo function [TAPI 2.2], tapi/lineGetAgentSessionInfo, tapi2.linegetagentsessioninfo
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetAgentSessionInfo"
+f1_keywords:
+- tapi/lineGetAgentSessionInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetAgentSessionInfo
+- lineGetAgentSessionInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

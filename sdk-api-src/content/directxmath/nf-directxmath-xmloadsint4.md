@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMLoadSInt4
 title: XMLoadSInt4 function (directxmath.h)
-
 description: Loads signed integer data into an XMVECTOR.
 old-location: dxmath\xmloadsint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadSInt4(const XMINT4)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadSInt4, XMLoadSInt4, XMLoadSInt4 method [DirectX Math Support APIs], dxmath.xmloadsint4
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMLoadSInt4"
+f1_keywords:
+- directxmath/XMLoadSInt4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMLoadSInt4
+- XMLoadSInt4
 targetos: Windows
 req.typenames: 
 req.redist: 

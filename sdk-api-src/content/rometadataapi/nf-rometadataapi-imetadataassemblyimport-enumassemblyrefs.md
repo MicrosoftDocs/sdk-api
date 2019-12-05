@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumAssemblyRefs
 title: IMetaDataAssemblyImport::EnumAssemblyRefs (rometadataapi.h)
-
 description: Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
 old-location: winrt\imetadataassemblyimport_enumassemblyrefs.htm
 tech.root: WinRT
 ms.assetid: 2b5768ef-47fc-4052-bb68-e279a027c887
-
 ms.date: 12/05/2018
 ms.keywords: EnumAssemblyRefs, EnumAssemblyRefs method [Windows Runtime], EnumAssemblyRefs method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumAssemblyRefs method, IMetaDataAssemblyImport.EnumAssemblyRefs, IMetaDataAssemblyImport::EnumAssemblyRefs, rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs, winrt.imetadataassemblyimport_enumassemblyrefs
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.EnumAssemblyRefs"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.EnumAssemblyRefs
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.EnumAssemblyRefs
+- IMetaDataAssemblyImport.EnumAssemblyRefs
 targetos: Windows
 req.typenames: 
 req.redist: 

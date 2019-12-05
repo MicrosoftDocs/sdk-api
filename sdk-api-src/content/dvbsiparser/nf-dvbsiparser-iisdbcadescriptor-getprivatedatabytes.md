@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCADescriptor.GetPrivateDataBytes
 title: IIsdbCADescriptor::GetPrivateDataBytes (dvbsiparser.h)
-
 description: Gets the private data bytes from a conditional access (CA) descriptor.
 old-location: mstv\iisdbcadescriptor_getprivatedatabytes.htm
 tech.root: mstv
 ms.assetid: cd64ba74-aab2-45eb-945a-187d3aaf9bdd
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateDataBytes, GetPrivateDataBytes method [Microsoft TV Technologies], GetPrivateDataBytes method [Microsoft TV Technologies],IIsdbCADescriptor interface, IIsdbCADescriptor interface [Microsoft TV Technologies],GetPrivateDataBytes method, IIsdbCADescriptor.GetPrivateDataBytes, IIsdbCADescriptor::GetPrivateDataBytes, dvbsiparser/IIsdbCADescriptor::GetPrivateDataBytes, mstv.iisdbcadescriptor_getprivatedatabytes
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCADescriptor.GetPrivateDataBytes"
+f1_keywords:
+- dvbsiparser/IIsdbCADescriptor.GetPrivateDataBytes
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCADescriptor.GetPrivateDataBytes
+- IIsdbCADescriptor.GetPrivateDataBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

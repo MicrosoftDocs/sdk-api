@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.EnumMediaStreams
 title: IMultiMediaStream::EnumMediaStreams (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The EnumMediaStreams method retrieves a media stream object, specified by index.
 old-location: dshow\imultimediastream_enummediastreams.htm
 tech.root: DirectShow
 ms.assetid: 2fb51794-83ac-44c5-b388-d7b945870324
-
 ms.date: 12/05/2018
 ms.keywords: EnumMediaStreams, EnumMediaStreams method [DirectShow], EnumMediaStreams method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],EnumMediaStreams method, IMultiMediaStream.EnumMediaStreams, IMultiMediaStream::EnumMediaStreams, IMultiMediaStreamEnumMediaStreams, dshow.imultimediastream_enummediastreams, mmstream/IMultiMediaStream::EnumMediaStreams
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMultiMediaStream.EnumMediaStreams"
+f1_keywords:
+- mmstream/IMultiMediaStream.EnumMediaStreams
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMultiMediaStream.EnumMediaStreams
+- IMultiMediaStream.EnumMediaStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

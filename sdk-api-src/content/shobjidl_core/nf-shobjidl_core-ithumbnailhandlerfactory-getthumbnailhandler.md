@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IThumbnailHandlerFactory.GetThumbnailHandler
 title: IThumbnailHandlerFactory::GetThumbnailHandler (shobjidl_core.h)
-
 description: Gets the requested thumbnail handler for the thumbnail of a given item.
 old-location: shell\IThumbnailHandlerFactory_GetThumbnailHandler.htm
 tech.root: shell
 ms.assetid: ddd0caba-079f-4b22-8c89-6ba09adeba60
-
 ms.date: 12/05/2018
 ms.keywords: GetThumbnailHandler, GetThumbnailHandler method [Windows Shell], GetThumbnailHandler method [Windows Shell],IThumbnailHandlerFactory interface, IThumbnailHandlerFactory interface [Windows Shell],GetThumbnailHandler method, IThumbnailHandlerFactory.GetThumbnailHandler, IThumbnailHandlerFactory::GetThumbnailHandler, _shell_IThumbnailHandlerFactory_GetThumbnailHandler, shell.IThumbnailHandlerFactory_GetThumbnailHandler, shobjidl_core/IThumbnailHandlerFactory::GetThumbnailHandler
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IThumbnailHandlerFactory.GetThumbnailHandler"
+f1_keywords:
+- shobjidl_core/IThumbnailHandlerFactory.GetThumbnailHandler
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IThumbnailHandlerFactory.GetThumbnailHandler
+- IThumbnailHandlerFactory.GetThumbnailHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

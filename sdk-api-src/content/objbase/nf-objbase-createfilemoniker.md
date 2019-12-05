@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreateFileMoniker
 title: CreateFileMoniker function (objbase.h)
-
 description: Creates a file moniker based on the specified path.
 old-location: com\createfilemoniker.htm
 tech.root: com
 ms.assetid: d9677fa0-cda0-4b63-a21f-1fd0e27c8f3f
-
 ms.date: 12/05/2018
 ms.keywords: CreateFileMoniker, CreateFileMoniker function [COM], _com_CreateFileMoniker, com.createfilemoniker, objbase/CreateFileMoniker
 ms.topic: function
-f1_keywords: 
- - "objbase/CreateFileMoniker"
+f1_keywords:
+- objbase/CreateFileMoniker
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - CreateFileMoniker
+- CreateFileMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

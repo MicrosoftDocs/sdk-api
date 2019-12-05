@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.SetHomeProvider
 title: IMbnMultiCarrier::SetHomeProvider (mbnapi.h)
-
 description: Updates the home provider for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_sethomeprovider.htm
 tech.root: mbn
 ms.assetid: 9FDC1B01-4768-4621-9B0E-6EC9AB4275A9
-
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrier interface [Microsoft Broadband Networks],SetHomeProvider method, IMbnMultiCarrier.SetHomeProvider, IMbnMultiCarrier::SetHomeProvider, SetHomeProvider, SetHomeProvider method [Microsoft Broadband Networks], SetHomeProvider method [Microsoft Broadband Networks],IMbnMultiCarrier interface, mbn.imbnmulticarrier_sethomeprovider, mbnapi/IMbnMultiCarrier::SetHomeProvider
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrier.SetHomeProvider"
+f1_keywords:
+- mbnapi/IMbnMultiCarrier.SetHomeProvider
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrier.SetHomeProvider
+- IMbnMultiCarrier.SetHomeProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

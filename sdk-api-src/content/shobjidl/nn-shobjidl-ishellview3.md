@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IShellView3
 title: IShellView3 (shobjidl.h)
-
 description: Extends the capabilities of IShellView2 by providing a method to replace IShellView2::CreateViewWindow2.
 old-location: shell\IShellView3.htm
 tech.root: shell
 ms.assetid: 96b61e84-0d31-494d-a922-cd3dcd5735b9
-
 ms.date: 12/05/2018
 ms.keywords: IShellView3, IShellView3 interface [Windows Shell], IShellView3 interface [Windows Shell],described, _shell_IShellView3, shell.IShellView3, shobjidl/IShellView3
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IShellView3"
+f1_keywords:
+- shobjidl/IShellView3
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IShellView3
+- IShellView3
 targetos: Windows
 req.typenames: 
 req.redist: 

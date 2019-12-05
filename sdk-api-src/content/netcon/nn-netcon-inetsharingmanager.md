@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.INetSharingManager
 title: INetSharingManager (netcon.h)
-
 description: The INetSharingManager interface is the primary interface for the Manager object. INetSharingManager provides methods to determine if sharing is installed, to manage port mappings, and to obtain enumeration interfaces for public and private connections.
 old-location: ics\inetsharingmanager.htm
 tech.root: ics
 ms.assetid: e7009d13-89c2-4fd9-8f6c-dcdc67178598
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager, INetSharingManager interface [ICS/ICF], INetSharingManager interface [ICS/ICF],described, _ics_inetsharingmanager, ics.inetsharingmanager, netcon/INetSharingManager
 ms.topic: interface
-f1_keywords: 
- - "netcon/INetSharingManager"
+f1_keywords:
+- netcon/INetSharingManager
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingManager
+- INetSharingManager
 targetos: Windows
 req.typenames: 
 req.redist: 

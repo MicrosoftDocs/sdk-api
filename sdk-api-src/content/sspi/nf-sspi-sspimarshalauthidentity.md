@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiMarshalAuthIdentity
 title: SspiMarshalAuthIdentity function (sspi.h)
-
 description: Serializes the specified identity structure into a byte array.
 old-location: security\sspimarshalauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: e43135ad-7fcd-4da6-a4e4-c91c41eeb865
-
 ms.date: 12/05/2018
 ms.keywords: SspiMarshalAuthIdentity, SspiMarshalAuthIdentity function [Security], security.sspimarshalauthidentity, sspi/SspiMarshalAuthIdentity
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiMarshalAuthIdentity"
+f1_keywords:
+- sspi/SspiMarshalAuthIdentity
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiMarshalAuthIdentity
+- SspiMarshalAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

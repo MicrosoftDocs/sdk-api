@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidFeatures.get__NewEnum
 title: IMSVidFeatures::get__NewEnum (segment.h)
-
 description: The get__NewEnum method retrieves an enumerator for the collection.
 old-location: mstv\imsvidfeatures_get__newenum.htm
 tech.root: mstv
 ms.assetid: 6c619f62-5041-410b-8ce0-d811992a32d6
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures interface [Microsoft TV Technologies],get__NewEnum method, IMSVidFeatures.get__NewEnum, IMSVidFeatures::get__NewEnum, IMSVidFeaturesget__NewEnum, get__NewEnum, get__NewEnum method [Microsoft TV Technologies], get__NewEnum method [Microsoft TV Technologies],IMSVidFeatures interface, mstv.imsvidfeatures_get__newenum, segment/IMSVidFeatures::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidFeatures.get__NewEnum"
+f1_keywords:
+- segment/IMSVidFeatures.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFeatures.get__NewEnum
+- IMSVidFeatures.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

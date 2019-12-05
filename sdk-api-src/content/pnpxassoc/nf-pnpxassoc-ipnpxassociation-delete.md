@@ -1,19 +1,17 @@
 ---
 UID: NF:pnpxassoc.IPNPXAssociation.Delete
 title: IPNPXAssociation::Delete (pnpxassoc.h)
-
 description: Removes an entry from the association database.
 old-location: ncd\ipnpxassociation_delete.htm
 tech.root: FunDisc
 ms.assetid: cc00c135-140d-4e05-9180-779917d88688
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method, Delete method,IPNPXAssociation interface, IPNPXAssociation interface,Delete method, IPNPXAssociation.Delete, IPNPXAssociation::Delete, ncd.ipnpxassociation_delete, pnpxassoc/IPNPXAssociation::Delete
 ms.topic: method
-f1_keywords: 
- - "pnpxassoc/IPNPXAssociation.Delete"
+f1_keywords:
+- pnpxassoc/IPNPXAssociation.Delete
 dev_langs:
- - c++
+- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - pnpxassoc.h
+- pnpxassoc.h
 api_name:
- - IPNPXAssociation.Delete
+- IPNPXAssociation.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

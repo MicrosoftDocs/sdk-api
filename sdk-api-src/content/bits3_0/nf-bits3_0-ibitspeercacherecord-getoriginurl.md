@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetOriginUrl
 title: IBitsPeerCacheRecord::GetOriginUrl (bits3_0.h)
-
 description: Gets the origin URL of the cached file.
 old-location: bits\ibitspeercacherecord_getoriginurl.htm
 tech.root: Bits
 ms.assetid: 9d74df3a-89e0-4a3a-82f3-c2e79c609b21
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginUrl, GetOriginUrl method [BITS], GetOriginUrl method [BITS],IBitsPeerCacheRecord interface, IBitsPeerCacheRecord interface [BITS],GetOriginUrl method, IBitsPeerCacheRecord.GetOriginUrl, IBitsPeerCacheRecord::GetOriginUrl, bits.ibitspeercacherecord_getoriginurl, bits3_0/IBitsPeerCacheRecord::GetOriginUrl
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheRecord.GetOriginUrl"
+f1_keywords:
+- bits3_0/IBitsPeerCacheRecord.GetOriginUrl
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheRecord.GetOriginUrl
+- IBitsPeerCacheRecord.GetOriginUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:comsvcs._ApplicationProcessRecycleInfo
 title: ApplicationProcessRecycleInfo (comsvcs.h)
-
 description: Represents details about the recycling of a process hosting COM+ applications.
 old-location: cos\applicationprocessrecycleinfo.htm
 tech.root: cossdk
 ms.assetid: 9e00c6a3-b82e-48a2-bec5-c5fbd6960072
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessRecycleInfo, ApplicationProcessRecycleInfo structure [COM+], comsvcs/ApplicationProcessRecycleInfo, cos.applicationprocessrecycleinfo
 ms.topic: struct
-f1_keywords: 
- - "comsvcs/ApplicationProcessRecycleInfo"
+f1_keywords:
+- comsvcs/ApplicationProcessRecycleInfo
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ApplicationProcessRecycleInfo
+- ApplicationProcessRecycleInfo
 targetos: Windows
 req.typenames: ApplicationProcessRecycleInfo
 req.redist: 

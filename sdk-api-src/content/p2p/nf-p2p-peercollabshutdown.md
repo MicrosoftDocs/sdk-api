@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabShutdown
 title: PeerCollabShutdown function (p2p.h)
-
 description: Shuts down the Peer Collaboration infrastructure and releases any resources associated with it.
 old-location: p2p\peercollabshutdown.htm
 tech.root: P2PSdk
 ms.assetid: 4e328188-c8a1-4ba9-817b-3d130a64b985
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabShutdown, PeerCollabShutdown function [Peer Networking], p2p.peercollabshutdown, p2p/PeerCollabShutdown
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabShutdown"
+f1_keywords:
+- p2p/PeerCollabShutdown
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabShutdown
+- PeerCollabShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

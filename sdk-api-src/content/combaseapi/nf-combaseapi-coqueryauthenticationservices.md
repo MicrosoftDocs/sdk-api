@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoQueryAuthenticationServices
 title: CoQueryAuthenticationServices function (combaseapi.h)
-
 description: Retrieves a list of the authentication services registered when the process called CoInitializeSecurity.
 old-location: com\coqueryauthenticationservices.htm
 tech.root: com
 ms.assetid: e9e7c5a3-70ec-4a68-ac21-1ab6774d140f
-
 ms.date: 12/05/2018
 ms.keywords: CoQueryAuthenticationServices, CoQueryAuthenticationServices function [COM], _com_CoQueryAuthenticationServices, com.coqueryauthenticationservices, combaseapi/CoQueryAuthenticationServices
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoQueryAuthenticationServices"
+f1_keywords:
+- combaseapi/CoQueryAuthenticationServices
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoQueryAuthenticationServices
+- CoQueryAuthenticationServices
 targetos: Windows
 req.typenames: 
 req.redist: 

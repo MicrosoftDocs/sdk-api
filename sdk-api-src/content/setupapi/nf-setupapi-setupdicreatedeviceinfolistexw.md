@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInfoListExW
 title: SetupDiCreateDeviceInfoListExW function (setupapi.h)
-
 description: The SetupDiCreateDeviceInfoList function creates an empty device information set on a remote or a local computer and optionally associates the set with a device setup class .
 old-location: devinst\setupdicreatedeviceinfolistex.htm
 tech.root: devinst
 ms.assetid: 4dae7b07-2e24-4fd8-82f2-f947296ce3c4
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiCreateDeviceInfoListEx, SetupDiCreateDeviceInfoListEx function [Device and Driver Installation], SetupDiCreateDeviceInfoListExA, SetupDiCreateDeviceInfoListExW, devinst.setupdicreatedeviceinfolistex, di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml, setupapi/SetupDiCreateDeviceInfoListEx
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiCreateDeviceInfoListEx"
+f1_keywords:
+- setupapi/SetupDiCreateDeviceInfoListEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiCreateDeviceInfoListEx
- - SetupDiCreateDeviceInfoListExW
+- SetupDiCreateDeviceInfoListEx
+- SetupDiCreateDeviceInfoListExW
 targetos: Windows
 req.typenames: 
 req.redist: 

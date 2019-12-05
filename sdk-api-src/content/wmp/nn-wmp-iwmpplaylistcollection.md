@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPPlaylistCollection
 title: IWMPPlaylistCollection (wmp.h)
-
 description: The IWMPPlaylistCollection interface provides methods for manipulating the IWMPPlaylist and IWMPPlaylistArray interfaces.
 old-location: wmp\iwmpplaylistcollection.htm
 tech.root: WMP
 ms.assetid: b6861651-f0c3-4b99-8c81-a8a8f8b47692
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylistCollection, IWMPPlaylistCollection interface [Windows Media Player], IWMPPlaylistCollection interface [Windows Media Player],described, IWMPPlaylistCollectionInterface, wmp.iwmpplaylistcollection, wmp/IWMPPlaylistCollection
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPPlaylistCollection"
+f1_keywords:
+- wmp/IWMPPlaylistCollection
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPPlaylistCollection
- - IWMPPlaylistCollection.setDeleted
+- IWMPPlaylistCollection
+- IWMPPlaylistCollection.setDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

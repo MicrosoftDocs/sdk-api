@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IEnumBackgroundCopyFiles.Reset
 title: IEnumBackgroundCopyFiles::Reset (bits.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: bits\ienumbackgroundcopyfiles_reset.htm
 tech.root: Bits
 ms.assetid: 471e1417-8d22-4368-93f4-151aa8a662ba
-
 ms.date: 12/05/2018
 ms.keywords: IEnumBackgroundCopyFiles interface [BITS],Reset method, IEnumBackgroundCopyFiles.Reset, IEnumBackgroundCopyFiles::Reset, Reset, Reset method [BITS], Reset method [BITS],IEnumBackgroundCopyFiles interface, _drz_ienumbackgroundcopyfiles_reset, bits.ienumbackgroundcopyfiles_reset, bits/IEnumBackgroundCopyFiles::Reset
 ms.topic: method
-f1_keywords: 
- - "bits/IEnumBackgroundCopyFiles.Reset"
+f1_keywords:
+- bits/IEnumBackgroundCopyFiles.Reset
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyFiles.Reset
+- IEnumBackgroundCopyFiles.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

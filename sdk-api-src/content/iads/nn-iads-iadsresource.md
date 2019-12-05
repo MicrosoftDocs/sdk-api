@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsResource
 title: IADsResource (iads.h)
-
 description: The IADsResource interface is a dual interface that inherits from IADs. It is designed to manage an open resource for a file service across a network.
 old-location: adsi\iadsresource.htm
 tech.root: adsi
 ms.assetid: 217749a4-55dc-457f-8582-1513ff3b0666
-
 ms.date: 12/05/2018
 ms.keywords: IADsResource, IADsResource interface [ADSI], IADsResource interface [ADSI],described, _ds_iadsresource, adsi.iadsresource, iads/IADsResource
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsResource"
+f1_keywords:
+- iads/IADsResource
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsResource
+- IADsResource
 targetos: Windows
 req.typenames: 
 req.redist: 

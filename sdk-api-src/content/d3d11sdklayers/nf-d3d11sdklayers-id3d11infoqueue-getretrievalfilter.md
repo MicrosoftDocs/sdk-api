@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetRetrievalFilter
 title: ID3D11InfoQueue::GetRetrievalFilter (d3d11sdklayers.h)
-
 description: Get the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3d11\id3d11infoqueue_getretrievalfilter.htm
 tech.root: direct3d11
 ms.assetid: bbf05fe7-91b7-40ce-895c-82e60fa456e9
-
 ms.date: 12/05/2018
 ms.keywords: 5e162a9f-4e8f-4852-65fb-df19d695af47, GetRetrievalFilter, GetRetrievalFilter method [Direct3D 11], GetRetrievalFilter method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],GetRetrievalFilter method, ID3D11InfoQueue.GetRetrievalFilter, ID3D11InfoQueue::GetRetrievalFilter, d3d11sdklayers/ID3D11InfoQueue::GetRetrievalFilter, direct3d11.id3d11infoqueue_getretrievalfilter
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11InfoQueue.GetRetrievalFilter"
+f1_keywords:
+- d3d11sdklayers/ID3D11InfoQueue.GetRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11InfoQueue.GetRetrievalFilter
+- ID3D11InfoQueue.GetRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

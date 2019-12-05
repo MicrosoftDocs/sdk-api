@@ -1,19 +1,17 @@
 ---
 UID: NN:tom.ITextPara2
 title: ITextPara2 (tom.h)
-
 description: Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, ITextFont and ITextPara.
 old-location: controls\itextpara2.htm
 tech.root: Controls
 ms.assetid: 31a0849f-c651-4178-b1ff-a4333bcde5d9
-
 ms.date: 12/05/2018
 ms.keywords: ITextPara2, ITextPara2 interface [Windows Controls], ITextPara2 interface [Windows Controls],described, controls.itextpara2, tom/ITextPara2
 ms.topic: interface
-f1_keywords: 
- - "tom/ITextPara2"
+f1_keywords:
+- tom/ITextPara2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara2
+- ITextPara2
 targetos: Windows
 req.typenames: 
 req.redist: 

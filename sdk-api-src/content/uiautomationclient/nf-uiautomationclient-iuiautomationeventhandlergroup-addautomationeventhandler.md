@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddAutomationEventHandler
 title: IUIAutomationEventHandlerGroup::AddAutomationEventHandler (uiautomationclient.h)
-
 description: Registers a method that handles Microsoft UI Automation events.
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addautomationeventhandler.htm
 tech.root: WinAuto
 ms.assetid: EEBEDC7B-48B5-4074-8B85-1DC8B47A90AD
-
 ms.date: 12/05/2018
 ms.keywords: AddAutomationEventHandler, AddAutomationEventHandler method [Windows Accessibility], AddAutomationEventHandler method [Windows Accessibility],IUIAutomationEventHandlerGroup interface, IUIAutomationEventHandlerGroup interface [Windows Accessibility],AddAutomationEventHandler method, IUIAutomationEventHandlerGroup.AddAutomationEventHandler, IUIAutomationEventHandlerGroup::AddAutomationEventHandler, uiautomationclient/IUIAutomationEventHandlerGroup::AddAutomationEventHandler, winauto.uiauto_iuiautomationeventhandlergroup_addautomationeventhandler
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationEventHandlerGroup.AddAutomationEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomationEventHandlerGroup.AddAutomationEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationEventHandlerGroup.AddAutomationEventHandler
+- IUIAutomationEventHandlerGroup.AddAutomationEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

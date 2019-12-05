@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.put_Priority
 title: IFaxPort::put_Priority (faxcom.h)
-
 description: The IFaxPort::get_Priority property is a number representing the transmission priority designated for a specified fax port. Priority determines the relative order in which available fax devices send outgoing transmissions.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_priority_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0515.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Priority property, IFaxPort.Priority, IFaxPort.put_Priority, IFaxPort::Priority, IFaxPort::get_Priority, IFaxPort::put_Priority, Priority property [Fax Service], Priority property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_priority, fax._mfax_ifaxport_get_priority, fax._mfax_ifaxport_mfax_ifaxport_get_priority_cpp, faxcom/IFaxPort::Priority, faxcom/IFaxPort::get_Priority, faxcom/IFaxPort::put_Priority, put_Priority
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.Priority"
+f1_keywords:
+- faxcom/IFaxPort.Priority
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.Priority
- - IFaxPort.get_Priority
- - IFaxPort.put_Priority
+- IFaxPort.Priority
+- IFaxPort.get_Priority
+- IFaxPort.put_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMCSECollection
 title: IGPMCSECollection (gpmgmt.h)
-
 description: The IGPMCSECollection interface contains methods that enable applications to query a collection of client-side extensions (CSEs) when you use the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmcsecollection.htm
 tech.root: gpmc
 ms.assetid: e32c1c39-b817-4db6-ad76-b2e66b54d79d
-
 ms.date: 12/05/2018
 ms.keywords: GPMCSECollection, IGPMCSECollection, IGPMCSECollection interface [GPMC], IGPMCSECollection interface [GPMC],described, _win32_igpmcsecollection, gpmc.igpmcsecollection, gpmgmt/IGPMCSECollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMCSECollection"
+f1_keywords:
+- gpmgmt/IGPMCSECollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMCSECollection
- - IGPMCSECollection.Count
- - IGPMCSECollection.get_Count
- - IGPMCSECollection.Item
- - IGPMCSECollection.get_Item
- - GPMCSECollection
+- IGPMCSECollection
+- IGPMCSECollection.Count
+- IGPMCSECollection.get_Count
+- IGPMCSECollection.Item
+- IGPMCSECollection.get_Item
+- GPMCSECollection
 targetos: Windows
 req.typenames: 
 req.redist: 

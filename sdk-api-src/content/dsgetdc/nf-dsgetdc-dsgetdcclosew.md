@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsGetDcCloseW
 title: DsGetDcCloseW function (dsgetdc.h)
-
 description: Closes a domain controller enumeration operation.
 old-location: ad\dsgetdcclose.htm
 tech.root: ad
 ms.assetid: d193e4cd-ad66-4d93-b912-348f17e93a6f
-
 ms.date: 12/05/2018
 ms.keywords: DsGetDcClose, DsGetDcClose function [Active Directory], DsGetDcCloseW, ad.dsgetdcclose, dsgetdc/DsGetDcClose, dsgetdc/DsGetDcCloseW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsGetDcClose"
+f1_keywords:
+- dsgetdc/DsGetDcClose
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsGetDcClose
- - DsGetDcCloseW
+- DsGetDcClose
+- DsGetDcCloseW
 targetos: Windows
 req.typenames: 
 req.redist: 

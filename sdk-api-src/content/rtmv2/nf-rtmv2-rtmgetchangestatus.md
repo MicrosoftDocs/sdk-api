@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmGetChangeStatus
 title: RtmGetChangeStatus function (rtmv2.h)
-
 description: The RtmGetChangeStatus function checks whether there are pending changes that have not been retrieved with RtmGetChangedDests.
 old-location: rras\rtmgetchangestatus.htm
 tech.root: RRAS
 ms.assetid: fafe465a-6c89-45b0-83a9-f08d1d9546c6
-
 ms.date: 12/05/2018
 ms.keywords: RtmGetChangeStatus, RtmGetChangeStatus function [RAS], _rtmv2ref_rtmgetchangestatus, rras.rtmgetchangestatus, rtmv2/RtmGetChangeStatus
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmGetChangeStatus"
+f1_keywords:
+- rtmv2/RtmGetChangeStatus
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmGetChangeStatus
+- RtmGetChangeStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

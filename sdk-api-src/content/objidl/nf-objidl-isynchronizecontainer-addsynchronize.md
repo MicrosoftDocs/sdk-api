@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ISynchronizeContainer.AddSynchronize
 title: ISynchronizeContainer::AddSynchronize (objidl.h)
-
 description: Adds a synchronization object to the container.
 old-location: com\isynchronizecontainer_addsynchronize.htm
 tech.root: com
 ms.assetid: b2d48de3-848c-4cc9-bd96-fffbb2ca2ba3
-
 ms.date: 12/05/2018
 ms.keywords: AddSynchronize, AddSynchronize method [COM], AddSynchronize method [COM],ISynchronizeContainer interface, ISynchronizeContainer interface [COM],AddSynchronize method, ISynchronizeContainer.AddSynchronize, ISynchronizeContainer::AddSynchronize, _com_isynchronizecontainer_addsynchronize, com.isynchronizecontainer_addsynchronize, objidlbase/ISynchronizeContainer::AddSynchronize
 ms.topic: method
-f1_keywords: 
- - "objidl/ISynchronizeContainer.AddSynchronize"
+f1_keywords:
+- objidl/ISynchronizeContainer.AddSynchronize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronizeContainer.AddSynchronize
+- ISynchronizeContainer.AddSynchronize
 targetos: Windows
 req.typenames: 
 req.redist: 

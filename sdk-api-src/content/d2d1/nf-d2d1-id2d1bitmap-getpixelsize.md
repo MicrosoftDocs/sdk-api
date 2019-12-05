@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetPixelSize
 title: ID2D1Bitmap::GetPixelSize (d2d1.h)
-
 description: Returns the size, in device-dependent units (pixels), of the bitmap.
 old-location: direct2d\ID2D1Bitmap_GetPixelSize.htm
 tech.root: Direct2D
 ms.assetid: 0d51408a-2648-4984-bbc0-9846d5161c77
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelSize, GetPixelSize method [Direct2D], GetPixelSize method [Direct2D],ID2D1Bitmap interface, ID2D1Bitmap interface [Direct2D],GetPixelSize method, ID2D1Bitmap.GetPixelSize, ID2D1Bitmap::GetPixelSize, d2d1/ID2D1Bitmap::GetPixelSize, direct2d.ID2D1Bitmap_GetPixelSize
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Bitmap.GetPixelSize"
+f1_keywords:
+- d2d1/ID2D1Bitmap.GetPixelSize
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Bitmap.GetPixelSize
+- ID2D1Bitmap.GetPixelSize
 targetos: Windows
 req.typenames: 
 req.redist: 

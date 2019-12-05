@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.get_WindowSize
 title: IAMVideoCompression::get_WindowSize (strmif.h)
-
 description: The get_WindowSize method retrieves the number of frames over which the compressor will maintain the average data rate.
 old-location: dshow\iamvideocompression_get_windowsize.htm
 tech.root: DirectShow
 ms.assetid: 1f12aa72-3468-4dca-a5f6-43f64f6d2f83
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],get_WindowSize method, IAMVideoCompression.get_WindowSize, IAMVideoCompression::get_WindowSize, IAMVideoCompressionget_WindowSize, dshow.iamvideocompression_get_windowsize, get_WindowSize, get_WindowSize method [DirectShow], get_WindowSize method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::get_WindowSize
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.get_WindowSize"
+f1_keywords:
+- strmif/IAMVideoCompression.get_WindowSize
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.get_WindowSize
+- IAMVideoCompression.get_WindowSize
 targetos: Windows
 req.typenames: 
 req.redist: 

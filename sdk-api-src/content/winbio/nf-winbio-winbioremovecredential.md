@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioRemoveCredential
 title: WinBioRemoveCredential function (winbio.h)
-
 description: Deletes a biometric logon credential for a specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioremovecredential.htm
 tech.root: SecBioMet
 ms.assetid: 56a5d510-f2cb-457b-884a-ad08ea21ce01
-
 ms.date: 12/05/2018
 ms.keywords: WINBIO_CREDENTIAL_ALL, WINBIO_CREDENTIAL_PASSWORD, WinBioRemoveCredential, WinBioRemoveCredential function [Windows Biometric Framework API], secbiomet.winbioremovecredential, winbio/WinBioRemoveCredential
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioRemoveCredential"
+f1_keywords:
+- winbio/WinBioRemoveCredential
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- Winbio.dll
+- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioRemoveCredential
+- WinBioRemoveCredential
 targetos: Windows
 req.typenames: 
 req.redist: 

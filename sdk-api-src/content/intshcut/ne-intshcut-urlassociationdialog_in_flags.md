@@ -1,19 +1,17 @@
 ---
 UID: NE:intshcut.urlassociationdialog_in_flags
 title: URLASSOCIATIONDIALOG_IN_FLAGS (intshcut.h)
-
 description: The URLASSOCIATIONDIALOG_IN_FLAGS enumerated values are used with URLAssociationDialog to determine how it executes.
 old-location: shell\URLASSOCIATIONDIALOG_IN_FLAGS.htm
 tech.root: shell
 ms.assetid: bbfb0063-0d7e-432b-8428-a7652933c670
-
 ms.date: 12/05/2018
 ms.keywords: URLASSOCDLG_FL_REGISTER_ASSOC, URLASSOCDLG_FL_USE_DEFAULT_NAME, URLASSOCIATIONDIALOG_IN_FLAGS, URLASSOCIATIONDIALOG_IN_FLAGS enumeration [Windows Shell], _win32_URLASSOCIATIONDIALOG_IN_FLAGS, intshcut/URLASSOCDLG_FL_REGISTER_ASSOC, intshcut/URLASSOCDLG_FL_USE_DEFAULT_NAME, intshcut/URLASSOCIATIONDIALOG_IN_FLAGS, shell.URLASSOCIATIONDIALOG_IN_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "intshcut/URLASSOCIATIONDIALOG_IN_FLAGS"
+f1_keywords:
+- intshcut/URLASSOCIATIONDIALOG_IN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intshcut.h
+- Intshcut.h
 api_name:
- - URLASSOCIATIONDIALOG_IN_FLAGS
+- URLASSOCIATIONDIALOG_IN_FLAGS
 targetos: Windows
 req.typenames: URLASSOCIATIONDIALOG_IN_FLAGS
 req.redist: 

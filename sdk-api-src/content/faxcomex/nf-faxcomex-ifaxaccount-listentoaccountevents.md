@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxAccount.ListenToAccountEvents
 title: IFaxAccount::ListenToAccountEvents (faxcomex.h)
-
 description: Sets the flags of a FAX_ACCOUNT_EVENTS_TYPE_ENUM variable that represents the events for which the account is listening.
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_listentoaccountevents_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\listentoaccountevents.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccount interface [Fax Service],ListenToAccountEvents method, IFaxAccount.ListenToAccountEvents, IFaxAccount::ListenToAccountEvents, ListenToAccountEvents, ListenToAccountEvents method [Fax Service], ListenToAccountEvents method [Fax Service],IFaxAccount interface, _mfax_faxaccount.listentoaccountevents, fax._mfax_faxaccount_cpp_mfax_faxaccount_listentoaccountevents_cpp, fax._mfax_faxaccount_listentoaccountevents, faxcomex/IFaxAccount::ListenToAccountEvents
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxAccount.ListenToAccountEvents"
+f1_keywords:
+- faxcomex/IFaxAccount.ListenToAccountEvents
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccount.ListenToAccountEvents
- - IFaxAccount.ListenToAccountEvents
+- IFaxAccount.ListenToAccountEvents
+- IFaxAccount.ListenToAccountEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

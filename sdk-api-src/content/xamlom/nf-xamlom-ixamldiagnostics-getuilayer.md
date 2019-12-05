@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.GetUiLayer
 title: IXamlDiagnostics::GetUiLayer (xamlom.h)
-
 description: Gets the visual diagnostics root that can be used to draw on for highlighting elements in the tree.
 old-location: xaml_diagnostics\ixamldiagnostics_getuilayer.htm
 tech.root: xaml_diagnostics
 ms.assetid: BE45AF9E-0C2D-439B-A360-2B9AE9359AEE
-
 ms.date: 12/05/2018
 ms.keywords: GetUiLayer, GetUiLayer method, GetUiLayer method,IXamlDiagnostics interface, IXamlDiagnostics interface,GetUiLayer method, IXamlDiagnostics.GetUiLayer, IXamlDiagnostics::GetUiLayer, xaml_diagnostics.ixamldiagnostics_getuilayer, xamlom/IXamlDiagnostics::GetUiLayer
 ms.topic: method
-f1_keywords: 
- - "xamlom/IXamlDiagnostics.GetUiLayer"
+f1_keywords:
+- xamlom/IXamlDiagnostics.GetUiLayer
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IXamlDiagnostics.GetUiLayer
+- IXamlDiagnostics.GetUiLayer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkRecognizerCharacterAutoCompletionMode
 title: InkRecognizerCharacterAutoCompletionMode (msinkaut.h)
-
 description: Specifies types of character input modes.
 old-location: tablet\inkrecognizercharacterautocompletionmode.htm
 tech.root: tablet
 ms.assetid: 69677379-6700-4128-9e8e-675a9a61a25e
-
 ms.date: 12/05/2018
 ms.keywords: 69677379-6700-4128-9e8e-675a9a61a25e, IRCACM_Full, IRCACM_Prefix, IRCACM_Random, InkRecognizerCharacterAutoCompletionMode, InkRecognizerCharacterAutoCompletionMode enumeration [Tablet PC], msinkaut/IRCACM_Full, msinkaut/IRCACM_Prefix, msinkaut/IRCACM_Random, msinkaut/InkRecognizerCharacterAutoCompletionMode, tablet.inkrecognizercharacterautocompletionmode
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkRecognizerCharacterAutoCompletionMode"
+f1_keywords:
+- msinkaut/InkRecognizerCharacterAutoCompletionMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkRecognizerCharacterAutoCompletionMode
+- InkRecognizerCharacterAutoCompletionMode
 targetos: Windows
 req.typenames: InkRecognizerCharacterAutoCompletionMode
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPDeviceControl
 title: IMDSPDeviceControl (mswmdm.h)
-
 description: The IMDSPDeviceControl interface provides methods for controlling devices.
 old-location: wmdm\imdspdevicecontrol.htm
 tech.root: WMDM
 ms.assetid: a196edef-f670-4c1f-92bd-172a75f3f420
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl, IMDSPDeviceControl interface [windows Media Device Manager], IMDSPDeviceControl interface [windows Media Device Manager],described, IMDSPDeviceControlInterface, mswmdm/IMDSPDeviceControl, wmdm.imdspdevicecontrol
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPDeviceControl"
+f1_keywords:
+- mswmdm/IMDSPDeviceControl
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPDeviceControl
+- IMDSPDeviceControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt32
 title: PropVariantToUInt32 function (propvarutil.h)
-
 description: Extracts an ULONG value from a PROPVARIANT structure. If no value can be extracted, then a default value is assigned.
 old-location: properties\PropVariantToUInt32.htm
 tech.root: properties
 ms.assetid: ce1d8d07-2532-48bd-be8b-7650230dbe0d
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt32, PropVariantToUInt32 function [Windows Properties], properties.PropVariantToUInt32, propvarutil/PropVariantToUInt32, shell.PropVariantToUInt32, shell_PropVariantToUInt32
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt32"
+f1_keywords:
+- propvarutil/PropVariantToUInt32
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt32
+- PropVariantToUInt32
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

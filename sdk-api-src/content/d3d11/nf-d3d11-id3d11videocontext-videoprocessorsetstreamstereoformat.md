@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 title: ID3D11VideoContext::VideoProcessorSetStreamStereoFormat (d3d11.h)
-
 description: Enables or disables stereo 3D video for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamstereoformat.htm
 tech.root: medfound
 ms.assetid: FAAE902A-622E-42D2-B332-CD4126A4182E
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamStereoFormat method, ID3D11VideoContext.VideoProcessorSetStreamStereoFormat, ID3D11VideoContext::VideoProcessorSetStreamStereoFormat, VideoProcessorSetStreamStereoFormat, VideoProcessorSetStreamStereoFormat method [Media Foundation], VideoProcessorSetStreamStereoFormat method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamStereoFormat, mf.id3d11videocontext_videoprocessorsetstreamstereoformat
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamStereoFormat"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
+- ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

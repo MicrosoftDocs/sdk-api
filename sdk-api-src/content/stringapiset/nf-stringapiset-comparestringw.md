@@ -1,19 +1,17 @@
 ---
 UID: NF:stringapiset.CompareStringW
 title: CompareStringW function (stringapiset.h)
-
 description: Compares two character strings, for a locale specified by identifier.Caution  Using CompareString incorrectly can compromise the security of your application.
 old-location: intl\comparestring.htm
 tech.root: Intl
 ms.assetid: 4db84fa7-f3c2-48fb-ad7d-8673397c4b0e
-
 ms.date: 12/05/2018
 ms.keywords: CompareString, CompareString function [Internationalization for Windows Applications], CompareStringA, CompareStringW, _win32_CompareString, _win32_CompareString_cpp, intl.comparestring, stringapiset/CompareString, stringapiset/CompareStringA, stringapiset/CompareStringW, winnls/CompareString, winnls/CompareStringA, winnls/CompareStringW, winui._win32_CompareString
 ms.topic: function
-f1_keywords: 
- - "stringapiset/CompareString"
+f1_keywords:
+- stringapiset/CompareString
 dev_langs:
- - c++
+- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-Core-String-l1-1-0.dll
- - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-Core-String-l1-1-0.dll
+- API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
 api_name:
- - CompareString
- - CompareStringA
- - CompareStringW
+- CompareString
+- CompareStringA
+- CompareStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

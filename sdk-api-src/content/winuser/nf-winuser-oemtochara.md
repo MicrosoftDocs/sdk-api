@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.OemToCharA
 title: OemToCharA function (winuser.h)
-
 description: Translates a string from the OEM-defined character set into either an ANSI or a wide-character string.Warning  Do not use.
 old-location: menurc\oemtochar.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtochar.htm
-
 ms.date: 12/05/2018
 ms.keywords: OemToChar, OemToChar function [Menus and Other Resources], OemToCharA, OemToCharW, _win32_OemToChar, _win32_oemtochar_cpp, menurc.oemtochar, winui._win32_oemtochar, winuser/OemToChar, winuser/OemToCharA, winuser/OemToCharW
 ms.topic: function
-f1_keywords: 
- - "winuser/OemToChar"
+f1_keywords:
+- winuser/OemToChar
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - OemToChar
- - OemToCharA
- - OemToCharW
+- OemToChar
+- OemToCharA
+- OemToCharW
 targetos: Windows
 req.typenames: 
 req.redist: 

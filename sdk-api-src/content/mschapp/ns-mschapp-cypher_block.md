@@ -1,19 +1,17 @@
 ---
 UID: NS:mschapp._CYPHER_BLOCK
 title: CYPHER_BLOCK (mschapp.h)
-
 description: The CYPHER_BLOCK is the basic unit of storage for the one-way function (OWF) password hashes.
 old-location: mschap\cypher_block.htm
 tech.root: MsChap
 ms.assetid: eb0e38ed-8d12-4df2-be58-7ac18447121f
-
 ms.date: 12/05/2018
 ms.keywords: CYPHER_BLOCK, CYPHER_BLOCK structure [MS-CHAP], _CYPHER_BLOCK, mschap.cypher_block, mschapp/CYPHER_BLOCK
 ms.topic: struct
-f1_keywords: 
- - "mschapp/CYPHER_BLOCK"
+f1_keywords:
+- mschapp/CYPHER_BLOCK
 dev_langs:
- - c++
+- c++
 req.header: mschapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsChapp.h
+- MsChapp.h
 api_name:
- - CYPHER_BLOCK
+- CYPHER_BLOCK
 targetos: Windows
 req.typenames: CYPHER_BLOCK
 req.redist: 

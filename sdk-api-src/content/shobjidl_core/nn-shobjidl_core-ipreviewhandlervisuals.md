@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IPreviewHandlerVisuals
 title: IPreviewHandlerVisuals (shobjidl_core.h)
-
 description: Exposes methods for applying color and font information to preview handlers.
 old-location: shell\IPreviewHandlerVisuals.htm
 tech.root: shell
 ms.assetid: 3e07af46-4271-472d-be80-70eccc26729c
-
 ms.date: 12/05/2018
 ms.keywords: IPreviewHandlerVisuals, IPreviewHandlerVisuals interface [Windows Shell], IPreviewHandlerVisuals interface [Windows Shell],described, _shell_IPreviewHandlerVisuals, shell.IPreviewHandlerVisuals, shobjidl_core/IPreviewHandlerVisuals
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IPreviewHandlerVisuals"
+f1_keywords:
+- shobjidl_core/IPreviewHandlerVisuals
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IPreviewHandlerVisuals
+- IPreviewHandlerVisuals
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search 4 or later

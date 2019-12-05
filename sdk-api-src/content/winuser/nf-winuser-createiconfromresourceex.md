@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateIconFromResourceEx
 title: CreateIconFromResourceEx function (winuser.h)
-
 description: Creates an icon or cursor from resource bits describing the icon.
 old-location: menurc\createiconfromresourceex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\createiconfromresourceex.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateIconFromResourceEx, CreateIconFromResourceEx function [Menus and Other Resources], LR_DEFAULTCOLOR, LR_DEFAULTSIZE, LR_MONOCHROME, LR_SHARED, _win32_CreateIconFromResourceEx, _win32_createiconfromresourceex_cpp, menurc.createiconfromresourceex, winui._win32_createiconfromresourceex, winuser/CreateIconFromResourceEx
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateIconFromResourceEx"
+f1_keywords:
+- winuser/CreateIconFromResourceEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CreateIconFromResourceEx
+- CreateIconFromResourceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

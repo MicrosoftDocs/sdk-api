@@ -1,19 +1,17 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.GetCompBufferInfo
 title: IAMVideoAccelerator::GetCompBufferInfo (videoacc.h)
-
 description: The GetCompBufferInfo method gets information about the compressed buffers used for DirectX Video Acceleration (DXVA) decoding.
 old-location: dshow\iamvideoaccelerator_getcompbufferinfo.htm
 tech.root: DirectShow
 ms.assetid: c32fb94d-396f-460a-9e69-1baaf14eff6e
-
 ms.date: 12/05/2018
 ms.keywords: GetCompBufferInfo, GetCompBufferInfo method [DirectShow], GetCompBufferInfo method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],GetCompBufferInfo method, IAMVideoAccelerator.GetCompBufferInfo, IAMVideoAccelerator::GetCompBufferInfo, IAMVideoAcceleratorGetCompBufferInfo, dshow.iamvideoaccelerator_getcompbufferinfo, videoacc/IAMVideoAccelerator::GetCompBufferInfo
 ms.topic: method
 f1_keywords:
 - videoacc/IAMVideoAccelerator.GetCompBufferInfo
 dev_langs:
- - c++
+- c++
 req.header: videoacc.h
 req.include-header: 
 req.target-type: Windows

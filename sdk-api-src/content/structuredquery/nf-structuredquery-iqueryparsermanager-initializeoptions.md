@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQueryParserManager.InitializeOptions
 title: IQueryParserManager::InitializeOptions (structuredquery.h)
-
 description: Sets the flags for Natural Query Syntax (NQS) and automatic wildcard characters for the specified query parser.
 old-location: search\_search_IQueryParserManager_InitializeOptions.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparsermanager\initializeoptions.htm
-
 ms.date: 12/05/2018
 ms.keywords: IQueryParserManager interface [search],InitializeOptions method, IQueryParserManager.InitializeOptions, IQueryParserManager::InitializeOptions, InitializeOptions, InitializeOptions method [search], InitializeOptions method [search],IQueryParserManager interface, _search_IQueryParserManager_InitializeOptions, search._search_IQueryParserManager_InitializeOptions, structuredquery/IQueryParserManager::InitializeOptions
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQueryParserManager.InitializeOptions"
+f1_keywords:
+- structuredquery/IQueryParserManager.InitializeOptions
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParserManager.InitializeOptions
+- IQueryParserManager.InitializeOptions
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

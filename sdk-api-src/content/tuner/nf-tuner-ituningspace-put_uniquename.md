@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.put_UniqueName
 title: ITuningSpace::put_UniqueName (tuner.h)
-
 description: The put_UniqueName method sets a unique name for the tuning space.
 old-location: mstv\ituningspace_put_uniquename.htm
 tech.root: mstv
 ms.assetid: 44ce065b-5441-40c9-a987-6eafc04fba3d
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_UniqueName method, ITuningSpace.put_UniqueName, ITuningSpace::put_UniqueName, ITuningSpaceput_UniqueName, mstv.ituningspace_put_uniquename, put_UniqueName, put_UniqueName method [Microsoft TV Technologies], put_UniqueName method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_UniqueName
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.put_UniqueName"
+f1_keywords:
+- tuner/ITuningSpace.put_UniqueName
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.put_UniqueName
+- ITuningSpace.put_UniqueName
 targetos: Windows
 req.typenames: 
 req.redist: 

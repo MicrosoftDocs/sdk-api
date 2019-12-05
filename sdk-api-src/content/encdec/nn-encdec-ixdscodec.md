@@ -1,19 +1,17 @@
 ---
 UID: NN:encdec.IXDSCodec
 title: IXDSCodec (encdec.h)
-
 description: The IXDSCodec interface is exposed by the XDS Codec filter. Most applications will not have to use this interface.
 old-location: mstv\ixdscodec.htm
 tech.root: mstv
 ms.assetid: c34a3418-2ae5-45a6-9e3b-2bd7cf33d44b
-
 ms.date: 12/05/2018
 ms.keywords: IXDSCodec, IXDSCodec interface [Microsoft TV Technologies], IXDSCodec interface [Microsoft TV Technologies],described, IXDSCodecInterface, encdec/IXDSCodec, mstv.ixdscodec
 ms.topic: interface
-f1_keywords: 
- - "encdec/IXDSCodec"
+f1_keywords:
+- encdec/IXDSCodec
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IXDSCodec
+- IXDSCodec
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMPortNumberRange
 title: WM_PORT_NUMBER_RANGE (wmsdkidl.h)
-
 description: The WM_PORT_NUMBER_RANGE structure describes the range of port numbers used by the IWMReaderNetworkConfig interface.
 old-location: wmformat\wm_port_number_range.htm
 tech.root: wmformat
 ms.assetid: 122db3fa-36bb-4d0c-9d05-0b7ae37f9187
-
 ms.date: 12/05/2018
 ms.keywords: WM_PORT_NUMBER_RANGE, WM_PORT_NUMBER_RANGE structure [windows Media Format], structure [windows Media Format], wmformat.wm_port_number_range, wmsdkidl/WM_PORT_NUMBER_RANGE
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_PORT_NUMBER_RANGE"
+f1_keywords:
+- wmsdkidl/WM_PORT_NUMBER_RANGE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_PORT_NUMBER_RANGE
+- WM_PORT_NUMBER_RANGE
 targetos: Windows
 req.typenames: WM_PORT_NUMBER_RANGE
 req.redist: 

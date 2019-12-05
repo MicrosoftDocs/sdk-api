@@ -1,19 +1,17 @@
 ---
 UID: NN:atscpsipparser.ISCTE_EAS
 title: ISCTE_EAS (atscpsipparser.h)
-
 description: The ISCTE_EAS interface enables the client to get data from an ATSC emergency alert message (EAS) table.
 old-location: mstv\iscte_eas.htm
 tech.root: mstv
 ms.assetid: 7b5620c3-f460-4118-a8a2-9b2561bd12cf
-
 ms.date: 12/05/2018
 ms.keywords: ISCTE_EAS, ISCTE_EAS interface [Microsoft TV Technologies], ISCTE_EAS interface [Microsoft TV Technologies],described, ISCTE_EASInterface, atscpsipparser/ISCTE_EAS, mstv.iscte_eas
 ms.topic: interface
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS
+- ISCTE_EAS
 targetos: Windows
 req.typenames: 
 req.redist: 

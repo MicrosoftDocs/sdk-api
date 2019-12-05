@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVAudio.UnRegisterNotificationCallBack
 title: IAMTVAudio::UnRegisterNotificationCallBack (strmif.h)
-
 description: The UnRegisterNotificationCallBack method unregisters an object for event notifications.
 old-location: dshow\iamtvaudio_unregisternotificationcallback.htm
 tech.root: DirectShow
 ms.assetid: 17a2f882-f6a8-467d-a6f9-eb8e6309e878
-
 ms.date: 12/05/2018
 ms.keywords: IAMTVAudio interface [DirectShow],UnRegisterNotificationCallBack method, IAMTVAudio.UnRegisterNotificationCallBack, IAMTVAudio::UnRegisterNotificationCallBack, IAMTVAudioUnRegisterNotificationCallBack, UnRegisterNotificationCallBack, UnRegisterNotificationCallBack method [DirectShow], UnRegisterNotificationCallBack method [DirectShow],IAMTVAudio interface, dshow.iamtvaudio_unregisternotificationcallback, strmif/IAMTVAudio::UnRegisterNotificationCallBack
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVAudio.UnRegisterNotificationCallBack"
+f1_keywords:
+- strmif/IAMTVAudio.UnRegisterNotificationCallBack
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVAudio.UnRegisterNotificationCallBack
+- IAMTVAudio.UnRegisterNotificationCallBack
 targetos: Windows
 req.typenames: 
 req.redist: 

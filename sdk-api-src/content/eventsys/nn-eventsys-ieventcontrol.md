@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEventControl
 title: IEventControl (eventsys.h)
-
 description: Controls the behavior of an event object, the object that fires an event to its subscribers.
 old-location: cos\ieventcontrol.htm
 tech.root: cossdk
 ms.assetid: 8b2fba30-3ede-466f-ad3b-2de2175a088b
-
 ms.date: 12/05/2018
 ms.keywords: IEventControl, IEventControl interface [COM+], IEventControl interface [COM+],described, _cos_IEventControl, cos.ieventcontrol, eventsys/IEventControl
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEventControl"
+f1_keywords:
+- eventsys/IEventControl
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventControl
+- IEventControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceSiteWindowless.OnDefWindowMessage
 title: IOleInPlaceSiteWindowless::OnDefWindowMessage (ocidl.h)
-
 description: Invokes the default processing for all messages passed to an object.
 old-location: com\ioleinplacesitewindowless_ondefwindowmessage.htm
 tech.root: com
 ms.assetid: 14017061-57e3-49a9-93cc-6373522ab1dc
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSiteWindowless interface [COM],OnDefWindowMessage method, IOleInPlaceSiteWindowless.OnDefWindowMessage, IOleInPlaceSiteWindowless::OnDefWindowMessage, OnDefWindowMessage, OnDefWindowMessage method [COM], OnDefWindowMessage method [COM],IOleInPlaceSiteWindowless interface, _ole_ioleinplacesitewindowless_ondefwindowmessage, com.ioleinplacesitewindowless_ondefwindowmessage, ocidl/IOleInPlaceSiteWindowless::OnDefWindowMessage
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceSiteWindowless.OnDefWindowMessage"
+f1_keywords:
+- ocidl/IOleInPlaceSiteWindowless.OnDefWindowMessage
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless.OnDefWindowMessage
+- IOleInPlaceSiteWindowless.OnDefWindowMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

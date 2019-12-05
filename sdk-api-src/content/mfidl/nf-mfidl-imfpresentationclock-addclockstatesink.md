@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.AddClockStateSink
 title: IMFPresentationClock::AddClockStateSink (mfidl.h)
-
 description: Registers an object to be notified whenever the clock starts, stops, or pauses, or changes rate.
 old-location: mf\imfpresentationclock_addclockstatesink.htm
 tech.root: medfound
 ms.assetid: c90c3d26-51fa-4cd6-a154-6f72c21219d2
-
 ms.date: 12/05/2018
 ms.keywords: AddClockStateSink, AddClockStateSink method [Media Foundation], AddClockStateSink method [Media Foundation],IMFPresentationClock interface, IMFPresentationClock interface [Media Foundation],AddClockStateSink method, IMFPresentationClock.AddClockStateSink, IMFPresentationClock::AddClockStateSink, c90c3d26-51fa-4cd6-a154-6f72c21219d2, mf.imfpresentationclock_addclockstatesink, mfidl/IMFPresentationClock::AddClockStateSink
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationClock.AddClockStateSink"
+f1_keywords:
+- mfidl/IMFPresentationClock.AddClockStateSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock.AddClockStateSink
+- IMFPresentationClock.AddClockStateSink
 targetos: Windows
 req.typenames: 
 req.redist: 

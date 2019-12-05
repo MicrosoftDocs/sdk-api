@@ -1,19 +1,17 @@
 ---
 UID: NN:bits10_1.IBackgroundCopyFile6
 title: IBackgroundCopyFile6 (bits10_1.h)
-
 description: Use this interface to request file ranges for On Demand download jobs.
 old-location: bits\ibackgroundcopyfile6.htm
 tech.root: Bits
 ms.assetid: FE3B1BAB-2634-4BE0-91B7-F97041CB3655
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile6, IBackgroundCopyFile6 interface [BITS], IBackgroundCopyFile6 interface [BITS],described, bits.ibackgroundcopyfile6, bits10_1/IBackgroundCopyFile6
 ms.topic: interface
-f1_keywords: 
- - "bits10_1/IBackgroundCopyFile6"
+f1_keywords:
+- bits10_1/IBackgroundCopyFile6
 dev_langs:
- - c++
+- c++
 req.header: bits10_1.h
 req.include-header: Bits10_0.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bits10_1.h
+- bits10_1.h
 api_name:
- - IBackgroundCopyFile6
+- IBackgroundCopyFile6
 targetos: Windows
 req.typenames: 
 req.redist: 

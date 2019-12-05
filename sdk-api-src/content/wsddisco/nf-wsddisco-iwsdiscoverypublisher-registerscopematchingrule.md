@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.RegisterScopeMatchingRule
 title: IWSDiscoveryPublisher::RegisterScopeMatchingRule (wsddisco.h)
-
 description: Adds support for a custom scope matching rule.
 old-location: ncd\iwsdiscoverypublisher_registerscopematchingrule_method.htm
 tech.root: WsdApi
 ms.assetid: 3ceb55de-c8be-43a7-93d7-8f674f9645ef
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisher interface,RegisterScopeMatchingRule method, IWSDiscoveryPublisher.RegisterScopeMatchingRule, IWSDiscoveryPublisher::RegisterScopeMatchingRule, RegisterScopeMatchingRule, RegisterScopeMatchingRule method, RegisterScopeMatchingRule method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_registerscopematchingrule_method, wsddisco/IWSDiscoveryPublisher::RegisterScopeMatchingRule
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryPublisher.RegisterScopeMatchingRule"
+f1_keywords:
+- wsddisco/IWSDiscoveryPublisher.RegisterScopeMatchingRule
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher.RegisterScopeMatchingRule
+- IWSDiscoveryPublisher.RegisterScopeMatchingRule
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.DeviceSpecific
 title: ITPhone::DeviceSpecific (tapi3if.h)
-
 description: The DeviceSpecific method enables service providers to provide access to device specific features not offered by other TAPI functions.
 old-location: tapi3\itphone_devicespecific.htm
 tech.root: Tapi
 ms.assetid: fba4bf7e-8c9d-4d34-ac56-aa47dff6f57c
-
 ms.date: 12/05/2018
 ms.keywords: DeviceSpecific, DeviceSpecific method [TAPI 2.2], DeviceSpecific method [TAPI 2.2],ITPhone interface, ITPhone interface [TAPI 2.2],DeviceSpecific method, ITPhone.DeviceSpecific, ITPhone::DeviceSpecific, _tapi3_itphone_devicespecific, tapi3.itphone_devicespecific, tapi3if/ITPhone::DeviceSpecific
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.DeviceSpecific"
+f1_keywords:
+- tapi3if/ITPhone.DeviceSpecific
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.DeviceSpecific
+- ITPhone.DeviceSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 

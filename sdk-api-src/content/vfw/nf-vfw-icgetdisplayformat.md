@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICGetDisplayFormat
 title: ICGetDisplayFormat function (vfw.h)
-
 description: The ICGetDisplayFormat function determines the best format available for displaying a compressed image. The function also opens a compressor if a handle of an open compressor is not specified.
 old-location: multimedia\icgetdisplayformat.htm
 tech.root: Multimedia
 ms.assetid: 4e588524-4105-4496-bc87-407abc45f598
-
 ms.date: 12/05/2018
 ms.keywords: ICGetDisplayFormat, ICGetDisplayFormat function [Windows Multimedia], _win32_ICGetDisplayFormat, multimedia.icgetdisplayformat, vfw/ICGetDisplayFormat
 ms.topic: function
-f1_keywords: 
- - "vfw/ICGetDisplayFormat"
+f1_keywords:
+- vfw/ICGetDisplayFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICGetDisplayFormat
+- ICGetDisplayFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

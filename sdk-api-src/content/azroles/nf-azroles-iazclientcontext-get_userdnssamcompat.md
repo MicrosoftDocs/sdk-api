@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzClientContext.get_UserDnsSamCompat
 title: IAzClientContext::get_UserDnsSamCompat (azroles.h)
-
 description: Retrieves the name of the current client in a DNS format compatible with Windows&#160;Security&#160;Account&#160;Manager (SAM).
 old-location: security\iazclientcontext_userdnssamcompat.htm
 tech.root: SecAuthZ
 ms.assetid: 8f2739cd-3add-4a3c-9c00-8b23d2cec068
-
 ms.date: 12/05/2018
 ms.keywords: AzClientContext object [Security],UserDnsSamCompat property, IAzClientContext interface [Security],UserDnsSamCompat property, IAzClientContext.UserDnsSamCompat, IAzClientContext.get_UserDnsSamCompat, IAzClientContext::UserDnsSamCompat, IAzClientContext::get_UserDnsSamCompat, UserDnsSamCompat property [Security], UserDnsSamCompat property [Security],AzClientContext object, UserDnsSamCompat property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDnsSamCompat, azroles/IAzClientContext::get_UserDnsSamCompat, get_UserDnsSamCompat, security.iazclientcontext_userdnssamcompat
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzClientContext.UserDnsSamCompat"
+f1_keywords:
+- azroles/IAzClientContext.UserDnsSamCompat
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzClientContext.UserDnsSamCompat
- - IAzClientContext.get_UserDnsSamCompat
- - AzClientContext.UserDnsSamCompat
+- IAzClientContext.UserDnsSamCompat
+- IAzClientContext.get_UserDnsSamCompat
+- AzClientContext.UserDnsSamCompat
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

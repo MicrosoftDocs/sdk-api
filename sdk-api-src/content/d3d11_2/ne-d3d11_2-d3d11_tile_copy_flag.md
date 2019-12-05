@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11_2.D3D11_TILE_COPY_FLAG
 title: D3D11_TILE_COPY_FLAG (d3d11_2.h)
-
 description: Identifies how to copy a tile.
 old-location: direct3d11\d3d11_tile_copy_flags.htm
 tech.root: direct3d11
 ms.assetid: 1ACBABF2-A0C5-419B-9723-BD0FEEEDF478
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILE_COPY_FLAG, D3D11_TILE_COPY_FLAG enumeration [Direct3D 11], D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3D11_TILE_COPY_NO_OVERWRITE, D3D11_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d11_2/D3D11_TILE_COPY_FLAG, d3d11_2/D3D11_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, d3d11_2/D3D11_TILE_COPY_NO_OVERWRITE, d3d11_2/D3D11_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, direct3d11.d3d11_tile_copy_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d11_2/D3D11_TILE_COPY_FLAG"
+f1_keywords:
+- d3d11_2/D3D11_TILE_COPY_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11_2.h
+- D3D11_2.h
 api_name:
- - D3D11_TILE_COPY_FLAG
+- D3D11_TILE_COPY_FLAG
 targetos: Windows
 req.typenames: D3D11_TILE_COPY_FLAG
 req.redist: 

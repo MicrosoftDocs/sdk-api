@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternHandler.CreateClientWrapper
 title: IUIAutomationPatternHandler::CreateClientWrapper (uiautomationcore.h)
-
 description: Creates an object that enables a client application to interact with a custom control pattern.
 old-location: winauto\uiauto_IUIAutomationPatternHandler_CreateClientWrapper.htm
 tech.root: WinAuto
 ms.assetid: 03530381-52f8-4d9b-a54c-faebf7cd4a06
-
 ms.date: 12/05/2018
 ms.keywords: CreateClientWrapper, CreateClientWrapper method [Windows Accessibility], CreateClientWrapper method [Windows Accessibility],IUIAutomationPatternHandler interface, IUIAutomationPatternHandler interface [Windows Accessibility],CreateClientWrapper method, IUIAutomationPatternHandler.CreateClientWrapper, IUIAutomationPatternHandler::CreateClientWrapper, uiauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper, uiauto_IUIAutomationPatternHandler_CreateClientWrapper, uiautomationcore/IUIAutomationPatternHandler::CreateClientWrapper, winauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IUIAutomationPatternHandler.CreateClientWrapper"
+f1_keywords:
+- uiautomationcore/IUIAutomationPatternHandler.CreateClientWrapper
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IUIAutomationPatternHandler.CreateClientWrapper
+- IUIAutomationPatternHandler.CreateClientWrapper
 targetos: Windows
 req.typenames: 
 req.redist: 

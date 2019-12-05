@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetResolutionHandler
 title: ISyncMgrConflict::GetResolutionHandler (syncmgr.h)
-
 description: Gets the resolution handler for the conflict.
 old-location: shell\ISyncMgrConflict_GetResolutionHandler.htm
 tech.root: shell
 ms.assetid: 9adbc429-098c-4ba9-af62-54f772be83e3
-
 ms.date: 12/05/2018
 ms.keywords: GetResolutionHandler, GetResolutionHandler method [Windows Shell], GetResolutionHandler method [Windows Shell],ISyncMgrConflict interface, ISyncMgrConflict interface [Windows Shell],GetResolutionHandler method, ISyncMgrConflict.GetResolutionHandler, ISyncMgrConflict::GetResolutionHandler, _shell_ISyncMgrConflict_GetResolutionHandler, shell.ISyncMgrConflict_GetResolutionHandler, syncmgr/ISyncMgrConflict::GetResolutionHandler
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflict.GetResolutionHandler"
+f1_keywords:
+- syncmgr/ISyncMgrConflict.GetResolutionHandler
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflict.GetResolutionHandler
+- ISyncMgrConflict.GetResolutionHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

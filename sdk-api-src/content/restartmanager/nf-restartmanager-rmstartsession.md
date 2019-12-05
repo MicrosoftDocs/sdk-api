@@ -1,19 +1,17 @@
 ---
 UID: NF:restartmanager.RmStartSession
 title: RmStartSession function (restartmanager.h)
-
 description: Starts a new Restart Manager session.
 old-location: rstmgr\rmstartsession.htm
 tech.root: rstmgr
 ms.assetid: bc79c6e5-49e6-44d3-90f6-b0109fb9611b
-
 ms.date: 12/05/2018
 ms.keywords: RmStartSession, RmStartSession function [Restart Mgr], restartmanager/RmStartSession, rstmgr.rmstartsession
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmStartSession"
+f1_keywords:
+- restartmanager/RmStartSession
 dev_langs:
- - c++
+- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmStartSession
+- RmStartSession
 targetos: Windows
 req.typenames: 
 req.redist: 

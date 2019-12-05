@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IAutoComplete.Init
 title: IAutoComplete::Init (shldisp.h)
-
 description: Initializes the autocomplete object.
 old-location: shell\IAutoComplete_Init.htm
 tech.root: shell
 ms.assetid: e5ee36b7-11b4-4eca-ae8e-eefa6245f287
-
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete interface [Windows Shell],Init method, IAutoComplete.Init, IAutoComplete::Init, Init, Init method [Windows Shell], Init method [Windows Shell],IAutoComplete interface, _win32_IAutoComplete_Init, shell.IAutoComplete_Init, shldisp/IAutoComplete::Init
 ms.topic: method
-f1_keywords: 
- - "shldisp/IAutoComplete.Init"
+f1_keywords:
+- shldisp/IAutoComplete.Init
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IAutoComplete.Init
+- IAutoComplete.Init
 targetos: Windows
 req.typenames: 
 req.redist: 

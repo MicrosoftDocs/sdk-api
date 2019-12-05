@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMTimecodeGenerator
 title: IAMTimecodeGenerator (strmif.h)
-
 description: The IAMTimecodeGenerator interface controls how an external SMPTE/MIDI timecode generator supplies data to the filter graph.DirectShow currently does not provide any filters that implement this interface.
 old-location: dshow\iamtimecodegenerator.htm
 tech.root: DirectShow
 ms.assetid: 7fe74fc2-03bd-43dd-917f-ee0149f1e17f
-
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], IAMTimecodeGenerator interface [DirectShow],described, IAMTimecodeGeneratorInterface, dshow.iamtimecodegenerator, strmif/IAMTimecodeGenerator
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMTimecodeGenerator"
+f1_keywords:
+- strmif/IAMTimecodeGenerator
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeGenerator
+- IAMTimecodeGenerator
 targetos: Windows
 req.typenames: 
 req.redist: 

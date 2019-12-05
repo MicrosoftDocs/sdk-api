@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_PositionMode
 title: IMSVidPlayback::get_PositionMode (segment.h)
-
 description: The get_PositionMode method indicates how position values are interpreted by this interface.
 old-location: mstv\imsvidplayback_get_positionmode.htm
 tech.root: mstv
 ms.assetid: 8a27508c-485c-4371-a997-05fdfb77d17b
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_PositionMode method, IMSVidPlayback.get_PositionMode, IMSVidPlayback::get_PositionMode, IMSVidPlaybackget_PositionMode, get_PositionMode, get_PositionMode method [Microsoft TV Technologies], get_PositionMode method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_positionmode, segment/IMSVidPlayback::get_PositionMode
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.get_PositionMode"
+f1_keywords:
+- segment/IMSVidPlayback.get_PositionMode
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.get_PositionMode
+- IMSVidPlayback.get_PositionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

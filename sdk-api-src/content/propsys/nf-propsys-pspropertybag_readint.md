@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadInt
 title: PSPropertyBag_ReadInt function (propsys.h)
-
 description: Reads an int data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadInt.htm
 tech.root: properties
 ms.assetid: 9CEC97E6-C88F-4182-876C-D77EA14915DA
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadInt, PSPropertyBag_ReadInt function [Windows Properties], properties.PSPropertyBag_ReadInt, propsys/PSPropertyBag_ReadInt, shell.PSPropertyBag_ReadInt, shell_PSPropertyBag_ReadInt
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadInt"
+f1_keywords:
+- propsys/PSPropertyBag_ReadInt
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadInt
+- PSPropertyBag_ReadInt
 targetos: Windows
 req.typenames: 
 req.redist: 

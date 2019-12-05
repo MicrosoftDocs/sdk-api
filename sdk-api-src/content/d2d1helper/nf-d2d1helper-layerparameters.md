@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.LayerParameters
 title: LayerParameters function (d2d1helper.h)
-
 description: Creates a D2D1_LAYER_PARAMETERS structure.
 old-location: direct2d\layerparameters.htm
 tech.root: Direct2D
 ms.assetid: c6a9ebca-5d60-4013-b35b-547b7f4600da
-
 ms.date: 12/05/2018
 ms.keywords: LayerParameters, LayerParameters function [Direct2D], d2d1helper/LayerParameters, direct2d.layerparameters
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/LayerParameters"
+f1_keywords:
+- d2d1helper/LayerParameters
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - LayerParameters
+- LayerParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

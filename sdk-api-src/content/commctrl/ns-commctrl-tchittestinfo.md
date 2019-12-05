@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagTCHITTESTINFO
 title: TCHITTESTINFO (commctrl.h)
-
 description: Contains information about a hit test. This structure supersedes the TC_HITTESTINFO structure.
 old-location: controls\TCHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tchittestinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTCHITTESTINFO, LPTCHITTESTINFO, LPTCHITTESTINFO structure pointer [Windows Controls], TCHITTESTINFO, TCHITTESTINFO structure [Windows Controls], TCHT_NOWHERE, TCHT_ONITEM, TCHT_ONITEMICON, TCHT_ONITEMLABEL, _win32_TCHITTESTINFO, _win32_TCHITTESTINFO_cpp, commctrl/LPTCHITTESTINFO, commctrl/TCHITTESTINFO, controls.TCHITTESTINFO, controls._win32_TCHITTESTINFO"
+ms.keywords: '*LPTCHITTESTINFO, LPTCHITTESTINFO, LPTCHITTESTINFO structure pointer [Windows Controls], TCHITTESTINFO, TCHITTESTINFO structure [Windows Controls], TCHT_NOWHERE, TCHT_ONITEM, TCHT_ONITEMICON, TCHT_ONITEMLABEL, _win32_TCHITTESTINFO, _win32_TCHITTESTINFO_cpp, commctrl/LPTCHITTESTINFO, commctrl/TCHITTESTINFO, controls.TCHITTESTINFO, controls._win32_TCHITTESTINFO'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TCHITTESTINFO"
+f1_keywords:
+- commctrl/TCHITTESTINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TCHITTESTINFO
+- TCHITTESTINFO
 targetos: Windows
 req.typenames: TCHITTESTINFO, *LPTCHITTESTINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.Direct3DCreate9Ex
 title: Direct3DCreate9Ex function (d3d9.h)
-
 description: Creates an IDirect3D9Ex object and returns an interface to it.
 old-location: direct3d9\direct3dcreate9ex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\direct3dcreate9.htm
-
 ms.date: 12/05/2018
 ms.keywords: Direct3DCreate9Ex, Direct3DCreate9Ex function [Direct3D 9], d3bc9dd0-05d5-c0a2-6b7c-7e11497d0e97, d3d9/Direct3DCreate9Ex, direct3d9.direct3dcreate9ex
 ms.topic: function
-f1_keywords: 
- - "d3d9/Direct3DCreate9Ex"
+f1_keywords:
+- d3d9/Direct3DCreate9Ex
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d9.lib
 req.dll: D3d9.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3d9.dll
- - Ext-MS-Win-DX-D3D9-L1-1-0.dll
+- d3d9.dll
+- Ext-MS-Win-DX-D3D9-L1-1-0.dll
 api_name:
- - Direct3DCreate9Ex
+- Direct3DCreate9Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

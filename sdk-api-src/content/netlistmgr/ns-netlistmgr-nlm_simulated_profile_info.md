@@ -1,19 +1,17 @@
 ---
 UID: NS:netlistmgr.NLM_SIMULATED_PROFILE_INFO
 title: NLM_SIMULATED_PROFILE_INFO (netlistmgr.h)
-
 description: Used to specify values that are used by SetSimulatedProfileInfo to override current internet connection profile values in an RDP Child Session to support the simulation of specific metered internet connection conditions.
 old-location: nla\nlm_simulated_profile_info.htm
 tech.root: nla
 ms.assetid: 1DC80EB0-E63A-4352-8269-D795E1573851
-
 ms.date: 12/05/2018
 ms.keywords: NLM_SIMULATED_PROFILE_INFO, NLM_SIMULATED_PROFILE_INFO structure [Network Awareness], PNLM_SIMULATED_PROFILE_INFO, PNLM_SIMULATED_PROFILE_INFO structure pointer [Network Awareness], netlistmgr/NLM_SIMULATED_PROFILE_INFO, netlistmgr/PNLM_SIMULATED_PROFILE_INFO, nla.nlm_simulated_profile_info
 ms.topic: struct
-f1_keywords: 
- - "netlistmgr/NLM_SIMULATED_PROFILE_INFO"
+f1_keywords:
+- netlistmgr/NLM_SIMULATED_PROFILE_INFO
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - NLM_SIMULATED_PROFILE_INFO
+- NLM_SIMULATED_PROFILE_INFO
 targetos: Windows
 req.typenames: NLM_SIMULATED_PROFILE_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.DeleteVirtualDiskMetadata
 title: DeleteVirtualDiskMetadata function (virtdisk.h)
-
 description: Deletes metadata from a virtual disk.
 old-location: vstor\deletevirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 16fbb793-84a9-4dac-a85e-0f4f50ae8e35
-
 ms.date: 12/05/2018
 ms.keywords: DeleteVirtualDiskMetadata, DeleteVirtualDiskMetadata function [Virtual Storage], virtdisk/DeleteVirtualDiskMetadata, vstor.deletevirtualdiskmetadata
 ms.topic: function
-f1_keywords: 
- - "virtdisk/DeleteVirtualDiskMetadata"
+f1_keywords:
+- virtdisk/DeleteVirtualDiskMetadata
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - DeleteVirtualDiskMetadata
+- DeleteVirtualDiskMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

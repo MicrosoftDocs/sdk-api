@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetClearAllPerSiteCookieDecisions
 title: InternetClearAllPerSiteCookieDecisions function (wininet.h)
-
 description: Clears all decisions that were made about cookies on a site by site basis.
 old-location: wininet\internetclearallpersitecookiedecisions.htm
 tech.root: wininet
 ms.assetid: 980df63e-70b8-44d3-b98a-b7c8a3e395c6
-
 ms.date: 12/05/2018
 ms.keywords: InternetClearAllPerSiteCookieDecisions, InternetClearAllPerSiteCookieDecisions function [WinINet], wininet.internetclearallpersitecookiedecisions, wininet/InternetClearAllPerSiteCookieDecisions
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetClearAllPerSiteCookieDecisions"
+f1_keywords:
+- wininet/InternetClearAllPerSiteCookieDecisions
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetClearAllPerSiteCookieDecisions
+- InternetClearAllPerSiteCookieDecisions
 targetos: Windows
 req.typenames: 
 req.redist: 

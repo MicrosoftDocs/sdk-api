@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSensorActivitiesReportCallback
 title: IMFSensorActivitiesReportCallback (mfidl.h)
-
 description: Interface implemented by the client to receive callbacks when sensor activity reports are available.
 old-location: mf\imfsensoractivitiesreportcallback.htm
 tech.root: medfound
 ms.assetid: 477B008D-7F0A-4084-BDFD-DF19E2A82817
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorActivitiesReportCallback, IMFSensorActivitiesReportCallback interface [Media Foundation], IMFSensorActivitiesReportCallback interface [Media Foundation],described, mf.imfsensoractivitiesreportcallback, mfidl/IMFSensorActivitiesReportCallback
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSensorActivitiesReportCallback"
+f1_keywords:
+- mfidl/IMFSensorActivitiesReportCallback
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivitiesReportCallback
+- IMFSensorActivitiesReportCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

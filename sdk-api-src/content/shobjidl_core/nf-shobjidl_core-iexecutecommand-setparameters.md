@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.SetParameters
 title: IExecuteCommand::SetParameters (shobjidl_core.h)
-
 description: Provides parameter values for the verb.
 old-location: shell\IExecuteCommand_SetParameters.htm
 tech.root: shell
 ms.assetid: 3e08777c-865b-49c2-8f37-1a427c4945b4
-
 ms.date: 12/05/2018
 ms.keywords: IExecuteCommand interface [Windows Shell],SetParameters method, IExecuteCommand.SetParameters, IExecuteCommand::SetParameters, SetParameters, SetParameters method [Windows Shell], SetParameters method [Windows Shell],IExecuteCommand interface, _shell_IExecuteCommand_SetParameters, shell.IExecuteCommand_SetParameters, shobjidl_core/IExecuteCommand::SetParameters
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExecuteCommand.SetParameters"
+f1_keywords:
+- shobjidl_core/IExecuteCommand.SetParameters
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExecuteCommand.SetParameters
+- IExecuteCommand.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

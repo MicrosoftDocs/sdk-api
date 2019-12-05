@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.NtOpenFile
 title: NtOpenFile function (winternl.h)
-
 description: Opens an existing file, device, directory, or volume, and returns a handle for the file object.
 old-location: winprog\ntopenfile.htm
 tech.root: DevNotes
 ms.assetid: b77a85d1-7d2d-4834-b5d9-9baf68804369
-
 ms.date: 12/05/2018
 ms.keywords: NtOpenFile, NtOpenFile function [Windows API], winprog.ntopenfile, winternl/NtOpenFile
 ms.topic: function
-f1_keywords: 
- - "winternl/NtOpenFile"
+f1_keywords:
+- winternl/NtOpenFile
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - NtOpenFile
+- NtOpenFile
 targetos: Windows
 req.typenames: 
 req.redist: 

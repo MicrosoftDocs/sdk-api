@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextColor
 title: GetTextColor function (wingdi.h)
-
 description: The GetTextColor function retrieves the current text color for the specified device context.
 old-location: gdi\gettextcolor.htm
 tech.root: gdi
 ms.assetid: d3d91b86-5143-431a-ba18-b951b832d7b6
-
 ms.date: 12/05/2018
 ms.keywords: GetTextColor, GetTextColor function [Windows GDI], _win32_GetTextColor, gdi.gettextcolor, wingdi/GetTextColor
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextColor"
+f1_keywords:
+- wingdi/GetTextColor
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetTextColor
+- GetTextColor
 targetos: Windows
 req.typenames: 
 req.redist: 

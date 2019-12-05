@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmInvalidateIconicBitmaps
 title: DwmInvalidateIconicBitmaps function (dwmapi.h)
-
 description: Called by an application to indicate that all previously provided iconic bitmaps from a window, both thumbnails and peek representations, should be refreshed.
 old-location: dwm\dwminvalidateiconicbitmaps.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwminvalidateiconicbitmaps.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmInvalidateIconicBitmaps, DwmInvalidateIconicBitmaps function [Desktop Window Manager], _udwm_dwminvalidateiconicbitmaps, _udwm_dwminvalidateiconicbitmaps_cpp, dwm.dwminvalidateiconicbitmaps, dwmapi/DwmInvalidateIconicBitmaps, winui._udwm_dwminvalidateiconicbitmaps
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmInvalidateIconicBitmaps"
+f1_keywords:
+- dwmapi/DwmInvalidateIconicBitmaps
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll; Uxtheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - uxtheme.dll
- - ext-ms-win-dwmapi-ext-l1-1-0.dll
- - ext-ms-win-dwmapi-ext-l1-1-1.dll
- - ext-ms-win-dwmapi-ext-l1-1-2.dll
+- Dwmapi.dll
+- uxtheme.dll
+- ext-ms-win-dwmapi-ext-l1-1-0.dll
+- ext-ms-win-dwmapi-ext-l1-1-1.dll
+- ext-ms-win-dwmapi-ext-l1-1-2.dll
 api_name:
- - DwmInvalidateIconicBitmaps
+- DwmInvalidateIconicBitmaps
 targetos: Windows
 req.typenames: 
 req.redist: 

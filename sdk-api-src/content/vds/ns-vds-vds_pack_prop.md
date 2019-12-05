@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_PACK_PROP
 title: VDS_PACK_PROP (vds.h)
-
 description: Defines the properties of a pack object.
 old-location: base\vds_pack_prop.htm
 tech.root: VDS
 ms.assetid: 5d04bf6c-fda2-4b95-a8bb-907e64267f30
-
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_PACK_PROP, PVDS_PACK_PROP, PVDS_PACK_PROP structure pointer [VDS], VDS_PACK_PROP, VDS_PACK_PROP structure [VDS], base.vds_pack_prop, vds/PVDS_PACK_PROP, vds/_VDS_PACK_PROP'
 ms.topic: struct
 f1_keywords:
 - vds/VDS_PACK_PROP
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

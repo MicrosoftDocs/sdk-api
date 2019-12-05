@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfig
 title: DhcpServerGetConfig function (dhcpsapi.h)
-
 description: Returns the specific configuration settings of a DHCP server.
 old-location: dhcp\dhcpservergetconfig.htm
 tech.root: DHCP
 ms.assetid: 79fa7f78-35ae-4f40-bf3d-3c8f6f323776
-
 ms.date: 12/05/2018
 ms.keywords: DhcpServerGetConfig, DhcpServerGetConfig function [DHCP], dhcp.dhcpservergetconfig, dhcpsapi/DhcpServerGetConfig
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerGetConfig
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

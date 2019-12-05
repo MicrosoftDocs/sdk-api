@@ -1,19 +1,17 @@
 ---
 UID: NF:tokenbinding.TokenBindingGenerateID
 title: TokenBindingGenerateID function (tokenbinding.h)
-
 description: Constructs the token binding identifier by extracting the signature algorithm from the key type and copying the exported public key.
 old-location: security\tokenbindinggenerateid.htm
 tech.root: SecCNG
 ms.assetid: F3E30DF8-2A1D-445E-914B-62999428BB6F
-
 ms.date: 12/05/2018
 ms.keywords: TokenBindingGenerateID, TokenBindingGenerateID function [Security], security.tokenbindinggenerateid, tokenbinding/TokenBindingGenerateID
 ms.topic: function
-f1_keywords: 
- - "tokenbinding/TokenBindingGenerateID"
+f1_keywords:
+- tokenbinding/TokenBindingGenerateID
 dev_langs:
- - c++
+- c++
 req.header: tokenbinding.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tokenbinding.lib
 req.dll: Tokenbinding.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - tokenbinding.dll
+- tokenbinding.dll
 api_name:
- - TokenBindingGenerateID
+- TokenBindingGenerateID
 targetos: Windows
 req.typenames: 
 req.redist: 

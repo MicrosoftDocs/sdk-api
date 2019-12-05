@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CloseClusterGroupSet
 title: CloseClusterGroupSet function (clusapi.h)
-
 description: Closes a groupset handle returned from OpenClusterGroupSet.
 old-location: mscs\closeclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: 017f0c40-023d-4b22-90ec-037122718830
-
 ms.date: 12/05/2018
 ms.keywords: CloseClusterGroupSet, CloseClusterGroupSet function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, PCLUSAPI_CLOSE_CLUSTER_GROUP_SET function [Failover Cluster], clusapi/CloseClusterGroupSet, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP_SET, mscs.closeclustergroupcollection
 ms.topic: function
-f1_keywords: 
- - "clusapi/CloseClusterGroupSet"
+f1_keywords:
+- clusapi/CloseClusterGroupSet
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - CloseClusterGroupSet
+- CloseClusterGroupSet
 targetos: Windows
 req.typenames: 
 req.redist: 

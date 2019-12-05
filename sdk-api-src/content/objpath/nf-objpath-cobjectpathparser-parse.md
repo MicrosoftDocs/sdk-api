@@ -1,19 +1,17 @@
 ---
 UID: NF:objpath.CObjectPathParser.Parse
 title: CObjectPathParser::Parse (objpath.h)
-
 description: Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser_parse.htm
 tech.root: WmiSdk
 ms.assetid: c39dbef5-9050-487a-8e06-17087753330d
-
 ms.date: 12/05/2018
-ms.keywords: "?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z, ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z, CObjectPathParser interface [Windows Management Instrumentation],Parse method, CObjectPathParser.Parse, CObjectPathParser::Parse, Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Parse, wmi.cobjectpathparser_parse"
+ms.keywords: ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z, ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z, CObjectPathParser interface [Windows Management Instrumentation],Parse method, CObjectPathParser.Parse, CObjectPathParser::Parse, Parse, Parse method [Windows Management Instrumentation], Parse method [Windows Management Instrumentation],CObjectPathParser interface, objpath/CObjectPathParser::Parse, wmi.cobjectpathparser_parse
 ms.topic: method
-f1_keywords: 
- - "objpath/CObjectPathParser.Parse"
+f1_keywords:
+- objpath/CObjectPathParser.Parse
 dev_langs:
- - c++
+- c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CObjectPathParser.Parse
- - ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z
- - ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
+- CObjectPathParser.Parse
+- ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z
+- ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

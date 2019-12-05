@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IMenuButton.AddButton
 title: IMenuButton::AddButton (mmc.h)
-
 description: The IMenuButton::AddButton method enables a user to add a button to the MMC menu bar for a particular view.
 old-location: mmc\imenubutton_addbutton.htm
 tech.root: mmc
 ms.assetid: 75d19e2a-0d3e-4883-852e-983fcee8166a
-
 ms.date: 12/05/2018
 ms.keywords: AddButton, AddButton method [MMC], AddButton method [MMC],IMenuButton interface, IMenuButton interface [MMC],AddButton method, IMenuButton.AddButton, IMenuButton::AddButton, _slate_imenubutton_addbutton, mmc.imenubutton_addbutton, mmc/IMenuButton::AddButton
 ms.topic: method
-f1_keywords: 
- - "mmc/IMenuButton.AddButton"
+f1_keywords:
+- mmc/IMenuButton.AddButton
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IMenuButton.AddButton
+- IMenuButton.AddButton
 targetos: Windows
 req.typenames: 
 req.redist: 

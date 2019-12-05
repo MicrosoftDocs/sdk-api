@@ -1,19 +1,17 @@
 ---
 UID: NN:icontact.IContactManager
 title: IContactManager (icontact.h)
-
 description: Do not use. Used for retrieving a contact, based on a contact ID string.
 old-location: wincontacts\_wincontacts_IContactManager.htm
 tech.root: wincontacts
 ms.assetid: d0102659-488c-45db-931b-345013e21eed
-
 ms.date: 12/05/2018
 ms.keywords: IContactManager, IContactManager interface [Windows Contacts], IContactManager interface [Windows Contacts],described, _wincontacts_IContactManager, icontact/IContactManager, wincontacts._wincontacts_IContactManager
 ms.topic: interface
-f1_keywords: 
- - "icontact/IContactManager"
+f1_keywords:
+- icontact/IContactManager
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactManager
+- IContactManager
 targetos: Windows
 req.typenames: 
 req.redist: 

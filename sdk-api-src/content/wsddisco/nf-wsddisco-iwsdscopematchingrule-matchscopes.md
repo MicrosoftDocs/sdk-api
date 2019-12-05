@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDScopeMatchingRule.MatchScopes
 title: IWSDScopeMatchingRule::MatchScopes (wsddisco.h)
-
 description: Is called to compare two scopes to determine if they match.
 old-location: ncd\iwsdscopematchingrule_matchscopes_method.htm
 tech.root: WsdApi
 ms.assetid: 0790d3ef-c84a-4882-96f6-dbca87b2ec53
-
 ms.date: 12/05/2018
 ms.keywords: IWSDScopeMatchingRule interface,MatchScopes method, IWSDScopeMatchingRule.MatchScopes, IWSDScopeMatchingRule::MatchScopes, MatchScopes, MatchScopes method, MatchScopes method,IWSDScopeMatchingRule interface, ncd.iwsdscopematchingrule_matchscopes_method, wsddisco/IWSDScopeMatchingRule::MatchScopes
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDScopeMatchingRule.MatchScopes"
+f1_keywords:
+- wsddisco/IWSDScopeMatchingRule.MatchScopes
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDScopeMatchingRule.MatchScopes
+- IWSDScopeMatchingRule.MatchScopes
 targetos: Windows
 req.typenames: 
 req.redist: 

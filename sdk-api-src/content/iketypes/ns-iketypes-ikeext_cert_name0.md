@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_NAME0_
 title: IKEEXT_CERT_NAME0 (iketypes.h)
-
 description: Specifies certificate selection &#0034;subject&#0034; criteria for an authentication method.
 old-location: fwp\ikeext_cert_name0.htm
 tech.root: fwp
 ms.assetid: 50e04e10-cae1-4fcd-990e-3e9b538627ed
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERT_NAME0, IKEEXT_CERT_NAME0 structure [Filtering], fwp.ikeext_cert_name0, iketypes/IKEEXT_CERT_NAME0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CERT_NAME0"
+f1_keywords:
+- iketypes/IKEEXT_CERT_NAME0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_CERT_NAME0
+- IKEEXT_CERT_NAME0
 targetos: Windows
 req.typenames: IKEEXT_CERT_NAME0
 req.redist: 

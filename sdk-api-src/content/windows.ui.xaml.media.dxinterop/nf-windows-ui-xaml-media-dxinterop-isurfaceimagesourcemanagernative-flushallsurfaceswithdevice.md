@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.xaml.media.dxinterop.ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
 title: ISurfaceImageSourceManagerNative::xaml (windows.ui.xaml.media.dxinterop.h)
-
 description: Flushes all current GPU work for all SurfaceImageSource or VirtualSurfaceImageSource objects associated with the given device.
 old-location: winrt\isurfaceimagesourcemanagernative_flushallsurfaceswithdevice.htm
 tech.root: WinRT
 ms.assetid: 2921FF9E-25C5-4DF6-B23F-7B60F0577983
-
 ms.date: 12/05/2018
 ms.keywords: FlushAllSurfacesWithDevice, FlushAllSurfacesWithDevice method [Windows Runtime], FlushAllSurfacesWithDevice method [Windows Runtime],ISurfaceImageSourceManagerNative interface, ISurfaceImageSourceManagerNative interface [Windows Runtime],FlushAllSurfacesWithDevice method, ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative.xaml, ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, ISurfaceImageSourceManagerNative::xaml, windows/ISurfaceImageSourceManagerNative::FlushAllSurfacesWithDevice, winrt.isurfaceimagesourcemanagernative_flushallsurfaceswithdevice
 ms.topic: method
-f1_keywords: 
- - "windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice"
+f1_keywords:
+- windows.ui.xaml.media.dxinterop/ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.xaml.media.dxinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
+- ISurfaceImageSourceManagerNative.FlushAllSurfacesWithDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

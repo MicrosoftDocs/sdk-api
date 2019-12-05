@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetVolumeMountPointA
 title: SetVolumeMountPointA function (winbase.h)
-
 description: Associates a volume with a drive letter or a directory on another volume.
 old-location: fs\setvolumemountpoint.htm
 tech.root: FileIO
 ms.assetid: 1535fe64-221a-4756-a9ba-81bbe7596598
-
 ms.date: 12/05/2018
 ms.keywords: SetVolumeMountPoint, SetVolumeMountPoint function [Files], SetVolumeMountPointA, SetVolumeMountPointW, _win32_setvolumemountpoint, base.setvolumemountpoint, fs.setvolumemountpoint, winbase/SetVolumeMountPoint, winbase/SetVolumeMountPointA, winbase/SetVolumeMountPointW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetVolumeMountPoint"
+f1_keywords:
+- winbase/SetVolumeMountPoint
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - SetVolumeMountPoint
- - SetVolumeMountPointA
- - SetVolumeMountPointW
+- SetVolumeMountPoint
+- SetVolumeMountPointA
+- SetVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 

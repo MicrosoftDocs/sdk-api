@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHGetItemFromDataObject
 title: SHGetItemFromDataObject function (shobjidl_core.h)
-
 description: Creates an IShellItem or related object based on an item specified by an IDataObject.
 old-location: shell\SHGetItemFromDataObject.htm
 tech.root: shell
 ms.assetid: 1d7b9ffa-9980-4d68-85e4-7bab667be168
-
 ms.date: 12/05/2018
 ms.keywords: SHGetItemFromDataObject, SHGetItemFromDataObject function [Windows Shell], _shell_SHGetItemFromDataObject, shell.SHGetItemFromDataObject, shobjidl_core/SHGetItemFromDataObject
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHGetItemFromDataObject"
+f1_keywords:
+- shobjidl_core/SHGetItemFromDataObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetItemFromDataObject
+- SHGetItemFromDataObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IWEExtendWizard
 title: IWEExtendWizard (cluadmex.h)
-
 description: Implement the IWEExtendWizard interface to add wizard pages to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
 old-location: mscs\iweextendwizard.htm
 tech.root: MsCS
 ms.assetid: 6407163e-a8ca-4601-88a0-ecf87e29b9ab
-
 ms.date: 12/05/2018
 ms.keywords: IWEExtendWizard, IWEExtendWizard interface [Failover Cluster], IWEExtendWizard interface [Failover Cluster],described, _wolf_iweextendwizard, cluadmex/IWEExtendWizard, mscs.iweextendwizard
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IWEExtendWizard"
+f1_keywords:
+- cluadmex/IWEExtendWizard
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEExtendWizard
+- IWEExtendWizard
 targetos: Windows
 req.typenames: 
 req.redist: 

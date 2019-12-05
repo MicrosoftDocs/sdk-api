@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetBreakOnSeverity
 title: ID3D12InfoQueue::GetBreakOnSeverity (d3d12sdklayers.h)
-
 description: Get a message severity level to break on when a message with that severity level passes through the storage filter.
 old-location: direct3d12\id3d12infoqueue_getbreakonseverity.htm
 tech.root: direct3d12
 ms.assetid: 255CB074-9C05-4402-9EDE-43AD8C6707E6
-
 ms.date: 12/05/2018
 ms.keywords: GetBreakOnSeverity, GetBreakOnSeverity method, GetBreakOnSeverity method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetBreakOnSeverity method, ID3D12InfoQueue.GetBreakOnSeverity, ID3D12InfoQueue::GetBreakOnSeverity, d3d12sdklayers/ID3D12InfoQueue::GetBreakOnSeverity, direct3d12.id3d12infoqueue_getbreakonseverity
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.GetBreakOnSeverity"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.GetBreakOnSeverity
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.GetBreakOnSeverity
+- ID3D12InfoQueue.GetBreakOnSeverity
 targetos: Windows
 req.typenames: 
 req.redist: 

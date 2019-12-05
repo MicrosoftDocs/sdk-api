@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ClusGetClusterHealthFaults
 title: ClusGetClusterHealthFaults function (resapi.h)
-
 description: TBD.
 old-location: mscs\clusgetclusterhealthfaults.htm
 tech.root: MsCS
 ms.assetid: 971d4cb6-be46-4259-9c40-72388b70aff7
-
 ms.date: 12/05/2018
 ms.keywords: ClusGetClusterHealthFaults, ClusGetClusterHealthFaults function [Failover Cluster], mscs.clusgetclusterhealthfaults, resapi/ClusGetClusterHealthFaults
 ms.topic: function
-f1_keywords: 
- - "resapi/ClusGetClusterHealthFaults"
+f1_keywords:
+- resapi/ClusGetClusterHealthFaults
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - ClusGetClusterHealthFaults
+- ClusGetClusterHealthFaults
 targetos: Windows
 req.typenames: 
 req.redist: 

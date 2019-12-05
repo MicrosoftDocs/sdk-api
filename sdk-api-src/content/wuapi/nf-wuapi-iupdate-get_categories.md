@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_Categories
 title: IUpdate::get_Categories (wuapi.h)
-
 description: Gets an interface that contains a collection of categories to which the update belongs.
 old-location: wua\iupdate_categories.htm
 tech.root: Wua_Sdk
 ms.assetid: 25620fc2-25f2-4626-9e41-b44c305c505c
-
 ms.date: 12/05/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdate interface, IUpdate interface [Windows Update Agent],Categories property, IUpdate.Categories, IUpdate.get_Categories, IUpdate::Categories, IUpdate::get_Categories, get_Categories, wua.iupdate_categories, wuapi/IUpdate::Categories, wuapi/IUpdate::get_Categories
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.Categories"
+f1_keywords:
+- wuapi/IUpdate.Categories
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.Categories
- - IUpdate.get_Categories
+- IUpdate.Categories
+- IUpdate.get_Categories
 targetos: Windows
 req.typenames: 
 req.redist: 

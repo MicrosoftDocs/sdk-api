@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetPixelFormat
 title: SetPixelFormat function (wingdi.h)
-
 description: The SetPixelFormat function sets the pixel format of the specified device context to the format specified by the iPixelFormat index.
 old-location: opengl\setpixelformat.htm
 tech.root: OpenGL
 ms.assetid: f8d74078-a7e7-4d95-857a-f51d5d70598e
-
 ms.date: 12/05/2018
 ms.keywords: SetPixelFormat, SetPixelFormat function [OpenGL], _ogl_SetPixelFormat, opengl.setpixelformat, wingdi/SetPixelFormat
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetPixelFormat"
+f1_keywords:
+- wingdi/SetPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SetPixelFormat
+- SetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

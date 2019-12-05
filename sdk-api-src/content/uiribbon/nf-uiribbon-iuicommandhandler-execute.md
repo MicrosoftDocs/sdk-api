@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICommandHandler.Execute
 title: IUICommandHandler::Execute (uiribbon.h)
-
 description: Responds to execute events on Commands bound to the Command handler.
 old-location: windowsribbon\windowsribbon_iuicommandhandler_execute.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicommandhandler\execute.htm
-
 ms.date: 12/05/2018
 ms.keywords: Execute, Execute method [Windows Ribbon], Execute method [Windows Ribbon],IUICommandHandler interface, IUICommandHandler interface [Windows Ribbon],Execute method, IUICommandHandler.Execute, IUICommandHandler::Execute, scenicintent_IUICommandHandler_Execute, uiribbon/IUICommandHandler::Execute, windowsribbon.windowsribbon_iuicommandhandler_execute
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICommandHandler.Execute"
+f1_keywords:
+- uiribbon/IUICommandHandler.Execute
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICommandHandler.Execute
+- IUICommandHandler.Execute
 targetos: Windows
 req.typenames: 
 req.redist: 

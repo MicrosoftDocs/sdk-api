@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IHeaderCtrl.SetColumnWidth
 title: IHeaderCtrl::SetColumnWidth (mmc.h)
-
 description: Sets the width, in pixels, of a specific column.
 old-location: mmc\iheaderctrl_setcolumnwidth.htm
 tech.root: mmc
 ms.assetid: E704FF35-3859-4313-B42D-77A114AA6E78
-
 ms.date: 12/05/2018
 ms.keywords: IHeaderCtrl interface [MMC],SetColumnWidth method, IHeaderCtrl.SetColumnWidth, IHeaderCtrl::SetColumnWidth, MMCLV_AUTO, SetColumnWidth, SetColumnWidth method [MMC], SetColumnWidth method [MMC],IHeaderCtrl interface, mmc.iheaderctrl_setcolumnwidth, mmc/IHeaderCtrl::SetColumnWidth
 ms.topic: method
-f1_keywords: 
- - "mmc/IHeaderCtrl.SetColumnWidth"
+f1_keywords:
+- mmc/IHeaderCtrl.SetColumnWidth
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl.SetColumnWidth
+- IHeaderCtrl.SetColumnWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

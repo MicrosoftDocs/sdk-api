@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.EndGetEvent
 title: IMFMediaEventQueue::EndGetEvent (mfobjects.h)
-
 description: Completes an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::EndGetEvent. Pass the parameters from that method directly to this method.
 old-location: mf\imfmediaeventqueue_endgetevent.htm
 tech.root: medfound
 ms.assetid: bb0ea226-9dc0-43e3-a482-cfec531b5734
-
 ms.date: 12/05/2018
 ms.keywords: EndGetEvent, EndGetEvent method [Media Foundation], EndGetEvent method [Media Foundation],IMFMediaEventQueue interface, IMFMediaEventQueue interface [Media Foundation],EndGetEvent method, IMFMediaEventQueue.EndGetEvent, IMFMediaEventQueue::EndGetEvent, bb0ea226-9dc0-43e3-a482-cfec531b5734, mf.imfmediaeventqueue_endgetevent, mfobjects/IMFMediaEventQueue::EndGetEvent
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaEventQueue.EndGetEvent"
+f1_keywords:
+- mfobjects/IMFMediaEventQueue.EndGetEvent
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaEventQueue.EndGetEvent
+- IMFMediaEventQueue.EndGetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

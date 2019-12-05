@@ -1,19 +1,17 @@
 ---
 UID: NS:tdh._PAYLOAD_FILTER_PREDICATE
 title: PAYLOAD_FILTER_PREDICATE (tdh.h)
-
 description: Defines an event payload filter predicate that describes how to filter on a single field in a trace session.
 old-location: etw\payload_filter_predicate.htm
 tech.root: ETW
 ms.assetid: 6B8C03C9-2936-4FEE-AEF4-ABC368B1CB75
-
 ms.date: 12/05/2018
 ms.keywords: '*PPAYLOAD_FILTER_PREDICATE, PAYLOADFIELD_BETWEEN, PAYLOADFIELD_CONTAINS, PAYLOADFIELD_DOESNTCONTAIN, PAYLOADFIELD_EQ, PAYLOADFIELD_GE, PAYLOADFIELD_GT, PAYLOADFIELD_INVALID, PAYLOADFIELD_IS, PAYLOADFIELD_ISNOT, PAYLOADFIELD_LE, PAYLOADFIELD_LT, PAYLOADFIELD_MODULO, PAYLOADFIELD_NE, PAYLOADFIELD_NOTBETWEEN, PAYLOAD_FILTER_PREDICATE, PAYLOAD_FILTER_PREDICATE structure [ETW], PPAYLOAD_FILTER_PREDICATE, PPAYLOAD_FILTER_PREDICATE structure pointer [ETW], etw.payload_filter_predicate, tdh/PAYLOAD_FILTER_PREDICATE, tdh/PPAYLOAD_FILTER_PREDICATE'
 ms.topic: struct
 f1_keywords:
 - tdh/PAYLOAD_FILTER_PREDICATE
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows

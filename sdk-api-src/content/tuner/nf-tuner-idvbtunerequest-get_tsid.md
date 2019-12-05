@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.get_TSID
 title: IDVBTuneRequest::get_TSID (tuner.h)
-
 description: The get_TSID method retrieves the transport stream ID.
 old-location: mstv\idvbtunerequest_get_tsid.htm
 tech.root: mstv
 ms.assetid: 3bbc0fd0-5b4d-4701-b3ca-7581efff9e71
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_TSID method, IDVBTuneRequest.get_TSID, IDVBTuneRequest::get_TSID, IDVBTuneRequestget_TSID, get_TSID, get_TSID method [Microsoft TV Technologies], get_TSID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_tsid, tuner/IDVBTuneRequest::get_TSID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTuneRequest.get_TSID"
+f1_keywords:
+- tuner/IDVBTuneRequest.get_TSID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuneRequest.get_TSID
+- IDVBTuneRequest.get_TSID
 targetos: Windows
 req.typenames: 
 req.redist: 

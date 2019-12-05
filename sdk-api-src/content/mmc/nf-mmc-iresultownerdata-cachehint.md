@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultOwnerData.CacheHint
 title: IResultOwnerData::CacheHint (mmc.h)
-
 description: Called when a virtual list is about to request display information for a range of items, allowing the snap-in to collect the information ahead of time in cases where an optimization can be made.
 old-location: mmc\iresultownerdata_cachehint.htm
 tech.root: mmc
 ms.assetid: 8d63e5d7-f342-409a-abea-0305129ba060
-
 ms.date: 12/05/2018
 ms.keywords: CacheHint, CacheHint method [MMC], CacheHint method [MMC],IResultOwnerData interface, IResultOwnerData interface [MMC],CacheHint method, IResultOwnerData.CacheHint, IResultOwnerData::CacheHint, _slate_iresultownerdata_cachehint, mmc.iresultownerdata_cachehint, mmc/IResultOwnerData::CacheHint
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultOwnerData.CacheHint"
+f1_keywords:
+- mmc/IResultOwnerData.CacheHint
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IResultOwnerData.CacheHint
+- IResultOwnerData.CacheHint
 targetos: Windows
 req.typenames: 
 req.redist: 

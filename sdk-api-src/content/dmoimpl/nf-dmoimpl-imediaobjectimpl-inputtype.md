@@ -1,19 +1,17 @@
 ---
 UID: NF:dmoimpl.IMediaObjectImpl.InputType
 title: IMediaObjectImpl::InputType (dmoimpl.h)
-
 description: The InputType method retrieves the current media type for a specified input stream.
 old-location: dshow\imediaobjectimpl_inputtype.htm
 tech.root: DirectShow
 ms.assetid: e595ac21-14e0-45ae-a286-7938ad0e0a02
-
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectImpl interface [DirectShow],InputType method, IMediaObjectImpl.InputType, IMediaObjectImpl::InputType, IMediaObjectImplInputType, InputType, InputType method [DirectShow], InputType method [DirectShow],IMediaObjectImpl interface, dmoimpl/IMediaObjectImpl::InputType, dshow.imediaobjectimpl_inputtype
 ms.topic: method
-f1_keywords: 
- - "dmoimpl/IMediaObjectImpl.InputType"
+f1_keywords:
+- dmoimpl/IMediaObjectImpl.InputType
 dev_langs:
- - c++
+- c++
 req.header: dmoimpl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dmoguids.lib; Msdmo.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
- - Msdmo.lib
- - Msdmo.dll
+- Dmoguids.lib
+- Dmoguids.dll
+- Msdmo.lib
+- Msdmo.dll
 api_name:
- - IMediaObjectImpl.InputType
+- IMediaObjectImpl.InputType
 targetos: Windows
 req.typenames: 
 req.redist: 

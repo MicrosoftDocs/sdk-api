@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.BrightnessContrast
 title: BrightnessContrast (gdipluseffects.h)
-
 description: The BrightnessContrast class enables you to change the brightness and contrast of a bitmap.
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrast.htm
-
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrast, BrightnessContrast class [GDI+], BrightnessContrast class [GDI+],described, _gdiplus_CLASS_BrightnessContrast_Class, gdiplus._gdiplus_CLASS_BrightnessContrast_Class, gdipluseffects/BrightnessContrast
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/BrightnessContrast"
+f1_keywords:
+- gdipluseffects/BrightnessContrast
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - BrightnessContrast
+- BrightnessContrast
 targetos: Windows
 req.typenames: 
 req.redist: 

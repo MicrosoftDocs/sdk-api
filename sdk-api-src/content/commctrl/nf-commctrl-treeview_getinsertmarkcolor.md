@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetInsertMarkColor
 title: TreeView_GetInsertMarkColor macro (commctrl.h)
-
 description: Retrieves the color used to draw the insertion mark for the tree view. You can use this macro or send the TVM_GETINSERTMARKCOLOR message explicitly.
 old-location: controls\TreeView_GetInsertMarkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getinsertmarkcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetInsertMarkColor, TreeView_GetInsertMarkColor macro [Windows Controls], _win32_TreeView_GetInsertMarkColor, _win32_TreeView_GetInsertMarkColor_cpp, commctrl/TreeView_GetInsertMarkColor, controls.TreeView_GetInsertMarkColor, controls._win32_TreeView_GetInsertMarkColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetInsertMarkColor"
+f1_keywords:
+- commctrl/TreeView_GetInsertMarkColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetInsertMarkColor
+- TreeView_GetInsertMarkColor
 targetos: Windows
 req.typenames: 
 req.redist: 

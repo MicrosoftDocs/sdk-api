@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DVertexShader9.GetFunction
 title: IDirect3DVertexShader9::GetFunction (d3d9.h)
-
 description: Gets a pointer to the shader data.
 old-location: direct3d9\idirect3dvertexshader9__getfunction.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexshader9__getfunction.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFunction, GetFunction method [Direct3D 9], GetFunction method [Direct3D 9],IDirect3DVertexShader9 interface, IDirect3DVertexShader9 interface [Direct3D 9],GetFunction method, IDirect3DVertexShader9.GetFunction, IDirect3DVertexShader9::GetFunction, d0abe93b-084e-be3d-d4c2-e12b15c9898f, d3d9helper/IDirect3DVertexShader9::GetFunction, direct3d9.idirect3dvertexshader9__getfunction
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DVertexShader9.GetFunction"
+f1_keywords:
+- d3d9/IDirect3DVertexShader9.GetFunction
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DVertexShader9.GetFunction
+- IDirect3DVertexShader9.GetFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

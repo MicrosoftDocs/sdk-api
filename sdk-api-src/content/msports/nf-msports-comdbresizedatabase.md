@@ -1,19 +1,17 @@
 ---
 UID: NF:msports.ComDBResizeDatabase
 title: ComDBResizeDatabase function (msports.h)
-
 description: ComDBResizeDatabase resizes the COM port database.
 old-location: serports\comdbresizedatabase.htm
 tech.root: serports
 ms.assetid: fef761be-57c5-4188-8de9-dbca31d91870
-
 ms.date: 12/05/2018
 ms.keywords: ComDBResizeDatabase, ComDBResizeDatabase function [Serial Ports], comdb_b0a32b8b-517e-45af-970a-7f192e5434fb.xml, msports/ComDBResizeDatabase, serports.comdbresizedatabase
 ms.topic: function
-f1_keywords: 
- - "msports/ComDBResizeDatabase"
+f1_keywords:
+- msports/ComDBResizeDatabase
 dev_langs:
- - c++
+- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msports.dll
+- Msports.dll
 api_name:
- - ComDBResizeDatabase
+- ComDBResizeDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_MinLength
 title: ICspAlgorithm::get_MinLength (certenroll.h)
-
 description: Retrieves the minimum permitted length for a key.
 old-location: security\icspalgorithm_minlength_property.htm
 tech.root: seccertenroll
 ms.assetid: 1df00a2d-4004-4c5d-ab70-5d39ca517ebd
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm.get_MinLength, ICspAlgorithm::MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength, security.icspalgorithm_minlength_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.MinLength"
+f1_keywords:
+- certenroll/ICspAlgorithm.MinLength
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.MinLength
- - ICspAlgorithm.get_MinLength
+- ICspAlgorithm.MinLength
+- ICspAlgorithm.get_MinLength
 targetos: Windows
 req.typenames: 
 req.redist: 

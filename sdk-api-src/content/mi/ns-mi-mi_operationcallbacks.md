@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_OperationCallbacks
 title: MI_OperationCallbacks (mi.h)
-
 description: Structure that holds all callback function pointers for carrying out operations.
 old-location: wmi_v2\mi_operationcallbacks.htm
 tech.root: wmi_v2
 ms.assetid: f56954bf-c1aa-408b-bc45-0faf2a99b381
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationCallbacks, MI_OperationCallbacks structure [Windows Management Infrastructure (MI)], mi/MI_OperationCallbacks, wmi._mi_operationcallbacks, wmi_v2.mi_operationcallbacks
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_OperationCallbacks"
+f1_keywords:
+- mi/MI_OperationCallbacks
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_OperationCallbacks
+- MI_OperationCallbacks
 targetos: Windows
 req.typenames: MI_OperationCallbacks
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

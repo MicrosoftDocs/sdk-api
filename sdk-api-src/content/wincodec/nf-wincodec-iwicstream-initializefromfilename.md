@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICStream.InitializeFromFilename
 title: IWICStream::InitializeFromFilename (wincodec.h)
-
 description: Initializes a stream from a particular file.
 old-location: wic\_wic_codec_iwicstream_initializefromfilename.htm
 tech.root: wic
 ms.assetid: b0942d23-9c49-4726-9d84-bf0d448124b3
-
 ms.date: 12/05/2018
 ms.keywords: GENERIC_READ, GENERIC_WRITE, IWICStream interface [Windows Imaging Component],InitializeFromFilename method, IWICStream.InitializeFromFilename, IWICStream::InitializeFromFilename, InitializeFromFilename, InitializeFromFilename method [Windows Imaging Component], InitializeFromFilename method [Windows Imaging Component],IWICStream interface, _wic_codec_iwicstream_initializefromfilename, wic._wic_codec_iwicstream_initializefromfilename, wincodec/IWICStream::InitializeFromFilename
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICStream.InitializeFromFilename"
+f1_keywords:
+- wincodec/IWICStream.InitializeFromFilename
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICStream.InitializeFromFilename
+- IWICStream.InitializeFromFilename
 targetos: Windows
 req.typenames: 
 req.redist: 

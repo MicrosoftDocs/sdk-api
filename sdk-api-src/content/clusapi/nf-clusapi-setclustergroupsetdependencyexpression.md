@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.SetClusterGroupSetDependencyExpression
 title: SetClusterGroupSetDependencyExpression function (clusapi.h)
-
 description: Sets the dependency expression for a cluster groupset.
 old-location: mscs\setclustergroupcollectiondependencyexpression.htm
 tech.root: MsCS
 ms.assetid: 1bde6ef6-a415-4fa2-8618-0304c38d9434
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION, PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION function [Failover Cluster], SetClusterGroupSetDependencyExpression, SetClusterGroupSetDependencyExpression function [Failover Cluster], clusapi/PCLUSAPI_SET_CLUSTER_GROUP_GROUPSET_DEPENDENCY_EXPRESSION, clusapi/SetClusterGroupSetDependencyExpression, mscs.setclustergroupcollectiondependencyexpression
 ms.topic: function
-f1_keywords: 
- - "clusapi/SetClusterGroupSetDependencyExpression"
+f1_keywords:
+- clusapi/SetClusterGroupSetDependencyExpression
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - SetClusterGroupSetDependencyExpression
+- SetClusterGroupSetDependencyExpression
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsLunNaming
 title: IVdsLunNaming (vds.h)
-
 description: Provides a method to name LUNs for a class implementing the IVdsLun interface.
 old-location: base\ivdslunnaming.htm
 tech.root: VDS
 ms.assetid: 1cc5fbb2-6a40-4b7c-9b5f-8f5fb53e6173
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLunNaming, IVdsLunNaming interface [VDS], IVdsLunNaming interface [VDS],described, base.ivdslunnaming, vds/IVdsLunNaming, vdshwprv/IVdsLunNaming
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsLunNaming"
+f1_keywords:
+- vds/IVdsLunNaming
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLunNaming
+- IVdsLunNaming
 targetos: Windows
 req.typenames: 
 req.redist: 

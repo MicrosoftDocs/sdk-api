@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.CreateInstanceCollectionQuery
 title: IFunctionDiscovery::CreateInstanceCollectionQuery (functiondiscoveryapi.h)
-
 description: Creates a query for a collection of specific function instances.
 old-location: ncd\ifunctiondiscovery_createinstancecollectionquery_method.htm
 tech.root: FunDisc
 ms.assetid: 46f74e55-8060-4f02-85e3-dbd2fc8fce78
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstanceCollectionQuery, CreateInstanceCollectionQuery method, CreateInstanceCollectionQuery method,IFunctionDiscovery interface, IFunctionDiscovery interface,CreateInstanceCollectionQuery method, IFunctionDiscovery.CreateInstanceCollectionQuery, IFunctionDiscovery::CreateInstanceCollectionQuery, functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery, ncd.ifunctiondiscovery_createinstancecollectionquery_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscovery.CreateInstanceCollectionQuery"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscovery.CreateInstanceCollectionQuery
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionDiscovery.CreateInstanceCollectionQuery
+- IFunctionDiscovery.CreateInstanceCollectionQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.FileFailure
 title: ITransferAdviseSink::FileFailure (shobjidl_core.h)
-
 description: Called when there is a failure and user interaction is needed.
 old-location: shell\ITransferAdviseSink_FileFailure.htm
 tech.root: shell
 ms.assetid: 4adc4e9d-f1d1-438c-bae3-23d1259453a6
-
 ms.date: 12/05/2018
 ms.keywords: FileFailure, FileFailure method [Windows Shell], FileFailure method [Windows Shell],ITransferAdviseSink interface, ITransferAdviseSink interface [Windows Shell],FileFailure method, ITransferAdviseSink.FileFailure, ITransferAdviseSink::FileFailure, _shell_ITransferAdviseSink_FileFailure, shell.ITransferAdviseSink_FileFailure, shobjidl_core/ITransferAdviseSink::FileFailure
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferAdviseSink.FileFailure"
+f1_keywords:
+- shobjidl_core/ITransferAdviseSink.FileFailure
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferAdviseSink.FileFailure
+- ITransferAdviseSink.FileFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

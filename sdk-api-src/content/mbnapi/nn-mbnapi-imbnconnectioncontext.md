@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnConnectionContext
 title: IMbnConnectionContext (mbnapi.h)
-
 description: Manages connection contexts.
 old-location: mbn\imbnconnectioncontext.htm
 tech.root: mbn
 ms.assetid: a9bc52dc-47f9-4b20-b98d-0287464a89e5
-
 ms.date: 12/05/2018
 ms.keywords: IMbnConnectionContext, IMbnConnectionContext interface [Microsoft Broadband Networks], IMbnConnectionContext interface [Microsoft Broadband Networks],described, mbn.imbnconnectioncontext, mbnapi/IMbnConnectionContext
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnConnectionContext"
+f1_keywords:
+- mbnapi/IMbnConnectionContext
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionContext
+- IMbnConnectionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.GetPlayLength
 title: IWMDMObjectInfo::GetPlayLength (mswmdm.h)
-
 description: The GetPlayLength method retrieves the play length of the object in units appropriate to the format. This is the remaining length that the file can play, not its total length.
 old-location: wmdm\iwmdmobjectinfo_getplaylength.htm
 tech.root: WMDM
 ms.assetid: 7f553513-0928-41b8-858f-c06ec57660d1
-
 ms.date: 12/05/2018
 ms.keywords: GetPlayLength, GetPlayLength method [windows Media Device Manager], GetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, IWMDMObjectInfo interface [windows Media Device Manager],GetPlayLength method, IWMDMObjectInfo.GetPlayLength, IWMDMObjectInfo::GetPlayLength, IWMDMObjectInfoGetPlayLength, mswmdm/IWMDMObjectInfo::GetPlayLength, wmdm.iwmdmobjectinfo_getplaylength
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMObjectInfo.GetPlayLength"
+f1_keywords:
+- mswmdm/IWMDMObjectInfo.GetPlayLength
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMObjectInfo.GetPlayLength
+- IWMDMObjectInfo.GetPlayLength
 targetos: Windows
 req.typenames: 
 req.redist: 

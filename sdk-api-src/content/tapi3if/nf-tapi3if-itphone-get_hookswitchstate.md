@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.get_HookSwitchState
 title: ITPhone::get_HookSwitchState (tapi3if.h)
-
 description: The get_HookSwitchState method retrieves the current hookswitch state for a particular hookswitch device on the phone.
 old-location: tapi3\itphone_get_hookswitchstate.htm
 tech.root: Tapi
 ms.assetid: 4560b447-45af-482a-b97b-dd0cbdb52466
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],get_HookSwitchState method, ITPhone.get_HookSwitchState, ITPhone::get_HookSwitchState, _tapi3_itphone_get_hookswitchstate, get_HookSwitchState, get_HookSwitchState method [TAPI 2.2], get_HookSwitchState method [TAPI 2.2],ITPhone interface, tapi3.itphone_get_hookswitchstate, tapi3if/ITPhone::get_HookSwitchState
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.get_HookSwitchState"
+f1_keywords:
+- tapi3if/ITPhone.get_HookSwitchState
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.get_HookSwitchState
+- ITPhone.get_HookSwitchState
 targetos: Windows
 req.typenames: 
 req.redist: 

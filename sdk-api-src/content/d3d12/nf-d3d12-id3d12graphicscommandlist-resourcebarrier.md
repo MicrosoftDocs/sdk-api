@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResourceBarrier
 title: ID3D12GraphicsCommandList::ResourceBarrier (d3d12.h)
-
 description: Notifies the driver that it needs to synchronize multiple accesses to resources.
 old-location: direct3d12\id3d12graphicscommandlist_resourcebarrier.htm
 tech.root: direct3d12
 ms.assetid: AA788F94-122B-4132-BED5-162EAC683676
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,ResourceBarrier method, ID3D12GraphicsCommandList.ResourceBarrier, ID3D12GraphicsCommandList::ResourceBarrier, ResourceBarrier, ResourceBarrier method, ResourceBarrier method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::ResourceBarrier, direct3d12.id3d12graphicscommandlist_resourcebarrier
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.ResourceBarrier"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.ResourceBarrier
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.ResourceBarrier
+- ID3D12GraphicsCommandList.ResourceBarrier
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordIsPathSelectBitSet
 title: IATSC_VCT::GetRecordIsPathSelectBitSet (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordispathselectbitset.htm
 tech.root: mstv
 ms.assetid: 6f3e1e5c-0506-420d-981b-d30d77604e97
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordIsPathSelectBitSet, GetRecordIsPathSelectBitSet method [Microsoft TV Technologies], GetRecordIsPathSelectBitSet method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordIsPathSelectBitSet method, IATSC_VCT.GetRecordIsPathSelectBitSet, IATSC_VCT::GetRecordIsPathSelectBitSet, IATSC_VCTGetRecordIsPathSelectBitSet, atscpsipparser/IATSC_VCT::GetRecordIsPathSelectBitSet, mstv.iatsc_vct_getrecordispathselectbitset
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordIsPathSelectBitSet"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordIsPathSelectBitSet
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordIsPathSelectBitSet
+- IATSC_VCT.GetRecordIsPathSelectBitSet
 targetos: Windows
 req.typenames: 
 req.redist: 

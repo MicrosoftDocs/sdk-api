@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmEnableComposition
 title: DwmEnableComposition function (dwmapi.h)
-
 description: Enables or disables Desktop Window Manager (DWM) composition.
 old-location: dwm\dwmenablecomposition.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmenablecomposition.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmEnableComposition, DwmEnableComposition function [Desktop Window Manager], _udwm_dwmenablecomposition, _udwm_dwmenablecomposition_cpp, dwm.dwmenablecomposition, dwmapi/DwmEnableComposition, winui._udwm_dwmenablecomposition
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmEnableComposition"
+f1_keywords:
+- dwmapi/DwmEnableComposition
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
+- Dwmapi.dll
 api_name:
- - DwmEnableComposition
+- DwmEnableComposition
 targetos: Windows
 req.typenames: 
 req.redist: 

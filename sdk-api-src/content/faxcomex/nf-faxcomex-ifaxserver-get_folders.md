@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Folders
 title: IFaxServer::get_Folders (faxcomex.h)
-
 description: The IFaxServer::get_Folders property accesses a IFaxFolders configuration interface. You can use the interface to access the folders, jobs, and messages on a connected fax server.
 old-location: fax\_mfax_faxserver_folders_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5ss3_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: Folders property [Fax Service], Folders property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Folders property, IFaxServer.Folders, IFaxServer.get_Folders, IFaxServer::Folders, IFaxServer::get_Folders, _mfax_faxserver.folders_cpp, fax._mfax_faxserver_folders_cpp, faxcomex/IFaxServer::Folders, faxcomex/IFaxServer::get_Folders, get_Folders
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.Folders"
+f1_keywords:
+- faxcomex/IFaxServer.Folders
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.Folders
- - IFaxServer.get_Folders
+- IFaxServer.Folders
+- IFaxServer.get_Folders
 targetos: Windows
 req.typenames: 
 req.redist: 

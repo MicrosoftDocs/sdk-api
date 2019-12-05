@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_TXFS_TRANSACTION_ACTIVE
 title: FSCTL_TXFS_TRANSACTION_ACTIVE
-
 description: Returns a Boolean value that indicates if there were any transactions active on the associated volume when the snapshot was taken. This call is only valid for read-only snapshot volumes.
 old-location: fs\fsctl_txfs_transaction_active.htm
 tech.root: FileIO
 ms.assetid: c55802b7-9c56-48ee-9d0b-777f06fbeff1
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_TXFS_TRANSACTION_ACTIVE, FSCTL_TXFS_TRANSACTION_ACTIVE control, FSCTL_TXFS_TRANSACTION_ACTIVE control code [Files], fs.fsctl_txfs_transaction_active, winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
 ms.topic: ioctl
 f1_keywords:
 - winioctl/FSCTL_TXFS_TRANSACTION_ACTIVE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

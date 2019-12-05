@@ -1,19 +1,17 @@
 ---
 UID: NE:callobj.CALLFRAME_WALK
 title: CALLFRAME_WALK (callobj.h)
-
 description: Determines the parameter type to be walked.
 old-location: com\callframe_walk.htm
 tech.root: com
 ms.assetid: 52327707-43b0-4041-8fa1-62a9a62dc6b7
-
 ms.date: 12/05/2018
 ms.keywords: CALLFRAME_WALK, CALLFRAME_WALK enumeration [COM], CALLFRAME_WALK_IN, CALLFRAME_WALK_INOUT, CALLFRAME_WALK_OUT, _com_CALLFRAME_WALK, callobj/CALLFRAME_WALK, callobj/CALLFRAME_WALK_IN, callobj/CALLFRAME_WALK_INOUT, callobj/CALLFRAME_WALK_OUT, com.callframe_walk
 ms.topic: enum
-f1_keywords: 
- - "callobj/CALLFRAME_WALK"
+f1_keywords:
+- callobj/CALLFRAME_WALK
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CallObj.h
+- CallObj.h
 api_name:
- - CALLFRAME_WALK
+- CALLFRAME_WALK
 targetos: Windows
 req.typenames: 
 req.redist: 

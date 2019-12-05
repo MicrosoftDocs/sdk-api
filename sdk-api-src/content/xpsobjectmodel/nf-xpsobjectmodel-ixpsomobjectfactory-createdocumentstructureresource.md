@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDocumentStructureResource
 title: IXpsOMObjectFactory::CreateDocumentStructureResource (xpsobjectmodel.h)
-
 description: Creates an IXpsOMDocumentStructureResource interface, which provides access to the document structure resource stream.
 old-location: xps\ixpsomobjectfactory_createdocumentstructureresource.htm
 tech.root: printdocs
 ms.assetid: ce41c5fb-033d-4140-b7aa-4f28676f0ae6
-
 ms.date: 12/05/2018
 ms.keywords: CreateDocumentStructureResource, CreateDocumentStructureResource method [XPS Documents and Packaging], CreateDocumentStructureResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocumentStructureResource method, IXpsOMObjectFactory.CreateDocumentStructureResource, IXpsOMObjectFactory::CreateDocumentStructureResource, xps.ixpsomobjectfactory_createdocumentstructureresource, xpsobjectmodel/IXpsOMObjectFactory::CreateDocumentStructureResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateDocumentStructureResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateDocumentStructureResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateDocumentStructureResource
+- IXpsOMObjectFactory.CreateDocumentStructureResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.SaveConfiguration
 title: IFhConfigMgr::SaveConfiguration (fhcfg.h)
-
 description: Saves to disk all the changes that were made in an FhConfigMgr object since the last time that the LoadConfiguration, CreateDefaultConfiguration or SaveConfiguration method was called for the File History configuration files of the current user.
 old-location: winprog\ifhconfigmgr_saveconfiguration.htm
 tech.root: DevNotes
 ms.assetid: 71D6E732-927B-4AA4-9947-6E52B09FF5B8
-
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],SaveConfiguration method, IFhConfigMgr interface [Windows API],SaveConfiguration method, IFhConfigMgr.SaveConfiguration, IFhConfigMgr::SaveConfiguration, SaveConfiguration, SaveConfiguration method [Windows API], SaveConfiguration method [Windows API],FhConfigMgr class, SaveConfiguration method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::SaveConfiguration, winprog.ifhconfigmgr_saveconfiguration
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhConfigMgr.SaveConfiguration"
+f1_keywords:
+- fhcfg/IFhConfigMgr.SaveConfiguration
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhConfigMgr.SaveConfiguration
- - FhConfigMgr.SaveConfiguration
+- IFhConfigMgr.SaveConfiguration
+- FhConfigMgr.SaveConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupInitDefaultQueueCallback
 title: SetupInitDefaultQueueCallback function (setupapi.h)
-
 description: The SetupInitDefaultQueueCallback function initializes the context used by the default queue callback routine included with the Setup API.
 old-location: setup\setupinitdefaultqueuecallback.htm
 tech.root: SetupApi
 ms.assetid: 3ee7da67-42ff-4ea1-9c7f-6c0dcc3dc0b4
-
 ms.date: 12/05/2018
 ms.keywords: SetupInitDefaultQueueCallback, SetupInitDefaultQueueCallback function [Setup API], _setupapi_setupinitdefaultqueuecallback, setup.setupinitdefaultqueuecallback, setupapi/SetupInitDefaultQueueCallback
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInitDefaultQueueCallback"
+f1_keywords:
+- setupapi/SetupInitDefaultQueueCallback
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupInitDefaultQueueCallback
+- SetupInitDefaultQueueCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

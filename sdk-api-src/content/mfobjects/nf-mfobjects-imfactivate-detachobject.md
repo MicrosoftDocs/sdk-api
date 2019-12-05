@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFActivate.DetachObject
 title: IMFActivate::DetachObject (mfobjects.h)
-
 description: Detaches the created object from the activation object.
 old-location: mf\imfactivate_detachobject.htm
 tech.root: medfound
 ms.assetid: 15216c57-f85d-4087-ad52-d35059647828
-
 ms.date: 12/05/2018
 ms.keywords: 15216c57-f85d-4087-ad52-d35059647828, DetachObject, DetachObject method [Media Foundation], DetachObject method [Media Foundation],IMFActivate interface, IMFActivate interface [Media Foundation],DetachObject method, IMFActivate.DetachObject, IMFActivate::DetachObject, mf.imfactivate_detachobject, mfobjects/IMFActivate::DetachObject
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFActivate.DetachObject"
+f1_keywords:
+- mfobjects/IMFActivate.DetachObject
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFActivate.DetachObject
+- IMFActivate.DetachObject
 targetos: Windows
 req.typenames: 
 req.redist: 

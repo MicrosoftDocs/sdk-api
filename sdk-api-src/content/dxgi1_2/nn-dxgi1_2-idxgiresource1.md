@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_2.IDXGIResource1
 title: IDXGIResource1 (dxgi1_2.h)
-
 description: An IDXGIResource1 interface extends the IDXGIResource interface by adding support for creating a subresource surface object and for creating a handle to a shared resource.
 old-location: direct3ddxgi\idxgiresource1.htm
 tech.root: direct3ddxgi
 ms.assetid: 0ABA9B8D-BEA4-4455-A312-7CFEDEBBF19A
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIResource1, IDXGIResource1 interface [DXGI], IDXGIResource1 interface [DXGI],described, direct3ddxgi.idxgiresource1, dxgi1_2/IDXGIResource1
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_2/IDXGIResource1"
+f1_keywords:
+- dxgi1_2/IDXGIResource1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIResource1
+- IDXGIResource1
 targetos: Windows
 req.typenames: 
 req.redist: 

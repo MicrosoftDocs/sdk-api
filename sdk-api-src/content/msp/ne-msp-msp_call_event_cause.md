@@ -1,19 +1,17 @@
 ---
 UID: NE:msp.__MIDL___MIDL_itf_msp_0000_0000_0003
 title: MSP_CALL_EVENT_CAUSE (msp.h)
-
 description: The MSP_CALL_EVENT_CAUSE constant is returned within the MSP_EVENT_INFO struct by the GetEvent method when MSP_EVENT is ME_CALL_EVENT.
 old-location: tapi3\msp_call_event_cause.htm
 tech.root: Tapi
 ms.assetid: 3724bead-d16a-40dd-b55c-3c31846f1c1c
-
 ms.date: 12/05/2018
 ms.keywords: CALL_CAUSE_BAD_DEVICE, CALL_CAUSE_CONNECT_FAIL, CALL_CAUSE_LOCAL_REQUEST, CALL_CAUSE_MEDIA_RECOVERED, CALL_CAUSE_MEDIA_TIMEOUT, CALL_CAUSE_REMOTE_REQUEST, CALL_CAUSE_UNKNOWN, MSP_CALL_EVENT_CAUSE, MSP_CALL_EVENT_CAUSE enumeration [TAPI 2.2], _tapi3_msp_call_event_cause, msp/CALL_CAUSE_BAD_DEVICE, msp/CALL_CAUSE_CONNECT_FAIL, msp/CALL_CAUSE_LOCAL_REQUEST, msp/CALL_CAUSE_MEDIA_RECOVERED, msp/CALL_CAUSE_MEDIA_TIMEOUT, msp/CALL_CAUSE_REMOTE_REQUEST, msp/CALL_CAUSE_UNKNOWN, msp/MSP_CALL_EVENT_CAUSE, tapi3.msp_call_event_cause
 ms.topic: enum
-f1_keywords: 
- - "msp/MSP_CALL_EVENT_CAUSE"
+f1_keywords:
+- msp/MSP_CALL_EVENT_CAUSE
 dev_langs:
- - c++
+- c++
 req.header: msp.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msp.h
+- msp.h
 api_name:
- - MSP_CALL_EVENT_CAUSE
+- MSP_CALL_EVENT_CAUSE
 targetos: Windows
 req.typenames: MSP_CALL_EVENT_CAUSE
 req.redist: 

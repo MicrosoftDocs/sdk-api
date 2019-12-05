@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanSaveTemporaryProfile
 title: WlanSaveTemporaryProfile function (wlanapi.h)
-
 description: Saves a temporary profile to the profile store.
 old-location: nwifi\wlansavetemporaryprofile.htm
 tech.root: NativeWiFi
 ms.assetid: e409fd30-eddd-4cc7-acb7-35af6ef51a10
-
 ms.date: 12/05/2018
 ms.keywords: WLAN_PROFILE_CONNECTION_MODE_AUTO, WLAN_PROFILE_CONNECTION_MODE_SET_BY_CLIENT, WLAN_PROFILE_USER, WlanSaveTemporaryProfile, WlanSaveTemporaryProfile function [NativeWIFI], nwifi.wlansavetemporaryprofile, wlanapi/WlanSaveTemporaryProfile
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanSaveTemporaryProfile"
+f1_keywords:
+- wlanapi/WlanSaveTemporaryProfile
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WlanSaveTemporaryProfile
+- WlanSaveTemporaryProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

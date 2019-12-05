@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetRunTimes
 title: IScheduledWorkItem::GetRunTimes (mstask.h)
-
 description: Retrieves the work item run times for a specified time period.
 old-location: taskschd\ischeduledworkitem_getruntimes.htm
 tech.root: taskschd
 ms.assetid: 4fd9f5dc-b237-46a6-96c0-0e4b3accd6e5
-
 ms.date: 12/05/2018
 ms.keywords: GetRunTimes, GetRunTimes method [Task Scheduler], GetRunTimes method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetRunTimes method, IScheduledWorkItem.GetRunTimes, IScheduledWorkItem::GetRunTimes, _msb_ischeduledworkitem_getruntimes, mstask/IScheduledWorkItem::GetRunTimes, taskschd.ischeduledworkitem_getruntimes
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetRunTimes"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetRunTimes
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetRunTimes
+- IScheduledWorkItem.GetRunTimes
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

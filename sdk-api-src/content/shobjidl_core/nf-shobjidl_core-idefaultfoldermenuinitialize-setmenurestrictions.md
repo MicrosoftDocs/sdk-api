@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.SetMenuRestrictions
 title: IDefaultFolderMenuInitialize::SetMenuRestrictions (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\IDefaultFolderMenuInitialize_SetMenuRestrictions.htm
 tech.root: shell
 ms.assetid: 7D907B01-E0C4-428b-A8A4-FA383B0970BF
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetMenuRestrictions method, IDefaultFolderMenuInitialize.SetMenuRestrictions, IDefaultFolderMenuInitialize::SetMenuRestrictions, SetMenuRestrictions, SetMenuRestrictions method [Windows Shell], SetMenuRestrictions method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetMenuRestrictions, shobjidl_core/IDefaultFolderMenuInitialize::SetMenuRestrictions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDefaultFolderMenuInitialize.SetMenuRestrictions"
+f1_keywords:
+- shobjidl_core/IDefaultFolderMenuInitialize.SetMenuRestrictions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDefaultFolderMenuInitialize.SetMenuRestrictions
+- IDefaultFolderMenuInitialize.SetMenuRestrictions
 targetos: Windows
 req.typenames: 
 req.redist: 

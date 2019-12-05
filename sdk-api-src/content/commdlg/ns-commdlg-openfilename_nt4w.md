@@ -1,19 +1,17 @@
 ---
 UID: NS:commdlg.tagOFN_NT4W
 title: OPENFILENAME_NT4W (commdlg.h)
-
 description: The OPENFILENAME_NT4 structure is identical to OPENFILENAME with _WIN32_WINNT set to 0x0400.
 old-location: dlgbox\openfilename_nt4_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename_nt4.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOPENFILENAME_NT4W, OPENFILENAME_NT4, OPENFILENAME_NT4 structure [Dialog Boxes], OPENFILENAME_NT4A, OPENFILENAME_NT4W, _win32_OPENFILENAME_NT4_str, _win32_openfilename_nt4_str_cpp, commdlg/OPENFILENAME_NT4, commdlg/OPENFILENAME_NT4A, commdlg/OPENFILENAME_NT4W, dlgbox.openfilename_nt4_str, winui._win32_openfilename_nt4_str"
+ms.keywords: '*LPOPENFILENAME_NT4W, OPENFILENAME_NT4, OPENFILENAME_NT4 structure [Dialog Boxes], OPENFILENAME_NT4A, OPENFILENAME_NT4W, _win32_OPENFILENAME_NT4_str, _win32_openfilename_nt4_str_cpp, commdlg/OPENFILENAME_NT4, commdlg/OPENFILENAME_NT4A, commdlg/OPENFILENAME_NT4W, dlgbox.openfilename_nt4_str, winui._win32_openfilename_nt4_str'
 ms.topic: struct
-f1_keywords: 
- - "commdlg/OPENFILENAME_NT4"
+f1_keywords:
+- commdlg/OPENFILENAME_NT4
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commdlg.h
+- Commdlg.h
 api_name:
- - OPENFILENAME_NT4
- - OPENFILENAME_NT4A
- - OPENFILENAME_NT4W
+- OPENFILENAME_NT4
+- OPENFILENAME_NT4A
+- OPENFILENAME_NT4W
 targetos: Windows
 req.typenames: OPENFILENAME_NT4W, *LPOPENFILENAME_NT4W
 req.redist: 

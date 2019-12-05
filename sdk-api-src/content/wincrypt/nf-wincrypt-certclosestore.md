@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertCloseStore
 title: CertCloseStore function (wincrypt.h)
-
 description: Closes a certificate store handle and reduces the reference count on the store.
 old-location: security\certclosestore.htm
 tech.root: SecCrypto
 ms.assetid: a93fdd65-359e-4046-910d-347c3af01280
-
 ms.date: 12/05/2018
 ms.keywords: CERT_CLOSE_STORE_CHECK_FLAG, CERT_CLOSE_STORE_FORCE_FLAG, CertCloseStore, CertCloseStore function [Security], _crypto2_certclosestore, security.certclosestore, wincrypt/CertCloseStore
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertCloseStore"
+f1_keywords:
+- wincrypt/CertCloseStore
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertCloseStore
+- CertCloseStore
 targetos: Windows
 req.typenames: 
 req.redist: 

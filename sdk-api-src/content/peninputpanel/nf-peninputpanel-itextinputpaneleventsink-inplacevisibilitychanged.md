@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.InPlaceVisibilityChanged
 title: ITextInputPanelEventSink::InPlaceVisibilityChanged (peninputpanel.h)
-
 description: Occurs when the Tablet PC Input Panel has switched between visible and invisible.
 old-location: tablet\itextinputpaneleventsink_inplacevisibilitychanged.htm
 tech.root: tablet
 ms.assetid: 7ec8acd4-fbb9-4801-880b-fe0d5d3fa3c2
-
 ms.date: 12/05/2018
 ms.keywords: 7ec8acd4-fbb9-4801-880b-fe0d5d3fa3c2, ITextInputPanelEventSink interface [Tablet PC],InPlaceVisibilityChanged method, ITextInputPanelEventSink.InPlaceVisibilityChanged, ITextInputPanelEventSink::InPlaceVisibilityChanged, InPlaceVisibilityChanged, InPlaceVisibilityChanged method [Tablet PC], InPlaceVisibilityChanged method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::InPlaceVisibilityChanged, tablet.itextinputpaneleventsink_inplacevisibilitychanged
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanelEventSink.InPlaceVisibilityChanged"
+f1_keywords:
+- peninputpanel/ITextInputPanelEventSink.InPlaceVisibilityChanged
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.InPlaceVisibilityChanged
+- ITextInputPanelEventSink.InPlaceVisibilityChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

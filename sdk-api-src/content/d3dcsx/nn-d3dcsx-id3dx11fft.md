@@ -1,19 +1,17 @@
 ---
 UID: NN:d3dcsx.ID3DX11FFT
 title: ID3DX11FFT (d3dcsx.h)
-
 description: Encapsulates forward and inverse FFTs.
 old-location: direct3d11\id3dx11fft.htm
 tech.root: direct3d11
 ms.assetid: 6979aea4-5121-4a65-85f6-4b5753083715
-
 ms.date: 12/05/2018
 ms.keywords: 6baaded3-822f-0135-c977-9d5552c9ac99, ID3DX11FFT, ID3DX11FFT interface [Direct3D 11], ID3DX11FFT interface [Direct3D 11],described, d3dcsx/ID3DX11FFT, direct3d11.id3dx11fft
 ms.topic: interface
-f1_keywords: 
- - "d3dcsx/ID3DX11FFT"
+f1_keywords:
+- d3dcsx/ID3DX11FFT
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - ID3DX11FFT
+- ID3DX11FFT
 targetos: Windows
 req.typenames: 
 req.redist: 

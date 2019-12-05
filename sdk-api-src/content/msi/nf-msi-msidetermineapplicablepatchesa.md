@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiDetermineApplicablePatchesA
 title: MsiDetermineApplicablePatchesA function (msi.h)
-
 description: The MsiDetermineApplicablePatches function takes a set of patch files, XML files, and XML blobs and determines which patches apply to a specified Windows Installer package and in what sequence.
 old-location: setup\msidetermineapplicablepatches.htm
 tech.root: Msi
 ms.assetid: 2362d1dd-695e-48a3-b8ef-4516952ed253
-
 ms.date: 12/05/2018
 ms.keywords: MsiDetermineApplicablePatches, MsiDetermineApplicablePatches function, MsiDetermineApplicablePatchesA, MsiDetermineApplicablePatchesW, msi/MsiDetermineApplicablePatches, msi/MsiDetermineApplicablePatchesA, msi/MsiDetermineApplicablePatchesW, setup.msidetermineapplicablepatches
 ms.topic: function
-f1_keywords: 
- - "msi/MsiDetermineApplicablePatches"
+f1_keywords:
+- msi/MsiDetermineApplicablePatches
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDetermineApplicablePatches
- - MsiDetermineApplicablePatchesA
- - MsiDetermineApplicablePatchesW
+- MsiDetermineApplicablePatches
+- MsiDetermineApplicablePatchesA
+- MsiDetermineApplicablePatchesW
 targetos: Windows
 req.typenames: 
 req.redist: 

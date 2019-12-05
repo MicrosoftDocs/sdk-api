@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PauseTimer
 title: IFileOperationProgressSink::PauseTimer (shobjidl_core.h)
-
 description: Not supported.
 old-location: shell\IFileOperationProgressSink_PauseTimer.htm
 tech.root: shell
 ms.assetid: 8eaeb799-4e5e-4605-95b4-e574b87432c1
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PauseTimer method, IFileOperationProgressSink.PauseTimer, IFileOperationProgressSink::PauseTimer, PauseTimer, PauseTimer method [Windows Shell], PauseTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PauseTimer, shell.IFileOperationProgressSink_PauseTimer, shobjidl_core/IFileOperationProgressSink::PauseTimer
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PauseTimer"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PauseTimer
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PauseTimer
+- IFileOperationProgressSink.PauseTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

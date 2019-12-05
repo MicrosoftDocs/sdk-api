@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageGetCertificateHeader
 title: ImageGetCertificateHeader function (imagehlp.h)
-
 description: Retrieves the header of the specified certificate, up to, but not including, the section offset array.
 old-location: base\imagegetcertificateheader.htm
 tech.root: Debug
 ms.assetid: 84b10926-7f49-406c-8939-d85f62844806
-
 ms.date: 12/05/2018
 ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win32_imagegetcertificateheader, base.imagegetcertificateheader, imagehlp/ImageGetCertificateHeader
 ms.topic: function
-f1_keywords: 
- - "imagehlp/ImageGetCertificateHeader"
+f1_keywords:
+- imagehlp/ImageGetCertificateHeader
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - ImageGetCertificateHeader
+- ImageGetCertificateHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

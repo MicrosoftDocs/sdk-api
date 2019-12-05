@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartSet.GetEnumerator
 title: IOpcPartSet::GetEnumerator (msopc.h)
-
 description: Gets an enumerator of IOpcPart interface pointers in the set.
 old-location: opc\iopcpartset_getenumerator.htm
 tech.root: OPC
 ms.assetid: 7b2a5ae6-b3ac-49b5-a798-9fca450da6d1
-
 ms.date: 12/05/2018
 ms.keywords: GetEnumerator, GetEnumerator method [Open Packaging Conventions], GetEnumerator method [Open Packaging Conventions],IOpcPartSet interface, IOpcPartSet interface [Open Packaging Conventions],GetEnumerator method, IOpcPartSet.GetEnumerator, IOpcPartSet::GetEnumerator, msopc/IOpcPartSet::GetEnumerator, opc.iopcpartset_getenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartSet.GetEnumerator"
+f1_keywords:
+- msopc/IOpcPartSet.GetEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartSet.GetEnumerator
+- IOpcPartSet.GetEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

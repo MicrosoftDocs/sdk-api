@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyStoreCache
 title: IPropertyStoreCache (propsys.h)
-
 description: Exposes methods that allow a handler to manage various states for each property.
 old-location: properties\IPropertyStoreCache.htm
 tech.root: properties
 ms.assetid: ac4f7e3b-6702-4239-b248-0645d961fbf8
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStoreCache, IPropertyStoreCache interface [Windows Properties], IPropertyStoreCache interface [Windows Properties],described, properties.IPropertyStoreCache, propsys/IPropertyStoreCache, shell.IPropertyStoreCache, shell_IPropertyStoreCache
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyStoreCache"
+f1_keywords:
+- propsys/IPropertyStoreCache
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyStoreCache
+- IPropertyStoreCache
 targetos: Windows
 req.typenames: 
 req.redist: 

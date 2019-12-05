@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateSurfaceFactory
 title: IDCompositionDevice2::CreateSurfaceFactory (dcomp.h)
-
 description: Creates a Microsoft DirectComposition surface factory object, which can be used to create other DirectComposition surface or virtual surface objects.
 old-location: directcomp\idcompositiondevice2_createsurfacefactory.htm
 tech.root: directcomp
 ms.assetid: 20E60EAE-68CB-45B8-BC50-3D12F449AA6E
-
 ms.date: 12/05/2018
 ms.keywords: CreateSurfaceFactory, CreateSurfaceFactory method [DirectComposition], CreateSurfaceFactory method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateSurfaceFactory method, IDCompositionDevice2.CreateSurfaceFactory, IDCompositionDevice2::CreateSurfaceFactory, dcomp/IDCompositionDevice2::CreateSurfaceFactory, directcomp.idcompositiondevice2_createsurfacefactory
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice2.CreateSurfaceFactory"
+f1_keywords:
+- dcomp/IDCompositionDevice2.CreateSurfaceFactory
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateSurfaceFactory
+- IDCompositionDevice2.CreateSurfaceFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

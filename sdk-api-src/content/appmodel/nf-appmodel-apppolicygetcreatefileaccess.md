@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.AppPolicyGetCreateFileAccess
 title: AppPolicyGetCreateFileAccess function (appmodel.h)
-
 description: Retrieves a value indicating whether a process has full or restricted access to the IO devices (file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe).
 old-location: appxpkg\apppolicygetcreatefileaccess_function.htm
 tech.root: appxpkg
 ms.assetid: 3AFFEAE5-CD49-458D-BBB8-AEC3A71566D1
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyGetCreateFileAccess, AppPolicyGetCreateFileAccess function [App packaging and management], appmodel/AppPolicyGetCreateFileAccess, appxpkg.apppolicygetcreatefileaccess_function
 ms.topic: function
-f1_keywords: 
- - "appmodel/AppPolicyGetCreateFileAccess"
+f1_keywords:
+- appmodel/AppPolicyGetCreateFileAccess
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OneCoreUap.lib
 req.dll: Api-ms-win-appmodel-runtime-l1-1-2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-appmodel-runtime-l1-1-2.dll
+- api-ms-win-appmodel-runtime-l1-1-2.dll
 api_name:
- - AppPolicyGetCreateFileAccess
+- AppPolicyGetCreateFileAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

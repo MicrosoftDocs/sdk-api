@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchRemoveExtension
 title: PathCchRemoveExtension function (pathcch.h)
-
 description: Removes the file name extension from a path, if one is present.This function differs from PathRemoveExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchRemoveExtension.htm
 tech.root: shell
 ms.assetid: 9adfb054-6d62-41bb-9036-0bf670ea24b2
-
 ms.date: 12/05/2018
 ms.keywords: PathCchRemoveExtension, PathCchRemoveExtension function [Windows Shell], pathcch/PathCchRemoveExtension, shell.PathCchRemoveExtension
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchRemoveExtension"
+f1_keywords:
+- pathcch/PathCchRemoveExtension
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchRemoveExtension
+- PathCchRemoveExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

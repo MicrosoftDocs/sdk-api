@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Union(IN const Region)
 title: Region::Union(IN const Region) (gdiplusheaders.h)
-
 description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of another region.
 old-location: gdiplus\_gdiplus_CLASS_Region_Union_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods\union_26region.htm
-
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Union method, Region.Union, Region.Union(IN const Region), Region.Union(const Region*), Region::Union, Region::Union(IN const Region), Union, Union method [GDI+], Union method [GDI+],Region class, _gdiplus_CLASS_Region_Union_region_, gdiplus._gdiplus_CLASS_Region_Union_region_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Union"
+f1_keywords:
+- gdiplusheaders/Region.Union
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Union
+- Region.Union
 targetos: Windows
 req.typenames: 
 req.redist: 

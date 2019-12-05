@@ -1,19 +1,17 @@
 ---
 UID: NC:gamingtcui.GameUICompletionRoutine
 title: GameUICompletionRoutine (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\gameuicompletionroutine.htm
 tech.root: tcui
 ms.assetid: 673F840F-1A87-42F5-8EE1-8CEAEB0CE7F8
-
 ms.date: 12/05/2018
 ms.keywords: GameUICompletionRoutine, GameUICompletionRoutine callback, GameUICompletionRoutine callback function, gamingtcui/GameUICompletionRoutine, tcui.gameuicompletionroutine
 ms.topic: callback
-f1_keywords: 
- - "gamingtcui/GameUICompletionRoutine"
+f1_keywords:
+- gamingtcui/GameUICompletionRoutine
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - gamingtcui.h
+- gamingtcui.h
 api_name:
- - GameUICompletionRoutine
+- GameUICompletionRoutine
 targetos: Windows
 req.typenames: 
 req.redist: 

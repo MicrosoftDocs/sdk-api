@@ -1,19 +1,17 @@
 ---
 UID: NE:isysmon.__MIDL___MIDL_itf_sysmon_0000_0000_0001
 title: SysmonFileType (isysmon.h)
-
 description: Determines the format in which the counter data is saved to a file.
 old-location: sysmon\sysmonfiletype.htm
 tech.root: SysMon
 ms.assetid: a3db8565-6316-445e-8fb2-b0bfb08bf72c
-
 ms.date: 12/05/2018
 ms.keywords: SysmonFileType, SysmonFileType enumeration [SysMon], base.sysmonfiletype, isysmon/SysmonFileType, isysmon/sysmonFileBlg, isysmon/sysmonFileCsv, isysmon/sysmonFileGif, isysmon/sysmonFileHtml, isysmon/sysmonFileReport, isysmon/sysmonFileRetiredBlg, isysmon/sysmonFileTsv, sysmon.sysmonfiletype, sysmonFileBlg, sysmonFileCsv, sysmonFileGif, sysmonFileHtml, sysmonFileReport, sysmonFileRetiredBlg, sysmonFileTsv
 ms.topic: enum
-f1_keywords: 
- - "isysmon/SysmonFileType"
+f1_keywords:
+- isysmon/SysmonFileType
 dev_langs:
- - c++
+- c++
 req.header: isysmon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ISysmon.h
+- ISysmon.h
 api_name:
- - SysmonFileType
+- SysmonFileType
 targetos: Windows
 req.typenames: SysmonFileType
 req.redist: 

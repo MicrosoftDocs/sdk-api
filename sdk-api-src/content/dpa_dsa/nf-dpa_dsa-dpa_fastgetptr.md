@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_FastGetPtr
 title: DPA_FastGetPtr macro (dpa_dsa.h)
-
 description: Gets the value of the specified pointer in the dynamic pointer array (DPA).
 old-location: controls\DPA_FastGetPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastgetptr.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_FastGetPtr, DPA_FastGetPtr macro [Windows Controls], _shell_DPA_FastGetPtr, _shell_DPA_FastGetPtr_cpp, controls.DPA_FastGetPtr, controls._shell_DPA_FastGetPtr, dpa_dsa/DPA_FastGetPtr
 ms.topic: macro
-f1_keywords: 
- - "dpa_dsa/DPA_FastGetPtr"
+f1_keywords:
+- dpa_dsa/DPA_FastGetPtr
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - DPA_FastGetPtr
+- DPA_FastGetPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

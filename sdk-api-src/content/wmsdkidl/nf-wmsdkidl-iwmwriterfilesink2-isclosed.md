@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.IsClosed
 title: IWMWriterFileSink2::IsClosed (wmsdkidl.h)
-
 description: The IsClosed method ascertains whether the file sink has been closed.
 old-location: wmformat\iwmwriterfilesink2_isclosed.htm
 tech.root: wmformat
 ms.assetid: 0ae9137f-ce43-4860-a28f-deac39f216a4
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterFileSink2 interface [windows Media Format],IsClosed method, IWMWriterFileSink2.IsClosed, IWMWriterFileSink2::IsClosed, IWMWriterFileSink2IsClosed, IsClosed, IsClosed method [windows Media Format], IsClosed method [windows Media Format],IWMWriterFileSink2 interface, wmformat.iwmwriterfilesink2_isclosed, wmsdkidl/IWMWriterFileSink2::IsClosed
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterFileSink2.IsClosed"
+f1_keywords:
+- wmsdkidl/IWMWriterFileSink2.IsClosed
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2.IsClosed
+- IWMWriterFileSink2.IsClosed
 targetos: Windows
 req.typenames: 
 req.redist: 

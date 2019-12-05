@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetCheckConnectionW
 title: InternetCheckConnectionW function (wininet.h)
-
 description: Allows an application to check if a connection to the Internet can be established.
 old-location: wininet\internetcheckconnection.htm
 tech.root: wininet
 ms.assetid: 4666e4ee-057e-452d-ac2c-d03321a0073f
-
 ms.date: 12/05/2018
 ms.keywords: InternetCheckConnection, InternetCheckConnection function [WinINet], InternetCheckConnectionA, InternetCheckConnectionW, _inet_internetcheckconnection_function, wininet.internetcheckconnection, wininet/InternetCheckConnection, wininet/InternetCheckConnectionA, wininet/InternetCheckConnectionW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetCheckConnection"
+f1_keywords:
+- wininet/InternetCheckConnection
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetCheckConnection
- - InternetCheckConnectionA
- - InternetCheckConnectionW
+- InternetCheckConnection
+- InternetCheckConnectionA
+- InternetCheckConnectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

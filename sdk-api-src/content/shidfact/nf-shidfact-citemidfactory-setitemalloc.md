@@ -1,19 +1,17 @@
 ---
 UID: NF:shidfact.CItemIDFactory.SetItemAlloc
 title: CItemIDFactory::SetItemAlloc (shidfact.h)
-
 description: Provides the CItemIDFactory an IMalloc interface used to allocate and free item IDs.
 old-location: shell\citemidfactory_setitemalloc.htm
 tech.root: shell
 ms.assetid: 3E2BAAD9-5C16-4ECF-BADB-16B355439BA5
-
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],SetItemAlloc method, CItemIDFactory.SetItemAlloc, CItemIDFactory::SetItemAlloc, SetItemAlloc, SetItemAlloc method [Windows Shell], SetItemAlloc method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_setitemalloc, shidfact/CItemIDFactory::SetItemAlloc
 ms.topic: method
-f1_keywords: 
- - "shidfact/CItemIDFactory.SetItemAlloc"
+f1_keywords:
+- shidfact/CItemIDFactory.SetItemAlloc
 dev_langs:
- - c++
+- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - CItemIDFactory.SetItemAlloc
+- CItemIDFactory.SetItemAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

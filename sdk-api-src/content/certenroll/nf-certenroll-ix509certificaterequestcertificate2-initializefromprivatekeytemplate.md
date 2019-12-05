@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
 title: IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate (certenroll.h)
-
 description: Initializes the certificate request by using an IX509PrivateKey object and a certificate template.
 old-location: security\ix509certificaterequestcertificate2_initializefromprivatekeytemplate.htm
 tech.root: seccertenroll
 ms.assetid: 334cc5f7-e74e-4f0b-b54b-6f1b121418da
-
 ms.date: 12/05/2018
 ms.keywords: ContextAdministratorForceMachine, ContextMachine, ContextUser, IX509CertificateRequestCertificate2 interface [Security],InitializeFromPrivateKeyTemplate method, IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate, IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate, InitializeFromPrivateKeyTemplate method [Security], InitializeFromPrivateKeyTemplate method [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::InitializeFromPrivateKeyTemplate, security.ix509certificaterequestcertificate2_initializefromprivatekeytemplate
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate"
+f1_keywords:
+- certenroll/IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
+- IX509CertificateRequestCertificate2.InitializeFromPrivateKeyTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

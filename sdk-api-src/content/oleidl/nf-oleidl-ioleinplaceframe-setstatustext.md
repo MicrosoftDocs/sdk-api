@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.SetStatusText
 title: IOleInPlaceFrame::SetStatusText (oleidl.h)
-
 description: Sets and displays status text about the in-place object in the container's frame window status line.
 old-location: com\ioleinplaceframe_setstatustext.htm
 tech.root: com
 ms.assetid: e857bdbe-5510-4e35-ba73-d52b239e5b77
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceFrame interface [COM],SetStatusText method, IOleInPlaceFrame.SetStatusText, IOleInPlaceFrame::SetStatusText, SetStatusText, SetStatusText method [COM], SetStatusText method [COM],IOleInPlaceFrame interface, _ole_ioleinplaceframe_setstatustext, com.ioleinplaceframe_setstatustext, oleidl/IOleInPlaceFrame::SetStatusText
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceFrame.SetStatusText"
+f1_keywords:
+- oleidl/IOleInPlaceFrame.SetStatusText
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceFrame.SetStatusText
+- IOleInPlaceFrame.SetStatusText
 targetos: Windows
 req.typenames: 
 req.redist: 

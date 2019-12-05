@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.EndEvent
 title: ID3DUserDefinedAnnotation::EndEvent (d3d11_1.h)
-
 description: Marks the end of a section of event code.
 old-location: direct3d11\id3duserdefinedannotation_endevent.htm
 tech.root: direct3d11
 ms.assetid: 5C478278-EC05-4214-80F9-808EADA76E41
-
 ms.date: 12/05/2018
 ms.keywords: EndEvent, EndEvent method [Direct3D 11], EndEvent method [Direct3D 11],ID3DUserDefinedAnnotation interface, ID3DUserDefinedAnnotation interface [Direct3D 11],EndEvent method, ID3DUserDefinedAnnotation.EndEvent, ID3DUserDefinedAnnotation::EndEvent, d3d11_1/ID3DUserDefinedAnnotation::EndEvent, direct3d11.id3duserdefinedannotation_endevent
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3DUserDefinedAnnotation.EndEvent"
+f1_keywords:
+- d3d11_1/ID3DUserDefinedAnnotation.EndEvent
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3DUserDefinedAnnotation.EndEvent
+- ID3DUserDefinedAnnotation.EndEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

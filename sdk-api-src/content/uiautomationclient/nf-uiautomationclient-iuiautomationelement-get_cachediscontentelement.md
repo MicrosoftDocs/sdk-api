@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsContentElement
 title: IUIAutomationElement::get_CachedIsContentElement (uiautomationclient.h)
-
 description: A cached value that indicates whether the element is a content element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsContentElement.htm
 tech.root: WinAuto
 ms.assetid: 3e06c0dd-0cdd-4193-9353-5a71d08ec17d
-
 ms.date: 12/05/2018
 ms.keywords: CachedIsContentElement property [Windows Accessibility], CachedIsContentElement property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsContentElement property, IUIAutomationElement.CachedIsContentElement, IUIAutomationElement.get_CachedIsContentElement, IUIAutomationElement::CachedIsContentElement, IUIAutomationElement::get_CachedIsContentElement, get_CachedIsContentElement, uiauto.uiauto_IUIAutomationElement_CachedIsContentElement, uiauto_IUIAutomationElement_CachedIsContentElement, uiautomationclient/IUIAutomationElement::CachedIsContentElement, uiautomationclient/IUIAutomationElement::get_CachedIsContentElement, winauto.uiauto_IUIAutomationElement_CachedIsContentElement
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedIsContentElement"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedIsContentElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedIsContentElement
- - IUIAutomationElement.get_CachedIsContentElement
+- IUIAutomationElement.CachedIsContentElement
+- IUIAutomationElement.get_CachedIsContentElement
 targetos: Windows
 req.typenames: 
 req.redist: 

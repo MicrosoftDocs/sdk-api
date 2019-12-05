@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetID
 title: IDiskQuotaUser::GetID (dskquota.h)
-
 description: Retrieves a unique identifier (ID) number for the DiskQuotaUser object.
 old-location: fs\idiskquotauser_getid.htm
 tech.root: FileIO
 ms.assetid: 04f84fd1-9ce4-4daa-91b3-24508f326f84
-
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [Files], GetID method [Files],IDiskQuotaUser interface, IDiskQuotaUser interface [Files],GetID method, IDiskQuotaUser.GetID, IDiskQuotaUser::GetID, _win32_idiskquotauser_getid, base.idiskquotauser_getid, dskquota/IDiskQuotaUser::GetID, fs.idiskquotauser_getid
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUser.GetID"
+f1_keywords:
+- dskquota/IDiskQuotaUser.GetID
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUser.GetID
+- IDiskQuotaUser.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 

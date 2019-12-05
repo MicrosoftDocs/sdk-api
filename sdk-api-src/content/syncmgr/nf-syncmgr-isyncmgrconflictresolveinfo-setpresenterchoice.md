@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetPresenterChoice
 title: ISyncMgrConflictResolveInfo::SetPresenterChoice (syncmgr.h)
-
 description: Sets what kind of choice was made about a sync manager conflict resolution and whether to apply the choice to all subsequent conflicts in the set.
 old-location: shell\ISyncMgrConflictResolveInfo_SetPresenterChoice.htm
 tech.root: shell
 ms.assetid: 5f4bfe69-1ff3-4d21-9c27-f5d8ecfc8371
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictResolveInfo interface [Windows Shell],SetPresenterChoice method, ISyncMgrConflictResolveInfo.SetPresenterChoice, ISyncMgrConflictResolveInfo::SetPresenterChoice, SetPresenterChoice, SetPresenterChoice method [Windows Shell], SetPresenterChoice method [Windows Shell],ISyncMgrConflictResolveInfo interface, _shell_ISyncMgrConflictResolveInfo_SetPresenterChoice, shell.ISyncMgrConflictResolveInfo_SetPresenterChoice, syncmgr/ISyncMgrConflictResolveInfo::SetPresenterChoice
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolveInfo.SetPresenterChoice"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolveInfo.SetPresenterChoice
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo.SetPresenterChoice
+- ISyncMgrConflictResolveInfo.SetPresenterChoice
 targetos: Windows
 req.typenames: 
 req.redist: 

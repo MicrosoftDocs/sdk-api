@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetOleObject
 title: IBrowserService::GetOleObject (shdeprecated.h)
-
 description: Deprecated. Retrieves an IOleObject for the browser.
 old-location: shell\IBrowserService_GetOleObject.htm
 tech.root: shell
 ms.assetid: 6ac2346f-3bfb-498f-97c7-77dc431567c7
-
 ms.date: 12/05/2018
 ms.keywords: GetOleObject, GetOleObject method [Windows Shell], GetOleObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetOleObject method, IBrowserService.GetOleObject, IBrowserService::GetOleObject, shdeprecated/IBrowserService::GetOleObject, shell.IBrowserService_GetOleObject, zone_IBrowserService_GetOleObject
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.GetOleObject"
+f1_keywords:
+- shdeprecated/IBrowserService.GetOleObject
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.GetOleObject
+- IBrowserService.GetOleObject
 targetos: Windows
 req.typenames: 
 req.redist: 

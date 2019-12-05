@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._SHV_COMBINATION_TYPE
 title: SHV_COMBINATION_TYPE (sdoias.h)
-
 description: The SHV_COMBINATION_TYPE enumeration type specifies the type of a System Health Validator (SHV) combination.
 old-location: nps\SDO_shv_combination_type.htm
 tech.root: Nps
 ms.assetid: 444c2223-3ff5-4e13-8d8d-f993979f3c46
-
 ms.date: 12/05/2018
 ms.keywords: SHV_COMBINATION_TYPE, SHV_COMBINATION_TYPE enumeration [Network Policy Server], SHV_COMBINATION_TYPE_ALL_FAIL, SHV_COMBINATION_TYPE_ALL_PASS, SHV_COMBINATION_TYPE_MAX, SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN, nps.SDO_shv_combination_type, sdo.shv_combination_type, sdoias/SHV_COMBINATION_TYPE, sdoias/SHV_COMBINATION_TYPE_ALL_FAIL, sdoias/SHV_COMBINATION_TYPE_ALL_PASS, sdoias/SHV_COMBINATION_TYPE_MAX, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_FAIL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_INFECTED, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_PASS, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_TRANSITIONAL, sdoias/SHV_COMBINATION_TYPE_ONE_OR_MORE_UNKNOWN
 ms.topic: enum
 f1_keywords:
 - sdoias/SHV_COMBINATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

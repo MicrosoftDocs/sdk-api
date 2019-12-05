@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIConvertW
 title: OleUIConvertW function (oledlg.h)
-
 description: Invokes the standard Convert dialog box, allowing the user to change the type of a single specified object, or the type of all OLE objects of the specified object's class.
 old-location: com\oleuiconvert.htm
 tech.root: com
 ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad
-
 ms.date: 12/05/2018
 ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConvertW, _ole_OleUIConvert, com.oleuiconvert, oledlg/OleUIConvert, oledlg/OleUIConvertA, oledlg/OleUIConvertW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIConvert"
+f1_keywords:
+- oledlg/OleUIConvert
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIConvert
- - OleUIConvertA
- - OleUIConvertW
+- OleUIConvert
+- OleUIConvertA
+- OleUIConvertW
 targetos: Windows
 req.typenames: 
 req.redist: 

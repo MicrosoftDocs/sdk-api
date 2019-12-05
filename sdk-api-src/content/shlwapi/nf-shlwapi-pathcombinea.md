@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathCombineA
 title: PathCombineA function (shlwapi.h)
-
 description: Concatenates two strings that represent properly formed paths into one path; also concatenates any relative path elements.
 old-location: shell\PathCombine.htm
 tech.root: shell
 ms.assetid: ed03334b-f688-4993-9685-092135ca29c9
-
 ms.date: 12/05/2018
 ms.keywords: PathCombine, PathCombine function [Windows Shell], PathCombineA, PathCombineW, _win32_PathCombine, shell.PathCombine, shlwapi/PathCombine, shlwapi/PathCombineA, shlwapi/PathCombineW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathCombine"
+f1_keywords:
+- shlwapi/PathCombine
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathCombine
- - PathCombineA
- - PathCombineW
+- PathCombine
+- PathCombineA
+- PathCombineW
 targetos: Windows
 req.typenames: 
 req.redist: 

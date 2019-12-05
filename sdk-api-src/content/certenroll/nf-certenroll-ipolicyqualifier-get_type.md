@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.get_Type
 title: IPolicyQualifier::get_Type (certenroll.h)
-
 description: Retrieves the qualifier type.
 old-location: security\ipolicyqualifier_type_property.htm
 tech.root: seccertenroll
 ms.assetid: eb48d2a0-c689-45b1-9f06-83df71987b4b
-
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifier interface [Security],Type property, IPolicyQualifier.Type, IPolicyQualifier.get_Type, IPolicyQualifier::Type, IPolicyQualifier::get_Type, Type property [Security], Type property [Security],IPolicyQualifier interface, certenroll/IPolicyQualifier::Type, certenroll/IPolicyQualifier::get_Type, get_Type, security.ipolicyqualifier_type_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IPolicyQualifier.Type"
+f1_keywords:
+- certenroll/IPolicyQualifier.Type
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifier.Type
- - IPolicyQualifier.get_Type
+- IPolicyQualifier.Type
+- IPolicyQualifier.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

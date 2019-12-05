@@ -1,19 +1,17 @@
 ---
 UID: NF:ip2string.RtlIpv6StringToAddressExW
 title: RtlIpv6StringToAddressExW function (ip2string.h)
-
 description: Converts a string representation of an IPv6 address, scope ID, and port number to a binary IPv6 address, scope ID, and port.
 old-location: iphlp\rtlipv6stringtoaddressex.htm
 tech.root: IpHlp
 ms.assetid: 3a95c405-3f2c-4bd5-805e-3e879c4c20e2
-
 ms.date: 12/05/2018
 ms.keywords: RtlIpv6StringToAddressEx, RtlIpv6StringToAddressEx function [IP Helper], RtlIpv6StringToAddressExW, ip2string/RtlIpv6StringToAddressEx, ip2string/RtlIpv6StringToAddressExW, iphlp.rtlipv6stringtoaddressex
 ms.topic: function
-f1_keywords: 
- - "ip2string/RtlIpv6StringToAddressEx"
+f1_keywords:
+- ip2string/RtlIpv6StringToAddressEx
 dev_langs:
- - c++
+- c++
 req.header: ip2string.h
 req.include-header: Mstcpip.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlIpv6StringToAddressEx
- - RtlIpv6StringToAddressEx
- - RtlIpv6StringToAddressExW
+- RtlIpv6StringToAddressEx
+- RtlIpv6StringToAddressEx
+- RtlIpv6StringToAddressExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptHashData
 title: CryptHashData function (wincrypt.h)
-
 description: Adds data to a specified hash object.
 old-location: security\crypthashdata.htm
 tech.root: SecCrypto
 ms.assetid: ec1482a2-c2cb-4c5f-af9c-d493134413d6
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_OWF_REPL_LM_HASH, CRYPT_USERDATA, CryptHashData, CryptHashData function [Security], _crypto2_crypthashdata, security.crypthashdata, wincrypt/CryptHashData
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptHashData"
+f1_keywords:
+- wincrypt/CryptHashData
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptHashData
+- CryptHashData
 targetos: Windows
 req.typenames: 
 req.redist: 

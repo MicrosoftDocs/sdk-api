@@ -1,19 +1,17 @@
 ---
 UID: NS:dsquery.__unnamed_struct_1
 title: DSCOLUMN (dsquery.h)
-
 description: The DSCOLUMN structure represents a column in the directory services query dialog box. An array of this structure is contained in the DSQUERYPARAMS structure.
 old-location: ad\dscolumn.htm
 tech.root: ad
 ms.assetid: b948b114-dd66-4e79-bdd0-559a13a7c644
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSCOLUMN, DSCOLUMN, DSCOLUMN structure [Active Directory], DSCOLUMNPROP_ADSPATH, DSCOLUMNPROP_OBJECTCLASS, LPDSCOLUMN, LPDSCOLUMN structure pointer [Active Directory], _glines_dscolumn, ad.dscolumn, dsquery/DSCOLUMN, dsquery/LPDSCOLUMN"
+ms.keywords: '*LPDSCOLUMN, DSCOLUMN, DSCOLUMN structure [Active Directory], DSCOLUMNPROP_ADSPATH, DSCOLUMNPROP_OBJECTCLASS, LPDSCOLUMN, LPDSCOLUMN structure pointer [Active Directory], _glines_dscolumn, ad.dscolumn, dsquery/DSCOLUMN, dsquery/LPDSCOLUMN'
 ms.topic: struct
-f1_keywords: 
- - "dsquery/DSCOLUMN"
+f1_keywords:
+- dsquery/DSCOLUMN
 dev_langs:
- - c++
+- c++
 req.header: dsquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsquery.h
+- Dsquery.h
 api_name:
- - DSCOLUMN
+- DSCOLUMN
 targetos: Windows
 req.typenames: DSCOLUMN, *LPDSCOLUMN
 req.redist: 

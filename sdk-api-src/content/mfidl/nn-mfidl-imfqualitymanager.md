@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFQualityManager
 title: IMFQualityManager (mfidl.h)
-
 description: Adjusts playback quality. This interface is exposed by the quality manager.
 old-location: mf\imfqualitymanager.htm
 tech.root: medfound
 ms.assetid: 66781a1f-7469-4222-9e99-6b1415830f4c
-
 ms.date: 12/05/2018
 ms.keywords: 66781a1f-7469-4222-9e99-6b1415830f4c, IMFQualityManager, IMFQualityManager interface [Media Foundation], IMFQualityManager interface [Media Foundation],described, mf.imfqualitymanager, mfidl/IMFQualityManager
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFQualityManager"
+f1_keywords:
+- mfidl/IMFQualityManager
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFQualityManager
+- IMFQualityManager
 targetos: Windows
 req.typenames: 
 req.redist: 

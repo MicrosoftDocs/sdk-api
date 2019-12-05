@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2.get_MediaHeuristicallyBlank
 title: IDiscFormat2::get_MediaHeuristicallyBlank (imapi2.h)
-
 description: Attempts to determine if the media is blank using heuristics (mainly for DVD+RW and DVD-RAM media).
 old-location: imapi\idiscformat2_get_mediaheuristicallyblank.htm
 tech.root: imapi
 ms.assetid: 28c410cc-5135-4443-8b86-e34676f14f51
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2 interface [IMAPI],get_MediaHeuristicallyBlank method, IDiscFormat2.get_MediaHeuristicallyBlank, IDiscFormat2::get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank, get_MediaHeuristicallyBlank method [IMAPI], get_MediaHeuristicallyBlank method [IMAPI],IDiscFormat2 interface, imapi.idiscformat2_get_mediaheuristicallyblank, imapi2/IDiscFormat2::get_MediaHeuristicallyBlank
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2.get_MediaHeuristicallyBlank"
+f1_keywords:
+- imapi2/IDiscFormat2.get_MediaHeuristicallyBlank
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2.get_MediaHeuristicallyBlank
+- IDiscFormat2.get_MediaHeuristicallyBlank
 targetos: Windows
 req.typenames: 
 req.redist: 

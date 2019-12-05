@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplustypes.Point
 title: Point (gdiplustypes.h)
-
 description: The Point class encapsulates a point in a 2-D coordinate system.
 old-location: gdiplus\_gdiplus_CLASS_Point_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\point.htm
-
 ms.date: 12/05/2018
 ms.keywords: Point, Point class [GDI+], Point class [GDI+],described, _gdiplus_CLASS_Point_Class, gdiplus._gdiplus_CLASS_Point_Class, gdiplustypes/Point
 ms.topic: class
-f1_keywords: 
- - "gdiplustypes/Point"
+f1_keywords:
+- gdiplustypes/Point
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - Point
+- Point
 targetos: Windows
 req.typenames: 
 req.redist: 

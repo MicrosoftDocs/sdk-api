@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IKnowledgeSyncProvider.GetChangeBatch
 title: IKnowledgeSyncProvider::GetChangeBatch (winsync.h)
-
 description: Gets a change batch that contains item metadata for items that are not contained in the specified knowledge from the destination provider.
 old-location: winsync\iknowledgesyncprovider_getchangebatch.htm
 tech.root: winsync
 ms.assetid: 165eb8eb-092c-4084-a296-abc2421596d5
-
 ms.date: 12/05/2018
 ms.keywords: GetChangeBatch, GetChangeBatch method [Windows Sync], GetChangeBatch method [Windows Sync],IKnowledgeSyncProvider interface, IKnowledgeSyncProvider interface [Windows Sync],GetChangeBatch method, IKnowledgeSyncProvider.GetChangeBatch, IKnowledgeSyncProvider::GetChangeBatch, winsync.iknowledgesyncprovider_getchangebatch, winsync/IKnowledgeSyncProvider::GetChangeBatch
 ms.topic: method
-f1_keywords: 
- - "winsync/IKnowledgeSyncProvider.GetChangeBatch"
+f1_keywords:
+- winsync/IKnowledgeSyncProvider.GetChangeBatch
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IKnowledgeSyncProvider.GetChangeBatch
+- IKnowledgeSyncProvider.GetChangeBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

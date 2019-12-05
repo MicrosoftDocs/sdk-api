@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsResult.GetLine
 title: ISettingsResult::GetLine (wcmconfig.h)
-
 description: Returns the line number where the error has occurred.
 old-location: smi\isettingsresult_getline.htm
 tech.root: SMI
 ms.assetid: c74beea9-5e81-4cd2-ade2-c812b6a035a1
-
 ms.date: 12/05/2018
 ms.keywords: GetLine, GetLine method [SMI], GetLine method [SMI],ISettingsResult interface, ISettingsResult interface [SMI],GetLine method, ISettingsResult.GetLine, ISettingsResult::GetLine, smi.isettingsresult_getline, wcmconfig/ISettingsResult::GetLine
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsResult.GetLine"
+f1_keywords:
+- wcmconfig/ISettingsResult.GetLine
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsResult.GetLine
+- ISettingsResult.GetLine
 targetos: Windows
 req.typenames: 
 req.redist: 

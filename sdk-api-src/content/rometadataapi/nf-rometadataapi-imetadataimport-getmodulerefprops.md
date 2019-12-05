@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleRefProps
 title: IMetaDataImport::GetModuleRefProps (rometadataapi.h)
-
 description: Gets the name of the module referenced by the specified metadata token.
 old-location: winrt\imetadataimport_getmodulerefprops.htm
 tech.root: WinRT
 ms.assetid: 1f14fe81-d585-4167-8817-0c7d000413de
-
 ms.date: 12/05/2018
 ms.keywords: GetModuleRefProps, GetModuleRefProps method [Windows Runtime], GetModuleRefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleRefProps method, IMetaDataImport.GetModuleRefProps, IMetaDataImport::GetModuleRefProps, rometadataapi/IMetaDataImport::GetModuleRefProps, winrt.imetadataimport_getmodulerefprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetModuleRefProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetModuleRefProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetModuleRefProps
+- IMetaDataImport.GetModuleRefProps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_SupportedSectorTypes
 title: IDiscFormat2RawCD::get_SupportedSectorTypes (imapi2.h)
-
 description: Retrieves the supported data sector types for the current recorder.
 old-location: imapi\idiscformat2rawcd_get_supportedsectortypes.htm
 tech.root: imapi
 ms.assetid: d217e585-3ff4-4f02-8a13-7cfca767f201
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_SupportedSectorTypes method, IDiscFormat2RawCD.get_SupportedSectorTypes, IDiscFormat2RawCD::get_SupportedSectorTypes, get_SupportedSectorTypes, get_SupportedSectorTypes method [IMAPI], get_SupportedSectorTypes method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_supportedsectortypes, imapi2/IDiscFormat2RawCD::get_SupportedSectorTypes
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2RawCD.get_SupportedSectorTypes"
+f1_keywords:
+- imapi2/IDiscFormat2RawCD.get_SupportedSectorTypes
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2RawCD.get_SupportedSectorTypes
+- IDiscFormat2RawCD.get_SupportedSectorTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

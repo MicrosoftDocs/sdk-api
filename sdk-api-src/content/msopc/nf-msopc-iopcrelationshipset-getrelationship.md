@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetRelationship
 title: IOpcRelationshipSet::GetRelationship (msopc.h)
-
 description: Gets a relationship object from the set that represents a specified relationship.
 old-location: opc\iopcrelationshipset_getrelationship.htm
 tech.root: OPC
 ms.assetid: f44eeae6-592e-479e-98b7-f73075906a7a
-
 ms.date: 12/05/2018
 ms.keywords: GetRelationship, GetRelationship method [Open Packaging Conventions], GetRelationship method [Open Packaging Conventions],IOpcRelationshipSet interface, IOpcRelationshipSet interface [Open Packaging Conventions],GetRelationship method, IOpcRelationshipSet.GetRelationship, IOpcRelationshipSet::GetRelationship, msopc/IOpcRelationshipSet::GetRelationship, opc.iopcrelationshipset_getrelationship
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSet.GetRelationship"
+f1_keywords:
+- msopc/IOpcRelationshipSet.GetRelationship
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSet.GetRelationship
+- IOpcRelationshipSet.GetRelationship
 targetos: Windows
 req.typenames: 
 req.redist: 

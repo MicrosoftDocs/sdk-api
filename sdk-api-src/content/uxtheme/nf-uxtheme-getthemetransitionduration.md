@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeTransitionDuration
 title: GetThemeTransitionDuration function (uxtheme.h)
-
 description: Gets the duration for the specified transition.
 old-location: controls\GetThemeTransitionDuration.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetransitionduration.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeTransitionDuration, GetThemeTransitionDuration function [Windows Controls], _shell_GetThemeTransitionDuration, _shell_GetThemeTransitionDuration_cpp, controls.GetThemeTransitionDuration, controls._shell_GetThemeTransitionDuration, uxtheme/GetThemeTransitionDuration
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeTransitionDuration"
+f1_keywords:
+- uxtheme/GetThemeTransitionDuration
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeTransitionDuration
+- GetThemeTransitionDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

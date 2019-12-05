@@ -1,19 +1,17 @@
 ---
 UID: NN:wmdxva.IWMPlayerTimestampHook
 title: IWMPlayerTimestampHook (wmdxva.h)
-
 description: The IWMPlayerTimestampHook interface is implemented on a player's source filter.
 old-location: wmformat\iwmplayertimestamphook.htm
 tech.root: wmformat
 ms.assetid: 8a1b3b1f-1c9c-429f-958e-757b383c7e2a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPlayerTimestampHook, IWMPlayerTimestampHook interface [windows Media Format], IWMPlayerTimestampHook interface [windows Media Format],described, IWMPlayerTimestampHookInterface, wmdxva/IWMPlayerTimestampHook, wmformat.iwmplayertimestamphook
 ms.topic: interface
-f1_keywords: 
- - "wmdxva/IWMPlayerTimestampHook"
+f1_keywords:
+- wmdxva/IWMPlayerTimestampHook
 dev_langs:
- - c++
+- c++
 req.header: wmdxva.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmdxva.h
+- wmdxva.h
 api_name:
- - IWMPlayerTimestampHook
+- IWMPlayerTimestampHook
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferSink.IsProfileLocked
 title: IStreamBufferSink::IsProfileLocked (sbe.h)
-
 description: This topic applies only to Windows XP Service Pack 1 or later.
 old-location: mstv\istreambuffersink_isprofilelocked.htm
 tech.root: mstv
 ms.assetid: 941c1702-2ef2-4afe-933c-78ed9ee8690b
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferSink interface [Microsoft TV Technologies],IsProfileLocked method, IStreamBufferSink.IsProfileLocked, IStreamBufferSink::IsProfileLocked, IStreamBufferSinkIsProfileLocked, IsProfileLocked, IsProfileLocked method [Microsoft TV Technologies], IsProfileLocked method [Microsoft TV Technologies],IStreamBufferSink interface, mstv.istreambuffersink_isprofilelocked, sbe/IStreamBufferSink::IsProfileLocked
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferSink.IsProfileLocked"
+f1_keywords:
+- sbe/IStreamBufferSink.IsProfileLocked
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferSink.IsProfileLocked
+- IStreamBufferSink.IsProfileLocked
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateShaderResourceView
 title: ID3D12Device::CreateShaderResourceView (d3d12.h)
-
 description: Creates a shader-resource view for accessing data in a resource.
 old-location: direct3d12\id3d12device_createshaderresourceview.htm
 tech.root: direct3d12
 ms.assetid: 4FD7082D-2DA9-469E-BA74-6735D407D5FE
-
 ms.date: 12/05/2018
 ms.keywords: CreateShaderResourceView, CreateShaderResourceView method, CreateShaderResourceView method,ID3D12Device interface, ID3D12Device interface,CreateShaderResourceView method, ID3D12Device.CreateShaderResourceView, ID3D12Device::CreateShaderResourceView, d3d12/ID3D12Device::CreateShaderResourceView, direct3d12.id3d12device_createshaderresourceview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateShaderResourceView"
+f1_keywords:
+- d3d12/ID3D12Device.CreateShaderResourceView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateShaderResourceView
+- ID3D12Device.CreateShaderResourceView
 targetos: Windows
 req.typenames: 
 req.redist: 

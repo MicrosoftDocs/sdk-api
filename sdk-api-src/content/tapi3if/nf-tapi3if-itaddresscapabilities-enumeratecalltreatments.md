@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateCallTreatments
 title: ITAddressCapabilities::EnumerateCallTreatments (tapi3if.h)
-
 description: The EnumerateCallTreatments method gets call treatments. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratecalltreatments.htm
 tech.root: Tapi
 ms.assetid: 34a967ba-7d1f-4841-95be-9e83f927379b
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateCallTreatments, EnumerateCallTreatments method [TAPI 2.2], EnumerateCallTreatments method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateCallTreatments method, ITAddressCapabilities.EnumerateCallTreatments, ITAddressCapabilities::EnumerateCallTreatments, _tapi3_itaddresscapabilities_enumeratecalltreatments, tapi3.itaddresscapabilities_enumeratecalltreatments, tapi3if/ITAddressCapabilities::EnumerateCallTreatments
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressCapabilities.EnumerateCallTreatments"
+f1_keywords:
+- tapi3if/ITAddressCapabilities.EnumerateCallTreatments
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressCapabilities.EnumerateCallTreatments
+- ITAddressCapabilities.EnumerateCallTreatments
 targetos: Windows
 req.typenames: 
 req.redist: 

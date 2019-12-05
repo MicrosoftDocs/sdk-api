@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESOpenMmiEvent.GetDialogData
 title: IESOpenMmiEvent::GetDialogData (tuner.h)
-
 description: Gets the data associated with an OpenMMI event, in byte stream format. This data can be the contents of the dialog that is opened or the Uniform Resource Locator (URL) that contains the dialog.
 old-location: mstv\iesopenmmievent_getdialogdata.htm
 tech.root: mstv
 ms.assetid: c5deaffb-ceac-4609-a862-b050a1afa1f9
-
 ms.date: 12/05/2018
 ms.keywords: GetDialogData, GetDialogData method [Microsoft TV Technologies], GetDialogData method [Microsoft TV Technologies],IESOpenMmiEvent interface, IESOpenMmiEvent interface [Microsoft TV Technologies],GetDialogData method, IESOpenMmiEvent.GetDialogData, IESOpenMmiEvent::GetDialogData, mstv.iesopenmmievent_getdialogdata, tuner/IESOpenMmiEvent::GetDialogData
 ms.topic: method
-f1_keywords: 
- - "tuner/IESOpenMmiEvent.GetDialogData"
+f1_keywords:
+- tuner/IESOpenMmiEvent.GetDialogData
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESOpenMmiEvent.GetDialogData
+- IESOpenMmiEvent.GetDialogData
 targetos: Windows
 req.typenames: 
 req.redist: 

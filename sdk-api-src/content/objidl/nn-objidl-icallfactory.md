@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.ICallFactory
 title: ICallFactory (objidl.h)
-
 description: Creates a call object for processing calls to the methods of an asynchronous interface.
 old-location: com\icallfactory.htm
 tech.root: com
 ms.assetid: 323dc627-3867-4170-b278-0bce46077729
-
 ms.date: 12/05/2018
 ms.keywords: ICallFactory, ICallFactory interface [COM], ICallFactory interface [COM],described, _com_icallfactory, com.icallfactory, objidlbase/ICallFactory
 ms.topic: interface
-f1_keywords: 
- - "objidl/ICallFactory"
+f1_keywords:
+- objidl/ICallFactory
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ICallFactory
+- ICallFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

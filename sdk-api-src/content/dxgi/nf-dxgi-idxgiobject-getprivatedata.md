@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIObject.GetPrivateData
 title: IDXGIObject::GetPrivateData (dxgi.h)
-
 description: Get a pointer to the object's data.
 old-location: direct3ddxgi\idxgiobject_getprivatedata.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_getprivatedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: 86763938-a2bf-a817-2ffc-645427783675, GetPrivateData, GetPrivateData method [DXGI], GetPrivateData method [DXGI],IDXGIObject interface, IDXGIObject interface [DXGI],GetPrivateData method, IDXGIObject.GetPrivateData, IDXGIObject::GetPrivateData, direct3ddxgi.idxgiobject_getprivatedata, dxgi/IDXGIObject::GetPrivateData
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIObject.GetPrivateData"
+f1_keywords:
+- dxgi/IDXGIObject.GetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIObject.GetPrivateData
+- IDXGIObject.GetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

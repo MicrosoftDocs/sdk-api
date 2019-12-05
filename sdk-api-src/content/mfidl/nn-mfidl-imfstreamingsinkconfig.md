@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFStreamingSinkConfig
 title: IMFStreamingSinkConfig (mfidl.h)
-
 description: Passes configuration information to the media sinks that are used for streaming the content.
 old-location: mf\imfstreamingsinkconfig.htm
 tech.root: medfound
 ms.assetid: 5eaef815-9660-487a-885d-457cd270ba3d
-
 ms.date: 12/05/2018
 ms.keywords: IMFStreamingSinkConfig, IMFStreamingSinkConfig interface [Media Foundation], IMFStreamingSinkConfig interface [Media Foundation],described, mf.imfstreamingsinkconfig, mfidl/IMFStreamingSinkConfig
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFStreamingSinkConfig"
+f1_keywords:
+- mfidl/IMFStreamingSinkConfig
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFStreamingSinkConfig
+- IMFStreamingSinkConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegQueryValueA
 title: RegQueryValueA function (winreg.h)
-
 description: Retrieves the data associated with the default or unnamed value of a specified registry key. The data must be a null-terminated string.
 old-location: base\regqueryvalue.htm
 tech.root: SysInfo
 ms.assetid: 18f27717-3bd9-45ac-a1ea-61abc1753a52
-
 ms.date: 12/05/2018
 ms.keywords: RegQueryValue, RegQueryValue function, RegQueryValueA, RegQueryValueW, _win32_regqueryvalue, base.regqueryvalue, winreg/RegQueryValue, winreg/RegQueryValueA, winreg/RegQueryValueW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegQueryValue"
+f1_keywords:
+- winreg/RegQueryValue
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegQueryValue
- - RegQueryValueA
- - RegQueryValueW
+- RegQueryValue
+- RegQueryValueA
+- RegQueryValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

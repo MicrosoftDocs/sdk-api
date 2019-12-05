@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.GetStatus
 title: IUIAnimationManager2::GetStatus (uianimation.h)
-
 description: Gets the status of the animation manager.
 old-location: uianimation\iuianimationmanager2_getstatus.htm
 tech.root: UIAnimation
 ms.assetid: E989CED1-C6B7-4086-944E-924836AA7ECB
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetStatus method, IUIAnimationManager2.GetStatus, IUIAnimationManager2::GetStatus, uianimation.iuianimationmanager2_getstatus, uianimation/IUIAnimationManager2::GetStatus
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.GetStatus"
+f1_keywords:
+- uianimation/IUIAnimationManager2.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.GetStatus
+- IUIAnimationManager2.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

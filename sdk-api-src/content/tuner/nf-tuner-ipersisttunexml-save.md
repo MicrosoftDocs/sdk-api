@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IPersistTuneXml.Save
 title: IPersistTuneXml::Save (tuner.h)
-
 description: Serializes a tuning model object to an XML node.
 old-location: mstv\ipersisttunexml_save.htm
 tech.root: mstv
 ms.assetid: 5813966a-6053-43ce-9b92-e9552d9acdec
-
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],Save method, IPersistTuneXml.Save, IPersistTuneXml::Save, Save, Save method [Microsoft TV Technologies], Save method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_save, tuner/IPersistTuneXml::Save
 ms.topic: method
-f1_keywords: 
- - "tuner/IPersistTuneXml.Save"
+f1_keywords:
+- tuner/IPersistTuneXml.Save
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IPersistTuneXml.Save
+- IPersistTuneXml.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

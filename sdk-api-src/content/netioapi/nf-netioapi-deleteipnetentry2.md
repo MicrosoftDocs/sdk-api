@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.DeleteIpNetEntry2
 title: DeleteIpNetEntry2 function (netioapi.h)
-
 description: Deletes a neighbor IP address entry on the local computer.
 old-location: iphlp\deleteipnetentry2.htm
 tech.root: IpHlp
 ms.assetid: 85bace04-6c95-4cf2-a212-764de292aed6
-
 ms.date: 12/05/2018
 ms.keywords: DeleteIpNetEntry2, DeleteIpNetEntry2 function [IP Helper], iphlp.deleteipnetentry2, netioapi/DeleteIpNetEntry2
 ms.topic: function
-f1_keywords: 
- - "netioapi/DeleteIpNetEntry2"
+f1_keywords:
+- netioapi/DeleteIpNetEntry2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - DeleteIpNetEntry2
+- DeleteIpNetEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfreadwrite.IMFSinkWriterCallback
 title: IMFSinkWriterCallback (mfreadwrite.h)
-
 description: Callback interface for the Microsoft Media Foundation sink writer.
 old-location: mf\imfsinkwritercallback.htm
 tech.root: medfound
 ms.assetid: fa0295e6-473d-4304-9a7b-24584cade0a0
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriterCallback, IMFSinkWriterCallback interface [Media Foundation], IMFSinkWriterCallback interface [Media Foundation],described, mf.imfsinkwritercallback, mfreadwrite/IMFSinkWriterCallback
 ms.topic: interface
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriterCallback"
+f1_keywords:
+- mfreadwrite/IMFSinkWriterCallback
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriterCallback
+- IMFSinkWriterCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

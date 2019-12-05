@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetPrompt
 title: IUserInputString::GetPrompt (photoacquire.h)
-
 description: The GetPrompt method retrieves the title of a prompt if the prompt is a modal dialog box.
 old-location: picacq\iuserinputstring_getprompt.htm
 tech.root: acquisition
 ms.assetid: f2fdb18d-5af8-45c8-8f92-7fc8c836082d
-
 ms.date: 12/05/2018
 ms.keywords: GetPrompt, GetPrompt method [Picture Acquisition], GetPrompt method [Picture Acquisition],IUserInputString interface, IUserInputString interface [Picture Acquisition],GetPrompt method, IUserInputString.GetPrompt, IUserInputString::GetPrompt, IUserInputStringGetPrompt, photoacquire/IUserInputString::GetPrompt, picacq.iuserinputstring_getprompt
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IUserInputString.GetPrompt"
+f1_keywords:
+- photoacquire/IUserInputString.GetPrompt
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IUserInputString.GetPrompt
+- IUserInputString.GetPrompt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certpoleng.PstGetUserNameForCertificate
 title: PstGetUserNameForCertificate function (certpoleng.h)
-
 description: Retrieves the user name associated with the specified certificate.
 old-location: security\pstgetusernameforcertificate.htm
 tech.root: SecAuthN
 ms.assetid: abef13bc-0d63-4c71-a1cb-9ade26b41da3
-
 ms.date: 12/05/2018
 ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function [Security], certpoleng/PstGetUserNameForCertificate, security.pstgetusernameforcertificate
 ms.topic: function
 f1_keywords:
 - certpoleng/PstGetUserNameForCertificate
 dev_langs:
- - c++
+- c++
 req.header: certpoleng.h
 req.include-header: 
 req.target-type: Windows

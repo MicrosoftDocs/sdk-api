@@ -1,19 +1,17 @@
 ---
 UID: NS:rtmv2._RTM_ENTITY_EXPORT_METHODS
 title: RTM_ENTITY_EXPORT_METHODS (rtmv2.h)
-
 description: The RTM_ENTITY_EXPORT_METHODS structure contains the set of methods exported by a client.
 old-location: rras\rtm_entity_export_methods.htm
 tech.root: RRAS
 ms.assetid: 8198cfad-9188-4f49-92ab-1750ec16aec4
-
 ms.date: 12/05/2018
-ms.keywords: "*PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS structure pointer [RAS], RTM_ENTITY_EXPORT_METHODS, RTM_ENTITY_EXPORT_METHODS structure [RAS], _rtmv2ref_rtm_entity_export_methods, rras.rtm_entity_export_methods, rtmv2/PRTM_ENTITY_EXPORT_METHODS, rtmv2/RTM_ENTITY_EXPORT_METHODS"
+ms.keywords: '*PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS, PRTM_ENTITY_EXPORT_METHODS structure pointer [RAS], RTM_ENTITY_EXPORT_METHODS, RTM_ENTITY_EXPORT_METHODS structure [RAS], _rtmv2ref_rtm_entity_export_methods, rras.rtm_entity_export_methods, rtmv2/PRTM_ENTITY_EXPORT_METHODS, rtmv2/RTM_ENTITY_EXPORT_METHODS'
 ms.topic: struct
-f1_keywords: 
- - "rtmv2/RTM_ENTITY_EXPORT_METHODS"
+f1_keywords:
+- rtmv2/RTM_ENTITY_EXPORT_METHODS
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rtmv2.h
+- Rtmv2.h
 api_name:
- - RTM_ENTITY_EXPORT_METHODS
+- RTM_ENTITY_EXPORT_METHODS
 targetos: Windows
 req.typenames: RTM_ENTITY_EXPORT_METHODS, *PRTM_ENTITY_EXPORT_METHODS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ObjectContext.IsSecurityEnabled
 title: ObjectContext::IsSecurityEnabled (comsvcs.h)
-
 description: Indicates whether security is enabled for the current object.
 old-location: cos\objectcontext_issecurityenabled.htm
 tech.root: cossdk
 ms.assetid: c7b3a301-9f94-40de-a3d2-5387fb4e0596
-
 ms.date: 12/05/2018
 ms.keywords: IsSecurityEnabled, IsSecurityEnabled method [COM+], IsSecurityEnabled method [COM+],ObjectContext interface, ObjectContext interface [COM+],IsSecurityEnabled method, ObjectContext.IsSecurityEnabled, ObjectContext::IsSecurityEnabled, _cos_ObjectContext_IsSecurityEnabled, comsvcs/ObjectContext::IsSecurityEnabled, cos.objectcontext_issecurityenabled
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ObjectContext.IsSecurityEnabled"
+f1_keywords:
+- comsvcs/ObjectContext.IsSecurityEnabled
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectContext.IsSecurityEnabled
+- ObjectContext.IsSecurityEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

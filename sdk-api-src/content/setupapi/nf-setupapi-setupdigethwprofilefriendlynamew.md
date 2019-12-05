@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetHwProfileFriendlyNameW
 title: SetupDiGetHwProfileFriendlyNameW function (setupapi.h)
-
 description: The SetupDiGetHwProfileFriendlyName function retrieves the friendly name associated with a hardware profile ID.
 old-location: devinst\setupdigethwprofilefriendlyname.htm
 tech.root: devinst
 ms.assetid: 92f08c8a-b31a-4f88-8ff5-c60d985b79bf
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetHwProfileFriendlyName, SetupDiGetHwProfileFriendlyName function [Device and Driver Installation], SetupDiGetHwProfileFriendlyNameA, SetupDiGetHwProfileFriendlyNameW, devinst.setupdigethwprofilefriendlyname, di-rtns_3a055603-6e43-449a-bfd0-fbd7434bebfe.xml, setupapi/SetupDiGetHwProfileFriendlyName
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetHwProfileFriendlyName"
+f1_keywords:
+- setupapi/SetupDiGetHwProfileFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetHwProfileFriendlyName
- - SetupDiGetHwProfileFriendlyNameW
+- SetupDiGetHwProfileFriendlyName
+- SetupDiGetHwProfileFriendlyNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

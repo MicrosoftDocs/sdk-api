@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetCountOfRecords
 title: IISDB_BIT::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 3f36c03a-462e-479a-ad8c-5322377dbca0
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_BIT.GetCountOfRecords, IISDB_BIT::GetCountOfRecords, dvbsiparser/IISDB_BIT::GetCountOfRecords, mstv.iisdb_bit_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_BIT.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IISDB_BIT.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_BIT.GetCountOfRecords
+- IISDB_BIT.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

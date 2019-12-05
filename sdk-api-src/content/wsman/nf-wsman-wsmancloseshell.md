@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManCloseShell
 title: WSManCloseShell function (wsman.h)
-
 description: Deletes a shell object and frees the resources associated with the shell.
 old-location: winrm\wsmancloseshell.htm
 tech.root: winrm
 ms.assetid: 1da452ef-5842-4d8d-941b-09fa57393ebb
-
 ms.date: 12/05/2018
 ms.keywords: WSManCloseShell, WSManCloseShell function [Windows Remote Management], winrm.wsmancloseshell, wsman/WSManCloseShell
 ms.topic: function
 f1_keywords:
 - wsman/WSManCloseShell
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

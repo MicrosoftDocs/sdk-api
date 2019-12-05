@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToPropVariant
 title: VariantToPropVariant function (propvarutil.h)
-
 description: Copies the contents of a VARIANT structure to a PROPVARIANT structure.
 old-location: properties\VariantToPropVariant.htm
 tech.root: properties
 ms.assetid: b321d0a5-310a-4a64-8f39-4487602fbd3f
-
 ms.date: 12/05/2018
 ms.keywords: VariantToPropVariant, VariantToPropVariant function [Windows Properties], properties.VariantToPropVariant, propvarutil/VariantToPropVariant, shell.VariantToPropVariant, shell_VariantToPropVariant
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToPropVariant"
+f1_keywords:
+- propvarutil/VariantToPropVariant
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToPropVariant
+- VariantToPropVariant
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

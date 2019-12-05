@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.put_ServiceName
 title: INetFwRule::put_ServiceName (netfw.h)
-
 description: Specifies the service name property of the application.
 old-location: ics\inetfwrule_servicename.htm
 tech.root: ics
 ms.assetid: 52bcc317-b900-44b6-8ab4-637ffbd74729
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],ServiceName property, INetFwRule.ServiceName, INetFwRule.put_ServiceName, INetFwRule::ServiceName, INetFwRule::get_ServiceName, INetFwRule::put_ServiceName, ServiceName property [ICS/ICF], ServiceName property [ICS/ICF],INetFwRule interface, ics.inetfwrule_servicename, netfw/INetFwRule::ServiceName, netfw/INetFwRule::get_ServiceName, netfw/INetFwRule::put_ServiceName, put_ServiceName
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.ServiceName"
+f1_keywords:
+- netfw/INetFwRule.ServiceName
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.ServiceName
- - INetFwRule.get_ServiceName
- - INetFwRule.put_ServiceName
+- INetFwRule.ServiceName
+- INetFwRule.get_ServiceName
+- INetFwRule.put_ServiceName
 targetos: Windows
 req.typenames: 
 req.redist: 

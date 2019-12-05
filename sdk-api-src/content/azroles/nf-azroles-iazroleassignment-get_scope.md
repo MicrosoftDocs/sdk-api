@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.get_Scope
 title: IAzRoleAssignment::get_Scope (azroles.h)
-
 description: Retrieves the IAzScope object that represents the scope in which this IAzRoleAssignment object is defined.
 old-location: security\iazroleassignment_scope.htm
 tech.root: SecAuthZ
 ms.assetid: f8b81fea-b4b8-4391-bc01-5c345f45ad56
-
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignment interface [Security],Scope property, IAzRoleAssignment.Scope, IAzRoleAssignment.get_Scope, IAzRoleAssignment::Scope, IAzRoleAssignment::get_Scope, Scope property [Security], Scope property [Security],IAzRoleAssignment interface, azroles/IAzRoleAssignment::Scope, azroles/IAzRoleAssignment::get_Scope, get_Scope, security.iazroleassignment_scope
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoleAssignment.Scope"
+f1_keywords:
+- azroles/IAzRoleAssignment.Scope
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleAssignment.Scope
- - IAzRoleAssignment.get_Scope
+- IAzRoleAssignment.Scope
+- IAzRoleAssignment.get_Scope
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbClientConnection
 title: ITsSbClientConnection (sbtsv.h)
-
 description: Exposes methods and properties that store state information about an incoming connection request from a Remote Desktop Connection (RDC) client.
 old-location: termserv\itssbclientconnection.htm
 tech.root: TermServ
 ms.assetid: 6649f43d-0e2a-42d7-8111-862bb28e3dbc
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection, ITsSbClientConnection interface [Remote Desktop Services], ITsSbClientConnection interface [Remote Desktop Services],described, sbtsv/ITsSbClientConnection, termserv.itssbclientconnection
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection"
+f1_keywords:
+- sbtsv/ITsSbClientConnection
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection
+- ITsSbClientConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_CancelCallWaitingCode
 title: ITLocationInfo::get_CancelCallWaitingCode (tapi3if.h)
-
 description: The get_CancelCallWaitingCode method gets the dial digits and modifier characters that must be prefixed to a dialable string to cancel call waiting.
 old-location: tapi3\itlocationinfo_get_cancelcallwaitingcode.htm
 tech.root: Tapi
 ms.assetid: 49137921-7354-4080-8684-148beb919f01
-
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_CancelCallWaitingCode method, ITLocationInfo.get_CancelCallWaitingCode, ITLocationInfo::get_CancelCallWaitingCode, _tapi3_itlocationinfo_get_cancelcallwaitingcode, get_CancelCallWaitingCode, get_CancelCallWaitingCode method [TAPI 2.2], get_CancelCallWaitingCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_cancelcallwaitingcode, tapi3if/ITLocationInfo::get_CancelCallWaitingCode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLocationInfo.get_CancelCallWaitingCode"
+f1_keywords:
+- tapi3if/ITLocationInfo.get_CancelCallWaitingCode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLocationInfo.get_CancelCallWaitingCode
+- ITLocationInfo.get_CancelCallWaitingCode
 targetos: Windows
 req.typenames: 
 req.redist: 

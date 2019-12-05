@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetGeometryShader
 title: ID3D10EffectShaderVariable::GetGeometryShader (d3d10effect.h)
-
 description: Get a geometry shader.
 old-location: direct3d10\id3d10effectshadervariable_getgeometryshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getgeometryshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3ec86a63-120a-f1df-c229-bbdd165c6650, GetGeometryShader, GetGeometryShader method [Direct3D 10], GetGeometryShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetGeometryShader method, ID3D10EffectShaderVariable.GetGeometryShader, ID3D10EffectShaderVariable::GetGeometryShader, d3d10effect/ID3D10EffectShaderVariable::GetGeometryShader, direct3d10.id3d10effectshadervariable_getgeometryshader
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectShaderVariable.GetGeometryShader"
+f1_keywords:
+- d3d10effect/ID3D10EffectShaderVariable.GetGeometryShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectShaderVariable.GetGeometryShader
+- ID3D10EffectShaderVariable.GetGeometryShader
 targetos: Windows
 req.typenames: 
 req.redist: 

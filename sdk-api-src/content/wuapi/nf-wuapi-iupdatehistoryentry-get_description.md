@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_Description
 title: IUpdateHistoryEntry::get_Description (wuapi.h)
-
 description: Gets the description of an update.
 old-location: wua\iupdatehistoryentry_description.htm
 tech.root: Wua_Sdk
 ms.assetid: 355d4623-a84e-4994-ad41-cb4237feeaab
-
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],IUpdateHistoryEntry interface, IUpdateHistoryEntry interface [Windows Update Agent],Description property, IUpdateHistoryEntry.Description, IUpdateHistoryEntry.get_Description, IUpdateHistoryEntry::Description, IUpdateHistoryEntry::get_Description, get_Description, wua.iupdatehistoryentry_description, wuapi/IUpdateHistoryEntry::Description, wuapi/IUpdateHistoryEntry::get_Description
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntry.Description"
+f1_keywords:
+- wuapi/IUpdateHistoryEntry.Description
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.Description
- - IUpdateHistoryEntry.get_Description
+- IUpdateHistoryEntry.Description
+- IUpdateHistoryEntry.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddEditBox
 title: IFileDialogCustomize::AddEditBox (shobjidl_core.h)
-
 description: Adds an edit box control to the dialog.
 old-location: shell\IFileDialogCustomize_AddEditBox.htm
 tech.root: shell
 ms.assetid: 7648eb7a-d7c4-4d4f-a347-52eb81135270
-
 ms.date: 12/05/2018
 ms.keywords: AddEditBox, AddEditBox method [Windows Shell], AddEditBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddEditBox method, IFileDialogCustomize.AddEditBox, IFileDialogCustomize::AddEditBox, shell.IFileDialogCustomize_AddEditBox, shell_IFileDialogCustomize_AddEditBox, shobjidl_core/IFileDialogCustomize::AddEditBox
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddEditBox"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddEditBox
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddEditBox
+- IFileDialogCustomize.AddEditBox
 targetos: Windows
 req.typenames: 
 req.redist: 

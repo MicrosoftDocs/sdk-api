@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgidebug.IDXGIInfoQueue
 title: IDXGIInfoQueue (dxgidebug.h)
-
 description: This interface controls the debug information queue, and can only be used if the debug layer is turned on.
 old-location: direct3ddxgi\idxgiinfoqueue.htm
 tech.root: direct3ddxgi
 ms.assetid: F1BC6752-F334-4E8C-BE42-B731635A799D
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue, IDXGIInfoQueue interface [DXGI], IDXGIInfoQueue interface [DXGI],described, direct3ddxgi.idxgiinfoqueue, dxgidebug/IDXGIInfoQueue
 ms.topic: interface
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue
+- IDXGIInfoQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

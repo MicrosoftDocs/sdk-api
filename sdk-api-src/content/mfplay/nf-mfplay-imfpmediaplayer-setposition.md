@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetPosition
 title: IMFPMediaPlayer::SetPosition (mfplay.h)
-
 description: Sets the playback position.
 old-location: mf\imfpmediaplayer_setposition.htm
 tech.root: medfound
 ms.assetid: d8665c3b-e0da-4a6f-a61b-38d507d1e78a
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetPosition method, IMFPMediaPlayer.SetPosition, IMFPMediaPlayer::SetPosition, MFP_POSITIONTYPE_100NS, SetPosition, SetPosition method [Media Foundation], SetPosition method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setposition, mfplay/IMFPMediaPlayer::SetPosition
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.SetPosition"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.SetPosition
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.SetPosition
+- IMFPMediaPlayer.SetPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

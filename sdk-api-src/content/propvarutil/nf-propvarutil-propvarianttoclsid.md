@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToCLSID
 title: PropVariantToCLSID function (propvarutil.h)
-
 description: Extracts class identifier (CLSID) property value of a PROPVARIANT structure.
 old-location: properties\PropVariantToCLSID.htm
 tech.root: properties
 ms.assetid: 35b638e3-7610-49d6-92f3-5e4021fea635
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToCLSID, PropVariantToCLSID function [Windows Properties], _shell_PropVariantToCLSID, properties.PropVariantToCLSID, propvarutil/PropVariantToCLSID, shell.PropVariantToCLSID
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToCLSID"
+f1_keywords:
+- propvarutil/PropVariantToCLSID
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - PropVariantToCLSID
+- PropVariantToCLSID
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

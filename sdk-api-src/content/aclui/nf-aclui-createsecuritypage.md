@@ -1,19 +1,17 @@
 ---
 UID: NF:aclui.CreateSecurityPage
 title: CreateSecurityPage function (aclui.h)
-
 description: Creates a basic security property page that enables the user to view and edit the access rights allowed or denied by the access control entries (ACEs) in an object's discretionary access control list (DACL).
 old-location: security\createsecuritypage.htm
 tech.root: SecAuthZ
 ms.assetid: 52cb20fd-7f3a-4984-a898-f4b9e9738e1a
-
 ms.date: 12/05/2018
 ms.keywords: CreateSecurityPage, CreateSecurityPage function [Security], _win32_createsecuritypage, aclui/CreateSecurityPage, security.createsecuritypage
 ms.topic: function
-f1_keywords: 
- - "aclui/CreateSecurityPage"
+f1_keywords:
+- aclui/CreateSecurityPage
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Aclui.lib
 req.dll: Aclui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Aclui.dll
+- Aclui.dll
 api_name:
- - CreateSecurityPage
+- CreateSecurityPage
 targetos: Windows
 req.typenames: 
 req.redist: 

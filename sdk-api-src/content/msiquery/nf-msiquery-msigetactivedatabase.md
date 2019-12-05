@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetActiveDatabase
 title: MsiGetActiveDatabase function (msiquery.h)
-
 description: The MsiGetActiveDatabase function returns the active database for the installation. This function returns a read-only handle that should be closed using MsiCloseHandle.
 old-location: setup\msigetactivedatabase.htm
 tech.root: Msi
 ms.assetid: 148d467f-fecd-42a9-b838-22799a159f97
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetActiveDatabase, MsiGetActiveDatabase function, _msi_msigetactivedatabase, msiquery/MsiGetActiveDatabase, setup.msigetactivedatabase
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetActiveDatabase"
+f1_keywords:
+- msiquery/MsiGetActiveDatabase
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetActiveDatabase
+- MsiGetActiveDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

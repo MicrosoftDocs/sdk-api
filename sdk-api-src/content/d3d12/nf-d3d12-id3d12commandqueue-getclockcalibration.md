@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetClockCalibration
 title: ID3D12CommandQueue::GetClockCalibration (d3d12.h)
-
 description: This method samples the CPU and GPU timestamp counters at the same moment in time.
 old-location: direct3d12\id3d12commandqueue_getclockcalibration.htm
 tech.root: direct3d12
 ms.assetid: B8E0F8D4-D291-41B5-8E40-0C1FB3DCC253
-
 ms.date: 12/05/2018
 ms.keywords: GetClockCalibration, GetClockCalibration method, GetClockCalibration method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetClockCalibration method, ID3D12CommandQueue.GetClockCalibration, ID3D12CommandQueue::GetClockCalibration, d3d12/ID3D12CommandQueue::GetClockCalibration, direct3d12.id3d12commandqueue_getclockcalibration
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.GetClockCalibration"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.GetClockCalibration
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12CommandQueue.GetClockCalibration
+- ID3D12CommandQueue.GetClockCalibration
 targetos: Windows
 req.typenames: 
 req.redist: 

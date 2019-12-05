@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
 title: IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility (dvbsiparser.h)
-
 description: Gets the visible_service_flag and logical_channel_number fields from a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getlistrecordlogicalchannelandvisibility.htm
 tech.root: mstv
 ms.assetid: 1e9d5d7f-4816-4eb8-894a-85dd7977c62e
-
 ms.date: 12/05/2018
 ms.keywords: GetListRecordLogicalChannelAndVisibility, GetListRecordLogicalChannelAndVisibility method [Microsoft TV Technologies], GetListRecordLogicalChannelAndVisibility method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetListRecordLogicalChannelAndVisibility method, IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility, IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility, dvbsiparser/IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility, mstv.idvblogicalchannel2descriptor_getlistrecordlogicalchannelandvisibility, mstv.idvblogicalchanneldescriptor2_getlistrecordlogicalchannelandvisibility
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
+- IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
 targetos: Windows
 req.typenames: 
 req.redist: 

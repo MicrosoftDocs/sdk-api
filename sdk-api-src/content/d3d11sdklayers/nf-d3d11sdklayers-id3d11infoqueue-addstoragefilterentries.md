@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.AddStorageFilterEntries
 title: ID3D11InfoQueue::AddStorageFilterEntries (d3d11sdklayers.h)
-
 description: Add storage filters to the top of the storage-filter stack.
 old-location: direct3d11\id3d11infoqueue_addstoragefilterentries.htm
 tech.root: direct3d11
 ms.assetid: 18d8a336-44aa-4a21-93c7-e6279bb51853
-
 ms.date: 12/05/2018
 ms.keywords: 931a126d-863e-dd0f-39ba-9205662592db, AddStorageFilterEntries, AddStorageFilterEntries method [Direct3D 11], AddStorageFilterEntries method [Direct3D 11],ID3D11InfoQueue interface, ID3D11InfoQueue interface [Direct3D 11],AddStorageFilterEntries method, ID3D11InfoQueue.AddStorageFilterEntries, ID3D11InfoQueue::AddStorageFilterEntries, d3d11sdklayers/ID3D11InfoQueue::AddStorageFilterEntries, direct3d11.id3d11infoqueue_addstoragefilterentries
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11InfoQueue.AddStorageFilterEntries"
+f1_keywords:
+- d3d11sdklayers/ID3D11InfoQueue.AddStorageFilterEntries
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11InfoQueue.AddStorageFilterEntries
+- ID3D11InfoQueue.AddStorageFilterEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_SAS_NOTIFY
 title: PWLX_SAS_NOTIFY (winwlx.h)
-
 description: Called by GINA to notify Winlogon of a secure attention sequence (SAS) event.
 old-location: security\wlxsasnotify.htm
 tech.root: SecAuthN
 ms.assetid: 534afdf8-6809-413a-ac5c-23978f2b288a
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_SAS_NOTIFY, PWLX_SAS_NOTIFY callback, WLX_SAS_TYPE_CTRL_ALT_DEL, WlxSasNotify, WlxSasNotify callback function [Security], _gina_wlxsasnotify, security.wlxsasnotify, winwlx/WlxSasNotify
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxSasNotify"
+f1_keywords:
+- winwlx/WlxSasNotify
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxSasNotify
+- WlxSasNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

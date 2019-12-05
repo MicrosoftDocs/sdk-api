@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFAllocateWorkQueue
 title: MFAllocateWorkQueue function (mfapi.h)
-
 description: Creates a new work queue.
 old-location: mf\mfallocateworkqueue.htm
 tech.root: medfound
 ms.assetid: 8def4375-919c-4619-9484-9ce2708a3886
-
 ms.date: 12/05/2018
 ms.keywords: 8def4375-919c-4619-9484-9ce2708a3886, MFAllocateWorkQueue, MFAllocateWorkQueue function [Media Foundation], mf.mfallocateworkqueue, mfapi/MFAllocateWorkQueue
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFAllocateWorkQueue"
+f1_keywords:
+- mfapi/MFAllocateWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFAllocateWorkQueue
+- MFAllocateWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_DeviceName
 title: IFaxOutgoingMessage::get_DeviceName (faxcomex.h)
-
 description: The IFaxOutgoingMessage::get_DeviceName property is a null-terminated string that contains the name of the device on which the fax message was transmitted.
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qw5.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeviceName property [Fax Service], DeviceName property [Fax Service],IFaxOutgoingMessage interface, IFaxOutgoingMessage interface [Fax Service],DeviceName property, IFaxOutgoingMessage.DeviceName, IFaxOutgoingMessage.get_DeviceName, IFaxOutgoingMessage::DeviceName, IFaxOutgoingMessage::get_DeviceName, _mfax_faxoutgoingmessage.devicename, fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_devicename_cpp, fax._mfax_faxoutgoingmessage_devicename, faxcomex/IFaxOutgoingMessage::DeviceName, faxcomex/IFaxOutgoingMessage::get_DeviceName, get_DeviceName
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingMessage.DeviceName"
+f1_keywords:
+- faxcomex/IFaxOutgoingMessage.DeviceName
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage.DeviceName
- - IFaxOutgoingMessage.get_DeviceName
- - IFaxOutgoingMessage.get_DeviceName
+- IFaxOutgoingMessage.DeviceName
+- IFaxOutgoingMessage.get_DeviceName
+- IFaxOutgoingMessage.get_DeviceName
 targetos: Windows
 req.typenames: 
 req.redist: 

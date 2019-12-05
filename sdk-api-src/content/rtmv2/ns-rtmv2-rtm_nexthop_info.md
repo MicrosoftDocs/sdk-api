@@ -1,19 +1,17 @@
 ---
 UID: NS:rtmv2._RTM_NEXTHOP_INFO
 title: RTM_NEXTHOP_INFO (rtmv2.h)
-
 description: The RTM_NEXTHOP_INFO structure is used to exchange next-hop information with the routing table manager.
 old-location: rras\rtm_nexthop_info.htm
 tech.root: RRAS
 ms.assetid: 17705e5b-0905-45a5-b76e-e381e863a1ea
-
 ms.date: 12/05/2018
 ms.keywords: '*PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO, PRTM_NEXTHOP_INFO structure pointer [RAS], RTM_NEXTHOP_FLAGS_DOWN, RTM_NEXTHOP_FLAGS_REMOTE, RTM_NEXTHOP_INFO, RTM_NEXTHOP_INFO structure [RAS], RTM_NEXTHOP_STATE_CREATED, RTM_NEXTHOP_STATE_DELETED, _rtmv2ref_rtm_nexthop_info, rras.rtm_nexthop_info, rtmv2/PRTM_NEXTHOP_INFO, rtmv2/RTM_NEXTHOP_INFO'
 ms.topic: struct
 f1_keywords:
 - rtmv2/RTM_NEXTHOP_INFO
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows

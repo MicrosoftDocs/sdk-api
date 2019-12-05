@@ -1,19 +1,17 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo
 title: ILanguageExceptionErrorInfo (restrictederrorinfo.h)
-
 description: Enables retrieving the IUnknown pointer stored in the error info with the call to RoOriginateLanguageException.
 old-location: winrt\ilanguageexceptionerrorinfo.htm
 tech.root: WinRT
 ms.assetid: 625C0DAF-8AF6-43EB-BC81-2B3189CF8963
-
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionErrorInfo, ILanguageExceptionErrorInfo interface [Windows Runtime], ILanguageExceptionErrorInfo interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionErrorInfo, winrt.ilanguageexceptionerrorinfo
 ms.topic: interface
-f1_keywords: 
- - "restrictederrorinfo/ILanguageExceptionErrorInfo"
+f1_keywords:
+- restrictederrorinfo/ILanguageExceptionErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - restrictederrorinfo.h
+- restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo
+- ILanguageExceptionErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.GetAutoApplyQuota
 title: IFsrmQuotaManager::GetAutoApplyQuota (fsrmquota.h)
-
 description: Retrieves the automatic quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_getautoapplyquota.htm
 tech.root: fsrm
 ms.assetid: e6a4645c-c323-4c28-a284-9ebb677aeebb
-
 ms.date: 12/05/2018
 ms.keywords: FsrmQuotaManager class [File Server Resource Manager],GetAutoApplyQuota method, GetAutoApplyQuota, GetAutoApplyQuota method [File Server Resource Manager], GetAutoApplyQuota method [File Server Resource Manager],FsrmQuotaManager class, GetAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManager interface, GetAutoApplyQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, IFsrmQuotaManager interface [File Server Resource Manager],GetAutoApplyQuota method, IFsrmQuotaManager.GetAutoApplyQuota, IFsrmQuotaManager::GetAutoApplyQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],GetAutoApplyQuota method, IFsrmQuotaManagerEx::GetAutoApplyQuota, fs.ifsrmquotamanager_getautoapplyquota, fsrm.ifsrmquotamanager_getautoapplyquota, fsrmquota/IFsrmQuotaManager::GetAutoApplyQuota, fsrmquota/IFsrmQuotaManagerEx::GetAutoApplyQuota
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaManager.GetAutoApplyQuota"
+f1_keywords:
+- fsrmquota/IFsrmQuotaManager.GetAutoApplyQuota
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.GetAutoApplyQuota
- - IFsrmQuotaManagerEx.GetAutoApplyQuota
- - FsrmQuotaManager.GetAutoApplyQuota
+- IFsrmQuotaManager.GetAutoApplyQuota
+- IFsrmQuotaManagerEx.GetAutoApplyQuota
+- FsrmQuotaManager.GetAutoApplyQuota
 targetos: Windows
 req.typenames: 
 req.redist: 

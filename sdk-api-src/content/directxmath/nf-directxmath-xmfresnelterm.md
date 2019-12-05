@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMFresnelTerm
 title: XMFresnelTerm function (directxmath.h)
-
 description: Calculates the Fresnel term for unpolarized light.
 old-location: dxmath\xmfresnelterm.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.utilities.XMFresnelTerm(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMFresnelTerm, XMFresnelTerm, XMFresnelTerm method [DirectX Math Support APIs], dxmath.xmfresnelterm
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMFresnelTerm"
+f1_keywords:
+- directxmath/XMFresnelTerm
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFresnelTerm
+- XMFresnelTerm
 targetos: Windows
 req.typenames: 
 req.redist: 

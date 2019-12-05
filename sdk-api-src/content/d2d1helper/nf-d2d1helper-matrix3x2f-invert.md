@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Invert
 title: Matrix3x2F::Invert (d2d1helper.h)
-
 description: Inverts the matrix, if it is invertible.
 old-location: direct2d\matrix3x2f_invert.htm
 tech.root: Direct2D
 ms.assetid: 44c5229e-778c-431a-b812-cf2f59c2280c
-
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Invert, D2D1::Matrix3x2F::Invert, Invert, Invert method [Direct2D], Invert method [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Invert method, Matrix3x2F.Invert, Matrix3x2F::Invert, d2d1helper/Matrix3x2F::Invert, direct2d.matrix3x2f_invert
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/Matrix3x2F.Invert"
+f1_keywords:
+- d2d1helper/Matrix3x2F.Invert
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Matrix3x2F.Invert
+- Matrix3x2F.Invert
 targetos: Windows
 req.typenames: 
 req.redist: 

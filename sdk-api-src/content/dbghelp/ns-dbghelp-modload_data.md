@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._MODLOAD_DATA
 title: MODLOAD_DATA (dbghelp.h)
-
 description: Contains module data.
 old-location: base\modload_data_str.htm
 tech.root: Debug
 ms.assetid: aa9c2b18-01bf-4eaa-8283-584ca16fc98e
-
 ms.date: 12/05/2018
 ms.keywords: '*PMODLOAD_DATA, DBHHEADER_CVMISC, DBHHEADER_DEBUGDIRS, MODLOAD_DATA, MODLOAD_DATA structure, PMODLOAD_DATA, PMODLOAD_DATA structure pointer, _MODLOAD_DATA, _win32_modload_data_str, base.modload_data_str, dbghelp/MODLOAD_DATA, dbghelp/PMODLOAD_DATA'
 ms.topic: struct
 f1_keywords:
 - dbghelp/MODLOAD_DATA
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

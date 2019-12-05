@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2fx.XAUDIO2FX_REVERB_PARAMETERS
 title: XAUDIO2FX_REVERB_PARAMETERS (xaudio2fx.h)
-
 description: Describes parameters for use in the reverb APO.
 old-location: xaudio2\xaudio2fx_reverb_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2FX_REVERB_PARAMETERS
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2FX_REVERB_PARAMETERS, XAUDIO2FX_REVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2fx_reverb_parameters, xaudio2fx/XAUDIO2FX_REVERB_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "xaudio2fx/XAUDIO2FX_REVERB_PARAMETERS"
+f1_keywords:
+- xaudio2fx/XAUDIO2FX_REVERB_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2fx.h
+- xaudio2fx.h
 api_name:
- - XAUDIO2FX_REVERB_PARAMETERS
+- XAUDIO2FX_REVERB_PARAMETERS
 targetos: Windows
 req.typenames: XAUDIO2FX_REVERB_PARAMETERS
 req.redist: 

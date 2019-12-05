@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqDone
 title: RpcNsEntryObjectInqDone function (rpcnsi.h)
-
 description: The RpcNsEntryObjectInqDone function deletes the inquiry context for a name-service database entry's objects.
 old-location: rpc\rpcnsentryobjectinqdone.htm
 tech.root: Rpc
 ms.assetid: de1ed214-1018-498a-81a9-7932d4eead0b
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsEntryObjectInqDone, RpcNsEntryObjectInqDone function [RPC], _rpc_rpcnsentryobjectinqdone, rpc.rpcnsentryobjectinqdone, rpcnsi/RpcNsEntryObjectInqDone
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsEntryObjectInqDone"
+f1_keywords:
+- rpcnsi/RpcNsEntryObjectInqDone
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsEntryObjectInqDone
+- RpcNsEntryObjectInqDone
 targetos: Windows
 req.typenames: 
 req.redist: 

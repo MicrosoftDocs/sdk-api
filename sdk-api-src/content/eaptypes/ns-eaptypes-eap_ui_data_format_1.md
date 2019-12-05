@@ -1,19 +1,17 @@
 ---
 UID: NS:eaptypes.__unnamed_union_1
 title: EAP_UI_DATA_FORMAT (eaptypes.h)
-
 description: The EAP_UI_DATA_FORMAT union specifies the value of the attribute stored in the pbUiData member of the EAP_INTERACTIVE_UI_DATA structure.
 old-location: eaphost\eap_ui_data_format.htm
 tech.root: eaphost
 ms.assetid: e4b49cbd-b50d-474c-b6b5-8ff858eca424
-
 ms.date: 12/05/2018
 ms.keywords: EAP_UI_DATA_FORMAT, EAP_UI_DATA_FORMAT union [EAPHost], eaphost.eap_ui_data_format, eaptypes/EAP_UI_DATA_FORMAT
 ms.topic: struct
 f1_keywords:
 - eaptypes/EAP_UI_DATA_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

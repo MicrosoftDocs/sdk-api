@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetRawPointerDeviceData
 title: GetRawPointerDeviceData function (winuser.h)
-
 description: Gets the raw input data from the pointer device.
 old-location: input_pointerdevice\getrawpointerdevicedata.htm
 tech.root: Input_PointerDevice
 ms.assetid: 56b65cc9-9582-4c7f-81e8-0b0d45b4dc8b
-
 ms.date: 12/05/2018
 ms.keywords: GetRawPointerDeviceData, GetRawPointerDeviceData function, input_pointerdevice.getrawpointerdevicedata, unifiedinputstack.getrawpointerdevicedata, winuser/GetRawPointerDeviceData
 ms.topic: function
-f1_keywords: 
- - "winuser/GetRawPointerDeviceData"
+f1_keywords:
+- winuser/GetRawPointerDeviceData
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - GetRawPointerDeviceData
+- GetRawPointerDeviceData
 targetos: Windows
 req.typenames: 
 req.redist: 

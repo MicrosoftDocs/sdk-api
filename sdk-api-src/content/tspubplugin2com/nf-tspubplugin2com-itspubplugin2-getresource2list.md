@@ -1,19 +1,17 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2List
 title: ItsPubPlugin2::GetResource2List (tspubplugin2com.h)
-
 description: Retrieves a list of resources assigned to the specified user.
 old-location: termserv\itspubplugin2_getresource2list.htm
 tech.root: TermServ
 ms.assetid: 58b30088-be32-4aa0-88a4-459df52db7af
-
 ms.date: 12/05/2018
 ms.keywords: GetResource2List, GetResource2List method [Remote Desktop Services], GetResource2List method [Remote Desktop Services],ItsPubPlugin2 interface, ItsPubPlugin2 interface [Remote Desktop Services],GetResource2List method, ItsPubPlugin2.GetResource2List, ItsPubPlugin2::GetResource2List, termserv.itspubplugin2_getresource2list, tspubplugin2com/ItsPubPlugin2::GetResource2List
 ms.topic: method
-f1_keywords: 
- - "tspubplugin2com/ItsPubPlugin2.GetResource2List"
+f1_keywords:
+- tspubplugin2com/ItsPubPlugin2.GetResource2List
 dev_langs:
- - c++
+- c++
 req.header: tspubplugin2com.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tspubplugin2com.h
+- tspubplugin2com.h
 api_name:
- - ItsPubPlugin2.GetResource2List
+- ItsPubPlugin2.GetResource2List
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wabapi.IWABObject.AllocateMore
 title: IWABObject::AllocateMore (wabapi.h)
-
 description: Allocates a memory buffer that is linked to another buffer previously allocated with the IWABObject::AllocateBuffer method.
 old-location: wab\_wab_IWABObject_AllocateMore.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\allocatemore.htm
-
 ms.date: 12/05/2018
 ms.keywords: AllocateMore, AllocateMore method [Windows Address Book], AllocateMore method [Windows Address Book],IWABObject interface, IWABObject interface [Windows Address Book],AllocateMore method, IWABObject.AllocateMore, IWABObject::AllocateMore, _wab_IWABObject_AllocateMore, wab._wab_IWABObject_AllocateMore, wabapi/IWABObject::AllocateMore
 ms.topic: method
-f1_keywords: 
- - "wabapi/IWABObject.AllocateMore"
+f1_keywords:
+- wabapi/IWABObject.AllocateMore
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IWABObject.AllocateMore
+- IWABObject.AllocateMore
 targetos: Windows
 req.typenames: 
 req.redist: 

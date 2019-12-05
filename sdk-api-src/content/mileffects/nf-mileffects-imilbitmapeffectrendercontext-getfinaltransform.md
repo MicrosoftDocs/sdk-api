@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetFinalTransform
 title: IMILBitmapEffectRenderContext::GetFinalTransform (mileffects.h)
-
 description: Gets the final MILMatrixF transform.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getfinaltransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getfinaltransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFinalTransform, GetFinalTransform method [WPF Bitmap Effects], GetFinalTransform method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],GetFinalTransform method, IMILBitmapEffectRenderContext.GetFinalTransform, IMILBitmapEffectRenderContext::GetFinalTransform, _wibe_imilbitmapeffectrendercontext_getfinaltransform, mileffects/IMILBitmapEffectRenderContext::GetFinalTransform, wibe._wibe_imilbitmapeffectrendercontext_getfinaltransform
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContext.GetFinalTransform"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContext.GetFinalTransform
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext.GetFinalTransform
+- IMILBitmapEffectRenderContext.GetFinalTransform
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

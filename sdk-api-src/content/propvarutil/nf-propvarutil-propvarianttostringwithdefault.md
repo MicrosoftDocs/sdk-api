@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToStringWithDefault
 title: PropVariantToStringWithDefault function (propvarutil.h)
-
 description: Extracts the string property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToStringWithDefault.htm
 tech.root: properties
 ms.assetid: a5f50a32-033f-4bda-87db-c0a8515b6451
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToStringWithDefault, PropVariantToStringWithDefault function [Windows Properties], _shell_PropVariantToStringWithDefault, properties.PropVariantToStringWithDefault, propvarutil/PropVariantToStringWithDefault, shell.PropVariantToStringWithDefault
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToStringWithDefault"
+f1_keywords:
+- propvarutil/PropVariantToStringWithDefault
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToStringWithDefault
+- PropVariantToStringWithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

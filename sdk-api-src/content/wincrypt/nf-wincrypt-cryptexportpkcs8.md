@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptExportPKCS8
 title: CryptExportPKCS8 function (wincrypt.h)
-
-description: Exports the private key in PKCS #8 format. The function is superseded by CryptExportPKCS8Ex, which also may be altered or unavailable in subsequent versions.
+description: Exports the private key in PKCS
 old-location: security\cryptexportpkcs8.htm
 tech.root: SecCrypto
 ms.assetid: defd0b23-d9c2-4b28-a6a6-1be7487ae656
-
 ms.date: 12/05/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, CryptExportPKCS8, CryptExportPKCS8 function [Security], security.cryptexportpkcs8, wincrypt/CryptExportPKCS8
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptExportPKCS8"
+f1_keywords:
+- wincrypt/CryptExportPKCS8
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptExportPKCS8
+- CryptExportPKCS8
 targetos: Windows
 req.typenames: 
 req.redist: 

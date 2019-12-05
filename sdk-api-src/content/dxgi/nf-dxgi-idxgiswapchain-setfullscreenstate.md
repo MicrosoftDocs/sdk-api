@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.SetFullscreenState
 title: IDXGISwapChain::SetFullscreenState (dxgi.h)
-
 description: Sets the display state to windowed or full screen.
 old-location: direct3ddxgi\idxgiswapchain_setfullscreenstate.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_setfullscreenstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain interface [DXGI],SetFullscreenState method, IDXGISwapChain.SetFullscreenState, IDXGISwapChain::SetFullscreenState, SetFullscreenState, SetFullscreenState method [DXGI], SetFullscreenState method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_setfullscreenstate, dxgi/IDXGISwapChain::SetFullscreenState, f276366b-1618-a552-fa8f-29c081ebbe6d
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISwapChain.SetFullscreenState"
+f1_keywords:
+- dxgi/IDXGISwapChain.SetFullscreenState
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISwapChain.SetFullscreenState
+- IDXGISwapChain.SetFullscreenState
 targetos: Windows
 req.typenames: 
 req.redist: 

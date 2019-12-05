@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_REPLICATED_DISK
 title: SR_RESOURCE_TYPE_REPLICATED_DISK (clusapi.h)
-
 description: Represents a replicated disk.
 old-location: mscs\sr_resource_type_replicated_disk.htm
 tech.root: MsCS
 ms.assetid: 0C020CC3-43CD-49ED-B42D-2365D76ED40D
-
 ms.date: 12/05/2018
 ms.keywords: '*PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK, PSR_RESOURCE_TYPE_REPLICATED_DISK structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_DISK, SR_RESOURCE_TYPE_REPLICATED_DISK structure [Failover Cluster], clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISK, clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK, mscs.sr_resource_type_replicated_disk'
 ms.topic: struct
 f1_keywords:
 - clusapi/SR_RESOURCE_TYPE_REPLICATED_DISK
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows

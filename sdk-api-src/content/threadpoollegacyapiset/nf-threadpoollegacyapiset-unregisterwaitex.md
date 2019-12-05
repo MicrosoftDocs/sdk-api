@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoollegacyapiset.UnregisterWaitEx
 title: UnregisterWaitEx function (threadpoollegacyapiset.h)
-
 description: Cancels a registered wait operation issued by the RegisterWaitForSingleObject function.
 old-location: base\unregisterwaitex.htm
 tech.root: Sync
 ms.assetid: ea700e55-fce7-46cd-bb96-0c129b429d46
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterWaitEx, UnregisterWaitEx function, _win32_unregisterwaitex, base.unregisterwaitex, threadpoollegacyapiset/UnregisterWaitEx, winbase/UnregisterWaitEx
 ms.topic: function
-f1_keywords: 
- - "threadpoollegacyapiset/UnregisterWaitEx"
+f1_keywords:
+- threadpoollegacyapiset/UnregisterWaitEx
 dev_langs:
- - c++
+- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - UnregisterWaitEx
+- UnregisterWaitEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICollection.GetCount
 title: IUICollection::GetCount (uiribbon.h)
-
 description: Retrieves the number of items contained in the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_getcount.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [Windows Ribbon], GetCount method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],GetCount method, IUICollection.GetCount, IUICollection::GetCount, scenicintent_IUICollection_GetCount, uiribbon/IUICollection::GetCount, windowsribbon.windowsribbon_iuicollection_getcount
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICollection.GetCount"
+f1_keywords:
+- uiribbon/IUICollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICollection.GetCount
+- IUICollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

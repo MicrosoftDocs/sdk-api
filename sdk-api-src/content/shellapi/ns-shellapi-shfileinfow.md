@@ -1,19 +1,17 @@
 ---
 UID: NS:shellapi._SHFILEINFOW
 title: SHFILEINFOW (shellapi.h)
-
 description: Contains information about a file object.
 old-location: shell\SHFILEINFO.htm
 tech.root: shell
 ms.assetid: 9dbf873a-b447-4579-961e-20f2a64c87fe
-
 ms.date: 12/05/2018
 ms.keywords: SHFILEINFO, SHFILEINFO structure [Windows Shell], SHFILEINFOW, _win32_SHFILEINFO, shell.SHFILEINFO, shellapi/SHFILEINFO
 ms.topic: struct
-f1_keywords: 
- - "shellapi/SHFILEINFO"
+f1_keywords:
+- shellapi/SHFILEINFO
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - SHFILEINFO
- - SHFILEINFOW
+- SHFILEINFO
+- SHFILEINFOW
 targetos: Windows
 req.typenames: SHFILEINFOW
 req.redist: 

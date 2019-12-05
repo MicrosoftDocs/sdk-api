@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetFileName
 title: IUrlAccessor::GetFileName (searchapi.h)
-
 description: Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the IUrlAccessor::BindToStream method is implemented, this method returns the shell's System.ParsingPath property for the item.
 old-location: search\_search_IUrlAccessor_GetFileName.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getfilename.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFileName, GetFileName method [search], GetFileName method [search],IUrlAccessor interface, IUrlAccessor interface [search],GetFileName method, IUrlAccessor.GetFileName, IUrlAccessor::GetFileName, _search_IUrlAccessor_GetFileName, search._search_IUrlAccessor_GetFileName, searchapi/IUrlAccessor::GetFileName
 ms.topic: method
-f1_keywords: 
- - "searchapi/IUrlAccessor.GetFileName"
+f1_keywords:
+- searchapi/IUrlAccessor.GetFileName
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor.GetFileName
+- IUrlAccessor.GetFileName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

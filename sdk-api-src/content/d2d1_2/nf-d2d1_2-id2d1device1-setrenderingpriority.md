@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_2.ID2D1Device1.SetRenderingPriority
 title: ID2D1Device1::SetRenderingPriority (d2d1_2.h)
-
 description: Sets the priority of Direct2D rendering operations performed on any device context associated with the device.
 old-location: direct2d\id2d1device1_setrenderingpriority.htm
 tech.root: Direct2D
 ms.assetid: 520B4D0D-8D54-4599-9BA3-A03DBF35BCFF
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Device1 interface [Direct2D],SetRenderingPriority method, ID2D1Device1.SetRenderingPriority, ID2D1Device1::SetRenderingPriority, SetRenderingPriority, SetRenderingPriority method [Direct2D], SetRenderingPriority method [Direct2D],ID2D1Device1 interface, d2d1_2/ID2D1Device1::SetRenderingPriority, direct2d.id2d1device1_setrenderingpriority
 ms.topic: method
-f1_keywords: 
- - "d2d1_2/ID2D1Device1.SetRenderingPriority"
+f1_keywords:
+- d2d1_2/ID2D1Device1.SetRenderingPriority
 dev_langs:
- - c++
+- c++
 req.header: d2d1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Device1.SetRenderingPriority
+- ID2D1Device1.SetRenderingPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

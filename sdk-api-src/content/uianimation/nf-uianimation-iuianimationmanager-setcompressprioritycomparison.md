@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.SetCompressPriorityComparison
 title: IUIAnimationManager::SetCompressPriorityComparison (uianimation.h)
-
 description: Sets the priority comparison handler to be called to determine whether a scheduled storyboard can be compressed.
 old-location: uianimation\iuianimationmanager_setcompressprioritycomparison.htm
 tech.root: UIAnimation
 ms.assetid: bf2a7782-3541-483e-8d5e-3e82693f103c
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],SetCompressPriorityComparison method, IUIAnimationManager.SetCompressPriorityComparison, IUIAnimationManager::SetCompressPriorityComparison, SetCompressPriorityComparison, SetCompressPriorityComparison method [Windows Animation], SetCompressPriorityComparison method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_setcompressprioritycomparison, uianimation/IUIAnimationManager::SetCompressPriorityComparison
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.SetCompressPriorityComparison"
+f1_keywords:
+- uianimation/IUIAnimationManager.SetCompressPriorityComparison
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.SetCompressPriorityComparison
+- IUIAnimationManager.SetCompressPriorityComparison
 targetos: Windows
 req.typenames: 
 req.redist: 

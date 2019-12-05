@@ -1,19 +1,17 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAuthorizeConnectionSink
 title: ITSGAuthorizeConnectionSink (tsgpolicyengine.h)
-
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
 old-location: termserv\itsgauthorizeconnectionsink.htm
 tech.root: TermServ
 ms.assetid: 4aa6ec0d-6525-46e1-ba0b-29d80c5ee0f1
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthorizeConnectionSink, ITSGAuthorizeConnectionSink interface [Remote Desktop Services], ITSGAuthorizeConnectionSink interface [Remote Desktop Services],described, termserv.itsgauthorizeconnectionsink, tsgpolicyengine/ITSGAuthorizeConnectionSink
 ms.topic: interface
-f1_keywords: 
- - "tsgpolicyengine/ITSGAuthorizeConnectionSink"
+f1_keywords:
+- tsgpolicyengine/ITSGAuthorizeConnectionSink
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGAuthorizeConnectionSink
+- ITSGAuthorizeConnectionSink
 targetos: Windows
 req.typenames: 
 req.redist: 

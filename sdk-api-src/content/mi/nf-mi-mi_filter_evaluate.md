@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Filter_Evaluate
 title: MI_Filter_Evaluate function (mi.h)
-
 description: The provider calls this function to evaluate an instance against a given filter.
 old-location: wmi_v2\mi_filter_evaluate.htm
 tech.root: wmi_v2
 ms.assetid: b826f02d-3764-4f61-996f-42bf01ea44e2
-
 ms.date: 12/05/2018
 ms.keywords: MI_Filter_Evaluate, MI_Filter_Evaluate function [Windows Management Infrastructure (MI)], mi/MI_Filter_Evaluate, wmi_v2.mi_filter_evaluate
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Filter_Evaluate"
+f1_keywords:
+- mi/MI_Filter_Evaluate
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Filter_Evaluate
+- MI_Filter_Evaluate
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_RC2_CBC_PARAMETERS
 title: CRYPT_RC2_CBC_PARAMETERS (wincrypt.h)
-
 description: Contains information used with szOID_RSA_RC2CBC encryption.
 old-location: security\crypt_rc2_cbc_parameters.htm
 tech.root: SecCrypto
 ms.assetid: 58b1dc44-55ea-4c22-a115-dfeaee8a2297
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_RC2_CBC_PARAMETERS, CRYPT_RC2_128BIT_VERSION, CRYPT_RC2_40BIT_VERSION, CRYPT_RC2_56BIT_VERSION, CRYPT_RC2_64BIT_VERSION, CRYPT_RC2_CBC_PARAMETERS, CRYPT_RC2_CBC_PARAMETERS structure [Security], PCRYPT_RC2_CBC_PARAMETERS, PCRYPT_RC2_CBC_PARAMETERS structure pointer [Security], _crypto2_crypt_rc2_cbc_parameters, security.crypt_rc2_cbc_parameters, wincrypt/CRYPT_RC2_CBC_PARAMETERS, wincrypt/PCRYPT_RC2_CBC_PARAMETERS'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_RC2_CBC_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.CommitComplete
 title: CommitComplete function (ktmw32.h)
-
 description: Indicates that a resource manager (RM) has finished committing a transaction that was requested by the transaction manager (TM).
 old-location: fs\commitcomplete.htm
 tech.root: ktm
 ms.assetid: de3e3a26-3e56-4732-8e7c-945b45593aed
-
 ms.date: 12/05/2018
 ms.keywords: CommitComplete, CommitComplete function [Files], fs.commitcomplete, ktmw32/CommitComplete
 ms.topic: function
-f1_keywords: 
- - "ktmw32/CommitComplete"
+f1_keywords:
+- ktmw32/CommitComplete
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - CommitComplete
+- CommitComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

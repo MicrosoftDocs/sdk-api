@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkCollector
 title: IInkCollector (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinkcollector.htm
 tech.root: tablet
 ms.assetid: 4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB
-
 ms.date: 12/05/2018
 ms.keywords: IInkCollector, IInkCollector interface [Tablet PC], IInkCollector interface [Tablet PC],described, msinkaut/IInkCollector, tablet.iinkcollector
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkCollector"
+f1_keywords:
+- msinkaut/IInkCollector
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkCollector
+- IInkCollector
 targetos: Windows
 req.typenames: 
 req.redist: 

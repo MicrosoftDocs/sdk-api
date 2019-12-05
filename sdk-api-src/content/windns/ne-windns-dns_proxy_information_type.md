@@ -1,19 +1,17 @@
 ---
 UID: NE:windns.DNS_PROXY_INFORMATION_TYPE
 title: DNS_PROXY_INFORMATION_TYPE (windns.h)
-
 description: The DNS_PROXY_INFORMATION_TYPE enumeration defines the proxy information type in the DNS_PROXY_INFORMATION structure.
 old-location: dns\dns_proxy_information_type.htm
 tech.root: DNS
 ms.assetid: 983d38f3-3ee7-4df6-a9ff-f908f250020f
-
 ms.date: 12/05/2018
 ms.keywords: DNS_PROXY_INFORMATION_DEFAULT_SETTINGS, DNS_PROXY_INFORMATION_DIRECT, DNS_PROXY_INFORMATION_DOES_NOT_EXIST, DNS_PROXY_INFORMATION_PROXY_NAME, DNS_PROXY_INFORMATION_TYPE, DNS_PROXY_INFORMATION_TYPE enumeration [DNS], dns.dns_proxy_information_type, windns/DNS_PROXY_INFORMATION_DEFAULT_SETTINGS, windns/DNS_PROXY_INFORMATION_DIRECT, windns/DNS_PROXY_INFORMATION_DOES_NOT_EXIST, windns/DNS_PROXY_INFORMATION_PROXY_NAME, windns/DNS_PROXY_INFORMATION_TYPE
 ms.topic: enum
-f1_keywords: 
- - "windns/DNS_PROXY_INFORMATION_TYPE"
+f1_keywords:
+- windns/DNS_PROXY_INFORMATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_PROXY_INFORMATION_TYPE
+- DNS_PROXY_INFORMATION_TYPE
 targetos: Windows
 req.typenames: DNS_PROXY_INFORMATION_TYPE
 req.redist: 

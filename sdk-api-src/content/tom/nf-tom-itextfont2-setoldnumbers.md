@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetOldNumbers
 title: ITextFont2::SetOldNumbers (tom.h)
-
 description: Sets whether old-style numbers are active.
 old-location: controls\itextfont2_setoldnumbers.htm
 tech.root: Controls
 ms.assetid: f510781e-ede9-41dc-ae69-3b0ca52a6773
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetOldNumbers method, ITextFont2.SetOldNumbers, ITextFont2::SetOldNumbers, SetOldNumbers, SetOldNumbers method [Windows Controls], SetOldNumbers method [Windows Controls],ITextFont2 interface, controls.itextfont2_setoldnumbers, tom/ITextFont2::SetOldNumbers
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetOldNumbers"
+f1_keywords:
+- tom/ITextFont2.SetOldNumbers
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetOldNumbers
+- ITextFont2.SetOldNumbers
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_LongName
 title: ICspAlgorithm::get_LongName (certenroll.h)
-
 description: Retrieves the full name of the algorithm.
 old-location: security\icspalgorithm_longname_property.htm
 tech.root: seccertenroll
 ms.assetid: aaa5175f-c110-4e76-9145-1c667ea169a1
-
 ms.date: 12/05/2018
 ms.keywords: ICspAlgorithm interface [Security],LongName property, ICspAlgorithm.LongName, ICspAlgorithm.get_LongName, ICspAlgorithm::LongName, ICspAlgorithm::get_LongName, LongName property [Security], LongName property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::LongName, certenroll/ICspAlgorithm::get_LongName, get_LongName, security.icspalgorithm_longname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.LongName"
+f1_keywords:
+- certenroll/ICspAlgorithm.LongName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.LongName
- - ICspAlgorithm.get_LongName
+- ICspAlgorithm.LongName
+- ICspAlgorithm.get_LongName
 targetos: Windows
 req.typenames: 
 req.redist: 

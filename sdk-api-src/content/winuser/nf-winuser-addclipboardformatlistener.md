@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.AddClipboardFormatListener
 title: AddClipboardFormatListener function (winuser.h)
-
 description: Places the given window in the system-maintained clipboard format listener list.
 old-location: dataxchg\addclipboardformatlistener.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\addclipboardformatlistener.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddClipboardFormatListener, AddClipboardFormatListener function [Data Exchange], _win32_AddClipboardFormatListener, _win32_addclipboardformatlistener_cpp, dataxchg.addclipboardformatlistener, winui._win32_addclipboardformatlistener, winuser/AddClipboardFormatListener
 ms.topic: function
-f1_keywords: 
- - "winuser/AddClipboardFormatListener"
+f1_keywords:
+- winuser/AddClipboardFormatListener
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - AddClipboardFormatListener
+- AddClipboardFormatListener
 targetos: Windows
 req.typenames: 
 req.redist: 

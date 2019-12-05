@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumIDList.Skip
 title: IEnumIDList::Skip (shobjidl_core.h)
-
 description: Skips the specified number of elements in the enumeration sequence.
 old-location: shell\IEnumIDList_Skip.htm
 tech.root: shell
 ms.assetid: ed9d5774-7b2f-4a25-88f9-70d72919ff60
-
 ms.date: 12/05/2018
 ms.keywords: IEnumIDList interface [Windows Shell],Skip method, IEnumIDList.Skip, IEnumIDList::Skip, Skip, Skip method [Windows Shell], Skip method [Windows Shell],IEnumIDList interface, _win32_IEnumIDList_Skip, shell.IEnumIDList_Skip, shobjidl_core/IEnumIDList::Skip
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumIDList.Skip"
+f1_keywords:
+- shobjidl_core/IEnumIDList.Skip
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEnumIDList.Skip
+- IEnumIDList.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

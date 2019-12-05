@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetOPMWindow
 title: IMFMediaEngineProtectedContent::SetOPMWindow (mfmediaengine.h)
-
 description: Specifies the window that should receive output link protections.
 old-location: mf\imfmediaengineprotectedcontent_setopmwindow.htm
 tech.root: medfound
 ms.assetid: 0102A98E-5EE0-4FBE-AF82-97C7A25038FB
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetOPMWindow method, IMFMediaEngineProtectedContent.SetOPMWindow, IMFMediaEngineProtectedContent::SetOPMWindow, SetOPMWindow, SetOPMWindow method [Media Foundation], SetOPMWindow method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setopmwindow, mfmediaengine/IMFMediaEngineProtectedContent::SetOPMWindow
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineProtectedContent.SetOPMWindow"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineProtectedContent.SetOPMWindow
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent.SetOPMWindow
+- IMFMediaEngineProtectedContent.SetOPMWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.GetStateInteractionContext
 title: GetStateInteractionContext function (interactioncontext.h)
-
 description: Gets current Interaction Context state and the time when the context will return to idle state.
 old-location: input_intcontext\getstateinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 35d581a9-b1be-4f9b-8783-ccea3469921a
-
 ms.date: 12/05/2018
 ms.keywords: GetStateInteractionContext, GetStateInteractionContext function, input_intcontext.getstateinteractioncontext, interactioncontext.getstateinteractioncontext, interactioncontext/GetStateInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/GetStateInteractionContext"
+f1_keywords:
+- interactioncontext/GetStateInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - GetStateInteractionContext
+- GetStateInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

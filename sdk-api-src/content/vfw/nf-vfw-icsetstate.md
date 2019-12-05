@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICSetState
 title: ICSetState macro (vfw.h)
-
 description: The ICSetState macro notifies a video compression driver to set the state of the compressor. You can use this macro or explicitly call the ICM_SETSTATE message.
 old-location: multimedia\icsetstate.htm
 tech.root: Multimedia
 ms.assetid: 96958fbf-8539-49bc-a2ff-160b7ea8d2ab
-
 ms.date: 12/05/2018
 ms.keywords: ICSetState, ICSetState macro [Windows Multimedia], _win32_ICSetState, multimedia.icsetstate, vfw/ICSetState
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICSetState"
+f1_keywords:
+- vfw/ICSetState
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICSetState
+- ICSetState
 targetos: Windows
 req.typenames: 
 req.redist: 

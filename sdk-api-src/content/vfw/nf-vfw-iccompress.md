@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICCompress
 title: ICCompress function (vfw.h)
-
 description: The ICCompress function compresses a single video image.
 old-location: multimedia\iccompress.htm
 tech.root: Multimedia
 ms.assetid: 99e7d87a-cbf5-42d3-897c-5f5c8860a13a
-
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, ICCOMPRESS_KEYFRAME, ICCompress, ICCompress function [Windows Multimedia], _win32_ICCompress, multimedia.iccompress, vfw/ICCompress
 ms.topic: function
-f1_keywords: 
- - "vfw/ICCompress"
+f1_keywords:
+- vfw/ICCompress
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICCompress
+- ICCompress
 targetos: Windows
 req.typenames: 
 req.redist: 

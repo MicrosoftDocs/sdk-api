@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_ProviderFlags
 title: IEnroll::put_ProviderFlags (xenroll.h)
-
 description: The ProviderFlags property of IEnroll4 sets or retrieves the provider type.
 old-location: security\ienroll4_providerflags.htm
 tech.root: SecCrypto
 ms.assetid: 57e6f86e-fbd3-4fd7-acdd-146a67045ff8
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderFlags property, IEnroll.ProviderFlags, IEnroll.put_ProviderFlags, IEnroll::ProviderFlags, IEnroll::get_ProviderFlags, IEnroll::put_ProviderFlags, ProviderFlags property [Security], ProviderFlags property [Security],IEnroll interface, put_ProviderFlags, security.ienroll4_providerflags, xenroll/IEnroll::ProviderFlags, xenroll/IEnroll::get_ProviderFlags, xenroll/IEnroll::put_ProviderFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.ProviderFlags"
+f1_keywords:
+- xenroll/IEnroll.ProviderFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.ProviderFlags
- - IEnroll.get_ProviderFlags
- - IEnroll.put_ProviderFlags
+- IEnroll.ProviderFlags
+- IEnroll.get_ProviderFlags
+- IEnroll.put_ProviderFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

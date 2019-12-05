@@ -1,19 +1,17 @@
 ---
 UID: NS:avrfsdk._AVRF_BACKTRACE_INFORMATION
 title: AVRF_BACKTRACE_INFORMATION (avrfsdk.h)
-
 description: Contains information about backtraces performed.
 old-location: winprog\avrf_backtrace_information.htm
 tech.root: DevNotes
 ms.assetid: 634d9569-469c-4dc7-9192-217af0937b6c
-
 ms.date: 12/05/2018
-ms.keywords: "*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information"
+ms.keywords: '*PAVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION, AVRF_BACKTRACE_INFORMATION structure [Windows API], avrfsdk/AVRF_BACKTRACE_INFORMATION, base.avrf_backtrace_information, winprog.avrf_backtrace_information'
 ms.topic: struct
-f1_keywords: 
- - "avrfsdk/AVRF_BACKTRACE_INFORMATION"
+f1_keywords:
+- avrfsdk/AVRF_BACKTRACE_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - AVRF_BACKTRACE_INFORMATION
+- AVRF_BACKTRACE_INFORMATION
 targetos: Windows
 req.typenames: AVRF_BACKTRACE_INFORMATION, *PAVRF_BACKTRACE_INFORMATION
 req.redist: 

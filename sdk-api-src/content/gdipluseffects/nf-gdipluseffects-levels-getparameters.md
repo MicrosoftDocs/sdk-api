@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Levels.GetParameters
 title: Levels::GetParameters (gdipluseffects.h)
-
 description: The Levels::GetParameters method gets the current values of the parameters of this Levels object.
 old-location: gdiplus\_gdiplus_CLASS_Levels_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsmethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Levels class, Levels class [GDI+],GetParameters method, Levels.GetParameters, Levels::GetParameters, _gdiplus_CLASS_Levels_GetParameters_, gdiplus._gdiplus_CLASS_Levels_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Levels.GetParameters"
+f1_keywords:
+- gdipluseffects/Levels.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Levels.GetParameters
+- Levels.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilVarBindCpy
 title: SnmpUtilVarBindCpy function (snmp.h)
-
 description: The SnmpUtilVarBindCpy function copies the specified SnmpVarBind structure, and allocates any memory necessary for the destination structure. The SnmpUtilVarBindCpy function is an element of the SNMP Utility API.
 old-location: snmp\snmputilvarbindcpy.htm
 tech.root: SNMP
 ms.assetid: 0a3e1fb8-360d-4bfa-8fa3-8c114b9fd681
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilVarBindCpy, SnmpUtilVarBindCpy function [SNMP], _snmp_snmputilvarbindcpy, snmp.snmputilvarbindcpy, snmp/SnmpUtilVarBindCpy
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilVarBindCpy"
+f1_keywords:
+- snmp/SnmpUtilVarBindCpy
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilVarBindCpy
+- SnmpUtilVarBindCpy
 targetos: Windows
 req.typenames: 
 req.redist: 

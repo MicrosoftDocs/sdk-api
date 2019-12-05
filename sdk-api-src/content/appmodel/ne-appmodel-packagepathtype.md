@@ -6,10 +6,10 @@ tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: PackagePathType
 ms.topic: enum
-f1_keywords: 
- - "appmodel/PackagePathType"
+f1_keywords:
+- appmodel/PackagePathType
 dev_langs:
- - c++
+- c++
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: appmodel.h
@@ -24,13 +24,13 @@ req.dll: Kernel32.dll
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - appmodel.h
+- appmodel.h
 api_name:
- - PackagePathType
+- PackagePathType
 targetos: Windows
 ms.custom: 19H1
 ---

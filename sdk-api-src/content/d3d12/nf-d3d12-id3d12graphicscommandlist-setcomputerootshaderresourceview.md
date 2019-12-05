@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetComputeRootShaderResourceView
 title: ID3D12GraphicsCommandList::SetComputeRootShaderResourceView (d3d12.h)
-
 description: Sets a CPU descriptor handle for the shader resource in the compute root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setcomputerootshaderresourceview.htm
 tech.root: direct3d12
 ms.assetid: 31BA8D5B-FAC3-4A4A-B2F2-76EC6399EFED
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetComputeRootShaderResourceView method, ID3D12GraphicsCommandList.SetComputeRootShaderResourceView, ID3D12GraphicsCommandList::SetComputeRootShaderResourceView, SetComputeRootShaderResourceView, SetComputeRootShaderResourceView method, SetComputeRootShaderResourceView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetComputeRootShaderResourceView, direct3d12.id3d12graphicscommandlist_setcomputerootshaderresourceview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetComputeRootShaderResourceView"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetComputeRootShaderResourceView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetComputeRootShaderResourceView
+- ID3D12GraphicsCommandList.SetComputeRootShaderResourceView
 targetos: Windows
 req.typenames: 
 req.redist: 

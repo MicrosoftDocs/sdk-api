@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.get_AddressCapability
 title: ITAddressCapabilities::get_AddressCapability (tapi3if.h)
-
 description: The get_AddressCapability method gets the capability value for a given ADDRESS_CAPABILITY.
 old-location: tapi3\itaddresscapabilities_get_addresscapability.htm
 tech.root: Tapi
 ms.assetid: 76e61d5e-48b6-4b9c-9076-bd20a794859c
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressCapabilities interface [TAPI 2.2],get_AddressCapability method, ITAddressCapabilities.get_AddressCapability, ITAddressCapabilities::get_AddressCapability, _tapi3_itaddresscapabilities_get_addresscapability, get_AddressCapability, get_AddressCapability method [TAPI 2.2], get_AddressCapability method [TAPI 2.2],ITAddressCapabilities interface, tapi3.itaddresscapabilities_get_addresscapability, tapi3if/ITAddressCapabilities::get_AddressCapability
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressCapabilities.get_AddressCapability"
+f1_keywords:
+- tapi3if/ITAddressCapabilities.get_AddressCapability
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressCapabilities.get_AddressCapability
+- ITAddressCapabilities.get_AddressCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

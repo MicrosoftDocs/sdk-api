@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcImpersonateClient
 title: RpcImpersonateClient function (rpcdce.h)
-
 description: A server thread that is processing client remote procedure calls can call the RpcImpersonateClient function to impersonate the active client.
 old-location: rpc\rpcimpersonateclient.htm
 tech.root: Rpc
 ms.assetid: 1b91c4dc-ac49-4002-b293-a25ca2ffcb21
-
 ms.date: 12/05/2018
 ms.keywords: RpcImpersonateClient, RpcImpersonateClient function [RPC], _rpc_rpcimpersonateclient, rpc.rpcimpersonateclient, rpcdce/RpcImpersonateClient
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcImpersonateClient"
+f1_keywords:
+- rpcdce/RpcImpersonateClient
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcImpersonateClient
+- RpcImpersonateClient
 targetos: Windows
 req.typenames: 
 req.redist: 

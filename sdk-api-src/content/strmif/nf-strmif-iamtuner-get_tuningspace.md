@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.get_TuningSpace
 title: IAMTuner::get_TuningSpace (strmif.h)
-
 description: The get_TuningSpace method retrieves the tuning space.
 old-location: dshow\iamtuner_get_tuningspace.htm
 tech.root: DirectShow
 ms.assetid: 838451c2-2e0b-4a41-a512-f44283573ee6
-
 ms.date: 12/05/2018
 ms.keywords: IAMTuner interface [DirectShow],get_TuningSpace method, IAMTuner.get_TuningSpace, IAMTuner::get_TuningSpace, IAMTunerget_TuningSpace, dshow.iamtuner_get_tuningspace, get_TuningSpace, get_TuningSpace method [DirectShow], get_TuningSpace method [DirectShow],IAMTuner interface, strmif/IAMTuner::get_TuningSpace
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.get_TuningSpace"
+f1_keywords:
+- strmif/IAMTuner.get_TuningSpace
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.get_TuningSpace
+- IAMTuner.get_TuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

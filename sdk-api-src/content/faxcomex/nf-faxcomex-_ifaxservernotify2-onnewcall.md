@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnNewCall
 title: _IFaxServerNotify2::OnNewCall (faxcomex.h)
-
 description: The fax service calls the IFaxServerNotify2::OnNewCall method when there is a new incoming fax call.
 old-location: fax\_mfax_ifaxservernotify2_onnewcall.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onnewcall.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnNewCall method, IFaxServerNotify2.OnNewCall, IFaxServerNotify2::OnNewCall, OnNewCall, OnNewCall method [Fax Service], OnNewCall method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnNewCall, _IFaxServerNotify2::OnNewCall, _mfax_ifaxservernotify2_onnewcall, fax._mfax_ifaxservernotify2_onnewcall, faxcomex/IFaxServerNotify2::OnNewCall
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnNewCall"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnNewCall
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnNewCall
- - IFaxServerNotify2.OnNewCall
+- IFaxServerNotify2.OnNewCall
+- IFaxServerNotify2.OnNewCall
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMINT4.XMINT4(const int32_t)
 title: XMINT4::XMINT4(const int32_t) (directxmath.h)
-
 description: Initializes a new instance of XMINT4 from a four element int32_t array argument.
 old-location: dxmath\xmint4_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT4.#ctor(const int32_t)
-
 ms.date: 12/05/2018
 ms.keywords: XMINT4, XMINT4 constructor [DirectX Math Support APIs], XMINT4 constructor [DirectX Math Support APIs],XMINT4 structure, XMINT4 structure [DirectX Math Support APIs],XMINT4 constructor, XMINT4.XMINT4, XMINT4.XMINT4(const int32_t), XMINT4.XMINT4(const int32_t*), XMINT4::XMINT4, XMINT4::XMINT4(const int32_t), dxmath.xmint4_ctor_3
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMINT4.XMINT4"
+f1_keywords:
+- directxmath/XMINT4.XMINT4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMINT4.XMINT4
+- XMINT4.XMINT4
 targetos: Windows
 req.typenames: 
 req.redist: 

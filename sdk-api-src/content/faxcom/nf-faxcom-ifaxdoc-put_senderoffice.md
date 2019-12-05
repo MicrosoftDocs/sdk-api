@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_SenderOffice
 title: IFaxDoc::put_SenderOffice (faxcom.h)
-
 description: Sets or retrieves the SenderOffice property of a FaxDoc object. The SenderOffice property is a null-terminated string that contains the office of the sender of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7gv9.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],SenderOffice property, IFaxDoc.SenderOffice, IFaxDoc.put_SenderOffice, IFaxDoc::SenderOffice, IFaxDoc::get_SenderOffice, IFaxDoc::put_SenderOffice, SenderOffice property [Fax Service], SenderOffice property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_get_senderoffice, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_senderoffice_cpp, faxcom/IFaxDoc::SenderOffice, faxcom/IFaxDoc::get_SenderOffice, faxcom/IFaxDoc::put_SenderOffice, put_SenderOffice
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.SenderOffice"
+f1_keywords:
+- faxcom/IFaxDoc.SenderOffice
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.SenderOffice
- - IFaxDoc.get_SenderOffice
- - IFaxDoc.put_SenderOffice
+- IFaxDoc.SenderOffice
+- IFaxDoc.get_SenderOffice
+- IFaxDoc.put_SenderOffice
 targetos: Windows
 req.typenames: 
 req.redist: 

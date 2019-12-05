@@ -1,19 +1,17 @@
 ---
 UID: NN:certadm.IOCSPPropertyCollection
 title: IOCSPPropertyCollection (certadm.h)
-
 description: Represents a set of configurable attribute properties (name-value pairs) for an Online Certificate Status Protocol (OCSP) service.
 old-location: security\iocsppropertycollection.htm
 tech.root: SecCrypto
 ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection, IOCSPPropertyCollection interface [Security], IOCSPPropertyCollection interface [Security],described, certadm/IOCSPPropertyCollection, security.iocsppropertycollection
 ms.topic: interface
-f1_keywords: 
- - "certadm/IOCSPPropertyCollection"
+f1_keywords:
+- certadm/IOCSPPropertyCollection
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPPropertyCollection
+- IOCSPPropertyCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

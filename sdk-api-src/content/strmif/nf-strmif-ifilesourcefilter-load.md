@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFileSourceFilter.Load
 title: IFileSourceFilter::Load (strmif.h)
-
 description: The Load method causes a source filter to load a media file.
 old-location: dshow\ifilesourcefilter_load.htm
 tech.root: DirectShow
 ms.assetid: a44b8153-19d5-43ad-936c-214c694eeeb6
-
 ms.date: 12/05/2018
 ms.keywords: IFileSourceFilter interface [DirectShow],Load method, IFileSourceFilter.Load, IFileSourceFilter::Load, IFileSourceFilterLoad, Load, Load method [DirectShow], Load method [DirectShow],IFileSourceFilter interface, dshow.ifilesourcefilter_load, strmif/IFileSourceFilter::Load
 ms.topic: method
-f1_keywords: 
- - "strmif/IFileSourceFilter.Load"
+f1_keywords:
+- strmif/IFileSourceFilter.Load
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFileSourceFilter.Load
+- IFileSourceFilter.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.Shell_GetCachedImageIndexA
 title: Shell_GetCachedImageIndexA function (shlobj_core.h)
-
 description: Shell_GetCachedImageIndex may be altered or unavailable.
 old-location: shell\Shell_GetCachedImageIndex.htm
 tech.root: shell
 ms.assetid: f0d4dd1f-a41c-4dd0-9713-e3aec48ff101
-
 ms.date: 12/05/2018
 ms.keywords: Shell_GetCachedImageIndex, Shell_GetCachedImageIndex function [Windows Shell], Shell_GetCachedImageIndexA, Shell_GetCachedImageIndexW, _win32_Shell_GetCachedImageIndex, shell.Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndex, shlobj_core/Shell_GetCachedImageIndexA, shlobj_core/Shell_GetCachedImageIndexW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/Shell_GetCachedImageIndex"
+f1_keywords:
+- shlobj_core/Shell_GetCachedImageIndex
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h, Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - Shell_GetCachedImageIndex
- - Shell_GetCachedImageIndexA
- - Shell_GetCachedImageIndexW
+- Shell_GetCachedImageIndex
+- Shell_GetCachedImageIndexA
+- Shell_GetCachedImageIndexW
 targetos: Windows
 req.typenames: 
 req.redist: 

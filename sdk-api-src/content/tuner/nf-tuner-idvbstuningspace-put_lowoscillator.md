@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSTuningSpace.put_LowOscillator
 title: IDVBSTuningSpace::put_LowOscillator (tuner.h)
-
 description: The put_LowOscillator method sets the low oscillator frequency.
 old-location: mstv\idvbstuningspace_put_lowoscillator.htm
 tech.root: mstv
 ms.assetid: cadc2818-d54c-410a-9894-28baa51b9b01
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSTuningSpace interface [Microsoft TV Technologies],put_LowOscillator method, IDVBSTuningSpace.put_LowOscillator, IDVBSTuningSpace::put_LowOscillator, IDVBSTuningSpaceput_LowOscillator, mstv.idvbstuningspace_put_lowoscillator, put_LowOscillator, put_LowOscillator method [Microsoft TV Technologies], put_LowOscillator method [Microsoft TV Technologies],IDVBSTuningSpace interface, tuner/IDVBSTuningSpace::put_LowOscillator
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSTuningSpace.put_LowOscillator"
+f1_keywords:
+- tuner/IDVBSTuningSpace.put_LowOscillator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSTuningSpace.put_LowOscillator
+- IDVBSTuningSpace.put_LowOscillator
 targetos: Windows
 req.typenames: 
 req.redist: 

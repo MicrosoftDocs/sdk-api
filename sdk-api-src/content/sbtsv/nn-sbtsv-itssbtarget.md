@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbTarget
 title: ITsSbTarget (sbtsv.h)
-
 description: Exposes properties that store configuration and state information about a target.
 old-location: termserv\itssbtarget.htm
 tech.root: TermServ
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget, ITsSbTarget interface [Remote Desktop Services], ITsSbTarget interface [Remote Desktop Services],described, sbtsv/ITsSbTarget, termserv.itssbtarget
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbTarget"
+f1_keywords:
+- sbtsv/ITsSbTarget
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTarget
+- ITsSbTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

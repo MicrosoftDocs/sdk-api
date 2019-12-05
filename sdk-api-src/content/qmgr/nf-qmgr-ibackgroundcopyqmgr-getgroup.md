@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.GetGroup
 title: IBackgroundCopyQMgr::GetGroup (qmgr.h)
-
 description: Use the GetGroup method to retrieve a group from the download queue.
 old-location: bits\ibackgroundcopyqmgr_getgroup.htm
 tech.root: Bits
 ms.assetid: 36836fe5-4858-4c6e-8ce8-1bb71c8e9f5a
-
 ms.date: 12/05/2018
 ms.keywords: GetGroup, GetGroup method [BITS], GetGroup method [BITS],IBackgroundCopyQMgr interface, IBackgroundCopyQMgr interface [BITS],GetGroup method, IBackgroundCopyQMgr.GetGroup, IBackgroundCopyQMgr::GetGroup, bits.ibackgroundcopyqmgr_getgroup, qmgr/IBackgroundCopyQMgr::GetGroup
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyQMgr.GetGroup"
+f1_keywords:
+- qmgr/IBackgroundCopyQMgr.GetGroup
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyQMgr.GetGroup
+- IBackgroundCopyQMgr.GetGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

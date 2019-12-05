@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IXDSCodec.get_CCSubstreamService
 title: IXDSCodec::get_CCSubstreamService (encdec.h)
-
 description: The get_CCSubstreamService method queries which line 21 data channels the XDS Codec filter sends to the XDSToRat object. By default, it sends just the Extended Data Services (XDS) channel.
 old-location: mstv\ixdscodec_get_ccsubstreamservice.htm
 tech.root: mstv
 ms.assetid: 60523c2c-0d57-46d7-8ab2-eaf065a440d4
-
 ms.date: 12/05/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_CCSubstreamService method, IXDSCodec.get_CCSubstreamService, IXDSCodec::get_CCSubstreamService, IXDSCodecget_CCSubstreamService, encdec/IXDSCodec::get_CCSubstreamService, get_CCSubstreamService, get_CCSubstreamService method [Microsoft TV Technologies], get_CCSubstreamService method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_ccsubstreamservice
 ms.topic: method
-f1_keywords: 
- - "encdec/IXDSCodec.get_CCSubstreamService"
+f1_keywords:
+- encdec/IXDSCodec.get_CCSubstreamService
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IXDSCodec.get_CCSubstreamService
+- IXDSCodec.get_CCSubstreamService
 targetos: Windows
 req.typenames: 
 req.redist: 

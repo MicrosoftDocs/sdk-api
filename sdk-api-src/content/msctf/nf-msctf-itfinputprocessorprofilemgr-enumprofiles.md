@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileMgr.EnumProfiles
 title: ITfInputProcessorProfileMgr::EnumProfiles (msctf.h)
-
 description: The ITfInputProcessorProfileMgr::EnumProfiles method returns profiles to be enumerated.
 old-location: tsf\itfinputprocessorprofilemgr_enumprofiles.htm
 tech.root: TSF
 ms.assetid: d4728d12-9073-41b8-94bc-eaf7c1df19b6
-
 ms.date: 12/05/2018
 ms.keywords: EnumProfiles, EnumProfiles method [Text Services Framework], EnumProfiles method [Text Services Framework],ITfInputProcessorProfileMgr interface, ITfInputProcessorProfileMgr interface [Text Services Framework],EnumProfiles method, ITfInputProcessorProfileMgr.EnumProfiles, ITfInputProcessorProfileMgr::EnumProfiles, msctf/ITfInputProcessorProfileMgr::EnumProfiles, tsf.itfinputprocessorprofilemgr_enumprofiles
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInputProcessorProfileMgr.EnumProfiles"
+f1_keywords:
+- msctf/ITfInputProcessorProfileMgr.EnumProfiles
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfInputProcessorProfileMgr.EnumProfiles
+- ITfInputProcessorProfileMgr.EnumProfiles
 targetos: Windows
 req.typenames: 
 req.redist: 

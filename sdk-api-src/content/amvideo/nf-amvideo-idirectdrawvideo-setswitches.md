@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.SetSwitches
 title: IDirectDrawVideo::SetSwitches (amvideo.h)
-
 description: The SetSwitches method sets the surface types that the renderer is allowed to use.
 old-location: dshow\idirectdrawvideo_setswitches.htm
 tech.root: DirectShow
 ms.assetid: e6839757-2b63-497d-9978-35c8dfabc0ed
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawVideo interface [DirectShow],SetSwitches method, IDirectDrawVideo.SetSwitches, IDirectDrawVideo::SetSwitches, IDirectDrawVideoSetSwitches, SetSwitches, SetSwitches method [DirectShow], SetSwitches method [DirectShow],IDirectDrawVideo interface, amvideo/IDirectDrawVideo::SetSwitches, dshow.idirectdrawvideo_setswitches
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.SetSwitches"
+f1_keywords:
+- amvideo/IDirectDrawVideo.SetSwitches
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.SetSwitches
+- IDirectDrawVideo.SetSwitches
 targetos: Windows
 req.typenames: 
 req.redist: 

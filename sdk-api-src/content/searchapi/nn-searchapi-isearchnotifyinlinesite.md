@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchNotifyInlineSite
 title: ISearchNotifyInlineSite (searchapi.h)
-
 description: Provides methods the Search service uses to send updates on catalog and index status to notification providers.
 old-location: search\_search_ISearchNotifyInlineSite.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\isearchnotifyinlinesite.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchNotifyInlineSite, ISearchNotifyInlineSite interface [search], ISearchNotifyInlineSite interface [search],described, _search_ISearchNotifyInlineSite, search._search_ISearchNotifyInlineSite, searchapi/ISearchNotifyInlineSite
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchNotifyInlineSite"
+f1_keywords:
+- searchapi/ISearchNotifyInlineSite
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchNotifyInlineSite
+- ISearchNotifyInlineSite
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

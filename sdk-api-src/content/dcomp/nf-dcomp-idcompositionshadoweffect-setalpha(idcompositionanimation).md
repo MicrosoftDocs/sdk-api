@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation) (dcomp.h)
-
 description: Sets the alpha value for the effect.
 old-location: directcomp\idcompositionshadoweffect_setalpha_2.htm
 tech.root: directcomp
 ms.assetid: 2C0C85FC-83AF-4036-9BCE-730457FB483F
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetAlpha method, IDCompositionShadowEffect.SetAlpha, IDCompositionShadowEffect.SetAlpha(IDCompositionAnimation), IDCompositionShadowEffect::SetAlpha, IDCompositionShadowEffect::SetAlpha(IDCompositionAnimation), SetAlpha, SetAlpha method [DirectComposition], SetAlpha method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetAlpha, directcomp.idcompositionshadoweffect_setalpha_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionShadowEffect.SetAlpha"
+f1_keywords:
+- dcomp/IDCompositionShadowEffect.SetAlpha
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionShadowEffect.SetAlpha
+- IDCompositionShadowEffect.SetAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IBindCtx
 title: IBindCtx (objidl.h)
-
 description: Provides access to a bind context, which is an object that stores information about a particular moniker binding operation.
 old-location: com\ibindctx.htm
 tech.root: com
 ms.assetid: e4c8abb5-0c89-44dd-8d95-efbfcc999b46
-
 ms.date: 12/05/2018
 ms.keywords: IBindCtx, IBindCtx interface [COM], IBindCtx interface [COM],described, _com_ibindctx, com.ibindctx, objidl/IBindCtx
 ms.topic: interface
-f1_keywords: 
- - "objidl/IBindCtx"
+f1_keywords:
+- objidl/IBindCtx
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBindCtx
+- IBindCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

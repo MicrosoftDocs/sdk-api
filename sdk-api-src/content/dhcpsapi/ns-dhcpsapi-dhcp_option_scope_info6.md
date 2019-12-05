@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_SCOPE_INFO6
 title: DHCP_OPTION_SCOPE_INFO6 (dhcpsapi.h)
-
 description: Defines the data associated with a DHCP option scope.
 old-location: dhcp\dhcp_option_scope_info6.htm
 tech.root: DHCP
 ms.assetid: d5c0cff9-7164-4f14-a0a9-58311390ebd9
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6, DHCP_OPTION_SCOPE_INFO6 structure [DHCP], PDHCP_OPTION_SCOPE_INFO6, PDHCP_OPTION_SCOPE_INFO6 structure pointer [DHCP], dhcp.dhcp_option_scope_info6, dhcpsapi/DHCP_OPTION_SCOPE_INFO6, dhcpsapi/PDHCP_OPTION_SCOPE_INFO6'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_SCOPE_INFO6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

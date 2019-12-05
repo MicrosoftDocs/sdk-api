@@ -1,19 +1,17 @@
 ---
 UID: NS:authz._AUTHZ_ACCESS_REPLY
 title: AUTHZ_ACCESS_REPLY (authz.h)
-
 description: Defines an access check reply.
 old-location: security\authz_access_reply.htm
 tech.root: SecAuthZ
 ms.assetid: 7162bf80-3730-46d7-a603-2a55b969c9ba
-
 ms.date: 12/05/2018
-ms.keywords: "*PAUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY structure [Security], AUTHZ_GENERATE_FAILURE_AUDIT, AUTHZ_GENERATE_SUCCESS_AUDIT, ERROR_ACCESS_DENIED, ERROR_PRIVILEGE_NOT_HELD, ERROR_SUCCESS, PAUTHZ_ACCESS_REPLY, PAUTHZ_ACCESS_REPLY structure pointer [Security], _win32_authz_access_reply, authz/AUTHZ_ACCESS_REPLY, authz/PAUTHZ_ACCESS_REPLY, security.authz_access_reply"
+ms.keywords: '*PAUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY, AUTHZ_ACCESS_REPLY structure [Security], AUTHZ_GENERATE_FAILURE_AUDIT, AUTHZ_GENERATE_SUCCESS_AUDIT, ERROR_ACCESS_DENIED, ERROR_PRIVILEGE_NOT_HELD, ERROR_SUCCESS, PAUTHZ_ACCESS_REPLY, PAUTHZ_ACCESS_REPLY structure pointer [Security], _win32_authz_access_reply, authz/AUTHZ_ACCESS_REPLY, authz/PAUTHZ_ACCESS_REPLY, security.authz_access_reply'
 ms.topic: struct
-f1_keywords: 
- - "authz/AUTHZ_ACCESS_REPLY"
+f1_keywords:
+- authz/AUTHZ_ACCESS_REPLY
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Authz.h
+- Authz.h
 api_name:
- - AUTHZ_ACCESS_REPLY
+- AUTHZ_ACCESS_REPLY
 targetos: Windows
 req.typenames: AUTHZ_ACCESS_REPLY, *PAUTHZ_ACCESS_REPLY
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

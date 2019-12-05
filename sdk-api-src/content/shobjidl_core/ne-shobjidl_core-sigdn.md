@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._SIGDN
 title: SIGDN (shobjidl_core.h)
-
 description: Requests the form of an item's display name to retrieve through IShellItem::GetDisplayName and SHGetNameFromIDList.
 old-location: shell\SIGDN.htm
 tech.root: shell
 ms.assetid: ef800ed8-8694-4543-ad33-c81b976cc5c2
-
 ms.date: 12/05/2018
 ms.keywords: SIGDN, SIGDN enumeration [Windows Shell], SIGDN_DESKTOPABSOLUTEEDITING, SIGDN_DESKTOPABSOLUTEPARSING, SIGDN_FILESYSPATH, SIGDN_NORMALDISPLAY, SIGDN_PARENTRELATIVE, SIGDN_PARENTRELATIVEEDITING, SIGDN_PARENTRELATIVEFORADDRESSBAR, SIGDN_PARENTRELATIVEFORUI, SIGDN_PARENTRELATIVEPARSING, SIGDN_URL, inet_SIGDN, shell.SIGDN, shobjidl_core/SIGDN, shobjidl_core/SIGDN_DESKTOPABSOLUTEEDITING, shobjidl_core/SIGDN_DESKTOPABSOLUTEPARSING, shobjidl_core/SIGDN_FILESYSPATH, shobjidl_core/SIGDN_NORMALDISPLAY, shobjidl_core/SIGDN_PARENTRELATIVE, shobjidl_core/SIGDN_PARENTRELATIVEEDITING, shobjidl_core/SIGDN_PARENTRELATIVEFORADDRESSBAR, shobjidl_core/SIGDN_PARENTRELATIVEFORUI, shobjidl_core/SIGDN_PARENTRELATIVEPARSING, shobjidl_core/SIGDN_URL
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/SIGDN"
+f1_keywords:
+- shobjidl_core/SIGDN
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SIGDN
+- SIGDN
 targetos: Windows
 req.typenames: SIGDN
 req.redist: 

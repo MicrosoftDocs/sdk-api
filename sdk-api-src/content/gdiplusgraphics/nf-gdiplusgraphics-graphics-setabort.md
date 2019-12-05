@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetAbort
 title: Graphics::SetAbort (gdiplusgraphics.h)
-
 description: Not used in Windows GDI+ versions 1.0 and 1.1.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetAbort_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\setabort.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],SetAbort method, Graphics.SetAbort, Graphics::SetAbort, SetAbort, SetAbort method [GDI+], SetAbort method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_SetAbort_, gdiplus._gdiplus_CLASS_Graphics_SetAbort_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.SetAbort"
+f1_keywords:
+- gdiplusgraphics/Graphics.SetAbort
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.SetAbort
+- Graphics.SetAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

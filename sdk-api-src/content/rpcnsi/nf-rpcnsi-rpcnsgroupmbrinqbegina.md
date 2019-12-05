@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrInqBeginA
 title: RpcNsGroupMbrInqBeginA function (rpcnsi.h)
-
 description: The RpcNsGroupMbrInqBegin function creates an inquiry context for viewing group members.
 old-location: rpc\rpcnsgroupmbrinqbegin.htm
 tech.root: Rpc
 ms.assetid: f3a98563-0c7f-4f4b-b272-af7c0366b95d
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrInqBegin, RpcNsGroupMbrInqBegin function [RPC], RpcNsGroupMbrInqBeginA, RpcNsGroupMbrInqBeginW, _rpc_rpcnsgroupmbrinqbegin, rpc.rpcnsgroupmbrinqbegin, rpcnsi/RpcNsGroupMbrInqBegin, rpcnsi/RpcNsGroupMbrInqBeginA, rpcnsi/RpcNsGroupMbrInqBeginW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsGroupMbrInqBegin"
+f1_keywords:
+- rpcnsi/RpcNsGroupMbrInqBegin
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsGroupMbrInqBegin
- - RpcNsGroupMbrInqBeginA
- - RpcNsGroupMbrInqBeginW
+- RpcNsGroupMbrInqBegin
+- RpcNsGroupMbrInqBeginA
+- RpcNsGroupMbrInqBeginW
 targetos: Windows
 req.typenames: 
 req.redist: 

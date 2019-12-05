@@ -1,19 +1,17 @@
 ---
 UID: NE:msctf.__MIDL___MIDL_itf_msctf_0000_0000_0001
 title: TfAnchor (msctf.h)
-
 description: Elements of the TfAnchor enumeration specify the start anchor or end anchor of an ITfRange object.
 old-location: tsf\tfanchor.htm
 tech.root: TSF
 ms.assetid: d670666f-2915-4a23-b825-b534a015e37f
-
 ms.date: 12/05/2018
 ms.keywords: TF_ANCHOR_END, TF_ANCHOR_START, TfAnchor, TfAnchor enumeration [Text Services Framework], _tsf_tfanchor_ref, msctf/TF_ANCHOR_END, msctf/TF_ANCHOR_START, msctf/TfAnchor, tsf.tfanchor
 ms.topic: enum
-f1_keywords: 
- - "msctf/TfAnchor"
+f1_keywords:
+- msctf/TfAnchor
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TfAnchor
+- TfAnchor
 targetos: Windows
 req.typenames: TfAnchor
 req.redist: TSF 1.0 on Windows 2000 Professional

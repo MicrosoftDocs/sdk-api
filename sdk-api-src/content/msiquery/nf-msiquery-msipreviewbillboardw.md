@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiPreviewBillboardW
 title: MsiPreviewBillboardW function (msiquery.h)
-
 description: The MsiPreviewBillboard function displays a billboard with the host control in the displayed dialog box.
 old-location: setup\msipreviewbillboard.htm
 tech.root: Msi
 ms.assetid: 7404ea12-bb38-4b7d-986e-2dff2fc36346
-
 ms.date: 12/05/2018
 ms.keywords: MsiPreviewBillboard, MsiPreviewBillboard function, MsiPreviewBillboardA, MsiPreviewBillboardW, _msi_msipreviewbillboard, msiquery/MsiPreviewBillboard, msiquery/MsiPreviewBillboardA, msiquery/MsiPreviewBillboardW, setup.msipreviewbillboard
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiPreviewBillboard"
+f1_keywords:
+- msiquery/MsiPreviewBillboard
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiPreviewBillboard
- - MsiPreviewBillboardA
- - MsiPreviewBillboardW
+- MsiPreviewBillboard
+- MsiPreviewBillboardA
+- MsiPreviewBillboardW
 targetos: Windows
 req.typenames: 
 req.redist: 

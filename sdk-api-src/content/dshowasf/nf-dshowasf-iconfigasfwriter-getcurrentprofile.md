@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter.GetCurrentProfile
 title: IConfigAsfWriter::GetCurrentProfile (dshowasf.h)
-
 description: The GetCurrentProfile method retrieves the current ASF profile from the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter_getcurrentprofile.htm
 tech.root: DirectShow
 ms.assetid: 1fa9fc3f-f8fd-42c9-9de2-22717cbb7e91
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentProfile, GetCurrentProfile method [DirectShow], GetCurrentProfile method [DirectShow],IConfigAsfWriter interface, IConfigAsfWriter interface [DirectShow],GetCurrentProfile method, IConfigAsfWriter.GetCurrentProfile, IConfigAsfWriter::GetCurrentProfile, IConfigAsfWriterGetCurrentProfile, dshow.iconfigasfwriter_getcurrentprofile, dshowasf/IConfigAsfWriter::GetCurrentProfile
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter.GetCurrentProfile"
+f1_keywords:
+- dshowasf/IConfigAsfWriter.GetCurrentProfile
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter.GetCurrentProfile
+- IConfigAsfWriter.GetCurrentProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

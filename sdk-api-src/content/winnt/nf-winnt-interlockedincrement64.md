@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedIncrement64
 title: InterlockedIncrement64 function (winnt.h)
-
 description: Increments (increases by one) the value of the specified 64-bit variable as an atomic operation.
 old-location: base\interlockedincrement64.htm
 tech.root: Sync
 ms.assetid: f18b63fa-201f-436d-a152-41e458959a5c
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedIncrement64, InterlockedIncrement64 function, base.interlockedincrement64, winnt/InterlockedIncrement64
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedIncrement64"
+f1_keywords:
+- winnt/InterlockedIncrement64
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedIncrement64
+- InterlockedIncrement64
 targetos: Windows
 req.typenames: 
 req.redist: 

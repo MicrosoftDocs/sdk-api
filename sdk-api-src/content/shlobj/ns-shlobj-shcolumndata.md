@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj.__unnamed_struct_4
 title: SHCOLUMNDATA (shlobj.h)
-
 description: Contains information that identifies a particular file. It is used by IColumnProvider::GetItemData when requesting data for a particular file.
 old-location: shell\SHCOLUMNDATA_str.htm
 tech.root: shell
 ms.assetid: 3a0c9231-2871-4314-9db3-7e5609e08359
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHCOLUMNDATA, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, LPSHCOLUMNDATA, LPSHCOLUMNDATA structure pointer [Windows Shell], SHCDF_UPDATEITEM, SHCOLUMNDATA, SHCOLUMNDATA structure [Windows Shell], _win32_SHCOLUMNDATA_str, shell.SHCOLUMNDATA_str, shlobj/LPSHCOLUMNDATA, shlobj/SHCOLUMNDATA"
+ms.keywords: '*LPSHCOLUMNDATA, FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_COMPRESSED, FILE_ATTRIBUTE_DIRECTORY, FILE_ATTRIBUTE_ENCRYPTED, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_REPARSE_POINT, FILE_ATTRIBUTE_SPARSE_FILE, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, LPSHCOLUMNDATA, LPSHCOLUMNDATA structure pointer [Windows Shell], SHCDF_UPDATEITEM, SHCOLUMNDATA, SHCOLUMNDATA structure [Windows Shell], _win32_SHCOLUMNDATA_str, shell.SHCOLUMNDATA_str, shlobj/LPSHCOLUMNDATA, shlobj/SHCOLUMNDATA'
 ms.topic: struct
-f1_keywords: 
- - "shlobj/SHCOLUMNDATA"
+f1_keywords:
+- shlobj/SHCOLUMNDATA
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj.h
+- Shlobj.h
 api_name:
- - SHCOLUMNDATA
+- SHCOLUMNDATA
 targetos: Windows
 req.typenames: SHCOLUMNDATA, *LPSHCOLUMNDATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IFolderActionCollection
 title: IFolderActionCollection (pla.h)
-
 description: Manages a collection of FolderAction objects.To get this interface, access the IDataManager::FolderActions property.
 old-location: pla\ifolderactioncollection.htm
 tech.root: PLA
 ms.assetid: 9b0ab26f-7e91-4d7a-9fd7-73332601dd7b
-
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection, IFolderActionCollection interface [PLA], IFolderActionCollection interface [PLA],described, base.ifolderactioncollection, pla.ifolderactioncollection, pla/IFolderActionCollection
 ms.topic: interface
-f1_keywords: 
- - "pla/IFolderActionCollection"
+f1_keywords:
+- pla/IFolderActionCollection
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderActionCollection
+- IFolderActionCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IDataAdviseHolder
 title: IDataAdviseHolder (objidl.h)
-
 description: Creates and manages advisory connections between a data object and one or more advise sinks.
 old-location: com\idataadviseholder.htm
 tech.root: com
 ms.assetid: 740a6366-6ab1-4a20-82df-1efdd62211eb
-
 ms.date: 12/05/2018
 ms.keywords: IDataAdviseHolder, IDataAdviseHolder interface [COM], IDataAdviseHolder interface [COM],described, _ole_idataadviseholder, com.idataadviseholder, objidl/IDataAdviseHolder
 ms.topic: interface
-f1_keywords: 
- - "objidl/IDataAdviseHolder"
+f1_keywords:
+- objidl/IDataAdviseHolder
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataAdviseHolder
+- IDataAdviseHolder
 targetos: Windows
 req.typenames: 
 req.redist: 

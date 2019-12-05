@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ILocationPermissions.GetGlobalLocationPermission
 title: ILocationPermissions::GetGlobalLocationPermission (sensorsapi.h)
-
 description: Gets the status of the system setting that allows users to change location settings.
 old-location: winsensors_com_ref\ilocationpermissions_getgloballocationpermission.htm
 tech.root: SensorsAPI
 ms.assetid: 8a2fbf9f-4b9b-4d2b-8ffc-c9491f7b8ed1
-
 ms.date: 12/05/2018
 ms.keywords: GetGlobalLocationPermission, GetGlobalLocationPermission method, GetGlobalLocationPermission method,ILocationPermissions interface, ILocationPermissions interface,GetGlobalLocationPermission method, ILocationPermissions.GetGlobalLocationPermission, ILocationPermissions::GetGlobalLocationPermission, sensorsapi/ILocationPermissions::GetGlobalLocationPermission, winsensors_com_ref.ilocationpermissions_getgloballocationpermission
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ILocationPermissions.GetGlobalLocationPermission"
+f1_keywords:
+- sensorsapi/ILocationPermissions.GetGlobalLocationPermission
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ILocationPermissions.GetGlobalLocationPermission
+- ILocationPermissions.GetGlobalLocationPermission
 targetos: Windows
 req.typenames: 
 req.redist: 

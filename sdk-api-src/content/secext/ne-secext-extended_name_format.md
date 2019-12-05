@@ -1,19 +1,17 @@
 ---
 UID: NE:secext.__unnamed_enum_0
 title: EXTENDED_NAME_FORMAT (secext.h)
-
 description: Specifies a format for a directory service object name.
 old-location: base\extended_name_format_str.htm
 tech.root: SysInfo
 ms.assetid: 1270c412-2fa5-4f5d-a86e-1ab3146c6683
-
 ms.date: 12/05/2018
-ms.keywords: "*PEXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT enumeration, NameCanonical, NameCanonicalEx, NameDisplay, NameDnsDomain, NameFullyQualifiedDN, NameSamCompatible, NameServicePrincipal, NameUniqueId, NameUnknown, NameUserPrincipal, PEXTENDED_NAME_FORMAT, PEXTENDED_NAME_FORMAT enumeration pointer, _win32_extended_name_format_str, base.extended_name_format_str, secext/EXTENDED_NAME_FORMAT, secext/NameCanonical, secext/NameCanonicalEx, secext/NameDisplay, secext/NameDnsDomain, secext/NameFullyQualifiedDN, secext/NameSamCompatible, secext/NameServicePrincipal, secext/NameUniqueId, secext/NameUnknown, secext/NameUserPrincipal, secext/PEXTENDED_NAME_FORMAT"
+ms.keywords: '*PEXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT, EXTENDED_NAME_FORMAT enumeration, NameCanonical, NameCanonicalEx, NameDisplay, NameDnsDomain, NameFullyQualifiedDN, NameSamCompatible, NameServicePrincipal, NameUniqueId, NameUnknown, NameUserPrincipal, PEXTENDED_NAME_FORMAT, PEXTENDED_NAME_FORMAT enumeration pointer, _win32_extended_name_format_str, base.extended_name_format_str, secext/EXTENDED_NAME_FORMAT, secext/NameCanonical, secext/NameCanonicalEx, secext/NameDisplay, secext/NameDnsDomain, secext/NameFullyQualifiedDN, secext/NameSamCompatible, secext/NameServicePrincipal, secext/NameUniqueId, secext/NameUnknown, secext/NameUserPrincipal, secext/PEXTENDED_NAME_FORMAT'
 ms.topic: enum
-f1_keywords: 
- - "secext/EXTENDED_NAME_FORMAT"
+f1_keywords:
+- secext/EXTENDED_NAME_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: secext.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Secext.h
+- Secext.h
 api_name:
- - EXTENDED_NAME_FORMAT
+- EXTENDED_NAME_FORMAT
 targetos: Windows
 req.typenames: EXTENDED_NAME_FORMAT, *PEXTENDED_NAME_FORMAT
 req.redist: 

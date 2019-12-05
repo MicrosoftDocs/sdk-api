@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt._HEAP_INFORMATION_CLASS
 title: HEAP_INFORMATION_CLASS (winnt.h)
-
 description: Specifies the class of heap information to be set or retrieved.
 old-location: base\heap_information_class.htm
 tech.root: Memory
 ms.assetid: 4D1B21D2-1F0E-4DC8-A583-220E9891DBBF
-
 ms.date: 12/05/2018
 ms.keywords: HEAP_INFORMATION_CLASS, HEAP_INFORMATION_CLASS enumeration, HeapCompatibilityInformation, HeapEnableTerminationOnCorruption, base.heap_information_class, winnt/HEAP_INFORMATION_CLASS, winnt/HeapCompatibilityInformation, winnt/HeapEnableTerminationOnCorruption
 ms.topic: enum
-f1_keywords: 
- - "winnt/HEAP_INFORMATION_CLASS"
+f1_keywords:
+- winnt/HEAP_INFORMATION_CLASS
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - HEAP_INFORMATION_CLASS
+- HEAP_INFORMATION_CLASS
 targetos: Windows
 req.typenames: HEAP_INFORMATION_CLASS
 req.redist: 

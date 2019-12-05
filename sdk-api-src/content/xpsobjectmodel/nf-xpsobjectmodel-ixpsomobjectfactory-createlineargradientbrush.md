@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateLinearGradientBrush
 title: IXpsOMObjectFactory::CreateLinearGradientBrush (xpsobjectmodel.h)
-
 description: Creates an IXpsOMLinearGradientBrush interface.
 old-location: xps\ixpsomobjectfactory_createlineargradientbrush.htm
 tech.root: printdocs
 ms.assetid: b829e8fe-5ef0-43d8-b115-9cddbfe1a255
-
 ms.date: 12/05/2018
 ms.keywords: CreateLinearGradientBrush, CreateLinearGradientBrush method [XPS Documents and Packaging], CreateLinearGradientBrush method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateLinearGradientBrush method, IXpsOMObjectFactory.CreateLinearGradientBrush, IXpsOMObjectFactory::CreateLinearGradientBrush, xps.ixpsomobjectfactory_createlineargradientbrush, xpsobjectmodel/IXpsOMObjectFactory::CreateLinearGradientBrush
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateLinearGradientBrush"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateLinearGradientBrush
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateLinearGradientBrush
+- IXpsOMObjectFactory.CreateLinearGradientBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

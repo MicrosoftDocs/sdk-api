@@ -1,19 +1,17 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_STATE
 title: TARGET_STATE (sessdirpublictypes.h)
-
 description: Indicates the state of a target.
 old-location: termserv\target_state.htm
 tech.root: TermServ
 ms.assetid: 52ef4bb9-d025-4b54-ac5b-16fa28047cc6
-
 ms.date: 12/05/2018
 ms.keywords: TARGET_CHECKED_OUT, TARGET_DOWN, TARGET_HIBERNATED, TARGET_INITIALIZING, TARGET_RUNNING, TARGET_STATE, TARGET_STATE enumeration [Remote Desktop Services], TARGET_STOPPED, TARGET_UNKNOWN, sessdirpublictypes/TARGET_CHECKED_OUT, sessdirpublictypes/TARGET_DOWN, sessdirpublictypes/TARGET_HIBERNATED, sessdirpublictypes/TARGET_INITIALIZING, sessdirpublictypes/TARGET_RUNNING, sessdirpublictypes/TARGET_STATE, sessdirpublictypes/TARGET_STOPPED, sessdirpublictypes/TARGET_UNKNOWN, termserv.target_state
 ms.topic: enum
-f1_keywords: 
- - "sessdirpublictypes/TARGET_STATE"
+f1_keywords:
+- sessdirpublictypes/TARGET_STATE
 dev_langs:
- - c++
+- c++
 req.header: sessdirpublictypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SessDirPublicTypes.h
+- SessDirPublicTypes.h
 api_name:
- - TARGET_STATE
+- TARGET_STATE
 targetos: Windows
 req.typenames: TARGET_STATE
 req.redist: 

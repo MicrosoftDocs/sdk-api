@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.ArrangeGrid
 title: IShellFolderView::ArrangeGrid (shlobj_core.h)
-
 description: Arranges moved icons so that they align to an invisible grid.
 old-location: shell\IShellFolderView_ArrangeGrid.htm
 tech.root: shell
 ms.assetid: 3cb77a02-82da-42d3-97a3-ff47a9ce1831
-
 ms.date: 12/05/2018
 ms.keywords: ArrangeGrid, ArrangeGrid method [Windows Shell], ArrangeGrid method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],ArrangeGrid method, IShellFolderView.ArrangeGrid, IShellFolderView::ArrangeGrid, _shell_IShellFolderView_ArrangeGrid, shell.IShellFolderView_ArrangeGrid, shlobj_core/IShellFolderView::ArrangeGrid
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.ArrangeGrid"
+f1_keywords:
+- shlobj_core/IShellFolderView.ArrangeGrid
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.ArrangeGrid
+- IShellFolderView.ArrangeGrid
 targetos: Windows
 req.typenames: 
 req.redist: 

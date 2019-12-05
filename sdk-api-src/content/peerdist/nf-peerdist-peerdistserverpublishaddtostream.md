@@ -1,19 +1,17 @@
 ---
 UID: NF:peerdist.PeerDistServerPublishAddToStream
 title: PeerDistServerPublishAddToStream function (peerdist.h)
-
 description: PeerDistServerPublishAddToStream function adds data to the publishing stream.
 old-location: p2p\peerdistserverpublishaddtostream.htm
 tech.root: P2PSdk
 ms.assetid: 296e21b9-9488-408a-b470-bbde1a18e6f0
-
 ms.date: 12/05/2018
 ms.keywords: PeerDistServerPublishAddToStream, PeerDistServerPublishAddToStream function [Peer Networking], p2p.peerdistserverpublishaddtostream, peerdist/PeerDistServerPublishAddToStream
 ms.topic: function
-f1_keywords: 
- - "peerdist/PeerDistServerPublishAddToStream"
+f1_keywords:
+- peerdist/PeerDistServerPublishAddToStream
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PeerDist.lib
 req.dll: PeerDist.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PeerDist.dll
+- PeerDist.dll
 api_name:
- - PeerDistServerPublishAddToStream
+- PeerDistServerPublishAddToStream
 targetos: Windows
 req.typenames: 
 req.redist: 

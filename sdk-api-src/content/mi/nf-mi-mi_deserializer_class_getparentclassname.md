@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Deserializer_Class_GetParentClassName
 title: MI_Deserializer_Class_GetParentClassName function (mi.h)
-
 description: Gets the parent class name from a serialized class buffer.
 old-location: wmi_v2\mi_deserializer_class_getparentclassname.htm
 tech.root: wmi_v2
 ms.assetid: 35e1d864-cc81-466e-bc5b-006c0aaf56fc
-
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_Class_GetParentClassName, MI_Deserializer_Class_GetParentClassName function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Class_GetParentClassName, wmi_v2.mi_deserializer_class_getparentclassname
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Deserializer_Class_GetParentClassName"
+f1_keywords:
+- mi/MI_Deserializer_Class_GetParentClassName
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Deserializer_Class_GetParentClassName
+- MI_Deserializer_Class_GetParentClassName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NS:nspapi._SERVICE_ADDRESS
 title: SERVICE_ADDRESS (nspapi.h)
-
 description: Contains address information for a service. The structure can accommodate many types of interprocess communications (IPC) mechanisms and their address forms, including remote procedure calls (RPC), named pipes, and sockets.
 old-location: winsock\service_address_2.htm
 tech.root: WinSock
 ms.assetid: 5fc99e3a-7316-4950-9249-968bbc4168c2
-
 ms.date: 12/05/2018
 ms.keywords: '*LPSERVICE_ADDRESS, *PSERVICE_ADDRESS, SERVICE_ADDRESS, SERVICE_ADDRESS structure [Winsock], SERVICE_ADDRESS_FLAG_RPC_CN, SERVICE_ADDRESS_FLAG_RPC_DG, SERVICE_ADDRESS_FLAG_RPC_NB, _win32_service_address_2, nspapi/SERVICE_ADDRESS, winsock.service_address_2'
 ms.topic: struct
 f1_keywords:
 - nspapi/SERVICE_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: nspapi.h
 req.include-header: 
 req.target-type: Windows

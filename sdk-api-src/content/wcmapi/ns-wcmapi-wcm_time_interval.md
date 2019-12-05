@@ -1,19 +1,17 @@
 ---
 UID: NS:wcmapi._WCM_TIME_INTERVAL
 title: WCM_TIME_INTERVAL (wcmapi.h)
-
 description: Defines a time interval.
 old-location: wcm\wcm_time_interval.htm
 tech.root: wcm
 ms.assetid: 7744a577-5f3d-4cdd-b74d-a1430ea20b37
-
 ms.date: 12/05/2018
 ms.keywords: WCM_TIME_INTERVAL, WCM_TIME_INTERVAL structure [Windows Connection Manager], wcm.wcm_time_interval, wcmapi/WCM_TIME_INTERVAL
 ms.topic: struct
-f1_keywords: 
- - "wcmapi/WCM_TIME_INTERVAL"
+f1_keywords:
+- wcmapi/WCM_TIME_INTERVAL
 dev_langs:
- - c++
+- c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wcmapi.h
+- Wcmapi.h
 api_name:
- - WCM_TIME_INTERVAL
+- WCM_TIME_INTERVAL
 targetos: Windows
 req.typenames: WCM_TIME_INTERVAL
 req.redist: 

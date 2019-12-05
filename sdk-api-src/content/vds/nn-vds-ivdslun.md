@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsLun
 title: IVdsLun (vds.h)
-
 description: Provides methods for performing query and configuration operations on a logical unit number (LUN).
 old-location: base\ivdslun.htm
 tech.root: VDS
 ms.assetid: e2fbebc0-593e-437c-a401-80e35a43da94
-
 ms.date: 12/05/2018
 ms.keywords: IVdsLun, IVdsLun interface [VDS], IVdsLun interface [VDS],described, base.ivdslun, vds/IVdsLun, vdshwprv/IVdsLun
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsLun"
+f1_keywords:
+- vds/IVdsLun
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun
+- IVdsLun
 targetos: Windows
 req.typenames: 
 req.redist: 

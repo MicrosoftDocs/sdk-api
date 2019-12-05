@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminPortClearStats
 title: MprAdminPortClearStats function (mprapi.h)
-
 description: The MprAdminPortClearStats function resets the statistics for the specified port.
 old-location: rras\mpradminportclearstats.htm
 tech.root: RRAS
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminPortClearStats"
+f1_keywords:
+- mprapi/MprAdminPortClearStats
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminPortClearStats
+- MprAdminPortClearStats
 targetos: Windows
 req.typenames: 
 req.redist: 

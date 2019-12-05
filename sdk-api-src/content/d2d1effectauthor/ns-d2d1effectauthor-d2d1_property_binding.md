@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_PROPERTY_BINDING
 title: D2D1_PROPERTY_BINDING (d2d1effectauthor.h)
-
 description: Defines a property binding to a pair of functions which get and set the corresponding property.
 old-location: direct2d\d2d1_property_binding.htm
 tech.root: Direct2D
 ms.assetid: 0eb6d428-cb65-4738-9cf3-64038b728004
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PROPERTY_BINDING, D2D1_PROPERTY_BINDING structure [Direct2D], d2d1effectauthor/D2D1_PROPERTY_BINDING, direct2d.d2d1_property_binding
 ms.topic: struct
-f1_keywords: 
- - "d2d1effectauthor/D2D1_PROPERTY_BINDING"
+f1_keywords:
+- d2d1effectauthor/D2D1_PROPERTY_BINDING
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effectauthor.h
+- d2d1effectauthor.h
 api_name:
- - D2D1_PROPERTY_BINDING
+- D2D1_PROPERTY_BINDING
 targetos: Windows
 req.typenames: D2D1_PROPERTY_BINDING
 req.redist: 

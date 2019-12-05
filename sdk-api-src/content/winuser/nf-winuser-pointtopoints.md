@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.POINTTOPOINTS
 title: POINTTOPOINTS macro (winuser.h)
-
 description: The POINTTOPOINTS macro converts a POINT structure to a POINTS structure.
 old-location: gdi\pointtopoints.htm
 tech.root: gdi
 ms.assetid: 9e9ec2c0-fce6-4205-8299-20ef7ff154e9
-
 ms.date: 12/05/2018
 ms.keywords: POINTTOPOINTS, POINTTOPOINTS macro [Windows GDI], _win32_POINTTOPOINTS, gdi.pointtopoints, winuser/POINTTOPOINTS
 ms.topic: macro
-f1_keywords: 
- - "winuser/POINTTOPOINTS"
+f1_keywords:
+- winuser/POINTTOPOINTS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - POINTTOPOINTS
+- POINTTOPOINTS
 targetos: Windows
 req.typenames: 
 req.redist: 

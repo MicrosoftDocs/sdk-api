@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_Rate
 title: IAMExtTransport::get_Rate (strmif.h)
-
 description: The get_Rate method retrieves the playback rate for variable-speed external devices.
 old-location: dshow\iamexttransport_get_rate.htm
 tech.root: DirectShow
 ms.assetid: 35a2fb2b-0963-4bdb-86a4-b5950b48a834
-
 ms.date: 12/05/2018
 ms.keywords: IAMExtTransport interface [DirectShow],get_Rate method, IAMExtTransport.get_Rate, IAMExtTransport::get_Rate, IAMExtTransportget_Rate, dshow.iamexttransport_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IAMExtTransport interface, strmif/IAMExtTransport::get_Rate
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.get_Rate"
+f1_keywords:
+- strmif/IAMExtTransport.get_Rate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.get_Rate
+- IAMExtTransport.get_Rate
 targetos: Windows
 req.typenames: 
 req.redist: 

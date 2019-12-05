@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.GetPackageExecutionState
 title: IPackageDebugSettings::GetPackageExecutionState (shobjidl_core.h)
-
 description: Returns the current execution state of the specified package.
 old-location: shell\IPackageDebugSettings_GetPackageExecutionState.htm
 tech.root: shell
 ms.assetid: 39560adc-9d35-48ec-8b70-2ed4b83dd1f6
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageExecutionState, GetPackageExecutionState method [Windows Shell], GetPackageExecutionState method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],GetPackageExecutionState method, IPackageDebugSettings.GetPackageExecutionState, IPackageDebugSettings::GetPackageExecutionState, shell.IPackageDebugSettings_GetPackageExecutionState, shobjidl_core/IPackageDebugSettings::GetPackageExecutionState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPackageDebugSettings.GetPackageExecutionState"
+f1_keywords:
+- shobjidl_core/IPackageDebugSettings.GetPackageExecutionState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPackageDebugSettings.GetPackageExecutionState
+- IPackageDebugSettings.GetPackageExecutionState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensNetwork.ConnectionMadeNoQOCInfo
 title: ISensNetwork::ConnectionMadeNoQOCInfo (sensevts.h)
-
 description: The ConnectionMadeNoQOCInfo method notifies your application that the specified connection has been established with no Quality of Connection information available.
 old-location: sens\isensnetwork_connectionmadenoqocinfo.htm
 tech.root: Sens
 ms.assetid: a27dd3c7-e3f6-4ccb-b23a-17b15235245c
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionMadeNoQOCInfo, ConnectionMadeNoQOCInfo method [SENS], ConnectionMadeNoQOCInfo method [SENS],ISensNetwork interface, ISensNetwork interface [SENS],ConnectionMadeNoQOCInfo method, ISensNetwork.ConnectionMadeNoQOCInfo, ISensNetwork::ConnectionMadeNoQOCInfo, _zaw_isensnetwork_connectionmadenoqocinfo, sens.isensnetwork_connectionmadenoqocinfo, sensevts/ISensNetwork::ConnectionMadeNoQOCInfo, syncmgr.isensnetwork_connectionmadenoqocinfo
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensNetwork.ConnectionMadeNoQOCInfo"
+f1_keywords:
+- sensevts/ISensNetwork.ConnectionMadeNoQOCInfo
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensNetwork.ConnectionMadeNoQOCInfo
+- ISensNetwork.ConnectionMadeNoQOCInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

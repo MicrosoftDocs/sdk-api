@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation)
 title: IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the OffsetX property of a 2D translation transform.
 old-location: directcomp\idcompositiontranslatetransform_setoffsetx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: eac63f97-1d6c-4672-ad0f-def71b8dd5e1
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTranslateTransform interface [DirectComposition],SetOffsetX method, IDCompositionTranslateTransform.SetOffsetX, IDCompositionTranslateTransform.SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX, IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation), IDCompositionTranslateTransform::SetOffsetX(IDCompositionAnimation*), SetOffsetX, SetOffsetX method [DirectComposition], SetOffsetX method [DirectComposition],IDCompositionTranslateTransform interface, dcomp/IDCompositionTranslateTransform::SetOffsetX, directcomp.idcompositiontranslatetransform_setoffsetx_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTranslateTransform.SetOffsetX"
+f1_keywords:
+- dcomp/IDCompositionTranslateTransform.SetOffsetX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform.SetOffsetX
+- IDCompositionTranslateTransform.SetOffsetX
 targetos: Windows
 req.typenames: 
 req.redist: 

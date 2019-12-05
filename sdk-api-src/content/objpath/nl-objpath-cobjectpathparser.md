@@ -1,19 +1,17 @@
 ---
 UID: NL:objpath.CObjectPathParser
 title: CObjectPathParser (objpath.h)
-
 description: Parses a WMI path which can include a remote computer name, namespaces, and classes. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
 old-location: wmi\cobjectpathparser.htm
 tech.root: WmiSdk
 ms.assetid: 0138c48f-f61b-4127-adc2-bdf4da06f938
-
 ms.date: 12/05/2018
-ms.keywords: "??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser"
+ms.keywords: ??1CObjectPathParser@@QAE@XZ, ??1CObjectPathParser@@QEAA@XZ, CObjectPathParser, CObjectPathParser class [Windows Management Instrumentation], CObjectPathParser class [Windows Management Instrumentation],described, objpath/CObjectPathParser, wmi.cobjectpathparser
 ms.topic: class
-f1_keywords: 
- - "objpath/CObjectPathParser"
+f1_keywords:
+- objpath/CObjectPathParser
 dev_langs:
- - c++
+- c++
 req.header: objpath.h
 req.include-header: ObjPath.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CObjectPathParser
- - ??1CObjectPathParser@@QAE@XZ
- - ??1CObjectPathParser@@QEAA@XZ
+- CObjectPathParser
+- ??1CObjectPathParser@@QAE@XZ
+- ??1CObjectPathParser@@QEAA@XZ
 targetos: Windows
 req.typenames: 
 req.redist: 

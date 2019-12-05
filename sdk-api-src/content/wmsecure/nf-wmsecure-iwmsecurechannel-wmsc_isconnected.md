@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_IsConnected
 title: IWMSecureChannel::WMSC_IsConnected (wmsecure.h)
-
 description: The WMSC_IsConnected method checks to see if the secure connection is valid.
 old-location: wmformat\iwmsecurechannel_wmsc_isconnected.htm
 tech.root: wmformat
 ms.assetid: 162bb01f-ba64-4563-a257-28931190ac96
-
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_IsConnected method, IWMSecureChannel.WMSC_IsConnected, IWMSecureChannel::WMSC_IsConnected, WMSC_IsConnected, WMSC_IsConnected method [windows Media Format], WMSC_IsConnected method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_isconnected, wmsecure/IWMSecureChannel::WMSC_IsConnected
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMSecureChannel.WMSC_IsConnected"
+f1_keywords:
+- wmsecure/IWMSecureChannel.WMSC_IsConnected
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_IsConnected
+- IWMSecureChannel.WMSC_IsConnected
 targetos: Windows
 req.typenames: 
 req.redist: 

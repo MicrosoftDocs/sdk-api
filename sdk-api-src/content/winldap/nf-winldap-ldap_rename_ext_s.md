@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_rename_ext_s
 title: ldap_rename_ext_s function (winldap.h)
-
 description: The ldap_rename_ext_s function is a synchronous operation that changes the distinguished name of an entry in the directory. This function is available effective with LDAP 3.
 old-location: ldap\ldap_rename_ext_s.htm
 tech.root: ldap
 ms.assetid: 85a605f9-d075-4b1d-bfcb-a75c9e7f3023
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_rename_ext_s, ldap.ldap__rename__ext__s, ldap.ldap_rename_ext_s, ldap_rename_ext_s, ldap_rename_ext_s function [LDAP], ldap_rename_ext_sA, ldap_rename_ext_sW, winldap/ldap_rename_ext_s, winldap/ldap_rename_ext_sA, winldap/ldap_rename_ext_sW"
+ms.keywords: _ldap_ldap_rename_ext_s, ldap.ldap__rename__ext__s, ldap.ldap_rename_ext_s, ldap_rename_ext_s, ldap_rename_ext_s function [LDAP], ldap_rename_ext_sA, ldap_rename_ext_sW, winldap/ldap_rename_ext_s, winldap/ldap_rename_ext_sA, winldap/ldap_rename_ext_sW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_rename_ext_s"
+f1_keywords:
+- winldap/ldap_rename_ext_s
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_rename_ext_s
- - ldap_rename_ext_sA
- - ldap_rename_ext_sW
+- ldap_rename_ext_s
+- ldap_rename_ext_sA
+- ldap_rename_ext_sW
 targetos: Windows
 req.typenames: 
 req.redist: 

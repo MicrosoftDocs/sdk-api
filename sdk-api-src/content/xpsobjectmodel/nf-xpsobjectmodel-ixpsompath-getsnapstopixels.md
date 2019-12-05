@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetSnapsToPixels
 title: IXpsOMPath::GetSnapsToPixels (xpsobjectmodel.h)
-
 description: Gets a Boolean value that indicates whether the path is to be snapped to device pixels when the path is rendered.
 old-location: xps\ixpsompath_getsnapstopixels.htm
 tech.root: printdocs
 ms.assetid: c0a4a8b5-f7cf-4cbe-9221-41cde4f63557
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, GetSnapsToPixels, GetSnapsToPixels method [XPS Documents and Packaging], GetSnapsToPixels method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetSnapsToPixels method, IXpsOMPath.GetSnapsToPixels, IXpsOMPath::GetSnapsToPixels, TRUE, xps.ixpsompath_getsnapstopixels, xpsobjectmodel/IXpsOMPath::GetSnapsToPixels
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetSnapsToPixels"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetSnapsToPixels
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetSnapsToPixels
+- IXpsOMPath.GetSnapsToPixels
 targetos: Windows
 req.typenames: 
 req.redist: 

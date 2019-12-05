@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._textrangew
 title: TEXTRANGEW (richedit.h)
-
 description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.
 old-location: controls\TEXTRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\textrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: TEXTRANGE, TEXTRANGE structure [Windows Controls], TEXTRANGEA, TEXTRANGEW, _win32_TEXTRANGE_str, _win32_TEXTRANGE_str_cpp, controls.TEXTRANGE, controls._win32_TEXTRANGE_str, richedit/TEXTRANGE, richedit/TEXTRANGEA, richedit/TEXTRANGEW
 ms.topic: struct
-f1_keywords: 
- - "richedit/TEXTRANGE"
+f1_keywords:
+- richedit/TEXTRANGE
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - TEXTRANGE
- - TEXTRANGEA
- - TEXTRANGEW
+- TEXTRANGE
+- TEXTRANGEA
+- TEXTRANGEW
 targetos: Windows
 req.typenames: TEXTRANGEW
 req.redist: 

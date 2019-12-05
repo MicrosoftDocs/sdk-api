@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.SubStreamFailure
 title: ITransferAdviseSink::SubStreamFailure (shobjidl_core.h)
-
 description: Called when there is a failure that involves secondary streams and user interaction is needed.
 old-location: shell\ITransferAdviseSink_SubStreamFailure.htm
 tech.root: shell
 ms.assetid: 4cca3bc0-45c6-40ee-8050-7035faa1e601
-
 ms.date: 12/05/2018
 ms.keywords: ITransferAdviseSink interface [Windows Shell],SubStreamFailure method, ITransferAdviseSink.SubStreamFailure, ITransferAdviseSink::SubStreamFailure, SubStreamFailure, SubStreamFailure method [Windows Shell], SubStreamFailure method [Windows Shell],ITransferAdviseSink interface, _shell_ITransferAdviseSink_SubStreamFailure, shell.ITransferAdviseSink_SubStreamFailure, shobjidl_core/ITransferAdviseSink::SubStreamFailure
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferAdviseSink.SubStreamFailure"
+f1_keywords:
+- shobjidl_core/ITransferAdviseSink.SubStreamFailure
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferAdviseSink.SubStreamFailure
+- ITransferAdviseSink.SubStreamFailure
 targetos: Windows
 req.typenames: 
 req.redist: 

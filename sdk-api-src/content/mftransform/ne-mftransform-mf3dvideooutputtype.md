@@ -1,19 +1,17 @@
 ---
 UID: NE:mftransform._MF3DVideoOutputType
 title: MF3DVideoOutputType (mftransform.h)
-
 description: Specifies how to output a 3D stereoscopic video stream.
 old-location: mf\mf3dvideooutputtype.htm
 tech.root: medfound
 ms.assetid: A41469B3-9BBF-4664-9ABA-6894A4F94BBE
-
 ms.date: 12/05/2018
 ms.keywords: MF3DVideoOutputType, MF3DVideoOutputType enumeration [Media Foundation], MF3DVideoOutputType_BaseView, MF3DVideoOutputType_Stereo, mf.mf3dvideooutputtype, mftransform/MF3DVideoOutputType, mftransform/MF3DVideoOutputType_BaseView, mftransform/MF3DVideoOutputType_Stereo
 ms.topic: enum
-f1_keywords: 
- - "mftransform/MF3DVideoOutputType"
+f1_keywords:
+- mftransform/MF3DVideoOutputType
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - MF3DVideoOutputType
+- MF3DVideoOutputType
 targetos: Windows
 req.typenames: MF3DVideoOutputType
 req.redist: 

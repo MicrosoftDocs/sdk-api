@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsService.Reboot
 title: IVdsService::Reboot (vds.h)
-
 description: Restarts the computer hosting the provider.
 old-location: base\ivdsservice_reboot.htm
 tech.root: VDS
 ms.assetid: c22be0a5-d7ed-4f76-961d-2455ca99f220
-
 ms.date: 12/05/2018
 ms.keywords: IVdsService interface [VDS],Reboot method, IVdsService.Reboot, IVdsService::Reboot, Reboot, Reboot method [VDS], Reboot method [VDS],IVdsService interface, base.ivdsservice_reboot, vds/IVdsService::Reboot
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsService.Reboot"
+f1_keywords:
+- vds/IVdsService.Reboot
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsService.Reboot
+- IVdsService.Reboot
 targetos: Windows
 req.typenames: 
 req.redist: 

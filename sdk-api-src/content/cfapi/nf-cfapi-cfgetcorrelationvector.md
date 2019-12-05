@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfGetCorrelationVector
 title: CfGetCorrelationVector function (cfapi.h)
-
 description: Allows the sync provider to query the current correlation vector for a given placeholder file.
 old-location: cloudapi\cfgetcorrelationvector.htm
 tech.root: cfApi
 ms.assetid: 3DB0AAFE-82DC-4707-8DB6-C52D4A9B2771
-
 ms.date: 12/05/2018
 ms.keywords: CfGetCorrelationVector, CfGetCorrelationVector function, cfapi/CfGetCorrelationVector, cloudApi.cfgetcorrelationvector
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfGetCorrelationVector"
+f1_keywords:
+- cfapi/CfGetCorrelationVector
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfGetCorrelationVector
+- CfGetCorrelationVector
 targetos: Windows
 req.typenames: 
 req.redist: 

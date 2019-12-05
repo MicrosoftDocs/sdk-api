@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCacheDir
 title: IX509EnrollmentPolicyServer::GetCacheDir (certenroll.h)
-
 description: Retrieves the name of the directory on the certificate enrollment policy (CEP) server that contains the policy cache file.
 old-location: security\ix509enrollmentpolicyserver_getcachedir.htm
 tech.root: seccertenroll
 ms.assetid: 72b0b6f0-cc4f-4e03-9b6c-7bd4c12cf0a3
-
 ms.date: 12/05/2018
 ms.keywords: GetCacheDir, GetCacheDir method [Security], GetCacheDir method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCacheDir method, IX509EnrollmentPolicyServer.GetCacheDir, IX509EnrollmentPolicyServer::GetCacheDir, certenroll/IX509EnrollmentPolicyServer::GetCacheDir, security.ix509enrollmentpolicyserver_getcachedir
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetCacheDir"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetCacheDir
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetCacheDir
+- IX509EnrollmentPolicyServer.GetCacheDir
 targetos: Windows
 req.typenames: 
 req.redist: 

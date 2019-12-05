@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetPacketDescriptionData
 title: IRealTimeStylus::GetPacketDescriptionData (rtscom.h)
-
 description: Retrieves the packet properties and scaling factors.
 old-location: tablet\irealtimestylus_getpacketdescriptiondata.htm
 tech.root: tablet
 ms.assetid: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8
-
 ms.date: 12/05/2018
 ms.keywords: 7eff81c6-8ed5-434b-8e78-fcdb952f37e8, GetPacketDescriptionData, GetPacketDescriptionData method [Tablet PC], GetPacketDescriptionData method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetPacketDescriptionData method, IRealTimeStylus.GetPacketDescriptionData, IRealTimeStylus::GetPacketDescriptionData, rtscom/IRealTimeStylus::GetPacketDescriptionData, tablet.irealtimestylus_getpacketdescriptiondata
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.GetPacketDescriptionData"
+f1_keywords:
+- rtscom/IRealTimeStylus.GetPacketDescriptionData
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.GetPacketDescriptionData
+- IRealTimeStylus.GetPacketDescriptionData
 targetos: Windows
 req.typenames: 
 req.redist: 

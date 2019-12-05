@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IActiveDesktop
 title: IActiveDesktop (shlobj_core.h)
-
 description: Allows a client program to manage the desktop items and wallpaper on a local computer.
 old-location: lwef\iactivedesktop_interface.htm
 tech.root: lwef
 ms.assetid: 4d572b86-36e8-417b-857c-eb477c04c691
-
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop, IActiveDesktop interface [Legacy Windows Environment Features], IActiveDesktop interface [Legacy Windows Environment Features],described, _win32_IActiveDesktop_Interface, lwef.iactivedesktop_interface, shell.iactivedesktop_interface, shlobj_core/IActiveDesktop
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IActiveDesktop"
+f1_keywords:
+- shlobj_core/IActiveDesktop
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop
+- IActiveDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

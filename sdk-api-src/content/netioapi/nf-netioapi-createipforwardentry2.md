@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.CreateIpForwardEntry2
 title: CreateIpForwardEntry2 function (netioapi.h)
-
 description: Creates a new IP route entry on the local computer.
 old-location: iphlp\createipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: d2d065d3-daad-4167-8b87-4229199ee76a
-
 ms.date: 12/05/2018
 ms.keywords: CreateIpForwardEntry2, CreateIpForwardEntry2 function [IP Helper], iphlp.createipforwardentry2, netioapi/CreateIpForwardEntry2
 ms.topic: function
-f1_keywords: 
- - "netioapi/CreateIpForwardEntry2"
+f1_keywords:
+- netioapi/CreateIpForwardEntry2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CreateIpForwardEntry2
+- CreateIpForwardEntry2
 targetos: Windows
 req.typenames: 
 req.redist: 

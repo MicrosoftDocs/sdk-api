@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
 title: IUIAutomationMultipleViewPattern::GetCurrentSupportedViews (uiautomationclient.h)
-
 description: Retrieves a collection of control-specific view identifiers.
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews.htm
 tech.root: WinAuto
 ms.assetid: 9380797a-b546-4e36-9403-d34cea672ace
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSupportedViews, GetCurrentSupportedViews method [Windows Accessibility], GetCurrentSupportedViews method [Windows Accessibility],IUIAutomationMultipleViewPattern interface, IUIAutomationMultipleViewPattern interface [Windows Accessibility],GetCurrentSupportedViews method, IUIAutomationMultipleViewPattern.GetCurrentSupportedViews, IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, uiauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews, uiautomationclient/IUIAutomationMultipleViewPattern::GetCurrentSupportedViews, winauto.uiauto_IUIAutomationMultipleViewPattern_GetCurrentSupportedViews
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationMultipleViewPattern.GetCurrentSupportedViews"
+f1_keywords:
+- uiautomationclient/IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
+- IUIAutomationMultipleViewPattern.GetCurrentSupportedViews
 targetos: Windows
 req.typenames: 
 req.redist: 

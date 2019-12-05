@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.SetDictionaryResource
 title: IXpsOMCanvas::SetDictionaryResource (xpsobjectmodel.h)
-
 description: Sets the IXpsOMRemoteDictionaryResource interface pointer of the remote dictionary resource.
 old-location: xps\ixpsomcanvas_setdictionaryresource.htm
 tech.root: printdocs
 ms.assetid: 8f6a80e9-fa66-45fa-bee9-c80a64a4593f
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCanvas interface [XPS Documents and Packaging],SetDictionaryResource method, IXpsOMCanvas.SetDictionaryResource, IXpsOMCanvas::SetDictionaryResource, SetDictionaryResource, SetDictionaryResource method [XPS Documents and Packaging], SetDictionaryResource method [XPS Documents and Packaging],IXpsOMCanvas interface, xps.ixpsomcanvas_setdictionaryresource, xpsobjectmodel/IXpsOMCanvas::SetDictionaryResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCanvas.SetDictionaryResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCanvas.SetDictionaryResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCanvas.SetDictionaryResource
+- IXpsOMCanvas.SetDictionaryResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidRect.put_Left
 title: IMSVidRect::put_Left (segment.h)
-
 description: The put_Left method specifies the left x-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
 old-location: mstv\imsvidrect_put_left.htm
 tech.root: mstv
 ms.assetid: 8e61fd8a-9ea0-48c1-8749-780b0363c12d
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],put_Left method, IMSVidRect.put_Left, IMSVidRect::put_Left, IMSVidRectput_Left, mstv.imsvidrect_put_left, put_Left, put_Left method [Microsoft TV Technologies], put_Left method [Microsoft TV Technologies],IMSVidRect interface, segment/IMSVidRect::put_Left
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidRect.put_Left"
+f1_keywords:
+- segment/IMSVidRect.put_Left
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect.put_Left
+- IMSVidRect.put_Left
 targetos: Windows
 req.typenames: 
 req.redist: 

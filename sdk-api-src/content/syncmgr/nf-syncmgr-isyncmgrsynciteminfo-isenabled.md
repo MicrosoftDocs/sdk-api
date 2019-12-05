@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemInfo.IsEnabled
 title: ISyncMgrSyncItemInfo::IsEnabled (syncmgr.h)
-
 description: Generates a value that indicates whether the item is enabled.
 old-location: shell\ISyncMgrSyncItemInfo_IsEnabled.htm
 tech.root: shell
 ms.assetid: 47383322-3fb6-47aa-9c97-9d432845fd35
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsEnabled method, ISyncMgrSyncItemInfo.IsEnabled, ISyncMgrSyncItemInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsEnabled, shell.ISyncMgrSyncItemInfo_IsEnabled, syncmgr/ISyncMgrSyncItemInfo::IsEnabled
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemInfo.IsEnabled"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemInfo.IsEnabled
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo.IsEnabled
+- ISyncMgrSyncItemInfo.IsEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueDisable
 title: IDCompositionLinearTransferEffect::SetBlueDisable (dcomp.h)
-
 description: Specifies whether to apply the transfer function to the blue channel.
 old-location: directcomp\idcompositionlineartransfereffect_setbluedisable.htm
 tech.root: directcomp
 ms.assetid: DE87E53B-4469-4B30-8397-6A0712DE8A6C
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionLinearTransferEffect interface [DirectComposition],SetBlueDisable method, IDCompositionLinearTransferEffect.SetBlueDisable, IDCompositionLinearTransferEffect::SetBlueDisable, SetBlueDisable, SetBlueDisable method [DirectComposition], SetBlueDisable method [DirectComposition],IDCompositionLinearTransferEffect interface, dcomp/IDCompositionLinearTransferEffect::SetBlueDisable, directcomp.idcompositionlineartransfereffect_setbluedisable
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionLinearTransferEffect.SetBlueDisable"
+f1_keywords:
+- dcomp/IDCompositionLinearTransferEffect.SetBlueDisable
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionLinearTransferEffect.SetBlueDisable
+- IDCompositionLinearTransferEffect.SetBlueDisable
 targetos: Windows
 req.typenames: 
 req.redist: 

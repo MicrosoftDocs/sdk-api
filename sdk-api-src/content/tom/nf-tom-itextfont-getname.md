@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetName
 title: ITextFont::GetName (tom.h)
-
 description: Gets the font name.
 old-location: controls\ITextFont_GetName.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextfont\itextfontgetname.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Controls], GetName method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetName method, ITextFont.GetName, ITextFont::GetName, _win32_ITextFont_GetName, _win32_ITextFont_GetName_cpp, controls.ITextFont_GetName, controls._win32_ITextFont_GetName, tom/ITextFont::GetName
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetName"
+f1_keywords:
+- tom/ITextFont.GetName
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetName
+- ITextFont.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

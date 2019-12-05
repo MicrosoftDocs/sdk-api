@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.VariantToRect
 title: IUIAutomation::VariantToRect (uiautomationclient.h)
-
 description: Converts a VARIANT containing rectangle coordinates to a RECT.
 old-location: winauto\uiauto_IUIAutomation_VariantToRect.htm
 tech.root: WinAuto
 ms.assetid: ef8bb8eb-c6f1-4797-b64f-f4f9d41db2bb
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation interface [Windows Accessibility],VariantToRect method, IUIAutomation.VariantToRect, IUIAutomation::VariantToRect, VariantToRect, VariantToRect method [Windows Accessibility], VariantToRect method [Windows Accessibility],IUIAutomation interface, uiauto.uiauto_IUIAutomation_VariantToRect, uiauto_IUIAutomation_VariantToRect, uiautomationclient/IUIAutomation::VariantToRect, winauto.uiauto_IUIAutomation_VariantToRect
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.VariantToRect"
+f1_keywords:
+- uiautomationclient/IUIAutomation.VariantToRect
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.VariantToRect
+- IUIAutomation.VariantToRect
 targetos: Windows
 req.typenames: 
 req.redist: 

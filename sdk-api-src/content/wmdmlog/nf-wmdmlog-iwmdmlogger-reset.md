@@ -1,19 +1,17 @@
 ---
 UID: NF:wmdmlog.IWMDMLogger.Reset
 title: IWMDMLogger::Reset (wmdmlog.h)
-
 description: The Reset method deletes the contents of the current log file.
 old-location: wmdm\iwmdmlogger_reset.htm
 tech.root: WMDM
 ms.assetid: 1b26aede-0db4-4597-8494-7fd5e5cba857
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],Reset method, IWMDMLogger.Reset, IWMDMLogger::Reset, IWMDMLoggerReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_reset, wmdmlog/IWMDMLogger::Reset
 ms.topic: method
-f1_keywords: 
- - "wmdmlog/IWMDMLogger.Reset"
+f1_keywords:
+- wmdmlog/IWMDMLogger.Reset
 dev_langs:
- - c++
+- c++
 req.header: wmdmlog.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMLogger.Reset
+- IWMDMLogger.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

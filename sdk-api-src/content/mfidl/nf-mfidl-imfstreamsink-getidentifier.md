@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetIdentifier
 title: IMFStreamSink::GetIdentifier (mfidl.h)
-
 description: Retrieves the stream identifier for this stream sink.
 old-location: mf\imfstreamsink_getidentifier.htm
 tech.root: medfound
 ms.assetid: af4855f6-36fa-4949-8b93-9e630a12e71b
-
 ms.date: 12/05/2018
 ms.keywords: GetIdentifier, GetIdentifier method [Media Foundation], GetIdentifier method [Media Foundation],IMFStreamSink interface, IMFStreamSink interface [Media Foundation],GetIdentifier method, IMFStreamSink.GetIdentifier, IMFStreamSink::GetIdentifier, af4855f6-36fa-4949-8b93-9e630a12e71b, mf.imfstreamsink_getidentifier, mfidl/IMFStreamSink::GetIdentifier
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFStreamSink.GetIdentifier"
+f1_keywords:
+- mfidl/IMFStreamSink.GetIdentifier
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFStreamSink.GetIdentifier
+- IMFStreamSink.GetIdentifier
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.CheckSumMappedFile
 title: CheckSumMappedFile function (imagehlp.h)
-
 description: Computes the checksum of the specified image file.
 old-location: base\checksummappedfile.htm
 tech.root: Debug
 ms.assetid: 01a99601-64de-412d-991e-b1708286ca8c
-
 ms.date: 12/05/2018
 ms.keywords: CheckSumMappedFile, CheckSumMappedFile function, _win32_checksummappedfile, base.checksummappedfile, imagehlp/CheckSumMappedFile
 ms.topic: function
-f1_keywords: 
- - "imagehlp/CheckSumMappedFile"
+f1_keywords:
+- imagehlp/CheckSumMappedFile
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - CheckSumMappedFile
+- CheckSumMappedFile
 targetos: Windows
 req.typenames: 
 req.redist: 

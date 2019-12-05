@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDoubleClickTime
 title: GetDoubleClickTime function (winuser.h)
-
 description: Retrieves the current double-click time for the mouse.
 old-location: inputdev\getdoubleclicktime.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\getdoubleclicktime.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDoubleClickTime, GetDoubleClickTime function [Keyboard and Mouse Input], _win32_GetDoubleClickTime, _win32_getdoubleclicktime_cpp, inputdev.getdoubleclicktime, winui._win32_getdoubleclicktime, winuser/GetDoubleClickTime
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDoubleClickTime"
+f1_keywords:
+- winuser/GetDoubleClickTime
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-mouse-l1-1-0.dll
- - api-ms-win-ntuser-ie-mouse-l1-1-0.dll
- - ie_stubs.dll
+- User32.dll
+- Ext-MS-Win-NTUser-mouse-l1-1-0.dll
+- api-ms-win-ntuser-ie-mouse-l1-1-0.dll
+- ie_stubs.dll
 api_name:
- - GetDoubleClickTime
+- GetDoubleClickTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetFirmwareEnvironmentVariableExW
 title: SetFirmwareEnvironmentVariableExW function (winbase.h)
-
 description: Sets the value of the specified firmware environment variable as the attributes that indicate how this variable is stored and maintained.
 old-location: base\setfirmwareenvironmentvariableex.htm
 tech.root: SysInfo
 ms.assetid: D3C2F03F-66F6-40A4-830E-058BBA925ACD
-
 ms.date: 12/05/2018
 ms.keywords: SetFirmwareEnvironmentVariableEx, SetFirmwareEnvironmentVariableEx function, SetFirmwareEnvironmentVariableExA, SetFirmwareEnvironmentVariableExW, VARIABLE_ATTRIBUTE_APPEND_WRITE, VARIABLE_ATTRIBUTE_AUTHENTICATED_WRITE_ACCESS, VARIABLE_ATTRIBUTE_BOOTSERVICE_ACCESS, VARIABLE_ATTRIBUTE_HARDWARE_ERROR_RECORD, VARIABLE_ATTRIBUTE_NON_VOLATILE, VARIABLE_ATTRIBUTE_RUNTIME_ACCESS, VARIABLE_ATTRIBUTE_TIME_BASED_AUTHENTICATED_WRITE_ACCESS, base.setfirmwareenvironmentvariableex, winbase/SetFirmwareEnvironmentVariableEx, winbase/SetFirmwareEnvironmentVariableExA, winbase/SetFirmwareEnvironmentVariableExW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetFirmwareEnvironmentVariableEx"
+f1_keywords:
+- winbase/SetFirmwareEnvironmentVariableEx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-firmware-l1-1-0.dll
- - kernel32legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-firmware-l1-1-0.dll
+- kernel32legacy.dll
 api_name:
- - SetFirmwareEnvironmentVariableEx
- - SetFirmwareEnvironmentVariableExA
- - SetFirmwareEnvironmentVariableExW
+- SetFirmwareEnvironmentVariableEx
+- SetFirmwareEnvironmentVariableExA
+- SetFirmwareEnvironmentVariableExW
 targetos: Windows
 req.typenames: 
 req.redist: 

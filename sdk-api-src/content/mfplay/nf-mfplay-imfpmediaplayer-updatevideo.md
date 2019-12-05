@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.UpdateVideo
 title: IMFPMediaPlayer::UpdateVideo (mfplay.h)
-
 description: Updates the video frame.
 old-location: mf\imfpmediaplayer_updatevideo.htm
 tech.root: medfound
 ms.assetid: de583e74-b31b-407e-af4b-c36649e1ca84
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],UpdateVideo method, IMFPMediaPlayer.UpdateVideo, IMFPMediaPlayer::UpdateVideo, UpdateVideo, UpdateVideo method [Media Foundation], UpdateVideo method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_updatevideo, mfplay/IMFPMediaPlayer::UpdateVideo
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.UpdateVideo"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.UpdateVideo
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.UpdateVideo
+- IMFPMediaPlayer.UpdateVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.data.pdf.interop.PdfCreateRenderer
 title: PdfCreateRenderer function (windows.data.pdf.interop.h)
-
 description: Gets an instance of the IPdfRendererNative interface for displaying a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdfcreaterenderer.htm
 tech.root: WinRT
 ms.assetid: 6C61B35A-FD43-434F-BD56-C912E2FCE464
-
 ms.date: 12/05/2018
 ms.keywords: PdfCreateRenderer, PdfCreateRenderer function [Windows Runtime], windows/PdfCreateRenderer, winrt.pdfcreaterenderer
 ms.topic: function
-f1_keywords: 
- - "windows.data.pdf.interop/PdfCreateRenderer"
+f1_keywords:
+- windows.data.pdf.interop/PdfCreateRenderer
 dev_langs:
- - c++
+- c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windows.data.pdf.lib
 req.dll: Windows.Data.Pdf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Windows.Data.Pdf.dll
+- Windows.Data.Pdf.dll
 api_name:
- - PdfCreateRenderer
+- PdfCreateRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

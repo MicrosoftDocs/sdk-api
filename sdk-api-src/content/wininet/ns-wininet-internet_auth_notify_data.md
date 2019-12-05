@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet.__unnamed_struct_38
 title: INTERNET_AUTH_NOTIFY_DATA (wininet.h)
-
 description: Contains the notification data for an authentication request.
 old-location: wininet\internet_auth_notify_data.htm
 tech.root: wininet
 ms.assetid: d6f36cf7-7a54-4890-aa27-ffb40997cfd6
-
 ms.date: 12/05/2018
 ms.keywords: INTERNET_AUTH_NOTIFY_DATA, INTERNET_AUTH_NOTIFY_DATA structure [WinINet], _inet_internet_auth_notify_data_structure, wininet.internet_auth_notify_data, wininet/INTERNET_AUTH_NOTIFY_DATA
 ms.topic: struct
-f1_keywords: 
- - "wininet/INTERNET_AUTH_NOTIFY_DATA"
+f1_keywords:
+- wininet/INTERNET_AUTH_NOTIFY_DATA
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - INTERNET_AUTH_NOTIFY_DATA
+- INTERNET_AUTH_NOTIFY_DATA
 targetos: Windows
 req.typenames: INTERNET_AUTH_NOTIFY_DATA
 req.redist: 

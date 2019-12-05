@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensLogon2.SessionDisconnect
 title: ISensLogon2::SessionDisconnect (sensevts.h)
-
 description: The SessionDisconnect method is used to disconnect from a Fast User Switching session or a Remote Desktop Connection. This is different from logging off from a session, because when you use this method the session is disconnected.
 old-location: sens\isenslogon2_sessiondisconnect.htm
 tech.root: Sens
 ms.assetid: afa56cb1-7c52-48db-ac7c-237cb49cc97f
-
 ms.date: 12/05/2018
 ms.keywords: ISensLogon2 interface [SENS],SessionDisconnect method, ISensLogon2.SessionDisconnect, ISensLogon2::SessionDisconnect, SessionDisconnect, SessionDisconnect method [SENS], SessionDisconnect method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessiondisconnect, sens.isenslogon2_sessiondisconnect, sensevts/ISensLogon2::SessionDisconnect, syncmgr.isenslogon2_sessiondisconnect
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensLogon2.SessionDisconnect"
+f1_keywords:
+- sensevts/ISensLogon2.SessionDisconnect
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensLogon2.SessionDisconnect
+- ISensLogon2.SessionDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

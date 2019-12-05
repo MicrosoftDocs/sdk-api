@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetHeader
 title: WsGetHeader function (webservices.h)
-
 description: Finds a particular standard header in the message and deserializes it.
 old-location: wsw\wsgetheader.htm
 tech.root: wsw
 ms.assetid: ff6e639f-715d-4a4f-b0ef-35202aa54dc5
-
 ms.date: 12/05/2018
 ms.keywords: WsGetHeader, WsGetHeader function [Web Services for Windows], webservices/WsGetHeader, wsw.wsgetheader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetHeader"
+f1_keywords:
+- webservices/WsGetHeader
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetHeader
+- WsGetHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

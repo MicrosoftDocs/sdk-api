@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Application_NewOperationOptions
 title: MI_Application_NewOperationOptions function (mi.h)
-
 description: Creates an MI_OperationOptions object that can be used with the operation functions on the MI_Session object.
 old-location: wmi_v2\mi_application_newoperationoptions.htm
 tech.root: wmi_v2
 ms.assetid: 0b9f569b-bb32-4393-9fd2-9d5d601c2214
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewOperationOptions, MI_Application_NewOperationOptions function [Windows Management Infrastructure (MI)], mi/MI_Application_NewOperationOptions, wmi_v2.mi_application_newoperationoptions
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewOperationOptions
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

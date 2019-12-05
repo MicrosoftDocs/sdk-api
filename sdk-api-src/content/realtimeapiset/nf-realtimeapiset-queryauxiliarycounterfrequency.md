@@ -1,19 +1,17 @@
 ---
 UID: NF:realtimeapiset.QueryAuxiliaryCounterFrequency
 title: QueryAuxiliaryCounterFrequency function (realtimeapiset.h)
-
 description: Queries the auxiliary counter frequency.
 old-location: base\queryauxiliarycounterfrequency.htm
 tech.root: SysInfo
 ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A
-
 ms.date: 12/05/2018
 ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
 ms.topic: function
-f1_keywords: 
- - "realtimeapiset/QueryAuxiliaryCounterFrequency"
+f1_keywords:
+- realtimeapiset/QueryAuxiliaryCounterFrequency
 dev_langs:
- - c++
+- c++
 req.header: realtimeapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mincore.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - QueryAuxiliaryCounterFrequency
+- QueryAuxiliaryCounterFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

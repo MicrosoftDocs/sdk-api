@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetEnvironmentVariable
 title: ICreateProcessInputs::SetEnvironmentVariable (shobjidl_core.h)
-
 description: Sets a variable in the environment of the created process.
 old-location: shell\icreateprocessinputs_setenvironmentvariable.htm
 tech.root: shell
 ms.assetid: 5898B21B-5D3B-4950-9DB4-5B7FD19C9187
-
 ms.date: 12/05/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetEnvironmentVariable method, ICreateProcessInputs.SetEnvironmentVariable, ICreateProcessInputs::SetEnvironmentVariable, SetEnvironmentVariable, SetEnvironmentVariable method [Windows Shell], SetEnvironmentVariable method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_setenvironmentvariable, shobjidl_core/ICreateProcessInputs::SetEnvironmentVariable
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICreateProcessInputs.SetEnvironmentVariable"
+f1_keywords:
+- shobjidl_core/ICreateProcessInputs.SetEnvironmentVariable
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ICreateProcessInputs.SetEnvironmentVariable
+- ICreateProcessInputs.SetEnvironmentVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

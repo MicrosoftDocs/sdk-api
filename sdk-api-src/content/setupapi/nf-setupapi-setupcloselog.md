@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupCloseLog
 title: SetupCloseLog function (setupapi.h)
-
 description: The SetupCloseLog function closes the log files.
 old-location: setup\setupcloselog.htm
 tech.root: SetupApi
 ms.assetid: 659e7922-205c-4da2-90ed-aa7d7625af87
-
 ms.date: 12/05/2018
 ms.keywords: SetupCloseLog, SetupCloseLog function [Setup API], _setupapi_setupcloselog, setup.setupcloselog, setupapi/SetupCloseLog
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupCloseLog"
+f1_keywords:
+- setupapi/SetupCloseLog
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-setupapi-logging-l1-1-0.dll
+- Setupapi.dll
+- Ext-MS-Win-setupapi-logging-l1-1-0.dll
 api_name:
- - SetupCloseLog
+- SetupCloseLog
 targetos: Windows
 req.typenames: 
 req.redist: 

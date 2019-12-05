@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.UnregisterEffect
 title: ID2D1Factory1::UnregisterEffect (d2d1_1.h)
-
 description: Unregisters an effect within the factory instance that corresponds to the classId provided.
 old-location: direct2d\id2d1factory1_unregistereffect.htm
 tech.root: Direct2D
 ms.assetid: 5f383406-5d83-4ccc-9082-526b9e9fa80b
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Factory1 interface [Direct2D],UnregisterEffect method, ID2D1Factory1.UnregisterEffect, ID2D1Factory1::UnregisterEffect, UnregisterEffect, UnregisterEffect method [Direct2D], UnregisterEffect method [Direct2D],ID2D1Factory1 interface, d2d1_1/ID2D1Factory1::UnregisterEffect, direct2d.id2d1factory1_unregistereffect
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Factory1.UnregisterEffect"
+f1_keywords:
+- d2d1_1/ID2D1Factory1.UnregisterEffect
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory1.UnregisterEffect
+- ID2D1Factory1.UnregisterEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelMonitorLicenseAcquisition
 title: IWMDRMReader::CancelMonitorLicenseAcquisition (wmsdkidl.h)
-
 description: The CancelMonitorLicenseAcquisition method cancels a current call to the MonitorLicenseAcquisition method.
 old-location: wmformat\iwmdrmreader_cancelmonitorlicenseacquisition.htm
 tech.root: wmformat
 ms.assetid: 9d33f727-9213-4744-bf65-42b971e3f7da
-
 ms.date: 12/05/2018
 ms.keywords: CancelMonitorLicenseAcquisition, CancelMonitorLicenseAcquisition method [windows Media Format], CancelMonitorLicenseAcquisition method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelMonitorLicenseAcquisition method, IWMDRMReader.CancelMonitorLicenseAcquisition, IWMDRMReader::CancelMonitorLicenseAcquisition, IWMDRMReaderCancelMonitorLicenseAcquisition, wmformat.iwmdrmreader_cancelmonitorlicenseacquisition, wmsdkidl/IWMDRMReader::CancelMonitorLicenseAcquisition
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader.CancelMonitorLicenseAcquisition"
+f1_keywords:
+- wmsdkidl/IWMDRMReader.CancelMonitorLicenseAcquisition
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader.CancelMonitorLicenseAcquisition
+- IWMDRMReader.CancelMonitorLicenseAcquisition
 targetos: Windows
 req.typenames: 
 req.redist: 

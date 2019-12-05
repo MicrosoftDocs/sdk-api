@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.MoveNext
 title: IOpcPartEnumerator::MoveNext (msopc.h)
-
 description: Moves the current position of the enumerator to the next IOpcPart interface pointer.
 old-location: opc\iopcpartenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 4d52bb74-53f5-4c7c-a42e-5d67e330b48c
-
 ms.date: 12/05/2018
 ms.keywords: IOpcPartEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcPartEnumerator.MoveNext, IOpcPartEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcPartEnumerator interface, msopc/IOpcPartEnumerator::MoveNext, opc.iopcpartenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPartEnumerator.MoveNext"
+f1_keywords:
+- msopc/IOpcPartEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartEnumerator.MoveNext
+- IOpcPartEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

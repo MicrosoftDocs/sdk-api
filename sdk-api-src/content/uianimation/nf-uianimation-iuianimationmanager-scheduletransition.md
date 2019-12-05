@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.ScheduleTransition
 title: IUIAnimationManager::ScheduleTransition (uianimation.h)
-
 description: Creates and schedules a single-transition storyboard.
 old-location: uianimation\iuianimationmanager_scheduletransition.htm
 tech.root: UIAnimation
 ms.assetid: 0178b674-2ad3-49ee-92ce-925840ab8409
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationManager interface [Windows Animation],ScheduleTransition method, IUIAnimationManager.ScheduleTransition, IUIAnimationManager::ScheduleTransition, ScheduleTransition, ScheduleTransition method [Windows Animation], ScheduleTransition method [Windows Animation],IUIAnimationManager interface, uianimation.iuianimationmanager_scheduletransition, uianimation/IUIAnimationManager::ScheduleTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.ScheduleTransition"
+f1_keywords:
+- uianimation/IUIAnimationManager.ScheduleTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.ScheduleTransition
+- IUIAnimationManager.ScheduleTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

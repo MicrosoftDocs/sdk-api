@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.GetValue
 title: IDataCollectorSet::GetValue (pla.h)
-
 description: Retrieves a user-defined value.
 old-location: pla\idatacollectorset_getvalue.htm
 tech.root: PLA
 ms.assetid: 0f82e154-7d3f-44c9-8bdd-cc1522499e85
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [PLA], GetValue method [PLA],IDataCollectorSet interface, IDataCollectorSet interface [PLA],GetValue method, IDataCollectorSet.GetValue, IDataCollectorSet::GetValue, base.idatacollectorset_getvalue, pla.idatacollectorset_getvalue, pla/IDataCollectorSet::GetValue
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.GetValue"
+f1_keywords:
+- pla/IDataCollectorSet.GetValue
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.GetValue
+- IDataCollectorSet.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

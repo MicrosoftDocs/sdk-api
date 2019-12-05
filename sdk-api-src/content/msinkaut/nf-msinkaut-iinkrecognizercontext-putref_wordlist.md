@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.putref_WordList
 title: IInkRecognizerContext::putref_WordList (msinkaut.h)
-
 description: Gets or sets the word list that is used in the recognition process to improve the recognition results.
 old-location: tablet\inkrecognizercontext_wordlist.htm
 tech.root: tablet
 ms.assetid: 893950d4-c19c-4635-ad66-6e363860280a
-
 ms.date: 12/05/2018
 ms.keywords: 893950d4-c19c-4635-ad66-6e363860280a, IInkRecognizerContext interface [Tablet PC],WordList property, IInkRecognizerContext.WordList, IInkRecognizerContext.putref_WordList, IInkRecognizerContext::WordList, IInkRecognizerContext::get_WordList, IInkRecognizerContext::putref_WordList, InkRecognizerContext.get_WordList, WordList property [Tablet PC], WordList property [Tablet PC],IInkRecognizerContext interface, get_WordList, msinkaut/IInkRecognizerContext::WordList, msinkaut/IInkRecognizerContext::get_WordList, msinkaut/IInkRecognizerContext::putref_WordList, putref_WordList, tablet.inkrecognizercontext_wordlist
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.WordList"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.WordList
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.WordList
- - IInkRecognizerContext.get_WordList
- - InkRecognizerContext.get_WordList
+- IInkRecognizerContext.WordList
+- IInkRecognizerContext.get_WordList
+- InkRecognizerContext.get_WordList
 targetos: Windows
 req.typenames: 
 req.redist: 

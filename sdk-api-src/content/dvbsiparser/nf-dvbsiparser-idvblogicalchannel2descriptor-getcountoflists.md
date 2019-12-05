@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetCountOfLists
 title: IDvbLogicalChannel2Descriptor::GetCountOfLists (dvbsiparser.h)
-
 description: Gets the number of channel lists in a Digital Video Broadcast (DVB) logical channel descriptor.
 old-location: mstv\idvblogicalchannel2descriptor_getcountoflists.htm
 tech.root: mstv
 ms.assetid: 13a439d1-c6b6-49ab-a41e-caa27e320f37
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfLists, GetCountOfLists method [Microsoft TV Technologies], GetCountOfLists method [Microsoft TV Technologies],IDvbLogicalChannel2Descriptor interface, IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies],GetCountOfLists method, IDvbLogicalChannel2Descriptor.GetCountOfLists, IDvbLogicalChannel2Descriptor::GetCountOfLists, dvbsiparser/IDvbLogicalChannel2Descriptor::GetCountOfLists, mstv.idvblogicalchannel2descriptor_getcountoflists
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannel2Descriptor.GetCountOfLists"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannel2Descriptor.GetCountOfLists
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor.GetCountOfLists
+- IDvbLogicalChannel2Descriptor.GetCountOfLists
 targetos: Windows
 req.typenames: 
 req.redist: 

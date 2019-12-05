@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx.GetWriterMetadataEx
 title: IVssBackupComponentsEx::GetWriterMetadataEx (vsbackup.h)
-
 description: The GetWriterMetadataEx method returns the metadata for a specific writer instance running on the system.
 old-location: base\ivssbackupcomponentsex_getwritermetadataex.htm
 tech.root: VSS
 ms.assetid: 19a31627-54e0-4b0d-87cf-ac18b3049310
-
 ms.date: 12/05/2018
 ms.keywords: GetWriterMetadataEx, GetWriterMetadataEx method [VSS], GetWriterMetadataEx method [VSS],IVssBackupComponentsEx interface, IVssBackupComponentsEx interface [VSS],GetWriterMetadataEx method, IVssBackupComponentsEx.GetWriterMetadataEx, IVssBackupComponentsEx::GetWriterMetadataEx, base.ivssbackupcomponentsex_getwritermetadataex, vsbackup/IVssBackupComponentsEx::GetWriterMetadataEx
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponentsEx.GetWriterMetadataEx"
+f1_keywords:
+- vsbackup/IVssBackupComponentsEx.GetWriterMetadataEx
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponentsEx.GetWriterMetadataEx
+- IVssBackupComponentsEx.GetWriterMetadataEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_ALGORITHM_IDENTIFIER
 title: BCRYPT_ALGORITHM_IDENTIFIER (bcrypt.h)
-
 description: Is used with the BCryptEnumAlgorithms function to contain a cryptographic algorithm identifier.
 old-location: security\bcrypt_algorithm_identifier_struct.htm
 tech.root: SecCNG
 ms.assetid: a49a21c9-5668-4709-b52a-f6cacd944845
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ALGORITHM_IDENTIFIER, BCRYPT_ALGORITHM_IDENTIFIER structure [Security], bcrypt/BCRYPT_ALGORITHM_IDENTIFIER, security.bcrypt_algorithm_identifier_struct
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_ALGORITHM_IDENTIFIER"
+f1_keywords:
+- bcrypt/BCRYPT_ALGORITHM_IDENTIFIER
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_ALGORITHM_IDENTIFIER
+- BCRYPT_ALGORITHM_IDENTIFIER
 targetos: Windows
 req.typenames: BCRYPT_ALGORITHM_IDENTIFIER
 req.redist: 

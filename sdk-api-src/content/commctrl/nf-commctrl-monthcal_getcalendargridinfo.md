@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetCalendarGridInfo
 title: MonthCal_GetCalendarGridInfo macro (commctrl.h)
-
 description: Gets information about a calendar grid.
 old-location: controls\MonthCal_GetCalendarGridInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetCalendarGridInfo, MonthCal_GetCalendarGridInfo macro [Windows Controls], _shell_MonthCal_GetCalendarGridInfo, _shell_MonthCal_GetCalendarGridInfo_cpp, commctrl/MonthCal_GetCalendarGridInfo, controls.MonthCal_GetCalendarGridInfo, controls._shell_MonthCal_GetCalendarGridInfo
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetCalendarGridInfo"
+f1_keywords:
+- commctrl/MonthCal_GetCalendarGridInfo
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetCalendarGridInfo
+- MonthCal_GetCalendarGridInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

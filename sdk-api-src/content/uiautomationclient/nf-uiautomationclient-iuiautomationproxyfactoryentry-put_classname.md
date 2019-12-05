@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.put_ClassName
 title: IUIAutomationProxyFactoryEntry::put_ClassName (uiautomationclient.h)
-
 description: Sets or retrieves the name of the window class served by the proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_ClassName.htm
 tech.root: WinAuto
 ms.assetid: d27bfdbb-dcdb-49d5-9871-9ac13b3b67f8
-
 ms.date: 12/05/2018
 ms.keywords: ClassName property [Windows Accessibility], ClassName property [Windows Accessibility],IUIAutomationProxyFactoryEntry interface, IUIAutomationProxyFactoryEntry interface [Windows Accessibility],ClassName property, IUIAutomationProxyFactoryEntry.ClassName, IUIAutomationProxyFactoryEntry.put_ClassName, IUIAutomationProxyFactoryEntry::ClassName, IUIAutomationProxyFactoryEntry::get_ClassName, IUIAutomationProxyFactoryEntry::put_ClassName, put_ClassName, uiauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName, uiauto_IUIAutomationProxyFactoryEntry_ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::get_ClassName, uiautomationclient/IUIAutomationProxyFactoryEntry::put_ClassName, winauto.uiauto_IUIAutomationProxyFactoryEntry_ClassName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactoryEntry.ClassName"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactoryEntry.ClassName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryEntry.ClassName
- - IUIAutomationProxyFactoryEntry.get_ClassName
- - IUIAutomationProxyFactoryEntry.put_ClassName
+- IUIAutomationProxyFactoryEntry.ClassName
+- IUIAutomationProxyFactoryEntry.get_ClassName
+- IUIAutomationProxyFactoryEntry.put_ClassName
 targetos: Windows
 req.typenames: 
 req.redist: 

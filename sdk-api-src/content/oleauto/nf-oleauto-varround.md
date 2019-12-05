@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarRound
 title: VarRound function (oleauto.h)
-
 description: Rounds a variant to the specified number of decimal places.
 old-location: automat\varround.htm
 tech.root: automat
 ms.assetid: 7713f477-f6a3-456d-a442-a78750542b03
-
 ms.date: 12/05/2018
 ms.keywords: VarRound, VarRound function [Automation], _oa96_VarRound, automat.varround, oleauto/VarRound
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarRound"
+f1_keywords:
+- oleauto/VarRound
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarRound
+- VarRound
 targetos: Windows
 req.typenames: 
 req.redist: 

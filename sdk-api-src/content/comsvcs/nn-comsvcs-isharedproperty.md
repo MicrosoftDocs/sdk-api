@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ISharedProperty
 title: ISharedProperty (comsvcs.h)
-
 description: Exposes property methods that you can use to set or retrieve the value of a shared property.
 old-location: cos\isharedproperty.htm
 tech.root: cossdk
 ms.assetid: d3c3e888-fe08-4ea6-b94c-fdfcbe7fd08a
-
 ms.date: 12/05/2018
 ms.keywords: ISharedProperty, ISharedProperty interface [COM+], ISharedProperty interface [COM+],described, _cos_ISharedProperty_Interface, comsvcs/ISharedProperty, cos.isharedproperty
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ISharedProperty"
+f1_keywords:
+- comsvcs/ISharedProperty
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISharedProperty
+- ISharedProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

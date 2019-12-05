@@ -1,19 +1,17 @@
 ---
 UID: NF:libloaderapi.LoadLibraryW
 title: LoadLibraryW function (libloaderapi.h)
-
 description: Loads the specified module into the address space of the calling process.
 old-location: base\loadlibrary.htm
 tech.root: Dlls
 ms.assetid: d936b4dd-058c-48e1-834b-b47ef6d8ef65
-
 ms.date: 12/05/2018
 ms.keywords: LoadLibrary, LoadLibrary function, LoadLibraryA, LoadLibraryW, _win32_loadlibrary, base.loadlibrary, libloaderapi/LoadLibrary, libloaderapi/LoadLibraryA, libloaderapi/LoadLibraryW, winbase/LoadLibrary, winbase/LoadLibraryA, winbase/LoadLibraryW
 ms.topic: function
-f1_keywords: 
- - "libloaderapi/LoadLibrary"
+f1_keywords:
+- libloaderapi/LoadLibrary
 dev_langs:
- - c++
+- c++
 req.header: libloaderapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,28 +30,28 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-Libraryloader-l1-2-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
- - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-Libraryloader-l1-2-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - LoadLibrary
- - LoadLibraryA
- - LoadLibraryW
+- LoadLibrary
+- LoadLibraryA
+- LoadLibraryW
 targetos: Windows
 req.typenames: 
 req.redist: 

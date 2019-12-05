@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMFilterMiscFlags
 title: IAMFilterMiscFlags (strmif.h)
-
 description: The IAMFilterMiscFlags interface queries whether a filter is a source filter or a renderer.
 old-location: dshow\iamfiltermiscflags.htm
 tech.root: DirectShow
 ms.assetid: f9f3eaf9-4afa-412f-aa8f-b75e787cfecb
-
 ms.date: 12/05/2018
 ms.keywords: IAMFilterMiscFlags, IAMFilterMiscFlags interface [DirectShow], IAMFilterMiscFlags interface [DirectShow],described, IAMFilterMiscFlagsInterface, dshow.iamfiltermiscflags, strmif/IAMFilterMiscFlags
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMFilterMiscFlags"
+f1_keywords:
+- strmif/IAMFilterMiscFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMFilterMiscFlags
+- IAMFilterMiscFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

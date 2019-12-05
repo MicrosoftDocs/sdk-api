@@ -1,19 +1,17 @@
 ---
 UID: NS:gdipluseffects.BrightnessContrastParams
 title: BrightnessContrastParams (gdipluseffects.h)
-
 description: A BrightnessContrastParams structure contains members that specify the nature of a brightness or contrast adjustment.
 old-location: gdiplus\_gdiplus_STRUC_BrightnessContrastParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\brightnesscontrastparams.htm
-
 ms.date: 12/05/2018
 ms.keywords: BrightnessContrastParams, BrightnessContrastParams structure [GDI+], _gdiplus_STRUC_BrightnessContrastParams, gdiplus._gdiplus_STRUC_BrightnessContrastParams, gdipluseffects/BrightnessContrastParams
 ms.topic: struct
-f1_keywords: 
- - "gdipluseffects/BrightnessContrastParams"
+f1_keywords:
+- gdipluseffects/BrightnessContrastParams
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluseffects.h
+- Gdipluseffects.h
 api_name:
- - BrightnessContrastParams
+- BrightnessContrastParams
 targetos: Windows
 req.typenames: 
 req.redist: 

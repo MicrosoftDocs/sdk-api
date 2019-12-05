@@ -1,19 +1,17 @@
 ---
 UID: NF:inkpresenterdesktop.IInkDesktopHost.CreateAndInitializeInkPresenter
 title: IInkDesktopHost::CreateAndInitializeInkPresenter (inkpresenterdesktop.h)
-
 description: Creates an IInkPresenterDesktop object on an application thread, connects it to the app's DirectComposition visual tree, and sets the size of the object.
 old-location: input_ink\iinkdesktophost_createandinitializeinkpresenter.htm
 tech.root: input_ink
 ms.assetid: 596e1180-04ca-474b-b519-f9ebe468fb6a
-
 ms.date: 12/05/2018
 ms.keywords: CreateAndInitializeInkPresenter, CreateAndInitializeInkPresenter method, CreateAndInitializeInkPresenter method,IInkDesktopHost interface, IInkDesktopHost interface,CreateAndInitializeInkPresenter method, IInkDesktopHost.CreateAndInitializeInkPresenter, IInkDesktopHost::CreateAndInitializeInkPresenter, InkPresenterDesktop.iinkdesktophost_createandinitializeinkpresenter, inkpresenterdesktop/IInkDesktopHost::CreateAndInitializeInkPresenter, input_ink.iinkdesktophost_createandinitializeinkpresenter
 ms.topic: method
-f1_keywords: 
- - "inkpresenterdesktop/IInkDesktopHost.CreateAndInitializeInkPresenter"
+f1_keywords:
+- inkpresenterdesktop/IInkDesktopHost.CreateAndInitializeInkPresenter
 dev_langs:
- - c++
+- c++
 req.header: inkpresenterdesktop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkPresenterDesktop.h
+- InkPresenterDesktop.h
 api_name:
- - IInkDesktopHost.CreateAndInitializeInkPresenter
+- IInkDesktopHost.CreateAndInitializeInkPresenter
 targetos: Windows
 req.typenames: 
 req.redist: 

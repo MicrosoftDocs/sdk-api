@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_IsHierarchical
 title: ISearchRoot::get_IsHierarchical (searchapi.h)
-
 description: Gets a value that indicates whether the search is rooted on a hierarchical tree structure.
 old-location: search\_search_ISearchRoot_get_IsHierarchical.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_ishierarchical.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchRoot interface [search],get_IsHierarchical method, ISearchRoot.get_IsHierarchical, ISearchRoot::get_IsHierarchical, _search_ISearchRoot_get_IsHierarchical, get_IsHierarchical, get_IsHierarchical method [search], get_IsHierarchical method [search],ISearchRoot interface, search._search_ISearchRoot_get_IsHierarchical, searchapi/ISearchRoot::get_IsHierarchical
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchRoot.get_IsHierarchical"
+f1_keywords:
+- searchapi/ISearchRoot.get_IsHierarchical
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchRoot.get_IsHierarchical
+- ISearchRoot.get_IsHierarchical
 targetos: Windows
 req.typenames: 
 req.redist: 

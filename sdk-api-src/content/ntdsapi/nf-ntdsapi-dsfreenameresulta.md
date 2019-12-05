@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsFreeNameResultA
 title: DsFreeNameResultA function (ntdsapi.h)
-
 description: Frees the memory held by a DS_NAME_RESULT structure.
 old-location: ad\dsfreenameresult.htm
 tech.root: ad
 ms.assetid: 210650a6-70b9-4d4f-b99a-106afd3fe615
-
 ms.date: 12/05/2018
 ms.keywords: DsFreeNameResult, DsFreeNameResult function [Active Directory], DsFreeNameResultA, DsFreeNameResultW, _glines_dsfreenameresult, ad.dsfreenameresult, ntdsapi/DsFreeNameResult, ntdsapi/DsFreeNameResultA, ntdsapi/DsFreeNameResultW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsFreeNameResult"
+f1_keywords:
+- ntdsapi/DsFreeNameResult
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- Ntdsapi.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsFreeNameResult
- - DsFreeNameResultA
- - DsFreeNameResultW
+- DsFreeNameResult
+- DsFreeNameResultA
+- DsFreeNameResultW
 targetos: Windows
 req.typenames: 
 req.redist: 

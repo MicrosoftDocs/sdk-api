@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Remove
 title: IInkStrokes::Remove (msinkaut.h)
-
 description: Removes an IInkStrokeDisp object from a InkStrokes collection.
 old-location: tablet\inkstrokes_remove.htm
 tech.root: tablet
 ms.assetid: ce7a7842-c7c8-4f73-8f68-05b22c2199de
-
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes interface [Tablet PC],Remove method, IInkStrokes.Remove, IInkStrokes::Remove, Remove, Remove method [Tablet PC], Remove method [Tablet PC],IInkStrokes interface, ce7a7842-c7c8-4f73-8f68-05b22c2199de, msinkaut/IInkStrokes::Remove, tablet.inkstrokes_remove
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.Remove"
+f1_keywords:
+- msinkaut/IInkStrokes.Remove
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.Remove
+- IInkStrokes.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

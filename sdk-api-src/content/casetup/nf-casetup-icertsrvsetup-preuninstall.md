@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.PreUnInstall
 title: ICertSrvSetup::PreUnInstall (casetup.h)
-
 description: Temporarily saves role-specific state information and then it uninstalls the role.
 old-location: security\icertsrvsetup_preuninstall.htm
 tech.root: SecCrypto
 ms.assetid: 2872a7fb-fe96-4ace-b5f4-af88350835ab
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],PreUnInstall method, ICertSrvSetup.PreUnInstall, ICertSrvSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PreUnInstall, security.icertsrvsetup_preuninstall
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.PreUnInstall"
+f1_keywords:
+- casetup/ICertSrvSetup.PreUnInstall
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.PreUnInstall
+- ICertSrvSetup.PreUnInstall
 targetos: Windows
 req.typenames: 
 req.redist: 

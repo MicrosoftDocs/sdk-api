@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber
 title: MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber function (mi.h)
-
 description: Gets the previously set delivery port number.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getdeliveryportnumber.htm
 tech.root: wmi_v2
 ms.assetid: 8d3d86c1-6b95-4435-8821-7a0d58a4af5c
-
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber, MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber, wmi_v2.mi_subscriptiondeliveryoptions_getdeliveryportnumber
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_GetDeliveryPortNumber
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

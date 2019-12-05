@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.ResolveLocaleName
 title: ResolveLocaleName function (winnls.h)
-
 description: Finds a possible locale name match for the supplied name.
 old-location: intl\resolvelocalename.htm
 tech.root: Intl
 ms.assetid: 99264b22-3fb5-47e2-b0b9-42a6768e67c1
-
 ms.date: 12/05/2018
 ms.keywords: ResolveLocaleName, ResolveLocaleName function [Internationalization for Windows Applications], intl.resolvelocalename, winnls/ResolveLocaleName
 ms.topic: function
-f1_keywords: 
- - "winnls/ResolveLocaleName"
+f1_keywords:
+- winnls/ResolveLocaleName
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - ResolveLocaleName
+- ResolveLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

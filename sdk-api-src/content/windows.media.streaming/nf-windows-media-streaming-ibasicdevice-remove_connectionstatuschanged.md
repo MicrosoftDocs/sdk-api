@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IBasicDevice.remove_ConnectionStatusChanged
 title: IBasicDevice::streaming (windows.media.streaming.h)
-
 description: Unregisters an event handler for the ConnectionStatusChanged event.
 old-location: mediastreaming\ibasicdevice_remove_connectionstatuschanged.htm
 tech.root: mediastreaming
 ms.assetid: 577D9C50-486D-441A-A9FE-AF79D1FC2B52
-
 ms.date: 12/05/2018
 ms.keywords: IBasicDevice interface [Media Streaming API],remove_ConnectionStatusChanged method, IBasicDevice.remove_ConnectionStatusChanged, IBasicDevice.streaming, IBasicDevice::remove_ConnectionStatusChanged, IBasicDevice::streaming, mediastreaming.ibasicdevice_remove_connectionstatuschanged, remove_ConnectionStatusChanged, remove_ConnectionStatusChanged method [Media Streaming API], remove_ConnectionStatusChanged method [Media Streaming API],IBasicDevice interface, windows/IBasicDevice::remove_ConnectionStatusChanged
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IBasicDevice.remove_ConnectionStatusChanged"
+f1_keywords:
+- windows.media.streaming/IBasicDevice.remove_ConnectionStatusChanged
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IBasicDevice.remove_ConnectionStatusChanged
+- IBasicDevice.remove_ConnectionStatusChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.IRdcFileWriter
 title: IRdcFileWriter (msrdc.h)
-
 description: Abstract interface to read from and write to a file.
 old-location: rdc\irdcfilewriter.htm
 tech.root: rdc
 ms.assetid: 8b6ac8d0-37fd-4bd3-aa44-5b57f546364d
-
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter, IRdcFileWriter interface [Remote Differential Compression], IRdcFileWriter interface [Remote Differential Compression],described, fs.irdcfilewriter, msrdc/IRdcFileWriter, rdc.irdcfilewriter
 ms.topic: interface
-f1_keywords: 
- - "msrdc/IRdcFileWriter"
+f1_keywords:
+- msrdc/IRdcFileWriter
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcFileWriter
+- IRdcFileWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

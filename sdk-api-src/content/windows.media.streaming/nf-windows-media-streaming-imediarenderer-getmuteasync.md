@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetMuteAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-
 description: Queries the DMR asynchronously to determine if audio is currently muted or unmuted.
 old-location: mediastreaming\imediarenderer_getmuteasync.htm
 tech.root: mediastreaming
 ms.assetid: 411CAF71-2888-46A3-8777-80B0D6D9CDE5
-
 ms.date: 12/05/2018
 ms.keywords: GetMuteAsync, GetMuteAsync method [Media Streaming API], GetMuteAsync method [Media Streaming API],IMediaRenderer interface, IMediaRenderer interface [Media Streaming API],GetMuteAsync method, IMediaRenderer.GetMuteAsync, IMediaRenderer.streaming, IMediaRenderer::GetMuteAsync, IMediaRenderer::streaming, mediastreaming.imediarenderer_getmuteasync, windows/IMediaRenderer::GetMuteAsync
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IMediaRenderer.GetMuteAsync"
+f1_keywords:
+- windows.media.streaming/IMediaRenderer.GetMuteAsync
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IMediaRenderer.GetMuteAsync
+- IMediaRenderer.GetMuteAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:fdi.__unnamed_struct_0
 title: FDICABINETINFO (fdi.h)
-
 description: The FDICABINETINFO structure contains details about a particular cabinet file.
 old-location: winprog\fdicabinetinfo.htm
 tech.root: DevNotes
 ms.assetid: fde1a2ca-60cd-4a4d-9872-681e2f8f4fb1
-
 ms.date: 12/05/2018
-ms.keywords: "*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API], FDICABINETINFO structure [Windows API], fdi/FDICABINETINFO, winprog.fdicabinetinfo"
+ms.keywords: '*PFDICABINETINFO, FDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO, FDICABINETINFO FAR *PFDICABINETINFO structure [Windows API], FDICABINETINFO structure [Windows API], fdi/FDICABINETINFO, winprog.fdicabinetinfo'
 ms.topic: struct
-f1_keywords: 
- - "fdi/FDICABINETINFO FAR *PFDICABINETINFO"
+f1_keywords:
+- fdi/FDICABINETINFO FAR *PFDICABINETINFO
 dev_langs:
- - c++
+- c++
 req.header: fdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fdi.h
+- Fdi.h
 api_name:
- - FDICABINETINFO FAR *PFDICABINETINFO
+- FDICABINETINFO FAR *PFDICABINETINFO
 targetos: Windows
 req.typenames: FDICABINETINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfTextLayoutSink
 title: ITfTextLayoutSink (msctf.h)
-
 description: The ITfTextLayoutSink interface supports the context layout change by an application. Install this advise sink by calling ITfSource::AdviseSink with IID_ITfTextLayoutSink. A text service can optionally implement this interface.
 old-location: tsf\itftextlayoutsink.htm
 tech.root: TSF
 ms.assetid: 370e30a8-6eed-448a-87c7-7fd01e9973c6
-
 ms.date: 12/05/2018
 ms.keywords: ITfTextLayoutSink, ITfTextLayoutSink interface [Text Services Framework], ITfTextLayoutSink interface [Text Services Framework],described, _tsf_itftextlayoutsink_ref, msctf/ITfTextLayoutSink, tsf.itftextlayoutsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfTextLayoutSink"
+f1_keywords:
+- msctf/ITfTextLayoutSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITfTextLayoutSink
+- ITfTextLayoutSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIWindow
 title: IRDPSRAPIWindow (rdpencomapi.h)
-
 description: Represents a one-to-one mapping to a sharable window.
 old-location: rdp\irdpsrapiwindow.htm
 tech.root: rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIWindow, IRDPSRAPIWindow interface [RDP], IRDPSRAPIWindow interface [RDP],described, rdp.irdpsrapiwindow, rdpencomapi/IRDPSRAPIWindow
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIWindow"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIWindow
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIWindow
+- IRDPSRAPIWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

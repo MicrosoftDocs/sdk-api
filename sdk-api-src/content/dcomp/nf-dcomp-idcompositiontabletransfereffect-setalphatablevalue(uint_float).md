@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetAlphaTableValue(UINT,float)
 title: IDCompositionTableTransferEffect::SetAlphaTableValue (dcomp.h)
-
 description: Sets a value in the alpha table.
 old-location: directcomp\idcompositiontabletransfereffect_setalphatablevalue.htm
 tech.root: directcomp
 ms.assetid: 53821725-EB51-47C4-9C9F-403D41FD1FA4
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTableTransferEffect interface [DirectComposition],SetAlphaTableValue method, IDCompositionTableTransferEffect.SetAlphaTableValue, IDCompositionTableTransferEffect::SetAlphaTableValue, IDCompositionTableTransferEffect::SetAlphaTableValue(UINT,float), SetAlphaTableValue, SetAlphaTableValue method [DirectComposition], SetAlphaTableValue method [DirectComposition],IDCompositionTableTransferEffect interface, dcomp/IDCompositionTableTransferEffect::SetAlphaTableValue, directcomp.idcompositiontabletransfereffect_setalphatablevalue
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTableTransferEffect.SetAlphaTableValue"
+f1_keywords:
+- dcomp/IDCompositionTableTransferEffect.SetAlphaTableValue
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTableTransferEffect.SetAlphaTableValue
+- IDCompositionTableTransferEffect.SetAlphaTableValue
 targetos: Windows
 req.typenames: 
 req.redist: 

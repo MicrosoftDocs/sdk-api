@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMemInputPin
 title: IMemInputPin (strmif.h)
-
 description: The IMemInputPin interface delivers media data to an input pin.
 old-location: dshow\imeminputpin.htm
 tech.root: DirectShow
 ms.assetid: a4407c6f-6bb5-4274-920b-8bf7d76268bc
-
 ms.date: 12/05/2018
 ms.keywords: IMemInputPin, IMemInputPin interface [DirectShow], IMemInputPin interface [DirectShow],described, IMemInputPinInterface, dshow.imeminputpin, strmif/IMemInputPin
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMemInputPin"
+f1_keywords:
+- strmif/IMemInputPin
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemInputPin
+- IMemInputPin
 targetos: Windows
 req.typenames: 
 req.redist: 

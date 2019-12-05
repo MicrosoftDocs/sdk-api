@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVfwCaptureDialogs.HasDialog
 title: IAMVfwCaptureDialogs::HasDialog (strmif.h)
-
 description: The HasDialog method determines if the specified dialog box exists in the driver.
 old-location: dshow\iamvfwcapturedialogs_hasdialog.htm
 tech.root: DirectShow
 ms.assetid: be2d9b1f-c53f-4a75-89ab-ec07c655cbea
-
 ms.date: 12/05/2018
 ms.keywords: HasDialog, HasDialog method [DirectShow], HasDialog method [DirectShow],IAMVfwCaptureDialogs interface, IAMVfwCaptureDialogs interface [DirectShow],HasDialog method, IAMVfwCaptureDialogs.HasDialog, IAMVfwCaptureDialogs::HasDialog, IAMVfwCaptureDialogsHasDialog, dshow.iamvfwcapturedialogs_hasdialog, strmif/IAMVfwCaptureDialogs::HasDialog
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVfwCaptureDialogs.HasDialog"
+f1_keywords:
+- strmif/IAMVfwCaptureDialogs.HasDialog
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVfwCaptureDialogs.HasDialog
+- IAMVfwCaptureDialogs.HasDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

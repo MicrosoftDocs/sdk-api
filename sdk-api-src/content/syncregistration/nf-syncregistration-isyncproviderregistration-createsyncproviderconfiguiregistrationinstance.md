@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
 title: ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance (syncregistration.h)
-
 description: Creates an in-memory instance of a synchronization provider configuration UI.
 old-location: winsync\isyncproviderregistration_createsyncproviderconfiguiregistrationinstance.htm
 tech.root: winsync
 ms.assetid: a61b07b3-45ce-429e-9641-4cebc5b44c1b
-
 ms.date: 12/05/2018
 ms.keywords: CreateSyncProviderConfigUIRegistrationInstance, CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync], CreateSyncProviderConfigUIRegistrationInstance method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],CreateSyncProviderConfigUIRegistrationInstance method, ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance, ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, syncregistration/ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance, winsync.isyncproviderregistration_createsyncproviderconfiguiregistrationinstance
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
+- ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

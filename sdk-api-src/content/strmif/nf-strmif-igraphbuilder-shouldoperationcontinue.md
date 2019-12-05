@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphBuilder.ShouldOperationContinue
 title: IGraphBuilder::ShouldOperationContinue (strmif.h)
-
 description: The ShouldOperationContinue method queries whether the current operation should continue.
 old-location: dshow\igraphbuilder_shouldoperationcontinue.htm
 tech.root: DirectShow
 ms.assetid: 0d862a41-6896-40a5-8bfc-129b15dfc671
-
 ms.date: 12/05/2018
 ms.keywords: IGraphBuilder interface [DirectShow],ShouldOperationContinue method, IGraphBuilder.ShouldOperationContinue, IGraphBuilder::ShouldOperationContinue, IGraphBuilderShouldOperationContinue, ShouldOperationContinue, ShouldOperationContinue method [DirectShow], ShouldOperationContinue method [DirectShow],IGraphBuilder interface, dshow.igraphbuilder_shouldoperationcontinue, strmif/IGraphBuilder::ShouldOperationContinue
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphBuilder.ShouldOperationContinue"
+f1_keywords:
+- strmif/IGraphBuilder.ShouldOperationContinue
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphBuilder.ShouldOperationContinue
+- IGraphBuilder.ShouldOperationContinue
 targetos: Windows
 req.typenames: 
 req.redist: 

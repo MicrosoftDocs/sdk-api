@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.IRdcComparator
 title: IRdcComparator (msrdc.h)
-
 description: Used to compare two signature streams (seed and source) and produce the list of source and seed file data chunks needed to create the target file.
 old-location: rdc\irdccomparator.htm
 tech.root: rdc
 ms.assetid: ad39b922-3271-491e-b74b-80a1f647e663
-
 ms.date: 12/05/2018
 ms.keywords: IRdcComparator, IRdcComparator interface [Remote Differential Compression], IRdcComparator interface [Remote Differential Compression],described, fs.irdccomparator, msrdc/IRdcComparator, rdc.irdccomparator
 ms.topic: interface
-f1_keywords: 
- - "msrdc/IRdcComparator"
+f1_keywords:
+- msrdc/IRdcComparator
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcComparator
+- IRdcComparator
 targetos: Windows
 req.typenames: 
 req.redist: 

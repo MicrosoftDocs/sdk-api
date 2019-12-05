@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFsiDirectoryItem2
 title: IFsiDirectoryItem2 (imapi2fs.h)
-
 description: Use this interface to add a directory tree, which includes all sub-directories, files, and associated named streams to a file system image.
 old-location: imapi\ifsidirectoryitem2.htm
 tech.root: imapi
 ms.assetid: fed2a858-d710-46be-a05b-dce7ef484636
-
 ms.date: 12/05/2018
 ms.keywords: IFsiDirectoryItem2, IFsiDirectoryItem2 interface [IMAPI], IFsiDirectoryItem2 interface [IMAPI],described, imapi.ifsidirectoryitem2, imapi2fs/IFsiDirectoryItem2
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFsiDirectoryItem2"
+f1_keywords:
+- imapi2fs/IFsiDirectoryItem2
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiDirectoryItem2
+- IFsiDirectoryItem2
 targetos: Windows
 req.typenames: 
 req.redist: 

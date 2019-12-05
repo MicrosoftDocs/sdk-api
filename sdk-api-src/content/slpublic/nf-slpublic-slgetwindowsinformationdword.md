@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetWindowsInformationDWORD
 title: SLGetWindowsInformationDWORD function (slpublic.h)
-
 description: Retrieves the DWORD value portion of a name-value pair from the licensing policy of a software component.
 old-location: security\slgetwindowsinformationdword.htm
 tech.root: SecSLApi
 ms.assetid: 27f59d01-93d5-4bf8-aab2-77243431cc0c
-
 ms.date: 12/05/2018
 ms.keywords: SLGetWindowsInformationDWORD, SLGetWindowsInformationDWORD function [Security], security.slgetwindowsinformationdword, slpublic/SLGetWindowsInformationDWORD
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLGetWindowsInformationDWORD"
+f1_keywords:
+- slpublic/SLGetWindowsInformationDWORD
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLGetWindowsInformationDWORD
+- SLGetWindowsInformationDWORD
 targetos: Windows
 req.typenames: 
 req.redist: 

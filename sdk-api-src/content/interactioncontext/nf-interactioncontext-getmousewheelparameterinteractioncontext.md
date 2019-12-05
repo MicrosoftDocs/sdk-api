@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.GetMouseWheelParameterInteractionContext
 title: GetMouseWheelParameterInteractionContext function (interactioncontext.h)
-
 description: Gets the mouse wheel state for the Interaction Context object.
 old-location: input_intcontext\getmousewheelparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 2edb742d-a5a1-4c3b-bc0f-c119a2f1c221
-
 ms.date: 12/05/2018
 ms.keywords: GetMouseWheelParameterInteractionContext, GetMouseWheelParameterInteractionContext function, input_intcontext.getmousewheelparameterinteractioncontext, interactioncontext.getmousewheelparameterinteractioncontext, interactioncontext/GetMouseWheelParameterInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/GetMouseWheelParameterInteractionContext"
+f1_keywords:
+- interactioncontext/GetMouseWheelParameterInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
+- ninput.dll
 api_name:
- - GetMouseWheelParameterInteractionContext
+- GetMouseWheelParameterInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

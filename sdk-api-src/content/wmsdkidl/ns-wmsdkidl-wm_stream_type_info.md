@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMStreamTypeInfo
 title: WM_STREAM_TYPE_INFO (wmsdkidl.h)
-
 description: The WM_STREAM_TYPE_INFO structure is used as the data item for the WM/StreamTypeInfo complex metadata attribute. It stores the major type and the size of the associated format data.
 old-location: wmformat\wm_stream_type_info.htm
 tech.root: wmformat
 ms.assetid: 9e8f2670-555a-478a-99c2-3a4de7f8cfa1
-
 ms.date: 12/05/2018
 ms.keywords: WM_STREAM_TYPE_INFO, WM_STREAM_TYPE_INFO structure [windows Media Format], structure [windows Media Format], wmformat.wm_stream_type_info, wmsdkidl/WM_STREAM_TYPE_INFO
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_STREAM_TYPE_INFO"
+f1_keywords:
+- wmsdkidl/WM_STREAM_TYPE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_STREAM_TYPE_INFO
+- WM_STREAM_TYPE_INFO
 targetos: Windows
 req.typenames: WM_STREAM_TYPE_INFO
 req.redist: 

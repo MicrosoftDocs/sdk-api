@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.IAssemblyName.IsEqual
 title: IAssemblyName::IsEqual (winsxs.h)
-
 description: The IsEqual method compares the current assembly name to another assembly name.
 old-location: setup\iassemblyname_isequal.htm
 tech.root: SbsCs
 ms.assetid: 798102ce-b696-4940-941d-c3fd3054c584
-
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],IsEqual method, IAssemblyName.IsEqual, IAssemblyName::IsEqual, IsEqual, IsEqual method [Side-by-side Assemblies], IsEqual method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_isequal, winsxs/IAssemblyName::IsEqual
 ms.topic: method
-f1_keywords: 
- - "winsxs/IAssemblyName.IsEqual"
+f1_keywords:
+- winsxs/IAssemblyName.IsEqual
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyName.IsEqual
+- IAssemblyName.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

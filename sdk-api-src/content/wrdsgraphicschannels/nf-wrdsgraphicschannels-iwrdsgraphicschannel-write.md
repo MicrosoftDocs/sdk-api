@@ -1,19 +1,17 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannel.Write
 title: IWRdsGraphicsChannel::Write (wrdsgraphicschannels.h)
-
 description: Called to send data to the virtual channel.
 old-location: termserv\iwrdsgraphicschannel_write.htm
 tech.root: TermServ
 ms.assetid: 6ce627d8-078d-427a-b732-473d4f44f719
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannel interface [Remote Desktop Services],Write method, IWRdsGraphicsChannel.Write, IWRdsGraphicsChannel::Write, Write, Write method [Remote Desktop Services], Write method [Remote Desktop Services],IWRdsGraphicsChannel interface, termserv.iwrdsgraphicschannel_write, wrdsgraphicschannels/IWRdsGraphicsChannel::Write
 ms.topic: method
-f1_keywords: 
- - "wrdsgraphicschannels/IWRdsGraphicsChannel.Write"
+f1_keywords:
+- wrdsgraphicschannels/IWRdsGraphicsChannel.Write
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannel.Write
+- IWRdsGraphicsChannel.Write
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustomAttribute
 title: TraceLoggingCustomAttribute macro (traceloggingprovider.h)
-
 description: Wrapper macro for adding custom information about an event to the PDB.
 old-location: tracelogging\traceloggingcustomattribute.htm
 tech.root: tracelogging
 ms.assetid: D58950A3-105D-43C7-8B8B-61CC1F0D4DA0
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingCustomAttribute, TraceLoggingCustomAttribute macro, tracelogging.traceloggingcustomattribute, traceloggingprovider/TraceLoggingCustomAttribute
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingCustomAttribute"
+f1_keywords:
+- traceloggingprovider/TraceLoggingCustomAttribute
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingCustomAttribute
+- TraceLoggingCustomAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ICivicAddressReport.GetAddressLine1
 title: ICivicAddressReport::GetAddressLine1 (locationapi.h)
-
 description: Retrieves the first line of a street address.
 old-location: winlocation_com_ref\icivicaddressreport_getaddressline1.htm
 tech.root: locationapi
 ms.assetid: 946f0e69-7139-45e9-8da4-755225ce1bd1
-
 ms.date: 12/05/2018
 ms.keywords: GetAddressLine1, GetAddressLine1 method [WinLocation], GetAddressLine1 method [WinLocation],ICivicAddressReport interface, ICivicAddressReport interface [WinLocation],GetAddressLine1 method, ICivicAddressReport.GetAddressLine1, ICivicAddressReport::GetAddressLine1, WinLocation_COM_Ref.icivicaddressreport_getaddressline1, locationapi/ICivicAddressReport::GetAddressLine1
 ms.topic: method
-f1_keywords: 
- - "locationapi/ICivicAddressReport.GetAddressLine1"
+f1_keywords:
+- locationapi/ICivicAddressReport.GetAddressLine1
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ICivicAddressReport.GetAddressLine1
+- ICivicAddressReport.GetAddressLine1
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Heap.GetDesc
 title: ID3D12Heap::GetDesc (d3d12.h)
-
 description: Gets the heap description.
 old-location: direct3d12\id3d12heap_getdesc.htm
 tech.root: direct3d12
 ms.assetid: 45237F32-FBDE-49FF-926F-80B914B36AE5
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12Heap interface, ID3D12Heap interface,GetDesc method, ID3D12Heap.GetDesc, ID3D12Heap::GetDesc, d3d12/ID3D12Heap::GetDesc, direct3d12.id3d12heap_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Heap.GetDesc"
+f1_keywords:
+- d3d12/ID3D12Heap.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12Heap.GetDesc
+- ID3D12Heap.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

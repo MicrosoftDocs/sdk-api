@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcClose
 title: EcClose function (evcoll.h)
-
 description: Closes a handle received from other Event Collector functions.
 old-location: wec\ecclose.htm
 tech.root: WEC
 ms.assetid: a2dc71e3-7580-4484-9a08-4e3ee2139921
-
 ms.date: 12/05/2018
 ms.keywords: EcClose, EcClose function, evcoll/EcClose, wec.ecclose, wes.ecclose
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcClose"
+f1_keywords:
+- evcoll/EcClose
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcClose
+- EcClose
 targetos: Windows
 req.typenames: 
 req.redist: 

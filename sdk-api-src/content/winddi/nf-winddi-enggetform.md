@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetForm
 title: EngGetForm function (winddi.h)
-
 description: The EngGetForm function gets the FORM_INFO_1 details for the specified form.
 old-location: display\enggetform.htm
 tech.root: display
 ms.assetid: b5cc37b1-3e5e-4d3b-b23f-1f737c8dcd28
-
 ms.date: 12/05/2018
 ms.keywords: EngGetForm, EngGetForm function [Display Devices], display.enggetform, gdifncs_178cf402-6353-453e-99c8-0164b0552231.xml, winddi/EngGetForm
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetForm"
+f1_keywords:
+- winddi/EngGetForm
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGetForm
+- EngGetForm
 targetos: Windows
 req.typenames: 
 req.redist: 

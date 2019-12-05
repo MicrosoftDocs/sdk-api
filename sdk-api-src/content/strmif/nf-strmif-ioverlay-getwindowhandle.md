@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IOverlay.GetWindowHandle
 title: IOverlay::GetWindowHandle (strmif.h)
-
 description: The GetWindowHandle method retrieves the current window handle.
 old-location: dshow\ioverlay_getwindowhandle.htm
 tech.root: DirectShow
 ms.assetid: f2d4cc53-ab0a-4c15-9818-3f312a13d4e1
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowHandle, GetWindowHandle method [DirectShow], GetWindowHandle method [DirectShow],IOverlay interface, IOverlay interface [DirectShow],GetWindowHandle method, IOverlay.GetWindowHandle, IOverlay::GetWindowHandle, IOverlayGetWindowHandle, dshow.ioverlay_getwindowhandle, strmif/IOverlay::GetWindowHandle
 ms.topic: method
-f1_keywords: 
- - "strmif/IOverlay.GetWindowHandle"
+f1_keywords:
+- strmif/IOverlay.GetWindowHandle
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IOverlay.GetWindowHandle
+- IOverlay.GetWindowHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

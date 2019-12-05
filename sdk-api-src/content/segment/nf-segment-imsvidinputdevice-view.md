@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidInputDevice.View
 title: IMSVidInputDevice::View (segment.h)
-
 description: The View method configures this input device to view the specified tune request.
 old-location: mstv\imsvidinputdevice_view.htm
 tech.root: mstv
 ms.assetid: f106e520-86e5-4b7e-8e16-1f82797f128f
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidInputDevice interface [Microsoft TV Technologies],View method, IMSVidInputDevice.View, IMSVidInputDevice::View, IMSVidInputDeviceView, View, View method [Microsoft TV Technologies], View method [Microsoft TV Technologies],IMSVidInputDevice interface, mstv.imsvidinputdevice_view, segment/IMSVidInputDevice::View
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidInputDevice.View"
+f1_keywords:
+- segment/IMSVidInputDevice.View
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidInputDevice.View
+- IMSVidInputDevice.View
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsServiceIscsi.RememberTargetSharedSecret
 title: IVdsServiceIscsi::RememberTargetSharedSecret (vds.h)
-
 description: Communicates the CHAP shared secret of a target to the initiator service. This shared secret is used during target login when the target authenticates the initiator.
 old-location: base\ivdsserviceiscsi_remembertargetsharedsecret.htm
 tech.root: VDS
 ms.assetid: fefe37aa-48c8-4ff4-b302-c6e95c1ffa5e
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceIscsi interface [VDS],RememberTargetSharedSecret method, IVdsServiceIscsi.RememberTargetSharedSecret, IVdsServiceIscsi::RememberTargetSharedSecret, RememberTargetSharedSecret, RememberTargetSharedSecret method [VDS], RememberTargetSharedSecret method [VDS],IVdsServiceIscsi interface, base.ivdsserviceiscsi_remembertargetsharedsecret, vds/IVdsServiceIscsi::RememberTargetSharedSecret
 ms.topic: method
 f1_keywords:
 - vds/IVdsServiceIscsi.RememberTargetSharedSecret
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

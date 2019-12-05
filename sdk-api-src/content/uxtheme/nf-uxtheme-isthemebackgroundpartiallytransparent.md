@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.IsThemeBackgroundPartiallyTransparent
 title: IsThemeBackgroundPartiallyTransparent function (uxtheme.h)
-
 description: Retrieves whether the background specified by the visual style has transparent pieces or alpha-blended pieces.
 old-location: controls\IsThemeBackgroundPartiallyTransparent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemebackgroundpartiallytransparent.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsThemeBackgroundPartiallyTransparent, IsThemeBackgroundPartiallyTransparent function [Windows Controls], controls.IsThemeBackgroundPartiallyTransparent, controls.inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent, inet_IsThemeBackgroundPartiallyTransparent_cpp, uxtheme/IsThemeBackgroundPartiallyTransparent
 ms.topic: function
-f1_keywords: 
- - "uxtheme/IsThemeBackgroundPartiallyTransparent"
+f1_keywords:
+- uxtheme/IsThemeBackgroundPartiallyTransparent
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - IsThemeBackgroundPartiallyTransparent
+- IsThemeBackgroundPartiallyTransparent
 targetos: Windows
 req.typenames: 
 req.redist: 

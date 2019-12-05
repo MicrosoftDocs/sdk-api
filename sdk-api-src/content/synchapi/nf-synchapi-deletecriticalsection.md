@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.DeleteCriticalSection
 title: DeleteCriticalSection function (synchapi.h)
-
 description: Releases all resources used by an unowned critical section object.
 old-location: base\deletecriticalsection.htm
 tech.root: Sync
 ms.assetid: 97e29fc3-b155-448e-aaa9-19f0fc2d841e
-
 ms.date: 12/05/2018
 ms.keywords: DeleteCriticalSection, DeleteCriticalSection function, _win32_deletecriticalsection, base.deletecriticalsection, synchapi/DeleteCriticalSection, winbase/DeleteCriticalSection
 ms.topic: function
-f1_keywords: 
- - "synchapi/DeleteCriticalSection"
+f1_keywords:
+- synchapi/DeleteCriticalSection
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- vertdll.dll
 api_name:
- - DeleteCriticalSection
+- DeleteCriticalSection
 targetos: Windows
 req.typenames: 
 req.redist: 

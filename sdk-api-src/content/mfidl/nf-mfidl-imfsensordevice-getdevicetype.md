@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorDevice.GetDeviceType
 title: IMFSensorDevice::GetDeviceType (mfidl.h)
-
 description: Gets a value that specifies the type of sensor device represented by the object.
 old-location: mf\imfsensordevice_getdevicetype.htm
 tech.root: medfound
 ms.assetid: 6714B5A8-83F2-44CD-B061-749EA6BFBF20
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceType, GetDeviceType method [Media Foundation], GetDeviceType method [Media Foundation],IMFSensorDevice interface, IMFSensorDevice interface [Media Foundation],GetDeviceType method, IMFSensorDevice.GetDeviceType, IMFSensorDevice::GetDeviceType, mf.imfsensordevice_getdevicetype, mfidl/IMFSensorDevice::GetDeviceType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorDevice.GetDeviceType"
+f1_keywords:
+- mfidl/IMFSensorDevice.GetDeviceType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorDevice.GetDeviceType
+- IMFSensorDevice.GetDeviceType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIResource.SetEvictionPriority
 title: IDXGIResource::SetEvictionPriority (dxgi.h)
-
 description: Set the priority for evicting the resource from memory.
 old-location: direct3ddxgi\idxgiresource_setevictionpriority.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_setevictionpriority.htm
-
 ms.date: 12/05/2018
 ms.keywords: 27202bac-1045-b4a9-634f-9fe77668f2ab, DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000), DXGI_RESOURCE_PRIORITY_LOW (0x50000000), DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000), DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000), DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000), IDXGIResource interface [DXGI],SetEvictionPriority method, IDXGIResource.SetEvictionPriority, IDXGIResource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [DXGI], SetEvictionPriority method [DXGI],IDXGIResource interface, direct3ddxgi.idxgiresource_setevictionpriority, dxgi/IDXGIResource::SetEvictionPriority
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIResource.SetEvictionPriority"
+f1_keywords:
+- dxgi/IDXGIResource.SetEvictionPriority
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIResource.SetEvictionPriority
+- IDXGIResource.SetEvictionPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetRecordContentNibbles
 title: IDvbContentDescriptor::GetRecordContentNibbles (dvbsiparser.h)
-
 description: Gets the two 4-bit fields that make up a DVB-defined identifier for a content descriptor.
 old-location: mstv\idvbcontentdescriptor_getrecordcontentnibbles.htm
 tech.root: mstv
 ms.assetid: 2b05403a-cf9e-4f23-907f-ffb90b6fc5e3
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordContentNibbles, GetRecordContentNibbles method [Microsoft TV Technologies], GetRecordContentNibbles method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetRecordContentNibbles method, IDvbContentDescriptor.GetRecordContentNibbles, IDvbContentDescriptor::GetRecordContentNibbles, dvbsiparser/IDvbContentDescriptor::GetRecordContentNibbles, mstv.idvbcontentdescriptor_getrecordcontentnibbles
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbContentDescriptor.GetRecordContentNibbles"
+f1_keywords:
+- dvbsiparser/IDvbContentDescriptor.GetRecordContentNibbles
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbContentDescriptor.GetRecordContentNibbles
+- IDvbContentDescriptor.GetRecordContentNibbles
 targetos: Windows
 req.typenames: 
 req.redist: 

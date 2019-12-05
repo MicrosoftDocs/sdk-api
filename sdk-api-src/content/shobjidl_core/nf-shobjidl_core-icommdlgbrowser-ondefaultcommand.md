@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser.OnDefaultCommand
 title: ICommDlgBrowser::OnDefaultCommand (shobjidl_core.h)
-
 description: Called when a user double-clicks in the view or presses the ENTER key.
 old-location: shell\ICommDlgBrowser_OnDefaultCommand.htm
 tech.root: shell
 ms.assetid: 827af758-63df-42bb-9ecf-087bc974710a
-
 ms.date: 12/05/2018
 ms.keywords: ICommDlgBrowser interface [Windows Shell],OnDefaultCommand method, ICommDlgBrowser.OnDefaultCommand, ICommDlgBrowser::OnDefaultCommand, OnDefaultCommand, OnDefaultCommand method [Windows Shell], OnDefaultCommand method [Windows Shell],ICommDlgBrowser interface, _win32_ICommDlgBrowser_OnDefaultCommand, shell.ICommDlgBrowser_OnDefaultCommand, shobjidl_core/ICommDlgBrowser::OnDefaultCommand
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICommDlgBrowser.OnDefaultCommand"
+f1_keywords:
+- shobjidl_core/ICommDlgBrowser.OnDefaultCommand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICommDlgBrowser.OnDefaultCommand
+- ICommDlgBrowser.OnDefaultCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantGetInt64Elem
 title: VariantGetInt64Elem function (propvarutil.h)
-
 description: Extracts a single Int64 element from a variant structure.
 old-location: properties\VariantGetInt64Elem.htm
 tech.root: properties
 ms.assetid: 285705d3-3b8e-40ad-abf2-1adc5adda3d8
-
 ms.date: 12/05/2018
 ms.keywords: VariantGetInt64Elem, VariantGetInt64Elem function [Windows Properties], _shell_VariantGetInt64Elem, properties.VariantGetInt64Elem, propvarutil/VariantGetInt64Elem, shell.VariantGetInt64Elem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantGetInt64Elem"
+f1_keywords:
+- propvarutil/VariantGetInt64Elem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantGetInt64Elem
+- VariantGetInt64Elem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

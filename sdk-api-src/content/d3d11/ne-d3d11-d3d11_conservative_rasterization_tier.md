@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_CONSERVATIVE_RASTERIZATION_TIER
 title: D3D11_CONSERVATIVE_RASTERIZATION_TIER (d3d11.h)
-
 description: Specifies if the hardware and driver support conservative rasterization and at what tier level.
 old-location: direct3d11\d3d11_conservative_rasterization_tier.htm
 tech.root: direct3d11
 ms.assetid: 1409ACE8-960C-4297-80D9-DAD3CD1886AD
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_CONSERVATIVE_RASTERIZATION_NOT_SUPPORTED, D3D11_CONSERVATIVE_RASTERIZATION_TIER, D3D11_CONSERVATIVE_RASTERIZATION_TIER enumeration [Direct3D 11], D3D11_CONSERVATIVE_RASTERIZATION_TIER_1, D3D11_CONSERVATIVE_RASTERIZATION_TIER_2, D3D11_CONSERVATIVE_RASTERIZATION_TIER_3, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_NOT_SUPPORTED, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER_1, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER_2, d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER_3, direct3d11.d3d11_conservative_rasterization_tier
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER"
+f1_keywords:
+- d3d11/D3D11_CONSERVATIVE_RASTERIZATION_TIER
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_CONSERVATIVE_RASTERIZATION_TIER
+- D3D11_CONSERVATIVE_RASTERIZATION_TIER
 targetos: Windows
 req.typenames: D3D11_CONSERVATIVE_RASTERIZATION_TIER
 req.redist: 

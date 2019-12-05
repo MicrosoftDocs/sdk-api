@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.DateTime_GetMonthCalColor
 title: DateTime_GetMonthCalColor macro (commctrl.h)
-
 description: Gets the color for a given portion of the month calendar within a date and time picker (DTP) control. You can use this macro or send the DTM_GETMCCOLOR message explicitly.
 old-location: controls\DateTime_GetMonthCalColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getmonthcalcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: DateTime_GetMonthCalColor, DateTime_GetMonthCalColor macro [Windows Controls], MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, _win32_DateTime_GetMonthCalColor, _win32_DateTime_GetMonthCalColor_cpp, commctrl/DateTime_GetMonthCalColor, controls.DateTime_GetMonthCalColor, controls._win32_DateTime_GetMonthCalColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/DateTime_GetMonthCalColor"
+f1_keywords:
+- commctrl/DateTime_GetMonthCalColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - DateTime_GetMonthCalColor
+- DateTime_GetMonthCalColor
 targetos: Windows
 req.typenames: 
 req.redist: 

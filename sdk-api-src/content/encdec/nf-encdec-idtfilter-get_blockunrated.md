@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockUnRated
 title: IDTFilter::get_BlockUnRated (encdec.h)
-
 description: The get_BlockUnRated method indicates whether a program without rating information is blocked.
 old-location: mstv\idtfilter_get_blockunrated.htm
 tech.root: mstv
 ms.assetid: 9b8ecc6b-02e8-47e9-a8df-6e73d58dd177
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRated method, IDTFilter.get_BlockUnRated, IDTFilter::get_BlockUnRated, IDTFilterget_BlockUnRated, encdec/IDTFilter::get_BlockUnRated, get_BlockUnRated, get_BlockUnRated method [Microsoft TV Technologies], get_BlockUnRated method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrated
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter.get_BlockUnRated"
+f1_keywords:
+- encdec/IDTFilter.get_BlockUnRated
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter.get_BlockUnRated
+- IDTFilter.get_BlockUnRated
 targetos: Windows
 req.typenames: 
 req.redist: 

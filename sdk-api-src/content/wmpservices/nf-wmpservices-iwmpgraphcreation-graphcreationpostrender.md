@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GraphCreationPostRender
 title: IWMPGraphCreation::GraphCreationPostRender (wmpservices.h)
-
 description: The GraphCreationPostRender method is called by Windows Media Player after a file has been rendered.
 old-location: wmp\iwmpgraphcreation_graphcreationpostrender.htm
 tech.root: WMP
 ms.assetid: 243fc72e-ef97-49a6-9a50-05ec338e5faa
-
 ms.date: 12/05/2018
 ms.keywords: GraphCreationPostRender, GraphCreationPostRender method [Windows Media Player], GraphCreationPostRender method [Windows Media Player],IWMPGraphCreation interface, IWMPGraphCreation interface [Windows Media Player],GraphCreationPostRender method, IWMPGraphCreation.GraphCreationPostRender, IWMPGraphCreation::GraphCreationPostRender, IWMPGraphCreationGraphCreationPostRenderdeprecated, wmp.iwmpgraphcreation_graphcreationpostrender, wmpservices/IWMPGraphCreation::GraphCreationPostRender
 ms.topic: method
-f1_keywords: 
- - "wmpservices/IWMPGraphCreation.GraphCreationPostRender"
+f1_keywords:
+- wmpservices/IWMPGraphCreation.GraphCreationPostRender
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPGraphCreation.GraphCreationPostRender
+- IWMPGraphCreation.GraphCreationPostRender
 targetos: Windows
 req.typenames: 
 req.redist: 

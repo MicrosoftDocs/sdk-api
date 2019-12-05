@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetGetAnyDCName
 title: NetGetAnyDCName function (lmaccess.h)
-
 description: The NetGetAnyDCName function returns the name of any domain controller (DC) for a domain that is directly trusted by the specified server.
 old-location: netmgmt\netgetanydcname.htm
 tech.root: NetMgmt
 ms.assetid: 64dacbf4-46c2-4f82-b250-b7d338535e7c
-
 ms.date: 12/05/2018
 ms.keywords: NetGetAnyDCName, NetGetAnyDCName function [Network Management], _win32_netgetanydcname, lmaccess/NetGetAnyDCName, netmgmt.netgetanydcname
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetGetAnyDCName"
+f1_keywords:
+- lmaccess/NetGetAnyDCName
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetGetAnyDCName
+- NetGetAnyDCName
 targetos: Windows
 req.typenames: 
 req.redist: 

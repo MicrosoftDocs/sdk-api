@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.SetBorderColor
 title: IVMRWindowlessControl::SetBorderColor (strmif.h)
-
 description: The SetBorderColor method sets the border color to be used by the VMR.
 old-location: dshow\ivmrwindowlesscontrol_setbordercolor.htm
 tech.root: DirectShow
 ms.assetid: d58ce18f-ddc4-4d91-b086-8829056f4508
-
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl interface [DirectShow],SetBorderColor method, IVMRWindowlessControl.SetBorderColor, IVMRWindowlessControl::SetBorderColor, IVMRWindowlessControlSetBorderColor, SetBorderColor, SetBorderColor method [DirectShow], SetBorderColor method [DirectShow],IVMRWindowlessControl interface, dshow.ivmrwindowlesscontrol_setbordercolor, strmif/IVMRWindowlessControl::SetBorderColor
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRWindowlessControl.SetBorderColor"
+f1_keywords:
+- strmif/IVMRWindowlessControl.SetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl.SetBorderColor
+- IVMRWindowlessControl.SetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

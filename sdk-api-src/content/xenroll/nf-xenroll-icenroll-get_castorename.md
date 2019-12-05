@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_CAStoreName
 title: ICEnroll::get_CAStoreName (xenroll.h)
-
 description: Sets or retrieves the name of the store where all non-&#0034;ROOT&#0034; and non-&#0034;MY&#0034; certificates are kept.
 old-location: security\icenroll4_castorename.htm
 tech.root: SecCrypto
 ms.assetid: 29616175-7195-430e-a85b-99b50e276e7f
-
 ms.date: 12/05/2018
 ms.keywords: CAStoreName property [Security], CAStoreName property [Security],CEnroll object, CAStoreName property [Security],ICEnroll interface, CAStoreName property [Security],ICEnroll2 interface, CAStoreName property [Security],ICEnroll3 interface, CAStoreName property [Security],ICEnroll4 interface, CEnroll object [Security],CAStoreName property, ICEnroll interface [Security],CAStoreName property, ICEnroll.CAStoreName, ICEnroll.get_CAStoreName, ICEnroll2 interface [Security],CAStoreName property, ICEnroll2.CAStoreName, ICEnroll2::get_CAStoreName, ICEnroll2::put_CAStoreName, ICEnroll3 interface [Security],CAStoreName property, ICEnroll3.CAStoreName, ICEnroll3::get_CAStoreName, ICEnroll3::put_CAStoreName, ICEnroll4 interface [Security],CAStoreName property, ICEnroll4.CAStoreName, ICEnroll4::CAStoreName, ICEnroll4::get_CAStoreName, ICEnroll4::put_CAStoreName, ICEnroll::get_CAStoreName, ICEnroll::put_CAStoreName, get_CAStoreName, security.icenroll4_castorename, xenroll/ICEnroll2::CAStoreName, xenroll/ICEnroll2::get_CAStoreName, xenroll/ICEnroll2::put_CAStoreName, xenroll/ICEnroll3::CAStoreName, xenroll/ICEnroll3::get_CAStoreName, xenroll/ICEnroll3::put_CAStoreName, xenroll/ICEnroll4::CAStoreName, xenroll/ICEnroll4::get_CAStoreName, xenroll/ICEnroll4::put_CAStoreName, xenroll/ICEnroll::CAStoreName, xenroll/ICEnroll::get_CAStoreName, xenroll/ICEnroll::put_CAStoreName
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.CAStoreName"
+f1_keywords:
+- xenroll/ICEnroll4.CAStoreName
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.CAStoreName
- - ICEnroll4.get_CAStoreName
- - ICEnroll4.put_CAStoreName
- - ICEnroll3.CAStoreName
- - ICEnroll3.get_CAStoreName
- - ICEnroll3.put_CAStoreName
- - ICEnroll2.CAStoreName
- - ICEnroll2.get_CAStoreName
- - ICEnroll2.put_CAStoreName
- - ICEnroll.CAStoreName
- - ICEnroll.get_CAStoreName
- - ICEnroll.put_CAStoreName
- - CEnroll.CAStoreName
+- ICEnroll4.CAStoreName
+- ICEnroll4.get_CAStoreName
+- ICEnroll4.put_CAStoreName
+- ICEnroll3.CAStoreName
+- ICEnroll3.get_CAStoreName
+- ICEnroll3.put_CAStoreName
+- ICEnroll2.CAStoreName
+- ICEnroll2.get_CAStoreName
+- ICEnroll2.put_CAStoreName
+- ICEnroll.CAStoreName
+- ICEnroll.get_CAStoreName
+- ICEnroll.put_CAStoreName
+- CEnroll.CAStoreName
 targetos: Windows
 req.typenames: 
 req.redist: 

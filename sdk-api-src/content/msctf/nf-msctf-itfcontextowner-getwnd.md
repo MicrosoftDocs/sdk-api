@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetWnd
 title: ITfContextOwner::GetWnd (msctf.h)
-
 description: The ITfContextOwner::GetWnd method returns the handle to a window that corresponds to the current document.
 old-location: tsf\itfcontextowner_getwnd.htm
 tech.root: TSF
 ms.assetid: 91dfc873-3327-49f4-924a-b013fa90459b
-
 ms.date: 12/05/2018
 ms.keywords: GetWnd, GetWnd method [Text Services Framework], GetWnd method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetWnd method, ITfContextOwner.GetWnd, ITfContextOwner::GetWnd, _tsf_itfcontextowner_getwnd_ref, msctf/ITfContextOwner::GetWnd, tsf.itfcontextowner_getwnd
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwner.GetWnd"
+f1_keywords:
+- msctf/ITfContextOwner.GetWnd
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwner.GetWnd
+- ITfContextOwner.GetWnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

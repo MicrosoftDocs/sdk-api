@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.AddApplicationMessage
 title: ID3D10InfoQueue::AddApplicationMessage (d3d10sdklayers.h)
-
 description: Add a user-defined message to the message queue and send that message to debug output.
 old-location: direct3d10\id3d10infoqueue_addapplicationmessage.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_addapplicationmessage.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1d152bbb-d6ef-f0f3-d61f-2156408503ce, AddApplicationMessage, AddApplicationMessage method [Direct3D 10], AddApplicationMessage method [Direct3D 10],ID3D10InfoQueue interface, ID3D10InfoQueue interface [Direct3D 10],AddApplicationMessage method, ID3D10InfoQueue.AddApplicationMessage, ID3D10InfoQueue::AddApplicationMessage, d3d10sdklayers/ID3D10InfoQueue::AddApplicationMessage, direct3d10.id3d10infoqueue_addapplicationmessage
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.AddApplicationMessage"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.AddApplicationMessage
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.AddApplicationMessage
+- ID3D10InfoQueue.AddApplicationMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

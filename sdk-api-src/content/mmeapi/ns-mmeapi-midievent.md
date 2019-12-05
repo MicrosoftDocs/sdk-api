@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.midievent_tag
 title: MIDIEVENT (mmeapi.h)
-
 description: The MIDIEVENT structure describes a MIDI event in a stream buffer.
 old-location: multimedia\midievent.htm
 tech.root: Multimedia
 ms.assetid: e83bf111-2075-4cfc-a68b-e0a59a0c53e6
-
 ms.date: 12/05/2018
 ms.keywords: MIDIEVENT, MIDIEVENT structure [Windows Multimedia], _win32_MIDIEVENT_str, midievent_tag, mmeapi/MIDIEVENT, multimedia.midievent
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIDIEVENT"
+f1_keywords:
+- mmeapi/MIDIEVENT
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIDIEVENT
+- MIDIEVENT
 targetos: Windows
 req.typenames: MIDIEVENT
 req.redist: 

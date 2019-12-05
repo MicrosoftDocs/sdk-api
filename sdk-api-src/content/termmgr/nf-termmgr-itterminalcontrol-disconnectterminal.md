@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalControl.DisconnectTerminal
 title: ITTerminalControl::DisconnectTerminal (termmgr.h)
-
 description: The DisconnectTerminal method disconnects internal filters and removes them from the filter graph.
 old-location: tapi3\itterminalcontrol_disconnectterminal.htm
 tech.root: Tapi
 ms.assetid: 5af5d0bf-27e1-4d42-a003-79388d2498cd
-
 ms.date: 12/05/2018
 ms.keywords: DisconnectTerminal, DisconnectTerminal method [TAPI 2.2], DisconnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],DisconnectTerminal method, ITTerminalControl.DisconnectTerminal, ITTerminalControl::DisconnectTerminal, _tapi3_itterminalcontrol_disconnectterminal, tapi3.itterminalcontrol_disconnectterminal, termmgr/ITTerminalControl::DisconnectTerminal
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalControl.DisconnectTerminal"
+f1_keywords:
+- termmgr/ITTerminalControl.DisconnectTerminal
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalControl.DisconnectTerminal
+- ITTerminalControl.DisconnectTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

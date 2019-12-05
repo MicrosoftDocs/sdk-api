@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyFriendlyName.Initialize
 title: ICertPropertyFriendlyName::Initialize (certenroll.h)
-
 description: Initializes the object from the certificate display name.
 old-location: security\icertpropertyfriendlyname_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: fb9a8108-f3d1-4a5c-bf3f-00002c085012
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyFriendlyName interface [Security],Initialize method, ICertPropertyFriendlyName.Initialize, ICertPropertyFriendlyName::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyFriendlyName interface, certenroll/ICertPropertyFriendlyName::Initialize, security.icertpropertyfriendlyname_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyFriendlyName.Initialize"
+f1_keywords:
+- certenroll/ICertPropertyFriendlyName.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyFriendlyName.Initialize
+- ICertPropertyFriendlyName.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

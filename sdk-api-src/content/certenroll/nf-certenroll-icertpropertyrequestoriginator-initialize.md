@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyRequestOriginator.Initialize
 title: ICertPropertyRequestOriginator::Initialize (certenroll.h)
-
 description: Initializes the object from a string that contains the DNS name of the originating computer.
 old-location: security\icertpropertyrequestoriginator_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 3308dde9-ab97-40a1-9251-c207a3a66061
-
 ms.date: 12/05/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],Initialize method, ICertPropertyRequestOriginator.Initialize, ICertPropertyRequestOriginator::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::Initialize, security.icertpropertyrequestoriginator_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyRequestOriginator.Initialize"
+f1_keywords:
+- certenroll/ICertPropertyRequestOriginator.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertPropertyRequestOriginator.Initialize
+- ICertPropertyRequestOriginator.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

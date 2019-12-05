@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPin.Disable
 title: IMbnPin::Disable (mbnapi.h)
-
 description: Disables a PIN.
 old-location: mbn\imbnpin_disable.htm
 tech.root: mbn
 ms.assetid: 612edeb9-3de4-48ac-a311-7238402e8658
-
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [Microsoft Broadband Networks], Disable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Disable method, IMbnPin.Disable, IMbnPin::Disable, mbn.imbnpin_disable, mbnapi/IMbnPin::Disable
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPin.Disable"
+f1_keywords:
+- mbnapi/IMbnPin.Disable
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPin.Disable
+- IMbnPin.Disable
 targetos: Windows
 req.typenames: 
 req.redist: 

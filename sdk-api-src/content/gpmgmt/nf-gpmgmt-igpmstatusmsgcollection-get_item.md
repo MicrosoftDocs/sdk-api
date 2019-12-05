@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMsgCollection.get_Item
 title: IGPMStatusMsgCollection::get_Item (gpmgmt.h)
-
 description: Given an index, returns a message from the collection.
 old-location: gpmc\igpmstatusmsgcollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 5cef3e5c-7255-4d38-89cc-4726dfaccd1a
-
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMsgCollection class [GPMC],Item property, IGPMStatusMsgCollection interface [GPMC],Item property, IGPMStatusMsgCollection.Item, IGPMStatusMsgCollection.get_Item, IGPMStatusMsgCollection::Item, IGPMStatusMsgCollection::get_Item, Item property [GPMC], Item property [GPMC],GPMStatusMsgCollection class, Item property [GPMC],IGPMStatusMsgCollection interface, _win32_igpmstatusmsgcollection_get_item, get_Item, gpmc.igpmstatusmsgcollection_get_item, gpmgmt/IGPMStatusMsgCollection::Item, gpmgmt/IGPMStatusMsgCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStatusMsgCollection.Item"
+f1_keywords:
+- gpmgmt/IGPMStatusMsgCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStatusMsgCollection.Item
- - IGPMStatusMsgCollection.get_Item
- - GPMStatusMsgCollection.Item
+- IGPMStatusMsgCollection.Item
+- IGPMStatusMsgCollection.get_Item
+- GPMStatusMsgCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

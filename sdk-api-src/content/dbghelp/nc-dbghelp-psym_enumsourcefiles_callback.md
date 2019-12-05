@@ -1,19 +1,17 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMSOURCEFILES_CALLBACK
 title: PSYM_ENUMSOURCEFILES_CALLBACK (dbghelp.h)
-
 description: An application-defined callback function used with the SymEnumSourceFiles function.
 old-location: base\symenumsourcefilesproc.htm
 tech.root: Debug
 ms.assetid: b1d1e967-514d-43da-b470-23228fa03dd9
-
 ms.date: 12/05/2018
 ms.keywords: PSYM_ENUMSOURCEFILES_CALLBACK, PSYM_ENUMSOURCEFILES_CALLBACKW, SymEnumSourceFilesProc, SymEnumSourceFilesProc callback, SymEnumSourceFilesProc callback function, base.symenumsourcefilesproc, dbghelp/SymEnumSourceFilesProc
 ms.topic: callback
 f1_keywords:
 - dbghelp/SymEnumSourceFilesProc
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

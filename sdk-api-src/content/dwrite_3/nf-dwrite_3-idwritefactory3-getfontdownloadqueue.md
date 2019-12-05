@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.GetFontDownloadQueue
 title: IDWriteFactory3::GetFontDownloadQueue (dwrite_3.h)
-
 description: Gets the font download queue associated with this factory object.
 old-location: directwrite\idwritefactory3_getfontdownloadqueue.htm
 tech.root: DirectWrite
 ms.assetid: 446e4544-b25d-9b59-922c-ca5c896ea99f
-
 ms.date: 12/05/2018
 ms.keywords: GetFontDownloadQueue, GetFontDownloadQueue method [Direct Write], GetFontDownloadQueue method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetFontDownloadQueue method, IDWriteFactory3.GetFontDownloadQueue, IDWriteFactory3::GetFontDownloadQueue, directwrite.idwritefactory3_getfontdownloadqueue, dwrite_3/IDWriteFactory3::GetFontDownloadQueue
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory3.GetFontDownloadQueue"
+f1_keywords:
+- dwrite_3/IDWriteFactory3.GetFontDownloadQueue
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory3.GetFontDownloadQueue
+- IDWriteFactory3.GetFontDownloadQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

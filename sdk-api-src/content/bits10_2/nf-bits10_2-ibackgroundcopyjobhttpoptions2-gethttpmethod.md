@@ -1,19 +1,17 @@
 ---
 UID: NF:bits10_2.IBackgroundCopyJobHttpOptions2.GetHttpMethod
 title: IBackgroundCopyJobHttpOptions2::GetHttpMethod (bits10_2.h)
-
 description: Retrieves a wide string containing the HTTP method name for the BITS transfer. By default, download jobs will be &#0034;GET&#0034;, and upload and upload-reply jobs will be &#0034;BITS_POST&#0034;.
 old-location: bits\ibackgroundcopyjobhttpoptions2_gethttpmethod.htm
 tech.root: Bits
 ms.assetid: B855F1A5-AAFC-4E59-8F1D-ABA0034AFDF8
-
 ms.date: 12/05/2018
 ms.keywords: GetHttpMethod, GetHttpMethod method [BITS], GetHttpMethod method [BITS],IBackgroundCopyJobHttpOptions2 interface, IBackgroundCopyJobHttpOptions2 interface [BITS],GetHttpMethod method, IBackgroundCopyJobHttpOptions2.GetHttpMethod, IBackgroundCopyJobHttpOptions2::GetHttpMethod, bits.ibackgroundcopyjobhttpoptions2_gethttpmethod, bits10_2/IBackgroundCopyJobHttpOptions2::GetHttpMethod
 ms.topic: method
-f1_keywords: 
- - "bits10_2/IBackgroundCopyJobHttpOptions2.GetHttpMethod"
+f1_keywords:
+- bits10_2/IBackgroundCopyJobHttpOptions2.GetHttpMethod
 dev_langs:
- - c++
+- c++
 req.header: bits10_2.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions2.GetHttpMethod
+- IBackgroundCopyJobHttpOptions2.GetHttpMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

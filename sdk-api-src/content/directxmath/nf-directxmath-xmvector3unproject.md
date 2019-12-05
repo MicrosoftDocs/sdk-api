@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3Unproject
 title: XMVector3Unproject function (directxmath.h)
-
 description: Projects a 3D vector from screen space into object space.
 old-location: dxmath\xmvector3unproject.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Unproject(XMVECTOR,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Unproject, XMVector3Unproject, XMVector3Unproject method [DirectX Math Support APIs], dxmath.xmvector3unproject
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3Unproject"
+f1_keywords:
+- directxmath/XMVector3Unproject
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3Unproject
+- XMVector3Unproject
 targetos: Windows
 req.typenames: 
 req.redist: 

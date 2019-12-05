@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.DeviceIoControl
 title: IMDSPDevice3::DeviceIoControl (mswmdm.h)
-
 description: The DeviceIoControl method calls the device I/O control.
 old-location: wmdm\imdspdevice3_deviceiocontrol.htm
 tech.root: WMDM
 ms.assetid: 1f41c3f9-8eb6-4d51-87f9-c8b035a73cce
-
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControl, DeviceIoControl method [windows Media Device Manager], DeviceIoControl method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],DeviceIoControl method, IMDSPDevice3.DeviceIoControl, IMDSPDevice3::DeviceIoControl, IMDSPDevice3DeviceIoControl, mswmdm/IMDSPDevice3::DeviceIoControl, wmdm.imdspdevice3_deviceiocontrol
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDevice3.DeviceIoControl"
+f1_keywords:
+- mswmdm/IMDSPDevice3.DeviceIoControl
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDevice3.DeviceIoControl
+- IMDSPDevice3.DeviceIoControl
 targetos: Windows
 req.typenames: 
 req.redist: 

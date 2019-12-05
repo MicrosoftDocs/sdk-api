@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommandHost.GetUIMode
 title: IExecuteCommandHost::GetUIMode (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\IExecuteCommandHost_GetUIMode.htm
 tech.root: shell
 ms.assetid: 12132ffd-64a5-4104-8590-8eabfbc8268f
-
 ms.date: 12/05/2018
 ms.keywords: ECHUIM_DESKTOP, ECHUIM_IMMERSIVE, ECHUIM_SYSTEM_LAUNCHER, GetUIMode, GetUIMode method [Windows Shell], GetUIMode method [Windows Shell],IExecuteCommandHost interface, IExecuteCommandHost interface [Windows Shell],GetUIMode method, IExecuteCommandHost.GetUIMode, IExecuteCommandHost::GetUIMode, shell.IExecuteCommandHost_GetUIMode, shobjidl_core/IExecuteCommandHost::GetUIMode
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExecuteCommandHost.GetUIMode"
+f1_keywords:
+- shobjidl_core/IExecuteCommandHost.GetUIMode
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExecuteCommandHost.GetUIMode
+- IExecuteCommandHost.GetUIMode
 targetos: Windows
 req.typenames: 
 req.redist: 

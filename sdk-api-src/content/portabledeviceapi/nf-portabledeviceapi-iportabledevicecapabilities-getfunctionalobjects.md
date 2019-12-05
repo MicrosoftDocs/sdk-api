@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetFunctionalObjects
 title: IPortableDeviceCapabilities::GetFunctionalObjects (portabledeviceapi.h)
-
 description: The GetFunctionalObjects method retrieves all functional objects that match a specified category on the device.
 old-location: wpdsdk\iportabledevicecapabilities_getfunctionalobjects.htm
 tech.root: wpd_sdk
 ms.assetid: 46657e4d-c2fe-42bf-9a3d-5075d4f3ee91
-
 ms.date: 12/05/2018
 ms.keywords: GetFunctionalObjects, GetFunctionalObjects method [Windows Portable Devices SDK], GetFunctionalObjects method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalObjects method, IPortableDeviceCapabilities.GetFunctionalObjects, IPortableDeviceCapabilities::GetFunctionalObjects, IPortableDeviceCapabilitiesGetFunctionalObjects, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalObjects, wpdsdk.iportabledevicecapabilities_getfunctionalobjects
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceCapabilities.GetFunctionalObjects"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceCapabilities.GetFunctionalObjects
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetFunctionalObjects
+- IPortableDeviceCapabilities.GetFunctionalObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

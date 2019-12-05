@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationPatternHandler
 title: IUIAutomationPatternHandler (uiautomationcore.h)
-
 description: Returns a client API wrapper object and to unmarshal property and method requests to an actual provider instance.
 old-location: winauto\uiauto_IUIAutomationPatternHandler.htm
 tech.root: WinAuto
 ms.assetid: 6d0edd8e-3fd4-47d6-ab53-582eb81f38bd
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationPatternHandler, IUIAutomationPatternHandler interface [Windows Accessibility], IUIAutomationPatternHandler interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationPatternHandler, uiauto_IUIAutomationPatternHandler, uiautomationcore/IUIAutomationPatternHandler, winauto.uiauto_IUIAutomationPatternHandler
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IUIAutomationPatternHandler"
+f1_keywords:
+- uiautomationcore/IUIAutomationPatternHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationPatternHandler
+- IUIAutomationPatternHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

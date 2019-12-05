@@ -1,19 +1,17 @@
 ---
 UID: NC:msacm.ACMFORMATENUMCBW
 title: ACMFORMATENUMCBW (msacm.h)
-
 description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name.
 old-location: multimedia\acmformatenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
-
 ms.date: 12/05/2018
 ms.keywords: ACMFORMATENUMCB, ACMFORMATENUMCB callback, ACMFORMATENUMCB callback function [Windows Multimedia], ACMFORMATENUMCBA, ACMFORMATENUMCBW, _win32_acmFormatEnumCallback, acmFormatEnumCallback, msacm/ACMFORMATENUMCB, msacm/ACMFORMATENUMCBA, msacm/ACMFORMATENUMCBW, multimedia.acmformatenumcallback
 ms.topic: callback
-f1_keywords: 
- - "msacm/ACMFORMATENUMCB"
+f1_keywords:
+- msacm/ACMFORMATENUMCB
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMFORMATENUMCB
- - ACMFORMATENUMCBA
- - ACMFORMATENUMCBW
+- ACMFORMATENUMCB
+- ACMFORMATENUMCBA
+- ACMFORMATENUMCBW
 targetos: Windows
 req.typenames: 
 req.redist: 

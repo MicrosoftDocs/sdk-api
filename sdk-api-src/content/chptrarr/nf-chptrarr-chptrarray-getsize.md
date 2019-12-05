@@ -1,19 +1,17 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetSize
 title: CHPtrArray::GetSize (chptrarr.h)
-
 description: The GetSize function obtains the pointer array size. Because indexes are zero-based, the size is one greater than the largest index.
 old-location: wmi\chptrarray_getsize.htm
 tech.root: WmiSdk
 ms.assetid: 9b9bcd3f-06d9-47f1-aecb-1c611c9866bd
-
 ms.date: 12/05/2018
-ms.keywords: "?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray interface [Windows Management Instrumentation],GetSize method, CHPtrArray.GetSize, CHPtrArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetSize, wmi.chptrarray_getsize"
+ms.keywords: ?GetSize@CHPtrArray@@QBEHXZ, CHPtrArray interface [Windows Management Instrumentation],GetSize method, CHPtrArray.GetSize, CHPtrArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetSize, wmi.chptrarray_getsize
 ms.topic: method
-f1_keywords: 
- - "chptrarr/CHPtrArray.GetSize"
+f1_keywords:
+- chptrarr/CHPtrArray.GetSize
 dev_langs:
- - c++
+- c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHPtrArray.GetSize
- - ?GetSize@CHPtrArray@@QBEHXZ
+- CHPtrArray.GetSize
+- ?GetSize@CHPtrArray@@QBEHXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

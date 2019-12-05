@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzRoleAssignments
 title: IAzRoleAssignments (azroles.h)
-
 description: Represents a collection of IAzRoleAssignment objects.
 old-location: security\iazroleassignments.htm
 tech.root: SecAuthZ
 ms.assetid: d38fd7e0-6d0b-4b68-b6e5-f7adc2cfef47
-
 ms.date: 12/05/2018
 ms.keywords: IAzRoleAssignments, IAzRoleAssignments interface [Security], IAzRoleAssignments interface [Security],described, azroles/IAzRoleAssignments, security.iazroleassignments
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzRoleAssignments"
+f1_keywords:
+- azroles/IAzRoleAssignments
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleAssignments
+- IAzRoleAssignments
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3NotEqual
 title: XMVector3NotEqual function (directxmath.h)
-
 description: Tests whether two 3D vectors are not equal.
 old-location: dxmath\xmvector3notequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3NotEqual(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3NotEqual, XMVector3NotEqual, XMVector3NotEqual method [DirectX Math Support APIs], dxmath.xmvector3notequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3NotEqual"
+f1_keywords:
+- directxmath/XMVector3NotEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3NotEqual
+- XMVector3NotEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

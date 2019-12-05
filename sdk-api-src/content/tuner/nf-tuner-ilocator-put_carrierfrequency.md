@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.put_CarrierFrequency
 title: ILocator::put_CarrierFrequency (tuner.h)
-
 description: The put_CarrierFrequency method sets the frequency of the RF signal.
 old-location: mstv\ilocator_put_carrierfrequency.htm
 tech.root: mstv
 ms.assetid: 74617c08-dabc-48d7-a9da-d1631d7df961
-
 ms.date: 12/05/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],put_CarrierFrequency method, ILocator.put_CarrierFrequency, ILocator::put_CarrierFrequency, ILocatorput_CarrierFrequency, mstv.ilocator_put_carrierfrequency, put_CarrierFrequency, put_CarrierFrequency method [Microsoft TV Technologies], put_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_CarrierFrequency
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.put_CarrierFrequency"
+f1_keywords:
+- tuner/ILocator.put_CarrierFrequency
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.put_CarrierFrequency
+- ILocator.put_CarrierFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

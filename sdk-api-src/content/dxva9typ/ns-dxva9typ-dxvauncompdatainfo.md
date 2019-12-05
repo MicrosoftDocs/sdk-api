@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva9typ._DXVAUncompDataInfo
 title: DXVAUncompDataInfo (dxva9typ.h)
-
 description: Specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.
 old-location: mf\dxvauncompdatainfo.htm
 tech.root: medfound
 ms.assetid: bd19d9a8-7d69-4aea-9638-84c3f1a1e810
-
 ms.date: 12/05/2018
 ms.keywords: DXVAUncompDataInfo, DXVAUncompDataInfo structure [Media Foundation], _DXVAUncompDataInfo, dxva9typ/DXVAUncompDataInfo, mf.dxvauncompdatainfo
 ms.topic: struct
-f1_keywords: 
- - "dxva9typ/DXVAUncompDataInfo"
+f1_keywords:
+- dxva9typ/DXVAUncompDataInfo
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - DXVAUncompDataInfo
+- DXVAUncompDataInfo
 targetos: Windows
 req.typenames: DXVAUncompDataInfo
 req.redist: 

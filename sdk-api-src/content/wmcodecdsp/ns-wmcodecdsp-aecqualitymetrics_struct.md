@@ -1,19 +1,17 @@
 ---
 UID: NS:wmcodecdsp.tagAecQualityMetrics_Struct
 title: AecQualityMetrics_Struct (wmcodecdsp.h)
-
 description: Contains quality metrics for acoustic echo cancellation (AEC). This structure is used with the MFPKEY_WMAAECMA_RETRIEVE_TS_STATS property.
 old-location: mf\aecqualitymetrics_structstructure.htm
 tech.root: medfound
 ms.assetid: 1a44d12c-3da9-4fcb-a4ba-4a405882c134
-
 ms.date: 12/05/2018
 ms.keywords: AecQualityMetrics_Struct, AecQualityMetrics_Struct structure [Media Foundation], codecapi.aecqualitymetrics_structstructure, codecapi.mic_array_modeenumeration, mf.aecqualitymetrics_structstructure, wmcodecdsp/AecQualityMetrics_Struct
 ms.topic: struct
-f1_keywords: 
- - "wmcodecdsp/AecQualityMetrics_Struct"
+f1_keywords:
+- wmcodecdsp/AecQualityMetrics_Struct
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - AecQualityMetrics_Struct
+- AecQualityMetrics_Struct
 targetos: Windows
 req.typenames: AecQualityMetrics_Struct
 req.redist: 

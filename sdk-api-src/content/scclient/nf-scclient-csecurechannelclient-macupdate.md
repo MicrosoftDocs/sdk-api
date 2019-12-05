@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.MACUpdate
 title: CSecureChannelClient::MACUpdate (scclient.h)
-
 description: The MACUpdate method adds a value to a message authentication code (MAC).
 old-location: wmdm\csecurechannelclient_macupdate.htm
 tech.root: WMDM
 ms.assetid: b868d422-535d-44f5-9713-bfa049da8a4e
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],MACUpdate method, CSecureChannelClient.MACUpdate, CSecureChannelClient::MACUpdate, CSecureChannelClientMACUpdate, MACUpdate, MACUpdate method [windows Media Device Manager], MACUpdate method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::MACUpdate, wmdm.csecurechannelclient_macupdate
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.MACUpdate"
+f1_keywords:
+- scclient/CSecureChannelClient.MACUpdate
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.MACUpdate
+- CSecureChannelClient.MACUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

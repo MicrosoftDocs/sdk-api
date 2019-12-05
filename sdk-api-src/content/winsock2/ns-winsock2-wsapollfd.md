@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock2.pollfd
 title: WSAPOLLFD (winsock2.h)
-
 description: Stores socket information used by the WSAPoll function.
 old-location: winsock\pollfd.htm
 tech.root: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAPOLLFD, *PWSAPOLLFD, LPWSAPOLLFD, LPWSAPOLLFD structure pointer [Winsock], PWSAPOLLFD, PWSAPOLLFD structure pointer [Winsock], WSAPOLLFD, WSAPOLLFD structure [Winsock], winsock.pollfd, winsock2/LPWSAPOLLFD, winsock2/PWSAPOLLFD, winsock2/WSAPOLLFD"
+ms.keywords: '*LPWSAPOLLFD, *PWSAPOLLFD, LPWSAPOLLFD, LPWSAPOLLFD structure pointer [Winsock], PWSAPOLLFD, PWSAPOLLFD structure pointer [Winsock], WSAPOLLFD, WSAPOLLFD structure [Winsock], winsock.pollfd, winsock2/LPWSAPOLLFD, winsock2/PWSAPOLLFD, winsock2/WSAPOLLFD'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSAPOLLFD"
+f1_keywords:
+- winsock2/WSAPOLLFD
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAPOLLFD
+- WSAPOLLFD
 targetos: Windows
 req.typenames: WSAPOLLFD, *PWSAPOLLFD, *LPWSAPOLLFD
 req.redist: 

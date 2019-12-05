@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddEllipse(IN const RectF &)
 title: GraphicsPath::AddEllipse
 description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
 ms.assetid: 9acdbd19-0354-4728-a96c-611b93cbffe5
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddEllipse
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddEllipse"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddEllipse
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddEllipse
+- GraphicsPath::AddEllipse
 ---
 
 # GraphicsPath::AddEllipse

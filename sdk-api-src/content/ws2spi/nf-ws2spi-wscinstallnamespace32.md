@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCInstallNameSpace32
 title: WSCInstallNameSpace32 function (ws2spi.h)
-
 description: Installs a specified 32-bit namespace provider.
 old-location: winsock\wscinstallnamespace32.htm
 tech.root: WinSock
 ms.assetid: b107fbe6-bbfb-45be-8419-4d85d3c4e80c
-
 ms.date: 12/05/2018
 ms.keywords: WSCInstallNameSpace32, WSCInstallNamespace32, WSCInstallNamespace32 function [Winsock], winsock.wscinstallnamespace32, ws2spi/WSCInstallNamespace32
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCInstallNamespace32"
+f1_keywords:
+- ws2spi/WSCInstallNamespace32
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCInstallNamespace32
+- WSCInstallNamespace32
 targetos: Windows
 req.typenames: 
 req.redist: 

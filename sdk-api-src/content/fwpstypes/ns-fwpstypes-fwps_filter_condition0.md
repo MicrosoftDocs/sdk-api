@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER_CONDITION0_
 title: FWPS_FILTER_CONDITION0 (fwpstypes.h)
-
 description: The FWPS_FILTER_CONDITION0 structure defines a run-time filtering condition for a filter.Note  FWPS_FILTER_CONDITION0 is a specific version of FWPS_FILTER_CONDITION.
 old-location: netvista\fwps_filter_condition0.htm
 tech.root: NetVista
 ms.assetid: d4a20939-4866-4402-9b29-d94c2170807c
-
 ms.date: 12/05/2018
 ms.keywords: FWPS_FILTER_CONDITION0, FWPS_FILTER_CONDITION0 structure [Network Drivers Starting with Windows Vista], fwpstypes/FWPS_FILTER_CONDITION0, netvista.fwps_filter_condition0, wfp_ref_3_struct_3_fwps_F-O_93287819-7faf-41d5-a128-946293c1eb73.xml
 ms.topic: struct
-f1_keywords: 
- - "fwpstypes/FWPS_FILTER_CONDITION0"
+f1_keywords:
+- fwpstypes/FWPS_FILTER_CONDITION0
 dev_langs:
- - c++
+- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fwpstypes.h
+- fwpstypes.h
 api_name:
- - FWPS_FILTER_CONDITION0
+- FWPS_FILTER_CONDITION0
 targetos: Windows
 req.typenames: FWPS_FILTER_CONDITION0
 req.redist: 

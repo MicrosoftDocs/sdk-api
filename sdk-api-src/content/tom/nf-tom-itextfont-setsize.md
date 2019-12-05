@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetSize
 title: ITextFont::SetSize (tom.h)
-
 description: Sets the font size.
 old-location: controls\ITextFont_SetSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetSize method, ITextFont.SetSize, ITextFont::SetSize, SetSize, SetSize method [Windows Controls], SetSize method [Windows Controls],ITextFont interface, _win32_ITextFont_SetSize, _win32_ITextFont_SetSize_cpp, controls.ITextFont_SetSize, controls._win32_ITextFont_SetSize, tom/ITextFont::SetSize
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetSize"
+f1_keywords:
+- tom/ITextFont.SetSize
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetSize
+- ITextFont.SetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

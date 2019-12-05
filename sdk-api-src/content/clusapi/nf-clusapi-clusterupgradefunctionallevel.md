@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterUpgradeFunctionalLevel
 title: ClusterUpgradeFunctionalLevel function (clusapi.h)
-
 description: Initiates a rolling upgrade of the operating system on a cluster. PCLUSAPI_CLUSTER_UPGRADE defines a pointer to this function.
 old-location: mscs\clusterupgradefunctionallevel.htm
 tech.root: MsCS
 ms.assetid: EA013501-A4E2-48D8-9062-D20141485CC5
-
 ms.date: 12/05/2018
 ms.keywords: ClusterUpgradeFunctionalLevel, ClusterUpgradeFunctionalLevel function [Failover Cluster], PCLUSAPI_CLUSTER_UPGRADE, PCLUSAPI_CLUSTER_UPGRADE function [Failover Cluster], clusapi/ClusterUpgradeFunctionalLevel, clusapi/PCLUSAPI_CLUSTER_UPGRADE, mscs.clusterupgradefunctionallevel
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterUpgradeFunctionalLevel"
+f1_keywords:
+- clusapi/ClusterUpgradeFunctionalLevel
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterUpgradeFunctionalLevel
+- ClusterUpgradeFunctionalLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

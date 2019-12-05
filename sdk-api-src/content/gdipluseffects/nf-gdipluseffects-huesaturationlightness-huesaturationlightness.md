@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.HueSaturationLightness.HueSaturationLightness
 title: HueSaturationLightness::HueSaturationLightness (gdipluseffects.h)
-
 description: Creates a HueSaturationLightness object.
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessconstructors\huesaturationlightness.htm
-
 ms.date: 12/05/2018
 ms.keywords: HueSaturationLightness, HueSaturationLightness class [GDI+],HueSaturationLightness constructor, HueSaturationLightness constructor [GDI+], HueSaturationLightness constructor [GDI+],HueSaturationLightness class, HueSaturationLightness.HueSaturationLightness, HueSaturationLightness::HueSaturationLightness, _gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_, gdiplus._gdiplus_CLASS_HueSaturationLightness_HueSaturationLightness_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/HueSaturationLightness.HueSaturationLightness"
+f1_keywords:
+- gdipluseffects/HueSaturationLightness.HueSaturationLightness
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - HueSaturationLightness.HueSaturationLightness
+- HueSaturationLightness.HueSaturationLightness
 targetos: Windows
 req.typenames: 
 req.redist: 

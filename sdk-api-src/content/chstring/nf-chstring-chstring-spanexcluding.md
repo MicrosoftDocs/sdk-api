@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.SpanExcluding
 title: CHString::SpanExcluding (chstring.h)
-
 description: The SpanExcluding method extracts and returns all characters preceding the first occurrence of a character from lpszCharSet.
 old-location: wmi\chstring_spanexcluding.htm
 tech.root: WmiSdk
 ms.assetid: 5ddadf16-0177-4f96-a5ca-e1b8891473e6
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanExcluding method, CHString.SpanExcluding, CHString::SpanExcluding, SpanExcluding, SpanExcluding method [Windows Management Instrumentation], SpanExcluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanexcluding, chstring/CHString::SpanExcluding, wmi.chstring_spanexcluding
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.SpanExcluding"
+f1_keywords:
+- chstring/CHString.SpanExcluding
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.SpanExcluding
+- CHString.SpanExcluding
 targetos: Windows
 req.typenames: 
 req.redist: 

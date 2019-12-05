@@ -1,19 +1,17 @@
 ---
 UID: NS:windns._DnsRRSet
 title: DNS_RRSET (windns.h)
-
 description: The DNS_RRSET structure contains information about a DNS Resource Record (RR) set.
 old-location: dns\dns_rrset.htm
 tech.root: DNS
 ms.assetid: bd87a8db-ca27-490b-85f4-912297b77a2b
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_RRSET, *PDNS_RRSET structure [DNS], DNS_RRSET, DNS_RRSET structure [DNS], dns.dns_rrset, windns/*PDNS_RRSET, windns/DNS_RRSET"
+ms.keywords: '*PDNS_RRSET, *PDNS_RRSET structure [DNS], DNS_RRSET, DNS_RRSET structure [DNS], dns.dns_rrset, windns/*PDNS_RRSET, windns/DNS_RRSET'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_RRSET"
+f1_keywords:
+- windns/DNS_RRSET
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_RRSET
+- DNS_RRSET
 targetos: Windows
 req.typenames: DNS_RRSET, *PDNS_RRSET
 req.redist: 

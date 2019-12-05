@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionScaleTransform
 title: IDCompositionScaleTransform (dcomp.h)
-
 description: Represents a 2D transformation that affects the scale of a visual along the x-axis and y-axis. The coordinate system is scaled from the specified center point.
 old-location: directcomp\idcompositionscaletransform.htm
 tech.root: directcomp
 ms.assetid: 8e59c484-b7c5-446a-a5d6-e00371e2c08a
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform, IDCompositionScaleTransform interface [DirectComposition], IDCompositionScaleTransform interface [DirectComposition],described, dcomp/IDCompositionScaleTransform, directcomp.idcompositionscaletransform
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform
+- IDCompositionScaleTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

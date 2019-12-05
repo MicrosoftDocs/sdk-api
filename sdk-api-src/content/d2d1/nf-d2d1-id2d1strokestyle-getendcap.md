@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetEndCap
 title: ID2D1StrokeStyle::GetEndCap (d2d1.h)
-
 description: Retrieves the type of shape used at the end of a stroke.
 old-location: direct2d\ID2D1StrokeStyle_GetEndCap.htm
 tech.root: Direct2D
 ms.assetid: 06cf4629-9fa8-471a-9f92-94bdfb18c2d1
-
 ms.date: 12/05/2018
 ms.keywords: GetEndCap, GetEndCap method [Direct2D], GetEndCap method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetEndCap method, ID2D1StrokeStyle.GetEndCap, ID2D1StrokeStyle::GetEndCap, d2d1/ID2D1StrokeStyle::GetEndCap, direct2d.ID2D1StrokeStyle_GetEndCap
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1StrokeStyle.GetEndCap"
+f1_keywords:
+- d2d1/ID2D1StrokeStyle.GetEndCap
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1StrokeStyle.GetEndCap
+- ID2D1StrokeStyle.GetEndCap
 targetos: Windows
 req.typenames: 
 req.redist: 

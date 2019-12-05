@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObjectInfo.GetTotalLength
 title: IMDSPObjectInfo::GetTotalLength (mswmdm.h)
-
 description: The GetTotalLength method retrieves the total play length of the object in units pertinent to the object. The value returned is the total length regardless of the current settings of the play length and offset.
 old-location: wmdm\imdspobjectinfo_gettotallength.htm
 tech.root: WMDM
 ms.assetid: abd18861-550b-4968-ac96-05f07315d4db
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalLength, GetTotalLength method [windows Media Device Manager], GetTotalLength method [windows Media Device Manager],IMDSPObjectInfo interface, IMDSPObjectInfo interface [windows Media Device Manager],GetTotalLength method, IMDSPObjectInfo.GetTotalLength, IMDSPObjectInfo::GetTotalLength, IMDSPObjectInfoGetTotalLength, mswmdm/IMDSPObjectInfo::GetTotalLength, wmdm.imdspobjectinfo_gettotallength
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObjectInfo.GetTotalLength"
+f1_keywords:
+- mswmdm/IMDSPObjectInfo.GetTotalLength
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObjectInfo.GetTotalLength
+- IMDSPObjectInfo.GetTotalLength
 targetos: Windows
 req.typenames: 
 req.redist: 

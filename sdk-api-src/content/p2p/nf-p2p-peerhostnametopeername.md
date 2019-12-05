@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerHostNameToPeerName
 title: PeerHostNameToPeerName function (p2p.h)
-
 description: Decodes a host name returned by PeerNameToPeerHostName into the peer name string it represents.
 old-location: p2p\peerhostnametopeername.htm
 tech.root: P2PSdk
 ms.assetid: 3150d37e-84a3-4386-b38c-b37f7d6642cc
-
 ms.date: 12/05/2018
 ms.keywords: PeerHostNameToPeerName, PeerHostNameToPeerName function [Peer Networking], p2p.peerhostnametopeername, p2p/PeerHostNameToPeerName
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerHostNameToPeerName"
+f1_keywords:
+- p2p/PeerHostNameToPeerName
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerHostNameToPeerName
+- PeerHostNameToPeerName
 targetos: Windows
 req.typenames: 
 req.redist: 

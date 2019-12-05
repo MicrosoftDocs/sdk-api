@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509CertificateRequestPkcs10
 title: IX509CertificateRequestPkcs10 (certenroll.h)
-
-description: The IX509CertificateRequestPkcs10 interface represents a PKCS #10 certificate request. The public key cryptography standard (PKCS) #10 defines the format of messages sent to a certification or registration authority to request a public-key certificate.
+description: The IX509CertificateRequestPkcs10 interface represents a PKCS
 old-location: security\ix509certificaterequestpkcs10.htm
 tech.root: seccertenroll
 ms.assetid: 5b3764dc-fc63-45cc-8c35-65539c461e81
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10, IX509CertificateRequestPkcs10 interface [Security], IX509CertificateRequestPkcs10 interface [Security],described, certenroll/IX509CertificateRequestPkcs10, security.ix509certificaterequestpkcs10
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10
+- IX509CertificateRequestPkcs10
 targetos: Windows
 req.typenames: 
 req.redist: 

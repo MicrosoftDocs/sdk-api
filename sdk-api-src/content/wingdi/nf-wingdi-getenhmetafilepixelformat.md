@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetEnhMetaFilePixelFormat
 title: GetEnhMetaFilePixelFormat function (wingdi.h)
-
 description: The GetEnhMetaFilePixelFormat function retrieves pixel format information for an enhanced metafile.
 old-location: opengl\getenhmetafilepixelformat.htm
 tech.root: OpenGL
 ms.assetid: 80209210-5caa-44a9-a791-991b257d8d28
-
 ms.date: 12/05/2018
 ms.keywords: GetEnhMetaFilePixelFormat, GetEnhMetaFilePixelFormat function [OpenGL], _ogl_GetEnhMetaFilePixelFormat, opengl.getenhmetafilepixelformat, wingdi/GetEnhMetaFilePixelFormat
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetEnhMetaFilePixelFormat"
+f1_keywords:
+- wingdi/GetEnhMetaFilePixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetEnhMetaFilePixelFormat
+- GetEnhMetaFilePixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

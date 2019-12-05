@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Resume
 title: IRunnableTask::Resume (shobjidl_core.h)
-
 description: Requests that a task resume.
 old-location: shell\IRunnableTask_Resume.htm
 tech.root: shell
 ms.assetid: 51ff7ae2-b2db-4eee-b03b-da46ff0ec901
-
 ms.date: 12/05/2018
 ms.keywords: IRunnableTask interface [Windows Shell],Resume method, IRunnableTask.Resume, IRunnableTask::Resume, Resume, Resume method [Windows Shell], Resume method [Windows Shell],IRunnableTask interface, _win32_IRunnableTask_Resume, shell.IRunnableTask_Resume, shobjidl_core/IRunnableTask::Resume
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IRunnableTask.Resume"
+f1_keywords:
+- shobjidl_core/IRunnableTask.Resume
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IRunnableTask.Resume
+- IRunnableTask.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

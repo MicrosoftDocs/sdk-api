@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_LoadBitmap
 title: ImageList_LoadBitmap macro (commctrl.h)
-
 description: Calls the ImageList_LoadImage function to create an image list from the specified bitmap resource.
 old-location: controls\ImageList_LoadBitmap.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_loadbitmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_LoadBitmap, ImageList_LoadBitmap macro [Windows Controls], _win32_ImageList_LoadBitmap, _win32_ImageList_LoadBitmap_cpp, commctrl/ImageList_LoadBitmap, controls.ImageList_LoadBitmap, controls._win32_ImageList_LoadBitmap
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ImageList_LoadBitmap"
+f1_keywords:
+- commctrl/ImageList_LoadBitmap
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ImageList_LoadBitmap
+- ImageList_LoadBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

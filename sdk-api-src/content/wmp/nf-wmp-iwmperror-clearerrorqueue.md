@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPError.clearErrorQueue
 title: IWMPError::clearErrorQueue (wmp.h)
-
 description: The clearErrorQueue method clears the errors from the error queue.
 old-location: wmp\iwmperror_clearerrorqueue.htm
 tech.root: WMP
 ms.assetid: 8c965b48-d178-4b41-add7-0b7d208380a3
-
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],clearErrorQueue method, IWMPError.clearErrorQueue, IWMPError::clearErrorQueue, IWMPErrorclearErrorQueue, clearErrorQueue, clearErrorQueue method [Windows Media Player], clearErrorQueue method [Windows Media Player],IWMPError interface, wmp.iwmperror_clearerrorqueue, wmp/IWMPError::clearErrorQueue
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPError.clearErrorQueue"
+f1_keywords:
+- wmp/IWMPError.clearErrorQueue
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPError.clearErrorQueue
+- IWMPError.clearErrorQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

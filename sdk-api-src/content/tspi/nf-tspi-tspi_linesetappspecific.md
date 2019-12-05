@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetAppSpecific
 title: TSPI_lineSetAppSpecific function (tspi.h)
-
 description: The TSPI_lineSetAppSpecific function sets the application-specific field of the specified call's LINECALLINFO structure.
 old-location: tspi\tspi_linesetappspecific.htm
 tech.root: Tapi
 ms.assetid: aa09b03d-5e72-4db5-b21a-87841fbce70b
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetAppSpecific, TSPI_lineSetAppSpecific function [TAPI 2.2], _tspi_tspi_linesetappspecific, tspi.tspi_linesetappspecific, tspi/TSPI_lineSetAppSpecific
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetAppSpecific"
+f1_keywords:
+- tspi/TSPI_lineSetAppSpecific
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetAppSpecific
+- TSPI_lineSetAppSpecific
 targetos: Windows
 req.typenames: 
 req.redist: 

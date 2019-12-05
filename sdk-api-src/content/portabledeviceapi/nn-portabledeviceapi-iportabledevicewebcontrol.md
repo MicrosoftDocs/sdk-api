@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceWebControl
 title: IPortableDeviceWebControl (portabledeviceapi.h)
-
 description: Represents a factory that can instantiate a WPD Automation Device object in a Windows Store app.
 old-location: wpdauto\iportabledevicewebcontrol.htm
 tech.root: wpdauto
 ms.assetid: 0ec81d6a-3671-4c4e-b650-f251fa99f7ea
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceWebControl, IPortableDeviceWebControl interface [WPD Automation], IPortableDeviceWebControl interface [WPD Automation],described, portabledeviceapi/IPortableDeviceWebControl, wpdauto.iportabledevicewebcontrol
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceWebControl"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceWebControl
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - portabledeviceapi.h
+- portabledeviceapi.h
 api_name:
- - IPortableDeviceWebControl
+- IPortableDeviceWebControl
 targetos: Windows
 req.typenames: 
 req.redist: 

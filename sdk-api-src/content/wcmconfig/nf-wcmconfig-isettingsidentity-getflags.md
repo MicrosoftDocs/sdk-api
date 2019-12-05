@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.GetFlags
 title: ISettingsIdentity::GetFlags (wcmconfig.h)
-
 description: Returns the flags for a namespace identity.
 old-location: smi\isettingsidentity_getflags.htm
 tech.root: SMI
 ms.assetid: aec52cd2-90e2-492d-afcf-433a762133d1
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [SMI], GetFlags method [SMI],ISettingsIdentity interface, ISettingsIdentity interface [SMI],GetFlags method, ISettingsIdentity.GetFlags, ISettingsIdentity::GetFlags, smi.isettingsidentity_getflags, wcmconfig/ISettingsIdentity::GetFlags
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsIdentity.GetFlags"
+f1_keywords:
+- wcmconfig/ISettingsIdentity.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsIdentity.GetFlags
+- ISettingsIdentity.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

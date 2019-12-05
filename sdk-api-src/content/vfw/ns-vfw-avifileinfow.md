@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw._AVIFILEINFOW
 title: AVIFILEINFOW (vfw.h)
-
 description: The AVIFILEINFO structure contains global information for an entire AVI file.
 old-location: multimedia\avifileinfo_struct.htm
 tech.root: Multimedia
 ms.assetid: d3fda342-2ade-41b1-b709-c194f132e015
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAVIFILEINFOW, AVIFILECAPS_ALLKEYFRAMES, AVIFILECAPS_CANREAD, AVIFILECAPS_CANWRITE, AVIFILECAPS_NOCOMPRESSION, AVIFILEINFO, AVIFILEINFO structure [Windows Multimedia], AVIFILEINFOA, AVIFILEINFOW, AVIFILEINFO_COPYRIGHTED, AVIFILEINFO_HASINDEX, AVIFILEINFO_ISINTERLEAVED, AVIFILEINFO_MUSTUSEINDEX, AVIFILEINFO_WASCAPTUREFILE, multimedia.avifileinfo_COLLISION510, multimedia.avifileinfo_struct, vfw/AVIFILEINFO"
+ms.keywords: '*LPAVIFILEINFOW, AVIFILECAPS_ALLKEYFRAMES, AVIFILECAPS_CANREAD, AVIFILECAPS_CANWRITE, AVIFILECAPS_NOCOMPRESSION, AVIFILEINFO, AVIFILEINFO structure [Windows Multimedia], AVIFILEINFOA, AVIFILEINFOW, AVIFILEINFO_COPYRIGHTED, AVIFILEINFO_HASINDEX, AVIFILEINFO_ISINTERLEAVED, AVIFILEINFO_MUSTUSEINDEX, AVIFILEINFO_WASCAPTUREFILE, multimedia.avifileinfo_COLLISION510, multimedia.avifileinfo_struct, vfw/AVIFILEINFO'
 ms.topic: struct
-f1_keywords: 
- - "vfw/AVIFILEINFO"
+f1_keywords:
+- vfw/AVIFILEINFO
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - AVIFILEINFO
+- AVIFILEINFO
 targetos: Windows
 req.typenames: AVIFILEINFOW, *LPAVIFILEINFOW
 req.redist: 

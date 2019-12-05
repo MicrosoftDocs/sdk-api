@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.IASetVertexBuffers
 title: ID3D12GraphicsCommandList::IASetVertexBuffers (d3d12.h)
-
 description: Sets a CPU descriptor handle for the vertex buffers.
 old-location: direct3d12\id3d12graphicscommandlist_iasetvertexbuffers.htm
 tech.root: direct3d12
 ms.assetid: AADD6CEF-376D-43AB-86E6-37B5D7DD0B25
-
 ms.date: 12/05/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method, IASetVertexBuffers method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,IASetVertexBuffers method, ID3D12GraphicsCommandList.IASetVertexBuffers, ID3D12GraphicsCommandList::IASetVertexBuffers, d3d12/ID3D12GraphicsCommandList::IASetVertexBuffers, direct3d12.id3d12graphicscommandlist_iasetvertexbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.IASetVertexBuffers"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.IASetVertexBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.IASetVertexBuffers
+- ID3D12GraphicsCommandList.IASetVertexBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

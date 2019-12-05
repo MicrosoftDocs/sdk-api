@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterObjectInfo.GetObjectType
 title: IGetClusterObjectInfo::GetObjectType (cluadmex.h)
-
 description: Returns the type of a cluster object.
 old-location: mscs\igetclusterobjectinfo_getobjecttype.htm
 tech.root: MsCS
 ms.assetid: f01a1ada-bb4d-4042-ac56-3658262d1110
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectType, GetObjectType method [Failover Cluster], GetObjectType method [Failover Cluster],IGetClusterObjectInfo interface, IGetClusterObjectInfo interface [Failover Cluster],GetObjectType method, IGetClusterObjectInfo.GetObjectType, IGetClusterObjectInfo::GetObjectType, _wolf_igetclusterobjectinfo_getobjecttype, cluadmex/IGetClusterObjectInfo::GetObjectType, mscs.igetclusterobjectinfo_getobjecttype
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterObjectInfo.GetObjectType"
+f1_keywords:
+- cluadmex/IGetClusterObjectInfo.GetObjectType
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterObjectInfo.GetObjectType
+- IGetClusterObjectInfo.GetObjectType
 targetos: Windows
 req.typenames: 
 req.redist: 

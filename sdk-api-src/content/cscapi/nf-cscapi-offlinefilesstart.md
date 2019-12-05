@@ -1,19 +1,17 @@
 ---
 UID: NF:cscapi.OfflineFilesStart
 title: OfflineFilesStart function (cscapi.h)
-
 description: Starts the Offline Files service.
 old-location: of\offlinefilesstart.htm
 tech.root: offlinefiles
 ms.assetid: 79060780-A2C1-45CE-BB9A-75DF433C3F3C
-
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesStart, OfflineFilesStart function [Offline Files], cscapi/OfflineFilesStart, of.offlinefilesstart
 ms.topic: function
-f1_keywords: 
- - "cscapi/OfflineFilesStart"
+f1_keywords:
+- cscapi/OfflineFilesStart
 dev_langs:
- - c++
+- c++
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CscApi.lib
 req.dll: CscApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CscApi.dll
+- CscApi.dll
 api_name:
- - OfflineFilesStart
+- OfflineFilesStart
 targetos: Windows
 req.typenames: 
 req.redist: 

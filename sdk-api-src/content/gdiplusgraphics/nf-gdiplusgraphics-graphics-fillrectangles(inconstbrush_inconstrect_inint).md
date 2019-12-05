@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillRectangles(IN const Brush,IN const Rect,IN INT)
 title: Graphics::FillRectangles(IN const Brush,IN const Rect,IN INT) (gdiplusgraphics.h)
-
 description: The Graphics::FillRectangles method uses a brush to fill the interior of a sequence of rectangles.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_Rect_rects_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillrectanglesmethods\fillrectangles.htm
-
 ms.date: 12/05/2018
 ms.keywords: FillRectangles, FillRectangles method [GDI+], FillRectangles method [GDI+],Graphics class, Graphics class [GDI+],FillRectangles method, Graphics.FillRectangles, Graphics.FillRectangles(IN const Brush,IN const Rect,IN INT), Graphics.FillRectangles(const Brush*,const Rect*,INT), Graphics::FillRectangles, Graphics::FillRectangles(IN const Brush,IN const Rect,IN INT), _gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_Rect_rects_INT_count_, gdiplus._gdiplus_CLASS_Graphics_FillRectangles_Brush_brush_Rect_rects_INT_count_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.FillRectangles"
+f1_keywords:
+- gdiplusgraphics/Graphics.FillRectangles
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.FillRectangles
+- Graphics.FillRectangles
 targetos: Windows
 req.typenames: 
 req.redist: 

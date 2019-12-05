@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetBidiLevel
 title: IXpsOMGlyphs::GetBidiLevel (xpsobjectmodel.h)
-
 description: Gets the level of bidirectional text.
 old-location: xps\ixpsomglyphs_getbidilevel.htm
 tech.root: printdocs
 ms.assetid: 17110bb7-1ae9-41ef-aed1-8f1c00569825
-
 ms.date: 12/05/2018
 ms.keywords: GetBidiLevel, GetBidiLevel method [XPS Documents and Packaging], GetBidiLevel method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetBidiLevel method, IXpsOMGlyphs.GetBidiLevel, IXpsOMGlyphs::GetBidiLevel, xps.ixpsomglyphs_getbidilevel, xpsobjectmodel/IXpsOMGlyphs::GetBidiLevel
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetBidiLevel"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetBidiLevel
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetBidiLevel
+- IXpsOMGlyphs.GetBidiLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

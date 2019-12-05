@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextProvider2.RangeFromAnnotation
 title: ITextProvider2::RangeFromAnnotation (uiautomationcore.h)
-
 description: Exposes a text range that contains the text that is the target of the annotation associated with the specified annotation element.
 old-location: winauto\uiauto_itextprovider2_rangefromannotation.htm
 tech.root: WinAuto
 ms.assetid: 908DEDED-1AF9-4DFF-AC1D-F06818B06925
-
 ms.date: 12/05/2018
 ms.keywords: ITextProvider2 interface [Windows Accessibility],RangeFromAnnotation method, ITextProvider2.RangeFromAnnotation, ITextProvider2::RangeFromAnnotation, RangeFromAnnotation, RangeFromAnnotation method [Windows Accessibility], RangeFromAnnotation method [Windows Accessibility],ITextProvider2 interface, uiautomationcore/ITextProvider2::RangeFromAnnotation, winauto.uiauto_itextprovider2_rangefromannotation
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextProvider2.RangeFromAnnotation"
+f1_keywords:
+- uiautomationcore/ITextProvider2.RangeFromAnnotation
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextProvider2.RangeFromAnnotation
+- ITextProvider2.RangeFromAnnotation
 targetos: Windows
 req.typenames: 
 req.redist: 

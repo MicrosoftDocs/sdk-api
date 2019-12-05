@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallHub.get_State
 title: ITCallHub::get_State (tapi3if.h)
-
 description: The get_State method gets the current state of the CallHub.
 old-location: tapi3\itcallhub_get_state.htm
 tech.root: Tapi
 ms.assetid: 0ca4bbad-6822-4a8b-8df4-da6e630752f0
-
 ms.date: 12/05/2018
 ms.keywords: ITCallHub interface [TAPI 2.2],get_State method, ITCallHub.get_State, ITCallHub::get_State, _tapi3_itcallhub_get_state, get_State, get_State method [TAPI 2.2], get_State method [TAPI 2.2],ITCallHub interface, tapi3.itcallhub_get_state, tapi3if/ITCallHub::get_State
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallHub.get_State"
+f1_keywords:
+- tapi3if/ITCallHub.get_State
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallHub.get_State
+- ITCallHub.get_State
 targetos: Windows
 req.typenames: 
 req.redist: 

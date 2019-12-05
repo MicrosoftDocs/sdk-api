@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_PropertyConditions
 title: IFsrmFileManagementJob::get_PropertyConditions (fsrmreports.h)
-
 description: A list of property conditions specified for the job.
 old-location: fsrm\ifsrmfilemanagementjob_propertyconditions.htm
 tech.root: fsrm
 ms.assetid: 49435c4b-211e-4aae-a6b3-ad40de811526
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],PropertyConditions property, IFsrmFileManagementJob.PropertyConditions, IFsrmFileManagementJob.get_PropertyConditions, IFsrmFileManagementJob::PropertyConditions, IFsrmFileManagementJob::get_PropertyConditions, PropertyConditions property [File Server Resource Manager], PropertyConditions property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_propertyconditions, fsrm.ifsrmfilemanagementjob_propertyconditions, fsrmreports/IFsrmFileManagementJob::PropertyConditions, fsrmreports/IFsrmFileManagementJob::get_PropertyConditions, get_PropertyConditions
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.PropertyConditions"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.PropertyConditions
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.PropertyConditions
- - IFsrmFileManagementJob.get_PropertyConditions
+- IFsrmFileManagementJob.PropertyConditions
+- IFsrmFileManagementJob.get_PropertyConditions
 targetos: Windows
 req.typenames: 
 req.redist: 

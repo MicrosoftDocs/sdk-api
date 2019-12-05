@@ -1,19 +1,17 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
 title: IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize (vsmgmt.h)
-
 description: Updates the shadow copy storage area maximum size for a certain volume.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize.htm
 tech.root: VSS
 ms.assetid: c7773fa8-6b43-46bf-b644-0016b261c080
-
 ms.date: 12/05/2018
 ms.keywords: ChangeDiffAreaMaximumSize, ChangeDiffAreaMaximumSize method [VSS], ChangeDiffAreaMaximumSize method [VSS],IVssDifferentialSoftwareSnapshotMgmt interface, IVssDifferentialSoftwareSnapshotMgmt interface [VSS],ChangeDiffAreaMaximumSize method, IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize, IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize, base.ivssdifferentialsoftwaresnapshotmgmt_changediffareamaximumsize, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize
 ms.topic: method
-f1_keywords: 
- - "vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize"
+f1_keywords:
+- vsmgmt/IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
+- IVssDifferentialSoftwareSnapshotMgmt.ChangeDiffAreaMaximumSize
 targetos: Windows
 req.typenames: 
 req.redist: 

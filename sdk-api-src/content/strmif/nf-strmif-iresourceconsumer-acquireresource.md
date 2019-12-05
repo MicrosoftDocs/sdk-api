@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IResourceConsumer.AcquireResource
 title: IResourceConsumer::AcquireResource (strmif.h)
-
 description: The AcquireResource method notifies the resource consumer that a resource might be acquired.
 old-location: dshow\iresourceconsumer_acquireresource.htm
 tech.root: DirectShow
 ms.assetid: e88d90af-681e-483b-9b29-9844eec75e41
-
 ms.date: 12/05/2018
 ms.keywords: AcquireResource, AcquireResource method [DirectShow], AcquireResource method [DirectShow],IResourceConsumer interface, IResourceConsumer interface [DirectShow],AcquireResource method, IResourceConsumer.AcquireResource, IResourceConsumer::AcquireResource, IResourceConsumerAcquireResource, dshow.iresourceconsumer_acquireresource, strmif/IResourceConsumer::AcquireResource
 ms.topic: method
-f1_keywords: 
- - "strmif/IResourceConsumer.AcquireResource"
+f1_keywords:
+- strmif/IResourceConsumer.AcquireResource
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceConsumer.AcquireResource
+- IResourceConsumer.AcquireResource
 targetos: Windows
 req.typenames: 
 req.redist: 

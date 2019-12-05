@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRunningTask.get_InstanceGuid
 title: IRunningTask::get_InstanceGuid (taskschd.h)
-
 description: Gets the GUID identifier for this instance of the task.
 old-location: taskschd\irunningtask_instanceguid.htm
 tech.root: taskschd
 ms.assetid: 993682d1-c77c-48d8-bec6-aab810c8bcda
-
 ms.date: 12/05/2018
 ms.keywords: IRunningTask interface [Task Scheduler],InstanceGuid property, IRunningTask.InstanceGuid, IRunningTask.get_InstanceGuid, IRunningTask::InstanceGuid, IRunningTask::get_InstanceGuid, InstanceGuid property [Task Scheduler], InstanceGuid property [Task Scheduler],IRunningTask interface, get_InstanceGuid, taskschd.irunningtask_instanceguid, taskschd/IRunningTask::InstanceGuid, taskschd/IRunningTask::get_InstanceGuid
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRunningTask.InstanceGuid"
+f1_keywords:
+- taskschd/IRunningTask.InstanceGuid
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRunningTask.InstanceGuid
- - IRunningTask.get_InstanceGuid
+- IRunningTask.InstanceGuid
+- IRunningTask.get_InstanceGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

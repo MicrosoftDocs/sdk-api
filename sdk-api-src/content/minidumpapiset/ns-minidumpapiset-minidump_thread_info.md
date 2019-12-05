@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_THREAD_INFO
 title: MINIDUMP_THREAD_INFO (minidumpapiset.h)
-
 description: Contains thread state information.
 old-location: base\minidump_thread_info_str.htm
 tech.root: Debug
 ms.assetid: 855bbccb-a7c8-4744-b314-8692f785b1c0
-
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO structure, MINIDUMP_THREAD_INFO_ERROR_THREAD, MINIDUMP_THREAD_INFO_EXITED_THREAD, MINIDUMP_THREAD_INFO_INVALID_CONTEXT, MINIDUMP_THREAD_INFO_INVALID_INFO, MINIDUMP_THREAD_INFO_INVALID_TEB, MINIDUMP_THREAD_INFO_WRITING_THREAD, PMINIDUMP_THREAD_INFO, PMINIDUMP_THREAD_INFO structure pointer, _MINIDUMP_THREAD_INFO, base.minidump_thread_info_str, minidumpapiset/MINIDUMP_THREAD_INFO, minidumpapiset/PMINIDUMP_THREAD_INFO"
+ms.keywords: '*PMINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO, MINIDUMP_THREAD_INFO structure, MINIDUMP_THREAD_INFO_ERROR_THREAD, MINIDUMP_THREAD_INFO_EXITED_THREAD, MINIDUMP_THREAD_INFO_INVALID_CONTEXT, MINIDUMP_THREAD_INFO_INVALID_INFO, MINIDUMP_THREAD_INFO_INVALID_TEB, MINIDUMP_THREAD_INFO_WRITING_THREAD, PMINIDUMP_THREAD_INFO, PMINIDUMP_THREAD_INFO structure pointer, _MINIDUMP_THREAD_INFO, base.minidump_thread_info_str, minidumpapiset/MINIDUMP_THREAD_INFO, minidumpapiset/PMINIDUMP_THREAD_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_THREAD_INFO"
+f1_keywords:
+- minidumpapiset/MINIDUMP_THREAD_INFO
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_THREAD_INFO
+- MINIDUMP_THREAD_INFO
 targetos: Windows
 req.typenames: MINIDUMP_THREAD_INFO, *PMINIDUMP_THREAD_INFO
 req.redist: DbgHelp.dll 6.3 or later

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_add
 title: ldap_add function (winldap.h)
-
 description: Initiates an asynchronous add operation to a directory tree.
 old-location: ldap\ldap_add.htm
 tech.root: ldap
 ms.assetid: d978f668-7726-44e4-a0b1-31390e8498c4
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_add, ldap.ldap__add, ldap.ldap_add, ldap_add, ldap_add function [LDAP], ldap_addA, ldap_addW, winldap/ldap_add, winldap/ldap_addA, winldap/ldap_addW"
+ms.keywords: _ldap_ldap_add, ldap.ldap__add, ldap.ldap_add, ldap_add, ldap_add function [LDAP], ldap_addA, ldap_addW, winldap/ldap_add, winldap/ldap_addA, winldap/ldap_addW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_add"
+f1_keywords:
+- winldap/ldap_add
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_add
- - ldap_addA
- - ldap_addW
+- ldap_add
+- ldap_addA
+- ldap_addW
 targetos: Windows
 req.typenames: 
 req.redist: 

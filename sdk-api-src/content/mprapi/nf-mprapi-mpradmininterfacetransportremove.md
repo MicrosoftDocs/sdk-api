@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportRemove
 title: MprAdminInterfaceTransportRemove function (mprapi.h)
-
 description: The MprAdminInterfaceTransportRemove function removes a transport (for example, IP or IPX) from a specified interface.
 old-location: rras\mpradmininterfacetransportremove.htm
 tech.root: RRAS
 ms.assetid: 0773923a-6bfe-4b86-a8ca-a52016733668
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceTransportRemove, MprAdminInterfaceTransportRemove function [RAS], _mpr_mpradmininterfacetransportremove, mprapi/MprAdminInterfaceTransportRemove, rras.mpradmininterfacetransportremove
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceTransportRemove"
+f1_keywords:
+- mprapi/MprAdminInterfaceTransportRemove
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceTransportRemove
+- MprAdminInterfaceTransportRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

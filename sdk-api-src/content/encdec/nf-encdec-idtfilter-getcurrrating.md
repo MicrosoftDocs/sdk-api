@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter.GetCurrRating
 title: IDTFilter::GetCurrRating (encdec.h)
-
 description: The GetCurrRating method retrieves the current rating, based on the most recent media sample.
 old-location: mstv\idtfilter_getcurrrating.htm
 tech.root: mstv
 ms.assetid: 6ea5c9a0-b04c-41a6-83ed-48ea9d187da7
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrRating, GetCurrRating method [Microsoft TV Technologies], GetCurrRating method [Microsoft TV Technologies],IDTFilter interface, IDTFilter interface [Microsoft TV Technologies],GetCurrRating method, IDTFilter.GetCurrRating, IDTFilter::GetCurrRating, IDTFilterGetCurrRating, encdec/IDTFilter::GetCurrRating, mstv.idtfilter_getcurrrating
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter.GetCurrRating"
+f1_keywords:
+- encdec/IDTFilter.GetCurrRating
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter.GetCurrRating
+- IDTFilter.GetCurrRating
 targetos: Windows
 req.typenames: 
 req.redist: 

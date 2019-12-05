@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Resume
 title: IWMReader::Resume (wmsdkidl.h)
-
 description: The Resume method starts the reader from the current position, after a Pause method call.
 old-location: wmformat\iwmreader_resume.htm
 tech.root: wmformat
 ms.assetid: 4af00d1f-c78a-4f43-be2d-9561e3c7cf36
-
 ms.date: 12/05/2018
 ms.keywords: IWMReader interface [windows Media Format],Resume method, IWMReader.Resume, IWMReader::Resume, IWMReaderResume, Resume, Resume method [windows Media Format], Resume method [windows Media Format],IWMReader interface, wmformat.iwmreader_resume, wmsdkidl/IWMReader::Resume
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReader.Resume"
+f1_keywords:
+- wmsdkidl/IWMReader.Resume
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReader.Resume
+- IWMReader.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

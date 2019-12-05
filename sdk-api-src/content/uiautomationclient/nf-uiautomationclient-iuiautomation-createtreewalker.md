@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateTreeWalker
 title: IUIAutomation::CreateTreeWalker (uiautomationclient.h)
-
 description: Retrieves a tree walker object that can be used to traverse the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IUIAutomation_CreateTreeWalker.htm
 tech.root: WinAuto
 ms.assetid: c976bf97-656b-4992-b0c5-f442b501ad75
-
 ms.date: 12/05/2018
 ms.keywords: CreateTreeWalker, CreateTreeWalker method [Windows Accessibility], CreateTreeWalker method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateTreeWalker method, IUIAutomation.CreateTreeWalker, IUIAutomation::CreateTreeWalker, uiauto.uiauto_IUIAutomation_CreateTreeWalker, uiauto_IUIAutomation_CreateTreeWalker, uiautomationclient/IUIAutomation::CreateTreeWalker, winauto.uiauto_IUIAutomation_CreateTreeWalker
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CreateTreeWalker"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CreateTreeWalker
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateTreeWalker
+- IUIAutomation.CreateTreeWalker
 targetos: Windows
 req.typenames: 
 req.redist: 

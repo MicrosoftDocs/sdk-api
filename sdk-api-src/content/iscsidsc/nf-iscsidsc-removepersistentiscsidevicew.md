@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RemovePersistentIScsiDeviceW
 title: RemovePersistentIScsiDeviceW function (iscsidsc.h)
-
 description: RemovePersistentIscsiDevice function removes a device or volume from the list of persistently bound iSCSI volumes.
 old-location: iscsidisc\removepersistentiscsidevice.htm
 tech.root: iSCSIDisc
 ms.assetid: 4016d8e4-de67-4c49-b54f-31c1b7bd64a8
-
 ms.date: 12/05/2018
 ms.keywords: RemovePersistentIScsiDeviceW, RemovePersistentIscsiDevice, RemovePersistentIscsiDevice function [iSCSI Discovery Library API], RemovePersistentIscsiDeviceA, RemovePersistentIscsiDeviceW, iscsidisc.removepersistentiscsidevice, iscsidsc/RemovePersistentIscsiDevice, iscsidsc/RemovePersistentIscsiDeviceA, iscsidsc/RemovePersistentIscsiDeviceW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RemovePersistentIscsiDevice"
+f1_keywords:
+- iscsidsc/RemovePersistentIscsiDevice
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RemovePersistentIscsiDevice
- - RemovePersistentIscsiDeviceA
- - RemovePersistentIscsiDeviceW
+- RemovePersistentIscsiDevice
+- RemovePersistentIscsiDeviceA
+- RemovePersistentIscsiDeviceW
 targetos: Windows
 req.typenames: 
 req.redist: 

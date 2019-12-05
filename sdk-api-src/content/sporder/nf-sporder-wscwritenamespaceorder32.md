@@ -1,19 +1,17 @@
 ---
 UID: NF:sporder.WSCWriteNameSpaceOrder32
 title: WSCWriteNameSpaceOrder32 function (sporder.h)
-
 description: Changes the order of available Windows Sockets (Winsock) 2 namespace providers in a 32-bit catalog.
 old-location: winsock\wscwritenamespaceorder32.htm
 tech.root: WinSock
 ms.assetid: a5b15d28-8137-42bf-8f2a-7c6b5a8a63c2
-
 ms.date: 12/05/2018
 ms.keywords: WSCWriteNameSpaceOrder32, WSCWriteNameSpaceOrder32 function [Winsock], sporder/WSCWriteNameSpaceOrder32, winsock.wscwritenamespaceorder32
 ms.topic: function
 f1_keywords:
 - sporder/WSCWriteNameSpaceOrder32
 dev_langs:
- - c++
+- c++
 req.header: sporder.h
 req.include-header: 
 req.target-type: Windows

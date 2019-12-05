@@ -1,19 +1,17 @@
 ---
 UID: NE:mobsync._tagSYNCMGRSTATUS
 title: SYNCMGRSTATUS (mobsync.h)
-
 description: Used in the ISyncMgrSynchronize::SetItemStatus method to specify the updated status for the item.
 old-location: shell\syncmgr_syncmgrstatus.htm
 tech.root: shell
 ms.assetid: a2bdc883-2e61-42a4-a88b-8fab42f018e1
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGRSTATUS, SYNCMGRSTATUS enumeration [Windows Shell], SYNCMGRSTATUS_DELETED, SYNCMGRSTATUS_FAILED, SYNCMGRSTATUS_PAUSED, SYNCMGRSTATUS_PENDING, SYNCMGRSTATUS_RESUMING, SYNCMGRSTATUS_SKIPPED, SYNCMGRSTATUS_STOPPED, SYNCMGRSTATUS_SUCCEEDED, SYNCMGRSTATUS_UPDATING, SYNCMGRSTATUS_UPDATING_INDETERMINATE, mobsync/SYNCMGRSTATUS, mobsync/SYNCMGRSTATUS_DELETED, mobsync/SYNCMGRSTATUS_FAILED, mobsync/SYNCMGRSTATUS_PAUSED, mobsync/SYNCMGRSTATUS_PENDING, mobsync/SYNCMGRSTATUS_RESUMING, mobsync/SYNCMGRSTATUS_SKIPPED, mobsync/SYNCMGRSTATUS_STOPPED, mobsync/SYNCMGRSTATUS_SUCCEEDED, mobsync/SYNCMGRSTATUS_UPDATING, mobsync/SYNCMGRSTATUS_UPDATING_INDETERMINATE, shell.syncmgr_syncmgrstatus, syncmgr.syncmgrstatus
 ms.topic: enum
-f1_keywords: 
- - "mobsync/SYNCMGRSTATUS"
+f1_keywords:
+- mobsync/SYNCMGRSTATUS
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mobsync.h
+- Mobsync.h
 api_name:
- - SYNCMGRSTATUS
+- SYNCMGRSTATUS
 targetos: Windows
 req.typenames: SYNCMGRSTATUS
 req.redist: 

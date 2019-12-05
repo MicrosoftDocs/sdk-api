@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_SetIconSize
 title: ImageList_SetIconSize function (commctrl.h)
-
 description: Sets the dimensions of images in an image list and removes all images from the list.
 old-location: controls\ImageList_SetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_seticonsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_SetIconSize, ImageList_SetIconSize function [Windows Controls], _win32_ImageList_SetIconSize, _win32_ImageList_SetIconSize_cpp, commctrl/ImageList_SetIconSize, controls.ImageList_SetIconSize, controls._win32_ImageList_SetIconSize
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_SetIconSize"
+f1_keywords:
+- commctrl/ImageList_SetIconSize
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_SetIconSize
+- ImageList_SetIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 

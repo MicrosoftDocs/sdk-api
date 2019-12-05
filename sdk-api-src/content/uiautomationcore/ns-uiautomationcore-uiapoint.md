@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcore.UiaPoint
 title: UiaPoint (uiautomationcore.h)
-
 description: Contains the coordinates of a point.
 old-location: winauto\uiauto_UiaPointStruct.htm
 tech.root: WinAuto
 ms.assetid: 2969cb79-fb78-404e-bcac-edf68001fa08
-
 ms.date: 12/05/2018
 ms.keywords: UiaPoint, UiaPoint structure [Windows Accessibility], uiauto.uiauto_UiaPointStruct, uiauto_UiaPointStruct, uiautomationcore/UiaPoint, winauto.uiauto_UiaPointStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcore/UiaPoint"
+f1_keywords:
+- uiautomationcore/UiaPoint
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - UiaPoint
+- UiaPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleSetMenuDescriptor
 title: OleSetMenuDescriptor function (ole2.h)
-
 description: Installs or removes OLE dispatching code from the container's frame window.
 old-location: com\olesetmenudescriptor.htm
 tech.root: com
 ms.assetid: c80fe36d-5093-4814-83a9-0c11c5a7cf5f
-
 ms.date: 12/05/2018
 ms.keywords: OleSetMenuDescriptor, OleSetMenuDescriptor function [COM], _ole_OleSetMenuDescriptor, com.olesetmenudescriptor, ole2/OleSetMenuDescriptor
 ms.topic: function
-f1_keywords: 
- - "ole2/OleSetMenuDescriptor"
+f1_keywords:
+- ole2/OleSetMenuDescriptor
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleSetMenuDescriptor
+- OleSetMenuDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

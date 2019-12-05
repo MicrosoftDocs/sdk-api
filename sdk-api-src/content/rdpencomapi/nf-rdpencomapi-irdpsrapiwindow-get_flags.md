@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIWindow.get_Flags
 title: IRDPSRAPIWindow::get_Flags (rdpencomapi.h)
-
 description: Returns the flags on the current window.
 old-location: rdp\irdpsrapiwindow_flags.htm
 tech.root: rdp
 ms.assetid: 64215325-fb94-4708-9391-5ef86c2c0076
-
 ms.date: 12/05/2018
 ms.keywords: Flags property [RDP], Flags property [RDP],IRDPSRAPIWindow interface, Flags property [RDP],RDPSRAPIWindow object, IRDPSRAPIWindow interface [RDP],Flags property, IRDPSRAPIWindow.Flags, IRDPSRAPIWindow.get_Flags, IRDPSRAPIWindow::Flags, IRDPSRAPIWindow::get_Flags, RDPSRAPIWindow object [RDP],Flags property, get_Flags, rdp.irdpsrapiwindow_flags, rdpencomapi/IRDPSRAPIWindow::Flags, rdpencomapi/IRDPSRAPIWindow::get_Flags
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIWindow.Flags"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIWindow.Flags
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIWindow.Flags
- - IRDPSRAPIWindow.get_Flags
- - RDPSRAPIWindow.Flags
+- IRDPSRAPIWindow.Flags
+- IRDPSRAPIWindow.get_Flags
+- RDPSRAPIWindow.Flags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectEvents.DirtyRegion
 title: IMILBitmapEffectEvents::DirtyRegion (mileffects.h)
-
 description: Invalidates the specified region of the given IMILBitmapEffectPrimitive.
 old-location: wibe\_wibe_imilbitmapeffectevents_dirtyregion.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\dirtyregion.htm
-
 ms.date: 12/05/2018
 ms.keywords: DirtyRegion, DirtyRegion method [WPF Bitmap Effects], DirtyRegion method [WPF Bitmap Effects],IMILBitmapEffectEvents interface, IMILBitmapEffectEvents interface [WPF Bitmap Effects],DirtyRegion method, IMILBitmapEffectEvents.DirtyRegion, IMILBitmapEffectEvents::DirtyRegion, _wibe_imilbitmapeffectevents_dirtyregion, mileffects/IMILBitmapEffectEvents::DirtyRegion, wibe._wibe_imilbitmapeffectevents_dirtyregion
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectEvents.DirtyRegion"
+f1_keywords:
+- mileffects/IMILBitmapEffectEvents.DirtyRegion
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectEvents.DirtyRegion
+- IMILBitmapEffectEvents.DirtyRegion
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

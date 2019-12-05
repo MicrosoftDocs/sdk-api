@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServices
 title: IBDA_GuideDataDeliveryService::GetServices (bdaiface.h)
-
 description: Gets a list of services that are available on the the media transform device (MTD).
 old-location: mstv\ibda_guidedatadeliveryservice_getservices.htm
 tech.root: mstv
 ms.assetid: 82133fc5-0f42-4b24-abf6-bc46e72650ac
-
 ms.date: 12/05/2018
 ms.keywords: GetServices, GetServices method [Microsoft TV Technologies], GetServices method [Microsoft TV Technologies],IBDA_GuideDataDeliveryService interface, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],GetServices method, IBDA_GuideDataDeliveryService.GetServices, IBDA_GuideDataDeliveryService::GetServices, bdaiface/IBDA_GuideDataDeliveryService::GetServices, mstv.ibda_guidedatadeliveryservice_getservices
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_GuideDataDeliveryService.GetServices"
+f1_keywords:
+- bdaiface/IBDA_GuideDataDeliveryService.GetServices
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_GuideDataDeliveryService.GetServices
+- IBDA_GuideDataDeliveryService.GetServices
 targetos: Windows
 req.typenames: 
 req.redist: 

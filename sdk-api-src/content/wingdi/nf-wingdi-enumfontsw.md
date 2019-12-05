@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EnumFontsW
 title: EnumFontsW function (wingdi.h)
-
 description: The EnumFonts function enumerates the fonts available on a specified device.
 old-location: gdi\enumfonts.htm
 tech.root: gdi
 ms.assetid: b5dfc38d-c400-4900-a15b-f251815ee346
-
 ms.date: 12/05/2018
 ms.keywords: EnumFonts, EnumFonts function [Windows GDI], EnumFontsA, EnumFontsW, _win32_EnumFonts, gdi.enumfonts, wingdi/EnumFonts, wingdi/EnumFontsA, wingdi/EnumFontsW
 ms.topic: function
-f1_keywords: 
- - "wingdi/EnumFonts"
+f1_keywords:
+- wingdi/EnumFonts
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-L1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-L1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - EnumFonts
- - EnumFontsA
- - EnumFontsW
+- EnumFonts
+- EnumFontsA
+- EnumFontsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winsock2._WSAPROTOCOLCHAIN
 title: WSAPROTOCOLCHAIN (winsock2.h)
-
 description: The WSAPROTOCOLCHAIN structure contains a counted list of Catalog Entry identifiers that comprise a protocol chain.
 old-location: winsock\wsaprotocolchain_2.htm
 tech.root: WinSock
 ms.assetid: c0676f45-e3e3-45f2-9b34-d7318fddc282
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN structure pointer [Winsock], WSAPROTOCOLCHAIN, WSAPROTOCOLCHAIN structure [Winsock], _win32_wsaprotocolchain_2, winsock.wsaprotocolchain_2, winsock2/LPWSAPROTOCOLCHAIN, winsock2/WSAPROTOCOLCHAIN"
+ms.keywords: '*LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN, LPWSAPROTOCOLCHAIN structure pointer [Winsock], WSAPROTOCOLCHAIN, WSAPROTOCOLCHAIN structure [Winsock], _win32_wsaprotocolchain_2, winsock.wsaprotocolchain_2, winsock2/LPWSAPROTOCOLCHAIN, winsock2/WSAPROTOCOLCHAIN'
 ms.topic: struct
-f1_keywords: 
- - "winsock2/WSAPROTOCOLCHAIN"
+f1_keywords:
+- winsock2/WSAPROTOCOLCHAIN
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - WSAPROTOCOLCHAIN
+- WSAPROTOCOLCHAIN
 targetos: Windows
 req.typenames: WSAPROTOCOLCHAIN, *LPWSAPROTOCOLCHAIN
 req.redist: 

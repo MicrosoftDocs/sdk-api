@@ -1,19 +1,17 @@
 ---
 UID: NS:lmdfs._DFS_TARGET_PRIORITY
 title: DFS_TARGET_PRIORITY (lmdfs.h)
-
 description: Contains the priority class and rank of a specific DFS target.
 old-location: dfs\dfs_target_priority.htm
 tech.root: Dfs
 ms.assetid: b8f645ab-e3b4-4e0f-809a-57e27ab1e641
-
 ms.date: 12/05/2018
 ms.keywords: '*PDFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY, DFS_TARGET_PRIORITY structure [Distributed File System], LPDFS_TARGET_PRIORITY, LPDFS_TARGET_PRIORITY structure pointer [Distributed File System], PDFS_TARGET_PRIORITY, PDFS_TARGET_PRIORITY structure pointer [Distributed File System], dfs.dfs_target_priority, fs.dfs_target_priority, lmdfs/DFS_TARGET_PRIORITY, lmdfs/LPDFS_TARGET_PRIORITY, lmdfs/PDFS_TARGET_PRIORITY, netmgmt.dfs_target_priority'
 ms.topic: struct
 f1_keywords:
 - lmdfs/DFS_TARGET_PRIORITY
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows

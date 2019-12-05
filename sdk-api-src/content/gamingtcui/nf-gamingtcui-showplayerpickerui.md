@@ -1,19 +1,17 @@
 ---
 UID: NF:gamingtcui.ShowPlayerPickerUI
 title: ShowPlayerPickerUI function (gamingtcui.h)
-
 description: Do not use. This API is only supported for Xbox developers.
 old-location: tcui\showplayerpickerui.htm
 tech.root: tcui
 ms.assetid: 71A5DD28-1C0F-46B6-835F-1358B21AF2EF
-
 ms.date: 12/05/2018
 ms.keywords: ShowPlayerPickerUI, ShowPlayerPickerUI function, gamingtcui/ShowPlayerPickerUI, tcui.showplayerpickerui
 ms.topic: function
-f1_keywords: 
- - "gamingtcui/ShowPlayerPickerUI"
+f1_keywords:
+- gamingtcui/ShowPlayerPickerUI
 dev_langs:
- - c++
+- c++
 req.header: gamingtcui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: WindowsApp.lib
 req.dll: Gamingtcui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamingtcui.dll
- - API-MS-Win-Gaming-Tcui-L1-1-0.dll
- - GamingTcuiStub.dll
- - API-MS-Win-Gaming-Tcui-L1-1-1.dll
- - Xbox.Shell.API.dll
- - API-MS-Win-Gaming-Tcui-L1-1-2.dll
+- gamingtcui.dll
+- API-MS-Win-Gaming-Tcui-L1-1-0.dll
+- GamingTcuiStub.dll
+- API-MS-Win-Gaming-Tcui-L1-1-1.dll
+- Xbox.Shell.API.dll
+- API-MS-Win-Gaming-Tcui-L1-1-2.dll
 api_name:
- - ShowPlayerPickerUI
+- ShowPlayerPickerUI
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msaatext.IAccDictionary.GetMnemonicString
 title: IAccDictionary::GetMnemonicString (msaatext.h)
-
 description: Retrieves a mnemonic string.Note  Active Accessibility Text Services is deprecated.
 old-location: winauto\iaccdictionary_iaccdictionary__getmnemonicstring.htm
 tech.root: WinAuto
 ms.assetid: 4855acea-83a9-4752-a780-7f0350a7b137
-
 ms.date: 12/05/2018
 ms.keywords: GetMnemonicString, GetMnemonicString method [Windows Accessibility], GetMnemonicString method [Windows Accessibility],IAccDictionary interface, IAccDictionary interface [Windows Accessibility],GetMnemonicString method, IAccDictionary.GetMnemonicString, IAccDictionary::GetMnemonicString, _msaa_IAccDictionary_GetMnemonicString, msaa.iaccdictionary_iaccdictionary__getmnemonicstring, msaatext/IAccDictionary::GetMnemonicString, winauto.iaccdictionary_iaccdictionary__getmnemonicstring
 ms.topic: method
-f1_keywords: 
- - "msaatext/IAccDictionary.GetMnemonicString"
+f1_keywords:
+- msaatext/IAccDictionary.GetMnemonicString
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msaatext.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.dll
+- msaatext.dll
 api_name:
- - IAccDictionary.GetMnemonicString
+- IAccDictionary.GetMnemonicString
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 2.0 RDK on Windows NT 4.0 with SP6 and later and Windows 98

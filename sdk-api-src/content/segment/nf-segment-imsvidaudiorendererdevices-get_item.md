@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.get_Item
 title: IMSVidAudioRendererDevices::get_Item (segment.h)
-
 description: The get_Item method retrieves the specified item from the collection.
 old-location: mstv\imsvidaudiorendererdevices_get_item.htm
 tech.root: mstv
 ms.assetid: ba6e9161-0881-4f95-9507-acf2a01e05e6
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererDevices interface [Microsoft TV Technologies],get_Item method, IMSVidAudioRendererDevices.get_Item, IMSVidAudioRendererDevices::get_Item, IMSVidAudioRendererDevicesget_Item, get_Item, get_Item method [Microsoft TV Technologies], get_Item method [Microsoft TV Technologies],IMSVidAudioRendererDevices interface, mstv.imsvidaudiorendererdevices_get_item, segment/IMSVidAudioRendererDevices::get_Item
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererDevices.get_Item"
+f1_keywords:
+- segment/IMSVidAudioRendererDevices.get_Item
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererDevices.get_Item
+- IMSVidAudioRendererDevices.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

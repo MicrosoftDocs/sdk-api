@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.SetRenderingPrefs
 title: IVMRFilterConfig9::SetRenderingPrefs (vmr9.h)
-
 description: The SetRenderingPrefs method sets various application preferences related to video rendering.
 old-location: dshow\ivmrfilterconfig9_setrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: ce274528-c759-4b43-80c7-0ba1e1275b7d
-
 ms.date: 12/05/2018
 ms.keywords: IVMRFilterConfig9 interface [DirectShow],SetRenderingPrefs method, IVMRFilterConfig9.SetRenderingPrefs, IVMRFilterConfig9::SetRenderingPrefs, IVMRFilterConfig9SetRenderingPrefs, SetRenderingPrefs, SetRenderingPrefs method [DirectShow], SetRenderingPrefs method [DirectShow],IVMRFilterConfig9 interface, dshow.ivmrfilterconfig9_setrenderingprefs, vmr9/IVMRFilterConfig9::SetRenderingPrefs
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRFilterConfig9.SetRenderingPrefs"
+f1_keywords:
+- vmr9/IVMRFilterConfig9.SetRenderingPrefs
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRFilterConfig9.SetRenderingPrefs
+- IVMRFilterConfig9.SetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

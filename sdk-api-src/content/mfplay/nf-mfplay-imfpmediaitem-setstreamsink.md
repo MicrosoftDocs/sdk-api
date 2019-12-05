@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStreamSink
 title: IMFPMediaItem::SetStreamSink (mfplay.h)
-
 description: Sets a media sink for the media item.
 old-location: mf\imfpmediaitem_setstreamsink.htm
 tech.root: medfound
 ms.assetid: 97ed9cc0-5f69-4ecb-98c7-c58130b91d7c
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStreamSink method, IMFPMediaItem.SetStreamSink, IMFPMediaItem::SetStreamSink, SetStreamSink, SetStreamSink method [Media Foundation], SetStreamSink method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstreamsink, mfplay/IMFPMediaItem::SetStreamSink
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.SetStreamSink"
+f1_keywords:
+- mfplay/IMFPMediaItem.SetStreamSink
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.SetStreamSink
+- IMFPMediaItem.SetStreamSink
 targetos: Windows
 req.typenames: 
 req.redist: 

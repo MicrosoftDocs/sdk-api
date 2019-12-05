@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.GetElements
 title: Matrix::GetElements (gdiplusmatrix.h)
-
 description: The Matrix::GetElements method gets the elements of this matrix. The elements are placed in an array in the order m11, m12, m21, m22, m31, m32, where mij denotes the element in row i, column j.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_GetElements_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\getelements.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetElements, GetElements method [GDI+], GetElements method [GDI+],Matrix class, Matrix class [GDI+],GetElements method, Matrix.GetElements, Matrix::GetElements, _gdiplus_CLASS_Matrix_GetElements_, gdiplus._gdiplus_CLASS_Matrix_GetElements_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.GetElements"
+f1_keywords:
+- gdiplusmatrix/Matrix.GetElements
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.GetElements
+- Matrix.GetElements
 targetos: Windows
 req.typenames: 
 req.redist: 

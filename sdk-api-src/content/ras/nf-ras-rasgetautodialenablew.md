@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetAutodialEnableW
 title: RasGetAutodialEnableW function (ras.h)
-
 description: The RasGetAutodialEnable function indicates whether the AutoDial feature is enabled for a specified TAPI dialing location.
 old-location: rras\rasgetautodialenable.htm
 tech.root: RRAS
 ms.assetid: 221f91e6-86bd-4450-92c8-ec3290712c18
-
 ms.date: 12/05/2018
 ms.keywords: RasGetAutodialEnable, RasGetAutodialEnable function [RAS], RasGetAutodialEnableA, RasGetAutodialEnableW, _ras_rasgetautodialenable, ras/RasGetAutodialEnable, ras/RasGetAutodialEnableA, ras/RasGetAutodialEnableW, rras.rasgetautodialenable
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetAutodialEnable"
+f1_keywords:
+- ras/RasGetAutodialEnable
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetAutodialEnable
- - RasGetAutodialEnableA
- - RasGetAutodialEnableW
+- RasGetAutodialEnable
+- RasGetAutodialEnableA
+- RasGetAutodialEnableW
 targetos: Windows
 req.typenames: 
 req.redist: 

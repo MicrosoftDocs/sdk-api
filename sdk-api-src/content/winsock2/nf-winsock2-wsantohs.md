@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSANtohs
 title: WSANtohs function (winsock2.h)
-
 description: The WSANtohs function converts a u_short from network byte order to host byte order.
 old-location: winsock\wsantohs_2.htm
 tech.root: WinSock
 ms.assetid: 0a4bc3a9-9919-4dcb-8a37-af37e0243c8f
-
 ms.date: 12/05/2018
 ms.keywords: WSANtohs, WSANtohs function [Winsock], _win32_wsantohs_2, winsock.wsantohs_2, winsock2/WSANtohs
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSANtohs"
+f1_keywords:
+- winsock2/WSANtohs
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSANtohs
+- WSANtohs
 targetos: Windows
 req.typenames: 
 req.redist: 

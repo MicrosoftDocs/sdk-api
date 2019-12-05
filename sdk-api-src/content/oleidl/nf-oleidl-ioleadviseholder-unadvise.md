@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.Unadvise
 title: IOleAdviseHolder::Unadvise (oleidl.h)
-
 description: Deletes a previously established advisory connection.
 old-location: com\ioleadviseholder_unadvise.htm
 tech.root: com
 ms.assetid: 620bc43f-dfc7-48b7-a574-ca7287ffa42f
-
 ms.date: 12/05/2018
 ms.keywords: IOleAdviseHolder interface [COM],Unadvise method, IOleAdviseHolder.Unadvise, IOleAdviseHolder::Unadvise, Unadvise, Unadvise method [COM], Unadvise method [COM],IOleAdviseHolder interface, _ole_ioleadviseholder_unadvise, com.ioleadviseholder_unadvise, oleidl/IOleAdviseHolder::Unadvise
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleAdviseHolder.Unadvise"
+f1_keywords:
+- oleidl/IOleAdviseHolder.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleAdviseHolder.Unadvise
+- IOleAdviseHolder.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

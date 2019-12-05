@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FillEllipse(IN const Brush,IN INT,IN INT,IN INT,IN INT)
 title: Graphics::FillEllipse(IN const Brush,IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
-
 description: The Graphics::FillEllipse method uses a brush to fill the interior of an ellipse that is specified by coordinates and dimensions.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_INT_x_INT_y_INT_width_INT_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsfillellipsemethods\fillellipse_85brushbrush_intx_inty_intwidth_intheigh.htm
-
 ms.date: 12/05/2018
 ms.keywords: FillEllipse, FillEllipse method [GDI+], FillEllipse method [GDI+],Graphics class, Graphics class [GDI+],FillEllipse method, Graphics.FillEllipse, Graphics.FillEllipse(IN const Brush,IN INT,IN INT,IN INT,IN INT), Graphics.FillEllipse(const Brush*,INT,INT,INT,INT), Graphics::FillEllipse, Graphics::FillEllipse(IN const Brush,IN INT,IN INT,IN INT,IN INT), _gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_INT_x_INT_y_INT_width_INT_height_, gdiplus._gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_INT_x_INT_y_INT_width_INT_height_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.FillEllipse"
+f1_keywords:
+- gdiplusgraphics/Graphics.FillEllipse
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.FillEllipse
+- Graphics.FillEllipse
 targetos: Windows
 req.typenames: 
 req.redist: 

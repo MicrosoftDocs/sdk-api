@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilSetValueEx
 title: ResUtilSetValueEx function (resapi.h)
-
 description: Sets a value in the cluster database.
 old-location: mscs\resutilsetvalueex.htm
 tech.root: MsCS
 ms.assetid: AE0D9AF5-3161-453F-95FC-C759640AF58B
-
 ms.date: 12/05/2018
 ms.keywords: ResUtilSetValueEx, ResUtilSetValueEx function [Failover Cluster], mscs.resutilsetvalueex, resapi/ResUtilSetValueEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilSetValueEx"
+f1_keywords:
+- resapi/ResUtilSetValueEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilSetValueEx
+- ResUtilSetValueEx
 targetos: Windows
 req.typenames: 
 req.redist: 

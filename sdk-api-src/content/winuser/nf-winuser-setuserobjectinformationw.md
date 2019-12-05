@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetUserObjectInformationW
 title: SetUserObjectInformationW function (winuser.h)
-
 description: Sets information about the specified window station or desktop object.
 old-location: winstation\setuserobjectinformation.htm
 tech.root: winstation
 ms.assetid: 42ce6946-1659-41a3-8ba7-21588583b4bd
-
 ms.date: 12/05/2018
 ms.keywords: SetUserObjectInformation, SetUserObjectInformation function [Windows Stations and Desktops], SetUserObjectInformationA, SetUserObjectInformationW, UOI_FLAGS, UOI_TIMERPROC_EXCEPTION_SUPPRESSION, _win32_setuserobjectinformation, base.setuserobjectinformation, winstation.setuserobjectinformation, winuser/SetUserObjectInformation, winuser/SetUserObjectInformationA, winuser/SetUserObjectInformationW
 ms.topic: function
-f1_keywords: 
- - "winuser/SetUserObjectInformation"
+f1_keywords:
+- winuser/SetUserObjectInformation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SetUserObjectInformation
- - SetUserObjectInformationA
- - SetUserObjectInformationW
+- SetUserObjectInformation
+- SetUserObjectInformationA
+- SetUserObjectInformationW
 targetos: Windows
 req.typenames: 
 req.redist: 

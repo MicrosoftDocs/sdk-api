@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateCommandSignature
 title: ID3D12Device::CreateCommandSignature (d3d12.h)
-
 description: This method creates a command signature.
 old-location: direct3d12\id3d12device_createcommandsignature.htm
 tech.root: direct3d12
 ms.assetid: 5A44F907-C6E0-4548-A227-84F0CF2EE837
-
 ms.date: 12/05/2018
 ms.keywords: CreateCommandSignature, CreateCommandSignature method, CreateCommandSignature method,ID3D12Device interface, ID3D12Device interface,CreateCommandSignature method, ID3D12Device.CreateCommandSignature, ID3D12Device::CreateCommandSignature, d3d12/ID3D12Device::CreateCommandSignature, direct3d12.id3d12device_createcommandsignature
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateCommandSignature"
+f1_keywords:
+- d3d12/ID3D12Device.CreateCommandSignature
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateCommandSignature
+- ID3D12Device.CreateCommandSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

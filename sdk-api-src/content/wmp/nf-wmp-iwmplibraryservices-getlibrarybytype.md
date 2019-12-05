@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPLibraryServices.getLibraryByType
 title: IWMPLibraryServices::getLibraryByType (wmp.h)
-
 description: The getLibraryByType method retrieves a pointer to an IWMPLibrary interface that represents the library that has the specified type and index.
 old-location: wmp\iwmplibraryservices_getlibrarybytype.htm
 tech.root: WMP
 ms.assetid: 766cfd4e-53e6-44a8-87e6-2b9c1fa2ff3f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPLibraryServices interface [Windows Media Player],getLibraryByType method, IWMPLibraryServices.getLibraryByType, IWMPLibraryServices::getLibraryByType, IWMPLibraryServicesgetLibraryByType, getLibraryByType, getLibraryByType method [Windows Media Player], getLibraryByType method [Windows Media Player],IWMPLibraryServices interface, wmp.iwmplibraryservices_getlibrarybytype, wmp/IWMPLibraryServices::getLibraryByType
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPLibraryServices.getLibraryByType"
+f1_keywords:
+- wmp/IWMPLibraryServices.getLibraryByType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPLibraryServices.getLibraryByType
+- IWMPLibraryServices.getLibraryByType
 targetos: Windows
 req.typenames: 
 req.redist: 

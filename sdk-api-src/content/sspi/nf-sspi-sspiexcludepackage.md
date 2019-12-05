@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiExcludePackage
 title: SspiExcludePackage function (sspi.h)
-
 description: Creates a new identity structure that is a copy of the specified identity structure modified to exclude the specified security support provider (SSP).
 old-location: security\sspiexcludepackage.htm
 tech.root: SecAuthN
 ms.assetid: 2f85bb13-b72a-4c26-a328-9424a33a63b8
-
 ms.date: 12/05/2018
 ms.keywords: SspiExcludePackage, SspiExcludePackage function [Security], security.sspiexcludepackage, sspi/SspiExcludePackage
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiExcludePackage"
+f1_keywords:
+- sspi/SspiExcludePackage
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiExcludePackage
+- SspiExcludePackage
 targetos: Windows
 req.typenames: 
 req.redist: 

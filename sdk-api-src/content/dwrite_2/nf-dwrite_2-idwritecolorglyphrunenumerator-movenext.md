@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteColorGlyphRunEnumerator.MoveNext
 title: IDWriteColorGlyphRunEnumerator::MoveNext (dwrite_2.h)
-
 description: Move to the next glyph run in the enumerator.
 old-location: directwrite\idwritecolorglyphrunenumerator_movenext.htm
 tech.root: DirectWrite
 ms.assetid: E6336C0E-F880-485C-9111-A102298257C1
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteColorGlyphRunEnumerator interface [Direct Write],MoveNext method, IDWriteColorGlyphRunEnumerator.MoveNext, IDWriteColorGlyphRunEnumerator::MoveNext, MoveNext, MoveNext method [Direct Write], MoveNext method [Direct Write],IDWriteColorGlyphRunEnumerator interface, directwrite.idwritecolorglyphrunenumerator_movenext, dwrite_2/IDWriteColorGlyphRunEnumerator::MoveNext
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteColorGlyphRunEnumerator.MoveNext"
+f1_keywords:
+- dwrite_2/IDWriteColorGlyphRunEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteColorGlyphRunEnumerator.MoveNext
+- IDWriteColorGlyphRunEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

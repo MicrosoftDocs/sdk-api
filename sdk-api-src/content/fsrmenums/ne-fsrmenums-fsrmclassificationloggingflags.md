@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmClassificationLoggingFlags
 title: FsrmClassificationLoggingFlags (fsrmenums.h)
-
 description: Defines the different options for logging information while running classification.
 old-location: fsrm\fsrmclassificationloggingflags.htm
 tech.root: fsrm
 ms.assetid: 339a50d6-cc34-46ba-a116-745abe0d2871
-
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationLoggingFlags, FsrmClassificationLoggingFlags enumeration [File Server Resource Manager], FsrmClassificationLoggingFlags_ClassificationsInLogFile, FsrmClassificationLoggingFlags_ClassificationsInSystemLog, FsrmClassificationLoggingFlags_ErrorsInLogFile, FsrmClassificationLoggingFlags_ErrorsInSystemLog, FsrmClassificationLoggingFlags_None, fs.fsrmclassificationloggingflags, fsrm.fsrmclassificationloggingflags, fsrmenums/FsrmClassificationLoggingFlags, fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInLogFile, fsrmenums/FsrmClassificationLoggingFlags_ClassificationsInSystemLog, fsrmenums/FsrmClassificationLoggingFlags_ErrorsInLogFile, fsrmenums/FsrmClassificationLoggingFlags_ErrorsInSystemLog, fsrmenums/FsrmClassificationLoggingFlags_None
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmClassificationLoggingFlags"
+f1_keywords:
+- fsrmenums/FsrmClassificationLoggingFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmClassificationLoggingFlags
+- FsrmClassificationLoggingFlags
 targetos: Windows
 req.typenames: FsrmClassificationLoggingFlags
 req.redist: 

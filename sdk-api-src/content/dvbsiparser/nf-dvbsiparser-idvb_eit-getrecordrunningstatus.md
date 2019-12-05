@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordRunningStatus
 title: IDVB_EIT::GetRecordRunningStatus (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getrecordrunningstatus.htm
 tech.root: mstv
 ms.assetid: fc5d4bc7-4d56-453f-90ed-6187f55ea464
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordRunningStatus, GetRecordRunningStatus method [Microsoft TV Technologies], GetRecordRunningStatus method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordRunningStatus method, IDVB_EIT.GetRecordRunningStatus, IDVB_EIT::GetRecordRunningStatus, IDVB_EITGetRecordRunningStatus, dvbsiparser/IDVB_EIT::GetRecordRunningStatus, mstv.idvb_eit_getrecordrunningstatus
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_EIT.GetRecordRunningStatus"
+f1_keywords:
+- dvbsiparser/IDVB_EIT.GetRecordRunningStatus
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_EIT.GetRecordRunningStatus
+- IDVB_EIT.GetRecordRunningStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

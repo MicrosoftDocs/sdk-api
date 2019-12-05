@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DCryptoSession9.GetSurfacePitch
 title: IDirect3DCryptoSession9::GetSurfacePitch (d3d9.h)
-
 description: Gets the stride of a protected surface.
 old-location: mf\idirect3dcryptosession9_getsurfacepitch.htm
 tech.root: medfound
 ms.assetid: 7f9f637e-a693-4fc5-9bf9-a6900aa2ed8c
-
 ms.date: 12/05/2018
 ms.keywords: GetSurfacePitch, GetSurfacePitch method [Media Foundation], GetSurfacePitch method [Media Foundation],IDirect3DCryptoSession9 interface, IDirect3DCryptoSession9 interface [Media Foundation],GetSurfacePitch method, IDirect3DCryptoSession9.GetSurfacePitch, IDirect3DCryptoSession9::GetSurfacePitch, d3d9/IDirect3DCryptoSession9::GetSurfacePitch, mf.idirect3dcryptosession9_getsurfacepitch
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DCryptoSession9.GetSurfacePitch"
+f1_keywords:
+- d3d9/IDirect3DCryptoSession9.GetSurfacePitch
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DCryptoSession9.GetSurfacePitch
+- IDirect3DCryptoSession9.GetSurfacePitch
 targetos: Windows
 req.typenames: 
 req.redist: 

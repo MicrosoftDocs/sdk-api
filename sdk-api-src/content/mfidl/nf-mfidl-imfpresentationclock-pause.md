@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.Pause
 title: IMFPresentationClock::Pause (mfidl.h)
-
 description: Pauses the presentation clock. While the clock is paused, the clock time does not advance, and the clock's IMFPresentationClock::GetTime returns the time at which the clock was paused.
 old-location: mf\imfpresentationclock_pause.htm
 tech.root: medfound
 ms.assetid: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0
-
 ms.date: 12/05/2018
 ms.keywords: 2eddc9a9-e3a6-46c4-83c6-446b6a7a64b0, IMFPresentationClock interface [Media Foundation],Pause method, IMFPresentationClock.Pause, IMFPresentationClock::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFPresentationClock interface, mf.imfpresentationclock_pause, mfidl/IMFPresentationClock::Pause
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationClock.Pause"
+f1_keywords:
+- mfidl/IMFPresentationClock.Pause
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock.Pause
+- IMFPresentationClock.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

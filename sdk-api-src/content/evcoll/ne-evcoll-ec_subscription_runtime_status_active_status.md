@@ -1,19 +1,17 @@
 ---
 UID: NE:evcoll._EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 title: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS (evcoll.h)
-
 description: Specifies the status of a subscription or an event source with respect to a subscription.
 old-location: wec\ec_subscription_runtime_status_active_status.htm
 tech.root: WEC
 ms.assetid: 254305fe-5646-4661-98e2-b02f5d240da1
-
 ms.date: 12/05/2018
 ms.keywords: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS, EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS enumeration, EcRuntimeStatusActiveStatusActive, EcRuntimeStatusActiveStatusDisabled, EcRuntimeStatusActiveStatusInactive, EcRuntimeStatusActiveStatusTrying, evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS, evcoll/EcRuntimeStatusActiveStatusActive, evcoll/EcRuntimeStatusActiveStatusDisabled, evcoll/EcRuntimeStatusActiveStatusInactive, evcoll/EcRuntimeStatusActiveStatusTrying, wec.ec_subscription_runtime_status_active_status, wes.ec_subscription_runtime_status_active_status
 ms.topic: enum
-f1_keywords: 
- - "evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS"
+f1_keywords:
+- evcoll/EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evcoll.h
+- Evcoll.h
 api_name:
- - EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
+- EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 targetos: Windows
 req.typenames: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 req.redist: 

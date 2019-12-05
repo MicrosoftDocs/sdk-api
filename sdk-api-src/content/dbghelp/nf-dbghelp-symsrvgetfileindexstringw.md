@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexStringW
 title: SymSrvGetFileIndexStringW function (dbghelp.h)
-
 description: Retrieves the index string for the specified .pdb, .dbg, or image file.
 old-location: base\symsrvgetfileindexstring.htm
 tech.root: Debug
 ms.assetid: e66598fb-d7c7-4fde-a995-bfd1e7ceb24b
-
 ms.date: 12/05/2018
 ms.keywords: SymSrvGetFileIndexString, SymSrvGetFileIndexString function, SymSrvGetFileIndexStringW, base.symsrvgetfileindexstring, dbghelp/SymSrvGetFileIndexString, dbghelp/SymSrvGetFileIndexStringW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvGetFileIndexString"
+f1_keywords:
+- dbghelp/SymSrvGetFileIndexString
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymSrvGetFileIndexString
- - SymSrvGetFileIndexString
- - SymSrvGetFileIndexStringW
+- SymSrvGetFileIndexString
+- SymSrvGetFileIndexString
+- SymSrvGetFileIndexStringW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

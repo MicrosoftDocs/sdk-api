@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiEncodeAuthIdentityAsStrings
 title: SspiEncodeAuthIdentityAsStrings function (sspi.h)
-
 description: Encodes the specified authentication identity as three strings.
 old-location: security\sspiencodeauthidentityasstrings.htm
 tech.root: SecAuthN
 ms.assetid: 0610a7b8-67e9-4c01-893f-da579eeea2f8
-
 ms.date: 12/05/2018
 ms.keywords: SspiEncodeAuthIdentityAsStrings, SspiEncodeAuthIdentityAsStrings function [Security], SspiEncodeAuthIdentityAsStringsA, SspiEncodeAuthIdentityAsStringsW, security.sspiencodeauthidentityasstrings, sspi/SspiEncodeAuthIdentityAsStrings, sspi/SspiEncodeAuthIdentityAsStringsA, sspi/SspiEncodeAuthIdentityAsStringsW
 ms.topic: function
 f1_keywords:
 - sspi/SspiEncodeAuthIdentityAsStrings
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows

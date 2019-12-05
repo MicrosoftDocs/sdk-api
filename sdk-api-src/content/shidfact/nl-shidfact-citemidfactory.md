@@ -1,19 +1,17 @@
 ---
 UID: NL:shidfact.CItemIDFactory
 title: CItemIDFactory (shidfact.h)
-
 description: Exposes methods for interacting with Shell data sources.
 old-location: shell\citemidfactory.htm
 tech.root: shell
 ms.assetid: 8C13F1AF-3328-40B8-B5F8-6CDF753A7FA7
-
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory, CItemIDFactory class [Windows Shell], CItemIDFactory class [Windows Shell],described, shell.citemidfactory, shidfact/CItemIDFactory
 ms.topic: class
-f1_keywords: 
- - "shidfact/CItemIDFactory"
+f1_keywords:
+- shidfact/CItemIDFactory
 dev_langs:
- - c++
+- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - CItemIDFactory
+- CItemIDFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsAvailable
 title: IEncoderAPI::IsAvailable (strmif.h)
-
 description: IEncoderAPI is no longer available for use.
 old-location: mstv\iencoderapi_isavailable.htm
 tech.root: mstv
 ms.assetid: ad94b70f-fd35-44b4-8322-9891cd7f17cc
-
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI interface [Microsoft TV Technologies],IsAvailable method, IEncoderAPI.IsAvailable, IEncoderAPI::IsAvailable, IEncoderAPIIsAvailable, IsAvailable, IsAvailable method [Microsoft TV Technologies], IsAvailable method [Microsoft TV Technologies],IEncoderAPI interface, mstv.iencoderapi_isavailable, strmif/IEncoderAPI::IsAvailable
 ms.topic: method
-f1_keywords: 
- - "strmif/IEncoderAPI.IsAvailable"
+f1_keywords:
+- strmif/IEncoderAPI.IsAvailable
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEncoderAPI.IsAvailable
+- IEncoderAPI.IsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

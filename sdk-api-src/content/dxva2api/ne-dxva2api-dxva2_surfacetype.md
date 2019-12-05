@@ -1,19 +1,17 @@
 ---
 UID: NE:dxva2api.__MIDL___MIDL_itf_dxva2api_0000_0006_0001
 title: DXVA2_SurfaceType (dxva2api.h)
-
 description: Describes a DirectX surface type for DirectX Video Acceleration (DXVA).
 old-location: mf\dxva2_surfacetype.htm
 tech.root: medfound
 ms.assetid: 7ede2247-7878-4b70-9a74-56b626013989
-
 ms.date: 12/05/2018
 ms.keywords: 7ede2247-7878-4b70-9a74-56b626013989, DXVA2_SurfaceType, DXVA2_SurfaceType enumeration [Media Foundation], DXVA2_SurfaceType_D3DRenderTargetTexture, DXVA2_SurfaceType_DecoderRenderTarget, DXVA2_SurfaceType_ProcessorRenderTarget, dxva2api/DXVA2_SurfaceType, dxva2api/DXVA2_SurfaceType_D3DRenderTargetTexture, dxva2api/DXVA2_SurfaceType_DecoderRenderTarget, dxva2api/DXVA2_SurfaceType_ProcessorRenderTarget, mf.dxva2_surfacetype
 ms.topic: enum
-f1_keywords: 
- - "dxva2api/DXVA2_SurfaceType"
+f1_keywords:
+- dxva2api/DXVA2_SurfaceType
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_SurfaceType
+- DXVA2_SurfaceType
 targetos: Windows
 req.typenames: DXVA2_SurfaceType
 req.redist: 

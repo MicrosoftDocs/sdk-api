@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.put_SourceTop
 title: IBasicVideo::put_SourceTop (control.h)
-
 description: The put_SourceTop method sets the y-coordinate of the source rectangle.
 old-location: dshow\ibasicvideo_put_sourcetop.htm
 tech.root: DirectShow
 ms.assetid: 0a76518d-f79d-45ef-8e19-a3e5ee1e4db0
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],put_SourceTop method, IBasicVideo.put_SourceTop, IBasicVideo::put_SourceTop, IBasicVideoput_SourceTop, control/IBasicVideo::put_SourceTop, dshow.ibasicvideo_put_sourcetop, put_SourceTop, put_SourceTop method [DirectShow], put_SourceTop method [DirectShow],IBasicVideo interface
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.put_SourceTop"
+f1_keywords:
+- control/IBasicVideo.put_SourceTop
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.put_SourceTop
+- IBasicVideo.put_SourceTop
 targetos: Windows
 req.typenames: 
 req.redist: 

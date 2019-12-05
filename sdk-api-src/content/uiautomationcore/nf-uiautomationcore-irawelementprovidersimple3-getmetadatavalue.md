@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderSimple3.GetMetadataValue
 title: IRawElementProviderSimple3::GetMetadataValue (uiautomationcore.h)
-
 description: Gets metadata from the UI Automation element that indicates how the information should be interpreted.
 old-location: winauto\uiauto_IRawElementProviderSimple3_GetMetadataValue.htm
 tech.root: WinAuto
 ms.assetid: 832154F3-22D3-48E9-BC4E-CB495BB72485
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataValue, GetMetadataValue method [Windows Accessibility], GetMetadataValue method [Windows Accessibility],IRawElementProviderSimple3 interface, IRawElementProviderSimple3 interface [Windows Accessibility],GetMetadataValue method, IRawElementProviderSimple3.GetMetadataValue, IRawElementProviderSimple3::GetMetadataValue, uiautomationcore/IRawElementProviderSimple3::GetMetadataValue, winauto.uiauto_IRawElementProviderSimple3_GetMetadataValue
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderSimple3.GetMetadataValue"
+f1_keywords:
+- uiautomationcore/IRawElementProviderSimple3.GetMetadataValue
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IRawElementProviderSimple3.GetMetadataValue
+- IRawElementProviderSimple3.GetMetadataValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.Initialize
 title: IX509Enrollment::Initialize (certenroll.h)
-
-description: Initializes the enrollment object and creates a default PKCS #10 request.
+description: Initializes the enrollment object and creates a default PKCS
 old-location: security\ix509enrollment_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 3bf4ce4a-6556-403c-8334-a6bf01f074a3
-
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Initialize method, IX509Enrollment.Initialize, IX509Enrollment::Initialize, Initialize, Initialize method [Security], Initialize method [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Initialize, security.ix509enrollment_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.Initialize"
+f1_keywords:
+- certenroll/IX509Enrollment.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.Initialize
+- IX509Enrollment.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStreamInfo
 title: IMetaDataTables2::GetMetaDataStreamInfo (rometadataapi.h)
-
 description: Gets the name, size, and contents of the metadata stream at the specified index.
 old-location: winrt\imetadatatables2_getmetadatastreaminfo.htm
 tech.root: WinRT
 ms.assetid: a292a32a-b9c2-46b5-a2c4-074e616d7675
-
 ms.date: 12/05/2018
 ms.keywords: GetMetaDataStreamInfo, GetMetaDataStreamInfo method [Windows Runtime], GetMetaDataStreamInfo method [Windows Runtime],IMetaDataTables2 interface, IMetaDataTables2 interface [Windows Runtime],GetMetaDataStreamInfo method, IMetaDataTables2.GetMetaDataStreamInfo, IMetaDataTables2::GetMetaDataStreamInfo, rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo, winrt.imetadatatables2_getmetadatastreaminfo
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables2.GetMetaDataStreamInfo"
+f1_keywords:
+- rometadataapi/IMetaDataTables2.GetMetaDataStreamInfo
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables2.GetMetaDataStreamInfo
+- IMetaDataTables2.GetMetaDataStreamInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetChase
 title: IAMExtTransport::GetChase (strmif.h)
-
 description: The GetChase method retrieves the status of chase mode.
 old-location: dshow\iamexttransport_getchase.htm
 tech.root: DirectShow
 ms.assetid: 9ef12fa0-2ec9-45e5-9c22-20f810dac73b
-
 ms.date: 12/05/2018
 ms.keywords: GetChase, GetChase method [DirectShow], GetChase method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetChase method, IAMExtTransport.GetChase, IAMExtTransport::GetChase, IAMExtTransportGetChase, dshow.iamexttransport_getchase, strmif/IAMExtTransport::GetChase
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.GetChase"
+f1_keywords:
+- strmif/IAMExtTransport.GetChase
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.GetChase
+- IAMExtTransport.GetChase
 targetos: Windows
 req.typenames: 
 req.redist: 

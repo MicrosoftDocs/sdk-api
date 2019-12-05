@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInitializeDll
 title: MprAdminInitializeDll function (mprapi.h)
-
 description: When the Routing and Remote Access Service (RRAS) starts, it calls the MprAdminInitializeDll function that is exported by the administration DLL. Use this function to perform any required initialization for the DLL.
 old-location: rras\mpradmininitializedll.htm
 tech.root: RRAS
 ms.assetid: 0a53d84e-d9be-4d18-a619-7d92c17b76bb
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInitializeDll, MprAdminInitializeDll callback, MprAdminInitializeDll callback function [RAS], _mpr_mpradmininitializedll, mprapi/MprAdminInitializeDll, rras.mpradmininitializedll
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInitializeDll"
+f1_keywords:
+- mprapi/MprAdminInitializeDll
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - MprAdminInitializeDll
+- MprAdminInitializeDll
 targetos: Windows
 req.typenames: 
 req.redist: 

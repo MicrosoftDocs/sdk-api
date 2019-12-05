@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadInit
 title: ISearchProtocolThreadContext::ThreadInit (searchapi.h)
-
 description: Initializes communication between the protocol handler and the protocol host.
 old-location: search\_search_ISearchProtocolThreadContext_ThreadInit.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadinit.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchProtocolThreadContext interface [search],ThreadInit method, ISearchProtocolThreadContext.ThreadInit, ISearchProtocolThreadContext::ThreadInit, ThreadInit, ThreadInit method [search], ThreadInit method [search],ISearchProtocolThreadContext interface, _search_ISearchProtocolThreadContext_ThreadInit, search._search_ISearchProtocolThreadContext_ThreadInit, searchapi/ISearchProtocolThreadContext::ThreadInit
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchProtocolThreadContext.ThreadInit"
+f1_keywords:
+- searchapi/ISearchProtocolThreadContext.ThreadInit
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchProtocolThreadContext.ThreadInit
+- ISearchProtocolThreadContext.ThreadInit
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NN:wiavideo.IWiaVideo
 title: IWiaVideo (wiavideo.h)
-
 description: The IWiaVideo interface provides methods that allow an application that uses Windows Image Acquisition (WIA) services to acquire still images from a streaming video device.Note  WIA does not support video devices in Windows Server 2003, Windows Vista, and later. For those versions of the Windows, use DirectShow to acquire images from video.
 old-location: wia\_wia_IWiaVideo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\iwiavideo.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo, IWiaVideo interface [WIA], IWiaVideo interface [WIA],described, _wia_IWiaVideo, wia._wia_IWiaVideo, wiavideo/IWiaVideo
 ms.topic: interface
-f1_keywords: 
- - "wiavideo/IWiaVideo"
+f1_keywords:
+- wiavideo/IWiaVideo
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo
+- IWiaVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngCreateDeviceBitmap
 title: EngCreateDeviceBitmap function (winddi.h)
-
 description: The EngCreateDeviceBitmap function requests GDI to create a handle for a device bitmap.
 old-location: display\engcreatedevicebitmap.htm
 tech.root: display
 ms.assetid: dc9d7154-30b9-4462-9161-6df03946308d
-
 ms.date: 12/05/2018
 ms.keywords: EngCreateDeviceBitmap, EngCreateDeviceBitmap function [Display Devices], display.engcreatedevicebitmap, gdifncs_e802b5e9-a939-4aa4-b4df-82172e825fa5.xml, winddi/EngCreateDeviceBitmap
 ms.topic: function
-f1_keywords: 
- - "winddi/EngCreateDeviceBitmap"
+f1_keywords:
+- winddi/EngCreateDeviceBitmap
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngCreateDeviceBitmap
+- EngCreateDeviceBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMResult.OverallStatus
 title: IGPMResult::OverallStatus (gpmgmt.h)
-
 description: Returns the overall status of a GPMC operation, such as a copy, restore, backup, or import. If no error occurred during the operation, the method returns a success code; otherwise the method returns a failure code.
 old-location: gpmc\igpmresult_overallstatus.htm
 tech.root: gpmc
 ms.assetid: 814c59b7-47bc-4757-997e-95ca578f544a
-
 ms.date: 12/05/2018
 ms.keywords: GPMResult class [GPMC],OverallStatus method, IGPMResult interface [GPMC],OverallStatus method, IGPMResult.OverallStatus, IGPMResult::OverallStatus, OverallStatus, OverallStatus method [GPMC], OverallStatus method [GPMC],GPMResult class, OverallStatus method [GPMC],IGPMResult interface, _win32_igpmresult_overallstatus, gpmc.igpmresult_overallstatus, gpmgmt/IGPMResult::OverallStatus
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMResult.OverallStatus"
+f1_keywords:
+- gpmgmt/IGPMResult.OverallStatus
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMResult.OverallStatus
- - GPMResult.OverallStatus
+- IGPMResult.OverallStatus
+- GPMResult.OverallStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

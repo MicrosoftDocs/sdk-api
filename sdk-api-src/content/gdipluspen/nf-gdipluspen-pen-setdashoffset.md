@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetDashOffset
 title: Pen::SetDashOffset (gdipluspen.h)
-
 description: The Pen::SetDashOffset method sets the distance from the start of the line to the start of the first dash in a dashed line.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashOffset_dashOffset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashoffset.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetDashOffset method, Pen.SetDashOffset, Pen::SetDashOffset, SetDashOffset, SetDashOffset method [GDI+], SetDashOffset method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetDashOffset_dashOffset_, gdiplus._gdiplus_CLASS_Pen_SetDashOffset_dashOffset_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetDashOffset"
+f1_keywords:
+- gdipluspen/Pen.SetDashOffset
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetDashOffset
+- Pen.SetDashOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

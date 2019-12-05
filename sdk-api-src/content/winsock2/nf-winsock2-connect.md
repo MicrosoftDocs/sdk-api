@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.connect
 title: connect function (winsock2.h)
-
 description: The connect function establishes a connection to a specified socket.
 old-location: winsock\connect_2.htm
 tech.root: WinSock
 ms.assetid: 13468139-dc03-45bd-850c-7ac2dbcb6e60
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_connect_2, connect, connect function [Winsock], winsock.connect_2, winsock2/connect"
+ms.keywords: _win32_connect_2, connect, connect function [Winsock], winsock.connect_2, winsock2/connect
 ms.topic: function
-f1_keywords: 
- - "winsock2/connect"
+f1_keywords:
+- winsock2/connect
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - connect
+- connect
 targetos: Windows
 req.typenames: 
 req.redist: 

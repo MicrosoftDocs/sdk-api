@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE_MATCHES
 title: WSD_PROBE_MATCHES (wsdtypes.h)
-
 description: Represents a ProbeMatches message.
 old-location: ncd\wsd_probe_matches_struct.htm
 tech.root: WsdApi
 ms.assetid: 41bf8dc2-903a-43d4-b63d-a34242d47288
-
 ms.date: 12/05/2018
 ms.keywords: WSD_PROBE_MATCHES, WSD_PROBE_MATCHES structure, ncd.wsd_probe_matches_struct, wsdtypes/WSD_PROBE_MATCHES
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_PROBE_MATCHES
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

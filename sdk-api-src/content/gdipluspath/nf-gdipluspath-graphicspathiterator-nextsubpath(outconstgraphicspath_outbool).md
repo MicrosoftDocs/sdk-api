@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextSubpath(OUT const GraphicsPath,OUT BOOL)
 title: GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL) (gdipluspath.h)
-
 description: The GraphicsPathIterator::NextSubpath method gets the next figure (subpath) from this iterator's associated path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\graphicspathiteratornextsubpathmethods\nextsubpath.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPathIterator class [GDI+],NextSubpath method, GraphicsPathIterator.NextSubpath, GraphicsPathIterator.NextSubpath(GraphicsPath*,BOOL*), GraphicsPathIterator.NextSubpath(OUT const GraphicsPath,OUT BOOL), GraphicsPathIterator::NextSubpath, GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL), NextSubpath, NextSubpath method [GDI+], NextSubpath method [GDI+],GraphicsPathIterator class, _gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_, gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextSubpath_path_isClosed_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator.NextSubpath"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator.NextSubpath
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPathIterator.NextSubpath
+- GraphicsPathIterator.NextSubpath
 targetos: Windows
 req.typenames: 
 req.redist: 

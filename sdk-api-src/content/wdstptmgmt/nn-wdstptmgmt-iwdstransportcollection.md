@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportCollection
 title: IWdsTransportCollection (wdstptmgmt.h)
-
 description: Represents a collection of Windows Deployment Services (WDS) transport management objects.
 old-location: wds\iwdstransportcollection.htm
 tech.root: wds
 ms.assetid: 4a5c247f-28d7-4057-87e9-fca6e9effc96
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportCollection, IWdsTransportCollection interface [Windows Deployment Services], IWdsTransportCollection interface [Windows Deployment Services],described, wds.iwdstransportcollection, wdstptmgmt/IWdsTransportCollection
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportCollection"
+f1_keywords:
+- wdstptmgmt/IWdsTransportCollection
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportCollection
+- IWdsTransportCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetAccessSetInfo
 title: NetAccessSetInfo function (lmaccess.h)
-
 description: Not supported.
 old-location: netmgmt\netaccesssetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 9daf70e0-2402-4823-9e17-4702bbb3aa3d
-
 ms.date: 12/05/2018
 ms.keywords: 1, NetAccessSetInfo, NetAccessSetInfo function [Network Management], _win32_netaccesssetinfo, lmaccess/NetAccessSetInfo, netmgmt.netaccesssetinfo
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetAccessSetInfo"
+f1_keywords:
+- lmaccess/NetAccessSetInfo
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAccessSetInfo
+- NetAccessSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

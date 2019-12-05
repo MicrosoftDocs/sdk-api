@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbVPrintf_lExA
 title: StringCbVPrintf_lExA function (strsafe.h)
-
 description: Writes formatted data to the specified string using a pointer to a list of arguments. The size of the destination buffer is provided to the function to ensure that it does not write past the end of this buffer.
 old-location: menurc\stringcbvprintf_lex.htm
 tech.root: menurc
 ms.assetid: 34db0546-cede-4329-8364-137bca118755
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbVPrintf_lEx, StringCbVPrintf_lEx function [Menus and Other Resources], StringCbVPrintf_lExA, StringCbVPrintf_lExW, menurc.stringcbvprintf_lex, strsafe/StringCbVPrintf_lEx, strsafe/StringCbVPrintf_lExA, strsafe/StringCbVPrintf_lExW
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbVPrintf_lEx"
+f1_keywords:
+- strsafe/StringCbVPrintf_lEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - StrSafe.h
+- StrSafe.h
 api_name:
- - StringCbVPrintf_lEx
- - StringCbVPrintf_lExA
- - StringCbVPrintf_lExW
+- StringCbVPrintf_lEx
+- StringCbVPrintf_lExA
+- StringCbVPrintf_lExW
 targetos: Windows
 req.typenames: 
 req.redist: 

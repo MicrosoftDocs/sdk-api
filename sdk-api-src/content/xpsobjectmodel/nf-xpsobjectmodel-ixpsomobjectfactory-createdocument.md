@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateDocument
 title: IXpsOMObjectFactory::CreateDocument (xpsobjectmodel.h)
-
 description: Creates an IXpsOMDocument interface, which can contain a set of IXpsOMPageReference interfaces in an ordered sequence.
 old-location: xps\ixpsomobjectfactory_createdocument.htm
 tech.root: printdocs
 ms.assetid: d181c62b-e1a5-45ee-9ffd-85bb6be24892
-
 ms.date: 12/05/2018
 ms.keywords: CreateDocument, CreateDocument method [XPS Documents and Packaging], CreateDocument method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreateDocument method, IXpsOMObjectFactory.CreateDocument, IXpsOMObjectFactory::CreateDocument, xps.ixpsomobjectfactory_createdocument, xpsobjectmodel/IXpsOMObjectFactory::CreateDocument
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreateDocument"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreateDocument
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreateDocument
+- IXpsOMObjectFactory.CreateDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

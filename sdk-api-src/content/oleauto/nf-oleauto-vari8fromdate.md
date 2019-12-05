@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI8FromDate
 title: VarI8FromDate function (oleauto.h)
-
 description: Converts a date value to an 8-byte integer value.
 old-location: automat\vari8fromdate.htm
 tech.root: automat
 ms.assetid: 64c0b322-da7b-4da7-a927-2c5d2587f37c
-
 ms.date: 12/05/2018
 ms.keywords: VarI8FromDate, VarI8FromDate function [Automation], _oa96_VarI8FromDate, automat.vari8fromdate, oleauto/VarI8FromDate
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI8FromDate"
+f1_keywords:
+- oleauto/VarI8FromDate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI8FromDate
+- VarI8FromDate
 targetos: Windows
 req.typenames: 
 req.redist: 

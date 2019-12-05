@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.phonecaps_tag
 title: PHONECAPS (tapi.h)
-
 description: The PHONECAPS structure describes the capabilities of a phone device. The phoneGetDevCaps and TSPI_phoneGetDevCaps functions return this structure.
 old-location: tapi2\phonecaps_str.htm
 tech.root: Tapi
 ms.assetid: 9549e30c-9425-4fb1-8ce5-f180a32f8e1f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPHONECAPS, LPPHONECAPS, LPPHONECAPS structure pointer [TAPI 2.2], PHONECAPS, PHONECAPS structure [TAPI 2.2], _tapi2_phonecaps_str, tapi/LPPHONECAPS, tapi/PHONECAPS, tapi2.phonecaps_str"
+ms.keywords: '*LPPHONECAPS, LPPHONECAPS, LPPHONECAPS structure pointer [TAPI 2.2], PHONECAPS, PHONECAPS structure [TAPI 2.2], _tapi2_phonecaps_str, tapi/LPPHONECAPS, tapi/PHONECAPS, tapi2.phonecaps_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/PHONECAPS"
+f1_keywords:
+- tapi/PHONECAPS
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - PHONECAPS
+- PHONECAPS
 targetos: Windows
 req.typenames: PHONECAPS, *LPPHONECAPS
 req.redist: 

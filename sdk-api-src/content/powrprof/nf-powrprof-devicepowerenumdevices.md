@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.DevicePowerEnumDevices
 title: DevicePowerEnumDevices function (powrprof.h)
-
 description: Enumerates devices on the system that meet the specified criteria.
 old-location: base\devicepowerenumdevices.htm
 tech.root: power
 ms.assetid: bb67634c-69d9-4194-ac27-4f9740d73a1a
-
 ms.date: 12/05/2018
 ms.keywords: DEVICEPOWER_AND_OPERATION, DEVICEPOWER_FILTER_DEVICES_PRESENT, DEVICEPOWER_FILTER_ON_NAME, DEVICEPOWER_FILTER_WAKEENABLED, DEVICEPOWER_HARDWAREID, DevicePowerEnumDevices, DevicePowerEnumDevices function, PDCAP_D0_SUPPORTED, PDCAP_D1_SUPPORTED, PDCAP_D2_SUPPORTED, PDCAP_D3_SUPPORTED, PDCAP_S0_SUPPORTED, PDCAP_S1_SUPPORTED, PDCAP_S2_SUPPORTED, PDCAP_S3_SUPPORTED, PDCAP_S4_SUPPORTED, PDCAP_S5_SUPPORTED, PDCAP_WAKE_FROM_D0_SUPPORTED, PDCAP_WAKE_FROM_D1_SUPPORTED, PDCAP_WAKE_FROM_D2_SUPPORTED, PDCAP_WAKE_FROM_D3_SUPPORTED, PDCAP_WAKE_FROM_S0_SUPPORTED, PDCAP_WAKE_FROM_S1_SUPPORTED, PDCAP_WAKE_FROM_S2_SUPPORTED, PDCAP_WAKE_FROM_S3_SUPPORTED, PDCAP_WARM_EJECT_SUPPORTED, base.devicepowerenumdevices, powrprof/DevicePowerEnumDevices
 ms.topic: function
-f1_keywords: 
- - "powrprof/DevicePowerEnumDevices"
+f1_keywords:
+- powrprof/DevicePowerEnumDevices
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - DevicePowerEnumDevices
+- DevicePowerEnumDevices
 targetos: Windows
 req.typenames: 
 req.redist: 

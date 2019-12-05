@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Rotate
 title: Matrix::Rotate (gdiplusmatrix.h)
-
 description: The Matrix::Rotate method updates this matrix with the product of itself and a rotation matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Rotate_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\rotate.htm
-
 ms.date: 12/05/2018
 ms.keywords: Matrix class [GDI+],Rotate method, Matrix.Rotate, Matrix::Rotate, Rotate, Rotate method [GDI+], Rotate method [GDI+],Matrix class, _gdiplus_CLASS_Matrix_Rotate_angle_order_, gdiplus._gdiplus_CLASS_Matrix_Rotate_angle_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Rotate"
+f1_keywords:
+- gdiplusmatrix/Matrix.Rotate
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Rotate
+- Matrix.Rotate
 targetos: Windows
 req.typenames: 
 req.redist: 

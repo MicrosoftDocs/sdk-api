@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.QueryCancel
 title: IDiscMasterProgressEvents::QueryCancel (imapi.h)
-
 description: Checks whether an AddData, AddAudioTrackBlocks, or RecordDisc operation should be canceled.
 old-location: imapi\idiscmasterprogressevents_querycancel.htm
 tech.root: imapi
 ms.assetid: ca7ad8cb-0792-41ec-be5b-147be6750442
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],QueryCancel method, IDiscMasterProgressEvents.QueryCancel, IDiscMasterProgressEvents::QueryCancel, QueryCancel, QueryCancel method [IMAPI], QueryCancel method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_querycancel, base.idiscmasterprogressevents_querycancel, imapi.idiscmasterprogressevents_querycancel, imapi/IDiscMasterProgressEvents::QueryCancel
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMasterProgressEvents.QueryCancel"
+f1_keywords:
+- imapi/IDiscMasterProgressEvents.QueryCancel
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.QueryCancel
+- IDiscMasterProgressEvents.QueryCancel
 targetos: Windows
 req.typenames: 
 req.redist: 

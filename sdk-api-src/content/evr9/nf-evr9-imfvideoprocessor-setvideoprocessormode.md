@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.SetVideoProcessorMode
 title: IMFVideoProcessor::SetVideoProcessorMode (evr9.h)
-
 description: Sets the preferred video processor mode. The EVR will attempt to use this mode when playback starts.
 old-location: mf\imfvideoprocessor_setvideoprocessormode.htm
 tech.root: medfound
 ms.assetid: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc
-
 ms.date: 12/05/2018
 ms.keywords: 4b353576-c8ee-4f73-9ee6-ba4545a6f4fc, IMFVideoProcessor interface [Media Foundation],SetVideoProcessorMode method, IMFVideoProcessor.SetVideoProcessorMode, IMFVideoProcessor::SetVideoProcessorMode, SetVideoProcessorMode, SetVideoProcessorMode method [Media Foundation], SetVideoProcessorMode method [Media Foundation],IMFVideoProcessor interface, evr9/IMFVideoProcessor::SetVideoProcessorMode, mf.imfvideoprocessor_setvideoprocessormode
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoProcessor.SetVideoProcessorMode"
+f1_keywords:
+- evr9/IMFVideoProcessor.SetVideoProcessorMode
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoProcessor.SetVideoProcessorMode
+- IMFVideoProcessor.SetVideoProcessorMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedXor8
 title: InterlockedXor8 function (winnt.h)
-
 description: Performs an atomic XOR operation on the specified char values.
 old-location: base\interlockedxor8.htm
 tech.root: Sync
 ms.assetid: 9b96417e-dc2e-4b67-8084-0c0219444299
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedXor8, InterlockedXor8 function, base.interlockedxor8, winnt/InterlockedXor8
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedXor8"
+f1_keywords:
+- winnt/InterlockedXor8
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedXor8
+- InterlockedXor8
 targetos: Windows
 req.typenames: 
 req.redist: 

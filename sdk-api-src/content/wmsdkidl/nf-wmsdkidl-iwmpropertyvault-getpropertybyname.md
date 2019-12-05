@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMPropertyVault.GetPropertyByName
 title: IWMPropertyVault::GetPropertyByName (wmsdkidl.h)
-
 description: The GetPropertyByName method retrieves a property from the vault by its name.
 old-location: wmformat\iwmpropertyvault_getpropertybyname.htm
 tech.root: wmformat
 ms.assetid: 65740366-ac0a-4d18-9f61-a79670998e6a
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyByName, GetPropertyByName method [windows Media Format], GetPropertyByName method [windows Media Format],IWMPropertyVault interface, IWMPropertyVault interface [windows Media Format],GetPropertyByName method, IWMPropertyVault.GetPropertyByName, IWMPropertyVault::GetPropertyByName, IWMPropertyVaultGetPropertyByName, wmformat.iwmpropertyvault_getpropertybyname, wmsdkidl/IWMPropertyVault::GetPropertyByName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMPropertyVault.GetPropertyByName"
+f1_keywords:
+- wmsdkidl/IWMPropertyVault.GetPropertyByName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMPropertyVault.GetPropertyByName
+- IWMPropertyVault.GetPropertyByName
 targetos: Windows
 req.typenames: 
 req.redist: 

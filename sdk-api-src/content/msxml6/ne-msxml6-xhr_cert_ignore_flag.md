@@ -1,19 +1,17 @@
 ---
 UID: NE:msxml6._XHR_CERT_IGNORE_FLAG
 title: XHR_CERT_IGNORE_FLAG (msxml6.h)
-
 description: Defines flags that you can assign to an outgoing HTTP request to ignore certain certificate errors by calling the SetProperty method on the IXMLHTTPRequest3 interface.
 old-location: ixhr2\xhr_cert_ignore_flag.htm
 tech.root: ixhr2
 ms.assetid: 22b7b3b0-a5e2-4cf1-af92-4fe66506fa40
-
 ms.date: 12/05/2018
 ms.keywords: XHR_CERT_IGNORE_ALL_SERVER_ERRORS, XHR_CERT_IGNORE_CERT_CN_INVALID, XHR_CERT_IGNORE_CERT_DATE_INVALID, XHR_CERT_IGNORE_FLAG, XHR_CERT_IGNORE_FLAG enumeration [XMLHttpRequest2], XHR_CERT_IGNORE_REVOCATION_FAILED, XHR_CERT_IGNORE_UNKNOWN_CA, ixhr2.xhr_cert_ignore_flag, msxml6/XHR_CERT_IGNORE_ALL_SERVER_ERRORS, msxml6/XHR_CERT_IGNORE_CERT_CN_INVALID, msxml6/XHR_CERT_IGNORE_CERT_DATE_INVALID, msxml6/XHR_CERT_IGNORE_FLAG, msxml6/XHR_CERT_IGNORE_REVOCATION_FAILED, msxml6/XHR_CERT_IGNORE_UNKNOWN_CA
 ms.topic: enum
-f1_keywords: 
- - "msxml6/XHR_CERT_IGNORE_FLAG"
+f1_keywords:
+- msxml6/XHR_CERT_IGNORE_FLAG
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - XHR_CERT_IGNORE_FLAG
+- XHR_CERT_IGNORE_FLAG
 targetos: Windows
 req.typenames: XHR_CERT_IGNORE_FLAG
 req.redist: 

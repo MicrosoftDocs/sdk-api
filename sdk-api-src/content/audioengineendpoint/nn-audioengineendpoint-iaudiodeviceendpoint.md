@@ -1,19 +1,17 @@
 ---
 UID: NN:audioengineendpoint.IAudioDeviceEndpoint
 title: IAudioDeviceEndpoint (audioengineendpoint.h)
-
 description: Initializes a device endpoint object and gets the capabilities of the device that it represents.
 old-location: termserv\iaudiodeviceendpoint.htm
 tech.root: TermServ
 ms.assetid: 3112bc7e-e138-4b42-8f82-61fdf19f7e94
-
 ms.date: 12/05/2018
 ms.keywords: IAudioDeviceEndpoint, IAudioDeviceEndpoint interface [Remote Desktop Services], IAudioDeviceEndpoint interface [Remote Desktop Services],described, audioengineendpoint/IAudioDeviceEndpoint, termserv.iaudiodeviceendpoint
 ms.topic: interface
-f1_keywords: 
- - "audioengineendpoint/IAudioDeviceEndpoint"
+f1_keywords:
+- audioengineendpoint/IAudioDeviceEndpoint
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioDeviceEndpoint
+- IAudioDeviceEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

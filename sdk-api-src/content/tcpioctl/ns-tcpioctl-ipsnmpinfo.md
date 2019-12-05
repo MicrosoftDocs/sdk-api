@@ -1,19 +1,17 @@
 ---
 UID: NS:tcpioctl.IPSNMPInfo
 title: IPSNMPInfo (tcpioctl.h)
-
 description: Implements part of the Management Information Base (MIB-II) information group for the Internet Protocol (IP) as specified in the Internet Engineering Task Force (IETF) Request for Comments (RFC) 2011.
 old-location: winprog\ipsnmpinfo.htm
 tech.root: DevNotes
 ms.assetid: eb25fae9-1a89-4474-bcb6-28c09bc3e0c9
-
 ms.date: 12/05/2018
 ms.keywords: IPSNMPInfo, IPSNMPInfo structure [Windows API], tcpioctl/IPSNMPInfo, winprog.ipsnmpinfo
 ms.topic: struct
-f1_keywords: 
- - "tcpioctl/IPSNMPInfo"
+f1_keywords:
+- tcpioctl/IPSNMPInfo
 dev_langs:
- - c++
+- c++
 req.header: tcpioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tcpioctl.h
+- Tcpioctl.h
 api_name:
- - IPSNMPInfo
+- IPSNMPInfo
 targetos: Windows
 req.typenames: IPSNMPInfo
 req.redist: 

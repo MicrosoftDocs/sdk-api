@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CharNextW
 title: CharNextW function (winuser.h)
-
 description: Retrieves a pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
 old-location: menurc\charnext.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnext.htm
-
 ms.date: 12/05/2018
 ms.keywords: CharNext, CharNext function [Menus and Other Resources], CharNextA, CharNextW, _win32_CharNext, _win32_charnext_cpp, menurc.charnext, winui._win32_charnext, winuser/CharNext, winuser/CharNextA, winuser/CharNextW
 ms.topic: function
-f1_keywords: 
- - "winuser/CharNext"
+f1_keywords:
+- winuser/CharNext
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-Core-String-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-String-l2-1-1.dll
- - API-MS-Win-Core-Stringansi-l1-1-0.dll
- - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-0.dll
- - API-MS-Win-DownLevel-user32-l1-1-1.dll
+- User32.dll
+- API-MS-Win-Core-String-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-String-l2-1-1.dll
+- API-MS-Win-Core-Stringansi-l1-1-0.dll
+- API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-0.dll
+- API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharNext
- - CharNextA
- - CharNextW
+- CharNext
+- CharNextA
+- CharNextW
 targetos: Windows
 req.typenames: 
 req.redist: 

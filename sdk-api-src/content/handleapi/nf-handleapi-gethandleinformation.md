@@ -1,19 +1,17 @@
 ---
 UID: NF:handleapi.GetHandleInformation
 title: GetHandleInformation function (handleapi.h)
-
 description: Retrieves certain properties of an object handle.
 old-location: base\gethandleinformation.htm
 tech.root: SysInfo
 ms.assetid: a0f50a0d-739d-411b-8144-77b775476d26
-
 ms.date: 12/05/2018
 ms.keywords: GetHandleInformation, GetHandleInformation function, HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, _win32_gethandleinformation, base.gethandleinformation, handleapi/GetHandleInformation
 ms.topic: function
-f1_keywords: 
- - "handleapi/GetHandleInformation"
+f1_keywords:
+- handleapi/GetHandleInformation
 dev_langs:
- - c++
+- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-handle-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-handle-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetHandleInformation
+- GetHandleInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

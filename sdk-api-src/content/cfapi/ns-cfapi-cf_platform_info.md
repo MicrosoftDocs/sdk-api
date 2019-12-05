@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_PLATFORM_INFO
 title: CF_PLATFORM_INFO (cfapi.h)
-
 description: Returns information for the cloud files platform. This is intended for sync providers running on multiple versions of Windows.
 old-location: cloudapi\cf_platform_info.htm
 tech.root: cfApi
 ms.assetid: BEB1CBF0-05FB-4D48-AC43-AA957F2208DB
-
 ms.date: 12/05/2018
 ms.keywords: CF_PLATFORM_INFO, CF_PLATFORM_INFO structure, cfapi/CF_PLATFORM_INFO, cloudApi.cf_platform_info
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_PLATFORM_INFO"
+f1_keywords:
+- cfapi/CF_PLATFORM_INFO
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_PLATFORM_INFO
+- CF_PLATFORM_INFO
 targetos: Windows
 req.typenames: CF_PLATFORM_INFO
 req.redist: 

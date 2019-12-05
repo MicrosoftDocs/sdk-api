@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyFromStr
 title: VarCyFromStr function (oleauto.h)
-
 description: Converts an OLECHAR string to a currency value.
 old-location: automat\varcyfromstr.htm
 tech.root: automat
 ms.assetid: ad67fa19-f927-47ec-83b5-45a4f1f9cbe2
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VAR_DATEVALUEONLY, VAR_TIMEVALUEONLY, VarCyFromStr, VarCyFromStr function [Automation], _oa96_VarCyFromStr, automat.varcyfromstr, oleauto/VarCyFromStr
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyFromStr"
+f1_keywords:
+- oleauto/VarCyFromStr
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyFromStr
+- VarCyFromStr
 targetos: Windows
 req.typenames: 
 req.redist: 

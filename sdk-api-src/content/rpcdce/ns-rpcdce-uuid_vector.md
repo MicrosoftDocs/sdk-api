@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdce._UUID_VECTOR
 title: UUID_VECTOR (rpcdce.h)
-
 description: The UUID_VECTOR structure contains a list of UUIDs.
 old-location: rpc\uuid_vector.htm
 tech.root: Rpc
 ms.assetid: 6fc7216b-023b-4aca-a572-35cc22202522
-
 ms.date: 12/05/2018
 ms.keywords: UUID_VECTOR, UUID_VECTOR structure [RPC], _rpc_uuid_vector, rpc.uuid_vector, rpcdce/UUID_VECTOR
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/UUID_VECTOR"
+f1_keywords:
+- rpcdce/UUID_VECTOR
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - UUID_VECTOR
+- UUID_VECTOR
 targetos: Windows
 req.typenames: UUID_VECTOR
 req.redist: 

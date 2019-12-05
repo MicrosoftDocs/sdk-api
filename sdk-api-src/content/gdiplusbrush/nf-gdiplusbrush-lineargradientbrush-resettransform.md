@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.ResetTransform
 title: LinearGradientBrush::ResetTransform (gdiplusbrush.h)
-
 description: The LinearGradientBrush::ResetTransform method resets the transformation matrix of this linear gradient brush to the identity matrix. This means that no transformation takes place.
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_ResetTransform_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\resettransform_64.htm
-
 ms.date: 12/05/2018
 ms.keywords: LinearGradientBrush class [GDI+],ResetTransform method, LinearGradientBrush.ResetTransform, LinearGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],LinearGradientBrush class, _gdiplus_CLASS_LinearGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_LinearGradientBrush_ResetTransform_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/LinearGradientBrush.ResetTransform"
+f1_keywords:
+- gdiplusbrush/LinearGradientBrush.ResetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - LinearGradientBrush.ResetTransform
+- LinearGradientBrush.ResetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ProjectOntoChangeUnit
 title: ISyncKnowledge::ProjectOntoChangeUnit (winsync.h)
-
 description: Gets the knowledge for the specified change unit.
 old-location: winsync\isyncknowledge_projectontochangeunit.htm
 tech.root: winsync
 ms.assetid: 3c09284f-9866-49a4-adeb-561af3351ada
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge interface [Windows Sync],ProjectOntoChangeUnit method, ISyncKnowledge.ProjectOntoChangeUnit, ISyncKnowledge::ProjectOntoChangeUnit, ProjectOntoChangeUnit, ProjectOntoChangeUnit method [Windows Sync], ProjectOntoChangeUnit method [Windows Sync],ISyncKnowledge interface, winsync.isyncknowledge_projectontochangeunit, winsync/ISyncKnowledge::ProjectOntoChangeUnit
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.ProjectOntoChangeUnit"
+f1_keywords:
+- winsync/ISyncKnowledge.ProjectOntoChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.ProjectOntoChangeUnit
+- ISyncKnowledge.ProjectOntoChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

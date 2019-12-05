@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFClock.GetState
 title: IMFClock::GetState (mfidl.h)
-
 description: Retrieves the current state of the clock.
 old-location: mf\imfclock_getstate.htm
 tech.root: medfound
 ms.assetid: 8e2dda03-f589-4572-b715-2be7b29a6ace
-
 ms.date: 12/05/2018
 ms.keywords: 8e2dda03-f589-4572-b715-2be7b29a6ace, GetState, GetState method [Media Foundation], GetState method [Media Foundation],IMFClock interface, IMFClock interface [Media Foundation],GetState method, IMFClock.GetState, IMFClock::GetState, mf.imfclock_getstate, mfidl/IMFClock::GetState
 ms.topic: method
 f1_keywords:
 - mfidl/IMFClock.GetState
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

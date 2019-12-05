@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxScreenSaverNotify
 title: WlxScreenSaverNotify function (winwlx.h)
-
 description: Winlogon calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
 old-location: security\wlxscreensavernotify.htm
 tech.root: SecAuthN
 ms.assetid: 72ed356d-bae3-42ac-87c2-99305951e24b
-
 ms.date: 12/05/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxScreenSaverNotify"
+f1_keywords:
+- winwlx/WlxScreenSaverNotify
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxScreenSaverNotify
+- WlxScreenSaverNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

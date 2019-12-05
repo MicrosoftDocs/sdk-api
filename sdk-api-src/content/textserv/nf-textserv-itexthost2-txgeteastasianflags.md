@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetEastAsianFlags
 title: ITextHost2::TxGetEastAsianFlags (textserv.h)
-
 description: Gets whether Input Method Editor (IME) input is allowed and whether the edit styles include ES_SELFIME.
 old-location: controls\itexthost2_txgeteastasianflags.htm
 tech.root: Controls
 ms.assetid: 3D704159-795A-4BD6-B699-EC311D9B780C
-
 ms.date: 12/05/2018
 ms.keywords: ES_NOIME, ES_SELFIME, ITextHost2 interface [Windows Controls],TxGetEastAsianFlags method, ITextHost2.TxGetEastAsianFlags, ITextHost2::TxGetEastAsianFlags, TxGetEastAsianFlags, TxGetEastAsianFlags method [Windows Controls], TxGetEastAsianFlags method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgeteastasianflags, textserv/ITextHost2::TxGetEastAsianFlags
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost2.TxGetEastAsianFlags"
+f1_keywords:
+- textserv/ITextHost2.TxGetEastAsianFlags
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost2.TxGetEastAsianFlags
+- ITextHost2.TxGetEastAsianFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

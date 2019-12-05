@@ -1,19 +1,17 @@
 ---
 UID: NS:htmlhelp.tagHH_AKLINK
 title: HH_AKLINK (htmlhelp.h)
-
 description: Use this structure to specify one or more ALink names or KLink keywords that you want to search for.
 old-location: htmlhelp\hh_aklink_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhaklink.htm
-
 ms.date: 12/05/2018
 ms.keywords: HH_AKLINK, HH_AKLINK structure [HTML Help Workshop], htmlhelp.hh_aklink_structure, htmlhelp/HH_AKLINK, vsconStrhhaklink
 ms.topic: struct
-f1_keywords: 
- - "htmlhelp/HH_AKLINK"
+f1_keywords:
+- htmlhelp/HH_AKLINK
 dev_langs:
- - c++
+- c++
 req.header: htmlhelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HtmlHelp.h
+- HtmlHelp.h
 api_name:
- - HH_AKLINK
+- HH_AKLINK
 targetos: Windows
 req.typenames: HH_AKLINK
 req.redist: 

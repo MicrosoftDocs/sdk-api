@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
 title: ICredentialProviderCredentialEvents::AppendFieldComboBoxItem (credentialprovider.h)
-
 description: Communicates to the Logon UI or Credential UI that a combo box needs an item appended and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_AppendFieldComboBoxItem.htm
 tech.root: shell
 ms.assetid: 3d434b2c-29be-4301-9271-89688ec8d048
-
 ms.date: 12/05/2018
 ms.keywords: AppendFieldComboBoxItem, AppendFieldComboBoxItem method [Windows Shell], AppendFieldComboBoxItem method [Windows Shell],ICredentialProviderCredentialEvents interface, ICredentialProviderCredentialEvents interface [Windows Shell],AppendFieldComboBoxItem method, ICredentialProviderCredentialEvents.AppendFieldComboBoxItem, ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, _shell_ICredentialProviderCredentialEvents_AppendFieldComboBoxItem, credentialprovider/ICredentialProviderCredentialEvents::AppendFieldComboBoxItem, shell.ICredentialProviderCredentialEvents_AppendFieldComboBoxItem
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.AppendFieldComboBoxItem"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
+- ICredentialProviderCredentialEvents.AppendFieldComboBoxItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0006
 title: WcmUserStatus (wcmconfig.h)
-
 description: Describes the status of the user.
 old-location: smi\wcmuserstatus.htm
 tech.root: SMI
 ms.assetid: 1a21d53f-cc0d-48ac-8d38-c53d5ac09878
-
 ms.date: 12/05/2018
 ms.keywords: UnknownStatus, UserLoaded, UserRegistered, UserUnloaded, UserUnregistered, WcmUserStatus, WcmUserStatus enumeration [SMI], smi.wcmuserstatus, wcmconfig/UnknownStatus, wcmconfig/UserLoaded, wcmconfig/UserRegistered, wcmconfig/UserUnloaded, wcmconfig/UserUnregistered, wcmconfig/WcmUserStatus
 ms.topic: enum
-f1_keywords: 
- - "wcmconfig/WcmUserStatus"
+f1_keywords:
+- wcmconfig/WcmUserStatus
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcmConfig.h
+- WcmConfig.h
 api_name:
- - WcmUserStatus
+- WcmUserStatus
 targetos: Windows
 req.typenames: WcmUserStatus
 req.redist: 

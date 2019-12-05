@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.GuideDataAcquired
 title: IGuideDataEvent::GuideDataAcquired (bdatif.h)
-
 description: The GuideDataAcquired method is called when a complete set of guide data has been acquired from the current transport stream.
 old-location: mstv\iguidedataevent_guidedataacquired.htm
 tech.root: mstv
 ms.assetid: 00f1aec7-4d26-4323-9d7e-c75d9a0c374c
-
 ms.date: 12/05/2018
 ms.keywords: GuideDataAcquired, GuideDataAcquired method [Microsoft TV Technologies], GuideDataAcquired method [Microsoft TV Technologies],IGuideDataEvent interface, IGuideDataEvent interface [Microsoft TV Technologies],GuideDataAcquired method, IGuideDataEvent.GuideDataAcquired, IGuideDataEvent::GuideDataAcquired, IGuideDataEventGuideDataAcquired, bdatif/IGuideDataEvent::GuideDataAcquired, mstv.iguidedataevent_guidedataacquired
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataEvent.GuideDataAcquired"
+f1_keywords:
+- bdatif/IGuideDataEvent.GuideDataAcquired
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataEvent.GuideDataAcquired
+- IGuideDataEvent.GuideDataAcquired
 targetos: Windows
 req.typenames: 
 req.redist: 

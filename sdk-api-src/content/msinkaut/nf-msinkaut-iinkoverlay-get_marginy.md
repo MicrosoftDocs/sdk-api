@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_MarginY
 title: IInkOverlay::get_MarginY (msinkaut.h)
-
 description: Gets or sets the y-axis margin around the window rectangle, in screen coordinates.This margin provides a buffer around the edge of the ink window.
 old-location: tablet\inkoverlay_marginy.htm
 tech.root: tablet
 ms.assetid: 4b2e4ad4-55ab-4b12-8c42-7aa0186289d9
-
 ms.date: 12/05/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MarginY property, IInkOverlay.MarginY, IInkOverlay.get_MarginY, IInkOverlay::MarginY, IInkOverlay::get_MarginY, IInkOverlay::put_MarginY, InkOverlay.get_MarginY, InkOverlay.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkOverlay interface, get_MarginY, msinkaut/IInkOverlay::MarginY, msinkaut/IInkOverlay::get_MarginY, msinkaut/IInkOverlay::put_MarginY, put_MarginY, tablet.inkoverlay_marginy
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.MarginY"
+f1_keywords:
+- msinkaut/IInkOverlay.MarginY
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.MarginY
- - IInkOverlay.get_MarginY
- - IInkOverlay.put_MarginY
- - InkOverlay.get_MarginY
- - InkOverlay.put_MarginY
+- IInkOverlay.MarginY
+- IInkOverlay.get_MarginY
+- IInkOverlay.put_MarginY
+- InkOverlay.get_MarginY
+- InkOverlay.put_MarginY
 targetos: Windows
 req.typenames: 
 req.redist: 

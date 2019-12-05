@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFStartup
 title: MFStartup function (mfapi.h)
-
 description: Initializes Microsoft Media Foundation.
 old-location: mf\mfstartup.htm
 tech.root: medfound
 ms.assetid: b4472e40-3681-4b26-9385-4df7bf19c2d8
-
 ms.date: 12/05/2018
 ms.keywords: MFStartup, MFStartup function [Media Foundation], b4472e40-3681-4b26-9385-4df7bf19c2d8, mf.mfstartup, mfapi/MFStartup
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFStartup"
+f1_keywords:
+- mfapi/MFStartup
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFStartup
+- MFStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

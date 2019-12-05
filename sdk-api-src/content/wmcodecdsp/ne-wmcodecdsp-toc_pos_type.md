@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcodecdsp.TOC_POS_TYPE
 title: TOC_POS_TYPE (wmcodecdsp.h)
-
 description: The TOC_POS_TYPE enumeration contains members that specify the position type of a table of contents.
 old-location: mf\toc_pos_type.htm
 tech.root: medfound
 ms.assetid: 799059b5-9949-48af-8c54-4cb4975f8249
-
 ms.date: 12/05/2018
 ms.keywords: TOC_POS_INHEADER, TOC_POS_TOPLEVELOBJECT, TOC_POS_TYPE, TOC_POS_TYPE enumeration [Media Foundation], codecapi.toc_pos_type, mf.toc_pos_type, wmcodecdsp/TOC_POS_INHEADER, wmcodecdsp/TOC_POS_TOPLEVELOBJECT, wmcodecdsp/TOC_POS_TYPE
 ms.topic: enum
-f1_keywords: 
- - "wmcodecdsp/TOC_POS_TYPE"
+f1_keywords:
+- wmcodecdsp/TOC_POS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - TOC_POS_TYPE
+- TOC_POS_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

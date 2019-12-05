@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.add
 title: IWMPMediaCollection::add (wmp.h)
-
 description: The add method adds a new media item or playlist to the library.
 old-location: wmp\iwmpmediacollection_add.htm
 tech.root: WMP
 ms.assetid: f9dfefbc-c240-41c0-abb9-4bc5012c147c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],add method, IWMPMediaCollection.add, IWMPMediaCollection::add, IWMPMediaCollectionadd, add, add method [Windows Media Player], add method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_add, wmp/IWMPMediaCollection::add
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection.add"
+f1_keywords:
+- wmp/IWMPMediaCollection.add
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection.add
+- IWMPMediaCollection.add
 targetos: Windows
 req.typenames: 
 req.redist: 

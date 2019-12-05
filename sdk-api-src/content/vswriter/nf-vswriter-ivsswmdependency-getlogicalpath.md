@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssWMDependency.GetLogicalPath
 title: IVssWMDependency::GetLogicalPath (vswriter.h)
-
 description: The GetLogicalPath method retrieves the logical path of a component that the current component depends on in explicit writer-component dependency.
 old-location: base\ivsswmdependency_getlogicalpath.htm
 tech.root: VSS
 ms.assetid: 642e9266-40b8-4184-b83f-3131886da32b
-
 ms.date: 12/05/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetLogicalPath method, IVssWMDependency.GetLogicalPath, IVssWMDependency::GetLogicalPath, _win32_ivsswmdependency_getlogicalpath, base.ivsswmdependency_getlogicalpath, vswriter/IVssWMDependency::GetLogicalPath
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssWMDependency.GetLogicalPath"
+f1_keywords:
+- vswriter/IVssWMDependency.GetLogicalPath
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWMDependency.GetLogicalPath
+- IVssWMDependency.GetLogicalPath
 targetos: Windows
 req.typenames: 
 req.redist: 

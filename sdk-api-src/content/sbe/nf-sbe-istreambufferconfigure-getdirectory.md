@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure.GetDirectory
 title: IStreamBufferConfigure::GetDirectory (sbe.h)
-
 description: The GetDirectory method retrieves the directory where backing files are saved.
 old-location: mstv\istreambufferconfigure_getdirectory.htm
 tech.root: mstv
 ms.assetid: bb5d955d-11da-4ff3-990f-02c0c80d6405
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectory, GetDirectory method [Microsoft TV Technologies], GetDirectory method [Microsoft TV Technologies],IStreamBufferConfigure interface, IStreamBufferConfigure interface [Microsoft TV Technologies],GetDirectory method, IStreamBufferConfigure.GetDirectory, IStreamBufferConfigure::GetDirectory, IStreamBufferConfigureGetDirectory, mstv.istreambufferconfigure_getdirectory, sbe/IStreamBufferConfigure::GetDirectory
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferConfigure.GetDirectory"
+f1_keywords:
+- sbe/IStreamBufferConfigure.GetDirectory
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure.GetDirectory
+- IStreamBufferConfigure.GetDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

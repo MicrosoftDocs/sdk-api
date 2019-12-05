@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetMetrics
 title: IDWriteFont::GetMetrics (dwrite.h)
-
 description: Obtains design units and common metrics for the font face. These metrics are applicable to all the glyphs within a font face and are used by applications for layout calculations.
 old-location: directwrite\IDWriteFont_GetMetrics.htm
 tech.root: DirectWrite
 ms.assetid: 0634d683-2c6e-40cb-94d9-2cf128fc3421
-
 ms.date: 12/05/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetMetrics method, IDWriteFont.GetMetrics, IDWriteFont::GetMetrics, directwrite.IDWriteFont_GetMetrics, dwrite/IDWriteFont::GetMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFont.GetMetrics"
+f1_keywords:
+- dwrite/IDWriteFont.GetMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont.GetMetrics
+- IDWriteFont.GetMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

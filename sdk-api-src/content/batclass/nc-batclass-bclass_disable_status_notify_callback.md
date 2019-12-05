@@ -1,19 +1,17 @@
 ---
 UID: NC:batclass.BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK
 title: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK (batclass.h)
-
 description: BatteryMiniDisableStatusNotify disables status notification for a battery device.
 old-location: battery\batteryminidisablestatusnotify.htm
 tech.root: battery
 ms.assetid: 5120205f-0d55-4391-a560-3089fbe11d82
-
 ms.date: 12/05/2018
 ms.keywords: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK, BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback, BatteryMiniDisableStatusNotify, BatteryMiniDisableStatusNotify callback function [Battery Devices], bat-mini_2e5f13bc-0046-486c-a1f9-be94bf309559.xml, batclass/BatteryMiniDisableStatusNotify, battery.batteryminidisablestatusnotify
 ms.topic: callback
-f1_keywords: 
- - "batclass/BatteryMiniDisableStatusNotify"
+f1_keywords:
+- batclass/BatteryMiniDisableStatusNotify
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: PASSIVE_LEVEL
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BatteryMiniDisableStatusNotify
+- BatteryMiniDisableStatusNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

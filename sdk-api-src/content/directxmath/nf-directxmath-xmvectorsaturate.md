@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSaturate
 title: XMVectorSaturate function (directxmath.h)
-
 description: Saturates each component of a vector to the range 0.0f to 1.0f.
 old-location: dxmath\xmvectorsaturate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSaturate(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSaturate, XMVectorSaturate, XMVectorSaturate method [DirectX Math Support APIs], dxmath.xmvectorsaturate
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSaturate"
+f1_keywords:
+- directxmath/XMVectorSaturate
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSaturate
+- XMVectorSaturate
 targetos: Windows
 req.typenames: 
 req.redist: 

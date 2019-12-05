@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_COMPARISON_FUNC
 title: D3D11_COMPARISON_FUNC (d3d11.h)
-
 description: Comparison options.
 old-location: direct3d11\d3d11_comparison_func.htm
 tech.root: direct3d11
 ms.assetid: 3546c7b8-ae25-4554-85e2-527433a74a94
-
 ms.date: 12/05/2018
 ms.keywords: 6fbaba9a-9ef4-f12b-ab05-adee47e72652, D3D11_COMPARISON_ALWAYS, D3D11_COMPARISON_EQUAL, D3D11_COMPARISON_FUNC, D3D11_COMPARISON_FUNC enumeration [Direct3D 11], D3D11_COMPARISON_GREATER, D3D11_COMPARISON_GREATER_EQUAL, D3D11_COMPARISON_LESS, D3D11_COMPARISON_LESS_EQUAL, D3D11_COMPARISON_NEVER, D3D11_COMPARISON_NOT_EQUAL, d3d11/D3D11_COMPARISON_ALWAYS, d3d11/D3D11_COMPARISON_EQUAL, d3d11/D3D11_COMPARISON_FUNC, d3d11/D3D11_COMPARISON_GREATER, d3d11/D3D11_COMPARISON_GREATER_EQUAL, d3d11/D3D11_COMPARISON_LESS, d3d11/D3D11_COMPARISON_LESS_EQUAL, d3d11/D3D11_COMPARISON_NEVER, d3d11/D3D11_COMPARISON_NOT_EQUAL, direct3d11.d3d11_comparison_func
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_COMPARISON_FUNC"
+f1_keywords:
+- d3d11/D3D11_COMPARISON_FUNC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_COMPARISON_FUNC
+- D3D11_COMPARISON_FUNC
 targetos: Windows
 req.typenames: D3D11_COMPARISON_FUNC
 req.redist: 

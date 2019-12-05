@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.MFPCreateMediaPlayer
 title: MFPCreateMediaPlayer function (mfplay.h)
-
 description: Creates a new instance of the MFPlay player object.
 old-location: mf\mfpcreatemediaplayer.htm
 tech.root: medfound
 ms.assetid: 80c668e2-5e93-4af2-871c-646228e18717
-
 ms.date: 12/05/2018
 ms.keywords: MFPCreateMediaPlayer, MFPCreateMediaPlayer function [Media Foundation], mf.mfpcreatemediaplayer, mfplay/MFPCreateMediaPlayer
 ms.topic: function
-f1_keywords: 
- - "mfplay/MFPCreateMediaPlayer"
+f1_keywords:
+- mfplay/MFPCreateMediaPlayer
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplay.lib
 req.dll: Mfplay.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplay.dll
+- mfplay.dll
 api_name:
- - MFPCreateMediaPlayer
+- MFPCreateMediaPlayer
 targetos: Windows
 req.typenames: 
 req.redist: 

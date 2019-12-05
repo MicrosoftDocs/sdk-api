@@ -1,19 +1,17 @@
 ---
 UID: NS:mfidl._MFNetCredentialManagerGetParam
 title: MFNetCredentialManagerGetParam (mfidl.h)
-
 description: Contains the authentication information for the credential manager.
 old-location: mf\mfnetcredentialmanagergetparam.htm
 tech.root: medfound
 ms.assetid: 951d74df-11f8-4623-a81b-63e632f80d0e
-
 ms.date: 12/05/2018
 ms.keywords: 951d74df-11f8-4623-a81b-63e632f80d0e, MFNetCredentialManagerGetParam, MFNetCredentialManagerGetParam structure [Media Foundation], mf.mfnetcredentialmanagergetparam, mfidl/MFNetCredentialManagerGetParam
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MFNetCredentialManagerGetParam"
+f1_keywords:
+- mfidl/MFNetCredentialManagerGetParam
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFNetCredentialManagerGetParam
+- MFNetCredentialManagerGetParam
 targetos: Windows
 req.typenames: MFNetCredentialManagerGetParam
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.DoesPropertyValueApply
 title: IFsrmClassifierModuleImplementation::DoesPropertyValueApply (fsrmpipeline.h)
-
 description: Queries the classifier to find out whether the specified property value applies to the file most recently specified by the IFsrmClassifierModuleImplementation::OnBeginFile method.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_doespropertyvalueapply.htm
 tech.root: fsrm
 ms.assetid: ab42430c-1e30-4576-b6f8-c0488b6230dd
-
 ms.date: 12/05/2018
 ms.keywords: DoesPropertyValueApply, DoesPropertyValueApply method [File Server Resource Manager], DoesPropertyValueApply method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, IFsrmClassifierModuleImplementation interface [File Server Resource Manager],DoesPropertyValueApply method, IFsrmClassifierModuleImplementation.DoesPropertyValueApply, IFsrmClassifierModuleImplementation::DoesPropertyValueApply, fs.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrm.ifsrmclassifiermoduleimplementation_doespropertyvalueapply, fsrmpipeline/IFsrmClassifierModuleImplementation::DoesPropertyValueApply
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassifierModuleImplementation.DoesPropertyValueApply"
+f1_keywords:
+- fsrmpipeline/IFsrmClassifierModuleImplementation.DoesPropertyValueApply
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation.DoesPropertyValueApply
+- IFsrmClassifierModuleImplementation.DoesPropertyValueApply
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITTAPICallCenter.EnumerateAgentHandlers
 title: ITTAPICallCenter::EnumerateAgentHandlers (tapi3.h)
-
 description: The EnumerateAgentHandlers method enumerates agent handlers that are currently associated with the call center.
 old-location: tapi3\ittapicallcenter_enumerateagenthandlers.htm
 tech.root: Tapi
 ms.assetid: 5bd0a926-0d99-4efe-a995-28654c97c97a
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateAgentHandlers, EnumerateAgentHandlers method [TAPI 2.2], EnumerateAgentHandlers method [TAPI 2.2],ITTAPICallCenter interface, ITTAPICallCenter interface [TAPI 2.2],EnumerateAgentHandlers method, ITTAPICallCenter.EnumerateAgentHandlers, ITTAPICallCenter::EnumerateAgentHandlers, _tapi3_ittapicallcenter_enumerateagenthandlers, tapi3.ittapicallcenter_enumerateagenthandlers, tapi3cc/ITTAPICallCenter::EnumerateAgentHandlers
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITTAPICallCenter.EnumerateAgentHandlers"
+f1_keywords:
+- tapi3/ITTAPICallCenter.EnumerateAgentHandlers
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPICallCenter.EnumerateAgentHandlers
+- ITTAPICallCenter.EnumerateAgentHandlers
 targetos: Windows
 req.typenames: 
 req.redist: 

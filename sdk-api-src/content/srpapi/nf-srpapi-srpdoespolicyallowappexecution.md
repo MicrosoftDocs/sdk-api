@@ -1,19 +1,17 @@
 ---
 UID: NF:srpapi.SrpDoesPolicyAllowAppExecution
 title: SrpDoesPolicyAllowAppExecution function (srpapi.h)
-
 description: Evaluates whether a packaged app will be allowed to execute based on software restriction policies.
 old-location: edp\srpdoespolicyallowappexecution_.htm
 tech.root: EDP
 ms.assetid: 2649E719-2BF8-4AE6-B563-0230487A7BD2
-
 ms.date: 12/05/2018
 ms.keywords: EDP.srpdoespolicyallowappexecution_, SrpDoesPolicyAllowAppExecution, SrpDoesPolicyAllowAppExecution , SrpDoesPolicyAllowAppExecution function, srpapi/SrpDoesPolicyAllowAppExecution
 ms.topic: function
-f1_keywords: 
- - "srpapi/SrpDoesPolicyAllowAppExecution"
+f1_keywords:
+- srpapi/SrpDoesPolicyAllowAppExecution
 dev_langs:
- - c++
+- c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - srpapi.dll
- - Ext-MS-Win-Security-Srp-L1-1-0.dll
- - Ext-MS-Win-Security-Srp-L1-1-1.dll
+- srpapi.dll
+- Ext-MS-Win-Security-Srp-L1-1-0.dll
+- Ext-MS-Win-Security-Srp-L1-1-1.dll
 api_name:
- - SrpDoesPolicyAllowAppExecution
+- SrpDoesPolicyAllowAppExecution
 targetos: Windows
 req.typenames: 
 req.redist: 

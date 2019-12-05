@@ -1,19 +1,17 @@
 ---
 UID: NN:rtscom.IRealTimeStylusSynchronization
 title: IRealTimeStylusSynchronization (rtscom.h)
-
 description: Synchronizes access to the RealTimeStylus Class object.
 old-location: tablet\irealtimestylussynchronization.htm
 tech.root: tablet
 ms.assetid: fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd
-
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylusSynchronization, IRealTimeStylusSynchronization interface [Tablet PC], IRealTimeStylusSynchronization interface [Tablet PC],described, fe76386d-55b5-40a8-aa6f-b4a1ee8d9fbd, rtscom/IRealTimeStylusSynchronization, tablet.irealtimestylussynchronization
 ms.topic: interface
-f1_keywords: 
- - "rtscom/IRealTimeStylusSynchronization"
+f1_keywords:
+- rtscom/IRealTimeStylusSynchronization
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylusSynchronization
+- IRealTimeStylusSynchronization
 targetos: Windows
 req.typenames: 
 req.redist: 

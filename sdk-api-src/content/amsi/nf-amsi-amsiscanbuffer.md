@@ -1,19 +1,17 @@
 ---
 UID: NF:amsi.AmsiScanBuffer
 title: AmsiScanBuffer function (amsi.h)
-
 description: Scans a buffer-full of content for malware.
 old-location: amsi\amsiscanbuffer.htm
 tech.root: AMSI
 ms.assetid: D1F2EBE7-FD6B-4CD4-BE4F-F536F08EE339
-
 ms.date: 12/05/2018
 ms.keywords: AmsiScanBuffer, AmsiScanBuffer function [Antimalware Scan Interface], amsi.amsiscanbuffer, amsi/AmsiScanBuffer
 ms.topic: function
-f1_keywords: 
- - "amsi/AmsiScanBuffer"
+f1_keywords:
+- amsi/AmsiScanBuffer
 dev_langs:
- - c++
+- c++
 req.header: amsi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Amsi.lib
 req.dll: Amsi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - amsi.dll
+- amsi.dll
 api_name:
- - AmsiScanBuffer
+- AmsiScanBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

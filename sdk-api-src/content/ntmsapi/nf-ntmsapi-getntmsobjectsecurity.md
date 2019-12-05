@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.GetNtmsObjectSecurity
 title: GetNtmsObjectSecurity function (ntmsapi.h)
-
 description: The GetNtmsObjectSecurity function reads the security descriptor for the specified RSM object.
 old-location: fs\getntmsobjectsecurity.htm
 tech.root: Rsm
 ms.assetid: 1d2168a3-077e-48fc-8a06-91952213f2cb
-
 ms.date: 12/05/2018
 ms.keywords: GetNtmsObjectSecurity, GetNtmsObjectSecurity function [Files], _zaw_getntmsobjectsecurity, base.getntmsobjectsecurity, fs.getntmsobjectsecurity, ntmsapi/GetNtmsObjectSecurity
 ms.topic: function
 f1_keywords:
 - ntmsapi/GetNtmsObjectSecurity
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

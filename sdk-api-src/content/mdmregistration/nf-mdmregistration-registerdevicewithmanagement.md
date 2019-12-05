@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.RegisterDeviceWithManagement
 title: RegisterDeviceWithManagement function (mdmregistration.h)
-
 description: Registers a device with a MDM service, using the [MS-MDE]:\_Mobile Device Enrollment Protocol.
 old-location: mdmreg\registerdevicewithmanagement.htm
 tech.root: MDMReg
 ms.assetid: 3a927d98-decf-464a-82db-561e9abcfe29
-
 ms.date: 12/05/2018
 ms.keywords: RegisterDeviceWithManagement, RegisterDeviceWithManagement function [MDM Registration], mdmreg.registerdevicewithmanagement, mdmregistration/RegisterDeviceWithManagement
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/RegisterDeviceWithManagement"
+f1_keywords:
+- mdmregistration/RegisterDeviceWithManagement
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - RegisterDeviceWithManagement
+- RegisterDeviceWithManagement
 targetos: Windows
 req.typenames: 
 req.redist: 

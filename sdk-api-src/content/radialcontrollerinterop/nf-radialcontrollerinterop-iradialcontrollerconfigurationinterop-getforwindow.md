@@ -1,19 +1,17 @@
 ---
 UID: NF:radialcontrollerinterop.IRadialControllerConfigurationInterop.GetForWindow
 title: IRadialControllerConfigurationInterop::GetForWindow (radialcontrollerinterop.h)
-
 description: Retrieves a RadialControllerConfiguration object bound to the active application.
 old-location: input_radial\iradialcontrollerconfigurationinterop_getforwindow.htm
 tech.root: Input_Radial
 ms.assetid: f2182f3a-82a8-40be-b331-673a181f4070
-
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,IRadialControllerConfigurationInterop interface, IRadialControllerConfigurationInterop interface,GetForWindow method, IRadialControllerConfigurationInterop.GetForWindow, IRadialControllerConfigurationInterop::GetForWindow, Input_Radial.iradialcontrollerconfigurationinterop_getforwindow, radialcontrollerinterop/IRadialControllerConfigurationInterop::GetForWindow
 ms.topic: method
-f1_keywords: 
- - "radialcontrollerinterop/IRadialControllerConfigurationInterop.GetForWindow"
+f1_keywords:
+- radialcontrollerinterop/IRadialControllerConfigurationInterop.GetForWindow
 dev_langs:
- - c++
+- c++
 req.header: radialcontrollerinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RadialControllerInterop.h
+- RadialControllerInterop.h
 api_name:
- - IRadialControllerConfigurationInterop.GetForWindow
+- IRadialControllerConfigurationInterop.GetForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

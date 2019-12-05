@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.setTaskPaneURL
 title: IWMPPlayerServices::setTaskPaneURL (wmp.h)
-
 description: This page documents a feature of the Windows Media Player 9 Series SDK and the Windows Media Player 10 SDK. It may be unavailable in subsequent versions.
 old-location: wmp\iwmpplayerservices_settaskpaneurl.htm
 tech.root: WMP
 ms.assetid: 4ceacaeb-09af-4cdf-84b7-04574a83ec48
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPaneURL method, IWMPPlayerServices.setTaskPaneURL, IWMPPlayerServices::setTaskPaneURL, IWMPPlayerServicessetTaskPaneURLdeprecated, setTaskPaneURL, setTaskPaneURL method [Windows Media Player], setTaskPaneURL method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpaneurl, wmp/IWMPPlayerServices::setTaskPaneURL
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayerServices.setTaskPaneURL"
+f1_keywords:
+- wmp/IWMPPlayerServices.setTaskPaneURL
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayerServices.setTaskPaneURL
+- IWMPPlayerServices.setTaskPaneURL
 targetos: Windows
 req.typenames: 
 req.redist: 

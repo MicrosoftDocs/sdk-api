@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredUIStoreSSOCredW
 title: CredUIStoreSSOCredW function (wincred.h)
-
 description: The CredUIStoreSSOCredW function stores a single logon credential.
 old-location: security\creduistoressocredw.htm
 tech.root: SecAuthN
 ms.assetid: 2c57c943-bcf7-405c-be0a-a3d1991f3004
-
 ms.date: 12/05/2018
 ms.keywords: CredUIStoreSSOCredW, CredUIStoreSSOCredW function [Security], security.creduistoressocredw, wincred/CredUIStoreSSOCredW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUIStoreSSOCredW"
+f1_keywords:
+- wincred/CredUIStoreSSOCredW
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - CredUIStoreSSOCredW
+- CredUIStoreSSOCredW
 targetos: Windows
 req.typenames: 
 req.redist: 

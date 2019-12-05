@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipEnumerator.Clone
 title: IOpcRelationshipEnumerator::Clone (msopc.h)
-
 description: Creates a copy of the current enumerator and all its descendants.
 old-location: opc\iopcrelationshipenumerator_clone.htm
 tech.root: OPC
 ms.assetid: 838f9486-be46-461f-b570-bc77003f1619
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcRelationshipEnumerator interface, IOpcRelationshipEnumerator interface [Open Packaging Conventions],Clone method, IOpcRelationshipEnumerator.Clone, IOpcRelationshipEnumerator::Clone, msopc/IOpcRelationshipEnumerator::Clone, opc.iopcrelationshipenumerator_clone
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipEnumerator.Clone"
+f1_keywords:
+- msopc/IOpcRelationshipEnumerator.Clone
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipEnumerator.Clone
+- IOpcRelationshipEnumerator.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

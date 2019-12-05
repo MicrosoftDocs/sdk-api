@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects_1.D2D1_YCBCR_PROP
 title: D2D1_YCBCR_PROP (d2d1effects_1.h)
-
 description: Identifiers for properties of the YCbCr effect.
 old-location: direct2d\d2d1_ycbcr_prop.htm
 tech.root: Direct2D
 ms.assetid: 08019B09-0254-48B3-9213-3E7362358109
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_YCBCR_PROP, D2D1_YCBCR_PROP enumeration [Direct2D], D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING, D2D1_YCBCR_PROP_INTERPOLATION_MODE, D2D1_YCBCR_PROP_TRANSFORM_MATRIX, d2d1effects_1/D2D1_YCBCR_PROP, d2d1effects_1/D2D1_YCBCR_PROP_CHROMA_SUBSAMPLING, d2d1effects_1/D2D1_YCBCR_PROP_INTERPOLATION_MODE, d2d1effects_1/D2D1_YCBCR_PROP_TRANSFORM_MATRIX, direct2d.d2d1_ycbcr_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_1/D2D1_YCBCR_PROP"
+f1_keywords:
+- d2d1effects_1/D2D1_YCBCR_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_1.h
+- d2d1effects_1.h
 api_name:
- - D2D1_YCBCR_PROP
+- D2D1_YCBCR_PROP
 targetos: Windows
 req.typenames: D2D1_YCBCR_PROP
 req.redist: 

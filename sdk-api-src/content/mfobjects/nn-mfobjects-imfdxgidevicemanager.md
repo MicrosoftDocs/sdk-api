@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFDXGIDeviceManager
 title: IMFDXGIDeviceManager (mfobjects.h)
-
 description: Enables two threads to share the same Microsoft Direct3D 11 device.
 old-location: mf\imfdxgidevicemanager.htm
 tech.root: medfound
 ms.assetid: 4A0DC266-FCF0-4ECD-AC78-CF429839486D
-
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManager, IMFDXGIDeviceManager interface [Media Foundation], IMFDXGIDeviceManager interface [Media Foundation],described, mf.imfdxgidevicemanager, mfobjects/IMFDXGIDeviceManager
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFDXGIDeviceManager"
+f1_keywords:
+- mfobjects/IMFDXGIDeviceManager
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFDXGIDeviceManager
+- IMFDXGIDeviceManager
 targetos: Windows
 req.typenames: 
 req.redist: 

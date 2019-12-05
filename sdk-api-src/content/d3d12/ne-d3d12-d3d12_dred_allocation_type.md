@@ -1,16 +1,14 @@
 ---
 UID: NE:d3d12.D3D12_DRED_ALLOCATION_TYPE
 title: D3D12_DRED_ALLOCATION_TYPE
-
 description: Congruent with, and numerically equivalent to, 3D12DDI_HANDLETYPE enumeration values.
-
 ms.date: 02/07/2019
 ms.keywords: D3D12_DRED_ALLOCATION_TYPE, D3D12_DRED_ALLOCATION_TYPE enumeration, d3d12/D3D12_DRED_ALLOCATION_TYPE, d3d12/D3D12_DRED_ALLOCATION_TYPE enumeration, direct3d12.d3d12_dred_allocation_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_DRED_ALLOCATION_TYPE"
+f1_keywords:
+- d3d12/D3D12_DRED_ALLOCATION_TYPE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -24,13 +22,13 @@ req.target-type:
 req.typenames: D3D12_DRED_ALLOCATION_TYPE
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_DRED_ALLOCATION_TYPE
+- D3D12_DRED_ALLOCATION_TYPE
 ms.custom: 19H1
 ---
 

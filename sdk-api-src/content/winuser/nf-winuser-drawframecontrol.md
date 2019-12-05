@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DrawFrameControl
 title: DrawFrameControl function (winuser.h)
-
 description: The DrawFrameControl function draws a frame control of the specified type and style.
 old-location: gdi\drawframecontrol.htm
 tech.root: gdi
 ms.assetid: 3102007e-e9f7-46d8-ae10-cf156d2131f6
-
 ms.date: 12/05/2018
 ms.keywords: DFCS_ADJUSTRECT, DFCS_BUTTON3STATE, DFCS_BUTTONCHECK, DFCS_BUTTONPUSH, DFCS_BUTTONRADIO, DFCS_BUTTONRADIOIMAGE, DFCS_BUTTONRADIOMASK, DFCS_CAPTIONCLOSE, DFCS_CAPTIONHELP, DFCS_CAPTIONMAX, DFCS_CAPTIONMIN, DFCS_CAPTIONRESTORE, DFCS_CHECKED, DFCS_FLAT, DFCS_HOT, DFCS_INACTIVE, DFCS_MENUARROW, DFCS_MENUARROWRIGHT, DFCS_MENUBULLET, DFCS_MENUCHECK, DFCS_MONO, DFCS_PUSHED, DFCS_SCROLLCOMBOBOX, DFCS_SCROLLDOWN, DFCS_SCROLLLEFT, DFCS_SCROLLRIGHT, DFCS_SCROLLSIZEGRIP, DFCS_SCROLLSIZEGRIPRIGHT, DFCS_SCROLLUP, DFCS_TRANSPARENT, DFC_BUTTON, DFC_CAPTION, DFC_MENU, DFC_POPUPMENU, DFC_SCROLL, DrawFrameControl, DrawFrameControl function [Windows GDI], _win32_DrawFrameControl, gdi.drawframecontrol, winuser/DrawFrameControl
 ms.topic: function
-f1_keywords: 
- - "winuser/DrawFrameControl"
+f1_keywords:
+- winuser/DrawFrameControl
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - ext-ms-win-ntuser-draw-l1-1-2.dll
+- user32.dll
+- ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - DrawFrameControl
+- DrawFrameControl
 targetos: Windows
 req.typenames: 
 req.redist: 

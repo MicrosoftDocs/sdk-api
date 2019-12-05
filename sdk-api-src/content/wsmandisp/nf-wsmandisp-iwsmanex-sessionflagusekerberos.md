@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseKerberos
 title: IWSManEx::SessionFlagUseKerberos (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagUseKerberos for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusekerberos.htm
 tech.root: winrm
 ms.assetid: 14b949d8-774b-4224-ab08-b52ff71ab1bb
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseKerberos method, IWSManEx.SessionFlagUseKerberos, IWSManEx::SessionFlagUseKerberos, SessionFlagUseKerberos, SessionFlagUseKerberos method [Windows Remote Management], SessionFlagUseKerberos method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusekerberos, wsmandisp/IWSManEx::SessionFlagUseKerberos
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagUseKerberos"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagUseKerberos
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagUseKerberos
+- IWSManEx.SessionFlagUseKerberos
 targetos: Windows
 req.typenames: 
 req.redist: 

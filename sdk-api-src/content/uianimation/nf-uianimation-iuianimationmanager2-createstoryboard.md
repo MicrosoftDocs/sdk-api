@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.CreateStoryboard
 title: IUIAnimationManager2::CreateStoryboard (uianimation.h)
-
 description: Creates a new storyboard.
 old-location: uianimation\iuianimationmanager2_createstoryboard.htm
 tech.root: UIAnimation
 ms.assetid: 3D66B9DC-15F0-4660-ACF5-FBC801467FD9
-
 ms.date: 12/05/2018
 ms.keywords: CreateStoryboard, CreateStoryboard method [Windows Animation], CreateStoryboard method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateStoryboard method, IUIAnimationManager2.CreateStoryboard, IUIAnimationManager2::CreateStoryboard, uianimation.iuianimationmanager2_createstoryboard, uianimation/IUIAnimationManager2::CreateStoryboard
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager2.CreateStoryboard"
+f1_keywords:
+- uianimation/IUIAnimationManager2.CreateStoryboard
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager2.CreateStoryboard
+- IUIAnimationManager2.CreateStoryboard
 targetos: Windows
 req.typenames: 
 req.redist: 

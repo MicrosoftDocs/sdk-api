@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmapi.WcmFreeMemory
 title: WcmFreeMemory function (wcmapi.h)
-
 description: Is used to release memory resources allocated by the WCM functions.
 old-location: wcm\wcmfreememory.htm
 tech.root: wcm
 ms.assetid: 43377f58-9702-472d-874a-898f29b743d8
-
 ms.date: 12/05/2018
 ms.keywords: WcmFreeMemory, WcmFreeMemory function [Windows Connection Manager], wcm.wcmfreememory, wcmapi/WcmFreeMemory
 ms.topic: function
-f1_keywords: 
- - "wcmapi/WcmFreeMemory"
+f1_keywords:
+- wcmapi/WcmFreeMemory
 dev_langs:
- - c++
+- c++
 req.header: wcmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wcmapi.lib
 req.dll: Wcmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wcmapi.dll
- - Ext-MS-Win-networking-wcmapi-l1-1-0.dll
+- Wcmapi.dll
+- Ext-MS-Win-networking-wcmapi-l1-1-0.dll
 api_name:
- - WcmFreeMemory
+- WcmFreeMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

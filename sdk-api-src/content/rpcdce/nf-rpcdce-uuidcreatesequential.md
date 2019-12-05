@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.UuidCreateSequential
 title: UuidCreateSequential function (rpcdce.h)
-
 description: The UuidCreateSequential function creates a new UUID.
 old-location: rpc\uuidcreatesequential.htm
 tech.root: Rpc
 ms.assetid: 66975d82-559c-4a13-846c-e403b015563b
-
 ms.date: 12/05/2018
 ms.keywords: UuidCreateSequential, UuidCreateSequential function [RPC], _rpc_uuidcreatesequential, rpc.uuidcreatesequential, rpcdce/UuidCreateSequential
 ms.topic: function
-f1_keywords: 
- - "rpcdce/UuidCreateSequential"
+f1_keywords:
+- rpcdce/UuidCreateSequential
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - UuidCreateSequential
+- UuidCreateSequential
 targetos: Windows
 req.typenames: 
 req.redist: 

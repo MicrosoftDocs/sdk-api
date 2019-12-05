@@ -1,19 +1,17 @@
 ---
 UID: NI:emi.IOCTL_EMI_GET_METADATA_SIZE
 title: IOCTL_EMI_GET_METADATA_SIZE (emi.h)
-
 description: The IOCTL_EMI_GET_METADATA_SIZE control code retrieves the size of the EMI metadata object that can be obtained from the device by issuing an IOCTL_EMI_GET_METADATA request.
 old-location: powermeter\ioctl_emi_get_metadata_size.htm
 tech.root: powermeter
 ms.assetid: 7A3E5BE5-F567-408A-B4AC-347E052957D9
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_EMI_GET_METADATA_SIZE, IOCTL_EMI_GET_METADATA_SIZE control, IOCTL_EMI_GET_METADATA_SIZE control code [Power Metering and Budgeting Devices], emi/IOCTL_EMI_GET_METADATA_SIZE, powermeter.ioctl_emi_get_metadata_size
 ms.topic: ioctl
-f1_keywords: 
- - "emi/IOCTL_EMI_GET_METADATA_SIZE"
+f1_keywords:
+- emi/IOCTL_EMI_GET_METADATA_SIZE
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - IOCTL_EMI_GET_METADATA_SIZE
+- IOCTL_EMI_GET_METADATA_SIZE
 targetos: Windows
 req.typenames: 
 req.redist: 

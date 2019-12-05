@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IEnumerableView.CreateEnumIDListFromContents
 title: IEnumerableView::CreateEnumIDListFromContents (shobjidl.h)
-
 description: Creates an enumerator of ID lists from the contents of the view.
 old-location: shell\IEnumerableView_CreateEnumIDListFromContents.htm
 tech.root: shell
 ms.assetid: 413d913d-e6f3-4e2d-bf1f-5d5ad6d4f650
-
 ms.date: 12/05/2018
 ms.keywords: CreateEnumIDListFromContents, CreateEnumIDListFromContents method [Windows Shell], CreateEnumIDListFromContents method [Windows Shell],IEnumerableView interface, IEnumerableView interface [Windows Shell],CreateEnumIDListFromContents method, IEnumerableView.CreateEnumIDListFromContents, IEnumerableView::CreateEnumIDListFromContents, _shell_IEnumerableView_CreateEnumIDListFromContents, shell.IEnumerableView_CreateEnumIDListFromContents, shobjidl/IEnumerableView::CreateEnumIDListFromContents
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IEnumerableView.CreateEnumIDListFromContents"
+f1_keywords:
+- shobjidl/IEnumerableView.CreateEnumIDListFromContents
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IEnumerableView.CreateEnumIDListFromContents
+- IEnumerableView.CreateEnumIDListFromContents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.CombineMode
 title: CombineMode (gdiplusenums.h)
-
 description: The CombineMode enumeration specifies how a new region is combined with an existing region.
 old-location: gdiplus\_gdiplus_ENUM_CombineMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\combinemode.htm
-
 ms.date: 12/05/2018
 ms.keywords: CombineMode, CombineMode enumeration [GDI+], CombineModeComplement, CombineModeExclude, CombineModeIntersect, CombineModeReplace, CombineModeUnion, CombineModeXor, _gdiplus_ENUM_CombineMode, gdiplus._gdiplus_ENUM_CombineMode, gdiplusenums/CombineMode, gdiplusenums/CombineModeComplement, gdiplusenums/CombineModeExclude, gdiplusenums/CombineModeIntersect, gdiplusenums/CombineModeReplace, gdiplusenums/CombineModeUnion, gdiplusenums/CombineModeXor
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/CombineMode"
+f1_keywords:
+- gdiplusenums/CombineMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - CombineMode
+- CombineMode
 targetos: Windows
 req.typenames: 
 req.redist: 

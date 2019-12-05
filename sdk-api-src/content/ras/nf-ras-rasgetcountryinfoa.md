@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasGetCountryInfoA
 title: RasGetCountryInfoA function (ras.h)
-
 description: The RasGetCountryInfo function retrieves country/region-specific dialing information from the Windows Telephony list of countries/regions.
 old-location: rras\rasgetcountryinfo.htm
 tech.root: RRAS
 ms.assetid: 87a4ae40-6750-46cf-89c2-c229de5a585d
-
 ms.date: 12/05/2018
 ms.keywords: RasGetCountryInfo, RasGetCountryInfo function [RAS], RasGetCountryInfoA, RasGetCountryInfoW, _ras_rasgetcountryinfo, ras/RasGetCountryInfo, ras/RasGetCountryInfoA, ras/RasGetCountryInfoW, rras.rasgetcountryinfo
 ms.topic: function
-f1_keywords: 
- - "ras/RasGetCountryInfo"
+f1_keywords:
+- ras/RasGetCountryInfo
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasGetCountryInfo
- - RasGetCountryInfoA
- - RasGetCountryInfoW
+- RasGetCountryInfo
+- RasGetCountryInfoA
+- RasGetCountryInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

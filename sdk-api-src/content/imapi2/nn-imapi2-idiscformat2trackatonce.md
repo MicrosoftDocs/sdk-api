@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IDiscFormat2TrackAtOnce
 title: IDiscFormat2TrackAtOnce (imapi2.h)
-
 description: Use this interface to write audio to blank CD-R or CD-RW media in Track-At-Once mode.
 old-location: imapi\idiscformat2trackatonce.htm
 tech.root: imapi
 ms.assetid: 27f2d248-1c83-4784-82f9-75ce0a038b87
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce, IDiscFormat2TrackAtOnce interface [IMAPI], IDiscFormat2TrackAtOnce interface [IMAPI],described, imapi.idiscformat2trackatonce, imapi2/IDiscFormat2TrackAtOnce
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce
+- IDiscFormat2TrackAtOnce
 targetos: Windows
 req.typenames: 
 req.redist: 

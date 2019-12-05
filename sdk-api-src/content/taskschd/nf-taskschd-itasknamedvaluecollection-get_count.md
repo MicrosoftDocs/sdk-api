@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get_Count
 title: ITaskNamedValueCollection::get_Count (taskschd.h)
-
 description: Gets the number of name-value pairs in the collection.
 old-location: taskschd\itasknamedvaluecollection_count.htm
 tech.root: taskschd
 ms.assetid: aedb4d3d-0f72-4224-8488-4100d2416994
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Count property, ITaskNamedValueCollection.Count, ITaskNamedValueCollection.get_Count, ITaskNamedValueCollection::Count, ITaskNamedValueCollection::get_Count, get_Count, taskschd.itasknamedvaluecollection_count, taskschd/ITaskNamedValueCollection::Count, taskschd/ITaskNamedValueCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskNamedValueCollection.Count"
+f1_keywords:
+- taskschd/ITaskNamedValueCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskNamedValueCollection.Count
- - ITaskNamedValueCollection.get_Count
+- ITaskNamedValueCollection.Count
+- ITaskNamedValueCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

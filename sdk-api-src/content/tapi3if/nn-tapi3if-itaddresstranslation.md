@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITAddressTranslation
 title: ITAddressTranslation (tapi3if.h)
-
 description: The ITAddressTranslation interface provides methods that allow translation of a calling address into a different format. For example, an application may need to translate an address from canonical to dialable prior to making a call.
 old-location: tapi3\itaddresstranslation.htm
 tech.root: Tapi
 ms.assetid: e1cd88f1-1ed7-4e7f-a745-9a9c4af69317
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressTranslation, ITAddressTranslation interface [TAPI 2.2], ITAddressTranslation interface [TAPI 2.2],described, _tapi3_itaddresstranslation, tapi3.itaddresstranslation, tapi3if/ITAddressTranslation
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITAddressTranslation"
+f1_keywords:
+- tapi3if/ITAddressTranslation
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressTranslation
+- ITAddressTranslation
 targetos: Windows
 req.typenames: 
 req.redist: 

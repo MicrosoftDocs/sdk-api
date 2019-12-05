@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneInitializeExW
 title: phoneInitializeExW function (tapi.h)
-
 description: The phoneInitializeEx function initializes the application's use of TAPI for subsequent use of the phone abstraction.
 old-location: tapi2\phoneinitializeex.htm
 tech.root: Tapi
 ms.assetid: 362e37df-4b14-4651-8d23-b70613e354c8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phoneinitializeex, phoneInitializeEx, phoneInitializeEx function [TAPI 2.2], phoneInitializeExA, phoneInitializeExW, tapi/phoneInitializeEx, tapi/phoneInitializeExA, tapi/phoneInitializeExW, tapi2.phoneinitializeex"
+ms.keywords: _tapi2_phoneinitializeex, phoneInitializeEx, phoneInitializeEx function [TAPI 2.2], phoneInitializeExA, phoneInitializeExW, tapi/phoneInitializeEx, tapi/phoneInitializeExA, tapi/phoneInitializeExW, tapi2.phoneinitializeex
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneInitializeEx"
+f1_keywords:
+- tapi/phoneInitializeEx
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneInitializeEx
- - phoneInitializeExA
- - phoneInitializeExW
+- phoneInitializeEx
+- phoneInitializeExA
+- phoneInitializeExW
 targetos: Windows
 req.typenames: 
 req.redist: 

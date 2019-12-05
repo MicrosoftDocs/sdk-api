@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetRotation
 title: IWICDevelopRaw::GetRotation (wincodec.h)
-
 description: Gets the current rotation angle.
 old-location: wic\_wic_codec_iwicdevelopraw_getrotation.htm
 tech.root: wic
 ms.assetid: 671bca6d-bbe5-4f07-9735-12d796013d9e
-
 ms.date: 12/05/2018
 ms.keywords: GetRotation, GetRotation method [Windows Imaging Component], GetRotation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetRotation method, IWICDevelopRaw.GetRotation, IWICDevelopRaw::GetRotation, _wic_codec_iwicdevelopraw_getrotation, wic._wic_codec_iwicdevelopraw_getrotation, wincodec/IWICDevelopRaw::GetRotation
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetRotation"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetRotation
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetRotation
+- IWICDevelopRaw.GetRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

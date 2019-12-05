@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeProviderUnRegister
 title: PxeProviderUnRegister function (wdspxe.h)
-
 description: Removes a provider from the list of registered providers.
 old-location: wds\pxeproviderunregister.htm
 tech.root: wds
 ms.assetid: b468d865-c680-4f72-a10c-3d91542df8d3
-
 ms.date: 12/05/2018
 ms.keywords: PxeProviderUnRegister, PxeProviderUnRegister function [Windows Deployment Services], wds.pxeproviderunregister, wdspxe/PxeProviderUnRegister
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeProviderUnRegister"
+f1_keywords:
+- wdspxe/PxeProviderUnRegister
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeProviderUnRegister
+- PxeProviderUnRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

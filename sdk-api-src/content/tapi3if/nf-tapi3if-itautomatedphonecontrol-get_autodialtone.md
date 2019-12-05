@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoDialtone
 title: ITAutomatedPhoneControl::get_AutoDialtone (tapi3if.h)
-
 description: The get_AutoDialtone method retrieves the current value of the AutoDialtone property.
 old-location: tapi3\itautomatedphonecontrol_get_autodialtone.htm
 tech.root: Tapi
 ms.assetid: 977be70d-bb2d-490a-afd1-8e7f496b10ae
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoDialtone method, ITAutomatedPhoneControl.get_AutoDialtone, ITAutomatedPhoneControl::get_AutoDialtone, _tapi3_itautomatedphonecontrol_get_autodialtone, get_AutoDialtone, get_AutoDialtone method [TAPI 2.2], get_AutoDialtone method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autodialtone, tapi3if/ITAutomatedPhoneControl::get_AutoDialtone
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.get_AutoDialtone"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.get_AutoDialtone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_AutoDialtone
+- ITAutomatedPhoneControl.get_AutoDialtone
 targetos: Windows
 req.typenames: 
 req.redist: 

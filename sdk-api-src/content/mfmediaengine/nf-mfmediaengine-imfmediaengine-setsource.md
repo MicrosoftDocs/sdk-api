@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetSource
 title: IMFMediaEngine::SetSource (mfmediaengine.h)
-
 description: Sets the URL of a media resource.
 old-location: mf\imfmediaengine_setsource.htm
 tech.root: medfound
 ms.assetid: 80C41EAB-9B8F-4723-A4A7-A17F56FF5773
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],SetSource method, IMFMediaEngine.SetSource, IMFMediaEngine::SetSource, SetSource, SetSource method [Media Foundation], SetSource method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_setsource, mfmediaengine/IMFMediaEngine::SetSource
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.SetSource"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.SetSource
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.SetSource
+- IMFMediaEngine.SetSource
 targetos: Windows
 req.typenames: 
 req.redist: 

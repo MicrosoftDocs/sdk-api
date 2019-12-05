@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.FindItemByName
 title: IWiaItem::FindItemByName (wia_xp.h)
-
 description: The IWiaItem::FindItemByName method searches an item's tree of sub-items using the name as the search key. Each IWiaItem object has a name as one of its standard properties.
 old-location: wia\_wia_IWiaItem_FindItemByName.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\finditembyname.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindItemByName, FindItemByName method [WIA], FindItemByName method [WIA],IWiaItem interface, IWiaItem interface [WIA],FindItemByName method, IWiaItem.FindItemByName, IWiaItem::FindItemByName, _wia_IWiaItem_FindItemByName, wia._wia_IWiaItem_FindItemByName, wia_xp/IWiaItem::FindItemByName
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.FindItemByName"
+f1_keywords:
+- wia_xp/IWiaItem.FindItemByName
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.FindItemByName
+- IWiaItem.FindItemByName
 targetos: Windows
 req.typenames: 
 req.redist: 

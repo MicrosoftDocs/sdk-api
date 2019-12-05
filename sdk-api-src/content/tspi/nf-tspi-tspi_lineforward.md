@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineForward
 title: TSPI_lineForward function (tspi.h)
-
 description: The TSPI_lineForward function forwards calls destined for the specified address on the specified line, according to the specified forwarding instructions.
 old-location: tspi\tspi_lineforward.htm
 tech.root: Tapi
 ms.assetid: fd70bf7f-653c-47db-bf81-6a620f47e5bc
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineForward, TSPI_lineForward function [TAPI 2.2], _tspi_tspi_lineforward, tspi.tspi_lineforward, tspi/TSPI_lineForward
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineForward"
+f1_keywords:
+- tspi/TSPI_lineForward
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineForward
+- TSPI_lineForward
 targetos: Windows
 req.typenames: 
 req.redist: 

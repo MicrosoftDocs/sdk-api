@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.SetViewMode
 title: IResultData::SetViewMode (mmc.h)
-
 description: Enables the snap-in to set the view mode in which the result view pane displays its items.
 old-location: mmc\iresultdata_setviewmode.htm
 tech.root: mmc
 ms.assetid: 17cff5e6-9624-4873-baa8-96c05d877764
-
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],SetViewMode method, IResultData.SetViewMode, IResultData2 interface [MMC],SetViewMode method, IResultData2::SetViewMode, IResultData::SetViewMode, MMCLV_VIEWSTYLE_FILTERED, MMCLV_VIEWSTYLE_ICON, MMCLV_VIEWSTYLE_LIST, MMCLV_VIEWSTYLE_REPORT, MMCLV_VIEWSTYLE_SMALLICON, SetViewMode, SetViewMode method [MMC], SetViewMode method [MMC],IResultData interface, SetViewMode method [MMC],IResultData2 interface, _slate_iresultdata_setviewmode, mmc.iresultdata_setviewmode, mmc/IResultData2::SetViewMode, mmc/IResultData::SetViewMode
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.SetViewMode"
+f1_keywords:
+- mmc/IResultData.SetViewMode
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.SetViewMode
- - IResultData2.SetViewMode
+- IResultData.SetViewMode
+- IResultData2.SetViewMode
 targetos: Windows
 req.typenames: 
 req.redist: 

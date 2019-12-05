@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderPublishing
 title: IProviderPublishing (functiondiscoveryprovider.h)
-
 description: Is implemented by a discovery provider to enable a client program to add and remove function instances.
 old-location: ncd\iproviderpublishing.htm
 tech.root: FunDisc
 ms.assetid: 7647db1b-88c8-44f3-b2af-a61dad4790f6
-
 ms.date: 12/05/2018
 ms.keywords: IProviderPublishing, IProviderPublishing interface, IProviderPublishing interface,described, functiondiscoveryprovider/IProviderPublishing, ncd.iproviderpublishing
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderPublishing"
+f1_keywords:
+- functiondiscoveryprovider/IProviderPublishing
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderPublishing
+- IProviderPublishing
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyDeep
 title: IWSManEx::EnumerationFlagHierarchyDeep (wsmandisp.h)
-
 description: Returns the value of the enumeration constant EnumerationFlagHierarchyDeep for use in the flags parameter of the IWSManSession::Enumerate method.
 old-location: winrm\iwsmanex_enumerationflaghierarchydeep.htm
 tech.root: winrm
 ms.assetid: 1995b4bd-dc2f-4f43-8e08-52ea1899c2c5
-
 ms.date: 12/05/2018
 ms.keywords: EnumerationFlagHierarchyDeep, EnumerationFlagHierarchyDeep method [Windows Remote Management], EnumerationFlagHierarchyDeep method [Windows Remote Management],IWSManEx interface, IWSManEx interface [Windows Remote Management],EnumerationFlagHierarchyDeep method, IWSManEx.EnumerationFlagHierarchyDeep, IWSManEx::EnumerationFlagHierarchyDeep, winrm.iwsmanex_enumerationflaghierarchydeep, wsmandisp/IWSManEx::EnumerationFlagHierarchyDeep
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.EnumerationFlagHierarchyDeep"
+f1_keywords:
+- wsmandisp/IWSManEx.EnumerationFlagHierarchyDeep
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.EnumerationFlagHierarchyDeep
+- IWSManEx.EnumerationFlagHierarchyDeep
 targetos: Windows
 req.typenames: 
 req.redist: 

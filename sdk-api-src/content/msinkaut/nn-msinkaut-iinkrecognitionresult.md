@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkRecognitionResult
 title: IInkRecognitionResult (msinkaut.h)
-
 description: Represents the result of the recognition. The results of recognizing handwritten ink are returned in an IInkRecognitionResult object.
 old-location: tablet\iinkrecognitionresult.htm
 tech.root: tablet
 ms.assetid: fd7ee250-6f76-419b-8164-0d2717ea288c
-
 ms.date: 12/05/2018
 ms.keywords: IInkRecognitionResult, IInkRecognitionResult interface [Tablet PC], IInkRecognitionResult interface [Tablet PC],described, fd7ee250-6f76-419b-8164-0d2717ea288c, msinkaut/IInkRecognitionResult, tablet.iinkrecognitionresult
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkRecognitionResult"
+f1_keywords:
+- msinkaut/IInkRecognitionResult
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionResult
+- IInkRecognitionResult
 targetos: Windows
 req.typenames: 
 req.redist: 

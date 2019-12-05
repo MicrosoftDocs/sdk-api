@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetOutputByteStream
 title: IMFTranscodeSinkInfoProvider::SetOutputByteStream (mfidl.h)
-
 description: Sets an output byte stream for the transcode media sink.
 old-location: mf\imftranscodesinkinfoprovider_setoutputbytestream.htm
 tech.root: medfound
 ms.assetid: 234bed82-a148-4313-a8cb-eefe2061b7ed
-
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider interface [Media Foundation],SetOutputByteStream method, IMFTranscodeSinkInfoProvider.SetOutputByteStream, IMFTranscodeSinkInfoProvider::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFTranscodeSinkInfoProvider interface, mf.imftranscodesinkinfoprovider_setoutputbytestream, mfidl/IMFTranscodeSinkInfoProvider::SetOutputByteStream
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTranscodeSinkInfoProvider.SetOutputByteStream"
+f1_keywords:
+- mfidl/IMFTranscodeSinkInfoProvider.SetOutputByteStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider.SetOutputByteStream
+- IMFTranscodeSinkInfoProvider.SetOutputByteStream
 targetos: Windows
 req.typenames: 
 req.redist: 

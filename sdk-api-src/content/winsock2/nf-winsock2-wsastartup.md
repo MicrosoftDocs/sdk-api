@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAStartup
 title: WSAStartup function (winsock2.h)
-
 description: Initiates use of the Winsock DLL by a process.
 old-location: winsock\wsastartup_2.htm
 tech.root: WinSock
 ms.assetid: 08299592-867c-491d-9769-d16602133659
-
 ms.date: 12/05/2018
 ms.keywords: WSAStartup, WSAStartup function [Winsock], _win32_wsastartup_2, winsock.wsastartup_2, winsock/WSAStartup
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAStartup"
+f1_keywords:
+- winsock2/WSAStartup
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
- - bcrypt.dll
- - wsock32.dll
+- Ws2_32.dll
+- bcrypt.dll
+- wsock32.dll
 api_name:
- - WSAStartup
+- WSAStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

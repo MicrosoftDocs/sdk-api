@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.RemovePointerInteractionContext
 title: RemovePointerInteractionContext function (interactioncontext.h)
-
 description: Remove the specified pointer from the set of pointers processed by the Interaction Context object.
 old-location: input_intcontext\removepointerinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: d17f329b-f633-4aec-806f-3643206fce29
-
 ms.date: 12/05/2018
 ms.keywords: RemovePointerInteractionContext, RemovePointerInteractionContext function, input_intcontext.removepointerinteractioncontext, interactioncontext.removepointerinteractioncontext, interactioncontext/RemovePointerInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/RemovePointerInteractionContext"
+f1_keywords:
+- interactioncontext/RemovePointerInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - RemovePointerInteractionContext
+- RemovePointerInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

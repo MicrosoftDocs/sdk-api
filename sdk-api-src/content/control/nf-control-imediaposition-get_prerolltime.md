@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaPosition.get_PrerollTime
 title: IMediaPosition::get_PrerollTime (control.h)
-
 description: The get_PrerollTime method retrieves the amount of data that will be queued before the start position.
 old-location: dshow\imediaposition_get_prerolltime.htm
 tech.root: DirectShow
 ms.assetid: 3cfe9ba0-0138-4847-81ab-ea1e96e2c3a8
-
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_PrerollTime method, IMediaPosition.get_PrerollTime, IMediaPosition::get_PrerollTime, IMediaPositionget_PrerollTime, control/IMediaPosition::get_PrerollTime, dshow.imediaposition_get_prerolltime, get_PrerollTime, get_PrerollTime method [DirectShow], get_PrerollTime method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: 
- - "control/IMediaPosition.get_PrerollTime"
+f1_keywords:
+- control/IMediaPosition.get_PrerollTime
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPosition.get_PrerollTime
+- IMediaPosition.get_PrerollTime
 targetos: Windows
 req.typenames: 
 req.redist: 

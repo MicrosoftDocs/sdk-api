@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_UniqueContainerName
 title: IX509PrivateKey::get_UniqueContainerName (certenroll.h)
-
 description: Retrieves a unique name for the key container.
 old-location: security\ix509privatekey_uniquecontainername_property.htm
 tech.root: seccertenroll
 ms.assetid: 93da413f-556d-4cda-8628-ce4a2150da19
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],UniqueContainerName property, IX509PrivateKey.UniqueContainerName, IX509PrivateKey.get_UniqueContainerName, IX509PrivateKey::UniqueContainerName, IX509PrivateKey::get_UniqueContainerName, UniqueContainerName property [Security], UniqueContainerName property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::UniqueContainerName, certenroll/IX509PrivateKey::get_UniqueContainerName, get_UniqueContainerName, security.ix509privatekey_uniquecontainername_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.UniqueContainerName"
+f1_keywords:
+- certenroll/IX509PrivateKey.UniqueContainerName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.UniqueContainerName
- - IX509PrivateKey.get_UniqueContainerName
+- IX509PrivateKey.UniqueContainerName
+- IX509PrivateKey.get_UniqueContainerName
 targetos: Windows
 req.typenames: 
 req.redist: 

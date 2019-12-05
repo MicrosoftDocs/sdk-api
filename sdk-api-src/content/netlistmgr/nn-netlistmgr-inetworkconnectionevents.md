@@ -1,19 +1,17 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionEvents
 title: INetworkConnectionEvents (netlistmgr.h)
-
 description: The INetworkConnectionEvents interface is a message sink interface that a client implements to get network connection-related events. Applications that are interested in lower-level events (such as authentication changes) must implement this interface.
 old-location: nla\inetworkconnectionevents.htm
 tech.root: nla
 ms.assetid: 339f23ee-583d-4623-ad43-00b4fd4395ad
-
 ms.date: 12/05/2018
 ms.keywords: INetworkConnectionEvents, INetworkConnectionEvents interface [Network Awareness], INetworkConnectionEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionEvents, nla.inetworkconnectionevents
 ms.topic: interface
-f1_keywords: 
- - "netlistmgr/INetworkConnectionEvents"
+f1_keywords:
+- netlistmgr/INetworkConnectionEvents
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnectionEvents
+- INetworkConnectionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

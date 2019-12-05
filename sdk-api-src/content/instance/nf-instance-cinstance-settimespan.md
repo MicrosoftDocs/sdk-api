@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetTimeSpan
 title: CInstance::SetTimeSpan (instance.h)
-
 description: The SetTimeSpan method sets a property that represents a time span.
 old-location: wmi\cinstance_settimespan.htm
 tech.root: WmiSdk
 ms.assetid: d23197a2-7352-44e8-b962-2509fdf9673d
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetTimeSpan method, CInstance.SetTimeSpan, CInstance::SetTimeSpan, SetTimeSpan, SetTimeSpan method [Windows Management Instrumentation], SetTimeSpan method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_settimespan, instance/CInstance::SetTimeSpan, wmi.cinstance_settimespan
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetTimeSpan"
+f1_keywords:
+- instance/CInstance.SetTimeSpan
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetTimeSpan
+- CInstance.SetTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

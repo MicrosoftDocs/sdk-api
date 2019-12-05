@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.RemoveFromConference
 title: ITBasicCallControl::RemoveFromConference (tapi3if.h)
-
 description: The RemoveFromConference method removes the call from a conference if it is involved in one.
 old-location: tapi3\itbasiccallcontrol_removefromconference.htm
 tech.root: Tapi
 ms.assetid: c3a357a1-9bfa-4d23-b7d7-e1d9b636e861
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],RemoveFromConference method, ITBasicCallControl.RemoveFromConference, ITBasicCallControl::RemoveFromConference, RemoveFromConference, RemoveFromConference method [TAPI 2.2], RemoveFromConference method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_removefromconference, tapi3.itbasiccallcontrol_removefromconference, tapi3if/ITBasicCallControl::RemoveFromConference
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.RemoveFromConference"
+f1_keywords:
+- tapi3if/ITBasicCallControl.RemoveFromConference
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.RemoveFromConference
+- ITBasicCallControl.RemoveFromConference
 targetos: Windows
 req.typenames: 
 req.redist: 

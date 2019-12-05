@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_Retries
 title: IFaxConfiguration::put_Retries (faxcomex.h)
-
 description: Sets or retrieves a value that indicates the number of redial attempts for a given fax job.
 old-location: fax\_mfax_IFaxConfiguration_Retries.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\retries.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration interface [Fax Service],Retries property, IFaxConfiguration.Retries, IFaxConfiguration.put_Retries, IFaxConfiguration::Retries, IFaxConfiguration::get_Retries, IFaxConfiguration::put_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxConfiguration interface, _mfax_IFaxConfiguration_Retries, fax._mfax_IFaxConfiguration_Retries, faxcomex/IFaxConfiguration::Retries, faxcomex/IFaxConfiguration::get_Retries, faxcomex/IFaxConfiguration::put_Retries, put_Retries
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.Retries"
+f1_keywords:
+- faxcomex/IFaxConfiguration.Retries
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.Retries
- - IFaxConfiguration.get_Retries
- - IFaxConfiguration.put_Retries
+- IFaxConfiguration.Retries
+- IFaxConfiguration.get_Retries
+- IFaxConfiguration.put_Retries
 targetos: Windows
 req.typenames: 
 req.redist: 

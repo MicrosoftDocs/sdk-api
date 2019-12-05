@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPageReferenceCollection
 title: IXpsOMPageReferenceCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMPageReference interface pointers.
 old-location: xps\ixpsompagereferencecollection.htm
 tech.root: printdocs
 ms.assetid: 4b51bc29-c653-41fa-bbd3-9ff529f84e4e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection, IXpsOMPageReferenceCollection interface [XPS Documents and Packaging], IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],described, xps.ixpsompagereferencecollection, xpsobjectmodel/IXpsOMPageReferenceCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReferenceCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReferenceCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReferenceCollection
+- IXpsOMPageReferenceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

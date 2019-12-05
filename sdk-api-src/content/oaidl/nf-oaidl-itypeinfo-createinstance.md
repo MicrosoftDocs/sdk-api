@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.CreateInstance
 title: ITypeInfo::CreateInstance (oaidl.h)
-
 description: Creates a new instance of a type that describes a component object class (coclass).
 old-location: automat\itypeinfo_createinstance.htm
 tech.root: automat
 ms.assetid: b11c51e6-8ae7-482d-87eb-8175ca98eb63
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Automation], CreateInstance method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],CreateInstance method, ITypeInfo.CreateInstance, ITypeInfo::CreateInstance, _oa96_ITypeInfo_CreateInstance, automat.itypeinfo_createinstance, oaidl/ITypeInfo::CreateInstance
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.CreateInstance"
+f1_keywords:
+- oaidl/ITypeInfo.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.CreateInstance
+- ITypeInfo.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

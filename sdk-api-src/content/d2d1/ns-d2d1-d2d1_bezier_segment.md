@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_BEZIER_SEGMENT
 title: D2D1_BEZIER_SEGMENT (d2d1.h)
-
 description: Represents a cubic bezier segment drawn between two points.
 old-location: direct2d\D2D1_BEZIER_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_BEZIER_SEGMENT, D2D1_BEZIER_SEGMENT structure [Direct2D], d2d1/D2D1_BEZIER_SEGMENT, direct2d.D2D1_BEZIER_SEGMENT
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_BEZIER_SEGMENT"
+f1_keywords:
+- d2d1/D2D1_BEZIER_SEGMENT
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_BEZIER_SEGMENT
+- D2D1_BEZIER_SEGMENT
 targetos: Windows
 req.typenames: D2D1_BEZIER_SEGMENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:winnt.PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 title: PTP_CLEANUP_GROUP_CANCEL_CALLBACK (winnt.h)
-
 description: Applications implement this callback if they call the SetThreadpoolCallbackCleanupGroup function to specify the callback to use when CloseThreadpoolCleanupGroup is called.
 old-location: base\cleanupgroupcancelcallback.htm
 tech.root: ProcThread
 ms.assetid: 5704b0df-a868-40f0-9bcf-41274facb0b5
-
 ms.date: 12/05/2018
 ms.keywords: PTP_CLEANUP_GROUP_CANCEL_CALLBACK, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback, PTP_CLEANUP_GROUP_CANCEL_CALLBACK callback function, base.cleanupgroupcancelcallback, winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK"
+f1_keywords:
+- winnt/PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PTP_CLEANUP_GROUP_CANCEL_CALLBACK
+- PTP_CLEANUP_GROUP_CANCEL_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

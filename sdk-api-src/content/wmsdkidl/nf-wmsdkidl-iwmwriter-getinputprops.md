@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.GetInputProps
 title: IWMWriter::GetInputProps (wmsdkidl.h)
-
 description: The GetInputProps method retrieves the current media properties of a specified input stream.
 old-location: wmformat\iwmwriter_getinputprops.htm
 tech.root: wmformat
 ms.assetid: 2889a1a7-3111-4c13-b15a-659f519c22f6
-
 ms.date: 12/05/2018
 ms.keywords: GetInputProps, GetInputProps method [windows Media Format], GetInputProps method [windows Media Format],IWMWriter interface, IWMWriter interface [windows Media Format],GetInputProps method, IWMWriter.GetInputProps, IWMWriter::GetInputProps, IWMWriterGetInputProps, wmformat.iwmwriter_getinputprops, wmsdkidl/IWMWriter::GetInputProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.GetInputProps"
+f1_keywords:
+- wmsdkidl/IWMWriter.GetInputProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.GetInputProps
+- IWMWriter.GetInputProps
 targetos: Windows
 req.typenames: 
 req.redist: 

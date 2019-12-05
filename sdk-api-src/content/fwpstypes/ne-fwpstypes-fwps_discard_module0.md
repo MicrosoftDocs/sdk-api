@@ -1,19 +1,17 @@
 ---
 UID: NE:fwpstypes.FWPS_DISCARD_MODULE0_
 title: FWPS_DISCARD_MODULE0 (fwpstypes.h)
-
 description: The FWPS_DISCARD_MODULE0 enumeration type specifies the type of module that discarded the data.Note  FWPS_DISCARD_MODULE0 is a specific version of FWPS_DISCARD_MODULE.
 old-location: netvista\fwps_discard_module0.htm
 tech.root: NetVista
 ms.assetid: d9237268-a5e1-4b1c-91f7-9e894876ca87
-
 ms.date: 12/05/2018
 ms.keywords: FWPS_DISCARD_MODULE0, FWPS_DISCARD_MODULE0 enumeration [Network Drivers Starting with Windows Vista], FWPS_DISCARD_MODULE_GENERAL, FWPS_DISCARD_MODULE_MAX, FWPS_DISCARD_MODULE_NETWORK, FWPS_DISCARD_MODULE_TRANSPORT, fwpstypes/FWPS_DISCARD_MODULE0, fwpstypes/FWPS_DISCARD_MODULE_GENERAL, fwpstypes/FWPS_DISCARD_MODULE_MAX, fwpstypes/FWPS_DISCARD_MODULE_NETWORK, fwpstypes/FWPS_DISCARD_MODULE_TRANSPORT, netvista.fwps_discard_module0, wfp_ref_4_enum_9cf37d53-bbf0-45ec-adc8-e690b4fd8aea.xml
 ms.topic: enum
-f1_keywords: 
- - "fwpstypes/FWPS_DISCARD_MODULE0"
+f1_keywords:
+- fwpstypes/FWPS_DISCARD_MODULE0
 dev_langs:
- - c++
+- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fwpstypes.h
+- fwpstypes.h
 api_name:
- - FWPS_DISCARD_MODULE0
+- FWPS_DISCARD_MODULE0
 targetos: Windows
 req.typenames: FWPS_DISCARD_MODULE0
 req.redist: 

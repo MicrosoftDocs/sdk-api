@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSDisconnectSession
 title: WTSDisconnectSession function (wtsapi32.h)
-
 description: Disconnects the logged-on user from the specified Remote Desktop Services session without closing the session.
 old-location: termserv\wtsdisconnectsession.htm
 tech.root: TermServ
 ms.assetid: 1e9487c2-7678-4f9c-9b0b-e6769718d027
-
 ms.date: 12/05/2018
 ms.keywords: WTSDisconnectSession, WTSDisconnectSession function [Remote Desktop Services], _win32_wtsdisconnectsession, termserv.wtsdisconnectsession, wtsapi32/WTSDisconnectSession
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSDisconnectSession"
+f1_keywords:
+- wtsapi32/WTSDisconnectSession
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
- - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
+- Wtsapi32.dll
+- Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSDisconnectSession
+- WTSDisconnectSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_name
 title: IWMPPlaylist::get_name (wmp.h)
-
 description: The get_name method retrieves the name of the playlist.
 old-location: wmp\iwmpplaylist_get_name.htm
 tech.root: WMP
 ms.assetid: 547a8ebe-b7c7-4dbc-96c4-1d5f5ef77f97
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_name method, IWMPPlaylist.get_name, IWMPPlaylist::get_name, IWMPPlaylistget_name, get_name, get_name method [Windows Media Player], get_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_name, wmp/IWMPPlaylist::get_name
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.get_name"
+f1_keywords:
+- wmp/IWMPPlaylist.get_name
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylist.get_name
+- IWMPPlaylist.get_name
 targetos: Windows
 req.typenames: 
 req.redist: 

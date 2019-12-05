@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.CIDLData_CreateFromIDArray
 title: CIDLData_CreateFromIDArray function (shlobj_core.h)
-
 description: CIDLData_CreateFromIDArray may be altered or unavailable.
 old-location: shell\CIDLData_CreateFromIDArray.htm
 tech.root: shell
 ms.assetid: 4949c701-a375-450a-89a3-3fd146557d11
-
 ms.date: 12/05/2018
 ms.keywords: CIDLData_CreateFromIDArray, CIDLData_CreateFromIDArray function [Windows Shell], _shell_CIDLData_CreateFromIDArray, shell.CIDLData_CreateFromIDArray, shlobj_core/CIDLData_CreateFromIDArray
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/CIDLData_CreateFromIDArray"
+f1_keywords:
+- shlobj_core/CIDLData_CreateFromIDArray
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - CIDLData_CreateFromIDArray
+- CIDLData_CreateFromIDArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetSandbox
 title: IXblIdpAuthManager::GetSandbox (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_getsandbox.htm
 tech.root: xblidp
 ms.assetid: 14420127-C5A3-4FC8-98B8-AA8666AFD960
-
 ms.date: 12/05/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetSandbox method, IXblIdpAuthManager.GetSandbox, IXblIdpAuthManager::GetSandbox, xblidp.ixblidpauthmanager_getsandbox, xblidpauthmanager/IXblIdpAuthManager::GetSandbox
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthManager.GetSandbox"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthManager.GetSandbox
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthManager.GetSandbox
+- IXblIdpAuthManager.GetSandbox
 targetos: Windows
 req.typenames: 
 req.redist: 

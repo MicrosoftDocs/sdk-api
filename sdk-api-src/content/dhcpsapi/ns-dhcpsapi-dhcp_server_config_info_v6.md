@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_SERVER_CONFIG_INFO_V6
 title: DHCP_SERVER_CONFIG_INFO_V6 (dhcpsapi.h)
-
 description: Contains the settings for the DHCPv6 server.
 old-location: dhcp\dhcp_server_config_info_v6.htm
 tech.root: DHCP
 ms.assetid: 9862f0c1-3c42-4ad7-af3c-15868e4a9314
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6 structure [DHCP], PDHCP_SERVER_CONFIG_INFO_V6, PDHCP_SERVER_CONFIG_INFO_V6 structure pointer [DHCP], dhcp.dhcp_server_config_info_v6, dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_V6"
+ms.keywords: '*LPDHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6, DHCP_SERVER_CONFIG_INFO_V6 structure [DHCP], PDHCP_SERVER_CONFIG_INFO_V6, PDHCP_SERVER_CONFIG_INFO_V6 structure pointer [DHCP], dhcp.dhcp_server_config_info_v6, dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6, dhcpsapi/PDHCP_SERVER_CONFIG_INFO_V6'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6"
+f1_keywords:
+- dhcpsapi/DHCP_SERVER_CONFIG_INFO_V6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_SERVER_CONFIG_INFO_V6
+- DHCP_SERVER_CONFIG_INFO_V6
 targetos: Windows
 req.typenames: DHCP_SERVER_CONFIG_INFO_V6, *LPDHCP_SERVER_CONFIG_INFO_V6
 req.redist: 

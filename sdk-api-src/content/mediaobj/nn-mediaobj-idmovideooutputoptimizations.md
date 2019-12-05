@@ -1,19 +1,17 @@
 ---
 UID: NN:mediaobj.IDMOVideoOutputOptimizations
 title: IDMOVideoOutputOptimizations (mediaobj.h)
-
 description: The IDMOVideoOutputOptimizations interface supports video optimizations on a Microsoft DirectX Media Object (DMO).
 old-location: dshow\idmovideooutputoptimizations.htm
 tech.root: DirectShow
 ms.assetid: 1e87d0e1-68be-4f86-aae2-cff3edfa573b
-
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations, IDMOVideoOutputOptimizations interface [DirectShow], IDMOVideoOutputOptimizations interface [DirectShow],described, IDMOVideoOutputOptimizationsInterface, dshow.idmovideooutputoptimizations, mediaobj/IDMOVideoOutputOptimizations
 ms.topic: interface
-f1_keywords: 
- - "mediaobj/IDMOVideoOutputOptimizations"
+f1_keywords:
+- mediaobj/IDMOVideoOutputOptimizations
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations
+- IDMOVideoOutputOptimizations
 targetos: Windows
 req.typenames: 
 req.redist: 

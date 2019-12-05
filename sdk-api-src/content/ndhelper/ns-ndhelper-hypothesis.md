@@ -1,19 +1,17 @@
 ---
 UID: NS:ndhelper.tagHYPOTHESIS
 title: HYPOTHESIS (ndhelper.h)
-
 description: The HYPOTHESIS structure contains data used to submit a hypothesis to NDF for another helper class.
 old-location: ndf\hypothesis.htm
 tech.root: NDF
 ms.assetid: 8f137633-8501-404c-9540-d558be9beeca
-
 ms.date: 12/05/2018
-ms.keywords: "*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS"
+ms.keywords: '*PHYPOTHESIS, HYPOTHESIS, HYPOTHESIS structure [NDF], HYPOTHESIS,*PHYPOTHESIS, HYPOTHESIS,*PHYPOTHESIS structure [NDF], ndf.hypothesis, ndhelper/HYPOTHESIS'
 ms.topic: struct
-f1_keywords: 
- - "ndhelper/HYPOTHESIS, *PHYPOTHESIS"
+f1_keywords:
+- ndhelper/HYPOTHESIS, *PHYPOTHESIS
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - HYPOTHESIS, *PHYPOTHESIS
+- HYPOTHESIS, *PHYPOTHESIS
 targetos: Windows
 req.typenames: HYPOTHESIS, *PHYPOTHESIS
 req.redist: 

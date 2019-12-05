@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetCurSel
 title: ListBox_SetCurSel macro (windowsx.h)
-
 description: Sets the currently selected item in a single-selection list box. You can use this macro or send the LB_SETCURSEL message explicitly.
 old-location: controls\ListBox_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setcursel.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetCurSel, ListBox_SetCurSel macro [Windows Controls], _win32_ListBox_SetCurSel, _win32_ListBox_SetCurSel_cpp, controls.ListBox_SetCurSel, controls._win32_ListBox_SetCurSel, windowsx/ListBox_SetCurSel
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetCurSel"
+f1_keywords:
+- windowsx/ListBox_SetCurSel
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetCurSel
+- ListBox_SetCurSel
 targetos: Windows
 req.typenames: 
 req.redist: 

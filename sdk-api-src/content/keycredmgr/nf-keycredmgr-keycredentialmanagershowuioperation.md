@@ -1,19 +1,17 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerShowUIOperation
 title: KeyCredentialManagerShowUIOperation function (keycredmgr.h)
-
 description: API to perform the requested WHFB operation.
 old-location: security\keycredentialmanagershowuioperation.htm
 tech.root: SecAuthN
 ms.assetid: 94AB2BA7-810C-4AC4-A719-FD9684C21BA0
-
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerShowUIOperation, KeyCredentialManagerShowUIOperation function [Security], keycredmgr/KeyCredentialManagerShowUIOperation, security.keycredentialmanagershowuioperation
 ms.topic: function
-f1_keywords: 
- - "keycredmgr/KeyCredentialManagerShowUIOperation"
+f1_keywords:
+- keycredmgr/KeyCredentialManagerShowUIOperation
 dev_langs:
- - c++
+- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Keycredmgr.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - keycredmgr.lib
- - keycredmgr.dll
+- keycredmgr.lib
+- keycredmgr.dll
 api_name:
- - KeyCredentialManagerShowUIOperation
+- KeyCredentialManagerShowUIOperation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:aclui.ISecurityInformation
 title: ISecurityInformation (aclui.h)
-
 description: Enables the access control editor to communicate with the caller of the CreateSecurityPage and EditSecurity functions.
 old-location: security\isecurityinformation.htm
 tech.root: SecAuthZ
 ms.assetid: 38d94f36-f149-4b62-a710-8f7359bfd8cd
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation, ISecurityInformation interface [Security], ISecurityInformation interface [Security],described, _win32_isecurityinformation, aclui/ISecurityInformation, security.isecurityinformation
 ms.topic: interface
-f1_keywords: 
- - "aclui/ISecurityInformation"
+f1_keywords:
+- aclui/ISecurityInformation
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Aclui.h
+- Aclui.h
 api_name:
- - ISecurityInformation
+- ISecurityInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

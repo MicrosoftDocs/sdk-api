@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddStructureChangedEvent
 title: IProxyProviderWinEventSink::AddStructureChangedEvent (uiautomationcore.h)
-
 description: Raises an event to notify clients that the structure of the UI Automation tree has changed.
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent.htm
 tech.root: WinAuto
 ms.assetid: 03be09a6-da4d-4071-bd7c-df79688c20d3
-
 ms.date: 12/05/2018
 ms.keywords: AddStructureChangedEvent, AddStructureChangedEvent method [Windows Accessibility], AddStructureChangedEvent method [Windows Accessibility],IProxyProviderWinEventSink interface, IProxyProviderWinEventSink interface [Windows Accessibility],AddStructureChangedEvent method, IProxyProviderWinEventSink.AddStructureChangedEvent, IProxyProviderWinEventSink::AddStructureChangedEvent, uiauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent, uiautomationcore/IProxyProviderWinEventSink::AddStructureChangedEvent, winauto.uiauto_IProxyProviderWinEventSink_AddStructureChangedEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IProxyProviderWinEventSink.AddStructureChangedEvent"
+f1_keywords:
+- uiautomationcore/IProxyProviderWinEventSink.AddStructureChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IProxyProviderWinEventSink.AddStructureChangedEvent
+- IProxyProviderWinEventSink.AddStructureChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

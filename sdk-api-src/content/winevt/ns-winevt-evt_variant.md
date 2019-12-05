@@ -1,19 +1,17 @@
 ---
 UID: NS:winevt._EVT_VARIANT
 title: EVT_VARIANT (winevt.h)
-
 description: Contains event data or property values.
 old-location: wes\evt_variant.htm
 tech.root: wes
 ms.assetid: 4b0f338b-0b66-4ba5-9e29-b15afe15a2d3
-
 ms.date: 12/05/2018
 ms.keywords: '*PEVT_VARIANT, EVT_VARIANT, EVT_VARIANT structure [EventLog], PEVT_VARIANT, PEVT_VARIANT structure pointer [EventLog], wes.evt_variant, winevt/PEVT_VARIANT, winevt/_EVT_VARIANT'
 ms.topic: struct
 f1_keywords:
 - winevt/EVT_VARIANT
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows

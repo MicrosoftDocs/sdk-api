@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmCommitOptions
 title: FsrmCommitOptions (fsrmenums.h)
-
 description: Defines the options for committing a collection of objects.
 old-location: fsrm\fsrmcommitoptions.htm
 tech.root: fsrm
 ms.assetid: eb362bd8-c11f-404e-be54-0e16007494a7
-
 ms.date: 12/05/2018
 ms.keywords: FsrmCommitOptions, FsrmCommitOptions enumeration [File Server Resource Manager], FsrmCommitOptions_Asynchronous, FsrmCommitOptions_None, fs.fsrmcommitoptions, fsrm.fsrmcommitoptions, fsrmenums/FsrmCommitOptions, fsrmenums/FsrmCommitOptions_Asynchronous, fsrmenums/FsrmCommitOptions_None
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmCommitOptions"
+f1_keywords:
+- fsrmenums/FsrmCommitOptions
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmCommitOptions
+- FsrmCommitOptions
 targetos: Windows
 req.typenames: FsrmCommitOptions
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRImageCompositor9.TermCompositionDevice
 title: IVMRImageCompositor9::TermCompositionDevice (vmr9.h)
-
 description: The TermCompositionDevice method informs the compositor that the current composition target is being replaced. Compositors should perform any necessary cleanup of the composition target in this method.
 old-location: dshow\ivmrimagecompositor9_termcompositiondevice.htm
 tech.root: DirectShow
 ms.assetid: e218222b-fed3-4f4b-8d97-785774800d89
-
 ms.date: 12/05/2018
 ms.keywords: IVMRImageCompositor9 interface [DirectShow],TermCompositionDevice method, IVMRImageCompositor9.TermCompositionDevice, IVMRImageCompositor9::TermCompositionDevice, IVMRImageCompositor9TermCompositionDevice, TermCompositionDevice, TermCompositionDevice method [DirectShow], TermCompositionDevice method [DirectShow],IVMRImageCompositor9 interface, dshow.ivmrimagecompositor9_termcompositiondevice, vmr9/IVMRImageCompositor9::TermCompositionDevice
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRImageCompositor9.TermCompositionDevice"
+f1_keywords:
+- vmr9/IVMRImageCompositor9.TermCompositionDevice
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRImageCompositor9.TermCompositionDevice
+- IVMRImageCompositor9.TermCompositionDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

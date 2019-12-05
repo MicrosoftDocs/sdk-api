@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.CreateOffscreenPlainSurface
 title: IDirect3DDevice9::CreateOffscreenPlainSurface (d3d9helper.h)
-
 description: Create an off-screen surface.
 old-location: direct3d9\idirect3ddevice9__createoffscreenplainsurface.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createoffscreenplainsurface.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateOffscreenPlainSurface, CreateOffscreenPlainSurface method [Direct3D 9], CreateOffscreenPlainSurface method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateOffscreenPlainSurface method, IDirect3DDevice9.CreateOffscreenPlainSurface, IDirect3DDevice9::CreateOffscreenPlainSurface, d3d9helper/IDirect3DDevice9::CreateOffscreenPlainSurface, direct3d9.idirect3ddevice9__createoffscreenplainsurface, f714d72c-a698-e4b2-14cb-1951e38364a8
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.CreateOffscreenPlainSurface"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.CreateOffscreenPlainSurface
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.CreateOffscreenPlainSurface
+- IDirect3DDevice9.CreateOffscreenPlainSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.MakeUpper
 title: CHString::MakeUpper (chstring.h)
-
 description: The MakeUpper method converts a CHString string to an uppercase string.
 old-location: wmi\chstring_makeupper.htm
 tech.root: WmiSdk
 ms.assetid: 7dbce906-9eb3-47d6-9076-20e092b6239e
-
 ms.date: 12/05/2018
-ms.keywords: "?MakeUpper@CHString@@QAEXXZ, ?MakeUpper@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],MakeUpper method, CHString.MakeUpper, CHString::MakeUpper, MakeUpper, MakeUpper method [Windows Management Instrumentation], MakeUpper method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makeupper, chstring/CHString::MakeUpper, wmi.chstring_makeupper"
+ms.keywords: ?MakeUpper@CHString@@QAEXXZ, ?MakeUpper@CHString@@QEAAXXZ, CHString interface [Windows Management Instrumentation],MakeUpper method, CHString.MakeUpper, CHString::MakeUpper, MakeUpper, MakeUpper method [Windows Management Instrumentation], MakeUpper method [Windows Management Instrumentation],CHString interface, _hmm_chstring_makeupper, chstring/CHString::MakeUpper, wmi.chstring_makeupper
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.MakeUpper"
+f1_keywords:
+- chstring/CHString.MakeUpper
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.MakeUpper
- - ?MakeUpper@CHString@@QAEXXZ
- - ?MakeUpper@CHString@@QEAAXXZ
+- CHString.MakeUpper
+- ?MakeUpper@CHString@@QAEXXZ
+- ?MakeUpper@CHString@@QEAAXXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

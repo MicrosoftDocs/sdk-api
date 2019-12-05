@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetRecordServiceId
 title: IDvbLogicalChannelDescriptor::GetRecordServiceId (dvbsiparser.h)
-
 description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.  .
 old-location: mstv\idvblogicalchanneldescriptor_getrecordserviceid.htm
 tech.root: mstv
 ms.assetid: ab0670e9-400c-4a3f-8afa-e323a3915dc3
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [DirectShow], GetRecordServiceId method [DirectShow],IDvbLogicalChannelDescriptor interface, IDvbLogicalChannelDescriptor interface [DirectShow],GetRecordServiceId method, IDvbLogicalChannelDescriptor.GetRecordServiceId, IDvbLogicalChannelDescriptor::GetRecordServiceId, IDvbLogicalChannelDescriptorGetRecordServiceId, dvbsiparser/IDvbLogicalChannelDescriptor::GetRecordServiceId, mstv.idvblogicalchanneldescriptor_getrecordserviceid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordServiceId"
+f1_keywords:
+- dvbsiparser/IDvbLogicalChannelDescriptor.GetRecordServiceId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLogicalChannelDescriptor.GetRecordServiceId
+- IDvbLogicalChannelDescriptor.GetRecordServiceId
 targetos: Windows
 req.typenames: 
 req.redist: 

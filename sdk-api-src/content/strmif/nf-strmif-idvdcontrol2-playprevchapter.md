@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayPrevChapter
 title: IDvdControl2::PlayPrevChapter (strmif.h)
-
 description: The PlayPrevChapter method starts playback from the beginning of the previous chapter in the current title.
 old-location: dshow\idvdcontrol2_playprevchapter.htm
 tech.root: DirectShow
 ms.assetid: bebfe1e1-9197-4105-9b3f-edeb6f04836c
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayPrevChapter method, IDvdControl2.PlayPrevChapter, IDvdControl2::PlayPrevChapter, IDvdControl2PlayPrevChapter, PlayPrevChapter, PlayPrevChapter method [DirectShow], PlayPrevChapter method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playprevchapter, strmif/IDvdControl2::PlayPrevChapter
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.PlayPrevChapter"
+f1_keywords:
+- strmif/IDvdControl2.PlayPrevChapter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.PlayPrevChapter
+- IDvdControl2.PlayPrevChapter
 targetos: Windows
 req.typenames: 
 req.redist: 

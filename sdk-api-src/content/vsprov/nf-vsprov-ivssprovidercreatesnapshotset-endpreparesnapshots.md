@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.EndPrepareSnapshots
 title: IVssProviderCreateSnapshotSet::EndPrepareSnapshots (vsprov.h)
-
 description: Is called once for the complete shadow copy set, after the last IVssHardwareSnapshotProvider::BeginPrepareSnapshot call.
 old-location: base\ivssprovidercreatesnapshotset_endpreparesnapshots.htm
 tech.root: VSS
 ms.assetid: 230666c7-e7e4-4e75-a84d-1786e8cbbb6c
-
 ms.date: 12/05/2018
 ms.keywords: EndPrepareSnapshots, EndPrepareSnapshots method [VSS], EndPrepareSnapshots method [VSS],IVssProviderCreateSnapshotSet interface, IVssProviderCreateSnapshotSet interface [VSS],EndPrepareSnapshots method, IVssProviderCreateSnapshotSet.EndPrepareSnapshots, IVssProviderCreateSnapshotSet::EndPrepareSnapshots, base.ivssprovidercreatesnapshotset_endpreparesnapshots, vsprov/IVssProviderCreateSnapshotSet::EndPrepareSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssProviderCreateSnapshotSet.EndPrepareSnapshots"
+f1_keywords:
+- vsprov/IVssProviderCreateSnapshotSet.EndPrepareSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet.EndPrepareSnapshots
+- IVssProviderCreateSnapshotSet.EndPrepareSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

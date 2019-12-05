@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.EnrollmentPolicyFlags
 title: EnrollmentPolicyFlags (certenroll.h)
-
 description: Specifies group policy flags.
 old-location: security\enrollmentpolicyflags.htm
 tech.root: seccertenroll
 ms.assetid: 07f80422-6856-4371-946f-88efdd9c765a
-
 ms.date: 12/05/2018
 ms.keywords: DisableGroupPolicyList, DisableUserServerList, EnrollmentPolicyFlags, EnrollmentPolicyFlags enumeration [Security], certenroll/DisableGroupPolicyList, certenroll/DisableUserServerList, certenroll/EnrollmentPolicyFlags, security.enrollmentpolicyflags
 ms.topic: enum
-f1_keywords: 
- - "certenroll/EnrollmentPolicyFlags"
+f1_keywords:
+- certenroll/EnrollmentPolicyFlags
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - EnrollmentPolicyFlags
+- EnrollmentPolicyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

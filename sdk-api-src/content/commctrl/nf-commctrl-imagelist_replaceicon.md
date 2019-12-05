@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_ReplaceIcon
 title: ImageList_ReplaceIcon function (commctrl.h)
-
 description: Replaces an image with an icon or cursor.
 old-location: controls\ImageList_ReplaceIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_replaceicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_ReplaceIcon, ImageList_ReplaceIcon function [Windows Controls], _win32_ImageList_ReplaceIcon, _win32_ImageList_ReplaceIcon_cpp, commctrl/ImageList_ReplaceIcon, controls.ImageList_ReplaceIcon, controls._win32_ImageList_ReplaceIcon
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_ReplaceIcon"
+f1_keywords:
+- commctrl/ImageList_ReplaceIcon
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+- Comctl32.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
- - ImageList_ReplaceIcon
+- ImageList_ReplaceIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.GetTime
 title: WBEMTimeSpan::GetTime (wbemtime.h)
-
 description: The GetTime method returns the time span as a 64-bit integer.
 old-location: wmi\wbemtimespan_gettime.htm
 tech.root: WmiSdk
 ms.assetid: 58ea0741-1927-4cbf-abfb-059e4490accc
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTimeSpan interface, WBEMTimeSpan interface [Windows Management Instrumentation],GetTime method, WBEMTimeSpan.GetTime, WBEMTimeSpan::GetTime, _hmm_wbemtimespan_gettime, wbemtime/WBEMTimeSpan::GetTime, wmi.wbemtimespan_gettime
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.GetTime"
+f1_keywords:
+- wbemtime/WBEMTimeSpan.GetTime
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.GetTime
+- WBEMTimeSpan.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

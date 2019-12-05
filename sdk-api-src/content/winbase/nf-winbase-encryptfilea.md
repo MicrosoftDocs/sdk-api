@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EncryptFileA
 title: EncryptFileA function (winbase.h)
-
 description: Encrypts a file or directory.
 old-location: fs\encryptfile.htm
 tech.root: FileIO
 ms.assetid: 7620e9fa-74d6-4b41-93db-4a562be63202
-
 ms.date: 12/05/2018
 ms.keywords: EncryptFile, EncryptFile function [Files], EncryptFileA, EncryptFileW, _win32_encryptfile, base.encryptfile, fs.encryptfile, winbase/EncryptFile, winbase/EncryptFileA, winbase/EncryptFileW
 ms.topic: function
-f1_keywords: 
- - "winbase/EncryptFile"
+f1_keywords:
+- winbase/EncryptFile
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
- - EncryptFile
- - EncryptFileA
- - EncryptFileW
+- EncryptFile
+- EncryptFileA
+- EncryptFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

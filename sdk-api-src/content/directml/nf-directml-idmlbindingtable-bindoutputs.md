@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLBindingTable.BindOutputs
 title: IDMLBindingTable::BindOutputs
-
 description: Binds a set of resources as output tensors.
 old-location: direct3d12\idmlbindingtable_bindoutputs.htm
 tech.root: direct3d12
 ms.assetid: DBAD9981-03CD-46EA-AD94-6781C6A25626
-
 ms.date: 12/5/2018
 ms.keywords: BindOutputs, BindOutputs method, BindOutputs method,IDMLBindingTable interface, IDMLBindingTable interface,BindOutputs method, IDMLBindingTable.BindOutputs, IDMLBindingTable::BindOutputs, direct3d12.idmlbindingtable_bindoutputs, directml/IDMLBindingTable::BindOutputs
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLBindingTable.BindOutputs"
+f1_keywords:
+- directml/IDMLBindingTable.BindOutputs
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLBindingTable.BindOutputs
+- IDMLBindingTable.BindOutputs
 targetos: Windows
 req.typenames: 
 req.redist: 

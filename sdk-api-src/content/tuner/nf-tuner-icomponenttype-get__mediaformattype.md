@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponentType.get__MediaFormatType
 title: IComponentType::get__MediaFormatType (tuner.h)
-
 description: The get__MediaFormatType method retrieves the DirectShow media format type as a GUID.
 old-location: mstv\icomponenttype_get__mediaformattype.htm
 tech.root: mstv
 ms.assetid: 21dccb42-8430-4fa0-a549-98dd3d1a4d4c
-
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaFormatType method, IComponentType.get__MediaFormatType, IComponentType::get__MediaFormatType, IComponentTypeget__MediaFormatType, get__MediaFormatType, get__MediaFormatType method [Microsoft TV Technologies], get__MediaFormatType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediaformattype, tuner/IComponentType::get__MediaFormatType
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponentType.get__MediaFormatType"
+f1_keywords:
+- tuner/IComponentType.get__MediaFormatType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentType.get__MediaFormatType
+- IComponentType.get__MediaFormatType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.PutFieldNoCopy
 title: IRecordInfo::PutFieldNoCopy (oaidl.h)
-
 description: Passes ownership of the data to the assigned field by placing the actual data into the field.
 old-location: automat\irecordinfo_putfieldnocopy.htm
 tech.root: automat
 ms.assetid: 9e3c4189-46fa-4c21-abbd-35fdd5df058d
-
 ms.date: 12/05/2018
 ms.keywords: IRecordInfo interface [Automation],PutFieldNoCopy method, IRecordInfo.PutFieldNoCopy, IRecordInfo::PutFieldNoCopy, PutFieldNoCopy, PutFieldNoCopy method [Automation], PutFieldNoCopy method [Automation],IRecordInfo interface, _oa96_IRecordInfo_PutFieldNoCopy, automat.irecordinfo_putfieldnocopy, oaidl/IRecordInfo::PutFieldNoCopy
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.PutFieldNoCopy"
+f1_keywords:
+- oaidl/IRecordInfo.PutFieldNoCopy
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.PutFieldNoCopy
+- IRecordInfo.PutFieldNoCopy
 targetos: Windows
 req.typenames: 
 req.redist: 

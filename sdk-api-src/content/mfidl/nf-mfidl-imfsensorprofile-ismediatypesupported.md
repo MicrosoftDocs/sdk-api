@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProfile.IsMediaTypeSupported
 title: IMFSensorProfile::IsMediaTypeSupported (mfidl.h)
-
 description: Determines if a media stream supports the specified media type.
 old-location: mf\imfsensorprofile_ismediatypesupported.htm
 tech.root: medfound
 ms.assetid: 9535AF14-A6DF-49E9-B264-734B96A3DC29
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorProfile interface [Media Foundation],IsMediaTypeSupported method, IMFSensorProfile.IsMediaTypeSupported, IMFSensorProfile::IsMediaTypeSupported, IsMediaTypeSupported, IsMediaTypeSupported method [Media Foundation], IsMediaTypeSupported method [Media Foundation],IMFSensorProfile interface, mf.imfsensorprofile_ismediatypesupported, mfidl/IMFSensorProfile::IsMediaTypeSupported
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProfile.IsMediaTypeSupported"
+f1_keywords:
+- mfidl/IMFSensorProfile.IsMediaTypeSupported
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfsensorgroup.dll
+- Mfsensorgroup.dll
 api_name:
- - IMFSensorProfile.IsMediaTypeSupported
+- IMFSensorProfile.IsMediaTypeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

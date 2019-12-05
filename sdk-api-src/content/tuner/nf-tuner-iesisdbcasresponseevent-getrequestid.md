@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetRequestId
 title: IESIsdbCasResponseEvent::GetRequestId (tuner.h)
-
 description: Gets the request identifier returned in an IsdbCasResponse event. The request identifier identifies the request originated by a PBDA media sink device (MSD).
 old-location: mstv\iesisdbcasresponseevent_getrequestid.htm
 tech.root: mstv
 ms.assetid: b3ab39b4-567f-49a5-b3d2-460ec648ab26
-
 ms.date: 12/05/2018
 ms.keywords: GetRequestId, GetRequestId method [DirectShow], GetRequestId method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetRequestId method, IESIsdbCasResponseEvent.GetRequestId, IESIsdbCasResponseEvent::GetRequestId, mstv.iesisdbcasresponseevent_getrequestid, tuner/IESIsdbCasResponseEvent::GetRequestId
 ms.topic: method
-f1_keywords: 
- - "tuner/IESIsdbCasResponseEvent.GetRequestId"
+f1_keywords:
+- tuner/IESIsdbCasResponseEvent.GetRequestId
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESIsdbCasResponseEvent.GetRequestId
+- IESIsdbCasResponseEvent.GetRequestId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdCreateSurfaceObject
 title: DdCreateSurfaceObject function (ddrawgdi.h)
-
 description: Wrapper for the NtGdiDdCreateSurfaceObject function and creates a kernel-mode surface object. GdiEntry4 is defined as an alias for this function.
 old-location: winprog\_dxgkernel_ddcreatesurfaceobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatesurfaceobject.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdCreateSurfaceObject, DdCreateSurfaceObject function [Windows API], GdiEntry4, _dxgkernel_ddcreatesurfaceobject, ddrawgdi/DdCreateSurfaceObject, ddrawgdi/GdiEntry4, winprog._dxgkernel_ddcreatesurfaceobject, winui._dxgkernel_ddcreatesurfaceobject
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdCreateSurfaceObject"
+f1_keywords:
+- ddrawgdi/DdCreateSurfaceObject
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdCreateSurfaceObject
- - GdiEntry4
+- DdCreateSurfaceObject
+- GdiEntry4
 targetos: Windows
 req.typenames: 
 req.redist: 

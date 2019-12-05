@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaQueryTrustedDomainInfo
 title: LsaQueryTrustedDomainInfo function (ntsecapi.h)
-
 description: The LsaQueryTrustedDomainInfo function retrieves information about a trusted domain.
 old-location: security\lsaquerytrusteddomaininfo.htm
 tech.root: SecMgmt
 ms.assetid: 62925515-a6f3-4b5f-bf97-edb968af19a3
-
 ms.date: 12/05/2018
 ms.keywords: LsaQueryTrustedDomainInfo, LsaQueryTrustedDomainInfo function [Security], TrustedDomainFullInformation, TrustedDomainInformationBasic, TrustedDomainInformationEx, TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsaquerytrusteddomaininfo, ntsecapi/LsaQueryTrustedDomainInfo, security.lsaquerytrusteddomaininfo
 ms.topic: function
 f1_keywords:
 - ntsecapi/LsaQueryTrustedDomainInfo
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

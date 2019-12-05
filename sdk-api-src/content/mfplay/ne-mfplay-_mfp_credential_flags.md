@@ -1,19 +1,17 @@
 ---
 UID: NE:mfplay._MFP_CREDENTIAL_FLAGS
 title: _MFP_CREDENTIAL_FLAGS (mfplay.h)
-
 description: Contains flags for the MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure.
 old-location: mf\_mfp_credential_flags.htm
 tech.root: medfound
 ms.assetid: 5aa13072-239a-41b6-a0b6-a2729bab2db4
-
 ms.date: 12/05/2018
 ms.keywords: MFP_CREDENTIAL_CLEAR_TEXT, MFP_CREDENTIAL_DO_NOT_CACHE, MFP_CREDENTIAL_LOGGED_ON_USER, MFP_CREDENTIAL_PROMPT, MFP_CREDENTIAL_PROXY, MFP_CREDENTIAL_SAVE, _MFP_CREDENTIAL_FLAGS, _MFP_CREDENTIAL_FLAGS enumeration [Media Foundation], mf._mfp_credential_flags, mfplay/MFP_CREDENTIAL_CLEAR_TEXT, mfplay/MFP_CREDENTIAL_DO_NOT_CACHE, mfplay/MFP_CREDENTIAL_LOGGED_ON_USER, mfplay/MFP_CREDENTIAL_PROMPT, mfplay/MFP_CREDENTIAL_PROXY, mfplay/MFP_CREDENTIAL_SAVE, mfplay/_MFP_CREDENTIAL_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "mfplay/_MFP_CREDENTIAL_FLAGS"
+f1_keywords:
+- mfplay/_MFP_CREDENTIAL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - _MFP_CREDENTIAL_FLAGS
+- _MFP_CREDENTIAL_FLAGS
 targetos: Windows
-req.typenames: "_MFP_CREDENTIAL_FLAGS"
+req.typenames: _MFP_CREDENTIAL_FLAGS
 req.redist: 
 ms.custom: 19H1
 ---

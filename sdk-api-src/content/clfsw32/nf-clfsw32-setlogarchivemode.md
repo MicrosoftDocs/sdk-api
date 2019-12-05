@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsw32.SetLogArchiveMode
 title: SetLogArchiveMode function (clfsw32.h)
-
 description: Enables or disables log archive support for a specified log.
 old-location: fs\setlogarchivemode.htm
 tech.root: Clfs
 ms.assetid: 9f8a9ab9-2873-44c2-aa8d-78514ffe42bb
-
 ms.date: 12/05/2018
 ms.keywords: CLFS_LOG_ARCHIVE_MODE, ClfsLogArchiveDisabled, ClfsLogArchiveEnabled, SetLogArchiveMode, SetLogArchiveMode function [Files], clfsw32/SetLogArchiveMode, fs.setlogarchivemode
 ms.topic: function
-f1_keywords: 
- - "clfsw32/SetLogArchiveMode"
+f1_keywords:
+- clfsw32/SetLogArchiveMode
 dev_langs:
- - c++
+- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClfsW32.lib
 req.dll: ClfsW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClfsW32.dll
+- ClfsW32.dll
 api_name:
- - SetLogArchiveMode
+- SetLogArchiveMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.CLRES_V1_FUNCTION_TABLE
 title: CLRES_V1_FUNCTION_TABLE macro (resapi.h)
-
 description: Initializes a function table for version 1.0 of the Resource API.
 old-location: mscs\clres_v1_function_table.htm
 tech.root: MsCS
 ms.assetid: 2c390cbb-3bff-4850-9496-8991c112c233
-
 ms.date: 12/05/2018
 ms.keywords: CLRES_V1_FUNCTION_TABLE, CLRES_V1_FUNCTION_TABLE macro [Failover Cluster], _wolf_clres_v1_function_table, mscs.clres_v1_function_table, resapi/CLRES_V1_FUNCTION_TABLE
 ms.topic: macro
-f1_keywords: 
- - "resapi/CLRES_V1_FUNCTION_TABLE"
+f1_keywords:
+- resapi/CLRES_V1_FUNCTION_TABLE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - CLRES_V1_FUNCTION_TABLE
+- CLRES_V1_FUNCTION_TABLE
 targetos: Windows
 req.typenames: 
 req.redist: 

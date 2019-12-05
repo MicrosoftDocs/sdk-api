@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedFrameworkId
 title: IUIAutomationElement::get_CachedFrameworkId (uiautomationclient.h)
-
 description: Retrieves the cached name of the underlying UI framework associated with the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedFrameworkId.htm
 tech.root: WinAuto
 ms.assetid: da793d93-276b-47ea-a78f-bbdd83f1bc07
-
 ms.date: 12/05/2018
 ms.keywords: CachedFrameworkId property [Windows Accessibility], CachedFrameworkId property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedFrameworkId property, IUIAutomationElement.CachedFrameworkId, IUIAutomationElement.get_CachedFrameworkId, IUIAutomationElement::CachedFrameworkId, IUIAutomationElement::get_CachedFrameworkId, get_CachedFrameworkId, uiauto.uiauto_IUIAutomationElement_CachedFrameworkId, uiauto_IUIAutomationElement_CachedFrameworkId, uiautomationclient/IUIAutomationElement::CachedFrameworkId, uiautomationclient/IUIAutomationElement::get_CachedFrameworkId, winauto.uiauto_IUIAutomationElement_CachedFrameworkId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedFrameworkId"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedFrameworkId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedFrameworkId
- - IUIAutomationElement.get_CachedFrameworkId
+- IUIAutomationElement.CachedFrameworkId
+- IUIAutomationElement.get_CachedFrameworkId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.GetBuffer
 title: IAudioCaptureClient::GetBuffer (audioclient.h)
-
 description: Retrieves a pointer to the next available packet of data in the capture endpoint buffer.
 old-location: coreaudio\iaudiocaptureclient_getbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 4298f584-39ce-4138-994a-0e551370429f
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Core Audio], GetBuffer method [Core Audio],IAudioCaptureClient interface, IAudioCaptureClient interface [Core Audio],GetBuffer method, IAudioCaptureClient.GetBuffer, IAudioCaptureClient::GetBuffer, IAudioCaptureClientGetBuffer, audioclient/IAudioCaptureClient::GetBuffer, coreaudio.iaudiocaptureclient_getbuffer
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioCaptureClient.GetBuffer"
+f1_keywords:
+- audioclient/IAudioCaptureClient.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioCaptureClient.GetBuffer
+- IAudioCaptureClient.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

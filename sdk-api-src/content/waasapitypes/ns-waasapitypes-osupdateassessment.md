@@ -1,19 +1,17 @@
 ---
 UID: NS:waasapitypes.tagOSUpdateAssessment
 title: OSUpdateAssessment (waasapitypes.h)
-
 description: The OSUpdateAssessment structure defines how up-to-date the OS on a targeted device is.
 old-location: base\osupdateassessment.htm
 tech.root: SysInfo
 ms.assetid: D76D0587-E31E-48D2-9DF6-33444E4CA325
-
 ms.date: 12/05/2018
 ms.keywords: OSUpdateAssessment, OSUpdateAssessment structure, base.osupdateassessment, waasapitypes/OSUpdateAssessment
 ms.topic: struct
-f1_keywords: 
- - "waasapitypes/OSUpdateAssessment"
+f1_keywords:
+- waasapitypes/OSUpdateAssessment
 dev_langs:
- - c++
+- c++
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - waasapitypes.h
+- waasapitypes.h
 api_name:
- - OSUpdateAssessment
+- OSUpdateAssessment
 targetos: Windows
 req.typenames: OSUpdateAssessment
 req.redist: 

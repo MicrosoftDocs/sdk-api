@@ -1,19 +1,17 @@
 ---
 UID: NN:oleidl.IDropSourceNotify
 title: IDropSourceNotify (oleidl.h)
-
 description: The IDropSourceNotify interface is implemented on an IDropSource object to receive notifications from OLE when a user drags the mouse into or out of a potential drop target window.
 old-location: com\idropsourcenotify.htm
 tech.root: com
 ms.assetid: 62ef4fe6-3871-41ef-9542-6fe9f3bed21c
-
 ms.date: 12/05/2018
 ms.keywords: IDropSourceNotify, IDropSourceNotify interface [COM], IDropSourceNotify interface [COM],described, _ole_idropsourcenotify, com.idropsourcenotify, oleidl/IDropSourceNotify
 ms.topic: interface
-f1_keywords: 
- - "oleidl/IDropSourceNotify"
+f1_keywords:
+- oleidl/IDropSourceNotify
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IDropSourceNotify
+- IDropSourceNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

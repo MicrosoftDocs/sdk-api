@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminTransportSetInfo
 title: MprAdminTransportSetInfo function (mprapi.h)
-
 description: The MprAdminTransportSetInfo function sets global information, or default client interface information, or both, for a specified transport.
 old-location: rras\mpradmintransportsetinfo.htm
 tech.root: RRAS
 ms.assetid: ac0be570-e484-481b-9b16-ccdd4870deda
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminTransportSetInfo, MprAdminTransportSetInfo function [RAS], _mpr_mpradmintransportsetinfo, mprapi/MprAdminTransportSetInfo, rras.mpradmintransportsetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminTransportSetInfo"
+f1_keywords:
+- mprapi/MprAdminTransportSetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminTransportSetInfo
+- MprAdminTransportSetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

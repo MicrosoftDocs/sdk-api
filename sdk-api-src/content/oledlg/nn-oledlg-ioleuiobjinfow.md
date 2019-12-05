@@ -1,19 +1,17 @@
 ---
 UID: NN:oledlg.IOleUIObjInfoW
 title: IOleUIObjInfoW (oledlg.h)
-
 description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.
 old-location: com\ioleuiobjinfo.htm
 tech.root: com
 ms.assetid: 508dccb3-e98b-4f62-8bc3-98ca2b0d1349
-
 ms.date: 12/05/2018
 ms.keywords: IOleUIObjInfo, IOleUIObjInfo interface [COM], IOleUIObjInfo interface [COM],described, IOleUIObjInfoA, IOleUIObjInfoW, _ole_IOleUIObjInfo, com.ioleuiobjinfo, oledlg/IOleUIObjInfo
 ms.topic: interface
-f1_keywords: 
- - "oledlg/IOleUIObjInfo"
+f1_keywords:
+- oledlg/IOleUIObjInfo
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUIObjInfo
- - IOleUIObjInfoW
- - IOleUIObjInfoA
+- IOleUIObjInfo
+- IOleUIObjInfoW
+- IOleUIObjInfoA
 targetos: Windows
 req.typenames: 
 req.redist: 

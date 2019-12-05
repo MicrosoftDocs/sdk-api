@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateServiceCollection.get__NewEnum
 title: IUpdateServiceCollection::get__NewEnum (wuapi.h)
-
 description: Gets an IEnumVARIANT interface that can be used to enumerate the collection.
 old-location: wua\iupdateservicecollection__newenum.htm
 tech.root: Wua_Sdk
 ms.assetid: 13829d36-f0e2-4871-aad5-159b22cb5ccf
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateServiceCollection interface [Windows Update Agent],_NewEnum property, IUpdateServiceCollection._NewEnum, IUpdateServiceCollection.get__NewEnum, IUpdateServiceCollection::_NewEnum, IUpdateServiceCollection::get__NewEnum, _NewEnum property [Windows Update Agent], _NewEnum property [Windows Update Agent],IUpdateServiceCollection interface, get__NewEnum, wua.iupdateservicecollection__newenum, wuapi/IUpdateServiceCollection::_NewEnum, wuapi/IUpdateServiceCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateServiceCollection._NewEnum"
+f1_keywords:
+- wuapi/IUpdateServiceCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateServiceCollection._NewEnum
- - IUpdateServiceCollection.get__NewEnum
+- IUpdateServiceCollection._NewEnum
+- IUpdateServiceCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

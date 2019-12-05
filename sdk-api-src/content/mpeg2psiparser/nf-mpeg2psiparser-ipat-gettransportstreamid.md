@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetTransportStreamId
 title: IPAT::GetTransportStreamId (mpeg2psiparser.h)
-
 description: The GetTransportStreamId method returns the transport stream identifier (TSID) for the PAT.
 old-location: mstv\ipat_gettransportstreamid.htm
 tech.root: mstv
 ms.assetid: 3a13bb01-47d6-4737-9e66-169def727b5e
-
 ms.date: 12/05/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IPAT interface, IPAT interface [Microsoft TV Technologies],GetTransportStreamId method, IPAT.GetTransportStreamId, IPAT::GetTransportStreamId, IPATGetTransportStreamId, mpeg2psiparser/IPAT::GetTransportStreamId, mstv.ipat_gettransportstreamid
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IPAT.GetTransportStreamId"
+f1_keywords:
+- mpeg2psiparser/IPAT.GetTransportStreamId
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IPAT.GetTransportStreamId
+- IPAT.GetTransportStreamId
 targetos: Windows
 req.typenames: 
 req.redist: 

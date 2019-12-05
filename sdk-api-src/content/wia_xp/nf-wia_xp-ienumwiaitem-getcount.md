@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.GetCount
 title: IEnumWiaItem::GetCount (wia_xp.h)
-
 description: The IEnumWiaItem::GetCount method returns the number of elements stored by this enumerator.
 old-location: wia\_wia_IEnumWiaItem_GetCount.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwiaitem\getcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IEnumWiaItem interface, IEnumWiaItem interface [WIA],GetCount method, IEnumWiaItem.GetCount, IEnumWiaItem::GetCount, _wia_IEnumWiaItem_GetCount, wia._wia_IEnumWiaItem_GetCount, wia_xp/IEnumWiaItem::GetCount
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWiaItem.GetCount"
+f1_keywords:
+- wia_xp/IEnumWiaItem.GetCount
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWiaItem.GetCount
+- IEnumWiaItem.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

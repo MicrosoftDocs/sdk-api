@@ -1,19 +1,17 @@
 ---
 UID: NE:comsvcs.tagCSC_PartitionConfig
 title: CSC_PartitionConfig (comsvcs.h)
-
 description: Indicates the COM+ partition on which the enclosed context runs.
 old-location: cos\csc_partitionconfig.htm
 tech.root: cossdk
 ms.assetid: 584c4744-193d-43d4-a305-8f4ea9802d58
-
 ms.date: 12/05/2018
 ms.keywords: CSC_InheritPartition, CSC_NewPartition, CSC_NoPartition, CSC_PartitionConfig, CSC_PartitionConfig enumeration [COM+], _cos_CSC_PartitionConfig, comsvcs/CSC_InheritPartition, comsvcs/CSC_NewPartition, comsvcs/CSC_NoPartition, comsvcs/CSC_PartitionConfig, cos.csc_partitionconfig
 ms.topic: enum
-f1_keywords: 
- - "comsvcs/CSC_PartitionConfig"
+f1_keywords:
+- comsvcs/CSC_PartitionConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - CSC_PartitionConfig
+- CSC_PartitionConfig
 targetos: Windows
 req.typenames: CSC_PartitionConfig
 req.redist: 

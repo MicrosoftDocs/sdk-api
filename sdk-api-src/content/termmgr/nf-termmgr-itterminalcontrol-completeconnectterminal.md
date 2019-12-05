@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalControl.CompleteConnectTerminal
 title: ITTerminalControl::CompleteConnectTerminal (termmgr.h)
-
 description: The CompleteConnectTerminal method completes the terminal connection.
 old-location: tapi3\itterminalcontrol_completeconnectterminal.htm
 tech.root: Tapi
 ms.assetid: 1f40b0c1-2c5e-4520-9406-6bebb3da65d0
-
 ms.date: 12/05/2018
 ms.keywords: CompleteConnectTerminal, CompleteConnectTerminal method [TAPI 2.2], CompleteConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],CompleteConnectTerminal method, ITTerminalControl.CompleteConnectTerminal, ITTerminalControl::CompleteConnectTerminal, _tapi3_itterminalcontrol_completeconnectterminal, tapi3.itterminalcontrol_completeconnectterminal, termmgr/ITTerminalControl::CompleteConnectTerminal
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalControl.CompleteConnectTerminal"
+f1_keywords:
+- termmgr/ITTerminalControl.CompleteConnectTerminal
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalControl.CompleteConnectTerminal
+- ITTerminalControl.CompleteConnectTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

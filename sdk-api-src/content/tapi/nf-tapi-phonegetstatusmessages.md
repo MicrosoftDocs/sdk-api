@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetStatusMessages
 title: phoneGetStatusMessages function (tapi.h)
-
 description: The phoneGetStatusMessages function returns which phone-state changes on the specified phone device generate a callback to the application.
 old-location: tapi2\phonegetstatusmessages.htm
 tech.root: Tapi
 ms.assetid: 3ee182cf-20e2-4745-9aee-d5de8b44c1b4
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetstatusmessages, phoneGetStatusMessages, phoneGetStatusMessages function [TAPI 2.2], tapi/phoneGetStatusMessages, tapi2.phonegetstatusmessages"
+ms.keywords: _tapi2_phonegetstatusmessages, phoneGetStatusMessages, phoneGetStatusMessages function [TAPI 2.2], tapi/phoneGetStatusMessages, tapi2.phonegetstatusmessages
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetStatusMessages"
+f1_keywords:
+- tapi/phoneGetStatusMessages
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetStatusMessages
+- phoneGetStatusMessages
 targetos: Windows
 req.typenames: 
 req.redist: 

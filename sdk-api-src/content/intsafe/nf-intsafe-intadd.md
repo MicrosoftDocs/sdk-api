@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntAdd
 title: IntAdd function (intsafe.h)
-
 description: Adds two values of type INT.
 old-location: shell\IntAdd.htm
 tech.root: shell
 ms.assetid: 0ae27240-2923-4caf-955a-0b10bd9e2515
-
 ms.date: 12/05/2018
 ms.keywords: IntAdd, IntAdd function [Windows Shell], intsafe/IntAdd, shell.IntAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntAdd"
+f1_keywords:
+- intsafe/IntAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - IntAdd
+- IntAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

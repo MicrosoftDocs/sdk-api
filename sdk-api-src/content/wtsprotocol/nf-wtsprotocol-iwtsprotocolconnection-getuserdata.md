@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetUserData
 title: IWTSProtocolConnection::GetUserData (wtsprotocol.h)
-
 description: IWTSProtocolConnection::GetUserData is no longer available. Instead, use IWRdsProtocolSettings::MergeSettings.
 old-location: termserv\iwtsprotocolconnection_getuserdata.htm
 tech.root: TermServ
 ms.assetid: fa77c537-c78d-4fe3-b597-787efd740cf6
-
 ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [Remote Desktop Services], GetUserData method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetUserData method, IWTSProtocolConnection.GetUserData, IWTSProtocolConnection::GetUserData, termserv.iwtsprotocolconnection_getuserdata, wtsprotocol/IWTSProtocolConnection::GetUserData
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnection.GetUserData
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

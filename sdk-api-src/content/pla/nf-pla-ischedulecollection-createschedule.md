@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IScheduleCollection.CreateSchedule
 title: IScheduleCollection::CreateSchedule (pla.h)
-
 description: Creates a schedule object.
 old-location: pla\ischedulecollection_createschedule.htm
 tech.root: PLA
 ms.assetid: 8fa10cd9-d1ae-47c7-80e2-416165164491
-
 ms.date: 12/05/2018
 ms.keywords: CreateSchedule, CreateSchedule method [PLA], CreateSchedule method [PLA],IScheduleCollection interface, IScheduleCollection interface [PLA],CreateSchedule method, IScheduleCollection.CreateSchedule, IScheduleCollection::CreateSchedule, pla.ischedulecollection_createschedule, pla/IScheduleCollection::CreateSchedule
 ms.topic: method
-f1_keywords: 
- - "pla/IScheduleCollection.CreateSchedule"
+f1_keywords:
+- pla/IScheduleCollection.CreateSchedule
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IScheduleCollection.CreateSchedule
+- IScheduleCollection.CreateSchedule
 targetos: Windows
 req.typenames: 
 req.redist: 

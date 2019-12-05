@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IFolderAction
 title: IFolderAction (pla.h)
-
 description: Specifies the actions that the data manager is to take on each folder under the data collector set's root path if both conditions (age and size) are met. To get this interface, call the IFolderActionCollection::CreateFolderAction method.
 old-location: pla\ifolderaction.htm
 tech.root: PLA
 ms.assetid: a3942d5f-9ec4-4461-84f9-f2fae3971e23
-
 ms.date: 12/05/2018
 ms.keywords: IFolderAction, IFolderAction interface [PLA], IFolderAction interface [PLA],described, base.ifolderaction, pla.ifolderaction, pla/IFolderAction
 ms.topic: interface
-f1_keywords: 
- - "pla/IFolderAction"
+f1_keywords:
+- pla/IFolderAction
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderAction
+- IFolderAction
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TAPE_PREPARE
 title: TAPE_PREPARE (winnt.h)
-
 description: Describes how to prepare the tape.
 old-location: backup\tape_prepare_str.htm
 tech.root: Backup
 ms.assetid: 32169173-eb19-4082-bf05-a52ee4ab95ba
-
 ms.date: 12/05/2018
-ms.keywords: "*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Backup], TAPE_LOCK, TAPE_PREPARE, TAPE_PREPARE structure [Backup], TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _TAPE_PREPARE, _win32_tape_prepare_str, backup.tape_prepare_str, base.tape_prepare_str, winnt/PTAPE_PREPARE, winnt/TAPE_PREPARE"
+ms.keywords: '*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Backup], TAPE_LOCK, TAPE_PREPARE, TAPE_PREPARE structure [Backup], TAPE_TENSION, TAPE_UNLOAD, TAPE_UNLOCK, _TAPE_PREPARE, _win32_tape_prepare_str, backup.tape_prepare_str, base.tape_prepare_str, winnt/PTAPE_PREPARE, winnt/TAPE_PREPARE'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TAPE_PREPARE"
+f1_keywords:
+- winnt/TAPE_PREPARE
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TAPE_PREPARE
+- TAPE_PREPARE
 targetos: Windows
 req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 req.redist: 

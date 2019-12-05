@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolutionItems.GetItem
 title: ISyncMgrConflictResolutionItems::GetItem (syncmgr.h)
-
 description: Gets result information for a specified item, when successful.
 old-location: shell\ISyncMgrConflictResolutionItems_GetItem.htm
 tech.root: shell
 ms.assetid: c98ec4fa-bbca-4213-95c3-b50ccafbbfdb
-
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows Shell], GetItem method [Windows Shell],ISyncMgrConflictResolutionItems interface, ISyncMgrConflictResolutionItems interface [Windows Shell],GetItem method, ISyncMgrConflictResolutionItems.GetItem, ISyncMgrConflictResolutionItems::GetItem, _shell_ISyncMgrConflictResolutionItems_GetItem, shell.ISyncMgrConflictResolutionItems_GetItem, syncmgr/ISyncMgrConflictResolutionItems::GetItem
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolutionItems.GetItem"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolutionItems.GetItem
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolutionItems.GetItem
+- ISyncMgrConflictResolutionItems.GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

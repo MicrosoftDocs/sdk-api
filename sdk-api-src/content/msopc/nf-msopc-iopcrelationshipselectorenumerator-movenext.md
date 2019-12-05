@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorEnumerator.MoveNext
 title: IOpcRelationshipSelectorEnumerator::MoveNext (msopc.h)
-
 description: Moves the current position of the enumerator to the next IOpcRelationshipSelectorinterface pointer.
 old-location: opc\iopcrelationshipselectorenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: a958f62d-3e9a-47d9-8ac2-a92a21a74ed1
-
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSelectorEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcRelationshipSelectorEnumerator.MoveNext, IOpcRelationshipSelectorEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcRelationshipSelectorEnumerator interface, msopc/IOpcRelationshipSelectorEnumerator::MoveNext, opc.iopcrelationshipselectorenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSelectorEnumerator.MoveNext"
+f1_keywords:
+- msopc/IOpcRelationshipSelectorEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSelectorEnumerator.MoveNext
+- IOpcRelationshipSelectorEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

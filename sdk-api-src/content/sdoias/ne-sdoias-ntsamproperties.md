@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._NTSAMPROPERTIES
 title: NTSAMPROPERTIES (sdoias.h)
-
 description: The values of the NTSAMPROPERTIES enumeration type specify properties related to the NT Security Accounts Manager (SAM).
 old-location: nps\SDO_ntsamproperties.htm
 tech.root: Nps
 ms.assetid: 84d3bc60-4756-49b3-a614-94640bc647be
-
 ms.date: 12/05/2018
 ms.keywords: NTSAMPROPERTIES, NTSAMPROPERTIES enumeration [Network Policy Server], PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION, _sdo_ntsamproperties, nps.SDO_ntsamproperties, sdo.ntsamproperties, sdoias/NTSAMPROPERTIES, sdoias/PROPERTY_NTSAM_ALLOW_LM_AUTHENTICATION
 ms.topic: enum
-f1_keywords: 
- - "sdoias/NTSAMPROPERTIES"
+f1_keywords:
+- sdoias/NTSAMPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SdoIas.h
+- SdoIas.h
 api_name:
- - NTSAMPROPERTIES
+- NTSAMPROPERTIES
 targetos: Windows
 req.typenames: NTSAMPROPERTIES
 req.redist: 

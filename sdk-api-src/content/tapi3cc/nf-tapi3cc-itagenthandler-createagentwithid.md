@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3cc.ITAgentHandler.CreateAgentWithID
 title: ITAgentHandler::CreateAgentWithID (tapi3cc.h)
-
 description: The CreateAgentWithID method creates an Agent object based on an agent identifier.
 old-location: tapi3\itagenthandler_createagentwithid.htm
 tech.root: Tapi
 ms.assetid: 95c70e48-b990-47c7-a8b8-5fa3a84ec5ba
-
 ms.date: 12/05/2018
 ms.keywords: CreateAgentWithID, CreateAgentWithID method [TAPI 2.2], CreateAgentWithID method [TAPI 2.2],ITAgentHandler interface, ITAgentHandler interface [TAPI 2.2],CreateAgentWithID method, ITAgentHandler.CreateAgentWithID, ITAgentHandler::CreateAgentWithID, _tapi3_itagenthandler_createagentwithid, tapi3.itagenthandler_createagentwithid, tapi3cc/ITAgentHandler::CreateAgentWithID
 ms.topic: method
-f1_keywords: 
- - "tapi3cc/ITAgentHandler.CreateAgentWithID"
+f1_keywords:
+- tapi3cc/ITAgentHandler.CreateAgentWithID
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentHandler.CreateAgentWithID
+- ITAgentHandler.CreateAgentWithID
 targetos: Windows
 req.typenames: 
 req.redist: 

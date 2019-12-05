@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiExtractPatchXMLDataA
 title: MsiExtractPatchXMLDataA function (msi.h)
-
 description: The MsiExtractPatchXMLData function extracts information from a patch that can be used to determine if the patch applies to a target system.
 old-location: setup\msiextractpatchxmldata.htm
 tech.root: Msi
 ms.assetid: b0044783-552d-4492-bb1d-337227dd3e16
-
 ms.date: 12/05/2018
 ms.keywords: MsiExtractPatchXMLData, MsiExtractPatchXMLData function, MsiExtractPatchXMLDataA, MsiExtractPatchXMLDataW, msi/MsiExtractPatchXMLData, msi/MsiExtractPatchXMLDataA, msi/MsiExtractPatchXMLDataW, setup.msiextractpatchxmldata
 ms.topic: function
-f1_keywords: 
- - "msi/MsiExtractPatchXMLData"
+f1_keywords:
+- msi/MsiExtractPatchXMLData
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiExtractPatchXMLData
- - MsiExtractPatchXMLDataA
- - MsiExtractPatchXMLDataW
+- MsiExtractPatchXMLData
+- MsiExtractPatchXMLDataA
+- MsiExtractPatchXMLDataW
 targetos: Windows
 req.typenames: 
 req.redist: 

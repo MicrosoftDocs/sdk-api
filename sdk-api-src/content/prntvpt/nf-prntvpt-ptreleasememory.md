@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTReleaseMemory
 title: PTReleaseMemory function (prntvpt.h)
-
 description: Releases buffers associated with print tickets and print capabilities.
 old-location: gdi\ptreleasememory.htm
 tech.root: printdocs
 ms.assetid: d568b3a9-7f13-4e4e-8bbc-f4ab0009fe83
-
 ms.date: 12/05/2018
 ms.keywords: PTReleaseMemory, PTReleaseMemory function [Windows GDI], _win32_PTReleaseMemory, gdi.ptreleasememory, prntvpt/PTReleaseMemory
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTReleaseMemory"
+f1_keywords:
+- prntvpt/PTReleaseMemory
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
+- prntvpt.dll
 api_name:
- - PTReleaseMemory
+- PTReleaseMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

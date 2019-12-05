@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.GetNtmsMediaPoolNameW
 title: GetNtmsMediaPoolNameW function (ntmsapi.h)
-
 description: The GetNtmsMediaPoolName function retrieves the specified media pool's full name hierarchy.
 old-location: fs\getntmsmediapoolname.htm
 tech.root: Rsm
 ms.assetid: 72b9028b-d97e-4441-8677-1a4a0b03dee2
-
 ms.date: 12/05/2018
 ms.keywords: GetNtmsMediaPoolName, GetNtmsMediaPoolName function [Files], GetNtmsMediaPoolNameA, GetNtmsMediaPoolNameW, _zaw_getntmsmediapoolname, base.getntmsmediapoolname, fs.getntmsmediapoolname, ntmsapi/GetNtmsMediaPoolName, ntmsapi/GetNtmsMediaPoolNameA, ntmsapi/GetNtmsMediaPoolNameW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/GetNtmsMediaPoolName"
+f1_keywords:
+- ntmsapi/GetNtmsMediaPoolName
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - GetNtmsMediaPoolName
- - GetNtmsMediaPoolNameA
- - GetNtmsMediaPoolNameW
+- GetNtmsMediaPoolName
+- GetNtmsMediaPoolNameA
+- GetNtmsMediaPoolNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

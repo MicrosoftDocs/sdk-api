@@ -1,19 +1,17 @@
 ---
 UID: NE:winuser.ORIENTATION_PREFERENCE
 title: ORIENTATION_PREFERENCE (winuser.h)
-
 description: Indicates the screen orientation preference for a desktop app process.
 old-location: base\orientation_preference.htm
 tech.root: ProcThread
 ms.assetid: 7399DD9F-F993-40CC-B9C6-20673D39C069
-
 ms.date: 12/05/2018
 ms.keywords: ORIENTATION_PREFERENCE, ORIENTATION_PREFERENCE enumeration, ORIENTATION_PREFERENCE_LANDSCAPE, ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED, ORIENTATION_PREFERENCE_NONE, ORIENTATION_PREFERENCE_PORTRAIT, ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED, base.orientation_preference, winuser/ORIENTATION_PREFERENCE, winuser/ORIENTATION_PREFERENCE_LANDSCAPE, winuser/ORIENTATION_PREFERENCE_LANDSCAPE_FLIPPED, winuser/ORIENTATION_PREFERENCE_NONE, winuser/ORIENTATION_PREFERENCE_PORTRAIT, winuser/ORIENTATION_PREFERENCE_PORTRAIT_FLIPPED
 ms.topic: enum
-f1_keywords: 
- - "winuser/ORIENTATION_PREFERENCE"
+f1_keywords:
+- winuser/ORIENTATION_PREFERENCE
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinUser.h
+- WinUser.h
 api_name:
- - ORIENTATION_PREFERENCE
+- ORIENTATION_PREFERENCE
 targetos: Windows
 req.typenames: ORIENTATION_PREFERENCE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VolumeName
 title: IDiscRecorder2::get_VolumeName (imapi2.h)
-
 description: Retrieves the unique volume name associated with the device.
 old-location: imapi\idiscrecorder2_get_volumename.htm
 tech.root: imapi
 ms.assetid: 953f291d-a1b8-4cad-8ddf-59e251de65f2
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_VolumeName method, IDiscRecorder2.get_VolumeName, IDiscRecorder2::get_VolumeName, get_VolumeName, get_VolumeName method [IMAPI], get_VolumeName method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_volumename, imapi2/IDiscRecorder2::get_VolumeName
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.get_VolumeName"
+f1_keywords:
+- imapi2/IDiscRecorder2.get_VolumeName
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.get_VolumeName
+- IDiscRecorder2.get_VolumeName
 targetos: Windows
 req.typenames: 
 req.redist: 

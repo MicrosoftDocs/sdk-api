@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemContext.GetValue
 title: IWbemContext::GetValue (wbemcli.h)
-
 description: The IWbemContext::GetValue method is used to retrieve a specific named context value by name.
 old-location: wmi\iwbemcontext_getvalue.htm
 tech.root: WmiSdk
 ms.assetid: e11fff37-aeb7-41c5-8639-ca0a7a144263
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Management Instrumentation], GetValue method [Windows Management Instrumentation],IWbemContext interface, IWbemContext interface [Windows Management Instrumentation],GetValue method, IWbemContext.GetValue, IWbemContext::GetValue, _hmm_iwbemcontext_getvalue, wbemcli/IWbemContext::GetValue, wmi.iwbemcontext_getvalue
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemContext.GetValue"
+f1_keywords:
+- wbemcli/IWbemContext.GetValue
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipjobj.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipjobj.dll
 api_name:
- - IWbemContext.GetValue
+- IWbemContext.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

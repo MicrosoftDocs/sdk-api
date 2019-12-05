@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.tagWMT_WATERMARK_ENTRY_TYPE
 title: WMT_WATERMARK_ENTRY_TYPE (wmsdkidl.h)
-
 description: The WMT_WATERMARK_ENTRY_TYPE enumeration type identifies the types of watermarking systems. Each watermarking system is a DirectX media object (DMO) that embeds some sort of digital watermark in digital media content.
 old-location: wmformat\wmt_watermark_entry_type.htm
 tech.root: wmformat
 ms.assetid: 213fcf75-bc15-43a0-aafd-f9cd3c51de93
-
 ms.date: 12/05/2018
 ms.keywords: WMT_WATERMARK_ENTRY_TYPE, WMT_WATERMARK_ENTRY_TYPE enumeration [windows Media Format], WMT_WMETYPE_AUDIO, WMT_WMETYPE_VIDEO, wmformat.wmt_watermark_entry_type, wmsdkidl/WMT_WATERMARK_ENTRY_TYPE, wmsdkidl/WMT_WMETYPE_AUDIO, wmsdkidl/WMT_WMETYPE_VIDEO
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_WATERMARK_ENTRY_TYPE"
+f1_keywords:
+- wmsdkidl/WMT_WATERMARK_ENTRY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_WATERMARK_ENTRY_TYPE
+- WMT_WATERMARK_ENTRY_TYPE
 targetos: Windows
 req.typenames: WMT_WATERMARK_ENTRY_TYPE
 req.redist: 

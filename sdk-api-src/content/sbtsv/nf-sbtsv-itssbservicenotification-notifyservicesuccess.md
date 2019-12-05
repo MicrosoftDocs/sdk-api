@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbServiceNotification.NotifyServiceSuccess
 title: ITsSbServiceNotification::NotifyServiceSuccess (sbtsv.h)
-
 description: Notifies registered plug-ins that the Remote Desktop Connection Broker (RD Connection Broker) service has started.
 old-location: termserv\itssbservicenotification_notifyservicesuccess.htm
 tech.root: TermServ
 ms.assetid: 063ed950-f168-491c-85db-14f35741c129
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbServiceNotification interface [Remote Desktop Services],NotifyServiceSuccess method, ITsSbServiceNotification.NotifyServiceSuccess, ITsSbServiceNotification::NotifyServiceSuccess, NotifyServiceSuccess, NotifyServiceSuccess method [Remote Desktop Services], NotifyServiceSuccess method [Remote Desktop Services],ITsSbServiceNotification interface, sbtsv/ITsSbServiceNotification::NotifyServiceSuccess, termserv.itssbservicenotification_notifyservicesuccess
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbServiceNotification.NotifyServiceSuccess"
+f1_keywords:
+- sbtsv/ITsSbServiceNotification.NotifyServiceSuccess
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbServiceNotification.NotifyServiceSuccess
+- ITsSbServiceNotification.NotifyServiceSuccess
 targetos: Windows
 req.typenames: 
 req.redist: 

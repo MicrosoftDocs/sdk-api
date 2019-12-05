@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.RemoveAll
 title: CHStringArray::RemoveAll (chstrarr.h)
-
 description: The RemoveAll method removes all the CHString members from this array.
 old-location: wmi\chstringarray_removeall.htm
 tech.root: WmiSdk
 ms.assetid: be9df3fd-afa5-4f07-99cd-ddccdeaa3fd3
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],RemoveAll method, CHStringArray.RemoveAll, CHStringArray::RemoveAll, RemoveAll, RemoveAll method [Windows Management Instrumentation], RemoveAll method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_removeall, chstrarr/CHStringArray::RemoveAll, wmi.chstringarray_removeall
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.RemoveAll"
+f1_keywords:
+- chstrarr/CHStringArray.RemoveAll
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.RemoveAll
+- CHStringArray.RemoveAll
 targetos: Windows
 req.typenames: 
 req.redist: 

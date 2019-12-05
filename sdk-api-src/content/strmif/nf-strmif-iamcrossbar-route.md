@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMCrossbar.Route
 title: IAMCrossbar::Route (strmif.h)
-
 description: The Route method routes an input pin to an output pin.
 old-location: dshow\iamcrossbar_route.htm
 tech.root: DirectShow
 ms.assetid: a3f6823d-e389-478a-b882-2556a3cbd821
-
 ms.date: 12/05/2018
 ms.keywords: IAMCrossbar interface [DirectShow],Route method, IAMCrossbar.Route, IAMCrossbar::Route, IAMCrossbarRoute, Route, Route method [DirectShow], Route method [DirectShow],IAMCrossbar interface, dshow.iamcrossbar_route, strmif/IAMCrossbar::Route
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCrossbar.Route"
+f1_keywords:
+- strmif/IAMCrossbar.Route
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCrossbar.Route
+- IAMCrossbar.Route
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetIndent
 title: TreeView_SetIndent macro (commctrl.h)
-
 description: Sets the width of indentation for a tree-view control and redraws the control to reflect the new width. You can use this macro or send the TVM_SETINDENT message explicitly.
 old-location: controls\TreeView_SetIndent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setindent.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetIndent, TreeView_SetIndent macro [Windows Controls], _win32_TreeView_SetIndent, _win32_TreeView_SetIndent_cpp, commctrl/TreeView_SetIndent, controls.TreeView_SetIndent, controls._win32_TreeView_SetIndent
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetIndent"
+f1_keywords:
+- commctrl/TreeView_SetIndent
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetIndent
+- TreeView_SetIndent
 targetos: Windows
 req.typenames: 
 req.redist: 

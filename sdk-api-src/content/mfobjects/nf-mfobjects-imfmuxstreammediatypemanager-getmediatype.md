@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetMediaType
 title: IMFMuxStreamMediaTypeManager::GetMediaType (mfobjects.h)
-
 description: Gets the IMFMediaType of the substream with the specified index.
 old-location: mf\imfmuxstreammediatypemanager_getmediatype.htm
 tech.root: medfound
 ms.assetid: F8A65783-7FD8-46C2-87B0-BC540E1F187F
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaType, GetMediaType method [Media Foundation], GetMediaType method [Media Foundation],IMFMuxStreamMediaTypeManager interface, IMFMuxStreamMediaTypeManager interface [Media Foundation],GetMediaType method, IMFMuxStreamMediaTypeManager.GetMediaType, IMFMuxStreamMediaTypeManager::GetMediaType, mf.imfmuxstreammediatypemanager_getmediatype, mfobjects/IMFMuxStreamMediaTypeManager::GetMediaType
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMuxStreamMediaTypeManager.GetMediaType"
+f1_keywords:
+- mfobjects/IMFMuxStreamMediaTypeManager.GetMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFMuxStreamMediaTypeManager.GetMediaType
+- IMFMuxStreamMediaTypeManager.GetMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

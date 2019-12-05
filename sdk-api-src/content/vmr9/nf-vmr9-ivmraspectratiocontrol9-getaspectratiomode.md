@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRAspectRatioControl9.GetAspectRatioMode
 title: IVMRAspectRatioControl9::GetAspectRatioMode (vmr9.h)
-
 description: The GetAspectRatioMode method queries whether the VMR preserves the aspect ratio of the source video.
 old-location: dshow\ivmraspectratiocontrol9_getaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: e53e9015-5186-4807-a5ee-af8598a89a2b
-
 ms.date: 12/05/2018
 ms.keywords: GetAspectRatioMode, GetAspectRatioMode method [DirectShow], GetAspectRatioMode method [DirectShow],IVMRAspectRatioControl9 interface, IVMRAspectRatioControl9 interface [DirectShow],GetAspectRatioMode method, IVMRAspectRatioControl9.GetAspectRatioMode, IVMRAspectRatioControl9::GetAspectRatioMode, IVMRAspectRatioControl9GetAspectRatioMode, dshow.ivmraspectratiocontrol9_getaspectratiomode, vmr9/IVMRAspectRatioControl9::GetAspectRatioMode
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRAspectRatioControl9.GetAspectRatioMode"
+f1_keywords:
+- vmr9/IVMRAspectRatioControl9.GetAspectRatioMode
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRAspectRatioControl9.GetAspectRatioMode
+- IVMRAspectRatioControl9.GetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 

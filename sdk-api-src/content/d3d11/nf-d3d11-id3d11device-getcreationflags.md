@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.GetCreationFlags
 title: ID3D11Device::GetCreationFlags (d3d11.h)
-
 description: Get the flags used during the call to create the device with D3D11CreateDevice.
 old-location: direct3d11\id3d11device_getcreationflags.htm
 tech.root: direct3d11
 ms.assetid: 124e1a50-8fae-4af5-8a9f-a56f000ccbe7
-
 ms.date: 12/05/2018
 ms.keywords: 19c344e0-8664-5c52-5bb8-46d3941967fa, GetCreationFlags, GetCreationFlags method [Direct3D 11], GetCreationFlags method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetCreationFlags method, ID3D11Device.GetCreationFlags, ID3D11Device::GetCreationFlags, d3d11/ID3D11Device::GetCreationFlags, direct3d11.id3d11device_getcreationflags
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.GetCreationFlags"
+f1_keywords:
+- d3d11/ID3D11Device.GetCreationFlags
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.GetCreationFlags
+- ID3D11Device.GetCreationFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

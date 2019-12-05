@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_Subject
 title: IFaxDocument::get_Subject (faxcomex.h)
-
 description: The IFaxDocument::get_Subject property is a null-terminated string that contains the contents of the subject field on the cover page of the fax.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_subject_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2svo.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],Subject property, IFaxDocument.Subject, IFaxDocument.get_Subject, IFaxDocument.put_Subject, IFaxDocument::Subject, IFaxDocument::get_Subject, IFaxDocument::put_Subject, Subject property [Fax Service], Subject property [Fax Service],IFaxDocument interface, _mfax_faxdocument.subject, fax._mfax_faxdocument_cpp_mfax_faxdocument_subject_cpp, fax._mfax_faxdocument_subject, faxcomex/IFaxDocument::Subject, faxcomex/IFaxDocument::get_Subject, faxcomex/IFaxDocument::put_Subject, get_Subject
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.Subject"
+f1_keywords:
+- faxcomex/IFaxDocument.Subject
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.Subject
- - IFaxDocument.get_Subject
- - IFaxDocument.put_Subject
- - IFaxDocument.get_Subject
- - IFaxDocument.put_Subject
+- IFaxDocument.Subject
+- IFaxDocument.get_Subject
+- IFaxDocument.put_Subject
+- IFaxDocument.get_Subject
+- IFaxDocument.put_Subject
 targetos: Windows
 req.typenames: 
 req.redist: 

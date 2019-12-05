@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithProgID.SetProgID
 title: IObjectWithProgID::SetProgID (shobjidl_core.h)
-
 description: Sets the ProgID of an object.
 old-location: shell\IObjectWithProgID_SetProgID.htm
 tech.root: shell
 ms.assetid: 4889f9a5-da80-4909-b4b5-4ea69ea99c3e
-
 ms.date: 12/05/2018
 ms.keywords: IObjectWithProgID interface [Windows Shell],SetProgID method, IObjectWithProgID.SetProgID, IObjectWithProgID::SetProgID, SetProgID, SetProgID method [Windows Shell], SetProgID method [Windows Shell],IObjectWithProgID interface, _shell_IObjectWithProgID_SetProgID, shell.IObjectWithProgID_SetProgID, shobjidl_core/IObjectWithProgID::SetProgID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithProgID.SetProgID"
+f1_keywords:
+- shobjidl_core/IObjectWithProgID.SetProgID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithProgID.SetProgID
+- IObjectWithProgID.SetProgID
 targetos: Windows
 req.typenames: 
 req.redist: 

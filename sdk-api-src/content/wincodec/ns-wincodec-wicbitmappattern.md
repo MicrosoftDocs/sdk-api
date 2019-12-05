@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICBitmapPattern
 title: WICBitmapPattern (wincodec.h)
-
 description: Contains members that identify a pattern within an image file which can be used to identify a particular format.
 old-location: wic\_wic_codec_wicbitmappattern.htm
 tech.root: wic
 ms.assetid: 6f0cd639-c0db-46e4-b3a3-bc21222d97ee
-
 ms.date: 12/05/2018
 ms.keywords: WICBitmapPattern, WICBitmapPattern structure [Windows Imaging Component], _wic_codec_wicbitmappattern, wic._wic_codec_wicbitmappattern, wincodec/WICBitmapPattern
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICBitmapPattern"
+f1_keywords:
+- wincodec/WICBitmapPattern
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapPattern
+- WICBitmapPattern
 targetos: Windows
 req.typenames: WICBitmapPattern
 req.redist: 

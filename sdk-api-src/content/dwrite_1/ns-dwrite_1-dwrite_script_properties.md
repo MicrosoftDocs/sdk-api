@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_1.DWRITE_SCRIPT_PROPERTIES
 title: DWRITE_SCRIPT_PROPERTIES (dwrite_1.h)
-
 description: The DWRITE_SCRIPT_PROPERTIES structure specifies script properties for caret navigation and justification.
 old-location: directwrite\dwrite_script_properties.htm
 tech.root: DirectWrite
 ms.assetid: 5210C04E-618B-4FE9-A6FC-6F0FF17A64D5
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_SCRIPT_PROPERTIES, DWRITE_SCRIPT_PROPERTIES structure [Direct Write], directwrite.dwrite_script_properties, dwrite_1/DWRITE_SCRIPT_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "dwrite_1/DWRITE_SCRIPT_PROPERTIES"
+f1_keywords:
+- dwrite_1/DWRITE_SCRIPT_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_SCRIPT_PROPERTIES
+- DWRITE_SCRIPT_PROPERTIES
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.TextInserting
 title: ITextInputPanelEventSink::TextInserting (peninputpanel.h)
-
 description: Occurs when the Tablet PC Input Panel is about to insert text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
 old-location: tablet\itextinputpaneleventsink_textinserting.htm
 tech.root: tablet
 ms.assetid: 8e2ca5e2-a407-44cd-b489-c118401ca21b
-
 ms.date: 12/05/2018
 ms.keywords: 8e2ca5e2-a407-44cd-b489-c118401ca21b, ITextInputPanelEventSink interface [Tablet PC],TextInserting method, ITextInputPanelEventSink.TextInserting, ITextInputPanelEventSink::TextInserting, TextInserting, TextInserting method [Tablet PC], TextInserting method [Tablet PC],ITextInputPanelEventSink interface, peninputpanel/ITextInputPanelEventSink::TextInserting, tablet.itextinputpaneleventsink_textinserting
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanelEventSink.TextInserting"
+f1_keywords:
+- peninputpanel/ITextInputPanelEventSink.TextInserting
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanelEventSink.TextInserting
+- ITextInputPanelEventSink.TextInserting
 targetos: Windows
 req.typenames: 
 req.redist: 

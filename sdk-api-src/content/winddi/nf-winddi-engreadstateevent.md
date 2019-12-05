@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngReadStateEvent
 title: EngReadStateEvent function (winddi.h)
-
 description: The EngReadStateEvent function returns the current state of the specified event object:\_signaled or nonsignaled.
 old-location: display\engreadstateevent.htm
 tech.root: display
 ms.assetid: 32dddcc0-4cf2-467f-b1a6-03c9892d3473
-
 ms.date: 12/05/2018
 ms.keywords: EngReadStateEvent, EngReadStateEvent function [Display Devices], display.engreadstateevent, gdifncs_921fb236-706b-405c-affd-25811f97c7de.xml, winddi/EngReadStateEvent
 ms.topic: function
-f1_keywords: 
- - "winddi/EngReadStateEvent"
+f1_keywords:
+- winddi/EngReadStateEvent
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngReadStateEvent
+- EngReadStateEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -3,14 +3,13 @@ UID: NF:gdipluspath.PathGradientBrush.SetCenterPoint(IN const PointF &)
 title: PathGradientBrush::SetCenterPoint
 description: The PathGradientBrush::SetCenterPoint method sets the center point of this path gradient brush.
 ms.assetid: 3123b926-ce18-4d71-a1e9-24dd9ecbd50e
-
 ms.date: 05/13/2019
 ms.keywords: PathGradientBrush::SetCenterPoint
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/PathGradientBrush::SetCenterPoint"
+f1_keywords:
+- gdipluspath/PathGradientBrush::SetCenterPoint
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - PathGradientBrush::SetCenterPoint
+- PathGradientBrush::SetCenterPoint
 ---
 
 # PathGradientBrush::SetCenterPoint

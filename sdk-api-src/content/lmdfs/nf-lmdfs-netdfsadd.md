@@ -1,19 +1,17 @@
 ---
 UID: NF:lmdfs.NetDfsAdd
 title: NetDfsAdd function (lmdfs.h)
-
 description: Creates a new Distributed File System (DFS) link or adds targets to an existing link in a DFS namespace.
 old-location: dfs\netdfsadd.htm
 tech.root: Dfs
 ms.assetid: 2c8816b2-5489-486e-b749-605932ba9fe9
-
 ms.date: 12/05/2018
 ms.keywords: DFS_ADD_VOLUME, DFS_RESTORE_VOLUME, NetDfsAdd, NetDfsAdd function [Distributed File System], _win32_netdfsadd, dfs.netdfsadd, fs.netdfsadd, lmdfs/NetDfsAdd, netmgmt.netdfsadd
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsAdd"
+f1_keywords:
+- lmdfs/NetDfsAdd
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NetApi32.lib
 req.dll: NetApi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NetApi32.dll
+- NetApi32.dll
 api_name:
- - NetDfsAdd
+- NetDfsAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

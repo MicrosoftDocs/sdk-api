@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetEnumTypeList
 title: IPropertyDescription::GetEnumTypeList (propsys.h)
-
 description: Gets an instance of an IPropertyEnumTypeList, which can be used to enumerate the possible values for a property.
 old-location: properties\IPropertyDescription_GetEnumTypeList.htm
 tech.root: properties
 ms.assetid: ab6c41c2-d85c-4ff9-9061-043303eb1a83
-
 ms.date: 12/05/2018
 ms.keywords: GetEnumTypeList, GetEnumTypeList method [Windows Properties], GetEnumTypeList method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetEnumTypeList method, IPropertyDescription.GetEnumTypeList, IPropertyDescription::GetEnumTypeList, properties.IPropertyDescription_GetEnumTypeList, propsys/IPropertyDescription::GetEnumTypeList, shell.IPropertyDescription_GetEnumTypeList, shell_IPropertyDescription_GetEnumTypeList
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetEnumTypeList"
+f1_keywords:
+- propsys/IPropertyDescription.GetEnumTypeList
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetEnumTypeList
+- IPropertyDescription.GetEnumTypeList
 targetos: Windows
 req.typenames: 
 req.redist: 

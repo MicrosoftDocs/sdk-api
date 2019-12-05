@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.FindProfile
 title: IMFSensorProfileCollection::FindProfile (mfidl.h)
-
 description: Finds a profile based on the specified profile ID.
 old-location: mf\imfsensorprofilecollection_findprofile.htm
 tech.root: medfound
 ms.assetid: 3EC77F69-717F-404F-9C8C-F420F360CB83
-
 ms.date: 12/05/2018
 ms.keywords: FindProfile, FindProfile method [Media Foundation], FindProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],FindProfile method, IMFSensorProfileCollection.FindProfile, IMFSensorProfileCollection::FindProfile, mf.imfsensorprofilecollection_findprofile, mfidl/IMFSensorProfileCollection::FindProfile
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProfileCollection.FindProfile"
+f1_keywords:
+- mfidl/IMFSensorProfileCollection.FindProfile
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfsensorgroup.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfsensorgroup.lib
- - Mfsensorgroup.dll
+- Mfsensorgroup.lib
+- Mfsensorgroup.dll
 api_name:
- - IMFSensorProfileCollection.FindProfile
+- IMFSensorProfileCollection.FindProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

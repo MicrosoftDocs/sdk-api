@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.OpenApplication
 title: IAzAuthorizationStore::OpenApplication (azroles.h)
-
 description: Opens the IAzApplication object with the specified name.
 old-location: security\azauthorizationstore_openapplication.htm
 tech.root: SecAuthZ
 ms.assetid: 63215a9a-b739-4ba9-a760-a9968be9e017
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],OpenApplication method, IAzAuthorizationStore interface [Security],OpenApplication method, IAzAuthorizationStore.OpenApplication, IAzAuthorizationStore::OpenApplication, OpenApplication, OpenApplication method [Security], OpenApplication method [Security],AzAuthorizationStore object, OpenApplication method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::OpenApplication, security.azauthorizationstore_openapplication
 ms.topic: method
-f1_keywords: 
- - "azroles/AzAuthorizationStore.OpenApplication"
+f1_keywords:
+- azroles/AzAuthorizationStore.OpenApplication
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - AzAuthorizationStore.OpenApplication
- - IAzAuthorizationStore.OpenApplication
+- AzAuthorizationStore.OpenApplication
+- IAzAuthorizationStore.OpenApplication
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

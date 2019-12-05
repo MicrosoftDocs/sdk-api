@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Reset
 title: IEnumWIA_DEV_CAPS::Reset (wia_xp.h)
-
 description: The IEnumWIA_DEV_CAPS::Reset method is used by applications to restart the enumeration of device capabilities.
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Reset.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\reset.htm
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWIA_DEV_CAPS interface [WIA],Reset method, IEnumWIA_DEV_CAPS.Reset, IEnumWIA_DEV_CAPS::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_DEV_CAPS interface, _wia_IEnumWIA_DEV_CAPS_Reset, wia._wia_IEnumWIA_DEV_CAPS_Reset, wia_xp/IEnumWIA_DEV_CAPS::Reset
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IEnumWIA_DEV_CAPS.Reset"
+f1_keywords:
+- wia_xp/IEnumWIA_DEV_CAPS.Reset
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wiaguid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaguid.lib
- - Wiaguid.dll
+- Wiaguid.lib
+- Wiaguid.dll
 api_name:
- - IEnumWIA_DEV_CAPS.Reset
+- IEnumWIA_DEV_CAPS.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

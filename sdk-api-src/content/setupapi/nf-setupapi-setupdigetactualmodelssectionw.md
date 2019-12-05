@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetActualModelsSectionW
 title: SetupDiGetActualModelsSectionW function (setupapi.h)
-
 description: The SetupDiGetActualModelsSection function retrieves the appropriate decorated INF Models section to use when installing a device from a device INF file.
 old-location: devinst\setupdigetactualmodelssection.htm
 tech.root: devinst
 ms.assetid: 8338989a-ef99-479c-8163-ad8d65eba32b
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualModelsSection, SetupDiGetActualModelsSection function [Device and Driver Installation], SetupDiGetActualModelsSectionA, SetupDiGetActualModelsSectionW, devinst.setupdigetactualmodelssection, di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml, setupapi/SetupDiGetActualModelsSection
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetActualModelsSection"
+f1_keywords:
+- setupapi/SetupDiGetActualModelsSection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetActualModelsSection
- - SetupDiGetActualModelsSectionW
+- SetupDiGetActualModelsSection
+- SetupDiGetActualModelsSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

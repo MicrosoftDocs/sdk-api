@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.IsInvertible
 title: Matrix::IsInvertible (gdiplusmatrix.h)
-
 description: The Matrix::IsInvertible method determines whether this matrix is invertible.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_IsInvertible_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\isinvertible.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsInvertible, IsInvertible method [GDI+], IsInvertible method [GDI+],Matrix class, Matrix class [GDI+],IsInvertible method, Matrix.IsInvertible, Matrix::IsInvertible, _gdiplus_CLASS_Matrix_IsInvertible_, gdiplus._gdiplus_CLASS_Matrix_IsInvertible_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.IsInvertible"
+f1_keywords:
+- gdiplusmatrix/Matrix.IsInvertible
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.IsInvertible
+- Matrix.IsInvertible
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMAddRightWithUser
 title: DRMAddRightWithUser function (msdrm.h)
-
 description: Assigns a right to a user in an issuance license.
 old-location: rm\drmaddrightwithuser.htm
 tech.root: AdRms_Sdk
 ms.assetid: 10b76b20-cee7-44f3-b9bd-2b690fdd040c
-
 ms.date: 12/05/2018
 ms.keywords: DRMAddRightWithUser, DRMAddRightWithUser function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAddRightWithUser, rm.drmaddrightwithuser
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMAddRightWithUser"
+f1_keywords:
+- msdrm/DRMAddRightWithUser
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMAddRightWithUser
+- DRMAddRightWithUser
 targetos: Windows
 req.typenames: 
 req.redist: 

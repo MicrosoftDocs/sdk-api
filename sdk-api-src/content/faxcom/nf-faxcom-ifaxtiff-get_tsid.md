@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_Tsid
 title: IFaxTiff::get_Tsid (faxcom.h)
-
 description: Retrieves the Tsid property for a FaxTiff object. The Tsid property is a null-terminated string that contains transmitting station identifier (TSID) information, which is typically the fax number of the device that sent the specified fax file.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7tes.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],Tsid property, IFaxTiff.Tsid, IFaxTiff.get_Tsid, IFaxTiff::Tsid, IFaxTiff::get_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_tsid, fax._mfax_ifaxtiff_get_tsid, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_tsid_cpp, faxcom/IFaxTiff::Tsid, faxcom/IFaxTiff::get_Tsid, get_Tsid
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxTiff.Tsid"
+f1_keywords:
+- faxcom/IFaxTiff.Tsid
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxTiff.Tsid
- - IFaxTiff.get_Tsid
+- IFaxTiff.Tsid
+- IFaxTiff.get_Tsid
 targetos: Windows
 req.typenames: 
 req.redist: 

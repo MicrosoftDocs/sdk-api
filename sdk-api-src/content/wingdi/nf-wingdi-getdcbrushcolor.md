@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetDCBrushColor
 title: GetDCBrushColor function (wingdi.h)
-
 description: The GetDCBrushColor function retrieves the current brush color for the specified device context (DC).
 old-location: gdi\getdcbrushcolor.htm
 tech.root: gdi
 ms.assetid: 98844fb1-7ad8-4fbd-be59-9a19065253da
-
 ms.date: 12/05/2018
 ms.keywords: GetDCBrushColor, GetDCBrushColor function [Windows GDI], _win32_GetDCBrushColor, gdi.getdcbrushcolor, wingdi/GetDCBrushColor
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetDCBrushColor"
+f1_keywords:
+- wingdi/GetDCBrushColor
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- Gdi32.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetDCBrushColor
+- GetDCBrushColor
 targetos: Windows
 req.typenames: 
 req.redist: 

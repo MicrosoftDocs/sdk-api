@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._VMRVIDEOSTREAMINFO
 title: VMRVIDEOSTREAMINFO (strmif.h)
-
 description: This topic applies to Windows XP or later. The VMRVIDEOSTREAMINFO structure is used in the VMR-7 filter's call to IVMRImageCompositor::CompositeImage on the image compositor.
 old-location: dshow\vmrvideostreaminfo.htm
 tech.root: DirectShow
 ms.assetid: 1425b3aa-f419-49ee-b262-d8d215466a2c
-
 ms.date: 12/05/2018
 ms.keywords: VMRVIDEOSTREAMINFO, VMRVIDEOSTREAMINFO structure [DirectShow], VMRVIDEOSTREAMINFOStructure, dshow.vmrvideostreaminfo, strmif/VMRVIDEOSTREAMINFO
 ms.topic: struct
-f1_keywords: 
- - "strmif/VMRVIDEOSTREAMINFO"
+f1_keywords:
+- strmif/VMRVIDEOSTREAMINFO
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRVIDEOSTREAMINFO
+- VMRVIDEOSTREAMINFO
 targetos: Windows
 req.typenames: VMRVIDEOSTREAMINFO
 req.redist: 

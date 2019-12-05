@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamClose
 title: NCryptStreamClose function (ncryptprotect.h)
-
 description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\ncryptstreamclose.htm
 tech.root: SecCNG
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
-
 ms.date: 12/05/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptStreamClose"
+f1_keywords:
+- ncryptprotect/NCryptStreamClose
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptStreamClose
+- NCryptStreamClose
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGetItemCount
 title: PeerGetItemCount function (p2p.h)
-
 description: The PeerGetItemCount function returns a count of the items in a peer enumeration.
 old-location: p2p\peergetitemcount.htm
 tech.root: P2PSdk
 ms.assetid: 8f6fec31-8867-4d65-b5b0-e6506be9c991
-
 ms.date: 12/05/2018
 ms.keywords: PeerGetItemCount, PeerGetItemCount function [Peer Networking], p2p.peergetitemcount, p2p/PeerGetItemCount
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGetItemCount"
+f1_keywords:
+- p2p/PeerGetItemCount
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGetItemCount
+- PeerGetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

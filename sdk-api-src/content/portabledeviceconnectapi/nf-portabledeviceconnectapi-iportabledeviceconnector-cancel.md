@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceconnectapi.IPortableDeviceConnector.Cancel
 title: IPortableDeviceConnector::Cancel (portabledeviceconnectapi.h)
-
 description: Cancels a pending request to connect or disconnect an MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector_cancel.htm
 tech.root: wpd_sdk
 ms.assetid: 4cc3ecd1-f2b0-4e8e-8654-6445782153f3
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Cancel method, IPortableDeviceConnector.Cancel, IPortableDeviceConnector::Cancel, devpkey/IPortableDeviceConnector::Cancel, portabledeviceconnectapi/IPortableDeviceConnector::Cancel, wpdsdk.iportabledeviceconnector_cancel
 ms.topic: method
-f1_keywords: 
- - "portabledeviceconnectapi/IPortableDeviceConnector.Cancel"
+f1_keywords:
+- portabledeviceconnectapi/IPortableDeviceConnector.Cancel
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGuids.lib
- - PortableDeviceGuids.dll
+- PortableDeviceGuids.lib
+- PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector.Cancel
+- IPortableDeviceConnector.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

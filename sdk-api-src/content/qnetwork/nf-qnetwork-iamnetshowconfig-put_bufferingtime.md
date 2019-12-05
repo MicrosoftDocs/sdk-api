@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.put_BufferingTime
 title: IAMNetShowConfig::put_BufferingTime (qnetwork.h)
-
 description: The put_BufferingTime method specifies the buffering time.
 old-location: dshow\iamnetshowconfig_put_bufferingtime.htm
 tech.root: DirectShow
 ms.assetid: 60dea6f3-b45f-44a1-ba21-eb71206b2fb5
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],put_BufferingTime method, IAMNetShowConfig.put_BufferingTime, IAMNetShowConfig::put_BufferingTime, IAMNetShowConfigput_BufferingTime, dshow.iamnetshowconfig_put_bufferingtime, put_BufferingTime, put_BufferingTime method [DirectShow], put_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::put_BufferingTime
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.put_BufferingTime"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.put_BufferingTime
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.put_BufferingTime
+- IAMNetShowConfig.put_BufferingTime
 targetos: Windows
 req.typenames: 
 req.redist: 

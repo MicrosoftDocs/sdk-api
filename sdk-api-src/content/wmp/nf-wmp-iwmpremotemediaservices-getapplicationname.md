@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetApplicationName
 title: IWMPRemoteMediaServices::GetApplicationName (wmp.h)
-
 description: The GetApplicationName method is called by Windows Media Player to retrieve the name of the program that is hosting the remoted control.
 old-location: wmp\iwmpremotemediaservices_getapplicationname.htm
 tech.root: WMP
 ms.assetid: b3a210f9-90ea-4a6e-8aab-9e8cd7e21ab6
-
 ms.date: 12/05/2018
 ms.keywords: GetApplicationName, GetApplicationName method [Windows Media Player], GetApplicationName method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetApplicationName method, IWMPRemoteMediaServices.GetApplicationName, IWMPRemoteMediaServices::GetApplicationName, IWMPRemoteMediaServicesGetApplicationName, wmp.iwmpremotemediaservices_getapplicationname, wmp/IWMPRemoteMediaServices::GetApplicationName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPRemoteMediaServices.GetApplicationName"
+f1_keywords:
+- wmp/IWMPRemoteMediaServices.GetApplicationName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPRemoteMediaServices.GetApplicationName
+- IWMPRemoteMediaServices.GetApplicationName
 targetos: Windows
 req.typenames: 
 req.redist: 

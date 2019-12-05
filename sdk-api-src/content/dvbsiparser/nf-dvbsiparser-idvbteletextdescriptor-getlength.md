@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetLength
 title: IDvbTeletextDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: e785d05a-d4f1-40d8-b93e-ea944373f4c3
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbTeletextDescriptor.GetLength, IDvbTeletextDescriptor::GetLength, dvbsiparser/IDvbTeletextDescriptor::GetLength, mstv.idvbteletextdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTeletextDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbTeletextDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTeletextDescriptor.GetLength
+- IDvbTeletextDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

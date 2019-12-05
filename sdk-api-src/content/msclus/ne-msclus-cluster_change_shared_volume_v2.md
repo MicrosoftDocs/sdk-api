@@ -1,19 +1,17 @@
 ---
 UID: NE:msclus.CLUSTER_CHANGE_SHARED_VOLUME_V2
 title: CLUSTER_CHANGE_SHARED_VOLUME_V2 (msclus.h)
-
 description: Defines the notifications that are generated for a cluster shared volume.
 old-location: mscs\cluster_change_shared_volume_v2.htm
 tech.root: MsCS
 ms.assetid: 2934115D-B52B-4289-9BCD-E66A4F363AE8
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_V2, mscs.cluster_change_shared_volume_v2
 ms.topic: enum
-f1_keywords: 
- - "msclus/CLUSTER_CHANGE_SHARED_VOLUME_V2"
+f1_keywords:
+- msclus/CLUSTER_CHANGE_SHARED_VOLUME_V2
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUSTER_CHANGE_SHARED_VOLUME_V2
+- CLUSTER_CHANGE_SHARED_VOLUME_V2
 targetos: Windows
 req.typenames: CLUSTER_CHANGE_SHARED_VOLUME_V2
 req.redist: 

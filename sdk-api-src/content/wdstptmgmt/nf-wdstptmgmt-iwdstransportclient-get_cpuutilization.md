@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_CpuUtilization
 title: IWdsTransportClient::get_CpuUtilization (wdstptmgmt.h)
-
 description: Receives the percentage of the WDS client’s CPU utilization.
 old-location: wds\iwdstransportclient_cpuutilization.htm
 tech.root: wds
 ms.assetid: 515845b9-6f5e-436f-a2f1-4963909d4071
-
 ms.date: 12/05/2018
 ms.keywords: CpuUtilization property [Windows Deployment Services], CpuUtilization property [Windows Deployment Services],IWdsTransportClient interface, IWdsTransportClient interface [Windows Deployment Services],CpuUtilization property, IWdsTransportClient.CpuUtilization, IWdsTransportClient.get_CpuUtilization, IWdsTransportClient::CpuUtilization, IWdsTransportClient::get_CpuUtilization, get_CpuUtilization, wds.iwdstransportclient_cpuutilization, wdstptmgmt/IWdsTransportClient::CpuUtilization, wdstptmgmt/IWdsTransportClient::get_CpuUtilization
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportClient.CpuUtilization"
+f1_keywords:
+- wdstptmgmt/IWdsTransportClient.CpuUtilization
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient.CpuUtilization
- - IWdsTransportClient.get_CpuUtilization
+- IWdsTransportClient.CpuUtilization
+- IWdsTransportClient.get_CpuUtilization
 targetos: Windows
 req.typenames: 
 req.redist: 

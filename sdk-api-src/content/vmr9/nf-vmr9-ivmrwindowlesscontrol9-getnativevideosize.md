@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetNativeVideoSize
 title: IVMRWindowlessControl9::GetNativeVideoSize (vmr9.h)
-
 description: The GetNativeVideoSize method retrieves the un-stretched video size and aspect ratio of the video.
 old-location: dshow\ivmrwindowlesscontrol9_getnativevideosize.htm
 tech.root: DirectShow
 ms.assetid: 4e70c94e-7c20-4a4e-b276-feb7a9f9784c
-
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [DirectShow], GetNativeVideoSize method [DirectShow],IVMRWindowlessControl9 interface, IVMRWindowlessControl9 interface [DirectShow],GetNativeVideoSize method, IVMRWindowlessControl9.GetNativeVideoSize, IVMRWindowlessControl9::GetNativeVideoSize, IVMRWindowlessControl9GetNativeVideoSize, dshow.ivmrwindowlesscontrol9_getnativevideosize, vmr9/IVMRWindowlessControl9::GetNativeVideoSize
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRWindowlessControl9.GetNativeVideoSize"
+f1_keywords:
+- vmr9/IVMRWindowlessControl9.GetNativeVideoSize
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl9.GetNativeVideoSize
+- IVMRWindowlessControl9.GetNativeVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.GetRestorePosition
 title: IVideoWindow::GetRestorePosition (control.h)
-
 description: The GetRestorePosition method retrieves the restored window position.
 old-location: dshow\ivideowindow_getrestoreposition.htm
 tech.root: DirectShow
 ms.assetid: e2c8880a-e140-4bb1-8f0d-2d665c98728c
-
 ms.date: 12/05/2018
 ms.keywords: GetRestorePosition, GetRestorePosition method [DirectShow], GetRestorePosition method [DirectShow],IVideoWindow interface, IVideoWindow interface [DirectShow],GetRestorePosition method, IVideoWindow.GetRestorePosition, IVideoWindow::GetRestorePosition, IVideoWindowGetRestorePosition, control/IVideoWindow::GetRestorePosition, dshow.ivideowindow_getrestoreposition
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.GetRestorePosition"
+f1_keywords:
+- control/IVideoWindow.GetRestorePosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.GetRestorePosition
+- IVideoWindow.GetRestorePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

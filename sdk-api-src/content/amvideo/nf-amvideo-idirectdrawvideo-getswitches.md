@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetSwitches
 title: IDirectDrawVideo::GetSwitches (amvideo.h)
-
 description: The GetSwitches method retrieves the surface types that the renderer is allowed to use.
 old-location: dshow\idirectdrawvideo_getswitches.htm
 tech.root: DirectShow
 ms.assetid: 0a9e3c46-6d2d-474e-ab72-f67b5ed450f2
-
 ms.date: 12/05/2018
 ms.keywords: GetSwitches, GetSwitches method [DirectShow], GetSwitches method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetSwitches method, IDirectDrawVideo.GetSwitches, IDirectDrawVideo::GetSwitches, IDirectDrawVideoGetSwitches, amvideo/IDirectDrawVideo::GetSwitches, dshow.idirectdrawvideo_getswitches
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.GetSwitches"
+f1_keywords:
+- amvideo/IDirectDrawVideo.GetSwitches
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetSwitches
+- IDirectDrawVideo.GetSwitches
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.Clone
 title: IOpcCertificateEnumerator::Clone (msopc.h)
-
 description: Creates a copy of the current IOpcCertificateEnumerator interface pointer and all its descendants.
 old-location: opc\iopccertificateenumerator_clone.htm
 tech.root: OPC
 ms.assetid: 4cf4bed8-4a6f-48f4-b72f-a13efc127b2a
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Open Packaging Conventions], Clone method [Open Packaging Conventions],IOpcCertificateEnumerator interface, IOpcCertificateEnumerator interface [Open Packaging Conventions],Clone method, IOpcCertificateEnumerator.Clone, IOpcCertificateEnumerator::Clone, msopc/IOpcCertificateEnumerator::Clone, opc.iopccertificateenumerator_clone
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcCertificateEnumerator.Clone"
+f1_keywords:
+- msopc/IOpcCertificateEnumerator.Clone
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcCertificateEnumerator.Clone
+- IOpcCertificateEnumerator.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

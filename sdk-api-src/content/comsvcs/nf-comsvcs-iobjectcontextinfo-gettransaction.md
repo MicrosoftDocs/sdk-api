@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetTransaction
 title: IObjectContextInfo::GetTransaction (comsvcs.h)
-
 description: Retrieves a reference to the current transaction.
 old-location: cos\iobjectcontextinfo_gettransaction.htm
 tech.root: cossdk
 ms.assetid: e3a19d49-740a-436c-be6b-c98b5a14dc93
-
 ms.date: 12/05/2018
 ms.keywords: GetTransaction, GetTransaction method [COM+], GetTransaction method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetTransaction method, IObjectContextInfo.GetTransaction, IObjectContextInfo::GetTransaction, _cos_IObjectContextInfo_GetTransaction, comsvcs/IObjectContextInfo::GetTransaction, cos.iobjectcontextinfo_gettransaction
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContextInfo.GetTransaction"
+f1_keywords:
+- comsvcs/IObjectContextInfo.GetTransaction
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextInfo.GetTransaction
+- IObjectContextInfo.GetTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

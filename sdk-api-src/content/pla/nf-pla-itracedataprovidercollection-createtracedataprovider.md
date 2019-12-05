@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.CreateTraceDataProvider
 title: ITraceDataProviderCollection::CreateTraceDataProvider (pla.h)
-
 description: Creates a trace data provider object.
 old-location: pla\itracedataprovidercollection_createtracedataprovider.htm
 tech.root: PLA
 ms.assetid: 234de4d8-896f-462d-8785-8b768697bf2e
-
 ms.date: 12/05/2018
 ms.keywords: CreateTraceDataProvider, CreateTraceDataProvider method [PLA], CreateTraceDataProvider method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],CreateTraceDataProvider method, ITraceDataProviderCollection.CreateTraceDataProvider, ITraceDataProviderCollection::CreateTraceDataProvider, pla.itracedataprovidercollection_createtracedataprovider, pla/ITraceDataProviderCollection::CreateTraceDataProvider
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProviderCollection.CreateTraceDataProvider"
+f1_keywords:
+- pla/ITraceDataProviderCollection.CreateTraceDataProvider
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProviderCollection.CreateTraceDataProvider
+- ITraceDataProviderCollection.CreateTraceDataProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

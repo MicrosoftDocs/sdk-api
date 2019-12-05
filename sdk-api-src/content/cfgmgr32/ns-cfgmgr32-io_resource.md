@@ -1,19 +1,17 @@
 ---
 UID: NS:cfgmgr32.IO_Resource_s
 title: IO_RESOURCE (cfgmgr32.h)
-
 description: The IO_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes I/O port usage for a device instance.
 old-location: devinst\io_resource.htm
 tech.root: devinst
 ms.assetid: d18a1f92-b76c-4240-9a0e-7474c258436c
-
 ms.date: 12/05/2018
-ms.keywords: "*PIO_RESOURCE, IO_RESOURCE, IO_RESOURCE structure [Device and Driver Installation], PIO_RESOURCE, PIO_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/IO_RESOURCE, cfgmgr32/PIO_RESOURCE, cfgmgrst_4016b1e2-26af-4ccb-b2d9-823e0c4bf66c.xml, devinst.io_resource"
+ms.keywords: '*PIO_RESOURCE, IO_RESOURCE, IO_RESOURCE structure [Device and Driver Installation], PIO_RESOURCE, PIO_RESOURCE structure pointer [Device and Driver Installation], cfgmgr32/IO_RESOURCE, cfgmgr32/PIO_RESOURCE, cfgmgrst_4016b1e2-26af-4ccb-b2d9-823e0c4bf66c.xml, devinst.io_resource'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/IO_RESOURCE"
+f1_keywords:
+- cfgmgr32/IO_RESOURCE
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cfgmgr32.h
+- cfgmgr32.h
 api_name:
- - IO_RESOURCE
+- IO_RESOURCE
 targetos: Windows
 req.typenames: IO_RESOURCE, *PIO_RESOURCE
 req.redist: 

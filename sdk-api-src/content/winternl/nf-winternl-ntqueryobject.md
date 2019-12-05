@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.NtQueryObject
 title: NtQueryObject function (winternl.h)
-
 description: Retrieves various kinds of object information.
 old-location: winprog\ntqueryobject.htm
 tech.root: DevNotes
 ms.assetid: 08c801b5-a315-413e-adc5-576e6a740465
-
 ms.date: 12/05/2018
 ms.keywords: NtQueryObject, NtQueryObject function [Windows API], winprog.ntqueryobject, winternl/NtQueryObject
 ms.topic: function
-f1_keywords: 
- - "winternl/NtQueryObject"
+f1_keywords:
+- winternl/NtQueryObject
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - NtQueryObject
+- NtQueryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

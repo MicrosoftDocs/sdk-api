@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorsByCategory
 title: ISensorManager::GetSensorsByCategory (sensorsapi.h)
-
 description: Retrieves a collection containing all sensors associated with the specified category.
 old-location: winsensors_com_ref\isensormanager_getsensorsbycategory.htm
 tech.root: SensorsAPI
 ms.assetid: 370e93ac-0854-4fe8-88d9-d23b80689c41
-
 ms.date: 12/05/2018
 ms.keywords: GetSensorsByCategory, GetSensorsByCategory method, GetSensorsByCategory method,ISensorManager interface, ISensorManager interface,GetSensorsByCategory method, ISensorManager.GetSensorsByCategory, ISensorManager::GetSensorsByCategory, sensorsapi/ISensorManager::GetSensorsByCategory, winsensors_com_ref.isensormanager_getsensorsbycategory
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorManager.GetSensorsByCategory"
+f1_keywords:
+- sensorsapi/ISensorManager.GetSensorsByCategory
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorManager.GetSensorsByCategory
+- ISensorManager.GetSensorsByCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

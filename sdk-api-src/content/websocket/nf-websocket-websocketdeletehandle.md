@@ -1,19 +1,17 @@
 ---
 UID: NF:websocket.WebSocketDeleteHandle
 title: WebSocketDeleteHandle function (websocket.h)
-
 description: Deletes a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.
 old-location: websock\websocketdeletehandle.htm
 tech.root: WebSock
 ms.assetid: 0ee21ee8-1375-4b42-8d04-64368e299b3e
-
 ms.date: 12/05/2018
 ms.keywords: WebSocketDeleteHandle, WebSocketDeleteHandle function [Websocket Protocol Component API], websock.websocketdeletehandle, websocket/WebSocketDeleteHandle
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketDeleteHandle"
+f1_keywords:
+- websocket/WebSocketDeleteHandle
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - websocket.dll
+- websocket.dll
 api_name:
- - WebSocketDeleteHandle
+- WebSocketDeleteHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

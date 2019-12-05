@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetSelRange
 title: MonthCal_GetSelRange macro (commctrl.h)
-
 description: Retrieves date information that represents the upper and lower limits of the date range currently selected by the user. You can use this macro or send the MCM_GETSELRANGE message explicitly.
 old-location: controls\MonthCal_GetSelRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getselrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetSelRange, MonthCal_GetSelRange macro [Windows Controls], _win32_MonthCal_GetSelRange, _win32_MonthCal_GetSelRange_cpp, commctrl/MonthCal_GetSelRange, controls.MonthCal_GetSelRange, controls._win32_MonthCal_GetSelRange
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetSelRange"
+f1_keywords:
+- commctrl/MonthCal_GetSelRange
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetSelRange
+- MonthCal_GetSelRange
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.RemoveBandwidthSharing
 title: IWMProfile3::RemoveBandwidthSharing (wmsdkidl.h)
-
 description: The RemoveBandwidthSharing method removes a bandwidth sharing object from the profile.
 old-location: wmformat\iwmprofile3_removebandwidthsharing.htm
 tech.root: wmformat
 ms.assetid: 3c0a90aa-154a-49c9-ab8e-0d1c4ce02641
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile3 interface [windows Media Format],RemoveBandwidthSharing method, IWMProfile3.RemoveBandwidthSharing, IWMProfile3::RemoveBandwidthSharing, IWMProfile3RemoveBandwidthSharing, RemoveBandwidthSharing, RemoveBandwidthSharing method [windows Media Format], RemoveBandwidthSharing method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile3_removebandwidthsharing, wmsdkidl/IWMProfile3::RemoveBandwidthSharing
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile3.RemoveBandwidthSharing"
+f1_keywords:
+- wmsdkidl/IWMProfile3.RemoveBandwidthSharing
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMProfile3.RemoveBandwidthSharing
+- IWMProfile3.RemoveBandwidthSharing
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackLibrary
 title: SetThreadpoolCallbackLibrary function (winbase.h)
-
 description: Ensures that the specified DLL remains loaded as long as there are outstanding callbacks.
 old-location: base\setthreadpoolcallbacklibrary.htm
 tech.root: ProcThread
 ms.assetid: 41d5d8c5-4938-4274-bcfa-b122bbc70530
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadpoolCallbackLibrary, SetThreadpoolCallbackLibrary function, base.setthreadpoolcallbacklibrary, winbase/SetThreadpoolCallbackLibrary
 ms.topic: function
-f1_keywords: 
- - "winbase/SetThreadpoolCallbackLibrary"
+f1_keywords:
+- winbase/SetThreadpoolCallbackLibrary
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - SetThreadpoolCallbackLibrary
+- SetThreadpoolCallbackLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

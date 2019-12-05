@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateGeometryGroup
 title: ID2D1Factory::CreateGeometryGroup (d2d1.h)
-
 description: Creates an ID2D1GeometryGroup, which is an object that holds other geometries.
 old-location: direct2d\ID2D1Factory_CreateGeometryGroup.htm
 tech.root: Direct2D
 ms.assetid: e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0
-
 ms.date: 12/05/2018
 ms.keywords: CreateGeometryGroup, CreateGeometryGroup method [Direct2D], CreateGeometryGroup method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateGeometryGroup method, ID2D1Factory.CreateGeometryGroup, ID2D1Factory::CreateGeometryGroup, d2d1/ID2D1Factory::CreateGeometryGroup, direct2d.ID2D1Factory_CreateGeometryGroup
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Factory.CreateGeometryGroup"
+f1_keywords:
+- d2d1/ID2D1Factory.CreateGeometryGroup
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory.CreateGeometryGroup
+- ID2D1Factory.CreateGeometryGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

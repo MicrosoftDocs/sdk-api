@@ -1,19 +1,17 @@
 ---
 UID: NS:winwlx._WLX_PROFILE_V1_0
 title: WLX_PROFILE_V1_0 (winwlx.h)
-
 description: Contains information used for setting up the initial environment.
 old-location: security\wlx_profile_v1_0.htm
 tech.root: SecAuthN
 ms.assetid: 3b75cf38-e1d7-48dd-8319-d4daf508a3e9
-
 ms.date: 12/05/2018
 ms.keywords: '*PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0 structure pointer [Security], WLX_PROFILE_V1_0, WLX_PROFILE_V1_0 structure [Security], _gina_wlx_profile_v1_0, security.wlx_profile_v1_0, winwlx/PWLX_PROFILE_V1_0, winwlx/WLX_PROFILE_V1_0'
 ms.topic: struct
 f1_keywords:
 - winwlx/WLX_PROFILE_V1_0
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows

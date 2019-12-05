@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_SYNC_ROOT_INFO_CLASS
 title: CF_SYNC_ROOT_INFO_CLASS (cfapi.h)
-
 description: Types of sync root information.
 old-location: cloudapi\cf_sync_root_info_class.htm
 tech.root: cfApi
 ms.assetid: 4415E075-048E-4B9F-B293-5F7A63CAE3A4
-
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_INFO_BASIC, CF_SYNC_ROOT_INFO_CLASS, CF_SYNC_ROOT_INFO_CLASS enumeration, CF_SYNC_ROOT_INFO_PROVIDER, CF_SYNC_ROOT_INFO_STANDARD, cfapi/CF_SYNC_ROOT_INFO_BASIC, cfapi/CF_SYNC_ROOT_INFO_CLASS, cfapi/CF_SYNC_ROOT_INFO_PROVIDER, cfapi/CF_SYNC_ROOT_INFO_STANDARD, cloudApi.cf_sync_root_info_class
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_SYNC_ROOT_INFO_CLASS"
+f1_keywords:
+- cfapi/CF_SYNC_ROOT_INFO_CLASS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_SYNC_ROOT_INFO_CLASS
+- CF_SYNC_ROOT_INFO_CLASS
 targetos: Windows
 req.typenames: CF_SYNC_ROOT_INFO_CLASS
 req.redist: 

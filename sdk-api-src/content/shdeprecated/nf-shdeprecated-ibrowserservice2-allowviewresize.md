@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.AllowViewResize
 title: IBrowserService2::AllowViewResize (shdeprecated.h)
-
 description: Deprecated. Informs the base class whether to allow view resizing.
 old-location: shell\IBrowserService2_AllowViewResize.htm
 tech.root: shell
 ms.assetid: 005d1c7a-00cc-4083-bde6-d3fa947de28e
-
 ms.date: 12/05/2018
 ms.keywords: AllowViewResize, AllowViewResize method [Windows Shell], AllowViewResize method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],AllowViewResize method, IBrowserService2.AllowViewResize, IBrowserService2::AllowViewResize, shdeprecated/IBrowserService2::AllowViewResize, shell.IBrowserService2_AllowViewResize, zone_IBrowserService2_AllowViewResize
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.AllowViewResize"
+f1_keywords:
+- shdeprecated/IBrowserService2.AllowViewResize
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.AllowViewResize
+- IBrowserService2.AllowViewResize
 targetos: Windows
 req.typenames: 
 req.redist: 

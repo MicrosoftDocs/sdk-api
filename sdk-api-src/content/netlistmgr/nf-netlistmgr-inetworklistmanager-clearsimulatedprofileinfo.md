@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.ClearSimulatedProfileInfo
 title: INetworkListManager::ClearSimulatedProfileInfo (netlistmgr.h)
-
 description: Clears the connection profile values previously applied to the internet connection profile by SetSimulatedProfileInfo. The next internet connection query, via GetInternetConnectionProfile, will use system information.
 old-location: nla\inetworklistmanager_clearsimulatedprofileinfo.htm
 tech.root: nla
 ms.assetid: DD89717F-4BFD-4283-A9F4-A74BB6E8E8D6
-
 ms.date: 12/05/2018
 ms.keywords: ClearSimulatedProfileInfo, ClearSimulatedProfileInfo method [Network Awareness], ClearSimulatedProfileInfo method [Network Awareness],INetworkListManager interface, INetworkListManager interface [Network Awareness],ClearSimulatedProfileInfo method, INetworkListManager.ClearSimulatedProfileInfo, INetworkListManager::ClearSimulatedProfileInfo, netlistmgr/INetworkListManager::ClearSimulatedProfileInfo, nla.inetworklistmanager_clearsimulatedprofileinfo
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkListManager.ClearSimulatedProfileInfo"
+f1_keywords:
+- netlistmgr/INetworkListManager.ClearSimulatedProfileInfo
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkListManager.ClearSimulatedProfileInfo
+- INetworkListManager.ClearSimulatedProfileInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

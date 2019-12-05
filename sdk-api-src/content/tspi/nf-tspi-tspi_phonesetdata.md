@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneSetData
 title: TSPI_phoneSetData function (tspi.h)
-
 description: The TSPI_phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.
 old-location: tspi\tspi_phonesetdata.htm
 tech.root: Tapi
 ms.assetid: c4861878-639b-45a5-aff8-3f1fd1a2e153
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneSetData, TSPI_phoneSetData function [TAPI 2.2], _tspi_tspi_phonesetdata, tspi.tspi_phonesetdata, tspi/TSPI_phoneSetData
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneSetData"
+f1_keywords:
+- tspi/TSPI_phoneSetData
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneSetData
+- TSPI_phoneSetData
 targetos: Windows
 req.typenames: 
 req.redist: 

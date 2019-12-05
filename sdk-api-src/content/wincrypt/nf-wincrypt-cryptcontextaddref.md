@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptContextAddRef
 title: CryptContextAddRef function (wincrypt.h)
-
 description: Adds one to the reference count of an HCRYPTPROV cryptographic service provider (CSP) handle.
 old-location: security\cryptcontextaddref.htm
 tech.root: SecCrypto
 ms.assetid: 074666a7-369c-43bc-97d9-3bcc9703976b
-
 ms.date: 12/05/2018
 ms.keywords: CryptContextAddRef, CryptContextAddRef function [Security], _crypto2_cryptcontextaddref, security.cryptcontextaddref, wincrypt/CryptContextAddRef
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptContextAddRef"
+f1_keywords:
+- wincrypt/CryptContextAddRef
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptContextAddRef
+- CryptContextAddRef
 targetos: Windows
 req.typenames: 
 req.redist: 

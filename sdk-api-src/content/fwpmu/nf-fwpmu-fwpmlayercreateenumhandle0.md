@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmLayerCreateEnumHandle0
 title: FwpmLayerCreateEnumHandle0 function (fwpmu.h)
-
 description: Creates a handle used to enumerate a set of layer objects.
 old-location: fwp\fwpmlayercreateenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 94738168-9f02-420a-96cd-b7c3f6418c6f
-
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerCreateEnumHandle0, FwpmLayerCreateEnumHandle0 function [Filtering], fwp.fwpmlayercreateenumhandle0_func, fwpmu/FwpmLayerCreateEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmLayerCreateEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmLayerCreateEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmLayerCreateEnumHandle0
+- FwpmLayerCreateEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

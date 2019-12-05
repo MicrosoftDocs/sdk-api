@@ -1,19 +1,17 @@
 ---
 UID: NF:faxdev.FaxDevVirtualDeviceCreation
 title: FaxDevVirtualDeviceCreation function (faxdev.h)
-
 description: The fax service calls the FaxDevVirtualDeviceCreation function during initialization to allow the fax service provider (FSP) to present virtual fax devices.
 old-location: fax\_mfax_faxdevvirtualdevicecreation.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_48by.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxDevVirtualDeviceCreation, FaxDevVirtualDeviceCreation function [Fax Service], _mfax_faxdevvirtualdevicecreation, fax._mfax_faxdevvirtualdevicecreation, faxdev/FaxDevVirtualDeviceCreation
 ms.topic: function
-f1_keywords: 
- - "faxdev/FaxDevVirtualDeviceCreation"
+f1_keywords:
+- faxdev/FaxDevVirtualDeviceCreation
 dev_langs:
- - c++
+- c++
 req.header: faxdev.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - FaxDev.h
+- FaxDev.h
 api_name:
- - FaxDevVirtualDeviceCreation
+- FaxDevVirtualDeviceCreation
 targetos: Windows
 req.typenames: 
 req.redist: 

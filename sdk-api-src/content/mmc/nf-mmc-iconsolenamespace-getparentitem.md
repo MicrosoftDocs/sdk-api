@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetParentItem
 title: IConsoleNameSpace::GetParentItem (mmc.h)
-
 description: The IConsoleNameSpace2::GetParentItem method enables the snap-in to retrieve the handle to a parent item in the scope view.
 old-location: mmc\iconsolenamespace2_getparentitem.htm
 tech.root: mmc
 ms.assetid: c4534440-9fbe-41f1-bdf3-767c931a241b
-
 ms.date: 12/05/2018
 ms.keywords: GetParentItem, GetParentItem method [MMC], GetParentItem method [MMC],IConsoleNameSpace interface, GetParentItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetParentItem method, IConsoleNameSpace.GetParentItem, IConsoleNameSpace2 interface [MMC],GetParentItem method, IConsoleNameSpace2::GetParentItem, IConsoleNameSpace::GetParentItem, _slate_iconsolenamespace2_getparentitem, mmc.iconsolenamespace2_getparentitem, mmc/IConsoleNameSpace2::GetParentItem, mmc/IConsoleNameSpace::GetParentItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace.GetParentItem"
+f1_keywords:
+- mmc/IConsoleNameSpace.GetParentItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.GetParentItem
- - IConsoleNameSpace2.GetParentItem
+- IConsoleNameSpace.GetParentItem
+- IConsoleNameSpace2.GetParentItem
 targetos: Windows
 req.typenames: 
 req.redist: 

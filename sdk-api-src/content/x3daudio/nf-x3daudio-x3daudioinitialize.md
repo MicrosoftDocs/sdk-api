@@ -1,19 +1,17 @@
 ---
 UID: NF:x3daudio.X3DAudioInitialize
 title: X3DAudioInitialize function (x3daudio.h)
-
 description: Sets all global 3D audio constants.
 old-location: xaudio2\x3daudioinitialize.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioInitialize(UINT32,FLOAT32,X3DAUDIO_HANDLE@)
-
 ms.date: 12/05/2018
 ms.keywords: X3DAudioInitialize, X3DAudioInitialize function [XAudio2 Audio Mixing APIs], x3daudio/X3DAudioInitialize, xaudio2.x3daudioinitialize
 ms.topic: function
-f1_keywords: 
- - "x3daudio/X3DAudioInitialize"
+f1_keywords:
+- x3daudio/X3DAudioInitialize
 dev_langs:
- - c++
+- c++
 req.header: x3daudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAudio2.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - XAudio2.lib
- - XAudio2.dll
+- XAudio2.lib
+- XAudio2.dll
 api_name:
- - X3DAudioInitialize
+- X3DAudioInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

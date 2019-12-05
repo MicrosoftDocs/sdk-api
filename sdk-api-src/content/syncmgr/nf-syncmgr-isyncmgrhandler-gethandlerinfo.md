@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetHandlerInfo
 title: ISyncMgrHandler::GetHandlerInfo (syncmgr.h)
-
 description: Gets properties that describe the handler.
 old-location: shell\ISyncMgrHandler_GetHandlerInfo.htm
 tech.root: shell
 ms.assetid: 078f7cee-fb75-4b8b-8c90-720c26d1f361
-
 ms.date: 12/05/2018
 ms.keywords: GetHandlerInfo, GetHandlerInfo method [Windows Shell], GetHandlerInfo method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetHandlerInfo method, ISyncMgrHandler.GetHandlerInfo, ISyncMgrHandler::GetHandlerInfo, _shell_ISyncMgrHandler_GetHandlerInfo, shell.ISyncMgrHandler_GetHandlerInfo, syncmgr/ISyncMgrHandler::GetHandlerInfo
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandler.GetHandlerInfo"
+f1_keywords:
+- syncmgr/ISyncMgrHandler.GetHandlerInfo
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandler.GetHandlerInfo
+- ISyncMgrHandler.GetHandlerInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

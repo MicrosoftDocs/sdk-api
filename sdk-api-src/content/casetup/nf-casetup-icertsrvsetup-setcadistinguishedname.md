@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetCADistinguishedName
 title: ICertSrvSetup::SetCADistinguishedName (casetup.h)
-
 description: Sets a certification authority (CA) common name and an optional distinguished name suffix.
 old-location: security\icertsrvsetup_setcadistinguishedname.htm
 tech.root: SecCrypto
 ms.assetid: d513d4fd-abc7-44e6-822e-955de8613d55
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],SetCADistinguishedName method, ICertSrvSetup.SetCADistinguishedName, ICertSrvSetup::SetCADistinguishedName, SetCADistinguishedName, SetCADistinguishedName method [Security], SetCADistinguishedName method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::SetCADistinguishedName, security.icertsrvsetup_setcadistinguishedname
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.SetCADistinguishedName"
+f1_keywords:
+- casetup/ICertSrvSetup.SetCADistinguishedName
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.SetCADistinguishedName
+- ICertSrvSetup.SetCADistinguishedName
 targetos: Windows
 req.typenames: 
 req.redist: 

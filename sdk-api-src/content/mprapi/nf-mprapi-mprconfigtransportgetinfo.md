@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigTransportGetInfo
 title: MprConfigTransportGetInfo function (mprapi.h)
-
 description: The MprConfigTransportGetInfo function retrieves the configuration for the specified transport protocol from the router.
 old-location: rras\mprconfigtransportgetinfo.htm
 tech.root: RRAS
 ms.assetid: 84054313-f923-47d6-8019-c68a042d2d73
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigTransportGetInfo, MprConfigTransportGetInfo function [RAS], _mpr_mprconfigtransportgetinfo, mprapi/MprConfigTransportGetInfo, rras.mprconfigtransportgetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigTransportGetInfo"
+f1_keywords:
+- mprapi/MprConfigTransportGetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigTransportGetInfo
+- MprConfigTransportGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

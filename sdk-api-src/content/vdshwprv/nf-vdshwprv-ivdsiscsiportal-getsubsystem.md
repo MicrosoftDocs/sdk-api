@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetSubSystem
 title: IVdsIscsiPortal::GetSubSystem (vdshwprv.h)
-
 description: Returns the subsystem to which the portal belongs.
 old-location: base\ivdsiscsiportal_getsubsystem.htm
 tech.root: VDS
 ms.assetid: 9e222cdc-6399-4e28-b59b-ba912e32eb9d
-
 ms.date: 12/05/2018
 ms.keywords: GetSubSystem, GetSubSystem method [VDS], GetSubSystem method [VDS],IVdsIscsiPortal interface, IVdsIscsiPortal interface [VDS],GetSubSystem method, IVdsIscsiPortal.GetSubSystem, IVdsIscsiPortal::GetSubSystem, base.ivdsiscsiportal_getsubsystem, vds/IVdsIscsiPortal::GetSubSystem, vdshwprv/IVdsIscsiPortal::GetSubSystem
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiPortal.GetSubSystem"
+f1_keywords:
+- vdshwprv/IVdsIscsiPortal.GetSubSystem
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortal.GetSubSystem
+- IVdsIscsiPortal.GetSubSystem
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

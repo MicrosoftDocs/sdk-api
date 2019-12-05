@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetColorSpace
 title: GetColorSpace function (wingdi.h)
-
 description: The GetColorSpace function retrieves the handle to the input color space from a specified device context.
 old-location: wcs\getcolorspace.htm
 tech.root: WCS
 ms.assetid: 6d092755-2c7a-46a7-9127-df72c26c3ae9
-
 ms.date: 12/05/2018
 ms.keywords: GetColorSpace, GetColorSpace function [Windows Color System], _color_GetColorSpace, wcs.getcolorspace, wingdi/GetColorSpace
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetColorSpace"
+f1_keywords:
+- wingdi/GetColorSpace
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetColorSpace
+- GetColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetFileChangeTime
 title: EngGetFileChangeTime function (winddi.h)
-
 description: The EngGetFileChangeTime function retrieves a file's last write time.
 old-location: display\enggetfilechangetime.htm
 tech.root: display
 ms.assetid: fd3330e4-af51-4f4c-bc4f-1b08502009bd
-
 ms.date: 12/05/2018
 ms.keywords: EngGetFileChangeTime, EngGetFileChangeTime function [Display Devices], display.enggetfilechangetime, gdifncs_627ace85-186b-4fe7-bd50-f8f0fb7da105.xml, winddi/EngGetFileChangeTime
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetFileChangeTime"
+f1_keywords:
+- winddi/EngGetFileChangeTime
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGetFileChangeTime
+- EngGetFileChangeTime
 targetos: Windows
 req.typenames: 
 req.redist: 

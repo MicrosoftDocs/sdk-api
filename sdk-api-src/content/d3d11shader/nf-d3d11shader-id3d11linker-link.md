@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11Linker.Link
 title: ID3D11Linker::Link (d3d11shader.h)
-
 description: Links the shader and produces a shader blob that the Direct3D runtime can use.
 old-location: direct3d11\id3d11linker_link.htm
 tech.root: direct3d11
 ms.assetid: FCEAE5C2-38E4-4B8F-BA98-F46B187FC586
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Linker interface [Direct3D 11],Link method, ID3D11Linker.Link, ID3D11Linker::Link, Link, Link method [Direct3D 11], Link method [Direct3D 11],ID3D11Linker interface, d3d11shader/ID3D11Linker::Link, direct3d11.id3d11linker_link
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11Linker.Link"
+f1_keywords:
+- d3d11shader/ID3D11Linker.Link
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11Linker.Link
+- ID3D11Linker.Link
 targetos: Windows
 req.typenames: 
 req.redist: 

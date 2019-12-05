@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGPEInformation.PolicyChanged
 title: IGPEInformation::PolicyChanged (gpedit.h)
-
 description: The PolicyChanged method informs the Group Policy Object Editor that policy settings have changed.
 old-location: policy\igpeinformation_policychanged.htm
 tech.root: Policy
 ms.assetid: 4c36fbcb-2adb-4c32-87d3-efcd55dbaf3e
-
 ms.date: 12/05/2018
 ms.keywords: IGPEInformation interface [Group Policy],PolicyChanged method, IGPEInformation.PolicyChanged, IGPEInformation::PolicyChanged, PolicyChanged, PolicyChanged method [Group Policy], PolicyChanged method [Group Policy],IGPEInformation interface, _win32_igpeinformation_policychanged, gpedit/IGPEInformation::PolicyChanged, policy.igpeinformation_policychanged
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGPEInformation.PolicyChanged"
+f1_keywords:
+- gpedit/IGPEInformation.PolicyChanged
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGPEInformation.PolicyChanged
+- IGPEInformation.PolicyChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

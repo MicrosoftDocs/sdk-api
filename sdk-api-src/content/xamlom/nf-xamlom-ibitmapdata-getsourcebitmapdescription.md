@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IBitmapData.GetSourceBitmapDescription
 title: IBitmapData::GetSourceBitmapDescription (xamlom.h)
-
 description: Gets a BitmapDescription that describes the original format of the bitmap data stored in the IBitmapData.
 old-location: xaml_diagnostics\ibitmapdata_getsourcebitmapdescription.htm
 tech.root: xaml_diagnostics
 ms.assetid: 3B11A54C-347D-4F14-A5F8-36250FC5E06B
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceBitmapDescription, GetSourceBitmapDescription method, GetSourceBitmapDescription method,IBitmapData interface, IBitmapData interface,GetSourceBitmapDescription method, IBitmapData.GetSourceBitmapDescription, IBitmapData::GetSourceBitmapDescription, xaml_diagnostics.ibitmapdata_getsourcebitmapdescription, xamlom/IBitmapData::GetSourceBitmapDescription
 ms.topic: method
-f1_keywords: 
- - "xamlom/IBitmapData.GetSourceBitmapDescription"
+f1_keywords:
+- xamlom/IBitmapData.GetSourceBitmapDescription
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IBitmapData.GetSourceBitmapDescription
+- IBitmapData.GetSourceBitmapDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

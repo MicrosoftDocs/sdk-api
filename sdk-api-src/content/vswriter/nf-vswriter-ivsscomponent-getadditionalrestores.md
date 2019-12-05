@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAdditionalRestores
 title: IVssComponent::GetAdditionalRestores (vswriter.h)
-
 description: The GetAdditionalRestores method is used by a writer during incremental or differential restore operations to determine whether a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivsscomponent_getadditionalrestores.htm
 tech.root: VSS
 ms.assetid: f398a88a-6572-4d0b-a241-37cc0e9e99a0
-
 ms.date: 12/05/2018
 ms.keywords: GetAdditionalRestores, GetAdditionalRestores method [VSS], GetAdditionalRestores method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAdditionalRestores method, IVssComponent.GetAdditionalRestores, IVssComponent::GetAdditionalRestores, _win32_ivsscomponent_getadditionalrestores, base.ivsscomponent_getadditionalrestores, vswriter/IVssComponent::GetAdditionalRestores
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetAdditionalRestores"
+f1_keywords:
+- vswriter/IVssComponent.GetAdditionalRestores
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetAdditionalRestores
+- IVssComponent.GetAdditionalRestores
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAriaProperties
 title: IUIAutomationElement::get_CachedAriaProperties (uiautomationclient.h)
-
 description: Retrieves the cached Accessible Rich Internet Applications (ARIA) properties of the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAriaProperties.htm
 tech.root: WinAuto
 ms.assetid: 0156348c-4c3a-4351-9bcc-16e8f4107916
-
 ms.date: 12/05/2018
 ms.keywords: CachedAriaProperties property [Windows Accessibility], CachedAriaProperties property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAriaProperties property, IUIAutomationElement.CachedAriaProperties, IUIAutomationElement.get_CachedAriaProperties, IUIAutomationElement::CachedAriaProperties, IUIAutomationElement::get_CachedAriaProperties, get_CachedAriaProperties, uiauto.uiauto_IUIAutomationElement_CachedAriaProperties, uiauto_IUIAutomationElement_CachedAriaProperties, uiautomationclient/IUIAutomationElement::CachedAriaProperties, uiautomationclient/IUIAutomationElement::get_CachedAriaProperties, winauto.uiauto_IUIAutomationElement_CachedAriaProperties
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedAriaProperties"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedAriaProperties
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedAriaProperties
- - IUIAutomationElement.get_CachedAriaProperties
+- IUIAutomationElement.CachedAriaProperties
+- IUIAutomationElement.get_CachedAriaProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

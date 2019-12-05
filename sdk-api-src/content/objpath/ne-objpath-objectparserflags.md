@@ -1,19 +1,17 @@
 ---
 UID: NE:objpath.__unnamed_enum_0
 title: ObjectParserFlags (objpath.h)
-
 description: Flags used by constructor for CObjectPathParser.
 old-location: wmi\objectparserflags.htm
 tech.root: WmiSdk
 ms.assetid: 25e575fc-c8d3-461c-a792-0780ea56612d
-
 ms.date: 12/05/2018
 ms.keywords: ObjectParserFlags, ObjectParserFlags enumeration [Windows Management Instrumentation], e_ParserAbsoluteNamespaceOnly, e_ParserAcceptAll, e_ParserAcceptRelativeNamespace, objpath/ObjectParserFlags, objpath/e_ParserAbsoluteNamespaceOnly, objpath/e_ParserAcceptAll, objpath/e_ParserAcceptRelativeNamespace, wmi.objectparserflags
 ms.topic: enum
-f1_keywords: 
- - "objpath/ObjectParserFlags"
+f1_keywords:
+- objpath/ObjectParserFlags
 dev_langs:
- - c++
+- c++
 req.header: objpath.h
 req.include-header: Objpath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objpath.h
+- Objpath.h
 api_name:
- - ObjectParserFlags
+- ObjectParserFlags
 targetos: Windows
 req.typenames: ObjectParserFlags
 req.redist: 

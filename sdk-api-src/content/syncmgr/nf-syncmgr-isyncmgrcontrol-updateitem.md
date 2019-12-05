@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateItem
 title: ISyncMgrControl::UpdateItem (syncmgr.h)
-
 description: Informs Sync Center that properties of a sync item have changed.
 old-location: shell\ISyncMgrControl_UpdateItem.htm
 tech.root: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncMgrControl.UpdateItem, ISyncMgrControl::UpdateItem, UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.UpdateItem"
+f1_keywords:
+- syncmgr/ISyncMgrControl.UpdateItem
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.UpdateItem
+- ISyncMgrControl.UpdateItem
 targetos: Windows
 req.typenames: 
 req.redist: 

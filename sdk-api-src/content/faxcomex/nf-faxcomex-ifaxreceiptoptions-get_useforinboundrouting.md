@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxReceiptOptions.get_UseForInboundRouting
 title: IFaxReceiptOptions::get_UseForInboundRouting (faxcomex.h)
-
 description: The IFaxReceiptOptions::get_UseForInboundRouting property sets or retrieves whether to use the FaxReceiptOptions settings for the Microsoft Routing Extension, which allows incoming faxes to be routed to email addresses.
 old-location: fax\_mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_useforinboundrouting_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7srr.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxReceiptOptions interface [Fax Service],UseForInboundRouting property, IFaxReceiptOptions.UseForInboundRouting, IFaxReceiptOptions.get_UseForInboundRouting, IFaxReceiptOptions.put_UseForInboundRouting, IFaxReceiptOptions::UseForInboundRouting, IFaxReceiptOptions::get_UseForInboundRouting, IFaxReceiptOptions::put_UseForInboundRouting, UseForInboundRouting property [Fax Service], UseForInboundRouting property [Fax Service],IFaxReceiptOptions interface, _mfax_faxreceiptoptions.useforinboundrouting, fax._mfax_faxreceiptoptions_cpp_mfax_faxreceiptoptions_useforinboundrouting_cpp, fax._mfax_faxreceiptoptions_useforinboundrouting, faxcomex/IFaxReceiptOptions::UseForInboundRouting, faxcomex/IFaxReceiptOptions::get_UseForInboundRouting, faxcomex/IFaxReceiptOptions::put_UseForInboundRouting, get_UseForInboundRouting
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxReceiptOptions.UseForInboundRouting"
+f1_keywords:
+- faxcomex/IFaxReceiptOptions.UseForInboundRouting
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxReceiptOptions.UseForInboundRouting
- - IFaxReceiptOptions.get_UseForInboundRouting
- - IFaxReceiptOptions.put_UseForInboundRouting
- - IFaxReceiptOptions.get_UseForInboundRouting
- - IFaxReceiptOptions.put_UseForInboundRouting
+- IFaxReceiptOptions.UseForInboundRouting
+- IFaxReceiptOptions.get_UseForInboundRouting
+- IFaxReceiptOptions.put_UseForInboundRouting
+- IFaxReceiptOptions.get_UseForInboundRouting
+- IFaxReceiptOptions.put_UseForInboundRouting
 targetos: Windows
 req.typenames: 
 req.redist: 

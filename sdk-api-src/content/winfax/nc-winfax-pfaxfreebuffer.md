@@ -1,19 +1,17 @@
 ---
 UID: NC:winfax.PFAXFREEBUFFER
 title: PFAXFREEBUFFER (winfax.h)
-
 description: The FaxFreeBuffer function releases resources associated with a buffer allocated previously as the result of a function call by a fax client application.
 old-location: fax\_mfax_faxfreebuffer.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9xki.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxFreeBufferA, FaxFreeBufferW, PFAXFREEBUFFER, PFAXFREEBUFFER callback, PFAXFREEBUFFER callback function [Fax Service], _mfax_faxfreebuffer, fax._mfax_faxfreebuffer, winfax/FaxFreeBufferA, winfax/FaxFreeBufferW, winfax/PFAXFREEBUFFER
 ms.topic: callback
-f1_keywords: 
- - "winfax/PFAXFREEBUFFER"
+f1_keywords:
+- winfax/PFAXFREEBUFFER
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - PFAXFREEBUFFER
- - FaxFreeBufferA
- - FaxFreeBufferW
+- PFAXFREEBUFFER
+- FaxFreeBufferA
+- FaxFreeBufferW
 targetos: Windows
 req.typenames: 
 req.redist: 

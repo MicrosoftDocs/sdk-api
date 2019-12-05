@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_IPFORWARD_ROW2
 title: MIB_IPFORWARD_ROW2 (netioapi.h)
-
 description: Stores information about an IP route entry.
 old-location: mib\mib_ipforward_row2.htm
 tech.root: MIB
 ms.assetid: 3678315d-b6ab-48c8-8522-a57deb63f8c9
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2 structure [MIB], MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PMIB_IPFORWARD_ROW2, PMIB_IPFORWARD_ROW2 structure pointer [MIB], _MIB_IPFORWARD_ROW2, mib.mib_ipforward_row2, netioapi/MIB_IPFORWARD_ROW2, netioapi/PMIB_IPFORWARD_ROW2"
+ms.keywords: '*PMIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2, MIB_IPFORWARD_ROW2 structure [MIB], MIB_IPPROTO_BBN, MIB_IPPROTO_BGP, MIB_IPPROTO_CISCO, MIB_IPPROTO_EGP, MIB_IPPROTO_ES_IS, MIB_IPPROTO_GGP, MIB_IPPROTO_HELLO, MIB_IPPROTO_ICMP, MIB_IPPROTO_IS_IS, MIB_IPPROTO_LOCAL, MIB_IPPROTO_NETMGMT, MIB_IPPROTO_NT_AUTOSTATIC, MIB_IPPROTO_NT_STATIC, MIB_IPPROTO_NT_STATIC_NON_DOD, MIB_IPPROTO_OSPF, MIB_IPPROTO_OTHER, MIB_IPPROTO_RIP, Nlro6to4, NlroDHCP, NlroManual, NlroRouterAdvertisement, NlroWellKnown, PMIB_IPFORWARD_ROW2, PMIB_IPFORWARD_ROW2 structure pointer [MIB], _MIB_IPFORWARD_ROW2, mib.mib_ipforward_row2, netioapi/MIB_IPFORWARD_ROW2, netioapi/PMIB_IPFORWARD_ROW2'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_IPFORWARD_ROW2"
+f1_keywords:
+- netioapi/MIB_IPFORWARD_ROW2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_IPFORWARD_ROW2
+- MIB_IPFORWARD_ROW2
 targetos: Windows
 req.typenames: MIB_IPFORWARD_ROW2, *PMIB_IPFORWARD_ROW2
 req.redist: 

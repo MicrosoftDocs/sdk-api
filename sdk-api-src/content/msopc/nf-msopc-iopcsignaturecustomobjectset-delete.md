@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.Delete
 title: IOpcSignatureCustomObjectSet::Delete (msopc.h)
-
 description: Deletes a specified IOpcSignatureCustomObject interface pointer from the set.
 old-location: opc\iopcsignaturecustomobjectset_delete.htm
 tech.root: OPC
 ms.assetid: 7cfd8439-8f7e-4112-a2c0-3827922fb4b0
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureCustomObjectSet interface, IOpcSignatureCustomObjectSet interface [Open Packaging Conventions],Delete method, IOpcSignatureCustomObjectSet.Delete, IOpcSignatureCustomObjectSet::Delete, msopc/IOpcSignatureCustomObjectSet::Delete, opc.iopcsignaturecustomobjectset_delete
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureCustomObjectSet.Delete"
+f1_keywords:
+- msopc/IOpcSignatureCustomObjectSet.Delete
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureCustomObjectSet.Delete
+- IOpcSignatureCustomObjectSet.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

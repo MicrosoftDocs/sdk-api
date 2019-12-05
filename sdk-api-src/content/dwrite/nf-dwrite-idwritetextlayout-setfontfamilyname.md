@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontFamilyName
 title: IDWriteTextLayout::SetFontFamilyName (dwrite.h)
-
 description: Sets null-terminated font family name for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetFontFamilyName.htm
 tech.root: DirectWrite
 ms.assetid: c5da17d1-46af-4865-9a6e-a35c6907491b
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetFontFamilyName method, IDWriteTextLayout.SetFontFamilyName, IDWriteTextLayout::SetFontFamilyName, SetFontFamilyName, SetFontFamilyName method [Direct Write], SetFontFamilyName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetFontFamilyName, dwrite/IDWriteTextLayout::SetFontFamilyName
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetFontFamilyName"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetFontFamilyName
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetFontFamilyName
+- IDWriteTextLayout.SetFontFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 

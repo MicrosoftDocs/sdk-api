@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPCore3
 title: IWMPCore3 (wmp.h)
-
 description: The IWMPCore3 interface provides methods that supplement the IWMPCore2 interface.
 old-location: wmp\iwmpcore3.htm
 tech.root: WMP
 ms.assetid: 3004551e-ce36-4f15-88c3-93b2bfaa72fc
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore3, IWMPCore3 interface [Windows Media Player], IWMPCore3 interface [Windows Media Player],described, IWMPCore3Interface, wmp.iwmpcore3, wmp/IWMPCore3
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPCore3"
+f1_keywords:
+- wmp/IWMPCore3
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPCore3
+- IWMPCore3
 targetos: Windows
 req.typenames: 
 req.redist: 

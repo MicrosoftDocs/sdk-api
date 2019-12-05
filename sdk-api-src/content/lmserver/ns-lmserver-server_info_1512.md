@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1512
 title: SERVER_INFO_1512 (lmserver.h)
-
 description: The SERVER_INFO_1512 structure contains the maximum size of nonpaged memory that the specified server can allocate at a particular time.
 old-location: netmgmt\server_info_1512_str.htm
 tech.root: NetMgmt
 ms.assetid: 5b01079a-90b8-453d-b0dd-f8a2a2f34014
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1512, *PSERVER_INFO_1512, LPSERVER_INFO_1512, LPSERVER_INFO_1512 structure pointer [Network Management], PSERVER_INFO_1512, PSERVER_INFO_1512 structure pointer [Network Management], SERVER_INFO_1512, SERVER_INFO_1512 structure [Network Management], _win32_server_info_1512_str, lmserver/LPSERVER_INFO_1512, lmserver/PSERVER_INFO_1512, lmserver/SERVER_INFO_1512, netmgmt.server_info_1512_str"
+ms.keywords: '*LPSERVER_INFO_1512, *PSERVER_INFO_1512, LPSERVER_INFO_1512, LPSERVER_INFO_1512 structure pointer [Network Management], PSERVER_INFO_1512, PSERVER_INFO_1512 structure pointer [Network Management], SERVER_INFO_1512, SERVER_INFO_1512 structure [Network Management], _win32_server_info_1512_str, lmserver/LPSERVER_INFO_1512, lmserver/PSERVER_INFO_1512, lmserver/SERVER_INFO_1512, netmgmt.server_info_1512_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1512"
+f1_keywords:
+- lmserver/SERVER_INFO_1512
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1512
+- SERVER_INFO_1512
 targetos: Windows
 req.typenames: SERVER_INFO_1512, *PSERVER_INFO_1512, *LPSERVER_INFO_1512
 req.redist: 

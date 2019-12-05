@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.PenAlignment
 title: PenAlignment (gdiplusenums.h)
-
 description: The PenAlignment enumeration specifies the alignment of a pen relative to the stroke that is being drawn.
 old-location: gdiplus\_gdiplus_ENUM_PenAlignment.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\penalignment.htm
-
 ms.date: 12/05/2018
 ms.keywords: PenAlignment, PenAlignment enumeration [GDI+], PenAlignmentCenter, PenAlignmentInset, _gdiplus_ENUM_PenAlignment, gdiplus._gdiplus_ENUM_PenAlignment, gdiplusenums/PenAlignment, gdiplusenums/PenAlignmentCenter, gdiplusenums/PenAlignmentInset
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/PenAlignment"
+f1_keywords:
+- gdiplusenums/PenAlignment
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - PenAlignment
+- PenAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

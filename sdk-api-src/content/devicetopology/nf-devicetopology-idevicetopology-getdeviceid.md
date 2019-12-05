@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetDeviceId
 title: IDeviceTopology::GetDeviceId (devicetopology.h)
-
 description: The GetDeviceId method gets the device identifier of the device that is represented by the device-topology object.
 old-location: coreaudio\idevicetopology_getdeviceid.htm
 tech.root: CoreAudio
 ms.assetid: 2ecf8f23-7cfd-447a-ab76-8a23b79f5d6c
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceId, GetDeviceId method [Core Audio], GetDeviceId method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetDeviceId method, IDeviceTopology.GetDeviceId, IDeviceTopology::GetDeviceId, IDeviceTopologyGetDeviceId, coreaudio.idevicetopology_getdeviceid, devicetopology/IDeviceTopology::GetDeviceId
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IDeviceTopology.GetDeviceId"
+f1_keywords:
+- devicetopology/IDeviceTopology.GetDeviceId
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceTopology.GetDeviceId
+- IDeviceTopology.GetDeviceId
 targetos: Windows
 req.typenames: 
 req.redist: 

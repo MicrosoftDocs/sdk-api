@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_Create
 title: DSA_Create function (dpa_dsa.h)
-
 description: Creates a dynamic structure array (DSA).
 old-location: controls\DSA_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_create.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_Create, DSA_Create function [Windows Controls], _win32_DSA_Create, _win32_DSA_Create_cpp, controls.DSA_Create, controls._win32_DSA_Create, dpa_dsa/DSA_Create
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_Create"
+f1_keywords:
+- dpa_dsa/DSA_Create
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DSA_Create
+- DSA_Create
 targetos: Windows
 req.typenames: 
 req.redist: 

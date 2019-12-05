@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEventsFilter.GetPathFilter
 title: IOfflineFilesEventsFilter::GetPathFilter (cscobj.h)
-
 description: Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
 old-location: of\iofflinefileseventsfilter_getpathfilter.htm
 tech.root: offlinefiles
 ms.assetid: 0b9d8339-3daa-4f0c-8a52-59e06b663163
-
 ms.date: 12/05/2018
 ms.keywords: GetPathFilter, GetPathFilter method [Offline Files], GetPathFilter method [Offline Files],IOfflineFilesEventsFilter interface, IOfflineFilesEventsFilter interface [Offline Files],GetPathFilter method, IOfflineFilesEventsFilter.GetPathFilter, IOfflineFilesEventsFilter::GetPathFilter, cscobj/IOfflineFilesEventsFilter::GetPathFilter, of.iofflinefileseventsfilter_getpathfilter
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEventsFilter.GetPathFilter"
+f1_keywords:
+- cscobj/IOfflineFilesEventsFilter.GetPathFilter
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEventsFilter.GetPathFilter
+- IOfflineFilesEventsFilter.GetPathFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

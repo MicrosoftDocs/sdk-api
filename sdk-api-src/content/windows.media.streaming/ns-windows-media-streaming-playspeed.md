@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.media.streaming.PlaySpeed
 title: PlaySpeed (windows.media.streaming.h)
-
 description: Represents a playback speed as a rational number.
 old-location: mediastreaming\playspeed.htm
 tech.root: mediastreaming
 ms.assetid: 29b58229-8236-4c93-a6b4-ed09d1aca9db
-
 ms.date: 12/05/2018
 ms.keywords: PlaySpeed, PlaySpeed structure [Media Streaming API], mediastreaming.playspeed, windows/PlaySpeed
 ms.topic: struct
-f1_keywords: 
- - "windows.media.streaming/PlaySpeed"
+f1_keywords:
+- windows.media.streaming/PlaySpeed
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - PlaySpeed
+- PlaySpeed
 targetos: Windows
 req.typenames: PlaySpeed
 req.redist: 

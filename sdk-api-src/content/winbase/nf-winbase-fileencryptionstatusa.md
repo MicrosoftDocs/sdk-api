@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FileEncryptionStatusA
 title: FileEncryptionStatusA function (winbase.h)
-
 description: Retrieves the encryption status of the specified file.
 old-location: fs\fileencryptionstatus.htm
 tech.root: FileIO
 ms.assetid: 96efe065-de62-4941-811d-610465cd7ef5
-
 ms.date: 12/05/2018
 ms.keywords: FILE_ENCRYPTABLE, FILE_IS_ENCRYPTED, FILE_READ_ONLY, FILE_ROOT_DIR, FILE_SYSTEM_ATTR, FILE_SYSTEM_DIR, FILE_SYSTEM_NOT_SUPPORT, FILE_UNKNOWN, FILE_USER_DISALLOWED, FileEncryptionStatus, FileEncryptionStatus function [Files], FileEncryptionStatusA, FileEncryptionStatusW, _win32_fileencryptionstatus, base.fileencryptionstatus, fs.fileencryptionstatus, winbase/FileEncryptionStatus, winbase/FileEncryptionStatusA, winbase/FileEncryptionStatusW
 ms.topic: function
-f1_keywords: 
- - "winbase/FileEncryptionStatus"
+f1_keywords:
+- winbase/FileEncryptionStatus
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - FileEncryptionStatus
- - FileEncryptionStatusA
- - FileEncryptionStatusW
+- FileEncryptionStatus
+- FileEncryptionStatusA
+- FileEncryptionStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMUINT4.XMUINT4(const uint32_t)
 title: XMUINT4::XMUINT4(const uint32_t) (directxmath.h)
-
 description: Initializes a new instance of XMUINT4 from a four element uint32_t array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 015b6b50-e749-452e-b05e-a5d18c29fea2
-
 ms.date: 05/13/2019
 ms.keywords: XMUINT4, XMUINT4 constructor [DirectX Math Support APIs], XMUINT4 constructor [DirectX Math Support APIs],XMUINT4 structure, XMUINT4 structure [DirectX Math Support APIs],XMUINT4 constructor, XMUINT4.XMUINT4, XMUINT4.XMUINT4(), XMUINT4.XMUINT4(const uint32_t), XMUINT4::XMUINT4, XMUINT4::XMUINT4(const uint32_t), dxmath.xmuint4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMUINT4.XMUINT4"
+f1_keywords:
+- directxmath/XMUINT4.XMUINT4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMUINT4.XMUINT4
+- XMUINT4.XMUINT4
 targetos: Windows
 req.typenames: 
 req.redist: 

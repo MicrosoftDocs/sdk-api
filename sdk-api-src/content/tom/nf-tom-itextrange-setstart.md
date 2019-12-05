@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.SetStart
 title: ITextRange::SetStart (tom.h)
-
 description: Sets the character position for the start of this range.
 old-location: controls\ITextRange_SetStart.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setstart.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetStart method, ITextRange.SetStart, ITextRange::SetStart, SetStart, SetStart method [Windows Controls], SetStart method [Windows Controls],ITextRange interface, _win32_ITextRange_SetStart, _win32_ITextRange_SetStart_cpp, controls.ITextRange_SetStart, controls._win32_ITextRange_SetStart, tom/ITextRange::SetStart
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.SetStart"
+f1_keywords:
+- tom/ITextRange.SetStart
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.SetStart
+- ITextRange.SetStart
 targetos: Windows
 req.typenames: 
 req.redist: 

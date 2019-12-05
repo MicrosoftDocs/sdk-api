@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_FLOOD_PROP
 title: D2D1_FLOOD_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Flood effect.
 old-location: direct2d\d2d1_flood_prop.htm
 tech.root: Direct2D
 ms.assetid: C8132218-70A8-4242-9D10-A2FD08099DD3
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_FLOOD_PROP, D2D1_FLOOD_PROP enumeration [Direct2D], D2D1_FLOOD_PROP_COLOR, d2d1effects/D2D1_FLOOD_PROP, d2d1effects/D2D1_FLOOD_PROP_COLOR, direct2d.d2d1_flood_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_FLOOD_PROP"
+f1_keywords:
+- d2d1effects/D2D1_FLOOD_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_FLOOD_PROP
+- D2D1_FLOOD_PROP
 targetos: Windows
 req.typenames: D2D1_FLOOD_PROP
 req.redist: 

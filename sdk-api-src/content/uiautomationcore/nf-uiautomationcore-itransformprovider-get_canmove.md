@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITransformProvider.get_CanMove
 title: ITransformProvider::get_CanMove (uiautomationcore.h)
-
 description: Indicates whether the control can be moved.
 old-location: winauto\uiauto_ITransformProvider_CanMove.htm
 tech.root: WinAuto
 ms.assetid: 82392d66-2a9d-4951-a687-833737d424ec
-
 ms.date: 12/05/2018
 ms.keywords: CanMove property [Windows Accessibility], CanMove property [Windows Accessibility],ITransformProvider interface, ITransformProvider interface [Windows Accessibility],CanMove property, ITransformProvider.CanMove, ITransformProvider.get_CanMove, ITransformProvider::CanMove, ITransformProvider::get_CanMove, get_CanMove, uiauto.uiauto_ITransformProvider_CanMove, uiauto_ITransformProvider_CanMove, uiautomationcore/ITransformProvider::CanMove, uiautomationcore/ITransformProvider::get_CanMove, winauto.uiauto_ITransformProvider_CanMove
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITransformProvider.CanMove"
+f1_keywords:
+- uiautomationcore/ITransformProvider.CanMove
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITransformProvider.CanMove
- - ITransformProvider.get_CanMove
+- ITransformProvider.CanMove
+- ITransformProvider.get_CanMove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.CreateSigningOptions
 title: IXpsSignatureManager::CreateSigningOptions (xpsdigitalsignature.h)
-
 description: Creates a new IXpsSigningOptions interface.
 old-location: xps\ixpssignaturemanager_createsigningoptions.htm
 tech.root: printdocs
 ms.assetid: 0f64f46a-905a-48cf-9e7a-f6cc1b2d6450
-
 ms.date: 12/05/2018
 ms.keywords: CreateSigningOptions, CreateSigningOptions method [XPS Documents and Packaging], CreateSigningOptions method [XPS Documents and Packaging],IXpsSignatureManager interface, IXpsSignatureManager interface [XPS Documents and Packaging],CreateSigningOptions method, IXpsSignatureManager.CreateSigningOptions, IXpsSignatureManager::CreateSigningOptions, xps.ixpssignaturemanager_createsigningoptions, xpsdigitalsignature/IXpsSignatureManager::CreateSigningOptions
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager.CreateSigningOptions"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager.CreateSigningOptions
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager.CreateSigningOptions
+- IXpsSignatureManager.CreateSigningOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

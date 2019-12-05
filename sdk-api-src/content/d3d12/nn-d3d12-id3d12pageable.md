@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12Pageable
 title: ID3D12Pageable (d3d12.h)
-
 description: An interface from which many other core interfaces inherit from. It indicates that the object type encapsulates some amount of GPU-accessible memory; but does not strongly indicate whether the application can manipulate the object's residency.
 old-location: direct3d12\id3d12pageable.htm
 tech.root: direct3d12
 ms.assetid: 89DC88B4-9DFD-413D-8EB9-91087CC90D18
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Pageable, ID3D12Pageable interface, ID3D12Pageable interface,described, d3d12/ID3D12Pageable, direct3d12.id3d12pageable
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12Pageable"
+f1_keywords:
+- d3d12/ID3D12Pageable
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Pageable
+- ID3D12Pageable
 targetos: Windows
 req.typenames: 
 req.redist: 

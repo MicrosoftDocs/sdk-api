@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.ldapsortkeyA
 title: LDAPSortKeyA (winldap.h)
-
 description: The LDAPSortKey structure stores sorting criteria for use by sort controls.
 old-location: ldap\ldapsortkey.htm
 tech.root: ldap
 ms.assetid: 3cf6a279-5ea4-48f3-bdc7-768f64b1bf7c
-
 ms.date: 12/05/2018
-ms.keywords: "*PLDAPSortKeyA, LDAPSortKey, LDAPSortKey structure [LDAP], LDAPSortKeyA, LDAPSortKeyW, PLDAPSortKey, PLDAPSortKey structure pointer [LDAP], _ldap_ldapsortkey, ldap.ldapsortkey, winldap/LDAPSortKey, winldap/LDAPSortKeyA, winldap/LDAPSortKeyW, winldap/PLDAPSortKey"
+ms.keywords: '*PLDAPSortKeyA, LDAPSortKey, LDAPSortKey structure [LDAP], LDAPSortKeyA, LDAPSortKeyW, PLDAPSortKey, PLDAPSortKey structure pointer [LDAP], _ldap_ldapsortkey, ldap.ldapsortkey, winldap/LDAPSortKey, winldap/LDAPSortKeyA, winldap/LDAPSortKeyW, winldap/PLDAPSortKey'
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAPSortKey"
+f1_keywords:
+- winldap/LDAPSortKey
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAPSortKey
- - LDAPSortKeyA
- - LDAPSortKeyW
+- LDAPSortKey
+- LDAPSortKeyA
+- LDAPSortKeyW
 targetos: Windows
 req.typenames: LDAPSortKeyA, *PLDAPSortKeyA
 req.redist: 

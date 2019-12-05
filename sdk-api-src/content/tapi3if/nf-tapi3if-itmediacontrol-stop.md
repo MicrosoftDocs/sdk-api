@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Stop
 title: ITMediaControl::Stop (tapi3if.h)
-
 description: The Stop method stops the current action and sets the current location to the beginning of the file.
 old-location: tapi3\itmediacontrol_stop.htm
 tech.root: Tapi
 ms.assetid: 4c108838-ad31-407a-b9af-bfc8c1c4a577
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Stop method, ITMediaControl.Stop, ITMediaControl::Stop, Stop, Stop method [TAPI 2.2], Stop method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_stop, tapi3.itmediacontrol_stop, tapi3if/ITMediaControl::Stop
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMediaControl.Stop"
+f1_keywords:
+- tapi3if/ITMediaControl.Stop
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaControl.Stop
+- ITMediaControl.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

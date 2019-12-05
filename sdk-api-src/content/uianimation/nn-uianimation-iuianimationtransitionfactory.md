@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationTransitionFactory
 title: IUIAnimationTransitionFactory (uianimation.h)
-
 description: Defines a method for creating transitions from custom interpolators.
 old-location: uianimation\iuianimationtransitionfactory.htm
 tech.root: UIAnimation
 ms.assetid: 62aec8da-e067-4b61-9465-e07fb5b42b7f
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransitionFactory, IUIAnimationTransitionFactory interface [Windows Animation], IUIAnimationTransitionFactory interface [Windows Animation],described, uianimation.iuianimationtransitionfactory, uianimation/IUIAnimationTransitionFactory
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionFactory"
+f1_keywords:
+- uianimation/IUIAnimationTransitionFactory
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionFactory
+- IUIAnimationTransitionFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

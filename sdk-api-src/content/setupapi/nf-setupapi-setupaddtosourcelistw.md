@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupAddToSourceListW
 title: SetupAddToSourceListW function (setupapi.h)
-
 description: The SetupAddToSourceList function appends a value to the list of installation sources for either the current user or the system. If the value already exists, it is removed first, so that duplicate entries are not created.
 old-location: setup\setupaddtosourcelist.htm
 tech.root: SetupApi
 ms.assetid: c1da3f9b-12ea-49f3-a5ca-45a63a56becd
-
 ms.date: 12/05/2018
 ms.keywords: SetupAddToSourceList, SetupAddToSourceList function [Setup API], SetupAddToSourceListA, SetupAddToSourceListW, _setupapi_setupaddtosourcelist, setup.setupaddtosourcelist, setupapi/SetupAddToSourceList, setupapi/SetupAddToSourceListA, setupapi/SetupAddToSourceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupAddToSourceList"
+f1_keywords:
+- setupapi/SetupAddToSourceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupAddToSourceList
- - SetupAddToSourceListA
- - SetupAddToSourceListW
+- SetupAddToSourceList
+- SetupAddToSourceListA
+- SetupAddToSourceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

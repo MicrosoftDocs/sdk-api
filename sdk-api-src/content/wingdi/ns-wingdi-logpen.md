@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagLOGPEN
 title: LOGPEN (wingdi.h)
-
 description: The LOGPEN structure defines the style, width, and color of a pen. The CreatePenIndirect function uses the LOGPEN structure.
 old-location: gdi\logpen.htm
 tech.root: gdi
 ms.assetid: 0e098b5a-e249-43ad-a6d8-2509b6562453
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows GDI], PLOGPEN, PLOGPEN structure pointer [Windows GDI], _win32_LOGPEN_str, gdi.logpen, wingdi/LOGPEN, wingdi/PLOGPEN"
+ms.keywords: '*LPLOGPEN, *NPLOGPEN, *PLOGPEN, LOGPEN, LOGPEN structure [Windows GDI], PLOGPEN, PLOGPEN structure pointer [Windows GDI], _win32_LOGPEN_str, gdi.logpen, wingdi/LOGPEN, wingdi/PLOGPEN'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/LOGPEN"
+f1_keywords:
+- wingdi/LOGPEN
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - LOGPEN
+- LOGPEN
 targetos: Windows
 req.typenames: LOGPEN, *PLOGPEN, *NPLOGPEN, *LPLOGPEN
 req.redist: 

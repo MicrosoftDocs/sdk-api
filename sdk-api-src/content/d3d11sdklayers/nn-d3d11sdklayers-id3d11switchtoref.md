@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11SwitchToRef
 title: ID3D11SwitchToRef (d3d11sdklayers.h)
-
 description: ID3D11SwitchToRef interface
 old-location: direct3d11\id3d11switchtoref.htm
 tech.root: direct3d11
 ms.assetid: 02295183-b117-4ca9-89ad-223fdd3b0aa5
-
 ms.date: 12/05/2018
 ms.keywords: 6d6b602d-11ba-2e7a-07a9-f2af8fd90578, ID3D11SwitchToRef, ID3D11SwitchToRef interface [Direct3D 11], ID3D11SwitchToRef interface [Direct3D 11],described, d3d11sdklayers/ID3D11SwitchToRef, direct3d11.id3d11switchtoref
 ms.topic: interface
-f1_keywords: 
- - "d3d11sdklayers/ID3D11SwitchToRef"
+f1_keywords:
+- d3d11sdklayers/ID3D11SwitchToRef
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11SDKLayers.h
+- D3D11SDKLayers.h
 api_name:
- - ID3D11SwitchToRef
+- ID3D11SwitchToRef
 targetos: Windows
 req.typenames: 
 req.redist: 

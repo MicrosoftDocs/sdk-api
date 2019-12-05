@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI4FromCy
 title: VarI4FromCy function (oleauto.h)
-
 description: Converts a currency value to a long value.
 old-location: automat\vari4fromcy.htm
 tech.root: automat
 ms.assetid: fb5905f1-af15-4ab6-8c7a-b316709f0870
-
 ms.date: 12/05/2018
 ms.keywords: VarI4FromCy, VarI4FromCy function [Automation], _oa96_VarI4FromCy, automat.vari4fromcy, oleauto/VarI4FromCy
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarI4FromCy"
+f1_keywords:
+- oleauto/VarI4FromCy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI4FromCy
+- VarI4FromCy
 targetos: Windows
 req.typenames: 
 req.redist: 

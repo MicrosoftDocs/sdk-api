@@ -1,19 +1,17 @@
 ---
 UID: NS:evntrace._TRACE_GUID_INFO
 title: TRACE_GUID_INFO (evntrace.h)
-
 description: Defines the header to the list of sessions that enabled the provider specified in the InBuffer parameter of EnumerateTraceGuidsEx.
 old-location: etw\trace_guid_info.htm
 tech.root: ETW
 ms.assetid: 2c484adf-605d-420b-8059-942b35305acd
-
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_GUID_INFO, PTRACE_GUID_INFO, PTRACE_GUID_INFO structure pointer [ETW], TRACE_GUID_INFO, TRACE_GUID_INFO structure [ETW], _TRACE_GUID_INFO, etw.trace_guid_info, evntrace/PTRACE_GUID_INFO, evntrace/TRACE_GUID_INFO"
+ms.keywords: '*PTRACE_GUID_INFO, PTRACE_GUID_INFO, PTRACE_GUID_INFO structure pointer [ETW], TRACE_GUID_INFO, TRACE_GUID_INFO structure [ETW], _TRACE_GUID_INFO, etw.trace_guid_info, evntrace/PTRACE_GUID_INFO, evntrace/TRACE_GUID_INFO'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/TRACE_GUID_INFO"
+f1_keywords:
+- evntrace/TRACE_GUID_INFO
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - TRACE_GUID_INFO
+- TRACE_GUID_INFO
 targetos: Windows
 req.typenames: TRACE_GUID_INFO, *PTRACE_GUID_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Cancel
 title: ICreateDeviceAccessAsync::Cancel (deviceaccess.h)
-
 description: The Cancel method attempts to cancel an asynchronous operation that is in progress.
 old-location: deviceaccess\icreatedeviceaccessasync_cancel.htm
 tech.root: deviceaccess
 ms.assetid: 06e5af2d-8bd8-44b1-9ead-caa362284530
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Device Access Broker API], Cancel method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],Cancel method, ICreateDeviceAccessAsync.Cancel, ICreateDeviceAccessAsync::Cancel, deviceaccess.icreatedeviceaccessasync_cancel, deviceaccess/ICreateDeviceAccessAsync::Cancel
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/ICreateDeviceAccessAsync.Cancel"
+f1_keywords:
+- deviceaccess/ICreateDeviceAccessAsync.Cancel
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync.Cancel
+- ICreateDeviceAccessAsync.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

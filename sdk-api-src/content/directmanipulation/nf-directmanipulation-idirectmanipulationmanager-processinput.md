@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.ProcessInput
 title: IDirectManipulationManager::ProcessInput (directmanipulation.h)
-
 description: Passes keyboard and mouse messages to the manipulation manager on the app's UI thread.
 old-location: directmanipulation\idirectmanipulationmanager_processinput.htm
 tech.root: directmanipulation
 ms.assetid: ed7fa19b-acfe-4d5d-bd71-a77e5016fe68
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],ProcessInput method, IDirectManipulationManager.ProcessInput, IDirectManipulationManager::ProcessInput, ProcessInput, ProcessInput method [Direct Manipulation], ProcessInput method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_processinput, directmanipulation/IDirectManipulationManager::ProcessInput
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager.ProcessInput"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager.ProcessInput
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager.ProcessInput
+- IDirectManipulationManager.ProcessInput
 targetos: Windows
 req.typenames: 
 req.redist: 

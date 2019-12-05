@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.UpdateItem
 title: IResultData::UpdateItem (mmc.h)
-
 description: Causes a specified item in the result pane to be redrawn.
 old-location: mmc\iresultdata_updateitem.htm
 tech.root: mmc
 ms.assetid: 6d335375-42b2-4f0a-a828-7ee636452db0
-
 ms.date: 12/05/2018
 ms.keywords: IResultData interface [MMC],UpdateItem method, IResultData.UpdateItem, IResultData2 interface [MMC],UpdateItem method, IResultData2::UpdateItem, IResultData::UpdateItem, UpdateItem, UpdateItem method [MMC], UpdateItem method [MMC],IResultData interface, UpdateItem method [MMC],IResultData2 interface, _slate_iresultdata_updateitem, mmc.iresultdata_updateitem, mmc/IResultData2::UpdateItem, mmc/IResultData::UpdateItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.UpdateItem"
+f1_keywords:
+- mmc/IResultData.UpdateItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.UpdateItem
- - IResultData2.UpdateItem
+- IResultData.UpdateItem
+- IResultData2.UpdateItem
 targetos: Windows
 req.typenames: 
 req.redist: 

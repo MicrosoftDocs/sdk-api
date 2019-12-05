@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OpenClusterNetInterfaceEx
 title: OpenClusterNetInterfaceEx function (clusapi.h)
-
 description: Opens a handle to a network interface.
 old-location: mscs\openclusternetinterfaceex.htm
 tech.root: MsCS
 ms.assetid: 207d6888-35ff-44d4-aac0-915815b9730d
-
 ms.date: 12/05/2018
 ms.keywords: OpenClusterNetInterfaceEx, OpenClusterNetInterfaceEx function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX function [Failover Cluster], clusapi/OpenClusterNetInterfaceEx, clusapi/PCLUSAPI_OPEN_CLUSTER_NETINTERFACE_EX, mscs.openclusternetinterfaceex
 ms.topic: function
-f1_keywords: 
- - "clusapi/OpenClusterNetInterfaceEx"
+f1_keywords:
+- clusapi/OpenClusterNetInterfaceEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OpenClusterNetInterfaceEx
+- OpenClusterNetInterfaceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

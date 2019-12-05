@@ -1,19 +1,17 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.Initialize
 title: IEAPProviderConfig::Initialize (rrascfg.h)
-
 description: The system calls the Initialize method to initialize an EAP configuration session with the specified computer.
 old-location: eap\ieapproviderconfig_initialize.htm
 tech.root: EAP
 ms.assetid: 6d347387-7f8f-478b-a115-f6960e6f856e
-
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],Initialize method, IEAPProviderConfig.Initialize, IEAPProviderConfig::Initialize, Initialize, Initialize method [EAP], Initialize method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_initialize, eap.ieapproviderconfig_initialize, rrascfg/IEAPProviderConfig::Initialize
 ms.topic: method
-f1_keywords: 
- - "rrascfg/IEAPProviderConfig.Initialize"
+f1_keywords:
+- rrascfg/IEAPProviderConfig.Initialize
 dev_langs:
- - c++
+- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rrascfg.h
+- Rrascfg.h
 api_name:
- - IEAPProviderConfig.Initialize
+- IEAPProviderConfig.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Skip
 title: IEnumTfDocumentMgrs::Skip (msctf.h)
-
 description: IEnumTfDocumentMgrs::Skip method
 old-location: tsf\ienumtfdocumentmgrs_skip.htm
 tech.root: TSF
 ms.assetid: 04464160-d171-4c83-91f0-068a1c13544a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfDocumentMgrs interface [Text Services Framework],Skip method, IEnumTfDocumentMgrs.Skip, IEnumTfDocumentMgrs::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfDocumentMgrs interface, _tsf_ienumtfdocumentmgrs_skip_ref, msctf/IEnumTfDocumentMgrs::Skip, tsf.ienumtfdocumentmgrs_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfDocumentMgrs.Skip"
+f1_keywords:
+- msctf/IEnumTfDocumentMgrs.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfDocumentMgrs.Skip
+- IEnumTfDocumentMgrs.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

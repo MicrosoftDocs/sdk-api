@@ -1,19 +1,17 @@
 ---
 UID: NF:dmort.MoDuplicateMediaType
 title: MoDuplicateMediaType function (dmort.h)
-
 description: The MoDuplicateMediaType function duplicates a media type structure.
 old-location: dshow\moduplicatemediatype.htm
 tech.root: DirectShow
 ms.assetid: 8804ec3f-98c7-4305-a02c-67f5e560b4f7
-
 ms.date: 12/05/2018
 ms.keywords: MoDuplicateMediaType, MoDuplicateMediaType function [DirectShow], dmort/MoDuplicateMediaType, dshow.moduplicatemediatype
 ms.topic: function
-f1_keywords: 
- - "dmort/MoDuplicateMediaType"
+f1_keywords:
+- dmort/MoDuplicateMediaType
 dev_langs:
- - c++
+- c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdmo.dll
+- Msdmo.dll
 api_name:
- - MoDuplicateMediaType
+- MoDuplicateMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

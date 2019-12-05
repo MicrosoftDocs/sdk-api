@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_COLORMANAGEMENT_ALPHA_MODE
 title: D2D1_COLORMANAGEMENT_ALPHA_MODE (d2d1effects.h)
-
 description: Indicates how the Color management effect should interpret alpha data that is contained in the input image.
 old-location: direct2d\d2d1_colormanagement_alpha_mode.htm
 tech.root: Direct2D
 ms.assetid: CEC066A7-085E-4657-B9CF-9F8B8E8F4FFE
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_COLORMANAGEMENT_ALPHA_MODE, D2D1_COLORMANAGEMENT_ALPHA_MODE enumeration [Direct2D], D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_PREMULTIPLIED, d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE_STRAIGHT, direct2d.d2d1_colormanagement_alpha_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE"
+f1_keywords:
+- d2d1effects/D2D1_COLORMANAGEMENT_ALPHA_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_COLORMANAGEMENT_ALPHA_MODE
+- D2D1_COLORMANAGEMENT_ALPHA_MODE
 targetos: Windows
 req.typenames: D2D1_COLORMANAGEMENT_ALPHA_MODE
 req.redist: 

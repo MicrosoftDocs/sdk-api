@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualCollection.RemoveAt
 title: IXpsOMVisualCollection::RemoveAt (xpsobjectmodel.h)
-
 description: Removes and releases an IXpsOMVisual interface pointer from a specified location in the collection.
 old-location: xps\ixpsomvisualcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 476c296e-a4f1-4c87-afff-c8231290c581
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMVisualCollection.RemoveAt, IXpsOMVisualCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMVisualCollection interface, xps.ixpsomvisualcollection_removeat, xpsobjectmodel/IXpsOMVisualCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualCollection.RemoveAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualCollection.RemoveAt
+- IXpsOMVisualCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetControlState
 title: IFileDialogCustomize::GetControlState (shobjidl_core.h)
-
 description: Gets the current visibility and enabled states of a given control.
 old-location: shell\IFileDialogCustomize_GetControlState.htm
 tech.root: shell
 ms.assetid: 2a167050-2778-4cc2-9b05-ec81f679c6c0
-
 ms.date: 12/05/2018
 ms.keywords: GetControlState, GetControlState method [Windows Shell], GetControlState method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetControlState method, IFileDialogCustomize.GetControlState, IFileDialogCustomize::GetControlState, shell.IFileDialogCustomize_GetControlState, shell_IFileDialogCustomize_GetControlState, shobjidl_core/IFileDialogCustomize::GetControlState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.GetControlState"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.GetControlState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.GetControlState
+- IFileDialogCustomize.GetControlState
 targetos: Windows
 req.typenames: 
 req.redist: 

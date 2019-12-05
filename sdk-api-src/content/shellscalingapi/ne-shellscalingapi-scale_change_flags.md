@@ -1,19 +1,17 @@
 ---
 UID: NE:shellscalingapi.__unnamed_enum_1
 title: SCALE_CHANGE_FLAGS (shellscalingapi.h)
-
 description: Flags that are used to indicate the scaling change that occured.
 old-location: shell\scale_change_flags.htm
 tech.root: shell
 ms.assetid: 18B3E8F1-C9A9-4CE4-8982-C552486EA9B1
-
 ms.date: 12/05/2018
 ms.keywords: SCALE_CHANGE_FLAGS, SCALE_CHANGE_FLAGS enumeration [Windows Shell], SCF_PHYSICAL, SCF_SCALE, SCF_VALUE_NONE, shell.scale_change_flags, shellscalingapi/SCALE_CHANGE_FLAGS, shellscalingapi/SCF_PHYSICAL, shellscalingapi/SCF_SCALE, shellscalingapi/SCF_VALUE_NONE
 ms.topic: enum
-f1_keywords: 
- - "shellscalingapi/SCALE_CHANGE_FLAGS"
+f1_keywords:
+- shellscalingapi/SCALE_CHANGE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ShellScalingAPI.h
+- ShellScalingAPI.h
 api_name:
- - SCALE_CHANGE_FLAGS
+- SCALE_CHANGE_FLAGS
 targetos: Windows
 req.typenames: SCALE_CHANGE_FLAGS
 req.redist: 

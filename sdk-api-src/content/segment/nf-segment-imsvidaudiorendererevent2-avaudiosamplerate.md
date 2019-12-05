@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVAudioSampleRate
 title: IMSVidAudioRendererEvent2::AVAudioSampleRate (segment.h)
-
 description: Indicates a change in the AVAudioSampleRate codec property.
 old-location: mstv\imsvidaudiorendererevent2_avaudiosamplerate.htm
 tech.root: mstv
 ms.assetid: a8654fd1-4843-4489-ba43-444912107ca2
-
 ms.date: 12/05/2018
 ms.keywords: AVAudioSampleRate, AVAudioSampleRate method [Microsoft TV Technologies], AVAudioSampleRate method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVAudioSampleRate method, IMSVidAudioRendererEvent2.AVAudioSampleRate, IMSVidAudioRendererEvent2::AVAudioSampleRate, mstv.imsvidaudiorendererevent2_avaudiosamplerate, segment/IMSVidAudioRendererEvent2::AVAudioSampleRate
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererEvent2.AVAudioSampleRate"
+f1_keywords:
+- segment/IMSVidAudioRendererEvent2.AVAudioSampleRate
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererEvent2.AVAudioSampleRate
+- IMSVidAudioRendererEvent2.AVAudioSampleRate
 targetos: Windows
 req.typenames: 
 req.redist: 

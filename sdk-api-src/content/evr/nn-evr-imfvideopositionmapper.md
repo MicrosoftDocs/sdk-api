@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFVideoPositionMapper
 title: IMFVideoPositionMapper (evr.h)
-
 description: Maps a position on an input video stream to the corresponding position on an output video stream.
 old-location: mf\imfvideopositionmapper.htm
 tech.root: medfound
 ms.assetid: 282fa124-909f-49dc-9a86-3d962193e903
-
 ms.date: 12/05/2018
 ms.keywords: 282fa124-909f-49dc-9a86-3d962193e903, IMFVideoPositionMapper, IMFVideoPositionMapper interface [Media Foundation], IMFVideoPositionMapper interface [Media Foundation],described, evr/IMFVideoPositionMapper, mf.imfvideopositionmapper
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFVideoPositionMapper"
+f1_keywords:
+- evr/IMFVideoPositionMapper
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoPositionMapper
+- IMFVideoPositionMapper
 targetos: Windows
 req.typenames: 
 req.redist: 

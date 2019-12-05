@@ -1,19 +1,17 @@
 ---
 UID: NE:eaptypes._EAP_INTERACTIVE_UI_DATA_TYPE
 title: EAP_INTERACTIVE_UI_DATA_TYPE (eaptypes.h)
-
 description: Specifies the set of types of interactive UI context data supplied to certain supplicant API calls.
 old-location: eaphost\eap_interactive_ui_data_type.htm
 tech.root: eaphost
 ms.assetid: 0b3cd58c-9396-4c79-842b-76bf03aa7d7a
-
 ms.date: 12/05/2018
 ms.keywords: EAP_INTERACTIVE_UI_DATA_TYPE, EAP_INTERACTIVE_UI_DATA_TYPE enumeration [EAPHost], EapCredExpiryReq, EapCredExpiryResp, EapCredLogonReq, EapCredLogonResp, EapCredReq, EapCredResp, eaphost.eap_interactive_ui_data_type, eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE, eaptypes/EapCredExpiryReq, eaptypes/EapCredExpiryResp, eaptypes/EapCredLogonReq, eaptypes/EapCredLogonResp, eaptypes/EapCredReq, eaptypes/EapCredResp
 ms.topic: enum
-f1_keywords: 
- - "eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE"
+f1_keywords:
+- eaptypes/EAP_INTERACTIVE_UI_DATA_TYPE
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - eaptypes.h
+- eaptypes.h
 api_name:
- - EAP_INTERACTIVE_UI_DATA_TYPE
+- EAP_INTERACTIVE_UI_DATA_TYPE
 targetos: Windows
 req.typenames: EAP_INTERACTIVE_UI_DATA_TYPE
 req.redist: 

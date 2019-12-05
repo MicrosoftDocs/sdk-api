@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.SetInlineObject
 title: ITextRange2::SetInlineObject (tom.h)
-
 description: Sets or inserts the properties of an inline object for a degenerate range.
 old-location: controls\itextrange2_setinlineobject.htm
 tech.root: Controls
 ms.assetid: 56876a42-a972-4a19-a8f7-a5e37c0d77f0
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetInlineObject method, ITextRange2.SetInlineObject, ITextRange2::SetInlineObject, SetInlineObject, SetInlineObject method [Windows Controls], SetInlineObject method [Windows Controls],ITextRange2 interface, controls.itextrange2_setinlineobject, tom/ITextRange2::SetInlineObject
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.SetInlineObject"
+f1_keywords:
+- tom/ITextRange2.SetInlineObject
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.SetInlineObject
+- ITextRange2.SetInlineObject
 targetos: Windows
 req.typenames: 
 req.redist: 

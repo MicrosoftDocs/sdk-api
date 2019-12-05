@@ -1,19 +1,17 @@
 ---
 UID: NF:lmwksta.NetWkstaTransportDel
 title: NetWkstaTransportDel function (lmwksta.h)
-
 description: Not supported.
 old-location: netmgmt\netwkstatransportdel.htm
 tech.root: NetMgmt
 ms.assetid: 6d0ec459-8d7b-41fe-96dd-203e6a42164f
-
 ms.date: 12/05/2018
 ms.keywords: NetWkstaTransportDel, NetWkstaTransportDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netwkstatransportdel, lmwksta/NetWkstaTransportDel, netmgmt.netwkstatransportdel
 ms.topic: function
-f1_keywords: 
- - "lmwksta/NetWkstaTransportDel"
+f1_keywords:
+- lmwksta/NetWkstaTransportDel
 dev_langs:
- - c++
+- c++
 req.header: lmwksta.h
 req.include-header: Lm.h, Lmwksta.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetWkstaTransportDel
+- NetWkstaTransportDel
 targetos: Windows
 req.typenames: 
 req.redist: 

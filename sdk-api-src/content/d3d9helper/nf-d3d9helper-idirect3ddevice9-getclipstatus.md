@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.GetClipStatus
 title: IDirect3DDevice9::GetClipStatus (d3d9helper.h)
-
 description: Retrieves the clip status.
 old-location: direct3d9\idirect3ddevice9__getclipstatus.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getclipstatus.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetClipStatus, GetClipStatus method [Direct3D 9], GetClipStatus method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetClipStatus method, IDirect3DDevice9.GetClipStatus, IDirect3DDevice9::GetClipStatus, d3d9helper/IDirect3DDevice9::GetClipStatus, df453492-e7c5-c7f3-db0d-498aa59e68b8, direct3d9.idirect3ddevice9__getclipstatus
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.GetClipStatus"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.GetClipStatus
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.GetClipStatus
+- IDirect3DDevice9.GetClipStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

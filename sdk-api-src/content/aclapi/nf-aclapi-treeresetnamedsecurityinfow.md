@@ -1,19 +1,17 @@
 ---
 UID: NF:aclapi.TreeResetNamedSecurityInfoW
 title: TreeResetNamedSecurityInfoW function (aclapi.h)
-
 description: Resets specified security information in the security descriptor of a specified tree of objects.
 old-location: security\treeresetnamedsecurityinfo.htm
 tech.root: SecAuthZ
 ms.assetid: adae7d07-a452-409e-b1a1-e9f86f873e39
-
 ms.date: 12/05/2018
 ms.keywords: TreeResetNamedSecurityInfo, TreeResetNamedSecurityInfo function [Security], TreeResetNamedSecurityInfoA, TreeResetNamedSecurityInfoW, aclapi/TreeResetNamedSecurityInfo, aclapi/TreeResetNamedSecurityInfoA, aclapi/TreeResetNamedSecurityInfoW, security.treeresetnamedsecurityinfo
 ms.topic: function
 f1_keywords:
 - aclapi/TreeResetNamedSecurityInfo
 dev_langs:
- - c++
+- c++
 req.header: aclapi.h
 req.include-header: 
 req.target-type: Windows

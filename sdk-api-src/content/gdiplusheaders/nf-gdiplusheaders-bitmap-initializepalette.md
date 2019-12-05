@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.InitializePalette
 title: Bitmap::InitializePalette (gdiplusheaders.h)
-
 description: The Bitmap::InitializePalette method initializes a standard, optimal, or custom color palette.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_InitializePalette_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapgethistogrammethods\initializepalette.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],InitializePalette method, Bitmap.InitializePalette, Bitmap::InitializePalette, InitializePalette, InitializePalette method [GDI+], InitializePalette method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_InitializePalette_, gdiplus._gdiplus_CLASS_Bitmap_InitializePalette_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.InitializePalette"
+f1_keywords:
+- gdiplusheaders/Bitmap.InitializePalette
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.InitializePalette
+- Bitmap.InitializePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

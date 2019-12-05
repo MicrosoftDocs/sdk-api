@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComQCEvents
 title: IComQCEvents (comsvcs.h)
-
 description: Notifies the subscriber if a queued message is created, de-queued, or moved to a retry or dead letter queue.
 old-location: cos\icomqcevents.htm
 tech.root: cossdk
 ms.assetid: d7c8220d-a302-4f95-b0b6-8d47f9f27da7
-
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents, IComQCEvents interface [COM+], IComQCEvents interface [COM+],described, _dtc_IComQCEvents, comsvcs/IComQCEvents, cos.icomqcevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComQCEvents"
+f1_keywords:
+- comsvcs/IComQCEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComQCEvents
+- IComQCEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

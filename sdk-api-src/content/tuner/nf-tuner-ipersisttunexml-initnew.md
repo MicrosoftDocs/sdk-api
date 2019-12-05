@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IPersistTuneXml.InitNew
 title: IPersistTuneXml::InitNew (tuner.h)
-
 description: This method is not implemented in the current release. It was created to make the IPersistTuneXml interface compatible with the IPersistStreamInit interface and is reserved for future use.
 old-location: mstv\ipersisttunexml_initnew.htm
 tech.root: mstv
 ms.assetid: 75485d59-118c-4098-974b-40f7a36dbd91
-
 ms.date: 12/05/2018
 ms.keywords: IPersistTuneXml interface [Microsoft TV Technologies],InitNew method, IPersistTuneXml.InitNew, IPersistTuneXml::InitNew, InitNew, InitNew method [Microsoft TV Technologies], InitNew method [Microsoft TV Technologies],IPersistTuneXml interface, mstv.ipersisttunexml_initnew, tuner/IPersistTuneXml::InitNew
 ms.topic: method
-f1_keywords: 
- - "tuner/IPersistTuneXml.InitNew"
+f1_keywords:
+- tuner/IPersistTuneXml.InitNew
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IPersistTuneXml.InitNew
+- IPersistTuneXml.InitNew
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePackage
 title: IXpsOMObjectFactory::CreatePackage (xpsobjectmodel.h)
-
 description: Creates an IXpsOMPackage interface that serves as the root node of an XPS object model document tree.
 old-location: xps\ixpsomobjectfactory_createpackage.htm
 tech.root: printdocs
 ms.assetid: c9319997-6c8f-4e2c-9401-ad269e3db8c8
-
 ms.date: 12/05/2018
 ms.keywords: CreatePackage, CreatePackage method [XPS Documents and Packaging], CreatePackage method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePackage method, IXpsOMObjectFactory.CreatePackage, IXpsOMObjectFactory::CreatePackage, xps.ixpsomobjectfactory_createpackage, xpsobjectmodel/IXpsOMObjectFactory::CreatePackage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePackage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePackage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePackage
+- IXpsOMObjectFactory.CreatePackage
 targetos: Windows
 req.typenames: 
 req.redist: 

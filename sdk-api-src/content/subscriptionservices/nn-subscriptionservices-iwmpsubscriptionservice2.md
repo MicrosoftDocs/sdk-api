@@ -1,19 +1,17 @@
 ---
 UID: NN:subscriptionservices.IWMPSubscriptionService2
 title: IWMPSubscriptionService2 (subscriptionservices.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2.htm
 tech.root: WMP
 ms.assetid: 5338a3c1-c44a-4c03-a21a-6cd5cfeef064
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService2, IWMPSubscriptionService2 interface [Windows Media Player], IWMPSubscriptionService2 interface [Windows Media Player],described, IWMPSubscriptionService2Interface, subscriptionservices/IWMPSubscriptionService2, wmp.iwmpsubscriptionservice2
 ms.topic: interface
-f1_keywords: 
- - "subscriptionservices/IWMPSubscriptionService2"
+f1_keywords:
+- subscriptionservices/IWMPSubscriptionService2
 dev_langs:
- - c++
+- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - subscriptionservices.h
+- subscriptionservices.h
 api_name:
- - IWMPSubscriptionService2
+- IWMPSubscriptionService2
 targetos: Windows
 req.typenames: 
 req.redist: 

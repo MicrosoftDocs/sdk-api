@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.SetConnectState
 title: IOfflineFilesConnectionInfo::SetConnectState (cscobj.h)
-
 description: Sets the connection state for an item.
 old-location: of\iofflinefilesconnectioninfo_setconnectstate.htm
 tech.root: offlinefiles
 ms.assetid: 42412f42-7a70-4110-88ec-a38b3df7d2da
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesConnectionInfo interface [Offline Files],SetConnectState method, IOfflineFilesConnectionInfo.SetConnectState, IOfflineFilesConnectionInfo::SetConnectState, OFFLINEFILES_CONNECT_STATE_OFFLINE, OFFLINEFILES_CONNECT_STATE_ONLINE, OFFLINEFILES_TRANSITION_FLAG_CONSOLE, OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE, SetConnectState, SetConnectState method [Offline Files], SetConnectState method [Offline Files],IOfflineFilesConnectionInfo interface, cscobj/IOfflineFilesConnectionInfo::SetConnectState, of.iofflinefilesconnectioninfo_setconnectstate
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesConnectionInfo.SetConnectState"
+f1_keywords:
+- cscobj/IOfflineFilesConnectionInfo.SetConnectState
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesConnectionInfo.SetConnectState
+- IOfflineFilesConnectionInfo.SetConnectState
 targetos: Windows
 req.typenames: 
 req.redist: 

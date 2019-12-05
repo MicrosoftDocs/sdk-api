@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.GetImage
 title: TextureBrush::GetImage (gdiplusbrush.h)
-
 description: The TextureBrush::GetImage method gets a pointer to the Image object that is defined by this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetImage_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\getimage.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetImage, GetImage method [GDI+], GetImage method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetImage method, TextureBrush.GetImage, TextureBrush::GetImage, _gdiplus_CLASS_TextureBrush_GetImage_, gdiplus._gdiplus_CLASS_TextureBrush_GetImage_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.GetImage"
+f1_keywords:
+- gdiplusbrush/TextureBrush.GetImage
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.GetImage
+- TextureBrush.GetImage
 targetos: Windows
 req.typenames: 
 req.redist: 

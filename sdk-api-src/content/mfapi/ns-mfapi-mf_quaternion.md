@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi._MF_QUATERNION
 title: MF_QUATERNION (mfapi.h)
-
 description: A four dimensional vector, used to represent a rotation.
 old-location: mf\mf_quaternion.htm
 tech.root: medfound
 ms.assetid: 109C0C32-0465-46A6-8851-E56159BE6FD0
-
 ms.date: 12/05/2018
 ms.keywords: MF_QUATERNION, MF_QUATERNION structure [Media Foundation], PMF_QUATERNION, PMF_QUATERNION structure pointer [Media Foundation], mf.mf_quaternion, mfapi/MF_QUATERNION, mfapi/PMF_QUATERNION
 ms.topic: struct
-f1_keywords: 
- - "mfapi/MF_QUATERNION"
+f1_keywords:
+- mfapi/MF_QUATERNION
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MF_QUATERNION
+- MF_QUATERNION
 targetos: Windows
 req.typenames: MF_QUATERNION
 req.redist: 

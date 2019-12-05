@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetTitle
 title: IPhotoProgressDialog::SetTitle (photoacquire.h)
-
 description: The SetTitle method sets the title of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_settitle.htm
 tech.root: acquisition
 ms.assetid: ee1f8b8e-bc46-4699-a682-2933c18a794b
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetTitle method, IPhotoProgressDialog.SetTitle, IPhotoProgressDialog::SetTitle, IPhotoProgressDialogSetTitle, SetTitle, SetTitle method [Picture Acquisition], SetTitle method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetTitle, picacq.iphotoprogressdialog_settitle
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.SetTitle"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.SetTitle
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.SetTitle
+- IPhotoProgressDialog.SetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

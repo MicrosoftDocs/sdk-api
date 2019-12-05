@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMetadataText.get_text
 title: IWMPMetadataText::get_text (wmp.h)
-
 description: The get_text method retrieves the metadata text.
 old-location: wmp\iwmpmetadatatext_get_text.htm
 tech.root: WMP
 ms.assetid: 88aeb4bb-87e1-413d-888b-608fa349ebf5
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataText interface [Windows Media Player],get_text method, IWMPMetadataText.get_text, IWMPMetadataText::get_text, IWMPMetadataTextget_text, get_text, get_text method [Windows Media Player], get_text method [Windows Media Player],IWMPMetadataText interface, wmp.iwmpmetadatatext_get_text, wmp/IWMPMetadataText::get_text
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMetadataText.get_text"
+f1_keywords:
+- wmp/IWMPMetadataText.get_text
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMetadataText.get_text
+- IWMPMetadataText.get_text
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_FIGURE_BEGIN
 title: D2D1_FIGURE_BEGIN (d2d1.h)
-
 description: Indicates whether a specific ID2D1SimplifiedGeometrySink figure is filled or hollow.
 old-location: direct2d\D2D1_FIGURE_BEGIN.htm
 tech.root: Direct2D
 ms.assetid: c29aa79e-b978-4318-a8e1-5a321cd66327
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_FIGURE_BEGIN, D2D1_FIGURE_BEGIN enumeration [Direct2D], D2D1_FIGURE_BEGIN_FILLED, D2D1_FIGURE_BEGIN_HOLLOW, d2d1/D2D1_FIGURE_BEGIN, d2d1/D2D1_FIGURE_BEGIN_FILLED, d2d1/D2D1_FIGURE_BEGIN_HOLLOW, direct2d.D2D1_FIGURE_BEGIN
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_FIGURE_BEGIN"
+f1_keywords:
+- d2d1/D2D1_FIGURE_BEGIN
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_FIGURE_BEGIN
+- D2D1_FIGURE_BEGIN
 targetos: Windows
 req.typenames: D2D1_FIGURE_BEGIN
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmReportGenerationContext
 title: FsrmReportGenerationContext (fsrmenums.h)
-
 description: Defines the context in which the report is initiated.
 old-location: fsrm\fsrmreportgenerationcontext.htm
 tech.root: fsrm
 ms.assetid: 02e18cc2-7c5e-473f-8a7f-e310bfb1c57d
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportGenerationContext, FsrmReportGenerationContext enumeration [File Server Resource Manager], FsrmReportGenerationContext_IncidentReport, FsrmReportGenerationContext_InteractiveReport, FsrmReportGenerationContext_ScheduledReport, FsrmReportGenerationContext_Undefined, fs.fsrmreportgenerationcontext, fsrm.fsrmreportgenerationcontext, fsrmenums/FsrmReportGenerationContext, fsrmenums/FsrmReportGenerationContext_IncidentReport, fsrmenums/FsrmReportGenerationContext_InteractiveReport, fsrmenums/FsrmReportGenerationContext_ScheduledReport, fsrmenums/FsrmReportGenerationContext_Undefined
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmReportGenerationContext"
+f1_keywords:
+- fsrmenums/FsrmReportGenerationContext
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmReportGenerationContext
+- FsrmReportGenerationContext
 targetos: Windows
 req.typenames: FsrmReportGenerationContext
 req.redist: 

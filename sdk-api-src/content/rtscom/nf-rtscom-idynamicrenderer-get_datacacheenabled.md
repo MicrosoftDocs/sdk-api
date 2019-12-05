@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.get_DataCacheEnabled
 title: IDynamicRenderer::get_DataCacheEnabled (rtscom.h)
-
 description: Gets or sets a value that indicates whether data caching is enabled for the DynamicRenderer Class object.
 old-location: tablet\idynamicrenderer_datacacheenabled.htm
 tech.root: tablet
 ms.assetid: 1b2435ee-4682-4499-aa5c-35201ab2ba95
-
 ms.date: 12/05/2018
 ms.keywords: 1b2435ee-4682-4499-aa5c-35201ab2ba95, DataCacheEnabled property [Tablet PC], DataCacheEnabled property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],DataCacheEnabled property, IDynamicRenderer.DataCacheEnabled, IDynamicRenderer.get_DataCacheEnabled, IDynamicRenderer.put_DataCacheEnabled, IDynamicRenderer::DataCacheEnabled, IDynamicRenderer::get_DataCacheEnabled, IDynamicRenderer::put_DataCacheEnabled, get_DataCacheEnabled, rtscom/IDynamicRenderer::DataCacheEnabled, rtscom/IDynamicRenderer::get_DataCacheEnabled, rtscom/IDynamicRenderer::put_DataCacheEnabled, tablet.idynamicrenderer_datacacheenabled
 ms.topic: method
-f1_keywords: 
- - "rtscom/IDynamicRenderer.DataCacheEnabled"
+f1_keywords:
+- rtscom/IDynamicRenderer.DataCacheEnabled
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IDynamicRenderer.DataCacheEnabled
- - IDynamicRenderer.get_DataCacheEnabled
- - IDynamicRenderer.put_DataCacheEnabled
- - IDynamicRenderer.get_DataCacheEnabled
- - IDynamicRenderer.put_DataCacheEnabled
+- IDynamicRenderer.DataCacheEnabled
+- IDynamicRenderer.get_DataCacheEnabled
+- IDynamicRenderer.put_DataCacheEnabled
+- IDynamicRenderer.get_DataCacheEnabled
+- IDynamicRenderer.put_DataCacheEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

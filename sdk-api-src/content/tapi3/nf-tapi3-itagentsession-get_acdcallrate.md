@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAgentSession.get_ACDCallRate
 title: ITAgentSession::get_ACDCallRate (tapi3.h)
-
 description: The get_ACDCallRate method gets the all rate per agent session, in calls per hour.
 old-location: tapi3\itagentsession_get_acdcallrate.htm
 tech.root: Tapi
 ms.assetid: 49737945-7e27-4c88-94c5-29db7dccfc97
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession interface [TAPI 2.2],get_ACDCallRate method, ITAgentSession.get_ACDCallRate, ITAgentSession::get_ACDCallRate, _tapi3_itagentsession_get_acdcallrate, get_ACDCallRate, get_ACDCallRate method [TAPI 2.2], get_ACDCallRate method [TAPI 2.2],ITAgentSession interface, tapi3.itagentsession_get_acdcallrate, tapi3cc/ITAgentSession::get_ACDCallRate
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAgentSession.get_ACDCallRate"
+f1_keywords:
+- tapi3/ITAgentSession.get_ACDCallRate
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSession.get_ACDCallRate
+- ITAgentSession.get_ACDCallRate
 targetos: Windows
 req.typenames: 
 req.redist: 

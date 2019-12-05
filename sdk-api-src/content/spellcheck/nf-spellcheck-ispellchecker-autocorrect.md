@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.ISpellChecker.AutoCorrect
 title: ISpellChecker::AutoCorrect (spellcheck.h)
-
 description: Causes occurrences of one word to be replaced by another.
 old-location: intl\ispellchecker_autocorrect.htm
 tech.root: Intl
 ms.assetid: 7c0d24dc-cec2-4304-bfbc-096fa4d0e8d0
-
 ms.date: 12/05/2018
 ms.keywords: AutoCorrect, AutoCorrect method [Internationalization for Windows Applications], AutoCorrect method [Internationalization for Windows Applications],ISpellChecker interface, ISpellChecker interface [Internationalization for Windows Applications],AutoCorrect method, ISpellChecker.AutoCorrect, ISpellChecker::AutoCorrect, intl.ispellchecker_autocorrect, spellcheck/ISpellChecker::AutoCorrect
 ms.topic: method
-f1_keywords: 
- - "spellcheck/ISpellChecker.AutoCorrect"
+f1_keywords:
+- spellcheck/ISpellChecker.AutoCorrect
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - ISpellChecker.AutoCorrect
+- ISpellChecker.AutoCorrect
 targetos: Windows
 req.typenames: 
 req.redist: 

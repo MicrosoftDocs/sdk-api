@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetClipBox
 title: GetClipBox function (wingdi.h)
-
 description: The GetClipBox function retrieves the dimensions of the tightest bounding rectangle that can be drawn around the current visible area on the device.
 old-location: gdi\getclipbox.htm
 tech.root: gdi
 ms.assetid: b4ee68ab-b99e-48b6-90ce-6d6c0ae144e2
-
 ms.date: 12/05/2018
 ms.keywords: GetClipBox, GetClipBox function [Windows GDI], _win32_GetClipBox, gdi.getclipbox, wingdi/GetClipBox
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetClipBox"
+f1_keywords:
+- wingdi/GetClipBox
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-DC-l1-2-0.dll
- - ext-ms-win-gdi-dc-l1-1-0.dll
- - ext-ms-win-gdi-dc-l1-2-1.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-DC-l1-2-0.dll
+- ext-ms-win-gdi-dc-l1-1-0.dll
+- ext-ms-win-gdi-dc-l1-2-1.dll
+- GDI32Full.dll
 api_name:
- - GetClipBox
+- GetClipBox
 targetos: Windows
 req.typenames: 
 req.redist: 

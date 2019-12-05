@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.IPrincipal2
 title: IPrincipal2 (taskschd.h)
-
 description: Provides the extended settings applied to security credentials for a principal.
 old-location: taskschd\iprincipal2.htm
 tech.root: taskschd
 ms.assetid: 480f8038-0f67-4a69-b6f6-d7ba881d9d57
-
 ms.date: 12/05/2018
 ms.keywords: IPrincipal2, IPrincipal2 interface [Task Scheduler], IPrincipal2 interface [Task Scheduler],described, taskschd.iprincipal2, taskschd/IPrincipal2
 ms.topic: interface
-f1_keywords: 
- - "taskschd/IPrincipal2"
+f1_keywords:
+- taskschd/IPrincipal2
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IPrincipal2
+- IPrincipal2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:oleidl.tagOLEWHICHMK
 title: OLEWHICHMK (oleidl.h)
-
 description: Indicates which part of an object's moniker is being set or retrieved.
 old-location: com\olewhichmk.htm
 tech.root: com
 ms.assetid: 3774c868-c312-4e7c-aa57-cdb13000a87c
-
 ms.date: 12/05/2018
 ms.keywords: OLEWHICHMK, OLEWHICHMK enumeration [COM], OLEWHICHMK_CONTAINER, OLEWHICHMK_OBJFULL, OLEWHICHMK_OBJREL, _ole_OLEWHICHMK, com.olewhichmk, oleidl/OLEWHICHMK, oleidl/OLEWHICHMK_CONTAINER, oleidl/OLEWHICHMK_OBJFULL, oleidl/OLEWHICHMK_OBJREL
 ms.topic: enum
-f1_keywords: 
- - "oleidl/OLEWHICHMK"
+f1_keywords:
+- oleidl/OLEWHICHMK
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLEWHICHMK
+- OLEWHICHMK
 targetos: Windows
 req.typenames: OLEWHICHMK
 req.redist: 

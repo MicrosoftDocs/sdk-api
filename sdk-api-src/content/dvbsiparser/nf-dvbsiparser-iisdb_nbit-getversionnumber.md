@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetVersionNumber
 title: IISDB_NBIT::GetVersionNumber (dvbsiparser.h)
-
 description: Gets the version number of a subtable within an Integrated Services Digital Broadcasting (ISDB) network broadcaster Information Table (NBIT).
 old-location: mstv\iisdb_nbit_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 1082700f-f52d-466e-8191-abbe0b5f8d66
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_NBIT.GetVersionNumber, IISDB_NBIT::GetVersionNumber, dvbsiparser/IISDB_NBIT::GetVersionNumber, mstv.iisdb_nbit_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_NBIT.GetVersionNumber"
+f1_keywords:
+- dvbsiparser/IISDB_NBIT.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_NBIT.GetVersionNumber
+- IISDB_NBIT.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineNotify.EventNotify
 title: IMFMediaEngineNotify::EventNotify (mfmediaengine.h)
-
 description: Notifies the application when a playback event occurs.
 old-location: mf\imfmediaenginenotify_eventnotify.htm
 tech.root: medfound
 ms.assetid: F6B9E025-53C4-4459-9EC4-EA228065FAD3
-
 ms.date: 12/05/2018
 ms.keywords: EventNotify, EventNotify method [Media Foundation], EventNotify method [Media Foundation],IMFMediaEngineNotify interface, IMFMediaEngineNotify interface [Media Foundation],EventNotify method, IMFMediaEngineNotify.EventNotify, IMFMediaEngineNotify::EventNotify, mf.imfmediaenginenotify_eventnotify, mfmediaengine/IMFMediaEngineNotify::EventNotify
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineNotify.EventNotify"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineNotify.EventNotify
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineNotify.EventNotify
+- IMFMediaEngineNotify.EventNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

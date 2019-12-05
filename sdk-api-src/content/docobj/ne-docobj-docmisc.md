@@ -1,19 +1,17 @@
 ---
 UID: NE:docobj.__MIDL_IOleDocument_0001
 title: DOCMISC (docobj.h)
-
 description: Provides miscellaneous property information about a document object.
 old-location: com\docmisc.htm
 tech.root: com
 ms.assetid: e52e022e-dd82-42f0-a3dd-2730ad80613c
-
 ms.date: 12/05/2018
 ms.keywords: DOCMISC, DOCMISC enumeration [COM], DOCMISC_CANCREATEMULTIPLEVIEWS, DOCMISC_CANTOPENEDIT, DOCMISC_NOFILESUPPORT, DOCMISC_SUPPORTCOMPLEXRECTANGLES, _ole_DOCMISC, com.docmisc, docobj/DOCMISC, docobj/DOCMISC_CANCREATEMULTIPLEVIEWS, docobj/DOCMISC_CANTOPENEDIT, docobj/DOCMISC_NOFILESUPPORT, docobj/DOCMISC_SUPPORTCOMPLEXRECTANGLES
 ms.topic: enum
-f1_keywords: 
- - "docobj/DOCMISC"
+f1_keywords:
+- docobj/DOCMISC
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - DOCMISC
+- DOCMISC
 targetos: Windows
 req.typenames: DOCMISC
 req.redist: 

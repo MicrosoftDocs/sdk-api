@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateSamplerState
 title: ID3D10Device::CreateSamplerState (d3d10.h)
-
 description: Create a sampler-state object that encapsulates sampling information for a texture.
 old-location: direct3d10\id3d10device_createsamplerstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createsamplerstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateSamplerState, CreateSamplerState method [Direct3D 10], CreateSamplerState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateSamplerState method, ID3D10Device.CreateSamplerState, ID3D10Device::CreateSamplerState, a31393bc-fcc0-a2f3-9886-f79cb4ca7009, d3d10/ID3D10Device::CreateSamplerState, direct3d10.id3d10device_createsamplerstate
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateSamplerState"
+f1_keywords:
+- d3d10/ID3D10Device.CreateSamplerState
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateSamplerState
+- ID3D10Device.CreateSamplerState
 targetos: Windows
 req.typenames: 
 req.redist: 

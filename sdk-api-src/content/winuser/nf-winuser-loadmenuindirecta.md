@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LoadMenuIndirectA
 title: LoadMenuIndirectA function (winuser.h)
-
 description: Loads the specified menu template in memory.
 old-location: menurc\loadmenuindirect.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\loadmenuindirect.htm
-
 ms.date: 12/05/2018
 ms.keywords: LoadMenuIndirect, LoadMenuIndirect function [Menus and Other Resources], LoadMenuIndirectA, LoadMenuIndirectW, _win32_LoadMenuIndirect, _win32_loadmenuindirect_cpp, menurc.loadmenuindirect, winui._win32_loadmenuindirect, winuser/LoadMenuIndirect, winuser/LoadMenuIndirectA, winuser/LoadMenuIndirectW
 ms.topic: function
-f1_keywords: 
- - "winuser/LoadMenuIndirect"
+f1_keywords:
+- winuser/LoadMenuIndirect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - LoadMenuIndirect
- - LoadMenuIndirectA
- - LoadMenuIndirectW
+- LoadMenuIndirect
+- LoadMenuIndirectA
+- LoadMenuIndirectW
 targetos: Windows
 req.typenames: 
 req.redist: 

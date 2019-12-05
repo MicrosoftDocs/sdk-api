@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ClearRenderTargetView
 title: ID3D11DeviceContext::ClearRenderTargetView (d3d11.h)
-
 description: Set all the elements in a render target to one value.
 old-location: direct3d11\id3d11devicecontext_clearrendertargetview.htm
 tech.root: direct3d11
 ms.assetid: bbc6d3fb-b64f-47b0-9feb-a248dce0bf4b
-
 ms.date: 12/05/2018
 ms.keywords: 2d296302-263e-a0b0-10ad-d1afbdf56ebf, ClearRenderTargetView, ClearRenderTargetView method [Direct3D 11], ClearRenderTargetView method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ClearRenderTargetView method, ID3D11DeviceContext.ClearRenderTargetView, ID3D11DeviceContext::ClearRenderTargetView, d3d11/ID3D11DeviceContext::ClearRenderTargetView, direct3d11.id3d11devicecontext_clearrendertargetview
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.ClearRenderTargetView"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.ClearRenderTargetView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.ClearRenderTargetView
+- ID3D11DeviceContext.ClearRenderTargetView
 targetos: Windows
 req.typenames: 
 req.redist: 

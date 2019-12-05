@@ -1,19 +1,17 @@
 ---
 UID: NF:roparameterizediid.RoParameterizedTypeExtraGetTypeSignature
 title: RoParameterizedTypeExtraGetTypeSignature function (roparameterizediid.h)
-
 description: Gets the type signature used to compute the IID from the last call to RoGetParameterizedTypeInstanceIID with the specified handle.
 old-location: winrt\roparameterizedtypeextragettypesignature.htm
 tech.root: WinRT
 ms.assetid: E51A7A3D-F4BF-44BD-ACF2-B0AC7A4161EA
-
 ms.date: 12/05/2018
 ms.keywords: RoParameterizedTypeExtraGetTypeSignature, RoParameterizedTypeExtraGetTypeSignature function [Windows Runtime], roparameterizediid/RoParameterizedTypeExtraGetTypeSignature, winrt.roparameterizedtypeextragettypesignature
 ms.topic: function
-f1_keywords: 
- - "roparameterizediid/RoParameterizedTypeExtraGetTypeSignature"
+f1_keywords:
+- roparameterizediid/RoParameterizedTypeExtraGetTypeSignature
 dev_langs:
- - c++
+- c++
 req.header: roparameterizediid.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Runtimeobject.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - runtimeobject.lib
- - runtimeobject.dll
- - API-MS-Win-Core-WinRT-roparameterizediid-l1-1-0.dll
- - ComBase.dll
+- runtimeobject.lib
+- runtimeobject.dll
+- API-MS-Win-Core-WinRT-roparameterizediid-l1-1-0.dll
+- ComBase.dll
 api_name:
- - RoParameterizedTypeExtraGetTypeSignature
+- RoParameterizedTypeExtraGetTypeSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

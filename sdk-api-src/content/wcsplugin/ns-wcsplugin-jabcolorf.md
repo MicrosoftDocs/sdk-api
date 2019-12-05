@@ -1,19 +1,17 @@
 ---
 UID: NS:wcsplugin._JabColorF
 title: JabColorF (wcsplugin.h)
-
 description: TBD.
 old-location: wcs\jabcolorf.htm
 tech.root: WCS
 ms.assetid: c92a62b0-6c78-43cd-8b14-201f872c27fa
-
 ms.date: 12/05/2018
 ms.keywords: JabColorF, JabColorF structure [Windows Color System], wcs.jabcolorf, wcsplugin/JChColorF
 ms.topic: struct
-f1_keywords: 
- - "wcsplugin/JabColorF"
+f1_keywords:
+- wcsplugin/JabColorF
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - JabColorF
+- JabColorF
 targetos: Windows
 req.typenames: JabColorF
 req.redist: 

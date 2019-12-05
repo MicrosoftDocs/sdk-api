@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10Effect.Optimize
 title: ID3D10Effect::Optimize (d3d10effect.h)
-
 description: Minimize the amount of memory required for an effect.
 old-location: direct3d10\id3d10effect_optimize.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_optimize.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Effect interface [Direct3D 10],Optimize method, ID3D10Effect.Optimize, ID3D10Effect::Optimize, Optimize, Optimize method [Direct3D 10], Optimize method [Direct3D 10],ID3D10Effect interface, d3d10effect/ID3D10Effect::Optimize, direct3d10.id3d10effect_optimize, fbbf4573-f405-bce6-e72a-a861f2d82e60
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10Effect.Optimize"
+f1_keywords:
+- d3d10effect/ID3D10Effect.Optimize
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10Effect.Optimize
+- ID3D10Effect.Optimize
 targetos: Windows
 req.typenames: 
 req.redist: 

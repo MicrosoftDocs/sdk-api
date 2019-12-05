@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqEndRegisterWorkQueueWithMMCSS
 title: RtwqEndRegisterWorkQueueWithMMCSS function (rtworkq.h)
-
 description: Completes an asynchronous request to associate a work queue with a Multimedia Class Scheduler Service (MMCSS) task.
 old-location: base\rtwqendregisterworkqueuewithmmcss.htm
 tech.root: ProcThread
 ms.assetid: 887dec6f-c3ba-4139-b80b-6a2e05bfa1f9
-
 ms.date: 12/05/2018
 ms.keywords: RtwqEndRegisterWorkQueueWithMMCSS, RtwqEndRegisterWorkQueueWithMMCSS function, base.rtwqendregisterworkqueuewithmmcss, rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqEndRegisterWorkQueueWithMMCSS"
+f1_keywords:
+- rtworkq/RtwqEndRegisterWorkQueueWithMMCSS
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqEndRegisterWorkQueueWithMMCSS
+- RtwqEndRegisterWorkQueueWithMMCSS
 targetos: Windows
 req.typenames: 
 req.redist: 

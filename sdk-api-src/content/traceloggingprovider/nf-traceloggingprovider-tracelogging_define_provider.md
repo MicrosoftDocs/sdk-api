@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DEFINE_PROVIDER
 title: TRACELOGGING_DEFINE_PROVIDER macro (traceloggingprovider.h)
-
 description: Allocates storage for a TraceLogging provider and creates a handle to the provider.
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER.htm
 tech.root: tracelogging
 ms.assetid: 4515652D-86B0-4274-8523-27292F5F6815
-
 ms.date: 12/05/2018
 ms.keywords: TRACELOGGING_DEFINE_PROVIDER, TRACELOGGING_DEFINE_PROVIDER macro, tracelogging.TRACELOGGING_DEFINE_PROVIDER, tracelogging.traceloggingprovider, traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER"
+f1_keywords:
+- traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TRACELOGGING_DEFINE_PROVIDER
+- TRACELOGGING_DEFINE_PROVIDER
 targetos: Windows
 req.typenames: 
 req.redist: 

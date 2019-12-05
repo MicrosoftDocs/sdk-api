@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.GetProcessDpiAwareness
 title: GetProcessDpiAwareness function (shellscalingapi.h)
-
 description: Retrieves the dots per inch (dpi) awareness of the specified process.
 old-location: hidpi\getprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessDpiAwareness, GetProcessDpiAwareness function [High DPI], hidpi.getprocessdpiawareness, shellscalingapi/GetProcessDpiAwareness, winmsg.GetProcessDpiAwareness
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/GetProcessDpiAwareness"
+f1_keywords:
+- shellscalingapi/GetProcessDpiAwareness
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - shcore.dll
- - api-ms-win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-L1-1-2.dll
+- shcore.dll
+- api-ms-win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-L1-1-2.dll
 api_name:
- - GetProcessDpiAwareness
+- GetProcessDpiAwareness
 targetos: Windows
 req.typenames: 
 req.redist: 

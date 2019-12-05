@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlNtStatusToDosError
 title: RtlNtStatusToDosError function (winternl.h)
-
 description: Converts the specified NTSTATUS code to its equivalent system error code.
 old-location: base\rtlntstatustodoserror.htm
 tech.root: Debug
 ms.assetid: 4a28be1f-28b9-45a4-8ac7-58e43452558a
-
 ms.date: 12/05/2018
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError function, base.rtlntstatustodoserror, winternl/RtlNtStatusToDosError
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlNtStatusToDosError"
+f1_keywords:
+- winternl/RtlNtStatusToDosError
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlNtStatusToDosError
+- RtlNtStatusToDosError
 targetos: Windows
 req.typenames: 
 req.redist: 

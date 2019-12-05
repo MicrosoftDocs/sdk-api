@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetLOD
 title: IDirectDrawSurface7::GetLOD (ddraw.h)
-
 description: Retrieves the maximum level of detail (LOD) currently set for a managed mipmap surface. This method succeeds only on managed textures.
 old-location: directdraw\idirectdrawsurface7_getlod.htm
 tech.root: directdraw
 ms.assetid: 9208372b-47ac-4079-9e4a-28cf51912a93
-
 ms.date: 12/05/2018
 ms.keywords: GetLOD, GetLOD method [DirectDraw], GetLOD method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetLOD method, IDirectDrawSurface7.GetLOD, IDirectDrawSurface7::GetLOD, ddraw/IDirectDrawSurface7::GetLOD, directdraw.idirectdrawsurface7_getlod
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.GetLOD"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetLOD
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.GetLOD
+- IDirectDrawSurface7.GetLOD
 targetos: Windows
 req.typenames: 
 req.redist: 

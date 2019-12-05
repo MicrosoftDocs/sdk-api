@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.EndEnumeration
 title: IPhotoAcquireProgressCB::EndEnumeration (photoacquire.h)
-
 description: The EndEnumeration method provides extended functionality when enumeration of files from the image source is complete. The application provides the implementation of the EndEnumeration method.
 old-location: picacq\iphotoacquireprogresscb_endenumeration.htm
 tech.root: acquisition
 ms.assetid: dac16ca2-bd80-4771-9e81-09d07958a4bb
-
 ms.date: 12/05/2018
 ms.keywords: EndEnumeration, EndEnumeration method [Picture Acquisition], EndEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, IPhotoAcquireProgressCB interface [Picture Acquisition],EndEnumeration method, IPhotoAcquireProgressCB.EndEnumeration, IPhotoAcquireProgressCB::EndEnumeration, IPhotoAcquireProgressCBEndEnumeration, photoacquire/IPhotoAcquireProgressCB::EndEnumeration, picacq.iphotoacquireprogresscb_endenumeration
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.EndEnumeration"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.EndEnumeration
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.EndEnumeration
+- IPhotoAcquireProgressCB.EndEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

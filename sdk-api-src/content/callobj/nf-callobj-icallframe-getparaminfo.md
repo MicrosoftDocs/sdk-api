@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.GetParamInfo
 title: ICallFrame::GetParamInfo (callobj.h)
-
 description: Retrieves the information for the specified parameter.
 old-location: com\icallframe_getparaminfo.htm
 tech.root: com
 ms.assetid: fb75930d-8e1b-4e97-87f2-bb9d171658a8
-
 ms.date: 12/05/2018
 ms.keywords: GetParamInfo, GetParamInfo method [COM], GetParamInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetParamInfo method, ICallFrame.GetParamInfo, ICallFrame::GetParamInfo, _com_icallframe_getparaminfo, callobj/ICallFrame::GetParamInfo, com.icallframe_getparaminfo
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.GetParamInfo"
+f1_keywords:
+- callobj/ICallFrame.GetParamInfo
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.GetParamInfo
+- ICallFrame.GetParamInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

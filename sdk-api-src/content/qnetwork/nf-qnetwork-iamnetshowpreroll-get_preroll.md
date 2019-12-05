@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowPreroll.get_Preroll
 title: IAMNetShowPreroll::get_Preroll (qnetwork.h)
-
 description: The get_Preroll method queries whether the filter is currently prerolling.
 old-location: dshow\iamnetshowpreroll_get_preroll.htm
 tech.root: DirectShow
 ms.assetid: c868a997-9d22-452b-9d57-6bd34b054d35
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowPreroll interface [DirectShow],get_Preroll method, IAMNetShowPreroll.get_Preroll, IAMNetShowPreroll::get_Preroll, IAMNetShowPrerollget_Preroll, dshow.iamnetshowpreroll_get_preroll, get_Preroll, get_Preroll method [DirectShow], get_Preroll method [DirectShow],IAMNetShowPreroll interface, qnetwork/IAMNetShowPreroll::get_Preroll
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowPreroll.get_Preroll"
+f1_keywords:
+- qnetwork/IAMNetShowPreroll.get_Preroll
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowPreroll.get_Preroll
+- IAMNetShowPreroll.get_Preroll
 targetos: Windows
 req.typenames: 
 req.redist: 

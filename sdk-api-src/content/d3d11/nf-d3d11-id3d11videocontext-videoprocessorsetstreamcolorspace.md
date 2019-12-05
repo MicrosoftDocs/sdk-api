@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamColorSpace
 title: ID3D11VideoContext::VideoProcessorSetStreamColorSpace (d3d11.h)
-
 description: Sets the color space for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamcolorspace.htm
 tech.root: medfound
 ms.assetid: EFF6BF9B-CC96-4D57-A97A-B3E8457346B5
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamColorSpace method, ID3D11VideoContext.VideoProcessorSetStreamColorSpace, ID3D11VideoContext::VideoProcessorSetStreamColorSpace, VideoProcessorSetStreamColorSpace, VideoProcessorSetStreamColorSpace method [Media Foundation], VideoProcessorSetStreamColorSpace method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamColorSpace, mf.id3d11videocontext_videoprocessorsetstreamcolorspace
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamColorSpace"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamColorSpace
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamColorSpace
+- ID3D11VideoContext.VideoProcessorSetStreamColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

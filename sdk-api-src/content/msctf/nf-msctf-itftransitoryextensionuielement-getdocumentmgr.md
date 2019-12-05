@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfTransitoryExtensionUIElement.GetDocumentMgr
 title: ITfTransitoryExtensionUIElement::GetDocumentMgr (msctf.h)
-
 description: The ITfTransitoryExtensionUIElement::GetDocumentMgr method returns the pointer of the transitory document manager.
 old-location: tsf\itftransitoryextensionuielement_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: 199598fc-09e8-4d3b-b460-c76a1e4ee623
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfTransitoryExtensionUIElement interface, ITfTransitoryExtensionUIElement interface [Text Services Framework],GetDocumentMgr method, ITfTransitoryExtensionUIElement.GetDocumentMgr, ITfTransitoryExtensionUIElement::GetDocumentMgr, msctf/ITfTransitoryExtensionUIElement::GetDocumentMgr, tsf.itftransitoryextensionuielement_getdocumentmgr
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfTransitoryExtensionUIElement.GetDocumentMgr"
+f1_keywords:
+- msctf/ITfTransitoryExtensionUIElement.GetDocumentMgr
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfTransitoryExtensionUIElement.GetDocumentMgr
+- ITfTransitoryExtensionUIElement.GetDocumentMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

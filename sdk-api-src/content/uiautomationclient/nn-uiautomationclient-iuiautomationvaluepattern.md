@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationValuePattern
 title: IUIAutomationValuePattern (uiautomationclient.h)
-
 description: Provides access to a control that contains a value that does not span a range and that can be represented as a string.
 old-location: winauto\uiauto_IUIAutomationValuePattern.htm
 tech.root: WinAuto
 ms.assetid: 07277405-1172-42e5-af51-8e2c1ea06894
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationValuePattern, IUIAutomationValuePattern interface [Windows Accessibility], IUIAutomationValuePattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationValuePattern, uiauto_IUIAutomationValuePattern, uiautomationclient/IUIAutomationValuePattern, winauto.uiauto_IUIAutomationValuePattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationValuePattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationValuePattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationValuePattern
+- IUIAutomationValuePattern
 targetos: Windows
 req.typenames: 
 req.redist: 

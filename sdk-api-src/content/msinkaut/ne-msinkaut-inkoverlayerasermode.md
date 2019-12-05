@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkOverlayEraserMode
 title: InkOverlayEraserMode (msinkaut.h)
-
 description: Specifies the way in which ink is erased from the InkOverlay object and the InkPicture control.This mode is used when the InkOverlayEditingMode is set to Delete.
 old-location: tablet\inkoverlayerasermode.htm
 tech.root: tablet
 ms.assetid: e7400a40-9b82-4750-8e92-a39c6f25b7cd
-
 ms.date: 12/05/2018
 ms.keywords: IOERM_PointErase, IOERM_StrokeErase, InkOverlayEraserMode, InkOverlayEraserMode enumeration [Tablet PC], e7400a40-9b82-4750-8e92-a39c6f25b7cd, msinkaut/IOERM_PointErase, msinkaut/IOERM_StrokeErase, msinkaut/InkOverlayEraserMode, tablet.inkoverlayerasermode
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkOverlayEraserMode"
+f1_keywords:
+- msinkaut/InkOverlayEraserMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkOverlayEraserMode
+- InkOverlayEraserMode
 targetos: Windows
 req.typenames: InkOverlayEraserMode
 req.redist: 

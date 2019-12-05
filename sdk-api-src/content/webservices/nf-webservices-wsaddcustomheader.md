@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAddCustomHeader
 title: WsAddCustomHeader function (webservices.h)
-
 description: Adds the specified application-defined header to the message.
 old-location: wsw\wsaddcustomheader.htm
 tech.root: wsw
 ms.assetid: 4b95085a-e522-4ab2-b7c9-d332599c5598
-
 ms.date: 12/05/2018
 ms.keywords: WsAddCustomHeader, WsAddCustomHeader function [Web Services for Windows], webservices/WsAddCustomHeader, wsw.wsaddcustomheader
 ms.topic: function
 f1_keywords:
 - webservices/WsAddCustomHeader
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

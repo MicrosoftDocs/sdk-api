@@ -1,19 +1,17 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1107
 title: SERVER_INFO_1107 (lmserver.h)
-
 description: The SERVER_INFO_1107 structure specifies the number of users that can simultaneously log on to the specified server.
 old-location: netmgmt\server_info_1107_str.htm
 tech.root: NetMgmt
 ms.assetid: 8e0b9157-5f06-4555-ab9e-b98b99e0f20d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSERVER_INFO_1107, *PSERVER_INFO_1107, LPSERVER_INFO_1107, LPSERVER_INFO_1107 structure pointer [Network Management], PSERVER_INFO_1107, PSERVER_INFO_1107 structure pointer [Network Management], SERVER_INFO_1107, SERVER_INFO_1107 structure [Network Management], _win32_server_info_1107_str, lmserver/LPSERVER_INFO_1107, lmserver/PSERVER_INFO_1107, lmserver/SERVER_INFO_1107, netmgmt.server_info_1107_str"
+ms.keywords: '*LPSERVER_INFO_1107, *PSERVER_INFO_1107, LPSERVER_INFO_1107, LPSERVER_INFO_1107 structure pointer [Network Management], PSERVER_INFO_1107, PSERVER_INFO_1107 structure pointer [Network Management], SERVER_INFO_1107, SERVER_INFO_1107 structure [Network Management], _win32_server_info_1107_str, lmserver/LPSERVER_INFO_1107, lmserver/PSERVER_INFO_1107, lmserver/SERVER_INFO_1107, netmgmt.server_info_1107_str'
 ms.topic: struct
-f1_keywords: 
- - "lmserver/SERVER_INFO_1107"
+f1_keywords:
+- lmserver/SERVER_INFO_1107
 dev_langs:
- - c++
+- c++
 req.header: lmserver.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmserver.h
+- Lmserver.h
 api_name:
- - SERVER_INFO_1107
+- SERVER_INFO_1107
 targetos: Windows
 req.typenames: SERVER_INFO_1107, *PSERVER_INFO_1107, *LPSERVER_INFO_1107
 req.redist: 

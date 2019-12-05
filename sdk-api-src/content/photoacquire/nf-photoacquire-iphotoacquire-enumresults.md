@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.EnumResults
 title: IPhotoAcquire::EnumResults (photoacquire.h)
-
 description: The EnumResults method retrieves an enumeration containing the paths of all files successfully transferred during the most recent call to Acquire.
 old-location: picacq\iphotoacquire_enumresults.htm
 tech.root: acquisition
 ms.assetid: 2f3bd36c-3daf-4738-8240-ce622d988861
-
 ms.date: 12/05/2018
 ms.keywords: EnumResults, EnumResults method [Picture Acquisition], EnumResults method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],EnumResults method, IPhotoAcquire.EnumResults, IPhotoAcquire::EnumResults, IPhotoAcquireEnumResults, photoacquire/IPhotoAcquire::EnumResults, picacq.iphotoacquire_enumresults
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquire.EnumResults"
+f1_keywords:
+- photoacquire/IPhotoAcquire.EnumResults
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquire.EnumResults
+- IPhotoAcquire.EnumResults
 targetos: Windows
 req.typenames: 
 req.redist: 

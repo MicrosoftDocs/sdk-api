@@ -1,19 +1,17 @@
 ---
 UID: NN:certenc.ICertEncodeCRLDistInfo
 title: ICertEncodeCRLDistInfo (certenc.h)
-
 description: Provides methods for handling certificate revocation list (CRL) distribution information arrays used in certificate extensions.
 old-location: security\icertencodecrldistinfo.htm
 tech.root: SecCrypto
 ms.assetid: e9c0053f-263f-4d7b-9356-bc33af989dbe
-
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeCRLDistInfo, ICertEncodeCRLDistInfo interface [Security], ICertEncodeCRLDistInfo interface [Security],described, _certsrv_icertencodecrldistinfo, certenc/ICertEncodeCRLDistInfo, security.icertencodecrldistinfo
 ms.topic: interface
-f1_keywords: 
- - "certenc/ICertEncodeCRLDistInfo"
+f1_keywords:
+- certenc/ICertEncodeCRLDistInfo
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo
+- ICertEncodeCRLDistInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

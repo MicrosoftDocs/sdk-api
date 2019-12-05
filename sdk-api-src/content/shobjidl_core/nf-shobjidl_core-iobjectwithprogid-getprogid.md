@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IObjectWithProgID.GetProgID
 title: IObjectWithProgID::GetProgID (shobjidl_core.h)
-
 description: Retrieves the ProgID associated with an object.
 old-location: shell\IObjectWithProgID_GetProgID.htm
 tech.root: shell
 ms.assetid: 37023615-09cb-4607-9496-7fe9d9f7c947
-
 ms.date: 12/05/2018
 ms.keywords: GetProgID, GetProgID method [Windows Shell], GetProgID method [Windows Shell],IObjectWithProgID interface, IObjectWithProgID interface [Windows Shell],GetProgID method, IObjectWithProgID.GetProgID, IObjectWithProgID::GetProgID, _shell_IObjectWithProgID_GetProgID, shell.IObjectWithProgID_GetProgID, shobjidl_core/IObjectWithProgID::GetProgID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IObjectWithProgID.GetProgID"
+f1_keywords:
+- shobjidl_core/IObjectWithProgID.GetProgID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IObjectWithProgID.GetProgID
+- IObjectWithProgID.GetProgID
 targetos: Windows
 req.typenames: 
 req.redist: 

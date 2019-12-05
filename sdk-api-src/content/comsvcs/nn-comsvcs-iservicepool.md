@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServicePool
 title: IServicePool (comsvcs.h)
-
 description: Used to manage a COM+ object pool.
 old-location: cos\iservicepool.htm
 tech.root: cossdk
 ms.assetid: fb86ffa5-b4cd-48bc-a99e-245e75ddb9c2
-
 ms.date: 12/05/2018
 ms.keywords: IServicePool, IServicePool interface [COM+], IServicePool interface [COM+],described, _cos_IServicePool, comsvcs/IServicePool, cos.iservicepool
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServicePool"
+f1_keywords:
+- comsvcs/IServicePool
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePool
+- IServicePool
 targetos: Windows
 req.typenames: 
 req.redist: 

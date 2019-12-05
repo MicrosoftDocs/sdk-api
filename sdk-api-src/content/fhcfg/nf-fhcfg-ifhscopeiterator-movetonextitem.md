@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhScopeIterator.MoveToNextItem
 title: IFhScopeIterator::MoveToNextItem (fhcfg.h)
-
 description: Moves to the next item in the inclusion or exclusion list.
 old-location: winprog\ifhscopeiterator_movetonextitem.htm
 tech.root: DevNotes
 ms.assetid: FD8B5460-FBD7-47D3-ADB0-DB3D6AB5A51A
-
 ms.date: 12/05/2018
 ms.keywords: IFhScopeIterator interface [Windows API],MoveToNextItem method, IFhScopeIterator.MoveToNextItem, IFhScopeIterator::MoveToNextItem, MoveToNextItem, MoveToNextItem method [Windows API], MoveToNextItem method [Windows API],IFhScopeIterator interface, fhcfg/IFhScopeIterator::MoveToNextItem, winprog.ifhscopeiterator_movetonextitem
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhScopeIterator.MoveToNextItem"
+f1_keywords:
+- fhcfg/IFhScopeIterator.MoveToNextItem
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhScopeIterator.MoveToNextItem
+- IFhScopeIterator.MoveToNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 

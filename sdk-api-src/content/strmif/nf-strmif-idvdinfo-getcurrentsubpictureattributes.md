@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentSubpictureAttributes
 title: IDvdInfo::GetCurrentSubpictureAttributes (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current subpicture stream in the current title or menu.
 old-location: dshow\idvdinfo_getcurrentsubpictureattributes.htm
 tech.root: DirectShow
 ms.assetid: 9beb31e3-b3ff-4c7a-922f-9f1e9725ddde
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSubpictureAttributes, GetCurrentSubpictureAttributes method [DirectShow], GetCurrentSubpictureAttributes method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpictureAttributes method, IDvdInfo.GetCurrentSubpictureAttributes, IDvdInfo::GetCurrentSubpictureAttributes, IDvdInfoGetCurrentSubpictureAttributes, dshow.idvdinfo_getcurrentsubpictureattributes, strmif/IDvdInfo::GetCurrentSubpictureAttributes
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetCurrentSubpictureAttributes"
+f1_keywords:
+- strmif/IDvdInfo.GetCurrentSubpictureAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetCurrentSubpictureAttributes
+- IDvdInfo.GetCurrentSubpictureAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:cmdtree.DBVALUEKINDENUM
 title: DBVALUEKINDENUM (cmdtree.h)
-
 description: The DBVALUEKINDENUM enumerated type is used to indicate the type of the union member inside a DBCOMMANDTREE structure.
 old-location: indexsrv\dbvaluekindenum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_8565.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBVALUEKINDENUM, DBVALUEKINDENUM enumeration [Indexing Service], See below., _idxs_DBVALUEKINDENUM, cmdtree/DBVALUEKINDENUM, cmdtree/See below., indexsrv.dbvaluekindenum
 ms.topic: enum
-f1_keywords: 
- - "cmdtree/DBVALUEKINDENUM"
+f1_keywords:
+- cmdtree/DBVALUEKINDENUM
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBVALUEKINDENUM
+- DBVALUEKINDENUM
 targetos: Windows
 req.typenames: 
 req.redist: 

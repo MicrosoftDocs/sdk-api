@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.SetRemoteAddress
 title: IWSDMessageParameters::SetRemoteAddress (wsdbase.h)
-
 description: Sets the generic address object representing the remote address to where the message is sent.
 old-location: ncd\iwsdmessageparameters_setremoteaddress.htm
 tech.root: WsdApi
 ms.assetid: 7e762942-37b2-43ca-96e3-98594b929d98
-
 ms.date: 12/05/2018
 ms.keywords: IWSDMessageParameters interface,SetRemoteAddress method, IWSDMessageParameters.SetRemoteAddress, IWSDMessageParameters::SetRemoteAddress, SetRemoteAddress, SetRemoteAddress method, SetRemoteAddress method,IWSDMessageParameters interface, ncd.iwsdmessageparameters_setremoteaddress, wsdbase/IWSDMessageParameters::SetRemoteAddress
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDMessageParameters.SetRemoteAddress"
+f1_keywords:
+- wsdbase/IWSDMessageParameters.SetRemoteAddress
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDMessageParameters.SetRemoteAddress
+- IWSDMessageParameters.SetRemoteAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWROW.EnumCertViewExtension
 title: IEnumCERTVIEWROW::EnumCertViewExtension (certview.h)
-
 description: Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.
 old-location: security\ienumcertviewrow_enumcertviewextension.htm
 tech.root: SecCrypto
 ms.assetid: 41028000-fa87-4ad0-93fc-314c5d3870f9
-
 ms.date: 12/05/2018
 ms.keywords: EnumCertViewExtension, EnumCertViewExtension method [Security], EnumCertViewExtension method [Security],IEnumCERTVIEWROW interface, IEnumCERTVIEWROW interface [Security],EnumCertViewExtension method, IEnumCERTVIEWROW.EnumCertViewExtension, IEnumCERTVIEWROW::EnumCertViewExtension, _certsrv_ienumcertviewrow_enumcertviewextension, certview/IEnumCERTVIEWROW::EnumCertViewExtension, security.ienumcertviewrow_enumcertviewextension
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWROW.EnumCertViewExtension"
+f1_keywords:
+- certview/IEnumCERTVIEWROW.EnumCertViewExtension
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWROW.EnumCertViewExtension
- - IEnumCERTVIEWROW.EnumCertViewExtension
+- IEnumCERTVIEWROW.EnumCertViewExtension
+- IEnumCERTVIEWROW.EnumCertViewExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

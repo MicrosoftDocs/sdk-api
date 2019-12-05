@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.GetPath
 title: IGroupPolicyObject::GetPath (gpedit.h)
-
 description: The GetPath method retrieves the path to the GPO.
 old-location: policy\igrouppolicyobject_getpath.htm
 tech.root: Policy
 ms.assetid: ecfecaa4-eb6e-4de6-a5fe-ecd0e9df886c
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Group Policy], GetPath method [Group Policy],IGroupPolicyObject interface, IGroupPolicyObject interface [Group Policy],GetPath method, IGroupPolicyObject.GetPath, IGroupPolicyObject::GetPath, _win32_igrouppolicyobject_getpath, gpedit/IGroupPolicyObject::GetPath, policy.igrouppolicyobject_getpath
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.GetPath"
+f1_keywords:
+- gpedit/IGroupPolicyObject.GetPath
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.GetPath
+- IGroupPolicyObject.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

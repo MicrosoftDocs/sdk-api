@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnBackupComplete
 title: CVssWriter::OnBackupComplete (vswriter.h)
-
 description: The OnBackupComplete method is called by a writer following a BackupComplete event. It is used to perform operations considered necessary following a backup. These operations cannot, however, modify the Backup Components Document.
 old-location: base\cvsswriter_onbackupcomplete.htm
 tech.root: VSS
 ms.assetid: 77d0621d-81bd-4d53-8e5d-f5d3bfd86013
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnBackupComplete method, CVssWriter.OnBackupComplete, CVssWriter::OnBackupComplete, OnBackupComplete, OnBackupComplete method [VSS], OnBackupComplete method [VSS],CVssWriter interface, _win32_cvsswriter_onbackupcomplete, base.cvsswriter_onbackupcomplete, vswriter/CVssWriter::OnBackupComplete
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnBackupComplete"
+f1_keywords:
+- vswriter/CVssWriter.OnBackupComplete
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnBackupComplete
+- CVssWriter.OnBackupComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_KEY_DATA_BLOB_HEADER
 title: BCRYPT_KEY_DATA_BLOB_HEADER (bcrypt.h)
-
 description: Used to contain information about a key data BLOB.
 old-location: security\bcrypt_key_data_blob_header.htm
 tech.root: SecCNG
 ms.assetid: 054bba02-c73a-496d-b619-749c3f4e8ad9
-
 ms.date: 12/05/2018
-ms.keywords: "*PBCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER structure [Security], BCRYPT_KEY_DATA_BLOB_MAGIC, BCRYPT_KEY_DATA_BLOB_VERSION1, PBCRYPT_KEY_DATA_BLOB_HEADER, PBCRYPT_KEY_DATA_BLOB_HEADER structure pointer [Security], bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER, bcrypt/PBCRYPT_KEY_DATA_BLOB_HEADER, security.bcrypt_key_data_blob_header"
+ms.keywords: '*PBCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER structure [Security], BCRYPT_KEY_DATA_BLOB_MAGIC, BCRYPT_KEY_DATA_BLOB_VERSION1, PBCRYPT_KEY_DATA_BLOB_HEADER, PBCRYPT_KEY_DATA_BLOB_HEADER structure pointer [Security], bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER, bcrypt/PBCRYPT_KEY_DATA_BLOB_HEADER, security.bcrypt_key_data_blob_header'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER"
+f1_keywords:
+- bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_KEY_DATA_BLOB_HEADER
+- BCRYPT_KEY_DATA_BLOB_HEADER
 targetos: Windows
 req.typenames: BCRYPT_KEY_DATA_BLOB_HEADER, *PBCRYPT_KEY_DATA_BLOB_HEADER
 req.redist: 

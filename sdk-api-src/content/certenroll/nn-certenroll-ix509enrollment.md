@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IX509Enrollment
 title: IX509Enrollment (certenroll.h)
-
 description: Represents the top level object and enables you to enroll in a certificate hierarchy and install a certificate response.
 old-location: security\ix509enrollment.htm
 tech.root: seccertenroll
 ms.assetid: 37f1dd3b-bbe9-40ab-87c9-2405d97f5541
-
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment, IX509Enrollment interface [Security], IX509Enrollment interface [Security],described, certenroll/IX509Enrollment, security.ix509enrollment
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IX509Enrollment"
+f1_keywords:
+- certenroll/IX509Enrollment
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment
+- IX509Enrollment
 targetos: Windows
 req.typenames: 
 req.redist: 

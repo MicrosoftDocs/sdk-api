@@ -1,19 +1,17 @@
 ---
 UID: NS:textstor.TS_ATTRVAL
 title: TS_ATTRVAL (textstor.h)
-
 description: The TS_ATTRVAL structure contains document attribute values.
 old-location: tsf\ts_attrval.htm
 tech.root: TSF
 ms.assetid: 9209ef60-6a1d-4aad-9f9f-775534116f37
-
 ms.date: 12/05/2018
 ms.keywords: TS_ATTRVAL, TS_ATTRVAL structure [Text Services Framework], _tsf_ts_attrval_ref, textstor/TS_ATTRVAL, tsf.ts_attrval
 ms.topic: struct
-f1_keywords: 
- - "textstor/TS_ATTRVAL"
+f1_keywords:
+- textstor/TS_ATTRVAL
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TS_ATTRVAL
+- TS_ATTRVAL
 targetos: Windows
 req.typenames: TS_ATTRVAL
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPDVD.get_domain
 title: IWMPDVD::get_domain (wmp.h)
-
 description: The get_domain method retrieves the current domain of the DVD.
 old-location: wmp\iwmpdvd_get_domain.htm
 tech.root: WMP
 ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560
-
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],get_domain method, IWMPDVD.get_domain, IWMPDVD::get_domain, IWMPDVDget_domain, get_domain, get_domain method [Windows Media Player], get_domain method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_get_domain, wmp/IWMPDVD::get_domain
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPDVD.get_domain"
+f1_keywords:
+- wmp/IWMPDVD.get_domain
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPDVD.get_domain
+- IWMPDVD.get_domain
 targetos: Windows
 req.typenames: 
 req.redist: 

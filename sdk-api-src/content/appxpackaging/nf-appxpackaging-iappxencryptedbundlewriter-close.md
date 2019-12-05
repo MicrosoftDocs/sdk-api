@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter.Close
 title: IAppxEncryptedBundleWriter::Close (appxpackaging.h)
-
 description: Writes the bundle manifest and blockmap footprint files to the bundle.
 old-location: appxpkg\iappxencryptedbundlewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 0ED396CC-3CDA-440A-9FA7-3F3A85522778
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [App packaging and management], Close method [App packaging and management],IAppxEncryptedBundleWriter interface, IAppxEncryptedBundleWriter interface [App packaging and management],Close method, IAppxEncryptedBundleWriter.Close, IAppxEncryptedBundleWriter::Close, appxpackaging/IAppxEncryptedBundleWriter::Close, appxpkg.iappxencryptedbundlewriter_close
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxEncryptedBundleWriter.Close"
+f1_keywords:
+- appxpackaging/IAppxEncryptedBundleWriter.Close
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxEncryptedBundleWriter.Close
+- IAppxEncryptedBundleWriter.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

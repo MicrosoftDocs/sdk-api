@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateMFByteStreamOnStream
 title: MFCreateMFByteStreamOnStream function (mfidl.h)
-
 description: Creates a Microsoft Media Foundation byte stream that wraps an IStream pointer.
 old-location: mf\mfcreatemfbytestreamonstream.htm
 tech.root: medfound
 ms.assetid: 5ffd370a-ccc5-4229-b214-e07847287415
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateMFByteStreamOnStream, MFCreateMFByteStreamOnStream function [Media Foundation], mf.mfcreatemfbytestreamonstream, mfidl/MFCreateMFByteStreamOnStream
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateMFByteStreamOnStream"
+f1_keywords:
+- mfidl/MFCreateMFByteStreamOnStream
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMFByteStreamOnStream
+- MFCreateMFByteStreamOnStream
 targetos: Windows
 req.typenames: 
 req.redist: 

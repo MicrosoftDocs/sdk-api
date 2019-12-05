@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmSetCompositionStringA
 title: ImmSetCompositionStringA function (imm.h)
-
 description: Sets the characters, attributes, and clauses of the composition and reading strings.
 old-location: intl\immsetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 0bac534d-d2a8-4dbc-8062-f1d2a8ca0c34
-
 ms.date: 12/05/2018
 ms.keywords: ImmSetCompositionString, ImmSetCompositionString function [Internationalization for Windows Applications], ImmSetCompositionStringA, ImmSetCompositionStringW, SCS_CHANGEATTR, SCS_CHANGECLAUSE, SCS_QUERYRECONVERTSTRING, SCS_SETRECONVERTSTRING, SCS_SETSTR, _win32_ImmSetCompositionString, imm/ImmSetCompositionString, imm/ImmSetCompositionStringA, imm/ImmSetCompositionStringW, intl.immsetcompositionstring
 ms.topic: function
-f1_keywords: 
- - "imm/ImmSetCompositionString"
+f1_keywords:
+- imm/ImmSetCompositionString
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmSetCompositionString
- - ImmSetCompositionStringA
- - ImmSetCompositionStringW
+- ImmSetCompositionString
+- ImmSetCompositionStringA
+- ImmSetCompositionStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

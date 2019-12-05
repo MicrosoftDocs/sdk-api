@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddKeyframeAfterTransition
 title: IUIAnimationStoryboard2::AddKeyframeAfterTransition (uianimation.h)
-
 description: Adds a keyframe at the end of the specified transition.
 old-location: uianimation\iuianimationstoryboard2_addkeyframeaftertransition.htm
 tech.root: UIAnimation
 ms.assetid: F5D13D36-1AEE-4D47-9683-A428E9ADF1D6
-
 ms.date: 12/05/2018
 ms.keywords: AddKeyframeAfterTransition, AddKeyframeAfterTransition method [Windows Animation], AddKeyframeAfterTransition method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddKeyframeAfterTransition method, IUIAnimationStoryboard2.AddKeyframeAfterTransition, IUIAnimationStoryboard2::AddKeyframeAfterTransition, uianimation.iuianimationstoryboard2_addkeyframeaftertransition, uianimation/IUIAnimationStoryboard2::AddKeyframeAfterTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.AddKeyframeAfterTransition"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.AddKeyframeAfterTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.AddKeyframeAfterTransition
+- IUIAnimationStoryboard2.AddKeyframeAfterTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

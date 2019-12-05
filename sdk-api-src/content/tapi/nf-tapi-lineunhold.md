@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineUnhold
 title: lineUnhold function (tapi.h)
-
 description: The lineUnhold function retrieves the specified held call.
 old-location: tapi2\lineunhold.htm
 tech.root: Tapi
 ms.assetid: c32d8d3a-f54c-411a-ae86-4aecd6dce456
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineunhold, lineUnhold, lineUnhold function [TAPI 2.2], tapi/lineUnhold, tapi2.lineunhold"
+ms.keywords: _tapi2_lineunhold, lineUnhold, lineUnhold function [TAPI 2.2], tapi/lineUnhold, tapi2.lineunhold
 ms.topic: function
-f1_keywords: 
- - "tapi/lineUnhold"
+f1_keywords:
+- tapi/lineUnhold
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineUnhold
+- lineUnhold
 targetos: Windows
 req.typenames: 
 req.redist: 

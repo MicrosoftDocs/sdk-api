@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerAddExcludedApplication
 title: WerAddExcludedApplication function (werapi.h)
-
 description: Adds the specified application to the list of applications that are to be excluded from error reporting.
 old-location: wer\weraddexcludedapplication.htm
 tech.root: wer
 ms.assetid: ac1ec373-868f-4634-8658-4253d4f5923a
-
 ms.date: 12/05/2018
 ms.keywords: WerAddExcludedApplication, WerAddExcludedApplication function [Windows Error Reporting], base.weraddexcludedapplication, wer.weraddexcludedapplication, werapi/WerAddExcludedApplication
 ms.topic: function
-f1_keywords: 
- - "werapi/WerAddExcludedApplication"
+f1_keywords:
+- werapi/WerAddExcludedApplication
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wer.dll
+- Wer.dll
 api_name:
- - WerAddExcludedApplication
+- WerAddExcludedApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

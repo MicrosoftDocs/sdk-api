@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DAuthenticatedChannel9.Query
 title: IDirect3DAuthenticatedChannel9::Query (d3d9.h)
-
 description: Sends a query to the authenticated channel.
 old-location: mf\idirect3dauthenticatedchannel9_query.htm
 tech.root: medfound
 ms.assetid: 370ed31d-5b75-4767-b8d8-33cb2ff49fee
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DAuthenticatedChannel9 interface [Media Foundation],Query method, IDirect3DAuthenticatedChannel9.Query, IDirect3DAuthenticatedChannel9::Query, Query, Query method [Media Foundation], Query method [Media Foundation],IDirect3DAuthenticatedChannel9 interface, d3d9/IDirect3DAuthenticatedChannel9::Query, mf.idirect3dauthenticatedchannel9_query
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DAuthenticatedChannel9.Query"
+f1_keywords:
+- d3d9/IDirect3DAuthenticatedChannel9.Query
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DAuthenticatedChannel9.Query
+- IDirect3DAuthenticatedChannel9.Query
 targetos: Windows
 req.typenames: 
 req.redist: 

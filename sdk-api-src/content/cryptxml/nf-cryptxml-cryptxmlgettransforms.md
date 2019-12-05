@@ -1,19 +1,17 @@
 ---
 UID: NF:cryptxml.CryptXmlGetTransforms
 title: CryptXmlGetTransforms function (cryptxml.h)
-
 description: Returns information about the default transform chain engine.
 old-location: security\cryptxmlgettransforms.htm
 tech.root: SecCrypto
 ms.assetid: 676f5216-70bd-455d-9e08-230b2599e166
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlGetTransforms, CryptXmlGetTransforms function [Security], cryptxml/CryptXmlGetTransforms, security.cryptxmlgettransforms
 ms.topic: function
 f1_keywords:
 - cryptxml/CryptXmlGetTransforms
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

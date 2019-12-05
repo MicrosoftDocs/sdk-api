@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMediaTypeFromRepresentation
 title: MFCreateMediaTypeFromRepresentation function (mfapi.h)
-
 description: Creates a Media Foundation media type from another format representation.
 old-location: mf\mfcreatemediatypefromrepresentation.htm
 tech.root: medfound
 ms.assetid: 5d85c47e-2e40-45f2-8f17-52f642652112
-
 ms.date: 12/05/2018
 ms.keywords: 5d85c47e-2e40-45f2-8f17-52f642652112, MFCreateMediaTypeFromRepresentation, MFCreateMediaTypeFromRepresentation function [Media Foundation], mf.mfcreatemediatypefromrepresentation, mfapi/MFCreateMediaTypeFromRepresentation
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMediaTypeFromRepresentation"
+f1_keywords:
+- mfapi/MFCreateMediaTypeFromRepresentation
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMediaTypeFromRepresentation
+- MFCreateMediaTypeFromRepresentation
 targetos: Windows
 req.typenames: 
 req.redist: 

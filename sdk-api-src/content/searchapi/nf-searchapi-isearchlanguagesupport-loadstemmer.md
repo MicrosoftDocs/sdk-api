@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadStemmer
 title: ISearchLanguageSupport::LoadStemmer (searchapi.h)
-
 description: Retrieves an interface to the word stemmer registered for the specified language code identifier (LCID).
 old-location: search\_search_ISearchLanguageSupport_LoadStemmer.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadstemmer.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchLanguageSupport interface [search],LoadStemmer method, ISearchLanguageSupport.LoadStemmer, ISearchLanguageSupport::LoadStemmer, LoadStemmer, LoadStemmer method [search], LoadStemmer method [search],ISearchLanguageSupport interface, _search_ISearchLanguageSupport_LoadStemmer, search._search_ISearchLanguageSupport_LoadStemmer, searchapi/ISearchLanguageSupport::LoadStemmer
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchLanguageSupport.LoadStemmer"
+f1_keywords:
+- searchapi/ISearchLanguageSupport.LoadStemmer
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchLanguageSupport.LoadStemmer
+- ISearchLanguageSupport.LoadStemmer
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

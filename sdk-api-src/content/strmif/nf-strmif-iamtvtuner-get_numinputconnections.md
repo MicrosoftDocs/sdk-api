@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_NumInputConnections
 title: IAMTVTuner::get_NumInputConnections (strmif.h)
-
 description: The get_NumInputConnections method retrieves the number of TV sources plugged into the tuner filter.
 old-location: dshow\iamtvtuner_get_numinputconnections.htm
 tech.root: DirectShow
 ms.assetid: 06841331-3b85-4532-8c0c-96022885f92c
-
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_NumInputConnections method, IAMTVTuner.get_NumInputConnections, IAMTVTuner::get_NumInputConnections, IAMTVTunerget_NumInputConnections, dshow.iamtvtuner_get_numinputconnections, get_NumInputConnections, get_NumInputConnections method [DirectShow], get_NumInputConnections method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_NumInputConnections
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVTuner.get_NumInputConnections"
+f1_keywords:
+- strmif/IAMTVTuner.get_NumInputConnections
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVTuner.get_NumInputConnections
+- IAMTVTuner.get_NumInputConnections
 targetos: Windows
 req.typenames: 
 req.redist: 

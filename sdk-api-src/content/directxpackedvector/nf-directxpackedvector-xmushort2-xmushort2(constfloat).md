@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(const float)
 title: XMUSHORT2::XMUSHORT2(const float) (directxpackedvector.h)
-
 description: Initializes a new instance of XMUSHORT2 from a two element float array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 226e51fe-eddc-430a-ba9d-faf7496c5c86
-
 ms.date: 05/06/2019
 ms.keywords: XMUSHORT2, XMUSHORT2 constructor [DirectX Math Support APIs], XMUSHORT2 constructor [DirectX Math Support APIs],XMUSHORT2 structure, XMUSHORT2 structure [DirectX Math Support APIs],XMUSHORT2 constructor, XMUSHORT2.XMUSHORT2, XMUSHORT2.XMUSHORT2(), XMUSHORT2.XMUSHORT2(const float), XMUSHORT2::XMUSHORT2, XMUSHORT2::XMUSHORT2(const float), dxmath.xmushort2_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUSHORT2.XMUSHORT2"
+f1_keywords:
+- directxpackedvector/XMUSHORT2.XMUSHORT2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.h
+- directxpackedvector.h
 api_name:
- - XMUSHORT2.XMUSHORT2
+- XMUSHORT2.XMUSHORT2
 targetos: Windows
 req.typenames: 
 req.redist: 

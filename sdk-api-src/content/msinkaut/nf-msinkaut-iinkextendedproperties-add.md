@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Add
 title: IInkExtendedProperties::Add (msinkaut.h)
-
 description: Creates and adds an IInkExtendedProperty object to the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_add.htm
 tech.root: tablet
 ms.assetid: 4fff6945-b46e-4e72-af45-ca066e73338e
-
 ms.date: 12/05/2018
 ms.keywords: 4fff6945-b46e-4e72-af45-ca066e73338e, Add, Add method [Tablet PC], Add method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Add method, IInkExtendedProperties.Add, IInkExtendedProperties::Add, msinkaut/IInkExtendedProperties::Add, tablet.iinkextendedproperties_add
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkExtendedProperties.Add"
+f1_keywords:
+- msinkaut/IInkExtendedProperties.Add
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.Add
+- IInkExtendedProperties.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

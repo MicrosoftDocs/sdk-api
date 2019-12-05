@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMaster.Open
 title: IDiscMaster::Open (imapi.h)
-
 description: Opens an upper-level IMAPI object for access by a client application.
 old-location: imapi\idiscmaster_open.htm
 tech.root: imapi
 ms.assetid: f9d64a07-67d9-4cc1-aeb5-64762a4e8153
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMaster interface [IMAPI],Open method, IDiscMaster.Open, IDiscMaster::Open, Open, Open method [IMAPI], Open method [IMAPI],IDiscMaster interface, _win32_idiscmaster_open, base.idiscmaster_open, imapi.idiscmaster_open, imapi/IDiscMaster::Open
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMaster.Open"
+f1_keywords:
+- imapi/IDiscMaster.Open
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMaster.Open
+- IDiscMaster.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

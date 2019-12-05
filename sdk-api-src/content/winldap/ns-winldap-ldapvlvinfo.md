@@ -1,19 +1,17 @@
 ---
 UID: NS:winldap.ldapvlvinfo
 title: LDAPVLVInfo (winldap.h)
-
 description: Used to set up the search parameters for a virtual list view (VLV) request control (LDAP_CONTROL_VLVREQUEST).
 old-location: ldap\ldapvlvinfo.htm
 tech.root: ldap
 ms.assetid: 2018ecb1-9b32-4afa-ad20-5cdae396376d
-
 ms.date: 12/05/2018
-ms.keywords: "*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, winldap/LDAPVLVInfo"
+ms.keywords: '*PLDAPVLVInfo, LDAPVLVInfo, LDAPVLVInfo structure [LDAP], _ldap_ldapvlvinfo, ldap.ldapvlvinfo, winldap/LDAPVLVInfo'
 ms.topic: struct
-f1_keywords: 
- - "winldap/LDAPVLVInfo"
+f1_keywords:
+- winldap/LDAPVLVInfo
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winldap.h
+- Winldap.h
 api_name:
- - LDAPVLVInfo
+- LDAPVLVInfo
 targetos: Windows
 req.typenames: LDAPVLVInfo, *PLDAPVLVInfo
 req.redist: 

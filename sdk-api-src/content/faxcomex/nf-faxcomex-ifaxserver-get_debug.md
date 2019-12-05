@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Debug
 title: IFaxServer::get_Debug (faxcomex.h)
-
 description: The IFaxServer::get_Debug property is a Boolean value that indicates whether the fax server was created in a debug environment.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_debug_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_92cn.htm
-
 ms.date: 12/05/2018
 ms.keywords: Debug property [Fax Service], Debug property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Debug property, IFaxServer.Debug, IFaxServer.get_Debug, IFaxServer::Debug, IFaxServer::get_Debug, _mfax_faxserver.debug, fax._mfax_faxserver_cpp_mfax_faxserver_debug_cpp, fax._mfax_faxserver_debug, faxcomex/IFaxServer::Debug, faxcomex/IFaxServer::get_Debug, get_Debug
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.Debug"
+f1_keywords:
+- faxcomex/IFaxServer.Debug
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.Debug
- - IFaxServer.get_Debug
- - IFaxServer.get_Debug
+- IFaxServer.Debug
+- IFaxServer.get_Debug
+- IFaxServer.get_Debug
 targetos: Windows
 req.typenames: 
 req.redist: 

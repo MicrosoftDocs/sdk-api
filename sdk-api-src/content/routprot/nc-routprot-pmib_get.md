@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PMIB_GET
 title: PMIB_GET (routprot.h)
-
 description: The MibGet function passes an SNMP MIB-style Get Request to the routing protocol DLL.
 old-location: rras\mibget.htm
 tech.root: RRAS
 ms.assetid: a6f3d450-0ca1-4c22-9e48-addf317cac2a
-
 ms.date: 12/05/2018
 ms.keywords: MibGet, MibGet callback function [RAS], PMIB_GET, PMIB_GET callback, _mpr_mibget, routprot/MibGet, rras.mibget
 ms.topic: callback
-f1_keywords: 
- - "routprot/MibGet"
+f1_keywords:
+- routprot/MibGet
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - MibGet
+- MibGet
 targetos: Windows
 req.typenames: 
 req.redist: 

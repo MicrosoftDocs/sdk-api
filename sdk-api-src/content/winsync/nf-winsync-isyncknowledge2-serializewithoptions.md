@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.SerializeWithOptions
 title: ISyncKnowledge2::SerializeWithOptions (winsync.h)
-
 description: Serializes the knowledge object data to a byte array based on the specified version and serialization options.
 old-location: winsync\isyncknowledge2_serializewithoptions.htm
 tech.root: winsync
 ms.assetid: b8b9084f-f4aa-42b8-8c45-ed075db8ffe4
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2 interface [Windows Sync],SerializeWithOptions method, ISyncKnowledge2.SerializeWithOptions, ISyncKnowledge2::SerializeWithOptions, SerializeWithOptions, SerializeWithOptions method [Windows Sync], SerializeWithOptions method [Windows Sync],ISyncKnowledge2 interface, winsync.isyncknowledge2_serializewithoptions, winsync/ISyncKnowledge2::SerializeWithOptions
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge2.SerializeWithOptions"
+f1_keywords:
+- winsync/ISyncKnowledge2.SerializeWithOptions
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge2.SerializeWithOptions
+- ISyncKnowledge2.SerializeWithOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

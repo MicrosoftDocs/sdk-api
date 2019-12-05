@@ -1,19 +1,17 @@
 ---
 UID: NF:prntvpt.PTConvertDevModeToPrintTicket
 title: PTConvertDevModeToPrintTicket function (prntvpt.h)
-
 description: Converts a DEVMODE structure to a print ticket inside an IStream.
 old-location: gdi\ptconvertdevmodetoprintticket.htm
 tech.root: printdocs
 ms.assetid: 22ebb9e7-10c6-4512-b749-d61f74bc82ed
-
 ms.date: 12/05/2018
 ms.keywords: PTConvertDevModeToPrintTicket, PTConvertDevModeToPrintTicket function [Windows GDI], _win32_PTConvertDevModeToPrintTicket, gdi.ptconvertdevmodetoprintticket, prntvpt/PTConvertDevModeToPrintTicket
 ms.topic: function
-f1_keywords: 
- - "prntvpt/PTConvertDevModeToPrintTicket"
+f1_keywords:
+- prntvpt/PTConvertDevModeToPrintTicket
 dev_langs:
- - c++
+- c++
 req.header: prntvpt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Prntvpt.lib
 req.dll: Prntvpt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - prntvpt.dll
- - Ext-MS-Win-printer-prntvpt-l1-1-0.dll
+- prntvpt.dll
+- Ext-MS-Win-printer-prntvpt-l1-1-0.dll
 api_name:
- - PTConvertDevModeToPrintTicket
+- PTConvertDevModeToPrintTicket
 targetos: Windows
 req.typenames: 
 req.redist: 

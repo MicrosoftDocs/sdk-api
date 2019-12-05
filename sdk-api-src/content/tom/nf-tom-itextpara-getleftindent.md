@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.GetLeftIndent
 title: ITextPara::GetLeftIndent (tom.h)
-
 description: Retrieves the distance used to indent all lines except the first line of a paragraph. The distance is relative to the left margin.
 old-location: controls\ITextPara_GetLeftIndent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getleftindent.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLeftIndent, GetLeftIndent method [Windows Controls], GetLeftIndent method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],GetLeftIndent method, ITextPara.GetLeftIndent, ITextPara::GetLeftIndent, _win32_ITextPara_GetLeftIndent, _win32_ITextPara_GetLeftIndent_cpp, controls.ITextPara_GetLeftIndent, controls._win32_ITextPara_GetLeftIndent, tom/ITextPara::GetLeftIndent
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.GetLeftIndent"
+f1_keywords:
+- tom/ITextPara.GetLeftIndent
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.GetLeftIndent
+- ITextPara.GetLeftIndent
 targetos: Windows
 req.typenames: 
 req.redist: 

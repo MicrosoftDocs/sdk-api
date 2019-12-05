@@ -1,19 +1,17 @@
 ---
 UID: NS:amvideo.tag_TRUECOLORINFO
 title: TRUECOLORINFO (amvideo.h)
-
 description: The TRUECOLORINFO structure contains color palette and bitmask information for a video image.
 old-location: dshow\truecolorinfostructure.htm
 tech.root: DirectShow
 ms.assetid: 8269d8c2-ff8e-48e0-b4f6-06900a7ecfdc
-
 ms.date: 12/05/2018
 ms.keywords: TRUECOLORINFO, TRUECOLORINFO structure [DirectShow], TRUECOLORINFOStructure, amvideo/TRUECOLORINFO, dshow.truecolorinfostructure
 ms.topic: struct
-f1_keywords: 
- - "amvideo/TRUECOLORINFO"
+f1_keywords:
+- amvideo/TRUECOLORINFO
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amvideo.h
+- amvideo.h
 api_name:
- - TRUECOLORINFO
+- TRUECOLORINFO
 targetos: Windows
 req.typenames: TRUECOLORINFO
 req.redist: 

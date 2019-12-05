@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceRelogger.Inject
 title: ITraceRelogger::Inject (relogger.h)
-
 description: Injects a non-system-generated event into the event stream being written to the output trace logfile.
 old-location: etw\itracerelogger_inject.htm
 tech.root: ETW
 ms.assetid: c9d19ad9-182d-469e-b783-2061b7150933
-
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],Inject method, ITraceRelogger.Inject, ITraceRelogger::Inject, Inject, Inject method [ETW], Inject method [ETW],ITraceRelogger interface, etw.itracerelogger_inject, relogger/ITraceRelogger::Inject
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceRelogger.Inject"
+f1_keywords:
+- relogger/ITraceRelogger.Inject
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger.Inject
+- ITraceRelogger.Inject
 targetos: Windows
 req.typenames: 
 req.redist: 

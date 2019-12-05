@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.Add
 title: IFaxRecipients::Add (faxcomex.h)
-
 description: The IFaxRecipients::Add method adds a new FaxRecipient object to the FaxRecipients collection.
 old-location: fax\_mfax_faxrecipients_cpp_mfax_faxrecipients_add_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_73l0.htm
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Fax Service], Add method [Fax Service],IFaxRecipients interface, IFaxRecipients interface [Fax Service],Add method, IFaxRecipients.Add, IFaxRecipients::Add, _mfax_faxrecipients.add, fax._mfax_faxrecipients_add, fax._mfax_faxrecipients_cpp_mfax_faxrecipients_add_cpp, faxcomex/IFaxRecipients::Add
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxRecipients.Add"
+f1_keywords:
+- faxcomex/IFaxRecipients.Add
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxRecipients.Add
+- IFaxRecipients.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

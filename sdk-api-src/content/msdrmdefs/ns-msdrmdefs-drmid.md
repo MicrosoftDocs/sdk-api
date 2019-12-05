@@ -1,19 +1,17 @@
 ---
 UID: NS:msdrmdefs._DRMID
 title: DRMID (msdrmdefs.h)
-
 description: Identifies an object.
 old-location: rm\drmid.htm
 tech.root: AdRms_Sdk
 ms.assetid: 8b7f22e0-586e-4950-94fe-868b3fc91ffa
-
 ms.date: 12/05/2018
 ms.keywords: DRMID, DRMID structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRMID, rm.drmid
 ms.topic: struct
 f1_keywords:
 - msdrmdefs/DRMID
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows

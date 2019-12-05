@@ -1,19 +1,17 @@
 ---
 UID: NF:icmpapi.Icmp6ParseReplies
 title: Icmp6ParseReplies function (icmpapi.h)
-
 description: The Icmp6ParseReplies function parses the reply buffer provided and returns an IPv6 ICMPv6 echo response reply if found.
 old-location: iphlp\icmp6parsereplies.htm
 tech.root: IpHlp
 ms.assetid: b4d63ffd-37ad-4901-b017-205fb15381e7
-
 ms.date: 12/05/2018
 ms.keywords: Icmp6ParseReplies, Icmp6ParseReplies function [IP Helper], icmpapi/Icmp6ParseReplies, iphlp.icmp6parsereplies
 ms.topic: function
-f1_keywords: 
- - "icmpapi/Icmp6ParseReplies"
+f1_keywords:
+- icmpapi/Icmp6ParseReplies
 dev_langs:
- - c++
+- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - Icmp6ParseReplies
+- Icmp6ParseReplies
 targetos: Windows
 req.typenames: 
 req.redist: 

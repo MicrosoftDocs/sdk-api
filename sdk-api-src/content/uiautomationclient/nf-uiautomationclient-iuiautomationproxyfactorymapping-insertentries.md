@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.InsertEntries
 title: IUIAutomationProxyFactoryMapping::InsertEntries (uiautomationclient.h)
-
 description: Inserts entries into the table of proxy factories.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_InsertEntries.htm
 tech.root: WinAuto
 ms.assetid: f398a1b5-d558-4187-9ee5-147b139d99e0
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryMapping interface [Windows Accessibility],InsertEntries method, IUIAutomationProxyFactoryMapping.InsertEntries, IUIAutomationProxyFactoryMapping::InsertEntries, InsertEntries, InsertEntries method [Windows Accessibility], InsertEntries method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, uiauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntries, uiauto_IUIAutomationProxyFactoryMapping_InsertEntries, uiautomationclient/IUIAutomationProxyFactoryMapping::InsertEntries, winauto.uiauto_IUIAutomationProxyFactoryMapping_InsertEntries
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactoryMapping.InsertEntries"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactoryMapping.InsertEntries
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryMapping.InsertEntries
+- IUIAutomationProxyFactoryMapping.InsertEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

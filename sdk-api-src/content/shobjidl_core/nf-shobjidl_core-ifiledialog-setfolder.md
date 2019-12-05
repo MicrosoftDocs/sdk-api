@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFolder
 title: IFileDialog::SetFolder (shobjidl_core.h)
-
 description: Sets a folder that is always selected when the dialog is opened, regardless of previous user action.
 old-location: shell\IFileDialog_SetFolder.htm
 tech.root: shell
 ms.assetid: 3f300c70-cae8-43bb-95d4-25ac4be9b4c4
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFolder method, IFileDialog.SetFolder, IFileDialog::SetFolder, SetFolder, SetFolder method [Windows Shell], SetFolder method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetFolder, shell_IFileDialog_SetFolder, shobjidl_core/IFileDialog::SetFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetFolder"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetFolder
+- IFileDialog.SetFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

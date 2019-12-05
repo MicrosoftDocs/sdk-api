@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetAgentStateEx
 title: lineSetAgentStateEx function (tapi.h)
-
 description: The lineSetAgentStateEx function sets the agent state associated with a particular agent handle.
 old-location: tapi2\linesetagentstateex.htm
 tech.root: Tapi
 ms.assetid: f7da697a-658e-4f0d-8e6c-539fd8fb1935
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetagentstateex, lineSetAgentStateEx, lineSetAgentStateEx function [TAPI 2.2], tapi/lineSetAgentStateEx, tapi2.linesetagentstateex"
+ms.keywords: _tapi2_linesetagentstateex, lineSetAgentStateEx, lineSetAgentStateEx function [TAPI 2.2], tapi/lineSetAgentStateEx, tapi2.linesetagentstateex
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetAgentStateEx"
+f1_keywords:
+- tapi/lineSetAgentStateEx
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetAgentStateEx
+- lineSetAgentStateEx
 targetos: Windows
 req.typenames: 
 req.redist: 

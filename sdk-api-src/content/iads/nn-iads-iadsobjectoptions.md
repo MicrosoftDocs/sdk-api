@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsObjectOptions
 title: IADsObjectOptions (iads.h)
-
 description: Provides a direct mechanism to specify and obtain provider-specific options for manipulating an ADSI object.
 old-location: adsi\iadsobjectoptions.htm
 tech.root: adsi
 ms.assetid: 1884efe5-86f5-4579-a25e-2ff9c9a6ec2a
-
 ms.date: 12/05/2018
 ms.keywords: IADsObjectOptions, IADsObjectOptions interface [ADSI], IADsObjectOptions interface [ADSI],described, _ds_iadsobjectoptions, adsi.iadsobjectoptions, iads/IADsObjectOptions
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsObjectOptions"
+f1_keywords:
+- iads/IADsObjectOptions
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsObjectOptions
+- IADsObjectOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

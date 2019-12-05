@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.Install
 title: ICertSrvSetup::Install (casetup.h)
-
 description: Installs a role as configured in the CCertSrvSetup object.
 old-location: security\icertsrvsetup_install.htm
 tech.root: SecCrypto
 ms.assetid: e07b1cdd-ccb6-4398-862b-521ac1d39f66
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetup interface [Security],Install method, ICertSrvSetup.Install, ICertSrvSetup::Install, Install, Install method [Security], Install method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::Install, security.icertsrvsetup_install
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.Install"
+f1_keywords:
+- casetup/ICertSrvSetup.Install
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.Install
+- ICertSrvSetup.Install
 targetos: Windows
 req.typenames: 
 req.redist: 

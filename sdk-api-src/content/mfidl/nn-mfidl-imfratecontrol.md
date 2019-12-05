@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFRateControl
 title: IMFRateControl (mfidl.h)
-
 description: Gets or sets the playback rate.
 old-location: mf\imfratecontrol.htm
 tech.root: medfound
 ms.assetid: 54303c32-b260-4364-9130-a592694f2816
-
 ms.date: 12/05/2018
 ms.keywords: 54303c32-b260-4364-9130-a592694f2816, IMFRateControl, IMFRateControl interface [Media Foundation], IMFRateControl interface [Media Foundation],described, mf.imfratecontrol, mfidl/IMFRateControl
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFRateControl"
+f1_keywords:
+- mfidl/IMFRateControl
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRateControl
+- IMFRateControl
 targetos: Windows
 req.typenames: 
 req.redist: 

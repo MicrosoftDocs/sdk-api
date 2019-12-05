@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJob.get_SenderName
 title: IFaxJob::get_SenderName (faxcom.h)
-
 description: The IFaxJob::get_SenderName property is a null-terminated string that contains the name of the sender who initiated the fax job. The IFaxJob::get_SenderName property applies only to outgoing fax transmissions.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_get_sendername_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_2vj9.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],SenderName property, IFaxJob.SenderName, IFaxJob.get_SenderName, IFaxJob::SenderName, IFaxJob::get_SenderName, SenderName property [Fax Service], SenderName property [Fax Service],IFaxJob interface, _mfax_ifaxjob_get_sendername, fax._mfax_ifaxjob_get_sendername, fax._mfax_ifaxjob_mfax_ifaxjob_get_sendername_cpp, faxcom/IFaxJob::SenderName, faxcom/IFaxJob::get_SenderName, get_SenderName
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJob.SenderName"
+f1_keywords:
+- faxcom/IFaxJob.SenderName
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJob.SenderName
- - IFaxJob.get_SenderName
+- IFaxJob.SenderName
+- IFaxJob.get_SenderName
 targetos: Windows
 req.typenames: 
 req.redist: 

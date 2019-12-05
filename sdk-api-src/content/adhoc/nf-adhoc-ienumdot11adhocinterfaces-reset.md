@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Reset
 title: IEnumDot11AdHocInterfaces::Reset (adhoc.h)
-
 description: Resets to the beginning of the enumeration sequence.
 old-location: nwifi\ienumdot11adhocinterfaces_reset.htm
 tech.root: NativeWiFi
 ms.assetid: e310cc06-acc0-4a65-bea7-c9b39900b7ca
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Reset method, IEnumDot11AdHocInterfaces.Reset, IEnumDot11AdHocInterfaces::Reset, Reset, Reset method [NativeWIFI], Reset method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Reset, nwifi.ienumdot11adhocinterfaces_reset
 ms.topic: method
-f1_keywords: 
- - "adhoc/IEnumDot11AdHocInterfaces.Reset"
+f1_keywords:
+- adhoc/IEnumDot11AdHocInterfaces.Reset
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IEnumDot11AdHocInterfaces.Reset
+- IEnumDot11AdHocInterfaces.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

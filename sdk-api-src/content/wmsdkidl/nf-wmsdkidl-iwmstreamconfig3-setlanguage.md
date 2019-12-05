@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig3.SetLanguage
 title: IWMStreamConfig3::SetLanguage (wmsdkidl.h)
-
 description: The SetLanguage method sets the language for a stream using an RFC1766-compliant string.
 old-location: wmformat\iwmstreamconfig3_setlanguage.htm
 tech.root: wmformat
 ms.assetid: 3d5c65b1-5e8b-4ee7-b28c-a35376c91ac4
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig3 interface [windows Media Format],SetLanguage method, IWMStreamConfig3.SetLanguage, IWMStreamConfig3::SetLanguage, IWMStreamConfig3SetLanguage, SetLanguage, SetLanguage method [windows Media Format], SetLanguage method [windows Media Format],IWMStreamConfig3 interface, wmformat.iwmstreamconfig3_setlanguage, wmsdkidl/IWMStreamConfig3::SetLanguage
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig3.SetLanguage"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig3.SetLanguage
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig3.SetLanguage
+- IWMStreamConfig3.SetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

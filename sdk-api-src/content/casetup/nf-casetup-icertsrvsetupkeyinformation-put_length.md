@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_Length
 title: ICertSrvSetupKeyInformation::put_Length (casetup.h)
-
 description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
 old-location: security\icertsrvsetupkeyinformation_length.htm
 tech.root: SecCrypto
 ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
-
 ms.date: 12/05/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],Length property, ICertSrvSetupKeyInformation.Length, ICertSrvSetupKeyInformation.put_Length, ICertSrvSetupKeyInformation::Length, ICertSrvSetupKeyInformation::get_Length, ICertSrvSetupKeyInformation::put_Length, Length property [Security], Length property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::Length, casetup/ICertSrvSetupKeyInformation::get_Length, casetup/ICertSrvSetupKeyInformation::put_Length, put_Length, security.icertsrvsetupkeyinformation_length
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetupKeyInformation.Length"
+f1_keywords:
+- casetup/ICertSrvSetupKeyInformation.Length
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation.Length
- - ICertSrvSetupKeyInformation.get_Length
- - ICertSrvSetupKeyInformation.put_Length
+- ICertSrvSetupKeyInformation.Length
+- ICertSrvSetupKeyInformation.get_Length
+- ICertSrvSetupKeyInformation.put_Length
 targetos: Windows
 req.typenames: 
 req.redist: 

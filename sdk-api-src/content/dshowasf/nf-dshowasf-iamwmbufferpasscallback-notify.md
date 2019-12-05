@@ -1,19 +1,17 @@
 ---
 UID: NF:dshowasf.IAMWMBufferPassCallback.Notify
 title: IAMWMBufferPassCallback::Notify (dshowasf.h)
-
 description: The Notify method is called by the pin for each buffer that is delivered during streaming.
 old-location: wmformat\iamwmbufferpasscallback_notify.htm
 tech.root: wmformat
 ms.assetid: 3f252754-c784-4ffd-bcfc-fab73fa02b9a
-
 ms.date: 12/05/2018
 ms.keywords: IAMWMBufferPassCallback interface [windows Media Format],Notify method, IAMWMBufferPassCallback.Notify, IAMWMBufferPassCallback::Notify, IAMWMBufferPassCallbackNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IAMWMBufferPassCallback interface, dshowasf/IAMWMBufferPassCallback::Notify, wmformat.iamwmbufferpasscallback_notify
 ms.topic: method
-f1_keywords: 
- - "dshowasf/IAMWMBufferPassCallback.Notify"
+f1_keywords:
+- dshowasf/IAMWMBufferPassCallback.Notify
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dshowasf.h
+- dshowasf.h
 api_name:
- - IAMWMBufferPassCallback.Notify
+- IAMWMBufferPassCallback.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

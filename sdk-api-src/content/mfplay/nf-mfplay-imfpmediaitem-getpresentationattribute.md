@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetPresentationAttribute
 title: IMFPMediaItem::GetPresentationAttribute (mfplay.h)
-
 description: Queries the media item for a presentation attribute.
 old-location: mf\imfpmediaitem_getpresentationattribute.htm
 tech.root: medfound
 ms.assetid: d6600009-a8da-4464-9df7-08f20a1a6b15
-
 ms.date: 12/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetPresentationAttribute method, IMFPMediaItem.GetPresentationAttribute, IMFPMediaItem::GetPresentationAttribute, mf.imfpmediaitem_getpresentationattribute, mfplay/IMFPMediaItem::GetPresentationAttribute
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.GetPresentationAttribute"
+f1_keywords:
+- mfplay/IMFPMediaItem.GetPresentationAttribute
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.GetPresentationAttribute
+- IMFPMediaItem.GetPresentationAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

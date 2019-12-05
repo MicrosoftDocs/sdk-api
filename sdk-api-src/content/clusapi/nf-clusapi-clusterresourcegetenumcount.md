@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterResourceGetEnumCount
 title: ClusterResourceGetEnumCount function (clusapi.h)
-
 description: Returns the number of cluster objects associated with a resource enumeration handle.
 old-location: mscs\clusterresourcegetenumcount.htm
 tech.root: MsCS
 ms.assetid: f837d57a-e7eb-4262-a1a3-e3bf9948cf09
-
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceGetEnumCount, ClusterResourceGetEnumCount function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT, PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT function [Failover Cluster], _wolf_clusterresourcegetenumcount, clusapi/ClusterResourceGetEnumCount, clusapi/PCLUSAPI_CLUSTER_RESOURCE_GET_ENUM_COUNT, mscs.clusterresourcegetenumcount
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterResourceGetEnumCount"
+f1_keywords:
+- clusapi/ClusterResourceGetEnumCount
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterResourceGetEnumCount
+- ClusterResourceGetEnumCount
 targetos: Windows
 req.typenames: 
 req.redist: 

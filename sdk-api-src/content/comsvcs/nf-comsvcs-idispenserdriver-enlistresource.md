@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.EnlistResource
 title: IDispenserDriver::EnlistResource (comsvcs.h)
-
 description: Enlists a resource in a transaction.
 old-location: cos\idispenserdriver_enlistresource.htm
 tech.root: cossdk
 ms.assetid: 87a8b7f4-edf3-4ab5-b75a-f8fda1f4975a
-
 ms.date: 12/05/2018
 ms.keywords: EnlistResource, EnlistResource method [COM+], EnlistResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],EnlistResource method, IDispenserDriver.EnlistResource, IDispenserDriver::EnlistResource, _dtc_IDispenserDriver_EnlistResource, comsvcs/IDispenserDriver::EnlistResource, cos.idispenserdriver_enlistresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IDispenserDriver.EnlistResource"
+f1_keywords:
+- comsvcs/IDispenserDriver.EnlistResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserDriver.EnlistResource
+- IDispenserDriver.EnlistResource
 targetos: Windows
 req.typenames: 
 req.redist: 

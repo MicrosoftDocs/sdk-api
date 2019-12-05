@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.GetSink
 title: IWMWriterAdvanced::GetSink (wmsdkidl.h)
-
 description: The GetSink method retrieves a writer sink object. Used in conjunction with IWMWriterAdvanced::GetSinkCount, this method can be used to enumerate the sinks associated with a writer object.
 old-location: wmformat\iwmwriteradvanced_getsink.htm
 tech.root: wmformat
 ms.assetid: 6775eb89-a3af-42d2-b1e3-197abb1fce61
-
 ms.date: 12/05/2018
 ms.keywords: GetSink, GetSink method [windows Media Format], GetSink method [windows Media Format],IWMWriterAdvanced interface, IWMWriterAdvanced interface [windows Media Format],GetSink method, IWMWriterAdvanced.GetSink, IWMWriterAdvanced::GetSink, IWMWriterAdvancedGetSink, wmformat.iwmwriteradvanced_getsink, wmsdkidl/IWMWriterAdvanced::GetSink
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.GetSink"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced.GetSink
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.GetSink
+- IWMWriterAdvanced.GetSink
 targetos: Windows
 req.typenames: 
 req.redist: 

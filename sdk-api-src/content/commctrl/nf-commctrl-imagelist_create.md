@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_Create
 title: ImageList_Create function (commctrl.h)
-
 description: Creates a new image list.
 old-location: controls\ImageList_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_create.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_Create, ImageList_Create function [Windows Controls], _win32_ImageList_Create, _win32_ImageList_Create_cpp, commctrl/ImageList_Create, controls.ImageList_Create, controls._win32_ImageList_Create
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_Create"
+f1_keywords:
+- commctrl/ImageList_Create
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+- Comctl32.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
- - ImageList_Create
+- ImageList_Create
 targetos: Windows
 req.typenames: 
 req.redist: 

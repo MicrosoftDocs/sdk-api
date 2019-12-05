@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetEmbedded
 title: ITextStoreAnchor::GetEmbedded (textstor.h)
-
 description: The ITextStoreAnchor::GetEmbedded method obtains an embedded object from a text stream.
 old-location: tsf\itextstoreanchor_getembedded.htm
 tech.root: TSF
 ms.assetid: 212286e1-aafa-4368-8dd3-45a0d4c6ecb9
-
 ms.date: 12/05/2018
 ms.keywords: GUID_TS_SERVICE_ACCESSIBLE, GUID_TS_SERVICE_ACTIVEX, GUID_TS_SERVICE_DATAOBJECT, GetEmbedded, GetEmbedded method [Text Services Framework], GetEmbedded method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEmbedded method, ITextStoreAnchor.GetEmbedded, ITextStoreAnchor::GetEmbedded, textstor/ITextStoreAnchor::GetEmbedded, tsf.itextstoreanchor_getembedded
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetEmbedded"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetEmbedded
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetEmbedded
+- ITextStoreAnchor.GetEmbedded
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

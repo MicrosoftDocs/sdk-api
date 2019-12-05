@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbFrequencyListDescriptor.GetCodingType
 title: IDvbFrequencyListDescriptor::GetCodingType (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbfrequencylistdescriptor_getcodingtype.htm
 tech.root: mstv
 ms.assetid: 0d458f42-bea5-4503-a2d7-89efd1abc1a8
-
 ms.date: 12/05/2018
 ms.keywords: GetCodingType, GetCodingType method [Microsoft TV Technologies], GetCodingType method [Microsoft TV Technologies],IDvbFrequencyListDescriptor interface, IDvbFrequencyListDescriptor interface [Microsoft TV Technologies],GetCodingType method, IDvbFrequencyListDescriptor.GetCodingType, IDvbFrequencyListDescriptor::GetCodingType, IDvbFrequencyListDescriptorGetCodingType, dvbsiparser/IDvbFrequencyListDescriptor::GetCodingType, mstv.idvbfrequencylistdescriptor_getcodingtype
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbFrequencyListDescriptor.GetCodingType"
+f1_keywords:
+- dvbsiparser/IDvbFrequencyListDescriptor.GetCodingType
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbFrequencyListDescriptor.GetCodingType
+- IDvbFrequencyListDescriptor.GetCodingType
 targetos: Windows
 req.typenames: 
 req.redist: 

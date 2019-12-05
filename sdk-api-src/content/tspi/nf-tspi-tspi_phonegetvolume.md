@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_phoneGetVolume
 title: TSPI_phoneGetVolume function (tspi.h)
-
 description: The TSPI_phoneGetVolume function returns the volume setting of the specified phone's hookswitch device.
 old-location: tspi\tspi_phonegetvolume.htm
 tech.root: Tapi
 ms.assetid: 4ea36cce-da68-47a3-ad79-4fc304a49451
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_phoneGetVolume, TSPI_phoneGetVolume function [TAPI 2.2], _tspi_tspi_phonegetvolume, tspi.tspi_phonegetvolume, tspi/TSPI_phoneGetVolume
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_phoneGetVolume"
+f1_keywords:
+- tspi/TSPI_phoneGetVolume
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_phoneGetVolume
+- TSPI_phoneGetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

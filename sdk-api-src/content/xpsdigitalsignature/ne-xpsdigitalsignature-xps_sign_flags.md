@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsdigitalsignature.__MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0003
 title: XPS_SIGN_FLAGS (xpsdigitalsignature.h)
-
 description: Specifies whether markup compatibility detection must be run before signing.
 old-location: xps\xps_sign_flags.htm
 tech.root: printdocs
 ms.assetid: 36fa92d4-ffd4-4666-8d3e-02436e3bb464
-
 ms.date: 12/05/2018
 ms.keywords: XPS_SIGN_FLAGS, XPS_SIGN_FLAGS enumeration [XPS Documents and Packaging], XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY, XPS_SIGN_FLAGS_NONE, xps.xps_sign_flags, xpsdigitalsignature/XPS_SIGN_FLAGS, xpsdigitalsignature/XPS_SIGN_FLAGS_IGNORE_MARKUP_COMPATIBILITY, xpsdigitalsignature/XPS_SIGN_FLAGS_NONE
 ms.topic: enum
-f1_keywords: 
- - "xpsdigitalsignature/XPS_SIGN_FLAGS"
+f1_keywords:
+- xpsdigitalsignature/XPS_SIGN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - XPS_SIGN_FLAGS
+- XPS_SIGN_FLAGS
 targetos: Windows
 req.typenames: XPS_SIGN_FLAGS
 req.redist: 

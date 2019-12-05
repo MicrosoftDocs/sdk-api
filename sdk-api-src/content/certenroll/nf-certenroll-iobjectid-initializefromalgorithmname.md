@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectId.InitializeFromAlgorithmName
 title: IObjectId::InitializeFromAlgorithmName (certenroll.h)
-
 description: Initializes the object from an algorithm name or an object identifier.
 old-location: security\iobjectid_initializefromalgorithmname_method.htm
 tech.root: seccertenroll
 ms.assetid: ba8c1f11-9380-43a9-b444-b0fff114a176
-
 ms.date: 12/05/2018
 ms.keywords: IObjectId interface [Security],InitializeFromAlgorithmName method, IObjectId.InitializeFromAlgorithmName, IObjectId::InitializeFromAlgorithmName, InitializeFromAlgorithmName, InitializeFromAlgorithmName method [Security], InitializeFromAlgorithmName method [Security],IObjectId interface, certenroll/IObjectId::InitializeFromAlgorithmName, security.iobjectid_initializefromalgorithmname_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectId.InitializeFromAlgorithmName"
+f1_keywords:
+- certenroll/IObjectId.InitializeFromAlgorithmName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectId.InitializeFromAlgorithmName
+- IObjectId.InitializeFromAlgorithmName
 targetos: Windows
 req.typenames: 
 req.redist: 

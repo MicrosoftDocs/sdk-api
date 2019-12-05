@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_2.DXGI_MODE_DESC1
 title: DXGI_MODE_DESC1 (dxgi1_2.h)
-
 description: Describes a display mode and whether the display mode supports stereo.
 old-location: direct3ddxgi\dxgi_mode_desc1.htm
 tech.root: direct3ddxgi
 ms.assetid: 8F44CF77-D3A1-44F7-AB7F-69E5727A4378
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_MODE_DESC1, DXGI_MODE_DESC1 structure [DXGI], direct3ddxgi.dxgi_mode_desc1, dxgi1_2/DXGI_MODE_DESC1
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_2/DXGI_MODE_DESC1"
+f1_keywords:
+- dxgi1_2/DXGI_MODE_DESC1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_2.h
+- DXGI1_2.h
 api_name:
- - DXGI_MODE_DESC1
+- DXGI_MODE_DESC1
 targetos: Windows
 req.typenames: DXGI_MODE_DESC1
 req.redist: 

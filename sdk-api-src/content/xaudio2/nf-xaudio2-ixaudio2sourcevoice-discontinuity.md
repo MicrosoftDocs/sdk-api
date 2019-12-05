@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.Discontinuity
 title: IXAudio2SourceVoice::Discontinuity (xaudio2.h)
-
 description: Notifies an XAudio2 voice that no more buffers are coming after the last one that is currently in its queue.
 old-location: xaudio2\ixaudio2sourcevoice_interface_discontinuity_.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.Discontinuity
-
 ms.date: 12/05/2018
 ms.keywords: Discontinuity, Discontinuity method [XAudio2 Audio Mixing APIs], Discontinuity method [XAudio2 Audio Mixing APIs],IXAudio2SourceVoice interface, IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs],Discontinuity method, IXAudio2SourceVoice.Discontinuity, IXAudio2SourceVoice::Discontinuity, xaudio2.ixaudio2sourcevoice_interface_discontinuity_, xaudio2/IXAudio2SourceVoice::Discontinuity
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2SourceVoice.Discontinuity"
+f1_keywords:
+- xaudio2/IXAudio2SourceVoice.Discontinuity
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2SourceVoice.Discontinuity
+- IXAudio2SourceVoice.Discontinuity
 targetos: Windows
 req.typenames: 
 req.redist: 

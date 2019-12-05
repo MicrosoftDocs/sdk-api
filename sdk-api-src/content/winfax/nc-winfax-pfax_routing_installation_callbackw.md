@@ -1,19 +1,17 @@
 ---
 UID: NC:winfax.PFAX_ROUTING_INSTALLATION_CALLBACKW
 title: PFAX_ROUTING_INSTALLATION_CALLBACKW (winfax.h)
-
 description: The FaxRoutingInstallationCallback function is a library-defined callback function that the FaxRegisterRoutingExtension function calls to install a fax routing extension DLL.
 old-location: fax\_mfax_faxroutinginstallationcallback.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9aqz.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxRoutingInstallationCallback, PFAX_ROUTING_INSTALLATION_CALLBACKW, PFAX_ROUTING_INSTALLATION_CALLBACKW callback, PFAX_ROUTING_INSTALLATION_CALLBACKW callback function [Fax Service], _mfax_faxroutinginstallationcallback, fax._mfax_faxroutinginstallationcallback, winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW
 ms.topic: callback
-f1_keywords: 
- - "winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW"
+f1_keywords:
+- winfax/PFAX_ROUTING_INSTALLATION_CALLBACKW
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - PFAX_ROUTING_INSTALLATION_CALLBACKW
+- PFAX_ROUTING_INSTALLATION_CALLBACKW
 targetos: Windows
 req.typenames: 
 req.redist: 

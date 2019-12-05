@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.OpenClusterGroupSet
 title: OpenClusterGroupSet function (clusapi.h)
-
 description: Opens a handle to the specified groupset.
 old-location: mscs\openclustergroupcollection.htm
 tech.root: MsCS
 ms.assetid: 8a5b944b-53c2-4437-b580-6ad603d0011a
-
 ms.date: 12/05/2018
 ms.keywords: OpenClusterGroupSet, OpenClusterGroupSet function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET function [Failover Cluster], clusapi/OpenClusterGroupSet, clusapi/PCLUSAPI_OPEN_CLUSTER_GROUP_GROUPSET, mscs.openclustergroupcollection
 ms.topic: function
-f1_keywords: 
- - "clusapi/OpenClusterGroupSet"
+f1_keywords:
+- clusapi/OpenClusterGroupSet
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - OpenClusterGroupSet
+- OpenClusterGroupSet
 targetos: Windows
 req.typenames: 
 req.redist: 

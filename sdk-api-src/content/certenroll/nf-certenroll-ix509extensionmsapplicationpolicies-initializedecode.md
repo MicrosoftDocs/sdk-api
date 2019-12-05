@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionMSApplicationPolicies.InitializeDecode
 title: IX509ExtensionMSApplicationPolicies::InitializeDecode (certenroll.h)
-
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionmsapplicationpolicies_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: b99d756c-01fd-4bde-a64b-c908626e9190
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionMSApplicationPolicies interface [Security],InitializeDecode method, IX509ExtensionMSApplicationPolicies.InitializeDecode, IX509ExtensionMSApplicationPolicies::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionMSApplicationPolicies interface, certenroll/IX509ExtensionMSApplicationPolicies::InitializeDecode, security.ix509extensionmsapplicationpolicies_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionMSApplicationPolicies.InitializeDecode"
+f1_keywords:
+- certenroll/IX509ExtensionMSApplicationPolicies.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionMSApplicationPolicies.InitializeDecode
+- IX509ExtensionMSApplicationPolicies.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

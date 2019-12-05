@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetWinMetaFileBits
 title: GetWinMetaFileBits function (wingdi.h)
-
 description: The GetWinMetaFileBits function converts the enhanced-format records from a metafile into Windows-format records and stores the converted records in the specified buffer.
 old-location: gdi\getwinmetafilebits.htm
 tech.root: gdi
 ms.assetid: db61ea3a-44d0-4769-acb4-05a982d3f06f
-
 ms.date: 12/05/2018
 ms.keywords: GetWinMetaFileBits, GetWinMetaFileBits function [Windows GDI], _win32_GetWinMetaFileBits, gdi.getwinmetafilebits, wingdi/GetWinMetaFileBits
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetWinMetaFileBits"
+f1_keywords:
+- wingdi/GetWinMetaFileBits
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - GetWinMetaFileBits
+- GetWinMetaFileBits
 targetos: Windows
 req.typenames: 
 req.redist: 

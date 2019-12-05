@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IGetClusterDataInfo
 title: IGetClusterDataInfo (cluadmex.h)
-
 description: The IGetClusterDataInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a cluster.
 old-location: mscs\igetclusterdatainfo.htm
 tech.root: MsCS
 ms.assetid: a2800ac8-a865-4e66-8147-90e95b54cb0c
-
 ms.date: 12/05/2018
 ms.keywords: IGetClusterDataInfo, IGetClusterDataInfo interface [Failover Cluster], IGetClusterDataInfo interface [Failover Cluster],described, _wolf_igetclusterdatainfo, cluadmex/IGetClusterDataInfo, mscs.igetclusterdatainfo
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IGetClusterDataInfo"
+f1_keywords:
+- cluadmex/IGetClusterDataInfo
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterDataInfo
+- IGetClusterDataInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

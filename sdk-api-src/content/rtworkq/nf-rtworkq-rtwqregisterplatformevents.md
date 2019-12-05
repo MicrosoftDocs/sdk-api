@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqRegisterPlatformEvents
 title: RtwqRegisterPlatformEvents function (rtworkq.h)
-
 description: Enables an app to listen to the RtwqStartup and RtwqShutdown functions.
 old-location: base\rtwqregisterplatformevents.htm
 tech.root: ProcThread
 ms.assetid: 7BD7E83B-29E1-4FF5-B527-71C2F80D6521
-
 ms.date: 12/05/2018
 ms.keywords: RtwqRegisterPlatformEvents, RtwqRegisterPlatformEvents function, base.rtwqregisterplatformevents, rtworkq/RtwqRegisterPlatformEvents
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqRegisterPlatformEvents"
+f1_keywords:
+- rtworkq/RtwqRegisterPlatformEvents
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqRegisterPlatformEvents
+- RtwqRegisterPlatformEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

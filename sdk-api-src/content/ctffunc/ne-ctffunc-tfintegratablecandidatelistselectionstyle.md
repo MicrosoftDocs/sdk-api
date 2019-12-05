@@ -1,19 +1,17 @@
 ---
 UID: NE:ctffunc.__MIDL___MIDL_itf_ctffunc_0000_0022_0001
 title: TfIntegratableCandidateListSelectionStyle (ctffunc.h)
-
 description: Elements of the TfIntegratableCandidateListSelectionStyle enumeration specify the integratable candidate list selection styles.
 old-location: tsf\tfintegratablecandidatelistselectionstyle.htm
 tech.root: TSF
 ms.assetid: B3013879-99B2-4099-AD56-E2FDE3CC817A
-
 ms.date: 12/05/2018
 ms.keywords: STYLE_ACTIVE_SELECTION, STYLE_IMPLIED_SELECTION, TfIntegratableCandidateListSelectionStyle, TfIntegratableCandidateListSelectionStyle enumeration [Text Services Framework], ctffunc/STYLE_ACTIVE_SELECTION, ctffunc/STYLE_IMPLIED_SELECTION, ctffunc/TfIntegratableCandidateListSelectionStyle, tsf.tfintegratablecandidatelistselectionstyle
 ms.topic: enum
-f1_keywords: 
- - "ctffunc/TfIntegratableCandidateListSelectionStyle"
+f1_keywords:
+- ctffunc/TfIntegratableCandidateListSelectionStyle
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ctffunc.h
+- ctffunc.h
 api_name:
- - TfIntegratableCandidateListSelectionStyle
+- TfIntegratableCandidateListSelectionStyle
 targetos: Windows
 req.typenames: TfIntegratableCandidateListSelectionStyle
 req.redist: 

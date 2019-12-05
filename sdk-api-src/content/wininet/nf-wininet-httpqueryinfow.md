@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.HttpQueryInfoW
 title: HttpQueryInfoW function (wininet.h)
-
 description: Retrieves header information associated with an HTTP request.
 old-location: wininet\httpqueryinfo.htm
 tech.root: wininet
 ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
-
 ms.date: 12/05/2018
 ms.keywords: HttpQueryInfo, HttpQueryInfo function [WinINet], HttpQueryInfoA, HttpQueryInfoW, _inet_httpqueryinfo_function, wininet.httpqueryinfo, wininet/HttpQueryInfo, wininet/HttpQueryInfoA, wininet/HttpQueryInfoW
 ms.topic: function
-f1_keywords: 
- - "wininet/HttpQueryInfo"
+f1_keywords:
+- wininet/HttpQueryInfo
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - HttpQueryInfo
- - HttpQueryInfoA
- - HttpQueryInfoW
+- HttpQueryInfo
+- HttpQueryInfoA
+- HttpQueryInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

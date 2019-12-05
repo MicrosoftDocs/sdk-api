@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTypeNegotiation.TryOutputProps
 title: IWMReaderTypeNegotiation::TryOutputProps (wmsdkidl.h)
-
 description: The TryOutputProps method ascertains whether certain changes to the properties of an output are possible.
 old-location: wmformat\iwmreadertypenegotiation_tryoutputprops.htm
 tech.root: wmformat
 ms.assetid: 87d16641-3d28-4bad-962b-8ec808cd7877
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderTypeNegotiation interface [windows Media Format],TryOutputProps method, IWMReaderTypeNegotiation.TryOutputProps, IWMReaderTypeNegotiation::TryOutputProps, IWMReaderTypeNegotiationTryOutputProps, TryOutputProps, TryOutputProps method [windows Media Format], TryOutputProps method [windows Media Format],IWMReaderTypeNegotiation interface, wmformat.iwmreadertypenegotiation_tryoutputprops, wmsdkidl/IWMReaderTypeNegotiation::TryOutputProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderTypeNegotiation.TryOutputProps"
+f1_keywords:
+- wmsdkidl/IWMReaderTypeNegotiation.TryOutputProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderTypeNegotiation.TryOutputProps
+- IWMReaderTypeNegotiation.TryOutputProps
 targetos: Windows
 req.typenames: 
 req.redist: 

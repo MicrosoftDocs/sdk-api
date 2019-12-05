@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.AuditSetSecurity
 title: AuditSetSecurity function (ntsecapi.h)
-
 description: Sets a security descriptor that delegates access to audit policy.
 old-location: security\auditsetsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 2f4d6198-775a-40e4-9158-a69e71bfe050
-
 ms.date: 12/05/2018
 ms.keywords: AuditSetSecurity, AuditSetSecurity function [Security], ntsecapi/AuditSetSecurity, security.auditsetsecurity
 ms.topic: function
 f1_keywords:
 - ntsecapi/AuditSetSecurity
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows

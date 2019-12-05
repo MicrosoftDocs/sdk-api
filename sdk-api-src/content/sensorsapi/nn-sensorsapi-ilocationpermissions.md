@@ -1,19 +1,17 @@
 ---
 UID: NN:sensorsapi.ILocationPermissions
 title: ILocationPermissions (sensorsapi.h)
-
 description: Provides the status of the system setting that allows users to change location settings.
 old-location: winsensors\ilocationpermissions.htm
 tech.root: SensorsAPI
 ms.assetid: f4b46f4a-60be-4428-a4b5-6100ae3f1e1b
-
 ms.date: 12/05/2018
 ms.keywords: ILocationPermissions, ILocationPermissions interface [WinSensors], ILocationPermissions interface [WinSensors],described, sensorsapi/ILocationPermissions, winsensors.ilocationpermissions
 ms.topic: interface
-f1_keywords: 
- - "sensorsapi/ILocationPermissions"
+f1_keywords:
+- sensorsapi/ILocationPermissions
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ILocationPermissions
+- ILocationPermissions
 targetos: Windows
 req.typenames: 
 req.redist: 

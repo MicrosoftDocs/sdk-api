@@ -1,19 +1,17 @@
 ---
 UID: NN:photoacquire.IPhotoAcquirePlugin
 title: IPhotoAcquirePlugin (photoacquire.h)
-
 description: Implement the IPhotoAcquirePlugin interface when you want to create a plug-in to run alongside the Windows Vista user interface (UI) for image acquisition. Registry settings are required to enable the plug-in.
 old-location: picacq\iphotoacquireplugin.htm
 tech.root: acquisition
 ms.assetid: 7c8a0a49-8c15-4db2-8231-a48a3f76eb62
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquirePlugin, IPhotoAcquirePlugin interface [Picture Acquisition], IPhotoAcquirePlugin interface [Picture Acquisition],described, IPhotoAcquirePluginInterface, photoacquire/IPhotoAcquirePlugin, picacq.iphotoacquireplugin
 ms.topic: interface
-f1_keywords: 
- - "photoacquire/IPhotoAcquirePlugin"
+f1_keywords:
+- photoacquire/IPhotoAcquirePlugin
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - photoacquire.h
+- photoacquire.h
 api_name:
- - IPhotoAcquirePlugin
+- IPhotoAcquirePlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

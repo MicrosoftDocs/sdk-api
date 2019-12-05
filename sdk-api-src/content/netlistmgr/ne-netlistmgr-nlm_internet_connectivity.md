@@ -1,19 +1,17 @@
 ---
 UID: NE:netlistmgr.NLM_INTERNET_CONNECTIVITY
 title: NLM_INTERNET_CONNECTIVITY (netlistmgr.h)
-
 description: The NLM_INTERNET_CONNECTIVITY enumeration defines a set of flags that provide additional data for IPv4 or IPv6 network connectivity.
 old-location: nla\nlm_internet_connectivity.htm
 tech.root: nla
 ms.assetid: 5B1DB4D5-6F69-4628-AEAF-E280E9B4E71C
-
 ms.date: 12/05/2018
 ms.keywords: NLM_INTERNET_CONNECTIVITY, NLM_INTERNET_CONNECTIVITY enumeration [Network Awareness], NLM_INTERNET_CONNECTIVITY_CORPORATE, NLM_INTERNET_CONNECTIVITY_PROXIED, NLM_INTERNET_CONNECTIVITY_WEBHIJACK, netlistmgr/NLM_INTERNET_CONNECTIVITY, netlistmgr/NLM_INTERNET_CONNECTIVITY_CORPORATE, netlistmgr/NLM_INTERNET_CONNECTIVITY_PROXIED, netlistmgr/NLM_INTERNET_CONNECTIVITY_WEBHIJACK, nla.nlm_internet_connectivity
 ms.topic: enum
-f1_keywords: 
- - "netlistmgr/NLM_INTERNET_CONNECTIVITY"
+f1_keywords:
+- netlistmgr/NLM_INTERNET_CONNECTIVITY
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - NLM_INTERNET_CONNECTIVITY
+- NLM_INTERNET_CONNECTIVITY
 targetos: Windows
 req.typenames: NLM_INTERNET_CONNECTIVITY
 req.redist: 

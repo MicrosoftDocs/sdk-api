@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_BufferingTime
 title: IAMNetShowConfig::get_BufferingTime (qnetwork.h)
-
 description: The get_BufferingTime method retrieves the buffering time.
 old-location: dshow\iamnetshowconfig_get_bufferingtime.htm
 tech.root: DirectShow
 ms.assetid: 8594f8dd-9545-4e6d-b1d7-9a278dcb4129
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_BufferingTime method, IAMNetShowConfig.get_BufferingTime, IAMNetShowConfig::get_BufferingTime, IAMNetShowConfigget_BufferingTime, dshow.iamnetshowconfig_get_bufferingtime, get_BufferingTime, get_BufferingTime method [DirectShow], get_BufferingTime method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_BufferingTime
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.get_BufferingTime"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.get_BufferingTime
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.get_BufferingTime
+- IAMNetShowConfig.get_BufferingTime
 targetos: Windows
 req.typenames: 
 req.redist: 

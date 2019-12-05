@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientTouchPointer.get_PointerSpeed
 title: IRemoteDesktopClientTouchPointer::get_PointerSpeed (rdpappcontainerclient.h)
-
 description: How fast the touch pointer cursor will move on the virtual desktop relative to the speed of the gesture on the client.
 old-location: termserv\iremotedesktopclienttouchpointer_pointerspeed.htm
 tech.root: TermServ
 ms.assetid: 40c35308-cabe-4a71-b7bb-b5ada5eafa91
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientTouchPointer interface [Remote Desktop Services],PointerSpeed property, IRemoteDesktopClientTouchPointer.PointerSpeed, IRemoteDesktopClientTouchPointer.get_PointerSpeed, IRemoteDesktopClientTouchPointer::PointerSpeed, IRemoteDesktopClientTouchPointer::get_PointerSpeed, PointerSpeed property [Remote Desktop Services], PointerSpeed property [Remote Desktop Services],IRemoteDesktopClientTouchPointer interface, get_PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::PointerSpeed, rdpappcontainerclient/IRemoteDesktopClientTouchPointer::get_PointerSpeed, termserv.iremotedesktopclienttouchpointer_pointerspeed
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientTouchPointer.PointerSpeed"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientTouchPointer.PointerSpeed
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientTouchPointer.PointerSpeed
- - IRemoteDesktopClientTouchPointer.get_PointerSpeed
+- IRemoteDesktopClientTouchPointer.PointerSpeed
+- IRemoteDesktopClientTouchPointer.get_PointerSpeed
 targetos: Windows
 req.typenames: 
 req.redist: 

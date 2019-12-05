@@ -1,19 +1,17 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_INDEXING_STATUS
 title: SEARCH_ITEM_INDEXING_STATUS (searchapi.h)
-
 description: Describes the status of a document to be indexed.
 old-location: search\_search_SEARCH_ITEM_INDEXING_STATUS.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_indexing_status.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ITEM_INDEXING_STATUS, SEARCH_ITEM_INDEXING_STATUS structure [search], _search_SEARCH_ITEM_INDEXING_STATUS, search._search_SEARCH_ITEM_INDEXING_STATUS, searchapi/SEARCH_ITEM_INDEXING_STATUS
 ms.topic: struct
-f1_keywords: 
- - "searchapi/SEARCH_ITEM_INDEXING_STATUS"
+f1_keywords:
+- searchapi/SEARCH_ITEM_INDEXING_STATUS
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - SEARCH_ITEM_INDEXING_STATUS
+- SEARCH_ITEM_INDEXING_STATUS
 targetos: Windows
 req.typenames: SEARCH_ITEM_INDEXING_STATUS
 req.redist: Windows Desktop Search (WDS) 3.0

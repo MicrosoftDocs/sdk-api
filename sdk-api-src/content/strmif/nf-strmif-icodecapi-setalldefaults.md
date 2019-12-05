@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.SetAllDefaults
 title: ICodecAPI::SetAllDefaults (strmif.h)
-
 description: The SetAllDefaults method resets all codec properties to their default values.
 old-location: dshow\icodecapi_setalldefaults.htm
 tech.root: DirectShow
 ms.assetid: b2f630be-a105-4f1b-9f9a-9d56c8853f35
-
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],SetAllDefaults method, ICodecAPI.SetAllDefaults, ICodecAPI::SetAllDefaults, ICodecAPISetAllDefaults, SetAllDefaults, SetAllDefaults method [DirectShow], SetAllDefaults method [DirectShow],ICodecAPI interface, dshow.icodecapi_setalldefaults, strmif/ICodecAPI::SetAllDefaults
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.SetAllDefaults"
+f1_keywords:
+- strmif/ICodecAPI.SetAllDefaults
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.SetAllDefaults
+- ICodecAPI.SetAllDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

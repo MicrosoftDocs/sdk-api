@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetName
 title: IEnumCERTVIEWCOLUMN::GetName (certview.h)
-
 description: Retrieves the nonlocalized name of the current column in the column-enumeration sequence.
 old-location: security\ienumcertviewcolumn_getname.htm
 tech.root: SecCrypto
 ms.assetid: be76cec1-9ac0-4cc0-bddb-992b2d3590d7
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Security], GetName method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetName method, IEnumCERTVIEWCOLUMN.GetName, IEnumCERTVIEWCOLUMN::GetName, _certsrv_ienumcertviewcolumn_getname, certview/IEnumCERTVIEWCOLUMN::GetName, security.ienumcertviewcolumn_getname
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWCOLUMN.GetName"
+f1_keywords:
+- certview/IEnumCERTVIEWCOLUMN.GetName
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.GetName
- - IEnumCERTVIEWCOLUMN.GetName
+- IEnumCERTVIEWCOLUMN.GetName
+- IEnumCERTVIEWCOLUMN.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

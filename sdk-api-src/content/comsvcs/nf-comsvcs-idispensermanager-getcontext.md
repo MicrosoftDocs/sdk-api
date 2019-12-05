@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IDispenserManager.GetContext
 title: IDispenserManager::GetContext (comsvcs.h)
-
 description: Determines the current context.
 old-location: cos\idispensermanager_getcontext.htm
 tech.root: cossdk
 ms.assetid: cc3095a3-df4c-4112-a3cb-308e8962b51f
-
 ms.date: 12/05/2018
 ms.keywords: GetContext, GetContext method [COM+], GetContext method [COM+],IDispenserManager interface, IDispenserManager interface [COM+],GetContext method, IDispenserManager.GetContext, IDispenserManager::GetContext, _dtc_IDispenserManager_GetContext, comsvcs/IDispenserManager::GetContext, cos.idispensermanager_getcontext
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IDispenserManager.GetContext"
+f1_keywords:
+- comsvcs/IDispenserManager.GetContext
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserManager.GetContext
+- IDispenserManager.GetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

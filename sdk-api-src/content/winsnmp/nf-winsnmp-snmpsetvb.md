@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpSetVb
 title: SnmpSetVb function (winsnmp.h)
-
 description: The WinSNMP SnmpSetVb function changes variable binding entries in a variable bindings list. This function also appends new variable binding entries to an existing variable bindings list.
 old-location: snmp\snmpsetvb.htm
 tech.root: SNMP
 ms.assetid: 65d962bd-f4d7-4cf4-9b24-a7678e669e24
-
 ms.date: 12/05/2018
 ms.keywords: SnmpSetVb, SnmpSetVb function [SNMP], _snmp_snmpsetvb, snmp.snmpsetvb, winsnmp/SnmpSetVb
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpSetVb"
+f1_keywords:
+- winsnmp/SnmpSetVb
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpSetVb
+- SnmpSetVb
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetPackageId
 title: IAppxBundleManifestPackageInfo::GetPackageId (appxpackaging.h)
-
 description: Retrieves an object that represents the identity of the app package.
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackageid.htm
 tech.root: appxpkg
 ms.assetid: 5C7F52C3-AB72-4023-900B-53E3B5504213
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageId, GetPackageId method [App packaging and management], GetPackageId method [App packaging and management],IAppxBundleManifestPackageInfo interface, IAppxBundleManifestPackageInfo interface [App packaging and management],GetPackageId method, IAppxBundleManifestPackageInfo.GetPackageId, IAppxBundleManifestPackageInfo::GetPackageId, appxpackaging/IAppxBundleManifestPackageInfo::GetPackageId, appxpkg.iappxbundlemanifestpackageinfo_getpackageid
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleManifestPackageInfo.GetPackageId"
+f1_keywords:
+- appxpackaging/IAppxBundleManifestPackageInfo.GetPackageId
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo.GetPackageId
+- IAppxBundleManifestPackageInfo.GetPackageId
 targetos: Windows
 req.typenames: 
 req.redist: 

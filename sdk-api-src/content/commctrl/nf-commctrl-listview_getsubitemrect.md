@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetSubItemRect
 title: ListView_GetSubItemRect macro (commctrl.h)
-
 description: Gets information about the rectangle that surrounds a subitem in a list-view control.
 old-location: controls\ListView_GetSubItemRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getsubitemrect.htm
-
 ms.date: 12/05/2018
 ms.keywords: LVIR_BOUNDS, LVIR_ICON, LVIR_LABEL, ListView_GetSubItemRect, ListView_GetSubItemRect macro [Windows Controls], _win32_ListView_GetSubItemRect, _win32_ListView_GetSubItemRect_cpp, commctrl/ListView_GetSubItemRect, controls.ListView_GetSubItemRect, controls._win32_ListView_GetSubItemRect
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetSubItemRect"
+f1_keywords:
+- commctrl/ListView_GetSubItemRect
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetSubItemRect
+- ListView_GetSubItemRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo
 title: IRDPSRAPIAttendeeDisconnectInfo (rdpencomapi.h)
-
 description: Contains information about the reason an attendee disconnected.
 old-location: rdp\irdpsrapiattendeedisconnectinfo.htm
 tech.root: rdp
 ms.assetid: 849c4fbe-b9c4-4601-b93f-13efd1014a50
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendeeDisconnectInfo, IRDPSRAPIAttendeeDisconnectInfo interface [RDP], IRDPSRAPIAttendeeDisconnectInfo interface [RDP],described, rdp.irdpsrapiattendeedisconnectinfo, rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeDisconnectInfo
+- IRDPSRAPIAttendeeDisconnectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

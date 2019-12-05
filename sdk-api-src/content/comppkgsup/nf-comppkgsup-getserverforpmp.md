@@ -1,19 +1,17 @@
 ---
 UID: NF:comppkgsup.GetServerForPMP
 title: GetServerForPMP function (comppkgsup.h)
-
 description: Gets a COM server that has been registered for Protected Media Process (PMP) usage with previous call to RegisterServerForPMP.
 old-location: winprog\getserverforpmp.htm
 tech.root: DevNotes
 ms.assetid: 0E343396-A294-45E3-88E5-9B63EB8B10B9
-
 ms.date: 12/05/2018
 ms.keywords: GetServerForPMP, GetServerForPMP function [Windows API], comppkgsup/GetServerForPMP, winprog.getserverforpmp
 ms.topic: function
-f1_keywords: 
- - "comppkgsup/GetServerForPMP"
+f1_keywords:
+- comppkgsup/GetServerForPMP
 dev_langs:
- - c++
+- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CompPkgSup.dll
+- CompPkgSup.dll
 api_name:
- - GetServerForPMP
+- GetServerForPMP
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:errors.AMGetErrorTextA
 title: AMGetErrorTextA function (errors.h)
-
 description: The AMGetErrorText function retrieves the error message for a given return code, using the current language setting.
 old-location: dshow\amgeterrortext.htm
 tech.root: DirectShow
 ms.assetid: 268fd554-99f4-4400-8e33-4d98c51b76cf
-
 ms.date: 12/05/2018
 ms.keywords: AMGetErrorText, AMGetErrorText function [DirectShow], AMGetErrorTextA, AMGetErrorTextW, dshow.amgeterrortext, errors/AMGetErrorText
 ms.topic: function
-f1_keywords: 
- - "errors/AMGetErrorText"
+f1_keywords:
+- errors/AMGetErrorText
 dev_langs:
- - c++
+- c++
 req.header: errors.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Quartz.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Quartz.lib
- - Quartz.dll
+- Quartz.lib
+- Quartz.dll
 api_name:
- - AMGetErrorText
- - AMGetErrorTextA
+- AMGetErrorText
+- AMGetErrorTextA
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_FrequencyFilter
 title: IBDA_FrequencyFilter (bdaiface.h)
-
 description: The IBDA_FrequencyFilter interface is implemented on a BDA tuner device, and is used by the Network Provider to tell the tuner how to set its frequencies.
 old-location: mstv\ibda_frequencyfilter.htm
 tech.root: mstv
 ms.assetid: ef5dbf4a-ecbb-4f2c-a34d-ce3864133adc
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter, IBDA_FrequencyFilter interface [Microsoft TV Technologies], IBDA_FrequencyFilter interface [Microsoft TV Technologies],described, IBDA_FrequencyFilterInterface, bdaiface/IBDA_FrequencyFilter, mstv.ibda_frequencyfilter
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_FrequencyFilter"
+f1_keywords:
+- bdaiface/IBDA_FrequencyFilter
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FrequencyFilter
+- IBDA_FrequencyFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

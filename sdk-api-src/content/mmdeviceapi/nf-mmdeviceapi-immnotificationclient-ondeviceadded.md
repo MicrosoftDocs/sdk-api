@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceAdded
 title: IMMNotificationClient::OnDeviceAdded (mmdeviceapi.h)
-
 description: The OnDeviceAdded method indicates that a new audio endpoint device has been added.
 old-location: coreaudio\immnotificationclient_ondeviceadded.htm
 tech.root: CoreAudio
 ms.assetid: c839493d-e53c-4afe-b53d-af9d1a6f2965
-
 ms.date: 12/05/2018
 ms.keywords: IMMNotificationClient interface [Core Audio],OnDeviceAdded method, IMMNotificationClient.OnDeviceAdded, IMMNotificationClient::OnDeviceAdded, IMMNotificationClientOnDeviceAdded, OnDeviceAdded, OnDeviceAdded method [Core Audio], OnDeviceAdded method [Core Audio],IMMNotificationClient interface, coreaudio.immnotificationclient_ondeviceadded, mmdeviceapi/IMMNotificationClient::OnDeviceAdded
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMNotificationClient.OnDeviceAdded"
+f1_keywords:
+- mmdeviceapi/IMMNotificationClient.OnDeviceAdded
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMNotificationClient.OnDeviceAdded
+- IMMNotificationClient.OnDeviceAdded
 targetos: Windows
 req.typenames: 
 req.redist: 

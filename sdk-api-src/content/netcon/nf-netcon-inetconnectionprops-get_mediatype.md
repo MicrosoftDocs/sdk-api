@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnectionProps.get_MediaType
 title: INetConnectionProps::get_MediaType (netcon.h)
-
 description: The get_MediaType method retrieves the media type for the connection.
 old-location: ics\inetconnectionprops_get_mediatype.htm
 tech.root: ics
 ms.assetid: cefaee7c-22ce-4171-8789-fe6befc7e313
-
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps interface [ICS/ICF],get_MediaType method, INetConnectionProps.get_MediaType, INetConnectionProps::get_MediaType, _ics_inetconnectionprops_get_mediatype, get_MediaType, get_MediaType method [ICS/ICF], get_MediaType method [ICS/ICF],INetConnectionProps interface, ics.inetconnectionprops_get_mediatype, netcon/INetConnectionProps::get_MediaType
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnectionProps.get_MediaType"
+f1_keywords:
+- netcon/INetConnectionProps.get_MediaType
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnectionProps.get_MediaType
+- INetConnectionProps.get_MediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfConfigureSystemKeystrokeFeed
 title: ITfConfigureSystemKeystrokeFeed (msctf.h)
-
 description: The ITfConfigureSystemKeystrokeFeed interface is implemented by the TSF manager to enable and disable the processing of keystrokes.
 old-location: tsf\itfconfiguresystemkeystrokefeed.htm
 tech.root: TSF
 ms.assetid: 9b15d628-87aa-4e20-b9c3-fb29a79683cb
-
 ms.date: 12/05/2018
 ms.keywords: ITfConfigureSystemKeystrokeFeed, ITfConfigureSystemKeystrokeFeed interface [Text Services Framework], ITfConfigureSystemKeystrokeFeed interface [Text Services Framework],described, _tsf_itfconfiguresystemkeystrokefeed_ref, msctf/ITfConfigureSystemKeystrokeFeed, tsf.itfconfiguresystemkeystrokefeed
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfConfigureSystemKeystrokeFeed"
+f1_keywords:
+- msctf/ITfConfigureSystemKeystrokeFeed
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfConfigureSystemKeystrokeFeed
+- ITfConfigureSystemKeystrokeFeed
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

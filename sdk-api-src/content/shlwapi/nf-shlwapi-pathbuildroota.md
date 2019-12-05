@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathBuildRootA
 title: PathBuildRootA function (shlwapi.h)
-
 description: Creates a root path from a given drive number.
 old-location: shell\PathBuildRoot.htm
 tech.root: shell
 ms.assetid: 0a6895bd-54cf-499c-9057-f2d721bce5d9
-
 ms.date: 12/05/2018
 ms.keywords: PathBuildRoot, PathBuildRoot function [Windows Shell], PathBuildRootA, PathBuildRootW, _win32_PathBuildRoot, shell.PathBuildRoot, shlwapi/PathBuildRoot, shlwapi/PathBuildRootA, shlwapi/PathBuildRootW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathBuildRoot"
+f1_keywords:
+- shlwapi/PathBuildRoot
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - PathBuildRoot
- - PathBuildRootA
- - PathBuildRootW
+- PathBuildRoot
+- PathBuildRootA
+- PathBuildRootW
 targetos: Windows
 req.typenames: 
 req.redist: 

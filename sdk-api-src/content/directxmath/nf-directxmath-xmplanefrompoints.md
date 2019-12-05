@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMPlaneFromPoints
 title: XMPlaneFromPoints function (directxmath.h)
-
 description: Computes the equation of a plane constructed from three points in the plane.
 old-location: dxmath\xmplanefrompoints.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.plane.XMPlaneFromPoints(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMPlaneFromPoints, XMPlaneFromPoints, XMPlaneFromPoints method [DirectX Math Support APIs], dxmath.xmplanefrompoints
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMPlaneFromPoints"
+f1_keywords:
+- directxmath/XMPlaneFromPoints
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMPlaneFromPoints
+- XMPlaneFromPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

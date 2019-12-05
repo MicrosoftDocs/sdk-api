@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.operator-mult
 title: Matrix4x4F::operator-mult (d2d1_1helper.h)
-
 description: Multiplies this matrix with the specified matrix and returns the result.
 old-location: direct2d\matrix4x4f_operator_.htm
 tech.root: Direct2D
 ms.assetid: 2ED3EF0A-84B9-4BE9-825B-EA55DE2BAF47
-
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],operator* method, Matrix4x4F.operator*, Matrix4x4F.operator-mult, Matrix4x4F::operator*, Matrix4x4F::operator-mult, d2d1_1helper/Matrix4x4F::operator*, direct2d.matrix4x4f_operator_, operator*, operator* method [Direct2D], operator* method [Direct2D],Matrix4x4F interface
 ms.topic: method
-f1_keywords: 
- - "d2d1_1helper/Matrix4x4F.operator*"
+f1_keywords:
+- d2d1_1helper/Matrix4x4F.operator*
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_1helper.h
+- d2d1_1helper.h
 api_name:
- - Matrix4x4F.operator*
+- Matrix4x4F.operator*
 targetos: Windows
 req.typenames: 
 req.redist: 

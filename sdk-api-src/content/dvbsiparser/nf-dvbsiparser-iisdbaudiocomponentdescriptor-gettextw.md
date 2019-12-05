@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetTextW
 title: IIsdbAudioComponentDescriptor::GetTextW (dvbsiparser.h)
-
 description: Gets the component stream description from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in Unicode text format,.
 old-location: mstv\iisdbaudiocomponentdescriptor_gettextw.htm
 tech.root: mstv
 ms.assetid: beeb31dd-28f8-45bb-bda0-0dbf6bca679b
-
 ms.date: 12/05/2018
 ms.keywords: GetTextW, GetTextW method [Microsoft TV Technologies], GetTextW method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetTextW method, IIsdbAudioComponentDescriptor.GetTextW, IIsdbAudioComponentDescriptor::GetTextW, dvbsiparser/IIsdbAudioComponentDescriptor::GetTextW, mstv.iisdbaudiocomponentdescriptor_gettextw
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbAudioComponentDescriptor.GetTextW"
+f1_keywords:
+- dvbsiparser/IIsdbAudioComponentDescriptor.GetTextW
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor.GetTextW
+- IIsdbAudioComponentDescriptor.GetTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

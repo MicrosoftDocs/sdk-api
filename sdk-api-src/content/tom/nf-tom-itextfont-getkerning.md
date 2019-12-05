@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetKerning
 title: ITextFont::GetKerning (tom.h)
-
 description: Gets the minimum font size at which kerning occurs.
 old-location: controls\ITextFont_GetKerning.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkerning.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetKerning, GetKerning method [Windows Controls], GetKerning method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetKerning method, ITextFont.GetKerning, ITextFont::GetKerning, _win32_ITextFont_GetKerning, _win32_ITextFont_GetKerning_cpp, controls.ITextFont_GetKerning, controls._win32_ITextFont_GetKerning, tom/ITextFont::GetKerning
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetKerning"
+f1_keywords:
+- tom/ITextFont.GetKerning
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetKerning
+- ITextFont.GetKerning
 targetos: Windows
 req.typenames: 
 req.redist: 

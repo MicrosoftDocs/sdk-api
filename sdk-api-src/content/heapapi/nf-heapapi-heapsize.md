@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapSize
 title: HeapSize function (heapapi.h)
-
 description: Retrieves the size of a memory block allocated from a heap by the HeapAlloc or HeapReAlloc function.
 old-location: base\heapsize.htm
 tech.root: Memory
 ms.assetid: a8fcfd99-7b04-4aa3-8619-272b254551a3
-
 ms.date: 12/05/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapSize, HeapSize function, _win32_heapsize, base.heapsize, heapapi/HeapSize, winbase/HeapSize
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapSize"
+f1_keywords:
+- heapapi/HeapSize
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - HeapSize
+- HeapSize
 targetos: Windows
 req.typenames: 
 req.redist: 

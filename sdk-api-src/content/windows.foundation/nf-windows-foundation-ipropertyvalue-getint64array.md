@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetInt64Array
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of signed 64-bit integer values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getint64array.htm
 tech.root: WinRT
 ms.assetid: 8bc05817-e9d4-427a-883d-495faf5d0ab0
-
 ms.date: 12/05/2018
 ms.keywords: GetInt64Array, GetInt64Array method [Windows Runtime], GetInt64Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetInt64Array method, IPropertyValue.GetInt64Array, IPropertyValue.IPropertyValue, IPropertyValue::GetInt64Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetInt64Array, winrt.ipropertyvalue_getint64array
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetInt64Array"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetInt64Array
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetInt64Array
+- IPropertyValue.GetInt64Array
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFDXGIDeviceManagerSource
 title: IMFDXGIDeviceManagerSource (mfidl.h)
-
 description: Provides functionality for getting the IMFDXGIDeviceManager from the Microsoft Media Foundation video rendering sink.
 old-location: mf\imfdxgidevicemanagersource.htm
 tech.root: medfound
 ms.assetid: 80078ed6-61cc-4fb9-8fd5-eda78cd5be30
-
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIDeviceManagerSource, IMFDXGIDeviceManagerSource interface [Media Foundation], IMFDXGIDeviceManagerSource interface [Media Foundation],described, mf.imfdxgidevicemanagersource, mfidl/IMFDXGIDeviceManagerSource
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFDXGIDeviceManagerSource"
+f1_keywords:
+- mfidl/IMFDXGIDeviceManagerSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFDXGIDeviceManagerSource
+- IMFDXGIDeviceManagerSource
 targetos: Windows
 req.typenames: 
 req.redist: 

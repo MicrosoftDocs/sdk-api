@@ -1,37 +1,35 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
 title: D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
-
 description: Specifies flags for video processing input streams.
 tech.root: mf
 ms.assetid: d27ae6b9-c5e2-4f46-a76c-2f91bb8b9ba7
-
-ms.date: 05/28/2019 
+ms.date: 05/28/2019
 ms.topic: enum
 f1_keywords:
- - D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
+- D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS, D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS, 
+- c++
+ms.keywords: D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS, D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_PROCESS_INPUT_STREAM_FLAGS
 targetos: Windows
 ---
 

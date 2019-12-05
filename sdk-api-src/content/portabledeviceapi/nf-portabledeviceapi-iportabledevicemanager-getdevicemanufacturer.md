@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceManager.GetDeviceManufacturer
 title: IPortableDeviceManager::GetDeviceManufacturer (portabledeviceapi.h)
-
 description: Retrieves the name of the device manufacturer.
 old-location: wpdsdk\iportabledevicemanager_getdevicemanufacturer.htm
 tech.root: wpd_sdk
 ms.assetid: 2bd64da1-819d-430c-ab66-ab3b8e6c48f6
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceManufacturer, GetDeviceManufacturer method [Windows Portable Devices SDK], GetDeviceManufacturer method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDeviceManufacturer method, IPortableDeviceManager.GetDeviceManufacturer, IPortableDeviceManager::GetDeviceManufacturer, IPortableDeviceManagerGetDeviceManufacturer, portabledeviceapi/IPortableDeviceManager::GetDeviceManufacturer, wpdsdk.iportabledevicemanager_getdevicemanufacturer
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceManager.GetDeviceManufacturer"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceManager.GetDeviceManufacturer
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager.GetDeviceManufacturer
+- IPortableDeviceManager.GetDeviceManufacturer
 targetos: Windows
 req.typenames: 
 req.redist: 

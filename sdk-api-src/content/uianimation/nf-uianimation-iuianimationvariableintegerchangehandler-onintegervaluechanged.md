@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
 title: IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged (uianimation.h)
-
 description: Handles events that occur when the value of an animation variable changes.
 old-location: uianimation\iuianimationvariableintegerchangehandler_onintegervaluechanged.htm
 tech.root: UIAnimation
 ms.assetid: e12224a2-c8f3-45eb-a254-d624de16e12d
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariableIntegerChangeHandler interface [Windows Animation],OnIntegerValueChanged method, IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged, IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged, OnIntegerValueChanged, OnIntegerValueChanged method [Windows Animation], OnIntegerValueChanged method [Windows Animation],IUIAnimationVariableIntegerChangeHandler interface, uianimation.iuianimationvariableintegerchangehandler_onintegervaluechanged, uianimation/IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged"
+f1_keywords:
+- uianimation/IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
+- IUIAnimationVariableIntegerChangeHandler.OnIntegerValueChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

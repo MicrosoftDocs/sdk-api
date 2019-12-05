@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapReader.GetRequiredGroup
 title: IAppxContentGroupMapReader::GetRequiredGroup (appxpackaging.h)
-
 description: Gets the required content group from the content group map.
 old-location: appxpkg\iappxcontentgroupmapreader_getrequiredgroup.htm
 tech.root: appxpkg
 ms.assetid: 45E4193E-EB4C-4D3D-989A-7AE35FDC2C77
-
 ms.date: 12/05/2018
 ms.keywords: GetRequiredGroup, GetRequiredGroup method [App packaging and management], GetRequiredGroup method [App packaging and management],IAppxContentGroupMapReader interface, IAppxContentGroupMapReader interface [App packaging and management],GetRequiredGroup method, IAppxContentGroupMapReader.GetRequiredGroup, IAppxContentGroupMapReader::GetRequiredGroup, appxpackaging/IAppxContentGroupMapReader::GetRequiredGroup, appxpkg.iappxcontentgroupmapreader_getrequiredgroup
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupMapReader.GetRequiredGroup"
+f1_keywords:
+- appxpackaging/IAppxContentGroupMapReader.GetRequiredGroup
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupMapReader.GetRequiredGroup
+- IAppxContentGroupMapReader.GetRequiredGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

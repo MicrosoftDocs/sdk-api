@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkCursorButton
 title: IInkCursorButton (msinkaut.h)
-
 description: Represents general information about a button on a tablet pointing and selecting device.
 old-location: tablet\iinkcursorbutton.htm
 tech.root: tablet
 ms.assetid: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2
-
 ms.date: 12/05/2018
 ms.keywords: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2, IInkCursorButton, IInkCursorButton interface [Tablet PC], IInkCursorButton interface [Tablet PC],described, msinkaut/IInkCursorButton, tablet.iinkcursorbutton
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkCursorButton"
+f1_keywords:
+- msinkaut/IInkCursorButton
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursorButton
+- IInkCursorButton
 targetos: Windows
 req.typenames: 
 req.redist: 

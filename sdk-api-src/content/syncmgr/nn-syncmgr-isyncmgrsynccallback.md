@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncCallback
 title: ISyncMgrSyncCallback (syncmgr.h)
-
 description: Exposes methods that allow a synchronization process to report progress and events to Sync Center, or to query whether the process has been canceled.
 old-location: shell\ISyncMgrSyncCallback.htm
 tech.root: shell
 ms.assetid: 4f2b6dc3-3b81-4c0a-b0a2-b48f13fba397
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback, ISyncMgrSyncCallback interface [Windows Shell], ISyncMgrSyncCallback interface [Windows Shell],described, _shell_ISyncMgrSyncCallback, shell.ISyncMgrSyncCallback, syncmgr/ISyncMgrSyncCallback
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncCallback"
+f1_keywords:
+- syncmgr/ISyncMgrSyncCallback
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback
+- ISyncMgrSyncCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

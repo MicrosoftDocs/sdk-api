@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetPAT
 title: IAtscPsipParser::GetPAT (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatscpsipparser_getpat.htm
 tech.root: mstv
 ms.assetid: 7cfa9ec0-a802-4dbe-9997-d0eaac2b71c9
-
 ms.date: 12/05/2018
 ms.keywords: GetPAT, GetPAT method [Microsoft TV Technologies], GetPAT method [Microsoft TV Technologies],IAtscPsipParser interface, IAtscPsipParser interface [Microsoft TV Technologies],GetPAT method, IAtscPsipParser.GetPAT, IAtscPsipParser::GetPAT, IAtscPsipParserGetPAT, atscpsipparser/IAtscPsipParser::GetPAT, mstv.iatscpsipparser_getpat
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IAtscPsipParser.GetPAT"
+f1_keywords:
+- atscpsipparser/IAtscPsipParser.GetPAT
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IAtscPsipParser.GetPAT
+- IAtscPsipParser.GetPAT
 targetos: Windows
 req.typenames: 
 req.redist: 

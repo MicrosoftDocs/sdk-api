@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.HandoffDirect
 title: ITBasicCallControl::HandoffDirect (tapi3if.h)
-
 description: The HandoffDirect method hands off the call to another application. This indicates that the application no longer requires ownership of the call.
 old-location: tapi3\itbasiccallcontrol_handoffdirect.htm
 tech.root: Tapi
 ms.assetid: a96a3790-ee5d-4983-b69a-30c7af96afd9
-
 ms.date: 12/05/2018
 ms.keywords: HandoffDirect, HandoffDirect method [TAPI 2.2], HandoffDirect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],HandoffDirect method, ITBasicCallControl.HandoffDirect, ITBasicCallControl::HandoffDirect, _tapi3_itbasiccallcontrol_handoffdirect, tapi3.itbasiccallcontrol_handoffdirect, tapi3if/ITBasicCallControl::HandoffDirect
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.HandoffDirect"
+f1_keywords:
+- tapi3if/ITBasicCallControl.HandoffDirect
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.HandoffDirect
+- ITBasicCallControl.HandoffDirect
 targetos: Windows
 req.typenames: 
 req.redist: 

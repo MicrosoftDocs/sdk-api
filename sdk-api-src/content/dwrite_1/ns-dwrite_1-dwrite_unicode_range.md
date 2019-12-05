@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_1.DWRITE_UNICODE_RANGE
 title: DWRITE_UNICODE_RANGE (dwrite_1.h)
-
 description: The DWRITE_UNICODE_RANGE structure specifies the range of Unicode code points.
 old-location: directwrite\dwrite_unicode_range.htm
 tech.root: DirectWrite
 ms.assetid: 93DC235F-7E61-44CE-A949-8ABBD1D62CFF
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_UNICODE_RANGE, DWRITE_UNICODE_RANGE structure [Direct Write], directwrite.dwrite_unicode_range, dwrite_1/DWRITE_UNICODE_RANGE
 ms.topic: struct
-f1_keywords: 
- - "dwrite_1/DWRITE_UNICODE_RANGE"
+f1_keywords:
+- dwrite_1/DWRITE_UNICODE_RANGE
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_UNICODE_RANGE
+- DWRITE_UNICODE_RANGE
 targetos: Windows
 req.typenames: 
 req.redist: 

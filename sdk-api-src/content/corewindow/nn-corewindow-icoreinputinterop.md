@@ -1,19 +1,17 @@
 ---
 UID: NN:corewindow.ICoreInputInterop
 title: ICoreInputInterop (corewindow.h)
-
 description: Enables an input source on a Windows application's core input object.
 old-location: winrt\icoreinputinterop.htm
 tech.root: WinRT
 ms.assetid: F7BA7EFB-D9DC-4FF2-97A4-C4818BCBD599
-
 ms.date: 12/05/2018
 ms.keywords: ICoreInputInterop, ICoreInputInterop interface [Windows Runtime], ICoreInputInterop interface [Windows Runtime],described, corewindow/ICoreInputInterop, winrt.icoreinputinterop
 ms.topic: interface
-f1_keywords: 
- - "corewindow/ICoreInputInterop"
+f1_keywords:
+- corewindow/ICoreInputInterop
 dev_langs:
- - c++
+- c++
 req.header: corewindow.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - corewindow.h
+- corewindow.h
 api_name:
- - ICoreInputInterop
+- ICoreInputInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

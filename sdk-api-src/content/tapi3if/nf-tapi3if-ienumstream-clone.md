@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.IEnumStream.Clone
 title: IEnumStream::Clone (tapi3if.h)
-
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumstream_clone.htm
 tech.root: Tapi
 ms.assetid: fbb29d36-b93a-44e2-a1df-74b6de6f4e6e
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumStream interface, IEnumStream interface [TAPI 2.2],Clone method, IEnumStream.Clone, IEnumStream::Clone, _tapi3_ienumstream_clone, tapi3.ienumstream_clone, tapi3if/IEnumStream::Clone
 ms.topic: method
-f1_keywords: 
- - "tapi3if/IEnumStream.Clone"
+f1_keywords:
+- tapi3if/IEnumStream.Clone
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - IEnumStream.Clone
+- IEnumStream.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

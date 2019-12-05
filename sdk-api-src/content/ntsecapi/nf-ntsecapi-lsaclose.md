@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaClose
 title: LsaClose function (ntsecapi.h)
-
 description: The LsaClose function closes a handle to a Policy or TrustedDomain object.
 old-location: security\lsaclose.htm
 tech.root: SecMgmt
 ms.assetid: 6283b1da-4ec3-48e1-91f6-321c6390befe
-
 ms.date: 12/05/2018
 ms.keywords: LsaClose, LsaClose function [Security], _lsa_lsaclose, ntsecapi/LsaClose, security.lsaclose
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaClose"
+f1_keywords:
+- ntsecapi/LsaClose
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-lsapolicy-l1-1-0.dll
- - sechost.dll
- - API-MS-Win-Security-LSAPolicy-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Security-lsapolicy-l1-1-0.dll
+- sechost.dll
+- API-MS-Win-Security-LSAPolicy-L1-1-1.dll
 api_name:
- - LsaClose
+- LsaClose
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetParameterRange
 title: IEncoderAPI::GetParameterRange (strmif.h)
-
 description: The GetParameterRange method retrieves the valid range of values that the parameter supports, in cases where the parameter supports a stepped range as opposed to a list of specific values.
 old-location: mstv\iencoderapi_getparameterrange.htm
 tech.root: mstv
 ms.assetid: fb48a460-c891-4fbe-8fe2-f900f8b405b7
-
 ms.date: 12/05/2018
 ms.keywords: GetParameterRange, GetParameterRange method [Microsoft TV Technologies], GetParameterRange method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetParameterRange method, IEncoderAPI.GetParameterRange, IEncoderAPI::GetParameterRange, IEncoderAPIGetParameterRange, mstv.iencoderapi_getparameterrange, strmif/IEncoderAPI::GetParameterRange
 ms.topic: method
-f1_keywords: 
- - "strmif/IEncoderAPI.GetParameterRange"
+f1_keywords:
+- strmif/IEncoderAPI.GetParameterRange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEncoderAPI.GetParameterRange
+- IEncoderAPI.GetParameterRange
 targetos: Windows
 req.typenames: 
 req.redist: 

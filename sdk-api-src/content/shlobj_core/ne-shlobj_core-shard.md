@@ -1,19 +1,17 @@
 ---
 UID: NE:shlobj_core.__unnamed_enum_7
 title: SHARD (shlobj_core.h)
-
 description: Indicates the interpretation of the data passed by SHAddToRecentDocs in its pv parameter to identify the item whose usage statistics are being tracked.
 old-location: shell\SHARD.htm
 tech.root: shell
 ms.assetid: efc9e018-41bb-44ef-9ca8-85d9e34c9899
-
 ms.date: 12/05/2018
 ms.keywords: SHARD, SHARD enumeration [Windows Shell], SHARD_APPIDINFO, SHARD_APPIDINFOIDLIST, SHARD_APPIDINFOLINK, SHARD_LINK, SHARD_PATHA, SHARD_PATHW, SHARD_PIDL, SHARD_SHELLITEM, _shell_SHARD, shell.SHARD, shlobj_core/SHARD, shlobj_core/SHARD_APPIDINFO, shlobj_core/SHARD_APPIDINFOIDLIST, shlobj_core/SHARD_APPIDINFOLINK, shlobj_core/SHARD_LINK, shlobj_core/SHARD_PATHA, shlobj_core/SHARD_PATHW, shlobj_core/SHARD_PIDL, shlobj_core/SHARD_SHELLITEM
 ms.topic: enum
-f1_keywords: 
- - "shlobj_core/SHARD"
+f1_keywords:
+- shlobj_core/SHARD
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SHARD
+- SHARD
 targetos: Windows
 req.typenames: SHARD
 req.redist: 

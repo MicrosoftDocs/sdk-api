@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Close
 title: IOleUndoManager::Close (ocidl.h)
-
 description: Closes the specified parent undo unit.
 old-location: com\ioleundomanager_close.htm
 tech.root: com
 ms.assetid: 4546f270-5cef-42a3-b07a-f0a491e78849
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [COM], Close method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],Close method, IOleUndoManager.Close, IOleUndoManager::Close, _ole_ioleundomanager_close, com.ioleundomanager_close, ocidl/IOleUndoManager::Close
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoManager.Close"
+f1_keywords:
+- ocidl/IOleUndoManager.Close
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager.Close
+- IOleUndoManager.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

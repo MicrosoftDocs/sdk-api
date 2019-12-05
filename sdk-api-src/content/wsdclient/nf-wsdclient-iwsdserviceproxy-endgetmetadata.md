@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.EndGetMetadata
 title: IWSDServiceProxy::EndGetMetadata (wsdclient.h)
-
 description: Completes the asynchronous metadata exchange request and retrieves the service metadata from the response.
 old-location: ncd\iwsdserviceproxy_endgetmetadata.htm
 tech.root: WsdApi
 ms.assetid: 6024770a-e4cb-4db1-9767-51b559fd8244
-
 ms.date: 12/05/2018
 ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDServiceProxy interface, IWSDServiceProxy interface,EndGetMetadata method, IWSDServiceProxy.EndGetMetadata, IWSDServiceProxy::EndGetMetadata, ncd.iwsdserviceproxy_endgetmetadata, wsdclient/IWSDServiceProxy::EndGetMetadata
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxy.EndGetMetadata
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

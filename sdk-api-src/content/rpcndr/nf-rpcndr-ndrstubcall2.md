@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrStubCall2
 title: NdrStubCall2 function (rpcndr.h)
-
 description: The NdrStubCall2 function is the server-side entry point for /Oicf mode stubs.
 old-location: rpc\ndrstubcall2.htm
 tech.root: Rpc
 ms.assetid: 4249a73b-8e97-4e15-816e-a26a057d6a80
-
 ms.date: 12/05/2018
 ms.keywords: NdrStubCall2, NdrStubCall2 function [RPC], rpc.ndrstubcall2, rpcndr/NdrStubCall2
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrStubCall2
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

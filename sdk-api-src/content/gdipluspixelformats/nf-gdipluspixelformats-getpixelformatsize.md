@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspixelformats.GetPixelFormatSize
 title: GetPixelFormatSize function (gdipluspixelformats.h)
-
 description: The GetPixelFormatSize method returns the number of bits per pixel used by a specified pixel format.
 old-location: gdiplus\_gdiplus_FUNC_GetPixelFormatSize_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getpixelformatsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormatSize, GetPixelFormatSize function [GDI+], _gdiplus_FUNC_GetPixelFormatSize_, gdiplus._gdiplus_FUNC_GetPixelFormatSize_, gdipluspixelformats/GetPixelFormatSize
 ms.topic: function
-f1_keywords: 
- - "gdipluspixelformats/GetPixelFormatSize"
+f1_keywords:
+- gdipluspixelformats/GetPixelFormatSize
 dev_langs:
- - c++
+- c++
 req.header: gdipluspixelformats.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - GetPixelFormatSize
+- GetPixelFormatSize
 targetos: Windows
 req.typenames: 
 req.redist: 

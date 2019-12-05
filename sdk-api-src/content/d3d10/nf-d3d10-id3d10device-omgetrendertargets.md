@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.OMGetRenderTargets
 title: ID3D10Device::OMGetRenderTargets (d3d10.h)
-
 description: Get pointers to the render targets and the depth-stencil buffer that are available to the output-merger stage.
 old-location: direct3d10\id3d10device_omgetrendertargets.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetrendertargets.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetRenderTargets method, ID3D10Device.OMGetRenderTargets, ID3D10Device::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 10], OMGetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMGetRenderTargets, direct3d10.id3d10device_omgetrendertargets, f378deb9-1829-aecc-36fe-7c3ab163d523
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.OMGetRenderTargets"
+f1_keywords:
+- d3d10/ID3D10Device.OMGetRenderTargets
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.OMGetRenderTargets
+- ID3D10Device.OMGetRenderTargets
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetVersionNumber
 title: IISDB_EMM::GetVersionNumber (dvbsiparser.h)
-
 description: Gets the version number for an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
 old-location: mstv\iisdb_emm_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 3eebc1cc-044b-4a0a-8259-cb225f829df8
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionNumber, GetVersionNumber method [Microsoft TV Technologies], GetVersionNumber method [Microsoft TV Technologies],IISDB_EMM interface, IISDB_EMM interface [Microsoft TV Technologies],GetVersionNumber method, IISDB_EMM.GetVersionNumber, IISDB_EMM::GetVersionNumber, dvbsiparser/IISDB_EMM::GetVersionNumber, mstv.iisdb_emm_getversionnumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_EMM.GetVersionNumber"
+f1_keywords:
+- dvbsiparser/IISDB_EMM.GetVersionNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_EMM.GetVersionNumber
+- IISDB_EMM.GetVersionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

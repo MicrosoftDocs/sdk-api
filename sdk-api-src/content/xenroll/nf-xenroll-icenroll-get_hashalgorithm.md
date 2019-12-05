@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.get_HashAlgorithm
 title: ICEnroll::get_HashAlgorithm (xenroll.h)
-
-description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS #10 certification request.
+description: Sets or retrieves only the signature hashing algorithm used to sign the PKCS
 old-location: security\icenroll4_hashalgorithm.htm
 tech.root: SecCrypto
 ms.assetid: 48f8a47b-0ab4-4150-b8cf-37e57fb04d3e
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],HashAlgorithm property, HashAlgorithm property [Security], HashAlgorithm property [Security],CEnroll object, HashAlgorithm property [Security],ICEnroll interface, HashAlgorithm property [Security],ICEnroll2 interface, HashAlgorithm property [Security],ICEnroll3 interface, HashAlgorithm property [Security],ICEnroll4 interface, ICEnroll interface [Security],HashAlgorithm property, ICEnroll.HashAlgorithm, ICEnroll.get_HashAlgorithm, ICEnroll2 interface [Security],HashAlgorithm property, ICEnroll2.HashAlgorithm, ICEnroll2::get_HashAlgorithm, ICEnroll2::put_HashAlgorithm, ICEnroll3 interface [Security],HashAlgorithm property, ICEnroll3.HashAlgorithm, ICEnroll3::get_HashAlgorithm, ICEnroll3::put_HashAlgorithm, ICEnroll4 interface [Security],HashAlgorithm property, ICEnroll4.HashAlgorithm, ICEnroll4::HashAlgorithm, ICEnroll4::get_HashAlgorithm, ICEnroll4::put_HashAlgorithm, ICEnroll::get_HashAlgorithm, ICEnroll::put_HashAlgorithm, get_HashAlgorithm, security.icenroll4_hashalgorithm, xenroll/ICEnroll2::HashAlgorithm, xenroll/ICEnroll2::get_HashAlgorithm, xenroll/ICEnroll2::put_HashAlgorithm, xenroll/ICEnroll3::HashAlgorithm, xenroll/ICEnroll3::get_HashAlgorithm, xenroll/ICEnroll3::put_HashAlgorithm, xenroll/ICEnroll4::HashAlgorithm, xenroll/ICEnroll4::get_HashAlgorithm, xenroll/ICEnroll4::put_HashAlgorithm, xenroll/ICEnroll::HashAlgorithm, xenroll/ICEnroll::get_HashAlgorithm, xenroll/ICEnroll::put_HashAlgorithm
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.HashAlgorithm"
+f1_keywords:
+- xenroll/ICEnroll4.HashAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.HashAlgorithm
- - ICEnroll4.get_HashAlgorithm
- - ICEnroll4.put_HashAlgorithm
- - ICEnroll3.HashAlgorithm
- - ICEnroll3.get_HashAlgorithm
- - ICEnroll3.put_HashAlgorithm
- - ICEnroll2.HashAlgorithm
- - ICEnroll2.get_HashAlgorithm
- - ICEnroll2.put_HashAlgorithm
- - ICEnroll.HashAlgorithm
- - ICEnroll.get_HashAlgorithm
- - ICEnroll.put_HashAlgorithm
- - CEnroll.HashAlgorithm
+- ICEnroll4.HashAlgorithm
+- ICEnroll4.get_HashAlgorithm
+- ICEnroll4.put_HashAlgorithm
+- ICEnroll3.HashAlgorithm
+- ICEnroll3.get_HashAlgorithm
+- ICEnroll3.put_HashAlgorithm
+- ICEnroll2.HashAlgorithm
+- ICEnroll2.get_HashAlgorithm
+- ICEnroll2.put_HashAlgorithm
+- ICEnroll.HashAlgorithm
+- ICEnroll.get_HashAlgorithm
+- ICEnroll.put_HashAlgorithm
+- CEnroll.HashAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

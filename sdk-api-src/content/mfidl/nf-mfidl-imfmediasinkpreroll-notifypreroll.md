@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSinkPreroll.NotifyPreroll
 title: IMFMediaSinkPreroll::NotifyPreroll (mfidl.h)
-
 description: Notifies the media sink that the presentation clock is about to start.
 old-location: mf\imfmediasinkpreroll_notifypreroll.htm
 tech.root: medfound
 ms.assetid: d0694ad9-a18a-4fea-a9ff-b416bd4827ba
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSinkPreroll interface [Media Foundation],NotifyPreroll method, IMFMediaSinkPreroll.NotifyPreroll, IMFMediaSinkPreroll::NotifyPreroll, NotifyPreroll, NotifyPreroll method [Media Foundation], NotifyPreroll method [Media Foundation],IMFMediaSinkPreroll interface, d0694ad9-a18a-4fea-a9ff-b416bd4827ba, mf.imfmediasinkpreroll_notifypreroll, mfidl/IMFMediaSinkPreroll::NotifyPreroll
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSinkPreroll.NotifyPreroll"
+f1_keywords:
+- mfidl/IMFMediaSinkPreroll.NotifyPreroll
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSinkPreroll.NotifyPreroll
+- IMFMediaSinkPreroll.NotifyPreroll
 targetos: Windows
 req.typenames: 
 req.redist: 

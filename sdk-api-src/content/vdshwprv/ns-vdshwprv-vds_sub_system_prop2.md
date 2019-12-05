@@ -1,19 +1,17 @@
 ---
 UID: NS:vdshwprv._VDS_SUB_SYSTEM_PROP2
 title: VDS_SUB_SYSTEM_PROP2 (vdshwprv.h)
-
 description: Defines the properties of a subsystem object. This structure is identical to the VDS_SUB_SYSTEM_PROP structure, except that it includes the supported RAID types and number of enclosures as members.
 old-location: base\vds_sub_system_prop2.htm
 tech.root: VDS
 ms.assetid: 8eb743b5-26e6-42e5-b94b-0849b1280cdb
-
 ms.date: 12/05/2018
 ms.keywords: '*PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2, PVDS_SUB_SYSTEM_PROP2 structure pointer, VDS_H_DEGRADED, VDS_H_FAILED, VDS_H_HEALTHY, VDS_H_UNKNOWN, VDS_SUB_SYSTEM_PROP2, VDS_SUB_SYSTEM_PROP2 structure, base.vds_sub_system_prop2, vds/PVDS_SUB_SYSTEM_PROP2, vds/VDS_SUB_SYSTEM_PROP2, vdshwprv/PVDS_SUB_SYSTEM_PROP2, vdshwprv/VDS_SUB_SYSTEM_PROP2'
 ms.topic: struct
 f1_keywords:
 - vdshwprv/VDS_SUB_SYSTEM_PROP2
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

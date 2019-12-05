@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfReleaseTransferKey
 title: CfReleaseTransferKey function (cfapi.h)
-
 description: Releases a transfer key obtained by CfGetTransferKey.
 old-location: cloudapi\cfreleasetransferkey.htm
 tech.root: cfApi
 ms.assetid: 53B40C34-EB1F-445B-B1B3-B539C2FADECE
-
 ms.date: 12/05/2018
 ms.keywords: CfReleaseTransferKey, CfReleaseTransferKey function, cfapi/CfReleaseTransferKey, cloudApi.cfreleasetransferkey
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfReleaseTransferKey"
+f1_keywords:
+- cfapi/CfReleaseTransferKey
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfReleaseTransferKey
+- CfReleaseTransferKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfigurationCollection.get_Count
 title: IOCSPCAConfigurationCollection::get_Count (certadm.h)
-
 description: Gets the number of certification authority (CA) configurations in the configuration set.
 old-location: security\iocspcaconfigurationcollection_count_method.htm
 tech.root: SecCrypto
 ms.assetid: 85e340f3-d625-49ea-93d8-28a44ca05ec8
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IOCSPCAConfigurationCollection interface, IOCSPCAConfigurationCollection interface [Security],Count property, IOCSPCAConfigurationCollection.Count, IOCSPCAConfigurationCollection.get_Count, IOCSPCAConfigurationCollection::Count, IOCSPCAConfigurationCollection::get_Count, certadm/IOCSPCAConfigurationCollection::Count, certadm/IOCSPCAConfigurationCollection::get_Count, get_Count, security.iocspcaconfigurationcollection_count_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfigurationCollection.Count"
+f1_keywords:
+- certadm/IOCSPCAConfigurationCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfigurationCollection.Count
- - IOCSPCAConfigurationCollection.get_Count
+- IOCSPCAConfigurationCollection.Count
+- IOCSPCAConfigurationCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

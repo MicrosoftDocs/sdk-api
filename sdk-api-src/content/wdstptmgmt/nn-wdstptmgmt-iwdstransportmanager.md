@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportManager
 title: IWdsTransportManager (wdstptmgmt.h)
-
 description: Manages a WDS transport server. This is the top-level interface into the Windows Deployment Services (WDS) Transport Management API and the only interface that can be created using the CoCreateInstance function.
 old-location: wds\iwdstransportmanager.htm
 tech.root: wds
 ms.assetid: 23f36ec7-5f6f-486c-bb09-e2f5b6f57efa
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportManager, IWdsTransportManager interface [Windows Deployment Services], IWdsTransportManager interface [Windows Deployment Services],described, wds.iwdstransportmanager, wdstptmgmt/IWdsTransportManager
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportManager"
+f1_keywords:
+- wdstptmgmt/IWdsTransportManager
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportManager
+- IWdsTransportManager
 targetos: Windows
 req.typenames: 
 req.redist: 

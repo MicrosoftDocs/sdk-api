@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDocumentLists.GetList
 title: IApplicationDocumentLists::GetList (shobjidl_core.h)
-
 description: Retrieves an object that represents the collection of destinations listed in the Recent or Frequent category in a Jump List.
 old-location: shell\IApplicationDocumentLists_GetList.htm
 tech.root: shell
 ms.assetid: d86bf039-81d9-4d43-9671-b107d7e925ab
-
 ms.date: 12/05/2018
 ms.keywords: ADLT_FREQUENT, ADLT_RECENT, GetList, GetList method [Windows Shell], GetList method [Windows Shell],IApplicationDocumentLists interface, IApplicationDocumentLists interface [Windows Shell],GetList method, IApplicationDocumentLists.GetList, IApplicationDocumentLists::GetList, _shell_IApplicationDocumentLists_GetList, shell.IApplicationDocumentLists_GetList, shobjidl_core/IApplicationDocumentLists::GetList
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDocumentLists.GetList"
+f1_keywords:
+- shobjidl_core/IApplicationDocumentLists.GetList
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IApplicationDocumentLists.GetList
+- IApplicationDocumentLists.GetList
 targetos: Windows
 req.typenames: 
 req.redist: 

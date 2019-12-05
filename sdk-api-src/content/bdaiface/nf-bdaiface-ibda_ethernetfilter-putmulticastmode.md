@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.PutMulticastMode
 title: IBDA_EthernetFilter::PutMulticastMode (bdaiface.h)
-
 description: The PutMulticastMode method sets the multicast mode.
 old-location: mstv\ibda_ethernetfilter_putmulticastmode.htm
 tech.root: mstv
 ms.assetid: 01694aba-6b43-46da-a35c-7f3f5befecad
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_EthernetFilter interface [Microsoft TV Technologies],PutMulticastMode method, IBDA_EthernetFilter.PutMulticastMode, IBDA_EthernetFilter::PutMulticastMode, IBDA_EthernetFilterPutMulticastMode, PutMulticastMode, PutMulticastMode method [Microsoft TV Technologies], PutMulticastMode method [Microsoft TV Technologies],IBDA_EthernetFilter interface, bdaiface/IBDA_EthernetFilter::PutMulticastMode, mstv.ibda_ethernetfilter_putmulticastmode
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_EthernetFilter.PutMulticastMode"
+f1_keywords:
+- bdaiface/IBDA_EthernetFilter.PutMulticastMode
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_EthernetFilter.PutMulticastMode
+- IBDA_EthernetFilter.PutMulticastMode
 targetos: Windows
 req.typenames: 
 req.redist: 

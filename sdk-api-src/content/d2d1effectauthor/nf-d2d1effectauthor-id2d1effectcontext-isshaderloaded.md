@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.IsShaderLoaded
 title: ID2D1EffectContext::IsShaderLoaded (d2d1effectauthor.h)
-
 description: This tests to see if the given shader is loaded.
 old-location: direct2d\id2d1contextinternal_isresourceloaded.htm
 tech.root: Direct2D
 ms.assetid: 9B923E7A-FF71-4575-880F-FA6AB6C9F366
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1EffectContext interface [Direct2D],IsShaderLoaded method, ID2D1EffectContext.IsShaderLoaded, ID2D1EffectContext::IsShaderLoaded, IsShaderLoaded, IsShaderLoaded method [Direct2D], IsShaderLoaded method [Direct2D],ID2D1EffectContext interface, d2d1effectauthor/ID2D1EffectContext::IsShaderLoaded, direct2d.id2d1contextinternal_isresourceloaded
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1EffectContext.IsShaderLoaded"
+f1_keywords:
+- d2d1effectauthor/ID2D1EffectContext.IsShaderLoaded
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2D1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.lib
- - D2D1.dll
+- D2D1.lib
+- D2D1.dll
 api_name:
- - ID2D1EffectContext.IsShaderLoaded
+- ID2D1EffectContext.IsShaderLoaded
 targetos: Windows
 req.typenames: 
 req.redist: 

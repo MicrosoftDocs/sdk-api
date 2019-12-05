@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsGUIThread
 title: IsGUIThread function (winuser.h)
-
 description: Determines whether the calling thread is already a GUI thread. It can also optionally convert the thread to a GUI thread.
 old-location: winmsg\isguithread.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\isguithread.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsGUIThread, IsGUIThread function [Windows and Messages], _win32_IsGUIThread, _win32_isguithread_cpp, winmsg.isguithread, winui._win32_isguithread, winuser/IsGUIThread
 ms.topic: function
-f1_keywords: 
- - "winuser/IsGUIThread"
+f1_keywords:
+- winuser/IsGUIThread
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-Window-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - IsGUIThread
+- IsGUIThread
 targetos: Windows
 req.typenames: 
 req.redist: 

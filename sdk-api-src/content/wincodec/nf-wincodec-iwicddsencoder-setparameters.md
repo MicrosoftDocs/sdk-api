@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDdsEncoder.SetParameters
 title: IWICDdsEncoder::SetParameters (wincodec.h)
-
 description: Sets DDS-specific data.
 old-location: wic\iwicddsencoder_setparameters.htm
 tech.root: wic
 ms.assetid: 9DF51D95-97B0-4EC9-8F77-E49B16D76D77
-
 ms.date: 12/05/2018
 ms.keywords: IWICDdsEncoder interface [Windows Imaging Component],SetParameters method, IWICDdsEncoder.SetParameters, IWICDdsEncoder::SetParameters, SetParameters, SetParameters method [Windows Imaging Component], SetParameters method [Windows Imaging Component],IWICDdsEncoder interface, wic.iwicddsencoder_setparameters, wincodec/IWICDdsEncoder::SetParameters
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDdsEncoder.SetParameters"
+f1_keywords:
+- wincodec/IWICDdsEncoder.SetParameters
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDdsEncoder.SetParameters
+- IWICDdsEncoder.SetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

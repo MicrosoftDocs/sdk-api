@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxAccountSet.AddAccount
 title: IFaxAccountSet::AddAccount (faxcomex.h)
-
 description: Adds a fax account to the fax server and returns the new IFaxAccount object.
 old-location: fax\_mfax_faxaccountset_cpp_mfax_faxaccountset_addaccount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\addaccount.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddAccount, AddAccount method [Fax Service], AddAccount method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],AddAccount method, IFaxAccountSet.AddAccount, IFaxAccountSet::AddAccount, _mfax_faxaccountset.addaccount, fax._mfax_faxaccountset_addaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_addaccount_cpp, faxcomex/IFaxAccountSet::AddAccount
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxAccountSet.AddAccount"
+f1_keywords:
+- faxcomex/IFaxAccountSet.AddAccount
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountSet.AddAccount
+- IFaxAccountSet.AddAccount
 targetos: Windows
 req.typenames: 
 req.redist: 

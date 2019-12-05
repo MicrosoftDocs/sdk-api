@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawSvgGlyphRun
 title: ID2D1DeviceContext4::DrawSvgGlyphRun (d2d1_3.h)
-
 description: Draws a color glyph run that has the format of DWRITE_GLYPH_IMAGE_FORMATS_SVG.
 old-location: direct2d\id2d1devicecontext4_drawsvgglyphrun.htm
 tech.root: Direct2D
 ms.assetid: 20E9047F-3671-4C6D-8A46-C3F77E16BC1C
-
 ms.date: 12/05/2018
 ms.keywords: DrawSvgGlyphRun, DrawSvgGlyphRun method [Direct2D], DrawSvgGlyphRun method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawSvgGlyphRun method, ID2D1DeviceContext4.DrawSvgGlyphRun, ID2D1DeviceContext4::DrawSvgGlyphRun, d2d1_3/ID2D1DeviceContext4::DrawSvgGlyphRun, direct2d.id2d1devicecontext4_drawsvgglyphrun
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext4.DrawSvgGlyphRun"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext4.DrawSvgGlyphRun
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext4.DrawSvgGlyphRun
+- ID2D1DeviceContext4.DrawSvgGlyphRun
 targetos: Windows
 req.typenames: 
 req.redist: 

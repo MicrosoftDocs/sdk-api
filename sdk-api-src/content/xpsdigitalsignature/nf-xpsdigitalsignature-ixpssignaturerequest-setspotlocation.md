@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetSpotLocation
 title: IXpsSignatureRequest::SetSpotLocation (xpsdigitalsignature.h)
-
 description: Specifies the page and the location on the page where the visible digital signature or the digital signature request will be displayed.
 old-location: xps\ixpssignaturerequest_setspotlocation.htm
 tech.root: printdocs
 ms.assetid: 44ee13dd-ceea-4cd3-8c9e-4300c0c304ab
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureRequest interface [XPS Documents and Packaging],SetSpotLocation method, IXpsSignatureRequest.SetSpotLocation, IXpsSignatureRequest::SetSpotLocation, SetSpotLocation, SetSpotLocation method [XPS Documents and Packaging], SetSpotLocation method [XPS Documents and Packaging],IXpsSignatureRequest interface, xps.ixpssignaturerequest_setspotlocation, xpsdigitalsignature/IXpsSignatureRequest::SetSpotLocation
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureRequest.SetSpotLocation"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureRequest.SetSpotLocation
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest.SetSpotLocation
+- IXpsSignatureRequest.SetSpotLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

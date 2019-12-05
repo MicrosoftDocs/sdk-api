@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemProviderInit.Initialize
 title: IWbemProviderInit::Initialize (wbemprov.h)
-
 description: Called by Windows Management to initialize a provider to receive client requests. All types of providers must implement this method.
 old-location: wmi\iwbemproviderinit_initialize.htm
 tech.root: WmiSdk
 ms.assetid: 437d803d-b916-4209-bbf0-64b1ec3b7068
-
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInit interface [Windows Management Instrumentation],Initialize method, IWbemProviderInit.Initialize, IWbemProviderInit::Initialize, Initialize, Initialize method [Windows Management Instrumentation], Initialize method [Windows Management Instrumentation],IWbemProviderInit interface, _hmm_iwbemproviderinit_initialize, wbemprov/IWbemProviderInit::Initialize, wmi.iwbemproviderinit_initialize
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemProviderInit.Initialize"
+f1_keywords:
+- wbemprov/IWbemProviderInit.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemProviderInit.Initialize
+- IWbemProviderInit.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

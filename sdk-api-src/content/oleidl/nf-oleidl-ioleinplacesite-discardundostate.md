@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.DiscardUndoState
 title: IOleInPlaceSite::DiscardUndoState (oleidl.h)
-
 description: Instructs the container to discard its undo state. The container should not call IOleInPlaceObject::ReActivateAndUndo.
 old-location: com\ioleinplacesite_discardundostate.htm
 tech.root: com
 ms.assetid: 8fe69aa5-a526-4e95-920b-01f84ae4ca83
-
 ms.date: 12/05/2018
 ms.keywords: DiscardUndoState, DiscardUndoState method [COM], DiscardUndoState method [COM],IOleInPlaceSite interface, IOleInPlaceSite interface [COM],DiscardUndoState method, IOleInPlaceSite.DiscardUndoState, IOleInPlaceSite::DiscardUndoState, IOleInPlaceSiteWindowless.DiscardUndoState, _ole_ioleinplacesite_discardundostate, com.ioleinplacesite_discardundostate, oleidl/IOleInPlaceSite::DiscardUndoState
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.DiscardUndoState"
+f1_keywords:
+- oleidl/IOleInPlaceSite.DiscardUndoState
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
- - browsewm.dll
+- OleIdl.h
+- browsewm.dll
 api_name:
- - IOleInPlaceSite.DiscardUndoState
- - IOleInPlaceSiteWindowless.DiscardUndoState
+- IOleInPlaceSite.DiscardUndoState
+- IOleInPlaceSiteWindowless.DiscardUndoState
 targetos: Windows
 req.typenames: 
 req.redist: 

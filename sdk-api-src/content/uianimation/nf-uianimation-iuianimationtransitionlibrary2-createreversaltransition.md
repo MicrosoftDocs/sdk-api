@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateReversalTransition
 title: IUIAnimationTransitionLibrary2::CreateReversalTransition (uianimation.h)
-
 description: Creates a reversal scalar transition.
 old-location: uianimation\iuianimationtransitionlibrary2_createreversaltransition.htm
 tech.root: UIAnimation
 ms.assetid: 49ECB93E-C253-4A7D-8181-8ED018520391
-
 ms.date: 12/05/2018
 ms.keywords: CreateReversalTransition, CreateReversalTransition method [Windows Animation], CreateReversalTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateReversalTransition method, IUIAnimationTransitionLibrary2.CreateReversalTransition, IUIAnimationTransitionLibrary2::CreateReversalTransition, uianimation.iuianimationtransitionlibrary2_createreversaltransition, uianimation/IUIAnimationTransitionLibrary2::CreateReversalTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateReversalTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateReversalTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateReversalTransition
+- IUIAnimationTransitionLibrary2.CreateReversalTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

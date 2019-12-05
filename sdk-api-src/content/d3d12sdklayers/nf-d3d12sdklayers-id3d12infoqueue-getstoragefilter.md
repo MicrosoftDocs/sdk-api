@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetStorageFilter
 title: ID3D12InfoQueue::GetStorageFilter (d3d12sdklayers.h)
-
 description: Get the storage filter at the top of the storage-filter stack.
 old-location: direct3d12\id3d12infoqueue_getstoragefilter.htm
 tech.root: direct3d12
 ms.assetid: 077C3BA1-9686-4405-A561-4A6A2B128320
-
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilter, GetStorageFilter method, GetStorageFilter method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilter method, ID3D12InfoQueue.GetStorageFilter, ID3D12InfoQueue::GetStorageFilter, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilter, direct3d12.id3d12infoqueue_getstoragefilter
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.GetStorageFilter"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.GetStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.GetStorageFilter
+- ID3D12InfoQueue.GetStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

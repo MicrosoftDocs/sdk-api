@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusmetaheader.MetafileHeader
 title: MetafileHeader (gdiplusmetaheader.h)
-
 description: A MetafileHeader object stores properties of an associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheader.htm
-
 ms.date: 12/05/2018
 ms.keywords: MetafileHeader, MetafileHeader class [GDI+], MetafileHeader class [GDI+],described, _gdiplus_CLASS_MetafileHeader_Class, gdiplus._gdiplus_CLASS_MetafileHeader_Class, gdiplusmetaheader/MetafileHeader
 ms.topic: class
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusmetaheader.h
+- gdiplusmetaheader.h
 api_name:
- - MetafileHeader
+- MetafileHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

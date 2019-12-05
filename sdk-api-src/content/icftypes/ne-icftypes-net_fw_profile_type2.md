@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_PROFILE_TYPE2_
 title: NET_FW_PROFILE_TYPE2 (icftypes.h)
-
 description: Specifies the type of profile.
 old-location: ics\net_fw_profile_type2.htm
 tech.root: ics
 ms.assetid: cb8328ec-a2eb-4d6f-b6af-214a31a037e9
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_PROFILE2_ALL, NET_FW_PROFILE2_DOMAIN, NET_FW_PROFILE2_PRIVATE, NET_FW_PROFILE2_PUBLIC, NET_FW_PROFILE_TYPE2, NET_FW_PROFILE_TYPE2 enumeration [ICS/ICF], NET_FW_PROFILE_TYPE2_, icftypes/NET_FW_PROFILE2_ALL, icftypes/NET_FW_PROFILE2_DOMAIN, icftypes/NET_FW_PROFILE2_PRIVATE, icftypes/NET_FW_PROFILE2_PUBLIC, icftypes/NET_FW_PROFILE_TYPE2, ics.net_fw_profile_type2
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_PROFILE_TYPE2"
+f1_keywords:
+- icftypes/NET_FW_PROFILE_TYPE2
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_PROFILE_TYPE2
+- NET_FW_PROFILE_TYPE2
 targetos: Windows
 req.typenames: NET_FW_PROFILE_TYPE2
 req.redist: 

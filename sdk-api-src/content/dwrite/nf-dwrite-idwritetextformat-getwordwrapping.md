@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetWordWrapping
 title: IDWriteTextFormat::GetWordWrapping (dwrite.h)
-
 description: Gets the word wrapping option.
 old-location: directwrite\IDWriteTextFormat_GetWordWrapping.htm
 tech.root: DirectWrite
 ms.assetid: b3ce0513-da7e-4645-b677-52dcd2a060d4
-
 ms.date: 12/05/2018
 ms.keywords: GetWordWrapping, GetWordWrapping method [Direct Write], GetWordWrapping method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetWordWrapping method, IDWriteTextFormat.GetWordWrapping, IDWriteTextFormat::GetWordWrapping, directwrite.IDWriteTextFormat_GetWordWrapping, dwrite/IDWriteTextFormat::GetWordWrapping
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetWordWrapping"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetWordWrapping
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetWordWrapping
+- IDWriteTextFormat.GetWordWrapping
 targetos: Windows
 req.typenames: 
 req.redist: 

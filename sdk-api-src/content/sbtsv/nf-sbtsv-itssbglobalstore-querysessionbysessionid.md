@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbGlobalStore.QuerySessionBySessionId
 title: ITsSbGlobalStore::QuerySessionBySessionId (sbtsv.h)
-
 description: Retrieves the ITsSbSession object associated with the given session ID.
 old-location: termserv\itssbglobalstore_querysessionbysessionid.htm
 tech.root: TermServ
 ms.assetid: d710842a-9bd5-4791-8f6e-bac2fe07c93f
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbGlobalStore interface [Remote Desktop Services],QuerySessionBySessionId method, ITsSbGlobalStore.QuerySessionBySessionId, ITsSbGlobalStore::QuerySessionBySessionId, QuerySessionBySessionId, QuerySessionBySessionId method [Remote Desktop Services], QuerySessionBySessionId method [Remote Desktop Services],ITsSbGlobalStore interface, sbtsv/ITsSbGlobalStore::QuerySessionBySessionId, termserv.itssbglobalstore_querysessionbysessionid
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbGlobalStore.QuerySessionBySessionId"
+f1_keywords:
+- sbtsv/ITsSbGlobalStore.QuerySessionBySessionId
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbGlobalStore.QuerySessionBySessionId
+- ITsSbGlobalStore.QuerySessionBySessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

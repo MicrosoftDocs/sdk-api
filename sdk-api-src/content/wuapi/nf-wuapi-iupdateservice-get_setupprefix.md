@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateService.get_SetupPrefix
 title: IUpdateService::get_SetupPrefix (wuapi.h)
-
 description: Identifies the prefix for the setup files.
 old-location: wua\iupdateservice_setupprefix.htm
 tech.root: Wua_Sdk
 ms.assetid: 025d2278-c973-410a-bccf-da8d1a59b6ac
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateService interface [Windows Update Agent],SetupPrefix property, IUpdateService.SetupPrefix, IUpdateService.get_SetupPrefix, IUpdateService::SetupPrefix, IUpdateService::get_SetupPrefix, SetupPrefix property [Windows Update Agent], SetupPrefix property [Windows Update Agent],IUpdateService interface, get_SetupPrefix, wua.iupdateservice_setupprefix, wuapi/IUpdateService::SetupPrefix, wuapi/IUpdateService::get_SetupPrefix
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateService.SetupPrefix"
+f1_keywords:
+- wuapi/IUpdateService.SetupPrefix
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateService.SetupPrefix
- - IUpdateService.get_SetupPrefix
+- IUpdateService.SetupPrefix
+- IUpdateService.get_SetupPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICBitmapDitherType
 title: WICBitmapDitherType (wincodec.h)
-
 description: Specifies the type of dither algorithm to apply when converting between image formats.
 old-location: wic\_wic_codec_wicbitmapdithertype.htm
 tech.root: wic
 ms.assetid: e3fd8f37-8ea9-4cdb-853b-d5119b7afdc9
-
 ms.date: 12/05/2018
 ms.keywords: WICBitmapDitherType, WICBitmapDitherType enumeration [Windows Imaging Component], WICBitmapDitherTypeDualSpiral4x4, WICBitmapDitherTypeDualSpiral8x8, WICBitmapDitherTypeErrorDiffusion, WICBitmapDitherTypeNone, WICBitmapDitherTypeOrdered16x16, WICBitmapDitherTypeOrdered4x4, WICBitmapDitherTypeOrdered8x8, WICBitmapDitherTypeSolid, WICBitmapDitherTypeSpiral4x4, WICBitmapDitherTypeSpiral8x8, _wic_codec_wicbitmapdithertype, wic._wic_codec_wicbitmapdithertype, wincodec/WICBitmapDitherType, wincodec/WICBitmapDitherTypeDualSpiral4x4, wincodec/WICBitmapDitherTypeDualSpiral8x8, wincodec/WICBitmapDitherTypeErrorDiffusion, wincodec/WICBitmapDitherTypeNone, wincodec/WICBitmapDitherTypeOrdered16x16, wincodec/WICBitmapDitherTypeOrdered4x4, wincodec/WICBitmapDitherTypeOrdered8x8, wincodec/WICBitmapDitherTypeSolid, wincodec/WICBitmapDitherTypeSpiral4x4, wincodec/WICBitmapDitherTypeSpiral8x8
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICBitmapDitherType"
+f1_keywords:
+- wincodec/WICBitmapDitherType
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapDitherType
+- WICBitmapDitherType
 targetos: Windows
 req.typenames: WICBitmapDitherType
 req.redist: 

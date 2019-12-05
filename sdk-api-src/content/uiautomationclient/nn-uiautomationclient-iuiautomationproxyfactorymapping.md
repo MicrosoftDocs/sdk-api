@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationProxyFactoryMapping
 title: IUIAutomationProxyFactoryMapping (uiautomationclient.h)
-
 description: Exposes properties and methods for a table of proxy factories. Each table entry is represented by an IUIAutomationProxyFactoryEntry interface. The entries are in the order in which the system will attempt to use the proxies.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping.htm
 tech.root: WinAuto
 ms.assetid: 7a938c1c-a11c-4fdd-a73a-e7656032f21e
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryMapping, IUIAutomationProxyFactoryMapping interface [Windows Accessibility], IUIAutomationProxyFactoryMapping interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryMapping, uiauto_IUIAutomationProxyFactoryMapping, uiautomationclient/IUIAutomationProxyFactoryMapping, winauto.uiauto_IUIAutomationProxyFactoryMapping
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactoryMapping"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactoryMapping
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationProxyFactoryMapping
+- IUIAutomationProxyFactoryMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

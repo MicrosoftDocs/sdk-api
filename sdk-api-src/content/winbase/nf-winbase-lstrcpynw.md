@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.lstrcpynW
 title: lstrcpynW function (winbase.h)
-
 description: Copies a specified number of characters from a source string into a buffer.Warning  Do not use.
 old-location: menurc\lstrcpyn.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcpyn.htm
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn"
+ms.keywords: _win32_lstrcpyn, _win32_lstrcpyn_cpp, lstrcpyn, lstrcpyn function [Menus and Other Resources], lstrcpynA, lstrcpynW, menurc.lstrcpyn, winbase/lstrcpyn, winbase/lstrcpynA, winbase/lstrcpynW, winui._win32_lstrcpyn
 ms.topic: function
-f1_keywords: 
- - "winbase/lstrcpyn"
+f1_keywords:
+- winbase/lstrcpyn
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-misc-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-String-Obsolete-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-misc-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - lstrcpyn
- - lstrcpynA
- - lstrcpynW
+- lstrcpyn
+- lstrcpynA
+- lstrcpynW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.IsRollForwardSupported
 title: IWsbApplicationRestoreSupport::IsRollForwardSupported (wsbapp.h)
-
 description: Reports whether the application supports roll-forward restore.
 old-location: wsb\iwsbapplicationrestoresupport_isrollforwardsupported.htm
 tech.root: wsb
 ms.assetid: 6dae61b7-0e52-42f7-8ca4-b3566f6b4bbc
-
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],IsRollForwardSupported method, IWsbApplicationRestoreSupport.IsRollForwardSupported, IWsbApplicationRestoreSupport::IsRollForwardSupported, IsRollForwardSupported, IsRollForwardSupported method [Windows Server Backup], IsRollForwardSupported method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_isrollforwardsupported, wsbapp/IWsbApplicationRestoreSupport::IsRollForwardSupported
 ms.topic: method
-f1_keywords: 
- - "wsbapp/IWsbApplicationRestoreSupport.IsRollForwardSupported"
+f1_keywords:
+- wsbapp/IWsbApplicationRestoreSupport.IsRollForwardSupported
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport.IsRollForwardSupported
+- IWsbApplicationRestoreSupport.IsRollForwardSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

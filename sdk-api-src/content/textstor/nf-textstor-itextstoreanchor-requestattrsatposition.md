@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestAttrsAtPosition
 title: ITextStoreAnchor::RequestAttrsAtPosition (textstor.h)
-
 description: ITextStoreAnchor::RequestAttrsAtPosition method
 old-location: tsf\itextstoreanchor_requestattrsatposition.htm
 tech.root: TSF
 ms.assetid: d0f20507-005b-409d-90d5-5817b7d95f19
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchor interface [Text Services Framework],RequestAttrsAtPosition method, ITextStoreAnchor.RequestAttrsAtPosition, ITextStoreAnchor::RequestAttrsAtPosition, RequestAttrsAtPosition, RequestAttrsAtPosition method [Text Services Framework], RequestAttrsAtPosition method [Text Services Framework],ITextStoreAnchor interface, textstor/ITextStoreAnchor::RequestAttrsAtPosition, tsf.itextstoreanchor_requestattrsatposition
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.RequestAttrsAtPosition"
+f1_keywords:
+- textstor/ITextStoreAnchor.RequestAttrsAtPosition
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.RequestAttrsAtPosition
+- ITextStoreAnchor.RequestAttrsAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

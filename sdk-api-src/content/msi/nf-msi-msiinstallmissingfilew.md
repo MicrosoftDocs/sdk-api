@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiInstallMissingFileW
 title: MsiInstallMissingFileW function (msi.h)
-
 description: The MsiInstallMissingFile function installs files that are unexpectedly missing.
 old-location: setup\msiinstallmissingfile.htm
 tech.root: Msi
 ms.assetid: 289ce1e2-64ac-4222-9d0d-52c8fdd4f9c3
-
 ms.date: 12/05/2018
 ms.keywords: MsiInstallMissingFile, MsiInstallMissingFile function, MsiInstallMissingFileA, MsiInstallMissingFileW, _msi_msiinstallmissingfile, msi/MsiInstallMissingFile, msi/MsiInstallMissingFileA, msi/MsiInstallMissingFileW, setup.msiinstallmissingfile
 ms.topic: function
-f1_keywords: 
- - "msi/MsiInstallMissingFile"
+f1_keywords:
+- msi/MsiInstallMissingFile
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiInstallMissingFile
- - MsiInstallMissingFileA
- - MsiInstallMissingFileW
+- MsiInstallMissingFile
+- MsiInstallMissingFileA
+- MsiInstallMissingFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

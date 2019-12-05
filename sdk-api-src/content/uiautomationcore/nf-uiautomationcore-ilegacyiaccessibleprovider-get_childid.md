@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.get_ChildId
 title: ILegacyIAccessibleProvider::get_ChildId (uiautomationcore.h)
-
 description: Specifies the child identifier of this element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_ChildId.htm
 tech.root: WinAuto
 ms.assetid: 7dc1e5e8-050b-4a64-9a8e-cb0186878147
-
 ms.date: 12/05/2018
 ms.keywords: ChildId property [Windows Accessibility], ChildId property [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],ChildId property, ILegacyIAccessibleProvider.ChildId, ILegacyIAccessibleProvider.get_ChildId, ILegacyIAccessibleProvider::ChildId, ILegacyIAccessibleProvider::get_ChildId, get_ChildId, uiauto.uiauto_ILegacyIAccessibleProvider_ChildId, uiauto_ILegacyIAccessibleProvider_ChildId, uiautomationcore/ILegacyIAccessibleProvider::ChildId, uiautomationcore/ILegacyIAccessibleProvider::get_ChildId, winauto.uiauto_ILegacyIAccessibleProvider_ChildId
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.ChildId"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.ChildId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UiAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UiAutomationCore.dll
+- UiAutomationCore.dll
 api_name:
- - ILegacyIAccessibleProvider.ChildId
- - ILegacyIAccessibleProvider.get_ChildId
+- ILegacyIAccessibleProvider.ChildId
+- ILegacyIAccessibleProvider.get_ChildId
 targetos: Windows
 req.typenames: 
 req.redist: 

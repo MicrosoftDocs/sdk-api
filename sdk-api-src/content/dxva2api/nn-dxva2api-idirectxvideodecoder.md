@@ -1,19 +1,17 @@
 ---
 UID: NN:dxva2api.IDirectXVideoDecoder
 title: IDirectXVideoDecoder (dxva2api.h)
-
 description: Represents a DirectX Video Acceleration (DXVA) video decoder device.
 old-location: mf\idirectxvideodecoder.htm
 tech.root: medfound
 ms.assetid: 116c19a3-39be-4f96-969f-f3d62ed33a70
-
 ms.date: 12/05/2018
 ms.keywords: 116c19a3-39be-4f96-969f-f3d62ed33a70, IDirectXVideoDecoder, IDirectXVideoDecoder interface [Media Foundation], IDirectXVideoDecoder interface [Media Foundation],described, dxva2api/IDirectXVideoDecoder, mf.idirectxvideodecoder
 ms.topic: interface
-f1_keywords: 
- - "dxva2api/IDirectXVideoDecoder"
+f1_keywords:
+- dxva2api/IDirectXVideoDecoder
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoDecoder
+- IDirectXVideoDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

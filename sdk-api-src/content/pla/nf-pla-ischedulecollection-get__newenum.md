@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IScheduleCollection.get__NewEnum
 title: IScheduleCollection::get__NewEnum (pla.h)
-
 description: Retrieves an interface to the enumeration.
 old-location: pla\ischedulecollection__newenum.htm
 tech.root: PLA
 ms.assetid: 4aae67ae-8b9d-4baa-b617-b6e44b7e7edf
-
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection interface [PLA],_NewEnum property, IScheduleCollection._NewEnum, IScheduleCollection.get__NewEnum, IScheduleCollection::_NewEnum, IScheduleCollection::get__NewEnum, _NewEnum property [PLA], _NewEnum property [PLA],IScheduleCollection interface, get__NewEnum, pla.ischedulecollection__newenum, pla/IScheduleCollection::_NewEnum, pla/IScheduleCollection::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "pla/IScheduleCollection._NewEnum"
+f1_keywords:
+- pla/IScheduleCollection._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IScheduleCollection._NewEnum
- - IScheduleCollection.get__NewEnum
+- IScheduleCollection._NewEnum
+- IScheduleCollection.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

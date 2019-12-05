@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.GetRenderingPrefs
 title: IVMRFilterConfig9::GetRenderingPrefs (vmr9.h)
-
 description: The GetRenderingPrefs method retrieves the current set of rendering preferences being used by the VMR-9.
 old-location: dshow\ivmrfilterconfig9_getrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: b82a9dbe-aa86-4153-945b-fe8968faa5ca
-
 ms.date: 12/05/2018
 ms.keywords: GetRenderingPrefs, GetRenderingPrefs method [DirectShow], GetRenderingPrefs method [DirectShow],IVMRFilterConfig9 interface, IVMRFilterConfig9 interface [DirectShow],GetRenderingPrefs method, IVMRFilterConfig9.GetRenderingPrefs, IVMRFilterConfig9::GetRenderingPrefs, IVMRFilterConfig9GetRenderingPrefs, dshow.ivmrfilterconfig9_getrenderingprefs, vmr9/IVMRFilterConfig9::GetRenderingPrefs
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRFilterConfig9.GetRenderingPrefs"
+f1_keywords:
+- vmr9/IVMRFilterConfig9.GetRenderingPrefs
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRFilterConfig9.GetRenderingPrefs
+- IVMRFilterConfig9.GetRenderingPrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

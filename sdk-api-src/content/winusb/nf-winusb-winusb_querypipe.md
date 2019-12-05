@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_QueryPipe
 title: WinUsb_QueryPipe function (winusb.h)
-
 description: The WinUsb_QueryPipe function retrieves information about the specified endpoint and the associated pipe for an interface.
 old-location: buses\winusb_querypipe.htm
 tech.root: usbref
 ms.assetid: cbc0a988-27ee-46f5-be03-fe79eedd128a
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_QueryPipe, WinUsb_QueryPipe function [Buses], buses.winusb_querypipe, winusb/WinUsb_QueryPipe, winusbfunc_1a0b0ae5-25b3-47b5-bc32-165be320831b.xml
 ms.topic: function
 f1_keywords:
 - winusb/WinUsb_QueryPipe
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal

@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.WMT_PLAY_MODE
 title: WMT_PLAY_MODE (wmsdkidl.h)
-
 description: The WMT_PLAY_MODE enumeration type defines the playback options of the reader.
 old-location: wmformat\wmt_play_mode.htm
 tech.root: wmformat
 ms.assetid: da47fc9f-7762-4f92-8857-44a75a4cd00b
-
 ms.date: 12/05/2018
 ms.keywords: WMT_PLAY_MODE, WMT_PLAY_MODE enumeration [windows Media Format], WMT_PLAY_MODE_AUTOSELECT, WMT_PLAY_MODE_DOWNLOAD, WMT_PLAY_MODE_LOCAL, WMT_PLAY_MODE_STREAMING, enumeration [windows Media Format], wmformat.wmt_play_mode, wmsdkidl/WMT_PLAY_MODE, wmsdkidl/WMT_PLAY_MODE_AUTOSELECT, wmsdkidl/WMT_PLAY_MODE_DOWNLOAD, wmsdkidl/WMT_PLAY_MODE_LOCAL, wmsdkidl/WMT_PLAY_MODE_STREAMING
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_PLAY_MODE"
+f1_keywords:
+- wmsdkidl/WMT_PLAY_MODE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_PLAY_MODE
+- WMT_PLAY_MODE
 targetos: Windows
 req.typenames: WMT_PLAY_MODE
 req.redist: 

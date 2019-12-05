@@ -1,19 +1,17 @@
 ---
 UID: NE:rpcasync._RPC_NOTIFICATIONS
 title: RPC_NOTIFICATIONS (rpcasync.h)
-
 description: The RPC_NOTIFICATIONS enumeration specifies the notifications a server can receive from RPC.
 old-location: rpc\rpc_notifications.htm
 tech.root: Rpc
 ms.assetid: d5074917-837c-4f3c-a582-97f488ed4919
-
 ms.date: 12/05/2018
 ms.keywords: RPC_NOTIFICATIONS, RPC_NOTIFICATIONS enumeration [RPC], RpcNotificationCallCancel, RpcNotificationCallNone, RpcNotificationClientDisconnect, rpc.rpc_notifications, rpcasync/RPC_NOTIFICATIONS, rpcasync/RpcNotificationCallCancel, rpcasync/RpcNotificationCallNone, rpcasync/RpcNotificationClientDisconnect
 ms.topic: enum
-f1_keywords: 
- - "rpcasync/RPC_NOTIFICATIONS"
+f1_keywords:
+- rpcasync/RPC_NOTIFICATIONS
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_NOTIFICATIONS
+- RPC_NOTIFICATIONS
 targetos: Windows
 req.typenames: RPC_NOTIFICATIONS
 req.redist: 

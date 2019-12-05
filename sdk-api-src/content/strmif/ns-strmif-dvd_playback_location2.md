@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_PLAYBACK_LOCATION2
 title: DVD_PLAYBACK_LOCATION2 (strmif.h)
-
 description: The DVD_PLAYBACK_LOCATION2 structure indicates DVD playback location.
 old-location: dshow\dvd_playback_location2.htm
 tech.root: DirectShow
 ms.assetid: 58506709-42e2-43e4-a4c7-b522b7d06e6f
-
 ms.date: 12/05/2018
 ms.keywords: DVD_PLAYBACK_LOCATION2, DVD_PLAYBACK_LOCATION2 structure [DirectShow], DVD_PLAYBACK_LOCATION2Structure, dshow.dvd_playback_location2, strmif/DVD_PLAYBACK_LOCATION2
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_PLAYBACK_LOCATION2"
+f1_keywords:
+- strmif/DVD_PLAYBACK_LOCATION2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_PLAYBACK_LOCATION2
+- DVD_PLAYBACK_LOCATION2
 targetos: Windows
 req.typenames: DVD_PLAYBACK_LOCATION2
 req.redist: 

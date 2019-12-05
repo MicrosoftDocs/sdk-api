@@ -1,19 +1,17 @@
 ---
 UID: NF:shappmgr.IShellApp.IsInstalled
 title: IShellApp::IsInstalled (shappmgr.h)
-
 description: Gets a value indicating whether a specified application is currently installed.
 old-location: shell\IShellApp_IsInstalled.htm
 tech.root: shell
 ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5
-
 ms.date: 12/05/2018
 ms.keywords: IShellApp interface [Windows Shell],IsInstalled method, IShellApp.IsInstalled, IShellApp::IsInstalled, IsInstalled, IsInstalled method [Windows Shell], IsInstalled method [Windows Shell],IShellApp interface, inet_IShellApp_IsInstalled, shappmgr/IShellApp::IsInstalled, shell.IShellApp_IsInstalled
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IShellApp.IsInstalled"
+f1_keywords:
+- shappmgr/IShellApp.IsInstalled
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellApp.IsInstalled
+- IShellApp.IsInstalled
 targetos: Windows
 req.typenames: 
 req.redist: 

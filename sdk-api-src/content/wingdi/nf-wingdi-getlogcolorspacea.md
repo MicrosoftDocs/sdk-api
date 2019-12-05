@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetLogColorSpaceA
 title: GetLogColorSpaceA function (wingdi.h)
-
 description: The GetLogColorSpace function retrieves the color space definition identified by a specified handle.
 old-location: wcs\getlogcolorspace.htm
 tech.root: WCS
 ms.assetid: 01862a48-8c2f-4b29-b928-2800c02218a2
-
 ms.date: 12/05/2018
 ms.keywords: GetLogColorSpace, GetLogColorSpace function [Windows Color System], GetLogColorSpaceA, GetLogColorSpaceW, _color_GetLogColorSpace, wcs.getlogcolorspace, wingdi/GetLogColorSpace, wingdi/GetLogColorSpaceA, wingdi/GetLogColorSpaceW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetLogColorSpace"
+f1_keywords:
+- wingdi/GetLogColorSpace
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetLogColorSpace
- - GetLogColorSpaceA
- - GetLogColorSpaceW
+- GetLogColorSpace
+- GetLogColorSpaceA
+- GetLogColorSpaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

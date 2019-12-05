@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.tagSMINFO
 title: SMINFO (shobjidl_core.h)
-
 description: Contains information about an item from a menu band.
 old-location: shell\SMINFO.htm
 tech.root: shell
 ms.assetid: aaa6ee05-7236-4b68-9d93-4848c4fe693d
-
 ms.date: 12/05/2018
-ms.keywords: "*PSMINFO, PSMINFO, PSMINFO structure pointer [Windows Shell], SMIF_ACCELERATOR, SMIF_ALTSTATE, SMIF_CHECKED, SMIF_DEMOTED, SMIF_DISABLED, SMIF_DRAGNDROP, SMIF_DROPCASCADE, SMIF_DROPTARGET, SMIF_HIDDEN, SMIF_ICON, SMIF_NEW, SMIF_SUBMENU, SMIF_TRACKPOPUP, SMIF_VOLATILE, SMIM_FLAGS, SMIM_ICON, SMIM_TYPE, SMINFO, SMINFO structure [Windows Shell], SMIT_SEPARATOR, SMIT_STRING, _win32_SMINFO, shell.SMINFO, shobjidl_core/PSMINFO, shobjidl_core/SMINFO, tagSMINFO"
+ms.keywords: '*PSMINFO, PSMINFO, PSMINFO structure pointer [Windows Shell], SMIF_ACCELERATOR, SMIF_ALTSTATE, SMIF_CHECKED, SMIF_DEMOTED, SMIF_DISABLED, SMIF_DRAGNDROP, SMIF_DROPCASCADE, SMIF_DROPTARGET, SMIF_HIDDEN, SMIF_ICON, SMIF_NEW, SMIF_SUBMENU, SMIF_TRACKPOPUP, SMIF_VOLATILE, SMIM_FLAGS, SMIM_ICON, SMIM_TYPE, SMINFO, SMINFO structure [Windows Shell], SMIT_SEPARATOR, SMIT_STRING, _win32_SMINFO, shell.SMINFO, shobjidl_core/PSMINFO, shobjidl_core/SMINFO, tagSMINFO'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/SMINFO"
+f1_keywords:
+- shobjidl_core/SMINFO
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - SMINFO
+- SMINFO
 targetos: Windows
 req.typenames: SMINFO, *PSMINFO
 req.redist: 

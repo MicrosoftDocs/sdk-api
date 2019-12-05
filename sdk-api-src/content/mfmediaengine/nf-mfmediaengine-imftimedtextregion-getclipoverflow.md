@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetClipOverflow
 title: IMFTimedTextRegion::GetClipOverflow (mfmediaengine.h)
-
 description: Determines whether a clip of text overflowed the region.
 old-location: mf\imftimedtextregion_getclipoverflow.htm
 tech.root: medfound
 ms.assetid: F48D4F1C-E00C-40BE-B292-B92C5B214F56
-
 ms.date: 12/05/2018
 ms.keywords: GetClipOverflow, GetClipOverflow method [Media Foundation], GetClipOverflow method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetClipOverflow method, IMFTimedTextRegion.GetClipOverflow, IMFTimedTextRegion::GetClipOverflow, mf.imftimedtextregion_getclipoverflow, mfmediaengine/IMFTimedTextRegion::GetClipOverflow
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetClipOverflow"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetClipOverflow
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetClipOverflow
+- IMFTimedTextRegion.GetClipOverflow
 targetos: Windows
 req.typenames: 
 req.redist: 

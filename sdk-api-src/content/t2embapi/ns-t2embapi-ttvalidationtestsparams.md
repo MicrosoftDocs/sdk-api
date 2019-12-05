@@ -1,19 +1,17 @@
 ---
 UID: NS:t2embapi.__unnamed_struct_2
 title: TTVALIDATIONTESTSPARAMS (t2embapi.h)
-
 description: The TTVALIDATIONTESTSPARAMS structure contains parameters for testing a Microsoft OpenType font.
 old-location: gdi\ttvalidationtestparams.htm
 tech.root: gdi
 ms.assetid: 901fd8e5-1602-4e20-9269-d0c3fe661e45
-
 ms.date: 12/05/2018
 ms.keywords: TTVALIDATIONTESTSPARAMS, TTVALIDATIONTESTSPARAMS structure [Windows GDI], _win32_TTVALIDATIONTESTPARAMS, gdi.ttvalidationtestparams, t2embapi/TTVALIDATIONTESTSPARAMS
 ms.topic: struct
-f1_keywords: 
- - "t2embapi/TTVALIDATIONTESTSPARAMS"
+f1_keywords:
+- t2embapi/TTVALIDATIONTESTSPARAMS
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - T2embapi.h
+- T2embapi.h
 api_name:
- - TTVALIDATIONTESTSPARAMS
+- TTVALIDATIONTESTSPARAMS
 targetos: Windows
 req.typenames: TTVALIDATIONTESTSPARAMS
 req.redist: 

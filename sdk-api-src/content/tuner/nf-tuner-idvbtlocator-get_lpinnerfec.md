@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_LPInnerFEC
 title: IDVBTLocator::get_LPInnerFEC (tuner.h)
-
 description: The get_LPInnerFEC method retrieves the inner FEC type of the low-priority stream.
 old-location: mstv\idvbtlocator_get_lpinnerfec.htm
 tech.root: mstv
 ms.assetid: 069904ad-5faa-4ac4-bf30-538284de2de8
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_LPInnerFEC method, IDVBTLocator.get_LPInnerFEC, IDVBTLocator::get_LPInnerFEC, IDVBTLocatorget_LPInnerFEC, get_LPInnerFEC, get_LPInnerFEC method [Microsoft TV Technologies], get_LPInnerFEC method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_lpinnerfec, tuner/IDVBTLocator::get_LPInnerFEC
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.get_LPInnerFEC"
+f1_keywords:
+- tuner/IDVBTLocator.get_LPInnerFEC
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.get_LPInnerFEC
+- IDVBTLocator.get_LPInnerFEC
 targetos: Windows
 req.typenames: 
 req.redist: 

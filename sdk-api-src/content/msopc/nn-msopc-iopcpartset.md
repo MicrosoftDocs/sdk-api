@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcPartSet
 title: IOpcPartSet (msopc.h)
-
 description: An unordered set of IOpcPart interface pointers to part objects that represent the parts in a package that are not Relationships parts.
 old-location: opc\iopcpartset.htm
 tech.root: OPC
 ms.assetid: f34c682f-7677-4d20-bd37-b1a68293d85c
-
 ms.date: 12/05/2018
 ms.keywords: IOpcPartSet, IOpcPartSet interface [Open Packaging Conventions], IOpcPartSet interface [Open Packaging Conventions],described, msopc/IOpcPartSet, opc.iopcpartset
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcPartSet"
+f1_keywords:
+- msopc/IOpcPartSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPartSet
+- IOpcPartSet
 targetos: Windows
 req.typenames: 
 req.redist: 

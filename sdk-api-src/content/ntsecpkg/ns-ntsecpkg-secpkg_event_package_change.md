@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EVENT_PACKAGE_CHANGE
 title: SECPKG_EVENT_PACKAGE_CHANGE (ntsecpkg.h)
-
 description: The SECPKG_EVENT_PACKAGE_CHANGE structure contains information about changes in security package availability.
 old-location: security\secpkg_event_package_change.htm
 tech.root: SecAuthN
 ms.assetid: fc341828-6491-435e-a20f-c7a4a3c2123d
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE structure pointer [Security], SECPKG_EVENT_PACKAGE_CHANGE, SECPKG_EVENT_PACKAGE_CHANGE structure [Security], SECPKG_PACKAGE_CHANGE_LOAD, SECPKG_PACKAGE_CHANGE_SELECT, SECPKG_PACKAGE_CHANGE_UNLOAD, _ssp_secpkg_event_package_change, ntsecpkg/PSECPKG_EVENT_PACKAGE_CHANGE, ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE, security.secpkg_event_package_change"
+ms.keywords: '*PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE, PSECPKG_EVENT_PACKAGE_CHANGE structure pointer [Security], SECPKG_EVENT_PACKAGE_CHANGE, SECPKG_EVENT_PACKAGE_CHANGE structure [Security], SECPKG_PACKAGE_CHANGE_LOAD, SECPKG_PACKAGE_CHANGE_SELECT, SECPKG_PACKAGE_CHANGE_UNLOAD, _ssp_secpkg_event_package_change, ntsecpkg/PSECPKG_EVENT_PACKAGE_CHANGE, ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE, security.secpkg_event_package_change'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE"
+f1_keywords:
+- ntsecpkg/SECPKG_EVENT_PACKAGE_CHANGE
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_EVENT_PACKAGE_CHANGE
+- SECPKG_EVENT_PACKAGE_CHANGE
 targetos: Windows
 req.typenames: SECPKG_EVENT_PACKAGE_CHANGE, *PSECPKG_EVENT_PACKAGE_CHANGE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddComboBox
 title: IFileDialogCustomize::AddComboBox (shobjidl_core.h)
-
 description: Adds a combo box to the dialog.
 old-location: shell\IFileDialogCustomize_AddComboBox.htm
 tech.root: shell
 ms.assetid: fdb7d682-5182-4bc0-b256-5073bd55c96d
-
 ms.date: 12/05/2018
 ms.keywords: AddComboBox, AddComboBox method [Windows Shell], AddComboBox method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddComboBox method, IFileDialogCustomize.AddComboBox, IFileDialogCustomize::AddComboBox, shell.IFileDialogCustomize_AddComboBox, shell_IFileDialogCustomize_AddComboBox, shobjidl_core/IFileDialogCustomize::AddComboBox
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.AddComboBox"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.AddComboBox
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.AddComboBox
+- IFileDialogCustomize.AddComboBox
 targetos: Windows
 req.typenames: 
 req.redist: 

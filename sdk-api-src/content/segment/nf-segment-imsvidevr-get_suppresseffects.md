@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidEVR.get_SuppressEffects
 title: IMSVidEVR::get_SuppressEffects (segment.h)
-
 description: The get_SuppressEffects method queries whether the Video Control configures the system for optimal video playback
 old-location: mstv\imsvidevr_get_suppresseffects.htm
 tech.root: mstv
 ms.assetid: a3aaf310-6c42-4013-a3bf-25f9c42cdf81
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVR interface [Microsoft TV Technologies],get_SuppressEffects method, IMSVidEVR.get_SuppressEffects, IMSVidEVR::get_SuppressEffects, IMSVidEVRget_SuppressEffects, get_SuppressEffects, get_SuppressEffects method [Microsoft TV Technologies], get_SuppressEffects method [Microsoft TV Technologies],IMSVidEVR interface, mstv.imsvidevr_get_suppresseffects, segment/IMSVidEVR::get_SuppressEffects
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidEVR.get_SuppressEffects"
+f1_keywords:
+- segment/IMSVidEVR.get_SuppressEffects
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidEVR.get_SuppressEffects
+- IMSVidEVR.get_SuppressEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

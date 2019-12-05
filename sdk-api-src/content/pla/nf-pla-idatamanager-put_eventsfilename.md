@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.put_EventsFileName
 title: IDataManager::put_EventsFileName (pla.h)
-
 description: Retrieves or sets the name for the events file.
 old-location: pla\idatamanager_eventsfilename.htm
 tech.root: PLA
 ms.assetid: ce67779a-3312-496f-a793-ac8720e63fb4
-
 ms.date: 12/05/2018
 ms.keywords: EventsFileName property [PLA], EventsFileName property [PLA],IDataManager interface, IDataManager interface [PLA],EventsFileName property, IDataManager.EventsFileName, IDataManager.put_EventsFileName, IDataManager::EventsFileName, IDataManager::get_EventsFileName, IDataManager::put_EventsFileName, base.idatamanager_eventsfilename, pla.idatamanager_eventsfilename, pla/IDataManager::EventsFileName, pla/IDataManager::get_EventsFileName, pla/IDataManager::put_EventsFileName, put_EventsFileName
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.EventsFileName"
+f1_keywords:
+- pla/IDataManager.EventsFileName
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.EventsFileName
- - IDataManager.get_EventsFileName
- - IDataManager.put_EventsFileName
+- IDataManager.EventsFileName
+- IDataManager.get_EventsFileName
+- IDataManager.put_EventsFileName
 targetos: Windows
 req.typenames: 
 req.redist: 

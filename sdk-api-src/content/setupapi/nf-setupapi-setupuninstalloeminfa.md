@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupUninstallOEMInfA
 title: SetupUninstallOEMInfA function (setupapi.h)
-
 description: The SetupUninstallOEMInf function uninstalls a specified .inf file and any associated .pnf file.
 old-location: setup\setupuninstalloeminf.htm
 tech.root: SetupApi
 ms.assetid: 70cec8c7-7954-44d7-93f5-711368f72bf7
-
 ms.date: 12/05/2018
 ms.keywords: SUOI_FORCEDELETE, SetupUninstallOEMInf, SetupUninstallOEMInf function [Setup API], SetupUninstallOEMInfA, SetupUninstallOEMInfW, _setupapi_setupuninstalloeminf, setup.setupuninstalloeminf, setupapi/SetupUninstallOEMInf, setupapi/SetupUninstallOEMInfA, setupapi/SetupUninstallOEMInfW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupUninstallOEMInf"
+f1_keywords:
+- setupapi/SetupUninstallOEMInf
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupUninstallOEMInf
- - SetupUninstallOEMInfA
- - SetupUninstallOEMInfW
+- SetupUninstallOEMInf
+- SetupUninstallOEMInfA
+- SetupUninstallOEMInfW
 targetos: Windows
 req.typenames: 
 req.redist: 

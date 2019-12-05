@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.PFXVerifyPassword
 title: PFXVerifyPassword function (wincrypt.h)
-
 description: The PFXVerifyPassword function attempts to decode the outer layer of a BLOB as a Personal Information Exchange (PFX) packet and to decrypt it with the given password. No data from the BLOB is imported.
 old-location: security\pfxverifypassword.htm
 tech.root: SecCrypto
 ms.assetid: 47560192-547e-4440-9f10-43327355e1a0
-
 ms.date: 12/05/2018
 ms.keywords: PFXVerifyPassword, PFXVerifyPassword function [Security], _crypto2_pfxverifypassword, security.pfxverifypassword, wincrypt/PFXVerifyPassword
 ms.topic: function
-f1_keywords: 
- - "wincrypt/PFXVerifyPassword"
+f1_keywords:
+- wincrypt/PFXVerifyPassword
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - PFXVerifyPassword
+- PFXVerifyPassword
 targetos: Windows
 req.typenames: 
 req.redist: 

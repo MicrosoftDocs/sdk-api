@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource2
 title: IWMSInternalAdminNetSource2 (wmsinternaladminnetsource.h)
-
 description: The IWMSInternalAdminNetSource2 interface provides improved methods for password caching.
 old-location: wmformat\iwmsinternaladminnetsource2.htm
 tech.root: wmformat
 ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource2, IWMSInternalAdminNetSource2 interface [windows Media Format], IWMSInternalAdminNetSource2 interface [windows Media Format],described, IWMSInternalAdminNetSource2Interface, wmformat.iwmsinternaladminnetsource2, wmsinternaladminnetsource/IWMSInternalAdminNetSource2
 ms.topic: interface
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource2"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource2
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsinternaladminnetsource.h
+- wmsinternaladminnetsource.h
 api_name:
- - IWMSInternalAdminNetSource2
- - IWMSInternalAdminNetSource2.FindProxyForURLEx
+- IWMSInternalAdminNetSource2
+- IWMSInternalAdminNetSource2.FindProxyForURLEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.IsEqual
 title: ID3D12ShaderReflectionType::IsEqual (d3d12shader.h)
-
 description: Indicates whether two ID3D12ShaderReflectionType Interface pointers have the same underlying type.
 old-location: direct3d12\id3d12shaderreflectiontype_isequal.htm
 tech.root: direct3d12
 ms.assetid: C1EAFAA2-6D35-4D4A-9153-98D927375EAD
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionType interface,IsEqual method, ID3D12ShaderReflectionType.IsEqual, ID3D12ShaderReflectionType::IsEqual, IsEqual, IsEqual method, IsEqual method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::IsEqual, direct3d12.id3d12shaderreflectiontype_isequal
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionType.IsEqual"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionType.IsEqual
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionType.IsEqual
+- ID3D12ShaderReflectionType.IsEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetBuffer
 title: IDXGISwapChain::GetBuffer (dxgi.h)
-
 description: Accesses one of the swap-chain's back buffers.
 old-location: direct3ddxgi\idxgiswapchain_getbuffer.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getbuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [DXGI], GetBuffer method [DXGI],IDXGISwapChain interface, IDXGISwapChain interface [DXGI],GetBuffer method, IDXGISwapChain.GetBuffer, IDXGISwapChain::GetBuffer, bd427578-fb6a-3136-aa3f-221b9262700c, direct3ddxgi.idxgiswapchain_getbuffer, dxgi/IDXGISwapChain::GetBuffer
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISwapChain.GetBuffer"
+f1_keywords:
+- dxgi/IDXGISwapChain.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISwapChain.GetBuffer
+- IDXGISwapChain.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

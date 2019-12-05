@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetTarget
 title: IVdsIscsiPortalGroup::GetTarget (vds.h)
-
 description: Returns the target to which the portal group belongs.
 old-location: base\ivdsiscsiportalgroup_gettarget.htm
 tech.root: VDS
 ms.assetid: b9195e17-4e41-494d-b6ce-ceacfc16d6cb
-
 ms.date: 12/05/2018
 ms.keywords: GetTarget, GetTarget method [VDS], GetTarget method [VDS],IVdsIscsiPortalGroup interface, IVdsIscsiPortalGroup interface [VDS],GetTarget method, IVdsIscsiPortalGroup.GetTarget, IVdsIscsiPortalGroup::GetTarget, base.ivdsiscsiportalgroup_gettarget, vds/IVdsIscsiPortalGroup::GetTarget, vdshwprv/IVdsIscsiPortalGroup::GetTarget
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiPortalGroup.GetTarget"
+f1_keywords:
+- vds/IVdsIscsiPortalGroup.GetTarget
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup.GetTarget
+- IVdsIscsiPortalGroup.GetTarget
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

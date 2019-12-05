@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.SetFolderSettings
 title: IExplorerBrowser::SetFolderSettings (shobjidl_core.h)
-
 description: Sets the folder settings for the current view.
 old-location: shell\IExplorerBrowser_SetFolderSettings.htm
 tech.root: shell
 ms.assetid: f24b98dd-18fc-495d-b7dd-d1491dc0a077
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser interface [Windows Shell],SetFolderSettings method, IExplorerBrowser.SetFolderSettings, IExplorerBrowser::SetFolderSettings, SetFolderSettings, SetFolderSettings method [Windows Shell], SetFolderSettings method [Windows Shell],IExplorerBrowser interface, _shell_IExplorerBrowser_SetFolderSettings, shell.IExplorerBrowser_SetFolderSettings, shobjidl_core/IExplorerBrowser::SetFolderSettings
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.SetFolderSettings"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.SetFolderSettings
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.SetFolderSettings
+- IExplorerBrowser.SetFolderSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

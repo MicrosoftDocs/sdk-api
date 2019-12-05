@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiRecordGetStringW
 title: MsiRecordGetStringW function (msiquery.h)
-
 description: The MsiRecordGetString function returns the string value of a record field.
 old-location: setup\msirecordgetstring.htm
 tech.root: Msi
 ms.assetid: 4d1b049c-9511-4858-8cc1-3cd2424c55ca
-
 ms.date: 12/05/2018
 ms.keywords: MsiRecordGetString, MsiRecordGetString function, MsiRecordGetStringA, MsiRecordGetStringW, _msi_msirecordgetstring, msiquery/MsiRecordGetString, msiquery/MsiRecordGetStringA, msiquery/MsiRecordGetStringW, setup.msirecordgetstring
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiRecordGetString"
+f1_keywords:
+- msiquery/MsiRecordGetString
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiRecordGetString
- - MsiRecordGetStringA
- - MsiRecordGetStringW
+- MsiRecordGetString
+- MsiRecordGetStringA
+- MsiRecordGetStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

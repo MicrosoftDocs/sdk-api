@@ -1,19 +1,17 @@
 ---
 UID: NE:windns._DNS_NAME_FORMAT
 title: DNS_NAME_FORMAT (windns.h)
-
 description: The DNS_NAME_FORMAT enumeration specifies name format information for DNS.
 old-location: dns\dns_name_format.htm
 tech.root: DNS
 ms.assetid: f6f1cff3-4bff-4a07-bbc6-5255030b4164
-
 ms.date: 12/05/2018
 ms.keywords: DNS_NAME_FORMAT, DNS_NAME_FORMAT enumeration [DNS], DnsNameDomain, DnsNameDomainLabel, DnsNameHostnameFull, DnsNameHostnameLabel, DnsNameSrvRecord, DnsNameValidateTld, DnsNameWildcard, dns.dns_name_format, windns/DNS_NAME_FORMAT, windns/DnsNameDomain, windns/DnsNameDomainLabel, windns/DnsNameHostnameFull, windns/DnsNameHostnameLabel, windns/DnsNameSrvRecord, windns/DnsNameValidateTld, windns/DnsNameWildcard
 ms.topic: enum
-f1_keywords: 
- - "windns/DNS_NAME_FORMAT"
+f1_keywords:
+- windns/DNS_NAME_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_NAME_FORMAT
+- DNS_NAME_FORMAT
 targetos: Windows
 req.typenames: DNS_NAME_FORMAT
 req.redist: 

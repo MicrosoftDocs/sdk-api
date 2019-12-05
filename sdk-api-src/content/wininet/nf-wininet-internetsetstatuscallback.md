@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetSetStatusCallback
 title: InternetSetStatusCallback function (wininet.h)
-
 description: Sets up a callback function that WinINet functions can call as progress is made during an operation.
 old-location: wininet\internetsetstatuscallback.htm
 tech.root: wininet
 ms.assetid: fe15627b-c77b-45c0-8ff6-02faa8512b57
-
 ms.date: 12/05/2018
 ms.keywords: InternetSetStatusCallback, InternetSetStatusCallback function [WinINet], _inet_internetsetstatuscallback_function, wininet.internetsetstatuscallback, wininet/InternetSetStatusCallback
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetSetStatusCallback"
+f1_keywords:
+- wininet/InternetSetStatusCallback
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetStatusCallback
+- InternetSetStatusCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

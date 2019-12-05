@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpDsInit
 title: DhcpDsInit function (dhcpsapi.h)
-
 description: The DhcpDsInit function initializes memory within the directory service for a new DHCP server process.
 old-location: dhcp\dhcpdsinit.htm
 tech.root: DHCP
 ms.assetid: c622d492-91a8-4fd3-87ed-3545e7b83a0a
-
 ms.date: 12/05/2018
 ms.keywords: DhcpDsInit, DhcpDsInit function [DHCP], dhcp.dhcpdsinit, dhcpsapi/DhcpDsInit
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpDsInit"
+f1_keywords:
+- dhcpsapi/DhcpDsInit
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpDsInit
+- DhcpDsInit
 targetos: Windows
 req.typenames: 
 req.redist: 

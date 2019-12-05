@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadMarshalInterface
 title: ITfLangBarMgr::GetThreadMarshalInterface (ctfutb.h)
-
 description: ITfLangBarMgr::GetThreadMarshalInterface method
 old-location: tsf\itflangbarmgr_getthreadmarshalinterface.htm
 tech.root: TSF
 ms.assetid: 9adfc307-ab22-4dfb-a5a8-40d9ad4900ad
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadMarshalInterface, GetThreadMarshalInterface method [Text Services Framework], GetThreadMarshalInterface method [Text Services Framework],ITfLangBarMgr interface, ITfLangBarMgr interface [Text Services Framework],GetThreadMarshalInterface method, ITfLangBarMgr.GetThreadMarshalInterface, ITfLangBarMgr::GetThreadMarshalInterface, _tsf_itflangbarmgr_getthreadmarshalinterface_ref, ctfutb/ITfLangBarMgr::GetThreadMarshalInterface, tsf.itflangbarmgr_getthreadmarshalinterface
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarMgr.GetThreadMarshalInterface"
+f1_keywords:
+- ctfutb/ITfLangBarMgr.GetThreadMarshalInterface
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarMgr.GetThreadMarshalInterface
+- ITfLangBarMgr.GetThreadMarshalInterface
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

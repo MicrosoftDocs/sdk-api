@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_TYPOGRAPHIC_FEATURES
 title: DWRITE_TYPOGRAPHIC_FEATURES (dwrite.h)
-
 description: Contains a set of typographic features to be applied during text shaping.
 old-location: directwrite\dwrite_typographic_features.htm
 tech.root: DirectWrite
 ms.assetid: 21ef4266-5dd6-48b6-9175-452b74e94a07
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TYPOGRAPHIC_FEATURES, DWRITE_TYPOGRAPHIC_FEATURES structure [Direct Write], directwrite.dwrite_typographic_features, dwrite/DWRITE_TYPOGRAPHIC_FEATURES
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_TYPOGRAPHIC_FEATURES"
+f1_keywords:
+- dwrite/DWRITE_TYPOGRAPHIC_FEATURES
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_TYPOGRAPHIC_FEATURES
+- DWRITE_TYPOGRAPHIC_FEATURES
 targetos: Windows
 req.typenames: 
 req.redist: 

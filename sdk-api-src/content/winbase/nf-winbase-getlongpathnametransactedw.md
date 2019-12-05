@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetLongPathNameTransactedW
 title: GetLongPathNameTransactedW function (winbase.h)
-
 description: Converts the specified path to its long form as a transacted operation.
 old-location: fs\getlongpathnametransacted.htm
 tech.root: FileIO
 ms.assetid: 8523cde9-f0dd-4832-8d9d-9e68bac89344
-
 ms.date: 12/05/2018
 ms.keywords: GetLongPathNameTransacted, GetLongPathNameTransacted function [Files], GetLongPathNameTransactedA, GetLongPathNameTransactedW, fs.getlongpathnametransacted, winbase/GetLongPathNameTransacted, winbase/GetLongPathNameTransactedA, winbase/GetLongPathNameTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetLongPathNameTransacted"
+f1_keywords:
+- winbase/GetLongPathNameTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetLongPathNameTransacted
- - GetLongPathNameTransactedA
- - GetLongPathNameTransactedW
+- GetLongPathNameTransacted
+- GetLongPathNameTransactedA
+- GetLongPathNameTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

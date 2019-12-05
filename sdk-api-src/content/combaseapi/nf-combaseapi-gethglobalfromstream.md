@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.GetHGlobalFromStream
 title: GetHGlobalFromStream function (combaseapi.h)
-
 description: The GetHGlobalFromStream function retrieves the global memory handle to a stream that was created through a call to the CreateStreamOnHGlobal function.
 old-location: stg\gethglobalfromstream.htm
 tech.root: Stg
 ms.assetid: 79e39345-7a20-4b0f-bceb-f62de13d3260
-
 ms.date: 12/05/2018
 ms.keywords: GetHGlobalFromStream, GetHGlobalFromStream function [Structured Storage], _stg_gethglobalfromstream, combaseapi/GetHGlobalFromStream, stg.gethglobalfromstream
 ms.topic: function
-f1_keywords: 
- - "combaseapi/GetHGlobalFromStream"
+f1_keywords:
+- combaseapi/GetHGlobalFromStream
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - GetHGlobalFromStream
+- GetHGlobalFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

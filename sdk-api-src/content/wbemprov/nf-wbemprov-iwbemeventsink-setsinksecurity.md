@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemEventSink.SetSinkSecurity
 title: IWbemEventSink::SetSinkSecurity (wbemprov.h)
-
 description: Used to set a security descriptor (SD) on a sink for all the events passing through.
 old-location: wmi\iwbemeventsink_setsinksecurity.htm
 tech.root: WmiSdk
 ms.assetid: 887b3c21-2ff6-4ae9-80bf-19f601da5e8b
-
 ms.date: 12/05/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],SetSinkSecurity method, IWbemEventSink.SetSinkSecurity, IWbemEventSink::SetSinkSecurity, SetSinkSecurity, SetSinkSecurity method [Windows Management Instrumentation], SetSinkSecurity method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_setsinksecurity, wbemprov/IWbemEventSink::SetSinkSecurity, wmi.iwbemeventsink_setsinksecurity
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemEventSink.SetSinkSecurity"
+f1_keywords:
+- wbemprov/IWbemEventSink.SetSinkSecurity
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemEventSink.SetSinkSecurity
+- IWbemEventSink.SetSinkSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 

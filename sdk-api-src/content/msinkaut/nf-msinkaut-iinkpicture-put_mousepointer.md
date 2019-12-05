@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_MousePointer
 title: IInkPicture::put_MousePointer (msinkaut.h)
-
 description: Gets or sets a value that indicates the type of mouse pointer that appears.
 old-location: tablet\inkpicture_mousepointer.htm
 tech.root: tablet
 ms.assetid: 94536770-01ef-41c5-9217-0aa2ef9c36ac
-
 ms.date: 12/05/2018
 ms.keywords: IInkPicture interface [Tablet PC],MousePointer property, IInkPicture.MousePointer, IInkPicture.put_MousePointer, IInkPicture::MousePointer, IInkPicture::get_MousePointer, IInkPicture::put_MousePointer, InkPicture.get_MousePointer, InkPicture.put_MousePointer, MousePointer property [Tablet PC], MousePointer property [Tablet PC],IInkPicture interface, get_MousePointer, msinkaut/IInkPicture::MousePointer, msinkaut/IInkPicture::get_MousePointer, msinkaut/IInkPicture::put_MousePointer, put_MousePointer, tablet.inkpicture_mousepointer
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.MousePointer"
+f1_keywords:
+- msinkaut/IInkPicture.MousePointer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.MousePointer
- - IInkPicture.get_MousePointer
- - IInkPicture.put_MousePointer
- - InkPicture.get_MousePointer
- - InkPicture.put_MousePointer
+- IInkPicture.MousePointer
+- IInkPicture.get_MousePointer
+- IInkPicture.put_MousePointer
+- InkPicture.get_MousePointer
+- InkPicture.put_MousePointer
 targetos: Windows
 req.typenames: 
 req.redist: 

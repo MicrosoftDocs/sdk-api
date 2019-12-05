@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbAudioComponentDescriptor
 title: IIsdbAudioComponentDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor.htm
 tech.root: mstv
 ms.assetid: f771b318-5fd5-4c7f-a22b-6966aec5c0fa
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbAudioComponentDescriptor, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies], IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbAudioComponentDescriptor, mstv.iisdbaudiocomponentdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbAudioComponentDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbAudioComponentDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor
+- IIsdbAudioComponentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

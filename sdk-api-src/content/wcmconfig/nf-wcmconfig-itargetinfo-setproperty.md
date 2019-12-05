@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetProperty
 title: ITargetInfo::SetProperty (wcmconfig.h)
-
 description: Sets a property value for the offline installation location.
 old-location: smi\itargetinfo_setproperty.htm
 tech.root: SMI
 ms.assetid: ecd93710-a9e8-41cf-b30c-97d1efe0fa6f
-
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetProperty method, ITargetInfo.SetProperty, ITargetInfo::SetProperty, SetProperty, SetProperty method [SMI], SetProperty method [SMI],ITargetInfo interface, smi.itargetinfo_setproperty, wcmconfig/ITargetInfo::SetProperty
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.SetProperty"
+f1_keywords:
+- wcmconfig/ITargetInfo.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.SetProperty
+- ITargetInfo.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

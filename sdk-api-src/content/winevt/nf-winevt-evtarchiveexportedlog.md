@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtArchiveExportedLog
 title: EvtArchiveExportedLog function (winevt.h)
-
 description: Adds localized strings to the events in the specified log file.
 old-location: wes\evtarchiveexportedlog.htm
 tech.root: wes
 ms.assetid: 0a8f9958-03af-4310-9f9e-b79e84a30a04
-
 ms.date: 12/05/2018
 ms.keywords: EvtArchiveExportedLog, EvtArchiveExportedLog function [EventLog], wes.evtarchiveexportedlog, winevt/EvtArchiveExportedLog
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtArchiveExportedLog"
+f1_keywords:
+- winevt/EvtArchiveExportedLog
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtArchiveExportedLog
+- EvtArchiveExportedLog
 targetos: Windows
 req.typenames: 
 req.redist: 

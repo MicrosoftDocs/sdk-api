@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.PackageNameAndPublisherIdFromFamilyName
 title: PackageNameAndPublisherIdFromFamilyName function (appmodel.h)
-
 description: Gets the package name and publisher identifier (ID) for the specified package family name.
 old-location: appxpkg\packagenameandpublisheridfromfamilyname.htm
 tech.root: appxpkg
 ms.assetid: 4AA5BD75-F865-40D6-9C10-E54C197D47C4
-
 ms.date: 12/05/2018
 ms.keywords: PackageNameAndPublisherIdFromFamilyName, PackageNameAndPublisherIdFromFamilyName function [App packaging and management], appmodel/PackageNameAndPublisherIdFromFamilyName, appxpkg.packagenameandpublisheridfromfamilyname
 ms.topic: function
-f1_keywords: 
- - "appmodel/PackageNameAndPublisherIdFromFamilyName"
+f1_keywords:
+- appmodel/PackageNameAndPublisherIdFromFamilyName
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-Runtime-l1-1-0.dll
- - kernel32legacy.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-Runtime-l1-1-0.dll
+- kernel32legacy.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - PackageNameAndPublisherIdFromFamilyName
+- PackageNameAndPublisherIdFromFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 

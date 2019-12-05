@@ -1,19 +1,17 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCP_MESSAGE
 title: PXE_DHCP_MESSAGE (wdspxe.h)
-
 description: The PXE_DHCP_MESSAGE structure can be used with the Windows Deployment Services PXE Server API.
 old-location: wds\pxe_dhcp_message.htm
 tech.root: wds
 ms.assetid: 466906f1-9439-4c9f-91f1-28530969181c
-
 ms.date: 12/05/2018
-ms.keywords: "*PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCP_MESSAGE, PXE_DHCP_MESSAGE structure [Windows Deployment Services], wds.pxe_dhcp_message, wdspxe/PPXE_DHCP_MESSAGE, wdspxe/PXE_DHCP_MESSAGE"
+ms.keywords: '*PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE, PPXE_DHCP_MESSAGE structure pointer [Windows Deployment Services], PXE_DHCP_MESSAGE, PXE_DHCP_MESSAGE structure [Windows Deployment Services], wds.pxe_dhcp_message, wdspxe/PPXE_DHCP_MESSAGE, wdspxe/PXE_DHCP_MESSAGE'
 ms.topic: struct
-f1_keywords: 
- - "wdspxe/PXE_DHCP_MESSAGE"
+f1_keywords:
+- wdspxe/PXE_DHCP_MESSAGE
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WdsPxe.h
+- WdsPxe.h
 api_name:
- - PXE_DHCP_MESSAGE
+- PXE_DHCP_MESSAGE
 targetos: Windows
 req.typenames: PXE_DHCP_MESSAGE, *PPXE_DHCP_MESSAGE
 req.redist: 

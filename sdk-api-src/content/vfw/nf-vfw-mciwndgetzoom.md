@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndGetZoom
 title: MCIWndGetZoom macro (vfw.h)
-
 description: The MCIWndGetZoom macro retrieves the current zoom value used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETZOOM message.
 old-location: multimedia\mciwndgetzoom.htm
 tech.root: Multimedia
 ms.assetid: 397a41dd-e4ee-4afb-b7a0-3909e79726a5
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetZoom, MCIWndGetZoom macro [Windows Multimedia], _win32_MCIWndGetZoom, multimedia.mciwndgetzoom, vfw/MCIWndGetZoom
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndGetZoom"
+f1_keywords:
+- vfw/MCIWndGetZoom
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndGetZoom
+- MCIWndGetZoom
 targetos: Windows
 req.typenames: 
 req.redist: 

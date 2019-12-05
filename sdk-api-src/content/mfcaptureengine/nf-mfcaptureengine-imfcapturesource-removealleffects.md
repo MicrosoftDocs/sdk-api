@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.RemoveAllEffects
 title: IMFCaptureSource::RemoveAllEffects (mfcaptureengine.h)
-
 description: Removes all effects from a capture stream.
 old-location: mf\imfcapturesource_removealleffects.htm
 tech.root: medfound
 ms.assetid: C01F7A61-3585-4E8B-B914-7DB1446D1BC1
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureSource interface [Media Foundation],RemoveAllEffects method, IMFCaptureSource.RemoveAllEffects, IMFCaptureSource::RemoveAllEffects, MF_CAPTURE_ENGINE_FIRST_SOURCE_AUDIO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_PHOTO_STREAM, MF_CAPTURE_ENGINE_FIRST_SOURCE_VIDEO_STREAM, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFCaptureSource interface, mf.imfcapturesource_removealleffects, mfcaptureengine/IMFCaptureSource::RemoveAllEffects
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSource.RemoveAllEffects"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSource.RemoveAllEffects
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSource.RemoveAllEffects
+- IMFCaptureSource.RemoveAllEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

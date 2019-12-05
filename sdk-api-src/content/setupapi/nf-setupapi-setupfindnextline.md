@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupFindNextLine
 title: SetupFindNextLine function (setupapi.h)
-
 description: The SetupFindNextLine returns the location of the next line in an INF file section relative to ContextIn.Line.
 old-location: setup\setupfindnextline.htm
 tech.root: SetupApi
 ms.assetid: ba5b3c62-c6b7-4ec1-83e2-45cdc910a34d
-
 ms.date: 12/05/2018
 ms.keywords: SetupFindNextLine, SetupFindNextLine function [Setup API], _setupapi_setupfindnextline, setup.setupfindnextline, setupapi/SetupFindNextLine
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupFindNextLine"
+f1_keywords:
+- setupapi/SetupFindNextLine
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-setupapi-inf-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-setupapi-inf-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupFindNextLine
+- SetupFindNextLine
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_ExW
 title: CM_Get_Device_ID_ExW function (cfgmgr32.h)
-
 description: The CM_Get_Device_ID_Ex function retrieves the device instance ID for a specified device instance on a local or a remote machine.
 old-location: devinst\cm_get_device_id_ex.htm
 tech.root: devinst
 ms.assetid: 757b8185-c5f5-4623-a410-63fd2f74e34f
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_Ex, CM_Get_Device_ID_Ex function [Device and Driver Installation], CM_Get_Device_ID_ExW, cfgmgr32/CM_Get_Device_ID_Ex, cfgmgr32/CM_Get_Device_ID_ExW, cfgmgrfn_e4ec7f8a-75aa-4c49-a2fe-a912685d5e98.xml, devinst.cm_get_device_id_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_ID_Ex"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_ID_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Device_ID_Ex
- - CM_Get_Device_ID_ExW
+- CM_Get_Device_ID_Ex
+- CM_Get_Device_ID_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 

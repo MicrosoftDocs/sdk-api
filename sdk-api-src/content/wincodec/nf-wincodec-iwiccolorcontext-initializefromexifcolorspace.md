@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromExifColorSpace
 title: IWICColorContext::InitializeFromExifColorSpace (wincodec.h)
-
 description: Initializes the color context using an Exchangeable Image File (EXIF) color space.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefromexifcolorspace.htm
 tech.root: wic
 ms.assetid: af85abf2-e1cc-4443-9726-a422ba363f71
-
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromExifColorSpace method, IWICColorContext.InitializeFromExifColorSpace, IWICColorContext::InitializeFromExifColorSpace, InitializeFromExifColorSpace, InitializeFromExifColorSpace method [Windows Imaging Component], InitializeFromExifColorSpace method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefromexifcolorspace, wic._wic_codec_iwiccolorcontext_initializefromexifcolorspace, wincodec/IWICColorContext::InitializeFromExifColorSpace
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICColorContext.InitializeFromExifColorSpace"
+f1_keywords:
+- wincodec/IWICColorContext.InitializeFromExifColorSpace
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICColorContext.InitializeFromExifColorSpace
+- IWICColorContext.InitializeFromExifColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

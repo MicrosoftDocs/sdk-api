@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetKeepTogether
 title: ITextRow::GetKeepTogether (tom.h)
-
 description: Gets whether this row is allowed to be broken across pages.
 old-location: controls\itextrow_getkeeptogether.htm
 tech.root: Controls
 ms.assetid: 3f40c910-2636-4412-ae05-7a630c1f4806
-
 ms.date: 12/05/2018
 ms.keywords: GetKeepTogether, GetKeepTogether method [Windows Controls], GetKeepTogether method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetKeepTogether method, ITextRow.GetKeepTogether, ITextRow::GetKeepTogether, controls.itextrow_getkeeptogether, tom/ITextRow::GetKeepTogether
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetKeepTogether"
+f1_keywords:
+- tom/ITextRow.GetKeepTogether
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetKeepTogether
+- ITextRow.GetKeepTogether
 targetos: Windows
 req.typenames: 
 req.redist: 

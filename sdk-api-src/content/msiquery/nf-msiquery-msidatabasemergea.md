@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiDatabaseMergeA
 title: MsiDatabaseMergeA function (msiquery.h)
-
 description: The MsiDatabaseMerge function merges two databases together, which allows duplicate rows.
 old-location: setup\msidatabasemerge.htm
 tech.root: Msi
 ms.assetid: 2a8c5e13-f7af-47ea-b781-a739d848fe09
-
 ms.date: 12/05/2018
 ms.keywords: MsiDatabaseMerge, MsiDatabaseMerge function, MsiDatabaseMergeA, MsiDatabaseMergeW, _msi_msidatabasemerge, msiquery/MsiDatabaseMerge, msiquery/MsiDatabaseMergeA, msiquery/MsiDatabaseMergeW, setup.msidatabasemerge
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiDatabaseMerge"
+f1_keywords:
+- msiquery/MsiDatabaseMerge
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiDatabaseMerge
- - MsiDatabaseMergeA
- - MsiDatabaseMergeW
+- MsiDatabaseMerge
+- MsiDatabaseMergeA
+- MsiDatabaseMergeW
 targetos: Windows
 req.typenames: 
 req.redist: 

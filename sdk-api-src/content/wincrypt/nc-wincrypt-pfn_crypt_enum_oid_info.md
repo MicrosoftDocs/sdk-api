@@ -1,19 +1,17 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_ENUM_OID_INFO
 title: PFN_CRYPT_ENUM_OID_INFO (wincrypt.h)
-
 description: The CRYPT_ENUM_OID_INFO callback function is used with the CryptEnumOIDInfo function.
 old-location: security\crypt_enum_oid_info.htm
 tech.root: SecCrypto
 ms.assetid: 30ae4274-631d-4c6a-96c5-18f096607cad
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_ENUM_OID_INFO, CRYPT_ENUM_OID_INFO callback function [Security], PFN_CRYPT_ENUM_OID_INFO, PFN_CRYPT_ENUM_OID_INFO callback, security.crypt_enum_oid_info, wincrypt/CRYPT_ENUM_OID_INFO
 ms.topic: callback
-f1_keywords: 
- - "wincrypt/CRYPT_ENUM_OID_INFO"
+f1_keywords:
+- wincrypt/CRYPT_ENUM_OID_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_ENUM_OID_INFO
+- CRYPT_ENUM_OID_INFO
 targetos: Windows
 req.typenames: 
 req.redist: 

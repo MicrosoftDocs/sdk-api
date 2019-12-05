@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.GetMute
 title: IMFSimpleAudioVolume::GetMute (mfidl.h)
-
 description: Queries whether the audio is muted.
 old-location: mf\imfsimpleaudiovolume_getmute.htm
 tech.root: medfound
 ms.assetid: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e
-
 ms.date: 12/05/2018
 ms.keywords: 13907d3c-62c0-4cb8-8921-5a38a63d7d6e, GetMute, GetMute method [Media Foundation], GetMute method [Media Foundation],IMFSimpleAudioVolume interface, IMFSimpleAudioVolume interface [Media Foundation],GetMute method, IMFSimpleAudioVolume.GetMute, IMFSimpleAudioVolume::GetMute, mf.imfsimpleaudiovolume_getmute, mfidl/IMFSimpleAudioVolume::GetMute
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSimpleAudioVolume.GetMute"
+f1_keywords:
+- mfidl/IMFSimpleAudioVolume.GetMute
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.GetMute
+- IMFSimpleAudioVolume.GetMute
 targetos: Windows
 req.typenames: 
 req.redist: 

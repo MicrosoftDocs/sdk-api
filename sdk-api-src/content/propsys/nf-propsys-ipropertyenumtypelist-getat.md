@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyEnumTypeList.GetAt
 title: IPropertyEnumTypeList::GetAt (propsys.h)
-
 description: Gets the IPropertyEnumType object at the specified index in the list.
 old-location: properties\IPropertyEnumTypeList_GetAt.htm
 tech.root: properties
 ms.assetid: 1713d16f-58d9-46f9-9795-4e05ff257901
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Windows Properties], GetAt method [Windows Properties],IPropertyEnumTypeList interface, IPropertyEnumTypeList interface [Windows Properties],GetAt method, IPropertyEnumTypeList.GetAt, IPropertyEnumTypeList::GetAt, _shell_IPropertyEnumTypeList_GetAt, properties.IPropertyEnumTypeList_GetAt, propsys/IPropertyEnumTypeList::GetAt, shell.IPropertyEnumTypeList_GetAt
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyEnumTypeList.GetAt"
+f1_keywords:
+- propsys/IPropertyEnumTypeList.GetAt
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyEnumTypeList.GetAt
+- IPropertyEnumTypeList.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

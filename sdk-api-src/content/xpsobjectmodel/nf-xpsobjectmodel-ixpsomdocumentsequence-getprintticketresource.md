@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocumentSequence.GetPrintTicketResource
 title: IXpsOMDocumentSequence::GetPrintTicketResource (xpsobjectmodel.h)
-
 description: Gets the IXpsOMPrintTicketResource interface to the job-level print ticket that is assigned to the document sequence.
 old-location: xps\ixpsomdocumentsequence_getprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 0d53d537-8db1-4e39-98e6-8987dbf5fc27
-
 ms.date: 12/05/2018
 ms.keywords: GetPrintTicketResource, GetPrintTicketResource method [XPS Documents and Packaging], GetPrintTicketResource method [XPS Documents and Packaging],IXpsOMDocumentSequence interface, IXpsOMDocumentSequence interface [XPS Documents and Packaging],GetPrintTicketResource method, IXpsOMDocumentSequence.GetPrintTicketResource, IXpsOMDocumentSequence::GetPrintTicketResource, xps.ixpsomdocumentsequence_getprintticketresource, xpsobjectmodel/IXpsOMDocumentSequence::GetPrintTicketResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocumentSequence.GetPrintTicketResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocumentSequence.GetPrintTicketResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocumentSequence.GetPrintTicketResource
+- IXpsOMDocumentSequence.GetPrintTicketResource
 targetos: Windows
 req.typenames: 
 req.redist: 

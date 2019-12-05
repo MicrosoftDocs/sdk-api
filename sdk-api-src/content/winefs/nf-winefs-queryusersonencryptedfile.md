@@ -1,19 +1,17 @@
 ---
 UID: NF:winefs.QueryUsersOnEncryptedFile
 title: QueryUsersOnEncryptedFile function (winefs.h)
-
 description: Retrieves a list of users for the specified file.
 old-location: fs\queryusersonencryptedfile.htm
 tech.root: FileIO
 ms.assetid: 1bdab753-e7f2-4c08-8b37-3903c0842227
-
 ms.date: 12/05/2018
 ms.keywords: QueryUsersOnEncryptedFile, QueryUsersOnEncryptedFile function [Files], _win32_queryusersonencryptedfile, base.queryusersonencryptedfile, fs.queryusersonencryptedfile, winefs/QueryUsersOnEncryptedFile
 ms.topic: function
 f1_keywords:
 - winefs/QueryUsersOnEncryptedFile
 dev_langs:
- - c++
+- c++
 req.header: winefs.h
 req.include-header: Windows.h
 req.target-type: Windows

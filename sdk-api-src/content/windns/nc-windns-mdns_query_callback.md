@@ -5,10 +5,10 @@ description: Used to asynchronously return the results of an mDNS query.
 ms.date: 02/19/2019
 ms.keywords: MDNS_QUERY_CALLBACK
 ms.topic: language-reference
-f1_keywords: 
- - "windns/MDNS_QUERY_CALLBACK"
+f1_keywords:
+- windns/MDNS_QUERY_CALLBACK
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -31,13 +31,13 @@ req.typenames: MDNS_QUERY_CALLBACK
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - LibDef
+- LibDef
 api_location:
- - windns.h
+- windns.h
 api_name:
- - MDNS_QUERY_CALLBACK
+- MDNS_QUERY_CALLBACK
 ms.custom: 19H1
 ---
 

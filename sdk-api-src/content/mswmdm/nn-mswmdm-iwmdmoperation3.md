@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMOperation3
 title: IWMDMOperation3 (mswmdm.h)
-
 description: The optional, application-implemented IWMDMOperation3 interface extends IWMDMOperation by providing a new method for transferring data unencrypted for added efficiency.
 old-location: wmdm\iwmdmoperation3.htm
 tech.root: WMDM
 ms.assetid: 5ab4fdd2-d0bf-4e2c-b529-331ffa4c8403
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation3, IWMDMOperation3 interface [windows Media Device Manager], IWMDMOperation3 interface [windows Media Device Manager],described, IWMDMOperation3Interface, mswmdm/IWMDMOperation3, wmdm.iwmdmoperation3
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMOperation3"
+f1_keywords:
+- mswmdm/IWMDMOperation3
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMOperation3
+- IWMDMOperation3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsPreallocateStringBuffer
 title: WindowsPreallocateStringBuffer function (winstring.h)
-
 description: Allocates a mutable character buffer for use in HSTRING creation.
 old-location: winrt\windowspreallocatestringbuffer.htm
 tech.root: WinRT
 ms.assetid: 83ebde70-458c-4617-a7fd-a281915f6206
-
 ms.date: 12/05/2018
 ms.keywords: WindowsPreallocateStringBuffer, WindowsPreallocateStringBuffer function [Windows Runtime], winrt.windowspreallocatestringbuffer, winstring/WindowsPreallocateStringBuffer
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsPreallocateStringBuffer"
+f1_keywords:
+- winstring/WindowsPreallocateStringBuffer
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: RuntimeObject.lib
 req.dll: ComBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsPreallocateStringBuffer
+- WindowsPreallocateStringBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

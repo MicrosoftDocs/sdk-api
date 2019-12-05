@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.Reset
 title: IMFInputTrustAuthority::Reset (mfidl.h)
-
 description: Resets the input trust authority (ITA) to its initial state.
 old-location: mf\imfinputtrustauthority_reset.htm
 tech.root: medfound
 ms.assetid: beb8e598-5a35-46b0-aa13-6bef38b9defb
-
 ms.date: 12/05/2018
 ms.keywords: IMFInputTrustAuthority interface [Media Foundation],Reset method, IMFInputTrustAuthority.Reset, IMFInputTrustAuthority::Reset, Reset, Reset method [Media Foundation], Reset method [Media Foundation],IMFInputTrustAuthority interface, beb8e598-5a35-46b0-aa13-6bef38b9defb, mf.imfinputtrustauthority_reset, mfidl/IMFInputTrustAuthority::Reset
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFInputTrustAuthority.Reset"
+f1_keywords:
+- mfidl/IMFInputTrustAuthority.Reset
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFInputTrustAuthority.Reset
+- IMFInputTrustAuthority.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IClassFactory2.RequestLicKey
 title: IClassFactory2::RequestLicKey (ocidl.h)
-
 description: Creates a license key that the caller can save and use later to create an instance of the licensed object.
 old-location: com\iclassfactory2_requestlickey.htm
 tech.root: com
 ms.assetid: 6c0211d2-1cdd-4d1a-a1fe-44c89b750af6
-
 ms.date: 12/05/2018
 ms.keywords: IClassFactory2 interface [COM],RequestLicKey method, IClassFactory2.RequestLicKey, IClassFactory2::RequestLicKey, RequestLicKey, RequestLicKey method [COM], RequestLicKey method [COM],IClassFactory2 interface, _com_iclassfactory2_requestlickey, com.iclassfactory2_requestlickey, ocidl/IClassFactory2::RequestLicKey
 ms.topic: method
-f1_keywords: 
- - "ocidl/IClassFactory2.RequestLicKey"
+f1_keywords:
+- ocidl/IClassFactory2.RequestLicKey
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IClassFactory2.RequestLicKey
+- IClassFactory2.RequestLicKey
 targetos: Windows
 req.typenames: 
 req.redist: 

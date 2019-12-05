@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCategory
 title: IXpsOMCoreProperties::SetCategory (xpsobjectmodel.h)
-
 description: Sets the category property.
 old-location: xps\ixpsomcoreproperties_setcategory.htm
 tech.root: printdocs
 ms.assetid: 0c194731-0992-47c3-b069-fa9e1d16944b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetCategory method, IXpsOMCoreProperties.SetCategory, IXpsOMCoreProperties::SetCategory, SetCategory, SetCategory method [XPS Documents and Packaging], SetCategory method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setcategory, xpsobjectmodel/IXpsOMCoreProperties::SetCategory
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetCategory"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetCategory
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetCategory
+- IXpsOMCoreProperties.SetCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

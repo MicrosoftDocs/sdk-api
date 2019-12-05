@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.IEnumSTATPROPSETSTG.Next
 title: IEnumSTATPROPSETSTG::Next (propidl.h)
-
 description: Retrieves a specified number of STATPROPSETSTG structures that follow subsequently in the enumeration sequence.
 old-location: stg\ienumstatpropsetstg_next.htm
 tech.root: Stg
 ms.assetid: 3af3c518-3db4-4436-b1c1-86587ce8fbf3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATPROPSETSTG interface [Structured Storage],Next method, IEnumSTATPROPSETSTG.Next, IEnumSTATPROPSETSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSETSTG interface, propidlbase/IEnumSTATPROPSETSTG::Next, stg.ienumstatpropsetstg_next
 ms.topic: method
-f1_keywords: 
- - "propidl/IEnumSTATPROPSETSTG.Next"
+f1_keywords:
+- propidl/IEnumSTATPROPSETSTG.Next
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IEnumSTATPROPSETSTG.Next
+- IEnumSTATPROPSETSTG.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

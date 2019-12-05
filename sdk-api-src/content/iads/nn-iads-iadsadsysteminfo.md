@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsADSystemInfo
 title: IADsADSystemInfo (iads.h)
-
 description: The IADsADSystemInfo interface retrieves data about the local computer if it is running a Windows operating system in a Windows domain. For example, you can get the domain, site, and distinguished name of the local computer.
 old-location: adsi\iadsadsysteminfo.htm
 tech.root: adsi
 ms.assetid: 5573d37b-10a8-4176-80c7-711552ff36cb
-
 ms.date: 12/05/2018
 ms.keywords: ADSystemInfo, IADsADSystemInfo, IADsADSystemInfo interface [ADSI], IADsADSystemInfo interface [ADSI],described, _ds_iadsadsysteminfo, adsi.iadsadsysteminfo, iads/IADsADSystemInfo
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsADSystemInfo"
+f1_keywords:
+- iads/IADsADSystemInfo
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsADSystemInfo
- - ADSystemInfo
+- IADsADSystemInfo
+- ADSystemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

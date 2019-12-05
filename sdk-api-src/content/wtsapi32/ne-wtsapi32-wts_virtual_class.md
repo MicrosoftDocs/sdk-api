@@ -1,19 +1,17 @@
 ---
 UID: NE:wtsapi32._WTS_VIRTUAL_CLASS
 title: WTS_VIRTUAL_CLASS (wtsapi32.h)
-
 description: Contains values that indicate the type of virtual channel information to retrieve.
 old-location: termserv\wts_virtual_class.htm
 tech.root: TermServ
 ms.assetid: ca7bb0ff-f5af-477f-a610-563071554234
-
 ms.date: 12/05/2018
 ms.keywords: WTSVirtualClientData, WTSVirtualFileHandle, WTS_VIRTUAL_CLASS, WTS_VIRTUAL_CLASS enumeration [Remote Desktop Services], _win32_wts_virtual_class, termserv.wts_virtual_class, wtsapi32/WTSVirtualClientData, wtsapi32/WTSVirtualFileHandle, wtsapi32/WTS_VIRTUAL_CLASS
 ms.topic: enum
-f1_keywords: 
- - "wtsapi32/WTS_VIRTUAL_CLASS"
+f1_keywords:
+- wtsapi32/WTS_VIRTUAL_CLASS
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_VIRTUAL_CLASS
+- WTS_VIRTUAL_CLASS
 targetos: Windows
 req.typenames: WTS_VIRTUAL_CLASS
 req.redist: 

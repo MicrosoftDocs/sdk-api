@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITPropList.GetFirst
 title: IITPropList::GetFirst (infotech.h)
-
 description: Returns the first property object in a property list.
 old-location: htmlhelp\iitproplist_getfirst.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistgetfirst.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFirst, GetFirst method [HTML Help Workshop], GetFirst method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],GetFirst method, IITPropList.GetFirst, IITPropList::GetFirst, htmlhelp.iitproplist_getfirst, infotech/IITPropList::GetFirst, refIITPropListGetFirst
 ms.topic: method
-f1_keywords: 
- - "infotech/IITPropList.GetFirst"
+f1_keywords:
+- infotech/IITPropList.GetFirst
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITPropList.GetFirst
+- IITPropList.GetFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

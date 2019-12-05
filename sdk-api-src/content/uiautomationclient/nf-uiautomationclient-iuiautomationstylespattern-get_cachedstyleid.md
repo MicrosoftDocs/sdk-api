@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedStyleId
 title: IUIAutomationStylesPattern::get_CachedStyleId (uiautomationclient.h)
-
 description: Retrieves the cached identifier of the visual style associated with an element in a document.
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedStyleId.htm
 tech.root: WinAuto
 ms.assetid: F884A9FF-4538-41B6-A067-246A8897F076
-
 ms.date: 12/05/2018
 ms.keywords: CachedStyleId property [Windows Accessibility], CachedStyleId property [Windows Accessibility],IUIAutomationStylesPattern interface, IUIAutomationStylesPattern interface [Windows Accessibility],CachedStyleId property, IUIAutomationStylesPattern.CachedStyleId, IUIAutomationStylesPattern.get_CachedStyleId, IUIAutomationStylesPattern::CachedStyleId, IUIAutomationStylesPattern::get_CachedStyleId, get_CachedStyleId, uiautomationclient/IUIAutomationStylesPattern::CachedStyleId, uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleId, winauto.uiauto_IUIAutomationStylesPattern_CachedStyleId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationStylesPattern.CachedStyleId"
+f1_keywords:
+- uiautomationclient/IUIAutomationStylesPattern.CachedStyleId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern.CachedStyleId
- - IUIAutomationStylesPattern.get_CachedStyleId
+- IUIAutomationStylesPattern.CachedStyleId
+- IUIAutomationStylesPattern.get_CachedStyleId
 targetos: Windows
 req.typenames: 
 req.redist: 

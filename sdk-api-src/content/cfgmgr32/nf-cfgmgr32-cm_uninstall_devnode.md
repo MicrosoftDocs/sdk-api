@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Uninstall_DevNode
 title: CM_Uninstall_DevNode function (cfgmgr32.h)
-
 description: The CM_Uninstall_DevNode function removes all persistent state associated with a device instance.
 old-location: devinst\cm_uninstall_devnode.htm
 tech.root: devinst
 ms.assetid: e472e642-cf0d-4c88-907f-5cfb08fb4e76
-
 ms.date: 12/05/2018
 ms.keywords: CM_Uninstall_DevNode, CM_Uninstall_DevNode function [Device and Driver Installation], cfgmgr32/CM_Uninstall_DevNode, cfgmgrfn_a3aadd47-2a1b-4123-823f-7d7cb988812e.xml, devinst.cm_uninstall_devnode
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Uninstall_DevNode"
+f1_keywords:
+- cfgmgr32/CM_Uninstall_DevNode
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Uninstall_DevNode
+- CM_Uninstall_DevNode
 targetos: Windows
 req.typenames: 
 req.redist: 

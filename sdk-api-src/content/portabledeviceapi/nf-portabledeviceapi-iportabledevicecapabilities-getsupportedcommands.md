@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedCommands
 title: IPortableDeviceCapabilities::GetSupportedCommands (portabledeviceapi.h)
-
 description: The GetSupportedCommands method retrieves a list of all the supported commands for this device.
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedcommands.htm
 tech.root: wpd_sdk
 ms.assetid: 974b16c7-27a0-40a6-8941-e93293a69b48
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceCapabilities.GetSupportedCommands, IPortableDeviceCapabilities::GetSupportedCommands, IPortableDeviceCapabilitiesGetSupportedCommands, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedCommands, wpdsdk.iportabledevicecapabilities_getsupportedcommands
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceCapabilities.GetSupportedCommands"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceCapabilities.GetSupportedCommands
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities.GetSupportedCommands
+- IPortableDeviceCapabilities.GetSupportedCommands
 targetos: Windows
 req.typenames: 
 req.redist: 

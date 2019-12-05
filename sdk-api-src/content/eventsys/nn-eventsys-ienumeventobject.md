@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEnumEventObject
 title: IEnumEventObject (eventsys.h)
-
 description: Enumerates the event objects that are registered in the COM+ events store.
 old-location: cos\ienumeventobject.htm
 tech.root: cossdk
 ms.assetid: a42d0791-28d0-4d83-b94d-ff2f8ef9a614
-
 ms.date: 12/05/2018
 ms.keywords: IEnumEventObject, IEnumEventObject interface [COM+], IEnumEventObject interface [COM+],described, _cos_ienumeventobject, cos.ienumeventobject, eventsys/IEnumEventObject
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEnumEventObject"
+f1_keywords:
+- eventsys/IEnumEventObject
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEnumEventObject
+- IEnumEventObject
 targetos: Windows
 req.typenames: 
 req.redist: 

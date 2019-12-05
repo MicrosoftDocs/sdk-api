@@ -1,19 +1,17 @@
 ---
 UID: NN:casetup.ICertificateEnrollmentServerSetup
 title: ICertificateEnrollmentServerSetup (casetup.h)
-
 description: The ICertificateEnrollmentServerSetup interface represents the Certificate Enrollment Web Service (CES) within Active Directory Certificate Services (ADCS).
 old-location: security\icertificateenrollmentserversetup.htm
 tech.root: SecCrypto
 ms.assetid: B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE
-
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentServerSetup, ICertificateEnrollmentServerSetup interface [Security], ICertificateEnrollmentServerSetup interface [Security],described, casetup/ICertificateEnrollmentServerSetup, security.icertificateenrollmentserversetup
 ms.topic: interface
-f1_keywords: 
- - "casetup/ICertificateEnrollmentServerSetup"
+f1_keywords:
+- casetup/ICertificateEnrollmentServerSetup
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup
+- ICertificateEnrollmentServerSetup
 targetos: Windows
 req.typenames: 
 req.redist: 

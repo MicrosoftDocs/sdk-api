@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.ADDRESS_CAPABILITY_STRING
 title: ADDRESS_CAPABILITY_STRING (tapi3if.h)
-
 description: The ADDRESS_CAPABILITY_STRING enum is used to check on address capabilities which are described by strings.
 old-location: tapi3\address_capability_string.htm
 tech.root: Tapi
 ms.assetid: c0afe710-ae6d-4f32-a691-956f8d6fea05
-
 ms.date: 12/05/2018
 ms.keywords: ACS_ADDRESSDEVICESPECIFIC, ACS_LINEDEVICESPECIFIC, ACS_PERMANENTDEVICEGUID, ACS_PROTOCOL, ACS_PROVIDERSPECIFIC, ACS_SWITCHSPECIFIC, ADDRESS_CAPABILITY_STRING, ADDRESS_CAPABILITY_STRING enumeration [TAPI 2.2], _tapi3_address_capability_string, tapi3.address_capability_string, tapi3if/ACS_ADDRESSDEVICESPECIFIC, tapi3if/ACS_LINEDEVICESPECIFIC, tapi3if/ACS_PERMANENTDEVICEGUID, tapi3if/ACS_PROTOCOL, tapi3if/ACS_PROVIDERSPECIFIC, tapi3if/ACS_SWITCHSPECIFIC, tapi3if/ADDRESS_CAPABILITY_STRING
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/ADDRESS_CAPABILITY_STRING"
+f1_keywords:
+- tapi3if/ADDRESS_CAPABILITY_STRING
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - ADDRESS_CAPABILITY_STRING
+- ADDRESS_CAPABILITY_STRING
 targetos: Windows
 req.typenames: ADDRESS_CAPABILITY_STRING
 req.redist: 

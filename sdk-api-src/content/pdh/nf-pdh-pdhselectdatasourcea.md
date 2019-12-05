@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhSelectDataSourceA
 title: PdhSelectDataSourceA function (pdh.h)
-
 description: Displays a dialog window that prompts the user to specify the source of the performance data.
 old-location: perf\pdhselectdatasource.htm
 tech.root: perfctrs
 ms.assetid: 211d4504-e1f9-48a0-8ddd-613f2f183c59
-
 ms.date: 12/05/2018
 ms.keywords: 0, PDH_FLAGS_FILE_BROWSER_ONLY, PdhSelectDataSource, PdhSelectDataSource function [Perf], PdhSelectDataSourceA, PdhSelectDataSourceW, _win32_pdhselectdatasource, base.pdhselectdatasource, pdh/PdhSelectDataSource, pdh/PdhSelectDataSourceA, pdh/PdhSelectDataSourceW, perf.pdhselectdatasource
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhSelectDataSource"
+f1_keywords:
+- pdh/PdhSelectDataSource
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhSelectDataSource
- - PdhSelectDataSourceA
- - PdhSelectDataSourceW
+- PdhSelectDataSource
+- PdhSelectDataSourceA
+- PdhSelectDataSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmTemplateApplyOptions
 title: FsrmTemplateApplyOptions (fsrmenums.h)
-
 description: Defines the options for applying template changes to derived objects.
 old-location: fsrm\fsrmtemplateapplyoptions.htm
 tech.root: fsrm
 ms.assetid: 44a8e280-4005-476c-a43d-184c18825129
-
 ms.date: 12/05/2018
 ms.keywords: FsrmTemplateApplyOptions, FsrmTemplateApplyOptions enumeration [File Server Resource Manager], FsrmTemplateApplyOptions_ApplyToDerivedAll, FsrmTemplateApplyOptions_ApplyToDerivedMatching, fs.fsrmtemplateapplyoptions, fsrm.fsrmtemplateapplyoptions, fsrmenums/FsrmTemplateApplyOptions, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedAll, fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedMatching
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmTemplateApplyOptions"
+f1_keywords:
+- fsrmenums/FsrmTemplateApplyOptions
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmTemplateApplyOptions
+- FsrmTemplateApplyOptions
 targetos: Windows
 req.typenames: FsrmTemplateApplyOptions
 req.redist: 

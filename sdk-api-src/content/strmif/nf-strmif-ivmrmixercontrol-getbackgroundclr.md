@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetBackgroundClr
 title: IVMRMixerControl::GetBackgroundClr (strmif.h)
-
 description: Gets the current background color on the output rectangle.
 old-location: dshow\ivmrmixercontrol_getbackgroundclr.htm
 tech.root: DirectShow
 ms.assetid: 095f0ed3-46e4-48f9-97d5-5bca1c2efa30
-
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundClr, GetBackgroundClr method [DirectShow], GetBackgroundClr method [DirectShow],IVMRMixerControl interface, IVMRMixerControl interface [DirectShow],GetBackgroundClr method, IVMRMixerControl.GetBackgroundClr, IVMRMixerControl::GetBackgroundClr, IVMRMixerControlGetBackgroundClr, dshow.ivmrmixercontrol_getbackgroundclr, strmif/IVMRMixerControl::GetBackgroundClr
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRMixerControl.GetBackgroundClr"
+f1_keywords:
+- strmif/IVMRMixerControl.GetBackgroundClr
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRMixerControl.GetBackgroundClr
+- IVMRMixerControl.GetBackgroundClr
 targetos: Windows
 req.typenames: 
 req.redist: 

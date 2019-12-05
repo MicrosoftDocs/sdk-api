@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDeletePalette
 title: EngDeletePalette function (winddi.h)
-
 description: The EngDeletePalette function sends a request to GDI to delete the specified palette.
 old-location: display\engdeletepalette.htm
 tech.root: display
 ms.assetid: ebdbbb4e-aaa8-4fb7-9546-545dce803054
-
 ms.date: 12/05/2018
 ms.keywords: EngDeletePalette, EngDeletePalette function [Display Devices], display.engdeletepalette, gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml, winddi/EngDeletePalette
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeletePalette"
+f1_keywords:
+- winddi/EngDeletePalette
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeletePalette
+- EngDeletePalette
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_SERVICE_METADATA_LIST
 title: WSD_SERVICE_METADATA_LIST (wsdtypes.h)
-
 description: Represents a node in a single-linked list of service metadata structures.
 old-location: ncd\wsd_service_metadata_list_struct.htm
 tech.root: WsdApi
 ms.assetid: f5975443-00e3-44f0-9a69-02460d4312c5
-
 ms.date: 12/05/2018
 ms.keywords: WSD_SERVICE_METADATA_LIST, WSD_SERVICE_METADATA_LIST structure, ncd.wsd_service_metadata_list_struct, wsdtypes/WSD_SERVICE_METADATA_LIST
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_SERVICE_METADATA_LIST
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

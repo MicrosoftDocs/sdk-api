@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDouble
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified 64-bit floating point value.
 old-location: winrt\ipropertyvaluestatics_createdouble.htm
 tech.root: WinRT
 ms.assetid: 66BB900A-797A-4589-AB9F-C35371F2671E
-
 ms.date: 12/05/2018
 ms.keywords: CreateDouble, CreateDouble method [Windows Runtime], CreateDouble method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateDouble method, IPropertyValueStatics.CreateDouble, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateDouble, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateDouble, winrt.ipropertyvaluefactory_createdouble, winrt.ipropertyvaluestatics_createdouble
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateDouble"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateDouble
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateDouble
+- IPropertyValueStatics.CreateDouble
 targetos: Windows
 req.typenames: 
 req.redist: 

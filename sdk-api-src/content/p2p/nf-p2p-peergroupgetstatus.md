@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupGetStatus
 title: PeerGroupGetStatus function (p2p.h)
-
 description: The PeerGroupGetStatus function retrieves the current status of a group.
 old-location: p2p\peergroupgetstatus.htm
 tech.root: P2PSdk
 ms.assetid: 712e6473-bb49-460a-9761-69a5ee4a067e
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupGetStatus, PeerGroupGetStatus function [Peer Networking], p2p.peergroupgetstatus, p2p/PeerGroupGetStatus
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupGetStatus"
+f1_keywords:
+- p2p/PeerGroupGetStatus
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupGetStatus
+- PeerGroupGetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

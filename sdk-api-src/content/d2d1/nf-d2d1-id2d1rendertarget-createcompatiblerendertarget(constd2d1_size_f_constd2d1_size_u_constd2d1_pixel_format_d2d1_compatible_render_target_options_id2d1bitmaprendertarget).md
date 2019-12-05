@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget)
 title: ID2D1RenderTarget::CreateCompatibleRenderTarget (d2d1.h)
-
 description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 old-location: direct2d\id2d1rendertarget_createcompatiblerendertarget.htm
 tech.root: Direct2D
 ms.assetid: 4a799a7c-0d2f-460f-99f9-24c6cf7c4537
-
 ms.date: 12/05/2018
 ms.keywords: CreateCompatibleRenderTarget, CreateCompatibleRenderTarget methods [Direct2D], ID2D1RenderTarget.CreateCompatibleRenderTarget, ID2D1RenderTarget::CreateCompatibleRenderTarget, d2d1/CreateCompatibleRenderTarget, direct2d.id2d1rendertarget_createcompatiblerendertarget
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget"
+f1_keywords:
+- d2d1/ID2D1RenderTarget::CreateCompatibleRenderTarget
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1RenderTarget::CreateCompatibleRenderTarget
+- ID2D1RenderTarget::CreateCompatibleRenderTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SACAuth
 title: CSecureChannelServer::SACAuth (scserver.h)
-
 description: The SACAuth method establishes a secure authenticated channel between components.
 old-location: wmdm\csecurechannelserver_sacauth.htm
 tech.root: WMDM
 ms.assetid: e32aac59-4b7f-4c0e-a200-0dec50d89cb0
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SACAuth method, CSecureChannelServer.SACAuth, CSecureChannelServer::SACAuth, CSecureChannelServerSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SACAuth, wmdm.csecurechannelserver_sacauth
 ms.topic: method
-f1_keywords: 
- - "scserver/CSecureChannelServer.SACAuth"
+f1_keywords:
+- scserver/CSecureChannelServer.SACAuth
 dev_langs:
- - c++
+- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelServer.SACAuth
+- CSecureChannelServer.SACAuth
 targetos: Windows
 req.typenames: 
 req.redist: 

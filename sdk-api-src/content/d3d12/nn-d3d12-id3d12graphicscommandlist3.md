@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList3
 title: ID3D12GraphicsCommandList3 (d3d12.h)
-
 description: Encapsulates a list of graphics commands for rendering.
 old-location: direct3d12\id3d12graphicscommandlist3.htm
 tech.root: direct3d12
 ms.assetid: 934CB757-495A-45DA-A942-1852D8E94934
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList3, ID3D12GraphicsCommandList3 interface, ID3D12GraphicsCommandList3 interface,described, d3d12/ID3D12GraphicsCommandList3, direct3d12.id3d12graphicscommandlist3
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList3"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList3
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList3
+- ID3D12GraphicsCommandList3
 targetos: Windows
 req.typenames: 
 req.redist: 

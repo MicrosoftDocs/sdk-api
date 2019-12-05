@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTableItemPattern.GetCachedRowHeaderItems
 title: IUIAutomationTableItemPattern::GetCachedRowHeaderItems (uiautomationclient.h)
-
 description: Retrieves the cached row headers associated with a table item or cell.
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems.htm
 tech.root: WinAuto
 ms.assetid: 69d4a632-8e35-4569-8c14-f56e9fd84c34
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedRowHeaderItems, GetCachedRowHeaderItems method [Windows Accessibility], GetCachedRowHeaderItems method [Windows Accessibility],IUIAutomationTableItemPattern interface, IUIAutomationTableItemPattern interface [Windows Accessibility],GetCachedRowHeaderItems method, IUIAutomationTableItemPattern.GetCachedRowHeaderItems, IUIAutomationTableItemPattern::GetCachedRowHeaderItems, uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems, uiautomationclient/IUIAutomationTableItemPattern::GetCachedRowHeaderItems, winauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTableItemPattern.GetCachedRowHeaderItems"
+f1_keywords:
+- uiautomationclient/IUIAutomationTableItemPattern.GetCachedRowHeaderItems
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTableItemPattern.GetCachedRowHeaderItems
+- IUIAutomationTableItemPattern.GetCachedRowHeaderItems
 targetos: Windows
 req.typenames: 
 req.redist: 

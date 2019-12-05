@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.TranslateAccelerator
 title: IOleInPlaceActiveObject::TranslateAccelerator (oleidl.h)
-
 description: Processes menu accelerator-key messages from the container's message queue. This method should only be used for objects created by a DLL object application.
 old-location: com\ioleinplaceactiveobject_translateaccelerator.htm
 tech.root: com
 ms.assetid: ce460c52-c7aa-4ee4-955e-76407af7cf1e
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceActiveObject interface [COM],TranslateAccelerator method, IOleInPlaceActiveObject.TranslateAccelerator, IOleInPlaceActiveObject::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [COM], TranslateAccelerator method [COM],IOleInPlaceActiveObject interface, _ole_ioleinplaceactiveobject_translateaccelerator, com.ioleinplaceactiveobject_translateaccelerator, oleidl/IOleInPlaceActiveObject::TranslateAccelerator
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceActiveObject.TranslateAccelerator"
+f1_keywords:
+- oleidl/IOleInPlaceActiveObject.TranslateAccelerator
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceActiveObject.TranslateAccelerator
+- IOleInPlaceActiveObject.TranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 

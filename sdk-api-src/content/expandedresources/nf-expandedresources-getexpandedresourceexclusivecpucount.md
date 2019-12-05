@@ -1,19 +1,17 @@
 ---
 UID: NF:expandedresources.GetExpandedResourceExclusiveCpuCount
 title: GetExpandedResourceExclusiveCpuCount function (expandedresources.h)
-
 description: Gets the expected number of exclusive CPU sets that are available to the app when in Game Mode.
 old-location: gamemode\getexpandedresourceexclusivecpucount.htm
 tech.root: gamemode
 ms.assetid: C87BE7FE-9CC7-4B6B-AC25-606A967D70C6
-
 ms.date: 12/05/2018
 ms.keywords: GetExpandedResourceExclusiveCpuCount, GetExpandedResourceExclusiveCpuCount function, expandedresources/GetExpandedResourceExclusiveCpuCount, gamemode.getexpandedresourceexclusivecpucount
 ms.topic: function
-f1_keywords: 
- - "expandedresources/GetExpandedResourceExclusiveCpuCount"
+f1_keywords:
+- expandedresources/GetExpandedResourceExclusiveCpuCount
 dev_langs:
- - c++
+- c++
 req.header: expandedresources.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowsapp.lib
 req.dll: Gamemode.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gamemode.dll
+- gamemode.dll
 api_name:
- - GetExpandedResourceExclusiveCpuCount
+- GetExpandedResourceExclusiveCpuCount
 targetos: Windows
 req.typenames: 
 req.redist: 

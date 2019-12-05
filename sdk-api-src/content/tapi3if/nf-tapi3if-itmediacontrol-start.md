@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMediaControl.Start
 title: ITMediaControl::Start (tapi3if.h)
-
 description: The Start method starts the action at the current location.
 old-location: tapi3\itmediacontrol_start.htm
 tech.root: Tapi
 ms.assetid: b6fdf0da-9e22-4c77-9cd8-6ceccba81221
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaControl interface [TAPI 2.2],Start method, ITMediaControl.Start, ITMediaControl::Start, Start, Start method [TAPI 2.2], Start method [TAPI 2.2],ITMediaControl interface, _tapi3_itmediacontrol_start, tapi3.itmediacontrol_start, tapi3if/ITMediaControl::Start
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMediaControl.Start"
+f1_keywords:
+- tapi3if/ITMediaControl.Start
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaControl.Start
+- ITMediaControl.Start
 targetos: Windows
 req.typenames: 
 req.redist: 

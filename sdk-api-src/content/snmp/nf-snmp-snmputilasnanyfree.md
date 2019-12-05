@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilAsnAnyFree
 title: SnmpUtilAsnAnyFree function (snmp.h)
-
 description: The SnmpUtilAsnAnyFree function frees the memory allocated for the specified AsnAny structure. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilasnanyfree.htm
 tech.root: SNMP
 ms.assetid: b18c3722-398e-4659-ab1c-edd09d5c220d
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilAsnAnyFree, SnmpUtilAsnAnyFree function [SNMP], _snmp_snmputilasnanyfree, snmp.snmputilasnanyfree, snmp/SnmpUtilAsnAnyFree
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilAsnAnyFree"
+f1_keywords:
+- snmp/SnmpUtilAsnAnyFree
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilAsnAnyFree
+- SnmpUtilAsnAnyFree
 targetos: Windows
 req.typenames: 
 req.redist: 

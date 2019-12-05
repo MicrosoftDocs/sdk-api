@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetType
 title: MetafileHeader::GetType (gdiplusmetaheader.h)
-
 description: The MetafileHeader::GetType method gets the type of the associated metafile.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\gettype_36.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [GDI+], GetType method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],GetType method, MetafileHeader.GetType, MetafileHeader::GetType, _gdiplus_CLASS_MetafileHeader_GetType_, gdiplus._gdiplus_CLASS_MetafileHeader_GetType_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader.GetType"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader.GetType
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - MetafileHeader.GetType
+- MetafileHeader.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSecuritySetting
 title: IDot11AdHocNetwork::GetSecuritySetting (adhoc.h)
-
 description: Gets the security settings for the network.
 old-location: nwifi\idot11adhocnetwork_getsecuritysetting.htm
 tech.root: NativeWiFi
 ms.assetid: 3e5fa757-41fd-4541-a16e-15c2fb66e15a
-
 ms.date: 12/05/2018
 ms.keywords: GetSecuritySetting, GetSecuritySetting method [NativeWIFI], GetSecuritySetting method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSecuritySetting method, IDot11AdHocNetwork.GetSecuritySetting, IDot11AdHocNetwork::GetSecuritySetting, adhoc/IDot11AdHocNetwork::GetSecuritySetting, nwifi.idot11adhocnetwork_getsecuritysetting
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.GetSecuritySetting"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.GetSecuritySetting
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetSecuritySetting
+- IDot11AdHocNetwork.GetSecuritySetting
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutexCount
 title: IMFASFStreamSelector::GetOutputMutexCount (wmcontainer.h)
-
 description: Retrieves the number of mutual exclusion objects associated with an output.
 old-location: mf\imfasfstreamselector_getoutputmutexcount.htm
 tech.root: medfound
 ms.assetid: d6e98595-3307-47f5-806d-796350c78cec
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputMutexCount, GetOutputMutexCount method [Media Foundation], GetOutputMutexCount method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutexCount method, IMFASFStreamSelector.GetOutputMutexCount, IMFASFStreamSelector::GetOutputMutexCount, d6e98595-3307-47f5-806d-796350c78cec, mf.imfasfstreamselector_getoutputmutexcount, wmcontainer/IMFASFStreamSelector::GetOutputMutexCount
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.GetOutputMutexCount"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.GetOutputMutexCount
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetOutputMutexCount
+- IMFASFStreamSelector.GetOutputMutexCount
 targetos: Windows
 req.typenames: 
 req.redist: 

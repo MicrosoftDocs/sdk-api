@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.GetStatus
 title: IDirectManipulationViewport::GetStatus (directmanipulation.h)
-
 description: Gets the state of the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_getstatus.htm
 tech.root: directmanipulation
 ms.assetid: 1c02b2b2-8291-4151-b9c9-d80bf71f5ef5
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Direct Manipulation], GetStatus method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],GetStatus method, IDirectManipulationViewport.GetStatus, IDirectManipulationViewport::GetStatus, directmanipulation.idirectmanipulationviewport_getstatus, directmanipulation/IDirectManipulationViewport::GetStatus
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.GetStatus"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.GetStatus
+- IDirectManipulationViewport.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

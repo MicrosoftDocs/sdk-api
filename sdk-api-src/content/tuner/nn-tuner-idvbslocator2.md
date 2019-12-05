@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IDVBSLocator2
 title: IDVBSLocator2 (tuner.h)
-
 description: Provides information to enable a tuner to acquire a Digital Video Broadcasting-Satellite (DVB-S) transmission.
 old-location: mstv\idvbslocator2.htm
 tech.root: mstv
 ms.assetid: 2f17c9a3-6ae8-4102-aee6-b2cb206d4952
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator2, IDVBSLocator2 interface [Microsoft TV Technologies], IDVBSLocator2 interface [Microsoft TV Technologies],described, mstv.idvbslocator2, tuner/IDVBSLocator2
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDVBSLocator2"
+f1_keywords:
+- tuner/IDVBSLocator2
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator2
+- IDVBSLocator2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4GreaterOrEqualR
 title: XMVector4GreaterOrEqualR function (directxmath.h)
-
 description: Tests whether one 4D vector is greater-than-or-equal-to another 4D vector and returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
 old-location: dxmath\xmvector4greaterorequalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4GreaterOrEqualR(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4GreaterOrEqualR, XMVector4GreaterOrEqualR, XMVector4GreaterOrEqualR method [DirectX Math Support APIs], dxmath.xmvector4greaterorequalr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4GreaterOrEqualR"
+f1_keywords:
+- directxmath/XMVector4GreaterOrEqualR
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4GreaterOrEqualR
+- XMVector4GreaterOrEqualR
 targetos: Windows
 req.typenames: 
 req.redist: 

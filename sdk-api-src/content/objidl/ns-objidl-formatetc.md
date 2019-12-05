@@ -1,19 +1,17 @@
 ---
 UID: NS:objidl.tagFORMATETC
 title: FORMATETC (objidl.h)
-
 description: Represents a generalized clipboard format.
 old-location: com\formatetc.htm
 tech.root: com
 ms.assetid: 4478eb9a-84a1-4f3a-8290-94b8dd20c081
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFORMATETC, FORMATETC, FORMATETC structure [COM], LPFORMATETC, LPFORMATETC structure pointer [COM], _ole_FORMATETC, com.formatetc, objidl/FORMATETC, objidl/LPFORMATETC"
+ms.keywords: '*LPFORMATETC, FORMATETC, FORMATETC structure [COM], LPFORMATETC, LPFORMATETC structure pointer [COM], _ole_FORMATETC, com.formatetc, objidl/FORMATETC, objidl/LPFORMATETC'
 ms.topic: struct
-f1_keywords: 
- - "objidl/FORMATETC"
+f1_keywords:
+- objidl/FORMATETC
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - FORMATETC
+- FORMATETC
 targetos: Windows
 req.typenames: FORMATETC, *LPFORMATETC
 req.redist: 

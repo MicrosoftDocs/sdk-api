@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetSize
 title: CHStringArray::GetSize (chstrarr.h)
-
 description: The GetSize method gets the size of the array. Because indexes are zero-based, the size is one greater than the largest index.
 old-location: wmi\chstringarray_getsize.htm
 tech.root: WmiSdk
 ms.assetid: 5db50c38-a9c7-4711-925e-291cebf2b6f1
-
 ms.date: 12/05/2018
-ms.keywords: "?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize"
+ms.keywords: ?GetSize@CHStringArray@@QEBAHXZ, CHStringArray interface [Windows Management Instrumentation],GetSize method, CHStringArray.GetSize, CHStringArray::GetSize, GetSize, GetSize method [Windows Management Instrumentation], GetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_getsize, chstrarr/CHStringArray::GetSize, wmi.chstringarray_getsize
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.GetSize"
+f1_keywords:
+- chstrarr/CHStringArray.GetSize
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.GetSize
- - ?GetSize@CHStringArray@@QEBAHXZ
+- CHStringArray.GetSize
+- ?GetSize@CHStringArray@@QEBAHXZ
 targetos: Windows
 req.typenames: 
 req.redist: 

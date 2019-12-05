@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 title: PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY (winnt.h)
-
 description: This data structure provides the status of process policies that are related to the mitigation of side channels. This can include side channel attacks involving speculative execution and page combining.
 old-location: base\process_mitigation_side_channel_isolation_policy.htm
 tech.root: ProcThread
 ms.assetid: FEF2884D-7FE4-4DA7-AC2D-822FFACD4D7B
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY structure pointer, PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY structure, _PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, base.process_mitigation_side_channel_isolation_policy, winnt/PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, winnt/PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY"
+ms.keywords: '*PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY structure pointer, PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY structure, _PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, base.process_mitigation_side_channel_isolation_policy, winnt/PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, winnt/PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY"
+f1_keywords:
+- winnt/PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
+- PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY, *PPROCESS_MITIGATION_SIDE_CHANNEL_ISOLATION_POLICY
 req.redist: 

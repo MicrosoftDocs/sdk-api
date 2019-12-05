@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IApiTracingDataCollector.get_ExcludeApis
 title: IApiTracingDataCollector::get_ExcludeApis (pla.h)
-
 description: Retrieves or sets the list of functions to exclude from the trace.
 old-location: pla\iapitracingdatacollector_excludeapis.htm
 tech.root: PLA
 ms.assetid: 1028fcc0-49b8-40cb-98fc-1dcb2fa2b6b0
-
 ms.date: 12/05/2018
 ms.keywords: ExcludeApis property [PLA], ExcludeApis property [PLA],IApiTracingDataCollector interface, IApiTracingDataCollector interface [PLA],ExcludeApis property, IApiTracingDataCollector.ExcludeApis, IApiTracingDataCollector.get_ExcludeApis, IApiTracingDataCollector::ExcludeApis, IApiTracingDataCollector::get_ExcludeApis, IApiTracingDataCollector::put_ExcludeApis, base.iapitracingdatacollector_excludeapis, get_ExcludeApis, pla.iapitracingdatacollector_excludeapis, pla/IApiTracingDataCollector::ExcludeApis, pla/IApiTracingDataCollector::get_ExcludeApis, pla/IApiTracingDataCollector::put_ExcludeApis
 ms.topic: method
-f1_keywords: 
- - "pla/IApiTracingDataCollector.ExcludeApis"
+f1_keywords:
+- pla/IApiTracingDataCollector.ExcludeApis
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IApiTracingDataCollector.ExcludeApis
- - IApiTracingDataCollector.get_ExcludeApis
- - IApiTracingDataCollector.put_ExcludeApis
+- IApiTracingDataCollector.ExcludeApis
+- IApiTracingDataCollector.get_ExcludeApis
+- IApiTracingDataCollector.put_ExcludeApis
 targetos: Windows
 req.typenames: 
 req.redist: 

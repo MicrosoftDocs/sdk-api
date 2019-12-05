@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetVersionString
 title: IMetaDataImport2::GetVersionString (rometadataapi.h)
-
 description: Gets the version number of the runtime that was used to build the assembly.
 old-location: winrt\imetadataimport2_getversionstring.htm
 tech.root: WinRT
 ms.assetid: 9f04ee6f-4a7d-4cdb-868e-eec2e9f41678
-
 ms.date: 12/05/2018
 ms.keywords: GetVersionString, GetVersionString method [Windows Runtime], GetVersionString method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],GetVersionString method, IMetaDataImport2.GetVersionString, IMetaDataImport2::GetVersionString, rometadataapi/IMetaDataImport2::GetVersionString, winrt.imetadataimport2_getversionstring
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport2.GetVersionString"
+f1_keywords:
+- rometadataapi/IMetaDataImport2.GetVersionString
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport2.GetVersionString
+- IMetaDataImport2.GetVersionString
 targetos: Windows
 req.typenames: 
 req.redist: 

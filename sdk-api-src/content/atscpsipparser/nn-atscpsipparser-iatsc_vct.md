@@ -1,19 +1,17 @@
 ---
 UID: NN:atscpsipparser.IATSC_VCT
 title: IATSC_VCT (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct.htm
 tech.root: mstv
 ms.assetid: 3ff9cd6e-0d25-462c-93a7-2399395f68b0
-
 ms.date: 12/05/2018
 ms.keywords: IATSC_VCT, IATSC_VCT interface [Microsoft TV Technologies], IATSC_VCT interface [Microsoft TV Technologies],described, IATSC_VCTInterface, atscpsipparser/IATSC_VCT, mstv.iatsc_vct
 ms.topic: interface
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT"
+f1_keywords:
+- atscpsipparser/IATSC_VCT
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT
+- IATSC_VCT
 targetos: Windows
 req.typenames: 
 req.redist: 

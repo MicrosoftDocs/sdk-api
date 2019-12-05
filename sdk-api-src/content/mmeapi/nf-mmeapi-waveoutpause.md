@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutPause
 title: waveOutPause function (mmeapi.h)
-
 description: The waveOutPause function pauses playback on the given waveform-audio output device. The current position is saved. Use the waveOutRestart function to resume playback from the current position.
 old-location: multimedia\waveoutpause.htm
 tech.root: Multimedia
 ms.assetid: a54eb1f4-fa80-4995-a70f-1aa480f46e86
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutPause, mmeapi/waveOutPause, multimedia.waveoutpause, waveOutPause, waveOutPause function [Windows Multimedia]"
+ms.keywords: _win32_waveOutPause, mmeapi/waveOutPause, multimedia.waveoutpause, waveOutPause, waveOutPause function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutPause"
+f1_keywords:
+- mmeapi/waveOutPause
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutPause
+- waveOutPause
 targetos: Windows
 req.typenames: 
 req.redist: 

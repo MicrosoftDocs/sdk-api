@@ -1,19 +1,17 @@
 ---
 UID: NN:iwstdec.IAMWstDecoder
 title: IAMWstDecoder (iwstdec.h)
-
 description: The IAMWstDecoder interface sets and retrieves information about World Standard Teletext (WST). The WST Decoder filter implements this interface.
 old-location: dshow\iamwstdecoder.htm
 tech.root: DirectShow
 ms.assetid: f2f5a459-14de-4be1-909c-3c23e4cfd737
-
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder, IAMWstDecoder interface [DirectShow], IAMWstDecoder interface [DirectShow],described, IAMWstDecoderInterface, dshow.iamwstdecoder, iwstdec/IAMWstDecoder
 ms.topic: interface
-f1_keywords: 
- - "iwstdec/IAMWstDecoder"
+f1_keywords:
+- iwstdec/IAMWstDecoder
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder
+- IAMWstDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:dcommon.D2D_SIZE_U
 title: D2D_SIZE_U (dcommon.h)
-
 description: Stores an ordered pair of integers, typically the width and height of a rectangle.
 old-location: direct2d\D2D_SIZE_U.htm
 tech.root: Direct2D
 ms.assetid: d9ea9df5-7c5f-4afa-9859-14d77b017904
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SIZE_U, D2D_SIZE_U, D2D_SIZE_U structure [Direct2D], dcommon/D2D_SIZE_U, direct2d.D2D_SIZE_U
 ms.topic: struct
-f1_keywords: 
- - "dcommon/D2D_SIZE_U"
+f1_keywords:
+- dcommon/D2D_SIZE_U
 dev_langs:
- - c++
+- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dcommon.h
+- dcommon.h
 api_name:
- - D2D_SIZE_U
+- D2D_SIZE_U
 targetos: Windows
 req.typenames: D2D_SIZE_U
 req.redist: 

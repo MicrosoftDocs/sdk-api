@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorBrightness
 title: GetMonitorBrightness function (highlevelmonitorconfigurationapi.h)
-
 description: Retrieves a monitor's minimum, maximum, and current brightness settings.
 old-location: monitor\getmonitorbrightness.htm
 tech.root: Monitor
 ms.assetid: eafdec51-067c-4b57-ac07-ca6237bcde14
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorBrightness, GetMonitorBrightness function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorBrightness, monitor.getmonitorbrightness
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/GetMonitorBrightness"
+f1_keywords:
+- highlevelmonitorconfigurationapi/GetMonitorBrightness
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetMonitorBrightness
+- GetMonitorBrightness
 targetos: Windows
 req.typenames: 
 req.redist: 

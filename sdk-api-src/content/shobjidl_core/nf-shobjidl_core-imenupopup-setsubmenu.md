@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IMenuPopup.SetSubMenu
 title: IMenuPopup::SetSubMenu (shobjidl_core.h)
-
 description: Sets the given menu bar interface to be the submenu of the calling application object's interface.
 old-location: shell\IMenuPopup_SetSubMenu.htm
 tech.root: shell
 ms.assetid: c2f80502-bac5-4a6f-95ba-1610c548e636
-
 ms.date: 12/05/2018
 ms.keywords: IMenuPopup interface [Windows Shell],SetSubMenu method, IMenuPopup.SetSubMenu, IMenuPopup::SetSubMenu, SetSubMenu, SetSubMenu method [Windows Shell], SetSubMenu method [Windows Shell],IMenuPopup interface, _win32_IMenuPopup_SetSubMenu, shell.IMenuPopup_SetSubMenu, shobjidl_core/IMenuPopup::SetSubMenu
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IMenuPopup.SetSubMenu"
+f1_keywords:
+- shobjidl_core/IMenuPopup.SetSubMenu
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IMenuPopup.SetSubMenu
+- IMenuPopup.SetSubMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:pdh.CounterPathCallBack
 title: CounterPathCallBack (pdh.h)
-
 description: Applications implement the CounterPathCallBack function to process the counter path strings returned by the Browse dialog box.
 old-location: perf\counterpathcallback.htm
 tech.root: perfctrs
 ms.assetid: b7a2112e-9f50-4a36-b022-f9609b2827bc
-
 ms.date: 12/05/2018
 ms.keywords: CounterPathCallBack, CounterPathCallBack callback, CounterPathCallBack callback function [Perf], _win32_counterpathcallback, base.counterpathcallback, pdh/CounterPathCallBack, perf.counterpathcallback
 ms.topic: callback
-f1_keywords: 
- - "pdh/CounterPathCallBack"
+f1_keywords:
+- pdh/CounterPathCallBack
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Pdh.h
+- Pdh.h
 api_name:
- - CounterPathCallBack
+- CounterPathCallBack
 targetos: Windows
 req.typenames: 
 req.redist: 

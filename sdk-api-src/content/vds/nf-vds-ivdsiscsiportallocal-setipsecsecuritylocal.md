@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 title: IVdsIscsiPortalLocal::SetIpsecSecurityLocal (vds.h)
-
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportallocal_setipsecsecuritylocal.htm
 tech.root: VDS
 ms.assetid: 3da426d0-9fa7-4dec-a0bb-416ec14b69a0
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiPortalLocal interface [VDS],SetIpsecSecurityLocal method, IVdsIscsiPortalLocal.SetIpsecSecurityLocal, IVdsIscsiPortalLocal::SetIpsecSecurityLocal, SetIpsecSecurityLocal, SetIpsecSecurityLocal method [VDS], SetIpsecSecurityLocal method [VDS],IVdsIscsiPortalLocal interface, base.ivdsiscsiportallocal_setipsecsecuritylocal, vds/IVdsIscsiPortalLocal::SetIpsecSecurityLocal
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiPortalLocal.SetIpsecSecurityLocal"
+f1_keywords:
+- vds/IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortalLocal.SetIpsecSecurityLocal
+- IVdsIscsiPortalLocal.SetIpsecSecurityLocal
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

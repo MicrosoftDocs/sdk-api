@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetTransportStreamId
 title: IISDB_SDTT::GetTransportStreamId (dvbsiparser.h)
-
 description: Returns the transport stream identifier (TSID) for an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_gettransportstreamid.htm
 tech.root: mstv
 ms.assetid: d73b705f-8409-438e-9f30-3bf2bbf86404
-
 ms.date: 12/05/2018
 ms.keywords: GetTransportStreamId, GetTransportStreamId method [Microsoft TV Technologies], GetTransportStreamId method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetTransportStreamId method, IISDB_SDTT.GetTransportStreamId, IISDB_SDTT::GetTransportStreamId, dvbsiparser/IISDB_SDTT::GetTransportStreamId, mstv.iisdb_sdtt_gettransportstreamid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_SDTT.GetTransportStreamId"
+f1_keywords:
+- dvbsiparser/IISDB_SDTT.GetTransportStreamId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_SDTT.GetTransportStreamId
+- IISDB_SDTT.GetTransportStreamId
 targetos: Windows
 req.typenames: 
 req.redist: 

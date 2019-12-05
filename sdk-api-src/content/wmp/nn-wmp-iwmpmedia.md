@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPMedia
 title: IWMPMedia (wmp.h)
-
 description: Use the IWMPMedia interface to set and retrieve the properties of a media item.
 old-location: wmp\iwmpmedia.htm
 tech.root: WMP
 ms.assetid: 2311067c-b731-47d2-880d-73870fee7694
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia, IWMPMedia interface [Windows Media Player], IWMPMedia interface [Windows Media Player],described, IWMPMediaInterface, wmp.iwmpmedia, wmp/IWMPMedia
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPMedia"
+f1_keywords:
+- wmp/IWMPMedia
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPMedia
+- IWMPMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

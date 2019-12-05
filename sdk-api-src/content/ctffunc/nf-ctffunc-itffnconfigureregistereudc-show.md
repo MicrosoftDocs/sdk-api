@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnConfigureRegisterEudc.Show
 title: ITfFnConfigureRegisterEudc::Show (ctffunc.h)
-
 description: The ITfFnConfigureRegisterEudc::Show method shows the EUDC key sequence register UI.
 old-location: tsf\itffnconfigureregistereudc_show.htm
 tech.root: TSF
 ms.assetid: 40279381-7c1c-4b11-92c9-200b763e7c7d
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterEudc interface [Text Services Framework],Show method, ITfFnConfigureRegisterEudc.Show, ITfFnConfigureRegisterEudc::Show, Show, Show method [Text Services Framework], Show method [Text Services Framework],ITfFnConfigureRegisterEudc interface, ctffunc/ITfFnConfigureRegisterEudc::Show, tsf.itffnconfigureregistereudc_show
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnConfigureRegisterEudc.Show"
+f1_keywords:
+- ctffunc/ITfFnConfigureRegisterEudc.Show
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnConfigureRegisterEudc.Show
+- ITfFnConfigureRegisterEudc.Show
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

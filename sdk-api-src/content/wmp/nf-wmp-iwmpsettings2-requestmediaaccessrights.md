@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSettings2.requestMediaAccessRights
 title: IWMPSettings2::requestMediaAccessRights (wmp.h)
-
 description: The requestMediaAccessRights method requests a specified level of access to the library.
 old-location: wmp\iwmpsettings2_requestmediaaccessrights.htm
 tech.root: WMP
 ms.assetid: 925a4c0b-d613-4248-a341-bfc51d02cb85
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings2 interface [Windows Media Player],requestMediaAccessRights method, IWMPSettings2.requestMediaAccessRights, IWMPSettings2::requestMediaAccessRights, IWMPSettings2requestMediaAccessRights, requestMediaAccessRights, requestMediaAccessRights method [Windows Media Player], requestMediaAccessRights method [Windows Media Player],IWMPSettings2 interface, wmp.iwmpsettings2_requestmediaaccessrights, wmp/IWMPSettings2::requestMediaAccessRights
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSettings2.requestMediaAccessRights"
+f1_keywords:
+- wmp/IWMPSettings2.requestMediaAccessRights
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSettings2.requestMediaAccessRights
+- IWMPSettings2.requestMediaAccessRights
 targetos: Windows
 req.typenames: 
 req.redist: 

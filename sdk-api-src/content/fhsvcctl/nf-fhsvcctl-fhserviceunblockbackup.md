@@ -1,19 +1,17 @@
 ---
 UID: NF:fhsvcctl.FhServiceUnblockBackup
 title: FhServiceUnblockBackup function (fhsvcctl.h)
-
 description: This function unblocks backups blocked via FhServiceBlockBackup.
 old-location: winprog\fhserviceunblockbackup.htm
 tech.root: DevNotes
 ms.assetid: 4CCCEEA5-40BC-4862-ADF5-C8757E02916A
-
 ms.date: 12/05/2018
 ms.keywords: FhServiceUnblockBackup, FhServiceUnblockBackup function [Windows API], fhsvcctl/FhServiceUnblockBackup, winprog.fhserviceunblockbackup
 ms.topic: function
-f1_keywords: 
- - "fhsvcctl/FhServiceUnblockBackup"
+f1_keywords:
+- fhsvcctl/FhServiceUnblockBackup
 dev_langs:
- - c++
+- c++
 req.header: fhsvcctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FhSvcCtl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - FhSvcCtl.lib
- - FhSvcCtl.dll
+- FhSvcCtl.lib
+- FhSvcCtl.dll
 api_name:
- - FhServiceUnblockBackup
+- FhServiceUnblockBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.tagWMT_INDEX_TYPE
 title: WMT_INDEX_TYPE (wmsdkidl.h)
-
 description: The WMT_INDEX_TYPE enumeration type defines the type of object that will be associated with an index.
 old-location: wmformat\wmt_index_type.htm
 tech.root: wmformat
 ms.assetid: 250f12ba-2334-41e4-9258-0da79dd4cb3d
-
 ms.date: 12/05/2018
 ms.keywords: WMT_INDEX_TYPE, WMT_INDEX_TYPE enumeration [windows Media Format], WMT_IT_NEAREST_CLEAN_POINT, WMT_IT_NEAREST_DATA_UNIT, WMT_IT_NEAREST_OBJECT, wmformat.wmt_index_type, wmsdkidl/WMT_INDEX_TYPE, wmsdkidl/WMT_IT_NEAREST_CLEAN_POINT, wmsdkidl/WMT_IT_NEAREST_DATA_UNIT, wmsdkidl/WMT_IT_NEAREST_OBJECT
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_INDEX_TYPE"
+f1_keywords:
+- wmsdkidl/WMT_INDEX_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_INDEX_TYPE
+- WMT_INDEX_TYPE
 targetos: Windows
 req.typenames: WMT_INDEX_TYPE
 req.redist: 

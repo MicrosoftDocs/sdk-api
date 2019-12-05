@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportAdd
 title: MprAdminInterfaceTransportAdd function (mprapi.h)
-
 description: The MprAdminInterfaceTransportAdd function adds a transport (for example, IP or IPX) to a specified interface.
 old-location: rras\mpradmininterfacetransportadd.htm
 tech.root: RRAS
 ms.assetid: 5978a8d3-78ea-4dc2-a957-32f00c81f52d
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceTransportAdd, MprAdminInterfaceTransportAdd function [RAS], _mpr_mpradmininterfacetransportadd, mprapi/MprAdminInterfaceTransportAdd, rras.mpradmininterfacetransportadd
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceTransportAdd"
+f1_keywords:
+- mprapi/MprAdminInterfaceTransportAdd
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceTransportAdd
+- MprAdminInterfaceTransportAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

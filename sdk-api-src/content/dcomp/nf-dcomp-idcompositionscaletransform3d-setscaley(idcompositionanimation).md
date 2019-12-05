@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform3D.SetScaleY(IDCompositionAnimation)
 title: IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the ScaleY property of a scale transform.
 old-location: directcomp\idcompositionscaletransform3d_setscaley_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 2BC384A8-641F-4144-BE24-652216101EAF
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform3D interface [DirectComposition],SetScaleY method, IDCompositionScaleTransform3D.SetScaleY, IDCompositionScaleTransform3D.SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY, IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation), IDCompositionScaleTransform3D::SetScaleY(IDCompositionAnimation*), SetScaleY, SetScaleY method [DirectComposition], SetScaleY method [DirectComposition],IDCompositionScaleTransform3D interface, dcomp/IDCompositionScaleTransform3D::SetScaleY, directcomp.idcompositionscaletransform3d_setscaley_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform3D.SetScaleY"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform3D.SetScaleY
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D.SetScaleY
+- IDCompositionScaleTransform3D.SetScaleY
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:websocket.WebSocketEndServerHandshake
 title: WebSocketEndServerHandshake function (websocket.h)
-
 description: Completes the server-side handshake.
 old-location: websock\websocketendserverhandshake.htm
 tech.root: WebSock
 ms.assetid: 8708d290-18d6-4130-aa1c-8e4e5a716a5c
-
 ms.date: 12/05/2018
 ms.keywords: WebSocketEndServerHandshake, WebSocketEndServerHandshake function [Websocket Protocol Component API], websock.websocketendserverhandshake, websocket/WebSocketEndServerHandshake
 ms.topic: function
-f1_keywords: 
- - "websocket/WebSocketEndServerHandshake"
+f1_keywords:
+- websocket/WebSocketEndServerHandshake
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Websocket.lib
 req.dll: Websocket.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - websocket.dll
+- websocket.dll
 api_name:
- - WebSocketEndServerHandshake
+- WebSocketEndServerHandshake
 targetos: Windows
 req.typenames: 
 req.redist: 

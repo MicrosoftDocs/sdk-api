@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessUpWithTime
 title: IManipulationProcessor::ProcessUpWithTime (manipulations.h)
-
 description: Feeds data, including a timestamp, to a target's manipulation processor for touch-up sequences.
 old-location: wintouch\imanpiulationprocessor_processupwithtime.htm
 tech.root: wintouch
 ms.assetid: fafea353-9126-454d-9311-4859e5ae5712
-
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessUpWithTime method, IManipulationProcessor.ProcessUpWithTime, IManipulationProcessor::ProcessUpWithTime, ProcessUpWithTime, ProcessUpWithTime method [Windows Touch], ProcessUpWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessUpWithTime, wintouch.imanpiulationprocessor_processupwithtime
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.ProcessUpWithTime"
+f1_keywords:
+- manipulations/IManipulationProcessor.ProcessUpWithTime
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.ProcessUpWithTime
+- IManipulationProcessor.ProcessUpWithTime
 targetos: Windows
 req.typenames: 
 req.redist: 

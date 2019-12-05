@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.AddResourceToClusterSharedVolumes
 title: AddResourceToClusterSharedVolumes function (clusapi.h)
-
 description: Adds storage to Cluster Shared Volumes.
 old-location: mscs\addresourcetoclustersharedvolumes.htm
 tech.root: MsCS
 ms.assetid: 87C70280-5030-44b9-B949-7240BCA19C6B
-
 ms.date: 12/05/2018
 ms.keywords: AddResourceToClusterSharedVolumes, AddResourceToClusterSharedVolumes function [Failover Cluster], PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES, PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES function [Failover Cluster], clusapi/AddResourceToClusterSharedVolumes, clusapi/PCLUSAPI_ADD_RESOURCE_TO_CLUSTER_SHARED_VOLUMES, mscs.addresourcetoclustersharedvolumes
 ms.topic: function
-f1_keywords: 
- - "clusapi/AddResourceToClusterSharedVolumes"
+f1_keywords:
+- clusapi/AddResourceToClusterSharedVolumes
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
 api_name:
- - AddResourceToClusterSharedVolumes
+- AddResourceToClusterSharedVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

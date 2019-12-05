@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.WSAAsyncSelect
 title: WSAAsyncSelect function (winsock.h)
-
 description: Requests Windows message-based notification of network events for a socket.
 old-location: winsock\wsaasyncselect_2.htm
 tech.root: WinSock
 ms.assetid: a4d3f599-358c-4a94-91eb-7e1c80244250
-
 ms.date: 12/05/2018
 ms.keywords: WSAAsyncSelect, WSAAsyncSelect function [Winsock], _win32_wsaasyncselect_2, winsock.wsaasyncselect_2, winsock/WSAAsyncSelect
 ms.topic: function
-f1_keywords: 
- - "winsock/WSAAsyncSelect"
+f1_keywords:
+- winsock/WSAAsyncSelect
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
- - wsock32.dll
+- Ws2_32.dll
+- wsock32.dll
 api_name:
- - WSAAsyncSelect
+- WSAAsyncSelect
 targetos: Windows
 req.typenames: 
 req.redist: 

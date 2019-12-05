@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.ui.composition.interop.ICompositorInterop.CreateCompositionSurfaceForSwapChain
 title: ICompositorInterop::composition (windows.ui.composition.interop.h)
-
 description: Creates an instance of CompositionSurface for use with a swap chain.
 old-location: w_ui_comp\icompositorinterop_createcompositionsurfaceforswapchain.htm
 tech.root: w_ui_comp
 ms.assetid: FDF81740-C6BA-4F3D-8145-749C738718E5
-
 ms.date: 12/05/2018
 ms.keywords: CreateCompositionSurfaceForSwapChain, CreateCompositionSurfaceForSwapChain method, CreateCompositionSurfaceForSwapChain method,ICompositorInterop interface, ICompositorInterop interface,CreateCompositionSurfaceForSwapChain method, ICompositorInterop.CreateCompositionSurfaceForSwapChain, ICompositorInterop.composition, ICompositorInterop::CreateCompositionSurfaceForSwapChain, ICompositorInterop::composition, w_ui_comp.icompositorinterop_createcompositionsurfaceforswapchain, windows/ICompositorInterop::CreateCompositionSurfaceForSwapChain
 ms.topic: method
-f1_keywords: 
- - "windows.ui.composition.interop/ICompositorInterop.CreateCompositionSurfaceForSwapChain"
+f1_keywords:
+- windows.ui.composition.interop/ICompositorInterop.CreateCompositionSurfaceForSwapChain
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.ui.composition.interop.h
+- windows.ui.composition.interop.h
 api_name:
- - ICompositorInterop.CreateCompositionSurfaceForSwapChain
+- ICompositorInterop.CreateCompositionSurfaceForSwapChain
 targetos: Windows
 req.typenames: 
 req.redist: 

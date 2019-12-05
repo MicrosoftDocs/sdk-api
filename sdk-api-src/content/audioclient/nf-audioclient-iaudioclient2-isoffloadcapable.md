@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient2.IsOffloadCapable
 title: IAudioClient2::IsOffloadCapable (audioclient.h)
-
 description: The IsOffloadCapable method retrieves information about whether or not the endpoint on which a stream is created is capable of supporting an offloaded audio stream.
 old-location: coreaudio\iaudioclient2_isoffloadcapable.htm
 tech.root: CoreAudio
 ms.assetid: 275A6EB4-E6C7-4510-8EEA-BDBAFB1C06C3
-
 ms.date: 12/05/2018
 ms.keywords: IAudioClient2 interface [Core Audio],IsOffloadCapable method, IAudioClient2.IsOffloadCapable, IAudioClient2::IsOffloadCapable, IsOffloadCapable, IsOffloadCapable method [Core Audio], IsOffloadCapable method [Core Audio],IAudioClient2 interface, audioclient/IAudioClient2::IsOffloadCapable, coreaudio.iaudioclient2_isoffloadcapable
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient2.IsOffloadCapable"
+f1_keywords:
+- audioclient/IAudioClient2.IsOffloadCapable
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient2.IsOffloadCapable
+- IAudioClient2.IsOffloadCapable
 targetos: Windows
 req.typenames: 
 req.redist: 

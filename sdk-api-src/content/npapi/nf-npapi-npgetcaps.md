@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPGetCaps
 title: NPGetCaps function (npapi.h)
-
 description: Returns information about which services are supported on the network.
 old-location: security\npgetcaps.htm
 tech.root: SecAuthN
 ms.assetid: 8d399bae-4084-4f06-b7f5-036a54d8d90e
-
 ms.date: 12/05/2018
 ms.keywords: NPGetCaps, NPGetCaps function [Security], WNNC_ADMIN, WNNC_CONNECTION, WNNC_DIALOG, WNNC_ENUMERATION, WNNC_NET_TYPE, WNNC_SPEC_VERSION, WNNC_START, WNNC_USER, _mnp_npgetcaps, npapi/NPGetCaps, security.npgetcaps
 ms.topic: function
-f1_keywords: 
- - "npapi/NPGetCaps"
+f1_keywords:
+- npapi/NPGetCaps
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPGetCaps
+- NPGetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

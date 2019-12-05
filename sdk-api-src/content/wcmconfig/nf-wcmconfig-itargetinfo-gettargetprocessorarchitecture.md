@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTargetProcessorArchitecture
 title: ITargetInfo::GetTargetProcessorArchitecture (wcmconfig.h)
-
 description: Gets processor architecture associated with the current target.
 old-location: smi\itargetinfo_gettargetprocessorarchitecture.htm
 tech.root: SMI
 ms.assetid: 7c66e131-97e6-4a8e-b4b0-927633d6d53a
-
 ms.date: 12/05/2018
 ms.keywords: GetTargetProcessorArchitecture, GetTargetProcessorArchitecture method [SMI], GetTargetProcessorArchitecture method [SMI],ITargetInfo interface, ITargetInfo interface [SMI],GetTargetProcessorArchitecture method, ITargetInfo.GetTargetProcessorArchitecture, ITargetInfo::GetTargetProcessorArchitecture, smi.itargetinfo_gettargetprocessorarchitecture, wcmconfig/ITargetInfo::GetTargetProcessorArchitecture
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.GetTargetProcessorArchitecture"
+f1_keywords:
+- wcmconfig/ITargetInfo.GetTargetProcessorArchitecture
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.GetTargetProcessorArchitecture
+- ITargetInfo.GetTargetProcessorArchitecture
 targetos: Windows
 req.typenames: 
 req.redist: 

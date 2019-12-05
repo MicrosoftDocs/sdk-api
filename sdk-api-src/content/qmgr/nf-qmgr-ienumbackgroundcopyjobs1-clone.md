@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IEnumBackgroundCopyJobs1.Clone
 title: IEnumBackgroundCopyJobs1::Clone (qmgr.h)
-
 description: Use the Clone method to create another IEnumBackgroundCopyJobs1 enumerator that contains the same enumeration state as the current one.
 old-location: bits\ienumbackgroundcopyjobs1_clone.htm
 tech.root: Bits
 ms.assetid: c26bec86-1cff-44bb-aa0c-c48b076ff993
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [BITS], Clone method [BITS],IEnumBackgroundCopyJobs1 interface, IEnumBackgroundCopyJobs1 interface [BITS],Clone method, IEnumBackgroundCopyJobs1.Clone, IEnumBackgroundCopyJobs1::Clone, bits.ienumbackgroundcopyjobs1_clone, qmgr/IEnumBackgroundCopyJobs1::Clone
 ms.topic: method
-f1_keywords: 
- - "qmgr/IEnumBackgroundCopyJobs1.Clone"
+f1_keywords:
+- qmgr/IEnumBackgroundCopyJobs1.Clone
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs1.Clone
+- IEnumBackgroundCopyJobs1.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

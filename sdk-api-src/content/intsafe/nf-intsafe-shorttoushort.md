@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ShortToUShort
 title: ShortToUShort function (intsafe.h)
-
 description: Converts a value of type SHORT to a value of type USHORT.
 old-location: shell\ShortToUShort.htm
 tech.root: shell
 ms.assetid: 35820e7f-db32-439b-a96b-8891ab2ab5ae
-
 ms.date: 12/05/2018
 ms.keywords: ShortToUShort, ShortToUShort function [Windows Shell], ShortToWord, _shell_ShortToUShort, intsafe/ShortToUShort, shell.ShortToUShort
 ms.topic: function
-f1_keywords: 
- - "intsafe/ShortToUShort"
+f1_keywords:
+- intsafe/ShortToUShort
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - ShortToUShort
+- ShortToUShort
 targetos: Windows
 req.typenames: 
 req.redist: 

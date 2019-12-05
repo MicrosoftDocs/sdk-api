@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetSampleCallback
 title: IMFCapturePreviewSink::SetSampleCallback (mfcaptureengine.h)
-
 description: Sets a callback to receive the preview data for one stream.
 old-location: mf\imfcapturepreviewsink_setsamplecallback.htm
 tech.root: medfound
 ms.assetid: 0E14E3E4-25C7-4FCA-B220-20E346E66933
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetSampleCallback method, IMFCapturePreviewSink.SetSampleCallback, IMFCapturePreviewSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setsamplecallback, mfcaptureengine/IMFCapturePreviewSink::SetSampleCallback
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.SetSampleCallback"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.SetSampleCallback
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.SetSampleCallback
+- IMFCapturePreviewSink.SetSampleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Name
 title: IWdsTransportContent::get_Name (wdstptmgmt.h)
-
 description: Receives a pointer to a string value that contains the name of the data object represented by this content object.
 old-location: wds\iwdstransportcontent_name.htm
 tech.root: wds
 ms.assetid: 24178dca-58b6-463a-adf0-40b5aa0446fc
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContent interface [Windows Deployment Services],Name property, IWdsTransportContent.Name, IWdsTransportContent.get_Name, IWdsTransportContent::Name, IWdsTransportContent::get_Name, Name property [Windows Deployment Services], Name property [Windows Deployment Services],IWdsTransportContent interface, get_Name, wds.iwdstransportcontent_name, wdstptmgmt/IWdsTransportContent::Name, wdstptmgmt/IWdsTransportContent::get_Name
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportContent.Name"
+f1_keywords:
+- wdstptmgmt/IWdsTransportContent.Name
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportContent.Name
- - IWdsTransportContent.get_Name
+- IWdsTransportContent.Name
+- IWdsTransportContent.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
 title: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo (msctf.h)
-
 description: ITfDisplayAttributeProvider::EnumDisplayAttributeInfo method
 old-location: tsf\itfdisplayattributeprovider_enumdisplayattributeinfo.htm
 tech.root: TSF
 ms.assetid: 1a19de91-ad79-4c75-956b-5f5de6700cbe
-
 ms.date: 12/05/2018
 ms.keywords: EnumDisplayAttributeInfo, EnumDisplayAttributeInfo method [Text Services Framework], EnumDisplayAttributeInfo method [Text Services Framework],ITfDisplayAttributeProvider interface, ITfDisplayAttributeProvider interface [Text Services Framework],EnumDisplayAttributeInfo method, ITfDisplayAttributeProvider.EnumDisplayAttributeInfo, ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, _tsf_itfdisplayattributeprovider_enumdisplayattributeinfo_ref, msctf/ITfDisplayAttributeProvider::EnumDisplayAttributeInfo, tsf.itfdisplayattributeprovider_enumdisplayattributeinfo
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDisplayAttributeProvider.EnumDisplayAttributeInfo"
+f1_keywords:
+- msctf/ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imjpcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imjpcic.dll
+- imjpcic.dll
 api_name:
- - ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
+- ITfDisplayAttributeProvider.EnumDisplayAttributeInfo
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

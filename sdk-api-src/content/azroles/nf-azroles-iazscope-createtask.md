@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.CreateTask
 title: IAzScope::CreateTask (azroles.h)
-
 description: Creates an IAzTask object with the specified name.
 old-location: security\iazscope_createtask.htm
 tech.root: SecAuthZ
 ms.assetid: 2be1afd7-8d10-4783-a5ea-3e8c0b103ceb
-
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],CreateTask method, CreateTask, CreateTask method [Security], CreateTask method [Security],AzScope object, CreateTask method [Security],IAzScope interface, IAzScope interface [Security],CreateTask method, IAzScope.CreateTask, IAzScope::CreateTask, azroles/IAzScope::CreateTask, security.iazscope_createtask
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.CreateTask"
+f1_keywords:
+- azroles/IAzScope.CreateTask
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.CreateTask
- - AzScope.CreateTask
+- IAzScope.CreateTask
+- AzScope.CreateTask
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

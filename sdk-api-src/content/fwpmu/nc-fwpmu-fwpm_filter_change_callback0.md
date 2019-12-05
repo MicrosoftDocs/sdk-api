@@ -1,19 +1,17 @@
 ---
 UID: NC:fwpmu.FWPM_FILTER_CHANGE_CALLBACK0
 title: FWPM_FILTER_CHANGE_CALLBACK0 (fwpmu.h)
-
 description: Is used to added custom behavior to the filter change notification process.
 old-location: fwp\fwpm_filter_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: 6c0c41d7-ff84-4ae3-b9e0-ebc52cc6273d
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_FILTER_CHANGE_CALLBACK0, FWPM_FILTER_CHANGE_CALLBACK0 callback, FWPM_FILTER_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_filter_change_callback0_func, fwpmu/FWPM_FILTER_CHANGE_CALLBACK0
 ms.topic: callback
-f1_keywords: 
- - "fwpmu/FWPM_FILTER_CHANGE_CALLBACK0"
+f1_keywords:
+- fwpmu/FWPM_FILTER_CHANGE_CALLBACK0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Fwpmu.h
+- Fwpmu.h
 api_name:
- - FWPM_FILTER_CHANGE_CALLBACK0
+- FWPM_FILTER_CHANGE_CALLBACK0
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Open_Class_KeyW
 title: CM_Open_Class_KeyW function (cfgmgr32.h)
-
 description: The CM_Open_Class_Key function opens the device setup class registry key, the device interface class registry key, or a specific subkey of a class.
 old-location: devinst\cm_open_class_key.htm
 tech.root: devinst
 ms.assetid: 5a87769e-3555-44ce-b4d8-16c98bdc3732
-
 ms.date: 12/05/2018
 ms.keywords: CM_Open_Class_Key, CM_Open_Class_Key function [Device and Driver Installation], CM_Open_Class_KeyW, cfgmgr32/CM_Open_Class_Key, cfgmgr32/CM_Open_Class_KeyW, cfgmgrfn_70b86a61-c687-4d43-8c3f-8a00db441580.xml, devinst.cm_open_class_key
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Open_Class_Key"
+f1_keywords:
+- cfgmgr32/CM_Open_Class_Key
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Open_Class_Key
- - CM_Open_Class_KeyW
+- CM_Open_Class_Key
+- CM_Open_Class_KeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

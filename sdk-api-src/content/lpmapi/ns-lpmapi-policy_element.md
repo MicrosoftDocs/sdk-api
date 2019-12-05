@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_14
 title: POLICY_ELEMENT (lpmapi.h)
-
 description: The POLICY_ELEMENT structure contains an RSVP policy element.
 old-location: qos\policy_element.htm
 tech.root: QOS
 ms.assetid: 710ed81d-d455-4912-8aee-2f06db894c95
-
 ms.date: 12/05/2018
 ms.keywords: POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, infocard/POLICY_ELEMENT, qos.policy_element
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/POLICY_ELEMENT"
+f1_keywords:
+- lpmapi/POLICY_ELEMENT
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: Lpmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - infocard.h
+- infocard.h
 api_name:
- - POLICY_ELEMENT
+- POLICY_ELEMENT
 targetos: Windows
 req.typenames: POLICY_ELEMENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFTEnum
 title: MFTEnum function (mfapi.h)
-
 description: Enumerates Media Foundation transforms (MFTs) in the registry.
 old-location: mf\mftenum.htm
 tech.root: medfound
 ms.assetid: a3bd2b3c-0b0b-4d64-99cc-6093c773f71c
-
 ms.date: 12/05/2018
 ms.keywords: MFTEnum, MFTEnum function [Media Foundation], a3bd2b3c-0b0b-4d64-99cc-6093c773f71c, mf.mftenum, mfapi/MFTEnum
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFTEnum"
+f1_keywords:
+- mfapi/MFTEnum
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFTEnum
+- MFTEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

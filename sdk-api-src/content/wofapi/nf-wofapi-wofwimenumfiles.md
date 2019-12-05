@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofWimEnumFiles
 title: WofWimEnumFiles function (wofapi.h)
-
 description: Enumerates all of the files which are being backed by a specified WIM data source on a specified volume.
 old-location: fs\wofwimenumfiles.htm
 tech.root: FileIO
 ms.assetid: D95F344F-762F-4F3C-ADAE-0A20BAE448F2
-
 ms.date: 12/05/2018
 ms.keywords: WofWimEnumFiles, WofWimEnumFiles function [Files], fs.wofwimenumfiles, wofapi/WofWimEnumFiles
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofWimEnumFiles"
+f1_keywords:
+- wofapi/WofWimEnumFiles
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofWimEnumFiles
+- WofWimEnumFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetSelectedColumn
 title: ListView_GetSelectedColumn macro (commctrl.h)
-
 description: Gets an integer that specifies the selected column. You can use this macro or send the LVM_GETSELECTEDCOLUMN message explicitly.
 old-location: controls\ListView_GetSelectedColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcolumn.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetSelectedColumn, ListView_GetSelectedColumn macro [Windows Controls], _win32_ListView_GetSelectedColumn, _win32_ListView_GetSelectedColumn_cpp, commctrl/ListView_GetSelectedColumn, controls.ListView_GetSelectedColumn, controls._win32_ListView_GetSelectedColumn
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetSelectedColumn"
+f1_keywords:
+- commctrl/ListView_GetSelectedColumn
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetSelectedColumn
+- ListView_GetSelectedColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

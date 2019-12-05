@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetCurrencyFormatEx
 title: GetCurrencyFormatEx function (winnls.h)
-
 description: Formats a number string as a currency string for a locale specified by name.Note  The application should call this function in preference to GetCurrencyFormat if designed to run only on Windows Vista and later. Note  This function can format data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
 old-location: intl\getcurrencyformatex.htm
 tech.root: Intl
 ms.assetid: 72639b31-cd5d-455c-873a-e3cf4051f4cd
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrencyFormatEx, GetCurrencyFormatEx function [Internationalization for Windows Applications], _win32_GetCurrencyFormatEx, intl.getcurrencyformatex, winnls/GetCurrencyFormatEx
 ms.topic: function
 f1_keywords:
 - winnls/GetCurrencyFormatEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows

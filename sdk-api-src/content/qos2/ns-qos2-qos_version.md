@@ -1,19 +1,17 @@
 ---
 UID: NS:qos2._QOS_VERSION
 title: QOS_VERSION (qos2.h)
-
 description: The QOS_VERSION structure indicates the version of the QOS protocol.
 old-location: qos\qos_version.htm
 tech.root: QOS
 ms.assetid: cc8d6dc3-87e9-46c7-8192-78053b4932a3
-
 ms.date: 12/05/2018
-ms.keywords: "*PQOS_VERSION, PQOS_VERSION, PQOS_VERSION structure pointer [QOS], QOS_VERSION, QOS_VERSION structure [QOS], qos.qos_version, qos2/PQOS_VERSION, qos2/QOS_VERSION"
+ms.keywords: '*PQOS_VERSION, PQOS_VERSION, PQOS_VERSION structure pointer [QOS], QOS_VERSION, QOS_VERSION structure [QOS], qos.qos_version, qos2/PQOS_VERSION, qos2/QOS_VERSION'
 ms.topic: struct
-f1_keywords: 
- - "qos2/QOS_VERSION"
+f1_keywords:
+- qos2/QOS_VERSION
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qos2.h
+- Qos2.h
 api_name:
- - QOS_VERSION
+- QOS_VERSION
 targetos: Windows
 req.typenames: QOS_VERSION, *PQOS_VERSION
 req.redist: 

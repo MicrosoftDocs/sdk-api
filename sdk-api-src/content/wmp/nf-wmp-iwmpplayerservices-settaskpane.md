@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.setTaskPane
 title: IWMPPlayerServices::setTaskPane (wmp.h)
-
 description: The setTaskPane method displays the specified task pane in the full mode of Windows Media Player.
 old-location: wmp\iwmpplayerservices_settaskpane.htm
 tech.root: WMP
 ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayerServices interface [Windows Media Player],setTaskPane method, IWMPPlayerServices.setTaskPane, IWMPPlayerServices::setTaskPane, IWMPPlayerServicessetTaskPane, setTaskPane, setTaskPane method [Windows Media Player], setTaskPane method [Windows Media Player],IWMPPlayerServices interface, wmp.iwmpplayerservices_settaskpane, wmp/IWMPPlayerServices::setTaskPane
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayerServices.setTaskPane"
+f1_keywords:
+- wmp/IWMPPlayerServices.setTaskPane
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayerServices.setTaskPane
+- IWMPPlayerServices.setTaskPane
 targetos: Windows
 req.typenames: 
 req.redist: 

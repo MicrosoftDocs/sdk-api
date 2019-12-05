@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumSyncChangeUnits.Next
 title: IEnumSyncChangeUnits::Next (winsync.h)
-
 description: Returns the next change unit.
 old-location: winsync\ienumsyncchangeunits_next.htm
 tech.root: winsync
 ms.assetid: e9d237fc-c651-4e94-83cc-8606fe4b2386
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChangeUnits interface [Windows Sync],Next method, IEnumSyncChangeUnits.Next, IEnumSyncChangeUnits::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumSyncChangeUnits interface, winsync.ienumsyncchangeunits_next, winsync/IEnumSyncChangeUnits::Next
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumSyncChangeUnits.Next"
+f1_keywords:
+- winsync/IEnumSyncChangeUnits.Next
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSyncChangeUnits.Next
+- IEnumSyncChangeUnits.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

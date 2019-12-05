@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.IOCTL_STORAGE_READ_CAPACITY
 title: IOCTL_STORAGE_READ_CAPACITY
-
 description: Retrieves the geometry information for the device.
 old-location: base\ioctl_storage_read_capacity.htm
 tech.root: devio
 ms.assetid: c0a2c73c-fae9-40e9-8009-4dffbb03a01d
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, IOCTL_STORAGE_READ_CAPACITY control code, base.ioctl_storage_read_capacity, winioctl/IOCTL_STORAGE_READ_CAPACITY
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/IOCTL_STORAGE_READ_CAPACITY"
+f1_keywords:
+- winioctl/IOCTL_STORAGE_READ_CAPACITY
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - IOCTL_STORAGE_READ_CAPACITY
+- IOCTL_STORAGE_READ_CAPACITY
 targetos: Windows
 req.typenames: 
 req.redist: 

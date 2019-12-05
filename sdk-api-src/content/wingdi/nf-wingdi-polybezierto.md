@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PolyBezierTo
 title: PolyBezierTo function (wingdi.h)
-
 description: The PolyBezierTo function draws one or more B&#233;zier curves.
 old-location: gdi\polybezierto.htm
 tech.root: gdi
 ms.assetid: 0c8d6d6d-d0a3-4188-91ad-934e6f054862
-
 ms.date: 12/05/2018
 ms.keywords: PolyBezierTo, PolyBezierTo function [Windows GDI], _win32_PolyBezierTo, gdi.polybezierto, wingdi/PolyBezierTo
 ms.topic: function
-f1_keywords: 
- - "wingdi/PolyBezierTo"
+f1_keywords:
+- wingdi/PolyBezierTo
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - PolyBezierTo
+- PolyBezierTo
 targetos: Windows
 req.typenames: 
 req.redist: 

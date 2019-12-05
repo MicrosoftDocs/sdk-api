@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetPixelFormat
 title: GetPixelFormat function (wingdi.h)
-
 description: The GetPixelFormat function obtains the index of the currently selected pixel format of the specified device context.
 old-location: opengl\getpixelformat.htm
 tech.root: OpenGL
 ms.assetid: e9a65f3a-6932-462f-b342-a993d222fae8
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat function [OpenGL], _ogl_GetPixelFormat, opengl.getpixelformat, wingdi/GetPixelFormat
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetPixelFormat"
+f1_keywords:
+- wingdi/GetPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetPixelFormat
+- GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

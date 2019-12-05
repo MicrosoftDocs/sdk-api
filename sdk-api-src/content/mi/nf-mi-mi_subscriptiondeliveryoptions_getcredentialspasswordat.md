@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt
 title: MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt function (mi.h)
-
 description: Gets a previously added credential password based on a specified index.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialspasswordat.htm
 tech.root: wmi_v2
 ms.assetid: 338fba5a-160e-4744-84c5-28aa1f115f53
-
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt, MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialspasswordat
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_GetCredentialsPasswordAt
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

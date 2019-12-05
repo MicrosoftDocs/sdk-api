@@ -1,19 +1,17 @@
 ---
 UID: NN:wsbapp.IWsbApplicationAsync
 title: IWsbApplicationAsync (wsbapp.h)
-
 description: Defines methods to monitor and control the progress of an asynchronous operation.
 old-location: wsb\iwsbapplicationasync.htm
 tech.root: wsb
 ms.assetid: cd8f74c0-c2dc-487c-b702-1e1355e99b7d
-
 ms.date: 12/05/2018
 ms.keywords: IWsbApplicationAsync, IWsbApplicationAsync interface [Windows Server Backup], IWsbApplicationAsync interface [Windows Server Backup],described, wsb.iwsbapplicationasync, wsbapp/IWsbApplicationAsync
 ms.topic: interface
-f1_keywords: 
- - "wsbapp/IWsbApplicationAsync"
+f1_keywords:
+- wsbapp/IWsbApplicationAsync
 dev_langs:
- - c++
+- c++
 req.header: wsbapp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WsbApp.h
+- WsbApp.h
 api_name:
- - IWsbApplicationAsync
+- IWsbApplicationAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

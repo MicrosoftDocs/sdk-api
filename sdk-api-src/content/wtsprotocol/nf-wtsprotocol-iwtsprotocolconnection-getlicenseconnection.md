@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.GetLicenseConnection
 title: IWTSProtocolConnection::GetLicenseConnection (wtsprotocol.h)
-
 description: IWTSProtocolConnection::GetLicenseConnection is no longer available. Instead, use IWRdsProtocolConnection::GetLicenseConnection.
 old-location: termserv\iwtsprotocolconnection_getlicenseconnection.htm
 tech.root: TermServ
 ms.assetid: 714e2479-54b2-4899-9fbd-68fa35051f58
-
 ms.date: 12/05/2018
 ms.keywords: GetLicenseConnection, GetLicenseConnection method [Remote Desktop Services], GetLicenseConnection method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],GetLicenseConnection method, IWTSProtocolConnection.GetLicenseConnection, IWTSProtocolConnection::GetLicenseConnection, termserv.iwtsprotocolconnection_getlicenseconnection, wtsprotocol/IWTSProtocolConnection::GetLicenseConnection
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.GetLicenseConnection"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.GetLicenseConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.GetLicenseConnection
+- IWTSProtocolConnection.GetLicenseConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

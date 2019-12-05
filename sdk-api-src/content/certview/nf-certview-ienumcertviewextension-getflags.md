@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.GetFlags
 title: IEnumCERTVIEWEXTENSION::GetFlags (certview.h)
-
 description: Retrieves the policy and origin flags of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getflags.htm
 tech.root: SecCrypto
 ms.assetid: c175eba9-ea7c-4018-876a-2db732cb57c4
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Security], GetFlags method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetFlags method, IEnumCERTVIEWEXTENSION.GetFlags, IEnumCERTVIEWEXTENSION::GetFlags, _certsrv_ienumcertviewextension_getflags, certview/IEnumCERTVIEWEXTENSION::GetFlags, security.ienumcertviewextension_getflags
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWEXTENSION.GetFlags"
+f1_keywords:
+- certview/IEnumCERTVIEWEXTENSION.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.GetFlags
- - IEnumCERTVIEWEXTENSION.GetFlags
+- IEnumCERTVIEWEXTENSION.GetFlags
+- IEnumCERTVIEWEXTENSION.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

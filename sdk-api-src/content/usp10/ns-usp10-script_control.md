@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tag_SCRIPT_CONTROL
 title: SCRIPT_CONTROL (usp10.h)
-
 description: Contains script control flags for several Uniscribe functions, for example, ScriptItemize.
 old-location: intl\script_control.htm
 tech.root: Intl
 ms.assetid: 4623f606-f67e-48ad-8c1d-d27da5ba556c
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_CONTROL, SCRIPT_CONTROL structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_CONTROL_str, intl.script_control, usp10/SCRIPT_CONTROL
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_CONTROL"
+f1_keywords:
+- usp10/SCRIPT_CONTROL
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_CONTROL
+- SCRIPT_CONTROL
 targetos: Windows
 req.typenames: SCRIPT_CONTROL
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

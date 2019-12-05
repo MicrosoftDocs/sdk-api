@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_graph_event_type_tag
 title: PEER_GRAPH_EVENT_TYPE (p2p.h)
-
 description: The PEER_GRAPH_EVENT_TYPE enumeration specifies peer event types the application is to be notified for.
 old-location: p2p\peer_graph_event_type.htm
 tech.root: P2PSdk
 ms.assetid: 0fb9443f-bf95-45e2-b105-400203f286b6
-
 ms.date: 12/05/2018
 ms.keywords: PEER_GRAPH_EVENT_CONNECTION_REQUIRED, PEER_GRAPH_EVENT_DIRECT_CONNECTION, PEER_GRAPH_EVENT_INCOMING_DATA, PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION, PEER_GRAPH_EVENT_NODE_CHANGED, PEER_GRAPH_EVENT_PROPERTY_CHANGED, PEER_GRAPH_EVENT_RECORD_CHANGED, PEER_GRAPH_EVENT_STATUS_CHANGED, PEER_GRAPH_EVENT_SYNCHRONIZED, PEER_GRAPH_EVENT_TYPE, PEER_GRAPH_EVENT_TYPE enumeration [Peer Networking], p2p.peer_graph_event_type, p2p/PEER_GRAPH_EVENT_CONNECTION_REQUIRED, p2p/PEER_GRAPH_EVENT_DIRECT_CONNECTION, p2p/PEER_GRAPH_EVENT_INCOMING_DATA, p2p/PEER_GRAPH_EVENT_NEIGHBOR_CONNECTION, p2p/PEER_GRAPH_EVENT_NODE_CHANGED, p2p/PEER_GRAPH_EVENT_PROPERTY_CHANGED, p2p/PEER_GRAPH_EVENT_RECORD_CHANGED, p2p/PEER_GRAPH_EVENT_STATUS_CHANGED, p2p/PEER_GRAPH_EVENT_SYNCHRONIZED, p2p/PEER_GRAPH_EVENT_TYPE
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_GRAPH_EVENT_TYPE"
+f1_keywords:
+- p2p/PEER_GRAPH_EVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_GRAPH_EVENT_TYPE
+- PEER_GRAPH_EVENT_TYPE
 targetos: Windows
 req.typenames: PEER_GRAPH_EVENT_TYPE
 req.redist: 

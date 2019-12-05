@@ -1,19 +1,17 @@
 ---
 UID: NF:faxext.FaxExtInitializeConfig
 title: FaxExtInitializeConfig function (faxext.h)
-
 description: The fax service calls the FaxExtInitializeConfig function to initialize the fax extension DLL. The service calls this function before it calls any other fax extension initialization function.
 old-location: fax\_mfax_faxextinitializeconfig.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_15lz.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxExtInitializeConfig, FaxExtInitializeConfig function [Fax Service], _mfax_faxextinitializeconfig, fax._mfax_faxextinitializeconfig, faxext/FaxExtInitializeConfig
 ms.topic: function
-f1_keywords: 
- - "faxext/FaxExtInitializeConfig"
+f1_keywords:
+- faxext/FaxExtInitializeConfig
 dev_langs:
- - c++
+- c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxExt.h
+- FaxExt.h
 api_name:
- - FaxExtInitializeConfig
+- FaxExtInitializeConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

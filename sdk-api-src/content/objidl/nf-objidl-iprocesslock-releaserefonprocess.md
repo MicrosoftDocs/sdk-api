@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IProcessLock.ReleaseRefOnProcess
 title: IProcessLock::ReleaseRefOnProcess (objidl.h)
-
 description: Decrements the reference count of the process.
 old-location: com\iprocesslock_releaserefonprocess.htm
 tech.root: com
 ms.assetid: a0943afc-b20f-4082-b561-552370a630a1
-
 ms.date: 12/05/2018
 ms.keywords: IProcessLock interface [COM],ReleaseRefOnProcess method, IProcessLock.ReleaseRefOnProcess, IProcessLock::ReleaseRefOnProcess, ReleaseRefOnProcess, ReleaseRefOnProcess method [COM], ReleaseRefOnProcess method [COM],IProcessLock interface, _com_iprocesslock_releaserefonprocess, com.iprocesslock_releaserefonprocess, objidl/IProcessLock::ReleaseRefOnProcess
 ms.topic: method
-f1_keywords: 
- - "objidl/IProcessLock.ReleaseRefOnProcess"
+f1_keywords:
+- objidl/IProcessLock.ReleaseRefOnProcess
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IProcessLock.ReleaseRefOnProcess
+- IProcessLock.ReleaseRefOnProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

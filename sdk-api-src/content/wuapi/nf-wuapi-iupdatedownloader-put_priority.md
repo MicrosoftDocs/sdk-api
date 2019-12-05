@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateDownloader.put_Priority
 title: IUpdateDownloader::put_Priority (wuapi.h)
-
 description: Gets and sets the priority level of the download.
 old-location: wua\iupdatedownloader_priority.htm
 tech.root: Wua_Sdk
 ms.assetid: d9dbaabe-7769-4a1b-8540-401b1caba372
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateDownloader interface [Windows Update Agent],Priority property, IUpdateDownloader.Priority, IUpdateDownloader.put_Priority, IUpdateDownloader::Priority, IUpdateDownloader::get_Priority, IUpdateDownloader::put_Priority, Priority property [Windows Update Agent], Priority property [Windows Update Agent],IUpdateDownloader interface, put_Priority, wua.iupdatedownloader_priority, wuapi/IUpdateDownloader::Priority, wuapi/IUpdateDownloader::get_Priority, wuapi/IUpdateDownloader::put_Priority
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateDownloader.Priority"
+f1_keywords:
+- wuapi/IUpdateDownloader.Priority
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloader.Priority
- - IUpdateDownloader.get_Priority
- - IUpdateDownloader.put_Priority
+- IUpdateDownloader.Priority
+- IUpdateDownloader.get_Priority
+- IUpdateDownloader.put_Priority
 targetos: Windows
 req.typenames: 
 req.redist: 

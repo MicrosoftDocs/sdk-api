@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.IsBkDropTarget
 title: IShellFolderView::IsBkDropTarget (shlobj_core.h)
-
 description: IsBkDropTarget may be altered or unavailable.
 old-location: shell\IShellFolderView_IsBkDropTarget.htm
 tech.root: shell
 ms.assetid: 6de58057-2bcd-480e-8b4a-6e59aad168dc
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],IsBkDropTarget method, IShellFolderView.IsBkDropTarget, IShellFolderView::IsBkDropTarget, IsBkDropTarget, IsBkDropTarget method [Windows Shell], IsBkDropTarget method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_IsBkDropTarget, shell.IShellFolderView_IsBkDropTarget, shlobj_core/IShellFolderView::IsBkDropTarget
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.IsBkDropTarget"
+f1_keywords:
+- shlobj_core/IShellFolderView.IsBkDropTarget
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - IShellFolderView.IsBkDropTarget
+- IShellFolderView.IsBkDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

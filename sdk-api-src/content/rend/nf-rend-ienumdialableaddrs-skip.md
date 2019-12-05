@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Skip
 title: IEnumDialableAddrs::Skip (rend.h)
-
 description: The Skip method skips over the next specified number of elements in the enumeration sequence.
 old-location: tapi3\ienumdialableaddrs_skip.htm
 tech.root: Tapi
 ms.assetid: f68fa12d-dbd3-42a2-bef1-50881d57aa27
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDialableAddrs interface [TAPI 2.2],Skip method, IEnumDialableAddrs.Skip, IEnumDialableAddrs::Skip, Skip, Skip method [TAPI 2.2], Skip method [TAPI 2.2],IEnumDialableAddrs interface, _tapi3_ienumdialableaddrs_skip, rend/IEnumDialableAddrs::Skip, tapi3.ienumdialableaddrs_skip
 ms.topic: method
-f1_keywords: 
- - "rend/IEnumDialableAddrs.Skip"
+f1_keywords:
+- rend/IEnumDialableAddrs.Skip
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - IEnumDialableAddrs.Skip
+- IEnumDialableAddrs.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

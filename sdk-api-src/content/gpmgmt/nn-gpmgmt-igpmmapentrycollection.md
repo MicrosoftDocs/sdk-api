@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMMapEntryCollection
 title: IGPMMapEntryCollection (gpmgmt.h)
-
 description: The IGPMMapEntryCollection interface enables applications to access map entry objects.
 old-location: gpmc\igpmmapentrycollection.htm
 tech.root: gpmc
 ms.assetid: a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb
-
 ms.date: 12/05/2018
 ms.keywords: GPMMapEntryCollection, IGPMMapEntryCollection, IGPMMapEntryCollection interface [GPMC], IGPMMapEntryCollection interface [GPMC],described, gpmc.igpmmapentrycollection, gpmgmt/IGPMMapEntryCollection
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMMapEntryCollection"
+f1_keywords:
+- gpmgmt/IGPMMapEntryCollection
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMapEntryCollection
- - IGPMMapEntryCollection.Count
- - IGPMMapEntryCollection.get_Count
- - IGPMMapEntryCollection.Item
- - IGPMMapEntryCollection.get_Item
- - GPMMapEntryCollection
+- IGPMMapEntryCollection
+- IGPMMapEntryCollection.Count
+- IGPMMapEntryCollection.get_Count
+- IGPMMapEntryCollection.Item
+- IGPMMapEntryCollection.get_Item
+- GPMMapEntryCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.StopRefreshing
 title: IWbemHiPerfProvider::StopRefreshing (wbemprov.h)
-
 description: Stops refreshing the object or enumerator corresponding to the supplied identifier.
 old-location: wmi\iwbemhiperfprovider_stoprefreshing.htm
 tech.root: WmiSdk
 ms.assetid: d1de54de-b57b-4e15-84b3-96cc36bf023b
-
 ms.date: 12/05/2018
 ms.keywords: IWbemHiPerfProvider interface [Windows Management Instrumentation],StopRefreshing method, IWbemHiPerfProvider.StopRefreshing, IWbemHiPerfProvider::StopRefreshing, StopRefreshing, StopRefreshing method [Windows Management Instrumentation], StopRefreshing method [Windows Management Instrumentation],IWbemHiPerfProvider interface, _hmm_iwbemhiperfprovider_stoprefreshing, wbemprov/IWbemHiPerfProvider::StopRefreshing, wmi.iwbemhiperfprovider_stoprefreshing
 ms.topic: method
-f1_keywords: 
- - "wbemprov/IWbemHiPerfProvider.StopRefreshing"
+f1_keywords:
+- wbemprov/IWbemHiPerfProvider.StopRefreshing
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiprvsd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiprvsd.dll
+- Wmiprvsd.dll
 api_name:
- - IWbemHiPerfProvider.StopRefreshing
+- IWbemHiPerfProvider.StopRefreshing
 targetos: Windows
 req.typenames: 
 req.redist: 

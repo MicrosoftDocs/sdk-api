@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetSpecialFolderPathA
 title: SHGetSpecialFolderPathA function (shlobj_core.h)
-
 description: SHGetSpecialFolderPath is not supported. Instead, use ShGetFolderPath.
 old-location: shell\SHGetSpecialFolderPath.htm
 tech.root: shell
 ms.assetid: 4c39fdc1-5e43-4042-8703-fb72c88e2637
-
 ms.date: 12/05/2018
 ms.keywords: SHGetSpecialFolderPath, SHGetSpecialFolderPath function [Windows Shell], SHGetSpecialFolderPathA, SHGetSpecialFolderPathW, _win32_SHGetSpecialFolderPath, shell.SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPath, shlobj_core/SHGetSpecialFolderPathA, shlobj_core/SHGetSpecialFolderPathW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetSpecialFolderPath"
+f1_keywords:
+- shlobj_core/SHGetSpecialFolderPath
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- Windows.Storage.dll
 api_name:
- - SHGetSpecialFolderPath
- - SHGetSpecialFolderPathA
- - SHGetSpecialFolderPathW
+- SHGetSpecialFolderPath
+- SHGetSpecialFolderPathA
+- SHGetSpecialFolderPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

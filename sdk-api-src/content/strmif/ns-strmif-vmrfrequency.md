@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._VMRFrequency
 title: VMRFrequency (strmif.h)
-
 description: The VMRFrequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
 old-location: dshow\vmrfrequency.htm
 tech.root: DirectShow
 ms.assetid: fb4c094a-2760-45b2-b494-a44d5493987f
-
 ms.date: 12/05/2018
 ms.keywords: VMRFrequency, VMRFrequency structure [DirectShow], VMRFrequencyStructure, dshow.vmrfrequency, strmif/VMRFrequency
 ms.topic: struct
-f1_keywords: 
- - "strmif/VMRFrequency"
+f1_keywords:
+- strmif/VMRFrequency
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRFrequency
+- VMRFrequency
 targetos: Windows
 req.typenames: VMRFrequency
 req.redist: 

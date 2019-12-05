@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11Debug.GetFeatureMask
 title: ID3D11Debug::GetFeatureMask (d3d11sdklayers.h)
-
 description: Get a bitfield of flags that indicates which debug features are on or off.
 old-location: direct3d11\id3d11debug_getfeaturemask.htm
 tech.root: direct3d11
 ms.assetid: 5c70c85a-77a5-4e3b-9247-7686d43cbd1a
-
 ms.date: 12/05/2018
 ms.keywords: 433c837f-7fd5-8e03-76ca-d912879e10fd, GetFeatureMask, GetFeatureMask method [Direct3D 11], GetFeatureMask method [Direct3D 11],ID3D11Debug interface, ID3D11Debug interface [Direct3D 11],GetFeatureMask method, ID3D11Debug.GetFeatureMask, ID3D11Debug::GetFeatureMask, d3d11sdklayers/ID3D11Debug::GetFeatureMask, direct3d11.id3d11debug_getfeaturemask
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11Debug.GetFeatureMask"
+f1_keywords:
+- d3d11sdklayers/ID3D11Debug.GetFeatureMask
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Debug.GetFeatureMask
+- ID3D11Debug.GetFeatureMask
 targetos: Windows
 req.typenames: 
 req.redist: 

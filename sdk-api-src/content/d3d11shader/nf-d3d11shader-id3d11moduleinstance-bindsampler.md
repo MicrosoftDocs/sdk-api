@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindSampler
 title: ID3D11ModuleInstance::BindSampler (d3d11shader.h)
-
 description: Rebinds a sampler from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindsampler.htm
 tech.root: direct3d11
 ms.assetid: FB7A63DE-C8EC-456D-84D6-D0AF682A46E8
-
 ms.date: 12/05/2018
 ms.keywords: BindSampler, BindSampler method [Direct3D 11], BindSampler method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindSampler method, ID3D11ModuleInstance.BindSampler, ID3D11ModuleInstance::BindSampler, d3d11shader/ID3D11ModuleInstance::BindSampler, direct3d11.id3d11moduleinstance_bindsampler
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ModuleInstance.BindSampler"
+f1_keywords:
+- d3d11shader/ID3D11ModuleInstance.BindSampler
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ModuleInstance.BindSampler
+- ID3D11ModuleInstance.BindSampler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.GetPixelFormat
 title: IWICBitmapSource::GetPixelFormat (wincodec.h)
-
 description: Retrieves the pixel format of the bitmap source..
 old-location: wic\_wic_codec_iwicbitmapsource_getpixelformat.htm
 tech.root: wic
 ms.assetid: 6fd30a38-a447-4e4e-93ea-e31c5ba1271e
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Imaging Component], GetPixelFormat method [Windows Imaging Component],IWICBitmapSource interface, IWICBitmapSource interface [Windows Imaging Component],GetPixelFormat method, IWICBitmapSource.GetPixelFormat, IWICBitmapSource::GetPixelFormat, _wic_codec_iwicbitmapsource_getpixelformat, wic._wic_codec_iwicbitmapsource_getpixelformat, wincodec/IWICBitmapSource::GetPixelFormat
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapSource.GetPixelFormat"
+f1_keywords:
+- wincodec/IWICBitmapSource.GetPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapSource.GetPixelFormat
+- IWICBitmapSource.GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

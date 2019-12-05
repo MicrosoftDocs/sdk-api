@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFPutWorkItemEx
 title: MFPutWorkItemEx function (mfapi.h)
-
 description: Puts an asynchronous operation on a work queue.
 old-location: mf\mfputworkitemex.htm
 tech.root: medfound
 ms.assetid: 67b4f7c6-0d49-4ed0-9bc3-e583451884af
-
 ms.date: 12/05/2018
 ms.keywords: 67b4f7c6-0d49-4ed0-9bc3-e583451884af, MFPutWorkItemEx, MFPutWorkItemEx function [Media Foundation], mf.mfputworkitemex, mfapi/MFPutWorkItemEx
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFPutWorkItemEx"
+f1_keywords:
+- mfapi/MFPutWorkItemEx
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFPutWorkItemEx
+- MFPutWorkItemEx
 targetos: Windows
 req.typenames: 
 req.redist: 

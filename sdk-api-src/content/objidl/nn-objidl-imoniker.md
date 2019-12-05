@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IMoniker
 title: IMoniker (objidl.h)
-
 description: Enables you to use a moniker object, which contains information that uniquely identifies a COM object.
 old-location: com\imoniker.htm
 tech.root: com
 ms.assetid: 17f4c1df-7a9c-42ef-a888-70cd8d85f070
-
 ms.date: 12/05/2018
 ms.keywords: IMoniker, IMoniker interface [COM], IMoniker interface [COM],described, _com_imoniker, com.imoniker, objidl/IMoniker
 ms.topic: interface
-f1_keywords: 
- - "objidl/IMoniker"
+f1_keywords:
+- objidl/IMoniker
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker
+- IMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

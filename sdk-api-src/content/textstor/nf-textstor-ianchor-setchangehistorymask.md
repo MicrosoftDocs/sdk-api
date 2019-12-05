@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.IAnchor.SetChangeHistoryMask
 title: IAnchor::SetChangeHistoryMask (textstor.h)
-
 description: This method has not been implemented.
 old-location: tsf\ianchor_setchangehistorymask.htm
 tech.root: TSF
 ms.assetid: b6be9a29-5d39-4719-a7e3-0c0921ecd89a
-
 ms.date: 12/05/2018
 ms.keywords: IAnchor interface [Text Services Framework],SetChangeHistoryMask method, IAnchor.SetChangeHistoryMask, IAnchor::SetChangeHistoryMask, SetChangeHistoryMask, SetChangeHistoryMask method [Text Services Framework], SetChangeHistoryMask method [Text Services Framework],IAnchor interface, textstor/IAnchor::SetChangeHistoryMask, tsf.ianchor_setchangehistorymask
 ms.topic: method
-f1_keywords: 
- - "textstor/IAnchor.SetChangeHistoryMask"
+f1_keywords:
+- textstor/IAnchor.SetChangeHistoryMask
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IAnchor.SetChangeHistoryMask
+- IAnchor.SetChangeHistoryMask
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

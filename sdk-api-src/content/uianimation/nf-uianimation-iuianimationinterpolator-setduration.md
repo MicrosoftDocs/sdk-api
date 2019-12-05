@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.SetDuration
 title: IUIAnimationInterpolator::SetDuration (uianimation.h)
-
 description: Sets the duration of the transition.
 old-location: uianimation\iuianimationinterpolator_setduration.htm
 tech.root: UIAnimation
 ms.assetid: 79038ada-ebc2-4259-862a-d81403c2f6b8
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],SetDuration method, IUIAnimationInterpolator.SetDuration, IUIAnimationInterpolator::SetDuration, SetDuration, SetDuration method [Windows Animation], SetDuration method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_setduration, uianimation/IUIAnimationInterpolator::SetDuration
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationInterpolator.SetDuration"
+f1_keywords:
+- uianimation/IUIAnimationInterpolator.SetDuration
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.SetDuration
+- IUIAnimationInterpolator.SetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

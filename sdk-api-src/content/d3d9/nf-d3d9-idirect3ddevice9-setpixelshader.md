@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.SetPixelShader
 title: IDirect3DDevice9::SetPixelShader (d3d9.h)
-
 description: Sets the current pixel shader to a previously created pixel shader.
 old-location: direct3d9\idirect3ddevice9__setpixelshader.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpixelshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPixelShader method, IDirect3DDevice9.SetPixelShader, IDirect3DDevice9::SetPixelShader, SetPixelShader, SetPixelShader method [Direct3D 9], SetPixelShader method [Direct3D 9],IDirect3DDevice9 interface, c65d883e-77d2-f541-2bd4-48dba090930c, d3d9helper/IDirect3DDevice9::SetPixelShader, direct3d9.idirect3ddevice9__setpixelshader
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.SetPixelShader"
+f1_keywords:
+- d3d9/IDirect3DDevice9.SetPixelShader
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.SetPixelShader
+- IDirect3DDevice9.SetPixelShader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextEditTextChangedEventHandler
 title: IUIAutomationTextEditTextChangedEventHandler (uiautomationclient.h)
-
 description: Exposes a method to handle events that occur when Microsoft UI Automation reports a text-changed event from text edit controls.
 old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: 1308F513-5458-900C-A494-9AC9131C2D1E
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextEditTextChangedEventHandler, IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility], IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextEditTextChangedEventHandler, winauto.uiauto_IUIAutomationTextEditTextChangedEventHandler
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextEditTextChangedEventHandler"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextEditTextChangedEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTextEditTextChangedEventHandler
- - IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
+- IUIAutomationTextEditTextChangedEventHandler
+- IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

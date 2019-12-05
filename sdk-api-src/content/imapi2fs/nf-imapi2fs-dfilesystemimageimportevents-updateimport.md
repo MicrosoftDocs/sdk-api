@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.DFileSystemImageImportEvents.UpdateImport
 title: DFileSystemImageImportEvents::UpdateImport (imapi2fs.h)
-
 description: Receives import notification for every file and directory item imported from an optical medium.
 old-location: imapi\dfilesystemimageimportevents_updateimport.htm
 tech.root: imapi
 ms.assetid: 83617039-686d-4c03-9f43-02ecde2ca53e
-
 ms.date: 12/05/2018
 ms.keywords: DFileSystemImageImportEvents interface [IMAPI],UpdateImport method, DFileSystemImageImportEvents.UpdateImport, DFileSystemImageImportEvents::UpdateImport, UpdateImport, UpdateImport method [IMAPI], UpdateImport method [IMAPI],DFileSystemImageImportEvents interface, imapi.dfilesystemimageimportevents_updateimport, imapi2fs/DFileSystemImageImportEvents::UpdateImport
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/DFileSystemImageImportEvents.UpdateImport"
+f1_keywords:
+- imapi2fs/DFileSystemImageImportEvents.UpdateImport
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - DFileSystemImageImportEvents.UpdateImport
+- DFileSystemImageImportEvents.UpdateImport
 targetos: Windows
 req.typenames: 
 req.redist: 

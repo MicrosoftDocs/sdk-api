@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IPipeLong
 title: IPipeLong (objidlbase.h)
-
 description: Transfers data of the long integer type (which is 32 bits wide).
 old-location: com\ipipelong.htm
 tech.root: com
 ms.assetid: c1b4d3b3-e1bf-4441-8cea-b667b82c4c27
-
 ms.date: 12/05/2018
 ms.keywords: IPipeLong, IPipeLong interface [COM], IPipeLong interface [COM],described, _com_ipipelong, com.ipipelong, objidlbase/IPipeLong
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IPipeLong"
+f1_keywords:
+- objidlbase/IPipeLong
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IPipeLong
+- IPipeLong
 targetos: Windows
 req.typenames: 
 req.redist: 

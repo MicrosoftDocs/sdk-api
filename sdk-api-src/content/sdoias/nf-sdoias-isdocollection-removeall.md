@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoCollection.RemoveAll
 title: ISdoCollection::RemoveAll (sdoias.h)
-
 description: The RemoveAll method removes all the items from the collection.
 old-location: nps\SDO_isdocollection_removeall.htm
 tech.root: Nps
 ms.assetid: 82654df4-9a85-4687-86dd-04ea5a916fdc
-
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],RemoveAll method, ISdoCollection.RemoveAll, ISdoCollection::RemoveAll, RemoveAll, RemoveAll method [Network Policy Server], RemoveAll method [Network Policy Server],ISdoCollection interface, _sdo_isdocollection_removeall, nps.SDO_isdocollection_removeall, sdo.isdocollection_removeall, sdoias/ISdoCollection::RemoveAll
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoCollection.RemoveAll"
+f1_keywords:
+- sdoias/ISdoCollection.RemoveAll
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoCollection.RemoveAll
+- ISdoCollection.RemoveAll
 targetos: Windows
 req.typenames: 
 req.redist: 

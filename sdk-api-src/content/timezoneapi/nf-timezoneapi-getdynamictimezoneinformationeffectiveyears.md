@@ -1,19 +1,17 @@
 ---
 UID: NF:timezoneapi.GetDynamicTimeZoneInformationEffectiveYears
 title: GetDynamicTimeZoneInformationEffectiveYears function (timezoneapi.h)
-
 description: Gets a range, expressed in years, for which a DYNAMIC_TIME_ZONE_INFORMATION has valid entries.
 old-location: base\getdynamictimezoneinformationeffectiveyears.htm
 tech.root: SysInfo
 ms.assetid: 6705BF71-9FF9-4D1F-B34B-752D9C83C964
-
 ms.date: 12/05/2018
 ms.keywords: GetDynamicTimeZoneInformationEffectiveYears, GetDynamicTimeZoneInformationEffectiveYears function, base.getdynamictimezoneinformationeffectiveyears, timezoneapi/GetDynamicTimeZoneInformationEffectiveYears
 ms.topic: function
-f1_keywords: 
- - "timezoneapi/GetDynamicTimeZoneInformationEffectiveYears"
+f1_keywords:
+- timezoneapi/GetDynamicTimeZoneInformationEffectiveYears
 dev_langs:
- - c++
+- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-TimeZone-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - advapi32.dll
+- Kernel32.dll
+- API-MS-Win-Core-TimeZone-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- advapi32.dll
 api_name:
- - GetDynamicTimeZoneInformationEffectiveYears
+- GetDynamicTimeZoneInformationEffectiveYears
 targetos: Windows
 req.typenames: 
 req.redist: 

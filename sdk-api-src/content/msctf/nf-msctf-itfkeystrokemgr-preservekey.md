@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.PreserveKey
 title: ITfKeystrokeMgr::PreserveKey (msctf.h)
-
 description: ITfKeystrokeMgr::PreserveKey method
 old-location: tsf\itfkeystrokemgr_preservekey.htm
 tech.root: TSF
 ms.assetid: ad5cd485-9231-4c29-8977-754dbf25c979
-
 ms.date: 12/05/2018
 ms.keywords: ITfKeystrokeMgr interface [Text Services Framework],PreserveKey method, ITfKeystrokeMgr.PreserveKey, ITfKeystrokeMgr::PreserveKey, PreserveKey, PreserveKey method [Text Services Framework], PreserveKey method [Text Services Framework],ITfKeystrokeMgr interface, _tsf_itfkeystrokemgr_preservekey_ref, msctf/ITfKeystrokeMgr::PreserveKey, tsf.itfkeystrokemgr_preservekey
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfKeystrokeMgr.PreserveKey"
+f1_keywords:
+- msctf/ITfKeystrokeMgr.PreserveKey
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfKeystrokeMgr.PreserveKey
+- ITfKeystrokeMgr.PreserveKey
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

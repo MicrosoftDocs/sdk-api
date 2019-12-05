@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.GetVendorExtension
 title: IWCNDevice::GetVendorExtension (wcndevice.h)
-
 description: The GetVendorExtension method gets a cached vendor extension from the device.
 old-location: wcn\iwcndevice_getvendorextension.htm
 tech.root: wcn
 ms.assetid: f7fa8446-8013-431a-95ed-fa5d78a90df7
-
 ms.date: 12/05/2018
 ms.keywords: GetVendorExtension, GetVendorExtension method [Windows Connect Now], GetVendorExtension method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetVendorExtension method, IWCNDevice.GetVendorExtension, IWCNDevice::GetVendorExtension, wcn.iwcndevice_getvendorextension, wcndevice/IWCNDevice::GetVendorExtension
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.GetVendorExtension"
+f1_keywords:
+- wcndevice/IWCNDevice.GetVendorExtension
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.GetVendorExtension
+- IWCNDevice.GetVendorExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetWBEMINT64(LPCWSTR,const WBEMINT64 &)
 title: CInstance::SetWBEMINT64 (instance.h)
-
 description: The SetWBEMINT64(LPCWSTR, const LONGLONG&) method sets a 64-bit integer value.
 old-location: wmi\cinstance_setwbemint64_lpcwstr__const_longlong_.htm
 tech.root: WmiSdk
 ms.assetid: dd06ecb9-0a7f-4487-8143-80418d28f3bb
-
 ms.date: 12/05/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetWBEMINT64 method, CInstance.SetWBEMINT64, CInstance::SetWBEMINT64, CInstance::SetWBEMINT64(LPCWSTR,const LONGLONG&), SetWBEMINT64, SetWBEMINT64 method [Windows Management Instrumentation], SetWBEMINT64 method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetWBEMINT64, wmi.cinstance_setwbemint64_lpcwstr__const_longlong_
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetWBEMINT64"
+f1_keywords:
+- instance/CInstance.SetWBEMINT64
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetWBEMINT64
+- CInstance.SetWBEMINT64
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDA_EIT.GetRecordDuration
 title: IPBDA_EIT::GetRecordDuration (dvbsiparser.h)
-
 description: Gets the duration from an event record in an event information table (EIT) in a Protected Broadcast Device Architecture (PBDA) transport stream.
 old-location: mstv\ipbda_eit_getrecordduration.htm
 tech.root: mstv
 ms.assetid: 898e211c-3228-441d-a099-907676da4bbe
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDuration, GetRecordDuration method [Microsoft TV Technologies], GetRecordDuration method [Microsoft TV Technologies],IPBDA_EIT interface, IPBDA_EIT interface [Microsoft TV Technologies],GetRecordDuration method, IPBDA_EIT.GetRecordDuration, IPBDA_EIT::GetRecordDuration, dvbsiparser/IPBDA_EIT::GetRecordDuration, mstv.ipbda_eit_getrecordduration
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDA_EIT.GetRecordDuration"
+f1_keywords:
+- dvbsiparser/IPBDA_EIT.GetRecordDuration
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDA_EIT.GetRecordDuration
+- IPBDA_EIT.GetRecordDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8Round
 title: VarR8Round function (oleauto.h)
-
 description: Rounds a variant of type double to the specified number of decimal places.
 old-location: automat\varr8round.htm
 tech.root: automat
 ms.assetid: bdf52cd6-a32d-4814-ac2f-51256dcc47cb
-
 ms.date: 12/05/2018
 ms.keywords: VarR8Round, VarR8Round function [Automation], _oa96_VarR8Round, automat.varr8round, oleauto/VarR8Round
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8Round"
+f1_keywords:
+- oleauto/VarR8Round
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8Round
+- VarR8Round
 targetos: Windows
 req.typenames: 
 req.redist: 

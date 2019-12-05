@@ -1,19 +1,17 @@
 ---
 UID: NF:interlockedapi.InitializeSListHead
 title: InitializeSListHead function (interlockedapi.h)
-
 description: Initializes the head of a singly linked list.
 old-location: base\initializeslisthead.htm
 tech.root: Sync
 ms.assetid: 4e34f947-1687-4ea9-aaa1-8d8dc11dad70
-
 ms.date: 12/05/2018
 ms.keywords: InitializeSListHead, InitializeSListHead function, _win32_initializeslisthead, base.initializeslisthead, interlockedapi/InitializeSListHead, winbase/InitializeSListHead
 ms.topic: function
-f1_keywords: 
- - "interlockedapi/InitializeSListHead"
+f1_keywords:
+- interlockedapi/InitializeSListHead
 dev_langs:
- - c++
+- c++
 req.header: interlockedapi.h
 req.include-header: Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-interlocked-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-interlocked-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - Ntoskrnl.exe
- - vertdll.dll
+- Kernel32.dll
+- API-MS-Win-Core-interlocked-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-interlocked-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- Ntoskrnl.exe
+- vertdll.dll
 api_name:
- - InitializeSListHead
+- InitializeSListHead
 targetos: Windows
 req.typenames: 
 req.redist: 

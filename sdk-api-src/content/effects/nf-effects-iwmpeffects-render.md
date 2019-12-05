@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects.Render
 title: IWMPEffects::Render (effects.h)
-
 description: The Render method renders the visualization.
 old-location: wmp\iwmpeffects_render.htm
 tech.root: WMP
 ms.assetid: 9040c309-5e45-41d2-9a02-b17c6d764f59
-
 ms.date: 12/05/2018
 ms.keywords: EffectsRender, IWMPEffects interface [Windows Media Player],Render method, IWMPEffects.Render, IWMPEffects::Render, Render, Render method [Windows Media Player], Render method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::Render, wmp.iwmpeffects_render
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects.Render"
+f1_keywords:
+- effects/IWMPEffects.Render
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects.Render
+- IWMPEffects.Render
 targetos: Windows
 req.typenames: 
 req.redist: 

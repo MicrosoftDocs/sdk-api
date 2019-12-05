@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptSignCertificate
 title: CryptSignCertificate function (wincrypt.h)
-
 description: The CryptSignCertificate function signs the &#0034;to be signed&#0034; information in the encoded signed content.
 old-location: security\cryptsigncertificate.htm
 tech.root: SecCrypto
 ms.assetid: 27578149-e5c0-47e5-8309-0d0ed7075d13
-
 ms.date: 12/05/2018
 ms.keywords: CryptSignCertificate, CryptSignCertificate function [Security], _crypto2_cryptsigncertificate, security.cryptsigncertificate, wincrypt/CryptSignCertificate
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptSignCertificate
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

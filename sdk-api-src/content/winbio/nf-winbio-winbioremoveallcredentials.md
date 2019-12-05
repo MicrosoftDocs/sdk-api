@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioRemoveAllCredentials
 title: WinBioRemoveAllCredentials function (winbio.h)
-
 description: Removes all credentials from the store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioremoveallcredentials.htm
 tech.root: SecBioMet
 ms.assetid: 3c3f3bed-531a-4962-8eb3-bebe16bed3a8
-
 ms.date: 12/05/2018
 ms.keywords: WinBioRemoveAllCredentials, WinBioRemoveAllCredentials function [Windows Biometric Framework API], secbiomet.winbioremoveallcredentials, winbio/WinBioRemoveAllCredentials
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioRemoveAllCredentials"
+f1_keywords:
+- winbio/WinBioRemoveAllCredentials
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- Winbio.dll
+- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioRemoveAllCredentials
+- WinBioRemoveAllCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

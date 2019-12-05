@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._charformat
 title: CHARFORMATA (richedit.h)
-
 description: Contains information about character formatting in a rich edit control.
 old-location: controls\CHARFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: CFE_AUTOCOLOR, CFE_BOLD, CFE_DISABLED, CFE_ITALIC, CFE_PROTECTED, CFE_STRIKEOUT, CFE_UNDERLINE, CFM_ALL, CFM_BOLD, CFM_CHARSET, CFM_COLOR, CFM_EFFECTS, CFM_FACE, CFM_ITALIC, CFM_OFFSET, CFM_PROTECTED, CFM_SIZE, CFM_STRIKEOUT, CFM_UNDERLINE., CHARFORMAT, CHARFORMAT structure [Windows Controls], CHARFORMATA, CHARFORMATW, _win32_CHARFORMAT_str, _win32_CHARFORMAT_str_cpp, controls.CHARFORMAT, controls._win32_CHARFORMAT_str, richedit/CHARFORMAT, richedit/CHARFORMATA, richedit/CHARFORMATW
 ms.topic: struct
-f1_keywords: 
- - "richedit/CHARFORMAT"
+f1_keywords:
+- richedit/CHARFORMAT
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - CHARFORMAT
- - CHARFORMATA
- - CHARFORMATW
+- CHARFORMAT
+- CHARFORMATA
+- CHARFORMATW
 targetos: Windows
 req.typenames: CHARFORMATA
 req.redist: 

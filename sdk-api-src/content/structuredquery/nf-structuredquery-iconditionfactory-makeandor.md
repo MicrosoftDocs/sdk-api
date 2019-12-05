@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory.MakeAndOr
 title: IConditionFactory::MakeAndOr (structuredquery.h)
-
 description: Creates a condition node that is a logical conjunction (AND) or disjunction (OR) of a collection of subconditions.
 old-location: search\_search_IConditionFactory_MakeAndOr.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\makeandor.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionFactory interface [search],MakeAndOr method, IConditionFactory.MakeAndOr, IConditionFactory::MakeAndOr, MakeAndOr, MakeAndOr method [search], MakeAndOr method [search],IConditionFactory interface, _search_IConditionFactory_MakeAndOr, search._search_IConditionFactory_MakeAndOr, structuredquery/IConditionFactory::MakeAndOr
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory.MakeAndOr"
+f1_keywords:
+- structuredquery/IConditionFactory.MakeAndOr
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory.MakeAndOr
+- IConditionFactory.MakeAndOr
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATEnumerateAttr
 title: CryptCATEnumerateAttr function (mscat.h)
-
 description: Enumerates the attributes associated with a member of a catalog. This function has no associated import library.
 old-location: security\cryptcatenumerateattr.htm
 tech.root: SecCrypto
 ms.assetid: 064e87db-4330-4b8b-9865-ba8b9714f6e4
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATEnumerateAttr, CryptCATEnumerateAttr function [Security], mscat/CryptCATEnumerateAttr, security.cryptcatenumerateattr
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATEnumerateAttr"
+f1_keywords:
+- mscat/CryptCATEnumerateAttr
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATEnumerateAttr
+- CryptCATEnumerateAttr
 targetos: Windows
 req.typenames: 
 req.redist: 

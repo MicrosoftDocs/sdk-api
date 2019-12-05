@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.EnumPwrSchemes
 title: EnumPwrSchemes function (powrprof.h)
-
 description: Enumerates all power schemes.
 old-location: base\enumpwrschemes.htm
 tech.root: power
 ms.assetid: 5e9e10b4-84c3-40ec-8de9-220d13795403
-
 ms.date: 12/05/2018
 ms.keywords: EnumPwrSchemes, EnumPwrSchemes function, _win32_enumpwrschemes, base.enumpwrschemes, powrprof/EnumPwrSchemes
 ms.topic: function
 f1_keywords:
 - powrprof/EnumPwrSchemes
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows

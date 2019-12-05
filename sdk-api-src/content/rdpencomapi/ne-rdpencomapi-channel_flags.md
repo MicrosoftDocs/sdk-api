@@ -1,19 +1,17 @@
 ---
 UID: NE:rdpencomapi.__MIDL___MIDL_itf_rdpencomapi_0000_0000_0004
 title: CHANNEL_FLAGS (rdpencomapi.h)
-
 description: Defines values for how data is sent on the channel.
 old-location: rdp\channel_flags.htm
 tech.root: rdp
 ms.assetid: ca8a063a-81a0-44b8-8654-36a38a6f30ef
-
 ms.date: 12/05/2018
 ms.keywords: CHANNEL_FLAGS, CHANNEL_FLAGS enumeration [RDP], CHANNEL_FLAGS_LEGACY, CHANNEL_FLAGS_UNCOMPRESSED, rdp.channel_flags, rdpencomapi/CHANNEL_FLAGS, rdpencomapi/CHANNEL_FLAGS_LEGACY, rdpencomapi/CHANNEL_FLAGS_UNCOMPRESSED
 ms.topic: enum
-f1_keywords: 
- - "rdpencomapi/CHANNEL_FLAGS"
+f1_keywords:
+- rdpencomapi/CHANNEL_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rdpencomapi.h
+- Rdpencomapi.h
 api_name:
- - CHANNEL_FLAGS
+- CHANNEL_FLAGS
 targetos: Windows
 req.typenames: CHANNEL_FLAGS
 req.redist: 

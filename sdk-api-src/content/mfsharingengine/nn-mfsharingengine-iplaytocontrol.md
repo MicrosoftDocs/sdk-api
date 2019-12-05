@@ -1,19 +1,17 @@
 ---
 UID: NN:mfsharingengine.IPlayToControl
 title: IPlayToControl (mfsharingengine.h)
-
 description: Enables the PlayToConnection object to connect to a media element.
 old-location: mf\iplaytocontrol.htm
 tech.root: medfound
 ms.assetid: 53355EEA-559B-4803-89F6-D454E15F9254
-
 ms.date: 12/05/2018
 ms.keywords: IPlayToControl, IPlayToControl interface [Media Foundation], IPlayToControl interface [Media Foundation],described, mf.iplaytocontrol, mfsharingengine/IPlayToControl
 ms.topic: interface
-f1_keywords: 
- - "mfsharingengine/IPlayToControl"
+f1_keywords:
+- mfsharingengine/IPlayToControl
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IPlayToControl
+- IPlayToControl
 targetos: Windows
 req.typenames: 
 req.redist: 

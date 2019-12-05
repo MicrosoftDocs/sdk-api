@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrScheduleWizardUIOperation.InitWizard
 title: ISyncMgrScheduleWizardUIOperation::InitWizard (syncmgr.h)
-
 description: Initializes the sync schedule wizard.
 old-location: shell\ISyncMgrScheduleWizardUIOperation_InitWizard.htm
 tech.root: shell
 ms.assetid: f88a9a13-6e07-400a-bb05-75b1267343a9
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrScheduleWizardUIOperation interface [Windows Shell],InitWizard method, ISyncMgrScheduleWizardUIOperation.InitWizard, ISyncMgrScheduleWizardUIOperation::InitWizard, InitWizard, InitWizard method [Windows Shell], InitWizard method [Windows Shell],ISyncMgrScheduleWizardUIOperation interface, _shell_ISyncMgrScheduleWizardUIOperation_InitWizard, shell.ISyncMgrScheduleWizardUIOperation_InitWizard, syncmgr/ISyncMgrScheduleWizardUIOperation::InitWizard
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrScheduleWizardUIOperation.InitWizard"
+f1_keywords:
+- syncmgr/ISyncMgrScheduleWizardUIOperation.InitWizard
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrScheduleWizardUIOperation.InitWizard
+- ISyncMgrScheduleWizardUIOperation.InitWizard
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmFormatSuggest
 title: acmFormatSuggest function (msacm.h)
-
 description: The acmFormatSuggest function queries the ACM or a specified ACM driver to suggest a destination format for the supplied source format.
 old-location: multimedia\acmformatsuggest.htm
 tech.root: Multimedia
 ms.assetid: c7618d7e-e41e-4513-9511-2133ef5a1582
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFormatSuggest, acmFormatSuggest, acmFormatSuggest function [Windows Multimedia], msacm/acmFormatSuggest, multimedia.acmformatsuggest"
+ms.keywords: _win32_acmFormatSuggest, acmFormatSuggest, acmFormatSuggest function [Windows Multimedia], msacm/acmFormatSuggest, multimedia.acmformatsuggest
 ms.topic: function
-f1_keywords: 
- - "msacm/acmFormatSuggest"
+f1_keywords:
+- msacm/acmFormatSuggest
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFormatSuggest
+- acmFormatSuggest
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcoreapi.UiaPropertyChangedEventArgs
 title: UiaPropertyChangedEventArgs (uiautomationcoreapi.h)
-
 description: Note  This structure is deprecated.  Contains information about an event that is raised when a Microsoft UI Automation element property change occurs.
 old-location: winauto\uiauto_UiaPropertyChangedEventArgsStruct.htm
 tech.root: WinAuto
 ms.assetid: d401b971-441e-4a09-9b9a-6725a00154cb
-
 ms.date: 12/05/2018
 ms.keywords: UiaPropertyChangedEventArgs, UiaPropertyChangedEventArgs structure [Windows Accessibility], uiauto.uiauto_UiaPropertyChangedEventArgsStruct, uiauto_UiaPropertyChangedEventArgsStruct, uiautomationcoreapi/UiaPropertyChangedEventArgs, winauto.uiauto_UiaPropertyChangedEventArgsStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcoreapi/UiaPropertyChangedEventArgs"
+f1_keywords:
+- uiautomationcoreapi/UiaPropertyChangedEventArgs
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCoreApi.h
+- UIAutomationCoreApi.h
 api_name:
- - UiaPropertyChangedEventArgs
+- UiaPropertyChangedEventArgs
 targetos: Windows
 req.typenames: 
 req.redist: 

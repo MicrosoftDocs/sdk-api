@@ -1,18 +1,16 @@
 ---
 UID: NF:shlobj.IFileViewerW.ShowInitialize
 title: IFileViewerW::ShowInitialize
-
 description: Allows a file viewer to determine whether it can display a file.
 tech.root: shell
 ms.assetid: 28f7deb9-09aa-4041-ac6a-3956fdc59191
-
 ms.date: 01/30/19
 ms.keywords: IFileViewerW::ShowInitialize
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj/IFileViewerW::ShowInitialize"
+f1_keywords:
+- shlobj/IFileViewerW::ShowInitialize
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -34,13 +32,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - shlobj.h
+- shlobj.h
 api_name:
- - IFileViewerW::ShowInitialize
+- IFileViewerW::ShowInitialize
 ---
 
 ## -description

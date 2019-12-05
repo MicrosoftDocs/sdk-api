@@ -1,19 +1,17 @@
 ---
 UID: NS:iprtrmib._MIB_BEST_IF
 title: MIB_BEST_IF (iprtrmib.h)
-
 description: Stores the index of the interface that has the best route to a particular destination IPv4 address.
 old-location: mib\mib_best_if.htm
 tech.root: MIB
 ms.assetid: a557acfe-c5c6-44fc-b1f1-2aa7ef599d44
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_BEST_IF, MIB_BEST_IF, MIB_BEST_IF structure [MIB], PMIB_BEST_IF, PMIB_BEST_IF structure pointer [MIB], _mpr_mib_best_if, ipmib/MIB_BEST_IF, ipmib/PMIB_BEST_IF, iprtrmib/MIB_BEST_IF, iprtrmib/PMIB_BEST_IF, mib.mib_best_if, rras.mib_best_if"
+ms.keywords: '*PMIB_BEST_IF, MIB_BEST_IF, MIB_BEST_IF structure [MIB], PMIB_BEST_IF, PMIB_BEST_IF structure pointer [MIB], _mpr_mib_best_if, ipmib/MIB_BEST_IF, ipmib/PMIB_BEST_IF, iprtrmib/MIB_BEST_IF, iprtrmib/PMIB_BEST_IF, mib.mib_best_if, rras.mib_best_if'
 ms.topic: struct
-f1_keywords: 
- - "iprtrmib/MIB_BEST_IF"
+f1_keywords:
+- iprtrmib/MIB_BEST_IF
 dev_langs:
- - c++
+- c++
 req.header: iprtrmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipmib.h
- - Iprtrmib.h
+- Ipmib.h
+- Iprtrmib.h
 api_name:
- - MIB_BEST_IF
+- MIB_BEST_IF
 targetos: Windows
 req.typenames: MIB_BEST_IF, *PMIB_BEST_IF
 req.redist: 

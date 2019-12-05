@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSignalEvents.OnSignalStateChange
 title: IMbnSignalEvents::OnSignalStateChange (mbnapi.h)
-
 description: This notification method is called by the Mobile Broadband service to indicate that a signal quality update is available.
 old-location: mbn\imbnsignalevents_onsignalstatechange.htm
 tech.root: mbn
 ms.assetid: 07e98555-03fa-4852-af65-55778dc9c477
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSignalEvents interface [Microsoft Broadband Networks],OnSignalStateChange method, IMbnSignalEvents.OnSignalStateChange, IMbnSignalEvents::OnSignalStateChange, OnSignalStateChange, OnSignalStateChange method [Microsoft Broadband Networks], OnSignalStateChange method [Microsoft Broadband Networks],IMbnSignalEvents interface, mbn.imbnsignalevents_onsignalstatechange, mbnapi/IMbnSignalEvents::OnSignalStateChange
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSignalEvents.OnSignalStateChange"
+f1_keywords:
+- mbnapi/IMbnSignalEvents.OnSignalStateChange
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSignalEvents.OnSignalStateChange
+- IMbnSignalEvents.OnSignalStateChange
 targetos: Windows
 req.typenames: 
 req.redist: 

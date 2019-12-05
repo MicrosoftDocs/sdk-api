@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcompiler.D3D_BLOB_PART
 title: D3D_BLOB_PART (d3dcompiler.h)
-
 description: Values that identify parts of the content of an arbitrary length data buffer.
 old-location: direct3dhlsl\d3d_blob_part.htm
 tech.root: direct3dhlsl
 ms.assetid: 333bc68a-0412-48e7-ac28-69ec5eea9ce8
-
 ms.date: 12/05/2018
 ms.keywords: D3D_BLOB_ALL_SIGNATURE_BLOB, D3D_BLOB_DEBUG_INFO, D3D_BLOB_DEBUG_NAME, D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB, D3D_BLOB_INPUT_SIGNATURE_BLOB, D3D_BLOB_LEGACY_SHADER, D3D_BLOB_OUTPUT_SIGNATURE_BLOB, D3D_BLOB_PART, D3D_BLOB_PART enumeration [HLSL], D3D_BLOB_PATCH_CONSTANT_SIGNATURE_BLOB, D3D_BLOB_PDB, D3D_BLOB_PRIVATE_DATA, D3D_BLOB_ROOT_SIGNATURE, D3D_BLOB_TEST_ALTERNATE_SHADER, D3D_BLOB_TEST_COMPILE_DETAILS, D3D_BLOB_TEST_COMPILE_PERF, D3D_BLOB_TEST_COMPILE_REPORT, D3D_BLOB_XNA_PREPASS_SHADER, D3D_BLOB_XNA_SHADER, d3dcompiler/D3D_BLOB_ALL_SIGNATURE_BLOB, d3dcompiler/D3D_BLOB_DEBUG_INFO, d3dcompiler/D3D_BLOB_DEBUG_NAME, d3dcompiler/D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB, d3dcompiler/D3D_BLOB_INPUT_SIGNATURE_BLOB, d3dcompiler/D3D_BLOB_LEGACY_SHADER, d3dcompiler/D3D_BLOB_OUTPUT_SIGNATURE_BLOB, d3dcompiler/D3D_BLOB_PART, d3dcompiler/D3D_BLOB_PATCH_CONSTANT_SIGNATURE_BLOB, d3dcompiler/D3D_BLOB_PDB, d3dcompiler/D3D_BLOB_PRIVATE_DATA, d3dcompiler/D3D_BLOB_ROOT_SIGNATURE, d3dcompiler/D3D_BLOB_TEST_ALTERNATE_SHADER, d3dcompiler/D3D_BLOB_TEST_COMPILE_DETAILS, d3dcompiler/D3D_BLOB_TEST_COMPILE_PERF, d3dcompiler/D3D_BLOB_TEST_COMPILE_REPORT, d3dcompiler/D3D_BLOB_XNA_PREPASS_SHADER, d3dcompiler/D3D_BLOB_XNA_SHADER, direct3dhlsl.d3d_blob_part
 ms.topic: enum
-f1_keywords: 
- - "d3dcompiler/D3D_BLOB_PART"
+f1_keywords:
+- d3dcompiler/D3D_BLOB_PART
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3Dcompiler.h
+- D3Dcompiler.h
 api_name:
- - D3D_BLOB_PART
+- D3D_BLOB_PART
 targetos: Windows
 req.typenames: D3D_BLOB_PART
 req.redist: 

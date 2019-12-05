@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.BindImage
 title: BindImage function (imagehlp.h)
-
 description: Computes the virtual address of each imported function.
 old-location: base\bindimage.htm
 tech.root: Debug
 ms.assetid: d586bf3a-c911-44a3-bf92-7de35009f742
-
 ms.date: 12/05/2018
 ms.keywords: BindImage, BindImage function, _win32_bindimage, base.bindimage, imagehlp/BindImage
 ms.topic: function
-f1_keywords: 
- - "imagehlp/BindImage"
+f1_keywords:
+- imagehlp/BindImage
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - BindImage
+- BindImage
 targetos: Windows
 req.typenames: 
 req.redist: 

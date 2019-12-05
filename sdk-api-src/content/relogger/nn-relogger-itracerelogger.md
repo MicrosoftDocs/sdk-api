@@ -1,19 +1,17 @@
 ---
 UID: NN:relogger.ITraceRelogger
 title: ITraceRelogger (relogger.h)
-
 description: Provides access to the relogging functionality, allowing you to manipulate and relog events from an ETW trace stream.
 old-location: etw\itracerelogger.htm
 tech.root: ETW
 ms.assetid: 08073b9a-5ae0-4e88-a502-647567418005
-
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger, ITraceRelogger interface [ETW], ITraceRelogger interface [ETW],described, etw.itracerelogger, relogger/ITraceRelogger
 ms.topic: interface
-f1_keywords: 
- - "relogger/ITraceRelogger"
+f1_keywords:
+- relogger/ITraceRelogger
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger
+- ITraceRelogger
 targetos: Windows
 req.typenames: 
 req.redist: 

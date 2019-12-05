@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateNamedPipeA
 title: CreateNamedPipeA function (winbase.h)
-
 description: Creates an instance of a named pipe and returns a handle for subsequent pipe operations.
 old-location: base\createnamedpipe.htm
 tech.root: ipc
 ms.assetid: 00d79639-3f14-4964-90f3-9462a23e68df
-
 ms.date: 12/05/2018
 ms.keywords: ACCESS_SYSTEM_SECURITY, CreateNamedPipe, CreateNamedPipe function, CreateNamedPipeA, CreateNamedPipeW, FILE_FLAG_FIRST_PIPE_INSTANCE, FILE_FLAG_OVERLAPPED, FILE_FLAG_WRITE_THROUGH, PIPE_ACCEPT_REMOTE_CLIENTS, PIPE_ACCESS_DUPLEX, PIPE_ACCESS_INBOUND, PIPE_ACCESS_OUTBOUND, PIPE_NOWAIT, PIPE_READMODE_BYTE, PIPE_READMODE_MESSAGE, PIPE_REJECT_REMOTE_CLIENTS, PIPE_TYPE_BYTE, PIPE_TYPE_MESSAGE, PIPE_WAIT, WRITE_DAC, WRITE_OWNER, _win32_createnamedpipe, base.createnamedpipe, winbase/CreateNamedPipe, winbase/CreateNamedPipeA, winbase/CreateNamedPipeW
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateNamedPipe"
+f1_keywords:
+- winbase/CreateNamedPipe
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,31 +30,31 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Core-NamedPipe-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Core-NamedPipe-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateNamedPipe
- - CreateNamedPipeA
- - CreateNamedPipeW
+- CreateNamedPipe
+- CreateNamedPipeA
+- CreateNamedPipeW
 targetos: Windows
 req.typenames: 
 req.redist: 

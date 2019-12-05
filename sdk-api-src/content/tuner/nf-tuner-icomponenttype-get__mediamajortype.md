@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponentType.get__MediaMajorType
 title: IComponentType::get__MediaMajorType (tuner.h)
-
 description: The get__MediaMajorType method retrieves the DirectShow media format type as a GUID.
 old-location: mstv\icomponenttype_get__mediamajortype.htm
 tech.root: mstv
 ms.assetid: b8732070-3560-461b-a04e-3c00d6b7b49e
-
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get__MediaMajorType method, IComponentType.get__MediaMajorType, IComponentType::get__MediaMajorType, IComponentTypeget__MediaMajorType, get__MediaMajorType, get__MediaMajorType method [Microsoft TV Technologies], get__MediaMajorType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get__mediamajortype, tuner/IComponentType::get__MediaMajorType
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponentType.get__MediaMajorType"
+f1_keywords:
+- tuner/IComponentType.get__MediaMajorType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentType.get__MediaMajorType
+- IComponentType.get__MediaMajorType
 targetos: Windows
 req.typenames: 
 req.redist: 

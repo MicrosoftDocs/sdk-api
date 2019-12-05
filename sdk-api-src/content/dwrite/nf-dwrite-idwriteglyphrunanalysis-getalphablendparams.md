@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteGlyphRunAnalysis.GetAlphaBlendParams
 title: IDWriteGlyphRunAnalysis::GetAlphaBlendParams (dwrite.h)
-
 description: Gets alpha blending properties required for ClearType blending.
 old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaBlendParams.htm
 tech.root: DirectWrite
 ms.assetid: 21991479-f041-40f9-83d5-0718ede26b92
-
 ms.date: 12/05/2018
 ms.keywords: GetAlphaBlendParams, GetAlphaBlendParams method [Direct Write], GetAlphaBlendParams method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],GetAlphaBlendParams method, IDWriteGlyphRunAnalysis.GetAlphaBlendParams, IDWriteGlyphRunAnalysis::GetAlphaBlendParams, directwrite.IDWriteGlyphRunAnalysis_GetAlphaBlendParams, dwrite/IDWriteGlyphRunAnalysis::GetAlphaBlendParams
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteGlyphRunAnalysis.GetAlphaBlendParams"
+f1_keywords:
+- dwrite/IDWriteGlyphRunAnalysis.GetAlphaBlendParams
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteGlyphRunAnalysis.GetAlphaBlendParams
+- IDWriteGlyphRunAnalysis.GetAlphaBlendParams
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.GopherCreateLocatorA
 title: GopherCreateLocatorA function (wininet.h)
-
 description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.
 old-location: wininet\gophercreatelocator.htm
 tech.root: wininet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
-
 ms.date: 12/05/2018
 ms.keywords: GopherCreateLocator, GopherCreateLocator function [WinINet], GopherCreateLocatorA, GopherCreateLocatorW, _inet_gophercreatelocator_function, wininet.gophercreatelocator, wininet/GopherCreateLocator, wininet/GopherCreateLocatorA, wininet/GopherCreateLocatorW
 ms.topic: function
-f1_keywords: 
- - "wininet/GopherCreateLocator"
+f1_keywords:
+- wininet/GopherCreateLocator
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - GopherCreateLocator
- - GopherCreateLocatorA
- - GopherCreateLocatorW
+- GopherCreateLocator
+- GopherCreateLocatorA
+- GopherCreateLocatorW
 targetos: Windows
 req.typenames: 
 req.redist: 

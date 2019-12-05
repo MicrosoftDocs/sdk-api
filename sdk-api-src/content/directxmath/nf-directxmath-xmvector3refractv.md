@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3RefractV
 title: XMVector3RefractV function (directxmath.h)
-
 description: Refracts an incident 3D vector across a 3D normal vector.
 old-location: dxmath\xmvector3refractv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3RefractV(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3RefractV, XMVector3RefractV, XMVector3RefractV method [DirectX Math Support APIs], dxmath.xmvector3refractv
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3RefractV"
+f1_keywords:
+- directxmath/XMVector3RefractV
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3RefractV
+- XMVector3RefractV
 targetos: Windows
 req.typenames: 
 req.redist: 

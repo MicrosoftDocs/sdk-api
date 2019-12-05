@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_PFS_GROUP_
 title: IPSEC_PFS_GROUP (ipsectypes.h)
-
 description: Specifies the Diffie Hellman algorithm that should be used for Quick Mode PFS (Perfect Forward Secrecy).
 old-location: fwp\ipsec_pfs_group_enum.htm
 tech.root: fwp
 ms.assetid: 0f0ea028-859b-42ca-a4e3-fe23f0836883
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_PFS_1, IPSEC_PFS_14, IPSEC_PFS_2, IPSEC_PFS_2048, IPSEC_PFS_24, IPSEC_PFS_ECP_256, IPSEC_PFS_ECP_384, IPSEC_PFS_GROUP, IPSEC_PFS_GROUP enumeration [Filtering], IPSEC_PFS_MAX, IPSEC_PFS_MM, IPSEC_PFS_NONE, fwp.ipsec_pfs_group_enum, ipsectypes/IPSEC_PFS_1, ipsectypes/IPSEC_PFS_14, ipsectypes/IPSEC_PFS_2, ipsectypes/IPSEC_PFS_2048, ipsectypes/IPSEC_PFS_24, ipsectypes/IPSEC_PFS_ECP_256, ipsectypes/IPSEC_PFS_ECP_384, ipsectypes/IPSEC_PFS_GROUP, ipsectypes/IPSEC_PFS_MAX, ipsectypes/IPSEC_PFS_MM, ipsectypes/IPSEC_PFS_NONE
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_PFS_GROUP"
+f1_keywords:
+- ipsectypes/IPSEC_PFS_GROUP
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_PFS_GROUP
+- IPSEC_PFS_GROUP
 targetos: Windows
 req.typenames: IPSEC_PFS_GROUP
 req.redist: 

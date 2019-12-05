@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsOU
 title: IADsOU (iads.h)
-
 description: Used to manage organizationalUnit objects.
 old-location: adsi\iadsou.htm
 tech.root: adsi
 ms.assetid: 3ac61a48-faa3-4457-8842-7e57175e35e5
-
 ms.date: 12/05/2018
 ms.keywords: IADsOU, IADsOU interface [ADSI], IADsOU interface [ADSI],described, _ds_iadsou, adsi.iadsou, iads/IADsOU
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsOU"
+f1_keywords:
+- iads/IADsOU
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsOU
+- IADsOU
 targetos: Windows
 req.typenames: 
 req.redist: 

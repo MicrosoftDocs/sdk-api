@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheck.IOptionDescription.get_Id
 title: IOptionDescription::get_Id (spellcheck.h)
-
 description: Gets the identifier of the spell checker option.
 old-location: intl\ioptiondescription_id.htm
 tech.root: Intl
 ms.assetid: 09dba873-4302-46ee-9de0-cd480a424144
-
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription interface [Internationalization for Windows Applications],Id property, IOptionDescription.Id, IOptionDescription.get_Id, IOptionDescription::Id, IOptionDescription::get_Id, Id property [Internationalization for Windows Applications], Id property [Internationalization for Windows Applications],IOptionDescription interface, get_Id, intl.ioptiondescription_id, spellcheck/IOptionDescription::Id, spellcheck/IOptionDescription::get_Id
 ms.topic: method
-f1_keywords: 
- - "spellcheck/IOptionDescription.Id"
+f1_keywords:
+- spellcheck/IOptionDescription.Id
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - IOptionDescription.Id
- - IOptionDescription.get_Id
+- IOptionDescription.Id
+- IOptionDescription.get_Id
 targetos: Windows
 req.typenames: 
 req.redist: 

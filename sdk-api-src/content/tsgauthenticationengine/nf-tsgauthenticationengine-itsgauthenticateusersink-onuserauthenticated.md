@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.OnUserAuthenticated
 title: ITSGAuthenticateUserSink::OnUserAuthenticated (tsgauthenticationengine.h)
-
 description: Notifies Remote Desktop Gateway (RD Gateway) that the authentication plug-in has successfully authenticated the user.
 old-location: termserv\itsgauthenticateusersink_onuserauthenticated.htm
 tech.root: TermServ
 ms.assetid: 2f3dd498-661c-4787-8db4-bcc43bd76294
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],OnUserAuthenticated method, ITSGAuthenticateUserSink.OnUserAuthenticated, ITSGAuthenticateUserSink::OnUserAuthenticated, OnUserAuthenticated, OnUserAuthenticated method [Remote Desktop Services], OnUserAuthenticated method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_onuserauthenticated, tsgauthenticationengine/ITSGAuthenticateUserSink::OnUserAuthenticated
 ms.topic: method
-f1_keywords: 
- - "tsgauthenticationengine/ITSGAuthenticateUserSink.OnUserAuthenticated"
+f1_keywords:
+- tsgauthenticationengine/ITSGAuthenticateUserSink.OnUserAuthenticated
 dev_langs:
- - c++
+- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGAuthenticationEngine.h
+- TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink.OnUserAuthenticated
+- ITSGAuthenticateUserSink.OnUserAuthenticated
 targetos: Windows
 req.typenames: 
 req.redist: 

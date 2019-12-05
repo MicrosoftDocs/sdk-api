@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DSA_GetItem
 title: DSA_GetItem function (dpa_dsa.h)
-
 description: Gets an element from a dynamic structure array (DSA).
 old-location: controls\DSA_GetItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_getitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: DSA_GetItem, DSA_GetItem function [Windows Controls], _win32_DSA_GetItem, _win32_DSA_GetItem_cpp, controls.DSA_GetItem, controls._win32_DSA_GetItem, dpa_dsa/DSA_GetItem
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DSA_GetItem"
+f1_keywords:
+- dpa_dsa/DSA_GetItem
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: ComCtl32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DSA_GetItem
+- DSA_GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

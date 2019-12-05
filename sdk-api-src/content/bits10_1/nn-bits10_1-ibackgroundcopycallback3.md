@@ -1,19 +1,17 @@
 ---
 UID: NN:bits10_1.IBackgroundCopyCallback3
 title: IBackgroundCopyCallback3 (bits10_1.h)
-
 description: Clients implement the IBackgroundCopyCallback3 interface to receive notification that ranges of a file have completed downloading.
 old-location: bits\ibackgroundcopycallback3.htm
 tech.root: Bits
 ms.assetid: 74712770-BB14-4B8A-8DA4-096CEB58D820
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyCallback3, IBackgroundCopyCallback3 interface [BITS], IBackgroundCopyCallback3 interface [BITS],described, bits.ibackgroundcopycallback3, bits10_1/IBackgroundCopyCallback3
 ms.topic: interface
-f1_keywords: 
- - "bits10_1/IBackgroundCopyCallback3"
+f1_keywords:
+- bits10_1/IBackgroundCopyCallback3
 dev_langs:
- - c++
+- c++
 req.header: bits10_1.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyCallback3
+- IBackgroundCopyCallback3
 targetos: Windows
 req.typenames: 
 req.redist: 

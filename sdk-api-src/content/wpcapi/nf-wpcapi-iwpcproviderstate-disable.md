@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCProviderState.Disable
 title: IWPCProviderState::Disable (wpcapi.h)
-
 description: Notifies the third-party application that it is not the current provider.
 old-location: parcon\iwpcproviderstate_disable.htm
 tech.root: parcon
 ms.assetid: 2aa1a236-b681-4226-a337-507d0854955d
-
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method, Disable method,IWPCProviderState interface, IWPCProviderState interface,Disable method, IWPCProviderState.Disable, IWPCProviderState::Disable, parcon.iwpcproviderstate_disable, wpcapi/IWPCProviderState::Disable
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCProviderState.Disable"
+f1_keywords:
+- wpcapi/IWPCProviderState.Disable
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderState.Disable
+- IWPCProviderState.Disable
 targetos: Windows
 req.typenames: 
 req.redist: 

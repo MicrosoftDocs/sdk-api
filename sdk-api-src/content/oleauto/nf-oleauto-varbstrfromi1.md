@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrFromI1
 title: VarBstrFromI1 function (oleauto.h)
-
 description: Converts a char value to a BSTR value.
 old-location: automat\varbstrfromi1.htm
 tech.root: automat
 ms.assetid: a11d772c-aace-4d8f-93b3-8425a4888848
-
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromI1, VarBstrFromI1 function [Automation], _oa96_VarBstrFromI1, automat.varbstrfromi1, oleauto/VarBstrFromI1
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrFromI1"
+f1_keywords:
+- oleauto/VarBstrFromI1
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrFromI1
+- VarBstrFromI1
 targetos: Windows
 req.typenames: 
 req.redist: 

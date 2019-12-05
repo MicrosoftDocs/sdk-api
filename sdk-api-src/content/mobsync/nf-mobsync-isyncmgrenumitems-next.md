@@ -1,19 +1,17 @@
 ---
 UID: NF:mobsync.ISyncMgrEnumItems.Next
 title: ISyncMgrEnumItems::Next (mobsync.h)
-
 description: Enumerates the next celt elements in the enumerator's list, returning them in rgelt along with the actual number of enumerated elements in pceltFetched.
 old-location: shell\syncmgr_isyncmgrenumitems_next.htm
 tech.root: shell
 ms.assetid: bb4ab08a-aa12-46f0-8c7d-82742b0b1538
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEnumItems interface [Windows Shell],Next method, ISyncMgrEnumItems.Next, ISyncMgrEnumItems::Next, Next, Next method [Windows Shell], Next method [Windows Shell],ISyncMgrEnumItems interface, mobsync/ISyncMgrEnumItems::Next, shell.syncmgr_isyncmgrenumitems_next, syncmgr.isyncmgrenumitems_next
 ms.topic: method
 f1_keywords:
 - mobsync/ISyncMgrEnumItems.Next
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows

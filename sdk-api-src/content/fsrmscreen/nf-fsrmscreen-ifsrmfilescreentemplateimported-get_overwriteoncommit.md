@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
 title: IFsrmFileScreenTemplateImported::get_OverwriteOnCommit (fsrmscreen.h)
-
 description: Retrieves or sets a value that determines whether a file screen template is overwritten if it exists when the template is imported.
 old-location: fsrm\ifsrmfilescreentemplateimported_overwriteoncommit.htm
 tech.root: fsrm
 ms.assetid: 0172be46-f555-4d39-ab2e-890cde6b82b7
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplateImported interface [File Server Resource Manager],OverwriteOnCommit property, IFsrmFileScreenTemplateImported.OverwriteOnCommit, IFsrmFileScreenTemplateImported.get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::OverwriteOnCommit, IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, OverwriteOnCommit property [File Server Resource Manager], OverwriteOnCommit property [File Server Resource Manager],IFsrmFileScreenTemplateImported interface, fs.ifsrmfilescreentemplateimported_overwriteoncommit, fsrm.ifsrmfilescreentemplateimported_overwriteoncommit, fsrmscreen/IFsrmFileScreenTemplateImported::OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::get_OverwriteOnCommit, fsrmscreen/IFsrmFileScreenTemplateImported::put_OverwriteOnCommit, get_OverwriteOnCommit
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplateImported.OverwriteOnCommit"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplateImported.OverwriteOnCommit
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateImported.OverwriteOnCommit
- - IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
- - IFsrmFileScreenTemplateImported.put_OverwriteOnCommit
+- IFsrmFileScreenTemplateImported.OverwriteOnCommit
+- IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
+- IFsrmFileScreenTemplateImported.put_OverwriteOnCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

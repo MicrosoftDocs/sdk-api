@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFGetService.GetService
 title: IMFGetService::GetService (mfidl.h)
-
 description: Retrieves a service interface.
 old-location: mf\imfgetservice_getservice.htm
 tech.root: medfound
 ms.assetid: 4287dd1f-1718-4231-bc62-b58e0e61d688
-
 ms.date: 12/05/2018
 ms.keywords: 4287dd1f-1718-4231-bc62-b58e0e61d688, GetService, GetService method [Media Foundation], GetService method [Media Foundation],IMFGetService interface, IMFGetService interface [Media Foundation],GetService method, IMFGetService.GetService, IMFGetService::GetService, mf.imfgetservice_getservice, mfidl/IMFGetService::GetService
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFGetService.GetService"
+f1_keywords:
+- mfidl/IMFGetService.GetService
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFGetService.GetService
+- IMFGetService.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 

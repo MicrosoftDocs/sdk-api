@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.GetCrossSlideParameterInteractionContext
 title: GetCrossSlideParameterInteractionContext function (interactioncontext.h)
-
 description: Gets the cross-slide interaction behavior.
 old-location: input_intcontext\getcrossslideparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 19e934c6-8cd7-4302-a903-bd7865aef908
-
 ms.date: 12/05/2018
 ms.keywords: GetCrossSlideParameterInteractionContext, GetCrossSlideParameterInteractionContext function, input_intcontext.getcrossslideparameterinteractioncontext, interactioncontext.getcrossslideparameterinteractioncontext, interactioncontext/GetCrossSlideParameterInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/GetCrossSlideParameterInteractionContext"
+f1_keywords:
+- interactioncontext/GetCrossSlideParameterInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
+- ninput.dll
 api_name:
- - GetCrossSlideParameterInteractionContext
+- GetCrossSlideParameterInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

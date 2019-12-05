@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_BezierPoints
 title: IInkStrokeDisp::get_BezierPoints (msinkaut.h)
-
 description: Gets the array of control points that represent the Bezier approximation of the stroke.
 old-location: tablet\iinkstrokedisp_bezierpoints.htm
 tech.root: tablet
 ms.assetid: 76bb749d-76cd-4c40-add3-4065d46ed6cb
-
 ms.date: 12/05/2018
 ms.keywords: 76bb749d-76cd-4c40-add3-4065d46ed6cb, BezierPoints property [Tablet PC], BezierPoints property [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],BezierPoints property, IInkStrokeDisp.BezierPoints, IInkStrokeDisp.get_BezierPoints, IInkStrokeDisp::BezierPoints, IInkStrokeDisp::get_BezierPoints, get_BezierPoints, msinkaut/IInkStrokeDisp::BezierPoints, msinkaut/IInkStrokeDisp::get_BezierPoints, tablet.iinkstrokedisp_bezierpoints
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.BezierPoints"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.BezierPoints
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.BezierPoints
- - IInkStrokeDisp.get_BezierPoints
- - IInkStrokeDisp.get_BezierPoints
+- IInkStrokeDisp.BezierPoints
+- IInkStrokeDisp.get_BezierPoints
+- IInkStrokeDisp.get_BezierPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

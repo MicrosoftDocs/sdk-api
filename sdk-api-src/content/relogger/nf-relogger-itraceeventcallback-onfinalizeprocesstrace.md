@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceEventCallback.OnFinalizeProcessTrace
 title: ITraceEventCallback::OnFinalizeProcessTrace (relogger.h)
-
 description: Indicates that a trace is about to end so that relogging can be finalized.
 old-location: etw\ieventcallback_onfinalizeprocesstrace.htm
 tech.root: ETW
 ms.assetid: b152b6fd-4af5-4781-9c88-c71364ef86ff
-
 ms.date: 12/05/2018
 ms.keywords: ITraceEventCallback interface [ETW],OnFinalizeProcessTrace method, ITraceEventCallback.OnFinalizeProcessTrace, ITraceEventCallback::OnFinalizeProcessTrace, OnFinalizeProcessTrace, OnFinalizeProcessTrace method [ETW], OnFinalizeProcessTrace method [ETW],ITraceEventCallback interface, etw.ieventcallback_onfinalizeprocesstrace, relogger/ITraceEventCallback::OnFinalizeProcessTrace
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceEventCallback.OnFinalizeProcessTrace"
+f1_keywords:
+- relogger/ITraceEventCallback.OnFinalizeProcessTrace
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEventCallback.OnFinalizeProcessTrace
+- ITraceEventCallback.OnFinalizeProcessTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

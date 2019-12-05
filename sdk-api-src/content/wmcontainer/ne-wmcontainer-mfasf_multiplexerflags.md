@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcontainer.MFASF_MULTIPLEXERFLAGS
 title: MFASF_MULTIPLEXERFLAGS (wmcontainer.h)
-
 description: Defines the ASF multiplexer options.
 old-location: mf\mfasf_multiplexerflags.htm
 tech.root: medfound
 ms.assetid: 6989ac24-f25f-4bc8-a4b9-3e41434a0d44
-
 ms.date: 12/05/2018
 ms.keywords: 6989ac24-f25f-4bc8-a4b9-3e41434a0d44, MFASF_MULTIPLEXERFLAGS, MFASF_MULTIPLEXERFLAGS enumeration [Media Foundation], MFASF_MULTIPLEXER_AUTOADJUST_BITRATE, enumeration [Media Foundation], mf.mfasf_multiplexerflags, wmcontainer/MFASF_MULTIPLEXERFLAGS, wmcontainer/MFASF_MULTIPLEXER_AUTOADJUST_BITRATE
 ms.topic: enum
-f1_keywords: 
- - "wmcontainer/MFASF_MULTIPLEXERFLAGS"
+f1_keywords:
+- wmcontainer/MFASF_MULTIPLEXERFLAGS
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - MFASF_MULTIPLEXERFLAGS
+- MFASF_MULTIPLEXERFLAGS
 targetos: Windows
 req.typenames: MFASF_MULTIPLEXERFLAGS
 req.redist: 

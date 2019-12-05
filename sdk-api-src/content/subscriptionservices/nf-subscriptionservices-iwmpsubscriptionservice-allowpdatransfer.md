@@ -1,19 +1,17 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService.allowPDATransfer
 title: IWMPSubscriptionService::allowPDATransfer (subscriptionservices.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice_allowpdatransfer.htm
 tech.root: WMP
 ms.assetid: a824c6c0-0887-41cb-892a-832635ade222
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService interface [Windows Media Player],allowPDATransfer method, IWMPSubscriptionService.allowPDATransfer, IWMPSubscriptionService::allowPDATransfer, IWMPSubscriptionServiceallowPDATransfer, allowPDATransfer, allowPDATransfer method [Windows Media Player], allowPDATransfer method [Windows Media Player],IWMPSubscriptionService interface, subscriptionservices/IWMPSubscriptionService::allowPDATransfer, wmp.iwmpsubscriptionservice_allowpdatransfer
 ms.topic: method
-f1_keywords: 
- - "subscriptionservices/IWMPSubscriptionService.allowPDATransfer"
+f1_keywords:
+- subscriptionservices/IWMPSubscriptionService.allowPDATransfer
 dev_langs:
- - c++
+- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - subscriptionservices.h
+- subscriptionservices.h
 api_name:
- - IWMPSubscriptionService.allowPDATransfer
+- IWMPSubscriptionService.allowPDATransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

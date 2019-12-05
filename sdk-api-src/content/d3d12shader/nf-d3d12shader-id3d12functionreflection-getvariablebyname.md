@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetVariableByName
 title: ID3D12FunctionReflection::GetVariableByName (d3d12shader.h)
-
 description: Gets a variable by name.
 old-location: direct3d12\id3d12functionreflection_getvariablebyname.htm
 tech.root: direct3d12
 ms.assetid: 1E33C1B9-19DA-4ACD-8304-D5315AC63E2B
-
 ms.date: 12/05/2018
 ms.keywords: GetVariableByName, GetVariableByName method, GetVariableByName method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetVariableByName method, ID3D12FunctionReflection.GetVariableByName, ID3D12FunctionReflection::GetVariableByName, d3d12shader/ID3D12FunctionReflection::GetVariableByName, direct3d12.id3d12functionreflection_getvariablebyname
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12FunctionReflection.GetVariableByName"
+f1_keywords:
+- d3d12shader/ID3D12FunctionReflection.GetVariableByName
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12FunctionReflection.GetVariableByName
+- ID3D12FunctionReflection.GetVariableByName
 targetos: Windows
 req.typenames: 
 req.redist: 

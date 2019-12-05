@@ -1,19 +1,17 @@
 ---
 UID: NE:sdoias._DICTIONARYPROPERTIES
 title: DICTIONARYPROPERTIES (sdoias.h)
-
 description: The values of the DICTIONARYPROPERTIES properties type enumerate properties associated with the attribute dictionary.
 old-location: nps\SDO_dictionaryproperties.htm
 tech.root: Nps
 ms.assetid: 47da09d8-9b45-4910-a6b1-1759c5000482
-
 ms.date: 12/05/2018
 ms.keywords: DICTIONARYPROPERTIES, DICTIONARYPROPERTIES enumeration [Network Policy Server], PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION, PROPERTY_DICTIONARY_LOCATION, _sdo_dictionaryproperties, nps.SDO_dictionaryproperties, sdo.dictionaryproperties, sdoias/DICTIONARYPROPERTIES, sdoias/PROPERTY_DICTIONARY_ATTRIBUTES_COLLECTION, sdoias/PROPERTY_DICTIONARY_LOCATION
 ms.topic: enum
 f1_keywords:
 - sdoias/DICTIONARYPROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows

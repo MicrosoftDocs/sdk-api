@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_get_values_lenA
 title: ldap_get_values_lenA function (winldap.h)
-
 description: The ldap_get_values_len function retrieves the list of values for a given attribute.
 old-location: ldap\ldap_get_values_len.htm
 tech.root: ldap
 ms.assetid: e2100892-5dad-4fc7-8129-34c675bcf134
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_get_values_len, ldap.ldap__get__values__len, ldap.ldap_get_values_len, ldap_get_values_len, ldap_get_values_len function [LDAP], ldap_get_values_lenA, ldap_get_values_lenW, winldap/ldap_get_values_len, winldap/ldap_get_values_lenA, winldap/ldap_get_values_lenW"
+ms.keywords: _ldap_ldap_get_values_len, ldap.ldap__get__values__len, ldap.ldap_get_values_len, ldap_get_values_len, ldap_get_values_len function [LDAP], ldap_get_values_lenA, ldap_get_values_lenW, winldap/ldap_get_values_len, winldap/ldap_get_values_lenA, winldap/ldap_get_values_lenW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_get_values_len"
+f1_keywords:
+- winldap/ldap_get_values_len
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_get_values_len
- - ldap_get_values_lenA
- - ldap_get_values_lenW
+- ldap_get_values_len
+- ldap_get_values_lenA
+- ldap_get_values_lenW
 targetos: Windows
 req.typenames: 
 req.redist: 

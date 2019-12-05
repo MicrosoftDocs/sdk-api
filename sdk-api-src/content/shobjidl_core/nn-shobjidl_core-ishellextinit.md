@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellExtInit
 title: IShellExtInit (shobjidl_core.h)
-
 description: Exposes a method that initializes Shell extensions for property sheets, shortcut menus, and drag-and-drop handlers (extensions that add items to shortcut menus during nondefault drag-and-drop operations).
 old-location: shell\IShellExtInit.htm
 tech.root: shell
 ms.assetid: 5f7e7f71-4cd6-4ce4-946c-9a1f7ec72fbe
-
 ms.date: 12/05/2018
 ms.keywords: IShellExtInit, IShellExtInit interface [Windows Shell], IShellExtInit interface [Windows Shell],described, _win32_IShellExtInit, _win32_ishellextinit_cpp, shell.IShellExtInit, shobjidl_core/IShellExtInit
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellExtInit"
+f1_keywords:
+- shobjidl_core/IShellExtInit
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellExtInit
+- IShellExtInit
 targetos: Windows
 req.typenames: 
 req.redist: 

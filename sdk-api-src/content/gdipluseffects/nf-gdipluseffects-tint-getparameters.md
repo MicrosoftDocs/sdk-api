@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.Tint.GetParameters
 title: Tint::GetParameters (gdipluseffects.h)
-
 description: The Tint::GetParameters method gets the current values of the parameters of this Tint object.
 old-location: gdiplus\_gdiplus_CLASS_Tint_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\tintclass\tintmethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],Tint class, Tint class [GDI+],GetParameters method, Tint.GetParameters, Tint::GetParameters, _gdiplus_CLASS_Tint_GetParameters_, gdiplus._gdiplus_CLASS_Tint_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/Tint.GetParameters"
+f1_keywords:
+- gdipluseffects/Tint.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Tint.GetParameters
+- Tint.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

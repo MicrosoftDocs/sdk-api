@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs._WTS_LICENSE_CAPABILITIES
 title: WTS_LICENSE_CAPABILITIES (wtsdefs.h)
-
 description: Contains information about the licensing capabilities of the client.
 old-location: termserv\wts_license_capabilities.htm
 tech.root: TermServ
 ms.assetid: 975a534e-03f1-4c8f-9de1-42144e31c8cb
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], PWTS_LICENSE_CAPABILITIES, PWTS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], WRDS_LICENSE_CAPABILITIES, WRDS_LICENSE_CAPABILITIES structure [Remote Desktop Services], WTS_KEY_EXCHANGE_ALG_DH, WTS_KEY_EXCHANGE_ALG_RSA, WTS_LICENSE_CAPABILITIES, WTS_LICENSE_CAPABILITIES structure [Remote Desktop Services], termserv.wts_license_capabilities, wtsdefs/PWRDS_LICENSE_CAPABILITIES, wtsdefs/PWTS_LICENSE_CAPABILITIES, wtsdefs/WRDS_LICENSE_CAPABILITIES, wtsdefs/WTS_LICENSE_CAPABILITIES"
+ms.keywords: '*PWTS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES, PWRDS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], PWTS_LICENSE_CAPABILITIES, PWTS_LICENSE_CAPABILITIES structure pointer [Remote Desktop Services], WRDS_LICENSE_CAPABILITIES, WRDS_LICENSE_CAPABILITIES structure [Remote Desktop Services], WTS_KEY_EXCHANGE_ALG_DH, WTS_KEY_EXCHANGE_ALG_RSA, WTS_LICENSE_CAPABILITIES, WTS_LICENSE_CAPABILITIES structure [Remote Desktop Services], termserv.wts_license_capabilities, wtsdefs/PWRDS_LICENSE_CAPABILITIES, wtsdefs/PWTS_LICENSE_CAPABILITIES, wtsdefs/WRDS_LICENSE_CAPABILITIES, wtsdefs/WTS_LICENSE_CAPABILITIES'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_LICENSE_CAPABILITIES"
+f1_keywords:
+- wtsdefs/WTS_LICENSE_CAPABILITIES
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_LICENSE_CAPABILITIES
+- WTS_LICENSE_CAPABILITIES
 targetos: Windows
 req.typenames: WTS_LICENSE_CAPABILITIES, *PWTS_LICENSE_CAPABILITIES
 req.redist: 

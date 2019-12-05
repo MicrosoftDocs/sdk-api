@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_3.ID3D11DeviceContext3.Flush1
 title: ID3D11DeviceContext3::Flush1 (d3d11_3.h)
-
 description: Sends queued-up commands in the command buffer to the graphics processing unit (GPU), with a specified context type and an optional event handle to create an event query.
 old-location: direct3d11\id3d11devicecontext3_flush1.htm
 tech.root: direct3d11
 ms.assetid: DBDA19C3-EC4E-4C12-B1ED-A92E5CE28CED
-
 ms.date: 12/05/2018
 ms.keywords: Flush1, Flush1 method [Direct3D 11], Flush1 method [Direct3D 11],ID3D11DeviceContext3 interface, ID3D11DeviceContext3 interface [Direct3D 11],Flush1 method, ID3D11DeviceContext3.Flush1, ID3D11DeviceContext3::Flush1, d3d11_3/ID3D11DeviceContext3::Flush1, direct3d11.id3d11devicecontext3_flush1
 ms.topic: method
-f1_keywords: 
- - "d3d11_3/ID3D11DeviceContext3.Flush1"
+f1_keywords:
+- d3d11_3/ID3D11DeviceContext3.Flush1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext3.Flush1
+- ID3D11DeviceContext3.Flush1
 targetos: Windows
 req.typenames: 
 req.redist: 

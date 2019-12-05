@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionVisualDebug
 title: IDCompositionVisualDebug (dcomp.h)
-
 description: Represents a debug visual.
 old-location: directcomp\idcompositionvisualdebug.htm
 tech.root: directcomp
 ms.assetid: 0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisualDebug, IDCompositionVisualDebug interface [DirectComposition], IDCompositionVisualDebug interface [DirectComposition],described, dcomp/IDCompositionVisualDebug, directcomp.idcompositionvisualdebug
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionVisualDebug"
+f1_keywords:
+- dcomp/IDCompositionVisualDebug
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisualDebug
+- IDCompositionVisualDebug
 targetos: Windows
 req.typenames: 
 req.redist: 

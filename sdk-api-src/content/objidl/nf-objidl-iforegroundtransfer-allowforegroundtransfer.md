@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IForegroundTransfer.AllowForegroundTransfer
 title: IForegroundTransfer::AllowForegroundTransfer (objidl.h)
-
 description: Yields the foreground window to the COM server process.
 old-location: com\iforegroundtransfer_allowforegroundtransfer.htm
 tech.root: com
 ms.assetid: 54d138f5-5f16-4eb8-bbac-2d057b7dab2f
-
 ms.date: 12/05/2018
 ms.keywords: AllowForegroundTransfer, AllowForegroundTransfer method [COM], AllowForegroundTransfer method [COM],IForegroundTransfer interface, IForegroundTransfer interface [COM],AllowForegroundTransfer method, IForegroundTransfer.AllowForegroundTransfer, IForegroundTransfer::AllowForegroundTransfer, _com_iforegroundtransfer_allowforegroundtransfer, com.iforegroundtransfer_allowforegroundtransfer, objidl/IForegroundTransfer::AllowForegroundTransfer
 ms.topic: method
-f1_keywords: 
- - "objidl/IForegroundTransfer.AllowForegroundTransfer"
+f1_keywords:
+- objidl/IForegroundTransfer.AllowForegroundTransfer
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IForegroundTransfer.AllowForegroundTransfer
+- IForegroundTransfer.AllowForegroundTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ddeml.tagHSZPAIR
 title: HSZPAIR (ddeml.h)
-
 description: Contains a DDE service name and topic name. A DDE server application can use this structure during an XTYP_WILDCONNECT transaction to enumerate the service-topic pairs that it supports.
 old-location: dataxchg\hszpair.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\hszpair.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PHSZPAIR, HSZPAIR, HSZPAIR structure [Data Exchange], PHSZPAIR, PHSZPAIR structure pointer [Data Exchange], _win32_HSZPAIR_str, _win32_hszpair_str_cpp, dataxchg.hszpair, ddeml/HSZPAIR, ddeml/PHSZPAIR, winui._win32_hszpair_str"
+ms.keywords: '*PHSZPAIR, HSZPAIR, HSZPAIR structure [Data Exchange], PHSZPAIR, PHSZPAIR structure pointer [Data Exchange], _win32_HSZPAIR_str, _win32_hszpair_str_cpp, dataxchg.hszpair, ddeml/HSZPAIR, ddeml/PHSZPAIR, winui._win32_hszpair_str'
 ms.topic: struct
-f1_keywords: 
- - "ddeml/HSZPAIR"
+f1_keywords:
+- ddeml/HSZPAIR
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ddeml.h
+- Ddeml.h
 api_name:
- - HSZPAIR
+- HSZPAIR
 targetos: Windows
 req.typenames: HSZPAIR, *PHSZPAIR
 req.redist: 

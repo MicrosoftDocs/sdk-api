@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptGetCMap
 title: ScriptGetCMap function (usp10.h)
-
 description: Retrieves the glyph indexes of the Unicode characters in a string according to either the TrueType cmap table or the standard cmap table implemented for old-style fonts.
 old-location: intl\scriptgetcmap.htm
 tech.root: Intl
 ms.assetid: 577c356d-a22d-422c-bec7-cfbc228f1066
-
 ms.date: 12/05/2018
 ms.keywords: SGCM_RTL, ScriptGetCMap, ScriptGetCMap function [Internationalization for Windows Applications], _win32_ScriptGetCMap, intl.scriptgetcmap, usp10/ScriptGetCMap
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptGetCMap"
+f1_keywords:
+- usp10/ScriptGetCMap
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-usp10-l1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-usp10-l1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptGetCMap
+- ScriptGetCMap
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

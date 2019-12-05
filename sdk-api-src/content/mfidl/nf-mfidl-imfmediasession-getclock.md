@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetClock
 title: IMFMediaSession::GetClock (mfidl.h)
-
 description: Retrieves the Media Session's presentation clock.
 old-location: mf\imfmediasession_getclock.htm
 tech.root: medfound
 ms.assetid: 16444da2-68f2-4d94-8c6f-9e512d51e5e9
-
 ms.date: 12/05/2018
 ms.keywords: 16444da2-68f2-4d94-8c6f-9e512d51e5e9, GetClock, GetClock method [Media Foundation], GetClock method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetClock method, IMFMediaSession.GetClock, IMFMediaSession::GetClock, mf.imfmediasession_getclock, mfidl/IMFMediaSession::GetClock
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.GetClock"
+f1_keywords:
+- mfidl/IMFMediaSession.GetClock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.GetClock
+- IMFMediaSession.GetClock
 targetos: Windows
 req.typenames: 
 req.redist: 

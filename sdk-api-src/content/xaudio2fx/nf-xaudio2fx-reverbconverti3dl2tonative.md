@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2fx.ReverbConvertI3DL2ToNative
 title: ReverbConvertI3DL2ToNative function (xaudio2fx.h)
-
 description: Inline function that converts I3DL2 (Interactive 3D Audio Rendering Guidelines Level 2.0) parameters to native XAudio2 parameters.
 old-location: xaudio2\reverbconverti3dl2tonative.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.ReverbConvertI3DL2ToNative(const XAUDIO2FX_REVERB_I3DL2_PARAMETERS,XAUDIO2FX_REVERB_PARAMETERS@)
-
 ms.date: 12/05/2018
 ms.keywords: ReverbConvertI3DL2ToNative, ReverbConvertI3DL2ToNative function [XAudio2 Audio Mixing APIs], xaudio2.reverbconverti3dl2tonative, xaudio2fx/ReverbConvertI3DL2ToNative
 ms.topic: function
-f1_keywords: 
- - "xaudio2fx/ReverbConvertI3DL2ToNative"
+f1_keywords:
+- xaudio2fx/ReverbConvertI3DL2ToNative
 dev_langs:
- - c++
+- c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2fx.h
+- xaudio2fx.h
 api_name:
- - ReverbConvertI3DL2ToNative
+- ReverbConvertI3DL2ToNative
 targetos: Windows
 req.typenames: 
 req.redist: 

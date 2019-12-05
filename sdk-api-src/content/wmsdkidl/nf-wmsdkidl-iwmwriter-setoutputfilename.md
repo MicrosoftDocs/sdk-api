@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriter.SetOutputFilename
 title: IWMWriter::SetOutputFilename (wmsdkidl.h)
-
 description: The SetOutputFilename method specifies the name of the file to be written.
 old-location: wmformat\iwmwriter_setoutputfilename.htm
 tech.root: wmformat
 ms.assetid: 352cf497-f7d6-41e8-bdbb-c59215b617a3
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriter interface [windows Media Format],SetOutputFilename method, IWMWriter.SetOutputFilename, IWMWriter::SetOutputFilename, IWMWriterSetOutputFilename, SetOutputFilename, SetOutputFilename method [windows Media Format], SetOutputFilename method [windows Media Format],IWMWriter interface, wmformat.iwmwriter_setoutputfilename, wmsdkidl/IWMWriter::SetOutputFilename
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriter.SetOutputFilename"
+f1_keywords:
+- wmsdkidl/IWMWriter.SetOutputFilename
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriter.SetOutputFilename
+- IWMWriter.SetOutputFilename
 targetos: Windows
 req.typenames: 
 req.redist: 

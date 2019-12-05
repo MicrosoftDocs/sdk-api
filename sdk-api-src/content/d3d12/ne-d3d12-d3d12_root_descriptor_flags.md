@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_ROOT_DESCRIPTOR_FLAGS
 title: D3D12_ROOT_DESCRIPTOR_FLAGS (d3d12.h)
-
 description: Specifies the volatility of the data referenced by descriptors in a Root Signature 1.1 description, which can enable some driver optimizations.
 old-location: direct3d12\d3d12_root_descriptor_flags.htm
 tech.root: direct3d12
 ms.assetid: 1BF4D1FA-C938-4704-8D82-CFCA6FE954CB
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_ROOT_DESCRIPTOR_FLAGS, D3D12_ROOT_DESCRIPTOR_FLAGS enumeration, D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC, D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC_WHILE_SET_AT_EXECUTE, D3D12_ROOT_DESCRIPTOR_FLAG_DATA_VOLATILE, D3D12_ROOT_DESCRIPTOR_FLAG_NONE, d3d12/D3D12_ROOT_DESCRIPTOR_FLAGS, d3d12/D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC, d3d12/D3D12_ROOT_DESCRIPTOR_FLAG_DATA_STATIC_WHILE_SET_AT_EXECUTE, d3d12/D3D12_ROOT_DESCRIPTOR_FLAG_DATA_VOLATILE, d3d12/D3D12_ROOT_DESCRIPTOR_FLAG_NONE, direct3d12.d3d12_root_descriptor_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_ROOT_DESCRIPTOR_FLAGS"
+f1_keywords:
+- d3d12/D3D12_ROOT_DESCRIPTOR_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_ROOT_DESCRIPTOR_FLAGS
+- D3D12_ROOT_DESCRIPTOR_FLAGS
 targetos: Windows
 req.typenames: D3D12_ROOT_DESCRIPTOR_FLAGS
 req.redist: 

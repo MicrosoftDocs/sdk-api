@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_ALLOCATED_RANGE_BUFFER
 title: FILE_ALLOCATED_RANGE_BUFFER
-
 description: Indicates a range of bytes in a file.
 old-location: fs\file_allocated_range_buffer_str.htm
 tech.root: FileIO
 ms.assetid: e9c7d757-df29-4419-baba-56beb41623bf
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER structure [Files], PFILE_ALLOCATED_RANGE_BUFFER, PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files], _win32_file_allocated_range_buffer_str, base.file_allocated_range_buffer_str, fs.file_allocated_range_buffer_str, winioctl/FILE_ALLOCATED_RANGE_BUFFER, winioctl/PFILE_ALLOCATED_RANGE_BUFFER"
+ms.keywords: '*PFILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER, FILE_ALLOCATED_RANGE_BUFFER structure [Files], PFILE_ALLOCATED_RANGE_BUFFER, PFILE_ALLOCATED_RANGE_BUFFER structure pointer [Files], _win32_file_allocated_range_buffer_str, base.file_allocated_range_buffer_str, fs.file_allocated_range_buffer_str, winioctl/FILE_ALLOCATED_RANGE_BUFFER, winioctl/PFILE_ALLOCATED_RANGE_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_ALLOCATED_RANGE_BUFFER"
+f1_keywords:
+- winioctl/FILE_ALLOCATED_RANGE_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_ALLOCATED_RANGE_BUFFER
+- FILE_ALLOCATED_RANGE_BUFFER
 targetos: Windows
 req.typenames: FILE_ALLOCATED_RANGE_BUFFER, *PFILE_ALLOCATED_RANGE_BUFFER
 req.redist: 

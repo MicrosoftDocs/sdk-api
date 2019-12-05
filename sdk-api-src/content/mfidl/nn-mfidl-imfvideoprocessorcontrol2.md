@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFVideoProcessorControl2
 title: IMFVideoProcessorControl2 (mfidl.h)
-
 description: Configures the Video Processor MFT.
 old-location: mf\imfvideoprocessorcontrol2.htm
 tech.root: medfound
 ms.assetid: FE314254-AAE4-482E-A7AE-28B2591E0060
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl2, IMFVideoProcessorControl2 interface [Media Foundation], IMFVideoProcessorControl2 interface [Media Foundation],described, mf.imfvideoprocessorcontrol2, mfidl/IMFVideoProcessorControl2
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl2"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl2
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl2
+- IMFVideoProcessorControl2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:encdec.IDTFilter2
 title: IDTFilter2 (encdec.h)
-
 description: The IDTFilter2 interface extends the IDTFilter interface and is exposed by the Decrypter/Detagger filter.
 old-location: mstv\idtfilter2.htm
 tech.root: mstv
 ms.assetid: 351c77ec-fb0c-4780-ad43-8ca6716b208f
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter2, IDTFilter2 interface [Microsoft TV Technologies], IDTFilter2 interface [Microsoft TV Technologies],described, IDTFilter2Interface, encdec/IDTFilter2, mstv.idtfilter2
 ms.topic: interface
-f1_keywords: 
- - "encdec/IDTFilter2"
+f1_keywords:
+- encdec/IDTFilter2
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter2
+- IDTFilter2
 targetos: Windows
 req.typenames: 
 req.redist: 

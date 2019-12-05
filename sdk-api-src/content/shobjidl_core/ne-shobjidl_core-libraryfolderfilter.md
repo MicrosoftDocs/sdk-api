@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.LIBRARYFOLDERFILTER
 title: LIBRARYFOLDERFILTER (shobjidl_core.h)
-
 description: Defines options for filtering folder items.
 old-location: shell\LIBRARYFOLDERFILTER.htm
 tech.root: shell
 ms.assetid: 8bcb8ee7-14a9-411e-978d-ddeed83d8392
-
 ms.date: 12/05/2018
 ms.keywords: LFF_ALLITEMS, LFF_FORCEFILESYSTEM, LFF_STORAGEITEMS, LIBRARYFOLDERFILTER, LIBRARYFOLDERFILTER enumeration [Windows Shell], _shell_LIBRARYFOLDERFILTER, shell.LIBRARYFOLDERFILTER, shobjidl_core/LFF_ALLITEMS, shobjidl_core/LFF_FORCEFILESYSTEM, shobjidl_core/LFF_STORAGEITEMS, shobjidl_core/LIBRARYFOLDERFILTER
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/LIBRARYFOLDERFILTER"
+f1_keywords:
+- shobjidl_core/LIBRARYFOLDERFILTER
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - LIBRARYFOLDERFILTER
+- LIBRARYFOLDERFILTER
 targetos: Windows
 req.typenames: LIBRARYFOLDERFILTER
 req.redist: 

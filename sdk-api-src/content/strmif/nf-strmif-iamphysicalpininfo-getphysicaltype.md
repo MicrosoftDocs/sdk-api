@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMPhysicalPinInfo.GetPhysicalType
 title: IAMPhysicalPinInfo::GetPhysicalType (strmif.h)
-
 description: Note  The IAMPhysicalPinInfo interface is deprecated. Retrieves the type and name of the physical pin.
 old-location: dshow\iamphysicalpininfo_getphysicaltype.htm
 tech.root: DirectShow
 ms.assetid: e18be591-64c7-4da0-aa28-c51dca7901b7
-
 ms.date: 12/05/2018
 ms.keywords: GetPhysicalType, GetPhysicalType method [DirectShow], GetPhysicalType method [DirectShow],IAMPhysicalPinInfo interface, IAMPhysicalPinInfo interface [DirectShow],GetPhysicalType method, IAMPhysicalPinInfo.GetPhysicalType, IAMPhysicalPinInfo::GetPhysicalType, IAMPhysicalPinInfoGetPhysicalType, dshow.iamphysicalpininfo_getphysicaltype, strmif/IAMPhysicalPinInfo::GetPhysicalType
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMPhysicalPinInfo.GetPhysicalType"
+f1_keywords:
+- strmif/IAMPhysicalPinInfo.GetPhysicalType
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMPhysicalPinInfo.GetPhysicalType
+- IAMPhysicalPinInfo.GetPhysicalType
 targetos: Windows
 req.typenames: 
 req.redist: 

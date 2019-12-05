@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.get_ActionVariables
 title: IFsrmFileScreenManager::get_ActionVariables (fsrmscreen.h)
-
 description: Retrieves a list of macros that you can specify in action property values.
 old-location: fsrm\ifsrmfilescreenmanager_actionvariables.htm
 tech.root: fsrm
 ms.assetid: 70bb9e51-cd32-45cd-94b4-7018397e8f77
-
 ms.date: 12/05/2018
 ms.keywords: ActionVariables property [File Server Resource Manager], ActionVariables property [File Server Resource Manager],FsrmFileScreenManager class, ActionVariables property [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],ActionVariables property, IFsrmFileScreenManager interface [File Server Resource Manager],ActionVariables property, IFsrmFileScreenManager.ActionVariables, IFsrmFileScreenManager.get_ActionVariables, IFsrmFileScreenManager::ActionVariables, IFsrmFileScreenManager::get_ActionVariables, fs.ifsrmfilescreenmanager_actionvariables, fsrm.ifsrmfilescreenmanager_actionvariables, fsrmscreen/IFsrmFileScreenManager::ActionVariables, fsrmscreen/IFsrmFileScreenManager::get_ActionVariables, get_ActionVariables
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenManager.ActionVariables"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenManager.ActionVariables
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager.ActionVariables
- - IFsrmFileScreenManager.get_ActionVariables
- - FsrmFileScreenManager.ActionVariables
+- IFsrmFileScreenManager.ActionVariables
+- IFsrmFileScreenManager.get_ActionVariables
+- FsrmFileScreenManager.ActionVariables
 targetos: Windows
 req.typenames: 
 req.redist: 

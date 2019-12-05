@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.put_MaxCount
 title: ITuningSpaceContainer::put_MaxCount (tuner.h)
-
 description: The put_MaxCount method sets the maximum number of tuning spaces allowed on the system.
 old-location: mstv\ituningspacecontainer_put_maxcount.htm
 tech.root: mstv
 ms.assetid: a469557b-c01a-4922-99ad-641c74130cc9
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],put_MaxCount method, ITuningSpaceContainer.put_MaxCount, ITuningSpaceContainer::put_MaxCount, ITuningSpaceContainerput_MaxCount, mstv.ituningspacecontainer_put_maxcount, put_MaxCount, put_MaxCount method [Microsoft TV Technologies], put_MaxCount method [Microsoft TV Technologies],ITuningSpaceContainer interface, tuner/ITuningSpaceContainer::put_MaxCount
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaceContainer.put_MaxCount"
+f1_keywords:
+- tuner/ITuningSpaceContainer.put_MaxCount
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaceContainer.put_MaxCount
+- ITuningSpaceContainer.put_MaxCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PifMgr_CloseProperties
 title: PifMgr_CloseProperties function (shlobj_core.h)
-
 description: Closes application properties that were opened with PifMgr_OpenProperties.
 old-location: properties\PifMgr_CloseProperties.htm
 tech.root: properties
 ms.assetid: fd50d4f8-87c8-4162-9e88-3c8592b929fa
-
 ms.date: 12/05/2018
 ms.keywords: CLOSEPROPS_DISCARD, CLOSEPROPS_NONE, PifMgr_CloseProperties, PifMgr_CloseProperties function [Windows Properties], _win32_PifMgr_CloseProperties, properties.PifMgr_CloseProperties, shell.PifMgr_CloseProperties, shlobj_core/PifMgr_CloseProperties
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PifMgr_CloseProperties"
+f1_keywords:
+- shlobj_core/PifMgr_CloseProperties
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - PifMgr_CloseProperties
+- PifMgr_CloseProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.VerifyPermission
 title: IWMPContentPartner::VerifyPermission (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_verifypermission.htm
 tech.root: WMP
 ms.assetid: 7ff45264-6e49-4953-bc0a-b3652aee965d
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],VerifyPermission method, IWMPContentPartner.VerifyPermission, IWMPContentPartner::VerifyPermission, IWMPContentPartnerVerifyPermission, VerifyPermission, VerifyPermission method [Windows Media Player], VerifyPermission method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::VerifyPermission, wmp.iwmpcontentpartner_verifypermission
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.VerifyPermission"
+f1_keywords:
+- contentpartner/IWMPContentPartner.VerifyPermission
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.VerifyPermission
+- IWMPContentPartner.VerifyPermission
 targetos: Windows
 req.typenames: 
 req.redist: 

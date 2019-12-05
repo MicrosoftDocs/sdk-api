@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_FILETIME
 title: CLUSPROP_FILETIME (clusapi.h)
-
 description: Describes a date and time stamp for a file.
 old-location: mscs\clusprop_filetime.htm
 tech.root: MsCS
 ms.assetid: 2c88e9db-f218-4b88-9bb0-607fd09e8d0b
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_FILETIME, CLUSPROP_FILETIME, CLUSPROP_FILETIME structure [Failover Cluster], PCLUSPROP_FILETIME, PCLUSPROP_FILETIME structure pointer [Failover Cluster], clusapi/CLUSPROP_FILETIME, clusapi/PCLUSPROP_FILETIME, mscs.clusprop_filetime"
+ms.keywords: '*PCLUSPROP_FILETIME, CLUSPROP_FILETIME, CLUSPROP_FILETIME structure [Failover Cluster], PCLUSPROP_FILETIME, PCLUSPROP_FILETIME structure pointer [Failover Cluster], clusapi/CLUSPROP_FILETIME, clusapi/PCLUSPROP_FILETIME, mscs.clusprop_filetime'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_FILETIME"
+f1_keywords:
+- clusapi/CLUSPROP_FILETIME
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_FILETIME
+- CLUSPROP_FILETIME
 targetos: Windows
 req.typenames: CLUSPROP_FILETIME, *PCLUSPROP_FILETIME
 req.redist: 

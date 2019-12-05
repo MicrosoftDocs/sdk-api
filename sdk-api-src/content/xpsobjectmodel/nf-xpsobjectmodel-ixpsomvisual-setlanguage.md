@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetLanguage
 title: IXpsOMVisual::SetLanguage (xpsobjectmodel.h)
-
 description: Sets the Language property of the visual.
 old-location: xps\ixpsomvisual_setlanguage.htm
 tech.root: printdocs
 ms.assetid: 19a7c10d-ceea-4303-a655-a3cb8b910377
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetLanguage method, IXpsOMVisual.SetLanguage, IXpsOMVisual::SetLanguage, SetLanguage, SetLanguage method [XPS Documents and Packaging], SetLanguage method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setlanguage, xpsobjectmodel/IXpsOMVisual::SetLanguage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetLanguage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetLanguage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetLanguage
+- IXpsOMVisual.SetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

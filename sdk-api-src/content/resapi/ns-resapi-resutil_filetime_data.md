@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.RESUTIL_FILETIME_DATA
 title: RESUTIL_FILETIME_DATA (resapi.h)
-
 description: Describes the default, maximum, and minimum values allowed for a FILETIME.
 old-location: mscs\resutil_filetime_data.htm
 tech.root: MsCS
 ms.assetid: 47009cac-fcfe-43f5-9676-4e5db863c909
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA"
+ms.keywords: '*PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA, PRESUTIL_FILETIME_DATA structure pointer [Failover Cluster], RESUTIL_FILETIME_DATA, RESUTIL_FILETIME_DATA structure [Failover Cluster], mscs.resutil_filetime_data, resapi/PRESUTIL_FILETIME_DATA, resapi/RESUTIL_FILETIME_DATA'
 ms.topic: struct
-f1_keywords: 
- - "resapi/RESUTIL_FILETIME_DATA"
+f1_keywords:
+- resapi/RESUTIL_FILETIME_DATA
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - RESUTIL_FILETIME_DATA
+- RESUTIL_FILETIME_DATA
 targetos: Windows
 req.typenames: RESUTIL_FILETIME_DATA, *PRESUTIL_FILETIME_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_MembersName
 title: IAzApplicationGroup::get_MembersName (azroles.h)
-
 description: Retrieves the account names of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_membersname.htm
 tech.root: SecAuthZ
 ms.assetid: bdd6f88f-ea06-4075-b563-d0c7707107f8
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],MembersName property, IAzApplicationGroup interface [Security],MembersName property, IAzApplicationGroup.MembersName, IAzApplicationGroup.get_MembersName, IAzApplicationGroup::MembersName, IAzApplicationGroup::get_MembersName, MembersName property [Security], MembersName property [Security],AzApplicationGroup object, MembersName property [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::MembersName, azroles/IAzApplicationGroup::get_MembersName, get_MembersName, security.iazapplicationgroup_membersname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.MembersName"
+f1_keywords:
+- azroles/IAzApplicationGroup.MembersName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.MembersName
- - IAzApplicationGroup.get_MembersName
- - AzApplicationGroup.MembersName
+- IAzApplicationGroup.MembersName
+- IAzApplicationGroup.get_MembersName
+- AzApplicationGroup.MembersName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

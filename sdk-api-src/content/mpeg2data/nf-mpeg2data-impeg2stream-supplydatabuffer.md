@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2data.IMpeg2Stream.SupplyDataBuffer
 title: IMpeg2Stream::SupplyDataBuffer (mpeg2data.h)
-
 description: The SupplyDataBuffer method provides a buffer for the Mpeg2Stream object to write data.
 old-location: mstv\impeg2stream_supplydatabuffer.htm
 tech.root: mstv
 ms.assetid: 68950eba-6c23-49f7-9651-d4db9e554de3
-
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Stream interface [Microsoft TV Technologies],SupplyDataBuffer method, IMpeg2Stream.SupplyDataBuffer, IMpeg2Stream::SupplyDataBuffer, IMpeg2StreamSupplyDataBuffer, SupplyDataBuffer, SupplyDataBuffer method [Microsoft TV Technologies], SupplyDataBuffer method [Microsoft TV Technologies],IMpeg2Stream interface, mpeg2data/IMpeg2Stream::SupplyDataBuffer, mstv.impeg2stream_supplydatabuffer
 ms.topic: method
-f1_keywords: 
- - "mpeg2data/IMpeg2Stream.SupplyDataBuffer"
+f1_keywords:
+- mpeg2data/IMpeg2Stream.SupplyDataBuffer
 dev_langs:
- - c++
+- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2data.h
+- Mpeg2data.h
 api_name:
- - IMpeg2Stream.SupplyDataBuffer
+- IMpeg2Stream.SupplyDataBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

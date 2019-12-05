@@ -1,19 +1,17 @@
 ---
 UID: NE:msinkaut.InkPictureSizeMode
 title: InkPictureSizeMode (msinkaut.h)
-
 description: Specifies how the picture behaves inside the InkPicture control.
 old-location: tablet\inkpicturesizemode.htm
 tech.root: tablet
 ms.assetid: e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a
-
 ms.date: 12/05/2018
 ms.keywords: IPSM_AutoSize, IPSM_CenterImage, IPSM_Normal, IPSM_StretchImage, InkPictureSizeMode, InkPictureSizeMode enumeration [Tablet PC], e24c38b4-b25f-4d0e-88f5-f56f5dc6be1a, msinkaut/IPSM_AutoSize, msinkaut/IPSM_CenterImage, msinkaut/IPSM_Normal, msinkaut/IPSM_StretchImage, msinkaut/InkPictureSizeMode, tablet.inkpicturesizemode
 ms.topic: enum
-f1_keywords: 
- - "msinkaut/InkPictureSizeMode"
+f1_keywords:
+- msinkaut/InkPictureSizeMode
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - InkPictureSizeMode
+- InkPictureSizeMode
 targetos: Windows
 req.typenames: InkPictureSizeMode
 req.redist: 

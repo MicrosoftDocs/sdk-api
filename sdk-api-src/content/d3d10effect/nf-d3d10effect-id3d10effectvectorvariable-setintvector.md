@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetIntVector
 title: ID3D10EffectVectorVariable::SetIntVector (d3d10effect.h)
-
 description: Set a four-component vector that contains integer data.
 old-location: direct3d10\id3d10effectvectorvariable_setintvector.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setintvector.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5a963b18-3c66-7707-2028-6e38c0de7531, ID3D10EffectVectorVariable interface [Direct3D 10],SetIntVector method, ID3D10EffectVectorVariable.SetIntVector, ID3D10EffectVectorVariable::SetIntVector, SetIntVector, SetIntVector method [Direct3D 10], SetIntVector method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetIntVector, direct3d10.id3d10effectvectorvariable_setintvector
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVectorVariable.SetIntVector"
+f1_keywords:
+- d3d10effect/ID3D10EffectVectorVariable.SetIntVector
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVectorVariable.SetIntVector
+- ID3D10EffectVectorVariable.SetIntVector
 targetos: Windows
 req.typenames: 
 req.redist: 

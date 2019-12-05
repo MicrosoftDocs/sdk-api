@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStreamByNumber
 title: IMFASFProfile::GetStreamByNumber (wmcontainer.h)
-
 description: Retrieves an Advanced Systems Format (ASF) stream configuration object for a stream in the profile. This method references the stream by stream number instead of stream index.
 old-location: mf\imfasfprofile_getstreambynumber.htm
 tech.root: medfound
 ms.assetid: 1e3fadf0-1549-4d51-b263-727b15c55023
-
 ms.date: 12/05/2018
 ms.keywords: 1e3fadf0-1549-4d51-b263-727b15c55023, GetStreamByNumber, GetStreamByNumber method [Media Foundation], GetStreamByNumber method [Media Foundation],IMFASFProfile interface, IMFASFProfile interface [Media Foundation],GetStreamByNumber method, IMFASFProfile.GetStreamByNumber, IMFASFProfile::GetStreamByNumber, mf.imfasfprofile_getstreambynumber, wmcontainer/IMFASFProfile::GetStreamByNumber
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFProfile.GetStreamByNumber"
+f1_keywords:
+- wmcontainer/IMFASFProfile.GetStreamByNumber
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFProfile.GetStreamByNumber
+- IMFASFProfile.GetStreamByNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

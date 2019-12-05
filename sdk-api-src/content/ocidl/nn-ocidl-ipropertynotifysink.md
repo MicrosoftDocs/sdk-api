@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPropertyNotifySink
 title: IPropertyNotifySink (ocidl.h)
-
 description: Implemented by a sink object to receive notifications about property changes from an object that supports IPropertyNotifySink as an outgoing interface.
 old-location: com\ipropertynotifysink.htm
 tech.root: com
 ms.assetid: bfdf315c-6375-4c77-abd8-03f07342820f
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyNotifySink, IPropertyNotifySink interface [COM], IPropertyNotifySink interface [COM],described, _ctrl_ipropertynotifysink, com.ipropertynotifysink, ocidl/IPropertyNotifySink
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPropertyNotifySink"
+f1_keywords:
+- ocidl/IPropertyNotifySink
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyNotifySink
+- IPropertyNotifySink
 targetos: Windows
 req.typenames: 
 req.redist: 

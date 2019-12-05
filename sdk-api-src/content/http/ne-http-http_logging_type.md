@@ -1,19 +1,17 @@
 ---
 UID: NE:http._HTTP_LOGGING_TYPE
 title: HTTP_LOGGING_TYPE (http.h)
-
 description: Defines the type of logging that is performed.
 old-location: http\http_logging_type.htm
 tech.root: http
 ms.assetid: 74a32957-7305-4f2b-a509-7d6aa11d2052
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_LOGGING_TYPE, *PHTTP_LOGGING_TYPE enumeration [HTTP], HTTP_LOGGING_TYPE, HTTP_LOGGING_TYPE enumeration [HTTP], HttpLoggingTypeIIS, HttpLoggingTypeNCSA, HttpLoggingTypeRaw, HttpLoggingTypeW3C, http.http_logging_type, http/*PHTTP_LOGGING_TYPE, http/HTTP_LOGGING_TYPE, http/HttpLoggingTypeIIS, http/HttpLoggingTypeNCSA, http/HttpLoggingTypeRaw, http/HttpLoggingTypeW3C'
 ms.topic: enum
 f1_keywords:
 - http/HTTP_LOGGING_TYPE
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

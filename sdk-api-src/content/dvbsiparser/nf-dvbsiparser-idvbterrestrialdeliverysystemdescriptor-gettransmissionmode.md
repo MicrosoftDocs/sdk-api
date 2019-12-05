@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 title: IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gettransmissionmode.htm
 tech.root: mstv
 ms.assetid: d825f933-0da6-4e8e-bc28-b9e2db575a12
-
 ms.date: 12/05/2018
 ms.keywords: GetTransmissionMode, GetTransmissionMode method [Microsoft TV Technologies], GetTransmissionMode method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTransmissionMode method, IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode, IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, IDvbTerrestrialDeliverySystemDescriptorGetTransmissionMode, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTransmissionMode, mstv.idvbterrestrialdeliverysystemdescriptor_gettransmissionmode
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode"
+f1_keywords:
+- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
+- IDvbTerrestrialDeliverySystemDescriptor.GetTransmissionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

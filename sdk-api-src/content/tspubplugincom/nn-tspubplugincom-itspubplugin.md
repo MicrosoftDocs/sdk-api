@@ -1,19 +1,17 @@
 ---
 UID: NN:tspubplugincom.ItsPubPlugin
 title: ItsPubPlugin (tspubplugincom.h)
-
 description: Exposes properties and methods that provide information about resources available to users of RemoteApp and Desktop Connections.
 old-location: termserv\itspubplugin.htm
 tech.root: TermServ
 ms.assetid: 37d33f27-a811-4c97-bc80-ff8a5b8fcb7c
-
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin, ItsPubPlugin interface [Remote Desktop Services], ItsPubPlugin interface [Remote Desktop Services],described, termserv.itspubplugin, tspubplugincom/ItsPubPlugin
 ms.topic: interface
-f1_keywords: 
- - "tspubplugincom/ItsPubPlugin"
+f1_keywords:
+- tspubplugincom/ItsPubPlugin
 dev_langs:
- - c++
+- c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tspubplugincom.h
+- tspubplugincom.h
 api_name:
- - ItsPubPlugin
+- ItsPubPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

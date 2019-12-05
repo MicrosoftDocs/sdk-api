@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_RESPONSE_V2
 title: HTTP_RESPONSE_V2 (http.h)
-
 description: Extends the HTTP version 1.0 response structure with more information for the response.
 old-location: http\http_response_v2.htm
 tech.root: http
 ms.assetid: 1900741e-f466-4826-b376-36170176c30a
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_RESPONSE, *PHTTP_RESPONSE_V2, *PHTTP_RESPONSE_V2 structure [HTTP], HTTP_RESPONSE, HTTP_RESPONSE_V2, HTTP_RESPONSE_V2 structure [HTTP], http.http_response_v2, http/*PHTTP_RESPONSE_V2, http/HTTP_RESPONSE_V2'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_RESPONSE_V2
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

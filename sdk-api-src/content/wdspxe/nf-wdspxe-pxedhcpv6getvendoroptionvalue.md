@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6GetVendorOptionValue
 title: PxeDhcpv6GetVendorOptionValue function (wdspxe.h)
-
 description: Retrieves option values from the OPTION_VENDOR_OPTS (17) field of a DHCPv6 packet.
 old-location: wds\pxedhcpv6getvendoroptionvalue.htm
 tech.root: wds
 ms.assetid: 9F969C0C-93CA-4355-8556-2F43542570F1
-
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6GetVendorOptionValue, PxeDhcpv6GetVendorOptionValue function [Windows Deployment Services], wds.pxedhcpv6getvendoroptionvalue, wdspxe/PxeDhcpv6GetVendorOptionValue
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpv6GetVendorOptionValue"
+f1_keywords:
+- wdspxe/PxeDhcpv6GetVendorOptionValue
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpv6GetVendorOptionValue
+- PxeDhcpv6GetVendorOptionValue
 targetos: Windows
 req.typenames: 
 req.redist: 

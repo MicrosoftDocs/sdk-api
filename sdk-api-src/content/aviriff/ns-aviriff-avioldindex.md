@@ -1,19 +1,17 @@
 ---
 UID: NS:aviriff._avioldindex
 title: AVIOLDINDEX (aviriff.h)
-
 description: The AVIOLDINDEX structure describes an AVI 1.0 index ('idx1' format). New AVI files should use an AVI 2.0 index ('indx' format).
 old-location: dshow\avioldindex.htm
 tech.root: DirectShow
 ms.assetid: c36d5759-710e-4abe-85dc-13462013bb9f
-
 ms.date: 12/05/2018
 ms.keywords: AVIIF_KEYFRAME, AVIIF_LIST, AVIIF_NO_TIME, AVIOLDINDEX, AVIOLDINDEX structure [DirectShow], AVIOLDINDEXStructure, aviriff/AVIOLDINDEX, db, dc, dshow.avioldindex, pc, wb
 ms.topic: struct
-f1_keywords: 
- - "aviriff/AVIOLDINDEX"
+f1_keywords:
+- aviriff/AVIOLDINDEX
 dev_langs:
- - c++
+- c++
 req.header: aviriff.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Aviriff.h
+- Aviriff.h
 api_name:
- - AVIOLDINDEX
+- AVIOLDINDEX
 targetos: Windows
 req.typenames: AVIOLDINDEX
 req.redist: 

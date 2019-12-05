@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessor.GetVideoProcessorService
 title: IDirectXVideoProcessor::GetVideoProcessorService (dxva2api.h)
-
 description: Retrieves the DirectX Video Acceleration (DXVA) video processor service that created this video processor device.
 old-location: mf\idirectxvideoprocessor_getvideoprocessorservice.htm
 tech.root: medfound
 ms.assetid: 920bc584-16ea-4f66-b507-2fe63bfd4fd5
-
 ms.date: 12/05/2018
 ms.keywords: 920bc584-16ea-4f66-b507-2fe63bfd4fd5, GetVideoProcessorService, GetVideoProcessorService method [Media Foundation], GetVideoProcessorService method [Media Foundation],IDirectXVideoProcessor interface, IDirectXVideoProcessor interface [Media Foundation],GetVideoProcessorService method, IDirectXVideoProcessor.GetVideoProcessorService, IDirectXVideoProcessor::GetVideoProcessorService, dxva2api/IDirectXVideoProcessor::GetVideoProcessorService, mf.idirectxvideoprocessor_getvideoprocessorservice
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirectXVideoProcessor.GetVideoProcessorService"
+f1_keywords:
+- dxva2api/IDirectXVideoProcessor.GetVideoProcessorService
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoProcessor.GetVideoProcessorService
+- IDirectXVideoProcessor.GetVideoProcessorService
 targetos: Windows
 req.typenames: 
 req.redist: 

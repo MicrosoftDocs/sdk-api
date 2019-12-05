@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.Conclude
 title: IUIAnimationStoryboard::Conclude (uianimation.h)
-
 description: Completes the current iteration of a keyframe loop that is in progress (where the loop is set to UI_ANIMATION_REPEAT_INDEFINITELY), terminates the loop, and continues with the storyboard.
 old-location: uianimation\iuianimationstoryboard_conclude.htm
 tech.root: UIAnimation
 ms.assetid: 82f915df-c031-41e9-8347-044b37793182
-
 ms.date: 12/05/2018
 ms.keywords: Conclude, Conclude method [Windows Animation], Conclude method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Conclude method, IUIAnimationStoryboard.Conclude, IUIAnimationStoryboard::Conclude, uianimation.iuianimationstoryboard_conclude, uianimation/IUIAnimationStoryboard::Conclude
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.Conclude"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.Conclude
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.Conclude
+- IUIAnimationStoryboard.Conclude
 targetos: Windows
 req.typenames: 
 req.redist: 

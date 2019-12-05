@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongPtrToUIntPtr
 title: ULongPtrToUIntPtr function (intsafe.h)
-
 description: Converts a value of type ULONG_PTR to a value of type UINT_PTR.
 old-location: shell\ULongPtrToUIntPtr.htm
 tech.root: shell
 ms.assetid: 512f7db7-af3b-4cf8-aad5-138c5da344da
-
 ms.date: 12/05/2018
 ms.keywords: DWordPtrToUIntPtr, ULongPtrToUIntPtr, ULongPtrToUIntPtr function [Windows Shell], _shell_ULongPtrToUIntPtr, intsafe/ULongPtrToUIntPtr, shell.ULongPtrToUIntPtr
 ms.topic: function
-f1_keywords: 
- - "intsafe/ULongPtrToUIntPtr"
+f1_keywords:
+- intsafe/ULongPtrToUIntPtr
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - ULongPtrToUIntPtr
+- ULongPtrToUIntPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

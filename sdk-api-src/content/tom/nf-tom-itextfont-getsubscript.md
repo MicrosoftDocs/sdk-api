@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.GetSubscript
 title: ITextFont::GetSubscript (tom.h)
-
 description: Gets whether characters are displayed as subscript.
 old-location: controls\ITextFont_GetSubscript.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsubscript.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetSubscript, GetSubscript method [Windows Controls], GetSubscript method [Windows Controls],ITextFont interface, ITextFont interface [Windows Controls],GetSubscript method, ITextFont.GetSubscript, ITextFont::GetSubscript, _win32_ITextFont_GetSubscript, _win32_ITextFont_GetSubscript_cpp, controls.ITextFont_GetSubscript, controls._win32_ITextFont_GetSubscript, tom/ITextFont::GetSubscript
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.GetSubscript"
+f1_keywords:
+- tom/ITextFont.GetSubscript
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.GetSubscript
+- ITextFont.GetSubscript
 targetos: Windows
 req.typenames: 
 req.redist: 

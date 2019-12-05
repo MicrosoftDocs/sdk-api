@@ -1,19 +1,17 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0025
 title: MPEG_DATE (mpeg2structs.h)
-
 description: The MPEG_DATE structure specifies a date.
 old-location: mstv\mpeg_date.htm
 tech.root: mstv
 ms.assetid: 82c58d97-376f-40d0-9511-32361ece8ebb
-
 ms.date: 12/05/2018
 ms.keywords: MPEG_DATE, MPEG_DATE structure [Microsoft TV Technologies], mpeg2structs/MPEG_DATE, mstv.mpeg_date
 ms.topic: struct
-f1_keywords: 
- - "mpeg2structs/MPEG_DATE"
+f1_keywords:
+- mpeg2structs/MPEG_DATE
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPEG_DATE
+- MPEG_DATE
 targetos: Windows
 req.typenames: MPEG_DATE
 req.redist: 

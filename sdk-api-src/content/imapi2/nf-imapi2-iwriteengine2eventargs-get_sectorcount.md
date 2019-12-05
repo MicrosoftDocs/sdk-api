@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_SectorCount
 title: IWriteEngine2EventArgs::get_SectorCount (imapi2.h)
-
 description: Retrieves the number of sectors to write to the device in the current write operation.
 old-location: imapi\iwriteengine2eventargs_get_sectorcount.htm
 tech.root: imapi
 ms.assetid: b23c81c2-792e-45fc-b862-6daf5b1a6fd1
-
 ms.date: 12/05/2018
 ms.keywords: IWriteEngine2EventArgs interface [IMAPI],get_SectorCount method, IWriteEngine2EventArgs.get_SectorCount, IWriteEngine2EventArgs::get_SectorCount, get_SectorCount, get_SectorCount method [IMAPI], get_SectorCount method [IMAPI],IWriteEngine2EventArgs interface, imapi.iwriteengine2eventargs_get_sectorcount, imapi2/IWriteEngine2EventArgs::get_SectorCount
 ms.topic: method
-f1_keywords: 
- - "imapi2/IWriteEngine2EventArgs.get_SectorCount"
+f1_keywords:
+- imapi2/IWriteEngine2EventArgs.get_SectorCount
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteEngine2EventArgs.get_SectorCount
+- IWriteEngine2EventArgs.get_SectorCount
 targetos: Windows
 req.typenames: 
 req.redist: 

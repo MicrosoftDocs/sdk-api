@@ -4,10 +4,10 @@ title: CHOOSECOLORW
 ms.date: 01/30/19
 ms.keywords: tagCHOOSECOLORW, CHOOSECOLORW
 ms.topic: language-reference
-f1_keywords: 
- - "commdlg/tagCHOOSECOLORW"
+f1_keywords:
+- commdlg/tagCHOOSECOLORW
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: CHOOSECOLORW, *LPCHOOSECOLORW
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - commdlg.h
+- commdlg.h
 api_name:
- - tagCHOOSECOLORW
- - CHOOSECOLORW
+- tagCHOOSECOLORW
+- CHOOSECOLORW
 ---
 
 # CHOOSECOLORW structure

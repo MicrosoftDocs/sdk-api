@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCalculateImageSize
 title: MFCalculateImageSize function (mfapi.h)
-
 description: Retrieves the image size, in bytes, for an uncompressed video format.
 old-location: mf\mfcalculateimagesize.htm
 tech.root: medfound
 ms.assetid: 039ee3cd-2221-4405-ba7f-233a93a0271b
-
 ms.date: 12/05/2018
 ms.keywords: 039ee3cd-2221-4405-ba7f-233a93a0271b, MFCalculateImageSize, MFCalculateImageSize function [Media Foundation], mf.mfcalculateimagesize, mfapi/MFCalculateImageSize
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCalculateImageSize"
+f1_keywords:
+- mfapi/MFCalculateImageSize
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCalculateImageSize
+- MFCalculateImageSize
 targetos: Windows
 req.typenames: 
 req.redist: 

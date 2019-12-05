@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IPersistFolder2
 title: IPersistFolder2 (shobjidl_core.h)
-
 description: Exposes methods that obtain information from Shell folder objects.
 old-location: shell\IPersistFolder2.htm
 tech.root: shell
 ms.assetid: 3deb3467-b6f2-49f9-ba24-fd2cca80f247
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFolder2, IPersistFolder2 interface [Windows Shell], IPersistFolder2 interface [Windows Shell],described, _win32_IPersistFolder2, shell.IPersistFolder2, shobjidl_core/IPersistFolder2
 ms.topic: interface
 f1_keywords:
 - shobjidl_core/IPersistFolder2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

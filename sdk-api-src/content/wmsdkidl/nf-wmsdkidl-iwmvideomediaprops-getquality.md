@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.GetQuality
 title: IWMVideoMediaProps::GetQuality (wmsdkidl.h)
-
 description: The GetQuality method retrieves the quality setting for the video stream.
 old-location: wmformat\iwmvideomediaprops_getquality.htm
 tech.root: wmformat
 ms.assetid: 9edfe229-ffc5-4266-93af-1938bbd577c2
-
 ms.date: 12/05/2018
 ms.keywords: GetQuality, GetQuality method [windows Media Format], GetQuality method [windows Media Format],IWMVideoMediaProps interface, IWMVideoMediaProps interface [windows Media Format],GetQuality method, IWMVideoMediaProps.GetQuality, IWMVideoMediaProps::GetQuality, IWMVideoMediaPropsGetQuality, wmformat.iwmvideomediaprops_getquality, wmsdkidl/IWMVideoMediaProps::GetQuality
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMVideoMediaProps.GetQuality"
+f1_keywords:
+- wmsdkidl/IWMVideoMediaProps.GetQuality
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wmvcore.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
+- Wmvcore.lib
+- Wmvcore.dll
 api_name:
- - IWMVideoMediaProps.GetQuality
+- IWMVideoMediaProps.GetQuality
 targetos: Windows
 req.typenames: 
 req.redist: 

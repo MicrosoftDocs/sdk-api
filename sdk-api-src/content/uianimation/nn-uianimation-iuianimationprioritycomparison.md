@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationPriorityComparison
 title: IUIAnimationPriorityComparison (uianimation.h)
-
 description: Defines a method for priority comparison that the animation manager uses to resolve scheduling conflicts.
 old-location: uianimation\iuianimationprioritycomparison.htm
 tech.root: UIAnimation
 ms.assetid: 65311cf0-f8d4-4d2c-bd4d-585ae5d921df
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPriorityComparison, IUIAnimationPriorityComparison interface [Windows Animation], IUIAnimationPriorityComparison interface [Windows Animation],described, uianimation.iuianimationprioritycomparison, uianimation/IUIAnimationPriorityComparison
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationPriorityComparison"
+f1_keywords:
+- uianimation/IUIAnimationPriorityComparison
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationPriorityComparison
+- IUIAnimationPriorityComparison
 targetos: Windows
 req.typenames: 
 req.redist: 

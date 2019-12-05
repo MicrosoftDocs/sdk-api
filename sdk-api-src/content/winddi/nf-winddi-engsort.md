@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngSort
 title: EngSort function (winddi.h)
-
 description: The EngSort function performs a quick-sort on the specified list.
 old-location: display\engsort.htm
 tech.root: display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60
-
 ms.date: 12/05/2018
 ms.keywords: EngSort, EngSort function [Display Devices], display.engsort, gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml, winddi/EngSort
 ms.topic: function
-f1_keywords: 
- - "winddi/EngSort"
+f1_keywords:
+- winddi/EngSort
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngSort
+- EngSort
 targetos: Windows
 req.typenames: 
 req.redist: 

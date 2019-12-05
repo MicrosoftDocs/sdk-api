@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDetectTone.get_Frequency
 title: ITDetectTone::get_Frequency (tapi3if.h)
-
 description: The get_Frequency method retrieves the frequency of the tone for which the TAPI Server generates a tone event.
 old-location: tapi3\itdetecttone_get_frequency.htm
 tech.root: Tapi
 ms.assetid: a7137eba-c863-4125-9602-14bfba814b2a
-
 ms.date: 12/05/2018
 ms.keywords: ITDetectTone interface [TAPI 2.2],get_Frequency method, ITDetectTone.get_Frequency, ITDetectTone::get_Frequency, _tapi3_itdetecttone_get_frequency, get_Frequency, get_Frequency method [TAPI 2.2], get_Frequency method [TAPI 2.2],ITDetectTone interface, tapi3.itdetecttone_get_frequency, tapi3if/ITDetectTone::get_Frequency
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDetectTone.get_Frequency"
+f1_keywords:
+- tapi3if/ITDetectTone.get_Frequency
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDetectTone.get_Frequency
+- ITDetectTone.get_Frequency
 targetos: Windows
 req.typenames: 
 req.redist: 

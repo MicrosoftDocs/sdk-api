@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserSize64
 title: LPSAFEARRAY_UserSize64 function (wia_xp.h)
-
 description: Calculates the wire size of the SAFEARRAY object, and gets its handle and data.
 old-location: automat\lpsafearray_usersize64.htm
 tech.root: automat
 ms.assetid: 5F41D197-027E-4640-833A-4F6239F0DFB0
-
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserSize64, LPSAFEARRAY_UserSize64 function [Automation], automat.lpsafearray_usersize64, wia_xp/LPSAFEARRAY_UserSize64
 ms.topic: function
-f1_keywords: 
- - "wia_xp/LPSAFEARRAY_UserSize64"
+f1_keywords:
+- wia_xp/LPSAFEARRAY_UserSize64
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - LPSAFEARRAY_UserSize64
+- LPSAFEARRAY_UserSize64
 targetos: Windows
 req.typenames: 
 req.redist: 

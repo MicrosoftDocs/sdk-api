@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagVARDESC
 title: VARDESC (oaidl.h)
-
 description: Describes a variable, constant, or data member.
 old-location: automat\vardesc.htm
 tech.root: automat
 ms.assetid: 9584977d-41c4-4f73-8844-2135750ddb80
-
 ms.date: 12/05/2018
-ms.keywords: "*LPVARDESC, LPVARDESC, LPVARDESC structure pointer [Automation], VARDESC, VARDESC structure [Automation], _oa96_VARDESC, automat.vardesc, oaidl/LPVARDESC, oaidl/VARDESC"
+ms.keywords: '*LPVARDESC, LPVARDESC, LPVARDESC structure pointer [Automation], VARDESC, VARDESC structure [Automation], _oa96_VARDESC, automat.vardesc, oaidl/LPVARDESC, oaidl/VARDESC'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/VARDESC"
+f1_keywords:
+- oaidl/VARDESC
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - VARDESC
+- VARDESC
 targetos: Windows
 req.typenames: VARDESC, *LPVARDESC
 req.redist: 

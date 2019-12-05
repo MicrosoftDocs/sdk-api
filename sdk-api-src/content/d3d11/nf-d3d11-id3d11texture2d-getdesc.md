@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Texture2D.GetDesc
 title: ID3D11Texture2D::GetDesc (d3d11.h)
-
 description: Get the properties of the texture resource.
 old-location: direct3d11\id3d11texture2d_getdesc.htm
 tech.root: direct3d11
 ms.assetid: 408e0914-9582-4639-9778-02e121ea0763
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11Texture2D interface, ID3D11Texture2D interface [Direct3D 11],GetDesc method, ID3D11Texture2D.GetDesc, ID3D11Texture2D::GetDesc, a43ecef2-d8a7-2b25-5691-78a828b9d806, d3d11/ID3D11Texture2D::GetDesc, direct3d11.id3d11texture2d_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Texture2D.GetDesc"
+f1_keywords:
+- d3d11/ID3D11Texture2D.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Texture2D.GetDesc
+- ID3D11Texture2D.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

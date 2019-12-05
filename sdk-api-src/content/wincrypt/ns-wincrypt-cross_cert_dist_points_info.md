@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CROSS_CERT_DIST_POINTS_INFO
 title: CROSS_CERT_DIST_POINTS_INFO (wincrypt.h)
-
 description: Provides information used to update dynamic cross certificates.
 old-location: security\cross_cert_dist_points_info.htm
 tech.root: SecCrypto
 ms.assetid: 13358822-c690-40af-ba9d-2fafa0233a5c
-
 ms.date: 12/05/2018
 ms.keywords: '*PCROSS_CERT_DIST_POINTS_INFO, CROSS_CERT_DIST_POINTS_INFO, CROSS_CERT_DIST_POINTS_INFO structure [Security], PCROSS_CERT_DIST_POINTS_INFO, PCROSS_CERT_DIST_POINTS_INFO structure pointer [Security], _crypto2_cross_cert_dist_points_info, security.cross_cert_dist_points_info, wincrypt/CROSS_CERT_DIST_POINTS_INFO, wincrypt/PCROSS_CERT_DIST_POINTS_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CROSS_CERT_DIST_POINTS_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

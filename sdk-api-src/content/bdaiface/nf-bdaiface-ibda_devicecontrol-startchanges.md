@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.StartChanges
 title: IBDA_DeviceControl::StartChanges (bdaiface.h)
-
 description: The StartChanges method is called by a Network Provider before it begins to modify a set of properties on a BDA device filter.
 old-location: mstv\ibda_devicecontrol_startchanges.htm
 tech.root: mstv
 ms.assetid: 989cdd9b-ea5b-4a80-b157-9469a210b966
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DeviceControl interface [Microsoft TV Technologies],StartChanges method, IBDA_DeviceControl.StartChanges, IBDA_DeviceControl::StartChanges, IBDA_DeviceControlStartChanges, StartChanges, StartChanges method [Microsoft TV Technologies], StartChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, bdaiface/IBDA_DeviceControl::StartChanges, mstv.ibda_devicecontrol_startchanges
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DeviceControl.StartChanges"
+f1_keywords:
+- bdaiface/IBDA_DeviceControl.StartChanges
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DeviceControl.StartChanges
+- IBDA_DeviceControl.StartChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

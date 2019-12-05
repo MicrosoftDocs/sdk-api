@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibrarySharingEnabled
 title: IWMPLibrarySharingServices::isLibrarySharingEnabled (wmp.h)
-
 description: The isLibrarySharingEnabled method retrieves a value indicating whether the user has enabled library sharing in Windows Media Player.
 old-location: wmp\iwmplibrarysharingservices_islibrarysharingenabled.htm
 tech.root: WMP
 ms.assetid: bd643869-9111-423e-9f9c-7147d1e3c7b8
-
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],isLibrarySharingEnabled method, IWMPLibrarySharingServices.isLibrarySharingEnabled, IWMPLibrarySharingServices::isLibrarySharingEnabled, IWMPLibrarySharingServicesisLibrarySharingEnabled, isLibrarySharingEnabled, isLibrarySharingEnabled method [Windows Media Player], isLibrarySharingEnabled method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_islibrarysharingenabled, wmp/IWMPLibrarySharingServices::isLibrarySharingEnabled
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPLibrarySharingServices.isLibrarySharingEnabled"
+f1_keywords:
+- wmp/IWMPLibrarySharingServices.isLibrarySharingEnabled
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPLibrarySharingServices.isLibrarySharingEnabled
+- IWMPLibrarySharingServices.isLibrarySharingEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

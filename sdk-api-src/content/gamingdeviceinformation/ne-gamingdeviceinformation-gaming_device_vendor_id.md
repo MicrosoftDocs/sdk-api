@@ -1,19 +1,17 @@
 ---
 UID: NE:gamingdeviceinformation.GAMING_DEVICE_VENDOR_ID
 title: GAMING_DEVICE_VENDOR_ID (gamingdeviceinformation.h)
-
 description: Indicates the vendor of the console that the game is running on.
 old-location: gamingdvcinfo\gaming_device_vendor_id.htm
 tech.root: gamingdvcinfo
 ms.assetid: 0A74E610-9853-4299-A278-41C3B7F47D9C
-
 ms.date: 12/05/2018
 ms.keywords: GAMING_DEVICE_VENDOR_ID, GAMING_DEVICE_VENDOR_ID enumeration, GAMING_DEVICE_VENDOR_ID_MICROSOFT, GAMING_DEVICE_VENDOR_ID_NONE, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_MICROSOFT, gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID_NONE, gamingdvcinfo.gaming_device_vendor_id
 ms.topic: enum
-f1_keywords: 
- - "gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID"
+f1_keywords:
+- gamingdeviceinformation/GAMING_DEVICE_VENDOR_ID
 dev_langs:
- - c++
+- c++
 req.header: gamingdeviceinformation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gamingdeviceinformation.h
+- gamingdeviceinformation.h
 api_name:
- - GAMING_DEVICE_VENDOR_ID
+- GAMING_DEVICE_VENDOR_ID
 targetos: Windows
 req.typenames: GAMING_DEVICE_VENDOR_ID
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextPattern2
 title: IUIAutomationTextPattern2 (uiautomationclient.h)
-
 description: Extends the IUIAutomationTextPattern interface.
 old-location: winauto\uiauto_iuiautomationtextpattern2.htm
 tech.root: WinAuto
 ms.assetid: E7160CDD-9A83-42F9-9F7B-8A8C13849E20
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextPattern2, IUIAutomationTextPattern2 interface [Windows Accessibility], IUIAutomationTextPattern2 interface [Windows Accessibility],described, uiautomationclient/IUIAutomationTextPattern2, winauto.uiauto_iuiautomationtextpattern2
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextPattern2"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextPattern2
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTextPattern2
+- IUIAutomationTextPattern2
 targetos: Windows
 req.typenames: 
 req.redist: 

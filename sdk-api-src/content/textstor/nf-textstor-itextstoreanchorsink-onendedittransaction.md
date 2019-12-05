@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnEndEditTransaction
 title: ITextStoreAnchorSink::OnEndEditTransaction (textstor.h)
-
 description: ITextStoreAnchorSink::OnEndEditTransaction method
 old-location: tsf\itextstoreanchorsink_onendedittransaction.htm
 tech.root: TSF
 ms.assetid: fe7610b3-02f0-491a-8c55-f9dc9843073b
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnEndEditTransaction method, ITextStoreAnchorSink.OnEndEditTransaction, ITextStoreAnchorSink::OnEndEditTransaction, OnEndEditTransaction, OnEndEditTransaction method [Text Services Framework], OnEndEditTransaction method [Text Services Framework],ITextStoreAnchorSink interface, _tsf_itextstoreanchorsink_onendedittransaction_ref, textstor/ITextStoreAnchorSink::OnEndEditTransaction, tsf.itextstoreanchorsink_onendedittransaction
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchorSink.OnEndEditTransaction"
+f1_keywords:
+- textstor/ITextStoreAnchorSink.OnEndEditTransaction
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnEndEditTransaction
+- ITextStoreAnchorSink.OnEndEditTransaction
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

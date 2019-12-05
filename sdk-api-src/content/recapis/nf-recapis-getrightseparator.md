@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetRightSeparator
 title: GetRightSeparator function (recapis.h)
-
 description: Gets the right separator for the recognizer context.
 old-location: tablet\getrightseparator.htm
 tech.root: tablet
 ms.assetid: 1fc11447-3125-4853-bba6-2784e69d033e
-
 ms.date: 12/05/2018
 ms.keywords: GetRightSeparator, GetRightSeparator function [Tablet PC], recapis/GetRightSeparator, tablet.getrightseparator
 ms.topic: function
-f1_keywords: 
- - "recapis/GetRightSeparator"
+f1_keywords:
+- recapis/GetRightSeparator
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetRightSeparator
+- GetRightSeparator
 targetos: Windows
 req.typenames: 
 req.redist: 

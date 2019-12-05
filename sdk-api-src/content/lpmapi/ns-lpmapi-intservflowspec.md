@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_28
 title: IntServFlowSpec (lpmapi.h)
-
 description: The IntServFlowSpec structure contains information about Integrated Services flowspecs.
 old-location: qos\intservflowspec.htm
 tech.root: QOS
 ms.assetid: c16115ba-03fa-4363-bf16-5341da54f792
-
 ms.date: 12/05/2018
 ms.keywords: IntServFlowSpec, IntServFlowSpec structure [QOS], lpmapi/IntServFlowSpec, qos.intservflowspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/IntServFlowSpec"
+f1_keywords:
+- lpmapi/IntServFlowSpec
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - IntServFlowSpec
+- IntServFlowSpec
 targetos: Windows
 req.typenames: IntServFlowSpec
 req.redist: 

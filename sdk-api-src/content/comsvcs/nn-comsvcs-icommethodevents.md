@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComMethodEvents
 title: IComMethodEvents (comsvcs.h)
-
 description: Notifies the subscriber if an object's method has been called, returned, or generated an exception.
 old-location: cos\icommethodevents.htm
 tech.root: cossdk
 ms.assetid: 24670a23-4300-48f9-a089-dff3082cb544
-
 ms.date: 12/05/2018
 ms.keywords: IComMethodEvents, IComMethodEvents interface [COM+], IComMethodEvents interface [COM+],described, _dtc_IComMethodEvents, comsvcs/IComMethodEvents, cos.icommethodevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComMethodEvents"
+f1_keywords:
+- comsvcs/IComMethodEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComMethodEvents
+- IComMethodEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

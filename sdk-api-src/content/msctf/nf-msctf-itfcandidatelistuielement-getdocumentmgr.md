@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetDocumentMgr
 title: ITfCandidateListUIElement::GetDocumentMgr (msctf.h)
-
 description: The ITfCandidateListUIElement::GetDocumentMgr method returns the target document manager of this UI.
 old-location: tsf\itfcandidatelistuielement_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: def8e85d-8180-4ad4-9d70-07adef0ce5fb
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentMgr, GetDocumentMgr method [Text Services Framework], GetDocumentMgr method [Text Services Framework],ITfCandidateListUIElement interface, ITfCandidateListUIElement interface [Text Services Framework],GetDocumentMgr method, ITfCandidateListUIElement.GetDocumentMgr, ITfCandidateListUIElement::GetDocumentMgr, msctf/ITfCandidateListUIElement::GetDocumentMgr, tsf.itfcandidatelistuielement_getdocumentmgr
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCandidateListUIElement.GetDocumentMgr"
+f1_keywords:
+- msctf/ITfCandidateListUIElement.GetDocumentMgr
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfCandidateListUIElement.GetDocumentMgr
+- ITfCandidateListUIElement.GetDocumentMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

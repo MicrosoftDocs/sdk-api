@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsbp.WdsBpParseInitializev6
 title: WdsBpParseInitializev6 function (wdsbp.h)
-
 description: Receives a handle to the packet sent by the network boot program.
 old-location: wds\wdsbpparseinitializev6.htm
 tech.root: wds
 ms.assetid: 6387DA64-CE65-4C6B-9313-B062FA24D8C9
-
 ms.date: 12/05/2018
 ms.keywords: WDSBP_PK_TYPE_BCD, WDSBP_PK_TYPE_DHCP, WDSBP_PK_TYPE_DHCPV6, WDSBP_PK_TYPE_WDSNBP, WdsBpParseInitializev6, WdsBpParseInitializev6 function [Windows Deployment Services], wds.wdsbpparseinitializev6, wdsbp/WdsBpParseInitializev6
 ms.topic: function
-f1_keywords: 
- - "wdsbp/WdsBpParseInitializev6"
+f1_keywords:
+- wdsbp/WdsBpParseInitializev6
 dev_langs:
- - c++
+- c++
 req.header: wdsbp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdsbp.lib
 req.dll: Wdsbp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdsbp.dll
+- Wdsbp.dll
 api_name:
- - WdsBpParseInitializev6
+- WdsBpParseInitializev6
 targetos: Windows
 req.typenames: 
 req.redist: 

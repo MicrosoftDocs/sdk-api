@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CachedWindowVisualState
 title: IUIAutomationWindowPattern::get_CachedWindowVisualState (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates the visual state of the window; that is, whether it is in the normal, maximized, or minimized state.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CachedWindowVisualState.htm
 tech.root: WinAuto
 ms.assetid: 49e1a441-0ba8-4b76-afe8-6b81a489ff92
-
 ms.date: 12/05/2018
 ms.keywords: CachedWindowVisualState property [Windows Accessibility], CachedWindowVisualState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CachedWindowVisualState property, IUIAutomationWindowPattern.CachedWindowVisualState, IUIAutomationWindowPattern.get_CachedWindowVisualState, IUIAutomationWindowPattern::CachedWindowVisualState, IUIAutomationWindowPattern::get_CachedWindowVisualState, get_CachedWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiauto_IUIAutomationWindowPattern_CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CachedWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CachedWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CachedWindowVisualState
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.CachedWindowVisualState"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.CachedWindowVisualState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.CachedWindowVisualState
- - IUIAutomationWindowPattern.get_CachedWindowVisualState
+- IUIAutomationWindowPattern.CachedWindowVisualState
+- IUIAutomationWindowPattern.get_CachedWindowVisualState
 targetos: Windows
 req.typenames: 
 req.redist: 

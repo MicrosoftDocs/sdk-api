@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.GetWriterComponentsCount
 title: IVssBackupComponents::GetWriterComponentsCount (vsbackup.h)
-
 description: The GetWriterComponentsCount method returns the number of writers whose components have been added to a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponentscount.htm
 tech.root: VSS
 ms.assetid: 39ab6179-2828-46dc-bfcd-0dd62c34ce95
-
 ms.date: 12/05/2018
 ms.keywords: GetWriterComponentsCount, GetWriterComponentsCount method [VSS], GetWriterComponentsCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponentsCount method, IVssBackupComponents.GetWriterComponentsCount, IVssBackupComponents::GetWriterComponentsCount, _win32_ivssbackupcomponents_getwritercomponentscount, base.ivssbackupcomponents_getwritercomponentscount, vsbackup/IVssBackupComponents::GetWriterComponentsCount
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.GetWriterComponentsCount"
+f1_keywords:
+- vsbackup/IVssBackupComponents.GetWriterComponentsCount
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.GetWriterComponentsCount
+- IVssBackupComponents.GetWriterComponentsCount
 targetos: Windows
 req.typenames: 
 req.redist: 

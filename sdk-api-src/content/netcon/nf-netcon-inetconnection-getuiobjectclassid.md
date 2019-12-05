@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnection.GetUiObjectClassId
 title: INetConnection::GetUiObjectClassId (netcon.h)
-
 description: The GetUiObjectClassId method retrieves the class identifier of the user interface object for this connection.
 old-location: ics\inetconnection_getuiobjectclassid.htm
 tech.root: ics
 ms.assetid: 33d69dff-8137-4901-9529-31130803b19f
-
 ms.date: 12/05/2018
 ms.keywords: GetUiObjectClassId, GetUiObjectClassId method [ICS/ICF], GetUiObjectClassId method [ICS/ICF],INetConnection interface, INetConnection interface [ICS/ICF],GetUiObjectClassId method, INetConnection.GetUiObjectClassId, INetConnection::GetUiObjectClassId, _ics_inetconnection_getuiobjectclassid, ics.inetconnection_getuiobjectclassid, netcon/INetConnection::GetUiObjectClassId
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnection.GetUiObjectClassId"
+f1_keywords:
+- netcon/INetConnection.GetUiObjectClassId
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnection.GetUiObjectClassId
+- INetConnection.GetUiObjectClassId
 targetos: Windows
 req.typenames: 
 req.redist: 

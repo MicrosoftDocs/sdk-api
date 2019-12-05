@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetContext
 title: IWSDHttpMessageParameters::SetContext (wsdbase.h)
-
 description: Sets the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setcontext.htm
 tech.root: WsdApi
 ms.assetid: 8e1bbfbe-b7a7-4235-bb2d-8ee0ef301871
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetContext method, IWSDHttpMessageParameters.SetContext, IWSDHttpMessageParameters::SetContext, SetContext, SetContext method, SetContext method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setcontext, wsdbase/IWSDHttpMessageParameters::SetContext
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.SetContext"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.SetContext
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.SetContext
+- IWSDHttpMessageParameters.SetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

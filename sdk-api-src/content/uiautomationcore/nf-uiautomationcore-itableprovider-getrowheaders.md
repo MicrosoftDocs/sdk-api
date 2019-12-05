@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITableProvider.GetRowHeaders
 title: ITableProvider::GetRowHeaders (uiautomationcore.h)
-
 description: Gets a collection of Microsoft UI Automation providers that represents all the row headers in a table.
 old-location: winauto\uiauto_ITableProvider_GetRowHeaders.htm
 tech.root: WinAuto
 ms.assetid: 586870cc-509f-4d5b-a3f6-0f85c86895cb
-
 ms.date: 12/05/2018
 ms.keywords: GetRowHeaders, GetRowHeaders method [Windows Accessibility], GetRowHeaders method [Windows Accessibility],ITableProvider interface, ITableProvider interface [Windows Accessibility],GetRowHeaders method, ITableProvider.GetRowHeaders, ITableProvider::GetRowHeaders, uiauto.uiauto_ITableProvider_GetRowHeaders, uiauto_ITableProvider_GetRowHeaders, uiautomationcore/ITableProvider::GetRowHeaders, winauto.uiauto_ITableProvider_GetRowHeaders
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITableProvider.GetRowHeaders"
+f1_keywords:
+- uiautomationcore/ITableProvider.GetRowHeaders
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITableProvider.GetRowHeaders
+- ITableProvider.GetRowHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

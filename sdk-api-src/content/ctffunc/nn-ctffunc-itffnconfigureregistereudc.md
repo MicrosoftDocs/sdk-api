@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnConfigureRegisterEudc
 title: ITfFnConfigureRegisterEudc (ctffunc.h)
-
 description: The ITfFnConfigureRegisterEudc interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
 old-location: tsf\itffnconfigureregistereudc.htm
 tech.root: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterEudc, ITfFnConfigureRegisterEudc interface [Text Services Framework], ITfFnConfigureRegisterEudc interface [Text Services Framework],described, _tsf_itffnconfigureregistereudc_ref, ctffunc/ITfFnConfigureRegisterEudc, tsf.itffnconfigureregistereudc
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnConfigureRegisterEudc"
+f1_keywords:
+- ctffunc/ITfFnConfigureRegisterEudc
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: Msctf.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ctffunc.h
+- ctffunc.h
 api_name:
- - ITfFnConfigureRegisterEudc
+- ITfFnConfigureRegisterEudc
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

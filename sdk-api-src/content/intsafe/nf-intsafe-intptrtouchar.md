@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntPtrToUChar
 title: IntPtrToUChar function (intsafe.h)
-
 description: Converts a value of type INT_PTR to a value of type UCHAR.
 old-location: shell\IntPtrToUChar.htm
 tech.root: shell
 ms.assetid: f6428be2-bca6-4fda-a247-0f0eff2483d8
-
 ms.date: 12/05/2018
 ms.keywords: IntPtrToUChar, IntPtrToUChar function [Windows Shell], intsafe/IntPtrToUChar, shell.IntPtrToUChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntPtrToUChar"
+f1_keywords:
+- intsafe/IntPtrToUChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - IntPtrToUChar
+- IntPtrToUChar
 targetos: Windows
 req.typenames: 
 req.redist: 

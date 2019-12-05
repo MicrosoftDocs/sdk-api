@@ -1,19 +1,17 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingServices
 title: IWindowsMediaLibrarySharingServices (wmlss.h)
-
 description: The IWindowsMediaLibrarySharingServices interface defines methods that configure the sharing of media libraries among users on the local computer, users on the home network, and users on the Internet.
 old-location: wmlss\IWindowsMediaLibrarySharingServicesInterface.htm
 tech.root: WMLSS
 ms.assetid: bbec5687-3c77-4385-a9be-74c6d84db962
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices, IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingServicesInterface, wmlss/IWindowsMediaLibrarySharingServices
 ms.topic: interface
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices
+- IWindowsMediaLibrarySharingServices
 targetos: Windows
 req.typenames: 
 req.redist: 

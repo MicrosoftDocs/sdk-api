@@ -1,19 +1,17 @@
 ---
 UID: NF:timeapi.timeGetSystemTime
 title: timeGetSystemTime function (timeapi.h)
-
 description: The timeGetSystemTime function retrieves the system time, in milliseconds.
 old-location: multimedia\timegetsystemtime.htm
 tech.root: Multimedia
 ms.assetid: 57871ada-d2b7-48a9-bed0-3780b836c77a
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime"
+ms.keywords: _win32_timeGetSystemTime, mmsystem/timeGetSystemTime, multimedia.timegetsystemtime, timeGetSystemTime, timeGetSystemTime function [Windows Multimedia], timeapi/timeGetSystemTime
 ms.topic: function
-f1_keywords: 
- - "timeapi/timeGetSystemTime"
+f1_keywords:
+- timeapi/timeGetSystemTime
 dev_langs:
- - c++
+- c++
 req.header: timeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-Time-l1-1-0.dll
- - Kernel32.dll
- - Kernel32legacy.dll
+- Winmm.dll
+- API-MS-Win-mm-Time-l1-1-0.dll
+- Kernel32.dll
+- Kernel32legacy.dll
 api_name:
- - timeGetSystemTime
+- timeGetSystemTime
 targetos: Windows
 req.typenames: 
 req.redist: 

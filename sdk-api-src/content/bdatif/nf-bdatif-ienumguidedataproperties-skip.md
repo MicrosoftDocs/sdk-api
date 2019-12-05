@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Skip
 title: IEnumGuideDataProperties::Skip (bdatif.h)
-
 description: Not implemented for this release.
 old-location: mstv\ienumguidedataproperties_skip.htm
 tech.root: mstv
 ms.assetid: bd8096cb-478a-4d23-b5e1-231c98ca21d1
-
 ms.date: 12/05/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Skip method, IEnumGuideDataProperties.Skip, IEnumGuideDataProperties::Skip, IEnumGuideDataPropertiesSkip, Skip, Skip method [Microsoft TV Technologies], Skip method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Skip, mstv.ienumguidedataproperties_skip
 ms.topic: method
-f1_keywords: 
- - "bdatif/IEnumGuideDataProperties.Skip"
+f1_keywords:
+- bdatif/IEnumGuideDataProperties.Skip
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IEnumGuideDataProperties.Skip
+- IEnumGuideDataProperties.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

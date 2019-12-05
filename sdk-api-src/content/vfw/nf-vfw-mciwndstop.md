@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndStop
 title: MCIWndStop macro (vfw.h)
-
 description: The MCIWndStop macro stops playing or recording the content of the MCI device associated with the MCIWnd window. You can use this macro or explicitly send the MCI_STOP command.
 old-location: multimedia\mciwndstop.htm
 tech.root: Multimedia
 ms.assetid: e46bca2a-635c-4a80-849d-ee5fc0953161
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndStop, MCIWndStop macro [Windows Multimedia], _win32_MCIWndStop, multimedia.mciwndstop, vfw/MCIWndStop
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndStop"
+f1_keywords:
+- vfw/MCIWndStop
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndStop
+- MCIWndStop
 targetos: Windows
 req.typenames: 
 req.redist: 

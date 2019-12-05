@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsSendComplete
 title: IMbnSmsEvents::OnSmsSendComplete (mbnapi.h)
-
 description: Notification method that indicates the completion of a message send operation.
 old-location: mbn\imbnsmsevents_onsmssendcomplete.htm
 tech.root: mbn
 ms.assetid: 4c08b173-7e9e-4b4f-8068-1a90c57eea90
-
 ms.date: 12/05/2018
 ms.keywords: E_INVALIDARG, E_MBN_BAD_SIM, E_MBN_NOT_REGISTERED, E_MBN_PIN_REQUIRED, E_MBN_SERVICE_NOT_ACTIVATED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_ENCODING_NOT_SUPPORTED, E_MBN_SMS_LANG_NOT_SUPPORTED, E_MBN_SMS_MEMORY_FAILURE, E_MBN_SMS_MEMORY_FULL, E_MBN_SMS_NETWORK_TIMEOUT, E_MBN_SMS_OPERATION_NOT_ALLOWED, E_MBN_SMS_UNKNOWN_SMSC_ADDRESS, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsSendComplete method, IMbnSmsEvents.OnSmsSendComplete, IMbnSmsEvents::OnSmsSendComplete, OnSmsSendComplete, OnSmsSendComplete method [Microsoft Broadband Networks], OnSmsSendComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmssendcomplete, mbnapi/IMbnSmsEvents::OnSmsSendComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsEvents.OnSmsSendComplete"
+f1_keywords:
+- mbnapi/IMbnSmsEvents.OnSmsSendComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsEvents.OnSmsSendComplete
+- IMbnSmsEvents.OnSmsSendComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

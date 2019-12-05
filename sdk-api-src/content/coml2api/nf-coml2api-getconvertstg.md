@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.GetConvertStg
 title: GetConvertStg function (coml2api.h)
-
 description: The GetConvertStg function returns the current value of the convert bit for the specified storage object.
 old-location: stg\getconvertstg.htm
 tech.root: Stg
 ms.assetid: 748649a2-cf75-4ffa-ac1f-4a148b845d21
-
 ms.date: 12/05/2018
 ms.keywords: GetConvertStg, GetConvertStg function [Structured Storage], _stg_getconvertstg, coml2api/GetConvertStg, stg.getconvertstg
 ms.topic: function
-f1_keywords: 
- - "coml2api/GetConvertStg"
+f1_keywords:
+- coml2api/GetConvertStg
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - GetConvertStg
+- GetConvertStg
 targetos: Windows
 req.typenames: 
 req.redist: 

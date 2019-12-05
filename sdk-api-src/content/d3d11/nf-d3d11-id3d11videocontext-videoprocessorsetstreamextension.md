@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamExtension
 title: ID3D11VideoContext::VideoProcessorSetStreamExtension (d3d11.h)
-
 description: Sets a driver-specific state on a video processing stream.
 old-location: mf\id3d11videocontext_videoprocessorsetstreamextension.htm
 tech.root: medfound
 ms.assetid: E6E1CF26-6A9F-42E1-8DA7-2AC76CE05906
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetStreamExtension method, ID3D11VideoContext.VideoProcessorSetStreamExtension, ID3D11VideoContext::VideoProcessorSetStreamExtension, VideoProcessorSetStreamExtension, VideoProcessorSetStreamExtension method [Media Foundation], VideoProcessorSetStreamExtension method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetStreamExtension, mf.id3d11videocontext_videoprocessorsetstreamextension
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetStreamExtension"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetStreamExtension
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetStreamExtension
+- ID3D11VideoContext.VideoProcessorSetStreamExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

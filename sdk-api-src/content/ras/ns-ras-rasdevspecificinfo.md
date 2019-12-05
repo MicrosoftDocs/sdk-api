@@ -1,19 +1,17 @@
 ---
 UID: NS:ras.tagRASDEVSPECIFICINFO
 title: RASDEVSPECIFICINFO (ras.h)
-
 description: Used to send a cookie for server validation and bypass point-to-point (PPP) authentication.
 old-location: rras\rasdevspecificinfo.htm
 tech.root: RRAS
 ms.assetid: 0dee3f10-d49b-4059-8cfb-c28af6b8b371
-
 ms.date: 12/05/2018
-ms.keywords: "*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo"
+ms.keywords: '*PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO, PRASDEVSPECIFICINFO structure pointer [RAS], RASDEVSPECIFICINFO, RASDEVSPECIFICINFO structure [RAS], ras/PRASDEVSPECIFICINFO, ras/RASDEVSPECIFICINFO, rras.rasdevspecificinfo'
 ms.topic: struct
-f1_keywords: 
- - "ras/RASDEVSPECIFICINFO"
+f1_keywords:
+- ras/RASDEVSPECIFICINFO
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RASDEVSPECIFICINFO
+- RASDEVSPECIFICINFO
 targetos: Windows
 req.typenames: RASDEVSPECIFICINFO, *PRASDEVSPECIFICINFO
 req.redist: 

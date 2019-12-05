@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_EDGE_TRAVERSAL_TYPE_
 title: NET_FW_EDGE_TRAVERSAL_TYPE (icftypes.h)
-
 description: The conditions under which edge traversal traffic is allowed.
 old-location: ics\net_fw_edge_traversal_type.htm
 tech.root: ics
 ms.assetid: 69efe4d1-3614-4e6f-9bc1-4bacb9a7a8eb
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_EDGE_TRAVERSAL_TYPE, NET_FW_EDGE_TRAVERSAL_TYPE enumeration [ICS/ICF], NET_FW_EDGE_TRAVERSAL_TYPE_ALLOW, NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP, NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER, NET_FW_EDGE_TRAVERSAL_TYPE_DENY, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_ALLOW, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_APP, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DEFER_TO_USER, icftypes/NET_FW_EDGE_TRAVERSAL_TYPE_DENY, ics.net_fw_edge_traversal_type
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_EDGE_TRAVERSAL_TYPE"
+f1_keywords:
+- icftypes/NET_FW_EDGE_TRAVERSAL_TYPE
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_EDGE_TRAVERSAL_TYPE
+- NET_FW_EDGE_TRAVERSAL_TYPE
 targetos: Windows
 req.typenames: NET_FW_EDGE_TRAVERSAL_TYPE
 req.redist: 

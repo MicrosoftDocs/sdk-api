@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.put_EndIpAddress
 title: IWdsTransportServicePolicy::put_EndIpAddress (wdstptmgmt.h)
-
 description: Enables a WDS client computer to configure the end of a multicast IP address range for a specified type of IP address.
 old-location: wds\iwdstransportservicepolicy_endipaddress.htm
 tech.root: wds
 ms.assetid: 9900acb3-a66b-4279-becc-6ad1a040d534
-
 ms.date: 12/05/2018
 ms.keywords: EndIpAddress property [Windows Deployment Services], EndIpAddress property [Windows Deployment Services],IWdsTransportServicePolicy interface, IWdsTransportServicePolicy interface [Windows Deployment Services],EndIpAddress property, IWdsTransportServicePolicy.EndIpAddress, IWdsTransportServicePolicy.put_EndIpAddress, IWdsTransportServicePolicy::EndIpAddress, IWdsTransportServicePolicy::get_EndIpAddress, IWdsTransportServicePolicy::put_EndIpAddress, put_EndIpAddress, wds.iwdstransportservicepolicy_endipaddress, wdstptmgmt/IWdsTransportServicePolicy::EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::get_EndIpAddress, wdstptmgmt/IWdsTransportServicePolicy::put_EndIpAddress
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy.EndIpAddress"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy.EndIpAddress
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.EndIpAddress
- - IWdsTransportServicePolicy.get_EndIpAddress
- - IWdsTransportServicePolicy.put_EndIpAddress
+- IWdsTransportServicePolicy.EndIpAddress
+- IWdsTransportServicePolicy.get_EndIpAddress
+- IWdsTransportServicePolicy.put_EndIpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetCalendarInfoW
 title: GetCalendarInfoW function (winnls.h)
-
 description: Retrieves information about a calendar for a locale specified by identifier.
 old-location: intl\getcalendarinfo.htm
 tech.root: Intl
 ms.assetid: f32ca0d0-8fa2-41e5-9835-76cf51426c3b
-
 ms.date: 12/05/2018
 ms.keywords: GetCalendarInfo, GetCalendarInfo function [Internationalization for Windows Applications], GetCalendarInfoA, GetCalendarInfoW, _win32_GetCalendarInfo, intl.getcalendarinfo, winnls/GetCalendarInfo, winnls/GetCalendarInfoA, winnls/GetCalendarInfoW
 ms.topic: function
-f1_keywords: 
- - "winnls/GetCalendarInfo"
+f1_keywords:
+- winnls/GetCalendarInfo
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,25 +30,25 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - GetCalendarInfo
- - GetCalendarInfoA
- - GetCalendarInfoW
+- GetCalendarInfo
+- GetCalendarInfoA
+- GetCalendarInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

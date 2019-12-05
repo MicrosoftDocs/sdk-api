@@ -1,19 +1,17 @@
 ---
 UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0002
 title: TsLayoutCode (textstor.h)
-
 description: Elements of the TsLayoutCode enumeration are used to specify the type of layout change in an ITextStoreACPSink::OnLayoutChange or ITextStoreAnchorSink::OnLayoutChange notification.
 old-location: tsf\tslayoutcode.htm
 tech.root: TSF
 ms.assetid: 879f83ba-211b-49f6-93b2-6cde5f50fc24
-
 ms.date: 12/05/2018
 ms.keywords: TS_LC_CHANGE, TS_LC_CREATE, TS_LC_DESTROY, TsLayoutCode, TsLayoutCode enumeration [Text Services Framework], _tsf_tslayoutcode_ref, textstor/TS_LC_CHANGE, textstor/TS_LC_CREATE, textstor/TS_LC_DESTROY, textstor/TsLayoutCode, tsf.tslayoutcode
 ms.topic: enum
-f1_keywords: 
- - "textstor/TsLayoutCode"
+f1_keywords:
+- textstor/TsLayoutCode
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TsLayoutCode
+- TsLayoutCode
 targetos: Windows
 req.typenames: TsLayoutCode
 req.redist: TSF 1.0 on Windows 2000 Professional

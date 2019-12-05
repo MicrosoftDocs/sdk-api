@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMOverlayFX.SetOverlayFX
 title: IAMOverlayFX::SetOverlayFX (strmif.h)
-
 description: The SetOverlayFX method applies the specified effects to the overlay surface.
 old-location: dshow\iamoverlayfx_setoverlayfx.htm
 tech.root: DirectShow
 ms.assetid: 08e44f4e-924a-4a4d-9fc5-c13b3c21c038
-
 ms.date: 12/05/2018
 ms.keywords: IAMOverlayFX interface [DirectShow],SetOverlayFX method, IAMOverlayFX.SetOverlayFX, IAMOverlayFX::SetOverlayFX, IAMOverlayFXSetOverlayFX, SetOverlayFX, SetOverlayFX method [DirectShow], SetOverlayFX method [DirectShow],IAMOverlayFX interface, dshow.iamoverlayfx_setoverlayfx, strmif/IAMOverlayFX::SetOverlayFX
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMOverlayFX.SetOverlayFX"
+f1_keywords:
+- strmif/IAMOverlayFX.SetOverlayFX
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMOverlayFX.SetOverlayFX
+- IAMOverlayFX.SetOverlayFX
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:xamlom.PropertyChainValue
 title: PropertyChainValue (xamlom.h)
-
 description: Represents a property defined on an element.
 old-location: xaml_diagnostics\propertychainvalue.htm
 tech.root: xaml_diagnostics
 ms.assetid: 111D10AB-2C16-4D21-A716-968C810B928F
-
 ms.date: 12/05/2018
 ms.keywords: PPropertyChainValue, PPropertyChainValue structure pointer, PropertyChainValue, PropertyChainValue structure, xaml_diagnostics.propertychainvalue, xamlom/PPropertyChainValue, xamlom/PropertyChainValue
 ms.topic: struct
-f1_keywords: 
- - "xamlom/PropertyChainValue"
+f1_keywords:
+- xamlom/PropertyChainValue
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - PropertyChainValue
+- PropertyChainValue
 targetos: Windows
 req.typenames: PropertyChainValue
 req.redist: 

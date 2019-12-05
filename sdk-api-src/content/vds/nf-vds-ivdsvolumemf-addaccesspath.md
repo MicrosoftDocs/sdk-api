@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVolumeMF.AddAccessPath
 title: IVdsVolumeMF::AddAccessPath (vds.h)
-
 description: Adds an access path.
 old-location: base\ivdsvolumemf_addaccesspath.htm
 tech.root: VDS
 ms.assetid: cf29639e-33fd-42f6-b616-7145521da347
-
 ms.date: 12/05/2018
 ms.keywords: AddAccessPath, AddAccessPath method [VDS], AddAccessPath method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],AddAccessPath method, IVdsVolumeMF.AddAccessPath, IVdsVolumeMF::AddAccessPath, base.ivdsvolumemf_addaccesspath, vds/IVdsVolumeMF::AddAccessPath
 ms.topic: method
 f1_keywords:
 - vds/IVdsVolumeMF.AddAccessPath
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.Approve
 title: IWMRegisteredDevice::Approve (wmsdkidl.h)
-
 description: The Approve method sets the approval state of the device for receiving media data.
 old-location: wmformat\iwmregistereddevice_approve.htm
 tech.root: wmformat
 ms.assetid: 941714b8-c329-4768-9c48-86fa806550c3
-
 ms.date: 12/05/2018
 ms.keywords: Approve, Approve method [windows Media Format], Approve method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],Approve method, IWMRegisteredDevice.Approve, IWMRegisteredDevice::Approve, IWMRegisteredDeviceApprove, wmformat.iwmregistereddevice_approve, wmsdkidl/IWMRegisteredDevice::Approve
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.Approve"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.Approve
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.Approve
+- IWMRegisteredDevice.Approve
 targetos: Windows
 req.typenames: 
 req.redist: 

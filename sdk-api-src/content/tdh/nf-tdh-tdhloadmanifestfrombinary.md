@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhLoadManifestFromBinary
 title: TdhLoadManifestFromBinary function (tdh.h)
-
 description: Takes a NULL-terminated path to a binary file that contains metadata resources needed to decode a specific event provider.
 old-location: etw\tdhloadmanifestfrombinary.htm
 tech.root: ETW
 ms.assetid: e152d25c-bbc9-4573-9575-9cf9583433a7
-
 ms.date: 12/05/2018
 ms.keywords: TdhLoadManifestFromBinary, TdhLoadManifestFromBinary function [ETW], etw.tdhloadmanifestfrombinary, tdh/TdhLoadManifestFromBinary
 ms.topic: function
-f1_keywords: 
- - "tdh/TdhLoadManifestFromBinary"
+f1_keywords:
+- tdh/TdhLoadManifestFromBinary
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tdh.dll
- - Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
+- Tdh.dll
+- Ext-MS-Win-Eventing-Tdh-Ext-L1-1-0.dll
 api_name:
- - TdhLoadManifestFromBinary
+- TdhLoadManifestFromBinary
 targetos: Windows
 req.typenames: 
 req.redist: 

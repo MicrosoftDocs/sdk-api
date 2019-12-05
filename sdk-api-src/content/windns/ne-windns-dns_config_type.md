@@ -1,19 +1,17 @@
 ---
 UID: NE:windns.__unnamed_enum_0
 title: DNS_CONFIG_TYPE (windns.h)
-
 description: The DNS_CONFIG_TYPE enumeration provides DNS configuration type information.
 old-location: dns\dns_config_type.htm
 tech.root: DNS
 ms.assetid: e0f0cc05-dcfe-48df-8dbd-e756cfa69154
-
 ms.date: 12/05/2018
 ms.keywords: DNS_CONFIG_TYPE, DNS_CONFIG_TYPE enumeration [DNS], DnsConfigAdapterDomainName_A, DnsConfigAdapterDomainName_UTF8, DnsConfigAdapterDomainName_W, DnsConfigAdapterHostNameRegistrationEnabled, DnsConfigAdapterInfo, DnsConfigAddressRegistrationMaxCount, DnsConfigDnsServerList, DnsConfigFullHostName_A, DnsConfigFullHostName_UTF8, DnsConfigFullHostName_W, DnsConfigHostName_A, DnsConfigHostName_UTF8, DnsConfigHostName_W, DnsConfigPrimaryDomainName_A, DnsConfigPrimaryDomainName_UTF8, DnsConfigPrimaryDomainName_W, DnsConfigPrimaryHostNameRegistrationEnabled, DnsConfigSearchList, dns.dns_config_type, windns/DNS_CONFIG_TYPE, windns/DnsConfigAdapterDomainName_A, windns/DnsConfigAdapterDomainName_UTF8, windns/DnsConfigAdapterDomainName_W, windns/DnsConfigAdapterHostNameRegistrationEnabled, windns/DnsConfigAdapterInfo, windns/DnsConfigAddressRegistrationMaxCount, windns/DnsConfigDnsServerList, windns/DnsConfigFullHostName_A, windns/DnsConfigFullHostName_UTF8, windns/DnsConfigFullHostName_W, windns/DnsConfigHostName_A, windns/DnsConfigHostName_UTF8, windns/DnsConfigHostName_W, windns/DnsConfigPrimaryDomainName_A, windns/DnsConfigPrimaryDomainName_UTF8, windns/DnsConfigPrimaryDomainName_W, windns/DnsConfigPrimaryHostNameRegistrationEnabled, windns/DnsConfigSearchList
 ms.topic: enum
-f1_keywords: 
- - "windns/DNS_CONFIG_TYPE"
+f1_keywords:
+- windns/DNS_CONFIG_TYPE
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_CONFIG_TYPE
+- DNS_CONFIG_TYPE
 targetos: Windows
 req.typenames: DNS_CONFIG_TYPE
 req.redist: 

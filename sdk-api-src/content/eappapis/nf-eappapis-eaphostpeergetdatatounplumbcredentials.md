@@ -1,19 +1,17 @@
 ---
 UID: NF:eappapis.EapHostPeerGetDataToUnplumbCredentials
 title: EapHostPeerGetDataToUnplumbCredentials function (eappapis.h)
-
 description: Returns the Connection Id,User Impersonation Token and Eaphost Process Id used by EAPHost to save the credentials for SSO. This data is needed to unplumb previously plumbed credentials.
 old-location: eaphost\eaphostpeergetdatatounplumbcredentials.htm
 tech.root: eaphost
 ms.assetid: E0796AA8-594F-4B21-884D-BD2DD6E2549C
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerGetDataToUnplumbCredentials, EapHostPeerGetDataToUnplumbCredentials function [EAPHost], eaphost.eaphostpeergetdatatounplumbcredentials, eappapis/EapHostPeerGetDataToUnplumbCredentials
 ms.topic: function
 f1_keywords:
 - eappapis/EapHostPeerGetDataToUnplumbCredentials
 dev_langs:
- - c++
+- c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows

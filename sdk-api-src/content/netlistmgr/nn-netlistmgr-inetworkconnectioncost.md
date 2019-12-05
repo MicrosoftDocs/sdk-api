@@ -1,19 +1,17 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionCost
 title: INetworkConnectionCost (netlistmgr.h)
-
 description: To query current network cost and data plan status associated with a connection.
 old-location: nla\inetworkconnectcost.htm
 tech.root: nla
 ms.assetid: D04A5C34-6E5D-4F5B-B54D-3FDF7A936D9E
-
 ms.date: 12/05/2018
 ms.keywords: INetworkConnectionCost, INetworkConnectionCost interface [Network Awareness], INetworkConnectionCost interface [Network Awareness],described, netlistmgr/INetworkConnectionCost, nla.inetworkconnectcost
 ms.topic: interface
-f1_keywords: 
- - "netlistmgr/INetworkConnectionCost"
+f1_keywords:
+- netlistmgr/INetworkConnectionCost
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnectionCost
+- INetworkConnectionCost
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsSetReaderPosition
 title: WsSetReaderPosition function (webservices.h)
-
 description: Sets the current position of the Reader. The position must have been obtained by a call to WsGetReaderPosition or WsGetWriterPosition. This function can only be used on a reader that is set to a WS_XML_BUFFER.
 old-location: wsw\wssetreaderposition.htm
 tech.root: wsw
 ms.assetid: cc879cc0-c8ca-457e-9ff1-ae220e31cb04
-
 ms.date: 12/05/2018
 ms.keywords: WsSetReaderPosition, WsSetReaderPosition function [Web Services for Windows], webservices/WsSetReaderPosition, wsw.wssetreaderposition
 ms.topic: function
 f1_keywords:
 - webservices/WsSetReaderPosition
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

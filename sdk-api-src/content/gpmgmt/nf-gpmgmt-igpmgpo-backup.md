@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Backup
 title: IGPMGPO::Backup (gpmgmt.h)
-
 description: Backs up a Group Policy object (GPO) to the specified directory.
 old-location: gpmc\igpmgpo_backup.htm
 tech.root: gpmc
 ms.assetid: 5ba8d2f7-4989-4882-9ceb-4f77b8745442
-
 ms.date: 12/05/2018
 ms.keywords: Backup, Backup method [GPMC], Backup method [GPMC],GPMGPO object, Backup method [GPMC],IGPMGPO interface, GPMGPO object [GPMC],Backup method, IGPMGPO interface [GPMC],Backup method, IGPMGPO.Backup, IGPMGPO::Backup, _win32_igpmgpo_backup, gpmc.igpmgpo_backup, gpmgmt/IGPMGPO::Backup
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.Backup"
+f1_keywords:
+- gpmgmt/IGPMGPO.Backup
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.Backup
- - GPMGPO.Backup
+- IGPMGPO.Backup
+- GPMGPO.Backup
 targetos: Windows
 req.typenames: 
 req.redist: 

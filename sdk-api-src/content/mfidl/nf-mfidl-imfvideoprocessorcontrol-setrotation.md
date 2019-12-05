@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetRotation
 title: IMFVideoProcessorControl::SetRotation (mfidl.h)
-
 description: Specifies whether to rotate the video to the correct orientation.
 old-location: mf\imfvideoprocessorcontrol_setrotation.htm
 tech.root: medfound
 ms.assetid: 452FE057-EC1A-430E-A5C8-C9B84A4B1B17
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetRotation method, IMFVideoProcessorControl.SetRotation, IMFVideoProcessorControl::SetRotation, SetRotation, SetRotation method [Media Foundation], SetRotation method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setrotation, mfidl/IMFVideoProcessorControl::SetRotation
 ms.topic: method
 f1_keywords:
 - mfidl/IMFVideoProcessorControl.SetRotation
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

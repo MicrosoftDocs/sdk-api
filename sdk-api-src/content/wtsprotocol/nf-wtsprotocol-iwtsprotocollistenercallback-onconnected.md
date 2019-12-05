@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolListenerCallback.OnConnected
 title: IWTSProtocolListenerCallback::OnConnected (wtsprotocol.h)
-
 description: IWTSProtocolListenerCallback::OnConnected is no longer available. Instead, use IWRdsProtocolListenerCallback::OnConnected.
 old-location: termserv\iwtsprotocollistenercallback_onconnected.htm
 tech.root: TermServ
 ms.assetid: 0874c394-6260-4ac1-b5a8-27879f562e19
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolListenerCallback interface [Remote Desktop Services],OnConnected method, IWTSProtocolListenerCallback.OnConnected, IWTSProtocolListenerCallback::OnConnected, OnConnected, OnConnected method [Remote Desktop Services], OnConnected method [Remote Desktop Services],IWTSProtocolListenerCallback interface, termserv.iwtsprotocollistenercallback_onconnected, wtsprotocol/IWTSProtocolListenerCallback::OnConnected
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolListenerCallback.OnConnected"
+f1_keywords:
+- wtsprotocol/IWTSProtocolListenerCallback.OnConnected
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolListenerCallback.OnConnected
+- IWTSProtocolListenerCallback.OnConnected
 targetos: Windows
 req.typenames: 
 req.redist: 

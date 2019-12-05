@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetDeinterlacePrefs
 title: IVMRDeinterlaceControl::GetDeinterlacePrefs (strmif.h)
-
 description: The GetDeinterlacePrefs method queries how the VMR will select a deinterlacing mode if it cannot use the preferred deinterlacing mode.
 old-location: dshow\ivmrdeinterlacecontrol_getdeinterlaceprefs.htm
 tech.root: DirectShow
 ms.assetid: bb9de83c-087e-4d6e-861a-7db388d59a7c
-
 ms.date: 12/05/2018
 ms.keywords: GetDeinterlacePrefs, GetDeinterlacePrefs method [DirectShow], GetDeinterlacePrefs method [DirectShow],IVMRDeinterlaceControl interface, IVMRDeinterlaceControl interface [DirectShow],GetDeinterlacePrefs method, IVMRDeinterlaceControl.GetDeinterlacePrefs, IVMRDeinterlaceControl::GetDeinterlacePrefs, IVMRDeinterlaceControlGetDeinterlacePrefs, dshow.ivmrdeinterlacecontrol_getdeinterlaceprefs, strmif/IVMRDeinterlaceControl::GetDeinterlacePrefs
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRDeinterlaceControl.GetDeinterlacePrefs"
+f1_keywords:
+- strmif/IVMRDeinterlaceControl.GetDeinterlacePrefs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl.GetDeinterlacePrefs
+- IVMRDeinterlaceControl.GetDeinterlacePrefs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.AdviseSink
 title: ITextStoreAnchor::AdviseSink (textstor.h)
-
 description: The ITextStoreAnchor::AdviseSink method installs a new advise sink from the ITextStoreAnchorSink interface or modifies an existing advise sink.
 old-location: tsf\itextstoreanchor_advisesink.htm
 tech.root: TSF
 ms.assetid: a2196d1c-b03e-44b4-b695-970feddb8ce5
-
 ms.date: 12/05/2018
 ms.keywords: AdviseSink, AdviseSink method [Text Services Framework], AdviseSink method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],AdviseSink method, ITextStoreAnchor.AdviseSink, ITextStoreAnchor::AdviseSink, textstor/ITextStoreAnchor::AdviseSink, tsf.itextstoreanchor_advisesink
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.AdviseSink"
+f1_keywords:
+- textstor/ITextStoreAnchor.AdviseSink
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.AdviseSink
+- ITextStoreAnchor.AdviseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

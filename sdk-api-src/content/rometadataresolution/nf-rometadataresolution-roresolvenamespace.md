@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataresolution.RoResolveNamespace
 title: RoResolveNamespace function (rometadataresolution.h)
-
 description: Determine the direct children, types, and sub-namespaces of the specified Windows Runtime namespace, from any programming language supported by the Windows Runtime.
 old-location: winrt\roresolvenamespace.htm
 tech.root: WinRT
 ms.assetid: 597E8B18-B9D9-42E5-B260-595370BEEAC0
-
 ms.date: 12/05/2018
 ms.keywords: RoResolveNamespace, RoResolveNamespace function [Windows Runtime], rometadataresolution/RoResolveNamespace, winrt.roresolvenamespace
 ms.topic: function
-f1_keywords: 
- - "rometadataresolution/RoResolveNamespace"
+f1_keywords:
+- rometadataresolution/RoResolveNamespace
 dev_langs:
- - c++
+- c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: WinTypes.lib
 req.dll: WinTypes.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WinTypes.dll
- - API-MS-Win-ro-typeresolution-l1-1-0.dll
- - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
+- WinTypes.dll
+- API-MS-Win-ro-typeresolution-l1-1-0.dll
+- Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
 api_name:
- - RoResolveNamespace
+- RoResolveNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

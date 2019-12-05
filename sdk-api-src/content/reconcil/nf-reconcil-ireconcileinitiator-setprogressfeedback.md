@@ -1,19 +1,17 @@
 ---
 UID: NF:reconcil.IReconcileInitiator.SetProgressFeedback
 title: IReconcileInitiator::SetProgressFeedback (reconcil.h)
-
 description: Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation.
 old-location: lwef\ireconcileinitiator_setprogressfeedback.htm
 tech.root: lwef
 ms.assetid: faa685f1-e203-4d8a-a1c3-d544b8e5271d
-
 ms.date: 12/05/2018
 ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features],SetProgressFeedback method, IReconcileInitiator.SetProgressFeedback, IReconcileInitiator::SetProgressFeedback, SetProgressFeedback, SetProgressFeedback method [Legacy Windows Environment Features], SetProgressFeedback method [Legacy Windows Environment Features],IReconcileInitiator interface, _win32_IReconcileInitiator_SetProgressFeedback, lwef.ireconcileinitiator_setprogressfeedback, reconcil/IReconcileInitiator::SetProgressFeedback, shell.ireconcileinitiator_setprogressfeedback
 ms.topic: method
-f1_keywords: 
- - "reconcil/IReconcileInitiator.SetProgressFeedback"
+f1_keywords:
+- reconcil/IReconcileInitiator.SetProgressFeedback
 dev_langs:
- - c++
+- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IReconcileInitiator.SetProgressFeedback
+- IReconcileInitiator.SetProgressFeedback
 targetos: Windows
 req.typenames: 
 req.redist: 

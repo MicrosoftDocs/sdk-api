@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.SetPoints
 title: IInkStrokeDisp::SetPoints (msinkaut.h)
-
 description: Sets the points of the IInkStrokeDisp using an array of X, Y values.
 old-location: tablet\iinkstrokedisp_setpoints.htm
 tech.root: tablet
 ms.assetid: 759e3195-e1de-45eb-a9de-8ec8fe2347c1
-
 ms.date: 12/05/2018
 ms.keywords: 759e3195-e1de-45eb-a9de-8ec8fe2347c1, IInkStrokeDisp interface [Tablet PC],SetPoints method, IInkStrokeDisp.SetPoints, IInkStrokeDisp::SetPoints, SetPoints, SetPoints method [Tablet PC], SetPoints method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPoints, tablet.iinkstrokedisp_setpoints
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.SetPoints"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.SetPoints
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.SetPoints
+- IInkStrokeDisp.SetPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

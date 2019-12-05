@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.GetStream
 title: ISBE2MediaTypeProfile::GetStream (sbe.h)
-
 description: Gets the media type of a stream that appears at a specific index in a media type profile.
 old-location: mstv\isbe2mediatypeprofile_getstream.htm
 tech.root: mstv
 ms.assetid: 14c48484-59b0-4e39-8684-9875edfd6556
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [Microsoft TV Technologies], GetStream method [Microsoft TV Technologies],ISBE2MediaTypeProfile interface, ISBE2MediaTypeProfile interface [Microsoft TV Technologies],GetStream method, ISBE2MediaTypeProfile.GetStream, ISBE2MediaTypeProfile::GetStream, mstv.isbe2mediatypeprofile_getstream, sbe/ISBE2MediaTypeProfile::GetStream
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2MediaTypeProfile.GetStream"
+f1_keywords:
+- sbe/ISBE2MediaTypeProfile.GetStream
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sbe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.dll
+- sbe.dll
 api_name:
- - ISBE2MediaTypeProfile.GetStream
+- ISBE2MediaTypeProfile.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

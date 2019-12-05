@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt16
 title: PropVariantToInt16 function (propvarutil.h)
-
 description: Extracts an Int16 property value of a PROPVARIANT structure.
 old-location: properties\PropVariantToInt16.htm
 tech.root: properties
 ms.assetid: 32070620-bae2-4465-8b11-b88adb6cb365
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt16, PropVariantToInt16 function [Windows Properties], properties.PropVariantToInt16, propvarutil/PropVariantToInt16, shell.PropVariantToInt16, shell_PropVariantToInt16
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt16"
+f1_keywords:
+- propvarutil/PropVariantToInt16
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt16
+- PropVariantToInt16
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IGetClusterResourceInfo
 title: IGetClusterResourceInfo (cluadmex.h)
-
 description: Called by a Failover Cluster Administrator extension to retrieve information about a resource.
 old-location: mscs\igetclusterresourceinfo.htm
 tech.root: MsCS
 ms.assetid: 8a3a9e9d-4666-4d9a-83e3-10d667b42d66
-
 ms.date: 12/05/2018
 ms.keywords: IGetClusterResourceInfo, IGetClusterResourceInfo interface [Failover Cluster], IGetClusterResourceInfo interface [Failover Cluster],described, _wolf_igetclusterresourceinfo, cluadmex/IGetClusterResourceInfo, mscs.igetclusterresourceinfo
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IGetClusterResourceInfo"
+f1_keywords:
+- cluadmex/IGetClusterResourceInfo
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterResourceInfo
+- IGetClusterResourceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

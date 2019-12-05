@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Exposure
 title: ICameraControl::put_Exposure (vidcap.h)
-
 description: The put_Exposure method sets the camera's exposure time.
 old-location: dshow\icameracontrol_put_exposure.htm
 tech.root: DirectShow
 ms.assetid: 2db9bdb3-c508-40b6-bd5e-75e418ba2f18
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_Exposure method, ICameraControl.put_Exposure, ICameraControl::put_Exposure, ICameraControlput_Exposure, dshow.icameracontrol_put_exposure, put_Exposure, put_Exposure method [DirectShow], put_Exposure method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_Exposure
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.put_Exposure"
+f1_keywords:
+- vidcap/ICameraControl.put_Exposure
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.put_Exposure
+- ICameraControl.put_Exposure
 targetos: Windows
 req.typenames: 
 req.redist: 

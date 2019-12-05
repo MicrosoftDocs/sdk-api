@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.get_Cost
 title: IX509PolicyServerUrl::get_Cost (certenroll.h)
-
 description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
 old-location: security\ix509policyserverurl_cost.htm
 tech.root: seccertenroll
 ms.assetid: 8a188f11-6564-4d52-9b3d-ff7f14f9c127
-
 ms.date: 12/05/2018
 ms.keywords: Cost property [Security], Cost property [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],Cost property, IX509PolicyServerUrl.Cost, IX509PolicyServerUrl.get_Cost, IX509PolicyServerUrl::Cost, IX509PolicyServerUrl::get_Cost, IX509PolicyServerUrl::put_Cost, certenroll/IX509PolicyServerUrl::Cost, certenroll/IX509PolicyServerUrl::get_Cost, certenroll/IX509PolicyServerUrl::put_Cost, get_Cost, security.ix509policyserverurl_cost
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PolicyServerUrl.Cost"
+f1_keywords:
+- certenroll/IX509PolicyServerUrl.Cost
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509PolicyServerUrl.Cost
- - IX509PolicyServerUrl.get_Cost
- - IX509PolicyServerUrl.put_Cost
+- IX509PolicyServerUrl.Cost
+- IX509PolicyServerUrl.get_Cost
+- IX509PolicyServerUrl.put_Cost
 targetos: Windows
 req.typenames: 
 req.redist: 

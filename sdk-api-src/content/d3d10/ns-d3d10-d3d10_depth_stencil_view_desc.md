@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_DEPTH_STENCIL_VIEW_DESC
 title: D3D10_DEPTH_STENCIL_VIEW_DESC (d3d10.h)
-
 description: Specifies the subresource(s) from a texture that are accessible using a depth-stencil view.
 old-location: direct3d10\d3d10_depth_stencil_view_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_depth_stencil_view_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_DEPTH_STENCIL_VIEW_DESC, D3D10_DEPTH_STENCIL_VIEW_DESC structure [Direct3D 10], bc861c79-f54d-480a-d677-9bbbd949112b, d3d10/D3D10_DEPTH_STENCIL_VIEW_DESC, direct3d10.d3d10_depth_stencil_view_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_DEPTH_STENCIL_VIEW_DESC"
+f1_keywords:
+- d3d10/D3D10_DEPTH_STENCIL_VIEW_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_DEPTH_STENCIL_VIEW_DESC
+- D3D10_DEPTH_STENCIL_VIEW_DESC
 targetos: Windows
 req.typenames: D3D10_DEPTH_STENCIL_VIEW_DESC
 req.redist: 

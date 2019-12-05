@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataAdviseHolder.Advise
 title: IDataAdviseHolder::Advise (objidl.h)
-
 description: Creates a connection between an advise sink and a data object for receiving notifications.
 old-location: com\idataadviseholder_advise.htm
 tech.root: com
 ms.assetid: 3b72a50b-a18f-4ec0-9d1d-52b07eb84faf
-
 ms.date: 12/05/2018
 ms.keywords: ADVF_DATAONSTOP, ADVF_NODATA, ADVF_ONLYONCE, ADVF_PRIMEFIRST, Advise, Advise method [COM], Advise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],Advise method, IDataAdviseHolder.Advise, IDataAdviseHolder::Advise, _ole_idataadviseholder_advise, com.idataadviseholder_advise, objidl/IDataAdviseHolder::Advise
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataAdviseHolder.Advise"
+f1_keywords:
+- objidl/IDataAdviseHolder.Advise
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataAdviseHolder.Advise
+- IDataAdviseHolder.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

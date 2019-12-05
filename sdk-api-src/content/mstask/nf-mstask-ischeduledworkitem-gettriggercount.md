@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTriggerCount
 title: IScheduledWorkItem::GetTriggerCount (mstask.h)
-
 description: Retrieves the number of triggers for the current work item.
 old-location: taskschd\ischeduledworkitem_gettriggercount.htm
 tech.root: taskschd
 ms.assetid: db1c98db-c4c1-45af-baba-097ee8dc6abf
-
 ms.date: 12/05/2018
 ms.keywords: GetTriggerCount, GetTriggerCount method [Task Scheduler], GetTriggerCount method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetTriggerCount method, IScheduledWorkItem.GetTriggerCount, IScheduledWorkItem::GetTriggerCount, _msb_ischeduledworkitem_gettriggercount, mstask/IScheduledWorkItem::GetTriggerCount, taskschd.ischeduledworkitem_gettriggercount
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetTriggerCount"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetTriggerCount
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetTriggerCount
+- IScheduledWorkItem.GetTriggerCount
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

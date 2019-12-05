@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.SetPropertyStream
 title: IWiaPropertyStorage::SetPropertyStream (wia_xp.h)
-
 description: The IWiaPropertyStorage::SetPropertyStream sets the property stream of an item in the tree of IWiaItem objects of a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaPropertyStorage_SetPropertyStream.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\setpropertystream.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaPropertyStorage interface [WIA],SetPropertyStream method, IWiaPropertyStorage.SetPropertyStream, IWiaPropertyStorage::SetPropertyStream, SetPropertyStream, SetPropertyStream method [WIA], SetPropertyStream method [WIA],IWiaPropertyStorage interface, _wia_IWiaPropertyStorage_SetPropertyStream, wia._wia_IWiaPropertyStorage_SetPropertyStream, wia_xp/IWiaPropertyStorage::SetPropertyStream
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaPropertyStorage.SetPropertyStream"
+f1_keywords:
+- wia_xp/IWiaPropertyStorage.SetPropertyStream
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaPropertyStorage.SetPropertyStream
+- IWiaPropertyStorage.SetPropertyStream
 targetos: Windows
 req.typenames: 
 req.redist: 

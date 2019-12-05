@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetNotifyFlags
 title: IBackgroundCopyJob::SetNotifyFlags (bits.h)
-
 description: Specifies the type of event notification you want to receive, such as job transferred events.
 old-location: bits\ibackgroundcopyjob_setnotifyflags.htm
 tech.root: Bits
 ms.assetid: 24aa6445-d7bd-4825-9121-402e63ae6f69
-
 ms.date: 12/05/2018
 ms.keywords: BG_NOTIFY_DISABLE, BG_NOTIFY_FILE_RANGES_TRANSFERRED, BG_NOTIFY_FILE_TRANSFERRED, BG_NOTIFY_JOB_ERROR, BG_NOTIFY_JOB_MODIFICATION, BG_NOTIFY_JOB_TRANSFERRED, IBackgroundCopyJob interface [BITS],SetNotifyFlags method, IBackgroundCopyJob.SetNotifyFlags, IBackgroundCopyJob::SetNotifyFlags, SetNotifyFlags, SetNotifyFlags method [BITS], SetNotifyFlags method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_setnotifyflags, bits.ibackgroundcopyjob_setnotifyflags, bits/IBackgroundCopyJob::SetNotifyFlags
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.SetNotifyFlags"
+f1_keywords:
+- bits/IBackgroundCopyJob.SetNotifyFlags
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.SetNotifyFlags
+- IBackgroundCopyJob.SetNotifyFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

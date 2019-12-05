@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.ResizeTarget
 title: IDXGISwapChain::ResizeTarget (dxgi.h)
-
 description: Resizes the output target.
 old-location: direct3ddxgi\idxgiswapchain_resizetarget.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_resizetarget.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain interface [DXGI],ResizeTarget method, IDXGISwapChain.ResizeTarget, IDXGISwapChain::ResizeTarget, ResizeTarget, ResizeTarget method [DXGI], ResizeTarget method [DXGI],IDXGISwapChain interface, direct3ddxgi.idxgiswapchain_resizetarget, dxgi/IDXGISwapChain::ResizeTarget, f136baf7-17fc-2a80-f25e-e0fc612bcad7
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGISwapChain.ResizeTarget"
+f1_keywords:
+- dxgi/IDXGISwapChain.ResizeTarget
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISwapChain.ResizeTarget
+- IDXGISwapChain.ResizeTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

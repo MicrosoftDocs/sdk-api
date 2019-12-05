@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.IsModeEnabled
 title: IFullScreenVideoEx::IsModeEnabled (amvideo.h)
-
 description: The IsModeEnabled method queries whether a specified display mode is enabled.
 old-location: dshow\ifullscreenvideoex_ismodeenabled.htm
 tech.root: DirectShow
 ms.assetid: 97d8b9f8-4dbf-4b49-b32f-4513c9e5186e
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],IsModeEnabled method, IFullScreenVideoEx.IsModeEnabled, IFullScreenVideoEx::IsModeEnabled, IFullScreenVideoIsModeEnabled, IsModeEnabled, IsModeEnabled method [DirectShow], IsModeEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::IsModeEnabled, dshow.ifullscreenvideoex_ismodeenabled
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.IsModeEnabled"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.IsModeEnabled
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.IsModeEnabled
+- IFullScreenVideoEx.IsModeEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

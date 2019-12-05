@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_BeginDrag
 title: ImageList_BeginDrag function (commctrl.h)
-
 description: Begins dragging an image.
 old-location: controls\ImageList_BeginDrag.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_begindrag.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_BeginDrag, ImageList_BeginDrag function [Windows Controls], _win32_ImageList_BeginDrag, _win32_ImageList_BeginDrag_cpp, commctrl/ImageList_BeginDrag, controls.ImageList_BeginDrag, controls._win32_ImageList_BeginDrag
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_BeginDrag"
+f1_keywords:
+- commctrl/ImageList_BeginDrag
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_BeginDrag
+- ImageList_BeginDrag
 targetos: Windows
 req.typenames: 
 req.redist: 

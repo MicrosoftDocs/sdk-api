@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITPropList.Clear
 title: IITPropList::Clear (infotech.h)
-
 description: Clears memory associated with a property list and reinitializes the list.
 old-location: htmlhelp\iitproplist_clear.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistclear.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [HTML Help Workshop], Clear method [HTML Help Workshop],IITPropList interface, IITPropList interface [HTML Help Workshop],Clear method, IITPropList.Clear, IITPropList::Clear, htmlhelp.iitproplist_clear, infotech/IITPropList::Clear, refIITPropListClear
 ms.topic: method
-f1_keywords: 
- - "infotech/IITPropList.Clear"
+f1_keywords:
+- infotech/IITPropList.Clear
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITPropList.Clear
+- IITPropList.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

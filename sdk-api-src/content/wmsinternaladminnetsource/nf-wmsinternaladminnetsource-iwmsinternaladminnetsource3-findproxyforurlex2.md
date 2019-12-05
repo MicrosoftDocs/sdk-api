@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.FindProxyForURLEx2
 title: IWMSInternalAdminNetSource3::FindProxyForURLEx2 (wmsinternaladminnetsource.h)
-
 description: The FindProxyForURLEx2 method finds a proxy server name and port to use for the user.
 old-location: wmformat\iwmsinternaladminnetsource3_findproxyforurlex2.htm
 tech.root: wmformat
 ms.assetid: 03c52ed2-bf77-4013-89d6-544d048f1056
-
 ms.date: 12/05/2018
 ms.keywords: FindProxyForURLEx2, FindProxyForURLEx2 method [windows Media Format], FindProxyForURLEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, IWMSInternalAdminNetSource3 interface [windows Media Format],FindProxyForURLEx2 method, IWMSInternalAdminNetSource3.FindProxyForURLEx2, IWMSInternalAdminNetSource3::FindProxyForURLEx2, IWMSInternalAdminNetSource3FindProxyForURLEx2, wmformat.iwmsinternaladminnetsource3_findproxyforurlex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::FindProxyForURLEx2
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3.FindProxyForURLEx2"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource3.FindProxyForURLEx2
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource3.FindProxyForURLEx2
+- IWMSInternalAdminNetSource3.FindProxyForURLEx2
 targetos: Windows
 req.typenames: 
 req.redist: 

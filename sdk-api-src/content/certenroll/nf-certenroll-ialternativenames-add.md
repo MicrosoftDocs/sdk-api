@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Add
 title: IAlternativeNames::Add (certenroll.h)
-
 description: Adds an object to the collection.
 old-location: security\ialternativenames_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 02085a1c-0821-4b11-95ad-e1c3a69f4e80
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Add method, IAlternativeNames.Add, IAlternativeNames::Add, certenroll/IAlternativeNames::Add, security.ialternativenames_add_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IAlternativeNames.Add"
+f1_keywords:
+- certenroll/IAlternativeNames.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IAlternativeNames.Add
+- IAlternativeNames.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

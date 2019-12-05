@@ -1,19 +1,17 @@
 ---
 UID: NN:vsadmin.IVssAdmin
 title: IVssAdmin (vsadmin.h)
-
 description: The IVssAdmin interface manages providers registered with VSS.
 old-location: base\ivssadmin.htm
 tech.root: VSS
 ms.assetid: 6128d627-380b-4fef-b58a-caf8f149f526
-
 ms.date: 12/05/2018
 ms.keywords: IVssAdmin, IVssAdmin interface [VSS], IVssAdmin interface [VSS],described, base.ivssadmin, vsadmin/IVssAdmin
 ms.topic: interface
-f1_keywords: 
- - "vsadmin/IVssAdmin"
+f1_keywords:
+- vsadmin/IVssAdmin
 dev_langs:
- - c++
+- c++
 req.header: vsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsAdmin.h
+- VsAdmin.h
 api_name:
- - IVssAdmin
+- IVssAdmin
 targetos: Windows
 req.typenames: 
 req.redist: 

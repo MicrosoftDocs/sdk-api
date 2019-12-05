@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_CommitBatchSize
 title: IMessageMover::get_CommitBatchSize (comsvcs.h)
-
 description: Retrieves the commit batch size.
 old-location: cos\imessagemover_get_commitbatchsize.htm
 tech.root: cossdk
 ms.assetid: 7c0b5ebb-00dc-4c9a-9c0c-6d92cd13f534
-
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],get_CommitBatchSize method, IMessageMover.get_CommitBatchSize, IMessageMover::get_CommitBatchSize, comsvcs/IMessageMover::get_CommitBatchSize, cos.imessagemover_get_commitbatchsize, get_CommitBatchSize, get_CommitBatchSize method [COM+], get_CommitBatchSize method [COM+],IMessageMover interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMessageMover.get_CommitBatchSize"
+f1_keywords:
+- comsvcs/IMessageMover.get_CommitBatchSize
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMessageMover.get_CommitBatchSize
+- IMessageMover.get_CommitBatchSize
 targetos: Windows
 req.typenames: 
 req.redist: 

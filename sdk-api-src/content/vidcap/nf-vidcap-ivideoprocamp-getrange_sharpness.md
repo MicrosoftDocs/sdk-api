@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Sharpness
 title: IVideoProcAmp::getRange_Sharpness (vidcap.h)
-
 description: The getRange_Sharpness method returns the range of sharpness settings supported by the camera.
 old-location: dshow\ivideoprocamp_getrange_sharpness.htm
 tech.root: DirectShow
 ms.assetid: 9a5fe298-e76b-44ac-9fcd-a5d1aeb3593c
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],getRange_Sharpness method, IVideoProcAmp.getRange_Sharpness, IVideoProcAmp::getRange_Sharpness, IVideoProcAmpgetRange_Sharpness, dshow.ivideoprocamp_getrange_sharpness, getRange_Sharpness, getRange_Sharpness method [DirectShow], getRange_Sharpness method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::getRange_Sharpness
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.getRange_Sharpness"
+f1_keywords:
+- vidcap/IVideoProcAmp.getRange_Sharpness
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.getRange_Sharpness
+- IVideoProcAmp.getRange_Sharpness
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoKeypadTones
 title: ITAutomatedPhoneControl::put_AutoKeypadTones (tapi3if.h)
-
 description: The put_AutoKeypadTones method sets the AutoKeypadTones property for this phone. When this feature is enabled, a digit tone is automatically played whenever a keypad button is pressed.
 old-location: tapi3\itautomatedphonecontrol_put_autokeypadtones.htm
 tech.root: Tapi
 ms.assetid: 5a57c0ef-440a-4939-8d15-edb0c59dc1a4
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],put_AutoKeypadTones method, ITAutomatedPhoneControl.put_AutoKeypadTones, ITAutomatedPhoneControl::put_AutoKeypadTones, _tapi3_itautomatedphonecontrol_put_autokeypadtones, put_AutoKeypadTones, put_AutoKeypadTones method [TAPI 2.2], put_AutoKeypadTones method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_put_autokeypadtones, tapi3if/ITAutomatedPhoneControl::put_AutoKeypadTones
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.put_AutoKeypadTones"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.put_AutoKeypadTones
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.put_AutoKeypadTones
+- ITAutomatedPhoneControl.put_AutoKeypadTones
 targetos: Windows
 req.typenames: 
 req.redist: 

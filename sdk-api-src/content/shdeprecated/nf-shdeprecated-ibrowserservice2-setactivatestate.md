@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.SetActivateState
 title: IBrowserService2::SetActivateState (shdeprecated.h)
-
 description: Deprecated. Updates the value of the _uActivateState member of the BASEBROWSERDATA structure, which tracks whether the browser view window is in an activated state. The derived class makes this call to the base class.
 old-location: shell\IBrowserService2_SetActivateState.htm
 tech.root: shell
 ms.assetid: 7a822b69-892d-48dc-99b3-8d725036722d
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],SetActivateState method, IBrowserService2.SetActivateState, IBrowserService2::SetActivateState, SetActivateState, SetActivateState method [Windows Shell], SetActivateState method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::SetActivateState, shell.IBrowserService2_SetActivateState, zone_IBrowserService2_SetActivateState
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.SetActivateState"
+f1_keywords:
+- shdeprecated/IBrowserService2.SetActivateState
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.SetActivateState
+- IBrowserService2.SetActivateState
 targetos: Windows
 req.typenames: 
 req.redist: 

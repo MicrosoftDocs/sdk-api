@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrFromI4
 title: VarBstrFromI4 function (oleauto.h)
-
 description: Converts a long value to a BSTR value.
 old-location: automat\varbstrfromi4.htm
 tech.root: automat
 ms.assetid: ae4cc116-29b2-40cd-8990-531837c3fcb3
-
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromI4, VarBstrFromI4 function [Automation], _oa96_VarBstrFromI4, automat.varbstrfromi4, oleauto/VarBstrFromI4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrFromI4"
+f1_keywords:
+- oleauto/VarBstrFromI4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrFromI4
+- VarBstrFromI4
 targetos: Windows
 req.typenames: 
 req.redist: 

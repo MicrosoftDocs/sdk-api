@@ -1,19 +1,17 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentPersistInfo.IsDirty
 title: ISceSvcAttachmentPersistInfo::IsDirty (scesvc.h)
-
 description: The IsDirty method returns a value indicating whether data in the attachment snap-in has been modified since it was last saved.
 old-location: security\iscesvcattachmentpersistinfo_isdirty.htm
 tech.root: SecMgmt
 ms.assetid: b430e598-e16c-47fc-8f19-fbcfc6b71337
-
 ms.date: 12/05/2018
 ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],IsDirty method, ISceSvcAttachmentPersistInfo.IsDirty, ISceSvcAttachmentPersistInfo::IsDirty, IsDirty, IsDirty method [Security], IsDirty method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_isdirty, scesvc/ISceSvcAttachmentPersistInfo::IsDirty, security.iscesvcattachmentpersistinfo_isdirty
 ms.topic: method
-f1_keywords: 
- - "scesvc/ISceSvcAttachmentPersistInfo.IsDirty"
+f1_keywords:
+- scesvc/ISceSvcAttachmentPersistInfo.IsDirty
 dev_langs:
- - c++
+- c++
 req.header: scesvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsecedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsecedit.dll
+- Wsecedit.dll
 api_name:
- - ISceSvcAttachmentPersistInfo.IsDirty
+- ISceSvcAttachmentPersistInfo.IsDirty
 targetos: Windows
 req.typenames: 
 req.redist: 

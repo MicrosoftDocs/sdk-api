@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MajorBuild
 title: IFaxInboundRoutingExtension::get_MajorBuild (faxcomex.h)
-
 description: The IFaxInboundRoutingExtension::get_MajorBuild property is a value that specifies the major part of the build number for the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0eas.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MajorBuild property, IFaxInboundRoutingExtension.MajorBuild, IFaxInboundRoutingExtension.get_MajorBuild, IFaxInboundRoutingExtension::MajorBuild, IFaxInboundRoutingExtension::get_MajorBuild, MajorBuild property [Fax Service], MajorBuild property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.majorbuild, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_majorbuild_cpp, fax._mfax_faxinboundroutingextension_majorbuild, faxcomex/IFaxInboundRoutingExtension::MajorBuild, faxcomex/IFaxInboundRoutingExtension::get_MajorBuild, get_MajorBuild
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingExtension.MajorBuild"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingExtension.MajorBuild
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension.MajorBuild
- - IFaxInboundRoutingExtension.get_MajorBuild
- - IFaxInboundRoutingExtension.get_MajorBuild
+- IFaxInboundRoutingExtension.MajorBuild
+- IFaxInboundRoutingExtension.get_MajorBuild
+- IFaxInboundRoutingExtension.get_MajorBuild
 targetos: Windows
 req.typenames: 
 req.redist: 

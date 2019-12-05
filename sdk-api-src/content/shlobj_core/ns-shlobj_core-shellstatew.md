@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_14
 title: SHELLSTATEW (shlobj_core.h)
-
 description: Contains settings for the Shell's state. This structure is used with the SHGetSetSettings function.
 old-location: shell\SHELLSTATE.htm
 tech.root: shell
 ms.assetid: a5ba0e9f-d164-4fe6-97ab-34d61289ce1c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHELLSTATEW, LPSHELLSTATE, LPSHELLSTATE structure pointer [Windows Shell], SHELLSTATE, SHELLSTATE structure [Windows Shell], SHELLSTATEA, SHELLSTATEW, _win32_SHELLSTATE, shell.SHELLSTATE, shlobj_core/LPSHELLSTATE, shlobj_core/SHELLSTATE"
+ms.keywords: '*LPSHELLSTATEW, LPSHELLSTATE, LPSHELLSTATE structure pointer [Windows Shell], SHELLSTATE, SHELLSTATE structure [Windows Shell], SHELLSTATEA, SHELLSTATEW, _win32_SHELLSTATE, shell.SHELLSTATE, shlobj_core/LPSHELLSTATE, shlobj_core/SHELLSTATE'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SHELLSTATE"
+f1_keywords:
+- shlobj_core/SHELLSTATE
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - SHELLSTATE
+- SHELLSTATE
 targetos: Windows
 req.typenames: SHELLSTATEW, *LPSHELLSTATEW
 req.redist: 

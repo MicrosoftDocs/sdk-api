@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.ISearchManager2
 title: ISearchManager2 (searchapi.h)
-
 description: Enabled applications to create and delete custom catalogs in the Windows Search indexer.
 old-location: search\isearchmanager2.htm
 tech.root: search
 ms.assetid: EE08AC43-D2E9-4B70-BBA5-52E36DD7F9A1
-
 ms.date: 12/05/2018
 ms.keywords: ISearchManager2, ISearchManager2 interface [search], ISearchManager2 interface [search],described, search.isearchmanager2, searchapi/ISearchManager2
 ms.topic: interface
-f1_keywords: 
- - "searchapi/ISearchManager2"
+f1_keywords:
+- searchapi/ISearchManager2
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - ISearchManager2
+- ISearchManager2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetPatternProgrammaticName
 title: IUIAutomation::GetPatternProgrammaticName (uiautomationclient.h)
-
 description: Retrieves the registered programmatic name of a control pattern.
 old-location: winauto\uiauto_IUIAutomation_GetPatternProgrammaticName.htm
 tech.root: WinAuto
 ms.assetid: a5968193-e3d9-41d1-b13f-8e86db5e0c70
-
 ms.date: 12/05/2018
 ms.keywords: GetPatternProgrammaticName, GetPatternProgrammaticName method [Windows Accessibility], GetPatternProgrammaticName method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],GetPatternProgrammaticName method, IUIAutomation.GetPatternProgrammaticName, IUIAutomation::GetPatternProgrammaticName, uiauto.uiauto_IUIAutomation_GetPatternProgrammaticName, uiauto_IUIAutomation_GetPatternProgrammaticName, uiautomationclient/IUIAutomation::GetPatternProgrammaticName, winauto.uiauto_IUIAutomation_GetPatternProgrammaticName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.GetPatternProgrammaticName"
+f1_keywords:
+- uiautomationclient/IUIAutomation.GetPatternProgrammaticName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.GetPatternProgrammaticName
+- IUIAutomation.GetPatternProgrammaticName
 targetos: Windows
 req.typenames: 
 req.redist: 

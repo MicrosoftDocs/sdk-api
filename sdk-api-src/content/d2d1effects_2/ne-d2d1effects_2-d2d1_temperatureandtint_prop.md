@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects_2.D2D1_TEMPERATUREANDTINT_PROP
 title: D2D1_TEMPERATUREANDTINT_PROP (d2d1effects_2.h)
-
 description: Identifiers for properties of the Temperature and Tint effect.
 old-location: direct2d\d2d1_temperatureandtint_prop.htm
 tech.root: Direct2D
 ms.assetid: 7295BFD0-773A-488A-BE86-CE1B202BCAC6
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_TEMPERATUREANDTINT_PROP, D2D1_TEMPERATUREANDTINT_PROP enumeration [Direct2D], D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE, D2D1_TEMPERATUREANDTINT_PROP_TINT, d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP, d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE, d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TINT, direct2d.d2d1_temperatureandtint_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP"
+f1_keywords:
+- d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_2.h
+- d2d1effects_2.h
 api_name:
- - D2D1_TEMPERATUREANDTINT_PROP
+- D2D1_TEMPERATUREANDTINT_PROP
 targetos: Windows
 req.typenames: D2D1_TEMPERATUREANDTINT_PROP
 req.redist: 

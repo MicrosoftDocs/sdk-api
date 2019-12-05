@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertificatePolicies.Remove
 title: ICertificatePolicies::Remove (certenroll.h)
-
 description: Removes an object from the collection by index number.
 old-location: security\icertificatepolicies_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 5cd010bb-50ee-4251-815e-1fb4de1f2a81
-
 ms.date: 12/05/2018
 ms.keywords: ICertificatePolicies interface [Security],Remove method, ICertificatePolicies.Remove, ICertificatePolicies::Remove, Remove, Remove method [Security], Remove method [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::Remove, security.icertificatepolicies_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertificatePolicies.Remove"
+f1_keywords:
+- certenroll/ICertificatePolicies.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertificatePolicies.Remove
+- ICertificatePolicies.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

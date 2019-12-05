@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertResyncCertificateChainEngine
 title: CertResyncCertificateChainEngine function (wincrypt.h)
-
 description: Resyncs the certificate chain engine, which resynchronizes the stores the store's engine and updates the engine caches.
 old-location: security\certresynccertificatechainengine.htm
 tech.root: SecCrypto
 ms.assetid: D8674AD1-0407-4D1E-9E21-60CAC6D01FC5
-
 ms.date: 12/05/2018
 ms.keywords: CertResyncCertificateChainEngine, CertResyncCertificateChainEngine function [Security], security.certresynccertificatechainengine, wincrypt/CertResyncCertificateChainEngine
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertResyncCertificateChainEngine"
+f1_keywords:
+- wincrypt/CertResyncCertificateChainEngine
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - crypt32.dll
+- crypt32.dll
 api_name:
- - CertResyncCertificateChainEngine
+- CertResyncCertificateChainEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

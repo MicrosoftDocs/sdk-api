@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagMETAFILEPICT
 title: METAFILEPICT (wingdi.h)
-
 description: Defines the metafile picture format used for exchanging metafile data through the clipboard.
 old-location: dataxchg\metafilepict.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardstructures\metafilepict.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMETAFILEPICT, LPMETAFILEPICT, LPMETAFILEPICT structure pointer [Data Exchange], METAFILEPICT, METAFILEPICT structure [Data Exchange], _win32_METAFILEPICT_str, _win32_metafilepict_str_cpp, dataxchg.metafilepict, wingdi/LPMETAFILEPICT, wingdi/METAFILEPICT, winui._win32_metafilepict_str"
+ms.keywords: '*LPMETAFILEPICT, LPMETAFILEPICT, LPMETAFILEPICT structure pointer [Data Exchange], METAFILEPICT, METAFILEPICT structure [Data Exchange], _win32_METAFILEPICT_str, _win32_metafilepict_str_cpp, dataxchg.metafilepict, wingdi/LPMETAFILEPICT, wingdi/METAFILEPICT, winui._win32_metafilepict_str'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/METAFILEPICT"
+f1_keywords:
+- wingdi/METAFILEPICT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - METAFILEPICT
+- METAFILEPICT
 targetos: Windows
 req.typenames: METAFILEPICT, *LPMETAFILEPICT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ScaleTransform
 title: Graphics::ScaleTransform (gdiplusgraphics.h)
-
 description: The Graphics::ScaleTransform method updates this Graphics object's world transformation matrix with the product of itself and a scaling matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\scaletransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],ScaleTransform method, Graphics.ScaleTransform, Graphics::ScaleTransform, ScaleTransform, ScaleTransform method [GDI+], ScaleTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_, gdiplus._gdiplus_CLASS_Graphics_ScaleTransform_sx_sy_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.ScaleTransform"
+f1_keywords:
+- gdiplusgraphics/Graphics.ScaleTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.ScaleTransform
+- Graphics.ScaleTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

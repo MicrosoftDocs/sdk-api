@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.GridPattern_GetItem
 title: GridPattern_GetItem function (uiautomationcoreapi.h)
-
 description: Gets the node for an item in a grid.
 old-location: winauto\uiauto_GridPattern_GetItemConPat.htm
 tech.root: WinAuto
 ms.assetid: 776b704b-479b-4b01-8522-b50500bf1c84
-
 ms.date: 12/05/2018
 ms.keywords: GridPattern_GetItem, GridPattern_GetItem function [Windows Accessibility], uiauto.uiauto_GridPattern_GetItemConPat, uiauto_GridPattern_GetItemConPat, uiautomationcoreapi/GridPattern_GetItem, winauto.uiauto_GridPattern_GetItemConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/GridPattern_GetItem"
+f1_keywords:
+- uiautomationcoreapi/GridPattern_GetItem
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - GridPattern_GetItem
+- GridPattern_GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:directml.DML_SCALE_BIAS
 title: DML_SCALE_BIAS
-
 description: Contains the values of scale and bias terms supplied to a DirectML operator. Scale and bias have the effect of applying the function g(x) = x * Scale + Bias.
 old-location: direct3d12\dml_scale_bias.htm
 tech.root: direct3d12
 ms.assetid: 56E5BD59-DD7C-40FF-8B85-BD405FDE8E29
-
 ms.date: 12/5/2018
 ms.keywords: DML_SCALE_BIAS, DML_SCALE_BIAS structure, direct3d12.dml_scale_bias, directml/DML_SCALE_BIAS
 ms.topic: struct
-f1_keywords: 
- - "directml/DML_SCALE_BIAS"
+f1_keywords:
+- directml/DML_SCALE_BIAS
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_SCALE_BIAS
+- DML_SCALE_BIAS
 targetos: Windows
 req.typenames: 
 req.redist: 

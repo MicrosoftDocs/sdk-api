@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.DeleteProfileA
 title: DeleteProfileA function (userenv.h)
-
 description: Deletes the user profile and all user-related settings from the specified computer. The caller must have administrative privileges to delete a user's profile.
 old-location: shell\DeleteProfile.htm
 tech.root: shell
 ms.assetid: 48a08d9a-4fdc-43ab-8323-c49bc2d0a58d
-
 ms.date: 12/05/2018
 ms.keywords: DeleteProfile, DeleteProfile function [Windows Shell], DeleteProfileA, DeleteProfileW, _shell_DeleteProfile, shell.DeleteProfile, userenv/DeleteProfile, userenv/DeleteProfileA, userenv/DeleteProfileW
 ms.topic: function
-f1_keywords: 
- - "userenv/DeleteProfile"
+f1_keywords:
+- userenv/DeleteProfile
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - DeleteProfile
- - DeleteProfileA
- - DeleteProfileW
+- DeleteProfile
+- DeleteProfileA
+- DeleteProfileW
 targetos: Windows
 req.typenames: 
 req.redist: 

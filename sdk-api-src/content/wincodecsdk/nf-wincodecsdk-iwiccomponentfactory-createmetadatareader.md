@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateMetadataReader
 title: IWICComponentFactory::CreateMetadataReader (wincodecsdk.h)
-
 description: Creates an IWICMetadataReader based on the given parameters.
 old-location: wic\_wic_codec_iwiccomponentfactory_createmetadatareader.htm
 tech.root: wic
 ms.assetid: 3fc94831-1743-4269-97af-48116e2a4e1a
-
 ms.date: 12/05/2018
 ms.keywords: CreateMetadataReader, CreateMetadataReader method [Windows Imaging Component], CreateMetadataReader method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateMetadataReader method, IWICComponentFactory.CreateMetadataReader, IWICComponentFactory::CreateMetadataReader, _wic_codec_iwiccomponentfactory_createmetadatareader, wic._wic_codec_iwiccomponentfactory_createmetadatareader, wincodecsdk/IWICComponentFactory::CreateMetadataReader
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICComponentFactory.CreateMetadataReader"
+f1_keywords:
+- wincodecsdk/IWICComponentFactory.CreateMetadataReader
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICComponentFactory.CreateMetadataReader
+- IWICComponentFactory.CreateMetadataReader
 targetos: Windows
 req.typenames: 
 req.redist: 

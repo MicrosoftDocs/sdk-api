@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdbase._WSD_CONFIG_PARAM
 title: WSD_CONFIG_PARAM (wsdbase.h)
-
 description: Represents configuration parameters for creating WSDAPI objects.
 old-location: ncd\wsd_config_param.htm
 tech.root: WsdApi
 ms.assetid: 58dc3e11-586e-4185-b1d0-4249b4bfb252
-
 ms.date: 12/05/2018
-ms.keywords: "*PWSD_CONFIG_PARAM, WSD_CONFIG_PARAM, WSD_CONFIG_PARAM structure, _WSD_CONFIG_PARAM, ncd.wsd_config_param, wsdbase/WSD_CONFIG_PARAM"
+ms.keywords: '*PWSD_CONFIG_PARAM, WSD_CONFIG_PARAM, WSD_CONFIG_PARAM structure, _WSD_CONFIG_PARAM, ncd.wsd_config_param, wsdbase/WSD_CONFIG_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "wsdbase/WSD_CONFIG_PARAM"
+f1_keywords:
+- wsdbase/WSD_CONFIG_PARAM
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wsdbase.h
+- wsdbase.h
 api_name:
- - WSD_CONFIG_PARAM
+- WSD_CONFIG_PARAM
 targetos: Windows
 req.typenames: WSD_CONFIG_PARAM, *PWSD_CONFIG_PARAM
 req.redist: 

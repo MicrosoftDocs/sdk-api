@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_HAlpha
 title: IDVBTLocator::get_HAlpha (tuner.h)
-
 description: The get_HAlpha method retrieves the hierarchy alpha.
 old-location: mstv\idvbtlocator_get_halpha.htm
 tech.root: mstv
 ms.assetid: 523222c3-ae40-4eed-af22-6cba56df4959
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTLocator interface [Microsoft TV Technologies],get_HAlpha method, IDVBTLocator.get_HAlpha, IDVBTLocator::get_HAlpha, IDVBTLocatorget_HAlpha, get_HAlpha, get_HAlpha method [Microsoft TV Technologies], get_HAlpha method [Microsoft TV Technologies],IDVBTLocator interface, mstv.idvbtlocator_get_halpha, tuner/IDVBTLocator::get_HAlpha
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTLocator.get_HAlpha"
+f1_keywords:
+- tuner/IDVBTLocator.get_HAlpha
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTLocator.get_HAlpha
+- IDVBTLocator.get_HAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

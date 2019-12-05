@@ -1,19 +1,17 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_VIEWPORT_OPTIONS
 title: DIRECTMANIPULATION_VIEWPORT_OPTIONS (directmanipulation.h)
-
 description: Defines the input behavior options for the viewport.
 old-location: directmanipulation\directmanipulation_viewport_options.htm
 tech.root: directmanipulation
 ms.assetid: BFBA2D32-825F-4EEF-99C8-291305926750
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_VIEWPORT_OPTIONS, DIRECTMANIPULATION_VIEWPORT_OPTIONS enumeration [Direct Manipulation], DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE, DIRECTMANIPULATION_VIEWPORT_OPTIONS_DEFAULT, DIRECTMANIPULATION_VIEWPORT_OPTIONS_DISABLEPIXELSNAPPING, DIRECTMANIPULATION_VIEWPORT_OPTIONS_EXPLICITHITTEST, DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT, DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE, directmanipulation.directmanipulation_viewport_options, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_AUTODISABLE, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_DEFAULT, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_DISABLEPIXELSNAPPING, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_EXPLICITHITTEST, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_INPUT, directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS_MANUALUPDATE
 ms.topic: enum
-f1_keywords: 
- - "directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS"
+f1_keywords:
+- directmanipulation/DIRECTMANIPULATION_VIEWPORT_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - DIRECTMANIPULATION_VIEWPORT_OPTIONS
+- DIRECTMANIPULATION_VIEWPORT_OPTIONS
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_VIEWPORT_OPTIONS
 req.redist: 

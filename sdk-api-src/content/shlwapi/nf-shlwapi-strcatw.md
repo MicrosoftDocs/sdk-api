@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCatW
 title: StrCatW function (shlwapi.h)
-
 description: Appends one string to another.
 old-location: shell\StrCat.htm
 tech.root: shell
 ms.assetid: fd357462-83be-42a8-9f39-1e023bd5f86e
-
 ms.date: 12/05/2018
 ms.keywords: StrCat, StrCat function [Windows Shell], StrCatW, _win32_StrCat, shell.StrCat, shlwapi/StrCat, shlwapi/StrCatW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCat"
+f1_keywords:
+- shlwapi/StrCat
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - StrCat
- - StrCatW
+- StrCat
+- StrCatW
 targetos: Windows
 req.typenames: 
 req.redist: 

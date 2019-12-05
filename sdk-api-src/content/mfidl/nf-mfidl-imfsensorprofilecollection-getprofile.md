@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.GetProfile
 title: IMFSensorProfileCollection::GetProfile (mfidl.h)
-
 description: Retrieves the specified profile.
 old-location: mf\imfsensorprofilecollection_getprofile.htm
 tech.root: medfound
 ms.assetid: 3E229A12-D53A-493F-9EFB-EA28131ABB10
-
 ms.date: 12/05/2018
 ms.keywords: GetProfile, GetProfile method [Media Foundation], GetProfile method [Media Foundation],IMFSensorProfileCollection interface, IMFSensorProfileCollection interface [Media Foundation],GetProfile method, IMFSensorProfileCollection.GetProfile, IMFSensorProfileCollection::GetProfile, mf.imfsensorprofilecollection_getprofile, mfidl/IMFSensorProfileCollection::GetProfile
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorProfileCollection.GetProfile"
+f1_keywords:
+- mfidl/IMFSensorProfileCollection.GetProfile
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfsensorgroup.lib
 req.dll: Mfsensorgroup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mfsensorgroup.dll
+- Mfsensorgroup.dll
 api_name:
- - IMFSensorProfileCollection.GetProfile
+- IMFSensorProfileCollection.GetProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

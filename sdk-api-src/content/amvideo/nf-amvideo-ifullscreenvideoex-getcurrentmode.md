@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetCurrentMode
 title: IFullScreenVideoEx::GetCurrentMode (amvideo.h)
-
 description: The GetCurrentMode method retrieves the current display mode.
 old-location: dshow\ifullscreenvideoex_getcurrentmode.htm
 tech.root: DirectShow
 ms.assetid: 036914da-4223-4601-9e4a-4c7840b7dd22
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentMode, GetCurrentMode method [DirectShow], GetCurrentMode method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],GetCurrentMode method, IFullScreenVideoEx.GetCurrentMode, IFullScreenVideoEx::GetCurrentMode, IFullScreenVideoGetCurrentMode, amvideo/IFullScreenVideoEx::GetCurrentMode, dshow.ifullscreenvideoex_getcurrentmode
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.GetCurrentMode"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.GetCurrentMode
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.GetCurrentMode
+- IFullScreenVideoEx.GetCurrentMode
 targetos: Windows
 req.typenames: 
 req.redist: 

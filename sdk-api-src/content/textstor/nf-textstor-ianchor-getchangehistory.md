@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.IAnchor.GetChangeHistory
 title: IAnchor::GetChangeHistory (textstor.h)
-
 description: The IAnchor::GetChangeHistory method gets the history of deletions that have occurred immediately preceding or following the anchor.
 old-location: tsf\ianchor_getchangehistory.htm
 tech.root: TSF
 ms.assetid: d373a379-1d27-4438-abaf-2e11f2332790
-
 ms.date: 12/05/2018
 ms.keywords: GetChangeHistory, GetChangeHistory method [Text Services Framework], GetChangeHistory method [Text Services Framework],IAnchor interface, IAnchor interface [Text Services Framework],GetChangeHistory method, IAnchor.GetChangeHistory, IAnchor::GetChangeHistory, TS_CH_FOLLOWING_DEL, TS_CH_PRECEDING_DEL, textstor/IAnchor::GetChangeHistory, tsf.ianchor_getchangehistory
 ms.topic: method
-f1_keywords: 
- - "textstor/IAnchor.GetChangeHistory"
+f1_keywords:
+- textstor/IAnchor.GetChangeHistory
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IAnchor.GetChangeHistory
+- IAnchor.GetChangeHistory
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

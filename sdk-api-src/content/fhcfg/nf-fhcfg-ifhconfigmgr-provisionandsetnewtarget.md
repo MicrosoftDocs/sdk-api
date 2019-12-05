@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhConfigMgr.ProvisionAndSetNewTarget
 title: IFhConfigMgr::ProvisionAndSetNewTarget (fhcfg.h)
-
 description: Provisions a certain storage device or network share as a File History backup target and assigns it as the default backup target for the current user.
 old-location: winprog\ifhconfigmgr_provisionandsetnewtarget.htm
 tech.root: DevNotes
 ms.assetid: 9C9FA696-CFB2-4814-96D5-2B9B6A2AB426
-
 ms.date: 12/05/2018
 ms.keywords: FhConfigMgr class [Windows API],ProvisionAndSetNewTarget method, IFhConfigMgr interface [Windows API],ProvisionAndSetNewTarget method, IFhConfigMgr.ProvisionAndSetNewTarget, IFhConfigMgr::ProvisionAndSetNewTarget, ProvisionAndSetNewTarget, ProvisionAndSetNewTarget method [Windows API], ProvisionAndSetNewTarget method [Windows API],FhConfigMgr class, ProvisionAndSetNewTarget method [Windows API],IFhConfigMgr interface, fhcfg/IFhConfigMgr::ProvisionAndSetNewTarget, winprog.ifhconfigmgr_provisionandsetnewtarget
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhConfigMgr.ProvisionAndSetNewTarget"
+f1_keywords:
+- fhcfg/IFhConfigMgr.ProvisionAndSetNewTarget
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhConfigMgr.ProvisionAndSetNewTarget
- - FhConfigMgr.ProvisionAndSetNewTarget
+- IFhConfigMgr.ProvisionAndSetNewTarget
+- FhConfigMgr.ProvisionAndSetNewTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeletePropertyItem
 title: IAzApplicationGroup::DeletePropertyItem (azroles.h)
-
 description: Removes the specified entity from the specified list.
 old-location: security\iazapplicationgroup_deletepropertyitem.htm
 tech.root: SecAuthZ
 ms.assetid: 63ed036a-ad1d-47a8-a4c7-f23fc060c2db
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_GROUP_APP_MEMBERS, AZ_PROP_GROUP_APP_NON_MEMBERS, AZ_PROP_GROUP_MEMBERS, AZ_PROP_GROUP_MEMBERS_NAME, AZ_PROP_GROUP_NON_MEMBERS, AZ_PROP_GROUP_NON_MEMBERS_NAME, AzApplicationGroup object [Security],DeletePropertyItem method, DeletePropertyItem, DeletePropertyItem method [Security], DeletePropertyItem method [Security],AzApplicationGroup object, DeletePropertyItem method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeletePropertyItem method, IAzApplicationGroup.DeletePropertyItem, IAzApplicationGroup::DeletePropertyItem, azroles/IAzApplicationGroup::DeletePropertyItem, security.iazapplicationgroup_deletepropertyitem
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.DeletePropertyItem"
+f1_keywords:
+- azroles/IAzApplicationGroup.DeletePropertyItem
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.DeletePropertyItem
- - AzApplicationGroup.DeletePropertyItem
+- IAzApplicationGroup.DeletePropertyItem
+- AzApplicationGroup.DeletePropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

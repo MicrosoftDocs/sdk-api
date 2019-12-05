@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.get_DataCollectorSet
 title: IDataCollector::get_DataCollectorSet (pla.h)
-
 description: Retrieves the data collector set to which this data collector belongs.
 old-location: pla\idatacollector_datacollectorset.htm
 tech.root: PLA
 ms.assetid: d4449953-b982-474b-ac35-b03e39db48c9
-
 ms.date: 12/05/2018
 ms.keywords: DataCollectorSet property [PLA], DataCollectorSet property [PLA],IDataCollector interface, IDataCollector interface [PLA],DataCollectorSet property, IDataCollector.DataCollectorSet, IDataCollector.get_DataCollectorSet, IDataCollector::DataCollectorSet, IDataCollector::get_DataCollectorSet, base.idatacollector_datacollectorset, get_DataCollectorSet, pla.idatacollector_datacollectorset, pla/IDataCollector::DataCollectorSet, pla/IDataCollector::get_DataCollectorSet
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.DataCollectorSet"
+f1_keywords:
+- pla/IDataCollector.DataCollectorSet
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.DataCollectorSet
- - IDataCollector.get_DataCollectorSet
+- IDataCollector.DataCollectorSet
+- IDataCollector.get_DataCollectorSet
 targetos: Windows
 req.typenames: 
 req.redist: 

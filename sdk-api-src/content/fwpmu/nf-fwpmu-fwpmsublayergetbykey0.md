@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerGetByKey0
 title: FwpmSubLayerGetByKey0 function (fwpmu.h)
-
 description: Retrieves a sublayer by its key.
 old-location: fwp\fwpmsublayergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 3435b4fb-abea-43cc-b1a9-a8bea673d72e
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerGetByKey0, FwpmSubLayerGetByKey0 function [Filtering], fwp.fwpmsublayergetbykey0_func, fwpmu/FwpmSubLayerGetByKey0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSubLayerGetByKey0"
+f1_keywords:
+- fwpmu/FwpmSubLayerGetByKey0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSubLayerGetByKey0
+- FwpmSubLayerGetByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 

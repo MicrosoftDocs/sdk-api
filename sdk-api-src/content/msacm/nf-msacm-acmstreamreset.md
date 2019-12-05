@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmStreamReset
 title: acmStreamReset function (msacm.h)
-
 description: The acmStreamReset function stops conversions for a given ACM stream. All pending buffers are marked as done and returned to the application.
 old-location: multimedia\acmstreamreset.htm
 tech.root: Multimedia
 ms.assetid: 641c882e-b9c8-4945-bf8a-f3e70c5d5c64
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmStreamReset, acmStreamReset, acmStreamReset function [Windows Multimedia], msacm/acmStreamReset, multimedia.acmstreamreset"
+ms.keywords: _win32_acmStreamReset, acmStreamReset, acmStreamReset function [Windows Multimedia], msacm/acmStreamReset, multimedia.acmstreamreset
 ms.topic: function
-f1_keywords: 
- - "msacm/acmStreamReset"
+f1_keywords:
+- msacm/acmStreamReset
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmStreamReset
+- acmStreamReset
 targetos: Windows
 req.typenames: 
 req.redist: 

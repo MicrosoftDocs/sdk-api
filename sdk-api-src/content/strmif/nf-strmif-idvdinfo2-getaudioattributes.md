@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAudioAttributes
 title: IDvdInfo2::GetAudioAttributes (strmif.h)
-
 description: The GetAudioAttributes method retrieves the attributes of the specified audio stream in the current title or menu.
 old-location: dshow\idvdinfo2_getaudioattributes.htm
 tech.root: DirectShow
 ms.assetid: 80291efa-f3eb-47f0-94e0-dcde583ff35c
-
 ms.date: 12/05/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [DirectShow], GetAudioAttributes method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAudioAttributes method, IDvdInfo2.GetAudioAttributes, IDvdInfo2::GetAudioAttributes, IDvdInfo2GetAudioAttributes, dshow.idvdinfo2_getaudioattributes, strmif/IDvdInfo2::GetAudioAttributes
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetAudioAttributes"
+f1_keywords:
+- strmif/IDvdInfo2.GetAudioAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetAudioAttributes
+- IDvdInfo2.GetAudioAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

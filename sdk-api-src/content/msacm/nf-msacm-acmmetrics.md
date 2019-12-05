@@ -1,19 +1,17 @@
 ---
 UID: NF:msacm.acmMetrics
 title: acmMetrics function (msacm.h)
-
 description: The acmMetrics function returns various metrics for the ACM or related ACM objects.
 old-location: multimedia\acmmetrics.htm
 tech.root: Multimedia
 ms.assetid: 30b6dc13-b523-4c42-aa35-c86b3ebe04c3
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmMetrics, acmMetrics, acmMetrics function [Windows Multimedia], msacm/acmMetrics, multimedia.acmmetrics"
+ms.keywords: _win32_acmMetrics, acmMetrics, acmMetrics function [Windows Multimedia], msacm/acmMetrics, multimedia.acmmetrics
 ms.topic: function
-f1_keywords: 
- - "msacm/acmMetrics"
+f1_keywords:
+- msacm/acmMetrics
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msacm32.lib
 req.dll: Msacm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msacm32.dll
- - Ext-MS-Win-mm-msacm-l1-1-0.dll
+- Msacm32.dll
+- Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmMetrics
+- acmMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

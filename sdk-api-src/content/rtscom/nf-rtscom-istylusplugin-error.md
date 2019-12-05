@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.Error
 title: IStylusPlugin::Error (rtscom.h)
-
 description: Notifies the implementing object that this plug-in or one of the previous plug-ins in either the IStylusAsyncPlugin or IStylusSyncPlugin collection threw an exception.
 old-location: tablet\istylusplugin_error.htm
 tech.root: tablet
 ms.assetid: 236589f8-a6ae-4db3-8be4-68c5babeb9f0
-
 ms.date: 12/05/2018
 ms.keywords: 236589f8-a6ae-4db3-8be4-68c5babeb9f0, Error, Error method [Tablet PC], Error method [Tablet PC],IStylusPlugin interface, IStylusPlugin interface [Tablet PC],Error method, IStylusPlugin.Error, IStylusPlugin::Error, rtscom/IStylusPlugin::Error, tablet.istylusplugin_error
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.Error"
+f1_keywords:
+- rtscom/IStylusPlugin.Error
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.Error
+- IStylusPlugin.Error
 targetos: Windows
 req.typenames: 
 req.redist: 

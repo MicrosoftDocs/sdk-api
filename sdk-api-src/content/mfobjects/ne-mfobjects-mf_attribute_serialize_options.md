@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects.MF_ATTRIBUTE_SERIALIZE_OPTIONS
 title: MF_ATTRIBUTE_SERIALIZE_OPTIONS (mfobjects.h)
-
 description: Defines flags for serializing and deserializing attribute stores.
 old-location: mf\mf_attribute_serialize_options.htm
 tech.root: medfound
 ms.assetid: e4b218d1-185c-483f-b697-19ce8b3a4058
-
 ms.date: 12/05/2018
 ms.keywords: MF_ATTRIBUTE_SERIALIZE_OPTIONS, MF_ATTRIBUTE_SERIALIZE_OPTIONS enumeration [Media Foundation], MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF, e4b218d1-185c-483f-b697-19ce8b3a4058, mf.mf_attribute_serialize_options, mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS, mfobjects/MF_ATTRIBUTE_SERIALIZE_UNKNOWN_BYREF
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS"
+f1_keywords:
+- mfobjects/MF_ATTRIBUTE_SERIALIZE_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MF_ATTRIBUTE_SERIALIZE_OPTIONS
+- MF_ATTRIBUTE_SERIALIZE_OPTIONS
 targetos: Windows
 req.typenames: 
 req.redist: 

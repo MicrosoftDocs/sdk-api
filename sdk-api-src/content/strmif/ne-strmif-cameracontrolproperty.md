@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagCameraControlProperty
 title: CameraControlProperty (strmif.h)
-
 description: The CameraControlProperty enumeration specifies a setting on a camera.
 old-location: dshow\cameracontrolproperty.htm
 tech.root: DirectShow
 ms.assetid: eebf2246-960f-48ea-86b7-7542e69f2e3e
-
 ms.date: 12/05/2018
 ms.keywords: CameraControlProperty, CameraControlProperty enumeration [DirectShow], CameraControlPropertyEnumeration, CameraControl_Exposure, CameraControl_Focus, CameraControl_Iris, CameraControl_Pan, CameraControl_Roll, CameraControl_Tilt, CameraControl_Zoom, dshow.cameracontrolproperty, strmif/CameraControlProperty, strmif/CameraControl_Exposure, strmif/CameraControl_Focus, strmif/CameraControl_Iris, strmif/CameraControl_Pan, strmif/CameraControl_Roll, strmif/CameraControl_Tilt, strmif/CameraControl_Zoom
 ms.topic: enum
-f1_keywords: 
- - "strmif/CameraControlProperty"
+f1_keywords:
+- strmif/CameraControlProperty
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - CameraControlProperty
+- CameraControlProperty
 targetos: Windows
 req.typenames: CameraControlProperty
 req.redist: 

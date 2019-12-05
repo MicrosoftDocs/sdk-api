@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_RADIO
 title: MBN_RADIO (mbnapi.h)
-
 description: The MBN_RADIO enumerated type indicates whether the device radio is on or off.
 old-location: mbn\mbn_radio.htm
 tech.root: mbn
 ms.assetid: 4655b909-7c30-4781-8171-7d7ba0e934ec
-
 ms.date: 12/05/2018
 ms.keywords: MBN_RADIO, MBN_RADIO enumeration [Microsoft Broadband Networks], MBN_RADIO_OFF, MBN_RADIO_ON, mbn.mbn_radio, mbnapi/MBN_RADIO, mbnapi/MBN_RADIO_OFF, mbnapi/MBN_RADIO_ON
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_RADIO"
+f1_keywords:
+- mbnapi/MBN_RADIO
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_RADIO
+- MBN_RADIO
 targetos: Windows
 req.typenames: MBN_RADIO
 req.redist: 

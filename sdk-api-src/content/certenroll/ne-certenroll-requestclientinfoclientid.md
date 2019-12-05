@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.RequestClientInfoClientId
 title: RequestClientInfoClientId (certenroll.h)
-
 description: Specifies the type of application that created a certificate request.
 old-location: security\requestclientinfoclientid_enum.htm
 tech.root: seccertenroll
 ms.assetid: 0c9ee81d-105d-4e97-9de3-169ff77e55f0
-
 ms.date: 12/05/2018
 ms.keywords: ClientIdAutoEnroll, ClientIdAutoEnroll2003, ClientIdCertReq, ClientIdCertReq2003, ClientIdDefaultRequest, ClientIdEOBO, ClientIdNone, ClientIdRequestWizard, ClientIdTest, ClientIdUserStart, ClientIdWizard2003, ClientIdXEnroll2003, RequestClientInfoClientId, RequestClientInfoClientId enumeration [Security], certenroll/ClientIdAutoEnroll, certenroll/ClientIdAutoEnroll2003, certenroll/ClientIdCertReq, certenroll/ClientIdCertReq2003, certenroll/ClientIdDefaultRequest, certenroll/ClientIdEOBO, certenroll/ClientIdNone, certenroll/ClientIdRequestWizard, certenroll/ClientIdTest, certenroll/ClientIdUserStart, certenroll/ClientIdWizard2003, certenroll/ClientIdXEnroll2003, certenroll/RequestClientInfoClientId, security.requestclientinfoclientid_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/RequestClientInfoClientId"
+f1_keywords:
+- certenroll/RequestClientInfoClientId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - RequestClientInfoClientId
+- RequestClientInfoClientId
 targetos: Windows
 req.typenames: RequestClientInfoClientId
 req.redist: 

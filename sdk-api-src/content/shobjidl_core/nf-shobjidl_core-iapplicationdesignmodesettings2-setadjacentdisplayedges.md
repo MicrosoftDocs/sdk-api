@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 title: IApplicationDesignModeSettings2::SetAdjacentDisplayEdges (shobjidl_core.h)
-
 description: Sets whether the application window will be adjacent to the edge of the emulated display.
 old-location: shell\IApplicationDesignModeSettings2_SetAdjacentDisplayEdges.htm
 tech.root: shell
 ms.assetid: FD8B2436-1ADD-4371-AEB4-27EBDEC5BA04
-
 ms.date: 12/05/2018
 ms.keywords: ADE_LEFT, ADE_NONE, ADE_RIGHT, IApplicationDesignModeSettings2 interface [Windows Shell],SetAdjacentDisplayEdges method, IApplicationDesignModeSettings2.SetAdjacentDisplayEdges, IApplicationDesignModeSettings2::SetAdjacentDisplayEdges, SetAdjacentDisplayEdges, SetAdjacentDisplayEdges method [Windows Shell], SetAdjacentDisplayEdges method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetAdjacentDisplayEdges, shobjidl_core/IApplicationDesignModeSettings2::SetAdjacentDisplayEdges
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDesignModeSettings2.SetAdjacentDisplayEdges"
+f1_keywords:
+- shobjidl_core/IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Twinapi.lib
 req.dll: Twinapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - twinapi.dll
+- twinapi.dll
 api_name:
- - IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
+- IApplicationDesignModeSettings2.SetAdjacentDisplayEdges
 targetos: Windows
 req.typenames: 
 req.redist: 

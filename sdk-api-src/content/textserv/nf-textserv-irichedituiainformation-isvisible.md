@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.IRichEditUiaInformation.IsVisible
 title: IRichEditUiaInformation::IsVisible (textserv.h)
-
 description: Indicates whether a windowless rich edit control is currently visible.
 old-location: controls\irichedituiainformation_isvisible.htm
 tech.root: Controls
 ms.assetid: E989851B-E03C-42A2-A088-E89DF986D7AC
-
 ms.date: 12/05/2018
 ms.keywords: IRichEditUiaInformation interface [Windows Controls],IsVisible method, IRichEditUiaInformation.IsVisible, IRichEditUiaInformation::IsVisible, IsVisible, IsVisible method [Windows Controls], IsVisible method [Windows Controls],IRichEditUiaInformation interface, controls.irichedituiainformation_isvisible, textserv/IRichEditUiaInformation::IsVisible
 ms.topic: method
-f1_keywords: 
- - "textserv/IRichEditUiaInformation.IsVisible"
+f1_keywords:
+- textserv/IRichEditUiaInformation.IsVisible
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRichEditUiaInformation.IsVisible
+- IRichEditUiaInformation.IsVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

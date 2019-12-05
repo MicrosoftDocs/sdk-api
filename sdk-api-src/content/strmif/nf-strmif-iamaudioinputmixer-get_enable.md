@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Enable
 title: IAMAudioInputMixer::get_Enable (strmif.h)
-
 description: The get_Enable method retrieves whether the input is enabled.
 old-location: dshow\iamaudioinputmixer_get_enable.htm
 tech.root: DirectShow
 ms.assetid: d3ec509c-9990-4803-a4e3-abc88fc8c522
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],get_Enable method, IAMAudioInputMixer.get_Enable, IAMAudioInputMixer::get_Enable, IAMAudioInputMixerget_Enable, dshow.iamaudioinputmixer_get_enable, get_Enable, get_Enable method [DirectShow], get_Enable method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::get_Enable
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.get_Enable"
+f1_keywords:
+- strmif/IAMAudioInputMixer.get_Enable
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.get_Enable
+- IAMAudioInputMixer.get_Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

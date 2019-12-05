@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddSpecialPregap
 title: IRawCDImageCreator::AddSpecialPregap (imapi2.h)
-
 description: Accepts the provided IStream object and saves the associated pointer to be used as data for the pre-gap for track 1.
 old-location: imapi\irawcdimagecreator_addspecialpregap.htm
 tech.root: imapi
 ms.assetid: 953ac9e9-b097-4fe5-8bcf-db4f9f15816e
-
 ms.date: 12/05/2018
 ms.keywords: AddSpecialPregap, AddSpecialPregap method [IMAPI], AddSpecialPregap method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],AddSpecialPregap method, IRawCDImageCreator.AddSpecialPregap, IRawCDImageCreator::AddSpecialPregap, imapi.irawcdimagecreator_addspecialpregap, imapi2/IRawCDImageCreator::AddSpecialPregap
 ms.topic: method
 f1_keywords:
 - imapi2/IRawCDImageCreator.AddSpecialPregap
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

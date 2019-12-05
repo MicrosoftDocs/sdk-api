@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._repastespecial
 title: REPASTESPECIAL (richedit.h)
-
 description: Contains information identifying whether the display aspect of a pasted object should be based on the content of the object or the icon that represent the object.
 old-location: controls\REPASTESPECIAL.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\repastespecial.htm
-
 ms.date: 12/05/2018
 ms.keywords: DVASPECT_CONTENT, DVASPECT_ICON, REPASTESPECIAL, REPASTESPECIAL structure [Windows Controls], _win32_REPASTESPECIAL_str, _win32_REPASTESPECIAL_str_cpp, controls.REPASTESPECIAL, controls._win32_REPASTESPECIAL_str, richedit/REPASTESPECIAL
 ms.topic: struct
-f1_keywords: 
- - "richedit/REPASTESPECIAL"
+f1_keywords:
+- richedit/REPASTESPECIAL
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - REPASTESPECIAL
+- REPASTESPECIAL
 targetos: Windows
 req.typenames: REPASTESPECIAL
 req.redist: 

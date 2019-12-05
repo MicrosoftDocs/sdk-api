@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT(ID3D11Texture1D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT)
 title: CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture1D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT) (d3d11.h)
-
 description: Instantiates a new instance of a CD3D11_VIEWPORT structure that is initialized with D3D11_TEX1D_RTV or D3D11_TEX1D_ARRAY_RTV values.
 old-location: 
 tech.root: direct3d11
 ms.assetid: 94A63C63-1173-4328-87BB-A6FB48402181
-
 ms.date: 05/06/2019
 ms.keywords: CD3D11_VIEWPORT, CD3D11_VIEWPORT interface [Direct3D 11],CD3D11_VIEWPORT method, CD3D11_VIEWPORT method [Direct3D 11], CD3D11_VIEWPORT method [Direct3D 11],CD3D11_VIEWPORT interface, CD3D11_VIEWPORT.CD3D11_VIEWPORT, CD3D11_VIEWPORT.CD3D11_VIEWPORT(ID3D11Texture1D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT, CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture1D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT), CD3D11_VIEWPORT::CD3D11_VIEWPORT(const D3D11_VIEWPORT&), d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT, direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_VIEWPORT.CD3D11_VIEWPORT"
+f1_keywords:
+- d3d11/CD3D11_VIEWPORT.CD3D11_VIEWPORT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_VIEWPORT.CD3D11_VIEWPORT
+- CD3D11_VIEWPORT.CD3D11_VIEWPORT
 targetos: Windows
 req.typenames: 
 req.redist: 

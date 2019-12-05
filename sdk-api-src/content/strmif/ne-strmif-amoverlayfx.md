@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.AMOVERLAYFX
 title: AMOVERLAYFX (strmif.h)
-
 description: Specifies effects on a DirectDraw hardware overlay surface.
 old-location: dshow\amoverlayfx.htm
 tech.root: DirectShow
 ms.assetid: fa984504-5175-4b94-8a75-d294cd9546a4
-
 ms.date: 12/05/2018
 ms.keywords: AMOVERFX_DEINTERLACE, AMOVERFX_MIRRORLEFTRIGHT, AMOVERFX_MIRRORUPDOWN, AMOVERFX_NOFX, AMOVERLAYFX, AMOVERLAYFX enumeration [DirectShow], AMOVERLAYFXEnumeration, dshow.amoverlayfx, strmif/AMOVERFX_DEINTERLACE, strmif/AMOVERFX_MIRRORLEFTRIGHT, strmif/AMOVERFX_MIRRORUPDOWN, strmif/AMOVERFX_NOFX, strmif/AMOVERLAYFX
 ms.topic: enum
-f1_keywords: 
- - "strmif/AMOVERLAYFX"
+f1_keywords:
+- strmif/AMOVERLAYFX
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AMOVERLAYFX
+- AMOVERLAYFX
 targetos: Windows
 req.typenames: 
 req.redist: 

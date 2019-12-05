@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.devices.alljoyn.interop.IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 title: IWindowsDevicesAllJoynBusAttachmentFactoryInterop (windows.devices.alljoyn.interop.h)
-
 description: This interface allows for the creation of alljoyn_busattachment without taking ownership of the reference.
 old-location: alljoyn\iwindowsdevicesalljoynbusattachmentfactoryinterop.htm
 tech.root: AllJoyn
 ms.assetid: 2E9FE6B4-E8F0-4627-A712-F7A4CE5404BE
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsDevicesAllJoynBusAttachmentFactoryInterop, IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API], IWindowsDevicesAllJoynBusAttachmentFactoryInterop interface [AllJoyn API],described, alljoyn.iwindowsdevicesalljoynbusattachmentfactoryinterop, windows/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 ms.topic: interface
-f1_keywords: 
- - "windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop"
+f1_keywords:
+- windows.devices.alljoyn.interop/IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 dev_langs:
- - c++
+- c++
 req.header: windows.devices.alljoyn.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.devices.alljoyn.interop.h
+- windows.devices.alljoyn.interop.h
 api_name:
- - IWindowsDevicesAllJoynBusAttachmentFactoryInterop
+- IWindowsDevicesAllJoynBusAttachmentFactoryInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

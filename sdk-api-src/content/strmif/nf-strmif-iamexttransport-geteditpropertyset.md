@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetEditPropertySet
 title: IAMExtTransport::GetEditPropertySet (strmif.h)
-
 description: The GetEditPropertySet method retrieves the state of an edit event.
 old-location: dshow\iamexttransport_geteditpropertyset.htm
 tech.root: DirectShow
 ms.assetid: 1afb45da-947c-454d-8be9-46ac58802b9e
-
 ms.date: 12/05/2018
 ms.keywords: GetEditPropertySet, GetEditPropertySet method [DirectShow], GetEditPropertySet method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetEditPropertySet method, IAMExtTransport.GetEditPropertySet, IAMExtTransport::GetEditPropertySet, IAMExtTransportGetEditPropertySet, dshow.iamexttransport_geteditpropertyset, strmif/IAMExtTransport::GetEditPropertySet
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.GetEditPropertySet"
+f1_keywords:
+- strmif/IAMExtTransport.GetEditPropertySet
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.GetEditPropertySet
+- IAMExtTransport.GetEditPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

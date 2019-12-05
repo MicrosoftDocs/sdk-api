@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathIsContentTypeW
 title: PathIsContentTypeW function (shlwapi.h)
-
 description: Determines if a file's registered content type matches the specified content type. This function obtains the content type for the specified file type and compares that string with the pszContentType. The comparison is not case-sensitive.
 old-location: shell\PathIsContentType.htm
 tech.root: shell
 ms.assetid: 53eac496-9666-41fc-8682-f7b6583a62fe
-
 ms.date: 12/05/2018
 ms.keywords: PathIsContentType, PathIsContentType function [Windows Shell], PathIsContentTypeA, PathIsContentTypeW, _win32_PathIsContentType, shell.PathIsContentType, shlwapi/PathIsContentType, shlwapi/PathIsContentTypeA, shlwapi/PathIsContentTypeW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathIsContentType"
+f1_keywords:
+- shlwapi/PathIsContentType
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - PathIsContentType
- - PathIsContentTypeA
- - PathIsContentTypeW
+- PathIsContentType
+- PathIsContentTypeA
+- PathIsContentTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 

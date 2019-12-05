@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls3.get_audioLanguageCount
 title: IWMPControls3::get_audioLanguageCount (wmp.h)
-
 description: The get_audioLanguageCount method retrieves the count of supported audio languages.
 old-location: wmp\iwmpcontrols3_get_audiolanguagecount.htm
 tech.root: WMP
 ms.assetid: 7c714f97-4f6b-4a8b-904c-3ce0f8057533
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls3 interface [Windows Media Player],get_audioLanguageCount method, IWMPControls3.get_audioLanguageCount, IWMPControls3::get_audioLanguageCount, IWMPControls3get_audioLanguageCount, get_audioLanguageCount, get_audioLanguageCount method [Windows Media Player], get_audioLanguageCount method [Windows Media Player],IWMPControls3 interface, wmp.iwmpcontrols3_get_audiolanguagecount, wmp/IWMPControls3::get_audioLanguageCount
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls3.get_audioLanguageCount"
+f1_keywords:
+- wmp/IWMPControls3.get_audioLanguageCount
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls3.get_audioLanguageCount
+- IWMPControls3.get_audioLanguageCount
 targetos: Windows
 req.typenames: 
 req.redist: 

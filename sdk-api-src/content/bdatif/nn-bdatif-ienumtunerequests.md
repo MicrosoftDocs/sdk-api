@@ -1,19 +1,17 @@
 ---
 UID: NN:bdatif.IEnumTuneRequests
 title: IEnumTuneRequests (bdatif.h)
-
 description: The IEnumTuneRequests interface provides access to a collection of tune requests returned from a call to IGuideData::GetServices. This collection of tune requests represents all the services available in the tuning space.
 old-location: mstv\ienumtunerequests.htm
 tech.root: mstv
 ms.assetid: 5ad872be-4408-4069-80db-ae73b2127b91
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTuneRequests, IEnumTuneRequests interface [Microsoft TV Technologies], IEnumTuneRequests interface [Microsoft TV Technologies],described, IEnumTuneRequestsInterface, bdatif/IEnumTuneRequests, mstv.ienumtunerequests
 ms.topic: interface
-f1_keywords: 
- - "bdatif/IEnumTuneRequests"
+f1_keywords:
+- bdatif/IEnumTuneRequests
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdatif.h
+- Bdatif.h
 api_name:
- - IEnumTuneRequests
+- IEnumTuneRequests
 targetos: Windows
 req.typenames: 
 req.redist: 

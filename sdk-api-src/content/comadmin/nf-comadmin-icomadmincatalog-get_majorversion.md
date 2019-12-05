@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.get_MajorVersion
 title: ICOMAdminCatalog::get_MajorVersion (comadmin.h)
-
 description: Retrieves the major version number of the COMAdmin library.
 old-location: cos\icomadmincatalog_majorversion.htm
 tech.root: cossdk
 ms.assetid: caa82b0e-435d-4d98-bef0-cd823213c518
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],MajorVersion property, ICOMAdminCatalog.MajorVersion, ICOMAdminCatalog.get_MajorVersion, ICOMAdminCatalog::MajorVersion, ICOMAdminCatalog::get_MajorVersion, MajorVersion property [COM+], MajorVersion property [COM+],ICOMAdminCatalog interface, _cos_IComAdminCatalog_get_MajorVersion, comadmin/ICOMAdminCatalog::MajorVersion, comadmin/ICOMAdminCatalog::get_MajorVersion, cos.icomadmincatalog_majorversion, get_MajorVersion
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.MajorVersion"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.MajorVersion
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.MajorVersion
- - ICOMAdminCatalog.get_MajorVersion
+- ICOMAdminCatalog.MajorVersion
+- ICOMAdminCatalog.get_MajorVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

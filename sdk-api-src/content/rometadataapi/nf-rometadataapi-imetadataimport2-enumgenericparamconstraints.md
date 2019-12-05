@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.EnumGenericParamConstraints
 title: IMetaDataImport2::EnumGenericParamConstraints (rometadataapi.h)
-
 description: Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.
 old-location: winrt\imetadataimport2_enumgenericparamconstraints.htm
 tech.root: WinRT
 ms.assetid: 5e8ba48d-7c94-4fc6-8def-db296065fdce
-
 ms.date: 12/05/2018
 ms.keywords: EnumGenericParamConstraints, EnumGenericParamConstraints method [Windows Runtime], EnumGenericParamConstraints method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumGenericParamConstraints method, IMetaDataImport2.EnumGenericParamConstraints, IMetaDataImport2::EnumGenericParamConstraints, rometadataapi/IMetaDataImport2::EnumGenericParamConstraints, winrt.imetadataimport2_enumgenericparamconstraints
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport2.EnumGenericParamConstraints"
+f1_keywords:
+- rometadataapi/IMetaDataImport2.EnumGenericParamConstraints
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport2.EnumGenericParamConstraints
+- IMetaDataImport2.EnumGenericParamConstraints
 targetos: Windows
 req.typenames: 
 req.redist: 

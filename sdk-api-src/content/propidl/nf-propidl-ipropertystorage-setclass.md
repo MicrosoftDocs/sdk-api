@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.IPropertyStorage.SetClass
 title: IPropertyStorage::SetClass (propidl.h)
-
 description: The SetClass method assigns a new CLSID to the current property storage object, and persistently stores the CLSID with the object.
 old-location: stg\ipropertystorage_setclass.htm
 tech.root: Stg
 ms.assetid: 88c916e5-b7f0-4f4d-b049-df2b0e1c2423
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyStorage [Strctd Stg],SetClass, IPropertyStorage interface [Structured Storage],SetClass method, IPropertyStorage.SetClass, IPropertyStorage::SetClass, SetClass, SetClass method [Structured Storage], SetClass method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_setclass, propidl/IPropertyStorage::SetClass, stg.ipropertystorage_setclass
 ms.topic: method
-f1_keywords: 
- - "propidl/IPropertyStorage.SetClass"
+f1_keywords:
+- propidl/IPropertyStorage.SetClass
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: Objbase.h, Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IPropertyStorage.SetClass
+- IPropertyStorage.SetClass
 targetos: Windows
 req.typenames: 
 req.redist: 

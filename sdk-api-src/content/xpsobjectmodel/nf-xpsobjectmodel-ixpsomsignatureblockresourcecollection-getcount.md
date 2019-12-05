@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.GetCount
 title: IXpsOMSignatureBlockResourceCollection::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of IXpsOMSignatureBlockResource interface pointers in the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 3ed0890a-9593-4004-b122-264d692913db
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],GetCount method, IXpsOMSignatureBlockResourceCollection.GetCount, IXpsOMSignatureBlockResourceCollection::GetCount, xps.ixpsomsignatureblockresourcecollection_getcount, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResourceCollection.GetCount
+- IXpsOMSignatureBlockResourceCollection.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

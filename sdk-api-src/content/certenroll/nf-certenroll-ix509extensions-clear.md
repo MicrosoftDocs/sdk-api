@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Extensions.Clear
 title: IX509Extensions::Clear (certenroll.h)
-
 description: Removes all IX509Extension objects from the collection.
 old-location: security\ix509extensions_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: a985521d-7fcc-49e6-b625-4038939da2ca
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IX509Extensions interface, IX509Extensions interface [Security],Clear method, IX509Extensions.Clear, IX509Extensions::Clear, certenroll/IX509Extensions::Clear, security.ix509extensions_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Extensions.Clear"
+f1_keywords:
+- certenroll/IX509Extensions.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extensions.Clear
+- IX509Extensions.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

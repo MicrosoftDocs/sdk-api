@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRequestFilteredSync.SpecifyFilter
 title: IRequestFilteredSync::SpecifyFilter (winsync.h)
-
 description: When implemented by a derived class, negotiates which filter is used by the source provider during change enumeration.
 old-location: winsync\irequestfilteredsync_specifyfilter.htm
 tech.root: winsync
 ms.assetid: 653e953f-3f08-4d65-85d5-3c5466361ea5
-
 ms.date: 12/05/2018
 ms.keywords: IRequestFilteredSync interface [Windows Sync],SpecifyFilter method, IRequestFilteredSync.SpecifyFilter, IRequestFilteredSync::SpecifyFilter, SpecifyFilter, SpecifyFilter method [Windows Sync], SpecifyFilter method [Windows Sync],IRequestFilteredSync interface, winsync.irequestfilteredsync_specifyfilter, winsync/IRequestFilteredSync::SpecifyFilter
 ms.topic: method
-f1_keywords: 
- - "winsync/IRequestFilteredSync.SpecifyFilter"
+f1_keywords:
+- winsync/IRequestFilteredSync.SpecifyFilter
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRequestFilteredSync.SpecifyFilter
+- IRequestFilteredSync.SpecifyFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

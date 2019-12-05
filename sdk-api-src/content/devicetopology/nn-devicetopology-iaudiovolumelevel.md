@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IAudioVolumeLevel
 title: IAudioVolumeLevel (devicetopology.h)
-
 description: The IAudioVolumeLevel interface provides access to a hardware volume control.
 old-location: coreaudio\iaudiovolumelevel.htm
 tech.root: CoreAudio
 ms.assetid: 5e7d7111-e4b0-43b3-af35-9878d1a19e5f
-
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeLevel, IAudioVolumeLevel interface [Core Audio], IAudioVolumeLevel interface [Core Audio],described, coreaudio.iaudiovolumelevel, devicetopology/IAudioVolumeLevel
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IAudioVolumeLevel"
+f1_keywords:
+- devicetopology/IAudioVolumeLevel
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioVolumeLevel
+- IAudioVolumeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

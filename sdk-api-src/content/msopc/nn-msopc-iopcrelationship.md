@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcRelationship
 title: IOpcRelationship (msopc.h)
-
 description: Represents a relationship, which is a link between a source, which is a part or the package, and a target.
 old-location: opc\iopcrelationship.htm
 tech.root: OPC
 ms.assetid: eb3619bb-470f-41bd-a231-d63df70592c2
-
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationship, IOpcRelationship interface [Open Packaging Conventions], IOpcRelationship interface [Open Packaging Conventions],described, msopc/IOpcRelationship, opc.iopcrelationship
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcRelationship"
+f1_keywords:
+- msopc/IOpcRelationship
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationship
+- IOpcRelationship
 targetos: Windows
 req.typenames: 
 req.redist: 

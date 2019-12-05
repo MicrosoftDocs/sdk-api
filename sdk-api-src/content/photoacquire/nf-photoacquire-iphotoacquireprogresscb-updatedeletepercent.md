@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateDeletePercent
 title: IPhotoAcquireProgressCB::UpdateDeletePercent (photoacquire.h)
-
 description: The UpdateDeletePercent method provides extended functionality when the percentage of items deleted changes. The application provides the implementation of the UpdateDeletePercent method.
 old-location: picacq\iphotoacquireprogresscb_updatedeletepercent.htm
 tech.root: acquisition
 ms.assetid: 8b555d9b-1d01-43ad-b267-8d53023390e8
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],UpdateDeletePercent method, IPhotoAcquireProgressCB.UpdateDeletePercent, IPhotoAcquireProgressCB::UpdateDeletePercent, IPhotoAcquireProgressCBUpdateDeletePercent, UpdateDeletePercent, UpdateDeletePercent method [Picture Acquisition], UpdateDeletePercent method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::UpdateDeletePercent, picacq.iphotoacquireprogresscb_updatedeletepercent
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.UpdateDeletePercent"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.UpdateDeletePercent
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.UpdateDeletePercent
+- IPhotoAcquireProgressCB.UpdateDeletePercent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IScheduleCollection.get_Item
 title: IScheduleCollection::get_Item (pla.h)
-
 description: Retrieves the requested schedule from the collection.
 old-location: pla\ischedulecollection_item.htm
 tech.root: PLA
 ms.assetid: ba889b2e-f822-41ca-a908-ade83ae7cf10
-
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection interface [PLA],Item property, IScheduleCollection.Item, IScheduleCollection.get_Item, IScheduleCollection::Item, IScheduleCollection::get_Item, Item property [PLA], Item property [PLA],IScheduleCollection interface, base.ischedulecollection_item, get_Item, pla.ischedulecollection_item, pla/IScheduleCollection::Item, pla/IScheduleCollection::get_Item
 ms.topic: method
-f1_keywords: 
- - "pla/IScheduleCollection.Item"
+f1_keywords:
+- pla/IScheduleCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IScheduleCollection.Item
- - IScheduleCollection.get_Item
+- IScheduleCollection.Item
+- IScheduleCollection.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.GetStatus
 title: IFaxPort::GetStatus (faxcom.h)
-
 description: The IFaxPort::GetStatus method creates a FaxStatus object for the parent FaxPort object. The FaxStatus object contains the current status of a fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_getstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8lo3.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Fax Service], GetStatus method [Fax Service],IFaxPort interface, IFaxPort interface [Fax Service],GetStatus method, IFaxPort.GetStatus, IFaxPort::GetStatus, _mfax_ifaxport_getstatus, fax._mfax_ifaxport_getstatus, fax._mfax_ifaxport_mfax_ifaxport_getstatus_cpp, faxcom/IFaxPort::GetStatus
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.GetStatus"
+f1_keywords:
+- faxcom/IFaxPort.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.GetStatus
+- IFaxPort.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

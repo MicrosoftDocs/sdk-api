@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptSetProviderA
 title: CryptSetProviderA function (wincrypt.h)
-
 description: Specifies the current user's default cryptographic service provider (CSP).
 old-location: security\cryptsetprovider.htm
 tech.root: SecCrypto
 ms.assetid: 44023a0c-3fb4-4746-a676-1671c3ad901b
-
 ms.date: 12/05/2018
 ms.keywords: CryptSetProvider, CryptSetProvider function [Security], CryptSetProviderA, CryptSetProviderW, _crypto2_cryptsetprovider, security.cryptsetprovider, wincrypt/CryptSetProvider, wincrypt/CryptSetProviderA, wincrypt/CryptSetProviderW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSetProvider"
+f1_keywords:
+- wincrypt/CryptSetProvider
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptSetProvider
- - CryptSetProviderA
- - CryptSetProviderW
+- CryptSetProvider
+- CryptSetProviderA
+- CryptSetProviderW
 targetos: Windows
 req.typenames: 
 req.redist: 

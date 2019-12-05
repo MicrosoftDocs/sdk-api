@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer2.get_windowlessVideo
 title: IWMPPlayer2::get_windowlessVideo (wmp.h)
-
 description: The get_windowlessVideo method retrieves a value indicating whether the Windows Media Player control renders video in windowless mode.
 old-location: wmp\iwmpplayer2_get_windowlessvideo.htm
 tech.root: WMP
 ms.assetid: da1cfa7c-aa79-4711-8de2-d83317e5598f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],get_windowlessVideo method, IWMPPlayer2.get_windowlessVideo, IWMPPlayer2::get_windowlessVideo, IWMPPlayer2get_windowlessVideo, get_windowlessVideo, get_windowlessVideo method [Windows Media Player], get_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_get_windowlessvideo, wmp/IWMPPlayer2::get_windowlessVideo
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer2.get_windowlessVideo"
+f1_keywords:
+- wmp/IWMPPlayer2.get_windowlessVideo
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer2.get_windowlessVideo
+- IWMPPlayer2.get_windowlessVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

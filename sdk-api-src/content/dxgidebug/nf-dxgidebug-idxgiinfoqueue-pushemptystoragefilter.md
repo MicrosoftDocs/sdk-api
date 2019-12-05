@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushEmptyStorageFilter
 title: IDXGIInfoQueue::PushEmptyStorageFilter (dxgidebug.h)
-
 description: Pushes an empty storage filter onto the storage-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushemptystoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: C0DC43B8-4869-49B0-A4D9-6907BCF1CB9E
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyStorageFilter method, IDXGIInfoQueue.PushEmptyStorageFilter, IDXGIInfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method [DXGI], PushEmptyStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptystoragefilter, dxgidebug/IDXGIInfoQueue::PushEmptyStorageFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.PushEmptyStorageFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.PushEmptyStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushEmptyStorageFilter
+- IDXGIInfoQueue.PushEmptyStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

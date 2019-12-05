@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.SetFont2
 title: ITextRange2::SetFont2 (tom.h)
-
 description: Sets the character formatting attributes of the range.
 old-location: controls\itextrange2_setfont2.htm
 tech.root: Controls
 ms.assetid: ff3c2bf3-efb8-454e-b0e2-e65afeb1a091
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetFont2 method, ITextRange2.SetFont2, ITextRange2::SetFont2, SetFont2, SetFont2 method [Windows Controls], SetFont2 method [Windows Controls],ITextRange2 interface, controls.itextrange2_setfont2, tom/ITextRange2::SetFont2
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.SetFont2"
+f1_keywords:
+- tom/ITextRange2.SetFont2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.SetFont2
+- ITextRange2.SetFont2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.Create
 title: IIdentityProvider::Create (identityprovider.h)
-
 description: Creates a new identity associated with the specified user name.
 old-location: security\iidentityprovider_create.htm
 tech.root: SecAuthN
 ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityProvider.Create"
+f1_keywords:
+- identityprovider/IIdentityProvider.Create
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider.Create
+- IIdentityProvider.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_3.ID3D11Fence.CreateSharedHandle
 title: ID3D11Fence::CreateSharedHandle (d3d11_3.h)
-
 description: Creates a shared handle to a fence object.
 old-location: direct3d11\id3d11fence_createsharedhandle.htm
 tech.root: direct3d11
 ms.assetid: 07447C9A-8F69-4FCA-B75C-D7015292F25D
-
 ms.date: 12/05/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method [Direct3D 11], CreateSharedHandle method [Direct3D 11],ID3D11Fence interface, ID3D11Fence interface [Direct3D 11],CreateSharedHandle method, ID3D11Fence.CreateSharedHandle, ID3D11Fence::CreateSharedHandle, d3d11_3/ID3D11Fence::CreateSharedHandle, direct3d11.id3d11fence_createsharedhandle
 ms.topic: method
 f1_keywords:
 - d3d11_3/ID3D11Fence.CreateSharedHandle
 dev_langs:
- - c++
+- c++
 req.header: d3d11_3.h
 req.include-header: 
 req.target-type: Windows

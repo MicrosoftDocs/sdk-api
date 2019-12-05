@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutGetID
 title: midiOutGetID function (mmeapi.h)
-
 description: The midiOutGetID function retrieves the device identifier for the given MIDI output device.
 old-location: multimedia\midioutgetid.htm
 tech.root: Multimedia
 ms.assetid: ce90f680-52e1-4883-9367-88e5baca7ef5
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutGetID, midiOutGetID, midiOutGetID function [Windows Multimedia], mmeapi/midiOutGetID, multimedia.midioutgetid"
+ms.keywords: _win32_midiOutGetID, midiOutGetID, midiOutGetID function [Windows Multimedia], mmeapi/midiOutGetID, multimedia.midioutgetid
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutGetID"
+f1_keywords:
+- mmeapi/midiOutGetID
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutGetID
+- midiOutGetID
 targetos: Windows
 req.typenames: 
 req.redist: 

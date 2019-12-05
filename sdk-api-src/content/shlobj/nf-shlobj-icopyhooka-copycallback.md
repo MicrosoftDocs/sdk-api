@@ -1,18 +1,16 @@
 ---
 UID: NF:shlobj.ICopyHookA.CopyCallback
 title: ICopyHookA::CopyCallback
-
 description: Determines whether the Shell will be allowed to move, copy, delete, or rename a folder or printer object.
 tech.root: shell
 ms.assetid: 50cba486-12b2-4ac7-8bf2-37b5784bb9fe
-
 ms.date: 01/30/19
 ms.keywords: ICopyHookA::CopyCallback
 ms.topic: language-reference
 f1_keywords:
 - shlobj/ICopyHookA::CopyCallback
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function

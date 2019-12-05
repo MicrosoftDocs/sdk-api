@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptIsComplex
 title: ScriptIsComplex function (usp10.h)
-
 description: Determines whether a Unicode string requires complex script processing.
 old-location: intl\scriptiscomplex.htm
 tech.root: Intl
 ms.assetid: 4f8c5494-1887-45f8-92f2-1a767a7d00da
-
 ms.date: 12/05/2018
 ms.keywords: SIC_ASCIIDIGIT, SIC_COMPLEX, SIC_NEUTRAL, ScriptIsComplex, ScriptIsComplex function [Internationalization for Windows Applications], _win32_ScriptIsComplex, intl.scriptiscomplex, usp10/ScriptIsComplex
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptIsComplex"
+f1_keywords:
+- usp10/ScriptIsComplex
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptIsComplex
+- ScriptIsComplex
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

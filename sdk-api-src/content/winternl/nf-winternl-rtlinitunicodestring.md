@@ -1,19 +1,17 @@
 ---
 UID: NF:winternl.RtlInitUnicodeString
 title: RtlInitUnicodeString function (winternl.h)
-
 description: Initializes a counted Unicode string.
 old-location: winprog\rtlinitunicodestring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlinitunicodestring.htm
-
 ms.date: 12/05/2018
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString function [Windows API], winprog.rtlinitunicodestring, winternl/RtlInitUnicodeString, winui.rtlinitunicodestring
 ms.topic: function
-f1_keywords: 
- - "winternl/RtlInitUnicodeString"
+f1_keywords:
+- winternl/RtlInitUnicodeString
 dev_langs:
- - c++
+- c++
 req.header: winternl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: NtosKrnl.lib
 req.dll: Ntdll.dll; NtosKrnl.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ntdll.dll
- - NtosKrnl.exe
+- ntdll.dll
+- NtosKrnl.exe
 api_name:
- - RtlInitUnicodeString
+- RtlInitUnicodeString
 targetos: Windows
 req.typenames: 
 req.redist: 

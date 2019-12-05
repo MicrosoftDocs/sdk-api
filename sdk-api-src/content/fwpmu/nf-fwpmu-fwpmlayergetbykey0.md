@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmLayerGetByKey0
 title: FwpmLayerGetByKey0 function (fwpmu.h)
-
 description: Retrieves a layer object.
 old-location: fwp\fwpmlayergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: b276449e-890c-482d-9bc2-47d44a5ea32b
-
 ms.date: 12/05/2018
 ms.keywords: FwpmLayerGetByKey0, FwpmLayerGetByKey0 function [Filtering], fwp.fwpmlayergetbykey0_func, fwpmu/FwpmLayerGetByKey0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmLayerGetByKey0"
+f1_keywords:
+- fwpmu/FwpmLayerGetByKey0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmLayerGetByKey0
+- FwpmLayerGetByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 

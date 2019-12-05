@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IClientSecurity.SetBlanket
 title: IClientSecurity::SetBlanket (objidl.h)
-
 description: Sets the authentication information (the security blanket) that will be used to make calls on the specified proxy.
 old-location: com\iclientsecurity_setblanket.htm
 tech.root: com
 ms.assetid: adb35089-2846-4782-8c96-d3d1e14beed9
-
 ms.date: 12/05/2018
 ms.keywords: IClientSecurity interface [COM],SetBlanket method, IClientSecurity.SetBlanket, IClientSecurity::SetBlanket, SetBlanket, SetBlanket method [COM], SetBlanket method [COM],IClientSecurity interface, _com_iclientsecurity_setblanket, com.iclientsecurity_setblanket, objidlbase/IClientSecurity::SetBlanket
 ms.topic: method
 f1_keywords:
 - objidl/IClientSecurity.SetBlanket
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetSubProperties(UINT32,ID2D1Properties)
 title: ID2D1Properties::GetSubProperties (d2d1_1.h)
-
 description: Gets the sub-properties of the provided property by index.
 old-location: direct2d\id2d1properties_getsubproperties.htm
 tech.root: Direct2D
 ms.assetid: 6ba7ba8e-63fd-44a1-9a03-565b2e2a128c
-
 ms.date: 12/05/2018
 ms.keywords: GetSubProperties, GetSubProperties method [Direct2D], GetSubProperties method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetSubProperties method, ID2D1Properties.GetSubProperties, ID2D1Properties::GetSubProperties, ID2D1Properties::GetSubProperties(UINT32,ID2D1Properties), ID2D1Properties::GetSubProperties(UINT32,ID2D1Properties**), d2d1_1/ID2D1Properties::GetSubProperties, direct2d.id2d1properties_getsubproperties
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Properties.GetSubProperties"
+f1_keywords:
+- d2d1_1/ID2D1Properties.GetSubProperties
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Properties.GetSubProperties
+- ID2D1Properties.GetSubProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

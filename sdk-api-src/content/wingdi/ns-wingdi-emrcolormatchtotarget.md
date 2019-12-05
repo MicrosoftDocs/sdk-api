@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagCOLORMATCHTOTARGET
 title: EMRCOLORMATCHTOTARGET (wingdi.h)
-
 description: The EMRCOLORMATCHTOTARGET structure contains members for the ColorMatchToTarget enhanced metafile record.
 old-location: gdi\emrcolormatchtotarget.htm
 tech.root: gdi
 ms.assetid: 9b89b703-b670-40eb-b95f-d07e8731e71b
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET structure [Windows GDI], PEMRCOLORMATCHTOTARGET, PEMRCOLORMATCHTOTARGET structure pointer [Windows GDI], _win32_EMRCOLORMATCHTOTARGET_str, gdi.emrcolormatchtotarget, wingdi/EMRCOLORMATCHTOTARGET, wingdi/PEMRCOLORMATCHTOTARGET"
+ms.keywords: '*PEMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET, EMRCOLORMATCHTOTARGET structure [Windows GDI], PEMRCOLORMATCHTOTARGET, PEMRCOLORMATCHTOTARGET structure pointer [Windows GDI], _win32_EMRCOLORMATCHTOTARGET_str, gdi.emrcolormatchtotarget, wingdi/EMRCOLORMATCHTOTARGET, wingdi/PEMRCOLORMATCHTOTARGET'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRCOLORMATCHTOTARGET"
+f1_keywords:
+- wingdi/EMRCOLORMATCHTOTARGET
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRCOLORMATCHTOTARGET
+- EMRCOLORMATCHTOTARGET
 targetos: Windows
 req.typenames: EMRCOLORMATCHTOTARGET, *PEMRCOLORMATCHTOTARGET
 req.redist: 

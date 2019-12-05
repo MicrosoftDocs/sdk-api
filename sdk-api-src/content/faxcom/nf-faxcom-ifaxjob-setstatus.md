@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJob.SetStatus
 title: IFaxJob::SetStatus (faxcom.h)
-
 description: Call the IFaxJob::SetStatus method to pause, resume, cancel, or restart a specified fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_setstatus_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3d83.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],SetStatus method, IFaxJob.SetStatus, IFaxJob::SetStatus, JC_DELETE, JC_PAUSE, JC_RESTART, JC_RESUME, SetStatus, SetStatus method [Fax Service], SetStatus method [Fax Service],IFaxJob interface, _mfax_ifaxjob_setstatus, fax._mfax_ifaxjob_mfax_ifaxjob_setstatus_cpp, fax._mfax_ifaxjob_setstatus, faxcom/IFaxJob::SetStatus
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJob.SetStatus"
+f1_keywords:
+- faxcom/IFaxJob.SetStatus
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJob.SetStatus
- - IFaxJob.SetStatus
+- IFaxJob.SetStatus
+- IFaxJob.SetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

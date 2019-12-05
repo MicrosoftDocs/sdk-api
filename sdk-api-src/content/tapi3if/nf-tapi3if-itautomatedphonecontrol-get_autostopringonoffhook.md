@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoStopRingOnOffHook
 title: ITAutomatedPhoneControl::get_AutoStopRingOnOffHook (tapi3if.h)
-
 description: The get_AutoStopRingOnOffHook method retrieves the current value of the AutoStopRingOnOffHook property.
 old-location: tapi3\itautomatedphonecontrol_get_autostopringonoffhook.htm
 tech.root: Tapi
 ms.assetid: 357266e7-b103-43c1-a6af-b00347c90f51
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoStopRingOnOffHook method, ITAutomatedPhoneControl.get_AutoStopRingOnOffHook, ITAutomatedPhoneControl::get_AutoStopRingOnOffHook, _tapi3_itautomatedphonecontrol_get_autostopringonoffhook, get_AutoStopRingOnOffHook, get_AutoStopRingOnOffHook method [TAPI 2.2], get_AutoStopRingOnOffHook method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autostopringonoffhook, tapi3if/ITAutomatedPhoneControl::get_AutoStopRingOnOffHook
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.get_AutoStopRingOnOffHook"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.get_AutoStopRingOnOffHook
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_AutoStopRingOnOffHook
+- ITAutomatedPhoneControl.get_AutoStopRingOnOffHook
 targetos: Windows
 req.typenames: 
 req.redist: 

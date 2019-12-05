@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.PushCopyOfRetrievalFilter
 title: IDXGIInfoQueue::PushCopyOfRetrievalFilter (dxgidebug.h)
-
 description: Pushes a copy of the retrieval filter that is currently on the top of the retrieval-filter stack onto the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_pushcopyofretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: D1F82073-14DB-47B5-AB61-C1AFE5C50C42
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushCopyOfRetrievalFilter method, IDXGIInfoQueue.PushCopyOfRetrievalFilter, IDXGIInfoQueue::PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter, PushCopyOfRetrievalFilter method [DXGI], PushCopyOfRetrievalFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushcopyofretrievalfilter, dxgidebug/IDXGIInfoQueue::PushCopyOfRetrievalFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.PushCopyOfRetrievalFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.PushCopyOfRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.PushCopyOfRetrievalFilter
+- IDXGIInfoQueue.PushCopyOfRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

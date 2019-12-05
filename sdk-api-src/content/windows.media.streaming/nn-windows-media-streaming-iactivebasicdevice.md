@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.streaming.IActiveBasicDevice
 title: IActiveBasicDevice (windows.media.streaming.h)
-
 description: Represents an active IBasicDevice that is associated with a UPnP device.
 old-location: mediastreaming\iactivebasicdevice.htm
 tech.root: mediastreaming
 ms.assetid: 97544BF4-188F-4CE3-9436-EB7F3E706E94
-
 ms.date: 12/05/2018
 ms.keywords: IActiveBasicDevice, IActiveBasicDevice interface [Media Streaming API], IActiveBasicDevice interface [Media Streaming API],described, mediastreaming.iactivebasicdevice, windows/IActiveBasicDevice
 ms.topic: interface
-f1_keywords: 
- - "windows.media.streaming/IActiveBasicDevice"
+f1_keywords:
+- windows.media.streaming/IActiveBasicDevice
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IActiveBasicDevice
+- IActiveBasicDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

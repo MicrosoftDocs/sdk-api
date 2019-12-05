@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetNameAndDescription
 title: DRMGetNameAndDescription function (msdrm.h)
-
 description: Retrieves a language specific name and description from an issuance license.
 old-location: rm\drmgetnameanddescription.htm
 tech.root: AdRms_Sdk
 ms.assetid: 9e04ee69-bfec-456a-99ca-93e3158aeef9
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetNameAndDescription, DRMGetNameAndDescription function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetNameAndDescription, rm.drmgetnameanddescription
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetNameAndDescription"
+f1_keywords:
+- msdrm/DRMGetNameAndDescription
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetNameAndDescription
+- DRMGetNameAndDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

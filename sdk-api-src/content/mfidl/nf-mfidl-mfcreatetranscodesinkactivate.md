@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeSinkActivate
 title: MFCreateTranscodeSinkActivate function (mfidl.h)
-
 description: Creates the transcode sink activation object.
 old-location: mf\mfcreatetranscodesinkactivate.htm
 tech.root: medfound
 ms.assetid: cc9c604d-7f5a-4afb-a2df-b270ef883e68
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateTranscodeSinkActivate, MFCreateTranscodeSinkActivate function [Media Foundation], mf.mfcreatetranscodesinkactivate, mfidl/MFCreateTranscodeSinkActivate
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateTranscodeSinkActivate"
+f1_keywords:
+- mfidl/MFCreateTranscodeSinkActivate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateTranscodeSinkActivate
+- MFCreateTranscodeSinkActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

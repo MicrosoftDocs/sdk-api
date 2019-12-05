@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItem.GetItemInfo
 title: ISyncMgrSyncItem::GetItemInfo (syncmgr.h)
-
 description: Gets the properties of a sync item.
 old-location: shell\ISyncMgrSyncItem_GetItemInfo.htm
 tech.root: shell
 ms.assetid: b6257d66-36c8-41d6-88f0-99417755582b
-
 ms.date: 12/05/2018
 ms.keywords: GetItemInfo, GetItemInfo method [Windows Shell], GetItemInfo method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemInfo method, ISyncMgrSyncItem.GetItemInfo, ISyncMgrSyncItem::GetItemInfo, _shell_ISyncMgrSyncItem_GetItemInfo, shell.ISyncMgrSyncItem_GetItemInfo, syncmgr/ISyncMgrSyncItem::GetItemInfo
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItem.GetItemInfo"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItem.GetItemInfo
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItem.GetItemInfo
+- ISyncMgrSyncItem.GetItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

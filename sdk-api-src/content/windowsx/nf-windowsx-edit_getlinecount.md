@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Edit_GetLineCount
 title: Edit_GetLineCount macro (windowsx.h)
-
 description: Gets the number of lines in the text of an edit control. You can use this macro or send the EM_GETLINECOUNT message explicitly.
 old-location: controls\Edit_GetLineCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getlinecount.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_GetLineCount, Edit_GetLineCount macro [Windows Controls], _win32_Edit_GetLineCount, _win32_Edit_GetLineCount_cpp, controls.Edit_GetLineCount, controls._win32_Edit_GetLineCount, windowsx/Edit_GetLineCount
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Edit_GetLineCount"
+f1_keywords:
+- windowsx/Edit_GetLineCount
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Edit_GetLineCount
+- Edit_GetLineCount
 targetos: Windows
 req.typenames: 
 req.redist: 

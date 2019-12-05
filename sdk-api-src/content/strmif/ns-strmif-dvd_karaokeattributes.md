@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_KaraokeAttributes
 title: DVD_KaraokeAttributes (strmif.h)
-
 description: The DVD_KaraokeAttributes structure contains information about a karaoke audio stream. The IDvdInfo2::GetKaraokeAttributes method fills in a DVD_KaraokeAttributes structure for a specified stream.
 old-location: dshow\dvd_karaokeattributes.htm
 tech.root: DirectShow
 ms.assetid: dffb0b0e-edce-47e7-b9c0-983fdd2c4746
-
 ms.date: 12/05/2018
 ms.keywords: DVD_KaraokeAttributes, DVD_KaraokeAttributes structure [DirectShow], DVD_KaraokeAttributesStructure, dshow.dvd_karaokeattributes, strmif/DVD_KaraokeAttributes
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_KaraokeAttributes"
+f1_keywords:
+- strmif/DVD_KaraokeAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_KaraokeAttributes
+- DVD_KaraokeAttributes
 targetos: Windows
 req.typenames: DVD_KaraokeAttributes
 req.redist: 

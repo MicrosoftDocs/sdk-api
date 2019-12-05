@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.GetMatrix
 title: IXpsOMMatrixTransform::GetMatrix (xpsobjectmodel.h)
-
 description: Gets the XPS_MATRIX structure, which specifies the transform matrix.
 old-location: xps\ixpsommatrixtransform_getmatrix.htm
 tech.root: printdocs
 ms.assetid: 4067778d-d10f-4b53-9419-f438b7197f44
-
 ms.date: 12/05/2018
 ms.keywords: GetMatrix, GetMatrix method [XPS Documents and Packaging], GetMatrix method [XPS Documents and Packaging],IXpsOMMatrixTransform interface, IXpsOMMatrixTransform interface [XPS Documents and Packaging],GetMatrix method, IXpsOMMatrixTransform.GetMatrix, IXpsOMMatrixTransform::GetMatrix, xps.ixpsommatrixtransform_getmatrix, xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMMatrixTransform.GetMatrix"
+f1_keywords:
+- xpsobjectmodel/IXpsOMMatrixTransform.GetMatrix
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMMatrixTransform.GetMatrix
+- IXpsOMMatrixTransform.GetMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

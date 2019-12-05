@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetCurrentPackageInfo
 title: GetCurrentPackageInfo function (appmodel.h)
-
 description: Gets the package information for the calling process.
 old-location: appxpkg\getcurrentpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: A1887D61-0FAD-4BE8-850F-F104CC074798
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentPackageInfo, GetCurrentPackageInfo function [App packaging and management], appmodel/GetCurrentPackageInfo, appxpkg.getcurrentpackageinfo
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetCurrentPackageInfo"
+f1_keywords:
+- appmodel/GetCurrentPackageInfo
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-Runtime-l1-1-0.dll
- - kernel32legacy.dll
- - Ext-MS-Win-kernel32-package-current-l1-1-0.dll
- - modernapiexthost.dll
- - kernel.appcore.dll
- - API-MS-Win-AppModel-Runtime-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-Runtime-l1-1-0.dll
+- kernel32legacy.dll
+- Ext-MS-Win-kernel32-package-current-l1-1-0.dll
+- modernapiexthost.dll
+- kernel.appcore.dll
+- API-MS-Win-AppModel-Runtime-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - GetCurrentPackageInfo
+- GetCurrentPackageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

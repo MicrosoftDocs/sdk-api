@@ -1,19 +1,17 @@
 ---
 UID: NC:ddeml.PFNCALLBACK
 title: PFNCALLBACK (ddeml.h)
-
 description: An application-defined callback function used with the Dynamic Data Exchange Management Library (DDEML) functions.
 old-location: dataxchg\ddecallback.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddecallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: PFNCALLBACK, PFNCALLBACK callback, PFNCALLBACK callback function [Data Exchange], XCLASS_BOOL, XCLASS_DATA, XCLASS_FLAGS, XCLASS_NOTIFICATION, _win32_DdeCallback, _win32_ddecallback_cpp, dataxchg.ddecallback, ddeml/PFNCALLBACK, winui._win32_ddecallback
 ms.topic: callback
-f1_keywords: 
- - "ddeml/PFNCALLBACK"
+f1_keywords:
+- ddeml/PFNCALLBACK
 dev_langs:
- - c++
+- c++
 req.header: ddeml.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ddeml.h
+- Ddeml.h
 api_name:
- - PFNCALLBACK
+- PFNCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

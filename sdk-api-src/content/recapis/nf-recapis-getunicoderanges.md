@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetUnicodeRanges
 title: GetUnicodeRanges function (recapis.h)
-
 description: Returns the ranges of Unicode points that the recognizer supports.
 old-location: tablet\getunicoderanges.htm
 tech.root: tablet
 ms.assetid: 4a354073-e971-43ba-93c9-84fa2e8c59aa
-
 ms.date: 12/05/2018
 ms.keywords: 4a354073-e971-43ba-93c9-84fa2e8c59aa, GetUnicodeRanges, GetUnicodeRanges function [Tablet PC], recapis/GetUnicodeRanges, tablet.getunicoderanges
 ms.topic: function
-f1_keywords: 
- - "recapis/GetUnicodeRanges"
+f1_keywords:
+- recapis/GetUnicodeRanges
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetUnicodeRanges
+- GetUnicodeRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

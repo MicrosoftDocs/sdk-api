@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.GetGestureStatus
 title: IInkCollector::GetGestureStatus (msinkaut.h)
-
 description: Indicates whether the InkCollector or InkOverlay object is interested in a particular application gesture.
 old-location: tablet\inkcollector_getgesturestatus.htm
 tech.root: tablet
 ms.assetid: 31973709-1702-4ec1-8228-b0d1bdb64bc8
-
 ms.date: 12/05/2018
 ms.keywords: 31973709-1702-4ec1-8228-b0d1bdb64bc8, GetGestureStatus, GetGestureStatus method [Tablet PC], GetGestureStatus method [Tablet PC],IInkCollector interface, IInkCollector interface [Tablet PC],GetGestureStatus method, IInkCollector.GetGestureStatus, IInkCollector::GetGestureStatus, msinkaut/IInkCollector::GetGestureStatus, tablet.inkcollector_getgesturestatus
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.GetGestureStatus"
+f1_keywords:
+- msinkaut/IInkCollector.GetGestureStatus
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.GetGestureStatus
+- IInkCollector.GetGestureStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

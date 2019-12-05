@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManReceiveShellOutput
 title: WSManReceiveShellOutput function (wsman.h)
-
 description: Retrieves output from a running command or from the shell.
 old-location: winrm\wsmanreceiveshelloutput.htm
 tech.root: winrm
 ms.assetid: cc64f212-9897-4a58-b3f1-bc2093f593ba
-
 ms.date: 12/05/2018
 ms.keywords: WSManReceiveShellOutput, WSManReceiveShellOutput function [Windows Remote Management], winrm.wsmanreceiveshelloutput, wsman/WSManReceiveShellOutput
 ms.topic: function
 f1_keywords:
 - wsman/WSManReceiveShellOutput
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows

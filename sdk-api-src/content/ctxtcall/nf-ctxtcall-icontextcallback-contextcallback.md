@@ -1,19 +1,17 @@
 ---
 UID: NF:ctxtcall.IContextCallback.ContextCallback
 title: IContextCallback::ContextCallback (ctxtcall.h)
-
 description: Enters the object context, executes the specified function, and returns.
 old-location: com\icontextcallback_contextcallback.htm
 tech.root: com
 ms.assetid: 7446792e-7f29-4ad4-8245-b86f63f2df18
-
 ms.date: 12/05/2018
 ms.keywords: ContextCallback, ContextCallback method [COM], ContextCallback method [COM],IContextCallback interface, IContextCallback interface [COM],ContextCallback method, IContextCallback.ContextCallback, IContextCallback::ContextCallback, _com_icontextcallback_contextcallback, com.icontextcallback_contextcallback, ctxtcall/IContextCallback::ContextCallback
 ms.topic: method
-f1_keywords: 
- - "ctxtcall/IContextCallback.ContextCallback"
+f1_keywords:
+- ctxtcall/IContextCallback.ContextCallback
 dev_langs:
- - c++
+- c++
 req.header: ctxtcall.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctxtcall.h
+- Ctxtcall.h
 api_name:
- - IContextCallback.ContextCallback
+- IContextCallback.ContextCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

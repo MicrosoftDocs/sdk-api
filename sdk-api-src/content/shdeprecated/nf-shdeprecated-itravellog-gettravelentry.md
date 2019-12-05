@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.ITravelLog.GetTravelEntry
 title: ITravelLog::GetTravelEntry (shdeprecated.h)
-
 description: Deprecated. Gets a travel entry in the travel log relative to the position of the current entry.
 old-location: shell\ITravelLog_GetTravelEntry.htm
 tech.root: shell
 ms.assetid: 8db8aa9a-91c2-49fb-bbef-c7e19de09efe
-
 ms.date: 12/05/2018
 ms.keywords: GetTravelEntry, GetTravelEntry method [Windows Shell], GetTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetTravelEntry method, ITravelLog.GetTravelEntry, ITravelLog::GetTravelEntry, shdeprecated/ITravelLog::GetTravelEntry, shell.ITravelLog_GetTravelEntry, zone_ITravelLog_GetTravelEntry
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/ITravelLog.GetTravelEntry"
+f1_keywords:
+- shdeprecated/ITravelLog.GetTravelEntry
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - ITravelLog.GetTravelEntry
+- ITravelLog.GetTravelEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

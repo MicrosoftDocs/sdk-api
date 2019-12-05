@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMRemoteDictionaryResourceCollection.GetAt
 title: IXpsOMRemoteDictionaryResourceCollection::GetAt (xpsobjectmodel.h)
-
 description: Gets an IXpsOMRemoteDictionaryResource interface pointer from a specified location in the collection.
 old-location: xps\ixpsomremotedictionaryresourcecollection_getat.htm
 tech.root: printdocs
 ms.assetid: a8130a0b-ac58-479d-b72c-2136c7d29c7f
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMRemoteDictionaryResourceCollection interface, IXpsOMRemoteDictionaryResourceCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMRemoteDictionaryResourceCollection.GetAt, IXpsOMRemoteDictionaryResourceCollection::GetAt, xps.ixpsomremotedictionaryresourcecollection_getat, xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMRemoteDictionaryResourceCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMRemoteDictionaryResourceCollection.GetAt
+- IXpsOMRemoteDictionaryResourceCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

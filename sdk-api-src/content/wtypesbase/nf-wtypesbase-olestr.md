@@ -1,19 +1,17 @@
 ---
 UID: NF:wtypesbase.OLESTR
 title: OLESTR macro (wtypesbase.h)
-
 description: Transforms string literals into Unicode strings.
 old-location: com\olestr_macro.htm
 tech.root: com
 ms.assetid: bf3341a0-5b1d-479b-998d-a61bb945e0c3
-
 ms.date: 12/05/2018
 ms.keywords: OLESTR, OLESTR macro [COM], _com_OLESTR, com.olestr, com.olestr_macro, wtypesbase/OLESTR
 ms.topic: macro
-f1_keywords: 
- - "wtypesbase/OLESTR"
+f1_keywords:
+- wtypesbase/OLESTR
 dev_langs:
- - c++
+- c++
 req.header: wtypesbase.h
 req.include-header: WTypes.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wtypesbase.h
+- wtypesbase.h
 api_name:
- - OLESTR
+- OLESTR
 targetos: Windows
 req.typenames: 
 req.redist: 

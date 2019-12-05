@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Skip
 title: IEnumTfRanges::Skip (msctf.h)
-
 description: IEnumTfRanges::Skip method
 old-location: tsf\ienumtfranges_skip.htm
 tech.root: TSF
 ms.assetid: f13ec6c2-379f-42e1-af92-62c4a8d8d922
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfRanges interface [Text Services Framework],Skip method, IEnumTfRanges.Skip, IEnumTfRanges::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfRanges interface, _tsf_ienumtfranges_skip_ref, msctf/IEnumTfRanges::Skip, tsf.ienumtfranges_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfRanges.Skip"
+f1_keywords:
+- msctf/IEnumTfRanges.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfRanges.Skip
+- IEnumTfRanges.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

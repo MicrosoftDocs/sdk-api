@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupMetadata
 title: IVssComponent::GetBackupMetadata (vswriter.h)
-
 description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.
 old-location: base\ivsscomponent_getbackupmetadata.htm
 tech.root: VSS
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e
-
 ms.date: 12/05/2018
 ms.keywords: GetBackupMetadata, GetBackupMetadata method [VSS], GetBackupMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetBackupMetadata method, IVssComponent.GetBackupMetadata, IVssComponent::GetBackupMetadata, _win32_ivsscomponent_getbackupmetadata, base.ivsscomponent_getbackupmetadata, vswriter/IVssComponent::GetBackupMetadata
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetBackupMetadata"
+f1_keywords:
+- vswriter/IVssComponent.GetBackupMetadata
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetBackupMetadata
+- IVssComponent.GetBackupMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

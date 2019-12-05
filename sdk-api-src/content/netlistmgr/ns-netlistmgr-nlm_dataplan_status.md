@@ -1,19 +1,17 @@
 ---
 UID: NS:netlistmgr.NLM_DATAPLAN_STATUS
 title: NLM_DATAPLAN_STATUS (netlistmgr.h)
-
 description: NLM_DATAPLAN_STATUS structure stores the current data plan status information supplied by the carrier.
 old-location: nla\nlm_dataplan_status.htm
 tech.root: nla
 ms.assetid: 49774150-FD7E-4541-95DF-C848247A6A9C
-
 ms.date: 12/05/2018
 ms.keywords: NLM_DATAPLAN_STATUS, NLM_DATAPLAN_STATUS structure [Network Awareness], PNLM_DATAPLAN_STATUS, PNLM_DATAPLAN_STATUS structure pointer [Network Awareness], netlistmgr/NLM_DATAPLAN_STATUS, netlistmgr/PNLM_DATAPLAN_STATUS, nla.nlm_dataplan_status
 ms.topic: struct
-f1_keywords: 
- - "netlistmgr/NLM_DATAPLAN_STATUS"
+f1_keywords:
+- netlistmgr/NLM_DATAPLAN_STATUS
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - NLM_DATAPLAN_STATUS
+- NLM_DATAPLAN_STATUS
 targetos: Windows
 req.typenames: NLM_DATAPLAN_STATUS
 req.redist: 

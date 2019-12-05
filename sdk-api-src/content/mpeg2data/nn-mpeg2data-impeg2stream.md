@@ -1,19 +1,17 @@
 ---
 UID: NN:mpeg2data.IMpeg2Stream
 title: IMpeg2Stream (mpeg2data.h)
-
 description: The IMpeg2Stream interface represents a stream of MPEG-2 data. The IMpeg2Data::GetStreamOfSections method returns a pointer to this interface.
 old-location: mstv\impeg2stream.htm
 tech.root: mstv
 ms.assetid: 189c921a-ec49-48dc-8c60-3d3ec2a648ca
-
 ms.date: 12/05/2018
 ms.keywords: IMpeg2Stream, IMpeg2Stream interface [Microsoft TV Technologies], IMpeg2Stream interface [Microsoft TV Technologies],described, IMpeg2StreamInterface, mpeg2data/IMpeg2Stream, mstv.impeg2stream
 ms.topic: interface
-f1_keywords: 
- - "mpeg2data/IMpeg2Stream"
+f1_keywords:
+- mpeg2data/IMpeg2Stream
 dev_langs:
- - c++
+- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2data.h
+- Mpeg2data.h
 api_name:
- - IMpeg2Stream
+- IMpeg2Stream
 targetos: Windows
 req.typenames: 
 req.redist: 

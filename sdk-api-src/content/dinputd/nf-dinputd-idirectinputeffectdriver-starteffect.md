@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.StartEffect
 title: IDirectInputEffectDriver::StartEffect (dinputd.h)
-
 description: The IDirectInputEffectDriver::StartEffect method begins the playback of an effect. If the effect is already playing, it is restarted from the beginning.
 old-location: hid\idirectinputeffectdriver_starteffect.htm
 tech.root: hid
 ms.assetid: 2c1865c2-ded4-47ce-a743-8ac48986dc5f
-
 ms.date: 12/05/2018
 ms.keywords: IDirectInputEffectDriver interface [Human Input Devices],StartEffect method, IDirectInputEffectDriver.StartEffect, IDirectInputEffectDriver::StartEffect, StartEffect, StartEffect method [Human Input Devices], StartEffect method [Human Input Devices],IDirectInputEffectDriver interface, di_ref_f30aed74-b4e3-41da-b5c7-f153d6f30b40.xml, dinputd/IDirectInputEffectDriver::StartEffect, hid.idirectinputeffectdriver_starteffect
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputEffectDriver.StartEffect"
+f1_keywords:
+- dinputd/IDirectInputEffectDriver.StartEffect
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputEffectDriver.StartEffect
+- IDirectInputEffectDriver.StartEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

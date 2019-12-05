@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetParent
 title: TreeView_GetParent macro (commctrl.h)
-
 description: Retrieves the parent item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PARENT flag.
 old-location: controls\TreeView_GetParent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getparent.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetParent, TreeView_GetParent macro [Windows Controls], _win32_TreeView_GetParent, _win32_TreeView_GetParent_cpp, commctrl/TreeView_GetParent, controls.TreeView_GetParent, controls._win32_TreeView_GetParent
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetParent"
+f1_keywords:
+- commctrl/TreeView_GetParent
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetParent
+- TreeView_GetParent
 targetos: Windows
 req.typenames: 
 req.redist: 

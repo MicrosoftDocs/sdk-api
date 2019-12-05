@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorExpE
 title: XMVectorExpE function (directxmath.h)
-
 description: Computes e (~2.71828) raised to the power for each component.
 old-location: dxmath\xmvectorexpe.htm
 tech.root: dxmath
 ms.assetid: C4A5E4E0-56CC-46E3-87C5-CA99EF512B11
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorExpE, XMVectorExpE, XMVectorExpE method [DirectX Math Support APIs], dxmath.xmvectorexpe
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorExpE"
+f1_keywords:
+- directxmath/XMVectorExpE
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorExpE
+- XMVectorExpE
 targetos: Windows
 req.typenames: 
 req.redist: 

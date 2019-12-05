@@ -1,19 +1,17 @@
 ---
 UID: NF:msports.ComDBClaimPort
 title: ComDBClaimPort function (msports.h)
-
 description: ComDBClaimPort logs an unused COM port number as &#0034;in use&#0034; in the COM port database.
 old-location: serports\comdbclaimport.htm
 tech.root: serports
 ms.assetid: d0baa783-1039-41a4-8bb1-78c977ed62b6
-
 ms.date: 12/05/2018
 ms.keywords: ComDBClaimPort, ComDBClaimPort function [Serial Ports], comdb_e636ae45-1105-4322-9429-f8bf24333432.xml, msports/ComDBClaimPort, serports.comdbclaimport
 ms.topic: function
-f1_keywords: 
- - "msports/ComDBClaimPort"
+f1_keywords:
+- msports/ComDBClaimPort
 dev_langs:
- - c++
+- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msports.dll
+- Msports.dll
 api_name:
- - ComDBClaimPort
+- ComDBClaimPort
 targetos: Windows
 req.typenames: 
 req.redist: 

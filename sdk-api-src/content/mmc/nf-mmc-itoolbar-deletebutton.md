@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IToolbar.DeleteButton
 title: IToolbar::DeleteButton (mmc.h)
-
 description: Enables a snap-in to remove a specified toolbar button.
 old-location: mmc\itoolbar_deletebutton.htm
 tech.root: mmc
 ms.assetid: c893b3a6-a0f8-42ce-bf82-2e45f6458500
-
 ms.date: 12/05/2018
 ms.keywords: DeleteButton, DeleteButton method [MMC], DeleteButton method [MMC],IToolbar interface, IToolbar interface [MMC],DeleteButton method, IToolbar.DeleteButton, IToolbar::DeleteButton, _slate_itoolbar_deletebutton, mmc.itoolbar_deletebutton, mmc/IToolbar::DeleteButton
 ms.topic: method
-f1_keywords: 
- - "mmc/IToolbar.DeleteButton"
+f1_keywords:
+- mmc/IToolbar.DeleteButton
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IToolbar.DeleteButton
+- IToolbar.DeleteButton
 targetos: Windows
 req.typenames: 
 req.redist: 

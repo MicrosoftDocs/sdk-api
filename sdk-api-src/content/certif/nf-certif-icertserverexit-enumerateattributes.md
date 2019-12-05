@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributes
 title: ICertServerExit::EnumerateAttributes (certif.h)
-
 description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.
 old-location: security\icertserverexit_enumerateattributes.htm
 tech.root: SecCrypto
 ms.assetid: df778207-3b20-45a5-a705-8dba566eb658
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributes method, EnumerateAttributes, EnumerateAttributes method [Security], EnumerateAttributes method [Security],CCertServerExit object, EnumerateAttributes method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributes method, ICertServerExit.EnumerateAttributes, ICertServerExit::EnumerateAttributes, _certsrv_icertserverexit_enumerateattributes, certif/ICertServerExit::EnumerateAttributes, security.icertserverexit_enumerateattributes
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.EnumerateAttributes"
+f1_keywords:
+- certif/ICertServerExit.EnumerateAttributes
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.EnumerateAttributes
- - CCertServerExit.EnumerateAttributes
+- ICertServerExit.EnumerateAttributes
+- CCertServerExit.EnumerateAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

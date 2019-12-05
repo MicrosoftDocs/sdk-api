@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecRound
 title: VarDecRound function (oleauto.h)
-
 description: Rounds a variant of type decimal to the specified number of decimal places.
 old-location: automat\vardecround.htm
 tech.root: automat
 ms.assetid: 264914c6-2f47-4e99-b3bb-a2c510906954
-
 ms.date: 12/05/2018
 ms.keywords: VarDecRound, VarDecRound function [Automation], _oa96_VarDecRound, automat.vardecround, oleauto/VarDecRound
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecRound"
+f1_keywords:
+- oleauto/VarDecRound
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecRound
+- VarDecRound
 targetos: Windows
 req.typenames: 
 req.redist: 

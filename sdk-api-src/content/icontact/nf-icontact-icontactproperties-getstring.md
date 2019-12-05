@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.GetString
 title: IContactProperties::GetString (icontact.h)
-
 description: Retrieves the string value at a specified property into a caller-allocated buffer.
 old-location: wincontacts\_wincontacts_IContactProperties_GetString.htm
 tech.root: wincontacts
 ms.assetid: ecab7290-9a35-4da3-a161-b8d52a031172
-
 ms.date: 12/05/2018
 ms.keywords: GetString, GetString method [Windows Contacts], GetString method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetString method, IContactProperties.GetString, IContactProperties::GetString, _wincontacts_IContactProperties_GetString, icontact/IContactProperties::GetString, wincontacts._wincontacts_IContactProperties_GetString
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.GetString"
+f1_keywords:
+- icontact/IContactProperties.GetString
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.GetString
+- IContactProperties.GetString
 targetos: Windows
 req.typenames: 
 req.redist: 

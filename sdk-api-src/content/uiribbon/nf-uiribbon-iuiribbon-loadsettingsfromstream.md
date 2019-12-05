@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIRibbon.LoadSettingsFromStream
 title: IUIRibbon::LoadSettingsFromStream (uiribbon.h)
-
 description: Reads ribbon settings from a binary stream.
 old-location: windowsribbon\windowsribbon_iuiribbon_loadsettingsfromstream.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiribbon\loadsettingsfromstream.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIRibbon interface [Windows Ribbon],LoadSettingsFromStream method, IUIRibbon.LoadSettingsFromStream, IUIRibbon::LoadSettingsFromStream, LoadSettingsFromStream, LoadSettingsFromStream method [Windows Ribbon], LoadSettingsFromStream method [Windows Ribbon],IUIRibbon interface, scenicintent_IUIRibbon_LoadSettingsFromStream, uiribbon/IUIRibbon::LoadSettingsFromStream, windowsribbon.windowsribbon_iuiribbon_loadsettingsfromstream
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIRibbon.LoadSettingsFromStream"
+f1_keywords:
+- uiribbon/IUIRibbon.LoadSettingsFromStream
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIRibbon.LoadSettingsFromStream
+- IUIRibbon.LoadSettingsFromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

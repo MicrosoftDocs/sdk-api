@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerWriteValueUnitsSpecifier
 title: PowerWriteValueUnitsSpecifier function (powrprof.h)
-
 description: Writes the string used to describe the units of a power setting that supports a range of values.
 old-location: base\powerwritevalueunitsspecifier.htm
 tech.root: power
 ms.assetid: d9a81077-23e8-4bae-8e70-ffaaaf1ecda3
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteValueUnitsSpecifier, PowerWriteValueUnitsSpecifier function, base.powerwritevalueunitsspecifier, powrprof/PowerWriteValueUnitsSpecifier
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerWriteValueUnitsSpecifier"
+f1_keywords:
+- powrprof/PowerWriteValueUnitsSpecifier
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerWriteValueUnitsSpecifier
+- PowerWriteValueUnitsSpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 

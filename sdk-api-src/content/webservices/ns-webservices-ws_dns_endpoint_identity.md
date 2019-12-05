@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_DNS_ENDPOINT_IDENTITY
 title: WS_DNS_ENDPOINT_IDENTITY (webservices.h)
-
 description: Type for specifying an endpoint identity represented by a DNS name.
 old-location: wsw\ws_dns_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 09dea451-68ae-4052-8563-30f15c1335d6
-
 ms.date: 12/05/2018
 ms.keywords: WS_DNS_ENDPOINT_IDENTITY, WS_DNS_ENDPOINT_IDENTITY structure [Web Services for Windows], webservices/WS_DNS_ENDPOINT_IDENTITY, wsw.ws_dns_endpoint_identity
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_DNS_ENDPOINT_IDENTITY"
+f1_keywords:
+- webservices/WS_DNS_ENDPOINT_IDENTITY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DNS_ENDPOINT_IDENTITY
+- WS_DNS_ENDPOINT_IDENTITY
 targetos: Windows
 req.typenames: WS_DNS_ENDPOINT_IDENTITY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportRadiusServerListA
 title: ReportRadiusServerListA function (iscsidsc.h)
-
 description: ReportRadiusServerList function retrieves the list of Remote Authentication Dail-In Service (RADIUS) servers the iSCSI initiator service uses during authentication.
 old-location: iscsidisc\reportradiusserverlist.htm
 tech.root: iSCSIDisc
 ms.assetid: 83f9fdca-805a-44ed-bd6b-0a731c63cfe6
-
 ms.date: 12/05/2018
 ms.keywords: ReportRadiusServerList, ReportRadiusServerList function [iSCSI Discovery Library API], ReportRadiusServerListA, ReportRadiusServerListW, iscsidisc.reportradiusserverlist, iscsidsc/ReportRadiusServerList, iscsidsc/ReportRadiusServerListA, iscsidsc/ReportRadiusServerListW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportRadiusServerList"
+f1_keywords:
+- iscsidsc/ReportRadiusServerList
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportRadiusServerList
- - ReportRadiusServerListA
- - ReportRadiusServerListW
+- ReportRadiusServerList
+- ReportRadiusServerListA
+- ReportRadiusServerListW
 targetos: Windows
 req.typenames: 
 req.redist: 

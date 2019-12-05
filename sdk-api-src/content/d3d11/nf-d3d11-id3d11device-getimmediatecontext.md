@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.GetImmediateContext
 title: ID3D11Device::GetImmediateContext (d3d11.h)
-
 description: Gets an immediate context, which can play back command lists.
 old-location: direct3d11\id3d11device_getimmediatecontext.htm
 tech.root: direct3d11
 ms.assetid: 0349f0b8-7696-4d72-bed4-d39b9ac90f6c
-
 ms.date: 12/05/2018
 ms.keywords: 2f9e01b9-f7a8-4cdb-2811-bbd0a44df05f, GetImmediateContext, GetImmediateContext method [Direct3D 11], GetImmediateContext method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],GetImmediateContext method, ID3D11Device.GetImmediateContext, ID3D11Device::GetImmediateContext, d3d11/ID3D11Device::GetImmediateContext, direct3d11.id3d11device_getimmediatecontext
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.GetImmediateContext"
+f1_keywords:
+- d3d11/ID3D11Device.GetImmediateContext
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.GetImmediateContext
+- ID3D11Device.GetImmediateContext
 targetos: Windows
 req.typenames: 
 req.redist: 

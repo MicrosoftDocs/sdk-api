@@ -1,19 +1,17 @@
 ---
 UID: NS:immdev.tagCOMPOSITIONFORM
 title: COMPOSITIONFORM (immdev.h)
-
 description: Contains style and position information for a composition window.
 old-location: intl\compositionform.htm
 tech.root: Intl
 ms.assetid: 9b76474a-1ea9-4fcf-9fa8-deee5009a7ba
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM"
+ms.keywords: '*LPCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *PCOMPOSITIONFORM, COMPOSITIONFORM, COMPOSITIONFORM structure [Internationalization for Windows Applications], PCOMPOSITIONFORM, PCOMPOSITIONFORM structure pointer [Internationalization for Windows Applications], _win32_COMPOSITIONFORM_str, imm/COMPOSITIONFORM, imm/PCOMPOSITIONFORM, intl.compositionform, tagCOMPOSITIONFORM'
 ms.topic: struct
-f1_keywords: 
- - "immdev/COMPOSITIONFORM"
+f1_keywords:
+- immdev/COMPOSITIONFORM
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - COMPOSITIONFORM
+- COMPOSITIONFORM
 targetos: Windows
 req.typenames: COMPOSITIONFORM, *PCOMPOSITIONFORM, *NPCOMPOSITIONFORM, *LPCOMPOSITIONFORM
 req.redist: 

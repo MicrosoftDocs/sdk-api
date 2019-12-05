@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.ResolveNeighbor
 title: ResolveNeighbor function (iphlpapi.h)
-
 description: Resolves the physical address for a neighbor IP address entry on the local computer.
 old-location: iphlp\resolveneighbor.htm
 tech.root: IpHlp
 ms.assetid: c9d902c7-6543-4811-8116-003a5153bd27
-
 ms.date: 12/05/2018
 ms.keywords: ResolveNeighbor, ResolveNeighbor function [IP Helper], iphlp.resolveneighbor, iphlpapi/ResolveNeighbor
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/ResolveNeighbor"
+f1_keywords:
+- iphlpapi/ResolveNeighbor
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - ResolveNeighbor
+- ResolveNeighbor
 targetos: Windows
 req.typenames: 
 req.redist: 

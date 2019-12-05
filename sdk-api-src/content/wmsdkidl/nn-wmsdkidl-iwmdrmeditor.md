@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMDRMEditor
 title: IWMDRMEditor (wmsdkidl.h)
-
 description: The IWMDRMEditor interface is exposed on the metadata editor object.
 old-location: wmformat\iwmdrmeditor.htm
 tech.root: wmformat
 ms.assetid: a404d30d-0b42-44c9-93e6-3eb9ef9e40fc
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMEditor, IWMDRMEditor interface [windows Media Format], IWMDRMEditor interface [windows Media Format],described, IWMDRMEditorInterface, wmformat.iwmdrmeditor, wmsdkidl/IWMDRMEditor
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMDRMEditor"
+f1_keywords:
+- wmsdkidl/IWMDRMEditor
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMDRMEditor
+- IWMDRMEditor
 targetos: Windows
 req.typenames: 
 req.redist: 

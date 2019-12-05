@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMDroppedFrames
 title: IAMDroppedFrames (strmif.h)
-
 description: The IAMDroppedFrames interface retrieves performance information from a video capture filter, including how many frames were dropped and how many were delivered. Applications can use this interface to determine capture performance at run-time.
 old-location: dshow\iamdroppedframes.htm
 tech.root: DirectShow
 ms.assetid: b41c3792-76fe-48e0-b2f5-ca3b0ee4c8ae
-
 ms.date: 12/05/2018
 ms.keywords: IAMDroppedFrames, IAMDroppedFrames interface [DirectShow], IAMDroppedFrames interface [DirectShow],described, IAMDroppedFramesInterface, dshow.iamdroppedframes, strmif/IAMDroppedFrames
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMDroppedFrames"
+f1_keywords:
+- strmif/IAMDroppedFrames
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDroppedFrames
+- IAMDroppedFrames
 targetos: Windows
 req.typenames: 
 req.redist: 

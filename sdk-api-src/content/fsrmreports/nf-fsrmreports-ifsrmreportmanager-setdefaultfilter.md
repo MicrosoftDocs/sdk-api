@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.SetDefaultFilter
 title: IFsrmReportManager::SetDefaultFilter (fsrmreports.h)
-
 description: Sets the default report filter value to use with the specified report type.
 old-location: fsrm\ifsrmreportmanager_setdefaultfilter.htm
 tech.root: fsrm
 ms.assetid: 5a3165a9-8161-4dad-b8b9-d0c3f54f1803
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager interface [File Server Resource Manager],SetDefaultFilter method, IFsrmReportManager.SetDefaultFilter, IFsrmReportManager::SetDefaultFilter, SetDefaultFilter, SetDefaultFilter method [File Server Resource Manager], SetDefaultFilter method [File Server Resource Manager],FsrmReportManager class, SetDefaultFilter method [File Server Resource Manager],IFsrmReportManager interface, fs.ifsrmreportmanager_setdefaultfilter, fsrm.ifsrmreportmanager_setdefaultfilter, fsrmreports/IFsrmReportManager::SetDefaultFilter
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportManager.SetDefaultFilter
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

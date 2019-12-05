@@ -1,19 +1,17 @@
 ---
 UID: NF:xapo.IXAPO.IsOutputFormatSupported
 title: IXAPO::IsOutputFormatSupported (xapo.h)
-
 description: Queries if a specific output format is supported for a given input format.
 old-location: xaudio2\ixapo_interface_isoutputformatsupported.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsOutputFormatSupported(const WAVEFORMATEX,const WAVEFORMATEX,WAVEFORMATEX@)
-
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],IsOutputFormatSupported method, IXAPO.IsOutputFormatSupported, IXAPO::IsOutputFormatSupported, IsOutputFormatSupported, IsOutputFormatSupported method [XAudio2 Audio Mixing APIs], IsOutputFormatSupported method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::IsOutputFormatSupported, xaudio2.ixapo_interface_isoutputformatsupported
 ms.topic: method
-f1_keywords: 
- - "xapo/IXAPO.IsOutputFormatSupported"
+f1_keywords:
+- xapo/IXAPO.IsOutputFormatSupported
 dev_langs:
- - c++
+- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPO.h
+- XAPO.h
 api_name:
- - IXAPO.IsOutputFormatSupported
+- IXAPO.IsOutputFormatSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

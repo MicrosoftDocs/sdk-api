@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FtpRemoveDirectoryA
 title: FtpRemoveDirectoryA function (wininet.h)
-
 description: Removes the specified directory on the FTP server.
 old-location: wininet\ftpremovedirectory.htm
 tech.root: wininet
 ms.assetid: 4c02af2f-ece8-409a-9c3e-495e1beb80ef
-
 ms.date: 12/05/2018
 ms.keywords: FtpRemoveDirectory, FtpRemoveDirectory function [WinINet], FtpRemoveDirectoryA, FtpRemoveDirectoryW, _inet_ftpremovedirectory_function, wininet.ftpremovedirectory, wininet/FtpRemoveDirectory, wininet/FtpRemoveDirectoryA, wininet/FtpRemoveDirectoryW
 ms.topic: function
-f1_keywords: 
- - "wininet/FtpRemoveDirectory"
+f1_keywords:
+- wininet/FtpRemoveDirectory
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FtpRemoveDirectory
- - FtpRemoveDirectoryA
- - FtpRemoveDirectoryW
+- FtpRemoveDirectory
+- FtpRemoveDirectoryA
+- FtpRemoveDirectoryW
 targetos: Windows
 req.typenames: 
 req.redist: 

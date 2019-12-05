@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IHolder.Close
 title: IHolder::Close (comsvcs.h)
-
 description: Closes the Holder.
 old-location: cos\iholder_close.htm
 tech.root: cossdk
 ms.assetid: c8aac9b4-04d7-46a7-9b77-5f7d9d6a2ac3
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [COM+], Close method [COM+],IHolder interface, IHolder interface [COM+],Close method, IHolder.Close, IHolder::Close, _dtc_IHolder_Close, comsvcs/IHolder::Close, cos.iholder_close
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IHolder.Close"
+f1_keywords:
+- comsvcs/IHolder.Close
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IHolder.Close
+- IHolder.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

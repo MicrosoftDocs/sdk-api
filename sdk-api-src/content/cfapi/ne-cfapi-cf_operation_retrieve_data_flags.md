@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_OPERATION_RETRIEVE_DATA_FLAGS
 title: CF_OPERATION_RETRIEVE_DATA_FLAGS (cfapi.h)
-
 description: Flags to retrieve data for a placeholder file or folder.
 old-location: cloudapi\cf_operation_retrieve_data_flags.htm
 tech.root: cfApi
 ms.assetid: A233B2E8-B350-495A-9688-3795790F23EF
-
 ms.date: 12/05/2018
 ms.keywords: CF_OPERATION_RETRIEVE_DATA_FLAGS, CF_OPERATION_RETRIEVE_DATA_FLAGS enumeration, CF_OPERATION_RETRIEVE_DATA_FLAG_NONE, cfapi/CF_OPERATION_RETRIEVE_DATA_FLAGS, cfapi/CF_OPERATION_RETRIEVE_DATA_FLAG_NONE, cloudApi.cf_operation_retrieve_data_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_OPERATION_RETRIEVE_DATA_FLAGS"
+f1_keywords:
+- cfapi/CF_OPERATION_RETRIEVE_DATA_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_OPERATION_RETRIEVE_DATA_FLAGS
+- CF_OPERATION_RETRIEVE_DATA_FLAGS
 targetos: Windows
 req.typenames: CF_OPERATION_RETRIEVE_DATA_FLAGS
 req.redist: 

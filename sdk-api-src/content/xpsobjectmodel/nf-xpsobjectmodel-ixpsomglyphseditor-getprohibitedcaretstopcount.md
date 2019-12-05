@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
 title: IXpsOMGlyphsEditor::GetProhibitedCaretStopCount (xpsobjectmodel.h)
-
 description: Gets the number of prohibited caret stops.
 old-location: xps\ixpsomglyphseditor_getprohibitedcaretstopcount.htm
 tech.root: printdocs
 ms.assetid: 8aeb4868-f52e-4e80-b0c6-c8f759066fb2
-
 ms.date: 12/05/2018
 ms.keywords: GetProhibitedCaretStopCount, GetProhibitedCaretStopCount method [XPS Documents and Packaging], GetProhibitedCaretStopCount method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetProhibitedCaretStopCount method, IXpsOMGlyphsEditor.GetProhibitedCaretStopCount, IXpsOMGlyphsEditor::GetProhibitedCaretStopCount, xps.ixpsomglyphseditor_getprohibitedcaretstopcount, xpsobjectmodel/IXpsOMGlyphsEditor::GetProhibitedCaretStopCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor.GetProhibitedCaretStopCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
+- IXpsOMGlyphsEditor.GetProhibitedCaretStopCount
 targetos: Windows
 req.typenames: 
 req.redist: 

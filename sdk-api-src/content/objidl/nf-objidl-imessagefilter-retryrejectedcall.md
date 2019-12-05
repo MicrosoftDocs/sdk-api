@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMessageFilter.RetryRejectedCall
 title: IMessageFilter::RetryRejectedCall (objidl.h)
-
 description: Provides applications with an opportunity to display a dialog box offering retry, cancel, or task-switching options.
 old-location: com\imessagefilter_retryrejectedcall.htm
 tech.root: com
 ms.assetid: 3f800819-2a21-4e46-ad15-f9594fac1a3d
-
 ms.date: 12/05/2018
 ms.keywords: IMessageFilter interface [COM],RetryRejectedCall method, IMessageFilter.RetryRejectedCall, IMessageFilter::RetryRejectedCall, RetryRejectedCall, RetryRejectedCall method [COM], RetryRejectedCall method [COM],IMessageFilter interface, _com_imessagefilter_retryrejectedcall, com.imessagefilter_retryrejectedcall, objidl/IMessageFilter::RetryRejectedCall
 ms.topic: method
-f1_keywords: 
- - "objidl/IMessageFilter.RetryRejectedCall"
+f1_keywords:
+- objidl/IMessageFilter.RetryRejectedCall
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMessageFilter.RetryRejectedCall
+- IMessageFilter.RetryRejectedCall
 targetos: Windows
 req.typenames: 
 req.redist: 

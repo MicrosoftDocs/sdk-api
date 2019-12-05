@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.GetPort
 title: IWSDTransportAddress::GetPort (wsdbase.h)
-
 description: Gets the IP port number associated with this transport address.
 old-location: ncd\iwsdtransportaddress_getport.htm
 tech.root: WsdApi
 ms.assetid: cc2e623f-e6b6-42ad-b0de-7960de0142d0
-
 ms.date: 12/05/2018
 ms.keywords: GetPort, GetPort method, GetPort method,IWSDTransportAddress interface, IWSDTransportAddress interface,GetPort method, IWSDTransportAddress.GetPort, IWSDTransportAddress::GetPort, ncd.iwsdtransportaddress_getport, wsdbase/IWSDTransportAddress::GetPort
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDTransportAddress.GetPort"
+f1_keywords:
+- wsdbase/IWSDTransportAddress.GetPort
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDTransportAddress.GetPort
+- IWSDTransportAddress.GetPort
 targetos: Windows
 req.typenames: 
 req.redist: 

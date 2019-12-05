@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._SLIST_ENTRY
 title: SLIST_ENTRY (winnt.h)
-
 description: Represents an item in a singly linked list.
 old-location: base\slist_entry_str.htm
 tech.root: Sync
 ms.assetid: 6c467621-fa51-49f1-b962-2dd5ec0f7084
-
 ms.date: 12/05/2018
-ms.keywords: "*PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer, SLIST_ENTRY, SLIST_ENTRY structure, _SLIST_ENTRY, _win32_slist_entry_str, base.slist_entry_str, winnt/PSLIST_ENTRY, winnt/SLIST_ENTRY"
+ms.keywords: '*PSLIST_ENTRY, PSLIST_ENTRY, PSLIST_ENTRY structure pointer, SLIST_ENTRY, SLIST_ENTRY structure, _SLIST_ENTRY, _win32_slist_entry_str, base.slist_entry_str, winnt/PSLIST_ENTRY, winnt/SLIST_ENTRY'
 ms.topic: struct
-f1_keywords: 
- - "winnt/SLIST_ENTRY"
+f1_keywords:
+- winnt/SLIST_ENTRY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - SLIST_ENTRY
+- SLIST_ENTRY
 targetos: Windows
 req.typenames: SLIST_ENTRY, *PSLIST_ENTRY
 req.redist: 

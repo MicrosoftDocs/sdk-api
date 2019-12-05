@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.GetLastStatus
 title: Matrix::GetLastStatus (gdiplusmatrix.h)
-
 description: The Matrix::GetLastStatus method returns a value that indicates the nature of this Matrix object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\getlaststatus_49.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Matrix class, Matrix class [GDI+],GetLastStatus method, Matrix.GetLastStatus, Matrix::GetLastStatus, _gdiplus_CLASS_Matrix_GetLastStatus_, gdiplus._gdiplus_CLASS_Matrix_GetLastStatus_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.GetLastStatus"
+f1_keywords:
+- gdiplusmatrix/Matrix.GetLastStatus
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.GetLastStatus
+- Matrix.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

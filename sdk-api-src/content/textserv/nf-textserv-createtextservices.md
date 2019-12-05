@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.CreateTextServices
 title: CreateTextServices function (textserv.h)
-
 description: The CreateTextServices function creates an instance of a text services object. The text services object supports a variety of interfaces, including ITextServices and the Text Object Model (TOM).
 old-location: controls\CreateTextServices.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolfunctions\createtextservices.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateTextServices, CreateTextServices function [Windows Controls], _win32_CreateTextServices, _win32_CreateTextServices_cpp, controls.CreateTextServices, controls._win32_CreateTextServices, textserv/CreateTextServices
 ms.topic: function
-f1_keywords: 
- - "textserv/CreateTextServices"
+f1_keywords:
+- textserv/CreateTextServices
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Riched20.lib
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - CreateTextServices
+- CreateTextServices
 targetos: Windows
 req.typenames: 
 req.redist: 

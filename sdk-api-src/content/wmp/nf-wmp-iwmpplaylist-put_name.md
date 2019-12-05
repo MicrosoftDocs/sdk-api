@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.put_name
 title: IWMPPlaylist::put_name (wmp.h)
-
 description: The put_name method specifies the name of the playlist.
 old-location: wmp\iwmpplaylist_put_name.htm
 tech.root: WMP
 ms.assetid: 749dae2f-d9c3-4bbb-9a2f-042388f5ce0c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],put_name method, IWMPPlaylist.put_name, IWMPPlaylist::put_name, IWMPPlaylistput_name, put_name, put_name method [Windows Media Player], put_name method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_put_name, wmp/IWMPPlaylist::put_name
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.put_name"
+f1_keywords:
+- wmp/IWMPPlaylist.put_name
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylist.put_name
+- IWMPPlaylist.put_name
 targetos: Windows
 req.typenames: 
 req.redist: 

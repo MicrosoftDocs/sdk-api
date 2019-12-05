@@ -1,19 +1,17 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectRenderContext
 title: IMILBitmapEffectRenderContext (mileffects.h)
-
 description: Exposes methods that define a IMILBitmapEffectRenderContext object.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\imilbitmapeffectrendercontext.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext, IMILBitmapEffectRenderContext interface [WPF Bitmap Effects], IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectrendercontext, mileffects/IMILBitmapEffectRenderContext, wibe._wibe_imilbitmapeffectrendercontext
 ms.topic: interface
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContext"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContext
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext
+- IMILBitmapEffectRenderContext
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

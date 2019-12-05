@@ -1,19 +1,17 @@
 ---
 UID: NS:shtypes._SHITEMID
 title: SHITEMID (shtypes.h)
-
 description: Defines an item identifier.
 old-location: shell\SHITEMID.htm
 tech.root: shell
 ms.assetid: 794c8425-2319-4339-881c-c5083ab05638
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID"
+ms.keywords: '*LPSHITEMID, SHITEMID, SHITEMID structure [Windows Shell], _win32_SHITEMID, shell.SHITEMID, shtypes/SHITEMID'
 ms.topic: struct
-f1_keywords: 
- - "shtypes/SHITEMID"
+f1_keywords:
+- shtypes/SHITEMID
 dev_langs:
- - c++
+- c++
 req.header: shtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shtypes.h
+- Shtypes.h
 api_name:
- - SHITEMID
+- SHITEMID
 targetos: Windows
 req.typenames: SHITEMID
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IInitializeWithPropertyStore
 title: IInitializeWithPropertyStore (shobjidl_core.h)
-
 description: Exposes a method that initializes a handler, such as a property handler, thumbnail handler, or preview handler, with a property store.
 old-location: shell\IInitializeWithPropertyStore.htm
 tech.root: shell
 ms.assetid: da8592a9-7727-433f-ac92-abf22a735eb2
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithPropertyStore, IInitializeWithPropertyStore interface [Windows Shell], IInitializeWithPropertyStore interface [Windows Shell],described, _shell_IInitializeWithPropertyStore, shell.IInitializeWithPropertyStore, shobjidl_core/IInitializeWithPropertyStore
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IInitializeWithPropertyStore"
+f1_keywords:
+- shobjidl_core/IInitializeWithPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IInitializeWithPropertyStore
+- IInitializeWithPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbProvisioning
 title: ITsSbProvisioning (sbtsv.h)
-
 description: Exposes methods that create and maintain virtual machines.
 old-location: termserv\itssbprovisioning.htm
 tech.root: TermServ
 ms.assetid: 136c1538-be4f-4b1c-b74f-8914a51f774a
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvisioning, ITsSbProvisioning interface [Remote Desktop Services], ITsSbProvisioning interface [Remote Desktop Services],described, sbtsv/ITsSbProvisioning, termserv.itssbprovisioning
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbProvisioning"
+f1_keywords:
+- sbtsv/ITsSbProvisioning
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvisioning
+- ITsSbProvisioning
 targetos: Windows
 req.typenames: 
 req.redist: 

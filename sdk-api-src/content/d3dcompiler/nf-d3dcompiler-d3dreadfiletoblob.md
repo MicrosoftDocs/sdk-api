@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DReadFileToBlob
 title: D3DReadFileToBlob function (d3dcompiler.h)
-
 description: Reads a file that is on disk into memory.
 old-location: direct3dhlsl\d3dreadfiletoblob.htm
 tech.root: direct3dhlsl
 ms.assetid: 7CFB1BA6-7C36-4BDB-9705-781CCC2E7DB2
-
 ms.date: 12/05/2018
 ms.keywords: D3DReadFileToBlob, D3DReadFileToBlob function [HLSL], d3dcompiler/D3DReadFileToBlob, direct3dhlsl.d3dreadfiletoblob
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DReadFileToBlob"
+f1_keywords:
+- d3dcompiler/D3DReadFileToBlob
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - D3DReadFileToBlob
+- D3DReadFileToBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

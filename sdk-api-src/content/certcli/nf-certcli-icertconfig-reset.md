@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertConfig.Reset
 title: ICertConfig::Reset (certcli.h)
-
 description: Resets the configuration query state to point at the Certificate Services server configuration indexed on the specified configuration point. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_reset.htm
 tech.root: SecCrypto
 ms.assetid: 62c24bda-463a-4238-be70-14e28bcbfb39
-
 ms.date: 12/05/2018
 ms.keywords: CCertConfig object [Security],Reset method, ICertConfig interface [Security],Reset method, ICertConfig.Reset, ICertConfig2 interface [Security],Reset method, ICertConfig2::Reset, ICertConfig::Reset, Reset, Reset method [Security], Reset method [Security],CCertConfig object, Reset method [Security],ICertConfig interface, Reset method [Security],ICertConfig2 interface, _certsrv_icertconfig_reset, certcli/ICertConfig2::Reset, certcli/ICertConfig::Reset, security.icertconfig2_reset
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertConfig2.Reset"
+f1_keywords:
+- certcli/ICertConfig2.Reset
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertConfig2.Reset
- - ICertConfig.Reset
- - CCertConfig.Reset
+- ICertConfig2.Reset
+- ICertConfig.Reset
+- CCertConfig.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

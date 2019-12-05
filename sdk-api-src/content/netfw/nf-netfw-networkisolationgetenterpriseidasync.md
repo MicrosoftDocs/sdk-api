@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdAsync
 title: NetworkIsolationGetEnterpriseIdAsync function (netfw.h)
-
 description: Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios.
 old-location: ics\networkisolationgetenterpriseidasync.htm
 tech.root: ics
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26
-
 ms.date: 12/05/2018
 ms.keywords: NETISO_GEID_DEFAULT, NETISO_GEID_FORCE_TO_CHECK, NETISO_GEID_FOR_NEUTRAL_AWARE, NETISO_GEID_FOR_WDAG, NetworkIsolationGetEnterpriseIdAsync, NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF], ics.networkisolationgetenterpriseidasync, netfw/NetworkIsolationGetEnterpriseIdAsync
 ms.topic: function
-f1_keywords: 
- - "netfw/NetworkIsolationGetEnterpriseIdAsync"
+f1_keywords:
+- netfw/NetworkIsolationGetEnterpriseIdAsync
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
+- firewallapi.dll
 api_name:
- - NetworkIsolationGetEnterpriseIdAsync
+- NetworkIsolationGetEnterpriseIdAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

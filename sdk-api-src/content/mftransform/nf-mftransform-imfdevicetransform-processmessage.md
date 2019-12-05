@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.ProcessMessage
 title: IMFDeviceTransform::ProcessMessage (mftransform.h)
-
 description: The ProcessMessage method sends a message to the Device Media Foundation transform (MFT).
 old-location: stream\imfdevicetransform_processmessage.htm
 tech.root: stream
 ms.assetid: 890CAC55-CF9E-420C-ACFC-5A92E53258AA
-
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform interface [Streaming Media Devices],ProcessMessage method, IMFDeviceTransform.ProcessMessage, IMFDeviceTransform::ProcessMessage, ProcessMessage, ProcessMessage method [Streaming Media Devices], ProcessMessage method [Streaming Media Devices],IMFDeviceTransform interface, mftransform/IMFDeviceTransform::ProcessMessage, stream.imfdevicetransform_processmessage
 ms.topic: method
 f1_keywords:
 - mftransform/IMFDeviceTransform.ProcessMessage
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

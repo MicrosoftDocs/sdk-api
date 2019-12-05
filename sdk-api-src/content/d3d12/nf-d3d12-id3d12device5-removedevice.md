@@ -1,17 +1,15 @@
 ---
 UID: NF:d3d12.ID3D12Device5.RemoveDevice
 title: ID3D12Device5::RemoveDevice
-
 description: You can call **RemoveDevice** to indicate to the Direct3D 12 runtime that the GPU device encountered a problem, and can no longer be used.
 tech.root: direct3d12
-
 ms.date: 10/30/2019
 ms.keywords: ID3D12Device5::RemoveDevice
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/ID3D12Device5.RemoveDevice"
+f1_keywords:
+- d3d12/ID3D12Device5.RemoveDevice
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12Device5::RemoveDevice
+- ID3D12Device5::RemoveDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

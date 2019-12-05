@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrFromTimeIntervalW
 title: StrFromTimeIntervalW function (shlwapi.h)
-
 description: Converts a time interval, specified in milliseconds, to a string.
 old-location: shell\StrFromTimeInterval.htm
 tech.root: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
-
 ms.date: 12/05/2018
 ms.keywords: StrFromTimeInterval, StrFromTimeInterval function [Windows Shell], StrFromTimeIntervalA, StrFromTimeIntervalW, _win32_StrFromTimeInterval, shell.StrFromTimeInterval, shlwapi/StrFromTimeInterval, shlwapi/StrFromTimeIntervalA, shlwapi/StrFromTimeIntervalW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrFromTimeInterval"
+f1_keywords:
+- shlwapi/StrFromTimeInterval
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - StrFromTimeInterval
- - StrFromTimeIntervalA
- - StrFromTimeIntervalW
+- StrFromTimeInterval
+- StrFromTimeIntervalA
+- StrFromTimeIntervalW
 targetos: Windows
 req.typenames: 
 req.redist: 

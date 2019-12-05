@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.GetSecurityInfo
 title: IGPMStarterGPO::GetSecurityInfo (gpmgmt.h)
-
 description: Retrieves the set of permissions for the Starter GPO, such as who is granted permission to edit it.
 old-location: gpmc\igpmstartergpo_getsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: 5c411851-0902-454a-9b44-383ea572ab78
-
 ms.date: 12/05/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo method [GPMC], GetSecurityInfo method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],GetSecurityInfo method, IGPMStarterGPO.GetSecurityInfo, IGPMStarterGPO::GetSecurityInfo, gpmc.igpmstartergpo_getsecurityinfo, gpmgmt/IGPMStarterGPO::GetSecurityInfo
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPO.GetSecurityInfo"
+f1_keywords:
+- gpmgmt/IGPMStarterGPO.GetSecurityInfo
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMStarterGPO.GetSecurityInfo
+- IGPMStarterGPO.GetSecurityInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_RESET_LISTENER_CALLBACK
 title: WS_RESET_LISTENER_CALLBACK (webservices.h)
-
 description: Handles the WsResetListener call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_reset_listener_callback.htm
 tech.root: wsw
 ms.assetid: 98a48403-5ac6-44c2-8a43-c81746390a0d
-
 ms.date: 12/05/2018
 ms.keywords: WS_RESET_LISTENER_CALLBACK, WS_RESET_LISTENER_CALLBACK callback, WS_RESET_LISTENER_CALLBACK callback function [Web Services for Windows], webservices/WS_RESET_LISTENER_CALLBACK, wsw.ws_reset_listener_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_RESET_LISTENER_CALLBACK"
+f1_keywords:
+- webservices/WS_RESET_LISTENER_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_RESET_LISTENER_CALLBACK
+- WS_RESET_LISTENER_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

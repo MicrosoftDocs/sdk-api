@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetManualGesture
 title: IDirectManipulationViewport::SetManualGesture (directmanipulation.h)
-
 description: Sets which gestures are ignored by Direct Manipulation.
 old-location: directmanipulation\idirectmanipulationviewport_setmanualgesture.htm
 tech.root: directmanipulation
 ms.assetid: EBBBCEDB-8BAC-4E87-A69C-9730865A257F
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetManualGesture method, IDirectManipulationViewport.SetManualGesture, IDirectManipulationViewport::SetManualGesture, SetManualGesture, SetManualGesture method [Direct Manipulation], SetManualGesture method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setmanualgesture, directmanipulation/IDirectManipulationViewport::SetManualGesture
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.SetManualGesture"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.SetManualGesture
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetManualGesture
+- IDirectManipulationViewport.SetManualGesture
 targetos: Windows
 req.typenames: 
 req.redist: 

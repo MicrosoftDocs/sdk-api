@@ -1,19 +1,17 @@
 ---
 UID: NN:endpointvolume.IAudioEndpointVolumeCallback
 title: IAudioEndpointVolumeCallback (endpointvolume.h)
-
 description: The IAudioEndpointVolumeCallback interface provides notifications of changes in the volume level and muting state of an audio endpoint device.
 old-location: coreaudio\iaudioendpointvolumecallback.htm
 tech.root: CoreAudio
 ms.assetid: 0b631d1b-f89c-4789-a09c-875b24a48a89
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolumeCallback, IAudioEndpointVolumeCallback interface [Core Audio], IAudioEndpointVolumeCallback interface [Core Audio],described, coreaudio.iaudioendpointvolumecallback, endpointvolume/IAudioEndpointVolumeCallback
 ms.topic: interface
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolumeCallback"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolumeCallback
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolumeCallback
+- IAudioEndpointVolumeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

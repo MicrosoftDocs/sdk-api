@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetItemAt
 title: IShellItemArray::GetItemAt (shobjidl_core.h)
-
 description: Gets the item at the given index in the IShellItemArray.
 old-location: shell\IShellItemArray_GetItemAt.htm
 tech.root: shell
 ms.assetid: 58307102-1ae3-4249-81e0-25c1166500d0
-
 ms.date: 12/05/2018
 ms.keywords: GetItemAt, GetItemAt method [Windows Shell], GetItemAt method [Windows Shell],IShellItemArray interface, IShellItemArray interface [Windows Shell],GetItemAt method, IShellItemArray.GetItemAt, IShellItemArray::GetItemAt, _shell_IShellItemArray_GetItemAt, shell.IShellItemArray_GetItemAt, shobjidl_core/IShellItemArray::GetItemAt
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemArray.GetItemAt"
+f1_keywords:
+- shobjidl_core/IShellItemArray.GetItemAt
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemArray.GetItemAt
+- IShellItemArray.GetItemAt
 targetos: Windows
 req.typenames: 
 req.redist: 

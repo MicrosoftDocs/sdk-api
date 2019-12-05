@@ -1,19 +1,17 @@
 ---
 UID: NS:comsvcs._ApplicationProcessStatistics
 title: ApplicationProcessStatistics (comsvcs.h)
-
 description: Represents statistical information about a process hosting COM+ applications.
 old-location: cos\applicationprocessstatistics.htm
 tech.root: cossdk
 ms.assetid: 7ce16cef-baa4-491c-89e7-f6283e1a646f
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessStatistics, ApplicationProcessStatistics structure [COM+], comsvcs/ApplicationProcessStatistics, cos.applicationprocessstatistics
 ms.topic: struct
-f1_keywords: 
- - "comsvcs/ApplicationProcessStatistics"
+f1_keywords:
+- comsvcs/ApplicationProcessStatistics
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ApplicationProcessStatistics
+- ApplicationProcessStatistics
 targetos: Windows
 req.typenames: ApplicationProcessStatistics
 req.redist: 

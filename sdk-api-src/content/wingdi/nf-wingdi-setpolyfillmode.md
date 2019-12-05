@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetPolyFillMode
 title: SetPolyFillMode function (wingdi.h)
-
 description: The SetPolyFillMode function sets the polygon fill mode for functions that fill polygons.
 old-location: gdi\setpolyfillmode.htm
 tech.root: gdi
 ms.assetid: 233926c4-2658-405d-89b6-05ece844623d
-
 ms.date: 12/05/2018
 ms.keywords: ALTERNATE, SetPolyFillMode, SetPolyFillMode function [Windows GDI], WINDING, _win32_SetPolyFillMode, gdi.setpolyfillmode, wingdi/SetPolyFillMode
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetPolyFillMode"
+f1_keywords:
+- wingdi/SetPolyFillMode
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-rgn-l1-1-0.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-rgn-l1-1-0.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SetPolyFillMode
+- SetPolyFillMode
 targetos: Windows
 req.typenames: 
 req.redist: 

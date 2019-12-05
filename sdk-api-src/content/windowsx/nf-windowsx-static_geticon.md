@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Static_GetIcon
 title: Static_GetIcon macro (windowsx.h)
-
 description: Retrieves a handle to the icon associated with a static control that has the SS_ICON style. You can use this macro or send the STM_GETICON message explicitly.
 old-location: controls\Static_GetIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\staticcontrols\staticcontrolreference\staticcontrolmacros\static_geticon.htm
-
 ms.date: 12/05/2018
 ms.keywords: Static_GetIcon, Static_GetIcon macro [Windows Controls], _win32_Static_GetIcon, _win32_Static_GetIcon_cpp, controls.Static_GetIcon, controls._win32_Static_GetIcon, windowsx/Static_GetIcon
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Static_GetIcon"
+f1_keywords:
+- windowsx/Static_GetIcon
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Static_GetIcon
+- Static_GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

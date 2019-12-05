@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.IsUsingTimeFormat
 title: IMediaSeeking::IsUsingTimeFormat (strmif.h)
-
 description: The IsUsingTimeFormat method determines whether seek operations are currently using a specified time format.
 old-location: dshow\imediaseeking_isusingtimeformat.htm
 tech.root: DirectShow
 ms.assetid: 27211946-9b05-40fc-823e-efad87a730a3
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],IsUsingTimeFormat method, IMediaSeeking.IsUsingTimeFormat, IMediaSeeking::IsUsingTimeFormat, IMediaSeekingIsUsingTimeFormat, IsUsingTimeFormat, IsUsingTimeFormat method [DirectShow], IsUsingTimeFormat method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_isusingtimeformat, strmif/IMediaSeeking::IsUsingTimeFormat
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.IsUsingTimeFormat"
+f1_keywords:
+- strmif/IMediaSeeking.IsUsingTimeFormat
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.IsUsingTimeFormat
+- IMediaSeeking.IsUsingTimeFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

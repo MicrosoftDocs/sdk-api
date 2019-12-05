@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PifMgr_SetProperties
 title: PifMgr_SetProperties function (shlobj_core.h)
-
 description: Assigns values to a block of data from a .pif file.
 old-location: properties\PifMgr_SetProperties.htm
 tech.root: properties
 ms.assetid: 720ed580-1867-4651-aef6-24ac4397ad39
-
 ms.date: 12/05/2018
 ms.keywords: PifMgr_SetProperties, PifMgr_SetProperties function [Windows Properties], _win32_PifMgr_SetProperties, properties.PifMgr_SetProperties, shell.PifMgr_SetProperties, shlobj_core/PifMgr_SetProperties
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PifMgr_SetProperties"
+f1_keywords:
+- shlobj_core/PifMgr_SetProperties
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - PifMgr_SetProperties
+- PifMgr_SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

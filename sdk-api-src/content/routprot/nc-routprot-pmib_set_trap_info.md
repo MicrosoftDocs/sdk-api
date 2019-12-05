@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PMIB_SET_TRAP_INFO
 title: PMIB_SET_TRAP_INFO (routprot.h)
-
 description: The MibSetTrapInfo function passes in a handle to an event which is signaled whenever a TRAP needs to be issued.
 old-location: rras\mibsettrapinfo.htm
 tech.root: RRAS
 ms.assetid: 28056113-82a5-4493-ba49-509db3606fa0
-
 ms.date: 12/05/2018
 ms.keywords: MibSetTrapInfo, MibSetTrapInfo callback function [RAS], PMIB_SET_TRAP_INFO, PMIB_SET_TRAP_INFO callback, _mpr_mibsettrapinfo, routprot/MibSetTrapInfo, rras.mibsettrapinfo
 ms.topic: callback
 f1_keywords:
 - routprot/MibSetTrapInfo
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows

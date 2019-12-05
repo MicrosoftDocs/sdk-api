@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IBasicVideo.SetDefaultDestinationPosition
 title: IBasicVideo::SetDefaultDestinationPosition (control.h)
-
 description: The SetDefaultDestinationPosition method reverts to the default destination rectangle. After this method is called, the video renderer uses the entire window for playback.
 old-location: dshow\ibasicvideo_setdefaultdestinationposition.htm
 tech.root: DirectShow
 ms.assetid: 82ee1be5-4a58-4104-a8a5-3c3926e2f1d2
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetDefaultDestinationPosition method, IBasicVideo.SetDefaultDestinationPosition, IBasicVideo::SetDefaultDestinationPosition, IBasicVideoSetDefaultDestinationPosition, SetDefaultDestinationPosition, SetDefaultDestinationPosition method [DirectShow], SetDefaultDestinationPosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetDefaultDestinationPosition, dshow.ibasicvideo_setdefaultdestinationposition
 ms.topic: method
-f1_keywords: 
- - "control/IBasicVideo.SetDefaultDestinationPosition"
+f1_keywords:
+- control/IBasicVideo.SetDefaultDestinationPosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo.SetDefaultDestinationPosition
+- IBasicVideo.SetDefaultDestinationPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

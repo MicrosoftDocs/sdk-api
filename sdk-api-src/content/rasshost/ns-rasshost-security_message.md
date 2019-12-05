@@ -1,19 +1,17 @@
 ---
 UID: NS:rasshost._SECURITY_MESSAGE
 title: SECURITY_MESSAGE (rasshost.h)
-
 description: The SECURITY_MESSAGE structure is used with the RasSecurityDialogComplete function to indicate the results of a RAS security DLL authentication transaction.
 old-location: rras\security_message_str.htm
 tech.root: RRAS
 ms.assetid: 7eab7bff-1c72-4382-980f-be4e58d60159
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECURITY_MESSAGE, PSECURITY_MESSAGE, PSECURITY_MESSAGE structure pointer [RAS], SECURITYMSG_ERROR, SECURITYMSG_FAILURE, SECURITYMSG_SUCCESS, SECURITY_MESSAGE, SECURITY_MESSAGE structure [RAS], _ras_security_message_str, rasshost/PSECURITY_MESSAGE, rasshost/SECURITY_MESSAGE, rras.security_message_str"
+ms.keywords: '*PSECURITY_MESSAGE, PSECURITY_MESSAGE, PSECURITY_MESSAGE structure pointer [RAS], SECURITYMSG_ERROR, SECURITYMSG_FAILURE, SECURITYMSG_SUCCESS, SECURITY_MESSAGE, SECURITY_MESSAGE structure [RAS], _ras_security_message_str, rasshost/PSECURITY_MESSAGE, rasshost/SECURITY_MESSAGE, rras.security_message_str'
 ms.topic: struct
-f1_keywords: 
- - "rasshost/SECURITY_MESSAGE"
+f1_keywords:
+- rasshost/SECURITY_MESSAGE
 dev_langs:
- - c++
+- c++
 req.header: rasshost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rasshost.h
+- Rasshost.h
 api_name:
- - SECURITY_MESSAGE
+- SECURITY_MESSAGE
 targetos: Windows
 req.typenames: SECURITY_MESSAGE, *PSECURITY_MESSAGE
 req.redist: 

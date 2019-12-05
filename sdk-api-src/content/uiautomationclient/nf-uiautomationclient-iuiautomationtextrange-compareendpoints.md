@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRange.CompareEndpoints
 title: IUIAutomationTextRange::CompareEndpoints (uiautomationclient.h)
-
 description: Retrieves a value that specifies whether the start or end endpoint of this text range is the same as the start or end endpoint of another text range.
 old-location: winauto\uiauto_IUIAutomationTextRange_CompareEndpoints.htm
 tech.root: WinAuto
 ms.assetid: 7071ae46-3f2d-4fdb-9908-366ac1fde691
-
 ms.date: 12/05/2018
 ms.keywords: CompareEndpoints, CompareEndpoints method [Windows Accessibility], CompareEndpoints method [Windows Accessibility],IUIAutomationTextRange interface, IUIAutomationTextRange interface [Windows Accessibility],CompareEndpoints method, IUIAutomationTextRange.CompareEndpoints, IUIAutomationTextRange::CompareEndpoints, uiauto.uiauto_IUIAutomationTextRange_CompareEndpoints, uiauto_IUIAutomationTextRange_CompareEndpoints, uiautomationclient/IUIAutomationTextRange::CompareEndpoints, winauto.uiauto_IUIAutomationTextRange_CompareEndpoints
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange.CompareEndpoints"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange.CompareEndpoints
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange.CompareEndpoints
+- IUIAutomationTextRange.CompareEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 

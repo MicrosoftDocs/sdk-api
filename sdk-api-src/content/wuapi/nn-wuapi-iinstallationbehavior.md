@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IInstallationBehavior
 title: IInstallationBehavior (wuapi.h)
-
 description: Represents the installation and uninstallation options of an update.
 old-location: wua\iinstallationbehavior.htm
 tech.root: Wua_Sdk
 ms.assetid: 43deb1b7-dfcb-46cc-b12d-0f8bfb18dd74
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationBehavior, IInstallationBehavior interface [Windows Update Agent], IInstallationBehavior interface [Windows Update Agent],described, wua.iinstallationbehavior, wuapi/IInstallationBehavior
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IInstallationBehavior"
+f1_keywords:
+- wuapi/IInstallationBehavior
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationBehavior
+- IInstallationBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

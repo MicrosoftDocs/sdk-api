@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISurface2.GetResource
 title: IDXGISurface2::GetResource (dxgi1_2.h)
-
 description: Gets the parent resource and subresource index that support a subresource surface.
 old-location: direct3ddxgi\idxgisurface2_getresource.htm
 tech.root: direct3ddxgi
 ms.assetid: 0CDA5693-610F-4E7E-9540-353709E4FA8D
-
 ms.date: 12/05/2018
 ms.keywords: GetResource, GetResource method [DXGI], GetResource method [DXGI],IDXGISurface2 interface, IDXGISurface2 interface [DXGI],GetResource method, IDXGISurface2.GetResource, IDXGISurface2::GetResource, direct3ddxgi.idxgisurface2_getresource, dxgi1_2/IDXGISurface2::GetResource
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISurface2.GetResource"
+f1_keywords:
+- dxgi1_2/IDXGISurface2.GetResource
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISurface2.GetResource
+- IDXGISurface2.GetResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemContext.Next
 title: IWbemContext::Next (wbemcli.h)
-
 description: The IWbemContext::Next method retrieves the next value in an enumeration of all context values beginning with IWbemContext::BeginEnumeration.
 old-location: wmi\iwbemcontext_next.htm
 tech.root: WmiSdk
 ms.assetid: e316564c-a739-472b-b7a8-8acbf71e1c58
-
 ms.date: 12/05/2018
 ms.keywords: IWbemContext interface [Windows Management Instrumentation],Next method, IWbemContext.Next, IWbemContext::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IWbemContext interface, _hmm_iwbemcontext_next, wbemcli/IWbemContext::Next, wmi.iwbemcontext_next
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemContext.Next"
+f1_keywords:
+- wbemcli/IWbemContext.Next
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Wbemcomn.dll; Wbemcore.dll; Wbemess.dll; Wmipjobj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Wbemcomn.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipjobj.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Wbemcomn.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipjobj.dll
 api_name:
- - IWbemContext.Next
+- IWbemContext.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

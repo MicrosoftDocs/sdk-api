@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Header_DeleteItem
 title: Header_DeleteItem macro (commctrl.h)
-
 description: Deletes an item from a header control. You can use this macro or send the HDM_DELETEITEM message explicitly.
 old-location: controls\Header_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_deleteitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: Header_DeleteItem, Header_DeleteItem macro [Windows Controls], _win32_Header_DeleteItem, _win32_Header_DeleteItem_cpp, commctrl/Header_DeleteItem, controls.Header_DeleteItem, controls._win32_Header_DeleteItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Header_DeleteItem"
+f1_keywords:
+- commctrl/Header_DeleteItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Header_DeleteItem
+- Header_DeleteItem
 targetos: Windows
 req.typenames: 
 req.redist: 

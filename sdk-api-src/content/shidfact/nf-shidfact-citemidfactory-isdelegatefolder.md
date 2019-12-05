@@ -1,19 +1,17 @@
 ---
 UID: NF:shidfact.CItemIDFactory.IsDelegateFolder
 title: CItemIDFactory::IsDelegateFolder (shidfact.h)
-
 description: Gets a Boolean value specifying whether the factory is a delegate folder.
 old-location: shell\citemidfactory_isdelegatefolder.htm
 tech.root: shell
 ms.assetid: 269DFCDF-A5F7-4367-8B08-3A5015BB04FE
-
 ms.date: 12/05/2018
 ms.keywords: CItemIDFactory interface [Windows Shell],IsDelegateFolder method, CItemIDFactory.IsDelegateFolder, CItemIDFactory::IsDelegateFolder, IsDelegateFolder, IsDelegateFolder method [Windows Shell], IsDelegateFolder method [Windows Shell],CItemIDFactory interface, shell.citemidfactory_isdelegatefolder, shidfact/CItemIDFactory::IsDelegateFolder
 ms.topic: method
-f1_keywords: 
- - "shidfact/CItemIDFactory.IsDelegateFolder"
+f1_keywords:
+- shidfact/CItemIDFactory.IsDelegateFolder
 dev_langs:
- - c++
+- c++
 req.header: shidfact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shidfact.h
+- shidfact.h
 api_name:
- - CItemIDFactory.IsDelegateFolder
+- CItemIDFactory.IsDelegateFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

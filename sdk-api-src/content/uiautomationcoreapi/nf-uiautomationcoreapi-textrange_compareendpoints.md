@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_CompareEndpoints
 title: TextRange_CompareEndpoints function (uiautomationcoreapi.h)
-
 description: Returns a value indicating whether two text ranges have identical endpoints.
 old-location: winauto\uiauto_TextRange_CompareEndpointsConPat.htm
 tech.root: WinAuto
 ms.assetid: f396ec3e-f491-48be-8282-42c3b8698f3a
-
 ms.date: 12/05/2018
 ms.keywords: TextRange_CompareEndpoints, TextRange_CompareEndpoints function [Windows Accessibility], uiauto.uiauto_TextRange_CompareEndpointsConPat, uiauto_TextRange_CompareEndpointsConPat, uiautomationcoreapi/TextRange_CompareEndpoints, winauto.uiauto_TextRange_CompareEndpointsConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextRange_CompareEndpoints"
+f1_keywords:
+- uiautomationcoreapi/TextRange_CompareEndpoints
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextRange_CompareEndpoints
+- TextRange_CompareEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 

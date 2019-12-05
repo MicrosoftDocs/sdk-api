@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegSetValueW
 title: RegSetValueW function (winreg.h)
-
 description: Sets the data for the default or unnamed value of a specified registry key. The data must be a text string.
 old-location: base\regsetvalue.htm
 tech.root: SysInfo
 ms.assetid: f99774d4-575b-43a3-8887-e15acb0477fd
-
 ms.date: 12/05/2018
 ms.keywords: RegSetValue, RegSetValue function, RegSetValueA, RegSetValueW, _win32_regsetvalue, base.regsetvalue, winreg/RegSetValue, winreg/RegSetValueA, winreg/RegSetValueW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegSetValue"
+f1_keywords:
+- winreg/RegSetValue
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegSetValue
- - RegSetValueA
- - RegSetValueW
+- RegSetValue
+- RegSetValueA
+- RegSetValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

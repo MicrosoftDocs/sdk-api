@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.Lock
 title: IMFMediaBuffer::Lock (mfobjects.h)
-
 description: Gives the caller access to the memory in the buffer, for reading or writing.
 old-location: mf\imfmediabuffer_lock.htm
 tech.root: medfound
 ms.assetid: 28ac372a-6e73-4e66-bf69-bcc244821b71
-
 ms.date: 12/05/2018
 ms.keywords: 28ac372a-6e73-4e66-bf69-bcc244821b71, IMFMediaBuffer interface [Media Foundation],Lock method, IMFMediaBuffer.Lock, IMFMediaBuffer::Lock, Lock, Lock method [Media Foundation], Lock method [Media Foundation],IMFMediaBuffer interface, mf.imfmediabuffer_lock, mfobjects/IMFMediaBuffer::Lock
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMediaBuffer.Lock"
+f1_keywords:
+- mfobjects/IMFMediaBuffer.Lock
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaBuffer.Lock
+- IMFMediaBuffer.Lock
 targetos: Windows
 req.typenames: 
 req.redist: 

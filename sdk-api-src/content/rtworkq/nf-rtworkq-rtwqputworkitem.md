@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqPutWorkItem
 title: RtwqPutWorkItem function (rtworkq.h)
-
 description: Puts an asynchronous operation on a work queue.
 old-location: base\rtwqputworkitem.htm
 tech.root: ProcThread
 ms.assetid: d2ae1cec-b279-4f5e-a803-fe0b8f453029
-
 ms.date: 12/05/2018
 ms.keywords: RtwqPutWorkItem, RtwqPutWorkItem function, base.rtwqputworkitem, rtworkq/RtwqPutWorkItem
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqPutWorkItem"
+f1_keywords:
+- rtworkq/RtwqPutWorkItem
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqPutWorkItem
+- RtwqPutWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: 

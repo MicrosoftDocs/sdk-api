@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiCreateRecord
 title: MsiCreateRecord function (msiquery.h)
-
 description: The MsiCreateRecord function creates a new record object with the specified number of fields. This function returns a handle that should be closed using MsiCloseHandle.
 old-location: setup\msicreaterecord.htm
 tech.root: Msi
 ms.assetid: fc1d5a09-3097-4a1c-a615-1b93f7eacb04
-
 ms.date: 12/05/2018
 ms.keywords: MsiCreateRecord, MsiCreateRecord function, _msi_msicreaterecord, msiquery/MsiCreateRecord, setup.msicreaterecord
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiCreateRecord"
+f1_keywords:
+- msiquery/MsiCreateRecord
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiCreateRecord
+- MsiCreateRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

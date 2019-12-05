@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Add
 title: ISensorCollection::Add (sensorsapi.h)
-
 description: Adds a sensor to the collection.
 old-location: winsensors_com_ref\isensorcollection_add.htm
 tech.root: SensorsAPI
 ms.assetid: 7f563d5d-2943-4cbd-bfb5-c347ec270e85
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method, Add method,ISensorCollection interface, ISensorCollection interface,Add method, ISensorCollection.Add, ISensorCollection::Add, sensorsapi/ISensorCollection::Add, winsensors_com_ref.isensorcollection_add
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorCollection.Add"
+f1_keywords:
+- sensorsapi/ISensorCollection.Add
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorCollection.Add
+- ISensorCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

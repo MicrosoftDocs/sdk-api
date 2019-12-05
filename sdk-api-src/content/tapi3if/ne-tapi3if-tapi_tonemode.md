@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.TAPI_TONEMODE
 title: TAPI_TONEMODE (tapi3if.h)
-
 description: The TAPI_TONEMODE enum is used to describe the different selections that are used when generating line tones.
 old-location: tapi3\tapi_tonemode.htm
 tech.root: Tapi
 ms.assetid: eeae9d4a-824c-4316-8eb3-846563ac4a54
-
 ms.date: 12/05/2018
 ms.keywords: TAPI_TONEMODE, TAPI_TONEMODE enumeration [TAPI 2.2], TTM_BEEP, TTM_BILLING, TTM_BUSY, TTM_RINGBACK, _tapi3_tapi_tonemode, tapi3.tapi_tonemode, tapi3if/TAPI_TONEMODE, tapi3if/TTM_BEEP, tapi3if/TTM_BILLING, tapi3if/TTM_BUSY, tapi3if/TTM_RINGBACK
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/TAPI_TONEMODE"
+f1_keywords:
+- tapi3if/TAPI_TONEMODE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - TAPI_TONEMODE
+- TAPI_TONEMODE
 targetos: Windows
 req.typenames: TAPI_TONEMODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi._MF_FLOAT2
 title: MF_FLOAT2 (mfapi.h)
-
 description: A vector with two components.
 old-location: mf\mf_float2.htm
 tech.root: medfound
 ms.assetid: 88855E0D-382D-44F5-A4D9-2A65EF4F580C
-
 ms.date: 12/05/2018
 ms.keywords: MF_FLOAT2, MF_FLOAT2 structure [Media Foundation], PMF_FLOAT2, PMF_FLOAT2 structure pointer [Media Foundation], mf.mf_float2, mfapi/MF_FLOAT2, mfapi/PMF_FLOAT2
 ms.topic: struct
-f1_keywords: 
- - "mfapi/MF_FLOAT2"
+f1_keywords:
+- mfapi/MF_FLOAT2
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MF_FLOAT2
+- MF_FLOAT2
 targetos: Windows
 req.typenames: MF_FLOAT2
 req.redist: 

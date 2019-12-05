@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.foundation.TimeSpan
 title: TimeSpan (windows.foundation.h)
-
 description: Represents a time interval.
 old-location: winrt\timespan.htm
 tech.root: WinRT
 ms.assetid: fbc6ecc2-6372-4b15-9532-3cd68a72e7b4
-
 ms.date: 12/05/2018
 ms.keywords: TimeSpan, TimeSpan structure [Windows Runtime], windows/TimeSpan, winrt.timespan
 ms.topic: struct
-f1_keywords: 
- - "windows.foundation/TimeSpan"
+f1_keywords:
+- windows.foundation/TimeSpan
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - TimeSpan
+- TimeSpan
 targetos: Windows
 req.typenames: TimeSpan
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.DeleteMetaFile
 title: DeleteMetaFile function (wingdi.h)
-
 description: The DeleteMetaFile function deletes a Windows-format metafile or Windows-format metafile handle.
 old-location: gdi\deletemetafile.htm
 tech.root: gdi
 ms.assetid: 51766282-f185-4e29-a36e-1069d9d61f7c
-
 ms.date: 12/05/2018
 ms.keywords: DeleteMetaFile, DeleteMetaFile function [Windows GDI], _win32_DeleteMetaFile, gdi.deletemetafile, wingdi/DeleteMetaFile
 ms.topic: function
-f1_keywords: 
- - "wingdi/DeleteMetaFile"
+f1_keywords:
+- wingdi/DeleteMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-0.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-0.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- GDI32Full.dll
 api_name:
- - DeleteMetaFile
+- DeleteMetaFile
 targetos: Windows
 req.typenames: 
 req.redist: 

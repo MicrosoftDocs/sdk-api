@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.StopBackgroundRecognition
 title: IInkRecognizerContext::StopBackgroundRecognition (msinkaut.h)
-
 description: Ends background recognition that was started with a call to BackgroundRecognize or BackgroundRecognizeWithAlternates.
 old-location: tablet\inkrecognizercontext_stopbackgroundrecognition.htm
 tech.root: tablet
 ms.assetid: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0
-
 ms.date: 12/05/2018
 ms.keywords: 25ece9a1-cbc3-43ae-85ec-e3bf78a4e5a0, IInkRecognizerContext, IInkRecognizerContext interface [Tablet PC],StopBackgroundRecognition method, IInkRecognizerContext.StopBackgroundRecognition, IInkRecognizerContext::StopBackgroundRecognition, StopBackgroundRecognition, StopBackgroundRecognition method [Tablet PC], StopBackgroundRecognition method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::StopBackgroundRecognition, tablet.inkrecognizercontext_stopbackgroundrecognition
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.StopBackgroundRecognition"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.StopBackgroundRecognition
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.StopBackgroundRecognition
+- IInkRecognizerContext.StopBackgroundRecognition
 targetos: Windows
 req.typenames: 
 req.redist: 

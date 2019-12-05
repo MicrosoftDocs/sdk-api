@@ -1,19 +1,17 @@
 ---
 UID: NN:workspaceruntime.IWorkspaceRegistration2
 title: IWorkspaceRegistration2 (workspaceruntime.h)
-
 description: Exposes methods that add and remove references to custom clients in RemoteApp and Desktop Connection.
 old-location: termserv\iworkspaceregistration2.htm
 tech.root: TermServ
 ms.assetid: b677863a-c8cc-4ed8-aea4-16de1cba21c4
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceRegistration2, IWorkspaceRegistration2 interface [Remote Desktop Services], IWorkspaceRegistration2 interface [Remote Desktop Services],described, termserv.iworkspaceregistration2, workspaceruntime/IWorkspaceRegistration2
 ms.topic: interface
-f1_keywords: 
- - "workspaceruntime/IWorkspaceRegistration2"
+f1_keywords:
+- workspaceruntime/IWorkspaceRegistration2
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: Workspaceruntime.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WkspRt.exe
+- WkspRt.exe
 api_name:
- - IWorkspaceRegistration2
+- IWorkspaceRegistration2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:bdaiface.SmartCardAssociationType
 title: SmartCardAssociationType (bdaiface.h)
-
 description: The SmartCardAssociationType enumeration type specifies a smart card association.
 old-location: mstv\smartcardassociationtype.htm
 tech.root: mstv
 ms.assetid: 42fe27ed-d461-43bf-87c5-bd0704339ec7
-
 ms.date: 12/05/2018
 ms.keywords: Associated, AssociationUnknown, NotAssociated, SmartCardAssociationType, SmartCardAssociationType enumeration [Microsoft TV Technologies], bdaiface/Associated, bdaiface/AssociationUnknown, bdaiface/NotAssociated, bdaiface/SmartCardAssociationType, mstv.smartcardassociationtype
 ms.topic: enum
-f1_keywords: 
- - "bdaiface/SmartCardAssociationType"
+f1_keywords:
+- bdaiface/SmartCardAssociationType
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - SmartCardAssociationType
+- SmartCardAssociationType
 targetos: Windows
 req.typenames: SmartCardAssociationType
 req.redist: 

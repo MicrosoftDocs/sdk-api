@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.Deactivate
 title: IDirectManipulationManager::Deactivate (directmanipulation.h)
-
 description: Deactivates Direct Manipulation for processing input and handling callbacks on the specified window.
 old-location: directmanipulation\idirectmanipulationmanager_deactivate.htm
 tech.root: directmanipulation
 ms.assetid: 7f80fe8a-e088-41fa-b72e-2b248307ac4a
-
 ms.date: 12/05/2018
 ms.keywords: Deactivate, Deactivate method [Direct Manipulation], Deactivate method [Direct Manipulation],IDirectManipulationManager interface, IDirectManipulationManager interface [Direct Manipulation],Deactivate method, IDirectManipulationManager.Deactivate, IDirectManipulationManager::Deactivate, directmanipulation.idirectmanipulationmanager_deactivate, directmanipulation/IDirectManipulationManager::Deactivate
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager.Deactivate"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager.Deactivate
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager.Deactivate
+- IDirectManipulationManager.Deactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

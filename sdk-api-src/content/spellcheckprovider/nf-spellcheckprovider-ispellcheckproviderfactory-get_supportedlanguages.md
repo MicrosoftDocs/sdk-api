@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProviderFactory.get_SupportedLanguages
 title: ISpellCheckProviderFactory::get_SupportedLanguages (spellcheckprovider.h)
-
 description: Gets the set of languages/dialects supported by the spell checker.
 old-location: intl\ispellcheckproviderfactory_supportedlanguages.htm
 tech.root: Intl
 ms.assetid: 52690D99-4E14-44CE-BFD8-D0931F250280
-
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProviderFactory interface [Internationalization for Windows Applications],SupportedLanguages property, ISpellCheckProviderFactory.SupportedLanguages, ISpellCheckProviderFactory.get_SupportedLanguages, ISpellCheckProviderFactory::SupportedLanguages, ISpellCheckProviderFactory::get_SupportedLanguages, SupportedLanguages property [Internationalization for Windows Applications], SupportedLanguages property [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, get_SupportedLanguages, intl.ispellcheckproviderfactory_supportedlanguages, spellcheckprovider/ISpellCheckProviderFactory::SupportedLanguages, spellcheckprovider/ISpellCheckProviderFactory::get_SupportedLanguages
 ms.topic: method
-f1_keywords: 
- - "spellcheckprovider/ISpellCheckProviderFactory.SupportedLanguages"
+f1_keywords:
+- spellcheckprovider/ISpellCheckProviderFactory.SupportedLanguages
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheckprovider.h
+- Spellcheckprovider.h
 api_name:
- - ISpellCheckProviderFactory.SupportedLanguages
- - ISpellCheckProviderFactory.get_SupportedLanguages
+- ISpellCheckProviderFactory.SupportedLanguages
+- ISpellCheckProviderFactory.get_SupportedLanguages
 targetos: Windows
 req.typenames: 
 req.redist: 

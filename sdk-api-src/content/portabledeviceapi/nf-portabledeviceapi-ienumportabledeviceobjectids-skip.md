@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IEnumPortableDeviceObjectIDs.Skip
 title: IEnumPortableDeviceObjectIDs::Skip (portabledeviceapi.h)
-
 description: The Skip method skips a specified number of objects in the enumeration sequence.
 old-location: wpdsdk\ienumportabledeviceobjectids_skip.htm
 tech.root: wpd_sdk
 ms.assetid: a55b9ccc-8d6b-49e6-af3d-ad7915aa3abd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Skip method, IEnumPortableDeviceObjectIDs.Skip, IEnumPortableDeviceObjectIDs::Skip, IEnumPortableDeviceObjectIDsSkip, Skip, Skip method [Windows Portable Devices SDK], Skip method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Skip, wpdsdk.ienumportabledeviceobjectids_skip
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IEnumPortableDeviceObjectIDs.Skip"
+f1_keywords:
+- portabledeviceapi/IEnumPortableDeviceObjectIDs.Skip
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs.Skip
+- IEnumPortableDeviceObjectIDs.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

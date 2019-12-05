@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetAvailableAudioTrackBlocks
 title: IRedbookDiscMaster::GetAvailableAudioTrackBlocks (imapi.h)
-
 description: Retrieves the current number of blocks that can be added to the track before an additional add will cause a failure for lack of space.
 old-location: imapi\iredbookdiscmaster_getavailableaudiotrackblocks.htm
 tech.root: imapi
 ms.assetid: 57647490-0384-4cdb-842f-f1fb16dd2096
-
 ms.date: 12/05/2018
 ms.keywords: GetAvailableAudioTrackBlocks, GetAvailableAudioTrackBlocks method [IMAPI], GetAvailableAudioTrackBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetAvailableAudioTrackBlocks method, IRedbookDiscMaster.GetAvailableAudioTrackBlocks, IRedbookDiscMaster::GetAvailableAudioTrackBlocks, _win32_iredbookdiscmaster_getavailableaudiotrackblocks, base.iredbookdiscmaster_getavailableaudiotrackblocks, imapi.iredbookdiscmaster_getavailableaudiotrackblocks, imapi/IRedbookDiscMaster::GetAvailableAudioTrackBlocks
 ms.topic: method
-f1_keywords: 
- - "imapi/IRedbookDiscMaster.GetAvailableAudioTrackBlocks"
+f1_keywords:
+- imapi/IRedbookDiscMaster.GetAvailableAudioTrackBlocks
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IRedbookDiscMaster.GetAvailableAudioTrackBlocks
+- IRedbookDiscMaster.GetAvailableAudioTrackBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

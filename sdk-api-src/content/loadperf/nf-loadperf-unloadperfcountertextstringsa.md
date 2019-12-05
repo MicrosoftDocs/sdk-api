@@ -1,19 +1,17 @@
 ---
 UID: NF:loadperf.UnloadPerfCounterTextStringsA
 title: UnloadPerfCounterTextStringsA function (loadperf.h)
-
 description: Unloads performance objects and counters from the computer for the specified application.
 old-location: perf\unloadperfcountertextstrings.htm
 tech.root: perfctrs
 ms.assetid: f78858ca-d8d0-4178-9f9a-731b89cf5a61
-
 ms.date: 12/05/2018
 ms.keywords: UnloadPerfCounterTextStrings, UnloadPerfCounterTextStrings function [Perf], UnloadPerfCounterTextStringsA, UnloadPerfCounterTextStringsW, _win32_unloadperfcountertextstrings, base.unloadperfcountertextstrings, loadperf/UnloadPerfCounterTextStrings, loadperf/UnloadPerfCounterTextStringsA, loadperf/UnloadPerfCounterTextStringsW, perf.unloadperfcountertextstrings
 ms.topic: function
-f1_keywords: 
- - "loadperf/UnloadPerfCounterTextStrings"
+f1_keywords:
+- loadperf/UnloadPerfCounterTextStrings
 dev_langs:
- - c++
+- c++
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Loadperf.lib
 req.dll: Loadperf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Loadperf.dll
+- Loadperf.dll
 api_name:
- - UnloadPerfCounterTextStrings
- - UnloadPerfCounterTextStringsA
- - UnloadPerfCounterTextStringsW
+- UnloadPerfCounterTextStrings
+- UnloadPerfCounterTextStringsA
+- UnloadPerfCounterTextStringsW
 targetos: Windows
 req.typenames: 
 req.redist: 

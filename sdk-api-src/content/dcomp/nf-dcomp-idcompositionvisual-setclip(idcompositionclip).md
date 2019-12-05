@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetClip(IDCompositionClip)
 title: IDCompositionVisual::SetClip(IDCompositionClip) (dcomp.h)
-
 description: Sets the Clip property of this visual to the specified clip object.
 old-location: directcomp\idcompositionvisual_setclip_idcompositionclip.htm
 tech.root: directcomp
 ms.assetid: 504938a1-2775-477d-a077-7afc4e333f36
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionVisual interface [DirectComposition],SetClip method, IDCompositionVisual.SetClip, IDCompositionVisual.SetClip(IDCompositionClip), IDCompositionVisual::SetClip, IDCompositionVisual::SetClip(IDCompositionClip), IDCompositionVisual::SetClip(IDCompositionClip*), SetClip, SetClip method [DirectComposition], SetClip method [DirectComposition],IDCompositionVisual interface, dcomp/IDCompositionVisual::SetClip, directcomp.idcompositionvisual_setclip_idcompositionclip
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.SetClip"
+f1_keywords:
+- dcomp/IDCompositionVisual.SetClip
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.SetClip
+- IDCompositionVisual.SetClip
 targetos: Windows
 req.typenames: 
 req.redist: 

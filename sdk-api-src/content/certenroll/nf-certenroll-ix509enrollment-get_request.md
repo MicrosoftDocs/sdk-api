@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_Request
 title: IX509Enrollment::get_Request (certenroll.h)
-
 description: Retrieves the certificate request associated with the enrollment object.
 old-location: security\ix509enrollment_request_property.htm
 tech.root: seccertenroll
 ms.assetid: dc754240-9c52-459e-9612-caf19eeb351c
-
 ms.date: 12/05/2018
 ms.keywords: IX509Enrollment interface [Security],Request property, IX509Enrollment.Request, IX509Enrollment.get_Request, IX509Enrollment::Request, IX509Enrollment::get_Request, Request property [Security], Request property [Security],IX509Enrollment interface, certenroll/IX509Enrollment::Request, certenroll/IX509Enrollment::get_Request, get_Request, security.ix509enrollment_request_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.Request"
+f1_keywords:
+- certenroll/IX509Enrollment.Request
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.Request
- - IX509Enrollment.get_Request
+- IX509Enrollment.Request
+- IX509Enrollment.get_Request
 targetos: Windows
 req.typenames: 
 req.redist: 

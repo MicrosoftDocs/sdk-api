@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetTrackKind
 title: IMFTimedTextTrack::GetTrackKind (mfmediaengine.h)
-
 description: Gets the kind of timed-text track.
 old-location: mf\imftimedtexttrack_gettrackkind.htm
 tech.root: medfound
 ms.assetid: 6B4752EC-553B-42F8-8C8B-52388C803E2E
-
 ms.date: 12/05/2018
 ms.keywords: GetTrackKind, GetTrackKind method [Media Foundation], GetTrackKind method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetTrackKind method, IMFTimedTextTrack.GetTrackKind, IMFTimedTextTrack::GetTrackKind, mf.imftimedtexttrack_gettrackkind, mfmediaengine/IMFTimedTextTrack::GetTrackKind
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrack.GetTrackKind"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrack.GetTrackKind
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrack.GetTrackKind
+- IMFTimedTextTrack.GetTrackKind
 targetos: Windows
 req.typenames: 
 req.redist: 

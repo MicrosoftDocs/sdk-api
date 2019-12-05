@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartTransfer
 title: IPhotoAcquireProgressCB::StartTransfer (photoacquire.h)
-
 description: The StartTransfer method provides additional processing when transfer of items from the device begins. The application provides the implementation of the StartTransfer method.
 old-location: picacq\iphotoacquireprogresscb_starttransfer.htm
 tech.root: acquisition
 ms.assetid: 8fff67d0-5d0a-4d8d-bc59-55cb65b77147
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartTransfer method, IPhotoAcquireProgressCB.StartTransfer, IPhotoAcquireProgressCB::StartTransfer, IPhotoAcquireProgressCBStartTransfer, StartTransfer, StartTransfer method [Picture Acquisition], StartTransfer method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartTransfer, picacq.iphotoacquireprogresscb_starttransfer
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.StartTransfer"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.StartTransfer
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.StartTransfer
+- IPhotoAcquireProgressCB.StartTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

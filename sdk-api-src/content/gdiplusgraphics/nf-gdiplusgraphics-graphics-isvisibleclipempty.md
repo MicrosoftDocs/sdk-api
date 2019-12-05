@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.IsVisibleClipEmpty
 title: Graphics::IsVisibleClipEmpty (gdiplusgraphics.h)
-
 description: The Graphics::IsVisibleClipEmpty method determines whether the visible clipping region of this Graphics object is empty. The visible clipping region is the intersection of the clipping region of this Graphics object and the clipping region of the window.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisibleClipEmpty_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\isvisibleclipempty.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],IsVisibleClipEmpty method, Graphics.IsVisibleClipEmpty, Graphics::IsVisibleClipEmpty, IsVisibleClipEmpty, IsVisibleClipEmpty method [GDI+], IsVisibleClipEmpty method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_IsVisibleClipEmpty_, gdiplus._gdiplus_CLASS_Graphics_IsVisibleClipEmpty_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.IsVisibleClipEmpty"
+f1_keywords:
+- gdiplusgraphics/Graphics.IsVisibleClipEmpty
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.IsVisibleClipEmpty
+- Graphics.IsVisibleClipEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

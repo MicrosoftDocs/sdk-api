@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsDrive.GetProperties
 title: IVdsDrive::GetProperties (vds.h)
-
 description: Returns the properties of a drive object.
 old-location: base\ivdsdrive_getproperties.htm
 tech.root: VDS
 ms.assetid: 31556be6-ff03-492f-a7a6-dec37a63e88d
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsDrive interface, IVdsDrive interface [VDS],GetProperties method, IVdsDrive.GetProperties, IVdsDrive::GetProperties, base.ivdsdrive_getproperties, vds/IVdsDrive::GetProperties, vdshwprv/IVdsDrive::GetProperties
 ms.topic: method
 f1_keywords:
 - vds/IVdsDrive.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

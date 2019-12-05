@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.SetFloatVectorArray
 title: ID3D10EffectVectorVariable::SetFloatVectorArray (d3d10effect.h)
-
 description: Set an array of four-component vectors that contain floating-point data.
 old-location: direct3d10\id3d10effectvectorvariable_setfloatvectorarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_setfloatvectorarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: 9eb5f7ae-71eb-f3ae-ea6e-cc78dd935434, ID3D10EffectVectorVariable interface [Direct3D 10],SetFloatVectorArray method, ID3D10EffectVectorVariable.SetFloatVectorArray, ID3D10EffectVectorVariable::SetFloatVectorArray, SetFloatVectorArray, SetFloatVectorArray method [Direct3D 10], SetFloatVectorArray method [Direct3D 10],ID3D10EffectVectorVariable interface, d3d10effect/ID3D10EffectVectorVariable::SetFloatVectorArray, direct3d10.id3d10effectvectorvariable_setfloatvectorarray
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVectorVariable.SetFloatVectorArray"
+f1_keywords:
+- d3d10effect/ID3D10EffectVectorVariable.SetFloatVectorArray
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVectorVariable.SetFloatVectorArray
+- ID3D10EffectVectorVariable.SetFloatVectorArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetChannelVolumeLevelScalar
 title: IAudioEndpointVolume::SetChannelVolumeLevelScalar (endpointvolume.h)
-
 description: The SetChannelVolumeLevelScalar method sets the normalized, audio-tapered volume level of the specified channel in the audio stream that enters or leaves the audio endpoint device.
 old-location: coreaudio\iaudioendpointvolume_setchannelvolumelevelscalar.htm
 tech.root: CoreAudio
 ms.assetid: 2e1f0d1c-060f-45b7-9194-591e45668b52
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetChannelVolumeLevelScalar method, IAudioEndpointVolume.SetChannelVolumeLevelScalar, IAudioEndpointVolume::SetChannelVolumeLevelScalar, IAudioEndpointVolumeSetChannelVolumeLevelScalar, SetChannelVolumeLevelScalar, SetChannelVolumeLevelScalar method [Core Audio], SetChannelVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setchannelvolumelevelscalar, endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevelScalar
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.SetChannelVolumeLevelScalar"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.SetChannelVolumeLevelScalar
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.SetChannelVolumeLevelScalar
+- IAudioEndpointVolume.SetChannelVolumeLevelScalar
 targetos: Windows
 req.typenames: 
 req.redist: 

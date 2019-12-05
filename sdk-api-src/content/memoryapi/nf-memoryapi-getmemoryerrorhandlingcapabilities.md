@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.GetMemoryErrorHandlingCapabilities
 title: GetMemoryErrorHandlingCapabilities function (memoryapi.h)
-
 description: Gets the memory error handling capabilities of the system.
 old-location: base\getmemoryerrorhandlingcapabilities.htm
 tech.root: Memory
 ms.assetid: 03a22996-7275-4c9b-838e-424ad92c6606
-
 ms.date: 12/05/2018
 ms.keywords: GetMemoryErrorHandlingCapabilities, GetMemoryErrorHandlingCapabilities function, MEHC_PATROL_SCRUBBER_PRESENT, base.getmemoryerrorhandlingcapabilities, winbase/GetMemoryErrorHandlingCapabilities
 ms.topic: function
-f1_keywords: 
- - "memoryapi/GetMemoryErrorHandlingCapabilities"
+f1_keywords:
+- memoryapi/GetMemoryErrorHandlingCapabilities
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - GetMemoryErrorHandlingCapabilities
+- GetMemoryErrorHandlingCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPDVD.back
 title: IWMPDVD::back (wmp.h)
-
 description: The back method returns the display from a submenu to its parent menu.
 old-location: wmp\iwmpdvd_back.htm
 tech.root: WMP
 ms.assetid: 89d3c8e2-4517-45db-a20c-961089ee8845
-
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],back method, IWMPDVD.back, IWMPDVD::back, IWMPDVDback, back, back method [Windows Media Player], back method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_back, wmp/IWMPDVD::back
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPDVD.back"
+f1_keywords:
+- wmp/IWMPDVD.back
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPDVD.back
+- IWMPDVD.back
 targetos: Windows
 req.typenames: 
 req.redist: 

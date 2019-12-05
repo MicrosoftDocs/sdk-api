@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml.IXMLElementCollection.item
 title: IXMLElementCollection::item (msxml.h)
-
 description: Retrieves the child elements from a collection using their index, name, or both.
 old-location: winprog\ixmlelementcollection_item.htm
 tech.root: DevNotes
 ms.assetid: 3851fe72-b826-4948-ba74-638229429345
-
 ms.date: 12/05/2018
 ms.keywords: IXMLElementCollection interface [Windows API],item method, IXMLElementCollection.item, IXMLElementCollection::item, item, item method [Windows API], item method [Windows API],IXMLElementCollection interface, msxml/IXMLElementCollection::item, winprog.ixmlelementcollection_item
 ms.topic: method
-f1_keywords: 
- - "msxml/IXMLElementCollection.item"
+f1_keywords:
+- msxml/IXMLElementCollection.item
 dev_langs:
- - c++
+- c++
 req.header: msxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msxml.dll
+- Msxml.dll
 api_name:
- - IXMLElementCollection.item
+- IXMLElementCollection.item
 targetos: Windows
 req.typenames: 
 req.redist: 

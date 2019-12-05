@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSaveJob
 title: IMFSaveJob (mfidl.h)
-
 description: Persists media data from a source byte stream to an application-provided byte stream.
 old-location: mf\imfsavejob.htm
 tech.root: medfound
 ms.assetid: 0f38fa60-ed04-40c4-9bb0-b6e196cd9586
-
 ms.date: 12/05/2018
 ms.keywords: 0f38fa60-ed04-40c4-9bb0-b6e196cd9586, IMFSaveJob, IMFSaveJob interface [Media Foundation], IMFSaveJob interface [Media Foundation],described, mf.imfsavejob, mfidl/IMFSaveJob
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSaveJob"
+f1_keywords:
+- mfidl/IMFSaveJob
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSaveJob
+- IMFSaveJob
 targetos: Windows
 req.typenames: 
 req.redist: 

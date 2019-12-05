@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_LIST
 title: CLUSPROP_LIST (clusapi.h)
-
 description: Accesses the beginning of a property list.
 old-location: mscs\clusprop_list.htm
 tech.root: MsCS
 ms.assetid: 1f76104f-99eb-4376-8d92-e04b7f00c46d
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_LIST, CLUSPROP_LIST, CLUSPROP_LIST structure [Failover Cluster], PCLUSPROP_LIST, PCLUSPROP_LIST structure pointer [Failover Cluster], _wolf_clusprop_list, clusapi/CLUSPROP_LIST, clusapi/PCLUSPROP_LIST, mscs.clusprop_list"
+ms.keywords: '*PCLUSPROP_LIST, CLUSPROP_LIST, CLUSPROP_LIST structure [Failover Cluster], PCLUSPROP_LIST, PCLUSPROP_LIST structure pointer [Failover Cluster], _wolf_clusprop_list, clusapi/CLUSPROP_LIST, clusapi/PCLUSPROP_LIST, mscs.clusprop_list'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_LIST"
+f1_keywords:
+- clusapi/CLUSPROP_LIST
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_LIST
+- CLUSPROP_LIST
 targetos: Windows
 req.typenames: CLUSPROP_LIST, *PCLUSPROP_LIST
 req.redist: 

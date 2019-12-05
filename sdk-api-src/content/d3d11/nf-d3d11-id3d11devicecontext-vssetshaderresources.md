@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.VSSetShaderResources
 title: ID3D11DeviceContext::VSSetShaderResources (d3d11.h)
-
 description: Bind an array of shader resources to the vertex-shader stage.
 old-location: direct3d11\id3d11devicecontext_vssetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: f5dbd212-6896-41b1-b61b-f1c1a690a195
-
 ms.date: 12/05/2018
 ms.keywords: 1089f6c1-4177-c50f-26c2-1065753f7499, ID3D11DeviceContext interface [Direct3D 11],VSSetShaderResources method, ID3D11DeviceContext.VSSetShaderResources, ID3D11DeviceContext::VSSetShaderResources, VSSetShaderResources, VSSetShaderResources method [Direct3D 11], VSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::VSSetShaderResources, direct3d11.id3d11devicecontext_vssetshaderresources
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.VSSetShaderResources"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.VSSetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.VSSetShaderResources
+- ID3D11DeviceContext.VSSetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

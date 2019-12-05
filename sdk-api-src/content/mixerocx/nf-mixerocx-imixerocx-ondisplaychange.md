@@ -1,19 +1,17 @@
 ---
 UID: NF:mixerocx.IMixerOCX.OnDisplayChange
 title: IMixerOCX::OnDisplayChange (mixerocx.h)
-
 description: The OnDisplayChange method informs the Overlay Mixer that the monitor's display settings have changed. (Not implemented.).
 old-location: dshow\imixerocx_ondisplaychange.htm
 tech.root: DirectShow
 ms.assetid: 5d082ab6-6195-417b-ad0d-b8e97561b268
-
 ms.date: 12/05/2018
 ms.keywords: IMixerOCX interface [DirectShow],OnDisplayChange method, IMixerOCX.OnDisplayChange, IMixerOCX::OnDisplayChange, IMixerOCXOnDisplayChange, OnDisplayChange, OnDisplayChange method [DirectShow], OnDisplayChange method [DirectShow],IMixerOCX interface, dshow.imixerocx_ondisplaychange, mixerocx/IMixerOCX::OnDisplayChange
 ms.topic: method
-f1_keywords: 
- - "mixerocx/IMixerOCX.OnDisplayChange"
+f1_keywords:
+- mixerocx/IMixerOCX.OnDisplayChange
 dev_langs:
- - c++
+- c++
 req.header: mixerocx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerOCX.OnDisplayChange
+- IMixerOCX.OnDisplayChange
 targetos: Windows
 req.typenames: 
 req.redist: 

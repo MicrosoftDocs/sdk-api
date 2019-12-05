@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.CreateWellKnownSid
 title: CreateWellKnownSid function (securitybaseapi.h)
-
 description: Creates a SID for predefined aliases.
 old-location: security\createwellknownsid.htm
 tech.root: SecAuthZ
 ms.assetid: 00e75bae-fbce-41a3-a0bc-c345c36f2c84
-
 ms.date: 12/05/2018
 ms.keywords: CreateWellKnownSid, CreateWellKnownSid function [Security], _win32_createwellknownsid, security.createwellknownsid, securitybaseapi/CreateWellKnownSid
 ms.topic: function
-f1_keywords: 
- - "securitybaseapi/CreateWellKnownSid"
+f1_keywords:
+- securitybaseapi/CreateWellKnownSid
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-Security-base-l1-1-0.dll
- - API-MS-Win-Security-base-l1-2-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Security-Base-L1-2-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-Security-base-l1-1-0.dll
+- API-MS-Win-Security-base-l1-2-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - CreateWellKnownSid
+- CreateWellKnownSid
 targetos: Windows
 req.typenames: 
 req.redist: 

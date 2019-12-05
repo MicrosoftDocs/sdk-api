@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DUPLICATE_EXTENTS_DATA
 title: DUPLICATE_EXTENTS_DATA
-
 description: Contains parameters for the FSCTL_DUPLICATE_EXTENTS control code that performs the Block Cloning operation.
 old-location: fs\duplicate_extents_data.htm
 tech.root: FileIO
 ms.assetid: 9E2B3AA1-BC28-4458-9882-13F7EFB23756
-
 ms.date: 12/05/2018
-ms.keywords: "*PDUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA structure [Files], PDUPLICATE_EXTENTS_DATA, PDUPLICATE_EXTENTS_DATA structure pointer [Files], fs.duplicate_extents_data, winioctl/DUPLICATE_EXTENTS_DATA, winioctl/PDUPLICATE_EXTENTS_DATA"
+ms.keywords: '*PDUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA, DUPLICATE_EXTENTS_DATA structure [Files], PDUPLICATE_EXTENTS_DATA, PDUPLICATE_EXTENTS_DATA structure pointer [Files], fs.duplicate_extents_data, winioctl/DUPLICATE_EXTENTS_DATA, winioctl/PDUPLICATE_EXTENTS_DATA'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DUPLICATE_EXTENTS_DATA"
+f1_keywords:
+- winioctl/DUPLICATE_EXTENTS_DATA
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DUPLICATE_EXTENTS_DATA
+- DUPLICATE_EXTENTS_DATA
 targetos: Windows
 req.typenames: DUPLICATE_EXTENTS_DATA, *PDUPLICATE_EXTENTS_DATA
 req.redist: 

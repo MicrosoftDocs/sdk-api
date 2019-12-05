@@ -5,10 +5,10 @@ description: Used to stop a running [DnsStartMulticastQuery](nf-windns-dnsstartm
 ms.date: 02/14/2019
 ms.keywords: DnsStopMulticastQuery
 ms.topic: language-reference
-f1_keywords: 
- - "windns/DnsStopMulticastQuery"
+f1_keywords:
+- windns/DnsStopMulticastQuery
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - windns.h
+- windns.h
 api_name:
- - DnsStopMulticastQuery
+- DnsStopMulticastQuery
 ms.custom: 19H1
 ---
 

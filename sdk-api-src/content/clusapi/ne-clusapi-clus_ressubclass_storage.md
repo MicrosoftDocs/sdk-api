@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUS_RESSUBCLASS_STORAGE
 title: CLUS_RESSUBCLASS_STORAGE (clusapi.h)
-
 description: Identifies a resource subclass that manages a shared bus.
 old-location: mscs\clus_ressubclass_storage.htm
 tech.root: MsCS
 ms.assetid: 10e2fe05-ea17-4f9d-a26d-eed6aa3abb04
-
 ms.date: 12/05/2018
 ms.keywords: CLUS_RESSUBCLASS_STORAGE, CLUS_RESSUBCLASS_STORAGE enumeration [Failover Cluster], CLUS_RESSUBCLASS_STORAGE_DISK, CLUS_RESSUBCLASS_STORAGE_REPLICATION, CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, clusapi/CLUS_RESSUBCLASS_STORAGE, clusapi/CLUS_RESSUBCLASS_STORAGE_DISK, clusapi/CLUS_RESSUBCLASS_STORAGE_REPLICATION, clusapi/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, msclus/CLUS_RESSUBCLASS_STORAGE, msclus/CLUS_RESSUBCLASS_STORAGE_DISK, msclus/CLUS_RESSUBCLASS_STORAGE_REPLICATION, msclus/CLUS_RESSUBCLASS_STORAGE_SHARED_BUS, mscs.clus_ressubclass_storage
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUS_RESSUBCLASS_STORAGE"
+f1_keywords:
+- clusapi/CLUS_RESSUBCLASS_STORAGE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
- - MsClus.h
+- ClusAPI.h
+- MsClus.h
 api_name:
- - CLUS_RESSUBCLASS_STORAGE
+- CLUS_RESSUBCLASS_STORAGE
 targetos: Windows
 req.typenames: CLUS_RESSUBCLASS_STORAGE
 req.redist: 

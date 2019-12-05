@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_27
 title: DNS_LOC_DATA (windns.h)
-
 description: The DNS_LOC_DATA structure represents a DNS location (LOC) resource record (RR) as specified in RFC 1876.
 old-location: dns\dns_loc_data.htm
 tech.root: DNS
 ms.assetid: c1e05479-17f0-4993-8dcf-02036989d6dc
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_LOC_DATA, DNS_LOC_DATA, DNS_LOC_DATA structure [DNS], PDNS_LOC_DATA, PDNS_LOC_DATA structure pointer [DNS], _dns_dns_loc_data, dns.dns_loc_data, windns/DNS_LOC_DATA, windns/PDNS_LOC_DATA"
+ms.keywords: '*PDNS_LOC_DATA, DNS_LOC_DATA, DNS_LOC_DATA structure [DNS], PDNS_LOC_DATA, PDNS_LOC_DATA structure pointer [DNS], _dns_dns_loc_data, dns.dns_loc_data, windns/DNS_LOC_DATA, windns/PDNS_LOC_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_LOC_DATA"
+f1_keywords:
+- windns/DNS_LOC_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_LOC_DATA
+- DNS_LOC_DATA
 targetos: Windows
 req.typenames: DNS_LOC_DATA, *PDNS_LOC_DATA
 req.redist: 

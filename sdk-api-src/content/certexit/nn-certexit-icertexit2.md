@@ -1,19 +1,17 @@
 ---
 UID: NN:certexit.ICertExit2
 title: ICertExit2 (certexit.h)
-
 description: Provide communications between the Certificate Services server and an exit module.
 old-location: security\icertexit2.htm
 tech.root: SecCrypto
 ms.assetid: a9d66aeb-b596-4d50-9c07-b760cdf4f8c0
-
 ms.date: 12/05/2018
 ms.keywords: ICertExit2, ICertExit2 interface [Security], ICertExit2 interface [Security],described, _certsrv_icertexit2, certexit/ICertExit2, security.icertexit2
 ms.topic: interface
-f1_keywords: 
- - "certexit/ICertExit2"
+f1_keywords:
+- certexit/ICertExit2
 dev_langs:
- - c++
+- c++
 req.header: certexit.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certexit.h
+- Certexit.h
 api_name:
- - ICertExit2
+- ICertExit2
 targetos: Windows
 req.typenames: 
 req.redist: 

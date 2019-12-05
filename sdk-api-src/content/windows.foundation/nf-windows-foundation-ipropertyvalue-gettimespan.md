@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetTimeSpan
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the TimeSpan value that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_gettimespan.htm
 tech.root: WinRT
 ms.assetid: c78d584f-e2ef-4623-b45a-e26d2ec1518b
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeSpan, GetTimeSpan method [Windows Runtime], GetTimeSpan method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetTimeSpan method, IPropertyValue.GetTimeSpan, IPropertyValue.IPropertyValue, IPropertyValue::GetTimeSpan, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetTimeSpan, winrt.ipropertyvalue_gettimespan
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetTimeSpan"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetTimeSpan
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetTimeSpan
+- IPropertyValue.GetTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

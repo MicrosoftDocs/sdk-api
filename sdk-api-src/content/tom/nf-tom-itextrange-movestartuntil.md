@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.MoveStartUntil
 title: ITextRange::MoveStartUntil (tom.h)
-
 description: Moves the start position of the range the position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the start position.
 old-location: controls\ITextRange_MoveStartUntil.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestartuntil.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],MoveStartUntil method, ITextRange.MoveStartUntil, ITextRange::MoveStartUntil, MoveStartUntil, MoveStartUntil method [Windows Controls], MoveStartUntil method [Windows Controls],ITextRange interface, _win32_ITextRange_MoveStartUntil, _win32_ITextRange_MoveStartUntil_cpp, controls.ITextRange_MoveStartUntil, controls._win32_ITextRange_MoveStartUntil, tom/ITextRange::MoveStartUntil
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.MoveStartUntil"
+f1_keywords:
+- tom/ITextRange.MoveStartUntil
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.MoveStartUntil
+- ITextRange.MoveStartUntil
 targetos: Windows
 req.typenames: 
 req.redist: 

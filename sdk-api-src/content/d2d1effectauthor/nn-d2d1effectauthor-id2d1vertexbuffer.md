@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1VertexBuffer
 title: ID2D1VertexBuffer (d2d1effectauthor.h)
-
 description: Defines a mappable single-dimensional vertex buffer.
 old-location: direct2d\id2d1vertexbuffer.htm
 tech.root: Direct2D
 ms.assetid: 1DBCDF93-83C6-4B02-9E94-8024D7849DF7
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1VertexBuffer, ID2D1VertexBuffer interface [Direct2D], ID2D1VertexBuffer interface [Direct2D],described, d2d1effectauthor/ID2D1VertexBuffer, direct2d.id2d1vertexbuffer
 ms.topic: interface
-f1_keywords: 
- - "d2d1effectauthor/ID2D1VertexBuffer"
+f1_keywords:
+- d2d1effectauthor/ID2D1VertexBuffer
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1VertexBuffer
+- ID2D1VertexBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

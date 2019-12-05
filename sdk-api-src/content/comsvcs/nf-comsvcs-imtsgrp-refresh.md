@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMtsGrp.Refresh
 title: IMtsGrp::Refresh (comsvcs.h)
-
 description: Updates the list of IUnknown pointers that was populated upon the creation of the object.
 old-location: cos\imtsgrp_refresh.htm
 tech.root: cossdk
 ms.assetid: 752bda5e-d3e1-4566-90c3-aaa336479670
-
 ms.date: 12/05/2018
 ms.keywords: IMtsGrp interface [COM+],Refresh method, IMtsGrp.Refresh, IMtsGrp::Refresh, Refresh, Refresh method [COM+], Refresh method [COM+],IMtsGrp interface, _dtc_IMtsGrp_Refresh, comsvcs/IMtsGrp::Refresh, cos.imtsgrp_refresh
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMtsGrp.Refresh"
+f1_keywords:
+- comsvcs/IMtsGrp.Refresh
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsGrp.Refresh
+- IMtsGrp.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

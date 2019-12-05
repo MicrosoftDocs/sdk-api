@@ -1,19 +1,17 @@
 ---
 UID: NF:olectl.OleCreatePropertyFrameIndirect
 title: OleCreatePropertyFrameIndirect function (olectl.h)
-
 description: Creates a property frame, that is, a property sheet dialog box, based on a structure (OCPFIPARAMS) that contains the parameters, rather than specifying separate parameters as when calling OleCreatePropertyFrame.
 old-location: com\olecreatepropertyframeindirect.htm
 tech.root: com
 ms.assetid: ccd01d38-2d8e-4509-b44f-fef6ff718558
-
 ms.date: 12/05/2018
 ms.keywords: OleCreatePropertyFrameIndirect, OleCreatePropertyFrameIndirect function [COM], _ctrl_OleCreatePropertyFrameIndirect, com.olecreatepropertyframeindirect, olectl/OleCreatePropertyFrameIndirect
 ms.topic: function
-f1_keywords: 
- - "olectl/OleCreatePropertyFrameIndirect"
+f1_keywords:
+- olectl/OleCreatePropertyFrameIndirect
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - OleCreatePropertyFrameIndirect
+- OleCreatePropertyFrameIndirect
 targetos: Windows
 req.typenames: 
 req.redist: 

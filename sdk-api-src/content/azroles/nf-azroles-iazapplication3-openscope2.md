@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication3.OpenScope2
 title: IAzApplication3::OpenScope2 (azroles.h)
-
 description: Opens an IAzScope2 object with the specified name.
 old-location: security\iazapplication3_openscope2.htm
 tech.root: SecAuthZ
 ms.assetid: 1ea9f12e-d00d-4ccd-bfd4-21027610e681
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplication3 interface [Security],OpenScope2 method, IAzApplication3.OpenScope2, IAzApplication3::OpenScope2, OpenScope2, OpenScope2 method [Security], OpenScope2 method [Security],IAzApplication3 interface, azroles/IAzApplication3::OpenScope2, security.iazapplication3_openscope2
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication3.OpenScope2"
+f1_keywords:
+- azroles/IAzApplication3.OpenScope2
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication3.OpenScope2
+- IAzApplication3.OpenScope2
 targetos: Windows
 req.typenames: 
 req.redist: 

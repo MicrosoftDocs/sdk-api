@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICryptAttribute
 title: ICryptAttribute (certenroll.h)
-
-description: The ICryptAttribute interface represents a cryptographic attribute in a certificate request. A collection of these attributes is contained in the CertificateRequestInfo structure of a PKCS #10 request as shown by the following example syntax.
+description: The ICryptAttribute interface represents a cryptographic attribute in a certificate request. A collection of these attributes is contained in the CertificateRequestInfo structure of a PKCS
 old-location: security\icryptattribute.htm
 tech.root: seccertenroll
 ms.assetid: 2aefde1b-0f77-4a88-8851-5bacd363900b
-
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute, ICryptAttribute interface [Security], ICryptAttribute interface [Security],described, certenroll/ICryptAttribute, security.icryptattribute
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICryptAttribute"
+f1_keywords:
+- certenroll/ICryptAttribute
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICryptAttribute
+- ICryptAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

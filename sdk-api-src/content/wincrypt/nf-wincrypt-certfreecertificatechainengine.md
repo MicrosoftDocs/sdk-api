@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertFreeCertificateChainEngine
 title: CertFreeCertificateChainEngine function (wincrypt.h)
-
 description: The CertFreeCertificateChainEngine function frees a certificate trust engine.
 old-location: security\certfreecertificatechainengine.htm
 tech.root: SecCrypto
 ms.assetid: 5aebc09d-342d-4938-8a1a-0cbfdc147bb5
-
 ms.date: 12/05/2018
 ms.keywords: CertFreeCertificateChainEngine, CertFreeCertificateChainEngine function [Security], _crypto2_certfreecertificatechainengine, security.certfreecertificatechainengine, wincrypt/CertFreeCertificateChainEngine
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertFreeCertificateChainEngine"
+f1_keywords:
+- wincrypt/CertFreeCertificateChainEngine
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertFreeCertificateChainEngine
+- CertFreeCertificateChainEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

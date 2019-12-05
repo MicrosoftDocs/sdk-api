@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.get_Signature
 title: IX509CertificateRequestPkcs10::get_Signature (certenroll.h)
-
 description: Retrieves the request signature created by the Encode method.
 old-location: security\ix509certificaterequestpkcs10_signature_property.htm
 tech.root: seccertenroll
 ms.assetid: ee6ad3c7-2d31-4a12-ad37-ee6e1071b665
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestPkcs10 interface [Security],Signature property, IX509CertificateRequestPkcs10.Signature, IX509CertificateRequestPkcs10.get_Signature, IX509CertificateRequestPkcs10::Signature, IX509CertificateRequestPkcs10::get_Signature, Signature property [Security], Signature property [Security],IX509CertificateRequestPkcs10 interface, certenroll/IX509CertificateRequestPkcs10::Signature, certenroll/IX509CertificateRequestPkcs10::get_Signature, get_Signature, security.ix509certificaterequestpkcs10_signature_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestPkcs10.Signature"
+f1_keywords:
+- certenroll/IX509CertificateRequestPkcs10.Signature
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10.Signature
- - IX509CertificateRequestPkcs10.get_Signature
+- IX509CertificateRequestPkcs10.Signature
+- IX509CertificateRequestPkcs10.get_Signature
 targetos: Windows
 req.typenames: 
 req.redist: 

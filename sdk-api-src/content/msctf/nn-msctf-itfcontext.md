@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfContext
 title: ITfContext (msctf.h)
-
 description: The ITfContext interface is implemented by the TSF manager and used by applications and text services to access an edit context.
 old-location: tsf\itfcontext.htm
 tech.root: TSF
 ms.assetid: ca98c7bb-7348-405d-976a-18012b0886c6
-
 ms.date: 12/05/2018
 ms.keywords: ITfContext, ITfContext interface [Text Services Framework], ITfContext interface [Text Services Framework],described, _tsf_itfcontext_ref, msctf/ITfContext, tsf.itfcontext
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfContext"
+f1_keywords:
+- msctf/ITfContext
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext
+- ITfContext
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

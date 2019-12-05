@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.DestroyAlternate
 title: DestroyAlternate function (recapis.h)
-
 description: This function is obsolete and need not be implemented by custom application recognizers.
 old-location: tablet\destroyalternate.htm
 tech.root: tablet
 ms.assetid: d355d377-2021-4e74-b3bb-2058271c9be9
-
 ms.date: 12/05/2018
 ms.keywords: DestroyAlternate, DestroyAlternate function [Tablet PC], d355d377-2021-4e74-b3bb-2058271c9be9, recapis/DestroyAlternate, tablet.destroyalternate
 ms.topic: function
-f1_keywords: 
- - "recapis/DestroyAlternate"
+f1_keywords:
+- recapis/DestroyAlternate
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - DestroyAlternate
+- DestroyAlternate
 targetos: Windows
 req.typenames: 
 req.redist: 

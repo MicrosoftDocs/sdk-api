@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._DRM_VAL16
 title: DRM_VAL16 (wmsdkidl.h)
-
 description: The DRM_VAL16 structure is used by some DRM-related methods for passing 128-bit device identification values.
 old-location: wmformat\drm_val16.htm
 tech.root: wmformat
 ms.assetid: 8981042a-f11d-458d-be27-3b1749f9e995
-
 ms.date: 12/05/2018
 ms.keywords: DRM_VAL16, DRM_VAL16 structure [windows Media Format], structure [windows Media Format], wmformat.drm_val16, wmsdkidl/DRM_VAL16
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/DRM_VAL16"
+f1_keywords:
+- wmsdkidl/DRM_VAL16
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - DRM_VAL16
+- DRM_VAL16
 targetos: Windows
 req.typenames: DRM_VAL16
 req.redist: 

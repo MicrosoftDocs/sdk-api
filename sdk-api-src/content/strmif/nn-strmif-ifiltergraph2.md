@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IFilterGraph2
 title: IFilterGraph2 (strmif.h)
-
 description: The IFilterGraph2 interface extends the IFilterGraph and IGraphBuilder interfaces, which contain methods for building filter graphs.The Filter Graph Manager implements this interface.
 old-location: dshow\ifiltergraph2.htm
 tech.root: DirectShow
 ms.assetid: 1a1ef4fe-a054-4ba7-99c7-1f209472c5a6
-
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph2, IFilterGraph2 interface [DirectShow], IFilterGraph2 interface [DirectShow],described, IFilterGraph2Interface, dshow.ifiltergraph2, strmif/IFilterGraph2
 ms.topic: interface
-f1_keywords: 
- - "strmif/IFilterGraph2"
+f1_keywords:
+- strmif/IFilterGraph2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterGraph2
+- IFilterGraph2
 targetos: Windows
 req.typenames: 
 req.redist: 

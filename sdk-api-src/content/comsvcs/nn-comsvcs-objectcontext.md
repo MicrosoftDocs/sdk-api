@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ObjectContext
 title: ObjectContext (comsvcs.h)
-
 description: Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.
 old-location: cos\objectcontext.htm
 tech.root: cossdk
 ms.assetid: 09a17e57-7224-43bc-93c7-16ab95ca2517
-
 ms.date: 12/05/2018
 ms.keywords: ObjectContext, ObjectContext interface [COM+], ObjectContext interface [COM+],described, _cos_ObjectContext, comsvcs/ObjectContext, cos.objectcontext
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ObjectContext"
+f1_keywords:
+- comsvcs/ObjectContext
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectContext
+- ObjectContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IClosable.Close
 title: IClosable::IClosable (windows.foundation.h)
-
 description: Performs application-defined tasks associated with freeing, releasing, or resetting allocated resources.
 old-location: winrt\iclosable_close.htm
 tech.root: WinRT
 ms.assetid: B08161D3-01D9-4782-A3FA-EAD15DA8B7D9
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Windows Runtime], Close method [Windows Runtime],IClosable interface, IClosable interface [Windows Runtime],Close method, IClosable.Close, IClosable.IClosable, IClosable::Close, IClosable::IClosable, windows/IClosable::Close, winrt.iclosable_close
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IClosable.Close"
+f1_keywords:
+- windows.foundation/IClosable.Close
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IClosable.Close
+- IClosable.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

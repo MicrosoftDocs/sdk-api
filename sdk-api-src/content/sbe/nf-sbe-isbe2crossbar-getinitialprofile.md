@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.GetInitialProfile
 title: ISBE2Crossbar::GetInitialProfile (sbe.h)
-
 description: Gets the initial profile that lists the media types that are present in the currently loaded WTV file.
 old-location: mstv\isbe2crossbar_getinitialprofile.htm
 tech.root: mstv
 ms.assetid: 6a4bec40-2c6d-49fb-8977-3c3db2b2b4df
-
 ms.date: 12/05/2018
 ms.keywords: GetInitialProfile, GetInitialProfile method [Microsoft TV Technologies], GetInitialProfile method [Microsoft TV Technologies],ISBE2Crossbar interface, ISBE2Crossbar interface [Microsoft TV Technologies],GetInitialProfile method, ISBE2Crossbar.GetInitialProfile, ISBE2Crossbar::GetInitialProfile, mstv.isbe2crossbar_getinitialprofile, sbe/ISBE2Crossbar::GetInitialProfile
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2Crossbar.GetInitialProfile"
+f1_keywords:
+- sbe/ISBE2Crossbar.GetInitialProfile
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2Crossbar.GetInitialProfile
+- ISBE2Crossbar.GetInitialProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

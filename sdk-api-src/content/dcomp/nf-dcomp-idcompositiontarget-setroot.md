@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTarget.SetRoot
 title: IDCompositionTarget::SetRoot (dcomp.h)
-
 description: Sets a visual object as the new root object of a visual tree.
 old-location: directcomp\idcompositiontarget_setroot.htm
 tech.root: directcomp
 ms.assetid: febbef70-fc21-4295-93c5-2f9f52434aae
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTarget interface [DirectComposition],SetRoot method, IDCompositionTarget.SetRoot, IDCompositionTarget::SetRoot, SetRoot, SetRoot method [DirectComposition], SetRoot method [DirectComposition],IDCompositionTarget interface, dcomp/IDCompositionTarget::SetRoot, directcomp.idcompositiontarget_setroot
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTarget.SetRoot"
+f1_keywords:
+- dcomp/IDCompositionTarget.SetRoot
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTarget.SetRoot
+- IDCompositionTarget.SetRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

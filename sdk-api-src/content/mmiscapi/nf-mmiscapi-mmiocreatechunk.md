@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioCreateChunk
 title: mmioCreateChunk function (mmiscapi.h)
-
 description: The mmioCreateChunk function creates a chunk in a RIFF file that was opened by using the mmioOpen function.
 old-location: multimedia\mmiocreatechunk.htm
 tech.root: Multimedia
 ms.assetid: 45b03f8c-1b79-4004-b5e1-e739138375c2
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioCreateChunk, mmioCreateChunk, mmioCreateChunk function [Windows Multimedia], mmsystem/mmioCreateChunk, multimedia.mmiocreatechunk"
+ms.keywords: _win32_mmioCreateChunk, mmioCreateChunk, mmioCreateChunk function [Windows Multimedia], mmsystem/mmioCreateChunk, multimedia.mmiocreatechunk
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioCreateChunk"
+f1_keywords:
+- mmiscapi/mmioCreateChunk
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioCreateChunk
+- mmioCreateChunk
 targetos: Windows
 req.typenames: 
 req.redist: 

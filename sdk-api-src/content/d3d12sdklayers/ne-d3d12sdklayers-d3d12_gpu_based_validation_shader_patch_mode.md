@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12sdklayers.D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 title: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE (d3d12sdklayers.h)
-
 description: Specifies the type of shader patching used by GPU-Based Validation at either the device or command list level.
 old-location: direct3d12\d3d12_gpu_based_validation_shader_patch_mode.htm
 tech.root: direct3d12
 ms.assetid: A7E7D1E5-8547-4898-B139-EF909D8B5630
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE enumeration, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_GUARDED_VALIDATION, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY, D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_UNGUARDED_VALIDATION, NUM_D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODES, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_GUARDED_VALIDATION, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY, d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_UNGUARDED_VALIDATION, d3d12sdklayers/NUM_D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODES, direct3d12.d3d12_gpu_based_validation_shader_patch_mode
 ms.topic: enum
-f1_keywords: 
- - "d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE"
+f1_keywords:
+- d3d12sdklayers/D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
+- D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 targetos: Windows
 req.typenames: D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE
 req.redist: 

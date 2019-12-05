@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.PushCopyOfStorageFilter
 title: ID3D11InfoQueue::PushCopyOfStorageFilter (d3d11sdklayers.h)
-
 description: Push a copy of storage filter currently on the top of the storage-filter stack onto the storage-filter stack.
 old-location: direct3d11\id3d11infoqueue_pushcopyofstoragefilter.htm
 tech.root: direct3d11
 ms.assetid: 4538fecb-1cb6-443b-b1fe-b0e506fbecb2
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11InfoQueue interface [Direct3D 11],PushCopyOfStorageFilter method, ID3D11InfoQueue.PushCopyOfStorageFilter, ID3D11InfoQueue::PushCopyOfStorageFilter, PushCopyOfStorageFilter, PushCopyOfStorageFilter method [Direct3D 11], PushCopyOfStorageFilter method [Direct3D 11],ID3D11InfoQueue interface, bb555de6-9be8-e564-7126-0e904dc8b4d4, d3d11sdklayers/ID3D11InfoQueue::PushCopyOfStorageFilter, direct3d11.id3d11infoqueue_pushcopyofstoragefilter
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11InfoQueue.PushCopyOfStorageFilter"
+f1_keywords:
+- d3d11sdklayers/ID3D11InfoQueue.PushCopyOfStorageFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11InfoQueue.PushCopyOfStorageFilter
+- ID3D11InfoQueue.PushCopyOfStorageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

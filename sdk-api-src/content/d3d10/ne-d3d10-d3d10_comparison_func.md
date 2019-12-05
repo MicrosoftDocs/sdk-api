@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_COMPARISON_FUNC
 title: D3D10_COMPARISON_FUNC (d3d10.h)
-
 description: Comparison options.
 old-location: direct3d10\d3d10_comparison_func.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_comparison_func.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5efee8e5-417a-75e5-2f53-291d2450fa5f, D3D10_COMPARISON_ALWAYS, D3D10_COMPARISON_EQUAL, D3D10_COMPARISON_FUNC, D3D10_COMPARISON_FUNC enumeration [Direct3D 10], D3D10_COMPARISON_GREATER, D3D10_COMPARISON_GREATER_EQUAL, D3D10_COMPARISON_LESS, D3D10_COMPARISON_LESS_EQUAL, D3D10_COMPARISON_NEVER, D3D10_COMPARISON_NOT_EQUAL, d3d10/D3D10_COMPARISON_ALWAYS, d3d10/D3D10_COMPARISON_EQUAL, d3d10/D3D10_COMPARISON_FUNC, d3d10/D3D10_COMPARISON_GREATER, d3d10/D3D10_COMPARISON_GREATER_EQUAL, d3d10/D3D10_COMPARISON_LESS, d3d10/D3D10_COMPARISON_LESS_EQUAL, d3d10/D3D10_COMPARISON_NEVER, d3d10/D3D10_COMPARISON_NOT_EQUAL, direct3d10.d3d10_comparison_func
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_COMPARISON_FUNC"
+f1_keywords:
+- d3d10/D3D10_COMPARISON_FUNC
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_COMPARISON_FUNC
+- D3D10_COMPARISON_FUNC
 targetos: Windows
 req.typenames: D3D10_COMPARISON_FUNC
 req.redist: 

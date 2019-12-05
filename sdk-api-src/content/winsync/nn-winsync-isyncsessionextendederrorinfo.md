@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncSessionExtendedErrorInfo
 title: ISyncSessionExtendedErrorInfo (winsync.h)
-
 description: Represents information about which provider caused synchronization to fail.
 old-location: winsync\isyncsessionextendederrorinfo.htm
 tech.root: winsync
 ms.assetid: 0c6f90af-f4ca-4fa9-8050-acc61b4ee8d2
-
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionExtendedErrorInfo, ISyncSessionExtendedErrorInfo interface [Windows Sync], ISyncSessionExtendedErrorInfo interface [Windows Sync],described, winsync.isyncsessionextendederrorinfo, winsync/ISyncSessionExtendedErrorInfo
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncSessionExtendedErrorInfo"
+f1_keywords:
+- winsync/ISyncSessionExtendedErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncSessionExtendedErrorInfo
+- ISyncSessionExtendedErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

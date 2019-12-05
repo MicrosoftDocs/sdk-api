@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit.tagRICHEDIT_IMAGE_PARAMETERS
 title: RICHEDIT_IMAGE_PARAMETERS (richedit.h)
-
 description: Defines the attributes of an image to be inserted by the EM_INSERTIMAGE message.
 old-location: controls\richedit_image_parameters.htm
 tech.root: Controls
 ms.assetid: 9FBEB9BE-B27E-4AC6-AB39-1DBCF74AED8B
-
 ms.date: 12/05/2018
 ms.keywords: RICHEDIT_IMAGE_PARAMETERS, RICHEDIT_IMAGE_PARAMETERS structure [Windows Controls], TA_BASELINE, TA_BOTTOM, TA_TOP, controls.richedit_image_parameters, richedit/RICHEDIT_IMAGE_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "richedit/RICHEDIT_IMAGE_PARAMETERS"
+f1_keywords:
+- richedit/RICHEDIT_IMAGE_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - RICHEDIT_IMAGE_PARAMETERS
+- RICHEDIT_IMAGE_PARAMETERS
 targetos: Windows
 req.typenames: RICHEDIT_IMAGE_PARAMETERS
 req.redist: 

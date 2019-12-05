@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._put_itbLastFocus
 title: IBrowserService2::_put_itbLastFocus (shdeprecated.h)
-
 description: Deprecated. Sets the last toolbar or the last view with focus.
 old-location: shell\IBrowserService2__put_itbLastFocus.htm
 tech.root: shell
 ms.assetid: 08b67fad-1c9d-46b6-81dd-d77721448bc6
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_put_itbLastFocus method, IBrowserService2._put_itbLastFocus, IBrowserService2::_put_itbLastFocus, _put_itbLastFocus, _put_itbLastFocus method [Windows Shell], _put_itbLastFocus method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_put_itbLastFocus, shell.IBrowserService2__put_itbLastFocus, zone_IBrowserService2__put_itbLastFocus
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._put_itbLastFocus"
+f1_keywords:
+- shdeprecated/IBrowserService2._put_itbLastFocus
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._put_itbLastFocus
+- IBrowserService2._put_itbLastFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

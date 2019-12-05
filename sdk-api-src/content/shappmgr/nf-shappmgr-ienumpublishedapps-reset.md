@@ -1,19 +1,17 @@
 ---
 UID: NF:shappmgr.IEnumPublishedApps.Reset
 title: IEnumPublishedApps::Reset (shappmgr.h)
-
 description: Resets the enumeration of IPublishedApp objects to the first item.
 old-location: shell\IEnumPublishedApps_Reset.htm
 tech.root: shell
 ms.assetid: 007f6636-725a-4af5-ad3f-578f8183a088
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps interface [Windows Shell],Reset method, IEnumPublishedApps.Reset, IEnumPublishedApps::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumPublishedApps interface, inet_IEnumPublishedApps_Reset, shappmgr/IEnumPublishedApps::Reset, shell.IEnumPublishedApps_Reset
 ms.topic: method
-f1_keywords: 
- - "shappmgr/IEnumPublishedApps.Reset"
+f1_keywords:
+- shappmgr/IEnumPublishedApps.Reset
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IEnumPublishedApps.Reset
+- IEnumPublishedApps.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

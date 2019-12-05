@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbComponentGroupDescriptor
 title: IIsdbComponentGroupDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
 old-location: mstv\iisdbcomponentgroupdescriptor.htm
 tech.root: mstv
 ms.assetid: 54ba8ca6-712f-46a1-9ed1-2b20ef8539ba
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbComponentGroupDescriptor, IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies], IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbComponentGroupDescriptor, mstv.iisdbcomponentgroupdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbComponentGroupDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbComponentGroupDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbComponentGroupDescriptor
+- IIsdbComponentGroupDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

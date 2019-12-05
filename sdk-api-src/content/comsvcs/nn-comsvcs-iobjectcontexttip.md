@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IObjectContextTip
 title: IObjectContextTip (comsvcs.h)
-
 description: Retrieves properties describing the Transaction Internet Protocol (TIP) transaction context.
 old-location: cos\iobjectcontexttip.htm
 tech.root: cossdk
 ms.assetid: 2fe4de87-e7ea-4120-8e37-5a26d836fcea
-
 ms.date: 12/05/2018
 ms.keywords: IObjectContextTip, IObjectContextTip interface [COM+], IObjectContextTip interface [COM+],described, _cos_IObjectContextTip, comsvcs/IObjectContextTip, cos.iobjectcontexttip
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IObjectContextTip"
+f1_keywords:
+- comsvcs/IObjectContextTip
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextTip
+- IObjectContextTip
 targetos: Windows
 req.typenames: 
 req.redist: 

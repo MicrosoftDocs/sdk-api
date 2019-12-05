@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IBitmapData.GetStride
 title: IBitmapData::GetStride (xamlom.h)
-
 description: Gets the stride of the data. This is the length in bytes of each row of the bitmap.
 old-location: xaml_diagnostics\ibitmapdata_getstride.htm
 tech.root: xaml_diagnostics
 ms.assetid: 8D4EAB0A-1976-4A40-932C-AAE67F524B94
-
 ms.date: 12/05/2018
 ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface, IBitmapData interface,GetStride method, IBitmapData.GetStride, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
 ms.topic: method
-f1_keywords: 
- - "xamlom/IBitmapData.GetStride"
+f1_keywords:
+- xamlom/IBitmapData.GetStride
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IBitmapData.GetStride
+- IBitmapData.GetStride
 targetos: Windows
 req.typenames: 
 req.redist: 

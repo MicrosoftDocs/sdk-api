@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.RegisterHitTestTarget
 title: IDirectManipulationManager::RegisterHitTestTarget (directmanipulation.h)
-
 description: Registers a dedicated thread for hit testing.
 old-location: directmanipulation\idirectmanipulationmanager_registerhittesttarget.htm
 tech.root: directmanipulation
 ms.assetid: ba71a959-b9b9-4466-9239-f3c486f5e7b3
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationManager interface [Direct Manipulation],RegisterHitTestTarget method, IDirectManipulationManager.RegisterHitTestTarget, IDirectManipulationManager::RegisterHitTestTarget, RegisterHitTestTarget, RegisterHitTestTarget method [Direct Manipulation], RegisterHitTestTarget method [Direct Manipulation],IDirectManipulationManager interface, directmanipulation.idirectmanipulationmanager_registerhittesttarget, directmanipulation/IDirectManipulationManager::RegisterHitTestTarget
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationManager.RegisterHitTestTarget"
+f1_keywords:
+- directmanipulation/IDirectManipulationManager.RegisterHitTestTarget
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationManager.RegisterHitTestTarget
+- IDirectManipulationManager.RegisterHitTestTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

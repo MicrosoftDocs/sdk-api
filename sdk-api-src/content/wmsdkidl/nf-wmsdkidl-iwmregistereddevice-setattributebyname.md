@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.SetAttributeByName
 title: IWMRegisteredDevice::SetAttributeByName (wmsdkidl.h)
-
 description: The SetAttributeByName method sets a device attribute.
 old-location: wmformat\iwmregistereddevice_setattributebyname.htm
 tech.root: wmformat
 ms.assetid: 49562f2a-1bb5-46d7-81cc-c13b66cf691f
-
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],SetAttributeByName method, IWMRegisteredDevice.SetAttributeByName, IWMRegisteredDevice::SetAttributeByName, IWMRegisteredDeviceSetAttributeByName, SetAttributeByName, SetAttributeByName method [windows Media Format], SetAttributeByName method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_setattributebyname, wmsdkidl/IWMRegisteredDevice::SetAttributeByName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.SetAttributeByName"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.SetAttributeByName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.SetAttributeByName
+- IWMRegisteredDevice.SetAttributeByName
 targetos: Windows
 req.typenames: 
 req.redist: 

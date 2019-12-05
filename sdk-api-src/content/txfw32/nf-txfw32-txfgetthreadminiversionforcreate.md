@@ -6,14 +6,14 @@ ms.date: 4/26/2019
 ms.keywords: TxfGetThreadMiniVersionForCreate
 ms.topic: language-reference
 f1_keywords:
- - TxfGetThreadMiniVersionForCreate
+- TxfGetThreadMiniVersionForCreate
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: TxfW32.dll 
+req.dll: TxfW32.dll
 req.header: txfw32.h
 req.idl: 
 req.include-header: 
@@ -30,14 +30,14 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
- - kbSyntax
+- apiref
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - TxfW32.dll
+- TxfW32.dll
 api_name:
- - TxfGetThreadMiniVersionForCreate
+- TxfGetThreadMiniVersionForCreate
 ---
 
 ## -description

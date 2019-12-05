@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExplorerCommandState
 title: IExplorerCommandState (shobjidl_core.h)
-
 description: Exposes a single method that allows retrieval of the command state.
 old-location: shell\IExplorerCommandState.htm
 tech.root: shell
 ms.assetid: 020a6f6f-1d45-44bd-a57f-ef8000976b5b
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerCommandState, IExplorerCommandState interface [Windows Shell], IExplorerCommandState interface [Windows Shell],described, _shell_IExplorerCommandState, shell.IExplorerCommandState, shobjidl_core/IExplorerCommandState
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExplorerCommandState"
+f1_keywords:
+- shobjidl_core/IExplorerCommandState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommandState
+- IExplorerCommandState
 targetos: Windows
 req.typenames: 
 req.redist: 

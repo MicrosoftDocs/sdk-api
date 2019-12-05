@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._LUID
 title: LUID (winnt.h)
-
 description: Describes a local identifier for an adapter.
 old-location: direct3ddxgi\_luid.htm
 tech.root: direct3ddxgi
 ms.assetid: 00601551-D6CE-4164-BDAF-DBCCF197990E
-
 ms.date: 12/05/2018
-ms.keywords: "*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, winnt/LUID"
+ms.keywords: '*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, winnt/LUID'
 ms.topic: struct
-f1_keywords: 
- - "winnt/LUID"
+f1_keywords:
+- winnt/LUID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - LUID
+- LUID
 targetos: Windows
 req.typenames: LUID, *PLUID
 req.redist: 

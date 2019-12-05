@@ -1,19 +1,17 @@
 ---
 UID: NN:vsprov.IVssProviderNotifications
 title: IVssProviderNotifications (vsprov.h)
-
 description: The IVssProviderNotifications interface manages providers registered with VSS.
 old-location: base\ivssprovidernotifications.htm
 tech.root: VSS
 ms.assetid: 09324f54-8902-43d1-a4f9-967adccbf8be
-
 ms.date: 12/05/2018
 ms.keywords: IVssProviderNotifications, IVssProviderNotifications interface [VSS], IVssProviderNotifications interface [VSS],described, base.ivssprovidernotifications, vsprov/IVssProviderNotifications
 ms.topic: interface
-f1_keywords: 
- - "vsprov/IVssProviderNotifications"
+f1_keywords:
+- vsprov/IVssProviderNotifications
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsProv.h
+- VsProv.h
 api_name:
- - IVssProviderNotifications
+- IVssProviderNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

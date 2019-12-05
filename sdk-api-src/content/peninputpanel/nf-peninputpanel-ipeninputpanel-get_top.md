@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.get_Top
 title: IPenInputPanel::get_Top (peninputpanel.h)
-
 description: Deprecated. The PenInputPanel has been replaced by the Text Input Panel (TIP).Gets the vertical, or y-axis, location of the top edge of the PenInputPanel object, in screen coordinates.
 old-location: tablet\peninputpanel_top.htm
 tech.root: tablet
 ms.assetid: 718263ae-d6ba-47ec-a18b-50488480b599
-
 ms.date: 12/05/2018
 ms.keywords: 718263ae-d6ba-47ec-a18b-50488480b599, Get_Top, IPenInputPanel interface [Tablet PC],Top property, IPenInputPanel.Top, IPenInputPanel.get_Top, IPenInputPanel::Top, IPenInputPanel::get_Top, PenInputPanel.get_Top, Top property [Tablet PC], Top property [Tablet PC],IPenInputPanel interface, get_Top, peninputpanel/IPenInputPanel::Top, peninputpanel/IPenInputPanel::get_Top, tablet.peninputpanel_top
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/IPenInputPanel.Top"
+f1_keywords:
+- peninputpanel/IPenInputPanel.Top
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IPenInputPanel.Top
- - IPenInputPanel.get_Top
- - PenInputPanel.get_Top
+- IPenInputPanel.Top
+- IPenInputPanel.get_Top
+- PenInputPanel.get_Top
 targetos: Windows
 req.typenames: 
 req.redist: 

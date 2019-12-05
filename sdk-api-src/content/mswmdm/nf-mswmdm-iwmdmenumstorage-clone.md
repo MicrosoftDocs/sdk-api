@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Clone
 title: IWMDMEnumStorage::Clone (mswmdm.h)
-
 description: The Clone method creates another enumerator with the same enumeration state as the current enumerator.
 old-location: wmdm\iwmdmenumstorage_clone.htm
 tech.root: WMDM
 ms.assetid: 3b4bc213-8345-45ae-90bd-49e89684fd9a
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IWMDMEnumStorage interface, IWMDMEnumStorage interface [windows Media Device Manager],Clone method, IWMDMEnumStorage.Clone, IWMDMEnumStorage::Clone, IWMDMEnumStorageClone, mswmdm/IWMDMEnumStorage::Clone, wmdm.iwmdmenumstorage_clone
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMEnumStorage.Clone"
+f1_keywords:
+- mswmdm/IWMDMEnumStorage.Clone
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMEnumStorage.Clone
+- IWMDMEnumStorage.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

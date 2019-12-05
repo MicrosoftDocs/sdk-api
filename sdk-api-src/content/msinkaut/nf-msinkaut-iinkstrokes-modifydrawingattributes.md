@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.ModifyDrawingAttributes
 title: IInkStrokes::ModifyDrawingAttributes (msinkaut.h)
-
 description: Sets the drawing attributes of all of the strokes in an InkStrokes collection.
 old-location: tablet\inkstrokes_modifydrawingattributes.htm
 tech.root: tablet
 ms.assetid: b249edd9-dfa4-4538-9764-a4365f9df527
-
 ms.date: 12/05/2018
 ms.keywords: IInkStrokes interface [Tablet PC],ModifyDrawingAttributes method, IInkStrokes.ModifyDrawingAttributes, IInkStrokes::ModifyDrawingAttributes, ModifyDrawingAttributes, ModifyDrawingAttributes method [Tablet PC], ModifyDrawingAttributes method [Tablet PC],IInkStrokes interface, b249edd9-dfa4-4538-9764-a4365f9df527, msinkaut/IInkStrokes::ModifyDrawingAttributes, tablet.inkstrokes_modifydrawingattributes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.ModifyDrawingAttributes"
+f1_keywords:
+- msinkaut/IInkStrokes.ModifyDrawingAttributes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.ModifyDrawingAttributes
+- IInkStrokes.ModifyDrawingAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

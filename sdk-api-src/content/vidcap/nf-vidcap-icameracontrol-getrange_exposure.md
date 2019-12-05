@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_Exposure
 title: ICameraControl::getRange_Exposure (vidcap.h)
-
 description: The getRange_Exposure method returns the range of exposure times supported by the camera.
 old-location: dshow\icameracontrol_getrange_exposure.htm
 tech.root: DirectShow
 ms.assetid: 42e74ae3-6a07-47c8-8e6a-daf2cb32328c
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],getRange_Exposure method, ICameraControl.getRange_Exposure, ICameraControl::getRange_Exposure, ICameraControlgetRange_Exposure, dshow.icameracontrol_getrange_exposure, getRange_Exposure, getRange_Exposure method [DirectShow], getRange_Exposure method [DirectShow],ICameraControl interface, vidcap/ICameraControl::getRange_Exposure
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.getRange_Exposure"
+f1_keywords:
+- vidcap/ICameraControl.getRange_Exposure
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.getRange_Exposure
+- ICameraControl.getRange_Exposure
 targetos: Windows
 req.typenames: 
 req.redist: 

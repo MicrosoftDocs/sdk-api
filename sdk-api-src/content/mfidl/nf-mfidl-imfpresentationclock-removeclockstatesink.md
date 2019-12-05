@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationClock.RemoveClockStateSink
 title: IMFPresentationClock::RemoveClockStateSink (mfidl.h)
-
 description: Unregisters an object that is receiving state-change notifications from the clock.
 old-location: mf\imfpresentationclock_removeclockstatesink.htm
 tech.root: medfound
 ms.assetid: c037183d-a81f-4f49-9e02-06dc2476471f
-
 ms.date: 12/05/2018
 ms.keywords: IMFPresentationClock interface [Media Foundation],RemoveClockStateSink method, IMFPresentationClock.RemoveClockStateSink, IMFPresentationClock::RemoveClockStateSink, RemoveClockStateSink, RemoveClockStateSink method [Media Foundation], RemoveClockStateSink method [Media Foundation],IMFPresentationClock interface, c037183d-a81f-4f49-9e02-06dc2476471f, mf.imfpresentationclock_removeclockstatesink, mfidl/IMFPresentationClock::RemoveClockStateSink
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationClock.RemoveClockStateSink"
+f1_keywords:
+- mfidl/IMFPresentationClock.RemoveClockStateSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationClock.RemoveClockStateSink
+- IMFPresentationClock.RemoveClockStateSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_controls
 title: IWMPCore::get_controls (wmp.h)
-
 description: The get_controls method retrieves a pointer to an IWMPControls interface.
 old-location: wmp\iwmpcore_get_controls.htm
 tech.root: WMP
 ms.assetid: 54d013f1-d71b-4b6a-90b4-0226022a2a0f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_controls method, IWMPCore.get_controls, IWMPCore::get_controls, IWMPCoreget_controls, get_controls, get_controls method [Windows Media Player], get_controls method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_controls, wmp/IWMPCore::get_controls
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_controls"
+f1_keywords:
+- wmp/IWMPCore.get_controls
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_controls
+- IWMPCore.get_controls
 targetos: Windows
 req.typenames: 
 req.redist: 

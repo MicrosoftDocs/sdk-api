@@ -1,19 +1,17 @@
 ---
 UID: NF:objbase.CreateClassMoniker
 title: CreateClassMoniker function (objbase.h)
-
 description: Creates a class moniker that refers to the specified class.
 old-location: com\createclassmoniker.htm
 tech.root: com
 ms.assetid: 9361b2c1-ef26-4225-92ff-e0bef0285bc4
-
 ms.date: 12/05/2018
 ms.keywords: CreateClassMoniker, CreateClassMoniker function [COM], _com_CreateClassMoniker, com.createclassmoniker, objbase/CreateClassMoniker
 ms.topic: function
-f1_keywords: 
- - "objbase/CreateClassMoniker"
+f1_keywords:
+- objbase/CreateClassMoniker
 dev_langs:
- - c++
+- c++
 req.header: objbase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - CreateClassMoniker
+- CreateClassMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

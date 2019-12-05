@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromCy
 title: VarR8FromCy function (oleauto.h)
-
 description: Converts a currency value to a double value.
 old-location: automat\varr8fromcy.htm
 tech.root: automat
 ms.assetid: 568d0798-8e91-4bb2-a650-9c51ec4568c9
-
 ms.date: 12/05/2018
 ms.keywords: VarR8FromCy, VarR8FromCy function [Automation], _oa96_VarR8FromCy, automat.varr8fromcy, oleauto/VarR8FromCy
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromCy"
+f1_keywords:
+- oleauto/VarR8FromCy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromCy
+- VarR8FromCy
 targetos: Windows
 req.typenames: 
 req.redist: 

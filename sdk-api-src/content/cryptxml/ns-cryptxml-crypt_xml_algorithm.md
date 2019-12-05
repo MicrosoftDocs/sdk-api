@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ALGORITHM
 title: CRYPT_XML_ALGORITHM (cryptxml.h)
-
 description: Specifies the algorithm used to sign or transform the message.
 old-location: security\crypt_xml_algorithm.htm
 tech.root: SecCrypto
 ms.assetid: 4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM structure [Security], PCRYPT_XML_ALGORITHM, PCRYPT_XML_ALGORITHM structure pointer [Security], cryptxml/CRYPT_XML_ALGORITHM, cryptxml/PCRYPT_XML_ALGORITHM, security.crypt_xml_algorithm"
+ms.keywords: '*PCRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM, CRYPT_XML_ALGORITHM structure [Security], PCRYPT_XML_ALGORITHM, PCRYPT_XML_ALGORITHM structure pointer [Security], cryptxml/CRYPT_XML_ALGORITHM, cryptxml/PCRYPT_XML_ALGORITHM, security.crypt_xml_algorithm'
 ms.topic: struct
-f1_keywords: 
- - "cryptxml/CRYPT_XML_ALGORITHM"
+f1_keywords:
+- cryptxml/CRYPT_XML_ALGORITHM
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cryptxml.h
+- Cryptxml.h
 api_name:
- - CRYPT_XML_ALGORITHM
+- CRYPT_XML_ALGORITHM
 targetos: Windows
 req.typenames: CRYPT_XML_ALGORITHM, *PCRYPT_XML_ALGORITHM
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICryptAttributes.Remove
 title: ICryptAttributes::Remove (certenroll.h)
-
 description: Removes an ICryptAttribute object from the collection by index number.
 old-location: security\icryptattributes_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 6e5767e0-41e8-4081-a814-263397a9faf9
-
 ms.date: 12/05/2018
 ms.keywords: ICryptAttributes interface [Security],Remove method, ICryptAttributes.Remove, ICryptAttributes::Remove, Remove, Remove method [Security], Remove method [Security],ICryptAttributes interface, certenroll/ICryptAttributes::Remove, security.icryptattributes_remove_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICryptAttributes.Remove"
+f1_keywords:
+- certenroll/ICryptAttributes.Remove
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICryptAttributes.Remove
+- ICryptAttributes.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

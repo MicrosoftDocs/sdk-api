@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnPropertyItemCommit
 title: INameSpaceTreeControlEvents::OnPropertyItemCommit (shobjidl.h)
-
 description: Not implemented.
 old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm
 tech.root: shell
 ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnPropertyItemCommit method, INameSpaceTreeControlEvents.OnPropertyItemCommit, INameSpaceTreeControlEvents::OnPropertyItemCommit, OnPropertyItemCommit, OnPropertyItemCommit method [Windows Shell], OnPropertyItemCommit method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnPropertyItemCommit, shell.INameSpaceTreeControlEvents_OnPropertyItemCommit, shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnPropertyItemCommit"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnPropertyItemCommit
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnPropertyItemCommit
+- INameSpaceTreeControlEvents.OnPropertyItemCommit
 targetos: Windows
 req.typenames: 
 req.redist: 

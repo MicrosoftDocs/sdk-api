@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawNatureOfActivationTextLen
 title: ISCTE_EAS::GetRawNatureOfActivationTextLen (atscpsipparser.h)
-
 description: Gets the length of the nature_of_activation_text field.
 old-location: mstv\iscte_eas_getrawnatureofactivationtextlen.htm
 tech.root: mstv
 ms.assetid: a7f93884-d8a9-449b-afc2-b2ccbd0d2492
-
 ms.date: 12/05/2018
 ms.keywords: GetRawNatureOfActivationTextLen, GetRawNatureOfActivationTextLen method [Microsoft TV Technologies], GetRawNatureOfActivationTextLen method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetRawNatureOfActivationTextLen method, ISCTE_EAS.GetRawNatureOfActivationTextLen, ISCTE_EAS::GetRawNatureOfActivationTextLen, atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationTextLen, mstv.iscte_eas_getrawnatureofactivationtextlen
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationTextLen"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetRawNatureOfActivationTextLen
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetRawNatureOfActivationTextLen
+- ISCTE_EAS.GetRawNatureOfActivationTextLen
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Add
 title: INetFwAuthorizedApplications::Add (netfw.h)
-
 description: The Add method adds a new application to the collection.
 old-location: ics\inetfwauthorizedapplications_add.htm
 tech.root: ics
 ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ICS/ICF], Add method [ICS/ICF],INetFwAuthorizedApplications interface, INetFwAuthorizedApplications interface [ICS/ICF],Add method, INetFwAuthorizedApplications.Add, INetFwAuthorizedApplications::Add, ics.inetfwauthorizedapplications_add, netfw/INetFwAuthorizedApplications::Add
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplications.Add"
+f1_keywords:
+- netfw/INetFwAuthorizedApplications.Add
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplications.Add
+- INetFwAuthorizedApplications.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

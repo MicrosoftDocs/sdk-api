@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocationReport.GetSensorID
 title: ILocationReport::GetSensorID (locationapi.h)
-
 description: Retrieves the ID of the sensor that generated the location report.
 old-location: winlocation_com_ref\ilocationreport_getsensorid.htm
 tech.root: locationapi
 ms.assetid: c75b2ce3-8c60-4e26-870f-2bec599ea3b8
-
 ms.date: 12/05/2018
 ms.keywords: GetSensorID, GetSensorID method [WinLocation], GetSensorID method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetSensorID method, ILocationReport.GetSensorID, ILocationReport::GetSensorID, WinLocation_COM_Ref.ilocationreport_getsensorid, locationapi/ILocationReport::GetSensorID
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocationReport.GetSensorID"
+f1_keywords:
+- locationapi/ILocationReport.GetSensorID
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocationReport.GetSensorID
+- ILocationReport.GetSensorID
 targetos: Windows
 req.typenames: 
 req.redist: 

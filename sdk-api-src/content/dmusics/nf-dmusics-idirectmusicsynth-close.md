@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Close
 title: IDirectMusicSynth::Close (dmusics.h)
-
 description: The Close method closes a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.
 old-location: audio\idirectmusicsynth_close.htm
 tech.root: audio
 ms.assetid: 275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Audio Devices], Close method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Close method, IDirectMusicSynth.Close, IDirectMusicSynth::Close, audio.idirectmusicsynth_close, audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml, dmusics/IDirectMusicSynth::Close
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth.Close"
+f1_keywords:
+- dmusics/IDirectMusicSynth.Close
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth.Close
+- IDirectMusicSynth.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

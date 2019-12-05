@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_EnsureVisible
 title: ListView_EnsureVisible macro (commctrl.h)
-
 description: Ensures that a list-view item is either entirely or partially visible, scrolling the list-view control if necessary. You can use this macro or send the LVM_ENSUREVISIBLE message explicitly.
 old-location: controls\ListView_EnsureVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_ensurevisible.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_EnsureVisible, ListView_EnsureVisible macro [Windows Controls], _win32_ListView_EnsureVisible, _win32_ListView_EnsureVisible_cpp, commctrl/ListView_EnsureVisible, controls.ListView_EnsureVisible, controls._win32_ListView_EnsureVisible
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_EnsureVisible"
+f1_keywords:
+- commctrl/ListView_EnsureVisible
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_EnsureVisible
+- ListView_EnsureVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

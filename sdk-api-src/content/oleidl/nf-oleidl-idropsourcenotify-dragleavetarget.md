@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IDropSourceNotify.DragLeaveTarget
 title: IDropSourceNotify::DragLeaveTarget (oleidl.h)
-
 description: OLE calls this method when the user drags the mouse cursor out of a potential drop target window.
 old-location: com\idropsourcenotify_dragleavetarget.htm
 tech.root: com
 ms.assetid: 6267db46-92ce-43b8-8e3f-ffd7d2b8a2e8
-
 ms.date: 12/05/2018
 ms.keywords: DragLeaveTarget, DragLeaveTarget method [COM], DragLeaveTarget method [COM],IDropSourceNotify interface, IDropSourceNotify interface [COM],DragLeaveTarget method, IDropSourceNotify.DragLeaveTarget, IDropSourceNotify::DragLeaveTarget, _ole_idropsourcenotify_dragleavetarget, com.idropsourcenotify_dragleavetarget, oleidl/IDropSourceNotify::DragLeaveTarget
 ms.topic: method
-f1_keywords: 
- - "oleidl/IDropSourceNotify.DragLeaveTarget"
+f1_keywords:
+- oleidl/IDropSourceNotify.DragLeaveTarget
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IDropSourceNotify.DragLeaveTarget
+- IDropSourceNotify.DragLeaveTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

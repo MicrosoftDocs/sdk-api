@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_connection_flags_tag
 title: PEER_CONNECTION_FLAGS (p2p.h)
-
 description: The PEER_CONNECTION_FLAGS enumeration specifies the types of connections that a peer can have.
 old-location: p2p\peer_connection_flags.htm
 tech.root: P2PSdk
 ms.assetid: 24723421-18e4-4333-8c25-f5ee08182f7f
-
 ms.date: 12/05/2018
 ms.keywords: PEER_CONNECTION_DIRECT, PEER_CONNECTION_FLAGS, PEER_CONNECTION_FLAGS enumeration [Peer Networking], PEER_CONNECTION_NEIGHBOR, p2p.peer_connection_flags, p2p/PEER_CONNECTION_DIRECT, p2p/PEER_CONNECTION_FLAGS, p2p/PEER_CONNECTION_NEIGHBOR
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_CONNECTION_FLAGS"
+f1_keywords:
+- p2p/PEER_CONNECTION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_CONNECTION_FLAGS
+- PEER_CONNECTION_FLAGS
 targetos: Windows
 req.typenames: PEER_CONNECTION_FLAGS
 req.redist: 

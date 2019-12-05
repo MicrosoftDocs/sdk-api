@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendCdmaPdu
 title: IMbnSms::SmsSendCdmaPdu (mbnapi.h)
-
 description: Sends a message in CDMA binary format.
 old-location: mbn\imbnsms_smssendcdmapdu.htm
 tech.root: mbn
 ms.assetid: 8bc0cad6-dee3-4325-b5e9-397bbd346a87
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSms interface [Microsoft Broadband Networks],SmsSendCdmaPdu method, IMbnSms.SmsSendCdmaPdu, IMbnSms::SmsSendCdmaPdu, SmsSendCdmaPdu, SmsSendCdmaPdu method [Microsoft Broadband Networks], SmsSendCdmaPdu method [Microsoft Broadband Networks],IMbnSms interface, mbn.imbnsms_smssendcdmapdu, mbnapi/IMbnSms::SmsSendCdmaPdu
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSms.SmsSendCdmaPdu"
+f1_keywords:
+- mbnapi/IMbnSms.SmsSendCdmaPdu
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSms.SmsSendCdmaPdu
+- IMbnSms.SmsSendCdmaPdu
 targetos: Windows
 req.typenames: 
 req.redist: 

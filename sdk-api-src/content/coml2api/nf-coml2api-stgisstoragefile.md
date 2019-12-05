@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgIsStorageFile
 title: StgIsStorageFile function (coml2api.h)
-
 description: The StgIsStorageFile function indicates whether a particular disk file contains a storage object.
 old-location: stg\stgisstoragefile.htm
 tech.root: Stg
 ms.assetid: 6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc
-
 ms.date: 12/05/2018
 ms.keywords: StgIsStorageFile, StgIsStorageFile function [Structured Storage], _stg_stgisstoragefile, coml2api/StgIsStorageFile, stg.stgisstoragefile
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgIsStorageFile"
+f1_keywords:
+- coml2api/StgIsStorageFile
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - StgIsStorageFile
+- StgIsStorageFile
 targetos: Windows
 req.typenames: 
 req.redist: 

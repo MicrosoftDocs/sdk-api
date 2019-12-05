@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreatePMPMediaSession
 title: MFCreatePMPMediaSession function (mfidl.h)
-
 description: Creates an instance of the Media Session inside a Protected Media Path (PMP) process.
 old-location: mf\mfcreatepmpmediasession.htm
 tech.root: medfound
 ms.assetid: cb492e68-3d8a-49b2-8c0b-bee8065b53a8
-
 ms.date: 12/05/2018
 ms.keywords: MFCreatePMPMediaSession, MFCreatePMPMediaSession function [Media Foundation], cb492e68-3d8a-49b2-8c0b-bee8065b53a8, mf.mfcreatepmpmediasession, mfidl/MFCreatePMPMediaSession
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreatePMPMediaSession"
+f1_keywords:
+- mfidl/MFCreatePMPMediaSession
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreatePMPMediaSession
+- MFCreatePMPMediaSession
 targetos: Windows
 req.typenames: 
 req.redist: 

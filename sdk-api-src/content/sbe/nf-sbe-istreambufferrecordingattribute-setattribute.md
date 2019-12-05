@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.SetAttribute
 title: IStreamBufferRecordingAttribute::SetAttribute (sbe.h)
-
 description: The SetAttribute method sets an attribute on the stream buffer file.
 old-location: mstv\istreambufferrecordingattribute_setattribute.htm
 tech.root: mstv
 ms.assetid: cc441a00-e98f-4ea7-b902-d74846fc93cc
-
 ms.date: 12/05/2018
 ms.keywords: IStreamBufferRecordingAttribute interface [Microsoft TV Technologies],SetAttribute method, IStreamBufferRecordingAttribute.SetAttribute, IStreamBufferRecordingAttribute::SetAttribute, IStreamBufferRecordingAttributeSetAttribute, SetAttribute, SetAttribute method [Microsoft TV Technologies], SetAttribute method [Microsoft TV Technologies],IStreamBufferRecordingAttribute interface, mstv.istreambufferrecordingattribute_setattribute, sbe/IStreamBufferRecordingAttribute::SetAttribute
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferRecordingAttribute.SetAttribute"
+f1_keywords:
+- sbe/IStreamBufferRecordingAttribute.SetAttribute
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute.SetAttribute
+- IStreamBufferRecordingAttribute.SetAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

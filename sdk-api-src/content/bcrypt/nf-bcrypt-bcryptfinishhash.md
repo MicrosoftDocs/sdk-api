@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptFinishHash
 title: BCryptFinishHash function (bcrypt.h)
-
 description: Retrieves the hash or Message Authentication Code (MAC) value for the data accumulated from prior calls to BCryptHashData.
 old-location: security\bcryptfinishhash_func.htm
 tech.root: SecCNG
 ms.assetid: 82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd
-
 ms.date: 12/05/2018
 ms.keywords: BCryptFinishHash, BCryptFinishHash function [Security], bcrypt/BCryptFinishHash, security.bcryptfinishhash_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptFinishHash"
+f1_keywords:
+- bcrypt/BCryptFinishHash
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptFinishHash
+- BCryptFinishHash
 targetos: Windows
 req.typenames: 
 req.redist: 

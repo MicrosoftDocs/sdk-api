@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
 title: IUIAutomationRangeValuePattern::get_CurrentIsReadOnly (uiautomationclient.h)
-
 description: Indicates whether the value of the element can be changed.
 old-location: winauto\uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly.htm
 tech.root: WinAuto
 ms.assetid: 0c3561b0-3739-463c-8856-84d1ab565506
-
 ms.date: 12/05/2018
 ms.keywords: CurrentIsReadOnly property [Windows Accessibility], CurrentIsReadOnly property [Windows Accessibility],IUIAutomationRangeValuePattern interface, IUIAutomationRangeValuePattern interface [Windows Accessibility],CurrentIsReadOnly property, IUIAutomationRangeValuePattern.CurrentIsReadOnly, IUIAutomationRangeValuePattern.get_CurrentIsReadOnly, IUIAutomationRangeValuePattern::CurrentIsReadOnly, IUIAutomationRangeValuePattern::get_CurrentIsReadOnly, get_CurrentIsReadOnly, uiauto.uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly, uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::CurrentIsReadOnly, uiautomationclient/IUIAutomationRangeValuePattern::get_CurrentIsReadOnly, winauto.uiauto_IUIAutomationRangeValuePattern_CurrentIsReadOnly
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationRangeValuePattern.CurrentIsReadOnly"
+f1_keywords:
+- uiautomationclient/IUIAutomationRangeValuePattern.CurrentIsReadOnly
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern.CurrentIsReadOnly
- - IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
+- IUIAutomationRangeValuePattern.CurrentIsReadOnly
+- IUIAutomationRangeValuePattern.get_CurrentIsReadOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

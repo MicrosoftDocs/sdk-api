@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_UTF8_TEXT
 title: WS_XML_UTF8_TEXT (webservices.h)
-
 description: Represents text encoded as UTF-8 bytes.
 old-location: wsw\ws_xml_utf8_text.htm
 tech.root: wsw
 ms.assetid: 5b3c44bc-a06e-4990-90f4-344def852ca9
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_UTF8_TEXT, WS_XML_UTF8_TEXT structure [Web Services for Windows], webservices/WS_XML_UTF8_TEXT, wsw.ws_xml_utf8_text
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_UTF8_TEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

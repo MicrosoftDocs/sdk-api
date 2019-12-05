@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.AddNewHardware
 title: IDirectInputJoyConfig8::AddNewHardware (dinputd.h)
-
 description: The IDirectInputJoyConfig8::AddNewHardware method displays the Add New Hardware dialog box which guides the user through installing a new input device.
 old-location: hid\idirectinputjoyconfig8_addnewhardware.htm
 tech.root: hid
 ms.assetid: 25a00f6a-7971-4d35-a888-ad80159d0e05
-
 ms.date: 12/05/2018
 ms.keywords: AddNewHardware, AddNewHardware method [Human Input Devices], AddNewHardware method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],AddNewHardware method, IDirectInputJoyConfig8.AddNewHardware, IDirectInputJoyConfig8::AddNewHardware, di_ref_88ea414c-9d33-4669-8f5b-b14c2d0089ef.xml, dinputd/IDirectInputJoyConfig8::AddNewHardware, hid.idirectinputjoyconfig8_addnewhardware
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.AddNewHardware"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.AddNewHardware
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.AddNewHardware
+- IDirectInputJoyConfig8.AddNewHardware
 targetos: Windows
 req.typenames: 
 req.redist: 

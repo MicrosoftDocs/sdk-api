@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.GetRenderingMode
 title: IVMRFilterConfig::GetRenderingMode (strmif.h)
-
 description: The GetRenderingMode method retrieves the rendering mode currently being used by the VMR.
 old-location: dshow\ivmrfilterconfig_getrenderingmode.htm
 tech.root: DirectShow
 ms.assetid: 139b0326-2ab1-4fa4-91ae-9115b4368660
-
 ms.date: 12/05/2018
 ms.keywords: GetRenderingMode, GetRenderingMode method [DirectShow], GetRenderingMode method [DirectShow],IVMRFilterConfig interface, IVMRFilterConfig interface [DirectShow],GetRenderingMode method, IVMRFilterConfig.GetRenderingMode, IVMRFilterConfig::GetRenderingMode, IVMRFilterConfigGetRenderingMode, dshow.ivmrfilterconfig_getrenderingmode, strmif/IVMRFilterConfig::GetRenderingMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRFilterConfig.GetRenderingMode"
+f1_keywords:
+- strmif/IVMRFilterConfig.GetRenderingMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRFilterConfig.GetRenderingMode
+- IVMRFilterConfig.GetRenderingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

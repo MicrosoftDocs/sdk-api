@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.SendScsiReportLuns
 title: SendScsiReportLuns function (iscsidsc.h)
-
 description: SendScsiReportLuns function sends a SCSI REPORT LUNS command to a specified target.
 old-location: iscsidisc\sendscsireportluns.htm
 tech.root: iSCSIDisc
 ms.assetid: 0898daf0-67ae-47a4-90bf-2112b6e6b20c
-
 ms.date: 12/05/2018
 ms.keywords: SendScsiReportLuns, SendScsiReportLuns function [iSCSI Discovery Library API], iscsidisc.sendscsireportluns, iscsidsc/SendScsiReportLuns
 ms.topic: function
 f1_keywords:
 - iscsidsc/SendScsiReportLuns
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows

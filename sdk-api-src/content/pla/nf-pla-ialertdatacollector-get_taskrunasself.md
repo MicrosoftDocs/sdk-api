@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_TaskRunAsSelf
 title: IAlertDataCollector::get_TaskRunAsSelf (pla.h)
-
 description: Retrieves or sets a value that determines whether the task runs as the data collector set user or as the user specified in the task.
 old-location: pla\ialertdatacollector_taskrunasself.htm
 tech.root: PLA
 ms.assetid: 2fb36767-5471-4015-a236-23dcc15a38d1
-
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],TaskRunAsSelf property, IAlertDataCollector.TaskRunAsSelf, IAlertDataCollector.get_TaskRunAsSelf, IAlertDataCollector::TaskRunAsSelf, IAlertDataCollector::get_TaskRunAsSelf, IAlertDataCollector::put_TaskRunAsSelf, TaskRunAsSelf property [PLA], TaskRunAsSelf property [PLA],IAlertDataCollector interface, get_TaskRunAsSelf, pla.ialertdatacollector_taskrunasself, pla/IAlertDataCollector::TaskRunAsSelf, pla/IAlertDataCollector::get_TaskRunAsSelf, pla/IAlertDataCollector::put_TaskRunAsSelf
 ms.topic: method
-f1_keywords: 
- - "pla/IAlertDataCollector.TaskRunAsSelf"
+f1_keywords:
+- pla/IAlertDataCollector.TaskRunAsSelf
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IAlertDataCollector.TaskRunAsSelf
- - IAlertDataCollector.get_TaskRunAsSelf
- - IAlertDataCollector.put_TaskRunAsSelf
+- IAlertDataCollector.TaskRunAsSelf
+- IAlertDataCollector.get_TaskRunAsSelf
+- IAlertDataCollector.put_TaskRunAsSelf
 targetos: Windows
 req.typenames: 
 req.redist: 

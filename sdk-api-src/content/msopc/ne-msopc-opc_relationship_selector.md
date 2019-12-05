@@ -1,19 +1,17 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0002
 title: OPC_RELATIONSHIP_SELECTOR (msopc.h)
-
 description: Describes how to interpret the selectionCriterion parameter of the IOpcRelationshipSelector::GetSelectionCriterion method.
 old-location: opc\opc_relationship_selector.htm
 tech.root: OPC
 ms.assetid: 5532aab1-850e-4de8-a470-c55fb4c2f8c4
-
 ms.date: 12/05/2018
 ms.keywords: OPC_RELATIONSHIP_SELECTOR, OPC_RELATIONSHIP_SELECTOR enumeration [Open Packaging Conventions], OPC_RELATIONSHIP_SELECT_BY_ID, OPC_RELATIONSHIP_SELECT_BY_TYPE, msopc/OPC_RELATIONSHIP_SELECTOR, msopc/OPC_RELATIONSHIP_SELECT_BY_ID, msopc/OPC_RELATIONSHIP_SELECT_BY_TYPE, opc.opc_relationship_selector
 ms.topic: enum
-f1_keywords: 
- - "msopc/OPC_RELATIONSHIP_SELECTOR"
+f1_keywords:
+- msopc/OPC_RELATIONSHIP_SELECTOR
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - OPC_RELATIONSHIP_SELECTOR
+- OPC_RELATIONSHIP_SELECTOR
 targetos: Windows
 req.typenames: OPC_RELATIONSHIP_SELECTOR
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateGlyphRunAnalysis
 title: IDWriteFactory3::CreateGlyphRunAnalysis (dwrite_3.h)
-
 description: Creates a glyph-run-analysis object that encapsulates info that DirectWrite uses to render a glyph run.
 old-location: directwrite\idwritefactory3_createglyphrunanalysis.htm
 tech.root: DirectWrite
 ms.assetid: 5BF8BA9C-F07F-43F0-B712-71220E6535A5
-
 ms.date: 12/05/2018
 ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write], CreateGlyphRunAnalysis method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateGlyphRunAnalysis method, IDWriteFactory3.CreateGlyphRunAnalysis, IDWriteFactory3::CreateGlyphRunAnalysis, directwrite.idwritefactory3_createglyphrunanalysis, dwrite_3/IDWriteFactory3::CreateGlyphRunAnalysis
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory3.CreateGlyphRunAnalysis"
+f1_keywords:
+- dwrite_3/IDWriteFactory3.CreateGlyphRunAnalysis
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory3.CreateGlyphRunAnalysis
+- IDWriteFactory3.CreateGlyphRunAnalysis
 targetos: Windows
 req.typenames: 
 req.redist: 

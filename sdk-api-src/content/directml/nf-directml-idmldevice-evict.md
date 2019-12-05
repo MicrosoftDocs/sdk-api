@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.Evict
 title: IDMLDevice::Evict
-
 description: Evicts one or more pageable objects from GPU memory. Also see IDMLDevice::MakeResident.
 old-location: direct3d12\idmldevice_evict.htm
 tech.root: direct3d12
 ms.assetid: 45FF300A-A645-4A1D-B2E1-924CD0E32F2B
-
 ms.date: 12/5/2018
 ms.keywords: Evict, Evict method, Evict method,IDMLDevice interface, IDMLDevice interface,Evict method, IDMLDevice.Evict, IDMLDevice::Evict, direct3d12.idmldevice_evict, directml/IDMLDevice::Evict
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.Evict"
+f1_keywords:
+- directml/IDMLDevice.Evict
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.Evict
+- IDMLDevice.Evict
 targetos: Windows
 req.typenames: 
 req.redist: 

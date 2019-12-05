@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromAMMediaType
 title: MFInitMediaTypeFromAMMediaType function (mfapi.h)
-
 description: Initializes a media type from a DirectShow AM_MEDIA_TYPE structure.
 old-location: mf\mfinitmediatypefromammediatype.htm
 tech.root: medfound
 ms.assetid: da5dcc32-c027-4b9a-b72f-a60b98885636
-
 ms.date: 12/05/2018
 ms.keywords: MFInitMediaTypeFromAMMediaType, MFInitMediaTypeFromAMMediaType function [Media Foundation], da5dcc32-c027-4b9a-b72f-a60b98885636, mf.mfinitmediatypefromammediatype, mfapi/MFInitMediaTypeFromAMMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFInitMediaTypeFromAMMediaType"
+f1_keywords:
+- mfapi/MFInitMediaTypeFromAMMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFInitMediaTypeFromAMMediaType
+- MFInitMediaTypeFromAMMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

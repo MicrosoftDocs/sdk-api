@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.EnumFontFamiliesA
 title: EnumFontFamiliesA function (wingdi.h)
-
 description: The EnumFontFamilies function enumerates the fonts in a specified font family that are available on a specified device.
 old-location: gdi\enumfontfamilies.htm
 tech.root: gdi
 ms.assetid: 4960afbb-eeba-4030-ac89-d1ff077bb2f3
-
 ms.date: 12/05/2018
 ms.keywords: EnumFontFamilies, EnumFontFamilies function [Windows GDI], EnumFontFamiliesA, EnumFontFamiliesW, _win32_EnumFontFamilies, gdi.enumfontfamilies, wingdi/EnumFontFamilies, wingdi/EnumFontFamiliesA, wingdi/EnumFontFamiliesW
 ms.topic: function
-f1_keywords: 
- - "wingdi/EnumFontFamilies"
+f1_keywords:
+- wingdi/EnumFontFamilies
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-0.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-0.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - EnumFontFamilies
- - EnumFontFamiliesA
- - EnumFontFamiliesW
+- EnumFontFamilies
+- EnumFontFamiliesA
+- EnumFontFamiliesW
 targetos: Windows
 req.typenames: 
 req.redist: 

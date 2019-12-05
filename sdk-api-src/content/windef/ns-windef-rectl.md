@@ -1,19 +1,17 @@
 ---
 UID: NS:windef._RECTL
 title: RECTL (windef.h)
-
 description: The RECTL structure defines a rectangle by the coordinates of its upper-left and lower-right corners.
 old-location: display\rectl.htm
 tech.root: display
 ms.assetid: 709f8262-829e-4cda-bb0b-564307edfd24
-
 ms.date: 12/05/2018
-ms.keywords: "*LPRECTL, *PRECTL, LPRECTL, LPRECTL structure pointer [Display Devices], PRECTL, PRECTL structure pointer [Display Devices], RECTL, RECTL structure [Display Devices], display.rectl, grstrcts_9ae84b3b-7f9e-4296-a6da-4565cd170470.xml, windef/LPRECTL, windef/PRECTL, windef/RECTL"
+ms.keywords: '*LPRECTL, *PRECTL, LPRECTL, LPRECTL structure pointer [Display Devices], PRECTL, PRECTL structure pointer [Display Devices], RECTL, RECTL structure [Display Devices], display.rectl, grstrcts_9ae84b3b-7f9e-4296-a6da-4565cd170470.xml, windef/LPRECTL, windef/PRECTL, windef/RECTL'
 ms.topic: struct
-f1_keywords: 
- - "windef/RECTL"
+f1_keywords:
+- windef/RECTL
 dev_langs:
- - c++
+- c++
 req.header: windef.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windef.h
+- windef.h
 api_name:
- - RECTL
+- RECTL
 targetos: Windows
 req.typenames: RECTL, *PRECTL, *LPRECTL
 req.redist: 

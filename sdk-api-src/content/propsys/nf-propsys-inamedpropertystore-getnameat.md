@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNameAt
 title: INamedPropertyStore::GetNameAt (propsys.h)
-
 description: Gets the name of a property at a specified index in the property store.
 old-location: shell\INamedPropertyStore_GetNameAt.htm
 tech.root: shell
 ms.assetid: 2fd3896e-b170-49af-811e-a1f2facc7a84
-
 ms.date: 12/05/2018
 ms.keywords: GetNameAt, GetNameAt method [Windows Shell], GetNameAt method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNameAt method, INamedPropertyStore.GetNameAt, INamedPropertyStore::GetNameAt, _shell_INamedPropertyStore_GetNameAt, propsys/INamedPropertyStore::GetNameAt, shell.INamedPropertyStore_GetNameAt
 ms.topic: method
-f1_keywords: 
- - "propsys/INamedPropertyStore.GetNameAt"
+f1_keywords:
+- propsys/INamedPropertyStore.GetNameAt
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - INamedPropertyStore.GetNameAt
+- INamedPropertyStore.GetNameAt
 targetos: Windows
 req.typenames: 
 req.redist: 

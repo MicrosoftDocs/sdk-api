@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IConnectionPoint.GetConnectionInterface
 title: IConnectionPoint::GetConnectionInterface (ocidl.h)
-
 description: Retrieves the IID of the outgoing interface managed by this connection point.
 old-location: com\iconnectionpoint_getconnectioninterface.htm
 tech.root: com
 ms.assetid: d97bda43-0d4f-4ae2-b3d8-2c47d25de01a
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectionInterface, GetConnectionInterface method [COM], GetConnectionInterface method [COM],IConnectionPoint interface, IConnectionPoint interface [COM],GetConnectionInterface method, IConnectionPoint.GetConnectionInterface, IConnectionPoint::GetConnectionInterface, _com_iconnectionpoint_getconnectioninterface, com.iconnectionpoint_getconnectioninterface, ocidl/IConnectionPoint::GetConnectionInterface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IConnectionPoint.GetConnectionInterface"
+f1_keywords:
+- ocidl/IConnectionPoint.GetConnectionInterface
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IConnectionPoint.GetConnectionInterface
+- IConnectionPoint.GetConnectionInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasClearLinkStatistics
 title: RasClearLinkStatistics function (ras.h)
-
 description: The RasClearLinkStatistics functions clears any accumulated statistics for the specified link in a RAS multilink connection.
 old-location: rras\rasclearlinkstatistics.htm
 tech.root: RRAS
 ms.assetid: cac356a9-092c-4db2-b0a4-aaacfc514e29
-
 ms.date: 12/05/2018
 ms.keywords: RasClearLinkStatistics, RasClearLinkStatistics function [RAS], _ras_rasclearlinkstatistics, ras/RasClearLinkStatistics, rras.rasclearlinkstatistics
 ms.topic: function
-f1_keywords: 
- - "ras/RasClearLinkStatistics"
+f1_keywords:
+- ras/RasClearLinkStatistics
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasClearLinkStatistics
+- RasClearLinkStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 

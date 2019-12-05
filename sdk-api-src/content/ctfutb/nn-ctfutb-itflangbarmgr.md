@@ -1,19 +1,17 @@
 ---
 UID: NN:ctfutb.ITfLangBarMgr
 title: ITfLangBarMgr (ctfutb.h)
-
 description: The ITfLangBarMgr interface is implemented by the TSF manager and used by text services to manage event sink notification and configure floating language bar display settings. The interface ID is IID_ITfLangBarMgr.
 old-location: tsf\itflangbarmgr.htm
 tech.root: TSF
 ms.assetid: 60bd765f-0846-47f5-af1b-bc8e72720841
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarMgr, ITfLangBarMgr interface [Text Services Framework], ITfLangBarMgr interface [Text Services Framework],described, _tsf_itflangbarmgr_ref, ctfutb/ITfLangBarMgr, tsf.itflangbarmgr
 ms.topic: interface
-f1_keywords: 
- - "ctfutb/ITfLangBarMgr"
+f1_keywords:
+- ctfutb/ITfLangBarMgr
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarMgr
+- ITfLangBarMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

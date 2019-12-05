@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMVideoCompression.put_WindowSize
 title: IAMVideoCompression::put_WindowSize (strmif.h)
-
 description: The put_WindowSize method sets the number of frames over which the compressor must maintain an average data rate.
 old-location: dshow\iamvideocompression_put_windowsize.htm
 tech.root: DirectShow
 ms.assetid: 744cd32d-5f61-4069-82c4-50bc1b800f24
-
 ms.date: 12/05/2018
 ms.keywords: IAMVideoCompression interface [DirectShow],put_WindowSize method, IAMVideoCompression.put_WindowSize, IAMVideoCompression::put_WindowSize, IAMVideoCompressionput_WindowSize, dshow.iamvideocompression_put_windowsize, put_WindowSize, put_WindowSize method [DirectShow], put_WindowSize method [DirectShow],IAMVideoCompression interface, strmif/IAMVideoCompression::put_WindowSize
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMVideoCompression.put_WindowSize"
+f1_keywords:
+- strmif/IAMVideoCompression.put_WindowSize
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMVideoCompression.put_WindowSize
+- IAMVideoCompression.put_WindowSize
 targetos: Windows
 req.typenames: 
 req.redist: 

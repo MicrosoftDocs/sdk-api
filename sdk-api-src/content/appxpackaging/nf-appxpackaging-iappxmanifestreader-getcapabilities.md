@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestReader.GetCapabilities
 title: IAppxManifestReader::GetCapabilities (appxpackaging.h)
-
 description: Gets the list of capabilities requested by the package.
 old-location: appxpkg\iappxmanifestreader_getcapabilities.htm
 tech.root: appxpkg
 ms.assetid: 5FCBD9E9-9A5E-49E1-8B80-8F84EDA8B07C
-
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [App packaging and management], GetCapabilities method [App packaging and management],IAppxManifestReader interface, IAppxManifestReader interface [App packaging and management],GetCapabilities method, IAppxManifestReader.GetCapabilities, IAppxManifestReader::GetCapabilities, appxpackaging/IAppxManifestReader::GetCapabilities, appxpkg.iappxmanifestreader_getcapabilities
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestReader.GetCapabilities"
+f1_keywords:
+- appxpackaging/IAppxManifestReader.GetCapabilities
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestReader.GetCapabilities
+- IAppxManifestReader.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneOpen
 title: phoneOpen function (tapi.h)
-
 description: The phoneOpen function opens the specified phone device.
 old-location: tapi2\phoneopen.htm
 tech.root: Tapi
 ms.assetid: 8fba6d5e-0d8c-488f-a17c-4852b487e300
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/phoneOpen, tapi2.phoneopen"
+ms.keywords: _tapi2_phoneopen, phoneOpen, phoneOpen function [TAPI 2.2], tapi/phoneOpen, tapi2.phoneopen
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneOpen"
+f1_keywords:
+- tapi/phoneOpen
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneOpen
+- phoneOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

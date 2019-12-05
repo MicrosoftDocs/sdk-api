@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.ParseURLA
 title: ParseURLA function (shlwapi.h)
-
 description: Performs rudimentary parsing of a URL.
 old-location: shell\ParseURL.htm
 tech.root: shell
 ms.assetid: 3d42dad0-b9eb-4e40-afc8-68cb85b27504
-
 ms.date: 12/05/2018
 ms.keywords: ParseURL, ParseURL function [Windows Shell], ParseURLA, ParseURLW, _win32_ParseURL, shell.ParseURL, shlwapi/ParseURL, shlwapi/ParseURLA, shlwapi/ParseURLW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/ParseURL"
+f1_keywords:
+- shlwapi/ParseURL
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib:
 req.dll: Shlwapi.dll (version 6.0.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - ParseURL
- - ParseURLA
- - ParseURLW
+- ParseURL
+- ParseURLA
+- ParseURLW
 targetos: Windows
 req.typenames: 
 req.redist: 

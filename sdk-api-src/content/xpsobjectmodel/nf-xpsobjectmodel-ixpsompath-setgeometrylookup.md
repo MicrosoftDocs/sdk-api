@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetGeometryLookup
 title: IXpsOMPath::SetGeometryLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of a shared geometry in a resource dictionary.
 old-location: xps\ixpsompath_setgeometrylookup.htm
 tech.root: printdocs
 ms.assetid: 7a60bf60-e69b-4a8a-94e9-5d304aa25dd5
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetGeometryLookup method, IXpsOMPath.SetGeometryLookup, IXpsOMPath::SetGeometryLookup, SetGeometryLookup, SetGeometryLookup method [XPS Documents and Packaging], SetGeometryLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setgeometrylookup, xpsobjectmodel/IXpsOMPath::SetGeometryLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetGeometryLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetGeometryLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetGeometryLookup
+- IXpsOMPath.SetGeometryLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

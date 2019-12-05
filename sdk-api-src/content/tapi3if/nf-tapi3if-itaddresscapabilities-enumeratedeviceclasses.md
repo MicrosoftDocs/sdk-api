@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateDeviceClasses
 title: ITAddressCapabilities::EnumerateDeviceClasses (tapi3if.h)
-
 description: The EnumerateDeviceClasses method gets device classes. This method is provided for applications written in C/C++ and Java.
 old-location: tapi3\itaddresscapabilities_enumeratedeviceclasses.htm
 tech.root: Tapi
 ms.assetid: 33cc965f-0603-40b0-95bb-9b16025dd2b6
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateDeviceClasses, EnumerateDeviceClasses method [TAPI 2.2], EnumerateDeviceClasses method [TAPI 2.2],ITAddressCapabilities interface, ITAddressCapabilities interface [TAPI 2.2],EnumerateDeviceClasses method, ITAddressCapabilities.EnumerateDeviceClasses, ITAddressCapabilities::EnumerateDeviceClasses, _tapi3_itaddresscapabilities_enumeratedeviceclasses, tapi3.itaddresscapabilities_enumeratedeviceclasses, tapi3if/ITAddressCapabilities::EnumerateDeviceClasses
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressCapabilities.EnumerateDeviceClasses"
+f1_keywords:
+- tapi3if/ITAddressCapabilities.EnumerateDeviceClasses
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressCapabilities.EnumerateDeviceClasses
+- ITAddressCapabilities.EnumerateDeviceClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

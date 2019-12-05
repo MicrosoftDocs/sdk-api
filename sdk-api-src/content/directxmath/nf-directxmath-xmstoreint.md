@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreInt
 title: XMStoreInt function (directxmath.h)
-
 description: Stores an XMVECTOR in a uint32_t.
 old-location: dxmath\xmstoreint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt(uint32_t@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreInt, XMStoreInt, XMStoreInt method [DirectX Math Support APIs], dxmath.xmstoreint
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreInt"
+f1_keywords:
+- directxmath/XMStoreInt
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreInt
+- XMStoreInt
 targetos: Windows
 req.typenames: 
 req.redist: 

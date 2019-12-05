@@ -1,19 +1,17 @@
 ---
 UID: NS:evntrace._TRACE_PERIODIC_CAPTURE_STATE_INFO
 title: TRACE_PERIODIC_CAPTURE_STATE_INFO (evntrace.h)
-
 description: Information relating to a periodic capture state.
 old-location: etw\trace_periodic_capture_state_info.htm
 tech.root: ETW
 ms.assetid: 6C032D97-4B37-48D2-BD1A-35B8BA48B8AB
-
 ms.date: 12/05/2018
-ms.keywords: "*PTRACE_PERIODIC_CAPTURE_STATE_INFO, PTRACE_PERIODIC_CAPTURE_STATE_INFO, PTRACE_PERIODIC_CAPTURE_STATE_INFO structure pointer [ETW], TRACE_PERIODIC_CAPTURE_STATE_INFO, TRACE_PERIODIC_CAPTURE_STATE_INFO structure [ETW], _TRACE_PERIODIC_CAPTURE_STATE_INFO, etw.trace_periodic_capture_state_info, evntrace/PTRACE_PERIODIC_CAPTURE_STATE_INFO, evntrace/TRACE_PERIODIC_CAPTURE_STATE_INFO"
+ms.keywords: '*PTRACE_PERIODIC_CAPTURE_STATE_INFO, PTRACE_PERIODIC_CAPTURE_STATE_INFO, PTRACE_PERIODIC_CAPTURE_STATE_INFO structure pointer [ETW], TRACE_PERIODIC_CAPTURE_STATE_INFO, TRACE_PERIODIC_CAPTURE_STATE_INFO structure [ETW], _TRACE_PERIODIC_CAPTURE_STATE_INFO, etw.trace_periodic_capture_state_info, evntrace/PTRACE_PERIODIC_CAPTURE_STATE_INFO, evntrace/TRACE_PERIODIC_CAPTURE_STATE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "evntrace/TRACE_PERIODIC_CAPTURE_STATE_INFO"
+f1_keywords:
+- evntrace/TRACE_PERIODIC_CAPTURE_STATE_INFO
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - TRACE_PERIODIC_CAPTURE_STATE_INFO
+- TRACE_PERIODIC_CAPTURE_STATE_INFO
 targetos: Windows
 req.typenames: TRACE_PERIODIC_CAPTURE_STATE_INFO, *PTRACE_PERIODIC_CAPTURE_STATE_INFO
 req.redist: 

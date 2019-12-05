@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11VideoProcessorOutputView
 title: ID3D11VideoProcessorOutputView (d3d11.h)
-
 description: Identifies the output surfaces that can be accessed during video processing.
 old-location: mf\id3d11videoprocessoroutputview.htm
 tech.root: medfound
 ms.assetid: D07829ED-2C1E-4150-A0A1-5CD95F30209F
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoProcessorOutputView, ID3D11VideoProcessorOutputView interface [Media Foundation], ID3D11VideoProcessorOutputView interface [Media Foundation],described, d3d11/ID3D11VideoProcessorOutputView, mf.id3d11videoprocessoroutputview
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessorOutputView"
+f1_keywords:
+- d3d11/ID3D11VideoProcessorOutputView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessorOutputView
+- ID3D11VideoProcessorOutputView
 targetos: Windows
 req.typenames: 
 req.redist: 

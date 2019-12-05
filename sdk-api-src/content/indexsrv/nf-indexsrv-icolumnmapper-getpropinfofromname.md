@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IColumnMapper.GetPropInfoFromName
 title: IColumnMapper::GetPropInfoFromName (indexsrv.h)
-
 description: Gets property information from a name. This will return a DBID pointer in parameter ppPropId which now has to be freed by the caller and not by the callee (this class).
 old-location: search\icolumnmapper_getpropinfofromname.htm
 tech.root: search
 ms.assetid: F9306234-7CCC-412E-AA8C-7E8A04A8132F
-
 ms.date: 12/05/2018
 ms.keywords: GetPropInfoFromName, GetPropInfoFromName method [search], GetPropInfoFromName method [search],IColumnMapper interface, IColumnMapper interface [search],GetPropInfoFromName method, IColumnMapper.GetPropInfoFromName, IColumnMapper::GetPropInfoFromName, indexsrv/IColumnMapper::GetPropInfoFromName, search.icolumnmapper_getpropinfofromname
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IColumnMapper.GetPropInfoFromName"
+f1_keywords:
+- indexsrv/IColumnMapper.GetPropInfoFromName
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - IColumnMapper.GetPropInfoFromName
+- IColumnMapper.GetPropInfoFromName
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

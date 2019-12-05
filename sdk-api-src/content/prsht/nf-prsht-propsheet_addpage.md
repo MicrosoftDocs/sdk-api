@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.PropSheet_AddPage
 title: PropSheet_AddPage macro (prsht.h)
-
 description: Adds a new page to the end of an existing property sheet. You can use this macro or send the PSM_ADDPAGE message explicitly.
 old-location: controls\PropSheet_AddPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_addpage.htm
-
 ms.date: 12/05/2018
 ms.keywords: PropSheet_AddPage, PropSheet_AddPage macro [Windows Controls], _win32_PropSheet_AddPage, _win32_PropSheet_AddPage_cpp, controls.PropSheet_AddPage, controls._win32_PropSheet_AddPage, prsht/PropSheet_AddPage
 ms.topic: macro
-f1_keywords: 
- - "prsht/PropSheet_AddPage"
+f1_keywords:
+- prsht/PropSheet_AddPage
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Prsht.h
+- Prsht.h
 api_name:
- - PropSheet_AddPage
+- PropSheet_AddPage
 targetos: Windows
 req.typenames: 
 req.redist: 

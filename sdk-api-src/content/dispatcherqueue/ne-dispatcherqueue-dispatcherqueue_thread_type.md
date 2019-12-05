@@ -1,19 +1,17 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_TYPE
 title: DISPATCHERQUEUE_THREAD_TYPE (dispatcherqueue.h)
-
 description: Specifies the thread affinity for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_type.htm
 tech.root: ProcThread
 ms.assetid: 72558E7E-0ECB-4641-949F-07C43A6E2507
-
 ms.date: 12/05/2018
 ms.keywords: DISPATCHERQUEUE_THREAD_TYPE, DISPATCHERQUEUE_THREAD_TYPE enumeration, DQTYPE_THREAD_CURRENT, DQTYPE_THREAD_DEDICATED, base.dispatcherqueue_thread_type, dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE, dispatcherqueue/DQTYPE_THREAD_CURRENT, dispatcherqueue/DQTYPE_THREAD_DEDICATED
 ms.topic: enum
-f1_keywords: 
- - "dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE"
+f1_keywords:
+- dispatcherqueue/DISPATCHERQUEUE_THREAD_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DispatcherQueue.h
+- DispatcherQueue.h
 api_name:
- - DISPATCHERQUEUE_THREAD_TYPE
+- DISPATCHERQUEUE_THREAD_TYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

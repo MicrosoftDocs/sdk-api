@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1svg.D2D1_SVG_LINE_CAP
 title: D2D1_SVG_LINE_CAP (d2d1svg.h)
-
 description: Specifies a value for the SVG stroke-linecap property.
 old-location: direct2d\d2d1_svg_line_cap.htm
 tech.root: Direct2D
 ms.assetid: 9A44EF41-E2D6-4647-B5EB-D99F14ADFA2F
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_LINE_CAP, D2D1_SVG_LINE_CAP enumeration [Direct2D], D2D1_SVG_LINE_CAP_BUTT, D2D1_SVG_LINE_CAP_FORCE_DWORD, D2D1_SVG_LINE_CAP_ROUND, D2D1_SVG_LINE_CAP_SQUARE, d2d1svg/D2D1_SVG_LINE_CAP, d2d1svg/D2D1_SVG_LINE_CAP_BUTT, d2d1svg/D2D1_SVG_LINE_CAP_FORCE_DWORD, d2d1svg/D2D1_SVG_LINE_CAP_ROUND, d2d1svg/D2D1_SVG_LINE_CAP_SQUARE, direct2d.d2d1_svg_line_cap
 ms.topic: enum
-f1_keywords: 
- - "d2d1svg/D2D1_SVG_LINE_CAP"
+f1_keywords:
+- d2d1svg/D2D1_SVG_LINE_CAP
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1svg.h
+- d2d1svg.h
 api_name:
- - D2D1_SVG_LINE_CAP
+- D2D1_SVG_LINE_CAP
 targetos: Windows
 req.typenames: D2D1_SVG_LINE_CAP
 req.redist: 

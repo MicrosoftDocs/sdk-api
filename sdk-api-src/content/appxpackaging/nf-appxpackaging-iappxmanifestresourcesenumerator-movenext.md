@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestResourcesEnumerator.MoveNext
 title: IAppxManifestResourcesEnumerator::MoveNext (appxpackaging.h)
-
 description: Advances the position of the enumerator to the next resource.
 old-location: appxpkg\iappxmanifestresourcesenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: CD5A7FF9-A28E-4857-AE7B-92F8EEBA0235
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestResourcesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestResourcesEnumerator.MoveNext, IAppxManifestResourcesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestResourcesEnumerator interface, appxpackaging/IAppxManifestResourcesEnumerator::MoveNext, appxpkg.iappxmanifestresourcesenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestResourcesEnumerator.MoveNext"
+f1_keywords:
+- appxpackaging/IAppxManifestResourcesEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestResourcesEnumerator.MoveNext
+- IAppxManifestResourcesEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

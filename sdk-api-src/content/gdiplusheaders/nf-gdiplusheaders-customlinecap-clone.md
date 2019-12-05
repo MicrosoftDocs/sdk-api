@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.Clone
 title: CustomLineCap::Clone (gdiplusheaders.h)
-
 description: The CustomLineCap::Clone method copies the contents of the existing object into a new CustomLineCap object.
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\clone_49.htm
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [GDI+], Clone method [GDI+],CustomLineCap class, CustomLineCap class [GDI+],Clone method, CustomLineCap.Clone, CustomLineCap::Clone, _gdiplus_CLASS_CustomLineCap_Clone_, gdiplus._gdiplus_CLASS_CustomLineCap_Clone_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CustomLineCap.Clone"
+f1_keywords:
+- gdiplusheaders/CustomLineCap.Clone
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CustomLineCap.Clone
+- CustomLineCap.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

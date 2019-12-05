@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_MODE_INFO
 title: DISPLAYCONFIG_MODE_INFO (wingdi.h)
-
 description: The DISPLAYCONFIG_MODE_INFO structure contains either source mode or target mode information.
 old-location: display\displayconfig_mode_info.htm
 tech.root: display
 ms.assetid: 39ffe49b-96d3-4d8b-94a7-01c388448b82
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_e1d7b2cb-4d20-49d7-8eef-53ef7e369293.xml, DISPLAYCONFIG_MODE_INFO, DISPLAYCONFIG_MODE_INFO structure [Display Devices], display.displayconfig_mode_info, wingdi/DISPLAYCONFIG_MODE_INFO
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_MODE_INFO"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_MODE_INFO
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_MODE_INFO
+- DISPLAYCONFIG_MODE_INFO
 targetos: Windows
 req.typenames: DISPLAYCONFIG_MODE_INFO
 req.redist: 

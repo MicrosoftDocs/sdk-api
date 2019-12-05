@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.CopyItem
 title: IFileOperation::CopyItem (shobjidl_core.h)
-
 description: Declares a single item that is to be copied to a specified destination.
 old-location: shell\IFileOperation_CopyItem.htm
 tech.root: shell
 ms.assetid: 36d623b7-67c3-48b7-be9b-9264b5b8d919
-
 ms.date: 12/05/2018
 ms.keywords: CopyItem, CopyItem method [Windows Shell], CopyItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],CopyItem method, IFileOperation.CopyItem, IFileOperation::CopyItem, _shell_IFileOperation_CopyItem, shell.IFileOperation_CopyItem, shobjidl_core/IFileOperation::CopyItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperation.CopyItem"
+f1_keywords:
+- shobjidl_core/IFileOperation.CopyItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperation.CopyItem
+- IFileOperation.CopyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

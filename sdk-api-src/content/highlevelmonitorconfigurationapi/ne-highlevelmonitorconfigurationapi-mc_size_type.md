@@ -1,19 +1,17 @@
 ---
 UID: NE:highlevelmonitorconfigurationapi._MC_SIZE_TYPE
 title: MC_SIZE_TYPE (highlevelmonitorconfigurationapi.h)
-
 description: Specifies whether to get or set the width or height of a monitor's display area.
 old-location: monitor\mc_size_type.htm
 tech.root: Monitor
 ms.assetid: 6a917b7d-b91d-478a-b84e-7586d743522a
-
 ms.date: 12/05/2018
 ms.keywords: MC_HEIGHT, MC_SIZE_TYPE, MC_SIZE_TYPE , MC_SIZE_TYPE enumeration [Monitor Configuration], MC_WIDTH, highlevelmonitorconfigurationapi/MC_HEIGHT, highlevelmonitorconfigurationapi/MC_SIZE_TYPE, highlevelmonitorconfigurationapi/MC_WIDTH, monitor.mc_size_type
 ms.topic: enum
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/MC_SIZE_TYPE"
+f1_keywords:
+- highlevelmonitorconfigurationapi/MC_SIZE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HighLevelMonitorConfigurationAPI.h
+- HighLevelMonitorConfigurationAPI.h
 api_name:
- - MC_SIZE_TYPE
+- MC_SIZE_TYPE
 targetos: Windows
 req.typenames: MC_SIZE_TYPE
 req.redist: 

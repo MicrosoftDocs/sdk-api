@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.GetAsyncMode
 title: IDataObjectAsyncCapability::GetAsyncMode (shldisp.h)
-
 description: Called by a drop target to determine whether the data object supports asynchronous data extraction.
 old-location: shell\IDataObjectAsyncCapability_GetAsyncMode.htm
 tech.root: shell
 ms.assetid: 0B7A4299-4D19-4c5a-99A5-9568F4D58061
-
 ms.date: 12/05/2018
 ms.keywords: GetAsyncMode, GetAsyncMode method [Windows Shell], GetAsyncMode method [Windows Shell],IDataObjectAsyncCapability interface, IDataObjectAsyncCapability interface [Windows Shell],GetAsyncMode method, IDataObjectAsyncCapability.GetAsyncMode, IDataObjectAsyncCapability::GetAsyncMode, shell.IDataObjectAsyncCapability_GetAsyncMode, shldisp/IDataObjectAsyncCapability::GetAsyncMode
 ms.topic: method
-f1_keywords: 
- - "shldisp/IDataObjectAsyncCapability.GetAsyncMode"
+f1_keywords:
+- shldisp/IDataObjectAsyncCapability.GetAsyncMode
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDataObjectAsyncCapability.GetAsyncMode
+- IDataObjectAsyncCapability.GetAsyncMode
 targetos: Windows
 req.typenames: 
 req.redist: 

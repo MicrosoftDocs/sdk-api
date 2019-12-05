@@ -1,19 +1,17 @@
 ---
 UID: NF:heapapi.HeapDestroy
 title: HeapDestroy function (heapapi.h)
-
 description: Destroys the specified heap object. It decommits and releases all the pages of a private heap object, and it invalidates the handle to the heap.
 old-location: base\heapdestroy.htm
 tech.root: Memory
 ms.assetid: 2ad8d15f-de5e-424d-9349-3baccb000a36
-
 ms.date: 12/05/2018
 ms.keywords: HeapDestroy, HeapDestroy function, _win32_heapdestroy, base.heapdestroy, heapapi/HeapDestroy, winbase/HeapDestroy
 ms.topic: function
-f1_keywords: 
- - "heapapi/HeapDestroy"
+f1_keywords:
+- heapapi/HeapDestroy
 dev_langs:
- - c++
+- c++
 req.header: heapapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-heap-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-heap-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-heap-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-heap-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - HeapDestroy
+- HeapDestroy
 targetos: Windows
 req.typenames: 
 req.redist: 

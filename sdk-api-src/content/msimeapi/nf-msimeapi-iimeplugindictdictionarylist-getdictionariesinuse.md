@@ -1,19 +1,17 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.GetDictionariesInUse
 title: IImePlugInDictDictionaryList::GetDictionariesInUse (msimeapi.h)
-
 description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
 old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm
 tech.root: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF
-
 ms.date: 12/05/2018
 ms.keywords: GetDictionariesInUse, GetDictionariesInUse method [Internationalization for Windows Applications], GetDictionariesInUse method [Internationalization for Windows Applications],IImePlugInDictDictionaryList interface, IImePlugInDictDictionaryList interface [Internationalization for Windows Applications],GetDictionariesInUse method, IImePlugInDictDictionaryList.GetDictionariesInUse, IImePlugInDictDictionaryList::GetDictionariesInUse, intl.iimeplugindictdictionarylist_getdictionariesinuse, msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse
 ms.topic: method
-f1_keywords: 
- - "msimeapi/IImePlugInDictDictionaryList.GetDictionariesInUse"
+f1_keywords:
+- msimeapi/IImePlugInDictDictionaryList.GetDictionariesInUse
 dev_langs:
- - c++
+- c++
 req.header: msimeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msimeapi.h
+- Msimeapi.h
 api_name:
- - IImePlugInDictDictionaryList.GetDictionariesInUse
+- IImePlugInDictDictionaryList.GetDictionariesInUse
 targetos: Windows
 req.typenames: 
 req.redist: 

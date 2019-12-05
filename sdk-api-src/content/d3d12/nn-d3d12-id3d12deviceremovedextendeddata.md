@@ -1,17 +1,15 @@
 ---
 UID: NN:d3d12.ID3D12DeviceRemovedExtendedData
 title: ID3D12DeviceRemovedExtendedData interface
-
 description: Provides runtime access to Device Removed Extended Data (DRED) data.
 tech.root: direct3d12
-
 ms.date: 02/08/2019
 ms.keywords: ID3D12DeviceRemovedExtendedData, ID3D12DeviceRemovedExtendedData interface, ID3D12DeviceRemovedExtendedData interface,described, d3d12/ID3D12DeviceRemovedExtendedData, direct3d12.id3d12deviceremovedextendeddata
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12DeviceRemovedExtendedData"
+f1_keywords:
+- d3d12/ID3D12DeviceRemovedExtendedData
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12DeviceRemovedExtendedData
+- ID3D12DeviceRemovedExtendedData
 targetos: Windows
 req.typenames: 
 req.redist: 

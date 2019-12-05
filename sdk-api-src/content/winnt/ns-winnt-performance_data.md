@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._PERFORMANCE_DATA
 title: PERFORMANCE_DATA (winnt.h)
-
 description: Contains the thread profiling and hardware counter data that you requested.
 old-location: hcp\performance_data.htm
 tech.root: hcp
 ms.assetid: 468060cc-7b17-4ef4-8ae0-74d2bfcd5e4a
-
 ms.date: 12/05/2018
 ms.keywords: '*PPERFORMANCE_DATA, PERFORMANCE_DATA, PERFORMANCE_DATA structure [Hardware Counter Profiling], PPERFORMANCE_DATA, PPERFORMANCE_DATA structure pointer [Hardware Counter Profiling], _PERFORMANCE_DATA, hcp.performance_data, winnt/PERFORMANCE_DATA, winnt/PPERFORMANCE_DATA'
 ms.topic: struct
 f1_keywords:
 - winnt/PERFORMANCE_DATA
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetEnabled
 title: IFullScreenVideoEx::SetEnabled (amvideo.h)
-
 description: The SetEnabled method enables or disables a specified display mode.
 old-location: dshow\ifullscreenvideoex_setenabled.htm
 tech.root: DirectShow
 ms.assetid: f05c1b3e-3ebc-4753-b3ca-e52907c59121
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetEnabled method, IFullScreenVideoEx.SetEnabled, IFullScreenVideoEx::SetEnabled, IFullScreenVideoSetEnabled, OAFALSE, OATRUE, SetEnabled, SetEnabled method [DirectShow], SetEnabled method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetEnabled, dshow.ifullscreenvideoex_setenabled
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.SetEnabled"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.SetEnabled
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetEnabled
+- IFullScreenVideoEx.SetEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

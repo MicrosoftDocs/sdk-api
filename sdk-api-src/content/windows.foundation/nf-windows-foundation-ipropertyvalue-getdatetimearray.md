@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetDateTimeArray
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the array of DateTime values that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getdatetimearray.htm
 tech.root: WinRT
 ms.assetid: 76d18ef4-676c-4130-90e3-e74776e47f33
-
 ms.date: 12/05/2018
 ms.keywords: GetDateTimeArray, GetDateTimeArray method [Windows Runtime], GetDateTimeArray method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetDateTimeArray method, IPropertyValue.GetDateTimeArray, IPropertyValue.IPropertyValue, IPropertyValue::GetDateTimeArray, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetDateTimeArray, winrt.ipropertyvalue_getdatetimearray
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetDateTimeArray"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetDateTimeArray
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetDateTimeArray
+- IPropertyValue.GetDateTimeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

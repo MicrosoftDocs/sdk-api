@@ -1,19 +1,17 @@
 ---
 UID: NS:mfidl._MF_TRANSCODE_SINK_INFO
 title: MF_TRANSCODE_SINK_INFO (mfidl.h)
-
 description: Contains information about the audio and video streams for the transcode sink activation object.
 old-location: mf\mf_transcode_sink_info.htm
 tech.root: medfound
 ms.assetid: b8f66128-88d5-4fe0-99f3-59621080be5c
-
 ms.date: 12/05/2018
 ms.keywords: MF_TRANSCODE_SINK_INFO, MF_TRANSCODE_SINK_INFO structure [Media Foundation], mf.mf_transcode_sink_info, mfidl/MF_TRANSCODE_SINK_INFO
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MF_TRANSCODE_SINK_INFO"
+f1_keywords:
+- mfidl/MF_TRANSCODE_SINK_INFO
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_TRANSCODE_SINK_INFO
+- MF_TRANSCODE_SINK_INFO
 targetos: Windows
 req.typenames: MF_TRANSCODE_SINK_INFO
 req.redist: 

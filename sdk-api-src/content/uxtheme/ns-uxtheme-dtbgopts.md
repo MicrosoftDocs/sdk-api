@@ -1,19 +1,17 @@
 ---
 UID: NS:uxtheme._DTBGOPTS
 title: DTBGOPTS (uxtheme.h)
-
 description: Defines the options for the DrawThemeBackgroundEx function.
 old-location: controls\DTBGOPTS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\dtbgopts.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PDTBGOPTS, DTBGOPTS, DTBGOPTS structure [Windows Controls], DTBG_CLIPRECT, DTBG_COMPUTINGREGION, DTBG_DRAWSOLID, DTBG_MIRRORDC, DTBG_NOMIRROR, DTBG_OMITBORDER, DTBG_OMITCONTENT, DTBG_VALIDBITS, PDTBGOPTS, PDTBGOPTS structure pointer [Windows Controls], controls.DTBGOPTS, controls.inet_DTBGOPTS, inet_DTBGOPTS, inet_DTBGOPTS_cpp, uxtheme/DTBGOPTS, uxtheme/PDTBGOPTS"
+ms.keywords: '*PDTBGOPTS, DTBGOPTS, DTBGOPTS structure [Windows Controls], DTBG_CLIPRECT, DTBG_COMPUTINGREGION, DTBG_DRAWSOLID, DTBG_MIRRORDC, DTBG_NOMIRROR, DTBG_OMITBORDER, DTBG_OMITCONTENT, DTBG_VALIDBITS, PDTBGOPTS, PDTBGOPTS structure pointer [Windows Controls], controls.DTBGOPTS, controls.inet_DTBGOPTS, inet_DTBGOPTS, inet_DTBGOPTS_cpp, uxtheme/DTBGOPTS, uxtheme/PDTBGOPTS'
 ms.topic: struct
-f1_keywords: 
- - "uxtheme/DTBGOPTS"
+f1_keywords:
+- uxtheme/DTBGOPTS
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uxtheme.h
+- Uxtheme.h
 api_name:
- - DTBGOPTS
+- DTBGOPTS
 targetos: Windows
 req.typenames: DTBGOPTS, *PDTBGOPTS
 req.redist: 

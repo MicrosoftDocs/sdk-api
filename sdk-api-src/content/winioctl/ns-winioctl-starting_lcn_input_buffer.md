@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_4
 title: STARTING_LCN_INPUT_BUFFER
-
 description: Contains the starting LCN to the FSCTL_GET_VOLUME_BITMAP control code.
 old-location: fs\starting_lcn_input_buffer_str.htm
 tech.root: FileIO
 ms.assetid: 94bdb166-fe75-4851-9dbb-a1a1f5836675
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER structure pointer [Files], STARTING_LCN_INPUT_BUFFER, STARTING_LCN_INPUT_BUFFER structure [Files], _win32_starting_lcn_input_buffer_str, base.starting_lcn_input_buffer_str, fs.starting_lcn_input_buffer_str, winioctl/PSTARTING_LCN_INPUT_BUFFER, winioctl/STARTING_LCN_INPUT_BUFFER"
+ms.keywords: '*PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER, PSTARTING_LCN_INPUT_BUFFER structure pointer [Files], STARTING_LCN_INPUT_BUFFER, STARTING_LCN_INPUT_BUFFER structure [Files], _win32_starting_lcn_input_buffer_str, base.starting_lcn_input_buffer_str, fs.starting_lcn_input_buffer_str, winioctl/PSTARTING_LCN_INPUT_BUFFER, winioctl/STARTING_LCN_INPUT_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STARTING_LCN_INPUT_BUFFER"
+f1_keywords:
+- winioctl/STARTING_LCN_INPUT_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STARTING_LCN_INPUT_BUFFER
+- STARTING_LCN_INPUT_BUFFER
 targetos: Windows
 req.typenames: STARTING_LCN_INPUT_BUFFER, *PSTARTING_LCN_INPUT_BUFFER
 req.redist: 

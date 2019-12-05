@@ -1,19 +1,17 @@
 ---
 UID: NS:shlwapi._DLLVERSIONINFO2
 title: DLLVERSIONINFO2 (shlwapi.h)
-
 description: Receives DLL-specific version information. It is used with the DllGetVersion function.
 old-location: shell\DLLVERSIONINFO2_0rjh.htm
 tech.root: shell
 ms.assetid: 1648924d-0727-4cee-80d3-f97550f235cd
-
 ms.date: 12/05/2018
 ms.keywords: DLLVERSIONINFO2, DLLVERSIONINFO2 structure [Windows Shell], _win32_DLLVERSIONINFO2_0rjh, shell.DLLVERSIONINFO2_0rjh, shlwapi/DLLVERSIONINFO2
 ms.topic: struct
 f1_keywords:
 - shlwapi/DLLVERSIONINFO2
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows

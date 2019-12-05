@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic)
 title: ID2D1DeviceContext2::CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic) (d2d1_3.h)
-
 description: Creates an image source object from a WIC bitmap source, while populating all pixel memory within the image source. The image is loaded and stored while using a minimal amount of memory.
 old-location: direct2d\id2d1devicecontext2_createimagesourcefromwic3.htm
 tech.root: Direct2D
 ms.assetid: 78e39978-099f-1096-ed7a-5b2dc68bb9c3
-
 ms.date: 12/05/2018
 ms.keywords: CreateImageSourceFromWic, CreateImageSourceFromWic method [Direct2D], CreateImageSourceFromWic method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateImageSourceFromWic method, ID2D1DeviceContext2.CreateImageSourceFromWic, ID2D1DeviceContext2.CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic), ID2D1DeviceContext2::CreateImageSourceFromWic, ID2D1DeviceContext2::CreateImageSourceFromWic(IWICBitmapSource,ID2D1ImageSourceFromWic), d2d1_3/ID2D1DeviceContext2::CreateImageSourceFromWic, direct2d.id2d1devicecontext2_createimagesourcefromwic3
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext2.CreateImageSourceFromWic"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext2.CreateImageSourceFromWic
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext2.CreateImageSourceFromWic
+- ID2D1DeviceContext2.CreateImageSourceFromWic
 targetos: Windows
 req.typenames: 
 req.redist: 

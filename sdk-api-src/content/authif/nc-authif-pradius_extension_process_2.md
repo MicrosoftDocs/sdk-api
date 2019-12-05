@@ -1,19 +1,17 @@
 ---
 UID: NC:authif.PRADIUS_EXTENSION_PROCESS_2
 title: PRADIUS_EXTENSION_PROCESS_2 (authif.h)
-
 description: An application defined-function and is called by NPS for each authentication or accounting packet that NPS receives.
 old-location: nps\IAS_radiusextensionprocess2.htm
 tech.root: Nps
 ms.assetid: 993b1ded-9fa9-4834-a37d-4da9e8ed9640
-
 ms.date: 12/05/2018
 ms.keywords: PRADIUS_EXTENSION_PROCESS_2, PRADIUS_EXTENSION_PROCESS_2 callback, PRADIUS_EXTENSION_PROCESS_2 callback function [Network Policy Server], RadiusExtensionProcess2, authif/PRADIUS_EXTENSION_PROCESS_2, nps.IAS_radiusextensionprocess2
 ms.topic: callback
 f1_keywords:
 - authif/PRADIUS_EXTENSION_PROCESS_2
 dev_langs:
- - c++
+- c++
 req.header: authif.h
 req.include-header: 
 req.target-type: Windows

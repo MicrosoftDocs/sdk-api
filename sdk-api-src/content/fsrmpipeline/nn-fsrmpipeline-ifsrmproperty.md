@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmpipeline.IFsrmProperty
 title: IFsrmProperty (fsrmpipeline.h)
-
 description: Defines an instance of a property.
 old-location: fsrm\ifsrmproperty.htm
 tech.root: fsrm
 ms.assetid: feffccd1-cf72-45c0-97b3-d6efd736223e
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty, IFsrmProperty interface [File Server Resource Manager], IFsrmProperty interface [File Server Resource Manager],described, fs.ifsrmproperty, fsrm.ifsrmproperty, fsrm/IFsrmProperty
 ms.topic: interface
-f1_keywords: 
- - "fsrmpipeline/IFsrmProperty"
+f1_keywords:
+- fsrmpipeline/IFsrmProperty
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmProperty
+- IFsrmProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

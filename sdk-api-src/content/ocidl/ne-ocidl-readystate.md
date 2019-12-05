@@ -1,19 +1,17 @@
 ---
 UID: NE:ocidl.tagREADYSTATE
 title: READYSTATE (ocidl.h)
-
 description: The ReadyState property retrieves the ReadyState of the MSWebDVD object.
 old-location: dshow\readystate_property.htm
 tech.root: DirectShow
 ms.assetid: e43b0fa4-4a5a-4492-a6a9-bf271f58e11b
-
 ms.date: 12/05/2018
 ms.keywords: READYSTATE, READYSTATE enumeration [DirectShow], READYSTATE_COMPLETE, READYSTATE_INTERACTIVE, READYSTATE_LOADED, READYSTATE_LOADING, READYSTATE_UNINITIALIZED, ReadyState Property, ReadyStateProperty, dshow.readystate_property, ocidl/READYSTATE_COMPLETE, ocidl/READYSTATE_INTERACTIVE, ocidl/READYSTATE_LOADED, ocidl/READYSTATE_LOADING, ocidl/READYSTATE_UNINITIALIZED, ocidl/tagREADYSTATE, tagREADYSTATE, tagREADYSTATE enumeration [DirectShow]
 ms.topic: enum
-f1_keywords: 
- - "ocidl/READYSTATE"
+f1_keywords:
+- ocidl/READYSTATE
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ocidl.h
+- ocidl.h
 api_name:
- - READYSTATE
+- READYSTATE
 targetos: Windows
 req.typenames: READYSTATE
 req.redist: 

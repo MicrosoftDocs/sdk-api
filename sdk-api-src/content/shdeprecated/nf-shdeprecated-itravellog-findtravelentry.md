@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.ITravelLog.FindTravelEntry
 title: ITravelLog::FindTravelEntry (shdeprecated.h)
-
 description: Deprecated. Determines whether a specific travel entry is present in the travel log.
 old-location: shell\ITravelLog_FindTravelEntry.htm
 tech.root: shell
 ms.assetid: 128627f3-c010-4b8e-b067-fdc1eed346e4
-
 ms.date: 12/05/2018
 ms.keywords: FindTravelEntry, FindTravelEntry method [Windows Shell], FindTravelEntry method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],FindTravelEntry method, ITravelLog.FindTravelEntry, ITravelLog::FindTravelEntry, shdeprecated/ITravelLog::FindTravelEntry, shell.ITravelLog_FindTravelEntry, zone_ITravelLog_FindTravelEntry
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/ITravelLog.FindTravelEntry"
+f1_keywords:
+- shdeprecated/ITravelLog.FindTravelEntry
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - ITravelLog.FindTravelEntry
+- ITravelLog.FindTravelEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

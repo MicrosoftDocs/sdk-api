@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetConnectionBandwidth
 title: IWMReaderNetworkConfig::GetConnectionBandwidth (wmsdkidl.h)
-
 description: The GetConnectionBandwidth method retrieves the connection bandwidth for the client.
 old-location: wmformat\iwmreadernetworkconfig_getconnectionbandwidth.htm
 tech.root: wmformat
 ms.assetid: cbbc945d-91ea-4d21-a1ac-2fcbcb081447
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectionBandwidth, GetConnectionBandwidth method [windows Media Format], GetConnectionBandwidth method [windows Media Format],IWMReaderNetworkConfig interface, IWMReaderNetworkConfig interface [windows Media Format],GetConnectionBandwidth method, IWMReaderNetworkConfig.GetConnectionBandwidth, IWMReaderNetworkConfig::GetConnectionBandwidth, IWMReaderNetworkConfigGetConnectionBandwidth, wmformat.iwmreadernetworkconfig_getconnectionbandwidth, wmsdkidl/IWMReaderNetworkConfig::GetConnectionBandwidth
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.GetConnectionBandwidth"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.GetConnectionBandwidth
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.GetConnectionBandwidth
+- IWMReaderNetworkConfig.GetConnectionBandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

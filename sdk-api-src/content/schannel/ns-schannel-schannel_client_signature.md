@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SCHANNEL_CLIENT_SIGNATURE
 title: SCHANNEL_CLIENT_SIGNATURE (schannel.h)
-
 description: Specifies a client signature when a call to the InitializeSecurityContext (Schannel) function cannot access the private key for a client certificate (in this case, the function returns SEC_I_SIGNATURE_NEEDED).
 old-location: security\schannel_client_signature.htm
 tech.root: SecAuthN
 ms.assetid: 2549a287-bee3-457b-86e3-3330bf23169a
-
 ms.date: 12/05/2018
-ms.keywords: "*PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE structure pointer [Security], SCHANNEL_CLIENT_SIGNATURE, SCHANNEL_CLIENT_SIGNATURE structure [Security], schannel/PSCHANNEL_CLIENT_SIGNATURE, schannel/SCHANNEL_CLIENT_SIGNATURE, security.schannel_client_signature"
+ms.keywords: '*PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE, PSCHANNEL_CLIENT_SIGNATURE structure pointer [Security], SCHANNEL_CLIENT_SIGNATURE, SCHANNEL_CLIENT_SIGNATURE structure [Security], schannel/PSCHANNEL_CLIENT_SIGNATURE, schannel/SCHANNEL_CLIENT_SIGNATURE, security.schannel_client_signature'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SCHANNEL_CLIENT_SIGNATURE"
+f1_keywords:
+- schannel/SCHANNEL_CLIENT_SIGNATURE
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SCHANNEL_CLIENT_SIGNATURE
+- SCHANNEL_CLIENT_SIGNATURE
 targetos: Windows
 req.typenames: SCHANNEL_CLIENT_SIGNATURE, *PSCHANNEL_CLIENT_SIGNATURE
 req.redist: 

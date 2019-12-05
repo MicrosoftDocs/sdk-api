@@ -1,19 +1,17 @@
 ---
 UID: NF:tbs.Tbsi_Get_TCG_Log
 title: Tbsi_Get_TCG_Log function (tbs.h)
-
 description: Retrieves the most recent Windows Boot Configuration Log (WBCL), also referred to as a TCG log.
 old-location: tbs\tbsi_get_tcg_log.htm
 tech.root: TBS
 ms.assetid: f52c71fd-383b-4c32-9b49-8904ffb692c1
-
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Get_TCG_Log, Tbsi_Get_TCG_Log function [TBS], tbs.tbsi_get_tcg_log, tbs/Tbsi_Get_TCG_Log
 ms.topic: function
-f1_keywords: 
- - "tbs/Tbsi_Get_TCG_Log"
+f1_keywords:
+- tbs/Tbsi_Get_TCG_Log
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tbs.dll
+- Tbs.dll
 api_name:
- - Tbsi_Get_TCG_Log
+- Tbsi_Get_TCG_Log
 targetos: Windows
 req.typenames: 
 req.redist: 

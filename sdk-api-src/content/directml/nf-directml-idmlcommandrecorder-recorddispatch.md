@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLCommandRecorder.RecordDispatch
 title: IDMLCommandRecorder::RecordDispatch
-
 description: Records execution of a dispatchable object (an operator initializer, or a compiled operator) onto a command list.
 old-location: direct3d12\idmlcommandrecorder_recorddispatch.htm
 tech.root: direct3d12
 ms.assetid: E76A4CD7-A6A9-4B3F-9E81-3C1BAEB32657
-
 ms.date: 12/5/2018
 ms.keywords: IDMLCommandRecorder interface,RecordDispatch method, IDMLCommandRecorder.RecordDispatch, IDMLCommandRecorder::RecordDispatch, RecordDispatch, RecordDispatch method, RecordDispatch method,IDMLCommandRecorder interface, direct3d12.idmlcommandrecorder_recorddispatch, directml/IDMLCommandRecorder::RecordDispatch
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLCommandRecorder.RecordDispatch"
+f1_keywords:
+- directml/IDMLCommandRecorder.RecordDispatch
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLCommandRecorder.RecordDispatch
+- IDMLCommandRecorder.RecordDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rometadataapi.IMetaDataAssemblyImport
 title: IMetaDataAssemblyImport (rometadataapi.h)
-
 description: Provides methods to access and examine the contents of an assembly manifest.
 old-location: winrt\imetadataassemblyimport.htm
 tech.root: WinRT
 ms.assetid: c4ae6028-87ac-4bb9-8eda-c6a48e5ecd3c
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataAssemblyImport, IMetaDataAssemblyImport interface [Windows Runtime], IMetaDataAssemblyImport interface [Windows Runtime],described, rometadataapi/IMetaDataAssemblyImport, winrt.imetadataassemblyimport
 ms.topic: interface
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport
+- IMetaDataAssemblyImport
 targetos: Windows
 req.typenames: 
 req.redist: 

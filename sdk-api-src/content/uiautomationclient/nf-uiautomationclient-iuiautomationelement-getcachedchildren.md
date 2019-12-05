@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedChildren
 title: IUIAutomationElement::GetCachedChildren (uiautomationclient.h)
-
 description: Retrieves the cached child elements of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedChildren.htm
 tech.root: WinAuto
 ms.assetid: dab24be3-0e0e-445f-a9cc-bb2733916cdc
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedChildren, GetCachedChildren method [Windows Accessibility], GetCachedChildren method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedChildren method, IUIAutomationElement.GetCachedChildren, IUIAutomationElement::GetCachedChildren, uiauto.uiauto_IUIAutomationElement_GetCachedChildren, uiauto_IUIAutomationElement_GetCachedChildren, uiautomationclient/IUIAutomationElement::GetCachedChildren, winauto.uiauto_IUIAutomationElement_GetCachedChildren
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetCachedChildren"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetCachedChildren
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCachedChildren
+- IUIAutomationElement.GetCachedChildren
 targetos: Windows
 req.typenames: 
 req.redist: 

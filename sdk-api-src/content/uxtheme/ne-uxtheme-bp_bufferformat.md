@@ -1,19 +1,17 @@
 ---
 UID: NE:uxtheme._BP_BUFFERFORMAT
 title: BP_BUFFERFORMAT (uxtheme.h)
-
 description: Specifies the format of the buffer. Used by BeginBufferedAnimation and BeginBufferedPaint.
 old-location: controls\BP_BUFFERFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\bp_bufferformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: BPBF_COMPATIBLEBITMAP, BPBF_DIB, BPBF_TOPDOWNDIB, BPBF_TOPDOWNMONODIB, BP_BUFFERFORMAT, BP_BUFFERFORMAT enumeration [Windows Controls], _shell_BP_BUFFERFORMAT, _shell_BP_BUFFERFORMAT_cpp, controls.BP_BUFFERFORMAT, controls._shell_BP_BUFFERFORMAT, uxtheme/BPBF_COMPATIBLEBITMAP, uxtheme/BPBF_DIB, uxtheme/BPBF_TOPDOWNDIB, uxtheme/BPBF_TOPDOWNMONODIB, uxtheme/BP_BUFFERFORMAT
 ms.topic: enum
-f1_keywords: 
- - "uxtheme/BP_BUFFERFORMAT"
+f1_keywords:
+- uxtheme/BP_BUFFERFORMAT
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uxtheme.h
+- Uxtheme.h
 api_name:
- - BP_BUFFERFORMAT
+- BP_BUFFERFORMAT
 targetos: Windows
 req.typenames: BP_BUFFERFORMAT
 req.redist: 

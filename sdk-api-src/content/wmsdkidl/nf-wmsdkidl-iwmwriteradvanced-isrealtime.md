@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.IsRealTime
 title: IWMWriterAdvanced::IsRealTime (wmsdkidl.h)
-
 description: The IsRealTime method ascertains whether the writer is running in real time.
 old-location: wmformat\iwmwriteradvanced_isrealtime.htm
 tech.root: wmformat
 ms.assetid: 3d00eb78-d90e-41a0-9bba-305ac65057f3
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],IsRealTime method, IWMWriterAdvanced.IsRealTime, IWMWriterAdvanced::IsRealTime, IWMWriterAdvancedIsRealTime, IsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_isrealtime, wmsdkidl/IWMWriterAdvanced::IsRealTime
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.IsRealTime"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced.IsRealTime
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.IsRealTime
+- IWMWriterAdvanced.IsRealTime
 targetos: Windows
 req.typenames: 
 req.redist: 

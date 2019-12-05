@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetFooterItem
 title: ListView_GetFooterItem macro (commctrl.h)
-
 description: Gets information on a footer item for a specified list-view control. Use this macro or send the LVM_GETFOOTERITEM message explicitly.
 old-location: controls\ListView_GetFooterItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooteritem.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetFooterItem, ListView_GetFooterItem macro [Windows Controls], _shell_ListView_GetFooterItem, _shell_ListView_GetFooterItem_cpp, commctrl/ListView_GetFooterItem, controls.ListView_GetFooterItem, controls._shell_ListView_GetFooterItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetFooterItem"
+f1_keywords:
+- commctrl/ListView_GetFooterItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetFooterItem
+- ListView_GetFooterItem
 targetos: Windows
 req.typenames: 
 req.redist: 

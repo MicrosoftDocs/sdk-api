@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_SET_PIN_FLAGS
 title: CF_SET_PIN_FLAGS (cfapi.h)
-
 description: The placeholder pin flags.
 old-location: cloudapi\cf_set_pin_flags.htm
 tech.root: cfApi
 ms.assetid: 6766931E-B2D4-4166-9B6E-E6D8F57E57B3
-
 ms.date: 12/05/2018
 ms.keywords: CF_SET_PIN_FLAGS, CF_SET_PIN_FLAGS enumeration, CF_SET_PIN_FLAG_NONE, CF_SET_PIN_FLAG_RECURSE, CF_SET_PIN_FLAG_RECURSE_ONLY, CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR, cfapi/CF_SET_PIN_FLAGS, cfapi/CF_SET_PIN_FLAG_NONE, cfapi/CF_SET_PIN_FLAG_RECURSE, cfapi/CF_SET_PIN_FLAG_RECURSE_ONLY, cfapi/CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR, cloudApi.cf_set_pin_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_SET_PIN_FLAGS"
+f1_keywords:
+- cfapi/CF_SET_PIN_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_SET_PIN_FLAGS
+- CF_SET_PIN_FLAGS
 targetos: Windows
 req.typenames: CF_SET_PIN_FLAGS
 req.redist: 

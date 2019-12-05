@@ -1,19 +1,17 @@
 ---
 UID: NN:netlistmgr.IEnumNetworks
 title: IEnumNetworks (netlistmgr.h)
-
 description: The IEnumNetworks interface is a standard enumerator for networks. It enumerates all networks available on the local machine. This interface can be obtained from the INetworkListManager interface.
 old-location: nla\ienumnetworks.htm
 tech.root: nla
 ms.assetid: ce2b65e5-89fe-48c9-aa00-373406891d02
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworks, IEnumNetworks interface [Network Awareness], IEnumNetworks interface [Network Awareness],described, netlistmgr/IEnumNetworks, nla.ienumnetworks
 ms.topic: interface
-f1_keywords: 
- - "netlistmgr/IEnumNetworks"
+f1_keywords:
+- netlistmgr/IEnumNetworks
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - IEnumNetworks
+- IEnumNetworks
 targetos: Windows
 req.typenames: 
 req.redist: 

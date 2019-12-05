@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDeskBar.OnPosRectChangeDB
 title: IDeskBar::OnPosRectChangeDB (shobjidl_core.h)
-
 description: Notifies the object that the rectangle has changed.
 old-location: shell\IDeskBar_OnPosRectChangeDB.htm
 tech.root: shell
 ms.assetid: a66093e1-4b91-4edd-abee-0043b437a5f6
-
 ms.date: 12/05/2018
 ms.keywords: IDeskBar interface [Windows Shell],OnPosRectChangeDB method, IDeskBar.OnPosRectChangeDB, IDeskBar::OnPosRectChangeDB, OnPosRectChangeDB, OnPosRectChangeDB method [Windows Shell], OnPosRectChangeDB method [Windows Shell],IDeskBar interface, _win32_IDeskBar_OnPosRectChangeDB, shell.IDeskBar_OnPosRectChangeDB, shobjidl_core/IDeskBar::OnPosRectChangeDB
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDeskBar.OnPosRectChangeDB"
+f1_keywords:
+- shobjidl_core/IDeskBar.OnPosRectChangeDB
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDeskBar.OnPosRectChangeDB
+- IDeskBar.OnPosRectChangeDB
 targetos: Windows
 req.typenames: 
 req.redist: 

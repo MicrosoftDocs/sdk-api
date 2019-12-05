@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.SetAt
 title: CHString::SetAt (chstring.h)
-
 description: Overwrites one character specified by an index number.
 old-location: wmi\chstring_setat.htm
 tech.root: WmiSdk
 ms.assetid: ccac0f07-a272-41b0-950c-7e5d97d9f1d7
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SetAt method, CHString.SetAt, CHString::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.SetAt"
+f1_keywords:
+- chstring/CHString.SetAt
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.SetAt
+- CHString.SetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

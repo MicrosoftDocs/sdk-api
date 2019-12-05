@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetTransform
 title: Pen::SetTransform (gdipluspen.h)
-
 description: The Pen::SetTransform method sets the world transformation of this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\settransform_6matrix.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetTransform method, Pen.SetTransform, Pen::SetTransform, SetTransform, SetTransform method [GDI+], SetTransform method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetTransform_matrix_, gdiplus._gdiplus_CLASS_Pen_SetTransform_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetTransform"
+f1_keywords:
+- gdipluspen/Pen.SetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetTransform
+- Pen.SetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

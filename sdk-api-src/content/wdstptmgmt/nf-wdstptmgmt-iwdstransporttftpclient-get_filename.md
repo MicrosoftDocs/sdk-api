@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_FileName
 title: IWdsTransportTftpClient::get_FileName (wdstptmgmt.h)
-
 description: Retrieves the name of the file being transferred in the TFTP session.
 old-location: wds\iwdstransporttftpclient_filename.htm
 tech.root: wds
 ms.assetid: 096687EC-BE1F-4144-8F92-132502E4A779
-
 ms.date: 12/05/2018
 ms.keywords: FileName property [Windows Deployment Services], FileName property [Windows Deployment Services],IWdsTransportTftpClient interface, IWdsTransportTftpClient interface [Windows Deployment Services],FileName property, IWdsTransportTftpClient.FileName, IWdsTransportTftpClient.get_FileName, IWdsTransportTftpClient::FileName, IWdsTransportTftpClient::get_FileName, get_FileName, wds.iwdstransporttftpclient_filename, wdstptmgmt/IWdsTransportTftpClient::FileName, wdstptmgmt/IWdsTransportTftpClient::get_FileName
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportTftpClient.FileName"
+f1_keywords:
+- wdstptmgmt/IWdsTransportTftpClient.FileName
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpClient.FileName
- - IWdsTransportTftpClient.get_FileName
+- IWdsTransportTftpClient.FileName
+- IWdsTransportTftpClient.get_FileName
 targetos: Windows
 req.typenames: 
 req.redist: 

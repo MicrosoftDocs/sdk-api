@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeCount
 title: IWMRegisteredDevice::GetAttributeCount (wmsdkidl.h)
-
 description: The GetAttributeCount method retrieves the total number of attributes associated with the device.
 old-location: wmformat\iwmregistereddevice_getattributecount.htm
 tech.root: wmformat
 ms.assetid: 6032cb18-4c4a-4cd7-905e-5cb390bfc37b
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeCount, GetAttributeCount method [windows Media Format], GetAttributeCount method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeCount method, IWMRegisteredDevice.GetAttributeCount, IWMRegisteredDevice::GetAttributeCount, IWMRegisteredDeviceGetAttributeCount, wmformat.iwmregistereddevice_getattributecount, wmsdkidl/IWMRegisteredDevice::GetAttributeCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.GetAttributeCount"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.GetAttributeCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.GetAttributeCount
+- IWMRegisteredDevice.GetAttributeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

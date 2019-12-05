@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSRegisterPropertySchema
 title: PSRegisterPropertySchema function (propsys.h)
-
 description: Informs the schema subsystem of the addition of a property description schema file.
 old-location: properties\PSRegisterPropertySchema.htm
 tech.root: properties
 ms.assetid: ea9c4361-fada-4b07-b450-dd0c6409745a
-
 ms.date: 12/05/2018
 ms.keywords: PSRegisterPropertySchema, PSRegisterPropertySchema function [Windows Properties], properties.PSRegisterPropertySchema, propsys/PSRegisterPropertySchema, shell.PSRegisterPropertySchema, shell_PSRegisterPropertySchema
 ms.topic: function
-f1_keywords: 
- - "propsys/PSRegisterPropertySchema"
+f1_keywords:
+- propsys/PSRegisterPropertySchema
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSRegisterPropertySchema
+- PSRegisterPropertySchema
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

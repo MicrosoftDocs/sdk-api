@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPSettings2
 title: IWMPSettings2 (wmp.h)
-
 description: The IWMPSettings2 interface provides methods that supplement the IWMPSettings interface.
 old-location: wmp\iwmpsettings2.htm
 tech.root: WMP
 ms.assetid: 0fb0c7be-015e-4081-8467-c382e0858195
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings2, IWMPSettings2 interface [Windows Media Player], IWMPSettings2 interface [Windows Media Player],described, IWMPSettings2Interface, wmp.iwmpsettings2, wmp/IWMPSettings2
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPSettings2"
+f1_keywords:
+- wmp/IWMPSettings2
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPSettings2
+- IWMPSettings2
 targetos: Windows
 req.typenames: 
 req.redist: 

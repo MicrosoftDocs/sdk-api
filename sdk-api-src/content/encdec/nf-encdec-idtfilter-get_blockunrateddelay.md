@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockUnRatedDelay
 title: IDTFilter::get_BlockUnRatedDelay (encdec.h)
-
 description: The get_BlockUnRatedDelay method retrieves that length of time the filter waits before it blocks unrated content.
 old-location: mstv\idtfilter_get_blockunrateddelay.htm
 tech.root: mstv
 ms.assetid: 6852f376-35ab-4628-9068-51a2ca2ea31f
-
 ms.date: 12/05/2018
 ms.keywords: IDTFilter interface [Microsoft TV Technologies],get_BlockUnRatedDelay method, IDTFilter.get_BlockUnRatedDelay, IDTFilter::get_BlockUnRatedDelay, IDTFilterget_BlockUnRatedDelay, encdec/IDTFilter::get_BlockUnRatedDelay, get_BlockUnRatedDelay, get_BlockUnRatedDelay method [Microsoft TV Technologies], get_BlockUnRatedDelay method [Microsoft TV Technologies],IDTFilter interface, mstv.idtfilter_get_blockunrateddelay
 ms.topic: method
-f1_keywords: 
- - "encdec/IDTFilter.get_BlockUnRatedDelay"
+f1_keywords:
+- encdec/IDTFilter.get_BlockUnRatedDelay
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IDTFilter.get_BlockUnRatedDelay
+- IDTFilter.get_BlockUnRatedDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

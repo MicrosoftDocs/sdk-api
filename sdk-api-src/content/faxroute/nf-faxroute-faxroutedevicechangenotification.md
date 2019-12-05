@@ -1,19 +1,17 @@
 ---
 UID: NF:faxroute.FaxRouteDeviceChangeNotification
 title: FaxRouteDeviceChangeNotification function (faxroute.h)
-
 description: The fax service calls the FaxRouteDeviceChangeNotification function to inform a fax routing extension DLL that a fax device has been removed from the fax server, or that a new fax device has been installed.
 old-location: fax\_mfax_faxroutedevicechangenotification.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_7gry.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxRouteDeviceChangeNotification, FaxRouteDeviceChangeNotification function [Fax Service], _mfax_faxroutedevicechangenotification, fax._mfax_faxroutedevicechangenotification, faxroute/FaxRouteDeviceChangeNotification
 ms.topic: function
-f1_keywords: 
- - "faxroute/FaxRouteDeviceChangeNotification"
+f1_keywords:
+- faxroute/FaxRouteDeviceChangeNotification
 dev_langs:
- - c++
+- c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - FaxRoute.h
+- FaxRoute.h
 api_name:
- - FaxRouteDeviceChangeNotification
+- FaxRouteDeviceChangeNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

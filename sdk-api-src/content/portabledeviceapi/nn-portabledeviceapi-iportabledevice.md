@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDevice
 title: IPortableDevice (portabledeviceapi.h)
-
 description: The IPortableDevice interface provides access to a portable device.
 old-location: wpdsdk\iportabledevice.htm
 tech.root: wpd_sdk
 ms.assetid: 98c48e56-56b8-4800-b52b-ac08f2abf27e
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDevice, IPortableDevice interface [Windows Portable Devices SDK], IPortableDevice interface [Windows Portable Devices SDK],described, IPortableDeviceInterface, portabledeviceapi/IPortableDevice, wpdsdk.iportabledevice
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDevice"
+f1_keywords:
+- portabledeviceapi/IPortableDevice
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice
+- IPortableDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

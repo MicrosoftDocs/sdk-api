@@ -1,19 +1,17 @@
 ---
 UID: NN:bits.IBackgroundCopyError
 title: IBackgroundCopyError (bits.h)
-
 description: Use the IBackgroundCopyError interface to determine the cause of an error and if the transfer process can proceed.
 old-location: bits\ibackgroundcopyerror.htm
 tech.root: Bits
 ms.assetid: a0b9e887-84d5-4f67-a65c-6a807c50dafd
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyError, IBackgroundCopyError interface [BITS], IBackgroundCopyError interface [BITS],described, _drz_ibackgroundcopyerror, bits.ibackgroundcopyerror, bits/IBackgroundCopyError
 ms.topic: interface
-f1_keywords: 
- - "bits/IBackgroundCopyError"
+f1_keywords:
+- bits/IBackgroundCopyError
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError
+- IBackgroundCopyError
 targetos: Windows
 req.typenames: 
 req.redist: 

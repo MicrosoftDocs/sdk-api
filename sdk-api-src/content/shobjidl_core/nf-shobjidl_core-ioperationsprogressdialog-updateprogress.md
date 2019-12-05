@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.UpdateProgress
 title: IOperationsProgressDialog::UpdateProgress (shobjidl_core.h)
-
 description: Updates the current progress dialog, as specified.
 old-location: shell\IOperationsProgressDialog_UpdateProgress.htm
 tech.root: shell
 ms.assetid: 5ff2def3-f320-412c-8f98-bd1a58866d03
-
 ms.date: 12/05/2018
 ms.keywords: IOperationsProgressDialog interface [Windows Shell],UpdateProgress method, IOperationsProgressDialog.UpdateProgress, IOperationsProgressDialog::UpdateProgress, UpdateProgress, UpdateProgress method [Windows Shell], UpdateProgress method [Windows Shell],IOperationsProgressDialog interface, _shell_IOperationsProgressDialog_UpdateProgress, shell.IOperationsProgressDialog_UpdateProgress, shobjidl_core/IOperationsProgressDialog::UpdateProgress
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IOperationsProgressDialog.UpdateProgress"
+f1_keywords:
+- shobjidl_core/IOperationsProgressDialog.UpdateProgress
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IOperationsProgressDialog.UpdateProgress
+- IOperationsProgressDialog.UpdateProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

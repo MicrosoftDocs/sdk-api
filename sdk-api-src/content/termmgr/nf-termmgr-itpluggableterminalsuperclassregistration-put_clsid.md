@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalSuperclassRegistration.put_CLSID
 title: ITPluggableTerminalSuperclassRegistration::put_CLSID (termmgr.h)
-
 description: The put_CLSID method sets the CLSID used to CoCreateInstance the terminal.
 old-location: tapi3\itpluggableterminalsuperclassregistration_put_clsid.htm
 tech.root: Tapi
 ms.assetid: ccb7159d-e838-408b-9565-a9854c4ba592
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassRegistration interface [TAPI 2.2],put_CLSID method, ITPluggableTerminalSuperclassRegistration.put_CLSID, ITPluggableTerminalSuperclassRegistration::put_CLSID, _tapi3_itpluggableterminalsuperclassregistration_put_clsid, put_CLSID, put_CLSID method [TAPI 2.2], put_CLSID method [TAPI 2.2],ITPluggableTerminalSuperclassRegistration interface, tapi3.itpluggableterminalsuperclassregistration_put_clsid, termmgr/ITPluggableTerminalSuperclassRegistration::put_CLSID
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalSuperclassRegistration.put_CLSID"
+f1_keywords:
+- termmgr/ITPluggableTerminalSuperclassRegistration.put_CLSID
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration.put_CLSID
+- ITPluggableTerminalSuperclassRegistration.put_CLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

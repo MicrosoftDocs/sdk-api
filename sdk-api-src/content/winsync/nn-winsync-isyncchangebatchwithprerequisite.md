@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncChangeBatchWithPrerequisite
 title: ISyncChangeBatchWithPrerequisite (winsync.h)
-
 description: Represents metadata about a change batch that is based on the prerequisite knowledge associated with the change batch.
 old-location: winsync\isyncchangebatchwithprerequisite.htm
 tech.root: winsync
 ms.assetid: 29d767cf-3261-4550-8b28-5d3950b8ded1
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchWithPrerequisite, ISyncChangeBatchWithPrerequisite interface [Windows Sync], ISyncChangeBatchWithPrerequisite interface [Windows Sync],described, winsync.isyncchangebatchwithprerequisite, winsync/ISyncChangeBatchWithPrerequisite
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncChangeBatchWithPrerequisite"
+f1_keywords:
+- winsync/ISyncChangeBatchWithPrerequisite
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchWithPrerequisite
+- ISyncChangeBatchWithPrerequisite
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmreports.IFsrmReportJob
 title: IFsrmReportJob (fsrmreports.h)
-
 description: Used to configure a report job.
 old-location: fsrm\ifsrmreportjob.htm
 tech.root: fsrm
 ms.assetid: ea8a3f6b-326b-4c8f-a6fc-7b7525c5543f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob, IFsrmReportJob interface [File Server Resource Manager], IFsrmReportJob interface [File Server Resource Manager],described, fs.ifsrmreportjob, fsrm.ifsrmreportjob, fsrm/IFsrmReportJob
 ms.topic: interface
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob"
+f1_keywords:
+- fsrmreports/IFsrmReportJob
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob
+- IFsrmReportJob
 targetos: Windows
 req.typenames: 
 req.redist: 

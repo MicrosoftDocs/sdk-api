@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_DefaultLength
 title: ICspAlgorithm::get_DefaultLength (certenroll.h)
-
 description: Retrieves the default length of a key.
 old-location: security\icspalgorithm_defaultlength_property.htm
 tech.root: seccertenroll
 ms.assetid: 03a487e0-5ba4-4065-86e9-bed667db6ff9
-
 ms.date: 12/05/2018
 ms.keywords: DefaultLength property [Security], DefaultLength property [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],DefaultLength property, ICspAlgorithm.DefaultLength, ICspAlgorithm.get_DefaultLength, ICspAlgorithm::DefaultLength, ICspAlgorithm::get_DefaultLength, certenroll/ICspAlgorithm::DefaultLength, certenroll/ICspAlgorithm::get_DefaultLength, get_DefaultLength, security.icspalgorithm_defaultlength_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.DefaultLength"
+f1_keywords:
+- certenroll/ICspAlgorithm.DefaultLength
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.DefaultLength
- - ICspAlgorithm.get_DefaultLength
+- ICspAlgorithm.DefaultLength
+- ICspAlgorithm.get_DefaultLength
 targetos: Windows
 req.typenames: 
 req.redist: 

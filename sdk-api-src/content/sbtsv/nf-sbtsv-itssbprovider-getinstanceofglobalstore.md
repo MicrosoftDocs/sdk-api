@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetInstanceOfGlobalStore
 title: ITsSbProvider::GetInstanceOfGlobalStore (sbtsv.h)
-
 description: Retrieves an ITsSbGlobalStore instance of the global store object.
 old-location: termserv\itssbprovider_getinstanceofglobalstore.htm
 tech.root: TermServ
 ms.assetid: e6c83775-56e7-4342-a26a-418f472e190f
-
 ms.date: 12/05/2018
 ms.keywords: GetInstanceOfGlobalStore, GetInstanceOfGlobalStore method [Remote Desktop Services], GetInstanceOfGlobalStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetInstanceOfGlobalStore method, ITsSbProvider.GetInstanceOfGlobalStore, ITsSbProvider::GetInstanceOfGlobalStore, sbtsv/ITsSbProvider::GetInstanceOfGlobalStore, termserv.itssbprovider_getinstanceofglobalstore
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.GetInstanceOfGlobalStore"
+f1_keywords:
+- sbtsv/ITsSbProvider.GetInstanceOfGlobalStore
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.GetInstanceOfGlobalStore
+- ITsSbProvider.GetInstanceOfGlobalStore
 targetos: Windows
 req.typenames: 
 req.redist: 

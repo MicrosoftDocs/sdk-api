@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.AddVisual
 title: IDCompositionVisual::AddVisual (dcomp.h)
-
 description: Adds a new child visual to the children list of this visual.
 old-location: directcomp\idcompositionvisual_addvisual.htm
 tech.root: directcomp
 ms.assetid: e1124df5-7795-49c3-a640-f218cfdd4f1d
-
 ms.date: 12/05/2018
 ms.keywords: AddVisual, AddVisual method [DirectComposition], AddVisual method [DirectComposition],IDCompositionVisual interface, IDCompositionVisual interface [DirectComposition],AddVisual method, IDCompositionVisual.AddVisual, IDCompositionVisual::AddVisual, dcomp/IDCompositionVisual::AddVisual, directcomp.idcompositionvisual_addvisual
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionVisual.AddVisual"
+f1_keywords:
+- dcomp/IDCompositionVisual.AddVisual
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionVisual.AddVisual
+- IDCompositionVisual.AddVisual
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.GetMatrixTransform
 title: IDXGISwapChain2::GetMatrixTransform (dxgi1_3.h)
-
 description: Gets the transform matrix that will be applied to a composition swap chain upon the next present.
 old-location: direct3ddxgi\idxgiswapchain2_getmatrixtransform.htm
 tech.root: direct3ddxgi
 ms.assetid: 90302283-BB0A-44A9-8CD2-591571EF74ED
-
 ms.date: 12/05/2018
 ms.keywords: GetMatrixTransform, GetMatrixTransform method [DXGI], GetMatrixTransform method [DXGI],IDXGISwapChain2 interface, IDXGISwapChain2 interface [DXGI],GetMatrixTransform method, IDXGISwapChain2.GetMatrixTransform, IDXGISwapChain2::GetMatrixTransform, direct3ddxgi.idxgiswapchain2_getmatrixtransform, dxgi1_3/IDXGISwapChain2::GetMatrixTransform
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChain2.GetMatrixTransform"
+f1_keywords:
+- dxgi1_3/IDXGISwapChain2.GetMatrixTransform
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGISwapChain2.GetMatrixTransform
+- IDXGISwapChain2.GetMatrixTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

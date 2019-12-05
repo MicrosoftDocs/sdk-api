@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.AddMarker
 title: IWMHeaderInfo::AddMarker (wmsdkidl.h)
-
 description: The AddMarker method adds a marker, consisting of a name and a specific time, to the header section of the ASF file.
 old-location: wmformat\iwmheaderinfo_addmarker.htm
 tech.root: wmformat
 ms.assetid: cfa111bb-7bbb-448a-b2db-d36637c01a52
-
 ms.date: 12/05/2018
 ms.keywords: AddMarker, AddMarker method [windows Media Format], AddMarker method [windows Media Format],IWMHeaderInfo interface, AddMarker method [windows Media Format],IWMHeaderInfo2 interface, AddMarker method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo interface [windows Media Format],AddMarker method, IWMHeaderInfo.AddMarker, IWMHeaderInfo2 interface [windows Media Format],AddMarker method, IWMHeaderInfo2::AddMarker, IWMHeaderInfo3 interface [windows Media Format],AddMarker method, IWMHeaderInfo3::AddMarker, IWMHeaderInfo::AddMarker, IWMHeaderInfoAddMarker, wmformat.iwmheaderinfo_addmarker, wmsdkidl/IWMHeaderInfo2::AddMarker, wmsdkidl/IWMHeaderInfo3::AddMarker, wmsdkidl/IWMHeaderInfo::AddMarker
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo.AddMarker"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo.AddMarker
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMHeaderInfo.AddMarker
- - IWMHeaderInfo2.AddMarker
- - IWMHeaderInfo3.AddMarker
+- IWMHeaderInfo.AddMarker
+- IWMHeaderInfo2.AddMarker
+- IWMHeaderInfo3.AddMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

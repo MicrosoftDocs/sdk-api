@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientBrush.GetColorInterpolationMode
 title: IXpsOMGradientBrush::GetColorInterpolationMode (xpsobjectmodel.h)
-
 description: Gets the gamma function to be used for color interpolation.
 old-location: xps\ixpsomgradientbrush_getcolorinterpolationmode.htm
 tech.root: printdocs
 ms.assetid: 4e58c019-d89d-472d-9b6f-b335b184f998
-
 ms.date: 12/05/2018
 ms.keywords: GetColorInterpolationMode, GetColorInterpolationMode method [XPS Documents and Packaging], GetColorInterpolationMode method [XPS Documents and Packaging],IXpsOMGradientBrush interface, IXpsOMGradientBrush interface [XPS Documents and Packaging],GetColorInterpolationMode method, IXpsOMGradientBrush.GetColorInterpolationMode, IXpsOMGradientBrush::GetColorInterpolationMode, xps.ixpsomgradientbrush_getcolorinterpolationmode, xpsobjectmodel/IXpsOMGradientBrush::GetColorInterpolationMode
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientBrush.GetColorInterpolationMode"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientBrush.GetColorInterpolationMode
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush.GetColorInterpolationMode
+- IXpsOMGradientBrush.GetColorInterpolationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetConnection.Rename
 title: INetConnection::Rename (netcon.h)
-
 description: The Rename method renames this connection.
 old-location: ics\inetconnection_rename.htm
 tech.root: ics
 ms.assetid: 741261cd-f86f-4889-aa3a-df3598938883
-
 ms.date: 12/05/2018
 ms.keywords: INetConnection interface [ICS/ICF],Rename method, INetConnection.Rename, INetConnection::Rename, Rename, Rename method [ICS/ICF], Rename method [ICS/ICF],INetConnection interface, _ics_inetconnection_rename, ics.inetconnection_rename, netcon/INetConnection::Rename
 ms.topic: method
-f1_keywords: 
- - "netcon/INetConnection.Rename"
+f1_keywords:
+- netcon/INetConnection.Rename
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnection.Rename
+- INetConnection.Rename
 targetos: Windows
 req.typenames: 
 req.redist: 

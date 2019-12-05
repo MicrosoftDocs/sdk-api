@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixTransformation2D
 title: XMMatrixTransformation2D function (directxmath.h)
-
 description: Builds a 2D transformation matrix in the xy plane.
 old-location: dxmath\xmmatrixtransformation2d.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTransformation2D(XMVECTOR,float,XMVECTOR,XMVECTOR,float,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixTransformation2D, XMMatrixTransformation2D, XMMatrixTransformation2D method [DirectX Math Support APIs], dxmath.xmmatrixtransformation2d
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixTransformation2D"
+f1_keywords:
+- directxmath/XMMatrixTransformation2D
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixTransformation2D
+- XMMatrixTransformation2D
 targetos: Windows
 req.typenames: 
 req.redist: 

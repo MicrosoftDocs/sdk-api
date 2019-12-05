@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_DesiredDeceleration
 title: IInertiaProcessor::put_DesiredDeceleration (manipulations.h)
-
 description: The DesiredDeceleration property specifies the desired rate at which translation operations will decelerate.
 old-location: wintouch\iinertiaprocessor_desireddeceleration.htm
 tech.root: wintouch
 ms.assetid: 2ad39e7e-b433-4a40-aea2-53cf23247f25
-
 ms.date: 12/05/2018
 ms.keywords: DesiredDeceleration property [Windows Touch], DesiredDeceleration property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredDeceleration property, IInertiaProcessor.DesiredDeceleration, IInertiaProcessor.put_DesiredDeceleration, IInertiaProcessor::DesiredDeceleration, IInertiaProcessor::get_DesiredDeceleration, IInertiaProcessor::put_DesiredDeceleration, manipulations/IInertiaProcessor::DesiredDeceleration, manipulations/IInertiaProcessor::get_DesiredDeceleration, manipulations/IInertiaProcessor::put_DesiredDeceleration, put_DesiredDeceleration, wintouch.iinertiaprocessor_desireddeceleration
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.DesiredDeceleration"
+f1_keywords:
+- manipulations/IInertiaProcessor.DesiredDeceleration
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.DesiredDeceleration
- - IInertiaProcessor.get_DesiredDeceleration
- - IInertiaProcessor.put_DesiredDeceleration
+- IInertiaProcessor.DesiredDeceleration
+- IInertiaProcessor.get_DesiredDeceleration
+- IInertiaProcessor.put_DesiredDeceleration
 targetos: Windows
 req.typenames: 
 req.redist: 

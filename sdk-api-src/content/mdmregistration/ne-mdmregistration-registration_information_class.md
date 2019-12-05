@@ -1,19 +1,17 @@
 ---
 UID: NE:mdmregistration._REGISTRATION_INFORMATION_CLASS
 title: REGISTRATION_INFORMATION_CLASS (mdmregistration.h)
-
 description: Contains information about the device registration.
 old-location: mdmreg\registration_information_class.htm
 tech.root: MDMReg
 ms.assetid: B19B2E8F-6F1C-4648-97B2-C8D0DB296370
-
 ms.date: 12/05/2018
-ms.keywords: "*PREGISTRATION_INFORMATION_CLASS, DeviceRegistrationBasicInfo, REGISTRATION_INFORMATION_CLASS, REGISTRATION_INFORMATION_CLASS enumeration [MDM Registration], mdmreg.registration_information_class, mdmregistration/DeviceRegistrationBasicInfo, mdmregistration/REGISTRATION_INFORMATION_CLASS"
+ms.keywords: '*PREGISTRATION_INFORMATION_CLASS, DeviceRegistrationBasicInfo, REGISTRATION_INFORMATION_CLASS, REGISTRATION_INFORMATION_CLASS enumeration [MDM Registration], mdmreg.registration_information_class, mdmregistration/DeviceRegistrationBasicInfo, mdmregistration/REGISTRATION_INFORMATION_CLASS'
 ms.topic: enum
-f1_keywords: 
- - "mdmregistration/REGISTRATION_INFORMATION_CLASS"
+f1_keywords:
+- mdmregistration/REGISTRATION_INFORMATION_CLASS
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MDMRegistration.h
+- MDMRegistration.h
 api_name:
- - REGISTRATION_INFORMATION_CLASS
+- REGISTRATION_INFORMATION_CLASS
 targetos: Windows
 req.typenames: REGISTRATION_INFORMATION_CLASS, *PREGISTRATION_INFORMATION_CLASS
 req.redist: 

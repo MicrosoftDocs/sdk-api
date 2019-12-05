@@ -1,19 +1,17 @@
 ---
 UID: NE:xamlom.RenderTargetBitmapOptions
 title: RenderTargetBitmapOptions (xamlom.h)
-
 description: Defines constants that specify what parts of the visual tree should be rendered.
 old-location: xaml_diagnostics\rendertargetbitmapoptions.htm
 tech.root: xaml_diagnostics
 ms.assetid: 02A22436-A11B-4417-9832-1AB0B0FB1FA3
-
 ms.date: 12/05/2018
 ms.keywords: RenderTarget, RenderTargetAndChildren, RenderTargetBitmapOptions, RenderTargetBitmapOptions enumeration, xaml_diagnostics.rendertargetbitmapoptions, xamlom/RenderTarget, xamlom/RenderTargetAndChildren, xamlom/RenderTargetBitmapOptions
 ms.topic: enum
-f1_keywords: 
- - "xamlom/RenderTargetBitmapOptions"
+f1_keywords:
+- xamlom/RenderTargetBitmapOptions
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - RenderTargetBitmapOptions
+- RenderTargetBitmapOptions
 targetos: Windows
 req.typenames: RenderTargetBitmapOptions
 req.redist: 

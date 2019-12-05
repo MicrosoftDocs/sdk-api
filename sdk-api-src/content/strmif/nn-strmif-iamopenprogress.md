@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMOpenProgress
 title: IAMOpenProgress (strmif.h)
-
 description: The IAMOpenProgress interface reports the progress of a file-open operation and enables the application to cancel the operation.Filters that open files over a network can expose this interface.
 old-location: dshow\iamopenprogress.htm
 tech.root: DirectShow
 ms.assetid: 31021c83-ee83-49c3-a089-31184756fb0d
-
 ms.date: 12/05/2018
 ms.keywords: IAMOpenProgress, IAMOpenProgress interface [DirectShow], IAMOpenProgress interface [DirectShow],described, IAMOpenProgressInterface, dshow.iamopenprogress, strmif/IAMOpenProgress
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMOpenProgress"
+f1_keywords:
+- strmif/IAMOpenProgress
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMOpenProgress
+- IAMOpenProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

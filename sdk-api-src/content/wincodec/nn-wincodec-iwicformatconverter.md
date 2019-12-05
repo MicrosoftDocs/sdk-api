@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICFormatConverter
 title: IWICFormatConverter (wincodec.h)
-
 description: Represents an IWICBitmapSource that converts the image data from one pixel format to another, handling dithering and halftoning to indexed formats, palette translation and alpha thresholding.
 old-location: wic\_wic_codec_iwicformatconverter.htm
 tech.root: wic
 ms.assetid: d558aaa7-5962-424c-9e83-363fba09ad50
-
 ms.date: 12/05/2018
 ms.keywords: IWICFormatConverter, IWICFormatConverter interface [Windows Imaging Component], IWICFormatConverter interface [Windows Imaging Component],described, _wic_codec_iwicformatconverter, wic._wic_codec_iwicformatconverter, wincodec/IWICFormatConverter
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICFormatConverter"
+f1_keywords:
+- wincodec/IWICFormatConverter
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICFormatConverter
+- IWICFormatConverter
 targetos: Windows
 req.typenames: 
 req.redist: 

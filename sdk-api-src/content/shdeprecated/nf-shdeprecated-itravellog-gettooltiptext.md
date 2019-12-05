@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.ITravelLog.GetToolTipText
 title: ITravelLog::GetToolTipText (shdeprecated.h)
-
 description: Deprecated. Gets tooltip text for a travel entry, which is used as a Unicode display string in the UI.
 old-location: shell\ITravelLog_GetToolTipText.htm
 tech.root: shell
 ms.assetid: a085fe2e-9658-448c-b659-4ef08896ec77
-
 ms.date: 12/05/2018
 ms.keywords: GetToolTipText, GetToolTipText method [Windows Shell], GetToolTipText method [Windows Shell],ITravelLog interface, ITravelLog interface [Windows Shell],GetToolTipText method, ITravelLog.GetToolTipText, ITravelLog::GetToolTipText, shdeprecated/ITravelLog::GetToolTipText, shell.ITravelLog_GetToolTipText, zone_ITravelLog_GetToolTipText
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/ITravelLog.GetToolTipText"
+f1_keywords:
+- shdeprecated/ITravelLog.GetToolTipText
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - ITravelLog.GetToolTipText
+- ITravelLog.GetToolTipText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldCheckbox
 title: ICredentialProviderCredentialEvents::SetFieldCheckbox (credentialprovider.h)
-
 description: Communicates to the Logon UI or Credential UI that a checkbox field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldCheckbox.htm
 tech.root: shell
 ms.assetid: a2d5e08f-6a23-4633-beef-8507ab66b102
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldCheckbox method, ICredentialProviderCredentialEvents.SetFieldCheckbox, ICredentialProviderCredentialEvents::SetFieldCheckbox, SetFieldCheckbox, SetFieldCheckbox method [Windows Shell], SetFieldCheckbox method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldCheckbox, credentialprovider/ICredentialProviderCredentialEvents::SetFieldCheckbox, shell.ICredentialProviderCredentialEvents_SetFieldCheckbox
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.SetFieldCheckbox"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.SetFieldCheckbox
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.SetFieldCheckbox
+- ICredentialProviderCredentialEvents.SetFieldCheckbox
 targetos: Windows
 req.typenames: 
 req.redist: 

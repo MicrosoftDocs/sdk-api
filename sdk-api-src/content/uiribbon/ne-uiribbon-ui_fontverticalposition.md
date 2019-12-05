@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_FONTVERTICALPOSITION
 title: UI_FONTVERTICALPOSITION (uiribbon.h)
-
 description: Specifies values that identify the vertical-alignment state of a FontControl.
 old-location: windowsribbon\windowsribbon_ui_fontverticalposition.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontverticalposition.htm
-
 ms.date: 12/05/2018
 ms.keywords: UI_FONTVERTICALPOSITION, UI_FONTVERTICALPOSITION enumeration [Windows Ribbon], UI_FONTVERTICALPOSITION_NOTAVAILABLE, UI_FONTVERTICALPOSITION_NOTSET, UI_FONTVERTICALPOSITION_SUBSCRIPT, UI_FONTVERTICALPOSITION_SUPERSCRIPT, scenicintent_UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION, uiribbon/UI_FONTVERTICALPOSITION_NOTAVAILABLE, uiribbon/UI_FONTVERTICALPOSITION_NOTSET, uiribbon/UI_FONTVERTICALPOSITION_SUBSCRIPT, uiribbon/UI_FONTVERTICALPOSITION_SUPERSCRIPT, windowsribbon.windowsribbon_ui_fontverticalposition
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_FONTVERTICALPOSITION"
+f1_keywords:
+- uiribbon/UI_FONTVERTICALPOSITION
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_FONTVERTICALPOSITION
+- UI_FONTVERTICALPOSITION
 targetos: Windows
 req.typenames: UI_FONTVERTICALPOSITION
 req.redist: 

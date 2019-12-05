@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.GetAt
 title: IXpsOMGradientStopCollection::GetAt (xpsobjectmodel.h)
-
 description: Gets an IXpsOMGradientStop interface pointer from a specified location in the collection.
 old-location: xps\ixpsomgradientstopcollection_getat.htm
 tech.root: printdocs
 ms.assetid: 5e75d595-0124-4239-b53e-f1b8101d2dcf
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [XPS Documents and Packaging], GetAt method [XPS Documents and Packaging],IXpsOMGradientStopCollection interface, IXpsOMGradientStopCollection interface [XPS Documents and Packaging],GetAt method, IXpsOMGradientStopCollection.GetAt, IXpsOMGradientStopCollection::GetAt, xps.ixpsomgradientstopcollection_getat, xpsobjectmodel/IXpsOMGradientStopCollection::GetAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGradientStopCollection.GetAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGradientStopCollection.GetAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStopCollection.GetAt
+- IXpsOMGradientStopCollection.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

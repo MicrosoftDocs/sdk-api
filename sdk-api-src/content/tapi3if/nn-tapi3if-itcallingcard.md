@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITCallingCard
 title: ITCallingCard (tapi3if.h)
-
 description: The ITCallingCard interface provides methods to retrieve information concerning telephony calling cards.
 old-location: tapi3\itcallingcard.htm
 tech.root: Tapi
 ms.assetid: 09787cd2-56b5-4ed2-8783-f3c53ce2cc66
-
 ms.date: 12/05/2018
 ms.keywords: ITCallingCard, ITCallingCard interface [TAPI 2.2], ITCallingCard interface [TAPI 2.2],described, _tapi3_itcallingcard, tapi3.itcallingcard, tapi3if/ITCallingCard
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITCallingCard"
+f1_keywords:
+- tapi3if/ITCallingCard
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallingCard
+- ITCallingCard
 targetos: Windows
 req.typenames: 
 req.redist: 

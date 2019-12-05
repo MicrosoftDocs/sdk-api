@@ -1,19 +1,17 @@
 ---
 UID: NC:rasdlg.RasCustomDialDlgFn
 title: RasCustomDialDlgFn (rasdlg.h)
-
 description: The RasCustomDialDlg function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom RAS connection dialog boxes.
 old-location: rras\rascustomdialdlg.htm
 tech.root: RRAS
 ms.assetid: d1f4715a-a31c-4346-ac0a-83f2c58e8cc1
-
 ms.date: 12/05/2018
 ms.keywords: RCD_Logon, RasCustomDialDlg, RasCustomDialDlg callback function [RAS], RasCustomDialDlgA, RasCustomDialDlgFn, RasCustomDialDlgFn callback, RasCustomDialDlgW, _ras_rascustomdialdlg, rasdlg/RasCustomDialDlg, rasdlg/RasCustomDialDlgA, rasdlg/RasCustomDialDlgW, rras.rascustomdialdlg
 ms.topic: callback
-f1_keywords: 
- - "rasdlg/RasCustomDialDlg"
+f1_keywords:
+- rasdlg/RasCustomDialDlg
 dev_langs:
- - c++
+- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rasdlg.h
+- Rasdlg.h
 api_name:
- - RasCustomDialDlg
- - RasCustomDialDlgA
- - RasCustomDialDlgW
+- RasCustomDialDlg
+- RasCustomDialDlgA
+- RasCustomDialDlgW
 targetos: Windows
 req.typenames: 
 req.redist: 

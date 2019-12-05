@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetTypeKind
 title: ITypeInfo2::GetTypeKind (oaidl.h)
-
 description: Returns the TYPEKIND enumeration quickly, without doing any allocations.
 old-location: automat\itypeinfo2_gettypekind.htm
 tech.root: automat
 ms.assetid: 2ad42274-1952-44b4-ac11-93eacc10a9a9
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeKind, GetTypeKind method [Automation], GetTypeKind method [Automation],ITypeInfo2 interface, ITypeInfo2 interface [Automation],GetTypeKind method, ITypeInfo2.GetTypeKind, ITypeInfo2::GetTypeKind, _oa96_ITypeInfo2_GetTypeKind, automat.itypeinfo2_gettypekind, oaidl/ITypeInfo2::GetTypeKind
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo2.GetTypeKind"
+f1_keywords:
+- oaidl/ITypeInfo2.GetTypeKind
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo2.GetTypeKind
+- ITypeInfo2.GetTypeKind
 targetos: Windows
 req.typenames: 
 req.redist: 

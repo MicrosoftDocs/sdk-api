@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IDiscFormat2Data
 title: IDiscFormat2Data (imapi2.h)
-
 description: Use this interface to write a data stream to a disc.
 old-location: imapi\idiscformat2data.htm
 tech.root: imapi
 ms.assetid: 6bb871c2-1a6e-4cf6-94e1-7a566ce7a88e
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data, IDiscFormat2Data interface [IMAPI], IDiscFormat2Data interface [IMAPI],described, imapi.idiscformat2data, imapi2/IDiscFormat2Data
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IDiscFormat2Data"
+f1_keywords:
+- imapi2/IDiscFormat2Data
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data
+- IDiscFormat2Data
 targetos: Windows
 req.typenames: 
 req.redist: 

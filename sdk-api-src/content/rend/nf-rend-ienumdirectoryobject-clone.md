@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.IEnumDirectoryObject.Clone
 title: IEnumDirectoryObject::Clone (rend.h)
-
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: tapi3\ienumdirectoryobject_clone.htm
 tech.root: Tapi
 ms.assetid: 2be8430e-2968-416f-9503-b77d6abd6a12
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [TAPI 2.2], Clone method [TAPI 2.2],IEnumDirectoryObject interface, IEnumDirectoryObject interface [TAPI 2.2],Clone method, IEnumDirectoryObject.Clone, IEnumDirectoryObject::Clone, _tapi3_ienumdirectoryobject_clone, rend/IEnumDirectoryObject::Clone, tapi3.ienumdirectoryobject_clone
 ms.topic: method
-f1_keywords: 
- - "rend/IEnumDirectoryObject.Clone"
+f1_keywords:
+- rend/IEnumDirectoryObject.Clone
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - IEnumDirectoryObject.Clone
+- IEnumDirectoryObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,7 +1,6 @@
 ---
 UID: TP:helpapi
 ms.assetid: 1b5f5d17-33ea-3fb2-9ebe-2acc1f3521bc
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

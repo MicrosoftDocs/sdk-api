@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.SetSyncTolerance
 title: IWMWriterAdvanced::SetSyncTolerance (wmsdkidl.h)
-
 description: The SetSyncTolerance method sets the amount of time that the inputs can fall out of synchronization before the samples are discarded.
 old-location: wmformat\iwmwriteradvanced_setsynctolerance.htm
 tech.root: wmformat
 ms.assetid: d60020bf-52f1-46a0-aeae-367e3b179fac
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced interface [windows Media Format],SetSyncTolerance method, IWMWriterAdvanced.SetSyncTolerance, IWMWriterAdvanced::SetSyncTolerance, IWMWriterAdvancedSetSyncTolerance, SetSyncTolerance, SetSyncTolerance method [windows Media Format], SetSyncTolerance method [windows Media Format],IWMWriterAdvanced interface, wmformat.iwmwriteradvanced_setsynctolerance, wmsdkidl/IWMWriterAdvanced::SetSyncTolerance
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced.SetSyncTolerance"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced.SetSyncTolerance
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced.SetSyncTolerance
+- IWMWriterAdvanced.SetSyncTolerance
 targetos: Windows
 req.typenames: 
 req.redist: 

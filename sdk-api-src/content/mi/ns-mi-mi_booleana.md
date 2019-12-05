@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_BooleanA
 title: MI_BooleanA (mi.h)
-
 description: Represents an array of MI_Boolean types.
 old-location: wmi_v2\mi_booleana.htm
 tech.root: wmi_v2
 ms.assetid: d6e9c3b2-b9ef-4e59-bf9c-d36bf9a8d619
-
 ms.date: 12/05/2018
 ms.keywords: MI_BooleanA, MI_BooleanA structure [Windows Management Infrastructure (MI)], mi/MI_BooleanA, wmi._mi_booleana, wmi_v2.mi_booleana
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_BooleanA"
+f1_keywords:
+- mi/MI_BooleanA
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_BooleanA
+- MI_BooleanA
 targetos: Windows
 req.typenames: MI_BooleanA
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

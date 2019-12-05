@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceSet.Delete
 title: IOpcSignatureReferenceSet::Delete (msopc.h)
-
 description: Deletes a specified IOpcSignatureReference interface pointer from the set.
 old-location: opc\iopcsignaturereferenceset_delete.htm
 tech.root: OPC
 ms.assetid: 62e47da4-9486-41f4-9e56-23288c0c406b
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Open Packaging Conventions], Delete method [Open Packaging Conventions],IOpcSignatureReferenceSet interface, IOpcSignatureReferenceSet interface [Open Packaging Conventions],Delete method, IOpcSignatureReferenceSet.Delete, IOpcSignatureReferenceSet::Delete, msopc/IOpcSignatureReferenceSet::Delete, opc.iopcsignaturereferenceset_delete
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReferenceSet.Delete"
+f1_keywords:
+- msopc/IOpcSignatureReferenceSet.Delete
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReferenceSet.Delete
+- IOpcSignatureReferenceSet.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

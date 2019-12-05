@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFPluginControl2
 title: IMFPluginControl2 (mfobjects.h)
-
 description: Controls how media sources and transforms are enumerated in Microsoft Media Foundation.
 old-location: mf\imfplugincontrol2.htm
 tech.root: medfound
 ms.assetid: 15BD57FC-7CEF-45DC-AF94-3E54A3A9477A
-
 ms.date: 12/05/2018
 ms.keywords: IMFPluginControl2, IMFPluginControl2 interface [Media Foundation], IMFPluginControl2 interface [Media Foundation],described, mf.imfplugincontrol2, mfobjects/IMFPluginControl2
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFPluginControl2"
+f1_keywords:
+- mfobjects/IMFPluginControl2
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFPluginControl2
+- IMFPluginControl2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsServiceOperations.Pause
 title: IADsServiceOperations::Pause (iads.h)
-
 description: The IADsServiceOperations::Pause method pauses a service started with the IADsServiceOperations::Start method.
 old-location: adsi\iadsserviceoperations_pause.htm
 tech.root: adsi
 ms.assetid: 119ad6df-551c-48f9-8ad4-0ab18f5d939c
-
 ms.date: 12/05/2018
 ms.keywords: IADsServiceOperations interface [ADSI],Pause method, IADsServiceOperations.Pause, IADsServiceOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsServiceOperations interface, _ds_iadsserviceoperations_pause, adsi.iadsserviceoperations__pause, adsi.iadsserviceoperations_pause, iads/IADsServiceOperations::Pause
 ms.topic: method
-f1_keywords: 
- - "iads/IADsServiceOperations.Pause"
+f1_keywords:
+- iads/IADsServiceOperations.Pause
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsServiceOperations.Pause
+- IADsServiceOperations.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

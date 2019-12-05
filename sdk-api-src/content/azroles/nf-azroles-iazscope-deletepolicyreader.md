@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyReader
 title: IAzScope::DeletePolicyReader (azroles.h)
-
 description: The DeletePolicyReader method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy readers.
 old-location: security\iazscope_deletepolicyreader.htm
 tech.root: SecAuthZ
 ms.assetid: c328a838-ae81-463d-8aa5-827071f58747
-
 ms.date: 12/05/2018
 ms.keywords: AzScope object [Security],DeletePolicyReader method, DeletePolicyReader, DeletePolicyReader method [Security], DeletePolicyReader method [Security],AzScope object, DeletePolicyReader method [Security],IAzScope interface, IAzScope interface [Security],DeletePolicyReader method, IAzScope.DeletePolicyReader, IAzScope::DeletePolicyReader, azroles/IAzScope::DeletePolicyReader, security.iazscope_deletepolicyreader
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.DeletePolicyReader"
+f1_keywords:
+- azroles/IAzScope.DeletePolicyReader
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.DeletePolicyReader
- - AzScope.DeletePolicyReader
+- IAzScope.DeletePolicyReader
+- AzScope.DeletePolicyReader
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

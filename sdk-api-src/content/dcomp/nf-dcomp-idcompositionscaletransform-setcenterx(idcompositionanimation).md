@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetCenterX(IDCompositionAnimation)
 title: IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation) (dcomp.h)
-
 description: Animates the value of the CenterX property of a 2D scale transform.
 old-location: directcomp\idcompositionscaletransform_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: EA62C748-A741-49A4-8799-0825811D302F
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionScaleTransform interface [DirectComposition],SetCenterX method, IDCompositionScaleTransform.SetCenterX, IDCompositionScaleTransform.SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX, IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation), IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation*), SetCenterX, SetCenterX method [DirectComposition], SetCenterX method [DirectComposition],IDCompositionScaleTransform interface, dcomp/IDCompositionScaleTransform::SetCenterX, directcomp.idcompositionscaletransform_setcenterx_idcompositionanimation
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionScaleTransform.SetCenterX"
+f1_keywords:
+- dcomp/IDCompositionScaleTransform.SetCenterX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionScaleTransform.SetCenterX
+- IDCompositionScaleTransform.SetCenterX
 targetos: Windows
 req.typenames: 
 req.redist: 

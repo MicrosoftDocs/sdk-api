@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IWbemRefresher
 title: IWbemRefresher (wbemcli.h)
-
 description: Provides an entry point through which refreshable objects such as enumerators or refresher objects, can be refreshed.
 old-location: wmi\iwbemrefresher.htm
 tech.root: WmiSdk
 ms.assetid: cd1d652a-f0ce-401c-9a5e-074e6bb4d9ed
-
 ms.date: 12/05/2018
 ms.keywords: IWbemRefresher, IWbemRefresher interface [Windows Management Instrumentation], IWbemRefresher interface [Windows Management Instrumentation],described, WbemRefresher, _hmm_iwbemrefresher, wbemcli/IWbemRefresher, wmi.iwbemrefresher
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IWbemRefresher"
+f1_keywords:
+- wbemcli/IWbemRefresher
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemuuid.lib
- - Wbemuuid.dll
+- Wbemuuid.lib
+- Wbemuuid.dll
 api_name:
- - IWbemRefresher
- - WbemRefresher
+- IWbemRefresher
+- WbemRefresher
 targetos: Windows
 req.typenames: 
 req.redist: 

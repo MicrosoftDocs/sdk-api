@@ -1,19 +1,17 @@
 ---
 UID: NN:dsadmin.IDsAdminNotifyHandler
 title: IDsAdminNotifyHandler (dsadmin.h)
-
 description: The IDsAdminNotifyHandler interface is implemented by an Active Directory administrative notification handler.
 old-location: ad\idsadminnotifyhandler.htm
 tech.root: ad
 ms.assetid: d55e1473-8e51-441e-bd22-63208b294e14
-
 ms.date: 12/05/2018
 ms.keywords: IDsAdminNotifyHandler, IDsAdminNotifyHandler interface [Active Directory], IDsAdminNotifyHandler interface [Active Directory],described, _glines_idsadminnotifyhandler, ad.idsadminnotifyhandler, dsadmin/IDsAdminNotifyHandler
 ms.topic: interface
-f1_keywords: 
- - "dsadmin/IDsAdminNotifyHandler"
+f1_keywords:
+- dsadmin/IDsAdminNotifyHandler
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler
+- IDsAdminNotifyHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

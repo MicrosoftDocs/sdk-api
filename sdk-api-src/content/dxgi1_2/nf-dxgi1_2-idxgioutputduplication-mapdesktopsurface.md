@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutputDuplication.MapDesktopSurface
 title: IDXGIOutputDuplication::MapDesktopSurface (dxgi1_2.h)
-
 description: Provides the CPU with efficient access to a desktop image if that desktop image is already in system memory.
 old-location: direct3ddxgi\idxgioutputduplication_mapdesktopsurface.htm
 tech.root: direct3ddxgi
 ms.assetid: 1FFFF954-0AD2-418E-B0CC-D674994C3CCE
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],MapDesktopSurface method, IDXGIOutputDuplication.MapDesktopSurface, IDXGIOutputDuplication::MapDesktopSurface, MapDesktopSurface, MapDesktopSurface method [DXGI], MapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_mapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::MapDesktopSurface
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIOutputDuplication.MapDesktopSurface"
+f1_keywords:
+- dxgi1_2/IDXGIOutputDuplication.MapDesktopSurface
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIOutputDuplication.MapDesktopSurface
+- IDXGIOutputDuplication.MapDesktopSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

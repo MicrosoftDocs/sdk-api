@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevices.get_Item
 title: IFaxDevices::get_Item (faxcomex.h)
-
 description: The IFaxDevices::get_Item method returns a FaxDevice object from the FaxDevices collection, using its index.
 old-location: fax\_mfax_faxdevices_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5j8t_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDevices interface [Fax Service],get_Item method, IFaxDevices.get_Item, IFaxDevices::get_Item, _mfax_faxdevices.item_cpp, fax._mfax_faxdevices_item_cpp, faxcomex/IFaxDevices::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxDevices interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevices.get_Item"
+f1_keywords:
+- faxcomex/IFaxDevices.get_Item
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevices.get_Item
+- IFaxDevices.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

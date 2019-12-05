@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3D9.CreateDevice
 title: IDirect3D9::CreateDevice (d3d9.h)
-
 description: Creates a device to represent the display adapter.
 old-location: direct3d9\idirect3d9__createdevice.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9__createdevice.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateDevice, CreateDevice method [Direct3D 9], CreateDevice method [Direct3D 9],IDirect3D9 interface, IDirect3D9 interface [Direct3D 9],CreateDevice method, IDirect3D9.CreateDevice, IDirect3D9::CreateDevice, d3d9helper/IDirect3D9::CreateDevice, direct3d9.idirect3d9__createdevice, f1a706e0-42fb-ed6e-c0c8-07fa6aef658a
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3D9.CreateDevice"
+f1_keywords:
+- d3d9/IDirect3D9.CreateDevice
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3D9.CreateDevice
+- IDirect3D9.CreateDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

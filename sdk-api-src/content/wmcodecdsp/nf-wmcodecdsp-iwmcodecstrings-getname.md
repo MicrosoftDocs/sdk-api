@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecStrings.GetName
 title: IWMCodecStrings::GetName (wmcodecdsp.h)
-
 description: Retrieves the name of a codec.
 old-location: mf\iwmcodecstringsgetname.htm
 tech.root: medfound
 ms.assetid: 12422e46-dfde-4a0f-8988-567a42f5a212
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Media Foundation], GetName method [Media Foundation],IWMCodecStrings interface, IWMCodecStrings interface [Media Foundation],GetName method, IWMCodecStrings.GetName, IWMCodecStrings::GetName, codecapi.iwmcodecstringsgetname, mf.iwmcodecstringsgetname, wmcodecdsp/IWMCodecStrings::GetName
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMCodecStrings.GetName"
+f1_keywords:
+- wmcodecdsp/IWMCodecStrings.GetName
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMCodecStrings.GetName
+- IWMCodecStrings.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

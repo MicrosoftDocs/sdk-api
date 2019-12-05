@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrAsyncClientCall2
 title: NdrAsyncClientCall2 function (rpcndr.h)
-
 description: NdrAsyncClientCall2 may be altered or unavailable.
 old-location: rpc\ndrasyncclientcall2.htm
 tech.root: Rpc
 ms.assetid: 0EBBE464-14D9-4A44-ADD4-1250FDBC02F1
-
 ms.date: 12/05/2018
 ms.keywords: NdrAsyncClientCall2, NdrAsyncClientCall2 function [RPC], rpc.ndrasyncclientcall2, rpcndr/NdrAsyncClientCall2
 ms.topic: function
-f1_keywords: 
- - "rpcndr/NdrAsyncClientCall2"
+f1_keywords:
+- rpcndr/NdrAsyncClientCall2
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - NdrAsyncClientCall2
+- NdrAsyncClientCall2
 targetos: Windows
 req.typenames: 
 req.redist: 

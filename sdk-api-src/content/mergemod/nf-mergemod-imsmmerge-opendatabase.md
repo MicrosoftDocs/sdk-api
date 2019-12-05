@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmMerge.OpenDatabase
 title: IMsmMerge::OpenDatabase (mergemod.h)
-
 description: The OpenDatabase method opens a Windows Installer installation database, located at a specified path, that is to be merged with a module. For more information, see the OpenDatabase method of the Merge object.
 old-location: setup\imsmmerge_opendatabase.htm
 tech.root: Msi
 ms.assetid: cafe02a0-2e86-43f6-9cde-e3dd23bdfc4c
-
 ms.date: 12/05/2018
 ms.keywords: IMsmMerge interface,OpenDatabase method, IMsmMerge.OpenDatabase, IMsmMerge::OpenDatabase, OpenDatabase, OpenDatabase method, OpenDatabase method,IMsmMerge interface, _msi_opendatabase_function, mergemod/IMsmMerge::OpenDatabase, setup.imsmmerge_opendatabase
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmMerge.OpenDatabase"
+f1_keywords:
+- mergemod/IMsmMerge.OpenDatabase
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmMerge.OpenDatabase
+- IMsmMerge.OpenDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_VALUE
 title: CLUSPROP_VALUE (clusapi.h)
-
 description: Describes the syntax and length of a data value used in a value list. The CLUSPROP_VALUE structure is used as a generic header in all of the structures that describe data of a particular type, such as CLUSPROP_BINARY and CLUSPROP_SZ.
 old-location: mscs\clusprop_value.htm
 tech.root: MsCS
 ms.assetid: a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_VALUE, CLUSPROP_VALUE, CLUSPROP_VALUE structure [Failover Cluster], PCLUSPROP_VALUE, PCLUSPROP_VALUE structure pointer [Failover Cluster], _wolf_clusprop_value, clusapi/CLUSPROP_VALUE, clusapi/PCLUSPROP_VALUE, mscs.clusprop_value"
+ms.keywords: '*PCLUSPROP_VALUE, CLUSPROP_VALUE, CLUSPROP_VALUE structure [Failover Cluster], PCLUSPROP_VALUE, PCLUSPROP_VALUE structure pointer [Failover Cluster], _wolf_clusprop_value, clusapi/CLUSPROP_VALUE, clusapi/PCLUSPROP_VALUE, mscs.clusprop_value'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_VALUE"
+f1_keywords:
+- clusapi/CLUSPROP_VALUE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_VALUE
+- CLUSPROP_VALUE
 targetos: Windows
 req.typenames: CLUSPROP_VALUE, *PCLUSPROP_VALUE
 req.redist: 

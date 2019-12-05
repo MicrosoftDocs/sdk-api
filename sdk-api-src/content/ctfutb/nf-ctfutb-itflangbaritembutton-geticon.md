@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemButton.GetIcon
 title: ITfLangBarItemButton::GetIcon (ctfutb.h)
-
 description: ITfLangBarItemButton::GetIcon method
 old-location: tsf\itflangbaritembutton_geticon.htm
 tech.root: TSF
 ms.assetid: 6134f747-a138-4ec4-8a89-c25beddcf319
-
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Text Services Framework], GetIcon method [Text Services Framework],ITfLangBarItemButton interface, ITfLangBarItemButton interface [Text Services Framework],GetIcon method, ITfLangBarItemButton.GetIcon, ITfLangBarItemButton::GetIcon, _tsf_itflangbaritembutton_geticon_ref, ctfutb/ITfLangBarItemButton::GetIcon, tsf.itflangbaritembutton_geticon
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemButton.GetIcon"
+f1_keywords:
+- ctfutb/ITfLangBarItemButton.GetIcon
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemButton.GetIcon
+- ITfLangBarItemButton.GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

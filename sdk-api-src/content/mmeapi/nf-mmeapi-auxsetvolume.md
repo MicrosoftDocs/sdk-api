@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.auxSetVolume
 title: auxSetVolume function (mmeapi.h)
-
 description: The auxSetVolume function sets the volume of the specified auxiliary output device.
 old-location: multimedia\auxsetvolume.htm
 tech.root: Multimedia
 ms.assetid: 886acacd-f2ac-4e75-aa3d-668e6d4fbbf2
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_auxSetVolume, auxSetVolume, auxSetVolume function [Windows Multimedia], mmeapi/auxSetVolume, multimedia.auxsetvolume"
+ms.keywords: _win32_auxSetVolume, auxSetVolume, auxSetVolume function [Windows Multimedia], mmeapi/auxSetVolume, multimedia.auxsetvolume
 ms.topic: function
-f1_keywords: 
- - "mmeapi/auxSetVolume"
+f1_keywords:
+- mmeapi/auxSetVolume
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - auxSetVolume
+- auxSetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

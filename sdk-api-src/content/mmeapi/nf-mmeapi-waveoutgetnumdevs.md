@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutGetNumDevs
 title: waveOutGetNumDevs function (mmeapi.h)
-
 description: The waveOutGetNumDevs function retrieves the number of waveform-audio output devices present in the system.
 old-location: multimedia\waveoutgetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: d9669c1c-36e2-4575-bf88-41c344d9c593
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutGetNumDevs, mmeapi/waveOutGetNumDevs, multimedia.waveoutgetnumdevs, waveOutGetNumDevs, waveOutGetNumDevs function [Windows Multimedia]"
+ms.keywords: _win32_waveOutGetNumDevs, mmeapi/waveOutGetNumDevs, multimedia.waveoutgetnumdevs, waveOutGetNumDevs, waveOutGetNumDevs function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutGetNumDevs"
+f1_keywords:
+- mmeapi/waveOutGetNumDevs
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutGetNumDevs
+- waveOutGetNumDevs
 targetos: Windows
 req.typenames: 
 req.redist: 

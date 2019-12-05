@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportAdd
 title: MprConfigInterfaceTransportAdd function (mprapi.h)
-
 description: The MprConfigInterfaceTransportAdd function adds a transport protocol to an interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportadd.htm
 tech.root: RRAS
 ms.assetid: f4735fd1-031d-4cda-af40-36f55e5796f9
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportAdd, MprConfigInterfaceTransportAdd function [RAS], _mpr_mprconfiginterfacetransportadd, mprapi/MprConfigInterfaceTransportAdd, rras.mprconfiginterfacetransportadd
 ms.topic: function
 f1_keywords:
 - mprapi/MprConfigInterfaceTransportAdd
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

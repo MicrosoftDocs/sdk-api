@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteNode
 title: WsWriteNode function (webservices.h)
-
 description: Writes the specified node to the XML Writer.
 old-location: wsw\wswritenode.htm
 tech.root: wsw
 ms.assetid: ea2e511c-f3a6-415a-8a2d-a49e321b69d7
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteNode, WsWriteNode function [Web Services for Windows], webservices/WsWriteNode, wsw.wswritenode
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteNode"
+f1_keywords:
+- webservices/WsWriteNode
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteNode
+- WsWriteNode
 targetos: Windows
 req.typenames: 
 req.redist: 

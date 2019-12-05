@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_KeyingMaterial
 title: SecPkgContext_KeyingMaterial (schannel.h)
-
 description: The SecPkgContext_KeyingMaterial structure.
 old-location: security\secpkgcontext_keyingmaterial.htm
 tech.root: SecAuthN
 ms.assetid: 2F8C4316-FC03-473C-8A97-83665B3271AC
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial structure pointer [Security], SecPkgContext_KeyingMaterial, SecPkgContext_KeyingMaterial structure [Security], SecPkgContext_KeyingMaterialA, SecPkgContext_KeyingMaterialW, _SecPkgContext_KeyingMaterialInfo, schannel/PSecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterialA, schannel/SecPkgContext_KeyingMaterialW, security.secpkgcontext_keyingmaterial"
+ms.keywords: '*PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial structure pointer [Security], SecPkgContext_KeyingMaterial, SecPkgContext_KeyingMaterial structure [Security], SecPkgContext_KeyingMaterialA, SecPkgContext_KeyingMaterialW, _SecPkgContext_KeyingMaterialInfo, schannel/PSecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterialA, schannel/SecPkgContext_KeyingMaterialW, security.secpkgcontext_keyingmaterial'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_KeyingMaterial"
+f1_keywords:
+- schannel/SecPkgContext_KeyingMaterial
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - schannel.h
+- schannel.h
 api_name:
- - SecPkgContext_KeyingMaterial
- - SecPkgContext_KeyingMaterialA
- - SecPkgContext_KeyingMaterialW
+- SecPkgContext_KeyingMaterial
+- SecPkgContext_KeyingMaterialA
+- SecPkgContext_KeyingMaterialW
 targetos: Windows
 req.typenames: SecPkgContext_KeyingMaterial, *PSecPkgContext_KeyingMaterial
 req.redist: 

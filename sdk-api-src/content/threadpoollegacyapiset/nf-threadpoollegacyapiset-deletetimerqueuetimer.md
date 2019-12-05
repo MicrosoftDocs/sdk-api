@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoollegacyapiset.DeleteTimerQueueTimer
 title: DeleteTimerQueueTimer function (threadpoollegacyapiset.h)
-
 description: Removes a timer from the timer queue and optionally waits for currently running timer callback functions to complete before deleting the timer.
 old-location: base\deletetimerqueuetimer.htm
 tech.root: Sync
 ms.assetid: d830fa1f-504a-4921-865c-34dbf0256720
-
 ms.date: 12/05/2018
 ms.keywords: DeleteTimerQueueTimer, DeleteTimerQueueTimer function, _win32_deletetimerqueuetimer, base.deletetimerqueuetimer, threadpoollegacyapiset/DeleteTimerQueueTimer, winbase/DeleteTimerQueueTimer
 ms.topic: function
-f1_keywords: 
- - "threadpoollegacyapiset/DeleteTimerQueueTimer"
+f1_keywords:
+- threadpoollegacyapiset/DeleteTimerQueueTimer
 dev_langs:
- - c++
+- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - DeleteTimerQueueTimer
+- DeleteTimerQueueTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

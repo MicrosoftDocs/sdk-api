@@ -1,19 +1,17 @@
 ---
 UID: NS:mmreg.pcmwaveformat_tag
 title: PCMWAVEFORMAT (mmreg.h)
-
 description: The PCMWAVEFORMAT structure describes the data format for PCM waveform-audio data. This structure has been superseded by the WAVEFORMATEX structure.
 old-location: multimedia\pcmwaveformat.htm
 tech.root: Multimedia
 ms.assetid: c09dc3f0-e1bc-4643-9b27-bcf1dcc5710c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag"
+ms.keywords: '*LPPCMWAVEFORMAT, *NPPCMWAVEFORMAT, *PPCMWAVEFORMAT, PCMWAVEFORMAT, PCMWAVEFORMAT structure [Windows Multimedia], _win32_PCMWAVEFORMAT_str, mmeapi/PCMWAVEFORMAT, multimedia.pcmwaveformat, pcmwaveformat_tag'
 ms.topic: struct
-f1_keywords: 
- - "mmreg/PCMWAVEFORMAT"
+f1_keywords:
+- mmreg/PCMWAVEFORMAT
 dev_langs:
- - c++
+- c++
 req.header: mmreg.h
 req.include-header: Mmreg.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - PCMWAVEFORMAT
+- PCMWAVEFORMAT
 targetos: Windows
 req.typenames: PCMWAVEFORMAT
 req.redist: 

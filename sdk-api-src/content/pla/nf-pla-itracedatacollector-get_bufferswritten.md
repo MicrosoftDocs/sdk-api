@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_BuffersWritten
 title: ITraceDataCollector::get_BuffersWritten (pla.h)
-
 description: Retrieves the number of buffers written to the log file.
 old-location: pla\itracedatacollector_bufferswritten.htm
 tech.root: PLA
 ms.assetid: e150a68f-da6d-4ee1-9ac8-d19d0cae62cc
-
 ms.date: 12/05/2018
 ms.keywords: BuffersWritten property [PLA], BuffersWritten property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],BuffersWritten property, ITraceDataCollector.BuffersWritten, ITraceDataCollector.get_BuffersWritten, ITraceDataCollector::BuffersWritten, ITraceDataCollector::get_BuffersWritten, base.itracedatacollector_bufferswritten, get_BuffersWritten, pla.itracedatacollector_bufferswritten, pla/ITraceDataCollector::BuffersWritten, pla/ITraceDataCollector::get_BuffersWritten
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.BuffersWritten"
+f1_keywords:
+- pla/ITraceDataCollector.BuffersWritten
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.BuffersWritten
- - ITraceDataCollector.get_BuffersWritten
+- ITraceDataCollector.BuffersWritten
+- ITraceDataCollector.get_BuffersWritten
 targetos: Windows
 req.typenames: 
 req.redist: 

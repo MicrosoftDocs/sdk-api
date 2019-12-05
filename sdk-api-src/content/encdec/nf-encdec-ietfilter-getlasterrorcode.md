@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IETFilter.GetLastErrorCode
 title: IETFilter::GetLastErrorCode (encdec.h)
-
 description: Not implemented.
 old-location: mstv\ietfilter_getlasterrorcode.htm
 tech.root: mstv
 ms.assetid: 7982c60b-9be1-49c4-8194-f5e52487275e
-
 ms.date: 12/05/2018
 ms.keywords: GetLastErrorCode, GetLastErrorCode method [Microsoft TV Technologies], GetLastErrorCode method [Microsoft TV Technologies],IETFilter interface, IETFilter interface [Microsoft TV Technologies],GetLastErrorCode method, IETFilter.GetLastErrorCode, IETFilter::GetLastErrorCode, IETFilterGetLastErrorCode, encdec/IETFilter::GetLastErrorCode, mstv.ietfilter_getlasterrorcode
 ms.topic: method
-f1_keywords: 
- - "encdec/IETFilter.GetLastErrorCode"
+f1_keywords:
+- encdec/IETFilter.GetLastErrorCode
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IETFilter.GetLastErrorCode
+- IETFilter.GetLastErrorCode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFace2.GetColorPaletteCount
 title: IDWriteFontFace2::GetColorPaletteCount (dwrite_2.h)
-
 description: Gets the number of color palettes defined by the font.
 old-location: directwrite\idwritefontface2_getcolorpalettecount.htm
 tech.root: DirectWrite
 ms.assetid: 99BB9C72-99B1-427C-B740-55A138189459
-
 ms.date: 12/05/2018
 ms.keywords: GetColorPaletteCount, GetColorPaletteCount method [Direct Write], GetColorPaletteCount method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetColorPaletteCount method, IDWriteFontFace2.GetColorPaletteCount, IDWriteFontFace2::GetColorPaletteCount, directwrite.idwritefontface2_getcolorpalettecount, dwrite_2/IDWriteFontFace2::GetColorPaletteCount
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteFontFace2.GetColorPaletteCount"
+f1_keywords:
+- dwrite_2/IDWriteFontFace2.GetColorPaletteCount
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace2.GetColorPaletteCount
+- IDWriteFontFace2.GetColorPaletteCount
 targetos: Windows
 req.typenames: 
 req.redist: 

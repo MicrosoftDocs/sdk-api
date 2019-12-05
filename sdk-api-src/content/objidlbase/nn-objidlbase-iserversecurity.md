@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IServerSecurity
 title: IServerSecurity (objidlbase.h)
-
 description: Used by a server to help authenticate the client and to manage impersonation of the client.
 old-location: com\iserversecurity.htm
 tech.root: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431
-
 ms.date: 12/05/2018
 ms.keywords: IServerSecurity, IServerSecurity interface [COM], IServerSecurity interface [COM],described, _com_iserversecurity, com.iserversecurity, objidlbase/IServerSecurity
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IServerSecurity"
+f1_keywords:
+- objidlbase/IServerSecurity
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IServerSecurity
+- IServerSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 

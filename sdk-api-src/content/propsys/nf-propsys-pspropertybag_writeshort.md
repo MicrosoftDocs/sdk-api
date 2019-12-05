@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteSHORT
 title: PSPropertyBag_WriteSHORT function (propsys.h)
-
 description: Sets the SHORT value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteSHORT.htm
 tech.root: properties
 ms.assetid: 9A8F0974-E7BE-4d66-8DBF-68744C0124A2
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteSHORT, PSPropertyBag_WriteSHORT function [Windows Properties], properties.PSPropertyBag_WriteSHORT, propsys/PSPropertyBag_WriteSHORT, shell.PSPropertyBag_WriteSHORT, shell_PSPropertyBag_WriteSHORT
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WriteSHORT"
+f1_keywords:
+- propsys/PSPropertyBag_WriteSHORT
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WriteSHORT
+- PSPropertyBag_WriteSHORT
 targetos: Windows
 req.typenames: 
 req.redist: 

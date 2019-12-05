@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.operator-assign(const uint32_t)
 title: XMCOLOR::operator-assign(const uint32_t) (directxpackedvector.h)
-
 description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMCOLOR.
 old-location: dxmath\xmcolor_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.operator = (const uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: XMCOLOR structure [DirectX Math Support APIs],operator = method, XMCOLOR.operator =(const uint32_t), XMCOLOR.operator-assign(const uint32_t), XMCOLOR.operator=, XMCOLOR::operator-assign(const uint32_t), XMCOLOR::operator=, dxmath.xmcolor_operator_eq_2, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMCOLOR structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMCOLOR.operator ="
+f1_keywords:
+- directxpackedvector/XMCOLOR.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMCOLOR.operator =
+- XMCOLOR.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

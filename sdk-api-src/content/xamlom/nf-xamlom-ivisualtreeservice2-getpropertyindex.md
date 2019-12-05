@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.GetPropertyIndex
 title: IVisualTreeService2::GetPropertyIndex (xamlom.h)
-
 description: Gets the property index for the specified property name.
 old-location: xaml_diagnostics\ivisualtreeservice2_getpropertyindex.htm
 tech.root: xaml_diagnostics
 ms.assetid: E23FA0C6-7822-4CEA-AF0C-75B42941B143
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyIndex, GetPropertyIndex method, GetPropertyIndex method,IVisualTreeService2 interface, IVisualTreeService2 interface,GetPropertyIndex method, IVisualTreeService2.GetPropertyIndex, IVisualTreeService2::GetPropertyIndex, xaml_diagnostics.ivisualtreeservice2_getpropertyindex, xamlom/IVisualTreeService2::GetPropertyIndex
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService2.GetPropertyIndex"
+f1_keywords:
+- xamlom/IVisualTreeService2.GetPropertyIndex
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService2.GetPropertyIndex
+- IVisualTreeService2.GetPropertyIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

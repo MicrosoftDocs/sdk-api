@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_DISPLACEMENTMAP_PROP
 title: D2D1_DISPLACEMENTMAP_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Displacement map effect.
 old-location: direct2d\d2d1_displacementmap_prop.htm
 tech.root: Direct2D
 ms.assetid: 29DD521D-3CFE-400B-BA9F-6EFEF0DC6BB7
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_DISPLACEMENTMAP_PROP, D2D1_DISPLACEMENTMAP_PROP enumeration [Direct2D], D2D1_DISPLACEMENTMAP_PROP_SCALE, D2D1_DISPLACEMENTMAP_PROP_X_CHANNEL_SELECT, D2D1_DISPLACEMENTMAP_PROP_Y_CHANNEL_SELECT, d2d1effects/D2D1_DISPLACEMENTMAP_PROP, d2d1effects/D2D1_DISPLACEMENTMAP_PROP_SCALE, d2d1effects/D2D1_DISPLACEMENTMAP_PROP_X_CHANNEL_SELECT, d2d1effects/D2D1_DISPLACEMENTMAP_PROP_Y_CHANNEL_SELECT, direct2d.d2d1_displacementmap_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_DISPLACEMENTMAP_PROP"
+f1_keywords:
+- d2d1effects/D2D1_DISPLACEMENTMAP_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_DISPLACEMENTMAP_PROP
+- D2D1_DISPLACEMENTMAP_PROP
 targetos: Windows
 req.typenames: D2D1_DISPLACEMENTMAP_PROP
 req.redist: 

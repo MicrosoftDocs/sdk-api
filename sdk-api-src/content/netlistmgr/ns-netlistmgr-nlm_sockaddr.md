@@ -1,19 +1,17 @@
 ---
 UID: NS:netlistmgr.NLM_SOCKADDR
 title: NLM_SOCKADDR (netlistmgr.h)
-
 description: NLM_SOCKADDR structure contains the IPv4/IPv6 destination address.
 old-location: nla\nlm_sockaddr.htm
 tech.root: nla
 ms.assetid: BEAF672C-F9B3-4544-878B-BBCF96F502C6
-
 ms.date: 12/05/2018
 ms.keywords: NLM_SOCKADDR, NLM_SOCKADDR structure [Network Awareness], PNLM_SOCKADDR, PNLM_SOCKADDR structure pointer [Network Awareness], netlistmgr/NLM_SOCKADDR, netlistmgr/PNLM_SOCKADDR, nla.nlm_sockaddr
 ms.topic: struct
-f1_keywords: 
- - "netlistmgr/NLM_SOCKADDR"
+f1_keywords:
+- netlistmgr/NLM_SOCKADDR
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - NLM_SOCKADDR
+- NLM_SOCKADDR
 targetos: Windows
 req.typenames: NLM_SOCKADDR
 req.redist: 

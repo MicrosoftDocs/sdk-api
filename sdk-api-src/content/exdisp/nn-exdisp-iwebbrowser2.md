@@ -1,19 +1,17 @@
 ---
 UID: NN:exdisp.IWebBrowser2
 title: IWebBrowser2 (exdisp.h)
-
 description: Exposes methods that are implemented by the WebBrowser control (Microsoft ActiveX control) or implemented by an instance of the InternetExplorer application (OLE Automation).
 old-location: winprog\iwebbrowser2.htm
 tech.root: DevNotes
 ms.assetid: AFED694C-8D7B-4539-9A1A-B2DA546F3A07
-
 ms.date: 12/05/2018
 ms.keywords: IWebBrowser2, IWebBrowser2 interface [Windows API], IWebBrowser2 interface [Windows API],described, exdisp/IWebBrowser2, winprog.iwebbrowser2
 ms.topic: interface
-f1_keywords: 
- - "exdisp/IWebBrowser2"
+f1_keywords:
+- exdisp/IWebBrowser2
 dev_langs:
- - c++
+- c++
 req.header: exdisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shdocvw.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
- - Shdocvw.dll.dll
+- Shdocvw.dll
+- Shdocvw.dll.dll
 api_name:
- - IWebBrowser2
+- IWebBrowser2
 targetos: Windows
 req.typenames: 
 req.redist: 

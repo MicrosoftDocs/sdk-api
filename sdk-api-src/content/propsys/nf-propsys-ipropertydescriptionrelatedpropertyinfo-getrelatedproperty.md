@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
 title: IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty (propsys.h)
-
 description: Retrieves an IPropertyDescription object that represents the related property.
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty.htm
 tech.root: properties
 ms.assetid: 735880dc-4cf2-4f4a-b9fc-f4dddd19415d
-
 ms.date: 12/05/2018
 ms.keywords: GetRelatedProperty, GetRelatedProperty method [Windows Properties], GetRelatedProperty method [Windows Properties],IPropertyDescriptionRelatedPropertyInfo interface, IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties],GetRelatedProperty method, IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty, IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, _shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty, propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty, shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty"
+f1_keywords:
+- propsys/IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
+- IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

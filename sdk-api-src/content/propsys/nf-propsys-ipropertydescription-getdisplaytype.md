@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetDisplayType
 title: IPropertyDescription::GetDisplayType (propsys.h)
-
 description: Gets the current data type used to display the property.
 old-location: properties\IPropertyDescription_GetDisplayType.htm
 tech.root: properties
 ms.assetid: e3147b06-0849-4b49-8153-e120e2220651
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayType, GetDisplayType method [Windows Properties], GetDisplayType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetDisplayType method, IPropertyDescription.GetDisplayType, IPropertyDescription::GetDisplayType, PDDT_BOOLEAN (0x00000002), PDDT_DATETIME (0x00000003), PDDT_ENUMERATED (0x00000004), PDDT_NUMBER (0x00000001), PDDT_STRING (0x00000000), properties.IPropertyDescription_GetDisplayType, propsys/IPropertyDescription::GetDisplayType, shell.IPropertyDescription_GetDisplayType, shell_IPropertyDescription_GetDisplayType
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetDisplayType"
+f1_keywords:
+- propsys/IPropertyDescription.GetDisplayType
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetDisplayType
+- IPropertyDescription.GetDisplayType
 targetos: Windows
 req.typenames: 
 req.redist: 

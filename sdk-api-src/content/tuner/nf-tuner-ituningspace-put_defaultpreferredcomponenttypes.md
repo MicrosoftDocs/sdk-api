@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpace.put_DefaultPreferredComponentTypes
 title: ITuningSpace::put_DefaultPreferredComponentTypes (tuner.h)
-
 description: The put_DefaultPreferredComponentTypes method specifies the default preferred component types for this tuning space.
 old-location: mstv\ituningspace_put_defaultpreferredcomponenttypes.htm
 tech.root: mstv
 ms.assetid: 11ab6f15-1f16-42f9-9d7f-f0e51c83cba3
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpace interface [Microsoft TV Technologies],put_DefaultPreferredComponentTypes method, ITuningSpace.put_DefaultPreferredComponentTypes, ITuningSpace::put_DefaultPreferredComponentTypes, ITuningSpaceput_DefaultPreferredComponentTypes, mstv.ituningspace_put_defaultpreferredcomponenttypes, put_DefaultPreferredComponentTypes, put_DefaultPreferredComponentTypes method [Microsoft TV Technologies], put_DefaultPreferredComponentTypes method [Microsoft TV Technologies],ITuningSpace interface, tuner/ITuningSpace::put_DefaultPreferredComponentTypes
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpace.put_DefaultPreferredComponentTypes"
+f1_keywords:
+- tuner/ITuningSpace.put_DefaultPreferredComponentTypes
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpace.put_DefaultPreferredComponentTypes
+- ITuningSpace.put_DefaultPreferredComponentTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

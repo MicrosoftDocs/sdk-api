@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliFindFirstImage
 title: WdsCliFindFirstImage function (wdsclientapi.h)
-
 description: Starts the enumeration of images stored on a WDS server and returns a find handle that references the first image.
 old-location: wds\wdsclifindfirstimage.htm
 tech.root: wds
 ms.assetid: 1c631022-4c2b-410d-ab24-d0b8f7df10a3
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliFindFirstImage, WdsCliFindFirstImage function [Windows Deployment Services], wds.wdsclifindfirstimage, wdsclientapi/WdsCliFindFirstImage
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliFindFirstImage"
+f1_keywords:
+- wdsclientapi/WdsCliFindFirstImage
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliFindFirstImage
+- WdsCliFindFirstImage
 targetos: Windows
 req.typenames: 
 req.redist: 

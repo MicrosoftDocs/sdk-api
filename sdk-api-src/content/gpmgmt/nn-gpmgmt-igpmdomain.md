@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMDomain
 title: IGPMDomain (gpmgmt.h)
-
 description: Represents a given domain and supports methods that allow you to query scope of management (SOM) objects, create, restore and query GPOs, and create and query WMI filters when you are using the Group Policy Management Console (GPMC) interfaces.
 old-location: gpmc\igpmdomain.htm
 tech.root: gpmc
 ms.assetid: c3639f07-7c8c-4440-ade4-b58abd2586d6
-
 ms.date: 12/05/2018
 ms.keywords: GPMDomain, IGPMDomain, IGPMDomain interface [GPMC], IGPMDomain interface [GPMC],described, _win32_igpmdomain, gpmc.igpmdomain, gpmgmt/IGPMDomain
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMDomain"
+f1_keywords:
+- gpmgmt/IGPMDomain
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMDomain
- - GPMDomain
+- IGPMDomain
+- GPMDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:winsatcominterfacei.IQueryAllWinSATAssessments
 title: IQueryAllWinSATAssessments (winsatcominterfacei.h)
-
 description: Retrieves details about all formal WinSAT assessments.
 old-location: winsat\iqueryallwinsatassessments.htm
 tech.root: WinSAT
 ms.assetid: b78cfaf1-0fce-449c-96f5-76d318f30384
-
 ms.date: 12/05/2018
 ms.keywords: IQueryAllWinSATAssessments, IQueryAllWinSATAssessments interface [WinSAT], IQueryAllWinSATAssessments interface [WinSAT],described, winsat.iqueryallwinsatassessments, winsatcominterfacei/IQueryAllWinSATAssessments
 ms.topic: interface
-f1_keywords: 
- - "winsatcominterfacei/IQueryAllWinSATAssessments"
+f1_keywords:
+- winsatcominterfacei/IQueryAllWinSATAssessments
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IQueryAllWinSATAssessments
+- IQueryAllWinSATAssessments
 targetos: Windows
 req.typenames: 
 req.redist: 

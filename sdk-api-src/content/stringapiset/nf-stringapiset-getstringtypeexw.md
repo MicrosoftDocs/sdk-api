@@ -1,19 +1,17 @@
 ---
 UID: NF:stringapiset.GetStringTypeExW
 title: GetStringTypeExW function (stringapiset.h)
-
 description: Retrieves character type information for the characters in the specified source string.
 old-location: intl\getstringtypeex.htm
 tech.root: Intl
 ms.assetid: e0cd051f-6627-457a-9a83-d71de607f67f
-
 ms.date: 12/05/2018
 ms.keywords: GetStringTypeEx, GetStringTypeEx function [Internationalization for Windows Applications], GetStringTypeExA, GetStringTypeExW, _win32_GetStringTypeEx, _win32_GetStringTypeEx_cpp, intl.getstringtypeex, stringapiset/GetStringTypeEx, stringapiset/GetStringTypeExA, stringapiset/GetStringTypeExW, winui._win32_GetStringTypeEx
 ms.topic: function
-f1_keywords: 
- - "stringapiset/GetStringTypeEx"
+f1_keywords:
+- stringapiset/GetStringTypeEx
 dev_langs:
- - c++
+- c++
 req.header: stringapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,31 +30,31 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll
- - API-MS-Win-Core-String-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Deprecated-APIs-Legacy-l1-2-0.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- API-MS-Win-Deprecated-APIs-Legacy-l1-1-0.dll
+- API-MS-Win-Core-String-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Deprecated-APIs-Legacy-l1-2-0.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetStringTypeEx
- - GetStringTypeExA
- - GetStringTypeExW
+- GetStringTypeEx
+- GetStringTypeExA
+- GetStringTypeExW
 targetos: Windows
 req.typenames: 
 req.redist: 

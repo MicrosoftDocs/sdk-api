@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LoadPackagedLibrary
 title: LoadPackagedLibrary function (winbase.h)
-
 description: Loads the specified packaged module and its dependencies into the address space of the calling process.
 old-location: base\loadpackagedlibrary.htm
 tech.root: Dlls
 ms.assetid: 4a103753-a2c9-487f-b797-01d5f5d489f3
-
 ms.date: 12/05/2018
 ms.keywords: LoadPackagedLibrary, LoadPackagedLibrary function, base.loadpackagedlibrary, winbase/LoadPackagedLibrary
 ms.topic: function
-f1_keywords: 
- - "winbase/LoadPackagedLibrary"
+f1_keywords:
+- winbase/LoadPackagedLibrary
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-LibraryLoader-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-LibraryLoader-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - LoadPackagedLibrary
+- LoadPackagedLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

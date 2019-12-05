@@ -1,19 +1,17 @@
 ---
 UID: NE:gdiplusenums.FlushIntention
 title: FlushIntention (gdiplusenums.h)
-
 description: The FlushIntention enumeration specifies when to flush the queue of graphics operations.
 old-location: gdiplus\_gdiplus_ENUM_FlushIntention.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\flushintention.htm
-
 ms.date: 12/05/2018
 ms.keywords: FlushIntention, FlushIntention enumeration [GDI+], FlushIntentionFlush, FlushIntentionSync, _gdiplus_ENUM_FlushIntention, gdiplus._gdiplus_ENUM_FlushIntention, gdiplusenums/FlushIntention, gdiplusenums/FlushIntentionFlush, gdiplusenums/FlushIntentionSync
 ms.topic: enum
-f1_keywords: 
- - "gdiplusenums/FlushIntention"
+f1_keywords:
+- gdiplusenums/FlushIntention
 dev_langs:
- - c++
+- c++
 req.header: gdiplusenums.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdiplusenums.h
+- Gdiplusenums.h
 api_name:
- - FlushIntention
+- FlushIntention
 targetos: Windows
 req.typenames: 
 req.redist: 

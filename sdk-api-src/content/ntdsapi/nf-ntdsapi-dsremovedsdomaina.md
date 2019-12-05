@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsDomainA
 title: DsRemoveDsDomainA function (ntdsapi.h)
-
 description: Removes all traces of a domain naming context from the global area of the directory service.
 old-location: ad\dsremovedsdomain.htm
 tech.root: ad
 ms.assetid: 0639cc04-2821-4421-8aa7-363621c1d6b5
-
 ms.date: 12/05/2018
 ms.keywords: DsRemoveDsDomain, DsRemoveDsDomain function [Active Directory], DsRemoveDsDomainA, DsRemoveDsDomainW, _glines_dsremovedsdomain, ad.dsremovedsdomain, ntdsapi/DsRemoveDsDomain, ntdsapi/DsRemoveDsDomainA, ntdsapi/DsRemoveDsDomainW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsRemoveDsDomain"
+f1_keywords:
+- ntdsapi/DsRemoveDsDomain
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsRemoveDsDomain
- - DsRemoveDsDomainA
- - DsRemoveDsDomainW
+- DsRemoveDsDomain
+- DsRemoveDsDomainA
+- DsRemoveDsDomainW
 targetos: Windows
 req.typenames: 
 req.redist: 

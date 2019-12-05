@@ -1,19 +1,17 @@
 ---
 UID: NS:oaidl.tagFUNCDESC
 title: FUNCDESC (oaidl.h)
-
 description: Describes a function.
 old-location: automat\funcdesc.htm
 tech.root: automat
 ms.assetid: 9998e0cb-5aa3-4cd8-86eb-34760eb1164e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFUNCDESC, FUNCDESC, FUNCDESC structure [Automation], LPFUNCDESC, LPFUNCDESC structure pointer [Automation], _oa96_FUNCDESC, automat.funcdesc, oaidl/FUNCDESC, oaidl/LPFUNCDESC"
+ms.keywords: '*LPFUNCDESC, FUNCDESC, FUNCDESC structure [Automation], LPFUNCDESC, LPFUNCDESC structure pointer [Automation], _oa96_FUNCDESC, automat.funcdesc, oaidl/FUNCDESC, oaidl/LPFUNCDESC'
 ms.topic: struct
-f1_keywords: 
- - "oaidl/FUNCDESC"
+f1_keywords:
+- oaidl/FUNCDESC
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - FUNCDESC
+- FUNCDESC
 targetos: Windows
 req.typenames: FUNCDESC, *LPFUNCDESC
 req.redist: 

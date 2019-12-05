@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioClient.GetService
 title: IAudioClient::GetService (audioclient.h)
-
 description: The GetService method accesses additional services from the audio client object.
 old-location: coreaudio\iaudioclient_getservice.htm
 tech.root: CoreAudio
 ms.assetid: 233d4471-037f-4df9-bef6-57f2544dedb5
-
 ms.date: 12/05/2018
 ms.keywords: GetService, GetService method [Core Audio], GetService method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetService method, IAudioClient.GetService, IAudioClient::GetService, IAudioClientGetService, audioclient/IAudioClient::GetService, coreaudio.iaudioclient_getservice
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioClient.GetService"
+f1_keywords:
+- audioclient/IAudioClient.GetService
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioClient.GetService
+- IAudioClient.GetService
 targetos: Windows
 req.typenames: 
 req.redist: 

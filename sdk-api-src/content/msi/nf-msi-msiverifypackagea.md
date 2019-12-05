@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiVerifyPackageA
 title: MsiVerifyPackageA function (msi.h)
-
 description: The MsiVerifyPackage function verifies that the given file is an installation package.
 old-location: setup\msiverifypackage.htm
 tech.root: Msi
 ms.assetid: f5b48e5e-cafb-4ab8-8c14-0af5784f2ca6
-
 ms.date: 12/05/2018
 ms.keywords: MsiVerifyPackage, MsiVerifyPackage function, MsiVerifyPackageA, MsiVerifyPackageW, _msi_msiverifypackage, msi/MsiVerifyPackage, msi/MsiVerifyPackageA, msi/MsiVerifyPackageW, setup.msiverifypackage
 ms.topic: function
-f1_keywords: 
- - "msi/MsiVerifyPackage"
+f1_keywords:
+- msi/MsiVerifyPackage
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiVerifyPackage
- - MsiVerifyPackageA
- - MsiVerifyPackageW
+- MsiVerifyPackage
+- MsiVerifyPackageA
+- MsiVerifyPackageW
 targetos: Windows
 req.typenames: 
 req.redist: 

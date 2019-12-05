@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagPrivateData
 title: PrivateData (naptypes.h)
-
 description: Is used to store and retrieve opaque data blobs.
 old-location: nap\privatedata_struct.htm
 tech.root: NAP
 ms.assetid: e2859983-3780-464d-b878-e63d974ba386
-
 ms.date: 12/05/2018
 ms.keywords: PrivateData, PrivateData structure [NAP], nap.privatedata_struct, naptypes/PrivateData
 ms.topic: struct
-f1_keywords: 
- - "naptypes/PrivateData"
+f1_keywords:
+- naptypes/PrivateData
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - PrivateData
+- PrivateData
 targetos: Windows
 req.typenames: PrivateData
 req.redist: 

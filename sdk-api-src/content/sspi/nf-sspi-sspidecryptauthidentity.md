@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiDecryptAuthIdentity
 title: SspiDecryptAuthIdentity function (sspi.h)
-
 description: Decrypts the specified encrypted credential.
 old-location: security\sspidecryptauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: aef0206c-c376-4877-b1a6-5e86d2e35dea
-
 ms.date: 12/05/2018
 ms.keywords: SspiDecryptAuthIdentity, SspiDecryptAuthIdentity function [Security], security.sspidecryptauthidentity, sspi/SspiDecryptAuthIdentity
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiDecryptAuthIdentity"
+f1_keywords:
+- sspi/SspiDecryptAuthIdentity
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiDecryptAuthIdentity
+- SspiDecryptAuthIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

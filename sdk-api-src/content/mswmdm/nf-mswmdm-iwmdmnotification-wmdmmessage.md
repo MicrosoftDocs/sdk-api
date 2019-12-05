@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMNotification.WMDMMessage
 title: IWMDMNotification::WMDMMessage (mswmdm.h)
-
 description: The WMDMMessage method is a callback method implemented by a client, and called by Windows Media Device Manager when a Plug and Play compliant device or storage medium is connected or removed.
 old-location: wmdm\iwmdmnotification_wmdmmessage.htm
 tech.root: WMDM
 ms.assetid: e178db6b-2493-442e-95d1-04609b7726fe
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMNotification interface [windows Media Device Manager],WMDMMessage method, IWMDMNotification.WMDMMessage, IWMDMNotification::WMDMMessage, IWMDMNotificationWMDMMessage, WMDMMessage, WMDMMessage method [windows Media Device Manager], WMDMMessage method [windows Media Device Manager],IWMDMNotification interface, mswmdm/IWMDMNotification::WMDMMessage, wmdm.iwmdmnotification_wmdmmessage
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMNotification.WMDMMessage"
+f1_keywords:
+- mswmdm/IWMDMNotification.WMDMMessage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMNotification.WMDMMessage
+- IWMDMNotification.WMDMMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

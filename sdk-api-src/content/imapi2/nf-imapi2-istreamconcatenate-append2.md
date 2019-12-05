@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Append2
 title: IStreamConcatenate::Append2 (imapi2.h)
-
 description: Appends an array of streams to this stream.
 old-location: imapi\istreamconcatenate_append2.htm
 tech.root: imapi
 ms.assetid: 75e7f4cd-f3c8-494d-b049-7fe32c486659
-
 ms.date: 12/05/2018
 ms.keywords: Append2, Append2 method [IMAPI], Append2 method [IMAPI],IStreamConcatenate interface, IStreamConcatenate interface [IMAPI],Append2 method, IStreamConcatenate.Append2, IStreamConcatenate::Append2, imapi.istreamconcatenate_append2, imapi2/IStreamConcatenate::Append2
 ms.topic: method
-f1_keywords: 
- - "imapi2/IStreamConcatenate.Append2"
+f1_keywords:
+- imapi2/IStreamConcatenate.Append2
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IStreamConcatenate.Append2
+- IStreamConcatenate.Append2
 targetos: Windows
 req.typenames: 
 req.redist: 

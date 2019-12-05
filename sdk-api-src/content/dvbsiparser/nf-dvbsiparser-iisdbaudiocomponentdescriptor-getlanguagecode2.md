@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetLanguageCode2
 title: IIsdbAudioComponentDescriptor::GetLanguageCode2 (dvbsiparser.h)
-
 description: In ES multilingual mode, gets the second three-character ISO 639 language code from an ISDB audio component descriptor.
 old-location: mstv\iisdbaudiocomponentdescriptor_getlanguagecode2.htm
 tech.root: mstv
 ms.assetid: 3016264e-c952-4243-acd2-a075c89e8c2b
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguageCode2, GetLanguageCode2 method [Microsoft TV Technologies], GetLanguageCode2 method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetLanguageCode2 method, IIsdbAudioComponentDescriptor.GetLanguageCode2, IIsdbAudioComponentDescriptor::GetLanguageCode2, dvbsiparser/IIsdbAudioComponentDescriptor::GetLanguageCode2, mstv.iisdbaudiocomponentdescriptor_getlanguagecode2
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbAudioComponentDescriptor.GetLanguageCode2"
+f1_keywords:
+- dvbsiparser/IIsdbAudioComponentDescriptor.GetLanguageCode2
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor.GetLanguageCode2
+- IIsdbAudioComponentDescriptor.GetLanguageCode2
 targetos: Windows
 req.typenames: 
 req.redist: 

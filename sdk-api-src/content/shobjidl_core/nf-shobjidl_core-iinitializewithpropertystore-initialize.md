@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IInitializeWithPropertyStore.Initialize
 title: IInitializeWithPropertyStore::Initialize (shobjidl_core.h)
-
 description: Initializes a handler with an IPropertyStore.
 old-location: shell\IInitializeWithPropertyStore_Initialize.htm
 tech.root: shell
 ms.assetid: 6890873f-d929-42a1-ab75-6f408581d74f
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeWithPropertyStore interface [Windows Shell],Initialize method, IInitializeWithPropertyStore.Initialize, IInitializeWithPropertyStore::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IInitializeWithPropertyStore interface, _shell_IInitializeWithPropertyStore_Initialize, shell.IInitializeWithPropertyStore_Initialize, shobjidl_core/IInitializeWithPropertyStore::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IInitializeWithPropertyStore.Initialize"
+f1_keywords:
+- shobjidl_core/IInitializeWithPropertyStore.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IInitializeWithPropertyStore.Initialize
+- IInitializeWithPropertyStore.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClientInfoV6
 title: DhcpGetClientInfoV6 function (dhcpsapi.h)
-
 description: Retrieves IPv6 address lease information for a specific IPv6 client reservation from the DHCPv6 server.
 old-location: dhcp\dhcpgetclientinfov6.htm
 tech.root: DHCP
 ms.assetid: 6ed68064-9f12-472e-8647-87cc50345199
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetClientInfoV6, DhcpGetClientInfoV6 function [DHCP], dhcp.dhcpgetclientinfov6, dhcpsapi/DhcpGetClientInfoV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetClientInfoV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

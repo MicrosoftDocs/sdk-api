@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime
 title: IDiscFormat2TrackAtOnceEventArgs::get_ElapsedTime (imapi2.h)
-
 description: Retrieves the total elapsed time of the write operation.
 old-location: imapi\idiscformat2trackatonceeventargs_get_elapsedtime.htm
 tech.root: imapi
 ms.assetid: cb7d2336-1ccd-4c0b-bd8b-5405a1de2c12
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnceEventArgs interface [IMAPI],get_ElapsedTime method, IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime, IDiscFormat2TrackAtOnceEventArgs::get_ElapsedTime, get_ElapsedTime, get_ElapsedTime method [IMAPI], get_ElapsedTime method [IMAPI],IDiscFormat2TrackAtOnceEventArgs interface, imapi.idiscformat2trackatonceeventargs_get_elapsedtime, imapi2/IDiscFormat2TrackAtOnceEventArgs::get_ElapsedTime
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime
+- IDiscFormat2TrackAtOnceEventArgs.get_ElapsedTime
 targetos: Windows
 req.typenames: 
 req.redist: 

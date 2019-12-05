@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnregisterPowerSettingNotification
 title: UnregisterPowerSettingNotification function (winuser.h)
-
 description: Unregisters the power setting notification.
 old-location: base\unregisterpowersettingnotification.htm
 tech.root: power
 ms.assetid: de1509f5-cf4c-448e-bb3b-08da6be53bfa
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterPowerSettingNotification, UnregisterPowerSettingNotification function, base.unregisterpowersettingnotification, winuser/UnregisterPowerSettingNotification
 ms.topic: function
-f1_keywords: 
- - "winuser/UnregisterPowerSettingNotification"
+f1_keywords:
+- winuser/UnregisterPowerSettingNotification
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-powermanagement-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-powermanagement-l1-1-0.dll
 api_name:
- - UnregisterPowerSettingNotification
+- UnregisterPowerSettingNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

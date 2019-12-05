@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.RemoveItem
 title: ITfLangBarItemMgr::RemoveItem (ctfutb.h)
-
 description: ITfLangBarItemMgr::RemoveItem method
 old-location: tsf\itflangbaritemmgr_removeitem.htm
 tech.root: TSF
 ms.assetid: 5a56a8f4-8011-4847-869f-c859ec90da3b
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemMgr interface [Text Services Framework],RemoveItem method, ITfLangBarItemMgr.RemoveItem, ITfLangBarItemMgr::RemoveItem, RemoveItem, RemoveItem method [Text Services Framework], RemoveItem method [Text Services Framework],ITfLangBarItemMgr interface, _tsf_itflangbaritemmgr_removeitem_ref, ctfutb/ITfLangBarItemMgr::RemoveItem, tsf.itflangbaritemmgr_removeitem
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarItemMgr.RemoveItem"
+f1_keywords:
+- ctfutb/ITfLangBarItemMgr.RemoveItem
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemMgr.RemoveItem
+- ITfLangBarItemMgr.RemoveItem
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

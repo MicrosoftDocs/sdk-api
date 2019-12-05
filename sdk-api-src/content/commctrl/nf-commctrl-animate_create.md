@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Animate_Create
 title: Animate_Create macro (commctrl.h)
-
 description: Creates an animation control. Animate_Create calls the CreateWindow function to create the animation control.
 old-location: controls\Animate_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\animation\macros\animate_create.htm
-
 ms.date: 12/05/2018
 ms.keywords: Animate_Create, Animate_Create macro [Windows Controls], _win32_Animate_Create, _win32_Animate_Create_cpp, commctrl/Animate_Create, controls.Animate_Create, controls._win32_Animate_Create
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Animate_Create"
+f1_keywords:
+- commctrl/Animate_Create
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Animate_Create
+- Animate_Create
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrSessionCreator
 title: ISyncMgrSessionCreator (syncmgr.h)
-
 description: Exposes a single method through which a handler or external application can notify Sync Center that synchronization has begun, as well as report progress and events.
 old-location: shell\ISyncMgrSessionCreator.htm
 tech.root: shell
 ms.assetid: dc9662c5-42fa-45d2-aadd-93a5fb25d27c
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSessionCreator, ISyncMgrSessionCreator interface [Windows Shell], ISyncMgrSessionCreator interface [Windows Shell],described, _shell_ISyncMgrSessionCreator, shell.ISyncMgrSessionCreator, syncmgr/ISyncMgrSessionCreator
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrSessionCreator"
+f1_keywords:
+- syncmgr/ISyncMgrSessionCreator
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSessionCreator
+- ISyncMgrSessionCreator
 targetos: Windows
 req.typenames: 
 req.redist: 

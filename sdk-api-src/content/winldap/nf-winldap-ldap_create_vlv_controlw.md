@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_create_vlv_controlW
 title: ldap_create_vlv_controlW function (winldap.h)
-
 description: The ldap_create_vlv_control function is used to create the request control (LDAP_CONTROL_VLVREQUEST) on the server.
 old-location: ldap\ldap_create_vlv_control.htm
 tech.root: ldap
 ms.assetid: f4305aa9-e967-45a8-8b8b-49b1e60994e8
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_create_vlv_control, ldap.ldap__create__vlv__control, ldap.ldap_create_vlv_control, ldap_create_vlv_control, ldap_create_vlv_control function [LDAP], ldap_create_vlv_controlA, ldap_create_vlv_controlW, winldap/ldap_create_vlv_control, winldap/ldap_create_vlv_controlA, winldap/ldap_create_vlv_controlW"
+ms.keywords: _ldap_ldap_create_vlv_control, ldap.ldap__create__vlv__control, ldap.ldap_create_vlv_control, ldap_create_vlv_control, ldap_create_vlv_control function [LDAP], ldap_create_vlv_controlA, ldap_create_vlv_controlW, winldap/ldap_create_vlv_control, winldap/ldap_create_vlv_controlA, winldap/ldap_create_vlv_controlW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_create_vlv_control"
+f1_keywords:
+- winldap/ldap_create_vlv_control
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_create_vlv_control
- - ldap_create_vlv_controlA
- - ldap_create_vlv_controlW
+- ldap_create_vlv_control
+- ldap_create_vlv_controlA
+- ldap_create_vlv_controlW
 targetos: Windows
 req.typenames: 
 req.redist: 

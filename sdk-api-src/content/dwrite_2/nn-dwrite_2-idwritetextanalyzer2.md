@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_2.IDWriteTextAnalyzer2
 title: IDWriteTextAnalyzer2 (dwrite_2.h)
-
 description: Analyzes various text properties for complex script processing.
 old-location: directwrite\idwritetextanalyzer2.htm
 tech.root: DirectWrite
 ms.assetid: 62DF6E71-F99D-47E9-A9BE-2A481A60AEDD
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextAnalyzer2, IDWriteTextAnalyzer2 interface [Direct Write], IDWriteTextAnalyzer2 interface [Direct Write],described, directwrite.idwritetextanalyzer2, dwrite_2/IDWriteTextAnalyzer2
 ms.topic: interface
-f1_keywords: 
- - "dwrite_2/IDWriteTextAnalyzer2"
+f1_keywords:
+- dwrite_2/IDWriteTextAnalyzer2
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalyzer2
+- IDWriteTextAnalyzer2
 targetos: Windows
 req.typenames: 
 req.redist: 

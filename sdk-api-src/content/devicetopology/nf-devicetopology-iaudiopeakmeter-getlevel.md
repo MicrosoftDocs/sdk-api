@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IAudioPeakMeter.GetLevel
 title: IAudioPeakMeter::GetLevel (devicetopology.h)
-
 description: The GetLevel method gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.
 old-location: coreaudio\iaudiopeakmeter_getlevel.htm
 tech.root: CoreAudio
 ms.assetid: c5d7d941-b001-49a9-b421-a999f90ddb22
-
 ms.date: 12/05/2018
 ms.keywords: GetLevel, GetLevel method [Core Audio], GetLevel method [Core Audio],IAudioPeakMeter interface, IAudioPeakMeter interface [Core Audio],GetLevel method, IAudioPeakMeter.GetLevel, IAudioPeakMeter::GetLevel, IAudioPeakMeterGetLevel, coreaudio.iaudiopeakmeter_getlevel, devicetopology/IAudioPeakMeter::GetLevel
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IAudioPeakMeter.GetLevel"
+f1_keywords:
+- devicetopology/IAudioPeakMeter.GetLevel
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioPeakMeter.GetLevel
+- IAudioPeakMeter.GetLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

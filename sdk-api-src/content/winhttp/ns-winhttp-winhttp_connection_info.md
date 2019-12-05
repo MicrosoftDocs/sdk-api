@@ -1,19 +1,17 @@
 ---
 UID: NS:winhttp.__unnamed_struct_6
 title: WINHTTP_CONNECTION_INFO (winhttp.h)
-
 description: The WINHTTP_CONNECTION_INFO structure contains the source and destination IP address of the request that generated the response.
 old-location: http\winhttp_connection_info.htm
 tech.root: WinHttp
 ms.assetid: cb6e10f8-a480-41ac-b4d3-f09cfc663780
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_CONNECTION_INFO, WINHTTP_CONNECTION_INFO structure [HTTP], http.winhttp_connection_info, winhttp/WINHTTP_CONNECTION_INFO
 ms.topic: struct
-f1_keywords: 
- - "winhttp/WINHTTP_CONNECTION_INFO"
+f1_keywords:
+- winhttp/WINHTTP_CONNECTION_INFO
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winhttp.h
+- Winhttp.h
 api_name:
- - WINHTTP_CONNECTION_INFO
+- WINHTTP_CONNECTION_INFO
 targetos: Windows
 req.typenames: WINHTTP_CONNECTION_INFO
 req.redist: 

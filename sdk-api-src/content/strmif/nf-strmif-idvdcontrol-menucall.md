@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.MenuCall
 title: IDvdControl::MenuCall (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Displays the specified menu on the screen.
 old-location: dshow\idvdcontrol_menucall.htm
 tech.root: DirectShow
 ms.assetid: b0e27b7a-cf14-4b4c-849e-0fa7f6b1c0ed
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],MenuCall method, IDvdControl.MenuCall, IDvdControl::MenuCall, IDvdControlMenuCall, MenuCall, MenuCall method [DirectShow], MenuCall method [DirectShow],IDvdControl interface, dshow.idvdcontrol_menucall, strmif/IDvdControl::MenuCall
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.MenuCall"
+f1_keywords:
+- strmif/IDvdControl.MenuCall
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.MenuCall
+- IDvdControl.MenuCall
 targetos: Windows
 req.typenames: 
 req.redist: 

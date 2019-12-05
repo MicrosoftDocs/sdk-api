@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMProgress3.Progress3
 title: IWMDMProgress3::Progress3 (mswmdm.h)
-
 description: The Progress3 method is called by Windows Media Device Manager to indicate the status of an action in progress.
 old-location: wmdm\iwmdmprogress3_progress3.htm
 tech.root: WMDM
 ms.assetid: 33f1de9c-f2eb-4b83-89a1-404a8c50ee08
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMProgress3 interface [windows Media Device Manager],Progress3 method, IWMDMProgress3.Progress3, IWMDMProgress3::Progress3, IWMDMProgress3Progress3, Progress3, Progress3 method [windows Media Device Manager], Progress3 method [windows Media Device Manager],IWMDMProgress3 interface, mswmdm/IWMDMProgress3::Progress3, wmdm.iwmdmprogress3_progress3
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMProgress3.Progress3"
+f1_keywords:
+- mswmdm/IWMDMProgress3.Progress3
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMProgress3.Progress3
+- IWMDMProgress3.Progress3
 targetos: Windows
 req.typenames: 
 req.redist: 

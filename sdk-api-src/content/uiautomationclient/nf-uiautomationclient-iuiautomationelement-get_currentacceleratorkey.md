@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAcceleratorKey
 title: IUIAutomationElement::get_CurrentAcceleratorKey (uiautomationclient.h)
-
 description: Retrieves the accelerator key for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAcceleratorKey.htm
 tech.root: WinAuto
 ms.assetid: 393f63b4-e3f4-4b62-af92-1fb9bee079ba
-
 ms.date: 12/05/2018
 ms.keywords: CurrentAcceleratorKey property [Windows Accessibility], CurrentAcceleratorKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CurrentAcceleratorKey property, IUIAutomationElement.CurrentAcceleratorKey, IUIAutomationElement.get_CurrentAcceleratorKey, IUIAutomationElement::CurrentAcceleratorKey, IUIAutomationElement::get_CurrentAcceleratorKey, get_CurrentAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiauto_IUIAutomationElement_CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::CurrentAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CurrentAcceleratorKey, winauto.uiauto_IUIAutomationElement_CurrentAcceleratorKey
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CurrentAcceleratorKey"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CurrentAcceleratorKey
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CurrentAcceleratorKey
- - IUIAutomationElement.get_CurrentAcceleratorKey
+- IUIAutomationElement.CurrentAcceleratorKey
+- IUIAutomationElement.get_CurrentAcceleratorKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRequestMessage
 title: IX509SCEPEnrollment::CreateRequestMessage (certenroll.h)
-
 description: Create a PKCS10 request message with a challenge password. The request message is in an enveloped PKCS7 encrypted with the SCEP server encryption certificate and signed by the server signing certificate.
 old-location: security\ix509scepenrollment_createrequestmessage.htm
 tech.root: seccertenroll
 ms.assetid: b86d6dc3-aa96-45f3-9551-f24c39ea6cbf
-
 ms.date: 12/05/2018
 ms.keywords: CreateRequestMessage, CreateRequestMessage method [Security], CreateRequestMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRequestMessage method, IX509SCEPEnrollment.CreateRequestMessage, IX509SCEPEnrollment::CreateRequestMessage, certenroll/IX509SCEPEnrollment::CreateRequestMessage, security.ix509scepenrollment_createrequestmessage
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SCEPEnrollment.CreateRequestMessage"
+f1_keywords:
+- certenroll/IX509SCEPEnrollment.CreateRequestMessage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.CreateRequestMessage
+- IX509SCEPEnrollment.CreateRequestMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongLongToUShort
 title: LongLongToUShort function (intsafe.h)
-
 description: Converts a value of type LONGLONG to a value of type USHORT.
 old-location: shell\LongLongToUShort.htm
 tech.root: shell
 ms.assetid: fd70ca5d-1dc0-4d2a-b497-a7df9cfba95c
-
 ms.date: 12/05/2018
 ms.keywords: LongLongToUShort, LongLongToUShort function [Windows Shell], intsafe/LongLongToUShort, shell.LongLongToUShort
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongLongToUShort"
+f1_keywords:
+- intsafe/LongLongToUShort
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongLongToUShort
+- LongLongToUShort
 targetos: Windows
 req.typenames: 
 req.redist: 

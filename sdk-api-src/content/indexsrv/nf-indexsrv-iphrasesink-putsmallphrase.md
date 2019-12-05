@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IPhraseSink.PutSmallPhrase
 title: IPhraseSink::PutSmallPhrase (indexsrv.h)
-
 description: Puts a small query-time phrase in the IPhraseSink object for WordBreaker.
 old-location: search\iphrasesink_putsmallphrase.htm
 tech.root: search
 ms.assetid: AC666D12-220B-4D22-997E-CCBE9967B6AB
-
 ms.date: 12/05/2018
 ms.keywords: IPhraseSink interface [search],PutSmallPhrase method, IPhraseSink.PutSmallPhrase, IPhraseSink::PutSmallPhrase, PutSmallPhrase, PutSmallPhrase method [search], PutSmallPhrase method [search],IPhraseSink interface, indexsrv/IPhraseSink::PutSmallPhrase, search.iphrasesink_putsmallphrase
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IPhraseSink.PutSmallPhrase"
+f1_keywords:
+- indexsrv/IPhraseSink.PutSmallPhrase
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - IPhraseSink.PutSmallPhrase
+- IPhraseSink.PutSmallPhrase
 targetos: Windows
 req.typenames: 
 req.redist: 

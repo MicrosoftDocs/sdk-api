@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.Clone
 title: IMFASFStreamPrioritization::Clone (wmcontainer.h)
-
 description: Note  This interface is not implemented in this version of Media Foundation. Creates a copy of the ASF stream prioritization object.
 old-location: mf\imfasfstreamprioritization_clone.htm
 tech.root: medfound
 ms.assetid: e4d7cc00-4483-4aa6-8f26-d25ddc5129bb
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],Clone method, IMFASFStreamPrioritization.Clone, IMFASFStreamPrioritization::Clone, e4d7cc00-4483-4aa6-8f26-d25ddc5129bb, mf.imfasfstreamprioritization_clone, wmcontainer/IMFASFStreamPrioritization::Clone
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamPrioritization.Clone"
+f1_keywords:
+- wmcontainer/IMFASFStreamPrioritization.Clone
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization.Clone
+- IMFASFStreamPrioritization.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

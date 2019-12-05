@@ -1,19 +1,17 @@
 ---
 UID: NF:imm.ImmGetStatusWindowPos
 title: ImmGetStatusWindowPos function (imm.h)
-
 description: Retrieves the position of the status window.
 old-location: intl\immgetstatuswindowpos.htm
 tech.root: Intl
 ms.assetid: 785d8523-14a7-4443-8326-34ca197b1cff
-
 ms.date: 12/05/2018
 ms.keywords: ImmGetStatusWindowPos, ImmGetStatusWindowPos function [Internationalization for Windows Applications], _win32_ImmGetStatusWindowPos, imm/ImmGetStatusWindowPos, intl.immgetstatuswindowpos
 ms.topic: function
-f1_keywords: 
- - "imm/ImmGetStatusWindowPos"
+f1_keywords:
+- imm/ImmGetStatusWindowPos
 dev_langs:
- - c++
+- c++
 req.header: imm.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
+- Imm32.dll
 api_name:
- - ImmGetStatusWindowPos
+- ImmGetStatusWindowPos
 targetos: Windows
 req.typenames: 
 req.redist: 

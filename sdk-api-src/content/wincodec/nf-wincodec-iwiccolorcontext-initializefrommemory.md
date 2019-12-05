@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICColorContext.InitializeFromMemory
 title: IWICColorContext::InitializeFromMemory (wincodec.h)
-
 description: Initializes the color context from a memory block.
 old-location: wic\_wic_codec_iwiccolorcontext_initializefrommemory.htm
 tech.root: wic
 ms.assetid: 0cadc79b-85d0-495e-8309-8d5e3b246242
-
 ms.date: 12/05/2018
 ms.keywords: IWICColorContext interface [Windows Imaging Component],InitializeFromMemory method, IWICColorContext.InitializeFromMemory, IWICColorContext::InitializeFromMemory, InitializeFromMemory, InitializeFromMemory method [Windows Imaging Component], InitializeFromMemory method [Windows Imaging Component],IWICColorContext interface, _wic_codec_iwiccolorcontext_initializefrommemory, wic._wic_codec_iwiccolorcontext_initializefrommemory, wincodec/IWICColorContext::InitializeFromMemory
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICColorContext.InitializeFromMemory"
+f1_keywords:
+- wincodec/IWICColorContext.InitializeFromMemory
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICColorContext.InitializeFromMemory
+- IWICColorContext.InitializeFromMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

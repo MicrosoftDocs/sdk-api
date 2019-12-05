@@ -1,19 +1,17 @@
 ---
 UID: NE:lmaccess._MSA_INFO_LEVEL
 title: MSA_INFO_LEVEL (lmaccess.h)
-
 description: Indicates the level of a managed service account.
 old-location: security\msa_info_level.htm
 tech.root: SecMgmt
 ms.assetid: 06BD0881-30B3-4966-9F6E-29601D86B30F
-
 ms.date: 12/05/2018
-ms.keywords: "*PMSA_INFO_LEVEL, MSA_INFO_LEVEL, MSA_INFO_LEVEL enumeration [Security], MsaInfoLevel0, MsaInfoLevelMax, lmaccess/MSA_INFO_LEVEL, lmaccess/MsaInfoLevel0, lmaccess/MsaInfoLevelMax, security.msa_info_level"
+ms.keywords: '*PMSA_INFO_LEVEL, MSA_INFO_LEVEL, MSA_INFO_LEVEL enumeration [Security], MsaInfoLevel0, MsaInfoLevelMax, lmaccess/MSA_INFO_LEVEL, lmaccess/MsaInfoLevel0, lmaccess/MsaInfoLevelMax, security.msa_info_level'
 ms.topic: enum
-f1_keywords: 
- - "lmaccess/MSA_INFO_LEVEL"
+f1_keywords:
+- lmaccess/MSA_INFO_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lmaccess.h
+- Lmaccess.h
 api_name:
- - MSA_INFO_LEVEL
+- MSA_INFO_LEVEL
 targetos: Windows
 req.typenames: MSA_INFO_LEVEL, *PMSA_INFO_LEVEL
 req.redist: 

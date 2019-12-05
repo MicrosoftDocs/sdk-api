@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStream.UnlockRegion
 title: IStream::UnlockRegion (objidl.h)
-
 description: The UnlockRegion method removes the access restriction on a range of bytes previously restricted with IStream::LockRegion.
 old-location: stg\istream_unlockregion.htm
 tech.root: Stg
 ms.assetid: e34c8d94-b24b-4041-b5dd-2a4ed74b01ec
-
 ms.date: 12/05/2018
 ms.keywords: IStream interface [Structured Storage],UnlockRegion method, IStream.UnlockRegion, IStream::UnlockRegion, UnlockRegion, UnlockRegion method [Structured Storage], UnlockRegion method [Structured Storage],IStream interface, _stg_istream_unlockregion, objidl/IStream::UnlockRegion, stg.istream_unlockregion
 ms.topic: method
-f1_keywords: 
- - "objidl/IStream.UnlockRegion"
+f1_keywords:
+- objidl/IStream.UnlockRegion
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStream.UnlockRegion
+- IStream.UnlockRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

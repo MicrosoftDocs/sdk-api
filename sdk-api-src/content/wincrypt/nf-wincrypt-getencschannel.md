@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.GetEncSChannel
 title: GetEncSChannel function (wincrypt.h)
-
 description: This function is unavailable.
 old-location: security\getencschannel.htm
 tech.root: SecCrypto
 ms.assetid: 4879895e-8bf4-4464-a344-04e4b361c5c7
-
 ms.date: 12/05/2018
 ms.keywords: GetEncSChannel, GetEncSChannel function [Security], security.getencschannel, wincrypt/GetEncSChannel
 ms.topic: function
-f1_keywords: 
- - "wincrypt/GetEncSChannel"
+f1_keywords:
+- wincrypt/GetEncSChannel
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Instrsa5.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Instrsa5.dll
+- Instrsa5.dll
 api_name:
- - GetEncSChannel
+- GetEncSChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

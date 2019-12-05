@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.DrawArc(IN const Pen,IN REAL,IN REAL,IN REAL,IN
 title: Graphics::DrawArc
 description: The Graphics::DrawArc method draws an arc.
 ms.assetid: b4936938-7337-43d8-8cc1-ff1f6d3f6b24
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawArc
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::DrawArc"
+f1_keywords:
+- gdiplusgraphics/Graphics::DrawArc
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::DrawArc
+- Graphics::DrawArc
 ---
 
 # DrawArc(Pen*,REAL,REAL,REAL,REAL,REAL,REAL)

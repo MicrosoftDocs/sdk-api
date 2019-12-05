@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComAppEvents
 title: IComAppEvents (comsvcs.h)
-
 description: Notifies the subscriber if a COM+ server application is started, shut down, or forced to shut down.
 old-location: cos\icomappevents.htm
 tech.root: cossdk
 ms.assetid: 61ae1926-601b-4d97-80e4-d2d2098ced39
-
 ms.date: 12/05/2018
 ms.keywords: IComAppEvents, IComAppEvents interface [COM+], IComAppEvents interface [COM+],described, _dtc_IComAppEvents, comsvcs/IComAppEvents, cos.icomappevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComAppEvents"
+f1_keywords:
+- comsvcs/IComAppEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComAppEvents
+- IComAppEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

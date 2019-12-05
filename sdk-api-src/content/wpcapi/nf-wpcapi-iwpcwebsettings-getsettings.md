@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCWebSettings.GetSettings
 title: IWPCWebSettings::GetSettings (wpcapi.h)
-
 description: Retrieves the web restrictions settings.
 old-location: parcon\iwpcwebsettings_getsettings.htm
 tech.root: parcon
 ms.assetid: bf0c1a54-ac36-45f4-8005-1847dc00bf7f
-
 ms.date: 12/05/2018
 ms.keywords: GetSettings, GetSettings method, GetSettings method,IWPCWebSettings interface, IWPCWebSettings interface,GetSettings method, IWPCWebSettings.GetSettings, IWPCWebSettings::GetSettings, WPCFLAG_WEB_SETTING_DOWNLOADSBLOCKED, WPCFLAG_WEB_SETTING_NOTBLOCKED, parcon.iwpcwebsettings_getsettings, wpcapi/IWPCWebSettings::GetSettings
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCWebSettings.GetSettings"
+f1_keywords:
+- wpcapi/IWPCWebSettings.GetSettings
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCWebSettings.GetSettings
+- IWPCWebSettings.GetSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

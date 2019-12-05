@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetLongProperty
 title: ResUtilGetLongProperty function (resapi.h)
-
 description: TBD. The PRESUTIL_GET_LONG_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetlongproperty.htm
 tech.root: MsCS
 ms.assetid: 8f245708-287c-48eb-aec0-330b175042cf
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_LONG_PROPERTY, PRESUTIL_GET_LONG_PROPERTY function [Failover Cluster], ResUtilGetLongProperty, ResUtilGetLongProperty function [Failover Cluster], mscs.resutilgetlongproperty, resapi/PRESUTIL_GET_LONG_PROPERTY, resapi/ResUtilGetLongProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetLongProperty"
+f1_keywords:
+- resapi/ResUtilGetLongProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ResUtils.lib; ResApi.lib on Windows Server 2008 R2 and Windows Server
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - ResUtilGetLongProperty
+- ResUtilGetLongProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

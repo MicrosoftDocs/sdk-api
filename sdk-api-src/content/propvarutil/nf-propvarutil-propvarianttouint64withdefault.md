@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt64WithDefault
 title: PropVariantToUInt64WithDefault function (propvarutil.h)
-
 description: Extracts ULONGLONG value from a PROPVARIANT structure. If no value exists, then the specified default value is returned.
 old-location: properties\PropVariantToUInt64WithDefault.htm
 tech.root: properties
 ms.assetid: 8ca0e25e-6a3f-41ff-9a4a-7cca9a02d07c
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToUInt64WithDefault, PropVariantToUInt64WithDefault function [Windows Properties], properties.PropVariantToUInt64WithDefault, propvarutil/PropVariantToUInt64WithDefault, shell.PropVariantToUInt64WithDefault, shell_PropVariantToUInt64WithDefault
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToUInt64WithDefault"
+f1_keywords:
+- propvarutil/PropVariantToUInt64WithDefault
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToUInt64WithDefault
+- PropVariantToUInt64WithDefault
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

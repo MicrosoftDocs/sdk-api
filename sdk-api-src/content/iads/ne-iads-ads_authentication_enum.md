@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0018
 title: ADS_AUTHENTICATION_ENUM (iads.h)
-
 description: Specifies authentication options used in ADSI for binding to directory service objects.
 old-location: adsi\ads_authentication_enum.htm
 tech.root: adsi
 ms.assetid: 3a45e0c2-5392-456d-80c9-ebd17d056a85
-
 ms.date: 12/05/2018
 ms.keywords: ADS_AUTHENTICATION_ENUM, ADS_AUTHENTICATION_ENUM enumeration [ADSI], ADS_AUTH_RESERVED, ADS_FAST_BIND, ADS_NO_AUTHENTICATION, ADS_NO_REFERRAL_CHASING, ADS_PROMPT_CREDENTIALS, ADS_READONLY_SERVER, ADS_SECURE_AUTHENTICATION, ADS_SERVER_BIND, ADS_USE_DELEGATION, ADS_USE_ENCRYPTION, ADS_USE_SEALING, ADS_USE_SIGNING, ADS_USE_SSL, _ds_ads_authentication_enum, adsi.ads__authentication__enum, adsi.ads_authentication_enum, iads/ADS_AUTHENTICATION_ENUM, iads/ADS_AUTH_RESERVED, iads/ADS_FAST_BIND, iads/ADS_NO_AUTHENTICATION, iads/ADS_NO_REFERRAL_CHASING, iads/ADS_PROMPT_CREDENTIALS, iads/ADS_READONLY_SERVER, iads/ADS_SECURE_AUTHENTICATION, iads/ADS_SERVER_BIND, iads/ADS_USE_DELEGATION, iads/ADS_USE_ENCRYPTION, iads/ADS_USE_SEALING, iads/ADS_USE_SIGNING, iads/ADS_USE_SSL
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_AUTHENTICATION_ENUM"
+f1_keywords:
+- iads/ADS_AUTHENTICATION_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_AUTHENTICATION_ENUM
+- ADS_AUTHENTICATION_ENUM
 targetos: Windows
 req.typenames: ADS_AUTHENTICATION_ENUM
 req.redist: 

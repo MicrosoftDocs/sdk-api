@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsListServersForDomainInSiteW
 title: DsListServersForDomainInSiteW function (ntdsapi.h)
-
 description: Lists all the servers in a domain in a site.
 old-location: ad\dslistserversfordomaininsite.htm
 tech.root: ad
 ms.assetid: 1e346532-bbbe-4b3b-a1cb-6a72319cb3e2
-
 ms.date: 12/05/2018
 ms.keywords: DsListServersForDomainInSite, DsListServersForDomainInSite function [Active Directory], DsListServersForDomainInSiteA, DsListServersForDomainInSiteW, _glines_dslistserversfordomaininsite, ad.dslistserversfordomaininsite, ntdsapi/DsListServersForDomainInSite, ntdsapi/DsListServersForDomainInSiteA, ntdsapi/DsListServersForDomainInSiteW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsListServersForDomainInSite"
+f1_keywords:
+- ntdsapi/DsListServersForDomainInSite
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsListServersForDomainInSite
- - DsListServersForDomainInSiteA
- - DsListServersForDomainInSiteW
+- DsListServersForDomainInSite
+- DsListServersForDomainInSiteA
+- DsListServersForDomainInSiteW
 targetos: Windows
 req.typenames: 
 req.redist: 

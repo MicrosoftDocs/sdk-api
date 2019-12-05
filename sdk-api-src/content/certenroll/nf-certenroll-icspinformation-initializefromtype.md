@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformation.InitializeFromType
 title: ICspInformation::InitializeFromType (certenroll.h)
-
 description: Initializes the object from the default cryptographic provider.
 old-location: security\icspinformation_initializefromtype_method.htm
 tech.root: seccertenroll
 ms.assetid: 24466981-2ea2-41f5-b2db-85b5629fba7d
-
 ms.date: 12/05/2018
 ms.keywords: ICspInformation interface [Security],InitializeFromType method, ICspInformation.InitializeFromType, ICspInformation::InitializeFromType, InitializeFromType, InitializeFromType method [Security], InitializeFromType method [Security],ICspInformation interface, certenroll/ICspInformation::InitializeFromType, security.icspinformation_initializefromtype_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformation.InitializeFromType"
+f1_keywords:
+- certenroll/ICspInformation.InitializeFromType
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformation.InitializeFromType
+- ICspInformation.InitializeFromType
 targetos: Windows
 req.typenames: 
 req.redist: 

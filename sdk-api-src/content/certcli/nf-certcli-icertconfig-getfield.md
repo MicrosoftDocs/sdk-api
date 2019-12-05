@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertConfig.GetField
 title: ICertConfig::GetField (certcli.h)
-
 description: Gets a specific field from the current record of the configuration database. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_getfield.htm
 tech.root: SecCrypto
 ms.assetid: 8e477fa7-d0e7-43f3-98b5-79c924a1a29c
-
 ms.date: 12/05/2018
 ms.keywords: Authority, CCertConfig object [Security],GetField method, CommonName, Config, Country, Description, ExchangeCertificate, Flags, GetField, GetField method [Security], GetField method [Security],CCertConfig object, GetField method [Security],ICertConfig interface, GetField method [Security],ICertConfig2 interface, ICertConfig interface [Security],GetField method, ICertConfig.GetField, ICertConfig2 interface [Security],GetField method, ICertConfig2::GetField, ICertConfig::GetField, Locality, OrgUnit, Organization, SanitizedName, SanitizedShortName, Server, ShortName, SignatureCertificate, State, WebEnrollmentServers, _certsrv_icertconfig_getfield, certcli/ICertConfig2::GetField, certcli/ICertConfig::GetField, security.icertconfig2_getfield
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertConfig2.GetField"
+f1_keywords:
+- certcli/ICertConfig2.GetField
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertConfig2.GetField
- - ICertConfig.GetField
- - CCertConfig.GetField
+- ICertConfig2.GetField
+- ICertConfig.GetField
+- CCertConfig.GetField
 targetos: Windows
 req.typenames: 
 req.redist: 

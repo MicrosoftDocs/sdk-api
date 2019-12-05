@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetInvertedIfStackTable
 title: GetInvertedIfStackTable function (netioapi.h)
-
 description: Retrieves a table of inverted network interface stack row entries that specify the relationship of the network interfaces on an interface stack.
 old-location: iphlp\getinvertedifstacktable.htm
 tech.root: IpHlp
 ms.assetid: d1808ded-2798-46cc-8021-fdbcd3da60ea
-
 ms.date: 12/05/2018
 ms.keywords: GetInvertedIfStackTable, GetInvertedIfStackTable function [IP Helper], iphlp.getinvertedifstacktable, netioapi/GetInvertedIfStackTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetInvertedIfStackTable"
+f1_keywords:
+- netioapi/GetInvertedIfStackTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetInvertedIfStackTable
+- GetInvertedIfStackTable
 targetos: Windows
 req.typenames: 
 req.redist: 

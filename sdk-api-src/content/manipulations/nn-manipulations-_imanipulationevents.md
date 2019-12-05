@@ -1,19 +1,17 @@
 ---
 UID: NN:manipulations._IManipulationEvents
 title: _IManipulationEvents (manipulations.h)
-
 description: Handles manipulation and inertia events.
 old-location: wintouch\_imanipulationevents.htm
 tech.root: wintouch
 ms.assetid: be392a13-3165-44ff-bcd6-ed0075c669c4
-
 ms.date: 12/05/2018
-ms.keywords: "_IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents"
+ms.keywords: _IManipulationEvents, _IManipulationEvents interface [Windows Touch], _IManipulationEvents interface [Windows Touch],described, manipulations/_IManipulationEvents, wintouch._imanipulationevents
 ms.topic: interface
-f1_keywords: 
- - "manipulations/_IManipulationEvents"
+f1_keywords:
+- manipulations/_IManipulationEvents
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - _IManipulationEvents
+- _IManipulationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

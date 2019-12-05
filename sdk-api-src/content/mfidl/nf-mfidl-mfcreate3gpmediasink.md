@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreate3GPMediaSink
 title: MFCreate3GPMediaSink function (mfidl.h)
-
 description: Creates a media sink for authoring 3GP files.
 old-location: mf\mfcreate3gpmediasink.htm
 tech.root: medfound
 ms.assetid: a0a1f6af-5d73-4347-abd7-9b2bde61fdf2
-
 ms.date: 12/05/2018
 ms.keywords: MFCreate3GPMediaSink, MFCreate3GPMediaSink function [Media Foundation], mf.mfcreate3gpmediasink, mfidl/MFCreate3GPMediaSink
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreate3GPMediaSink"
+f1_keywords:
+- mfidl/MFCreate3GPMediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreate3GPMediaSink
+- MFCreate3GPMediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

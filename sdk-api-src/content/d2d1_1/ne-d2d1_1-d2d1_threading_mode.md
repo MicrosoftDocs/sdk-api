@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_THREADING_MODE
 title: D2D1_THREADING_MODE (d2d1_1.h)
-
 description: Specifies the threading mode used while simultaneously creating the device, factory, and device context.
 old-location: direct2d\__d2d1_threading_mode.htm
 tech.root: Direct2D
 ms.assetid: 21fba5ee-3d31-4142-b66a-94b343e1c6eb
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_THREADING_MODE, D2D1_THREADING_MODE enumeration [Direct2D], D2D1_THREADING_MODE_MULTI_THREADED, D2D1_THREADING_MODE_SINGLE_THREADED, d2d1_1/D2D1_THREADING_MODE, d2d1_1/D2D1_THREADING_MODE_MULTI_THREADED, d2d1_1/D2D1_THREADING_MODE_SINGLE_THREADED, direct2d.__d2d1_threading_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_THREADING_MODE"
+f1_keywords:
+- d2d1_1/D2D1_THREADING_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_1.h
+- d2d1_1.h
 api_name:
- - D2D1_THREADING_MODE
+- D2D1_THREADING_MODE
 targetos: Windows
 req.typenames: D2D1_THREADING_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._SFVM_HELPTOPIC_DATA
 title: SFVM_HELPTOPIC_DATA (shlobj_core.h)
-
 description: Contains the name of an HTML Help file and a topic in that file. Used with the SFVM_GETHELPTOPIC notification. This structure requires Unicode strings.
 old-location: shell\SFVM_HELPTOPIC_DATA_str.htm
 tech.root: shell
 ms.assetid: c06f43ca-be32-4ab7-ba6c-a0066b749dba
-
 ms.date: 12/05/2018
 ms.keywords: SFVM_HELPTOPIC_DATA, SFVM_HELPTOPIC_DATA structure [Windows Shell], _SFVM_HELPTOPIC_DATA, _win32_SFVM_HELPTOPIC_DATA_str, shell.SFVM_HELPTOPIC_DATA_str, shlobj_core/SFVM_HELPTOPIC_DATA
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SFVM_HELPTOPIC_DATA"
+f1_keywords:
+- shlobj_core/SFVM_HELPTOPIC_DATA
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SFVM_HELPTOPIC_DATA
+- SFVM_HELPTOPIC_DATA
 targetos: Windows
 req.typenames: SFVM_HELPTOPIC_DATA
 req.redist: 

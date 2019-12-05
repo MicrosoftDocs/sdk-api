@@ -1,19 +1,17 @@
 ---
 UID: NS:bits1_5.__MIDL_IBackgroundCopyJob2_0001
 title: BG_BASIC_CREDENTIALS
-
 description: The BG_BASIC_CREDENTIALS structure identifies the user name and password to authenticate.
 old-location: bits\bg_basic_credentials.htm
 tech.root: Bits
 ms.assetid: e078e464-37b7-45ce-add8-6472a4607ff3
-
 ms.date: 02/22/2019
-ms.keywords: "*PBG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS structure [BITS], _drz_bg_basic_credentials, bits.bg_basic_credentials, bits1_5/BG_BASIC_CREDENTIALS"
+ms.keywords: '*PBG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS, BG_BASIC_CREDENTIALS structure [BITS], _drz_bg_basic_credentials, bits.bg_basic_credentials, bits1_5/BG_BASIC_CREDENTIALS'
 ms.topic: struct
-f1_keywords: 
- - "bits1_5/BG_BASIC_CREDENTIALS"
+f1_keywords:
+- bits1_5/BG_BASIC_CREDENTIALS
 dev_langs:
- - c++
+- c++
 req.header: bits1_5.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits1_5.h
+- Bits1_5.h
 api_name:
- - BG_BASIC_CREDENTIALS
+- BG_BASIC_CREDENTIALS
 targetos: Windows
 req.typenames: BG_BASIC_CREDENTIALS
 req.redist: BITS 1.5 on  Windows XP

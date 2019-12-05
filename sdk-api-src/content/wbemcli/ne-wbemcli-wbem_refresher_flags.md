@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_REFRESHER_FLAGS
 title: WBEM_REFRESHER_FLAGS (wbemcli.h)
-
 description: Contains flags that modify the behavior of refresher methods.
 old-location: wmi\wbem_refresher_flags.htm
 tech.root: WmiSdk
 ms.assetid: F855478C-BF26-46B1-B3F8-9DD5E8F05862
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_FLAG_REFRESH_AUTO_RECONNECT, WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, WBEM_REFRESHER_FLAGS, WBEM_REFRESHER_FLAGS enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_REFRESH_AUTO_RECONNECT, wbemcli/WBEM_FLAG_REFRESH_NO_AUTO_RECONNECT, wbemcli/WBEM_REFRESHER_FLAGS, wmi.wbem_refresher_flags
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_REFRESHER_FLAGS"
+f1_keywords:
+- wbemcli/WBEM_REFRESHER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_REFRESHER_FLAGS
+- WBEM_REFRESHER_FLAGS
 targetos: Windows
 req.typenames: WBEM_REFRESHER_FLAGS
 req.redist: 

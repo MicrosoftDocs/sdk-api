@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoDevice1.CheckVideoDecoderDownsampling
 title: ID3D11VideoDevice1::CheckVideoDecoderDownsampling (d3d11_1.h)
-
 description: Indicates whether the video decoder supports downsampling with the specified input format, and whether real-time downsampling is supported.
 old-location: mf\id3d11videodevice1_checkvideodecoderdownsampling.htm
 tech.root: medfound
 ms.assetid: EB05C2F7-AC7A-42BD-A661-5101641A920C
-
 ms.date: 12/05/2018
 ms.keywords: CheckVideoDecoderDownsampling, CheckVideoDecoderDownsampling method [Media Foundation], CheckVideoDecoderDownsampling method [Media Foundation],ID3D11VideoDevice1 interface, ID3D11VideoDevice1 interface [Media Foundation],CheckVideoDecoderDownsampling method, ID3D11VideoDevice1.CheckVideoDecoderDownsampling, ID3D11VideoDevice1::CheckVideoDecoderDownsampling, d3d11_1/ID3D11VideoDevice1::CheckVideoDecoderDownsampling, mf.id3d11videodevice1_checkvideodecoderdownsampling
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11VideoDevice1.CheckVideoDecoderDownsampling"
+f1_keywords:
+- d3d11_1/ID3D11VideoDevice1.CheckVideoDecoderDownsampling
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_1.h
+- d3d11_1.h
 api_name:
- - ID3D11VideoDevice1.CheckVideoDecoderDownsampling
+- ID3D11VideoDevice1.CheckVideoDecoderDownsampling
 targetos: Windows
 req.typenames: 
 req.redist: 

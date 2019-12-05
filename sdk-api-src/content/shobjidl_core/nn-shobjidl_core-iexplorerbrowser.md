@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IExplorerBrowser
 title: IExplorerBrowser (shobjidl_core.h)
-
 description: IExplorerBrowser is a browser object that can be either navigated or that can host a view of a data object. As a full-featured browser object, it also supports an automatic travel log.
 old-location: shell\IExplorerBrowser.htm
 tech.root: shell
 ms.assetid: da2cf5d4-5a68-4d18-807b-b9d4e2712c10
-
 ms.date: 12/05/2018
 ms.keywords: IExplorerBrowser, IExplorerBrowser interface [Windows Shell], IExplorerBrowser interface [Windows Shell],described, _shell_IExplorerBrowser, shell.IExplorerBrowser, shobjidl_core/IExplorerBrowser
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser
+- IExplorerBrowser
 targetos: Windows
 req.typenames: 
 req.redist: 

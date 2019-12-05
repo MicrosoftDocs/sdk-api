@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetTuningSpace
 title: IBDA_NetworkProvider::GetTuningSpace (bdaiface.h)
-
 description: The GetTuningSpace method retrieves the tuning space.
 old-location: mstv\ibda_networkprovider_gettuningspace.htm
 tech.root: mstv
 ms.assetid: 3c7305a1-4a63-42a9-abc2-ae5394c3be9a
-
 ms.date: 12/05/2018
 ms.keywords: GetTuningSpace, GetTuningSpace method [Microsoft TV Technologies], GetTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetTuningSpace method, IBDA_NetworkProvider.GetTuningSpace, IBDA_NetworkProvider::GetTuningSpace, IBDA_NetworkProviderGetTuningSpace, bdaiface/IBDA_NetworkProvider::GetTuningSpace, mstv.ibda_networkprovider_gettuningspace
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NetworkProvider.GetTuningSpace"
+f1_keywords:
+- bdaiface/IBDA_NetworkProvider.GetTuningSpace
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_NetworkProvider.GetTuningSpace
+- IBDA_NetworkProvider.GetTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

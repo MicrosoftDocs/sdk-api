@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardGetCardTypeProviderNameW
 title: SCardGetCardTypeProviderNameW function (winscard.h)
-
 description: Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type.
 old-location: security\scardgetcardtypeprovidername.htm
 tech.root: SecAuthN
 ms.assetid: 5006d1d6-b0f4-431f-8868-d1f4fc0c8124
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardGetCardTypeProviderName, SCardGetCardTypeProviderName function [Security], SCardGetCardTypeProviderNameA, SCardGetCardTypeProviderNameW, _smart_scardgetcardtypeprovidername, security.scardgetcardtypeprovidername, winscard/SCardGetCardTypeProviderName, winscard/SCardGetCardTypeProviderNameA, winscard/SCardGetCardTypeProviderNameW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardGetCardTypeProviderName"
+f1_keywords:
+- winscard/SCardGetCardTypeProviderName
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardGetCardTypeProviderName
- - SCardGetCardTypeProviderNameA
- - SCardGetCardTypeProviderNameW
+- SCardGetCardTypeProviderName
+- SCardGetCardTypeProviderNameA
+- SCardGetCardTypeProviderNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

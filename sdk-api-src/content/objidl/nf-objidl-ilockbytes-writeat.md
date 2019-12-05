@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILockBytes.WriteAt
 title: ILockBytes::WriteAt (objidl.h)
-
 description: The WriteAt method writes the specified number of bytes starting at a specified offset from the beginning of the byte array.
 old-location: stg\ilockbytes_writeat.htm
 tech.root: Stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48
-
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],WriteAt method, ILockBytes.WriteAt, ILockBytes::WriteAt, WriteAt, WriteAt method [Structured Storage], WriteAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_writeat, objidl/ILockBytes::WriteAt, stg.ilockbytes_writeat
 ms.topic: method
-f1_keywords: 
- - "objidl/ILockBytes.WriteAt"
+f1_keywords:
+- objidl/ILockBytes.WriteAt
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILockBytes.WriteAt
+- ILockBytes.WriteAt
 targetos: Windows
 req.typenames: 
 req.redist: 

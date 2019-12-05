@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAsyncReader.SyncRead
 title: IAsyncReader::SyncRead (strmif.h)
-
 description: The SyncRead method performs a synchronous read. The method blocks until the request is completed. The file positions and the buffer address do not have to be aligned. If the request is not aligned, the method performs a buffered read operation.
 old-location: dshow\iasyncreader_syncread.htm
 tech.root: DirectShow
 ms.assetid: 21806449-97b1-4890-9182-a1244c21ba30
-
 ms.date: 12/05/2018
 ms.keywords: IAsyncReader interface [DirectShow],SyncRead method, IAsyncReader.SyncRead, IAsyncReader::SyncRead, IAsyncReaderSyncRead, SyncRead, SyncRead method [DirectShow], SyncRead method [DirectShow],IAsyncReader interface, dshow.iasyncreader_syncread, strmif/IAsyncReader::SyncRead
 ms.topic: method
-f1_keywords: 
- - "strmif/IAsyncReader.SyncRead"
+f1_keywords:
+- strmif/IAsyncReader.SyncRead
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAsyncReader.SyncRead
+- IAsyncReader.SyncRead
 targetos: Windows
 req.typenames: 
 req.redist: 

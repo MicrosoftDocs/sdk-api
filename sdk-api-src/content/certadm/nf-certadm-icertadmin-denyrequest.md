@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin.DenyRequest
 title: ICertAdmin::DenyRequest (certadm.h)
-
 description: Denies a specified certificate request that is pending.
 old-location: security\icertadmin2_denyrequest.htm
 tech.root: SecCrypto
 ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369
-
 ms.date: 12/05/2018
 ms.keywords: CCertAdmin interface [Security],DenyRequest method, DenyRequest, DenyRequest method [Security], DenyRequest method [Security],CCertAdmin interface, DenyRequest method [Security],ICertAdmin interface, DenyRequest method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DenyRequest method, ICertAdmin.DenyRequest, ICertAdmin2 interface [Security],DenyRequest method, ICertAdmin2::DenyRequest, ICertAdmin::DenyRequest, certadm/ICertAdmin2::DenyRequest, certadm/ICertAdmin::DenyRequest, security.icertadmin2_denyrequest
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.DenyRequest"
+f1_keywords:
+- certadm/ICertAdmin2.DenyRequest
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.DenyRequest
- - ICertAdmin.DenyRequest
- - CCertAdmin.DenyRequest
+- ICertAdmin2.DenyRequest
+- ICertAdmin.DenyRequest
+- CCertAdmin.DenyRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

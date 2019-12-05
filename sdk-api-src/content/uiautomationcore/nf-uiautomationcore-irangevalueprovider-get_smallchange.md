@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRangeValueProvider.get_SmallChange
 title: IRangeValueProvider::get_SmallChange (uiautomationcore.h)
-
 description: Specifies the value that is added to or subtracted from the IRangeValueProvider::Value property when a small change is made, such as when an arrow key is pressed.
 old-location: winauto\uiauto_IRangeValueProvider_SmallChange.htm
 tech.root: WinAuto
 ms.assetid: 8230747d-d8c3-4708-a77a-7c76a62f39dd
-
 ms.date: 12/05/2018
 ms.keywords: IRangeValueProvider interface [Windows Accessibility],SmallChange property, IRangeValueProvider.SmallChange, IRangeValueProvider.get_SmallChange, IRangeValueProvider::SmallChange, IRangeValueProvider::get_SmallChange, SmallChange property [Windows Accessibility], SmallChange property [Windows Accessibility],IRangeValueProvider interface, get_SmallChange, uiauto.uiauto_IRangeValueProvider_SmallChange, uiauto_IRangeValueProvider_SmallChange, uiautomationcore/IRangeValueProvider::SmallChange, uiautomationcore/IRangeValueProvider::get_SmallChange, winauto.uiauto_IRangeValueProvider_SmallChange
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRangeValueProvider.SmallChange"
+f1_keywords:
+- uiautomationcore/IRangeValueProvider.SmallChange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IRangeValueProvider.SmallChange
- - IRangeValueProvider.get_SmallChange
+- IRangeValueProvider.SmallChange
+- IRangeValueProvider.get_SmallChange
 targetos: Windows
 req.typenames: 
 req.redist: 

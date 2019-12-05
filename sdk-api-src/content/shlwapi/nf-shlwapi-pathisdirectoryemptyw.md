@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathIsDirectoryEmptyW
 title: PathIsDirectoryEmptyW function (shlwapi.h)
-
 description: Determines whether a specified path is an empty directory.
 old-location: shell\PathIsDirectoryEmpty.htm
 tech.root: shell
 ms.assetid: 833fe68e-8b21-4819-8370-d1b5391a3080
-
 ms.date: 12/05/2018
 ms.keywords: PathIsDirectoryEmpty, PathIsDirectoryEmpty function [Windows Shell], PathIsDirectoryEmptyA, PathIsDirectoryEmptyW, _win32_PathIsDirectoryEmpty, shell.PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmpty, shlwapi/PathIsDirectoryEmptyA, shlwapi/PathIsDirectoryEmptyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathIsDirectoryEmpty"
+f1_keywords:
+- shlwapi/PathIsDirectoryEmpty
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathIsDirectoryEmpty
- - PathIsDirectoryEmptyA
- - PathIsDirectoryEmptyW
+- PathIsDirectoryEmpty
+- PathIsDirectoryEmptyA
+- PathIsDirectoryEmptyW
 targetos: Windows
 req.typenames: 
 req.redist: 

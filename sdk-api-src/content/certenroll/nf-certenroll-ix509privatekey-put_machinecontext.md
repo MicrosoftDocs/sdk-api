@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_MachineContext
 title: IX509PrivateKey::put_MachineContext (certenroll.h)
-
 description: Specifies or retrieves a Boolean value that identifies the local certificate store context.
 old-location: security\ix509privatekey_machinecontext_property.htm
 tech.root: seccertenroll
 ms.assetid: bdc3278e-3b5a-4ad0-9e9b-9639a2db4040
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],MachineContext property, IX509PrivateKey.MachineContext, IX509PrivateKey.put_MachineContext, IX509PrivateKey::MachineContext, IX509PrivateKey::get_MachineContext, IX509PrivateKey::put_MachineContext, MachineContext property [Security], MachineContext property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::MachineContext, certenroll/IX509PrivateKey::get_MachineContext, certenroll/IX509PrivateKey::put_MachineContext, put_MachineContext, security.ix509privatekey_machinecontext_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.MachineContext"
+f1_keywords:
+- certenroll/IX509PrivateKey.MachineContext
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.MachineContext
- - IX509PrivateKey.get_MachineContext
- - IX509PrivateKey.put_MachineContext
+- IX509PrivateKey.MachineContext
+- IX509PrivateKey.get_MachineContext
+- IX509PrivateKey.put_MachineContext
 targetos: Windows
 req.typenames: 
 req.redist: 

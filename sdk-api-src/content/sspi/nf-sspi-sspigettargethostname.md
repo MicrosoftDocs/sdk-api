@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiGetTargetHostName
 title: SspiGetTargetHostName function (sspi.h)
-
 description: Gets the host name associated with the specified target.
 old-location: security\sspigettargethostname.htm
 tech.root: SecAuthN
 ms.assetid: 84570dfc-1890-4b82-b411-1f9eaa75537b
-
 ms.date: 12/05/2018
 ms.keywords: SspiGetTargetHostName, SspiGetTargetHostName function [Security], security.sspigettargethostname, sspi/SspiGetTargetHostName
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiGetTargetHostName"
+f1_keywords:
+- sspi/SspiGetTargetHostName
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiGetTargetHostName
+- SspiGetTargetHostName
 targetos: Windows
 req.typenames: 
 req.redist: 

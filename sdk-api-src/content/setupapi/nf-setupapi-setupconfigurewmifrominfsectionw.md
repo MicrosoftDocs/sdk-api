@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupConfigureWmiFromInfSectionW
 title: SetupConfigureWmiFromInfSectionW function (setupapi.h)
-
 description: The SetupConfigureWmiFromInfSection function configures the security of the WMI data that is exposed by an INF file when passed to the [DDInstall.WMI] section.
 old-location: setup\setupconfigurewmifrominfsection.htm
 tech.root: SetupApi
 ms.assetid: 1fcf9086-fde1-414c-9073-22452c3ffc6d
-
 ms.date: 12/05/2018
 ms.keywords: SCWMI_CLOBBER_SECURITY, SetupConfigureWmiFromInfSection, SetupConfigureWmiFromInfSection function [Setup API], SetupConfigureWmiFromInfSectionA, SetupConfigureWmiFromInfSectionW, _setupapi_setupuninstalloeminf, setup.setupconfigurewmifrominfsection, setupapi/SetupConfigureWmiFromInfSection, setupapi/SetupConfigureWmiFromInfSectionA, setupapi/SetupConfigureWmiFromInfSectionW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupConfigureWmiFromInfSection"
+f1_keywords:
+- setupapi/SetupConfigureWmiFromInfSection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupConfigureWmiFromInfSection
- - SetupConfigureWmiFromInfSectionA
- - SetupConfigureWmiFromInfSectionW
+- SetupConfigureWmiFromInfSection
+- SetupConfigureWmiFromInfSectionA
+- SetupConfigureWmiFromInfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

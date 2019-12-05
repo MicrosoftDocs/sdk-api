@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PathCleanupSpec
 title: PathCleanupSpec function (shlobj_core.h)
-
 description: PathCleanupSpec may be altered or unavailable.
 old-location: shell\PathCleanupSpec.htm
 tech.root: shell
 ms.assetid: 593fd2b7-44ae-4309-a185-97e42f3cc0fa
-
 ms.date: 12/05/2018
 ms.keywords: PathCleanupSpec, PathCleanupSpec function [Windows Shell], _win32_PathCleanupSpec, shell.PathCleanupSpec, shlobj_core/PathCleanupSpec
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PathCleanupSpec"
+f1_keywords:
+- shlobj_core/PathCleanupSpec
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- Windows.Storage.dll
 api_name:
- - PathCleanupSpec
+- PathCleanupSpec
 targetos: Windows
 req.typenames: 
 req.redist: 

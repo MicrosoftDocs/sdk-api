@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11RefDefaultTrackingOptions
 title: ID3D11RefDefaultTrackingOptions (d3d11sdklayers.h)
-
 description: The default tracking interface sets reference default tracking options.
 old-location: direct3d11\id3d11refdefaulttrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: B6DD9810-275E-466B-8FE8-64EED0933B45
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions, ID3D11RefDefaultTrackingOptions interface [Direct3D 11], ID3D11RefDefaultTrackingOptions interface [Direct3D 11],described, d3d11sdklayers/ID3D11RefDefaultTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions
 ms.topic: interface
-f1_keywords: 
- - "d3d11sdklayers/ID3D11RefDefaultTrackingOptions"
+f1_keywords:
+- d3d11sdklayers/ID3D11RefDefaultTrackingOptions
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3DCompiler.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler.lib
- - D3DCompiler.dll
+- D3DCompiler.lib
+- D3DCompiler.dll
 api_name:
- - ID3D11RefDefaultTrackingOptions
+- ID3D11RefDefaultTrackingOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

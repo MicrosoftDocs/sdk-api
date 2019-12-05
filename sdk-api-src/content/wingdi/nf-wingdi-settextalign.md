@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetTextAlign
 title: SetTextAlign function (wingdi.h)
-
 description: The SetTextAlign function sets the text-alignment flags for the specified device context.
 old-location: gdi\settextalign.htm
 tech.root: gdi
 ms.assetid: 422868c5-14c9-4374-9cc5-b7bf91ab9eb4
-
 ms.date: 12/05/2018
 ms.keywords: SetTextAlign, SetTextAlign function [Windows GDI], TA_BASELINE, TA_BOTTOM, TA_CENTER, TA_LEFT, TA_NOUPDATECP, TA_RIGHT, TA_RTLREADING, TA_TOP, TA_UPDATECP, VTA_BASELINE, VTA_CENTER, _win32_SetTextAlign, gdi.settextalign, wingdi/SetTextAlign
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetTextAlign"
+f1_keywords:
+- wingdi/SetTextAlign
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - SetTextAlign
+- SetTextAlign
 targetos: Windows
 req.typenames: 
 req.redist: 

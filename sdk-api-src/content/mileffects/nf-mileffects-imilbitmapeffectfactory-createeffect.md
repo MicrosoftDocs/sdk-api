@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectFactory.CreateEffect
 title: IMILBitmapEffectFactory::CreateEffect (mileffects.h)
-
 description: Creates an IMILBitmapEffect object.
 old-location: wibe\_wibe_imilbitmapeffectfactory_createeffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffect.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateEffect, CreateEffect method [WPF Bitmap Effects], CreateEffect method [WPF Bitmap Effects],IMILBitmapEffectFactory interface, IMILBitmapEffectFactory interface [WPF Bitmap Effects],CreateEffect method, IMILBitmapEffectFactory.CreateEffect, IMILBitmapEffectFactory::CreateEffect, _wibe_imilbitmapeffectfactory_createeffect, mileffects/IMILBitmapEffectFactory::CreateEffect, wibe._wibe_imilbitmapeffectfactory_createeffect
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectFactory.CreateEffect"
+f1_keywords:
+- mileffects/IMILBitmapEffectFactory.CreateEffect
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectFactory.CreateEffect
+- IMILBitmapEffectFactory.CreateEffect
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

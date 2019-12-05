@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiSourceListClearSourceA
 title: MsiSourceListClearSourceA function (msi.h)
-
 description: Removes an existing source for a product or patch in a specified context.
 old-location: setup\msisourcelistclearsource.htm
 tech.root: Msi
 ms.assetid: 7d37cdd2-ecdd-4d27-b5b1-87bcffc5bf79
-
 ms.date: 12/05/2018
 ms.keywords: MSICODE_PATCH, MSICODE_PRODUCT, MSIINSTALLCONTEXT_MACHINE, MSIINSTALLCONTEXT_USERMANAGED, MSIINSTALLCONTEXT_USERUNMANAGED, MSISOURCETYPE_NETWORK, MSISOURCETYPE_URL, MsiSourceListClearSource, MsiSourceListClearSource function, MsiSourceListClearSourceA, MsiSourceListClearSourceW, NULL, User SID, msi/MsiSourceListClearSource, msi/MsiSourceListClearSourceA, msi/MsiSourceListClearSourceW, setup.msisourcelistclearsource
 ms.topic: function
-f1_keywords: 
- - "msi/MsiSourceListClearSource"
+f1_keywords:
+- msi/MsiSourceListClearSource
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiSourceListClearSource
- - MsiSourceListClearSourceA
- - MsiSourceListClearSourceW
+- MsiSourceListClearSource
+- MsiSourceListClearSourceA
+- MsiSourceListClearSourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

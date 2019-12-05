@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(const float)
 title: XMUNIBBLE4::XMUNIBBLE4(const float) (directxpackedvector.h)
-
 description: Initializes a new instance of **XMUNIBBLE4** from a four element float array argument.
 old-location: 
 tech.root: dxmath
 ms.assetid: 0ea8d7fa-2600-44eb-8d6a-a36364f98f17
-
 ms.date: 05/06/2019
 ms.keywords: XMUNIBBLE4, XMUNIBBLE4 constructor [DirectX Math Support APIs], XMUNIBBLE4 constructor [DirectX Math Support APIs],XMUNIBBLE4 structure, XMUNIBBLE4 structure [DirectX Math Support APIs],XMUNIBBLE4 constructor, XMUNIBBLE4.XMUNIBBLE4, XMUNIBBLE4.XMUNIBBLE4(), XMUNIBBLE4.XMUNIBBLE4(const float), XMUNIBBLE4::XMUNIBBLE4, XMUNIBBLE4::XMUNIBBLE4(const float), dxmath.xmunibble4_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUNIBBLE4.XMUNIBBLE4"
+f1_keywords:
+- directxpackedvector/XMUNIBBLE4.XMUNIBBLE4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4.XMUNIBBLE4
+- XMUNIBBLE4.XMUNIBBLE4
 targetos: Windows
 req.typenames: 
 req.redist: 

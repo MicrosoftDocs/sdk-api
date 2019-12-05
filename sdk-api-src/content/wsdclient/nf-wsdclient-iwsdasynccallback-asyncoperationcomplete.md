@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDAsyncCallback.AsyncOperationComplete
 title: IWSDAsyncCallback::AsyncOperationComplete (wsdclient.h)
-
 description: Indicates that the asynchronous operation has completed.
 old-location: ncd\iwsdasynccallback_asyncoperationcomplete_method.htm
 tech.root: WsdApi
 ms.assetid: f2272d1e-bb12-43cd-a0ae-80530ad25fcf
-
 ms.date: 12/05/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method, AsyncOperationComplete method,IWSDAsyncCallback interface, IWSDAsyncCallback interface,AsyncOperationComplete method, IWSDAsyncCallback.AsyncOperationComplete, IWSDAsyncCallback::AsyncOperationComplete, ncd.iwsdasynccallback_asyncoperationcomplete_method, wsdclient/IWSDAsyncCallback::AsyncOperationComplete
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDAsyncCallback.AsyncOperationComplete"
+f1_keywords:
+- wsdclient/IWSDAsyncCallback.AsyncOperationComplete
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDAsyncCallback.AsyncOperationComplete
+- IWSDAsyncCallback.AsyncOperationComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

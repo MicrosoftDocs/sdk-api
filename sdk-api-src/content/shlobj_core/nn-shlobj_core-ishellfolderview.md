@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IShellFolderView
 title: IShellFolderView (shlobj_core.h)
-
 description: Exposes methods that manipulate Shell folder views.
 old-location: shell\IShellFolderView.htm
 tech.root: shell
 ms.assetid: e3b0b35f-6707-4e37-8470-31b1d4421d07
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView, IShellFolderView interface [Windows Shell], IShellFolderView interface [Windows Shell],described, _shell_IShellFolderView, shell.IShellFolderView, shlobj_core/IShellFolderView
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IShellFolderView"
+f1_keywords:
+- shlobj_core/IShellFolderView
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - IShellFolderView
+- IShellFolderView
 targetos: Windows
 req.typenames: 
 req.redist: 

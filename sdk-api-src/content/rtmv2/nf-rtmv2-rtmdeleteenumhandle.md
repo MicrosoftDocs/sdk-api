@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmDeleteEnumHandle
 title: RtmDeleteEnumHandle function (rtmv2.h)
-
 description: The RtmDeleteEnumHandle function deletes the specified enumeration handle and frees all resources allocated for the enumeration.
 old-location: rras\rtmdeleteenumhandle.htm
 tech.root: RRAS
 ms.assetid: 87477e25-d4bc-44d2-932b-f266b0bdaafa
-
 ms.date: 12/05/2018
 ms.keywords: RtmDeleteEnumHandle, RtmDeleteEnumHandle function [RAS], _rtmv2ref_rtmdeleteenumhandle, rras.rtmdeleteenumhandle, rtmv2/RtmDeleteEnumHandle
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmDeleteEnumHandle"
+f1_keywords:
+- rtmv2/RtmDeleteEnumHandle
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmDeleteEnumHandle
+- RtmDeleteEnumHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

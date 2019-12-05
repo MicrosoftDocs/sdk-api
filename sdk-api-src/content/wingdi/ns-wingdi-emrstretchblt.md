@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSTRETCHBLT
 title: EMRSTRETCHBLT (wingdi.h)
-
 description: The EMRSTRETCHBLT structure contains members for the StretchBlt enhanced metafile record. Note that graphics device interface (GDI) converts the device-dependent bitmap into a device-independent bitmap (DIB) before storing it in the metafile record.
 old-location: gdi\emrstretchblt.htm
 tech.root: gdi
 ms.assetid: 957b09d2-a706-4045-affb-fd530cd4fa3a
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSTRETCHBLT, EMRSTRETCHBLT, EMRSTRETCHBLT structure [Windows GDI], PEMRSTRETCHBLT, PEMRSTRETCHBLT structure pointer [Windows GDI], _win32_EMRSTRETCHBLT_str, gdi.emrstretchblt, wingdi/EMRSTRETCHBLT, wingdi/PEMRSTRETCHBLT"
+ms.keywords: '*PEMRSTRETCHBLT, EMRSTRETCHBLT, EMRSTRETCHBLT structure [Windows GDI], PEMRSTRETCHBLT, PEMRSTRETCHBLT structure pointer [Windows GDI], _win32_EMRSTRETCHBLT_str, gdi.emrstretchblt, wingdi/EMRSTRETCHBLT, wingdi/PEMRSTRETCHBLT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSTRETCHBLT"
+f1_keywords:
+- wingdi/EMRSTRETCHBLT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSTRETCHBLT
+- EMRSTRETCHBLT
 targetos: Windows
 req.typenames: EMRSTRETCHBLT, *PEMRSTRETCHBLT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleCache.Uncache
 title: IOleCache::Uncache (oleidl.h)
-
 description: Removes a cache connection created previously using IOleCache::Cache.
 old-location: com\iolecache_uncache.htm
 tech.root: com
 ms.assetid: a6a57bdd-190f-485b-9b46-cbfc1a1d29a6
-
 ms.date: 12/05/2018
 ms.keywords: IOleCache interface [COM],Uncache method, IOleCache.Uncache, IOleCache::Uncache, Uncache, Uncache method [COM], Uncache method [COM],IOleCache interface, _ole_iolecache_uncache, com.iolecache_uncache, oleidl/IOleCache::Uncache
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleCache.Uncache"
+f1_keywords:
+- oleidl/IOleCache.Uncache
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleCache.Uncache
+- IOleCache.Uncache
 targetos: Windows
 req.typenames: 
 req.redist: 

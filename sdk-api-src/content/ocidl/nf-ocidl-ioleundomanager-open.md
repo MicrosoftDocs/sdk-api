@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Open
 title: IOleUndoManager::Open (ocidl.h)
-
 description: Opens a new parent undo unit, which becomes part of its containing unit's undo stack.
 old-location: com\ioleundomanager_open.htm
 tech.root: com
 ms.assetid: b494d5b9-5def-4249-8b6d-37b26993cc24
-
 ms.date: 12/05/2018
 ms.keywords: IOleUndoManager interface [COM],Open method, IOleUndoManager.Open, IOleUndoManager::Open, Open, Open method [COM], Open method [COM],IOleUndoManager interface, _ole_ioleundomanager_open, com.ioleundomanager_open, ocidl/IOleUndoManager::Open
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoManager.Open"
+f1_keywords:
+- ocidl/IOleUndoManager.Open
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager.Open
+- IOleUndoManager.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

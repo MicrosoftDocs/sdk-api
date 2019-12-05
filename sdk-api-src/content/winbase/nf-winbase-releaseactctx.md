@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ReleaseActCtx
 title: ReleaseActCtx function (winbase.h)
-
 description: The ReleaseActCtx function decrements the reference count of the specified activation context.
 old-location: setup\releaseactctx.htm
 tech.root: SbsCs
 ms.assetid: aaf58969-06b7-4981-83af-651252339186
-
 ms.date: 12/05/2018
 ms.keywords: ReleaseActCtx, ReleaseActCtx function [Side-by-side Assemblies], _win32_releaseactctx, setup.releaseactctx, winbase/ReleaseActCtx
 ms.topic: function
-f1_keywords: 
- - "winbase/ReleaseActCtx"
+f1_keywords:
+- winbase/ReleaseActCtx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - ReleaseActCtx
+- ReleaseActCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

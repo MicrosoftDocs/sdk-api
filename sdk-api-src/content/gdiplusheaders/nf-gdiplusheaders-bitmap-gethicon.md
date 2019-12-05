@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.GetHICON
 title: Bitmap::GetHICON (gdiplusheaders.h)
-
 description: The Bitmap::GetHICON method creates an icon from this Bitmap object.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_GetHICON_hicon_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\gethicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],GetHICON method, Bitmap.GetHICON, Bitmap::GetHICON, GetHICON, GetHICON method [GDI+], GetHICON method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_GetHICON_hicon_, gdiplus._gdiplus_CLASS_Bitmap_GetHICON_hicon_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.GetHICON"
+f1_keywords:
+- gdiplusheaders/Bitmap.GetHICON
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.GetHICON
+- Bitmap.GetHICON
 targetos: Windows
 req.typenames: 
 req.redist: 

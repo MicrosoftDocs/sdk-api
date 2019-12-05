@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATISTICS0_
 title: IPSEC_DOSP_STATISTICS0 (ipsectypes.h)
-
 description: The IPSEC_DOSP_STATISTICS0 structure.
 old-location: fwp\ipsec_dosp_statistics0.htm
 tech.root: fwp
 ms.assetid: 951b6aa9-ea96-4256-a304-5b753f2a3656
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_DOSP_STATISTICS0, IPSEC_DOSP_STATISTICS0 structure [Filtering], fwp.ipsec_dosp_statistics0, ipsectypes/IPSEC_DOSP_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_DOSP_STATISTICS0"
+f1_keywords:
+- ipsectypes/IPSEC_DOSP_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_DOSP_STATISTICS0
+- IPSEC_DOSP_STATISTICS0
 targetos: Windows
 req.typenames: IPSEC_DOSP_STATISTICS0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetFontFamily
 title: IMFTimedTextStyle::GetFontFamily (mfmediaengine.h)
-
 description: Gets the font family of the timed-text style.
 old-location: mf\imftimedtextstyle_getfontfamily.htm
 tech.root: medfound
 ms.assetid: 4250F2ED-F479-45E9-89A3-9037F40BD4E2
-
 ms.date: 12/05/2018
 ms.keywords: GetFontFamily, GetFontFamily method [Media Foundation], GetFontFamily method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontFamily method, IMFTimedTextStyle.GetFontFamily, IMFTimedTextStyle::GetFontFamily, mf.imftimedtextstyle_getfontfamily, mfmediaengine/IMFTimedTextStyle::GetFontFamily
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle.GetFontFamily"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle.GetFontFamily
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.GetFontFamily
+- IMFTimedTextStyle.GetFontFamily
 targetos: Windows
 req.typenames: 
 req.redist: 

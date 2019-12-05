@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetTime
 title: DRMGetTime function (msdrm.h)
-
 description: Requests a secure time from the rights management system.
 old-location: rm\drmgettime.htm
 tech.root: AdRms_Sdk
 ms.assetid: 124507af-ccb4-4552-9421-bbbf1b556930
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetTime, DRMGetTime function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetTime, rm.drmgettime
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetTime"
+f1_keywords:
+- msdrm/DRMGetTime
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetTime
+- DRMGetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

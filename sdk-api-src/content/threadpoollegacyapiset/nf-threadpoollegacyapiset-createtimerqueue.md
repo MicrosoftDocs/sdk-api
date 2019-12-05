@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoollegacyapiset.CreateTimerQueue
 title: CreateTimerQueue function (threadpoollegacyapiset.h)
-
 description: Creates a queue for timers.
 old-location: base\createtimerqueue.htm
 tech.root: Sync
 ms.assetid: 7d88dc0d-4650-4197-a719-01e2f5ff96df
-
 ms.date: 12/05/2018
 ms.keywords: CreateTimerQueue, CreateTimerQueue function, _win32_createtimerqueue, base.createtimerqueue, threadpoollegacyapiset/CreateTimerQueue, winbase/CreateTimerQueue
 ms.topic: function
-f1_keywords: 
- - "threadpoollegacyapiset/CreateTimerQueue"
+f1_keywords:
+- threadpoollegacyapiset/CreateTimerQueue
 dev_langs:
- - c++
+- c++
 req.header: threadpoollegacyapiset.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-legacy-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CreateTimerQueue
+- CreateTimerQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

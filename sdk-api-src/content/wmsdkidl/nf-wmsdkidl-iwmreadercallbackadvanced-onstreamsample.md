@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderCallbackAdvanced.OnStreamSample
 title: IWMReaderCallbackAdvanced::OnStreamSample (wmsdkidl.h)
-
 description: The OnStreamSample method delivers stream samples from the source file without decompressing them first.
 old-location: wmformat\iwmreadercallbackadvanced_onstreamsample.htm
 tech.root: wmformat
 ms.assetid: 6bfdd903-a3a4-4ef4-b88a-4d24c9c0f4b8
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderCallbackAdvanced interface [windows Media Format],OnStreamSample method, IWMReaderCallbackAdvanced.OnStreamSample, IWMReaderCallbackAdvanced::OnStreamSample, IWMReaderCallbackAdvancedOnStreamSample, OnStreamSample, OnStreamSample method [windows Media Format], OnStreamSample method [windows Media Format],IWMReaderCallbackAdvanced interface, wmformat.iwmreadercallbackadvanced_onstreamsample, wmsdkidl/IWMReaderCallbackAdvanced::OnStreamSample
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderCallbackAdvanced.OnStreamSample"
+f1_keywords:
+- wmsdkidl/IWMReaderCallbackAdvanced.OnStreamSample
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - IWMReaderCallbackAdvanced.OnStreamSample
+- IWMReaderCallbackAdvanced.OnStreamSample
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winineti._INTERNET_CACHE_CONFIG_INFOA
 title: INTERNET_CACHE_CONFIG_INFOA (winineti.h)
-
 description: Contains information about the configuration of the Internet cache.
 old-location: wininet\internet_cache_config_info.htm
 tech.root: wininet
 ms.assetid: 39019a94-6f14-4758-86f7-aba598e23d2e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERNET_CACHE_CONFIG_INFOA, INTERNET_CACHE_CONFIG_INFO, INTERNET_CACHE_CONFIG_INFO structure [WinINet], INTERNET_CACHE_CONFIG_INFOA, PINTERNET_CACHE_CONFIG_INFO, PINTERNET_CACHE_CONFIG_INFO structure pointer [WinINet], wininet.internet_cache_config_info, winineti/INTERNET_CACHE_CONFIG_INFO, winineti/PINTERNET_CACHE_CONFIG_INFO"
+ms.keywords: '*LPINTERNET_CACHE_CONFIG_INFOA, INTERNET_CACHE_CONFIG_INFO, INTERNET_CACHE_CONFIG_INFO structure [WinINet], INTERNET_CACHE_CONFIG_INFOA, PINTERNET_CACHE_CONFIG_INFO, PINTERNET_CACHE_CONFIG_INFO structure pointer [WinINet], wininet.internet_cache_config_info, winineti/INTERNET_CACHE_CONFIG_INFO, winineti/PINTERNET_CACHE_CONFIG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winineti/INTERNET_CACHE_CONFIG_INFO"
+f1_keywords:
+- winineti/INTERNET_CACHE_CONFIG_INFO
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winineti.h
+- Winineti.h
 api_name:
- - INTERNET_CACHE_CONFIG_INFO
+- INTERNET_CACHE_CONFIG_INFO
 targetos: Windows
 req.typenames: INTERNET_CACHE_CONFIG_INFOA, *LPINTERNET_CACHE_CONFIG_INFOA
 req.redist: 

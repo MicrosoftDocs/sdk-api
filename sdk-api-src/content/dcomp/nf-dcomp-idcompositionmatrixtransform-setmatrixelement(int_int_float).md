@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform.SetMatrixElement(int,int,float)
 title: IDCompositionMatrixTransform::SetMatrixElement(int,int,float) (dcomp.h)
-
 description: Changes the value of one element of the matrix of this transform.
 old-location: directcomp\idcompositionmatrixtransform_setmatrixelement.htm
 tech.root: directcomp
 ms.assetid: E95F44EC-532C-472C-8C1A-6B008CA97DC0
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform.SetMatrixElement, IDCompositionMatrixTransform.SetMatrixElement(int,int,float), IDCompositionMatrixTransform::SetMatrixElement, IDCompositionMatrixTransform::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform interface, dcomp/IDCompositionMatrixTransform::SetMatrixElement, directcomp.idcompositionmatrixtransform_setmatrixelement
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionMatrixTransform.SetMatrixElement"
+f1_keywords:
+- dcomp/IDCompositionMatrixTransform.SetMatrixElement
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionMatrixTransform.SetMatrixElement
+- IDCompositionMatrixTransform.SetMatrixElement
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_TRAFFIC_STATISTICS0_
 title: IPSEC_TRAFFIC_STATISTICS0 (ipsectypes.h)
-
 description: Stores IPsec traffic statistics.
 old-location: fwp\ipsec_traffic_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: 70f67966-0ced-49a7-9d27-6976ee0bd89c
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TRAFFIC_STATISTICS0, IPSEC_TRAFFIC_STATISTICS0 structure [Filtering], fwp.ipsec_traffic_statistics0_struct, ipsectypes/IPSEC_TRAFFIC_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_TRAFFIC_STATISTICS0"
+f1_keywords:
+- ipsectypes/IPSEC_TRAFFIC_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TRAFFIC_STATISTICS0
+- IPSEC_TRAFFIC_STATISTICS0
 targetos: Windows
 req.typenames: IPSEC_TRAFFIC_STATISTICS0
 req.redist: 

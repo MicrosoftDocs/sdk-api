@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1DeviceContext
 title: ID2D1DeviceContext (d2d1_1.h)
-
 description: Represents a set of state and command buffers that are used to render to a target.
 old-location: direct2d\id2d1devicecontext.htm
 tech.root: Direct2D
 ms.assetid: a54dd628-c2a2-4b04-9ced-7749a395f187
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1DeviceContext, ID2D1DeviceContext interface [Direct2D], ID2D1DeviceContext interface [Direct2D],described, d2d1_1/ID2D1DeviceContext, direct2d.id2d1devicecontext
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1DeviceContext"
+f1_keywords:
+- d2d1_1/ID2D1DeviceContext
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext
+- ID2D1DeviceContext
 targetos: Windows
 req.typenames: 
 req.redist: 

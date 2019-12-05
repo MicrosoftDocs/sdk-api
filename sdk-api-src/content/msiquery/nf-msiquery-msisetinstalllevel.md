@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiSetInstallLevel
 title: MsiSetInstallLevel function (msiquery.h)
-
 description: The MsiSetInstallLevel function sets the installation level for a full product installation.
 old-location: setup\msisetinstalllevel.htm
 tech.root: Msi
 ms.assetid: 98f1d91d-632e-4dea-948f-2dc416b4d410
-
 ms.date: 12/05/2018
 ms.keywords: MsiSetInstallLevel, MsiSetInstallLevel function, _msi_msisetinstalllevel, msiquery/MsiSetInstallLevel, setup.msisetinstalllevel
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiSetInstallLevel"
+f1_keywords:
+- msiquery/MsiSetInstallLevel
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiSetInstallLevel
+- MsiSetInstallLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

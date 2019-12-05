@@ -1,19 +1,17 @@
 ---
 UID: NF:madcapcl.McastApiCleanup
 title: McastApiCleanup function (madcapcl.h)
-
 description: The McastApiCleanup function deallocates resources that are allocated with McastApiStartup. The McastApiCleanup function must only be called after a successful call to McastApiStartup.
 old-location: madcap\mcastapicleanup.htm
 tech.root: Madcap
 ms.assetid: eccf52ee-8145-4a8f-9d34-5a56bfc8a48c
-
 ms.date: 12/05/2018
 ms.keywords: McastApiCleanup, McastApiCleanup function [MADCAP], _mdhcp_mcastapicleanup, madcap.mcastapicleanup, madcapcl/McastApiCleanup
 ms.topic: function
 f1_keywords:
 - madcapcl/McastApiCleanup
 dev_langs:
- - c++
+- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

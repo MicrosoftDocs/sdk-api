@@ -5,10 +5,10 @@ description: Contains core methods for obtaining tokens from web account provide
 ms.date: 5/28/2019
 ms.keywords: IWebAuthenticationCoreManagerInterop
 ms.topic: language-reference
-f1_keywords: 
- - "webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop"
+f1_keywords:
+- webauthenticationcoremanagerinterop/IWebAuthenticationCoreManagerInterop
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: iface
@@ -24,13 +24,13 @@ req.target-min-winversvr:
 req.target-type: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - webauthenticationcoremanagerinterop.h
+- webauthenticationcoremanagerinterop.h
 api_name:
- - IWebAuthenticationCoreManagerInterop
+- IWebAuthenticationCoreManagerInterop
 tech.root: winrt
 ---
 

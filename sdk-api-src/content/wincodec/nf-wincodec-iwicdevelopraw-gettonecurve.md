@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetToneCurve
 title: IWICDevelopRaw::GetToneCurve (wincodec.h)
-
 description: Gets the tone curve of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_gettonecurve.htm
 tech.root: wic
 ms.assetid: 651f9efb-145a-400b-8d7c-255aee67c385
-
 ms.date: 12/05/2018
 ms.keywords: GetToneCurve, GetToneCurve method [Windows Imaging Component], GetToneCurve method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetToneCurve method, IWICDevelopRaw.GetToneCurve, IWICDevelopRaw::GetToneCurve, _wic_codec_iwicdevelopraw_gettonecurve, wic._wic_codec_iwicdevelopraw_gettonecurve, wincodec/IWICDevelopRaw::GetToneCurve
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetToneCurve"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetToneCurve
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetToneCurve
+- IWICDevelopRaw.GetToneCurve
 targetos: Windows
 req.typenames: 
 req.redist: 

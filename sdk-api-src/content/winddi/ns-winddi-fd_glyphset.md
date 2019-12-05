@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._FD_GLYPHSET
 title: FD_GLYPHSET (winddi.h)
-
 description: The FD_GLYPHSET structure is used to define the mappings from Unicode characters to glyph handles.
 old-location: display\fd_glyphset.htm
 tech.root: display
 ms.assetid: af56f2a0-92a6-4217-8121-944a0b4f26f6
-
 ms.date: 12/05/2018
 ms.keywords: '*PFD_GLYPHSET, FD_GLYPHSET, FD_GLYPHSET structure [Display Devices], PFD_GLYPHSET, PFD_GLYPHSET structure pointer [Display Devices], display.fd_glyphset, grstrcts_69cd5b01-58bb-4141-8f1d-26a6258423ce.xml, winddi/FD_GLYPHSET, winddi/PFD_GLYPHSET'
 ms.topic: struct
 f1_keywords:
 - winddi/FD_GLYPHSET
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

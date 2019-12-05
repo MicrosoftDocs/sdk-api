@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamSourceRect
 title: ID3D11VideoContext::VideoProcessorGetStreamSourceRect (d3d11.h)
-
 description: Gets the source rectangle for an input stream on the video processor.
 old-location: mf\id3d11videocontext_videoprocessorgetstreamsourcerect.htm
 tech.root: medfound
 ms.assetid: 52AFE959-695B-4797-ABCF-B8264046E4BE
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorGetStreamSourceRect method, ID3D11VideoContext.VideoProcessorGetStreamSourceRect, ID3D11VideoContext::VideoProcessorGetStreamSourceRect, VideoProcessorGetStreamSourceRect, VideoProcessorGetStreamSourceRect method [Media Foundation], VideoProcessorGetStreamSourceRect method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorGetStreamSourceRect, mf.id3d11videocontext_videoprocessorgetstreamsourcerect
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorGetStreamSourceRect"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorGetStreamSourceRect
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorGetStreamSourceRect
+- ID3D11VideoContext.VideoProcessorGetStreamSourceRect
 targetos: Windows
 req.typenames: 
 req.redist: 

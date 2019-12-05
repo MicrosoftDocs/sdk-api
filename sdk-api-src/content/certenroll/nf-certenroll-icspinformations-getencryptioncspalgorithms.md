@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspInformations.GetEncryptionCspAlgorithms
 title: ICspInformations::GetEncryptionCspAlgorithms (certenroll.h)
-
 description: Retrieves the collection of encryption algorithms supported by a provider.
 old-location: security\icspinformations_getencryptioncspalgorithms_method.htm
 tech.root: seccertenroll
 ms.assetid: 85d2507c-0d0c-47a3-beb9-62af42b3ca3f
-
 ms.date: 12/05/2018
 ms.keywords: GetEncryptionCspAlgorithms, GetEncryptionCspAlgorithms method [Security], GetEncryptionCspAlgorithms method [Security],ICspInformations interface, ICspInformations interface [Security],GetEncryptionCspAlgorithms method, ICspInformations.GetEncryptionCspAlgorithms, ICspInformations::GetEncryptionCspAlgorithms, certenroll/ICspInformations::GetEncryptionCspAlgorithms, security.icspinformations_getencryptioncspalgorithms_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspInformations.GetEncryptionCspAlgorithms"
+f1_keywords:
+- certenroll/ICspInformations.GetEncryptionCspAlgorithms
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspInformations.GetEncryptionCspAlgorithms
+- ICspInformations.GetEncryptionCspAlgorithms
 targetos: Windows
 req.typenames: 
 req.redist: 

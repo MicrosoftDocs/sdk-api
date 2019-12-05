@@ -1,7 +1,6 @@
 ---
 UID: NA:systemmediatransportcontrolsinterop
 ms.assetid: fcfbb073-ac49-3b82-bfbf-200fe034062c
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

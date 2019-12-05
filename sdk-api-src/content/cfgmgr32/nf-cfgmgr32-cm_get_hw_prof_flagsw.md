@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_HW_Prof_FlagsW
 title: CM_Get_HW_Prof_FlagsW function (cfgmgr32.h)
-
 description: The CM_Get_HW_Prof_Flags function retrieves the hardware profile-specific configuration flags for a device instance on a local machine.
 old-location: devinst\cm_get_hw_prof_flags.htm
 tech.root: devinst
 ms.assetid: 672a0e4e-f025-4aeb-a865-2a6d6fc1162d
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_HW_Prof_Flags, CM_Get_HW_Prof_Flags function [Device and Driver Installation], CM_Get_HW_Prof_FlagsA, CM_Get_HW_Prof_FlagsW, cfgmgr32/CM_Get_HW_Prof_Flags, cfgmgr32/CM_Get_HW_Prof_FlagsA, cfgmgr32/CM_Get_HW_Prof_FlagsW, cfgmgrfn_5d158399-60db-47ef-9135-3da047ef7682.xml, devinst.cm_get_hw_prof_flags
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_HW_Prof_Flags"
+f1_keywords:
+- cfgmgr32/CM_Get_HW_Prof_Flags
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,17 +30,17 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Get_HW_Prof_Flags
- - CM_Get_HW_Prof_FlagsA
- - CM_Get_HW_Prof_FlagsW
+- CM_Get_HW_Prof_Flags
+- CM_Get_HW_Prof_FlagsA
+- CM_Get_HW_Prof_FlagsW
 targetos: Windows
 req.typenames: 
 req.redist: 

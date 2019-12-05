@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnIncomingJobChanged
 title: _IFaxAccountNotify::OnIncomingJobChanged (faxcomex.h)
-
 description: Called by the fax service when the status of an incoming fax job for a particular fax account changes.
 old-location: fax\_mfax_ifaxaccountnotify_onincomingjobchanged.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onincomingjobchanged.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxAccountNotify.OnIncomingJobChanged, OnIncomingJobChanged, OnIncomingJobChanged method [Fax Service], OnIncomingJobChanged method [Fax Service],_IFaxAccountNotify interface, _IFaxAccountNotify interface [Fax Service],OnIncomingJobChanged method, _IFaxAccountNotify.OnIncomingJobChanged, _IFaxAccountNotify::OnIncomingJobChanged, _mfax_ifaxaccountnotify_onincomingjobchanged, fax._mfax_ifaxaccountnotify_onincomingjobchanged, faxcomex/_IFaxAccountNotify::OnIncomingJobChanged
 ms.topic: method
-f1_keywords: 
- - "faxcomex/_IFaxAccountNotify.OnIncomingJobChanged"
+f1_keywords:
+- faxcomex/_IFaxAccountNotify.OnIncomingJobChanged
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - _IFaxAccountNotify.OnIncomingJobChanged
- - IFaxAccountNotify.OnIncomingJobChanged
+- _IFaxAccountNotify.OnIncomingJobChanged
+- IFaxAccountNotify.OnIncomingJobChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

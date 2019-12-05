@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_SetColor
 title: MonthCal_SetColor macro (commctrl.h)
-
 description: Sets the color for a given portion of a month calendar control. You can use this macro or send the MCM_SETCOLOR message explicitly.
 old-location: controls\MonthCal_SetColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: MCSC_BACKGROUND, MCSC_MONTHBK, MCSC_TEXT, MCSC_TITLEBK, MCSC_TITLETEXT, MCSC_TRAILINGTEXT, MonthCal_SetColor, MonthCal_SetColor macro [Windows Controls], _win32_MonthCal_SetColor, _win32_MonthCal_SetColor_cpp, commctrl/MonthCal_SetColor, controls.MonthCal_SetColor, controls._win32_MonthCal_SetColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_SetColor"
+f1_keywords:
+- commctrl/MonthCal_SetColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_SetColor
+- MonthCal_SetColor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetAllProperties
 title: ResUtilGetAllProperties function (resapi.h)
-
 description: Returns a property list that includes all of the default and unknown properties for a cluster object. The PRESUTIL_GET_ALL_PROPERTIES type defines a pointer to this function.
 old-location: mscs\resutilgetallproperties.htm
 tech.root: MsCS
 ms.assetid: 18a27e1c-e709-4b0a-97c1-b0697deb8dc7
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_ALL_PROPERTIES, PRESUTIL_GET_ALL_PROPERTIES function [Failover Cluster], ResUtilGetAllProperties, ResUtilGetAllProperties function [Failover Cluster], _wolf_resutilgetallproperties, mscs.resutilgetallproperties, resapi/PRESUTIL_GET_ALL_PROPERTIES, resapi/ResUtilGetAllProperties
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetAllProperties"
+f1_keywords:
+- resapi/ResUtilGetAllProperties
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetAllProperties
+- ResUtilGetAllProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

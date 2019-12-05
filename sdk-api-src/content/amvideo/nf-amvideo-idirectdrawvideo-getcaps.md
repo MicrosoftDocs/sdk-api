@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.GetCaps
 title: IDirectDrawVideo::GetCaps (amvideo.h)
-
 description: The GetCaps method retrieves a DirectDraw-defined DDCAPS structure containing the hardware capabilities.
 old-location: dshow\idirectdrawvideo_getcaps.htm
 tech.root: DirectShow
 ms.assetid: d63437e3-4e8a-49de-b555-db29d235569d
-
 ms.date: 12/05/2018
 ms.keywords: GetCaps, GetCaps method [DirectShow], GetCaps method [DirectShow],IDirectDrawVideo interface, IDirectDrawVideo interface [DirectShow],GetCaps method, IDirectDrawVideo.GetCaps, IDirectDrawVideo::GetCaps, IDirectDrawVideoGetCaps, amvideo/IDirectDrawVideo::GetCaps, dshow.idirectdrawvideo_getcaps
 ms.topic: method
-f1_keywords: 
- - "amvideo/IDirectDrawVideo.GetCaps"
+f1_keywords:
+- amvideo/IDirectDrawVideo.GetCaps
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDirectDrawVideo.GetCaps
+- IDirectDrawVideo.GetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

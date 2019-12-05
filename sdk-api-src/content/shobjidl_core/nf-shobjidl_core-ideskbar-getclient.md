@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDeskBar.GetClient
 title: IDeskBar::GetClient (shobjidl_core.h)
-
 description: Gets the client object.
 old-location: shell\IDeskBar_GetClient.htm
 tech.root: shell
 ms.assetid: 003b400c-03a4-47c0-a6b8-04aa65ac573c
-
 ms.date: 12/05/2018
 ms.keywords: GetClient, GetClient method [Windows Shell], GetClient method [Windows Shell],IDeskBar interface, IDeskBar interface [Windows Shell],GetClient method, IDeskBar.GetClient, IDeskBar::GetClient, _win32_IDeskBar_GetClient, shell.IDeskBar_GetClient, shobjidl_core/IDeskBar::GetClient
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDeskBar.GetClient"
+f1_keywords:
+- shobjidl_core/IDeskBar.GetClient
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDeskBar.GetClient
+- IDeskBar.GetClient
 targetos: Windows
 req.typenames: 
 req.redist: 

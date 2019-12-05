@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICRect
 title: WICRect (wincodec.h)
-
 description: Represents a rectangle for Windows Imaging Component (WIC) API.
 old-location: wic\_wic_codec_wicrect.htm
 tech.root: wic
 ms.assetid: e07c26bf-b645-4382-bb93-8472ba397026
-
 ms.date: 12/05/2018
 ms.keywords: WICRect, WICRect structure [Windows Imaging Component], _wic_codec_wicrect, wic._wic_codec_wicrect, wincodec/WICRect
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICRect"
+f1_keywords:
+- wincodec/WICRect
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICRect
+- WICRect
 targetos: Windows
 req.typenames: WICRect
 req.redist: 

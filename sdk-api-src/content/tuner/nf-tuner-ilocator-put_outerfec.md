@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.put_OuterFEC
 title: ILocator::put_OuterFEC (tuner.h)
-
 description: The put_OuterFEC method sets the type of outer FEC to use.
 old-location: mstv\ilocator_put_outerfec.htm
 tech.root: mstv
 ms.assetid: 0aaa4d8e-e760-4e22-90fe-e5667fafa113
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorput_OuterFEC, ILocator interface [Microsoft TV Technologies],put_OuterFEC method, ILocator.put_OuterFEC, ILocator::put_OuterFEC, mstv.ilocator_put_outerfec, put_OuterFEC, put_OuterFEC method [Microsoft TV Technologies], put_OuterFEC method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_OuterFEC
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.put_OuterFEC"
+f1_keywords:
+- tuner/ILocator.put_OuterFEC
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.put_OuterFEC
+- ILocator.put_OuterFEC
 targetos: Windows
 req.typenames: 
 req.redist: 

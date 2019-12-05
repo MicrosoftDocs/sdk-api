@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency2.GetMaxMajorVersionTested
 title: IAppxManifestPackageDependency2::GetMaxMajorVersionTested (appxpackaging.h)
-
 description: Returns the maximum major version number of the package that is tested to be compatible with the current package.
 old-location: appxpkg\iappxmanifestpackagedependency2_getmaxmajorversiontested.htm
 tech.root: appxpkg
 ms.assetid: BB83C97E-9E89-440C-8A14-88062F1394CF
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxMajorVersionTested, GetMaxMajorVersionTested method [App packaging and management], GetMaxMajorVersionTested method [App packaging and management],IAppxManifestPackageDependency2 interface, IAppxManifestPackageDependency2 interface [App packaging and management],GetMaxMajorVersionTested method, IAppxManifestPackageDependency2.GetMaxMajorVersionTested, IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpackaging/IAppxManifestPackageDependency2::GetMaxMajorVersionTested, appxpkg.iappxmanifestpackagedependency2_getmaxmajorversiontested
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageDependency2.GetMaxMajorVersionTested"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageDependency2.GetMaxMajorVersionTested
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageDependency2.GetMaxMajorVersionTested
+- IAppxManifestPackageDependency2.GetMaxMajorVersionTested
 targetos: Windows
 req.typenames: 
 req.redist: 

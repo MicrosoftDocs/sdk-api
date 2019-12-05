@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.RASDIALFUNC
 title: RASDIALFUNC (ras.h)
-
 description: The RasDialFunc callback function is called by the RasDial function when a change of state occurs during a RAS connection process.
 old-location: rras\rasdialfunc.htm
 tech.root: RRAS
 ms.assetid: 668ebede-73ec-4ee9-9b81-7167e827db60
-
 ms.date: 12/05/2018
 ms.keywords: RasDialFunc, RasDialFunc callback, RasDialFunc callback function [RAS], _ras_rasdialfunc, ras/RasDialFunc, rras.rasdialfunc
 ms.topic: callback
-f1_keywords: 
- - "ras/RasDialFunc"
+f1_keywords:
+- ras/RasDialFunc
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasDialFunc
+- RasDialFunc
 targetos: Windows
 req.typenames: 
 req.redist: 

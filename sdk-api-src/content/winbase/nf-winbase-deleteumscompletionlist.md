@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DeleteUmsCompletionList
 title: DeleteUmsCompletionList function (winbase.h)
-
 description: Deletes the specified user-mode scheduling (UMS) completion list. The list must be empty.
 old-location: base\deleteumscompletionlist.htm
 tech.root: ProcThread
 ms.assetid: 98124359-ddd1-468c-9f99-74dd3f631fa1
-
 ms.date: 12/05/2018
 ms.keywords: DeleteUmsCompletionList, DeleteUmsCompletionList function, base.deleteumscompletionlist, winbase/DeleteUmsCompletionList
 ms.topic: function
-f1_keywords: 
- - "winbase/DeleteUmsCompletionList"
+f1_keywords:
+- winbase/DeleteUmsCompletionList
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - DeleteUmsCompletionList
+- DeleteUmsCompletionList
 targetos: Windows
 req.typenames: 
 req.redist: 

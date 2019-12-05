@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJob.Refresh
 title: IFaxJob::Refresh (faxcom.h)
-
 description: The IFaxJob::Refresh method updates FaxJob object information for the associated fax job.
 old-location: fax\_mfax_ifaxjob_mfax_ifaxjob_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7bqg.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJob interface [Fax Service],Refresh method, IFaxJob.Refresh, IFaxJob::Refresh, Refresh, Refresh method [Fax Service], Refresh method [Fax Service],IFaxJob interface, _mfax_ifaxjob_refresh, fax._mfax_ifaxjob_mfax_ifaxjob_refresh_cpp, fax._mfax_ifaxjob_refresh, faxcom/IFaxJob::Refresh
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJob.Refresh"
+f1_keywords:
+- faxcom/IFaxJob.Refresh
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJob.Refresh
- - IFaxJob.Refresh
+- IFaxJob.Refresh
+- IFaxJob.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

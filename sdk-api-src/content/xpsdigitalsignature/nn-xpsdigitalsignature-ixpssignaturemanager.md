@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureManager
 title: IXpsSignatureManager (xpsdigitalsignature.h)
-
 description: Manages the digital signatures and digital signature requests of an XPS document.
 old-location: xps\ixpssignaturemanager.htm
 tech.root: printdocs
 ms.assetid: 31283ebe-91f4-42be-9a9b-6fcd641dc356
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSignatureManager, IXpsSignatureManager interface [XPS Documents and Packaging], IXpsSignatureManager interface [XPS Documents and Packaging],described, xps.ixpssignaturemanager, xpsdigitalsignature/IXpsSignatureManager
 ms.topic: interface
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignatureManager"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignatureManager
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager
+- IXpsSignatureManager
 targetos: Windows
 req.typenames: 
 req.redist: 

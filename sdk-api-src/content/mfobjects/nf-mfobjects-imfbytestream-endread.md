@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.EndRead
 title: IMFByteStream::EndRead (mfobjects.h)
-
 description: Completes an asynchronous read operation.
 old-location: mf\imfbytestream_endread.htm
 tech.root: medfound
 ms.assetid: dd62f644-fb97-474b-8303-3086a7b51c4d
-
 ms.date: 12/05/2018
 ms.keywords: EndRead, EndRead method [Media Foundation], EndRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],EndRead method, IMFByteStream.EndRead, IMFByteStream::EndRead, dd62f644-fb97-474b-8303-3086a7b51c4d, mf.imfbytestream_endread, mfobjects/IMFByteStream::EndRead
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.EndRead"
+f1_keywords:
+- mfobjects/IMFByteStream.EndRead
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.EndRead
+- IMFByteStream.EndRead
 targetos: Windows
 req.typenames: 
 req.redist: 

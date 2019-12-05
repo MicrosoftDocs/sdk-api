@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_QUERY_DESC
 title: D3D11_QUERY_DESC (d3d11.h)
-
 description: Describes a query.
 old-location: direct3d11\d3d11_query_desc.htm
 tech.root: direct3d11
 ms.assetid: 2ed8e380-744b-41e1-87c8-9c7e8100ea2f
-
 ms.date: 12/05/2018
 ms.keywords: 4fde9a23-6b0d-4b54-8ad1-f6003b4e0887, D3D11_QUERY_DESC, D3D11_QUERY_DESC structure [Direct3D 11], d3d11/D3D11_QUERY_DESC, direct3d11.d3d11_query_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_QUERY_DESC"
+f1_keywords:
+- d3d11/D3D11_QUERY_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_QUERY_DESC
+- D3D11_QUERY_DESC
 targetos: Windows
 req.typenames: D3D11_QUERY_DESC
 req.redist: 

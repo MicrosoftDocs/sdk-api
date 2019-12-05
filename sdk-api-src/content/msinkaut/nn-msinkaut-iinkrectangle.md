@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkRectangle
 title: IInkRectangle (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinkrectangle.htm
 tech.root: tablet
 ms.assetid: 9E438012-0991-46AA-8D0F-2C561F523EC2
-
 ms.date: 12/05/2018
 ms.keywords: IInkRectangle, IInkRectangle interface [Tablet PC], IInkRectangle interface [Tablet PC],described, msinkaut/IInkRectangle, tablet.iinkrectangle
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkRectangle"
+f1_keywords:
+- msinkaut/IInkRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkRectangle
+- IInkRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

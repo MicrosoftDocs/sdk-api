@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITDigitGenerationEvent
 title: ITDigitGenerationEvent (tapi3if.h)
-
 description: The ITDigitGenerationEvent interface contains methods that describe digit generation events.
 old-location: tapi3\itdigitgenerationevent.htm
 tech.root: Tapi
 ms.assetid: 788eee9c-b885-4b94-b259-694353c0f63a
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitGenerationEvent, ITDigitGenerationEvent interface [TAPI 2.2], ITDigitGenerationEvent interface [TAPI 2.2],described, _tapi3_itdigitgenerationevent, tapi3.itdigitgenerationevent, tapi3if/ITDigitGenerationEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITDigitGenerationEvent"
+f1_keywords:
+- tapi3if/ITDigitGenerationEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitGenerationEvent
+- ITDigitGenerationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_PageCount
 title: IFaxStatus::get_PageCount (faxcom.h)
-
 description: Retrieves the PageCount property for the FaxStatus object of a parent FaxPort object. The PageCount property represents the total number of pages in an outbound fax transmission.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_pagecount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6xv8.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],PageCount property, IFaxStatus.PageCount, IFaxStatus.get_PageCount, IFaxStatus::PageCount, IFaxStatus::get_PageCount, PageCount property [Fax Service], PageCount property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_get_pagecount, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_pagecount_cpp, faxcom/IFaxStatus::PageCount, faxcom/IFaxStatus::get_PageCount, get_PageCount
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.PageCount"
+f1_keywords:
+- faxcom/IFaxStatus.PageCount
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.PageCount
- - IFaxStatus.get_PageCount
+- IFaxStatus.PageCount
+- IFaxStatus.get_PageCount
 targetos: Windows
 req.typenames: 
 req.redist: 

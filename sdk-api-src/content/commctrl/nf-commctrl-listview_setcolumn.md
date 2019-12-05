@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetColumn
 title: ListView_SetColumn macro (commctrl.h)
-
 description: Sets the attributes of a list-view column. You can use this macro or send the LVM_SETCOLUMN message explicitly.
 old-location: controls\ListView_SetColumn.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcolumn.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetColumn, ListView_SetColumn macro [Windows Controls], _win32_ListView_SetColumn, _win32_ListView_SetColumn_cpp, commctrl/ListView_SetColumn, controls.ListView_SetColumn, controls._win32_ListView_SetColumn
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetColumn"
+f1_keywords:
+- commctrl/ListView_SetColumn
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetColumn
+- ListView_SetColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

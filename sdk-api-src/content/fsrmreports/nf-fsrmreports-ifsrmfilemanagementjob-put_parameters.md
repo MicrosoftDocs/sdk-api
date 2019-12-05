@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Parameters
 title: IFsrmFileManagementJob::put_Parameters (fsrmreports.h)
-
 description: The parameters for the file management job.
 old-location: fsrm\ifsrmfilemanagementjob_parameters.htm
 tech.root: fsrm
 ms.assetid: 87eb994c-3d15-4c6b-90c3-1ddb340f7458
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],Parameters property, IFsrmFileManagementJob.Parameters, IFsrmFileManagementJob.put_Parameters, IFsrmFileManagementJob::Parameters, IFsrmFileManagementJob::get_Parameters, IFsrmFileManagementJob::put_Parameters, Parameters property [File Server Resource Manager], Parameters property [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_parameters, fsrm.ifsrmfilemanagementjob_parameters, fsrmreports/IFsrmFileManagementJob::Parameters, fsrmreports/IFsrmFileManagementJob::get_Parameters, fsrmreports/IFsrmFileManagementJob::put_Parameters, put_Parameters
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.Parameters"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.Parameters
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.Parameters
- - IFsrmFileManagementJob.get_Parameters
- - IFsrmFileManagementJob.put_Parameters
+- IFsrmFileManagementJob.Parameters
+- IFsrmFileManagementJob.get_Parameters
+- IFsrmFileManagementJob.put_Parameters
 targetos: Windows
 req.typenames: 
 req.redist: 

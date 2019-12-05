@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioStreamVolume.GetAllVolumes
 title: IAudioStreamVolume::GetAllVolumes (audioclient.h)
-
 description: The GetAllVolumes method retrieves the volume levels for all the channels in the audio stream.
 old-location: coreaudio\iaudiostreamvolume_getallvolumes.htm
 tech.root: CoreAudio
 ms.assetid: 6469ae01-d84d-4711-9b1e-cd8e685fcdd8
-
 ms.date: 12/05/2018
 ms.keywords: GetAllVolumes, GetAllVolumes method [Core Audio], GetAllVolumes method [Core Audio],IAudioStreamVolume interface, IAudioStreamVolume interface [Core Audio],GetAllVolumes method, IAudioStreamVolume.GetAllVolumes, IAudioStreamVolume::GetAllVolumes, IAudioStreamVolumeGetAllVolumes, audioclient/IAudioStreamVolume::GetAllVolumes, coreaudio.iaudiostreamvolume_getallvolumes
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioStreamVolume.GetAllVolumes"
+f1_keywords:
+- audioclient/IAudioStreamVolume.GetAllVolumes
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioStreamVolume.GetAllVolumes
+- IAudioStreamVolume.GetAllVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

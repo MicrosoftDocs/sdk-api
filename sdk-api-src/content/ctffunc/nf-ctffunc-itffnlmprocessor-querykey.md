@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryKey
 title: ITfFnLMProcessor::QueryKey (ctffunc.h)
-
 description: ITfFnLMProcessor::QueryKey method
 old-location: tsf\itffnlmprocessor_querykey.htm
 tech.root: TSF
 ms.assetid: 9d28c2c2-ed0e-4987-ace9-25ed9d7a40a0
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryKey method, ITfFnLMProcessor.QueryKey, ITfFnLMProcessor::QueryKey, QueryKey, QueryKey method [Text Services Framework], QueryKey method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_querykey_ref, ctffunc/ITfFnLMProcessor::QueryKey, tsf.itffnlmprocessor_querykey
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnLMProcessor.QueryKey"
+f1_keywords:
+- ctffunc/ITfFnLMProcessor.QueryKey
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnLMProcessor.QueryKey
+- ITfFnLMProcessor.QueryKey
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

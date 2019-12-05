@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_DA_COLOR
 title: TF_DA_COLOR (msctf.h)
-
 description: The TF_DA_COLOR structure contains color data used in the display attributes for a range of text.
 old-location: tsf\tf_da_color.htm
 tech.root: TSF
 ms.assetid: 0ce8f941-c187-437f-8bad-f882e63b8421
-
 ms.date: 12/05/2018
 ms.keywords: TF_DA_COLOR, TF_DA_COLOR structure [Text Services Framework], _tsf_tf_da_color_ref, msctf/TF_DA_COLOR, tsf.tf_da_color
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_DA_COLOR"
+f1_keywords:
+- msctf/TF_DA_COLOR
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_DA_COLOR
+- TF_DA_COLOR
 targetos: Windows
 req.typenames: TF_DA_COLOR
 req.redist: TSF 1.0 on Windows 2000 Professional

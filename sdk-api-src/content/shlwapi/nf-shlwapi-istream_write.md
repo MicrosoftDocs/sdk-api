@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IStream_Write
 title: IStream_Write function (shlwapi.h)
-
 description: Writes data of unknown format from a buffer to a specified stream.
 old-location: shell\IStream_Write.htm
 tech.root: shell
 ms.assetid: fdcfdaf8-7fcb-433e-b3d4-98ca143fbe6b
-
 ms.date: 12/05/2018
 ms.keywords: IStream_Write, IStream_Write function [Windows Shell], _shell_IStream_Write, shell.IStream_Write, shlwapi/IStream_Write
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IStream_Write"
+f1_keywords:
+- shlwapi/IStream_Write
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-stream-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
- - IStream_Write
+- IStream_Write
 targetos: Windows
 req.typenames: 
 req.redist: 

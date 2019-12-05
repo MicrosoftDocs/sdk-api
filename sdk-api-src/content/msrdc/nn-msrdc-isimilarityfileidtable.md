@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.ISimilarityFileIdTable
 title: ISimilarityFileIdTable (msrdc.h)
-
 description: Defines methods for storing and retrieving similarity file ID information.
 old-location: rdc\isimilarityfileidtable.htm
 tech.root: rdc
 ms.assetid: 539a2e9b-9719-4012-bb7f-4d14723a3695
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], ISimilarityFileIdTable interface [Remote Differential Compression],described, fs.isimilarityfileidtable, msrdc/ISimilarityFileIdTable, rdc.isimilarityfileidtable
 ms.topic: interface
-f1_keywords: 
- - "msrdc/ISimilarityFileIdTable"
+f1_keywords:
+- msrdc/ISimilarityFileIdTable
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityFileIdTable
+- ISimilarityFileIdTable
 targetos: Windows
 req.typenames: 
 req.redist: 

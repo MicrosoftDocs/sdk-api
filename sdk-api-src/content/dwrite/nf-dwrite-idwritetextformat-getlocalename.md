@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetLocaleName
 title: IDWriteTextFormat::GetLocaleName (dwrite.h)
-
 description: Gets a copy of the locale name.
 old-location: directwrite\IDWriteTextFormat_GetLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: 89b35622-0898-4fc5-9871-b75244e4dba6
-
 ms.date: 12/05/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetLocaleName method, IDWriteTextFormat.GetLocaleName, IDWriteTextFormat::GetLocaleName, directwrite.IDWriteTextFormat_GetLocaleName, dwrite/IDWriteTextFormat::GetLocaleName
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetLocaleName"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetLocaleName
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetLocaleName
+- IDWriteTextFormat.GetLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_BUFFEREX_SRV
 title: D3D11_BUFFEREX_SRV (d3d11.h)
-
 description: Describes the elements in a raw buffer resource to use in a shader-resource view.
 old-location: direct3d11\d3d11_bufferex_srv.htm
 tech.root: direct3d11
 ms.assetid: 55714c3b-ef21-43c1-94a1-60b63f3fedac
-
 ms.date: 12/05/2018
 ms.keywords: 6e2b4acb-42c7-1258-4812-425166fea83e, D3D11_BUFFEREX_SRV, D3D11_BUFFEREX_SRV structure [Direct3D 11], d3d11/D3D11_BUFFEREX_SRV, direct3d11.d3d11_bufferex_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_BUFFEREX_SRV"
+f1_keywords:
+- d3d11/D3D11_BUFFEREX_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_BUFFEREX_SRV
+- D3D11_BUFFEREX_SRV
 targetos: Windows
 req.typenames: D3D11_BUFFEREX_SRV
 req.redist: 

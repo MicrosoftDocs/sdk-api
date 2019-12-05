@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMStoryFragmentsResource
 title: IXpsOMStoryFragmentsResource (xpsobjectmodel.h)
-
 description: Provides access to the content of the resource stream of a page's StoryFragments part.
 old-location: xps\ixpsomstoryfragmentsresource.htm
 tech.root: printdocs
 ms.assetid: 83bc8017-c679-40a8-96a8-bff9aa2273af
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMStoryFragmentsResource, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging], IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],described, xps.ixpsomstoryfragmentsresource, xpsobjectmodel/IXpsOMStoryFragmentsResource
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMStoryFragmentsResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMStoryFragmentsResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMStoryFragmentsResource
+- IXpsOMStoryFragmentsResource
 targetos: Windows
 req.typenames: 
 req.redist: 

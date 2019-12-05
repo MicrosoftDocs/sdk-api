@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getAll
 title: IWMPMediaCollection::getAll (wmp.h)
-
 description: The getAll method retrieves a pointer to an IWMPPlaylist interface. This interface corresponds to the playlist that contains all media items in the library.
 old-location: wmp\iwmpmediacollection_getall.htm
 tech.root: WMP
 ms.assetid: db06194c-36e2-4494-b464-c08f6983bdc1
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMediaCollection interface [Windows Media Player],getAll method, IWMPMediaCollection.getAll, IWMPMediaCollection::getAll, IWMPMediaCollectiongetAll, getAll, getAll method [Windows Media Player], getAll method [Windows Media Player],IWMPMediaCollection interface, wmp.iwmpmediacollection_getall, wmp/IWMPMediaCollection::getAll
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMediaCollection.getAll"
+f1_keywords:
+- wmp/IWMPMediaCollection.getAll
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMediaCollection.getAll
+- IWMPMediaCollection.getAll
 targetos: Windows
 req.typenames: 
 req.redist: 

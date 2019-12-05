@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IWebWizardExtension
 title: IWebWizardExtension (shobjidl.h)
-
 description: Extends the IWizardExtension interface by exposing methods to set the wizard extension's initial URL, and a specific URL in case of an error.
 old-location: shell\IWebWizardExtension.htm
 tech.root: shell
 ms.assetid: f1b5f53a-3163-486f-bbe9-a8fc6b244591
-
 ms.date: 12/05/2018
 ms.keywords: IWebWizardExtension, IWebWizardExtension interface [Windows Shell], IWebWizardExtension interface [Windows Shell],described, _shell_IWebWizardExtension, shell.IWebWizardExtension, shobjidl/IWebWizardExtension
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IWebWizardExtension"
+f1_keywords:
+- shobjidl/IWebWizardExtension
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IWebWizardExtension
+- IWebWizardExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClientSettings
 title: IRemoteDesktopClientSettings (rdpappcontainerclient.h)
-
 description: Provides the methods needed to configure the connection settings for the Remote Desktop Protocol (RDP) app container client control.
 old-location: termserv\iremotedesktopclientsettings.htm
 tech.root: TermServ
 ms.assetid: 8bdb224c-bb29-43f1-8a7c-94686a8efe0a
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientSettings, IRemoteDesktopClientSettings interface [Remote Desktop Services], IRemoteDesktopClientSettings interface [Remote Desktop Services],described, rdpappcontainerclient/IRemoteDesktopClientSettings, termserv.iremotedesktopclientsettings
 ms.topic: interface
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientSettings"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientSettings
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientSettings
+- IRemoteDesktopClientSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

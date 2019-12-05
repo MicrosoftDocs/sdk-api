@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.DDiscMaster2Events.NotifyDeviceAdded
 title: DDiscMaster2Events::NotifyDeviceAdded (imapi2.h)
-
 description: Receives notification when an optical media device is added to the computer.
 old-location: imapi\ddiscmaster2events_notifydeviceadded.htm
 tech.root: imapi
 ms.assetid: 1f728b33-3788-4fc4-b261-da243b4ff46e
-
 ms.date: 12/05/2018
 ms.keywords: DDiscMaster2Events interface [IMAPI],NotifyDeviceAdded method, DDiscMaster2Events.NotifyDeviceAdded, DDiscMaster2Events::NotifyDeviceAdded, NotifyDeviceAdded, NotifyDeviceAdded method [IMAPI], NotifyDeviceAdded method [IMAPI],DDiscMaster2Events interface, imapi.ddiscmaster2events_notifydeviceadded, imapi2/DDiscMaster2Events::NotifyDeviceAdded
 ms.topic: method
-f1_keywords: 
- - "imapi2/DDiscMaster2Events.NotifyDeviceAdded"
+f1_keywords:
+- imapi2/DDiscMaster2Events.NotifyDeviceAdded
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - DDiscMaster2Events.NotifyDeviceAdded
+- DDiscMaster2Events.NotifyDeviceAdded
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_WSZ_DESCRIPTION
 title: WS_WSZ_DESCRIPTION (webservices.h)
-
 description: This type description is used with WS_WSZ_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_wsz_description.htm
 tech.root: wsw
 ms.assetid: 12b6f630-7585-4c88-8c49-f37d1899d32b
-
 ms.date: 12/05/2018
 ms.keywords: WS_WSZ_DESCRIPTION, WS_WSZ_DESCRIPTION structure [Web Services for Windows], webservices/WS_WSZ_DESCRIPTION, wsw.ws_wsz_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_WSZ_DESCRIPTION"
+f1_keywords:
+- webservices/WS_WSZ_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_WSZ_DESCRIPTION
+- WS_WSZ_DESCRIPTION
 targetos: Windows
 req.typenames: WS_WSZ_DESCRIPTION
 req.redist: 

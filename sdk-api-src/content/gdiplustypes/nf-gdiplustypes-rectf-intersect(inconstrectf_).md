@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.Intersect(IN const RectF &)
 title: RectF::Intersect (gdiplustypes.h)
-
 description: This topic lists the Intersect methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Intersect_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfintersectmethods.htm
-
 ms.date: 12/05/2018
 ms.keywords: Intersect, Intersect methods [GDI+], RectF.Intersect, RectF::Intersect, _gdiplus_CLASS_RectF_Intersect_Methods, gdiplus._gdiplus_CLASS_RectF_Intersect_Methods, gdiplustypes/Intersect
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.Intersect"
+f1_keywords:
+- gdiplustypes/RectF.Intersect
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - RectF.Intersect
+- RectF.Intersect
 targetos: Windows
 req.typenames: 
 req.redist: 

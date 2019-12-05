@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgAttribute
 title: ID2D1SvgAttribute (d2d1svg.h)
-
 description: Interface describing an SVG attribute.
 old-location: direct2d\id2d1svgattribute.htm
 tech.root: Direct2D
 ms.assetid: 7B11D05C-6CD5-4609-B76A-719B92437314
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgAttribute, ID2D1SvgAttribute interface [Direct2D], ID2D1SvgAttribute interface [Direct2D],described, d2d1svg/ID2D1SvgAttribute, direct2d.id2d1svgattribute
 ms.topic: interface
-f1_keywords: 
- - "d2d1svg/ID2D1SvgAttribute"
+f1_keywords:
+- d2d1svg/ID2D1SvgAttribute
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgAttribute
+- ID2D1SvgAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

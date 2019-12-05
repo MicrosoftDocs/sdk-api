@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncChange
 title: ISyncChange (winsync.h)
-
 description: Represents a change to an item.
 old-location: winsync\isyncchange.htm
 tech.root: winsync
 ms.assetid: 0cd29977-8d02-4a1e-b63f-783cc10021ee
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChange, ISyncChange interface [Windows Sync], ISyncChange interface [Windows Sync],described, winsync.isyncchange, winsync/ISyncChange
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncChange"
+f1_keywords:
+- winsync/ISyncChange
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange
+- ISyncChange
 targetos: Windows
 req.typenames: 
 req.redist: 

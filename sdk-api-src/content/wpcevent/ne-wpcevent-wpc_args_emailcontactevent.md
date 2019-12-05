@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_EMAILCONTACTEVENT
 title: WPC_ARGS_EMAILCONTACTEVENT (wpcevent.h)
-
 description: Indicates information about contacting someone by using email.
 old-location: parcon\wpc_args_emailcontactevent.htm
 tech.root: parcon
 ms.assetid: 42c2b1c3-11f9-4706-bb29-c9bf985e81be
-
 ms.date: 12/05/2018
 ms.keywords: WPC_ARGS_EMAILCONTACTEVENT, WPC_ARGS_EMAILCONTACTEVENT enumeration, WPC_ARGS_EMAILCONTACTEVENT_APPNAME, WPC_ARGS_EMAILCONTACTEVENT_APPVERSION, WPC_ARGS_EMAILCONTACTEVENT_CARGS, WPC_ARGS_EMAILCONTACTEVENT_EMAILACCOUNT, WPC_ARGS_EMAILCONTACTEVENT_NEWID, WPC_ARGS_EMAILCONTACTEVENT_NEWNAME, WPC_ARGS_EMAILCONTACTEVENT_OLDID, WPC_ARGS_EMAILCONTACTEVENT_OLDNAME, WPC_ARGS_EMAILCONTACTEVENT_REASON, parcon.wpc_args_emailcontactevent, wpcevent/WPC_ARGS_EMAILCONTACTEVENT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_APPNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_APPVERSION, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_CARGS, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_EMAILACCOUNT, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_NEWID, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_NEWNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_OLDID, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_OLDNAME, wpcevent/WPC_ARGS_EMAILCONTACTEVENT_REASON
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPC_ARGS_EMAILCONTACTEVENT"
+f1_keywords:
+- wpcevent/WPC_ARGS_EMAILCONTACTEVENT
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPC_ARGS_EMAILCONTACTEVENT
+- WPC_ARGS_EMAILCONTACTEVENT
 targetos: Windows
 req.typenames: WPC_ARGS_EMAILCONTACTEVENT
 req.redist: 

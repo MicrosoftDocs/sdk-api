@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IStreamConcatenate.Initialize2
 title: IStreamConcatenate::Initialize2 (imapi2.h)
-
 description: Initializes this stream from an array of input streams.
 old-location: imapi\istreamconcatenate_initialize2.htm
 tech.root: imapi
 ms.assetid: 826b3157-4cab-4f18-87f2-6635911c03f0
-
 ms.date: 12/05/2018
 ms.keywords: IStreamConcatenate interface [IMAPI],Initialize2 method, IStreamConcatenate.Initialize2, IStreamConcatenate::Initialize2, Initialize2, Initialize2 method [IMAPI], Initialize2 method [IMAPI],IStreamConcatenate interface, imapi.istreamconcatenate_initialize2, imapi2/IStreamConcatenate::Initialize2
 ms.topic: method
-f1_keywords: 
- - "imapi2/IStreamConcatenate.Initialize2"
+f1_keywords:
+- imapi2/IStreamConcatenate.Initialize2
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IStreamConcatenate.Initialize2
+- IStreamConcatenate.Initialize2
 targetos: Windows
 req.typenames: 
 req.redist: 

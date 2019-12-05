@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_CHANGE0_
 title: FWPM_SUBLAYER_CHANGE0 (fwpmtypes.h)
-
 description: Change notification dispatched to subscribers.
 old-location: fwp\fwpm_sublayer_change0_struct.htm
 tech.root: fwp
 ms.assetid: f01593aa-e7b1-42f1-b523-2f9e6d6b631b
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_SUBLAYER_CHANGE0, FWPM_SUBLAYER_CHANGE0 structure [Filtering], fwp.fwpm_sublayer_change0_struct, fwpmtypes/FWPM_SUBLAYER_CHANGE0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_SUBLAYER_CHANGE0"
+f1_keywords:
+- fwpmtypes/FWPM_SUBLAYER_CHANGE0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_SUBLAYER_CHANGE0
+- FWPM_SUBLAYER_CHANGE0
 targetos: Windows
 req.typenames: FWPM_SUBLAYER_CHANGE0
 req.redist: 

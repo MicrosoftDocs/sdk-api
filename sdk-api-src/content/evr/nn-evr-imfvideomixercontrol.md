@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFVideoMixerControl
 title: IMFVideoMixerControl (evr.h)
-
 description: Controls how the Enhanced Video Renderer (EVR) mixes video substreams.
 old-location: mf\imfvideomixercontrol.htm
 tech.root: medfound
 ms.assetid: 8b5f54e3-c6da-4201-857a-9c718ad911db
-
 ms.date: 12/05/2018
 ms.keywords: 8b5f54e3-c6da-4201-857a-9c718ad911db, IMFVideoMixerControl, IMFVideoMixerControl interface [Media Foundation], IMFVideoMixerControl interface [Media Foundation],described, evr/IMFVideoMixerControl, mf.imfvideomixercontrol
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFVideoMixerControl"
+f1_keywords:
+- evr/IMFVideoMixerControl
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerControl
+- IMFVideoMixerControl
 targetos: Windows
 req.typenames: 
 req.redist: 

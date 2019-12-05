@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_CALLBACK_INFORMATION
 title: MINIDUMP_CALLBACK_INFORMATION (minidumpapiset.h)
-
 description: Contains a pointer to an optional callback function that can be used by the MiniDumpWriteDump function.
 old-location: base\minidump_callback_information_str.htm
 tech.root: Debug
 ms.assetid: 98caf4c3-8e6b-4f42-ae48-977a8392de1c
-
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION structure, PMINIDUMP_CALLBACK_INFORMATION, PMINIDUMP_CALLBACK_INFORMATION structure pointer, _MINIDUMP_CALLBACK_INFORMATION, _win32_minidump_callback_information_str, base.minidump_callback_information_str, minidumpapiset/MINIDUMP_CALLBACK_INFORMATION, minidumpapiset/PMINIDUMP_CALLBACK_INFORMATION"
+ms.keywords: '*PMINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION, MINIDUMP_CALLBACK_INFORMATION structure, PMINIDUMP_CALLBACK_INFORMATION, PMINIDUMP_CALLBACK_INFORMATION structure pointer, _MINIDUMP_CALLBACK_INFORMATION, _win32_minidump_callback_information_str, base.minidump_callback_information_str, minidumpapiset/MINIDUMP_CALLBACK_INFORMATION, minidumpapiset/PMINIDUMP_CALLBACK_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_CALLBACK_INFORMATION"
+f1_keywords:
+- minidumpapiset/MINIDUMP_CALLBACK_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_CALLBACK_INFORMATION
+- MINIDUMP_CALLBACK_INFORMATION
 targetos: Windows
 req.typenames: MINIDUMP_CALLBACK_INFORMATION, *PMINIDUMP_CALLBACK_INFORMATION
 req.redist: DbgHelp.dll 5.1 or later

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutMessage
 title: midiOutMessage function (mmeapi.h)
-
 description: The midiOutMessage function sends a message to the MIDI device drivers. This function is used only for driver-specific messages that are not supported by the MIDI API.
 old-location: multimedia\midioutmessage.htm
 tech.root: Multimedia
 ms.assetid: bbc37692-ed85-4ac0-9b7c-4ea64a3d21a8
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutMessage, midiOutMessage, midiOutMessage function [Windows Multimedia], mmeapi/midiOutMessage, multimedia.midioutmessage"
+ms.keywords: _win32_midiOutMessage, midiOutMessage, midiOutMessage function [Windows Multimedia], mmeapi/midiOutMessage, multimedia.midioutmessage
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutMessage"
+f1_keywords:
+- mmeapi/midiOutMessage
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutMessage
+- midiOutMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

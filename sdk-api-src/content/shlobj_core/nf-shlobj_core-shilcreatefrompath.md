@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHILCreateFromPath
 title: SHILCreateFromPath function (shlobj_core.h)
-
 description: SHILCreateFromPath may be altered or unavailable.
 old-location: shell\SHILCreateFromPath.htm
 tech.root: shell
 ms.assetid: 08700af7-9dbd-4162-8578-bfa47e3db6bf
-
 ms.date: 12/05/2018
 ms.keywords: SHILCreateFromPath, SHILCreateFromPath function [Windows Shell], _win32_SHILCreateFromPath, shell.SHILCreateFromPath, shlobj_core/SHILCreateFromPath
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHILCreateFromPath"
+f1_keywords:
+- shlobj_core/SHILCreateFromPath
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHILCreateFromPath
+- SHILCreateFromPath
 targetos: Windows
 req.typenames: 
 req.redist: 

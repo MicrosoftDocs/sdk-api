@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_
 title: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 (ipsectypes.h)
-
 description: Stores aggregate IPsec kernel packet drop statistics.Note  IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 is the specific implementation of IPSEC_AGGREGATE_DROP_PACKET_STATISTICS used in Windows Vista.
 old-location: fwp\ipsec_aggregate_drop_packet_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: f7c955af-97ec-4c27-a9de-d1498398608e
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0, IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0 structure [Filtering], fwp.ipsec_aggregate_drop_packet_statistics0_struct, ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0"
+f1_keywords:
+- ipsectypes/IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
+- IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 targetos: Windows
 req.typenames: IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 req.redist: 

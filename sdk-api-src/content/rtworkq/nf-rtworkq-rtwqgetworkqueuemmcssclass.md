@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSClass
 title: RtwqGetWorkQueueMMCSSClass function (rtworkq.h)
-
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class currently associated with this work queue.
 old-location: base\rtwqgetworkqueuemmcssclass.htm
 tech.root: ProcThread
 ms.assetid: 1fea099d-33cd-4edd-aa6c-026a0e3478e3
-
 ms.date: 12/05/2018
 ms.keywords: RtwqGetWorkQueueMMCSSClass, RtwqGetWorkQueueMMCSSClass function, base.rtwqgetworkqueuemmcssclass, rtworkq/RtwqGetWorkQueueMMCSSClass
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqGetWorkQueueMMCSSClass"
+f1_keywords:
+- rtworkq/RtwqGetWorkQueueMMCSSClass
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqGetWorkQueueMMCSSClass
+- RtwqGetWorkQueueMMCSSClass
 targetos: Windows
 req.typenames: 
 req.redist: 

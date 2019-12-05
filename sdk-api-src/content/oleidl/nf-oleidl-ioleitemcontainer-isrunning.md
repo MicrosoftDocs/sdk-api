@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleItemContainer.IsRunning
 title: IOleItemContainer::IsRunning (oleidl.h)
-
 description: Determines whether the specified object is running.
 old-location: com\ioleitemcontainer_isrunning.htm
 tech.root: com
 ms.assetid: 7bbd7b58-b7ab-493e-8315-a35034ee2b7a
-
 ms.date: 12/05/2018
 ms.keywords: IOleItemContainer interface [COM],IsRunning method, IOleItemContainer.IsRunning, IOleItemContainer::IsRunning, IsRunning, IsRunning method [COM], IsRunning method [COM],IOleItemContainer interface, _com_ioleitemcontainer_isrunning, com.ioleitemcontainer_isrunning, oleidl/IOleItemContainer::IsRunning
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleItemContainer.IsRunning"
+f1_keywords:
+- oleidl/IOleItemContainer.IsRunning
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleItemContainer.IsRunning
+- IOleItemContainer.IsRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

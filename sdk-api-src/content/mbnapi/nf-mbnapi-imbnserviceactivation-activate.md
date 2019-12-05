@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnServiceActivation.Activate
 title: IMbnServiceActivation::Activate (mbnapi.h)
-
 description: Send the service activation request to the network.
 old-location: mbn\imbnserviceactivation_activate.htm
 tech.root: mbn
 ms.assetid: 3c131363-9403-4c7a-984d-6602b879c08e
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Microsoft Broadband Networks], Activate method [Microsoft Broadband Networks],IMbnServiceActivation interface, IMbnServiceActivation interface [Microsoft Broadband Networks],Activate method, IMbnServiceActivation.Activate, IMbnServiceActivation::Activate, mbn.imbnserviceactivation_activate, mbnapi/IMbnServiceActivation::Activate
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnServiceActivation.Activate"
+f1_keywords:
+- mbnapi/IMbnServiceActivation.Activate
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnServiceActivation.Activate
+- IMbnServiceActivation.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

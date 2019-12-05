@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLIsGenuineLocalEx
 title: SLIsGenuineLocalEx function (slpublic.h)
-
 description: Checks whether the specified application installation is genuine.
 old-location: security\slisgenuinelocalex.htm
 tech.root: SecSLApi
 ms.assetid: 171edde8-edbd-4040-9623-359f13817687
-
 ms.date: 12/05/2018
 ms.keywords: SLIsGenuineLocalEx, SLIsGenuineLocalEx function [Security], security.slisgenuinelocalex, slpublic/SLIsGenuineLocalEx
 ms.topic: function
 f1_keywords:
 - slpublic/SLIsGenuineLocalEx
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

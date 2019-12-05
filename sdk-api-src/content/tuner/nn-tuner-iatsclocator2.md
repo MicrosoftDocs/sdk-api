@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IATSCLocator2
 title: IATSCLocator2 (tuner.h)
-
 description: The IATASCLocator2 interface enables the network provider to determine the physical channel, transport stream ID, and program number of an ATSC transmission.
 old-location: mstv\iatsclocator2.htm
 tech.root: mstv
 ms.assetid: dbb830bf-db46-4981-8a96-ae33b1de3883
-
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator2, IATSCLocator2 interface [Microsoft TV Technologies], IATSCLocator2 interface [Microsoft TV Technologies],described, IATSCLocator2Interface, mstv.iatsclocator2, tuner/IATSCLocator2
 ms.topic: interface
-f1_keywords: 
- - "tuner/IATSCLocator2"
+f1_keywords:
+- tuner/IATSCLocator2
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCLocator2
+- IATSCLocator2
 targetos: Windows
 req.typenames: 
 req.redist: 

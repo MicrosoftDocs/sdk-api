@@ -1,19 +1,17 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.prepareForSync
 title: IWMPSubscriptionService2::prepareForSync (subscriptionservices.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpsubscriptionservice2_prepareforsync.htm
 tech.root: WMP
 ms.assetid: 64ab5548-b562-44e4-9798-8f14d3ed653b
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionService2 interface [Windows Media Player],prepareForSync method, IWMPSubscriptionService2.prepareForSync, IWMPSubscriptionService2::prepareForSync, IWMPSubscriptionService2prepareForSync, prepareForSync, prepareForSync method [Windows Media Player], prepareForSync method [Windows Media Player],IWMPSubscriptionService2 interface, subscriptionservices/IWMPSubscriptionService2::prepareForSync, wmp.iwmpsubscriptionservice2_prepareforsync
 ms.topic: method
-f1_keywords: 
- - "subscriptionservices/IWMPSubscriptionService2.prepareForSync"
+f1_keywords:
+- subscriptionservices/IWMPSubscriptionService2.prepareForSync
 dev_langs:
- - c++
+- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - subscriptionservices.h
+- subscriptionservices.h
 api_name:
- - IWMPSubscriptionService2.prepareForSync
+- IWMPSubscriptionService2.prepareForSync
 targetos: Windows
 req.typenames: 
 req.redist: 

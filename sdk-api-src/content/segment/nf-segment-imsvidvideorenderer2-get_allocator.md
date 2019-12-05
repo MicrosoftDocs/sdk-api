@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_Allocator
 title: IMSVidVideoRenderer2::get_Allocator (segment.h)
-
 description: The get_Allocator method retrieves the allocator-presenter from the VMR as an IUnknown pointer.
 old-location: mstv\imsvidvideorenderer2_get_allocator.htm
 tech.root: mstv
 ms.assetid: 0ba2c9ba-c3ba-4095-8221-a424776f3fac
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],get_Allocator method, IMSVidVideoRenderer2.get_Allocator, IMSVidVideoRenderer2::get_Allocator, IMSVidVideoRenderer2get_Allocator, get_Allocator, get_Allocator method [Microsoft TV Technologies], get_Allocator method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, mstv.imsvidvideorenderer2_get_allocator, segment/IMSVidVideoRenderer2::get_Allocator
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer2.get_Allocator"
+f1_keywords:
+- segment/IMSVidVideoRenderer2.get_Allocator
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer2.get_Allocator
+- IMSVidVideoRenderer2.get_Allocator
 targetos: Windows
 req.typenames: 
 req.redist: 

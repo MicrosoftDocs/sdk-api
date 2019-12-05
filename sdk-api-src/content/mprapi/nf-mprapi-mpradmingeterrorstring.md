@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminGetErrorString
 title: MprAdminGetErrorString function (mprapi.h)
-
 description: The MprAdminGetErrorString function returns the string associated with a router error from Mprerror.h.
 old-location: rras\mpradmingeterrorstring.htm
 tech.root: RRAS
 ms.assetid: d086f12e-7352-4a0d-bfbe-ddab3b44d757
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminGetErrorString, MprAdminGetErrorString function [RAS], _mpr_mpradmingeterrorstring, mprapi/MprAdminGetErrorString, rras.mpradmingeterrorstring
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminGetErrorString"
+f1_keywords:
+- mprapi/MprAdminGetErrorString
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminGetErrorString
+- MprAdminGetErrorString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetState
 title: IExplorerCommand::GetState (shobjidl_core.h)
-
 description: Gets state information associated with a specified Windows Explorer command item.
 old-location: shell\IExplorerCommand_GetState.htm
 tech.root: shell
 ms.assetid: bb600cb5-9b7e-45dc-beca-0a913c214084
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [Windows Shell], GetState method [Windows Shell],IExplorerCommand interface, IExplorerCommand interface [Windows Shell],GetState method, IExplorerCommand.GetState, IExplorerCommand::GetState, _shell_IExplorerCommand_GetState, shell.IExplorerCommand_GetState, shobjidl_core/IExplorerCommand::GetState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerCommand.GetState"
+f1_keywords:
+- shobjidl_core/IExplorerCommand.GetState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerCommand.GetState
+- IExplorerCommand.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

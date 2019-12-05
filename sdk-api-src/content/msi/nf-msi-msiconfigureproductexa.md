@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiConfigureProductExA
 title: MsiConfigureProductExA function (msi.h)
-
 description: Installs or uninstalls a product.
 old-location: setup\msiconfigureproductex.htm
 tech.root: Msi
 ms.assetid: 7a7ae88a-b893-4d10-8542-b2066d1572a9
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureProductEx, MsiConfigureProductEx function, MsiConfigureProductExA, MsiConfigureProductExW, _msi_msiconfigureproductex, msi/MsiConfigureProductEx, msi/MsiConfigureProductExA, msi/MsiConfigureProductExW, setup.msiconfigureproductex
 ms.topic: function
-f1_keywords: 
- - "msi/MsiConfigureProductEx"
+f1_keywords:
+- msi/MsiConfigureProductEx
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSi-Misc-L1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiConfigureProductEx
- - MsiConfigureProductExA
- - MsiConfigureProductExW
+- MsiConfigureProductEx
+- MsiConfigureProductExA
+- MsiConfigureProductExW
 targetos: Windows
 req.typenames: 
 req.redist: 

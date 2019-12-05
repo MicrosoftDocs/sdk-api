@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_TABLETRANSFER_PROP
 title: D2D1_TABLETRANSFER_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Table transfer effect.
 old-location: direct2d\d2d1_tabletransfer_prop.htm
 tech.root: Direct2D
 ms.assetid: C4623CD1-1EA2-4CA4-BF28-755BE1BA401E
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_TABLETRANSFER_PROP, D2D1_TABLETRANSFER_PROP enumeration [Direct2D], D2D1_TABLETRANSFER_PROP_ALPHA_DISABLE, D2D1_TABLETRANSFER_PROP_ALPHA_TABLE, D2D1_TABLETRANSFER_PROP_BLUE_DISABLE, D2D1_TABLETRANSFER_PROP_BLUE_TABLE, D2D1_TABLETRANSFER_PROP_CLAMP_OUTPUT, D2D1_TABLETRANSFER_PROP_GREEN_DISABLE, D2D1_TABLETRANSFER_PROP_GREEN_TABLE, D2D1_TABLETRANSFER_PROP_RED_DISABLE, D2D1_TABLETRANSFER_PROP_RED_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP, d2d1effects/D2D1_TABLETRANSFER_PROP_ALPHA_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_ALPHA_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_BLUE_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_BLUE_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_CLAMP_OUTPUT, d2d1effects/D2D1_TABLETRANSFER_PROP_GREEN_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_GREEN_TABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_RED_DISABLE, d2d1effects/D2D1_TABLETRANSFER_PROP_RED_TABLE, direct2d.d2d1_tabletransfer_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_TABLETRANSFER_PROP"
+f1_keywords:
+- d2d1effects/D2D1_TABLETRANSFER_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_TABLETRANSFER_PROP
+- D2D1_TABLETRANSFER_PROP
 targetos: Windows
 req.typenames: D2D1_TABLETRANSFER_PROP
 req.redist: 

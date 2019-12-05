@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.IsReparseTagMicrosoft
 title: IsReparseTagMicrosoft macro (winnt.h)
-
 description: Determines whether a reparse point tag indicates a Microsoft reparse point.
 old-location: fs\isreparsetagmicrosoft.htm
 tech.root: FileIO
 ms.assetid: f64378a7-084e-41c7-9331-dcffa11e0ae9
-
 ms.date: 12/05/2018
 ms.keywords: IsReparseTagMicrosoft, IsReparseTagMicrosoft macro [Files], _win32_isreparsetagmicrosoft, base.isreparsetagmicrosoft, fs.isreparsetagmicrosoft, winnt/IsReparseTagMicrosoft
 ms.topic: macro
-f1_keywords: 
- - "winnt/IsReparseTagMicrosoft"
+f1_keywords:
+- winnt/IsReparseTagMicrosoft
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - IsReparseTagMicrosoft
+- IsReparseTagMicrosoft
 targetos: Windows
 req.typenames: 
 req.redist: 

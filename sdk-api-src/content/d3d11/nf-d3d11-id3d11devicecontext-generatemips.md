@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GenerateMips
 title: ID3D11DeviceContext::GenerateMips (d3d11.h)
-
 description: Generates mipmaps for the given shader resource.
 old-location: direct3d11\id3d11devicecontext_generatemips.htm
 tech.root: direct3d11
 ms.assetid: 43012c58-3b1a-4956-993f-4ff3f5ec7fce
-
 ms.date: 12/05/2018
 ms.keywords: 79d02fdb-42ae-9bb1-5d10-7110c77d29f9, GenerateMips, GenerateMips method [Direct3D 11], GenerateMips method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GenerateMips method, ID3D11DeviceContext.GenerateMips, ID3D11DeviceContext::GenerateMips, d3d11/ID3D11DeviceContext::GenerateMips, direct3d11.id3d11devicecontext_generatemips
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.GenerateMips"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.GenerateMips
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.GenerateMips
+- ID3D11DeviceContext.GenerateMips
 targetos: Windows
 req.typenames: 
 req.redist: 

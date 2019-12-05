@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.SetConstantBuffer
 title: ID3D10EffectConstantBuffer::SetConstantBuffer (d3d10effect.h)
-
 description: Set a constant-buffer.
 old-location: direct3d10\id3d10effectconstantbuffer_setconstantbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer_setconstantbuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10EffectConstantBuffer interface [Direct3D 10],SetConstantBuffer method, ID3D10EffectConstantBuffer.SetConstantBuffer, ID3D10EffectConstantBuffer::SetConstantBuffer, SetConstantBuffer, SetConstantBuffer method [Direct3D 10], SetConstantBuffer method [Direct3D 10],ID3D10EffectConstantBuffer interface, af35cbbd-7780-96d5-c5b4-c847ab276c4b, d3d10effect/ID3D10EffectConstantBuffer::SetConstantBuffer, direct3d10.id3d10effectconstantbuffer_setconstantbuffer
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectConstantBuffer.SetConstantBuffer"
+f1_keywords:
+- d3d10effect/ID3D10EffectConstantBuffer.SetConstantBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectConstantBuffer.SetConstantBuffer
+- ID3D10EffectConstantBuffer.SetConstantBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.ParseApplicationUserModelId
 title: ParseApplicationUserModelId function (appmodel.h)
-
 description: Deconstructs an application user model ID to its package family name and package relative application ID (PRAID).
 old-location: appxpkg\parseapplicationusermodelid.htm
 tech.root: appxpkg
 ms.assetid: 03B29E82-611F-47D1-8CB6-047B9BEB4D9E
-
 ms.date: 12/05/2018
 ms.keywords: ParseApplicationUserModelId, ParseApplicationUserModelId function [App packaging and management], appmodel/ParseApplicationUserModelId, appxpkg.parseapplicationusermodelid
 ms.topic: function
-f1_keywords: 
- - "appmodel/ParseApplicationUserModelId"
+f1_keywords:
+- appmodel/ParseApplicationUserModelId
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - ParseApplicationUserModelId
+- ParseApplicationUserModelId
 targetos: Windows
 req.typenames: 
 req.redist: 

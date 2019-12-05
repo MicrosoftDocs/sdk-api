@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetLoad
 title: ITsSbTarget::get_TargetLoad (sbtsv.h)
-
 description: Retrieves the relative load on a target.
 old-location: termserv\itssbtarget_targetload.htm
 tech.root: TermServ
 ms.assetid: 56618dcf-1319-4310-80ba-7ed71b8b02e8
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetLoad property, ITsSbTarget.TargetLoad, ITsSbTarget.get_TargetLoad, ITsSbTarget::TargetLoad, ITsSbTarget::get_TargetLoad, ITsSbTargetEx interface [Remote Desktop Services],TargetLoad property, ITsSbTargetEx.TargetLoad, ITsSbTargetEx::get_TargetLoad, TargetLoad property [Remote Desktop Services], TargetLoad property [Remote Desktop Services],ITsSbTarget interface, TargetLoad property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetLoad, sbtsv/ITsSbTarget::TargetLoad, sbtsv/ITsSbTarget::get_TargetLoad, sbtsv/ITsSbTargetEx::TargetLoad, sbtsv/ITsSbTargetEx::get_TargetLoad, termserv.itssbtarget_targetload
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTarget.TargetLoad"
+f1_keywords:
+- sbtsv/ITsSbTarget.TargetLoad
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTarget.TargetLoad
- - ITsSbTarget.get_TargetLoad
- - ITsSbTargetEx.TargetLoad
- - ITsSbTargetEx.get_TargetLoad
+- ITsSbTarget.TargetLoad
+- ITsSbTarget.get_TargetLoad
+- ITsSbTargetEx.TargetLoad
+- ITsSbTargetEx.get_TargetLoad
 targetos: Windows
 req.typenames: 
 req.redist: 

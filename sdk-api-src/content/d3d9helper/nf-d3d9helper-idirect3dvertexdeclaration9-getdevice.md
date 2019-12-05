@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DVertexDeclaration9.GetDevice
 title: IDirect3DVertexDeclaration9::GetDevice (d3d9helper.h)
-
 description: Gets the current device.
 old-location: direct3d9\idirect3dvertexdeclaration9__getdevice.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9__getdevice.htm
-
 ms.date: 12/05/2018
 ms.keywords: 06ae2ca9-697f-c95d-8f0b-7e78f6bb21dd, GetDevice, GetDevice method [Direct3D 9], GetDevice method [Direct3D 9],IDirect3DVertexDeclaration9 interface, IDirect3DVertexDeclaration9 interface [Direct3D 9],GetDevice method, IDirect3DVertexDeclaration9.GetDevice, IDirect3DVertexDeclaration9::GetDevice, d3d9helper/IDirect3DVertexDeclaration9::GetDevice, direct3d9.idirect3dvertexdeclaration9__getdevice
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DVertexDeclaration9.GetDevice"
+f1_keywords:
+- d3d9helper/IDirect3DVertexDeclaration9.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DVertexDeclaration9.GetDevice
+- IDirect3DVertexDeclaration9.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

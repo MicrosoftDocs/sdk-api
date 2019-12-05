@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetView
 title: ListView_SetView macro (commctrl.h)
-
 description: Sets the view of a list-view control. You can use this macro or send the LVM_SETVIEW message explicitly.
 old-location: controls\ListView_SetView.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setview.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetView, ListView_SetView macro [Windows Controls], _win32_ListView_SetView, _win32_ListView_SetView_cpp, commctrl/ListView_SetView, controls.ListView_SetView, controls._win32_ListView_SetView
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetView"
+f1_keywords:
+- commctrl/ListView_SetView
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetView
+- ListView_SetView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMVideoMediaProps.SetMaxKeyFrameSpacing
 title: IWMVideoMediaProps::SetMaxKeyFrameSpacing (wmsdkidl.h)
-
 description: The SetMaxKeyFrameSpacing method specifies the maximum interval between key frames.
 old-location: wmformat\iwmvideomediaprops_setmaxkeyframespacing.htm
 tech.root: wmformat
 ms.assetid: 1d1a9090-2658-45bd-8893-30e063d10aa8
-
 ms.date: 12/05/2018
 ms.keywords: IWMVideoMediaProps interface [windows Media Format],SetMaxKeyFrameSpacing method, IWMVideoMediaProps.SetMaxKeyFrameSpacing, IWMVideoMediaProps::SetMaxKeyFrameSpacing, IWMVideoMediaPropsSetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing, SetMaxKeyFrameSpacing method [windows Media Format], SetMaxKeyFrameSpacing method [windows Media Format],IWMVideoMediaProps interface, wmformat.iwmvideomediaprops_setmaxkeyframespacing, wmsdkidl/IWMVideoMediaProps::SetMaxKeyFrameSpacing
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMVideoMediaProps.SetMaxKeyFrameSpacing"
+f1_keywords:
+- wmsdkidl/IWMVideoMediaProps.SetMaxKeyFrameSpacing
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wmvcore.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
+- Wmvcore.lib
+- Wmvcore.dll
 api_name:
- - IWMVideoMediaProps.SetMaxKeyFrameSpacing
+- IWMVideoMediaProps.SetMaxKeyFrameSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

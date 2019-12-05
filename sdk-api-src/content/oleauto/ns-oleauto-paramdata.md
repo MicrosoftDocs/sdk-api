@@ -1,19 +1,17 @@
 ---
 UID: NS:oleauto.tagPARAMDATA
 title: PARAMDATA (oleauto.h)
-
 description: Describes a parameter accepted by a method or property.
 old-location: automat\paramdata.htm
 tech.root: automat
 ms.assetid: 3166eac0-7e07-47e1-9bca-60b15cbdf971
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPARAMDATA, LPPARAMDATA, LPPARAMDATA structure pointer [Automation], PARAMDATA, PARAMDATA structure [Automation], _oa96_PARAMDATA, automat.paramdata, oleauto/LPPARAMDATA, oleauto/PARAMDATA"
+ms.keywords: '*LPPARAMDATA, LPPARAMDATA, LPPARAMDATA structure pointer [Automation], PARAMDATA, PARAMDATA structure [Automation], _oa96_PARAMDATA, automat.paramdata, oleauto/LPPARAMDATA, oleauto/PARAMDATA'
 ms.topic: struct
-f1_keywords: 
- - "oleauto/PARAMDATA"
+f1_keywords:
+- oleauto/PARAMDATA
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleAuto.h
+- OleAuto.h
 api_name:
- - PARAMDATA
+- PARAMDATA
 targetos: Windows
 req.typenames: PARAMDATA, *LPPARAMDATA
 req.redist: 

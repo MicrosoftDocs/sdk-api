@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzApplication
 title: IAzApplication (azroles.h)
-
 description: Defines an installed instance of an application. An IAzApplication object is created when an application is installed.
 old-location: security\iazapplication.htm
 tech.root: SecAuthZ
 ms.assetid: ea4a8a84-5003-44da-b75e-34da6bd898dd
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplication, IAzApplication interface [Security], IAzApplication interface [Security],described, azroles/IAzApplication, security.iazapplication
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzApplication"
+f1_keywords:
+- azroles/IAzApplication
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication
+- IAzApplication
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

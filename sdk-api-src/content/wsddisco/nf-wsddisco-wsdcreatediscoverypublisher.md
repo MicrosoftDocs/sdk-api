@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryPublisher
 title: WSDCreateDiscoveryPublisher function (wsddisco.h)
-
 description: Creates an IWSDiscoveryPublisher object.
 old-location: ncd\wsdcreatediscoverypublisher_func.htm
 tech.root: WsdApi
 ms.assetid: 18abde49-2ea7-4c49-9afe-1b7c7182aeeb
-
 ms.date: 12/05/2018
 ms.keywords: WSDCreateDiscoveryPublisher, WSDCreateDiscoveryPublisher function, ncd.wsdcreatediscoverypublisher_func, wsddisco/WSDCreateDiscoveryPublisher
 ms.topic: function
-f1_keywords: 
- - "wsddisco/WSDCreateDiscoveryPublisher"
+f1_keywords:
+- wsddisco/WSDCreateDiscoveryPublisher
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDCreateDiscoveryPublisher
+- WSDCreateDiscoveryPublisher
 targetos: Windows
 req.typenames: 
 req.redist: 

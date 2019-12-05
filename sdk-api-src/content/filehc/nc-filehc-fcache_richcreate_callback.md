@@ -1,19 +1,17 @@
 ---
 UID: NC:filehc.FCACHE_RICHCREATE_CALLBACK
 title: FCACHE_RICHCREATE_CALLBACK (filehc.h)
-
 description: A callback function that is used to create items in the cache.
 old-location: winprog\fcache_richcreate_callback.htm
 tech.root: DevNotes
 ms.assetid: 86e0d47e-469b-4c1d-9e39-f4f6d9e58ba0
-
 ms.date: 12/05/2018
 ms.keywords: FCACHE_RICHCREATE_CALLBACK, FCACHE_RICHCREATE_CALLBACK callback, FCACHE_RICHCREATE_CALLBACK callback function [Windows API], filehc/FCACHE_RICHCREATE_CALLBACK, winprog.fcache_richcreate_callback
 ms.topic: callback
-f1_keywords: 
- - "filehc/FCACHE_RICHCREATE_CALLBACK"
+f1_keywords:
+- filehc/FCACHE_RICHCREATE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Filehc.h
+- Filehc.h
 api_name:
- - FCACHE_RICHCREATE_CALLBACK
+- FCACHE_RICHCREATE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.SetOrder
 title: IFaxDeviceIds::SetOrder (faxcomex.h)
-
 description: The IFaxDeviceIds::SetOrder method changes the order of a device in the ordered FaxDeviceIds collection.
 old-location: fax\_mfax_faxdeviceids_cpp_mfax_faxdeviceids_setorder_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4nci.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDeviceIds interface [Fax Service],SetOrder method, IFaxDeviceIds.SetOrder, IFaxDeviceIds::SetOrder, SetOrder, SetOrder method [Fax Service], SetOrder method [Fax Service],IFaxDeviceIds interface, _mfax_faxdeviceids.setorder, fax._mfax_faxdeviceids_cpp_mfax_faxdeviceids_setorder_cpp, fax._mfax_faxdeviceids_setorder, faxcomex/IFaxDeviceIds::SetOrder
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDeviceIds.SetOrder"
+f1_keywords:
+- faxcomex/IFaxDeviceIds.SetOrder
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDeviceIds.SetOrder
- - IFaxDeviceIds.SetOrder
+- IFaxDeviceIds.SetOrder
+- IFaxDeviceIds.SetOrder
 targetos: Windows
 req.typenames: 
 req.redist: 

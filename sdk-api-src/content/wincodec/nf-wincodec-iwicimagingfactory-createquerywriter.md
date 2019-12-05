@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateQueryWriter
 title: IWICImagingFactory::CreateQueryWriter (wincodec.h)
-
 description: Creates a new instance of a query writer.
 old-location: wic\_wic_codec_iwicimagingfactory_createquerywriter.htm
 tech.root: wic
 ms.assetid: c2998d22-68c5-45de-a651-6f67c6f5234a
-
 ms.date: 12/05/2018
 ms.keywords: CreateQueryWriter, CreateQueryWriter method [Windows Imaging Component], CreateQueryWriter method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateQueryWriter method, IWICImagingFactory.CreateQueryWriter, IWICImagingFactory::CreateQueryWriter, _wic_codec_iwicimagingfactory_createquerywriter, wic._wic_codec_iwicimagingfactory_createquerywriter, wincodec/IWICImagingFactory::CreateQueryWriter
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateQueryWriter"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateQueryWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateQueryWriter
+- IWICImagingFactory.CreateQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

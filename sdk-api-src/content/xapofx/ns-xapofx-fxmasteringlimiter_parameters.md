@@ -1,19 +1,17 @@
 ---
 UID: NS:xapofx.FXMASTERINGLIMITER_PARAMETERS
 title: FXMASTERINGLIMITER_PARAMETERS (xapofx.h)
-
 description: Parameters for use with the FXMasteringLimiter XAPO.
 old-location: xaudio2\fxmasteringlimiter_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXMASTERINGLIMITER_PARAMETERS
-
 ms.date: 12/05/2018
 ms.keywords: FXMASTERINGLIMITER_PARAMETERS, FXMASTERINGLIMITER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXMASTERINGLIMITER_PARAMETERS, xaudio2.fxmasteringlimiter_parameters
 ms.topic: struct
-f1_keywords: 
- - "xapofx/FXMASTERINGLIMITER_PARAMETERS"
+f1_keywords:
+- xapofx/FXMASTERINGLIMITER_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xapofx.h
+- xapofx.h
 api_name:
- - FXMASTERINGLIMITER_PARAMETERS
+- FXMASTERINGLIMITER_PARAMETERS
 targetos: Windows
 req.typenames: FXMASTERINGLIMITER_PARAMETERS
 req.redist: 

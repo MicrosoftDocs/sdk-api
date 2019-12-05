@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ICoreFragmentInspector.Reset
 title: ICoreFragmentInspector::Reset (winsync.h)
-
 description: Resets the enumerator to the beginning of the knowledge.
 old-location: winsync\icorefragmentinspector_reset.htm
 tech.root: winsync
 ms.assetid: 57621ce0-c484-4687-9f2f-98d285b041ca
-
 ms.date: 12/05/2018
 ms.keywords: ICoreFragmentInspector interface [Windows Sync],Reset method, ICoreFragmentInspector.Reset, ICoreFragmentInspector::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],ICoreFragmentInspector interface, winsync.icorefragmentinspector_reset, winsync/ICoreFragmentInspector::Reset
 ms.topic: method
-f1_keywords: 
- - "winsync/ICoreFragmentInspector.Reset"
+f1_keywords:
+- winsync/ICoreFragmentInspector.Reset
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ICoreFragmentInspector.Reset
+- ICoreFragmentInspector.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

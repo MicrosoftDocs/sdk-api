@@ -1,19 +1,17 @@
 ---
 UID: NN:inspectable.IInspectable
 title: IInspectable (inspectable.h)
-
 description: Provides functionality required for all Windows Runtime classes.
 old-location: winrt\iinspectable.htm
 tech.root: WinRT
 ms.assetid: 0657E51F-D4C0-46C6-927D-B01E54B6846C
-
 ms.date: 12/05/2018
 ms.keywords: IInspectable, IInspectable interface [Windows Runtime], IInspectable interface [Windows Runtime],described, inspectable/IInspectable, winrt.iinspectable
 ms.topic: interface
-f1_keywords: 
- - "inspectable/IInspectable"
+f1_keywords:
+- inspectable/IInspectable
 dev_langs:
- - c++
+- c++
 req.header: inspectable.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inspectable.h
+- Inspectable.h
 api_name:
- - IInspectable
+- IInspectable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmddk.mmTaskSignal
 title: mmTaskSignal function (mmddk.h)
-
 description: The mmTaskSignal function is deprecated. Applications should not use this function.
 old-location: multimedia\mmtasksignal.htm
 tech.root: Multimedia
 ms.assetid: 99063f94-efe6-43f5-87e4-1d52b83650e2
-
 ms.date: 12/05/2018
 ms.keywords: mmTaskSignal, mmTaskSignal function [Windows Multimedia], mmddk/mmTaskSignal, multimedia.mmtasksignal
 ms.topic: function
-f1_keywords: 
- - "mmddk/mmTaskSignal"
+f1_keywords:
+- mmddk/mmTaskSignal
 dev_langs:
- - c++
+- c++
 req.header: mmddk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmtasksignal.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mmtasksignal.dll
+- mmtasksignal.dll
 api_name:
- - mmTaskSignal
+- mmTaskSignal
 targetos: Windows
 req.typenames: 
 req.redist: 

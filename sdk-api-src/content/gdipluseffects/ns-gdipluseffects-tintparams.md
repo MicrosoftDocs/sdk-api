@@ -1,19 +1,17 @@
 ---
 UID: NS:gdipluseffects.TintParams
 title: TintParams (gdipluseffects.h)
-
 description: A TintParams structure contains members that specify the nature of a tint adjustment to a bitmap.
 old-location: gdiplus\_gdiplus_STRUC_TintParams.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\tintparams.htm
-
 ms.date: 12/05/2018
 ms.keywords: TintParams, TintParams structure [GDI+], _gdiplus_STRUC_TintParams, gdiplus._gdiplus_STRUC_TintParams, gdipluseffects/TintParams
 ms.topic: struct
-f1_keywords: 
- - "gdipluseffects/TintParams"
+f1_keywords:
+- gdipluseffects/TintParams
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluseffects.h
+- Gdipluseffects.h
 api_name:
- - TintParams
+- TintParams
 targetos: Windows
 req.typenames: 
 req.redist: 

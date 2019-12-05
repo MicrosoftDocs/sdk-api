@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextCue
 title: IMFTimedTextCue (mfmediaengine.h)
-
 description: Represents the timed-text-cue object.
 old-location: mf\imftimedtextcue.htm
 tech.root: medfound
 ms.assetid: 831FA230-D0C4-4115-8447-D882686D80EE
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextCue, IMFTimedTextCue interface [Media Foundation], IMFTimedTextCue interface [Media Foundation],described, mf.imftimedtextcue, mfmediaengine/IMFTimedTextCue
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextCue"
+f1_keywords:
+- mfmediaengine/IMFTimedTextCue
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextCue
+- IMFTimedTextCue
 targetos: Windows
 req.typenames: 
 req.redist: 

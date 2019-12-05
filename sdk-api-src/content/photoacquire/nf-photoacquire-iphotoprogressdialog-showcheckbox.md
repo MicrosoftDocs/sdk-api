@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.ShowCheckbox
 title: IPhotoProgressDialog::ShowCheckbox (photoacquire.h)
-
 description: The ShowCheckbox method indicates whether to show the check box in the progress dialog box indicating whether to delete images after transfer.
 old-location: picacq\iphotoprogressdialog_showcheckbox.htm
 tech.root: acquisition
 ms.assetid: 6518c073-b4d9-49df-819f-473028ad230a
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],ShowCheckbox method, IPhotoProgressDialog.ShowCheckbox, IPhotoProgressDialog::ShowCheckbox, IPhotoProgressDialogShowCheckbox, ShowCheckbox, ShowCheckbox method [Picture Acquisition], ShowCheckbox method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::ShowCheckbox, picacq.iphotoprogressdialog_showcheckbox
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.ShowCheckbox"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.ShowCheckbox
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.ShowCheckbox
+- IPhotoProgressDialog.ShowCheckbox
 targetos: Windows
 req.typenames: 
 req.redist: 

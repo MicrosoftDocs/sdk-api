@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi._MFT_ENUM_FLAG
 title: _MFT_ENUM_FLAG (mfapi.h)
-
 description: Contains flags for registering and enumeration Media Foundation transforms (MFTs).
 old-location: mf\_mft_enum_flag.htm
 tech.root: medfound
 ms.assetid: ba39fb66-d8b6-49c1-8312-18ebdcb012c9
-
 ms.date: 12/05/2018
 ms.keywords: MFT_ENUM_FLAG_ALL, MFT_ENUM_FLAG_ASYNCMFT, MFT_ENUM_FLAG_FIELDOFUSE, MFT_ENUM_FLAG_HARDWARE, MFT_ENUM_FLAG_LOCALMFT, MFT_ENUM_FLAG_SORTANDFILTER, MFT_ENUM_FLAG_SYNCMFT, MFT_ENUM_FLAG_TRANSCODE_ONLY, _MFT_ENUM_FLAG, _MFT_ENUM_FLAG enumeration [Media Foundation], mf._mft_enum_flag, mfapi/MFT_ENUM_FLAG_ALL, mfapi/MFT_ENUM_FLAG_ASYNCMFT, mfapi/MFT_ENUM_FLAG_FIELDOFUSE, mfapi/MFT_ENUM_FLAG_HARDWARE, mfapi/MFT_ENUM_FLAG_LOCALMFT, mfapi/MFT_ENUM_FLAG_SORTANDFILTER, mfapi/MFT_ENUM_FLAG_SYNCMFT, mfapi/MFT_ENUM_FLAG_TRANSCODE_ONLY, mfapi/_MFT_ENUM_FLAG
 ms.topic: enum
-f1_keywords: 
- - "mfapi/_MFT_ENUM_FLAG"
+f1_keywords:
+- mfapi/_MFT_ENUM_FLAG
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - _MFT_ENUM_FLAG
+- _MFT_ENUM_FLAG
 targetos: Windows
 req.typenames: 
 req.redist: 

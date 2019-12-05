@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsPack.GetProvider
 title: IVdsPack::GetProvider (vds.h)
-
 description: Returns the software provider associated with a pack.
 old-location: base\ivdspack_getprovider.htm
 tech.root: VDS
 ms.assetid: b6e7ca7c-b95f-457d-996b-b3c449b6ce6b
-
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method [VDS], GetProvider method [VDS],IVdsPack interface, IVdsPack interface [VDS],GetProvider method, IVdsPack.GetProvider, IVdsPack::GetProvider, base.ivdspack_getprovider, vds/IVdsPack::GetProvider
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsPack.GetProvider"
+f1_keywords:
+- vds/IVdsPack.GetProvider
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsPack.GetProvider
+- IVdsPack.GetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

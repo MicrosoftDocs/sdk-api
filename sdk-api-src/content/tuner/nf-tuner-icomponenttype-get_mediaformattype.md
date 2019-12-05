@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponentType.get_MediaFormatType
 title: IComponentType::get_MediaFormatType (tuner.h)
-
 description: The get_MediaFormatType method retrieves the DirectShow media format type as a BSTR.
 old-location: mstv\icomponenttype_get_mediaformattype.htm
 tech.root: mstv
 ms.assetid: 5b618f33-2ef8-420b-9a15-83e1899476bc
-
 ms.date: 12/05/2018
 ms.keywords: IComponentType interface [Microsoft TV Technologies],get_MediaFormatType method, IComponentType.get_MediaFormatType, IComponentType::get_MediaFormatType, IComponentTypeget_MediaFormatType, get_MediaFormatType, get_MediaFormatType method [Microsoft TV Technologies], get_MediaFormatType method [Microsoft TV Technologies],IComponentType interface, mstv.icomponenttype_get_mediaformattype, tuner/IComponentType::get_MediaFormatType
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponentType.get_MediaFormatType"
+f1_keywords:
+- tuner/IComponentType.get_MediaFormatType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponentType.get_MediaFormatType
+- IComponentType.get_MediaFormatType
 targetos: Windows
 req.typenames: 
 req.redist: 

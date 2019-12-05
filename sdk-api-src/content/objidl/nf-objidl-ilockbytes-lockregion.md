@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILockBytes.LockRegion
 title: ILockBytes::LockRegion (objidl.h)
-
 description: The LockRegion method restricts access to a specified range of bytes in the byte array.
 old-location: stg\ilockbytes_lockregion.htm
 tech.root: Stg
 ms.assetid: cea59e2a-99d8-472d-8e4f-2e2474789c20
-
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],LockRegion method, ILockBytes.LockRegion, ILockBytes::LockRegion, LockRegion, LockRegion method [Structured Storage], LockRegion method [Structured Storage],ILockBytes interface, _stg_ilockbytes_lockregion, objidl/ILockBytes::LockRegion, stg.ilockbytes_lockregion
 ms.topic: method
-f1_keywords: 
- - "objidl/ILockBytes.LockRegion"
+f1_keywords:
+- objidl/ILockBytes.LockRegion
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILockBytes.LockRegion
+- ILockBytes.LockRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

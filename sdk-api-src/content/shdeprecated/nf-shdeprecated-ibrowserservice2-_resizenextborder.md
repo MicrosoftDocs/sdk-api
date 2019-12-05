@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._ResizeNextBorder
 title: IBrowserService2::_ResizeNextBorder (shdeprecated.h)
-
 description: Deprecated. Resizes the border of the browser view in response to the addition or removal of toolbars.
 old-location: shell\IBrowserService2__ResizeNextBorder.htm
 tech.root: shell
 ms.assetid: 9d7c618a-2948-44cf-8e47-96d33c08c9a5
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_ResizeNextBorder method, IBrowserService2._ResizeNextBorder, IBrowserService2::_ResizeNextBorder, _ResizeNextBorder, _ResizeNextBorder method [Windows Shell], _ResizeNextBorder method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_ResizeNextBorder, shell.IBrowserService2__ResizeNextBorder, zone_IBrowserService2__ResizeNextBorder
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._ResizeNextBorder"
+f1_keywords:
+- shdeprecated/IBrowserService2._ResizeNextBorder
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._ResizeNextBorder
+- IBrowserService2._ResizeNextBorder
 targetos: Windows
 req.typenames: 
 req.redist: 

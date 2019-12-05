@@ -1,19 +1,17 @@
 ---
 UID: NE:xamlom.ResourceType
 title: ResourceType (xamlom.h)
-
 description: Defines constants that specify the type of a resource in a resource dictionary.
 old-location: xaml_diagnostics\resourcetype.htm
 tech.root: xaml_diagnostics
 ms.assetid: F491E78E-86AF-499F-A729-2D534FBA8460
-
 ms.date: 12/05/2018
 ms.keywords: ResourceType, ResourceType enumeration, ResourceTypeStatic, ResourceTypeTheme, xaml_diagnostics.resourcetype, xamlom/ResourceType, xamlom/ResourceTypeStatic, xamlom/ResourceTypeTheme
 ms.topic: enum
-f1_keywords: 
- - "xamlom/ResourceType"
+f1_keywords:
+- xamlom/ResourceType
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - ResourceType
+- ResourceType
 targetos: Windows
 req.typenames: ResourceType
 req.redist: 

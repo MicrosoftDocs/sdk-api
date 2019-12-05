@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IResourceManager.NotifyRelease
 title: IResourceManager::NotifyRelease (strmif.h)
-
 description: The NotifyRelease method notifies the resource manager that IResourceConsumer has released a resource.
 old-location: dshow\iresourcemanager_notifyrelease.htm
 tech.root: DirectShow
 ms.assetid: a3779a8d-fe78-4f9b-af6c-7a25e0f07a86
-
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],NotifyRelease method, IResourceManager.NotifyRelease, IResourceManager::NotifyRelease, IResourceManagerNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IResourceManager interface, dshow.iresourcemanager_notifyrelease, strmif/IResourceManager::NotifyRelease
 ms.topic: method
-f1_keywords: 
- - "strmif/IResourceManager.NotifyRelease"
+f1_keywords:
+- strmif/IResourceManager.NotifyRelease
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceManager.NotifyRelease
+- IResourceManager.NotifyRelease
 targetos: Windows
 req.typenames: 
 req.redist: 

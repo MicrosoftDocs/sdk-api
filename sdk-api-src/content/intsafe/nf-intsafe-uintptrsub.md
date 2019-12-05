@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrSub
 title: UIntPtrSub function (intsafe.h)
-
 description: Subtracts one value of type UINT_PTR from another.
 old-location: shell\UIntPtrSub.htm
 tech.root: shell
 ms.assetid: 629bc700-ca64-4849-bdad-59e67857ff8d
-
 ms.date: 12/05/2018
 ms.keywords: UIntPtrSub, UIntPtrSub function [Windows Shell], _shell_UIntPtrSub, intsafe/UIntPtrSub, shell.UIntPtrSub
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntPtrSub"
+f1_keywords:
+- intsafe/UIntPtrSub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntPtrSub
+- UIntPtrSub
 targetos: Windows
 req.typenames: 
 req.redist: 

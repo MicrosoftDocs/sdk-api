@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Clone
 title: IEnumRangeExceptions::Clone (winsync.h)
-
 description: Clones the enumerator and returns a new enumerator that is in the same state as the current one.
 old-location: winsync\ienumrangeexceptions_clone.htm
 tech.root: winsync
 ms.assetid: b9ba5d49-754f-4eb0-972b-67e9a6a41994
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Sync], Clone method [Windows Sync],IEnumRangeExceptions interface, IEnumRangeExceptions interface [Windows Sync],Clone method, IEnumRangeExceptions.Clone, IEnumRangeExceptions::Clone, winsync.ienumrangeexceptions_clone, winsync/IEnumRangeExceptions::Clone
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumRangeExceptions.Clone"
+f1_keywords:
+- winsync/IEnumRangeExceptions.Clone
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumRangeExceptions.Clone
+- IEnumRangeExceptions.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

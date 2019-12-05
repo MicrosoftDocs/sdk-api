@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalControl.StopRenderFilter
 title: ITTerminalControl::StopRenderFilter (termmgr.h)
-
 description: The StopRenderFilter method stops the rightmost render filter in the terminal. Needed for dynamic filter graphs.
 old-location: tapi3\itterminalcontrol_stoprenderfilter.htm
 tech.root: Tapi
 ms.assetid: 30a47de7-c54d-4600-9b4b-07013f962c4d
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminalControl interface [TAPI 2.2],StopRenderFilter method, ITTerminalControl.StopRenderFilter, ITTerminalControl::StopRenderFilter, StopRenderFilter, StopRenderFilter method [TAPI 2.2], StopRenderFilter method [TAPI 2.2],ITTerminalControl interface, _tapi3_itterminalcontrol_stoprenderfilter, tapi3.itterminalcontrol_stoprenderfilter, termmgr/ITTerminalControl::StopRenderFilter
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalControl.StopRenderFilter"
+f1_keywords:
+- termmgr/ITTerminalControl.StopRenderFilter
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalControl.StopRenderFilter
+- ITTerminalControl.StopRenderFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TransformPattern_Rotate
 title: TransformPattern_Rotate function (uiautomationcoreapi.h)
-
 description: Rotates an element on the screen.
 old-location: winauto\uiauto_TransformPattern_RotateConPat.htm
 tech.root: WinAuto
 ms.assetid: c3c61c67-7c4a-4211-90f9-b5000a4938a3
-
 ms.date: 12/05/2018
 ms.keywords: TransformPattern_Rotate, TransformPattern_Rotate function [Windows Accessibility], uiauto.uiauto_TransformPattern_RotateConPat, uiauto_TransformPattern_RotateConPat, uiautomationcoreapi/TransformPattern_Rotate, winauto.uiauto_TransformPattern_RotateConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TransformPattern_Rotate"
+f1_keywords:
+- uiautomationcoreapi/TransformPattern_Rotate
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TransformPattern_Rotate
+- TransformPattern_Rotate
 targetos: Windows
 req.typenames: 
 req.redist: 

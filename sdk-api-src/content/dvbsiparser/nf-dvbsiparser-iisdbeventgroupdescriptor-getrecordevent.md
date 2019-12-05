@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbEventGroupDescriptor.GetRecordEvent
 title: IIsdbEventGroupDescriptor::GetRecordEvent (dvbsiparser.h)
-
 description: Gets data from an event record in an Integrated Services Digital Broadcasting (ISDB) event group descriptor.
 old-location: mstv\iisdbeventgroupdescriptor_getrecordevent.htm
 tech.root: mstv
 ms.assetid: 899c8c7f-9e85-4b0d-b7ea-24fb0b5daa88
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordEvent, GetRecordEvent method [Microsoft TV Technologies], GetRecordEvent method [Microsoft TV Technologies],IIsdbEventGroupDescriptor interface, IIsdbEventGroupDescriptor interface [Microsoft TV Technologies],GetRecordEvent method, IIsdbEventGroupDescriptor.GetRecordEvent, IIsdbEventGroupDescriptor::GetRecordEvent, dvbsiparser/IIsdbEventGroupDescriptor::GetRecordEvent, mstv.iisdbeventgroupdescriptor_getrecordevent
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbEventGroupDescriptor.GetRecordEvent"
+f1_keywords:
+- dvbsiparser/IIsdbEventGroupDescriptor.GetRecordEvent
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbEventGroupDescriptor.GetRecordEvent
+- IIsdbEventGroupDescriptor.GetRecordEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICSectionAccessLevel
 title: WICSectionAccessLevel (wincodec.h)
-
 description: Specifies the access level of a Windows Graphics Device Interface (GDI) section.
 old-location: wic\_wic_codec_wicsectionaccesslevel.htm
 tech.root: wic
 ms.assetid: 4b08bc8c-d67c-4bc4-a701-2903a971a478
-
 ms.date: 12/05/2018
 ms.keywords: WICSectionAccessLevel, WICSectionAccessLevel enumeration [Windows Imaging Component], WICSectionAccessLevelRead, WICSectionAccessLevelReadWrite, _wic_codec_wicsectionaccesslevel, wic._wic_codec_wicsectionaccesslevel, wincodec/WICSectionAccessLevel, wincodec/WICSectionAccessLevelRead, wincodec/WICSectionAccessLevelReadWrite
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICSectionAccessLevel"
+f1_keywords:
+- wincodec/WICSectionAccessLevel
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICSectionAccessLevel
+- WICSectionAccessLevel
 targetos: Windows
 req.typenames: WICSectionAccessLevel
 req.redist: 

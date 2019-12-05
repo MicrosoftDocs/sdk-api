@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.GetAltMonthNames
 title: GetAltMonthNames function (oleauto.h)
-
 description: Retrieves the secondary (alternate) month names.
 old-location: automat\getaltmonthnames.htm
 tech.root: automat
 ms.assetid: dfde73f2-edb9-4ab9-9394-d859e61a6db8
-
 ms.date: 12/05/2018
 ms.keywords: GetAltMonthNames, GetAltMonthNames function [Automation], _oa96_GetAltMonthNames, automat.getaltmonthnames, oleauto/GetAltMonthNames
 ms.topic: function
-f1_keywords: 
- - "oleauto/GetAltMonthNames"
+f1_keywords:
+- oleauto/GetAltMonthNames
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - GetAltMonthNames
+- GetAltMonthNames
 targetos: Windows
 req.typenames: 
 req.redist: 

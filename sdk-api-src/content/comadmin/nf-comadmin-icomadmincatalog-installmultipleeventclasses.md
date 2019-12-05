@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallMultipleEventClasses
 title: ICOMAdminCatalog::InstallMultipleEventClasses (comadmin.h)
-
 description: Installs event classes from multiple files into a COM+ application.
 old-location: cos\icomadmincatalog_installmultipleeventclasses.htm
 tech.root: cossdk
 ms.assetid: 12860254-4658-4e0d-ad00-7e25875037bf
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleEventClasses method, ICOMAdminCatalog.InstallMultipleEventClasses, ICOMAdminCatalog::InstallMultipleEventClasses, InstallMultipleEventClasses, InstallMultipleEventClasses method [COM+], InstallMultipleEventClasses method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleEventClasses, comadmin/ICOMAdminCatalog::InstallMultipleEventClasses, cos.icomadmincatalog_installmultipleeventclasses
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.InstallMultipleEventClasses"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.InstallMultipleEventClasses
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.InstallMultipleEventClasses
+- ICOMAdminCatalog.InstallMultipleEventClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

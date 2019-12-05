@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Remove
 title: IDataCollectorSetCollection::Remove (pla.h)
-
 description: Removes a data collector set from the collection.
 old-location: pla\idatacollectorsetcollection_remove.htm
 tech.root: PLA
 ms.assetid: 6200dac0-8817-4d59-9456-67921bcf15ae
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSetCollection interface [PLA],Remove method, IDataCollectorSetCollection.Remove, IDataCollectorSetCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IDataCollectorSetCollection interface, base.idatacollectorsetcollection_remove, pla.idatacollectorsetcollection_remove, pla/IDataCollectorSetCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSetCollection.Remove"
+f1_keywords:
+- pla/IDataCollectorSetCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSetCollection.Remove
+- IDataCollectorSetCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

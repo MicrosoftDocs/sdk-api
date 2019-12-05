@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFCollection.AddElement
 title: IMFCollection::AddElement (mfobjects.h)
-
 description: Adds an object to the collection.
 old-location: mf\imfcollection_addelement.htm
 tech.root: medfound
 ms.assetid: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056
-
 ms.date: 12/05/2018
 ms.keywords: 1ef2463b-3d5e-4ed0-ab7c-68758e6cc056, AddElement, AddElement method [Media Foundation], AddElement method [Media Foundation],IMFCollection interface, IMFCollection interface [Media Foundation],AddElement method, IMFCollection.AddElement, IMFCollection::AddElement, mf.imfcollection_addelement, mfobjects/IMFCollection::AddElement
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFCollection.AddElement"
+f1_keywords:
+- mfobjects/IMFCollection.AddElement
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFCollection.AddElement
+- IMFCollection.AddElement
 targetos: Windows
 req.typenames: 
 req.redist: 

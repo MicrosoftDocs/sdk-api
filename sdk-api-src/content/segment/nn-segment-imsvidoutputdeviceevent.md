@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidOutputDeviceEvent
 title: IMSVidOutputDeviceEvent (segment.h)
-
 description: Note  This topic applies to Windows XP or later. The IMSVidOutputDeviceEvent interface is the base interface for output device events.
 old-location: mstv\imsvidoutputdeviceevent.htm
 tech.root: mstv
 ms.assetid: 4f3ad7c0-02fd-4232-89f1-49517c23ee28
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidOutputDeviceEvent, IMSVidOutputDeviceEvent interface [Microsoft TV Technologies], IMSVidOutputDeviceEvent interface [Microsoft TV Technologies],described, IMSVidOutputDeviceEventInterface, mstv.imsvidoutputdeviceevent, segment/IMSVidOutputDeviceEvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidOutputDeviceEvent"
+f1_keywords:
+- segment/IMSVidOutputDeviceEvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidOutputDeviceEvent
+- IMSVidOutputDeviceEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

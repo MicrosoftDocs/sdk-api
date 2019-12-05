@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLGetLicensingStatusInformation
 title: SLGetLicensingStatusInformation function (slpublic.h)
-
 description: Gets the licensing status of the specified application or SKU.
 old-location: security\slgetlicensingstatusinformation.htm
 tech.root: SecSLApi
 ms.assetid: d35e6f8d-a019-46e0-9755-51f670f4913e
-
 ms.date: 12/05/2018
 ms.keywords: SLGetLicensingStatusInformation, SLGetLicensingStatusInformation function [Security], security.slgetlicensingstatusinformation, slpublic/SLGetLicensingStatusInformation
 ms.topic: function
 f1_keywords:
 - slpublic/SLGetLicensingStatusInformation
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows

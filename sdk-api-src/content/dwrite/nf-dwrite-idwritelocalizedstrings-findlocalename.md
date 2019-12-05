@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.FindLocaleName
 title: IDWriteLocalizedStrings::FindLocaleName (dwrite.h)
-
 description: Gets the zero-based index of the locale name/string pair with the specified locale name.
 old-location: directwrite\IDWriteLocalizedStrings_FindLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: d80032b2-304e-4c48-a7c7-fcda4305cca4
-
 ms.date: 12/05/2018
 ms.keywords: FindLocaleName, FindLocaleName method [Direct Write], FindLocaleName method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],FindLocaleName method, IDWriteLocalizedStrings.FindLocaleName, IDWriteLocalizedStrings::FindLocaleName, directwrite.IDWriteLocalizedStrings_FindLocaleName, dwrite/IDWriteLocalizedStrings::FindLocaleName
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteLocalizedStrings.FindLocaleName"
+f1_keywords:
+- dwrite/IDWriteLocalizedStrings.FindLocaleName
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteLocalizedStrings.FindLocaleName
+- IDWriteLocalizedStrings.FindLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

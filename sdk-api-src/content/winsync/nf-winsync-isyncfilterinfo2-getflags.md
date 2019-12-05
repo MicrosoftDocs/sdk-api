@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncFilterInfo2.GetFlags
 title: ISyncFilterInfo2::GetFlags (winsync.h)
-
 description: Gets the flags that specify additional information about the filter information object.
 old-location: winsync\isyncfilterinfo2_getflags.htm
 tech.root: winsync
 ms.assetid: cad60957-9d16-4564-b63e-be8e188caecc
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Windows Sync], GetFlags method [Windows Sync],ISyncFilterInfo2 interface, ISyncFilterInfo2 interface [Windows Sync],GetFlags method, ISyncFilterInfo2.GetFlags, ISyncFilterInfo2::GetFlags, winsync.isyncfilterinfo2_getflags, winsync/ISyncFilterInfo2::GetFlags
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncFilterInfo2.GetFlags"
+f1_keywords:
+- winsync/ISyncFilterInfo2.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncFilterInfo2.GetFlags
+- ISyncFilterInfo2.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.GetMutualExclusion
 title: IWMProfile::GetMutualExclusion (wmsdkidl.h)
-
 description: The GetMutualExclusion method retrieves a mutual exclusion object from the profile.
 old-location: wmformat\iwmprofile_getmutualexclusion.htm
 tech.root: wmformat
 ms.assetid: 949bb57f-8656-420e-b317-8ca7eb977a4e
-
 ms.date: 12/05/2018
 ms.keywords: GetMutualExclusion, GetMutualExclusion method [windows Media Format], GetMutualExclusion method [windows Media Format],IWMProfile interface, GetMutualExclusion method [windows Media Format],IWMProfile2 interface, GetMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],GetMutualExclusion method, IWMProfile.GetMutualExclusion, IWMProfile2 interface [windows Media Format],GetMutualExclusion method, IWMProfile2::GetMutualExclusion, IWMProfile3 interface [windows Media Format],GetMutualExclusion method, IWMProfile3::GetMutualExclusion, IWMProfile::GetMutualExclusion, IWMProfileGetMutualExclusion, wmformat.iwmprofile_getmutualexclusion, wmsdkidl/IWMProfile2::GetMutualExclusion, wmsdkidl/IWMProfile3::GetMutualExclusion, wmsdkidl/IWMProfile::GetMutualExclusion
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.GetMutualExclusion"
+f1_keywords:
+- wmsdkidl/IWMProfile.GetMutualExclusion
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.GetMutualExclusion
- - IWMProfile2.GetMutualExclusion
- - IWMProfile3.GetMutualExclusion
+- IWMProfile.GetMutualExclusion
+- IWMProfile2.GetMutualExclusion
+- IWMProfile3.GetMutualExclusion
 targetos: Windows
 req.typenames: 
 req.redist: 

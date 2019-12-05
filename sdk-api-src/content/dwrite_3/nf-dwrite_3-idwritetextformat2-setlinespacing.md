@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat2.SetLineSpacing
 title: IDWriteTextFormat2::SetLineSpacing (dwrite_3.h)
-
 description: Set line spacing.
 old-location: directwrite\idwritetextformat2_setlinespacing.htm
 tech.root: DirectWrite
 ms.assetid: 71d8c6c4-920f-a1b5-5a13-9985a7aca41e
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat2 interface [Direct Write],SetLineSpacing method, IDWriteTextFormat2.SetLineSpacing, IDWriteTextFormat2::SetLineSpacing, SetLineSpacing, SetLineSpacing method [Direct Write], SetLineSpacing method [Direct Write],IDWriteTextFormat2 interface, directwrite.idwritetextformat2_setlinespacing, dwrite_3/IDWriteTextFormat2::SetLineSpacing
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteTextFormat2.SetLineSpacing"
+f1_keywords:
+- dwrite_3/IDWriteTextFormat2.SetLineSpacing
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat2.SetLineSpacing
+- IDWriteTextFormat2.SetLineSpacing
 targetos: Windows
 req.typenames: 
 req.redist: 

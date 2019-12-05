@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioLfxControl.SetLocalEffectsState
 title: IAudioLfxControl::SetLocalEffectsState (audioengineendpoint.h)
-
 description: The SetLocalEffectsState method sets the local effects state that is to be applied to the offloaded audio stream.
 old-location: coreaudio\iaudiolfxcontrol_setlocaleffectsstate.htm
 tech.root: CoreAudio
 ms.assetid: F89C2610-BC71-4309-BCDA-5529B16A3FA7
-
 ms.date: 12/05/2018
 ms.keywords: IAudioLfxControl interface [Core Audio],SetLocalEffectsState method, IAudioLfxControl.SetLocalEffectsState, IAudioLfxControl::SetLocalEffectsState, SetLocalEffectsState, SetLocalEffectsState method [Core Audio], SetLocalEffectsState method [Core Audio],IAudioLfxControl interface, audioengineendpoint/IAudioLfxControl::SetLocalEffectsState, coreaudio.iaudiolfxcontrol_setlocaleffectsstate
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioLfxControl.SetLocalEffectsState"
+f1_keywords:
+- audioengineendpoint/IAudioLfxControl.SetLocalEffectsState
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioLfxControl.SetLocalEffectsState
+- IAudioLfxControl.SetLocalEffectsState
 targetos: Windows
 req.typenames: 
 req.redist: 

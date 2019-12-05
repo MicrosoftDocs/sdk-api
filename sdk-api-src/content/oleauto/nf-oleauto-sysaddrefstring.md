@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SysAddRefString
 title: SysAddRefString function (oleauto.h)
-
 description: Increases the pinning reference count for the specified string by one.
 old-location: automat\sysaddrefstring.htm
 tech.root: automat
 ms.assetid: 9AE274F1-1517-4D55-B9AE-D75169404880
-
 ms.date: 12/05/2018
 ms.keywords: SysAddRefString, SysAddRefString function [Automation], automat.sysaddrefstring, oleauto/SysAddRefString
 ms.topic: function
-f1_keywords: 
- - "oleauto/SysAddRefString"
+f1_keywords:
+- oleauto/SysAddRefString
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mincore.lib
 req.dll: Oleaut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleaut32.dll
+- Oleaut32.dll
 api_name:
- - SysAddRefString
+- SysAddRefString
 targetos: Windows
 req.typenames: 
 req.redist: 

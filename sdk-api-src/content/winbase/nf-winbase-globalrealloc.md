@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GlobalReAlloc
 title: GlobalReAlloc function (winbase.h)
-
 description: Changes the size or attributes of a specified global memory object. The size can increase or decrease.
 old-location: base\globalrealloc.htm
 tech.root: Memory
 ms.assetid: 2439b16a-f27d-4e95-bc9e-6f1e563933c9
-
 ms.date: 12/05/2018
 ms.keywords: GMEM_MOVEABLE, GMEM_ZEROINIT, GlobalReAlloc, GlobalReAlloc function, _win32_globalrealloc, base.globalrealloc, winbase/GlobalReAlloc
 ms.topic: function
-f1_keywords: 
- - "winbase/GlobalReAlloc"
+f1_keywords:
+- winbase/GlobalReAlloc
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalReAlloc
+- GlobalReAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ControlViewWalker
 title: IUIAutomation::get_ControlViewWalker (uiautomationclient.h)
-
 description: Retrieves an IUIAutomationTreeWalker interface used to discover control elements.
 old-location: winauto\uiauto_IUIAutomation_ControlViewWalker.htm
 tech.root: WinAuto
 ms.assetid: e2b22ed2-9f86-405d-98ce-0f789a3159dc
-
 ms.date: 12/05/2018
 ms.keywords: ControlViewWalker property [Windows Accessibility], ControlViewWalker property [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ControlViewWalker property, IUIAutomation.ControlViewWalker, IUIAutomation.get_ControlViewWalker, IUIAutomation::ControlViewWalker, IUIAutomation::get_ControlViewWalker, get_ControlViewWalker, uiauto.uiauto_IUIAutomation_ControlViewWalker, uiauto_IUIAutomation_ControlViewWalker, uiautomationclient/IUIAutomation::ControlViewWalker, uiautomationclient/IUIAutomation::get_ControlViewWalker, winauto.uiauto_IUIAutomation_ControlViewWalker
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.ControlViewWalker"
+f1_keywords:
+- uiautomationclient/IUIAutomation.ControlViewWalker
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.ControlViewWalker
- - IUIAutomation.get_ControlViewWalker
+- IUIAutomation.ControlViewWalker
+- IUIAutomation.get_ControlViewWalker
 targetos: Windows
 req.typenames: 
 req.redist: 

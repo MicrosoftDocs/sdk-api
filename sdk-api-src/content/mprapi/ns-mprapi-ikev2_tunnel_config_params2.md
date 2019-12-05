@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._IKEV2_TUNNEL_CONFIG_PARAMS2
 title: IKEV2_TUNNEL_CONFIG_PARAMS2 (mprapi.h)
-
 description: Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
 old-location: rras\ikev2_tunnel_config_params2.htm
 tech.root: RRAS
 ms.assetid: 916e70d9-b103-4e72-a9b3-a34063b3641e
-
 ms.date: 12/05/2018
-ms.keywords: "*PIKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2 structure [RAS], PIKEV2_TUNNEL_CONFIG_PARAMS2, PIKEV2_TUNNEL_CONFIG_PARAMS2 structure pointer [RAS], mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2, mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS2, rras.ikev2_tunnel_config_params2"
+ms.keywords: '*PIKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2, IKEV2_TUNNEL_CONFIG_PARAMS2 structure [RAS], PIKEV2_TUNNEL_CONFIG_PARAMS2, PIKEV2_TUNNEL_CONFIG_PARAMS2 structure pointer [RAS], mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2, mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS2, rras.ikev2_tunnel_config_params2'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2"
+f1_keywords:
+- mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mprapi.h
+- mprapi.h
 api_name:
- - IKEV2_TUNNEL_CONFIG_PARAMS2
+- IKEV2_TUNNEL_CONFIG_PARAMS2
 targetos: Windows
 req.typenames: IKEV2_TUNNEL_CONFIG_PARAMS2, *PIKEV2_TUNNEL_CONFIG_PARAMS2
 req.redist: 

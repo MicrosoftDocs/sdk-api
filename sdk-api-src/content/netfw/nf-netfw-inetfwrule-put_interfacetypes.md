@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.put_InterfaceTypes
 title: INetFwRule::put_InterfaceTypes (netfw.h)
-
 description: Specifies the list of interface types for which the rule applies.
 old-location: ics\inetfwrule_interfacetypes.htm
 tech.root: ics
 ms.assetid: 2548875c-3c23-4076-9d3d-82bebf5e7718
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],InterfaceTypes property, INetFwRule.InterfaceTypes, INetFwRule.put_InterfaceTypes, INetFwRule::InterfaceTypes, INetFwRule::get_InterfaceTypes, INetFwRule::put_InterfaceTypes, InterfaceTypes property [ICS/ICF], InterfaceTypes property [ICS/ICF],INetFwRule interface, ics.inetfwrule_interfacetypes, netfw/INetFwRule::InterfaceTypes, netfw/INetFwRule::get_InterfaceTypes, netfw/INetFwRule::put_InterfaceTypes, put_InterfaceTypes
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.InterfaceTypes"
+f1_keywords:
+- netfw/INetFwRule.InterfaceTypes
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.InterfaceTypes
- - INetFwRule.get_InterfaceTypes
- - INetFwRule.put_InterfaceTypes
+- INetFwRule.InterfaceTypes
+- INetFwRule.get_InterfaceTypes
+- INetFwRule.put_InterfaceTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

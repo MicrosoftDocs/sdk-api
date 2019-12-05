@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ObjectControl.CanBePooled
 title: ObjectControl::CanBePooled (comsvcs.h)
-
 description: Indicates whether the object can be pooled for reuse when it is deactivated.
 old-location: cos\objectcontrol_canbepooled.htm
 tech.root: cossdk
 ms.assetid: 1bca2892-4b9a-4135-b009-37181a028130
-
 ms.date: 12/05/2018
 ms.keywords: CanBePooled, CanBePooled method [COM+], CanBePooled method [COM+],ObjectControl interface, ObjectControl interface [COM+],CanBePooled method, ObjectControl.CanBePooled, ObjectControl::CanBePooled, _cos_ObjectControl_CanBePooled, comsvcs/ObjectControl::CanBePooled, cos.objectcontrol_canbepooled
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ObjectControl.CanBePooled"
+f1_keywords:
+- comsvcs/ObjectControl.CanBePooled
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ObjectControl.CanBePooled
+- ObjectControl.CanBePooled
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IComHandlerAction.get_ClassId
 title: IComHandlerAction::get_ClassId (taskschd.h)
-
 description: Gets or sets the identifier of the handler class.
 old-location: taskschd\icomhandleraction_classid.htm
 tech.root: taskschd
 ms.assetid: 7a197ed1-613c-4eb3-95eb-5452218f5d48
-
 ms.date: 12/05/2018
 ms.keywords: ClassId property [Task Scheduler], ClassId property [Task Scheduler],IComHandlerAction interface, IComHandlerAction interface [Task Scheduler],ClassId property, IComHandlerAction.ClassId, IComHandlerAction.get_ClassId, IComHandlerAction::ClassId, IComHandlerAction::get_ClassId, IComHandlerAction::put_ClassId, get_ClassId, taskschd.icomhandleraction_classid, taskschd/IComHandlerAction::ClassId, taskschd/IComHandlerAction::get_ClassId, taskschd/IComHandlerAction::put_ClassId
 ms.topic: method
-f1_keywords: 
- - "taskschd/IComHandlerAction.ClassId"
+f1_keywords:
+- taskschd/IComHandlerAction.ClassId
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IComHandlerAction.ClassId
- - IComHandlerAction.get_ClassId
- - IComHandlerAction.put_ClassId
+- IComHandlerAction.ClassId
+- IComHandlerAction.get_ClassId
+- IComHandlerAction.put_ClassId
 targetos: Windows
 req.typenames: 
 req.redist: 

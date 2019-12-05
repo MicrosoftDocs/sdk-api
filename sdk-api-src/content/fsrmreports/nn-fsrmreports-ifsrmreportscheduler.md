@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmreports.IFsrmReportScheduler
 title: IFsrmReportScheduler (fsrmreports.h)
-
 description: Used to manage scheduled tasks for report jobs and file management jobs.
 old-location: fsrm\ifsrmreportscheduler.htm
 tech.root: fsrm
 ms.assetid: f3e71a39-d880-4035-a719-42ace5eeb9e0
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportScheduler, IFsrmReportScheduler interface [File Server Resource Manager], IFsrmReportScheduler interface [File Server Resource Manager],described, fs.ifsrmreportscheduler, fsrm.ifsrmreportscheduler, fsrmreports/IFsrmReportScheduler
 ms.topic: interface
-f1_keywords: 
- - "fsrmreports/IFsrmReportScheduler"
+f1_keywords:
+- fsrmreports/IFsrmReportScheduler
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportScheduler
+- IFsrmReportScheduler
 targetos: Windows
 req.typenames: 
 req.redist: 

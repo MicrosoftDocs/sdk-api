@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.INameSpaceTreeAccessible
 title: INameSpaceTreeAccessible (shobjidl.h)
-
 description: Exposes methods that perform accessibility actions on a Shell item from a namespace tree control.
 old-location: shell\INameSpaceTreeAccessible.htm
 tech.root: shell
 ms.assetid: b14dfe40-e21a-4208-835f-e0febef60783
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeAccessible, INameSpaceTreeAccessible interface [Windows Shell], INameSpaceTreeAccessible interface [Windows Shell],described, _shell_INameSpaceTreeAccessible, shell.INameSpaceTreeAccessible, shobjidl/INameSpaceTreeAccessible
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/INameSpaceTreeAccessible"
+f1_keywords:
+- shobjidl/INameSpaceTreeAccessible
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeAccessible
+- INameSpaceTreeAccessible
 targetos: Windows
 req.typenames: 
 req.redist: 

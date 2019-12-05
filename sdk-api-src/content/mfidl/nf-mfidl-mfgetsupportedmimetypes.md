@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFGetSupportedMimeTypes
 title: MFGetSupportedMimeTypes function (mfidl.h)
-
 description: Retrieves the MIME types that are registered for the source resolver.
 old-location: mf\mfgetsupportedmimetypes.htm
 tech.root: medfound
 ms.assetid: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623
-
 ms.date: 12/05/2018
 ms.keywords: 7e7b0e6e-98eb-4fb1-8577-e73eb9d62623, MFGetSupportedMimeTypes, MFGetSupportedMimeTypes function [Media Foundation], mf.mfgetsupportedmimetypes, mfidl/MFGetSupportedMimeTypes
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFGetSupportedMimeTypes"
+f1_keywords:
+- mfidl/MFGetSupportedMimeTypes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFGetSupportedMimeTypes
+- MFGetSupportedMimeTypes
 targetos: Windows
 req.typenames: 
 req.redist: 

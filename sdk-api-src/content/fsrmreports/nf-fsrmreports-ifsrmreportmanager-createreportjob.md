@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.CreateReportJob
 title: IFsrmReportManager::CreateReportJob (fsrmreports.h)
-
 description: Creates a report job.
 old-location: fsrm\ifsrmreportmanager_createreportjob.htm
 tech.root: fsrm
 ms.assetid: 30274108-a820-409e-ba7c-6971b7726b9b
-
 ms.date: 12/05/2018
 ms.keywords: CreateReportJob, CreateReportJob method [File Server Resource Manager], CreateReportJob method [File Server Resource Manager],FsrmReportManager class, CreateReportJob method [File Server Resource Manager],IFsrmReportManager interface, FsrmReportManager class [File Server Resource Manager],CreateReportJob method, IFsrmReportManager interface [File Server Resource Manager],CreateReportJob method, IFsrmReportManager.CreateReportJob, IFsrmReportManager::CreateReportJob, fs.ifsrmreportmanager_createreportjob, fsrm.ifsrmreportmanager_createreportjob, fsrmreports/IFsrmReportManager::CreateReportJob
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportManager.CreateReportJob"
+f1_keywords:
+- fsrmreports/IFsrmReportManager.CreateReportJob
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportManager.CreateReportJob
- - FsrmReportManager.CreateReportJob
+- IFsrmReportManager.CreateReportJob
+- FsrmReportManager.CreateReportJob
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmInsertInRouteList
 title: RtmInsertInRouteList function (rtmv2.h)
-
 description: The RtmInsertInRouteList function inserts the specified set of routes into the client's route list. If a route is already in another list, the route is removed from the old list and inserted into the new one.
 old-location: rras\rtminsertinroutelist.htm
 tech.root: RRAS
 ms.assetid: e0145bdc-5000-429d-8603-1ebc6003a2bc
-
 ms.date: 12/05/2018
 ms.keywords: RtmInsertInRouteList, RtmInsertInRouteList function [RAS], _rtmv2ref_rtminsertinroutelist, rras.rtminsertinroutelist, rtmv2/RtmInsertInRouteList
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmInsertInRouteList"
+f1_keywords:
+- rtmv2/RtmInsertInRouteList
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmInsertInRouteList
+- RtmInsertInRouteList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.WriteLogRecord
 title: ICrmLogControl::WriteLogRecord (comsvcs.h)
-
 description: The CRM Worker and CRM Compensator use this method to write unstructured log records to the log.
 old-location: cos\icrmlogcontrol_writelogrecord.htm
 tech.root: cossdk
 ms.assetid: b2cbd9dc-5451-4aae-b2ce-28b2b93fd465
-
 ms.date: 12/05/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecord method, ICrmLogControl.WriteLogRecord, ICrmLogControl::WriteLogRecord, WriteLogRecord, WriteLogRecord method [COM+], WriteLogRecord method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecord, comsvcs/ICrmLogControl::WriteLogRecord, cos.icrmlogcontrol_writelogrecord
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmLogControl.WriteLogRecord"
+f1_keywords:
+- comsvcs/ICrmLogControl.WriteLogRecord
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmLogControl.WriteLogRecord
+- ICrmLogControl.WriteLogRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

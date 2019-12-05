@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d9helper.IDirect3DSurface9
 title: IDirect3DSurface9 (d3d9helper.h)
-
 description: Applications use the methods of the IDirect3DSurface9 interface to query and prepare surfaces.
 old-location: direct3d9\idirect3dsurface9.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9.htm
-
 ms.date: 12/05/2018
 ms.keywords: 7eb0f571-de02-55a6-f6eb-fc92e63fbb48, IDirect3DSurface9, IDirect3DSurface9 interface [Direct3D 9], IDirect3DSurface9 interface [Direct3D 9],described, d3d9helper/IDirect3DSurface9, direct3d9.idirect3dsurface9
 ms.topic: interface
-f1_keywords: 
- - "d3d9helper/IDirect3DSurface9"
+f1_keywords:
+- d3d9helper/IDirect3DSurface9
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.lib
- - d3d9.dll
+- d3d9.lib
+- d3d9.dll
 api_name:
- - IDirect3DSurface9
+- IDirect3DSurface9
 targetos: Windows
 req.typenames: 
 req.redist: 

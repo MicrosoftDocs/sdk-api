@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRootStorage.SwitchToFile
 title: IRootStorage::SwitchToFile (objidl.h)
-
 description: The SwitchToFile method copies the current file associated with the storage object to a new file.
 old-location: stg\irootstorage_switchtofile.htm
 tech.root: Stg
 ms.assetid: d482b51a-7159-4aab-ac5e-3f1878d426b2
-
 ms.date: 12/05/2018
 ms.keywords: IRootStorage interface [Structured Storage],SwitchToFile method, IRootStorage.SwitchToFile, IRootStorage::SwitchToFile, SwitchToFile, SwitchToFile method [Structured Storage], SwitchToFile method [Structured Storage],IRootStorage interface, _stg_irootstorage_switchtofile, objidl/IRootStorage::SwitchToFile, stg.irootstorage_switchtofile
 ms.topic: method
-f1_keywords: 
- - "objidl/IRootStorage.SwitchToFile"
+f1_keywords:
+- objidl/IRootStorage.SwitchToFile
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IRootStorage.SwitchToFile
+- IRootStorage.SwitchToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

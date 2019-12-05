@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingBox::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-
 description: Test the BoundingBox for intersection with a triangle.
 old-location: dxmath\boundingbox_intersects_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.Intersects(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],Intersects method, BoundingBox.Intersects, BoundingBox.Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), BoundingBox.Intersects(XMVECTOR,XMVECTOR,XMVECTOR), BoundingBox::Intersects, BoundingBox::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR), Intersects, Intersects method [DirectX Math Support APIs], Intersects method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_intersects_3
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingBox.Intersects"
+f1_keywords:
+- directxcollision/BoundingBox.Intersects
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingBox.Intersects
+- BoundingBox.Intersects
 targetos: Windows
 req.typenames: 
 req.redist: 

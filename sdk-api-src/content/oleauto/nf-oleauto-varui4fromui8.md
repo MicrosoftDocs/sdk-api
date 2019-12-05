@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromUI8
 title: VarUI4FromUI8 function (oleauto.h)
-
 description: Converts an 8-byte unsigned integer value to an unsigned long value.
 old-location: automat\varui4fromui8.htm
 tech.root: automat
 ms.assetid: faac7016-210b-4d07-9978-7665f16ae356
-
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromUI8, VarUI4FromUI8 function [Automation], _oa96_VarUI4FromUI8, automat.varui4fromui8, oleauto/VarUI4FromUI8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromUI8"
+f1_keywords:
+- oleauto/VarUI4FromUI8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromUI8
+- VarUI4FromUI8
 targetos: Windows
 req.typenames: 
 req.redist: 

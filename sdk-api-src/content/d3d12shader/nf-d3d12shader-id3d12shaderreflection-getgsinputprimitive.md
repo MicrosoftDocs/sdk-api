@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetGSInputPrimitive
 title: ID3D12ShaderReflection::GetGSInputPrimitive (d3d12shader.h)
-
 description: Gets the geometry-shader input-primitive description.
 old-location: direct3d12\id3d12shaderreflection_getgsinputprimitive.htm
 tech.root: direct3d12
 ms.assetid: 7A0E34F5-D2CF-41C2-B2CB-C3D0CDA511B3
-
 ms.date: 12/05/2018
 ms.keywords: GetGSInputPrimitive, GetGSInputPrimitive method, GetGSInputPrimitive method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetGSInputPrimitive method, ID3D12ShaderReflection.GetGSInputPrimitive, ID3D12ShaderReflection::GetGSInputPrimitive, d3d12shader/ID3D12ShaderReflection::GetGSInputPrimitive, direct3d12.id3d12shaderreflection_getgsinputprimitive
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetGSInputPrimitive"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetGSInputPrimitive
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetGSInputPrimitive
+- ID3D12ShaderReflection.GetGSInputPrimitive
 targetos: Windows
 req.typenames: 
 req.redist: 

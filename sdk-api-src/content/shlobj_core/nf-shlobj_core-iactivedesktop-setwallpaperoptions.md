@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetWallpaperOptions
 title: IActiveDesktop::SetWallpaperOptions (shlobj_core.h)
-
 description: Sets the wallpaper options.
 old-location: lwef\iactivedesktop_setwallpaperoptions.htm
 tech.root: lwef
 ms.assetid: dbe09c68-26f8-4db4-9e74-87f0a94c7918
-
 ms.date: 12/05/2018
 ms.keywords: IActiveDesktop interface [Legacy Windows Environment Features],SetWallpaperOptions method, IActiveDesktop.SetWallpaperOptions, IActiveDesktop::SetWallpaperOptions, SetWallpaperOptions, SetWallpaperOptions method [Legacy Windows Environment Features], SetWallpaperOptions method [Legacy Windows Environment Features],IActiveDesktop interface, _win32_IActiveDesktop_SetWallpaperOptions, lwef.iactivedesktop_setwallpaperoptions, shell.iactivedesktop_setwallpaperoptions, shlobj_core/IActiveDesktop::SetWallpaperOptions
 ms.topic: method
 f1_keywords:
 - shlobj_core/IActiveDesktop.SetWallpaperOptions
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows

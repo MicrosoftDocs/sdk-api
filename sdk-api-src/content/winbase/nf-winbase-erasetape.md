@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EraseTape
 title: EraseTape function (winbase.h)
-
 description: Erases all or part of a tape.
 old-location: backup\erasetape.htm
 tech.root: Backup
 ms.assetid: af262e79-ebdb-4ec5-9b59-ed6725a48bdf
-
 ms.date: 12/05/2018
 ms.keywords: EraseTape, EraseTape function [Backup], TAPE_ERASE_LONG, TAPE_ERASE_SHORT, _win32_erasetape, backup.erasetape, base.erasetape, winbase/EraseTape
 ms.topic: function
-f1_keywords: 
- - "winbase/EraseTape"
+f1_keywords:
+- winbase/EraseTape
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - EraseTape
+- EraseTape
 targetos: Windows
 req.typenames: 
 req.redist: 

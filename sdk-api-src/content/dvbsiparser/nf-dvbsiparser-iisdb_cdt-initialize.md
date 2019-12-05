@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.Initialize
 title: IISDB_CDT::Initialize (dvbsiparser.h)
-
 description: Initializes the object by using captured table section data from an Integrated Services Digital Broadcasting System (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_initialize.htm
 tech.root: mstv
 ms.assetid: 0430d839-4b7f-4d1c-9e5b-bd794d67f065
-
 ms.date: 12/05/2018
 ms.keywords: IISDB_CDT interface [Microsoft TV Technologies],Initialize method, IISDB_CDT.Initialize, IISDB_CDT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_CDT interface, dvbsiparser/IISDB_CDT::Initialize, mstv.iisdb_cdt_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_CDT.Initialize"
+f1_keywords:
+- dvbsiparser/IISDB_CDT.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_CDT.Initialize
+- IISDB_CDT.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

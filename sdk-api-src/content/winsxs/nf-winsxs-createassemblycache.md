@@ -1,19 +1,17 @@
 ---
 UID: NF:winsxs.CreateAssemblyCache
 title: CreateAssemblyCache function (winsxs.h)
-
 description: The CreateAssemblyCache function obtains an instance of the IAssemblyCache interface.
 old-location: setup\createassemblycache.htm
 tech.root: SbsCs
 ms.assetid: 99032c27-d9a3-4319-ba6e-2271d35da804
-
 ms.date: 12/05/2018
 ms.keywords: CreateAssemblyCache, CreateAssemblyCache function [Side-by-side Assemblies], setup.createassemblycache, winsxs/CreateAssemblyCache
 ms.topic: function
-f1_keywords: 
- - "winsxs/CreateAssemblyCache"
+f1_keywords:
+- winsxs/CreateAssemblyCache
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - CreateAssemblyCache
+- CreateAssemblyCache
 targetos: Windows
 req.typenames: 
 req.redist: 

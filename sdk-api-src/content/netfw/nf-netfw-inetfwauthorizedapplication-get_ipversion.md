@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.get_IpVersion
 title: INetFwAuthorizedApplication::get_IpVersion (netfw.h)
-
 description: Specifies the IP version setting for this application.
 old-location: ics\inetfwauthorizedapplication_ipversion.htm
 tech.root: ics
 ms.assetid: f0a4127f-4f81-4b71-a5c5-ba9e30927820
-
 ms.date: 12/05/2018
 ms.keywords: INetFwAuthorizedApplication interface [ICS/ICF],IpVersion property, INetFwAuthorizedApplication.IpVersion, INetFwAuthorizedApplication.get_IpVersion, INetFwAuthorizedApplication::IpVersion, INetFwAuthorizedApplication::get_IpVersion, INetFwAuthorizedApplication::put_IpVersion, IpVersion property [ICS/ICF], IpVersion property [ICS/ICF],INetFwAuthorizedApplication interface, get_IpVersion, ics.inetfwauthorizedapplication_ipversion, netfw/INetFwAuthorizedApplication::IpVersion, netfw/INetFwAuthorizedApplication::get_IpVersion, netfw/INetFwAuthorizedApplication::put_IpVersion
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwAuthorizedApplication.IpVersion"
+f1_keywords:
+- netfw/INetFwAuthorizedApplication.IpVersion
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication.IpVersion
- - INetFwAuthorizedApplication.get_IpVersion
- - INetFwAuthorizedApplication.put_IpVersion
+- INetFwAuthorizedApplication.IpVersion
+- INetFwAuthorizedApplication.get_IpVersion
+- INetFwAuthorizedApplication.put_IpVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

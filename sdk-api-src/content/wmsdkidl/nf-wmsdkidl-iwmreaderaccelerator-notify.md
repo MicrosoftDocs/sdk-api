@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAccelerator.Notify
 title: IWMReaderAccelerator::Notify (wmsdkidl.h)
-
 description: The Notify method is called by the source filter to pass in the negotiated media type.
 old-location: wmformat\iwmreaderaccelerator_notify.htm
 tech.root: wmformat
 ms.assetid: b5381f3a-e120-4db3-8463-5286e4318b13
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAccelerator interface [windows Media Format],Notify method, IWMReaderAccelerator.Notify, IWMReaderAccelerator::Notify, IWMReaderAcceleratorNotify, Notify, Notify method [windows Media Format], Notify method [windows Media Format],IWMReaderAccelerator interface, wmformat.iwmreaderaccelerator_notify, wmsdkidl/IWMReaderAccelerator::Notify
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAccelerator.Notify"
+f1_keywords:
+- wmsdkidl/IWMReaderAccelerator.Notify
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAccelerator.Notify
+- IWMReaderAccelerator.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.WindowPattern_Close
 title: WindowPattern_Close function (uiautomationcoreapi.h)
-
 description: Closes an open window.
 old-location: winauto\uiauto_WindowPattern_CloseConPat.htm
 tech.root: WinAuto
 ms.assetid: 0e19ee38-98f1-4a25-a20d-a580de5f8477
-
 ms.date: 12/05/2018
 ms.keywords: WindowPattern_Close, WindowPattern_Close function [Windows Accessibility], uiauto.uiauto_WindowPattern_CloseConPat, uiauto_WindowPattern_CloseConPat, uiautomationcoreapi/WindowPattern_Close, winauto.uiauto_WindowPattern_CloseConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/WindowPattern_Close"
+f1_keywords:
+- uiautomationcoreapi/WindowPattern_Close
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - WindowPattern_Close
+- WindowPattern_Close
 targetos: Windows
 req.typenames: 
 req.redist: 

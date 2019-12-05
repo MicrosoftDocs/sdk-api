@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometry
 title: IXpsOMPath::GetGeometry (xpsobjectmodel.h)
-
 description: Gets a pointer to the path's IXpsOMGeometry interface, which describes the resolved fill area for this path.
 old-location: xps\ixpsompath_getgeometry.htm
 tech.root: printdocs
 ms.assetid: c4a99bf6-09d8-426a-8878-1126578c4518
-
 ms.date: 12/05/2018
 ms.keywords: GetGeometry, GetGeometry method [XPS Documents and Packaging], GetGeometry method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetGeometry method, IXpsOMPath.GetGeometry, IXpsOMPath::GetGeometry, xps.ixpsompath_getgeometry, xpsobjectmodel/IXpsOMPath::GetGeometry
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetGeometry"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetGeometry
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetGeometry
+- IXpsOMPath.GetGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

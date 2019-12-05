@@ -1,19 +1,17 @@
 ---
 UID: NS:advpub._StrEntryW
 title: STRENTRYW (advpub.h)
-
 description: Represents a registry string replacement.
 old-location: winprog\_strentryw.htm
 tech.root: DevNotes
 ms.assetid: 0EA85285-B5CC-4DC2-ADB7-4888316634C3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw"
+ms.keywords: '*LPSTRENTRYW, LPSTRENTRYW, LPSTRENTRYW structure pointer [Windows API], STRENTRY, STRENTRYW, STRENTRYW structure [Windows API], _StrEntryW, _StrEntryW structure [Windows API], advpub/LPSTRENTRYW, advpub/_StrEntryW, winprog._strentryw'
 ms.topic: struct
-f1_keywords: 
- - "advpub/STRENTRYW"
+f1_keywords:
+- advpub/STRENTRYW
 dev_langs:
- - c++
+- c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - advpack.lib
+- advpack.lib
 api_name:
- - STRENTRYW
+- STRENTRYW
 targetos: Windows
 req.typenames: STRENTRYW, *LPSTRENTRYW
 req.redist: 

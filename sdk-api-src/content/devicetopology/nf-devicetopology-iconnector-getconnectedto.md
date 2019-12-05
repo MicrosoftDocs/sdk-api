@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IConnector.GetConnectedTo
 title: IConnector::GetConnectedTo (devicetopology.h)
-
 description: The GetConnectedTo method gets the connector to which this connector is connected.
 old-location: coreaudio\iconnector_getconnectedto.htm
 tech.root: CoreAudio
 ms.assetid: bee0187c-5650-4b54-89b7-e63874048ed0
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectedTo, GetConnectedTo method [Core Audio], GetConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetConnectedTo method, IConnector.GetConnectedTo, IConnector::GetConnectedTo, IConnectorGetConnectedTo, coreaudio.iconnector_getconnectedto, devicetopology/IConnector::GetConnectedTo
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IConnector.GetConnectedTo"
+f1_keywords:
+- devicetopology/IConnector.GetConnectedTo
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IConnector.GetConnectedTo
+- IConnector.GetConnectedTo
 targetos: Windows
 req.typenames: 
 req.redist: 

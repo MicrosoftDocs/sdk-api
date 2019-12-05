@@ -1,19 +1,17 @@
 ---
 UID: NS:featurestagingapi.FEATURE_ERROR
 title: FEATURE_ERROR (featurestagingapi.h)
-
 description: This structure is intended for infrastructure use only.
 old-location: winprog\feature_error.htm
 tech.root: DevNotes
 ms.assetid: D289E97E-CEA7-408E-98D5-44A5B07B512A
-
 ms.date: 12/05/2018
 ms.keywords: FEATURE_ERROR, FEATURE_ERROR structure [Windows API], featurestagingapi/FEATURE_ERROR, winprog.feature_error
 ms.topic: struct
-f1_keywords: 
- - "featurestagingapi/FEATURE_ERROR"
+f1_keywords:
+- featurestagingapi/FEATURE_ERROR
 dev_langs:
- - c++
+- c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - featurestagingapi.h
+- featurestagingapi.h
 api_name:
- - FEATURE_ERROR
+- FEATURE_ERROR
 targetos: Windows
 req.typenames: FEATURE_ERROR
 req.redist: 

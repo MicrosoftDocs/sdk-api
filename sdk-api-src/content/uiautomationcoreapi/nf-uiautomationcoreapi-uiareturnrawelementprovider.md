@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaReturnRawElementProvider
 title: UiaReturnRawElementProvider function (uiautomationcoreapi.h)
-
 description: Gets an interface to the UI Automation provider for a window.
 old-location: winauto\uiauto_UiaReturnRawElementProviderFunction.htm
 tech.root: WinAuto
 ms.assetid: 800dfad2-2263-4069-a1fe-f737842b3357
-
 ms.date: 12/05/2018
 ms.keywords: UiaReturnRawElementProvider, UiaReturnRawElementProvider function [Windows Accessibility], uiauto.uiauto_UiaReturnRawElementProviderFunction, uiauto_UiaReturnRawElementProviderFunction, uiautomationcoreapi/UiaReturnRawElementProvider, winauto.uiauto_UiaReturnRawElementProviderFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaReturnRawElementProvider"
+f1_keywords:
+- uiautomationcoreapi/UiaReturnRawElementProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaReturnRawElementProvider
+- UiaReturnRawElementProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

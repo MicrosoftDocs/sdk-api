@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.RelativePathTo
 title: IMoniker::RelativePathTo (objidl.h)
-
 description: Creates a relative moniker between this moniker and the specified moniker.
 old-location: com\imoniker_relativepathto.htm
 tech.root: com
 ms.assetid: 92e2e7d7-043e-4e95-8540-5a895b5a54f9
-
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],RelativePathTo method, IMoniker.RelativePathTo, IMoniker::RelativePathTo, RelativePathTo, RelativePathTo method [COM], RelativePathTo method [COM],IMoniker interface, _com_imoniker_relativepathto, com.imoniker_relativepathto, objidl/IMoniker::RelativePathTo
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.RelativePathTo"
+f1_keywords:
+- objidl/IMoniker.RelativePathTo
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.RelativePathTo
+- IMoniker.RelativePathTo
 targetos: Windows
 req.typenames: 
 req.redist: 

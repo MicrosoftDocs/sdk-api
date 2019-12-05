@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.GetUsedAudioBlocks
 title: IRedbookDiscMaster::GetUsedAudioBlocks (imapi.h)
-
 description: Retrieves the total number of audio blocks in use.
 old-location: imapi\iredbookdiscmaster_getusedaudioblocks.htm
 tech.root: imapi
 ms.assetid: 32921d7f-9cb2-4ae4-9064-18df91a237ba
-
 ms.date: 12/05/2018
 ms.keywords: GetUsedAudioBlocks, GetUsedAudioBlocks method [IMAPI], GetUsedAudioBlocks method [IMAPI],IRedbookDiscMaster interface, IRedbookDiscMaster interface [IMAPI],GetUsedAudioBlocks method, IRedbookDiscMaster.GetUsedAudioBlocks, IRedbookDiscMaster::GetUsedAudioBlocks, _win32_iredbookdiscmaster_getusedaudioblocks, base.iredbookdiscmaster_getusedaudioblocks, imapi.iredbookdiscmaster_getusedaudioblocks, imapi/IRedbookDiscMaster::GetUsedAudioBlocks
 ms.topic: method
-f1_keywords: 
- - "imapi/IRedbookDiscMaster.GetUsedAudioBlocks"
+f1_keywords:
+- imapi/IRedbookDiscMaster.GetUsedAudioBlocks
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IRedbookDiscMaster.GetUsedAudioBlocks
+- IRedbookDiscMaster.GetUsedAudioBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

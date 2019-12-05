@@ -1,19 +1,17 @@
 ---
 UID: NS:mswsockdef._RIO_BUF
 title: RIO_BUF (mswsockdef.h)
-
 description: Specifies a portion of a registered buffer used for sending or receiving network data with the Winsock registered I/O extensions.
 old-location: winsock\rio_buf.htm
 tech.root: WinSock
 ms.assetid: DD55194E-EE66-4FD4-87BC-E855922CEEA1
-
 ms.date: 12/05/2018
-ms.keywords: "*PRIO_BUF, PRIO_BUF, PRIO_BUF structure pointer [Winsock], RIO_BUF, RIO_BUF structure [Winsock], mswsockdef/PRIO_BUF, mswsockdef/RIO_BUF, winsock.rio_buf"
+ms.keywords: '*PRIO_BUF, PRIO_BUF, PRIO_BUF structure pointer [Winsock], RIO_BUF, RIO_BUF structure [Winsock], mswsockdef/PRIO_BUF, mswsockdef/RIO_BUF, winsock.rio_buf'
 ms.topic: struct
-f1_keywords: 
- - "mswsockdef/RIO_BUF"
+f1_keywords:
+- mswsockdef/RIO_BUF
 dev_langs:
- - c++
+- c++
 req.header: mswsockdef.h
 req.include-header: Mswsock.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mswsockdef.h
+- Mswsockdef.h
 api_name:
- - RIO_BUF
+- RIO_BUF
 targetos: Windows
 req.typenames: RIO_BUF, *PRIO_BUF
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_DecimateInput
 title: IMSVidVideoRenderer::put_DecimateInput (segment.h)
-
 description: The put_DecimateInput method specifies whether the Video Mixing Renderer (VMR) will decimate the video (that is, reduce the native video size) before processing it.
 old-location: mstv\imsvidvideorenderer_put_decimateinput.htm
 tech.root: mstv
 ms.assetid: e048a572-3a96-4610-9266-0e97b5a09778
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],put_DecimateInput method, IMSVidVideoRenderer.put_DecimateInput, IMSVidVideoRenderer::put_DecimateInput, IMSVidVideoRendererput_DecimateInput, mstv.imsvidvideorenderer_put_decimateinput, put_DecimateInput, put_DecimateInput method [Microsoft TV Technologies], put_DecimateInput method [Microsoft TV Technologies],IMSVidVideoRenderer interface, segment/IMSVidVideoRenderer::put_DecimateInput
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.put_DecimateInput"
+f1_keywords:
+- segment/IMSVidVideoRenderer.put_DecimateInput
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.put_DecimateInput
+- IMSVidVideoRenderer.put_DecimateInput
 targetos: Windows
 req.typenames: 
 req.redist: 

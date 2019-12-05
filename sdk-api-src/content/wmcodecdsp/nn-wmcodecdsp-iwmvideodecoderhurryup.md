@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMVideoDecoderHurryup
 title: IWMVideoDecoderHurryup (wmcodecdsp.h)
-
 description: Controls the speed of the video decoder.
 old-location: mf\iwmvideodecoderhurryupinterface.htm
 tech.root: medfound
 ms.assetid: 5e33be5f-5ce8-4f4f-94db-4be2dfcaeec0
-
 ms.date: 12/05/2018
 ms.keywords: IWMVideoDecoderHurryup, IWMVideoDecoderHurryup interface [Media Foundation], IWMVideoDecoderHurryup interface [Media Foundation],described, codecapi.iwmvideodecoderhurryupinterface, mf.iwmvideodecoderhurryup, mf.iwmvideodecoderhurryupinterface, wmcodecdsp/IWMVideoDecoderHurryup
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMVideoDecoderHurryup"
+f1_keywords:
+- wmcodecdsp/IWMVideoDecoderHurryup
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMVideoDecoderHurryup
+- IWMVideoDecoderHurryup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetFillRule
 title: IXpsOMGeometry::GetFillRule (xpsobjectmodel.h)
-
 description: Gets the XPS_FILL_RULE value that describes the fill rule to be used.
 old-location: xps\ixpsomgeometry_getfillrule.htm
 tech.root: printdocs
 ms.assetid: 5ec2cfdd-f05d-4e05-b290-fad175fe1cae
-
 ms.date: 12/05/2018
 ms.keywords: GetFillRule, GetFillRule method [XPS Documents and Packaging], GetFillRule method [XPS Documents and Packaging],IXpsOMGeometry interface, IXpsOMGeometry interface [XPS Documents and Packaging],GetFillRule method, IXpsOMGeometry.GetFillRule, IXpsOMGeometry::GetFillRule, xps.ixpsomgeometry_getfillrule, xpsobjectmodel/IXpsOMGeometry::GetFillRule
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGeometry.GetFillRule"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGeometry.GetFillRule
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGeometry.GetFillRule
+- IXpsOMGeometry.GetFillRule
 targetos: Windows
 req.typenames: 
 req.redist: 

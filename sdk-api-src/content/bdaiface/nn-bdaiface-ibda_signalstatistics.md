@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_SignalStatistics
 title: IBDA_SignalStatistics (bdaiface.h)
-
 description: The IBDA_SignalStatistics interface is implemented on a BDA device filter and provides methods by which the filter can describe the condition of a signal that is being received.
 old-location: mstv\ibda_signalstatistics.htm
 tech.root: mstv
 ms.assetid: ee8b25d5-d39b-42ac-9f6a-0825e396241c
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_SignalStatistics, IBDA_SignalStatistics interface [Microsoft TV Technologies], IBDA_SignalStatistics interface [Microsoft TV Technologies],described, IBDA_SignalStatisticsInterface, bdaiface/IBDA_SignalStatistics, mstv.ibda_signalstatistics
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_SignalStatistics"
+f1_keywords:
+- bdaiface/IBDA_SignalStatistics
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_SignalStatistics
+- IBDA_SignalStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 

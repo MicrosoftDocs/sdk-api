@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IProvideClassInfo.GetClassInfo
 title: IProvideClassInfo::GetClassInfo (ocidl.h)
-
 description: Retrieves a pointer to the ITypeInfo interface for the object's type information. The type information for an object corresponds to the object's coclass entry in a type library.
 old-location: com\iprovideclassinfo_getclassinfo.htm
 tech.root: com
 ms.assetid: 9dac095d-4657-47ea-a673-4d8a96fc29bb
-
 ms.date: 12/05/2018
 ms.keywords: GetClassInfo, GetClassInfo method [COM], GetClassInfo method [COM],IProvideClassInfo interface, IProvideClassInfo interface [COM],GetClassInfo method, IProvideClassInfo.GetClassInfo, IProvideClassInfo::GetClassInfo, _com_iprovideclassinfo_getclassinfo, com.iprovideclassinfo_getclassinfo, ocidl/IProvideClassInfo::GetClassInfo
 ms.topic: method
-f1_keywords: 
- - "ocidl/IProvideClassInfo.GetClassInfo"
+f1_keywords:
+- ocidl/IProvideClassInfo.GetClassInfo
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IProvideClassInfo.GetClassInfo
+- IProvideClassInfo.GetClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

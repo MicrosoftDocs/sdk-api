@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Gain
 title: IVideoProcAmp::put_Gain (vidcap.h)
-
 description: The put_Gain method sets the camera's gain setting.
 old-location: dshow\ivideoprocamp_put_gain.htm
 tech.root: DirectShow
 ms.assetid: 8256c1d9-ca3f-4b6a-921d-a424932927b5
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Gain method, IVideoProcAmp.put_Gain, IVideoProcAmp::put_Gain, IVideoProcAmpput_Gain, dshow.ivideoprocamp_put_gain, put_Gain, put_Gain method [DirectShow], put_Gain method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Gain
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.put_Gain"
+f1_keywords:
+- vidcap/IVideoProcAmp.put_Gain
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.put_Gain
+- IVideoProcAmp.put_Gain
 targetos: Windows
 req.typenames: 
 req.redist: 

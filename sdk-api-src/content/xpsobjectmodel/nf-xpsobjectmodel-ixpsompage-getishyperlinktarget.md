@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetIsHyperlinkTarget
 title: IXpsOMPage::GetIsHyperlinkTarget (xpsobjectmodel.h)
-
 description: Gets a Boolean value that indicates whether the page is the target of a hyperlink.
 old-location: xps\ixpsompage_getishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: 172636d5-c375-4552-97a8-d874b6aa4843
-
 ms.date: 12/05/2018
 ms.keywords: GetIsHyperlinkTarget, GetIsHyperlinkTarget method [XPS Documents and Packaging], GetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetIsHyperlinkTarget method, IXpsOMPage.GetIsHyperlinkTarget, IXpsOMPage::GetIsHyperlinkTarget, xps.ixpsompage_getishyperlinktarget, xpsobjectmodel/IXpsOMPage::GetIsHyperlinkTarget
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetIsHyperlinkTarget"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetIsHyperlinkTarget
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetIsHyperlinkTarget
+- IXpsOMPage.GetIsHyperlinkTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognitionResult.ModifyTopAlternate
 title: IInkRecognitionResult::ModifyTopAlternate (msinkaut.h)
-
 description: Changes the top alternate of a recognition result by using the specified alternate.
 old-location: tablet\iinkrecognitionresult_modifytopalternate.htm
 tech.root: tablet
 ms.assetid: 98edc5e9-2388-4f4e-a67f-029ee83be4cb
-
 ms.date: 12/05/2018
 ms.keywords: 98edc5e9-2388-4f4e-a67f-029ee83be4cb, IInkRecognitionResult interface [Tablet PC],ModifyTopAlternate method, IInkRecognitionResult.ModifyTopAlternate, IInkRecognitionResult::ModifyTopAlternate, ModifyTopAlternate, ModifyTopAlternate method [Tablet PC], ModifyTopAlternate method [Tablet PC],IInkRecognitionResult interface, msinkaut/IInkRecognitionResult::ModifyTopAlternate, tablet.iinkrecognitionresult_modifytopalternate
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognitionResult.ModifyTopAlternate"
+f1_keywords:
+- msinkaut/IInkRecognitionResult.ModifyTopAlternate
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognitionResult.ModifyTopAlternate
+- IInkRecognitionResult.ModifyTopAlternate
 targetos: Windows
 req.typenames: 
 req.redist: 

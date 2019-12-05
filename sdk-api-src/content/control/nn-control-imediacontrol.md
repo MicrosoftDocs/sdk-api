@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IMediaControl
 title: IMediaControl (control.h)
-
 description: The IMediaControl interface provides methods for controlling the flow of data through the filter graph.
 old-location: dshow\imediacontrol.htm
 tech.root: DirectShow
 ms.assetid: bce64088-3751-420c-b9de-b9b5f3119198
-
 ms.date: 12/05/2018
 ms.keywords: IMediaControl, IMediaControl interface [DirectShow], IMediaControl interface [DirectShow],described, IMediaControlInterface, control/IMediaControl, dshow.imediacontrol
 ms.topic: interface
-f1_keywords: 
- - "control/IMediaControl"
+f1_keywords:
+- control/IMediaControl
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaControl
+- IMediaControl
 targetos: Windows
 req.typenames: 
 req.redist: 

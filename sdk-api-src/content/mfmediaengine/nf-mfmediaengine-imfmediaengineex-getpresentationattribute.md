@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.GetPresentationAttribute
 title: IMFMediaEngineEx::GetPresentationAttribute (mfmediaengine.h)
-
 description: Gets a presentation attribute from the media resource.
 old-location: mf\imfmediaengineex_getpresentationattribute.htm
 tech.root: medfound
 ms.assetid: 127667EA-8ED2-428E-8F6B-C280CF42E1C5
-
 ms.date: 12/05/2018
 ms.keywords: GetPresentationAttribute, GetPresentationAttribute method [Media Foundation], GetPresentationAttribute method [Media Foundation],IMFMediaEngineEx interface, IMFMediaEngineEx interface [Media Foundation],GetPresentationAttribute method, IMFMediaEngineEx.GetPresentationAttribute, IMFMediaEngineEx::GetPresentationAttribute, mf.imfmediaengineex_getpresentationattribute, mfmediaengine/IMFMediaEngineEx::GetPresentationAttribute
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineEx.GetPresentationAttribute"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineEx.GetPresentationAttribute
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineEx.GetPresentationAttribute
+- IMFMediaEngineEx.GetPresentationAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

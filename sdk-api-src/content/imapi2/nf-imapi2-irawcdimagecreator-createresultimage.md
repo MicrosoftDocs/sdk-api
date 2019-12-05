@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.CreateResultImage
 title: IRawCDImageCreator::CreateResultImage (imapi2.h)
-
 description: Creates the final IStream object based on the current settings.
 old-location: imapi\irawcdimagecreator_createresultimage.htm
 tech.root: imapi
 ms.assetid: a83293f6-d5a1-49e2-884b-2b185516109d
-
 ms.date: 12/05/2018
 ms.keywords: CreateResultImage, CreateResultImage method [IMAPI], CreateResultImage method [IMAPI],IRawCDImageCreator interface, IRawCDImageCreator interface [IMAPI],CreateResultImage method, IRawCDImageCreator.CreateResultImage, IRawCDImageCreator::CreateResultImage, imapi.irawcdimagecreator_createresultimage, imapi2/IRawCDImageCreator::CreateResultImage
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.CreateResultImage"
+f1_keywords:
+- imapi2/IRawCDImageCreator.CreateResultImage
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.CreateResultImage
+- IRawCDImageCreator.CreateResultImage
 targetos: Windows
 req.typenames: 
 req.redist: 

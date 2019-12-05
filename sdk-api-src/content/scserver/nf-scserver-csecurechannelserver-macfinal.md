@@ -1,19 +1,17 @@
 ---
 UID: NF:scserver.CSecureChannelServer.MACFinal
 title: CSecureChannelServer::MACFinal (scserver.h)
-
 description: The MACFinal method releases the message authentication code (MAC) channel and retrieves a final MAC value.
 old-location: wmdm\csecurechannelserver_macfinal.htm
 tech.root: WMDM
 ms.assetid: 047340a5-5382-443e-a6d5-ecbcdfe9a210
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],MACFinal method, CSecureChannelServer.MACFinal, CSecureChannelServer::MACFinal, CSecureChannelServerMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::MACFinal, wmdm.csecurechannelserver_macfinal
 ms.topic: method
-f1_keywords: 
- - "scserver/CSecureChannelServer.MACFinal"
+f1_keywords:
+- scserver/CSecureChannelServer.MACFinal
 dev_langs:
- - c++
+- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelServer.MACFinal
+- CSecureChannelServer.MACFinal
 targetos: Windows
 req.typenames: 
 req.redist: 

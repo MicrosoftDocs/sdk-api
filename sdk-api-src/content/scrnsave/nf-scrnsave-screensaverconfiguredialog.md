@@ -1,19 +1,17 @@
 ---
 UID: NF:scrnsave.ScreenSaverConfigureDialog
 title: ScreenSaverConfigureDialog function (scrnsave.h)
-
 description: Receives messages sent to a screen saver's configuration dialog box. A screen saver that allows user configuration must define this function.
 old-location: shell\ScreenSaverConfigureDialog.htm
 tech.root: shell
 ms.assetid: 84c2966f-8f01-4f8d-9cec-c7fef657bff0
-
 ms.date: 12/05/2018
 ms.keywords: ScreenSaverConfigureDialog, ScreenSaverConfigureDialog function [Windows Shell], _win32_ScreenSaverConfigureDialog, scrnsave/ScreenSaverConfigureDialog, shell.ScreenSaverConfigureDialog
 ms.topic: function
-f1_keywords: 
- - "scrnsave/ScreenSaverConfigureDialog"
+f1_keywords:
+- scrnsave/ScreenSaverConfigureDialog
 dev_langs:
- - c++
+- c++
 req.header: scrnsave.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Scrnsave.lib
 req.dll: None
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - None
+- None
 api_name:
- - ScreenSaverConfigureDialog
+- ScreenSaverConfigureDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

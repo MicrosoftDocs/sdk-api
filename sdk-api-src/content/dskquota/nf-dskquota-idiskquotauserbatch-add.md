@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.Add
 title: IDiskQuotaUserBatch::Add (dskquota.h)
-
 description: Adds an IDiskQuotaUser pointer to the batch list.
 old-location: fs\idiskquotauserbatch_add.htm
 tech.root: FileIO
 ms.assetid: 8b0876d2-55ba-4eaa-b317-8ea1d2f5ff4f
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Files], Add method [Files],IDiskQuotaUserBatch interface, IDiskQuotaUserBatch interface [Files],Add method, IDiskQuotaUserBatch.Add, IDiskQuotaUserBatch::Add, _win32_idiskquotauserbatch_add, base.idiskquotauserbatch_add, dskquota/IDiskQuotaUserBatch::Add, fs.idiskquotauserbatch_add
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaUserBatch.Add"
+f1_keywords:
+- dskquota/IDiskQuotaUserBatch.Add
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaUserBatch.Add
+- IDiskQuotaUserBatch.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

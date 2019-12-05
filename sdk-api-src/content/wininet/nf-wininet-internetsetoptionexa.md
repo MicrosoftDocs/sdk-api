@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetSetOptionExA
 title: InternetSetOptionExA function (wininet.h)
-
 description: Not supported.Implemented only as a stub that calls the InternetSetOption function; InternetSetOptionEx has no functionality of its own. Do not use this function at this time.
 old-location: wininet\internetsetoptionex.htm
 tech.root: wininet
 ms.assetid: 535e4f38-d941-4b69-8c48-ea47f3fbd5e7
-
 ms.date: 12/05/2018
 ms.keywords: InternetSetOptionEx, InternetSetOptionEx function [WinINet], InternetSetOptionExA, InternetSetOptionExW, _inet_internetsetoptionex_function, wininet.internetsetoptionex, wininet/InternetSetOptionEx, wininet/InternetSetOptionExA, wininet/InternetSetOptionExW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetSetOptionEx"
+f1_keywords:
+- wininet/InternetSetOptionEx
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetSetOptionEx
- - InternetSetOptionExA
- - InternetSetOptionExW
+- InternetSetOptionEx
+- InternetSetOptionExA
+- InternetSetOptionExW
 targetos: Windows
 req.typenames: 
 req.redist: 

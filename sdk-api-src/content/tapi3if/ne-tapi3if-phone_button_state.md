@@ -1,19 +1,17 @@
 ---
 UID: NE:tapi3if.PHONE_BUTTON_STATE
 title: PHONE_BUTTON_STATE (tapi3if.h)
-
 description: The PHONE_BUTTON_STATE enum describes the state of a phone button.
 old-location: tapi3\phone_button_state.htm
 tech.root: Tapi
 ms.assetid: a9f7b527-9c74-45ac-9394-6f736aae1ccf
-
 ms.date: 12/05/2018
 ms.keywords: PBS_DOWN, PBS_UNAVAIL, PBS_UNKNOWN, PBS_UP, PHONE_BUTTON_STATE, PHONE_BUTTON_STATE enumeration [TAPI 2.2], _tapi3_phone_button_state, tapi3.phone_button_state, tapi3if/PBS_DOWN, tapi3if/PBS_UNAVAIL, tapi3if/PBS_UNKNOWN, tapi3if/PBS_UP, tapi3if/PHONE_BUTTON_STATE
 ms.topic: enum
-f1_keywords: 
- - "tapi3if/PHONE_BUTTON_STATE"
+f1_keywords:
+- tapi3if/PHONE_BUTTON_STATE
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - PHONE_BUTTON_STATE
+- PHONE_BUTTON_STATE
 targetos: Windows
 req.typenames: PHONE_BUTTON_STATE
 req.redist: 

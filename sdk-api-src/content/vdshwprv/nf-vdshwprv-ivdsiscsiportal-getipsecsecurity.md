@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortal.GetIpsecSecurity
 title: IVdsIscsiPortal::GetIpsecSecurity (vdshwprv.h)
-
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdsiscsiportal_getipsecsecurity.htm
 tech.root: VDS
 ms.assetid: c815856f-94a2-4748-b9ac-54a2ef69c97e
-
 ms.date: 12/05/2018
 ms.keywords: GetIpsecSecurity, GetIpsecSecurity method, GetIpsecSecurity method,IVdsIscsiPortal interface, IVdsIscsiPortal interface,GetIpsecSecurity method, IVdsIscsiPortal.GetIpsecSecurity, IVdsIscsiPortal::GetIpsecSecurity, base.ivdsiscsiportal_getipsecsecurity, vds/IVdsIscsiPortal::GetIpsecSecurity, vdshwprv/IVdsIscsiPortal::GetIpsecSecurity
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsIscsiPortal.GetIpsecSecurity"
+f1_keywords:
+- vdshwprv/IVdsIscsiPortal.GetIpsecSecurity
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiPortal.GetIpsecSecurity
+- IVdsIscsiPortal.GetIpsecSecurity
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

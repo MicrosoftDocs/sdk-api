@@ -1,19 +1,17 @@
 ---
 UID: NS:vptype._AMVPSIZE
 title: AMVPSIZE (vptype.h)
-
 description: The AMVPSIZE structure specifies the width and height for a VP image.
 old-location: dshow\amvpsize.htm
 tech.root: DirectShow
 ms.assetid: e36163bc-a7ea-421e-b876-2d459ecb11e8
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVPSIZE, AMVPSIZE, AMVPSIZE structure [DirectShow], AMVPSIZEStructure, LPAMVPSIZE, LPAMVPSIZE structure pointer [DirectShow], dshow.amvpsize, vptype/AMVPSIZE, vptype/LPAMVPSIZE"
+ms.keywords: '*LPAMVPSIZE, AMVPSIZE, AMVPSIZE structure [DirectShow], AMVPSIZEStructure, LPAMVPSIZE, LPAMVPSIZE structure pointer [DirectShow], dshow.amvpsize, vptype/AMVPSIZE, vptype/LPAMVPSIZE'
 ms.topic: struct
-f1_keywords: 
- - "vptype/AMVPSIZE"
+f1_keywords:
+- vptype/AMVPSIZE
 dev_langs:
- - c++
+- c++
 req.header: vptype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - vptype.h
+- vptype.h
 api_name:
- - AMVPSIZE
+- AMVPSIZE
 targetos: Windows
 req.typenames: AMVPSIZE, *LPAMVPSIZE
 req.redist: 

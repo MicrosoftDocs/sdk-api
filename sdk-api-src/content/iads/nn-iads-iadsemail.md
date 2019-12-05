@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsEmail
 title: IADsEmail (iads.h)
-
 description: The IADsEmail interface provides methods for an ADSI client to access the Email Address attribute.
 old-location: adsi\iadsemail.htm
 tech.root: adsi
 ms.assetid: ce788365-9e43-4bce-89c3-07506cb308fa
-
 ms.date: 12/05/2018
 ms.keywords: Email, IADsEmail, IADsEmail interface [ADSI], IADsEmail interface [ADSI],described, _ds_iadsemail, adsi.iadsemail, iads/IADsEmail
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsEmail"
+f1_keywords:
+- iads/IADsEmail
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsEmail
- - Email
+- IADsEmail
+- Email
 targetos: Windows
 req.typenames: 
 req.redist: 

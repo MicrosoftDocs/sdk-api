@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IComponent.get_DescLangID
 title: IComponent::get_DescLangID (tuner.h)
-
 description: The get_DescLangID method retrieves the language identifier for the description property.
 old-location: mstv\icomponent_get_desclangid.htm
 tech.root: mstv
 ms.assetid: 1c041173-0c78-486e-93b5-a46c9dc0afb1
-
 ms.date: 12/05/2018
 ms.keywords: IComponent interface [Microsoft TV Technologies],get_DescLangID method, IComponent.get_DescLangID, IComponent::get_DescLangID, IComponentget_DescLangID, get_DescLangID, get_DescLangID method [Microsoft TV Technologies], get_DescLangID method [Microsoft TV Technologies],IComponent interface, mstv.icomponent_get_desclangid, tuner/IComponent::get_DescLangID
 ms.topic: method
-f1_keywords: 
- - "tuner/IComponent.get_DescLangID"
+f1_keywords:
+- tuner/IComponent.get_DescLangID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IComponent.get_DescLangID
+- IComponent.get_DescLangID
 targetos: Windows
 req.typenames: 
 req.redist: 

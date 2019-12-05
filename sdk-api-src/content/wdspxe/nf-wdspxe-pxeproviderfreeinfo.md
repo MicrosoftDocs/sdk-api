@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeProviderFreeInfo
 title: PxeProviderFreeInfo function (wdspxe.h)
-
 description: Frees memory allocated by the PxeProviderEnumNext function.
 old-location: wds\pxeproviderfreeinfo.htm
 tech.root: wds
 ms.assetid: dd0f2b02-afc9-4ff6-b5b8-772ef15e4aa7
-
 ms.date: 12/05/2018
 ms.keywords: PxeProviderFreeInfo, PxeProviderFreeInfo function [Windows Deployment Services], wds.pxeproviderfreeinfo, wdspxe/PxeProviderFreeInfo
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeProviderFreeInfo"
+f1_keywords:
+- wdspxe/PxeProviderFreeInfo
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeProviderFreeInfo
+- PxeProviderFreeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

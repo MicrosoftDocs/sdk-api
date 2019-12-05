@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_PIN_MODE
 title: MBN_PIN_MODE (mbnapi.h)
-
 description: The MBN_PIN_MODE enumerated type indicates if the PIN type is enabled.
 old-location: mbn\mbn_pin_mode.htm
 tech.root: mbn
 ms.assetid: ae5324f2-7a19-4887-b5df-20d51c64e063
-
 ms.date: 12/05/2018
 ms.keywords: MBN_PIN_MODE, MBN_PIN_MODE enumeration [Microsoft Broadband Networks], MBN_PIN_MODE_DISABLED, MBN_PIN_MODE_ENABLED, mbn.mbn_pin_mode, mbnapi/MBN_PIN_MODE, mbnapi/MBN_PIN_MODE_DISABLED, mbnapi/MBN_PIN_MODE_ENABLED
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_PIN_MODE"
+f1_keywords:
+- mbnapi/MBN_PIN_MODE
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_PIN_MODE
+- MBN_PIN_MODE
 targetos: Windows
 req.typenames: MBN_PIN_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Open
 title: IMDSPObject::Open (mswmdm.h)
-
 description: The Open method opens the associated object and prepares it for Read or Write operations. This operation is valid only if the storage object represents a file.
 old-location: wmdm\imdspobject_open.htm
 tech.root: WMDM
 ms.assetid: 9e54bcbd-4f14-49e0-8211-2f79f024c80a
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Open method, IMDSPObject.Open, IMDSPObject::Open, IMDSPObjectOpen, Open, Open method [windows Media Device Manager], Open method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Open, wmdm.imdspobject_open
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject.Open"
+f1_keywords:
+- mswmdm/IMDSPObject.Open
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject.Open
+- IMDSPObject.Open
 targetos: Windows
 req.typenames: 
 req.redist: 

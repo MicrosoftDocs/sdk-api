@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Next
 title: IEnumExtraSearch::Next (shobjidl_core.h)
-
 description: Used to request information on one or more search objects.
 old-location: shell\IEnumExtraSearch_Next.htm
 tech.root: shell
 ms.assetid: 915f1cd5-5429-4080-8357-753dd1744d93
-
 ms.date: 12/05/2018
 ms.keywords: IEnumExtraSearch interface [Windows Shell],Next method, IEnumExtraSearch.Next, IEnumExtraSearch::Next, Next, Next method [Windows Shell], Next method [Windows Shell],IEnumExtraSearch interface, _win32_IEnumExtraSearch_Next, shell.IEnumExtraSearch_Next, shobjidl_core/IEnumExtraSearch::Next
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumExtraSearch.Next"
+f1_keywords:
+- shobjidl_core/IEnumExtraSearch.Next
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEnumExtraSearch.Next
+- IEnumExtraSearch.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

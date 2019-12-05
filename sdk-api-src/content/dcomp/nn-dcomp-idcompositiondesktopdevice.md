@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionDesktopDevice
 title: IDCompositionDesktopDevice (dcomp.h)
-
 description: An application must use the IDCompositionDesktopDevice interface in order to use DirectComposition in a Win32 desktop application.
 old-location: directcomp\idcompositiondesktopdevice.htm
 tech.root: directcomp
 ms.assetid: 0FCDCDC2-541A-4EB5-A7FF-492AB5C25F7B
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionDesktopDevice, IDCompositionDesktopDevice interface [DirectComposition], IDCompositionDesktopDevice interface [DirectComposition],described, dcomp/IDCompositionDesktopDevice, directcomp.idcompositiondesktopdevice
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionDesktopDevice"
+f1_keywords:
+- dcomp/IDCompositionDesktopDevice
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDesktopDevice
+- IDCompositionDesktopDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

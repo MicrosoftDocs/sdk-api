@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetACPFromPoint
 title: ITfContextOwner::GetACPFromPoint (msctf.h)
-
 description: The ITfContextOwner::GetACPFromPoint method converts a point in screen coordinates to an application character position.
 old-location: tsf\itfcontextowner_getacpfrompoint.htm
 tech.root: TSF
 ms.assetid: f8091e79-33af-49d5-b3c8-d30952c62010
-
 ms.date: 12/05/2018
 ms.keywords: GetACPFromPoint, GetACPFromPoint method [Text Services Framework], GetACPFromPoint method [Text Services Framework],ITfContextOwner interface, ITfContextOwner interface [Text Services Framework],GetACPFromPoint method, ITfContextOwner.GetACPFromPoint, ITfContextOwner::GetACPFromPoint, _tsf_itfcontextowner_getacpfrompoint_ref, msctf/ITfContextOwner::GetACPFromPoint, tsf.itfcontextowner_getacpfrompoint
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextOwner.GetACPFromPoint"
+f1_keywords:
+- msctf/ITfContextOwner.GetACPFromPoint
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msimtf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msimtf.dll
+- msimtf.dll
 api_name:
- - ITfContextOwner.GetACPFromPoint
+- ITfContextOwner.GetACPFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

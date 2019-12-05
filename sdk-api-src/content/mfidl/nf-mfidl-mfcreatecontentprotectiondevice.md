@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateContentProtectionDevice
 title: MFCreateContentProtectionDevice function (mfidl.h)
-
 description: Creates an IMFContentProtectionDevice interface for the specified media protection system.
 old-location: mf\mfcreatecontentprotectiondevice.htm
 tech.root: medfound
 ms.assetid: 6C301184-255B-4FE7-8DD6-962B236F90A6
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateContentProtectionDevice, MFCreateContentProtectionDevice function [Media Foundation], mf.mfcreatecontentprotectiondevice, mfidl/MFCreateContentProtectionDevice
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateContentProtectionDevice"
+f1_keywords:
+- mfidl/MFCreateContentProtectionDevice
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateContentProtectionDevice
+- MFCreateContentProtectionDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

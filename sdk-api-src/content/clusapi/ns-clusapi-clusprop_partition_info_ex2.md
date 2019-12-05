@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_PARTITION_INFO_EX2
 title: CLUSPROP_PARTITION_INFO_EX2 (clusapi.h)
-
 description: A value list entry that contains partition information for a storage class resource. This structure is as a input, and a as a return value for the CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2 control code.
 old-location: mscs\clusprop_partition_info_ex2.htm
 tech.root: MsCS
 ms.assetid: D6D26335-80D0-4949-99B4-FE18DD2FFF3C
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2 structure [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX2, mscs.clusprop_partition_info_ex2"
+ms.keywords: '*PCLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2, CLUSPROP_PARTITION_INFO_EX2 structure [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX2, mscs.clusprop_partition_info_ex2'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_PARTITION_INFO_EX2"
+f1_keywords:
+- clusapi/CLUSPROP_PARTITION_INFO_EX2
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_PARTITION_INFO_EX2
+- CLUSPROP_PARTITION_INFO_EX2
 targetos: Windows
 req.typenames: CLUSPROP_PARTITION_INFO_EX2
 req.redist: 

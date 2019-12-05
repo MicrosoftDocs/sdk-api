@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.ReinterpretBaseType(const D2D1_MATRIX_4X4_F)
 title: Matrix4x4F::ReinterpretBaseType (d2d1_1helper.h)
-
 description: Converts the specified D2D1_MATRIX_4X4_F matrix to a Matrix4x4F without making a copy.
 old-location: direct2d\matrix4x4f_reinterpretbasetype.htm
 tech.root: Direct2D
 ms.assetid: 379F9F01-EE5E-438B-BD0A-F0EB6B92E28F
-
 ms.date: 12/05/2018
 ms.keywords: Matrix4x4F interface [Direct2D],ReinterpretBaseType method, Matrix4x4F.ReinterpretBaseType, Matrix4x4F::ReinterpretBaseType, Matrix4x4F::ReinterpretBaseType(D2D1_MATRIX_4X4_F), ReinterpretBaseType, ReinterpretBaseType method [Direct2D], ReinterpretBaseType method [Direct2D],Matrix4x4F interface, d2d1_1helper/Matrix4x4F::ReinterpretBaseType, direct2d.matrix4x4f_reinterpretbasetype
 ms.topic: method
-f1_keywords: 
- - "d2d1_1helper/Matrix4x4F.ReinterpretBaseType"
+f1_keywords:
+- d2d1_1helper/Matrix4x4F.ReinterpretBaseType
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1_1helper.h
+- d2d1_1helper.h
 api_name:
- - Matrix4x4F.ReinterpretBaseType
+- Matrix4x4F.ReinterpretBaseType
 targetos: Windows
 req.typenames: 
 req.redist: 

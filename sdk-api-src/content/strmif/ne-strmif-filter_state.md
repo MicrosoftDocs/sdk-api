@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif._FilterState
 title: FILTER_STATE (strmif.h)
-
 description: Specifies a filter's state or the state of the filter graph.
 old-location: dshow\filter_state.htm
 tech.root: DirectShow
 ms.assetid: 41f88abc-57d1-4f80-a099-d17e624ab8a6
-
 ms.date: 12/05/2018
 ms.keywords: FILTER_STATE, FILTER_STATE , FILTER_STATE enumeration [DirectShow], FILTER_STATEEnumeration, State_Paused, State_Running, State_Stopped, dshow.filter_state, strmif/FILTER_STATE, strmif/State_Paused, strmif/State_Running, strmif/State_Stopped
 ms.topic: enum
-f1_keywords: 
- - "strmif/FILTER_STATE"
+f1_keywords:
+- strmif/FILTER_STATE
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - FILTER_STATE
+- FILTER_STATE
 targetos: Windows
 req.typenames: FILTER_STATE
 req.redist: 

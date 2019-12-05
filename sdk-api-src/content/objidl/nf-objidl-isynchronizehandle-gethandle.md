@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ISynchronizeHandle.GetHandle
 title: ISynchronizeHandle::GetHandle (objidl.h)
-
 description: Retrieves a handle to the synchronization object.
 old-location: com\isynchronizehandle_gethandle.htm
 tech.root: com
 ms.assetid: 951bc2e4-2ef9-48cf-91a1-1a39c2361f42
-
 ms.date: 12/05/2018
 ms.keywords: GetHandle, GetHandle method [COM], GetHandle method [COM],ISynchronizeHandle interface, ISynchronizeHandle interface [COM],GetHandle method, ISynchronizeHandle.GetHandle, ISynchronizeHandle::GetHandle, _com_isynchronizehandle_gethandle, com.isynchronizehandle_gethandle, objidlbase/ISynchronizeHandle::GetHandle
 ms.topic: method
-f1_keywords: 
- - "objidl/ISynchronizeHandle.GetHandle"
+f1_keywords:
+- objidl/ISynchronizeHandle.GetHandle
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronizeHandle.GetHandle
+- ISynchronizeHandle.GetHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

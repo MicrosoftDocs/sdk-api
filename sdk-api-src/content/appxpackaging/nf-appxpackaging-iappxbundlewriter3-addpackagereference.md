@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleWriter3.AddPackageReference
 title: IAppxBundleWriter3::AddPackageReference (appxpackaging.h)
-
 description: Adds a reference to an optional app package or a payload file within an app bundle.
 old-location: appxpkg\iappxbundlewriter3_addpackagereference.htm
 tech.root: appxpkg
 ms.assetid: 99969971-9153-47C9-AF9C-7BF1D56EC54D
-
 ms.date: 12/05/2018
 ms.keywords: AddPackageReference, AddPackageReference method [App packaging and management], AddPackageReference method [App packaging and management],IAppxBundleWriter3 interface, IAppxBundleWriter3 interface [App packaging and management],AddPackageReference method, IAppxBundleWriter3.AddPackageReference, IAppxBundleWriter3::AddPackageReference, appxpackaging/IAppxBundleWriter3::AddPackageReference, appxpkg.iappxbundlewriter3_addpackagereference
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleWriter3.AddPackageReference"
+f1_keywords:
+- appxpackaging/IAppxBundleWriter3.AddPackageReference
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleWriter3.AddPackageReference
+- IAppxBundleWriter3.AddPackageReference
 targetos: Windows
 req.typenames: 
 req.redist: 

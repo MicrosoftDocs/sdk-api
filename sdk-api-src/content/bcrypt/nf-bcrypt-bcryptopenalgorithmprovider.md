@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptOpenAlgorithmProvider
 title: BCryptOpenAlgorithmProvider function (bcrypt.h)
-
 description: Loads and initializes a CNG provider.
 old-location: security\bcryptopenalgorithmprovider_func.htm
 tech.root: SecCNG
 ms.assetid: aceba9c0-19e6-4f3c-972a-752feed4a9f8
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ALG_HANDLE_HMAC_FLAG, BCRYPT_HASH_REUSABLE_FLAG, BCRYPT_PROV_DISPATCH, BCryptOpenAlgorithmProvider, BCryptOpenAlgorithmProvider function [Security], MS_PRIMITIVE_PROVIDER, MS_PLATFORM_CRYPTO_PROVIDER, bcrypt/BCryptOpenAlgorithmProvider, security.bcryptopenalgorithmprovider_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptOpenAlgorithmProvider"
+f1_keywords:
+- bcrypt/BCryptOpenAlgorithmProvider
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptOpenAlgorithmProvider
+- BCryptOpenAlgorithmProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

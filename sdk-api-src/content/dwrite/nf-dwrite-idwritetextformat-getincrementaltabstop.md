@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetIncrementalTabStop
 title: IDWriteTextFormat::GetIncrementalTabStop (dwrite.h)
-
 description: Gets the incremental tab stop position.
 old-location: directwrite\IDWriteTextFormat_GetIncrementalTabStop.htm
 tech.root: DirectWrite
 ms.assetid: 080c9fe3-3323-4e30-8dbc-fe44e874cf6d
-
 ms.date: 12/05/2018
 ms.keywords: GetIncrementalTabStop, GetIncrementalTabStop method [Direct Write], GetIncrementalTabStop method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetIncrementalTabStop method, IDWriteTextFormat.GetIncrementalTabStop, IDWriteTextFormat::GetIncrementalTabStop, directwrite.IDWriteTextFormat_GetIncrementalTabStop, dwrite/IDWriteTextFormat::GetIncrementalTabStop
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetIncrementalTabStop"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetIncrementalTabStop
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetIncrementalTabStop
+- IDWriteTextFormat.GetIncrementalTabStop
 targetos: Windows
 req.typenames: 
 req.redist: 

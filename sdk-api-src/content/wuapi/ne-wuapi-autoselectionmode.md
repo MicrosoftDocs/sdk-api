@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagAutoSelectionMode
 title: AutoSelectionMode (wuapi.h)
-
 description: Defines the types of logic that is used to determine whether a particular update will be automatically selected when the user views available updates in the Windows Update user interface.
 old-location: wua\autoselectionmode.htm
 tech.root: Wua_Sdk
 ms.assetid: 847fd8a3-eb00-43f7-a89f-579cd79d0620
-
 ms.date: 12/05/2018
 ms.keywords: AutoSelectionMode, AutoSelectionMode enumeration [Windows Update Agent], asAlwaysAutoSelect, asAutoSelectIfDownloaded, asLetWindowsUpdateDecide, asNeverAutoSelect, wua.autoselectionmode, wuapi/AutoSelectionMode, wuapi/asAlwaysAutoSelect, wuapi/asAutoSelectIfDownloaded, wuapi/asLetWindowsUpdateDecide, wuapi/asNeverAutoSelect
 ms.topic: enum
-f1_keywords: 
- - "wuapi/AutoSelectionMode"
+f1_keywords:
+- wuapi/AutoSelectionMode
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - AutoSelectionMode
+- AutoSelectionMode
 targetos: Windows
 req.typenames: AutoSelectionMode
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInspectable
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified IInspectable object.
 old-location: winrt\ipropertyvaluestatics_createinspectable.htm
 tech.root: WinRT
 ms.assetid: 6FCAD9E9-AB44-4D26-BD75-26B1C25FA524
-
 ms.date: 12/05/2018
 ms.keywords: CreateInspectable, CreateInspectable method [Windows Runtime], CreateInspectable method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInspectable method, IPropertyValueStatics.CreateInspectable, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInspectable, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInspectable, winrt.ipropertyvaluefactory_createinspectable, winrt.ipropertyvaluestatics_createinspectable
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateInspectable"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateInspectable
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateInspectable
+- IPropertyValueStatics.CreateInspectable
 targetos: Windows
 req.typenames: 
 req.redist: 

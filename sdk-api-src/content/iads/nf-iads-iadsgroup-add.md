@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsGroup.Add
 title: IADsGroup::Add (iads.h)
-
 description: Adds an ADSI object to an existing group.
 old-location: adsi\iadsgroup_add.htm
 tech.root: adsi
 ms.assetid: 7b660c3b-f395-407e-bc84-7ef7117298bb
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [ADSI], Add method [ADSI],IADsGroup interface, IADsGroup interface [ADSI],Add method, IADsGroup.Add, IADsGroup::Add, _ds_iadsgroup_add, adsi.iadsgroup__add, adsi.iadsgroup_add, iads/IADsGroup::Add
 ms.topic: method
-f1_keywords: 
- - "iads/IADsGroup.Add"
+f1_keywords:
+- iads/IADsGroup.Add
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsGroup.Add
+- IADsGroup.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

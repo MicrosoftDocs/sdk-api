@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetProtocolName
 title: IWMReaderAdvanced2::GetProtocolName (wmsdkidl.h)
-
 description: The GetProtocolName method retrieves the name of the protocol that is being used.
 old-location: wmformat\iwmreaderadvanced2_getprotocolname.htm
 tech.root: wmformat
 ms.assetid: 056d5f3f-79bf-4e21-9f2c-cda05eaca13d
-
 ms.date: 12/05/2018
 ms.keywords: GetProtocolName, GetProtocolName method [windows Media Format], GetProtocolName method [windows Media Format],IWMReaderAdvanced2 interface, IWMReaderAdvanced2 interface [windows Media Format],GetProtocolName method, IWMReaderAdvanced2.GetProtocolName, IWMReaderAdvanced2::GetProtocolName, IWMReaderAdvanced2GetProtocolName, wmformat.iwmreaderadvanced2_getprotocolname, wmsdkidl/IWMReaderAdvanced2::GetProtocolName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.GetProtocolName"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.GetProtocolName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.GetProtocolName
+- IWMReaderAdvanced2.GetProtocolName
 targetos: Windows
 req.typenames: 
 req.redist: 

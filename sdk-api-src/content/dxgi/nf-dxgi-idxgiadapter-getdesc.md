@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIAdapter.GetDesc
 title: IDXGIAdapter::GetDesc (dxgi.h)
-
 description: Gets a DXGI 1.0 description of an adapter (or video card).
 old-location: direct3ddxgi\idxgiadapter_getdesc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter_getdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [DXGI], GetDesc method [DXGI],IDXGIAdapter interface, IDXGIAdapter interface [DXGI],GetDesc method, IDXGIAdapter.GetDesc, IDXGIAdapter::GetDesc, d6097f67-3411-f7d2-50dc-507efce034b7, direct3ddxgi.idxgiadapter_getdesc, dxgi/IDXGIAdapter::GetDesc
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIAdapter.GetDesc"
+f1_keywords:
+- dxgi/IDXGIAdapter.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIAdapter.GetDesc
+- IDXGIAdapter.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

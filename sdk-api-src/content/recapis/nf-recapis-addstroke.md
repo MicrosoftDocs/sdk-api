@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.AddStroke
 title: AddStroke function (recapis.h)
-
 description: Adds an ink stroke to the RecognizerContext.
 old-location: tablet\addstroke.htm
 tech.root: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595
-
 ms.date: 12/05/2018
 ms.keywords: 1db3dbef-41bf-4b00-8e6c-07c7c414e595, AddStroke, AddStroke function [Tablet PC], recapis/AddStroke, tablet.addstroke
 ms.topic: function
 f1_keywords:
 - recapis/AddStroke
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows

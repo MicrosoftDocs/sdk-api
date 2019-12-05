@@ -1,19 +1,17 @@
 ---
 UID: NS:dxvahd._DXVAHDSW_CALLBACKS
 title: DXVAHDSW_CALLBACKS (dxvahd.h)
-
 description: Contains pointers to functions implemented by a software plug-in for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\dxvahdsw_callbacks.htm
 tech.root: medfound
 ms.assetid: 74c329cc-af54-4cf8-8cb6-eed9e96db4c5
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHDSW_CALLBACKS, DXVAHDSW_CALLBACKS structure [Media Foundation], dxvahd/DXVAHDSW_CALLBACKS, mf.dxvahdsw_callbacks
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHDSW_CALLBACKS"
+f1_keywords:
+- dxvahd/DXVAHDSW_CALLBACKS
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHDSW_CALLBACKS
+- DXVAHDSW_CALLBACKS
 targetos: Windows
 req.typenames: DXVAHDSW_CALLBACKS
 req.redist: 

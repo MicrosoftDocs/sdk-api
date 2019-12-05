@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._SMMCObjectTypes
 title: SMMCObjectTypes (mmc.h)
-
 description: The SMMCDynamicExtensions structure is introduced in MMC 1.1.
 old-location: mmc\smmcdynamicextensions.htm
 tech.root: mmc
 ms.assetid: 59acd90c-60de-457a-94d7-418b79247a2e
-
 ms.date: 12/05/2018
 ms.keywords: SMMCDynamicExtensions, SMMCDynamicExtensions structure [MMC], SMMCObjectTypes, SMMCObjectTypes structure [MMC], _slate_smmcdynamicextensions, mmc.smmcdynamicextensions, mmc/SMMCDynamicExtensions
 ms.topic: struct
-f1_keywords: 
- - "mmc/SMMCObjectTypes"
+f1_keywords:
+- mmc/SMMCObjectTypes
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - SMMCObjectTypes
+- SMMCObjectTypes
 targetos: Windows
 req.typenames: SMMCObjectTypes
 req.redist: 

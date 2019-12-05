@@ -1,19 +1,17 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnChannelOpened
 title: IWRdsGraphicsChannelEvents::OnChannelOpened (wrdsgraphicschannels.h)
-
 description: Called when the channel has been opened and is ready for use, or when an error occurs when a channel is opened.
 old-location: termserv\iwrdsgraphicschannelevents_onchannelopened.htm
 tech.root: TermServ
 ms.assetid: dafff806-8b63-40cd-8b04-efb0497cb043
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnChannelOpened method, IWRdsGraphicsChannelEvents.OnChannelOpened, IWRdsGraphicsChannelEvents::OnChannelOpened, OnChannelOpened, OnChannelOpened method [Remote Desktop Services], OnChannelOpened method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_onchannelopened, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnChannelOpened
 ms.topic: method
-f1_keywords: 
- - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnChannelOpened"
+f1_keywords:
+- wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnChannelOpened
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannelEvents.OnChannelOpened
+- IWRdsGraphicsChannelEvents.OnChannelOpened
 targetos: Windows
 req.typenames: 
 req.redist: 

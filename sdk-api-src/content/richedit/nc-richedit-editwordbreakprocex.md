@@ -1,19 +1,17 @@
 ---
 UID: NC:richedit.EDITWORDBREAKPROCEX
 title: EDITWORDBREAKPROCEX (richedit.h)
-
 description: The EditWordBreakProcEx function is an application defined callback function used with the EM_SETWORDBREAKPROCEX message.
 old-location: controls\EditWordBreakProcEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditcallbackfunctions\editwordbreakprocex.htm
-
 ms.date: 12/05/2018
 ms.keywords: EditWordBreakProcEx, EditWordBreakProcEx callback, EditWordBreakProcEx callback function [Windows Controls], _win32_EditWordBreakProcEx, _win32_EditWordBreakProcEx_cpp, controls.EditWordBreakProcEx, controls._win32_EditWordBreakProcEx, richedit/EditWordBreakProcEx
 ms.topic: callback
-f1_keywords: 
- - "richedit/EditWordBreakProcEx"
+f1_keywords:
+- richedit/EditWordBreakProcEx
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - EditWordBreakProcEx
+- EditWordBreakProcEx
 targetos: Windows
 req.typenames: 
 req.redist: 

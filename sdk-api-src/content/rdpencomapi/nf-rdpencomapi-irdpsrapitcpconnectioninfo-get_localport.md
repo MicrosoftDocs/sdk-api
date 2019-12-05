@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_LocalPort
 title: IRDPSRAPITcpConnectionInfo::get_LocalPort (rdpencomapi.h)
-
 description: Retrieves the local port that is being used by the sharer or by the viewer in communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_localport.htm
 tech.root: rdp
 ms.assetid: a6cfb383-3aff-4c36-87c7-010409c732a1
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],LocalPort property, IRDPSRAPITcpConnectionInfo.LocalPort, IRDPSRAPITcpConnectionInfo.get_LocalPort, IRDPSRAPITcpConnectionInfo::LocalPort, IRDPSRAPITcpConnectionInfo::get_LocalPort, LocalPort property [RDP], LocalPort property [RDP],IRDPSRAPITcpConnectionInfo interface, LocalPort property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],LocalPort property, get_LocalPort, rdp.irdpsrapitcpconnectioninfo_localport, rdpencomapi/IRDPSRAPITcpConnectionInfo::LocalPort, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_LocalPort
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPITcpConnectionInfo.LocalPort"
+f1_keywords:
+- rdpencomapi/IRDPSRAPITcpConnectionInfo.LocalPort
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPITcpConnectionInfo.LocalPort
- - IRDPSRAPITcpConnectionInfo.get_LocalPort
- - RDPSRAPITcpConnectionInfo.LocalPort
+- IRDPSRAPITcpConnectionInfo.LocalPort
+- IRDPSRAPITcpConnectionInfo.get_LocalPort
+- RDPSRAPITcpConnectionInfo.LocalPort
 targetos: Windows
 req.typenames: 
 req.redist: 

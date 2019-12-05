@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardStatusA
 title: SCardStatusA function (winscard.h)
-
 description: Provides the current status of a smart card in a reader.
 old-location: security\scardstatus.htm
 tech.root: SecAuthN
 ms.assetid: 04547cd1-7755-4332-8195-924b803d9a84
-
 ms.date: 12/05/2018
 ms.keywords: SCARD_ABSENT, SCARD_NEGOTIABLE, SCARD_POWERED, SCARD_PRESENT, SCARD_PROTOCOL_RAW, SCARD_PROTOCOL_T0, SCARD_PROTOCOL_T1, SCARD_SPECIFIC, SCARD_SWALLOWED, SCardStatus, SCardStatus function [Security], SCardStatusA, SCardStatusW, _smart_scardstatus, security.scardstatus, winscard/SCardStatus, winscard/SCardStatusA, winscard/SCardStatusW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardStatus"
+f1_keywords:
+- winscard/SCardStatus
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
+- Winscard.dll
 api_name:
- - SCardStatus
- - SCardStatusA
- - SCardStatusW
+- SCardStatus
+- SCardStatusA
+- SCardStatusW
 targetos: Windows
 req.typenames: 
 req.redist: 

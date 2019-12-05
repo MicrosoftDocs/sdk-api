@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandList.GetType
 title: ID3D12CommandList::GetType (d3d12.h)
-
 description: Gets the type of the command list, such as direct, bundle, compute, or copy.
 old-location: direct3d12\id3d12commandlist_gettype.htm
 tech.root: direct3d12
 ms.assetid: 39F9EF96-9761-410A-B5DD-A088F6863923
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method, GetType method,ID3D12CommandList interface, ID3D12CommandList interface,GetType method, ID3D12CommandList.GetType, ID3D12CommandList::GetType, d3d12/ID3D12CommandList::GetType, direct3d12.id3d12commandlist_gettype
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandList.GetType"
+f1_keywords:
+- d3d12/ID3D12CommandList.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12CommandList.GetType
+- ID3D12CommandList.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

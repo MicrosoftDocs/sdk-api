@@ -1,19 +1,17 @@
 ---
 UID: NS:msclus.RESOURCE_FAILURE_INFO
 title: RESOURCE_FAILURE_INFO (msclus.h)
-
 description: Represents information about the Failover attempts for a resource. This structure is used by the RESOURCE_FAILURE_INFO_BUFFER structure.
 old-location: mscs\resource_failure_info.htm
 tech.root: MsCS
 ms.assetid: 3FE0CC0E-B097-48FC-882F-F6B236BB0CCB
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO, RESOURCE_FAILURE_INFO structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO, clusapi/RESOURCE_FAILURE_INFO, msclus/PRESOURCE_FAILURE_INFO, msclus/RESOURCE_FAILURE_INFO, mscs.resource_failure_info"
+ms.keywords: '*PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO, PRESOURCE_FAILURE_INFO structure pointer [Failover Cluster], RESOURCE_FAILURE_INFO, RESOURCE_FAILURE_INFO structure [Failover Cluster], clusapi/PRESOURCE_FAILURE_INFO, clusapi/RESOURCE_FAILURE_INFO, msclus/PRESOURCE_FAILURE_INFO, msclus/RESOURCE_FAILURE_INFO, mscs.resource_failure_info'
 ms.topic: struct
-f1_keywords: 
- - "msclus/RESOURCE_FAILURE_INFO"
+f1_keywords:
+- msclus/RESOURCE_FAILURE_INFO
 dev_langs:
- - c++
+- c++
 req.header: msclus.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusApi.h
- - MsClus.h
+- ClusApi.h
+- MsClus.h
 api_name:
- - RESOURCE_FAILURE_INFO
+- RESOURCE_FAILURE_INFO
 targetos: Windows
 req.typenames: RESOURCE_FAILURE_INFO, *PRESOURCE_FAILURE_INFO
 req.redist: 

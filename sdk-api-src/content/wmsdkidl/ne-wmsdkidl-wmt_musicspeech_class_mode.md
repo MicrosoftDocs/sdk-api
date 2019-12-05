@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.tagWMT_MUSICSPEECH_CLASS_MODE
 title: WMT_MUSICSPEECH_CLASS_MODE (wmsdkidl.h)
-
 description: The WMT_MUSICSPEECH_CLASS_MODE enumeration type defines the types of compression supported by the Windows Media Audio 9 Voice codec.
 old-location: wmformat\wmt_musicspeech_class_mode.htm
 tech.root: wmformat
 ms.assetid: 9ca744a1-1d85-4609-8f5f-d074e46cef45
-
 ms.date: 12/05/2018
 ms.keywords: WMT_MS_CLASS_MIXED, WMT_MS_CLASS_MUSIC, WMT_MS_CLASS_SPEECH, WMT_MUSICSPEECH_CLASS_MODE, WMT_MUSICSPEECH_CLASS_MODE enumeration [windows Media Format], wmformat.wmt_musicspeech_class_mode, wmsdkidl/WMT_MS_CLASS_MIXED, wmsdkidl/WMT_MS_CLASS_MUSIC, wmsdkidl/WMT_MS_CLASS_SPEECH, wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE"
+f1_keywords:
+- wmsdkidl/WMT_MUSICSPEECH_CLASS_MODE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_MUSICSPEECH_CLASS_MODE
+- WMT_MUSICSPEECH_CLASS_MODE
 targetos: Windows
 req.typenames: WMT_MUSICSPEECH_CLASS_MODE
 req.redist: 

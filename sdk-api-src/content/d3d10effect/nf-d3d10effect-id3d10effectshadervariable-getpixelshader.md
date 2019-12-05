@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetPixelShader
 title: ID3D10EffectShaderVariable::GetPixelShader (d3d10effect.h)
-
 description: Get a pixel shader.
 old-location: direct3d10\id3d10effectshadervariable_getpixelshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getpixelshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelShader, GetPixelShader method [Direct3D 10], GetPixelShader method [Direct3D 10],ID3D10EffectShaderVariable interface, ID3D10EffectShaderVariable interface [Direct3D 10],GetPixelShader method, ID3D10EffectShaderVariable.GetPixelShader, ID3D10EffectShaderVariable::GetPixelShader, adc4b7de-5543-d8f7-55da-e344adb62a38, d3d10effect/ID3D10EffectShaderVariable::GetPixelShader, direct3d10.id3d10effectshadervariable_getpixelshader
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectShaderVariable.GetPixelShader"
+f1_keywords:
+- d3d10effect/ID3D10EffectShaderVariable.GetPixelShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectShaderVariable.GetPixelShader
+- ID3D10EffectShaderVariable.GetPixelShader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbGlobalStore
 title: ITsSbGlobalStore (sbtsv.h)
-
 description: Exposes methods that query for target computers, sessions, environments, and farms that have been added to the Remote Desktop Connection Broker (RD Connection Broker) store.
 old-location: termserv\itssbglobalstore.htm
 tech.root: TermServ
 ms.assetid: d25b6f73-ee5f-40e4-9c49-fd48dd3990d2
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbGlobalStore, ITsSbGlobalStore interface [Remote Desktop Services], ITsSbGlobalStore interface [Remote Desktop Services],described, sbtsv/ITsSbGlobalStore, termserv.itssbglobalstore
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbGlobalStore"
+f1_keywords:
+- sbtsv/ITsSbGlobalStore
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbGlobalStore
+- ITsSbGlobalStore
 targetos: Windows
 req.typenames: 
 req.redist: 

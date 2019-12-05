@@ -1,19 +1,17 @@
 ---
 UID: NE:evntprov._EVENT_INFO_CLASS
 title: EVENT_INFO_CLASS (evntprov.h)
-
 description: Defines a type of operation to perform on a registration object.
 old-location: etw\event_info_class.htm
 tech.root: ETW
 ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4
-
 ms.date: 12/05/2018
 ms.keywords: EVENT_INFO_CLASS, EVENT_INFO_CLASS enumeration [ETW], EventProviderBinaryTrackInfo, EventProviderSetTraits, EventProviderUseDescriptorType, MaxEventInfo, etw.event_info_class, evntprov/EVENT_INFO_CLASS, evntprov/EventProviderBinaryTrackInfo, evntprov/EventProviderSetTraits, evntprov/EventProviderUseDescriptorType, evntprov/MaxEventInfo
 ms.topic: enum
-f1_keywords: 
- - "evntprov/EVENT_INFO_CLASS"
+f1_keywords:
+- evntprov/EVENT_INFO_CLASS
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Evntprov.h
+- Evntprov.h
 api_name:
- - EVENT_INFO_CLASS
+- EVENT_INFO_CLASS
 targetos: Windows
 req.typenames: EVENT_INFO_CLASS
 req.redist: 

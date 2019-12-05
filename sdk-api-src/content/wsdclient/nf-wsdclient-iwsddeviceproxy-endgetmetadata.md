@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.EndGetMetadata
 title: IWSDDeviceProxy::EndGetMetadata (wsdclient.h)
-
 description: Ends an asynchronous request for metadata.
 old-location: ncd\iwsddeviceproxy_endgetmetadata.htm
 tech.root: WsdApi
 ms.assetid: c59ee37f-9189-4c32-8404-23cc94d76ad9
-
 ms.date: 12/05/2018
 ms.keywords: EndGetMetadata, EndGetMetadata method, EndGetMetadata method,IWSDDeviceProxy interface, IWSDDeviceProxy interface,EndGetMetadata method, IWSDDeviceProxy.EndGetMetadata, IWSDDeviceProxy::EndGetMetadata, ncd.iwsddeviceproxy_endgetmetadata, wsdclient/IWSDDeviceProxy::EndGetMetadata
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDDeviceProxy.EndGetMetadata"
+f1_keywords:
+- wsdclient/IWSDDeviceProxy.EndGetMetadata
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceProxy.EndGetMetadata
+- IWSDDeviceProxy.EndGetMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

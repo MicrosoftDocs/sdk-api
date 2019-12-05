@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.IGenericDescriptor.GetLength
 title: IGenericDescriptor::GetLength (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\igenericdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: fd36bb87-ef30-4064-a251-c89a878eeae9
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IGenericDescriptor interface, IGenericDescriptor interface [Microsoft TV Technologies],GetLength method, IGenericDescriptor.GetLength, IGenericDescriptor::GetLength, IGenericDescriptorGetLength, mpeg2psiparser/IGenericDescriptor::GetLength, mstv.igenericdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/IGenericDescriptor.GetLength"
+f1_keywords:
+- mpeg2psiparser/IGenericDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2PsiParser.h
+- Mpeg2PsiParser.h
 api_name:
- - IGenericDescriptor.GetLength
+- IGenericDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

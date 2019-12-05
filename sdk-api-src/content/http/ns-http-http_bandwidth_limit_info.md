@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_BANDWIDTH_LIMIT_INFO
 title: HTTP_BANDWIDTH_LIMIT_INFO (http.h)
-
 description: The HTTP_BANDWIDTH_LIMIT_INFO structure is used to set or query the bandwidth throttling limit. This structure must be used when setting or querying the HttpServerBandwidthProperty on a URL Group or server session.
 old-location: http\http_bandwidth_limit_info.htm
 tech.root: http
 ms.assetid: 34c85ecf-1eb4-4f0d-a081-4b9feeb8dd15
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_BANDWIDTH_LIMIT_INFO, *PHTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], HTTP_BANDWIDTH_LIMIT_INFO, HTTP_BANDWIDTH_LIMIT_INFO structure [HTTP], http.http_bandwidth_limit_info, http/*PHTTP_BANDWIDTH_LIMIT_INFO, http/HTTP_BANDWIDTH_LIMIT_INFO'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_BANDWIDTH_LIMIT_INFO
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

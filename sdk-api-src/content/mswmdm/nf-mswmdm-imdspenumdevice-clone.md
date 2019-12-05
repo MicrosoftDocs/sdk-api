@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPEnumDevice.Clone
 title: IMDSPEnumDevice::Clone (mswmdm.h)
-
 description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
 old-location: wmdm\imdspenumdevice_clone.htm
 tech.root: WMDM
 ms.assetid: fe6b8766-4f63-4a6c-b7dd-39a304679185
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumDevice interface, IMDSPEnumDevice interface [windows Media Device Manager],Clone method, IMDSPEnumDevice.Clone, IMDSPEnumDevice::Clone, IMDSPEnumDeviceClone, mswmdm/IMDSPEnumDevice::Clone, wmdm.imdspenumdevice_clone
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPEnumDevice.Clone"
+f1_keywords:
+- mswmdm/IMDSPEnumDevice.Clone
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPEnumDevice.Clone
+- IMDSPEnumDevice.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

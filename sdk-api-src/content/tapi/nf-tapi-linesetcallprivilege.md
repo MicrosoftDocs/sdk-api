@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetCallPrivilege
 title: lineSetCallPrivilege function (tapi.h)
-
 description: The lineSetCallPrivilege function sets the application's privilege to the specified privilege.
 old-location: tapi2\linesetcallprivilege.htm
 tech.root: Tapi
 ms.assetid: a13d7cfd-3709-43fb-88b9-291928f2c0d8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetcallprivilege, lineSetCallPrivilege, lineSetCallPrivilege function [TAPI 2.2], tapi/lineSetCallPrivilege, tapi2.linesetcallprivilege"
+ms.keywords: _tapi2_linesetcallprivilege, lineSetCallPrivilege, lineSetCallPrivilege function [TAPI 2.2], tapi/lineSetCallPrivilege, tapi2.linesetcallprivilege
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetCallPrivilege"
+f1_keywords:
+- tapi/lineSetCallPrivilege
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetCallPrivilege
+- lineSetCallPrivilege
 targetos: Windows
 req.typenames: 
 req.redist: 

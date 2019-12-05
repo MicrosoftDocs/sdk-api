@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SwapMouseButton
 title: SwapMouseButton function (winuser.h)
-
 description: Reverses or restores the meaning of the left and right mouse buttons.
 old-location: inputdev\swapmousebutton.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\swapmousebutton.htm
-
 ms.date: 12/05/2018
 ms.keywords: SwapMouseButton, SwapMouseButton function [Keyboard and Mouse Input], _win32_SwapMouseButton, _win32_swapmousebutton_cpp, inputdev.swapmousebutton, winui._win32_swapmousebutton, winuser/SwapMouseButton
 ms.topic: function
-f1_keywords: 
- - "winuser/SwapMouseButton"
+f1_keywords:
+- winuser/SwapMouseButton
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SwapMouseButton
+- SwapMouseButton
 targetos: Windows
 req.typenames: 
 req.redist: 

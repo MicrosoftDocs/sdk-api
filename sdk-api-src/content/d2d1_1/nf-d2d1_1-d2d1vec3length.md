@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.D2D1Vec3Length
 title: D2D1Vec3Length function (d2d1_1.h)
-
 description: Returns the length of a 3 dimensional vector.
 old-location: direct2d\d2d1vec3length.htm
 tech.root: Direct2D
 ms.assetid: 0E305151-63EA-4865-B9C4-5F685D17FD5A
-
 ms.date: 12/05/2018
 ms.keywords: D2D1Vec3Length, D2D1Vec3Length function [Direct2D], d2d1_1/D2D1Vec3Length, direct2d.d2d1vec3length
 ms.topic: function
-f1_keywords: 
- - "d2d1_1/D2D1Vec3Length"
+f1_keywords:
+- d2d1_1/D2D1Vec3Length
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - D2D1Vec3Length
+- D2D1Vec3Length
 targetos: Windows
 req.typenames: 
 req.redist: 

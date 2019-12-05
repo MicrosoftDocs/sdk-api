@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_POLICY_EXTENSION
 title: WS_POLICY_EXTENSION (webservices.h)
-
 description: The base class for all policy extension structures. Policy extensions are assertions that are directly handled by applications such as custom assertions.
 old-location: wsw\ws_policy_extension.htm
 tech.root: wsw
 ms.assetid: 85a3fa35-b574-4091-9ef2-486ac751ef82
-
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_EXTENSION, WS_POLICY_EXTENSION structure [Web Services for Windows], webservices/WS_POLICY_EXTENSION, wsw.ws_policy_extension
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_POLICY_EXTENSION"
+f1_keywords:
+- webservices/WS_POLICY_EXTENSION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_POLICY_EXTENSION
+- WS_POLICY_EXTENSION
 targetos: Windows
 req.typenames: WS_POLICY_EXTENSION
 req.redist: 

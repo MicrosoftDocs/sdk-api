@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_STREAM_INFO
 title: FILE_STREAM_INFO (winbase.h)
-
 description: Receives file stream information for the specified file.
 old-location: fs\file_stream_info.htm
 tech.root: FileIO
 ms.assetid: 36d1b0b3-bd6b-41e7-937a-4e8deef6f9da
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_STREAM_INFO, FILE_STREAM_INFO, FILE_STREAM_INFO structure [Files], PFILE_STREAM_INFO, PFILE_STREAM_INFO structure pointer [Files], fileextd/FILE_STREAM_INFO, fileextd/PFILE_STREAM_INFO, fs.file_stream_info, winbase/FILE_STREAM_INFO, winbase/PFILE_STREAM_INFO"
+ms.keywords: '*PFILE_STREAM_INFO, FILE_STREAM_INFO, FILE_STREAM_INFO structure [Files], PFILE_STREAM_INFO, PFILE_STREAM_INFO structure pointer [Files], fileextd/FILE_STREAM_INFO, fileextd/PFILE_STREAM_INFO, fs.file_stream_info, winbase/FILE_STREAM_INFO, winbase/PFILE_STREAM_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_STREAM_INFO"
+f1_keywords:
+- winbase/FILE_STREAM_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_STREAM_INFO
+- FILE_STREAM_INFO
 targetos: Windows
 req.typenames: FILE_STREAM_INFO, *PFILE_STREAM_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

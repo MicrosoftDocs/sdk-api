@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmSetCompositionFontW
 title: ImmSetCompositionFontW function (immdev.h)
-
 description: Sets the logical font to use to display characters in the composition window.
 old-location: intl\immsetcompositionfont.htm
 tech.root: Intl
 ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf
-
 ms.date: 12/05/2018
 ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationalization for Windows Applications], ImmSetCompositionFontA, ImmSetCompositionFontW, _win32_ImmSetCompositionFont, imm/ImmSetCompositionFont, imm/ImmSetCompositionFontA, imm/ImmSetCompositionFontW, intl.immsetcompositionfont
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmSetCompositionFont"
+f1_keywords:
+- immdev/ImmSetCompositionFont
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmSetCompositionFont
- - ImmSetCompositionFontA
- - ImmSetCompositionFontW
+- ImmSetCompositionFont
+- ImmSetCompositionFontA
+- ImmSetCompositionFontW
 targetos: Windows
 req.typenames: 
 req.redist: 

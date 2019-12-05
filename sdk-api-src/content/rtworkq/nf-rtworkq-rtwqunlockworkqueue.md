@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqUnlockWorkQueue
 title: RtwqUnlockWorkQueue function (rtworkq.h)
-
 description: Unlocks a work queue.
 old-location: base\rtwqunlockworkqueue.htm
 tech.root: ProcThread
 ms.assetid: a7c4c8e2-ad35-4b39-9174-41e2a605304e
-
 ms.date: 12/05/2018
 ms.keywords: RtwqUnlockWorkQueue, RtwqUnlockWorkQueue function, base.rtwqunlockworkqueue, rtworkq/RtwqUnlockWorkQueue
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqUnlockWorkQueue"
+f1_keywords:
+- rtworkq/RtwqUnlockWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqUnlockWorkQueue
+- RtwqUnlockWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

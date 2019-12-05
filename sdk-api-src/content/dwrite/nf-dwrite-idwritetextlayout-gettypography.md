@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetTypography
 title: IDWriteTextLayout::GetTypography (dwrite.h)
-
 description: Gets the typography setting of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetTypography.htm
 tech.root: DirectWrite
 ms.assetid: cb7d8bf5-8368-426d-a321-f5c9ef8c7d40
-
 ms.date: 12/05/2018
 ms.keywords: GetTypography, GetTypography method [Direct Write], GetTypography method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetTypography method, IDWriteTextLayout.GetTypography, IDWriteTextLayout::GetTypography, directwrite.IDWriteTextLayout_GetTypography, dwrite/IDWriteTextLayout::GetTypography
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetTypography"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetTypography
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetTypography
+- IDWriteTextLayout.GetTypography
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsDiskOnline
 title: IVdsDiskOnline (vds.h)
-
 description: Provides methods to bring a disk online and take it offline.Windows Vista:  This interface is not supported until Windows Vista with Service Pack 1 (SP1). Use IVdsDisk2 instead.
 old-location: base\ivdsdiskonline.htm
 tech.root: VDS
 ms.assetid: f30ceaa0-ff4b-49fb-b140-b6725810cd06
-
 ms.date: 12/05/2018
 ms.keywords: IVdsDiskOnline, IVdsDiskOnline interface, IVdsDiskOnline interface,described, base.ivdsdiskonline, vds/IVdsDiskOnline
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsDiskOnline"
+f1_keywords:
+- vds/IVdsDiskOnline
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsDiskOnline
+- IVdsDiskOnline
 targetos: Windows
 req.typenames: 
 req.redist: 

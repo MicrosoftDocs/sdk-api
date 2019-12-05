@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.ISynchronizeContainer
 title: ISynchronizeContainer (objidlbase.h)
-
 description: Manages a group of unsignaled synchronization objects.
 old-location: com\isynchronizecontainer.htm
 tech.root: com
 ms.assetid: 6a5be504-b5fa-491c-ba65-74c5de39e263
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronizeContainer, ISynchronizeContainer interface [COM], ISynchronizeContainer interface [COM],described, _com_isynchronizecontainer, com.isynchronizecontainer, objidlbase/ISynchronizeContainer
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/ISynchronizeContainer"
+f1_keywords:
+- objidlbase/ISynchronizeContainer
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronizeContainer
+- ISynchronizeContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoles.get_Count
 title: IAzRoles::get_Count (azroles.h)
-
 description: Retrieves the number of IAzRole objects in the collection.
 old-location: security\iazroles_count.htm
 tech.root: SecAuthZ
 ms.assetid: 4bf2c00e-dc33-4718-a6d1-f8c3ccccbae8
-
 ms.date: 12/05/2018
 ms.keywords: AzRoles object [Security],Count property, Count property [Security], Count property [Security],AzRoles object, Count property [Security],IAzRoles interface, IAzRoles interface [Security],Count property, IAzRoles.Count, IAzRoles.get_Count, IAzRoles::Count, IAzRoles::get_Count, azroles/IAzRoles::Count, azroles/IAzRoles::get_Count, get_Count, security.iazroles_count
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoles.Count"
+f1_keywords:
+- azroles/IAzRoles.Count
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoles.Count
- - IAzRoles.get_Count
- - AzRoles.Count
+- IAzRoles.Count
+- IAzRoles.get_Count
+- AzRoles.Count
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProducts.Register
 title: INetFwProducts::Register (netfw.h)
-
 description: The Register method registers a third-party firewall product.
 old-location: ics\inetfwproducts_register.htm
 tech.root: ics
 ms.assetid: eea30680-f1c7-454d-896c-5116209fdc2c
-
 ms.date: 12/05/2018
 ms.keywords: INetFwProducts interface [ICS/ICF],Register method, INetFwProducts.Register, INetFwProducts::Register, Register, Register method [ICS/ICF], Register method [ICS/ICF],INetFwProducts interface, ics.inetfwproducts_register, netfw/INetFwProducts::Register
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProducts.Register"
+f1_keywords:
+- netfw/INetFwProducts.Register
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwProducts.Register
+- INetFwProducts.Register
 targetos: Windows
 req.typenames: 
 req.redist: 

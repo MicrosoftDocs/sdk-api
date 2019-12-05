@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsSetChannelProperty
 title: WsSetChannelProperty function (webservices.h)
-
 description: Sets a property of the channel.
 old-location: wsw\wssetchannelproperty.htm
 tech.root: wsw
 ms.assetid: 0bf3ec1b-c711-4c26-9c54-5d0184c89871
-
 ms.date: 12/05/2018
 ms.keywords: WsSetChannelProperty, WsSetChannelProperty function [Web Services for Windows], webservices/WsSetChannelProperty, wsw.wssetchannelproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsSetChannelProperty"
+f1_keywords:
+- webservices/WsSetChannelProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsSetChannelProperty
+- WsSetChannelProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

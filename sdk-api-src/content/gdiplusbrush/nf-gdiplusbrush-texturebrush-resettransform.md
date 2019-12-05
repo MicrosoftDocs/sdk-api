@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.ResetTransform
 title: TextureBrush::ResetTransform (gdiplusbrush.h)
-
 description: The TextureBrush::ResetTransform method resets the transformation matrix of this texture brush to the identity matrix. This means that no transformation takes place.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_ResetTransform_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\resettransform_13.htm
-
 ms.date: 12/05/2018
 ms.keywords: ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],TextureBrush class, TextureBrush class [GDI+],ResetTransform method, TextureBrush.ResetTransform, TextureBrush::ResetTransform, _gdiplus_CLASS_TextureBrush_ResetTransform_, gdiplus._gdiplus_CLASS_TextureBrush_ResetTransform_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.ResetTransform"
+f1_keywords:
+- gdiplusbrush/TextureBrush.ResetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.ResetTransform
+- TextureBrush.ResetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

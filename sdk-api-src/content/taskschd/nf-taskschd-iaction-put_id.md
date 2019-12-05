@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IAction.put_Id
 title: IAction::put_Id (taskschd.h)
-
 description: Gets or sets the identifier of the action.
 old-location: taskschd\iaction_id.htm
 tech.root: taskschd
 ms.assetid: e24a0382-e214-41eb-80e4-acd024993123
-
 ms.date: 12/05/2018
 ms.keywords: IAction interface [Task Scheduler],Id property, IAction.Id, IAction.put_Id, IAction::Id, IAction::get_Id, IAction::put_Id, Id property [Task Scheduler], Id property [Task Scheduler],IAction interface, put_Id, taskschd.iaction_id, taskschd/IAction::Id, taskschd/IAction::get_Id, taskschd/IAction::put_Id
 ms.topic: method
-f1_keywords: 
- - "taskschd/IAction.Id"
+f1_keywords:
+- taskschd/IAction.Id
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IAction.Id
- - IAction.get_Id
- - IAction.put_Id
+- IAction.Id
+- IAction.get_Id
+- IAction.put_Id
 targetos: Windows
 req.typenames: 
 req.redist: 

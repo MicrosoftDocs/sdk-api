@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._SFV_CREATE
 title: SFV_CREATE (shlobj_core.h)
-
 description: This structure is used with the SHCreateShellFolderView function.
 old-location: shell\SFV_CREATE.htm
 tech.root: shell
 ms.assetid: c6f3d9a6-5f39-4124-9340-78352f6be117
-
 ms.date: 12/05/2018
 ms.keywords: SFV_CREATE, SFV_CREATE structure [Windows Shell], _SFV_CREATE, _win32_SFV_CREATE, shell.SFV_CREATE, shlobj_core/SFV_CREATE
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/SFV_CREATE"
+f1_keywords:
+- shlobj_core/SFV_CREATE
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - SFV_CREATE
+- SFV_CREATE
 targetos: Windows
 req.typenames: SFV_CREATE
 req.redist: 

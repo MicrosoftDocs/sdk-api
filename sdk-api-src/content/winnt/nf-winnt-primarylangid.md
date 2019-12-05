@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.PRIMARYLANGID
 title: PRIMARYLANGID macro (winnt.h)
-
 description: Extracts a primary language identifier from a language identifier.
 old-location: intl\primarylangid.htm
 tech.root: Intl
 ms.assetid: e463a2dc-bf36-4fbb-8df6-799ca1d549fa
-
 ms.date: 12/05/2018
 ms.keywords: PRIMARYLANGID, PRIMARYLANGID macro [Internationalization for Windows Applications], _win32_PRIMARYLANGID, intl.primarylangid, winnt/PRIMARYLANGID
 ms.topic: macro
-f1_keywords: 
- - "winnt/PRIMARYLANGID"
+f1_keywords:
+- winnt/PRIMARYLANGID
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - PRIMARYLANGID
+- PRIMARYLANGID
 targetos: Windows
 req.typenames: 
 req.redist: 

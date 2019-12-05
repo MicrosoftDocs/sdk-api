@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqCancelDeadline
 title: RtwqCancelDeadline function (rtworkq.h)
-
 description: Cancels a deadline that was previously set with RtwqSetDeadline.
 old-location: base\rtwqcanceldeadline.htm
 tech.root: ProcThread
 ms.assetid: 4128B655-AFF9-4AEF-8EDB-A6DC8DA05FE9
-
 ms.date: 12/05/2018
 ms.keywords: RtwqCancelDeadline, RtwqCancelDeadline function, base.rtwqcanceldeadline, rtworkq/RtwqCancelDeadline
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqCancelDeadline"
+f1_keywords:
+- rtworkq/RtwqCancelDeadline
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rtworkq.h
+- rtworkq.h
 api_name:
- - RtwqCancelDeadline
+- RtwqCancelDeadline
 targetos: Windows
 req.typenames: 
 req.redist: 

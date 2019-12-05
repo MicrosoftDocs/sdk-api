@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RefreshISNSServerA
 title: RefreshISNSServerA function (iscsidsc.h)
-
 description: RefreshIsnsServer function instructs the iSCSI initiator service to query the indicated Internet Storage Name Service (iSNS) server to refresh the list of discovered targets for the iSCSI initiator service.
 old-location: iscsidisc\refreshisnsserver.htm
 tech.root: iSCSIDisc
 ms.assetid: c954126a-6bad-49cf-889e-81746fe175a4
-
 ms.date: 12/05/2018
 ms.keywords: RefreshISNSServerA, RefreshIsnsServer, RefreshIsnsServer function [iSCSI Discovery Library API], RefreshIsnsServerA, RefreshIsnsServerW, iscsidisc.refreshisnsserver, iscsidsc/RefreshIsnsServer, iscsidsc/RefreshIsnsServerA, iscsidsc/RefreshIsnsServerW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RefreshIsnsServer"
+f1_keywords:
+- iscsidsc/RefreshIsnsServer
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RefreshIsnsServer
- - RefreshIsnsServerA
- - RefreshIsnsServerW
+- RefreshIsnsServer
+- RefreshIsnsServerA
+- RefreshIsnsServerW
 targetos: Windows
 req.typenames: 
 req.redist: 

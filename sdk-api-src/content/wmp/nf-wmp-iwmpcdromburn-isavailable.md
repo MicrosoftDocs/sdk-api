@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.isAvailable
 title: IWMPCdromBurn::isAvailable (wmp.h)
-
 description: The isAvailable method provides information about the CD drive and media.
 old-location: wmp\iwmpcdromburn_isavailable.htm
 tech.root: WMP
 ms.assetid: 11876b73-10a1-49e2-ad45-33d9641c3647
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromBurn interface [Windows Media Player],isAvailable method, IWMPCdromBurn.isAvailable, IWMPCdromBurn::isAvailable, IWMPCdromBurnisAvailable, isAvailable, isAvailable method [Windows Media Player], isAvailable method [Windows Media Player],IWMPCdromBurn interface, wmp.iwmpcdromburn_isavailable, wmp/IWMPCdromBurn::isAvailable
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromBurn.isAvailable"
+f1_keywords:
+- wmp/IWMPCdromBurn.isAvailable
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromBurn.isAvailable
+- IWMPCdromBurn.isAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

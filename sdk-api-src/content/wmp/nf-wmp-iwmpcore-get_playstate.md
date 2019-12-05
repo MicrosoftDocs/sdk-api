@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore.get_playState
 title: IWMPCore::get_playState (wmp.h)
-
 description: The get_playState method retrieves an enumeration value indicating the operating state of Windows Media Player.
 old-location: wmp\iwmpcore_get_playstate.htm
 tech.root: WMP
 ms.assetid: cadac1c6-fff6-44aa-a6ce-2b2f69da2d78
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore interface [Windows Media Player],get_playState method, IWMPCore.get_playState, IWMPCore::get_playState, IWMPCoreget_playState, get_playState, get_playState method [Windows Media Player], get_playState method [Windows Media Player],IWMPCore interface, wmp.iwmpcore_get_playstate, wmp/IWMPCore::get_playState
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore.get_playState"
+f1_keywords:
+- wmp/IWMPCore.get_playState
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore.get_playState
+- IWMPCore.get_playState
 targetos: Windows
 req.typenames: 
 req.redist: 

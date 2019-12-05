@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.GetTimeOfLastChange
 title: IMoniker::GetTimeOfLastChange (objidl.h)
-
 description: Retrieves the time at which the object identified by this moniker was last changed.
 old-location: com\imoniker_gettimeoflastchange.htm
 tech.root: com
 ms.assetid: 120cc951-6797-4ef6-890b-57ff8d3d23ba
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeOfLastChange, GetTimeOfLastChange method [COM], GetTimeOfLastChange method [COM],IMoniker interface, IMoniker interface [COM],GetTimeOfLastChange method, IMoniker.GetTimeOfLastChange, IMoniker::GetTimeOfLastChange, _com_imoniker_gettimeoflastchange, com.imoniker_gettimeoflastchange, objidl/IMoniker::GetTimeOfLastChange
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.GetTimeOfLastChange"
+f1_keywords:
+- objidl/IMoniker.GetTimeOfLastChange
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.GetTimeOfLastChange
+- IMoniker.GetTimeOfLastChange
 targetos: Windows
 req.typenames: 
 req.redist: 

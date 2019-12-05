@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetId
 title: IMFTimedTextCue::GetId (mfmediaengine.h)
-
 description: Gets the identifier of a timed-text cue.
 old-location: mf\imftimedtextcue_getid.htm
 tech.root: medfound
 ms.assetid: D096B1FA-E92F-4B09-9177-13203FF1704D
-
 ms.date: 12/05/2018
 ms.keywords: GetId, GetId method [Media Foundation], GetId method [Media Foundation],IMFTimedTextCue interface, IMFTimedTextCue interface [Media Foundation],GetId method, IMFTimedTextCue.GetId, IMFTimedTextCue::GetId, mf.imftimedtextcue_getid, mfmediaengine/IMFTimedTextCue::GetId
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextCue.GetId"
+f1_keywords:
+- mfmediaengine/IMFTimedTextCue.GetId
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfmediaengine.lib
 req.dll: Mfmediaengine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.dll
+- mfmediaengine.dll
 api_name:
- - IMFTimedTextCue.GetId
+- IMFTimedTextCue.GetId
 targetos: Windows
 req.typenames: 
 req.redist: 

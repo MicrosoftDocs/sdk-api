@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.FindFirstFileA
 title: FindFirstFileA function (fileapi.h)
-
 description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
 old-location: fs\findfirstfile.htm
 tech.root: FileIO
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstFile, FindFirstFile function [Files], FindFirstFileA, FindFirstFileW, _win32_findfirstfile, base.findfirstfile, fileapi/FindFirstFile, fileapi/FindFirstFileA, fileapi/FindFirstFileW, fs.findfirstfile, winbase/FindFirstFile, winbase/FindFirstFileA, winbase/FindFirstFileW
 ms.topic: function
 f1_keywords:
 - fileapi/FindFirstFile
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows

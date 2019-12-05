@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidGenericSink.put_SinkStreams
 title: IMSVidGenericSink::put_SinkStreams (segment.h)
-
 description: The put_SinkStreams method sets the streams that are required to be rendered down to the sink. Not implemented.
 old-location: mstv\imsvidgenericsink_put_sinkstreams.htm
 tech.root: mstv
 ms.assetid: a9bb76ad-6b10-4a48-9d94-64e6d28a3b9f
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidGenericSink interface [Microsoft TV Technologies],put_SinkStreams method, IMSVidGenericSink.put_SinkStreams, IMSVidGenericSink::put_SinkStreams, IMSVidGenericSinkput_SinkStreams, mstv.imsvidgenericsink_put_sinkstreams, put_SinkStreams, put_SinkStreams method [Microsoft TV Technologies], put_SinkStreams method [Microsoft TV Technologies],IMSVidGenericSink interface, segment/IMSVidGenericSink::put_SinkStreams
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidGenericSink.put_SinkStreams"
+f1_keywords:
+- segment/IMSVidGenericSink.put_SinkStreams
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidGenericSink.put_SinkStreams
+- IMSVidGenericSink.put_SinkStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSSetShader
 title: ID3D10Device::VSSetShader (d3d10.h)
-
 description: Set a vertex shader to the device.
 old-location: direct3d10\id3d10device_vssetshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 8aebab54-e44a-a11b-1d07-449a345b9922, ID3D10Device interface [Direct3D 10],VSSetShader method, ID3D10Device.VSSetShader, ID3D10Device::VSSetShader, VSSetShader, VSSetShader method [Direct3D 10], VSSetShader method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetShader, direct3d10.id3d10device_vssetshader
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.VSSetShader"
+f1_keywords:
+- d3d10/ID3D10Device.VSSetShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.VSSetShader
+- ID3D10Device.VSSetShader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_TRAFFIC0_
 title: IKEEXT_TRAFFIC0 (iketypes.h)
-
 description: Specifies the IKE/Authip traffic.
 old-location: fwp\ikeext_traffic0.htm
 tech.root: fwp
 ms.assetid: 99cb3774-7afd-44fd-9c3e-e2d913aaeecb
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_TRAFFIC0, IKEEXT_TRAFFIC0 structure [Filtering], fwp.ikeext_traffic0, iketypes/IKEEXT_TRAFFIC0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_TRAFFIC0"
+f1_keywords:
+- iketypes/IKEEXT_TRAFFIC0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_TRAFFIC0
+- IKEEXT_TRAFFIC0
 targetos: Windows
 req.typenames: IKEEXT_TRAFFIC0
 req.redist: 

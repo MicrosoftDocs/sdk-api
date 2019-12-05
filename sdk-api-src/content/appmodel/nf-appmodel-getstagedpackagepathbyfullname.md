@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetStagedPackagePathByFullName
 title: GetStagedPackagePathByFullName function (appmodel.h)
-
 description: Gets the path of the specified staged package.
 old-location: appxpkg\getstagedpackagepathbyfullname.htm
 tech.root: appxpkg
 ms.assetid: F0A37D77-6262-44B1-BEC5-083E41BDE139
-
 ms.date: 12/05/2018
 ms.keywords: GetStagedPackagePathByFullName, GetStagedPackagePathByFullName function [App packaging and management], appmodel/GetStagedPackagePathByFullName, appxpkg.getstagedpackagepathbyfullname
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetStagedPackagePathByFullName"
+f1_keywords:
+- appmodel/GetStagedPackagePathByFullName
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - GetStagedPackagePathByFullName
+- GetStagedPackagePathByFullName
 targetos: Windows
 req.typenames: 
 req.redist: 

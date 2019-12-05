@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.D2D1InvertMatrix
 title: D2D1InvertMatrix function (d2d1.h)
-
 description: Tries to invert the specified matrix.
 old-location: direct2d\d2d1invertmatrix.htm
 tech.root: Direct2D
 ms.assetid: af01b6df-ada9-4e21-98f0-356b96d1017a
-
 ms.date: 12/05/2018
 ms.keywords: D2D1InvertMatrix, D2D1InvertMatrix function [Direct2D], d2d1/D2D1InvertMatrix, direct2d.d2d1invertmatrix
 ms.topic: function
-f1_keywords: 
- - "d2d1/D2D1InvertMatrix"
+f1_keywords:
+- d2d1/D2D1InvertMatrix
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - D2D1InvertMatrix
+- D2D1InvertMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

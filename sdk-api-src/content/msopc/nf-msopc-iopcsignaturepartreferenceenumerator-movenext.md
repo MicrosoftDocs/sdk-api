@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceEnumerator.MoveNext
 title: IOpcSignaturePartReferenceEnumerator::MoveNext (msopc.h)
-
 description: Moves the current position of the enumerator to the next IOpcSignaturePartReference interface pointer.
 old-location: opc\iopcsignaturepartreferenceenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 2bf3c448-b09a-4102-bc3a-c65515d2a0a8
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],MoveNext method, IOpcSignaturePartReferenceEnumerator.MoveNext, IOpcSignaturePartReferenceEnumerator::MoveNext, MoveNext, MoveNext method [Open Packaging Conventions], MoveNext method [Open Packaging Conventions],IOpcSignaturePartReferenceEnumerator interface, msopc/IOpcSignaturePartReferenceEnumerator::MoveNext, opc.iopcsignaturepartreferenceenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignaturePartReferenceEnumerator.MoveNext"
+f1_keywords:
+- msopc/IOpcSignaturePartReferenceEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReferenceEnumerator.MoveNext
+- IOpcSignaturePartReferenceEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

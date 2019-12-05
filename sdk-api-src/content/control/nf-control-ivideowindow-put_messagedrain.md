@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_MessageDrain
 title: IVideoWindow::put_MessageDrain (control.h)
-
 description: The put_MessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
 old-location: dshow\ivideowindow_put_messagedrain.htm
 tech.root: DirectShow
 ms.assetid: aaf8624c-b3ea-4034-845a-6cd74c725c44
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_MessageDrain method, IVideoWindow.put_MessageDrain, IVideoWindow::put_MessageDrain, IVideoWindowput_MessageDrain, control/IVideoWindow::put_MessageDrain, dshow.ivideowindow_put_messagedrain, put_MessageDrain, put_MessageDrain method [DirectShow], put_MessageDrain method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_MessageDrain"
+f1_keywords:
+- control/IVideoWindow.put_MessageDrain
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_MessageDrain
+- IVideoWindow.put_MessageDrain
 targetos: Windows
 req.typenames: 
 req.redist: 

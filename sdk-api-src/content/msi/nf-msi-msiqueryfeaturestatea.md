@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiQueryFeatureStateA
 title: MsiQueryFeatureStateA function (msi.h)
-
 description: The MsiQueryFeatureState function returns the installed state for a product feature.
 old-location: setup\msiqueryfeaturestate.htm
 tech.root: Msi
 ms.assetid: d84aa7f1-d29a-493d-a065-8f7b680019d7
-
 ms.date: 12/05/2018
 ms.keywords: MsiQueryFeatureState, MsiQueryFeatureState function, MsiQueryFeatureStateA, MsiQueryFeatureStateW, _msi_msiqueryfeaturestate, msi/MsiQueryFeatureState, msi/MsiQueryFeatureStateA, msi/MsiQueryFeatureStateW, setup.msiqueryfeaturestate
 ms.topic: function
-f1_keywords: 
- - "msi/MsiQueryFeatureState"
+f1_keywords:
+- msi/MsiQueryFeatureState
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiQueryFeatureState
- - MsiQueryFeatureStateA
- - MsiQueryFeatureStateW
+- MsiQueryFeatureState
+- MsiQueryFeatureStateA
+- MsiQueryFeatureStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

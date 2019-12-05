@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriterInfo.GetHeader
 title: IWICMetadataWriterInfo::GetHeader (wincodecsdk.h)
-
 description: Gets the metadata header for the metadata writer.
 old-location: wic\_wic_codec_iwicmetadatawriterinfo_getheader.htm
 tech.root: wic
 ms.assetid: 156728ea-b4a3-47d7-b0d8-cd34881e9703
-
 ms.date: 12/05/2018
 ms.keywords: GetHeader, GetHeader method [Windows Imaging Component], GetHeader method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],GetHeader method, IWICMetadataWriterInfo.GetHeader, IWICMetadataWriterInfo::GetHeader, _wic_codec_iwicmetadatawriterinfo_getheader, wic._wic_codec_iwicmetadatawriterinfo_getheader, wincodecsdk/IWICMetadataWriterInfo::GetHeader
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataWriterInfo.GetHeader"
+f1_keywords:
+- wincodecsdk/IWICMetadataWriterInfo.GetHeader
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataWriterInfo.GetHeader
+- IWICMetadataWriterInfo.GetHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

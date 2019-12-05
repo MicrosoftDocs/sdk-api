@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IStream
 title: IStream (objidl.h)
-
 description: The IStream interface lets you read and write data to stream objects.
 old-location: stg\istream.htm
 tech.root: Stg
 ms.assetid: c6f60e37-eadc-46a1-94f6-cacc23613531
-
 ms.date: 12/05/2018
 ms.keywords: IStream, IStream interface [Structured Storage], IStream interface [Structured Storage],described, _stg_istream, objidl/IStream, stg.istream
 ms.topic: interface
-f1_keywords: 
- - "objidl/IStream"
+f1_keywords:
+- objidl/IStream
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStream
+- IStream
 targetos: Windows
 req.typenames: 
 req.redist: 

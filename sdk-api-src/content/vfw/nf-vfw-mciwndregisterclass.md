@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndRegisterClass
 title: MCIWndRegisterClass function (vfw.h)
-
 description: The MCIWndRegisterClass function registers the MCI window class MCIWND_WINDOW_CLASS.
 old-location: multimedia\mciwndregisterclass.htm
 tech.root: Multimedia
 ms.assetid: e5b7964a-ec2b-4fef-912d-f702cb3ee05c
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndRegisterClass, MCIWndRegisterClass function [Windows Multimedia], _win32_MCIWndRegisterClass, multimedia.mciwndregisterclass, vfw/MCIWndRegisterClass
 ms.topic: function
-f1_keywords: 
- - "vfw/MCIWndRegisterClass"
+f1_keywords:
+- vfw/MCIWndRegisterClass
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - MCIWndRegisterClass
+- MCIWndRegisterClass
 targetos: Windows
 req.typenames: 
 req.redist: 

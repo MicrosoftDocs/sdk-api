@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextAlign
 title: GetTextAlign function (wingdi.h)
-
 description: The GetTextAlign function retrieves the text-alignment setting for the specified device context.
 old-location: gdi\gettextalign.htm
 tech.root: gdi
 ms.assetid: d3ec0350-2eb8-4843-88bb-d72cece710e7
-
 ms.date: 12/05/2018
 ms.keywords: GetTextAlign, GetTextAlign function [Windows GDI], _win32_GetTextAlign, gdi.gettextalign, wingdi/GetTextAlign
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextAlign"
+f1_keywords:
+- wingdi/GetTextAlign
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetTextAlign
+- GetTextAlign
 targetos: Windows
 req.typenames: 
 req.redist: 

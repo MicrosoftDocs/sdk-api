@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetOpenW
 title: InternetOpenW function (wininet.h)
-
 description: Initializes an application's use of the WinINet functions.
 old-location: wininet\internetopen.htm
 tech.root: wininet
 ms.assetid: 9ec087c9-d484-4763-a527-2ea5c1a0cf28
-
 ms.date: 12/05/2018
 ms.keywords: InternetOpen, InternetOpen function [WinINet], InternetOpenA, InternetOpenW, _inet_internetopen_function, wininet.internetopen, wininet/InternetOpen, wininet/InternetOpenA, wininet/InternetOpenW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetOpen"
+f1_keywords:
+- wininet/InternetOpen
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetOpen
- - InternetOpenA
- - InternetOpenW
+- InternetOpen
+- InternetOpenA
+- InternetOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 

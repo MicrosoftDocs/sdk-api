@@ -1,19 +1,17 @@
 ---
 UID: NS:textstor.TS_SELECTION_ACP
 title: TS_SELECTION_ACP (textstor.h)
-
 description: The TS_SELECTION_ACP structure contains ACP-based text selection data.
 old-location: tsf\ts_selection_acp.htm
 tech.root: TSF
 ms.assetid: 739c87c5-3e9c-41f3-ad79-0b417347604b
-
 ms.date: 12/05/2018
 ms.keywords: TS_SELECTION_ACP, TS_SELECTION_ACP structure [Text Services Framework], _tsf_ts_selection_acp_ref, textstor/TS_SELECTION_ACP, tsf.ts_selection_acp
 ms.topic: struct
-f1_keywords: 
- - "textstor/TS_SELECTION_ACP"
+f1_keywords:
+- textstor/TS_SELECTION_ACP
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TS_SELECTION_ACP
+- TS_SELECTION_ACP
 targetos: Windows
 req.typenames: TS_SELECTION_ACP
 req.redist: TSF 1.0 on Windows 2000 Professional

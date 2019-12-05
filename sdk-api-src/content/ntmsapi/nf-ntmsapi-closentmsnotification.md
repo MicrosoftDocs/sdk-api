@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.CloseNtmsNotification
 title: CloseNtmsNotification function (ntmsapi.h)
-
 description: The CloseNtmsNotification function closes the specified open notification channel.
 old-location: fs\closentmsnotification.htm
 tech.root: Rsm
 ms.assetid: 30aa06af-70d4-45c0-b624-575dcf867efb
-
 ms.date: 12/05/2018
 ms.keywords: CloseNtmsNotification, CloseNtmsNotification function [Files], _zaw_closentmsnotification, base.closentmsnotification, fs.closentmsnotification, ntmsapi/CloseNtmsNotification
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/CloseNtmsNotification"
+f1_keywords:
+- ntmsapi/CloseNtmsNotification
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - CloseNtmsNotification
+- CloseNtmsNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

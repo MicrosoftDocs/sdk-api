@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersistFile.Save
 title: IPersistFile::Save (objidl.h)
-
 description: Saves a copy of the object to the specified file.
 old-location: com\ipersistfile_save.htm
 tech.root: com
 ms.assetid: da9581e8-98c7-4592-8ee1-a1bc8232635b
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],Save method, IPersistFile.Save, IPersistFile::Save, Save, Save method [COM], Save method [COM],IPersistFile interface, _com_ipersistfile_save, com.ipersistfile_save, objidl/IPersistFile::Save
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersistFile.Save"
+f1_keywords:
+- objidl/IPersistFile.Save
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistFile.Save
+- IPersistFile.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

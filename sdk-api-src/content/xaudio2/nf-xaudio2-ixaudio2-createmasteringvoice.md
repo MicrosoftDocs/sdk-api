@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2.CreateMasteringVoice
 title: IXAudio2::CreateMasteringVoice (xaudio2.h)
-
 description: Creates and configures a mastering voice.
 old-location: xaudio2\ixaudio2_interface_createmasteringvoice.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CreateMasteringVoice(IXAudio2MasteringVoice@,UINT32,UINT32,UINT32,LPCWSTR,const XAUDIO2_EFFECT_CHAIN,AUDIO_STREAM_CATEGORY)
-
 ms.date: 12/05/2018
 ms.keywords: CreateMasteringVoice, CreateMasteringVoice method [XAudio2 Audio Mixing APIs], CreateMasteringVoice method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CreateMasteringVoice method, IXAudio2.CreateMasteringVoice, IXAudio2::CreateMasteringVoice, xaudio2.ixaudio2_interface_createmasteringvoice, xaudio2/IXAudio2::CreateMasteringVoice
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2.CreateMasteringVoice"
+f1_keywords:
+- xaudio2/IXAudio2.CreateMasteringVoice
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2.CreateMasteringVoice
+- IXAudio2.CreateMasteringVoice
 targetos: Windows
 req.typenames: 
 req.redist: 

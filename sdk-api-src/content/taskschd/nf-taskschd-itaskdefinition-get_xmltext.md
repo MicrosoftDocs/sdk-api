@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskDefinition.get_XmlText
 title: ITaskDefinition::get_XmlText (taskschd.h)
-
 description: Gets or sets the XML-formatted definition of the task.
 old-location: taskschd\itaskdefinition_xmltext.htm
 tech.root: taskschd
 ms.assetid: 1bdafec0-634f-4977-8f41-60dcacc23dec
-
 ms.date: 12/05/2018
 ms.keywords: ITaskDefinition interface [Task Scheduler],XmlText property, ITaskDefinition.XmlText, ITaskDefinition.get_XmlText, ITaskDefinition::XmlText, ITaskDefinition::get_XmlText, ITaskDefinition::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],ITaskDefinition interface, get_XmlText, taskschd.itaskdefinition_xmltext, taskschd/ITaskDefinition::XmlText, taskschd/ITaskDefinition::get_XmlText, taskschd/ITaskDefinition::put_XmlText
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskDefinition.XmlText"
+f1_keywords:
+- taskschd/ITaskDefinition.XmlText
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskDefinition.XmlText
- - ITaskDefinition.get_XmlText
- - ITaskDefinition.put_XmlText
+- ITaskDefinition.XmlText
+- ITaskDefinition.get_XmlText
+- ITaskDefinition.put_XmlText
 targetos: Windows
 req.typenames: 
 req.redist: 

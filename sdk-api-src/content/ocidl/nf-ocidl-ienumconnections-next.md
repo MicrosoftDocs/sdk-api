@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IEnumConnections.Next
 title: IEnumConnections::Next (ocidl.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumconnections_next.htm
 tech.root: com
 ms.assetid: af58f961-1182-43fc-95ce-4afb251b9b08
-
 ms.date: 12/05/2018
 ms.keywords: IEnumConnections interface [COM],Next method, IEnumConnections.Next, IEnumConnections::Next, Next, Next method [COM], Next method [COM],IEnumConnections interface, _com_ienumconnections_next, com.ienumconnections_next, ocidl/IEnumConnections::Next
 ms.topic: method
-f1_keywords: 
- - "ocidl/IEnumConnections.Next"
+f1_keywords:
+- ocidl/IEnumConnections.Next
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ocidl.h
+- ocidl.h
 api_name:
- - IEnumConnections.Next
+- IEnumConnections.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetProvider
 title: ISnapinAbout::GetProvider (mmc.h)
-
 description: The ISnapinAbout::GetProvider method enables the console to obtain the snap-in provider name.
 old-location: mmc\isnapinabout_getprovider.htm
 tech.root: mmc
 ms.assetid: a1e0d99c-3485-4a24-aff0-7391ec5f8f6b
-
 ms.date: 12/05/2018
 ms.keywords: GetProvider, GetProvider method [MMC], GetProvider method [MMC],ISnapinAbout interface, ISnapinAbout interface [MMC],GetProvider method, ISnapinAbout.GetProvider, ISnapinAbout::GetProvider, _slate_isnapinabout_getprovider, mmc.isnapinabout_getprovider, mmc/ISnapinAbout::GetProvider
 ms.topic: method
-f1_keywords: 
- - "mmc/ISnapinAbout.GetProvider"
+f1_keywords:
+- mmc/ISnapinAbout.GetProvider
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - ISnapinAbout.GetProvider
+- ISnapinAbout.GetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1ColorContext.GetColorSpace
 title: ID2D1ColorContext::GetColorSpace (d2d1_1.h)
-
 description: Gets the color space of the color context.
 old-location: direct2d\id2d1colorcontext_getcolorspace.htm
 tech.root: Direct2D
 ms.assetid: D084D2B2-987A-4BCC-945A-9ED7C1119F1F
-
 ms.date: 12/05/2018
 ms.keywords: GetColorSpace, GetColorSpace method [Direct2D], GetColorSpace method [Direct2D],ID2D1ColorContext interface, ID2D1ColorContext interface [Direct2D],GetColorSpace method, ID2D1ColorContext.GetColorSpace, ID2D1ColorContext::GetColorSpace, d2d1_1/ID2D1ColorContext::GetColorSpace, direct2d.id2d1colorcontext_getcolorspace
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1ColorContext.GetColorSpace"
+f1_keywords:
+- d2d1_1/ID2D1ColorContext.GetColorSpace
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.dll
+- d2d1.dll
 api_name:
- - ID2D1ColorContext.GetColorSpace
+- ID2D1ColorContext.GetColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

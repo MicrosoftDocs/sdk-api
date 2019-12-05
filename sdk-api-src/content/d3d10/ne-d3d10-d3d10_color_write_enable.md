@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d10.D3D10_COLOR_WRITE_ENABLE
 title: D3D10_COLOR_WRITE_ENABLE (d3d10.h)
-
 description: Identify which components of each pixel of a render target are writable during blending.
 old-location: direct3d10\d3d10_color_write_enable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_color_write_enable.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_COLOR_WRITE_ENABLE, D3D10_COLOR_WRITE_ENABLE enumeration [Direct3D 10], D3D10_COLOR_WRITE_ENABLE_ALL, D3D10_COLOR_WRITE_ENABLE_ALPHA, D3D10_COLOR_WRITE_ENABLE_BLUE, D3D10_COLOR_WRITE_ENABLE_GREEN, D3D10_COLOR_WRITE_ENABLE_RED, d3d10/D3D10_COLOR_WRITE_ENABLE, d3d10/D3D10_COLOR_WRITE_ENABLE_ALL, d3d10/D3D10_COLOR_WRITE_ENABLE_ALPHA, d3d10/D3D10_COLOR_WRITE_ENABLE_BLUE, d3d10/D3D10_COLOR_WRITE_ENABLE_GREEN, d3d10/D3D10_COLOR_WRITE_ENABLE_RED, d7c54bd3-8d00-c6c5-e4e5-1eede46ad09f, direct3d10.d3d10_color_write_enable
 ms.topic: enum
-f1_keywords: 
- - "d3d10/D3D10_COLOR_WRITE_ENABLE"
+f1_keywords:
+- d3d10/D3D10_COLOR_WRITE_ENABLE
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_COLOR_WRITE_ENABLE
+- D3D10_COLOR_WRITE_ENABLE
 targetos: Windows
 req.typenames: D3D10_COLOR_WRITE_ENABLE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagREBARINFO
 title: REBARINFO (commctrl.h)
-
 description: Contains information that describes rebar control characteristics.
 old-location: controls\REBARINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarinfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO"
+ms.keywords: '*LPREBARINFO, LPREBARINFO, LPREBARINFO structure pointer [Windows Controls], RBIM_IMAGELIST, REBARINFO, REBARINFO structure [Windows Controls], _win32_REBARINFO, _win32_REBARINFO_cpp, commctrl/LPREBARINFO, commctrl/REBARINFO, controls.REBARINFO, controls._win32_REBARINFO'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/REBARINFO"
+f1_keywords:
+- commctrl/REBARINFO
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - REBARINFO
+- REBARINFO
 targetos: Windows
 req.typenames: REBARINFO, *LPREBARINFO
 req.redist: 

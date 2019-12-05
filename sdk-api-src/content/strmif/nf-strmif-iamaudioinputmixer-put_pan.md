@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Pan
 title: IAMAudioInputMixer::put_Pan (strmif.h)
-
 description: The put_Pan method sets the pan level.
 old-location: dshow\iamaudioinputmixer_put_pan.htm
 tech.root: DirectShow
 ms.assetid: eb0528e0-81d0-45a3-831a-8cf3ff1232b6
-
 ms.date: 12/05/2018
 ms.keywords: IAMAudioInputMixer interface [DirectShow],put_Pan method, IAMAudioInputMixer.put_Pan, IAMAudioInputMixer::put_Pan, IAMAudioInputMixerput_Pan, dshow.iamaudioinputmixer_put_pan, put_Pan, put_Pan method [DirectShow], put_Pan method [DirectShow],IAMAudioInputMixer interface, strmif/IAMAudioInputMixer::put_Pan
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAudioInputMixer.put_Pan"
+f1_keywords:
+- strmif/IAMAudioInputMixer.put_Pan
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAudioInputMixer.put_Pan
+- IAMAudioInputMixer.put_Pan
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DrawAuto
 title: ID3D11DeviceContext::DrawAuto (d3d11.h)
-
 description: Draw geometry of an unknown size.
 old-location: direct3d11\id3d11devicecontext_drawauto.htm
 tech.root: direct3d11
 ms.assetid: 34688e87-514f-4f85-b56b-e0245400a5ac
-
 ms.date: 12/05/2018
 ms.keywords: DrawAuto, DrawAuto method [Direct3D 11], DrawAuto method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],DrawAuto method, ID3D11DeviceContext.DrawAuto, ID3D11DeviceContext::DrawAuto, d3d11/ID3D11DeviceContext::DrawAuto, d5e26d9c-e682-ea81-70bc-d35792e62157, direct3d11.id3d11devicecontext_drawauto
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.DrawAuto"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.DrawAuto
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.DrawAuto
+- ID3D11DeviceContext.DrawAuto
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_SecurityDescriptor
 title: IX509PrivateKey::put_SecurityDescriptor (certenroll.h)
-
 description: Specifies or retrieves the security descriptor for the private key.
 old-location: security\ix509privatekey_securitydescriptor_property.htm
 tech.root: seccertenroll
 ms.assetid: 5fa1e5d8-b745-494c-a727-426084fce2a1
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],SecurityDescriptor property, IX509PrivateKey.SecurityDescriptor, IX509PrivateKey.put_SecurityDescriptor, IX509PrivateKey::SecurityDescriptor, IX509PrivateKey::get_SecurityDescriptor, IX509PrivateKey::put_SecurityDescriptor, SecurityDescriptor property [Security], SecurityDescriptor property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::SecurityDescriptor, certenroll/IX509PrivateKey::get_SecurityDescriptor, certenroll/IX509PrivateKey::put_SecurityDescriptor, put_SecurityDescriptor, security.ix509privatekey_securitydescriptor_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.SecurityDescriptor"
+f1_keywords:
+- certenroll/IX509PrivateKey.SecurityDescriptor
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.SecurityDescriptor
- - IX509PrivateKey.get_SecurityDescriptor
- - IX509PrivateKey.put_SecurityDescriptor
+- IX509PrivateKey.SecurityDescriptor
+- IX509PrivateKey.get_SecurityDescriptor
+- IX509PrivateKey.put_SecurityDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

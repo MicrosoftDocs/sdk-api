@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_SetCueBannerTextFocused
 title: Edit_SetCueBannerTextFocused macro (commctrl.h)
-
 description: Sets the text that is displayed as the textual cue, or tip, for an edit control. You can use this macro or send the EM_SETCUEBANNER message explicitly.
 old-location: controls\Edit_SetCueBannerTextFocused.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_setcuebannertextfocused.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_SetCueBannerTextFocused, Edit_SetCueBannerTextFocused macro [Windows Controls], _shell_Edit_SetCueBannerTextFocused, _shell_Edit_SetCueBannerTextFocused_cpp, commctrl/Edit_SetCueBannerTextFocused, controls.Edit_SetCueBannerTextFocused, controls._shell_Edit_SetCueBannerTextFocused
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_SetCueBannerTextFocused"
+f1_keywords:
+- commctrl/Edit_SetCueBannerTextFocused
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_SetCueBannerTextFocused
+- Edit_SetCueBannerTextFocused
 targetos: Windows
 req.typenames: 
 req.redist: 

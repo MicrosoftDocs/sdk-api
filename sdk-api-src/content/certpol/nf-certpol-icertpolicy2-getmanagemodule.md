@@ -1,19 +1,17 @@
 ---
 UID: NF:certpol.ICertPolicy2.GetManageModule
 title: ICertPolicy2::GetManageModule (certpol.h)
-
 description: Retrieves the ICertManageModule interface associated with the ICertPolicy2 interface by calling GetManageModule and passing in the address of a pointer to an ICertManageModule.
 old-location: security\icertpolicy2_getmanagemodule.htm
 tech.root: SecCrypto
 ms.assetid: a8d45938-1b89-4576-8705-7a174323e072
-
 ms.date: 12/05/2018
 ms.keywords: CCertPolicy object [Security],GetManageModule method, GetManageModule, GetManageModule method [Security], GetManageModule method [Security],CCertPolicy object, GetManageModule method [Security],ICertPolicy2 interface, ICertPolicy2 interface [Security],GetManageModule method, ICertPolicy2.GetManageModule, ICertPolicy2::GetManageModule, _certsrv_icertpolicy2_getmanagemodule, certpol/ICertPolicy2::GetManageModule, security.icertpolicy2_getmanagemodule
 ms.topic: method
-f1_keywords: 
- - "certpol/ICertPolicy2.GetManageModule"
+f1_keywords:
+- certpol/ICertPolicy2.GetManageModule
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certidl.lib
- - Certidl.dll
+- Certidl.lib
+- Certidl.dll
 api_name:
- - ICertPolicy2.GetManageModule
- - CCertPolicy.GetManageModule
+- ICertPolicy2.GetManageModule
+- CCertPolicy.GetManageModule
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wsdclient.IWSDMetadataExchange
 title: IWSDMetadataExchange (wsdclient.h)
-
 description: Is the base class for other objects which access metadata.
 old-location: ncd\iwsdmetadataexchange.htm
 tech.root: WsdApi
 ms.assetid: f4e2c2f7-3e76-4a17-88f8-9d59c18343a9
-
 ms.date: 12/05/2018
 ms.keywords: IWSDMetadataExchange, IWSDMetadataExchange interface, IWSDMetadataExchange interface,described, ncd.iwsdmetadataexchange, wsdclient/IWSDMetadataExchange
 ms.topic: interface
-f1_keywords: 
- - "wsdclient/IWSDMetadataExchange"
+f1_keywords:
+- wsdclient/IWSDMetadataExchange
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDMetadataExchange
+- IWSDMetadataExchange
 targetos: Windows
 req.typenames: 
 req.redist: 

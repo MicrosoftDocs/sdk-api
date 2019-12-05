@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.get_PropertyByPosition
 title: ISharedPropertyGroup::get_PropertyByPosition (comsvcs.h)
-
 description: Retrieves a reference to an existing shared property with the specified index.
 old-location: cos\isharedpropertygroup_get_propertybyposition.htm
 tech.root: cossdk
 ms.assetid: 186cbf9f-a01b-4331-9f18-645d9e47f106
-
 ms.date: 12/05/2018
 ms.keywords: ISharedPropertyGroup interface [COM+],get_PropertyByPosition method, ISharedPropertyGroup.get_PropertyByPosition, ISharedPropertyGroup::get_PropertyByPosition, _cos_ISharedPropertyGroup_get_PropertyByPosition, comsvcs/ISharedPropertyGroup::get_PropertyByPosition, cos.isharedpropertygroup_get_propertybyposition, get_PropertyByPosition, get_PropertyByPosition method [COM+], get_PropertyByPosition method [COM+],ISharedPropertyGroup interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISharedPropertyGroup.get_PropertyByPosition"
+f1_keywords:
+- comsvcs/ISharedPropertyGroup.get_PropertyByPosition
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISharedPropertyGroup.get_PropertyByPosition
+- ISharedPropertyGroup.get_PropertyByPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

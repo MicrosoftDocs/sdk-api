@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTVECTOR
 title: DBCONTENTVECTOR (cmdtree.h)
-
 description: The DBCONTENTVECTOR structure represents specific information required by the DBOP_content_vector_or operator.
 old-location: indexsrv\dbcontentvector.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0coi.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTVECTOR, DBCONTENTVECTOR structure [Indexing Service], _idxs_DBCONTENTVECTOR, cmdtree/DBCONTENTVECTOR, indexsrv.dbcontentvector, tagDBCONTENTVECTOR
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBCONTENTVECTOR"
+f1_keywords:
+- cmdtree/DBCONTENTVECTOR
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBCONTENTVECTOR
+- DBCONTENTVECTOR
 targetos: Windows
 req.typenames: DBCONTENTVECTOR
 req.redist: 

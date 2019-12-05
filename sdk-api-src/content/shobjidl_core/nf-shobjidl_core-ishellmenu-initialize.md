@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.Initialize
 title: IShellMenu::Initialize (shobjidl_core.h)
-
 description: Initializes a menu band.
 old-location: shell\IShellMenu_Initialize.htm
 tech.root: shell
 ms.assetid: dc9864df-21f3-4b0b-b862-48055032c071
-
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],Initialize method, IShellMenu.Initialize, IShellMenu::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IShellMenu interface, SMINIT_CACHED, SMINIT_DEFAULT, SMINIT_HORIZONTAL, SMINIT_RESTRICT_DRAGDROP, SMINIT_TOPLEVEL, SMINIT_VERTICAL, _shell_IShellMenu_Initialize, shell.IShellMenu_Initialize, shobjidl_core/IShellMenu::Initialize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellMenu.Initialize"
+f1_keywords:
+- shobjidl_core/IShellMenu.Initialize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenu.Initialize
+- IShellMenu.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

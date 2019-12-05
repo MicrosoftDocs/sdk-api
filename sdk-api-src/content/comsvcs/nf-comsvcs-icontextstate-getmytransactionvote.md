@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextState.GetMyTransactionVote
 title: IContextState::GetMyTransactionVote (comsvcs.h)
-
 description: Retrieves the value of the consistent flag.
 old-location: cos\icontextstate_getmytransactionvote.htm
 tech.root: cossdk
 ms.assetid: 72384c53-ce4a-413e-8ff6-33925c8cd0df
-
 ms.date: 12/05/2018
 ms.keywords: GetMyTransactionVote, GetMyTransactionVote method [COM+], GetMyTransactionVote method [COM+],IContextState interface, IContextState interface [COM+],GetMyTransactionVote method, IContextState.GetMyTransactionVote, IContextState::GetMyTransactionVote, _cos_IContextState_GetMyTransactionVote, comsvcs/IContextState::GetMyTransactionVote, cos.icontextstate_getmytransactionvote
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextState.GetMyTransactionVote"
+f1_keywords:
+- comsvcs/IContextState.GetMyTransactionVote
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextState.GetMyTransactionVote
+- IContextState.GetMyTransactionVote
 targetos: Windows
 req.typenames: 
 req.redist: 

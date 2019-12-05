@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12SharingContract
 title: ID3D12SharingContract (d3d12sdklayers.h)
-
 description: Part of a contract between D3D11On12 diagnostic layers and graphics diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract.htm
 tech.root: direct3d12
 ms.assetid: 10E61C88-0CDC-42E6-AB70-4911D254C40A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract, ID3D12SharingContract interface, ID3D12SharingContract interface,described, d3d12sdklayers/ID3D12SharingContract, direct3d12.id3d12sharingcontract
 ms.topic: interface
-f1_keywords: 
- - "d3d12sdklayers/ID3D12SharingContract"
+f1_keywords:
+- d3d12sdklayers/ID3D12SharingContract
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12SharingContract
+- ID3D12SharingContract
 targetos: Windows
 req.typenames: 
 req.redist: 

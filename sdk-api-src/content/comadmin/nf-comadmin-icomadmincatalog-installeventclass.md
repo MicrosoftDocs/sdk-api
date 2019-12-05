@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.InstallEventClass
 title: ICOMAdminCatalog::InstallEventClass (comadmin.h)
-
 description: Installs event classes from a file into a COM+ application.
 old-location: cos\icomadmincatalog_installeventclass.htm
 tech.root: cossdk
 ms.assetid: 8e9f7c79-076e-46dc-bce0-389c5309e6fa
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallEventClass method, ICOMAdminCatalog.InstallEventClass, ICOMAdminCatalog::InstallEventClass, InstallEventClass, InstallEventClass method [COM+], InstallEventClass method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallEventClass, comadmin/ICOMAdminCatalog::InstallEventClass, cos.icomadmincatalog_installeventclass
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog.InstallEventClass"
+f1_keywords:
+- comadmin/ICOMAdminCatalog.InstallEventClass
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog.InstallEventClass
+- ICOMAdminCatalog.InstallEventClass
 targetos: Windows
 req.typenames: 
 req.redist: 

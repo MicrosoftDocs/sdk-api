@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_1.D2D1_EFFECT_INPUT_DESCRIPTION
 title: D2D1_EFFECT_INPUT_DESCRIPTION (d2d1_1.h)
-
 description: Describes features of an effect.
 old-location: direct2d\d2d1_effect_input_description.htm
 tech.root: Direct2D
 ms.assetid: 2ce9405a-e36d-4b9e-b9d2-2a58b78696ac
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_EFFECT_INPUT_DESCRIPTION, D2D1_EFFECT_INPUT_DESCRIPTION structure [Direct2D], PD2D1_EFFECT_INPUT_DESCRIPTION, PD2D1_EFFECT_INPUT_DESCRIPTION structure pointer [Direct2D], d2d1_1/D2D1_EFFECT_INPUT_DESCRIPTION, d2d1_1/PD2D1_EFFECT_INPUT_DESCRIPTION, direct2d.d2d1_effect_input_description
 ms.topic: struct
-f1_keywords: 
- - "d2d1_1/D2D1_EFFECT_INPUT_DESCRIPTION"
+f1_keywords:
+- d2d1_1/D2D1_EFFECT_INPUT_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2D1.lib
+- D2D1.lib
 api_name:
- - D2D1_EFFECT_INPUT_DESCRIPTION
+- D2D1_EFFECT_INPUT_DESCRIPTION
 targetos: Windows
 req.typenames: D2D1_EFFECT_INPUT_DESCRIPTION
 req.redist: 

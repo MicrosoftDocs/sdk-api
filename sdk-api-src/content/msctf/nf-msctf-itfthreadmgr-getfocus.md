@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFocus
 title: ITfThreadMgr::GetFocus (msctf.h)
-
 description: ITfThreadMgr::GetFocus method
 old-location: tsf\itfthreadmgr_getfocus.htm
 tech.root: TSF
 ms.assetid: bd6b4566-de23-49f5-9ef1-f82626b1f140
-
 ms.date: 12/05/2018
 ms.keywords: GetFocus, GetFocus method [Text Services Framework], GetFocus method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],GetFocus method, ITfThreadMgr.GetFocus, ITfThreadMgr::GetFocus, _tsf_itfthreadmgr_getfocus_ref, msctf/ITfThreadMgr::GetFocus, tsf.itfthreadmgr_getfocus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.GetFocus"
+f1_keywords:
+- msctf/ITfThreadMgr.GetFocus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.GetFocus
+- ITfThreadMgr.GetFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

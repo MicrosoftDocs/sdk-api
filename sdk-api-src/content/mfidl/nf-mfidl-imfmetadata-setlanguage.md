@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMetadata.SetLanguage
 title: IMFMetadata::SetLanguage (mfidl.h)
-
 description: Sets the language for setting and retrieving metadata.
 old-location: mf\imfmetadata_setlanguage.htm
 tech.root: medfound
 ms.assetid: da615053-ddd5-448e-905c-b060cdaefa95
-
 ms.date: 12/05/2018
 ms.keywords: IMFMetadata interface [Media Foundation],SetLanguage method, IMFMetadata.SetLanguage, IMFMetadata::SetLanguage, SetLanguage, SetLanguage method [Media Foundation], SetLanguage method [Media Foundation],IMFMetadata interface, da615053-ddd5-448e-905c-b060cdaefa95, mf.imfmetadata_setlanguage, mfidl/IMFMetadata::SetLanguage
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMetadata.SetLanguage"
+f1_keywords:
+- mfidl/IMFMetadata.SetLanguage
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMetadata.SetLanguage
+- IMFMetadata.SetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

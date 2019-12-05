@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO
 title: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO (d3d12.h)
-
 description: Represents prebuild information about a raytracing acceleration structure. Get an instance of this stucture by calling GetRaytracingAccelerationStructurePrebuildInfo.
 old-location: direct3d12\d3d12_raytracing_acceleration_structure_prebuild_info.htm
 tech.root: direct3d12
 ms.assetid: B9F9551D-CB2F-488E-AD29-BCE603195F53
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO structure pointer, d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, d3d12/PD3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO, direct3d12.d3d12_raytracing_acceleration_structure_prebuild_info
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO"
+f1_keywords:
+- d3d12/D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO
+- D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CompareElements
 title: IUIAutomation::CompareElements (uiautomationclient.h)
-
 description: Compares two UI Automation elements to determine whether they represent the same underlying UI element.
 old-location: winauto\uiauto_IUIAutomation_CompareElements.htm
 tech.root: WinAuto
 ms.assetid: e4daa3c3-24fb-41df-a1b1-bd6545a47e51
-
 ms.date: 12/05/2018
 ms.keywords: CompareElements, CompareElements method [Windows Accessibility], CompareElements method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CompareElements method, IUIAutomation.CompareElements, IUIAutomation::CompareElements, uiauto.uiauto_IUIAutomation_CompareElements, uiauto_IUIAutomation_CompareElements, uiautomationclient/IUIAutomation::CompareElements, winauto.uiauto_IUIAutomation_CompareElements
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CompareElements"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CompareElements
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CompareElements
+- IUIAutomation.CompareElements
 targetos: Windows
 req.typenames: 
 req.redist: 

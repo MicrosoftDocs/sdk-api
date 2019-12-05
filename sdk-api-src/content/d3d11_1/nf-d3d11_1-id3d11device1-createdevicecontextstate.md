@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_1.ID3D11Device1.CreateDeviceContextState
 title: ID3D11Device1::CreateDeviceContextState (d3d11_1.h)
-
 description: Creates a context state object that holds all Microsoft Direct3D state and some Direct3D behavior.
 old-location: direct3d11\id3d11device1_createdevicecontextstate.htm
 tech.root: direct3d11
 ms.assetid: 8887C3F1-3EA3-4948-A019-E3CB3F3D46C6
-
 ms.date: 12/05/2018
 ms.keywords: CreateDeviceContextState, CreateDeviceContextState method [Direct3D 11], CreateDeviceContextState method [Direct3D 11],ID3D11Device1 interface, ID3D11Device1 interface [Direct3D 11],CreateDeviceContextState method, ID3D11Device1.CreateDeviceContextState, ID3D11Device1::CreateDeviceContextState, d3d11_1/ID3D11Device1::CreateDeviceContextState, direct3d11.id3d11device1_createdevicecontextstate
 ms.topic: method
-f1_keywords: 
- - "d3d11_1/ID3D11Device1.CreateDeviceContextState"
+f1_keywords:
+- d3d11_1/ID3D11Device1.CreateDeviceContextState
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device1.CreateDeviceContextState
+- ID3D11Device1.CreateDeviceContextState
 targetos: Windows
 req.typenames: 
 req.redist: 

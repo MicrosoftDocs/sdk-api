@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.script_charprop
 title: SCRIPT_CHARPROP (usp10.h)
-
 description: Contains information about a single character in a run (input string). The information indicates if the character glyph is affected by surrounding letters of the run.
 old-location: intl\script_charprop.htm
 tech.root: Intl
 ms.assetid: 2f3a4d8d-c7b1-4005-aebb-d3e9f2e3a37f
-
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_CHARPROP, SCRIPT_CHARPROP structure [Internationalization for Windows Applications], _win32_SCRIPT_CHARPROP, intl.script_charprop, usp10/SCRIPT_CHARPROP
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_CHARPROP"
+f1_keywords:
+- usp10/SCRIPT_CHARPROP
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_CHARPROP
+- SCRIPT_CHARPROP
 targetos: Windows
 req.typenames: SCRIPT_CHARPROP
 req.redist: Usp10.dll version 1.600 or greater onWindows XP

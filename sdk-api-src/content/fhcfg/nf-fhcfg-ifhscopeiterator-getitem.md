@@ -1,19 +1,17 @@
 ---
 UID: NF:fhcfg.IFhScopeIterator.GetItem
 title: IFhScopeIterator::GetItem (fhcfg.h)
-
 description: Retrieves the current item in an inclusion or exclusion list.
 old-location: winprog\ifhscopeiterator_getitem.htm
 tech.root: DevNotes
 ms.assetid: EB732725-497C-4D58-A05C-373732054BE5
-
 ms.date: 12/05/2018
 ms.keywords: GetItem, GetItem method [Windows API], GetItem method [Windows API],IFhScopeIterator interface, IFhScopeIterator interface [Windows API],GetItem method, IFhScopeIterator.GetItem, IFhScopeIterator::GetItem, fhcfg/IFhScopeIterator::GetItem, winprog.ifhscopeiterator_getitem
 ms.topic: method
-f1_keywords: 
- - "fhcfg/IFhScopeIterator.GetItem"
+f1_keywords:
+- fhcfg/IFhScopeIterator.GetItem
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhScopeIterator.GetItem
+- IFhScopeIterator.GetItem
 targetos: Windows
 req.typenames: 
 req.redist: 

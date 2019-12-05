@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMCopyCaptureFileProgress
 title: IAMCopyCaptureFileProgress (strmif.h)
-
 description: The IAMCopyCaptureFileProgress interface is a callback interface used by the ICaptureGraphBuilder2::CopyCaptureFile method.Because the CopyCaptureFile method can take a long time to complete, an application can implement this interface to receive periodic notifications about the progress of the copy operation. If the application does not need to receive this information, there is no need to implement the interface.
 old-location: dshow\iamcopycapturefileprogress.htm
 tech.root: DirectShow
 ms.assetid: 780ffe63-f4b6-4b3c-b7a6-571b58aba4dd
-
 ms.date: 12/05/2018
 ms.keywords: IAMCopyCaptureFileProgress, IAMCopyCaptureFileProgress interface [DirectShow], IAMCopyCaptureFileProgress interface [DirectShow],described, IAMCopyCaptureFileProgressInterface, dshow.iamcopycapturefileprogress, strmif/IAMCopyCaptureFileProgress
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMCopyCaptureFileProgress"
+f1_keywords:
+- strmif/IAMCopyCaptureFileProgress
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCopyCaptureFileProgress
+- IAMCopyCaptureFileProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

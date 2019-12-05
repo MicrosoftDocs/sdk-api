@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestLock
 title: ITextStoreACP::RequestLock (textstor.h)
-
 description: The ITextStoreACP::RequestLock method is called by the TSF manager to provide a document lock in order to modify the document. This method calls the ITextStoreACPSink::OnLockGranted method to create the document lock.
 old-location: tsf\itextstoreacp_requestlock.htm
 tech.root: TSF
 ms.assetid: ddd2b1f4-47de-4e87-be94-eea694ecd1b8
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP interface [Text Services Framework],RequestLock method, ITextStoreACP.RequestLock, ITextStoreACP::RequestLock, RequestLock, RequestLock method [Text Services Framework], RequestLock method [Text Services Framework],ITextStoreACP interface, TS_LF_READ, TS_LF_READWRITE, TS_LF_SYNC, _tsf_itextstoreacp_requestlock_ref, textstor/ITextStoreACP::RequestLock, tsf.itextstoreacp_requestlock
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP.RequestLock"
+f1_keywords:
+- textstor/ITextStoreACP.RequestLock
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP.RequestLock
+- ITextStoreACP.RequestLock
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

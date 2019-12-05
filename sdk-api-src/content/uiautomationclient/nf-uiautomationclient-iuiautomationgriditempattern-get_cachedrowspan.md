@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridItemPattern.get_CachedRowSpan
 title: IUIAutomationGridItemPattern::get_CachedRowSpan (uiautomationclient.h)
-
 description: Retrieves the cached number of rows spanned by a grid item.
 old-location: winauto\uiauto_IUIAutomationGridItemPattern_CachedRowSpan.htm
 tech.root: WinAuto
 ms.assetid: 6c93cfc7-76f3-4341-ae77-7782d5936ac6
-
 ms.date: 12/05/2018
 ms.keywords: CachedRowSpan property [Windows Accessibility], CachedRowSpan property [Windows Accessibility],IUIAutomationGridItemPattern interface, IUIAutomationGridItemPattern interface [Windows Accessibility],CachedRowSpan property, IUIAutomationGridItemPattern.CachedRowSpan, IUIAutomationGridItemPattern.get_CachedRowSpan, IUIAutomationGridItemPattern::CachedRowSpan, IUIAutomationGridItemPattern::get_CachedRowSpan, get_CachedRowSpan, uiauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiauto_IUIAutomationGridItemPattern_CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::CachedRowSpan, uiautomationclient/IUIAutomationGridItemPattern::get_CachedRowSpan, winauto.uiauto_IUIAutomationGridItemPattern_CachedRowSpan
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationGridItemPattern.CachedRowSpan"
+f1_keywords:
+- uiautomationclient/IUIAutomationGridItemPattern.CachedRowSpan
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationGridItemPattern.CachedRowSpan
- - IUIAutomationGridItemPattern.get_CachedRowSpan
+- IUIAutomationGridItemPattern.CachedRowSpan
+- IUIAutomationGridItemPattern.get_CachedRowSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.ProcessResponseMessage
 title: IX509SCEPEnrollment::ProcessResponseMessage (certenroll.h)
-
 description: Process a response message and return the disposition of the message.
 old-location: security\ix509scepenrollment_processresponsemessage.htm
 tech.root: seccertenroll
 ms.assetid: 4254fdf3-473f-4f22-a08f-13481fd9f779
-
 ms.date: 12/05/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],ProcessResponseMessage method, IX509SCEPEnrollment.ProcessResponseMessage, IX509SCEPEnrollment::ProcessResponseMessage, ProcessResponseMessage, ProcessResponseMessage method [Security], ProcessResponseMessage method [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::ProcessResponseMessage, security.ix509scepenrollment_processresponsemessage
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SCEPEnrollment.ProcessResponseMessage"
+f1_keywords:
+- certenroll/IX509SCEPEnrollment.ProcessResponseMessage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.ProcessResponseMessage
+- IX509SCEPEnrollment.ProcessResponseMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

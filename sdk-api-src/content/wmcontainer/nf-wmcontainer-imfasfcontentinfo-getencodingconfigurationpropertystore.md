@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GetEncodingConfigurationPropertyStore
 title: IMFASFContentInfo::GetEncodingConfigurationPropertyStore (wmcontainer.h)
-
 description: Retrieves a property store that can be used to set encoding properties.
 old-location: mf\imfasfcontentinfo_getencodingconfigurationpropertystore.htm
 tech.root: medfound
 ms.assetid: e77a5564-82bc-4c1d-9fb8-84ab484c4ca8
-
 ms.date: 12/05/2018
 ms.keywords: GetEncodingConfigurationPropertyStore, GetEncodingConfigurationPropertyStore method [Media Foundation], GetEncodingConfigurationPropertyStore method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GetEncodingConfigurationPropertyStore method, IMFASFContentInfo.GetEncodingConfigurationPropertyStore, IMFASFContentInfo::GetEncodingConfigurationPropertyStore, e77a5564-82bc-4c1d-9fb8-84ab484c4ca8, mf.imfasfcontentinfo_getencodingconfigurationpropertystore, wmcontainer/IMFASFContentInfo::GetEncodingConfigurationPropertyStore
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFContentInfo.GetEncodingConfigurationPropertyStore"
+f1_keywords:
+- wmcontainer/IMFASFContentInfo.GetEncodingConfigurationPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFContentInfo.GetEncodingConfigurationPropertyStore
+- IMFASFContentInfo.GetEncodingConfigurationPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHCLSIDFromString
 title: SHCLSIDFromString function (shlobj_core.h)
-
 description: Takes the string form of a class identifier (CLSID) and creates the corresponding CLSID.
 old-location: shell\SHCLSIDFromString.htm
 tech.root: shell
 ms.assetid: b09950fb-0a72-4829-aedd-cf01a3f98074
-
 ms.date: 12/05/2018
 ms.keywords: SHCLSIDFromString, SHCLSIDFromString function [Windows Shell], _win32_SHCLSIDFromString, shell.SHCLSIDFromString, shlobj_core/SHCLSIDFromString
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCLSIDFromString"
+f1_keywords:
+- shlobj_core/SHCLSIDFromString
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCLSIDFromString
+- SHCLSIDFromString
 targetos: Windows
 req.typenames: 
 req.redist: 

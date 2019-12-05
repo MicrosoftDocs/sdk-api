@@ -1,19 +1,17 @@
 ---
 UID: NC:filehc.CACHE_READ_CALLBACK
 title: CACHE_READ_CALLBACK (filehc.h)
-
 description: A callback that is provided to the cache to help examine items within the cache.
 old-location: winprog\fcache_read_callback.htm
 tech.root: DevNotes
 ms.assetid: 9fcdbca6-95db-4ec1-b81c-3681e9e2bffb
-
 ms.date: 12/05/2018
 ms.keywords: CACHE_READ_CALLBACK, CACHE_READ_CALLBACK callback, CACHE_READ_CALLBACK callback function [Windows API], filehc/CACHE_READ_CALLBACK, winprog.fcache_read_callback
 ms.topic: callback
-f1_keywords: 
- - "filehc/CACHE_READ_CALLBACK"
+f1_keywords:
+- filehc/CACHE_READ_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: filehc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Filehc.h
+- Filehc.h
 api_name:
- - CACHE_READ_CALLBACK
+- CACHE_READ_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

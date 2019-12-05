@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.SetTimerUpdateHandler
 title: IUIAnimationTimer::SetTimerUpdateHandler (uianimation.h)
-
 description: Specifies a timer update handler.
 old-location: uianimation\iuianimationtimer_settimerupdatehandler.htm
 tech.root: UIAnimation
 ms.assetid: 69c5f8b2-f3c8-43aa-8dae-cedd0036dc03
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],SetTimerUpdateHandler method, IUIAnimationTimer.SetTimerUpdateHandler, IUIAnimationTimer::SetTimerUpdateHandler, SetTimerUpdateHandler, SetTimerUpdateHandler method [Windows Animation], SetTimerUpdateHandler method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_settimerupdatehandler, uianimation/IUIAnimationTimer::SetTimerUpdateHandler
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimer.SetTimerUpdateHandler"
+f1_keywords:
+- uianimation/IUIAnimationTimer.SetTimerUpdateHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimer.SetTimerUpdateHandler
+- IUIAnimationTimer.SetTimerUpdateHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

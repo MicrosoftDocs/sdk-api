@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ProgramDeleted
 title: IGuideDataEvent::ProgramDeleted (bdatif.h)
-
 description: The ProgramDeleted method is called when a program has been deleted.
 old-location: mstv\iguidedataevent_programdeleted.htm
 tech.root: mstv
 ms.assetid: 4a71e139-1c09-473c-8195-0a55601d2f17
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramDeleted method, IGuideDataEvent.ProgramDeleted, IGuideDataEvent::ProgramDeleted, IGuideDataEventProgramDeleted, ProgramDeleted, ProgramDeleted method [Microsoft TV Technologies], ProgramDeleted method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ProgramDeleted, mstv.iguidedataevent_programdeleted
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataEvent.ProgramDeleted"
+f1_keywords:
+- bdatif/IGuideDataEvent.ProgramDeleted
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataEvent.ProgramDeleted
+- IGuideDataEvent.ProgramDeleted
 targetos: Windows
 req.typenames: 
 req.redist: 

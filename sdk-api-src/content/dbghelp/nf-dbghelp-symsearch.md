@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSearch
 title: SymSearch function (dbghelp.h)
-
 description: Searches for PDB symbols that meet the specified criteria.
 old-location: base\symsearch.htm
 tech.root: Debug
 ms.assetid: d6b3c06b-fcfd-436c-b267-99ec1380e744
-
 ms.date: 12/05/2018
 ms.keywords: SYMSEARCH_ALLITEMS, SYMSEARCH_GLOBALSONLY, SYMSEARCH_MASKOBJS, SYMSEARCH_RECURSE, SymSearch, SymSearch function, SymSearchW, base.symsearch, dbghelp/SymSearch, dbghelp/SymSearchW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSearch"
+f1_keywords:
+- dbghelp/SymSearch
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSearch
- - SymSearch
- - SymSearchW
+- SymSearch
+- SymSearch
+- SymSearchW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

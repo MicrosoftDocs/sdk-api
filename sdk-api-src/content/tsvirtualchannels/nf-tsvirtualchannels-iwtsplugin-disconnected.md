@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSPlugin.Disconnected
 title: IWTSPlugin::Disconnected (tsvirtualchannels.h)
-
 description: Notifies the plug-in that the Remote Desktop Connection (RDC) client has disconnected from the Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\iwtsplugin_disconnected.htm
 tech.root: TermServ
 ms.assetid: cbc753b4-531f-476e-8743-b8fbf2481c91
-
 ms.date: 12/05/2018
 ms.keywords: Disconnected, Disconnected method [Remote Desktop Services], Disconnected method [Remote Desktop Services],IWTSPlugin interface, IWTSPlugin interface [Remote Desktop Services],Disconnected method, IWTSPlugin.Disconnected, IWTSPlugin::Disconnected, termserv.iwtsplugin_disconnected, tsvirtualchannels/IWTSPlugin::Disconnected
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSPlugin.Disconnected"
+f1_keywords:
+- tsvirtualchannels/IWTSPlugin.Disconnected
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSPlugin.Disconnected
+- IWTSPlugin.Disconnected
 targetos: Windows
 req.typenames: 
 req.redist: 

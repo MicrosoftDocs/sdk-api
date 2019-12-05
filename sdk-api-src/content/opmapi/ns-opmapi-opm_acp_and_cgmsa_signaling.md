@@ -1,19 +1,17 @@
 ---
 UID: NS:opmapi._OPM_ACP_AND_CGMSA_SIGNALING
 title: OPM_ACP_AND_CGMSA_SIGNALING (opmapi.h)
-
 description: Contains the result from an OPM_GET_ACP_AND_CGMSA_SIGNALING query.
 old-location: mf\opm_acp_and_cgmsa_signaling.htm
 tech.root: medfound
 ms.assetid: 7388bdd9-a8bc-45f4-8539-a175190fb3c3
-
 ms.date: 12/05/2018
 ms.keywords: OPM_ACP_AND_CGMSA_SIGNALING, OPM_ACP_AND_CGMSA_SIGNALING structure [Media Foundation], mf.opm_acp_and_cgmsa_signaling, opmapi/OPM_ACP_AND_CGMSA_SIGNALING
 ms.topic: struct
 f1_keywords:
 - opmapi/OPM_ACP_AND_CGMSA_SIGNALING
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

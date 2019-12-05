@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManGetSessionOptionAsDword
 title: WSManGetSessionOptionAsDword function (wsman.h)
-
 description: Gets the value of a session option.
 old-location: winrm\wsmangetsessionoptionasdword.htm
 tech.root: winrm
 ms.assetid: 73ff4a3a-89f7-4362-99fb-7423e3fd853f
-
 ms.date: 12/05/2018
 ms.keywords: WSManGetSessionOptionAsDword, WSManGetSessionOptionAsDword function [Windows Remote Management], winrm.wsmangetsessionoptionasdword, wsman/WSManGetSessionOptionAsDword
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManGetSessionOptionAsDword"
+f1_keywords:
+- wsman/WSManGetSessionOptionAsDword
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManGetSessionOptionAsDword
+- WSManGetSessionOptionAsDword
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

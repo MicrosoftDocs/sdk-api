@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationDropTargetPattern
 title: IUIAutomationDropTargetPattern (uiautomationclient.h)
-
 description: Provides access to drag-and-drop information exposed by a Microsoft UI Automation provider for an element that can be the drop target of a drag-and-drop operation.
 old-location: winauto\uiauto_iuiautomationdroptargetpattern.htm
 tech.root: WinAuto
 ms.assetid: 22C12A2A-2812-43E8-BB97-A3FDE811D0B4
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDropTargetPattern, IUIAutomationDropTargetPattern interface [Windows Accessibility], IUIAutomationDropTargetPattern interface [Windows Accessibility],described, uiautomationclient/IUIAutomationDropTargetPattern, winauto.uiauto_iuiautomationdroptargetpattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDropTargetPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationDropTargetPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationDropTargetPattern
+- IUIAutomationDropTargetPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

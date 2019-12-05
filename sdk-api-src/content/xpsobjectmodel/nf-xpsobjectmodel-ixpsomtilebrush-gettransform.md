@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetTransform
 title: IXpsOMTileBrush::GetTransform (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMMatrixTransform interface that contains the resolved matrix transform for the brush.
 old-location: xps\ixpsomtilebrush_gettransform.htm
 tech.root: printdocs
 ms.assetid: db4c4ef8-d5f4-4cff-b38d-d211e14a98c1
-
 ms.date: 12/05/2018
 ms.keywords: GetTransform, GetTransform method [XPS Documents and Packaging], GetTransform method [XPS Documents and Packaging],IXpsOMTileBrush interface, IXpsOMTileBrush interface [XPS Documents and Packaging],GetTransform method, IXpsOMTileBrush.GetTransform, IXpsOMTileBrush::GetTransform, xps.ixpsomtilebrush_gettransform, xpsobjectmodel/IXpsOMTileBrush::GetTransform
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMTileBrush.GetTransform"
+f1_keywords:
+- xpsobjectmodel/IXpsOMTileBrush.GetTransform
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.GetTransform
+- IXpsOMTileBrush.GetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

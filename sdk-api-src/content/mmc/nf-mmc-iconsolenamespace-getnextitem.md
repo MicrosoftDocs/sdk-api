@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetNextItem
 title: IConsoleNameSpace::GetNextItem (mmc.h)
-
 description: The IConsoleNameSpace2::GetNextItem method enables the snap-in to retrieve the handle to the next item in the scope view.
 old-location: mmc\iconsolenamespace2_getnextitem.htm
 tech.root: mmc
 ms.assetid: 8d512370-bfe5-4a5a-b34b-c1096b6473a3
-
 ms.date: 12/05/2018
 ms.keywords: GetNextItem, GetNextItem method [MMC], GetNextItem method [MMC],IConsoleNameSpace interface, GetNextItem method [MMC],IConsoleNameSpace2 interface, IConsoleNameSpace interface [MMC],GetNextItem method, IConsoleNameSpace.GetNextItem, IConsoleNameSpace2 interface [MMC],GetNextItem method, IConsoleNameSpace2::GetNextItem, IConsoleNameSpace::GetNextItem, _slate_iconsolenamespace2_getnextitem, mmc.iconsolenamespace2_getnextitem, mmc/IConsoleNameSpace2::GetNextItem, mmc/IConsoleNameSpace::GetNextItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsoleNameSpace.GetNextItem"
+f1_keywords:
+- mmc/IConsoleNameSpace.GetNextItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace.GetNextItem
- - IConsoleNameSpace2.GetNextItem
+- IConsoleNameSpace.GetNextItem
+- IConsoleNameSpace2.GetNextItem
 targetos: Windows
 req.typenames: 
 req.redist: 

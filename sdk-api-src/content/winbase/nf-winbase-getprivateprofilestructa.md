@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetPrivateProfileStructA
 title: GetPrivateProfileStructA function (winbase.h)
-
 description: Retrieves the data associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofilestruct.htm
 tech.root: SysInfo
 ms.assetid: a14ba43e-d16d-4c52-a8ac-0d4c71229b7b
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileStruct, GetPrivateProfileStruct function, GetPrivateProfileStructA, GetPrivateProfileStructW, _win32_getprivateprofilestruct, base.getprivateprofilestruct, winbase/GetPrivateProfileStruct, winbase/GetPrivateProfileStructA, winbase/GetPrivateProfileStructW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetPrivateProfileStruct"
+f1_keywords:
+- winbase/GetPrivateProfileStruct
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetPrivateProfileStruct
- - GetPrivateProfileStructA
- - GetPrivateProfileStructW
+- GetPrivateProfileStruct
+- GetPrivateProfileStructA
+- GetPrivateProfileStructW
 targetos: Windows
 req.typenames: 
 req.redist: 

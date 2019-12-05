@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadStrAlloc
 title: PSPropertyBag_ReadStrAlloc function (propsys.h)
-
 description: Reads a string data value from a property in a property bag and allocates memory for the string that is read.
 old-location: properties\PSPropertyBag_ReadStrAlloc.htm
 tech.root: properties
 ms.assetid: 2F58A6DB-3563-42fa-9B6F-327D0A87AE81
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadStrAlloc, PSPropertyBag_ReadStrAlloc function [Windows Properties], properties.PSPropertyBag_ReadStrAlloc, propsys/PSPropertyBag_ReadStrAlloc, shell.PSPropertyBag_ReadStrAlloc, shell_PSPropertyBag_ReadStrAlloc
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadStrAlloc"
+f1_keywords:
+- propsys/PSPropertyBag_ReadStrAlloc
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadStrAlloc
+- PSPropertyBag_ReadStrAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

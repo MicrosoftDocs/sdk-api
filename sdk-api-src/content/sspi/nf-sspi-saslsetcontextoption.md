@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SaslSetContextOption
 title: SaslSetContextOption function (sspi.h)
-
 description: Sets the value of the specified property for the specified SASL context.
 old-location: security\saslsetcontextoption.htm
 tech.root: SecAuthN
 ms.assetid: 3c3b1209-b0de-4100-8dfe-53ea314b790b
-
 ms.date: 12/05/2018
 ms.keywords: SASL_OPTION_AUTHZ_PROCESSING, SASL_OPTION_AUTHZ_STRING, SASL_OPTION_RECV_SIZE, SASL_OPTION_SEND_SIZE, SaslSetContextOption, SaslSetContextOption function [Security], security.saslsetcontextoption, sspi/SaslSetContextOption
 ms.topic: function
-f1_keywords: 
- - "sspi/SaslSetContextOption"
+f1_keywords:
+- sspi/SaslSetContextOption
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - SaslSetContextOption
+- SaslSetContextOption
 targetos: Windows
 req.typenames: 
 req.redist: 

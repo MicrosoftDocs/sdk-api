@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetDial
 title: InternetDial function (wininet.h)
-
 description: Initiates a connection to the Internet using a modem.
 old-location: wininet\internetdial.htm
 tech.root: wininet
 ms.assetid: b8ce748b-9879-4f68-aea1-32e2bfaee8ab
-
 ms.date: 12/05/2018
 ms.keywords: InternetDial, InternetDial function [WinINet], InternetDialA, InternetDialW, _inet_internetdial_function, wininet.internetdial, winineti/InternetDial, winineti/InternetDialA, winineti/InternetDialW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetDial"
+f1_keywords:
+- wininet/InternetDial
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: Wininet.h, Winineti.h, Wininet.h, Winineti.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetDial
- - InternetDialA
- - InternetDialW
+- InternetDial
+- InternetDialA
+- InternetDialW
 targetos: Windows
 req.typenames: 
 req.redist: 

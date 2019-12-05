@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FindFirstVolumeMountPointA
 title: FindFirstVolumeMountPointA function (winbase.h)
-
 description: Retrieves the name of a mounted folder on the specified volume.
 old-location: fs\findfirstvolumemountpoint.htm
 tech.root: FileIO
 ms.assetid: 2ac3c22d-b8dd-43d8-a7af-877b54e42d9d
-
 ms.date: 12/05/2018
 ms.keywords: FindFirstVolumeMountPoint, FindFirstVolumeMountPoint function [Files], FindFirstVolumeMountPointA, FindFirstVolumeMountPointW, _win32_findfirstvolumemountpoint, base.findfirstvolumemountpoint, fs.findfirstvolumemountpoint, winbase/FindFirstVolumeMountPoint, winbase/FindFirstVolumeMountPointA, winbase/FindFirstVolumeMountPointW
 ms.topic: function
-f1_keywords: 
- - "winbase/FindFirstVolumeMountPoint"
+f1_keywords:
+- winbase/FindFirstVolumeMountPoint
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - FindFirstVolumeMountPoint
- - FindFirstVolumeMountPointA
- - FindFirstVolumeMountPointW
+- FindFirstVolumeMountPoint
+- FindFirstVolumeMountPointA
+- FindFirstVolumeMountPointW
 targetos: Windows
 req.typenames: 
 req.redist: 

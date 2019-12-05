@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_InsertItem
 title: TreeView_InsertItem macro (commctrl.h)
-
 description: Inserts a new item in a tree-view control. You can use this macro or send the TVM_INSERTITEM message explicitly.
 old-location: controls\TreeView_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_insertitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_InsertItem, TreeView_InsertItem macro [Windows Controls], _win32_TreeView_InsertItem, _win32_TreeView_InsertItem_cpp, commctrl/TreeView_InsertItem, controls.TreeView_InsertItem, controls._win32_TreeView_InsertItem
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_InsertItem"
+f1_keywords:
+- commctrl/TreeView_InsertItem
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_InsertItem
+- TreeView_InsertItem
 targetos: Windows
 req.typenames: 
 req.redist: 

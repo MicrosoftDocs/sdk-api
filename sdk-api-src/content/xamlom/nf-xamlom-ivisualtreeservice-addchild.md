@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService.AddChild
 title: IVisualTreeService::AddChild (xamlom.h)
-
 description: Adds a child element to the collection at the specified index.
 old-location: xaml_diagnostics\ivisualtreeservice_addchild.htm
 tech.root: xaml_diagnostics
 ms.assetid: 0F3BFACA-0B4C-4CC5-A48B-BD3921728612
-
 ms.date: 12/05/2018
 ms.keywords: AddChild, AddChild method, AddChild method,IVisualTreeService interface, IVisualTreeService interface,AddChild method, IVisualTreeService.AddChild, IVisualTreeService::AddChild, xaml_diagnostics.ivisualtreeservice_addchild, xamlom/IVisualTreeService::AddChild
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService.AddChild"
+f1_keywords:
+- xamlom/IVisualTreeService.AddChild
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService.AddChild
+- IVisualTreeService.AddChild
 targetos: Windows
 req.typenames: 
 req.redist: 

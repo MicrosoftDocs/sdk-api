@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.DAD_SetDragImage
 title: DAD_SetDragImage function (shlobj_core.h)
-
 description: Sets the drag image.
 old-location: shell\DAD_SetDragImage.htm
 tech.root: shell
 ms.assetid: 1e60e16c-3a12-48e2-a144-b3ba81599473
-
 ms.date: 12/05/2018
 ms.keywords: DAD_SetDragImage, DAD_SetDragImage function [Windows Shell], shell.DAD_SetDragImage, shell_DAD_SetDragImage, shlobj_core/DAD_SetDragImage
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/DAD_SetDragImage"
+f1_keywords:
+- shlobj_core/DAD_SetDragImage
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - DAD_SetDragImage
+- DAD_SetDragImage
 targetos: Windows
 req.typenames: 
 req.redist: 

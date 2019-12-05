@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoRenderer.InitializeRenderer
 title: IMFVideoRenderer::InitializeRenderer (evr.h)
-
 description: Sets a new mixer or presenter for the enhanced video renderer (EVR).
 old-location: mf\imfvideorenderer_initializerenderer.htm
 tech.root: medfound
 ms.assetid: e46a9596-9f3f-4430-8d45-bbc9c240be3b
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoRenderer interface [Media Foundation],InitializeRenderer method, IMFVideoRenderer.InitializeRenderer, IMFVideoRenderer::InitializeRenderer, InitializeRenderer, InitializeRenderer method [Media Foundation], InitializeRenderer method [Media Foundation],IMFVideoRenderer interface, e46a9596-9f3f-4430-8d45-bbc9c240be3b, evr/IMFVideoRenderer::InitializeRenderer, mf.imfvideorenderer_initializerenderer
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoRenderer.InitializeRenderer"
+f1_keywords:
+- evr/IMFVideoRenderer.InitializeRenderer
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoRenderer.InitializeRenderer
+- IMFVideoRenderer.InitializeRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

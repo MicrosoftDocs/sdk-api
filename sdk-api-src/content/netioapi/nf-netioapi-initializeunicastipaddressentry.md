@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.InitializeUnicastIpAddressEntry
 title: InitializeUnicastIpAddressEntry function (netioapi.h)
-
 description: Initializes a MIB_UNICASTIPADDRESS_ROW structure with default values for a unicast IP address entry on the local computer.
 old-location: iphlp\initializeunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 8cbdd972-060a-4e18-9490-450df21936ea
-
 ms.date: 12/05/2018
 ms.keywords: InitializeUnicastIpAddressEntry, InitializeUnicastIpAddressEntry function [IP Helper], iphlp.initializeunicastipaddressentry, netioapi/InitializeUnicastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/InitializeUnicastIpAddressEntry"
+f1_keywords:
+- netioapi/InitializeUnicastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - InitializeUnicastIpAddressEntry
+- InitializeUnicastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

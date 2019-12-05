@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSeeking.SetRate
 title: IMediaSeeking::SetRate (strmif.h)
-
 description: The SetRate method sets the playback rate.
 old-location: dshow\imediaseeking_setrate.htm
 tech.root: DirectShow
 ms.assetid: 8cd44480-cadb-4b59-9fe7-4a82b3aed15b
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSeeking interface [DirectShow],SetRate method, IMediaSeeking.SetRate, IMediaSeeking::SetRate, IMediaSeekingSetRate, SetRate, SetRate method [DirectShow], SetRate method [DirectShow],IMediaSeeking interface, dshow.imediaseeking_setrate, strmif/IMediaSeeking::SetRate
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSeeking.SetRate"
+f1_keywords:
+- strmif/IMediaSeeking.SetRate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSeeking.SetRate
+- IMediaSeeking.SetRate
 targetos: Windows
 req.typenames: 
 req.redist: 

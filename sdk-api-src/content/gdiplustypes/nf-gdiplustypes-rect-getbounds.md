@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.GetBounds
 title: Rect::GetBounds (gdiplustypes.h)
-
 description: The Rect::GetBounds method makes a copy of this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetBounds_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getbounds_70rect.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBounds, GetBounds method [GDI+], GetBounds method [GDI+],Rect class, Rect class [GDI+],GetBounds method, Rect.GetBounds, Rect::GetBounds, _gdiplus_CLASS_Rect_GetBounds_rect_, gdiplus._gdiplus_CLASS_Rect_GetBounds_rect_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.GetBounds"
+f1_keywords:
+- gdiplustypes/Rect.GetBounds
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.GetBounds
+- Rect.GetBounds
 targetos: Windows
 req.typenames: 
 req.redist: 

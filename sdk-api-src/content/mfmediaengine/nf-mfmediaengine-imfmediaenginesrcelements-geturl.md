@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetURL
 title: IMFMediaEngineSrcElements::GetURL (mfmediaengine.h)
-
 description: Gets the URL of an element in the list.
 old-location: mf\imfmediaenginesrcelements_geturl.htm
 tech.root: medfound
 ms.assetid: 5935BE0D-0E5A-46A8-944C-096746C5FCA3
-
 ms.date: 12/05/2018
 ms.keywords: GetURL, GetURL method [Media Foundation], GetURL method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetURL method, IMFMediaEngineSrcElements.GetURL, IMFMediaEngineSrcElements::GetURL, mf.imfmediaenginesrcelements_geturl, mfmediaengine/IMFMediaEngineSrcElements::GetURL
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElements.GetURL"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElements.GetURL
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements.GetURL
+- IMFMediaEngineSrcElements.GetURL
 targetos: Windows
 req.typenames: 
 req.redist: 

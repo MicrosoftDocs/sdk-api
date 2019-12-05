@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcUri.GetRelativeUri
 title: IOpcUri::GetRelativeUri (msopc.h)
-
 description: Forms a relative URI for a specified part, relative to the URI represented by the current OPC URI object.
 old-location: opc\iopcuri_getrelativeuri.htm
 tech.root: OPC
 ms.assetid: ce98b0a6-f4b3-4f49-897a-f144af7dfc49
-
 ms.date: 12/05/2018
 ms.keywords: GetRelativeUri, GetRelativeUri method [Open Packaging Conventions], GetRelativeUri method [Open Packaging Conventions],IOpcUri interface, IOpcUri interface [Open Packaging Conventions],GetRelativeUri method, IOpcUri.GetRelativeUri, IOpcUri::GetRelativeUri, msopc/IOpcUri::GetRelativeUri, opc.iopcuri_getrelativeuri
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcUri.GetRelativeUri"
+f1_keywords:
+- msopc/IOpcUri.GetRelativeUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcUri.GetRelativeUri
+- IOpcUri.GetRelativeUri
 targetos: Windows
 req.typenames: 
 req.redist: 

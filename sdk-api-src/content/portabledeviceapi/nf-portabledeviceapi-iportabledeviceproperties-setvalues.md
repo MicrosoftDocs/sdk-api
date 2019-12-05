@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.SetValues
 title: IPortableDeviceProperties::SetValues (portabledeviceapi.h)
-
 description: The SetValues method adds or modifies one or more properties on a specified object on a device.
 old-location: wpdsdk\iportabledeviceproperties_setvalues.htm
 tech.root: wpd_sdk
 ms.assetid: 3c631d31-5553-4ad0-8384-821c11c78254
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceProperties interface [Windows Portable Devices SDK],SetValues method, IPortableDeviceProperties.SetValues, IPortableDeviceProperties::SetValues, IPortableDevicePropertiesSetValues, SetValues, SetValues method [Windows Portable Devices SDK], SetValues method [Windows Portable Devices SDK],IPortableDeviceProperties interface, portabledeviceapi/IPortableDeviceProperties::SetValues, wpdsdk.iportabledeviceproperties_setvalues
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceProperties.SetValues"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceProperties.SetValues
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties.SetValues
+- IPortableDeviceProperties.SetValues
 targetos: Windows
 req.typenames: 
 req.redist: 

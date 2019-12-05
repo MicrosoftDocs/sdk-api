@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.IsolationLevel
 title: IServiceTransactionConfigBase::IsolationLevel (comsvcs.h)
-
 description: Sets the isolation level of the transactions.
 old-location: cos\iservicetransactionconfigbase_isolationlevel.htm
 tech.root: cossdk
 ms.assetid: 4595239b-30e7-4b03-a2c7-7061cbf28bac
-
 ms.date: 12/05/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],IsolationLevel method, IServiceTransactionConfigBase.IsolationLevel, IServiceTransactionConfigBase::IsolationLevel, IsolationLevel, IsolationLevel method [COM+], IsolationLevel method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_IsolationLevel, comsvcs/IServiceTransactionConfigBase::IsolationLevel, cos.iservicetransactionconfigbase_isolationlevel
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceTransactionConfigBase.IsolationLevel"
+f1_keywords:
+- comsvcs/IServiceTransactionConfigBase.IsolationLevel
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase.IsolationLevel
+- IServiceTransactionConfigBase.IsolationLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

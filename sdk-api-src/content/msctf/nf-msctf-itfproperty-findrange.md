@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfProperty.FindRange
 title: ITfProperty::FindRange (msctf.h)
-
 description: ITfProperty::FindRange method
 old-location: tsf\itfproperty_findrange.htm
 tech.root: TSF
 ms.assetid: 08e9c9c1-768b-406c-96ae-e0776b59344d
-
 ms.date: 12/05/2018
 ms.keywords: FindRange, FindRange method [Text Services Framework], FindRange method [Text Services Framework],ITfProperty interface, ITfProperty interface [Text Services Framework],FindRange method, ITfProperty.FindRange, ITfProperty::FindRange, _tsf_itfproperty_findrange_ref, msctf/ITfProperty::FindRange, tsf.itfproperty_findrange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfProperty.FindRange"
+f1_keywords:
+- msctf/ITfProperty.FindRange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfProperty.FindRange
+- ITfProperty.FindRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

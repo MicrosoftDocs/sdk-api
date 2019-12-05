@@ -1,17 +1,15 @@
 ---
 UID: NS:d3d12.D3D12_RESOURCE_ALLOCATION_INFO1
 title: D3D12_RESOURCE_ALLOCATION_INFO1
-
 description: Describes parameters needed to allocate resources, including offset.
 tech.root: direct3d12
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_ALLOCATION_INFO1, D3D12_RESOURCE_ALLOCATION_INFO1 structure, d3d12/D3D12_RESOURCE_ALLOCATION_INFO1, direct3d12.d3d12_resource_allocation_info1
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_RESOURCE_ALLOCATION_INFO1"
+f1_keywords:
+- d3d12/D3D12_RESOURCE_ALLOCATION_INFO1
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -30,14 +28,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_RESOURCE_ALLOCATION_INFO1
+- D3D12_RESOURCE_ALLOCATION_INFO1
 targetos: Windows
 req.typenames: D3D12_RESOURCE_ALLOCATION_INFO1
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetCredentialsCount
 title: MI_SubscriptionDeliveryOptions_GetCredentialsCount function (mi.h)
-
 description: Gets the number of previously added credentials.
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getcredentialscount.htm
 tech.root: wmi_v2
 ms.assetid: 6d9286ac-70e0-4290-8cbf-11514510dcdb
-
 ms.date: 12/05/2018
 ms.keywords: MI_SubscriptionDeliveryOptions_GetCredentialsCount, MI_SubscriptionDeliveryOptions_GetCredentialsCount function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_GetCredentialsCount, wmi_v2.mi_subscriptiondeliveryoptions_getcredentialscount
 ms.topic: function
 f1_keywords:
 - mi/MI_SubscriptionDeliveryOptions_GetCredentialsCount
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:dmusics.IDirectMusicSynth
 title: IDirectMusicSynth (dmusics.h)
-
 description: The IDirectMusicSynth interface is used by DirectMusic to communicate with user-mode synthesizers.
 old-location: audio\idirectmusicsynth.htm
 tech.root: audio
 ms.assetid: 08f1056a-fead-475b-a13a-ee11b9709241
-
 ms.date: 12/05/2018
 ms.keywords: IDirectMusicSynth, IDirectMusicSynth interface [Audio Devices], IDirectMusicSynth interface [Audio Devices],described, audio.idirectmusicsynth, audmp-routines_ab253bc7-f9a6-4279-99fb-4e5b2693c94b.xml, dmusics/IDirectMusicSynth
 ms.topic: interface
-f1_keywords: 
- - "dmusics/IDirectMusicSynth"
+f1_keywords:
+- dmusics/IDirectMusicSynth
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth
+- IDirectMusicSynth
 targetos: Windows
 req.typenames: 
 req.redist: 

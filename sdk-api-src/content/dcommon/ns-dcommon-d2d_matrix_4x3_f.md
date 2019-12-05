@@ -1,19 +1,17 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_4X3_F
 title: D2D_MATRIX_4X3_F (dcommon.h)
-
 description: Describes a 4-by-3 floating point matrix.
 old-location: direct2d\d2d_matrix_4x3_f.htm
 tech.root: Direct2D
 ms.assetid: 2CCAB3EE-EEF2-4C36-8F8E-23B93A45B1FF
-
 ms.date: 12/05/2018
 ms.keywords: D2D_MATRIX_4X3_F, D2D_MATRIX_4X3_F structure [Direct2D], dcommon/D2D_MATRIX_4X3_F, direct2d.d2d_matrix_4x3_f
 ms.topic: struct
-f1_keywords: 
- - "dcommon/D2D_MATRIX_4X3_F"
+f1_keywords:
+- dcommon/D2D_MATRIX_4X3_F
 dev_langs:
- - c++
+- c++
 req.header: dcommon.h
 req.include-header: D2d1.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dcommon.h
+- dcommon.h
 api_name:
- - D2D_MATRIX_4X3_F
+- D2D_MATRIX_4X3_F
 targetos: Windows
 req.typenames: D2D_MATRIX_4X3_F
 req.redist: 

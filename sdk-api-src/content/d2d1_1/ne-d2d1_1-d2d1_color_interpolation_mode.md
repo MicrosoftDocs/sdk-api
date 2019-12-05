@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_1.D2D1_COLOR_INTERPOLATION_MODE
 title: D2D1_COLOR_INTERPOLATION_MODE (d2d1_1.h)
-
 description: Defines how to interpolate between colors.
 old-location: direct2d\d2d1_color_interpolation_mode.htm
 tech.root: Direct2D
 ms.assetid: E3E9FB4C-5E77-451B-ABED-39D9C7AE567A
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_COLOR_INTERPOLATION_MODE, D2D1_COLOR_INTERPOLATION_MODE enumeration [Direct2D], D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED, D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT, d2d1_1/D2D1_COLOR_INTERPOLATION_MODE, d2d1_1/D2D1_COLOR_INTERPOLATION_MODE_PREMULTIPLIED, d2d1_1/D2D1_COLOR_INTERPOLATION_MODE_STRAIGHT, direct2d.d2d1_color_interpolation_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1_1/D2D1_COLOR_INTERPOLATION_MODE"
+f1_keywords:
+- d2d1_1/D2D1_COLOR_INTERPOLATION_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_1.h
+- d2d1_1.h
 api_name:
- - D2D1_COLOR_INTERPOLATION_MODE
+- D2D1_COLOR_INTERPOLATION_MODE
 targetos: Windows
 req.typenames: D2D1_COLOR_INTERPOLATION_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:http.__unnamed_struct_0
 title: HTTP_SERVICE_CONFIG_CACHE_SET (http.h)
-
 description: Used in the pConfigInformation parameter of the HttpSetServiceConfiguration function.
 old-location: http\http_service_config_cache_set.htm
 tech.root: http
 ms.assetid: e868822a-95f8-4dbe-bffb-c5b5c151fa41
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET structure [HTTP], PHTTP_SERVICE_CONFIG_CACHE_SET, PHTTP_SERVICE_CONFIG_CACHE_SET structure pointer [HTTP], http.http_service_config_cache_set, http/HTTP_SERVICE_CONFIG_CACHE_SET, http/PHTTP_SERVICE_CONFIG_CACHE_SET"
+ms.keywords: '*PHTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET, HTTP_SERVICE_CONFIG_CACHE_SET structure [HTTP], PHTTP_SERVICE_CONFIG_CACHE_SET, PHTTP_SERVICE_CONFIG_CACHE_SET structure pointer [HTTP], http.http_service_config_cache_set, http/HTTP_SERVICE_CONFIG_CACHE_SET, http/PHTTP_SERVICE_CONFIG_CACHE_SET'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTP_SERVICE_CONFIG_CACHE_SET"
+f1_keywords:
+- http/HTTP_SERVICE_CONFIG_CACHE_SET
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_SERVICE_CONFIG_CACHE_SET
+- HTTP_SERVICE_CONFIG_CACHE_SET
 targetos: Windows
 req.typenames: HTTP_SERVICE_CONFIG_CACHE_SET, *PHTTP_SERVICE_CONFIG_CACHE_SET
 req.redist: 

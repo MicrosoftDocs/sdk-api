@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IUnsecuredApartment
 title: IUnsecuredApartment (wbemcli.h)
-
 description: The IUnsecuredApartment interface is used to simplify the process of making asynchronous calls from a client process.
 old-location: wmi\iunsecuredapartment.htm
 tech.root: WmiSdk
 ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea
-
 ms.date: 12/05/2018
 ms.keywords: IUnsecuredApartment, IUnsecuredApartment interface [Windows Management Instrumentation], IUnsecuredApartment interface [Windows Management Instrumentation],described, UnsecuredApartment, _hmm_iunsecuredapartment, wbemcli/IUnsecuredApartment, wmi.iunsecuredapartment
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IUnsecuredApartment"
+f1_keywords:
+- wbemcli/IUnsecuredApartment
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: Unsecapp.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Unsecapp.exe
+- Unsecapp.exe
 api_name:
- - IUnsecuredApartment
- - UnsecuredApartment
+- IUnsecuredApartment
+- UnsecuredApartment
 targetos: Windows
 req.typenames: 
 req.redist: 

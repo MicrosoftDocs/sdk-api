@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPControls2
 title: IWMPControls2 (wmp.h)
-
 description: The IWMPControls2 interface provides a method that supplements the IWMPControls interface.
 old-location: wmp\iwmpcontrols2.htm
 tech.root: WMP
 ms.assetid: aadbd924-b583-4136-8d6c-e3c8c0b3872e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls2, IWMPControls2 interface [Windows Media Player], IWMPControls2 interface [Windows Media Player],described, IWMPControls2Interface, wmp.iwmpcontrols2, wmp/IWMPControls2
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPControls2"
+f1_keywords:
+- wmp/IWMPControls2
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPControls2
+- IWMPControls2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UShortMult
 title: UShortMult function (intsafe.h)
-
 description: Multiplies one value of type USHORT by another.
 old-location: shell\UShortMult.htm
 tech.root: shell
 ms.assetid: ecade442-3272-4886-87e1-057f82f465cf
-
 ms.date: 12/05/2018
 ms.keywords: UShortMult, UShortMult function [Windows Shell], WordMult, _shell_UShortMult, intsafe/UShortMult, shell.UShortMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/UShortMult"
+f1_keywords:
+- intsafe/UShortMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UShortMult
+- UShortMult
 targetos: Windows
 req.typenames: 
 req.redist: 

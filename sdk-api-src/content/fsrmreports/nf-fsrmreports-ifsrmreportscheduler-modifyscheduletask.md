@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.ModifyScheduleTask
 title: IFsrmReportScheduler::ModifyScheduleTask (fsrmreports.h)
-
 description: Modifies a task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_modifyscheduletask.htm
 tech.root: fsrm
 ms.assetid: ca950e00-d391-4a03-8ff9-2ddef3a17038
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportScheduler class [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],ModifyScheduleTask method, IFsrmReportScheduler.ModifyScheduleTask, IFsrmReportScheduler::ModifyScheduleTask, ModifyScheduleTask, ModifyScheduleTask method [File Server Resource Manager], ModifyScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, ModifyScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, fs.ifsrmreportscheduler_modifyscheduletask, fsrm.ifsrmreportscheduler_modifyscheduletask, fsrmreports/IFsrmReportScheduler::ModifyScheduleTask
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportScheduler.ModifyScheduleTask"
+f1_keywords:
+- fsrmreports/IFsrmReportScheduler.ModifyScheduleTask
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportScheduler.ModifyScheduleTask
- - FsrmReportScheduler.ModifyScheduleTask
+- IFsrmReportScheduler.ModifyScheduleTask
+- FsrmReportScheduler.ModifyScheduleTask
 targetos: Windows
 req.typenames: 
 req.redist: 

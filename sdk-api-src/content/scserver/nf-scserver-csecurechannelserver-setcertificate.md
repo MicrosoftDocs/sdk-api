@@ -1,19 +1,17 @@
 ---
 UID: NF:scserver.CSecureChannelServer.SetCertificate
 title: CSecureChannelServer::SetCertificate (scserver.h)
-
 description: The SetCertificate method specifies the certificate and private key of the secure authenticated channel (SAC) server. Information about where to get this certificate is given in Tools for Development.
 old-location: wmdm\csecurechannelserver_setcertificate.htm
 tech.root: WMDM
 ms.assetid: 9f12e32c-4904-4591-bc6e-38f507b0dcf6
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelServer class [windows Media Device Manager],SetCertificate method, CSecureChannelServer.SetCertificate, CSecureChannelServer::SetCertificate, CSecureChannelServerSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelServer class, scserver/CSecureChannelServer::SetCertificate, wmdm.csecurechannelserver_setcertificate
 ms.topic: method
-f1_keywords: 
- - "scserver/CSecureChannelServer.SetCertificate"
+f1_keywords:
+- scserver/CSecureChannelServer.SetCertificate
 dev_langs:
- - c++
+- c++
 req.header: scserver.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelServer.SetCertificate
+- CSecureChannelServer.SetCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:structuredquerycondition.tagCONDITION_TYPE
 title: CONDITION_TYPE (structuredquerycondition.h)
-
 description: Provides a set of flags to be used with the following methods to indicate the type of condition tree node:\_ICondition::GetConditionType, IConditionFactory::MakeAndOr, IConditionFactory2::CreateCompoundFromArray, and IConditionFactory2::CreateCompoundFromObjectArray.
 old-location: search\_search_CONDITION_TYPE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_type.htm
-
 ms.date: 12/05/2018
 ms.keywords: CONDITION_TYPE, CONDITION_TYPE enumeration [search], CT_AND_CONDITION, CT_LEAF_CONDITION, CT_NOT_CONDITION, CT_OR_CONDITION, _search_CONDITION_TYPE, search._search_CONDITION_TYPE, structuredquerycondition/CONDITION_TYPE, structuredquerycondition/CT_AND_CONDITION, structuredquerycondition/CT_LEAF_CONDITION, structuredquerycondition/CT_NOT_CONDITION, structuredquerycondition/CT_OR_CONDITION
 ms.topic: enum
-f1_keywords: 
- - "structuredquerycondition/CONDITION_TYPE"
+f1_keywords:
+- structuredquerycondition/CONDITION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquerycondition.h
+- Structuredquerycondition.h
 api_name:
- - CONDITION_TYPE
+- CONDITION_TYPE
 targetos: Windows
 req.typenames: CONDITION_TYPE
 req.redist: Windows Desktop Search (WDS) 3.0

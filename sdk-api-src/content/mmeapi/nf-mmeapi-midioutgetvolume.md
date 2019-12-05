@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutGetVolume
 title: midiOutGetVolume function (mmeapi.h)
-
 description: The midiOutGetVolume function retrieves the current volume setting of a MIDI output device.
 old-location: multimedia\midioutgetvolume.htm
 tech.root: Multimedia
 ms.assetid: d0e2d5e8-9fb9-4f4c-9b17-6d67b3f82ef7
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutGetVolume, midiOutGetVolume, midiOutGetVolume function [Windows Multimedia], mmeapi/midiOutGetVolume, multimedia.midioutgetvolume"
+ms.keywords: _win32_midiOutGetVolume, midiOutGetVolume, midiOutGetVolume function [Windows Multimedia], mmeapi/midiOutGetVolume, multimedia.midioutgetvolume
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutGetVolume"
+f1_keywords:
+- mmeapi/midiOutGetVolume
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutGetVolume
+- midiOutGetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

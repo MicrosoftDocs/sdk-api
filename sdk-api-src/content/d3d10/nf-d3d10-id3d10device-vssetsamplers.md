@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.VSSetSamplers
 title: ID3D10Device::VSSetSamplers (d3d10.h)
-
 description: Set an array of sampler states to the vertex shader pipeline stage.
 old-location: direct3d10\id3d10device_vssetsamplers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetsamplers.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],VSSetSamplers method, ID3D10Device.VSSetSamplers, ID3D10Device::VSSetSamplers, VSSetSamplers, VSSetSamplers method [Direct3D 10], VSSetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetSamplers, direct3d10.id3d10device_vssetsamplers, f52bec26-138b-dd22-78d6-1674e519b377
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.VSSetSamplers"
+f1_keywords:
+- d3d10/ID3D10Device.VSSetSamplers
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.VSSetSamplers
+- ID3D10Device.VSSetSamplers
 targetos: Windows
 req.typenames: 
 req.redist: 

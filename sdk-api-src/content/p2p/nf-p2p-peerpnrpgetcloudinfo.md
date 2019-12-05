@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerPnrpGetCloudInfo
 title: PeerPnrpGetCloudInfo function (p2p.h)
-
 description: Retrieves information on the Peer Name Resolution Protocol (PNRP) clouds in which the calling peer is participating.
 old-location: p2p\peerpnrpgetcloudinfo.htm
 tech.root: P2PSdk
 ms.assetid: e6067973-68e3-4b0e-8a7a-ffba2ab2a971
-
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpGetCloudInfo, PeerPnrpGetCloudInfo function [Peer Networking], p2p.peerpnrpgetcloudinfo, p2p/PeerPnrpGetCloudInfo
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerPnrpGetCloudInfo"
+f1_keywords:
+- p2p/PeerPnrpGetCloudInfo
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerPnrpGetCloudInfo
+- PeerPnrpGetCloudInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

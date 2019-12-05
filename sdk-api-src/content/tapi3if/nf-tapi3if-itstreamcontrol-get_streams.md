@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITStreamControl.get_Streams
 title: ITStreamControl::get_Streams (tapi3if.h)
-
 description: The get_Streams method creates a collection of media streams currently available on the call. Provided for Automation client applications, such as those written in Visual Basic. C and C++ applications must use the EnumerateStreams method.
 old-location: tapi3\itstreamcontrol_get_streams.htm
 tech.root: Tapi
 ms.assetid: 4d001f5a-7731-47b9-8c68-e4dd2d0bf02f
-
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl interface [TAPI 2.2],get_Streams method, ITStreamControl.get_Streams, ITStreamControl::get_Streams, _tapi3_itstreamcontrol_get_streams, get_Streams, get_Streams method [TAPI 2.2], get_Streams method [TAPI 2.2],ITStreamControl interface, tapi3.itstreamcontrol_get_streams, tapi3if/ITStreamControl::get_Streams
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITStreamControl.get_Streams"
+f1_keywords:
+- tapi3if/ITStreamControl.get_Streams
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITStreamControl.get_Streams
+- ITStreamControl.get_Streams
 targetos: Windows
 req.typenames: 
 req.redist: 

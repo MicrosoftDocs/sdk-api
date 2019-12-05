@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsMoveWriter
 title: WsMoveWriter function (webservices.h)
-
 description: Moves the current position of the writer as specified by the moveTo parameter.
 old-location: wsw\wsmovewriter.htm
 tech.root: wsw
 ms.assetid: f8eace53-9fa5-466a-8894-3c8b8fe049e3
-
 ms.date: 12/05/2018
 ms.keywords: WsMoveWriter, WsMoveWriter function [Web Services for Windows], webservices/WsMoveWriter, wsw.wsmovewriter
 ms.topic: function
-f1_keywords: 
- - "webservices/WsMoveWriter"
+f1_keywords:
+- webservices/WsMoveWriter
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsMoveWriter
+- WsMoveWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

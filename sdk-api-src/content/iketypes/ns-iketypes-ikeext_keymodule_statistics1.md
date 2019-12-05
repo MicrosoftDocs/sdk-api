@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_KEYMODULE_STATISTICS1_
 title: IKEEXT_KEYMODULE_STATISTICS1 (iketypes.h)
-
 description: Contains various statistics specific to the keying module.
 old-location: fwp\ikeext_keymodule_statistics1.htm
 tech.root: fwp
 ms.assetid: 3b5fdf04-e3a6-4658-a53d-66928b5682f5
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_KEYMODULE_STATISTICS1, IKEEXT_KEYMODULE_STATISTICS1 structure [Filtering], fwp.ikeext_keymodule_statistics1, iketypes/IKEEXT_KEYMODULE_STATISTICS1
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_KEYMODULE_STATISTICS1"
+f1_keywords:
+- iketypes/IKEEXT_KEYMODULE_STATISTICS1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_KEYMODULE_STATISTICS1
+- IKEEXT_KEYMODULE_STATISTICS1
 targetos: Windows
 req.typenames: IKEEXT_KEYMODULE_STATISTICS1
 req.redist: 

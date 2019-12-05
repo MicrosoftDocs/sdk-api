@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteEndAttribute
 title: WsWriteEndAttribute function (webservices.h)
-
 description: This operation finishes writing an attribute to the current element. If WsWriteStartAttribute is called the Writer does not permit another element or attribute to be written until WsWriteEndAttribute is called.
 old-location: wsw\wswriteendattribute.htm
 tech.root: wsw
 ms.assetid: 8747c484-19b3-46b2-beee-80b220011def
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteEndAttribute, WsWriteEndAttribute function [Web Services for Windows], webservices/WsWriteEndAttribute, wsw.wswriteendattribute
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteEndAttribute"
+f1_keywords:
+- webservices/WsWriteEndAttribute
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteEndAttribute
+- WsWriteEndAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

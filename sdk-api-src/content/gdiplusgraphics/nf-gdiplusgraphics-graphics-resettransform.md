@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.ResetTransform
 title: Graphics::ResetTransform (gdiplusgraphics.h)
-
 description: The Graphics::ResetTransform method sets the world transformation matrix of this Graphics object to the identity matrix.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_ResetTransform_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\resettransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics class [GDI+],ResetTransform method, Graphics.ResetTransform, Graphics::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],Graphics class, _gdiplus_CLASS_Graphics_ResetTransform_, gdiplus._gdiplus_CLASS_Graphics_ResetTransform_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.ResetTransform"
+f1_keywords:
+- gdiplusgraphics/Graphics.ResetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.ResetTransform
+- Graphics.ResetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

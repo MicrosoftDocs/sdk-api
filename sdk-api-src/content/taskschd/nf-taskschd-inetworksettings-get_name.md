@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.INetworkSettings.get_Name
 title: INetworkSettings::get_Name (taskschd.h)
-
 description: Gets or sets the name of a network profile.
 old-location: taskschd\inetworksettings_name.htm
 tech.root: taskschd
 ms.assetid: 4f1c8327-c4e2-4cb6-aeeb-b72f9ebc250b
-
 ms.date: 12/05/2018
 ms.keywords: INetworkSettings interface [Task Scheduler],Name property, INetworkSettings.Name, INetworkSettings.get_Name, INetworkSettings::Name, INetworkSettings::get_Name, INetworkSettings::put_Name, Name property [Task Scheduler], Name property [Task Scheduler],INetworkSettings interface, get_Name, taskschd.inetworksettings_name, taskschd/INetworkSettings::Name, taskschd/INetworkSettings::get_Name, taskschd/INetworkSettings::put_Name
 ms.topic: method
-f1_keywords: 
- - "taskschd/INetworkSettings.Name"
+f1_keywords:
+- taskschd/INetworkSettings.Name
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - INetworkSettings.Name
- - INetworkSettings.get_Name
- - INetworkSettings.put_Name
+- INetworkSettings.Name
+- INetworkSettings.get_Name
+- INetworkSettings.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.GetMaxLength
 title: IEnumCERTVIEWCOLUMN::GetMaxLength (certview.h)
-
 description: Retrieves the maximum allowable length, in bytes, for the column data.
 old-location: security\ienumcertviewcolumn_getmaxlength.htm
 tech.root: SecCrypto
 ms.assetid: 20cd5f5a-2e19-43ca-9b84-70e6dd1a4cad
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxLength, GetMaxLength method [Security], GetMaxLength method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],GetMaxLength method, IEnumCERTVIEWCOLUMN.GetMaxLength, IEnumCERTVIEWCOLUMN::GetMaxLength, _certsrv_ienumcertviewcolumn_getmaxlength, certview/IEnumCERTVIEWCOLUMN::GetMaxLength, security.ienumcertviewcolumn_getmaxlength
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWCOLUMN.GetMaxLength"
+f1_keywords:
+- certview/IEnumCERTVIEWCOLUMN.GetMaxLength
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWCOLUMN.GetMaxLength
- - IEnumCERTVIEWCOLUMN.GetMaxLength
+- IEnumCERTVIEWCOLUMN.GetMaxLength
+- IEnumCERTVIEWCOLUMN.GetMaxLength
 targetos: Windows
 req.typenames: 
 req.redist: 

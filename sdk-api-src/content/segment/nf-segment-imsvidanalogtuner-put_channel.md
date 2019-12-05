@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_Channel
 title: IMSVidAnalogTuner::put_Channel (segment.h)
-
 description: The put_Channel method specifies the tuner's channel.
 old-location: mstv\imsvidanalogtuner_put_channel.htm
 tech.root: mstv
 ms.assetid: 1afd718d-bca9-478c-b56e-413de0f15656
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner interface [Microsoft TV Technologies],put_Channel method, IMSVidAnalogTuner.put_Channel, IMSVidAnalogTuner::put_Channel, IMSVidAnalogTunerput_Channel, mstv.imsvidanalogtuner_put_channel, put_Channel, put_Channel method [Microsoft TV Technologies], put_Channel method [Microsoft TV Technologies],IMSVidAnalogTuner interface, segment/IMSVidAnalogTuner::put_Channel
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAnalogTuner.put_Channel"
+f1_keywords:
+- segment/IMSVidAnalogTuner.put_Channel
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAnalogTuner.put_Channel
+- IMSVidAnalogTuner.put_Channel
 targetos: Windows
 req.typenames: 
 req.redist: 

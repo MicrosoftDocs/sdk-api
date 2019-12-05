@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerUnregisterAppLocalDump
 title: WerUnregisterAppLocalDump function (werapi.h)
-
 description: Cancels the registration that was made by calling the WerRegisterAppLocalDump function to specify that Windows Error Reporting (WER) should save a copy of the diagnostic memory dump that WER collects when one of the processes for the application stops responding.
 old-location: wer\werunregisterapplocaldump.htm
 tech.root: wer
 ms.assetid: A3AD976A-9C44-494C-ABF0-90D151001E30
-
 ms.date: 12/05/2018
 ms.keywords: WerUnregisterAppLocalDump, WerUnregisterAppLocalDump function [Windows Error Reporting], wer.werunregisterapplocaldump, werapi/WerUnregisterAppLocalDump
 ms.topic: function
-f1_keywords: 
- - "werapi/WerUnregisterAppLocalDump"
+f1_keywords:
+- werapi/WerUnregisterAppLocalDump
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: KernelBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KernelBase.dll
- - Kernel32.dll
- - Api-ms-win-core-windowserrorreporting-l1.dll
+- KernelBase.dll
+- Kernel32.dll
+- Api-ms-win-core-windowserrorreporting-l1.dll
 api_name:
- - WerUnregisterAppLocalDump
+- WerUnregisterAppLocalDump
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.InitializeClientContextFromStringSid
 title: IAzApplication::InitializeClientContextFromStringSid (azroles.h)
-
 description: Gets an IAzClientContext object pointer from the specified security identifier (SID) in text form.
 old-location: security\iazapplication_initializeclientcontextfromstringsid.htm
 tech.root: SecAuthZ
 ms.assetid: b718b0bf-bb11-4485-a4d8-0a90aab62165
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],InitializeClientContextFromStringSid method, IAzApplication interface [Security],InitializeClientContextFromStringSid method, IAzApplication.InitializeClientContextFromStringSid, IAzApplication::InitializeClientContextFromStringSid, InitializeClientContextFromStringSid, InitializeClientContextFromStringSid method [Security], InitializeClientContextFromStringSid method [Security],AzApplication object, InitializeClientContextFromStringSid method [Security],IAzApplication interface, azroles/IAzApplication::InitializeClientContextFromStringSid, security.iazapplication_initializeclientcontextfromstringsid
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.InitializeClientContextFromStringSid"
+f1_keywords:
+- azroles/IAzApplication.InitializeClientContextFromStringSid
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.InitializeClientContextFromStringSid
- - AzApplication.InitializeClientContextFromStringSid
+- IAzApplication.InitializeClientContextFromStringSid
+- AzApplication.InitializeClientContextFromStringSid
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

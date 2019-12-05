@@ -1,19 +1,17 @@
 ---
 UID: NF:amaudio.IAMDirectSound.GetFocusWindow
 title: IAMDirectSound::GetFocusWindow (amaudio.h)
-
 description: The GetFocusWindow method retrieves the window that is handling sound playback.
 old-location: dshow\iamdirectsound_getfocuswindow.htm
 tech.root: DirectShow
 ms.assetid: e103abb3-01fc-452f-a151-0f2d24859fba
-
 ms.date: 12/05/2018
 ms.keywords: GetFocusWindow, GetFocusWindow method [DirectShow], GetFocusWindow method [DirectShow],IAMDirectSound interface, IAMDirectSound interface [DirectShow],GetFocusWindow method, IAMDirectSound.GetFocusWindow, IAMDirectSound::GetFocusWindow, IAMDirectSoundGetWindowFocus, amaudio/IAMDirectSound::GetFocusWindow, dshow.iamdirectsound_getfocuswindow
 ms.topic: method
-f1_keywords: 
- - "amaudio/IAMDirectSound.GetFocusWindow"
+f1_keywords:
+- amaudio/IAMDirectSound.GetFocusWindow
 dev_langs:
- - c++
+- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDirectSound.GetFocusWindow
+- IAMDirectSound.GetFocusWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

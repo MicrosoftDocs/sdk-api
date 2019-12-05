@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tag_SCRIPT_ANALYSIS
 title: SCRIPT_ANALYSIS (usp10.h)
-
 description: Contains a portion of a Unicode string, that is, an &#0034;item&#0034;.
 old-location: intl\script_analysis.htm
 tech.root: Intl
 ms.assetid: c673d5cc-c4ca-4238-8090-55abe3db324b
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_ANALYSIS, SCRIPT_ANALYSIS structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_ANALYSIS_str, intl.script_analysis, usp10/SCRIPT_ANALYSIS
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_ANALYSIS"
+f1_keywords:
+- usp10/SCRIPT_ANALYSIS
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_ANALYSIS
+- SCRIPT_ANALYSIS
 targetos: Windows
 req.typenames: SCRIPT_ANALYSIS
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

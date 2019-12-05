@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPI.SetApplicationPriority
 title: ITTAPI::SetApplicationPriority (tapi3if.h)
-
 description: The SetApplicationPriority method allows an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
 old-location: tapi3\ittapi_setapplicationpriority.htm
 tech.root: Tapi
 ms.assetid: ca049695-02d0-4b30-ad1f-60cdbf0a4dbd
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],SetApplicationPriority method, ITTAPI.SetApplicationPriority, ITTAPI::SetApplicationPriority, SetApplicationPriority, SetApplicationPriority method [TAPI 2.2], SetApplicationPriority method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_setapplicationpriority, tapi3.ittapi_setapplicationpriority, tapi3if/ITTAPI::SetApplicationPriority
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPI.SetApplicationPriority"
+f1_keywords:
+- tapi3if/ITTAPI.SetApplicationPriority
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI.SetApplicationPriority
+- ITTAPI.SetApplicationPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

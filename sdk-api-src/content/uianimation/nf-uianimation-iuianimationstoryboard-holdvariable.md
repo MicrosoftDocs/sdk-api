@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.HoldVariable
 title: IUIAnimationStoryboard::HoldVariable (uianimation.h)
-
 description: Directs the storyboard to hold the specified animation variable at its final value until the storyboard ends.
 old-location: uianimation\iuianimationstoryboard_holdvariable.htm
 tech.root: UIAnimation
 ms.assetid: ac5ee9c0-cecb-41f1-b8d3-6f779dfafef7
-
 ms.date: 12/05/2018
 ms.keywords: HoldVariable, HoldVariable method [Windows Animation], HoldVariable method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],HoldVariable method, IUIAnimationStoryboard.HoldVariable, IUIAnimationStoryboard::HoldVariable, uianimation.iuianimationstoryboard_holdvariable, uianimation/IUIAnimationStoryboard::HoldVariable
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.HoldVariable"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.HoldVariable
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.HoldVariable
+- IUIAnimationStoryboard.HoldVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

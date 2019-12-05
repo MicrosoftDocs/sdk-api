@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMute.SetMute
 title: IAudioEndpointOffloadStreamMute::SetMute (audioengineendpoint.h)
-
 description: The SetMute method sets the mute status of the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreammute_setmute.htm
 tech.root: CoreAudio
 ms.assetid: 43AF8146-BDF6-47F5-BD8F-DA46C4624D95
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamMute interface [Core Audio],SetMute method, IAudioEndpointOffloadStreamMute.SetMute, IAudioEndpointOffloadStreamMute::SetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioEndpointOffloadStreamMute interface, audioengineendpoint/IAudioEndpointOffloadStreamMute::SetMute, coreaudio.iaudioendpointoffloadstreammute_setmute
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointOffloadStreamMute.SetMute"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointOffloadStreamMute.SetMute
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamMute.SetMute
+- IAudioEndpointOffloadStreamMute.SetMute
 targetos: Windows
 req.typenames: 
 req.redist: 

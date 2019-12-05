@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt._MANDATORY_LEVEL
 title: MANDATORY_LEVEL (winnt.h)
-
 description: Lists the possible security levels.
 old-location: security\mandatory_level.htm
 tech.root: SecAuthZ
 ms.assetid: 0D6EC16C-F21E-4BED-AF57-93D282D6CF86
-
 ms.date: 12/05/2018
-ms.keywords: "*PMANDATORY_LEVEL, MANDATORY_LEVEL, MANDATORY_LEVEL enumeration [Security], MandatoryLevelCount, MandatoryLevelHigh, MandatoryLevelLow, MandatoryLevelMedium, MandatoryLevelSecureProcess, MandatoryLevelSystem, MandatoryLevelUntrusted, security.mandatory_level, winnt/MANDATORY_LEVEL, winnt/MandatoryLevelCount, winnt/MandatoryLevelHigh, winnt/MandatoryLevelLow, winnt/MandatoryLevelMedium, winnt/MandatoryLevelSecureProcess, winnt/MandatoryLevelSystem, winnt/MandatoryLevelUntrusted"
+ms.keywords: '*PMANDATORY_LEVEL, MANDATORY_LEVEL, MANDATORY_LEVEL enumeration [Security], MandatoryLevelCount, MandatoryLevelHigh, MandatoryLevelLow, MandatoryLevelMedium, MandatoryLevelSecureProcess, MandatoryLevelSystem, MandatoryLevelUntrusted, security.mandatory_level, winnt/MANDATORY_LEVEL, winnt/MandatoryLevelCount, winnt/MandatoryLevelHigh, winnt/MandatoryLevelLow, winnt/MandatoryLevelMedium, winnt/MandatoryLevelSecureProcess, winnt/MandatoryLevelSystem, winnt/MandatoryLevelUntrusted'
 ms.topic: enum
-f1_keywords: 
- - "winnt/MANDATORY_LEVEL"
+f1_keywords:
+- winnt/MANDATORY_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MANDATORY_LEVEL
+- MANDATORY_LEVEL
 targetos: Windows
 req.typenames: MANDATORY_LEVEL, *PMANDATORY_LEVEL
 req.redist: 

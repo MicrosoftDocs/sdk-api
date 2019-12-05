@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.PropVariantClear
 title: PropVariantClear function (propidl.h)
-
 description: Clears a PROPVARIANT structure.
 old-location: properties\PropVariantClear.htm
 tech.root: properties
 ms.assetid: 68b00e4b-39d3-49e3-8a0d-032edcb23b06
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantClear, PropVariantClear function [Windows Properties], _shell_PropVariantClear, properties.PropVariantClear, propidl/PropVariantClear, shell.PropVariantClear
 ms.topic: function
-f1_keywords: 
- - "propidl/PropVariantClear"
+f1_keywords:
+- propidl/PropVariantClear
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - PropVariantClear
+- PropVariantClear
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

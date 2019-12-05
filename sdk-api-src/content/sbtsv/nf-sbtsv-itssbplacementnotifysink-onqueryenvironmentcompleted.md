@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted
 title: ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted (sbtsv.h)
-
 description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that the environment specified by the ITsSbClientConnection object is already hosting the correct target.
 old-location: termserv\itssbplacementnotifysink_onqueryenvironmentcompleted.htm
 tech.root: TermServ
 ms.assetid: 937982aa-7655-4681-ba6c-94201743c90c
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbPlacementNotifySink interface [Remote Desktop Services],OnQueryEnvironmentCompleted method, ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted, ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, OnQueryEnvironmentCompleted, OnQueryEnvironmentCompleted method [Remote Desktop Services], OnQueryEnvironmentCompleted method [Remote Desktop Services],ITsSbPlacementNotifySink interface, sbtsv/ITsSbPlacementNotifySink::OnQueryEnvironmentCompleted, termserv.itssbplacementnotifysink_onqueryenvironmentcompleted
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted"
+f1_keywords:
+- sbtsv/ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted
+- ITsSbPlacementNotifySink.OnQueryEnvironmentCompleted
 targetos: Windows
 req.typenames: 
 req.redist: 

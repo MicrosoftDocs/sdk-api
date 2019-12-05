@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IWriteSpeedDescriptor.get_MediaType
 title: IWriteSpeedDescriptor::get_MediaType (imapi2.h)
-
 description: Retrieves type of media in the current drive.
 old-location: imapi\iwritespeeddescriptor_get_mediatype.htm
 tech.root: imapi
 ms.assetid: 4608fb27-8d8c-4ccc-9838-bdbe9dadee83
-
 ms.date: 12/05/2018
 ms.keywords: IWriteSpeedDescriptor interface [IMAPI],get_MediaType method, IWriteSpeedDescriptor.get_MediaType, IWriteSpeedDescriptor::get_MediaType, get_MediaType, get_MediaType method [IMAPI], get_MediaType method [IMAPI],IWriteSpeedDescriptor interface, imapi.iwritespeeddescriptor_get_mediatype, imapi2/IWriteSpeedDescriptor::get_MediaType
 ms.topic: method
 f1_keywords:
 - imapi2/IWriteSpeedDescriptor.get_MediaType
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

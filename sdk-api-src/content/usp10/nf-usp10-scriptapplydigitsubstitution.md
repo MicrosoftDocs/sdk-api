@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptApplyDigitSubstitution
 title: ScriptApplyDigitSubstitution function (usp10.h)
-
 description: Applies the specified digit substitution settings to the specified script control and script state structures.
 old-location: intl\scriptapplydigitsubstitution.htm
 tech.root: Intl
 ms.assetid: 486b8a56-eb14-48c3-b2f0-f5494f79baea
-
 ms.date: 12/05/2018
 ms.keywords: ScriptApplyDigitSubstitution, ScriptApplyDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptApplyDigitSubstitution, intl.scriptapplydigitsubstitution, usp10/ScriptApplyDigitSubstitution
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptApplyDigitSubstitution"
+f1_keywords:
+- usp10/ScriptApplyDigitSubstitution
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptApplyDigitSubstitution
+- ScriptApplyDigitSubstitution
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

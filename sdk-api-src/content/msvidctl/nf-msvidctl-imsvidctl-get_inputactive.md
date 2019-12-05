@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_InputActive
 title: IMSVidCtl::get_InputActive (msvidctl.h)
-
 description: The get_InputActive method retrieves the input device that is currently active.
 old-location: mstv\imsvidctl_get_inputactive.htm
 tech.root: mstv
 ms.assetid: 3451002b-5339-4b43-aefd-d66c48f7ae57
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_InputActive method, IMSVidCtl.get_InputActive, IMSVidCtl::get_InputActive, IMSVidCtlget_InputActive, get_InputActive, get_InputActive method [Microsoft TV Technologies], get_InputActive method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_inputactive, msvidctl/IMSVidCtl::get_InputActive
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_InputActive"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_InputActive
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_InputActive
+- IMSVidCtl.get_InputActive
 targetos: Windows
 req.typenames: 
 req.redist: 

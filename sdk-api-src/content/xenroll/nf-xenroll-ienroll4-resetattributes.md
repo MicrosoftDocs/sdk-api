@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.resetAttributes
 title: IEnroll4::resetAttributes (xenroll.h)
-
 description: Removes all attributes from the request.
 old-location: security\ienroll4_resetattributes.htm
 tech.root: SecCrypto
 ms.assetid: f9da2371-441e-45c7-9723-39d01b6ece27
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],resetAttributes method, IEnroll4.resetAttributes, IEnroll4::resetAttributes, resetAttributes, resetAttributes method [Security], resetAttributes method [Security],IEnroll4 interface, security.ienroll4_resetattributes, xenroll/IEnroll4::resetAttributes
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.resetAttributes"
+f1_keywords:
+- xenroll/IEnroll4.resetAttributes
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.resetAttributes
+- IEnroll4.resetAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

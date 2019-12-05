@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnSecurityConfigChange
 title: _IFaxServerNotify2::OnSecurityConfigChange (faxcomex.h)
-
 description: The fax service calls the IFaxServerNotify2::OnSecurityConfigChange method when there is a configuration change related to security.
 old-location: fax\_mfax_ifaxservernotify2_onsecurityconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onsecurityconfigchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnSecurityConfigChange method, IFaxServerNotify2.OnSecurityConfigChange, IFaxServerNotify2::OnSecurityConfigChange, OnSecurityConfigChange, OnSecurityConfigChange method [Fax Service], OnSecurityConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnSecurityConfigChange, _IFaxServerNotify2::OnSecurityConfigChange, _mfax_ifaxservernotify2_onsecurityconfigchange, fax._mfax_ifaxservernotify2_onsecurityconfigchange, faxcomex/IFaxServerNotify2::OnSecurityConfigChange
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnSecurityConfigChange"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnSecurityConfigChange
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnSecurityConfigChange
- - IFaxServerNotify2.OnSecurityConfigChange
+- IFaxServerNotify2.OnSecurityConfigChange
+- IFaxServerNotify2.OnSecurityConfigChange
 targetos: Windows
 req.typenames: 
 req.redist: 

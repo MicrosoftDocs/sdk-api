@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_ScheduledTime
 title: IFaxOutgoingJob::get_ScheduledTime (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_ScheduledTime property indicates the time to submit the fax for processing to the fax service.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_scheduledtime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1p2d.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingJob interface [Fax Service],ScheduledTime property, IFaxOutgoingJob.ScheduledTime, IFaxOutgoingJob.get_ScheduledTime, IFaxOutgoingJob::ScheduledTime, IFaxOutgoingJob::get_ScheduledTime, ScheduledTime property [Fax Service], ScheduledTime property [Fax Service],IFaxOutgoingJob interface, _mfax_faxoutgoingjob.scheduledtime, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_scheduledtime_cpp, fax._mfax_faxoutgoingjob_scheduledtime, faxcomex/IFaxOutgoingJob::ScheduledTime, faxcomex/IFaxOutgoingJob::get_ScheduledTime, get_ScheduledTime
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.ScheduledTime"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.ScheduledTime
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.ScheduledTime
- - IFaxOutgoingJob.get_ScheduledTime
- - IFaxOutgoingJob.get_ScheduledTime
+- IFaxOutgoingJob.ScheduledTime
+- IFaxOutgoingJob.get_ScheduledTime
+- IFaxOutgoingJob.get_ScheduledTime
 targetos: Windows
 req.typenames: 
 req.redist: 

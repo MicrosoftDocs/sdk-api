@@ -1,19 +1,17 @@
 ---
 UID: NF:amaudio.IAMDirectSound.SetFocusWindow
 title: IAMDirectSound::SetFocusWindow (amaudio.h)
-
 description: The SetFocusWindow method specifies a window to handle sound playback.
 old-location: dshow\iamdirectsound_setfocuswindow.htm
 tech.root: DirectShow
 ms.assetid: 3fc9dbb3-83bb-4c46-8ada-a7b7b8a784fe
-
 ms.date: 12/05/2018
 ms.keywords: IAMDirectSound interface [DirectShow],SetFocusWindow method, IAMDirectSound.SetFocusWindow, IAMDirectSound::SetFocusWindow, IAMDirectSoundSetWindowFocus, SetFocusWindow, SetFocusWindow method [DirectShow], SetFocusWindow method [DirectShow],IAMDirectSound interface, amaudio/IAMDirectSound::SetFocusWindow, dshow.iamdirectsound_setfocuswindow
 ms.topic: method
-f1_keywords: 
- - "amaudio/IAMDirectSound.SetFocusWindow"
+f1_keywords:
+- amaudio/IAMDirectSound.SetFocusWindow
 dev_langs:
- - c++
+- c++
 req.header: amaudio.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMDirectSound.SetFocusWindow
+- IAMDirectSound.SetFocusWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

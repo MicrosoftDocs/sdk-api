@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetConditionType
 title: IPropertyDescription::GetConditionType (propsys.h)
-
 description: Gets the condition type and default condition operation to use when displaying the property in the query builder UI. This influences the list of predicate conditions (for example, equals, less than, and contains) that are shown for this property.
 old-location: properties\IPropertyDescription_GetConditionType.htm
 tech.root: properties
 ms.assetid: d71bfed8-22e4-4dde-ba88-4bedfe07af62
-
 ms.date: 12/05/2018
 ms.keywords: GetConditionType, GetConditionType method [Windows Properties], GetConditionType method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetConditionType method, IPropertyDescription.GetConditionType, IPropertyDescription::GetConditionType, properties.IPropertyDescription_GetConditionType, propsys/IPropertyDescription::GetConditionType, shell.IPropertyDescription_GetConditionType, shell_IPropertyDescription_GetConditionType
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetConditionType"
+f1_keywords:
+- propsys/IPropertyDescription.GetConditionType
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetConditionType
+- IPropertyDescription.GetConditionType
 targetos: Windows
 req.typenames: 
 req.redist: 

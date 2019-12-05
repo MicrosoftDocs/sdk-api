@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.FOLDER_ENUM_MODE
 title: FOLDER_ENUM_MODE (shobjidl_core.h)
-
 description: Used by IObjectWithFolderEnumMode::GetMode and IObjectWithFolderEnumMode::SetMode methods to get and set the display modes for the folders.
 old-location: shell\FOLDER_ENUM_MODE.htm
 tech.root: shell
 ms.assetid: ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a
-
 ms.date: 12/05/2018
 ms.keywords: FEM_NAVIGATION, FEM_VIEWRESULT, FOLDER_ENUM_MODE, FOLDER_ENUM_MODE enumeration [Windows Shell], _shell_FOLDER_ENUM_MODE, shell.FOLDER_ENUM_MODE, shobjidl_core/FEM_NAVIGATION, shobjidl_core/FEM_VIEWRESULT, shobjidl_core/FOLDER_ENUM_MODE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/FOLDER_ENUM_MODE"
+f1_keywords:
+- shobjidl_core/FOLDER_ENUM_MODE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - FOLDER_ENUM_MODE
+- FOLDER_ENUM_MODE
 targetos: Windows
 req.typenames: FOLDER_ENUM_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_GetOverlappedResult
 title: WinUsb_GetOverlappedResult function (winusb.h)
-
 description: The WinUsb_GetOverlappedResult function retrieves the results of an overlapped operation on the specified file.
 old-location: buses\winusb_getoverlappedresult.htm
 tech.root: usbref
 ms.assetid: e6078b1f-0921-4e1f-a444-f8a1481c8f8a
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetOverlappedResult, WinUsb_GetOverlappedResult function [Buses], buses.winusb_getoverlappedresult, winusb/WinUsb_GetOverlappedResult, winusbfunc_197c2ea2-c5fd-4a19-b4e5-00c373231606.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_GetOverlappedResult"
+f1_keywords:
+- winusb/WinUsb_GetOverlappedResult
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_GetOverlappedResult
+- WinUsb_GetOverlappedResult
 targetos: Windows
 req.typenames: 
 req.redist: 

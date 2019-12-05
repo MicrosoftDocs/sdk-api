@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamSetFormat
 title: AVIStreamSetFormat function (vfw.h)
-
 description: The AVIStreamSetFormat function sets the format of a stream at the specified position.
 old-location: multimedia\avistreamsetformat.htm
 tech.root: Multimedia
 ms.assetid: b896f674-823d-49c9-8e48-c5081e37a13a
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSetFormat, AVIStreamSetFormat function [Windows Multimedia], _win32_AVIStreamSetFormat, multimedia.avistreamsetformat, vfw/AVIStreamSetFormat
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamSetFormat"
+f1_keywords:
+- vfw/AVIStreamSetFormat
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIStreamSetFormat
+- AVIStreamSetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

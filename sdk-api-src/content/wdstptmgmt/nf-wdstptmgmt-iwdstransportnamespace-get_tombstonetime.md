@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_TombstoneTime
 title: IWdsTransportNamespace::get_TombstoneTime (wdstptmgmt.h)
-
 description: Returns the UTC date and time when the server saved the namespace object of a deregistered namespace.
 old-location: wds\iwdstransportnamespace_tombstonetime.htm
 tech.root: wds
 ms.assetid: 95516e2b-40e3-4da8-9ca0-0f96a8e6cb13
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],TombstoneTime property, IWdsTransportNamespace.TombstoneTime, IWdsTransportNamespace.get_TombstoneTime, IWdsTransportNamespace::TombstoneTime, IWdsTransportNamespace::get_TombstoneTime, TombstoneTime property [Windows Deployment Services], TombstoneTime property [Windows Deployment Services],IWdsTransportNamespace interface, get_TombstoneTime, wds.iwdstransportnamespace_tombstonetime, wdstptmgmt/IWdsTransportNamespace::TombstoneTime, wdstptmgmt/IWdsTransportNamespace::get_TombstoneTime
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.TombstoneTime"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.TombstoneTime
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.TombstoneTime
- - IWdsTransportNamespace.get_TombstoneTime
+- IWdsTransportNamespace.TombstoneTime
+- IWdsTransportNamespace.get_TombstoneTime
 targetos: Windows
 req.typenames: 
 req.redist: 

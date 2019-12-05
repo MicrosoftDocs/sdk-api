@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.GetMediaTime
 title: IMediaSample::GetMediaTime (strmif.h)
-
 description: The GetMediaTime method retrieves the media times for this sample.
 old-location: dshow\imediasample_getmediatime.htm
 tech.root: DirectShow
 ms.assetid: eb2a8fd4-4a25-482c-8509-f43461c708d6
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaTime, GetMediaTime method [DirectShow], GetMediaTime method [DirectShow],IMediaSample interface, IMediaSample interface [DirectShow],GetMediaTime method, IMediaSample.GetMediaTime, IMediaSample::GetMediaTime, IMediaSampleGetMediaTime, dshow.imediasample_getmediatime, strmif/IMediaSample::GetMediaTime
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.GetMediaTime"
+f1_keywords:
+- strmif/IMediaSample.GetMediaTime
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.GetMediaTime
+- IMediaSample.GetMediaTime
 targetos: Windows
 req.typenames: 
 req.redist: 

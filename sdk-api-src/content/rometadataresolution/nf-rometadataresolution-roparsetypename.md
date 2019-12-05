@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataresolution.RoParseTypeName
 title: RoParseTypeName function (rometadataresolution.h)
-
 description: Parses a type name and existing type parameters, in the case of parameterized types.
 old-location: winrt\roparsetypename.htm
 tech.root: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A
-
 ms.date: 12/05/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
 ms.topic: function
-f1_keywords: 
- - "rometadataresolution/RoParseTypeName"
+f1_keywords:
+- rometadataresolution/RoParseTypeName
 dev_langs:
- - c++
+- c++
 req.header: rometadataresolution.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: WinTypes.lib
 req.dll: WinTypes.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WinTypes.dll
- - API-MS-Win-ro-typeresolution-l1-1-0.dll
- - Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
+- WinTypes.dll
+- API-MS-Win-ro-typeresolution-l1-1-0.dll
+- Ext-MS-Win-Ro-TypeResolution-L1-1-0.dll
 api_name:
- - RoParseTypeName
+- RoParseTypeName
 targetos: Windows
 req.typenames: 
 req.redist: 

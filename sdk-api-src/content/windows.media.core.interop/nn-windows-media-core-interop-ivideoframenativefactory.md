@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.core.interop.IVideoFrameNativeFactory
 title: IVideoFrameNativeFactory (windows.media.core.interop.h)
-
 description: Creates instances of IVideoFrameNative.
 old-location: winrt\ivideoframenativefactory.htm
 tech.root: WinRT
 ms.assetid: A884D0B5-6E12-4225-A46B-DD0C0A77B58E
-
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameNativeFactory, IVideoFrameNativeFactory interface [Windows Runtime], IVideoFrameNativeFactory interface [Windows Runtime],described, windows/IVideoFrameNativeFactory, winrt.ivideoframenativefactory
 ms.topic: interface
-f1_keywords: 
- - "windows.media.core.interop/IVideoFrameNativeFactory"
+f1_keywords:
+- windows.media.core.interop/IVideoFrameNativeFactory
 dev_langs:
- - c++
+- c++
 req.header: windows.media.core.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.core.interop.h
+- windows.media.core.interop.h
 api_name:
- - IVideoFrameNativeFactory
+- IVideoFrameNativeFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

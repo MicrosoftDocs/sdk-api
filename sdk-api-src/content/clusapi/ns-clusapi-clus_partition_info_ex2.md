@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_PARTITION_INFO_EX2
 title: CLUS_PARTITION_INFO_EX2 (clusapi.h)
-
 description: Describes the disk partition information of a storage class resource.
 old-location: mscs\clus_partition_info_ex2.htm
 tech.root: MsCS
 ms.assetid: 1B6690DB-9D23-4D0C-98B7-3066C5452CD1
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_PARTITION_INFO_EX2, BitLockerDecrypted, BitLockerDecrypting, BitLockerEnabled, BitLockerEncrypted, BitLockerEncrypting, BitLockerFlagsAll, BitLockerPaused, BitLockerStopped, CLUS_PARTITION_INFO_EX2, CLUS_PARTITION_INFO_EX2 structure [Failover Cluster], PCLUS_PARTITION_INFO_EX2, PCLUS_PARTITION_INFO_EX2 structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX2, clusapi/PCLUS_PARTITION_INFO_EX2, mscs.clus_partition_info_ex2"
+ms.keywords: '*PCLUS_PARTITION_INFO_EX2, BitLockerDecrypted, BitLockerDecrypting, BitLockerEnabled, BitLockerEncrypted, BitLockerEncrypting, BitLockerFlagsAll, BitLockerPaused, BitLockerStopped, CLUS_PARTITION_INFO_EX2, CLUS_PARTITION_INFO_EX2 structure [Failover Cluster], PCLUS_PARTITION_INFO_EX2, PCLUS_PARTITION_INFO_EX2 structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX2, clusapi/PCLUS_PARTITION_INFO_EX2, mscs.clus_partition_info_ex2'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_PARTITION_INFO_EX2"
+f1_keywords:
+- clusapi/CLUS_PARTITION_INFO_EX2
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_PARTITION_INFO_EX2
+- CLUS_PARTITION_INFO_EX2
 targetos: Windows
 req.typenames: CLUS_PARTITION_INFO_EX2, *PCLUS_PARTITION_INFO_EX2
 req.redist: 

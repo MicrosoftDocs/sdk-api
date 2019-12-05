@@ -1,19 +1,17 @@
 ---
 UID: NN:holographicspaceinterop.IHolographicSpaceInterop
 title: IHolographicSpaceInterop (holographicspaceinterop.h)
-
 description: Enables interoperability with a Universal Windows Platform (UWP) HolographicSpace object and provides access to HolographicSpace members for representing a holographic scene.
 old-location: mixedreality\iholographicspaceinterop.htm
 tech.root: MixedReality
 ms.assetid: 119299C1-ECD9-46BA-B499-66890225E4E0
-
 ms.date: 01/25/2019
 ms.keywords: IHolographicSpaceInterop, IHolographicSpaceInterop interface, IHolographicSpaceInterop interface,described, MixedReality.iholographicspaceinterop, holographicspaceinterop/IHolographicSpaceInterop
 ms.topic: interface
-f1_keywords: 
- - "holographicspaceinterop/IHolographicSpaceInterop"
+f1_keywords:
+- holographicspaceinterop/IHolographicSpaceInterop
 dev_langs:
- - c++
+- c++
 req.header: holographicspaceinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - HolographicSpaceInterop.h
+- HolographicSpaceInterop.h
 api_name:
- - IHolographicSpaceInterop
+- IHolographicSpaceInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

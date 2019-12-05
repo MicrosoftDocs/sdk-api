@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_OAEP_PADDING_INFO
 title: BCRYPT_OAEP_PADDING_INFO (bcrypt.h)
-
 description: Used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.
 old-location: security\bcrypt_oaep_padding_info.htm
 tech.root: SecCNG
 ms.assetid: 19f48f2d-e952-4a01-8112-f298c79919b2
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_OAEP_PADDING_INFO, BCRYPT_OAEP_PADDING_INFO structure [Security], bcrypt/BCRYPT_OAEP_PADDING_INFO, security.bcrypt_oaep_padding_info
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_OAEP_PADDING_INFO"
+f1_keywords:
+- bcrypt/BCRYPT_OAEP_PADDING_INFO
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_OAEP_PADDING_INFO
+- BCRYPT_OAEP_PADDING_INFO
 targetos: Windows
 req.typenames: BCRYPT_OAEP_PADDING_INFO
 req.redist: 

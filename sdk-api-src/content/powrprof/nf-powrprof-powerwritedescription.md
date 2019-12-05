@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerWriteDescription
 title: PowerWriteDescription function (powrprof.h)
-
 description: Sets the description for the specified power setting, subgroup, or scheme.
 old-location: base\powerwritedescription.htm
 tech.root: power
 ms.assetid: 42ee26ac-1a9c-4390-92e8-879b401168c7
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteDescription, PowerWriteDescription function, base.powerwritedescription, powrprof/PowerWriteDescription
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerWriteDescription"
+f1_keywords:
+- powrprof/PowerWriteDescription
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerWriteDescription
+- PowerWriteDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

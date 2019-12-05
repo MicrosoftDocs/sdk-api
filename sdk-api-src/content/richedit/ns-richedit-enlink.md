@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._enlink
 title: ENLINK (richedit.h)
-
 description: Contains information about an EN_LINK notification code from a rich edit control.
 old-location: controls\ENLINK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enlink.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENLINK, ENLINK structure [Windows Controls], _win32_ENLINK_str, _win32_ENLINK_str_cpp, controls.ENLINK, controls._win32_ENLINK_str, richedit/ENLINK
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENLINK"
+f1_keywords:
+- richedit/ENLINK
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENLINK
+- ENLINK
 targetos: Windows
 req.typenames: ENLINK
 req.redist: 

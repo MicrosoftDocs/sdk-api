@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.CancelNtmsLibraryRequest
 title: CancelNtmsLibraryRequest function (ntmsapi.h)
-
 description: The CancelNtmsLibraryRequest function cancels outstanding RSM requests, such as calls to the CleanNtmsDrive function. If the library is busy, RSM queues the cancellation and returns success.
 old-location: fs\cancelntmslibraryrequest.htm
 tech.root: Rsm
 ms.assetid: 99626e6f-2716-4e36-b4ec-3fef0315ea41
-
 ms.date: 12/05/2018
 ms.keywords: CancelNtmsLibraryRequest, CancelNtmsLibraryRequest function [Files], _zaw_cancelntmslibraryrequest, base.cancelntmslibraryrequest, fs.cancelntmslibraryrequest, ntmsapi/CancelNtmsLibraryRequest
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/CancelNtmsLibraryRequest"
+f1_keywords:
+- ntmsapi/CancelNtmsLibraryRequest
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - CancelNtmsLibraryRequest
+- CancelNtmsLibraryRequest
 targetos: Windows
 req.typenames: 
 req.redist: 

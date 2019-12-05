@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.Image(IN const Image &)
 title: Image::Image(IN const Image &) (gdiplusheaders.h)
-
 description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
 old-location: gdiplus\_gdiplus_CLASS_Image_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imageconstructors.htm
-
 ms.date: 12/05/2018
 ms.keywords: Image, Image constructors [GDI+], Image.Image, Image.Image(IN const Image &), Image::Image, Image::Image(IN const Image &), _gdiplus_CLASS_Image_Constructors, gdiplus._gdiplus_CLASS_Image_Constructors, gdiplusheaders/Image
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.Image"
+f1_keywords:
+- gdiplusheaders/Image.Image
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Image.Image
+- Image.Image
 targetos: Windows
 req.typenames: 
 req.redist: 

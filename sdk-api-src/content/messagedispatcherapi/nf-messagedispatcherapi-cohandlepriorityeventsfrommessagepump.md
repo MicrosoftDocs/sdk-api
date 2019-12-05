@@ -1,19 +1,17 @@
 ---
 UID: NF:messagedispatcherapi.CoHandlePriorityEventsFromMessagePump
 title: CoHandlePriorityEventsFromMessagePump function (messagedispatcherapi.h)
-
 description: Called by message dispatchers on an ASTA thread after dispatching a windows message to provide an opportunity for short-running infrastructural COM calls and other high-priority or short-running COM work to be dispatched between messages.
 old-location: com\cohandlepriorityeventsfrommessagepump.htm
 tech.root: com
 ms.assetid: 24EA766D-82F8-4E57-AAB8-A06ECE644319
-
 ms.date: 12/05/2018
 ms.keywords: CoHandlePriorityEventsFromMessagePump, CoHandlePriorityEventsFromMessagePump function [COM], com.cohandlepriorityeventsfrommessagepump, messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
 ms.topic: function
-f1_keywords: 
- - "messagedispatcherapi/CoHandlePriorityEventsFromMessagePump"
+f1_keywords:
+- messagedispatcherapi/CoHandlePriorityEventsFromMessagePump
 dev_langs:
- - c++
+- c++
 req.header: messagedispatcherapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ole32.dll
+- ole32.dll
 api_name:
- - CoHandlePriorityEventsFromMessagePump
+- CoHandlePriorityEventsFromMessagePump
 targetos: Windows
 req.typenames: 
 req.redist: 

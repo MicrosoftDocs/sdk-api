@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluseffects.RedEyeCorrection
 title: RedEyeCorrection (gdipluseffects.h)
-
 description: The RedEyeCorrection class enables you to correct the red eyes that sometimes occur in flash photographs.
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrection.htm
-
 ms.date: 12/05/2018
 ms.keywords: RedEyeCorrection, RedEyeCorrection class [GDI+], RedEyeCorrection class [GDI+],described, _gdiplus_CLASS_RedEyeCorrection_Class, gdiplus._gdiplus_CLASS_RedEyeCorrection_Class, gdipluseffects/RedEyeCorrection
 ms.topic: class
-f1_keywords: 
- - "gdipluseffects/RedEyeCorrection"
+f1_keywords:
+- gdipluseffects/RedEyeCorrection
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluseffects.h
+- gdipluseffects.h
 api_name:
- - RedEyeCorrection
+- RedEyeCorrection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IExtendPropertySheet.QueryPagesFor
 title: IExtendPropertySheet::QueryPagesFor (mmc.h)
-
 description: Determines whether the object requires pages.
 old-location: mmc\iextendpropertysheet_querypagesfor.htm
 tech.root: mmc
 ms.assetid: F21A0AA2-8F79-4AEA-A5B1-8D650BE14C9F
-
 ms.date: 12/05/2018
 ms.keywords: IExtendPropertySheet interface [MMC],QueryPagesFor method, IExtendPropertySheet.QueryPagesFor, IExtendPropertySheet::QueryPagesFor, QueryPagesFor, QueryPagesFor method [MMC], QueryPagesFor method [MMC],IExtendPropertySheet interface, mmc.iextendpropertysheet_querypagesfor, mmc/IExtendPropertySheet::QueryPagesFor
 ms.topic: method
-f1_keywords: 
- - "mmc/IExtendPropertySheet.QueryPagesFor"
+f1_keywords:
+- mmc/IExtendPropertySheet.QueryPagesFor
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendPropertySheet.QueryPagesFor
+- IExtendPropertySheet.QueryPagesFor
 targetos: Windows
 req.typenames: 
 req.redist: 

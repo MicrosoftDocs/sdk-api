@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IBrowserFrameOptions
 title: IBrowserFrameOptions (shobjidl_core.h)
-
 description: Allows a browser or host to ask IShellView what kind of view behavior is supported.
 old-location: shell\IBrowserFrameOptions.htm
 tech.root: shell
 ms.assetid: ef5773fb-8b89-4034-9059-06b107dbd76d
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserFrameOptions, IBrowserFrameOptions interface [Windows Shell], IBrowserFrameOptions interface [Windows Shell],described, _shell_IBrowserFrameOptions, shell.IBrowserFrameOptions, shobjidl_core/IBrowserFrameOptions
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IBrowserFrameOptions"
+f1_keywords:
+- shobjidl_core/IBrowserFrameOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IBrowserFrameOptions
+- IBrowserFrameOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

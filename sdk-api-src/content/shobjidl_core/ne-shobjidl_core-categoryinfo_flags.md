@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.CATEGORYINFO_FLAGS
 title: CATEGORYINFO_FLAGS (shobjidl_core.h)
-
 description: Provides a set of flags for use with the CATEGORY_INFO structure.
 old-location: shell\CATEGORYINFO_FLAGS.htm
 tech.root: shell
 ms.assetid: 6179ed67-905a-454a-a226-fe1e5070e39f
-
 ms.date: 12/05/2018
 ms.keywords: CATEGORYINFO_FLAGS, CATEGORYINFO_FLAGS enumeration [Windows Shell], CATINFO_COLLAPSED, CATINFO_EXPANDED, CATINFO_HIDDEN, CATINFO_NOHEADER, CATINFO_NOHEADERCOUNT, CATINFO_NORMAL, CATINFO_NOTCOLLAPSIBLE, CATINFO_SUBSETTED, inet_CATEGORYINFO_FLAGS, shell.CATEGORYINFO_FLAGS, shobjidl_core/CATEGORYINFO_FLAGS, shobjidl_core/CATINFO_COLLAPSED, shobjidl_core/CATINFO_EXPANDED, shobjidl_core/CATINFO_HIDDEN, shobjidl_core/CATINFO_NOHEADER, shobjidl_core/CATINFO_NOHEADERCOUNT, shobjidl_core/CATINFO_NORMAL, shobjidl_core/CATINFO_NOTCOLLAPSIBLE, shobjidl_core/CATINFO_SUBSETTED
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/CATEGORYINFO_FLAGS"
+f1_keywords:
+- shobjidl_core/CATEGORYINFO_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - CATEGORYINFO_FLAGS
+- CATEGORYINFO_FLAGS
 targetos: Windows
 req.typenames: CATEGORYINFO_FLAGS
 req.redist: 

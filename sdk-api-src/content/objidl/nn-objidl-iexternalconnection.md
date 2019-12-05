@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IExternalConnection
 title: IExternalConnection (objidl.h)
-
 description: Manages a server object's count of marshaled, or external, connections. A server that maintains such a count can detect when it has no external connections and shut itself down in an orderly fashion.
 old-location: com\iexternalconnection.htm
 tech.root: com
 ms.assetid: 28afc305-d5b0-4ac9-9412-5876e575c2c2
-
 ms.date: 12/05/2018
 ms.keywords: IExternalConnection, IExternalConnection interface [COM], IExternalConnection interface [COM],described, _com_iexternalconnection, com.iexternalconnection, objidlbase/IExternalConnection
 ms.topic: interface
-f1_keywords: 
- - "objidl/IExternalConnection"
+f1_keywords:
+- objidl/IExternalConnection
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IExternalConnection
+- IExternalConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

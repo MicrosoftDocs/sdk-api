@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptString_pcOutChars
 title: ScriptString_pcOutChars function (usp10.h)
-
 description: Returns a pointer to the length of a string after clipping.
 old-location: intl\scriptstring_pcoutchars.htm
 tech.root: Intl
 ms.assetid: ad3f15cc-d4e9-4e71-a8c8-287bd62e9b15
-
 ms.date: 12/05/2018
 ms.keywords: ScriptString_pcOutChars, ScriptString_pcOutChars function [Internationalization for Windows Applications], _win32_ScriptString_pcOutChars, intl.scriptstring_pcoutchars, usp10/ScriptString_pcOutChars
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptString_pcOutChars"
+f1_keywords:
+- usp10/ScriptString_pcOutChars
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptString_pcOutChars
+- ScriptString_pcOutChars
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

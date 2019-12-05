@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IChangeUnitListFilterInfo.Initialize
 title: IChangeUnitListFilterInfo::Initialize (winsync.h)
-
 description: Initializes a new instance of the IChangeUnitListFilterInfo class that contains the specified array of change unit IDs.
 old-location: winsync\ichangeunitlistfilterinfo_initialize.htm
 tech.root: winsync
 ms.assetid: ee3f86dc-8f5a-4b9b-ac06-b836898392ba
-
 ms.date: 12/05/2018
 ms.keywords: IChangeUnitListFilterInfo interface [Windows Sync],Initialize method, IChangeUnitListFilterInfo.Initialize, IChangeUnitListFilterInfo::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IChangeUnitListFilterInfo interface, winsync.ichangeunitlistfilterinfo_initialize, winsync/IChangeUnitListFilterInfo::Initialize
 ms.topic: method
-f1_keywords: 
- - "winsync/IChangeUnitListFilterInfo.Initialize"
+f1_keywords:
+- winsync/IChangeUnitListFilterInfo.Initialize
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeUnitListFilterInfo.Initialize
+- IChangeUnitListFilterInfo.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

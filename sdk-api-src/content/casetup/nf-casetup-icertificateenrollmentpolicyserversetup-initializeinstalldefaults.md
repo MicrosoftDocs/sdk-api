@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
 title: ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults (casetup.h)
-
 description: Initializes the ICertificateEnrollmentPolicyServerSetup object with a default configuration.
 old-location: security\icertificateenrollmentpolicyserversetup_initializeinstalldefaults.htm
 tech.root: SecCrypto
 ms.assetid: C7E82D9B-DC1A-4268-8973-5D07D977451D
-
 ms.date: 12/05/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup interface [Security],InitializeInstallDefaults method, ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults, ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, InitializeInstallDefaults, InitializeInstallDefaults method [Security], InitializeInstallDefaults method [Security],ICertificateEnrollmentPolicyServerSetup interface, casetup/ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults, security.icertificateenrollmentpolicyserversetup_initializeinstalldefaults
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults"
+f1_keywords:
+- casetup/ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
+- ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
 targetos: Windows
 req.typenames: 
 req.redist: 

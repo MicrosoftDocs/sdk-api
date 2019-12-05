@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IReferenceClock
 title: IReferenceClock (strmif.h)
-
 description: The IReferenceClock interface provides the reference time for the filter graph.Filters that can act as a reference clock can expose this interface.
 old-location: dshow\ireferenceclock.htm
 tech.root: DirectShow
 ms.assetid: 9818c67d-dfbe-4498-a744-d2efaa4bfb58
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceClock, IReferenceClock interface [DirectShow], IReferenceClock interface [DirectShow],described, IReferenceClockInterface, dshow.ireferenceclock, strmif/IReferenceClock
 ms.topic: interface
-f1_keywords: 
- - "strmif/IReferenceClock"
+f1_keywords:
+- strmif/IReferenceClock
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IReferenceClock
+- IReferenceClock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetDestinationRectangle
 title: IMFVideoProcessorControl::SetDestinationRectangle (mfidl.h)
-
 description: Sets the destination rectangle.
 old-location: mf\imfvideoprocessorcontrol_setdestinationrectangle.htm
 tech.root: medfound
 ms.assetid: 8AD1BDF4-2508-4A99-85A1-9DBC969D511B
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoProcessorControl interface [Media Foundation],SetDestinationRectangle method, IMFVideoProcessorControl.SetDestinationRectangle, IMFVideoProcessorControl::SetDestinationRectangle, SetDestinationRectangle, SetDestinationRectangle method [Media Foundation], SetDestinationRectangle method [Media Foundation],IMFVideoProcessorControl interface, mf.imfvideoprocessorcontrol_setdestinationrectangle, mfidl/IMFVideoProcessorControl::SetDestinationRectangle
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl.SetDestinationRectangle"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl.SetDestinationRectangle
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl.SetDestinationRectangle
+- IMFVideoProcessorControl.SetDestinationRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

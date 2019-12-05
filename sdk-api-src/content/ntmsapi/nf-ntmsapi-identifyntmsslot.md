@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.IdentifyNtmsSlot
 title: IdentifyNtmsSlot function (ntmsapi.h)
-
 description: The IdentifyNtmsSlot function identifies the media in the specified slot in a library. The command returns when the identification is complete.
 old-location: fs\identifyntmsslot.htm
 tech.root: Rsm
 ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
-
 ms.date: 12/05/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/IdentifyNtmsSlot"
+f1_keywords:
+- ntmsapi/IdentifyNtmsSlot
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - IdentifyNtmsSlot
+- IdentifyNtmsSlot
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupOpenDirectConnection
 title: PeerGroupOpenDirectConnection function (p2p.h)
-
 description: The PeerGroupOpenDirectConnection function establishes a direct connection with another peer in a peer group.
 old-location: p2p\peergroupopendirectconnection.htm
 tech.root: P2PSdk
 ms.assetid: a3c52754-91b0-4722-a459-87c70b3ab9ad
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupOpenDirectConnection, PeerGroupOpenDirectConnection function [Peer Networking], p2p.peergroupopendirectconnection, p2p/PeerGroupOpenDirectConnection
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupOpenDirectConnection"
+f1_keywords:
+- p2p/PeerGroupOpenDirectConnection
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupOpenDirectConnection
+- PeerGroupOpenDirectConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

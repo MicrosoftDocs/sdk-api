@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IShellView3.CreateViewWindow3
 title: IShellView3::CreateViewWindow3 (shobjidl.h)
-
 description: Requests the creation of a new Shell view window. The view can be either the right pane of Windows Explorer or the client window of a folder window. This method replaces CreateViewWindow2.
 old-location: shell\IShellView3_CreateViewWindow3.htm
 tech.root: shell
 ms.assetid: d5790f31-922d-41cc-b9a7-0b809615ef1f
-
 ms.date: 12/05/2018
 ms.keywords: CreateViewWindow3, CreateViewWindow3 method [Windows Shell], CreateViewWindow3 method [Windows Shell],IShellView3 interface, IShellView3 interface [Windows Shell],CreateViewWindow3 method, IShellView3.CreateViewWindow3, IShellView3::CreateViewWindow3, SV3CVW3_DEFAULT, SV3CVW3_FORCEFOLDERFLAGS, SV3CVW3_FORCEVIEWMODE, SV3CVW3_NONINTERACTIVE, _shell_IShellView3_CreateViewWindow3, shell.IShellView3_CreateViewWindow3, shobjidl/IShellView3::CreateViewWindow3
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IShellView3.CreateViewWindow3"
+f1_keywords:
+- shobjidl/IShellView3.CreateViewWindow3
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IShellView3.CreateViewWindow3
+- IShellView3.CreateViewWindow3
 targetos: Windows
 req.typenames: 
 req.redist: 

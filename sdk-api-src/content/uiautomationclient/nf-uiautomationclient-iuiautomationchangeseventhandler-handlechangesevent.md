@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationChangesEventHandler.HandleChangesEvent
 title: IUIAutomationChangesEventHandler::HandleChangesEvent (uiautomationclient.h)
-
 description: Handles one or more Microsoft UI Automation change events.
 old-location: winauto\uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent.htm
 tech.root: WinAuto
 ms.assetid: 5BCE09F7-9811-49F5-B2C4-8DABC44CA406
-
 ms.date: 12/05/2018
 ms.keywords: HandleChangesEvent, HandleChangesEvent method [Windows Accessibility], HandleChangesEvent method [Windows Accessibility],IUIAutomationChangesEventHandler interface, IUIAutomationChangesEventHandler interface [Windows Accessibility],HandleChangesEvent method, IUIAutomationChangesEventHandler.HandleChangesEvent, IUIAutomationChangesEventHandler::HandleChangesEvent, uiautomationclient/IUIAutomationChangesEventHandler::HandleChangesEvent, winauto.uiauto_IUIAutomationChangesEventHandler_HandleChangesEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationChangesEventHandler.HandleChangesEvent"
+f1_keywords:
+- uiautomationclient/IUIAutomationChangesEventHandler.HandleChangesEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationChangesEventHandler.HandleChangesEvent
+- IUIAutomationChangesEventHandler.HandleChangesEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

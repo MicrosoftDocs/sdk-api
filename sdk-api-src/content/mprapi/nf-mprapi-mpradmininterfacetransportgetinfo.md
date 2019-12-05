@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportGetInfo
 title: MprAdminInterfaceTransportGetInfo function (mprapi.h)
-
 description: The MprAdminInterfaceTransportGetInfo function retrieves information about a transport running on a specified interface.
 old-location: rras\mpradmininterfacetransportgetinfo.htm
 tech.root: RRAS
 ms.assetid: 4e8d7fdf-668e-496a-977a-7a0306173495
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceTransportGetInfo, MprAdminInterfaceTransportGetInfo function [RAS], _mpr_mpradmininterfacetransportgetinfo, mprapi/MprAdminInterfaceTransportGetInfo, rras.mpradmininterfacetransportgetinfo
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceTransportGetInfo"
+f1_keywords:
+- mprapi/MprAdminInterfaceTransportGetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceTransportGetInfo
+- MprAdminInterfaceTransportGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphConfig.RemoveFilterFromCache
 title: IGraphConfig::RemoveFilterFromCache (strmif.h)
-
 description: The RemoveFilterFromCache method removes a filter from the filter cache.
 old-location: dshow\igraphconfig_removefilterfromcache.htm
 tech.root: DirectShow
 ms.assetid: a23710d0-85aa-4ae0-84ea-03b9e22091ad
-
 ms.date: 12/05/2018
 ms.keywords: IGraphConfig interface [DirectShow],RemoveFilterFromCache method, IGraphConfig.RemoveFilterFromCache, IGraphConfig::RemoveFilterFromCache, IGraphConfigRemoveFilterFromCache, RemoveFilterFromCache, RemoveFilterFromCache method [DirectShow], RemoveFilterFromCache method [DirectShow],IGraphConfig interface, dshow.igraphconfig_removefilterfromcache, strmif/IGraphConfig::RemoveFilterFromCache
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfig.RemoveFilterFromCache"
+f1_keywords:
+- strmif/IGraphConfig.RemoveFilterFromCache
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig.RemoveFilterFromCache
+- IGraphConfig.RemoveFilterFromCache
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemInKnownFolder
 title: SHCreateItemInKnownFolder function (shobjidl_core.h)
-
 description: Creates a Shell item object for a single file that exists inside a known folder.
 old-location: shell\SHCreateItemInKnownFolder.htm
 tech.root: shell
 ms.assetid: dc75ee60-7319-4a11-949e-dd0c3deabd8f
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateItemInKnownFolder, SHCreateItemInKnownFolder function [Windows Shell], _shell_SHCreateItemInKnownFolder, shell.SHCreateItemInKnownFolder, shobjidl_core/SHCreateItemInKnownFolder
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHCreateItemInKnownFolder"
+f1_keywords:
+- shobjidl_core/SHCreateItemInKnownFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
 api_name:
- - SHCreateItemInKnownFolder
+- SHCreateItemInKnownFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.PackageFullNameFromId
 title: PackageFullNameFromId function (appmodel.h)
-
 description: Gets the package full name for the specified package identifier (ID).
 old-location: appxpkg\packagefullnamefromid.htm
 tech.root: appxpkg
 ms.assetid: 0024AF55-295E-49B1-90C2-9144D336529B
-
 ms.date: 12/05/2018
 ms.keywords: PackageFullNameFromId, PackageFullNameFromId function [App packaging and management], appmodel/PackageFullNameFromId, appxpkg.packagefullnamefromid
 ms.topic: function
-f1_keywords: 
- - "appmodel/PackageFullNameFromId"
+f1_keywords:
+- appmodel/PackageFullNameFromId
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-Runtime-l1-1-0.dll
- - kernel32legacy.dll
- - Ext-MS-Win-kernel32-package-l1-1-0.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Ext-MS-Win-Kernel32-package-l1-1-2.dll
- - ext-ms-win-kernel32-package-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-Runtime-l1-1-0.dll
+- kernel32legacy.dll
+- Ext-MS-Win-kernel32-package-l1-1-0.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Ext-MS-Win-Kernel32-package-l1-1-2.dll
+- ext-ms-win-kernel32-package-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - PackageFullNameFromId
+- PackageFullNameFromId
 targetos: Windows
 req.typenames: 
 req.redist: 

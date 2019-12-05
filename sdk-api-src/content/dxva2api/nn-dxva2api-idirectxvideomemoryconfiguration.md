@@ -1,19 +1,17 @@
 ---
 UID: NN:dxva2api.IDirectXVideoMemoryConfiguration
 title: IDirectXVideoMemoryConfiguration (dxva2api.h)
-
 description: Sets the type of video memory for uncompressed video surfaces.
 old-location: mf\idirectxvideomemoryconfiguration.htm
 tech.root: medfound
 ms.assetid: cc2a6180-9698-460a-9a0d-1ee9e15f197f
-
 ms.date: 12/05/2018
 ms.keywords: IDirectXVideoMemoryConfiguration, IDirectXVideoMemoryConfiguration interface [Media Foundation], IDirectXVideoMemoryConfiguration interface [Media Foundation],described, cc2a6180-9698-460a-9a0d-1ee9e15f197f, dxva2api/IDirectXVideoMemoryConfiguration, mf.idirectxvideomemoryconfiguration
 ms.topic: interface
-f1_keywords: 
- - "dxva2api/IDirectXVideoMemoryConfiguration"
+f1_keywords:
+- dxva2api/IDirectXVideoMemoryConfiguration
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirectXVideoMemoryConfiguration
+- IDirectXVideoMemoryConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi._SEARCH_NOTIFICATION_PRIORITY
 title: SEARCH_NOTIFICATION_PRIORITY (searchapi.h)
-
 description: Indicates the priority of processing an item that has changed.
 old-location: search\_search_SEARCH_NOTIFICATION_PRIORITY.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_notification_priority.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_HIGH_PRIORITY, SEARCH_NORMAL_PRIORITY, SEARCH_NOTIFICATION_PRIORITY, SEARCH_NOTIFICATION_PRIORITY enumeration [search], _search_SEARCH_NOTIFICATION_PRIORITY, search._search_SEARCH_NOTIFICATION_PRIORITY, searchapi/SEARCH_HIGH_PRIORITY, searchapi/SEARCH_NORMAL_PRIORITY, searchapi/SEARCH_NOTIFICATION_PRIORITY
 ms.topic: enum
 f1_keywords:
 - searchapi/SEARCH_NOTIFICATION_PRIORITY
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

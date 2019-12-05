@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1Device
 title: ID2D1Device (d2d1_1.h)
-
 description: Represents a resource domain whose objects and device contexts can be used together.
 old-location: direct2d\id2d1device.htm
 tech.root: Direct2D
 ms.assetid: 21f77c38-c115-4fdf-b294-570577a29201
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Device, ID2D1Device interface [Direct2D], ID2D1Device interface [Direct2D],described, d2d1_1/ID2D1Device, direct2d.id2d1device
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1Device"
+f1_keywords:
+- d2d1_1/ID2D1Device
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Device
+- ID2D1Device
 targetos: Windows
 req.typenames: 
 req.redist: 

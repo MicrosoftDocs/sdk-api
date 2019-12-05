@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ShowOwnedPopups
 title: ShowOwnedPopups function (winuser.h)
-
 description: Shows or hides all pop-up windows owned by the specified window.
 old-location: winmsg\showownedpopups.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showownedpopups.htm
-
 ms.date: 12/05/2018
 ms.keywords: ShowOwnedPopups, ShowOwnedPopups function [Windows and Messages], _win32_ShowOwnedPopups, _win32_showownedpopups_cpp, winmsg.showownedpopups, winui._win32_showownedpopups, winuser/ShowOwnedPopups
 ms.topic: function
-f1_keywords: 
- - "winuser/ShowOwnedPopups"
+f1_keywords:
+- winuser/ShowOwnedPopups
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - ShowOwnedPopups
+- ShowOwnedPopups
 targetos: Windows
 req.typenames: 
 req.redist: 

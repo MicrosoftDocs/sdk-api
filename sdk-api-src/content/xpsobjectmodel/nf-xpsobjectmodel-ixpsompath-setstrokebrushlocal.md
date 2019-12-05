@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeBrushLocal
 title: IXpsOMPath::SetStrokeBrushLocal (xpsobjectmodel.h)
-
 description: Sets a pointer to a local, unshared IXpsOMBrush interface to be used as a stroke brush.
 old-location: xps\ixpsompath_setstrokebrushlocal.htm
 tech.root: printdocs
 ms.assetid: 551bc4e2-2bf3-455b-a7f1-35b3b66697c0
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLocal method, IXpsOMPath.SetStrokeBrushLocal, IXpsOMPath::SetStrokeBrushLocal, SetStrokeBrushLocal, SetStrokeBrushLocal method [XPS Documents and Packaging], SetStrokeBrushLocal method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlocal, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetStrokeBrushLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetStrokeBrushLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetStrokeBrushLocal
+- IXpsOMPath.SetStrokeBrushLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

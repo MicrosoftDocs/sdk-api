@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.SuspendKeystrokeHandling
 title: ITfThreadMgr2::SuspendKeystrokeHandling (msctf.h)
-
 description: Suspends handling keystrokes.
 old-location: tsf\itfthreadmgr2_suspendkeystrokehandling.htm
 tech.root: TSF
 ms.assetid: 98E0D017-F0A2-4F80-9CD3-16D22170BFDF
-
 ms.date: 12/05/2018
 ms.keywords: ITfThreadMgr2 interface [Text Services Framework],SuspendKeystrokeHandling method, ITfThreadMgr2.SuspendKeystrokeHandling, ITfThreadMgr2::SuspendKeystrokeHandling, SuspendKeystrokeHandling, SuspendKeystrokeHandling method [Text Services Framework], SuspendKeystrokeHandling method [Text Services Framework],ITfThreadMgr2 interface, msctf/ITfThreadMgr2::SuspendKeystrokeHandling, tsf.itfthreadmgr2_suspendkeystrokehandling
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr2.SuspendKeystrokeHandling"
+f1_keywords:
+- msctf/ITfThreadMgr2.SuspendKeystrokeHandling
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.h
+- msctf.h
 api_name:
- - ITfThreadMgr2.SuspendKeystrokeHandling
+- ITfThreadMgr2.SuspendKeystrokeHandling
 targetos: Windows
 req.typenames: 
 req.redist: 

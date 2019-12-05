@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.PFNRASRECEIVEBUFFER
 title: PFNRASRECEIVEBUFFER (ras.h)
-
 description: The custom-scripting DLL calls the RasReceiveBuffer function to inform RAS that it is ready to receive data from the server over the specified port.
 old-location: rras\rasreceivebuffer.htm
 tech.root: RRAS
 ms.assetid: cc5523df-748d-4f96-8d54-bf0a2f9ecde4
-
 ms.date: 12/05/2018
 ms.keywords: PFNRASRECEIVEBUFFER, PFNRASRECEIVEBUFFER callback, RasReceiveBuffer, RasReceiveBuffer callback function [RAS], _ras_rasreceivebuffer, ras/RasReceiveBuffer, rras.rasreceivebuffer
 ms.topic: callback
-f1_keywords: 
- - "ras/RasReceiveBuffer"
+f1_keywords:
+- ras/RasReceiveBuffer
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasReceiveBuffer
+- RasReceiveBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

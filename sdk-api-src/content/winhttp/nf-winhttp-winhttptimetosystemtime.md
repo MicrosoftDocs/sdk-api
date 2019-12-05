@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpTimeToSystemTime
 title: WinHttpTimeToSystemTime function (winhttp.h)
-
 description: The WinHttpTimeToSystemTime function takes an HTTP time/date string and converts it to a SYSTEMTIME structure.
 old-location: http\winhttptimetosystemtime.htm
 tech.root: WinHttp
 ms.assetid: 4a587832-e1ce-42d4-97bb-a728f895906b
-
 ms.date: 12/05/2018
 ms.keywords: WinHttpTimeToSystemTime, WinHttpTimeToSystemTime function [WinHTTP], http.winhttptimetosystemtime, winhttp.winhttptimetosystemtime_function, winhttp/WinHttpTimeToSystemTime
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpTimeToSystemTime"
+f1_keywords:
+- winhttp/WinHttpTimeToSystemTime
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpTimeToSystemTime
+- WinHttpTimeToSystemTime
 targetos: Windows
 req.typenames: 
 req.redist: WinHTTP 5.0 and Internet Explorer 5.01 or later on Windows XP and Windows 2000.

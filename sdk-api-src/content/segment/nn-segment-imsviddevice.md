@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidDevice
 title: IMSVidDevice (segment.h)
-
 description: The IMSVidDevice interface is the base interface for all the devices and features that the Video Control supports.
 old-location: mstv\imsviddevice.htm
 tech.root: mstv
 ms.assetid: 5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidDevice, IMSVidDevice interface [Microsoft TV Technologies], IMSVidDevice interface [Microsoft TV Technologies],described, IMSVidDeviceInterface, mstv.imsviddevice, segment/IMSVidDevice
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidDevice"
+f1_keywords:
+- segment/IMSVidDevice
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidDevice
+- IMSVidDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

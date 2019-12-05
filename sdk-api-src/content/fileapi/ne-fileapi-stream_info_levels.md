@@ -1,19 +1,17 @@
 ---
 UID: NE:fileapi._STREAM_INFO_LEVELS
 title: STREAM_INFO_LEVELS (fileapi.h)
-
 description: Defines values that are used with the FindFirstStreamW function to specify the information level of the returned data.
 old-location: fs\stream_info_levels.htm
 tech.root: FileIO
 ms.assetid: 411efcdc-e13a-4f27-a3da-31dff714e415
-
 ms.date: 12/05/2018
 ms.keywords: FindStreamInfoMaxInfoLevel, FindStreamInfoStandard, STREAM_INFO_LEVELS, STREAM_INFO_LEVELS enumeration [Files], _win32_stream_info_levels, base.stream_info_levels, fileapi/FindStreamInfoMaxInfoLevel, fileapi/FindStreamInfoStandard, fileapi/STREAM_INFO_LEVELS, fs.stream_info_levels
 ms.topic: enum
 f1_keywords:
 - fileapi/STREAM_INFO_LEVELS
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows

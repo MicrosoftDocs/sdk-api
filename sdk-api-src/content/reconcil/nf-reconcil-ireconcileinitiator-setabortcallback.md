@@ -1,19 +1,17 @@
 ---
 UID: NF:reconcil.IReconcileInitiator.SetAbortCallback
 title: IReconcileInitiator::SetAbortCallback (reconcil.h)
-
 description: Sets the object through which the initiator can asynchronously terminate a reconciliation. A briefcase reconciler typically sets this object for reconciliations that are lengthy or involve user interaction.
 old-location: lwef\ireconcileinitiator_setabortcallback.htm
 tech.root: lwef
 ms.assetid: 9c251e14-e080-480a-80c2-f3686429689f
-
 ms.date: 12/05/2018
 ms.keywords: IReconcileInitiator interface [Legacy Windows Environment Features],SetAbortCallback method, IReconcileInitiator.SetAbortCallback, IReconcileInitiator::SetAbortCallback, SetAbortCallback, SetAbortCallback method [Legacy Windows Environment Features], SetAbortCallback method [Legacy Windows Environment Features],IReconcileInitiator interface, _win32_IReconcileInitiator_SetAbortCallback, lwef.ireconcileinitiator_setabortcallback, reconcil/IReconcileInitiator::SetAbortCallback, shell.ireconcileinitiator_setabortcallback
 ms.topic: method
-f1_keywords: 
- - "reconcil/IReconcileInitiator.SetAbortCallback"
+f1_keywords:
+- reconcil/IReconcileInitiator.SetAbortCallback
 dev_langs:
- - c++
+- c++
 req.header: reconcil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IReconcileInitiator.SetAbortCallback
+- IReconcileInitiator.SetAbortCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

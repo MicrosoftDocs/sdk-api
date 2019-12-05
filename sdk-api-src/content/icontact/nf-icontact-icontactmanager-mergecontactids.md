@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactManager.MergeContactIDs
 title: IContactManager::MergeContactIDs (icontact.h)
-
 description: Makes an old Contact ID resolve to the same value as a new Contact ID. Subsequent calls to IContactManager::Load with the old contact ID now loads the new contact ID contact.
 old-location: wincontacts\_wincontacts_IContactManager_MergeContactIDs.htm
 tech.root: wincontacts
 ms.assetid: 1a3aea59-ef92-4775-b942-7383a5e8a63c
-
 ms.date: 12/05/2018
 ms.keywords: IContactManager interface [Windows Contacts],MergeContactIDs method, IContactManager.MergeContactIDs, IContactManager::MergeContactIDs, MergeContactIDs, MergeContactIDs method [Windows Contacts], MergeContactIDs method [Windows Contacts],IContactManager interface, _wincontacts_IContactManager_MergeContactIDs, icontact/IContactManager::MergeContactIDs, wincontacts._wincontacts_IContactManager_MergeContactIDs
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactManager.MergeContactIDs"
+f1_keywords:
+- icontact/IContactManager.MergeContactIDs
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactManager.MergeContactIDs
+- IContactManager.MergeContactIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

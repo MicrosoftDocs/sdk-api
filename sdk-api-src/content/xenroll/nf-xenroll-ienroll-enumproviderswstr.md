@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.enumProvidersWStr
 title: IEnroll::enumProvidersWStr (xenroll.h)
-
 description: The IEnroll4::enumProvidersWStr method retrieves the names of the available cryptographic service providers (CSPs) specified by the ProviderType property.
 old-location: security\ienroll4_enumproviderswstr.htm
 tech.root: SecCrypto
 ms.assetid: f3b40f56-3332-44e8-9753-4107948d0801
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],enumProvidersWStr method, IEnroll.enumProvidersWStr, IEnroll::enumProvidersWStr, enumProvidersWStr, enumProvidersWStr method [Security], enumProvidersWStr method [Security],IEnroll interface, security.ienroll4_enumproviderswstr, xenroll/IEnroll::enumProvidersWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.enumProvidersWStr"
+f1_keywords:
+- xenroll/IEnroll.enumProvidersWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.enumProvidersWStr
+- IEnroll.enumProvidersWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

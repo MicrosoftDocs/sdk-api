@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Clone
 title: IEnumTfDocumentMgrs::Clone (msctf.h)
-
 description: IEnumTfDocumentMgrs::Clone method
 old-location: tsf\ienumtfdocumentmgrs_clone.htm
 tech.root: TSF
 ms.assetid: d7a6ff9c-327b-45bf-93d0-7bf08065ad9c
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfDocumentMgrs interface, IEnumTfDocumentMgrs interface [Text Services Framework],Clone method, IEnumTfDocumentMgrs.Clone, IEnumTfDocumentMgrs::Clone, _tsf_ienumtfdocumentmgrs_clone_ref, msctf/IEnumTfDocumentMgrs::Clone, tsf.ienumtfdocumentmgrs_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfDocumentMgrs.Clone"
+f1_keywords:
+- msctf/IEnumTfDocumentMgrs.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumTfDocumentMgrs.Clone
+- IEnumTfDocumentMgrs.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

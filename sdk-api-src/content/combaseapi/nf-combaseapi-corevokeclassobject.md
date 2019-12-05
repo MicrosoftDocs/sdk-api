@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoRevokeClassObject
 title: CoRevokeClassObject function (combaseapi.h)
-
 description: Informs OLE that a class object, previously registered with the CoRegisterClassObject function, is no longer available for use.
 old-location: com\corevokeclassobject.htm
 tech.root: com
 ms.assetid: 90b9b9ca-b5b2-48f5-8c2a-b478b6daa7ec
-
 ms.date: 12/05/2018
 ms.keywords: CoRevokeClassObject, CoRevokeClassObject function [COM], _com_CoRevokeClassObject, com.corevokeclassobject, combaseapi/CoRevokeClassObject
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoRevokeClassObject"
+f1_keywords:
+- combaseapi/CoRevokeClassObject
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoRevokeClassObject
+- CoRevokeClassObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIFramework.InvalidateUICommand
 title: IUIFramework::InvalidateUICommand (uiribbon.h)
-
 description: Invalidates a Windows Ribbon framework Command property, value, or state.
 old-location: windowsribbon\windowsribbon_iuiframework_invalidateuicommand.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\invalidateuicommand.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],InvalidateUICommand method, IUIFramework.InvalidateUICommand, IUIFramework::InvalidateUICommand, InvalidateUICommand, InvalidateUICommand method [Windows Ribbon], InvalidateUICommand method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_InvalidateUICommand, uiribbon/IUIFramework::InvalidateUICommand, windowsribbon.windowsribbon_iuiframework_invalidateuicommand
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIFramework.InvalidateUICommand"
+f1_keywords:
+- uiribbon/IUIFramework.InvalidateUICommand
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIFramework.InvalidateUICommand
+- IUIFramework.InvalidateUICommand
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.CreateNewMutualExclusion
 title: IWMProfile::CreateNewMutualExclusion (wmsdkidl.h)
-
 description: The CreateNewMutualExclusion method creates a mutual exclusion object. Mutual exclusion objects are used to specify a set of streams, only one of which can be output at a time.
 old-location: wmformat\iwmprofile_createnewmutualexclusion.htm
 tech.root: wmformat
 ms.assetid: fcf3a549-5ae1-459a-95b9-923570f59a4a
-
 ms.date: 12/05/2018
 ms.keywords: CreateNewMutualExclusion, CreateNewMutualExclusion method [windows Media Format], CreateNewMutualExclusion method [windows Media Format],IWMProfile interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile2 interface, CreateNewMutualExclusion method [windows Media Format],IWMProfile3 interface, IWMProfile interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile.CreateNewMutualExclusion, IWMProfile2 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile2::CreateNewMutualExclusion, IWMProfile3 interface [windows Media Format],CreateNewMutualExclusion method, IWMProfile3::CreateNewMutualExclusion, IWMProfile::CreateNewMutualExclusion, IWMProfileCreateNewMutualExclusion, wmformat.iwmprofile_createnewmutualexclusion, wmsdkidl/IWMProfile2::CreateNewMutualExclusion, wmsdkidl/IWMProfile3::CreateNewMutualExclusion, wmsdkidl/IWMProfile::CreateNewMutualExclusion
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.CreateNewMutualExclusion"
+f1_keywords:
+- wmsdkidl/IWMProfile.CreateNewMutualExclusion
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.CreateNewMutualExclusion
- - IWMProfile2.CreateNewMutualExclusion
- - IWMProfile3.CreateNewMutualExclusion
+- IWMProfile.CreateNewMutualExclusion
+- IWMProfile2.CreateNewMutualExclusion
+- IWMProfile3.CreateNewMutualExclusion
 targetos: Windows
 req.typenames: 
 req.redist: 

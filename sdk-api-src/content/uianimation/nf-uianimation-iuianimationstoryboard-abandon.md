@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.Abandon
 title: IUIAnimationStoryboard::Abandon (uianimation.h)
-
 description: Terminates the storyboard, releases all related animation variables, and removes the storyboard from the schedule.
 old-location: uianimation\iuianimationstoryboard_abandon.htm
 tech.root: UIAnimation
 ms.assetid: 2350dbd0-3a67-4832-94dd-56adce80a387
-
 ms.date: 12/05/2018
 ms.keywords: Abandon, Abandon method [Windows Animation], Abandon method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],Abandon method, IUIAnimationStoryboard.Abandon, IUIAnimationStoryboard::Abandon, uianimation.iuianimationstoryboard_abandon, uianimation/IUIAnimationStoryboard::Abandon
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.Abandon"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.Abandon
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.Abandon
+- IUIAnimationStoryboard.Abandon
 targetos: Windows
 req.typenames: 
 req.redist: 

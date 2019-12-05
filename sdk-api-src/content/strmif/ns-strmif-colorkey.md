@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagCOLORKEY
 title: COLORKEY (strmif.h)
-
 description: The COLORKEY structure communicates color key information between the renderer and another filter.
 old-location: dshow\colorkey.htm
 tech.root: DirectShow
 ms.assetid: 1563488a-e4e5-472d-b665-5bbcb13fad1a
-
 ms.date: 12/05/2018
 ms.keywords: COLORKEY, COLORKEY structure [DirectShow], COLORKEYStructure, dshow.colorkey, strmif/COLORKEY
 ms.topic: struct
-f1_keywords: 
- - "strmif/COLORKEY"
+f1_keywords:
+- strmif/COLORKEY
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - COLORKEY
+- COLORKEY
 targetos: Windows
 req.typenames: COLORKEY
 req.redist: 

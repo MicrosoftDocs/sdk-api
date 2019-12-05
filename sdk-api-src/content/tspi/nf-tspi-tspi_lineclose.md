@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineClose
 title: TSPI_lineClose function (tspi.h)
-
 description: The TSPI_lineClose function closes the specified open line device after completing or aborting all outstanding calls and asynchronous operations on the device.
 old-location: tspi\tspi_lineclose.htm
 tech.root: Tapi
 ms.assetid: d1041620-609b-476b-bdb7-e1e0cebd74f1
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineClose, TSPI_lineClose function [TAPI 2.2], _tspi_tspi_lineclose, tspi.tspi_lineclose, tspi/TSPI_lineClose
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineClose"
+f1_keywords:
+- tspi/TSPI_lineClose
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineClose
+- TSPI_lineClose
 targetos: Windows
 req.typenames: 
 req.redist: 

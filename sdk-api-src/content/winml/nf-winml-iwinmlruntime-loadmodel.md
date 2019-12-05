@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLRuntime.LoadModel
 title: IWinMLRuntime::LoadModel (winml.h)
-
 description: Loads a WinML model.
 old-location: machinelearning\iwinmlruntime_loadmodel.htm
 tech.root: MachineLearning
 ms.assetid: 75FC42E6-CFFA-4E85-A2D5-80322630E958
-
 ms.date: 12/05/2018
 ms.keywords: IWinMLRuntime interface,LoadModel method, IWinMLRuntime.LoadModel, IWinMLRuntime::LoadModel, LoadModel, LoadModel method, LoadModel method,IWinMLRuntime interface, MachineLearning.iwinmlruntime_loadmodel, winml/IWinMLRuntime::LoadModel
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLRuntime.LoadModel"
+f1_keywords:
+- winml/IWinMLRuntime.LoadModel
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLRuntime.LoadModel
+- IWinMLRuntime.LoadModel
 targetos: Windows
 req.typenames: 
 req.redist: 

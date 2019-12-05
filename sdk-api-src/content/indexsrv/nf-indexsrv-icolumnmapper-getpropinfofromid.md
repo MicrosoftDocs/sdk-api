@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IColumnMapper.GetPropInfoFromId
 title: IColumnMapper::GetPropInfoFromId (indexsrv.h)
-
 description: Gets the property information from the DBID.
 old-location: search\icolumnmapper_getpropinfofromid.htm
 tech.root: search
 ms.assetid: 94E7A6B4-0EA9-40F4-B69B-B1A30B0B5229
-
 ms.date: 12/05/2018
 ms.keywords: GetPropInfoFromId, GetPropInfoFromId method [search], GetPropInfoFromId method [search],IColumnMapper interface, IColumnMapper interface [search],GetPropInfoFromId method, IColumnMapper.GetPropInfoFromId, IColumnMapper::GetPropInfoFromId, indexsrv/IColumnMapper::GetPropInfoFromId, search.icolumnmapper_getpropinfofromid
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IColumnMapper.GetPropInfoFromId"
+f1_keywords:
+- indexsrv/IColumnMapper.GetPropInfoFromId
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - indexsrv.h
+- indexsrv.h
 api_name:
- - IColumnMapper.GetPropInfoFromId
+- IColumnMapper.GetPropInfoFromId
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

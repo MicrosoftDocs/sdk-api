@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.TopPGSearch
 title: IDvdControl::TopPGSearch (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Halts playback of the current program and restarts playback of the current program within the program chain (PGC).
 old-location: dshow\idvdcontrol_toppgsearch.htm
 tech.root: DirectShow
 ms.assetid: 35a621de-5110-4999-8475-ae84a4dc9ee1
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl interface [DirectShow],TopPGSearch method, IDvdControl.TopPGSearch, IDvdControl::TopPGSearch, IDvdControlTopPGSearch, TopPGSearch, TopPGSearch method [DirectShow], TopPGSearch method [DirectShow],IDvdControl interface, dshow.idvdcontrol_toppgsearch, strmif/IDvdControl::TopPGSearch
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.TopPGSearch"
+f1_keywords:
+- strmif/IDvdControl.TopPGSearch
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.TopPGSearch
+- IDvdControl.TopPGSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

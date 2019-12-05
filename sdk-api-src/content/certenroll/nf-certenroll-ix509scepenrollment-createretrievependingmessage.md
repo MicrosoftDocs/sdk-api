@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.CreateRetrievePendingMessage
 title: IX509SCEPEnrollment::CreateRetrievePendingMessage (certenroll.h)
-
 description: Create a message for certificate polling (manual enrollment).
 old-location: security\ix509scepenrollment_createretrievependingmessage.htm
 tech.root: seccertenroll
 ms.assetid: 86d031b0-2009-460b-8bed-fe7a0489f22b
-
 ms.date: 12/05/2018
 ms.keywords: CreateRetrievePendingMessage, CreateRetrievePendingMessage method [Security], CreateRetrievePendingMessage method [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],CreateRetrievePendingMessage method, IX509SCEPEnrollment.CreateRetrievePendingMessage, IX509SCEPEnrollment::CreateRetrievePendingMessage, certenroll/IX509SCEPEnrollment::CreateRetrievePendingMessage, security.ix509scepenrollment_createretrievependingmessage
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SCEPEnrollment.CreateRetrievePendingMessage"
+f1_keywords:
+- certenroll/IX509SCEPEnrollment.CreateRetrievePendingMessage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.CreateRetrievePendingMessage
+- IX509SCEPEnrollment.CreateRetrievePendingMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

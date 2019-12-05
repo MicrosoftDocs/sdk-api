@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetAutospaceAlpha
 title: ITextFont2::SetAutospaceAlpha (tom.h)
-
 description: Sets the East Asian &#0034;autospace alpha&#0034; state.
 old-location: controls\itextfont2_setautospacealpha.htm
 tech.root: Controls
 ms.assetid: 8a01677d-74c6-437b-8ee9-350c891c6c3f
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetAutospaceAlpha method, ITextFont2.SetAutospaceAlpha, ITextFont2::SetAutospaceAlpha, SetAutospaceAlpha, SetAutospaceAlpha method [Windows Controls], SetAutospaceAlpha method [Windows Controls],ITextFont2 interface, controls.itextfont2_setautospacealpha, tom/ITextFont2::SetAutospaceAlpha
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetAutospaceAlpha"
+f1_keywords:
+- tom/ITextFont2.SetAutospaceAlpha
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetAutospaceAlpha
+- ITextFont2.SetAutospaceAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

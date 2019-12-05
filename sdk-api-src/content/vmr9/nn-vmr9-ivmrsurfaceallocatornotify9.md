@@ -1,19 +1,17 @@
 ---
 UID: NN:vmr9.IVMRSurfaceAllocatorNotify9
 title: IVMRSurfaceAllocatorNotify9 (vmr9.h)
-
 description: The IVMRSurfaceAllocatorNotify9 interface is implemented by the Video Mixing Renderer Filter 9 (VMR-9).
 old-location: dshow\ivmrsurfaceallocatornotify9.htm
 tech.root: DirectShow
 ms.assetid: f275b835-e5b3-46f4-8b26-a4b0e2554c7c
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocatorNotify9, IVMRSurfaceAllocatorNotify9 interface [DirectShow], IVMRSurfaceAllocatorNotify9 interface [DirectShow],described, IVMRSurfaceAllocatorNotify9Interface, dshow.ivmrsurfaceallocatornotify9, vmr9/IVMRSurfaceAllocatorNotify9
 ms.topic: interface
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocatorNotify9"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocatorNotify9
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify9
+- IVMRSurfaceAllocatorNotify9
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcSsContextLockExclusive
 title: RpcSsContextLockExclusive function (rpcasync.h)
-
 description: The RpcSsContextLockExclusive function enables an application to begin using a context handle in exclusive mode.
 old-location: rpc\rpcsscontextlockexclusive.htm
 tech.root: Rpc
 ms.assetid: 7ef2376b-da25-4e4b-8a25-0913d680945f
-
 ms.date: 12/05/2018
 ms.keywords: RpcSsContextLockExclusive, RpcSsContextLockExclusive function [RPC], _rpc_rpcsscontextlockexclusive, rpc.rpcsscontextlockexclusive, rpcasync/RpcSsContextLockExclusive
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcSsContextLockExclusive"
+f1_keywords:
+- rpcasync/RpcSsContextLockExclusive
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSsContextLockExclusive
+- RpcSsContextLockExclusive
 targetos: Windows
 req.typenames: 
 req.redist: 

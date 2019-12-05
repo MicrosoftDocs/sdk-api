@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.Validate
 title: INetDiagHelper::Validate (ndhelper.h)
-
 description: Called by NDF after a repair is successfully completed.
 old-location: ndf\inetdiaghelpe_validate.htm
 tech.root: NDF
 ms.assetid: 2faab163-5684-4b10-b62d-7e22d5b789a8
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],Validate method, INetDiagHelper.Validate, INetDiagHelper::Validate, Validate, Validate method [NDF], Validate method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_validate, ndhelper/INetDiagHelper::Validate
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.Validate"
+f1_keywords:
+- ndhelper/INetDiagHelper.Validate
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.Validate
+- INetDiagHelper.Validate
 targetos: Windows
 req.typenames: 
 req.redist: 

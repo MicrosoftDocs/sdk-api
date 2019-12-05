@@ -1,19 +1,17 @@
 ---
 UID: NE:netlistmgr.NLM_CONNECTIVITY
 title: NLM_CONNECTIVITY (netlistmgr.h)
-
 description: The NLM_Connectivity enumeration is a set of flags that provide notification whenever connectivity related parameters have changed.
 old-location: nla\nlm_connectivity.htm
 tech.root: nla
 ms.assetid: 72d1f049-3c8d-4332-9bf1-9f49b47cd315
-
 ms.date: 12/05/2018
 ms.keywords: NLM_CONNECTIVITY, NLM_CONNECTIVITY enumeration [Network Awareness], NLM_CONNECTIVITY_DISCONNECTED, NLM_CONNECTIVITY_IPV4_INTERNET, NLM_CONNECTIVITY_IPV4_LOCALNETWORK, NLM_CONNECTIVITY_IPV4_NOTRAFFIC, NLM_CONNECTIVITY_IPV4_SUBNET, NLM_CONNECTIVITY_IPV6_INTERNET, NLM_CONNECTIVITY_IPV6_LOCALNETWORK, NLM_CONNECTIVITY_IPV6_NOTRAFFIC, NLM_CONNECTIVITY_IPV6_SUBNET, netlistmgr/NLM_CONNECTIVITY, netlistmgr/NLM_CONNECTIVITY_DISCONNECTED, netlistmgr/NLM_CONNECTIVITY_IPV4_INTERNET, netlistmgr/NLM_CONNECTIVITY_IPV4_LOCALNETWORK, netlistmgr/NLM_CONNECTIVITY_IPV4_NOTRAFFIC, netlistmgr/NLM_CONNECTIVITY_IPV4_SUBNET, netlistmgr/NLM_CONNECTIVITY_IPV6_INTERNET, netlistmgr/NLM_CONNECTIVITY_IPV6_LOCALNETWORK, netlistmgr/NLM_CONNECTIVITY_IPV6_NOTRAFFIC, netlistmgr/NLM_CONNECTIVITY_IPV6_SUBNET, nla.nlm_connectivity
 ms.topic: enum
-f1_keywords: 
- - "netlistmgr/NLM_CONNECTIVITY"
+f1_keywords:
+- netlistmgr/NLM_CONNECTIVITY
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - NLM_CONNECTIVITY
+- NLM_CONNECTIVITY
 targetos: Windows
 req.typenames: NLM_CONNECTIVITY
 req.redist: 

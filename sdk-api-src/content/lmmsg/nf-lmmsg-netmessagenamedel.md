@@ -1,19 +1,17 @@
 ---
 UID: NF:lmmsg.NetMessageNameDel
 title: NetMessageNameDel function (lmmsg.h)
-
 description: The NetMessageNameDel function deletes a message alias in the message name table. The function requires that the messenger service be started.
 old-location: netmgmt\netmessagenamedel.htm
 tech.root: NetMgmt
 ms.assetid: 6d6c65ee-f53e-4a24-b8c0-50faa76af640
-
 ms.date: 12/05/2018
 ms.keywords: NetMessageNameDel, NetMessageNameDel function [Network Management], _win32_netmessagenamedel, lmmsg/NetMessageNameDel, netmgmt.netmessagenamedel
 ms.topic: function
-f1_keywords: 
- - "lmmsg/NetMessageNameDel"
+f1_keywords:
+- lmmsg/NetMessageNameDel
 dev_langs:
- - c++
+- c++
 req.header: lmmsg.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetMessageNameDel
+- NetMessageNameDel
 targetos: Windows
 req.typenames: 
 req.redist: 

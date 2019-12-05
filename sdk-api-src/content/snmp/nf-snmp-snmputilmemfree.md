@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilMemFree
 title: SnmpUtilMemFree function (snmp.h)
-
 description: The SnmpUtilMemFree function frees the specified memory object. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilmemfree.htm
 tech.root: SNMP
 ms.assetid: 57cf0398-d2c1-4dd9-ad77-0c453412034a
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilMemFree, SnmpUtilMemFree function [SNMP], _snmp_snmputilmemfree, snmp.snmputilmemfree, snmp/SnmpUtilMemFree
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilMemFree"
+f1_keywords:
+- snmp/SnmpUtilMemFree
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilMemFree
+- SnmpUtilMemFree
 targetos: Windows
 req.typenames: 
 req.redist: 

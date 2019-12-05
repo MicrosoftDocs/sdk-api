@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidVideoRenderer
 title: IMSVidVideoRenderer (segment.h)
-
 description: The IMSVidVideoRenderer interface represents a video renderer device. The MSVidVideoRenderer object exposes this interface.This interface provides access to the Video Mixing Renderer (VMR) filter.
 old-location: mstv\imsvidvideorenderer.htm
 tech.root: mstv
 ms.assetid: 27eb53f8-ece8-43eb-8f94-b3d2d91548ad
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer, IMSVidVideoRenderer interface [Microsoft TV Technologies], IMSVidVideoRenderer interface [Microsoft TV Technologies],described, IMSVidVideoRendererInterface, mstv.imsvidvideorenderer, segment/IMSVidVideoRenderer
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidVideoRenderer"
+f1_keywords:
+- segment/IMSVidVideoRenderer
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer
+- IMSVidVideoRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

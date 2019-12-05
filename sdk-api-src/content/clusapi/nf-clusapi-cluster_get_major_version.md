@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CLUSTER_GET_MAJOR_VERSION
 title: CLUSTER_GET_MAJOR_VERSION macro (clusapi.h)
-
 description: Extracts the major version portion of a Cluster service version number.
 old-location: mscs\cluster_get_major_version.htm
 tech.root: MsCS
 ms.assetid: 674798d9-8614-4e3b-8d9b-cf0d307a7cfc
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_GET_MAJOR_VERSION, CLUSTER_GET_MAJOR_VERSION macro [Failover Cluster], _wolf_cluster_get_major_version, clusapi/CLUSTER_GET_MAJOR_VERSION, mscs.cluster_get_major_version
 ms.topic: macro
-f1_keywords: 
- - "clusapi/CLUSTER_GET_MAJOR_VERSION"
+f1_keywords:
+- clusapi/CLUSTER_GET_MAJOR_VERSION
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_GET_MAJOR_VERSION
+- CLUSTER_GET_MAJOR_VERSION
 targetos: Windows
 req.typenames: 
 req.redist: 

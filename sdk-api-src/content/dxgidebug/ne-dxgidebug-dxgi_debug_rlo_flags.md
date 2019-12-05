@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgidebug.DXGI_DEBUG_RLO_FLAGS
 title: DXGI_DEBUG_RLO_FLAGS (dxgidebug.h)
-
 description: Flags used with ReportLiveObjects to specify the amount of info to report about an object's lifetime.
 old-location: direct3ddxgi\dxgi_debug_rlo_flags.htm
 tech.root: direct3ddxgi
 ms.assetid: 8A4B4139-42FC-4983-9699-ABCDBF5783E7
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_DEBUG_RLO_ALL, DXGI_DEBUG_RLO_DETAIL, DXGI_DEBUG_RLO_FLAGS, DXGI_DEBUG_RLO_FLAGS enumeration [DXGI], DXGI_DEBUG_RLO_IGNORE_INTERNAL, DXGI_DEBUG_RLO_SUMMARY, direct3ddxgi.dxgi_debug_rlo_flags, dxgidebug/DXGI_DEBUG_RLO_ALL, dxgidebug/DXGI_DEBUG_RLO_DETAIL, dxgidebug/DXGI_DEBUG_RLO_FLAGS, dxgidebug/DXGI_DEBUG_RLO_IGNORE_INTERNAL, dxgidebug/DXGI_DEBUG_RLO_SUMMARY
 ms.topic: enum
-f1_keywords: 
- - "dxgidebug/DXGI_DEBUG_RLO_FLAGS"
+f1_keywords:
+- dxgidebug/DXGI_DEBUG_RLO_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGIDebug.h
+- DXGIDebug.h
 api_name:
- - DXGI_DEBUG_RLO_FLAGS
+- DXGI_DEBUG_RLO_FLAGS
 targetos: Windows
 req.typenames: DXGI_DEBUG_RLO_FLAGS
 req.redist: 

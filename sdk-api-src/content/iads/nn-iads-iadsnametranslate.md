@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsNameTranslate
 title: IADsNameTranslate (iads.h)
-
 description: The IADsNameTranslateinterface translates distinguished names (DNs) among various formats as defined in the ADS_NAME_TYPE_ENUM enumeration. The feature is available to objects in Active Directory.
 old-location: adsi\iadsnametranslate.htm
 tech.root: adsi
 ms.assetid: 3d8baeb1-0edc-4648-8691-6ea4dcfd8f62
-
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate, IADsNameTranslate interface [ADSI], IADsNameTranslate interface [ADSI],described, NameTranslate, _ds_iadsnametranslate, adsi.iadsnametranslate, iads/IADsNameTranslate
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsNameTranslate"
+f1_keywords:
+- iads/IADsNameTranslate
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsNameTranslate
- - NameTranslate
+- IADsNameTranslate
+- NameTranslate
 targetos: Windows
 req.typenames: 
 req.redist: 

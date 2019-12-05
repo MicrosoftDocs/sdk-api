@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagMETARECORD
 title: METARECORD (wingdi.h)
-
 description: The METARECORD structure contains a Windows-format metafile record.
 old-location: gdi\metarecord.htm
 tech.root: gdi
 ms.assetid: 7c5d6e97-dff1-4c80-a7d3-082413dca469
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMETARECORD, *PMETARECORD, METARECORD, METARECORD structure [Windows GDI], PMETARECORD, PMETARECORD structure pointer [Windows GDI], _win32_METARECORD_str, gdi.metarecord, wingdi/METARECORD, wingdi/PMETARECORD"
+ms.keywords: '*LPMETARECORD, *PMETARECORD, METARECORD, METARECORD structure [Windows GDI], PMETARECORD, PMETARECORD structure pointer [Windows GDI], _win32_METARECORD_str, gdi.metarecord, wingdi/METARECORD, wingdi/PMETARECORD'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/METARECORD"
+f1_keywords:
+- wingdi/METARECORD
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - METARECORD
+- METARECORD
 targetos: Windows
 req.typenames: METARECORD, *PMETARECORD, *LPMETARECORD
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfActivationParams
 title: SpatialAudioHrtfActivationParams (spatialaudiohrtf.h)
-
 description: Specifies the activation parameters for an ISpatialAudioRenderStreamForHrtf.
 old-location: coreaudio\spatialaudiohrtfactivationparams.htm
 tech.root: CoreAudio
 ms.assetid: 6A549BFB-993A-4A20-AFAB-B38D03EAE35C
-
 ms.date: 12/05/2018
 ms.keywords: PSpatialAudioHrtfActivationParams, PSpatialAudioHrtfActivationParams structure pointer [Core Audio], SpatialAudioHrtfActivationParams, SpatialAudioHrtfActivationParams structure [Core Audio], coreaudio.spatialaudiohrtfactivationparams, spatialaudiohrtf/PSpatialAudioHrtfActivationParams, spatialaudiohrtf/SpatialAudioHrtfActivationParams
 ms.topic: struct
-f1_keywords: 
- - "spatialaudiohrtf/SpatialAudioHrtfActivationParams"
+f1_keywords:
+- spatialaudiohrtf/SpatialAudioHrtfActivationParams
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiohrtf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - spatialaudiohrtf.h
+- spatialaudiohrtf.h
 api_name:
- - SpatialAudioHrtfActivationParams
+- SpatialAudioHrtfActivationParams
 targetos: Windows
 req.typenames: SpatialAudioHrtfActivationParams
 req.redist: 

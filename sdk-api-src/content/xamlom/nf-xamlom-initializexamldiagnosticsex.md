@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.InitializeXamlDiagnosticsEx
 title: InitializeXamlDiagnosticsEx function (xamlom.h)
-
 description: Initializes a Xaml Diagnostics session. This is the entry point for any debugging tool using the XAML Diagnostic APIs.
 old-location: xaml_diagnostics\initializexamldiagnosticsex.htm
 tech.root: xaml_diagnostics
 ms.assetid: CFBCF6EC-5E42-4992-B046-B4F436A9BF04
-
 ms.date: 12/05/2018
 ms.keywords: InitializeXamlDiagnosticsEx, InitializeXamlDiagnosticsEx function, xaml_diagnostics.initializexamldiagnosticsex, xamlom/InitializeXamlDiagnosticsEx
 ms.topic: function
-f1_keywords: 
- - "xamlom/InitializeXamlDiagnosticsEx"
+f1_keywords:
+- xamlom/InitializeXamlDiagnosticsEx
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: Windows.UI.Xaml.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.UI.Xaml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Windows.UI.Xaml.dll
+- Windows.UI.Xaml.dll
 api_name:
- - InitializeXamlDiagnosticsEx
+- InitializeXamlDiagnosticsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

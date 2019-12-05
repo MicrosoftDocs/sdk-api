@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsEntryObjectInqBeginA
 title: RpcNsEntryObjectInqBeginA function (rpcnsi.h)
-
 description: The RpcNsEntryObjectInqBegin function creates an inquiry context for the objects of a name-service database entry.
 old-location: rpc\rpcnsentryobjectinqbegin.htm
 tech.root: Rpc
 ms.assetid: dc667dc3-0812-43d5-adc2-aa29ee67f045
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsEntryObjectInqBegin, RpcNsEntryObjectInqBegin function [RPC], RpcNsEntryObjectInqBeginA, RpcNsEntryObjectInqBeginW, _rpc_rpcnsentryobjectinqbegin, rpc.rpcnsentryobjectinqbegin, rpcnsi/RpcNsEntryObjectInqBegin, rpcnsi/RpcNsEntryObjectInqBeginA, rpcnsi/RpcNsEntryObjectInqBeginW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsEntryObjectInqBegin"
+f1_keywords:
+- rpcnsi/RpcNsEntryObjectInqBegin
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsEntryObjectInqBegin
- - RpcNsEntryObjectInqBeginA
- - RpcNsEntryObjectInqBeginW
+- RpcNsEntryObjectInqBegin
+- RpcNsEntryObjectInqBeginA
+- RpcNsEntryObjectInqBeginW
 targetos: Windows
 req.typenames: 
 req.redist: 

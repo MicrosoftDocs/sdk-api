@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDuplicateDiskSpaceListA
 title: SetupDuplicateDiskSpaceListA function (setupapi.h)
-
 description: The SetupDuplicateDiskSpaceList function duplicates a disk-space list as a new independent disk-space list.
 old-location: setup\setupduplicatediskspacelist.htm
 tech.root: SetupApi
 ms.assetid: 92d18c15-e8e2-4e89-8d2f-7c87c948603f
-
 ms.date: 12/05/2018
 ms.keywords: SetupDuplicateDiskSpaceList, SetupDuplicateDiskSpaceList function [Setup API], SetupDuplicateDiskSpaceListA, SetupDuplicateDiskSpaceListW, setup.setupduplicatediskspacelist, setupapi/SetupDuplicateDiskSpaceList, setupapi/SetupDuplicateDiskSpaceListA, setupapi/SetupDuplicateDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDuplicateDiskSpaceList"
+f1_keywords:
+- setupapi/SetupDuplicateDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDuplicateDiskSpaceList
- - SetupDuplicateDiskSpaceListA
- - SetupDuplicateDiskSpaceListW
+- SetupDuplicateDiskSpaceList
+- SetupDuplicateDiskSpaceListA
+- SetupDuplicateDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_21
 title: WS_HTTP_PROXY_SETTING_MODE (webservices.h)
-
 description: Proxy setting indicates HTTP proxy setting for the channel with binding WS_HTTP_CHANNEL_BINDING. This is specified as part of WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE channel property.
 old-location: wsw\ws_http_proxy_setting_mode.htm
 tech.root: wsw
 ms.assetid: 06c2b4e7-59d7-487e-b286-109695124a4d
-
 ms.date: 12/05/2018
 ms.keywords: WS_HTTP_PROXY_SETTING_MODE, WS_HTTP_PROXY_SETTING_MODE enumeration [Web Services for Windows], WS_HTTP_PROXY_SETTING_MODE_AUTO, WS_HTTP_PROXY_SETTING_MODE_CUSTOM, WS_HTTP_PROXY_SETTING_MODE_NONE, webservices/WS_HTTP_PROXY_SETTING_MODE, webservices/WS_HTTP_PROXY_SETTING_MODE_AUTO, webservices/WS_HTTP_PROXY_SETTING_MODE_CUSTOM, webservices/WS_HTTP_PROXY_SETTING_MODE_NONE, wsw.ws_http_proxy_setting_mode
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_HTTP_PROXY_SETTING_MODE"
+f1_keywords:
+- webservices/WS_HTTP_PROXY_SETTING_MODE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_HTTP_PROXY_SETTING_MODE
+- WS_HTTP_PROXY_SETTING_MODE
 targetos: Windows
 req.typenames: WS_HTTP_PROXY_SETTING_MODE
 req.redist: 

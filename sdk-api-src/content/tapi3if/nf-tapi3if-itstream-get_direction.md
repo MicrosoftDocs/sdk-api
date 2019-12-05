@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITStream.get_Direction
 title: ITStream::get_Direction (tapi3if.h)
-
 description: The get_Direction method gets the stream's terminal direction.
 old-location: tapi3\itstream_get_direction.htm
 tech.root: Tapi
 ms.assetid: 196abe2a-d88d-4b2d-8867-4e6cc15dee33
-
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],get_Direction method, ITStream.get_Direction, ITStream::get_Direction, _tapi3_itstream_get_direction, get_Direction, get_Direction method [TAPI 2.2], get_Direction method [TAPI 2.2],ITStream interface, tapi3.itstream_get_direction, tapi3if/ITStream::get_Direction
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITStream.get_Direction"
+f1_keywords:
+- tapi3if/ITStream.get_Direction
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITStream.get_Direction
+- ITStream.get_Direction
 targetos: Windows
 req.typenames: 
 req.redist: 

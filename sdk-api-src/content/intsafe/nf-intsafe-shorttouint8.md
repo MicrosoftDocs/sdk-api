@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ShortToUInt8
 title: ShortToUInt8 function (intsafe.h)
-
 description: Converts a value of type SHORT to a value of type UINT8.
 old-location: shell\ShortToUInt8.htm
 tech.root: shell
 ms.assetid: 8e3746c6-fe14-4a98-afcf-0b5981b78677
-
 ms.date: 12/05/2018
 ms.keywords: ShortToByte, ShortToUInt8, ShortToUInt8 function [Windows Shell], intsafe/ShortToUInt8, shell.ShortToUInt8
 ms.topic: function
-f1_keywords: 
- - "intsafe/ShortToUInt8"
+f1_keywords:
+- intsafe/ShortToUInt8
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - ShortToUInt8
+- ShortToUInt8
 targetos: Windows
 req.typenames: 
 req.redist: 

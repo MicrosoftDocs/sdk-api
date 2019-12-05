@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvQueryFontFile
 title: DrvQueryFontFile function (winddi.h)
-
 description: The DrvQueryFontFile function provides font file information.
 old-location: display\drvqueryfontfile.htm
 tech.root: display
 ms.assetid: 4d853dbd-0448-43c3-9f01-13b7118a0743
-
 ms.date: 12/05/2018
 ms.keywords: DrvQueryFontFile, DrvQueryFontFile function [Display Devices], ddifncs_e1440df7-d91a-4c86-b43b-10a5c5b7aab9.xml, display.drvqueryfontfile, winddi/DrvQueryFontFile
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryFontFile"
+f1_keywords:
+- winddi/DrvQueryFontFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryFontFile
+- DrvQueryFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

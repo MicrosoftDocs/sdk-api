@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineWebSupport
 title: IMFMediaEngineWebSupport (mfmediaengine.h)
-
 description: Enables playback of web audio.
 old-location: mf\imfmediaenginewebsupport.htm
 tech.root: medfound
 ms.assetid: 8EAA54AF-359A-48C4-9A23-BE7997DBAA89
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineWebSupport, IMFMediaEngineWebSupport interface [Media Foundation], IMFMediaEngineWebSupport interface [Media Foundation],described, mf.imfmediaenginewebsupport, mfmediaengine/IMFMediaEngineWebSupport
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineWebSupport"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineWebSupport
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineWebSupport
+- IMFMediaEngineWebSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

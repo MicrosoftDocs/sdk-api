@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRPLGBLT
 title: EMRPLGBLT (wingdi.h)
-
 description: The EMRPLGBLT structure contains members for the PlgBlt enhanced metafile record. Note that graphics device interface (GDI) converts the device-dependent bitmap into a device-independent bitmap (DIB) before storing it in the metafile record.
 old-location: gdi\emrplgblt.htm
 tech.root: gdi
 ms.assetid: c802baa8-2f11-46e1-948c-f63c40e94266
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRPLGBLT, EMRPLGBLT, EMRPLGBLT structure [Windows GDI], PEMRPLGBLT, PEMRPLGBLT structure pointer [Windows GDI], _win32_EMRPLGBLT_str, gdi.emrplgblt, wingdi/EMRPLGBLT, wingdi/PEMRPLGBLT"
+ms.keywords: '*PEMRPLGBLT, EMRPLGBLT, EMRPLGBLT structure [Windows GDI], PEMRPLGBLT, PEMRPLGBLT structure pointer [Windows GDI], _win32_EMRPLGBLT_str, gdi.emrplgblt, wingdi/EMRPLGBLT, wingdi/PEMRPLGBLT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRPLGBLT"
+f1_keywords:
+- wingdi/EMRPLGBLT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRPLGBLT
+- EMRPLGBLT
 targetos: Windows
 req.typenames: EMRPLGBLT, *PEMRPLGBLT
 req.redist: 

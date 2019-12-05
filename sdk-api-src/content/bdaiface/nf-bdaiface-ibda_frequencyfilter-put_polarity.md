@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Polarity
 title: IBDA_FrequencyFilter::put_Polarity (bdaiface.h)
-
 description: The put_Polarity method specifies the polarity of the signal.
 old-location: mstv\ibda_frequencyfilter_put_polarity.htm
 tech.root: mstv
 ms.assetid: d15bd0f9-4f2e-4098-bf5b-db03fde1362f
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Polarity method, IBDA_FrequencyFilter.put_Polarity, IBDA_FrequencyFilter::put_Polarity, IBDA_FrequencyFilterput_Polarity, bdaiface/IBDA_FrequencyFilter::put_Polarity, mstv.ibda_frequencyfilter_put_polarity, put_Polarity, put_Polarity method [Microsoft TV Technologies], put_Polarity method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FrequencyFilter.put_Polarity"
+f1_keywords:
+- bdaiface/IBDA_FrequencyFilter.put_Polarity
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FrequencyFilter.put_Polarity
+- IBDA_FrequencyFilter.put_Polarity
 targetos: Windows
 req.typenames: 
 req.redist: 

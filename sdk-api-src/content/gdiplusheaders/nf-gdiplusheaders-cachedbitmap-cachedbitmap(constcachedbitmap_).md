@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.CachedBitmap.CachedBitmap(const CachedBitmap &)
 title: CachedBitmap::CachedBitmap(const CachedBitmap &) (gdiplusheaders.h)
-
 description: Creates a CachedBitmap::CachedBitmap object based on a Bitmap object and a Graphics object.
 old-location: gdiplus\_gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\cachedbitmapclass\cachedbitmap_55bitmap_graphics.htm
-
 ms.date: 12/05/2018
 ms.keywords: CachedBitmap, CachedBitmap class [GDI+],CachedBitmap constructor, CachedBitmap constructor [GDI+], CachedBitmap constructor [GDI+],CachedBitmap class, CachedBitmap.CachedBitmap, CachedBitmap.CachedBitmap(const CachedBitmap &), CachedBitmap::CachedBitmap, CachedBitmap::CachedBitmap(const CachedBitmap &), _gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_, gdiplus._gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/CachedBitmap.CachedBitmap"
+f1_keywords:
+- gdiplusheaders/CachedBitmap.CachedBitmap
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CachedBitmap.CachedBitmap
+- CachedBitmap.CachedBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

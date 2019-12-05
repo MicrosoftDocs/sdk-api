@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePath
 title: IXpsOMObjectFactory::CreatePath (xpsobjectmodel.h)
-
 description: Creates an IXpsOMPath interface that specifies a graphical path element on a page.
 old-location: xps\ixpsomobjectfactory_createpath.htm
 tech.root: printdocs
 ms.assetid: aa5dcddd-9ca7-4b8f-9f4f-aa0f851e8697
-
 ms.date: 12/05/2018
 ms.keywords: CreatePath, CreatePath method [XPS Documents and Packaging], CreatePath method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePath method, IXpsOMObjectFactory.CreatePath, IXpsOMObjectFactory::CreatePath, xps.ixpsomobjectfactory_createpath, xpsobjectmodel/IXpsOMObjectFactory::CreatePath
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePath"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePath
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePath
+- IXpsOMObjectFactory.CreatePath
 targetos: Windows
 req.typenames: 
 req.redist: 

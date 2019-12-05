@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMWriterNetworkSink
 title: IWMWriterNetworkSink (wmsdkidl.h)
-
 description: The IWMWriterNetworkSink interface is used to deliver streams to the network.
 old-location: wmformat\iwmwriternetworksink.htm
 tech.root: wmformat
 ms.assetid: 3204c360-f407-4cf3-bb21-7e6094587fb0
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterNetworkSink, IWMWriterNetworkSink interface [windows Media Format], IWMWriterNetworkSink interface [windows Media Format],described, IWMWriterNetworkSinkInterface, wmformat.iwmwriternetworksink, wmsdkidl/IWMWriterNetworkSink
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMWriterNetworkSink"
+f1_keywords:
+- wmsdkidl/IWMWriterNetworkSink
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMWriterNetworkSink
+- IWMWriterNetworkSink
 targetos: Windows
 req.typenames: 
 req.redist: 

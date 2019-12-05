@@ -1,19 +1,17 @@
 ---
 UID: NF:eappapis.EapHostPeerInitialize
 title: EapHostPeerInitialize function (eappapis.h)
-
 description: Initializes an EAPHost authentication session.
 old-location: eaphost\eaphostpeerinitialize.htm
 tech.root: eaphost
 ms.assetid: 4af7103e-85c8-472e-96fe-407f07a1f447
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerInitialize, EapHostPeerInitialize function [EAPHost], eaphost.eaphostpeerinitialize, eappapis/EapHostPeerInitialize
 ms.topic: function
-f1_keywords: 
- - "eappapis/EapHostPeerInitialize"
+f1_keywords:
+- eappapis/EapHostPeerInitialize
 dev_langs:
- - c++
+- c++
 req.header: eappapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Eappprxy.lib
 req.dll: Eappprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - eappprxy.dll
+- eappprxy.dll
 api_name:
- - EapHostPeerInitialize
+- EapHostPeerInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

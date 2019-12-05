@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3D9Ex.GetAdapterLUID
 title: IDirect3D9Ex::GetAdapterLUID (d3d9.h)
-
 description: This method returns a unique identifier for the adapter that is specific to the adapter hardware. Applications can use this identifier to define robust mappings across various APIs (Direct3D 9, DXGI).
 old-location: direct3d9\idirect3d9ex_getadapterluid.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadapterluid.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAdapterLUID, GetAdapterLUID method [Direct3D 9], GetAdapterLUID method [Direct3D 9],IDirect3D9Ex interface, IDirect3D9Ex interface [Direct3D 9],GetAdapterLUID method, IDirect3D9Ex.GetAdapterLUID, IDirect3D9Ex::GetAdapterLUID, d3d9/IDirect3D9Ex::GetAdapterLUID, direct3d9.idirect3d9ex_getadapterluid, f330bb92-02a0-089a-4923-b68cf9e2282b
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3D9Ex.GetAdapterLUID"
+f1_keywords:
+- d3d9/IDirect3D9Ex.GetAdapterLUID
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3D9Ex.GetAdapterLUID
+- IDirect3D9Ex.GetAdapterLUID
 targetos: Windows
 req.typenames: 
 req.redist: 

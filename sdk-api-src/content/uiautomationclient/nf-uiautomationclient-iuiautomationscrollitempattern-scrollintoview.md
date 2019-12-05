@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollItemPattern.ScrollIntoView
 title: IUIAutomationScrollItemPattern::ScrollIntoView (uiautomationclient.h)
-
 description: Scrolls the content area of a container object to display the UI Automation element within the visible region (viewport) of the container.
 old-location: winauto\uiauto_IUIAutomationScrollItemPattern_ScrollIntoView.htm
 tech.root: WinAuto
 ms.assetid: 66991918-dd06-400a-902d-887ff226de16
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationScrollItemPattern interface [Windows Accessibility],ScrollIntoView method, IUIAutomationScrollItemPattern.ScrollIntoView, IUIAutomationScrollItemPattern::ScrollIntoView, ScrollIntoView, ScrollIntoView method [Windows Accessibility], ScrollIntoView method [Windows Accessibility],IUIAutomationScrollItemPattern interface, uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiauto_IUIAutomationScrollItemPattern_ScrollIntoView, uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView, winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollItemPattern.ScrollIntoView"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollItemPattern.ScrollIntoView
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollItemPattern.ScrollIntoView
+- IUIAutomationScrollItemPattern.ScrollIntoView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComTransaction2Events.OnTransactionCommit2
 title: IComTransaction2Events::OnTransactionCommit2 (comsvcs.h)
-
 description: Generated when a transaction commits.
 old-location: cos\icomtransaction2events_ontransactioncommit2.htm
 tech.root: cossdk
 ms.assetid: e68ba7be-876b-446a-8f82-a6e7af503b2c
-
 ms.date: 12/05/2018
 ms.keywords: IComTransaction2Events interface [COM+],OnTransactionCommit2 method, IComTransaction2Events.OnTransactionCommit2, IComTransaction2Events::OnTransactionCommit2, OnTransactionCommit2, OnTransactionCommit2 method [COM+], OnTransactionCommit2 method [COM+],IComTransaction2Events interface, _dtc_icomtransaction2events_ontransactioncommit2, comsvcs/IComTransaction2Events::OnTransactionCommit2, cos.icomtransaction2events_ontransactioncommit2
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComTransaction2Events.OnTransactionCommit2"
+f1_keywords:
+- comsvcs/IComTransaction2Events.OnTransactionCommit2
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTransaction2Events.OnTransactionCommit2
+- IComTransaction2Events.OnTransactionCommit2
 targetos: Windows
 req.typenames: 
 req.redist: 

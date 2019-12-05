@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITriggerCollection
 title: ITriggerCollection (taskschd.h)
-
 description: Provides the methods that are used to add to, remove from, and get the triggers of a task.
 old-location: taskschd\itriggercollection.htm
 tech.root: taskschd
 ms.assetid: 5985ff67-3aa2-4ade-9d53-da4d640f5f6e
-
 ms.date: 12/05/2018
 ms.keywords: ITriggerCollection, ITriggerCollection interface [Task Scheduler], ITriggerCollection interface [Task Scheduler],described, taskschd.itriggercollection, taskschd/ITriggerCollection, triggers [Task Scheduler],trigger collection interface
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITriggerCollection"
+f1_keywords:
+- taskschd/ITriggerCollection
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITriggerCollection
+- ITriggerCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

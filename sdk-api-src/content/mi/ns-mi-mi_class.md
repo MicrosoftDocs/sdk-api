@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_Class
 title: MI_Class (mi.h)
-
 description: Represents the schema of an instance.
 old-location: wmi_v2\mi_class.htm
 tech.root: wmi_v2
 ms.assetid: 7f02e0fa-9e58-455d-9cf4-1d1244c44422
-
 ms.date: 12/05/2018
 ms.keywords: MI_Class, MI_Class structure [Windows Management Infrastructure (MI)], mi/MI_Class, wmi._mi_class, wmi_v2.mi_class
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_Class"
+f1_keywords:
+- mi/MI_Class
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Class
+- MI_Class
 targetos: Windows
 req.typenames: MI_Class
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

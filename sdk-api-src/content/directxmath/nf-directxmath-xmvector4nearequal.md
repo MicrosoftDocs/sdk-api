@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector4NearEqual
 title: XMVector4NearEqual function (directxmath.h)
-
 description: Tests whether one 4D vector is near another 4D vector.
 old-location: dxmath\xmvector4nearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector4NearEqual(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector4NearEqual, XMVector4NearEqual, XMVector4NearEqual method [DirectX Math Support APIs], dxmath.xmvector4nearequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector4NearEqual"
+f1_keywords:
+- directxmath/XMVector4NearEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector4NearEqual
+- XMVector4NearEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

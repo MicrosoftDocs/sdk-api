@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetName
 title: ITsSbTarget::get_TargetName (sbtsv.h)
-
 description: Specifies or retrieves the name of the target.
 old-location: termserv\itssbtarget_targetname.htm
 tech.root: TermServ
 ms.assetid: ba5c3158-b4bc-457f-94ea-adb2e0852129
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetName property, ITsSbTarget.TargetName, ITsSbTarget.get_TargetName, ITsSbTarget::TargetName, ITsSbTarget::get_TargetName, ITsSbTarget::put_TargetName, ITsSbTargetEx interface [Remote Desktop Services],TargetName property, ITsSbTargetEx.TargetName, ITsSbTargetEx::get_TargetName, ITsSbTargetEx::put_TargetName, TargetName property [Remote Desktop Services], TargetName property [Remote Desktop Services],ITsSbTarget interface, TargetName property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetName, sbtsv/ITsSbTarget::TargetName, sbtsv/ITsSbTarget::get_TargetName, sbtsv/ITsSbTarget::put_TargetName, sbtsv/ITsSbTargetEx::TargetName, sbtsv/ITsSbTargetEx::get_TargetName, sbtsv/ITsSbTargetEx::put_TargetName, termserv.itssbtarget_targetname
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTarget.TargetName"
+f1_keywords:
+- sbtsv/ITsSbTarget.TargetName
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTarget.TargetName
- - ITsSbTarget.get_TargetName
- - ITsSbTarget.put_TargetName
- - ITsSbTargetEx.TargetName
- - ITsSbTargetEx.get_TargetName
- - ITsSbTargetEx.put_TargetName
+- ITsSbTarget.TargetName
+- ITsSbTarget.get_TargetName
+- ITsSbTarget.put_TargetName
+- ITsSbTargetEx.TargetName
+- ITsSbTargetEx.get_TargetName
+- ITsSbTargetEx.put_TargetName
 targetos: Windows
 req.typenames: 
 req.redist: 

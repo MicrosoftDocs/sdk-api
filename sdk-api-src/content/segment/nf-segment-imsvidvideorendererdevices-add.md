@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRendererDevices.Add
 title: IMSVidVideoRendererDevices::Add (segment.h)
-
 description: The Add method adds a video renderer to the collection.
 old-location: mstv\imsvidvideorendererdevices_add.htm
 tech.root: mstv
 ms.assetid: 650b7895-4e4b-494a-bc06-dafb67fca391
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Microsoft TV Technologies], Add method [Microsoft TV Technologies],IMSVidVideoRendererDevices interface, IMSVidVideoRendererDevices interface [Microsoft TV Technologies],Add method, IMSVidVideoRendererDevices.Add, IMSVidVideoRendererDevices::Add, IMSVidVideoRendererDevicesAdd, mstv.imsvidvideorendererdevices_add, segment/IMSVidVideoRendererDevices::Add
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRendererDevices.Add"
+f1_keywords:
+- segment/IMSVidVideoRendererDevices.Add
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRendererDevices.Add
+- IMSVidVideoRendererDevices.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:vmgenerationcounter._VM_GENCOUNTER
 title: VM_GENCOUNTER (vmgenerationcounter.h)
-
 description: Describes a virtual machine generation identifier.
 old-location: hyperv\vm_gencounter.htm
 tech.root: HyperV_v2
 ms.assetid: F1F2C867-2607-40AD-92B7-E7C07304D885
-
 ms.date: 12/05/2018
-ms.keywords: "*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer, VM_GENCOUNTER, VM_GENCOUNTER structure, hyperv.vm_gencounter, vmgenerationcounter/PVM_GENCOUNTER, vmgenerationcounter/VM_GENCOUNTER"
+ms.keywords: '*PVM_GENCOUNTER, PVM_GENCOUNTER, PVM_GENCOUNTER structure pointer, VM_GENCOUNTER, VM_GENCOUNTER structure, hyperv.vm_gencounter, vmgenerationcounter/PVM_GENCOUNTER, vmgenerationcounter/VM_GENCOUNTER'
 ms.topic: struct
-f1_keywords: 
- - "vmgenerationcounter/VM_GENCOUNTER"
+f1_keywords:
+- vmgenerationcounter/VM_GENCOUNTER
 dev_langs:
- - c++
+- c++
 req.header: vmgenerationcounter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmgenerationcounter.h
+- Vmgenerationcounter.h
 api_name:
- - VM_GENCOUNTER
+- VM_GENCOUNTER
 targetos: Windows
 req.typenames: VM_GENCOUNTER, *PVM_GENCOUNTER
 req.redist: 

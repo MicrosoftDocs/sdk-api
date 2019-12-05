@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.ISchemaProvider
 title: ISchemaProvider (structuredquery.h)
-
 description: Provides a schema repository that can be browsed.
 old-location: search\_search_ISchemaProvider.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\ischemaprovider.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISchemaProvider, ISchemaProvider interface [search], ISchemaProvider interface [search],described, _search_ISchemaProvider, search._search_ISchemaProvider, structuredquery/ISchemaProvider
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/ISchemaProvider"
+f1_keywords:
+- structuredquery/ISchemaProvider
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaProvider
+- ISchemaProvider
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

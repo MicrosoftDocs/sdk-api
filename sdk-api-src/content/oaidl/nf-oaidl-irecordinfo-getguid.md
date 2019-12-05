@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IRecordInfo.GetGuid
 title: IRecordInfo::GetGuid (oaidl.h)
-
 description: Gets the GUID of the record type.
 old-location: automat\irecordinfo_getguid.htm
 tech.root: automat
 ms.assetid: e28ed38a-5cd6-4edb-871e-e69283e4d47e
-
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Automation], GetGuid method [Automation],IRecordInfo interface, IRecordInfo interface [Automation],GetGuid method, IRecordInfo.GetGuid, IRecordInfo::GetGuid, _oa96_IRecordInfo_GetGuid, automat.irecordinfo_getguid, oaidl/IRecordInfo::GetGuid
 ms.topic: method
-f1_keywords: 
- - "oaidl/IRecordInfo.GetGuid"
+f1_keywords:
+- oaidl/IRecordInfo.GetGuid
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IRecordInfo.GetGuid
+- IRecordInfo.GetGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

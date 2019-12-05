@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.IsDiscontinuity
 title: IMediaSample::IsDiscontinuity (strmif.h)
-
 description: The IsDiscontinuity method determines if this sample represents a break in the data stream.
 old-location: dshow\imediasample_isdiscontinuity.htm
 tech.root: DirectShow
 ms.assetid: 0bab511e-a744-4b6e-afe3-0ceb473dfcae
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],IsDiscontinuity method, IMediaSample.IsDiscontinuity, IMediaSample::IsDiscontinuity, IMediaSampleIsDiscontinuity, IsDiscontinuity, IsDiscontinuity method [DirectShow], IsDiscontinuity method [DirectShow],IMediaSample interface, dshow.imediasample_isdiscontinuity, strmif/IMediaSample::IsDiscontinuity
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.IsDiscontinuity"
+f1_keywords:
+- strmif/IMediaSample.IsDiscontinuity
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.IsDiscontinuity
+- IMediaSample.IsDiscontinuity
 targetos: Windows
 req.typenames: 
 req.redist: 

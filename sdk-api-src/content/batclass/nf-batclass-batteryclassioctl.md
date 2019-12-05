@@ -1,19 +1,17 @@
 ---
 UID: NF:batclass.BatteryClassIoctl
 title: BatteryClassIoctl function (batclass.h)
-
 description: BatteryClassIoctl handles system-defined battery IOCTLs.
 old-location: battery\batteryclassioctl.htm
 tech.root: battery
 ms.assetid: 8208552a-42a3-414f-849c-2bb0086c9f80
-
 ms.date: 12/05/2018
 ms.keywords: BatteryClassIoctl, BatteryClassIoctl function [Battery Devices], bat-rtn_bb0fcbcf-a26f-4f06-9f28-40bdc55b9d61.xml, batclass/BatteryClassIoctl, battery.batteryclassioctl
 ms.topic: function
-f1_keywords: 
- - "batclass/BatteryClassIoctl"
+f1_keywords:
+- batclass/BatteryClassIoctl
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Desktop
@@ -32,15 +30,15 @@ req.lib: Battc.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Battc.lib
- - Battc.dll
+- Battc.lib
+- Battc.dll
 api_name:
- - BatteryClassIoctl
+- BatteryClassIoctl
 targetos: Windows
 req.typenames: 
 req.redist: 

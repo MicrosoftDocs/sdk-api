@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptMsgUpdate
 title: CryptMsgUpdate function (wincrypt.h)
-
 description: Adds contents to a cryptographic message.
 old-location: security\cryptmsgupdate.htm
 tech.root: SecCrypto
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c
-
 ms.date: 12/05/2018
 ms.keywords: CryptMsgUpdate, CryptMsgUpdate function [Security], _crypto2_cryptmsgupdate, security.cryptmsgupdate, wincrypt/CryptMsgUpdate
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptMsgUpdate"
+f1_keywords:
+- wincrypt/CryptMsgUpdate
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptMsgUpdate
+- CryptMsgUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

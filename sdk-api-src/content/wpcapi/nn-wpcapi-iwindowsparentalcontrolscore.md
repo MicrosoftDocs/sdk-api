@@ -1,19 +1,17 @@
 ---
 UID: NN:wpcapi.IWindowsParentalControlsCore
 title: IWindowsParentalControlsCore (wpcapi.h)
-
-description: "."
+description: .
 old-location: parcon\iwindowsparentalcontrolscore.htm
 tech.root: parcon
 ms.assetid: 49F43A0F-5C93-4FEC-870B-17535DE674C5
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsParentalControlsCore, IWindowsParentalControlsCore interface, IWindowsParentalControlsCore interface,described, parcon.iwindowsparentalcontrolscore, wpcapi/IWindowsParentalControlsCore
 ms.topic: interface
-f1_keywords: 
- - "wpcapi/IWindowsParentalControlsCore"
+f1_keywords:
+- wpcapi/IWindowsParentalControlsCore
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWindowsParentalControlsCore
+- IWindowsParentalControlsCore
 targetos: Windows
 req.typenames: 
 req.redist: 

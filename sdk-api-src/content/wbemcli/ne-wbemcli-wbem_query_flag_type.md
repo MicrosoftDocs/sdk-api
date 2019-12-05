@@ -1,19 +1,17 @@
 ---
 UID: NE:wbemcli.tag_WBEM_QUERY_FLAG_TYPE
 title: WBEM_QUERY_FLAG_TYPE (wbemcli.h)
-
 description: Contains flags used to define a query or enumerator.
 old-location: wmi\wbem_query_flag_type.htm
 tech.root: WmiSdk
 ms.assetid: D0F53F94-682A-432D-8FBA-8EC05C6B69BF
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_FLAG_DEEP, WBEM_FLAG_PROTOTYPE, WBEM_FLAG_SHALLOW, WBEM_QUERY_FLAG_TYPE, WBEM_QUERY_FLAG_TYPE enumeration [Windows Management Instrumentation], wbemcli/WBEM_FLAG_DEEP, wbemcli/WBEM_FLAG_PROTOTYPE, wbemcli/WBEM_FLAG_SHALLOW, wbemcli/WBEM_QUERY_FLAG_TYPE, wmi.wbem_query_flag_type
 ms.topic: enum
-f1_keywords: 
- - "wbemcli/WBEM_QUERY_FLAG_TYPE"
+f1_keywords:
+- wbemcli/WBEM_QUERY_FLAG_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wbemcli.h
+- Wbemcli.h
 api_name:
- - WBEM_QUERY_FLAG_TYPE
+- WBEM_QUERY_FLAG_TYPE
 targetos: Windows
 req.typenames: WBEM_QUERY_FLAG_TYPE
 req.redist: 

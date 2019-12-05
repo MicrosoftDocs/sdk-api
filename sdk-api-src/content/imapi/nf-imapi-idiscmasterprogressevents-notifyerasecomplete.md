@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyEraseComplete
 title: IDiscMasterProgressEvents::NotifyEraseComplete (imapi.h)
-
 description: Notifies an application that a call to IDiscRecorder::Erase has finished.
 old-location: imapi\idiscmasterprogressevents_notifyerasecomplete.htm
 tech.root: imapi
 ms.assetid: 17a0debe-919d-4db7-bcbb-eb4fc9973d83
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyEraseComplete method, IDiscMasterProgressEvents.NotifyEraseComplete, IDiscMasterProgressEvents::NotifyEraseComplete, NotifyEraseComplete, NotifyEraseComplete method [IMAPI], NotifyEraseComplete method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyerasecomplete, base.idiscmasterprogressevents_notifyerasecomplete, imapi.idiscmasterprogressevents_notifyerasecomplete, imapi/IDiscMasterProgressEvents::NotifyEraseComplete
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMasterProgressEvents.NotifyEraseComplete"
+f1_keywords:
+- imapi/IDiscMasterProgressEvents.NotifyEraseComplete
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.NotifyEraseComplete
+- IDiscMasterProgressEvents.NotifyEraseComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetRegionOfInterest
 title: IMILBitmapEffectRenderContext::SetRegionOfInterest (mileffects.h)
-
 description: Sets the region of interest for the effect.
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setregionofinterest.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setregionofinterest.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetRegionOfInterest method, IMILBitmapEffectRenderContext.SetRegionOfInterest, IMILBitmapEffectRenderContext::SetRegionOfInterest, SetRegionOfInterest, SetRegionOfInterest method [WPF Bitmap Effects], SetRegionOfInterest method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setregionofinterest, mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest, wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectRenderContext.SetRegionOfInterest"
+f1_keywords:
+- mileffects/IMILBitmapEffectRenderContext.SetRegionOfInterest
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mileffects.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.dll
+- Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext.SetRegionOfInterest
+- IMILBitmapEffectRenderContext.SetRegionOfInterest
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

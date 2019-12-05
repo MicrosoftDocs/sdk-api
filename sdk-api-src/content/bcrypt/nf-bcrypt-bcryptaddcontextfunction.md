@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptAddContextFunction
 title: BCryptAddContextFunction function (bcrypt.h)
-
 description: Adds a cryptographic function to the list of functions that are supported by an existing CNG context.
 old-location: security\bcryptaddcontextfunction.htm
 tech.root: SecCNG
 ms.assetid: 4f5b6db0-775d-42de-b9d9-a99fb11c89f2
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptAddContextFunction, BCryptAddContextFunction function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, NCRYPT_SCHANNEL_SIGNATURE_INTERFACE, bcrypt/BCryptAddContextFunction, security.bcryptaddcontextfunction
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptAddContextFunction"
+f1_keywords:
+- bcrypt/BCryptAddContextFunction
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
+- Bcrypt.dll
 api_name:
- - BCryptAddContextFunction
+- BCryptAddContextFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

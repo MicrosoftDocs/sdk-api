@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.ClearClientState
 title: IAttachmentExecute::ClearClientState (shobjidl_core.h)
-
 description: Removes any stored state that is based on the client's GUID. An example might be a setting based on a checked box that indicates a prompt should not be displayed again for a particular file type.
 old-location: shell\IAttachmentExecute_ClearClientState.htm
 tech.root: shell
 ms.assetid: 238e78be-3306-4ac5-95a9-c7fa48c1c4fe
-
 ms.date: 12/05/2018
 ms.keywords: ClearClientState, ClearClientState method [Windows Shell], ClearClientState method [Windows Shell],IAttachmentExecute interface, IAttachmentExecute interface [Windows Shell],ClearClientState method, IAttachmentExecute.ClearClientState, IAttachmentExecute::ClearClientState, shell.IAttachmentExecute_ClearClientState, shell_IAttachmentExecute_clearclientstate, shobjidl_core/IAttachmentExecute::ClearClientState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAttachmentExecute.ClearClientState"
+f1_keywords:
+- shobjidl_core/IAttachmentExecute.ClearClientState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IAttachmentExecute.ClearClientState
+- IAttachmentExecute.ClearClientState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink.get_ReferenceRecorder
 title: IMSVidStreamBufferSink::get_ReferenceRecorder (segment.h)
-
 description: The get_ReferenceRecorder method creates a new reference recording object.
 old-location: mstv\imsvidstreambuffersink_get_referencerecorder.htm
 tech.root: mstv
 ms.assetid: 81315825-165a-48ef-be5e-fdeba67765f6
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferSink interface [Microsoft TV Technologies],get_ReferenceRecorder method, IMSVidStreamBufferSink.get_ReferenceRecorder, IMSVidStreamBufferSink::get_ReferenceRecorder, IMSVidStreamBufferSinkget_ReferenceRecorder, get_ReferenceRecorder, get_ReferenceRecorder method [Microsoft TV Technologies], get_ReferenceRecorder method [Microsoft TV Technologies],IMSVidStreamBufferSink interface, mstv.imsvidstreambuffersink_get_referencerecorder, segment/IMSVidStreamBufferSink::get_ReferenceRecorder
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSink.get_ReferenceRecorder"
+f1_keywords:
+- segment/IMSVidStreamBufferSink.get_ReferenceRecorder
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSink.get_ReferenceRecorder
+- IMSVidStreamBufferSink.get_ReferenceRecorder
 targetos: Windows
 req.typenames: 
 req.redist: 

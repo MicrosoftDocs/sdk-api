@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.OnBeginPainting
 title: IWRdsProtocolLogonErrorRedirector::OnBeginPainting (wtsprotocol.h)
-
 description: Notifies the protocol that the logon user interface is ready to begin painting.
 old-location: termserv\iwrdsprotocollogonerrorredirector_onbeginpainting.htm
 tech.root: TermServ
 ms.assetid: cc044746-1127-44a3-993d-ca2445c99ff6
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services],OnBeginPainting method, IWRdsProtocolLogonErrorRedirector.OnBeginPainting, IWRdsProtocolLogonErrorRedirector::OnBeginPainting, OnBeginPainting, OnBeginPainting method [Remote Desktop Services], OnBeginPainting method [Remote Desktop Services],IWRdsProtocolLogonErrorRedirector interface, termserv.iwrdsprotocollogonerrorredirector_onbeginpainting, wtsprotocol/IWRdsProtocolLogonErrorRedirector::OnBeginPainting
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolLogonErrorRedirector.OnBeginPainting"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolLogonErrorRedirector.OnBeginPainting
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolLogonErrorRedirector.OnBeginPainting
+- IWRdsProtocolLogonErrorRedirector.OnBeginPainting
 targetos: Windows
 req.typenames: 
 req.redist: 

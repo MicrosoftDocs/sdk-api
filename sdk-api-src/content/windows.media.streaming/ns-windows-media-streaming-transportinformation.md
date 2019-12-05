@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.media.streaming.TransportInformation
 title: TransportInformation (windows.media.streaming.h)
-
 description: Contains the current values of media playback transport-related information obtained from the DMR.
 old-location: mediastreaming\transportinformation.htm
 tech.root: mediastreaming
 ms.assetid: c91f84f2-e19b-4bfa-862d-fc5e1dc756d4
-
 ms.date: 12/05/2018
 ms.keywords: TransportInformation, TransportInformation structure [Media Streaming API], mediastreaming.transportinformation, windows/TransportInformation
 ms.topic: struct
-f1_keywords: 
- - "windows.media.streaming/TransportInformation"
+f1_keywords:
+- windows.media.streaming/TransportInformation
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - TransportInformation
+- TransportInformation
 targetos: Windows
 req.typenames: TransportInformation
 req.redist: 

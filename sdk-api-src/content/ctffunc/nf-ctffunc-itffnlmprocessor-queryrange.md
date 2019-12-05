@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.QueryRange
 title: ITfFnLMProcessor::QueryRange (ctffunc.h)
-
 description: ITfFnLMProcessor::QueryRange method
 old-location: tsf\itffnlmprocessor_queryrange.htm
 tech.root: TSF
 ms.assetid: 84a9bf73-7215-429a-9573-66acf4d3ff18
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnLMProcessor interface [Text Services Framework],QueryRange method, ITfFnLMProcessor.QueryRange, ITfFnLMProcessor::QueryRange, QueryRange, QueryRange method [Text Services Framework], QueryRange method [Text Services Framework],ITfFnLMProcessor interface, _tsf_itffnlmprocessor_queryrange_ref, ctffunc/ITfFnLMProcessor::QueryRange, tsf.itffnlmprocessor_queryrange
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnLMProcessor.QueryRange"
+f1_keywords:
+- ctffunc/ITfFnLMProcessor.QueryRange
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnLMProcessor.QueryRange
+- ITfFnLMProcessor.QueryRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

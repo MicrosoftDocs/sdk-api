@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.shutdown
 title: shutdown function (winsock2.h)
-
 description: The shutdown function disables sends or receives on a socket.
 old-location: winsock\shutdown_2.htm
 tech.root: WinSock
 ms.assetid: 6998f0c6-adc9-481f-b9fb-75f9c9f5caaf
-
 ms.date: 12/05/2018
 ms.keywords: SD_BOTH, SD_RECEIVE, SD_SEND, _win32_shutdown_2, shutdown, shutdown function [Winsock], winsock.shutdown_2, winsock/shutdown
 ms.topic: function
-f1_keywords: 
- - "winsock2/shutdown"
+f1_keywords:
+- winsock2/shutdown
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: Winsock2.h, Webhost.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
- - wsock32.dll
+- Ws2_32.dll
+- wsock32.dll
 api_name:
- - shutdown
+- shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

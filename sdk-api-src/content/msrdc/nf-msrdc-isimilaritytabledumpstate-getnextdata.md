@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityTableDumpState.GetNextData
 title: ISimilarityTableDumpState::GetNextData (msrdc.h)
-
 description: Retrieves one or more SimilarityDumpData structures from the similarity traits list that was returned by the ISimilarityTraitsTable::BeginDump method.
 old-location: rdc\isimilaritytabledumpstate_getnextdata.htm
 tech.root: rdc
 ms.assetid: 40ec97fc-052d-474e-9a55-822aa113ac03
-
 ms.date: 12/05/2018
 ms.keywords: GetNextData, GetNextData method [Remote Differential Compression], GetNextData method [Remote Differential Compression],ISimilarityTableDumpState interface, ISimilarityTableDumpState interface [Remote Differential Compression],GetNextData method, ISimilarityTableDumpState.GetNextData, ISimilarityTableDumpState::GetNextData, fs.isimilaritytabledumpstate_getnextdata, msrdc/ISimilarityTableDumpState::GetNextData, rdc.isimilaritytabledumpstate_getnextdata
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityTableDumpState.GetNextData"
+f1_keywords:
+- msrdc/ISimilarityTableDumpState.GetNextData
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTableDumpState.GetNextData
+- ISimilarityTableDumpState.GetNextData
 targetos: Windows
 req.typenames: 
 req.redist: 

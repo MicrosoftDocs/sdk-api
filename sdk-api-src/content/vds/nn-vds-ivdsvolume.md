@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsVolume
 title: IVdsVolume (vds.h)
-
 description: Provides methods to manage volumes.
 old-location: base\ivdsvolume.htm
 tech.root: VDS
 ms.assetid: a02ee0a6-ac29-406c-9fc0-4f632d32424f
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVolume, IVdsVolume interface [VDS], IVdsVolume interface [VDS],described, base.ivdsvolume, vds/IVdsVolume
 ms.topic: interface
 f1_keywords:
 - vds/IVdsVolume
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

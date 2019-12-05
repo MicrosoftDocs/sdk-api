@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.ICategory.get_Description
 title: ICategory::get_Description (wuapi.h)
-
 description: Gets the description of the category.
 old-location: wua\icategory_description.htm
 tech.root: Wua_Sdk
 ms.assetid: ef22db9f-2ac8-4f20-b898-774dd9b1ce8f
-
 ms.date: 12/05/2018
 ms.keywords: Description property [Windows Update Agent], Description property [Windows Update Agent],ICategory interface, ICategory interface [Windows Update Agent],Description property, ICategory.Description, ICategory.get_Description, ICategory::Description, ICategory::get_Description, get_Description, wua.icategory_description, wuapi/ICategory::Description, wuapi/ICategory::get_Description
 ms.topic: method
-f1_keywords: 
- - "wuapi/ICategory.Description"
+f1_keywords:
+- wuapi/ICategory.Description
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ICategory.Description
- - ICategory.get_Description
+- ICategory.Description
+- ICategory.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

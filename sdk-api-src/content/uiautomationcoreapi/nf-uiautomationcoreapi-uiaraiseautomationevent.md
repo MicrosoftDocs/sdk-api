@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRaiseAutomationEvent
 title: UiaRaiseAutomationEvent function (uiautomationcoreapi.h)
-
 description: Notifies listeners of an event.
 old-location: winauto\uiauto_UiaRaiseAutomationEventFunction.htm
 tech.root: WinAuto
 ms.assetid: a91ce84c-faae-4b8b-9547-9e9d8edbde6e
-
 ms.date: 12/05/2018
 ms.keywords: UiaRaiseAutomationEvent, UiaRaiseAutomationEvent function [Windows Accessibility], uiauto.uiauto_UiaRaiseAutomationEventFunction, uiauto_UiaRaiseAutomationEventFunction, uiautomationcoreapi/UiaRaiseAutomationEvent, winauto.uiauto_UiaRaiseAutomationEventFunction
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRaiseAutomationEvent"
+f1_keywords:
+- uiautomationcoreapi/UiaRaiseAutomationEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaRaiseAutomationEvent
+- UiaRaiseAutomationEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

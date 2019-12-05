@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineRemoveFromConference
 title: TSPI_lineRemoveFromConference function (tspi.h)
-
 description: The TSPI_lineRemoveFromConference function removes the specified call from the conference call to which it currently belongs. The remaining calls in the conference call are unaffected.
 old-location: tspi\tspi_lineremovefromconference.htm
 tech.root: Tapi
 ms.assetid: 6e09ba3e-d233-4026-9866-8bc0d45ec9aa
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineRemoveFromConference, TSPI_lineRemoveFromConference function [TAPI 2.2], _tspi_tspi_lineremovefromconference, tspi.tspi_lineremovefromconference, tspi/TSPI_lineRemoveFromConference
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineRemoveFromConference"
+f1_keywords:
+- tspi/TSPI_lineRemoveFromConference
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineRemoveFromConference
+- TSPI_lineRemoveFromConference
 targetos: Windows
 req.typenames: 
 req.redist: 

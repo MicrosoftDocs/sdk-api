@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.SetInterface
 title: CSecureChannelClient::SetInterface (scclient.h)
-
 description: The SetInterface method is used by applications to set the IComponentAuthenticate interface to use for Secure Authenticated Channel (SAC) operations.
 old-location: wmdm\csecurechannelclient_setinterface.htm
 tech.root: WMDM
 ms.assetid: b1af8f10-7bad-4f85-89f1-b983af6d4dc9
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],SetInterface method, CSecureChannelClient.SetInterface, CSecureChannelClient::SetInterface, CSecureChannelClientSetInterface, SetInterface, SetInterface method [windows Media Device Manager], SetInterface method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::SetInterface, wmdm.csecurechannelclient_setinterface
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.SetInterface"
+f1_keywords:
+- scclient/CSecureChannelClient.SetInterface
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.SetInterface
+- CSecureChannelClient.SetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

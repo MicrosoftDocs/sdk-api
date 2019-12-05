@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMLicenseRevocationAgent
 title: IWMLicenseRevocationAgent (wmsdkidl.h)
-
 description: The IWMLicenseRevocationAgent interface handles messages from a DRM license server that involve license revocation.IWMLicenseRevocationAgent is the primary interface of the license revocation agent object.
 old-location: wmformat\iwmlicenserevocationagent.htm
 tech.root: wmformat
 ms.assetid: 4cb5beb9-72b8-46cb-8460-56455785a7a0
-
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRevocationAgent, IWMLicenseRevocationAgent interface [windows Media Format], IWMLicenseRevocationAgent interface [windows Media Format],described, IWMLicenseRevocationAgentInterface, wmformat.iwmlicenserevocationagent, wmsdkidl/IWMLicenseRevocationAgent
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMLicenseRevocationAgent"
+f1_keywords:
+- wmsdkidl/IWMLicenseRevocationAgent
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMLicenseRevocationAgent
+- IWMLicenseRevocationAgent
 targetos: Windows
 req.typenames: 
 req.redist: 

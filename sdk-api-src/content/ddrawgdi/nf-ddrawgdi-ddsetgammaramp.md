@@ -1,19 +1,17 @@
 ---
 UID: NF:ddrawgdi.DdSetGammaRamp
 title: DdSetGammaRamp function (ddrawgdi.h)
-
 description: The DdSetGammaRamp function sets the gamma ramp for the device.
 old-location: winprog\_dxgkernel_ddsetgammaramp.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddsetgammaramp.htm
-
 ms.date: 12/05/2018
 ms.keywords: DdSetGammaRamp, DdSetGammaRamp function [Windows API], GdiEntry15, _dxgkernel_ddsetgammaramp, ddrawgdi/DdSetGammaRamp, ddrawgdi/GdiEntry15, winprog._dxgkernel_ddsetgammaramp, winui._dxgkernel_ddsetgammaramp
 ms.topic: function
-f1_keywords: 
- - "ddrawgdi/DdSetGammaRamp"
+f1_keywords:
+- ddrawgdi/DdSetGammaRamp
 dev_langs:
- - c++
+- c++
 req.header: ddrawgdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ddrawgdi.h
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Ddrawgdi.h
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - DdSetGammaRamp
- - GdiEntry15
+- DdSetGammaRamp
+- GdiEntry15
 targetos: Windows
 req.typenames: 
 req.redist: 

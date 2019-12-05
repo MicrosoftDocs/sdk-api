@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.GetTerminalClassInfo
 title: ITPluggableTerminalClassRegistration::GetTerminalClassInfo (termmgr.h)
-
 description: The GetTerminalClassInfo method gets all the information from the registry for a specific terminal.
 old-location: tapi3\itpluggableterminalclassregistration_getterminalclassinfo.htm
 tech.root: Tapi
 ms.assetid: 35eed68f-be15-4229-b1be-01734f1831c9
-
 ms.date: 12/05/2018
 ms.keywords: GetTerminalClassInfo, GetTerminalClassInfo method [TAPI 2.2], GetTerminalClassInfo method [TAPI 2.2],ITPluggableTerminalClassRegistration interface, ITPluggableTerminalClassRegistration interface [TAPI 2.2],GetTerminalClassInfo method, ITPluggableTerminalClassRegistration.GetTerminalClassInfo, ITPluggableTerminalClassRegistration::GetTerminalClassInfo, _tapi3_itpluggableterminalclassregistration_getterminalclassinfo, tapi3.itpluggableterminalclassregistration_getterminalclassinfo, termmgr/ITPluggableTerminalClassRegistration::GetTerminalClassInfo
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITPluggableTerminalClassRegistration.GetTerminalClassInfo"
+f1_keywords:
+- termmgr/ITPluggableTerminalClassRegistration.GetTerminalClassInfo
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalClassRegistration.GetTerminalClassInfo
+- ITPluggableTerminalClassRegistration.GetTerminalClassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

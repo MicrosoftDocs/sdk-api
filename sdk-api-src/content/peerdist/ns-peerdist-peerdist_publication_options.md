@@ -1,19 +1,17 @@
 ---
 UID: NS:peerdist.peerdist_publication_options_tag
 title: PEERDIST_PUBLICATION_OPTIONS (peerdist.h)
-
 description: PEERDIST_PUBLICATION_OPTIONS structure contains publication options, including the API version information and possible option flags.
 old-location: p2p\peerdist_publication_options.htm
 tech.root: P2PSdk
 ms.assetid: 990b6551-eaf6-47f7-bc35-ea91820f917b
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking], PPEERDIST_PUBLICATION_OPTIONS, PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking], p2p.peerdist_publication_options, peerdist/PEERDIST_PUBLICATION_OPTIONS, peerdist/PPEERDIST_PUBLICATION_OPTIONS"
+ms.keywords: '*PPEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS, PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking], PPEERDIST_PUBLICATION_OPTIONS, PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking], p2p.peerdist_publication_options, peerdist/PEERDIST_PUBLICATION_OPTIONS, peerdist/PPEERDIST_PUBLICATION_OPTIONS'
 ms.topic: struct
-f1_keywords: 
- - "peerdist/PEERDIST_PUBLICATION_OPTIONS"
+f1_keywords:
+- peerdist/PEERDIST_PUBLICATION_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peerdist.h
+- peerdist.h
 api_name:
- - PEERDIST_PUBLICATION_OPTIONS
+- PEERDIST_PUBLICATION_OPTIONS
 targetos: Windows
 req.typenames: PEERDIST_PUBLICATION_OPTIONS, *PPEERDIST_PUBLICATION_OPTIONS
 req.redist: 

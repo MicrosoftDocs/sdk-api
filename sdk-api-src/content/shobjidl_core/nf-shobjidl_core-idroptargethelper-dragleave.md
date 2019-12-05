@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.DragLeave
 title: IDropTargetHelper::DragLeave (shobjidl_core.h)
-
 description: Notifies the drag-image manager that the drop target's IDropTarget::DragLeave method has been called.
 old-location: shell\IDropTargetHelper_DragLeave.htm
 tech.root: shell
 ms.assetid: a14b56e2-3a90-4802-bb28-869467878c2b
-
 ms.date: 12/05/2018
 ms.keywords: DragLeave, DragLeave method [Windows Shell], DragLeave method [Windows Shell],IDropTargetHelper interface, IDropTargetHelper interface [Windows Shell],DragLeave method, IDropTargetHelper.DragLeave, IDropTargetHelper::DragLeave, _win32_IDropTargetHelper_DragLeave, shell.IDropTargetHelper_DragLeave, shobjidl_core/IDropTargetHelper::DragLeave
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDropTargetHelper.DragLeave"
+f1_keywords:
+- shobjidl_core/IDropTargetHelper.DragLeave
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDropTargetHelper.DragLeave
+- IDropTargetHelper.DragLeave
 targetos: Windows
 req.typenames: 
 req.redist: 

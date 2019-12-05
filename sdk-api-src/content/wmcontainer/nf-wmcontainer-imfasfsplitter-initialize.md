@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.Initialize
 title: IMFASFSplitter::Initialize (wmcontainer.h)
-
 description: Resets the Advanced Systems Format (ASF) splitter and configures it to parse data from an ASF data section.
 old-location: mf\imfasfsplitter_initialize.htm
 tech.root: medfound
 ms.assetid: dd69c2f9-dabf-4bba-bb3b-75ec3208c189
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFSplitter interface [Media Foundation],Initialize method, IMFASFSplitter.Initialize, IMFASFSplitter::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFSplitter interface, dd69c2f9-dabf-4bba-bb3b-75ec3208c189, mf.imfasfsplitter_initialize, wmcontainer/IMFASFSplitter::Initialize
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFSplitter.Initialize"
+f1_keywords:
+- wmcontainer/IMFASFSplitter.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFSplitter.Initialize
+- IMFASFSplitter.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

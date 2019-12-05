@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetOptions
 title: IShellLibrary::GetOptions (shobjidl_core.h)
-
 description: Gets the library's options.
 old-location: shell\IShellLibrary_GetOptions.htm
 tech.root: shell
 ms.assetid: 1a144505-e977-4db6-8266-c39c1de8a8f9
-
 ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Windows Shell], GetOptions method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],GetOptions method, IShellLibrary.GetOptions, IShellLibrary::GetOptions, _shell_IShellLibrary_GetOptions, shell.IShellLibrary_GetOptions, shobjidl_core/IShellLibrary::GetOptions
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.GetOptions"
+f1_keywords:
+- shobjidl_core/IShellLibrary.GetOptions
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.GetOptions
+- IShellLibrary.GetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_name_pair_tag
 title: PEER_NAME_PAIR (p2p.h)
-
 description: The PEER_NAME_PAIR structure contains the results of a call to PeerGetNextItem.
 old-location: p2p\peer_name_pair.htm
 tech.root: P2PSdk
 ms.assetid: 4c64664e-33c6-490e-b160-7bdb5fb428fa
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_NAME_PAIR, PEER_NAME_PAIR, PEER_NAME_PAIR structure [Peer Networking], PPEER_NAME_PAIR, PPEER_NAME_PAIR structure pointer [Peer Networking], p2p.peer_name_pair, p2p/PPEER_NAME_PAIR, p2p/peer_name_pair_tag"
+ms.keywords: '*PPEER_NAME_PAIR, PEER_NAME_PAIR, PEER_NAME_PAIR structure [Peer Networking], PPEER_NAME_PAIR, PPEER_NAME_PAIR structure pointer [Peer Networking], p2p.peer_name_pair, p2p/PPEER_NAME_PAIR, p2p/peer_name_pair_tag'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_NAME_PAIR"
+f1_keywords:
+- p2p/PEER_NAME_PAIR
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_NAME_PAIR
+- PEER_NAME_PAIR
 targetos: Windows
 req.typenames: PEER_NAME_PAIR, *PPEER_NAME_PAIR
 req.redist: 

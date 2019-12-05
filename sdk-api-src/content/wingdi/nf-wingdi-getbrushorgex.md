@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetBrushOrgEx
 title: GetBrushOrgEx function (wingdi.h)
-
 description: The GetBrushOrgEx function retrieves the current brush origin for the specified device context. This function replaces the GetBrushOrg function.
 old-location: gdi\getbrushorgex.htm
 tech.root: gdi
 ms.assetid: 0b938237-cb06-4776-86f8-14478abcee00
-
 ms.date: 12/05/2018
 ms.keywords: GetBrushOrgEx, GetBrushOrgEx function [Windows GDI], _win32_GetBrushOrgEx, gdi.getbrushorgex, wingdi/GetBrushOrgEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetBrushOrgEx"
+f1_keywords:
+- wingdi/GetBrushOrgEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetBrushOrgEx
+- GetBrushOrgEx
 targetos: Windows
 req.typenames: 
 req.redist: 

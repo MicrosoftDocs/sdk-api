@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetJob
 title: IBackgroundCopyGroup::GetJob (qmgr.h)
-
 description: Use the GetJob method to retrieve a job from the group.
 old-location: bits\ibackgroundcopygroup_getjob.htm
 tech.root: Bits
 ms.assetid: c392e9e2-0489-457b-b21a-dfff9e2c0f39
-
 ms.date: 12/05/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetJob method, IBackgroundCopyGroup.GetJob, IBackgroundCopyGroup::GetJob, bits.ibackgroundcopygroup_getjob, qmgr/IBackgroundCopyGroup::GetJob
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.GetJob"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.GetJob
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.GetJob
+- IBackgroundCopyGroup.GetJob
 targetos: Windows
 req.typenames: 
 req.redist: 

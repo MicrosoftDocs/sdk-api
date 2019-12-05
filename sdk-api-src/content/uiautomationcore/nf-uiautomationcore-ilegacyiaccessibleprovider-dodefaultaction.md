@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.DoDefaultAction
 title: ILegacyIAccessibleProvider::DoDefaultAction (uiautomationcore.h)
-
 description: Performs the default action on the control.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_DoDefaultAction.htm
 tech.root: WinAuto
 ms.assetid: 29aaabba-dafe-400c-9fd6-80e13c0c9097
-
 ms.date: 12/05/2018
 ms.keywords: DoDefaultAction, DoDefaultAction method [Windows Accessibility], DoDefaultAction method [Windows Accessibility],ILegacyIAccessibleProvider interface, ILegacyIAccessibleProvider interface [Windows Accessibility],DoDefaultAction method, ILegacyIAccessibleProvider.DoDefaultAction, ILegacyIAccessibleProvider::DoDefaultAction, uiauto.uiauto_ILegacyIAccessibleProvider_DoDefaultAction, uiauto_ILegacyIAccessibleProvider_DoDefaultAction, uiautomationcore/ILegacyIAccessibleProvider::DoDefaultAction, winauto.uiauto_ILegacyIAccessibleProvider_DoDefaultAction
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.DoDefaultAction"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.DoDefaultAction
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ILegacyIAccessibleProvider.DoDefaultAction
+- ILegacyIAccessibleProvider.DoDefaultAction
 targetos: Windows
 req.typenames: 
 req.redist: 

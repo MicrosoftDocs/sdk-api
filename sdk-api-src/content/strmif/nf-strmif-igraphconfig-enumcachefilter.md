@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IGraphConfig.EnumCacheFilter
 title: IGraphConfig::EnumCacheFilter (strmif.h)
-
 description: The EnumCacheFilter method enumerates the filters in the filter cache.
 old-location: dshow\igraphconfig_enumcachefilter.htm
 tech.root: DirectShow
 ms.assetid: 1782def0-13ed-411c-ab05-d0f0c307e16a
-
 ms.date: 12/05/2018
 ms.keywords: EnumCacheFilter, EnumCacheFilter method [DirectShow], EnumCacheFilter method [DirectShow],IGraphConfig interface, IGraphConfig interface [DirectShow],EnumCacheFilter method, IGraphConfig.EnumCacheFilter, IGraphConfig::EnumCacheFilter, IGraphConfigEnumCacheFilter, dshow.igraphconfig_enumcachefilter, strmif/IGraphConfig::EnumCacheFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IGraphConfig.EnumCacheFilter"
+f1_keywords:
+- strmif/IGraphConfig.EnumCacheFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IGraphConfig.EnumCacheFilter
+- IGraphConfig.EnumCacheFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lzexpand.LZInit
 title: LZInit function (lzexpand.h)
-
 description: Allocates memory for the internal data structures required to decompress files, and then creates and initializes them.
 old-location: fs\lzinit.htm
 tech.root: FileIO
 ms.assetid: 53e6345a-e303-4ef6-8b4d-b9a3fcacfb13
-
 ms.date: 12/05/2018
 ms.keywords: LZInit, LZInit function [Files], _win32_lzinit, base.lzinit, fs.lzinit, lzexpand/LZInit
 ms.topic: function
-f1_keywords: 
- - "lzexpand/LZInit"
+f1_keywords:
+- lzexpand/LZInit
 dev_langs:
- - c++
+- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Lz32.dll
+- Lz32.dll
 api_name:
- - LZInit
+- LZInit
 targetos: Windows
 req.typenames: 
 req.redist: 

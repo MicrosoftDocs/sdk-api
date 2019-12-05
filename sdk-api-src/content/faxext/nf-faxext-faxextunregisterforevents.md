@@ -1,19 +1,17 @@
 ---
 UID: NF:faxext.FaxExtUnregisterForEvents
 title: FaxExtUnregisterForEvents function (faxext.h)
-
 description: The FaxExtUnregisterForEvents callback function unregisters the fax extension DLL for notifications about configuration data changes related to a specific device and GUID.
 old-location: fax\_mfax_faxextunregisterforevents.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxextconfigref_7soj.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxExtUnregisterForEvents, FaxExtUnregisterForEvents function [Fax Service], _mfax_faxextunregisterforevents, fax._mfax_faxextunregisterforevents, faxext/FaxExtUnregisterForEvents
 ms.topic: function
-f1_keywords: 
- - "faxext/FaxExtUnregisterForEvents"
+f1_keywords:
+- faxext/FaxExtUnregisterForEvents
 dev_langs:
- - c++
+- c++
 req.header: faxext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxExt.h
+- FaxExt.h
 api_name:
- - FaxExtUnregisterForEvents
+- FaxExtUnregisterForEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

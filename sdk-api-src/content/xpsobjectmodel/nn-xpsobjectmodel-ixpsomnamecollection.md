@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMNameCollection
 title: IXpsOMNameCollection (xpsobjectmodel.h)
-
 description: A collection of name strings.
 old-location: xps\ixpsomnamecollection.htm
 tech.root: printdocs
 ms.assetid: b27f83fc-0fcf-44e9-a6ce-c3612c5399ff
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMNameCollection, IXpsOMNameCollection interface [XPS Documents and Packaging], IXpsOMNameCollection interface [XPS Documents and Packaging],described, xps.ixpsomnamecollection, xpsobjectmodel/IXpsOMNameCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMNameCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMNameCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMNameCollection
+- IXpsOMNameCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

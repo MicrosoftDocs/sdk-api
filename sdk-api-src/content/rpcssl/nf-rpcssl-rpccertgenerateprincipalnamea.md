@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcssl.RpcCertGeneratePrincipalNameA
 title: RpcCertGeneratePrincipalNameA function (rpcssl.h)
-
 description: Server programs use the RpcCertGeneratePrincipalName function to generate principal names for security certificates.
 old-location: rpc\rpccertgenerateprincipalname.htm
 tech.root: Rpc
 ms.assetid: 88a172f5-2226-46e9-845e-c67b0a885905
-
 ms.date: 12/05/2018
 ms.keywords: RpcCertGeneratePrincipalName, RpcCertGeneratePrincipalName function [RPC], RpcCertGeneratePrincipalNameA, RpcCertGeneratePrincipalNameW, _rpc_rpccertgenerateprincipalname, rpc.rpccertgenerateprincipalname, rpcssl/RpcCertGeneratePrincipalName, rpcssl/RpcCertGeneratePrincipalNameA, rpcssl/RpcCertGeneratePrincipalNameW
 ms.topic: function
-f1_keywords: 
- - "rpcssl/RpcCertGeneratePrincipalName"
+f1_keywords:
+- rpcssl/RpcCertGeneratePrincipalName
 dev_langs:
- - c++
+- c++
 req.header: rpcssl.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcCertGeneratePrincipalName
- - RpcCertGeneratePrincipalNameA
- - RpcCertGeneratePrincipalNameW
+- RpcCertGeneratePrincipalName
+- RpcCertGeneratePrincipalNameA
+- RpcCertGeneratePrincipalNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

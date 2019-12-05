@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetFlipStatus
 title: IDirectDrawSurface7::GetFlipStatus (ddraw.h)
-
 description: Retrieves status about whether this surface has finished its flipping process.
 old-location: directdraw\idirectdrawsurface7_getflipstatus.htm
 tech.root: directdraw
 ms.assetid: e337bdde-bf63-414a-88a5-507478476667
-
 ms.date: 12/05/2018
 ms.keywords: DDGFS_CANFLIP, DDGFS_ISFLIPDONE, GetFlipStatus, GetFlipStatus method [DirectDraw], GetFlipStatus method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetFlipStatus method, IDirectDrawSurface7.GetFlipStatus, IDirectDrawSurface7::GetFlipStatus, ddraw/IDirectDrawSurface7::GetFlipStatus, directdraw.idirectdrawsurface7_getflipstatus
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.GetFlipStatus"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetFlipStatus
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.GetFlipStatus
+- IDirectDrawSurface7.GetFlipStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

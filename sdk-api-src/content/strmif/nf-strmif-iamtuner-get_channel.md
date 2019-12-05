@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTuner.get_Channel
 title: IAMTuner::get_Channel (strmif.h)
-
 description: The get_Channel method retrieves the channel to which the tuner is set.
 old-location: dshow\iamtuner_get_channel.htm
 tech.root: DirectShow
 ms.assetid: 68c1b6da-4380-4831-b554-bbb2e3e55ef9
-
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_Channel method, IAMTVTuner::get_Channel, IAMTuner interface [DirectShow],get_Channel method, IAMTuner.get_Channel, IAMTuner::get_Channel, IAMTunerget_Channel, dshow.iamtuner_get_channel, get_Channel, get_Channel method [DirectShow], get_Channel method [DirectShow],IAMTVTuner interface, get_Channel method [DirectShow],IAMTuner interface, strmif/IAMTVTuner::get_Channel, strmif/IAMTuner::get_Channel
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTuner.get_Channel"
+f1_keywords:
+- strmif/IAMTuner.get_Channel
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTuner.get_Channel
- - IAMTVTuner.get_Channel
+- IAMTuner.get_Channel
+- IAMTVTuner.get_Channel
 targetos: Windows
 req.typenames: 
 req.redist: 

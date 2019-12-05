@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.SetBorderColor
 title: IMFVideoDisplayControl::SetBorderColor (evr.h)
-
 description: Sets the border color for the video.
 old-location: mf\imfvideodisplaycontrol_setbordercolor.htm
 tech.root: medfound
 ms.assetid: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71
-
 ms.date: 12/05/2018
 ms.keywords: 4a3647a8-4789-4f18-979b-4a9ee1ce7b71, IMFVideoDisplayControl interface [Media Foundation],SetBorderColor method, IMFVideoDisplayControl.SetBorderColor, IMFVideoDisplayControl::SetBorderColor, SetBorderColor, SetBorderColor method [Media Foundation], SetBorderColor method [Media Foundation],IMFVideoDisplayControl interface, evr/IMFVideoDisplayControl::SetBorderColor, mf.imfvideodisplaycontrol_setbordercolor
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoDisplayControl.SetBorderColor"
+f1_keywords:
+- evr/IMFVideoDisplayControl.SetBorderColor
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoDisplayControl.SetBorderColor
+- IMFVideoDisplayControl.SetBorderColor
 targetos: Windows
 req.typenames: 
 req.redist: 

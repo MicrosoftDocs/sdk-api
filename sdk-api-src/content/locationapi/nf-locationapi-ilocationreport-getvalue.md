@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocationReport.GetValue
 title: ILocationReport::GetValue (locationapi.h)
-
 description: Retrieves a property value from the location report.
 old-location: winlocation_com_ref\ilocationreport_getvalue.htm
 tech.root: locationapi
 ms.assetid: a4bc1cc8-e246-4740-8290-afc8cd6def09
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [WinLocation], GetValue method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetValue method, ILocationReport.GetValue, ILocationReport::GetValue, WinLocation_COM_Ref.ilocationreport_getvalue, locationapi/ILocationReport::GetValue
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocationReport.GetValue"
+f1_keywords:
+- locationapi/ILocationReport.GetValue
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocationReport.GetValue
+- ILocationReport.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

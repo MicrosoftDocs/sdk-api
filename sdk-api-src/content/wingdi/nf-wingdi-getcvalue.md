@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetCValue
 title: GetCValue macro (wingdi.h)
-
 description: The GetCValue macro retrieves the cyan color value from a CMYK color value.
 old-location: wcs\getcvalue.htm
 tech.root: WCS
 ms.assetid: 0b1b1eca-61b2-4011-85ea-6311ac78cab6
-
 ms.date: 12/05/2018
 ms.keywords: GetCValue, GetCValue macro [Windows Color System], _color_GetCValue, wcs.getcvalue, wingdi/GetCValue
 ms.topic: macro
-f1_keywords: 
- - "wingdi/GetCValue"
+f1_keywords:
+- wingdi/GetCValue
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - GetCValue
+- GetCValue
 targetos: Windows
 req.typenames: 
 req.redist: 

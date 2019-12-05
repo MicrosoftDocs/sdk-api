@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetWorkQueueMMCSSTaskId
 title: MFGetWorkQueueMMCSSTaskId function (mfapi.h)
-
 description: Retrieves the Multimedia Class Scheduler Service (MMCSS) task identifier currently associated with this work queue.
 old-location: mf\mfgetworkqueuemmcsstaskid.htm
 tech.root: medfound
 ms.assetid: e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4
-
 ms.date: 12/05/2018
 ms.keywords: MFGetWorkQueueMMCSSTaskId, MFGetWorkQueueMMCSSTaskId function [Media Foundation], e9b2eea8-2ed3-4b08-ad2a-c8ee2e09f3e4, mf.mfgetworkqueuemmcsstaskid, mfapi/MFGetWorkQueueMMCSSTaskId
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetWorkQueueMMCSSTaskId"
+f1_keywords:
+- mfapi/MFGetWorkQueueMMCSSTaskId
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetWorkQueueMMCSSTaskId
+- MFGetWorkQueueMMCSSTaskId
 targetos: Windows
 req.typenames: 
 req.redist: 

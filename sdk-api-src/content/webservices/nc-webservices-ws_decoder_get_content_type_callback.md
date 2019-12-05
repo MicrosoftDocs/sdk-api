@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_DECODER_GET_CONTENT_TYPE_CALLBACK
 title: WS_DECODER_GET_CONTENT_TYPE_CALLBACK (webservices.h)
-
 description: Gets the content type of the message.
 old-location: wsw\ws_decoder_get_content_type_callback.htm
 tech.root: wsw
 ms.assetid: 8920259f-e52d-4141-87ff-0e1ac1396517
-
 ms.date: 12/05/2018
 ms.keywords: WS_DECODER_GET_CONTENT_TYPE_CALLBACK, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback, WS_DECODER_GET_CONTENT_TYPE_CALLBACK callback function [Web Services for Windows], webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK, wsw.ws_decoder_get_content_type_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK"
+f1_keywords:
+- webservices/WS_DECODER_GET_CONTENT_TYPE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_DECODER_GET_CONTENT_TYPE_CALLBACK
+- WS_DECODER_GET_CONTENT_TYPE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

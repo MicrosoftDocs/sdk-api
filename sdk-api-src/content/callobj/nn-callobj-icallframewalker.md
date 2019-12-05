@@ -1,19 +1,17 @@
 ---
 UID: NN:callobj.ICallFrameWalker
 title: ICallFrameWalker (callobj.h)
-
 description: Walks a stack frame looking for interesting values.
 old-location: com\icallframewalker.htm
 tech.root: com
 ms.assetid: 1eeb00a3-d3c5-46f0-95a8-f694f802894b
-
 ms.date: 12/05/2018
 ms.keywords: ICallFrameWalker, ICallFrameWalker interface [COM], ICallFrameWalker interface [COM],described, _com_icallframewalker, callobj/ICallFrameWalker, com.icallframewalker
 ms.topic: interface
-f1_keywords: 
- - "callobj/ICallFrameWalker"
+f1_keywords:
+- callobj/ICallFrameWalker
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrameWalker
+- ICallFrameWalker
 targetos: Windows
 req.typenames: 
 req.redist: 

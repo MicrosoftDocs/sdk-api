@@ -1,19 +1,17 @@
 ---
 UID: NF:tsvirtualchannels.IWTSVirtualChannelCallback.OnClose
 title: IWTSVirtualChannelCallback::OnClose (tsvirtualchannels.h)
-
 description: Notifies the user that the channel has been closed.
 old-location: termserv\iwtsvirtualchannelcallback_onclose.htm
 tech.root: TermServ
 ms.assetid: 5038f2f9-980b-4383-a718-eb4e07e9cfe9
-
 ms.date: 12/05/2018
 ms.keywords: IWTSVirtualChannelCallback interface [Remote Desktop Services],OnClose method, IWTSVirtualChannelCallback.OnClose, IWTSVirtualChannelCallback::OnClose, OnClose, OnClose method [Remote Desktop Services], OnClose method [Remote Desktop Services],IWTSVirtualChannelCallback interface, termserv.iwtsvirtualchannelcallback_onclose, tsvirtualchannels/IWTSVirtualChannelCallback::OnClose
 ms.topic: method
-f1_keywords: 
- - "tsvirtualchannels/IWTSVirtualChannelCallback.OnClose"
+f1_keywords:
+- tsvirtualchannels/IWTSVirtualChannelCallback.OnClose
 dev_langs:
- - c++
+- c++
 req.header: tsvirtualchannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TsVirtualChannels.h
+- TsVirtualChannels.h
 api_name:
- - IWTSVirtualChannelCallback.OnClose
+- IWTSVirtualChannelCallback.OnClose
 targetos: Windows
 req.typenames: 
 req.redist: 

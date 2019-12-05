@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IAnalogLocator
 title: IAnalogLocator (tuner.h)
-
 description: The IAnalogLocator interface provides tuning information for an analog television network.
 old-location: mstv\ianaloglocator.htm
 tech.root: mstv
 ms.assetid: d5ed0dcc-347d-4196-a551-88775cb1b253
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogLocator, IAnalogLocator interface [Microsoft TV Technologies], IAnalogLocator interface [Microsoft TV Technologies],described, IAnalogLocatorInterface, mstv.ianaloglocator, tuner/IAnalogLocator
 ms.topic: interface
-f1_keywords: 
- - "tuner/IAnalogLocator"
+f1_keywords:
+- tuner/IAnalogLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogLocator
+- IAnalogLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

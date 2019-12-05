@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.get_PacketSize
 title: IInkStrokeDisp::get_PacketSize (msinkaut.h)
-
 description: Gets the size, in bytes, of a packet.
 old-location: tablet\iinkstrokedisp_packetsize.htm
 tech.root: tablet
 ms.assetid: 42016aa0-7cc4-43d5-a055-7007a4bf9f07
-
 ms.date: 12/05/2018
 ms.keywords: 42016aa0-7cc4-43d5-a055-7007a4bf9f07, IInkStrokeDisp interface [Tablet PC],PacketSize property, IInkStrokeDisp.PacketSize, IInkStrokeDisp.get_PacketSize, IInkStrokeDisp::PacketSize, IInkStrokeDisp::get_PacketSize, PacketSize property [Tablet PC], PacketSize property [Tablet PC],IInkStrokeDisp interface, get_PacketSize, msinkaut/IInkStrokeDisp::PacketSize, msinkaut/IInkStrokeDisp::get_PacketSize, tablet.iinkstrokedisp_packetsize
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.PacketSize"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.PacketSize
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.PacketSize
- - IInkStrokeDisp.get_PacketSize
- - IInkStrokeDisp.get_PacketSize
+- IInkStrokeDisp.PacketSize
+- IInkStrokeDisp.get_PacketSize
+- IInkStrokeDisp.get_PacketSize
 targetos: Windows
 req.typenames: 
 req.redist: 

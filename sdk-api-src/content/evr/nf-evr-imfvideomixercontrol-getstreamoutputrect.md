@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoMixerControl.GetStreamOutputRect
 title: IMFVideoMixerControl::GetStreamOutputRect (evr.h)
-
 description: Retrieves the position of a video stream within the composition rectangle.
 old-location: mf\imfvideomixercontrol_getstreamoutputrect.htm
 tech.root: medfound
 ms.assetid: 6de631cd-f85e-4f53-b14c-8ca3cd65b719
-
 ms.date: 12/05/2018
 ms.keywords: 6de631cd-f85e-4f53-b14c-8ca3cd65b719, GetStreamOutputRect, GetStreamOutputRect method [Media Foundation], GetStreamOutputRect method [Media Foundation],IMFVideoMixerControl interface, IMFVideoMixerControl interface [Media Foundation],GetStreamOutputRect method, IMFVideoMixerControl.GetStreamOutputRect, IMFVideoMixerControl::GetStreamOutputRect, evr/IMFVideoMixerControl::GetStreamOutputRect, mf.imfvideomixercontrol_getstreamoutputrect
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoMixerControl.GetStreamOutputRect"
+f1_keywords:
+- evr/IMFVideoMixerControl.GetStreamOutputRect
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerControl.GetStreamOutputRect
+- IMFVideoMixerControl.GetStreamOutputRect
 targetos: Windows
 req.typenames: 
 req.redist: 

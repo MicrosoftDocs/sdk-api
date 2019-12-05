@@ -1,19 +1,17 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC
 title: RSVP_FILTERSPEC (qossp.h)
-
 description: The RSVP_FILTERSPEC structure provides RSVP FILTERSPEC information.
 old-location: qos\rsvp_filterspec.htm
 tech.root: QOS
 ms.assetid: ce4af25d-6c31-43a2-a30a-1d28b18e8f8b
-
 ms.date: 12/05/2018
 ms.keywords: '*LPRSVP_FILTERSPEC, *LPRSVP_FILTERSPEC structure [QOS], RSVP_FILTERSPEC, RSVP_FILTERSPEC structure [QOS], qos.rsvp_filterspec, qossp/*LPRSVP_FILTERSPEC, qossp/RSVP_FILTERSPEC'
 ms.topic: struct
 f1_keywords:
 - qossp/RSVP_FILTERSPEC
 dev_langs:
- - c++
+- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

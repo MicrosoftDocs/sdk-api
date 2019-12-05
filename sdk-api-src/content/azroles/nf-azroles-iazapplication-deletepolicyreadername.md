@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.DeletePolicyReaderName
 title: IAzApplication::DeletePolicyReaderName (azroles.h)
-
 description: Removes the specified account name from the list of principals that act as policy readers.
 old-location: security\iazapplication_deletepolicyreadername.htm
 tech.root: SecAuthZ
 ms.assetid: 1948fb2d-a1ca-4f66-889d-d00f8f265ba5
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeletePolicyReaderName method, DeletePolicyReaderName, DeletePolicyReaderName method [Security], DeletePolicyReaderName method [Security],AzApplication object, DeletePolicyReaderName method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyReaderName method, IAzApplication.DeletePolicyReaderName, IAzApplication::DeletePolicyReaderName, azroles/IAzApplication::DeletePolicyReaderName, security.iazapplication_deletepolicyreadername
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.DeletePolicyReaderName"
+f1_keywords:
+- azroles/IAzApplication.DeletePolicyReaderName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.DeletePolicyReaderName
- - AzApplication.DeletePolicyReaderName
+- IAzApplication.DeletePolicyReaderName
+- AzApplication.DeletePolicyReaderName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

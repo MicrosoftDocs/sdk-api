@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget
 title: ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget (sbtsv.h)
-
 description: Returns a load-balancing result to Remote Desktop Connection Broker (RD Connection Broker).
 old-location: termserv\itssbloadbalancingnotifysink_ongetmostsuitabletarget.htm
 tech.root: TermServ
 ms.assetid: 44e44c05-6bdf-4f02-acdb-b03a136d9a3a
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalancingNotifySink interface [Remote Desktop Services],OnGetMostSuitableTarget method, ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget, ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, OnGetMostSuitableTarget, OnGetMostSuitableTarget method [Remote Desktop Services], OnGetMostSuitableTarget method [Remote Desktop Services],ITsSbLoadBalancingNotifySink interface, sbtsv/ITsSbLoadBalancingNotifySink::OnGetMostSuitableTarget, termserv.itssbloadbalancingnotifysink_ongetmostsuitabletarget
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget"
+f1_keywords:
+- sbtsv/ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget
+- ITsSbLoadBalancingNotifySink.OnGetMostSuitableTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

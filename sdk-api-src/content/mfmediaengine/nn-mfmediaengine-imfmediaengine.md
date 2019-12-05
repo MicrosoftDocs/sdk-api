@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngine
 title: IMFMediaEngine (mfmediaengine.h)
-
 description: Enables an application to play audio or video files.
 old-location: mf\imfmediaengine.htm
 tech.root: medfound
 ms.assetid: A0023F18-2D28-4F0D-9B00-B8FB11567034
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine, IMFMediaEngine interface [Media Foundation], IMFMediaEngine interface [Media Foundation],described, mf.imfmediaengine, mfmediaengine/IMFMediaEngine
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine
+- IMFMediaEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

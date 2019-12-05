@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.CreateTransaction
 title: CreateTransaction function (ktmw32.h)
-
 description: Creates a new transaction object.
 old-location: fs\createtransaction.htm
 tech.root: ktm
 ms.assetid: 578bda35-bd35-4f6d-8366-a4bfb4dbfe42
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransaction, CreateTransaction function [Files], TRANSACTION_DO_NOT_PROMOTE, fs.createtransaction, ktmw32/CreateTransaction
 ms.topic: function
-f1_keywords: 
- - "ktmw32/CreateTransaction"
+f1_keywords:
+- ktmw32/CreateTransaction
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KtmW32.dll
+- KtmW32.dll
 api_name:
- - CreateTransaction
+- CreateTransaction
 targetos: Windows
 req.typenames: 
 req.redist: 

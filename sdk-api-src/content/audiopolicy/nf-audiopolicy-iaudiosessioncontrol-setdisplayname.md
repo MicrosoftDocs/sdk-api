@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.SetDisplayName
 title: IAudioSessionControl::SetDisplayName (audiopolicy.h)
-
 description: The SetDisplayName method assigns a display name to the current session.
 old-location: coreaudio\iaudiosessioncontrol_setdisplayname.htm
 tech.root: CoreAudio
 ms.assetid: d12c12ed-a556-4743-952e-2eb4f58ee0eb
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionControl interface [Core Audio],SetDisplayName method, IAudioSessionControl.SetDisplayName, IAudioSessionControl::SetDisplayName, IAudioSessionControlSetDisplayName, SetDisplayName, SetDisplayName method [Core Audio], SetDisplayName method [Core Audio],IAudioSessionControl interface, audiopolicy/IAudioSessionControl::SetDisplayName, coreaudio.iaudiosessioncontrol_setdisplayname
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionControl.SetDisplayName"
+f1_keywords:
+- audiopolicy/IAudioSessionControl.SetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionControl.SetDisplayName
+- IAudioSessionControl.SetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

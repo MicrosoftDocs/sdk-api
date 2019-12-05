@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.GetDataCollectorSets
 title: IDataCollectorSetCollection::GetDataCollectorSets (pla.h)
-
 description: Populates the data collector set collection.
 old-location: pla\idatacollectorsetcollection_getdatacollectorsets.htm
 tech.root: PLA
 ms.assetid: 190c96ad-6193-4f74-906f-180575e6e418
-
 ms.date: 12/05/2018
 ms.keywords: GetDataCollectorSets, GetDataCollectorSets method [PLA], GetDataCollectorSets method [PLA],IDataCollectorSetCollection interface, IDataCollectorSetCollection interface [PLA],GetDataCollectorSets method, IDataCollectorSetCollection.GetDataCollectorSets, IDataCollectorSetCollection::GetDataCollectorSets, base.idatacollectorsetcollection_getdatacollectorsets, pla.idatacollectorsetcollection_getdatacollectorsets, pla/IDataCollectorSetCollection::GetDataCollectorSets
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSetCollection.GetDataCollectorSets"
+f1_keywords:
+- pla/IDataCollectorSetCollection.GetDataCollectorSets
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSetCollection.GetDataCollectorSets
+- IDataCollectorSetCollection.GetDataCollectorSets
 targetos: Windows
 req.typenames: 
 req.redist: 

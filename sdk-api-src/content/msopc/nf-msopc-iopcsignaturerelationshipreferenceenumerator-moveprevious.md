@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
 title: IOpcSignatureRelationshipReferenceEnumerator::MovePrevious (msopc.h)
-
 description: Moves the current position of the enumerator to the previous IOpcSignatureRelationshipReference interface pointer.
 old-location: opc\iopcsignaturerelationshipreferenceenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: c56f871f-50ca-4253-84db-0602459fc2fa
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureRelationshipReferenceEnumerator interface [Open Packaging Conventions],MovePrevious method, IOpcSignatureRelationshipReferenceEnumerator.MovePrevious, IOpcSignatureRelationshipReferenceEnumerator::MovePrevious, MovePrevious, MovePrevious method [Open Packaging Conventions], MovePrevious method [Open Packaging Conventions],IOpcSignatureRelationshipReferenceEnumerator interface, msopc/IOpcSignatureRelationshipReferenceEnumerator::MovePrevious, opc.iopcsignaturerelationshipreferenceenumerator_moveprevious
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReferenceEnumerator.MovePrevious"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
+- IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
 targetos: Windows
 req.typenames: 
 req.redist: 

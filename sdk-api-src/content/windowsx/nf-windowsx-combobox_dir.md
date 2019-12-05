@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_Dir
 title: ComboBox_Dir macro (windowsx.h)
-
 description: Adds names to the list displayed by a combo box.
 old-location: controls\ComboBox_Dir.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_dir.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_Dir, ComboBox_Dir macro [Windows Controls], _win32_ComboBox_Dir, _win32_ComboBox_Dir_cpp, controls.ComboBox_Dir, controls._win32_ComboBox_Dir, windowsx/ComboBox_Dir
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_Dir"
+f1_keywords:
+- windowsx/ComboBox_Dir
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_Dir
+- ComboBox_Dir
 targetos: Windows
 req.typenames: 
 req.redist: 

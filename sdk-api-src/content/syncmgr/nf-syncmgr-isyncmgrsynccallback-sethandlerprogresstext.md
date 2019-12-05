@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncCallback.SetHandlerProgressText
 title: ISyncMgrSyncCallback::SetHandlerProgressText (syncmgr.h)
-
 description: Sets the content of an information field for the handler while that handler is performing a synchronization.
 old-location: shell\ISyncMgrSyncCallback_SetHandlerProgressText.htm
 tech.root: shell
 ms.assetid: 5f16de5e-fed0-4d2c-a764-2239f9225cad
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],SetHandlerProgressText method, ISyncMgrSyncCallback.SetHandlerProgressText, ISyncMgrSyncCallback::SetHandlerProgressText, SetHandlerProgressText, SetHandlerProgressText method [Windows Shell], SetHandlerProgressText method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_SetHandlerProgressText, shell.ISyncMgrSyncCallback_SetHandlerProgressText, syncmgr/ISyncMgrSyncCallback::SetHandlerProgressText
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncCallback.SetHandlerProgressText"
+f1_keywords:
+- syncmgr/ISyncMgrSyncCallback.SetHandlerProgressText
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback.SetHandlerProgressText
+- ISyncMgrSyncCallback.SetHandlerProgressText
 targetos: Windows
 req.typenames: 
 req.redist: 

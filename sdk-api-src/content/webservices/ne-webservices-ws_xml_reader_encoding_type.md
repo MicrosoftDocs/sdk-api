@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_10
 title: WS_XML_READER_ENCODING_TYPE (webservices.h)
-
 description: The type of WS_XML_READER_ENCODING structure.
 old-location: wsw\ws_xml_reader_encoding_type.htm
 tech.root: wsw
 ms.assetid: 3dfeb712-9867-49d5-b1f0-1abd836a4746
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_READER_ENCODING_TYPE, WS_XML_READER_ENCODING_TYPE enumeration [Web Services for Windows], WS_XML_READER_ENCODING_TYPE_BINARY, WS_XML_READER_ENCODING_TYPE_MTOM, WS_XML_READER_ENCODING_TYPE_TEXT, webservices/WS_XML_READER_ENCODING_TYPE, webservices/WS_XML_READER_ENCODING_TYPE_BINARY, webservices/WS_XML_READER_ENCODING_TYPE_MTOM, webservices/WS_XML_READER_ENCODING_TYPE_TEXT, wsw.ws_xml_reader_encoding_type
 ms.topic: enum
 f1_keywords:
 - webservices/WS_XML_READER_ENCODING_TYPE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

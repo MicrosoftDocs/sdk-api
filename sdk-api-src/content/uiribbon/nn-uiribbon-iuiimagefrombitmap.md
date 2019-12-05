@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUIImageFromBitmap
 title: IUIImageFromBitmap (uiribbon.h)
-
 description: IUIImageFromBitmap is a factory interface implemented by the Windows Ribbon framework that defines the method for creating an IUIImage object.
 old-location: windowsribbon\windowsribbon_iuiimagefrombitmap.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\iuiimagefrombitmap.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIImageFromBitmap, IUIImageFromBitmap interface [Windows Ribbon], IUIImageFromBitmap interface [Windows Ribbon],described, scenicintent_IUIImageFromBitmap, uiribbon/IUIImageFromBitmap, windowsribbon.windowsribbon_iuiimagefrombitmap
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUIImageFromBitmap"
+f1_keywords:
+- uiribbon/IUIImageFromBitmap
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUIImageFromBitmap
+- IUIImageFromBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

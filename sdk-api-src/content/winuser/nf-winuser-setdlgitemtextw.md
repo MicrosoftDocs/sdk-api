@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetDlgItemTextW
 title: SetDlgItemTextW function (winuser.h)
-
 description: Sets the title or text of a control in a dialog box.
 old-location: dlgbox\setdlgitemtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\setdlgitemtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetDlgItemText, SetDlgItemText function [Dialog Boxes], SetDlgItemTextA, SetDlgItemTextW, _win32_SetDlgItemText, _win32_setdlgitemtext_cpp, dlgbox.setdlgitemtext, winui._win32_setdlgitemtext, winuser/SetDlgItemText, winuser/SetDlgItemTextA, winuser/SetDlgItemTextW
 ms.topic: function
-f1_keywords: 
- - "winuser/SetDlgItemText"
+f1_keywords:
+- winuser/SetDlgItemText
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - SetDlgItemText
- - SetDlgItemTextA
- - SetDlgItemTextW
+- SetDlgItemText
+- SetDlgItemTextA
+- SetDlgItemTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

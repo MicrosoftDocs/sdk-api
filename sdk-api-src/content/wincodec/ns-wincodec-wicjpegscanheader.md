@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICJpegScanHeader
 title: WICJpegScanHeader (wincodec.h)
-
 description: Represents a JPEG frame header.
 old-location: wic\wicjpegscanheader.htm
 tech.root: wic
 ms.assetid: 87A36F9B-CD6B-4343-AAA7-9FDBAD41E38A
-
 ms.date: 12/05/2018
 ms.keywords: WICJpegScanHeader, WICJpegScanHeader structure [Windows Imaging Component], wic.wicjpegscanheader, wincodec/WICJpegScanHeader
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICJpegScanHeader"
+f1_keywords:
+- wincodec/WICJpegScanHeader
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wincodec.h
+- wincodec.h
 api_name:
- - WICJpegScanHeader
+- WICJpegScanHeader
 targetos: Windows
 req.typenames: WICJpegScanHeader
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_CspInformations
 title: IX509CertificateRequest::get_CspInformations (certenroll.h)
-
 description: Specifies and retrieves a collection of cryptographic providers available for use by the request object.
 old-location: security\ix509certificaterequest_cspinformations_property.htm
 tech.root: seccertenroll
 ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5
-
 ms.date: 12/05/2018
 ms.keywords: CspInformations property [Security], CspInformations property [Security],IX509CertificateRequest interface, IX509CertificateRequest interface [Security],CspInformations property, IX509CertificateRequest.CspInformations, IX509CertificateRequest.get_CspInformations, IX509CertificateRequest::CspInformations, IX509CertificateRequest::get_CspInformations, IX509CertificateRequest::put_CspInformations, certenroll/IX509CertificateRequest::CspInformations, certenroll/IX509CertificateRequest::get_CspInformations, certenroll/IX509CertificateRequest::put_CspInformations, get_CspInformations, security.ix509certificaterequest_cspinformations_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.CspInformations"
+f1_keywords:
+- certenroll/IX509CertificateRequest.CspInformations
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.CspInformations
- - IX509CertificateRequest.get_CspInformations
- - IX509CertificateRequest.put_CspInformations
+- IX509CertificateRequest.CspInformations
+- IX509CertificateRequest.get_CspInformations
+- IX509CertificateRequest.put_CspInformations
 targetos: Windows
 req.typenames: 
 req.redist: 

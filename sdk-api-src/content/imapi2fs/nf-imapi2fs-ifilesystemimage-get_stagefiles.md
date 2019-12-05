@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_StageFiles
 title: IFileSystemImage::get_StageFiles (imapi2fs.h)
-
 description: Indicates if the files being added to the file system image should be staged before the burn.
 old-location: imapi\ifilesystemimage_get_stagefiles.htm
 tech.root: imapi
 ms.assetid: 7146ad88-071a-4df9-80f9-46e24b49286b
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_StageFiles method, IFileSystemImage.get_StageFiles, IFileSystemImage::get_StageFiles, get_StageFiles, get_StageFiles method [IMAPI], get_StageFiles method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_stagefiles, imapi2fs/IFileSystemImage::get_StageFiles
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_StageFiles"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_StageFiles
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_StageFiles
+- IFileSystemImage.get_StageFiles
 targetos: Windows
 req.typenames: 
 req.redist: 

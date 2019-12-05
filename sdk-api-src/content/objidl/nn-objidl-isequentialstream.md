@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.ISequentialStream
 title: ISequentialStream (objidl.h)
-
 description: The ISequentialStream interface supports simplified sequential access to stream objects. The IStream interface inherits its Read and Write methods from ISequentialStream.
 old-location: stg\isequentialstream.htm
 tech.root: Stg
 ms.assetid: c1d33800-d2f1-4942-92fa-e115f524c23c
-
 ms.date: 12/05/2018
 ms.keywords: ISequentialStream, ISequentialStream interface [Structured Storage], ISequentialStream interface [Structured Storage],described, _stg_isequentialstream, objidl/ISequentialStream, stg.isequentialstream
 ms.topic: interface
-f1_keywords: 
- - "objidl/ISequentialStream"
+f1_keywords:
+- objidl/ISequentialStream
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ISequentialStream
+- ISequentialStream
 targetos: Windows
 req.typenames: 
 req.redist: 

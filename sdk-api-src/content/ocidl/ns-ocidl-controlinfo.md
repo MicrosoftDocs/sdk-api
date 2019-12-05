@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagCONTROLINFO
 title: CONTROLINFO (ocidl.h)
-
 description: Contains parameters that describe a control's keyboard mnemonics and keyboard behavior. The structure is populated during the IOleControl::GetControlInfo method.
 old-location: com\controlinfo.htm
 tech.root: com
 ms.assetid: 3f22dc1d-554a-4dd1-a79a-121117f65caf
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO"
+ms.keywords: '*LPCONTROLINFO, CONTROLINFO, CONTROLINFO structure [COM], LPCONTROLINFO, LPCONTROLINFO structure pointer [COM], _ctrl_CONTROLINFO, com.controlinfo, ocidl/CONTROLINFO, ocidl/LPCONTROLINFO'
 ms.topic: struct
-f1_keywords: 
- - "ocidl/CONTROLINFO"
+f1_keywords:
+- ocidl/CONTROLINFO
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - CONTROLINFO
+- CONTROLINFO
 targetos: Windows
 req.typenames: CONTROLINFO, *LPCONTROLINFO
 req.redist: 

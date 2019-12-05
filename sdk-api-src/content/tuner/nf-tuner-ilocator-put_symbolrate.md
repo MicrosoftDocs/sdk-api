@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.put_SymbolRate
 title: ILocator::put_SymbolRate (tuner.h)
-
 description: The put_SymbolRate method sets the QPSK symbol rate.
 old-location: mstv\ilocator_put_symbolrate.htm
 tech.root: mstv
 ms.assetid: 1eb91e22-b9b1-47dc-a2e4-cc64eeaacaaa
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalLocatorput_SymbolRate, ILocator interface [Microsoft TV Technologies],put_SymbolRate method, ILocator.put_SymbolRate, ILocator::put_SymbolRate, mstv.ilocator_put_symbolrate, put_SymbolRate, put_SymbolRate method [Microsoft TV Technologies], put_SymbolRate method [Microsoft TV Technologies],ILocator interface, tuner/ILocator::put_SymbolRate
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.put_SymbolRate"
+f1_keywords:
+- tuner/ILocator.put_SymbolRate
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.put_SymbolRate
+- ILocator.put_SymbolRate
 targetos: Windows
 req.typenames: 
 req.redist: 

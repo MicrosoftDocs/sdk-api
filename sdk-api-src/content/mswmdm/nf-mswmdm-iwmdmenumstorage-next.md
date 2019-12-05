@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMEnumStorage.Next
 title: IWMDMEnumStorage::Next (mswmdm.h)
-
 description: The Next method retrieves a pointer to the next sibling storage.
 old-location: wmdm\iwmdmenumstorage_next.htm
 tech.root: WMDM
 ms.assetid: aec244c3-93e4-4093-b49c-9c74ec93ce0f
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMEnumStorage interface [windows Media Device Manager],Next method, IWMDMEnumStorage.Next, IWMDMEnumStorage::Next, IWMDMEnumStorageNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumStorage interface, mswmdm/IWMDMEnumStorage::Next, wmdm.iwmdmenumstorage_next
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMEnumStorage.Next"
+f1_keywords:
+- mswmdm/IWMDMEnumStorage.Next
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMEnumStorage.Next
+- IWMDMEnumStorage.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

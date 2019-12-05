@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.phonebuttoninfo_tag
 title: PHONEBUTTONINFO (tapi.h)
-
 description: The PHONEBUTTONINFO structure contains information about a button on a phone device. This structure is used by multiple TAPI and TSPI functions.
 old-location: tapi2\phonebuttoninfo_str.htm
 tech.root: Tapi
 ms.assetid: f8316587-f279-419a-a35d-194df3fc8383
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPHONEBUTTONINFO, LPPHONEBUTTONINFO, LPPHONEBUTTONINFO structure pointer [TAPI 2.2], PHONEBUTTONINFO, PHONEBUTTONINFO structure [TAPI 2.2], _tapi2_phonebuttoninfo_str, tapi/LPPHONEBUTTONINFO, tapi/PHONEBUTTONINFO, tapi2.phonebuttoninfo_str"
+ms.keywords: '*LPPHONEBUTTONINFO, LPPHONEBUTTONINFO, LPPHONEBUTTONINFO structure pointer [TAPI 2.2], PHONEBUTTONINFO, PHONEBUTTONINFO structure [TAPI 2.2], _tapi2_phonebuttoninfo_str, tapi/LPPHONEBUTTONINFO, tapi/PHONEBUTTONINFO, tapi2.phonebuttoninfo_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/PHONEBUTTONINFO"
+f1_keywords:
+- tapi/PHONEBUTTONINFO
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - PHONEBUTTONINFO
+- PHONEBUTTONINFO
 targetos: Windows
 req.typenames: PHONEBUTTONINFO, *LPPHONEBUTTONINFO
 req.redist: 

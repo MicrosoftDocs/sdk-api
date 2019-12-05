@@ -1,19 +1,17 @@
 ---
 UID: NE:dmoreg.DMO_ENUM_FLAGS
 title: DMO_ENUM_FLAGS (dmoreg.h)
-
 description: The DMO_ENUM_FLAGS enumeration defines flags that specify search criteria when enumerating Microsoft DirectX Media Objects (DMOs).
 old-location: dshow\dmo_enum_flags.htm
 tech.root: DirectShow
 ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814
-
 ms.date: 12/05/2018
 ms.keywords: DMO_ENUMF_INCLUDE_KEYED, DMO_ENUM_FLAGS, DMO_ENUM_FLAGS enumeration [DirectShow], DMO_ENUM_FLAGSEnumeration, dmoreg/DMO_ENUMF_INCLUDE_KEYED, dmoreg/DMO_ENUM_FLAGS, dshow.dmo_enum_flags
 ms.topic: enum
-f1_keywords: 
- - "dmoreg/DMO_ENUM_FLAGS"
+f1_keywords:
+- dmoreg/DMO_ENUM_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: dmoreg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dmoreg.h
+- Dmoreg.h
 api_name:
- - DMO_ENUM_FLAGS
+- DMO_ENUM_FLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

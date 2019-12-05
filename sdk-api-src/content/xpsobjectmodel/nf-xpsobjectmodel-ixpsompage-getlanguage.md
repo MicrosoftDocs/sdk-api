@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetLanguage
 title: IXpsOMPage::GetLanguage (xpsobjectmodel.h)
-
 description: Gets the Language property of the page.
 old-location: xps\ixpsompage_getlanguage.htm
 tech.root: printdocs
 ms.assetid: d16378cc-dd1c-49f9-9c1b-1eb0d78067f7
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [XPS Documents and Packaging], GetLanguage method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetLanguage method, IXpsOMPage.GetLanguage, IXpsOMPage::GetLanguage, xps.ixpsompage_getlanguage, xpsobjectmodel/IXpsOMPage::GetLanguage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetLanguage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetLanguage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetLanguage
+- IXpsOMPage.GetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

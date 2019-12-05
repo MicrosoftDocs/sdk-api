@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromWindow
 title: AccessibleObjectFromWindow function (oleacc.h)
-
 description: Retrieves the address of the specified interface for the object associated with the specified window.
 old-location: winauto\accessibleobjectfromwindow.htm
 tech.root: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3
-
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromWindow, AccessibleObjectFromWindow function [Windows Accessibility], _msaa_AccessibleObjectFromWindow, msaa.accessibleobjectfromwindow, oleacc/AccessibleObjectFromWindow, winauto.accessibleobjectfromwindow
 ms.topic: function
-f1_keywords: 
- - "oleacc/AccessibleObjectFromWindow"
+f1_keywords:
+- oleacc/AccessibleObjectFromWindow
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
- - Ext-MS-Win-oleacc-l1-1-0.dll
- - ext-ms-win-oleacc-l1-1-1.dll
+- Oleacc.dll
+- Ext-MS-Win-oleacc-l1-1-0.dll
+- ext-ms-win-oleacc-l1-1-1.dll
 api_name:
- - AccessibleObjectFromWindow
+- AccessibleObjectFromWindow
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

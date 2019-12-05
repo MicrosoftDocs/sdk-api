@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.GetAppContainerRegistryLocation
 title: GetAppContainerRegistryLocation function (userenv.h)
-
 description: Gets the location of the registry storage associated with an app container.
 old-location: shell\getappcontainerregistrylocation.htm
 tech.root: shell
 ms.assetid: DAD7EC07-D57D-40F5-AA99-AD7579910294
-
 ms.date: 12/05/2018
 ms.keywords: GetAppContainerRegistryLocation, GetAppContainerRegistryLocation function [Windows Shell], shell.getappcontainerregistrylocation, userenv/GetAppContainerRegistryLocation
 ms.topic: function
-f1_keywords: 
- - "userenv/GetAppContainerRegistryLocation"
+f1_keywords:
+- userenv/GetAppContainerRegistryLocation
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - GetAppContainerRegistryLocation
+- GetAppContainerRegistryLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

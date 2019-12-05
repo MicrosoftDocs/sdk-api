@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.OpenOperation
 title: IAzApplication::OpenOperation (azroles.h)
-
 description: Opens an IAzOperation object with the specified name.
 old-location: security\iazapplication_openoperation.htm
 tech.root: SecAuthZ
 ms.assetid: 37dddf38-a79b-419f-891b-8da7dc2bdf42
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],OpenOperation method, IAzApplication interface [Security],OpenOperation method, IAzApplication.OpenOperation, IAzApplication::OpenOperation, OpenOperation, OpenOperation method [Security], OpenOperation method [Security],AzApplication object, OpenOperation method [Security],IAzApplication interface, azroles/IAzApplication::OpenOperation, security.iazapplication_openoperation
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.OpenOperation"
+f1_keywords:
+- azroles/IAzApplication.OpenOperation
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.OpenOperation
- - AzApplication.OpenOperation
+- IAzApplication.OpenOperation
+- AzApplication.OpenOperation
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

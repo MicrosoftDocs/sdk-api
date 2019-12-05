@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.wnsprintfW
 title: wnsprintfW function (shlwapi.h)
-
 description: Takes a variable-length argument list and returns the values of the arguments as a printf-style formatted string.
 old-location: shell\wnsprintf.htm
 tech.root: shell
 ms.assetid: 1d2b472b-6b34-4867-897c-eca60921d414
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_wnsprintf, shell.wnsprintf, shlwapi/wnsprintf, shlwapi/wnsprintfA, shlwapi/wnsprintfW, wnsprintf, wnsprintf function [Windows Shell], wnsprintfA, wnsprintfW"
+ms.keywords: _win32_wnsprintf, shell.wnsprintf, shlwapi/wnsprintf, shlwapi/wnsprintfA, shlwapi/wnsprintfW, wnsprintf, wnsprintf function [Windows Shell], wnsprintfA, wnsprintfW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/wnsprintf"
+f1_keywords:
+- shlwapi/wnsprintf
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - wnsprintf
- - wnsprintfA
- - wnsprintfW
+- wnsprintf
+- wnsprintfA
+- wnsprintfW
 targetos: Windows
 req.typenames: 
 req.redist: 

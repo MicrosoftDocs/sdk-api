@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.CurrentRatings
 title: IMSVidStreamBufferSource::CurrentRatings (segment.h)
-
 description: The CurrentRatings method retrieves the current ratings information from the data source.
 old-location: mstv\imsvidstreambuffersource_currentratings.htm
 tech.root: mstv
 ms.assetid: c388d972-07d9-4347-97d3-03a46a6bb50c
-
 ms.date: 12/05/2018
 ms.keywords: CurrentRatings, CurrentRatings method [Microsoft TV Technologies], CurrentRatings method [Microsoft TV Technologies],IMSVidStreamBufferSource interface, IMSVidStreamBufferSource interface [Microsoft TV Technologies],CurrentRatings method, IMSVidStreamBufferSource.CurrentRatings, IMSVidStreamBufferSource::CurrentRatings, IMSVidStreamBufferSourceCurrentRatings, mstv.imsvidstreambuffersource_currentratings, segment/IMSVidStreamBufferSource::CurrentRatings
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSource.CurrentRatings"
+f1_keywords:
+- segment/IMSVidStreamBufferSource.CurrentRatings
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSource.CurrentRatings
+- IMSVidStreamBufferSource.CurrentRatings
 targetos: Windows
 req.typenames: 
 req.redist: 

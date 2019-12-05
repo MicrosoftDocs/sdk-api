@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory
 title: ISoftwareBitmapNativeFactory (windows.graphics.imaging.interop.h)
-
 description: Creates instances of ISoftwareBitmapNative.
 old-location: winrt\isoftwarebitmapnativefactory.htm
 tech.root: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1
-
 ms.date: 12/05/2018
 ms.keywords: ISoftwareBitmapNativeFactory, ISoftwareBitmapNativeFactory interface [Windows Runtime], ISoftwareBitmapNativeFactory interface [Windows Runtime],described, windows/ISoftwareBitmapNativeFactory, winrt.isoftwarebitmapnativefactory
 ms.topic: interface
-f1_keywords: 
- - "windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory"
+f1_keywords:
+- windows.graphics.imaging.interop/ISoftwareBitmapNativeFactory
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.imaging.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.imaging.interop.h
+- windows.graphics.imaging.interop.h
 api_name:
- - ISoftwareBitmapNativeFactory
+- ISoftwareBitmapNativeFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

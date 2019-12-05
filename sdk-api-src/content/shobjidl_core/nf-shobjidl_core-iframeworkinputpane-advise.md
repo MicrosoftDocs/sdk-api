@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFrameworkInputPane.Advise
 title: IFrameworkInputPane::Advise (shobjidl_core.h)
-
 description: Registers the app's input pane handler object to receive notifications on behalf of a window when an event triggers the input pane. This method differs from AdviseWithHWND in that it references its window through an object that implements ICoreWindow.
 old-location: shell\IFrameworkInputPane_Advise.htm
 tech.root: shell
 ms.assetid: F05A097F-13A4-48ad-B660-5B2409BB6D61
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IFrameworkInputPane interface, IFrameworkInputPane interface [Windows Shell],Advise method, IFrameworkInputPane.Advise, IFrameworkInputPane::Advise, shell.IFrameworkInputPane_Advise, shobjidl_core/IFrameworkInputPane::Advise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFrameworkInputPane.Advise"
+f1_keywords:
+- shobjidl_core/IFrameworkInputPane.Advise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFrameworkInputPane.Advise
+- IFrameworkInputPane.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

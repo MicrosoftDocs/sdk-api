@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingOptionGroup
 title: TraceLoggingOptionGroup macro (traceloggingprovider.h)
-
 description: Wrapper macro for use in TRACELOGGING_DEFINE_PROVIDER to declare the GUID of the provider group that the provider is a member of.
 old-location: tracelogging\traceloggingoptiongroup.htm
 tech.root: tracelogging
 ms.assetid: 5D794C46-95B2-4111-AFB8-CE488B4D1A42
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingOptionGroup, TraceLoggingOptionGroup macro, tracelogging.traceloggingoptiongroup, traceloggingprovider/TraceLoggingOptionGroup
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingOptionGroup"
+f1_keywords:
+- traceloggingprovider/TraceLoggingOptionGroup
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingOptionGroup
+- TraceLoggingOptionGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

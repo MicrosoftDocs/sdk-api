@@ -1,19 +1,17 @@
 ---
 UID: NF:commdlg.GetFileTitleA
 title: GetFileTitleA function (commdlg.h)
-
 description: Retrieves the name of the specified file.
 old-location: dlgbox\getfiletitle.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
 ms.topic: function
-f1_keywords: 
- - "commdlg/GetFileTitle"
+f1_keywords:
+- commdlg/GetFileTitle
 dev_langs:
- - c++
+- c++
 req.header: commdlg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Comdlg32.lib
 req.dll: Comdlg32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comdlg32.dll
- - ext-ms-win-shell-comdlg32-l1-1-1.dll
+- Comdlg32.dll
+- ext-ms-win-shell-comdlg32-l1-1-1.dll
 api_name:
- - GetFileTitle
- - GetFileTitleA
- - GetFileTitleW
+- GetFileTitle
+- GetFileTitleA
+- GetFileTitleW
 targetos: Windows
 req.typenames: 
 req.redist: 

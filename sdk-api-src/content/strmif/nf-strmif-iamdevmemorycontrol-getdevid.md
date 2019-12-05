@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMDevMemoryControl.GetDevId
 title: IAMDevMemoryControl::GetDevId (strmif.h)
-
 description: Note  The IAMDevMemoryControl interface is deprecated. Retrieves the device ID of the on-board memory allocator.
 old-location: dshow\iamdevmemorycontrol_getdevid.htm
 tech.root: DirectShow
 ms.assetid: 398cc4b3-c025-4df4-8447-bd4599293dab
-
 ms.date: 12/05/2018
 ms.keywords: GetDevId, GetDevId method [DirectShow], GetDevId method [DirectShow],IAMDevMemoryControl interface, IAMDevMemoryControl interface [DirectShow],GetDevId method, IAMDevMemoryControl.GetDevId, IAMDevMemoryControl::GetDevId, IAMDevMemoryControlGetDevId, dshow.iamdevmemorycontrol_getdevid, strmif/IAMDevMemoryControl::GetDevId
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMDevMemoryControl.GetDevId"
+f1_keywords:
+- strmif/IAMDevMemoryControl.GetDevId
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMDevMemoryControl.GetDevId
+- IAMDevMemoryControl.GetDevId
 targetos: Windows
 req.typenames: 
 req.redist: 

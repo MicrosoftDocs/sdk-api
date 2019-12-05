@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.GetFontAxisAttributes
 title: IDWriteFontResource::GetFontAxisAttributes
-
 description: Retrieves attributes describing the given axis, such as whether the font author recommends to hide the axis in user interfaces.
 tech.root: DirectWrite
-
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],GetFontAxisAttributes method, IDWriteFontResource.GetFontAxisAttributes, IDWriteFontResource::GetFontAxisAttributes, GetFontAxisAttributes, GetFontAxisAttributes method [Direct Write], GetFontAxisAttributes method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_getfontaxisattributes, dwrite_3/IDWriteFontResource::GetFontAxisAttributes
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontResource.GetFontAxisAttributes"
+f1_keywords:
+- dwrite_3/IDWriteFontResource.GetFontAxisAttributes
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontResource::GetFontAxisAttributes
+- IDWriteFontResource::GetFontAxisAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

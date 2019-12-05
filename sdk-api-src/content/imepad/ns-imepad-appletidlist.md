@@ -1,19 +1,17 @@
 ---
 UID: NS:imepad.tagAPPLETIDLIST
 title: APPLETIDLIST (imepad.h)
-
 description: Specifies an IImePadApplet IID list.
 old-location: intl\appletidlist.htm
 tech.root: Intl
 ms.assetid: 6A93B726-1C35-4779-AF60-859DF3B18462
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internationalization for Windows Applications], PAPPLETIDLIST, PAPPLETIDLIST structure pointer [Internationalization for Windows Applications], imepad/APPLETIDLIST, imepad/PAPPLETIDLIST, intl.appletidlist"
+ms.keywords: '*LPAPPLETIDLIST, APPLETIDLIST, APPLETIDLIST structure [Internationalization for Windows Applications], PAPPLETIDLIST, PAPPLETIDLIST structure pointer [Internationalization for Windows Applications], imepad/APPLETIDLIST, imepad/PAPPLETIDLIST, intl.appletidlist'
 ms.topic: struct
-f1_keywords: 
- - "imepad/APPLETIDLIST"
+f1_keywords:
+- imepad/APPLETIDLIST
 dev_langs:
- - c++
+- c++
 req.header: imepad.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Imepad.h
+- Imepad.h
 api_name:
- - APPLETIDLIST
+- APPLETIDLIST
 targetos: Windows
 req.typenames: APPLETIDLIST, *LPAPPLETIDLIST
 req.redist: 

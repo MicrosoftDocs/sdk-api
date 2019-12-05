@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetIconA
 title: lineGetIconA function (tapi.h)
-
 description: The lineGetIcon function allows an application to retrieve a service line device-specific (or provider-specific) icon for display to the user.
 old-location: tapi2\linegeticon.htm
 tech.root: Tapi
 ms.assetid: 4c76a990-676e-4bb2-b7d7-3b4a0aabf058
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegeticon, lineGetIcon, lineGetIcon function [TAPI 2.2], lineGetIconA, lineGetIconW, tapi/lineGetIcon, tapi/lineGetIconA, tapi/lineGetIconW, tapi2.linegeticon"
+ms.keywords: _tapi2_linegeticon, lineGetIcon, lineGetIcon function [TAPI 2.2], lineGetIconA, lineGetIconW, tapi/lineGetIcon, tapi/lineGetIconA, tapi/lineGetIconW, tapi2.linegeticon
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetIcon"
+f1_keywords:
+- tapi/lineGetIcon
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetIcon
- - lineGetIconA
- - lineGetIconW
+- lineGetIcon
+- lineGetIconA
+- lineGetIconW
 targetos: Windows
 req.typenames: 
 req.redist: 

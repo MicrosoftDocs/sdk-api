@@ -1,19 +1,17 @@
 ---
 UID: NC:msacm.ACMFILTERCHOOSEHOOKPROC
 title: ACMFILTERCHOOSEHOOKPROC (msacm.h)
-
 description: The acmFilterChooseHookProc function specifies a user-defined function that hooks the acmFilterChoose dialog box.
 old-location: multimedia\acmfilterchoosehookproc.htm
 tech.root: Multimedia
 ms.assetid: 974bdf53-cd1e-433b-9d49-8dfc20254ebf
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_acmFilterChooseHookProc, acmFilterChooseHookProc, acmFilterChooseHookProc callback, acmFilterChooseHookProc callback function [Windows Multimedia], msacm/acmFilterChooseHookProc, multimedia.acmfilterchoosehookproc"
+ms.keywords: _win32_acmFilterChooseHookProc, acmFilterChooseHookProc, acmFilterChooseHookProc callback, acmFilterChooseHookProc callback function [Windows Multimedia], msacm/acmFilterChooseHookProc, multimedia.acmfilterchoosehookproc
 ms.topic: callback
-f1_keywords: 
- - "msacm/acmFilterChooseHookProc"
+f1_keywords:
+- msacm/acmFilterChooseHookProc
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - acmFilterChooseHookProc
+- acmFilterChooseHookProc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.Revert
 title: IStorage::Revert (objidl.h)
-
 description: The Revert method discards all changes that have been made to the storage object since the last commit operation.
 old-location: stg\istorage_revert.htm
 tech.root: Stg
 ms.assetid: d1b7626e-bad1-47b5-8bcd-3da3b05c53c4
-
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],Revert method, IStorage.Revert, IStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IStorage interface, _stg_istorage_revert, objidl/IStorage::Revert, stg.istorage_revert
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.Revert"
+f1_keywords:
+- objidl/IStorage.Revert
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.Revert
+- IStorage.Revert
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wabapi._tagWAB_PARAM
 title: WAB_PARAM (wabapi.h)
-
 description: Do not use. Contains the input information to pass to WABOpen.
 old-location: wab\_wab_WAB_PARAM.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wab_param.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAB_PARAM, LPWAB_PARAM, LPWAB_PARAM structure pointer [Windows Address Book], WAB_ENABLE_PROFILES, WAB_PARAM, WAB_PARAM structure [Windows Address Book], WAB_USE_OE_SENDMAIL, _wab_WAB_PARAM, wab._wab_WAB_PARAM, wabapi/LPWAB_PARAM, wabapi/WAB_PARAM"
+ms.keywords: '*LPWAB_PARAM, LPWAB_PARAM, LPWAB_PARAM structure pointer [Windows Address Book], WAB_ENABLE_PROFILES, WAB_PARAM, WAB_PARAM structure [Windows Address Book], WAB_USE_OE_SENDMAIL, _wab_WAB_PARAM, wab._wab_WAB_PARAM, wabapi/LPWAB_PARAM, wabapi/WAB_PARAM'
 ms.topic: struct
-f1_keywords: 
- - "wabapi/WAB_PARAM"
+f1_keywords:
+- wabapi/WAB_PARAM
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabapi.h
+- Wabapi.h
 api_name:
- - WAB_PARAM
+- WAB_PARAM
 targetos: Windows
 req.typenames: WAB_PARAM, *LPWAB_PARAM
 req.redist: 

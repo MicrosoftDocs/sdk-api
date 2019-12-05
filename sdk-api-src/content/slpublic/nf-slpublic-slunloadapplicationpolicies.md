@@ -1,19 +1,17 @@
 ---
 UID: NF:slpublic.SLUnloadApplicationPolicies
 title: SLUnloadApplicationPolicies function (slpublic.h)
-
 description: Releases the policy context handle returned by the SLLoadApplicationPolicies function.
 old-location: security\slunloadapplicationpolicies.htm
 tech.root: SecSLApi
 ms.assetid: 56dae943-659a-4e75-81ef-0d58fa3cd6d2
-
 ms.date: 12/05/2018
 ms.keywords: SLUnloadApplicationPolicies, SLUnloadApplicationPolicies function [Security], security.slunloadapplicationpolicies, slpublic/SLUnloadApplicationPolicies
 ms.topic: function
-f1_keywords: 
- - "slpublic/SLUnloadApplicationPolicies"
+f1_keywords:
+- slpublic/SLUnloadApplicationPolicies
 dev_langs:
- - c++
+- c++
 req.header: slpublic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Slc.lib
 req.dll: Slc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Slc.dll
+- Slc.dll
 api_name:
- - SLUnloadApplicationPolicies
+- SLUnloadApplicationPolicies
 targetos: Windows
 req.typenames: 
 req.redist: 

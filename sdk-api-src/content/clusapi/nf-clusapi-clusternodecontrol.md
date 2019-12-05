@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNodeControl
 title: ClusterNodeControl function (clusapi.h)
-
 description: Initiates an operation that affects a node. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusternodecontrol.htm
 tech.root: MsCS
 ms.assetid: f6fc8525-a2d3-4643-9372-548df5e30900
-
 ms.date: 12/05/2018
 ms.keywords: ClusterNodeControl, ClusterNodeControl function [Failover Cluster], _wolf_clusternodecontrol, clusapi/ClusterNodeControl, mscs.clusternodecontrol
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNodeControl"
+f1_keywords:
+- clusapi/ClusterNodeControl
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - ext-ms-win-cluster-clusapi-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- ext-ms-win-cluster-clusapi-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterNodeControl
+- ClusterNodeControl
 targetos: Windows
 req.typenames: 
 req.redist: 

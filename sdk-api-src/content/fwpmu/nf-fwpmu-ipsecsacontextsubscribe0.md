@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextSubscribe0
 title: IPsecSaContextSubscribe0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding a particular IPsec security association (SA) context.
 old-location: fwp\ipsecsacontextsubscribe0.htm
 tech.root: fwp
 ms.assetid: dadb22b2-6b20-401f-b2b5-256135a345b1
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextSubscribe0, IPsecSaContextSubscribe0 function [Filtering], fwp.ipsecsacontextsubscribe0, fwpmu/IPsecSaContextSubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextSubscribe0"
+f1_keywords:
+- fwpmu/IPsecSaContextSubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextSubscribe0
+- IPsecSaContextSubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

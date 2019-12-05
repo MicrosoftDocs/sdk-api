@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICJpegYCrCbSubsamplingOption
 title: WICJpegYCrCbSubsamplingOption (wincodec.h)
-
 description: Specifies the JPEG YCrCB subsampling options.
 old-location: wic\_wic_codec_wicjpegycrcbsubsamplingoption.htm
 tech.root: wic
 ms.assetid: 6ff16a79-35c9-4230-8f1c-a5c40aecc09e
-
 ms.date: 12/05/2018
 ms.keywords: WICJpegYCrCbSubsampling420, WICJpegYCrCbSubsampling422, WICJpegYCrCbSubsampling440, WICJpegYCrCbSubsampling444, WICJpegYCrCbSubsamplingDefault, WICJpegYCrCbSubsamplingOption, WICJpegYCrCbSubsamplingOption enumeration [Windows Imaging Component], _wic_codec_wicjpegycrcbsubsamplingoption, wic._wic_codec_wicjpegycrcbsubsamplingoption, wincodec/WICJpegYCrCbSubsampling420, wincodec/WICJpegYCrCbSubsampling422, wincodec/WICJpegYCrCbSubsampling440, wincodec/WICJpegYCrCbSubsampling444, wincodec/WICJpegYCrCbSubsamplingDefault, wincodec/WICJpegYCrCbSubsamplingOption
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICJpegYCrCbSubsamplingOption"
+f1_keywords:
+- wincodec/WICJpegYCrCbSubsamplingOption
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICJpegYCrCbSubsamplingOption
+- WICJpegYCrCbSubsamplingOption
 targetos: Windows
 req.typenames: WICJpegYCrCbSubsamplingOption
 req.redist: 

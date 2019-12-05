@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_ParameterDecl
 title: MI_ParameterDecl (mi.h)
-
 description: Represents CIM method parameters.
 old-location: wmi_v2\mi_parameterdecl.htm
 tech.root: wmi_v2
 ms.assetid: 09ad6ea4-09ae-428b-9df9-414043044d6a
-
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_PROPERTY, MI_ParameterDecl, MI_ParameterDecl structure [Windows Management Infrastructure (MI)], mi/MI_ParameterDecl, wmi._mi_parameterdecl, wmi_v2.mi_parameterdecl
 ms.topic: struct
-f1_keywords: 
- - "mi/MI_ParameterDecl"
+f1_keywords:
+- mi/MI_ParameterDecl
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_ParameterDecl
+- MI_ParameterDecl
 targetos: Windows
 req.typenames: MI_ParameterDecl
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

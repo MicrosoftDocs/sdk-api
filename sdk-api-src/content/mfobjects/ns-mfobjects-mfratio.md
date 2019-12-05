@@ -1,19 +1,17 @@
 ---
 UID: NS:mfobjects._MFRatio
 title: MFRatio (mfobjects.h)
-
 description: Represents a ratio.
 old-location: mf\mfratio.htm
 tech.root: medfound
 ms.assetid: 315d31d6-bf68-4495-9bae-1f624f497c1a
-
 ms.date: 12/05/2018
 ms.keywords: 315d31d6-bf68-4495-9bae-1f624f497c1a, MFRatio, MFRatio structure [Media Foundation], mf.mfratio, mfobjects/MFRatio
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFRatio"
+f1_keywords:
+- mfobjects/MFRatio
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFRatio
+- MFRatio
 targetos: Windows
 req.typenames: MFRatio
 req.redist: 

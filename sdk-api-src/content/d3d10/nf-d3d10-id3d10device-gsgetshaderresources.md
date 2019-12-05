@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSGetShaderResources
 title: ID3D10Device::GSGetShaderResources (d3d10.h)
-
 description: Get the geometry shader resources.
 old-location: direct3d10\id3d10device_gsgetshaderresources.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetshaderresources.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1f730e36-30d4-870c-a3ab-3a6e91123778, GSGetShaderResources, GSGetShaderResources method [Direct3D 10], GSGetShaderResources method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetShaderResources method, ID3D10Device.GSGetShaderResources, ID3D10Device::GSGetShaderResources, d3d10/ID3D10Device::GSGetShaderResources, direct3d10.id3d10device_gsgetshaderresources
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.GSGetShaderResources"
+f1_keywords:
+- d3d10/ID3D10Device.GSGetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.GSGetShaderResources
+- ID3D10Device.GSGetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

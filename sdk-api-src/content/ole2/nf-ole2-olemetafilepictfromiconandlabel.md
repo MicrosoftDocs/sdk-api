@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleMetafilePictFromIconAndLabel
 title: OleMetafilePictFromIconAndLabel function (ole2.h)
-
 description: Creates a metafile in which the specified icon and label are drawn.
 old-location: com\olemetafilepictfromiconandlabel.htm
 tech.root: com
 ms.assetid: 627a79eb-46dd-4df7-a0d6-cab37b73387a
-
 ms.date: 12/05/2018
 ms.keywords: OleMetafilePictFromIconAndLabel, OleMetafilePictFromIconAndLabel function [COM], _ole_OleMetafilePictFromIconAndLabel, com.olemetafilepictfromiconandlabel, ole2/OleMetafilePictFromIconAndLabel
 ms.topic: function
-f1_keywords: 
- - "ole2/OleMetafilePictFromIconAndLabel"
+f1_keywords:
+- ole2/OleMetafilePictFromIconAndLabel
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleMetafilePictFromIconAndLabel
+- OleMetafilePictFromIconAndLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

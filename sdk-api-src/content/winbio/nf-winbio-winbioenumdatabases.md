@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioEnumDatabases
 title: WinBioEnumDatabases function (winbio.h)
-
 description: Enumerates all registered databases that match a specified type.
 old-location: secbiomet\winbioenumdatabases.htm
 tech.root: SecBioMet
 ms.assetid: 163c669d-765f-4f8d-83c4-ff8bd064e44d
-
 ms.date: 12/05/2018
 ms.keywords: WinBioEnumDatabases, WinBioEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioenumdatabases, winbio/WinBioEnumDatabases
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioEnumDatabases"
+f1_keywords:
+- winbio/WinBioEnumDatabases
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
- - winbioext.dll
- - Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
+- Winbio.dll
+- Ext-MS-Win-BioMetrics-WinBio-l1-2-0.dll
+- winbioext.dll
+- Ext-MS-Win-BioMetrics-WinBio-L1-3-0.dll
 api_name:
- - WinBioEnumDatabases
+- WinBioEnumDatabases
 targetos: Windows
 req.typenames: 
 req.redist: 

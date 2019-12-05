@@ -1,19 +1,17 @@
 ---
 UID: NN:sensevts.ISensOnNow
 title: ISensOnNow (sensevts.h)
-
 description: The ISensOnNow interface handles AC and battery power events fired by the System Event Notification Service (SENS).
 old-location: sens\isensonnow.htm
 tech.root: Sens
 ms.assetid: 39d483be-8dbd-41f9-9804-af9dc4535c05
-
 ms.date: 12/05/2018
 ms.keywords: ISensOnNow, ISensOnNow interface [SENS], ISensOnNow interface [SENS],described, _zaw_isensonnow, sens.isensonnow, sensevts/ISensOnNow, syncmgr.isensonnow
 ms.topic: interface
-f1_keywords: 
- - "sensevts/ISensOnNow"
+f1_keywords:
+- sensevts/ISensOnNow
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensOnNow
+- ISensOnNow
 targetos: Windows
 req.typenames: 
 req.redist: 

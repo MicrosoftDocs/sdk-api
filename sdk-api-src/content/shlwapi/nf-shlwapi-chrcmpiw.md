@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.ChrCmpIW
 title: ChrCmpIW function (shlwapi.h)
-
 description: Performs a comparison between two characters. The comparison is not case-sensitive.
 old-location: shell\ChrCmpI.htm
 tech.root: shell
 ms.assetid: ae2f3cbf-c65b-41a4-8d59-39d6fadf40ca
-
 ms.date: 12/05/2018
 ms.keywords: ChrCmpI, ChrCmpI function [Windows Shell], ChrCmpIA, ChrCmpIW, _win32_ChrCmpI, shell.ChrCmpI, shlwapi/ChrCmpI, shlwapi/ChrCmpIA, shlwapi/ChrCmpIW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/ChrCmpI"
+f1_keywords:
+- shlwapi/ChrCmpI
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - ChrCmpI
- - ChrCmpIA
- - ChrCmpIW
+- ChrCmpI
+- ChrCmpIA
+- ChrCmpIW
 targetos: Windows
 req.typenames: 
 req.redist: 

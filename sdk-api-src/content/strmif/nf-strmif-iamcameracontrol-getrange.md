@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMCameraControl.GetRange
 title: IAMCameraControl::GetRange (strmif.h)
-
 description: The GetRange method gets the range and default value of a specified camera property.
 old-location: dshow\iamcameracontrol_getrange.htm
 tech.root: DirectShow
 ms.assetid: f09090ea-d916-47cd-8621-e8c2bb46aeca
-
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [DirectShow], GetRange method [DirectShow],IAMCameraControl interface, IAMCameraControl interface [DirectShow],GetRange method, IAMCameraControl.GetRange, IAMCameraControl::GetRange, IAMCameraControlGetRange, dshow.iamcameracontrol_getrange, strmif/IAMCameraControl::GetRange
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMCameraControl.GetRange"
+f1_keywords:
+- strmif/IAMCameraControl.GetRange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMCameraControl.GetRange
+- IAMCameraControl.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: 

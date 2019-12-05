@@ -1,19 +1,17 @@
 ---
 UID: NF:roapi.RoInitialize
 title: RoInitialize function (roapi.h)
-
 description: Initializes the Windows Runtime on the current thread with the specified concurrency model.
 old-location: winrt\roinitialize.htm
 tech.root: WinRT
 ms.assetid: 527A7FF7-749D-4178-A397-5C538F6031F8
-
 ms.date: 12/05/2018
 ms.keywords: RoInitialize, RoInitialize function [Windows Runtime], WinRTInitialize, roapi/RoInitialize, roapi/WinRTInitialize, winrt.roinitialize, winrt.winrtinitialize
 ms.topic: function
-f1_keywords: 
- - "roapi/RoInitialize"
+f1_keywords:
+- roapi/RoInitialize
 dev_langs:
- - c++
+- c++
 req.header: roapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - roapi.h
- - API-MS-Win-Core-WinRT-l1-1-0.dll
- - ComBase.dll
+- roapi.h
+- API-MS-Win-Core-WinRT-l1-1-0.dll
+- ComBase.dll
 api_name:
- - RoInitialize
- - WinRTInitialize
+- RoInitialize
+- WinRTInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

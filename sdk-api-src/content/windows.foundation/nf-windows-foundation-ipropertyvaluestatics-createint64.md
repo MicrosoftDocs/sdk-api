@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateInt64
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified signed 64-bit integer value.
 old-location: winrt\ipropertyvaluestatics_createint64.htm
 tech.root: WinRT
 ms.assetid: 70533BB7-E844-459C-ACA3-D76142B379F4
-
 ms.date: 12/05/2018
 ms.keywords: CreateInt64, CreateInt64 method [Windows Runtime], CreateInt64 method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateInt64 method, IPropertyValueStatics.CreateInt64, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateInt64, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateInt64, winrt.ipropertyvaluefactory_createint64, winrt.ipropertyvaluestatics_createint64
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateInt64"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateInt64
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateInt64
+- IPropertyValueStatics.CreateInt64
 targetos: Windows
 req.typenames: 
 req.redist: 

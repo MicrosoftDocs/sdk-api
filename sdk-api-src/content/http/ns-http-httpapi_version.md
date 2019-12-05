@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTPAPI_VERSION
 title: HTTPAPI_VERSION (http.h)
-
 description: Defines the version of the HTTP Server API.
 old-location: http\httpapi_version.htm
 tech.root: http
 ms.assetid: af89ecee-2636-4c61-b863-21fe56666ea8
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTPAPI_VERSION, HTTPAPI_VERSION, HTTPAPI_VERSION structure [HTTP], PHTTPAPI_VERSION, PHTTPAPI_VERSION structure pointer [HTTP], _http_httpapi_version, http.httpapi_version, http/HTTPAPI_VERSION, http/PHTTPAPI_VERSION"
+ms.keywords: '*PHTTPAPI_VERSION, HTTPAPI_VERSION, HTTPAPI_VERSION structure [HTTP], PHTTPAPI_VERSION, PHTTPAPI_VERSION structure pointer [HTTP], _http_httpapi_version, http.httpapi_version, http/HTTPAPI_VERSION, http/PHTTPAPI_VERSION'
 ms.topic: struct
-f1_keywords: 
- - "http/HTTPAPI_VERSION"
+f1_keywords:
+- http/HTTPAPI_VERSION
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTPAPI_VERSION
+- HTTPAPI_VERSION
 targetos: Windows
 req.typenames: HTTPAPI_VERSION, *PHTTPAPI_VERSION
 req.redist: 

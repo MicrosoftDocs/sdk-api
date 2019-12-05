@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole3.RenameScopeItem
 title: IConsole3::RenameScopeItem (mmc.h)
-
 description: The RenameScopeItem method programmatically puts the specified scope item in rename mode. Subsequently, the user can manually enter the new name.
 old-location: mmc\iconsole3_renamescopeitem.htm
 tech.root: mmc
 ms.assetid: ebbdc395-e94f-4e86-965c-59bf7a49bbeb
-
 ms.date: 12/05/2018
 ms.keywords: IConsole3 interface [MMC],RenameScopeItem method, IConsole3.RenameScopeItem, IConsole3::RenameScopeItem, RenameScopeItem, RenameScopeItem method [MMC], RenameScopeItem method [MMC],IConsole3 interface, _slate_iconsole3_renamescopeitem, mmc.iconsole3_renamescopeitem, mmc/IConsole3::RenameScopeItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole3.RenameScopeItem"
+f1_keywords:
+- mmc/IConsole3.RenameScopeItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mmc.lib
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole3.RenameScopeItem
+- IConsole3.RenameScopeItem
 targetos: Windows
 req.typenames: 
 req.redist: 

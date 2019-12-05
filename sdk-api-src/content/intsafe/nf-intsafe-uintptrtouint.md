@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntPtrToUInt
 title: UIntPtrToUInt function (intsafe.h)
-
 description: Converts a value of type UINT_PTR to a value of type UINT.
 old-location: shell\UIntPtrToUInt.htm
 tech.root: shell
 ms.assetid: 298333ae-1efc-41b8-a8e6-83c2c0d4088e
-
 ms.date: 12/05/2018
 ms.keywords: SizeTToUInt, UIntPtrToUInt, UIntPtrToUInt function [Windows Shell], _shell_UIntPtrToUInt, intsafe/UIntPtrToUInt, shell.UIntPtrToUInt
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntPtrToUInt"
+f1_keywords:
+- intsafe/UIntPtrToUInt
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntPtrToUInt
+- UIntPtrToUInt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_FreeBuffers
 title: ITraceDataCollector::get_FreeBuffers (pla.h)
-
 description: Retrieves the number of buffers that are allocated but unused in the event tracing session's buffer pool.
 old-location: pla\itracedatacollector_freebuffers.htm
 tech.root: PLA
 ms.assetid: 9e6d3c7d-4c73-452f-98fa-6c9d1bc912ff
-
 ms.date: 12/05/2018
 ms.keywords: FreeBuffers property [PLA], FreeBuffers property [PLA],ITraceDataCollector interface, ITraceDataCollector interface [PLA],FreeBuffers property, ITraceDataCollector.FreeBuffers, ITraceDataCollector.get_FreeBuffers, ITraceDataCollector::FreeBuffers, ITraceDataCollector::get_FreeBuffers, base.itracedatacollector_freebuffers, get_FreeBuffers, pla.itracedatacollector_freebuffers, pla/ITraceDataCollector::FreeBuffers, pla/ITraceDataCollector::get_FreeBuffers
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.FreeBuffers"
+f1_keywords:
+- pla/ITraceDataCollector.FreeBuffers
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.FreeBuffers
- - ITraceDataCollector.get_FreeBuffers
+- ITraceDataCollector.FreeBuffers
+- ITraceDataCollector.get_FreeBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

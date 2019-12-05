@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_InterfaceID
 title: IMbnDeviceService::get_InterfaceID (mbnapi.h)
-
 description: The interface ID of the Mobile Broadband device to which this object is associated.
 old-location: mbn\imbndeviceservice_interfaceid.htm
 tech.root: mbn
 ms.assetid: 3789F9FA-703E-486D-8B4E-AE4128DE705B
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],InterfaceID property, IMbnDeviceService.InterfaceID, IMbnDeviceService.get_InterfaceID, IMbnDeviceService::InterfaceID, IMbnDeviceService::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnDeviceService interface, get_InterfaceID, mbn.imbndeviceservice_interfaceid, mbnapi/IMbnDeviceService::InterfaceID, mbnapi/IMbnDeviceService::get_InterfaceID
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceService.InterfaceID"
+f1_keywords:
+- mbnapi/IMbnDeviceService.InterfaceID
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService.InterfaceID
- - IMbnDeviceService.get_InterfaceID
+- IMbnDeviceService.InterfaceID
+- IMbnDeviceService.get_InterfaceID
 targetos: Windows
 req.typenames: 
 req.redist: 

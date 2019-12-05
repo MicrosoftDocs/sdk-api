@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_SAMPLE_POSITION
 title: D3D12_SAMPLE_POSITION (d3d12.h)
-
 description: Describes a sub-pixel sample position for use with programmable sample positions.
 old-location: direct3d12\d3d12_sample_position.htm
 tech.root: direct3d12
 ms.assetid: 09D76360-A5FC-43C5-A7DC-9FA59B7FA94D
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_SAMPLE_POSITION, D3D12_SAMPLE_POSITION structure, d3d12/D3D12_SAMPLE_POSITION, direct3d12.d3d12_sample_position
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_SAMPLE_POSITION"
+f1_keywords:
+- d3d12/D3D12_SAMPLE_POSITION
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_SAMPLE_POSITION
+- D3D12_SAMPLE_POSITION
 targetos: Windows
 req.typenames: D3D12_SAMPLE_POSITION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.SetPacketValuesByProperty
 title: IInkStrokeDisp::SetPacketValuesByProperty (msinkaut.h)
-
 description: Modifies the packet values for a particular property.
 old-location: tablet\iinkstrokedisp_setpacketvaluesbyproperty.htm
 tech.root: tablet
 ms.assetid: 9d90e93e-4c4a-43bd-a431-59522e332f2a
-
 ms.date: 12/05/2018
 ms.keywords: 9d90e93e-4c4a-43bd-a431-59522e332f2a, IInkStrokeDisp interface [Tablet PC],SetPacketValuesByProperty method, IInkStrokeDisp.SetPacketValuesByProperty, IInkStrokeDisp::SetPacketValuesByProperty, SetPacketValuesByProperty, SetPacketValuesByProperty method [Tablet PC], SetPacketValuesByProperty method [Tablet PC],IInkStrokeDisp interface, msinkaut/IInkStrokeDisp::SetPacketValuesByProperty, tablet.iinkstrokedisp_setpacketvaluesbyproperty
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.SetPacketValuesByProperty"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.SetPacketValuesByProperty
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.SetPacketValuesByProperty
+- IInkStrokeDisp.SetPacketValuesByProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

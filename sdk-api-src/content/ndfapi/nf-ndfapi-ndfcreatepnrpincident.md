@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreatePnrpIncident
 title: NdfCreatePnrpIncident function (ndfapi.h)
-
 description: Creates a session to diagnose issues with the Peer Name Resolution Protocol (PNRP) service.
 old-location: ndf\ndfcreatepnrpincident.htm
 tech.root: NDF
 ms.assetid: e9ee6433-89b9-4b95-b02c-2778e009220c
-
 ms.date: 12/05/2018
 ms.keywords: NdfCreatePnrpIncident, NdfCreatePnrpIncident function [NDF], ndf.ndfcreatepnrpincident, ndfapi/NdfCreatePnrpIncident
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreatePnrpIncident"
+f1_keywords:
+- ndfapi/NdfCreatePnrpIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreatePnrpIncident
+- NdfCreatePnrpIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

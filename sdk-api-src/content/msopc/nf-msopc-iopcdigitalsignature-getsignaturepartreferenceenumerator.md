@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignaturePartReferenceEnumerator
 title: IOpcDigitalSignature::GetSignaturePartReferenceEnumerator (msopc.h)
-
 description: Gets an enumerator of IOpcSignaturePartReference interface pointers, which represent references to parts that have been signed.
 old-location: opc\iopcdigitalsignature_getsignaturepartreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: d8d1507e-b72f-4eb7-bd3d-4f4a26516c18
-
 ms.date: 12/05/2018
 ms.keywords: GetSignaturePartReferenceEnumerator, GetSignaturePartReferenceEnumerator method [Open Packaging Conventions], GetSignaturePartReferenceEnumerator method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignaturePartReferenceEnumerator method, IOpcDigitalSignature.GetSignaturePartReferenceEnumerator, IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, msopc/IOpcDigitalSignature::GetSignaturePartReferenceEnumerator, opc.iopcdigitalsignature_getsignaturepartreferenceenumerator
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetSignaturePartReferenceEnumerator"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetSignaturePartReferenceEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetSignaturePartReferenceEnumerator
+- IOpcDigitalSignature.GetSignaturePartReferenceEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

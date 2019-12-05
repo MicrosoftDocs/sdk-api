@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvAlphaBlend
 title: DrvAlphaBlend function (winddi.h)
-
 description: The DrvAlphaBlend function provides bit-block transfer capabilities with alpha blending.
 old-location: display\drvalphablend.htm
 tech.root: display
 ms.assetid: fff3df30-cb29-4da3-97bc-dba5fbba1db5
-
 ms.date: 12/05/2018
 ms.keywords: DrvAlphaBlend, DrvAlphaBlend function [Display Devices], ddifncs_fc2d104a-d161-4f43-af15-ad088b5a2d3f.xml, display.drvalphablend, winddi/DrvAlphaBlend
 ms.topic: function
 f1_keywords:
 - winddi/DrvAlphaBlend
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

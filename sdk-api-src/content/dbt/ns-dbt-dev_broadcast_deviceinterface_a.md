@@ -1,19 +1,17 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_DEVICEINTERFACE_A
 title: DEV_BROADCAST_DEVICEINTERFACE_A (dbt.h)
-
 description: Contains information about a class of devices.
 old-location: base\dev_broadcast_deviceinterface_str.htm
 tech.root: devio
 ms.assetid: 23e6b2b9-2053-4dfa-9c0a-283279f086b8
-
 ms.date: 12/05/2018
 ms.keywords: '*PDEV_BROADCAST_DEVICEINTERFACE_A, DEV_BROADCAST_DEVICEINTERFACE, DEV_BROADCAST_DEVICEINTERFACE structure, DEV_BROADCAST_DEVICEINTERFACE_A, PDEV_BROADCAST_DEVICEINTERFACE, PDEV_BROADCAST_DEVICEINTERFACE structure pointer, _win32_dev_broadcast_deviceinterface_str, base.dev_broadcast_deviceinterface_str, dbt/DEV_BROADCAST_DEVICEINTERFACE, dbt/PDEV_BROADCAST_DEVICEINTERFACE'
 ms.topic: struct
 f1_keywords:
 - dbt/DEV_BROADCAST_DEVICEINTERFACE
 dev_langs:
- - c++
+- c++
 req.header: dbt.h
 req.include-header: 
 req.target-type: Windows
@@ -39,8 +37,7 @@ api_type:
 api_location:
 - Dbt.h
 api_name:
-- DEV_BROADCAST_DEVICEINTERFACE
- - dev_broadcast_deviceinterface_a
+- DEV_BROADCAST_DEVICEINTERFACE - dev_broadcast_deviceinterface_a
 targetos: Windows
 req.typenames: DEV_BROADCAST_DEVICEINTERFACE_A, *PDEV_BROADCAST_DEVICEINTERFACE_A
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.AddAttachedSurface
 title: IDirectDrawSurface7::AddAttachedSurface (ddraw.h)
-
 description: Attaches the specified z-buffer surface to this surface.
 old-location: directdraw\idirectdrawsurface7_addattachedsurface.htm
 tech.root: directdraw
 ms.assetid: 6d42c5ed-7f05-4450-b1f4-cb9ee6efa7d9
-
 ms.date: 12/05/2018
 ms.keywords: AddAttachedSurface, AddAttachedSurface method [DirectDraw], AddAttachedSurface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],AddAttachedSurface method, IDirectDrawSurface7.AddAttachedSurface, IDirectDrawSurface7::AddAttachedSurface, ddraw/IDirectDrawSurface7::AddAttachedSurface, directdraw.idirectdrawsurface7_addattachedsurface
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.AddAttachedSurface"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.AddAttachedSurface
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.AddAttachedSurface
+- IDirectDrawSurface7.AddAttachedSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

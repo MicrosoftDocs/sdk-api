@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTimecode
 title: IAMTimecodeGenerator::SetTimecode (strmif.h)
-
 description: The SetTimecode method sets the timecode, userbit value, or both.
 old-location: dshow\iamtimecodegenerator_settimecode.htm
 tech.root: DirectShow
 ms.assetid: 6da4b7e0-e6cd-4555-b5a3-e5f0f20ff070
-
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTimecode method, IAMTimecodeGenerator.SetTimecode, IAMTimecodeGenerator::SetTimecode, IAMTimecodeGeneratorSetTimecode, SetTimecode, SetTimecode method [DirectShow], SetTimecode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settimecode, strmif/IAMTimecodeGenerator::SetTimecode
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeGenerator.SetTimecode"
+f1_keywords:
+- strmif/IAMTimecodeGenerator.SetTimecode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.SetTimecode
+- IAMTimecodeGenerator.SetTimecode
 targetos: Windows
 req.typenames: 
 req.redist: 

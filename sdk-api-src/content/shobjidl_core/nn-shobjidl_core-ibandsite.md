@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IBandSite
 title: IBandSite (shobjidl_core.h)
-
 description: Exposes methods that control band objects.
 old-location: shell\IBandSite.htm
 tech.root: shell
 ms.assetid: d7893136-a1a3-4c4b-b8f3-e4679710d827
-
 ms.date: 12/05/2018
 ms.keywords: IBandSite, IBandSite interface [Windows Shell], IBandSite interface [Windows Shell],described, _win32_IBandSite, shell.IBandSite, shobjidl_core/IBandSite
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IBandSite"
+f1_keywords:
+- shobjidl_core/IBandSite
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IBandSite
+- IBandSite
 targetos: Windows
 req.typenames: 
 req.redist: 

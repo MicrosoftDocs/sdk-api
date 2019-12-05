@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11VideoDecoderOutputView
 title: ID3D11VideoDecoderOutputView (d3d11.h)
-
 description: Identifies the output surfaces that can be accessed during video decoding.
 old-location: mf\id3d11videodecoderoutputview.htm
 tech.root: medfound
 ms.assetid: 389E0CCC-4DD2-4E82-84D7-3794AEE59208
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoDecoderOutputView, ID3D11VideoDecoderOutputView interface [Media Foundation], ID3D11VideoDecoderOutputView interface [Media Foundation],described, d3d11/ID3D11VideoDecoderOutputView, mf.id3d11videodecoderoutputview
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11VideoDecoderOutputView"
+f1_keywords:
+- d3d11/ID3D11VideoDecoderOutputView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoDecoderOutputView
+- ID3D11VideoDecoderOutputView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.LPSAFEARRAY_UserUnmarshal64
 title: LPSAFEARRAY_UserUnmarshal64 function (wia_xp.h)
-
 description: Unmarshals a SAFEARRAY object from the RPC buffer.
 old-location: automat\lpsafearray_userunmarshal64.htm
 tech.root: automat
 ms.assetid: 19B52C54-0905-446C-A8D9-C98153931708
-
 ms.date: 12/05/2018
 ms.keywords: LPSAFEARRAY_UserUnmarshal64, LPSAFEARRAY_UserUnmarshal64 function [Automation], automat.lpsafearray_userunmarshal64, wia_xp/LPSAFEARRAY_UserUnmarshal64
 ms.topic: function
-f1_keywords: 
- - "wia_xp/LPSAFEARRAY_UserUnmarshal64"
+f1_keywords:
+- wia_xp/LPSAFEARRAY_UserUnmarshal64
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Propidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - LPSAFEARRAY_UserUnmarshal64
+- LPSAFEARRAY_UserUnmarshal64
 targetos: Windows
 req.typenames: 
 req.redist: 

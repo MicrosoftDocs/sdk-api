@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpAddUrl
 title: HttpAddUrl function (http.h)
-
 description: Registers a given URL so that requests that match it are routed to a specified HTTP Server API request queue.
 old-location: http\httpaddurl.htm
 tech.root: http
 ms.assetid: 76b228a0-6792-4184-bf0e-8638f3ab6b98
-
 ms.date: 12/05/2018
 ms.keywords: HttpAddUrl, HttpAddUrl function [HTTP], _http_httpaddurl, http.httpaddurl, http/HttpAddUrl
 ms.topic: function
-f1_keywords: 
- - "http/HttpAddUrl"
+f1_keywords:
+- http/HttpAddUrl
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpAddUrl
+- HttpAddUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

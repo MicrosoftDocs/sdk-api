@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteTextLayout1.GetPairKerning
 title: IDWriteTextLayout1::GetPairKerning (dwrite_1.h)
-
 description: Gets whether or not pair-kerning is enabled at given position.
 old-location: directwrite\idwritetextlayout1_getpairkerning.htm
 tech.root: DirectWrite
 ms.assetid: 24E89191-E543-4AF4-A8F5-10CB4B0AF6B0
-
 ms.date: 12/05/2018
 ms.keywords: GetPairKerning, GetPairKerning method [Direct Write], GetPairKerning method [Direct Write],IDWriteTextLayout1 interface, IDWriteTextLayout1 interface [Direct Write],GetPairKerning method, IDWriteTextLayout1.GetPairKerning, IDWriteTextLayout1::GetPairKerning, directwrite.idwritetextlayout1_getpairkerning, dwrite_1/IDWriteTextLayout1::GetPairKerning
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteTextLayout1.GetPairKerning"
+f1_keywords:
+- dwrite_1/IDWriteTextLayout1.GetPairKerning
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout1.GetPairKerning
+- IDWriteTextLayout1.GetPairKerning
 targetos: Windows
 req.typenames: 
 req.redist: 

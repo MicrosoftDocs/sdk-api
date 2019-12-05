@@ -1,19 +1,17 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE
 title: RECO_LATTICE (rectypes.h)
-
 description: Serves as the entry point into a lattice.
 old-location: tablet\reco_lattice.htm
 tech.root: tablet
 ms.assetid: 0fab8928-1632-4011-9d1d-2be5f6c5f22d
-
 ms.date: 12/05/2018
 ms.keywords: 0fab8928-1632-4011-9d1d-2be5f6c5f22d, RECO_LATTICE, RECO_LATTICE structure [Tablet PC], rectypes/RECO_LATTICE, tablet.reco_lattice
 ms.topic: struct
-f1_keywords: 
- - "rectypes/RECO_LATTICE"
+f1_keywords:
+- rectypes/RECO_LATTICE
 dev_langs:
- - c++
+- c++
 req.header: rectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - rectypes.h
+- rectypes.h
 api_name:
- - RECO_LATTICE
+- RECO_LATTICE
 targetos: Windows
 req.typenames: RECO_LATTICE
 req.redist: 

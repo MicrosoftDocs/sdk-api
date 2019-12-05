@@ -1,19 +1,17 @@
 ---
 UID: NS:bits._BG_JOB_TIMES
 title: BG_JOB_TIMES (bits.h)
-
 description: Provides job-related time stamps.
 old-location: bits\bg_job_times.htm
 tech.root: Bits
 ms.assetid: d7ee63f7-e2d1-451d-b200-cccb86816f21
-
 ms.date: 12/05/2018
 ms.keywords: BG_JOB_TIMES, BG_JOB_TIMES structure [BITS], _drz_bg_job_times, bits.bg_job_times, bits/BG_JOB_TIMES
 ms.topic: struct
-f1_keywords: 
- - "bits/BG_JOB_TIMES"
+f1_keywords:
+- bits/BG_JOB_TIMES
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits.h
+- Bits.h
 api_name:
- - BG_JOB_TIMES
+- BG_JOB_TIMES
 targetos: Windows
 req.typenames: BG_JOB_TIMES
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMLicenseRestore
 title: IWMLicenseRestore (wmsdkidl.h)
-
 description: The IWMLicenseRestore interface manages the restoring of licenses.This interface is obtained from another interface on the backup restorer object.
 old-location: wmformat\iwmlicenserestore.htm
 tech.root: wmformat
 ms.assetid: 29444445-7104-4900-a00d-dabd2766d1d7
-
 ms.date: 12/05/2018
 ms.keywords: IWMLicenseRestore, IWMLicenseRestore interface [windows Media Format], IWMLicenseRestore interface [windows Media Format],described, IWMLicenseRestoreInterface, wmformat.iwmlicenserestore, wmsdkidl/IWMLicenseRestore
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMLicenseRestore"
+f1_keywords:
+- wmsdkidl/IWMLicenseRestore
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMLicenseRestore
+- IWMLicenseRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

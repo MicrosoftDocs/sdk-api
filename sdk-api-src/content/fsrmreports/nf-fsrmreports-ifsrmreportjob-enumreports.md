@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.EnumReports
 title: IFsrmReportJob::EnumReports (fsrmreports.h)
-
 description: Enumerates all the reports configured for this report job.
 old-location: fsrm\ifsrmreportjob_enumreports.htm
 tech.root: fsrm
 ms.assetid: a1292084-f1b5-43eb-9b59-fa2f3f99557d
-
 ms.date: 12/05/2018
 ms.keywords: EnumReports, EnumReports method [File Server Resource Manager], EnumReports method [File Server Resource Manager],IFsrmReportJob interface, IFsrmReportJob interface [File Server Resource Manager],EnumReports method, IFsrmReportJob.EnumReports, IFsrmReportJob::EnumReports, fs.ifsrmreportjob_enumreports, fsrm.ifsrmreportjob_enumreports, fsrmreports/IFsrmReportJob::EnumReports
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.EnumReports"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.EnumReports
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.EnumReports
+- IFsrmReportJob.EnumReports
 targetos: Windows
 req.typenames: 
 req.redist: 

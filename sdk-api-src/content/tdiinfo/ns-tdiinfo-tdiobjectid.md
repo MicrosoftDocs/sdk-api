@@ -1,19 +1,17 @@
 ---
 UID: NS:tdiinfo.TDIObjectID
 title: TDIObjectID (tdiinfo.h)
-
 description: Contains a part of the TCP_REQUEST_QUERY_INFORMATION_EX structure that is used with the IOCTL_TCP_QUERY_INFORMATION_EX control code to specify the kind of information being requested from the TCP driver.
 old-location: winprog\tdiobjectid.htm
 tech.root: DevNotes
 ms.assetid: 79d34f1c-2ea7-4867-9fb2-80401b0859bf
-
 ms.date: 12/05/2018
 ms.keywords: ENTITY_LIST_ID, ENTITY_TYPE_ID, IF_MIB_STATS_ID, INFO_CLASS_GENERIC, INFO_CLASS_PROTOCOL, INFO_TYPE_ADDRESS_OBJECT, INFO_TYPE_CONNECTION, INFO_TYPE_PROVIDER, IP_INTFC_INFO_ID, IP_MIB_ADDRTABLE_ENTRY_ID, IP_MIB_STATS_ID, TDIObjectID, TDIObjectID structure [Windows API], tdiinfo/TDIObjectID, winprog.tdiobjectid
 ms.topic: struct
-f1_keywords: 
- - "tdiinfo/TDIObjectID"
+f1_keywords:
+- tdiinfo/TDIObjectID
 dev_langs:
- - c++
+- c++
 req.header: tdiinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tdiinfo.h
+- tdiinfo.h
 api_name:
- - TDIObjectID
+- TDIObjectID
 targetos: Windows
 req.typenames: TDIObjectID
 req.redist: 

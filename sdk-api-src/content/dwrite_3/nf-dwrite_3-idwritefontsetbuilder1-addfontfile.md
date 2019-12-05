@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder1.AddFontFile
 title: IDWriteFontSetBuilder1::AddFontFile (dwrite_3.h)
-
 description: Adds references to all the fonts in the specified font file.
 old-location: directwrite\idwritefontsetbuilder1_addfontfile.htm
 tech.root: DirectWrite
 ms.assetid: 3858EF37-F545-4C2E-BC3D-E4732B49911C
-
 ms.date: 12/05/2018
 ms.keywords: AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder1 interface, IDWriteFontSetBuilder1 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder1.AddFontFile, IDWriteFontSetBuilder1::AddFontFile, directwrite.idwritefontsetbuilder1_addfontfile, dwrite_3/IDWriteFontSetBuilder1::AddFontFile
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSetBuilder1.AddFontFile"
+f1_keywords:
+- dwrite_3/IDWriteFontSetBuilder1.AddFontFile
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontSetBuilder1.AddFontFile
+- IDWriteFontSetBuilder1.AddFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRules.RemoveByCountryAndArea
 title: IFaxOutboundRoutingRules::RemoveByCountryAndArea (faxcomex.h)
-
 description: The IFaxOutboundRoutingRules::RemoveByCountryAndArea method removes an outbound routing rule (FaxOutboundRoutingRule object) from the collection using the routing rule's country/region code and area code.
 old-location: fax\_mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_removebycountryandarea_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62e9.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingRules interface [Fax Service],RemoveByCountryAndArea method, IFaxOutboundRoutingRules.RemoveByCountryAndArea, IFaxOutboundRoutingRules::RemoveByCountryAndArea, RemoveByCountryAndArea, RemoveByCountryAndArea method [Fax Service], RemoveByCountryAndArea method [Fax Service],IFaxOutboundRoutingRules interface, _mfax_faxoutboundroutingrules.removebycountryandarea, fax._mfax_faxoutboundroutingrules_cpp_mfax_faxoutboundroutingrules_removebycountryandarea_cpp, fax._mfax_faxoutboundroutingrules_removebycountryandarea, faxcomex/IFaxOutboundRoutingRules::RemoveByCountryAndArea
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingRules.RemoveByCountryAndArea"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingRules.RemoveByCountryAndArea
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRules.RemoveByCountryAndArea
- - IFaxOutboundRoutingRules.RemoveByCountryAndArea
+- IFaxOutboundRoutingRules.RemoveByCountryAndArea
+- IFaxOutboundRoutingRules.RemoveByCountryAndArea
 targetos: Windows
 req.typenames: 
 req.redist: 

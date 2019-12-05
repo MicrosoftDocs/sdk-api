@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmAssociateContextEx
 title: ImmAssociateContextEx function (immdev.h)
-
 description: Changes the association between the input method context and the specified window or its children.
 old-location: intl\immassociatecontextex.htm
 tech.root: Intl
 ms.assetid: 7f44d274-b5e9-4feb-acd6-5c68b3f7d868
-
 ms.date: 12/05/2018
 ms.keywords: IACE_CHILDREN, IACE_DEFAULT, IACE_IGNORENOCONTEXT, ImmAssociateContextEx, ImmAssociateContextEx function [Internationalization for Windows Applications], _win32_ImmAssociateContextEx, imm/ImmAssociateContextEx, intl.immassociatecontextex
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmAssociateContextEx"
+f1_keywords:
+- immdev/ImmAssociateContextEx
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmAssociateContextEx
+- ImmAssociateContextEx
 targetos: Windows
 req.typenames: 
 req.redist: 

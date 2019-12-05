@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionBasicConstraints.InitializeEncode
 title: IX509ExtensionBasicConstraints::InitializeEncode (certenroll.h)
-
 description: Initializes the extension from a Boolean value that indicates whether the certificate subject is a certification authority (CA) and an integer that contains the depth of the subordinate CA chain.
 old-location: security\ix509extensionbasicconstraints_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: e9a08445-8fc5-45cc-a2c6-ec62470e5c55
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionBasicConstraints interface [Security],InitializeEncode method, IX509ExtensionBasicConstraints.InitializeEncode, IX509ExtensionBasicConstraints::InitializeEncode, InitializeEncode, InitializeEncode method [Security], InitializeEncode method [Security],IX509ExtensionBasicConstraints interface, certenroll/IX509ExtensionBasicConstraints::InitializeEncode, security.ix509extensionbasicconstraints_initializeencode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionBasicConstraints.InitializeEncode"
+f1_keywords:
+- certenroll/IX509ExtensionBasicConstraints.InitializeEncode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionBasicConstraints.InitializeEncode
+- IX509ExtensionBasicConstraints.InitializeEncode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCheckboxText
 title: IPhotoProgressDialog::SetCheckboxText (photoacquire.h)
-
 description: The SetCheckboxText method sets the text for the check box in the progress dialog box indicating whether to delete images after transfer.
 old-location: picacq\iphotoprogressdialog_setcheckboxtext.htm
 tech.root: acquisition
 ms.assetid: db516dcd-90b4-4421-b883-2f8462b36249
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCheckboxText method, IPhotoProgressDialog.SetCheckboxText, IPhotoProgressDialog::SetCheckboxText, IPhotoProgressDialogSetCheckboxText, SetCheckboxText, SetCheckboxText method [Picture Acquisition], SetCheckboxText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCheckboxText, picacq.iphotoprogressdialog_setcheckboxtext
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.SetCheckboxText"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.SetCheckboxText
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.SetCheckboxText
+- IPhotoProgressDialog.SetCheckboxText
 targetos: Windows
 req.typenames: 
 req.redist: 

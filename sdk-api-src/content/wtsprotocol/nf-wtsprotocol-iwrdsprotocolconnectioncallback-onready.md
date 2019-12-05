@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnectionCallback.OnReady
 title: IWRdsProtocolConnectionCallback::OnReady (wtsprotocol.h)
-
 description: Requests that the Remote Desktop Services service continue the connection process for that client.
 old-location: termserv\iwrdsprotocolconnectioncallback_onready.htm
 tech.root: TermServ
 ms.assetid: 88134a34-c494-48ea-9063-206e7d0c5139
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnectionCallback interface [Remote Desktop Services],OnReady method, IWRdsProtocolConnectionCallback.OnReady, IWRdsProtocolConnectionCallback::OnReady, OnReady, OnReady method [Remote Desktop Services], OnReady method [Remote Desktop Services],IWRdsProtocolConnectionCallback interface, termserv.iwrdsprotocolconnectioncallback_onready, wtsprotocol/IWRdsProtocolConnectionCallback::OnReady
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnectionCallback.OnReady"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnectionCallback.OnReady
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnectionCallback.OnReady
+- IWRdsProtocolConnectionCallback.OnReady
 targetos: Windows
 req.typenames: 
 req.redist: 

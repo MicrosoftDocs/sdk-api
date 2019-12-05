@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_MISCELLANEOUS2CALLBACKS
 title: DD_MISCELLANEOUS2CALLBACKS (ddrawint.h)
-
 description: The DD_MISCELLANEOUS2CALLBACKS structure is used to return the addresses of miscellaneous callback routines.
 old-location: display\dd_miscellaneous2callbacks.htm
 tech.root: display
 ms.assetid: bb3e91c0-5399-4760-a12e-0a47f0fbd2f9
-
 ms.date: 12/05/2018
-ms.keywords: "*PDD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS structure [Display Devices], PDD_MISCELLANEOUS2CALLBACKS, PDD_MISCELLANEOUS2CALLBACKS structure pointer [Display Devices], ddrawint/DD_MISCELLANEOUS2CALLBACKS, ddrawint/PDD_MISCELLANEOUS2CALLBACKS, ddstrcts_61459de1-283c-4693-a27a-f5dc8bdc5a44.xml, display.dd_miscellaneous2callbacks"
+ms.keywords: '*PDD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS, DD_MISCELLANEOUS2CALLBACKS structure [Display Devices], PDD_MISCELLANEOUS2CALLBACKS, PDD_MISCELLANEOUS2CALLBACKS structure pointer [Display Devices], ddrawint/DD_MISCELLANEOUS2CALLBACKS, ddrawint/PDD_MISCELLANEOUS2CALLBACKS, ddstrcts_61459de1-283c-4693-a27a-f5dc8bdc5a44.xml, display.dd_miscellaneous2callbacks'
 ms.topic: struct
-f1_keywords: 
- - "ddrawint/DD_MISCELLANEOUS2CALLBACKS"
+f1_keywords:
+- ddrawint/DD_MISCELLANEOUS2CALLBACKS
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddrawint.h
+- ddrawint.h
 api_name:
- - DD_MISCELLANEOUS2CALLBACKS
+- DD_MISCELLANEOUS2CALLBACKS
 targetos: Windows
 req.typenames: DD_MISCELLANEOUS2CALLBACKS, *PDD_MISCELLANEOUS2CALLBACKS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICryptAttribute.get_ObjectId
 title: ICryptAttribute::get_ObjectId (certenroll.h)
-
 description: Retrieves the object identifier (OID) for the attribute.
 old-location: security\icryptattribute_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: 9ae9a217-1658-42ac-bd28-33abab5d0d70
-
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute interface [Security],ObjectId property, ICryptAttribute.ObjectId, ICryptAttribute.get_ObjectId, ICryptAttribute::ObjectId, ICryptAttribute::get_ObjectId, ObjectId property [Security], ObjectId property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::ObjectId, certenroll/ICryptAttribute::get_ObjectId, get_ObjectId, security.icryptattribute_objectid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICryptAttribute.ObjectId"
+f1_keywords:
+- certenroll/ICryptAttribute.ObjectId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICryptAttribute.ObjectId
- - ICryptAttribute.get_ObjectId
+- ICryptAttribute.ObjectId
+- ICryptAttribute.get_ObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 

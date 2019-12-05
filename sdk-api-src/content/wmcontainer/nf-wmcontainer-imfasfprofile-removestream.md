@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveStream
 title: IMFASFProfile::RemoveStream (wmcontainer.h)
-
 description: Removes a stream from the Advanced Systems Format (ASF) profile object.
 old-location: mf\imfasfprofile_removestream.htm
 tech.root: medfound
 ms.assetid: dfe404d3-66ea-407b-a2e0-caa065f41afe
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],RemoveStream method, IMFASFProfile.RemoveStream, IMFASFProfile::RemoveStream, RemoveStream, RemoveStream method [Media Foundation], RemoveStream method [Media Foundation],IMFASFProfile interface, dfe404d3-66ea-407b-a2e0-caa065f41afe, mf.imfasfprofile_removestream, wmcontainer/IMFASFProfile::RemoveStream
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFProfile.RemoveStream"
+f1_keywords:
+- wmcontainer/IMFASFProfile.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFProfile.RemoveStream
+- IMFASFProfile.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

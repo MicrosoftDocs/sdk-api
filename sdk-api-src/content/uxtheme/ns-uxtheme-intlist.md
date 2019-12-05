@@ -1,19 +1,17 @@
 ---
 UID: NS:uxtheme._INTLIST
 title: INTLIST (uxtheme.h)
-
 description: Contains an array or list of int data items from a visual style.
 old-location: controls\INTLIST.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\structures\intlist.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST"
+ms.keywords: '*PINTLIST, INTLIST, INTLIST structure [Windows Controls], PINTLIST, PINTLIST structure pointer [Windows Controls], controls.INTLIST, controls.inet_INTLIST, inet_INTLIST, inet_INTLIST_cpp, uxtheme/INTLIST, uxtheme/PINTLIST'
 ms.topic: struct
-f1_keywords: 
- - "uxtheme/INTLIST"
+f1_keywords:
+- uxtheme/INTLIST
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UxTheme.h
+- UxTheme.h
 api_name:
- - INTLIST
+- INTLIST
 targetos: Windows
 req.typenames: INTLIST, *PINTLIST
 req.redist: 

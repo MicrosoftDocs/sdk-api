@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCopyImage
 title: MFCopyImage function (mfapi.h)
-
 description: Copies an image or image plane from one buffer to another.
 old-location: mf\mfcopyimage.htm
 tech.root: medfound
 ms.assetid: e6bc2777-d33c-4d44-84c6-e7b35d308d33
-
 ms.date: 12/05/2018
 ms.keywords: MFCopyImage, MFCopyImage function [Media Foundation], e6bc2777-d33c-4d44-84c6-e7b35d308d33, mf.mfcopyimage, mfapi/MFCopyImage
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCopyImage"
+f1_keywords:
+- mfapi/MFCopyImage
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Evr.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCopyImage
+- MFCopyImage
 targetos: Windows
 req.typenames: 
 req.redist: 

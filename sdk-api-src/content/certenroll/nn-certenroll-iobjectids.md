@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IObjectIds
 title: IObjectIds (certenroll.h)
-
 description: The IObjectIds interface defines methods and properties that enable you to manage a collection of IObjectId objects.
 old-location: security\iobjectids.htm
 tech.root: seccertenroll
 ms.assetid: f376a33e-005b-4810-9a26-b642236ff7af
-
 ms.date: 12/05/2018
 ms.keywords: IObjectIds, IObjectIds interface [Security], IObjectIds interface [Security],described, certenroll/IObjectIds, security.iobjectids
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IObjectIds"
+f1_keywords:
+- certenroll/IObjectIds
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectIds
+- IObjectIds
 targetos: Windows
 req.typenames: 
 req.redist: 

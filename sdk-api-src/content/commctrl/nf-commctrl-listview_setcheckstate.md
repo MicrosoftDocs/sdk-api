@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetCheckState
 title: ListView_SetCheckState macro (commctrl.h)
-
 description: Selects or deselects an item in a list-view control. You can use this macro or send the LVM_SETITEMSTATE message explicitly.
 old-location: controls\ListView_SetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcheckstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetCheckState, ListView_SetCheckState macro [Windows Controls], _win32_ListView_SetCheckState, _win32_ListView_SetCheckState_cpp, commctrl/ListView_SetCheckState, controls.ListView_SetCheckState, controls._win32_ListView_SetCheckState
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetCheckState"
+f1_keywords:
+- commctrl/ListView_SetCheckState
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetCheckState
+- ListView_SetCheckState
 targetos: Windows
 req.typenames: 
 req.redist: 

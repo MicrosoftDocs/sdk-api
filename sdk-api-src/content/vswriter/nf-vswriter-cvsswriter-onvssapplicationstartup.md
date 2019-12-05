@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.OnVSSApplicationStartup
 title: CVssWriter::OnVSSApplicationStartup (vswriter.h)
-
 description: Not supported.
 old-location: base\cvsswriter_onvssapplicationstartup.htm
 tech.root: VSS
 ms.assetid: bec4ea32-e150-468e-9b4d-2405125e5250
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],OnVSSApplicationStartup method, CVssWriter.OnVSSApplicationStartup, CVssWriter::OnVSSApplicationStartup, OnVSSApplicationStartup, OnVSSApplicationStartup method [VSS], OnVSSApplicationStartup method [VSS],CVssWriter interface, _win32_cvsswriter_onvssapplicationstartup, base.cvsswriter_onvssapplicationstartup, vswriter/CVssWriter::OnVSSApplicationStartup
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.OnVSSApplicationStartup"
+f1_keywords:
+- vswriter/CVssWriter.OnVSSApplicationStartup
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.OnVSSApplicationStartup
+- CVssWriter.OnVSSApplicationStartup
 targetos: Windows
 req.typenames: 
 req.redist: 

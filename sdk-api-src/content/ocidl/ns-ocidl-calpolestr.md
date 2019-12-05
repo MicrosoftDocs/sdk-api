@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagCALPOLESTR
 title: CALPOLESTR (ocidl.h)
-
 description: Specifies a counted array of strings used to specify the predefined strings that a property can accept.
 old-location: com\calpolestr.htm
 tech.root: com
 ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLESTR, LPCALPOLESTR structure pointer [COM], _ctrl_CALPOLESTR, com.calpolestr, ocidl/CALPOLESTR, ocidl/LPCALPOLESTR"
+ms.keywords: '*LPCALPOLESTR, CALPOLESTR, CALPOLESTR structure [COM], LPCALPOLESTR, LPCALPOLESTR structure pointer [COM], _ctrl_CALPOLESTR, com.calpolestr, ocidl/CALPOLESTR, ocidl/LPCALPOLESTR'
 ms.topic: struct
-f1_keywords: 
- - "ocidl/CALPOLESTR"
+f1_keywords:
+- ocidl/CALPOLESTR
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - CALPOLESTR
+- CALPOLESTR
 targetos: Windows
 req.typenames: CALPOLESTR, *LPCALPOLESTR
 req.redist: 

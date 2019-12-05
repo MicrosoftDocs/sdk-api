@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY0_
 title: IPSEC_TUNNEL_POLICY0 (ipsectypes.h)
-
 description: Stores the quick mode negotiation policy for tunnel mode IPsec.
 old-location: fwp\ipsec_tunnel_policy0_struct.htm
 tech.root: fwp
 ms.assetid: 092b108c-47e1-4b2f-b7ed-184cf8abb392
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_TUNNEL_POLICY0, IPSEC_TUNNEL_POLICY0 structure [Filtering], fwp.ipsec_tunnel_policy0_struct, ipsectypes/IPSEC_TUNNEL_POLICY0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_TUNNEL_POLICY0"
+f1_keywords:
+- ipsectypes/IPSEC_TUNNEL_POLICY0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TUNNEL_POLICY0
+- IPSEC_TUNNEL_POLICY0
 targetos: Windows
 req.typenames: IPSEC_TUNNEL_POLICY0
 req.redist: 

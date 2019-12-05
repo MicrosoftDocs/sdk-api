@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_DragEnter
 title: ImageList_DragEnter function (commctrl.h)
-
 description: Displays the drag image at the specified position within the window.
 old-location: controls\ImageList_DragEnter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_dragenter.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_DragEnter, ImageList_DragEnter function [Windows Controls], _win32_ImageList_DragEnter, _win32_ImageList_DragEnter_cpp, commctrl/ImageList_DragEnter, controls.ImageList_DragEnter, controls._win32_ImageList_DragEnter
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_DragEnter"
+f1_keywords:
+- commctrl/ImageList_DragEnter
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_DragEnter
+- ImageList_DragEnter
 targetos: Windows
 req.typenames: 
 req.redist: 

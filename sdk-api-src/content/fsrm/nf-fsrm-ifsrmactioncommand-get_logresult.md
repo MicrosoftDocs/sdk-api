@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.get_LogResult
 title: IFsrmActionCommand::get_LogResult (fsrm.h)
-
 description: Retrieves or sets a value that determines whether FSRM logs an Application event that contains the return code of the executable program.
 old-location: fsrm\ifsrmactioncommand_logresult.htm
 tech.root: fsrm
 ms.assetid: f05751e0-9cd9-4c12-8238-163b1e398b82
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionCommand interface [File Server Resource Manager],LogResult property, IFsrmActionCommand.LogResult, IFsrmActionCommand.get_LogResult, IFsrmActionCommand::LogResult, IFsrmActionCommand::get_LogResult, IFsrmActionCommand::put_LogResult, LogResult property [File Server Resource Manager], LogResult property [File Server Resource Manager],IFsrmActionCommand interface, fs.ifsrmactioncommand_logresult, fsrm.ifsrmactioncommand_logresult, fsrm/IFsrmActionCommand::LogResult, fsrm/IFsrmActionCommand::get_LogResult, fsrm/IFsrmActionCommand::put_LogResult, get_LogResult
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionCommand.LogResult"
+f1_keywords:
+- fsrm/IFsrmActionCommand.LogResult
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionCommand.LogResult
- - IFsrmActionCommand.get_LogResult
- - IFsrmActionCommand.put_LogResult
+- IFsrmActionCommand.LogResult
+- IFsrmActionCommand.get_LogResult
+- IFsrmActionCommand.put_LogResult
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mi._MI_CancellationReason
 title: MI_CancellationReason (mi.h)
-
 description: Value to pass to an operation cancel request to notify the system of the reason the operation is being canceled. If the service is being shutdown, it may pass one of these values to the provider as well.
 old-location: wmi_v2\mi_cancellationreason.htm
 tech.root: wmi_v2
 ms.assetid: 3c498055-03ef-4163-9de5-cf4e70051cea
-
 ms.date: 12/05/2018
 ms.keywords: MI_CancellationReason, MI_CancellationReason enumeration [Windows Management Infrastructure (MI)], MI_REASON_NONE, MI_REASON_SERVICESTOP, MI_REASON_SHUTDOWN, MI_REASON_TIMEOUT, mi/MI_CancellationReason, mi/MI_REASON_NONE, mi/MI_REASON_SERVICESTOP, mi/MI_REASON_SHUTDOWN, mi/MI_REASON_TIMEOUT, wmi._mi_cancellationreason, wmi_v2.mi_cancellationreason
 ms.topic: enum
-f1_keywords: 
- - "mi/MI_CancellationReason"
+f1_keywords:
+- mi/MI_CancellationReason
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_CancellationReason
+- MI_CancellationReason
 targetos: Windows
 req.typenames: MI_CancellationReason
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

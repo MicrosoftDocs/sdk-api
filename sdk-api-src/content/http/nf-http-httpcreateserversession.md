@@ -1,19 +1,17 @@
 ---
 UID: NF:http.HttpCreateServerSession
 title: HttpCreateServerSession function (http.h)
-
 description: Creates a server session for the specified version.
 old-location: http\httpcreateserversession.htm
 tech.root: http
 ms.assetid: 42c8be3a-eb1b-49ff-ade0-16e4500b0c44
-
 ms.date: 12/05/2018
 ms.keywords: HttpCreateServerSession, HttpCreateServerSession function [HTTP], http.httpcreateserversession, http/HttpCreateServerSession
 ms.topic: function
-f1_keywords: 
- - "http/HttpCreateServerSession"
+f1_keywords:
+- http/HttpCreateServerSession
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Httpapi.lib
 req.dll: Httpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Httpapi.dll
+- Httpapi.dll
 api_name:
- - HttpCreateServerSession
+- HttpCreateServerSession
 targetos: Windows
 req.typenames: 
 req.redist: 

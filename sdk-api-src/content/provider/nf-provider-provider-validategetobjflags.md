@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.ValidateGetObjFlags
 title: Provider::ValidateGetObjFlags (provider.h)
-
 description: The ValidateGetObjFlags method determines whether a set of flags is valid for an instance retrieval operation.
 old-location: wmi\provider_validategetobjflags.htm
 tech.root: WmiSdk
 ms.assetid: 5090c47b-062b-4359-b03b-0d05c225447d
-
 ms.date: 12/05/2018
-ms.keywords: "?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateGetObjFlags method, Provider.ValidateGetObjFlags, Provider::ValidateGetObjFlags, ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags"
+ms.keywords: ?ValidateGetObjFlags@Provider@@MAEJJ@Z, ?ValidateGetObjFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateGetObjFlags method, Provider.ValidateGetObjFlags, Provider::ValidateGetObjFlags, ValidateGetObjFlags, ValidateGetObjFlags method [Windows Management Instrumentation], ValidateGetObjFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validategetobjflags, provider/Provider::ValidateGetObjFlags, wmi.provider_validategetobjflags
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.ValidateGetObjFlags"
+f1_keywords:
+- provider/Provider.ValidateGetObjFlags
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.ValidateGetObjFlags
- - ?ValidateGetObjFlags@Provider@@MAEJJ@Z
- - ?ValidateGetObjFlags@Provider@@MEAAJJ@Z
+- Provider.ValidateGetObjFlags
+- ?ValidateGetObjFlags@Provider@@MAEJJ@Z
+- ?ValidateGetObjFlags@Provider@@MEAAJJ@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

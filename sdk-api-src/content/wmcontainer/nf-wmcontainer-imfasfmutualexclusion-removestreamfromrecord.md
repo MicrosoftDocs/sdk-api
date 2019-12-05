@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFMutualExclusion.RemoveStreamFromRecord
 title: IMFASFMutualExclusion::RemoveStreamFromRecord (wmcontainer.h)
-
 description: Removes a stream number from a record in the Advanced Systems Format mutual exclusion object.
 old-location: mf\imfasfmutualexclusion_removestreamfromrecord.htm
 tech.root: medfound
 ms.assetid: d92c022c-3241-4296-9572-62b43c6e79cb
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFMutualExclusion interface [Media Foundation],RemoveStreamFromRecord method, IMFASFMutualExclusion.RemoveStreamFromRecord, IMFASFMutualExclusion::RemoveStreamFromRecord, RemoveStreamFromRecord, RemoveStreamFromRecord method [Media Foundation], RemoveStreamFromRecord method [Media Foundation],IMFASFMutualExclusion interface, d92c022c-3241-4296-9572-62b43c6e79cb, mf.imfasfmutualexclusion_removestreamfromrecord, wmcontainer/IMFASFMutualExclusion::RemoveStreamFromRecord
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFMutualExclusion.RemoveStreamFromRecord"
+f1_keywords:
+- wmcontainer/IMFASFMutualExclusion.RemoveStreamFromRecord
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFMutualExclusion.RemoveStreamFromRecord
+- IMFASFMutualExclusion.RemoveStreamFromRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

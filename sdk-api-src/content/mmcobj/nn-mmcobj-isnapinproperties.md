@@ -1,19 +1,17 @@
 ---
 UID: NN:mmcobj.ISnapinProperties
 title: ISnapinProperties (mmcobj.h)
-
 description: The ISnapinProperties interface enables a snap-in to initialize the snap-in's properties and receive notification when a property is added, changed, or deleted.
 old-location: mmc\isnapinproperties.htm
 tech.root: mmc
 ms.assetid: d3a7d7e0-25c3-4dfa-8984-ca9c91db8493
-
 ms.date: 12/05/2018
 ms.keywords: ISnapinProperties, ISnapinProperties interface [MMC], ISnapinProperties interface [MMC],described, _slate_isnapinproperties, mmc.isnapinproperties, mmcobj/ISnapinProperties
 ms.topic: interface
-f1_keywords: 
- - "mmcobj/ISnapinProperties"
+f1_keywords:
+- mmcobj/ISnapinProperties
 dev_langs:
- - c++
+- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcobj.h
+- Mmcobj.h
 api_name:
- - ISnapinProperties
+- ISnapinProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

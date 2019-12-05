@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DeregisterShellHookWindow
 title: DeregisterShellHookWindow function (winuser.h)
-
 description: Unregisters a specified Shell window that is registered to receive Shell hook messages.
 old-location: winmsg\deregistershellhookwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\deregistershellhookwindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: DeregisterShellHookWindow, DeregisterShellHookWindow function [Windows and Messages], _win32_DeregisterShellHookWindow, _win32_deregistershellhookwindow_cpp, winmsg.deregistershellhookwindow, winui._win32_deregistershellhookwindow, winuser/DeregisterShellHookWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/DeregisterShellHookWindow"
+f1_keywords:
+- winuser/DeregisterShellHookWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-shell-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
- - Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-shell-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-RTCore-NTUser-iam-l1-1-0.dll
+- Ext-MS-Win-RTCore-NTUser-Iam-L1-1-1.dll
 api_name:
- - DeregisterShellHookWindow
+- DeregisterShellHookWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

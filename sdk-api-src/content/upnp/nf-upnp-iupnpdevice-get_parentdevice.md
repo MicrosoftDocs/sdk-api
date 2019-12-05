@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ParentDevice
 title: IUPnPDevice::get_ParentDevice (upnp.h)
-
 description: The ParentDevice property specifies the parent of the device.
 old-location: upnp\iupnpdevice_parentdevice.htm
 tech.root: upnp
 ms.assetid: 662a0bda-32f5-4756-8851-e7b2d0b9cc44
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ParentDevice method, IUPnPDevice.get_ParentDevice, IUPnPDevice::get_ParentDevice, _upnp_iupnpdevice_parentdevice, get_ParentDevice, get_ParentDevice method [UPnP APIs], get_ParentDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_parentdevice, upnp/IUPnPDevice::get_ParentDevice
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_ParentDevice"
+f1_keywords:
+- upnp/IUPnPDevice.get_ParentDevice
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_ParentDevice
+- IUPnPDevice.get_ParentDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

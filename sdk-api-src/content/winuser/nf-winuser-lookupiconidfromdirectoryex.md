@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.LookupIconIdFromDirectoryEx
 title: LookupIconIdFromDirectoryEx function (winuser.h)
-
 description: Searches through icon or cursor data for the icon or cursor that best fits the current display device.
 old-location: menurc\lookupiconidfromdirectoryex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\lookupiconidfromdirectoryex.htm
-
 ms.date: 12/05/2018
 ms.keywords: LR_DEFAULTCOLOR, LR_MONOCHROME, LookupIconIdFromDirectoryEx, LookupIconIdFromDirectoryEx function [Menus and Other Resources], _win32_LookupIconIdFromDirectoryEx, _win32_lookupiconidfromdirectoryex_cpp, menurc.lookupiconidfromdirectoryex, winui._win32_lookupiconidfromdirectoryex, winuser/LookupIconIdFromDirectoryEx
 ms.topic: function
-f1_keywords: 
- - "winuser/LookupIconIdFromDirectoryEx"
+f1_keywords:
+- winuser/LookupIconIdFromDirectoryEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - LookupIconIdFromDirectoryEx
+- LookupIconIdFromDirectoryEx
 targetos: Windows
 req.typenames: 
 req.redist: 

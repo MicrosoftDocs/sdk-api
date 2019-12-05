@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_X509Extensions
 title: IX509CertificateRequestCmc::get_X509Extensions (certenroll.h)
-
 description: Retrieves a collection of the extensions included in the certificate request.
 old-location: security\ix509certificaterequestcmc_x509extensions_property.htm
 tech.root: seccertenroll
 ms.assetid: 75eae625-5c41-4eef-aacd-bd1681286b2b
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],X509Extensions property, IX509CertificateRequestCmc.X509Extensions, IX509CertificateRequestCmc.get_X509Extensions, IX509CertificateRequestCmc::X509Extensions, IX509CertificateRequestCmc::get_X509Extensions, X509Extensions property [Security], X509Extensions property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::X509Extensions, certenroll/IX509CertificateRequestCmc::get_X509Extensions, get_X509Extensions, security.ix509certificaterequestcmc_x509extensions_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.X509Extensions"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.X509Extensions
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.X509Extensions
- - IX509CertificateRequestCmc.get_X509Extensions
+- IX509CertificateRequestCmc.X509Extensions
+- IX509CertificateRequestCmc.get_X509Extensions
 targetos: Windows
 req.typenames: 
 req.redist: 

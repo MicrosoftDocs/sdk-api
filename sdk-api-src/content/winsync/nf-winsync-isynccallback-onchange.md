@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncCallback.OnChange
 title: ISyncCallback::OnChange (winsync.h)
-
 description: Occurs before a change is applied.
 old-location: winsync\isynccallback_onchange.htm
 tech.root: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec
-
 ms.date: 12/05/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnChange method, ISyncCallback.OnChange, ISyncCallback::OnChange, OnChange, OnChange method [Windows Sync], OnChange method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onchange, winsync/ISyncCallback::OnChange
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncCallback.OnChange"
+f1_keywords:
+- winsync/ISyncCallback.OnChange
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncCallback.OnChange
+- ISyncCallback.OnChange
 targetos: Windows
 req.typenames: 
 req.redist: 

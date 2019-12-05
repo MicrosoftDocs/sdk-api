@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICryptAttribute.InitializeFromValues
 title: ICryptAttribute::InitializeFromValues (certenroll.h)
-
 description: Initializes a cryptographic attribute by using an IX509Attributes object.
 old-location: security\icryptattribute_initializefromvalues_method.htm
 tech.root: seccertenroll
 ms.assetid: 763fd244-173d-4b0b-8809-e98c18b8e5b5
-
 ms.date: 12/05/2018
 ms.keywords: ICryptAttribute interface [Security],InitializeFromValues method, ICryptAttribute.InitializeFromValues, ICryptAttribute::InitializeFromValues, InitializeFromValues, InitializeFromValues method [Security], InitializeFromValues method [Security],ICryptAttribute interface, certenroll/ICryptAttribute::InitializeFromValues, security.icryptattribute_initializefromvalues_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICryptAttribute.InitializeFromValues"
+f1_keywords:
+- certenroll/ICryptAttribute.InitializeFromValues
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICryptAttribute.InitializeFromValues
+- ICryptAttribute.InitializeFromValues
 targetos: Windows
 req.typenames: 
 req.redist: 

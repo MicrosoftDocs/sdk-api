@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.CreateTapePartition
 title: CreateTapePartition function (winbase.h)
-
 description: Reformats a tape.
 old-location: backup\createtapepartition.htm
 tech.root: Backup
 ms.assetid: 9add07a2-1f70-4c9a-b278-4bc8b6c9d043
-
 ms.date: 12/05/2018
 ms.keywords: CreateTapePartition, CreateTapePartition function [Backup], TAPE_FIXED_PARTITIONS, TAPE_INITIATOR_PARTITIONS, TAPE_SELECT_PARTITIONS, _win32_createtapepartition, backup.createtapepartition, base.createtapepartition, winbase/CreateTapePartition
 ms.topic: function
-f1_keywords: 
- - "winbase/CreateTapePartition"
+f1_keywords:
+- winbase/CreateTapePartition
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - CreateTapePartition
+- CreateTapePartition
 targetos: Windows
 req.typenames: 
 req.redist: 

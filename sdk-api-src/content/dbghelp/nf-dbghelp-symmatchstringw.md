@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymMatchStringW
 title: SymMatchStringW function (dbghelp.h)
-
 description: Compares the specified string to the specified wildcard expression.
 old-location: base\symmatchstring.htm
 tech.root: Debug
 ms.assetid: 8423d14c-4ad7-453d-82d2-72e41492ac15
-
 ms.date: 12/05/2018
 ms.keywords: SymMatchString, SymMatchString function, SymMatchStringW, base.symmatchstring, dbghelp/SymMatchString, dbghelp/SymMatchStringW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymMatchString"
+f1_keywords:
+- dbghelp/SymMatchString
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymMatchString
- - SymMatchString
- - SymMatchStringW
+- SymMatchString
+- SymMatchString
+- SymMatchStringW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

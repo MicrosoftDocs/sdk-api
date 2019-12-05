@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetRetrievalFilter
 title: IDXGIInfoQueue::GetRetrievalFilter (dxgidebug.h)
-
 description: Gets the retrieval filter at the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_getretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: 95907EF0-858B-4CDF-A112-6E59138769BD
-
 ms.date: 12/05/2018
 ms.keywords: GetRetrievalFilter, GetRetrievalFilter method [DXGI], GetRetrievalFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetRetrievalFilter method, IDXGIInfoQueue.GetRetrievalFilter, IDXGIInfoQueue::GetRetrievalFilter, direct3ddxgi.idxgiinfoqueue_getretrievalfilter, dxgidebug/IDXGIInfoQueue::GetRetrievalFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.GetRetrievalFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.GetRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.GetRetrievalFilter
+- IDXGIInfoQueue.GetRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

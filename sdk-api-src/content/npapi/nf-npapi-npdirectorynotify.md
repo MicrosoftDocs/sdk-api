@@ -1,19 +1,17 @@
 ---
 UID: NF:npapi.NPDirectoryNotify
 title: NPDirectoryNotify function (npapi.h)
-
 description: Notifies the network provider of certain directory operations.
 old-location: security\npdirectorynotify.htm
 tech.root: SecAuthN
 ms.assetid: e76642b1-4af1-46f4-92c0-f10ff57dd808
-
 ms.date: 12/05/2018
 ms.keywords: NPDirectoryNotify, NPDirectoryNotify function [Security], WNDN_MKDIR, WNDN_MVDIR, WNDN_RMDIR, _mnp_npdirectorynotify, npapi/NPDirectoryNotify, security.npdirectorynotify
 ms.topic: function
-f1_keywords: 
- - "npapi/NPDirectoryNotify"
+f1_keywords:
+- npapi/NPDirectoryNotify
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NPDirectoryNotify
+- NPDirectoryNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

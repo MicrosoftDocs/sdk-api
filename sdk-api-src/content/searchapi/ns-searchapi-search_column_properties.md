@@ -1,19 +1,17 @@
 ---
 UID: NS:searchapi._SEARCH_COLUMN_PROPERTIES
 title: SEARCH_COLUMN_PROPERTIES (searchapi.h)
-
 description: This structure is not implemented.
 old-location: search\_search_SEARCH_COLUMN_PROPERTIES.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_column_properties.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_COLUMN_PROPERTIES, SEARCH_COLUMN_PROPERTIES structure [search], _SEARCH_COLUMN_PROPERTIES, _search_SEARCH_COLUMN_PROPERTIES, search._search_SEARCH_COLUMN_PROPERTIES, searchapi/SEARCH_COLUMN_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "searchapi/SEARCH_COLUMN_PROPERTIES"
+f1_keywords:
+- searchapi/SEARCH_COLUMN_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - searchapi.h
+- searchapi.h
 api_name:
- - SEARCH_COLUMN_PROPERTIES
+- SEARCH_COLUMN_PROPERTIES
 targetos: Windows
 req.typenames: SEARCH_COLUMN_PROPERTIES
 req.redist: Windows Desktop Search (WDS) 3.0

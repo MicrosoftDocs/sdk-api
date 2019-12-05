@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_receptionQuality
 title: IWMPNetwork::get_receptionQuality (wmp.h)
-
 description: The get_receptionQuality method retrieves the percentage of packets received in the last 30 seconds.
 old-location: wmp\iwmpnetwork_get_receptionquality.htm
 tech.root: WMP
 ms.assetid: 835f56a4-26d3-480c-bf3e-49c269e9cc5a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_receptionQuality method, IWMPNetwork.get_receptionQuality, IWMPNetwork::get_receptionQuality, IWMPNetworkget_receptionQuality, get_receptionQuality, get_receptionQuality method [Windows Media Player], get_receptionQuality method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_receptionquality, wmp/IWMPNetwork::get_receptionQuality
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_receptionQuality"
+f1_keywords:
+- wmp/IWMPNetwork.get_receptionQuality
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_receptionQuality
+- IWMPNetwork.get_receptionQuality
 targetos: Windows
 req.typenames: 
 req.redist: 

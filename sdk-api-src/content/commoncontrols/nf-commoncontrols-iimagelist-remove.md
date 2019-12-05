@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.Remove
 title: IImageList::Remove (commoncontrols.h)
-
 description: Removes an image from an image list.
 old-location: controls\IImageList_Remove.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\remove.htm
-
 ms.date: 12/05/2018
 ms.keywords: IImageList interface [Windows Controls],Remove method, IImageList.Remove, IImageList::Remove, Remove, Remove method [Windows Controls], Remove method [Windows Controls],IImageList interface, comctl_IImageList_Remove, comctl_IImageList_Remove_cpp, commoncontrols/IImageList::Remove, controls.IImageList_Remove, controls.comctl_IImageList_Remove
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.Remove"
+f1_keywords:
+- commoncontrols/IImageList.Remove
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.Remove
+- IImageList.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

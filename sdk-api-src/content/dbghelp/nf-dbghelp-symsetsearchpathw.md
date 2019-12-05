@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSetSearchPathW
 title: SymSetSearchPathW function (dbghelp.h)
-
 description: Sets the search path for the specified process.
 old-location: base\symsetsearchpath.htm
 tech.root: Debug
 ms.assetid: 564ba1f6-65c6-4c45-bdbf-41ef0dd8a39d
-
 ms.date: 12/05/2018
 ms.keywords: SymSetSearchPath, SymSetSearchPath function, SymSetSearchPathW, _win32_symsetsearchpath, base.symsetsearchpath, dbghelp/SymSetSearchPath, dbghelp/SymSetSearchPathW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSetSearchPath"
+f1_keywords:
+- dbghelp/SymSetSearchPath
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSetSearchPath
- - SymSetSearchPath
- - SymSetSearchPathW
+- SymSetSearchPath
+- SymSetSearchPath
+- SymSetSearchPathW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

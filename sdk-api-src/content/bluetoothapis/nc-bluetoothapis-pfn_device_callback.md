@@ -1,19 +1,17 @@
 ---
 UID: NC:bluetoothapis.PFN_DEVICE_CALLBACK
 title: PFN_DEVICE_CALLBACK (bluetoothapis.h)
-
 description: A callback prototype used in association with selecting Bluetooth devices.
 old-location: bluetooth\pfn_device_callback.htm
 tech.root: bluetooth
 ms.assetid: 8a2bf4dc-43c3-49c0-8ce0-d14ab9f4ae97
-
 ms.date: 12/05/2018
 ms.keywords: PFN_DEVICE_CALLBACK, PFN_DEVICE_CALLBACK callback, PFN_DEVICE_CALLBACK callback function [Bluetooth], bluetooth.pfn_device_callback, bluetoothapis/PFN_DEVICE_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "bluetoothapis/PFN_DEVICE_CALLBACK"
+f1_keywords:
+- bluetoothapis/PFN_DEVICE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - PFN_DEVICE_CALLBACK
+- PFN_DEVICE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

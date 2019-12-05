@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFolderView2
 title: IFolderView2 (shobjidl_core.h)
-
 description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
 old-location: shell\IFolderView2.htm
 tech.root: shell
 ms.assetid: 52fcf0df-f532-4114-b1c9-96838f1a5e77
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2, IFolderView2 interface [Windows Shell], IFolderView2 interface [Windows Shell],described, _shell_IFolderView2, shell.IFolderView2, shobjidl_core/IFolderView2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFolderView2"
+f1_keywords:
+- shobjidl_core/IFolderView2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2
+- IFolderView2
 targetos: Windows
 req.typenames: 
 req.redist: 

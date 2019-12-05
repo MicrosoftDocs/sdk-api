@@ -1,19 +1,17 @@
 ---
 UID: NS:objidl.tagStorageLayout
 title: StorageLayout (objidl.h)
-
 description: Describes a single block of data, including its name, location, and length.
 old-location: stg\storagelayout.htm
 tech.root: Stg
 ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46
-
 ms.date: 12/05/2018
 ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_storagelayout, objidl/StorageLayout, stg.storagelayout
 ms.topic: struct
-f1_keywords: 
- - "objidl/StorageLayout"
+f1_keywords:
+- objidl/StorageLayout
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - StorageLayout
+- StorageLayout
 targetos: Windows
 req.typenames: StorageLayout
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.GetPathPoints(OUT Point,IN INT)
 title: GraphicsPath::GetPathPoints(OUT Point,IN INT) (gdipluspath.h)
-
 description: The GraphicsPath::GetPathPoints method gets this path's array of points. The array contains the endpoints and control points of the lines and B&#233;zier splines that are used to draw the path.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathgetpathpointsmethods\getpathpoints.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPathPoints, GetPathPoints method [GDI+], GetPathPoints method [GDI+],GraphicsPath class, GraphicsPath class [GDI+],GetPathPoints method, GraphicsPath.GetPathPoints, GraphicsPath.GetPathPoints(OUT Point,IN INT), GraphicsPath.GetPathPoints(Point*,INT), GraphicsPath::GetPathPoints, GraphicsPath::GetPathPoints(OUT Point,IN INT), _gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_, gdiplus._gdiplus_CLASS_GraphicsPath_GetPathPoints_Point_points_INT_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.GetPathPoints"
+f1_keywords:
+- gdipluspath/GraphicsPath.GetPathPoints
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.GetPathPoints
+- GraphicsPath.GetPathPoints
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.MFCreateASFMultiplexer
 title: MFCreateASFMultiplexer function (wmcontainer.h)
-
 description: Creates the ASF Multiplexer.
 old-location: mf\mfcreateasfmultiplexer.htm
 tech.root: medfound
 ms.assetid: 4c3ded7e-51ef-4141-98f2-48b318ba9453
-
 ms.date: 12/05/2018
 ms.keywords: 4c3ded7e-51ef-4141-98f2-48b318ba9453, MFCreateASFMultiplexer, MFCreateASFMultiplexer function [Media Foundation], mf.mfcreateasfmultiplexer, wmcontainer/MFCreateASFMultiplexer
 ms.topic: function
-f1_keywords: 
- - "wmcontainer/MFCreateASFMultiplexer"
+f1_keywords:
+- wmcontainer/MFCreateASFMultiplexer
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateASFMultiplexer
+- MFCreateASFMultiplexer
 targetos: Windows
 req.typenames: 
 req.redist: 

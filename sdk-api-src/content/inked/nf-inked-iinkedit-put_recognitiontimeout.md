@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_RecognitionTimeout
 title: IInkEdit::put_RecognitionTimeout (inked.h)
-
 description: Gets or sets the length of time, in milliseconds, between the last IInkStrokeDisp object collected and the beginning of text recognition.
 old-location: tablet\inkedit_recotimeout.htm
 tech.root: tablet
 ms.assetid: e1171aa3-841f-433e-88b8-e3fc63129aeb
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],RecognitionTimeout property, IInkEdit.RecognitionTimeout, IInkEdit.put_RecognitionTimeout, IInkEdit::RecognitionTimeout, IInkEdit::get_RecognitionTimeout, IInkEdit::put_RecognitionTimeout, InkEdit.get_RecognitionTimeout, InkEdit.put_RecognitionTimeout, RecognitionTimeout property [Tablet PC], RecognitionTimeout property [Tablet PC],IInkEdit interface, e1171aa3-841f-433e-88b8-e3fc63129aeb, get_RecognitionTimeout, inked/IInkEdit::RecognitionTimeout, inked/IInkEdit::get_RecognitionTimeout, inked/IInkEdit::put_RecognitionTimeout, put_RecognitionTimeout, tablet.inkedit_recotimeout
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.RecognitionTimeout"
+f1_keywords:
+- inked/IInkEdit.RecognitionTimeout
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.RecognitionTimeout
- - IInkEdit.get_RecognitionTimeout
- - IInkEdit.put_RecognitionTimeout
- - InkEdit.get_RecognitionTimeout
- - InkEdit.put_RecognitionTimeout
+- IInkEdit.RecognitionTimeout
+- IInkEdit.get_RecognitionTimeout
+- IInkEdit.put_RecognitionTimeout
+- InkEdit.get_RecognitionTimeout
+- InkEdit.put_RecognitionTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

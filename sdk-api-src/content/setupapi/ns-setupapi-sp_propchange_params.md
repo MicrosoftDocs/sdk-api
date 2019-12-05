@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SP_PROPCHANGE_PARAMS
 title: SP_PROPCHANGE_PARAMS (setupapi.h)
-
 description: An SP_PROPCHANGE_PARAMS structure corresponds to a DIF_PROPERTYCHANGE installation request.
 old-location: devinst\sp_propchange_params.htm
 tech.root: devinst
 ms.assetid: 7c64d352-3b9f-4c52-96d5-1a627f6b54a3
-
 ms.date: 12/05/2018
 ms.keywords: '*PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS, PSP_PROPCHANGE_PARAMS structure pointer [Device and Driver Installation], SP_PROPCHANGE_PARAMS, SP_PROPCHANGE_PARAMS structure [Device and Driver Installation], devinst.sp_propchange_params, di-struct_d3d2429f-412e-48bc-abcc-9dfbd01b346b.xml, setupapi/PSP_PROPCHANGE_PARAMS, setupapi/SP_PROPCHANGE_PARAMS'
 ms.topic: struct
 f1_keywords:
 - setupapi/SP_PROPCHANGE_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows

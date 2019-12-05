@@ -1,19 +1,17 @@
 ---
 UID: NF:opmapi.OPMGetVideoOutputsFromHMONITOR
 title: OPMGetVideoOutputsFromHMONITOR function (opmapi.h)
-
 description: Creates an Output Protection Manager (OPM) object for each physical monitor that is associated with a particular HMONITOR handle.
 old-location: mf\opmgetvideooutputsfromhmonitor.htm
 tech.root: medfound
 ms.assetid: c034ac81-43d4-482a-9dad-234d33a15046
-
 ms.date: 12/05/2018
 ms.keywords: OPMGetVideoOutputsFromHMONITOR, OPMGetVideoOutputsFromHMONITOR function [Media Foundation], OPM_VOS_COPP_SEMANTICS, OPM_VOS_OPM_SEMANTICS, mf.opmgetvideooutputsfromhmonitor, opmapi/OPMGetVideoOutputsFromHMONITOR
 ms.topic: function
 f1_keywords:
 - opmapi/OPMGetVideoOutputsFromHMONITOR
 dev_langs:
- - c++
+- c++
 req.header: opmapi.h
 req.include-header: 
 req.target-type: Windows

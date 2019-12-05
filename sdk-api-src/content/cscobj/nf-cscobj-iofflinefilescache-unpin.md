@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Unpin
 title: IOfflineFilesCache::Unpin (cscobj.h)
-
 description: Unpins files, directories, and network shared folders from the Offline Files cache.
 old-location: of\iofflinefilescache_unpin.htm
 tech.root: offlinefiles
 ms.assetid: 32d81a75-8845-4bd5-a0ff-e056a06ac11c
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesCache interface [Offline Files],Unpin method, IOfflineFilesCache.Unpin, IOfflineFilesCache::Unpin, OFFLINEFILES_PIN_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_PIN_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_PIN_CONTROL_FLAG_CONSOLE, OFFLINEFILES_PIN_CONTROL_FLAG_FILL, OFFLINEFILES_PIN_CONTROL_FLAG_FORALL, OFFLINEFILES_PIN_CONTROL_FLAG_FORREDIR, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER, OFFLINEFILES_PIN_CONTROL_FLAG_FORUSER_POLICY, OFFLINEFILES_PIN_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_PIN_CONTROL_FLAG_LOWPRIORITY, OFFLINEFILES_PIN_CONTROL_PINLINKTARGETS, Unpin, Unpin method [Offline Files], Unpin method [Offline Files],IOfflineFilesCache interface, cscobj/IOfflineFilesCache::Unpin, of.iofflinefilescache_unpin
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.Unpin"
+f1_keywords:
+- cscobj/IOfflineFilesCache.Unpin
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.Unpin
+- IOfflineFilesCache.Unpin
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADs.GetInfoEx
 title: IADs::GetInfoEx (iads.h)
-
 description: The IADs::GetInfoEx method loads the values of specified properties of the ADSI object from the underlying directory store into the property cache.
 old-location: adsi\iads_getinfoex.htm
 tech.root: adsi
 ms.assetid: 306ab953-890a-4ec9-8ec2-bea73888ea20
-
 ms.date: 12/05/2018
 ms.keywords: GetInfoEx, GetInfoEx method [ADSI], GetInfoEx method [ADSI],IADs interface, IADs interface [ADSI],GetInfoEx method, IADs.GetInfoEx, IADs::GetInfoEx, _ds_iads_getinfoex, adsi.iads__getinfoex, adsi.iads_getinfoex, iads/IADs::GetInfoEx
 ms.topic: method
-f1_keywords: 
- - "iads/IADs.GetInfoEx"
+f1_keywords:
+- iads/IADs.GetInfoEx
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADs.GetInfoEx
+- IADs.GetInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 

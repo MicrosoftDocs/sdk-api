@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterCloseEnum
 title: ClusterCloseEnum function (clusapi.h)
-
 description: Closes a cluster enumeration handle originally opened by ClusterOpenEnum.
 old-location: mscs\clustercloseenum.htm
 tech.root: MsCS
 ms.assetid: 3d7e45a0-d580-4d14-8795-2418bba40c73
-
 ms.date: 12/05/2018
 ms.keywords: ClusterCloseEnum, ClusterCloseEnum function [Failover Cluster], PCLUSAPI_CLUSTER_CLOSE_ENUM, PCLUSAPI_CLUSTER_CLOSE_ENUM function [Failover Cluster], _wolf_clustercloseenum, clusapi/ClusterCloseEnum, clusapi/PCLUSAPI_CLUSTER_CLOSE_ENUM, mscs.clustercloseenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterCloseEnum"
+f1_keywords:
+- clusapi/ClusterCloseEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterCloseEnum
+- ClusterCloseEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

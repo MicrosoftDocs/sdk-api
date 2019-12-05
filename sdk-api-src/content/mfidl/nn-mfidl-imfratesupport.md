@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFRateSupport
 title: IMFRateSupport (mfidl.h)
-
 description: Queries the range of playback rates that are supported, including reverse playback.
 old-location: mf\imfratesupport.htm
 tech.root: medfound
 ms.assetid: a6c495fa-0f6a-4e4c-8fba-996b22d55053
-
 ms.date: 12/05/2018
 ms.keywords: IMFRateSupport, IMFRateSupport interface [Media Foundation], IMFRateSupport interface [Media Foundation],described, a6c495fa-0f6a-4e4c-8fba-996b22d55053, mf.imfratesupport, mfidl/IMFRateSupport
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFRateSupport"
+f1_keywords:
+- mfidl/IMFRateSupport
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRateSupport
+- IMFRateSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

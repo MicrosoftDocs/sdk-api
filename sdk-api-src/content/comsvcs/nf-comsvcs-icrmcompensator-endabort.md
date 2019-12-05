@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.EndAbort
 title: ICrmCompensator::EndAbort (comsvcs.h)
-
 description: Notifies the CRM Compensator that it has received all the log records available during the abort phase.
 old-location: cos\icrmcompensator_endabort.htm
 tech.root: cossdk
 ms.assetid: 009209fe-0910-4db1-b5c2-accd7239c3e5
-
 ms.date: 12/05/2018
 ms.keywords: EndAbort, EndAbort method [COM+], EndAbort method [COM+],ICrmCompensator interface, ICrmCompensator interface [COM+],EndAbort method, ICrmCompensator.EndAbort, ICrmCompensator::EndAbort, _dtc_ICrmCompensator_EndAbort, comsvcs/ICrmCompensator::EndAbort, cos.icrmcompensator_endabort
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmCompensator.EndAbort"
+f1_keywords:
+- comsvcs/ICrmCompensator.EndAbort
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmCompensator.EndAbort
+- ICrmCompensator.EndAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

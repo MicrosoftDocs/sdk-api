@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult2.get_ModifiedBlocks
 title: IFileSystemImageResult2::get_ModifiedBlocks (imapi2fs.h)
-
 description: Retrieves the list of modified blocks in the result image.
 old-location: imapi\ifilesystemimageresult2_get_modifiedblocks.htm
 tech.root: imapi
 ms.assetid: 2148ba3f-f334-43cb-965a-37b078419e0c
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult2 interface [IMAPI],get_ModifiedBlocks method, IFileSystemImageResult2.get_ModifiedBlocks, IFileSystemImageResult2::get_ModifiedBlocks, get_ModifiedBlocks, get_ModifiedBlocks method [IMAPI], get_ModifiedBlocks method [IMAPI],IFileSystemImageResult2 interface, imapi.ifilesystemimageresult2_get_modifiedblocks, imapi2fs/IFileSystemImageResult2::get_ModifiedBlocks
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImageResult2.get_ModifiedBlocks"
+f1_keywords:
+- imapi2fs/IFileSystemImageResult2.get_ModifiedBlocks
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImageResult2.get_ModifiedBlocks
+- IFileSystemImageResult2.get_ModifiedBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

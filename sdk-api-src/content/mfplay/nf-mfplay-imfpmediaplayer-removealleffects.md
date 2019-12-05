@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.RemoveAllEffects
 title: IMFPMediaPlayer::RemoveAllEffects (mfplay.h)
-
 description: Removes all effects that were added with the IMFPMediaPlayer::InsertEffect method.
 old-location: mf\imfpmediaplayer_removealleffects.htm
 tech.root: medfound
 ms.assetid: 8745714c-315c-4183-86a2-7c189328dfe6
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],RemoveAllEffects method, IMFPMediaPlayer.RemoveAllEffects, IMFPMediaPlayer::RemoveAllEffects, RemoveAllEffects, RemoveAllEffects method [Media Foundation], RemoveAllEffects method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_removealleffects, mfplay/IMFPMediaPlayer::RemoveAllEffects
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.RemoveAllEffects"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.RemoveAllEffects
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.RemoveAllEffects
+- IMFPMediaPlayer.RemoveAllEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

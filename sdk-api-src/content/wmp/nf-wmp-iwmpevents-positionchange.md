@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.PositionChange
 title: IWMPEvents::PositionChange (wmp.h)
-
 description: The PositionChange event occurs when the current playback position within the media item has been changed.
 old-location: wmp\iwmpevents_iwmpevents__positionchange.htm
 tech.root: WMP
 ms.assetid: 644aaab0-8028-4dd2-9f56-f97db2b22d69
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],PositionChange method, IWMPEvents.PositionChange, IWMPEvents::PositionChange, IWMPEventsPositionChange, PositionChange, PositionChange method [Windows Media Player], PositionChange method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__positionchange, wmp/IWMPEvents::PositionChange
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.PositionChange"
+f1_keywords:
+- wmp/IWMPEvents.PositionChange
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.PositionChange
+- IWMPEvents.PositionChange
 targetos: Windows
 req.typenames: 
 req.redist: 

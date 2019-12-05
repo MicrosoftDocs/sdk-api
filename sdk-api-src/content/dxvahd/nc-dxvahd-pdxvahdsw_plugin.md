@@ -1,19 +1,17 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_Plugin
 title: PDXVAHDSW_Plugin (dxvahd.h)
-
 description: Pointer to a function that initializes a software plug-in device for Microsoft DirectX Video Acceleration High Definition (DXVA-HD).
 old-location: mf\pdxvahdsw_plugin.htm
 tech.root: medfound
 ms.assetid: 1290daa0-a2dd-4067-b74d-e1b3e3edb321
-
 ms.date: 12/05/2018
 ms.keywords: PDXVAHDSW_Plugin, PDXVAHDSW_Plugin callback, PDXVAHDSW_Plugin callback function [Media Foundation], dxvahd/PDXVAHDSW_Plugin, mf.pdxvahdsw_plugin
 ms.topic: callback
 f1_keywords:
 - dxvahd/PDXVAHDSW_Plugin
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

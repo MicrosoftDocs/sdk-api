@@ -1,19 +1,17 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0004
 title: OPC_CERTIFICATE_EMBEDDING_OPTION (msopc.h)
-
 description: Describes the storage location of a certificate that is used in signing.
 old-location: opc\opc_certificate_embedding_option.htm
 tech.root: OPC
 ms.assetid: 4292a53b-33a2-431c-806a-7e8c96ecce40
-
 ms.date: 12/05/2018
 ms.keywords: OPC_CERTIFICATE_EMBEDDING_OPTION, OPC_CERTIFICATE_EMBEDDING_OPTION enumeration [Open Packaging Conventions], OPC_CERTIFICATE_IN_CERTIFICATE_PART, OPC_CERTIFICATE_IN_SIGNATURE_PART, OPC_CERTIFICATE_NOT_EMBEDDED, msopc/OPC_CERTIFICATE_EMBEDDING_OPTION, msopc/OPC_CERTIFICATE_IN_CERTIFICATE_PART, msopc/OPC_CERTIFICATE_IN_SIGNATURE_PART, msopc/OPC_CERTIFICATE_NOT_EMBEDDED, opc.opc_certificate_embedding_option
 ms.topic: enum
-f1_keywords: 
- - "msopc/OPC_CERTIFICATE_EMBEDDING_OPTION"
+f1_keywords:
+- msopc/OPC_CERTIFICATE_EMBEDDING_OPTION
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - OPC_CERTIFICATE_EMBEDDING_OPTION
+- OPC_CERTIFICATE_EMBEDDING_OPTION
 targetos: Windows
 req.typenames: OPC_CERTIFICATE_EMBEDDING_OPTION
 req.redist: 

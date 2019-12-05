@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Unpark
 title: ITBasicCallControl::Unpark (tapi3if.h)
-
 description: The Unpark method gets the call from park.
 old-location: tapi3\itbasiccallcontrol_unpark.htm
 tech.root: Tapi
 ms.assetid: d4cea44e-0dac-4021-a42c-b136c2e686e0
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicCallControl interface [TAPI 2.2],Unpark method, ITBasicCallControl.Unpark, ITBasicCallControl::Unpark, Unpark, Unpark method [TAPI 2.2], Unpark method [TAPI 2.2],ITBasicCallControl interface, _tapi3_itbasiccallcontrol_unpark, tapi3.itbasiccallcontrol_unpark, tapi3if/ITBasicCallControl::Unpark
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Unpark"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Unpark
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Unpark
+- ITBasicCallControl.Unpark
 targetos: Windows
 req.typenames: 
 req.redist: 

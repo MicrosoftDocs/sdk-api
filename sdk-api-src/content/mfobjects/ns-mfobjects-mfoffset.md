@@ -1,19 +1,17 @@
 ---
 UID: NS:mfobjects._MFOffset
 title: MFOffset (mfobjects.h)
-
 description: Specifies an offset as a fixed-point real number.
 old-location: mf\mfoffset.htm
 tech.root: medfound
 ms.assetid: e93539fe-3e4a-4b34-8d6a-b3f300a70ffc
-
 ms.date: 12/05/2018
 ms.keywords: MFOffset, MFOffset structure [Media Foundation], e93539fe-3e4a-4b34-8d6a-b3f300a70ffc, mf.mfoffset, mfobjects/MFOffset
 ms.topic: struct
-f1_keywords: 
- - "mfobjects/MFOffset"
+f1_keywords:
+- mfobjects/MFOffset
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFOffset
+- MFOffset
 targetos: Windows
 req.typenames: MFOffset
 req.redist: 

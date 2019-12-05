@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetUri
 title: IOpcSignatureReference::GetUri (msopc.h)
-
 description: Gets the URI of the referenced XML element.
 old-location: opc\iopcsignaturereference_geturi.htm
 tech.root: OPC
 ms.assetid: 4dd02f48-9b49-4e74-b0cf-c51c0a594437
-
 ms.date: 12/05/2018
 ms.keywords: GetUri, GetUri method [Open Packaging Conventions], GetUri method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetUri method, IOpcSignatureReference.GetUri, IOpcSignatureReference::GetUri, msopc/IOpcSignatureReference::GetUri, opc.iopcsignaturereference_geturi
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReference.GetUri"
+f1_keywords:
+- msopc/IOpcSignatureReference.GetUri
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReference.GetUri
+- IOpcSignatureReference.GetUri
 targetos: Windows
 req.typenames: 
 req.redist: 

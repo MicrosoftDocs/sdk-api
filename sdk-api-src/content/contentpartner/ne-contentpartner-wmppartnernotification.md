@@ -1,19 +1,17 @@
 ---
 UID: NE:contentpartner.WMPPartnerNotification
 title: WMPPartnerNotification (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPPartnerNotification enumeration defines operational states of an online store.
 old-location: wmp\wmppartnernotification.htm
 tech.root: WMP
 ms.assetid: a9292277-5283-41b8-86a6-f7059aa38a69
-
 ms.date: 12/05/2018
 ms.keywords: WMPPartnerNotification, WMPPartnerNotification enumeration [Windows Media Player], contentpartner/WMPPartnerNotification, contentpartner/wmpsnBackgroundProcessingBegin, contentpartner/wmpsnBackgroundProcessingEnd, contentpartner/wmpsnCatalogDownloadComplete, contentpartner/wmpsnCatalogDownloadFailure, enumeration [Windows Media Player], wmp.wmppartnernotification, wmpsnBackgroundProcessingBegin, wmpsnBackgroundProcessingEnd, wmpsnCatalogDownloadComplete, wmpsnCatalogDownloadFailure
 ms.topic: enum
-f1_keywords: 
- - "contentpartner/WMPPartnerNotification"
+f1_keywords:
+- contentpartner/WMPPartnerNotification
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - WMPPartnerNotification
+- WMPPartnerNotification
 targetos: Windows
 req.typenames: WMPPartnerNotification
 req.redist: 

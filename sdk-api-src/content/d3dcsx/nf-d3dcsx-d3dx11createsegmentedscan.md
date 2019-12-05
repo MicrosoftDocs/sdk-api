@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateSegmentedScan
 title: D3DX11CreateSegmentedScan function (d3dcsx.h)
-
 description: Creates a segmented scan context.
 old-location: direct3d11\d3dx11createsegmentedscan.htm
 tech.root: direct3d11
 ms.assetid: f8906357-57d8-4e57-a120-2ac28fad2288
-
 ms.date: 12/05/2018
 ms.keywords: 6b834305-1925-9f3d-ee71-8dc858a331c0, D3DX11CreateSegmentedScan, D3DX11CreateSegmentedScan function [Direct3D 11], d3dcsx/D3DX11CreateSegmentedScan, direct3d11.d3dx11createsegmentedscan
 ms.topic: function
-f1_keywords: 
- - "d3dcsx/D3DX11CreateSegmentedScan"
+f1_keywords:
+- d3dcsx/D3DX11CreateSegmentedScan
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3dcsx.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - d3dcsx.lib
- - d3dcsx.dll
+- d3dcsx.lib
+- d3dcsx.dll
 api_name:
- - D3DX11CreateSegmentedScan
+- D3DX11CreateSegmentedScan
 targetos: Windows
 req.typenames: 
 req.redist: 

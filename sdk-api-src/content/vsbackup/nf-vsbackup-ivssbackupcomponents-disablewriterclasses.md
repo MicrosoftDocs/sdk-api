@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DisableWriterClasses
 title: IVssBackupComponents::DisableWriterClasses (vsbackup.h)
-
 description: The DisableWriterClasses method prevents a specific class of writers from receiving any events.
 old-location: base\ivssbackupcomponents_disablewriterclasses.htm
 tech.root: VSS
 ms.assetid: 7567bf23-4f4c-4210-87f7-4f90262fda7a
-
 ms.date: 12/05/2018
 ms.keywords: DisableWriterClasses, DisableWriterClasses method [VSS], DisableWriterClasses method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DisableWriterClasses method, IVssBackupComponents.DisableWriterClasses, IVssBackupComponents::DisableWriterClasses, _win32_ivssbackupcomponents_disablewriterclasses, base.ivssbackupcomponents_disablewriterclasses, vsbackup/IVssBackupComponents::DisableWriterClasses
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.DisableWriterClasses"
+f1_keywords:
+- vsbackup/IVssBackupComponents.DisableWriterClasses
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.DisableWriterClasses
+- IVssBackupComponents.DisableWriterClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

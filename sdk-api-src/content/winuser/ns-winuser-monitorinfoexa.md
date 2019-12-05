@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagMONITORINFOEXA
 title: MONITORINFOEXA (winuser.h)
-
 description: The MONITORINFOEX structure contains information about a display monitor.The GetMonitorInfo function stores information into a MONITORINFOEX structure or a MONITORINFO structure.The MONITORINFOEX structure is a superset of the MONITORINFO structure.
 old-location: gdi\monitorinfoex.htm
 tech.root: gdi
 ms.assetid: f296ce29-3fc8-41c9-a201-56e222aa2219
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMONITORINFOEXA, LPMONITORINFOEX, LPMONITORINFOEX structure pointer [Windows GDI], MONITORINFOEX, MONITORINFOEX structure [Windows GDI], MONITORINFOEXA, _win32_MONITORINFOEX_str, gdi.monitorinfoex, tagMONITORINFOEXA, tagMONITORINFOEXW, winuser/LPMONITORINFOEX, winuser/MONITORINFOEX"
+ms.keywords: '*LPMONITORINFOEXA, LPMONITORINFOEX, LPMONITORINFOEX structure pointer [Windows GDI], MONITORINFOEX, MONITORINFOEX structure [Windows GDI], MONITORINFOEXA, _win32_MONITORINFOEX_str, gdi.monitorinfoex, tagMONITORINFOEXA, tagMONITORINFOEXW, winuser/LPMONITORINFOEX, winuser/MONITORINFOEX'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MONITORINFOEX"
+f1_keywords:
+- winuser/MONITORINFOEX
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MONITORINFOEX
+- MONITORINFOEX
 targetos: Windows
 req.typenames: MONITORINFOEXA, *LPMONITORINFOEXA
 req.redist: 

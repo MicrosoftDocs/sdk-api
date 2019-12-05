@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.FOLDERSETTINGS
 title: FOLDERSETTINGS (shobjidl_core.h)
-
 description: Contains folder view information.
 old-location: shell\FOLDERSETTINGS.htm
 tech.root: shell
 ms.assetid: be00fe39-1add-412e-b88b-4b0b1404b19d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFOLDERSETTINGS, *PFOLDERSETTINGS, FOLDERSETTINGS, FOLDERSETTINGS structure [Windows Shell], _win32_FOLDERSETTINGS, shell.FOLDERSETTINGS, shobjidl_core/FOLDERSETTINGS"
+ms.keywords: '*LPFOLDERSETTINGS, *PFOLDERSETTINGS, FOLDERSETTINGS, FOLDERSETTINGS structure [Windows Shell], _win32_FOLDERSETTINGS, shell.FOLDERSETTINGS, shobjidl_core/FOLDERSETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/FOLDERSETTINGS"
+f1_keywords:
+- shobjidl_core/FOLDERSETTINGS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - FOLDERSETTINGS
+- FOLDERSETTINGS
 targetos: Windows
 req.typenames: FOLDERSETTINGS
 req.redist: 

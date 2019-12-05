@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._TTGETTITLE
 title: TTGETTITLE (commctrl.h)
-
 description: Provides information about the title of a tooltip control.
 old-location: controls\TTGETTITLE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\ttgettitle.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows Controls], TTGETTITLE, TTGETTITLE structure [Windows Controls], commctrl/PTTGETTITLE, commctrl/TTGETTITLE, controls.TTGETTITLE, controls.inet_TTGETTITLE, inet_TTGETTITLE, inet_TTGETTITLE_cpp"
+ms.keywords: '*PTTGETTITLE, PTTGETTITLE, PTTGETTITLE structure pointer [Windows Controls], TTGETTITLE, TTGETTITLE structure [Windows Controls], commctrl/PTTGETTITLE, commctrl/TTGETTITLE, controls.TTGETTITLE, controls.inet_TTGETTITLE, inet_TTGETTITLE, inet_TTGETTITLE_cpp'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TTGETTITLE"
+f1_keywords:
+- commctrl/TTGETTITLE
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TTGETTITLE
+- TTGETTITLE
 targetos: Windows
 req.typenames: TTGETTITLE, *PTTGETTITLE
 req.redist: 

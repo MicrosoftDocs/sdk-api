@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2IsNaN
 title: XMVector2IsNaN function (directxmath.h)
-
 description: Tests whether any component of a 2D vector is a NaN.
 old-location: dxmath\xmvector2isnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2IsNaN(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2IsNaN, XMVector2IsNaN, XMVector2IsNaN method [DirectX Math Support APIs], dxmath.xmvector2isnan
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2IsNaN"
+f1_keywords:
+- directxmath/XMVector2IsNaN
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2IsNaN
+- XMVector2IsNaN
 targetos: Windows
 req.typenames: 
 req.redist: 

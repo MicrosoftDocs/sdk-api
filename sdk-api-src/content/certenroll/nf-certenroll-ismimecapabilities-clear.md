@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISmimeCapabilities.Clear
 title: ISmimeCapabilities::Clear (certenroll.h)
-
 description: Removes all objects from the collection.
 old-location: security\ismimecapabilities_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 8df8eecd-c20f-40f0-a647-23d25ca76ae4
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ISmimeCapabilities interface, ISmimeCapabilities interface [Security],Clear method, ISmimeCapabilities.Clear, ISmimeCapabilities::Clear, certenroll/ISmimeCapabilities::Clear, security.ismimecapabilities_clear_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISmimeCapabilities.Clear"
+f1_keywords:
+- certenroll/ISmimeCapabilities.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISmimeCapabilities.Clear
+- ISmimeCapabilities.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

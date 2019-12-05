@@ -1,19 +1,17 @@
 ---
 UID: NF:mgm.MgmTakeInterfaceOwnership
 title: MgmTakeInterfaceOwnership function (mgm.h)
-
 description: The MgmTakeInterfaceOwnership function is called by a client (such as a routing protocol) when it is enabled on an interface.
 old-location: rras\mgmtakeinterfaceownership.htm
 tech.root: RRAS
 ms.assetid: b072c884-0b84-4dd9-a14c-185f5d327017
-
 ms.date: 12/05/2018
 ms.keywords: MgmTakeInterfaceOwnership, MgmTakeInterfaceOwnership function [RAS], _mpr_mgmtakeinterfaceownership, mgm/MgmTakeInterfaceOwnership, rras.mgmtakeinterfaceownership
 ms.topic: function
-f1_keywords: 
- - "mgm/MgmTakeInterfaceOwnership"
+f1_keywords:
+- mgm/MgmTakeInterfaceOwnership
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - MgmTakeInterfaceOwnership
+- MgmTakeInterfaceOwnership
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,17 +1,15 @@
 ---
 UID: NF:d3d12.ID3D12Device6.SetBackgroundProcessingMode
 title: ID3D12Device6::SetBackgroundProcessingMode
-
 description: Sets the mode for driver background processing optimizations.
 tech.root: direct3d12
-
 ms.date: 10/14/2019
 ms.keywords: ID3D12Device6 interface,SetBackgroundProcessingMode method, ID3D12Device6.SetBackgroundProcessingMode, ID3D12Device6::SetBackgroundProcessingMode, SetBackgroundProcessingMode, SetBackgroundProcessingMode method, SetBackgroundProcessingMode method,ID3D12Device6 interface, direct3d12.id3d12device6_setbackgroundprocessingmode, d3d12/ID3D12Device6::SetBackgroundProcessingMode
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device6.SetBackgroundProcessingMode"
+f1_keywords:
+- d3d12/ID3D12Device6.SetBackgroundProcessingMode
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: d3d12.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: d3d12.lib
 req.dll: d3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.lib
- - d3d12.dll
+- d3d12.lib
+- d3d12.dll
 api_name:
- - ID3D12Device6::SetBackgroundProcessingMode
+- ID3D12Device6::SetBackgroundProcessingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

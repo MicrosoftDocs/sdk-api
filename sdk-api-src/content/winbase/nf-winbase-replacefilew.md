@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.ReplaceFileW
 title: ReplaceFileW function (winbase.h)
-
 description: Replaces one file with another file, with the option of creating a backup copy of the original file.
 old-location: fs\replacefile.htm
 tech.root: FileIO
 ms.assetid: 23402a71-e945-4891-9815-c75e57051501
-
 ms.date: 12/05/2018
 ms.keywords: REPLACEFILE_IGNORE_ACL_ERRORS, REPLACEFILE_IGNORE_MERGE_ERRORS, REPLACEFILE_WRITE_THROUGH, ReplaceFile, ReplaceFile function [Files], ReplaceFileA, ReplaceFileW, _win32_replacefile, base.replacefile, fs.replacefile, winbase/ReplaceFile, winbase/ReplaceFileA, winbase/ReplaceFileW
 ms.topic: function
-f1_keywords: 
- - "winbase/ReplaceFile"
+f1_keywords:
+- winbase/ReplaceFile
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l2-1-1.dll
- - API-MS-Win-Core-File-l2-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l2-1-1.dll
+- API-MS-Win-Core-File-l2-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- API-Ms-Win-Core-File-Ansi-L2-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - ReplaceFile
- - ReplaceFileA
- - ReplaceFileW
+- ReplaceFile
+- ReplaceFileA
+- ReplaceFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

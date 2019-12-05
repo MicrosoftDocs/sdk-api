@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Close
 title: IMFByteStream::Close (mfobjects.h)
-
 description: Closes the stream and releases any resources associated with the stream, such as sockets or file handles. This method also cancels any pending asynchronous I/O requests.
 old-location: mf\imfbytestream_close.htm
 tech.root: medfound
 ms.assetid: d5f704ab-fa3f-4a53-9b97-eb48a75e481b
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Media Foundation], Close method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],Close method, IMFByteStream.Close, IMFByteStream::Close, d5f704ab-fa3f-4a53-9b97-eb48a75e481b, mf.imfbytestream_close, mfobjects/IMFByteStream::Close
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.Close"
+f1_keywords:
+- mfobjects/IMFByteStream.Close
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.Close
+- IMFByteStream.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

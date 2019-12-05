@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation.put_NumRingsNoAnswer
 title: ITForwardInformation::put_NumRingsNoAnswer (tapi3if.h)
-
 description: The put_NumRingsNoAnswer method sets the number of rings after which a no answer condition is assumed.
 old-location: tapi3\itforwardinformation_put_numringsnoanswer.htm
 tech.root: Tapi
 ms.assetid: ad7b2746-cb97-406e-a328-efc051681aa6
-
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation interface [TAPI 2.2],put_NumRingsNoAnswer method, ITForwardInformation.put_NumRingsNoAnswer, ITForwardInformation::put_NumRingsNoAnswer, _tapi3_itforwardinformation_put_numringsnoanswer, put_NumRingsNoAnswer, put_NumRingsNoAnswer method [TAPI 2.2], put_NumRingsNoAnswer method [TAPI 2.2],ITForwardInformation interface, tapi3.itforwardinformation_put_numringsnoanswer, tapi3if/ITForwardInformation::put_NumRingsNoAnswer
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation.put_NumRingsNoAnswer"
+f1_keywords:
+- tapi3if/ITForwardInformation.put_NumRingsNoAnswer
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation.put_NumRingsNoAnswer
+- ITForwardInformation.put_NumRingsNoAnswer
 targetos: Windows
 req.typenames: 
 req.redist: 

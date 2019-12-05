@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFFrameRateToAverageTimePerFrame
 title: MFFrameRateToAverageTimePerFrame function (mfapi.h)
-
 description: Converts a video frame rate into a frame duration.
 old-location: mf\mfframeratetoaveragetimeperframe.htm
 tech.root: medfound
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da
-
 ms.date: 12/05/2018
 ms.keywords: 750f6920-3386-4d50-9d59-73e876b406da, MFFrameRateToAverageTimePerFrame, MFFrameRateToAverageTimePerFrame function [Media Foundation], mf.mfframeratetoaveragetimeperframe, mfapi/MFFrameRateToAverageTimePerFrame
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFFrameRateToAverageTimePerFrame"
+f1_keywords:
+- mfapi/MFFrameRateToAverageTimePerFrame
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFFrameRateToAverageTimePerFrame
+- MFFrameRateToAverageTimePerFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

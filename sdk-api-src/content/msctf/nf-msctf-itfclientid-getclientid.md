@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfClientId.GetClientId
 title: ITfClientId::GetClientId (msctf.h)
-
 description: ITfClientId::GetClientId method
 old-location: tsf\itfclientid_getclientid.htm
 tech.root: TSF
 ms.assetid: 422cff3c-1be5-4b86-bc64-cded6ab64da4
-
 ms.date: 12/05/2018
 ms.keywords: GetClientId, GetClientId method [Text Services Framework], GetClientId method [Text Services Framework],ITfClientId interface, ITfClientId interface [Text Services Framework],GetClientId method, ITfClientId.GetClientId, ITfClientId::GetClientId, _tsf_itfclientid_getclientid_ref, msctf/ITfClientId::GetClientId, tsf.itfclientid_getclientid
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfClientId.GetClientId"
+f1_keywords:
+- msctf/ITfClientId.GetClientId
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfClientId.GetClientId
+- ITfClientId.GetClientId
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

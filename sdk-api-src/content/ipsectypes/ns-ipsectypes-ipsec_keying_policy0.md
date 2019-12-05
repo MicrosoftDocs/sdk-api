@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_KEYING_POLICY0_
 title: IPSEC_KEYING_POLICY0 (ipsectypes.h)
-
 description: Defines an unordered set of keying modules that will be tried for IPsec.
 old-location: fwp\ipsec_keying_policy0_struct.htm
 tech.root: fwp
 ms.assetid: 6eddafbf-ac57-419f-b2a0-f50a4ab31baf
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEYING_POLICY0, IPSEC_KEYING_POLICY0 structure [Filtering], fwp.ipsec_keying_policy0_struct, ipsectypes/IPSEC_KEYING_POLICY0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_KEYING_POLICY0"
+f1_keywords:
+- ipsectypes/IPSEC_KEYING_POLICY0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_KEYING_POLICY0
+- IPSEC_KEYING_POLICY0
 targetos: Windows
 req.typenames: IPSEC_KEYING_POLICY0
 req.redist: 

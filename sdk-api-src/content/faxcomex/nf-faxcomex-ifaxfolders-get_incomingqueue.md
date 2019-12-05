@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxFolders.get_IncomingQueue
 title: IFaxFolders::get_IncomingQueue (faxcomex.h)
-
 description: The IFaxFolders::get_IncomingQueue property represents the queue of incoming faxes.
 old-location: fax\_mfax_faxfolders_cpp_mfax_faxfolders_incomingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3vol.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxFolders interface [Fax Service],IncomingQueue property, IFaxFolders.IncomingQueue, IFaxFolders.get_IncomingQueue, IFaxFolders::IncomingQueue, IFaxFolders::get_IncomingQueue, IncomingQueue property [Fax Service], IncomingQueue property [Fax Service],IFaxFolders interface, _mfax_faxfolders.incomingqueue, fax._mfax_faxfolders_cpp_mfax_faxfolders_incomingqueue_cpp, fax._mfax_faxfolders_incomingqueue, faxcomex/IFaxFolders::IncomingQueue, faxcomex/IFaxFolders::get_IncomingQueue, get_IncomingQueue
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxFolders.IncomingQueue"
+f1_keywords:
+- faxcomex/IFaxFolders.IncomingQueue
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxFolders.IncomingQueue
- - IFaxFolders.get_IncomingQueue
- - IFaxFolders.get_IncomingQueue
+- IFaxFolders.IncomingQueue
+- IFaxFolders.get_IncomingQueue
+- IFaxFolders.get_IncomingQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

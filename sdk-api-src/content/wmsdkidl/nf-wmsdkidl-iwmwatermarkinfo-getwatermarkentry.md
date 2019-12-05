@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWatermarkInfo.GetWatermarkEntry
 title: IWMWatermarkInfo::GetWatermarkEntry (wmsdkidl.h)
-
 description: The GetWatermarkEntry method retrieves information about one available watermarking system.
 old-location: wmformat\iwmwatermarkinfo_getwatermarkentry.htm
 tech.root: wmformat
 ms.assetid: 7f303233-cd20-40ff-b564-4c44bf17a5f4
-
 ms.date: 12/05/2018
 ms.keywords: GetWatermarkEntry, GetWatermarkEntry method [windows Media Format], GetWatermarkEntry method [windows Media Format],IWMWatermarkInfo interface, IWMWatermarkInfo interface [windows Media Format],GetWatermarkEntry method, IWMWatermarkInfo.GetWatermarkEntry, IWMWatermarkInfo::GetWatermarkEntry, IWMWatermarkInfoGetWatermarkEntry, wmformat.iwmwatermarkinfo_getwatermarkentry, wmsdkidl/IWMWatermarkInfo::GetWatermarkEntry
 ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMWatermarkInfo.GetWatermarkEntry
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows

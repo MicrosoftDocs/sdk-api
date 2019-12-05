@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetImageResources
 title: IXpsOMPartResources::GetImageResources (xpsobjectmodel.h)
-
 description: Gets the IXpsOMImageResourceCollection interface that contains the images that are used in the XPS document.
 old-location: xps\ixpsompartresources_getimageresources.htm
 tech.root: printdocs
 ms.assetid: d30281b7-0b2c-4240-813b-a53c8acb819c
-
 ms.date: 12/05/2018
 ms.keywords: GetImageResources, GetImageResources method [XPS Documents and Packaging], GetImageResources method [XPS Documents and Packaging],IXpsOMPartResources interface, IXpsOMPartResources interface [XPS Documents and Packaging],GetImageResources method, IXpsOMPartResources.GetImageResources, IXpsOMPartResources::GetImageResources, xps.ixpsompartresources_getimageresources, xpsobjectmodel/IXpsOMPartResources::GetImageResources
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartResources.GetImageResources"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartResources.GetImageResources
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartResources.GetImageResources
+- IXpsOMPartResources.GetImageResources
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_STORAGE_INFO
 title: FILE_STORAGE_INFO (winbase.h)
-
 description: Contains directory information for a file.
 old-location: fs\file_storage_info.htm
 tech.root: FileIO
 ms.assetid: 1aa9585d-9001-4d94-babe-a39c8dde2332
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_STORAGE_INFO, FILE_STORAGE_INFO, FILE_STORAGE_INFO structure [Files], PFILE_STORAGE_INFO, PFILE_STORAGE_INFO structure pointer [Files], STORAGE_INFO_FLAGS_ALIGNED_DEVICE, STORAGE_INFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, _FILE_STORAGE_INFO, fs.file_storage_info, winbase/FILE_STORAGE_INFO, winbase/PFILE_STORAGE_INFO"
+ms.keywords: '*PFILE_STORAGE_INFO, FILE_STORAGE_INFO, FILE_STORAGE_INFO structure [Files], PFILE_STORAGE_INFO, PFILE_STORAGE_INFO structure pointer [Files], STORAGE_INFO_FLAGS_ALIGNED_DEVICE, STORAGE_INFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, _FILE_STORAGE_INFO, fs.file_storage_info, winbase/FILE_STORAGE_INFO, winbase/PFILE_STORAGE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_STORAGE_INFO"
+f1_keywords:
+- winbase/FILE_STORAGE_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - FILE_STORAGE_INFO
+- FILE_STORAGE_INFO
 targetos: Windows
 req.typenames: FILE_STORAGE_INFO, *PFILE_STORAGE_INFO
 req.redist: 

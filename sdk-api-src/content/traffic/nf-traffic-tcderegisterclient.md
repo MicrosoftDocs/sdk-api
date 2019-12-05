@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcDeregisterClient
 title: TcDeregisterClient function (traffic.h)
-
 description: The TcDeregisterClient function deregisters a client with the Traffic Control Interface (TCI).
 old-location: qos\tcderegisterclient.htm
 tech.root: QOS
 ms.assetid: ea52b8a6-a54e-46ee-9275-734f328759ba
-
 ms.date: 12/05/2018
 ms.keywords: TcDeregisterClient, TcDeregisterClient function [QOS], _gqos_tcderegisterclient, qos.tcderegisterclient, traffic/TcDeregisterClient
 ms.topic: function
-f1_keywords: 
- - "traffic/TcDeregisterClient"
+f1_keywords:
+- traffic/TcDeregisterClient
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcDeregisterClient
+- TcDeregisterClient
 targetos: Windows
 req.typenames: 
 req.redist: 

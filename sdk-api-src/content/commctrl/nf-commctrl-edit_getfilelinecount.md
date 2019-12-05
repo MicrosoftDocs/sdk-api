@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Edit_GetFileLineCount
 title: Edit_GetFileLineCount macro (commctrl.h)
-
 description: Gets the number of file (or logical) lines (text wrap delimiters are ignored). You can use this macro or send the EM_GETFILELINECOUNT message explicitly.
 old-location: controls\edit_getfilelinecount.htm
 tech.root: Controls
 ms.assetid: FEE1018B-AE00-4934-9C64-AB7A679E6A8C
-
 ms.date: 12/05/2018
 ms.keywords: Edit_GetFileLineCount, Edit_GetFileLineCount macro [Windows Controls], commctrl/Edit_GetFileLineCount, controls.edit_getfilelinecount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Edit_GetFileLineCount"
+f1_keywords:
+- commctrl/Edit_GetFileLineCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Edit_GetFileLineCount
+- Edit_GetFileLineCount
 targetos: Windows
 req.typenames: 
 req.redist: 

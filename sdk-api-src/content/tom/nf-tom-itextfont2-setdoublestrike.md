@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.SetDoubleStrike
 title: ITextFont2::SetDoubleStrike (tom.h)
-
 description: Sets whether characters are displayed with double horizontal lines through the center.
 old-location: controls\itextfont2_setdoublestrike.htm
 tech.root: Controls
 ms.assetid: bed8ce93-5c3a-43ee-b9c7-c1fd42481bbd
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont2 interface [Windows Controls],SetDoubleStrike method, ITextFont2.SetDoubleStrike, ITextFont2::SetDoubleStrike, SetDoubleStrike, SetDoubleStrike method [Windows Controls], SetDoubleStrike method [Windows Controls],ITextFont2 interface, controls.itextfont2_setdoublestrike, tom/ITextFont2::SetDoubleStrike
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.SetDoubleStrike"
+f1_keywords:
+- tom/ITextFont2.SetDoubleStrike
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.SetDoubleStrike
+- ITextFont2.SetDoubleStrike
 targetos: Windows
 req.typenames: 
 req.redist: 

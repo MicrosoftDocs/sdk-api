@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core._EXPCMDSTATE
 title: _EXPCMDSTATE (shobjidl_core.h)
-
 description: EXPCMDSTATE values represent the command state of a Shell item.
 old-location: shell\EXPCMDSTATE.htm
 tech.root: shell
 ms.assetid: 41e76b6e-9294-40b3-bb8b-bbfe487fd023
-
 ms.date: 12/05/2018
 ms.keywords: ECS_CHECKBOX, ECS_CHECKED, ECS_DISABLED, ECS_ENABLED, ECS_HIDDEN, ECS_RADIOCHECK, EXPCMDSTATE, EXPCMDSTATE enumeration [Windows Shell], _EXPCMDSTATE, _shell_EXPCMDSTATE, shell.EXPCMDSTATE, shobjidl_core/ECS_CHECKBOX, shobjidl_core/ECS_CHECKED, shobjidl_core/ECS_DISABLED, shobjidl_core/ECS_ENABLED, shobjidl_core/ECS_HIDDEN, shobjidl_core/ECS_RADIOCHECK, shobjidl_core/EXPCMDSTATE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/EXPCMDSTATE"
+f1_keywords:
+- shobjidl_core/EXPCMDSTATE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - EXPCMDSTATE
+- EXPCMDSTATE
 targetos: Windows
 req.typenames: 
 req.redist: 

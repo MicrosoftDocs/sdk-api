@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.TpSetCallbackActivationContext
 title: TpSetCallbackActivationContext function (winnt.h)
-
 description: Assigns an activation context to the callback environment.
 old-location: base\tpsetcallbackactivationcontext.htm
 tech.root: ProcThread
 ms.assetid: C4715789-0DF7-436B-881F-4360A7528246
-
 ms.date: 12/05/2018
 ms.keywords: TpSetCallbackActivationContext, TpSetCallbackActivationContext function, base.tpsetcallbackactivationcontext, winnt/TpSetCallbackActivationContext
 ms.topic: function
-f1_keywords: 
- - "winnt/TpSetCallbackActivationContext"
+f1_keywords:
+- winnt/TpSetCallbackActivationContext
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - TpSetCallbackActivationContext
+- TpSetCallbackActivationContext
 targetos: Windows
 req.typenames: 
 req.redist: 

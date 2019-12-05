@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._SCHANNEL_ALG
 title: SCHANNEL_ALG (wincrypt.h)
-
 description: The SCHANNEL_ALG structure contains algorithm and key size information. It is used as the structure passed as pbData in CryptSetKeyParam when dwParam is set to KP_SCHANNEL_ALG.
 old-location: security\schannel_alg.htm
 tech.root: SecCrypto
 ms.assetid: 55afebf4-8872-42a1-847f-ff0240c2be20
-
 ms.date: 12/05/2018
-ms.keywords: "*PSCHANNEL_ALG, PSCHANNEL_ALG, PSCHANNEL_ALG structure pointer [Security], SCHANNEL_ALG, SCHANNEL_ALG structure [Security], SCHANNEL_ENC_KEY, SCHANNEL_MAC_KEY, _crypto2_schannel_alg, security.schannel_alg, wincrypt/PSCHANNEL_ALG, wincrypt/SCHANNEL_ALG"
+ms.keywords: '*PSCHANNEL_ALG, PSCHANNEL_ALG, PSCHANNEL_ALG structure pointer [Security], SCHANNEL_ALG, SCHANNEL_ALG structure [Security], SCHANNEL_ENC_KEY, SCHANNEL_MAC_KEY, _crypto2_schannel_alg, security.schannel_alg, wincrypt/PSCHANNEL_ALG, wincrypt/SCHANNEL_ALG'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/SCHANNEL_ALG"
+f1_keywords:
+- wincrypt/SCHANNEL_ALG
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - SCHANNEL_ALG
+- SCHANNEL_ALG
 targetos: Windows
 req.typenames: SCHANNEL_ALG, *PSCHANNEL_ALG
 req.redist: 

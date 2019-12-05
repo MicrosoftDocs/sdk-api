@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioWrite
 title: mmioWrite function (mmiscapi.h)
-
 description: The mmioWrite function writes a specified number of bytes to a file opened by using the mmioOpen function.
 old-location: multimedia\mmiowrite.htm
 tech.root: Multimedia
 ms.assetid: e47d00ba-ad29-4a23-8a7c-604bedac10e7
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioWrite, mmioWrite, mmioWrite function [Windows Multimedia], mmsystem/mmioWrite, multimedia.mmiowrite"
+ms.keywords: _win32_mmioWrite, mmioWrite, mmioWrite function [Windows Multimedia], mmsystem/mmioWrite, multimedia.mmiowrite
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioWrite"
+f1_keywords:
+- mmiscapi/mmioWrite
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioWrite
+- mmioWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.Notify
 title: IWMPContentPartner::Notify (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartner_notify.htm
 tech.root: WMP
 ms.assetid: 9464ce82-cd84-4a35-83d2-e46198c0c1e7
-
 ms.date: 12/05/2018
 ms.keywords: IWMPContentPartner interface [Windows Media Player],Notify method, IWMPContentPartner.Notify, IWMPContentPartner::Notify, IWMPContentPartnerNotify, Notify, Notify method [Windows Media Player], Notify method [Windows Media Player],IWMPContentPartner interface, contentpartner/IWMPContentPartner::Notify, wmp.iwmpcontentpartner_notify
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartner.Notify"
+f1_keywords:
+- contentpartner/IWMPContentPartner.Notify
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartner.Notify
+- IWMPContentPartner.Notify
 targetos: Windows
 req.typenames: 
 req.redist: 

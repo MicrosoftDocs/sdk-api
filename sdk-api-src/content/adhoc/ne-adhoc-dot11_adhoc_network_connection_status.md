@@ -1,19 +1,17 @@
 ---
 UID: NE:adhoc.tagDOT11_ADHOC_NETWORK_CONNECTION_STATUS
 title: DOT11_ADHOC_NETWORK_CONNECTION_STATUS (adhoc.h)
-
 description: Specifies the connection state of an ad hoc network.
 old-location: nwifi\dot11_adhoc_network_connection_status.htm
 tech.root: NativeWiFi
 ms.assetid: 194179b9-9bd2-4c2f-ab22-c6b95eebfb43
-
 ms.date: 12/05/2018
 ms.keywords: DOT11_ADHOC_NETWORK_CONNECTION_STATUS, DOT11_ADHOC_NETWORK_CONNECTION_STATUS enumeration [NativeWIFI], DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTING, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_DISCONNECTED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_FORMED, DOT11_ADHOC_NETWORK_CONNECTION_STATUS_INVALID, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_CONNECTING, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_DISCONNECTED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_FORMED, adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS_INVALID, nwifi.dot11_adhoc_network_connection_status
 ms.topic: enum
-f1_keywords: 
- - "adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS"
+f1_keywords:
+- adhoc/DOT11_ADHOC_NETWORK_CONNECTION_STATUS
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - DOT11_ADHOC_NETWORK_CONNECTION_STATUS
+- DOT11_ADHOC_NETWORK_CONNECTION_STATUS
 targetos: Windows
 req.typenames: DOT11_ADHOC_NETWORK_CONNECTION_STATUS
 req.redist: 

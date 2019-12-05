@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.CD3D11_DEPTH_STENCIL_DESC
 title: CD3D11_DEPTH_STENCIL_DESC (d3d11.h)
-
 description: Represents a depth-stencil-state structure and provides convenience methods for creating depth-stencil-state structures.
 old-location: direct3d11\cd3d11_depth_stencil_desc.htm
 tech.root: direct3d11
 ms.assetid: 511AF313-C692-423B-AD5A-A0A36018572B
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_DEPTH_STENCIL_DESC, CD3D11_DEPTH_STENCIL_DESC structure [Direct3D 11], d3d11/CD3D11_DEPTH_STENCIL_DESC, direct3d11.cd3d11_depth_stencil_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/CD3D11_DEPTH_STENCIL_DESC"
+f1_keywords:
+- d3d11/CD3D11_DEPTH_STENCIL_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - CD3D11_DEPTH_STENCIL_DESC
+- CD3D11_DEPTH_STENCIL_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

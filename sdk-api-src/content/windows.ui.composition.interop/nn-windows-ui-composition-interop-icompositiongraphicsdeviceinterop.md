@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.ui.composition.interop.ICompositionGraphicsDeviceInterop
 title: ICompositionGraphicsDeviceInterop (windows.ui.composition.interop.h)
-
 description: A native interoperation interface that allows getting and setting the graphics device. This is interface is available in C++ only.
 old-location: w_ui_comp\icompositiongraphicsdeviceinterop.htm
 tech.root: w_ui_comp
 ms.assetid: E8585E49-DB1E-44CA-AE75-138E87FD2D30
-
 ms.date: 12/05/2018
 ms.keywords: ICompositionGraphicsDeviceInterop, ICompositionGraphicsDeviceInterop interface, ICompositionGraphicsDeviceInterop interface,described, w_ui_comp.icompositiongraphicsdeviceinterop, windows/ICompositionGraphicsDeviceInterop
 ms.topic: interface
-f1_keywords: 
- - "windows.ui.composition.interop/ICompositionGraphicsDeviceInterop"
+f1_keywords:
+- windows.ui.composition.interop/ICompositionGraphicsDeviceInterop
 dev_langs:
- - c++
+- c++
 req.header: windows.ui.composition.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.ui.composition.interop.h
+- windows.ui.composition.interop.h
 api_name:
- - ICompositionGraphicsDeviceInterop
+- ICompositionGraphicsDeviceInterop
 targetos: Windows
 req.typenames: 
 req.redist: 

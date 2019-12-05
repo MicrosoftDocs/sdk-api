@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagTBSAVEPARAMSW
 title: TBSAVEPARAMSW (commctrl.h)
-
 description: Specifies the location in the registry where the TB_SAVERESTORE message stores and retrieves information about the state of a toolbar.
 old-location: controls\TBSAVEPARAMS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbsaveparams.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTBSAVEPARAMW, TBSAVEPARAMS, TBSAVEPARAMS structure [Windows Controls], TBSAVEPARAMSA, TBSAVEPARAMSW, _win32_TBSAVEPARAMS, _win32_TBSAVEPARAMS_cpp, commctrl/TBSAVEPARAMS, commctrl/TBSAVEPARAMSA, commctrl/TBSAVEPARAMSW, controls.TBSAVEPARAMS, controls._win32_TBSAVEPARAMS"
+ms.keywords: '*LPTBSAVEPARAMW, TBSAVEPARAMS, TBSAVEPARAMS structure [Windows Controls], TBSAVEPARAMSA, TBSAVEPARAMSW, _win32_TBSAVEPARAMS, _win32_TBSAVEPARAMS_cpp, commctrl/TBSAVEPARAMS, commctrl/TBSAVEPARAMSA, commctrl/TBSAVEPARAMSW, controls.TBSAVEPARAMS, controls._win32_TBSAVEPARAMS'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/TBSAVEPARAMS"
+f1_keywords:
+- commctrl/TBSAVEPARAMS
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TBSAVEPARAMS
- - TBSAVEPARAMSA
- - TBSAVEPARAMSW
+- TBSAVEPARAMS
+- TBSAVEPARAMSA
+- TBSAVEPARAMSW
 targetos: Windows
 req.typenames: TBSAVEPARAMSW, *LPTBSAVEPARAMW
 req.redist: 

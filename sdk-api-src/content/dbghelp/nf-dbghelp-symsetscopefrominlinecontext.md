@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromInlineContext
 title: SymSetScopeFromInlineContext function (dbghelp.h)
-
 description: Sets the local scope to the symbol that matches the specified address and inline context.
 old-location: base\symsetscopefrominlinecontext.htm
 tech.root: Debug
 ms.assetid: 053163b0-2504-48fc-92c1-3839311ec657
-
 ms.date: 12/05/2018
 ms.keywords: SymSetScopeFromInlineContext, SymSetScopeFromInlineContext function, base.symsetscopefrominlinecontext, dbghelp/SymSetScopeFromInlineContext
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSetScopeFromInlineContext"
+f1_keywords:
+- dbghelp/SymSetScopeFromInlineContext
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymSetScopeFromInlineContext
+- SymSetScopeFromInlineContext
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

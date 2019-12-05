@@ -1,19 +1,17 @@
 ---
 UID: NF:waasapi.IWaaSAssessor.GetOSUpdateAssessment
 title: IWaaSAssessor::GetOSUpdateAssessment (waasapi.h)
-
 description: Gets the OS update assessment by comparing the latest release OS version from Microsoft to the OS build running on the device.
 old-location: base\iwaasassessor_getosupdateassessment.htm
 tech.root: SysInfo
 ms.assetid: 3123362E-6A1C-49BD-BE9C-0B8506EA944B
-
 ms.date: 12/05/2018
 ms.keywords: GetOSUpdateAssessment, GetOSUpdateAssessment method, GetOSUpdateAssessment method,IWaaSAssessor interface, IWaaSAssessor interface,GetOSUpdateAssessment method, IWaaSAssessor.GetOSUpdateAssessment, IWaaSAssessor::GetOSUpdateAssessment, base.iwaasassessor_getosupdateassessment, waasapi/IWaaSAssessor::GetOSUpdateAssessment
 ms.topic: method
-f1_keywords: 
- - "waasapi/IWaaSAssessor.GetOSUpdateAssessment"
+f1_keywords:
+- waasapi/IWaaSAssessor.GetOSUpdateAssessment
 dev_langs:
- - c++
+- c++
 req.header: waasapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - waasapi.h
+- waasapi.h
 api_name:
- - IWaaSAssessor.GetOSUpdateAssessment
+- IWaaSAssessor.GetOSUpdateAssessment
 targetos: Windows
 req.typenames: 
 req.redist: 

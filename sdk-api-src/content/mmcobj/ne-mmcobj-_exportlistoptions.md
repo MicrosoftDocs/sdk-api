@@ -1,19 +1,17 @@
 ---
 UID: NE:mmcobj.ExportListOptions
 title: _ExportListOptions (mmcobj.h)
-
 description: The ExportListOptions enumeration is used by the View.ExportList method and specifies options when writing list view contents to a file.
 old-location: mmc\exportlistoptions.htm
 tech.root: mmc
 ms.assetid: cfdb5648-8573-4c5a-85c2-7a5d3d63a5f3
-
 ms.date: 12/05/2018
 ms.keywords: EXPORTLISTOPTIONS, ExportListOptions, ExportListOptions enumeration [MMC], ExportListOptions_Default, ExportListOptions_SelectedItemsOnly, ExportListOptions_TabDelimited, ExportListOptions_Unicode, _ExportListOptions, _ExportListOptions enumeration [MMC], _slate_exportlistoptions, mmc.exportlistoptions, mmcobj/ExportListOptions, mmcobj/ExportListOptions_Default, mmcobj/ExportListOptions_SelectedItemsOnly, mmcobj/ExportListOptions_TabDelimited, mmcobj/ExportListOptions_Unicode
 ms.topic: enum
-f1_keywords: 
- - "mmcobj/_ExportListOptions"
+f1_keywords:
+- mmcobj/_ExportListOptions
 dev_langs:
- - c++
+- c++
 req.header: mmcobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MmcObj.h
+- MmcObj.h
 api_name:
- - _ExportListOptions
+- _ExportListOptions
 targetos: Windows
-req.typenames: "_ExportListOptions, EXPORTLISTOPTIONS"
+req.typenames: _ExportListOptions, EXPORTLISTOPTIONS
 req.redist: 
 ms.custom: 19H1
 ---

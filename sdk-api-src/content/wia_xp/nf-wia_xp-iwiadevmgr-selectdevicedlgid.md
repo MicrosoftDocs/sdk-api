@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.SelectDeviceDlgID
 title: IWiaDevMgr::SelectDeviceDlgID (wia_xp.h)
-
 description: The IWiaDevMgr::SelectDeviceDlgID method displays a dialog box that enables the user to select a hardware device for image acquisition.
 old-location: wia\_wia_IWiaDevMgr_SelectDeviceDlgID.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\selectdevicedlgid.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlgID method, IWiaDevMgr.SelectDeviceDlgID, IWiaDevMgr::SelectDeviceDlgID, SelectDeviceDlgID, SelectDeviceDlgID method [WIA], SelectDeviceDlgID method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_SelectDeviceDlgID, wia._wia_IWiaDevMgr_SelectDeviceDlgID, wia_xp/IWiaDevMgr::SelectDeviceDlgID
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDevMgr.SelectDeviceDlgID"
+f1_keywords:
+- wia_xp/IWiaDevMgr.SelectDeviceDlgID
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDevMgr.SelectDeviceDlgID
+- IWiaDevMgr.SelectDeviceDlgID
 targetos: Windows
 req.typenames: 
 req.redist: 

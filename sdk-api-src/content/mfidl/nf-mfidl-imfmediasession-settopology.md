@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.SetTopology
 title: IMFMediaSession::SetTopology (mfidl.h)
-
 description: Sets a topology on the Media Session.
 old-location: mf\imfmediasession_settopology.htm
 tech.root: medfound
 ms.assetid: ea5313f0-b0fd-4945-97a2-b3f17937294f
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],SetTopology method, IMFMediaSession.SetTopology, IMFMediaSession::SetTopology, SetTopology, SetTopology method [Media Foundation], SetTopology method [Media Foundation],IMFMediaSession interface, ea5313f0-b0fd-4945-97a2-b3f17937294f, mf.imfmediasession_settopology, mfidl/IMFMediaSession::SetTopology
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.SetTopology"
+f1_keywords:
+- mfidl/IMFMediaSession.SetTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.SetTopology
+- IMFMediaSession.SetTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetCallStatus
 title: lineGetCallStatus function (tapi.h)
-
 description: The lineGetCallStatus function returns the current status of the specified call.
 old-location: tapi2\linegetcallstatus.htm
 tech.root: Tapi
 ms.assetid: 88bcd211-0993-4703-b43f-4e0b93e3eb7e
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetcallstatus, lineGetCallStatus, lineGetCallStatus function [TAPI 2.2], tapi/lineGetCallStatus, tapi2.linegetcallstatus"
+ms.keywords: _tapi2_linegetcallstatus, lineGetCallStatus, lineGetCallStatus function [TAPI 2.2], tapi/lineGetCallStatus, tapi2.linegetcallstatus
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetCallStatus"
+f1_keywords:
+- tapi/lineGetCallStatus
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetCallStatus
+- lineGetCallStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

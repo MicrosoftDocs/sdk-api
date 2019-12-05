@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IMFVideoProcessor.GetBackgroundColor
 title: IMFVideoProcessor::GetBackgroundColor (evr9.h)
-
 description: Retrieves the background color for the composition rectangle. The background color is used for letterboxing the video image.
 old-location: mf\imfvideoprocessor_getbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: d9068346-f0b3-4361-a56b-2360ecc3b9d9
-
 ms.date: 12/05/2018
 ms.keywords: GetBackgroundColor, GetBackgroundColor method [Media Foundation], GetBackgroundColor method [Media Foundation],IMFVideoProcessor interface, IMFVideoProcessor interface [Media Foundation],GetBackgroundColor method, IMFVideoProcessor.GetBackgroundColor, IMFVideoProcessor::GetBackgroundColor, d9068346-f0b3-4361-a56b-2360ecc3b9d9, evr9/IMFVideoProcessor::GetBackgroundColor, mf.imfvideoprocessor_getbackgroundcolor
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoProcessor.GetBackgroundColor"
+f1_keywords:
+- evr9/IMFVideoProcessor.GetBackgroundColor
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoProcessor.GetBackgroundColor
+- IMFVideoProcessor.GetBackgroundColor
 targetos: Windows
 req.typenames: 
 req.redist: 

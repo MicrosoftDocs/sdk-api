@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHReplaceFromPropSheetExtArray
 title: SHReplaceFromPropSheetExtArray function (shlobj_core.h)
-
 description: Requests each property sheet in a property sheet extension array to replace pages. Each page is allowed up to one replacement.
 old-location: shell\SHReplaceFromPropSheetExtArray.htm
 tech.root: shell
 ms.assetid: a8bdde44-d668-46c4-9e58-7a45b775fe09
-
 ms.date: 12/05/2018
 ms.keywords: SHReplaceFromPropSheetExtArray, SHReplaceFromPropSheetExtArray function [Windows Shell], _win32_SHReplaceFromPropSheetExtArray, shell.SHReplaceFromPropSheetExtArray, shlobj_core/SHReplaceFromPropSheetExtArray
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHReplaceFromPropSheetExtArray"
+f1_keywords:
+- shlobj_core/SHReplaceFromPropSheetExtArray
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.00 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHReplaceFromPropSheetExtArray
+- SHReplaceFromPropSheetExtArray
 targetos: Windows
 req.typenames: 
 req.redist: 

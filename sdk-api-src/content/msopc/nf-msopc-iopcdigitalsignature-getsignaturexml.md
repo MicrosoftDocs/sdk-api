@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetSignatureXml
 title: IOpcDigitalSignature::GetSignatureXml (msopc.h)
-
 description: Gets the signature markup.
 old-location: opc\iopcdigitalsignature_getsignaturexml.htm
 tech.root: OPC
 ms.assetid: 7b495661-32ed-4010-a945-7e638f30f4f2
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureXml, GetSignatureXml method [Open Packaging Conventions], GetSignatureXml method [Open Packaging Conventions],IOpcDigitalSignature interface, IOpcDigitalSignature interface [Open Packaging Conventions],GetSignatureXml method, IOpcDigitalSignature.GetSignatureXml, IOpcDigitalSignature::GetSignatureXml, msopc/IOpcDigitalSignature::GetSignatureXml, opc.iopcdigitalsignature_getsignaturexml
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignature.GetSignatureXml"
+f1_keywords:
+- msopc/IOpcDigitalSignature.GetSignatureXml
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature.GetSignatureXml
+- IOpcDigitalSignature.GetSignatureXml
 targetos: Windows
 req.typenames: 
 req.redist: 

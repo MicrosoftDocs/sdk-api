@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FindNextUrlCacheGroup
 title: FindNextUrlCacheGroup function (wininet.h)
-
 description: Retrieves the next cache group in a cache group enumeration started by FindFirstUrlCacheGroup.
 old-location: wininet\findnexturlcachegroup.htm
 tech.root: wininet
 ms.assetid: f3cbe67c-c069-404c-8ca4-d18b35cc4c4a
-
 ms.date: 12/05/2018
 ms.keywords: FindNextUrlCacheGroup, FindNextUrlCacheGroup function [WinINet], _inet_findnexturlcachegroup_function, wininet.findnexturlcachegroup, wininet/FindNextUrlCacheGroup
 ms.topic: function
-f1_keywords: 
- - "wininet/FindNextUrlCacheGroup"
+f1_keywords:
+- wininet/FindNextUrlCacheGroup
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FindNextUrlCacheGroup
+- FindNextUrlCacheGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

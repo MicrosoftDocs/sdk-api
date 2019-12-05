@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSaveJob.CancelSave
 title: IMFSaveJob::CancelSave (mfidl.h)
-
 description: Cancels the operation started by IMFSaveJob::BeginSave.
 old-location: mf\imfsavejob_cancelsave.htm
 tech.root: medfound
 ms.assetid: ce3ec53a-eeca-430f-a939-3d941b9b2570
-
 ms.date: 12/05/2018
 ms.keywords: CancelSave, CancelSave method [Media Foundation], CancelSave method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],CancelSave method, IMFSaveJob.CancelSave, IMFSaveJob::CancelSave, ce3ec53a-eeca-430f-a939-3d941b9b2570, mf.imfsavejob_cancelsave, mfidl/IMFSaveJob::CancelSave
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSaveJob.CancelSave"
+f1_keywords:
+- mfidl/IMFSaveJob.CancelSave
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSaveJob.CancelSave
+- IMFSaveJob.CancelSave
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UserHandleGrantAccess
 title: UserHandleGrantAccess function (winuser.h)
-
 description: Grants or denies access to a handle to a User object to a job that has a user-interface restriction.
 old-location: base\userhandlegrantaccess.htm
 tech.root: ProcThread
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
-
 ms.date: 12/05/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess
 ms.topic: function
-f1_keywords: 
- - "winuser/UserHandleGrantAccess"
+f1_keywords:
+- winuser/UserHandleGrantAccess
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - UserHandleGrantAccess
+- UserHandleGrantAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

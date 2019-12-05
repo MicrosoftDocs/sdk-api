@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_Event
 title: ITTAPIObjectEvent::get_Event (tapi3if.h)
-
 description: The get_Event method gets information concerning an asynchronous event notification. The application uses TAPIOBJECT_EVENT to determine what type of event is being signaled.
 old-location: tapi3\ittapiobjectevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 5ae4362f-6987-461e-928f-9478e37e0380
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPIObjectEvent interface [TAPI 2.2],get_Event method, ITTAPIObjectEvent.get_Event, ITTAPIObjectEvent::get_Event, _tapi3_ittapiobjectevent_get_event, get_Event, get_Event method [TAPI 2.2], get_Event method [TAPI 2.2],ITTAPIObjectEvent interface, tapi3.ittapiobjectevent_get_event, tapi3if/ITTAPIObjectEvent::get_Event
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPIObjectEvent.get_Event"
+f1_keywords:
+- tapi3if/ITTAPIObjectEvent.get_Event
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPIObjectEvent.get_Event
+- ITTAPIObjectEvent.get_Event
 targetos: Windows
 req.typenames: 
 req.redist: 

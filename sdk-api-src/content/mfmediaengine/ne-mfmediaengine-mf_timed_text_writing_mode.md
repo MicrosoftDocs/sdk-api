@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_TIMED_TEXT_WRITING_MODE
 title: MF_TIMED_TEXT_WRITING_MODE (mfmediaengine.h)
-
 description: Specifies the sequence in which text is written on its parent element.
 old-location: mf\mf_timed_text_writing_mode.htm
 tech.root: medfound
 ms.assetid: AE77AC07-EA27-4341-97E4-7D0995AF18E8
-
 ms.date: 12/05/2018
 ms.keywords: MF_TIMED_TEXT_WRITING_MODE, MF_TIMED_TEXT_WRITING_MODE enumeration [Media Foundation], MF_TIMED_TEXT_WRITING_MODE_LR, MF_TIMED_TEXT_WRITING_MODE_LRTB, MF_TIMED_TEXT_WRITING_MODE_RL, MF_TIMED_TEXT_WRITING_MODE_RLTB, MF_TIMED_TEXT_WRITING_MODE_TB, MF_TIMED_TEXT_WRITING_MODE_TBLR, MF_TIMED_TEXT_WRITING_MODE_TBRL, mf.mf_timed_text_writing_mode, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_LR, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_LRTB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_RL, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_RLTB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TB, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TBLR, mfmediaengine/MF_TIMED_TEXT_WRITING_MODE_TBRL
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_TIMED_TEXT_WRITING_MODE"
+f1_keywords:
+- mfmediaengine/MF_TIMED_TEXT_WRITING_MODE
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_TIMED_TEXT_WRITING_MODE
+- MF_TIMED_TEXT_WRITING_MODE
 targetos: Windows
 req.typenames: MF_TIMED_TEXT_WRITING_MODE
 req.redist: 

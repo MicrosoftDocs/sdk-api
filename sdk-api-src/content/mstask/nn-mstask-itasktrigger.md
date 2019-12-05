@@ -1,19 +1,17 @@
 ---
 UID: NN:mstask.ITaskTrigger
 title: ITaskTrigger (mstask.h)
-
 description: Provides the methods for accessing and setting triggers for a task. Triggers specify task start times, repetition criteria, and other parameters that control when a task is run.
 old-location: taskschd\itasktrigger.htm
 tech.root: taskschd
 ms.assetid: 990702f4-fb6f-47a7-b538-f6632f831a4e
-
 ms.date: 12/05/2018
 ms.keywords: ITaskTrigger, ITaskTrigger interface [Task Scheduler], ITaskTrigger interface [Task Scheduler],described, _msb_itasktrigger, mstask/ITaskTrigger, taskschd.itasktrigger, triggers [Task Scheduler],interfaces,ITaskTrigger (obsolete)
 ms.topic: interface
-f1_keywords: 
- - "mstask/ITaskTrigger"
+f1_keywords:
+- mstask/ITaskTrigger
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITaskTrigger
+- ITaskTrigger
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

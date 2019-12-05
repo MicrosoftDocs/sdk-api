@@ -1,19 +1,17 @@
 ---
 UID: NE:d3dcsx.D3DX11_SCAN_DATA_TYPE
 title: D3DX11_SCAN_DATA_TYPE (d3dcsx.h)
-
 description: Type for scan data.
 old-location: direct3d11\d3dx11_scan_data_type.htm
 tech.root: direct3d11
 ms.assetid: 28bef01c-2d04-48f8-994b-86194f530610
-
 ms.date: 12/05/2018
 ms.keywords: D3DX11_SCAN_DATA_TYPE, D3DX11_SCAN_DATA_TYPE enumeration [Direct3D 11], D3DX11_SCAN_DATA_TYPE_FLOAT, D3DX11_SCAN_DATA_TYPE_INT, D3DX11_SCAN_DATA_TYPE_UINT, d3dcsx/D3DX11_SCAN_DATA_TYPE, d3dcsx/D3DX11_SCAN_DATA_TYPE_FLOAT, d3dcsx/D3DX11_SCAN_DATA_TYPE_INT, d3dcsx/D3DX11_SCAN_DATA_TYPE_UINT, d5f42071-16a0-03ca-bdea-302fc9f575bf, direct3d11.d3dx11_scan_data_type
 ms.topic: enum
-f1_keywords: 
- - "d3dcsx/D3DX11_SCAN_DATA_TYPE"
+f1_keywords:
+- d3dcsx/D3DX11_SCAN_DATA_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3dcsx.h
+- d3dcsx.h
 api_name:
- - D3DX11_SCAN_DATA_TYPE
+- D3DX11_SCAN_DATA_TYPE
 targetos: Windows
 req.typenames: D3DX11_SCAN_DATA_TYPE
 req.redist: 

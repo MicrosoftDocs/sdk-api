@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.GetDefaultTabStop
 title: ITextDocument::GetDefaultTabStop (tom.h)
-
 description: Gets the default tab width.
 old-location: controls\ITextDocument_GetDefaultTabStop.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getdefaulttabstop.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultTabStop, GetDefaultTabStop method [Windows Controls], GetDefaultTabStop method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetDefaultTabStop method, ITextDocument.GetDefaultTabStop, ITextDocument::GetDefaultTabStop, _win32_ITextDocument_GetDefaultTabStop, _win32_ITextDocument_GetDefaultTabStop_cpp, controls.ITextDocument_GetDefaultTabStop, controls._win32_ITextDocument_GetDefaultTabStop, tom/ITextDocument::GetDefaultTabStop
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.GetDefaultTabStop"
+f1_keywords:
+- tom/ITextDocument.GetDefaultTabStop
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.GetDefaultTabStop
+- ITextDocument.GetDefaultTabStop
 targetos: Windows
 req.typenames: 
 req.redist: 

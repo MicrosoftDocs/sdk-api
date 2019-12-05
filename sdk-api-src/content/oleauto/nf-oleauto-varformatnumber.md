@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarFormatNumber
 title: VarFormatNumber function (oleauto.h)
-
 description: Formats a variant containing numbers into a string form.
 old-location: automat\varformatnumber.htm
 tech.root: automat
 ms.assetid: a95323d0-0a8d-48c5-a2dc-d461733e2f0e
-
 ms.date: 12/05/2018
 ms.keywords: VarFormatNumber, VarFormatNumber function [Automation], _oa96_VarFormatNumber, automat.varformatnumber, oleauto/VarFormatNumber
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarFormatNumber"
+f1_keywords:
+- oleauto/VarFormatNumber
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarFormatNumber
+- VarFormatNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

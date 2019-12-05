@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRule.put_RemotePorts
 title: INetFwRule::put_RemotePorts (netfw.h)
-
 description: Specifies the list of remote ports for this rule.
 old-location: ics\inetfwrule_remoteports.htm
 tech.root: ics
 ms.assetid: e6791258-4669-42d9-9551-5c861bfb2b52
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRule interface [ICS/ICF],RemotePorts property, INetFwRule.RemotePorts, INetFwRule.put_RemotePorts, INetFwRule::RemotePorts, INetFwRule::get_RemotePorts, INetFwRule::put_RemotePorts, RemotePorts property [ICS/ICF], RemotePorts property [ICS/ICF],INetFwRule interface, ics.inetfwrule_remoteports, netfw/INetFwRule::RemotePorts, netfw/INetFwRule::get_RemotePorts, netfw/INetFwRule::put_RemotePorts, put_RemotePorts
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRule.RemotePorts"
+f1_keywords:
+- netfw/INetFwRule.RemotePorts
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRule.RemotePorts
- - INetFwRule.get_RemotePorts
- - INetFwRule.put_RemotePorts
+- INetFwRule.RemotePorts
+- INetFwRule.get_RemotePorts
+- INetFwRule.put_RemotePorts
 targetos: Windows
 req.typenames: 
 req.redist: 

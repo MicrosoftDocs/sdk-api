@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.PutContext
 title: ITsSbClientConnection::PutContext (sbtsv.h)
-
 description: Can be used by plug-ins to store context information specific to the connection.
 old-location: termserv\itssbclientconnection_putcontext.htm
 tech.root: TermServ
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbClientConnection interface [Remote Desktop Services],PutContext method, ITsSbClientConnection.PutContext, ITsSbClientConnection::PutContext, PutContext, PutContext method [Remote Desktop Services], PutContext method [Remote Desktop Services],ITsSbClientConnection interface, sbtsv/ITsSbClientConnection::PutContext, termserv.itssbclientconnection_putcontext
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection.PutContext"
+f1_keywords:
+- sbtsv/ITsSbClientConnection.PutContext
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection.PutContext
+- ITsSbClientConnection.PutContext
 targetos: Windows
 req.typenames: 
 req.redist: 

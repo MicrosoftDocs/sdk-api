@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventObjectCollection.get_NewEnum
 title: IEventObjectCollection::get_NewEnum (eventsys.h)
-
 description: An enumeration object that implements IEnumEventObject.
 old-location: cos\ieventobjectcollection_newenum.htm
 tech.root: cossdk
 ms.assetid: 5e4e0749-bf23-4174-af80-0b708dbaf432
-
 ms.date: 12/05/2018
 ms.keywords: IEventObjectCollection interface [COM+],NewEnum property, IEventObjectCollection.NewEnum, IEventObjectCollection.get_NewEnum, IEventObjectCollection::NewEnum, IEventObjectCollection::get_NewEnum, NewEnum property [COM+], NewEnum property [COM+],IEventObjectCollection interface, cos.ieventobjectcollection_newenum, eventsys/IEventObjectCollection::NewEnum, eventsys/IEventObjectCollection::get_NewEnum, get_NewEnum
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventObjectCollection.NewEnum"
+f1_keywords:
+- eventsys/IEventObjectCollection.NewEnum
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventObjectCollection.NewEnum
- - IEventObjectCollection.get_NewEnum
+- IEventObjectCollection.NewEnum
+- IEventObjectCollection.get_NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

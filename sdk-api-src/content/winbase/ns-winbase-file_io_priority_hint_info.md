@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_IO_PRIORITY_HINT_INFO
 title: FILE_IO_PRIORITY_HINT_INFO (winbase.h)
-
 description: Specifies the priority hint for a file I/O operation.
 old-location: fs\file_io_priority_hint_info.htm
 tech.root: FileIO
 ms.assetid: a142b8fd-b71c-4449-a8c6-fb23715d1576
-
 ms.date: 12/05/2018
 ms.keywords: '*PFILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO, FILE_IO_PRIORITY_HINT_INFO structure [Files], PFILE_IO_PRIORITY_HINT_INFO, PFILE_IO_PRIORITY_HINT_INFO structure pointer [Files], _FILE_IO_PRIORITY_HINT_INFO, fs.file_io_priority_hint_info, winbase/FILE_IO_PRIORITY_HINT_INFO, winbase/PFILE_IO_PRIORITY_HINT_INFO'
 ms.topic: struct
 f1_keywords:
 - winbase/FILE_IO_PRIORITY_HINT_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

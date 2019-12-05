@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetCustomSink
 title: IMFCapturePreviewSink::SetCustomSink (mfcaptureengine.h)
-
 description: Sets a custom media sink for preview.
 old-location: mf\imfcapturepreviewsink_setcustomsink.htm
 tech.root: medfound
 ms.assetid: 98D6F026-408F-4C22-B4A3-68C1B0EFD1E9
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetCustomSink method, IMFCapturePreviewSink.SetCustomSink, IMFCapturePreviewSink::SetCustomSink, SetCustomSink, SetCustomSink method [Media Foundation], SetCustomSink method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setcustomsink, mfcaptureengine/IMFCapturePreviewSink::SetCustomSink
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.SetCustomSink"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.SetCustomSink
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.SetCustomSink
+- IMFCapturePreviewSink.SetCustomSink
 targetos: Windows
 req.typenames: 
 req.redist: 

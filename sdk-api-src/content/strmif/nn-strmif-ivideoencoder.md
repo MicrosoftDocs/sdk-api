@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVideoEncoder
 title: IVideoEncoder (strmif.h)
-
 description: The IVideoEncoder interface is optionally exposed by video encoder filters.
 old-location: dshow\ivideoencoder.htm
 tech.root: DirectShow
 ms.assetid: 9264f7a2-b2d4-4449-913b-f1e5ecb40cac
-
 ms.date: 12/05/2018
 ms.keywords: IVideoEncoder, IVideoEncoder interface [DirectShow], IVideoEncoder interface [DirectShow],described, dshow.ivideoencoder, strmif/IVideoEncoder
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVideoEncoder"
+f1_keywords:
+- strmif/IVideoEncoder
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IVideoEncoder
+- IVideoEncoder
 targetos: Windows
 req.typenames: 
 req.redist: 

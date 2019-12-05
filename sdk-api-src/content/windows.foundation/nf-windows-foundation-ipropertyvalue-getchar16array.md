@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetChar16Array
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-
 description: Gets the the array of Unicode characters that is stored in the current IPropertyValue object.
 old-location: winrt\ipropertyvalue_getchar16array.htm
 tech.root: WinRT
 ms.assetid: b0649a8b-8060-4e0f-956e-879fe4185b11
-
 ms.date: 12/05/2018
 ms.keywords: GetChar16Array, GetChar16Array method [Windows Runtime], GetChar16Array method [Windows Runtime],IPropertyValue interface, IPropertyValue interface [Windows Runtime],GetChar16Array method, IPropertyValue.GetChar16Array, IPropertyValue.IPropertyValue, IPropertyValue::GetChar16Array, IPropertyValue::IPropertyValue, windows/IPropertyValue::GetChar16Array, winrt.ipropertyvalue_getchar16array
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValue.GetChar16Array"
+f1_keywords:
+- windows.foundation/IPropertyValue.GetChar16Array
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValue.GetChar16Array
+- IPropertyValue.GetChar16Array
 targetos: Windows
 req.typenames: 
 req.redist: 

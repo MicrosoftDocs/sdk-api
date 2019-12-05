@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.EnumThresholdActions
 title: IFsrmQuotaBase::EnumThresholdActions (fsrmquota.h)
-
 description: Enumerates all the actions for the specified threshold.
 old-location: fsrm\ifsrmquotabase_enumthresholdactions.htm
 tech.root: fsrm
 ms.assetid: ce4f85a9-f2e0-42df-adb4-7c21256d5305
-
 ms.date: 12/05/2018
 ms.keywords: EnumThresholdActions, EnumThresholdActions method [File Server Resource Manager], EnumThresholdActions method [File Server Resource Manager],IFsrmQuotaBase interface, IFsrmQuotaBase interface [File Server Resource Manager],EnumThresholdActions method, IFsrmQuotaBase.EnumThresholdActions, IFsrmQuotaBase::EnumThresholdActions, fs.ifsrmquotabase_enumthresholdactions, fsrm.ifsrmquotabase_enumthresholdactions, fsrmquota/IFsrmQuotaBase::EnumThresholdActions
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase.EnumThresholdActions"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase.EnumThresholdActions
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.EnumThresholdActions
+- IFsrmQuotaBase.EnumThresholdActions
 targetos: Windows
 req.typenames: 
 req.redist: 

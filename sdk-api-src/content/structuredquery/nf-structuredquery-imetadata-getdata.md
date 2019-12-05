@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IMetaData.GetData
 title: IMetaData::GetData (structuredquery.h)
-
 description: Retrieves one key/value pair from the metadata of an IEntity, IRelationship, or ISchemaProvider object.
 old-location: search\_search_IMetaData_GetData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\imetadata\getdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [search], GetData method [search],IMetaData interface, IMetaData interface [search],GetData method, IMetaData.GetData, IMetaData::GetData, _search_IMetaData_GetData, search._search_IMetaData_GetData, structuredquery/IMetaData::GetData
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IMetaData.GetData"
+f1_keywords:
+- structuredquery/IMetaData.GetData
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IMetaData.GetData
+- IMetaData.GetData
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

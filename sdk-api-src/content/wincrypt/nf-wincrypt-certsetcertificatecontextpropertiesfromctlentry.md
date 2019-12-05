@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertSetCertificateContextPropertiesFromCTLEntry
 title: CertSetCertificateContextPropertiesFromCTLEntry function (wincrypt.h)
-
 description: Sets the properties on the certificate context by using the attributes in the specified certificate trust list (CTL) entry.
 old-location: security\certsetcertificatecontextpropertiesfromctlentry.htm
 tech.root: SecCrypto
 ms.assetid: b53b046a-68d4-4dc5-ab89-1b30ebd1de60
-
 ms.date: 12/05/2018
 ms.keywords: CertSetCertificateContextPropertiesFromCTLEntry, CertSetCertificateContextPropertiesFromCTLEntry function [Security], _crypto2_certsetcertificatecontextpropertiesfromctlentry, security.certsetcertificatecontextpropertiesfromctlentry, wincrypt/CertSetCertificateContextPropertiesFromCTLEntry
 ms.topic: function
 f1_keywords:
 - wincrypt/CertSetCertificateContextPropertiesFromCTLEntry
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

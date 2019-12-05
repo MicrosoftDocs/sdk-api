@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocation.GetReportInterval
 title: ILocation::GetReportInterval (locationapi.h)
-
 description: Retrieves the requested amount of time, in milliseconds, between report events.
 old-location: winlocation_com_ref\ilocation_getreportinterval.htm
 tech.root: locationapi
 ms.assetid: c7bcd665-317c-428a-aa20-0d09c8d7a813
-
 ms.date: 12/05/2018
 ms.keywords: GetReportInterval, GetReportInterval method [WinLocation], GetReportInterval method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetReportInterval method, ILocation.GetReportInterval, ILocation::GetReportInterval, WinLocation_COM_Ref.ilocation_getreportinterval, locationapi/ILocation::GetReportInterval
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocation.GetReportInterval"
+f1_keywords:
+- locationapi/ILocation.GetReportInterval
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocation.GetReportInterval
+- ILocation.GetReportInterval
 targetos: Windows
 req.typenames: 
 req.redist: 

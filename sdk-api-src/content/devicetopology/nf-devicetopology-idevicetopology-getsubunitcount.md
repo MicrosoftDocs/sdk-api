@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSubunitCount
 title: IDeviceTopology::GetSubunitCount (devicetopology.h)
-
 description: The GetSubunitCount method gets the number of subunits in the device topology.
 old-location: coreaudio\idevicetopology_getsubunitcount.htm
 tech.root: CoreAudio
 ms.assetid: 70fa57bb-56fe-4f8c-9967-10714f1cba22
-
 ms.date: 12/05/2018
 ms.keywords: GetSubunitCount, GetSubunitCount method [Core Audio], GetSubunitCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunitCount method, IDeviceTopology.GetSubunitCount, IDeviceTopology::GetSubunitCount, IDeviceTopologyGetSubunitCount, coreaudio.idevicetopology_getsubunitcount, devicetopology/IDeviceTopology::GetSubunitCount
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IDeviceTopology.GetSubunitCount"
+f1_keywords:
+- devicetopology/IDeviceTopology.GetSubunitCount
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceTopology.GetSubunitCount
+- IDeviceTopology.GetSubunitCount
 targetos: Windows
 req.typenames: 
 req.redist: 

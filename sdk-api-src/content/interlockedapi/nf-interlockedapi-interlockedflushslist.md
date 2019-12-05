@@ -1,19 +1,17 @@
 ---
 UID: NF:interlockedapi.InterlockedFlushSList
 title: InterlockedFlushSList function (interlockedapi.h)
-
 description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\interlockedflushslist.htm
 tech.root: Sync
 ms.assetid: 3fde3377-8a98-4976-a350-2c173b209e8c
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedFlushSList, InterlockedFlushSList function, _win32_interlockedflushslist, base.interlockedflushslist, interlockedapi/InterlockedFlushSList, winbase/InterlockedFlushSList
 ms.topic: function
-f1_keywords: 
- - "interlockedapi/InterlockedFlushSList"
+f1_keywords:
+- interlockedapi/InterlockedFlushSList
 dev_langs:
- - c++
+- c++
 req.header: interlockedapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-interlocked-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-interlocked-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-interlocked-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-interlocked-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - InterlockedFlushSList
+- InterlockedFlushSList
 targetos: Windows
 req.typenames: 
 req.redist: 

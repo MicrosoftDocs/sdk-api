@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.ICurrentWorkingDirectory.GetDirectory
 title: ICurrentWorkingDirectory::GetDirectory (shlobj.h)
-
 description: Gets the current working directory.
 old-location: shell\ICurrentWorkingDirectory_GetDirectory.htm
 tech.root: shell
 ms.assetid: 763c042b-2780-4202-9c3e-073cc8adc93a
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectory, GetDirectory method [Windows Shell], GetDirectory method [Windows Shell],ICurrentWorkingDirectory interface, ICurrentWorkingDirectory interface [Windows Shell],GetDirectory method, ICurrentWorkingDirectory.GetDirectory, ICurrentWorkingDirectory::GetDirectory, _win32_ICurrentWorkingDirectory_GetDirectory, shell.ICurrentWorkingDirectory_GetDirectory, shlobj/ICurrentWorkingDirectory::GetDirectory
 ms.topic: method
-f1_keywords: 
- - "shlobj/ICurrentWorkingDirectory.GetDirectory"
+f1_keywords:
+- shlobj/ICurrentWorkingDirectory.GetDirectory
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICurrentWorkingDirectory.GetDirectory
+- ICurrentWorkingDirectory.GetDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromIAccessible
 title: IUIAutomation::ElementFromIAccessible (uiautomationclient.h)
-
 description: Retrieves a UI Automation element for the specified accessible object from a Microsoft Active Accessibility server.
 old-location: winauto\uiauto_IUIAutomation_ElementFromIAccessible.htm
 tech.root: WinAuto
 ms.assetid: b3dcc31c-e111-4841-82a8-a6329020b595
-
 ms.date: 12/05/2018
 ms.keywords: ElementFromIAccessible, ElementFromIAccessible method [Windows Accessibility], ElementFromIAccessible method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromIAccessible method, IUIAutomation.ElementFromIAccessible, IUIAutomation::ElementFromIAccessible, uiauto.uiauto_IUIAutomation_ElementFromIAccessible, uiauto_IUIAutomation_ElementFromIAccessible, uiautomationclient/IUIAutomation::ElementFromIAccessible, winauto.uiauto_IUIAutomation_ElementFromIAccessible
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.ElementFromIAccessible"
+f1_keywords:
+- uiautomationclient/IUIAutomation.ElementFromIAccessible
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.ElementFromIAccessible
+- IUIAutomation.ElementFromIAccessible
 targetos: Windows
 req.typenames: 
 req.redist: 

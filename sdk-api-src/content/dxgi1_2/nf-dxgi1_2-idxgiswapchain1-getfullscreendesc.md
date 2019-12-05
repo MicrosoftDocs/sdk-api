@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetFullscreenDesc
 title: IDXGISwapChain1::GetFullscreenDesc (dxgi1_2.h)
-
 description: Gets a description of a full-screen swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_getfullscreendesc.htm
 tech.root: direct3ddxgi
 ms.assetid: 6056239A-B3CA-4C70-9081-499B0AAEFBEF
-
 ms.date: 12/05/2018
 ms.keywords: GetFullscreenDesc, GetFullscreenDesc method [DXGI], GetFullscreenDesc method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetFullscreenDesc method, IDXGISwapChain1.GetFullscreenDesc, IDXGISwapChain1::GetFullscreenDesc, direct3ddxgi.idxgiswapchain1_getfullscreendesc, dxgi1_2/IDXGISwapChain1::GetFullscreenDesc
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.GetFullscreenDesc"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.GetFullscreenDesc
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetFullscreenDesc
+- IDXGISwapChain1.GetFullscreenDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

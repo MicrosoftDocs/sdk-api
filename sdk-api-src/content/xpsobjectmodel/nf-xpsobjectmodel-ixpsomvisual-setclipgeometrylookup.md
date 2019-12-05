@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetClipGeometryLookup
 title: IXpsOMVisual::SetClipGeometryLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of a shared clip geometry in a resource dictionary.
 old-location: xps\ixpsomvisual_setclipgeometrylookup.htm
 tech.root: printdocs
 ms.assetid: 3f79f1ce-e761-44f7-970c-393c83f8f2fd
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetClipGeometryLookup method, IXpsOMVisual.SetClipGeometryLookup, IXpsOMVisual::SetClipGeometryLookup, SetClipGeometryLookup, SetClipGeometryLookup method [XPS Documents and Packaging], SetClipGeometryLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setclipgeometrylookup, xpsobjectmodel/IXpsOMVisual::SetClipGeometryLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetClipGeometryLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetClipGeometryLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetClipGeometryLookup
+- IXpsOMVisual.SetClipGeometryLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

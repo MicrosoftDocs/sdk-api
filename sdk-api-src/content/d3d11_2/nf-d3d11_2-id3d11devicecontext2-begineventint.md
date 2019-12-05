@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11_2.ID3D11DeviceContext2.BeginEventInt
 title: ID3D11DeviceContext2::BeginEventInt (d3d11_2.h)
-
 description: Allows applications to annotate the beginning of a range of graphics commands.
 old-location: direct3d11\id3d11devicecontext2_begineventint.htm
 tech.root: direct3d11
 ms.assetid: 9a45e16f-a598-4196-ad9c-8a157ae94de0
-
 ms.date: 12/05/2018
 ms.keywords: BeginEventInt, BeginEventInt method [Direct3D 11], BeginEventInt method [Direct3D 11],ID3D11DeviceContext2 interface, ID3D11DeviceContext2 interface [Direct3D 11],BeginEventInt method, ID3D11DeviceContext2.BeginEventInt, ID3D11DeviceContext2::BeginEventInt, d3d11_2/ID3D11DeviceContext2::BeginEventInt, direct3d11.id3d11devicecontext2_begineventint
 ms.topic: method
-f1_keywords: 
- - "d3d11_2/ID3D11DeviceContext2.BeginEventInt"
+f1_keywords:
+- d3d11_2/ID3D11DeviceContext2.BeginEventInt
 dev_langs:
- - c++
+- c++
 req.header: d3d11_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11_2.h
+- d3d11_2.h
 api_name:
- - ID3D11DeviceContext2.BeginEventInt
+- ID3D11DeviceContext2.BeginEventInt
 targetos: Windows
 req.typenames: 
 req.redist: 

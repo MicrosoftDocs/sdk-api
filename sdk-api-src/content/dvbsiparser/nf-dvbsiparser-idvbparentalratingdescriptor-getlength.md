@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetLength
 title: IDvbParentalRatingDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a Digital Video Broadcast (DVB) parental rating descriptor, in bytes,.
 old-location: mstv\idvbparentalratingdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 019c6998-74b3-4966-ad5d-b8da2bbacca5
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbParentalRatingDescriptor.GetLength, IDvbParentalRatingDescriptor::GetLength, dvbsiparser/IDvbParentalRatingDescriptor::GetLength, mstv.idvbparentalratingdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbParentalRatingDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbParentalRatingDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbParentalRatingDescriptor.GetLength
+- IDvbParentalRatingDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

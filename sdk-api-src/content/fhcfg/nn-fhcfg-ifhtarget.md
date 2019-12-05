@@ -1,19 +1,17 @@
 ---
 UID: NN:fhcfg.IFhTarget
 title: IFhTarget (fhcfg.h)
-
 description: The IFhTarget interface allows client applications to read numeric and string properties of a File History backup target.
 old-location: winprog\ifhtarget.htm
 tech.root: DevNotes
 ms.assetid: 5A73A81A-72A3-4794-86E5-9CA8FCA200C0
-
 ms.date: 12/05/2018
 ms.keywords: IFhTarget, IFhTarget interface [Windows API], IFhTarget interface [Windows API],described, fhcfg/IFhTarget, winprog.ifhtarget
 ms.topic: interface
-f1_keywords: 
- - "fhcfg/IFhTarget"
+f1_keywords:
+- fhcfg/IFhTarget
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - IFhTarget
+- IFhTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.SetTransformLookup
 title: IXpsOMTileBrush::SetTransformLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of a shared matrix transform that will be used as the transform for this brush.
 old-location: xps\ixpsomtilebrush_settransformlookup.htm
 tech.root: printdocs
 ms.assetid: b2d9519a-9e22-44ba-839d-e1ba33aacc26
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMTileBrush interface [XPS Documents and Packaging],SetTransformLookup method, IXpsOMTileBrush.SetTransformLookup, IXpsOMTileBrush::SetTransformLookup, SetTransformLookup, SetTransformLookup method [XPS Documents and Packaging], SetTransformLookup method [XPS Documents and Packaging],IXpsOMTileBrush interface, xps.ixpsomtilebrush_settransformlookup, xpsobjectmodel/IXpsOMTileBrush::SetTransformLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMTileBrush.SetTransformLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMTileBrush.SetTransformLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush.SetTransformLookup
+- IXpsOMTileBrush.SetTransformLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

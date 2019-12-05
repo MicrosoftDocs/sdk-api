@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.Children
 title: ISettingsItem::Children (wcmconfig.h)
-
 description: Gets the dictionary of the child items that correspond to this item.
 old-location: smi\isettingsitem_children.htm
 tech.root: SMI
 ms.assetid: 33bd7f91-c414-420e-bc18-1114924b93e9
-
 ms.date: 12/05/2018
 ms.keywords: Children, Children method [SMI], Children method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],Children method, ISettingsItem.Children, ISettingsItem::Children, smi.isettingsitem_children, wcmconfig/ISettingsItem::Children
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.Children"
+f1_keywords:
+- wcmconfig/ISettingsItem.Children
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.Children
+- ISettingsItem.Children
 targetos: Windows
 req.typenames: 
 req.redist: 

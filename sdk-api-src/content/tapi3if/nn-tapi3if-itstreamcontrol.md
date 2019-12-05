@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITStreamControl
 title: ITStreamControl (tapi3if.h)
-
 description: The ITStreamControl interface represents the media streaming features of a call and exposes methods that allow an application to enumerate, create, or remove streams.
 old-location: tapi3\itstreamcontrol.htm
 tech.root: Tapi
 ms.assetid: 12b9457a-7afb-4348-93a2-28728c673929
-
 ms.date: 12/05/2018
 ms.keywords: ITStreamControl, ITStreamControl interface [TAPI 2.2], ITStreamControl interface [TAPI 2.2],described, _tapi3_itstreamcontrol, tapi3.itstreamcontrol, tapi3if/ITStreamControl
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITStreamControl"
+f1_keywords:
+- tapi3if/ITStreamControl
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3if.h
+- Tapi3if.h
 api_name:
- - ITStreamControl
+- ITStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 

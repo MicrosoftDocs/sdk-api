@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Activity
 title: IFaxServer::get_Activity (faxcomex.h)
-
 description: The IFaxServer::get_Activity property creates a IFaxActivity interface object. The interface permits a fax client application to access information about the activity on a connected fax server, and the fax server status.
 old-location: fax\_mfax_faxserver_activity_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2i9l_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: Activity property [Fax Service], Activity property [Fax Service],IFaxServer interface, IFaxServer interface [Fax Service],Activity property, IFaxServer.Activity, IFaxServer.get_Activity, IFaxServer::Activity, IFaxServer::get_Activity, _mfax_faxserver.activity_cpp, fax._mfax_faxserver_activity_cpp, faxcomex/IFaxServer::Activity, faxcomex/IFaxServer::get_Activity, get_Activity
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.Activity"
+f1_keywords:
+- faxcomex/IFaxServer.Activity
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.Activity
- - IFaxServer.get_Activity
+- IFaxServer.Activity
+- IFaxServer.get_Activity
 targetos: Windows
 req.typenames: 
 req.redist: 

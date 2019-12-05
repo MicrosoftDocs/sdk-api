@@ -1,19 +1,17 @@
 ---
 UID: NF:fltuser.FilterReplyMessage
 title: FilterReplyMessage function (fltuser.h)
-
 description: The FilterReplyMessage function replies to a message from a kernel-mode minifilter.
 old-location: ifsk\filterreplymessage.htm
 tech.root: ifsk
 ms.assetid: e0a0033c-2ea8-4e5b-bcae-680247ea6157
-
 ms.date: 12/05/2018
 ms.keywords: FilterReplyMessage, FilterReplyMessage function [Installable File System Drivers], FltWin32ApiRef_f89f529e-8396-4f15-ae63-6497c92aab1a.xml, fltuser/FilterReplyMessage, ifsk.filterreplymessage
 ms.topic: function
-f1_keywords: 
- - "fltuser/FilterReplyMessage"
+f1_keywords:
+- fltuser/FilterReplyMessage
 dev_langs:
- - c++
+- c++
 req.header: fltuser.h
 req.include-header: FltUser.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: FltLib.lib
 req.dll: FltLib.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FltLib.dll
+- FltLib.dll
 api_name:
- - FilterReplyMessage
+- FilterReplyMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

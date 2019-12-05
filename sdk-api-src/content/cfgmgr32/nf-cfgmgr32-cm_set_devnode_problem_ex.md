@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_Problem_Ex
 title: CM_Set_DevNode_Problem_Ex function (cfgmgr32.h)
-
 description: The CM_Set_DevNode_Problem_Ex function sets a problem code for a device that is installed in a local or a remote machine.
 old-location: devinst\cm_set_devnode_problem_ex.htm
 tech.root: devinst
 ms.assetid: 2e3e2c3a-c507-4cc8-bc2c-823d0b597704
-
 ms.date: 12/05/2018
 ms.keywords: CM_Set_DevNode_Problem_Ex, CM_Set_DevNode_Problem_Ex function [Device and Driver Installation], cfgmgr32/CM_Set_DevNode_Problem_Ex, cfgmgrfn_a2853e6a-afab-4725-bbe3-520605d515f0.xml, devinst.cm_set_devnode_problem_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Set_DevNode_Problem_Ex"
+f1_keywords:
+- cfgmgr32/CM_Set_DevNode_Problem_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Set_DevNode_Problem_Ex
+- CM_Set_DevNode_Problem_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

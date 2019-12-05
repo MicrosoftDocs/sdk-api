@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreatePolygonRgn
 title: CreatePolygonRgn function (wingdi.h)
-
 description: The CreatePolygonRgn function creates a polygonal region.
 old-location: gdi\createpolygonrgn.htm
 tech.root: gdi
 ms.assetid: dd7ad6de-c5f2-46e4-8d28-24caaa48ba3a
-
 ms.date: 12/05/2018
 ms.keywords: ALTERNATE, CreatePolygonRgn, CreatePolygonRgn function [Windows GDI], WINDING, _win32_CreatePolygonRgn, gdi.createpolygonrgn, wingdi/CreatePolygonRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreatePolygonRgn"
+f1_keywords:
+- wingdi/CreatePolygonRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- gdi32.dll
+- Ext-MS-Win-RTCore-GDI-rgn-l1-1-0.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
 api_name:
- - CreatePolygonRgn
+- CreatePolygonRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

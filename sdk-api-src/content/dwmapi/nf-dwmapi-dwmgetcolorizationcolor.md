@@ -1,19 +1,17 @@
 ---
 UID: NF:dwmapi.DwmGetColorizationColor
 title: DwmGetColorizationColor function (dwmapi.h)
-
 description: Retrieves the current color used for Desktop Window Manager (DWM) glass composition.
 old-location: dwm\dwmgetcolorizationcolor.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetcolorizationcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: DwmGetColorizationColor, DwmGetColorizationColor function [Desktop Window Manager], _udwm_dwmgetcolorizationcolor, _udwm_dwmgetcolorizationcolor_cpp, dwm.dwmgetcolorizationcolor, dwmapi/DwmGetColorizationColor, winui._udwm_dwmgetcolorizationcolor
 ms.topic: function
-f1_keywords: 
- - "dwmapi/DwmGetColorizationColor"
+f1_keywords:
+- dwmapi/DwmGetColorizationColor
 dev_langs:
- - c++
+- c++
 req.header: dwmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwmapi.lib
 req.dll: Dwmapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dwmapi.dll
- - ext-ms-win-dwmapi-ext-l1-1-0.dll
+- Dwmapi.dll
+- ext-ms-win-dwmapi-ext-l1-1-0.dll
 api_name:
- - DwmGetColorizationColor
+- DwmGetColorizationColor
 targetos: Windows
 req.typenames: 
 req.redist: 

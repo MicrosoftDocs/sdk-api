@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_LAYER_STATISTICS0_
 title: FWPM_LAYER_STATISTICS0 (fwpmtypes.h)
-
 description: Stores statistics related to a layer.
 old-location: fwp\fwpm_layer_statistics0.htm
 tech.root: fwp
 ms.assetid: cc8e0159-fe28-4718-b5fe-d38d180b3e2c
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_LAYER_STATISTICS0, FWPM_LAYER_STATISTICS0 structure [Filtering], fwp.fwpm_layer_statistics0, fwpmtypes/FWPM_LAYER_STATISTICS0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_LAYER_STATISTICS0"
+f1_keywords:
+- fwpmtypes/FWPM_LAYER_STATISTICS0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_LAYER_STATISTICS0
+- FWPM_LAYER_STATISTICS0
 targetos: Windows
 req.typenames: FWPM_LAYER_STATISTICS0
 req.redist: 

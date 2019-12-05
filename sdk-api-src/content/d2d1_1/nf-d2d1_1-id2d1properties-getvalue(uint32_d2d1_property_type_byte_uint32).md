@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetValue(UINT32,D2D1_PROPERTY_TYPE,BYTE,UINT32)
 title: ID2D1Properties::GetValue (d2d1_1.h)
-
 description: Gets the value of the specified property by index.
 old-location: direct2d\id2d1properties_getvalue.htm
 tech.root: Direct2D
 ms.assetid: 01678e13-df23-47bb-9af7-9f2ecaf03577
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Direct2D], GetValue method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetValue method, ID2D1Properties.GetValue, ID2D1Properties::GetValue, ID2D1Properties::GetValue(UINT32,BYTE*,UINT32), ID2D1Properties::GetValue(UINT32,BYTE,UINT32), d2d1_1/ID2D1Properties::GetValue, direct2d.id2d1properties_getvalue
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Properties.GetValue"
+f1_keywords:
+- d2d1_1/ID2D1Properties.GetValue
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Properties.GetValue
+- ID2D1Properties.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

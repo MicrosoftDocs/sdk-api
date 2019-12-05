@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFShutdown
 title: IMFShutdown (mfidl.h)
-
 description: Exposed by some Media Foundation objects that must be explicitly shut down.
 old-location: mf\imfshutdown.htm
 tech.root: medfound
 ms.assetid: c3052658-51bb-401b-8db9-3428868899d6
-
 ms.date: 12/05/2018
 ms.keywords: IMFShutdown, IMFShutdown interface [Media Foundation], IMFShutdown interface [Media Foundation],described, c3052658-51bb-401b-8db9-3428868899d6, mf.imfshutdown, mfidl/IMFShutdown
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFShutdown"
+f1_keywords:
+- mfidl/IMFShutdown
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFShutdown
+- IMFShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

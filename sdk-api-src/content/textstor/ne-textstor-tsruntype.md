@@ -1,19 +1,17 @@
 ---
 UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0003
 title: TsRunType (textstor.h)
-
 description: Elements of the TsRunType enumeration specify if a text run is visible, hidden, or is a private data type embedded in the text run.
 old-location: tsf\tsruntype.htm
 tech.root: TSF
 ms.assetid: 47da6ff6-34c9-4c36-a254-ce8396723fcb
-
 ms.date: 12/05/2018
 ms.keywords: TS_RT_HIDDEN, TS_RT_OPAQUE, TS_RT_PLAIN, TsRunType, TsRunType enumeration [Text Services Framework], _tsf_tsruntype_ref, textstor/TS_RT_HIDDEN, textstor/TS_RT_OPAQUE, textstor/TS_RT_PLAIN, textstor/TsRunType, tsf.tsruntype
 ms.topic: enum
-f1_keywords: 
- - "textstor/TsRunType"
+f1_keywords:
+- textstor/TsRunType
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TsRunType
+- TsRunType
 targetos: Windows
 req.typenames: TsRunType
 req.redist: TSF 1.0 on Windows 2000 Professional

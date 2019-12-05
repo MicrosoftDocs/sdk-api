@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.__unnamed_struct_3
 title: FLASHWINFO (winuser.h)
-
 description: Contains the flash status for a window and the number of times the system should flash the window.
 old-location: base\flashwinfo_str.htm
 tech.root: Debug
 ms.assetid: b16636bc-fa77-4eb9-9801-dc2cdf0556e5
-
 ms.date: 12/05/2018
-ms.keywords: "*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO"
+ms.keywords: '*PFLASHWINFO, FLASHWINFO, FLASHWINFO structure, FLASHW_ALL, FLASHW_CAPTION, FLASHW_STOP, FLASHW_TIMER, FLASHW_TIMERNOFG, FLASHW_TRAY, PFLASHWINFO, PFLASHWINFO structure pointer, _win32_flashwinfo_str, base.flashwinfo_str, winuser/FLASHWINFO, winuser/PFLASHWINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/FLASHWINFO"
+f1_keywords:
+- winuser/FLASHWINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - FLASHWINFO
+- FLASHWINFO
 targetos: Windows
 req.typenames: FLASHWINFO, *PFLASHWINFO
 req.redist: 

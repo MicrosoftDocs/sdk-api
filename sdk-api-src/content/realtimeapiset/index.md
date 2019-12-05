@@ -1,7 +1,6 @@
 ---
 UID: NA:realtimeapiset
 ms.assetid: 56954e94-5413-37c0-8652-f06fa37b14a7
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsLunPlex.GetProperties
 title: IVdsLunPlex::GetProperties (vdshwprv.h)
-
 description: Returns the properties of the LUN plex.
 old-location: base\ivdslunplex_getproperties.htm
 tech.root: VDS
 ms.assetid: ded24edd-fa6a-48f3-a448-690078f034bb
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsLunPlex interface, IVdsLunPlex interface [VDS],GetProperties method, IVdsLunPlex.GetProperties, IVdsLunPlex::GetProperties, base.ivdslunplex_getproperties, vds/IVdsLunPlex::GetProperties, vdshwprv/IVdsLunPlex::GetProperties
 ms.topic: method
 f1_keywords:
 - vdshwprv/IVdsLunPlex.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows

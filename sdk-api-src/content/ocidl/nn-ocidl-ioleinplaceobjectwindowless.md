@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IOleInPlaceObjectWindowless
 title: IOleInPlaceObjectWindowless (ocidl.h)
-
 description: Enables a windowless object to process window messages and participate in drag and drop operations. It is derived from and extends the IOleInPlaceObject interface.
 old-location: com\ioleinplaceobjectwindowless.htm
 tech.root: com
 ms.assetid: 86aabb46-6bc7-4953-b4eb-8692552ca380
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObjectWindowless, IOleInPlaceObjectWindowless interface [COM], IOleInPlaceObjectWindowless interface [COM],described, _ole_ioleinplaceobjectwindowless, com.ioleinplaceobjectwindowless, ocidl/IOleInPlaceObjectWindowless
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IOleInPlaceObjectWindowless"
+f1_keywords:
+- ocidl/IOleInPlaceObjectWindowless
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceObjectWindowless
+- IOleInPlaceObjectWindowless
 targetos: Windows
 req.typenames: 
 req.redist: 

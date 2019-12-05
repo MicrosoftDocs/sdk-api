@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyAddProgress
 title: IDiscMasterProgressEvents::NotifyAddProgress (imapi.h)
-
 description: Notifies an application of its progress in response to calls to IRedbookDiscMaster::AddAudioTrackBlocks or IJolietDiscMaster::AddData. Notifications are sent for the first and last steps, and at points in between.
 old-location: imapi\idiscmasterprogressevents_notifyaddprogress.htm
 tech.root: imapi
 ms.assetid: d367b789-430e-48f5-9e50-5d6ffb9d7ebc
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyAddProgress method, IDiscMasterProgressEvents.NotifyAddProgress, IDiscMasterProgressEvents::NotifyAddProgress, NotifyAddProgress, NotifyAddProgress method [IMAPI], NotifyAddProgress method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyaddprogress, base.idiscmasterprogressevents_notifyaddprogress, imapi.idiscmasterprogressevents_notifyaddprogress, imapi/IDiscMasterProgressEvents::NotifyAddProgress
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMasterProgressEvents.NotifyAddProgress"
+f1_keywords:
+- imapi/IDiscMasterProgressEvents.NotifyAddProgress
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.NotifyAddProgress
+- IDiscMasterProgressEvents.NotifyAddProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

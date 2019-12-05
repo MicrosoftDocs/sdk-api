@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzApplicationGroup
 title: IAzApplicationGroup (azroles.h)
-
 description: Defines a collection of principals.
 old-location: security\iazapplicationgroup.htm
 tech.root: SecAuthZ
 ms.assetid: 6a15acde-e582-4c49-b7e4-82d4e54012b1
-
 ms.date: 12/05/2018
 ms.keywords: IAzApplicationGroup, IAzApplicationGroup interface [Security], IAzApplicationGroup interface [Security],described, azroles/IAzApplicationGroup, security.iazapplicationgroup
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzApplicationGroup"
+f1_keywords:
+- azroles/IAzApplicationGroup
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup
+- IAzApplicationGroup
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

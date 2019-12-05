@@ -1,19 +1,17 @@
 ---
 UID: NS:ehstorapi._SILO_INFO
 title: SILO_INFO (ehstorapi.h)
-
 description: SILO_INFO structure contains information that identifies and describes the silo.
 old-location: enstor\silo_info.htm
 tech.root: enstor
 ms.assetid: 8bfe7c31-61e0-420b-8b6b-6b014cd5e243
-
 ms.date: 12/05/2018
 ms.keywords: PSILO_INFO, PSILO_INFO structure pointer [Enhanced Storage], SILO_INFO, SILO_INFO structure [Enhanced Storage], ehstorapi/PSILO_INFO, ehstorapi/SILO_INFO, enstor.silo_info
 ms.topic: struct
-f1_keywords: 
- - "ehstorapi/SILO_INFO"
+f1_keywords:
+- ehstorapi/SILO_INFO
 dev_langs:
- - c++
+- c++
 req.header: ehstorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - EhStorAPI.h
+- EhStorAPI.h
 api_name:
- - SILO_INFO
+- SILO_INFO
 targetos: Windows
 req.typenames: SILO_INFO
 req.redist: 

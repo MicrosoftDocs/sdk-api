@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymSrvStoreSupplementW
 title: SymSrvStoreSupplementW function (dbghelp.h)
-
 description: Stores a file in the specified supplement to a symbol store. The file is typically associated with a file in the symbol server.
 old-location: base\symsrvstoresupplement.htm
 tech.root: Debug
 ms.assetid: 579bd9ff-cb23-426b-8188-6897d83ada28
-
 ms.date: 12/05/2018
 ms.keywords: SymSrvStoreSupplement, SymSrvStoreSupplement function, SymSrvStoreSupplementW, base.symsrvstoresupplement, dbghelp/SymSrvStoreSupplement, dbghelp/SymSrvStoreSupplementW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymSrvStoreSupplement"
+f1_keywords:
+- dbghelp/SymSrvStoreSupplement
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymSrvStoreSupplement
- - SymSrvStoreSupplement
- - SymSrvStoreSupplementW
+- SymSrvStoreSupplement
+- SymSrvStoreSupplement
+- SymSrvStoreSupplementW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

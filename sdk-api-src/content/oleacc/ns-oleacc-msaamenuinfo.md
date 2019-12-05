@@ -1,19 +1,17 @@
 ---
 UID: NS:oleacc.tagMSAAMENUINFO
 title: MSAAMENUINFO (oleacc.h)
-
 description: Used by server developers to expose the names of owner-drawn menu items.
 old-location: winauto\msaamenuinfo.htm
 tech.root: WinAuto
 ms.assetid: e8cc9c5d-eb76-4dba-90ad-94d2fd86dc8b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, winauto.msaamenuinfo"
+ms.keywords: '*LPMSAAMENUINFO, LPMSAAMENUINFO, LPMSAAMENUINFO structure pointer [Windows Accessibility], MSAAMENUINFO, MSAAMENUINFO structure [Windows Accessibility], _msaa_MSAAMENUINFO, msaa.msaamenuinfo, oleacc/LPMSAAMENUINFO, oleacc/MSAAMENUINFO, winauto.msaamenuinfo'
 ms.topic: struct
-f1_keywords: 
- - "oleacc/MSAAMENUINFO"
+f1_keywords:
+- oleacc/MSAAMENUINFO
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Oleacc.h
+- Oleacc.h
 api_name:
- - MSAAMENUINFO
+- MSAAMENUINFO
 targetos: Windows
 req.typenames: MSAAMENUINFO, *LPMSAAMENUINFO
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

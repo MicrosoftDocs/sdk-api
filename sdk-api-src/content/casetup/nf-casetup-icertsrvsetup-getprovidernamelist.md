@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetProviderNameList
 title: ICertSrvSetup::GetProviderNameList (casetup.h)
-
 description: Gets the list of cryptographic service providers (CSPs) that provide asymmetric key signature algorithms on the computer.
 old-location: security\icertsrvsetup_getprovidernamelist.htm
 tech.root: SecCrypto
 ms.assetid: a0915981-8023-4ce8-a870-7acc75c574ac
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderNameList, GetProviderNameList method [Security], GetProviderNameList method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetProviderNameList method, ICertSrvSetup.GetProviderNameList, ICertSrvSetup::GetProviderNameList, casetup/ICertSrvSetup::GetProviderNameList, security.icertsrvsetup_getprovidernamelist
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.GetProviderNameList"
+f1_keywords:
+- casetup/ICertSrvSetup.GetProviderNameList
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.GetProviderNameList
+- ICertSrvSetup.GetProviderNameList
 targetos: Windows
 req.typenames: 
 req.redist: 

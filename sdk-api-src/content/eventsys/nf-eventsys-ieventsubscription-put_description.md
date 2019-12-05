@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.put_Description
 title: IEventSubscription::put_Description (eventsys.h)
-
 description: A displayable text description of the subscription.
 old-location: cos\ieventsubscription_description.htm
 tech.root: cossdk
 ms.assetid: 59648682-12c4-4c55-83f6-57c6ec5d6d02
-
 ms.date: 12/05/2018
 ms.keywords: Description property [COM+], Description property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Description property, IEventSubscription.Description, IEventSubscription.put_Description, IEventSubscription::Description, IEventSubscription::get_Description, IEventSubscription::put_Description, cos.ieventsubscription_description, eventsys/IEventSubscription::Description, eventsys/IEventSubscription::get_Description, eventsys/IEventSubscription::put_Description, put_Description
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.Description"
+f1_keywords:
+- eventsys/IEventSubscription.Description
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.Description
- - IEventSubscription.get_Description
- - IEventSubscription.put_Description
+- IEventSubscription.Description
+- IEventSubscription.get_Description
+- IEventSubscription.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

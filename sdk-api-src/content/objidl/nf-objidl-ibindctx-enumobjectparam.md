@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IBindCtx.EnumObjectParam
 title: IBindCtx::EnumObjectParam (objidl.h)
-
 description: Retrieves a pointer to an interface that can be used to enumerate the keys of the bind context's string-keyed table of pointers.
 old-location: com\ibindctx_enumobjectparam.htm
 tech.root: com
 ms.assetid: 9e799ce4-e9b3-4b31-98a0-2167a0c19848
-
 ms.date: 12/05/2018
 ms.keywords: EnumObjectParam, EnumObjectParam method [COM], EnumObjectParam method [COM],IBindCtx interface, IBindCtx interface [COM],EnumObjectParam method, IBindCtx.EnumObjectParam, IBindCtx::EnumObjectParam, _com_ibindctx_enumobjectparam, com.ibindctx_enumobjectparam, objidl/IBindCtx::EnumObjectParam
 ms.topic: method
-f1_keywords: 
- - "objidl/IBindCtx.EnumObjectParam"
+f1_keywords:
+- objidl/IBindCtx.EnumObjectParam
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBindCtx.EnumObjectParam
+- IBindCtx.EnumObjectParam
 targetos: Windows
 req.typenames: 
 req.redist: 

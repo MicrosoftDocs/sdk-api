@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssWriterComponents.GetComponent
 title: IVssWriterComponents::GetComponent (vswriter.h)
-
 description: The GetComponent method returns an IVssComponent interface to one of a given writer's components explicitly stored in the Backup Components Document.
 old-location: base\ivsswritercomponents_getcomponent.htm
 tech.root: VSS
 ms.assetid: ee816d83-31f3-47ff-b581-cc4dcd878f22
-
 ms.date: 12/05/2018
 ms.keywords: GetComponent, GetComponent method [VSS], GetComponent method [VSS],IVssWriterComponents interface, IVssWriterComponents interface [VSS],GetComponent method, IVssWriterComponents.GetComponent, IVssWriterComponents::GetComponent, _win32_ivsswritercomponents_getcomponent, base.ivsswritercomponents_getcomponent, vswriter/IVssWriterComponents::GetComponent
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssWriterComponents.GetComponent"
+f1_keywords:
+- vswriter/IVssWriterComponents.GetComponent
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWriterComponents.GetComponent
+- IVssWriterComponents.GetComponent
 targetos: Windows
 req.typenames: 
 req.redist: 

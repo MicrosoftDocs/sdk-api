@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_DiscId
 title: IFileSystemImageResult::get_DiscId (imapi2fs.h)
-
 description: Retrieves the disc volume name for this file system image.
 old-location: imapi\ifilesystemimageresult_get_discid.htm
 tech.root: imapi
 ms.assetid: 2288b4e4-6f36-4830-a077-dcf710741911
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_DiscId method, IFileSystemImageResult.get_DiscId, IFileSystemImageResult::get_DiscId, get_DiscId, get_DiscId method [IMAPI], get_DiscId method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_discid, imapi2fs/IFileSystemImageResult::get_DiscId
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImageResult.get_DiscId"
+f1_keywords:
+- imapi2fs/IFileSystemImageResult.get_DiscId
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImageResult.get_DiscId
+- IFileSystemImageResult.get_DiscId
 targetos: Windows
 req.typenames: 
 req.redist: 

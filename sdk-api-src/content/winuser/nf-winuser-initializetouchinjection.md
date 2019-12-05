@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InitializeTouchInjection
 title: InitializeTouchInjection function (winuser.h)
-
 description: Configures the touch injection context for the calling application and initializes the maximum number of simultaneous contacts that the app can inject.
 old-location: input_touchinjection\initializetouchinjection.htm
 tech.root: Input_TouchInjection
 ms.assetid: 79cc2a05-d8ee-4d87-9c7b-fa7d5354b04f
-
 ms.date: 12/05/2018
 ms.keywords: InitializeTouchInjection, InitializeTouchInjection function [Windows Touch], input_touchinjection.initializetouchinjection, touch_injection.initializetouchinjection, winuser/InitializeTouchInjection
 ms.topic: function
-f1_keywords: 
- - "winuser/InitializeTouchInjection"
+f1_keywords:
+- winuser/InitializeTouchInjection
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- user32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-0.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-l1-1-1.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - InitializeTouchInjection
+- InitializeTouchInjection
 targetos: Windows
 req.typenames: 
 req.redist: 

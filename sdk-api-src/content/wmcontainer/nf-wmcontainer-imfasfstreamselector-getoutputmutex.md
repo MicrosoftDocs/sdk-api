@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputMutex
 title: IMFASFStreamSelector::GetOutputMutex (wmcontainer.h)
-
 description: Retrieves a mutual exclusion object for an output.
 old-location: mf\imfasfstreamselector_getoutputmutex.htm
 tech.root: medfound
 ms.assetid: d134f4a9-9bca-454f-8dc1-2e152684a4bf
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputMutex, GetOutputMutex method [Media Foundation], GetOutputMutex method [Media Foundation],IMFASFStreamSelector interface, IMFASFStreamSelector interface [Media Foundation],GetOutputMutex method, IMFASFStreamSelector.GetOutputMutex, IMFASFStreamSelector::GetOutputMutex, d134f4a9-9bca-454f-8dc1-2e152684a4bf, mf.imfasfstreamselector_getoutputmutex, wmcontainer/IMFASFStreamSelector::GetOutputMutex
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamSelector.GetOutputMutex"
+f1_keywords:
+- wmcontainer/IMFASFStreamSelector.GetOutputMutex
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamSelector.GetOutputMutex
+- IMFASFStreamSelector.GetOutputMutex
 targetos: Windows
 req.typenames: 
 req.redist: 

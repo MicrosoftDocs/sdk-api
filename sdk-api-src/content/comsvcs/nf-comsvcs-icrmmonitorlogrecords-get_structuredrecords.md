@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.get_StructuredRecords
 title: ICrmMonitorLogRecords::get_StructuredRecords (comsvcs.h)
-
 description: Retrieves a flag indicating whether the log records written by this CRM clerk were structured.
 old-location: cos\icrmmonitorlogrecords_get_structuredrecords.htm
 tech.root: cossdk
 ms.assetid: a9b687c9-1e78-4896-a407-b069328ce66d
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitorLogRecords interface [COM+],get_StructuredRecords method, ICrmMonitorLogRecords.get_StructuredRecords, ICrmMonitorLogRecords::get_StructuredRecords, _dtc_ICrmMonitorLogRecords_StructuredRecords, comsvcs/ICrmMonitorLogRecords::get_StructuredRecords, cos.icrmmonitorlogrecords_get_structuredrecords, get_StructuredRecords, get_StructuredRecords method [COM+], get_StructuredRecords method [COM+],ICrmMonitorLogRecords interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmMonitorLogRecords.get_StructuredRecords"
+f1_keywords:
+- comsvcs/ICrmMonitorLogRecords.get_StructuredRecords
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitorLogRecords.get_StructuredRecords
+- ICrmMonitorLogRecords.get_StructuredRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation2.get_AutoSetFocus
 title: IUIAutomation2::get_AutoSetFocus (uiautomationclient.h)
-
 description: Specifies whether calls to UI Automation control pattern methods automatically set focus to the target element.
 old-location: winauto\uiauto_IUIAutomation2_AutoSetFocus.htm
 tech.root: WinAuto
 ms.assetid: 86B0C641-6A5B-4E1A-ADB8-7663B246739B
-
 ms.date: 12/05/2018
 ms.keywords: AutoSetFocus property [Windows Accessibility], AutoSetFocus property [Windows Accessibility],IUIAutomation2 interface, IUIAutomation2 interface [Windows Accessibility],AutoSetFocus property, IUIAutomation2.AutoSetFocus, IUIAutomation2.get_AutoSetFocus, IUIAutomation2::AutoSetFocus, IUIAutomation2::get_AutoSetFocus, IUIAutomation2::put_AutoSetFocus, get_AutoSetFocus, uiautomationclient/IUIAutomation2::AutoSetFocus, uiautomationclient/IUIAutomation2::get_AutoSetFocus, uiautomationclient/IUIAutomation2::put_AutoSetFocus, winauto.uiauto_IUIAutomation2_AutoSetFocus
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation2.AutoSetFocus"
+f1_keywords:
+- uiautomationclient/IUIAutomation2.AutoSetFocus
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomation2.AutoSetFocus
- - IUIAutomation2.get_AutoSetFocus
- - IUIAutomation2.put_AutoSetFocus
+- IUIAutomation2.AutoSetFocus
+- IUIAutomation2.get_AutoSetFocus
+- IUIAutomation2.put_AutoSetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

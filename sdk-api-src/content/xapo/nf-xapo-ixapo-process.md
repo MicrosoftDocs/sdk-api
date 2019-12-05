@@ -1,19 +1,17 @@
 ---
 UID: NF:xapo.IXAPO.Process
 title: IXAPO::Process (xapo.h)
-
 description: Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
 old-location: xaudio2\ixapo_interface_process.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Process(UINT32,const XAPO_PROCESS_BUFFER_PARAMETERS,UINT32,XAPO_PROCESS_BUFFER_PARAMETERS@,BOOL)
-
 ms.date: 12/05/2018
 ms.keywords: IXAPO interface [XAudio2 Audio Mixing APIs],Process method, IXAPO.Process, IXAPO::Process, Process, Process method [XAudio2 Audio Mixing APIs], Process method [XAudio2 Audio Mixing APIs],IXAPO interface, xapo/IXAPO::Process, xaudio2.ixapo_interface_process
 ms.topic: method
-f1_keywords: 
- - "xapo/IXAPO.Process"
+f1_keywords:
+- xapo/IXAPO.Process
 dev_langs:
- - c++
+- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPO.h
+- XAPO.h
 api_name:
- - IXAPO.Process
+- IXAPO.Process
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:cmdtree.tagDBCONTENTPROXIMITY
 title: DBCONTENTPROXIMITY (cmdtree.h)
-
 description: The DBCONTENTPROXIMITY structure represents specific information required by the DBOP_content_proximity operator.
 old-location: indexsrv\dbcontentproximity.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_035l.htm
-
 ms.date: 12/05/2018
 ms.keywords: DBCONTENTPROXIMITY, DBCONTENTPROXIMITY structure [Indexing Service], _idxs_DBCONTENTPROXIMITY, cmdtree/DBCONTENTPROXIMITY, indexsrv.dbcontentproximity, tagDBCONTENTPROXIMITY
 ms.topic: struct
-f1_keywords: 
- - "cmdtree/DBCONTENTPROXIMITY"
+f1_keywords:
+- cmdtree/DBCONTENTPROXIMITY
 dev_langs:
- - c++
+- c++
 req.header: cmdtree.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cmdtree.h
+- cmdtree.h
 api_name:
- - DBCONTENTPROXIMITY
+- DBCONTENTPROXIMITY
 targetos: Windows
 req.typenames: DBCONTENTPROXIMITY
 req.redist: 

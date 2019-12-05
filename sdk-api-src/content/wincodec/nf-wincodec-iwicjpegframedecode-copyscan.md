@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.CopyScan
 title: IWICJpegFrameDecode::CopyScan (wincodec.h)
-
 description: Retrieves a copy of the compressed JPEG scan directly from the WIC decoder frame's output stream.
 old-location: wic\iwicjpegframedecode_copyscan.htm
 tech.root: wic
 ms.assetid: 19579C0B-AB96-424D-B433-6A88BE64A434
-
 ms.date: 12/05/2018
 ms.keywords: CopyScan, CopyScan method [Windows Imaging Component], CopyScan method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],CopyScan method, IWICJpegFrameDecode.CopyScan, IWICJpegFrameDecode::CopyScan, wic.iwicjpegframedecode_copyscan, wincodec/IWICJpegFrameDecode::CopyScan
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICJpegFrameDecode.CopyScan"
+f1_keywords:
+- wincodec/IWICJpegFrameDecode.CopyScan
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode.CopyScan
+- IWICJpegFrameDecode.CopyScan
 targetos: Windows
 req.typenames: 
 req.redist: 

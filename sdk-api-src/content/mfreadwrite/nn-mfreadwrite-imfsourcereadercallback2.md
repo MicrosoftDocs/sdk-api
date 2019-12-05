@@ -1,19 +1,17 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReaderCallback2
 title: IMFSourceReaderCallback2 (mfreadwrite.h)
-
 description: Extends the IMFSourceReaderCallback interface.
 old-location: mf\imfsourcereadercallback2.htm
 tech.root: medfound
 ms.assetid: D0EC7FE9-74C3-4A7C-A5F3-798A3D6EF2CC
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback2, IMFSourceReaderCallback2 interface [Media Foundation], IMFSourceReaderCallback2 interface [Media Foundation],described, mf.imfsourcereadercallback2, mfreadwrite/IMFSourceReaderCallback2
 ms.topic: interface
-f1_keywords: 
- - "mfreadwrite/IMFSourceReaderCallback2"
+f1_keywords:
+- mfreadwrite/IMFSourceReaderCallback2
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReaderCallback2
+- IMFSourceReaderCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 

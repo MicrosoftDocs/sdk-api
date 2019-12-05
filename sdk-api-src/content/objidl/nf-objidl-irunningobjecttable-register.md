@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Register
 title: IRunningObjectTable::Register (objidl.h)
-
 description: Registers an object and its identifying moniker in the running object table (ROT).
 old-location: com\irunningobjecttable_register.htm
 tech.root: com
 ms.assetid: 40f815b2-dfea-416c-aae1-7ba3a710ad91
-
 ms.date: 12/05/2018
 ms.keywords: IRunningObjectTable interface [COM],Register method, IRunningObjectTable.Register, IRunningObjectTable::Register, ROTFLAGS_ALLOWANYCLIENT, ROTFLAGS_REGISTRATIONKEEPSALIVE, Register, Register method [COM], Register method [COM],IRunningObjectTable interface, _com_irunningobjecttable_register, com.irunningobjecttable_register, objidl/IRunningObjectTable::Register
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunningObjectTable.Register"
+f1_keywords:
+- objidl/IRunningObjectTable.Register
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunningObjectTable.Register
+- IRunningObjectTable.Register
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Clear
 title: ITaskNamedValueCollection::Clear (taskschd.h)
-
 description: Clears the entire collection of name-value pairs.
 old-location: taskschd\itasknamedvaluecollection_clear.htm
 tech.root: taskschd
 ms.assetid: ac6ac365-5315-49d4-b67a-9c840a2caf51
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Task Scheduler], Clear method [Task Scheduler],ITaskNamedValueCollection interface, ITaskNamedValueCollection interface [Task Scheduler],Clear method, ITaskNamedValueCollection.Clear, ITaskNamedValueCollection::Clear, taskschd.itasknamedvaluecollection_clear, taskschd/ITaskNamedValueCollection::Clear
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskNamedValueCollection.Clear"
+f1_keywords:
+- taskschd/ITaskNamedValueCollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskNamedValueCollection.Clear
+- ITaskNamedValueCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

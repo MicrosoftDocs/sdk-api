@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetLanguage
 title: IMFTimedTextTrack::GetLanguage (mfmediaengine.h)
-
 description: Gets the language of the track.
 old-location: mf\imftimedtexttrack_getlanguage.htm
 tech.root: medfound
 ms.assetid: 5676082D-A3D2-4239-A73F-65FA77D660EF
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [Media Foundation], GetLanguage method [Media Foundation],IMFTimedTextTrack interface, IMFTimedTextTrack interface [Media Foundation],GetLanguage method, IMFTimedTextTrack.GetLanguage, IMFTimedTextTrack::GetLanguage, mf.imftimedtexttrack_getlanguage, mfmediaengine/IMFTimedTextTrack::GetLanguage
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextTrack.GetLanguage"
+f1_keywords:
+- mfmediaengine/IMFTimedTextTrack.GetLanguage
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextTrack.GetLanguage
+- IMFTimedTextTrack.GetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

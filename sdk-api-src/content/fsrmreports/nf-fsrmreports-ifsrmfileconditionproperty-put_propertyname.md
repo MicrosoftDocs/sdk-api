@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileConditionProperty.put_PropertyName
 title: IFsrmFileConditionProperty::put_PropertyName (fsrmreports.h)
-
 description: Specifies the name of the file condition property.
 old-location: fsrm\ifsrmfileconditionproperty_propertyname.htm
 tech.root: fsrm
 ms.assetid: 3b4a22da-769e-4425-a37d-5dfe0209ace9
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileConditionProperty interface [File Server Resource Manager],PropertyName property, IFsrmFileConditionProperty.PropertyName, IFsrmFileConditionProperty.put_PropertyName, IFsrmFileConditionProperty::PropertyName, IFsrmFileConditionProperty::get_PropertyName, IFsrmFileConditionProperty::put_PropertyName, PropertyName property [File Server Resource Manager], PropertyName property [File Server Resource Manager],IFsrmFileConditionProperty interface, fs.ifsrmfileconditionproperty_propertyname, fsrm.ifsrmfileconditionproperty_propertyname, fsrmreports/IFsrmFileConditionProperty::PropertyName, fsrmreports/IFsrmFileConditionProperty::get_PropertyName, fsrmreports/IFsrmFileConditionProperty::put_PropertyName, put_PropertyName
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileConditionProperty.PropertyName"
+f1_keywords:
+- fsrmreports/IFsrmFileConditionProperty.PropertyName
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileConditionProperty.PropertyName
- - IFsrmFileConditionProperty.get_PropertyName
- - IFsrmFileConditionProperty.put_PropertyName
+- IFsrmFileConditionProperty.PropertyName
+- IFsrmFileConditionProperty.get_PropertyName
+- IFsrmFileConditionProperty.put_PropertyName
 targetos: Windows
 req.typenames: 
 req.redist: 

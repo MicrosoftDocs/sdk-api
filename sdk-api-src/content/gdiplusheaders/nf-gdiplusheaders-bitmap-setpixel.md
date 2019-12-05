@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.SetPixel
 title: Bitmap::SetPixel (gdiplusheaders.h)
-
 description: The Bitmap::SetPixel method sets the color of a specified pixel in this bitmap.
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_SetPixel_x_y_color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\setpixel.htm
-
 ms.date: 12/05/2018
 ms.keywords: Bitmap class [GDI+],SetPixel method, Bitmap.SetPixel, Bitmap::SetPixel, SetPixel, SetPixel method [GDI+], SetPixel method [GDI+],Bitmap class, _gdiplus_CLASS_Bitmap_SetPixel_x_y_color_, gdiplus._gdiplus_CLASS_Bitmap_SetPixel_x_y_color_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Bitmap.SetPixel"
+f1_keywords:
+- gdiplusheaders/Bitmap.SetPixel
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Bitmap.SetPixel
+- Bitmap.SetPixel
 targetos: Windows
 req.typenames: 
 req.redist: 

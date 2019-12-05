@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.GetFirstChildElementBuildCache
 title: IUIAutomationTreeWalker::GetFirstChildElementBuildCache (uiautomationclient.h)
-
 description: Retrieves the first child element of the specified UI Automation element, and caches properties and control patterns.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 42bdc6c4-8ee5-4338-aba1-9740221786c8
-
 ms.date: 12/05/2018
 ms.keywords: GetFirstChildElementBuildCache, GetFirstChildElementBuildCache method [Windows Accessibility], GetFirstChildElementBuildCache method [Windows Accessibility],IUIAutomationTreeWalker interface, IUIAutomationTreeWalker interface [Windows Accessibility],GetFirstChildElementBuildCache method, IUIAutomationTreeWalker.GetFirstChildElementBuildCache, IUIAutomationTreeWalker::GetFirstChildElementBuildCache, uiauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache, uiautomationclient/IUIAutomationTreeWalker::GetFirstChildElementBuildCache, winauto.uiauto_IUIAutomationTreeWalker_GetFirstChildBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTreeWalker.GetFirstChildElementBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationTreeWalker.GetFirstChildElementBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker.GetFirstChildElementBuildCache
+- IUIAutomationTreeWalker.GetFirstChildElementBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

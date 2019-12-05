@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeCount
 title: IMFMediaTypeHandler::GetMediaTypeCount (mfidl.h)
-
 description: Retrieves the number of media types in the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypecount.htm
 tech.root: medfound
 ms.assetid: c5ee41bc-ee8b-4990-ae9d-92ef54597f31
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaTypeCount, GetMediaTypeCount method [Media Foundation], GetMediaTypeCount method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeCount method, IMFMediaTypeHandler.GetMediaTypeCount, IMFMediaTypeHandler::GetMediaTypeCount, c5ee41bc-ee8b-4990-ae9d-92ef54597f31, mf.imfmediatypehandler_getmediatypecount, mfidl/IMFMediaTypeHandler::GetMediaTypeCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaTypeHandler.GetMediaTypeCount"
+f1_keywords:
+- mfidl/IMFMediaTypeHandler.GetMediaTypeCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaTypeHandler.GetMediaTypeCount
+- IMFMediaTypeHandler.GetMediaTypeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

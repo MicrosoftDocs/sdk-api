@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxySettings
 title: IWMPNetwork::getProxySettings (wmp.h)
-
 description: The getProxySettings method retrieves the proxy setting for a given protocol.
 old-location: wmp\iwmpnetwork_getproxysettings.htm
 tech.root: WMP
 ms.assetid: 103e0d53-943d-4aba-9db1-20cdc1d75d52
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],getProxySettings method, IWMPNetwork.getProxySettings, IWMPNetwork::getProxySettings, IWMPNetworkgetProxySettings, getProxySettings, getProxySettings method [Windows Media Player], getProxySettings method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_getproxysettings, wmp/IWMPNetwork::getProxySettings
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.getProxySettings"
+f1_keywords:
+- wmp/IWMPNetwork.getProxySettings
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.getProxySettings
+- IWMPNetwork.getProxySettings
 targetos: Windows
 req.typenames: 
 req.redist: 

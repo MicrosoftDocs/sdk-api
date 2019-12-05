@@ -1,19 +1,17 @@
 ---
 UID: NS:contentpartner.WMPContextMenuInfo
 title: WMPContextMenuInfo (contentpartner.h)
-
 description: The WMPContextMenuInfo structure contains data about a context menu command.
 old-location: wmp\wmpcontextmenuinfo.htm
 tech.root: WMP
 ms.assetid: a37ddbe1-7c66-4060-b93d-bd494cdc4521
-
 ms.date: 12/05/2018
 ms.keywords: WMPContextMenuInfo, WMPContextMenuInfo structure [Windows Media Player], contentpartner/WMPContextMenuInfo, wmp.wmpcontextmenuinfo
 ms.topic: struct
-f1_keywords: 
- - "contentpartner/WMPContextMenuInfo"
+f1_keywords:
+- contentpartner/WMPContextMenuInfo
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - WMPContextMenuInfo
+- WMPContextMenuInfo
 targetos: Windows
 req.typenames: WMPContextMenuInfo
 req.redist: 

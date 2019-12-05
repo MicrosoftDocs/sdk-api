@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProvider.Resolve
 title: ITraceDataProvider::Resolve (pla.h)
-
 description: Merges the details about a provider with this instance.
 old-location: pla\itracedataprovider_resolve.htm
 tech.root: PLA
 ms.assetid: cabe7207-30f9-4382-bc29-b435d6e4c218
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Resolve method, ITraceDataProvider.Resolve, ITraceDataProvider::Resolve, Resolve, Resolve method [PLA], Resolve method [PLA],ITraceDataProvider interface, base.itracedataprovider_resolve, pla.itracedataprovider_resolve, pla/ITraceDataProvider::Resolve
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProvider.Resolve"
+f1_keywords:
+- pla/ITraceDataProvider.Resolve
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProvider.Resolve
+- ITraceDataProvider.Resolve
 targetos: Windows
 req.typenames: 
 req.redist: 

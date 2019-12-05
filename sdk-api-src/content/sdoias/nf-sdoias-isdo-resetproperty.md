@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdo.ResetProperty
 title: ISdo::ResetProperty (sdoias.h)
-
 description: The ResetProperty method resets the specified property to its default value.
 old-location: nps\SDO_isdo_resetproperty.htm
 tech.root: Nps
 ms.assetid: 650df0aa-6331-4a3f-b965-d48fd68fd31d
-
 ms.date: 12/05/2018
 ms.keywords: ISdo interface [Network Policy Server],ResetProperty method, ISdo.ResetProperty, ISdo::ResetProperty, ResetProperty, ResetProperty method [Network Policy Server], ResetProperty method [Network Policy Server],ISdo interface, _sdo_isdo_resetproperty, nps.SDO_isdo_resetproperty, sdo.isdo_resetproperty, sdoias/ISdo::ResetProperty
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdo.ResetProperty"
+f1_keywords:
+- sdoias/ISdo.ResetProperty
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdo.ResetProperty
+- ISdo.ResetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

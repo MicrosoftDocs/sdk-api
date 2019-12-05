@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdcep.__unnamed_struct_0
 title: RPC_DISPATCH_TABLE (rpcdcep.h)
-
 description: The RPC_DISPATCH_TABLE structure is part of the private interface between the run-time libraries and the stubs. Most distributed applications that use Microsoft RPC do not need this structure.
 old-location: rpc\rpc_dispatch_table.htm
 tech.root: Rpc
 ms.assetid: 6e34c7a6-3d74-4d1d-9b56-8120fbca1d67
-
 ms.date: 12/05/2018
-ms.keywords: "*PRPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE structure [RPC], _rpc_rpc_dispatch_table, rpc.rpc_dispatch_table, rpcdcep/RPC_DISPATCH_TABLE"
+ms.keywords: '*PRPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE, RPC_DISPATCH_TABLE structure [RPC], _rpc_rpc_dispatch_table, rpc.rpc_dispatch_table, rpcdcep/RPC_DISPATCH_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "rpcdcep/RPC_DISPATCH_TABLE"
+f1_keywords:
+- rpcdcep/RPC_DISPATCH_TABLE
 dev_langs:
- - c++
+- c++
 req.header: rpcdcep.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RpcdceP.h
+- RpcdceP.h
 api_name:
- - RPC_DISPATCH_TABLE
+- RPC_DISPATCH_TABLE
 targetos: Windows
 req.typenames: RPC_DISPATCH_TABLE, *PRPC_DISPATCH_TABLE
 req.redist: 

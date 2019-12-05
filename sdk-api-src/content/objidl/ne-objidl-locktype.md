@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl.tagLOCKTYPE
 title: LOCKTYPE (objidl.h)
-
 description: The LOCKTYPE enumeration values indicate the type of locking requested for the specified range of bytes. The values are used in the ILockBytes::LockRegion and IStream::LockRegion methods.
 old-location: stg\locktype.htm
 tech.root: Stg
 ms.assetid: 5d84fb08-aa4f-4918-a0de-550b02cb5287
-
 ms.date: 12/05/2018
 ms.keywords: LOCKTYPE, LOCKTYPE enumeration [Structured Storage], LOCK_EXCLUSIVE, LOCK_ONLYONCE, LOCK_WRITE, _stg_locktype, objidl/LOCKTYPE, objidl/LOCK_EXCLUSIVE, objidl/LOCK_ONLYONCE, objidl/LOCK_WRITE, stg.locktype
 ms.topic: enum
-f1_keywords: 
- - "objidl/LOCKTYPE"
+f1_keywords:
+- objidl/LOCKTYPE
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - LOCKTYPE
+- LOCKTYPE
 targetos: Windows
 req.typenames: LOCKTYPE
 req.redist: 

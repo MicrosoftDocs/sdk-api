@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_PublicKeyAlgorithm
 title: IX509SignatureInformation::get_PublicKeyAlgorithm (certenroll.h)
-
 description: Specifies and retrieves an object identifier (OID) for the public key algorithm used in the GetSignatureAlgorithm method.
 old-location: security\ix509signatureinformation_publickeyalgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: f964328f-15a6-4d8e-a2cf-73c8d74995e8
-
 ms.date: 12/05/2018
 ms.keywords: IX509SignatureInformation interface [Security],PublicKeyAlgorithm property, IX509SignatureInformation.PublicKeyAlgorithm, IX509SignatureInformation.get_PublicKeyAlgorithm, IX509SignatureInformation::PublicKeyAlgorithm, IX509SignatureInformation::get_PublicKeyAlgorithm, IX509SignatureInformation::put_PublicKeyAlgorithm, PublicKeyAlgorithm property [Security], PublicKeyAlgorithm property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::PublicKeyAlgorithm, certenroll/IX509SignatureInformation::get_PublicKeyAlgorithm, certenroll/IX509SignatureInformation::put_PublicKeyAlgorithm, get_PublicKeyAlgorithm, security.ix509signatureinformation_publickeyalgorithm_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SignatureInformation.PublicKeyAlgorithm"
+f1_keywords:
+- certenroll/IX509SignatureInformation.PublicKeyAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509SignatureInformation.PublicKeyAlgorithm
- - IX509SignatureInformation.get_PublicKeyAlgorithm
- - IX509SignatureInformation.put_PublicKeyAlgorithm
+- IX509SignatureInformation.PublicKeyAlgorithm
+- IX509SignatureInformation.get_PublicKeyAlgorithm
+- IX509SignatureInformation.put_PublicKeyAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

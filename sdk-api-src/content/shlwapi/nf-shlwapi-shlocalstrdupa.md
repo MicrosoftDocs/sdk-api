@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHLocalStrDupA
 title: SHLocalStrDupA function (shlwapi.h)
-
 description: Makes a copy of a string in newly allocated memory.
 old-location: shell\SHLocalStrDup.htm
 tech.root: shell
 ms.assetid: 79da6160-b1b1-41c3-9b21-229aadf251dd
-
 ms.date: 12/05/2018
 ms.keywords: SHLocalStrDup, SHLocalStrDup function [Windows Shell], SHLocalStrDupA, SHLocalStrDupW, _shell_SHLocalStrDup, shell.SHLocalStrDup, shlwapi/SHLocalStrDup, shlwapi/SHLocalStrDupA, shlwapi/SHLocalStrDupW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHLocalStrDup"
+f1_keywords:
+- shlwapi/SHLocalStrDup
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlwapi.h
+- Shlwapi.h
 api_name:
- - SHLocalStrDup
- - SHLocalStrDupA
- - SHLocalStrDupW
+- SHLocalStrDup
+- SHLocalStrDupA
+- SHLocalStrDupW
 targetos: Windows
 req.typenames: 
 req.redist: 

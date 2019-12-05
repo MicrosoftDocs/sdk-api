@@ -1,39 +1,37 @@
 ---
 UID: NN:tuner.IMPEG2TuneRequestSupport~r1
 title: IMPEG2TuneRequestSupport
-
 description: TBD
-tech.root:
+tech.root: 
 ms.assetid: b7381962-b76e-4041-a080-66408d0f3cb7
-
 ms.date: 11/14/2019
 ms.topic: interface
-f1_keywords: 
- - "tuner/IMPEG2TuneRequestSupport"
+f1_keywords:
+- tuner/IMPEG2TuneRequestSupport
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - tuner.h
-api_name: 
- - IMPEG2TuneRequestSupport
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- tuner.h
+api_name:
+- IMPEG2TuneRequestSupport
 targetos: Windows
 ms.custom: 19H1
 ---

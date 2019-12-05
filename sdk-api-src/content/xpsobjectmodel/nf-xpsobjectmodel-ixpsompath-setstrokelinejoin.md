@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeLineJoin
 title: IXpsOMPath::SetStrokeLineJoin (xpsobjectmodel.h)
-
 description: Sets the style for joining stroke lines.
 old-location: xps\ixpsompath_setstrokelinejoin.htm
 tech.root: printdocs
 ms.assetid: cd650051-ee26-4a8a-b344-2fe84fb2c2a5
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeLineJoin method, IXpsOMPath.SetStrokeLineJoin, IXpsOMPath::SetStrokeLineJoin, SetStrokeLineJoin, SetStrokeLineJoin method [XPS Documents and Packaging], SetStrokeLineJoin method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokelinejoin, xpsobjectmodel/IXpsOMPath::SetStrokeLineJoin
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetStrokeLineJoin"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetStrokeLineJoin
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetStrokeLineJoin
+- IXpsOMPath.SetStrokeLineJoin
 targetos: Windows
 req.typenames: 
 req.redist: 

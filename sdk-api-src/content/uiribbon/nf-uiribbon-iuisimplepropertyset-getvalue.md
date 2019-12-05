@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUISimplePropertySet.GetValue
 title: IUISimplePropertySet::GetValue (uiribbon.h)
-
 description: Retrieves the value identified by a property key.
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset_getvalue.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\getvalue.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Windows Ribbon], GetValue method [Windows Ribbon],IUISimplePropertySet interface, IUISimplePropertySet interface [Windows Ribbon],GetValue method, IUISimplePropertySet.GetValue, IUISimplePropertySet::GetValue, scenicintent_IUISimplePropertySet_GetValue, uiribbon/IUISimplePropertySet::GetValue, windowsribbon.windowsribbon_iuisimplepropertyset_getvalue
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUISimplePropertySet.GetValue"
+f1_keywords:
+- uiribbon/IUISimplePropertySet.GetValue
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUISimplePropertySet.GetValue
+- IUISimplePropertySet.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

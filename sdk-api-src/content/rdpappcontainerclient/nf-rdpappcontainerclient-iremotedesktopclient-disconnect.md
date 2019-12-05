@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.Disconnect
 title: IRemoteDesktopClient::Disconnect (rdpappcontainerclient.h)
-
 description: Disconnects the active connection.
 old-location: termserv\iremotedesktopclient_disconnect.htm
 tech.root: TermServ
 ms.assetid: 134e72ad-93dd-4f53-b26c-09654f309658
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [Remote Desktop Services], Disconnect method [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Disconnect method, IRemoteDesktopClient.Disconnect, IRemoteDesktopClient::Disconnect, rdpappcontainerclient/IRemoteDesktopClient::Disconnect, termserv.iremotedesktopclient_disconnect
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClient.Disconnect"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClient.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClient.Disconnect
+- IRemoteDesktopClient.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

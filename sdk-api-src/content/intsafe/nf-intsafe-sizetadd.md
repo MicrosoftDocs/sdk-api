@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.SizeTAdd
 title: SizeTAdd function (intsafe.h)
-
 description: Adds two values of type size_t.
 old-location: shell\SizeTAdd.htm
 tech.root: shell
 ms.assetid: 1cabc944-0819-4a24-ab61-6d5375ba1573
-
 ms.date: 12/05/2018
 ms.keywords: SizeTAdd, SizeTAdd function [Windows Shell], _shell_SizeTAdd, intsafe/SizeTAdd, shell.SizeTAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/SizeTAdd"
+f1_keywords:
+- intsafe/SizeTAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - SizeTAdd
+- SizeTAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:restartmanager.RmJoinSession
 title: RmJoinSession function (restartmanager.h)
-
 description: Joins a secondary installer to an existing Restart Manager session.
 old-location: rstmgr\rmjoinsession.htm
 tech.root: rstmgr
 ms.assetid: f9cb2d81-a2bc-4bb7-920a-1630354ea942
-
 ms.date: 12/05/2018
 ms.keywords: RmJoinSession, RmJoinSession function [Restart Mgr], restartmanager/RmJoinSession, rstmgr.rmjoinsession
 ms.topic: function
-f1_keywords: 
- - "restartmanager/RmJoinSession"
+f1_keywords:
+- restartmanager/RmJoinSession
 dev_langs:
- - c++
+- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rstrtmgr.lib
 req.dll: Rstrtmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rstrtmgr.dll
+- Rstrtmgr.dll
 api_name:
- - RmJoinSession
+- RmJoinSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLEvaluationContext.BindValue
 title: IWinMLEvaluationContext::BindValue (winml.h)
-
 description: Binds the input/output to the given model.
 old-location: machinelearning\iwinmlevaluationcontext_bindvalue_.htm
 tech.root: MachineLearning
 ms.assetid: 3D417952-92DD-4111-9060-C7F8CCA456AB
-
 ms.date: 12/05/2018
 ms.keywords: BindValue, BindValue method, BindValue method,IWinMLEvaluationContext interface, IWinMLEvaluationContext interface,BindValue method, IWinMLEvaluationContext.BindValue, IWinMLEvaluationContext::BindValue, MachineLearning.iwinmlevaluationcontext_bindvalue_, winml/IWinMLEvaluationContext::BindValue
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLEvaluationContext.BindValue"
+f1_keywords:
+- winml/IWinMLEvaluationContext.BindValue
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLEvaluationContext.BindValue
+- IWinMLEvaluationContext.BindValue
 targetos: Windows
 req.typenames: 
 req.redist: 

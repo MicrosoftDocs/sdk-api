@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplications.get__NewEnum
 title: IAzApplications::get__NewEnum (azroles.h)
-
 description: Retrieves an IEnumVARIANT interface on an object that can be used to enumerate the collection. This property is hidden within Visual Basic and Visual Basic Scripting Edition (VBScript).
 old-location: security\iazapplications_newenum.htm
 tech.root: SecAuthZ
 ms.assetid: 8c01c1b4-d3e0-40c2-b0b7-524423c38c45
-
 ms.date: 12/05/2018
 ms.keywords: AzApplications object [Security],_NewEnum property, IAzApplications interface [Security],_NewEnum property, IAzApplications._NewEnum, IAzApplications.get__NewEnum, IAzApplications::_NewEnum, IAzApplications::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzApplications object, _NewEnum property [Security],IAzApplications interface, azroles/IAzApplications::_NewEnum, azroles/IAzApplications::get__NewEnum, get__NewEnum, security.iazapplications_newenum
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplications._NewEnum"
+f1_keywords:
+- azroles/IAzApplications._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplications._NewEnum
- - IAzApplications.get__NewEnum
- - AzApplications._NewEnum
+- IAzApplications._NewEnum
+- IAzApplications.get__NewEnum
+- AzApplications._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

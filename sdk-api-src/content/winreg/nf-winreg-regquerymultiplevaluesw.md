@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegQueryMultipleValuesW
 title: RegQueryMultipleValuesW function (winreg.h)
-
 description: Retrieves the type and data for a list of value names associated with an open registry key.
 old-location: base\regquerymultiplevalues.htm
 tech.root: SysInfo
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
-
 ms.date: 12/05/2018
 ms.keywords: RegQueryMultipleValues, RegQueryMultipleValues function, RegQueryMultipleValuesA, RegQueryMultipleValuesW, _win32_regquerymultiplevalues, base.regquerymultiplevalues, winreg/RegQueryMultipleValues, winreg/RegQueryMultipleValuesA, winreg/RegQueryMultipleValuesW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegQueryMultipleValues"
+f1_keywords:
+- winreg/RegQueryMultipleValues
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegQueryMultipleValues
- - RegQueryMultipleValuesA
- - RegQueryMultipleValuesW
+- RegQueryMultipleValues
+- RegQueryMultipleValuesA
+- RegQueryMultipleValuesW
 targetos: Windows
 req.typenames: 
 req.redist: 

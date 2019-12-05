@@ -1,19 +1,17 @@
 ---
 UID: NS:vfw.tagCapStatus
 title: CAPSTATUS (vfw.h)
-
 description: The CAPSTATUS structure defines the current state of the capture window.
 old-location: multimedia\capstatus.htm
 tech.root: Multimedia
 ms.assetid: 65ad6e33-c601-4026-a5a4-2c68576d7ab7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCAPSTATUS, *PCAPSTATUS, CAPSTATUS, CAPSTATUS structure [Windows Multimedia], _win32_CAPSTATUS_str, multimedia.capstatus, vfw/CAPSTATUS"
+ms.keywords: '*LPCAPSTATUS, *PCAPSTATUS, CAPSTATUS, CAPSTATUS structure [Windows Multimedia], _win32_CAPSTATUS_str, multimedia.capstatus, vfw/CAPSTATUS'
 ms.topic: struct
-f1_keywords: 
- - "vfw/CAPSTATUS"
+f1_keywords:
+- vfw/CAPSTATUS
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - CAPSTATUS
+- CAPSTATUS
 targetos: Windows
 req.typenames: CAPSTATUS, *PCAPSTATUS, *LPCAPSTATUS
 req.redist: 

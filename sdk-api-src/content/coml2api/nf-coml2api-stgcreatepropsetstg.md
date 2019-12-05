@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.StgCreatePropSetStg
 title: StgCreatePropSetStg function (coml2api.h)
-
 description: Creates a property set storage object from a specified storage object.
 old-location: stg\stgcreatepropsetstg.htm
 tech.root: Stg
 ms.assetid: 0113b29d-23aa-4590-b8ac-33789a7a2ed4
-
 ms.date: 12/05/2018
 ms.keywords: StgCreatePropSetStg, StgCreatePropSetStg function [Structured Storage], _stg_stgcreatepropsetstg, coml2api/StgCreatePropSetStg, stg.stgcreatepropsetstg
 ms.topic: function
-f1_keywords: 
- - "coml2api/StgCreatePropSetStg"
+f1_keywords:
+- coml2api/StgCreatePropSetStg
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Propidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - StgCreatePropSetStg
+- StgCreatePropSetStg
 targetos: Windows
 req.typenames: 
 req.redist: 

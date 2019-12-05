@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetSortDescription
 title: IPropertyDescription::GetSortDescription (propsys.h)
-
 description: Gets the current sort description flags for the property, which indicate the particular wordings of sort offerings.
 old-location: properties\IPropertyDescription_GetSortDescription.htm
 tech.root: properties
 ms.assetid: 71f565b3-cf77-498c-b2a5-3a49a71c102f
-
 ms.date: 12/05/2018
 ms.keywords: GetSortDescription, GetSortDescription method [Windows Properties], GetSortDescription method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescription method, IPropertyDescription.GetSortDescription, IPropertyDescription::GetSortDescription, PDSD_A_Z, PDSD_GENERAL, PDSD_LOWEST_HIGHEST, PDSD_OLDEST_NEWEST, PDSD_SMALLEST_BIGGEST, properties.IPropertyDescription_GetSortDescription, propsys/IPropertyDescription::GetSortDescription, shell.IPropertyDescription_GetSortDescription, shell_IPropertyDescription_GetSortDescription
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetSortDescription"
+f1_keywords:
+- propsys/IPropertyDescription.GetSortDescription
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetSortDescription
+- IPropertyDescription.GetSortDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

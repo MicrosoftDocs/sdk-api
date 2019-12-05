@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSourceOpenMonitor.OnSourceEvent
 title: IMFSourceOpenMonitor::OnSourceEvent (mfidl.h)
-
 description: Called by the network source when the open operation begins or ends.
 old-location: mf\imfsourceopenmonitor_onsourceevent.htm
 tech.root: medfound
 ms.assetid: 19b9a891-5116-41b3-8750-85f2c23d3d7f
-
 ms.date: 12/05/2018
 ms.keywords: 19b9a891-5116-41b3-8750-85f2c23d3d7f, IMFSourceOpenMonitor interface [Media Foundation],OnSourceEvent method, IMFSourceOpenMonitor.OnSourceEvent, IMFSourceOpenMonitor::OnSourceEvent, OnSourceEvent, OnSourceEvent method [Media Foundation], OnSourceEvent method [Media Foundation],IMFSourceOpenMonitor interface, mf.imfsourceopenmonitor_onsourceevent, mfidl/IMFSourceOpenMonitor::OnSourceEvent
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSourceOpenMonitor.OnSourceEvent"
+f1_keywords:
+- mfidl/IMFSourceOpenMonitor.OnSourceEvent
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSourceOpenMonitor.OnSourceEvent
+- IMFSourceOpenMonitor.OnSourceEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RESIDENCY_FLAGS
 title: D3D12_RESIDENCY_FLAGS (d3d12.h)
-
 description: Used with the EnqueuMakeResident function to choose how residency operations proceed when the memory budget is exceeded.
 old-location: direct3d12\d3d12_residency_flags.htm
 tech.root: direct3d12
 ms.assetid: 87AC193A-4754-4E92-A08C-082C3C1513D6
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESIDENCY_FLAGS, D3D12_RESIDENCY_FLAGS enumeration, D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET, D3D12_RESIDENCY_FLAG_NONE, d3d12/D3D12_RESIDENCY_FLAGS, d3d12/D3D12_RESIDENCY_FLAG_DENY_OVERBUDGET, d3d12/D3D12_RESIDENCY_FLAG_NONE, direct3d12.d3d12_residency_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RESIDENCY_FLAGS"
+f1_keywords:
+- d3d12/D3D12_RESIDENCY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_RESIDENCY_FLAGS
+- D3D12_RESIDENCY_FLAGS
 targetos: Windows
 req.typenames: D3D12_RESIDENCY_FLAGS
 req.redist: 

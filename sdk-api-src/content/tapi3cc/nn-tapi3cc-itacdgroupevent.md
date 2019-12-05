@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3cc.ITACDGroupEvent
 title: ITACDGroupEvent (tapi3cc.h)
-
 description: The ITACDGroupEvent interface contains methods that retrieve the description of Automatic Call Distribution (ACD) group events.
 old-location: tapi3\itacdgroupevent.htm
 tech.root: Tapi
 ms.assetid: 5770dca5-cf71-4211-ba9f-0fe7a3bbb614
-
 ms.date: 12/05/2018
 ms.keywords: ITACDGroupEvent, ITACDGroupEvent interface [TAPI 2.2], ITACDGroupEvent interface [TAPI 2.2],described, _tapi3_itacdgroupevent, tapi3.itacdgroupevent, tapi3cc/ITACDGroupEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3cc/ITACDGroupEvent"
+f1_keywords:
+- tapi3cc/ITACDGroupEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3cc.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITACDGroupEvent
+- ITACDGroupEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

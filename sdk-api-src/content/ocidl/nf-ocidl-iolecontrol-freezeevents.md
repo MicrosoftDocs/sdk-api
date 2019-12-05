@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleControl.FreezeEvents
 title: IOleControl::FreezeEvents (ocidl.h)
-
 description: Indicates whether the container is ignoring or accepting events from the control.
 old-location: com\iolecontrol_freezeevents.htm
 tech.root: com
 ms.assetid: 08872f4f-eb3e-434c-bd7d-d4de621948ad
-
 ms.date: 12/05/2018
 ms.keywords: FreezeEvents, FreezeEvents method [COM], FreezeEvents method [COM],IOleControl interface, IOleControl interface [COM],FreezeEvents method, IOleControl.FreezeEvents, IOleControl::FreezeEvents, _ctrl_iolecontrol_freezeevents, com.iolecontrol_freezeevents, ocidl/IOleControl::FreezeEvents
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleControl.FreezeEvents"
+f1_keywords:
+- ocidl/IOleControl.FreezeEvents
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleControl.FreezeEvents
+- IOleControl.FreezeEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

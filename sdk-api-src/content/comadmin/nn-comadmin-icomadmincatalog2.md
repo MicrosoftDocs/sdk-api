@@ -1,19 +1,17 @@
 ---
 UID: NN:comadmin.ICOMAdminCatalog2
 title: ICOMAdminCatalog2 (comadmin.h)
-
 description: An extension of the ICOMAdminCatalog interface.
 old-location: cos\icomadmincatalog2.htm
 tech.root: cossdk
 ms.assetid: ffca611d-dacc-47be-9101-9de76ecc8393
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2, ICOMAdminCatalog2 interface [COM+], ICOMAdminCatalog2 interface [COM+],described, comadmin/ICOMAdminCatalog2, cos.icomadmincatalog2
 ms.topic: interface
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2
+- ICOMAdminCatalog2
 targetos: Windows
 req.typenames: 
 req.redist: 

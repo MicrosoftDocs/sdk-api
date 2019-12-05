@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_TUNNEL_POLICY1_
 title: IPSEC_TUNNEL_POLICY1 (ipsectypes.h)
-
 description: Stores the quick mode negotiation policy for tunnel mode IPsec.
 old-location: fwp\ipsec_tunnel_policy1_struct.htm
 tech.root: fwp
 ms.assetid: b51d330f-3f10-43e2-9018-eb6fd35ffe25
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_POLICY_FLAG_CLEAR_DF_ON_TUNNEL, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_BYTE_LIFETIME, IPSEC_POLICY_FLAG_DONT_NEGOTIATE_SECOND_LIFETIME, IPSEC_POLICY_FLAG_ENABLE_SERVER_ADDR_ASSIGNMENT, IPSEC_POLICY_FLAG_ENABLE_V6_IN_V4_TUNNELING, IPSEC_POLICY_FLAG_ND_BOUNDARY, IPSEC_POLICY_FLAG_ND_SECURE, IPSEC_POLICY_FLAG_TUNNEL_ALLOW_OUTBOUND_CLEAR_CONNECTION, IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ALREADY_SECURE_CONNECTION, IPSEC_POLICY_FLAG_TUNNEL_BYPASS_ICMPV6, IPSEC_TUNNEL_POLICY1, IPSEC_TUNNEL_POLICY1 structure [Filtering], fwp.ipsec_tunnel_policy1_struct, ipsectypes/IPSEC_TUNNEL_POLICY1
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_TUNNEL_POLICY1"
+f1_keywords:
+- ipsectypes/IPSEC_TUNNEL_POLICY1
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TUNNEL_POLICY1
+- IPSEC_TUNNEL_POLICY1
 targetos: Windows
 req.typenames: IPSEC_TUNNEL_POLICY1
 req.redist: 

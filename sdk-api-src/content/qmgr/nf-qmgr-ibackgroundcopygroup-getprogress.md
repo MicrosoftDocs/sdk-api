@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetProgress
 title: IBackgroundCopyGroup::GetProgress (qmgr.h)
-
 description: Use the GetProgress method to retrieve the progress of the download.
 old-location: bits\ibackgroundcopygroup_getprogress.htm
 tech.root: Bits
 ms.assetid: a596a005-a3ad-4d2b-b19b-60c2279590da
-
 ms.date: 12/05/2018
 ms.keywords: GetProgress, GetProgress method [BITS], GetProgress method [BITS],IBackgroundCopyGroup interface, IBackgroundCopyGroup interface [BITS],GetProgress method, IBackgroundCopyGroup.GetProgress, IBackgroundCopyGroup::GetProgress, QM_PROGRESS_PERCENT_DONE, QM_PROGRESS_SIZE_DONE, QM_PROGRESS_TIME_DONE, bits.ibackgroundcopygroup_getprogress, qmgr/IBackgroundCopyGroup::GetProgress
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.GetProgress"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.GetProgress
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.GetProgress
+- IBackgroundCopyGroup.GetProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

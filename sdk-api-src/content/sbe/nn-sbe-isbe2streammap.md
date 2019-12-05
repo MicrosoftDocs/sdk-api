@@ -1,19 +1,17 @@
 ---
 UID: NN:sbe.ISBE2StreamMap
 title: ISBE2StreamMap (sbe.h)
-
 description: Handles the mapping between output pins and streams for the Stream Buffer Source filter.
 old-location: mstv\isbe2streammap.htm
 tech.root: mstv
 ms.assetid: d63691ca-2420-4c54-b343-be85d634488c
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2StreamMap, ISBE2StreamMap interface [Microsoft TV Technologies], ISBE2StreamMap interface [Microsoft TV Technologies],described, mstv.isbe2streammap, sbe/ISBE2StreamMap
 ms.topic: interface
-f1_keywords: 
- - "sbe/ISBE2StreamMap"
+f1_keywords:
+- sbe/ISBE2StreamMap
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2StreamMap
+- ISBE2StreamMap
 targetos: Windows
 req.typenames: 
 req.redist: 

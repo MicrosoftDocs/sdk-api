@@ -1,19 +1,17 @@
 ---
 UID: NN:bits5_0.IBackgroundCopyJob5
 title: IBackgroundCopyJob5 (bits5_0.h)
-
 description: Use this interface to query or set several optional behaviors of a job.
 old-location: bits\bits5_functions.htm
 tech.root: Bits
 ms.assetid: 97481F9D-1F7B-473A-B288-A52E527478A0
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob5, IBackgroundCopyJob5 interface [BITS], IBackgroundCopyJob5 interface [BITS],described, bits.bits5_functions, bits.ibackgroundcopyjob5, bits5_0/IBackgroundCopyJob5
 ms.topic: interface
-f1_keywords: 
- - "bits5_0/IBackgroundCopyJob5"
+f1_keywords:
+- bits5_0/IBackgroundCopyJob5
 dev_langs:
- - c++
+- c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: Bitsprx7.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bitsprx7.dll
+- bitsprx7.dll
 api_name:
- - IBackgroundCopyJob5
+- IBackgroundCopyJob5
 targetos: Windows
 req.typenames: 
 req.redist: 

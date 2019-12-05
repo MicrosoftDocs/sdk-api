@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetSignatureBlockResources
 title: IXpsOMDocument::GetSignatureBlockResources (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMSignatureBlockResourceCollection interface, which refers to a collection of the document's digital signature block resources.
 old-location: xps\ixpsomdocument_getsignatureblockresources.htm
 tech.root: printdocs
 ms.assetid: 87be3040-6113-4876-a847-93620207647f
-
 ms.date: 12/05/2018
 ms.keywords: GetSignatureBlockResources, GetSignatureBlockResources method [XPS Documents and Packaging], GetSignatureBlockResources method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetSignatureBlockResources method, IXpsOMDocument.GetSignatureBlockResources, IXpsOMDocument::GetSignatureBlockResources, xps.ixpsomdocument_getsignatureblockresources, xpsobjectmodel/IXpsOMDocument::GetSignatureBlockResources
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocument.GetSignatureBlockResources"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocument.GetSignatureBlockResources
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocument.GetSignatureBlockResources
+- IXpsOMDocument.GetSignatureBlockResources
 targetos: Windows
 req.typenames: 
 req.redist: 

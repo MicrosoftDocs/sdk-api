@@ -1,19 +1,17 @@
 ---
 UID: NE:peerdist._PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 title: PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS (peerdist.h)
-
 description: The PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration defines the possible client information values.
 old-location: p2p\peerdist_client_info_by_handle_class.htm
 tech.root: P2PSdk
 ms.assetid: 28391dc5-ec89-44d9-acac-b7ff3868e542
-
 ms.date: 12/05/2018
 ms.keywords: '*PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, MaximumPeerDistClientInfoByHandlesClass, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration [Peer Networking], PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS enumeration pointer [Peer Networking], PeerDistClientBasicInfo, p2p.peerdist_client_info_by_handle_class, peerdist/MaximumPeerDistClientInfoByHandlesClass, peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS, peerdist/PeerDistClientBasicInfo'
 ms.topic: enum
 f1_keywords:
 - peerdist/PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 dev_langs:
- - c++
+- c++
 req.header: peerdist.h
 req.include-header: 
 req.target-type: Windows

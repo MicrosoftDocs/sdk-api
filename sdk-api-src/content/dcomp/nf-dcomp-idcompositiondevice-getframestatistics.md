@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.GetFrameStatistics
 title: IDCompositionDevice::GetFrameStatistics (dcomp.h)
-
 description: Retrieves information from the composition engine about composition times and the frame rate.
 old-location: directcomp\idcompositiondevice_getframestatistics.htm
 tech.root: directcomp
 ms.assetid: C4DB7A16-BF91-4CD0-BCD2-4793D9599E0A
-
 ms.date: 12/05/2018
 ms.keywords: GetFrameStatistics, GetFrameStatistics method [DirectComposition], GetFrameStatistics method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],GetFrameStatistics method, IDCompositionDevice.GetFrameStatistics, IDCompositionDevice::GetFrameStatistics, dcomp/IDCompositionDevice::GetFrameStatistics, directcomp.idcompositiondevice_getframestatistics
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.GetFrameStatistics"
+f1_keywords:
+- dcomp/IDCompositionDevice.GetFrameStatistics
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.GetFrameStatistics
+- IDCompositionDevice.GetFrameStatistics
 targetos: Windows
 req.typenames: 
 req.redist: 

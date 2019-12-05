@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.detachEvent
 title: IRemoteDesktopClient::detachEvent (rdpappcontainerclient.h)
-
 description: Detaches an event handler from an event.
 old-location: termserv\iremotedesktopclient_detachevent.htm
 tech.root: TermServ
 ms.assetid: 5913da44-3dc2-40a3-9808-3619e5fa91b4
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],detachEvent method, IRemoteDesktopClient.detachEvent, IRemoteDesktopClient::detachEvent, detachEvent, detachEvent method [Remote Desktop Services], detachEvent method [Remote Desktop Services],IRemoteDesktopClient interface, rdpappcontainerclient/IRemoteDesktopClient::detachEvent, termserv.iremotedesktopclient_detachevent
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClient.detachEvent"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClient.detachEvent
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClient.detachEvent
+- IRemoteDesktopClient.detachEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

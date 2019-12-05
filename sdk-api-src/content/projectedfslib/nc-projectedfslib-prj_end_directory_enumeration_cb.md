@@ -1,19 +1,17 @@
 ---
 UID: NC:projectedfslib.PRJ_END_DIRECTORY_ENUMERATION_CB
 title: PRJ_END_DIRECTORY_ENUMERATION_CB (projectedfslib.h)
-
 description: Informs the provider that a directory enumeration is over.
 old-location: projfs\prj_end_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: E9DA86AC-E884-4DB3-977D-6D8EDA2A8E12
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_END_DIRECTORY_ENUMERATION_CB, PRJ_END_DIRECTORY_ENUMERATION_CB callback, PRJ_END_DIRECTORY_ENUMERATION_CB callback function, ProjFS.prj_end_directory_enumeration_cb, projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB
 ms.topic: callback
-f1_keywords: 
- - "projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB"
+f1_keywords:
+- projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ProjectedFSLib.h
+- ProjectedFSLib.h
 api_name:
- - PRJ_END_DIRECTORY_ENUMERATION_CB
+- PRJ_END_DIRECTORY_ENUMERATION_CB
 targetos: Windows
 req.typenames: 
 req.redist: 

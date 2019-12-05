@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.fastReverse
 title: IWMPControls::fastReverse (wmp.h)
-
 description: The fastReverse method starts fast play of the media item in the reverse direction.
 old-location: wmp\iwmpcontrols_fastreverse.htm
 tech.root: WMP
 ms.assetid: 2adec4c7-7aca-4191-8c6f-61e137188ad9
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],fastReverse method, IWMPControls.fastReverse, IWMPControls::fastReverse, IWMPControlsfastReverse, fastReverse, fastReverse method [Windows Media Player], fastReverse method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_fastreverse, wmp/IWMPControls::fastReverse
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.fastReverse"
+f1_keywords:
+- wmp/IWMPControls.fastReverse
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.fastReverse
+- IWMPControls.fastReverse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:msopc.__MIDL___MIDL_itf_msopc_0001_0076_0001
 title: OPC_CANONICALIZATION_METHOD (msopc.h)
-
 description: Describes the canonicalization method to be applied to XML markup.
 old-location: opc\opc_canonicalization_method.htm
 tech.root: OPC
 ms.assetid: f8401d12-da2e-4b35-b473-ebe3d1f91abd
-
 ms.date: 12/05/2018
 ms.keywords: OPC_CANONICALIZATION_C14N, OPC_CANONICALIZATION_C14N_WITH_COMMENTS, OPC_CANONICALIZATION_METHOD, OPC_CANONICALIZATION_METHOD enumeration [Open Packaging Conventions], OPC_CANONICALIZATION_NONE, msopc/OPC_CANONICALIZATION_C14N, msopc/OPC_CANONICALIZATION_C14N_WITH_COMMENTS, msopc/OPC_CANONICALIZATION_METHOD, msopc/OPC_CANONICALIZATION_NONE, opc.opc_canonicalization_method
 ms.topic: enum
-f1_keywords: 
- - "msopc/OPC_CANONICALIZATION_METHOD"
+f1_keywords:
+- msopc/OPC_CANONICALIZATION_METHOD
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - OPC_CANONICALIZATION_METHOD
+- OPC_CANONICALIZATION_METHOD
 targetos: Windows
 req.typenames: OPC_CANONICALIZATION_METHOD
 req.redist: 

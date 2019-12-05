@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSet.GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings)
 title: IDWriteFontSet::GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings) (dwrite_3.h)
-
 description: Returns the property values of a specific font item index.
 old-location: directwrite\idwritefontset_getpropertyvalues_1.htm
 tech.root: DirectWrite
 ms.assetid: 4523d5a6-9d5f-61ac-a47f-810fef1522a9
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyValues, GetPropertyValues method [Direct Write], GetPropertyValues method [Direct Write],IDWriteFontSet interface, IDWriteFontSet interface [Direct Write],GetPropertyValues method, IDWriteFontSet.GetPropertyValues, IDWriteFontSet.GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings), IDWriteFontSet::GetPropertyValues, IDWriteFontSet::GetPropertyValues(UINT32,DWRITE_FONT_PROPERTY_ID,BOOL,IDWriteLocalizedStrings), directwrite.idwritefontset_getpropertyvalues_1, dwrite_3/IDWriteFontSet::GetPropertyValues
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontSet.GetPropertyValues"
+f1_keywords:
+- dwrite_3/IDWriteFontSet.GetPropertyValues
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontSet.GetPropertyValues
+- IDWriteFontSet.GetPropertyValues
 targetos: Windows
 req.typenames: 
 req.redist: 

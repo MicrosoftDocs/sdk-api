@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetProcessAffinityMask
 title: GetProcessAffinityMask function (winbase.h)
-
 description: Retrieves the process affinity mask for the specified process and the system affinity mask for the system.
 old-location: base\getprocessaffinitymask.htm
 tech.root: ProcThread
 ms.assetid: f50ca86e-fa81-4ed9-ae6c-63a4e7f2a53f
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessAffinityMask, GetProcessAffinityMask function, _win32_getprocessaffinitymask, base.getprocessaffinitymask, winbase/GetProcessAffinityMask
 ms.topic: function
-f1_keywords: 
- - "winbase/GetProcessAffinityMask"
+f1_keywords:
+- winbase/GetProcessAffinityMask
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-0.dll
- - API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-L2-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-0.dll
+- API-MS-Win-Core-ProcessTopology-Obsolete-L1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-L2-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - GetProcessAffinityMask
+- GetProcessAffinityMask
 targetos: Windows
 req.typenames: 
 req.redist: 

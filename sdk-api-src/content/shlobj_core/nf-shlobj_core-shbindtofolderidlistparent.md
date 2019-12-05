@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHBindToFolderIDListParent
 title: SHBindToFolderIDListParent function (shlobj_core.h)
-
 description: Given a Shell namespace item specified in the form of a folder, and an item identifier list relative to that folder, this function binds to the parent of the namespace item and optionally returns a pointer to the final component of the item identifier list.
 old-location: shell\SHBindToFolderIDListParent.htm
 tech.root: shell
 ms.assetid: 72a79d1b-15ed-475e-9ebd-03345579a06a
-
 ms.date: 12/05/2018
 ms.keywords: SHBindToFolderIDListParent, SHBindToFolderIDListParent function [Windows Shell], _shell_SHBindToFolderIDListParent, shell.SHBindToFolderIDListParent, shlobj_core/SHBindToFolderIDListParent
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHBindToFolderIDListParent"
+f1_keywords:
+- shlobj_core/SHBindToFolderIDListParent
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
- - windows.storage.dll
- - API-MS-Win-Shell-Namespace-L1-1-0.dll
+- Shell32.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- windows.storage.dll
+- API-MS-Win-Shell-Namespace-L1-1-0.dll
 api_name:
- - SHBindToFolderIDListParent
+- SHBindToFolderIDListParent
 targetos: Windows
 req.typenames: 
 req.redist: 

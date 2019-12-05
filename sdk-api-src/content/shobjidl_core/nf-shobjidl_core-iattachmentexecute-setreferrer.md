@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetReferrer
 title: IAttachmentExecute::SetReferrer (shobjidl_core.h)
-
 description: Sets the security zone associated with the attachment file based on the referring file.
 old-location: shell\IAttachmentExecute_SetReferrer.htm
 tech.root: shell
 ms.assetid: d7ee869a-2afe-4d98-a0bb-d80e57425079
-
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],SetReferrer method, IAttachmentExecute.SetReferrer, IAttachmentExecute::SetReferrer, SetReferrer, SetReferrer method [Windows Shell], SetReferrer method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_SetReferrer, shell.IAttachmentExecute_SetReferrer, shobjidl_core/IAttachmentExecute::SetReferrer
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAttachmentExecute.SetReferrer"
+f1_keywords:
+- shobjidl_core/IAttachmentExecute.SetReferrer
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IAttachmentExecute.SetReferrer
+- IAttachmentExecute.SetReferrer
 targetos: Windows
 req.typenames: 
 req.redist: 

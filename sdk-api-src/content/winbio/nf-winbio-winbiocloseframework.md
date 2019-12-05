@@ -1,19 +1,17 @@
 ---
 UID: NF:winbio.WinBioCloseFramework
 title: WinBioCloseFramework function (winbio.h)
-
 description: Closes a framework handle previously opened with WinBioAsyncOpenFramework. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiocloseframework.htm
 tech.root: SecBioMet
 ms.assetid: AE13FB2F-0B6B-4D98-A75A-E8A2EA525136
-
 ms.date: 12/05/2018
 ms.keywords: WinBioCloseFramework, WinBioCloseFramework function [Windows Biometric Framework API], secbiomet.winbiocloseframework, winbio/WinBioCloseFramework
 ms.topic: function
-f1_keywords: 
- - "winbio/WinBioCloseFramework"
+f1_keywords:
+- winbio/WinBioCloseFramework
 dev_langs:
- - c++
+- c++
 req.header: winbio.h
 req.include-header: Winbio.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winbio.lib
 req.dll: Winbio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winbio.dll
- - ext-ms-win-biometrics-winbio-core-l1-1-0.dll
- - Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
+- Winbio.dll
+- ext-ms-win-biometrics-winbio-core-l1-1-0.dll
+- Ext-MS-Win-BioMetrics-WinBio-Core-L1-1-1.dll
 api_name:
- - WinBioCloseFramework
+- WinBioCloseFramework
 targetos: Windows
 req.typenames: 
 req.redist: 

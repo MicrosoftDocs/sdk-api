@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilSetPropertyTableEx
 title: ResUtilSetPropertyTableEx function (resapi.h)
-
 description: Sets properties in the cluster database based on a property list from a property table.
 old-location: mscs\resutilsetpropertytableex.htm
 tech.root: MsCS
 ms.assetid: 82f5f5d5-8ec1-4693-b66c-f141a8999803
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_SET_PROPERTY_TABLE_EX, PRESUTIL_SET_PROPERTY_TABLE_EX function [Failover Cluster], ResUtilSetPropertyTableEx, ResUtilSetPropertyTableEx function [Failover Cluster], _wolf_resutilsetpropertytableex, mscs.resutilsetpropertytableex, resapi/PRESUTIL_SET_PROPERTY_TABLE_EX, resapi/ResUtilSetPropertyTableEx
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilSetPropertyTableEx"
+f1_keywords:
+- resapi/ResUtilSetPropertyTableEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilSetPropertyTableEx
+- ResUtilSetPropertyTableEx
 targetos: Windows
 req.typenames: 
 req.redist: 

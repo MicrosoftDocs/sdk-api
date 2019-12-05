@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrFromR4
 title: VarBstrFromR4 function (oleauto.h)
-
 description: Converts a float value to a BSTR value.
 old-location: automat\varbstrfromr4.htm
 tech.root: automat
 ms.assetid: 368f691b-1f9c-4271-a76b-cd07d05cda23
-
 ms.date: 12/05/2018
 ms.keywords: LOCALE_NOUSEROVERRIDE, VarBstrFromR4, VarBstrFromR4 function [Automation], _oa96_VarBstrFromR4, automat.varbstrfromr4, oleauto/VarBstrFromR4
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrFromR4"
+f1_keywords:
+- oleauto/VarBstrFromR4
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrFromR4
+- VarBstrFromR4
 targetos: Windows
 req.typenames: 
 req.redist: 

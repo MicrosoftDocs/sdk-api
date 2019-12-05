@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.CreateIpNetEntry
 title: CreateIpNetEntry function (iphlpapi.h)
-
 description: The CreateIpNetEntry function creates an Address Resolution Protocol (ARP) entry in the ARP table on the local computer.
 old-location: iphlp\createipnetentry.htm
 tech.root: IpHlp
 ms.assetid: 607f9aad-2046-4ab2-9a62-4092f87ffa66
-
 ms.date: 12/05/2018
 ms.keywords: CreateIpNetEntry, CreateIpNetEntry function [IP Helper], _iphlp_createipnetentry, iphlp.createipnetentry, iphlpapi/CreateIpNetEntry
 ms.topic: function
 f1_keywords:
 - iphlpapi/CreateIpNetEntry
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows

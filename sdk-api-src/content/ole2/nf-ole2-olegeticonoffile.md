@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleGetIconOfFile
 title: OleGetIconOfFile function (ole2.h)
-
 description: Returns a handle to a metafile containing an icon and string label for the specified file name.
 old-location: com\olegeticonoffile.htm
 tech.root: com
 ms.assetid: 2fa9cd75-4dc6-45a3-aa62-e82bd28289a5
-
 ms.date: 12/05/2018
 ms.keywords: OleGetIconOfFile, OleGetIconOfFile function [COM], _com_OleGetIconOfFile, com.olegeticonoffile, ole2/OleGetIconOfFile
 ms.topic: function
-f1_keywords: 
- - "ole2/OleGetIconOfFile"
+f1_keywords:
+- ole2/OleGetIconOfFile
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - OleGetIconOfFile
+- OleGetIconOfFile
 targetos: Windows
 req.typenames: 
 req.redist: 

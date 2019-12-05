@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite_2.IDWriteColorGlyphRunEnumerator
 title: IDWriteColorGlyphRunEnumerator (dwrite_2.h)
-
 description: This interface allows the application to enumerate through the color glyph runs.
 old-location: directwrite\idwritecolorglyphrunenumerator.htm
 tech.root: DirectWrite
 ms.assetid: 649AD648-32BB-4BF4-A82F-075E93505E33
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteColorGlyphRunEnumerator, IDWriteColorGlyphRunEnumerator interface [Direct Write], IDWriteColorGlyphRunEnumerator interface [Direct Write],described, directwrite.idwritecolorglyphrunenumerator, dwrite_2/IDWriteColorGlyphRunEnumerator
 ms.topic: interface
-f1_keywords: 
- - "dwrite_2/IDWriteColorGlyphRunEnumerator"
+f1_keywords:
+- dwrite_2/IDWriteColorGlyphRunEnumerator
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteColorGlyphRunEnumerator
+- IDWriteColorGlyphRunEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

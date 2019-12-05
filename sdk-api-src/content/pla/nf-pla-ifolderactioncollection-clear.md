@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderActionCollection.Clear
 title: IFolderActionCollection::Clear (pla.h)
-
 description: Removes all folder actions from the collection.
 old-location: pla\ifolderactioncollection_clear.htm
 tech.root: PLA
 ms.assetid: 357934fa-9213-466e-8104-eb9b265a98d3
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [PLA], Clear method [PLA],IFolderActionCollection interface, IFolderActionCollection interface [PLA],Clear method, IFolderActionCollection.Clear, IFolderActionCollection::Clear, base.ifolderactioncollection_clear, pla.ifolderactioncollection_clear, pla/IFolderActionCollection::Clear
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderActionCollection.Clear"
+f1_keywords:
+- pla/IFolderActionCollection.Clear
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderActionCollection.Clear
+- IFolderActionCollection.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

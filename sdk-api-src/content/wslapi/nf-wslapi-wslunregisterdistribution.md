@@ -1,19 +1,17 @@
 ---
 UID: NF:wslapi.WslUnregisterDistribution
 title: WslUnregisterDistribution function (wslapi.h)
-
 description: Unregisters a distribution from the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslunregisterdistribution.htm
 tech.root: wsl
 ms.assetid: B655E05D-4F4E-401D-8A24-6E8E8B0CE00C
-
 ms.date: 12/05/2018
 ms.keywords: WslUnregisterDistribution, WslUnregisterDistribution function, wsl.wslunregisterdistribution, wslapi/WslUnregisterDistribution
 ms.topic: function
-f1_keywords: 
- - "wslapi/WslUnregisterDistribution"
+f1_keywords:
+- wslapi/WslUnregisterDistribution
 dev_langs:
- - c++
+- c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wslapi.lib
 req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-wsl-api-l1-1-0.dll
+- api-ms-win-wsl-api-l1-1-0.dll
 api_name:
- - WslUnregisterDistribution
+- WslUnregisterDistribution
 targetos: Windows
 req.typenames: 
 req.redist: 

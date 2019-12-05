@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferRecordingControl.get_RecordingStarted
 title: IMSVidStreamBufferRecordingControl::get_RecordingStarted (segment.h)
-
 description: The get_RecordingStarted method queries whether the recording has started.
 old-location: mstv\imsvidstreambufferrecordingcontrol_get_recordingstarted.htm
 tech.root: mstv
 ms.assetid: 99abd883-5fec-4ac4-a167-aa2d4c3bf470
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidStreamBufferRecordingControl interface [Microsoft TV Technologies],get_RecordingStarted method, IMSVidStreamBufferRecordingControl.get_RecordingStarted, IMSVidStreamBufferRecordingControl::get_RecordingStarted, IMSVidStreamBufferRecordingControlget_RecordingStarted, get_RecordingStarted, get_RecordingStarted method [Microsoft TV Technologies], get_RecordingStarted method [Microsoft TV Technologies],IMSVidStreamBufferRecordingControl interface, mstv.imsvidstreambufferrecordingcontrol_get_recordingstarted, segment/IMSVidStreamBufferRecordingControl::get_RecordingStarted
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferRecordingControl.get_RecordingStarted"
+f1_keywords:
+- segment/IMSVidStreamBufferRecordingControl.get_RecordingStarted
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferRecordingControl.get_RecordingStarted
+- IMSVidStreamBufferRecordingControl.get_RecordingStarted
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbDigitalCopyControlDescriptor
 title: IIsdbDigitalCopyControlDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor.
 old-location: mstv\iisdbdigitalcopycontroldescriptor.htm
 tech.root: mstv
 ms.assetid: d509eb58-0c58-4173-8c9c-d52b81932b5c
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbDigitalCopyControlDescriptor, IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies], IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbDigitalCopyControlDescriptor, mstv.iisdbdigitalcopycontroldescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbDigitalCopyControlDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbDigitalCopyControlDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDigitalCopyControlDescriptor
+- IIsdbDigitalCopyControlDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMDeleteLicense
 title: DRMDeleteLicense function (msdrm.h)
-
 description: Deletes a license, client licensor certificate, revocation list, or issuance license template.
 old-location: rm\drmdeletelicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: 596f9959-0beb-4051-87c4-b8704abd8fc0
-
 ms.date: 12/05/2018
 ms.keywords: DRMDeleteLicense, DRMDeleteLicense function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMDeleteLicense, rm.drmdeletelicense
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMDeleteLicense"
+f1_keywords:
+- msdrm/DRMDeleteLicense
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMDeleteLicense
+- DRMDeleteLicense
 targetos: Windows
 req.typenames: 
 req.redist: 

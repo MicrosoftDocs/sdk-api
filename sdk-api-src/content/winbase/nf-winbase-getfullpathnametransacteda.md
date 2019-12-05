@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetFullPathNameTransactedA
 title: GetFullPathNameTransactedA function (winbase.h)
-
 description: Retrieves the full path and file name of the specified file as a transacted operation.
 old-location: fs\getfullpathnametransacted.htm
 tech.root: FileIO
 ms.assetid: 63cbcec6-e9f0-4db3-bf2f-03a987000af1
-
 ms.date: 12/05/2018
 ms.keywords: GetFullPathNameTransacted, GetFullPathNameTransacted function [Files], GetFullPathNameTransactedA, GetFullPathNameTransactedW, fs.getfullpathnametransacted, winbase/GetFullPathNameTransacted, winbase/GetFullPathNameTransactedA, winbase/GetFullPathNameTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetFullPathNameTransacted"
+f1_keywords:
+- winbase/GetFullPathNameTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetFullPathNameTransacted
- - GetFullPathNameTransactedA
- - GetFullPathNameTransactedW
+- GetFullPathNameTransacted
+- GetFullPathNameTransactedA
+- GetFullPathNameTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

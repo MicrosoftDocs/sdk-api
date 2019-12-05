@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GdiTransparentBlt
 title: GdiTransparentBlt function (wingdi.h)
-
 description: The GdiTransparentBlt function performs a bit-block transfer of the color data corresponding to a rectangle of pixels from the specified source device context into a destination device context.
 old-location: gdi\gditransparentblt.htm
 tech.root: gdi
 ms.assetid: 82f6db79-f364-480a-ad9d-acf2ad94a295
-
 ms.date: 12/05/2018
 ms.keywords: GdiTransparentBlt, GdiTransparentBlt function [Windows GDI], gdi.gditransparentblt, wingdi/GdiTransparentBlt
 ms.topic: function
-f1_keywords: 
- - "wingdi/GdiTransparentBlt"
+f1_keywords:
+- wingdi/GdiTransparentBlt
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- Gdi32.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GdiTransparentBlt
+- GdiTransparentBlt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderPropertyConstraintCollection.Reset
 title: IProviderPropertyConstraintCollection::Reset (functiondiscoveryprovider.h)
-
 description: Resets the current index to the start of the collection.
 old-location: ncd\iproviderpropertyconstraintcollection_reset.htm
 tech.root: FunDisc
 ms.assetid: 57357567-b03f-4261-a267-42f44d829d74
-
 ms.date: 12/05/2018
 ms.keywords: IProviderPropertyConstraintCollection interface,Reset method, IProviderPropertyConstraintCollection.Reset, IProviderPropertyConstraintCollection::Reset, Reset, Reset method, Reset method,IProviderPropertyConstraintCollection interface, functiondiscoveryprovider/IProviderPropertyConstraintCollection::Reset, ncd.iproviderpropertyconstraintcollection_reset
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IProviderPropertyConstraintCollection.Reset"
+f1_keywords:
+- functiondiscoveryprovider/IProviderPropertyConstraintCollection.Reset
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IProviderPropertyConstraintCollection.Reset
+- IProviderPropertyConstraintCollection.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

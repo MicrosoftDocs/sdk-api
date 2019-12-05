@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ImageList_GetIconSize
 title: ImageList_GetIconSize function (commctrl.h)
-
 description: Retrieves the dimensions of images in an image list. All images in an image list have the same dimensions.
 old-location: controls\ImageList_GetIconSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_geticonsize.htm
-
 ms.date: 12/05/2018
 ms.keywords: ImageList_GetIconSize, ImageList_GetIconSize function [Windows Controls], _win32_ImageList_GetIconSize, _win32_ImageList_GetIconSize_cpp, commctrl/ImageList_GetIconSize, controls.ImageList_GetIconSize, controls._win32_ImageList_GetIconSize
 ms.topic: function
-f1_keywords: 
- - "commctrl/ImageList_GetIconSize"
+f1_keywords:
+- commctrl/ImageList_GetIconSize
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - ImageList_GetIconSize
+- ImageList_GetIconSize
 targetos: Windows
 req.typenames: 
 req.redist: 

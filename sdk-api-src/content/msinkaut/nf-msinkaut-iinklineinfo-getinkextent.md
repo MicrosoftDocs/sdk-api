@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetInkExtent
 title: IInkLineInfo::GetInkExtent (msinkaut.h)
-
 description: Specifies the display properties to set on the text ink object (tInk), and retrieves the width of the text ink object in HIMETRIC units.
 old-location: tablet\iinklineinfo_getinkextent.htm
 tech.root: tablet
 ms.assetid: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d
-
 ms.date: 12/05/2018
 ms.keywords: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d, GetInkExtent, GetInkExtent method [Tablet PC], GetInkExtent method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetInkExtent method, IInkLineInfo.GetInkExtent, IInkLineInfo::GetInkExtent, msinkaut/IInkLineInfo::GetInkExtent, tablet.iinklineinfo_getinkextent
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkLineInfo.GetInkExtent"
+f1_keywords:
+- msinkaut/IInkLineInfo.GetInkExtent
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkLineInfo.GetInkExtent
+- IInkLineInfo.GetInkExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

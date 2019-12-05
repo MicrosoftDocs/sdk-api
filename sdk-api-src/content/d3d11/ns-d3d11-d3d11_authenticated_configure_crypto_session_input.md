@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT (d3d11.h)
-
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION command.
 old-location: mf\d3d11_authenticated_configure_crypto_session_input.htm
 tech.root: medfound
 ms.assetid: 62DCE279-B0B6-4536-A14E-71F5B1BAA9ED
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT, mf.d3d11_authenticated_configure_crypto_session_input
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
+- D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_CONFIGURE_CRYPTO_SESSION_INPUT
 req.redist: 

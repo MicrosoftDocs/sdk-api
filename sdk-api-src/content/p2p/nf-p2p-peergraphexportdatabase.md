@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphExportDatabase
 title: PeerGraphExportDatabase function (p2p.h)
-
 description: The PeerGraphExportDatabase function exports a peer graph database into a file that you can move to a different computer. By using PeerGraphImportDatabase, a peer graph database can be imported to a different computer.
 old-location: p2p\peergraphexportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: 0f198952-c6d4-4da7-9086-7abd635172cb
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphExportDatabase, PeerGraphExportDatabase function [Peer Networking], p2p.peergraphexportdatabase, p2p/PeerGraphExportDatabase
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphExportDatabase"
+f1_keywords:
+- p2p/PeerGraphExportDatabase
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphExportDatabase
+- PeerGraphExportDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

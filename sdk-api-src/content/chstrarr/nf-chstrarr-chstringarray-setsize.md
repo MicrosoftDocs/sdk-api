@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetSize
 title: CHStringArray::SetSize (chstrarr.h)
-
 description: The SetSize method establishes the size of an empty or existing array.
 old-location: wmi\chstringarray_setsize.htm
 tech.root: WmiSdk
 ms.assetid: 9320b6b6-5253-419e-a293-3b9d030f5963
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],SetSize method, CHStringArray.SetSize, CHStringArray::SetSize, SetSize, SetSize method [Windows Management Instrumentation], SetSize method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_setsize, chstrarr/CHStringArray::SetSize, wmi.chstringarray_setsize
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.SetSize"
+f1_keywords:
+- chstrarr/CHStringArray.SetSize
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.SetSize
+- CHStringArray.SetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

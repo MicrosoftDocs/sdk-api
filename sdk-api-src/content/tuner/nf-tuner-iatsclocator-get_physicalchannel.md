@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCLocator.get_PhysicalChannel
 title: IATSCLocator::get_PhysicalChannel (tuner.h)
-
 description: The get_PhysicalChannel method retrieves the physical channel.
 old-location: mstv\iatsclocator_get_physicalchannel.htm
 tech.root: mstv
 ms.assetid: 7550bbb9-d9f7-4565-9c63-7179c0bdffa5
-
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator interface [Microsoft TV Technologies],get_PhysicalChannel method, IATSCLocator.get_PhysicalChannel, IATSCLocator::get_PhysicalChannel, IATSCLocatorget_PhysicalChannel, get_PhysicalChannel, get_PhysicalChannel method [Microsoft TV Technologies], get_PhysicalChannel method [Microsoft TV Technologies],IATSCLocator interface, mstv.iatsclocator_get_physicalchannel, tuner/IATSCLocator::get_PhysicalChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCLocator.get_PhysicalChannel"
+f1_keywords:
+- tuner/IATSCLocator.get_PhysicalChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCLocator.get_PhysicalChannel
+- IATSCLocator.get_PhysicalChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.SpInitLsaModeContextFn
 title: SpInitLsaModeContextFn (ntsecpkg.h)
-
 description: The client dispatch function used to establish a security context between a server and client.
 old-location: security\spinitlsamodecontext.htm
 tech.root: SecAuthN
 ms.assetid: e733d6fb-0ce6-4fd2-a8e2-54aa44602828
-
 ms.date: 12/05/2018
 ms.keywords: ISC_REQ_ALLOCATE_MEMORY, ISC_REQ_CONNECTION, ISC_REQ_DATAGRAM, ISC_REQ_DELEGATE, ISC_REQ_EXTENDED_ERROR, ISC_REQ_INTEGRITY, ISC_REQ_MUTUAL_AUTH, ISC_REQ_PROMPT_FOR_CREDS, ISC_REQ_REPLAY_DETECT, ISC_REQ_SEQUENCE_DETECT, ISC_REQ_STREAM, ISC_REQ_USE_DCE_STYLE, ISC_REQ_USE_SESSION_KEY, ISC_REQ_USE_SUPPLIED_CREDS, SpInitLsaModeContext, SpInitLsaModeContext callback function [Security], SpInitLsaModeContextFn, SpInitLsaModeContextFn callback, _ssp_spinitlsamodecontext, ntsecpkg/SpInitLsaModeContext, security.spinitlsamodecontext
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpInitLsaModeContext
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

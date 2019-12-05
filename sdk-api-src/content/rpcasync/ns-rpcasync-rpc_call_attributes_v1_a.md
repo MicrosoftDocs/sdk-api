@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcasync.tagRPC_CALL_ATTRIBUTES_V1_A
 title: RPC_CALL_ATTRIBUTES_V1_A (rpcasync.h)
-
 description: The RPC_CALL_ATTRIBUTES_V1 structure provides parameters to the RpcServerInqCallAttributes function. Implemented in ANSI and UNICODE versions for Windows XP and Windows Server 2003 operating systems.
 old-location: rpc\rpc_call_attributes_v1.htm
 tech.root: Rpc
 ms.assetid: 62988900-e794-4d91-861e-f72d854249fe
-
 ms.date: 12/05/2018
 ms.keywords: RPC_CALL_ATTRIBUTES_V1, RPC_CALL_ATTRIBUTES_V1 structure [RPC], RPC_CALL_ATTRIBUTES_V1_A, RPC_CALL_ATTRIBUTES_V1_W, rpc.rpc_call_attributes_v1, rpcasync/RPC_CALL_ATTRIBUTES_V1, rpcasync/RPC_CALL_ATTRIBUTES_V1_A, rpcasync/RPC_CALL_ATTRIBUTES_V1_W
 ms.topic: struct
-f1_keywords: 
- - "rpcasync/RPC_CALL_ATTRIBUTES_V1"
+f1_keywords:
+- rpcasync/RPC_CALL_ATTRIBUTES_V1
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcasync.h
+- Rpcasync.h
 api_name:
- - RPC_CALL_ATTRIBUTES_V1
- - RPC_CALL_ATTRIBUTES_V1_A
- - RPC_CALL_ATTRIBUTES_V1_W
+- RPC_CALL_ATTRIBUTES_V1
+- RPC_CALL_ATTRIBUTES_V1_A
+- RPC_CALL_ATTRIBUTES_V1_W
 targetos: Windows
 req.typenames: RPC_CALL_ATTRIBUTES_V1_A
 req.redist: 

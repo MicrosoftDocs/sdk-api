@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication
 title: ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication (certenroll.h)
-
 description: The GetEnrollmentServerAuthentication method retrieves a value that specifies the type of authentication used by the certificate enrollment server (CES) to authenticate a client. This value is set by the Initialize method.
 old-location: security\icertpropertyenrollmentpolicyserver_getenrollmentserverauthentication.htm
 tech.root: seccertenroll
 ms.assetid: c46d9bc4-26ee-40c0-a228-804e7c598285
-
 ms.date: 12/05/2018
 ms.keywords: GetEnrollmentServerAuthentication, GetEnrollmentServerAuthentication method [Security], GetEnrollmentServerAuthentication method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetEnrollmentServerAuthentication method, ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication, ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication, X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthUsername, certenroll/ICertPropertyEnrollmentPolicyServer::GetEnrollmentServerAuthentication, security.icertpropertyenrollmentpolicyserver_getenrollmentserverauthentication
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication"
+f1_keywords:
+- certenroll/ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication
+- ICertPropertyEnrollmentPolicyServer.GetEnrollmentServerAuthentication
 targetos: Windows
 req.typenames: 
 req.redist: 

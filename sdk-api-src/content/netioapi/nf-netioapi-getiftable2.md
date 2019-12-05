@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIfTable2
 title: GetIfTable2 function (netioapi.h)
-
 description: Retrieves the MIB-II interface table.
 old-location: iphlp\getiftable2.htm
 tech.root: IpHlp
 ms.assetid: 0153c41c-b02b-4832-87b3-88dc3a9f4ff1
-
 ms.date: 12/05/2018
 ms.keywords: GetIfTable2, GetIfTable2 function [IP Helper], iphlp.getiftable2, netioapi/GetIfTable2
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIfTable2"
+f1_keywords:
+- netioapi/GetIfTable2
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIfTable2
+- GetIfTable2
 targetos: Windows
 req.typenames: 
 req.redist: 

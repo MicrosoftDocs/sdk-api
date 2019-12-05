@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetGroupingRange
 title: IPropertyDescription::GetGroupingRange (propsys.h)
-
 description: Gets the grouping method to be used when a view is grouped by a property, and retrieves the grouping type.
 old-location: properties\IPropertyDescription_GetGroupingRange.htm
 tech.root: properties
 ms.assetid: 9533c43f-1b51-4aa0-9579-0a3053102b24
-
 ms.date: 12/05/2018
 ms.keywords: GetGroupingRange, GetGroupingRange method [Windows Properties], GetGroupingRange method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetGroupingRange method, IPropertyDescription.GetGroupingRange, IPropertyDescription::GetGroupingRange, PDGR_ALPHANUMERIC, PDGR_DATE, PDGR_DISCRETE, PDGR_DYNAMIC, PDGR_ENUMERATED, PDGR_PERCENT, PDGR_SIZE, properties.IPropertyDescription_GetGroupingRange, propsys/IPropertyDescription::GetGroupingRange, shell.IPropertyDescription_GetGroupingRange, shell_IPropertyDescription_GetGroupingRange
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetGroupingRange"
+f1_keywords:
+- propsys/IPropertyDescription.GetGroupingRange
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetGroupingRange
+- IPropertyDescription.GetGroupingRange
 targetos: Windows
 req.typenames: 
 req.redist: 

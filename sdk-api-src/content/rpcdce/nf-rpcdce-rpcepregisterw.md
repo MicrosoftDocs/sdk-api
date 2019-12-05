@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcEpRegisterW
 title: RpcEpRegisterW function (rpcdce.h)
-
 description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
 old-location: rpc\rpcepregister.htm
 tech.root: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
-
 ms.date: 12/05/2018
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcEpRegister"
+f1_keywords:
+- rpcdce/RpcEpRegister
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcEpRegister
- - RpcEpRegisterA
- - RpcEpRegisterW
+- RpcEpRegister
+- RpcEpRegisterA
+- RpcEpRegisterW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dmort.MoFreeMediaType
 title: MoFreeMediaType function (dmort.h)
-
 description: The MoFreeMediaType function frees the allocated members of a media type structure.
 old-location: dshow\mofreemediatype.htm
 tech.root: DirectShow
 ms.assetid: a1f0949d-a590-4759-87b5-f47307bc3ec0
-
 ms.date: 12/05/2018
 ms.keywords: MoFreeMediaType, MoFreeMediaType function [DirectShow], dmort/MoFreeMediaType, dshow.mofreemediatype
 ms.topic: function
-f1_keywords: 
- - "dmort/MoFreeMediaType"
+f1_keywords:
+- dmort/MoFreeMediaType
 dev_langs:
- - c++
+- c++
 req.header: dmort.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdmo.lib
 req.dll: Msdmo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdmo.dll
+- Msdmo.dll
 api_name:
- - MoFreeMediaType
+- MoFreeMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

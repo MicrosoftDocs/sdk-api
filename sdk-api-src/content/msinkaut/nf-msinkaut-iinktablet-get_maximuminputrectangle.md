@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTablet.get_MaximumInputRectangle
 title: IInkTablet::get_MaximumInputRectangle (msinkaut.h)
-
 description: Gets the maximum input rectangle, in tablet device coordinates that the IInkTablet object supports.
 old-location: tablet\iinktablet_maximuminputrectangle.htm
 tech.root: tablet
 ms.assetid: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43
-
 ms.date: 12/05/2018
 ms.keywords: 84d8518b-6cd7-4da9-9ce3-1ce6fe6eeb43, IInkTablet interface [Tablet PC],MaximumInputRectangle property, IInkTablet.MaximumInputRectangle, IInkTablet.get_MaximumInputRectangle, IInkTablet::MaximumInputRectangle, IInkTablet::get_MaximumInputRectangle, MaximumInputRectangle property [Tablet PC], MaximumInputRectangle property [Tablet PC],IInkTablet interface, get_MaximumInputRectangle, msinkaut/IInkTablet::MaximumInputRectangle, msinkaut/IInkTablet::get_MaximumInputRectangle, tablet.iinktablet_maximuminputrectangle
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTablet.MaximumInputRectangle"
+f1_keywords:
+- msinkaut/IInkTablet.MaximumInputRectangle
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTablet.MaximumInputRectangle
- - IInkTablet.get_MaximumInputRectangle
- - IInkTablet.get_MaximumInputRectangle
+- IInkTablet.MaximumInputRectangle
+- IInkTablet.get_MaximumInputRectangle
+- IInkTablet.get_MaximumInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

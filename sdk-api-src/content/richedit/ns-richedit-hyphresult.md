@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit.hyphresult
 title: HYPHRESULT (richedit.h)
-
 description: Contains information about the result of hyphenation in a Microsoft Rich Edit control.
 old-location: controls\HYPHRESULT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphresult.htm
-
 ms.date: 12/05/2018
 ms.keywords: HYPHRESULT, HYPHRESULT structure [Windows Controls], _win32_HYPHRESULT_str, _win32_HYPHRESULT_str_cpp, controls.HYPHRESULT, controls._win32_HYPHRESULT_str, richedit/HYPHRESULT
 ms.topic: struct
-f1_keywords: 
- - "richedit/HYPHRESULT"
+f1_keywords:
+- richedit/HYPHRESULT
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - HYPHRESULT
+- HYPHRESULT
 targetos: Windows
 req.typenames: HYPHRESULT
 req.redist: 

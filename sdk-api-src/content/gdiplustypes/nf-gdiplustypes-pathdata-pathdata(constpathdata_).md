@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.PathData.PathData(const PathData &)
 title: PathData::PathData(const PathData &) (gdiplustypes.h)
-
 description: Creates a PathData::PathData object. The Count data member is initialized to 0. The Points and Types data members are initialized to NULL.
 old-location: gdiplus\_gdiplus_CLASS_PathData_PathData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdataclass\pathdata_38.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathData, PathData class [GDI+],PathData constructor, PathData constructor [GDI+], PathData constructor [GDI+],PathData class, PathData.PathData, PathData.PathData(), PathData.PathData(const PathData &), PathData::PathData, PathData::PathData(const PathData &), _gdiplus_CLASS_PathData_PathData_, gdiplus._gdiplus_CLASS_PathData_PathData_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/PathData.PathData"
+f1_keywords:
+- gdiplustypes/PathData.PathData
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathData.PathData
+- PathData.PathData
 targetos: Windows
 req.typenames: 
 req.redist: 

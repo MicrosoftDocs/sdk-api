@@ -3,14 +3,13 @@ UID: NF:chstring.operator-less-than-equal-to~r1
 title: operator<=
 description: 
 ms.assetid: 2e79b59d-a8fd-4fab-8850-6d95eef08c95
-
 ms.date: 05/20/2019
 ms.keywords: operator<=
 ms.topic: language-reference
-f1_keywords: 
- - "chstring/operator<="
+f1_keywords:
+- chstring/operator<=
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - chstring.h
+- chstring.h
 api_name:
- - operator<=
+- operator<=
 ---
 
 # operator<=

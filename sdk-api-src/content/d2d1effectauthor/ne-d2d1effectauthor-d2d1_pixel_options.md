@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effectauthor.D2D1_PIXEL_OPTIONS
 title: D2D1_PIXEL_OPTIONS (d2d1effectauthor.h)
-
 description: Indicates how pixel shader sampling will be restricted.
 old-location: direct2d\d2d1_pixel_options.htm
 tech.root: Direct2D
 ms.assetid: 285cf526-d8f6-4ae7-a017-066e397078b0
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PIXEL_OPTIONS, D2D1_PIXEL_OPTIONS enumeration [Direct2D], D2D1_PIXEL_OPTIONS_NONE, D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING, d2d1effectauthor/D2D1_PIXEL_OPTIONS, d2d1effectauthor/D2D1_PIXEL_OPTIONS_NONE, d2d1effectauthor/D2D1_PIXEL_OPTIONS_TRIVIAL_SAMPLING, direct2d.d2d1_pixel_options
 ms.topic: enum
-f1_keywords: 
- - "d2d1effectauthor/D2D1_PIXEL_OPTIONS"
+f1_keywords:
+- d2d1effectauthor/D2D1_PIXEL_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2d1.lib
- - D2d1.dll
+- D2d1.lib
+- D2d1.dll
 api_name:
- - D2D1_PIXEL_OPTIONS
+- D2D1_PIXEL_OPTIONS
 targetos: Windows
 req.typenames: D2D1_PIXEL_OPTIONS
 req.redist: 

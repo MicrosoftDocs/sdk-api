@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgrEx.ActivateEx
 title: ITfThreadMgrEx::ActivateEx (msctf.h)
-
 description: The ITfThreadMgrEx::ActivateEx method is used by an application to initialize and activate TSF for the calling thread. Unlike ITfThreadMgr::Activate, ITfThreadMgrEx::ActivateEx can take a flag to specify how TSF is activated.
 old-location: tsf\itfthreadmgrex_activateex.htm
 tech.root: TSF
 ms.assetid: a3cecc02-5228-4912-a609-f9f3334e11b7
-
 ms.date: 12/05/2018
 ms.keywords: ActivateEx, ActivateEx method [Text Services Framework], ActivateEx method [Text Services Framework],ITfThreadMgrEx interface, ITfThreadMgrEx interface [Text Services Framework],ActivateEx method, ITfThreadMgrEx.ActivateEx, ITfThreadMgrEx::ActivateEx, TF_TMAE_COMLESS, TF_TMAE_NOACTIVATEKEYBOARDLAYOUT, TF_TMAE_NOACTIVATETIP, TF_TMAE_SECUREMODE, TF_TMAE_UIELEMENTENABLEDONLY, msctf/ITfThreadMgrEx::ActivateEx, tsf.itfthreadmgrex_activateex
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgrEx.ActivateEx"
+f1_keywords:
+- msctf/ITfThreadMgrEx.ActivateEx
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgrEx.ActivateEx
+- ITfThreadMgrEx.ActivateEx
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

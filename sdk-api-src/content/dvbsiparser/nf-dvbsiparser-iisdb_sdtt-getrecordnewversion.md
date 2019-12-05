@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordNewVersion
 title: IISDB_SDTT::GetRecordNewVersion (dvbsiparser.h)
-
 description: Returns a new version_number field value from a subtable within an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecordnewversion.htm
 tech.root: mstv
 ms.assetid: 0a121a8b-10fd-4f78-922a-6be704c2cab4
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordNewVersion, GetRecordNewVersion method [Microsoft TV Technologies], GetRecordNewVersion method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordNewVersion method, IISDB_SDTT.GetRecordNewVersion, IISDB_SDTT::GetRecordNewVersion, dvbsiparser/IISDB_SDTT::GetRecordNewVersion, mstv.iisdb_sdtt_getrecordnewversion
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_SDTT.GetRecordNewVersion"
+f1_keywords:
+- dvbsiparser/IISDB_SDTT.GetRecordNewVersion
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_SDTT.GetRecordNewVersion
+- IISDB_SDTT.GetRecordNewVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

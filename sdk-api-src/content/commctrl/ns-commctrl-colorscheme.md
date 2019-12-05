@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagCOLORSCHEME
 title: COLORSCHEME (commctrl.h)
-
 description: Contains information for the drawing of buttons in a toolbar or rebar.
 old-location: controls\COLORSCHEME.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\colorscheme.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCOLORSCHEME, COLORSCHEME, COLORSCHEME structure [Windows Controls], LPCOLORSCHEME, LPCOLORSCHEME structure pointer [Windows Controls], _win32_COLORSCHEME, _win32_COLORSCHEME_cpp, commctrl/COLORSCHEME, commctrl/LPCOLORSCHEME, controls.COLORSCHEME, controls._win32_COLORSCHEME"
+ms.keywords: '*LPCOLORSCHEME, COLORSCHEME, COLORSCHEME structure [Windows Controls], LPCOLORSCHEME, LPCOLORSCHEME structure pointer [Windows Controls], _win32_COLORSCHEME, _win32_COLORSCHEME_cpp, commctrl/COLORSCHEME, commctrl/LPCOLORSCHEME, controls.COLORSCHEME, controls._win32_COLORSCHEME'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/COLORSCHEME"
+f1_keywords:
+- commctrl/COLORSCHEME
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - COLORSCHEME
+- COLORSCHEME
 targetos: Windows
 req.typenames: COLORSCHEME, *LPCOLORSCHEME
 req.redist: 

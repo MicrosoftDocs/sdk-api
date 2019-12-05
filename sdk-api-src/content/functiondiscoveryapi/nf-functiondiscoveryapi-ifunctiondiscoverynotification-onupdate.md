@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnUpdate
 title: IFunctionDiscoveryNotification::OnUpdate (functiondiscoveryapi.h)
-
 description: Indicates that a function instance has been added, removed, or changed.
 old-location: ncd\ifunctiondiscoverynotification_onupdate_method.htm
 tech.root: FunDisc
 ms.assetid: ab4d0fc6-de3f-49cf-b53c-573222a8bc89
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryNotification interface,OnUpdate method, IFunctionDiscoveryNotification.OnUpdate, IFunctionDiscoveryNotification::OnUpdate, OnUpdate, OnUpdate method, OnUpdate method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnUpdate, ncd.ifunctiondiscoverynotification_onupdate_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnUpdate"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscoveryNotification.OnUpdate
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - functiondiscoveryapi.h
+- functiondiscoveryapi.h
 api_name:
- - IFunctionDiscoveryNotification.OnUpdate
+- IFunctionDiscoveryNotification.OnUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IsNetDrive
 title: IsNetDrive function (shlobj_core.h)
-
 description: Tests whether a drive is a network drive.
 old-location: shell\IsNetDrive.htm
 tech.root: shell
 ms.assetid: 44e02665-648a-4cf0-9dc0-038e54d08a49
-
 ms.date: 12/05/2018
 ms.keywords: IsNetDrive, IsNetDrive function [Windows Shell], _win32_IsNetDrive, shell.IsNetDrive, shlobj_core/IsNetDrive
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/IsNetDrive"
+f1_keywords:
+- shlobj_core/IsNetDrive
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IsNetDrive
+- IsNetDrive
 targetos: Windows
 req.typenames: 
 req.redist: 

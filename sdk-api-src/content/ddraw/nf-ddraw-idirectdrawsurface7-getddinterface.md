@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetDDInterface
 title: IDirectDrawSurface7::GetDDInterface (ddraw.h)
-
 description: Retrieves an interface to the DirectDraw object that was used to create this surface.
 old-location: directdraw\idirectdrawsurface7_getddinterface.htm
 tech.root: directdraw
 ms.assetid: 1ec63614-cdc0-4d07-97e3-97167e7b397c
-
 ms.date: 12/05/2018
 ms.keywords: GetDDInterface, GetDDInterface method [DirectDraw], GetDDInterface method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetDDInterface method, IDirectDrawSurface7.GetDDInterface, IDirectDrawSurface7::GetDDInterface, ddraw/IDirectDrawSurface7::GetDDInterface, directdraw.idirectdrawsurface7_getddinterface
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.GetDDInterface"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetDDInterface
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.GetDDInterface
+- IDirectDrawSurface7.GetDDInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

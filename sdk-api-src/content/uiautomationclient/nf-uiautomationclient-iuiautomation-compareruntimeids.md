@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CompareRuntimeIds
 title: IUIAutomation::CompareRuntimeIds (uiautomationclient.h)
-
 description: Compares two integer arrays containing run-time identifiers (IDs) to determine whether their content is the same and they belong to the same UI element.
 old-location: winauto\uiauto_IUIAutomation_CompareRuntimeIds.htm
 tech.root: WinAuto
 ms.assetid: b0c481eb-3545-439c-bf6a-347b98ea35de
-
 ms.date: 12/05/2018
 ms.keywords: CompareRuntimeIds, CompareRuntimeIds method [Windows Accessibility], CompareRuntimeIds method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CompareRuntimeIds method, IUIAutomation.CompareRuntimeIds, IUIAutomation::CompareRuntimeIds, uiauto.uiauto_IUIAutomation_CompareRuntimeIds, uiauto_IUIAutomation_CompareRuntimeIds, uiautomationclient/IUIAutomation::CompareRuntimeIds, winauto.uiauto_IUIAutomation_CompareRuntimeIds
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CompareRuntimeIds"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CompareRuntimeIds
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CompareRuntimeIds
+- IUIAutomation.CompareRuntimeIds
 targetos: Windows
 req.typenames: 
 req.redist: 

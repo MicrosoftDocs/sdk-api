@@ -1,19 +1,17 @@
 ---
 UID: NF:msajtransport.AllJoynSendToBus
 title: AllJoynSendToBus function (msajtransport.h)
-
 description: Sends data to the bus via named pipe. The caller of this API is responsible to check if the bytesTransferred is less than the requested bytes and call this API again to resend the rest of the data.
 old-location: alljoyn\alljoynsendtobus.htm
 tech.root: AllJoyn
 ms.assetid: 8D941DB8-AA73-472B-92E2-85EA72BD9A40
-
 ms.date: 12/05/2018
 ms.keywords: AllJoynSendToBus, AllJoynSendToBus function [AllJoyn API], alljoyn.alljoynsendtobus, msajtransport/AllJoynSendToBus
 ms.topic: function
-f1_keywords: 
- - "msajtransport/AllJoynSendToBus"
+f1_keywords:
+- msajtransport/AllJoynSendToBus
 dev_langs:
- - c++
+- c++
 req.header: msajtransport.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MSAJApi.lib
 req.dll: MSAJApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MSAJApi.dll
+- MSAJApi.dll
 api_name:
- - AllJoynSendToBus
+- AllJoynSendToBus
 targetos: Windows
 req.typenames: 
 req.redist: 

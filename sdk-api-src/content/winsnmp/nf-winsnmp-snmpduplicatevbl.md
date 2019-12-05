@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpDuplicateVbl
 title: SnmpDuplicateVbl function (winsnmp.h)
-
 description: The WinSNMP SnmpDuplicateVbl function copies a variable bindings list for the specified WinSNMP session. This function returns a handle to the copied variable bindings list and allocates any necessary memory for it.
 old-location: snmp\snmpduplicatevbl.htm
 tech.root: SNMP
 ms.assetid: b6ca0167-43d7-4a85-b3ba-c2683ae27ff5
-
 ms.date: 12/05/2018
 ms.keywords: SnmpDuplicateVbl, SnmpDuplicateVbl function [SNMP], _snmp_snmpduplicatevbl, snmp.snmpduplicatevbl, winsnmp/SnmpDuplicateVbl
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpDuplicateVbl"
+f1_keywords:
+- winsnmp/SnmpDuplicateVbl
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpDuplicateVbl
+- SnmpDuplicateVbl
 targetos: Windows
 req.typenames: 
 req.redist: 

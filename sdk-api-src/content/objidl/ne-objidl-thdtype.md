@@ -1,19 +1,17 @@
 ---
 UID: NE:objidl._THDTYPE
 title: THDTYPE (objidl.h)
-
 description: Indicates whether a particular thread supports a message loop.
 old-location: com\thdtype.htm
 tech.root: com
 ms.assetid: c1f9ab7b-8915-4433-ae9f-57b1aedcad4d
-
 ms.date: 12/05/2018
 ms.keywords: THDTYPE, THDTYPE enumeration [COM], THDTYPE_BLOCKMESSAGES, THDTYPE_PROCESSMESSAGES, _com_THDTYPE, com.thdtype, objidlbase/THDTYPE, objidlbase/THDTYPE_BLOCKMESSAGES, objidlbase/THDTYPE_PROCESSMESSAGES
 ms.topic: enum
-f1_keywords: 
- - "objidl/THDTYPE"
+f1_keywords:
+- objidl/THDTYPE
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: Objidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - THDTYPE
+- THDTYPE
 targetos: Windows
 req.typenames: THDTYPE
 req.redist: 

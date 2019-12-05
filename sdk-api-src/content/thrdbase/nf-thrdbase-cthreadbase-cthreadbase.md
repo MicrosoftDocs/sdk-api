@@ -1,19 +1,17 @@
 ---
 UID: NF:thrdbase.CThreadBase.CThreadBase
 title: CThreadBase::CThreadBase (thrdbase.h)
-
 description: The CThreadBase::CThreadBase constructor initializes a new instance of CThreadBase. CThreadBase is called internally.
 old-location: wmi\cthreadbase_cthreadbase.htm
 tech.root: WmiSdk
 ms.assetid: 43909501-0a65-4728-9a26-30b8391a33c5
-
 ms.date: 12/05/2018
-ms.keywords: "??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z, CThreadBase, CThreadBase interface [Windows Management Instrumentation],CThreadBase method, CThreadBase method [Windows Management Instrumentation], CThreadBase method [Windows Management Instrumentation],CThreadBase interface, CThreadBase.CThreadBase, CThreadBase::CThreadBase, thrdbase/CThreadBase::CThreadBase, wmi.cthreadbase_cthreadbase"
+ms.keywords: ??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z, CThreadBase, CThreadBase interface [Windows Management Instrumentation],CThreadBase method, CThreadBase method [Windows Management Instrumentation], CThreadBase method [Windows Management Instrumentation],CThreadBase interface, CThreadBase.CThreadBase, CThreadBase::CThreadBase, thrdbase/CThreadBase::CThreadBase, wmi.cthreadbase_cthreadbase
 ms.topic: method
-f1_keywords: 
- - "thrdbase/CThreadBase.CThreadBase"
+f1_keywords:
+- thrdbase/CThreadBase.CThreadBase
 dev_langs:
- - c++
+- c++
 req.header: thrdbase.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CThreadBase.CThreadBase
- - ??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z
+- CThreadBase.CThreadBase
+- ??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

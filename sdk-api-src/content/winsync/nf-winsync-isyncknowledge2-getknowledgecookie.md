@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetKnowledgeCookie
 title: ISyncKnowledge2::GetKnowledgeCookie (winsync.h)
-
 description: Gets a lightweight, read-only representation of this knowledge object that can be used for fast comparisons.
 old-location: winsync\isyncknowledge2_getknowledgecookie.htm
 tech.root: winsync
 ms.assetid: d182f81d-131c-4f18-85e4-ff675ae99888
-
 ms.date: 12/05/2018
 ms.keywords: GetKnowledgeCookie, GetKnowledgeCookie method [Windows Sync], GetKnowledgeCookie method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetKnowledgeCookie method, ISyncKnowledge2.GetKnowledgeCookie, ISyncKnowledge2::GetKnowledgeCookie, winsync.isyncknowledge2_getknowledgecookie, winsync/ISyncKnowledge2::GetKnowledgeCookie
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge2.GetKnowledgeCookie"
+f1_keywords:
+- winsync/ISyncKnowledge2.GetKnowledgeCookie
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge2.GetKnowledgeCookie
+- ISyncKnowledge2.GetKnowledgeCookie
 targetos: Windows
 req.typenames: 
 req.redist: 

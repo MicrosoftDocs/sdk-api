@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetServiceType
 title: IDvbServiceDescriptor::GetServiceType (dvbsiparser.h)
-
 description: Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor.
 old-location: mstv\idvbservicedescriptor_getservicetype.htm
 tech.root: mstv
 ms.assetid: f13b6b0e-d4bb-42a6-9bab-dc3e13bc26e9
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceType, GetServiceType method [Microsoft TV Technologies], GetServiceType method [Microsoft TV Technologies],IDvbServiceDescriptor interface, IDvbServiceDescriptor interface [Microsoft TV Technologies],GetServiceType method, IDvbServiceDescriptor.GetServiceType, IDvbServiceDescriptor::GetServiceType, dvbsiparser/IDvbServiceDescriptor::GetServiceType, mstv.idvbservicedescriptor_getservicetype
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbServiceDescriptor.GetServiceType"
+f1_keywords:
+- dvbsiparser/IDvbServiceDescriptor.GetServiceType
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbServiceDescriptor.GetServiceType
+- IDvbServiceDescriptor.GetServiceType
 targetos: Windows
 req.typenames: 
 req.redist: 

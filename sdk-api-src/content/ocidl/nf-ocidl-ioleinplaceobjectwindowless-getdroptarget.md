@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.GetDropTarget
 title: IOleInPlaceObjectWindowless::GetDropTarget (ocidl.h)
-
 description: Retrieves the IDropTarget interface for an in-place active, windowless object that supports drag and drop.
 old-location: com\ioleinplaceobjectwindowless_getdroptarget.htm
 tech.root: com
 ms.assetid: 0dfed2c7-d513-4c29-8182-af1bd6f26834
-
 ms.date: 12/05/2018
 ms.keywords: GetDropTarget, GetDropTarget method [COM], GetDropTarget method [COM],IOleInPlaceObjectWindowless interface, IOleInPlaceObjectWindowless interface [COM],GetDropTarget method, IOleInPlaceObjectWindowless.GetDropTarget, IOleInPlaceObjectWindowless::GetDropTarget, _ole_ioleinplaceobjectwindowless_getdroptarget, com.ioleinplaceobjectwindowless_getdroptarget, ocidl/IOleInPlaceObjectWindowless::GetDropTarget
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceObjectWindowless.GetDropTarget"
+f1_keywords:
+- ocidl/IOleInPlaceObjectWindowless.GetDropTarget
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceObjectWindowless.GetDropTarget
+- IOleInPlaceObjectWindowless.GetDropTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

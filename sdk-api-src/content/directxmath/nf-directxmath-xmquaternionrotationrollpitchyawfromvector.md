@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionRotationRollPitchYawFromVector
 title: XMQuaternionRotationRollPitchYawFromVector function (directxmath.h)
-
 description: Computes a rotation quaternion based on a vector containing the Euler angles (pitch, yaw, and roll).
 old-location: dxmath\xmquaternionrotationrollpitchyawfromvector.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionRotationRollPitchYawFromVector(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionRotationRollPitchYawFromVector, XMQuaternionRotationRollPitchYawFromVector, XMQuaternionRotationRollPitchYawFromVector method [DirectX Math Support APIs], dxmath.xmquaternionrotationrollpitchyawfromvector
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionRotationRollPitchYawFromVector"
+f1_keywords:
+- directxmath/XMQuaternionRotationRollPitchYawFromVector
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionRotationRollPitchYawFromVector
+- XMQuaternionRotationRollPitchYawFromVector
 targetos: Windows
 req.typenames: 
 req.redist: 

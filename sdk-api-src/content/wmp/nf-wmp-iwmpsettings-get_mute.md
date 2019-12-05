@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSettings.get_mute
 title: IWMPSettings::get_mute (wmp.h)
-
 description: The get_mute method retrieves a value indicating whether audio is muted.
 old-location: wmp\iwmpsettings_get_mute.htm
 tech.root: WMP
 ms.assetid: b0bb1c84-d208-4d29-a797-bb18af039f03
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],get_mute method, IWMPSettings.get_mute, IWMPSettings::get_mute, IWMPSettingsget_mute, get_mute, get_mute method [Windows Media Player], get_mute method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_get_mute, wmp/IWMPSettings::get_mute
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSettings.get_mute"
+f1_keywords:
+- wmp/IWMPSettings.get_mute
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSettings.get_mute
+- IWMPSettings.get_mute
 targetos: Windows
 req.typenames: 
 req.redist: 

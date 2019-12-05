@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.ITTAPICallCenter
 title: ITTAPICallCenter (tapi3.h)
-
 description: The ITTAPICallCenter interface provides an entry point into call center controls.
 old-location: tapi3\ittapicallcenter.htm
 tech.root: Tapi
 ms.assetid: 871cb217-a44f-421e-9cb4-7d8771335d08
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPICallCenter, ITTAPICallCenter interface [TAPI 2.2], ITTAPICallCenter interface [TAPI 2.2],described, _tapi3_ittapicallcenter, tapi3.ittapicallcenter, tapi3cc/ITTAPICallCenter
 ms.topic: interface
-f1_keywords: 
- - "tapi3/ITTAPICallCenter"
+f1_keywords:
+- tapi3/ITTAPICallCenter
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPICallCenter
+- ITTAPICallCenter
 targetos: Windows
 req.typenames: 
 req.redist: 

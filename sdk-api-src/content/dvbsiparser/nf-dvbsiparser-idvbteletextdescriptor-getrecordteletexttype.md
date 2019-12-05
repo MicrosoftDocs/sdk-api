@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordTeletextType
 title: IDvbTeletextDescriptor::GetRecordTeletextType (dvbsiparser.h)
-
 description: Gets the teletext type code from from a Digital Video Broadcast (DVB) teletext descriptor.
 old-location: mstv\idvbteletextdescriptor_getrecordteletexttype.htm
 tech.root: mstv
 ms.assetid: 4272d95a-406f-4afc-92b9-abfd618f41ab
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordTeletextType, GetRecordTeletextType method [Microsoft TV Technologies], GetRecordTeletextType method [Microsoft TV Technologies],IDvbTeletextDescriptor interface, IDvbTeletextDescriptor interface [Microsoft TV Technologies],GetRecordTeletextType method, IDvbTeletextDescriptor.GetRecordTeletextType, IDvbTeletextDescriptor::GetRecordTeletextType, dvbsiparser/IDvbTeletextDescriptor::GetRecordTeletextType, mstv.idvbteletextdescriptor_getrecordteletexttype
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTeletextDescriptor.GetRecordTeletextType"
+f1_keywords:
+- dvbsiparser/IDvbTeletextDescriptor.GetRecordTeletextType
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTeletextDescriptor.GetRecordTeletextType
+- IDvbTeletextDescriptor.GetRecordTeletextType
 targetos: Windows
 req.typenames: 
 req.redist: 

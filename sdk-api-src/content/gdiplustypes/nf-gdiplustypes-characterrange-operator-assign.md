@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.CharacterRange.operator-assign
 title: CharacterRange::operator-assign (gdiplustypes.h)
-
 description: The CharacterRange::operator= method sets this CharacterRange object equal to the specified CharacterRange object.
 old-location: gdiplus\_gdiplus_CLASS_CharacterRange_operator_rhs_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\characterrangeclass\operator.htm
-
 ms.date: 12/05/2018
 ms.keywords: CharacterRange class [GDI+],operator= method, CharacterRange.operator-assign, CharacterRange.operator=, CharacterRange::operator-assign, CharacterRange::operator=, _gdiplus_CLASS_CharacterRange_operator_rhs_, gdiplus._gdiplus_CLASS_CharacterRange_operator_rhs_, operator=, operator= method [GDI+], operator= method [GDI+],CharacterRange class
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/CharacterRange.operator="
+f1_keywords:
+- gdiplustypes/CharacterRange.operator=
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - CharacterRange.operator=
+- CharacterRange.operator=
 targetos: Windows
 req.typenames: 
 req.redist: 

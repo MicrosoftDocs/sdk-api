@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine._MF_MEDIA_ENGINE_KEYERR
 title: MF_MEDIA_ENGINE_KEYERR (mfmediaengine.h)
-
 description: Defines media key error codes for the media engine.
 old-location: mf\mf_media_engine_keyerr.htm
 tech.root: medfound
 ms.assetid: F6E13260-74A2-40D0-A704-4E1CDB16B8D8
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIAENGINE_KEYERR_CLIENT, MF_MEDIAENGINE_KEYERR_DOMAIN, MF_MEDIAENGINE_KEYERR_HARDWARECHANGE, MF_MEDIAENGINE_KEYERR_OUTPUT, MF_MEDIAENGINE_KEYERR_SERVICE, MF_MEDIAENGINE_KEYERR_UNKNOWN, MF_MEDIA_ENGINE_KEYERR, MF_MEDIA_ENGINE_KEYERR enumeration [Media Foundation], mf.mf_media_engine_keyerr, mfmediaengine/MF_MEDIAENGINE_KEYERR_CLIENT, mfmediaengine/MF_MEDIAENGINE_KEYERR_DOMAIN, mfmediaengine/MF_MEDIAENGINE_KEYERR_HARDWARECHANGE, mfmediaengine/MF_MEDIAENGINE_KEYERR_OUTPUT, mfmediaengine/MF_MEDIAENGINE_KEYERR_SERVICE, mfmediaengine/MF_MEDIAENGINE_KEYERR_UNKNOWN, mfmediaengine/MF_MEDIA_ENGINE_KEYERR
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_KEYERR"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_KEYERR
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_KEYERR
+- MF_MEDIA_ENGINE_KEYERR
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_KEYERR
 req.redist: 

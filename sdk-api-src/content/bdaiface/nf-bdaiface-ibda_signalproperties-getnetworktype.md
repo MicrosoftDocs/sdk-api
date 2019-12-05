@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.GetNetworkType
 title: IBDA_SignalProperties::GetNetworkType (bdaiface.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibda_signalproperties_getnetworktype.htm
 tech.root: mstv
 ms.assetid: 6c799cad-2371-4845-a783-e7227fb81c4c
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_SignalProperties interface, IBDA_SignalProperties interface [Microsoft TV Technologies],GetNetworkType method, IBDA_SignalProperties.GetNetworkType, IBDA_SignalProperties::GetNetworkType, IBDA_SignalPropertiesGetNetworkType, bdaiface/IBDA_SignalProperties::GetNetworkType, mstv.ibda_signalproperties_getnetworktype
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_SignalProperties.GetNetworkType"
+f1_keywords:
+- bdaiface/IBDA_SignalProperties.GetNetworkType
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_SignalProperties.GetNetworkType
+- IBDA_SignalProperties.GetNetworkType
 targetos: Windows
 req.typenames: 
 req.redist: 

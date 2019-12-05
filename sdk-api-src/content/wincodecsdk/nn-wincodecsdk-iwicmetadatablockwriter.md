@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataBlockWriter
 title: IWICMetadataBlockWriter (wincodecsdk.h)
-
 description: Exposes methods that enable the encoding of metadata. This interface is implemented by the decoder and its image frames.
 old-location: wic\_wic_codec_iwicmetadatablockwriter.htm
 tech.root: wic
 ms.assetid: d8e44c64-dd58-4d36-8add-0a0b2e2af5a4
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockWriter, IWICMetadataBlockWriter interface [Windows Imaging Component], IWICMetadataBlockWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadatablockwriter, wic._wic_codec_iwicmetadatablockwriter, wincodecsdk/IWICMetadataBlockWriter
 ms.topic: interface
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockWriter"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockWriter
+- IWICMetadataBlockWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

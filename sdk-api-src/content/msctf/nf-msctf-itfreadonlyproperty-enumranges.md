@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReadOnlyProperty.EnumRanges
 title: ITfReadOnlyProperty::EnumRanges (msctf.h)
-
 description: ITfReadOnlyProperty::EnumRanges method
 old-location: tsf\itfreadonlyproperty_enumranges.htm
 tech.root: TSF
 ms.assetid: 201c518b-f06f-4c4f-aa56-f8d21f477814
-
 ms.date: 12/05/2018
 ms.keywords: EnumRanges, EnumRanges method [Text Services Framework], EnumRanges method [Text Services Framework],ITfReadOnlyProperty interface, ITfReadOnlyProperty interface [Text Services Framework],EnumRanges method, ITfReadOnlyProperty.EnumRanges, ITfReadOnlyProperty::EnumRanges, _tsf_itfreadonlyproperty_enumranges_ref, msctf/ITfReadOnlyProperty::EnumRanges, tsf.itfreadonlyproperty_enumranges
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReadOnlyProperty.EnumRanges"
+f1_keywords:
+- msctf/ITfReadOnlyProperty.EnumRanges
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfReadOnlyProperty.EnumRanges
+- ITfReadOnlyProperty.EnumRanges
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

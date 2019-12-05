@@ -1,19 +1,17 @@
 ---
 UID: NS:bits._BG_FILE_INFO
 title: BG_FILE_INFO (bits.h)
-
 description: Provides the local and remote names of the file to transfer.
 old-location: bits\bg_file_info.htm
 tech.root: Bits
 ms.assetid: bf5302e9-da8f-4c57-a998-fd49484e0584
-
 ms.date: 12/05/2018
 ms.keywords: BG_FILE_INFO, BG_FILE_INFO structure [BITS], _drz_bg_file_info, bits.bg_file_info, bits/BG_FILE_INFO
 ms.topic: struct
-f1_keywords: 
- - "bits/BG_FILE_INFO"
+f1_keywords:
+- bits/BG_FILE_INFO
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits.h
+- Bits.h
 api_name:
- - BG_FILE_INFO
+- BG_FILE_INFO
 targetos: Windows
 req.typenames: BG_FILE_INFO
 req.redist: 

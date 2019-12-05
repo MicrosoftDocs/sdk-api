@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStreamInfo
 title: IMFTransform::GetOutputStreamInfo (mftransform.h)
-
 description: Gets the buffer requirements and other information for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getoutputstreaminfo.htm
 tech.root: medfound
 ms.assetid: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5
-
 ms.date: 12/05/2018
 ms.keywords: 06cc7f1d-57a3-43b8-ab83-8d2ee8e655b5, GetOutputStreamInfo, GetOutputStreamInfo method [Media Foundation], GetOutputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStreamInfo method, IMFTransform.GetOutputStreamInfo, IMFTransform::GetOutputStreamInfo, mf.imftransform_getoutputstreaminfo, mftransform/IMFTransform::GetOutputStreamInfo
 ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.GetOutputStreamInfo
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

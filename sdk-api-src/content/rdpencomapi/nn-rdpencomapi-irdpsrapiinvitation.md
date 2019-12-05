@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIInvitation
 title: IRDPSRAPIInvitation (rdpencomapi.h)
-
 description: Invitations enable a person or group of persons to connect to a session. When an attendee connects to a session, the client sends a ticket and a password. These two pieces of information are used to authenticate an attendee.
 old-location: rdp\irdpsrapiinvitation.htm
 tech.root: rdp
 ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIInvitation"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIInvitation
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation
+- IRDPSRAPIInvitation
 targetos: Windows
 req.typenames: 
 req.redist: 

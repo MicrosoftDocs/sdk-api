@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_WindowStyleEx
 title: IVideoWindow::get_WindowStyleEx (control.h)
-
 description: The get_WindowStyleEx method retrieves the extended window styles on the video window.
 old-location: dshow\ivideowindow_get_windowstyleex.htm
 tech.root: DirectShow
 ms.assetid: cdffe918-5802-406e-86b1-d1e9ebb6dbf7
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_WindowStyleEx method, IVideoWindow.get_WindowStyleEx, IVideoWindow::get_WindowStyleEx, IVideoWindowget_WindowStyleEx, control/IVideoWindow::get_WindowStyleEx, dshow.ivideowindow_get_windowstyleex, get_WindowStyleEx, get_WindowStyleEx method [DirectShow], get_WindowStyleEx method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_WindowStyleEx"
+f1_keywords:
+- control/IVideoWindow.get_WindowStyleEx
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_WindowStyleEx
+- IVideoWindow.get_WindowStyleEx
 targetos: Windows
 req.typenames: 
 req.redist: 

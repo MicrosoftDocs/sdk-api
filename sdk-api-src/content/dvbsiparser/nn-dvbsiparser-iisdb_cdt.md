@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IISDB_CDT
 title: IISDB_CDT (dvbsiparser.h)
-
 description: Implements methods that get information from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT). A CDT contains data, such as company logos, that is needed for receivers and stored in nonvolatile memory.
 old-location: mstv\iisdb_cdt.htm
 tech.root: mstv
 ms.assetid: 6e0ceabb-4d67-46c1-9e7d-e00d5ad82280
-
 ms.date: 12/05/2018
 ms.keywords: IISDB_CDT, IISDB_CDT interface [Microsoft TV Technologies], IISDB_CDT interface [Microsoft TV Technologies],described, dvbsiparser/IISDB_CDT, mstv.iisdb_cdt
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IISDB_CDT"
+f1_keywords:
+- dvbsiparser/IISDB_CDT
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_CDT
+- IISDB_CDT
 targetos: Windows
 req.typenames: 
 req.redist: 

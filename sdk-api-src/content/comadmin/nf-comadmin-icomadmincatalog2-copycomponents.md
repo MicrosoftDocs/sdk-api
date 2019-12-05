@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.CopyComponents
 title: ICOMAdminCatalog2::CopyComponents (comadmin.h)
-
 description: Copies the specified components from one partition to another.
 old-location: cos\icomadmincatalog2_copycomponents.htm
 tech.root: cossdk
 ms.assetid: 931f4929-b99b-4c4f-8980-eaceacc0e7fa
-
 ms.date: 12/05/2018
 ms.keywords: CopyComponents, CopyComponents method [COM+], CopyComponents method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyComponents method, ICOMAdminCatalog2.CopyComponents, ICOMAdminCatalog2::CopyComponents, _cos_icomadmincatalog2_CopyComponents, comadmin/ICOMAdminCatalog2::CopyComponents, cos.icomadmincatalog2_copycomponents
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.CopyComponents"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.CopyComponents
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.CopyComponents
+- ICOMAdminCatalog2.CopyComponents
 targetos: Windows
 req.typenames: 
 req.redist: 

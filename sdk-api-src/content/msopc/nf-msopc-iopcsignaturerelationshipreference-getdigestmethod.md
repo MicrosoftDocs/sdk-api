@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetDigestMethod
 title: IOpcSignatureRelationshipReference::GetDigestMethod (msopc.h)
-
 description: Gets the digest method to use on relationship markup of the selected relationships.
 old-location: opc\iopcsignaturerelationshipreference_getdigestmethod.htm
 tech.root: OPC
 ms.assetid: 126e0b2c-8b58-4b42-b2b5-99f6fab40f27
-
 ms.date: 12/05/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignatureRelationshipReference interface, IOpcSignatureRelationshipReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignatureRelationshipReference.GetDigestMethod, IOpcSignatureRelationshipReference::GetDigestMethod, msopc/IOpcSignatureRelationshipReference::GetDigestMethod, opc.iopcsignaturerelationshipreference_getdigestmethod
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureRelationshipReference.GetDigestMethod"
+f1_keywords:
+- msopc/IOpcSignatureRelationshipReference.GetDigestMethod
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureRelationshipReference.GetDigestMethod
+- IOpcSignatureRelationshipReference.GetDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

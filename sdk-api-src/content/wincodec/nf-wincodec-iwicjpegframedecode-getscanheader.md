@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICJpegFrameDecode.GetScanHeader
 title: IWICJpegFrameDecode::GetScanHeader (wincodec.h)
-
 description: Retrieves parameters from the Start Of Scan (SOS) marker for the scan with the specified index.
 old-location: wic\iwicjpegframedecode_getscanheader.htm
 tech.root: wic
 ms.assetid: FD434498-CC04-4702-ACD3-EDD1DDE0B3AA
-
 ms.date: 12/05/2018
 ms.keywords: GetScanHeader, GetScanHeader method [Windows Imaging Component], GetScanHeader method [Windows Imaging Component],IWICJpegFrameDecode interface, IWICJpegFrameDecode interface [Windows Imaging Component],GetScanHeader method, IWICJpegFrameDecode.GetScanHeader, IWICJpegFrameDecode::GetScanHeader, wic.iwicjpegframedecode_getscanheader, wincodec/IWICJpegFrameDecode::GetScanHeader
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICJpegFrameDecode.GetScanHeader"
+f1_keywords:
+- wincodec/IWICJpegFrameDecode.GetScanHeader
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode.GetScanHeader
+- IWICJpegFrameDecode.GetScanHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

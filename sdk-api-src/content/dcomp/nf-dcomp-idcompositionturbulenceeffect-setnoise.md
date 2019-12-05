@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionTurbulenceEffect.SetNoise
 title: IDCompositionTurbulenceEffect::SetNoise (dcomp.h)
-
 description: Sets the turbulence noise mode.
 old-location: directcomp\idcompositionturbulenceeffect_setnoise.htm
 tech.root: directcomp
 ms.assetid: 6EF5C8D0-C614-4520-BAE5-A3C8E609FB64
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionTurbulenceEffect interface [DirectComposition],SetNoise method, IDCompositionTurbulenceEffect.SetNoise, IDCompositionTurbulenceEffect::SetNoise, SetNoise, SetNoise method [DirectComposition], SetNoise method [DirectComposition],IDCompositionTurbulenceEffect interface, dcomp/IDCompositionTurbulenceEffect::SetNoise, directcomp.idcompositionturbulenceeffect_setnoise
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionTurbulenceEffect.SetNoise"
+f1_keywords:
+- dcomp/IDCompositionTurbulenceEffect.SetNoise
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionTurbulenceEffect.SetNoise
+- IDCompositionTurbulenceEffect.SetNoise
 targetos: Windows
 req.typenames: 
 req.redist: 

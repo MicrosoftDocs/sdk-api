@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunnableObject.SetContainedObject
 title: IRunnableObject::SetContainedObject (objidl.h)
-
 description: Notifies an object that it is embedded in an OLE container, which ensures that reference counting is done correctly for containers that support links to embedded objects.
 old-location: com\irunnableobject_setcontainedobject.htm
 tech.root: com
 ms.assetid: dbd3f632-2b81-44d1-8376-4b507316895f
-
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],SetContainedObject method, IRunnableObject.SetContainedObject, IRunnableObject::SetContainedObject, SetContainedObject, SetContainedObject method [COM], SetContainedObject method [COM],IRunnableObject interface, _com_irunnableobject_setcontainedobject, com.irunnableobject_setcontainedobject, objidl/IRunnableObject::SetContainedObject
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunnableObject.SetContainedObject"
+f1_keywords:
+- objidl/IRunnableObject.SetContainedObject
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunnableObject.SetContainedObject
+- IRunnableObject.SetContainedObject
 targetos: Windows
 req.typenames: 
 req.redist: 

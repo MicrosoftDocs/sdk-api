@@ -1,19 +1,17 @@
 ---
 UID: NS:ntenclv.ENCLAVE_INFORMATION
 title: ENCLAVE_INFORMATION (ntenclv.h)
-
 description: Contains information about the currently executing enclave.
 old-location: base\enclave_information.htm
 tech.root: Memory
 ms.assetid: 6720EDBE-6A0E-4192-A096-2ACA681E2AAF
-
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_INFORMATION, ENCLAVE_INFORMATION structure, ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, base.enclave_information, ntenclv/ENCLAVE_INFORMATION
 ms.topic: struct
-f1_keywords: 
- - "ntenclv/ENCLAVE_INFORMATION"
+f1_keywords:
+- ntenclv/ENCLAVE_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ntenclv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ntenclv.h
+- ntenclv.h
 api_name:
- - ENCLAVE_INFORMATION
+- ENCLAVE_INFORMATION
 targetos: Windows
 req.typenames: ENCLAVE_INFORMATION
 req.redist: 

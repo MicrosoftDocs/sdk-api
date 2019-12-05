@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.media.streaming.IStreamSelectorStatics
 title: IStreamSelectorStatics (windows.media.streaming.h)
-
 description: Encapsulates the methods needed to asynchronously select a stream.
 old-location: mediastreaming\istreamselectorstatics.htm
 tech.root: mediastreaming
 ms.assetid: 746BFF49-C75F-417B-A54A-841A4A0E84C5
-
 ms.date: 12/05/2018
 ms.keywords: IStreamSelectorStatics, IStreamSelectorStatics interface [Media Streaming API], IStreamSelectorStatics interface [Media Streaming API],described, mediastreaming.istreamselectorstatics, windows/IStreamSelectorStatics
 ms.topic: interface
-f1_keywords: 
- - "windows.media.streaming/IStreamSelectorStatics"
+f1_keywords:
+- windows.media.streaming/IStreamSelectorStatics
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.media.streaming.h
+- windows.media.streaming.h
 api_name:
- - IStreamSelectorStatics
+- IStreamSelectorStatics
 targetos: Windows
 req.typenames: 
 req.redist: 

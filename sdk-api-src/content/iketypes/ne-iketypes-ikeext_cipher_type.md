@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_CIPHER_TYPE_
 title: IKEEXT_CIPHER_TYPE (iketypes.h)
-
 description: Specifies the type of encryption algorithm used for encrypting the Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) messages.
 old-location: fwp\ikeext_cipher_type.htm
 tech.root: fwp
 ms.assetid: 00d5def0-5c8c-4d84-b929-aec76a1a7110
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CIPHER_3DES, IKEEXT_CIPHER_AES_128, IKEEXT_CIPHER_AES_192, IKEEXT_CIPHER_AES_256, IKEEXT_CIPHER_DES, IKEEXT_CIPHER_TYPE, IKEEXT_CIPHER_TYPE enumeration [Filtering], IKEEXT_CIPHER_TYPE_MAX, fwp.ikeext_cipher_type, iketypes/IKEEXT_CIPHER_3DES, iketypes/IKEEXT_CIPHER_AES_128, iketypes/IKEEXT_CIPHER_AES_192, iketypes/IKEEXT_CIPHER_AES_256, iketypes/IKEEXT_CIPHER_DES, iketypes/IKEEXT_CIPHER_TYPE, iketypes/IKEEXT_CIPHER_TYPE_MAX
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_CIPHER_TYPE"
+f1_keywords:
+- iketypes/IKEEXT_CIPHER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_CIPHER_TYPE
+- IKEEXT_CIPHER_TYPE
 targetos: Windows
 req.typenames: IKEEXT_CIPHER_TYPE
 req.redist: 

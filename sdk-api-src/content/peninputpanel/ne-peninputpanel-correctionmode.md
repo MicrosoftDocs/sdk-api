@@ -1,19 +1,17 @@
 ---
 UID: NE:peninputpanel.__MIDL___MIDL_itf_peninputpanel_0000_0000_0004
 title: CorrectionMode (peninputpanel.h)
-
 description: Specifies the correction modes of the Tablet PC Input Panel.
 old-location: tablet\correctionmode.htm
 tech.root: tablet
 ms.assetid: 133d2012-e43c-490a-b126-b7670ea7acf8
-
 ms.date: 12/05/2018
 ms.keywords: 133d2012-e43c-490a-b126-b7670ea7acf8, CorrectionMode, CorrectionMode enumeration [Tablet PC], CorrectionMode_NotVisible, CorrectionMode_PostInsertionCollapsed, CorrectionMode_PostInsertionExpanded, CorrectionMode_PreInsertion, peninputpanel/CorrectionMode, peninputpanel/CorrectionMode_NotVisible, peninputpanel/CorrectionMode_PostInsertionCollapsed, peninputpanel/CorrectionMode_PostInsertionExpanded, peninputpanel/CorrectionMode_PreInsertion, tablet.correctionmode
 ms.topic: enum
-f1_keywords: 
- - "peninputpanel/CorrectionMode"
+f1_keywords:
+- peninputpanel/CorrectionMode
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - peninputpanel.h
+- peninputpanel.h
 api_name:
- - CorrectionMode
+- CorrectionMode
 targetos: Windows
 req.typenames: CorrectionMode
 req.redist: 

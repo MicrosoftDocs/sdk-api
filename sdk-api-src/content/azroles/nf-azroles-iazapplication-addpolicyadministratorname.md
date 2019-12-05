@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.AddPolicyAdministratorName
 title: IAzApplication::AddPolicyAdministratorName (azroles.h)
-
 description: Adds the specified account name to the list of principals that act as policy administrators.
 old-location: security\iazapplication_addpolicyadministratorname.htm
 tech.root: SecAuthZ
 ms.assetid: cc5f74c6-e1b6-4924-b5c1-2d3600ce37ef
-
 ms.date: 12/05/2018
 ms.keywords: AddPolicyAdministratorName, AddPolicyAdministratorName method [Security], AddPolicyAdministratorName method [Security],AzApplication object, AddPolicyAdministratorName method [Security],IAzApplication interface, AzApplication object [Security],AddPolicyAdministratorName method, IAzApplication interface [Security],AddPolicyAdministratorName method, IAzApplication.AddPolicyAdministratorName, IAzApplication::AddPolicyAdministratorName, azroles/IAzApplication::AddPolicyAdministratorName, security.iazapplication_addpolicyadministratorname
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.AddPolicyAdministratorName"
+f1_keywords:
+- azroles/IAzApplication.AddPolicyAdministratorName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.AddPolicyAdministratorName
- - AzApplication.AddPolicyAdministratorName
+- IAzApplication.AddPolicyAdministratorName
+- AzApplication.AddPolicyAdministratorName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

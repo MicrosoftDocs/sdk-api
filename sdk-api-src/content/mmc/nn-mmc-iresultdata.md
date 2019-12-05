@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IResultData
 title: IResultData (mmc.h)
-
 description: The IResultData interface enables a user to add, remove, find, and modify items associated with the result view pane. It also enables the manipulation of the view style of the result view pane.
 old-location: mmc\iresultdata.htm
 tech.root: mmc
 ms.assetid: 58f8bcdb-b062-4048-92fc-eb652ce62c5b
-
 ms.date: 12/05/2018
 ms.keywords: IResultData, IResultData interface [MMC], IResultData interface [MMC],described, _slate_iresultdata, mmc.iresultdata, mmc/IResultData
 ms.topic: interface
-f1_keywords: 
- - "mmc/IResultData"
+f1_keywords:
+- mmc/IResultData
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData
+- IResultData
 targetos: Windows
 req.typenames: 
 req.redist: 

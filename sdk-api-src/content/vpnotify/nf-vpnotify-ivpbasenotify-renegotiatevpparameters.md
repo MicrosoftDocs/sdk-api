@@ -1,19 +1,17 @@
 ---
 UID: NF:vpnotify.IVPBaseNotify.RenegotiateVPParameters
 title: IVPBaseNotify::RenegotiateVPParameters (vpnotify.h)
-
 description: The RenegotiateVPParameters method initializes the connection to the decoder.
 old-location: dshow\ivpbasenotify_renegotiatevpparameters.htm
 tech.root: DirectShow
 ms.assetid: b35a0e8f-3d4f-443d-b76c-83b44745a86d
-
 ms.date: 12/05/2018
 ms.keywords: IVPBaseNotify interface [DirectShow],RenegotiateVPParameters method, IVPBaseNotify.RenegotiateVPParameters, IVPBaseNotify::RenegotiateVPParameters, IVPBaseNotifyRenegotiateVPParameters, RenegotiateVPParameters, RenegotiateVPParameters method [DirectShow], RenegotiateVPParameters method [DirectShow],IVPBaseNotify interface, dshow.ivpbasenotify_renegotiatevpparameters, vpnotify/IVPBaseNotify::RenegotiateVPParameters
 ms.topic: method
-f1_keywords: 
- - "vpnotify/IVPBaseNotify.RenegotiateVPParameters"
+f1_keywords:
+- vpnotify/IVPBaseNotify.RenegotiateVPParameters
 dev_langs:
- - c++
+- c++
 req.header: vpnotify.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpnotify.h
+- Vpnotify.h
 api_name:
- - IVPBaseNotify.RenegotiateVPParameters
+- IVPBaseNotify.RenegotiateVPParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

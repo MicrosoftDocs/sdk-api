@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqIfIds
 title: RpcMgmtInqIfIds function (rpcdce.h)
-
 description: The RpcMgmtInqIfIds function returns a vector containing the identifiers of the interfaces offered by the server.
 old-location: rpc\rpcmgmtinqifids.htm
 tech.root: Rpc
 ms.assetid: f6d89f2c-ff51-44ab-9f8a-2f76cd3ac6db
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqIfIds, RpcMgmtInqIfIds function [RPC], _rpc_rpcmgmtinqifids, rpc.rpcmgmtinqifids, rpcdce/RpcMgmtInqIfIds
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtInqIfIds"
+f1_keywords:
+- rpcdce/RpcMgmtInqIfIds
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtInqIfIds
+- RpcMgmtInqIfIds
 targetos: Windows
 req.typenames: 
 req.redist: 

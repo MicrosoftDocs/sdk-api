@@ -1,19 +1,17 @@
 ---
 UID: NF:msime.IFEDictionary.Close
 title: IFEDictionary::Close (msime.h)
-
 description: Closes a dictionary file.
 old-location: intl\ifedictionary_close.htm
 tech.root: Intl
 ms.assetid: 424FE6C8-2903-429C-AAC9-F9808E94047A
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [Internationalization for Windows Applications], Close method [Internationalization for Windows Applications],IFEDictionary interface, IFEDictionary interface [Internationalization for Windows Applications],Close method, IFEDictionary.Close, IFEDictionary::Close, intl.ifedictionary_close, msime/IFEDictionary::Close
 ms.topic: method
-f1_keywords: 
- - "msime/IFEDictionary.Close"
+f1_keywords:
+- msime/IFEDictionary.Close
 dev_langs:
- - c++
+- c++
 req.header: msime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msime.h
+- Msime.h
 api_name:
- - IFEDictionary.Close
+- IFEDictionary.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

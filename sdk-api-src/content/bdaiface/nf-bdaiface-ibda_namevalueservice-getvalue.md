@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NameValueService.GetValue
 title: IBDA_NameValueService::GetValue (bdaiface.h)
-
 description: Gets a value by name.
 old-location: mstv\ibda_namevalueservice_getvalue.htm
 tech.root: mstv
 ms.assetid: d240f991-8f15-4d37-a292-91c7e3dff27d
-
 ms.date: 12/05/2018
 ms.keywords: GetValue, GetValue method [Microsoft TV Technologies], GetValue method [Microsoft TV Technologies],IBDA_NameValueService interface, IBDA_NameValueService interface [Microsoft TV Technologies],GetValue method, IBDA_NameValueService.GetValue, IBDA_NameValueService::GetValue, bdaiface/IBDA_NameValueService::GetValue, mstv.ibda_namevalueservice_getvalue
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NameValueService.GetValue"
+f1_keywords:
+- bdaiface/IBDA_NameValueService.GetValue
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_NameValueService.GetValue
+- IBDA_NameValueService.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

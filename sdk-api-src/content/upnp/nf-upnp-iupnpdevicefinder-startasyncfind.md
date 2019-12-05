@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.StartAsyncFind
 title: IUPnPDeviceFinder::StartAsyncFind (upnp.h)
-
 description: The StartAsyncFind method starts an asynchronous search operation.
 old-location: upnp\iupnpdevicefinder_startasyncfind.htm
 tech.root: upnp
 ms.assetid: 3189ea47-8cb3-4b95-b88d-7ff72b776e56
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceFinder interface [UPnP APIs],StartAsyncFind method, IUPnPDeviceFinder.StartAsyncFind, IUPnPDeviceFinder::StartAsyncFind, StartAsyncFind, StartAsyncFind method [UPnP APIs], StartAsyncFind method [UPnP APIs],IUPnPDeviceFinder interface, _upnp_iupnpdevicefinder_startasyncfind, upnp.iupnpdevicefinder_startasyncfind, upnp/IUPnPDeviceFinder::StartAsyncFind
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinder.StartAsyncFind"
+f1_keywords:
+- upnp/IUPnPDeviceFinder.StartAsyncFind
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinder.StartAsyncFind
+- IUPnPDeviceFinder.StartAsyncFind
 targetos: Windows
 req.typenames: 
 req.redist: 

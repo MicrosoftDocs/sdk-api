@@ -1,19 +1,17 @@
 ---
 UID: NF:qos2.QOSCloseHandle
 title: QOSCloseHandle function (qos2.h)
-
 description: The QOSCloseHandle function closes a handle returned by the QOSCreateHandle function.
 old-location: qos\qosclosehandle.htm
 tech.root: QOS
 ms.assetid: e9e8e467-616c-419e-952d-2c9e93044a2f
-
 ms.date: 12/05/2018
 ms.keywords: QOSCloseHandle, QOSCloseHandle function [QOS], qos.qosclosehandle, qos2/QOSCloseHandle
 ms.topic: function
-f1_keywords: 
- - "qos2/QOSCloseHandle"
+f1_keywords:
+- qos2/QOSCloseHandle
 dev_langs:
- - c++
+- c++
 req.header: qos2.h
 req.include-header: Qos2.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Qwave.lib
 req.dll: Qwave.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - qwave.dll
+- qwave.dll
 api_name:
- - QOSCloseHandle
+- QOSCloseHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

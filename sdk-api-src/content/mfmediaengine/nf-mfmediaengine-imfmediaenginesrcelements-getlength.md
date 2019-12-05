@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetLength
 title: IMFMediaEngineSrcElements::GetLength (mfmediaengine.h)
-
 description: Gets the number of source elements in the list.
 old-location: mf\imfmediaenginesrcelements_getlength.htm
 tech.root: medfound
 ms.assetid: 212883A5-5613-4BCC-8713-9CD5E6480136
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Media Foundation], GetLength method [Media Foundation],IMFMediaEngineSrcElements interface, IMFMediaEngineSrcElements interface [Media Foundation],GetLength method, IMFMediaEngineSrcElements.GetLength, IMFMediaEngineSrcElements::GetLength, mf.imfmediaenginesrcelements_getlength, mfmediaengine/IMFMediaEngineSrcElements::GetLength
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElements.GetLength"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElements.GetLength
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElements.GetLength
+- IMFMediaEngineSrcElements.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

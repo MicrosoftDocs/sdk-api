@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.SetFeatureMask
 title: ID3D12DebugCommandList::SetFeatureMask (d3d12sdklayers.h)
-
 description: Turns the debug features for a command list on or off.
 old-location: direct3d12\id3d12debugcommandlist_setfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: D2273A6C-7401-44D6-A0E3-F3F2C5DBCB8B
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandList interface,SetFeatureMask method, ID3D12DebugCommandList.SetFeatureMask, ID3D12DebugCommandList::SetFeatureMask, SetFeatureMask, SetFeatureMask method, SetFeatureMask method,ID3D12DebugCommandList interface, d3d12sdklayers/ID3D12DebugCommandList::SetFeatureMask, direct3d12.id3d12debugcommandlist_setfeaturemask
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugCommandList.SetFeatureMask"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugCommandList.SetFeatureMask
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList.SetFeatureMask
+- ID3D12DebugCommandList.SetFeatureMask
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intshcut.MIMEAssociationDialogW
 title: MIMEAssociationDialogW function (intshcut.h)
-
 description: Runs the unregistered MIME content type dialog box.Note  Windows XP Service Pack 2 (SP2) or later:\_This function is no longer supported.
 old-location: shell\MIMEAssociationDialog.htm
 tech.root: shell
 ms.assetid: 0f8ee95a-3f95-47ee-822b-740ba134cd3c
-
 ms.date: 12/05/2018
 ms.keywords: MIMEAssociationDialog, MIMEAssociationDialog function [Windows Shell], MIMEAssociationDialogA, MIMEAssociationDialogW, _win32_MIMEAssociationDialog, intshcut/MIMEAssociationDialog, intshcut/MIMEAssociationDialogA, intshcut/MIMEAssociationDialogW, shell.MIMEAssociationDialog
 ms.topic: function
-f1_keywords: 
- - "intshcut/MIMEAssociationDialog"
+f1_keywords:
+- intshcut/MIMEAssociationDialog
 dev_langs:
- - c++
+- c++
 req.header: intshcut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Url.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Url.dll
+- Url.dll
 api_name:
- - MIMEAssociationDialog
- - MIMEAssociationDialogA
- - MIMEAssociationDialogW
+- MIMEAssociationDialog
+- MIMEAssociationDialogA
+- MIMEAssociationDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxAccountSet.GetAccount
 title: IFaxAccountSet::GetAccount (faxcomex.h)
-
 description: Returns an IFaxAccount object by using the account name.
 old-location: fax\_mfax_faxaccountset_cpp_mfax_faxaccountset_getaccount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\getaccount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetAccount, GetAccount method [Fax Service], GetAccount method [Fax Service],IFaxAccountSet interface, IFaxAccountSet interface [Fax Service],GetAccount method, IFaxAccountSet.GetAccount, IFaxAccountSet::GetAccount, _mfax_faxaccountset.getaccount, fax._mfax_faxaccountset_cpp_mfax_faxaccountset_getaccount_cpp, fax._mfax_faxaccountset_getaccount, faxcomex/IFaxAccountSet::GetAccount
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxAccountSet.GetAccount"
+f1_keywords:
+- faxcomex/IFaxAccountSet.GetAccount
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccountSet.GetAccount
- - IFaxAccountSet.GetAccount
+- IFaxAccountSet.GetAccount
+- IFaxAccountSet.GetAccount
 targetos: Windows
 req.typenames: 
 req.redist: 

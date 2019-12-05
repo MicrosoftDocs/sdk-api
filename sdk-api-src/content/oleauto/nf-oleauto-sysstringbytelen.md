@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SysStringByteLen
 title: SysStringByteLen function (oleauto.h)
-
 description: Returns the length (in bytes) of a BSTR.
 old-location: automat\sysstringbytelen.htm
 tech.root: automat
 ms.assetid: 2a150503-f474-41b8-90dd-fbbc955bea99
-
 ms.date: 12/05/2018
 ms.keywords: SysStringByteLen, SysStringByteLen function [Automation], _oa96_SysStringByteLen, automat.sysstringbytelen, oleauto/SysStringByteLen
 ms.topic: function
-f1_keywords: 
- - "oleauto/SysStringByteLen"
+f1_keywords:
+- oleauto/SysStringByteLen
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SysStringByteLen
+- SysStringByteLen
 targetos: Windows
 req.typenames: 
 req.redist: 

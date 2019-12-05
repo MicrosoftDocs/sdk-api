@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult
 title: IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthmanager_gettokenandsignaturewithtokenresult.htm
 tech.root: xblidp
 ms.assetid: 22ACC545-8EDE-4009-9EE9-1AE541985E6A
-
 ms.date: 12/05/2018
 ms.keywords: GetTokenAndSignatureWithTokenResult, GetTokenAndSignatureWithTokenResult method, GetTokenAndSignatureWithTokenResult method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetTokenAndSignatureWithTokenResult method, IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult, IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult, xblidp.ixblidpauthmanager_gettokenandsignaturewithtokenresult, xblidpauthmanager/IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult
+- IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult
 targetos: Windows
 req.typenames: 
 req.redist: 

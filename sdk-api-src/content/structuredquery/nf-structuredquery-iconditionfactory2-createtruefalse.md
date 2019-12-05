@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateTrueFalse
 title: IConditionFactory2::CreateTrueFalse (structuredquery.h)
-
 description: Creates a search condition that is either TRUE or FALSE.
 old-location: search\_search_IConditionFactory2_CreateTrueFalse.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createtruefalse.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateTrueFalse, CreateTrueFalse method [search], CreateTrueFalse method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateTrueFalse method, IConditionFactory2.CreateTrueFalse, IConditionFactory2::CreateTrueFalse, _search_IConditionFactory2_CreateTrueFalse, search._search_IConditionFactory2_CreateTrueFalse, structuredquery/IConditionFactory2::CreateTrueFalse
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory2.CreateTrueFalse"
+f1_keywords:
+- structuredquery/IConditionFactory2.CreateTrueFalse
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory2.CreateTrueFalse
+- IConditionFactory2.CreateTrueFalse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.HEADER
 title: HEADER macro (amvideo.h)
-
 description: The HEADER macro returns the address of the BITMAPINFOHEADER within a VIDEOINFOHEADER.
 old-location: dshow\header.htm
 tech.root: DirectShow
 ms.assetid: 5263f924-6f82-4d64-8dc7-0b5e7efa4150
-
 ms.date: 12/05/2018
 ms.keywords: HEADER, HEADER macro [DirectShow], amvideo/HEADER, dshow.header
 ms.topic: macro
-f1_keywords: 
- - "amvideo/HEADER"
+f1_keywords:
+- amvideo/HEADER
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Amvideo.h
+- Amvideo.h
 api_name:
- - HEADER
+- HEADER
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetStreamConfiguration
 title: IMFMuxStreamSampleManager::GetStreamConfiguration (mfobjects.h)
-
 description: Gets the active stream configuration for the media source, which defines the set of substreams that are included the multiplexed output.
 old-location: mf\imfmuxstreamsamplemanager_getstreamconfiguration.htm
 tech.root: medfound
 ms.assetid: 4EC64809-4647-4AEE-98ED-2EB6CC0329DB
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamConfiguration, GetStreamConfiguration method [Media Foundation], GetStreamConfiguration method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetStreamConfiguration method, IMFMuxStreamSampleManager.GetStreamConfiguration, IMFMuxStreamSampleManager::GetStreamConfiguration, mf.imfmuxstreamsamplemanager_getstreamconfiguration, mfobjects/IMFMuxStreamSampleManager::GetStreamConfiguration
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMuxStreamSampleManager.GetStreamConfiguration"
+f1_keywords:
+- mfobjects/IMFMuxStreamSampleManager.GetStreamConfiguration
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFMuxStreamSampleManager.GetStreamConfiguration
+- IMFMuxStreamSampleManager.GetStreamConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10shader.ID3D10ShaderReflection.GetInputParameterDesc
 title: ID3D10ShaderReflection::GetInputParameterDesc (d3d10shader.h)
-
 description: Get an input-parameter description for a shader.
 old-location: direct3d10\id3d10shaderreflection_getinputparameterdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getinputparameterdesc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 944856ef-d7fa-07b3-e7de-3d7d604ff3e0, GetInputParameterDesc, GetInputParameterDesc method [Direct3D 10], GetInputParameterDesc method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetInputParameterDesc method, ID3D10ShaderReflection.GetInputParameterDesc, ID3D10ShaderReflection::GetInputParameterDesc, d3d10shader/ID3D10ShaderReflection::GetInputParameterDesc, direct3d10.id3d10shaderreflection_getinputparameterdesc
 ms.topic: method
-f1_keywords: 
- - "d3d10shader/ID3D10ShaderReflection.GetInputParameterDesc"
+f1_keywords:
+- d3d10shader/ID3D10ShaderReflection.GetInputParameterDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Shader.h
+- D3D10Shader.h
 api_name:
- - ID3D10ShaderReflection.GetInputParameterDesc
+- ID3D10ShaderReflection.GetInputParameterDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

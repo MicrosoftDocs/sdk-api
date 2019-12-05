@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory4.TranslateColorGlyphRun
 title: IDWriteFactory4::TranslateColorGlyphRun (dwrite_3.h)
-
 description: Translates a glyph run to a sequence of color glyph runs, which can be rendered to produce a color representation of the original &#0034;base&#0034; run.
 old-location: directwrite\idwritefactory4_translatecolorglyphrun.htm
 tech.root: DirectWrite
 ms.assetid: D8C38635-8D7B-4C05-87D5-CCDCF31A4070
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFactory4 interface [Direct Write],TranslateColorGlyphRun method, IDWriteFactory4.TranslateColorGlyphRun, IDWriteFactory4::TranslateColorGlyphRun, TranslateColorGlyphRun, TranslateColorGlyphRun method [Direct Write], TranslateColorGlyphRun method [Direct Write],IDWriteFactory4 interface, directwrite.idwritefactory4_translatecolorglyphrun, dwrite_3/IDWriteFactory4::TranslateColorGlyphRun
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory4.TranslateColorGlyphRun"
+f1_keywords:
+- dwrite_3/IDWriteFactory4.TranslateColorGlyphRun
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory4.TranslateColorGlyphRun
+- IDWriteFactory4.TranslateColorGlyphRun
 targetos: Windows
 req.typenames: 
 req.redist: 

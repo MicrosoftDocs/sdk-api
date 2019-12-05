@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DeviceControl.CheckChanges
 title: IBDA_DeviceControl::CheckChanges (bdaiface.h)
-
 description: The CheckChanges method queries the device filter as to whether the changes that are pending would succeed if they were committed.
 old-location: mstv\ibda_devicecontrol_checkchanges.htm
 tech.root: mstv
 ms.assetid: e4654041-d17b-4b1b-9d0f-23c00b0090ea
-
 ms.date: 12/05/2018
 ms.keywords: CheckChanges, CheckChanges method [Microsoft TV Technologies], CheckChanges method [Microsoft TV Technologies],IBDA_DeviceControl interface, IBDA_DeviceControl interface [Microsoft TV Technologies],CheckChanges method, IBDA_DeviceControl.CheckChanges, IBDA_DeviceControl::CheckChanges, IBDA_DeviceControlCheckChanges, bdaiface/IBDA_DeviceControl::CheckChanges, mstv.ibda_devicecontrol_checkchanges
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DeviceControl.CheckChanges"
+f1_keywords:
+- bdaiface/IBDA_DeviceControl.CheckChanges
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DeviceControl.CheckChanges
+- IBDA_DeviceControl.CheckChanges
 targetos: Windows
 req.typenames: 
 req.redist: 

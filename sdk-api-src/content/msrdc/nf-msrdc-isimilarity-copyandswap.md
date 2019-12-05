@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarity.CopyAndSwap
 title: ISimilarity::CopyAndSwap (msrdc.h)
-
 description: Creates copies of an existing similarity traits table and an existing similarity file ID table, swaps the internal pointers, and deletes the existing tables.
 old-location: rdc\isimilarity_copyandswap.htm
 tech.root: rdc
 ms.assetid: 3a31530e-da6d-4ac8-9fd4-d91419777ce5
-
 ms.date: 12/05/2018
 ms.keywords: CopyAndSwap, CopyAndSwap method [Remote Differential Compression], CopyAndSwap method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CopyAndSwap method, ISimilarity.CopyAndSwap, ISimilarity::CopyAndSwap, fs.isimilarity_copyandswap, msrdc/ISimilarity::CopyAndSwap, rdc.isimilarity_copyandswap
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarity.CopyAndSwap"
+f1_keywords:
+- msrdc/ISimilarity.CopyAndSwap
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarity.CopyAndSwap
+- ISimilarity.CopyAndSwap
 targetos: Windows
 req.typenames: 
 req.redist: 

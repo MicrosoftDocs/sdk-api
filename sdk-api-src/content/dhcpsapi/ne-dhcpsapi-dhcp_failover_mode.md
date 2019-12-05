@@ -1,19 +1,17 @@
 ---
 UID: NE:dhcpsapi._DHCP_FAILOVER_MODE
 title: DHCP_FAILOVER_MODE (dhcpsapi.h)
-
 description: The DHCP_FAILOVER_MODE enumeration defines the DHCPv4 server mode operation in a failover relationship.
 old-location: dhcp\dhcp_failover_mode.htm
 tech.root: DHCP
 ms.assetid: 333f70a5-63bd-47f0-bb56-c5f6060e2a72
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_FAILOVER_MODE, DHCP_FAILOVER_MODE, DHCP_FAILOVER_MODE enumeration [DHCP], HotStandby, LPDHCP_FAILOVER_MODE, LPDHCP_FAILOVER_MODE enumeration pointer [DHCP], LoadBalance, dhcp.dhcp_failover_mode, dhcpsapi/DHCP_FAILOVER_MODE, dhcpsapi/HotStandby, dhcpsapi/LPDHCP_FAILOVER_MODE, dhcpsapi/LoadBalance'
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_FAILOVER_MODE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

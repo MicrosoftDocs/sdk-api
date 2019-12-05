@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_Department
 title: IFaxSender::get_Department (faxcomex.h)
-
 description: The IFaxSender::get_Department property is a null-terminated string that contains the department associated with the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_department_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7hx0.htm
-
 ms.date: 12/05/2018
 ms.keywords: Department property [Fax Service], Department property [Fax Service],IFaxSender interface, IFaxSender interface [Fax Service],Department property, IFaxSender.Department, IFaxSender.get_Department, IFaxSender.put_Department, IFaxSender::Department, IFaxSender::get_Department, IFaxSender::put_Department, _mfax_faxsender.department, fax._mfax_faxsender_cpp_mfax_faxsender_department_cpp, fax._mfax_faxsender_department, faxcomex/IFaxSender::Department, faxcomex/IFaxSender::get_Department, faxcomex/IFaxSender::put_Department, get_Department
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxSender.Department"
+f1_keywords:
+- faxcomex/IFaxSender.Department
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxSender.Department
- - IFaxSender.get_Department
- - IFaxSender.put_Department
- - IFaxSender.get_Department
- - IFaxSender.put_Department
+- IFaxSender.Department
+- IFaxSender.get_Department
+- IFaxSender.put_Department
+- IFaxSender.get_Department
+- IFaxSender.put_Department
 targetos: Windows
 req.typenames: 
 req.redist: 

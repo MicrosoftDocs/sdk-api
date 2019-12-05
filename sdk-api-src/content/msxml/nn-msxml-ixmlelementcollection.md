@@ -1,19 +1,17 @@
 ---
 UID: NN:msxml.IXMLElementCollection
 title: IXMLElementCollection (msxml.h)
-
 description: Supports collection of XML elements for indexed access.
 old-location: winprog\ixmlelementcollection.htm
 tech.root: DevNotes
 ms.assetid: 1d27e5fc-0491-44ee-9134-40f9f909b1cb
-
 ms.date: 12/05/2018
 ms.keywords: IXMLElementCollection, IXMLElementCollection interface [Windows API], IXMLElementCollection interface [Windows API],described, msxml/IXMLElementCollection, winprog.ixmlelementcollection
 ms.topic: interface
-f1_keywords: 
- - "msxml/IXMLElementCollection"
+f1_keywords:
+- msxml/IXMLElementCollection
 dev_langs:
- - c++
+- c++
 req.header: msxml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msxml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msxml.dll
+- Msxml.dll
 api_name:
- - IXMLElementCollection
+- IXMLElementCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

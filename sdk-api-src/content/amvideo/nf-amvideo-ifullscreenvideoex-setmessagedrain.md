@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetMessageDrain
 title: IFullScreenVideoEx::SetMessageDrain (amvideo.h)
-
 description: The SetMessageDrain method specifies a window to receive mouse and keyboard messages from the video window.
 old-location: dshow\ifullscreenvideoex_setmessagedrain.htm
 tech.root: DirectShow
 ms.assetid: d0c24da9-c33f-48a7-b644-a7671acca20f
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetMessageDrain method, IFullScreenVideoEx.SetMessageDrain, IFullScreenVideoEx::SetMessageDrain, IFullScreenVideoSetMessageDrain, SetMessageDrain, SetMessageDrain method [DirectShow], SetMessageDrain method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetMessageDrain, dshow.ifullscreenvideoex_setmessagedrain
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.SetMessageDrain"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.SetMessageDrain
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetMessageDrain
+- IFullScreenVideoEx.SetMessageDrain
 targetos: Windows
 req.typenames: 
 req.redist: 

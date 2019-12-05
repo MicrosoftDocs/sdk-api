@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagTRBTHUMBPOSCHANGING
 title: NMTRBTHUMBPOSCHANGING (commctrl.h)
-
 description: Contains information about a trackbar change notification. This message is sent with the TRBN_THUMBPOSCHANGING notification.
 old-location: controls\NMTRBTHUMBPOSCHANGING.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\trackbar\structures\nmtrbthumbposchanging.htm
-
 ms.date: 12/05/2018
 ms.keywords: NMTRBTHUMBPOSCHANGING, NMTRBTHUMBPOSCHANGING structure [Windows Controls], _shell_NMTRBTHUMBPOSCHANGING, _shell_NMTRBTHUMBPOSCHANGING_cpp, commctrl/NMTRBTHUMBPOSCHANGING, controls.NMTRBTHUMBPOSCHANGING, controls._shell_NMTRBTHUMBPOSCHANGING
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTRBTHUMBPOSCHANGING
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

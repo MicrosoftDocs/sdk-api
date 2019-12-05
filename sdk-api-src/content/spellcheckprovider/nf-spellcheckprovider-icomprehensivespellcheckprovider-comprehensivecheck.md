@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheckprovider.IComprehensiveSpellCheckProvider.ComprehensiveCheck
 title: IComprehensiveSpellCheckProvider::ComprehensiveCheck (spellcheckprovider.h)
-
 description: Spell-check the provider text in a more thorough manner than ISpellCheckProvider::Check.
 old-location: intl\icomprehensivespellcheckprovider_comprehensivecheck.htm
 tech.root: Intl
 ms.assetid: BD334EB8-4E14-478D-AB2A-E7F863C4BE0F
-
 ms.date: 12/05/2018
 ms.keywords: ComprehensiveCheck, ComprehensiveCheck method [Internationalization for Windows Applications], ComprehensiveCheck method [Internationalization for Windows Applications],IComprehensiveSpellCheckProvider interface, IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications],ComprehensiveCheck method, IComprehensiveSpellCheckProvider.ComprehensiveCheck, IComprehensiveSpellCheckProvider::ComprehensiveCheck, intl.icomprehensivespellcheckprovider_comprehensivecheck, spellcheckprovider/IComprehensiveSpellCheckProvider::ComprehensiveCheck
 ms.topic: method
-f1_keywords: 
- - "spellcheckprovider/IComprehensiveSpellCheckProvider.ComprehensiveCheck"
+f1_keywords:
+- spellcheckprovider/IComprehensiveSpellCheckProvider.ComprehensiveCheck
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spellcheckprovider.h
+- spellcheckprovider.h
 api_name:
- - IComprehensiveSpellCheckProvider.ComprehensiveCheck
+- IComprehensiveSpellCheckProvider.ComprehensiveCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

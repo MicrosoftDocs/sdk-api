@@ -1,19 +1,17 @@
 ---
 UID: NF:vdshwprv.IVdsLun.AssociateControllers
 title: IVdsLun::AssociateControllers (vdshwprv.h)
-
 description: Sets the subsystem controllers to active or inactive with respect to the LUN.
 old-location: base\ivdslun_associatecontrollers.htm
 tech.root: VDS
 ms.assetid: 2c3dc668-1745-49f4-9cd1-3bf0b322d0b2
-
 ms.date: 12/05/2018
 ms.keywords: AssociateControllers, AssociateControllers method [VDS], AssociateControllers method [VDS],IVdsLun interface, IVdsLun interface [VDS],AssociateControllers method, IVdsLun.AssociateControllers, IVdsLun::AssociateControllers, base.ivdslun_associatecontrollers, vds/IVdsLun::AssociateControllers, vdshwprv/IVdsLun::AssociateControllers
 ms.topic: method
-f1_keywords: 
- - "vdshwprv/IVdsLun.AssociateControllers"
+f1_keywords:
+- vdshwprv/IVdsLun.AssociateControllers
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsLun.AssociateControllers
+- IVdsLun.AssociateControllers
 targetos: Windows
 req.typenames: 
 req.redist: 

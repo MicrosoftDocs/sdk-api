@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_Bandwidth
 title: IAMNetShowExProps::get_Bandwidth (qnetwork.h)
-
 description: The get_Bandwidth method retrieves the bandwidth.
 old-location: dshow\iamnetshowexprops_get_bandwidth.htm
 tech.root: DirectShow
 ms.assetid: 042ddea5-c17a-4cd6-a18d-9a3b65bf11b7
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_Bandwidth method, IAMNetShowExProps.get_Bandwidth, IAMNetShowExProps::get_Bandwidth, IAMNetShowExPropsget_Bandwidth, dshow.iamnetshowexprops_get_bandwidth, get_Bandwidth, get_Bandwidth method [DirectShow], get_Bandwidth method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_Bandwidth
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowExProps.get_Bandwidth"
+f1_keywords:
+- qnetwork/IAMNetShowExProps.get_Bandwidth
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowExProps.get_Bandwidth
+- IAMNetShowExProps.get_Bandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

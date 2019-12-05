@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMLanguageList.GetLanguageDetails
 title: IWMLanguageList::GetLanguageDetails (wmsdkidl.h)
-
 description: The GetLanguageDetails method retrieves the RFC 1766-compliant language tag for an entry in the list of supported languages.
 old-location: wmformat\iwmlanguagelist_getlanguagedetails.htm
 tech.root: wmformat
 ms.assetid: beb9f4fb-0acf-4693-b98e-2c197b330de5
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguageDetails, GetLanguageDetails method [windows Media Format], GetLanguageDetails method [windows Media Format],IWMLanguageList interface, IWMLanguageList interface [windows Media Format],GetLanguageDetails method, IWMLanguageList.GetLanguageDetails, IWMLanguageList::GetLanguageDetails, IWMLanguageListGetLanguageDetails, wmformat.iwmlanguagelist_getlanguagedetails, wmsdkidl/IWMLanguageList::GetLanguageDetails
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMLanguageList.GetLanguageDetails"
+f1_keywords:
+- wmsdkidl/IWMLanguageList.GetLanguageDetails
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMLanguageList.GetLanguageDetails
+- IWMLanguageList.GetLanguageDetails
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPPlayer
 title: IWMPPlayer (wmp.h)
-
 description: The IWMPPlayer interface provides methods for modifying the basic behavior of the Windows Media Player control user interface. These methods supplement the IWMPCore interface.
 old-location: wmp\iwmpplayer.htm
 tech.root: WMP
 ms.assetid: ce6aef79-1faa-44ac-a096-f65d09458067
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer, IWMPPlayer interface [Windows Media Player], IWMPPlayer interface [Windows Media Player],described, IWMPPlayerInterface, wmp.iwmpplayer, wmp/IWMPPlayer
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPPlayer"
+f1_keywords:
+- wmp/IWMPPlayer
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPPlayer
+- IWMPPlayer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.get_Enabled
 title: IRealTimeStylus::get_Enabled (rtscom.h)
-
 description: Gets or sets a value that specifies whether the RealTimeStylus object collects tablet pen data.
 old-location: tablet\irealtimestylus_enabled.htm
 tech.root: tablet
 ms.assetid: e96e27d7-b453-49a7-b684-b3dd5f94c378
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],Enabled property, IRealTimeStylus.Enabled, IRealTimeStylus.get_Enabled, IRealTimeStylus.put_Enabled, IRealTimeStylus::Enabled, IRealTimeStylus::get_Enabled, IRealTimeStylus::put_Enabled, e96e27d7-b453-49a7-b684-b3dd5f94c378, get_Enabled, rtscom/IRealTimeStylus::Enabled, rtscom/IRealTimeStylus::get_Enabled, rtscom/IRealTimeStylus::put_Enabled, tablet.irealtimestylus_enabled
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.Enabled"
+f1_keywords:
+- rtscom/IRealTimeStylus.Enabled
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.Enabled
- - IRealTimeStylus.get_Enabled
- - IRealTimeStylus.put_Enabled
- - IRealTimeStylus.get_Enabled
- - IRealTimeStylus.put_Enabled
+- IRealTimeStylus.Enabled
+- IRealTimeStylus.get_Enabled
+- IRealTimeStylus.put_Enabled
+- IRealTimeStylus.get_Enabled
+- IRealTimeStylus.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tbs.Tbsi_GetDeviceInfo
 title: Tbsi_GetDeviceInfo function (tbs.h)
-
 description: Obtains the version of the TPM on the computer.
 old-location: tbs\tbsi_getdeviceinfo.htm
 tech.root: TBS
 ms.assetid: 49C36A54-0D21-461C-A240-8D12ADF2AFA1
-
 ms.date: 12/05/2018
 ms.keywords: Tbsi_GetDeviceInfo, Tbsi_GetDeviceInfo function [TBS], tbs.tbsi_getdeviceinfo, tbs/Tbsi_GetDeviceInfo
 ms.topic: function
 f1_keywords:
 - tbs/Tbsi_GetDeviceInfo
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows

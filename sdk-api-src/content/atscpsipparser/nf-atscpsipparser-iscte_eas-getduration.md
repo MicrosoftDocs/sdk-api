@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetDuration
 title: ISCTE_EAS::GetDuration (atscpsipparser.h)
-
 description: The GetDuration method returns the expected duration of the alert.
 old-location: mstv\iscte_eas_getduration.htm
 tech.root: mstv
 ms.assetid: de644588-6247-44d2-9d19-53272af8529b
-
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Microsoft TV Technologies], GetDuration method [Microsoft TV Technologies],ISCTE_EAS interface, ISCTE_EAS interface [Microsoft TV Technologies],GetDuration method, ISCTE_EAS.GetDuration, ISCTE_EAS::GetDuration, ISCTE_EASGetDuration, atscpsipparser/ISCTE_EAS::GetDuration, mstv.iscte_eas_getduration
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ISCTE_EAS.GetDuration"
+f1_keywords:
+- atscpsipparser/ISCTE_EAS.GetDuration
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ISCTE_EAS.GetDuration
+- ISCTE_EAS.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

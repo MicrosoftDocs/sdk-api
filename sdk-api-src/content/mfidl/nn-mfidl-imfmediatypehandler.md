@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaTypeHandler
 title: IMFMediaTypeHandler (mfidl.h)
-
 description: Gets and sets media types on an object, such as a media source or media sink.
 old-location: mf\imfmediatypehandler.htm
 tech.root: medfound
 ms.assetid: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36
-
 ms.date: 12/05/2018
 ms.keywords: 5b937bf7-4f86-4dc1-a4d5-7e724dcf5b36, IMFMediaTypeHandler, IMFMediaTypeHandler interface [Media Foundation], IMFMediaTypeHandler interface [Media Foundation],described, mf.imfmediatypehandler, mfidl/IMFMediaTypeHandler
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaTypeHandler"
+f1_keywords:
+- mfidl/IMFMediaTypeHandler
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaTypeHandler
+- IMFMediaTypeHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

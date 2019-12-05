@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetAlternateLocationMapping
 title: IVssComponent::GetAlternateLocationMapping (vswriter.h)
-
 description: The GetAlternateLocationMapping is used to return a file set's alternate location for file restoration. This method can be called by either a writer or a requester.
 old-location: base\ivsscomponent_getalternatelocationmapping.htm
 tech.root: VSS
 ms.assetid: 8c6537eb-67ba-4d6a-ac86-44da176ef5c5
-
 ms.date: 12/05/2018
 ms.keywords: GetAlternateLocationMapping, GetAlternateLocationMapping method [VSS], GetAlternateLocationMapping method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetAlternateLocationMapping method, IVssComponent.GetAlternateLocationMapping, IVssComponent::GetAlternateLocationMapping, _win32_ivsscomponent_getalternatelocationmapping, base.ivsscomponent_getalternatelocationmapping, vswriter/IVssComponent::GetAlternateLocationMapping
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetAlternateLocationMapping"
+f1_keywords:
+- vswriter/IVssComponent.GetAlternateLocationMapping
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetAlternateLocationMapping
+- IVssComponent.GetAlternateLocationMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

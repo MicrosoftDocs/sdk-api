@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll.put_DeleteRequestCert
 title: ICEnroll::put_DeleteRequestCert (xenroll.h)
-
 description: Sets or retrieves a Boolean value that determines whether dummy certificates in the request store are deleted.
 old-location: security\icenroll4_deleterequestcert.htm
 tech.root: SecCrypto
 ms.assetid: f026f4ed-e003-4ece-8c08-427dac48229f
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],DeleteRequestCert property, DeleteRequestCert property [Security], DeleteRequestCert property [Security],CEnroll object, DeleteRequestCert property [Security],ICEnroll interface, DeleteRequestCert property [Security],ICEnroll2 interface, DeleteRequestCert property [Security],ICEnroll3 interface, DeleteRequestCert property [Security],ICEnroll4 interface, ICEnroll interface [Security],DeleteRequestCert property, ICEnroll.DeleteRequestCert, ICEnroll.put_DeleteRequestCert, ICEnroll2 interface [Security],DeleteRequestCert property, ICEnroll2.DeleteRequestCert, ICEnroll2::get_DeleteRequestCert, ICEnroll2::put_DeleteRequestCert, ICEnroll3 interface [Security],DeleteRequestCert property, ICEnroll3.DeleteRequestCert, ICEnroll3::get_DeleteRequestCert, ICEnroll3::put_DeleteRequestCert, ICEnroll4 interface [Security],DeleteRequestCert property, ICEnroll4.DeleteRequestCert, ICEnroll4::DeleteRequestCert, ICEnroll4::get_DeleteRequestCert, ICEnroll4::put_DeleteRequestCert, ICEnroll::get_DeleteRequestCert, ICEnroll::put_DeleteRequestCert, put_DeleteRequestCert, security.icenroll4_deleterequestcert, xenroll/ICEnroll2::DeleteRequestCert, xenroll/ICEnroll2::get_DeleteRequestCert, xenroll/ICEnroll2::put_DeleteRequestCert, xenroll/ICEnroll3::DeleteRequestCert, xenroll/ICEnroll3::get_DeleteRequestCert, xenroll/ICEnroll3::put_DeleteRequestCert, xenroll/ICEnroll4::DeleteRequestCert, xenroll/ICEnroll4::get_DeleteRequestCert, xenroll/ICEnroll4::put_DeleteRequestCert, xenroll/ICEnroll::DeleteRequestCert, xenroll/ICEnroll::get_DeleteRequestCert, xenroll/ICEnroll::put_DeleteRequestCert
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.DeleteRequestCert"
+f1_keywords:
+- xenroll/ICEnroll4.DeleteRequestCert
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,26 +30,26 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.DeleteRequestCert
- - ICEnroll4.get_DeleteRequestCert
- - ICEnroll4.put_DeleteRequestCert
- - ICEnroll3.DeleteRequestCert
- - ICEnroll3.get_DeleteRequestCert
- - ICEnroll3.put_DeleteRequestCert
- - ICEnroll2.DeleteRequestCert
- - ICEnroll2.get_DeleteRequestCert
- - ICEnroll2.put_DeleteRequestCert
- - ICEnroll.DeleteRequestCert
- - ICEnroll.get_DeleteRequestCert
- - ICEnroll.put_DeleteRequestCert
- - CEnroll.DeleteRequestCert
+- ICEnroll4.DeleteRequestCert
+- ICEnroll4.get_DeleteRequestCert
+- ICEnroll4.put_DeleteRequestCert
+- ICEnroll3.DeleteRequestCert
+- ICEnroll3.get_DeleteRequestCert
+- ICEnroll3.put_DeleteRequestCert
+- ICEnroll2.DeleteRequestCert
+- ICEnroll2.get_DeleteRequestCert
+- ICEnroll2.put_DeleteRequestCert
+- ICEnroll.DeleteRequestCert
+- ICEnroll.get_DeleteRequestCert
+- ICEnroll.put_DeleteRequestCert
+- CEnroll.DeleteRequestCert
 targetos: Windows
 req.typenames: 
 req.redist: 

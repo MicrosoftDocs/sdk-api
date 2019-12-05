@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncItemContainer
 title: ISyncMgrSyncItemContainer (syncmgr.h)
-
 description: Exposes methods that provide information to handlers about the items they contain.
 old-location: shell\ISyncMgrSyncItemContainer.htm
 tech.root: shell
 ms.assetid: c07487a5-aa12-411d-93bd-3774262e55c6
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItemContainer, ISyncMgrSyncItemContainer interface [Windows Shell], ISyncMgrSyncItemContainer interface [Windows Shell],described, _shell_ISyncMgrSyncItemContainer, shell.ISyncMgrSyncItemContainer, syncmgr/ISyncMgrSyncItemContainer
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItemContainer"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItemContainer
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItemContainer
+- ISyncMgrSyncItemContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

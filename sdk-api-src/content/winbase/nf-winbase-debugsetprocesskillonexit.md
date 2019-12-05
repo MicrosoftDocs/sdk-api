@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.DebugSetProcessKillOnExit
 title: DebugSetProcessKillOnExit function (winbase.h)
-
 description: Sets the action to be performed when the calling thread exits.
 old-location: base\debugsetprocesskillonexit.htm
 tech.root: Debug
 ms.assetid: 7ef44527-bde4-41f0-a470-d3f404c77ea9
-
 ms.date: 12/05/2018
 ms.keywords: DebugSetProcessKillOnExit, DebugSetProcessKillOnExit function, _win32_debugsetprocesskillonexit, base.debugsetprocesskillonexit, winbase/DebugSetProcessKillOnExit
 ms.topic: function
-f1_keywords: 
- - "winbase/DebugSetProcessKillOnExit"
+f1_keywords:
+- winbase/DebugSetProcessKillOnExit
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - DebugSetProcessKillOnExit
+- DebugSetProcessKillOnExit
 targetos: Windows
 req.typenames: 
 req.redist: 

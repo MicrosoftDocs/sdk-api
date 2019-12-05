@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxRecipients
 title: IFaxRecipients (faxcomex.h)
-
 description: The IFaxRecipients interface defines a FaxRecipients messaging collection is used by a fax client application to manage the fax recipient objects (FaxRecipient) that represent the recipients of a single fax document.
 old-location: fax\_mfax_faxrecipients_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7o4z_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxRecipients, IFaxRecipients interface [Fax Service], IFaxRecipients interface [Fax Service],described, _mfax_faxrecipients_cpp, fax._mfax_faxrecipients_cpp, faxcomex/IFaxRecipients
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxRecipients"
+f1_keywords:
+- faxcomex/IFaxRecipients
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxRecipients
+- IFaxRecipients
 targetos: Windows
 req.typenames: 
 req.redist: 

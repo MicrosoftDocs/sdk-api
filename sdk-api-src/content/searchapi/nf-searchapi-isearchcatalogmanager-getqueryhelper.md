@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetQueryHelper
 title: ISearchCatalogManager::GetQueryHelper (searchapi.h)
-
 description: Gets the ISearchQueryHelper interface for the current catalog.
 old-location: search\_search_ISearchCatalogManager_GetQueryHelper.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getqueryhelper.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetQueryHelper, GetQueryHelper method [search], GetQueryHelper method [search],ISearchCatalogManager interface, ISearchCatalogManager interface [search],GetQueryHelper method, ISearchCatalogManager.GetQueryHelper, ISearchCatalogManager::GetQueryHelper, _search_ISearchCatalogManager_GetQueryHelper, search._search_ISearchCatalogManager_GetQueryHelper, searchapi/ISearchCatalogManager::GetQueryHelper
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.GetQueryHelper"
+f1_keywords:
+- searchapi/ISearchCatalogManager.GetQueryHelper
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.GetQueryHelper
+- ISearchCatalogManager.GetQueryHelper
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

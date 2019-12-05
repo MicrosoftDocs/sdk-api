@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Connect
 title: IRpcStubBuffer::Connect (objidlbase.h)
-
 description: Initializes a server stub, binding it to the specified interface.
 old-location: com\irpcstubbuffer_connect.htm
 tech.root: com
 ms.assetid: 0a452287-b674-4b51-9690-316beeab4482
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [COM], Connect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Connect method, IRpcStubBuffer.Connect, IRpcStubBuffer::Connect, _com_irpcstubbuffer_connect, com.irpcstubbuffer_connect, objidlbase/IRpcStubBuffer::Connect
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IRpcStubBuffer.Connect"
+f1_keywords:
+- objidlbase/IRpcStubBuffer.Connect
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcStubBuffer.Connect
+- IRpcStubBuffer.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_UINT64_TEXT
 title: WS_XML_UINT64_TEXT (webservices.h)
-
 description: Represents an unsigned 64 bit integer.
 old-location: wsw\ws_xml_uint64_text.htm
 tech.root: wsw
 ms.assetid: f5cd92b9-6cc6-405c-baf6-42fd7917d523
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_UINT64_TEXT, WS_XML_UINT64_TEXT structure [Web Services for Windows], webservices/WS_XML_UINT64_TEXT, wsw.ws_xml_uint64_text
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_UINT64_TEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

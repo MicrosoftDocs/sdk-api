@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDistributorNotify.NotifyGraphChange
 title: IDistributorNotify::NotifyGraphChange (strmif.h)
-
 description: The NotifyGraphChange method is called when the set of filters in the filter graph changes or any pin connections change.
 old-location: dshow\idistributornotify_notifygraphchange.htm
 tech.root: DirectShow
 ms.assetid: 5f77f674-643a-450a-9589-16866d6cf680
-
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],NotifyGraphChange method, IDistributorNotify.NotifyGraphChange, IDistributorNotify::NotifyGraphChange, IDistributorNotifyNotifyGraphChange, NotifyGraphChange, NotifyGraphChange method [DirectShow], NotifyGraphChange method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_notifygraphchange, strmif/IDistributorNotify::NotifyGraphChange
 ms.topic: method
-f1_keywords: 
- - "strmif/IDistributorNotify.NotifyGraphChange"
+f1_keywords:
+- strmif/IDistributorNotify.NotifyGraphChange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDistributorNotify.NotifyGraphChange
+- IDistributorNotify.NotifyGraphChange
 targetos: Windows
 req.typenames: 
 req.redist: 

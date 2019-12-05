@@ -1,19 +1,17 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.GetCurrentViewType
 title: ICameraUIControl::GetCurrentViewType (camerauicontrol.h)
-
 description: Gets the type of the current view.
 old-location: winprog\icamerauicontrol_getcurrentviewtype.htm
 tech.root: DevNotes
 ms.assetid: 1037db43-58db-4131-9a7d-d392250e133a
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentViewType, GetCurrentViewType method [Windows API], GetCurrentViewType method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetCurrentViewType method, ICameraUIControl.GetCurrentViewType, ICameraUIControl::GetCurrentViewType, camerauicontrol/ICameraUIControl::GetCurrentViewType, winprog.icamerauicontrol_getcurrentviewtype
 ms.topic: method
-f1_keywords: 
- - "camerauicontrol/ICameraUIControl.GetCurrentViewType"
+f1_keywords:
+- camerauicontrol/ICameraUIControl.GetCurrentViewType
 dev_langs:
- - c++
+- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - camerauicontrol.h
+- camerauicontrol.h
 api_name:
- - ICameraUIControl.GetCurrentViewType
+- ICameraUIControl.GetCurrentViewType
 targetos: Windows
 req.typenames: 
 req.redist: 

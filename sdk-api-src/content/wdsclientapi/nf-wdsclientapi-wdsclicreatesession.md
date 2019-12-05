@@ -1,19 +1,17 @@
 ---
 UID: NF:wdsclientapi.WdsCliCreateSession
 title: WdsCliCreateSession function (wdsclientapi.h)
-
 description: Starts a new session with a WDS server.
 old-location: wds\wdsclicreatesession.htm
 tech.root: wds
 ms.assetid: c66801b2-ad5c-464b-ace3-269214621c20
-
 ms.date: 12/05/2018
 ms.keywords: WdsCliCreateSession, WdsCliCreateSession function [Windows Deployment Services], wds.wdsclicreatesession, wdsclientapi/WdsCliCreateSession
 ms.topic: function
-f1_keywords: 
- - "wdsclientapi/WdsCliCreateSession"
+f1_keywords:
+- wdsclientapi/WdsCliCreateSession
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsClientAPI.lib
 req.dll: WdsClientAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsClientAPI.dll
+- WdsClientAPI.dll
 api_name:
- - WdsCliCreateSession
+- WdsCliCreateSession
 targetos: Windows
 req.typenames: 
 req.redist: 

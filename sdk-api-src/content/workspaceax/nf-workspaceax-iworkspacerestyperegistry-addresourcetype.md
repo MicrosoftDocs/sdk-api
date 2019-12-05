@@ -1,19 +1,17 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.AddResourceType
 title: IWorkspaceResTypeRegistry::AddResourceType (workspaceax.h)
-
 description: Registers a third-party file name extension with the RemoteApp and Desktop Connections runtime.
 old-location: termserv\iworkspacerestyperegistry_addresourcetype.htm
 tech.root: TermServ
 ms.assetid: 0f4b82a6-1eca-4890-aa0c-1e4c5821cd33
-
 ms.date: 12/05/2018
 ms.keywords: AddResourceType, AddResourceType method [Remote Desktop Services], AddResourceType method [Remote Desktop Services],IWorkspaceResTypeRegistry interface, AddResourceType method [Remote Desktop Services],Workspace object, IWorkspaceResTypeRegistry interface [Remote Desktop Services],AddResourceType method, IWorkspaceResTypeRegistry.AddResourceType, IWorkspaceResTypeRegistry::AddResourceType, Workspace object [Remote Desktop Services],AddResourceType method, termserv.iworkspacerestyperegistry_addresourcetype, workspaceax/IWorkspaceResTypeRegistry::AddResourceType
 ms.topic: method
-f1_keywords: 
- - "workspaceax/IWorkspaceResTypeRegistry.AddResourceType"
+f1_keywords:
+- workspaceax/IWorkspaceResTypeRegistry.AddResourceType
 dev_langs:
- - c++
+- c++
 req.header: workspaceax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: TSWorkspace.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSWorkspace.dll
+- TSWorkspace.dll
 api_name:
- - IWorkspaceResTypeRegistry.AddResourceType
- - Workspace.AddResourceType
+- IWorkspaceResTypeRegistry.AddResourceType
+- Workspace.AddResourceType
 targetos: Windows
 req.typenames: 
 req.redist: 

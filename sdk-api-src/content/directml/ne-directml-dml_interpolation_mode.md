@@ -1,19 +1,17 @@
 ---
 UID: NE:directml.DML_INTERPOLATION_MODE
 title: DML_INTERPOLATION_MODE
-
 description: Defines constants that specify a mode for the DirectML upsample 2-D operator (as described by the DML_UPSAMPLE_2D_OPERATOR_DESC structure).
 old-location: direct3d12\dml_interpolation_mode.htm
 tech.root: direct3d12
 ms.assetid: E6A2F4EF-4BF3-4F1B-8D0D-D3EDBD07C042
-
 ms.date: 12/5/2018
 ms.keywords: DML_INTERPOLATION_MODE, DML_INTERPOLATION_MODE enumeration, DML_INTERPOLATION_MODE_LINEAR, DML_INTERPOLATION_MODE_NEAREST_NEIGHBOR, direct3d12.dml_interpolation_mode, directml/DML_INTERPOLATION_MODE, directml/DML_INTERPOLATION_MODE_LINEAR, directml/DML_INTERPOLATION_MODE_NEAREST_NEIGHBOR
 ms.topic: enum
-f1_keywords: 
- - "directml/DML_INTERPOLATION_MODE"
+f1_keywords:
+- directml/DML_INTERPOLATION_MODE
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectML.h
+- DirectML.h
 api_name:
- - DML_INTERPOLATION_MODE
+- DML_INTERPOLATION_MODE
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetThumbnail
 title: IPhotoAcquireItem::GetThumbnail (photoacquire.h)
-
 description: The GetThumbnail method retrieves the thumbnail provided for an item.
 old-location: picacq\iphotoacquireitem_getthumbnail.htm
 tech.root: acquisition
 ms.assetid: a347dc8b-7e95-4830-b848-ac3e7d495b3b
-
 ms.date: 12/05/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Picture Acquisition], GetThumbnail method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],GetThumbnail method, IPhotoAcquireItem.GetThumbnail, IPhotoAcquireItem::GetThumbnail, IPhotoAcquireItemGetThumbnail, photoacquire/IPhotoAcquireItem::GetThumbnail, picacq.iphotoacquireitem_getthumbnail
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireItem.GetThumbnail"
+f1_keywords:
+- photoacquire/IPhotoAcquireItem.GetThumbnail
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.GetThumbnail
+- IPhotoAcquireItem.GetThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

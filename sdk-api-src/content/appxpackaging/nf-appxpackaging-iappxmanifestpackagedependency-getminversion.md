@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageDependency.GetMinVersion
 title: IAppxManifestPackageDependency::GetMinVersion (appxpackaging.h)
-
 description: Gets the minimum version of the package on which the current package has a dependency.
 old-location: appxpkg\iappxmanifestpackagedependency_getminversion.htm
 tech.root: appxpkg
 ms.assetid: 301053BA-A2DB-405C-9E2E-3817B2B5D7FD
-
 ms.date: 12/05/2018
 ms.keywords: GetMinVersion, GetMinVersion method [App packaging and management], GetMinVersion method [App packaging and management],IAppxManifestPackageDependency interface, IAppxManifestPackageDependency interface [App packaging and management],GetMinVersion method, IAppxManifestPackageDependency.GetMinVersion, IAppxManifestPackageDependency::GetMinVersion, appxpackaging/IAppxManifestPackageDependency::GetMinVersion, appxpkg.iappxmanifestpackagedependency_getminversion
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageDependency.GetMinVersion"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageDependency.GetMinVersion
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageDependency.GetMinVersion
+- IAppxManifestPackageDependency.GetMinVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

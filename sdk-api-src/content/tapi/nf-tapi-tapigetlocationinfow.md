@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.tapiGetLocationInfoW
 title: tapiGetLocationInfoW function (tapi.h)
-
 description: The tapiGetLocationInfo function returns the country or region code and city (area) code that the user has set in the current location parameters in the Telephony Control Panel.
 old-location: tapi2\tapigetlocationinfo.htm
 tech.root: Tapi
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW"
+ms.keywords: _tapi2_tapigetlocationinfo, tapi/tapiGetLocationInfo, tapi/tapiGetLocationInfoA, tapi/tapiGetLocationInfoW, tapi2.tapigetlocationinfo, tapiGetLocationInfo, tapiGetLocationInfo function [TAPI 2.2], tapiGetLocationInfoA, tapiGetLocationInfoW
 ms.topic: function
-f1_keywords: 
- - "tapi/tapiGetLocationInfo"
+f1_keywords:
+- tapi/tapiGetLocationInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - tapiGetLocationInfo
- - tapiGetLocationInfoA
- - tapiGetLocationInfoW
+- tapiGetLocationInfo
+- tapiGetLocationInfoA
+- tapiGetLocationInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

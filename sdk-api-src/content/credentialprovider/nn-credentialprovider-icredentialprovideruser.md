@@ -1,19 +1,17 @@
 ---
 UID: NN:credentialprovider.ICredentialProviderUser
 title: ICredentialProviderUser (credentialprovider.h)
-
 description: Provides methods used to retrieve certain properties of an individual user included in a logon or credential UI.
 old-location: shell\ICredentialProviderUser.htm
 tech.root: shell
 ms.assetid: 8EE5FA54-E20E-4d24-AD73-2AE1F0090950
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderUser, ICredentialProviderUser interface [Windows Shell], ICredentialProviderUser interface [Windows Shell],described, credentialprovider/ICredentialProviderUser, shell.ICredentialProviderUser
 ms.topic: interface
-f1_keywords: 
- - "credentialprovider/ICredentialProviderUser"
+f1_keywords:
+- credentialprovider/ICredentialProviderUser
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CredentialProvider.lib
 req.dll: Authui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Authui.dll
+- Authui.dll
 api_name:
- - ICredentialProviderUser
+- ICredentialProviderUser
 targetos: Windows
 req.typenames: 
 req.redist: 

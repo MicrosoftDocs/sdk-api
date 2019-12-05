@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetUpStreamHypotheses
 title: INetDiagHelper::GetUpStreamHypotheses (ndhelper.h)
-
 description: Generate hypotheses for possible causes of high utilization in the upstream network components.
 old-location: ndf\inetdiaghelpe_getupstreathypotheses.htm
 tech.root: NDF
 ms.assetid: e683a2eb-8dec-47e2-ae3d-6c12a9b2773d
-
 ms.date: 12/05/2018
 ms.keywords: GetUpStreamHypotheses, GetUpStreamHypotheses method [NDF], GetUpStreamHypotheses method [NDF],INetDiagHelper interface, INetDiagHelper interface [NDF],GetUpStreamHypotheses method, INetDiagHelper.GetUpStreamHypotheses, INetDiagHelper::GetUpStreamHypotheses, ndf.inetdiaghelpe_getupstreathypotheses, ndhelper/INetDiagHelper::GetUpStreamHypotheses
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.GetUpStreamHypotheses"
+f1_keywords:
+- ndhelper/INetDiagHelper.GetUpStreamHypotheses
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.GetUpStreamHypotheses
+- INetDiagHelper.GetUpStreamHypotheses
 targetos: Windows
 req.typenames: 
 req.redist: 

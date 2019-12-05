@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverTriggerAddrAllocation
 title: DhcpV4FailoverTriggerAddrAllocation function (dhcpsapi.h)
-
 description: Redistributes the free addresses between the primary server and the secondary server that are part of a failover relationship.
 old-location: dhcp\dhcpv4failovertriggeraddrallocation.htm
 tech.root: DHCP
 ms.assetid: ff258179-1091-4338-9317-68fd8fe5a556
-
 ms.date: 12/05/2018
 ms.keywords: DhcpV4FailoverTriggerAddrAllocation, DhcpV4FailoverTriggerAddrAllocation function [DHCP], dhcp.dhcpv4failovertriggeraddrallocation, dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpV4FailoverTriggerAddrAllocation"
+f1_keywords:
+- dhcpsapi/DhcpV4FailoverTriggerAddrAllocation
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpV4FailoverTriggerAddrAllocation
+- DhcpV4FailoverTriggerAddrAllocation
 targetos: Windows
 req.typenames: 
 req.redist: 

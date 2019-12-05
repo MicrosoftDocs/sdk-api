@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsADSystemInfo.RefreshSchemaCache
 title: IADsADSystemInfo::RefreshSchemaCache (iads.h)
-
 description: The IADsADSystemInfo::RefreshSchemaCache method refreshes the Active Directory schema cache.
 old-location: adsi\iadsadsysteminfo_refreshschemacache.htm
 tech.root: adsi
 ms.assetid: 4531c041-a5a7-4de1-a3c4-c544cb4d6820
-
 ms.date: 12/05/2018
 ms.keywords: IADsADSystemInfo interface [ADSI],RefreshSchemaCache method, IADsADSystemInfo.RefreshSchemaCache, IADsADSystemInfo::RefreshSchemaCache, RefreshSchemaCache, RefreshSchemaCache method [ADSI], RefreshSchemaCache method [ADSI],IADsADSystemInfo interface, _ds_iadsadsysteminfo_refreshschemacache, adsi.iadsadsysteminfo__refreshschemacache, adsi.iadsadsysteminfo_refreshschemacache, iads/IADsADSystemInfo::RefreshSchemaCache
 ms.topic: method
-f1_keywords: 
- - "iads/IADsADSystemInfo.RefreshSchemaCache"
+f1_keywords:
+- iads/IADsADSystemInfo.RefreshSchemaCache
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsADSystemInfo.RefreshSchemaCache
+- IADsADSystemInfo.RefreshSchemaCache
 targetos: Windows
 req.typenames: 
 req.redist: 

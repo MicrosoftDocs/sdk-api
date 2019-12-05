@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerPnrpRegister
 title: PeerPnrpRegister function (p2p.h)
-
 description: Registers a peer with a PNRP cloud and returns a handle that can be used for registration updates.
 old-location: p2p\peerpnrpregister.htm
 tech.root: P2PSdk
 ms.assetid: 18c26779-f50d-43bd-a772-763ceba25da8
-
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpRegister, PeerPnrpRegister function [Peer Networking], p2p.peerpnrpregister, p2p/PeerPnrpRegister
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerPnrpRegister"
+f1_keywords:
+- p2p/PeerPnrpRegister
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerPnrpRegister
+- PeerPnrpRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHCreateProcessAsUserW
 title: SHCreateProcessAsUserW function (shellapi.h)
-
 description: Creates a new user-mode process and its primary thread to run a specified executable file.
 old-location: shell\SHCreateProcessAsUserW.htm
 tech.root: shell
 ms.assetid: 78548eaf-6907-41e3-9c22-848d0d159085
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateProcessAsUserW, SHCreateProcessAsUserW function [Windows Shell], _win32_SHCreateProcessAsUserW, _win32_SHCreateProcessAsUserW_cpp, shell.SHCreateProcessAsUserW, shellapi/SHCreateProcessAsUserW
 ms.topic: function
 f1_keywords:
 - shellapi/SHCreateProcessAsUserW
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows

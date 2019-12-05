@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetActualSectionToInstallExA
 title: SetupDiGetActualSectionToInstallExA function (setupapi.h)
-
 description: The SetupDiGetActualSectionToInstallEx function retrieves the name of the INF DDInstall section that installs a device for a specified operating system and processor architecture.
 old-location: devinst\setupdigetactualsectiontoinstallex.htm
 tech.root: devinst
 ms.assetid: 0f05e3ec-09ea-4d9a-99c9-ddbc16753481
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetActualSectionToInstallEx, SetupDiGetActualSectionToInstallEx function [Device and Driver Installation], SetupDiGetActualSectionToInstallExA, SetupDiGetActualSectionToInstallExW, devinst.setupdigetactualsectiontoinstallex, di-rtns_d8baadc3-b6eb-49cb-a8ca-e3f877c2e8e7.xml, setupapi/SetupDiGetActualSectionToInstallEx
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiGetActualSectionToInstallEx"
+f1_keywords:
+- setupapi/SetupDiGetActualSectionToInstallEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Setupapi.lib
- - Setupapi.dll
+- Setupapi.lib
+- Setupapi.dll
 api_name:
- - SetupDiGetActualSectionToInstallEx
- - SetupDiGetActualSectionToInstallExA
+- SetupDiGetActualSectionToInstallEx
+- SetupDiGetActualSectionToInstallExA
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_SA_ROLE_
 title: IKEEXT_SA_ROLE (iketypes.h)
-
 description: Security association (SA) role for Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) Main Mode or Quick Mode negotiations.
 old-location: fwp\ikeext_sa_role.htm
 tech.root: fwp
 ms.assetid: 6bb1e264-6141-4545-add5-e12f09769e25
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_SA_ROLE, IKEEXT_SA_ROLE enumeration [Filtering], IKEEXT_SA_ROLE_INITIATOR, IKEEXT_SA_ROLE_MAX, IKEEXT_SA_ROLE_RESPONDER, fwp.ikeext_sa_role, iketypes/IKEEXT_SA_ROLE, iketypes/IKEEXT_SA_ROLE_INITIATOR, iketypes/IKEEXT_SA_ROLE_MAX, iketypes/IKEEXT_SA_ROLE_RESPONDER
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_SA_ROLE"
+f1_keywords:
+- iketypes/IKEEXT_SA_ROLE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_SA_ROLE
+- IKEEXT_SA_ROLE
 targetos: Windows
 req.typenames: IKEEXT_SA_ROLE
 req.redist: 

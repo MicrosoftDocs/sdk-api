@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.RevertToSnapshot
 title: IVssSoftwareSnapshotProvider::RevertToSnapshot (vsprov.h)
-
 description: Reverts a volume to a previous shadow copy.
 old-location: base\ivsssoftwaresnapshotprovider_reverttosnapshot.htm
 tech.root: VSS
 ms.assetid: 55c55bbc-b40e-4659-bee6-2448e6b6a4df
-
 ms.date: 12/05/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,RevertToSnapshot method, IVssSoftwareSnapshotProvider.RevertToSnapshot, IVssSoftwareSnapshotProvider::RevertToSnapshot, RevertToSnapshot, RevertToSnapshot method, RevertToSnapshot method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_reverttosnapshot, vsprov/IVssSoftwareSnapshotProvider::RevertToSnapshot
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssSoftwareSnapshotProvider.RevertToSnapshot"
+f1_keywords:
+- vsprov/IVssSoftwareSnapshotProvider.RevertToSnapshot
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider.RevertToSnapshot
+- IVssSoftwareSnapshotProvider.RevertToSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

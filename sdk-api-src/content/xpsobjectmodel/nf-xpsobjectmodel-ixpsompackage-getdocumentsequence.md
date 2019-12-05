@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetDocumentSequence
 title: IXpsOMPackage::GetDocumentSequence (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMDocumentSequence interface that contains the document sequence of the XPS package.
 old-location: xps\ixpsompackage_getdocumentsequence.htm
 tech.root: printdocs
 ms.assetid: 30789376-1ac8-41ae-9c4d-e3d2d0715016
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentSequence, GetDocumentSequence method [XPS Documents and Packaging], GetDocumentSequence method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetDocumentSequence method, IXpsOMPackage.GetDocumentSequence, IXpsOMPackage::GetDocumentSequence, xps.ixpsompackage_getdocumentsequence, xpsobjectmodel/IXpsOMPackage::GetDocumentSequence
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.GetDocumentSequence"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.GetDocumentSequence
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.GetDocumentSequence
+- IXpsOMPackage.GetDocumentSequence
 targetos: Windows
 req.typenames: 
 req.redist: 

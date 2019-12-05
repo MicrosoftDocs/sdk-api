@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.SetInputMediaType
 title: IMFSinkWriter::SetInputMediaType (mfreadwrite.h)
-
 description: Sets the input format for a stream on the sink writer.
 old-location: mf\imfsinkwriter_setinputmediatype.htm
 tech.root: medfound
 ms.assetid: 02a73f73-3b25-4578-9a7e-c9f8a4c8cd99
-
 ms.date: 12/05/2018
 ms.keywords: IMFSinkWriter interface [Media Foundation],SetInputMediaType method, IMFSinkWriter.SetInputMediaType, IMFSinkWriter::SetInputMediaType, SetInputMediaType, SetInputMediaType method [Media Foundation], SetInputMediaType method [Media Foundation],IMFSinkWriter interface, mf.imfsinkwriter_setinputmediatype, mfreadwrite/IMFSinkWriter::SetInputMediaType
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.SetInputMediaType"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.SetInputMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.SetInputMediaType
+- IMFSinkWriter.SetInputMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

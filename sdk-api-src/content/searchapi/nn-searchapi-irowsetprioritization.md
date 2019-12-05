@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.IRowsetPrioritization
 title: IRowsetPrioritization (searchapi.h)
-
 description: Sets or retrieves the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\irowsetprioritization.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRowsetPrioritization, IRowsetPrioritization interface [search], IRowsetPrioritization interface [search],described, _search_IRowsetPrioritization, search._search_IRowsetPrioritization, searchapi/IRowsetPrioritization
 ms.topic: interface
-f1_keywords: 
- - "searchapi/IRowsetPrioritization"
+f1_keywords:
+- searchapi/IRowsetPrioritization
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IRowsetPrioritization
+- IRowsetPrioritization
 targetos: Windows
 req.typenames: 
 req.redist: 

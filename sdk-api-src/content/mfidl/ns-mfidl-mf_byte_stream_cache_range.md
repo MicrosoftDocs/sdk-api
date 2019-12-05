@@ -1,19 +1,17 @@
 ---
 UID: NS:mfidl.__MIDL___MIDL_itf_mfidl_0000_0058_0001
 title: MF_BYTE_STREAM_CACHE_RANGE (mfidl.h)
-
 description: Specifies a range of bytes.
 old-location: mf\mf_byte_stream_cache_range.htm
 tech.root: medfound
 ms.assetid: BE684626-32AC-4BF1-8CF1-D68F8A0ABB9E
-
 ms.date: 12/05/2018
 ms.keywords: MF_BYTE_STREAM_CACHE_RANGE, MF_BYTE_STREAM_CACHE_RANGE structure [Media Foundation], mf.mf_byte_stream_cache_range, mfidl/MF_BYTE_STREAM_CACHE_RANGE
 ms.topic: struct
-f1_keywords: 
- - "mfidl/MF_BYTE_STREAM_CACHE_RANGE"
+f1_keywords:
+- mfidl/MF_BYTE_STREAM_CACHE_RANGE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_BYTE_STREAM_CACHE_RANGE
+- MF_BYTE_STREAM_CACHE_RANGE
 targetos: Windows
 req.typenames: MF_BYTE_STREAM_CACHE_RANGE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetDefaultValue
 title: IEncoderAPI::GetDefaultValue (strmif.h)
-
 description: The GetDefaultValue method retrieves the default value for a parameter, if one exists.
 old-location: mstv\iencoderapi_getdefaultvalue.htm
 tech.root: mstv
 ms.assetid: 86eb8008-6d1c-4de7-8a88-b42f33ca24d3
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultValue, GetDefaultValue method [Microsoft TV Technologies], GetDefaultValue method [Microsoft TV Technologies],IEncoderAPI interface, IEncoderAPI interface [Microsoft TV Technologies],GetDefaultValue method, IEncoderAPI.GetDefaultValue, IEncoderAPI::GetDefaultValue, IEncoderAPIGetDefaultValue, mstv.iencoderapi_getdefaultvalue, strmif/IEncoderAPI::GetDefaultValue
 ms.topic: method
-f1_keywords: 
- - "strmif/IEncoderAPI.GetDefaultValue"
+f1_keywords:
+- strmif/IEncoderAPI.GetDefaultValue
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEncoderAPI.GetDefaultValue
+- IEncoderAPI.GetDefaultValue
 targetos: Windows
 req.typenames: 
 req.redist: 

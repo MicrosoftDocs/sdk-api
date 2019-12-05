@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ISharingConfigurationManager
 title: ISharingConfigurationManager (shobjidl_core.h)
-
 description: Exposes methods that set and retrieve information about a computer's default sharing settings for the Users (C:\Users) or Public (C:\Users\Public) folder. Also exposes a set of methods that allow control of printer sharing.
 old-location: shell\ISharingConfigurationManager.htm
 tech.root: shell
 ms.assetid: 64bf628d-4e9b-42a8-a9cf-04d321645d9a
-
 ms.date: 12/05/2018
 ms.keywords: ISharingConfigurationManager, ISharingConfigurationManager interface [Windows Shell], ISharingConfigurationManager interface [Windows Shell],described, _shell_ISharingConfigurationManager, shell.ISharingConfigurationManager, shobjidl_core/ISharingConfigurationManager
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ISharingConfigurationManager"
+f1_keywords:
+- shobjidl_core/ISharingConfigurationManager
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ISharingConfigurationManager
+- ISharingConfigurationManager
 targetos: Windows
 req.typenames: 
 req.redist: 

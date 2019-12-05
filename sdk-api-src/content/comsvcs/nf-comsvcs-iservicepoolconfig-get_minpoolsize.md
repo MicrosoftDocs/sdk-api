@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.get_MinPoolSize
 title: IServicePoolConfig::get_MinPoolSize (comsvcs.h)
-
 description: Retrieves the minimum number of objects in the pool.
 old-location: cos\iservicepoolconfig_get_minpoolsize.htm
 tech.root: cossdk
 ms.assetid: 267e2785-dbff-4b44-8bd5-e7e1e8f69478
-
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],get_MinPoolSize method, IServicePoolConfig.get_MinPoolSize, IServicePoolConfig::get_MinPoolSize, comsvcs/IServicePoolConfig::get_MinPoolSize, cos.iservicepoolconfig_get_minpoolsize, get_MinPoolSize, get_MinPoolSize method [COM+], get_MinPoolSize method [COM+],IServicePoolConfig interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePoolConfig.get_MinPoolSize"
+f1_keywords:
+- comsvcs/IServicePoolConfig.get_MinPoolSize
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePoolConfig.get_MinPoolSize
+- IServicePoolConfig.get_MinPoolSize
 targetos: Windows
 req.typenames: 
 req.redist: 

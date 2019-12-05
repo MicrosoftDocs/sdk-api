@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisualCollection
 title: IXpsOMVisualCollection (xpsobjectmodel.h)
-
 description: A collection of IXpsOMVisual interface pointers.
 old-location: xps\ixpsomvisualcollection.htm
 tech.root: printdocs
 ms.assetid: f373b437-3973-40aa-9cac-a6b196a3e5d1
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisualCollection, IXpsOMVisualCollection interface [XPS Documents and Packaging], IXpsOMVisualCollection interface [XPS Documents and Packaging],described, xps.ixpsomvisualcollection, xpsobjectmodel/IXpsOMVisualCollection
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualCollection"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualCollection
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualCollection
+- IXpsOMVisualCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

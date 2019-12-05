@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.GetMiscStatus
 title: IOleObject::GetMiscStatus (oleidl.h)
-
 description: Retrieves the status of an object at creation and loading.
 old-location: com\ioleobject_getmiscstatus.htm
 tech.root: com
 ms.assetid: 0c5e9f73-8eec-48e0-a172-4d3d49e56071
-
 ms.date: 12/05/2018
 ms.keywords: GetMiscStatus, GetMiscStatus method [COM], GetMiscStatus method [COM],IOleObject interface, IOleObject interface [COM],GetMiscStatus method, IOleObject.GetMiscStatus, IOleObject::GetMiscStatus, _ole_ioleobject_getmiscstatus, com.ioleobject_getmiscstatus, oleidl/IOleObject::GetMiscStatus
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.GetMiscStatus"
+f1_keywords:
+- oleidl/IOleObject.GetMiscStatus
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.GetMiscStatus
+- IOleObject.GetMiscStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

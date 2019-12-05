@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IContext.GetProperty
 title: IContext::GetProperty (objidl.h)
-
 description: Retrieves the specified context property from the context.
 old-location: com\icontext_getproperty.htm
 tech.root: com
 ms.assetid: 76c6f790-9103-4cee-8a67-0f69b00ba0a1
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [COM], GetProperty method [COM],IContext interface, IContext interface [COM],GetProperty method, IContext.GetProperty, IContext::GetProperty, _com_icontext_getproperty, com.icontext_getproperty, objidlbase/IContext::GetProperty
 ms.topic: method
-f1_keywords: 
- - "objidl/IContext.GetProperty"
+f1_keywords:
+- objidl/IContext.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IContext.GetProperty
+- IContext.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

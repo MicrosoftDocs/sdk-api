@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.LresultFromObject
 title: LresultFromObject function (oleacc.h)
-
 description: Returns a reference, similar to a handle, to the specified object. Servers return this reference when handling WM_GETOBJECT.
 old-location: winauto\lresultfromobject.htm
 tech.root: WinAuto
 ms.assetid: c219a4cd-7a8f-4942-8975-b3d823b6497f
-
 ms.date: 12/05/2018
 ms.keywords: LresultFromObject, LresultFromObject function [Windows Accessibility], _msaa_LresultFromObject, msaa.lresultfromobject, oleacc/LresultFromObject, winauto.lresultfromobject
 ms.topic: function
-f1_keywords: 
- - "oleacc/LresultFromObject"
+f1_keywords:
+- oleacc/LresultFromObject
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
- - ext-ms-win-oleacc-l1-1-1.dll
+- Oleacc.dll
+- ext-ms-win-oleacc-l1-1-1.dll
 api_name:
- - LresultFromObject
+- LresultFromObject
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

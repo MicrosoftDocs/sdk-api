@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CreateClusterGroupEx
 title: CreateClusterGroupEx function (clusapi.h)
-
 description: Creates a new cluster group with the options specified in the CLUSTER_CREATE_GROUP_INFO structure in a single operation.
 old-location: mscs\createclustergroupex.htm
 tech.root: MsCS
 ms.assetid: D24A2622-758D-4344-8872-F0D8E4EE80CC
-
 ms.date: 12/05/2018
 ms.keywords: CreateClusterGroupEx, CreateClusterGroupEx function [Failover Cluster], PCLUSAPI_CREATE_CLUSTER_GROUPEX, PCLUSAPI_CREATE_CLUSTER_GROUPEX function [Failover Cluster], clusapi/CreateClusterGroupEx, clusapi/PCLUSAPI_CREATE_CLUSTER_GROUPEX, mscs.createclustergroupex
 ms.topic: function
-f1_keywords: 
- - "clusapi/CreateClusterGroupEx"
+f1_keywords:
+- clusapi/CreateClusterGroupEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - ext-ms-win-cluster-clusapi-l1-1-2.dll
+- ClusAPI.dll
+- ext-ms-win-cluster-clusapi-l1-1-2.dll
 api_name:
- - CreateClusterGroupEx
+- CreateClusterGroupEx
 targetos: Windows
 req.typenames: 
 req.redist: 

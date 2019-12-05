@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThreadToken
 title: GetCurrentThreadToken function (processthreadsapi.h)
-
 description: Retrieves a pseudo-handle that you can use as a shorthand way to refer to the impersonation token that was assigned to the current thread.
 old-location: security\getcurrentthreadtoken.htm
 tech.root: SecAuthZ
 ms.assetid: D56FE64F-CFE0-4BE4-BBDA-DF0B79E3E86F
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentThreadToken, GetCurrentThreadToken function [Security], processthreadsapi/GetCurrentThreadToken, security.getcurrentthreadtoken
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/GetCurrentThreadToken"
+f1_keywords:
+- processthreadsapi/GetCurrentThreadToken
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processthreadsapi.h
+- processthreadsapi.h
 api_name:
- - GetCurrentThreadToken
+- GetCurrentThreadToken
 targetos: Windows
 req.typenames: 
 req.redist: 

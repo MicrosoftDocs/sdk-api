@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnResponseReceived
 title: IXMLHTTPRequest2Callback::OnResponseReceived (msxml6.h)
-
 description: Occurs when a client has received a complete response from the server.
 old-location: ixhr2\ixmlhttprequest2callback_onresponsereceived.htm
 tech.root: ixhr2
 ms.assetid: 5D1D4D4B-CC49-4A63-A0D5-B29D618E80DE
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest2Callback interface [XMLHttpRequest2],OnResponseReceived method, IXMLHTTPRequest2Callback.OnResponseReceived, IXMLHTTPRequest2Callback::OnResponseReceived, OnResponseReceived, OnResponseReceived method [XMLHttpRequest2], OnResponseReceived method [XMLHttpRequest2],IXMLHTTPRequest2Callback interface, ixhr2.ixmlhttprequest2callback_onresponsereceived, msxml6/IXMLHTTPRequest2Callback::OnResponseReceived
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest2Callback.OnResponseReceived"
+f1_keywords:
+- msxml6/IXMLHTTPRequest2Callback.OnResponseReceived
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback.OnResponseReceived
+- IXMLHTTPRequest2Callback.OnResponseReceived
 targetos: Windows
 req.typenames: 
 req.redist: 

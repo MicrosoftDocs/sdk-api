@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced4
 title: IWMReaderAdvanced4 (wmsdkidl.h)
-
 description: The IWMReaderAdvanced4 interface provides additional functionality to the reader.An IWMReaderAdvanced4 interface exists for every reader object.
 old-location: wmformat\iwmreaderadvanced4.htm
 tech.root: wmformat
 ms.assetid: 56695c57-f6c5-4c57-b3d4-73d169b379fa
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced4, IWMReaderAdvanced4 interface [windows Media Format], IWMReaderAdvanced4 interface [windows Media Format],described, IWMReaderAdvanced4Interface, wmformat.iwmreaderadvanced4, wmsdkidl/IWMReaderAdvanced4
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced4"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced4
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMReaderAdvanced4
+- IWMReaderAdvanced4
 targetos: Windows
 req.typenames: 
 req.redist: 

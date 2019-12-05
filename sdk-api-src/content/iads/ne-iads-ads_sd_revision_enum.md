@@ -1,19 +1,17 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0006
 title: ADS_SD_REVISION_ENUM (iads.h)
-
 description: Specifies the revision number of the access-control entry (ACE), or the access-control list (ACL), for Active Directory.
 old-location: adsi\ads_sd_revision_enum.htm
 tech.root: adsi
 ms.assetid: 3a8c7b5c-5846-4f50-88d2-5a9c86b15480
-
 ms.date: 12/05/2018
 ms.keywords: ADS_SD_REVISION_DS, ADS_SD_REVISION_ENUM, ADS_SD_REVISION_ENUM enumeration [ADSI], _ds_ads_sd_revision_enum, adsi.ads__sd__revision__enum, adsi.ads_sd_revision_enum, iads/ADS_SD_REVISION_DS, iads/ADS_SD_REVISION_ENUM
 ms.topic: enum
-f1_keywords: 
- - "iads/ADS_SD_REVISION_ENUM"
+f1_keywords:
+- iads/ADS_SD_REVISION_ENUM
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_SD_REVISION_ENUM
+- ADS_SD_REVISION_ENUM
 targetos: Windows
 req.typenames: ADS_SD_REVISION_ENUM
 req.redist: 

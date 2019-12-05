@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetup.GetCASetupProperty
 title: ICertSrvSetup::GetCASetupProperty (casetup.h)
-
 description: Gets a property value for a certification authority (CA) configuration.
 old-location: security\icertsrvsetup_getcasetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: 7da5f111-206d-40e1-9c40-4782118c3d49
-
 ms.date: 12/05/2018
 ms.keywords: GetCASetupProperty, GetCASetupProperty method [Security], GetCASetupProperty method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],GetCASetupProperty method, ICertSrvSetup.GetCASetupProperty, ICertSrvSetup::GetCASetupProperty, casetup/ICertSrvSetup::GetCASetupProperty, security.icertsrvsetup_getcasetupproperty
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetup.GetCASetupProperty"
+f1_keywords:
+- casetup/ICertSrvSetup.GetCASetupProperty
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetup.GetCASetupProperty
+- ICertSrvSetup.GetCASetupProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

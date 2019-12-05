@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataBlockReader
 title: IWICMetadataBlockReader (wincodecsdk.h)
-
 description: Exposes methods that provide access to all of the codec's top level metadata blocks.
 old-location: wic\_wic_codec_iwicmetadatablockreader.htm
 tech.root: wic
 ms.assetid: 09614b44-ebc2-44f4-9755-9df62f1b2178
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataBlockReader, IWICMetadataBlockReader interface [Windows Imaging Component], IWICMetadataBlockReader interface [Windows Imaging Component],described, _wic_codec_iwicmetadatablockreader, wic._wic_codec_iwicmetadatablockreader, wincodecsdk/IWICMetadataBlockReader
 ms.topic: interface
-f1_keywords: 
- - "wincodecsdk/IWICMetadataBlockReader"
+f1_keywords:
+- wincodecsdk/IWICMetadataBlockReader
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataBlockReader
+- IWICMetadataBlockReader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowCallback.InvokeTargetShadow
 title: IWRdsProtocolShadowCallback::InvokeTargetShadow (wtsprotocol.h)
-
 description: Instructs the Remote Desktop Services service to begin the target side of the shadow and passes any information that must be exchanged between the client and the target.
 old-location: termserv\iwrdsprotocolshadowcallback_invoketargetshadow.htm
 tech.root: TermServ
 ms.assetid: 76682f4c-2651-4f5d-b96d-4d84bae7933c
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolShadowCallback interface [Remote Desktop Services],InvokeTargetShadow method, IWRdsProtocolShadowCallback.InvokeTargetShadow, IWRdsProtocolShadowCallback::InvokeTargetShadow, InvokeTargetShadow, InvokeTargetShadow method [Remote Desktop Services], InvokeTargetShadow method [Remote Desktop Services],IWRdsProtocolShadowCallback interface, termserv.iwrdsprotocolshadowcallback_invoketargetshadow, wtsprotocol/IWRdsProtocolShadowCallback::InvokeTargetShadow
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolShadowCallback.InvokeTargetShadow"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolShadowCallback.InvokeTargetShadow
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolShadowCallback.InvokeTargetShadow
+- IWRdsProtocolShadowCallback.InvokeTargetShadow
 targetos: Windows
 req.typenames: 
 req.redist: 

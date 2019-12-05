@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteRole
 title: IAzApplication::DeleteRole (azroles.h)
-
 description: Removes the IAzRole object with the specified name from the IAzApplication object.
 old-location: security\iazapplication_deleterole.htm
 tech.root: SecAuthZ
 ms.assetid: c97c271a-f08c-481e-9787-61518d8cbb73
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],DeleteRole method, DeleteRole, DeleteRole method [Security], DeleteRole method [Security],AzApplication object, DeleteRole method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteRole method, IAzApplication.DeleteRole, IAzApplication::DeleteRole, azroles/IAzApplication::DeleteRole, security.iazapplication_deleterole
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.DeleteRole"
+f1_keywords:
+- azroles/IAzApplication.DeleteRole
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.DeleteRole
- - AzApplication.DeleteRole
+- IAzApplication.DeleteRole
+- AzApplication.DeleteRole
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

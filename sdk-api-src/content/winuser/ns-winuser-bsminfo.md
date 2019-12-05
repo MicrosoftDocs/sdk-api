@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.__unnamed_struct_2
 title: BSMINFO (winuser.h)
-
 description: Contains information about a window that denied a request from BroadcastSystemMessageEx.
 old-location: winmsg\bsminfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messageandmessagequeuestructures\bsminfo.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PBSMINFO, BSMINFO, BSMINFO structure [Windows and Messages], PBSMINFO, PBSMINFO structure pointer [Windows and Messages], _win32_BSMINFO_str, _win32_bsminfo_str_cpp, winmsg.bsminfo, winui._win32_bsminfo_str, winuser/BSMINFO, winuser/PBSMINFO"
+ms.keywords: '*PBSMINFO, BSMINFO, BSMINFO structure [Windows and Messages], PBSMINFO, PBSMINFO structure pointer [Windows and Messages], _win32_BSMINFO_str, _win32_bsminfo_str_cpp, winmsg.bsminfo, winui._win32_bsminfo_str, winuser/BSMINFO, winuser/PBSMINFO'
 ms.topic: struct
-f1_keywords: 
- - "winuser/BSMINFO"
+f1_keywords:
+- winuser/BSMINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - BSMINFO
+- BSMINFO
 targetos: Windows
 req.typenames: BSMINFO, *PBSMINFO
 req.redist: 

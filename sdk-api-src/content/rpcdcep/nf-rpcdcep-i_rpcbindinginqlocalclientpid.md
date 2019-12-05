@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdcep.I_RpcBindingInqLocalClientPID
 title: I_RpcBindingInqLocalClientPID function (rpcdcep.h)
-
 description: Obtains a client process ID.
 old-location: rpc\i_rpcbindinginqlocalclientpid.htm
 tech.root: Rpc
 ms.assetid: af31dc1e-51b9-4789-a97f-d51ae34850cf
-
 ms.date: 12/05/2018
 ms.keywords: I_RpcBindingInqLocalClientPID, I_RpcBindingInqLocalClientPID function [RPC], rpc.i_rpcbindinginqlocalclientpid, rpcdcep/I_RpcBindingInqLocalClientPID
 ms.topic: function
-f1_keywords: 
- - "rpcdcep/I_RpcBindingInqLocalClientPID"
+f1_keywords:
+- rpcdcep/I_RpcBindingInqLocalClientPID
 dev_langs:
- - c++
+- c++
 req.header: rpcdcep.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - I_RpcBindingInqLocalClientPID
+- I_RpcBindingInqLocalClientPID
 targetos: Windows
 req.typenames: 
 req.redist: 

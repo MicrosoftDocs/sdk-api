@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaTypeHandler.GetMediaTypeByIndex
 title: IMFMediaTypeHandler::GetMediaTypeByIndex (mfidl.h)
-
 description: Retrieves a media type from the object's list of supported media types.
 old-location: mf\imfmediatypehandler_getmediatypebyindex.htm
 tech.root: medfound
 ms.assetid: a1827675-bbc4-45d8-8c6e-644b0d2addd4
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaTypeByIndex, GetMediaTypeByIndex method [Media Foundation], GetMediaTypeByIndex method [Media Foundation],IMFMediaTypeHandler interface, IMFMediaTypeHandler interface [Media Foundation],GetMediaTypeByIndex method, IMFMediaTypeHandler.GetMediaTypeByIndex, IMFMediaTypeHandler::GetMediaTypeByIndex, a1827675-bbc4-45d8-8c6e-644b0d2addd4, mf.imfmediatypehandler_getmediatypebyindex, mfidl/IMFMediaTypeHandler::GetMediaTypeByIndex
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaTypeHandler.GetMediaTypeByIndex"
+f1_keywords:
+- mfidl/IMFMediaTypeHandler.GetMediaTypeByIndex
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaTypeHandler.GetMediaTypeByIndex
+- IMFMediaTypeHandler.GetMediaTypeByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

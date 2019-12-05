@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.GetInterfaceValue
 title: IAzBizRuleInterfaces::GetInterfaceValue (azroles.h)
-
 description: Gets the ID and flags of the interface that corresponds to the specified interface name.
 old-location: security\iazbizruleinterfaces_getinterfacevalue_method.htm
 tech.root: SecAuthZ
 ms.assetid: d5d12529-6ce8-4189-949b-210d8ec84084
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceValue, GetInterfaceValue method [Security], GetInterfaceValue method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],GetInterfaceValue method, IAzBizRuleInterfaces.GetInterfaceValue, IAzBizRuleInterfaces::GetInterfaceValue, azroles/IAzBizRuleInterfaces::GetInterfaceValue, security.iazbizruleinterfaces_getinterfacevalue_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzBizRuleInterfaces.GetInterfaceValue"
+f1_keywords:
+- azroles/IAzBizRuleInterfaces.GetInterfaceValue
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzBizRuleInterfaces.GetInterfaceValue
+- IAzBizRuleInterfaces.GetInterfaceValue
 targetos: Windows
 req.typenames: 
 req.redist: 

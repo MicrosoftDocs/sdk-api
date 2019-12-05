@@ -1,19 +1,17 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_4
 title: RPC_ENDPOINT_TEMPLATEA (rpcdce.h)
-
 description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
 old-location: rpc\rpc_endpoint_template.htm
 tech.root: Rpc
 ms.assetid: F1C4A10B-D7DA-4A2A-B166-F814E6926ADD
-
 ms.date: 12/05/2018
-ms.keywords: "*PRPC_ENDPOINT_TEMPLATEA, PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEMPLATE structure pointer [RPC], RPC_ENDPOINT_TEMPLATE, RPC_ENDPOINT_TEMPLATE structure [RPC], RPC_ENDPOINT_TEMPLATEA, RPC_ENDPOINT_TEMPLATEW, rpc.rpc_endpoint_template, rpcdce/PRPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATEA, rpcdce/RPC_ENDPOINT_TEMPLATEW"
+ms.keywords: '*PRPC_ENDPOINT_TEMPLATEA, PRPC_ENDPOINT_TEMPLATE, PRPC_ENDPOINT_TEMPLATE structure pointer [RPC], RPC_ENDPOINT_TEMPLATE, RPC_ENDPOINT_TEMPLATE structure [RPC], RPC_ENDPOINT_TEMPLATEA, RPC_ENDPOINT_TEMPLATEW, rpc.rpc_endpoint_template, rpcdce/PRPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATE, rpcdce/RPC_ENDPOINT_TEMPLATEA, rpcdce/RPC_ENDPOINT_TEMPLATEW'
 ms.topic: struct
-f1_keywords: 
- - "rpcdce/RPC_ENDPOINT_TEMPLATE"
+f1_keywords:
+- rpcdce/RPC_ENDPOINT_TEMPLATE
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Rpcdce.h
+- Rpcdce.h
 api_name:
- - RPC_ENDPOINT_TEMPLATE
- - RPC_ENDPOINT_TEMPLATEA
- - RPC_ENDPOINT_TEMPLATEW
+- RPC_ENDPOINT_TEMPLATE
+- RPC_ENDPOINT_TEMPLATEA
+- RPC_ENDPOINT_TEMPLATEW
 targetos: Windows
 req.typenames: RPC_ENDPOINT_TEMPLATEA, *PRPC_ENDPOINT_TEMPLATEA
 req.redist: 

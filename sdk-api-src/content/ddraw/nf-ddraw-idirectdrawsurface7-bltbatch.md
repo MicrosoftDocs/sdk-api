@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.BltBatch
 title: IDirectDrawSurface7::BltBatch (ddraw.h)
-
 description: The IDirectDrawSurface7::BltBatch method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_bltbatch.htm
 tech.root: directdraw
 ms.assetid: 50c071a6-2963-474e-994e-c789b1924d92
-
 ms.date: 12/05/2018
 ms.keywords: BltBatch, BltBatch method [DirectDraw], BltBatch method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],BltBatch method, IDirectDrawSurface7.BltBatch, IDirectDrawSurface7::BltBatch, ddraw/IDirectDrawSurface7::BltBatch, directdraw.idirectdrawsurface7_bltbatch
 ms.topic: method
 f1_keywords:
 - ddraw/IDirectDrawSurface7.BltBatch
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows

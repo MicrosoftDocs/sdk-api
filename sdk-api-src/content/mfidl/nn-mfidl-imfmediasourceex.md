@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaSourceEx
 title: IMFMediaSourceEx (mfidl.h)
-
 description: Extends the IMFMediaSource interface to provide additional capabilities for a media source.
 old-location: mf\imfmediasourceex.htm
 tech.root: medfound
 ms.assetid: C72C79D5-FD65-4F27-A8C8-B94BF5A9E829
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourceEx, IMFMediaSourceEx interface [Media Foundation], IMFMediaSourceEx interface [Media Foundation],described, mf.imfmediasourceex, mfidl/IMFMediaSourceEx
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaSourceEx"
+f1_keywords:
+- mfidl/IMFMediaSourceEx
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFMediaSourceEx
+- IMFMediaSourceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

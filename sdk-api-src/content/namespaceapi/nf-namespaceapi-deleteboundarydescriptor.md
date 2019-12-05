@@ -1,19 +1,17 @@
 ---
 UID: NF:namespaceapi.DeleteBoundaryDescriptor
 title: DeleteBoundaryDescriptor function (namespaceapi.h)
-
 description: Deletes the specified boundary descriptor.
 old-location: base\deleteboundarydescriptor.htm
 tech.root: Sync
 ms.assetid: 759d9cd9-9ef2-4bbe-9e99-8aec87f5ba4a
-
 ms.date: 12/05/2018
 ms.keywords: DeleteBoundaryDescriptor, DeleteBoundaryDescriptor function, base.deleteboundarydescriptor, namespaceapi/DeleteBoundaryDescriptor, winbase/DeleteBoundaryDescriptor
 ms.topic: function
-f1_keywords: 
- - "namespaceapi/DeleteBoundaryDescriptor"
+f1_keywords:
+- namespaceapi/DeleteBoundaryDescriptor
 dev_langs:
- - c++
+- c++
 req.header: namespaceapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Namespace-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Namespace-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - DeleteBoundaryDescriptor
+- DeleteBoundaryDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

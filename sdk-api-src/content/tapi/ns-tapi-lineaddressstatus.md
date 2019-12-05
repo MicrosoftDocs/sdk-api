@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineaddressstatus_tag
 title: LINEADDRESSSTATUS (tapi.h)
-
 description: The LINEADDRESSSTATUS structure describes the current status of an address. The lineGetAddressStatus function and the TSPI_lineGetAddressStatus function return the LINEADDRESSSTATUS structure.
 old-location: tapi2\lineaddressstatus_str.htm
 tech.root: Tapi
 ms.assetid: 795aa97d-76a9-4041-b9f6-345644561043
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEADDRESSSTATUS, LINEADDRESSSTATUS, LINEADDRESSSTATUS structure [TAPI 2.2], LPLINEADDRESSSTATUS, LPLINEADDRESSSTATUS structure pointer [TAPI 2.2], _tapi2_lineaddressstatus_str, tapi/LINEADDRESSSTATUS, tapi/LPLINEADDRESSSTATUS, tapi2.lineaddressstatus_str"
+ms.keywords: '*LPLINEADDRESSSTATUS, LINEADDRESSSTATUS, LINEADDRESSSTATUS structure [TAPI 2.2], LPLINEADDRESSSTATUS, LPLINEADDRESSSTATUS structure pointer [TAPI 2.2], _tapi2_lineaddressstatus_str, tapi/LINEADDRESSSTATUS, tapi/LPLINEADDRESSSTATUS, tapi2.lineaddressstatus_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEADDRESSSTATUS"
+f1_keywords:
+- tapi/LINEADDRESSSTATUS
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEADDRESSSTATUS
+- LINEADDRESSSTATUS
 targetos: Windows
 req.typenames: LINEADDRESSSTATUS, *LPLINEADDRESSSTATUS
 req.redist: 

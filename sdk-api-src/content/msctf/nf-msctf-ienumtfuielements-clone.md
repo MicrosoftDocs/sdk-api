@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumTfUIElements.Clone
 title: IEnumTfUIElements::Clone (msctf.h)
-
 description: The IEnumTfUIElements::Clone method creates a copy of the enumerator object.
 old-location: tsf\ienumtfuielements_clone.htm
 tech.root: TSF
 ms.assetid: 3949ea4d-9360-4524-9495-31a884cac309
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Text Services Framework], Clone method [Text Services Framework],IEnumTfUIElements interface, IEnumTfUIElements interface [Text Services Framework],Clone method, IEnumTfUIElements.Clone, IEnumTfUIElements::Clone, msctf/IEnumTfUIElements::Clone, tsf.ienumtfuielements_clone
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumTfUIElements.Clone"
+f1_keywords:
+- msctf/IEnumTfUIElements.Clone
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfUIElements.Clone
+- IEnumTfUIElements.Clone
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

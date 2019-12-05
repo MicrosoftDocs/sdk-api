@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngMapFontFile
 title: EngMapFontFile function (winddi.h)
-
 description: The EngMapFontFile function is obsolete. Use EngMapFontFileFD instead.
 old-location: display\engmapfontfile.htm
 tech.root: display
 ms.assetid: 86b869fe-679a-42d1-83a4-293ad790366d
-
 ms.date: 12/05/2018
 ms.keywords: EngMapFontFile, EngMapFontFile function [Display Devices], display.engmapfontfile, gdifncs_d19f98a8-779f-4a26-aa3e-c4499b0f0ff8.xml, winddi/EngMapFontFile
 ms.topic: function
-f1_keywords: 
- - "winddi/EngMapFontFile"
+f1_keywords:
+- winddi/EngMapFontFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngMapFontFile
+- EngMapFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

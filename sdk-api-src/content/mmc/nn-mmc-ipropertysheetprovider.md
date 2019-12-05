@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IPropertySheetProvider
 title: IPropertySheetProvider (mmc.h)
-
 description: The IPropertySheetProvider interface implements Windows property sheets as COM objects.
 old-location: mmc\ipropertysheetprovider.htm
 tech.root: mmc
 ms.assetid: c63d5d5f-a334-4367-8a1e-252b4eb5b50d
-
 ms.date: 12/05/2018
 ms.keywords: IPropertySheetProvider, IPropertySheetProvider interface [MMC], IPropertySheetProvider interface [MMC],described, _slate_ipropertysheetprovider, mmc.ipropertysheetprovider, mmc/IPropertySheetProvider
 ms.topic: interface
-f1_keywords: 
- - "mmc/IPropertySheetProvider"
+f1_keywords:
+- mmc/IPropertySheetProvider
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider
+- IPropertySheetProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

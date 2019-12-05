@@ -1,19 +1,17 @@
 ---
 UID: NN:audioengineendpoint.IAudioEndpointOffloadStreamVolume
 title: IAudioEndpointOffloadStreamVolume (audioengineendpoint.h)
-
 description: The IAudioEndpointOffloadStreamVolume interface allows the client application to manipulate the volume level of the offloaded audio stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume.htm
 tech.root: CoreAudio
 ms.assetid: 73FD2289-8414-4A63-A518-634D6F2DF48D
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointOffloadStreamVolume, IAudioEndpointOffloadStreamVolume interface [Core Audio], IAudioEndpointOffloadStreamVolume interface [Core Audio],described, audioengineendpoint/IAudioEndpointOffloadStreamVolume, coreaudio.iaudioendpointoffloadstreamvolume
 ms.topic: interface
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointOffloadStreamVolume"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointOffloadStreamVolume
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioengineendpoint.h
+- audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamVolume
+- IAudioEndpointOffloadStreamVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetUserNameW
 title: GetUserNameW function (winbase.h)
-
 description: Retrieves the name of the user associated with the current thread.
 old-location: base\getusername.htm
 tech.root: SysInfo
 ms.assetid: 87adc46a-c069-4ee5-900a-03b646306e64
-
 ms.date: 12/05/2018
 ms.keywords: GetUserName, GetUserName function, GetUserNameA, GetUserNameW, _win32_getusername, base.getusername, winbase/GetUserName, winbase/GetUserNameA, winbase/GetUserNameW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetUserName"
+f1_keywords:
+- winbase/GetUserName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - AdvApi32Legacy.dll
- - API-MS-Win-Core-SysInfo-L2-1-0.dll
+- Advapi32.dll
+- AdvApi32Legacy.dll
+- API-MS-Win-Core-SysInfo-L2-1-0.dll
 api_name:
- - GetUserName
- - GetUserNameA
- - GetUserNameW
+- GetUserName
+- GetUserNameA
+- GetUserNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

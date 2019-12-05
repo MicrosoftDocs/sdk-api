@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_KeyArchivalCertificate
 title: IX509CertificateRequestCmc::put_KeyArchivalCertificate (certenroll.h)
-
 description: Specifies or retrieves a certification authority (CA) encryption certificate.
 old-location: security\ix509certificaterequestcmc_keyarchivalcertificate_property.htm
 tech.root: seccertenroll
 ms.assetid: 93f71fd7-33bb-4352-b184-7270bca1363f
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],KeyArchivalCertificate property, IX509CertificateRequestCmc.KeyArchivalCertificate, IX509CertificateRequestCmc.put_KeyArchivalCertificate, IX509CertificateRequestCmc::KeyArchivalCertificate, IX509CertificateRequestCmc::get_KeyArchivalCertificate, IX509CertificateRequestCmc::put_KeyArchivalCertificate, KeyArchivalCertificate property [Security], KeyArchivalCertificate property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::get_KeyArchivalCertificate, certenroll/IX509CertificateRequestCmc::put_KeyArchivalCertificate, put_KeyArchivalCertificate, security.ix509certificaterequestcmc_keyarchivalcertificate_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.KeyArchivalCertificate"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.KeyArchivalCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.KeyArchivalCertificate
- - IX509CertificateRequestCmc.get_KeyArchivalCertificate
- - IX509CertificateRequestCmc.put_KeyArchivalCertificate
+- IX509CertificateRequestCmc.KeyArchivalCertificate
+- IX509CertificateRequestCmc.get_KeyArchivalCertificate
+- IX509CertificateRequestCmc.put_KeyArchivalCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

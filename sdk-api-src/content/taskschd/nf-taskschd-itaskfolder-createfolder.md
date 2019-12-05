@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolder.CreateFolder
 title: ITaskFolder::CreateFolder (taskschd.h)
-
 description: Creates a folder for related tasks.
 old-location: taskschd\itaskfolder_createfolder.htm
 tech.root: taskschd
 ms.assetid: da0f2420-b1a0-4359-aa05-ddf1f2a35118
-
 ms.date: 12/05/2018
 ms.keywords: CreateFolder, CreateFolder method [Task Scheduler], CreateFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],CreateFolder method, ITaskFolder.CreateFolder, ITaskFolder::CreateFolder, taskschd.itaskfolder_createfolder, taskschd/ITaskFolder::CreateFolder
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolder.CreateFolder"
+f1_keywords:
+- taskschd/ITaskFolder.CreateFolder
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder.CreateFolder
+- ITaskFolder.CreateFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.DXGIGetDebugInterface1
 title: DXGIGetDebugInterface1 function (dxgi1_3.h)
-
 description: Retrieves an interface that Windows Store apps use for debugging the Microsoft DirectX Graphics Infrastructure (DXGI).
 old-location: direct3ddxgi\dxgigetdebuginterface1.htm
 tech.root: direct3ddxgi
 ms.assetid: 0FE0EAF5-3ADC-426F-9DA9-FEDEC519EEF0
-
 ms.date: 12/05/2018
 ms.keywords: DXGIGetDebugInterface1, DXGIGetDebugInterface1 function [DXGI], direct3ddxgi.dxgigetdebuginterface1, dxgi1_3/DXGIGetDebugInterface1
 ms.topic: function
-f1_keywords: 
- - "dxgi1_3/DXGIGetDebugInterface1"
+f1_keywords:
+- dxgi1_3/DXGIGetDebugInterface1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DXGI.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - DXGIGetDebugInterface1
+- DXGIGetDebugInterface1
 targetos: Windows
 req.typenames: 
 req.redist: 

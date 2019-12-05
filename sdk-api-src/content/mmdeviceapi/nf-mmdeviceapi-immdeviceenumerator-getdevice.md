@@ -1,19 +1,17 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceEnumerator.GetDevice
 title: IMMDeviceEnumerator::GetDevice (mmdeviceapi.h)
-
 description: The GetDevice method retrieves an audio endpoint device that is identified by an endpoint ID string.
 old-location: coreaudio\immdeviceenumerator_getdevice.htm
 tech.root: CoreAudio
 ms.assetid: 88cd7acc-a5d7-406d-ac73-bae357ad2ee2
-
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [Core Audio], GetDevice method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDevice method, IMMDeviceEnumerator.GetDevice, IMMDeviceEnumerator::GetDevice, IMMDeviceEnumeratorGetDevice, coreaudio.immdeviceenumerator_getdevice, mmdeviceapi/IMMDeviceEnumerator::GetDevice
 ms.topic: method
-f1_keywords: 
- - "mmdeviceapi/IMMDeviceEnumerator.GetDevice"
+f1_keywords:
+- mmdeviceapi/IMMDeviceEnumerator.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmdeviceapi.h
+- Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator.GetDevice
+- IMMDeviceEnumerator.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

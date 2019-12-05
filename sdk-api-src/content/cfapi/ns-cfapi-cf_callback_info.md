@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_CALLBACK_INFO
 title: CF_CALLBACK_INFO (cfapi.h)
-
 description: Contains common callback information.
 old-location: cloudapi\cf_callback_info.htm
 tech.root: cfApi
 ms.assetid: EF24E61E-4AF7-4946-A326-1F045267AE01
-
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_INFO, CF_CALLBACK_INFO structure, cfapi/CF_CALLBACK_INFO, cloudApi.cf_callback_info
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_CALLBACK_INFO"
+f1_keywords:
+- cfapi/CF_CALLBACK_INFO
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CALLBACK_INFO
+- CF_CALLBACK_INFO
 targetos: Windows
 req.typenames: CF_CALLBACK_INFO
 req.redist: 

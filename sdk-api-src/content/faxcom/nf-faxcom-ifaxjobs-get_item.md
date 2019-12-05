@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJobs.get_Item
 title: IFaxJobs::get_Item (faxcom.h)
-
 description: The IFaxJobs::get_Item method returns a new FaxJob object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
 old-location: fax\_mfax_ifaxjobs_get_item.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1zn1.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Item method, IFaxJobs.get_Item, IFaxJobs::get_Item, _mfax_ifaxjobs_get_item, fax._mfax_ifaxjobs_get_item, faxcom/IFaxJobs::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxJobs interface
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJobs.get_Item"
+f1_keywords:
+- faxcom/IFaxJobs.get_Item
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJobs.get_Item
+- IFaxJobs.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

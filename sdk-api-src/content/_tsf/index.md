@@ -1,7 +1,6 @@
 ---
 UID: TP:tsf
 ms.assetid: 7bfc05f4-38f9-394b-8f17-66bae94f970d
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

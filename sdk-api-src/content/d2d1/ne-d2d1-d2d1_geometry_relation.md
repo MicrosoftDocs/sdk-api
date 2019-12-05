@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_GEOMETRY_RELATION
 title: D2D1_GEOMETRY_RELATION (d2d1.h)
-
 description: Describes how one geometry object is spatially related to another geometry object.
 old-location: direct2d\D2D1_GEOMETRY_RELATION.htm
 tech.root: Direct2D
 ms.assetid: 6c7290c8-9363-414b-af2c-0f2a79da99f9
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_GEOMETRY_RELATION, D2D1_GEOMETRY_RELATION enumeration [Direct2D], D2D1_GEOMETRY_RELATION_CONTAINS, D2D1_GEOMETRY_RELATION_DISJOINT, D2D1_GEOMETRY_RELATION_IS_CONTAINED, D2D1_GEOMETRY_RELATION_OVERLAP, D2D1_GEOMETRY_RELATION_UNKNOWN, d2d1/D2D1_GEOMETRY_RELATION, d2d1/D2D1_GEOMETRY_RELATION_CONTAINS, d2d1/D2D1_GEOMETRY_RELATION_DISJOINT, d2d1/D2D1_GEOMETRY_RELATION_IS_CONTAINED, d2d1/D2D1_GEOMETRY_RELATION_OVERLAP, d2d1/D2D1_GEOMETRY_RELATION_UNKNOWN, direct2d.D2D1_GEOMETRY_RELATION
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_GEOMETRY_RELATION"
+f1_keywords:
+- d2d1/D2D1_GEOMETRY_RELATION
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_GEOMETRY_RELATION
+- D2D1_GEOMETRY_RELATION
 targetos: Windows
 req.typenames: D2D1_GEOMETRY_RELATION
 req.redist: 

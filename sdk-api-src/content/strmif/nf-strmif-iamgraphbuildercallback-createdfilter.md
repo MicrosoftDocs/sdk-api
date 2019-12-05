@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMGraphBuilderCallback.CreatedFilter
 title: IAMGraphBuilderCallback::CreatedFilter (strmif.h)
-
 description: The Filter Graph Manager calls this method after it has created a filter, but before it attempts to connect the filter.
 old-location: dshow\iamgraphbuildercallback_createdfilter.htm
 tech.root: DirectShow
 ms.assetid: 04a20a3f-a4a5-434b-896a-60d36430f390
-
 ms.date: 12/05/2018
 ms.keywords: CreatedFilter, CreatedFilter method [DirectShow], CreatedFilter method [DirectShow],IAMGraphBuilderCallback interface, IAMGraphBuilderCallback interface [DirectShow],CreatedFilter method, IAMGraphBuilderCallback.CreatedFilter, IAMGraphBuilderCallback::CreatedFilter, IAMGraphBuilderCallbackCreatedFilter, dshow.iamgraphbuildercallback_createdfilter, strmif/IAMGraphBuilderCallback::CreatedFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMGraphBuilderCallback.CreatedFilter"
+f1_keywords:
+- strmif/IAMGraphBuilderCallback.CreatedFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMGraphBuilderCallback.CreatedFilter
+- IAMGraphBuilderCallback.CreatedFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

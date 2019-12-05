@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetTranslateCapsW
 title: lineGetTranslateCapsW function (tapi.h)
-
 description: The lineGetTranslateCaps function returns address translation capabilities.
 old-location: tapi2\linegettranslatecaps.htm
 tech.root: Tapi
 ms.assetid: 77437b06-fb02-44b5-8642-b3de700853ef
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegettranslatecaps, lineGetTranslateCaps, lineGetTranslateCaps function [TAPI 2.2], lineGetTranslateCapsA, lineGetTranslateCapsW, tapi/lineGetTranslateCaps, tapi/lineGetTranslateCapsA, tapi/lineGetTranslateCapsW, tapi2.linegettranslatecaps"
+ms.keywords: _tapi2_linegettranslatecaps, lineGetTranslateCaps, lineGetTranslateCaps function [TAPI 2.2], lineGetTranslateCapsA, lineGetTranslateCapsW, tapi/lineGetTranslateCaps, tapi/lineGetTranslateCapsA, tapi/lineGetTranslateCapsW, tapi2.linegettranslatecaps
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetTranslateCaps"
+f1_keywords:
+- tapi/lineGetTranslateCaps
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetTranslateCaps
- - lineGetTranslateCapsA
- - lineGetTranslateCapsW
+- lineGetTranslateCaps
+- lineGetTranslateCapsA
+- lineGetTranslateCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 

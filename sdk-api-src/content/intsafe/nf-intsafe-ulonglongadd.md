@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongLongAdd
 title: ULongLongAdd function (intsafe.h)
-
 description: Adds two values of type SIZE_T.
 old-location: shell\SIZETAdd_1.htm
 tech.root: shell
 ms.assetid: 50acd1fa-fc4b-4e7a-8e88-71fb15eaa3c7
-
 ms.date: 12/05/2018
 ms.keywords: SIZETAdd, SIZETAdd function [Windows Shell], ULongLongAdd, _shell_SIZETAdd, intsafe/SIZETAdd, shell.SIZETAdd, shell.SIZETAdd_1
 ms.topic: function
-f1_keywords: 
- - "intsafe/SIZETAdd"
+f1_keywords:
+- intsafe/SIZETAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - SIZETAdd
+- SIZETAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

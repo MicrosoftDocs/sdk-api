@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.RestoreDisplayMode
 title: IDirectDraw7::RestoreDisplayMode (ddraw.h)
-
 description: Resets the mode of the display device hardware for the primary surface to what it was before the IDirectDraw7::SetDisplayMode method was called. Exclusive-level access is required to use this method.
 old-location: directdraw\idirectdraw7_restoredisplaymode.htm
 tech.root: directdraw
 ms.assetid: 7538339a-8886-4b40-9779-17c8ebe81446
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],RestoreDisplayMode method, IDirectDraw7.RestoreDisplayMode, IDirectDraw7::RestoreDisplayMode, RestoreDisplayMode, RestoreDisplayMode method [DirectDraw], RestoreDisplayMode method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::RestoreDisplayMode, directdraw.idirectdraw7_restoredisplaymode
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.RestoreDisplayMode"
+f1_keywords:
+- ddraw/IDirectDraw7.RestoreDisplayMode
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.RestoreDisplayMode
+- IDirectDraw7.RestoreDisplayMode
 targetos: Windows
 req.typenames: 
 req.redist: 

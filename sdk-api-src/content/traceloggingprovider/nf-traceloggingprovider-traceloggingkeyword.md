@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingKeyword
 title: TraceLoggingKeyword macro (traceloggingprovider.h)
-
 description: Wrapper macro for setting the event's keyword(s).
 old-location: tracelogging\traceloggingkeyword.htm
 tech.root: tracelogging
 ms.assetid: 4837DCE3-929F-458B-95E1-8720FD3E9FFA
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingKeyword, TraceLoggingKeyword macro, tracelogging.traceloggingkeyword, traceloggingprovider/TraceLoggingKeyword
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingKeyword"
+f1_keywords:
+- traceloggingprovider/TraceLoggingKeyword
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingKeyword
+- TraceLoggingKeyword
 targetos: Windows
 req.typenames: 
 req.redist: 

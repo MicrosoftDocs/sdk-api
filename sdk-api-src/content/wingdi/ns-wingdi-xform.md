@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagXFORM
 title: XFORM (wingdi.h)
-
 description: The XFORM structure specifies a world-space to page-space transformation.
 old-location: gdi\xform.htm
 tech.root: gdi
 ms.assetid: 49f0d7ee-77fa-415e-af00-b8930253a3a9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPXFORM, *PXFORM, PXFORM, PXFORM structure pointer [Windows GDI], XFORM, XFORM structure [Windows GDI], _win32_XFORM_str, gdi.xform, tagXFORM, wingdi/PXFORM, wingdi/XFORM"
+ms.keywords: '*LPXFORM, *PXFORM, PXFORM, PXFORM structure pointer [Windows GDI], XFORM, XFORM structure [Windows GDI], _win32_XFORM_str, gdi.xform, tagXFORM, wingdi/PXFORM, wingdi/XFORM'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/XFORM"
+f1_keywords:
+- wingdi/XFORM
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - XFORM
+- XFORM
 targetos: Windows
 req.typenames: XFORM, *PXFORM, *LPXFORM
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:evr.IMFTopologyServiceLookupClient
 title: IMFTopologyServiceLookupClient (evr.h)
-
 description: Initializes a video mixer or presenter.
 old-location: mf\imftopologyservicelookupclient.htm
 tech.root: medfound
 ms.assetid: c4215d08-3734-44b9-b053-0d49d89a90f6
-
 ms.date: 12/05/2018
 ms.keywords: IMFTopologyServiceLookupClient, IMFTopologyServiceLookupClient interface [Media Foundation], IMFTopologyServiceLookupClient interface [Media Foundation],described, c4215d08-3734-44b9-b053-0d49d89a90f6, evr/IMFTopologyServiceLookupClient, mf.imftopologyservicelookupclient
 ms.topic: interface
-f1_keywords: 
- - "evr/IMFTopologyServiceLookupClient"
+f1_keywords:
+- evr/IMFTopologyServiceLookupClient
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFTopologyServiceLookupClient
+- IMFTopologyServiceLookupClient
 targetos: Windows
 req.typenames: 
 req.redist: 

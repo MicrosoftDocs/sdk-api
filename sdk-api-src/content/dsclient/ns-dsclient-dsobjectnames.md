@@ -1,19 +1,17 @@
 ---
 UID: NS:dsclient.__unnamed_struct_1
 title: DSOBJECTNAMES (dsclient.h)
-
 description: The DSOBJECTNAMES structure is used to contain directory object data for use by an Active Directory property sheet or context menu extension.
 old-location: ad\dsobjectnames.htm
 tech.root: ad
 ms.assetid: dfc1e88f-40ff-4ec1-9718-4801f678fa3f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active Directory], LPDSOBJECTNAMES, LPDSOBJECTNAMES structure pointer [Active Directory], _glines_dsobjectnames, ad.dsobjectnames, dsclient/DSOBJECTNAMES, dsclient/LPDSOBJECTNAMES"
+ms.keywords: '*LPDSOBJECTNAMES, DSOBJECTNAMES, DSOBJECTNAMES structure [Active Directory], LPDSOBJECTNAMES, LPDSOBJECTNAMES structure pointer [Active Directory], _glines_dsobjectnames, ad.dsobjectnames, dsclient/DSOBJECTNAMES, dsclient/LPDSOBJECTNAMES'
 ms.topic: struct
-f1_keywords: 
- - "dsclient/DSOBJECTNAMES"
+f1_keywords:
+- dsclient/DSOBJECTNAMES
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dsclient.h
+- Dsclient.h
 api_name:
- - DSOBJECTNAMES
+- DSOBJECTNAMES
 targetos: Windows
 req.typenames: DSOBJECTNAMES, *LPDSOBJECTNAMES
 req.redist: 

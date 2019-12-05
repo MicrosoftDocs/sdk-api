@@ -1,19 +1,17 @@
 ---
 UID: NN:cmnquery.IPersistQuery
 title: IPersistQuery (cmnquery.h)
-
 description: Used to store and retrieve query parameters to and from persistent storage.
 old-location: ad\ipersistquery.htm
 tech.root: ad
 ms.assetid: 9d90f119-3d10-4f06-bed4-5ffab9ae14a4
-
 ms.date: 12/05/2018
 ms.keywords: IPersistQuery, IPersistQuery interface [Active Directory], IPersistQuery interface [Active Directory],described, _glines_ipersistquery, ad.ipersistquery, cmnquery/IPersistQuery
 ms.topic: interface
-f1_keywords: 
- - "cmnquery/IPersistQuery"
+f1_keywords:
+- cmnquery/IPersistQuery
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - IPersistQuery
+- IPersistQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

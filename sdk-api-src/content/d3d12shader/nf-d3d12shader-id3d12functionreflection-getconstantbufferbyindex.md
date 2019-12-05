@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetConstantBufferByIndex
 title: ID3D12FunctionReflection::GetConstantBufferByIndex (d3d12shader.h)
-
 description: Gets a constant buffer by index for a function.
 old-location: direct3d12\id3d12functionreflection_getconstantbufferbyindex.htm
 tech.root: direct3d12
 ms.assetid: 4B953072-DEF0-4A30-93A1-247B0C2CAFA3
-
 ms.date: 12/05/2018
 ms.keywords: GetConstantBufferByIndex, GetConstantBufferByIndex method, GetConstantBufferByIndex method,ID3D12FunctionReflection interface, ID3D12FunctionReflection interface,GetConstantBufferByIndex method, ID3D12FunctionReflection.GetConstantBufferByIndex, ID3D12FunctionReflection::GetConstantBufferByIndex, d3d12shader/ID3D12FunctionReflection::GetConstantBufferByIndex, direct3d12.id3d12functionreflection_getconstantbufferbyindex
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12FunctionReflection.GetConstantBufferByIndex"
+f1_keywords:
+- d3d12shader/ID3D12FunctionReflection.GetConstantBufferByIndex
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12FunctionReflection.GetConstantBufferByIndex
+- ID3D12FunctionReflection.GetConstantBufferByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

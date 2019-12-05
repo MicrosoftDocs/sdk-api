@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IAgileReference
 title: IAgileReference (objidl.h)
-
 description: Enables retrieving an agile reference to an object.
 old-location: winrt\iagilereference.htm
 tech.root: WinRT
 ms.assetid: 51787A45-BCDE-4028-A338-1C16F2DE79AD
-
 ms.date: 12/05/2018
 ms.keywords: IAgileReference, IAgileReference interface [Windows Runtime], IAgileReference interface [Windows Runtime],described, objidl/IAgileReference, winrt.iagilereference
 ms.topic: interface
-f1_keywords: 
- - "objidl/IAgileReference"
+f1_keywords:
+- objidl/IAgileReference
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - IAgileReference
+- IAgileReference
 targetos: Windows
 req.typenames: 
 req.redist: 

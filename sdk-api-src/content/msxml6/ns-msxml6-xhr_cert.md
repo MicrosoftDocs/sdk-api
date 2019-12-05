@@ -1,19 +1,17 @@
 ---
 UID: NS:msxml6.tagXHR_CERT
 title: XHR_CERT (msxml6.h)
-
 description: Defines a buffer that points to an encoded certificate.
 old-location: ixhr2\xhr_cert.htm
 tech.root: ixhr2
 ms.assetid: 0BBA4BDA-9A63-44A6-9B90-33B3EAE253C1
-
 ms.date: 12/05/2018
 ms.keywords: PXHR_CERT, PXHR_CERT structure pointer [XMLHttpRequest2], XHR_CERT, XHR_CERT structure [XMLHttpRequest2], ixhr2.xhr_cert, msxml6/PXHR_CERT, msxml6/XHR_CERT, tagXHR_CERT
 ms.topic: struct
-f1_keywords: 
- - "msxml6/XHR_CERT"
+f1_keywords:
+- msxml6/XHR_CERT
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - XHR_CERT
+- XHR_CERT
 targetos: Windows
 req.typenames: XHR_CERT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateDIBSection
 title: CreateDIBSection function (wingdi.h)
-
 description: The CreateDIBSection function creates a DIB that applications can write to directly.
 old-location: gdi\createdibsection.htm
 tech.root: gdi
 ms.assetid: 9276ec84-2860-42be-a9f8-d4efb8d25eec
-
 ms.date: 12/05/2018
 ms.keywords: CreateDIBSection, CreateDIBSection function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBSection, gdi.createdibsection, wingdi/CreateDIBSection
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateDIBSection"
+f1_keywords:
+- wingdi/CreateDIBSection
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreateDIBSection
+- CreateDIBSection
 targetos: Windows
 req.typenames: 
 req.redist: 

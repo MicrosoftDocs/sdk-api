@@ -1,19 +1,17 @@
 ---
 UID: NE:nldef._NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 title: NL_LINK_LOCAL_ADDRESS_BEHAVIOR (nldef.h)
-
 description: The NL_LINK_LOCAL_ADDRESS_BEHAVIOR enumeration type defines the link local address behavior.
 old-location: netvista\nl_link_local_address_behavior.htm
 tech.root: NetVista
 ms.assetid: d3010b6a-445b-44eb-8ebb-101664f3f835
-
 ms.date: 12/05/2018
 ms.keywords: LinkLocalAlwaysOff, LinkLocalAlwaysOn, LinkLocalDelayed, LinkLocalUnchanged, NL_LINK_LOCAL_ADDRESS_BEHAVIOR, NL_LINK_LOCAL_ADDRESS_BEHAVIOR enumeration [Network Drivers Starting with Windows Vista], iphelper_9f039710-dacb-46b7-b2ff-b7ca7feac810.xml, netvista.nl_link_local_address_behavior, nldef/LinkLocalAlwaysOff, nldef/LinkLocalAlwaysOn, nldef/LinkLocalDelayed, nldef/LinkLocalUnchanged, nldef/NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 ms.topic: enum
-f1_keywords: 
- - "nldef/NL_LINK_LOCAL_ADDRESS_BEHAVIOR"
+f1_keywords:
+- nldef/NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 dev_langs:
- - c++
+- c++
 req.header: nldef.h
 req.include-header: Netioapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - nldef.h
+- nldef.h
 api_name:
- - NL_LINK_LOCAL_ADDRESS_BEHAVIOR
+- NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 targetos: Windows
 req.typenames: NL_LINK_LOCAL_ADDRESS_BEHAVIOR
 req.redist: 

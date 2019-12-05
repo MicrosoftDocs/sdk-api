@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9.EvictManagedResources
 title: IDirect3DDevice9::EvictManagedResources (d3d9.h)
-
 description: Evicts all managed resources, including both Direct3D and driver-managed resources.
 old-location: direct3d9\idirect3ddevice9__evictmanagedresources.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__evictmanagedresources.htm
-
 ms.date: 12/05/2018
 ms.keywords: EvictManagedResources, EvictManagedResources method [Direct3D 9], EvictManagedResources method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],EvictManagedResources method, IDirect3DDevice9.EvictManagedResources, IDirect3DDevice9::EvictManagedResources, d3d9helper/IDirect3DDevice9::EvictManagedResources, direct3d9.idirect3ddevice9__evictmanagedresources, ec2856fb-c12d-5e50-485d-460fa48f8758
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9.EvictManagedResources"
+f1_keywords:
+- d3d9/IDirect3DDevice9.EvictManagedResources
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.EvictManagedResources
+- IDirect3DDevice9.EvictManagedResources
 targetos: Windows
 req.typenames: 
 req.redist: 

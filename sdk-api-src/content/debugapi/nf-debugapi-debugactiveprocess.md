@@ -1,19 +1,17 @@
 ---
 UID: NF:debugapi.DebugActiveProcess
 title: DebugActiveProcess function (debugapi.h)
-
 description: Enables a debugger to attach to an active process and debug it.
 old-location: base\debugactiveprocess.htm
 tech.root: Debug
 ms.assetid: 306a5b28-658a-4dab-a516-c638b73f4a77
-
 ms.date: 12/05/2018
 ms.keywords: DebugActiveProcess, DebugActiveProcess function, _win32_debugactiveprocess, base.debugactiveprocess, debugapi/DebugActiveProcess
 ms.topic: function
-f1_keywords: 
- - "debugapi/DebugActiveProcess"
+f1_keywords:
+- debugapi/DebugActiveProcess
 dev_langs:
- - c++
+- c++
 req.header: debugapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-debug-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Debug-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-debug-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Debug-L1-1-2.dll
 api_name:
- - DebugActiveProcess
+- DebugActiveProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

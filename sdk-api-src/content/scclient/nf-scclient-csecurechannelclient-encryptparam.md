@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.EncryptParam
 title: CSecureChannelClient::EncryptParam (scclient.h)
-
 description: The EncryptParam method encrypts data being sent out through a parameter. Data is encrypted in-place, in the submitted buffer.
 old-location: wmdm\csecurechannelclient_encryptparam.htm
 tech.root: WMDM
 ms.assetid: 7c71c2d4-b337-487f-a04a-87536f84f03e
-
 ms.date: 12/05/2018
 ms.keywords: CSecureChannelClient class [windows Media Device Manager],EncryptParam method, CSecureChannelClient.EncryptParam, CSecureChannelClient::EncryptParam, CSecureChannelClientEncryptParam, EncryptParam, EncryptParam method [windows Media Device Manager], EncryptParam method [windows Media Device Manager],CSecureChannelClient class, scclient/CSecureChannelClient::EncryptParam, wmdm.csecurechannelclient_encryptparam
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.EncryptParam"
+f1_keywords:
+- scclient/CSecureChannelClient.EncryptParam
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.EncryptParam
+- CSecureChannelClient.EncryptParam
 targetos: Windows
 req.typenames: 
 req.redist: 

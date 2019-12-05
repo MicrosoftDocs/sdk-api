@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.RemoveFontMemResourceEx
 title: RemoveFontMemResourceEx function (wingdi.h)
-
 description: The RemoveFontMemResourceEx function removes the fonts added from a memory image file.
 old-location: gdi\removefontmemresourceex.htm
 tech.root: gdi
 ms.assetid: b73c3f1d-c508-418c-a5a2-105a35ec3a9b
-
 ms.date: 12/05/2018
 ms.keywords: RemoveFontMemResourceEx, RemoveFontMemResourceEx function [Windows GDI], _win32_RemoveFontMemResourceEx, gdi.removefontmemresourceex, wingdi/RemoveFontMemResourceEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/RemoveFontMemResourceEx"
+f1_keywords:
+- wingdi/RemoveFontMemResourceEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - RemoveFontMemResourceEx
+- RemoveFontMemResourceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

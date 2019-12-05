@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetNetworkType
 title: IBDA_NetworkProvider::GetNetworkType (bdaiface.h)
-
 description: The GetNetworkType method retrieves the network type.
 old-location: mstv\ibda_networkprovider_getnetworktype.htm
 tech.root: mstv
 ms.assetid: 38d9f099-b639-41fe-b0fd-82f056622de0
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkType, GetNetworkType method [Microsoft TV Technologies], GetNetworkType method [Microsoft TV Technologies],IBDA_NetworkProvider interface, IBDA_NetworkProvider interface [Microsoft TV Technologies],GetNetworkType method, IBDA_NetworkProvider.GetNetworkType, IBDA_NetworkProvider::GetNetworkType, IBDA_NetworkProviderGetNetworkType, bdaiface/IBDA_NetworkProvider::GetNetworkType, mstv.ibda_networkprovider_getnetworktype
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NetworkProvider.GetNetworkType"
+f1_keywords:
+- bdaiface/IBDA_NetworkProvider.GetNetworkType
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_NetworkProvider.GetNetworkType
+- IBDA_NetworkProvider.GetNetworkType
 targetos: Windows
 req.typenames: 
 req.redist: 

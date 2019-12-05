@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.Save
 title: IAttachmentExecute::Save (shobjidl_core.h)
-
 description: Saves the attachment.
 old-location: shell\IAttachmentExecute_Save.htm
 tech.root: shell
 ms.assetid: 25661942-f38b-42d6-981b-4a3f4d083f6c
-
 ms.date: 12/05/2018
 ms.keywords: IAttachmentExecute interface [Windows Shell],Save method, IAttachmentExecute.Save, IAttachmentExecute::Save, Save, Save method [Windows Shell], Save method [Windows Shell],IAttachmentExecute interface, _win32_IAttachmentExecute_Save, shell.IAttachmentExecute_Save, shobjidl_core/IAttachmentExecute::Save
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAttachmentExecute.Save"
+f1_keywords:
+- shobjidl_core/IAttachmentExecute.Save
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shdocvw.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdocvw.dll
+- Shdocvw.dll
 api_name:
- - IAttachmentExecute.Save
+- IAttachmentExecute.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

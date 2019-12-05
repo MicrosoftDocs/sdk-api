@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetDisplayAutoRotationPreferences
 title: SetDisplayAutoRotationPreferences function (winuser.h)
-
 description: Sets the screen auto-rotation preferences for the current process.
 old-location: base\setdisplayautorotationpreferences.htm
 tech.root: ProcThread
 ms.assetid: 99A92E92-7FED-468C-9A00-D8D4B212CBFF
-
 ms.date: 12/05/2018
 ms.keywords: SetDisplayAutoRotationPreferences, SetDisplayAutoRotationPreferences function, base.setdisplayautorotationpreferences, winuser/SetDisplayAutoRotationPreferences
 ms.topic: function
-f1_keywords: 
- - "winuser/SetDisplayAutoRotationPreferences"
+f1_keywords:
+- winuser/SetDisplayAutoRotationPreferences
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Kernel.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel.dll
- - Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
- - user32.dll
- - ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
+- kernel.dll
+- Ext-MS-Win-NTUser-rotationmanager-l1-1-1.dll
+- user32.dll
+- ext-ms-win-ntuser-rotationmanager-l1-1-0.dll
 api_name:
- - SetDisplayAutoRotationPreferences
+- SetDisplayAutoRotationPreferences
 targetos: Windows
 req.typenames: 
 req.redist: 

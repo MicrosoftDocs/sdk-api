@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetPrefixFromNamespace
 title: WsGetPrefixFromNamespace function (webservices.h)
-
 description: This function returns the prefix to which a namespace is bound. There may be more than one prefix in scope and this function is free to return any one of them.
 old-location: wsw\wsgetprefixfromnamespace.htm
 tech.root: wsw
 ms.assetid: 69f4138b-4831-41c9-b1ed-31143edcc402
-
 ms.date: 12/05/2018
 ms.keywords: WsGetPrefixFromNamespace, WsGetPrefixFromNamespace function [Web Services for Windows], webservices/WsGetPrefixFromNamespace, wsw.wsgetprefixfromnamespace
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetPrefixFromNamespace"
+f1_keywords:
+- webservices/WsGetPrefixFromNamespace
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetPrefixFromNamespace
+- WsGetPrefixFromNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

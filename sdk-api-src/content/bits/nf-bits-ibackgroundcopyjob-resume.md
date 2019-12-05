@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.Resume
 title: IBackgroundCopyJob::Resume (bits.h)
-
 description: Activates a new job or restarts a job that has been suspended.
 old-location: bits\ibackgroundcopyjob_resume.htm
 tech.root: Bits
 ms.assetid: a9e6f057-0a51-4f2d-810b-edbb3e019370
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyJob interface [BITS],Resume method, IBackgroundCopyJob.Resume, IBackgroundCopyJob::Resume, Resume, Resume method [BITS], Resume method [BITS],IBackgroundCopyJob interface, _drz_ibackgroundcopyjob_resume, bits.ibackgroundcopyjob_resume, bits/IBackgroundCopyJob::Resume
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.Resume"
+f1_keywords:
+- bits/IBackgroundCopyJob.Resume
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.Resume
+- IBackgroundCopyJob.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

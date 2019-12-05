@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSPriority
 title: RtwqGetWorkQueueMMCSSPriority function (rtworkq.h)
-
 description: Gets the relative thread priority of a work queue.
 old-location: base\rtwqgetworkqueuemmcsspriority.htm
 tech.root: ProcThread
 ms.assetid: c9f18299-bd0a-4c1c-acc0-2cc8bc84aa82
-
 ms.date: 12/05/2018
 ms.keywords: RtwqGetWorkQueueMMCSSPriority, RtwqGetWorkQueueMMCSSPriority function, base.rtwqgetworkqueuemmcsspriority, rtworkq/RtwqGetWorkQueueMMCSSPriority
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqGetWorkQueueMMCSSPriority"
+f1_keywords:
+- rtworkq/RtwqGetWorkQueueMMCSSPriority
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqGetWorkQueueMMCSSPriority
+- RtwqGetWorkQueueMMCSSPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

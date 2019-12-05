@@ -1,19 +1,17 @@
 ---
 UID: NN:dsclient.IDsDisplaySpecifier
 title: IDsDisplaySpecifier (dsclient.h)
-
 description: Provides access to Active Directory Domain Service objects of the displaySpecifier class.
 old-location: ad\idsdisplayspecifier.htm
 tech.root: ad
 ms.assetid: a6ac7006-73b8-4673-89d6-8285453481d3
-
 ms.date: 12/05/2018
 ms.keywords: IDsDisplaySpecifier, IDsDisplaySpecifier interface [Active Directory], IDsDisplaySpecifier interface [Active Directory],described, _glines_idsdisplayspecifier, ad.idsdisplayspecifier, dsclient/IDsDisplaySpecifier
 ms.topic: interface
-f1_keywords: 
- - "dsclient/IDsDisplaySpecifier"
+f1_keywords:
+- dsclient/IDsDisplaySpecifier
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier
+- IDsDisplaySpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.RootDevice
 title: IUPnPDescriptionDocument::RootDevice (upnp.h)
-
 description: The RootDevice method returns the root device of the currently loaded document's device tree.
 old-location: upnp\iupnpdescriptiondocument_rootdevice.htm
 tech.root: upnp
 ms.assetid: 0caa4f1e-0c74-4654-be26-6178aefa3ee4
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],RootDevice method, IUPnPDescriptionDocument.RootDevice, IUPnPDescriptionDocument::RootDevice, RootDevice, RootDevice method [UPnP APIs], RootDevice method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_rootdevice, upnp.iupnpdescriptiondocument_rootdevice, upnp/IUPnPDescriptionDocument::RootDevice
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDescriptionDocument.RootDevice"
+f1_keywords:
+- upnp/IUPnPDescriptionDocument.RootDevice
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDescriptionDocument.RootDevice
+- IUPnPDescriptionDocument.RootDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

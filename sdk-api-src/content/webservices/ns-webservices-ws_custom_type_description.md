@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CUSTOM_TYPE_DESCRIPTION
 title: WS_CUSTOM_TYPE_DESCRIPTION (webservices.h)
-
 description: Represents a custom mapping between a C data type and an XML element.
 old-location: wsw\ws_custom_type_description.htm
 tech.root: wsw
 ms.assetid: 7ae3d16c-0755-4226-844e-52cf96fa84fb
-
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_TYPE_DESCRIPTION, WS_CUSTOM_TYPE_DESCRIPTION structure [Web Services for Windows], webservices/WS_CUSTOM_TYPE_DESCRIPTION, wsw.ws_custom_type_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CUSTOM_TYPE_DESCRIPTION"
+f1_keywords:
+- webservices/WS_CUSTOM_TYPE_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CUSTOM_TYPE_DESCRIPTION
+- WS_CUSTOM_TYPE_DESCRIPTION
 targetos: Windows
 req.typenames: WS_CUSTOM_TYPE_DESCRIPTION
 req.redist: 

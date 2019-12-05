@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchAddBackslash
 title: PathCchAddBackslash function (pathcch.h)
-
 description: Adds a backslash to the end of a string to create the correct syntax for a path.
 old-location: shell\PathCchAddBackslash.htm
 tech.root: shell
 ms.assetid: b50677cd-8815-4d84-b70a-c83863378c56
-
 ms.date: 12/05/2018
 ms.keywords: PathCchAddBackslash, PathCchAddBackslash function [Windows Shell], pathcch/PathCchAddBackslash, shell.PathCchAddBackslash
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchAddBackslash"
+f1_keywords:
+- pathcch/PathCchAddBackslash
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchAddBackslash
+- PathCchAddBackslash
 targetos: Windows
 req.typenames: 
 req.redist: 

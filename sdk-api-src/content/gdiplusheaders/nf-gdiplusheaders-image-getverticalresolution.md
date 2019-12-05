@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetVerticalResolution
 title: Image::GetVerticalResolution (gdiplusheaders.h)
-
 description: The Image::GetVerticalResolution method gets the vertical resolution, in dots per inch, of this image.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetVerticalResolution_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getverticalresolution.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetVerticalResolution, GetVerticalResolution method [GDI+], GetVerticalResolution method [GDI+],Image class, Image class [GDI+],GetVerticalResolution method, Image.GetVerticalResolution, Image::GetVerticalResolution, _gdiplus_CLASS_Image_GetVerticalResolution_, gdiplus._gdiplus_CLASS_Image_GetVerticalResolution_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetVerticalResolution"
+f1_keywords:
+- gdiplusheaders/Image.GetVerticalResolution
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetVerticalResolution
+- Image.GetVerticalResolution
 targetos: Windows
 req.typenames: 
 req.redist: 

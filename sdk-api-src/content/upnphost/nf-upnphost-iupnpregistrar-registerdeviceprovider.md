@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.RegisterDeviceProvider
 title: IUPnPRegistrar::RegisterDeviceProvider (upnphost.h)
-
 description: The RegisterDeviceProvider method registers a device provider with the device host. The device provider is not published on the network. Instead, it creates devices dynamically and registers them using RegisterRunningDevice.
 old-location: upnp\iupnpregistrar_registerdeviceprovider.htm
 tech.root: upnp
 ms.assetid: 40f91b29-b535-46e7-834f-97f1a46084f7
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPRegistrar interface [UPnP APIs],RegisterDeviceProvider method, IUPnPRegistrar.RegisterDeviceProvider, IUPnPRegistrar::RegisterDeviceProvider, RegisterDeviceProvider, RegisterDeviceProvider method [UPnP APIs], RegisterDeviceProvider method [UPnP APIs],IUPnPRegistrar interface, _upnp_iupnpregistrar_registerdeviceprovider, upnp.iupnpregistrar_registerdeviceprovider, upnphost/IUPnPRegistrar::RegisterDeviceProvider
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRegistrar.RegisterDeviceProvider"
+f1_keywords:
+- upnphost/IUPnPRegistrar.RegisterDeviceProvider
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRegistrar.RegisterDeviceProvider
+- IUPnPRegistrar.RegisterDeviceProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

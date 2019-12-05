@@ -1,19 +1,17 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetVendorExtension
 title: IWCNDevice::SetVendorExtension (wcndevice.h)
-
 description: The IWCNDevice::SetVendorExtension method queues a vendor extension for use in the pending session. This function may only be called prior to IWCNDevice::Connect.
 old-location: wcn\iwcndevice_setvendorextension.htm
 tech.root: wcn
 ms.assetid: ed96b9bc-4f4e-48bb-9c1d-8a0ababe0b26
-
 ms.date: 12/05/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetVendorExtension method, IWCNDevice.SetVendorExtension, IWCNDevice::SetVendorExtension, SetVendorExtension, SetVendorExtension method [Windows Connect Now], SetVendorExtension method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setvendorextension, wcndevice/IWCNDevice::SetVendorExtension
 ms.topic: method
-f1_keywords: 
- - "wcndevice/IWCNDevice.SetVendorExtension"
+f1_keywords:
+- wcndevice/IWCNDevice.SetVendorExtension
 dev_langs:
- - c++
+- c++
 req.header: wcndevice.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcnDevice.h
+- WcnDevice.h
 api_name:
- - IWCNDevice.SetVendorExtension
+- IWCNDevice.SetVendorExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

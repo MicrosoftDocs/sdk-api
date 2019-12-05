@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateStreamOnMFByteStreamEx
 title: MFCreateStreamOnMFByteStreamEx function (mfidl.h)
-
 description: Creates an IRandomAccessStream object that wraps a Microsoft Media Foundation byte stream.
 old-location: mf\mfcreatestreamonmfbytestreamex.htm
 tech.root: medfound
 ms.assetid: 5D43889B-6430-4057-87E8-B8501B52E4A5
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateStreamOnMFByteStreamEx, MFCreateStreamOnMFByteStreamEx function [Media Foundation], mf.mfcreatestreamonmfbytestreamex, mf.mfcreatewinrtstreamonmfbytestream, mfidl/MFCreateStreamOnMFByteStreamEx
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateStreamOnMFByteStreamEx"
+f1_keywords:
+- mfidl/MFCreateStreamOnMFByteStreamEx
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateStreamOnMFByteStreamEx
+- MFCreateStreamOnMFByteStreamEx
 targetos: Windows
 req.typenames: 
 req.redist: 

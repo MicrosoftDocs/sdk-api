@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.get_RenewalCertificate
 title: IEnroll::get_RenewalCertificate (xenroll.h)
-
 description: Specifies the certificate context for the renewal certificate.
 old-location: security\ienroll4_renewalcertificate.htm
 tech.root: SecCrypto
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll.get_RenewalCertificate, IEnroll::RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IEnroll interface, get_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.RenewalCertificate"
+f1_keywords:
+- xenroll/IEnroll.RenewalCertificate
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.RenewalCertificate
- - IEnroll.get_RenewalCertificate
- - IEnroll.put_RenewalCertificate
+- IEnroll.RenewalCertificate
+- IEnroll.get_RenewalCertificate
+- IEnroll.put_RenewalCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

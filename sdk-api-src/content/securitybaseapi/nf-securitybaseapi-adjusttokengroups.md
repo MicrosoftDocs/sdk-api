@@ -1,19 +1,17 @@
 ---
 UID: NF:securitybaseapi.AdjustTokenGroups
 title: AdjustTokenGroups function (securitybaseapi.h)
-
 description: Enables or disables groups already present in the specified access token. Access to TOKEN_ADJUST_GROUPS is required to enable or disable groups in an access token.
 old-location: security\adjusttokengroups.htm
 tech.root: SecAuthZ
 ms.assetid: 839c4b58-4c61-4f72-8337-1e3dfa267ee5
-
 ms.date: 12/05/2018
 ms.keywords: AdjustTokenGroups, AdjustTokenGroups function [Security], _win32_adjusttokengroups, security.adjusttokengroups, securitybaseapi/AdjustTokenGroups
 ms.topic: function
 f1_keywords:
 - securitybaseapi/AdjustTokenGroups
 dev_langs:
- - c++
+- c++
 req.header: securitybaseapi.h
 req.include-header: Windows.h
 req.target-type: Windows

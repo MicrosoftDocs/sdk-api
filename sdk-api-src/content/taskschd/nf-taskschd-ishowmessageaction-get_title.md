@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IShowMessageAction.get_Title
 title: IShowMessageAction::get_Title (taskschd.h)
-
 description: Gets or sets the title of the message box.
 old-location: taskschd\ishowmessageaction_title.htm
 tech.root: taskschd
 ms.assetid: 6ec51ebb-5aa3-4338-bc88-dd8df34d59ac
-
 ms.date: 12/05/2018
 ms.keywords: IShowMessageAction interface [Task Scheduler],Title property, IShowMessageAction.Title, IShowMessageAction.get_Title, IShowMessageAction::Title, IShowMessageAction::get_Title, IShowMessageAction::put_Title, Title property [Task Scheduler], Title property [Task Scheduler],IShowMessageAction interface, get_Title, taskschd.ishowmessageaction_title, taskschd/IShowMessageAction::Title, taskschd/IShowMessageAction::get_Title, taskschd/IShowMessageAction::put_Title
 ms.topic: method
-f1_keywords: 
- - "taskschd/IShowMessageAction.Title"
+f1_keywords:
+- taskschd/IShowMessageAction.Title
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IShowMessageAction.Title
- - IShowMessageAction.get_Title
- - IShowMessageAction.put_Title
+- IShowMessageAction.Title
+- IShowMessageAction.get_Title
+- IShowMessageAction.put_Title
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_POLICY_CONSTRAINTS
 title: WS_POLICY_CONSTRAINTS (webservices.h)
-
 description: Specifies policy constraints for a channel.
 old-location: wsw\ws_policy_constraints.htm
 tech.root: wsw
 ms.assetid: 2cf65426-336f-4148-ab3b-063a229db99f
-
 ms.date: 12/05/2018
 ms.keywords: WS_POLICY_CONSTRAINTS, WS_POLICY_CONSTRAINTS structure [Web Services for Windows], webservices/WS_POLICY_CONSTRAINTS, wsw.ws_policy_constraints
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_POLICY_CONSTRAINTS"
+f1_keywords:
+- webservices/WS_POLICY_CONSTRAINTS
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_POLICY_CONSTRAINTS
+- WS_POLICY_CONSTRAINTS
 targetos: Windows
 req.typenames: WS_POLICY_CONSTRAINTS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.ISearchJob
 title: ISearchJob (wuapi.h)
-
 description: Contains properties and methods that are available to a search operation.
 old-location: wua\isearchjob.htm
 tech.root: Wua_Sdk
 ms.assetid: aec4a812-cf5d-4986-a776-29c366bb1771
-
 ms.date: 12/05/2018
 ms.keywords: ISearchJob, ISearchJob interface [Windows Update Agent], ISearchJob interface [Windows Update Agent],described, wua.isearchjob, wuapi/ISearchJob
 ms.topic: interface
-f1_keywords: 
- - "wuapi/ISearchJob"
+f1_keywords:
+- wuapi/ISearchJob
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ISearchJob
+- ISearchJob
 targetos: Windows
 req.typenames: 
 req.redist: 

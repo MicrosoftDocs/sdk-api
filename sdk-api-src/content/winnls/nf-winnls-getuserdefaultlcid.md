@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetUserDefaultLCID
 title: GetUserDefaultLCID function (winnls.h)
-
 description: Returns the locale identifier for the user default locale.Caution  If the user default locale is a custom locale, an application cannot accurately tag data with the value or exchange it.
 old-location: intl\getuserdefaultlcid.htm
 tech.root: Intl
 ms.assetid: bbf8399e-9034-4480-8d6e-030714f94e48
-
 ms.date: 12/05/2018
 ms.keywords: GetUserDefaultLCID, GetUserDefaultLCID function [Internationalization for Windows Applications], _win32_GetUserDefaultLCID, intl.getuserdefaultlcid, winnls/GetUserDefaultLCID
 ms.topic: function
-f1_keywords: 
- - "winnls/GetUserDefaultLCID"
+f1_keywords:
+- winnls/GetUserDefaultLCID
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetUserDefaultLCID
+- GetUserDefaultLCID
 targetos: Windows
 req.typenames: 
 req.redist: 

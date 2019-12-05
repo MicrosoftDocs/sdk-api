@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IInterval.GetLimits
 title: IInterval::GetLimits (structuredquery.h)
-
 description: Specifies the lower and upper limits of an interval, each of which may be infinite or a specific value.
 old-location: search\_search_IInterval_GetLimits.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iinterval\getlimits.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLimits, GetLimits method [search], GetLimits method [search],IInterval interface, IInterval interface [search],GetLimits method, IInterval.GetLimits, IInterval::GetLimits, _search_IInterval_GetLimits, search._search_IInterval_GetLimits, structuredquery/IInterval::GetLimits
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IInterval.GetLimits"
+f1_keywords:
+- structuredquery/IInterval.GetLimits
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IInterval.GetLimits
+- IInterval.GetLimits
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

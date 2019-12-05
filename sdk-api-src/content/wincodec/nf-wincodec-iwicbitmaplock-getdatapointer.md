@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapLock.GetDataPointer
 title: IWICBitmapLock::GetDataPointer (wincodec.h)
-
 description: Gets the pointer to the top left pixel in the locked rectangle.
 old-location: wic\_wic_codec_iwicbitmaplock_getdatapointer.htm
 tech.root: wic
 ms.assetid: 1fae52ae-b410-48f3-be46-624792f96874
-
 ms.date: 12/05/2018
 ms.keywords: GetDataPointer, GetDataPointer method [Windows Imaging Component], GetDataPointer method [Windows Imaging Component],IWICBitmapLock interface, IWICBitmapLock interface [Windows Imaging Component],GetDataPointer method, IWICBitmapLock.GetDataPointer, IWICBitmapLock::GetDataPointer, _wic_codec_iwicbitmaplock_getdatapointer, wic._wic_codec_iwicbitmaplock_getdatapointer, wincodec/IWICBitmapLock::GetDataPointer
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapLock.GetDataPointer"
+f1_keywords:
+- wincodec/IWICBitmapLock.GetDataPointer
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapLock.GetDataPointer
+- IWICBitmapLock.GetDataPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

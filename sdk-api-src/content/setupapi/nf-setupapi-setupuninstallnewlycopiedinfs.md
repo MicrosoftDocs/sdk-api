@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupUninstallNewlyCopiedInfs
 title: SetupUninstallNewlyCopiedInfs function (setupapi.h)
-
 description: The SetupUninstallNewlyCopiedInfs function uninstalls INF files (.inf), precompiled INF files (.pnf), and catalog files (.cat) that are previously installed during the committal of the specified file queue.
 old-location: setup\setupuninstallnewlycopiedinfs.htm
 tech.root: SetupApi
 ms.assetid: 7bc10d12-0a0e-48b6-9fb4-1bf1c99cc3be
-
 ms.date: 12/05/2018
 ms.keywords: SetupUninstallNewlyCopiedInfs, SetupUninstallNewlyCopiedInfs function [Setup API], _setupapi_setupuninstallnewlycopiedinfs, setup.setupuninstallnewlycopiedinfs, setupapi/SetupUninstallNewlyCopiedInfs
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupUninstallNewlyCopiedInfs"
+f1_keywords:
+- setupapi/SetupUninstallNewlyCopiedInfs
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupUninstallNewlyCopiedInfs
+- SetupUninstallNewlyCopiedInfs
 targetos: Windows
 req.typenames: 
 req.redist: 

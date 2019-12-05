@@ -1,19 +1,17 @@
 ---
 UID: NC:evr.MFCreateVideoSampleAllocator
 title: MFCreateVideoSampleAllocator (evr.h)
-
 description: Creates an object that allocates video samples.
 old-location: mf\mfcreatevideosampleallocator.htm
 tech.root: medfound
 ms.assetid: 2d40a335-9948-40d9-b93f-18a6decf96c8
-
 ms.date: 12/05/2018
 ms.keywords: IID_IMFVideoSampleAllocator, IID_IMFVideoSampleAllocatorCallback, IID_IUnknown, MFCreateVideoSampleAllocator, MFCreateVideoSampleAllocator callback, MFCreateVideoSampleAllocator callback function [Media Foundation], evr/MFCreateVideoSampleAllocator, mf.mfcreatevideosampleallocator
 ms.topic: callback
-f1_keywords: 
- - "evr/MFCreateVideoSampleAllocator"
+f1_keywords:
+- evr/MFCreateVideoSampleAllocator
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - evr.h
+- evr.h
 api_name:
- - MFCreateVideoSampleAllocator
+- MFCreateVideoSampleAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

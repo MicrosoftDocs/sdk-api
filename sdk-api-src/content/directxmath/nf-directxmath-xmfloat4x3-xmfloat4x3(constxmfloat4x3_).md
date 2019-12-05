@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMFLOAT4X3.XMFLOAT4X3(const XMFLOAT4X3 &)
 title: XMFLOAT4X3::XMFLOAT4X3(const XMFLOAT4X3 &) (directxmath.h)
-
 description: Default constructor for XMFLOAT4X3.
 old-location: dxmath\xmfloat4x3_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT4X3.#ctor
-
 ms.date: 12/05/2018
 ms.keywords: XMFLOAT4X3, XMFLOAT4X3 constructor [DirectX Math Support APIs], XMFLOAT4X3 constructor [DirectX Math Support APIs],XMFLOAT4X3 structure, XMFLOAT4X3 structure [DirectX Math Support APIs],XMFLOAT4X3 constructor, XMFLOAT4X3.XMFLOAT4X3, XMFLOAT4X3.XMFLOAT4X3(), XMFLOAT4X3.XMFLOAT4X3(const XMFLOAT4X3 &), XMFLOAT4X3::XMFLOAT4X3, XMFLOAT4X3::XMFLOAT4X3(const XMFLOAT4X3 &), dxmath.xmfloat4x3_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMFLOAT4X3.XMFLOAT4X3"
+f1_keywords:
+- directxmath/XMFLOAT4X3.XMFLOAT4X3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMFLOAT4X3.XMFLOAT4X3
+- XMFLOAT4X3.XMFLOAT4X3
 targetos: Windows
 req.typenames: 
 req.redist: 

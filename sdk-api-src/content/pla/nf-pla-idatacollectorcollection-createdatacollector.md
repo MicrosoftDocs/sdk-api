@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorCollection.CreateDataCollector
 title: IDataCollectorCollection::CreateDataCollector (pla.h)
-
 description: Creates a data collector of the specified type.
 old-location: pla\idatacollectorcollection_createdatacollector.htm
 tech.root: PLA
 ms.assetid: b6d98361-3af3-4fb2-ad0b-4449b81d6e9e
-
 ms.date: 12/05/2018
 ms.keywords: CreateDataCollector, CreateDataCollector method [PLA], CreateDataCollector method [PLA],IDataCollectorCollection interface, IDataCollectorCollection interface [PLA],CreateDataCollector method, IDataCollectorCollection.CreateDataCollector, IDataCollectorCollection::CreateDataCollector, pla.idatacollectorcollection_createdatacollector, pla/IDataCollectorCollection::CreateDataCollector
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorCollection.CreateDataCollector"
+f1_keywords:
+- pla/IDataCollectorCollection.CreateDataCollector
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorCollection.CreateDataCollector
+- IDataCollectorCollection.CreateDataCollector
 targetos: Windows
 req.typenames: 
 req.redist: 

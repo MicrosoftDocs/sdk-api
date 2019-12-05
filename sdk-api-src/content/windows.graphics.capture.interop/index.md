@@ -26,13 +26,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windows.h
+- windows.h
 api_name:
- - windows.graphics.capture.interop
+- windows.graphics.capture.interop
 tech.root: winrt
 ---
 

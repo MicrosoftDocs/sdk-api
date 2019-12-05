@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerReportSetParameter
 title: WerReportSetParameter function (werapi.h)
-
 description: Sets the parameters that uniquely identify an event for the specified report.
 old-location: wer\werreportsetparameter.htm
 tech.root: wer
 ms.assetid: accf423d-6f03-41e2-b5e9-4a0b630bc918
-
 ms.date: 12/05/2018
 ms.keywords: WER_P0, WER_P1, WER_P2, WER_P3, WER_P4, WER_P5, WER_P6, WER_P7, WER_P8, WER_P9, WerReportSetParameter, WerReportSetParameter function [Windows Error Reporting], base.werreportsetparameter, wer.werreportsetparameter, werapi/WerReportSetParameter
 ms.topic: function
-f1_keywords: 
- - "werapi/WerReportSetParameter"
+f1_keywords:
+- werapi/WerReportSetParameter
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wer.dll
- - Ext-MS-Win-wer-reporting-l1-1-0.dll
- - errorhandlingext.dll
- - Ext-MS-Win-Wer-Reporting-L1-1-1.dll
+- Wer.dll
+- Ext-MS-Win-wer-reporting-l1-1-0.dll
+- errorhandlingext.dll
+- Ext-MS-Win-Wer-Reporting-L1-1-1.dll
 api_name:
- - WerReportSetParameter
+- WerReportSetParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

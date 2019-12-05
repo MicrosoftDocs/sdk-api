@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DrawStateA
 title: DrawStateA function (winuser.h)
-
 description: The DrawState function displays an image and applies a visual effect to indicate a state, such as a disabled or default state.
 old-location: gdi\drawstate.htm
 tech.root: gdi
 ms.assetid: b92150be-8264-4ea8-a2ea-d70b7fba6361
-
 ms.date: 12/05/2018
 ms.keywords: DSS_DISABLED, DSS_HIDEPREFIX, DSS_MONO, DSS_NORMAL, DSS_PREFIXONLY, DSS_RIGHT, DSS_UNION, DST_BITMAP, DST_COMPLEX, DST_ICON, DST_PREFIXTEXT, DST_TEXT, DrawState, DrawState function [Windows GDI], DrawStateA, DrawStateW, _win32_DrawState, gdi.drawstate, winuser/DrawState, winuser/DrawStateA, winuser/DrawStateW
 ms.topic: function
-f1_keywords: 
- - "winuser/DrawState"
+f1_keywords:
+- winuser/DrawState
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - DrawState
- - DrawStateA
- - DrawStateW
+- DrawState
+- DrawStateA
+- DrawStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_DRIDRMService
 title: IBDA_DRIDRMService (bdaiface.h)
-
 description: The IBDA_DRIDRMService interface implements a Digital Rights Management (DRM) service for Media Transform Devices (MTDs) under the Protected Broadcast Driver Architecture (PBDA).
 old-location: mstv\ibda_dridrmservice.htm
 tech.root: mstv
 ms.assetid: 9b04c960-a766-4322-bf18-e59176ee2ad1
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DRIDRMService, IBDA_DRIDRMService interface [DirectShow], IBDA_DRIDRMService interface [DirectShow],described, bdaiface/IBDA_DRIDRMService, mstv.ibda_dridrmservice
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_DRIDRMService"
+f1_keywords:
+- bdaiface/IBDA_DRIDRMService
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DRIDRMService
+- IBDA_DRIDRMService
 targetos: Windows
 req.typenames: 
 req.redist: 

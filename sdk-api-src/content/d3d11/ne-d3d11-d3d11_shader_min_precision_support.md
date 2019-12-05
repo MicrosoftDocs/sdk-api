@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_SHADER_MIN_PRECISION_SUPPORT
 title: D3D11_SHADER_MIN_PRECISION_SUPPORT (d3d11.h)
-
 description: Values that specify minimum precision levels at shader stages.
 old-location: direct3d11\d3d11_shader_min_precision_support.htm
 tech.root: direct3d11
 ms.assetid: 5D6C605C-079E-4487-8C58-78301520356F
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_SHADER_MIN_PRECISION_10_BIT, D3D11_SHADER_MIN_PRECISION_16_BIT, D3D11_SHADER_MIN_PRECISION_SUPPORT, D3D11_SHADER_MIN_PRECISION_SUPPORT enumeration [Direct3D 11], d3d11/D3D11_SHADER_MIN_PRECISION_10_BIT, d3d11/D3D11_SHADER_MIN_PRECISION_16_BIT, d3d11/D3D11_SHADER_MIN_PRECISION_SUPPORT, direct3d11.d3d11_shader_min_precision_support
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_SHADER_MIN_PRECISION_SUPPORT"
+f1_keywords:
+- d3d11/D3D11_SHADER_MIN_PRECISION_SUPPORT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_SHADER_MIN_PRECISION_SUPPORT
+- D3D11_SHADER_MIN_PRECISION_SUPPORT
 targetos: Windows
 req.typenames: D3D11_SHADER_MIN_PRECISION_SUPPORT
 req.redist: 

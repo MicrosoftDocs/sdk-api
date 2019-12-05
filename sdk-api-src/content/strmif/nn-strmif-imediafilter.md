@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IMediaFilter
 title: IMediaFilter (strmif.h)
-
 description: The IMediaFilter interface controls the streaming state of a filter.All DirectShow filters implement this interface.
 old-location: dshow\imediafilter.htm
 tech.root: DirectShow
 ms.assetid: 5c0060e8-a9e5-4141-a38d-9a1bc55cc91b
-
 ms.date: 12/05/2018
 ms.keywords: IMediaFilter, IMediaFilter interface [DirectShow], IMediaFilter interface [DirectShow],described, IMediaFilterInterface, dshow.imediafilter, strmif/IMediaFilter
 ms.topic: interface
-f1_keywords: 
- - "strmif/IMediaFilter"
+f1_keywords:
+- strmif/IMediaFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaFilter
+- IMediaFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

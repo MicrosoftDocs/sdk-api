@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComResourceEvents.OnResourceAllocate
 title: IComResourceEvents::OnResourceAllocate (comsvcs.h)
-
 description: Generated when an existing resource is allocated.
 old-location: cos\icomresourceevents_onresourceallocate.htm
 tech.root: cossdk
 ms.assetid: f063230d-a0b8-46c5-845c-f94aefb706a7
-
 ms.date: 12/05/2018
 ms.keywords: IComResourceEvents interface [COM+],OnResourceAllocate method, IComResourceEvents.OnResourceAllocate, IComResourceEvents::OnResourceAllocate, OnResourceAllocate, OnResourceAllocate method [COM+], OnResourceAllocate method [COM+],IComResourceEvents interface, _dtc_IComResourceEvents_OnResourceAllocate, comsvcs/IComResourceEvents::OnResourceAllocate, cos.icomresourceevents_onresourceallocate
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComResourceEvents.OnResourceAllocate"
+f1_keywords:
+- comsvcs/IComResourceEvents.OnResourceAllocate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComResourceEvents.OnResourceAllocate
+- IComResourceEvents.OnResourceAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndRealize
 title: MCIWndRealize macro (vfw.h)
-
 description: The MCIWndRealize macro controls how an MCI window realized in the foreground or background. This macro also causes the palette for the MCI window to be realized in the process. You can use this macro or explicitly send the MCIWNDM_REALIZE message.
 old-location: multimedia\mciwndrealize.htm
 tech.root: Multimedia
 ms.assetid: 56230397-bdb2-4996-90a1-49c2f9a7e651
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndRealize, MCIWndRealize macro [Windows Multimedia], _win32_MCIWndRealize, multimedia.mciwndrealize, vfw/MCIWndRealize
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndRealize"
+f1_keywords:
+- vfw/MCIWndRealize
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndRealize
+- MCIWndRealize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerFree
 title: NdrInterfacePointerFree function (rpcndr.h)
-
 description: The NdrInterfacePointerFree function releases the interface pointer.
 old-location: rpc\ndrinterfacepointerfree.htm
 tech.root: Rpc
 ms.assetid: fc40b621-b823-4a14-bd72-eab6086ec998
-
 ms.date: 12/05/2018
 ms.keywords: NdrInterfacePointerFree, NdrInterfacePointerFree function [RPC], rpc.ndrinterfacepointerfree, rpcndr/NdrInterfacePointerFree
 ms.topic: function
 f1_keywords:
 - rpcndr/NdrInterfacePointerFree
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows

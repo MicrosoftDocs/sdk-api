@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSetZ
 title: XMVectorSetZ function (directxmath.h)
-
 description: Set the value of the z component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsetz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetZ(XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetZ, XMVectorSetZ, XMVectorSetZ method [DirectX Math Support APIs], dxmath.xmvectorsetz
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSetZ"
+f1_keywords:
+- directxmath/XMVectorSetZ
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSetZ
+- XMVectorSetZ
 targetos: Windows
 req.typenames: 
 req.redist: 

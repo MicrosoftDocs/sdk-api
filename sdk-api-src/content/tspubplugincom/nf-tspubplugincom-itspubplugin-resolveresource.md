@@ -1,19 +1,17 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.ResolveResource
 title: ItsPubPlugin::ResolveResource (tspubplugincom.h)
-
 description: Provides information about how to connect to a user's assigned personal virtual desktop.
 old-location: termserv\itspubplugin_resolveresource.htm
 tech.root: TermServ
 ms.assetid: 035b9d13-b64e-4e1c-8623-b4456f36c4ee
-
 ms.date: 12/05/2018
 ms.keywords: ItsPubPlugin interface [Remote Desktop Services],ResolveResource method, ItsPubPlugin.ResolveResource, ItsPubPlugin::ResolveResource, ResolveResource, ResolveResource method [Remote Desktop Services], ResolveResource method [Remote Desktop Services],ItsPubPlugin interface, termserv.itspubplugin_resolveresource, tspubplugincom/ItsPubPlugin::ResolveResource
 ms.topic: method
-f1_keywords: 
- - "tspubplugincom/ItsPubPlugin.ResolveResource"
+f1_keywords:
+- tspubplugincom/ItsPubPlugin.ResolveResource
 dev_langs:
- - c++
+- c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tspubplugincom.h
+- tspubplugincom.h
 api_name:
- - ItsPubPlugin.ResolveResource
+- ItsPubPlugin.ResolveResource
 targetos: Windows
 req.typenames: 
 req.redist: 

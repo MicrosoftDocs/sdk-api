@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITPhoneDeviceSpecificEvent
 title: ITPhoneDeviceSpecificEvent (tapi3if.h)
-
 description: The ITPhoneDeviceSpecificEvent exposes methods that allow an application to retrieve information about a phone device-specific event.
 old-location: tapi3\itphonedevicespecificevent.htm
 tech.root: Tapi
 ms.assetid: a4b2fb49-6128-41b6-8eb3-13a8bbba66ac
-
 ms.date: 12/05/2018
 ms.keywords: ITPhoneDeviceSpecificEvent, ITPhoneDeviceSpecificEvent interface [TAPI 2.2], ITPhoneDeviceSpecificEvent interface [TAPI 2.2],described, _tapi3_itphonedevicespecificevent, tapi3.itphonedevicespecificevent, tapi3if/ITPhoneDeviceSpecificEvent
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITPhoneDeviceSpecificEvent"
+f1_keywords:
+- tapi3if/ITPhoneDeviceSpecificEvent
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhoneDeviceSpecificEvent
+- ITPhoneDeviceSpecificEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

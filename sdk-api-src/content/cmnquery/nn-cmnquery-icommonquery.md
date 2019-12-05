@@ -1,19 +1,17 @@
 ---
 UID: NN:cmnquery.ICommonQuery
 title: ICommonQuery (cmnquery.h)
-
 description: Used to programmatically display the system-supplied directory service query dialog box.
 old-location: ad\icommonquery.htm
 tech.root: ad
 ms.assetid: 56d05afb-6e5e-41be-bc10-61192c1c1312
-
 ms.date: 12/05/2018
 ms.keywords: ICommonQuery, ICommonQuery interface [Active Directory], ICommonQuery interface [Active Directory],described, _glines_icommonquery, ad.icommonquery, cmnquery/ICommonQuery
 ms.topic: interface
-f1_keywords: 
- - "cmnquery/ICommonQuery"
+f1_keywords:
+- cmnquery/ICommonQuery
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - ICommonQuery
+- ICommonQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

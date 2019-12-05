@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetStreamSelection
 title: IMFSourceReader::GetStreamSelection (mfreadwrite.h)
-
 description: Queries whether a stream is selected.
 old-location: mf\imfsourcereader_getstreamselection.htm
 tech.root: medfound
 ms.assetid: 40301426-4bf2-442c-91b5-9916d1314617
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamSelection, GetStreamSelection method [Media Foundation], GetStreamSelection method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetStreamSelection method, IMFSourceReader.GetStreamSelection, IMFSourceReader::GetStreamSelection, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, mf.imfsourcereader_getstreamselection, mfreadwrite/IMFSourceReader::GetStreamSelection
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReader.GetStreamSelection"
+f1_keywords:
+- mfreadwrite/IMFSourceReader.GetStreamSelection
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReader.GetStreamSelection
+- IMFSourceReader.GetStreamSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

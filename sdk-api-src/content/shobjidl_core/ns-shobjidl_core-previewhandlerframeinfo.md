@@ -1,19 +1,17 @@
 ---
 UID: NS:shobjidl_core.PREVIEWHANDLERFRAMEINFO
 title: PREVIEWHANDLERFRAMEINFO (shobjidl_core.h)
-
 description: Accelerator table structure. Used by IPreviewHandlerFrame::GetWindowContext.
 old-location: shell\PREVIEWHANDLERFRAMEINFO.htm
 tech.root: shell
 ms.assetid: dd93675e-fd69-4fa3-a8e7-5238c27783d8
-
 ms.date: 12/05/2018
 ms.keywords: PREVIEWHANDLERFRAMEINFO, PREVIEWHANDLERFRAMEINFO structure [Windows Shell], _shell_PREVIEWHANDLERFRAMEINFO, shell.PREVIEWHANDLERFRAMEINFO, shobjidl_core/PREVIEWHANDLERFRAMEINFO
 ms.topic: struct
-f1_keywords: 
- - "shobjidl_core/PREVIEWHANDLERFRAMEINFO"
+f1_keywords:
+- shobjidl_core/PREVIEWHANDLERFRAMEINFO
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - PREVIEWHANDLERFRAMEINFO
+- PREVIEWHANDLERFRAMEINFO
 targetos: Windows
 req.typenames: PREVIEWHANDLERFRAMEINFO
 req.redist: 

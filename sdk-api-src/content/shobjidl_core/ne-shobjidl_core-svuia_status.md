@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.SVUIA_STATUS
 title: SVUIA_STATUS (shobjidl_core.h)
-
 description: Used with the IBrowserService2::_UIActivateView method to set the state of a browser view.
 old-location: shell\SVUIA_STATUS.htm
 tech.root: shell
 ms.assetid: 04cb4259-4d16-44d0-8186-bce21ceab887
-
 ms.date: 12/05/2018
 ms.keywords: SVUIA_ACTIVATE_FOCUS, SVUIA_ACTIVATE_NOFOCUS, SVUIA_DEACTIVATE, SVUIA_INPLACEACTIVATE, SVUIA_STATUS, SVUIA_STATUS enumeration [Windows Shell], _win32_SVUIA_STATUS, shell.SVUIA_STATUS, shobjidl_core/SVUIA_ACTIVATE_FOCUS, shobjidl_core/SVUIA_ACTIVATE_NOFOCUS, shobjidl_core/SVUIA_DEACTIVATE, shobjidl_core/SVUIA_INPLACEACTIVATE, shobjidl_core/SVUIA_STATUS
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/SVUIA_STATUS"
+f1_keywords:
+- shobjidl_core/SVUIA_STATUS
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SVUIA_STATUS
+- SVUIA_STATUS
 targetos: Windows
 req.typenames: SVUIA_STATUS
 req.redist: 

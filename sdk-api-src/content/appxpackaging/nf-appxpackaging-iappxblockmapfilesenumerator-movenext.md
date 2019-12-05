@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFilesEnumerator.MoveNext
 title: IAppxBlockMapFilesEnumerator::MoveNext (appxpackaging.h)
-
 description: Advances the position of the enumerator to the next file.
 old-location: appxpkg\iappxblockmapfilesenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: C50F7801-4C33-46EA-989C-259BA407C96B
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBlockMapFilesEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapFilesEnumerator.MoveNext, IAppxBlockMapFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapFilesEnumerator interface, appxpackaging/IAppxBlockMapFilesEnumerator::MoveNext, appxpkg.iappxblockmapfilesenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapFilesEnumerator.MoveNext"
+f1_keywords:
+- appxpackaging/IAppxBlockMapFilesEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapFilesEnumerator.MoveNext
+- IAppxBlockMapFilesEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetCompressionOption
 title: IAppxFile::GetCompressionOption (appxpackaging.h)
-
 description: Retrieves the compression option that is used to store the file in the package.
 old-location: appxpkg\iappxfile_getcompressionoption.htm
 tech.root: appxpkg
 ms.assetid: E2F33ED4-EAD3-44AE-B646-3AB875FA7606
-
 ms.date: 12/05/2018
 ms.keywords: GetCompressionOption, GetCompressionOption method [App packaging and management], GetCompressionOption method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetCompressionOption method, IAppxFile.GetCompressionOption, IAppxFile::GetCompressionOption, appxpackaging/IAppxFile::GetCompressionOption, appxpkg.iappxfile_getcompressionoption
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFile.GetCompressionOption"
+f1_keywords:
+- appxpackaging/IAppxFile.GetCompressionOption
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFile.GetCompressionOption
+- IAppxFile.GetCompressionOption
 targetos: Windows
 req.typenames: 
 req.redist: 

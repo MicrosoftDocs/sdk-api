@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.mmioStringToFOURCCA
 title: mmioStringToFOURCCA function (mmiscapi.h)
-
 description: The mmioStringToFOURCC function converts a null-terminated string to a four-character code.
 old-location: multimedia\mmiostringtofourcc.htm
 tech.root: Multimedia
 ms.assetid: e2d4f7f0-7827-4af0-baa8-02607369247a
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mmioStringToFOURCC, mmioStringToFOURCC, mmioStringToFOURCC function [Windows Multimedia], mmioStringToFOURCCA, mmioStringToFOURCCW, mmsystem/mmioStringToFOURCC, mmsystem/mmioStringToFOURCCA, mmsystem/mmioStringToFOURCCW, multimedia.mmiostringtofourcc"
+ms.keywords: _win32_mmioStringToFOURCC, mmioStringToFOURCC, mmioStringToFOURCC function [Windows Multimedia], mmioStringToFOURCCA, mmioStringToFOURCCW, mmsystem/mmioStringToFOURCC, mmsystem/mmioStringToFOURCCA, mmsystem/mmioStringToFOURCCW, multimedia.mmiostringtofourcc
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/mmioStringToFOURCC"
+f1_keywords:
+- mmiscapi/mmioStringToFOURCC
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioStringToFOURCC
- - mmioStringToFOURCCA
- - mmioStringToFOURCCW
+- mmioStringToFOURCC
+- mmioStringToFOURCCA
+- mmioStringToFOURCCW
 targetos: Windows
 req.typenames: 
 req.redist: 

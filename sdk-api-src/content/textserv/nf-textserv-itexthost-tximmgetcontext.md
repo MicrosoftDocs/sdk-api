@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxImmGetContext
 title: ITextHost::TxImmGetContext (textserv.h)
-
 description: Retrieves the Input Method Editor (IME) input context associated with the text services host. This method is used only in Asian-language versions of the operating system.
 old-location: controls\ITextHost_TxImmGetContext.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttximmgetcontext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxImmGetContext method, ITextHost.TxImmGetContext, ITextHost::TxImmGetContext, TxImmGetContext, TxImmGetContext method [Windows Controls], TxImmGetContext method [Windows Controls],ITextHost interface, _win32_ITextHost_TxImmGetContext, _win32_ITextHost_TxImmGetContext_cpp, controls.ITextHost_TxImmGetContext, controls._win32_ITextHost_TxImmGetContext, textserv/ITextHost::TxImmGetContext
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxImmGetContext"
+f1_keywords:
+- textserv/ITextHost.TxImmGetContext
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxImmGetContext
+- ITextHost.TxImmGetContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptCloseAlgorithmProvider
 title: BCryptCloseAlgorithmProvider function (bcrypt.h)
-
 description: Closes an algorithm provider.
 old-location: security\bcryptclosealgorithmprovider_func.htm
 tech.root: SecCNG
 ms.assetid: def90d52-87e0-40e6-9c50-fd77177991d0
-
 ms.date: 12/05/2018
 ms.keywords: BCryptCloseAlgorithmProvider, BCryptCloseAlgorithmProvider function [Security], bcrypt/BCryptCloseAlgorithmProvider, security.bcryptclosealgorithmprovider_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptCloseAlgorithmProvider"
+f1_keywords:
+- bcrypt/BCryptCloseAlgorithmProvider
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptCloseAlgorithmProvider
+- BCryptCloseAlgorithmProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

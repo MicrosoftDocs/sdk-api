@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation)
 title: IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation) (dcomp.h)
-
 description: Sets the angle to rotate the hue.
 old-location: directcomp\idcompositionhuerotationeffect_setangle_2.htm
 tech.root: directcomp
 ms.assetid: F0D73D46-D649-47F3-B1F1-FD995228A3EC
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionHueRotationEffect interface [DirectComposition],SetAngle method, IDCompositionHueRotationEffect.SetAngle, IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation), IDCompositionHueRotationEffect::SetAngle, IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation), SetAngle, SetAngle method [DirectComposition], SetAngle method [DirectComposition],IDCompositionHueRotationEffect interface, dcomp/IDCompositionHueRotationEffect::SetAngle, directcomp.idcompositionhuerotationeffect_setangle_2
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionHueRotationEffect.SetAngle"
+f1_keywords:
+- dcomp/IDCompositionHueRotationEffect.SetAngle
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionHueRotationEffect.SetAngle
+- IDCompositionHueRotationEffect.SetAngle
 targetos: Windows
 req.typenames: 
 req.redist: 

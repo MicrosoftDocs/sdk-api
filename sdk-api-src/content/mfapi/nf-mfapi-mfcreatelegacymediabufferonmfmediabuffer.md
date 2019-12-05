@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateLegacyMediaBufferOnMFMediaBuffer
 title: MFCreateLegacyMediaBufferOnMFMediaBuffer function (mfapi.h)
-
 description: Converts a Media Foundation media buffer into a buffer that is compatible with DirectX Media Objects (DMOs).
 old-location: mf\mfcreatelegacymediabufferonmfmediabuffer.htm
 tech.root: medfound
 ms.assetid: 35d749d8-2bca-4fe8-b145-175e178ae529
-
 ms.date: 12/05/2018
 ms.keywords: 35d749d8-2bca-4fe8-b145-175e178ae529, MFCreateLegacyMediaBufferOnMFMediaBuffer, MFCreateLegacyMediaBufferOnMFMediaBuffer function [Media Foundation], mf.mfcreatelegacymediabufferonmfmediabuffer, mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer"
+f1_keywords:
+- mfapi/MFCreateLegacyMediaBufferOnMFMediaBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateLegacyMediaBufferOnMFMediaBuffer
+- MFCreateLegacyMediaBufferOnMFMediaBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

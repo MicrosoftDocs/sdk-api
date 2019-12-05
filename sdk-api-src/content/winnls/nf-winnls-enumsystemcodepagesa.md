@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumSystemCodePagesA
 title: EnumSystemCodePagesA function (winnls.h)
-
 description: Enumerates the code pages that are either installed on or supported by an operating system.
 old-location: intl\enumsystemcodepages.htm
 tech.root: Intl
 ms.assetid: 4ef4d30f-3e38-47ee-8f68-fbb286b7b5c3
-
 ms.date: 12/05/2018
 ms.keywords: CP_INSTALLED, CP_SUPPORTED, EnumSystemCodePages, EnumSystemCodePages function [Internationalization for Windows Applications], EnumSystemCodePagesA, EnumSystemCodePagesW, _win32_EnumSystemCodePages, intl.enumsystemcodepages, winnls/EnumSystemCodePages, winnls/EnumSystemCodePagesA, winnls/EnumSystemCodePagesW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumSystemCodePages"
+f1_keywords:
+- winnls/EnumSystemCodePages
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - EnumSystemCodePages
- - EnumSystemCodePagesA
- - EnumSystemCodePagesW
+- EnumSystemCodePages
+- EnumSystemCodePagesA
+- EnumSystemCodePagesW
 targetos: Windows
 req.typenames: 
 req.redist: 

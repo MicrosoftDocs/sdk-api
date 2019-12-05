@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSyncErrorInfo.GetOriginalInfo
 title: IOfflineFilesSyncErrorInfo::GetOriginalInfo (cscobj.h)
-
 description: Retrieves an instance of the IOfflineFilesSyncErrorItemInfo interface containing the file times, size, and attributes of the original copy of the item involved in the synchronization.
 old-location: of\iofflinefilessyncerrorinfo_getoriginalinfo.htm
 tech.root: offlinefiles
 ms.assetid: 1cf3a21c-5ae1-475c-9eb7-2d520ee2ce79
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginalInfo, GetOriginalInfo method [Offline Files], GetOriginalInfo method [Offline Files],IOfflineFilesSyncErrorInfo interface, IOfflineFilesSyncErrorInfo interface [Offline Files],GetOriginalInfo method, IOfflineFilesSyncErrorInfo.GetOriginalInfo, IOfflineFilesSyncErrorInfo::GetOriginalInfo, cscobj/IOfflineFilesSyncErrorInfo::GetOriginalInfo, of.iofflinefilessyncerrorinfo_getoriginalinfo
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSyncErrorInfo.GetOriginalInfo"
+f1_keywords:
+- cscobj/IOfflineFilesSyncErrorInfo.GetOriginalInfo
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSyncErrorInfo.GetOriginalInfo
+- IOfflineFilesSyncErrorInfo.GetOriginalInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

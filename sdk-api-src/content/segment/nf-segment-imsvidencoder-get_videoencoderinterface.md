@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidEncoder.get_VideoEncoderInterface
 title: IMSVidEncoder::get_VideoEncoderInterface (segment.h)
-
 description: The get_VideoEncoderInterface method retrieves a pointer to the video encoder interface.
 old-location: mstv\imsvidencoder_get_videoencoderinterface.htm
 tech.root: mstv
 ms.assetid: c6ee3169-ba24-495f-b446-161c899aab16
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidEncoder interface [Microsoft TV Technologies],get_VideoEncoderInterface method, IMSVidEncoder.get_VideoEncoderInterface, IMSVidEncoder::get_VideoEncoderInterface, IMSVidEncoderget_VideoEncoderInterface, get_VideoEncoderInterface, get_VideoEncoderInterface method [Microsoft TV Technologies], get_VideoEncoderInterface method [Microsoft TV Technologies],IMSVidEncoder interface, mstv.imsvidencoder_get_videoencoderinterface, segment/IMSVidEncoder::get_VideoEncoderInterface
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidEncoder.get_VideoEncoderInterface"
+f1_keywords:
+- segment/IMSVidEncoder.get_VideoEncoderInterface
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidEncoder.get_VideoEncoderInterface
+- IMSVidEncoder.get_VideoEncoderInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IAnnotationProvider.get_AnnotationTypeId
 title: IAnnotationProvider::get_AnnotationTypeId (uiautomationcore.h)
-
 description: The annotation type identifier of this annotation.
 old-location: winauto\uiauto_IAnnotationProvider_AnnotationTypeId.htm
 tech.root: WinAuto
 ms.assetid: DA6BEF52-5069-4FE3-B1D9-6A781556A6BE
-
 ms.date: 12/05/2018
 ms.keywords: AnnotationTypeId property [Windows Accessibility], AnnotationTypeId property [Windows Accessibility],IAnnotationProvider interface, IAnnotationProvider interface [Windows Accessibility],AnnotationTypeId property, IAnnotationProvider.AnnotationTypeId, IAnnotationProvider.get_AnnotationTypeId, IAnnotationProvider::AnnotationTypeId, IAnnotationProvider::get_AnnotationTypeId, get_AnnotationTypeId, uiautomationcore/IAnnotationProvider::AnnotationTypeId, uiautomationcore/IAnnotationProvider::get_AnnotationTypeId, winauto.uiauto_IAnnotationProvider_AnnotationTypeId
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IAnnotationProvider.AnnotationTypeId"
+f1_keywords:
+- uiautomationcore/IAnnotationProvider.AnnotationTypeId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IAnnotationProvider.AnnotationTypeId
- - IAnnotationProvider.get_AnnotationTypeId
+- IAnnotationProvider.AnnotationTypeId
+- IAnnotationProvider.get_AnnotationTypeId
 targetos: Windows
 req.typenames: 
 req.redist: 

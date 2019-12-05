@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptEncryptMessage
 title: CryptEncryptMessage function (wincrypt.h)
-
 description: The CryptEncryptMessage function encrypts and encodes a message.
 old-location: security\cryptencryptmessage.htm
 tech.root: SecCrypto
 ms.assetid: 927f2e9a-96cf-4744-bd57-420b5034d28d
-
 ms.date: 12/05/2018
 ms.keywords: CryptEncryptMessage, CryptEncryptMessage function [Security], _crypto2_cryptencryptmessage, security.cryptencryptmessage, wincrypt/CryptEncryptMessage
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptEncryptMessage
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI2FromI8
 title: VarUI2FromI8 function (oleauto.h)
-
 description: Converts an 8-byte integer value to an unsigned short value.
 old-location: automat\varui2fromi8.htm
 tech.root: automat
 ms.assetid: 870d4e1e-2aa7-411c-85b1-4f9a3bf14883
-
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromI8, VarUI2FromI8 function [Automation], _oa96_VarUI2FromI8, automat.varui2fromi8, oleauto/VarUI2FromI8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI2FromI8"
+f1_keywords:
+- oleauto/VarUI2FromI8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI2FromI8
+- VarUI2FromI8
 targetos: Windows
 req.typenames: 
 req.redist: 

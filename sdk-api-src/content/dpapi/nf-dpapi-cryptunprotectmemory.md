@@ -1,19 +1,17 @@
 ---
 UID: NF:dpapi.CryptUnprotectMemory
 title: CryptUnprotectMemory function (dpapi.h)
-
 description: Decrypts memory that was encrypted using the CryptProtectMemory function.
 old-location: security\cryptunprotectmemory.htm
 tech.root: SecCrypto
 ms.assetid: 1c7980ac-4e9e-43fd-b6d7-c0d0a69c8040
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptUnprotectMemory, CryptUnprotectMemory function [Security], dpapi/CryptUnprotectMemory, security.cryptunprotectmemory, wincrypt/CryptUnprotectMemory
 ms.topic: function
-f1_keywords: 
- - "dpapi/CryptUnprotectMemory"
+f1_keywords:
+- dpapi/CryptUnprotectMemory
 dev_langs:
- - c++
+- c++
 req.header: dpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptUnprotectMemory
+- CryptUnprotectMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

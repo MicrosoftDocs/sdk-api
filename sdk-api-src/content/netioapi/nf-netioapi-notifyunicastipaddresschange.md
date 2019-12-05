@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.NotifyUnicastIpAddressChange
 title: NotifyUnicastIpAddressChange function (netioapi.h)
-
 description: Registers to be notified for changes to all unicast IP interfaces, unicast IPv4 addresses, or unicast IPv6 addresses on a local computer.
 old-location: iphlp\notifyunicastipaddresschange.htm
 tech.root: IpHlp
 ms.assetid: 56945aa2-ca1e-44b3-9765-d862978a9dbe
-
 ms.date: 12/05/2018
 ms.keywords: AF_INET, AF_INET6, AF_UNSPEC, NotifyUnicastIpAddressChange, NotifyUnicastIpAddressChange function [IP Helper], iphlp.notifyunicastipaddresschange, netioapi/NotifyUnicastIpAddressChange
 ms.topic: function
 f1_keywords:
 - netioapi/NotifyUnicastIpAddressChange
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

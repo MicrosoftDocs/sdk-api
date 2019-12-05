@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.GetTimeSeekResult
 title: IMFByteStreamTimeSeek::GetTimeSeekResult (mfidl.h)
-
 description: Gets the result of a time-based seek.
 old-location: mf\imfbytestreamtimeseek_gettimeseekresult.htm
 tech.root: medfound
 ms.assetid: D56E1F06-AA05-430C-BF5C-30B38831B842
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFByteStreamTimeSeek interface, IMFByteStreamTimeSeek interface [Media Foundation],GetTimeSeekResult method, IMFByteStreamTimeSeek.GetTimeSeekResult, IMFByteStreamTimeSeek::GetTimeSeekResult, mf.imfbytestreamtimeseek_gettimeseekresult, mfidl/IMFByteStreamTimeSeek::GetTimeSeekResult
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamTimeSeek.GetTimeSeekResult"
+f1_keywords:
+- mfidl/IMFByteStreamTimeSeek.GetTimeSeekResult
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFByteStreamTimeSeek.GetTimeSeekResult
+- IMFByteStreamTimeSeek.GetTimeSeekResult
 targetos: Windows
 req.typenames: 
 req.redist: 

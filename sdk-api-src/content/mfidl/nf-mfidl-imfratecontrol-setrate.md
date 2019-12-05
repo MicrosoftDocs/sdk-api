@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFRateControl.SetRate
 title: IMFRateControl::SetRate (mfidl.h)
-
 description: Sets the playback rate.
 old-location: mf\imfratecontrol_setrate.htm
 tech.root: medfound
 ms.assetid: 428d73fa-f284-4861-a41e-04ea7709db0f
-
 ms.date: 12/05/2018
 ms.keywords: 428d73fa-f284-4861-a41e-04ea7709db0f, IMFRateControl interface [Media Foundation],SetRate method, IMFRateControl.SetRate, IMFRateControl::SetRate, SetRate, SetRate method [Media Foundation], SetRate method [Media Foundation],IMFRateControl interface, mf.imfratecontrol_setrate, mfidl/IMFRateControl::SetRate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRateControl.SetRate"
+f1_keywords:
+- mfidl/IMFRateControl.SetRate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRateControl.SetRate
+- IMFRateControl.SetRate
 targetos: Windows
 req.typenames: 
 req.redist: 

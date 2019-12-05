@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFLoadSignedLibrary
 title: MFLoadSignedLibrary function (mfidl.h)
-
 description: Loads a dynamic link library that is signed for the protected environment.
 old-location: mf\mfloadsignedlibrary.htm
 tech.root: medfound
 ms.assetid: 979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C
-
 ms.date: 12/05/2018
 ms.keywords: MFLoadSignedLibrary, MFLoadSignedLibrary function [Media Foundation], mf.mfloadsignedlibrary, mfidl/MFLoadSignedLibrary
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFLoadSignedLibrary"
+f1_keywords:
+- mfidl/MFLoadSignedLibrary
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFLoadSignedLibrary
+- MFLoadSignedLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

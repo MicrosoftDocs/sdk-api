@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetFormatFlags
 title: StringFormat::GetFormatFlags (gdiplusstringformat.h)
-
 description: The StringFormat::GetFormatFlags method gets the string format flags for this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetFormatFlags_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\getformatflags.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFormatFlags, GetFormatFlags method [GDI+], GetFormatFlags method [GDI+],StringFormat class, StringFormat class [GDI+],GetFormatFlags method, StringFormat.GetFormatFlags, StringFormat::GetFormatFlags, _gdiplus_CLASS_StringFormat_GetFormatFlags_, gdiplus._gdiplus_CLASS_StringFormat_GetFormatFlags_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GetFormatFlags"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GetFormatFlags
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GetFormatFlags
+- StringFormat.GetFormatFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

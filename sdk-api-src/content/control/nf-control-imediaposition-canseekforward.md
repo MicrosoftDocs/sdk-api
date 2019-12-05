@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaPosition.CanSeekForward
 title: IMediaPosition::CanSeekForward (control.h)
-
 description: The CanSeekForward method determines whether the filter graph can seek forward in the stream.
 old-location: dshow\imediaposition_canseekforward.htm
 tech.root: DirectShow
 ms.assetid: 0647d629-79f0-4c62-a346-8d99646469c6
-
 ms.date: 12/05/2018
 ms.keywords: CanSeekForward, CanSeekForward method [DirectShow], CanSeekForward method [DirectShow],IMediaPosition interface, IMediaPosition interface [DirectShow],CanSeekForward method, IMediaPosition.CanSeekForward, IMediaPosition::CanSeekForward, IMediaPositionCanSeekForward, control/IMediaPosition::CanSeekForward, dshow.imediaposition_canseekforward
 ms.topic: method
-f1_keywords: 
- - "control/IMediaPosition.CanSeekForward"
+f1_keywords:
+- control/IMediaPosition.CanSeekForward
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPosition.CanSeekForward
+- IMediaPosition.CanSeekForward
 targetos: Windows
 req.typenames: 
 req.redist: 

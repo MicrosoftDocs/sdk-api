@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtCreateDnsBootstrapResolver
 title: DrtCreateDnsBootstrapResolver function (drt.h)
-
 description: The DrtCreateDnsBootstrapResolver function creates a bootstrap resolver that will use the GetAddrInfo system function to resolve the hostname of a will known node already present in the DRT mesh.
 old-location: p2p\drtcreatednsbootstrapresolver.htm
 tech.root: P2PSdk
 ms.assetid: d4a92dd3-d66a-4c27-9180-f9c148735a4a
-
 ms.date: 12/05/2018
 ms.keywords: DrtCreateDnsBootstrapResolver, DrtCreateDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtCreateDnsBootstrapResolver, p2p.drtcreatednsbootstrapresolver
 ms.topic: function
-f1_keywords: 
- - "drt/DrtCreateDnsBootstrapResolver"
+f1_keywords:
+- drt/DrtCreateDnsBootstrapResolver
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtCreateDnsBootstrapResolver
+- DrtCreateDnsBootstrapResolver
 targetos: Windows
 req.typenames: 
 req.redist: 

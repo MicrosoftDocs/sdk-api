@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssFileShareSnapshotProvider.IsPathSupported
 title: IVssFileShareSnapshotProvider::IsPathSupported (vsprov.h)
-
 description: Determines whether the given Universal Naming Convention (UNC) path is supported by this provider.
 old-location: base\ivssfilesharesnapshotprovider_ispathsupported.htm
 tech.root: VSS
 ms.assetid: 6a4db9dd-3854-414f-ba5c-83e36de6f19b
-
 ms.date: 12/05/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],IsPathSupported method, IVssFileShareSnapshotProvider.IsPathSupported, IVssFileShareSnapshotProvider::IsPathSupported, IsPathSupported, IsPathSupported method [VSS], IsPathSupported method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_ispathsupported, vsprov/IVssFileShareSnapshotProvider::IsPathSupported
 ms.topic: method
-f1_keywords: 
- - "vsprov/IVssFileShareSnapshotProvider.IsPathSupported"
+f1_keywords:
+- vsprov/IVssFileShareSnapshotProvider.IsPathSupported
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider.IsPathSupported
+- IVssFileShareSnapshotProvider.IsPathSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

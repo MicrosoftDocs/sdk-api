@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RealGetWindowClassW
 title: RealGetWindowClassW function (winuser.h)
-
 description: Retrieves a string that specifies the window type.
 old-location: winmsg\realgetwindowclass.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\realgetwindowclass.htm
-
 ms.date: 12/05/2018
 ms.keywords: RealGetWindowClass, RealGetWindowClass function [Windows and Messages], RealGetWindowClassW, _win32_RealGetWindowClass, _win32_realgetwindowclass_cpp, winmsg.realgetwindowclass, winui._win32_realgetwindowclass, winuser/RealGetWindowClass, winuser/RealGetWindowClassW
 ms.topic: function
-f1_keywords: 
- - "winuser/RealGetWindowClass"
+f1_keywords:
+- winuser/RealGetWindowClass
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
- - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
- - minuser.dll
- - ext-ms-win-ntuser-windowclass-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
+- Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
+- minuser.dll
+- ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - RealGetWindowClass
- - RealGetWindowClassW
+- RealGetWindowClass
+- RealGetWindowClassW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrix
 title: IDCompositionMatrixTransform3D::SetMatrix (dcomp.h)
-
 description: Changes all values of the matrix of this 3D transformation effect.
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrix.htm
 tech.root: directcomp
 ms.assetid: 0F1DBC1C-154A-4785-B9B9-924353FD5836
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionMatrixTransform3D interface [DirectComposition],SetMatrix method, IDCompositionMatrixTransform3D.SetMatrix, IDCompositionMatrixTransform3D::SetMatrix, SetMatrix, SetMatrix method [DirectComposition], SetMatrix method [DirectComposition],IDCompositionMatrixTransform3D interface, dcomp/IDCompositionMatrixTransform3D::SetMatrix, directcomp.idcompositionmatrixtransform3d_setmatrix
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionMatrixTransform3D.SetMatrix"
+f1_keywords:
+- dcomp/IDCompositionMatrixTransform3D.SetMatrix
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionMatrixTransform3D.SetMatrix
+- IDCompositionMatrixTransform3D.SetMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

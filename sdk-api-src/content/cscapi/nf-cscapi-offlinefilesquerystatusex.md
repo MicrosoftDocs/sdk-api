@@ -1,19 +1,17 @@
 ---
 UID: NF:cscapi.OfflineFilesQueryStatusEx
 title: OfflineFilesQueryStatusEx function (cscapi.h)
-
 description: Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the OfflineFilesQueryStatus function, except that it has an additional output parameter.
 old-location: of\offlinefilesquerystatusex.htm
 tech.root: offlinefiles
 ms.assetid: 1916F3F7-3B99-40CA-B503-EA1D10991BF4
-
 ms.date: 12/05/2018
 ms.keywords: OfflineFilesQueryStatusEx, OfflineFilesQueryStatusEx function [Offline Files], cscapi/OfflineFilesQueryStatusEx, of.offlinefilesquerystatusex
 ms.topic: function
-f1_keywords: 
- - "cscapi/OfflineFilesQueryStatusEx"
+f1_keywords:
+- cscapi/OfflineFilesQueryStatusEx
 dev_langs:
- - c++
+- c++
 req.header: cscapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CscApi.lib
 req.dll: CscApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CscApi.dll
+- CscApi.dll
 api_name:
- - OfflineFilesQueryStatusEx
+- OfflineFilesQueryStatusEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.put_Underline
 title: IFont::put_Underline (ocidl.h)
-
 description: Sets the font's Underline property.
 old-location: com\ifont_put_underline.htm
 tech.root: com
 ms.assetid: c763c050-cf69-4c9d-83a9-66ccc1d4376c
-
 ms.date: 12/05/2018
 ms.keywords: IFont interface [COM],put_Underline method, IFont.put_Underline, IFont::put_Underline, _ctrl_ifont_put_underline, com.ifont_put_underline, ocidl/IFont::put_Underline, put_Underline, put_Underline method [COM], put_Underline method [COM],IFont interface
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.put_Underline"
+f1_keywords:
+- ocidl/IFont.put_Underline
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.put_Underline
+- IFont.put_Underline
 targetos: Windows
 req.typenames: 
 req.redist: 

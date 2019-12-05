@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.IsIIDSupported
 title: IRpcStubBuffer::IsIIDSupported (objidlbase.h)
-
 description: Determines whether a stub is designed to handle the unmarshaling of a particular interface.
 old-location: com\irpcstubbuffer_isiidsupported.htm
 tech.root: com
 ms.assetid: 7025d343-9171-4d0f-9e93-61365075edc0
-
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer interface [COM],IsIIDSupported method, IRpcStubBuffer.IsIIDSupported, IRpcStubBuffer::IsIIDSupported, IsIIDSupported, IsIIDSupported method [COM], IsIIDSupported method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_isiidsupported, com.irpcstubbuffer_isiidsupported, objidlbase/IRpcStubBuffer::IsIIDSupported
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IRpcStubBuffer.IsIIDSupported"
+f1_keywords:
+- objidlbase/IRpcStubBuffer.IsIIDSupported
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcStubBuffer.IsIIDSupported
+- IRpcStubBuffer.IsIIDSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

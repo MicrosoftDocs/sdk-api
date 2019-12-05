@@ -1,19 +1,17 @@
 ---
 UID: NF:winevt.EvtCreateBookmark
 title: EvtCreateBookmark function (winevt.h)
-
 description: Creates a bookmark that identifies an event in a channel.
 old-location: wes\evtcreatebookmark.htm
 tech.root: wes
 ms.assetid: 1020d923-090b-48fc-96c2-394db5cd241e
-
 ms.date: 12/05/2018
 ms.keywords: EvtCreateBookmark, EvtCreateBookmark function [EventLog], wes.evtcreatebookmark, winevt/EvtCreateBookmark
 ms.topic: function
-f1_keywords: 
- - "winevt/EvtCreateBookmark"
+f1_keywords:
+- winevt/EvtCreateBookmark
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wevtapi.lib
 req.dll: Wevtapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wevtapi.dll
+- Wevtapi.dll
 api_name:
- - EvtCreateBookmark
+- EvtCreateBookmark
 targetos: Windows
 req.typenames: 
 req.redist: 

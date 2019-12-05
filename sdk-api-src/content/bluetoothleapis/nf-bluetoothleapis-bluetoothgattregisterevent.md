@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTRegisterEvent
 title: BluetoothGATTRegisterEvent function (bluetoothleapis.h)
-
 description: Registers a routine to be called back during a characteristic value change event on the given characteristic identified by its characteristic handle.
 old-location: bltooth\bluetoothgattregisterevent.htm
 tech.root: bltooth
 ms.assetid: 8C1477F8-8342-4405-8FE1-8109E6147EE9
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothGATTRegisterEvent, BluetoothGATTRegisterEvent function [Bluetooth Devices], bltooth.bluetoothgattregisterevent, bluetoothleapis/BluetoothGATTRegisterEvent
 ms.topic: function
 f1_keywords:
 - bluetoothleapis/BluetoothGATTRegisterEvent
 dev_langs:
- - c++
+- c++
 req.header: bluetoothleapis.h
 req.include-header: 
 req.target-type: Universal

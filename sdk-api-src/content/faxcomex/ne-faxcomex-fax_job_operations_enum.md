@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_JOB_OPERATIONS_ENUM
 title: FAX_JOB_OPERATIONS_ENUM (faxcomex.h)
-
 description: The FAX_JOB_OPERATIONS_ENUM enumeration defines the operations that can be performed on a fax job. The members of this enumeration are bit values and can be used in combination.
 old-location: fax\_mfax_fax_job_operations_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_1ijx.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_JOB_OPERATIONS_ENUM, FAX_JOB_OPERATIONS_ENUM enumeration [Fax Service], _mfax_fax_job_operations_enum, fax._mfax_fax_job_operations_enum, faxcomex/FAX_JOB_OPERATIONS_ENUM, faxcomex/fjoDELETE, faxcomex/fjoPAUSE, faxcomex/fjoRECIPIENT_INFO, faxcomex/fjoRESTART, faxcomex/fjoRESUME, faxcomex/fjoSENDER_INFO, faxcomex/fjoVIEW, fjoDELETE, fjoPAUSE, fjoRECIPIENT_INFO, fjoRESTART, fjoRESUME, fjoSENDER_INFO, fjoVIEW
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_JOB_OPERATIONS_ENUM"
+f1_keywords:
+- faxcomex/FAX_JOB_OPERATIONS_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_JOB_OPERATIONS_ENUM
+- FAX_JOB_OPERATIONS_ENUM
 targetos: Windows
 req.typenames: FAX_JOB_OPERATIONS_ENUM
 req.redist: 

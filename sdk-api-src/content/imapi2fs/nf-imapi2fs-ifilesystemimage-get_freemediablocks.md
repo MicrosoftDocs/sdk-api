@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FreeMediaBlocks
 title: IFileSystemImage::get_FreeMediaBlocks (imapi2fs.h)
-
 description: Retrieves the maximum number of blocks available for the image.
 old-location: imapi\ifilesystemimage_get_freemediablocks.htm
 tech.root: imapi
 ms.assetid: 4942d86d-0cc7-4f4e-b257-dc59d3896b38
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_FreeMediaBlocks method, IFileSystemImage.get_FreeMediaBlocks, IFileSystemImage::get_FreeMediaBlocks, get_FreeMediaBlocks, get_FreeMediaBlocks method [IMAPI], get_FreeMediaBlocks method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_freemediablocks, imapi2fs/IFileSystemImage::get_FreeMediaBlocks
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_FreeMediaBlocks"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_FreeMediaBlocks
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_FreeMediaBlocks
+- IFileSystemImage.get_FreeMediaBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

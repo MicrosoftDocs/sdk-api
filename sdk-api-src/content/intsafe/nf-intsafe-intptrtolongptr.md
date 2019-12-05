@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntPtrToLongPtr
 title: IntPtrToLongPtr function (intsafe.h)
-
 description: Converts a value of type INT_PTR to a value of type LONG_PTR.
 old-location: shell\IntPtrToLongPtr.htm
 tech.root: shell
 ms.assetid: f0e4d121-9cc5-4fc9-a507-b9fc8e314f94
-
 ms.date: 12/05/2018
 ms.keywords: IntPtrToLongPtr, IntPtrToLongPtr function [Windows Shell], intsafe/IntPtrToLongPtr, shell.IntPtrToLongPtr
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntPtrToLongPtr"
+f1_keywords:
+- intsafe/IntPtrToLongPtr
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - IntPtrToLongPtr
+- IntPtrToLongPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

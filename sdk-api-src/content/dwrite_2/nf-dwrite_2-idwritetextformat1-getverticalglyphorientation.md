@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.GetVerticalGlyphOrientation
 title: IDWriteTextFormat1::GetVerticalGlyphOrientation (dwrite_2.h)
-
 description: Get the preferred orientation of glyphs when using a vertical reading direction.
 old-location: directwrite\idwritetextformat1_getverticalglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: 0ceebd85-0d57-fd38-a847-0048c2d82b22
-
 ms.date: 12/05/2018
 ms.keywords: GetVerticalGlyphOrientation, GetVerticalGlyphOrientation method [Direct Write], GetVerticalGlyphOrientation method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetVerticalGlyphOrientation method, IDWriteTextFormat1.GetVerticalGlyphOrientation, IDWriteTextFormat1::GetVerticalGlyphOrientation, directwrite.idwritetextformat1_getverticalglyphorientation, dwrite_2/IDWriteTextFormat1::GetVerticalGlyphOrientation
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextFormat1.GetVerticalGlyphOrientation"
+f1_keywords:
+- dwrite_2/IDWriteTextFormat1.GetVerticalGlyphOrientation
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat1.GetVerticalGlyphOrientation
+- IDWriteTextFormat1.GetVerticalGlyphOrientation
 targetos: Windows
 req.typenames: 
 req.redist: 

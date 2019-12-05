@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaces.get_EnumTuningSpaces
 title: ITuningSpaces::get_EnumTuningSpaces (tuner.h)
-
 description: The get_EnumTuningSpaces method returns an enumerator for the collection.
 old-location: mstv\ituningspaces_get_enumtuningspaces.htm
 tech.root: mstv
 ms.assetid: 0d3fb395-191c-4862-8eba-07b5502dc5d4
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaces interface [Microsoft TV Technologies],get_EnumTuningSpaces method, ITuningSpaces.get_EnumTuningSpaces, ITuningSpaces::get_EnumTuningSpaces, ITuningSpacesget_EnumTuningSpaces, get_EnumTuningSpaces, get_EnumTuningSpaces method [Microsoft TV Technologies], get_EnumTuningSpaces method [Microsoft TV Technologies],ITuningSpaces interface, mstv.ituningspaces_get_enumtuningspaces, tuner/ITuningSpaces::get_EnumTuningSpaces
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaces.get_EnumTuningSpaces"
+f1_keywords:
+- tuner/ITuningSpaces.get_EnumTuningSpaces
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaces.get_EnumTuningSpaces
+- ITuningSpaces.get_EnumTuningSpaces
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetOpenClipboardWindow
 title: GetOpenClipboardWindow function (winuser.h)
-
 description: Retrieves the handle to the window that currently has the clipboard open.
 old-location: dataxchg\getopenclipboardwindow.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getopenclipboardwindow.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetOpenClipboardWindow, GetOpenClipboardWindow function [Data Exchange], _win32_GetOpenClipboardWindow, _win32_getopenclipboardwindow_cpp, dataxchg.getopenclipboardwindow, winui._win32_getopenclipboardwindow, winuser/GetOpenClipboardWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/GetOpenClipboardWindow"
+f1_keywords:
+- winuser/GetOpenClipboardWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetOpenClipboardWindow
+- GetOpenClipboardWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

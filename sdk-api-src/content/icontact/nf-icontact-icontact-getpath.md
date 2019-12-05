@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContact.GetPath
 title: IContact::GetPath (icontact.h)
-
 description: Retrieves the file system path used to load this contact.
 old-location: wincontacts\_wincontacts_IContact_GetPath.htm
 tech.root: wincontacts
 ms.assetid: 4b037961-f2a4-4e75-a664-d70257bed426
-
 ms.date: 12/05/2018
 ms.keywords: GetPath, GetPath method [Windows Contacts], GetPath method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetPath method, IContact.GetPath, IContact::GetPath, _wincontacts_IContact_GetPath, icontact/IContact::GetPath, wincontacts._wincontacts_IContact_GetPath
 ms.topic: method
-f1_keywords: 
- - "icontact/IContact.GetPath"
+f1_keywords:
+- icontact/IContact.GetPath
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContact.GetPath
+- IContact.GetPath
 targetos: Windows
 req.typenames: 
 req.redist: 

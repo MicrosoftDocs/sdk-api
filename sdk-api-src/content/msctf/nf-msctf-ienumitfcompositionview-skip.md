@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Skip
 title: IEnumITfCompositionView::Skip (msctf.h)
-
 description: IEnumITfCompositionView::Skip method
 old-location: tsf\ienumitfcompositionview_skip.htm
 tech.root: TSF
 ms.assetid: 9edc8dd8-4cbb-4250-a0e9-05d7250d5ad3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumITfCompositionView interface [Text Services Framework],Skip method, IEnumITfCompositionView.Skip, IEnumITfCompositionView::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumITfCompositionView interface, _tsf_ienumitfcompositionview_skip_ref, msctf/IEnumITfCompositionView::Skip, tsf.ienumitfcompositionview_skip
 ms.topic: method
-f1_keywords: 
- - "msctf/IEnumITfCompositionView.Skip"
+f1_keywords:
+- msctf/IEnumITfCompositionView.Skip
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - IEnumITfCompositionView.Skip
+- IEnumITfCompositionView.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

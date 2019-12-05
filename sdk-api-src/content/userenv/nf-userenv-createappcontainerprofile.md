@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.CreateAppContainerProfile
 title: CreateAppContainerProfile function (userenv.h)
-
 description: Creates a per-user, per-app profile for Windows Store apps.
 old-location: shell\createappcontainerprofile.htm
 tech.root: shell
 ms.assetid: 73F5F30F-4083-4D33-B181-31B782AD40D6
-
 ms.date: 12/05/2018
 ms.keywords: CreateAppContainerProfile, CreateAppContainerProfile function [Windows Shell], shell.createappcontainerprofile, userenv/CreateAppContainerProfile
 ms.topic: function
-f1_keywords: 
- - "userenv/CreateAppContainerProfile"
+f1_keywords:
+- userenv/CreateAppContainerProfile
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - CreateAppContainerProfile
+- CreateAppContainerProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

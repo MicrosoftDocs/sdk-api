@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptMsgVerifyCountersignatureEncodedEx
 title: CryptMsgVerifyCountersignatureEncodedEx function (wincrypt.h)
-
 description: Verifies that the pbSignerInfoCounterSignature parameter contains the encrypted hash of the encryptedDigest field of the pbSignerInfo parameter structure.
 old-location: security\cryptmsgverifycountersignatureencodedex.htm
 tech.root: SecCrypto
 ms.assetid: da756cd5-1dec-4d88-9c90-76dd263035eb
-
 ms.date: 12/05/2018
 ms.keywords: CMSG_VERIFY_COUNTER_SIGN_ENABLE_STRONG_FLAG, CryptMsgVerifyCountersignatureEncodedEx, CryptMsgVerifyCountersignatureEncodedEx function [Security], _crypto2_cryptmsgverifycountersignatureencodedex, security.cryptmsgverifycountersignatureencodedex, wincrypt/CryptMsgVerifyCountersignatureEncodedEx
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgVerifyCountersignatureEncodedEx
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

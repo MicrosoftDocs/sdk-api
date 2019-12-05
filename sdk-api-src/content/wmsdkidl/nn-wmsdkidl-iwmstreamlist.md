@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMStreamList
 title: IWMStreamList (wmsdkidl.h)
-
 description: The IWMStreamList interface is used by mutual exclusion objects and bandwidth sharing objects to maintain lists of streams.
 old-location: wmformat\iwmstreamlist.htm
 tech.root: wmformat
 ms.assetid: 076bb0bf-3cf8-48b4-bfca-abbd9c1bf211
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamList, IWMStreamList interface [windows Media Format], IWMStreamList interface [windows Media Format],described, IWMStreamListInterface, wmformat.iwmstreamlist, wmsdkidl/IWMStreamList
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMStreamList"
+f1_keywords:
+- wmsdkidl/IWMStreamList
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMStreamList
+- IWMStreamList
 targetos: Windows
 req.typenames: 
 req.redist: 

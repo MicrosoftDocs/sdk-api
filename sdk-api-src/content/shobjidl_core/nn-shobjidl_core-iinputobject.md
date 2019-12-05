@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IInputObject
 title: IInputObject (shobjidl_core.h)
-
 description: Exposes methods that change UI activation and process accelerators for a user input object contained in the Shell.
 old-location: shell\IInputObject.htm
 tech.root: shell
 ms.assetid: 5fbbcd26-c60a-4b6a-92cf-36b8bd429266
-
 ms.date: 12/05/2018
 ms.keywords: IInputObject, IInputObject interface [Windows Shell], IInputObject interface [Windows Shell],described, _win32_IInputObject, shell.IInputObject, shobjidl_core/IInputObject
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IInputObject"
+f1_keywords:
+- shobjidl_core/IInputObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IInputObject
+- IInputObject
 targetos: Windows
 req.typenames: 
 req.redist: 

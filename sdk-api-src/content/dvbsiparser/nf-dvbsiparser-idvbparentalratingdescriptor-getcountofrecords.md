@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbParentalRatingDescriptor.GetCountOfRecords
 title: IDvbParentalRatingDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of records in a Digital Video Broadcast (DVB) parental rating descriptor.
 old-location: mstv\idvbparentalratingdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 72dcfb91-4137-4149-b30d-2551cb209688
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IDvbParentalRatingDescriptor interface, IDvbParentalRatingDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IDvbParentalRatingDescriptor.GetCountOfRecords, IDvbParentalRatingDescriptor::GetCountOfRecords, dvbsiparser/IDvbParentalRatingDescriptor::GetCountOfRecords, mstv.idvbparentalratingdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbParentalRatingDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IDvbParentalRatingDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbParentalRatingDescriptor.GetCountOfRecords
+- IDvbParentalRatingDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPaint.SetPaintType
 title: ID2D1SvgPaint::SetPaintType (d2d1svg.h)
-
 description: Sets the paint type.
 old-location: direct2d\id2d1svgpaint_setpainttype.htm
 tech.root: Direct2D
 ms.assetid: C6F1D646-2ADD-4F1A-940E-8D20DFBBBAC1
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPaint interface [Direct2D],SetPaintType method, ID2D1SvgPaint.SetPaintType, ID2D1SvgPaint::SetPaintType, SetPaintType, SetPaintType method [Direct2D], SetPaintType method [Direct2D],ID2D1SvgPaint interface, d2d1svg/ID2D1SvgPaint::SetPaintType, direct2d.id2d1svgpaint_setpainttype
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgPaint.SetPaintType"
+f1_keywords:
+- d2d1svg/ID2D1SvgPaint.SetPaintType
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgPaint.SetPaintType
+- ID2D1SvgPaint.SetPaintType
 targetos: Windows
 req.typenames: 
 req.redist: 

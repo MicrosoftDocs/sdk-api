@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetAllSPRMs
 title: IDvdInfo2::GetAllSPRMs (strmif.h)
-
 description: The GetAllSPRMs method retrieves the current contents of all system parameter registers (SPRMs).
 old-location: dshow\idvdinfo2_getallsprms.htm
 tech.root: DirectShow
 ms.assetid: 4a5fb447-670d-4f1f-838e-266843185efe
-
 ms.date: 12/05/2018
 ms.keywords: GetAllSPRMs, GetAllSPRMs method [DirectShow], GetAllSPRMs method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetAllSPRMs method, IDvdInfo2.GetAllSPRMs, IDvdInfo2::GetAllSPRMs, IDvdInfo2GetAllSPRMs, dshow.idvdinfo2_getallsprms, strmif/IDvdInfo2::GetAllSPRMs
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetAllSPRMs"
+f1_keywords:
+- strmif/IDvdInfo2.GetAllSPRMs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetAllSPRMs
+- IDvdInfo2.GetAllSPRMs
 targetos: Windows
 req.typenames: 
 req.redist: 

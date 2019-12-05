@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.mixerOpen
 title: mixerOpen function (mmeapi.h)
-
 description: The mixerOpen function opens a specified mixer device and ensures that the device will not be removed until the application closes the handle.
 old-location: multimedia\mixeropen.htm
 tech.root: Multimedia
 ms.assetid: 7977680b-0967-4b85-9926-fc2725681de9
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mixerOpen, mixerOpen, mixerOpen function [Windows Multimedia], mmeapi/mixerOpen, multimedia.mixeropen"
+ms.keywords: _win32_mixerOpen, mixerOpen, mixerOpen function [Windows Multimedia], mmeapi/mixerOpen, multimedia.mixeropen
 ms.topic: function
-f1_keywords: 
- - "mmeapi/mixerOpen"
+f1_keywords:
+- mmeapi/mixerOpen
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - mixerOpen
+- mixerOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

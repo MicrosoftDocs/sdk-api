@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Edit_FmtLines
 title: Edit_FmtLines macro (windowsx.h)
-
 description: Sets a flag that determines whether text retrieved from a multiline edit control includes soft line-break characters.
 old-location: controls\Edit_FormatLines.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_formatlines.htm
-
 ms.date: 12/05/2018
 ms.keywords: Edit_FmtLines, Edit_FmtLines macro [Windows Controls], _win32_Edit_FormatLines, _win32_Edit_FormatLines_cpp, controls.Edit_FormatLines, controls._win32_Edit_FormatLines, windowsx/Edit_FmtLines
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Edit_FmtLines"
+f1_keywords:
+- windowsx/Edit_FmtLines
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Edit_FmtLines
+- Edit_FmtLines
 targetos: Windows
 req.typenames: 
 req.redist: 

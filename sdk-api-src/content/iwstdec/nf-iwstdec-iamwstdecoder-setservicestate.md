@@ -1,19 +1,17 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.SetServiceState
 title: IAMWstDecoder::SetServiceState (iwstdec.h)
-
 description: Applications use the SetServiceState method to assign the service state.
 old-location: dshow\iamwstdecoder_setservicestate.htm
 tech.root: DirectShow
 ms.assetid: c65d056e-0f39-4372-9060-37859798cade
-
 ms.date: 12/05/2018
 ms.keywords: IAMWstDecoder interface [DirectShow],SetServiceState method, IAMWstDecoder.SetServiceState, IAMWstDecoder::SetServiceState, IAMWstDecoderSetServiceState, SetServiceState, SetServiceState method [DirectShow], SetServiceState method [DirectShow],IAMWstDecoder interface, dshow.iamwstdecoder_setservicestate, iwstdec/IAMWstDecoder::SetServiceState
 ms.topic: method
 f1_keywords:
 - iwstdec/IAMWstDecoder.SetServiceState
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetSSID
 title: IDot11AdHocNetwork::GetSSID (adhoc.h)
-
 description: Gets the SSID of the network.
 old-location: nwifi\idot11adhocnetwork_getssid.htm
 tech.root: NativeWiFi
 ms.assetid: a1a190a2-038b-4353-8dc9-76950b1da9ff
-
 ms.date: 12/05/2018
 ms.keywords: GetSSID, GetSSID method [NativeWIFI], GetSSID method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetSSID method, IDot11AdHocNetwork.GetSSID, IDot11AdHocNetwork::GetSSID, adhoc/IDot11AdHocNetwork::GetSSID, nwifi.idot11adhocnetwork_getssid
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.GetSSID"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.GetSSID
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetSSID
+- IDot11AdHocNetwork.GetSSID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMGetSecurityProvider
 title: DRMGetSecurityProvider function (msdrm.h)
-
 description: Retrieves the path to a lockbox.
 old-location: rm\drmgetsecurityprovider.htm
 tech.root: AdRms_Sdk
 ms.assetid: 9f74fd19-bd87-4e21-a2b9-66b7d1f481a1
-
 ms.date: 12/05/2018
 ms.keywords: DRMGetSecurityProvider, DRMGetSecurityProvider function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMGetSecurityProvider, rm.drmgetsecurityprovider
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMGetSecurityProvider"
+f1_keywords:
+- msdrm/DRMGetSecurityProvider
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMGetSecurityProvider
+- DRMGetSecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindClockVectorForChangeUnit
 title: ISyncKnowledge::FindClockVectorForChangeUnit (winsync.h)
-
 description: Gets the clock vector that is associated with the specified change unit ID.
 old-location: winsync\isyncknowledge_findclockvectorforchangeunit.htm
 tech.root: winsync
 ms.assetid: b5114f66-419f-4fea-87ad-3c2cc43eb2fd
-
 ms.date: 12/05/2018
 ms.keywords: FindClockVectorForChangeUnit, FindClockVectorForChangeUnit method [Windows Sync], FindClockVectorForChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindClockVectorForChangeUnit method, ISyncKnowledge.FindClockVectorForChangeUnit, ISyncKnowledge::FindClockVectorForChangeUnit, winsync.isyncknowledge_findclockvectorforchangeunit, winsync/ISyncKnowledge::FindClockVectorForChangeUnit
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.FindClockVectorForChangeUnit"
+f1_keywords:
+- winsync/ISyncKnowledge.FindClockVectorForChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.FindClockVectorForChangeUnit
+- ISyncKnowledge.FindClockVectorForChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

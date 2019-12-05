@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensorDataReport.GetSensorValues
 title: ISensorDataReport::GetSensorValues (sensorsapi.h)
-
 description: Retrieves a collection of data field values.
 old-location: winsensors_com_ref\isensordatareport_getsensorvalues.htm
 tech.root: SensorsAPI
 ms.assetid: d7450caf-9b82-41ee-9ea2-d8f4502473ce
-
 ms.date: 12/05/2018
 ms.keywords: GetSensorValues, GetSensorValues method, GetSensorValues method,ISensorDataReport interface, ISensorDataReport interface,GetSensorValues method, ISensorDataReport.GetSensorValues, ISensorDataReport::GetSensorValues, sensorsapi/ISensorDataReport::GetSensorValues, winsensors_com_ref.isensordatareport_getsensorvalues
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensorDataReport.GetSensorValues"
+f1_keywords:
+- sensorsapi/ISensorDataReport.GetSensorValues
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorDataReport.GetSensorValues
+- ISensorDataReport.GetSensorValues
 targetos: Windows
 req.typenames: 
 req.redist: 

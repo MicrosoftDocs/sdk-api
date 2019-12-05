@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineGetDevConfigW
 title: lineGetDevConfigW function (tapi.h)
-
 description: The lineGetDevConfig function returns an &#0034;opaque&#0034; data structure object, the contents of which are specific to the line (service provider) and device class.
 old-location: tapi2\linegetdevconfig.htm
 tech.root: Tapi
 ms.assetid: 39ff5ddb-142e-4f11-9395-e2c3a3ac7d19
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig"
+ms.keywords: _tapi2_linegetdevconfig, lineGetDevConfig, lineGetDevConfig function [TAPI 2.2], lineGetDevConfigA, lineGetDevConfigW, tapi/lineGetDevConfig, tapi/lineGetDevConfigA, tapi/lineGetDevConfigW, tapi2.linegetdevconfig
 ms.topic: function
-f1_keywords: 
- - "tapi/lineGetDevConfig"
+f1_keywords:
+- tapi/lineGetDevConfig
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineGetDevConfig
- - lineGetDevConfigA
- - lineGetDevConfigW
+- lineGetDevConfig
+- lineGetDevConfigA
+- lineGetDevConfigW
 targetos: Windows
 req.typenames: 
 req.redist: 

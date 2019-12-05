@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ITransactionResourcePool
 title: ITransactionResourcePool (comsvcs.h)
-
 description: Maintains a list of pooled objects, keyed by IObjPool, that are used until the transaction completes.
 old-location: cos\itransactionresourcepool.htm
 tech.root: cossdk
 ms.assetid: bf7ca849-6025-4358-bf2d-629d80e06a04
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionResourcePool, ITransactionResourcePool interface [COM+], ITransactionResourcePool interface [COM+],described, _cos_ITransactionResourcePool, comsvcs/ITransactionResourcePool, cos.itransactionresourcepool
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ITransactionResourcePool"
+f1_keywords:
+- comsvcs/ITransactionResourcePool
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionResourcePool
+- ITransactionResourcePool
 targetos: Windows
 req.typenames: 
 req.redist: 

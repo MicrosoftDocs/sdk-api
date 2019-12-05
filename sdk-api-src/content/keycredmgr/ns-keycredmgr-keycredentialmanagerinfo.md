@@ -1,19 +1,17 @@
 ---
 UID: NS:keycredmgr.KeyCredentialManagerInfo
 title: KeyCredentialManagerInfo (keycredmgr.h)
-
 description: Data structure returned from KeyCredentialManagerGetInformation.
 old-location: security\keycredentialmanagerinfo.htm
 tech.root: SecAuthN
 ms.assetid: BF573834-FA5A-4ADE-9E19-389B1A15A1F8
-
 ms.date: 12/05/2018
 ms.keywords: KeyCredentialManagerInfo, KeyCredentialManagerInfo structure [Security], PKeyCredentialManagerInfo, PKeyCredentialManagerInfo structure pointer [Security], keycredmgr/KeyCredentialManagerInfo, keycredmgr/PKeyCredentialManagerInfo, security.keycredentialmanagerinfo
 ms.topic: struct
-f1_keywords: 
- - "keycredmgr/KeyCredentialManagerInfo"
+f1_keywords:
+- keycredmgr/KeyCredentialManagerInfo
 dev_langs:
- - c++
+- c++
 req.header: keycredmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - keycredmgr.h
+- keycredmgr.h
 api_name:
- - KeyCredentialManagerInfo
+- KeyCredentialManagerInfo
 targetos: Windows
 req.typenames: KeyCredentialManagerInfo
 req.redist: 

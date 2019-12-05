@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Extension.get_Critical
 title: IX509Extension::get_Critical (certenroll.h)
-
 description: Specifies and retrieves a Boolean value that identifies whether the certificate extension is critical.
 old-location: security\ix509extension_critical_property.htm
 tech.root: seccertenroll
 ms.assetid: b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072
-
 ms.date: 12/05/2018
 ms.keywords: Critical property [Security], Critical property [Security],IX509Extension interface, IX509Extension interface [Security],Critical property, IX509Extension.Critical, IX509Extension.get_Critical, IX509Extension::Critical, IX509Extension::get_Critical, IX509Extension::put_Critical, certenroll/IX509Extension::Critical, certenroll/IX509Extension::get_Critical, certenroll/IX509Extension::put_Critical, get_Critical, security.ix509extension_critical_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Extension.Critical"
+f1_keywords:
+- certenroll/IX509Extension.Critical
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Extension.Critical
- - IX509Extension.get_Critical
- - IX509Extension.put_Critical
+- IX509Extension.Critical
+- IX509Extension.get_Critical
+- IX509Extension.put_Critical
 targetos: Windows
 req.typenames: 
 req.redist: 

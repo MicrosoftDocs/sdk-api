@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCompartment.SetValue
 title: ITfCompartment::SetValue (msctf.h)
-
 description: ITfCompartment::SetValue method
 old-location: tsf\itfcompartment_setvalue.htm
 tech.root: TSF
 ms.assetid: 1a1a175f-a24e-4f83-92d3-ac6a24f5f486
-
 ms.date: 12/05/2018
 ms.keywords: ITfCompartment interface [Text Services Framework],SetValue method, ITfCompartment.SetValue, ITfCompartment::SetValue, SetValue, SetValue method [Text Services Framework], SetValue method [Text Services Framework],ITfCompartment interface, _tsf_itfcompartment_setvalue_ref, msctf/ITfCompartment::SetValue, tsf.itfcompartment_setvalue
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCompartment.SetValue"
+f1_keywords:
+- msctf/ITfCompartment.SetValue
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCompartment.SetValue
+- ITfCompartment.SetValue
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

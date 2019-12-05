@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_WriteCertToCSP
 title: IEnroll::put_WriteCertToCSP (xenroll.h)
-
 description: Sets or retrieves a Boolean value that determines whether a certificate should be written to the cryptographic service provider (CSP).
 old-location: security\ienroll4_writecerttocsp.htm
 tech.root: SecCrypto
 ms.assetid: 07463f0d-f46c-4bc3-8170-0a480b826049
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],WriteCertToCSP property, IEnroll.WriteCertToCSP, IEnroll.put_WriteCertToCSP, IEnroll::WriteCertToCSP, IEnroll::get_WriteCertToCSP, IEnroll::put_WriteCertToCSP, WriteCertToCSP property [Security], WriteCertToCSP property [Security],IEnroll interface, put_WriteCertToCSP, security.ienroll4_writecerttocsp, xenroll/IEnroll::WriteCertToCSP, xenroll/IEnroll::get_WriteCertToCSP, xenroll/IEnroll::put_WriteCertToCSP
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.WriteCertToCSP"
+f1_keywords:
+- xenroll/IEnroll.WriteCertToCSP
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.WriteCertToCSP
- - IEnroll.get_WriteCertToCSP
- - IEnroll.put_WriteCertToCSP
+- IEnroll.WriteCertToCSP
+- IEnroll.get_WriteCertToCSP
+- IEnroll.put_WriteCertToCSP
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.WMCreateDeviceRegistration
 title: WMCreateDeviceRegistration function (wmsdkidl.h)
-
 description: The WMCreateDeviceRegistration function creates a device registration object.
 old-location: wmformat\wmcreatedeviceregistration.htm
 tech.root: wmformat
 ms.assetid: 0e318691-07dc-421b-951d-9e65e9160bb0
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateDeviceRegistration, WMCreateDeviceRegistration function [windows Media Format], wmformat.wmcreatedeviceregistration, wmsdkidl/WMCreateDeviceRegistration
 ms.topic: function
-f1_keywords: 
- - "wmsdkidl/WMCreateDeviceRegistration"
+f1_keywords:
+- wmsdkidl/WMCreateDeviceRegistration
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wmvcore.dll
+- Wmvcore.dll
 api_name:
- - WMCreateDeviceRegistration
+- WMCreateDeviceRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

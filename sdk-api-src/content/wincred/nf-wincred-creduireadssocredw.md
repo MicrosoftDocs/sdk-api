@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredUIReadSSOCredW
 title: CredUIReadSSOCredW function (wincred.h)
-
 description: The CredUIReadSSOCredW function retrieves the user name for a single logon credential.
 old-location: security\creduireadssocredw.htm
 tech.root: SecAuthN
 ms.assetid: 875be45d-ad33-4a51-80ad-8217ca0446dc
-
 ms.date: 12/05/2018
 ms.keywords: CredUIReadSSOCredW, CredUIReadSSOCredW function [Security], security.creduireadssocredw, wincred/CredUIReadSSOCredW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUIReadSSOCredW"
+f1_keywords:
+- wincred/CredUIReadSSOCredW
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - CredUIReadSSOCredW
+- CredUIReadSSOCredW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReference.GetPartName
 title: IOpcSignaturePartReference::GetPartName (msopc.h)
-
 description: Gets the part name of the referenced part.
 old-location: opc\iopcsignaturepartreference_getpartname.htm
 tech.root: OPC
 ms.assetid: bf34361f-da74-4785-8e5b-8b9caf809a41
-
 ms.date: 12/05/2018
 ms.keywords: GetPartName, GetPartName method [Open Packaging Conventions], GetPartName method [Open Packaging Conventions],IOpcSignaturePartReference interface, IOpcSignaturePartReference interface [Open Packaging Conventions],GetPartName method, IOpcSignaturePartReference.GetPartName, IOpcSignaturePartReference::GetPartName, msopc/IOpcSignaturePartReference::GetPartName, opc.iopcsignaturepartreference_getpartname
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignaturePartReference.GetPartName"
+f1_keywords:
+- msopc/IOpcSignaturePartReference.GetPartName
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReference.GetPartName
+- IOpcSignaturePartReference.GetPartName
 targetos: Windows
 req.typenames: 
 req.redist: 

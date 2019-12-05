@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsLunControllerPorts.AssociateControllerPorts
 title: IVdsLunControllerPorts::AssociateControllerPorts (vds.h)
-
 description: Sets the subsystem controller ports to active or inactive with respect to the LUN. This method replaces IVdsLun::AssociateControllers.
 old-location: base\ivdsluncontrollerports_associatecontrollerports.htm
 tech.root: VDS
 ms.assetid: 3b889cb7-92e4-4c18-b9b9-768865895595
-
 ms.date: 12/05/2018
 ms.keywords: AssociateControllerPorts, AssociateControllerPorts method [VDS], AssociateControllerPorts method [VDS],IVdsLunControllerPorts interface, IVdsLunControllerPorts interface [VDS],AssociateControllerPorts method, IVdsLunControllerPorts.AssociateControllerPorts, IVdsLunControllerPorts::AssociateControllerPorts, base.ivdsluncontrollerports_associatecontrollerports, vds/IVdsLunControllerPorts::AssociateControllerPorts, vdshwprv/IVdsLunControllerPorts::AssociateControllerPorts
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsLunControllerPorts.AssociateControllerPorts"
+f1_keywords:
+- vds/IVdsLunControllerPorts.AssociateControllerPorts
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - IVdsLunControllerPorts.AssociateControllerPorts
+- IVdsLunControllerPorts.AssociateControllerPorts
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

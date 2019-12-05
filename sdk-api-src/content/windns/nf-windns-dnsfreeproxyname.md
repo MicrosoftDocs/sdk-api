@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsFreeProxyName
 title: DnsFreeProxyName function (windns.h)
-
 description: Frees memory allocated for the proxyName member of a DNS_PROXY_INFORMATION structure obtained using the DnsGetProxyInformation function.
 old-location: dns\dnsfreeproxyname.htm
 tech.root: DNS
 ms.assetid: 4c69d548-3bb5-4609-9fc5-3a829a285956
-
 ms.date: 12/05/2018
 ms.keywords: DnsFreeProxyName, DnsFreeProxyName function [DNS], dns.dnsfreeproxyname, windns/DnsFreeProxyName
 ms.topic: function
-f1_keywords: 
- - "windns/DnsFreeProxyName"
+f1_keywords:
+- windns/DnsFreeProxyName
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsFreeProxyName
+- DnsFreeProxyName
 targetos: Windows
 req.typenames: 
 req.redist: 

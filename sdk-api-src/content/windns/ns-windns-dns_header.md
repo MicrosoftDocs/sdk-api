@@ -1,19 +1,17 @@
 ---
 UID: NS:windns._DNS_HEADER
 title: DNS_HEADER (windns.h)
-
 description: The DNS_HEADER structure contains DNS header information used when sending DNS messages as specified in section 4.1.1 of RFC 1035.
 old-location: dns\dns_header.htm
 tech.root: DNS
 ms.assetid: e5bf19a1-4c71-482d-a075-1e149f94505b
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_HEADER, *PDNS_HEADER structure [DNS], DNS_HEADER, DNS_HEADER structure [DNS], dns.dns_header, windns/*PDNS_HEADER, windns/DNS_HEADER"
+ms.keywords: '*PDNS_HEADER, *PDNS_HEADER structure [DNS], DNS_HEADER, DNS_HEADER structure [DNS], dns.dns_header, windns/*PDNS_HEADER, windns/DNS_HEADER'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_HEADER"
+f1_keywords:
+- windns/DNS_HEADER
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_HEADER
+- DNS_HEADER
 targetos: Windows
 req.typenames: DNS_HEADER, *PDNS_HEADER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 title: IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent (uiautomationclient.h)
-
 description: Handles an event that is raised when a Microsoft UI Automation provider for a text-edit control reports a programmatic text change.
 old-location: winauto\uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent.htm
 tech.root: WinAuto
 ms.assetid: FA63086A-40C5-BE7B-DC4E-2C8547636AE8
-
 ms.date: 12/05/2018
 ms.keywords: HandleTextEditTextChangedEvent, HandleTextEditTextChangedEvent method [Windows Accessibility], HandleTextEditTextChangedEvent method [Windows Accessibility],IUIAutomationTextEditTextChangedEventHandler interface, IUIAutomationTextEditTextChangedEventHandler interface [Windows Accessibility],HandleTextEditTextChangedEvent method, IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent, IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, uiautomationclient/IUIAutomationTextEditTextChangedEventHandler::HandleTextEditTextChangedEvent, winauto.uiauto_IUIAutomationTextEditTextChangedEventHandler_HandleTextEditTextChangedEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
+- IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

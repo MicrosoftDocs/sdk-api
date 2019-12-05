@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemObjectAccess.WritePropertyValue
 title: IWbemObjectAccess::WritePropertyValue (wbemcli.h)
-
 description: The WritePropertyValue method writes a specified number of bytes to a property identified by a property handle. Use this method to set string and all other non-DWORD or non-QWORD data.
 old-location: wmi\iwbemobjectaccess_writepropertyvalue.htm
 tech.root: WmiSdk
 ms.assetid: 2ac2b8b0-8b69-4f01-8017-ace82a382f40
-
 ms.date: 12/05/2018
 ms.keywords: IWbemObjectAccess interface [Windows Management Instrumentation],WritePropertyValue method, IWbemObjectAccess.WritePropertyValue, IWbemObjectAccess::WritePropertyValue, WritePropertyValue, WritePropertyValue method [Windows Management Instrumentation], WritePropertyValue method [Windows Management Instrumentation],IWbemObjectAccess interface, _hmm_iwbemobjectaccess_writepropertyvalue, wbemcli/IWbemObjectAccess::WritePropertyValue, wmi.iwbemobjectaccess_writepropertyvalue
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemObjectAccess.WritePropertyValue"
+f1_keywords:
+- wbemcli/IWbemObjectAccess.WritePropertyValue
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wbemuuid.lib
 req.dll: Esscli.dll; Fastprox.dll; Wbemess.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Esscli.dll
- - Fastprox.dll
- - Wbemess.dll
+- Esscli.dll
+- Fastprox.dll
+- Wbemess.dll
 api_name:
- - IWbemObjectAccess.WritePropertyValue
+- IWbemObjectAccess.WritePropertyValue
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskService.get_Connected
 title: ITaskService::get_Connected (taskschd.h)
-
 description: Gets a Boolean value that indicates if you are connected to the Task Scheduler service.
 old-location: taskschd\itaskservice_connected.htm
 tech.root: taskschd
 ms.assetid: 51450195-f11a-469a-a98f-4d1e00343e41
-
 ms.date: 12/05/2018
 ms.keywords: Connected property [Task Scheduler], Connected property [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connected property, ITaskService.Connected, ITaskService.get_Connected, ITaskService::Connected, ITaskService::get_Connected, get_Connected, taskschd.itaskservice_connected, taskschd/ITaskService::Connected, taskschd/ITaskService::get_Connected
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskService.Connected"
+f1_keywords:
+- taskschd/ITaskService.Connected
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskService.Connected
- - ITaskService.get_Connected
+- ITaskService.Connected
+- ITaskService.get_Connected
 targetos: Windows
 req.typenames: 
 req.redist: 

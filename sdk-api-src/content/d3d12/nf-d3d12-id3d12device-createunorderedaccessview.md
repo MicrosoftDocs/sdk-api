@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateUnorderedAccessView
 title: ID3D12Device::CreateUnorderedAccessView (d3d12.h)
-
 description: Creates a view for unordered accessing.
 old-location: direct3d12\id3d12device_createunorderedaccessview.htm
 tech.root: direct3d12
 ms.assetid: E834E469-2958-44A9-978F-F42D6BB6B1DC
-
 ms.date: 12/05/2018
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView method, CreateUnorderedAccessView method,ID3D12Device interface, ID3D12Device interface,CreateUnorderedAccessView method, ID3D12Device.CreateUnorderedAccessView, ID3D12Device::CreateUnorderedAccessView, d3d12/ID3D12Device::CreateUnorderedAccessView, direct3d12.id3d12device_createunorderedaccessview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CreateUnorderedAccessView"
+f1_keywords:
+- d3d12/ID3D12Device.CreateUnorderedAccessView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CreateUnorderedAccessView
+- ID3D12Device.CreateUnorderedAccessView
 targetos: Windows
 req.typenames: 
 req.redist: 

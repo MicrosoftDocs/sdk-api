@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkExtendedProperties
 title: IInkExtendedProperties (msinkaut.h)
-
 description: Represents a collection of IInkExtendedProperty objects that contain application-defined data.
 old-location: tablet\iinkextendedproperties.htm
 tech.root: tablet
 ms.assetid: c7b7f40f-0c28-4848-83d6-d5db73eef998
-
 ms.date: 12/05/2018
 ms.keywords: IInkExtendedProperties, IInkExtendedProperties interface [Tablet PC], IInkExtendedProperties interface [Tablet PC],described, c7b7f40f-0c28-4848-83d6-d5db73eef998, msinkaut/IInkExtendedProperties, tablet.iinkextendedproperties
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkExtendedProperties"
+f1_keywords:
+- msinkaut/IInkExtendedProperties
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkExtendedProperties
- - IInkExtendedProperties._NewEnum
+- IInkExtendedProperties
+- IInkExtendedProperties._NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

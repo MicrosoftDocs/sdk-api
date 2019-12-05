@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_List_Size_ExW
 title: CM_Get_Device_ID_List_Size_ExW function (cfgmgr32.h)
-
 description: The CM_Get_Device_ID_List_Size_Ex function retrieves the buffer size required to hold a list of device instance IDs for a local or a remote machine's device instances.
 old-location: devinst\cm_get_device_id_list_size_ex.htm
 tech.root: devinst
 ms.assetid: ed89ff61-c92b-4841-9038-3c26d8594aee
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_List_Size_Ex, CM_Get_Device_ID_List_Size_Ex function [Device and Driver Installation], CM_Get_Device_ID_List_Size_ExW, cfgmgr32/CM_Get_Device_ID_List_Size_Ex, cfgmgr32/CM_Get_Device_ID_List_Size_ExW, cfgmgrfn_2e9a6787-1578-48c1-9f3b-5d1ee266f9ac.xml, devinst.cm_get_device_id_list_size_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_ID_List_Size_Ex"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_ID_List_Size_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Device_ID_List_Size_Ex
- - CM_Get_Device_ID_List_Size_ExW
+- CM_Get_Device_ID_List_Size_Ex
+- CM_Get_Device_ID_List_Size_ExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.NavigateToPidl
 title: IBrowserService::NavigateToPidl (shdeprecated.h)
-
 description: Deprecated. Navigates the browser to the location indicated by a pointer to an item identifier list (PIDL).
 old-location: shell\IBrowserService_NavigateToPidl.htm
 tech.root: shell
 ms.assetid: eb329a61-1c1a-49c6-9d5e-ccfc7fd8b10c
-
 ms.date: 12/05/2018
 ms.keywords: HLNF_ALLOW_AUTONAVIGATE, HLNF_CALLERUNTRUSTED, HLNF_DISABLEWINDOWRESTRICTIONS, HLNF_EXTERNALNAVIGATE, HLNF_NAVIGATINGBACK, HLNF_NAVIGATINGFORWARD, HLNF_NEWWINDOWSMANAGED, HLNF_TRUSTEDFORACTIVEX, HLNF_TRUSTFIRSTDOWNLOAD, HLNF_UNTRUSTEDFORDOWNLOAD, IBrowserService interface [Windows Shell],NavigateToPidl method, IBrowserService.NavigateToPidl, IBrowserService::NavigateToPidl, NavigateToPidl, NavigateToPidl method [Windows Shell], NavigateToPidl method [Windows Shell],IBrowserService interface, SHHLNF_NOAUTOSELECT, SHHLNF_WRITENOHISTORY, shdeprecated/IBrowserService::NavigateToPidl, shell.IBrowserService_NavigateToPidl, zone_IBrowserService_NavigateToPidl
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.NavigateToPidl"
+f1_keywords:
+- shdeprecated/IBrowserService.NavigateToPidl
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.NavigateToPidl
+- IBrowserService.NavigateToPidl
 targetos: Windows
 req.typenames: 
 req.redist: 

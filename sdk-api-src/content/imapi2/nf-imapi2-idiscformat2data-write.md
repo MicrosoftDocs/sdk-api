@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.Write
 title: IDiscFormat2Data::Write (imapi2.h)
-
 description: Writes the data stream to the device.
 old-location: imapi\idiscformat2data_write.htm
 tech.root: imapi
 ms.assetid: 9daf31f3-84c2-48b2-ab21-a3809b6ed9af
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2Data interface [IMAPI],Write method, IDiscFormat2Data.Write, IDiscFormat2Data::Write, Write, Write method [IMAPI], Write method [IMAPI],IDiscFormat2Data interface, imapi.idiscformat2data_write, imapi2/IDiscFormat2Data::Write
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2Data.Write"
+f1_keywords:
+- imapi2/IDiscFormat2Data.Write
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2Data.Write
+- IDiscFormat2Data.Write
 targetos: Windows
 req.typenames: 
 req.redist: 

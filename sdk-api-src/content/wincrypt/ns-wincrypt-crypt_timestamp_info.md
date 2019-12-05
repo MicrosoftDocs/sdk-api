@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_TIMESTAMP_INFO
 title: CRYPT_TIMESTAMP_INFO (wincrypt.h)
-
 description: Contains a signed data content type in Cryptographic Message Syntax (CMS) format.
 old-location: security\crypt_timestamp_info.htm
 tech.root: SecCrypto
 ms.assetid: 05ca0877-5e9d-4b21-9fca-a1eef2cb4626
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO, CRYPT_TIMESTAMP_INFO structure [Security], PCRYPT_TIMESTAMP_INFO, PCRYPT_TIMESTAMP_INFO structure pointer [Security], TIMESTAMP_VERSION, security.crypt_timestamp_info, wincrypt/CRYPT_TIMESTAMP_INFO, wincrypt/PCRYPT_TIMESTAMP_INFO'
 ms.topic: struct
 f1_keywords:
 - wincrypt/CRYPT_TIMESTAMP_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

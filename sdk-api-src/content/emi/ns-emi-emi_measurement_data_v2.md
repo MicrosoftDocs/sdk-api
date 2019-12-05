@@ -1,19 +1,17 @@
 ---
 UID: NS:emi.__unnamed_struct_6
 title: EMI_MEASUREMENT_DATA_V2 (emi.h)
-
 description: The EMI_MEASUREMENT_DATA_V2 structure provides data about the current energy measurement data for all channels of an EMI_VERSION_V2 device.
 old-location: powermeter\emi_measurement_data_v2.htm
 tech.root: powermeter
 ms.assetid: 18715936-7401-4F32-AD80-8AE5575AECA7
-
 ms.date: 12/05/2018
 ms.keywords: EMI_MEASUREMENT_DATA_V2, EMI_MEASUREMENT_DATA_V2 structure [Power Metering and Budgeting Devices], emi/EMI_MEASUREMENT_DATA_V2, powermeter.emi_measurement_data_v2
 ms.topic: struct
-f1_keywords: 
- - "emi/EMI_MEASUREMENT_DATA_V2"
+f1_keywords:
+- emi/EMI_MEASUREMENT_DATA_V2
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - EMI_MEASUREMENT_DATA_V2
+- EMI_MEASUREMENT_DATA_V2
 targetos: Windows
 req.typenames: EMI_MEASUREMENT_DATA_V2
 req.redist: 

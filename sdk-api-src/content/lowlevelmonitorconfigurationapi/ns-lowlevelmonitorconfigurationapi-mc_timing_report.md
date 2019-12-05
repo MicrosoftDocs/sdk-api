@@ -1,19 +1,17 @@
 ---
 UID: NS:lowlevelmonitorconfigurationapi._MC_TIMING_REPORT
 title: MC_TIMING_REPORT (lowlevelmonitorconfigurationapi.h)
-
 description: Contains information from a monitor's timing report.
 old-location: monitor\mc_timing_report.htm
 tech.root: Monitor
 ms.assetid: dfad2277-4f0d-4a92-a332-2c6c2bbac138
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMC_TIMING_REPORT, LPMC_TIMING_REPORT, LPMC_TIMING_REPORT structure pointer [Monitor Configuration], MC_TIMING_REPORT, MC_TIMING_REPORT structure [Monitor Configuration], lowlevelmonitorconfigurationapi/LPMC_TIMING_REPORT, lowlevelmonitorconfigurationapi/MC_TIMING_REPORT, monitor.mc_timing_report"
+ms.keywords: '*LPMC_TIMING_REPORT, LPMC_TIMING_REPORT, LPMC_TIMING_REPORT structure pointer [Monitor Configuration], MC_TIMING_REPORT, MC_TIMING_REPORT structure [Monitor Configuration], lowlevelmonitorconfigurationapi/LPMC_TIMING_REPORT, lowlevelmonitorconfigurationapi/MC_TIMING_REPORT, monitor.mc_timing_report'
 ms.topic: struct
-f1_keywords: 
- - "lowlevelmonitorconfigurationapi/MC_TIMING_REPORT"
+f1_keywords:
+- lowlevelmonitorconfigurationapi/MC_TIMING_REPORT
 dev_langs:
- - c++
+- c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LowLevelMonitorConfigurationAPI.h
+- LowLevelMonitorConfigurationAPI.h
 api_name:
- - MC_TIMING_REPORT
+- MC_TIMING_REPORT
 targetos: Windows
 req.typenames: MC_TIMING_REPORT, *LPMC_TIMING_REPORT
 req.redist: 

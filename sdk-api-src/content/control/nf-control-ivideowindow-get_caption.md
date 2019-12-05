@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_Caption
 title: IVideoWindow::get_Caption (control.h)
-
 description: The get_Caption method retrieves the video window caption.
 old-location: dshow\ivideowindow_get_caption.htm
 tech.root: DirectShow
 ms.assetid: fbb42e55-1be1-4931-869b-9e8d4af5e6df
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Caption method, IVideoWindow.get_Caption, IVideoWindow::get_Caption, IVideoWindowget_Caption, control/IVideoWindow::get_Caption, dshow.ivideowindow_get_caption, get_Caption, get_Caption method [DirectShow], get_Caption method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_Caption"
+f1_keywords:
+- control/IVideoWindow.get_Caption
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_Caption
+- IVideoWindow.get_Caption
 targetos: Windows
 req.typenames: 
 req.redist: 

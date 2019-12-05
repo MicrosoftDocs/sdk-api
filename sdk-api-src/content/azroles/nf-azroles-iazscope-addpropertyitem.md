@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScope.AddPropertyItem
 title: IAzScope::AddPropertyItem (azroles.h)
-
 description: Adds the specified principal to the specified list of principals.
 old-location: security\iazscope_addpropertyitem.htm
 tech.root: SecAuthZ
 ms.assetid: 5170079b-9ea6-417c-87f2-bb8835225911
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_POLICY_ADMINS, AZ_PROP_POLICY_ADMINS_NAME, AZ_PROP_POLICY_READERS, AZ_PROP_POLICY_READERS_NAME, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzScope object, AddPropertyItem method [Security],IAzScope interface, AzScope object [Security],AddPropertyItem method, IAzScope interface [Security],AddPropertyItem method, IAzScope.AddPropertyItem, IAzScope::AddPropertyItem, azroles/IAzScope::AddPropertyItem, security.iazscope_addpropertyitem
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScope.AddPropertyItem"
+f1_keywords:
+- azroles/IAzScope.AddPropertyItem
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScope.AddPropertyItem
- - AzScope.AddPropertyItem
+- IAzScope.AddPropertyItem
+- AzScope.AddPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

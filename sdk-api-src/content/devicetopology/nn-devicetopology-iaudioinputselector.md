@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IAudioInputSelector
 title: IAudioInputSelector (devicetopology.h)
-
 description: The IAudioInputSelector interface provides access to a hardware multiplexer control (input selector).
 old-location: coreaudio\iaudioinputselector.htm
 tech.root: CoreAudio
 ms.assetid: 6f5ce9c0-39e4-4fab-910c-9a11b90fcde7
-
 ms.date: 12/05/2018
 ms.keywords: IAudioInputSelector, IAudioInputSelector interface [Core Audio], IAudioInputSelector interface [Core Audio],described, coreaudio.iaudioinputselector, devicetopology/IAudioInputSelector
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IAudioInputSelector"
+f1_keywords:
+- devicetopology/IAudioInputSelector
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioInputSelector
+- IAudioInputSelector
 targetos: Windows
 req.typenames: 
 req.redist: 

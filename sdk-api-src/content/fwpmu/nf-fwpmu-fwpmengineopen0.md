@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmEngineOpen0
 title: FwpmEngineOpen0 function (fwpmu.h)
-
 description: Opens a session to the filter engine.
 old-location: fwp\fwpmengineopen0_func.htm
 tech.root: fwp
 ms.assetid: 5165f219-f3e0-4e84-915b-75912aab02b7
-
 ms.date: 12/05/2018
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Filtering], fwp.fwpmengineopen0_func, fwpmu/FwpmEngineOpen0
 ms.topic: function
 f1_keywords:
 - fwpmu/FwpmEngineOpen0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows

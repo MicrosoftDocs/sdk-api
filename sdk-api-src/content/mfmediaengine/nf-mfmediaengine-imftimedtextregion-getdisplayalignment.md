@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetDisplayAlignment
 title: IMFTimedTextRegion::GetDisplayAlignment (mfmediaengine.h)
-
 description: Gets the display alignment of the region.
 old-location: mf\imftimedtextregion_getdisplayalignment.htm
 tech.root: medfound
 ms.assetid: CE2A9014-5510-4648-85F8-4A64C04C9F0C
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayAlignment, GetDisplayAlignment method [Media Foundation], GetDisplayAlignment method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetDisplayAlignment method, IMFTimedTextRegion.GetDisplayAlignment, IMFTimedTextRegion::GetDisplayAlignment, mf.imftimedtextregion_getdisplayalignment, mfmediaengine/IMFTimedTextRegion::GetDisplayAlignment
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetDisplayAlignment"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetDisplayAlignment
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetDisplayAlignment
+- IMFTimedTextRegion.GetDisplayAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

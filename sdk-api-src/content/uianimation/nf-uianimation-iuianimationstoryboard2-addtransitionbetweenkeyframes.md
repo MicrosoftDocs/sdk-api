@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
 title: IUIAnimationStoryboard2::AddTransitionBetweenKeyframes (uianimation.h)
-
 description: Adds a transition between two keyframes.
 old-location: uianimation\iuianimationstoryboard2_addtransitionbetweenkeyframes.htm
 tech.root: UIAnimation
 ms.assetid: 55AEA5EA-7D9E-4669-8315-7A6F4428EDF9
-
 ms.date: 12/05/2018
 ms.keywords: AddTransitionBetweenKeyframes, AddTransitionBetweenKeyframes method [Windows Animation], AddTransitionBetweenKeyframes method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],AddTransitionBetweenKeyframes method, IUIAnimationStoryboard2.AddTransitionBetweenKeyframes, IUIAnimationStoryboard2::AddTransitionBetweenKeyframes, uianimation.iuianimationstoryboard2_addtransitionbetweenkeyframes, uianimation/IUIAnimationStoryboard2::AddTransitionBetweenKeyframes
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard2.AddTransitionBetweenKeyframes"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
+- IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
 targetos: Windows
 req.typenames: 
 req.redist: 

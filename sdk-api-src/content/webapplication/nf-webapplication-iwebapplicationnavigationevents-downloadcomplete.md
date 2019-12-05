@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DownloadComplete
 title: IWebApplicationNavigationEvents::DownloadComplete (webapplication.h)
-
 description: Download of a page has completed.
 old-location: debug\iwebapplicationnavigationevents_downloadcomplete.htm
 tech.root: debug_wwahost
 ms.assetid: a787ae3b-060a-4a7e-b980-e33d3d6b2a01
-
 ms.date: 12/05/2018
 ms.keywords: DownloadComplete, DownloadComplete method [Debugging Windows Store apps], DownloadComplete method [Debugging Windows Store apps],IWebApplicationNavigationEvents interface, IWebApplicationNavigationEvents interface [Debugging Windows Store apps],DownloadComplete method, IWebApplicationNavigationEvents.DownloadComplete, IWebApplicationNavigationEvents::DownloadComplete, debug.iwebapplicationnavigationevents_downloadcomplete, webapplication/IWebApplicationNavigationEvents::DownloadComplete
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationNavigationEvents.DownloadComplete"
+f1_keywords:
+- webapplication/IWebApplicationNavigationEvents.DownloadComplete
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationNavigationEvents.DownloadComplete
+- IWebApplicationNavigationEvents.DownloadComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

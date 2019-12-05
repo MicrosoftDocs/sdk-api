@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixAffineTransformation
 title: XMMatrixAffineTransformation function (directxmath.h)
-
 description: Builds an affine transformation matrix.
 old-location: dxmath\xmmatrixaffinetransformation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixAffineTransformation(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixAffineTransformation, XMMatrixAffineTransformation, XMMatrixAffineTransformation method [DirectX Math Support APIs], dxmath.xmmatrixaffinetransformation
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixAffineTransformation"
+f1_keywords:
+- directxmath/XMMatrixAffineTransformation
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixAffineTransformation
+- XMMatrixAffineTransformation
 targetos: Windows
 req.typenames: 
 req.redist: 

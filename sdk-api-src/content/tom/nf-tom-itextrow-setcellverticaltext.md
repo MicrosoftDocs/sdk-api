@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.SetCellVerticalText
 title: ITextRow::SetCellVerticalText (tom.h)
-
 description: Sets the vertical-text setting of the active cell.
 old-location: controls\itextrow_setcellverticaltext.htm
 tech.root: Controls
 ms.assetid: aa4c60c0-9c8f-4743-aff6-b87134ba2dd0
-
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellVerticalText method, ITextRow.SetCellVerticalText, ITextRow::SetCellVerticalText, SetCellVerticalText, SetCellVerticalText method [Windows Controls], SetCellVerticalText method [Windows Controls],ITextRow interface, controls.itextrow_setcellverticaltext, tom/ITextRow::SetCellVerticalText
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.SetCellVerticalText"
+f1_keywords:
+- tom/ITextRow.SetCellVerticalText
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.SetCellVerticalText
+- ITextRow.SetCellVerticalText
 targetos: Windows
 req.typenames: 
 req.redist: 

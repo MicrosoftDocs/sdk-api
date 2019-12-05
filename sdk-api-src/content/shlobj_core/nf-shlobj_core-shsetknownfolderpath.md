@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHSetKnownFolderPath
 title: SHSetKnownFolderPath function (shlobj_core.h)
-
 description: Redirects a known folder to a new location.
 old-location: shell\SHSetKnownFolderPath.htm
 tech.root: shell
 ms.assetid: b5758086-93d1-49d6-b9ac-ba8927f3bd1e
-
 ms.date: 12/05/2018
 ms.keywords: KF_FLAG_DONT_UNEXPAND, SHSetKnownFolderPath, SHSetKnownFolderPath function [Windows Shell], _shell_SHSetKnownFolderPath, shell.SHSetKnownFolderPath, shlobj_core/SHSetKnownFolderPath
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHSetKnownFolderPath"
+f1_keywords:
+- shlobj_core/SHSetKnownFolderPath
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: Shell32.dll (version 6.0.6000 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- Windows.Storage.dll
 api_name:
- - SHSetKnownFolderPath
+- SHSetKnownFolderPath
 targetos: Windows
 req.typenames: 
 req.redist: 

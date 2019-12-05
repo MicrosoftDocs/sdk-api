@@ -1,19 +1,17 @@
 ---
 UID: NN:icontact.IContactPropertyCollection
 title: IContactPropertyCollection (icontact.h)
-
 description: Do not use. Used to filter contact data, based on a label or property set. Enumerates contact properties exposed with an IContactProperties object. For each property, the name, type, version, and modification date can be retrieved.
 old-location: wincontacts\_wincontacts_IContactPropertyCollection.htm
 tech.root: wincontacts
 ms.assetid: dec9430d-2174-42fe-85c1-16fa7e7adc0c
-
 ms.date: 12/05/2018
 ms.keywords: IContactPropertyCollection, IContactPropertyCollection interface [Windows Contacts], IContactPropertyCollection interface [Windows Contacts],described, _wincontacts_IContactPropertyCollection, icontact/IContactPropertyCollection, wincontacts._wincontacts_IContactPropertyCollection
 ms.topic: interface
-f1_keywords: 
- - "icontact/IContactPropertyCollection"
+f1_keywords:
+- icontact/IContactPropertyCollection
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactPropertyCollection
+- IContactPropertyCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

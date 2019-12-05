@@ -1,19 +1,17 @@
 ---
 UID: NN:mdhcp.IMcastLeaseInfo
 title: IMcastLeaseInfo (mdhcp.h)
-
 description: The IMcastLeaseInfo interface exposes methods that can get or set information concerning a multicast address allocation. The IMcastLease object is created by calling IMcastAddressAllocation::CreateLeaseInfo.
 old-location: tapi3\imcastleaseinfo.htm
 tech.root: Tapi
 ms.assetid: a4ad8009-559e-4db9-9ae2-28e4d36cf346
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo, IMcastLeaseInfo interface [TAPI 2.2], IMcastLeaseInfo interface [TAPI 2.2],described, _tapi3_imcastleaseinfo, mdhcp/IMcastLeaseInfo, tapi3.imcastleaseinfo
 ms.topic: interface
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo
+- IMcastLeaseInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

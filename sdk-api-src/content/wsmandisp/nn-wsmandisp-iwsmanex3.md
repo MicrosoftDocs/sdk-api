@@ -1,19 +1,17 @@
 ---
 UID: NN:wsmandisp.IWSManEx3
 title: IWSManEx3 (wsmandisp.h)
-
 description: Extends the methods and properties of the IWSManEx interface to include a method that returns a session flag value related to authentication using the Credential Security Support Provider (CredSSP).
 old-location: winrm\iwsmanex3.htm
 tech.root: winrm
 ms.assetid: 6d362cdf-0f77-446a-8df9-1d38eca853a2
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx3, IWSManEx3 interface [Windows Remote Management], IWSManEx3 interface [Windows Remote Management],described, winrm.iwsmanex3, wsmandisp/IWSManEx3
 ms.topic: interface
-f1_keywords: 
- - "wsmandisp/IWSManEx3"
+f1_keywords:
+- wsmandisp/IWSManEx3
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx3
+- IWSManEx3
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

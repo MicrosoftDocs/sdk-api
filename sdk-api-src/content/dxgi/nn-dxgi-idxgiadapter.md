@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGIAdapter
 title: IDXGIAdapter (dxgi.h)
-
 description: The IDXGIAdapter interface represents a display subsystem (including one or more GPUs, DACs and video memory).
 old-location: direct3ddxgi\idxgiadapter.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiadapter.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5f145307-fa6f-0182-45d3-5fa9da029cf2, IDXGIAdapter, IDXGIAdapter interface [DXGI], IDXGIAdapter interface [DXGI],described, direct3ddxgi.idxgiadapter, dxgi/IDXGIAdapter
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGIAdapter"
+f1_keywords:
+- dxgi/IDXGIAdapter
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIAdapter
+- IDXGIAdapter
 targetos: Windows
 req.typenames: 
 req.redist: 

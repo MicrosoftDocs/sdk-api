@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.GetBottom
 title: Rect::GetBottom (gdiplustypes.h)
-
 description: The Rect::GetBottom method gets the y-coordinate of the bottom edge of the rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_GetBottom_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\getbottom.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBottom, GetBottom method [GDI+], GetBottom method [GDI+],Rect class, Rect class [GDI+],GetBottom method, Rect.GetBottom, Rect::GetBottom, _gdiplus_CLASS_Rect_GetBottom_, gdiplus._gdiplus_CLASS_Rect_GetBottom_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.GetBottom"
+f1_keywords:
+- gdiplustypes/Rect.GetBottom
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.GetBottom
+- Rect.GetBottom
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplustypes.RectF
 title: RectF (gdiplustypes.h)
-
 description: A RectF object stores the upper-left corner, width, and height of a rectangle.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectf.htm
-
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF class [GDI+], RectF class [GDI+],described, _gdiplus_CLASS_RectF_Class, gdiplus._gdiplus_CLASS_RectF_Class, gdiplustypes/RectF
 ms.topic: class
-f1_keywords: 
- - "gdiplustypes/RectF"
+f1_keywords:
+- gdiplustypes/RectF
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdiplustypes.h
+- gdiplustypes.h
 api_name:
- - RectF
+- RectF
 targetos: Windows
 req.typenames: 
 req.redist: 

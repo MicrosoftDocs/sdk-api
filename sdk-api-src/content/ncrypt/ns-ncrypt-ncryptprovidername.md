@@ -1,19 +1,17 @@
 ---
 UID: NS:ncrypt.NCryptProviderName
 title: NCryptProviderName (ncrypt.h)
-
 description: Used to contain the name of a CNG key storage provider.
 old-location: security\ncryptprovidername_struct.htm
 tech.root: SecCNG
 ms.assetid: 21d8bf28-ee3f-4036-b3b0-d9c68cb14fa9
-
 ms.date: 12/05/2018
 ms.keywords: NCryptProviderName, NCryptProviderName structure [Security], ncrypt/NCryptProviderName, security.ncryptprovidername_struct
 ms.topic: struct
-f1_keywords: 
- - "ncrypt/NCryptProviderName"
+f1_keywords:
+- ncrypt/NCryptProviderName
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ncrypt.h
+- Ncrypt.h
 api_name:
- - NCryptProviderName
+- NCryptProviderName
 targetos: Windows
 req.typenames: NCryptProviderName
 req.redist: 

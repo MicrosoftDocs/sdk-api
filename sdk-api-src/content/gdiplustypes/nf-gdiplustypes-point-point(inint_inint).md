@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Point.Point(IN INT,IN INT)
 title: Point::Point(IN INT,IN INT) (gdiplustypes.h)
-
 description: Creates a Point object using two integers to initialize the X and Y data members.
 old-location: gdiplus\_gdiplus_CLASS_Point_Point_x_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointconstructors\point_85x_y.htm
-
 ms.date: 12/05/2018
 ms.keywords: Point, Point class [GDI+],Point constructor, Point constructor [GDI+], Point constructor [GDI+],Point class, Point.Point, Point.Point(IN INT,IN INT), Point.Point(INT,INT), Point::Point, Point::Point(IN INT,IN INT), _gdiplus_CLASS_Point_Point_x_y_, gdiplus._gdiplus_CLASS_Point_Point_x_y_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Point.Point"
+f1_keywords:
+- gdiplustypes/Point.Point
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Point.Point
+- Point.Point
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetUmsCompletionListEvent
 title: GetUmsCompletionListEvent function (winbase.h)
-
 description: Retrieves a handle to the event associated with the specified user-mode scheduling (UMS) completion list.
 old-location: base\getumscompletionlistevent.htm
 tech.root: ProcThread
 ms.assetid: 393f6e0a-fbea-4aa0-9c18-f96da18e61e9
-
 ms.date: 12/05/2018
 ms.keywords: GetUmsCompletionListEvent, GetUmsCompletionListEvent function, base.getumscompletionlistevent, winbase/GetUmsCompletionListEvent
 ms.topic: function
-f1_keywords: 
- - "winbase/GetUmsCompletionListEvent"
+f1_keywords:
+- winbase/GetUmsCompletionListEvent
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-ums-l1-1-0.dll
+- kernel32.dll
+- API-MS-Win-Core-ums-l1-1-0.dll
 api_name:
- - GetUmsCompletionListEvent
+- GetUmsCompletionListEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

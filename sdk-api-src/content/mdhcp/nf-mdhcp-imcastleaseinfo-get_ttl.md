@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_TTL
 title: IMcastLeaseInfo::get_TTL (mdhcp.h)
-
 description: The get_TTL method obtains the time to live (TTL) value associated with this lease.
 old-location: tapi3\imcastleaseinfo_get_ttl.htm
 tech.root: Tapi
 ms.assetid: 393b9d6c-430c-42f8-88fa-4bf5c9c04c1f
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_TTL method, IMcastLeaseInfo.get_TTL, IMcastLeaseInfo::get_TTL, _tapi3_imcastleaseinfo_get_ttl, get_TTL, get_TTL method [TAPI 2.2], get_TTL method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_TTL, tapi3.imcastleaseinfo_get_ttl
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo.get_TTL"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo.get_TTL
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_TTL
+- IMcastLeaseInfo.get_TTL
 targetos: Windows
 req.typenames: 
 req.redist: 

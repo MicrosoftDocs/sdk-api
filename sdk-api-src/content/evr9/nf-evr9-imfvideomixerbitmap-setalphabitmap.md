@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IMFVideoMixerBitmap.SetAlphaBitmap
 title: IMFVideoMixerBitmap::SetAlphaBitmap (evr9.h)
-
 description: Sets a bitmap image for the enhanced video renderer (EVR) to alpha-blend with the video.
 old-location: mf\imfvideomixerbitmap_setalphabitmap.htm
 tech.root: medfound
 ms.assetid: a70e6734-bf49-4dea-8bf6-917b8465cc78
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoMixerBitmap interface [Media Foundation],SetAlphaBitmap method, IMFVideoMixerBitmap.SetAlphaBitmap, IMFVideoMixerBitmap::SetAlphaBitmap, SetAlphaBitmap, SetAlphaBitmap method [Media Foundation], SetAlphaBitmap method [Media Foundation],IMFVideoMixerBitmap interface, a70e6734-bf49-4dea-8bf6-917b8465cc78, evr9/IMFVideoMixerBitmap::SetAlphaBitmap, mf.imfvideomixerbitmap_setalphabitmap
 ms.topic: method
-f1_keywords: 
- - "evr9/IMFVideoMixerBitmap.SetAlphaBitmap"
+f1_keywords:
+- evr9/IMFVideoMixerBitmap.SetAlphaBitmap
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoMixerBitmap.SetAlphaBitmap
+- IMFVideoMixerBitmap.SetAlphaBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

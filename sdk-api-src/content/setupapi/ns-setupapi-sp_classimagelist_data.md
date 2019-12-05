@@ -1,19 +1,17 @@
 ---
 UID: NS:setupapi._SP_CLASSIMAGELIST_DATA
 title: SP_CLASSIMAGELIST_DATA (setupapi.h)
-
 description: An SP_CLASSIMAGELIST_DATA structure describes a class image list.
 old-location: devinst\sp_classimagelist_data.htm
 tech.root: devinst
 ms.assetid: 89ed9dbd-3c5e-43ff-bbd0-fd6cc8c6e6ab
-
 ms.date: 12/05/2018
-ms.keywords: "*PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA structure pointer [Device and Driver Installation], SP_CLASSIMAGELIST_DATA, SP_CLASSIMAGELIST_DATA structure [Device and Driver Installation], devinst.sp_classimagelist_data, di-struct_2d2e73bd-5f18-49d1-96ad-639bc0ad658e.xml, setupapi/PSP_CLASSIMAGELIST_DATA, setupapi/SP_CLASSIMAGELIST_DATA"
+ms.keywords: '*PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA, PSP_CLASSIMAGELIST_DATA structure pointer [Device and Driver Installation], SP_CLASSIMAGELIST_DATA, SP_CLASSIMAGELIST_DATA structure [Device and Driver Installation], devinst.sp_classimagelist_data, di-struct_2d2e73bd-5f18-49d1-96ad-639bc0ad658e.xml, setupapi/PSP_CLASSIMAGELIST_DATA, setupapi/SP_CLASSIMAGELIST_DATA'
 ms.topic: struct
-f1_keywords: 
- - "setupapi/SP_CLASSIMAGELIST_DATA"
+f1_keywords:
+- setupapi/SP_CLASSIMAGELIST_DATA
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - setupapi.h
+- setupapi.h
 api_name:
- - SP_CLASSIMAGELIST_DATA
+- SP_CLASSIMAGELIST_DATA
 targetos: Windows
 req.typenames: SP_CLASSIMAGELIST_DATA, *PSP_CLASSIMAGELIST_DATA
 req.redist: 

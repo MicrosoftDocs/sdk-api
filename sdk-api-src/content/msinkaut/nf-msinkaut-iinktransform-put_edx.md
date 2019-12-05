@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTransform.put_eDx
 title: IInkTransform::put_eDx (msinkaut.h)
-
 description: Gets or sets the element in the third row, first column of the affine transform matrix that is represented by an InkTransform object.
 old-location: tablet\inktransform_edx.htm
 tech.root: tablet
 ms.assetid: f2e6fabc-4a8a-4225-b518-438e1d0ca196
-
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],eDx property, IInkTransform.eDx, IInkTransform.put_eDx, IInkTransform::eDx, IInkTransform::get_eDx, IInkTransform::put_eDx, InkTransform.get_eDx, InkTransform.put_eDx, eDx property [Tablet PC], eDx property [Tablet PC],IInkTransform interface, f2e6fabc-4a8a-4225-b518-438e1d0ca196, get_eDx, msinkaut/IInkTransform::eDx, msinkaut/IInkTransform::get_eDx, msinkaut/IInkTransform::put_eDx, put_eDx, tablet.inktransform_edx
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTransform.eDx"
+f1_keywords:
+- msinkaut/IInkTransform.eDx
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTransform.eDx
- - IInkTransform.get_eDx
- - IInkTransform.put_eDx
- - InkTransform.get_eDx
- - InkTransform.put_eDx
+- IInkTransform.eDx
+- IInkTransform.get_eDx
+- IInkTransform.put_eDx
+- InkTransform.get_eDx
+- InkTransform.put_eDx
 targetos: Windows
 req.typenames: 
 req.redist: 

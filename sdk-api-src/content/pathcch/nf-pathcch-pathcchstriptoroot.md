@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchStripToRoot
 title: PathCchStripToRoot function (pathcch.h)
-
 description: Removes all file and directory elements in a path except for the root information.This function differs from PathStripToRoot in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
 old-location: shell\PathCchStripToRoot.htm
 tech.root: shell
 ms.assetid: e0539478-8c64-4445-ab99-22f1df70afe8
-
 ms.date: 12/05/2018
 ms.keywords: PathCchStripToRoot, PathCchStripToRoot function [Windows Shell], pathcch/PathCchStripToRoot, shell.PathCchStripToRoot
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchStripToRoot"
+f1_keywords:
+- pathcch/PathCchStripToRoot
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchStripToRoot
+- PathCchStripToRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

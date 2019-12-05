@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumRegFilters.Reset
 title: IEnumRegFilters::Reset (strmif.h)
-
 description: Note  The IEnumRegFilters interface is deprecated. Resets the enumerator so that the next call to the IEnumRegFilters::Next method begins again at the first filter, if any.
 old-location: dshow\ienumregfilters_reset.htm
 tech.root: DirectShow
 ms.assetid: 095d0102-c845-48ba-a1f5-e0262a924b50
-
 ms.date: 12/05/2018
 ms.keywords: IEnumRegFilters interface [DirectShow],Reset method, IEnumRegFilters.Reset, IEnumRegFilters::Reset, IEnumRegFiltersReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumRegFilters interface, dshow.ienumregfilters_reset, strmif/IEnumRegFilters::Reset
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumRegFilters.Reset"
+f1_keywords:
+- strmif/IEnumRegFilters.Reset
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IEnumRegFilters.Reset
+- IEnumRegFilters.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

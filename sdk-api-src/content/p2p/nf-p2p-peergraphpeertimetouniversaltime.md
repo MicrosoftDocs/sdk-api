@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphPeerTimeToUniversalTime
 title: PeerGraphPeerTimeToUniversalTime function (p2p.h)
-
 description: The PeerGraphPeerTimeToUniversalTime function converts the peer graph-maintained reference time value to a localized time value appropriate for display on the peer's computer.
 old-location: p2p\peergraphpeertimetouniversaltime.htm
 tech.root: P2PSdk
 ms.assetid: 9cbb0b59-c116-4bd2-932f-2140595f4fad
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphPeerTimeToUniversalTime, PeerGraphPeerTimeToUniversalTime function [Peer Networking], p2p.peergraphpeertimetouniversaltime, p2p/PeerGraphPeerTimeToUniversalTime
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphPeerTimeToUniversalTime"
+f1_keywords:
+- p2p/PeerGraphPeerTimeToUniversalTime
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphPeerTimeToUniversalTime
+- PeerGraphPeerTimeToUniversalTime
 targetos: Windows
 req.typenames: 
 req.redist: 

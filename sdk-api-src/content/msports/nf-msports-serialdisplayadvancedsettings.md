@@ -1,19 +1,17 @@
 ---
 UID: NF:msports.SerialDisplayAdvancedSettings
 title: SerialDisplayAdvancedSettings function (msports.h)
-
 description: SerialDisplayAdvancedSettings displays the system-supplied advanced settings dialog box for a specified COM port device.
 old-location: serports\serialdisplayadvancedsettings.htm
 tech.root: serports
 ms.assetid: 185c66e9-0c72-4aca-a99c-54995384e26e
-
 ms.date: 12/05/2018
 ms.keywords: SerialDisplayAdvancedSettings, SerialDisplayAdvancedSettings function [Serial Ports], comdb_6cace01c-3c22-4699-938d-9fb180d79f12.xml, msports/SerialDisplayAdvancedSettings, serports.serialdisplayadvancedsettings
 ms.topic: function
-f1_keywords: 
- - "msports/SerialDisplayAdvancedSettings"
+f1_keywords:
+- msports/SerialDisplayAdvancedSettings
 dev_langs:
- - c++
+- c++
 req.header: msports.h
 req.include-header: Msports.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Msports.lib
 req.dll: Msports.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msports.dll
+- Msports.dll
 api_name:
- - SerialDisplayAdvancedSettings
+- SerialDisplayAdvancedSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

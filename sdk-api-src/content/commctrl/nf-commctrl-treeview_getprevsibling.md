@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetPrevSibling
 title: TreeView_GetPrevSibling macro (commctrl.h)
-
 description: Retrieves the previous sibling item of a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PREVIOUS flag.
 old-location: controls\TreeView_GetPrevSibling.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getprevsibling.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetPrevSibling, TreeView_GetPrevSibling macro [Windows Controls], _win32_TreeView_GetPrevSibling, _win32_TreeView_GetPrevSibling_cpp, commctrl/TreeView_GetPrevSibling, controls.TreeView_GetPrevSibling, controls._win32_TreeView_GetPrevSibling
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetPrevSibling"
+f1_keywords:
+- commctrl/TreeView_GetPrevSibling
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetPrevSibling
+- TreeView_GetPrevSibling
 targetos: Windows
 req.typenames: 
 req.redist: 

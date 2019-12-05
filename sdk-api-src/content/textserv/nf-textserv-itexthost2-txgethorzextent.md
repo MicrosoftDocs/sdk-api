@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetHorzExtent
 title: ITextHost2::TxGetHorzExtent (textserv.h)
-
 description: Gets the horizontal scroll extent of the text host window.
 old-location: controls\itexthost2_txgethorzextent.htm
 tech.root: Controls
 ms.assetid: 86D53FEF-DB50-41F6-AC99-106FC01BCD61
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost2 interface [Windows Controls],TxGetHorzExtent method, ITextHost2.TxGetHorzExtent, ITextHost2::TxGetHorzExtent, TxGetHorzExtent, TxGetHorzExtent method [Windows Controls], TxGetHorzExtent method [Windows Controls],ITextHost2 interface, controls.itexthost2_txgethorzextent, textserv/ITextHost2::TxGetHorzExtent
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost2.TxGetHorzExtent"
+f1_keywords:
+- textserv/ITextHost2.TxGetHorzExtent
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost2.TxGetHorzExtent
+- ITextHost2.TxGetHorzExtent
 targetos: Windows
 req.typenames: 
 req.redist: 

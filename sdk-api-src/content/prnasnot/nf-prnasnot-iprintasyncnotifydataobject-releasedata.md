@@ -1,19 +1,17 @@
 ---
 UID: NF:prnasnot.IPrintAsyncNotifyDataObject.ReleaseData
 title: IPrintAsyncNotifyDataObject::ReleaseData (prnasnot.h)
-
 description: Releases the memory used by the data encapsulated in IPrintAsyncNotifyDataObject.
 old-location: gdi\iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata.htm
 tech.root: printdocs
 ms.assetid: f4960aa1-237f-491e-b69c-0aa107d9ddad
-
 ms.date: 12/05/2018
 ms.keywords: IPrintAsyncNotifyDataObject interface [Windows GDI],ReleaseData method, IPrintAsyncNotifyDataObject.ReleaseData, IPrintAsyncNotifyDataObject::ReleaseData, ReleaseData, ReleaseData method [Windows GDI], ReleaseData method [Windows GDI],IPrintAsyncNotifyDataObject interface, _win32_IPrintAsyncNotifyDataObject_ReleaseData, gdi.iprintasyncnotifydataobject_iprintasyncnotifydataobject__releasedata, prnasnot/IPrintAsyncNotifyDataObject::ReleaseData
 ms.topic: method
-f1_keywords: 
- - "prnasnot/IPrintAsyncNotifyDataObject.ReleaseData"
+f1_keywords:
+- prnasnot/IPrintAsyncNotifyDataObject.ReleaseData
 dev_langs:
- - c++
+- c++
 req.header: prnasnot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Prnasnot.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - prnasnot.dll
+- prnasnot.dll
 api_name:
- - IPrintAsyncNotifyDataObject.ReleaseData
+- IPrintAsyncNotifyDataObject.ReleaseData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Description
 title: IProvideWinSATAssessmentInfo::get_Description (winsatcominterfacei.h)
-
 description: Retrieves the description of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_description.htm
 tech.root: WinSAT
 ms.assetid: e598ad5e-e0b9-494a-ba87-0ae7c960deee
-
 ms.date: 12/05/2018
 ms.keywords: Description property [WinSAT], Description property [WinSAT],IProvideWinSATAssessmentInfo interface, IProvideWinSATAssessmentInfo interface [WinSAT],Description property, IProvideWinSATAssessmentInfo.Description, IProvideWinSATAssessmentInfo.get_Description, IProvideWinSATAssessmentInfo::Description, IProvideWinSATAssessmentInfo::get_Description, get_Description, winsat.iprovidewinsatassessmentinfo_description, winsatcominterfacei/IProvideWinSATAssessmentInfo::Description, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Description
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATAssessmentInfo.Description"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATAssessmentInfo.Description
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATAssessmentInfo.Description
- - IProvideWinSATAssessmentInfo.get_Description
+- IProvideWinSATAssessmentInfo.Description
+- IProvideWinSATAssessmentInfo.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

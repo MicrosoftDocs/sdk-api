@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SwitchToFiber
 title: SwitchToFiber function (winbase.h)
-
 description: Schedules a fiber. The function must be called on a fiber.
 old-location: base\switchtofiber.htm
 tech.root: ProcThread
 ms.assetid: 020a8c97-848d-4b33-9cfb-77e5bff644fd
-
 ms.date: 12/05/2018
 ms.keywords: SwitchToFiber, SwitchToFiber function, _win32_switchtofiber, base.switchtofiber, winbase/SwitchToFiber
 ms.topic: function
-f1_keywords: 
- - "winbase/SwitchToFiber"
+f1_keywords:
+- winbase/SwitchToFiber
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-fibers-l2-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-fibers-l2-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-fibers-l2-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-fibers-l2-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- KernelBase.dll
 api_name:
- - SwitchToFiber
+- SwitchToFiber
 targetos: Windows
 req.typenames: 
 req.redist: 

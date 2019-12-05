@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateDesktopExA
 title: CreateDesktopExA function (winuser.h)
-
 description: Creates a new desktop with the specified heap, associates it with the current window station of the calling process, and assigns it to the calling thread.
 old-location: winstation\createdesktopex.htm
 tech.root: winstation
 ms.assetid: 2fe8859d-1fe3-4f44-aa97-58e61779c4cc
-
 ms.date: 12/05/2018
 ms.keywords: CreateDesktopEx, CreateDesktopEx function [Windows Stations and Desktops], CreateDesktopExA, CreateDesktopExW, DF_ALLOWOTHERACCOUNTHOOK, base.createdesktopex, winstation.createdesktopex, winuser/CreateDesktopEx, winuser/CreateDesktopExA, winuser/CreateDesktopExW
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateDesktopEx"
+f1_keywords:
+- winuser/CreateDesktopEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - CreateDesktopEx
- - CreateDesktopExA
- - CreateDesktopExW
+- CreateDesktopEx
+- CreateDesktopExA
+- CreateDesktopExW
 targetos: Windows
 req.typenames: 
 req.redist: 

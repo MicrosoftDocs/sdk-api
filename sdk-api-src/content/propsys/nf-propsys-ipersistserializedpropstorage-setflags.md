@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.SetFlags
 title: IPersistSerializedPropStorage::SetFlags (propsys.h)
-
 description: Toggles the property store object between the read-only and read/write state.
 old-location: shell\IPersistSerializedPropStorage_SetFlags.htm
 tech.root: shell
 ms.assetid: df7a817e-de81-4e27-ab37-192e668bf7fa
-
 ms.date: 12/05/2018
 ms.keywords: FPSPS_DEFAULT, FPSPS_READONLY, FPSPS_TREAT_NEW_VALUES_AS_DIRTY, IPersistSerializedPropStorage interface [Windows Shell],SetFlags method, IPersistSerializedPropStorage.SetFlags, IPersistSerializedPropStorage::SetFlags, SetFlags, SetFlags method [Windows Shell], SetFlags method [Windows Shell],IPersistSerializedPropStorage interface, _shell_IPersistSerializedPropStorage_SetFlags, propsys/IPersistSerializedPropStorage::SetFlags, shell.IPersistSerializedPropStorage_SetFlags
 ms.topic: method
-f1_keywords: 
- - "propsys/IPersistSerializedPropStorage.SetFlags"
+f1_keywords:
+- propsys/IPersistSerializedPropStorage.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPersistSerializedPropStorage.SetFlags
+- IPersistSerializedPropStorage.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

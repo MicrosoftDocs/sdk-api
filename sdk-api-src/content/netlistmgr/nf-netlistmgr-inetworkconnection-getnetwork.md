@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetNetwork
 title: INetworkConnection::GetNetwork (netlistmgr.h)
-
 description: The GetNetwork method returns the network associated with the connection.
 old-location: nla\inetworkconnection_getnetwork.htm
 tech.root: nla
 ms.assetid: 7de83422-58f6-40fc-b26f-074cec550247
-
 ms.date: 12/05/2018
 ms.keywords: GetNetwork, GetNetwork method [Network Awareness], GetNetwork method [Network Awareness],INetworkConnection interface, INetworkConnection interface [Network Awareness],GetNetwork method, INetworkConnection.GetNetwork, INetworkConnection::GetNetwork, netlistmgr/INetworkConnection::GetNetwork, nla.inetworkconnection_getnetwork
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetworkConnection.GetNetwork"
+f1_keywords:
+- netlistmgr/INetworkConnection.GetNetwork
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnection.GetNetwork
+- INetworkConnection.GetNetwork
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IAlertDataCollector.get_TriggerDataCollectorSet
 title: IAlertDataCollector::get_TriggerDataCollectorSet (pla.h)
-
 description: Retrieves or sets the name of a data collector set to start each time the counter value crosses the threshold.
 old-location: pla\ialertdatacollector_triggerdatacollectorset.htm
 tech.root: PLA
 ms.assetid: 3ba9b1c0-432e-4caf-a082-33d1c5c3b132
-
 ms.date: 12/05/2018
 ms.keywords: IAlertDataCollector interface [PLA],TriggerDataCollectorSet property, IAlertDataCollector.TriggerDataCollectorSet, IAlertDataCollector.get_TriggerDataCollectorSet, IAlertDataCollector::TriggerDataCollectorSet, IAlertDataCollector::get_TriggerDataCollectorSet, IAlertDataCollector::put_TriggerDataCollectorSet, TriggerDataCollectorSet property [PLA], TriggerDataCollectorSet property [PLA],IAlertDataCollector interface, base.ialertdatacollector_triggerdatacollectorset, get_TriggerDataCollectorSet, pla.ialertdatacollector_triggerdatacollectorset, pla/IAlertDataCollector::TriggerDataCollectorSet, pla/IAlertDataCollector::get_TriggerDataCollectorSet, pla/IAlertDataCollector::put_TriggerDataCollectorSet
 ms.topic: method
-f1_keywords: 
- - "pla/IAlertDataCollector.TriggerDataCollectorSet"
+f1_keywords:
+- pla/IAlertDataCollector.TriggerDataCollectorSet
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IAlertDataCollector.TriggerDataCollectorSet
- - IAlertDataCollector.get_TriggerDataCollectorSet
- - IAlertDataCollector.put_TriggerDataCollectorSet
+- IAlertDataCollector.TriggerDataCollectorSet
+- IAlertDataCollector.get_TriggerDataCollectorSet
+- IAlertDataCollector.put_TriggerDataCollectorSet
 targetos: Windows
 req.typenames: 
 req.redist: 

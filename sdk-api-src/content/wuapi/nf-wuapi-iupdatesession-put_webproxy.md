@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSession.put_WebProxy
 title: IUpdateSession::put_WebProxy (wuapi.h)
-
 description: Gets and sets the proxy settings that are used to access the server.
 old-location: wua\iupdatesession_webproxy.htm
 tech.root: Wua_Sdk
 ms.assetid: 33611ac4-9471-45c5-91cc-0a07251c74a5
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateSession interface [Windows Update Agent],WebProxy property, IUpdateSession.WebProxy, IUpdateSession.put_WebProxy, IUpdateSession::WebProxy, IUpdateSession::get_WebProxy, IUpdateSession::put_WebProxy, WebProxy property [Windows Update Agent], WebProxy property [Windows Update Agent],IUpdateSession interface, put_WebProxy, wua.iupdatesession_webproxy, wuapi/IUpdateSession::WebProxy, wuapi/IUpdateSession::get_WebProxy, wuapi/IUpdateSession::put_WebProxy
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSession.WebProxy"
+f1_keywords:
+- wuapi/IUpdateSession.WebProxy
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSession.WebProxy
- - IUpdateSession.get_WebProxy
- - IUpdateSession.put_WebProxy
+- IUpdateSession.WebProxy
+- IUpdateSession.get_WebProxy
+- IUpdateSession.put_WebProxy
 targetos: Windows
 req.typenames: 
 req.redist: 

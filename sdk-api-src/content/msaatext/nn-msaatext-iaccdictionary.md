@@ -1,19 +1,17 @@
 ---
 UID: NN:msaatext.IAccDictionary
 title: IAccDictionary (msaatext.h)
-
 description: Exposes methods for string manipulation.
 old-location: winauto\iaccdictionary.htm
 tech.root: WinAuto
 ms.assetid: 0d18d219-b584-43ff-bded-6ed8f00a252f
-
 ms.date: 12/05/2018
 ms.keywords: IAccDictionary, IAccDictionary interface [Windows Accessibility], IAccDictionary interface [Windows Accessibility],described, msaa.iaccdictionary, msaatext/IAccDictionary, winauto.iaccdictionary
 ms.topic: interface
-f1_keywords: 
- - "msaatext/IAccDictionary"
+f1_keywords:
+- msaatext/IAccDictionary
 dev_langs:
- - c++
+- c++
 req.header: msaatext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msaatext.h
+- msaatext.h
 api_name:
- - IAccDictionary
+- IAccDictionary
 targetos: Windows
 req.typenames: 
 req.redist: 

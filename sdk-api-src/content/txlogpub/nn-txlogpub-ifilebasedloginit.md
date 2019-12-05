@@ -1,19 +1,17 @@
 ---
 UID: NN:txlogpub.IFileBasedLogInit
 title: IFileBasedLogInit (txlogpub.h)
-
 description: Initializes an instance of a file based implementation of ILog.
 old-location: com\ifilebasedloginit.htm
 tech.root: com
 ms.assetid: c499f32b-3897-4c61-b9c1-d660648aab76
-
 ms.date: 12/05/2018
 ms.keywords: IFileBasedLogInit, IFileBasedLogInit interface [COM], IFileBasedLogInit interface [COM],described, _com_ifilebasedloginit, com.ifilebasedloginit, txlogpub/IFileBasedLogInit
 ms.topic: interface
-f1_keywords: 
- - "txlogpub/IFileBasedLogInit"
+f1_keywords:
+- txlogpub/IFileBasedLogInit
 dev_langs:
- - c++
+- c++
 req.header: txlogpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Txlogpub.h
+- Txlogpub.h
 api_name:
- - IFileBasedLogInit
+- IFileBasedLogInit
 targetos: Windows
 req.typenames: 
 req.redist: 

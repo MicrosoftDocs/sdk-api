@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerEndEnumeration
 title: PeerEndEnumeration function (p2p.h)
-
 description: The PeerEndEnumeration function releases an enumeration, for example, a record or member enumeration, and deallocates all resources associated with the enumeration.
 old-location: p2p\peerendenumeration.htm
 tech.root: P2PSdk
 ms.assetid: cc9484fb-57b9-4970-91b8-c74db6bf2248
-
 ms.date: 12/05/2018
 ms.keywords: PeerEndEnumeration, PeerEndEnumeration function [Peer Networking], p2p.peerendenumeration, p2p/PeerEndEnumeration
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerEndEnumeration"
+f1_keywords:
+- p2p/PeerEndEnumeration
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerEndEnumeration
+- PeerEndEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

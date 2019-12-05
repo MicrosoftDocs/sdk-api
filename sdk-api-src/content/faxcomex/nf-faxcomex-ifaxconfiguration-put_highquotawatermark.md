@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.put_HighQuotaWaterMark
 title: IFaxConfiguration::put_HighQuotaWaterMark (faxcomex.h)
-
 description: Sets or retrieves a value that indicates the maximum allotted size of a watermark.
 old-location: fax\_mfax_IFaxConfiguration_HighQuotaWaterMark.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\o\faxconfiguation\highquotawatermark.htm
-
 ms.date: 12/05/2018
 ms.keywords: HighQuotaWaterMark property [Fax Service], HighQuotaWaterMark property [Fax Service],IFaxConfiguration interface, IFaxConfiguration interface [Fax Service],HighQuotaWaterMark property, IFaxConfiguration.HighQuotaWaterMark, IFaxConfiguration.put_HighQuotaWaterMark, IFaxConfiguration::HighQuotaWaterMark, IFaxConfiguration::get_HighQuotaWaterMark, IFaxConfiguration::put_HighQuotaWaterMark, _mfax_IFaxConfiguration_HighQuotaWaterMark, fax._mfax_IFaxConfiguration_HighQuotaWaterMark, faxcomex/IFaxConfiguration::HighQuotaWaterMark, faxcomex/IFaxConfiguration::get_HighQuotaWaterMark, faxcomex/IFaxConfiguration::put_HighQuotaWaterMark, put_HighQuotaWaterMark
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxConfiguration.HighQuotaWaterMark"
+f1_keywords:
+- faxcomex/IFaxConfiguration.HighQuotaWaterMark
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration.HighQuotaWaterMark
- - IFaxConfiguration.get_HighQuotaWaterMark
- - IFaxConfiguration.put_HighQuotaWaterMark
+- IFaxConfiguration.HighQuotaWaterMark
+- IFaxConfiguration.get_HighQuotaWaterMark
+- IFaxConfiguration.put_HighQuotaWaterMark
 targetos: Windows
 req.typenames: 
 req.redist: 

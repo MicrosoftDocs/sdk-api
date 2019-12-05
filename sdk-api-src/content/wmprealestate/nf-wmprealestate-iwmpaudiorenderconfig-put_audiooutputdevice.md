@@ -1,19 +1,17 @@
 ---
 UID: NF:wmprealestate.IWMPAudioRenderConfig.put_audioOutputDevice
 title: IWMPAudioRenderConfig::put_audioOutputDevice (wmprealestate.h)
-
 description: The put_audioOutputDevice sets the current audio output device for the Windows Media Player ActiveX control.
 old-location: wmp\iwmpaudiorenderconfig_put_audiooutputdevice.htm
 tech.root: WMP
 ms.assetid: c8e88b36-fb40-4550-bef0-16d92f2bdd2a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPAudioRenderConfig interface [Windows Media Player],put_audioOutputDevice method, IWMPAudioRenderConfig.put_audioOutputDevice, IWMPAudioRenderConfig::put_audioOutputDevice, put_audioOutputDevice, put_audioOutputDevice method [Windows Media Player], put_audioOutputDevice method [Windows Media Player],IWMPAudioRenderConfig interface, wmp.iwmpaudiorenderconfig_put_audiooutputdevice, wmprealestate/IWMPAudioRenderConfig::put_audioOutputDevice
 ms.topic: method
-f1_keywords: 
- - "wmprealestate/IWMPAudioRenderConfig.put_audioOutputDevice"
+f1_keywords:
+- wmprealestate/IWMPAudioRenderConfig.put_audioOutputDevice
 dev_langs:
- - c++
+- c++
 req.header: wmprealestate.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPAudioRenderConfig.put_audioOutputDevice
+- IWMPAudioRenderConfig.put_audioOutputDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMPermission
 title: IGPMPermission (gpmgmt.h)
-
 description: The IGPMPermission interface contains methods to retrieve permission-related properties when using the GPMC.
 old-location: gpmc\igpmpermission.htm
 tech.root: gpmc
 ms.assetid: 7ac19065-571e-45f5-934f-35ddbf225262
-
 ms.date: 12/05/2018
 ms.keywords: GPMPermission, IGPMPermission, IGPMPermission interface [GPMC], IGPMPermission interface [GPMC],described, _win32_igpmpermission, gpmc.igpmpermission, gpmgmt/IGPMPermission
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMPermission"
+f1_keywords:
+- gpmgmt/IGPMPermission
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMPermission
- - GPMPermission
+- IGPMPermission
+- GPMPermission
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.OpenDeviceHandle
 title: IDirect3DDeviceManager9::OpenDeviceHandle (dxva2api.h)
-
 description: Gets a handle to the Direct3D device.
 old-location: mf\idirect3ddevicemanager9_opendevicehandle.htm
 tech.root: medfound
 ms.assetid: 74cd2260-279a-4956-8fce-40f8008b6797
-
 ms.date: 12/05/2018
 ms.keywords: 74cd2260-279a-4956-8fce-40f8008b6797, IDirect3DDeviceManager9 interface [Media Foundation],OpenDeviceHandle method, IDirect3DDeviceManager9.OpenDeviceHandle, IDirect3DDeviceManager9::OpenDeviceHandle, OpenDeviceHandle, OpenDeviceHandle method [Media Foundation], OpenDeviceHandle method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::OpenDeviceHandle, mf.idirect3ddevicemanager9_opendevicehandle
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirect3DDeviceManager9.OpenDeviceHandle"
+f1_keywords:
+- dxva2api/IDirect3DDeviceManager9.OpenDeviceHandle
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.OpenDeviceHandle
+- IDirect3DDeviceManager9.OpenDeviceHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

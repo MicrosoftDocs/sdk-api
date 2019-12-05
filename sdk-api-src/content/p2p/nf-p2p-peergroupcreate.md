@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupCreate
 title: PeerGroupCreate function (p2p.h)
-
 description: The PeerGroupCreate function creates a new peer group.
 old-location: p2p\peergroupcreate.htm
 tech.root: P2PSdk
 ms.assetid: b85d87c6-28b7-49f8-865c-9d246f89367e
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupCreate, PeerGroupCreate function [Peer Networking], p2p.peergroupcreate, p2p/PeerGroupCreate
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupCreate"
+f1_keywords:
+- p2p/PeerGroupCreate
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupCreate
+- PeerGroupCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

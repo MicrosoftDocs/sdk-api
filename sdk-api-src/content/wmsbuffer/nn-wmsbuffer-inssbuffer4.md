@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer4
 title: INSSBuffer4 (wmsbuffer.h)
-
 description: The INSSBuffer4 interface provides methods to enumerate buffer properties.
 old-location: wmformat\inssbuffer4.htm
 tech.root: wmformat
 ms.assetid: d6531e52-b58b-46ed-a47b-444cd98e1ec5
-
 ms.date: 12/05/2018
 ms.keywords: INSSBuffer4, INSSBuffer4 interface [windows Media Format], INSSBuffer4 interface [windows Media Format],described, INSSBuffer4Interface, wmformat.inssbuffer4, wmsbuffer/INSSBuffer4
 ms.topic: interface
-f1_keywords: 
- - "wmsbuffer/INSSBuffer4"
+f1_keywords:
+- wmsbuffer/INSSBuffer4
 dev_langs:
- - c++
+- c++
 req.header: wmsbuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsbuffer.h
+- wmsbuffer.h
 api_name:
- - INSSBuffer4
+- INSSBuffer4
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.ISearchBoxInfo.GetCondition
 title: ISearchBoxInfo::GetCondition (shobjidl.h)
-
 description: Retrieves the contents of the search box as an ICondition object.
 old-location: shell\ISearchBoxInfo_GetCondition.htm
 tech.root: shell
 ms.assetid: 9a1159df-78ef-493b-8286-eefb0ac004ef
-
 ms.date: 12/05/2018
 ms.keywords: GetCondition, GetCondition method [Windows Shell], GetCondition method [Windows Shell],ISearchBoxInfo interface, ISearchBoxInfo interface [Windows Shell],GetCondition method, ISearchBoxInfo.GetCondition, ISearchBoxInfo::GetCondition, _shell_ISearchBoxInfo_GetCondition, shell.ISearchBoxInfo_GetCondition, shobjidl/ISearchBoxInfo::GetCondition
 ms.topic: method
-f1_keywords: 
- - "shobjidl/ISearchBoxInfo.GetCondition"
+f1_keywords:
+- shobjidl/ISearchBoxInfo.GetCondition
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - ISearchBoxInfo.GetCondition
+- ISearchBoxInfo.GetCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

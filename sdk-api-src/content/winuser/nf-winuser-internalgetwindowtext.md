@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.InternalGetWindowText
 title: InternalGetWindowText function (winuser.h)
-
 description: Copies the text of the specified window's title bar (if it has one) into a buffer.
 old-location: winmsg\internalgetwindowtext.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\internalgetwindowtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: InternalGetWindowText, InternalGetWindowText function [Windows and Messages], _win32_InternalGetWindowText, _win32_internalgetwindowtext_cpp, winmsg.internalgetwindowtext, winui._win32_internalgetwindowtext, winuser/InternalGetWindowText
 ms.topic: function
-f1_keywords: 
- - "winuser/InternalGetWindowText"
+f1_keywords:
+- winuser/InternalGetWindowText
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - InternalGetWindowText
+- InternalGetWindowText
 targetos: Windows
 req.typenames: 
 req.redist: 

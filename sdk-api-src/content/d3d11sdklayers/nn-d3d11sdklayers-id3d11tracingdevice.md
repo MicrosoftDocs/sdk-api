@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11TracingDevice
 title: ID3D11TracingDevice (d3d11sdklayers.h)
-
 description: The tracing device interface sets shader tracking information, which enables accurate logging and playback of shader execution.
 old-location: direct3d11\id3d11tracingdevice.htm
 tech.root: direct3d11
 ms.assetid: AE42E2A8-9FEE-4991-B1A0-4C6C04958DE4
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11TracingDevice, ID3D11TracingDevice interface [Direct3D 11], ID3D11TracingDevice interface [Direct3D 11],described, d3d11sdklayers/ID3D11TracingDevice, direct3d11.id3d11tracingdevice
 ms.topic: interface
-f1_keywords: 
- - "d3d11sdklayers/ID3D11TracingDevice"
+f1_keywords:
+- d3d11sdklayers/ID3D11TracingDevice
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3DCompiler.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler.lib
- - D3DCompiler.dll
+- D3DCompiler.lib
+- D3DCompiler.dll
 api_name:
- - ID3D11TracingDevice
+- ID3D11TracingDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

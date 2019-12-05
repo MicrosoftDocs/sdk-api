@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionReport.get_MailTo
 title: IFsrmActionReport::get_MailTo (fsrm.h)
-
 description: Retrieves or sets the email address to which the reports are sent.
 old-location: fsrm\ifsrmactionreport_mailto.htm
 tech.root: fsrm
 ms.assetid: 89c2fc2c-bf14-4a42-b7ab-12988433b275
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionReport interface [File Server Resource Manager],MailTo property, IFsrmActionReport.MailTo, IFsrmActionReport.get_MailTo, IFsrmActionReport::MailTo, IFsrmActionReport::get_MailTo, IFsrmActionReport::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmActionReport interface, fs.ifsrmactionreport_mailto, fsrm.ifsrmactionreport_mailto, fsrm/IFsrmActionReport::MailTo, fsrm/IFsrmActionReport::get_MailTo, fsrm/IFsrmActionReport::put_MailTo, get_MailTo
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionReport.MailTo"
+f1_keywords:
+- fsrm/IFsrmActionReport.MailTo
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionReport.MailTo
- - IFsrmActionReport.get_MailTo
- - IFsrmActionReport.put_MailTo
+- IFsrmActionReport.MailTo
+- IFsrmActionReport.get_MailTo
+- IFsrmActionReport.put_MailTo
 targetos: Windows
 req.typenames: 
 req.redist: 

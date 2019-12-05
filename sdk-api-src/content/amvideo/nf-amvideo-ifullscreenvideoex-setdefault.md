@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.SetDefault
 title: IFullScreenVideoEx::SetDefault (amvideo.h)
-
 description: The SetDefault method saves the current settings.
 old-location: dshow\ifullscreenvideoex_setdefault.htm
 tech.root: DirectShow
 ms.assetid: 1821703c-0da1-4b3e-a921-a66770b8ee0d
-
 ms.date: 12/05/2018
 ms.keywords: IFullScreenVideoEx interface [DirectShow],SetDefault method, IFullScreenVideoEx.SetDefault, IFullScreenVideoEx::SetDefault, IFullScreenVideoSetDefault, SetDefault, SetDefault method [DirectShow], SetDefault method [DirectShow],IFullScreenVideoEx interface, amvideo/IFullScreenVideoEx::SetDefault, dshow.ifullscreenvideoex_setdefault
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.SetDefault"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.SetDefault
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.SetDefault
+- IFullScreenVideoEx.SetDefault
 targetos: Windows
 req.typenames: 
 req.redist: 

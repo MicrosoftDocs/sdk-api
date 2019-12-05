@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILayoutStorage.ReLayoutDocfileOnILockBytes
 title: ILayoutStorage::ReLayoutDocfileOnILockBytes (objidl.h)
-
 description: Is not implemented. If called, it returns STG_E_UNIMPLEMENTEDFUNCTION.
 old-location: stg\ilayoutstorage_relayoutdocfileonilockbytes.htm
 tech.root: Stg
 ms.assetid: 4d62ea35-d9cb-4ec6-ad71-7b32096953f1
-
 ms.date: 12/05/2018
 ms.keywords: ILayoutStorage interface [Structured Storage],ReLayoutDocfileOnILockBytes method, ILayoutStorage.ReLayoutDocfileOnILockBytes, ILayoutStorage::ReLayoutDocfileOnILockBytes, ReLayoutDocfileOnILockBytes, ReLayoutDocfileOnILockBytes method [Structured Storage], ReLayoutDocfileOnILockBytes method [Structured Storage],ILayoutStorage interface, objidl/ILayoutStorage::ReLayoutDocfileOnILockBytes, stg.ilayoutstorage_relayoutdocfileonilockbytes
 ms.topic: method
-f1_keywords: 
- - "objidl/ILayoutStorage.ReLayoutDocfileOnILockBytes"
+f1_keywords:
+- objidl/ILayoutStorage.ReLayoutDocfileOnILockBytes
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILayoutStorage.ReLayoutDocfileOnILockBytes
+- ILayoutStorage.ReLayoutDocfileOnILockBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

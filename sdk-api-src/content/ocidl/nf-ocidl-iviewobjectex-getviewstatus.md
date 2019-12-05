@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IViewObjectEx.GetViewStatus
 title: IViewObjectEx::GetViewStatus (ocidl.h)
-
 description: Retrieves information about the opacity of the object, and what drawing aspects are supported.
 old-location: com\iviewobjectex_getviewstatus.htm
 tech.root: com
 ms.assetid: cf8ec90c-07bb-4f60-93c9-4cee3fb5a056
-
 ms.date: 12/05/2018
 ms.keywords: GetViewStatus, GetViewStatus method [COM], GetViewStatus method [COM],IViewObjectEx interface, IViewObjectEx interface [COM],GetViewStatus method, IViewObjectEx.GetViewStatus, IViewObjectEx::GetViewStatus, _ole_iviewobjectex_getviewstatus, com.iviewobjectex_getviewstatus, ocidl/IViewObjectEx::GetViewStatus
 ms.topic: method
-f1_keywords: 
- - "ocidl/IViewObjectEx.GetViewStatus"
+f1_keywords:
+- ocidl/IViewObjectEx.GetViewStatus
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IViewObjectEx.GetViewStatus
+- IViewObjectEx.GetViewStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

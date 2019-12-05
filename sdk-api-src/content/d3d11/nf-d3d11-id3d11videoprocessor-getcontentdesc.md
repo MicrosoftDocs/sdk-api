@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessor.GetContentDesc
 title: ID3D11VideoProcessor::GetContentDesc (d3d11.h)
-
 description: Gets the content description that was used to create the video processor.
 old-location: mf\id3d11videoprocessor_getcontentdesc.htm
 tech.root: medfound
 ms.assetid: 8C8433BC-1DB9-45D9-817A-7175B4577818
-
 ms.date: 12/05/2018
 ms.keywords: GetContentDesc, GetContentDesc method [Media Foundation], GetContentDesc method [Media Foundation],ID3D11VideoProcessor interface, ID3D11VideoProcessor interface [Media Foundation],GetContentDesc method, ID3D11VideoProcessor.GetContentDesc, ID3D11VideoProcessor::GetContentDesc, d3d11/ID3D11VideoProcessor::GetContentDesc, mf.id3d11videoprocessor_getcontentdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessor.GetContentDesc"
+f1_keywords:
+- d3d11/ID3D11VideoProcessor.GetContentDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessor.GetContentDesc
+- ID3D11VideoProcessor.GetContentDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

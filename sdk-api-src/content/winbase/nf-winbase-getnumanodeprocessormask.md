@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetNumaNodeProcessorMask
 title: GetNumaNodeProcessorMask function (winbase.h)
-
 description: Retrieves the processor mask for the specified node.
 old-location: base\getnumanodeprocessormask.htm
 tech.root: ProcThread
 ms.assetid: bdaecb36-9b51-4cc3-88b3-0dbd63bdc9b8
-
 ms.date: 12/05/2018
 ms.keywords: GetNumaNodeProcessorMask, GetNumaNodeProcessorMask function, _win32_getnumanodeprocessormask, base.getnumanodeprocessormask, winbase/GetNumaNodeProcessorMask
 ms.topic: function
-f1_keywords: 
- - "winbase/GetNumaNodeProcessorMask"
+f1_keywords:
+- winbase/GetNumaNodeProcessorMask
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-1.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-l1-1-2.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetNumaNodeProcessorMask
+- GetNumaNodeProcessorMask
 targetos: Windows
 req.typenames: 
 req.redist: 

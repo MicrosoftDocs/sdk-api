@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.StartOperations
 title: IFileOperationProgressSink::StartOperations (shobjidl_core.h)
-
 description: Performs caller-implemented actions before any specific file operations are performed.
 old-location: shell\IFileOperationProgressSink_StartOperations.htm
 tech.root: shell
 ms.assetid: 8b9e4423-ead7-44be-b960-5ee83025f42a
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],StartOperations method, IFileOperationProgressSink.StartOperations, IFileOperationProgressSink::StartOperations, StartOperations, StartOperations method [Windows Shell], StartOperations method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_StartOperations, shell.IFileOperationProgressSink_StartOperations, shobjidl_core/IFileOperationProgressSink::StartOperations
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.StartOperations"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.StartOperations
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.StartOperations
+- IFileOperationProgressSink.StartOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

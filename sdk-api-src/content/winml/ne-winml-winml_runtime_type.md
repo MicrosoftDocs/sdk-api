@@ -1,19 +1,17 @@
 ---
 UID: NE:winml.WINML_RUNTIME_TYPE
 title: WINML_RUNTIME_TYPE (winml.h)
-
 description: Specifies the different types of WinML runtimes.
 old-location: machinelearning\winml_runtime_type.htm
 tech.root: MachineLearning
 ms.assetid: 5F522511-6186-4C1F-9315-3E382E87F62C
-
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_runtime_type, WINML_RUNTIME_CNTK, WINML_RUNTIME_TYPE, WINML_RUNTIME_TYPE enumeration, winml/WINML_RUNTIME_CNTK, winml/WINML_RUNTIME_TYPE
 ms.topic: enum
-f1_keywords: 
- - "winml/WINML_RUNTIME_TYPE"
+f1_keywords:
+- winml/WINML_RUNTIME_TYPE
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winml.h
+- winml.h
 api_name:
- - WINML_RUNTIME_TYPE
+- WINML_RUNTIME_TYPE
 targetos: Windows
 req.typenames: WINML_RUNTIME_TYPE
 req.redist: 

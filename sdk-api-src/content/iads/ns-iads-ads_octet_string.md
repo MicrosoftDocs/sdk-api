@@ -1,19 +1,17 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0002
 title: ADS_OCTET_STRING (iads.h)
-
 description: The ADS_OCTET_STRING structure is an ADSI representation of the Octet String attribute syntax used in Active Directory.
 old-location: adsi\ads_octet_string.htm
 tech.root: adsi
 ms.assetid: ecad3601-081d-4cb6-a6dd-7781d652af8e
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_OCTET_STRING, ADS_OCTET_STRING, ADS_OCTET_STRING structure [ADSI], PADS_OCTET_STRING, PADS_OCTET_STRING structure pointer [ADSI], _ds_ads_octet_string, adsi.ads__octet__string, adsi.ads_octet_string, iads/ADS_OCTET_STRING, iads/PADS_OCTET_STRING"
+ms.keywords: '*PADS_OCTET_STRING, ADS_OCTET_STRING, ADS_OCTET_STRING structure [ADSI], PADS_OCTET_STRING, PADS_OCTET_STRING structure pointer [ADSI], _ds_ads_octet_string, adsi.ads__octet__string, adsi.ads_octet_string, iads/ADS_OCTET_STRING, iads/PADS_OCTET_STRING'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_OCTET_STRING"
+f1_keywords:
+- iads/ADS_OCTET_STRING
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_OCTET_STRING
+- ADS_OCTET_STRING
 targetos: Windows
 req.typenames: ADS_OCTET_STRING, *PADS_OCTET_STRING
 req.redist: 

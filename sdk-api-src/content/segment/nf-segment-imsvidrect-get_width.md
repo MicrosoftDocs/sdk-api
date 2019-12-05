@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidRect.get_Width
 title: IMSVidRect::get_Width (segment.h)
-
 description: The get_Width method retrieves the width of the rectangle.
 old-location: mstv\imsvidrect_get_width.htm
 tech.root: mstv
 ms.assetid: 7b1d07b8-41e4-44f8-8c28-377c7a9e463d
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidRect interface [Microsoft TV Technologies],get_Width method, IMSVidRect.get_Width, IMSVidRect::get_Width, IMSVidRectget_Width, get_Width, get_Width method [Microsoft TV Technologies], get_Width method [Microsoft TV Technologies],IMSVidRect interface, mstv.imsvidrect_get_width, segment/IMSVidRect::get_Width
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidRect.get_Width"
+f1_keywords:
+- segment/IMSVidRect.get_Width
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidRect.get_Width
+- IMSVidRect.get_Width
 targetos: Windows
 req.typenames: 
 req.redist: 

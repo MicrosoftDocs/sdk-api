@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIObjectPropertiesW
 title: OleUIObjectPropertiesW function (oledlg.h)
-
 description: Invokes the Object Properties dialog box, which displays General, View, and Link information about an object.
 old-location: com\oleuiobjectproperties.htm
 tech.root: com
 ms.assetid: 591f6056-2e5f-4e58-8806-9a0093de2463
-
 ms.date: 12/05/2018
 ms.keywords: OleUIObjectProperties, OleUIObjectProperties function [COM], OleUIObjectPropertiesA, OleUIObjectPropertiesW, _ole_OleUIObjectProperties, com.oleuiobjectproperties, oledlg/OleUIObjectProperties, oledlg/OleUIObjectPropertiesA, oledlg/OleUIObjectPropertiesW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIObjectProperties"
+f1_keywords:
+- oledlg/OleUIObjectProperties
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIObjectProperties
- - OleUIObjectPropertiesA
- - OleUIObjectPropertiesW
+- OleUIObjectProperties
+- OleUIObjectPropertiesA
+- OleUIObjectPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsstoragecom.IStorageFolderHandleAccess.Create
 title: IStorageFolderHandleAccess::Create (windowsstoragecom.h)
-
 description: Creates a handle to a file that is in a storage folder.
 old-location: winrt\istoragefolderhandleaccess_create.htm
 tech.root: WinRT
 ms.assetid: CAA79CEC-FB04-48F0-BCF8-19613FA6D108
-
 ms.date: 12/05/2018
 ms.keywords: Create, Create method [Windows Runtime], Create method [Windows Runtime],IStorageFolderHandleAccess interface, IStorageFolderHandleAccess interface [Windows Runtime],Create method, IStorageFolderHandleAccess.Create, IStorageFolderHandleAccess::Create, windowsstoragecom/IStorageFolderHandleAccess::Create, winrt.istoragefolderhandleaccess_create
 ms.topic: method
-f1_keywords: 
- - "windowsstoragecom/IStorageFolderHandleAccess.Create"
+f1_keywords:
+- windowsstoragecom/IStorageFolderHandleAccess.Create
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IStorageFolderHandleAccess.Create
+- IStorageFolderHandleAccess.Create
 targetos: Windows
 req.typenames: 
 req.redist: 

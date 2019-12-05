@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcRelationshipSet
 title: IOpcRelationshipSet (msopc.h)
-
 description: Represents a Relationships part as an unordered set of IOpcRelationship interface pointers to relationship objects.
 old-location: opc\iopcrelationshipset.htm
 tech.root: OPC
 ms.assetid: 6259906d-820d-4b6e-bbeb-d9d044f2b35a
-
 ms.date: 12/05/2018
 ms.keywords: IOpcRelationshipSet, IOpcRelationshipSet interface [Open Packaging Conventions], IOpcRelationshipSet interface [Open Packaging Conventions],described, msopc/IOpcRelationshipSet, opc.iopcrelationshipset
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcRelationshipSet"
+f1_keywords:
+- msopc/IOpcRelationshipSet
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSet
+- IOpcRelationshipSet
 targetos: Windows
 req.typenames: 
 req.redist: 

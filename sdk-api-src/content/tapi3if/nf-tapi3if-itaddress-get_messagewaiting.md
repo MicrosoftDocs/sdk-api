@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress.get_MessageWaiting
 title: ITAddress::get_MessageWaiting (tapi3if.h)
-
 description: The get_MessageWaiting method determines if the address has a message waiting.
 old-location: tapi3\itaddress_get_messagewaiting.htm
 tech.root: Tapi
 ms.assetid: 4ddb49d9-dde7-498b-a243-f8c5b1294a87
-
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_MessageWaiting method, ITAddress.get_MessageWaiting, ITAddress::get_MessageWaiting, _tapi3_itaddress_get_messagewaiting, get_MessageWaiting, get_MessageWaiting method [TAPI 2.2], get_MessageWaiting method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_messagewaiting, tapi3if/ITAddress::get_MessageWaiting
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress.get_MessageWaiting"
+f1_keywords:
+- tapi3if/ITAddress.get_MessageWaiting
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress.get_MessageWaiting
+- ITAddress.get_MessageWaiting
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.AddRefActCtx
 title: AddRefActCtx function (winbase.h)
-
 description: The AddRefActCtx function increments the reference count of the specified activation context.
 old-location: setup\addrefactctx.htm
 tech.root: SbsCs
 ms.assetid: 6812a3f4-53e4-4b60-be04-711ab4c37d12
-
 ms.date: 12/05/2018
 ms.keywords: AddRefActCtx, AddRefActCtx function [Side-by-side Assemblies], _win32_addrefactctx, setup.addrefactctx, winbase/AddRefActCtx
 ms.topic: function
-f1_keywords: 
- - "winbase/AddRefActCtx"
+f1_keywords:
+- winbase/AddRefActCtx
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-sidebyside-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-sidebyside-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - AddRefActCtx
+- AddRefActCtx
 targetos: Windows
 req.typenames: 
 req.redist: 

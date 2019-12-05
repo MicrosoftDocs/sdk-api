@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentSizeOfSet
 title: IUIAutomationElement4::get_CurrentSizeOfSet (uiautomationclient.h)
-
 description: Returns the current 1-based integer for the size of the set where the element is located.
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentSizeOfSet.htm
 tech.root: WinAuto
 ms.assetid: 4025591C-59D6-4CCF-B8F8-60AACE4C6334
-
 ms.date: 12/05/2018
 ms.keywords: CurrentSizeOfSet property [Windows Accessibility], CurrentSizeOfSet property [Windows Accessibility],IUIAutomationElement4 interface, IUIAutomationElement4 interface [Windows Accessibility],CurrentSizeOfSet property, IUIAutomationElement4.CurrentSizeOfSet, IUIAutomationElement4.get_CurrentSizeOfSet, IUIAutomationElement4::CurrentSizeOfSet, IUIAutomationElement4::get_CurrentSizeOfSet, get_CurrentSizeOfSet, uiautomationclient/IUIAutomationElement4::CurrentSizeOfSet, uiautomationclient/IUIAutomationElement4::get_CurrentSizeOfSet, winauto.uiauto_IUIAutomationElement4_CurrentSizeOfSet
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement4.CurrentSizeOfSet"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement4.CurrentSizeOfSet
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4.CurrentSizeOfSet
- - IUIAutomationElement4.get_CurrentSizeOfSet
+- IUIAutomationElement4.CurrentSizeOfSet
+- IUIAutomationElement4.get_CurrentSizeOfSet
 targetos: Windows
 req.typenames: 
 req.redist: 

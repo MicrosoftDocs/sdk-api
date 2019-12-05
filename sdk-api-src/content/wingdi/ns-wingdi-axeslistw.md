@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagAXESLISTW
 title: AXESLISTW (wingdi.h)
-
 description: The AXESLIST structure contains information on all the axes of a multiple master font.
 old-location: gdi\axeslist.htm
 tech.root: gdi
 ms.assetid: f95f012e-f02b-46c1-94ba-69f426ee7ad9
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAXESLISTW, *PAXESLISTW, AXESLIST, AXESLIST structure [Windows GDI], AXESLISTA, AXESLISTW, PAXESLIST, PAXESLIST structure pointer [Windows GDI], _win32_AXESLIST_str, gdi.axeslist, wingdi/AXESLIST, wingdi/AXESLISTA, wingdi/AXESLISTW, wingdi/PAXESLIST"
+ms.keywords: '*LPAXESLISTW, *PAXESLISTW, AXESLIST, AXESLIST structure [Windows GDI], AXESLISTA, AXESLISTW, PAXESLIST, PAXESLIST structure pointer [Windows GDI], _win32_AXESLIST_str, gdi.axeslist, wingdi/AXESLIST, wingdi/AXESLISTA, wingdi/AXESLISTW, wingdi/PAXESLIST'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/AXESLIST"
+f1_keywords:
+- wingdi/AXESLIST
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - AXESLIST
- - AXESLISTA
- - AXESLISTW
+- AXESLIST
+- AXESLISTA
+- AXESLISTW
 targetos: Windows
 req.typenames: AXESLISTW, *PAXESLISTW, *LPAXESLISTW
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothGetDeviceInfo
 title: BluetoothGetDeviceInfo function (bluetoothapis.h)
-
 description: Retrieves information about a remote Bluetooth device.
 old-location: bluetooth\bluetoothgetdeviceinfo.htm
 tech.root: bluetooth
 ms.assetid: 530e5131-a0ab-4ddd-be73-a07f94e74f73
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothGetDeviceInfo, BluetoothGetDeviceInfo function [Bluetooth], bluetooth.bluetoothgetdeviceinfo, bluetoothapis/BluetoothGetDeviceInfo
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothGetDeviceInfo"
+f1_keywords:
+- bluetoothapis/BluetoothGetDeviceInfo
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothGetDeviceInfo
+- BluetoothGetDeviceInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

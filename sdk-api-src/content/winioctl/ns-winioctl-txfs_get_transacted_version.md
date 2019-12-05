@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._TXFS_GET_TRANSACTED_VERSION
 title: TXFS_GET_TRANSACTED_VERSION
-
 description: Contains the information about the base and latest versions of the specified file.
 old-location: fs\txfs_get_transacted_version.htm
 tech.root: FileIO
 ms.assetid: 4a8d0271-7693-483f-89b3-2f6b592bbb8a
-
 ms.date: 12/05/2018
-ms.keywords: "*PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION structure pointer [Files], TXFS_GET_TRANSACTED_VERSION, TXFS_GET_TRANSACTED_VERSION structure [Files], TXFS_TRANSACTED_VERSION_NONTRANSACTED, TXFS_TRANSACTED_VERSION_UNCOMMITTED, fs.get_transacted_version, fs.txfs_get_transacted_version, winioctl/PTXFS_GET_TRANSACTED_VERSION, winioctl/TXFS_GET_TRANSACTED_VERSION"
+ms.keywords: '*PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION, PTXFS_GET_TRANSACTED_VERSION structure pointer [Files], TXFS_GET_TRANSACTED_VERSION, TXFS_GET_TRANSACTED_VERSION structure [Files], TXFS_TRANSACTED_VERSION_NONTRANSACTED, TXFS_TRANSACTED_VERSION_UNCOMMITTED, fs.get_transacted_version, fs.txfs_get_transacted_version, winioctl/PTXFS_GET_TRANSACTED_VERSION, winioctl/TXFS_GET_TRANSACTED_VERSION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/TXFS_GET_TRANSACTED_VERSION"
+f1_keywords:
+- winioctl/TXFS_GET_TRANSACTED_VERSION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - TXFS_GET_TRANSACTED_VERSION
+- TXFS_GET_TRANSACTED_VERSION
 targetos: Windows
 req.typenames: TXFS_GET_TRANSACTED_VERSION, *PTXFS_GET_TRANSACTED_VERSION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:icmpapi.Icmp6CreateFile
 title: Icmp6CreateFile function (icmpapi.h)
-
 description: The Icmp6CreateFile function opens a handle on which IPv6 ICMP echo requests can be issued.
 old-location: iphlp\icmp6createfile.htm
 tech.root: IpHlp
 ms.assetid: 2ddb23d8-a4e6-47c4-a552-2815ccaf055f
-
 ms.date: 12/05/2018
 ms.keywords: Icmp6CreateFile, Icmp6CreateFile function [IP Helper], icmpapi/Icmp6CreateFile, iphlp.icmp6createfile
 ms.topic: function
-f1_keywords: 
- - "icmpapi/Icmp6CreateFile"
+f1_keywords:
+- icmpapi/Icmp6CreateFile
 dev_langs:
- - c++
+- c++
 req.header: icmpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - Icmp6CreateFile
+- Icmp6CreateFile
 targetos: Windows
 req.typenames: 
 req.redist: 

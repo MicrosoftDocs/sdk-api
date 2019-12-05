@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CMS_DH_KEY_INFO
 title: CMS_DH_KEY_INFO (wincrypt.h)
-
 description: Used with the KP_CMS_DH_KEY_INFO parameter in the CryptSetKeyParam function to contain Diffie-Hellman key information.
 old-location: security\cms_dh_key_info.htm
 tech.root: SecCrypto
 ms.assetid: ecfd8a63-95f9-4026-b31b-671ea58b683f
-
 ms.date: 12/05/2018
-ms.keywords: "*PCMS_DH_KEY_INFO, CMS_DH_KEY_INFO, CMS_DH_KEY_INFO structure [Security], PCMS_DH_KEY_INFO, PCMS_DH_KEY_INFO structure pointer [Security], security.cms_dh_key_info, wincrypt/CMS_DH_KEY_INFO, wincrypt/PCMS_DH_KEY_INFO"
+ms.keywords: '*PCMS_DH_KEY_INFO, CMS_DH_KEY_INFO, CMS_DH_KEY_INFO structure [Security], PCMS_DH_KEY_INFO, PCMS_DH_KEY_INFO structure pointer [Security], security.cms_dh_key_info, wincrypt/CMS_DH_KEY_INFO, wincrypt/PCMS_DH_KEY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CMS_DH_KEY_INFO"
+f1_keywords:
+- wincrypt/CMS_DH_KEY_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CMS_DH_KEY_INFO
+- CMS_DH_KEY_INFO
 targetos: Windows
 req.typenames: CMS_DH_KEY_INFO, *PCMS_DH_KEY_INFO
 req.redist: 

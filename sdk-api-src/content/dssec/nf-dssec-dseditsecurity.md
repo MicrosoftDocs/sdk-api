@@ -1,19 +1,17 @@
 ---
 UID: NF:dssec.DSEditSecurity
 title: DSEditSecurity function (dssec.h)
-
 description: Displays a modal dialog box for editing security on a Directory Services (DS) object.
 old-location: security\dseditsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: e440e696-37a5-4853-b205-a4701b2c9beb
-
 ms.date: 12/05/2018
 ms.keywords: DSEditSecurity, DSEditSecurity function [Security], dssec/DSEditSecurity, security.dseditsecurity
 ms.topic: function
-f1_keywords: 
- - "dssec/DSEditSecurity"
+f1_keywords:
+- dssec/DSEditSecurity
 dev_langs:
- - c++
+- c++
 req.header: dssec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DSSec.lib
 req.dll: DSSec.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DSSec.dll
+- DSSec.dll
 api_name:
- - DSEditSecurity
+- DSEditSecurity
 targetos: Windows
 req.typenames: 
 req.redist: 

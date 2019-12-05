@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.LockBuffer
 title: CHString::LockBuffer (chstring.h)
-
 description: The LockBuffer method locks a string in the buffer.
 old-location: wmi\chstring_lockbuffer.htm
 tech.root: WmiSdk
 ms.assetid: 820a3ff5-4f99-40b0-8a9d-e5c22fea7ddb
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],LockBuffer method, CHString.LockBuffer, CHString::LockBuffer, LockBuffer, LockBuffer method [Windows Management Instrumentation], LockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_lockbuffer, chstring/CHString::LockBuffer, wmi.chstring_lockbuffer
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.LockBuffer"
+f1_keywords:
+- chstring/CHString.LockBuffer
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.LockBuffer
+- CHString.LockBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

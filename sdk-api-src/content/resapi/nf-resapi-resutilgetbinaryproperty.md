@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetBinaryProperty
 title: ResUtilGetBinaryProperty function (resapi.h)
-
 description: Retrieves a binary property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_BINARY_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetbinaryproperty.htm
 tech.root: MsCS
 ms.assetid: fe69ba4c-d69a-4f5a-a620-0e2152e7be61
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_BINARY_PROPERTY, PRESUTIL_GET_BINARY_PROPERTY function [Failover Cluster], ResUtilGetBinaryProperty, ResUtilGetBinaryProperty function [Failover Cluster], _wolf_resutilgetbinaryproperty, mscs.resutilgetbinaryproperty, resapi/PRESUTIL_GET_BINARY_PROPERTY, resapi/ResUtilGetBinaryProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetBinaryProperty"
+f1_keywords:
+- resapi/ResUtilGetBinaryProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetBinaryProperty
+- ResUtilGetBinaryProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

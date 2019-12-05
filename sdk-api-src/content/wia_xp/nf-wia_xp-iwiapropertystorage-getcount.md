@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetCount
 title: IWiaPropertyStorage::GetCount (wia_xp.h)
-
 description: The IWiaPropertyStorage::GetCount method returns the number of properties stored in the property storage.
 old-location: wia\_wia_IWiaPropertyStorage_GetCount.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [WIA], GetCount method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetCount method, IWiaPropertyStorage.GetCount, IWiaPropertyStorage::GetCount, _wia_IWiaPropertyStorage_GetCount, wia._wia_IWiaPropertyStorage_GetCount, wia_xp/IWiaPropertyStorage::GetCount
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaPropertyStorage.GetCount"
+f1_keywords:
+- wia_xp/IWiaPropertyStorage.GetCount
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaPropertyStorage.GetCount
+- IWiaPropertyStorage.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

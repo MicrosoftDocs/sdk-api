@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsNamespace.RemoveSettingByPath
 title: ISettingsNamespace::RemoveSettingByPath (wcmconfig.h)
-
 description: Removes the setting object specified by a path.
 old-location: smi\isettingsnamespace_removesettingbypath.htm
 tech.root: SMI
 ms.assetid: 6c2cf0be-9c9f-46d6-9108-47d2ad405645
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsNamespace interface [SMI],RemoveSettingByPath method, ISettingsNamespace.RemoveSettingByPath, ISettingsNamespace::RemoveSettingByPath, RemoveSettingByPath, RemoveSettingByPath method [SMI], RemoveSettingByPath method [SMI],ISettingsNamespace interface, smi.isettingsnamespace_removesettingbypath, wcmconfig/ISettingsNamespace::RemoveSettingByPath
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsNamespace.RemoveSettingByPath"
+f1_keywords:
+- wcmconfig/ISettingsNamespace.RemoveSettingByPath
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsNamespace.RemoveSettingByPath
+- ISettingsNamespace.RemoveSettingByPath
 targetos: Windows
 req.typenames: 
 req.redist: 

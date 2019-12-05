@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateAMMediaTypeFromMFMediaType
 title: MFCreateAMMediaTypeFromMFMediaType function (mfapi.h)
-
 description: Creates a DirectShow AM_MEDIA_TYPE structure from a Media Foundation media type.
 old-location: mf\mfcreateammediatypefrommfmediatype.htm
 tech.root: medfound
 ms.assetid: 53b191d4-89b3-4b16-8f89-50f256689e85
-
 ms.date: 12/05/2018
 ms.keywords: 53b191d4-89b3-4b16-8f89-50f256689e85, MFCreateAMMediaTypeFromMFMediaType, MFCreateAMMediaTypeFromMFMediaType function [Media Foundation], mf.mfcreateammediatypefrommfmediatype, mfapi/MFCreateAMMediaTypeFromMFMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateAMMediaTypeFromMFMediaType"
+f1_keywords:
+- mfapi/MFCreateAMMediaTypeFromMFMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateAMMediaTypeFromMFMediaType
+- MFCreateAMMediaTypeFromMFMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

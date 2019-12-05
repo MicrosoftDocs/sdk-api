@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderFilterSite.SetFilter
 title: IFolderFilterSite::SetFilter (shobjidl_core.h)
-
 description: Exposed by a host to allow clients to pass the host their IUnknown interface pointers.
 old-location: shell\IFolderFilterSite_SetFilter.htm
 tech.root: shell
 ms.assetid: 1bbcb238-9b3e-4f5c-9cb3-429d0ff918af
-
 ms.date: 12/05/2018
 ms.keywords: IFolderFilterSite interface [Windows Shell],SetFilter method, IFolderFilterSite.SetFilter, IFolderFilterSite::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFolderFilterSite interface, _shell_IFolderFilterSite_SetFilter, shell.IFolderFilterSite_SetFilter, shobjidl_core/IFolderFilterSite::SetFilter
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderFilterSite.SetFilter"
+f1_keywords:
+- shobjidl_core/IFolderFilterSite.SetFilter
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderFilterSite.SetFilter
+- IFolderFilterSite.SetFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

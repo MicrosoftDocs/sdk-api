@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.PathMakeUniqueName
 title: PathMakeUniqueName function (shlobj_core.h)
-
 description: Creates a unique path name from a template.
 old-location: shell\PathMakeUniqueName.htm
 tech.root: shell
 ms.assetid: 8456ae0c-e83c-43d0-a86a-1861a373d237
-
 ms.date: 12/05/2018
 ms.keywords: PathMakeUniqueName, PathMakeUniqueName function [Windows Shell], _win32_PathMakeUniqueName, shell.PathMakeUniqueName, shlobj_core/PathMakeUniqueName
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/PathMakeUniqueName"
+f1_keywords:
+- shlobj_core/PathMakeUniqueName
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-Shell32-ShellFolders-l1-1-1.dll
- - FolderExt.dll
- - windows.storage.dll
+- Shell32.dll
+- Ext-MS-Win-Shell32-ShellFolders-l1-1-1.dll
+- FolderExt.dll
+- windows.storage.dll
 api_name:
- - PathMakeUniqueName
+- PathMakeUniqueName
 targetos: Windows
 req.typenames: 
 req.redist: 

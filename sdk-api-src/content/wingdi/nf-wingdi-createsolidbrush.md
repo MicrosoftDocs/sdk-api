@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateSolidBrush
 title: CreateSolidBrush function (wingdi.h)
-
 description: The CreateSolidBrush function creates a logical brush that has the specified solid color.
 old-location: gdi\createsolidbrush.htm
 tech.root: gdi
 ms.assetid: e39b5f77-97d8-4ea6-8277-7da12b3367f3
-
 ms.date: 12/05/2018
 ms.keywords: CreateSolidBrush, CreateSolidBrush function [Windows GDI], _win32_CreateSolidBrush, gdi.createsolidbrush, wingdi/CreateSolidBrush
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateSolidBrush"
+f1_keywords:
+- wingdi/CreateSolidBrush
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreateSolidBrush
+- CreateSolidBrush
 targetos: Windows
 req.typenames: 
 req.redist: 

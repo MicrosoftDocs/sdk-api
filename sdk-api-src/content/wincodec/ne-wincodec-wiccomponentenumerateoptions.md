@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICComponentEnumerateOptions
 title: WICComponentEnumerateOptions (wincodec.h)
-
 description: Specifies component enumeration options.
 old-location: wic\_wic_codec_wiccomponentenumerateoptions.htm
 tech.root: wic
 ms.assetid: 52cc0860-6164-4400-8e81-03eb0c44904e
-
 ms.date: 12/05/2018
 ms.keywords: WICComponentEnumerateBuiltInOnly, WICComponentEnumerateDefault, WICComponentEnumerateDisabled, WICComponentEnumerateOptions, WICComponentEnumerateOptions enumeration [Windows Imaging Component], WICComponentEnumerateRefresh, WICComponentEnumerateUnsigned, _wic_codec_wiccomponentenumerateoptions, wic._wic_codec_wiccomponentenumerateoptions, wincodec/WICComponentEnumerateBuiltInOnly, wincodec/WICComponentEnumerateDefault, wincodec/WICComponentEnumerateDisabled, wincodec/WICComponentEnumerateOptions, wincodec/WICComponentEnumerateRefresh, wincodec/WICComponentEnumerateUnsigned
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICComponentEnumerateOptions"
+f1_keywords:
+- wincodec/WICComponentEnumerateOptions
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICComponentEnumerateOptions
+- WICComponentEnumerateOptions
 targetos: Windows
 req.typenames: WICComponentEnumerateOptions
 req.redist: 

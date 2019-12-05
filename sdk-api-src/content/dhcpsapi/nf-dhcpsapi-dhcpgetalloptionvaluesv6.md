@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetAllOptionValuesV6
 title: DhcpGetAllOptionValuesV6 function (dhcpsapi.h)
-
 description: The DhcpGetAllOptionValuesV6 function returns an array that contains all option values defined for a specific scope on the DHCP server.
 old-location: dhcp\dhcpgetalloptionvaluesv6.htm
 tech.root: DHCP
 ms.assetid: b8be43f1-198b-4c96-a258-014842673192
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpGetAllOptionValuesV6, DhcpGetAllOptionValuesV6 function [DHCP], dhcp.dhcpgetalloptionvaluesv6, dhcpsapi/DhcpGetAllOptionValuesV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetAllOptionValuesV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

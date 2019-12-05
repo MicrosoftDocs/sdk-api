@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.SetThreadPreferredUILanguages
 title: SetThreadPreferredUILanguages function (winnls.h)
-
 description: Sets the thread preferred UI languages for the current thread. For more information, see User Interface Language Management.
 old-location: intl\setthreadpreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 32a8117c-2cb2-4559-8e86-9fad5b28aa5b
-
 ms.date: 12/05/2018
 ms.keywords: MUI_COMPLEX_SCRIPT_FILTER, MUI_CONSOLE_FILTER, MUI_LANGUAGE_ID, MUI_LANGUAGE_NAME, MUI_RESET_FILTERS, SetThreadPreferredUILanguages, SetThreadPreferredUILanguages function [Internationalization for Windows Applications], _win32_SetThreadPreferredUILanguages, intl.setthreadpreferreduilanguages, winnls/SetThreadPreferredUILanguages
 ms.topic: function
-f1_keywords: 
- - "winnls/SetThreadPreferredUILanguages"
+f1_keywords:
+- winnls/SetThreadPreferredUILanguages
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - SetThreadPreferredUILanguages
+- SetThreadPreferredUILanguages
 targetos: Windows
 req.typenames: 
 req.redist: 

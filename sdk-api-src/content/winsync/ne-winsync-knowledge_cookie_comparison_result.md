@@ -1,19 +1,17 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0011
 title: KNOWLEDGE_COOKIE_COMPARISON_RESULT (winsync.h)
-
 description: Represents the possible results when a knowledge cookie is compared with a knowledge object by using ISyncKnowledge2::CompareToKnowledgeCookie.
 old-location: winsync\knowledge_cookie_comparison_result.htm
 tech.root: winsync
 ms.assetid: 9770679e-19ed-49ed-a505-076db6f0119c
-
 ms.date: 12/05/2018
 ms.keywords: KCCR_COOKIE_KNOWLEDGE_CONTAINED, KCCR_COOKIE_KNOWLEDGE_CONTAINS, KCCR_COOKIE_KNOWLEDGE_EQUAL, KCCR_COOKIE_KNOWLEDGE_NOT_COMPARABLE, KNOWLEDGE_COOKIE_COMPARISON_RESULT, KNOWLEDGE_COOKIE_COMPARISON_RESULT enumeration [Windows Sync], winsync.knowledge_cookie_comparison_result, winsync/KCCR_COOKIE_KNOWLEDGE_CONTAINED, winsync/KCCR_COOKIE_KNOWLEDGE_CONTAINS, winsync/KCCR_COOKIE_KNOWLEDGE_EQUAL, winsync/KCCR_COOKIE_KNOWLEDGE_NOT_COMPARABLE, winsync/KNOWLEDGE_COOKIE_COMPARISON_RESULT
 ms.topic: enum
-f1_keywords: 
- - "winsync/KNOWLEDGE_COOKIE_COMPARISON_RESULT"
+f1_keywords:
+- winsync/KNOWLEDGE_COOKIE_COMPARISON_RESULT
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - KNOWLEDGE_COOKIE_COMPARISON_RESULT
+- KNOWLEDGE_COOKIE_COMPARISON_RESULT
 targetos: Windows
 req.typenames: KNOWLEDGE_COOKIE_COMPARISON_RESULT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bluetoothapis.BluetoothUpdateDeviceRecord
 title: BluetoothUpdateDeviceRecord function (bluetoothapis.h)
-
 description: Updates the local computer cache about a Bluetooth device.
 old-location: bluetooth\bluetoothupdatedevicerecord.htm
 tech.root: bluetooth
 ms.assetid: afcf6708-1c2a-43ac-8e5e-1bd0ce7456fc
-
 ms.date: 12/05/2018
 ms.keywords: BluetoothUpdateDeviceRecord, BluetoothUpdateDeviceRecord function [Bluetooth], bluetooth.bluetoothupdatedevicerecord, bluetoothapis/BluetoothUpdateDeviceRecord
 ms.topic: function
-f1_keywords: 
- - "bluetoothapis/BluetoothUpdateDeviceRecord"
+f1_keywords:
+- bluetoothapis/BluetoothUpdateDeviceRecord
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Bthprops.lib
 req.dll: Bthprops.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bthprops.dll
- - BluetoothAPIs.dll
- - Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
+- Bthprops.dll
+- BluetoothAPIs.dll
+- Ext-MS-Win-Bluetooth-APIs-l1-1-0.dll
 api_name:
- - BluetoothUpdateDeviceRecord
+- BluetoothUpdateDeviceRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

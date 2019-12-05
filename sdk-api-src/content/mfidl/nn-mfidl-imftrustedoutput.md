@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTrustedOutput
 title: IMFTrustedOutput (mfidl.h)
-
 description: Implemented by components that provide output trust authorities (OTAs).
 old-location: mf\imftrustedoutput.htm
 tech.root: medfound
 ms.assetid: 14342d8b-3c76-4c13-8cbe-a60bb66084c8
-
 ms.date: 12/05/2018
 ms.keywords: 14342d8b-3c76-4c13-8cbe-a60bb66084c8, IMFTrustedOutput, IMFTrustedOutput interface [Media Foundation], IMFTrustedOutput interface [Media Foundation],described, mf.imftrustedoutput, mfidl/IMFTrustedOutput
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTrustedOutput"
+f1_keywords:
+- mfidl/IMFTrustedOutput
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTrustedOutput
+- IMFTrustedOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

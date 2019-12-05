@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_OperationOptions_SetResourceUriPrefix
 title: MI_OperationOptions_SetResourceUriPrefix function (mi.h)
-
 description: Sets the resource URI prefix to use for an operation.
 old-location: wmi_v2\mi_operationoptions_setresourceuriprefix.htm
 tech.root: wmi_v2
 ms.assetid: 7f384720-7673-4dd2-883f-a52da4a51729
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_SetResourceUriPrefix, MI_OperationOptions_SetResourceUriPrefix function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetResourceUriPrefix, wmi_v2.mi_operationoptions_setresourceuriprefix
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_SetResourceUriPrefix
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

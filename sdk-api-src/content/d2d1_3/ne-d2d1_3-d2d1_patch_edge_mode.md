@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1_3.D2D1_PATCH_EDGE_MODE
 title: D2D1_PATCH_EDGE_MODE (d2d1_3.h)
-
 description: Specifies how to render gradient mesh edges.
 old-location: direct2d\d2d1_patch_edge_mode.htm
 tech.root: Direct2D
 ms.assetid: 5AE38632-B068-4A14-9DAB-67FD58E3894B
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PATCH_EDGE_MODE, D2D1_PATCH_EDGE_MODE enumeration [Direct2D], D2D1_PATCH_EDGE_MODE_ALIASED, D2D1_PATCH_EDGE_MODE_ALIASED_INFLATED, D2D1_PATCH_EDGE_MODE_ANTIALIASED, d2d1_3/D2D1_PATCH_EDGE_MODE, d2d1_3/D2D1_PATCH_EDGE_MODE_ALIASED, d2d1_3/D2D1_PATCH_EDGE_MODE_ALIASED_INFLATED, d2d1_3/D2D1_PATCH_EDGE_MODE_ANTIALIASED, direct2d.d2d1_patch_edge_mode
 ms.topic: enum
-f1_keywords: 
- - "d2d1_3/D2D1_PATCH_EDGE_MODE"
+f1_keywords:
+- d2d1_3/D2D1_PATCH_EDGE_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1_3.h
+- d2d1_3.h
 api_name:
- - D2D1_PATCH_EDGE_MODE
+- D2D1_PATCH_EDGE_MODE
 targetos: Windows
 req.typenames: D2D1_PATCH_EDGE_MODE
 req.redist: 

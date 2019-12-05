@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCmpW
 title: StrCmpW function (shlwapi.h)
-
 description: Compares two strings to determine if they are the same. The comparison is case-sensitive.
 old-location: shell\StrCmp.htm
 tech.root: shell
 ms.assetid: 12530a04-776c-4506-86d1-07e2c3569a36
-
 ms.date: 12/05/2018
 ms.keywords: StrCmp, StrCmp function [Windows Shell], StrCmpW, _win32_StrCmp, shell.StrCmp, shlwapi/StrCmp, shlwapi/StrCmpW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCmp"
+f1_keywords:
+- shlwapi/StrCmp
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCmp
- - StrCmpW
+- StrCmp
+- StrCmpW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:featurestagingapi.RecordFeatureUsage
 title: RecordFeatureUsage function (featurestagingapi.h)
-
 description: This function is intended for infrastructure use only.
 old-location: winprog\recordfeatureusage.htm
 tech.root: DevNotes
 ms.assetid: B3DC323F-C4F3-4B56-AE55-CD62876F016B
-
 ms.date: 12/05/2018
 ms.keywords: RecordFeatureUsage, RecordFeatureUsage function [Windows API], featurestagingapi/RecordFeatureUsage, winprog.recordfeatureusage
 ms.topic: function
-f1_keywords: 
- - "featurestagingapi/RecordFeatureUsage"
+f1_keywords:
+- featurestagingapi/RecordFeatureUsage
 dev_langs:
- - c++
+- c++
 req.header: featurestagingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shcore.lib
 req.dll: Api-ms-win-core-featurestaging-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-featurestaging-l1-1-0.dll
+- api-ms-win-core-featurestaging-l1-1-0.dll
 api_name:
- - RecordFeatureUsage
+- RecordFeatureUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

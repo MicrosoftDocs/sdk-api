@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.GetRemovedDestinations
 title: ICustomDestinationList::GetRemovedDestinations (shobjidl_core.h)
-
 description: Retrieves the current list of destinations that have been removed by the user from the existing Jump List that this custom Jump List is meant to replace.
 old-location: shell\ICustomDestinationList_GetRemovedDestinations.htm
 tech.root: shell
 ms.assetid: 705763cf-a97f-430f-bfc3-916e943668ef
-
 ms.date: 12/05/2018
 ms.keywords: GetRemovedDestinations, GetRemovedDestinations method [Windows Shell], GetRemovedDestinations method [Windows Shell],ICustomDestinationList interface, ICustomDestinationList interface [Windows Shell],GetRemovedDestinations method, ICustomDestinationList.GetRemovedDestinations, ICustomDestinationList::GetRemovedDestinations, _shell_ICustomDestinationList_GetRemovedDestinations, shell.ICustomDestinationList_GetRemovedDestinations, shobjidl_core/ICustomDestinationList::GetRemovedDestinations
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICustomDestinationList.GetRemovedDestinations"
+f1_keywords:
+- shobjidl_core/ICustomDestinationList.GetRemovedDestinations
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICustomDestinationList.GetRemovedDestinations
+- ICustomDestinationList.GetRemovedDestinations
 targetos: Windows
 req.typenames: 
 req.redist: 

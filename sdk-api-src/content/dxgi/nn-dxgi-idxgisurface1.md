@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi.IDXGISurface1
 title: IDXGISurface1 (dxgi.h)
-
 description: The IDXGISurface1 interface extends the IDXGISurface by adding support for using Windows Graphics Device Interface (GDI) to render to a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
 old-location: direct3ddxgi\idxgisurface1.htm
 tech.root: direct3ddxgi
 ms.assetid: 99ece4f3-1bad-46b8-94a9-6ef559864b1c
-
 ms.date: 12/05/2018
 ms.keywords: 3c2c6548-026c-d082-91b7-abb986ff3a00, IDXGISurface1, IDXGISurface1 interface [DXGI], IDXGISurface1 interface [DXGI],described, direct3ddxgi.idxgisurface1, dxgi/IDXGISurface1
 ms.topic: interface
-f1_keywords: 
- - "dxgi/IDXGISurface1"
+f1_keywords:
+- dxgi/IDXGISurface1
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGISurface1
+- IDXGISurface1
 targetos: Windows
 req.typenames: 
 req.redist: 

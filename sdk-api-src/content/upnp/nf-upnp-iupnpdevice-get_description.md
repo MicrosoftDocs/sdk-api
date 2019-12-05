@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Description
 title: IUPnPDevice::get_Description (upnp.h)
-
 description: The Description property specifies a human-readable summary of the device's functionality.
 old-location: upnp\iupnpdevice_description.htm
 tech.root: upnp
 ms.assetid: 99842f92-b57d-43fa-aa44-412f260b8af3
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_Description method, IUPnPDevice.get_Description, IUPnPDevice::get_Description, _upnp_iupnpdevice_description, get_Description, get_Description method [UPnP APIs], get_Description method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_description, upnp/IUPnPDevice::get_Description
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_Description"
+f1_keywords:
+- upnp/IUPnPDevice.get_Description
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_Description
+- IUPnPDevice.get_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

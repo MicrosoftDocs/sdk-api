@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSimpleAudioVolume.SetMute
 title: IMFSimpleAudioVolume::SetMute (mfidl.h)
-
 description: Mutes or unmutes the audio.
 old-location: mf\imfsimpleaudiovolume_setmute.htm
 tech.root: medfound
 ms.assetid: d8840d15-d4d5-481e-9002-54fdbf323c9c
-
 ms.date: 12/05/2018
 ms.keywords: IMFSimpleAudioVolume interface [Media Foundation],SetMute method, IMFSimpleAudioVolume.SetMute, IMFSimpleAudioVolume::SetMute, SetMute, SetMute method [Media Foundation], SetMute method [Media Foundation],IMFSimpleAudioVolume interface, d8840d15-d4d5-481e-9002-54fdbf323c9c, mf.imfsimpleaudiovolume_setmute, mfidl/IMFSimpleAudioVolume::SetMute
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSimpleAudioVolume.SetMute"
+f1_keywords:
+- mfidl/IMFSimpleAudioVolume.SetMute
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSimpleAudioVolume.SetMute
+- IMFSimpleAudioVolume.SetMute
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBundleFactory.CreateBundleReader
 title: IAppxBundleFactory::CreateBundleReader (appxpackaging.h)
-
 description: Creates a read-only bundle object that reads its contents from an IStream object.
 old-location: appxpkg\iappxbundlefactory_createbundlereader.htm
 tech.root: appxpkg
 ms.assetid: 3D9F7A0A-EF6A-4C99-B9A0-C618138DB5ED
-
 ms.date: 12/05/2018
 ms.keywords: CreateBundleReader, CreateBundleReader method [App packaging and management], CreateBundleReader method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleReader method, IAppxBundleFactory.CreateBundleReader, IAppxBundleFactory::CreateBundleReader, appxpackaging/IAppxBundleFactory::CreateBundleReader, appxpkg.iappxbundlefactory_createbundlereader
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBundleFactory.CreateBundleReader"
+f1_keywords:
+- appxpackaging/IAppxBundleFactory.CreateBundleReader
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleFactory.CreateBundleReader
+- IAppxBundleFactory.CreateBundleReader
 targetos: Windows
 req.typenames: 
 req.redist: 

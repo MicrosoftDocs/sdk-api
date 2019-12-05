@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSuspend.SuspendRoot
 title: IOfflineFilesSuspend::SuspendRoot (cscobj.h)
-
 description: Suspend or release a share root or directory tree.
 old-location: of\iofflinefilessuspend_suspendroot.htm
 tech.root: offlinefiles
 ms.assetid: 5307bc8c-e6e9-4ae7-b2da-036fc9c5c08d
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesSuspend interface [Offline Files],SuspendRoot method, IOfflineFilesSuspend.SuspendRoot, IOfflineFilesSuspend::SuspendRoot, SuspendRoot, SuspendRoot method [Offline Files], SuspendRoot method [Offline Files],IOfflineFilesSuspend interface, cscobj/IOfflineFilesSuspend::SuspendRoot, of.iofflinefilessuspend_suspendroot
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSuspend.SuspendRoot"
+f1_keywords:
+- cscobj/IOfflineFilesSuspend.SuspendRoot
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSuspend.SuspendRoot
+- IOfflineFilesSuspend.SuspendRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

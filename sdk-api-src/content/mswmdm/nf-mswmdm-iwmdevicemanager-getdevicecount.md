@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager.GetDeviceCount
 title: IWMDeviceManager::GetDeviceCount (mswmdm.h)
-
 description: The GetDeviceCount method retrieves the number of portable devices that are currently connected to the computer.
 old-location: wmdm\iwmdevicemanager_getdevicecount.htm
 tech.root: WMDM
 ms.assetid: efa8ccf6-c796-4ed7-8fe0-2e6570292aaa
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceCount, GetDeviceCount method [windows Media Device Manager], GetDeviceCount method [windows Media Device Manager],IWMDeviceManager interface, IWMDeviceManager interface [windows Media Device Manager],GetDeviceCount method, IWMDeviceManager.GetDeviceCount, IWMDeviceManager::GetDeviceCount, IWMDeviceManagerGetDeviceCount, mswmdm/IWMDeviceManager::GetDeviceCount, wmdm.iwmdevicemanager_getdevicecount
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDeviceManager.GetDeviceCount"
+f1_keywords:
+- mswmdm/IWMDeviceManager.GetDeviceCount
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDeviceManager.GetDeviceCount
+- IWMDeviceManager.GetDeviceCount
 targetos: Windows
 req.typenames: 
 req.redist: 

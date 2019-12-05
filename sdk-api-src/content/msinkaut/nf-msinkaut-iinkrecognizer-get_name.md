@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_Name
 title: IInkRecognizer::get_Name (msinkaut.h)
-
 description: Gets the name of the object.
 old-location: tablet\iinkrecognizer_name.htm
 tech.root: tablet
 ms.assetid: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7
-
 ms.date: 12/05/2018
 ms.keywords: 701951fd-ffb9-40fd-bb2c-7cdeb330f9b7, IInkRecognizer interface [Tablet PC],Name property, IInkRecognizer.Name, IInkRecognizer.get_Name, IInkRecognizer::Name, IInkRecognizer::get_Name, Name property [Tablet PC], Name property [Tablet PC],IInkRecognizer interface, get_Name, msinkaut/IInkRecognizer::Name, msinkaut/IInkRecognizer::get_Name, tablet.iinkrecognizer_name
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizer.Name"
+f1_keywords:
+- msinkaut/IInkRecognizer.Name
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizer.Name
- - IInkRecognizer.get_Name
- - IInkRecognizer.get_Name
+- IInkRecognizer.Name
+- IInkRecognizer.get_Name
+- IInkRecognizer.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

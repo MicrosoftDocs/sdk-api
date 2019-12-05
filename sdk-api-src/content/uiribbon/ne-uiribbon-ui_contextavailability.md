@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_CONTEXTAVAILABILITY
 title: UI_CONTEXTAVAILABILITY (uiribbon.h)
-
 description: Specifies values that identify the availability of a contextual tab.
 old-location: windowsribbon\windowsribbon_ui_contextavailability.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_contextavailability.htm
-
 ms.date: 12/05/2018
 ms.keywords: UI_CONTEXTAVAILABILITY, UI_CONTEXTAVAILABILITY enumeration [Windows Ribbon], UI_CONTEXTAVAILABILITY_ACTIVE, UI_CONTEXTAVAILABILITY_AVAILABLE, UI_CONTEXTAVAILABILITY_NOTAVAILABLE, scenicintent_UI_CONTEXTAVAILABILITY, uiribbon/UI_CONTEXTAVAILABILITY, uiribbon/UI_CONTEXTAVAILABILITY_ACTIVE, uiribbon/UI_CONTEXTAVAILABILITY_AVAILABLE, uiribbon/UI_CONTEXTAVAILABILITY_NOTAVAILABLE, windowsribbon.windowsribbon_ui_contextavailability
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_CONTEXTAVAILABILITY"
+f1_keywords:
+- uiribbon/UI_CONTEXTAVAILABILITY
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_CONTEXTAVAILABILITY
+- UI_CONTEXTAVAILABILITY
 targetos: Windows
 req.typenames: UI_CONTEXTAVAILABILITY
 req.redist: 

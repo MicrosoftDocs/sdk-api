@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetBitmapDimensionEx
 title: GetBitmapDimensionEx function (wingdi.h)
-
 description: The GetBitmapDimensionEx function retrieves the dimensions of a compatible bitmap. The retrieved dimensions must have been set by the SetBitmapDimensionEx function.
 old-location: gdi\getbitmapdimensionex.htm
 tech.root: gdi
 ms.assetid: 3e4f5afc-26d3-4fb2-8d00-183165fdf471
-
 ms.date: 12/05/2018
 ms.keywords: GetBitmapDimensionEx, GetBitmapDimensionEx function [Windows GDI], _win32_GetBitmapDimensionEx, gdi.getbitmapdimensionex, wingdi/GetBitmapDimensionEx
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetBitmapDimensionEx"
+f1_keywords:
+- wingdi/GetBitmapDimensionEx
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetBitmapDimensionEx
+- GetBitmapDimensionEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcImpersonateClientContainer
 title: RpcImpersonateClientContainer function (rpcdce.h)
-
 description: RpcImpersonateClientContainer may be altered or unavailable.
 old-location: rpc\rpcimpersonateclientcontainer.htm
 tech.root: Rpc
 ms.assetid: C81E71C9-C044-487E-BFD7-859775E877F0
-
 ms.date: 12/05/2018
 ms.keywords: RpcImpersonateClientContainer, RpcImpersonateClientContainer function [RPC], rpc.rpcimpersonateclientcontainer, rpcdce/RpcImpersonateClientContainer
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcImpersonateClientContainer"
+f1_keywords:
+- rpcdce/RpcImpersonateClientContainer
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcImpersonateClientContainer
+- RpcImpersonateClientContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

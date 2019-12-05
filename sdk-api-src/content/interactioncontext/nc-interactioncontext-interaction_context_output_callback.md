@@ -1,19 +1,17 @@
 ---
 UID: NC:interactioncontext.INTERACTION_CONTEXT_OUTPUT_CALLBACK
 title: INTERACTION_CONTEXT_OUTPUT_CALLBACK (interactioncontext.h)
-
 description: Callback that receives events from an Interaction Context object.
 old-location: input_intcontext\interaction_context_output_callback.htm
 tech.root: Input_IntContext
 ms.assetid: 7d2badad-5b98-4717-9409-5ee75d8fa213
-
 ms.date: 12/05/2018
 ms.keywords: INTERACTION_CONTEXT_OUTPUT_CALLBACK, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback, INTERACTION_CONTEXT_OUTPUT_CALLBACK callback function, input_intcontext.interaction_context_output_callback, interactioncontext.interaction_context_output_callback, interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK
 ms.topic: callback
-f1_keywords: 
- - "interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK"
+f1_keywords:
+- interactioncontext/INTERACTION_CONTEXT_OUTPUT_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - interactioncontext.h
+- interactioncontext.h
 api_name:
- - INTERACTION_CONTEXT_OUTPUT_CALLBACK
+- INTERACTION_CONTEXT_OUTPUT_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

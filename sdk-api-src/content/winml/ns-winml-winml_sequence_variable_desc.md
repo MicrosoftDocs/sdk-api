@@ -1,19 +1,17 @@
 ---
 UID: NS:winml.WINML_SEQUENCE_VARIABLE_DESC
 title: WINML_SEQUENCE_VARIABLE_DESC (winml.h)
-
 description: Contains description properties of the sequence variable.
 old-location: machinelearning\winml_sequence_variable_desc.htm
 tech.root: MachineLearning
 ms.assetid: 6350AFEE-8E1A-4C21-8017-9D3E9EC601F8
-
 ms.date: 12/05/2018
 ms.keywords: MachineLearning.winml_sequence_variable_desc, PWINML_SEQUENCE_VARIABLE_DESC, PWINML_SEQUENCE_VARIABLE_DESC structure pointer, WINML_SEQUENCE_VARIABLE_DESC, WINML_SEQUENCE_VARIABLE_DESC structure, winml/PWINML_SEQUENCE_VARIABLE_DESC, winml/WINML_SEQUENCE_VARIABLE_DESC
 ms.topic: struct
-f1_keywords: 
- - "winml/WINML_SEQUENCE_VARIABLE_DESC"
+f1_keywords:
+- winml/WINML_SEQUENCE_VARIABLE_DESC
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winml.h
+- winml.h
 api_name:
- - WINML_SEQUENCE_VARIABLE_DESC
+- WINML_SEQUENCE_VARIABLE_DESC
 targetos: Windows
 req.typenames: WINML_SEQUENCE_VARIABLE_DESC
 req.redist: 

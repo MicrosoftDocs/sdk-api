@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfDisplayAttributeInfo.Reset
 title: ITfDisplayAttributeInfo::Reset (msctf.h)
-
 description: ITfDisplayAttributeInfo::Reset method
 old-location: tsf\itfdisplayattributeinfo_reset.htm
 tech.root: TSF
 ms.assetid: f7a95bb4-a2f1-4734-8a71-286591544984
-
 ms.date: 12/05/2018
 ms.keywords: ITfDisplayAttributeInfo interface [Text Services Framework],Reset method, ITfDisplayAttributeInfo.Reset, ITfDisplayAttributeInfo::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],ITfDisplayAttributeInfo interface, _tsf_itfdisplayattributeinfo_reset_ref, msctf/ITfDisplayAttributeInfo::Reset, tsf.itfdisplayattributeinfo_reset
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfDisplayAttributeInfo.Reset"
+f1_keywords:
+- msctf/ITfDisplayAttributeInfo.Reset
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfDisplayAttributeInfo.Reset
+- ITfDisplayAttributeInfo.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

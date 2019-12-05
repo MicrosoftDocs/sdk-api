@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocator9.GetSurface
 title: IVMRSurfaceAllocator9::GetSurface (vmr9.h)
-
 description: The GetSurface method gets a Direct3D surface from the allocator-presenter.
 old-location: dshow\ivmrsurfaceallocator9_getsurface.htm
 tech.root: DirectShow
 ms.assetid: b14c7744-b5e5-484e-b5f3-99c4185a4e7c
-
 ms.date: 12/05/2018
 ms.keywords: GetSurface, GetSurface method [DirectShow], GetSurface method [DirectShow],IVMRSurfaceAllocator9 interface, IVMRSurfaceAllocator9 interface [DirectShow],GetSurface method, IVMRSurfaceAllocator9.GetSurface, IVMRSurfaceAllocator9::GetSurface, IVMRSurfaceAllocator9GetSurface, dshow.ivmrsurfaceallocator9_getsurface, vmr9/IVMRSurfaceAllocator9::GetSurface
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurfaceAllocator9.GetSurface"
+f1_keywords:
+- vmr9/IVMRSurfaceAllocator9.GetSurface
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator9.GetSurface
+- IVMRSurfaceAllocator9.GetSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

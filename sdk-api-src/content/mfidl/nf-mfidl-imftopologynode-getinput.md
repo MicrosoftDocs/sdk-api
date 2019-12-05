@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetInput
 title: IMFTopologyNode::GetInput (mfidl.h)
-
 description: Retrieves the node that is connected to a specified input stream on this node.
 old-location: mf\imftopologynode_getinput.htm
 tech.root: medfound
 ms.assetid: 49969e6d-c893-4f6f-8c1d-87d32405a65d
-
 ms.date: 12/05/2018
 ms.keywords: 49969e6d-c893-4f6f-8c1d-87d32405a65d, GetInput, GetInput method [Media Foundation], GetInput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetInput method, IMFTopologyNode.GetInput, IMFTopologyNode::GetInput, mf.imftopologynode_getinput, mfidl/IMFTopologyNode::GetInput
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetInput"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetInput
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetInput
+- IMFTopologyNode.GetInput
 targetos: Windows
 req.typenames: 
 req.redist: 

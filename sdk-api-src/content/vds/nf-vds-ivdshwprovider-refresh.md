@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsHwProvider.Refresh
 title: IVdsHwProvider::Refresh (vds.h)
-
 description: Refreshes VDS's internally cached data about existing subsystems that are managed by VDS providers.
 old-location: base\ivdshwprovider_refresh.htm
 tech.root: VDS
 ms.assetid: 25ddc73c-5d1b-4bec-bbc2-9f22a5f82ffe
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProvider interface [VDS],Refresh method, IVdsHwProvider.Refresh, IVdsHwProvider::Refresh, Refresh, Refresh method [VDS], Refresh method [VDS],IVdsHwProvider interface, base.ivdshwprovider_refresh, vds/IVdsHwProvider::Refresh, vdshwprv/IVdsHwProvider::Refresh
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsHwProvider.Refresh"
+f1_keywords:
+- vds/IVdsHwProvider.Refresh
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProvider.Refresh
+- IVdsHwProvider.Refresh
 targetos: Windows
 req.typenames: 
 req.redist: 

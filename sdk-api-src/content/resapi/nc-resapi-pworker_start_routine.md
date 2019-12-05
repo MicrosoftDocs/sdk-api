@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PWORKER_START_ROUTINE
 title: PWORKER_START_ROUTINE (resapi.h)
-
 description: Initializes a worker thread with the specified callback routine. The PWORKER_START_ROUTINE type defines a pointer to this function.
 old-location: mscs\pworker_start_routine.htm
 tech.root: MsCS
 ms.assetid: d46eaaa7-241a-40a5-a691-68631565e2e7
-
 ms.date: 12/05/2018
 ms.keywords: PWORKER_START_ROUTINE, PWORKER_START_ROUTINE callback function [Failover Cluster], WorkerStartRoutine, WorkerStartRoutine callback, WorkerStartRoutine callback function [Failover Cluster], mscs.pworker_start_routine, resapi/PWORKER_START_ROUTINE, resapi/WorkerStartRoutine
 ms.topic: callback
-f1_keywords: 
- - "resapi/WorkerStartRoutine"
+f1_keywords:
+- resapi/WorkerStartRoutine
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - WorkerStartRoutine
+- WorkerStartRoutine
 targetos: Windows
 req.typenames: 
 req.redist: 

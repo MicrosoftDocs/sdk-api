@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineClassFactoryEx
 title: IMFMediaEngineClassFactoryEx (mfmediaengine.h)
-
 description: Extension for the IMFMediaEngineClassFactory interface.
 old-location: mf\imfmediaengineclassfactoryex.htm
 tech.root: medfound
 ms.assetid: d672ee59-f702-49c7-8ccf-5ba0260c9b23
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactoryEx, IMFMediaEngineClassFactoryEx interface [Media Foundation], IMFMediaEngineClassFactoryEx interface [Media Foundation],described, mf.imfmediaengineclassfactoryex, mfmediaengine/IMFMediaEngineClassFactoryEx
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactoryEx"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactoryEx
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactoryEx
+- IMFMediaEngineClassFactoryEx
 targetos: Windows
 req.typenames: 
 req.redist: 

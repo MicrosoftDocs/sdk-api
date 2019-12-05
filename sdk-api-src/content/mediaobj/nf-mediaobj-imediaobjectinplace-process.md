@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.Process
 title: IMediaObjectInPlace::Process (mediaobj.h)
-
 description: The Process method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.
 old-location: dshow\imediaobjectinplace_process.htm
 tech.root: DirectShow
 ms.assetid: 567117cd-db7b-4764-9c88-ab898a64b56a
-
 ms.date: 12/05/2018
 ms.keywords: IMediaObjectInPlace interface [DirectShow],Process method, IMediaObjectInPlace.Process, IMediaObjectInPlace::Process, IMediaObjectInPlaceProcess, Process, Process method [DirectShow], Process method [DirectShow],IMediaObjectInPlace interface, dshow.imediaobjectinplace_process, mediaobj/IMediaObjectInPlace::Process
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IMediaObjectInPlace.Process"
+f1_keywords:
+- mediaobj/IMediaObjectInPlace.Process
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaObjectInPlace.Process
+- IMediaObjectInPlace.Process
 targetos: Windows
 req.typenames: 
 req.redist: 

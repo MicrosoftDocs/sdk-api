@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIDevice2.EnqueueSetEvent
 title: IDXGIDevice2::EnqueueSetEvent (dxgi1_2.h)
-
 description: Flushes any outstanding rendering commands and sets the specified event object to the signaled state after all previously submitted rendering commands complete.
 old-location: direct3ddxgi\idxgidevice2_enqueuesetevent.htm
 tech.root: direct3ddxgi
 ms.assetid: CECF3ED6-A025-48C4-A7E2-971B86A262F0
-
 ms.date: 12/05/2018
 ms.keywords: EnqueueSetEvent, EnqueueSetEvent method [DXGI], EnqueueSetEvent method [DXGI],IDXGIDevice2 interface, IDXGIDevice2 interface [DXGI],EnqueueSetEvent method, IDXGIDevice2.EnqueueSetEvent, IDXGIDevice2::EnqueueSetEvent, direct3ddxgi.idxgidevice2_enqueuesetevent, dxgi1_2/IDXGIDevice2::EnqueueSetEvent
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIDevice2.EnqueueSetEvent"
+f1_keywords:
+- dxgi1_2/IDXGIDevice2.EnqueueSetEvent
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIDevice2.EnqueueSetEvent
+- IDXGIDevice2.EnqueueSetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

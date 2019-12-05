@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_HANDLE_OPERATION_LIST
 title: MINIDUMP_HANDLE_OPERATION_LIST (minidumpapiset.h)
-
 description: Contains a list of handle operations.
 old-location: base\minidump_handle_operation_list.htm
 tech.root: Debug
 ms.assetid: f7666ff5-a1ae-4ffb-b4ee-9fe5bb58fd36
-
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST structure, PMINIDUMP_HANDLE_OPERATION_LIST, PMINIDUMP_HANDLE_OPERATION_LIST structure pointer, _MINIDUMP_HANDLE_OPERATION_LISTa, base.minidump_handle_operation_list, minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST, minidumpapiset/PMINIDUMP_HANDLE_OPERATION_LIST'
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: Dbghelp.h
 req.target-type: Windows

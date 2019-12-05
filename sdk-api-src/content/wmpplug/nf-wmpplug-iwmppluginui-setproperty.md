@@ -1,19 +1,17 @@
 ---
 UID: NF:wmpplug.IWMPPluginUI.SetProperty
 title: IWMPPluginUI::SetProperty (wmpplug.h)
-
 description: The SetProperty method is called by Windows Media Player to set name/value property pairs for the plug-in.
 old-location: wmp\iwmppluginui_setproperty.htm
 tech.root: WMP
 ms.assetid: 33b36239-3bda-44d3-8f85-7826bd8d3376
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPluginUI interface [Windows Media Player],SetProperty method, IWMPPluginUI.SetProperty, IWMPPluginUI::SetProperty, IWMPPluginUISetProperty, SetProperty, SetProperty method [Windows Media Player], SetProperty method [Windows Media Player],IWMPPluginUI interface, wmp.iwmppluginui_setproperty, wmpplug/IWMPPluginUI::SetProperty
 ms.topic: method
-f1_keywords: 
- - "wmpplug/IWMPPluginUI.SetProperty"
+f1_keywords:
+- wmpplug/IWMPPluginUI.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: wmpplug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmpplug.h
+- wmpplug.h
 api_name:
- - IWMPPluginUI.SetProperty
+- IWMPPluginUI.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

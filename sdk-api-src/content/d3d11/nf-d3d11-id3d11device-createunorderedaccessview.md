@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateUnorderedAccessView
 title: ID3D11Device::CreateUnorderedAccessView (d3d11.h)
-
 description: Creates a view for accessing an unordered access resource.
 old-location: direct3d11\id3d11device_createunorderedaccessview.htm
 tech.root: direct3d11
 ms.assetid: 85b85114-4e3f-407e-879c-ef4c120cb3c1
-
 ms.date: 12/05/2018
 ms.keywords: CreateUnorderedAccessView, CreateUnorderedAccessView method [Direct3D 11], CreateUnorderedAccessView method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateUnorderedAccessView method, ID3D11Device.CreateUnorderedAccessView, ID3D11Device::CreateUnorderedAccessView, d3d11/ID3D11Device::CreateUnorderedAccessView, direct3d11.id3d11device_createunorderedaccessview, e40c2139-4401-eb51-d806-6b5f91c06ee6
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateUnorderedAccessView"
+f1_keywords:
+- d3d11/ID3D11Device.CreateUnorderedAccessView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateUnorderedAccessView
+- ID3D11Device.CreateUnorderedAccessView
 targetos: Windows
 req.typenames: 
 req.redist: 

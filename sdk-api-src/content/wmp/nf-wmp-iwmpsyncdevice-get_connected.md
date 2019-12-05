@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_connected
 title: IWMPSyncDevice::get_connected (wmp.h)
-
 description: The get_connected method retrieves a value indicating whether the device is connected to Windows Media Player.
 old-location: wmp\iwmpsyncdevice_get_connected.htm
 tech.root: WMP
 ms.assetid: c22f4247-8df9-4ac6-ad27-a0e34780b832
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_connected method, IWMPSyncDevice.get_connected, IWMPSyncDevice::get_connected, IWMPSyncDeviceget_connected, get_connected, get_connected method [Windows Media Player], get_connected method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_connected, wmp/IWMPSyncDevice::get_connected
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.get_connected"
+f1_keywords:
+- wmp/IWMPSyncDevice.get_connected
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.get_connected
+- IWMPSyncDevice.get_connected
 targetos: Windows
 req.typenames: 
 req.redist: 

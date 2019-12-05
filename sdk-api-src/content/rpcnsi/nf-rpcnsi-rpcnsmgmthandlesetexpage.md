@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtHandleSetExpAge
 title: RpcNsMgmtHandleSetExpAge function (rpcnsi.h)
-
 description: The RpcNsMgmtHandleSetExpAge function sets the expiration age of a name-service handle for local copies of name-service data.
 old-location: rpc\rpcnsmgmthandlesetexpage.htm
 tech.root: Rpc
 ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsMgmtHandleSetExpAge, RpcNsMgmtHandleSetExpAge function [RPC], _rpc_rpcnsmgmthandlesetexpage, rpc.rpcnsmgmthandlesetexpage, rpcnsi/RpcNsMgmtHandleSetExpAge
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsMgmtHandleSetExpAge"
+f1_keywords:
+- rpcnsi/RpcNsMgmtHandleSetExpAge
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsMgmtHandleSetExpAge
+- RpcNsMgmtHandleSetExpAge
 targetos: Windows
 req.typenames: 
 req.redist: 

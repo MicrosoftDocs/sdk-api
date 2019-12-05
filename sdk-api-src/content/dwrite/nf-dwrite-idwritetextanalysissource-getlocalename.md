@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetLocaleName
 title: IDWriteTextAnalysisSource::GetLocaleName (dwrite.h)
-
 description: Gets the locale name on the range affected by the text analysis.
 old-location: directwrite\idwritetextanalysissource_getlocalename.htm
 tech.root: DirectWrite
 ms.assetid: 88a2474b-c14d-41ce-9687-f498644c0315
-
 ms.date: 12/05/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetLocaleName method, IDWriteTextAnalysisSource.GetLocaleName, IDWriteTextAnalysisSource::GetLocaleName, directwrite.idwritetextanalysissource_getlocalename, dwrite/IDWriteTextAnalysisSource::GetLocaleName
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSource.GetLocaleName"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSource.GetLocaleName
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSource.GetLocaleName
+- IDWriteTextAnalysisSource.GetLocaleName
 targetos: Windows
 req.typenames: 
 req.redist: 

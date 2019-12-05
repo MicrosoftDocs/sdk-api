@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaControl.Stop
 title: IMediaControl::Stop (control.h)
-
 description: The Stop method stops all the filters in the graph.
 old-location: dshow\imediacontrol_stop.htm
 tech.root: DirectShow
 ms.assetid: 89e48d43-a31f-4912-98ff-36ba2069812d
-
 ms.date: 12/05/2018
 ms.keywords: IMediaControl interface [DirectShow],Stop method, IMediaControl.Stop, IMediaControl::Stop, IMediaControlStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IMediaControl interface, control/IMediaControl::Stop, dshow.imediacontrol_stop
 ms.topic: method
-f1_keywords: 
- - "control/IMediaControl.Stop"
+f1_keywords:
+- control/IMediaControl.Stop
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaControl.Stop
+- IMediaControl.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

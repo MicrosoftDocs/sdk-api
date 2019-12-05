@@ -1,19 +1,17 @@
 ---
 UID: NS:cfgmgr32.IO_Range_s
 title: IO_RANGE (cfgmgr32.h)
-
 description: The IO_RANGE structure specifies a resource requirements list that describes I/O port usage for a device instance. For more information about resource requirements lists, see Hardware Resources.
 old-location: devinst\io_range.htm
 tech.root: devinst
 ms.assetid: 1793684b-b4c4-4467-9ac9-8c6b1eea65e3
-
 ms.date: 12/05/2018
-ms.keywords: "*PIO_RANGE, IO_RANGE, IO_RANGE structure [Device and Driver Installation], PIO_RANGE, PIO_RANGE structure pointer [Device and Driver Installation], cfgmgr32/IO_RANGE, cfgmgr32/PIO_RANGE, cfgmgrst_50f5c8b2-3154-4bda-aee0-3a8aea22ff4a.xml, devinst.io_range"
+ms.keywords: '*PIO_RANGE, IO_RANGE, IO_RANGE structure [Device and Driver Installation], PIO_RANGE, PIO_RANGE structure pointer [Device and Driver Installation], cfgmgr32/IO_RANGE, cfgmgr32/PIO_RANGE, cfgmgrst_50f5c8b2-3154-4bda-aee0-3a8aea22ff4a.xml, devinst.io_range'
 ms.topic: struct
-f1_keywords: 
- - "cfgmgr32/IO_RANGE"
+f1_keywords:
+- cfgmgr32/IO_RANGE
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Cfgmgr32.h
+- Cfgmgr32.h
 api_name:
- - IO_RANGE
+- IO_RANGE
 targetos: Windows
 req.typenames: IO_RANGE, *PIO_RANGE
 req.redist: 

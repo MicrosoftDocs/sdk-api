@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CloseWindowStation
 title: CloseWindowStation function (winuser.h)
-
 description: Closes an open window station handle.
 old-location: winstation\closewindowstation.htm
 tech.root: winstation
 ms.assetid: 417cb01b-c206-4b5b-9516-94e5d90717f4
-
 ms.date: 12/05/2018
 ms.keywords: CloseWindowStation, CloseWindowStation function [Windows Stations and Desktops], _win32_closewindowstation, base.closewindowstation, winstation.closewindowstation, winuser/CloseWindowStation
 ms.topic: function
-f1_keywords: 
- - "winuser/CloseWindowStation"
+f1_keywords:
+- winuser/CloseWindowStation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
- - api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
+- api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - CloseWindowStation
+- CloseWindowStation
 targetos: Windows
 req.typenames: 
 req.redist: 

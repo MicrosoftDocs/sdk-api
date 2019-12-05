@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMLoadUByte4
 title: XMLoadUByte4 function (directxpackedvector.h)
-
 description: Loads an XMUBYTE4 into an XMVECTOR.
 old-location: dxmath\xmloadubyte4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUByte4(const XMUBYTE4)
-
 ms.date: 12/05/2018
 ms.keywords: DirectX::PackedVector.XMLoadUByte4, XMLoadUByte4, XMLoadUByte4 method [DirectX Math Support APIs], dxmath.xmloadubyte4
 ms.topic: function
-f1_keywords: 
- - "directxpackedvector/XMLoadUByte4"
+f1_keywords:
+- directxpackedvector/XMLoadUByte4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.h
+- directxpackedvector.h
 api_name:
- - XMLoadUByte4
+- XMLoadUByte4
 targetos: Windows
 req.typenames: 
 req.redist: 

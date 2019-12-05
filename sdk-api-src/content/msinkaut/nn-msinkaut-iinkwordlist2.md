@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkWordList2
 title: IInkWordList2 (msinkaut.h)
-
 description: Adds members to the InkWordList Class.
 old-location: tablet\iinkwordlist2.htm
 tech.root: tablet
 ms.assetid: 16be0c11-7525-4e6e-9556-e7308c1919cf
-
 ms.date: 12/05/2018
 ms.keywords: 16be0c11-7525-4e6e-9556-e7308c1919cf, IInkWordList2, IInkWordList2 interface [Tablet PC], IInkWordList2 interface [Tablet PC],described, msinkaut/IInkWordList2, tablet.iinkwordlist2
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkWordList2"
+f1_keywords:
+- msinkaut/IInkWordList2
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkWordList2
+- IInkWordList2
 targetos: Windows
 req.typenames: 
 req.redist: 

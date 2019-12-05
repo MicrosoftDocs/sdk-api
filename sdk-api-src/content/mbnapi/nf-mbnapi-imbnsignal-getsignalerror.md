@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSignal.GetSignalError
 title: IMbnSignal::GetSignalError (mbnapi.h)
-
 description: Gets the received signal error rate.
 old-location: mbn\imbnsignal_getsignalerror.htm
 tech.root: mbn
 ms.assetid: 028adb54-9c81-4a5b-85f7-5c12ce8d84e4
-
 ms.date: 12/05/2018
 ms.keywords: GetSignalError, GetSignalError method [Microsoft Broadband Networks], GetSignalError method [Microsoft Broadband Networks],IMbnSignal interface, IMbnSignal interface [Microsoft Broadband Networks],GetSignalError method, IMbnSignal.GetSignalError, IMbnSignal::GetSignalError, mbn.imbnsignal_getsignalerror, mbnapi/IMbnSignal::GetSignalError
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSignal.GetSignalError"
+f1_keywords:
+- mbnapi/IMbnSignal.GetSignalError
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSignal.GetSignalError
+- IMbnSignal.GetSignalError
 targetos: Windows
 req.typenames: 
 req.redist: 

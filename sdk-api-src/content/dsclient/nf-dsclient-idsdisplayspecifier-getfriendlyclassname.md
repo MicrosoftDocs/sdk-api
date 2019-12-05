@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetFriendlyClassName
 title: IDsDisplaySpecifier::GetFriendlyClassName (dsclient.h)
-
 description: The IDsDisplaySpecifier::GetFriendlyClassName method retrieves the localized name for an object class.
 old-location: ad\idsdisplayspecifier_getfriendlyclassname.htm
 tech.root: ad
 ms.assetid: 192e2a57-6bde-4357-893e-37f466588b55
-
 ms.date: 12/05/2018
 ms.keywords: GetFriendlyClassName, GetFriendlyClassName method [Active Directory], GetFriendlyClassName method [Active Directory],IDsDisplaySpecifier interface, IDsDisplaySpecifier interface [Active Directory],GetFriendlyClassName method, IDsDisplaySpecifier.GetFriendlyClassName, IDsDisplaySpecifier::GetFriendlyClassName, _glines_idsdisplayspecifier_getfriendlyclassname, ad.idsdisplayspecifier__getfriendlyclassname, ad.idsdisplayspecifier_getfriendlyclassname, dsclient/IDsDisplaySpecifier::GetFriendlyClassName
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsDisplaySpecifier.GetFriendlyClassName"
+f1_keywords:
+- dsclient/IDsDisplaySpecifier.GetFriendlyClassName
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier.GetFriendlyClassName
+- IDsDisplaySpecifier.GetFriendlyClassName
 targetos: Windows
 req.typenames: 
 req.redist: 

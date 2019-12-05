@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerUnregisterIfEx
 title: RpcServerUnregisterIfEx function (rpcdce.h)
-
 description: The RpcServerUnregisterIfEx function removes an interface from the RPC run-time library registry. This function extends the functionality of the RpcServerUnregisterIf function.
 old-location: rpc\rpcserverunregisterifex.htm
 tech.root: Rpc
 ms.assetid: f01eab2c-cd33-4427-9f0c-903e4d3474e9
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerUnregisterIfEx, RpcServerUnregisterIfEx function [RPC], _rpc_rpcserverunregisterifex, rpc.rpcserverunregisterifex, rpcdce/RpcServerUnregisterIfEx
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerUnregisterIfEx"
+f1_keywords:
+- rpcdce/RpcServerUnregisterIfEx
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerUnregisterIfEx
+- RpcServerUnregisterIfEx
 targetos: Windows
 req.typenames: 
 req.redist: 

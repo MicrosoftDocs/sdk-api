@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.GetCountOfTableDescriptors
 title: ICAT::GetCountOfTableDescriptors (mpeg2psiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icat_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 3111eecc-b869-4235-8af4-cc0ef9cc5e4e
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],ICAT interface, ICAT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, ICAT.GetCountOfTableDescriptors, ICAT::GetCountOfTableDescriptors, ICATGetCountOfTableDescriptors, mpeg2psiparser/ICAT::GetCountOfTableDescriptors, mstv.icat_getcountoftabledescriptors
 ms.topic: method
-f1_keywords: 
- - "mpeg2psiparser/ICAT.GetCountOfTableDescriptors"
+f1_keywords:
+- mpeg2psiparser/ICAT.GetCountOfTableDescriptors
 dev_langs:
- - c++
+- c++
 req.header: mpeg2psiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mpeg2psiparser.h
+- mpeg2psiparser.h
 api_name:
- - ICAT.GetCountOfTableDescriptors
+- ICAT.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

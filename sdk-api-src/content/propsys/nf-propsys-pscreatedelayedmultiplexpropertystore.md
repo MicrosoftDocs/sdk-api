@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSCreateDelayedMultiplexPropertyStore
 title: PSCreateDelayedMultiplexPropertyStore function (propsys.h)
-
 description: Creates a read-only, delayed-binding property store that contains multiple property stores.
 old-location: properties\PSCreateDelayedMultiplexPropertyStore.htm
 tech.root: properties
 ms.assetid: 8b264d7e-6124-4724-8d23-605101705893
-
 ms.date: 12/05/2018
 ms.keywords: PSCreateDelayedMultiplexPropertyStore, PSCreateDelayedMultiplexPropertyStore function [Windows Properties], _shell_PSCreateDelayedMultiplexPropertyStore, properties.PSCreateDelayedMultiplexPropertyStore, propsys/PSCreateDelayedMultiplexPropertyStore, shell.PSCreateDelayedMultiplexPropertyStore
 ms.topic: function
-f1_keywords: 
- - "propsys/PSCreateDelayedMultiplexPropertyStore"
+f1_keywords:
+- propsys/PSCreateDelayedMultiplexPropertyStore
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSCreateDelayedMultiplexPropertyStore
+- PSCreateDelayedMultiplexPropertyStore
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

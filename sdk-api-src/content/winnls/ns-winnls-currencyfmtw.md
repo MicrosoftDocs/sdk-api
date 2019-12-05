@@ -1,19 +1,17 @@
 ---
 UID: NS:winnls._currencyfmtW
 title: CURRENCYFMTW (winnls.h)
-
 description: Contains information that defines the format of a currency string. The GetCurrencyFormat function uses this information to customize a currency string for a specified locale.
 old-location: intl\currencyfmt.htm
 tech.root: Intl
 ms.assetid: 026ac9e0-1f5b-4a42-9c7b-07a127422994
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCURRENCYFMTW, CURRENCYFMT, CURRENCYFMT structure [Internationalization for Windows Applications], CURRENCYFMTW, LPCURRENCYFMT, LPCURRENCYFMT structure pointer [Internationalization for Windows Applications], _win32_CURRENCYFMT_str, intl.currencyfmt, winnls/CURRENCYFMT, winnls/LPCURRENCYFMT"
+ms.keywords: '*LPCURRENCYFMTW, CURRENCYFMT, CURRENCYFMT structure [Internationalization for Windows Applications], CURRENCYFMTW, LPCURRENCYFMT, LPCURRENCYFMT structure pointer [Internationalization for Windows Applications], _win32_CURRENCYFMT_str, intl.currencyfmt, winnls/CURRENCYFMT, winnls/LPCURRENCYFMT'
 ms.topic: struct
-f1_keywords: 
- - "winnls/CURRENCYFMT"
+f1_keywords:
+- winnls/CURRENCYFMT
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - CURRENCYFMT
+- CURRENCYFMT
 targetos: Windows
 req.typenames: CURRENCYFMTW, *LPCURRENCYFMTW
 req.redist: 

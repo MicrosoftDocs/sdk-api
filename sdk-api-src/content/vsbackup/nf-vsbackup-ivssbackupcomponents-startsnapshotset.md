@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.StartSnapshotSet
 title: IVssBackupComponents::StartSnapshotSet (vsbackup.h)
-
 description: The StartSnapshotSet method creates a new, empty shadow copy set.
 old-location: base\ivssbackupcomponents_startsnapshotset.htm
 tech.root: VSS
 ms.assetid: 6a0a6228-2131-48a6-8d18-9491969d265b
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],StartSnapshotSet method, IVssBackupComponents.StartSnapshotSet, IVssBackupComponents::StartSnapshotSet, StartSnapshotSet, StartSnapshotSet method [VSS], StartSnapshotSet method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_startsnapshotset, base.ivssbackupcomponents_startsnapshotset, vsbackup/IVssBackupComponents::StartSnapshotSet
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.StartSnapshotSet"
+f1_keywords:
+- vsbackup/IVssBackupComponents.StartSnapshotSet
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.StartSnapshotSet
+- IVssBackupComponents.StartSnapshotSet
 targetos: Windows
 req.typenames: 
 req.redist: 

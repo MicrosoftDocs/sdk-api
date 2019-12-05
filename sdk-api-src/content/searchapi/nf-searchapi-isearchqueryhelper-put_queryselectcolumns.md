@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QuerySelectColumns
 title: ISearchQueryHelper::put_QuerySelectColumns (searchapi.h)
-
 description: Sets the columns (or properties) requested in the select statement.
 old-location: search\_search_ISearchQueryHelper_put_QuerySelectColumns.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_queryselectcolumns.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QuerySelectColumns method, ISearchQueryHelper.put_QuerySelectColumns, ISearchQueryHelper::put_QuerySelectColumns, _search_ISearchQueryHelper_put_QuerySelectColumns, put_QuerySelectColumns, put_QuerySelectColumns method [search], put_QuerySelectColumns method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QuerySelectColumns, searchapi/ISearchQueryHelper::put_QuerySelectColumns
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.put_QuerySelectColumns"
+f1_keywords:
+- searchapi/ISearchQueryHelper.put_QuerySelectColumns
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.put_QuerySelectColumns
+- ISearchQueryHelper.put_QuerySelectColumns
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

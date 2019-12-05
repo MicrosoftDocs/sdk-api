@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.CreateWindowStationW
 title: CreateWindowStationW function (winuser.h)
-
 description: Creates a window station object, associates it with the calling process, and assigns it to the current session.
 old-location: winstation\createwindowstation.htm
 tech.root: winstation
 ms.assetid: c1aee546-decd-46c9-8d02-d6792f5a6a0d
-
 ms.date: 12/05/2018
 ms.keywords: CreateWindowStation, CreateWindowStation function [Windows Stations and Desktops], CreateWindowStationA, CreateWindowStationW, _win32_createwindowstation, base.createwindowstation, winstation.createwindowstation, winuser/CreateWindowStation, winuser/CreateWindowStationA, winuser/CreateWindowStationW
 ms.topic: function
-f1_keywords: 
- - "winuser/CreateWindowStation"
+f1_keywords:
+- winuser/CreateWindowStation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WindowStation-L1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - CreateWindowStation
- - CreateWindowStationA
- - CreateWindowStationW
+- CreateWindowStation
+- CreateWindowStationA
+- CreateWindowStationW
 targetos: Windows
 req.typenames: 
 req.redist: 

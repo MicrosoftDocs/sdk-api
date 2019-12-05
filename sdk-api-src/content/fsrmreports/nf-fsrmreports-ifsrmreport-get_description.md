@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.get_Description
 title: IFsrmReport::get_Description (fsrmreports.h)
-
 description: Retrieves or sets the description of the report.
 old-location: fsrm\ifsrmreport_description.htm
 tech.root: fsrm
 ms.assetid: b91a770d-8118-4a7e-adb5-36f6d59ea484
-
 ms.date: 12/05/2018
 ms.keywords: Description property [File Server Resource Manager], Description property [File Server Resource Manager],IFsrmReport interface, IFsrmReport interface [File Server Resource Manager],Description property, IFsrmReport.Description, IFsrmReport.get_Description, IFsrmReport::Description, IFsrmReport::get_Description, IFsrmReport::put_Description, fs.ifsrmreport_description, fsrm.ifsrmreport_description, fsrmreports/IFsrmReport::Description, fsrmreports/IFsrmReport::get_Description, fsrmreports/IFsrmReport::put_Description, get_Description
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReport.Description"
+f1_keywords:
+- fsrmreports/IFsrmReport.Description
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReport.Description
- - IFsrmReport.get_Description
- - IFsrmReport.put_Description
+- IFsrmReport.Description
+- IFsrmReport.get_Description
+- IFsrmReport.put_Description
 targetos: Windows
 req.typenames: 
 req.redist: 

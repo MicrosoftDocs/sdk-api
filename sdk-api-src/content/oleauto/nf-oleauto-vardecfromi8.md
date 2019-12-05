@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarDecFromI8
 title: VarDecFromI8 function (oleauto.h)
-
 description: Converts an 8-byte integer value to a decimal value.
 old-location: automat\vardecfromi8.htm
 tech.root: automat
 ms.assetid: 41662fe3-70ff-43ce-9734-15f151473b14
-
 ms.date: 12/05/2018
 ms.keywords: VarDecFromI8, VarDecFromI8 function [Automation], _oa96_VarDecFromI8, automat.vardecfromi8, oleauto/VarDecFromI8
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarDecFromI8"
+f1_keywords:
+- oleauto/VarDecFromI8
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarDecFromI8
+- VarDecFromI8
 targetos: Windows
 req.typenames: 
 req.redist: 

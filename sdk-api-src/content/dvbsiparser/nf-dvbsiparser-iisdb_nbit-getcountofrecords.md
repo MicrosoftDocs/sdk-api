@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetCountOfRecords
 title: IISDB_NBIT::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
 old-location: mstv\iisdb_nbit_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: c747278a-dea7-4772-b37d-89c1deaaf91f
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IISDB_NBIT interface, IISDB_NBIT interface [Microsoft TV Technologies],GetCountOfRecords method, IISDB_NBIT.GetCountOfRecords, IISDB_NBIT::GetCountOfRecords, dvbsiparser/IISDB_NBIT::GetCountOfRecords, mstv.iisdb_nbit_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_NBIT.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IISDB_NBIT.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_NBIT.GetCountOfRecords
+- IISDB_NBIT.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

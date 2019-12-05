@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetFontStyle
 title: IMFTimedTextStyle::GetFontStyle (mfmediaengine.h)
-
 description: Gets the font style of the timed-text style.
 old-location: mf\imftimedtextstyle_getfontstyle.htm
 tech.root: medfound
 ms.assetid: 4089F237-BDA6-49AF-967F-089D641D4B09
-
 ms.date: 12/05/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Media Foundation], GetFontStyle method [Media Foundation],IMFTimedTextStyle interface, IMFTimedTextStyle interface [Media Foundation],GetFontStyle method, IMFTimedTextStyle.GetFontStyle, IMFTimedTextStyle::GetFontStyle, mf.imftimedtextstyle_getfontstyle, mfmediaengine/IMFTimedTextStyle::GetFontStyle
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle.GetFontStyle"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle.GetFontStyle
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle.GetFontStyle
+- IMFTimedTextStyle.GetFontStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

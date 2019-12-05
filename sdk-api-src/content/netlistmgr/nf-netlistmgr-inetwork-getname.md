@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetwork.GetName
 title: INetwork::GetName (netlistmgr.h)
-
 description: The GetName method returns the name of a network.
 old-location: nla\inetwork_getname.htm
 tech.root: nla
 ms.assetid: e0dd843e-5bba-4504-b0af-26c0c1ee73a9
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Network Awareness], GetName method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetName method, INetwork.GetName, INetwork::GetName, netlistmgr/INetwork::GetName, nla.inetwork_getname
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetwork.GetName"
+f1_keywords:
+- netlistmgr/INetwork.GetName
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork.GetName
+- INetwork.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.FILE_USAGE_TYPE
 title: FILE_USAGE_TYPE (shobjidl_core.h)
-
 description: Constants used by IFileIsInUse::GetUsage to indicate how a file in use is being used.
 old-location: shell\FILE_USAGE_TYPE.htm
 tech.root: shell
 ms.assetid: 32b0e148-499a-401d-837c-8cea74cf9cac
-
 ms.date: 12/05/2018
 ms.keywords: FILE_USAGE_TYPE, FILE_USAGE_TYPE enumeration [Windows Shell], FUT_EDITING, FUT_GENERIC, FUT_PLAYING, _shell_FILE_USAGE_TYPE, shell.FILE_USAGE_TYPE, shobjidl_core/FILE_USAGE_TYPE, shobjidl_core/FUT_EDITING, shobjidl_core/FUT_GENERIC, shobjidl_core/FUT_PLAYING
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/FILE_USAGE_TYPE"
+f1_keywords:
+- shobjidl_core/FILE_USAGE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - FILE_USAGE_TYPE
+- FILE_USAGE_TYPE
 targetos: Windows
 req.typenames: FILE_USAGE_TYPE
 req.redist: 

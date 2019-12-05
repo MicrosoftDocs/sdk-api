@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.TuningSpacesForCLSID
 title: ITuningSpaceContainer::TuningSpacesForCLSID (tuner.h)
-
 description: The TuningSpacesForCLSID method retrieves a collection of tuning spaces that match the specified CLSID.This method is intended for Automation clients, because it returns the CLSID as a BSTR.
 old-location: mstv\ituningspacecontainer_tuningspacesforclsid.htm
 tech.root: mstv
 ms.assetid: 8e2d6103-baed-40ee-9a94-9434cf8e3474
-
 ms.date: 12/05/2018
 ms.keywords: ITuningSpaceContainer interface [Microsoft TV Technologies],TuningSpacesForCLSID method, ITuningSpaceContainer.TuningSpacesForCLSID, ITuningSpaceContainer::TuningSpacesForCLSID, TuningSpacesForCLSID, TuningSpacesForCLSID method [Microsoft TV Technologies], TuningSpacesForCLSID method [Microsoft TV Technologies],ITuningSpaceContainer interface, mstv.ituningspacecontainer_tuningspacesforclsid, tuner/ITuningSpaceContainer::TuningSpacesForCLSID
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuningSpaceContainer.TuningSpacesForCLSID"
+f1_keywords:
+- tuner/ITuningSpaceContainer.TuningSpacesForCLSID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuningSpaceContainer.TuningSpacesForCLSID
+- ITuningSpaceContainer.TuningSpacesForCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

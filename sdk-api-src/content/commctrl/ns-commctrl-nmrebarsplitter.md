@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMREBARSPLITTER
 title: NMREBARSPLITTER (commctrl.h)
-
 description: Contains information used to handle an RBN_SPLITTERDRAG notification code.
 old-location: controls\NMREBARSPLITTER.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\nmrebarsplitter.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMREBARSPLITTER, LPNMREBARSPLITTER, LPNMREBARSPLITTER structure pointer [Windows Controls], NMREBARSPLITTER, NMREBARSPLITTER structure [Windows Controls], _shell_NMREBARSPLITTER, _shell_NMREBARSPLITTER_cpp, commctrl/LPNMREBARSPLITTER, commctrl/NMREBARSPLITTER, controls.NMREBARSPLITTER, controls._shell_NMREBARSPLITTER'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMREBARSPLITTER
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

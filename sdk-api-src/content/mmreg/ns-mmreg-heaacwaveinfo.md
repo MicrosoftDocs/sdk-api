@@ -1,19 +1,17 @@
 ---
 UID: NS:mmreg.heaacwaveinfo_tag
 title: HEAACWAVEINFO (mmreg.h)
-
 description: Contains format data for an Advanced Audio Coding (AAC) or High-Efficiency Advanced Audio Coding (HE-AAC) stream.
 old-location: dshow\heaacwaveinfo.htm
 tech.root: DirectShow
 ms.assetid: a9b888fb-b4a5-44c3-a715-687cc751063d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHEAACWAVEINFO, *NPHEAACWAVEINFO, *PHEAACWAVEINFO, HEAACWAVEINFO, HEAACWAVEINFO structure [DirectShow], PHEAACWAVEINFO, PHEAACWAVEINFO structure pointer [DirectShow], dshow.heaacwaveinfo, heaacwaveinfo_tag, mmreg/HEAACWAVEINFO, mmreg/PHEAACWAVEINFO"
+ms.keywords: '*LPHEAACWAVEINFO, *NPHEAACWAVEINFO, *PHEAACWAVEINFO, HEAACWAVEINFO, HEAACWAVEINFO structure [DirectShow], PHEAACWAVEINFO, PHEAACWAVEINFO structure pointer [DirectShow], dshow.heaacwaveinfo, heaacwaveinfo_tag, mmreg/HEAACWAVEINFO, mmreg/PHEAACWAVEINFO'
 ms.topic: struct
-f1_keywords: 
- - "mmreg/HEAACWAVEINFO"
+f1_keywords:
+- mmreg/HEAACWAVEINFO
 dev_langs:
- - c++
+- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmreg.h
+- mmreg.h
 api_name:
- - HEAACWAVEINFO
+- HEAACWAVEINFO
 targetos: Windows
 req.typenames: HEAACWAVEINFO
 req.redist: 

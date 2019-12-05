@@ -1,19 +1,17 @@
 ---
 UID: NS:ipmib._MIB_IPNETROW_W2K
 title: MIB_IPNETROW_W2K (ipmib.h)
-
 description: Contains information for an Address Resolution Protocol (ARP) table entry for an IPv4 address.
 old-location: mib\mib_ipnetrow.htm
 tech.root: MIB
 ms.assetid: aa9aa9f9-2334-4b08-896f-f4a77caa0f7f
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPNETROW, *PMIB_IPNETROW_W2K, MIB_IPNETROW, MIB_IPNETROW structure [MIB], MIB_IPNETROW_W2K, MIB_IPNET_TYPE_DYNAMIC, MIB_IPNET_TYPE_INVALID, MIB_IPNET_TYPE_OTHER, MIB_IPNET_TYPE_STATIC, PMIB_IPNETROW, PMIB_IPNETROW structure pointer [MIB], _mpr_mib_ipnetrow, ipmib/MIB_IPNETROW, ipmib/PMIB_IPNETROW, iprtrmib/MIB_IPNETROW, iprtrmib/PMIB_IPNETROW, mib.mib_ipnetrow, rras.mib_ipnetrow'
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPNETROW
 dev_langs:
- - c++
+- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronize
 title: ISyncMgrSynchronize (mobsync.h)
-
 description: Exposes methods that enable the registered application or service to receive notifications from the synchronization manager.
 old-location: shell\syncmgr_isyncmgrsynchronize.htm
 tech.root: shell
 ms.assetid: bb821672-10b1-4fe6-a752-6cd1ccd1e49e
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSynchronize, ISyncMgrSynchronize interface [Windows Shell], ISyncMgrSynchronize interface [Windows Shell],described, mobsync/ISyncMgrSynchronize, shell.syncmgr_isyncmgrsynchronize, syncmgr.isyncmgrsynchronize
 ms.topic: interface
-f1_keywords: 
- - "mobsync/ISyncMgrSynchronize"
+f1_keywords:
+- mobsync/ISyncMgrSynchronize
 dev_langs:
- - c++
+- c++
 req.header: mobsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mobsync.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mobsync.dll
+- Mobsync.dll
 api_name:
- - ISyncMgrSynchronize
+- ISyncMgrSynchronize
 targetos: Windows
 req.typenames: 
 req.redist: 

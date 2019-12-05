@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.GetParameters
 title: ITask::GetParameters (mstask.h)
-
 description: This method retrieves the task's command-line parameters.
 old-location: taskschd\itask_getparameters.htm
 tech.root: taskschd
 ms.assetid: f59118d6-b430-4fcd-9c78-e6b5a65c151a
-
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [Task Scheduler], GetParameters method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetParameters method, ITask.GetParameters, ITask::GetParameters, _msb_itask_getparameters, mstask/ITask::GetParameters, taskschd.itask_getparameters
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.GetParameters"
+f1_keywords:
+- mstask/ITask.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.GetParameters
+- ITask.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

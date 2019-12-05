@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.SetNtmsUIOptionsA
 title: SetNtmsUIOptionsA function (ntmsapi.h)
-
 description: The SetNtmsUIOptions function modifies the list of computer names to which the specified type of UI is being directed for the given object.
 old-location: fs\setntmsuioptions.htm
 tech.root: Rsm
 ms.assetid: 1e76fddc-20b4-4645-9519-2033487dbbc5
-
 ms.date: 12/05/2018
 ms.keywords: NTMS_UIDEST_ADD, NTMS_UIDEST_DELETE, NTMS_UIDEST_DELETEALL, NTMS_UITYPE_ERR, NTMS_UITYPE_INFO, NTMS_UITYPE_REQ, SetNtmsUIOptions, SetNtmsUIOptions function [Files], SetNtmsUIOptionsA, SetNtmsUIOptionsW, _zaw_setntmsuioptions, base.setntmsuioptions, fs.setntmsuioptions, ntmsapi/SetNtmsUIOptions, ntmsapi/SetNtmsUIOptionsA, ntmsapi/SetNtmsUIOptionsW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/SetNtmsUIOptions"
+f1_keywords:
+- ntmsapi/SetNtmsUIOptions
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - SetNtmsUIOptions
- - SetNtmsUIOptionsA
- - SetNtmsUIOptionsW
+- SetNtmsUIOptions
+- SetNtmsUIOptionsA
+- SetNtmsUIOptionsW
 targetos: Windows
 req.typenames: 
 req.redist: 

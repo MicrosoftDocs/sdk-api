@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.GetDeviceDriverBaseNameA
 title: GetDeviceDriverBaseNameA function (psapi.h)
-
 description: Retrieves the base name of the specified device driver.
 old-location: psapi\getdevicedriverbasename.htm
 tech.root: psapi
 ms.assetid: a19a927d-4669-4d4c-951e-43f294a8fb40
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDriverBaseName, GetDeviceDriverBaseName function [PSAPI], GetDeviceDriverBaseNameA, GetDeviceDriverBaseNameW, K32GetDeviceDriverBaseName, K32GetDeviceDriverBaseNameA, K32GetDeviceDriverBaseNameW, _win32_getdevicedriverbasename, base.getdevicedriverbasename, psapi.getdevicedriverbasename, psapi/GetDeviceDriverBaseName, psapi/GetDeviceDriverBaseNameA, psapi/GetDeviceDriverBaseNameW, psapi/K32GetDeviceDriverBaseName, psapi/K32GetDeviceDriverBaseNameA, psapi/K32GetDeviceDriverBaseNameW
 ms.topic: function
-f1_keywords: 
- - "psapi/GetDeviceDriverBaseName"
+f1_keywords:
+- psapi/GetDeviceDriverBaseName
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,24 +30,24 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-Ansi-L1-1-0.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - GetDeviceDriverBaseName
- - GetDeviceDriverBaseNameA
- - GetDeviceDriverBaseNameW
- - K32GetDeviceDriverBaseName
- - K32GetDeviceDriverBaseNameW
- - K32GetDeviceDriverBaseNameA
+- GetDeviceDriverBaseName
+- GetDeviceDriverBaseNameA
+- GetDeviceDriverBaseNameW
+- K32GetDeviceDriverBaseName
+- K32GetDeviceDriverBaseNameW
+- K32GetDeviceDriverBaseNameA
 targetos: Windows
 req.typenames: 
 req.redist: 

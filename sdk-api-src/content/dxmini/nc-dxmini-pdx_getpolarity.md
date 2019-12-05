@@ -1,19 +1,17 @@
 ---
 UID: NC:dxmini.PDX_GETPOLARITY
 title: PDX_GETPOLARITY (dxmini.h)
-
 description: The DxGetPolarity callback function returns the polarity (even or odd) of the current field being written by the video port extensions (VPE) object.
 old-location: display\dxgetpolarity.htm
 tech.root: display
 ms.assetid: 9bce3093-8dcd-4e91-8e20-5558f2dcce75
-
 ms.date: 12/05/2018
 ms.keywords: DxGetPolarity, DxGetPolarity callback function [Display Devices], PDX_GETPOLARITY, PDX_GETPOLARITY callback, VideoMiniPort_DxApiFunctions_caf5417f-329e-4270-a067-8a9c9634327d.xml, display.dxgetpolarity, dxmini/DxGetPolarity
 ms.topic: callback
 f1_keywords:
 - dxmini/DxGetPolarity
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

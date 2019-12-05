@@ -1,19 +1,17 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionCostEvents
 title: INetworkConnectionCostEvents (netlistmgr.h)
-
 description: This interface to notify an application of cost and data plan status change events for a connection.
 old-location: nla\inetworkconnectioncostevents.htm
 tech.root: nla
 ms.assetid: ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5
-
 ms.date: 12/05/2018
 ms.keywords: INetworkConnectionCostEvents, INetworkConnectionCostEvents interface [Network Awareness], INetworkConnectionCostEvents interface [Network Awareness],described, netlistmgr/INetworkConnectionCostEvents, nla.inetworkconnectioncostevents
 ms.topic: interface
-f1_keywords: 
- - "netlistmgr/INetworkConnectionCostEvents"
+f1_keywords:
+- netlistmgr/INetworkConnectionCostEvents
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetworkConnectionCostEvents
- - INetworkConnectionCostEvents.ConnectionCostChanged
+- INetworkConnectionCostEvents
+- INetworkConnectionCostEvents.ConnectionCostChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._tagWALLPAPEROPT
 title: WALLPAPEROPT (shlobj_core.h)
-
 description: Contains the wallpaper display options. Used with members of the IActiveDesktop interface.
 old-location: shell\WALLPAPEROPT.htm
 tech.root: shell
 ms.assetid: 5fafbc3a-606c-4175-ac3a-132a1bfded07
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWALLPAPEROPT, WALLPAPEROPT, WALLPAPEROPT structure [Windows Shell], WPSTYLE_CENTER, WPSTYLE_CROPTOFIT, WPSTYLE_KEEPASPECT, WPSTYLE_MAX, WPSTYLE_SPAN, WPSTYLE_STRETCH, WPSTYLE_TILE, _tagWALLPAPEROPT, _win32_WALLPAPEROPT, shell.WALLPAPEROPT, shlobj_core/WALLPAPEROPT"
+ms.keywords: '*LPWALLPAPEROPT, WALLPAPEROPT, WALLPAPEROPT structure [Windows Shell], WPSTYLE_CENTER, WPSTYLE_CROPTOFIT, WPSTYLE_KEEPASPECT, WPSTYLE_MAX, WPSTYLE_SPAN, WPSTYLE_STRETCH, WPSTYLE_TILE, _tagWALLPAPEROPT, _win32_WALLPAPEROPT, shell.WALLPAPEROPT, shlobj_core/WALLPAPEROPT'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/WALLPAPEROPT"
+f1_keywords:
+- shlobj_core/WALLPAPEROPT
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - WALLPAPEROPT
+- WALLPAPEROPT
 targetos: Windows
 req.typenames: WALLPAPEROPT
 req.redist: 

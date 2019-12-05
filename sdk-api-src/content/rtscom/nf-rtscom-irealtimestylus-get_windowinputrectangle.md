@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.get_WindowInputRectangle
 title: IRealTimeStylus::get_WindowInputRectangle (rtscom.h)
-
 description: Gets or sets the window input rectangle for the RealTimeStylus Class object.
 old-location: tablet\irealtimestylus_windowinputrectangle.htm
 tech.root: tablet
 ms.assetid: e202be43-48c7-4fa4-b049-efdda3ef2ada
-
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus interface [Tablet PC],WindowInputRectangle property, IRealTimeStylus.WindowInputRectangle, IRealTimeStylus.get_WindowInputRectangle, IRealTimeStylus.put_WindowInputRectangle, IRealTimeStylus::WindowInputRectangle, IRealTimeStylus::get_WindowInputRectangle, IRealTimeStylus::put_WindowInputRectangle, WindowInputRectangle property [Tablet PC], WindowInputRectangle property [Tablet PC],IRealTimeStylus interface, e202be43-48c7-4fa4-b049-efdda3ef2ada, get_WindowInputRectangle, rtscom/IRealTimeStylus::WindowInputRectangle, rtscom/IRealTimeStylus::get_WindowInputRectangle, rtscom/IRealTimeStylus::put_WindowInputRectangle, tablet.irealtimestylus_windowinputrectangle
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.WindowInputRectangle"
+f1_keywords:
+- rtscom/IRealTimeStylus.WindowInputRectangle
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.WindowInputRectangle
- - IRealTimeStylus.get_WindowInputRectangle
- - IRealTimeStylus.put_WindowInputRectangle
- - IRealTimeStylus.get_WindowInputRectangle
- - IRealTimeStylus.put_WindowInputRectangle
+- IRealTimeStylus.WindowInputRectangle
+- IRealTimeStylus.get_WindowInputRectangle
+- IRealTimeStylus.put_WindowInputRectangle
+- IRealTimeStylus.get_WindowInputRectangle
+- IRealTimeStylus.put_WindowInputRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

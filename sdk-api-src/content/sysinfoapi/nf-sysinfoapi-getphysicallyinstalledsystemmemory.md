@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetPhysicallyInstalledSystemMemory
 title: GetPhysicallyInstalledSystemMemory function (sysinfoapi.h)
-
 description: Retrieves the amount of RAM that is physically installed on the computer.
 old-location: base\getphysicallyinstalledsystemmemory.htm
 tech.root: Memory
 ms.assetid: b9ac1174-399d-4962-a00c-6f2e3fb0c573
-
 ms.date: 12/05/2018
 ms.keywords: GetPhysicallyInstalledSystemMemory, GetPhysicallyInstalledSystemMemory function, base.getphysicallyinstalledsystemmemory, sysinfoapi/GetPhysicallyInstalledSystemMemory
 ms.topic: function
 f1_keywords:
 - sysinfoapi/GetPhysicallyInstalledSystemMemory
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: Windows.h
 req.target-type: Windows

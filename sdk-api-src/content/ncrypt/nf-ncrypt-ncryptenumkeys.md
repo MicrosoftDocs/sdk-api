@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptEnumKeys
 title: NCryptEnumKeys function (ncrypt.h)
-
 description: Obtains the names of the keys that are stored by the provider.
 old-location: security\ncryptenumkeys_func.htm
 tech.root: SecCNG
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
-
 ms.date: 12/05/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptEnumKeys"
+f1_keywords:
+- ncrypt/NCryptEnumKeys
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptEnumKeys
+- NCryptEnumKeys
 targetos: Windows
 req.typenames: 
 req.redist: 

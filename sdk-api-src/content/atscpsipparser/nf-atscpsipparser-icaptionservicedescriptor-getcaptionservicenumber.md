@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetCaptionServiceNumber
 title: ICaptionServiceDescriptor::GetCaptionServiceNumber (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\icaptionservicedescriptor_getcaptionservicenumber.htm
 tech.root: mstv
 ms.assetid: 0e8ca631-45fd-462c-bab9-4a242751f212
-
 ms.date: 12/05/2018
 ms.keywords: GetCaptionServiceNumber, GetCaptionServiceNumber method [Microsoft TV Technologies], GetCaptionServiceNumber method [Microsoft TV Technologies],ICaptionServiceDescriptor interface, ICaptionServiceDescriptor interface [Microsoft TV Technologies],GetCaptionServiceNumber method, ICaptionServiceDescriptor.GetCaptionServiceNumber, ICaptionServiceDescriptor::GetCaptionServiceNumber, ICaptionServiceDescriptorGetCaptionServiceNumber, atscpsipparser/ICaptionServiceDescriptor::GetCaptionServiceNumber, mstv.icaptionservicedescriptor_getcaptionservicenumber
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/ICaptionServiceDescriptor.GetCaptionServiceNumber"
+f1_keywords:
+- atscpsipparser/ICaptionServiceDescriptor.GetCaptionServiceNumber
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - ICaptionServiceDescriptor.GetCaptionServiceNumber
+- ICaptionServiceDescriptor.GetCaptionServiceNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantGetDoubleElem
 title: VariantGetDoubleElem function (propvarutil.h)
-
 description: Extracts one double element from a variant structure.
 old-location: properties\VariantGetDoubleElem.htm
 tech.root: properties
 ms.assetid: cc6cb3a0-ba39-4088-8d72-082f6a4e39d3
-
 ms.date: 12/05/2018
 ms.keywords: VariantGetDoubleElem, VariantGetDoubleElem function [Windows Properties], _shell_VariantGetDoubleElem, properties.VariantGetDoubleElem, propvarutil/VariantGetDoubleElem, shell.VariantGetDoubleElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantGetDoubleElem"
+f1_keywords:
+- propvarutil/VariantGetDoubleElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantGetDoubleElem
+- VariantGetDoubleElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

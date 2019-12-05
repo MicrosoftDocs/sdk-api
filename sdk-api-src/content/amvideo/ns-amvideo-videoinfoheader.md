@@ -1,19 +1,17 @@
 ---
 UID: NS:amvideo.tagVIDEOINFOHEADER
 title: VIDEOINFOHEADER (amvideo.h)
-
 description: The VIDEOINFOHEADER structure describes the bitmap and color information for a video image.
 old-location: dshow\videoinfoheader.htm
 tech.root: DirectShow
 ms.assetid: a175592b-0dc1-4001-b52f-785407965932
-
 ms.date: 12/05/2018
 ms.keywords: VIDEOINFOHEADER, VIDEOINFOHEADER structure [DirectShow], VIDEOINFOHEADERStructure, amvideo/VIDEOINFOHEADER, dshow.videoinfoheader, tagVIDEOINFOHEADER
 ms.topic: struct
-f1_keywords: 
- - "amvideo/VIDEOINFOHEADER"
+f1_keywords:
+- amvideo/VIDEOINFOHEADER
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amvideo.h
+- amvideo.h
 api_name:
- - VIDEOINFOHEADER
+- VIDEOINFOHEADER
 targetos: Windows
 req.typenames: VIDEOINFOHEADER
 req.redist: 

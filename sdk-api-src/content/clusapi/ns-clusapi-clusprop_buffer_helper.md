@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_BUFFER_HELPER
 title: CLUSPROP_BUFFER_HELPER (clusapi.h)
-
 description: Used to build or parse a property list or, a value list.
 old-location: mscs\clusprop_buffer_helper.htm
 tech.root: MsCS
 ms.assetid: a2b706a0-76fe-4757-b76b-96cb6708bb61
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER union [Failover Cluster], PCLUSPROP_BUFFER_HELPER, PCLUSPROP_BUFFER_HELPER union pointer [Failover Cluster], _wolf_clusprop_buffer_helper, clusapi/CLUSPROP_BUFFER_HELPER, clusapi/PCLUSPROP_BUFFER_HELPER, mscs.clusprop_buffer_helper"
+ms.keywords: '*PCLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER, CLUSPROP_BUFFER_HELPER union [Failover Cluster], PCLUSPROP_BUFFER_HELPER, PCLUSPROP_BUFFER_HELPER union pointer [Failover Cluster], _wolf_clusprop_buffer_helper, clusapi/CLUSPROP_BUFFER_HELPER, clusapi/PCLUSPROP_BUFFER_HELPER, mscs.clusprop_buffer_helper'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_BUFFER_HELPER"
+f1_keywords:
+- clusapi/CLUSPROP_BUFFER_HELPER
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_BUFFER_HELPER
+- CLUSPROP_BUFFER_HELPER
 targetos: Windows
 req.typenames: CLUSPROP_BUFFER_HELPER, *PCLUSPROP_BUFFER_HELPER
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mileffects.MilPoint2D
 title: MilPoint2D (mileffects.h)
-
 description: Represents an x- and y-coordinate pair in two-dimensional space.
 old-location: wibe\_wibe_mil_2dpointd.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\structs\mil_2dpointd.htm
-
 ms.date: 12/05/2018
 ms.keywords: MIL_2DPOINTD, MIL_2DPOINTD structure [WPF Bitmap Effects], MilPoint2D, _wibe_mil_2dpointd, mileffects/MIL_2DPOINTD, wibe._wibe_mil_2dpointd
 ms.topic: struct
-f1_keywords: 
- - "mileffects/MIL_2DPOINTD"
+f1_keywords:
+- mileffects/MIL_2DPOINTD
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - MIL_2DPOINTD
+- MIL_2DPOINTD
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

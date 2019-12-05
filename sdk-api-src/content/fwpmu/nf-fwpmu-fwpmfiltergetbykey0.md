@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmFilterGetByKey0
 title: FwpmFilterGetByKey0 function (fwpmu.h)
-
 description: Retrieves a filter object.
 old-location: fwp\fwpmfiltergetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 5ab0942c-aee2-44f9-9e7f-568405131691
-
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterGetByKey0, FwpmFilterGetByKey0 function [Filtering], fwp.fwpmfiltergetbykey0_func, fwpmu/FwpmFilterGetByKey0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmFilterGetByKey0"
+f1_keywords:
+- fwpmu/FwpmFilterGetByKey0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmFilterGetByKey0
+- FwpmFilterGetByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 

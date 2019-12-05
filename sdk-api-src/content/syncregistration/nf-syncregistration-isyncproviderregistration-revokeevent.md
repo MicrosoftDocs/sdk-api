@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.RevokeEvent
 title: ISyncProviderRegistration::RevokeEvent (syncregistration.h)
-
 description: Unregisters the user from the notification of the arrival of new registration events.
 old-location: winsync\isyncproviderregistration_revokeevent.htm
 tech.root: winsync
 ms.assetid: fcc4901a-1507-461e-bbcc-a9e440ec05ce
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],RevokeEvent method, ISyncProviderRegistration.RevokeEvent, ISyncProviderRegistration::RevokeEvent, RevokeEvent, RevokeEvent method [Windows Sync], RevokeEvent method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::RevokeEvent, winsync.isyncproviderregistration_revokeevent
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.RevokeEvent"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.RevokeEvent
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.RevokeEvent
+- ISyncProviderRegistration.RevokeEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

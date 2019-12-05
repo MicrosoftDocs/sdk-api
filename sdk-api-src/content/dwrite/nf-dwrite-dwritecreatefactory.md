@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.DWriteCreateFactory
 title: DWriteCreateFactory function (dwrite.h)
-
 description: Creates a DirectWrite factory object that is used for subsequent creation of individual DirectWrite objects.
 old-location: directwrite\dwritecreatefactory.htm
 tech.root: DirectWrite
 ms.assetid: c74c0906-0a5c-4ab8-87cf-a195566e1d9e
-
 ms.date: 12/05/2018
 ms.keywords: DWriteCreateFactory, DWriteCreateFactory function [Direct Write], directwrite.dwritecreatefactory, dwrite/DWriteCreateFactory
 ms.topic: function
-f1_keywords: 
- - "dwrite/DWriteCreateFactory"
+f1_keywords:
+- dwrite/DWriteCreateFactory
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - DWriteCreateFactory
+- DWriteCreateFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

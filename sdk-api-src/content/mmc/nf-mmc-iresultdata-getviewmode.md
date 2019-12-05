@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultData.GetViewMode
 title: IResultData::GetViewMode (mmc.h)
-
 description: Enables the snap-in to retrieve a view mode for the result view pane.
 old-location: mmc\iresultdata_getviewmode.htm
 tech.root: mmc
 ms.assetid: e6c9b3ef-3b12-42c1-9b3b-ad890b8bd05e
-
 ms.date: 12/05/2018
 ms.keywords: GetViewMode, GetViewMode method [MMC], GetViewMode method [MMC],IResultData interface, GetViewMode method [MMC],IResultData2 interface, IResultData interface [MMC],GetViewMode method, IResultData.GetViewMode, IResultData2 interface [MMC],GetViewMode method, IResultData2::GetViewMode, IResultData::GetViewMode, MMCLV_VIEWSTYLE_FILTERED, MMCLV_VIEWSTYLE_ICON, MMCLV_VIEWSTYLE_LIST, MMCLV_VIEWSTYLE_REPORT, MMCLV_VIEWSTYLE_SMALLICON, _slate_iresultdata_getviewmode, mmc.iresultdata_getviewmode, mmc/IResultData2::GetViewMode, mmc/IResultData::GetViewMode
 ms.topic: method
-f1_keywords: 
- - "mmc/IResultData.GetViewMode"
+f1_keywords:
+- mmc/IResultData.GetViewMode
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IResultData.GetViewMode
- - IResultData2.GetViewMode
+- IResultData.GetViewMode
+- IResultData2.GetViewMode
 targetos: Windows
 req.typenames: 
 req.redist: 

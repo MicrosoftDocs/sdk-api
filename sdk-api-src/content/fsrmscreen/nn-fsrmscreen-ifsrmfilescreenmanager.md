@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrmscreen.IFsrmFileScreenManager
 title: IFsrmFileScreenManager (fsrmscreen.h)
-
 description: Used to manage file screen objects.
 old-location: fsrm\ifsrmfilescreenmanager.htm
 tech.root: fsrm
 ms.assetid: a0cea95d-5839-41a2-91b9-da8e13030682
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenManager, IFsrmFileScreenManager interface [File Server Resource Manager], IFsrmFileScreenManager interface [File Server Resource Manager],described, fs.ifsrmfilescreenmanager, fsrm.ifsrmfilescreenmanager, fsrmscreen/IFsrmFileScreenManager
 ms.topic: interface
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenManager"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenManager
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmScreen.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager
+- IFsrmFileScreenManager
 targetos: Windows
 req.typenames: 
 req.redist: 

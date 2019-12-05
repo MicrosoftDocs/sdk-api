@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnRegistration
 title: IMbnRegistration (mbnapi.h)
-
 description: Provides access to network registration data.
 old-location: mbn\imbnregistration.htm
 tech.root: mbn
 ms.assetid: da5413b7-adf4-4a3d-893f-f51441460541
-
 ms.date: 12/05/2018
 ms.keywords: IMbnRegistration, IMbnRegistration interface [Microsoft Broadband Networks], IMbnRegistration interface [Microsoft Broadband Networks],described, mbn.imbnregistration, mbnapi/IMbnRegistration
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnRegistration"
+f1_keywords:
+- mbnapi/IMbnRegistration
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration
+- IMbnRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

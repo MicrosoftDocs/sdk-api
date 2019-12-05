@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriter.GetServiceForStream
 title: IMFSinkWriter::GetServiceForStream (mfreadwrite.h)
-
 description: Queries the underlying media sink or encoder for an interface.
 old-location: mf\imfsinkwriter_getserviceforstream.htm
 tech.root: medfound
 ms.assetid: 166f8f71-e52d-43b1-9137-e4bf79bf5421
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSinkWriter interface, IMFSinkWriter interface [Media Foundation],GetServiceForStream method, IMFSinkWriter.GetServiceForStream, IMFSinkWriter::GetServiceForStream, mf.imfsinkwriter_getserviceforstream, mfreadwrite/IMFSinkWriter::GetServiceForStream
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSinkWriter.GetServiceForStream"
+f1_keywords:
+- mfreadwrite/IMFSinkWriter.GetServiceForStream
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSinkWriter.GetServiceForStream
+- IMFSinkWriter.GetServiceForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

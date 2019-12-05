@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IRelationship.IsReal
 title: IRelationship::IsReal (structuredquery.h)
-
 description: Reports whether a relationship is real.
 old-location: search\_search_IRelationship_IsReal.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\isreal.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRelationship interface [search],IsReal method, IRelationship.IsReal, IRelationship::IsReal, IsReal, IsReal method [search], IsReal method [search],IRelationship interface, _search_IRelationship_IsReal, search._search_IRelationship_IsReal, structuredquery/IRelationship::IsReal
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IRelationship.IsReal"
+f1_keywords:
+- structuredquery/IRelationship.IsReal
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IRelationship.IsReal
+- IRelationship.IsReal
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

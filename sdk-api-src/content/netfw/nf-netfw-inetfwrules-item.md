@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwRules.Item
 title: INetFwRules::Item (netfw.h)
-
 description: The Item method returns the specified rule if it is in the collection.
 old-location: ics\inetfwrules_item.htm
 tech.root: ics
 ms.assetid: 91c5a93b-7408-4870-a2c0-167648d849cd
-
 ms.date: 12/05/2018
 ms.keywords: INetFwRules interface [ICS/ICF],Item method, INetFwRules.Item, INetFwRules::Item, Item, Item method [ICS/ICF], Item method [ICS/ICF],INetFwRules interface, ics.inetfwrules_item, netfw/INetFwRules::Item
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwRules.Item"
+f1_keywords:
+- netfw/INetFwRules.Item
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwRules.Item
+- INetFwRules.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionFlags
 title: FsrmPropertyDefinitionFlags (fsrmenums.h)
-
 description: Flags the describe the type of classification property.
 old-location: fsrm\fsrmpropertydefinitionflags.htm
 tech.root: fsrm
 ms.assetid: a31f2401-affa-438b-a484-7b70ea6e9181
-
 ms.date: 12/05/2018
 ms.keywords: FsrmPropertyDefinitionFlags, FsrmPropertyDefinitionFlags enumeration [File Server Resource Manager], FsrmPropertyDefinitionFlags_Deprecated, FsrmPropertyDefinitionFlags_Global, FsrmPropertyDefinitionFlags_Secure, fs.fsrmpropertydefinitionflags, fsrm.fsrmpropertydefinitionflags, fsrmenums/FsrmPropertyDefinitionFlags, fsrmenums/FsrmPropertyDefinitionFlags_Deprecated, fsrmenums/FsrmPropertyDefinitionFlags_Global, fsrmenums/FsrmPropertyDefinitionFlags_Secure
 ms.topic: enum
-f1_keywords: 
- - "fsrmenums/FsrmPropertyDefinitionFlags"
+f1_keywords:
+- fsrmenums/FsrmPropertyDefinitionFlags
 dev_langs:
- - c++
+- c++
 req.header: fsrmenums.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FsrmEnums.h
+- FsrmEnums.h
 api_name:
- - FsrmPropertyDefinitionFlags
+- FsrmPropertyDefinitionFlags
 targetos: Windows
 req.typenames: FsrmPropertyDefinitionFlags
 req.redist: 

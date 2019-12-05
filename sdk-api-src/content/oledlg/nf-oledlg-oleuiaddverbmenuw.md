@@ -1,19 +1,17 @@
 ---
 UID: NF:oledlg.OleUIAddVerbMenuW
 title: OleUIAddVerbMenuW function (oledlg.h)
-
 description: Adds the Verb menu for the specified object to the specified menu.
 old-location: com\oleuiaddverbmenu.htm
 tech.root: com
 ms.assetid: 6efb49e7-b3c1-4035-892d-4572db47b951
-
 ms.date: 12/05/2018
 ms.keywords: OleUIAddVerbMenu, OleUIAddVerbMenu function [COM], OleUIAddVerbMenuA, OleUIAddVerbMenuW, _ole_OleUIAddVerbMenu, com.oleuiaddverbmenu, oledlg/OleUIAddVerbMenu, oledlg/OleUIAddVerbMenuA, oledlg/OleUIAddVerbMenuW
 ms.topic: function
-f1_keywords: 
- - "oledlg/OleUIAddVerbMenu"
+f1_keywords:
+- oledlg/OleUIAddVerbMenu
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleDlg.lib
 req.dll: OleDlg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleDlg.dll
+- OleDlg.dll
 api_name:
- - OleUIAddVerbMenu
- - OleUIAddVerbMenuA
- - OleUIAddVerbMenuW
+- OleUIAddVerbMenu
+- OleUIAddVerbMenuA
+- OleUIAddVerbMenuW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IWriteSpeedDescriptor
 title: IWriteSpeedDescriptor (imapi2.h)
-
 description: Use this interface retrieve detailed write configurations supported by the disc recorder and current media, for example, the media type, write speed, rotational-speed control type.
 old-location: imapi\iwritespeeddescriptor.htm
 tech.root: imapi
 ms.assetid: 9efaa744-ae0c-4101-8d78-091cba990533
-
 ms.date: 12/05/2018
 ms.keywords: IWriteSpeedDescriptor, IWriteSpeedDescriptor interface [IMAPI], IWriteSpeedDescriptor interface [IMAPI],described, imapi.iwritespeeddescriptor, imapi2/IWriteSpeedDescriptor
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IWriteSpeedDescriptor"
+f1_keywords:
+- imapi2/IWriteSpeedDescriptor
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IWriteSpeedDescriptor
+- IWriteSpeedDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

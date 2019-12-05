@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxIsLogoffOk
 title: WlxIsLogoffOk function (winwlx.h)
-
 description: Winlogon calls this function when the user initiates a logoff operation.
 old-location: security\wlxislogoffok.htm
 tech.root: SecAuthN
 ms.assetid: fe718ae7-d19e-430c-8d84-41682dca30a1
-
 ms.date: 12/05/2018
 ms.keywords: WlxIsLogoffOk, WlxIsLogoffOk function [Security], _gina_wlxislogoffok, security.wlxislogoffok, winwlx/WlxIsLogoffOk
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxIsLogoffOk"
+f1_keywords:
+- winwlx/WlxIsLogoffOk
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxIsLogoffOk
+- WlxIsLogoffOk
 targetos: Windows
 req.typenames: 
 req.redist: 

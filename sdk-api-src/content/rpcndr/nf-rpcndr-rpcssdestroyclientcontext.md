@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSsDestroyClientContext
 title: RpcSsDestroyClientContext function (rpcndr.h)
-
 description: The RpcSsDestroyClientContext function destroys a context handle no longer needed by the client, without contacting the server.
 old-location: rpc\rpcssdestroyclientcontext.htm
 tech.root: Rpc
 ms.assetid: 7c4fe939-eda9-45c3-84fb-491ac96e7c78
-
 ms.date: 12/05/2018
 ms.keywords: RpcSsDestroyClientContext, RpcSsDestroyClientContext function [RPC], _rpc_rpcssdestroyclientcontext, rpc.rpcssdestroyclientcontext, rpcndr/RpcSsDestroyClientContext
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSsDestroyClientContext"
+f1_keywords:
+- rpcndr/RpcSsDestroyClientContext
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSsDestroyClientContext
+- RpcSsDestroyClientContext
 targetos: Windows
 req.typenames: 
 req.redist: 

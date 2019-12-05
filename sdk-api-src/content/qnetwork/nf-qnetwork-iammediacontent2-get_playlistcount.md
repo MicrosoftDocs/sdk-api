@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent2.get_PlaylistCount
 title: IAMMediaContent2::get_PlaylistCount (qnetwork.h)
-
 description: The get_PlaylistCount method retrieves the number of entries in an ASX file.
 old-location: dshow\iammediacontent2_get_playlistcount.htm
 tech.root: DirectShow
 ms.assetid: 6f1a388e-de23-4441-bc65-33ce13519d70
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent2 interface [DirectShow],get_PlaylistCount method, IAMMediaContent2.get_PlaylistCount, IAMMediaContent2::get_PlaylistCount, IAMMediaContent2get_PlaylistCount, dshow.iammediacontent2_get_playlistcount, get_PlaylistCount, get_PlaylistCount method [DirectShow], get_PlaylistCount method [DirectShow],IAMMediaContent2 interface, qnetwork/IAMMediaContent2::get_PlaylistCount
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent2.get_PlaylistCount"
+f1_keywords:
+- qnetwork/IAMMediaContent2.get_PlaylistCount
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent2.get_PlaylistCount
+- IAMMediaContent2.get_PlaylistCount
 targetos: Windows
 req.typenames: 
 req.redist: 

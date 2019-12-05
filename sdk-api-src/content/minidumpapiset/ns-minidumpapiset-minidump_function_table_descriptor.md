@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
 title: MINIDUMP_FUNCTION_TABLE_DESCRIPTOR (minidumpapiset.h)
-
 description: Represents a function table stream.
 old-location: base\minidump_function_table_descriptor_str.htm
 tech.root: Debug
 ms.assetid: 284435dc-3443-4b26-9c13-ce9567482628
-
 ms.date: 12/05/2018
-ms.keywords: "*PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure pointer, _MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, _win32_minidump_function_table_descriptor_str, base.minidump_function_table_descriptor_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
+ms.keywords: '*PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure pointer, _MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, _win32_minidump_function_table_descriptor_str, base.minidump_function_table_descriptor_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
+f1_keywords:
+- minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minidumpapiset.h
+- minidumpapiset.h
 api_name:
- - MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
+- MINIDUMP_FUNCTION_TABLE_DESCRIPTOR
 targetos: Windows
 req.typenames: MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, *PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR
 req.redist: DbgHelp.dll 5.1 or later

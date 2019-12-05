@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellTaskScheduler
 title: IShellTaskScheduler (shobjidl_core.h)
-
 description: IShellTaskScheduler may be altered or unavailable.
 old-location: shell\IShellTaskScheduler.htm
 tech.root: shell
 ms.assetid: 4898da7b-3d63-481f-a63a-d4f2554cfc8e
-
 ms.date: 12/05/2018
 ms.keywords: IShellTaskScheduler, IShellTaskScheduler interface [Windows Shell], IShellTaskScheduler interface [Windows Shell],described, _win32_IShellTaskScheduler, shell.IShellTaskScheduler, shobjidl_core/IShellTaskScheduler
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellTaskScheduler"
+f1_keywords:
+- shobjidl_core/IShellTaskScheduler
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellTaskScheduler
+- IShellTaskScheduler
 targetos: Windows
 req.typenames: 
 req.redist: 

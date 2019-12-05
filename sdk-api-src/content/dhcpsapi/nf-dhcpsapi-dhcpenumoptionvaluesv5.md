@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumOptionValuesV5
 title: DhcpEnumOptionValuesV5 function (dhcpsapi.h)
-
 description: The DhcpEnumOptionValuesV5 function returns an enumerated list of option values (just the option data and the associated ID number) for a specific scope within a given user or vendor class.
 old-location: dhcp\dhcpenumoptionvaluesv5.htm
 tech.root: DHCP
 ms.assetid: 4c63161d-7d61-402c-8a5e-2800bdc5e18f
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_OPTION_IS_VENDOR, DhcpEnumOptionValuesV5, DhcpEnumOptionValuesV5 function [DHCP], dhcp.dhcpenumoptionvaluesv5, dhcpsapi/DhcpEnumOptionValuesV5
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpEnumOptionValuesV5
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

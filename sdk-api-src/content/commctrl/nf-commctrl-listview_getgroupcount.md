@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetGroupCount
 title: ListView_GetGroupCount macro (commctrl.h)
-
 description: Gets the number of groups. You can use this macro or send the LVM_GETGROUPCOUNT message explicitly.
 old-location: controls\ListView_GetGroupCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetGroupCount, ListView_GetGroupCount macro [Windows Controls], _shell_ListView_GetGroupCount, _shell_ListView_GetGroupCount_cpp, commctrl/ListView_GetGroupCount, controls.ListView_GetGroupCount, controls._shell_ListView_GetGroupCount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetGroupCount"
+f1_keywords:
+- commctrl/ListView_GetGroupCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetGroupCount
+- ListView_GetGroupCount
 targetos: Windows
 req.typenames: 
 req.redist: 

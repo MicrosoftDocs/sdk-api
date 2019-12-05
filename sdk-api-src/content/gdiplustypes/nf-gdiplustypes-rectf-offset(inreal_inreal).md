@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.RectF.Offset(IN REAL,IN REAL)
 title: RectF::Offset(IN REAL,IN REAL) (gdiplustypes.h)
-
 description: The RectF::Offset method moves the rectangle by dx horizontally and by dx vertically.
 old-location: gdiplus\_gdiplus_CLASS_RectF_Offset_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfoffsetmethods\offset_44dx_dy.htm
-
 ms.date: 12/05/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],RectF class, RectF class [GDI+],Offset method, RectF.Offset, RectF.Offset(IN REAL,IN REAL), RectF.Offset(REAL,REAL), RectF::Offset, RectF::Offset(IN REAL,IN REAL), _gdiplus_CLASS_RectF_Offset_dx_dy_, gdiplus._gdiplus_CLASS_RectF_Offset_dx_dy_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/RectF.Offset"
+f1_keywords:
+- gdiplustypes/RectF.Offset
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - RectF.Offset
+- RectF.Offset
 targetos: Windows
 req.typenames: 
 req.redist: 

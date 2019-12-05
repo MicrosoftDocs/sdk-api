@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.QueryHardwareSupport
 title: IAudioEndpointVolume::QueryHardwareSupport (endpointvolume.h)
-
 description: The QueryHardwareSupport method queries the audio endpoint device for its hardware-supported functions.
 old-location: coreaudio\iaudioendpointvolume_queryhardwaresupport.htm
 tech.root: CoreAudio
 ms.assetid: 20d04cff-f101-417e-912f-c87af16184db
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],QueryHardwareSupport method, IAudioEndpointVolume.QueryHardwareSupport, IAudioEndpointVolume::QueryHardwareSupport, IAudioEndpointVolumeQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_queryhardwaresupport, endpointvolume/IAudioEndpointVolume::QueryHardwareSupport
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolume.QueryHardwareSupport"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolume.QueryHardwareSupport
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolume.QueryHardwareSupport
+- IAudioEndpointVolume.QueryHardwareSupport
 targetos: Windows
 req.typenames: 
 req.redist: 

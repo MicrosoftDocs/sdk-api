@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IMDSPDirectTransfer
 title: IMDSPDirectTransfer (mswmdm.h)
-
 description: The IMDSPDirectTransfer interface enables Windows Media Device Manager to delegate content transfer to the service provider.
 old-location: wmdm\imdspdirecttransfer.htm
 tech.root: WMDM
 ms.assetid: b053158c-9a1e-4da4-a428-7edceeaaee1e
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPDirectTransfer, IMDSPDirectTransfer interface [windows Media Device Manager], IMDSPDirectTransfer interface [windows Media Device Manager],described, IMDSPDirectTransferInterface, mswmdm/IMDSPDirectTransfer, wmdm.imdspdirecttransfer
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IMDSPDirectTransfer"
+f1_keywords:
+- mswmdm/IMDSPDirectTransfer
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IMDSPDirectTransfer
+- IMDSPDirectTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

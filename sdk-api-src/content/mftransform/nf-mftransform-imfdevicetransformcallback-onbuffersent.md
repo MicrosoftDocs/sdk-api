@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransformCallback.OnBufferSent
 title: IMFDeviceTransformCallback::OnBufferSent (mftransform.h)
-
 description: Called when system-allocated frame buffers are sent to the device driver.
 old-location: stream\imfdevicetransformcallback_onbuffersent.htm
 tech.root: stream
 ms.assetid: 8736BF02-636A-4894-AA74-92A805152D52
-
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransformCallback interface [Streaming Media Devices],OnBufferSent method, IMFDeviceTransformCallback.OnBufferSent, IMFDeviceTransformCallback::OnBufferSent, OnBufferSent, OnBufferSent method [Streaming Media Devices], OnBufferSent method [Streaming Media Devices],IMFDeviceTransformCallback interface, mftransform/IMFDeviceTransformCallback::OnBufferSent, stream.imfdevicetransformcallback_onbuffersent
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransformCallback.OnBufferSent"
+f1_keywords:
+- mftransform/IMFDeviceTransformCallback.OnBufferSent
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransformCallback.OnBufferSent
+- IMFDeviceTransformCallback.OnBufferSent
 targetos: Windows
 req.typenames: 
 req.redist: 

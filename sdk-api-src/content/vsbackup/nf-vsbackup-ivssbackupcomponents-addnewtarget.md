@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddNewTarget
 title: IVssBackupComponents::AddNewTarget (vsbackup.h)
-
 description: The AddNewTarget method is used by a requester during a restore operation to indicate that the backup application plans to restore files to a new location.
 old-location: base\ivssbackupcomponents_addnewtarget.htm
 tech.root: VSS
 ms.assetid: 9a4e2638-f6e7-4264-997d-41880f23c981
-
 ms.date: 12/05/2018
 ms.keywords: AddNewTarget, AddNewTarget method [VSS], AddNewTarget method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],AddNewTarget method, IVssBackupComponents.AddNewTarget, IVssBackupComponents::AddNewTarget, _win32_ivssbackupcomponents_addnewtarget, base.ivssbackupcomponents_addnewtarget, vsbackup/IVssBackupComponents::AddNewTarget
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.AddNewTarget"
+f1_keywords:
+- vsbackup/IVssBackupComponents.AddNewTarget
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.AddNewTarget
+- IVssBackupComponents.AddNewTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

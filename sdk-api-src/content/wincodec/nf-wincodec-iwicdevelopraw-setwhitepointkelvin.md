@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetWhitePointKelvin
 title: IWICDevelopRaw::SetWhitePointKelvin (wincodec.h)
-
 description: Sets the white point Kelvin value.
 old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointkelvin.htm
 tech.root: wic
 ms.assetid: 3a5235ed-b0c8-4090-9380-892e3e994d10
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetWhitePointKelvin method, IWICDevelopRaw.SetWhitePointKelvin, IWICDevelopRaw::SetWhitePointKelvin, SetWhitePointKelvin, SetWhitePointKelvin method [Windows Imaging Component], SetWhitePointKelvin method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setwhitepointkelvin, wic._wic_codec_iwicdevelopraw_setwhitepointkelvin, wincodec/IWICDevelopRaw::SetWhitePointKelvin
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetWhitePointKelvin"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetWhitePointKelvin
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetWhitePointKelvin
+- IWICDevelopRaw.SetWhitePointKelvin
 targetos: Windows
 req.typenames: 
 req.redist: 

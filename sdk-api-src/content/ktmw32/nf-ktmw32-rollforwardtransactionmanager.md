@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.RollforwardTransactionManager
 title: RollforwardTransactionManager function (ktmw32.h)
-
 description: Recovers information only to the specified virtual clock value.
 old-location: fs\rollforwardtransactionmanager.htm
 tech.root: ktm
 ms.assetid: 13492b74-8707-46bb-93f1-59c3c5ceab6d
-
 ms.date: 12/05/2018
 ms.keywords: RollforwardTransactionManager, RollforwardTransactionManager function [Files], fs.rollforwardtransactionmanager, ktmw32/RollforwardTransactionManager
 ms.topic: function
-f1_keywords: 
- - "ktmw32/RollforwardTransactionManager"
+f1_keywords:
+- ktmw32/RollforwardTransactionManager
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: KtmW32.lib
 req.dll: KtmW32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KtmW32.dll
+- KtmW32.dll
 api_name:
- - RollforwardTransactionManager
+- RollforwardTransactionManager
 targetos: Windows
 req.typenames: 
 req.redist: 

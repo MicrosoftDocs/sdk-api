@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_KeyUsage
 title: IX509PrivateKey::put_KeyUsage (certenroll.h)
-
 description: Specifies or retrieves a value that identifies the specific purpose for which a private key can be used.
 old-location: security\ix509privatekey_keyusage.htm
 tech.root: seccertenroll
 ms.assetid: e983c95b-6b3a-4e27-8a23-ef9051b11a16
-
 ms.date: 12/05/2018
 ms.keywords: IX509PrivateKey interface [Security],KeyUsage property, IX509PrivateKey.KeyUsage, IX509PrivateKey.put_KeyUsage, IX509PrivateKey::KeyUsage, IX509PrivateKey::get_KeyUsage, IX509PrivateKey::put_KeyUsage, KeyUsage property [Security], KeyUsage property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::KeyUsage, certenroll/IX509PrivateKey::get_KeyUsage, certenroll/IX509PrivateKey::put_KeyUsage, put_KeyUsage, security.ix509privatekey_keyusage
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.KeyUsage"
+f1_keywords:
+- certenroll/IX509PrivateKey.KeyUsage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.KeyUsage
- - IX509PrivateKey.get_KeyUsage
- - IX509PrivateKey.put_KeyUsage
+- IX509PrivateKey.KeyUsage
+- IX509PrivateKey.get_KeyUsage
+- IX509PrivateKey.put_KeyUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

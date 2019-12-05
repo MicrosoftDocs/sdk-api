@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.GetOutputMediaType
 title: IMFCaptureSink::GetOutputMediaType (mfcaptureengine.h)
-
 description: Gets the output format for a stream on this capture sink.
 old-location: mf\imfcapturesink_getoutputmediatype.htm
 tech.root: medfound
 ms.assetid: 3F050964-9E71-45FC-9553-A2E7A397217E
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputMediaType, GetOutputMediaType method [Media Foundation], GetOutputMediaType method [Media Foundation],IMFCaptureSink interface, IMFCaptureSink interface [Media Foundation],GetOutputMediaType method, IMFCaptureSink.GetOutputMediaType, IMFCaptureSink::GetOutputMediaType, mf.imfcapturesink_getoutputmediatype, mfcaptureengine/IMFCaptureSink::GetOutputMediaType
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureSink.GetOutputMediaType"
+f1_keywords:
+- mfcaptureengine/IMFCaptureSink.GetOutputMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureSink.GetOutputMediaType
+- IMFCaptureSink.GetOutputMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

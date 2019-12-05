@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCreatePropertyStore.IsStoreSerializable
 title: ITfCreatePropertyStore::IsStoreSerializable (msctf.h)
-
 description: ITfCreatePropertyStore::IsStoreSerializable method
 old-location: tsf\itfcreatepropertystore_isstoreserializable.htm
 tech.root: TSF
 ms.assetid: f5fdd81f-266b-4ff3-ab44-2d1c89a7aaea
-
 ms.date: 12/05/2018
 ms.keywords: ITfCreatePropertyStore interface [Text Services Framework],IsStoreSerializable method, ITfCreatePropertyStore.IsStoreSerializable, ITfCreatePropertyStore::IsStoreSerializable, IsStoreSerializable, IsStoreSerializable method [Text Services Framework], IsStoreSerializable method [Text Services Framework],ITfCreatePropertyStore interface, _tsf_itfcreatepropertystore_isstoreserializable_ref, msctf/ITfCreatePropertyStore::IsStoreSerializable, tsf.itfcreatepropertystore_isstoreserializable
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCreatePropertyStore.IsStoreSerializable"
+f1_keywords:
+- msctf/ITfCreatePropertyStore.IsStoreSerializable
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITfCreatePropertyStore.IsStoreSerializable
+- ITfCreatePropertyStore.IsStoreSerializable
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

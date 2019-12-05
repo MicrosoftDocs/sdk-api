@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlDropHandler.OnDragOver
 title: INameSpaceTreeControlDropHandler::OnDragOver (shobjidl.h)
-
 description: Called on drag over to set drag effect, as specified.
 old-location: shell\INameSpaceTreeControlDropHandler_OnDragOver.htm
 tech.root: shell
 ms.assetid: 9875bd38-9f1d-479f-bd8a-8deb07aa9b53
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlDropHandler interface [Windows Shell],OnDragOver method, INameSpaceTreeControlDropHandler.OnDragOver, INameSpaceTreeControlDropHandler::OnDragOver, OnDragOver, OnDragOver method [Windows Shell], OnDragOver method [Windows Shell],INameSpaceTreeControlDropHandler interface, _shell_INameSpaceTreeControlDropHandler_OnDragOver, shell.INameSpaceTreeControlDropHandler_OnDragOver, shobjidl/INameSpaceTreeControlDropHandler::OnDragOver
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlDropHandler.OnDragOver"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlDropHandler.OnDragOver
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlDropHandler.OnDragOver
+- INameSpaceTreeControlDropHandler.OnDragOver
 targetos: Windows
 req.typenames: 
 req.redist: 

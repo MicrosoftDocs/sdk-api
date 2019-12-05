@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarIdiv
 title: VarIdiv function (oleauto.h)
-
 description: Converts two variants of any type to integers then returns the result from dividing them.
 old-location: automat\varidiv.htm
 tech.root: automat
 ms.assetid: dd76b96f-b616-420f-9f26-d88004574411
-
 ms.date: 12/05/2018
 ms.keywords: VarIdiv, VarIdiv function [Automation], _oa96_VarIdiv, automat.varidiv, oleauto/VarIdiv
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarIdiv"
+f1_keywords:
+- oleauto/VarIdiv
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarIdiv
+- VarIdiv
 targetos: Windows
 req.typenames: 
 req.redist: 

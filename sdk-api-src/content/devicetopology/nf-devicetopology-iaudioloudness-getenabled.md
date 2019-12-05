@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IAudioLoudness.GetEnabled
 title: IAudioLoudness::GetEnabled (devicetopology.h)
-
 description: The GetEnabled method gets the current state (enabled or disabled) of the loudness control.
 old-location: coreaudio\iaudioloudness_getenabled.htm
 tech.root: CoreAudio
 ms.assetid: 1ce0cd1b-e80f-45dc-b64e-1aa09bb53dbd
-
 ms.date: 12/05/2018
 ms.keywords: GetEnabled, GetEnabled method [Core Audio], GetEnabled method [Core Audio],IAudioLoudness interface, IAudioLoudness interface [Core Audio],GetEnabled method, IAudioLoudness.GetEnabled, IAudioLoudness::GetEnabled, IAudioLoudnessGetEnabled, coreaudio.iaudioloudness_getenabled, devicetopology/IAudioLoudness::GetEnabled
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IAudioLoudness.GetEnabled"
+f1_keywords:
+- devicetopology/IAudioLoudness.GetEnabled
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioLoudness.GetEnabled
+- IAudioLoudness.GetEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

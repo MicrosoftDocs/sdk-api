@@ -1,19 +1,17 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig.GetRelativePosition
 title: IMixerPinConfig::GetRelativePosition (mpconfig.h)
-
 description: The GetRelativePosition method retrieves the position of the stream in the display window.
 old-location: dshow\imixerpinconfig_getrelativeposition.htm
 tech.root: DirectShow
 ms.assetid: 0a2bcc3e-361d-4374-9444-717287c07116
-
 ms.date: 12/05/2018
 ms.keywords: GetRelativePosition, GetRelativePosition method [DirectShow], GetRelativePosition method [DirectShow],IMixerPinConfig interface, IMixerPinConfig interface [DirectShow],GetRelativePosition method, IMixerPinConfig.GetRelativePosition, IMixerPinConfig::GetRelativePosition, IMixerPinConfigGetRelativePosition, dshow.imixerpinconfig_getrelativeposition, mpconfig/IMixerPinConfig::GetRelativePosition
 ms.topic: method
-f1_keywords: 
- - "mpconfig/IMixerPinConfig.GetRelativePosition"
+f1_keywords:
+- mpconfig/IMixerPinConfig.GetRelativePosition
 dev_langs:
- - c++
+- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMixerPinConfig.GetRelativePosition
+- IMixerPinConfig.GetRelativePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

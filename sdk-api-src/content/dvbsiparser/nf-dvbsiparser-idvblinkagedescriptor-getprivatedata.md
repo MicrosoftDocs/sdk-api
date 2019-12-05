@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetPrivateData
 title: IDvbLinkageDescriptor::GetPrivateData (dvbsiparser.h)
-
 description: Gets the private data from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getprivatedata.htm
 tech.root: mstv
 ms.assetid: 959aeb87-b661-4567-a6fd-2d28be6b0a02
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateData, GetPrivateData method [Microsoft TV Technologies], GetPrivateData method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetPrivateData method, IDvbLinkageDescriptor.GetPrivateData, IDvbLinkageDescriptor::GetPrivateData, dvbsiparser/IDvbLinkageDescriptor::GetPrivateData, mstv.idvblinkagedescriptor_getprivatedata
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLinkageDescriptor.GetPrivateData"
+f1_keywords:
+- dvbsiparser/IDvbLinkageDescriptor.GetPrivateData
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLinkageDescriptor.GetPrivateData
+- IDvbLinkageDescriptor.GetPrivateData
 targetos: Windows
 req.typenames: 
 req.redist: 

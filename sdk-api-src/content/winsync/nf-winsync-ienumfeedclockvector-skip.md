@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumFeedClockVector.Skip
 title: IEnumFeedClockVector::Skip (winsync.h)
-
 description: Skips the specified number of clock vector elements.
 old-location: winsync\ienumfeedclockvector_skip.htm
 tech.root: winsync
 ms.assetid: eabe3389-2c1f-4b0e-a062-24bbe3fa87f9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFeedClockVector interface [Windows Sync],Skip method, IEnumFeedClockVector.Skip, IEnumFeedClockVector::Skip, Skip, Skip method [Windows Sync], Skip method [Windows Sync],IEnumFeedClockVector interface, winsync.ienumfeedclockvector_skip, winsync/IEnumFeedClockVector::Skip
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumFeedClockVector.Skip"
+f1_keywords:
+- winsync/IEnumFeedClockVector.Skip
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumFeedClockVector.Skip
+- IEnumFeedClockVector.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

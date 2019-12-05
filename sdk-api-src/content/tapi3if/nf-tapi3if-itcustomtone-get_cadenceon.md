@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCustomTone.get_CadenceOn
 title: ITCustomTone::get_CadenceOn (tapi3if.h)
-
 description: The get_CadenceOn method retrieves the &#0034;on&#0034; duration of the cadence of the custom tone to generate.
 old-location: tapi3\itcustomtone_get_cadenceon.htm
 tech.root: Tapi
 ms.assetid: 2f3da359-69e1-40a3-bfd6-42ade8de2379
-
 ms.date: 12/05/2018
 ms.keywords: ITCustomTone interface [TAPI 2.2],get_CadenceOn method, ITCustomTone.get_CadenceOn, ITCustomTone::get_CadenceOn, _tapi3_itcustomtone_get_cadenceon, get_CadenceOn, get_CadenceOn method [TAPI 2.2], get_CadenceOn method [TAPI 2.2],ITCustomTone interface, tapi3.itcustomtone_get_cadenceon, tapi3if/ITCustomTone::get_CadenceOn
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCustomTone.get_CadenceOn"
+f1_keywords:
+- tapi3if/ITCustomTone.get_CadenceOn
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCustomTone.get_CadenceOn
+- ITCustomTone.get_CadenceOn
 targetos: Windows
 req.typenames: 
 req.redist: 

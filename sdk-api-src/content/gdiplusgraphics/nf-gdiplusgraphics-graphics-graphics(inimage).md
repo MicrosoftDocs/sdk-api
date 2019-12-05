@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Graphics(IN Image)
 title: Graphics::Graphics(IN Image) (gdiplusgraphics.h)
-
 description: Creates a Graphics::Graphics object that is associated with an Image object.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_image_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_30image.htm
-
 ms.date: 12/05/2018
 ms.keywords: Graphics, Graphics class [GDI+],Graphics constructor, Graphics constructor [GDI+], Graphics constructor [GDI+],Graphics class, Graphics.Graphics, Graphics.Graphics(IN Image), Graphics.Graphics(Image*), Graphics::Graphics, Graphics::Graphics(IN Image), _gdiplus_CLASS_Graphics_Graphics_image_, gdiplus._gdiplus_CLASS_Graphics_Graphics_image_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.Graphics"
+f1_keywords:
+- gdiplusgraphics/Graphics.Graphics
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.Graphics
+- Graphics.Graphics
 targetos: Windows
 req.typenames: 
 req.redist: 

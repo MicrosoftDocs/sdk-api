@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseDigest
 title: IWSManEx::SessionFlagUseDigest (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagUseDigest for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusedigest.htm
 tech.root: winrm
 ms.assetid: 3aa44847-932e-49c6-a7fd-966a2bb3539d
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseDigest method, IWSManEx.SessionFlagUseDigest, IWSManEx::SessionFlagUseDigest, SessionFlagUseDigest, SessionFlagUseDigest method [Windows Remote Management], SessionFlagUseDigest method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusedigest, wsmandisp/IWSManEx::SessionFlagUseDigest
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagUseDigest"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagUseDigest
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagUseDigest
+- IWSManEx.SessionFlagUseDigest
 targetos: Windows
 req.typenames: 
 req.redist: 

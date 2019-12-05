@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.RegisterGPNotification
 title: RegisterGPNotification function (userenv.h)
-
 description: The RegisterGPNotification function enables an application to receive notification when there is a change in policy. When a policy change occurs, the specified event object is set to the signaled state.
 old-location: policy\registergpnotification.htm
 tech.root: Policy
 ms.assetid: 0a758da3-73a8-4d9b-8663-e6cab1a1bd3f
-
 ms.date: 12/05/2018
 ms.keywords: RegisterGPNotification, RegisterGPNotification function [Group Policy], _win32_registergpnotification, policy.registergpnotification, userenv/RegisterGPNotification
 ms.topic: function
-f1_keywords: 
- - "userenv/RegisterGPNotification"
+f1_keywords:
+- userenv/RegisterGPNotification
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - RegisterGPNotification
+- RegisterGPNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

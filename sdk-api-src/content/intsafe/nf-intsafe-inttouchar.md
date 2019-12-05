@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntToUChar
 title: IntToUChar function (intsafe.h)
-
 description: Converts a value of type INT to a value of type UCHAR.
 old-location: shell\IntToUChar.htm
 tech.root: shell
 ms.assetid: 19bdf34e-49ae-4dff-bed7-fa6229c8aa1b
-
 ms.date: 12/05/2018
 ms.keywords: IntToUChar, IntToUChar function [Windows Shell], _shell_IntToUChar, intsafe/IntToUChar, shell.IntToUChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntToUChar"
+f1_keywords:
+- intsafe/IntToUChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - IntToUChar
+- IntToUChar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:gdipluscolormatrix.ColorAdjustType
 title: ColorAdjustType (gdipluscolormatrix.h)
-
 description: The ColorAdjustType enumeration specifies which GDI+ objects use color-adjustment information.
 old-location: gdiplus\_gdiplus_ENUM_ColorAdjustType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\coloradjusttype.htm
-
 ms.date: 12/05/2018
 ms.keywords: ColorAdjustType, ColorAdjustType enumeration [GDI+], ColorAdjustTypeAny, ColorAdjustTypeBitmap, ColorAdjustTypeBrush, ColorAdjustTypeCount, ColorAdjustTypeDefault, ColorAdjustTypePen, ColorAdjustTypeText, _gdiplus_ENUM_ColorAdjustType, gdiplus._gdiplus_ENUM_ColorAdjustType, gdipluscolormatrix/ColorAdjustType, gdipluscolormatrix/ColorAdjustTypeAny, gdipluscolormatrix/ColorAdjustTypeBitmap, gdipluscolormatrix/ColorAdjustTypeBrush, gdipluscolormatrix/ColorAdjustTypeCount, gdipluscolormatrix/ColorAdjustTypeDefault, gdipluscolormatrix/ColorAdjustTypePen, gdipluscolormatrix/ColorAdjustTypeText
 ms.topic: enum
-f1_keywords: 
- - "gdipluscolormatrix/ColorAdjustType"
+f1_keywords:
+- gdipluscolormatrix/ColorAdjustType
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolormatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Gdipluscolormatrix.h
+- Gdipluscolormatrix.h
 api_name:
- - ColorAdjustType
+- ColorAdjustType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:fsrm.IFsrmActionCommand
 title: IFsrmActionCommand (fsrm.h)
-
 description: Used to run a command or script in response to a quota, file screen, or file management job event.
 old-location: fsrm\ifsrmactioncommand.htm
 tech.root: fsrm
 ms.assetid: b7f9fc8c-2f55-4a0e-879a-64c368abcabb
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmActionCommand, IFsrmActionCommand interface [File Server Resource Manager], IFsrmActionCommand interface [File Server Resource Manager],described, fs.ifsrmactioncommand, fsrm.ifsrmactioncommand, fsrm/IFsrmActionCommand
 ms.topic: interface
-f1_keywords: 
- - "fsrm/IFsrmActionCommand"
+f1_keywords:
+- fsrm/IFsrmActionCommand
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmPipeline.h, FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionCommand
+- IFsrmActionCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

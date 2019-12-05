@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorage4.GetReferences
 title: IMDSPStorage4::GetReferences (mswmdm.h)
-
 description: The GetReferences method returns an array of pointers to IMDSPStorage objects comprising the references contained in an association storage, such as one representing playlist or album objects.
 old-location: wmdm\imdspstorage4_getreferences.htm
 tech.root: WMDM
 ms.assetid: f8caf10b-69d4-4d37-836e-af260840254f
-
 ms.date: 12/05/2018
 ms.keywords: GetReferences, GetReferences method [windows Media Device Manager], GetReferences method [windows Media Device Manager],IMDSPStorage4 interface, IMDSPStorage4 interface [windows Media Device Manager],GetReferences method, IMDSPStorage4.GetReferences, IMDSPStorage4::GetReferences, IMDSPStorage4GetReferences, mswmdm/IMDSPStorage4::GetReferences, wmdm.imdspstorage4_getreferences
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorage4.GetReferences"
+f1_keywords:
+- mswmdm/IMDSPStorage4.GetReferences
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorage4.GetReferences
+- IMDSPStorage4.GetReferences
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderStreamClock.GetTime
 title: IWMReaderStreamClock::GetTime (wmsdkidl.h)
-
 description: The GetTime method retrieves the current value of the stream clock.
 old-location: wmformat\iwmreaderstreamclock_gettime.htm
 tech.root: wmformat
 ms.assetid: d44b8701-8065-40a5-abc3-1c7513c618ea
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [windows Media Format], GetTime method [windows Media Format],IWMReaderStreamClock interface, IWMReaderStreamClock interface [windows Media Format],GetTime method, IWMReaderStreamClock.GetTime, IWMReaderStreamClock::GetTime, IWMReaderStreamClockGetTime, wmformat.iwmreaderstreamclock_gettime, wmsdkidl/IWMReaderStreamClock::GetTime
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderStreamClock.GetTime"
+f1_keywords:
+- wmsdkidl/IWMReaderStreamClock.GetTime
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderStreamClock.GetTime
+- IWMReaderStreamClock.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

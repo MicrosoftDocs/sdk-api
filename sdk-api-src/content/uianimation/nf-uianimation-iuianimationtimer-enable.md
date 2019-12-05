@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimer.Enable
 title: IUIAnimationTimer::Enable (uianimation.h)
-
 description: Enables the animation timer.
 old-location: uianimation\iuianimationtimer_enable.htm
 tech.root: UIAnimation
 ms.assetid: b2efd694-67ff-4e6e-9a47-d0ce70dbd85a
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Windows Animation], Enable method [Windows Animation],IUIAnimationTimer interface, IUIAnimationTimer interface [Windows Animation],Enable method, IUIAnimationTimer.Enable, IUIAnimationTimer::Enable, uianimation.iuianimationtimer_enable, uianimation/IUIAnimationTimer::Enable
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimer.Enable"
+f1_keywords:
+- uianimation/IUIAnimationTimer.Enable
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimer.Enable
+- IUIAnimationTimer.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

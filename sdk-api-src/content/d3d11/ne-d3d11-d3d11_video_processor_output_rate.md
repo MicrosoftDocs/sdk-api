@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
 title: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE (d3d11.h)
-
 description: Specifies the rate at which the video processor produces output frames from an input stream.
 old-location: mf\d3d11_video_processor_output_rate.htm
 tech.root: medfound
 ms.assetid: C950E5B5-E50C-4750-83F3-38296EF2009F
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE enumeration [Media Foundation], D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_HALF, d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL, mf.d3d11_video_processor_output_rate
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE"
+f1_keywords:
+- d3d11/D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
+- D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
 targetos: Windows
 req.typenames: D3D11_VIDEO_PROCESSOR_OUTPUT_RATE
 req.redist: 

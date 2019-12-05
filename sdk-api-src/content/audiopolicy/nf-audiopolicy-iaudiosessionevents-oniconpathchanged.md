@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnIconPathChanged
 title: IAudioSessionEvents::OnIconPathChanged (audiopolicy.h)
-
 description: The OnIconPathChanged method notifies the client that the display icon for the session has changed.
 old-location: coreaudio\iaudiosessionevents_oniconpathchanged.htm
 tech.root: CoreAudio
 ms.assetid: 32669e52-28bf-4739-9f39-6e0175ca779c
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnIconPathChanged method, IAudioSessionEvents.OnIconPathChanged, IAudioSessionEvents::OnIconPathChanged, IAudioSessionEventsOnIconPathChanged, OnIconPathChanged, OnIconPathChanged method [Core Audio], OnIconPathChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnIconPathChanged, coreaudio.iaudiosessionevents_oniconpathchanged
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionEvents.OnIconPathChanged"
+f1_keywords:
+- audiopolicy/IAudioSessionEvents.OnIconPathChanged
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionEvents.OnIconPathChanged
+- IAudioSessionEvents.OnIconPathChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

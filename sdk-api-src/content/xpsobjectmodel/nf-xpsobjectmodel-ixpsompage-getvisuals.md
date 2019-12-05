@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetVisuals
 title: IXpsOMPage::GetVisuals (xpsobjectmodel.h)
-
 description: Gets a pointer to an IXpsOMVisualCollection interface that contains a collection of the page's visual objects.
 old-location: xps\ixpsompage_getvisuals.htm
 tech.root: printdocs
 ms.assetid: 8181513f-2a5d-4b43-aa40-7f886a8af7f7
-
 ms.date: 12/05/2018
 ms.keywords: GetVisuals, GetVisuals method [XPS Documents and Packaging], GetVisuals method [XPS Documents and Packaging],IXpsOMPage interface, IXpsOMPage interface [XPS Documents and Packaging],GetVisuals method, IXpsOMPage.GetVisuals, IXpsOMPage::GetVisuals, xps.ixpsompage_getvisuals, xpsobjectmodel/IXpsOMPage::GetVisuals
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPage.GetVisuals"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPage.GetVisuals
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPage.GetVisuals
+- IXpsOMPage.GetVisuals
 targetos: Windows
 req.typenames: 
 req.redist: 

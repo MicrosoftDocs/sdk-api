@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSource.GetParagraphReadingDirection
 title: IDWriteTextAnalysisSource::GetParagraphReadingDirection (dwrite.h)
-
 description: Gets the paragraph reading direction.
 old-location: directwrite\idwritetextanalysissource_getparagraphreadingdirection.htm
 tech.root: DirectWrite
 ms.assetid: 23013354-54bd-4f45-91d7-159965f0c56c
-
 ms.date: 12/05/2018
 ms.keywords: GetParagraphReadingDirection, GetParagraphReadingDirection method [Direct Write], GetParagraphReadingDirection method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetParagraphReadingDirection method, IDWriteTextAnalysisSource.GetParagraphReadingDirection, IDWriteTextAnalysisSource::GetParagraphReadingDirection, directwrite.idwritetextanalysissource_getparagraphreadingdirection, dwrite/IDWriteTextAnalysisSource::GetParagraphReadingDirection
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextAnalysisSource.GetParagraphReadingDirection"
+f1_keywords:
+- dwrite/IDWriteTextAnalysisSource.GetParagraphReadingDirection
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextAnalysisSource.GetParagraphReadingDirection
+- IDWriteTextAnalysisSource.GetParagraphReadingDirection
 targetos: Windows
 req.typenames: 
 req.redist: 

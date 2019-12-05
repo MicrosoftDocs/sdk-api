@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsw32.TerminateReadLog
 title: TerminateReadLog function (clfsw32.h)
-
 description: Terminates a read context. This function frees system-allocated resources associated with the specified read context. Do not attempt to read log records after calling this function; you will receive indeterminate results.
 old-location: fs\terminatereadlog.htm
 tech.root: Clfs
 ms.assetid: fb0a4c4e-cdb7-4c42-9102-bc76b8b70193
-
 ms.date: 12/05/2018
 ms.keywords: TerminateReadLog, TerminateReadLog function [Files], clfsw32/TerminateReadLog, fs.terminatereadlog
 ms.topic: function
-f1_keywords: 
- - "clfsw32/TerminateReadLog"
+f1_keywords:
+- clfsw32/TerminateReadLog
 dev_langs:
- - c++
+- c++
 req.header: clfsw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - TerminateReadLog
+- TerminateReadLog
 targetos: Windows
 req.typenames: 
 req.redist: 

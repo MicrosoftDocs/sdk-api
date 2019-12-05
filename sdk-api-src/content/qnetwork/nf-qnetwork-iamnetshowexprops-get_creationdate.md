@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_CreationDate
 title: IAMNetShowExProps::get_CreationDate (qnetwork.h)
-
 description: The get_CreationDate method retrieves the creation date of the source file.
 old-location: dshow\iamnetshowexprops_get_creationdate.htm
 tech.root: DirectShow
 ms.assetid: 0a9cbaed-c8aa-445a-9f8e-d84a7b50166e
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowExProps interface [DirectShow],get_CreationDate method, IAMNetShowExProps.get_CreationDate, IAMNetShowExProps::get_CreationDate, IAMNetShowExPropsget_CreationDate, dshow.iamnetshowexprops_get_creationdate, get_CreationDate, get_CreationDate method [DirectShow], get_CreationDate method [DirectShow],IAMNetShowExProps interface, qnetwork/IAMNetShowExProps::get_CreationDate
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowExProps.get_CreationDate"
+f1_keywords:
+- qnetwork/IAMNetShowExProps.get_CreationDate
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowExProps.get_CreationDate
+- IAMNetShowExProps.get_CreationDate
 targetos: Windows
 req.typenames: 
 req.redist: 

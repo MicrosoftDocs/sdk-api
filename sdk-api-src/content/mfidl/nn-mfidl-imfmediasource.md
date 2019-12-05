@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaSource
 title: IMFMediaSource (mfidl.h)
-
 description: Implemented by media source objects.
 old-location: mf\imfmediasource.htm
 tech.root: medfound
 ms.assetid: 8b579f61-6fea-4b20-a051-7633fc01fa05
-
 ms.date: 12/05/2018
 ms.keywords: 8b579f61-6fea-4b20-a051-7633fc01fa05, IMFMediaSource, IMFMediaSource interface [Media Foundation], IMFMediaSource interface [Media Foundation],described, mf.imfmediasource, mfidl/IMFMediaSource
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaSource"
+f1_keywords:
+- mfidl/IMFMediaSource
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSource
+- IMFMediaSource
 targetos: Windows
 req.typenames: 
 req.redist: 

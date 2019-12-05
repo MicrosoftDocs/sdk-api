@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_13
 title: FIND_BY_SID_OUTPUT
-
 description: Represents a file name.
 old-location: fs\find_by_sid_output.htm
 tech.root: FileIO
 ms.assetid: fc616f88-c8c9-43de-8b17-2b8c38e5cdbb
-
 ms.date: 12/05/2018
-ms.keywords: "*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT structure [Files], PFIND_BY_SID_OUTPUT, PFIND_BY_SID_OUTPUT structure pointer [Files], base.find_by_sid_output, fs.find_by_sid_output, winioctl/FIND_BY_SID_OUTPUT, winioctl/PFIND_BY_SID_OUTPUT"
+ms.keywords: '*PFIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT, FIND_BY_SID_OUTPUT structure [Files], PFIND_BY_SID_OUTPUT, PFIND_BY_SID_OUTPUT structure pointer [Files], base.find_by_sid_output, fs.find_by_sid_output, winioctl/FIND_BY_SID_OUTPUT, winioctl/PFIND_BY_SID_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FIND_BY_SID_OUTPUT"
+f1_keywords:
+- winioctl/FIND_BY_SID_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FIND_BY_SID_OUTPUT
+- FIND_BY_SID_OUTPUT
 targetos: Windows
 req.typenames: FIND_BY_SID_OUTPUT, *PFIND_BY_SID_OUTPUT
 req.redist: 

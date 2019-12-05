@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linequeueentry_tag
 title: LINEQUEUEENTRY (tapi.h)
-
 description: The LINEQUEUEENTRY structure provides the information for a single queue entry. The LINEQUEUELIST structure can contain an array of LINEQUEUEENTRY structures. This structure requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeueentry.htm
 tech.root: Tapi
 ms.assetid: b05eb100-2a43-421f-826b-c37d05e4ef14
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEQUEUEENTRY, LINEQUEUEENTRY, LINEQUEUEENTRY structure [TAPI 2.2], LPLINEQUEUEENTRY, LPLINEQUEUEENTRY structure pointer [TAPI 2.2], _tapi2_linequeueentry, tapi/LINEQUEUEENTRY, tapi/LPLINEQUEUEENTRY, tapi2.linequeueentry"
+ms.keywords: '*LPLINEQUEUEENTRY, LINEQUEUEENTRY, LINEQUEUEENTRY structure [TAPI 2.2], LPLINEQUEUEENTRY, LPLINEQUEUEENTRY structure pointer [TAPI 2.2], _tapi2_linequeueentry, tapi/LINEQUEUEENTRY, tapi/LPLINEQUEUEENTRY, tapi2.linequeueentry'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEQUEUEENTRY"
+f1_keywords:
+- tapi/LINEQUEUEENTRY
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEQUEUEENTRY
+- LINEQUEUEENTRY
 targetos: Windows
 req.typenames: LINEQUEUEENTRY, *LPLINEQUEUEENTRY
 req.redist: 

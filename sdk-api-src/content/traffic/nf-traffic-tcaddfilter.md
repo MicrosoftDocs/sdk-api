@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcAddFilter
 title: TcAddFilter function (traffic.h)
-
 description: The TcAddFilter function associates a new filter with an existing flow that allows packets matching the filter to be directed to the associated flow.
 old-location: qos\tcaddfilter.htm
 tech.root: QOS
 ms.assetid: c6d7c346-c353-4224-a8b5-56910e447902
-
 ms.date: 12/05/2018
 ms.keywords: TcAddFilter, TcAddFilter function [QOS], _gqos_tcaddfilter, qos.tcaddfilter, traffic/TcAddFilter
 ms.topic: function
-f1_keywords: 
- - "traffic/TcAddFilter"
+f1_keywords:
+- traffic/TcAddFilter
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Traffic.lib
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcAddFilter
+- TcAddFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputEffectDriver.Escape
 title: IDirectInputEffectDriver::Escape (dinputd.h)
-
 description: The IDirectInputEffectDriver::Escape method escapes to the driver. This method is called in response to an application invoking the IDirectInputEffect::Escape or IDirectInputDevice::Escape methods.
 old-location: hid\idirectinputeffectdriver_escape.htm
 tech.root: hid
 ms.assetid: 23bef39d-0254-4b8e-9059-32665d35b5cf
-
 ms.date: 12/05/2018
 ms.keywords: Escape, Escape method [Human Input Devices], Escape method [Human Input Devices],IDirectInputEffectDriver interface, IDirectInputEffectDriver interface [Human Input Devices],Escape method, IDirectInputEffectDriver.Escape, IDirectInputEffectDriver::Escape, di_ref_14789995-a66d-4f0b-9ac4-de0852996da6.xml, dinputd/IDirectInputEffectDriver::Escape, hid.idirectinputeffectdriver_escape
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputEffectDriver.Escape"
+f1_keywords:
+- dinputd/IDirectInputEffectDriver.Escape
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputEffectDriver.Escape
+- IDirectInputEffectDriver.Escape
 targetos: Windows
 req.typenames: 
 req.redist: 

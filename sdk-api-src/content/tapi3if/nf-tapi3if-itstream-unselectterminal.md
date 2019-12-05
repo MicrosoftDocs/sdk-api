@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITStream.UnselectTerminal
 title: ITStream::UnselectTerminal (tapi3if.h)
-
 description: The UnselectTerminal method unselects the terminal from the stream and stops streaming for this stream.
 old-location: tapi3\itstream_unselectterminal.htm
 tech.root: Tapi
 ms.assetid: ad16ea41-0c02-4bba-bfd9-267b56c481e1
-
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],UnselectTerminal method, ITStream.UnselectTerminal, ITStream::UnselectTerminal, UnselectTerminal, UnselectTerminal method [TAPI 2.2], UnselectTerminal method [TAPI 2.2],ITStream interface, _tapi3_itstream_unselectterminal, tapi3.itstream_unselectterminal, tapi3if/ITStream::UnselectTerminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITStream.UnselectTerminal"
+f1_keywords:
+- tapi3if/ITStream.UnselectTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITStream.UnselectTerminal
+- ITStream.UnselectTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

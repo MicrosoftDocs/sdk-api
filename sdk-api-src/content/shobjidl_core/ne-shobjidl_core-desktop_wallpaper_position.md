@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.DESKTOP_WALLPAPER_POSITION
 title: DESKTOP_WALLPAPER_POSITION (shobjidl_core.h)
-
 description: Specifies how the desktop wallpaper should be displayed.
 old-location: shell\DESKTOP_WALLPAPER_POSITION.htm
 tech.root: shell
 ms.assetid: 5524E7DA-087C-475a-BB22-5E62C1A5CC4D
-
 ms.date: 12/05/2018
 ms.keywords: DESKTOP_WALLPAPER_POSITION, DESKTOP_WALLPAPER_POSITION enumeration [Windows Shell], DWPOS_CENTER, DWPOS_FILL, DWPOS_FIT, DWPOS_SPAN, DWPOS_STRETCH, DWPOS_TILE, shell.DESKTOP_WALLPAPER_POSITION, shobjidl_core/DESKTOP_WALLPAPER_POSITION, shobjidl_core/DWPOS_CENTER, shobjidl_core/DWPOS_FILL, shobjidl_core/DWPOS_FIT, shobjidl_core/DWPOS_SPAN, shobjidl_core/DWPOS_STRETCH, shobjidl_core/DWPOS_TILE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/DESKTOP_WALLPAPER_POSITION"
+f1_keywords:
+- shobjidl_core/DESKTOP_WALLPAPER_POSITION
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - DESKTOP_WALLPAPER_POSITION
+- DESKTOP_WALLPAPER_POSITION
 targetos: Windows
 req.typenames: DESKTOP_WALLPAPER_POSITION
 req.redist: 

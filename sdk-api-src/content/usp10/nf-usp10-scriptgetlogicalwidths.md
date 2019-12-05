@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptGetLogicalWidths
 title: ScriptGetLogicalWidths function (usp10.h)
-
 description: Converts the glyph advance widths for a specific font into logical widths.
 old-location: intl\scriptgetlogicalwidths.htm
 tech.root: Intl
 ms.assetid: ecedd0a1-aad8-4527-be46-6f7dd26a9e9b
-
 ms.date: 12/05/2018
 ms.keywords: ScriptGetLogicalWidths, ScriptGetLogicalWidths function [Internationalization for Windows Applications], _win32_ScriptGetLogicalWidths, intl.scriptgetlogicalwidths, usp10/ScriptGetLogicalWidths
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptGetLogicalWidths"
+f1_keywords:
+- usp10/ScriptGetLogicalWidths
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-usp10-l1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-usp10-l1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptGetLogicalWidths
+- ScriptGetLogicalWidths
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_REGISTER_STATE
 title: MBN_REGISTER_STATE (mbnapi.h)
-
 description: The MBN_REGISTER_STATE enumerated type indicates the network registration state of a Mobile Broadband device.
 old-location: mbn\mbn_register_state.htm
 tech.root: mbn
 ms.assetid: cbe29357-b374-4764-9322-6308b98ddc3e
-
 ms.date: 12/05/2018
 ms.keywords: MBN_REGISTER_STATE, MBN_REGISTER_STATE enumeration [Microsoft Broadband Networks], MBN_REGISTER_STATE_DENIED, MBN_REGISTER_STATE_DEREGISTERED, MBN_REGISTER_STATE_HOME, MBN_REGISTER_STATE_NONE, MBN_REGISTER_STATE_PARTNER, MBN_REGISTER_STATE_ROAMING, MBN_REGISTER_STATE_SEARCHING, mbn.mbn_register_state, mbnapi/MBN_REGISTER_STATE, mbnapi/MBN_REGISTER_STATE_DENIED, mbnapi/MBN_REGISTER_STATE_DEREGISTERED, mbnapi/MBN_REGISTER_STATE_HOME, mbnapi/MBN_REGISTER_STATE_NONE, mbnapi/MBN_REGISTER_STATE_PARTNER, mbnapi/MBN_REGISTER_STATE_ROAMING, mbnapi/MBN_REGISTER_STATE_SEARCHING
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_REGISTER_STATE"
+f1_keywords:
+- mbnapi/MBN_REGISTER_STATE
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_REGISTER_STATE
+- MBN_REGISTER_STATE
 targetos: Windows
 req.typenames: MBN_REGISTER_STATE
 req.redist: 

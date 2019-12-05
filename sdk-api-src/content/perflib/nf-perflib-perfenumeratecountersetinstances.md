@@ -1,19 +1,17 @@
 ---
 UID: NF:perflib.PerfEnumerateCounterSetInstances
 title: PerfEnumerateCounterSetInstances function (perflib.h)
-
 description: Gets the names and identifiers of the active instances of a counter set on the specified system.
 old-location: perf\perfenumeratecountersetinstances.htm
 tech.root: perfctrs
 ms.assetid: 83DCEAB7-5F79-4A55-8BAC-D20F545FF76D
-
 ms.date: 12/05/2018
 ms.keywords: PerfEnumerateCounterSetInstances, PerfEnumerateCounterSetInstances function [Perf], perf.perfenumeratecountersetinstances, perflib/PerfEnumerateCounterSetInstances
 ms.topic: function
 f1_keywords:
 - perflib/PerfEnumerateCounterSetInstances
 dev_langs:
- - c++
+- c++
 req.header: perflib.h
 req.include-header: 
 req.target-type: Windows

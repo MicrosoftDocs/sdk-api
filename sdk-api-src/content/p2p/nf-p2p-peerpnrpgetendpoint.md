@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerPnrpGetEndpoint
 title: PeerPnrpGetEndpoint function (p2p.h)
-
 description: Retrieves a peer endpoint address resolved during an asynchronous peer name resolution operation.
 old-location: p2p\peerpnrpgetendpoint.htm
 tech.root: P2PSdk
 ms.assetid: d81b0aab-90b5-4583-b554-efe38c220e59
-
 ms.date: 12/05/2018
 ms.keywords: PeerPnrpGetEndpoint, PeerPnrpGetEndpoint function [Peer Networking], p2p.peerpnrpgetendpoint, p2p/PeerPnrpGetEndpoint
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerPnrpGetEndpoint"
+f1_keywords:
+- p2p/PeerPnrpGetEndpoint
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerPnrpGetEndpoint
+- PeerPnrpGetEndpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

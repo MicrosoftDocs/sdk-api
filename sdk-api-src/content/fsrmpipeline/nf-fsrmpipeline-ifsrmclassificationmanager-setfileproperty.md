@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.SetFileProperty
 title: IFsrmClassificationManager::SetFileProperty (fsrmpipeline.h)
-
 description: Sets the value of the specified property in the file or folder.
 old-location: fsrm\ifsrmclassificationmanager_setfileproperty.htm
 tech.root: fsrm
 ms.assetid: 0f13f00e-6ca2-4436-822e-01eff638c446
-
 ms.date: 12/05/2018
 ms.keywords: FsrmClassificationManager class [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager interface [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager.SetFileProperty, IFsrmClassificationManager2 interface [File Server Resource Manager],SetFileProperty method, IFsrmClassificationManager2::SetFileProperty, IFsrmClassificationManager::SetFileProperty, SetFileProperty, SetFileProperty method [File Server Resource Manager], SetFileProperty method [File Server Resource Manager],FsrmClassificationManager class, SetFileProperty method [File Server Resource Manager],IFsrmClassificationManager interface, SetFileProperty method [File Server Resource Manager],IFsrmClassificationManager2 interface, fs.ifsrmclassificationmanager_setfileproperty, fsrm.ifsrmclassificationmanager_setfileproperty, fsrmpipeline/IFsrmClassificationManager2::SetFileProperty, fsrmpipeline/IFsrmClassificationManager::SetFileProperty
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.SetFileProperty"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.SetFileProperty
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.SetFileProperty
- - IFsrmClassificationManager2.SetFileProperty
- - FsrmClassificationManager.SetFileProperty
+- IFsrmClassificationManager.SetFileProperty
+- IFsrmClassificationManager2.SetFileProperty
+- FsrmClassificationManager.SetFileProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

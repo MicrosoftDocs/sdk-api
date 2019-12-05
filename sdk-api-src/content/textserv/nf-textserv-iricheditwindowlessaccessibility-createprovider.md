@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.IRicheditWindowlessAccessibility.CreateProvider
 title: IRicheditWindowlessAccessibility::CreateProvider (textserv.h)
-
 description: Obtains a Microsoft UI Automation provider object for the parent of a windowless rich edit control.
 old-location: controls\iricheditwindowlessaccessibility_createprovider.htm
 tech.root: Controls
 ms.assetid: 660E8B3E-1372-458D-A6E0-B88B1E5A01B5
-
 ms.date: 12/05/2018
 ms.keywords: CreateProvider, CreateProvider method [Windows Controls], CreateProvider method [Windows Controls],IRicheditWindowlessAccessibility interface, IRicheditWindowlessAccessibility interface [Windows Controls],CreateProvider method, IRicheditWindowlessAccessibility.CreateProvider, IRicheditWindowlessAccessibility::CreateProvider, controls.iricheditwindowlessaccessibility_createprovider, textserv/IRicheditWindowlessAccessibility::CreateProvider
 ms.topic: method
-f1_keywords: 
- - "textserv/IRicheditWindowlessAccessibility.CreateProvider"
+f1_keywords:
+- textserv/IRicheditWindowlessAccessibility.CreateProvider
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - IRicheditWindowlessAccessibility.CreateProvider
+- IRicheditWindowlessAccessibility.CreateProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

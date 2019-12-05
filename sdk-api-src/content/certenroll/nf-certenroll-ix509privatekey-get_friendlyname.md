@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_FriendlyName
 title: IX509PrivateKey::get_FriendlyName (certenroll.h)
-
 description: Specifies or retrieves a display name for the private key.
 old-location: security\ix509privatekey_friendlyname_property.htm
 tech.root: seccertenroll
 ms.assetid: 93cd4fe0-5a08-4936-bbb0-6a723027e8c7
-
 ms.date: 12/05/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],FriendlyName property, IX509PrivateKey.FriendlyName, IX509PrivateKey.get_FriendlyName, IX509PrivateKey::FriendlyName, IX509PrivateKey::get_FriendlyName, IX509PrivateKey::put_FriendlyName, certenroll/IX509PrivateKey::FriendlyName, certenroll/IX509PrivateKey::get_FriendlyName, certenroll/IX509PrivateKey::put_FriendlyName, get_FriendlyName, security.ix509privatekey_friendlyname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.FriendlyName"
+f1_keywords:
+- certenroll/IX509PrivateKey.FriendlyName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.FriendlyName
- - IX509PrivateKey.get_FriendlyName
- - IX509PrivateKey.put_FriendlyName
+- IX509PrivateKey.FriendlyName
+- IX509PrivateKey.get_FriendlyName
+- IX509PrivateKey.put_FriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

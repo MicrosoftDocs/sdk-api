@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCAs
 title: IX509EnrollmentPolicyServer::GetCAs (certenroll.h)
-
 description: Retrieves a collection of certification enrollment servers included in the policy.
 old-location: security\ix509enrollmentpolicyserver_getcas.htm
 tech.root: seccertenroll
 ms.assetid: 37836fd1-e95a-4025-b268-f78a9113e568
-
 ms.date: 12/05/2018
 ms.keywords: GetCAs, GetCAs method [Security], GetCAs method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCAs method, IX509EnrollmentPolicyServer.GetCAs, IX509EnrollmentPolicyServer::GetCAs, certenroll/IX509EnrollmentPolicyServer::GetCAs, security.ix509enrollmentpolicyserver_getcas
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.GetCAs"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.GetCAs
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.GetCAs
+- IX509EnrollmentPolicyServer.GetCAs
 targetos: Windows
 req.typenames: 
 req.redist: 

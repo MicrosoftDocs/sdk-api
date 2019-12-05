@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationPrimitiveInterpolation
 title: IUIAnimationPrimitiveInterpolation (uianimation.h)
-
 description: Defines a method that allows a custom interpolator to provide transition information, in the form of a cubic polynomial curve, to the animation manager.
 old-location: uianimation\iuianimationprimitiveinterpolation.htm
 tech.root: UIAnimation
 ms.assetid: 6EAE7874-1103-4D2E-A325-37E5A95705F5
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationPrimitiveInterpolation, IUIAnimationPrimitiveInterpolation interface [Windows Animation], IUIAnimationPrimitiveInterpolation interface [Windows Animation],described, uianimation.iuianimationprimitiveinterpolation, uianimation/IUIAnimationPrimitiveInterpolation
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationPrimitiveInterpolation"
+f1_keywords:
+- uianimation/IUIAnimationPrimitiveInterpolation
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationPrimitiveInterpolation
+- IUIAnimationPrimitiveInterpolation
 targetos: Windows
 req.typenames: 
 req.redist: 

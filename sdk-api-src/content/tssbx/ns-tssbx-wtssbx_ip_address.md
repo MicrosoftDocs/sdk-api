@@ -1,19 +1,17 @@
 ---
 UID: NS:tssbx.__MIDL_IWTSSBPlugin_0004
 title: WTSSBX_IP_ADDRESS (tssbx.h)
-
 description: Contains information about the IP address of a network resource.
 old-location: termserv\wtssbx_ip_address.htm
 tech.root: TermServ
 ms.assetid: 92fe662a-ad31-4ed3-9393-c7d86f97e702
-
 ms.date: 12/05/2018
 ms.keywords: WTSSBX_IP_ADDRESS, WTSSBX_IP_ADDRESS structure [Remote Desktop Services], __MIDL_IWTSSBPlugin_0004, termserv.wtssbx_ip_address, tssbx/WTSSBX_IP_ADDRESS
 ms.topic: struct
-f1_keywords: 
- - "tssbx/WTSSBX_IP_ADDRESS"
+f1_keywords:
+- tssbx/WTSSBX_IP_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - WTSSBX_IP_ADDRESS
+- WTSSBX_IP_ADDRESS
 targetos: Windows
 req.typenames: WTSSBX_IP_ADDRESS
 req.redist: 

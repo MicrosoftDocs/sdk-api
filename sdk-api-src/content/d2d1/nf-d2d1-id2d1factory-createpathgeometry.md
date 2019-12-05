@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreatePathGeometry
 title: ID2D1Factory::CreatePathGeometry (d2d1.h)
-
 description: Creates an empty ID2D1PathGeometry.
 old-location: direct2d\ID2D1Factory_CreatePathGeometry.htm
 tech.root: Direct2D
 ms.assetid: 35c46055-3df2-44d5-b11d-520ab2fa4a0e
-
 ms.date: 12/05/2018
 ms.keywords: CreatePathGeometry, CreatePathGeometry method [Direct2D], CreatePathGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreatePathGeometry method, ID2D1Factory.CreatePathGeometry, ID2D1Factory::CreatePathGeometry, d2d1/ID2D1Factory::CreatePathGeometry, direct2d.ID2D1Factory_CreatePathGeometry
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Factory.CreatePathGeometry"
+f1_keywords:
+- d2d1/ID2D1Factory.CreatePathGeometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory.CreatePathGeometry
+- ID2D1Factory.CreatePathGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

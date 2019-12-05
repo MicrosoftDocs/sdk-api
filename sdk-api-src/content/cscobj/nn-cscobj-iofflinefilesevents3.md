@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IOfflineFilesEvents3
 title: IOfflineFilesEvents3 (cscobj.h)
-
 description: Used to report events associated with transparently cached items.
 old-location: of\iofflinefilesevents3.htm
 tech.root: offlinefiles
 ms.assetid: f68c2c0c-e4f7-4048-99c9-761f98928157
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents3, IOfflineFilesEvents3 interface [Offline Files], IOfflineFilesEvents3 interface [Offline Files],described, cscobj/IOfflineFilesEvents3, of.iofflinefilesevents3
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents3"
+f1_keywords:
+- cscobj/IOfflineFilesEvents3
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents3
+- IOfflineFilesEvents3
 targetos: Windows
 req.typenames: 
 req.redist: 

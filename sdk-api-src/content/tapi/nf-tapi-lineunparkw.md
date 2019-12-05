@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineUnparkW
 title: lineUnparkW function (tapi.h)
-
 description: The lineUnpark function retrieves the call parked at the specified address and returns a call handle for it.
 old-location: tapi2\lineunpark.htm
 tech.root: Tapi
 ms.assetid: 9262ab44-eac7-43e2-a0ec-dceea0838b09
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineunpark, lineUnpark, lineUnpark function [TAPI 2.2], lineUnparkA, lineUnparkW, tapi/lineUnpark, tapi/lineUnparkA, tapi/lineUnparkW, tapi2.lineunpark"
+ms.keywords: _tapi2_lineunpark, lineUnpark, lineUnpark function [TAPI 2.2], lineUnparkA, lineUnparkW, tapi/lineUnpark, tapi/lineUnparkA, tapi/lineUnparkW, tapi2.lineunpark
 ms.topic: function
-f1_keywords: 
- - "tapi/lineUnpark"
+f1_keywords:
+- tapi/lineUnpark
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineUnpark
- - lineUnparkA
- - lineUnparkW
+- lineUnpark
+- lineUnparkA
+- lineUnparkW
 targetos: Windows
 req.typenames: 
 req.redist: 

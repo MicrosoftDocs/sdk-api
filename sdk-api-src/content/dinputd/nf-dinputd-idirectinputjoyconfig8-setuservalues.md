@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.SetUserValues
 title: IDirectInputJoyConfig8::SetUserValues (dinputd.h)
-
 description: The IDirectInputJoyConfig8::SetUserValues method sets the user settings for the joystick.
 old-location: hid\idirectinputjoyconfig8_setuservalues.htm
 tech.root: hid
 ms.assetid: 0e33a73b-0315-43a2-8563-f21a7776921c
-
 ms.date: 12/05/2018
 ms.keywords: IDirectInputJoyConfig8 interface [Human Input Devices],SetUserValues method, IDirectInputJoyConfig8.SetUserValues, IDirectInputJoyConfig8::SetUserValues, SetUserValues, SetUserValues method [Human Input Devices], SetUserValues method [Human Input Devices],IDirectInputJoyConfig8 interface, di_ref_6630ec2e-5680-4323-b38f-0e9e0ed75761.xml, dinputd/IDirectInputJoyConfig8::SetUserValues, hid.idirectinputjoyconfig8_setuservalues
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.SetUserValues"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.SetUserValues
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.SetUserValues
+- IDirectInputJoyConfig8.SetUserValues
 targetos: Windows
 req.typenames: 
 req.redist: 

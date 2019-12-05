@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcommon.ID3D10Blob.GetBufferSize
 title: ID3D10Blob::GetBufferSize (d3dcommon.h)
-
 description: Gets the size.
 old-location: direct3d11\id3d10blob_getbuffersize.htm
 tech.root: direct3d11
 ms.assetid: E98833B1-07F7-4015-86C6-B9335529FC29
-
 ms.date: 12/05/2018
 ms.keywords: GetBufferSize, GetBufferSize method [Direct3D 11], GetBufferSize method [Direct3D 11],ID3D10Blob interface, ID3D10Blob interface [Direct3D 11],GetBufferSize method, ID3D10Blob.GetBufferSize, ID3D10Blob::GetBufferSize, d3dcommon/ID3D10Blob::GetBufferSize, direct3d11.id3d10blob_getbuffersize
 ms.topic: method
-f1_keywords: 
- - "d3dcommon/ID3D10Blob.GetBufferSize"
+f1_keywords:
+- d3dcommon/ID3D10Blob.GetBufferSize
 dev_langs:
- - c++
+- c++
 req.header: d3dcommon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3dcommon.h
+- d3dcommon.h
 api_name:
- - ID3D10Blob.GetBufferSize
+- ID3D10Blob.GetBufferSize
 targetos: Windows
 req.typenames: 
 req.redist: 

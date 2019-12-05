@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SCEPEnrollment.get_FailInfo
 title: IX509SCEPEnrollment::get_FailInfo (certenroll.h)
-
 description: Gets information when the ProcessResponseMessage method detects a failed environment.
 old-location: security\ix509scepenrollment_failinfo.htm
 tech.root: seccertenroll
 ms.assetid: 4fd76b7e-8b19-46da-b352-7668917a6585
-
 ms.date: 12/05/2018
 ms.keywords: FailInfo property [Security], FailInfo property [Security],IX509SCEPEnrollment interface, IX509SCEPEnrollment interface [Security],FailInfo property, IX509SCEPEnrollment.FailInfo, IX509SCEPEnrollment.get_FailInfo, IX509SCEPEnrollment::FailInfo, IX509SCEPEnrollment::get_FailInfo, certenroll/IX509SCEPEnrollment::FailInfo, certenroll/IX509SCEPEnrollment::get_FailInfo, get_FailInfo, security.ix509scepenrollment_failinfo
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SCEPEnrollment.FailInfo"
+f1_keywords:
+- certenroll/IX509SCEPEnrollment.FailInfo
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509SCEPEnrollment.FailInfo
- - IX509SCEPEnrollment.get_FailInfo
+- IX509SCEPEnrollment.FailInfo
+- IX509SCEPEnrollment.get_FailInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

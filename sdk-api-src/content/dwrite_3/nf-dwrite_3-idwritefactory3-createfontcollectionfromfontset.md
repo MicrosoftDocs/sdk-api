@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateFontCollectionFromFontSet
 title: IDWriteFactory3::CreateFontCollectionFromFontSet (dwrite_3.h)
-
 description: Create a weight/width/slope tree from a set of fonts.
 old-location: directwrite\idwritefactory3_createfontcollectionfromfontset.htm
 tech.root: DirectWrite
 ms.assetid: 22cc005f-6d34-f701-ff83-63ba819ab651
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontCollectionFromFontSet, CreateFontCollectionFromFontSet method [Direct Write], CreateFontCollectionFromFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontCollectionFromFontSet method, IDWriteFactory3.CreateFontCollectionFromFontSet, IDWriteFactory3::CreateFontCollectionFromFontSet, directwrite.idwritefactory3_createfontcollectionfromfontset, dwrite_3/IDWriteFactory3::CreateFontCollectionFromFontSet
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory3.CreateFontCollectionFromFontSet"
+f1_keywords:
+- dwrite_3/IDWriteFactory3.CreateFontCollectionFromFontSet
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory3.CreateFontCollectionFromFontSet
+- IDWriteFactory3.CreateFontCollectionFromFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 

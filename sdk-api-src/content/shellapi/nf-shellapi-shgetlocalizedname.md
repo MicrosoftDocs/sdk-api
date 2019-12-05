@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHGetLocalizedName
 title: SHGetLocalizedName function (shellapi.h)
-
 description: Retrieves the localized name of a file in a Shell folder.
 old-location: shell\SHGetLocalizedName.htm
 tech.root: shell
 ms.assetid: 2929b77f-4467-44a8-9885-96f0c3e35584
-
 ms.date: 12/05/2018
 ms.keywords: SHGetLocalizedName, SHGetLocalizedName function [Windows Shell], _shell_SHGetLocalizedName, shell.SHGetLocalizedName, shellapi/SHGetLocalizedName
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHGetLocalizedName"
+f1_keywords:
+- shellapi/SHGetLocalizedName
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetLocalizedName
+- SHGetLocalizedName
 targetos: Windows
 req.typenames: 
 req.redist: 

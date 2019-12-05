@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IVirtualDesktopManager
 title: IVirtualDesktopManager (shobjidl_core.h)
-
 description: Exposes methods that enable an application to interact with groups of windows that form virtual workspaces.
 old-location: shell\ivirtualdesktopmanager.htm
 tech.root: shell
 ms.assetid: B95AC349-63E3-4A5A-A353-1C93486BB67A
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IVirtualDesktopManager interface [Windows Shell],described, shell.ivirtualdesktopmanager, shobjidl_core/IVirtualDesktopManager
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IVirtualDesktopManager"
+f1_keywords:
+- shobjidl_core/IVirtualDesktopManager
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IVirtualDesktopManager
+- IVirtualDesktopManager
 targetos: Windows
 req.typenames: 
 req.redist: 

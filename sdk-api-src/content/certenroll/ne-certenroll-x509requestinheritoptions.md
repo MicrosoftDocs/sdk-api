@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.X509RequestInheritOptions
 title: X509RequestInheritOptions (certenroll.h)
-
 description: Specifies how keys, extension values, and external properties are inherited when a new request is created from an existing certificate.
 old-location: security\x509requestinheritoptions_enum.htm
 tech.root: seccertenroll
 ms.assetid: 6aa8d72d-bf6a-476b-812b-9ceafed5e5e7
-
 ms.date: 12/05/2018
 ms.keywords: InheritDefault, InheritExtensionsFlag, InheritKeyMask, InheritNewDefaultKey, InheritNewSimilarKey, InheritNone, InheritPrivateKey, InheritPublicKey, InheritRenewalCertificateFlag, InheritSubjectAltNameFlag, InheritSubjectFlag, InheritTemplateFlag, InheritValidityPeriodFlag, X509RequestInheritOptions, X509RequestInheritOptions enumeration [Security], certenroll/InheritDefault, certenroll/InheritExtensionsFlag, certenroll/InheritKeyMask, certenroll/InheritNewDefaultKey, certenroll/InheritNewSimilarKey, certenroll/InheritNone, certenroll/InheritPrivateKey, certenroll/InheritPublicKey, certenroll/InheritRenewalCertificateFlag, certenroll/InheritSubjectAltNameFlag, certenroll/InheritSubjectFlag, certenroll/InheritTemplateFlag, certenroll/InheritValidityPeriodFlag, certenroll/X509RequestInheritOptions, security.x509requestinheritoptions_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/X509RequestInheritOptions"
+f1_keywords:
+- certenroll/X509RequestInheritOptions
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - X509RequestInheritOptions
+- X509RequestInheritOptions
 targetos: Windows
 req.typenames: X509RequestInheritOptions
 req.redist: 

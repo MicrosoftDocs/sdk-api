@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzRegisterSecurityEventSource
 title: AuthzRegisterSecurityEventSource function (authz.h)
-
 description: Registers a security event source with the Local Security Authority (LSA).
 old-location: security\authzregistersecurityeventsource.htm
 tech.root: SecAuthZ
 ms.assetid: 726e480d-1a34-4fd6-ac2d-876fa08f4eae
-
 ms.date: 12/05/2018
 ms.keywords: AuthzRegisterSecurityEventSource, AuthzRegisterSecurityEventSource function [Security], authz/AuthzRegisterSecurityEventSource, security.authzregistersecurityeventsource
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzRegisterSecurityEventSource"
+f1_keywords:
+- authz/AuthzRegisterSecurityEventSource
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzRegisterSecurityEventSource
+- AuthzRegisterSecurityEventSource
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

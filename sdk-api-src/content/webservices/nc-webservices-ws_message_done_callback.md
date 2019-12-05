@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_MESSAGE_DONE_CALLBACK
 title: WS_MESSAGE_DONE_CALLBACK (webservices.h)
-
 description: Notifies the caller that the message has completed its use of either the WS_XML_READER structure that was supplied to WsReadEnvelopeStartfunction, or of the WS_XML_WRITER structure supplied to the WsWriteEnvelopeStart function.
 old-location: wsw\ws_message_done_callback.htm
 tech.root: wsw
 ms.assetid: 59ab7cbe-dc66-4e74-bec9-ffb25173ff87
-
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_DONE_CALLBACK, WS_MESSAGE_DONE_CALLBACK callback, WS_MESSAGE_DONE_CALLBACK callback function [Web Services for Windows], webservices/WS_MESSAGE_DONE_CALLBACK, wsw.ws_message_done_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_MESSAGE_DONE_CALLBACK"
+f1_keywords:
+- webservices/WS_MESSAGE_DONE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_MESSAGE_DONE_CALLBACK
+- WS_MESSAGE_DONE_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

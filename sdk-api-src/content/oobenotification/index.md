@@ -1,7 +1,6 @@
 ---
 UID: NA:oobenotification
 ms.assetid: 5df6a064-6774-3461-b13f-84a962e61fbc
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

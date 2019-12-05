@@ -3,14 +3,13 @@ UID: NF:directxmath.operator-add~r1
 title: operator+
 description: Adds two instances of **XMVECTOR**, returning the result in a new instance.
 ms.assetid: 24dc38ff-fa79-4fba-b7fb-594722c5c967
-
 ms.date: 05/13/2019
 ms.keywords: operator+
 ms.topic: language-reference
-f1_keywords: 
- - "directxmath/operator+"
+f1_keywords:
+- directxmath/operator+
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxmath.h
+- directxmath.h
 api_name:
- - operator+
+- operator+
 ---
 
 # XMVECTOR::operator + (XMVECTOR,XMVECTOR)

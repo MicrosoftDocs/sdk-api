@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNestedClassProps
 title: IMetaDataImport::GetNestedClassProps (rometadataapi.h)
-
 description: Gets the TypeDef token for the parent Type of the specified nested type.
 old-location: winrt\imetadataimport_getnestedclassprops.htm
 tech.root: WinRT
 ms.assetid: 5633d226-8f02-4527-b435-b75b1e1d5064
-
 ms.date: 12/05/2018
 ms.keywords: GetNestedClassProps, GetNestedClassProps method [Windows Runtime], GetNestedClassProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNestedClassProps method, IMetaDataImport.GetNestedClassProps, IMetaDataImport::GetNestedClassProps, rometadataapi/IMetaDataImport::GetNestedClassProps, winrt.imetadataimport_getnestedclassprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetNestedClassProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetNestedClassProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetNestedClassProps
+- IMetaDataImport.GetNestedClassProps
 targetos: Windows
 req.typenames: 
 req.redist: 

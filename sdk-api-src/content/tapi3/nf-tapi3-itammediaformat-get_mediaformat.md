@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITAMMediaFormat.get_MediaFormat
 title: ITAMMediaFormat::get_MediaFormat (tapi3.h)
-
 description: The get_MediaFormat method gets the media format.
 old-location: tapi3\itammediaformat_get_mediaformat.htm
 tech.root: Tapi
 ms.assetid: 384cd41e-b59a-4ac4-9687-cf0f0738dfe0
-
 ms.date: 12/05/2018
 ms.keywords: ITAMMediaFormat interface [TAPI 2.2],get_MediaFormat method, ITAMMediaFormat.get_MediaFormat, ITAMMediaFormat::get_MediaFormat, _tapi3_itammediaformat_get_mediaformat, get_MediaFormat, get_MediaFormat method [TAPI 2.2], get_MediaFormat method [TAPI 2.2],ITAMMediaFormat interface, tapi3.itammediaformat_get_mediaformat, tapi3ds/ITAMMediaFormat::get_MediaFormat
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITAMMediaFormat.get_MediaFormat"
+f1_keywords:
+- tapi3/ITAMMediaFormat.get_MediaFormat
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAMMediaFormat.get_MediaFormat
+- ITAMMediaFormat.get_MediaFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

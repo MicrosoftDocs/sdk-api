@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetFullCropRegion
 title: IWMResizerProps::SetFullCropRegion (wmcodecdsp.h)
-
 description: Sets the source and destination rectangles.
 old-location: mf\iwmresizerpropssetfullcropregion.htm
 tech.root: medfound
 ms.assetid: 5578b90d-3b18-47a2-b4ae-75a4749f9001
-
 ms.date: 12/05/2018
 ms.keywords: IWMResizerProps interface [Media Foundation],SetFullCropRegion method, IWMResizerProps.SetFullCropRegion, IWMResizerProps::SetFullCropRegion, SetFullCropRegion, SetFullCropRegion method [Media Foundation], SetFullCropRegion method [Media Foundation],IWMResizerProps interface, codecapi.iwmresizerpropssetfullcropregion, mf.iwmresizerpropssetfullcropregion, wmcodecdsp/IWMResizerProps::SetFullCropRegion
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IWMResizerProps.SetFullCropRegion"
+f1_keywords:
+- wmcodecdsp/IWMResizerProps.SetFullCropRegion
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMResizerProps.SetFullCropRegion
+- IWMResizerProps.SetFullCropRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

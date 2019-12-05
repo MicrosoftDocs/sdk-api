@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl2.Insert2
 title: IWMDMStorageControl2::Insert2 (mswmdm.h)
-
 description: The Insert2 method puts content into/next to the storage. This method extends IWMDMStorageControl::Insert by allowing the application to specify a new destination name, and provide a pointer to a custom COM object.
 old-location: wmdm\iwmdmstoragecontrol2_insert2.htm
 tech.root: WMDM
 ms.assetid: bc6cc03c-e13a-45d8-afcb-1fadd5f4dd8e
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl2 interface [windows Media Device Manager],Insert2 method, IWMDMStorageControl2.Insert2, IWMDMStorageControl2::Insert2, IWMDMStorageControl2Insert2, Insert2, Insert2 method [windows Media Device Manager], Insert2 method [windows Media Device Manager],IWMDMStorageControl2 interface, mswmdm/IWMDMStorageControl2::Insert2, wmdm.iwmdmstoragecontrol2_insert2
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageControl2.Insert2"
+f1_keywords:
+- mswmdm/IWMDMStorageControl2.Insert2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageControl2.Insert2
+- IWMDMStorageControl2.Insert2
 targetos: Windows
 req.typenames: 
 req.redist: 

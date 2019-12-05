@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindManifestResourceByName
 title: IMetaDataAssemblyImport::FindManifestResourceByName (rometadataapi.h)
-
 description: Gets a pointer to the manifest resource with the specified name.
 old-location: winrt\imetadataassemblyimport_findmanifestresourcebyname.htm
 tech.root: WinRT
 ms.assetid: a72e4c1f-505d-4672-8baa-fbe2243b8ca0
-
 ms.date: 12/05/2018
 ms.keywords: FindManifestResourceByName, FindManifestResourceByName method [Windows Runtime], FindManifestResourceByName method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],FindManifestResourceByName method, IMetaDataAssemblyImport.FindManifestResourceByName, IMetaDataAssemblyImport::FindManifestResourceByName, rometadataapi/IMetaDataAssemblyImport::FindManifestResourceByName, winrt.imetadataassemblyimport_findmanifestresourcebyname
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataAssemblyImport.FindManifestResourceByName"
+f1_keywords:
+- rometadataapi/IMetaDataAssemblyImport.FindManifestResourceByName
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport.FindManifestResourceByName
+- IMetaDataAssemblyImport.FindManifestResourceByName
 targetos: Windows
 req.typenames: 
 req.redist: 

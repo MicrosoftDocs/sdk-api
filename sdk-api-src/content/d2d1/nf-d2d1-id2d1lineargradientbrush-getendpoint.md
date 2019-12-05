@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.GetEndPoint
 title: ID2D1LinearGradientBrush::GetEndPoint (d2d1.h)
-
 description: Retrieves the ending coordinates of the linear gradient.
 old-location: direct2d\ID2D1LinearGradientBrush_GetEndPoint.htm
 tech.root: Direct2D
 ms.assetid: c4d2f490-7712-4c37-8054-38f6bc557563
-
 ms.date: 12/05/2018
 ms.keywords: GetEndPoint, GetEndPoint method [Direct2D], GetEndPoint method [Direct2D],ID2D1LinearGradientBrush interface, ID2D1LinearGradientBrush interface [Direct2D],GetEndPoint method, ID2D1LinearGradientBrush.GetEndPoint, ID2D1LinearGradientBrush::GetEndPoint, d2d1/ID2D1LinearGradientBrush::GetEndPoint, direct2d.ID2D1LinearGradientBrush_GetEndPoint
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1LinearGradientBrush.GetEndPoint"
+f1_keywords:
+- d2d1/ID2D1LinearGradientBrush.GetEndPoint
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1LinearGradientBrush.GetEndPoint
+- ID2D1LinearGradientBrush.GetEndPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_CUSTOMEVENT
 title: WPC_ARGS_CUSTOMEVENT (wpcevent.h)
-
 description: Indicates information about a user-defined event that is not covered by the general events.
 old-location: parcon\wpc_args_customevent.htm
 tech.root: parcon
 ms.assetid: 7f08d847-6042-4e56-97fd-cdf4e75da680
-
 ms.date: 12/05/2018
 ms.keywords: WPC_ARGS_CUSTOMEVENT, WPC_ARGS_CUSTOMEVENT enumeration, WPC_ARGS_CUSTOMEVENT_APPNAME, WPC_ARGS_CUSTOMEVENT_APPVERSION, WPC_ARGS_CUSTOMEVENT_BLOCKED, WPC_ARGS_CUSTOMEVENT_CARGS, WPC_ARGS_CUSTOMEVENT_EVENT, WPC_ARGS_CUSTOMEVENT_PUBLISHER, WPC_ARGS_CUSTOMEVENT_REASON, WPC_ARGS_CUSTOMEVENT_VALUE1, WPC_ARGS_CUSTOMEVENT_VALUE2, WPC_ARGS_CUSTOMEVENT_VALUE3, parcon.wpc_args_customevent, wpcevent/WPC_ARGS_CUSTOMEVENT, wpcevent/WPC_ARGS_CUSTOMEVENT_APPNAME, wpcevent/WPC_ARGS_CUSTOMEVENT_APPVERSION, wpcevent/WPC_ARGS_CUSTOMEVENT_BLOCKED, wpcevent/WPC_ARGS_CUSTOMEVENT_CARGS, wpcevent/WPC_ARGS_CUSTOMEVENT_EVENT, wpcevent/WPC_ARGS_CUSTOMEVENT_PUBLISHER, wpcevent/WPC_ARGS_CUSTOMEVENT_REASON, wpcevent/WPC_ARGS_CUSTOMEVENT_VALUE1, wpcevent/WPC_ARGS_CUSTOMEVENT_VALUE2, wpcevent/WPC_ARGS_CUSTOMEVENT_VALUE3
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPC_ARGS_CUSTOMEVENT"
+f1_keywords:
+- wpcevent/WPC_ARGS_CUSTOMEVENT
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPC_ARGS_CUSTOMEVENT
+- WPC_ARGS_CUSTOMEVENT
 targetos: Windows
 req.typenames: WPC_ARGS_CUSTOMEVENT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:audioclient._AUDCLNT_BUFFERFLAGS
 title: _AUDCLNT_BUFFERFLAGS (audioclient.h)
-
 description: The _AUDCLNT_BUFFERFLAGS enumeration defines flags that indicate the status of an audio endpoint buffer.
 old-location: coreaudio\_audclnt_bufferflags.htm
 tech.root: CoreAudio
 ms.assetid: ac4ec901-b1e2-4c4e-b9fc-1808d5338d15
-
 ms.date: 12/05/2018
 ms.keywords: AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, AUDCLNT_BUFFERFLAGS_SILENT, AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, _AUDCLNT_BUFFERFLAGS, _AUDCLNT_BUFFERFLAGS , _AUDCLNT_BUFFERFLAGS enumeration [Core Audio], audioclient/AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY, audioclient/AUDCLNT_BUFFERFLAGS_SILENT, audioclient/AUDCLNT_BUFFERFLAGS_TIMESTAMP_ERROR, audioclient/_AUDCLNT_BUFFERFLAGS, coreaudio._audclnt_bufferflags
 ms.topic: enum
-f1_keywords: 
- - "audioclient/_AUDCLNT_BUFFERFLAGS"
+f1_keywords:
+- audioclient/_AUDCLNT_BUFFERFLAGS
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - _AUDCLNT_BUFFERFLAGS
+- _AUDCLNT_BUFFERFLAGS
 targetos: Windows
 req.typenames: 
 req.redist: 

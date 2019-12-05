@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Application_NewHostedProvider
 title: MI_Application_NewHostedProvider function (mi.h)
-
 description: Registers a hosted provider with the WMI engine on the local machine.
 old-location: wmi_v2\mi_application_newhostedprovider.htm
 tech.root: wmi_v2
 ms.assetid: 4f39ffca-4ae3-4ce5-9460-c7ac27c06a50
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewHostedProvider, MI_Application_NewHostedProvider function [Windows Management Infrastructure (MI)], mi/MI_Application_NewHostedProvider, wmi_v2.mi_application_newhostedprovider
 ms.topic: function
-f1_keywords: 
- - "mi/MI_Application_NewHostedProvider"
+f1_keywords:
+- mi/MI_Application_NewHostedProvider
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_Application_NewHostedProvider
+- MI_Application_NewHostedProvider
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1,     Windows 7 with SP1, and Windows Server 2008 with SP2

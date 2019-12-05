@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsGroup.IsMember
 title: IADsGroup::IsMember (iads.h)
-
 description: Determines if a directory service object is an immediate member of the group.
 old-location: adsi\iadsgroup_ismember.htm
 tech.root: adsi
 ms.assetid: 16251638-49c6-48f0-b398-0bf8f523ba86
-
 ms.date: 12/05/2018
 ms.keywords: IADsGroup interface [ADSI],IsMember method, IADsGroup.IsMember, IADsGroup::IsMember, IsMember, IsMember method [ADSI], IsMember method [ADSI],IADsGroup interface, _ds_iadsgroup_ismember, adsi.iadsgroup__ismember, adsi.iadsgroup_ismember, iads/IADsGroup::IsMember
 ms.topic: method
-f1_keywords: 
- - "iads/IADsGroup.IsMember"
+f1_keywords:
+- iads/IADsGroup.IsMember
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsGroup.IsMember
+- IADsGroup.IsMember
 targetos: Windows
 req.typenames: 
 req.redist: 

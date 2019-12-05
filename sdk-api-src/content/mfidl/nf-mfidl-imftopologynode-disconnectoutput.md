@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.DisconnectOutput
 title: IMFTopologyNode::DisconnectOutput (mfidl.h)
-
 description: Disconnects an output stream on this node.
 old-location: mf\imftopologynode_disconnectoutput.htm
 tech.root: medfound
 ms.assetid: 77b91797-d9a7-40da-827d-6e2a347112dc
-
 ms.date: 12/05/2018
 ms.keywords: 77b91797-d9a7-40da-827d-6e2a347112dc, DisconnectOutput, DisconnectOutput method [Media Foundation], DisconnectOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],DisconnectOutput method, IMFTopologyNode.DisconnectOutput, IMFTopologyNode::DisconnectOutput, mf.imftopologynode_disconnectoutput, mfidl/IMFTopologyNode::DisconnectOutput
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.DisconnectOutput"
+f1_keywords:
+- mfidl/IMFTopologyNode.DisconnectOutput
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.DisconnectOutput
+- IMFTopologyNode.DisconnectOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

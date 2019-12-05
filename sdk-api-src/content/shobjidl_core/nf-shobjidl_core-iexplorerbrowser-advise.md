@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.Advise
 title: IExplorerBrowser::Advise (shobjidl_core.h)
-
 description: Initiates a connection with IExplorerBrowser for event callbacks.
 old-location: shell\IExplorerBrowser_Advise.htm
 tech.root: shell
 ms.assetid: b77f9c41-248e-4f16-a9ff-6ff5437df11c
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [Windows Shell], Advise method [Windows Shell],IExplorerBrowser interface, IExplorerBrowser interface [Windows Shell],Advise method, IExplorerBrowser.Advise, IExplorerBrowser::Advise, _shell_IExplorerBrowser_Advise, shell.IExplorerBrowser_Advise, shobjidl_core/IExplorerBrowser::Advise
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IExplorerBrowser.Advise"
+f1_keywords:
+- shobjidl_core/IExplorerBrowser.Advise
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IExplorerBrowser.Advise
+- IExplorerBrowser.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

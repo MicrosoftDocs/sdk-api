@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.put_AllowInprocActivation
 title: IMultiInterfaceEventControl::put_AllowInprocActivation (eventsys.h)
-
 description: Indicates whether subscribers can be activated in the publisher's process.
 old-location: cos\imultiinterfaceeventcontrol_allowinprocactivation.htm
 tech.root: cossdk
 ms.assetid: 152f78d9-4292-45e8-a908-5d2b0368f507
-
 ms.date: 12/05/2018
 ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation property [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],AllowInprocActivation property, IMultiInterfaceEventControl.AllowInprocActivation, IMultiInterfaceEventControl.put_AllowInprocActivation, IMultiInterfaceEventControl::AllowInprocActivation, IMultiInterfaceEventControl::get_AllowInprocActivation, IMultiInterfaceEventControl::put_AllowInprocActivation, cos.imultiinterfaceeventcontrol_allowinprocactivation, eventsys/IMultiInterfaceEventControl::AllowInprocActivation, eventsys/IMultiInterfaceEventControl::get_AllowInprocActivation, eventsys/IMultiInterfaceEventControl::put_AllowInprocActivation, put_AllowInprocActivation
 ms.topic: method
-f1_keywords: 
- - "eventsys/IMultiInterfaceEventControl.AllowInprocActivation"
+f1_keywords:
+- eventsys/IMultiInterfaceEventControl.AllowInprocActivation
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IMultiInterfaceEventControl.AllowInprocActivation
- - IMultiInterfaceEventControl.get_AllowInprocActivation
- - IMultiInterfaceEventControl.put_AllowInprocActivation
+- IMultiInterfaceEventControl.AllowInprocActivation
+- IMultiInterfaceEventControl.get_AllowInprocActivation
+- IMultiInterfaceEventControl.put_AllowInprocActivation
 targetos: Windows
 req.typenames: 
 req.redist: 

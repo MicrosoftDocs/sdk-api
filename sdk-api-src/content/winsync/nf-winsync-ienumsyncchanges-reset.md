@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Reset
 title: IEnumSyncChanges::Reset (winsync.h)
-
 description: Resets the enumerator to the beginning of the list.
 old-location: winsync\ienumsyncchanges_reset.htm
 tech.root: winsync
 ms.assetid: d13bee6b-ef8e-4245-89b6-d381618bdd09
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncChanges interface [Windows Sync],Reset method, IEnumSyncChanges.Reset, IEnumSyncChanges::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncChanges interface, winsync.ienumsyncchanges_reset, winsync/IEnumSyncChanges::Reset
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumSyncChanges.Reset"
+f1_keywords:
+- winsync/IEnumSyncChanges.Reset
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSyncChanges.Reset
+- IEnumSyncChanges.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

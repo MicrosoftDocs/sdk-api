@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId
 title: ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId (syncregistration.h)
-
 description: Returns an initialized and instantiated ISyncProviderConfigUI object for the given unique instance ID.
 old-location: winsync\isyncproviderregistration_getsyncproviderconfiguifrominstanceid.htm
 tech.root: winsync
 ms.assetid: 472732d7-39bd-434c-80f3-9808eca9035c
-
 ms.date: 12/05/2018
 ms.keywords: GetSyncProviderConfigUIFromInstanceId, GetSyncProviderConfigUIFromInstanceId method [Windows Sync], GetSyncProviderConfigUIFromInstanceId method [Windows Sync],ISyncProviderRegistration interface, ISyncProviderRegistration interface [Windows Sync],GetSyncProviderConfigUIFromInstanceId method, ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId, ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, syncregistration/ISyncProviderRegistration::GetSyncProviderConfigUIFromInstanceId, winsync.isyncproviderregistration_getsyncproviderconfiguifrominstanceid
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId
+- ISyncProviderRegistration.GetSyncProviderConfigUIFromInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 

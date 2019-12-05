@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_CUSTOM_CERT_CREDENTIAL
 title: WS_CUSTOM_CERT_CREDENTIAL (webservices.h)
-
 description: The type for specifying a certificate credential that is to be supplied by a callback to the application.
 old-location: wsw\ws_custom_cert_credential.htm
 tech.root: wsw
 ms.assetid: 822dd067-803c-4e72-bfd0-fd9f9f36d390
-
 ms.date: 12/05/2018
 ms.keywords: WS_CUSTOM_CERT_CREDENTIAL, WS_CUSTOM_CERT_CREDENTIAL structure [Web Services for Windows], webservices/WS_CUSTOM_CERT_CREDENTIAL, wsw.ws_custom_cert_credential
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_CUSTOM_CERT_CREDENTIAL"
+f1_keywords:
+- webservices/WS_CUSTOM_CERT_CREDENTIAL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_CUSTOM_CERT_CREDENTIAL
+- WS_CUSTOM_CERT_CREDENTIAL
 targetos: Windows
 req.typenames: WS_CUSTOM_CERT_CREDENTIAL
 req.redist: 

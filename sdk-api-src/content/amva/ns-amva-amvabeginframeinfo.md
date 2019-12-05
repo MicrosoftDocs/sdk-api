@@ -1,19 +1,17 @@
 ---
 UID: NS:amva._tag_AMVABeginFrameInfo
 title: AMVABeginFrameInfo (amva.h)
-
 description: The AMVABeginFrameInfo structure contains information for the IAMVideoAccelerator::BeginFrame method.
 old-location: dshow\amvabeginframeinfo.htm
 tech.root: DirectShow
 ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf
-
 ms.date: 12/05/2018
-ms.keywords: "*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo"
+ms.keywords: '*LPAMVABeginFrameInfo, AMVABeginFrameInfo, AMVABeginFrameInfo structure [DirectShow], AMVABeginFrameInfoStructure, LPAMVABeginFrameInfo, LPAMVABeginFrameInfo structure pointer [DirectShow], amva/AMVABeginFrameInfo, amva/LPAMVABeginFrameInfo, dshow.amvabeginframeinfo'
 ms.topic: struct
-f1_keywords: 
- - "amva/AMVABeginFrameInfo"
+f1_keywords:
+- amva/AMVABeginFrameInfo
 dev_langs:
- - c++
+- c++
 req.header: amva.h
 req.include-header: Videoacc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - amva.h
+- amva.h
 api_name:
- - AMVABeginFrameInfo
+- AMVABeginFrameInfo
 targetos: Windows
 req.typenames: AMVABeginFrameInfo, *LPAMVABeginFrameInfo
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
 title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems (spatialaudiometadata.h)
-
 description: Creates an ISpatialAudioMetadataItems object for storing spatial audio metadata items.
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadataitems.htm
 tech.root: CoreAudio
 ms.assetid: 0788C3BE-1616-4C7B-8F47-B0C4E4034061
-
 ms.date: 12/05/2018
 ms.keywords: ActivateSpatialAudioMetadataItems, ActivateSpatialAudioMetadataItems method [Core Audio], ActivateSpatialAudioMetadataItems method [Core Audio],ISpatialAudioMetadataClient interface, ISpatialAudioMetadataClient interface [Core Audio],ActivateSpatialAudioMetadataItems method, ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems, ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems, coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems, spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiometadata.h
+- spatialaudiometadata.h
 api_name:
- - ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
+- ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
 targetos: Windows
 req.typenames: 
 req.redist: 

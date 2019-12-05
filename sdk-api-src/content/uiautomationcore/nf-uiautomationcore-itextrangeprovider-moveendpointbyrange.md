@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.MoveEndpointByRange
 title: ITextRangeProvider::MoveEndpointByRange (uiautomationcore.h)
-
 description: Moves one endpoint of the current text range to the specified endpoint of a second text range.
 old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByRange.htm
 tech.root: WinAuto
 ms.assetid: 86411603-c37f-4192-95d1-8ac9b6ab6c44
-
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByRange method, ITextRangeProvider.MoveEndpointByRange, ITextRangeProvider::MoveEndpointByRange, MoveEndpointByRange, MoveEndpointByRange method [Windows Accessibility], MoveEndpointByRange method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByRange, uiauto_ITextRangeProvider_MoveEndpointByRange, uiautomationcore/ITextRangeProvider::MoveEndpointByRange, winauto.uiauto_ITextRangeProvider_MoveEndpointByRange
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider.MoveEndpointByRange"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider.MoveEndpointByRange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider.MoveEndpointByRange
+- ITextRangeProvider.MoveEndpointByRange
 targetos: Windows
 req.typenames: 
 req.redist: 

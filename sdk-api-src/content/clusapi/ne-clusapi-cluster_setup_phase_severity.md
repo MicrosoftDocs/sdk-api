@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi._CLUSTER_SETUP_PHASE_SEVERITY
 title: CLUSTER_SETUP_PHASE_SEVERITY (clusapi.h)
-
 description: Describes the severity of the current phase of the cluster setup process.
 old-location: mscs\cluster_setup_phase_severity.htm
 tech.root: MsCS
 ms.assetid: a355dc8d-73f1-476b-a06f-24f011af4ace
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SETUP_PHASE_SEVERITY, CLUSTER_SETUP_PHASE_SEVERITY enumeration [Failover Cluster], ClusterSetupPhaseFatal, ClusterSetupPhaseInformational, ClusterSetupPhaseWarning, clusapi/CLUSTER_SETUP_PHASE_SEVERITY, clusapi/ClusterSetupPhaseFatal, clusapi/ClusterSetupPhaseInformational, clusapi/ClusterSetupPhaseWarning, mscs.cluster_setup_phase_severity
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_SETUP_PHASE_SEVERITY"
+f1_keywords:
+- clusapi/CLUSTER_SETUP_PHASE_SEVERITY
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSTER_SETUP_PHASE_SEVERITY
+- CLUSTER_SETUP_PHASE_SEVERITY
 targetos: Windows
 req.typenames: CLUSTER_SETUP_PHASE_SEVERITY
 req.redist: 

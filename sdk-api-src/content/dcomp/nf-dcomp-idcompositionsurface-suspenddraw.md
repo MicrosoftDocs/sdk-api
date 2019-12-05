@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.SuspendDraw
 title: IDCompositionSurface::SuspendDraw (dcomp.h)
-
 description: Suspends the drawing on this Microsoft DirectComposition surface object.
 old-location: directcomp\idcompositionsurface_suspenddraw.htm
 tech.root: directcomp
 ms.assetid: B3CD2007-502C-48EF-989E-4C690B2B65D8
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionSurface interface [DirectComposition],SuspendDraw method, IDCompositionSurface.SuspendDraw, IDCompositionSurface::SuspendDraw, SuspendDraw, SuspendDraw method [DirectComposition], SuspendDraw method [DirectComposition],IDCompositionSurface interface, dcomp/IDCompositionSurface::SuspendDraw, directcomp.idcompositionsurface_suspenddraw
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionSurface.SuspendDraw"
+f1_keywords:
+- dcomp/IDCompositionSurface.SuspendDraw
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionSurface.SuspendDraw
+- IDCompositionSurface.SuspendDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

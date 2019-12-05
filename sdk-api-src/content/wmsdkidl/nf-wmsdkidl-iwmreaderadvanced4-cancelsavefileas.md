@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.CancelSaveFileAs
 title: IWMReaderAdvanced4::CancelSaveFileAs (wmsdkidl.h)
-
 description: The CancelSaveFileAs method cancels a file save resulting from a call to IWMReaderAdvanced2::SaveFileAs.
 old-location: wmformat\iwmreaderadvanced4_cancelsavefileas.htm
 tech.root: wmformat
 ms.assetid: fcf43e86-daa3-4944-b687-b8c9afab7336
-
 ms.date: 12/05/2018
 ms.keywords: CancelSaveFileAs, CancelSaveFileAs method [windows Media Format], CancelSaveFileAs method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],CancelSaveFileAs method, IWMReaderAdvanced4.CancelSaveFileAs, IWMReaderAdvanced4::CancelSaveFileAs, IWMReaderAdvanced4CancelSaveFileAs, wmformat.iwmreaderadvanced4_cancelsavefileas, wmsdkidl/IWMReaderAdvanced4::CancelSaveFileAs
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced4.CancelSaveFileAs"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced4.CancelSaveFileAs
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.CancelSaveFileAs
+- IWMReaderAdvanced4.CancelSaveFileAs
 targetos: Windows
 req.typenames: 
 req.redist: 

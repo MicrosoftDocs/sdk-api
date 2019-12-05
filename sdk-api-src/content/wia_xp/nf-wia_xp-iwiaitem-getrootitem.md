@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.GetRootItem
 title: IWiaItem::GetRootItem (wia_xp.h)
-
 description: The IWiaItem::GetRootItem method retrieves the root item of a tree of item objects used to represent a Windows Image Acquisition (WIA) hardware device.
 old-location: wia\_wia_IWiaItem_GetRootItem.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\getrootitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetRootItem, GetRootItem method [WIA], GetRootItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],GetRootItem method, IWiaItem.GetRootItem, IWiaItem::GetRootItem, _wia_IWiaItem_GetRootItem, wia._wia_IWiaItem_GetRootItem, wia_xp/IWiaItem::GetRootItem
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.GetRootItem"
+f1_keywords:
+- wia_xp/IWiaItem.GetRootItem
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.GetRootItem
+- IWiaItem.GetRootItem
 targetos: Windows
 req.typenames: 
 req.redist: 

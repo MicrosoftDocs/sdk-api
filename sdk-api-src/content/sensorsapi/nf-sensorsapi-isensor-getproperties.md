@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.GetProperties
 title: ISensor::GetProperties (sensorsapi.h)
-
 description: Retrieves multiple sensor properties.
 old-location: winsensors_com_ref\isensor_getproperties.htm
 tech.root: SensorsAPI
 ms.assetid: 19581a45-500f-4210-9ec2-b3e33c84fb8a
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method, GetProperties method,ISensor interface, ISensor interface,GetProperties method, ISensor.GetProperties, ISensor::GetProperties, sensorsapi/ISensor::GetProperties, winsensors_com_ref.isensor_getproperties
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.GetProperties"
+f1_keywords:
+- sensorsapi/ISensor.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.GetProperties
+- ISensor.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

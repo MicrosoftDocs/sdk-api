@@ -1,19 +1,17 @@
 ---
 UID: NC:stm.PDELETE_STATIC_SERVICE
 title: PDELETE_STATIC_SERVICE (stm.h)
-
 description: The DeleteStaticService function deletes a static service from the table.
 old-location: rras\deletestaticservice.htm
 tech.root: RRAS
 ms.assetid: 230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7
-
 ms.date: 12/05/2018
 ms.keywords: DeleteStaticService, DeleteStaticService callback function [RAS], PDELETE_STATIC_SERVICE, PDELETE_STATIC_SERVICE callback, _mpr_deletestaticservice, rras.deletestaticservice, stm/DeleteStaticService
 ms.topic: callback
-f1_keywords: 
- - "stm/DeleteStaticService"
+f1_keywords:
+- stm/DeleteStaticService
 dev_langs:
- - c++
+- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - DeleteStaticService
+- DeleteStaticService
 targetos: Windows
 req.typenames: 
 req.redist: 

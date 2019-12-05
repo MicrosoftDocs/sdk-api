@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_MailTo
 title: IFsrmReportJob::get_MailTo (fsrmreports.h)
-
 description: Retrieves or sets the email addresses of those that will receive the reports via email.
 old-location: fsrm\ifsrmreportjob_mailto.htm
 tech.root: fsrm
 ms.assetid: 8ec5d65a-9729-4d68-bceb-b07a2f56755e
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],MailTo property, IFsrmReportJob.MailTo, IFsrmReportJob.get_MailTo, IFsrmReportJob::MailTo, IFsrmReportJob::get_MailTo, IFsrmReportJob::put_MailTo, MailTo property [File Server Resource Manager], MailTo property [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_mailto, fsrm.ifsrmreportjob_mailto, fsrmreports/IFsrmReportJob::MailTo, fsrmreports/IFsrmReportJob::get_MailTo, fsrmreports/IFsrmReportJob::put_MailTo, get_MailTo
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.MailTo"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.MailTo
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.MailTo
- - IFsrmReportJob.get_MailTo
- - IFsrmReportJob.put_MailTo
+- IFsrmReportJob.MailTo
+- IFsrmReportJob.get_MailTo
+- IFsrmReportJob.put_MailTo
 targetos: Windows
 req.typenames: 
 req.redist: 

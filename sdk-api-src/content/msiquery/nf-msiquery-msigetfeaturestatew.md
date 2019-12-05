@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiGetFeatureStateW
 title: MsiGetFeatureStateW function (msiquery.h)
-
 description: The MsiGetFeatureState function gets the requested state of a feature.
 old-location: setup\msigetfeaturestate.htm
 tech.root: Msi
 ms.assetid: eb8942b9-996e-45d8-b515-5c84737eb5ed
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_BADCONFIG, INSTALLSTATE_BROKEN, INSTALLSTATE_DEFAULT, INSTALLSTATE_INCOMPLETE, INSTALLSTATE_INVALIDARG, INSTALLSTATE_LOCAL, INSTALLSTATE_MOREDATA, INSTALLSTATE_SOURCE, INSTALLSTATE_SOURCEABSENT, INSTALLSTATE_UNKNOWN, MsiGetFeatureState, MsiGetFeatureState function, MsiGetFeatureStateA, MsiGetFeatureStateW, _msi_msigetfeaturestate, msiquery/MsiGetFeatureState, msiquery/MsiGetFeatureStateA, msiquery/MsiGetFeatureStateW, setup.msigetfeaturestate
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiGetFeatureState"
+f1_keywords:
+- msiquery/MsiGetFeatureState
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetFeatureState
- - MsiGetFeatureStateA
- - MsiGetFeatureStateW
+- MsiGetFeatureState
+- MsiGetFeatureStateA
+- MsiGetFeatureStateW
 targetos: Windows
 req.typenames: 
 req.redist: 

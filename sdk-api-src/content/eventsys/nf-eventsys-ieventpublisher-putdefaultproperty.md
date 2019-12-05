@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventPublisher.PutDefaultProperty
 title: IEventPublisher::PutDefaultProperty (eventsys.h)
-
 description: Writes a named property and its value to the property bag associated with the event publisher.
 old-location: com\ieventpublisher_putdefaultproperty.htm
 tech.root: com
 ms.assetid: 418f1c16-1b21-4023-b0fc-6e9082b8264e
-
 ms.date: 12/05/2018
 ms.keywords: IEventPublisher interface [COM],PutDefaultProperty method, IEventPublisher.PutDefaultProperty, IEventPublisher::PutDefaultProperty, PutDefaultProperty, PutDefaultProperty method [COM], PutDefaultProperty method [COM],IEventPublisher interface, _com_ieventpublisher_putdefaultproperty, com.ieventpublisher_putdefaultproperty, eventsys/IEventPublisher::PutDefaultProperty
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventPublisher.PutDefaultProperty"
+f1_keywords:
+- eventsys/IEventPublisher.PutDefaultProperty
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventPublisher.PutDefaultProperty
+- IEventPublisher.PutDefaultProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

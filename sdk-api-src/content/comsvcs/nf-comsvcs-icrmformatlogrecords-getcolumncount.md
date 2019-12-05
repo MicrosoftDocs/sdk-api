@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnCount
 title: ICrmFormatLogRecords::GetColumnCount (comsvcs.h)
-
 description: Retrieves the number of fields (columns) in a log record of the type used by this CRM Compensator.
 old-location: cos\icrmformatlogrecords_getcolumncount.htm
 tech.root: cossdk
 ms.assetid: d1b1bc24-6e9d-4f48-ac11-f3892a3be2b1
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnCount, GetColumnCount method [COM+], GetColumnCount method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnCount method, ICrmFormatLogRecords.GetColumnCount, ICrmFormatLogRecords::GetColumnCount, _dtc_ICrmFormatLogRecords_GetColumnCount, comsvcs/ICrmFormatLogRecords::GetColumnCount, cos.icrmformatlogrecords_getcolumncount
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmFormatLogRecords.GetColumnCount"
+f1_keywords:
+- comsvcs/ICrmFormatLogRecords.GetColumnCount
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmFormatLogRecords.GetColumnCount
+- ICrmFormatLogRecords.GetColumnCount
 targetos: Windows
 req.typenames: 
 req.redist: 

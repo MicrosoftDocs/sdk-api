@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsReplaceString
 title: WindowsReplaceString function (winstring.h)
-
 description: Replaces all occurrences of a set of characters in the specified string with another set of characters to create a new string.
 old-location: winrt\windowsreplacestring.htm
 tech.root: WinRT
 ms.assetid: 9675A3EA-12F9-4EE9-93D1-1138FEEB7CA4
-
 ms.date: 12/05/2018
 ms.keywords: WindowsReplaceString, WindowsReplaceString function [Windows Runtime], winrt.windowsreplacestring, winstring/WindowsReplaceString
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsReplaceString"
+f1_keywords:
+- winstring/WindowsReplaceString
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsReplaceString
+- WindowsReplaceString
 targetos: Windows
 req.typenames: 
 req.redist: 

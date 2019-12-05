@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleUndoManager.GetOpenParentState
 title: IOleUndoManager::GetOpenParentState (ocidl.h)
-
 description: Retrieves state information about the innermost open parent undo unit.
 old-location: com\ioleundomanager_getopenparentstate.htm
 tech.root: com
 ms.assetid: 32a4e08a-409b-4f0e-8374-1cdf3b558928
-
 ms.date: 12/05/2018
 ms.keywords: GetOpenParentState, GetOpenParentState method [COM], GetOpenParentState method [COM],IOleUndoManager interface, IOleUndoManager interface [COM],GetOpenParentState method, IOleUndoManager.GetOpenParentState, IOleUndoManager::GetOpenParentState, _ole_ioleundomanager_getopenparentstate, com.ioleundomanager_getopenparentstate, ocidl/IOleUndoManager::GetOpenParentState
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleUndoManager.GetOpenParentState"
+f1_keywords:
+- ocidl/IOleUndoManager.GetOpenParentState
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleUndoManager.GetOpenParentState
+- IOleUndoManager.GetOpenParentState
 targetos: Windows
 req.typenames: 
 req.redist: 

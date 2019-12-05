@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetFolder
 title: ITaskFolder::GetFolder (taskschd.h)
-
 description: Gets a folder that contains tasks at a specified location.
 old-location: taskschd\itaskfolder_getfolder.htm
 tech.root: taskschd
 ms.assetid: 62a0b946-ba06-46cf-bf38-e6774bdaae0a
-
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Task Scheduler], GetFolder method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetFolder method, ITaskFolder.GetFolder, ITaskFolder::GetFolder, taskschd.itaskfolder_getfolder, taskschd/ITaskFolder::GetFolder
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolder.GetFolder"
+f1_keywords:
+- taskschd/ITaskFolder.GetFolder
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolder.GetFolder
+- ITaskFolder.GetFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

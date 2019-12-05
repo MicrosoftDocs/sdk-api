@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSignatureCustomObject
 title: IOpcSignatureCustomObject (msopc.h)
-
 description: Represents an application-specific Object element that has been or will be signed.
 old-location: opc\iopcsignaturecustomobject.htm
 tech.root: OPC
 ms.assetid: 4ebb4fbe-66cc-46d9-b548-31177d9f6da9
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignatureCustomObject, IOpcSignatureCustomObject interface [Open Packaging Conventions], IOpcSignatureCustomObject interface [Open Packaging Conventions],described, msopc/IOpcSignatureCustomObject, opc.iopcsignaturecustomobject
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSignatureCustomObject"
+f1_keywords:
+- msopc/IOpcSignatureCustomObject
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureCustomObject
+- IOpcSignatureCustomObject
 targetos: Windows
 req.typenames: 
 req.redist: 

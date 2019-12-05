@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.DevicePowerSetDeviceState
 title: DevicePowerSetDeviceState function (powrprof.h)
-
 description: Modifies the specified data on the specified device.
 old-location: base\devicepowersetdevicestate.htm
 tech.root: power
 ms.assetid: 300842ae-d7d4-42c2-959c-e1713f466d32
-
 ms.date: 12/05/2018
 ms.keywords: DEVICEPOWER_CLEAR_WAKEENABLED, DEVICEPOWER_SET_WAKEENABLED, DevicePowerSetDeviceState, DevicePowerSetDeviceState function, base.devicepowersetdevicestate, powrprof/DevicePowerSetDeviceState
 ms.topic: function
-f1_keywords: 
- - "powrprof/DevicePowerSetDeviceState"
+f1_keywords:
+- powrprof/DevicePowerSetDeviceState
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - DevicePowerSetDeviceState
+- DevicePowerSetDeviceState
 targetos: Windows
 req.typenames: 
 req.redist: 

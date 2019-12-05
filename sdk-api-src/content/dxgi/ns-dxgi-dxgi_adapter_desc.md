@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi.DXGI_ADAPTER_DESC
 title: DXGI_ADAPTER_DESC (dxgi.h)
-
 description: Describes an adapter (or video card) by using DXGI 1.0.
 old-location: direct3ddxgi\dxgi_adapter_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_adapter_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_ADAPTER_DESC, DXGI_ADAPTER_DESC structure [DXGI], aa379230-8fa1-e846-2745-b4f13f26ee19, direct3ddxgi.dxgi_adapter_desc, dxgi/DXGI_ADAPTER_DESC
 ms.topic: struct
-f1_keywords: 
- - "dxgi/DXGI_ADAPTER_DESC"
+f1_keywords:
+- dxgi/DXGI_ADAPTER_DESC
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI.h
+- DXGI.h
 api_name:
- - DXGI_ADAPTER_DESC
+- DXGI_ADAPTER_DESC
 targetos: Windows
 req.typenames: DXGI_ADAPTER_DESC
 req.redist: 

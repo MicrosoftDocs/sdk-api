@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumProcesses
 title: SymEnumProcesses function (dbghelp.h)
-
 description: Enumerates each process that has called the SymInitialize function.
 old-location: base\symenumprocesses.htm
 tech.root: Debug
 ms.assetid: 281b83ff-8375-4edb-8a10-97af5dbdc87b
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumProcesses, SymEnumProcesses function, base.symenumprocesses, dbghelp/SymEnumProcesses
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumProcesses"
+f1_keywords:
+- dbghelp/SymEnumProcesses
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumProcesses
+- SymEnumProcesses
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.3 or later

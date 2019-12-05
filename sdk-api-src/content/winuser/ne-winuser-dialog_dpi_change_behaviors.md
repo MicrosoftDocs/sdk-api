@@ -1,19 +1,17 @@
 ---
 UID: NE:winuser.DIALOG_DPI_CHANGE_BEHAVIORS
 title: DIALOG_DPI_CHANGE_BEHAVIORS (winuser.h)
-
 description: In Per Monitor v2 contexts, dialogs will automatically respond to DPI changes by resizing themselves and re-computing the positions of their child windows (here referred to as re-layouting).
 old-location: hidpi\dialog_dpi_change_behaviors.htm
 tech.root: hidpi
 ms.assetid: 26248777-E95F-49BE-82D6-7237FAEE0627
-
 ms.date: 12/05/2018
 ms.keywords: DDC_DEFAULT, DDC_DISABLE_ALL, DDC_DISABLE_CONTROL_RELAYOUT, DDC_DISABLE_RESIZE, DIALOG_DPI_CHANGE_BEHAVIORS, DIALOG_DPI_CHANGE_BEHAVIORS enumeration [High DPI], hidpi.dialog_dpi_change_behaviors, winuser/DDC_DEFAULT, winuser/DDC_DISABLE_ALL, winuser/DDC_DISABLE_CONTROL_RELAYOUT, winuser/DDC_DISABLE_RESIZE, winuser/DIALOG_DPI_CHANGE_BEHAVIORS
 ms.topic: enum
-f1_keywords: 
- - "winuser/DIALOG_DPI_CHANGE_BEHAVIORS"
+f1_keywords:
+- winuser/DIALOG_DPI_CHANGE_BEHAVIORS
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - DIALOG_DPI_CHANGE_BEHAVIORS
+- DIALOG_DPI_CHANGE_BEHAVIORS
 targetos: Windows
 req.typenames: DIALOG_DPI_CHANGE_BEHAVIORS
 req.redist: 

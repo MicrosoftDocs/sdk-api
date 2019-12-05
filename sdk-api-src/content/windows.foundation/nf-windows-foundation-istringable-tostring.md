@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IStringable.ToString
 title: IStringable::IStringable (windows.foundation.h)
-
 description: Gets a string that represents the current object.
 old-location: winrt\istringable_tostring.htm
 tech.root: WinRT
 ms.assetid: A102D2DB-A1DF-489A-A025-99C5B9AAB893
-
 ms.date: 12/05/2018
 ms.keywords: IStringable interface [Windows Runtime],ToString method, IStringable.IStringable, IStringable.ToString, IStringable::IStringable, IStringable::ToString, ToString, ToString method [Windows Runtime], ToString method [Windows Runtime],IStringable interface, windows/IStringable::ToString, winrt.istringable_tostring
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IStringable.ToString"
+f1_keywords:
+- windows.foundation/IStringable.ToString
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.foundation.h
+- windows.foundation.h
 api_name:
- - IStringable.ToString
+- IStringable.ToString
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncConflictRecAdded
 title: IOfflineFilesEvents::SyncConflictRecAdded (cscobj.h)
-
 description: Reports that a sync conflict has been detected and recorded in the sync conflict log.
 old-location: of\iofflinefilesevents_syncconflictrecadded.htm
 tech.root: offlinefiles
 ms.assetid: 693306de-d968-4857-8221-965b2f271aae
-
 ms.date: 12/05/2018
 ms.keywords: IOfflineFilesEvents interface [Offline Files],SyncConflictRecAdded method, IOfflineFilesEvents.SyncConflictRecAdded, IOfflineFilesEvents::SyncConflictRecAdded, SyncConflictRecAdded, SyncConflictRecAdded method [Offline Files], SyncConflictRecAdded method [Offline Files],IOfflineFilesEvents interface, cscobj/IOfflineFilesEvents::SyncConflictRecAdded, of.iofflinefilesevents_syncconflictrecadded
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.SyncConflictRecAdded"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.SyncConflictRecAdded
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.SyncConflictRecAdded
+- IOfflineFilesEvents.SyncConflictRecAdded
 targetos: Windows
 req.typenames: 
 req.redist: 

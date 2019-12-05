@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphShutdown
 title: PeerGraphShutdown function (p2p.h)
-
 description: The PeerGraphShutdown function cleans up any resources allocated by the call to PeerGraphStartup. There must be a call to PeerGraphShutdown for each call to PeerGraphStartup.
 old-location: p2p\peergraphshutdown.htm
 tech.root: P2PSdk
 ms.assetid: 036f1bd6-f8aa-47ba-841e-f731ff486860
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphShutdown, PeerGraphShutdown function [Peer Networking], p2p.peergraphshutdown, p2p/PeerGraphShutdown
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphShutdown"
+f1_keywords:
+- p2p/PeerGraphShutdown
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphShutdown
+- PeerGraphShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

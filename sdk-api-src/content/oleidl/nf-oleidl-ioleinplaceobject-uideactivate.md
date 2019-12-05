@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.UIDeactivate
 title: IOleInPlaceObject::UIDeactivate (oleidl.h)
-
 description: Deactivates and removes the user interface of an active in-place object.
 old-location: com\ioleinplaceobject_uideactivate.htm
 tech.root: com
 ms.assetid: cc42e313-b290-4806-bbad-b49abd937b63
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject interface [COM],UIDeactivate method, IOleInPlaceObject.UIDeactivate, IOleInPlaceObject::UIDeactivate, UIDeactivate, UIDeactivate method [COM], UIDeactivate method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_uideactivate, com.ioleinplaceobject_uideactivate, oleidl/IOleInPlaceObject::UIDeactivate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceObject.UIDeactivate"
+f1_keywords:
+- oleidl/IOleInPlaceObject.UIDeactivate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceObject.UIDeactivate
+- IOleInPlaceObject.UIDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMStreamControl.StartAt
 title: IAMStreamControl::StartAt (strmif.h)
-
 description: The StartAt method informs the pin when to start delivering data.
 old-location: dshow\iamstreamcontrol_startat.htm
 tech.root: DirectShow
 ms.assetid: ce155b83-ee4a-47d4-9258-a1d18cf25f8b
-
 ms.date: 12/05/2018
 ms.keywords: IAMStreamControl interface [DirectShow],StartAt method, IAMStreamControl.StartAt, IAMStreamControl::StartAt, IAMStreamControlStartAt, StartAt, StartAt method [DirectShow], StartAt method [DirectShow],IAMStreamControl interface, dshow.iamstreamcontrol_startat, strmif/IAMStreamControl::StartAt
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMStreamControl.StartAt"
+f1_keywords:
+- strmif/IAMStreamControl.StartAt
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMStreamControl.StartAt
+- IAMStreamControl.StartAt
 targetos: Windows
 req.typenames: 
 req.redist: 

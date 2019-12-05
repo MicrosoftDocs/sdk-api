@@ -1,19 +1,17 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_STARTUP
 title: WSMAN_PLUGIN_STARTUP (wsman.h)
-
 description: Defines the startup callback for the plug-in.
 old-location: winrm\wsman_plugin_startup.htm
 tech.root: winrm
 ms.assetid: b3123f52-880b-4d14-a5a2-77c5924de99d
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_PLUGIN_STARTUP, WSMAN_PLUGIN_STARTUP callback, WSMAN_PLUGIN_STARTUP callback function [Windows Remote Management], WSManPluginStartup, winrm.wsman_plugin_startup, wsman/WSMAN_PLUGIN_STARTUP
 ms.topic: callback
-f1_keywords: 
- - "wsman/WSMAN_PLUGIN_STARTUP"
+f1_keywords:
+- wsman/WSMAN_PLUGIN_STARTUP
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_PLUGIN_STARTUP
+- WSMAN_PLUGIN_STARTUP
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

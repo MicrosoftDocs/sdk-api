@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetWorldTransform
 title: SetWorldTransform function (wingdi.h)
-
 description: The SetWorldTransform function sets a two-dimensional linear transformation between world space and page space for the specified device context. This transformation can be used to scale, rotate, shear, or translate graphics output.
 old-location: gdi\setworldtransform.htm
 tech.root: gdi
 ms.assetid: d103a4dd-949e-4f18-ac90-bb0e51011233
-
 ms.date: 12/05/2018
 ms.keywords: SetWorldTransform, SetWorldTransform function [Windows GDI], _win32_SetWorldTransform, gdi.setworldtransform, wingdi/SetWorldTransform
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetWorldTransform"
+f1_keywords:
+- wingdi/SetWorldTransform
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-0.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-0.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - SetWorldTransform
+- SetWorldTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetErrorRetryInterval
 title: IScheduledWorkItem::GetErrorRetryInterval (mstask.h)
-
 description: Retrieves the time interval, in minutes, between Task Scheduler's attempts to run a work item if an error occurs. This method is not implemented.
 old-location: taskschd\ischeduledworkitem_geterrorretryinterval.htm
 tech.root: taskschd
 ms.assetid: e3ace124-cb02-4d4f-9d6c-18d0d99d64bf
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorRetryInterval, GetErrorRetryInterval method [Task Scheduler], GetErrorRetryInterval method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetErrorRetryInterval method, IScheduledWorkItem.GetErrorRetryInterval, IScheduledWorkItem::GetErrorRetryInterval, _msb_ischeduledworkitem_geterrorretryinterval, mstask/IScheduledWorkItem::GetErrorRetryInterval, taskschd.ischeduledworkitem_geterrorretryinterval
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetErrorRetryInterval"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetErrorRetryInterval
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetErrorRetryInterval
+- IScheduledWorkItem.GetErrorRetryInterval
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

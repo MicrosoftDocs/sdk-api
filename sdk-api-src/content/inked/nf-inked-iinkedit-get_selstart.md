@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.get_SelStart
 title: IInkEdit::get_SelStart (inked.h)
-
 description: Gets or sets the starting point of the text that is selected in the InkEdit control (run time only).
 old-location: tablet\inkedit_selstart.htm
 tech.root: tablet
 ms.assetid: 5f8925c0-ec62-425e-a020-9c534056e63f
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelStart property, IInkEdit.SelStart, IInkEdit.get_SelStart, IInkEdit::SelStart, IInkEdit::get_SelStart, IInkEdit::put_SelStart, InkEdit.get_SelStart, InkEdit.put_SelStart, SelStart property [Tablet PC], SelStart property [Tablet PC],IInkEdit interface, get_SelStart, inked/IInkEdit::SelStart, inked/IInkEdit::get_SelStart, inked/IInkEdit::put_SelStart, put_SelStart, tablet.inkedit_selstart
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.SelStart"
+f1_keywords:
+- inked/IInkEdit.SelStart
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.SelStart
- - IInkEdit.get_SelStart
- - IInkEdit.put_SelStart
- - InkEdit.get_SelStart
- - InkEdit.put_SelStart
+- IInkEdit.SelStart
+- IInkEdit.get_SelStart
+- IInkEdit.put_SelStart
+- InkEdit.get_SelStart
+- InkEdit.put_SelStart
 targetos: Windows
 req.typenames: 
 req.redist: 

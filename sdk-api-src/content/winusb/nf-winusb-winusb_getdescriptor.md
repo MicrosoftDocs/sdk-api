@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_GetDescriptor
 title: WinUsb_GetDescriptor function (winusb.h)
-
 description: The WinUsb_GetDescriptor function returns the requested descriptor. This is a synchronous operation.
 old-location: buses\winusb_getdescriptor.htm
 tech.root: usbref
 ms.assetid: 59393a8f-4da9-44fd-8380-bb97e50cdb51
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_GetDescriptor, WinUsb_GetDescriptor function [Buses], buses.winusb_getdescriptor, winusb/WinUsb_GetDescriptor, winusbfunc_abc6ce9f-1e6f-470f-8770-6376cc9ffebf.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_GetDescriptor"
+f1_keywords:
+- winusb/WinUsb_GetDescriptor
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_GetDescriptor
+- WinUsb_GetDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

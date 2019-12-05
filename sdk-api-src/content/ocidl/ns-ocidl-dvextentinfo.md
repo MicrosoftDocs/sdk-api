@@ -1,19 +1,17 @@
 ---
 UID: NS:ocidl.tagExtentInfo
 title: DVEXTENTINFO (ocidl.h)
-
 description: Represents the sizing data used in IViewObjectEx::GetNaturalExtent.
 old-location: com\dvextentinfo.htm
 tech.root: com
 ms.assetid: bd603de2-39db-43a1-a391-01dcfedc073f
-
 ms.date: 12/05/2018
 ms.keywords: DVEXTENTINFO, DVEXTENTINFO structure [COM], _ole_DVEXTENTINFO, com.dvextentinfo, ocidl/DVEXTENTINFO
 ms.topic: struct
-f1_keywords: 
- - "ocidl/DVEXTENTINFO"
+f1_keywords:
+- ocidl/DVEXTENTINFO
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - DVEXTENTINFO
+- DVEXTENTINFO
 targetos: Windows
 req.typenames: DVEXTENTINFO
 req.redist: 

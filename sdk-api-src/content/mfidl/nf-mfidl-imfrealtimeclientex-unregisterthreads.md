@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFRealTimeClientEx.UnregisterThreads
 title: IMFRealTimeClientEx::UnregisterThreads (mfidl.h)
-
 description: Notifies the object to unregister its worker threads from the Multimedia Class Scheduler Service (MMCSS).
 old-location: mf\imfrealtimeclientex_unregisterthreads.htm
 tech.root: medfound
 ms.assetid: 8ADA3DA3-9FCF-4B8B-8FED-07A6CC5DA7E1
-
 ms.date: 12/05/2018
 ms.keywords: IMFRealTimeClientEx interface [Media Foundation],UnregisterThreads method, IMFRealTimeClientEx.UnregisterThreads, IMFRealTimeClientEx::UnregisterThreads, UnregisterThreads, UnregisterThreads method [Media Foundation], UnregisterThreads method [Media Foundation],IMFRealTimeClientEx interface, mf.imfrealtimeclientex_unregisterthreads, mfidl/IMFRealTimeClientEx::UnregisterThreads
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRealTimeClientEx.UnregisterThreads"
+f1_keywords:
+- mfidl/IMFRealTimeClientEx.UnregisterThreads
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFRealTimeClientEx.UnregisterThreads
+- IMFRealTimeClientEx.UnregisterThreads
 targetos: Windows
 req.typenames: 
 req.redist: 

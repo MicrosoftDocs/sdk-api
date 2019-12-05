@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsVector
 title: IShellImageData::IsVector (shimgdata.h)
-
 description: Determines whether the image is a vector image.
 old-location: shell\IShellImageData_IsVector.htm
 tech.root: shell
 ms.assetid: a4099bc4-c831-4a4e-a3f6-932570dc8029
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],IsVector method, IShellImageData.IsVector, IShellImageData::IsVector, IsVector, IsVector method [Windows Shell], IsVector method [Windows Shell],IShellImageData interface, _shell_IShellImageData_IsVector, shell.IShellImageData_IsVector, shimgdata/IShellImageData::IsVector
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.IsVector"
+f1_keywords:
+- shimgdata/IShellImageData.IsVector
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.IsVector
+- IShellImageData.IsVector
 targetos: Windows
 req.typenames: 
 req.redist: 

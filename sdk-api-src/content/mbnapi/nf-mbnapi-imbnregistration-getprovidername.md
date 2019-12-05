@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetProviderName
 title: IMbnRegistration::GetProviderName (mbnapi.h)
-
 description: Gets the provider name for the currently registered network.
 old-location: mbn\imbnregistration_getprovidername.htm
 tech.root: mbn
 ms.assetid: c6cf7cb2-5563-49dc-ac2a-6343ae2395b2
-
 ms.date: 12/05/2018
 ms.keywords: GetProviderName, GetProviderName method [Microsoft Broadband Networks], GetProviderName method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetProviderName method, IMbnRegistration.GetProviderName, IMbnRegistration::GetProviderName, mbn.imbnregistration_getprovidername, mbnapi/IMbnRegistration::GetProviderName
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetProviderName"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetProviderName
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetProviderName
+- IMbnRegistration.GetProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 

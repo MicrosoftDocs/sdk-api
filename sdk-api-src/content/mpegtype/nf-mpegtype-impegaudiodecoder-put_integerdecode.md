@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_IntegerDecode
 title: IMpegAudioDecoder::put_IntegerDecode (mpegtype.h)
-
 description: Specifies whether the decoder will use integer-based decoding.
 old-location: dshow\impegaudiodecoder_put_integerdecode.htm
 tech.root: DirectShow
 ms.assetid: a92fbcbf-0cd5-4c7a-bcde-a616a7d022bd
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_IntegerDecode method, IMpegAudioDecoder.put_IntegerDecode, IMpegAudioDecoder::put_IntegerDecode, IMpegAudioDecoderputIntegerDecode, dshow.impegaudiodecoder_put_integerdecode, mpegtype/IMpegAudioDecoder::put_IntegerDecode, put_IntegerDecode, put_IntegerDecode method [DirectShow], put_IntegerDecode method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.put_IntegerDecode"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.put_IntegerDecode
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.put_IntegerDecode
+- IMpegAudioDecoder.put_IntegerDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

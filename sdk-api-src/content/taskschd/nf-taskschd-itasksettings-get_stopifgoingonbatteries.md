@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_StopIfGoingOnBatteries
 title: ITaskSettings::get_StopIfGoingOnBatteries (taskschd.h)
-
 description: Gets or sets a Boolean value that indicates that the task will be stopped if the computer is going onto batteries.
 old-location: taskschd\itasksettings_stopifgoingonbatteries.htm
 tech.root: taskschd
 ms.assetid: 84647124-8cb2-47f9-a86c-80bb2a629c88
-
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],StopIfGoingOnBatteries property, ITaskSettings.StopIfGoingOnBatteries, ITaskSettings.get_StopIfGoingOnBatteries, ITaskSettings::StopIfGoingOnBatteries, ITaskSettings::get_StopIfGoingOnBatteries, ITaskSettings::put_StopIfGoingOnBatteries, StopIfGoingOnBatteries property [Task Scheduler], StopIfGoingOnBatteries property [Task Scheduler],ITaskSettings interface, get_StopIfGoingOnBatteries, taskschd.itasksettings_stopifgoingonbatteries, taskschd/ITaskSettings::StopIfGoingOnBatteries, taskschd/ITaskSettings::get_StopIfGoingOnBatteries, taskschd/ITaskSettings::put_StopIfGoingOnBatteries
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.StopIfGoingOnBatteries"
+f1_keywords:
+- taskschd/ITaskSettings.StopIfGoingOnBatteries
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.StopIfGoingOnBatteries
- - ITaskSettings.get_StopIfGoingOnBatteries
- - ITaskSettings.put_StopIfGoingOnBatteries
+- ITaskSettings.StopIfGoingOnBatteries
+- ITaskSettings.get_StopIfGoingOnBatteries
+- ITaskSettings.put_StopIfGoingOnBatteries
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_AUTHENTICATION_INPUT_ARG
 title: NET_VALIDATE_AUTHENTICATION_INPUT_ARG (lmaccess.h)
-
 description: A client application passes the NET_VALIDATE_AUTHENTICATION_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests an authentication validation.
 old-location: netmgmt\net_validate_authentication_input_arg.htm
 tech.root: NetMgmt
 ms.assetid: b7466e8a-81d8-4552-adff-47fc2f3ed3ad
-
 ms.date: 12/05/2018
 ms.keywords: '*PNET_VALIDATE_AUTHENTICATION_INPUT_ARG, NET_VALIDATE_AUTHENTICATION_INPUT_ARG, NET_VALIDATE_AUTHENTICATION_INPUT_ARG structure [Network Management], PNET_VALIDATE_AUTHENTICATION_INPUT_ARG, PNET_VALIDATE_AUTHENTICATION_INPUT_ARG structure pointer [Network Management], lmaccess/NET_VALIDATE_AUTHENTICATION_INPUT_ARG, lmaccess/PNET_VALIDATE_AUTHENTICATION_INPUT_ARG, netmgmt.net_validate_authentication_input_arg'
 ms.topic: struct
 f1_keywords:
 - lmaccess/NET_VALIDATE_AUTHENTICATION_INPUT_ARG
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

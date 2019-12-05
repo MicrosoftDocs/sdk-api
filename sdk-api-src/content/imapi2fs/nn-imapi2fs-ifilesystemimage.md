@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage
 title: IFileSystemImage (imapi2fs.h)
-
 description: Use this interface to build a file system image, set session parameter, and import or export an image.
 old-location: imapi\ifilesystemimage.htm
 tech.root: imapi
 ms.assetid: 0256f1d2-a3fb-45b2-bd84-e2b71148e4ec
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage, IFileSystemImage interface [IMAPI], IFileSystemImage interface [IMAPI],described, imapi.ifilesystemimage, imapi2fs/IFileSystemImage
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFileSystemImage"
+f1_keywords:
+- imapi2fs/IFileSystemImage
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage
+- IFileSystemImage
 targetos: Windows
 req.typenames: 
 req.redist: 

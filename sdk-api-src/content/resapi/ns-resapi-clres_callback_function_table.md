@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.CLRES_CALLBACK_FUNCTION_TABLE
 title: CLRES_CALLBACK_FUNCTION_TABLE (resapi.h)
-
 description: Represents a function table for the StartupEx callback function.
 old-location: mscs\clres_callback_function_table.htm
 tech.root: MsCS
 ms.assetid: 1B67B70B-330D-4BA5-AA6C-408588868C76
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLRES_CALLBACK_FUNCTION_TABLE, CLRES_CALLBACK_FUNCTION_TABLE, CLRES_CALLBACK_FUNCTION_TABLE structure [Failover Cluster], PCLRES_CALLBACK_FUNCTION_TABLE, PCLRES_CALLBACK_FUNCTION_TABLE structure pointer [Failover Cluster], mscs.clres_callback_function_table, resapi/CLRES_CALLBACK_FUNCTION_TABLE, resapi/PCLRES_CALLBACK_FUNCTION_TABLE"
+ms.keywords: '*PCLRES_CALLBACK_FUNCTION_TABLE, CLRES_CALLBACK_FUNCTION_TABLE, CLRES_CALLBACK_FUNCTION_TABLE structure [Failover Cluster], PCLRES_CALLBACK_FUNCTION_TABLE, PCLRES_CALLBACK_FUNCTION_TABLE structure pointer [Failover Cluster], mscs.clres_callback_function_table, resapi/CLRES_CALLBACK_FUNCTION_TABLE, resapi/PCLRES_CALLBACK_FUNCTION_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "resapi/CLRES_CALLBACK_FUNCTION_TABLE"
+f1_keywords:
+- resapi/CLRES_CALLBACK_FUNCTION_TABLE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - CLRES_CALLBACK_FUNCTION_TABLE
+- CLRES_CALLBACK_FUNCTION_TABLE
 targetos: Windows
 req.typenames: CLRES_CALLBACK_FUNCTION_TABLE, *PCLRES_CALLBACK_FUNCTION_TABLE
 req.redist: 

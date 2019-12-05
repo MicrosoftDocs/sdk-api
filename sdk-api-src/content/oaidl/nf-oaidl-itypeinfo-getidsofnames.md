@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetIDsOfNames
 title: ITypeInfo::GetIDsOfNames (oaidl.h)
-
 description: Maps between member names and member IDs, and parameter names and parameter IDs.
 old-location: automat\itypeinfo_getidsofnames.htm
 tech.root: automat
 ms.assetid: fb66ee55-e491-40e9-a795-58beb4acee25
-
 ms.date: 12/05/2018
 ms.keywords: GetIDsOfNames, GetIDsOfNames method [Automation], GetIDsOfNames method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetIDsOfNames method, ITypeInfo.GetIDsOfNames, ITypeInfo2.GetIDsOfNames, ITypeInfo::GetIDsOfNames, _oa96_ITypeInfo_GetIDsOfNames, automat.itypeinfo_getidsofnames, oaidl/ITypeInfo::GetIDsOfNames
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetIDsOfNames"
+f1_keywords:
+- oaidl/ITypeInfo.GetIDsOfNames
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
- - oleaut32.dll
+- oaidl.h
+- oleaut32.dll
 api_name:
- - ITypeInfo.GetIDsOfNames
- - ITypeInfo2.GetIDsOfNames
+- ITypeInfo.GetIDsOfNames
+- ITypeInfo2.GetIDsOfNames
 targetos: Windows
 req.typenames: 
 req.redist: 

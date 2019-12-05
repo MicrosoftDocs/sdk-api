@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.FreeAddrInfoW
 title: FreeAddrInfoW function (ws2tcpip.h)
-
 description: Frees address information that the GetAddrInfoW function dynamically allocates in addrinfoW structures.
 old-location: winsock\freeaddrinfow.htm
 tech.root: WinSock
 ms.assetid: 0a2a226c-2068-4538-b499-04cfbfd65b8a
-
 ms.date: 12/05/2018
 ms.keywords: FreeAddrInfoW, FreeAddrInfoW function [Winsock], winsock.freeaddrinfow, ws2tcpip/FreeAddrInfoW
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/FreeAddrInfoW"
+f1_keywords:
+- ws2tcpip/FreeAddrInfoW
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - FreeAddrInfoW
+- FreeAddrInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

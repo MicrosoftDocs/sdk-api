@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IGetSecurityCallContext.GetSecurityCallContext
 title: IGetSecurityCallContext::GetSecurityCallContext (comsvcs.h)
-
 description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
 old-location: cos\igetsecuritycallcontext_getsecuritycallcontext.htm
 tech.root: cossdk
 ms.assetid: 6a386cf6-1f75-4915-8c89-e453c4ebdab8
-
 ms.date: 12/05/2018
 ms.keywords: GetSecurityCallContext, GetSecurityCallContext method [COM+], GetSecurityCallContext method [COM+],IGetSecurityCallContext interface, IGetSecurityCallContext interface [COM+],GetSecurityCallContext method, IGetSecurityCallContext.GetSecurityCallContext, IGetSecurityCallContext::GetSecurityCallContext, _cos_IGetSecurityCallContext_GetSecurityCallContext, comsvcs/IGetSecurityCallContext::GetSecurityCallContext, cos.igetsecuritycallcontext_getsecuritycallcontext
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IGetSecurityCallContext.GetSecurityCallContext"
+f1_keywords:
+- comsvcs/IGetSecurityCallContext.GetSecurityCallContext
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IGetSecurityCallContext.GetSecurityCallContext
+- IGetSecurityCallContext.GetSecurityCallContext
 targetos: Windows
 req.typenames: 
 req.redist: 

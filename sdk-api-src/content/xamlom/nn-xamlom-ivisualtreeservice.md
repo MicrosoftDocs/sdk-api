@@ -1,19 +1,17 @@
 ---
 UID: NN:xamlom.IVisualTreeService
 title: IVisualTreeService (xamlom.h)
-
 description: Provides methods to manage a XAML visual tree.
 old-location: xaml_diagnostics\ivisualtreeservice.htm
 tech.root: xaml_diagnostics
 ms.assetid: 5C0896E4-E37E-49DF-B303-1814BCA6F5B3
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService, IVisualTreeService interface, IVisualTreeService interface,described, xaml_diagnostics.ivisualtreeservice, xamlom/IVisualTreeService
 ms.topic: interface
-f1_keywords: 
- - "xamlom/IVisualTreeService"
+f1_keywords:
+- xamlom/IVisualTreeService
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService
+- IVisualTreeService
 targetos: Windows
 req.typenames: 
 req.redist: 

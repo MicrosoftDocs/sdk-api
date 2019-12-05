@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_RUN
 title: DWRITE_GLYPH_RUN (dwrite.h)
-
 description: Contains the information needed by renderers to draw glyph runs.
 old-location: directwrite\dwrite_glyph_run.htm
 tech.root: DirectWrite
 ms.assetid: 2997d63f-8d33-44c3-9617-cfffe5f61f7d
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_GLYPH_RUN, DWRITE_GLYPH_RUN structure [Direct Write], directwrite.dwrite_glyph_run, dwrite/DWRITE_GLYPH_RUN
 ms.topic: struct
-f1_keywords: 
- - "dwrite/DWRITE_GLYPH_RUN"
+f1_keywords:
+- dwrite/DWRITE_GLYPH_RUN
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_GLYPH_RUN
+- DWRITE_GLYPH_RUN
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollector.get_Index
 title: IDataCollector::get_Index (pla.h)
-
 description: Retrieves the index value of the data collector. The index value identifies the data collector within the data collector set.
 old-location: pla\idatacollector_index.htm
 tech.root: PLA
 ms.assetid: 05ba4bd2-33e3-4aa0-bca0-a247379b37bd
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollector interface [PLA],Index property, IDataCollector.Index, IDataCollector.get_Index, IDataCollector::Index, IDataCollector::get_Index, Index property [PLA], Index property [PLA],IDataCollector interface, base.idatacollector_index, get_Index, pla.idatacollector_index, pla/IDataCollector::Index, pla/IDataCollector::get_Index
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollector.Index"
+f1_keywords:
+- pla/IDataCollector.Index
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollector.Index
- - IDataCollector.get_Index
+- IDataCollector.Index
+- IDataCollector.get_Index
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPin.Enable
 title: IMbnPin::Enable (mbnapi.h)
-
 description: Enables a PIN.
 old-location: mbn\imbnpin_enable.htm
 tech.root: mbn
 ms.assetid: bbdd767b-f08a-4e94-bccf-9ed0d1b4af29
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [Microsoft Broadband Networks], Enable method [Microsoft Broadband Networks],IMbnPin interface, IMbnPin interface [Microsoft Broadband Networks],Enable method, IMbnPin.Enable, IMbnPin::Enable, mbn.imbnpin_enable, mbnapi/IMbnPin::Enable
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPin.Enable"
+f1_keywords:
+- mbnapi/IMbnPin.Enable
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPin.Enable
+- IMbnPin.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

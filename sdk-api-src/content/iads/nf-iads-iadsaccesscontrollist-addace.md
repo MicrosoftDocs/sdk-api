@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsAccessControlList.AddAce
 title: IADsAccessControlList::AddAce (iads.h)
-
 description: The IADsAccessControlList::AddAce method adds an IADsAccessControlEntry object to the IADsAccessControlList object.
 old-location: adsi\iadsaccesscontrollist_addace.htm
 tech.root: adsi
 ms.assetid: 663be55a-29d6-4a8a-adf2-024762413fc3
-
 ms.date: 12/05/2018
 ms.keywords: AddAce, AddAce method [ADSI], AddAce method [ADSI],IADsAccessControlList interface, IADsAccessControlList interface [ADSI],AddAce method, IADsAccessControlList.AddAce, IADsAccessControlList::AddAce, _ds_iadsaccesscontrollist_addace, adsi.iadsaccesscontrollist__addace, adsi.iadsaccesscontrollist_addace, iads/IADsAccessControlList::AddAce
 ms.topic: method
-f1_keywords: 
- - "iads/IADsAccessControlList.AddAce"
+f1_keywords:
+- iads/IADsAccessControlList.AddAce
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsAccessControlList.AddAce
+- IADsAccessControlList.AddAce
 targetos: Windows
 req.typenames: 
 req.redist: 

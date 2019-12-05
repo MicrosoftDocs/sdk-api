@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_AudioAttributes
 title: DVD_AudioAttributes (strmif.h)
-
 description: The DVD_AudioAttributes structure is used in IDvdInfo2::GetAudioAttributes to receive the various audio attributes of the disc.
 old-location: dshow\dvd_audioattributes.htm
 tech.root: DirectShow
 ms.assetid: a4365c05-718e-4d48-bb2c-a13a609df82f
-
 ms.date: 12/05/2018
 ms.keywords: DVD_AudioAttributes, DVD_AudioAttributes structure [DirectShow], DVD_AudioAttributesStructure, dshow.dvd_audioattributes, strmif/DVD_AudioAttributes
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_AudioAttributes"
+f1_keywords:
+- strmif/DVD_AudioAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_AudioAttributes
+- DVD_AudioAttributes
 targetos: Windows
 req.typenames: DVD_AudioAttributes
 req.redist: 

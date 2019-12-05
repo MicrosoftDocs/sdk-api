@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetDefaultExtension
 title: IFileDialog::SetDefaultExtension (shobjidl_core.h)
-
 description: Sets the default extension to be added to file names.
 old-location: shell\IFileDialog_SetDefaultExtension.htm
 tech.root: shell
 ms.assetid: 2e1739f4-d229-4bf1-99f4-6bded830de2b
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetDefaultExtension method, IFileDialog.SetDefaultExtension, IFileDialog::SetDefaultExtension, SetDefaultExtension, SetDefaultExtension method [Windows Shell], SetDefaultExtension method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetDefaultExtension, shell_IFileDialog_SetDefaultExtension, shobjidl_core/IFileDialog::SetDefaultExtension
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetDefaultExtension"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetDefaultExtension
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetDefaultExtension
+- IFileDialog.SetDefaultExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

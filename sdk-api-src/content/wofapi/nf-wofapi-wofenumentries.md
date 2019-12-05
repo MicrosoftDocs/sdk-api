@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofEnumEntries
 title: WofEnumEntries function (wofapi.h)
-
 description: Enumerates all the data sources from a specified provider for a specified volume.
 old-location: fs\wofenumentries.htm
 tech.root: FileIO
 ms.assetid: D6BCBFC1-C916-43E3-BB6A-E8EB6467850B
-
 ms.date: 12/05/2018
 ms.keywords: WofEnumEntries, WofEnumEntries function [Files], fs.wofenumentries, wofapi/WofEnumEntries
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofEnumEntries"
+f1_keywords:
+- wofapi/WofEnumEntries
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofEnumEntries
+- WofEnumEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

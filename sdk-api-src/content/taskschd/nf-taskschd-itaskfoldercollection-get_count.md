@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskFolderCollection.get_Count
 title: ITaskFolderCollection::get_Count (taskschd.h)
-
 description: Gets the number of folders in the collection.
 old-location: taskschd\itaskfoldercollection_count.htm
 tech.root: taskschd
 ms.assetid: 073a812d-209b-4e36-b94b-c24567377a84
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Task Scheduler], Count property [Task Scheduler],ITaskFolderCollection interface, ITaskFolderCollection interface [Task Scheduler],Count property, ITaskFolderCollection.Count, ITaskFolderCollection.get_Count, ITaskFolderCollection::Count, ITaskFolderCollection::get_Count, get_Count, taskschd.itaskfoldercollection_count, taskschd/ITaskFolderCollection::Count, taskschd/ITaskFolderCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskFolderCollection.Count"
+f1_keywords:
+- taskschd/ITaskFolderCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskFolderCollection.Count
- - ITaskFolderCollection.get_Count
+- ITaskFolderCollection.Count
+- ITaskFolderCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl.__unnamed_struct_7
 title: STARTING_VCN_INPUT_BUFFER
-
 description: Contains the starting VCN to the FSCTL_GET_RETRIEVAL_POINTERS control code.
 old-location: fs\starting_vcn_input_buffer_str.htm
 tech.root: FileIO
 ms.assetid: b07668f9-b984-41cc-9545-8f4f9bff3682
-
 ms.date: 12/05/2018
-ms.keywords: "*PSTARTING_VCN_INPUT_BUFFER, PSTARTING_VCN_INPUT_BUFFER, PSTARTING_VCN_INPUT_BUFFER structure pointer [Files], STARTING_VCN_INPUT_BUFFER, STARTING_VCN_INPUT_BUFFER structure [Files], _win32_starting_vcn_input_buffer_str, base.starting_vcn_input_buffer_str, fs.starting_vcn_input_buffer_str, winioctl/PSTARTING_VCN_INPUT_BUFFER, winioctl/STARTING_VCN_INPUT_BUFFER"
+ms.keywords: '*PSTARTING_VCN_INPUT_BUFFER, PSTARTING_VCN_INPUT_BUFFER, PSTARTING_VCN_INPUT_BUFFER structure pointer [Files], STARTING_VCN_INPUT_BUFFER, STARTING_VCN_INPUT_BUFFER structure [Files], _win32_starting_vcn_input_buffer_str, base.starting_vcn_input_buffer_str, fs.starting_vcn_input_buffer_str, winioctl/PSTARTING_VCN_INPUT_BUFFER, winioctl/STARTING_VCN_INPUT_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/STARTING_VCN_INPUT_BUFFER"
+f1_keywords:
+- winioctl/STARTING_VCN_INPUT_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - STARTING_VCN_INPUT_BUFFER
+- STARTING_VCN_INPUT_BUFFER
 targetos: Windows
 req.typenames: STARTING_VCN_INPUT_BUFFER, *PSTARTING_VCN_INPUT_BUFFER
 req.redist: 

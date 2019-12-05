@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSettings.put_balance
 title: IWMPSettings::put_balance (wmp.h)
-
 description: The put_balance method specifies the current stereo balance.
 old-location: wmp\iwmpsettings_put_balance.htm
 tech.root: WMP
 ms.assetid: bb198bc0-a0cf-4f6b-9a1e-f9a552db7092
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_balance method, IWMPSettings.put_balance, IWMPSettings::put_balance, IWMPSettingsput_balance, put_balance, put_balance method [Windows Media Player], put_balance method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_balance, wmp/IWMPSettings::put_balance
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSettings.put_balance"
+f1_keywords:
+- wmp/IWMPSettings.put_balance
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSettings.put_balance
+- IWMPSettings.put_balance
 targetos: Windows
 req.typenames: 
 req.redist: 

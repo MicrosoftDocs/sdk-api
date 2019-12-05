@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbContentDescriptor.GetTag
 title: IDvbContentDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag for a Digital Video Broadcast (DVB) content descriptor.
 old-location: mstv\idvbcontentdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 3cfbda01-ef69-4b69-90f4-04dd3044ae1f
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IDvbContentDescriptor interface, IDvbContentDescriptor interface [Microsoft TV Technologies],GetTag method, IDvbContentDescriptor.GetTag, IDvbContentDescriptor::GetTag, dvbsiparser/IDvbContentDescriptor::GetTag, mstv.idvbcontentdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbContentDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IDvbContentDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbContentDescriptor.GetTag
+- IDvbContentDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winineti.CreateUrlCacheContainerA
 title: CreateUrlCacheContainerA function (winineti.h)
-
 description: Creates a cache container in the specified cache path to hold cache entries based on the specified name, cache prefix, and container type.
 old-location: wininet\createurlcachecontainer.htm
 tech.root: wininet
 ms.assetid: 19b518cc-2f02-49c3-bedc-f5d633cc635d
-
 ms.date: 12/05/2018
 ms.keywords: CreateUrlCacheContainer, CreateUrlCacheContainer function [WinINet], CreateUrlCacheContainerA, CreateUrlCacheContainerW, wininet.createurlcachecontainer, winineti/CreateUrlCacheContainer
 ms.topic: function
-f1_keywords: 
- - "winineti/CreateUrlCacheContainer"
+f1_keywords:
+- winineti/CreateUrlCacheContainer
 dev_langs:
- - c++
+- c++
 req.header: winineti.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - CreateUrlCacheContainer
+- CreateUrlCacheContainer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.LoadPolicy
 title: IX509EnrollmentPolicyServer::LoadPolicy (certenroll.h)
-
 description: Retrieves policy information from the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_loadpolicy.htm
 tech.root: seccertenroll
 ms.assetid: 5b617c6e-91bc-4a22-acd6-41083102850a
-
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],LoadPolicy method, IX509EnrollmentPolicyServer.LoadPolicy, IX509EnrollmentPolicyServer::LoadPolicy, LoadOptionCacheOnly, LoadOptionDefault, LoadOptionRegisterForADChanges, LoadOptionReload, LoadPolicy, LoadPolicy method [Security], LoadPolicy method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::LoadPolicy, security.ix509enrollmentpolicyserver_loadpolicy
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.LoadPolicy"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.LoadPolicy
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.LoadPolicy
+- IX509EnrollmentPolicyServer.LoadPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

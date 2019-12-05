@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_NUMERIC_COMPARISON_INFO
 title: BLUETOOTH_NUMERIC_COMPARISON_INFO (bluetoothapis.h)
-
 description: BLUETOOTH_NUMERIC_COMPARISON_INFO structure contains the numeric value used for authentication via numeric comparison.
 old-location: bluetooth\bluetooth_numeric_comparison_info.htm
 tech.root: bluetooth
 ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
-
 ms.date: 12/05/2018
-ms.keywords: "*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth], PBLUETOOTH_NUMERIC_COMPARISON_INFO, PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth], bluetooth.bluetooth_numeric_comparison_info, bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO"
+ms.keywords: '*PBLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO, BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth], PBLUETOOTH_NUMERIC_COMPARISON_INFO, PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth], bluetooth.bluetooth_numeric_comparison_info, bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO, bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO'
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO"
+f1_keywords:
+- bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - BLUETOOTH_NUMERIC_COMPARISON_INFO
+- BLUETOOTH_NUMERIC_COMPARISON_INFO
 targetos: Windows
 req.typenames: BLUETOOTH_NUMERIC_COMPARISON_INFO, *PBLUETOOTH_NUMERIC_COMPARISON_INFO
 req.redist: 

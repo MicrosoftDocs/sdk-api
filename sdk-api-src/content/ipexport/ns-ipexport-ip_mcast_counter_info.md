@@ -1,19 +1,17 @@
 ---
 UID: NS:ipexport._IP_MCAST_COUNTER_INFO
 title: IP_MCAST_COUNTER_INFO (ipexport.h)
-
 description: The IP_MCAST_COUNTER_INFO structure stores statistical information about Multicast traffic.
 old-location: iphlp\ip_mcast_counter_info.htm
 tech.root: IpHlp
 ms.assetid: aa70f260-ccbb-4020-a3c0-2d400ddc2e9d
-
 ms.date: 12/05/2018
-ms.keywords: "*PIP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO structure [IP Helper], IP_MCAST_COUNTER_INFO, IP_MCAST_COUNTER_INFO structure [IP Helper], ipexport/*PIP_MCAST_COUNTER_INFO, ipexport/IP_MCAST_COUNTER_INFO, iphlp.ip_mcast_counter_info"
+ms.keywords: '*PIP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO structure [IP Helper], IP_MCAST_COUNTER_INFO, IP_MCAST_COUNTER_INFO structure [IP Helper], ipexport/*PIP_MCAST_COUNTER_INFO, ipexport/IP_MCAST_COUNTER_INFO, iphlp.ip_mcast_counter_info'
 ms.topic: struct
-f1_keywords: 
- - "ipexport/IP_MCAST_COUNTER_INFO"
+f1_keywords:
+- ipexport/IP_MCAST_COUNTER_INFO
 dev_langs:
- - c++
+- c++
 req.header: ipexport.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipexport.h
+- Ipexport.h
 api_name:
- - IP_MCAST_COUNTER_INFO
+- IP_MCAST_COUNTER_INFO
 targetos: Windows
 req.typenames: IP_MCAST_COUNTER_INFO, *PIP_MCAST_COUNTER_INFO
 req.redist: 

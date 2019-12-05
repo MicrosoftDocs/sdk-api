@@ -1,19 +1,17 @@
 ---
 UID: NS:tpcshrd.tagSTROKE_RANGE
 title: STROKE_RANGE (tpcshrd.h)
-
 description: Specifies a range of strokes in the InkDisp object.
 old-location: tablet\stroke_range.htm
 tech.root: tablet
 ms.assetid: cae64877-2ea4-45a1-b5c2-0764c7ebeaf7
-
 ms.date: 12/05/2018
 ms.keywords: STROKE_RANGE, STROKE_RANGE structure [Tablet PC], cae64877-2ea4-45a1-b5c2-0764c7ebeaf7, tablet.stroke_range, tpcshrd/STROKE_RANGE
 ms.topic: struct
-f1_keywords: 
- - "tpcshrd/STROKE_RANGE"
+f1_keywords:
+- tpcshrd/STROKE_RANGE
 dev_langs:
- - c++
+- c++
 req.header: tpcshrd.h
 req.include-header: Tcpshrd.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - tpcshrd.h
+- tpcshrd.h
 api_name:
- - STROKE_RANGE
+- STROKE_RANGE
 targetos: Windows
 req.typenames: STROKE_RANGE
 req.redist: 

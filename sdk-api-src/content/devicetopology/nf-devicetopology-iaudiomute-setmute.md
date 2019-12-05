@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IAudioMute.SetMute
 title: IAudioMute::SetMute (devicetopology.h)
-
 description: The SetMute method enables or disables the mute control.
 old-location: coreaudio\iaudiomute_setmute.htm
 tech.root: CoreAudio
 ms.assetid: e99cb894-b39e-42ec-be8f-dc3fa6e7abcd
-
 ms.date: 12/05/2018
 ms.keywords: IAudioMute interface [Core Audio],SetMute method, IAudioMute.SetMute, IAudioMute::SetMute, IAudioMuteSetMute, SetMute, SetMute method [Core Audio], SetMute method [Core Audio],IAudioMute interface, coreaudio.iaudiomute_setmute, devicetopology/IAudioMute::SetMute
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IAudioMute.SetMute"
+f1_keywords:
+- devicetopology/IAudioMute.SetMute
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioMute.SetMute
+- IAudioMute.SetMute
 targetos: Windows
 req.typenames: 
 req.redist: 

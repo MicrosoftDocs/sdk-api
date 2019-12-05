@@ -1,19 +1,17 @@
 ---
 UID: NF:ndfapi.NdfCreateInboundIncident
 title: NdfCreateInboundIncident function (ndfapi.h)
-
 description: Creates a session to diagnose inbound connectivity for a specific application or service.
 old-location: ndf\ndfcreateinboundincident.htm
 tech.root: NDF
 ms.assetid: 8cc2c605-96b6-4eca-9e18-f3296187a28f
-
 ms.date: 12/05/2018
-ms.keywords: "@FirewallAPI.dll,-28502, @FirewallAPI.dll,-28752, @FirewallAPI.dll,-32752, NDF_INBOUND_FLAG_EDGETRAVERSAL, NDF_INBOUND_FLAG_HEALTHCHECK, NdfCreateInboundIncident, NdfCreateInboundIncident function [NDF], ndf.ndfcreateinboundincident, ndfapi/NdfCreateInboundIncident"
+ms.keywords: '@FirewallAPI.dll,-28502, @FirewallAPI.dll,-28752, @FirewallAPI.dll,-32752, NDF_INBOUND_FLAG_EDGETRAVERSAL, NDF_INBOUND_FLAG_HEALTHCHECK, NdfCreateInboundIncident, NdfCreateInboundIncident function [NDF], ndf.ndfcreateinboundincident, ndfapi/NdfCreateInboundIncident'
 ms.topic: function
-f1_keywords: 
- - "ndfapi/NdfCreateInboundIncident"
+f1_keywords:
+- ndfapi/NdfCreateInboundIncident
 dev_langs:
- - c++
+- c++
 req.header: ndfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ndfapi.lib
 req.dll: Ndfapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ndfapi.dll
+- Ndfapi.dll
 api_name:
- - NdfCreateInboundIncident
+- NdfCreateInboundIncident
 targetos: Windows
 req.typenames: 
 req.redist: 

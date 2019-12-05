@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePhotoSink.SetOutputByteStream
 title: IMFCapturePhotoSink::SetOutputByteStream (mfcaptureengine.h)
-
 description: Specifies a byte stream that will receive the still image data.
 old-location: mf\imfcapturephotosink_setoutputbytestream.htm
 tech.root: medfound
 ms.assetid: D67C2D66-FC40-4AF3-9E83-29D0DBF99AD3
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetOutputByteStream method, IMFCapturePhotoSink.SetOutputByteStream, IMFCapturePhotoSink::SetOutputByteStream, SetOutputByteStream, SetOutputByteStream method [Media Foundation], SetOutputByteStream method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setoutputbytestream, mfcaptureengine/IMFCapturePhotoSink::SetOutputByteStream
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePhotoSink.SetOutputByteStream"
+f1_keywords:
+- mfcaptureengine/IMFCapturePhotoSink.SetOutputByteStream
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePhotoSink.SetOutputByteStream
+- IMFCapturePhotoSink.SetOutputByteStream
 targetos: Windows
 req.typenames: 
 req.redist: 

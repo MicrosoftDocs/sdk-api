@@ -1,19 +1,17 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3.SetClientCertificate
 title: IXMLHTTPRequest3::SetClientCertificate (msxml6.h)
-
 description: Sets a client certificate to be used to authenticate against the URL specified in the Open method.
 old-location: ixhr2\ixmlhttprequest3_setclientcertificate.htm
 tech.root: ixhr2
 ms.assetid: fc3e2645-666c-42af-babd-1f476b6356b8
-
 ms.date: 12/05/2018
 ms.keywords: IXMLHTTPRequest3 interface [XMLHttpRequest2],SetClientCertificate method, IXMLHTTPRequest3.SetClientCertificate, IXMLHTTPRequest3::SetClientCertificate, SetClientCertificate, SetClientCertificate method [XMLHttpRequest2], SetClientCertificate method [XMLHttpRequest2],IXMLHTTPRequest3 interface, ixhr2.ixmlhttprequest3_setclientcertificate, msxml6/IXMLHTTPRequest3::SetClientCertificate
 ms.topic: method
-f1_keywords: 
- - "msxml6/IXMLHTTPRequest3.SetClientCertificate"
+f1_keywords:
+- msxml6/IXMLHTTPRequest3.SetClientCertificate
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - IXMLHTTPRequest3.SetClientCertificate
+- IXMLHTTPRequest3.SetClientCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

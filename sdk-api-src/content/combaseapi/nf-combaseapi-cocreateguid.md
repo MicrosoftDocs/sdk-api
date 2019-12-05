@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoCreateGuid
 title: CoCreateGuid function (combaseapi.h)
-
 description: Creates a GUID, a unique 128-bit integer used for CLSIDs and interface identifiers.
 old-location: com\cocreateguid.htm
 tech.root: com
 ms.assetid: 8d5cedea-8c2b-4918-99db-1a000989f178
-
 ms.date: 12/05/2018
 ms.keywords: CoCreateGuid, CoCreateGuid function [COM], _com_CoCreateGuid, com.cocreateguid, combaseapi/CoCreateGuid
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoCreateGuid"
+f1_keywords:
+- combaseapi/CoCreateGuid
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoCreateGuid
+- CoCreateGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

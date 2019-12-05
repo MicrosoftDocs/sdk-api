@@ -1,19 +1,17 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCacheCallBack.PurgeProgress
 title: IEmptyVolumeCacheCallBack::PurgeProgress (emptyvc.h)
-
 description: Called periodically by a disk cleanup handler to update the disk cleanup manager on the progress of a purge of deletable files.
 old-location: lwef\iemptyvolumecachecallback_purgeprogress.htm
 tech.root: lwef
 ms.assetid: 96b97919-9b3b-418e-a76a-a2e8aad453b9
-
 ms.date: 12/05/2018
 ms.keywords: EVCCBF_LASTNOTIFICATION, IEmptyVolumeCacheCallBack interface [Legacy Windows Environment Features],PurgeProgress method, IEmptyVolumeCacheCallBack.PurgeProgress, IEmptyVolumeCacheCallBack::PurgeProgress, PurgeProgress, PurgeProgress method [Legacy Windows Environment Features], PurgeProgress method [Legacy Windows Environment Features],IEmptyVolumeCacheCallBack interface, _win32_IEmptyVolumeCacheCallBack_PurgeProgress, emptyvc/IEmptyVolumeCacheCallBack::PurgeProgress, lwef.iemptyvolumecachecallback_purgeprogress, shell.iemptyvolumecachecallback_purgeprogress
 ms.topic: method
-f1_keywords: 
- - "emptyvc/IEmptyVolumeCacheCallBack.PurgeProgress"
+f1_keywords:
+- emptyvc/IEmptyVolumeCacheCallBack.PurgeProgress
 dev_langs:
- - c++
+- c++
 req.header: emptyvc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEmptyVolumeCacheCallBack.PurgeProgress
+- IEmptyVolumeCacheCallBack.PurgeProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

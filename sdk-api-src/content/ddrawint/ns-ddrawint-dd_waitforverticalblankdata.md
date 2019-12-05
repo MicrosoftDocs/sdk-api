@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_WAITFORVERTICALBLANKDATA
 title: DD_WAITFORVERTICALBLANKDATA (ddrawint.h)
-
 description: The DD_WAITFORVERTICALBLANKDATA structure contains information necessary to obtain the monitor's vertical blank information.
 old-location: display\dd_waitforverticalblankdata.htm
 tech.root: display
 ms.assetid: 27224fb2-3843-4843-b66f-0a3dd8325e1f
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA, DDHAL_WAITFORVERTICALBLANKDATA structure [Display Devices], DD_WAITFORVERTICALBLANKDATA, DD_WAITFORVERTICALBLANKDATA structure [Display Devices], ddrawint/DD_WAITFORVERTICALBLANKDATA, ddstrcts_cd09b34a-249c-4166-8624-bb638cf4bfe1.xml, display.dd_waitforverticalblankdata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DDHAL_WAITFORVERTICALBLANKDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h, Ddrawi.h
 req.target-type: Windows

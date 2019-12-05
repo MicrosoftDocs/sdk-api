@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IQueryParser.SetMultiOption
 title: IQueryParser::SetMultiOption (structuredquery.h)
-
 description: Sets a complex option, such as a specified condition generator, to use when parsing an input string.
 old-location: search\_search_IQueryParser_SetMultiOption.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\setmultioption.htm
-
 ms.date: 12/05/2018
 ms.keywords: IQueryParser interface [search],SetMultiOption method, IQueryParser.SetMultiOption, IQueryParser::SetMultiOption, SetMultiOption, SetMultiOption method [search], SetMultiOption method [search],IQueryParser interface, _search_IQueryParser_SetMultiOption, search._search_IQueryParser_SetMultiOption, structuredquery/IQueryParser::SetMultiOption
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IQueryParser.SetMultiOption"
+f1_keywords:
+- structuredquery/IQueryParser.SetMultiOption
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IQueryParser.SetMultiOption
+- IQueryParser.SetMultiOption
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_STORAGE_TIER_REGION
 title: FILE_STORAGE_TIER_REGION
-
 description: Describes a single storage tier region.
 old-location: fs\file_storage_tier_region.htm
 tech.root: FileIO
 ms.assetid: 5178A987-397A-44E5-9485-221D72490124
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION structure [Files], PFILE_STORAGE_TIER_REGION, PFILE_STORAGE_TIER_REGION structure pointer [Files], fs.file_storage_tier_region, winioctl/FILE_STORAGE_TIER_REGION, winioctl/PFILE_STORAGE_TIER_REGION"
+ms.keywords: '*PFILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION, FILE_STORAGE_TIER_REGION structure [Files], PFILE_STORAGE_TIER_REGION, PFILE_STORAGE_TIER_REGION structure pointer [Files], fs.file_storage_tier_region, winioctl/FILE_STORAGE_TIER_REGION, winioctl/PFILE_STORAGE_TIER_REGION'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_STORAGE_TIER_REGION"
+f1_keywords:
+- winioctl/FILE_STORAGE_TIER_REGION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoctl.h
+- WinIoctl.h
 api_name:
- - FILE_STORAGE_TIER_REGION
+- FILE_STORAGE_TIER_REGION
 targetos: Windows
 req.typenames: FILE_STORAGE_TIER_REGION, *PFILE_STORAGE_TIER_REGION
 req.redist: 

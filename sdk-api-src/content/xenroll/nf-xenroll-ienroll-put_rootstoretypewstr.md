@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.put_RootStoreTypeWStr
 title: IEnroll::put_RootStoreTypeWStr (xenroll.h)
-
 description: Sets or retrieves the type of store to use for the store specified by the RootStoreNameWStr property.
 old-location: security\ienroll4_rootstoretypewstr.htm
 tech.root: SecCrypto
 ms.assetid: 42e50e99-a5ef-40b7-b6ef-c86272d1cd0d
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RootStoreTypeWStr property, IEnroll.RootStoreTypeWStr, IEnroll.put_RootStoreTypeWStr, IEnroll::RootStoreTypeWStr, IEnroll::get_RootStoreTypeWStr, IEnroll::put_RootStoreTypeWStr, RootStoreTypeWStr property [Security], RootStoreTypeWStr property [Security],IEnroll interface, put_RootStoreTypeWStr, security.ienroll4_rootstoretypewstr, sz_CERT_STORE_PROV_SYSTEM_W, xenroll/IEnroll::RootStoreTypeWStr, xenroll/IEnroll::get_RootStoreTypeWStr, xenroll/IEnroll::put_RootStoreTypeWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.RootStoreTypeWStr"
+f1_keywords:
+- xenroll/IEnroll.RootStoreTypeWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.RootStoreTypeWStr
- - IEnroll.get_RootStoreTypeWStr
- - IEnroll.put_RootStoreTypeWStr
+- IEnroll.RootStoreTypeWStr
+- IEnroll.get_RootStoreTypeWStr
+- IEnroll.put_RootStoreTypeWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

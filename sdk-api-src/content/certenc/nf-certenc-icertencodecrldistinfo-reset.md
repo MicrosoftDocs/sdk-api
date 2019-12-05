@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeCRLDistInfo.Reset
 title: ICertEncodeCRLDistInfo::Reset (certenc.h)
-
 description: Resets a certificate revocation list (CRL) distribution information array to a specified number of distribution point structures.
 old-location: security\icertencodecrldistinfo_reset.htm
 tech.root: SecCrypto
 ms.assetid: 899de888-918f-4202-a324-0e603eba2324
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],Reset method, ICertEncodeCRLDistInfo interface [Security],Reset method, ICertEncodeCRLDistInfo.Reset, ICertEncodeCRLDistInfo::Reset, Reset, Reset method [Security], Reset method [Security],CCertEncodeCRLDistInfo object, Reset method [Security],ICertEncodeCRLDistInfo interface, _certsrv_icertencodecrldistinfo_reset, certenc/ICertEncodeCRLDistInfo::Reset, security.icertencodecrldistinfo_reset
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeCRLDistInfo.Reset"
+f1_keywords:
+- certenc/ICertEncodeCRLDistInfo.Reset
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo.Reset
- - CCertEncodeCRLDistInfo.Reset
+- ICertEncodeCRLDistInfo.Reset
+- CCertEncodeCRLDistInfo.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

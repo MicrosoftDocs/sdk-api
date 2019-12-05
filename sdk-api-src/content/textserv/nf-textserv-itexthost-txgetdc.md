@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetDC
 title: ITextHost::TxGetDC (textserv.h)
-
 description: Requests the device context for the text host window.
 old-location: controls\ITextHost_TxGetDC.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetdc.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetDC method, ITextHost.TxGetDC, ITextHost::TxGetDC, TxGetDC, TxGetDC method [Windows Controls], TxGetDC method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetDC, _win32_ITextHost_TxGetDC_cpp, controls.ITextHost_TxGetDC, controls._win32_ITextHost_TxGetDC, textserv/ITextHost::TxGetDC
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetDC"
+f1_keywords:
+- textserv/ITextHost.TxGetDC
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetDC
+- ITextHost.TxGetDC
 targetos: Windows
 req.typenames: 
 req.redist: 

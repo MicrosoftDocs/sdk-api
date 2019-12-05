@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_BLEND_OP
 title: D3D11_BLEND_OP (d3d11.h)
-
 description: RGB or alpha blending operation.
 old-location: direct3d11\d3d11_blend_op.htm
 tech.root: direct3d11
 ms.assetid: e0a201da-0d5d-4a85-a0cb-fddd9bd2f460
-
 ms.date: 12/05/2018
 ms.keywords: 2c289d70-b751-5cb8-a8b5-4db1d10f3c9d, D3D11_BLEND_OP, D3D11_BLEND_OP enumeration [Direct3D 11], D3D11_BLEND_OP_ADD, D3D11_BLEND_OP_MAX, D3D11_BLEND_OP_MIN, D3D11_BLEND_OP_REV_SUBTRACT, D3D11_BLEND_OP_SUBTRACT, d3d11/D3D11_BLEND_OP, d3d11/D3D11_BLEND_OP_ADD, d3d11/D3D11_BLEND_OP_MAX, d3d11/D3D11_BLEND_OP_MIN, d3d11/D3D11_BLEND_OP_REV_SUBTRACT, d3d11/D3D11_BLEND_OP_SUBTRACT, direct3d11.d3d11_blend_op
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_BLEND_OP"
+f1_keywords:
+- d3d11/D3D11_BLEND_OP
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_BLEND_OP
+- D3D11_BLEND_OP
 targetos: Windows
 req.typenames: D3D11_BLEND_OP
 req.redist: 

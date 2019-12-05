@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecpkg._SECPKG_EVENT_NOTIFY
 title: SECPKG_EVENT_NOTIFY (ntsecpkg.h)
-
 description: The SECPKG_EVENT_NOTIFY structure contains information about security events. This structure is passed to a function registered to receive event notifications. Event notification functions are registered by calling the RegisterNotification function.
 old-location: security\secpkg_event_notify.htm
 tech.root: SecAuthN
 ms.assetid: 68516a5a-940f-48be-ba9c-5e72d23bc737
-
 ms.date: 12/05/2018
-ms.keywords: "*PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY structure pointer [Security], SECPKG_EVENT_NOTIFY, SECPKG_EVENT_NOTIFY structure [Security], _ssp_secpkg_event_notify, ntsecpkg/PSECPKG_EVENT_NOTIFY, ntsecpkg/SECPKG_EVENT_NOTIFY, security.secpkg_event_notify"
+ms.keywords: '*PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY, PSECPKG_EVENT_NOTIFY structure pointer [Security], SECPKG_EVENT_NOTIFY, SECPKG_EVENT_NOTIFY structure [Security], _ssp_secpkg_event_notify, ntsecpkg/PSECPKG_EVENT_NOTIFY, ntsecpkg/SECPKG_EVENT_NOTIFY, security.secpkg_event_notify'
 ms.topic: struct
-f1_keywords: 
- - "ntsecpkg/SECPKG_EVENT_NOTIFY"
+f1_keywords:
+- ntsecpkg/SECPKG_EVENT_NOTIFY
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecpkg.h
+- Ntsecpkg.h
 api_name:
- - SECPKG_EVENT_NOTIFY
+- SECPKG_EVENT_NOTIFY
 targetos: Windows
 req.typenames: SECPKG_EVENT_NOTIFY, *PSECPKG_EVENT_NOTIFY
 req.redist: 

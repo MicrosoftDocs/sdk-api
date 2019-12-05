@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_COOKIE_PAIR0_
 title: IKEEXT_COOKIE_PAIR0 (iketypes.h)
-
 description: Used to store a pair of IKE/Authip cookies.
 old-location: fwp\ikeext_cookie_pair0.htm
 tech.root: fwp
 ms.assetid: c752545b-1880-40ac-871e-e36d4b81668f
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_COOKIE_PAIR0, IKEEXT_COOKIE_PAIR0 structure [Filtering], fwp.ikeext_cookie_pair0, iketypes/IKEEXT_COOKIE_PAIR0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_COOKIE_PAIR0"
+f1_keywords:
+- iketypes/IKEEXT_COOKIE_PAIR0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_COOKIE_PAIR0
+- IKEEXT_COOKIE_PAIR0
 targetos: Windows
 req.typenames: IKEEXT_COOKIE_PAIR0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetSize
 title: IWMDMStorage::GetSize (mswmdm.h)
-
 description: The GetSize method retrieves the size of the storage, in bytes.
 old-location: wmdm\iwmdmstorage_getsize.htm
 tech.root: WMDM
 ms.assetid: 1042b71b-1656-4f0b-be95-8a09ba4421ed
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [windows Media Device Manager], GetSize method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetSize method, IWMDMStorage.GetSize, IWMDMStorage::GetSize, IWMDMStorageGetSize, mswmdm/IWMDMStorage::GetSize, wmdm.iwmdmstorage_getsize
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage.GetSize"
+f1_keywords:
+- mswmdm/IWMDMStorage.GetSize
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage.GetSize
+- IWMDMStorage.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

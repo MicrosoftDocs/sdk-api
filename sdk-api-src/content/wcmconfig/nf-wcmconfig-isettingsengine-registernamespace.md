@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.RegisterNamespace
 title: ISettingsEngine::RegisterNamespace (wcmconfig.h)
-
 description: Registers a namespace from a stream.
 old-location: smi\isettingsengine_registernamespace.htm
 tech.root: SMI
 ms.assetid: 9b9ffba8-b2b7-469e-96d2-78b086987fae
-
 ms.date: 12/05/2018
 ms.keywords: ISettingsEngine interface [SMI],RegisterNamespace method, ISettingsEngine.RegisterNamespace, ISettingsEngine::RegisterNamespace, RegisterNamespace, RegisterNamespace method [SMI], RegisterNamespace method [SMI],ISettingsEngine interface, smi.isettingsengine_registernamespace, wcmconfig/ISettingsEngine::RegisterNamespace
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.RegisterNamespace"
+f1_keywords:
+- wcmconfig/ISettingsEngine.RegisterNamespace
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.RegisterNamespace
+- ISettingsEngine.RegisterNamespace
 targetos: Windows
 req.typenames: 
 req.redist: 

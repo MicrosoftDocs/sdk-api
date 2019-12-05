@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IDownloadProgress.get_CurrentUpdateBytesToDownload
 title: IDownloadProgress::get_CurrentUpdateBytesToDownload (wuapi.h)
-
 description: Gets a string that estimates how much data should be transferred for the content file or files of the update that is being downloaded, in bytes.
 old-location: wua\idownloadprogress_currentupdatebytestodownload.htm
 tech.root: Wua_Sdk
 ms.assetid: 6e3ac04f-b827-4369-981e-af7a437f5e5c
-
 ms.date: 12/05/2018
 ms.keywords: CurrentUpdateBytesToDownload property [Windows Update Agent], CurrentUpdateBytesToDownload property [Windows Update Agent],IDownloadProgress interface, IDownloadProgress interface [Windows Update Agent],CurrentUpdateBytesToDownload property, IDownloadProgress.CurrentUpdateBytesToDownload, IDownloadProgress.get_CurrentUpdateBytesToDownload, IDownloadProgress::CurrentUpdateBytesToDownload, IDownloadProgress::get_CurrentUpdateBytesToDownload, get_CurrentUpdateBytesToDownload, wua.idownloadprogress_currentupdatebytestodownload, wuapi/IDownloadProgress::CurrentUpdateBytesToDownload, wuapi/IDownloadProgress::get_CurrentUpdateBytesToDownload
 ms.topic: method
-f1_keywords: 
- - "wuapi/IDownloadProgress.CurrentUpdateBytesToDownload"
+f1_keywords:
+- wuapi/IDownloadProgress.CurrentUpdateBytesToDownload
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadProgress.CurrentUpdateBytesToDownload
- - IDownloadProgress.get_CurrentUpdateBytesToDownload
+- IDownloadProgress.CurrentUpdateBytesToDownload
+- IDownloadProgress.get_CurrentUpdateBytesToDownload
 targetos: Windows
 req.typenames: 
 req.redist: 

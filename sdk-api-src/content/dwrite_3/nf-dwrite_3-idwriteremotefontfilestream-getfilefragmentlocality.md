@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetFileFragmentLocality
 title: IDWriteRemoteFontFileStream::GetFileFragmentLocality (dwrite_3.h)
-
 description: Returns information about the locality of a byte range (i.e., font fragment) within the font file stream.
 old-location: directwrite\idwriteremotefontfilestream_getfilefragmentlocality.htm
 tech.root: DirectWrite
 ms.assetid: 24F68EFD-D4D6-442B-97C1-C639F570F56B
-
 ms.date: 12/05/2018
 ms.keywords: GetFileFragmentLocality, GetFileFragmentLocality method [Direct Write], GetFileFragmentLocality method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetFileFragmentLocality method, IDWriteRemoteFontFileStream.GetFileFragmentLocality, IDWriteRemoteFontFileStream::GetFileFragmentLocality, directwrite.idwriteremotefontfilestream_getfilefragmentlocality, dwrite_3/IDWriteRemoteFontFileStream::GetFileFragmentLocality
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteRemoteFontFileStream.GetFileFragmentLocality"
+f1_keywords:
+- dwrite_3/IDWriteRemoteFontFileStream.GetFileFragmentLocality
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteRemoteFontFileStream.GetFileFragmentLocality
+- IDWriteRemoteFontFileStream.GetFileFragmentLocality
 targetos: Windows
 req.typenames: 
 req.redist: 

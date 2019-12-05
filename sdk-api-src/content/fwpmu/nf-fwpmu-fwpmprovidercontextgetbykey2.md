@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetByKey2
 title: FwpmProviderContextGetByKey2 function (fwpmu.h)
-
 description: Retrieves a provider context.
 old-location: fwp\fwpmprovidercontextgetbykey2.htm
 tech.root: fwp
 ms.assetid: df8803be-ce24-42c1-9dd2-80ce2a3e1e3e
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetByKey2, FwpmProviderContextGetByKey2 function [Filtering], fwp.fwpmprovidercontextgetbykey2, fwpmu/FwpmProviderContextGetByKey2
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextGetByKey2"
+f1_keywords:
+- fwpmu/FwpmProviderContextGetByKey2
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderContextGetByKey2
+- FwpmProviderContextGetByKey2
 targetos: Windows
 req.typenames: 
 req.redist: 

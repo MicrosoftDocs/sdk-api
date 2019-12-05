@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetPackageFamilyName
 title: IAppxManifestPackageId::GetPackageFamilyName (appxpackaging.h)
-
 description: Gets the package family name.
 old-location: appxpkg\iappxmanifestpackageid_getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: A4505020-61CB-4893-AB3B-6EF0E55FD225
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageFamilyName, GetPackageFamilyName method [App packaging and management], GetPackageFamilyName method [App packaging and management],IAppxManifestPackageId interface, IAppxManifestPackageId interface [App packaging and management],GetPackageFamilyName method, IAppxManifestPackageId.GetPackageFamilyName, IAppxManifestPackageId::GetPackageFamilyName, appxpackaging/IAppxManifestPackageId::GetPackageFamilyName, appxpkg.iappxmanifestpackageid_getpackagefamilyname
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestPackageId.GetPackageFamilyName"
+f1_keywords:
+- appxpackaging/IAppxManifestPackageId.GetPackageFamilyName
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestPackageId.GetPackageFamilyName
+- IAppxManifestPackageId.GetPackageFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 

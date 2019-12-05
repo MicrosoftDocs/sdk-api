@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsLargeInteger
 title: IADsLargeInteger (iads.h)
-
 description: Used to manipulate 64-bit integers of the LargeInteger type.
 old-location: adsi\iadslargeinteger.htm
 tech.root: adsi
 ms.assetid: d49e3339-8488-44c1-9d60-706492e65abc
-
 ms.date: 12/05/2018
 ms.keywords: IADsLargeInteger, IADsLargeInteger interface [ADSI], IADsLargeInteger interface [ADSI],described, _ds_iadslargeinteger, adsi.iadslargeinteger, iads/IADsLargeInteger
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsLargeInteger"
+f1_keywords:
+- iads/IADsLargeInteger
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsLargeInteger
+- IADsLargeInteger
 targetos: Windows
 req.typenames: 
 req.redist: 

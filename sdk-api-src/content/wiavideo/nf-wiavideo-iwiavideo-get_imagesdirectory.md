@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.get_ImagesDirectory
 title: IWiaVideo::get_ImagesDirectory (wiavideo.h)
-
 description: The IWiaVideo::ImagesDirectory property specifies the full path and directory where images are stored when calling the IWiaVideo::TakePicture method.
 old-location: wia\_wia_IWiaVideo_ImagesDirectory.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\imagesdirectory.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],ImagesDirectory property, IWiaVideo.ImagesDirectory, IWiaVideo.get_ImagesDirectory, IWiaVideo::ImagesDirectory, IWiaVideo::get_ImagesDirectory, IWiaVideo::put_ImagesDirectory, ImagesDirectory property [WIA], ImagesDirectory property [WIA],IWiaVideo interface, _wia_IWiaVideo_ImagesDirectory, get_ImagesDirectory, wia._wia_IWiaVideo_ImagesDirectory, wiavideo/IWiaVideo::ImagesDirectory, wiavideo/IWiaVideo::get_ImagesDirectory, wiavideo/IWiaVideo::put_ImagesDirectory
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.ImagesDirectory"
+f1_keywords:
+- wiavideo/IWiaVideo.ImagesDirectory
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.ImagesDirectory
- - IWiaVideo.get_ImagesDirectory
- - IWiaVideo.put_ImagesDirectory
+- IWiaVideo.ImagesDirectory
+- IWiaVideo.get_ImagesDirectory
+- IWiaVideo.put_ImagesDirectory
 targetos: Windows
 req.typenames: 
 req.redist: 

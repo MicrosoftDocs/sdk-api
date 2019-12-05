@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.get_TouchPointer
 title: IRemoteDesktopClient::get_TouchPointer (rdpappcontainerclient.h)
-
 description: Contains the RemoteDesktopClientTouchPointer object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_touchpointer.htm
 tech.root: TermServ
 ms.assetid: 0fe1d319-0553-46ca-8fa9-0d531a900344
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClient interface [Remote Desktop Services],TouchPointer property, IRemoteDesktopClient.TouchPointer, IRemoteDesktopClient.get_TouchPointer, IRemoteDesktopClient::TouchPointer, IRemoteDesktopClient::get_TouchPointer, TouchPointer property [Remote Desktop Services], TouchPointer property [Remote Desktop Services],IRemoteDesktopClient interface, get_TouchPointer, rdpappcontainerclient/IRemoteDesktopClient::TouchPointer, rdpappcontainerclient/IRemoteDesktopClient::get_TouchPointer, termserv.iremotedesktopclient_touchpointer
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClient.TouchPointer"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClient.TouchPointer
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClient.TouchPointer
- - IRemoteDesktopClient.get_TouchPointer
+- IRemoteDesktopClient.TouchPointer
+- IRemoteDesktopClient.get_TouchPointer
 targetos: Windows
 req.typenames: 
 req.redist: 

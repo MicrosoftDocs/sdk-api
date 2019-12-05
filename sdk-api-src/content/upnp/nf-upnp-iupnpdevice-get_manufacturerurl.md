@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ManufacturerURL
 title: IUPnPDevice::get_ManufacturerURL (upnp.h)
-
 description: The ManufacturerURL property specifies the URL for the manufacturer's Web site.
 old-location: upnp\iupnpdevice_manufacturerurl.htm
 tech.root: upnp
 ms.assetid: 7019716a-4a64-43cd-bb44-21bdb6b022c2
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ManufacturerURL method, IUPnPDevice.get_ManufacturerURL, IUPnPDevice::get_ManufacturerURL, _upnp_iupnpdevice_manufacturerurl, get_ManufacturerURL, get_ManufacturerURL method [UPnP APIs], get_ManufacturerURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_manufacturerurl, upnp/IUPnPDevice::get_ManufacturerURL
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_ManufacturerURL"
+f1_keywords:
+- upnp/IUPnPDevice.get_ManufacturerURL
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_ManufacturerURL
+- IUPnPDevice.get_ManufacturerURL
 targetos: Windows
 req.typenames: 
 req.redist: 

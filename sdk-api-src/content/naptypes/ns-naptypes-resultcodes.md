@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagResultCodes
 title: ResultCodes (naptypes.h)
-
 description: Defines a list of result codes.
 old-location: nap\resultcodes_struct.htm
 tech.root: NAP
 ms.assetid: 9d608f0a-9841-48e6-8856-2d8c1afc3e5d
-
 ms.date: 12/05/2018
 ms.keywords: ResultCodes, ResultCodes structure [NAP], nap.resultcodes_struct, naptypes/ResultCodes
 ms.topic: struct
-f1_keywords: 
- - "naptypes/ResultCodes"
+f1_keywords:
+- naptypes/ResultCodes
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - ResultCodes
+- ResultCodes
 targetos: Windows
 req.typenames: ResultCodes
 req.redist: 

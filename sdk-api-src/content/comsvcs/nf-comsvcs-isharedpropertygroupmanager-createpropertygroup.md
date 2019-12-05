@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroupManager.CreatePropertyGroup
 title: ISharedPropertyGroupManager::CreatePropertyGroup (comsvcs.h)
-
 description: Creates a new shared property group.
 old-location: cos\isharedpropertygroupmanager_createpropertygroup.htm
 tech.root: cossdk
 ms.assetid: 19c954cb-1a3b-4063-a09b-54906ae1613d
-
 ms.date: 12/05/2018
 ms.keywords: CreatePropertyGroup, CreatePropertyGroup method [COM+], CreatePropertyGroup method [COM+],ISharedPropertyGroupManager interface, ISharedPropertyGroupManager interface [COM+],CreatePropertyGroup method, ISharedPropertyGroupManager.CreatePropertyGroup, ISharedPropertyGroupManager::CreatePropertyGroup, _cos_ISharedPropertyGroupManager_CreatePropertyGroup, comsvcs/ISharedPropertyGroupManager::CreatePropertyGroup, cos.isharedpropertygroupmanager_createpropertygroup
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISharedPropertyGroupManager.CreatePropertyGroup"
+f1_keywords:
+- comsvcs/ISharedPropertyGroupManager.CreatePropertyGroup
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISharedPropertyGroupManager.CreatePropertyGroup
+- ISharedPropertyGroupManager.CreatePropertyGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

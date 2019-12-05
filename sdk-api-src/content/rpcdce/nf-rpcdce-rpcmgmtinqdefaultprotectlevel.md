@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqDefaultProtectLevel
 title: RpcMgmtInqDefaultProtectLevel function (rpcdce.h)
-
 description: The RpcMgmtInqDefaultProtectLevel function returns the default authentication level for an authentication service.
 old-location: rpc\rpcmgmtinqdefaultprotectlevel.htm
 tech.root: Rpc
 ms.assetid: 54a960dd-7dfc-4364-8ae8-e18fa30a51a3
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtInqDefaultProtectLevel, RpcMgmtInqDefaultProtectLevel function [RPC], _rpc_rpcmgmtinqdefaultprotectlevel, rpc.rpcmgmtinqdefaultprotectlevel, rpcdce/RpcMgmtInqDefaultProtectLevel
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtInqDefaultProtectLevel"
+f1_keywords:
+- rpcdce/RpcMgmtInqDefaultProtectLevel
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtInqDefaultProtectLevel
+- RpcMgmtInqDefaultProtectLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

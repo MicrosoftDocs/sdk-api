@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IAdviseSinkEx.OnViewStatusChange
 title: IAdviseSinkEx::OnViewStatusChange (ocidl.h)
-
 description: Notifies the sink that a view status of an object has changed.
 old-location: com\iadvisesinkex_onviewstatuschange.htm
 tech.root: com
 ms.assetid: 9d5129aa-341c-4c69-8c0c-b7c3e62a57c1
-
 ms.date: 12/05/2018
 ms.keywords: IAdviseSinkEx interface [COM],OnViewStatusChange method, IAdviseSinkEx.OnViewStatusChange, IAdviseSinkEx::OnViewStatusChange, OnViewStatusChange, OnViewStatusChange method [COM], OnViewStatusChange method [COM],IAdviseSinkEx interface, _ole_iadvisesinkex_onviewstatuschange, com.iadvisesinkex_onviewstatuschange, ocidl/IAdviseSinkEx::OnViewStatusChange
 ms.topic: method
-f1_keywords: 
- - "ocidl/IAdviseSinkEx.OnViewStatusChange"
+f1_keywords:
+- ocidl/IAdviseSinkEx.OnViewStatusChange
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IAdviseSinkEx.OnViewStatusChange
+- IAdviseSinkEx.OnViewStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: 

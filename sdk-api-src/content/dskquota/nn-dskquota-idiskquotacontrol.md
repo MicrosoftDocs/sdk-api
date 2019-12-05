@@ -1,19 +1,17 @@
 ---
 UID: NN:dskquota.IDiskQuotaControl
 title: IDiskQuotaControl (dskquota.h)
-
 description: Controls the disk quota facilities of a single NTFS file system volume.
 old-location: fs\idiskquotacontrol.htm
 tech.root: FileIO
 ms.assetid: fc9add5a-c9ef-462d-8125-128d48018717
-
 ms.date: 12/05/2018
 ms.keywords: IDiskQuotaControl, IDiskQuotaControl interface [Files], IDiskQuotaControl interface [Files],described, _win32_idiskquotacontrol, base.idiskquotacontrol, dskquota/IDiskQuotaControl, fs.idiskquotacontrol
 ms.topic: interface
-f1_keywords: 
- - "dskquota/IDiskQuotaControl"
+f1_keywords:
+- dskquota/IDiskQuotaControl
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl
+- IDiskQuotaControl
 targetos: Windows
 req.typenames: 
 req.redist: 

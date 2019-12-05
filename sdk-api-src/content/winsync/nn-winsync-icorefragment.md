@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ICoreFragment
 title: ICoreFragment (winsync.h)
-
 description: Represents knowledge of all items in the scope for a specific set of change units.
 old-location: winsync\icorefragment.htm
 tech.root: winsync
 ms.assetid: 3e232531-ad44-4ad1-b186-46edbc07291b
-
 ms.date: 12/05/2018
 ms.keywords: ICoreFragment, ICoreFragment interface [Windows Sync], ICoreFragment interface [Windows Sync],described, winsync.icorefragment, winsync/ICoreFragment
 ms.topic: interface
-f1_keywords: 
- - "winsync/ICoreFragment"
+f1_keywords:
+- winsync/ICoreFragment
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ICoreFragment
+- ICoreFragment
 targetos: Windows
 req.typenames: 
 req.redist: 

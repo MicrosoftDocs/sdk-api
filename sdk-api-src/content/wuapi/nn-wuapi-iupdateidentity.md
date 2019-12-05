@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateIdentity
 title: IUpdateIdentity (wuapi.h)
-
 description: Represents the unique identifier of an update.
 old-location: wua\iupdateidentity.htm
 tech.root: Wua_Sdk
 ms.assetid: 2086a120-3a9a-48c9-bf8a-ec86624f960c
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateIdentity, IUpdateIdentity interface [Windows Update Agent], IUpdateIdentity interface [Windows Update Agent],described, wua.iupdateidentity, wuapi/IUpdateIdentity
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateIdentity"
+f1_keywords:
+- wuapi/IUpdateIdentity
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateIdentity
+- IUpdateIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

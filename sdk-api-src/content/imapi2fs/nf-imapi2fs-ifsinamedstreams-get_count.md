@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_Count
 title: IFsiNamedStreams::get_Count (imapi2fs.h)
-
 description: Returns the number of the named streams associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_count.htm
 tech.root: imapi
 ms.assetid: 3d4efee2-607b-4be4-9854-79fed47503e4
-
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get_Count method, IFsiNamedStreams.get_Count, IFsiNamedStreams::get_Count, get_Count, get_Count method [IMAPI], get_Count method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_count, imapi2fs/IFsiNamedStreams::get_Count
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiNamedStreams.get_Count"
+f1_keywords:
+- imapi2fs/IFsiNamedStreams.get_Count
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiNamedStreams.get_Count
+- IFsiNamedStreams.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

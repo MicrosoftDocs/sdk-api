@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromString
 title: InitPropVariantFromString function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a specified string.
 old-location: properties\InitPropVariantFromString.htm
 tech.root: properties
 ms.assetid: eeb1002c-d06b-4f7f-b850-4c33f6e0d7aa
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromString, InitPropVariantFromString function [Windows Properties], properties.InitPropVariantFromString, propvarutil/InitPropVariantFromString, shell.InitPropVariantFromString, shell_InitPropVariantFromString
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromString"
+f1_keywords:
+- propvarutil/InitPropVariantFromString
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitPropVariantFromString
+- InitPropVariantFromString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IDeskBand2.CanRenderComposited
 title: IDeskBand2::CanRenderComposited (shobjidl.h)
-
 description: Indicates the deskband's ability to be displayed as translucent.
 old-location: shell\IDeskBand2_CanRenderComposited.htm
 tech.root: shell
 ms.assetid: af42c03f-04aa-42b2-9be4-b3bfa0a8c47e
-
 ms.date: 12/05/2018
 ms.keywords: CanRenderComposited, CanRenderComposited method [Windows Shell], CanRenderComposited method [Windows Shell],IDeskBand2 interface, IDeskBand2 interface [Windows Shell],CanRenderComposited method, IDeskBand2.CanRenderComposited, IDeskBand2::CanRenderComposited, _shell_IDeskBand2_CanRenderComposited, shell.IDeskBand2_CanRenderComposited, shobjidl/IDeskBand2::CanRenderComposited
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IDeskBand2.CanRenderComposited"
+f1_keywords:
+- shobjidl/IDeskBand2.CanRenderComposited
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDeskBand2.CanRenderComposited
+- IDeskBand2.CanRenderComposited
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceNumeric
 title: ITextFont2::GetAutospaceNumeric (tom.h)
-
 description: Gets the East Asian &#0034;autospace numeric&#0034; state.
 old-location: controls\itextfont2_getautospacenumeric.htm
 tech.root: Controls
 ms.assetid: 448a461b-779a-457e-8206-2055a73c9b45
-
 ms.date: 12/05/2018
 ms.keywords: GetAutospaceNumeric, GetAutospaceNumeric method [Windows Controls], GetAutospaceNumeric method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetAutospaceNumeric method, ITextFont2.GetAutospaceNumeric, ITextFont2::GetAutospaceNumeric, controls.itextfont2_getautospacenumeric, tom/ITextFont2::GetAutospaceNumeric
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetAutospaceNumeric"
+f1_keywords:
+- tom/ITextFont2.GetAutospaceNumeric
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetAutospaceNumeric
+- ITextFont2.GetAutospaceNumeric
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICBitmapDecoder
 title: IWICBitmapDecoder (wincodec.h)
-
 description: Exposes methods that represent a decoder.
 old-location: wic\_wic_codec_iwicbitmapdecoder.htm
 tech.root: wic
 ms.assetid: 91dafd5e-e4fb-4691-a3d0-ca8b6ff0aaf7
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapDecoder, IWICBitmapDecoder interface [Windows Imaging Component], IWICBitmapDecoder interface [Windows Imaging Component],described, _wic_codec_iwicbitmapdecoder, wic._wic_codec_iwicbitmapdecoder, wincodec/IWICBitmapDecoder
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICBitmapDecoder"
+f1_keywords:
+- wincodec/IWICBitmapDecoder
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder
+- IWICBitmapDecoder
 targetos: Windows
 req.typenames: 
 req.redist: 

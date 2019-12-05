@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.IPsecSaContextGetSpi1
 title: IPsecSaContextGetSpi1 function (fwpmu.h)
-
 description: Retrieves the security parameters index (SPI) for a security association (SA) context.
 old-location: fwp\ipsecsacontextgetspi1.htm
 tech.root: fwp
 ms.assetid: 623ef4ab-5bcc-4801-ba18-a246da392abe
-
 ms.date: 12/05/2018
 ms.keywords: IPsecSaContextGetSpi1, IPsecSaContextGetSpi1 function [Filtering], fwp.ipsecsacontextgetspi1, fwpmu/IPsecSaContextGetSpi1
 ms.topic: function
-f1_keywords: 
- - "fwpmu/IPsecSaContextGetSpi1"
+f1_keywords:
+- fwpmu/IPsecSaContextGetSpi1
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - IPsecSaContextGetSpi1
+- IPsecSaContextGetSpi1
 targetos: Windows
 req.typenames: 
 req.redist: 

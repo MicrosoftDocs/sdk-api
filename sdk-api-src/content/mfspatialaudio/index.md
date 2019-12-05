@@ -1,7 +1,6 @@
 ---
 UID: NA:mfspatialaudio
 ms.assetid: f7664979-6d9a-3c0e-8494-d7000a3bd374
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

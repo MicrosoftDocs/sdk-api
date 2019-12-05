@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.OpenNtmsSessionA
 title: OpenNtmsSessionA function (ntmsapi.h)
-
 description: The OpenNtmsSession function sets up a session with a RSM server.
 old-location: fs\openntmssession.htm
 tech.root: Rsm
 ms.assetid: 5a323911-e99c-4f81-9580-0feac2f0a54e
-
 ms.date: 12/05/2018
 ms.keywords: OpenNtmsSession, OpenNtmsSession function [Files], OpenNtmsSessionA, OpenNtmsSessionW, _zaw_openntmssession, base.openntmssession, fs.openntmssession, ntmsapi/OpenNtmsSession, ntmsapi/OpenNtmsSessionA, ntmsapi/OpenNtmsSessionW
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/OpenNtmsSession"
+f1_keywords:
+- ntmsapi/OpenNtmsSession
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - OpenNtmsSession
- - OpenNtmsSessionA
- - OpenNtmsSessionW
+- OpenNtmsSession
+- OpenNtmsSessionA
+- OpenNtmsSessionW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMarshalingStream.GetMarshalingContextAttribute
 title: IMarshalingStream::GetMarshalingContextAttribute (objidl.h)
-
 description: Gets information about the marshaling context.
 old-location: com\imarshalingstream_getmarshalingcontextattribute.htm
 tech.root: com
 ms.assetid: 60B401C8-1ACA-412D-B754-997C39454821
-
 ms.date: 12/05/2018
 ms.keywords: GetMarshalingContextAttribute, GetMarshalingContextAttribute method [COM], GetMarshalingContextAttribute method [COM],IMarshalingStream interface, IMarshalingStream interface [COM],GetMarshalingContextAttribute method, IMarshalingStream.GetMarshalingContextAttribute, IMarshalingStream::GetMarshalingContextAttribute, com.imarshalingstream_getmarshalingcontextattribute, objidl/IMarshalingStream::GetMarshalingContextAttribute
 ms.topic: method
-f1_keywords: 
- - "objidl/IMarshalingStream.GetMarshalingContextAttribute"
+f1_keywords:
+- objidl/IMarshalingStream.GetMarshalingContextAttribute
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - IMarshalingStream.GetMarshalingContextAttribute
+- IMarshalingStream.GetMarshalingContextAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

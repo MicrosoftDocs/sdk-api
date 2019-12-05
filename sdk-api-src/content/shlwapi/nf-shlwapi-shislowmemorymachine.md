@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHIsLowMemoryMachine
 title: SHIsLowMemoryMachine function (shlwapi.h)
-
 description: Not supported.
 old-location: shell\SHIsLowMemoryMachine.htm
 tech.root: shell
 ms.assetid: 3a91156d-eef9-4d3c-9cb8-fd50bfa94354
-
 ms.date: 12/05/2018
 ms.keywords: ILMM_IE4, SHIsLowMemoryMachine, SHIsLowMemoryMachine function [Windows Shell], _shell_SHIsLowMemoryMachine, shell.SHIsLowMemoryMachine, shlwapi/SHIsLowMemoryMachine
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHIsLowMemoryMachine"
+f1_keywords:
+- shlwapi/SHIsLowMemoryMachine
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: Shlwapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHIsLowMemoryMachine
+- SHIsLowMemoryMachine
 targetos: Windows
 req.typenames: 
 req.redist: 

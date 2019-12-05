@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_QualifierSet_GetQualifierAt
 title: MI_QualifierSet_GetQualifierAt function (mi.h)
-
 description: Gets a qualifier at the specified index.
 old-location: wmi_v2\mi_qualifierset_getqualifierat.htm
 tech.root: wmi_v2
 ms.assetid: 5dfcdd7a-7740-4d40-b412-89f6f090561c
-
 ms.date: 12/05/2018
 ms.keywords: MI_QualifierSet_GetQualifierAt, MI_QualifierSet_GetQualifierAt function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifierAt, wmi_v2.mi_qualifierset_getqualifierat
 ms.topic: function
 f1_keywords:
 - mi/MI_QualifierSet_GetQualifierAt
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IDirectorySearch.AbandonSearch
 title: IDirectorySearch::AbandonSearch (iads.h)
-
 description: The IDirectorySearch::AbandonSearch method abandons a search initiated by an earlier call to the ExecuteSearch method.
 old-location: adsi\idirectorysearch_abandonsearch.htm
 tech.root: adsi
 ms.assetid: cf220625-0aac-42ce-a15f-c44766693cf8
-
 ms.date: 12/05/2018
 ms.keywords: AbandonSearch, AbandonSearch method [ADSI], AbandonSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],AbandonSearch method, IDirectorySearch.AbandonSearch, IDirectorySearch::AbandonSearch, _ds_idirectorysearch_abandonsearch, adsi.idirectorysearch__abandonsearch, adsi.idirectorysearch_abandonsearch, iads/IDirectorySearch::AbandonSearch
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectorySearch.AbandonSearch"
+f1_keywords:
+- iads/IDirectorySearch.AbandonSearch
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
- - Adsldp.dll
- - Adsldpc.dll
+- Activeds.dll
+- Adsldp.dll
+- Adsldpc.dll
 api_name:
- - IDirectorySearch.AbandonSearch
+- IDirectorySearch.AbandonSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

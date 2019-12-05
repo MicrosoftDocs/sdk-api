@@ -1,19 +1,17 @@
 ---
 UID: NF:bcrypt.BCryptGenRandom
 title: BCryptGenRandom function (bcrypt.h)
-
 description: Generates a random number.
 old-location: security\bcryptgenrandom_func.htm
 tech.root: SecCNG
 ms.assetid: 7c6cee3a-f2c5-46f3-8cfe-984316f323d9
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_RNG_USE_ENTROPY_IN_BUFFER, BCRYPT_USE_SYSTEM_PREFERRED_RNG, BCryptGenRandom, BCryptGenRandom function [Security], bcrypt/BCryptGenRandom, security.bcryptgenrandom_func
 ms.topic: function
-f1_keywords: 
- - "bcrypt/BCryptGenRandom"
+f1_keywords:
+- bcrypt/BCryptGenRandom
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bcrypt.lib
 req.dll: Bcrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Bcrypt.dll
- - Ksecdd.sys
+- Bcrypt.dll
+- Ksecdd.sys
 api_name:
- - BCryptGenRandom
+- BCryptGenRandom
 targetos: Windows
 req.typenames: 
 req.redist: 

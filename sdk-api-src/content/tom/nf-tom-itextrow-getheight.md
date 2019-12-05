@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRow.GetHeight
 title: ITextRow::GetHeight (tom.h)
-
 description: Gets the height of the row.
 old-location: controls\itextrow_getheight.htm
 tech.root: Controls
 ms.assetid: 6befda1a-1a47-4668-b0cf-4fd66e7b633d
-
 ms.date: 12/05/2018
 ms.keywords: GetHeight, GetHeight method [Windows Controls], GetHeight method [Windows Controls],ITextRow interface, ITextRow interface [Windows Controls],GetHeight method, ITextRow.GetHeight, ITextRow::GetHeight, controls.itextrow_getheight, tom/ITextRow::GetHeight
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRow.GetHeight"
+f1_keywords:
+- tom/ITextRow.GetHeight
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRow.GetHeight
+- ITextRow.GetHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6AppendOption
 title: PxeDhcpv6AppendOption function (wdspxe.h)
-
 description: Appends a DHCPv6 option to the reply packet.
 old-location: wds\pxedhcpv6appendoption.htm
 tech.root: wds
 ms.assetid: 92A35846-360B-42D3-935B-6FC10AF687A5
-
 ms.date: 12/05/2018
 ms.keywords: PxeDhcpv6AppendOption, PxeDhcpv6AppendOption function [Windows Deployment Services], wds.pxedhcpv6appendoption, wdspxe/PxeDhcpv6AppendOption
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeDhcpv6AppendOption"
+f1_keywords:
+- wdspxe/PxeDhcpv6AppendOption
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeDhcpv6AppendOption
+- PxeDhcpv6AppendOption
 targetos: Windows
 req.typenames: 
 req.redist: 

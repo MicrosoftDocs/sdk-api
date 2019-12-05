@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDER_REFS
 title: CRYPT_PROVIDER_REFS (bcrypt.h)
-
 description: Contains a collection of provider references.
 old-location: security\crypt_provider_refs.htm
 tech.root: SecCNG
 ms.assetid: e2aaaa02-96e3-4447-b19b-b9db07b49135
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS, CRYPT_PROVIDER_REFS structure [Security], PCRYPT_PROVIDER_REFS, PCRYPT_PROVIDER_REFS structure pointer [Security], bcrypt/CRYPT_PROVIDER_REFS, bcrypt/PCRYPT_PROVIDER_REFS, security.crypt_provider_refs'
 ms.topic: struct
 f1_keywords:
 - bcrypt/CRYPT_PROVIDER_REFS
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows

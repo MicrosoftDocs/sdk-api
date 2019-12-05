@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi._PSFEATURE_OUTPUT
 title: PSFEATURE_OUTPUT (wingdi.h)
-
 description: The PSFEATURE_OUTPUT structure contains information about PostScript driver output options. This structure is used with the GET_PS_FEATURESETTING printer escape function.
 old-location: gdi\psfeature_output.htm
 tech.root: printdocs
 ms.assetid: 4ff96d45-e70e-4d80-9bab-dd1d67aee8f3
-
 ms.date: 12/05/2018
-ms.keywords: "*PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT structure pointer [Windows GDI], PSFEATURE_OUTPUT, PSFEATURE_OUTPUT structure [Windows GDI], _win32_PSFEATURE_OUTPUT_str, gdi.psfeature_output, wingdi/PPSFEATURE_OUTPUT, wingdi/PSFEATURE_OUTPUT"
+ms.keywords: '*PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT, PPSFEATURE_OUTPUT structure pointer [Windows GDI], PSFEATURE_OUTPUT, PSFEATURE_OUTPUT structure [Windows GDI], _win32_PSFEATURE_OUTPUT_str, gdi.psfeature_output, wingdi/PPSFEATURE_OUTPUT, wingdi/PSFEATURE_OUTPUT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/PSFEATURE_OUTPUT"
+f1_keywords:
+- wingdi/PSFEATURE_OUTPUT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - PSFEATURE_OUTPUT
+- PSFEATURE_OUTPUT
 targetos: Windows
 req.typenames: PSFEATURE_OUTPUT, *PPSFEATURE_OUTPUT
 req.redist: 

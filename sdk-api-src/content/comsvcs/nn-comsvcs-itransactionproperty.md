@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ITransactionProperty
 title: ITransactionProperty (comsvcs.h)
-
 description: Used to get the transaction resource pool.
 old-location: cos\itransactionproperty.htm
 tech.root: cossdk
 ms.assetid: 602842ce-abb1-4830-99b3-d361d18ac074
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionProperty, ITransactionProperty interface [COM+], ITransactionProperty interface [COM+],described, _cos_ITransactionProperty, comsvcs/ITransactionProperty, cos.itransactionproperty
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ITransactionProperty"
+f1_keywords:
+- comsvcs/ITransactionProperty
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProperty
+- ITransactionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

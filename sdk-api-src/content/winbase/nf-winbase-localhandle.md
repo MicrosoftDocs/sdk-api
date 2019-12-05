@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LocalHandle
 title: LocalHandle function (winbase.h)
-
 description: Retrieves the handle associated with the specified pointer to a local memory object.
 old-location: base\localhandle.htm
 tech.root: Memory
 ms.assetid: 2b252f8b-d0a3-4d7f-9e2e-cb80c1512935
-
 ms.date: 12/05/2018
 ms.keywords: LocalHandle, LocalHandle function, _win32_localhandle, base.localhandle, winbase/LocalHandle
 ms.topic: function
-f1_keywords: 
- - "winbase/LocalHandle"
+f1_keywords:
+- winbase/LocalHandle
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - LocalHandle
+- LocalHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

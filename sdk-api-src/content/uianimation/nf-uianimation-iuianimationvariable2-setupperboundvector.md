@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable2.SetUpperBoundVector
 title: IUIAnimationVariable2::SetUpperBoundVector (uianimation.h)
-
 description: Sets the upper bound (ceiling) value of each specified dimension for the animation variable. The value of each animation variable should not rise above its upper bound.
 old-location: uianimation\iuianimationvariable2_setupperboundvector.htm
 tech.root: UIAnimation
 ms.assetid: 776CDF6F-F93F-44DC-93D7-79D3A866FAF2
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetUpperBoundVector method, IUIAnimationVariable2.SetUpperBoundVector, IUIAnimationVariable2::SetUpperBoundVector, SetUpperBoundVector, SetUpperBoundVector method [Windows Animation], SetUpperBoundVector method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setupperboundvector, uianimation/IUIAnimationVariable2::SetUpperBoundVector
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationVariable2.SetUpperBoundVector"
+f1_keywords:
+- uianimation/IUIAnimationVariable2.SetUpperBoundVector
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable2.SetUpperBoundVector
+- IUIAnimationVariable2.SetUpperBoundVector
 targetos: Windows
 req.typenames: 
 req.redist: 

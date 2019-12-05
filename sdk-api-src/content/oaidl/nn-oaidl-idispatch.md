@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.IDispatch
 title: IDispatch (oaidl.h)
-
 description: Exposes objects, methods and properties to programming tools and other applications that support Automation.
 old-location: automat\idispatch.htm
 tech.root: automat
 ms.assetid: ebbff4bc-36b2-4861-9efa-ffa45e013eb5
-
 ms.date: 12/05/2018
 ms.keywords: IDispatch, IDispatch interface [Automation], IDispatch interface [Automation],described, _oa96_IDispatch_Interface, automat.idispatch, oaidl/IDispatch
 ms.topic: interface
-f1_keywords: 
- - "oaidl/IDispatch"
+f1_keywords:
+- oaidl/IDispatch
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IDispatch
+- IDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 

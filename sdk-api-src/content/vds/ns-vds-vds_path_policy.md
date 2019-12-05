@@ -1,19 +1,17 @@
 ---
 UID: NS:vds._VDS_PATH_POLICY
 title: VDS_PATH_POLICY (vds.h)
-
 description: Defines the load balance policy as it applies to a particular path.
 old-location: base\vds_path_policy.htm
 tech.root: VDS
 ms.assetid: 7dec1d91-6781-42fa-9476-bb64e2554017
-
 ms.date: 12/05/2018
 ms.keywords: VDS_PATH_POLICY, VDS_PATH_POLICY structure [VDS], base.vds_path_policy, vds/VDS_PATH_POLICY, vdshwprv/VDS_PATH_POLICY
 ms.topic: struct
-f1_keywords: 
- - "vds/VDS_PATH_POLICY"
+f1_keywords:
+- vds/VDS_PATH_POLICY
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PATH_POLICY
+- VDS_PATH_POLICY
 targetos: Windows
 req.typenames: VDS_PATH_POLICY
 req.redist: 

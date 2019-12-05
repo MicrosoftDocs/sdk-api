@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Load
 title: IMFMediaEngine::Load (mfmediaengine.h)
-
 description: Loads the current media source.
 old-location: mf\imfmediaengine_load.htm
 tech.root: medfound
 ms.assetid: 5ACE8143-DC14-495C-A644-A2076FB1980F
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngine interface [Media Foundation],Load method, IMFMediaEngine.Load, IMFMediaEngine::Load, Load, Load method [Media Foundation], Load method [Media Foundation],IMFMediaEngine interface, mf.imfmediaengine_load, mfmediaengine/IMFMediaEngine::Load
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.Load"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.Load
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.Load
+- IMFMediaEngine.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfMouseTracker.UnadviseMouseSink
 title: ITfMouseTracker::UnadviseMouseSink (msctf.h)
-
 description: ITfMouseTracker::UnadviseMouseSink method
 old-location: tsf\itfmousetracker_unadvisemousesink.htm
 tech.root: TSF
 ms.assetid: 7707b7ce-662b-43e5-ada4-ba42eec56ede
-
 ms.date: 12/05/2018
 ms.keywords: ITfMouseTracker interface [Text Services Framework],UnadviseMouseSink method, ITfMouseTracker.UnadviseMouseSink, ITfMouseTracker::UnadviseMouseSink, UnadviseMouseSink, UnadviseMouseSink method [Text Services Framework], UnadviseMouseSink method [Text Services Framework],ITfMouseTracker interface, _tsf_itfmousetracker_unadvisemousesink_ref, msctf/ITfMouseTracker::UnadviseMouseSink, tsf.itfmousetracker_unadvisemousesink
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfMouseTracker.UnadviseMouseSink"
+f1_keywords:
+- msctf/ITfMouseTracker.UnadviseMouseSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMouseTracker.UnadviseMouseSink
+- ITfMouseTracker.UnadviseMouseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

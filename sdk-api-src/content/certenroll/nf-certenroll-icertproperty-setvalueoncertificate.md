@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertProperty.SetValueOnCertificate
 title: ICertProperty::SetValueOnCertificate (certenroll.h)
-
 description: Associates a property value with an existing certificate.
 old-location: security\icertproperty_setvalueoncertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 46c409c4-46bd-4349-8363-1983f4411bc2
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],SetValueOnCertificate method, ICertProperty.SetValueOnCertificate, ICertProperty::SetValueOnCertificate, SetValueOnCertificate, SetValueOnCertificate method [Security], SetValueOnCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::SetValueOnCertificate, security.icertproperty_setvalueoncertificate_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertProperty.SetValueOnCertificate"
+f1_keywords:
+- certenroll/ICertProperty.SetValueOnCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperty.SetValueOnCertificate
+- ICertProperty.SetValueOnCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

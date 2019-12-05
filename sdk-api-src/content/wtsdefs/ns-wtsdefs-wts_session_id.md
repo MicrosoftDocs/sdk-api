@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs._WTS_SESSION_ID
 title: WTS_SESSION_ID (wtsdefs.h)
-
 description: Contains a GUID that uniquely identifies a session.
 old-location: termserv\wts_session_id.htm
 tech.root: TermServ
 ms.assetid: fe0714ec-c670-40b7-9808-2171abae79a8
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_SESSION_ID, PWRDS_SESSION_ID, PWRDS_SESSION_ID structure pointer [Remote Desktop Services], PWTS_SESSION_ID, PWTS_SESSION_ID structure pointer [Remote Desktop Services], WRDS_SESSION_ID, WRDS_SESSION_ID structure [Remote Desktop Services], WTS_SESSION_ID, WTS_SESSION_ID structure [Remote Desktop Services], termserv.wts_session_id, wtsdefs/PWRDS_SESSION_ID, wtsdefs/PWTS_SESSION_ID, wtsdefs/WRDS_SESSION_ID, wtsdefs/WTS_SESSION_ID"
+ms.keywords: '*PWTS_SESSION_ID, PWRDS_SESSION_ID, PWRDS_SESSION_ID structure pointer [Remote Desktop Services], PWTS_SESSION_ID, PWTS_SESSION_ID structure pointer [Remote Desktop Services], WRDS_SESSION_ID, WRDS_SESSION_ID structure [Remote Desktop Services], WTS_SESSION_ID, WTS_SESSION_ID structure [Remote Desktop Services], termserv.wts_session_id, wtsdefs/PWRDS_SESSION_ID, wtsdefs/PWTS_SESSION_ID, wtsdefs/WRDS_SESSION_ID, wtsdefs/WTS_SESSION_ID'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WTS_SESSION_ID"
+f1_keywords:
+- wtsdefs/WTS_SESSION_ID
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WTS_SESSION_ID
+- WTS_SESSION_ID
 targetos: Windows
 req.typenames: WTS_SESSION_ID, *PWTS_SESSION_ID
 req.redist: 

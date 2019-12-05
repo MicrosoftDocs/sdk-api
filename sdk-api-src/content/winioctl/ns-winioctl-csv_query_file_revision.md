@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._CSV_QUERY_FILE_REVISION
 title: CSV_QUERY_FILE_REVISION
-
 description: Contains information about whether files in a stream have been modified.
 old-location: fs\csv_query_file_revision.htm
 tech.root: FileIO
 ms.assetid: 8CF62F9F-9429-435A-B79D-3A97249356A5
-
 ms.date: 12/05/2018
 ms.keywords: '*PCSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION, CSV_QUERY_FILE_REVISION structure [Files], PCSV_QUERY_FILE_REVISION, PCSV_QUERY_FILE_REVISION structure pointer [Files], fs.csv_query_file_revision, winioctl/CSV_QUERY_FILE_REVISION, winioctl/PCSV_QUERY_FILE_REVISION'
 ms.topic: struct
 f1_keywords:
 - winioctl/CSV_QUERY_FILE_REVISION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

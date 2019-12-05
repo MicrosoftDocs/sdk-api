@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellView
 title: IShellView (shobjidl_core.h)
-
 description: Exposes methods that present a view in the Windows Explorer or folder windows.
 old-location: shell\IShellView.htm
 tech.root: shell
 ms.assetid: 91438583-e4f1-456f-a130-2a45846fd725
-
 ms.date: 12/05/2018
 ms.keywords: IShellView, IShellView interface [Windows Shell], IShellView interface [Windows Shell],described, _win32_IShellView, _win32_IShellView_cpp, shell.IShellView, shobjidl_core/IShellView
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellView"
+f1_keywords:
+- shobjidl_core/IShellView
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView
+- IShellView
 targetos: Windows
 req.typenames: 
 req.redist: 

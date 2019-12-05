@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterIncrement
 title: SHGlobalCounterIncrement function (shlwapi.h)
-
 description: Increments a global counter.
 old-location: shell\SHGlobalCounterIncrement.htm
 tech.root: shell
 ms.assetid: 088efa01-b070-4384-b17a-311aefb0737c
-
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterIncrement, SHGlobalCounterIncrement function [Windows Shell], _shell_SHGlobalCounterIncrement, shell.SHGlobalCounterIncrement, shlwapi/SHGlobalCounterIncrement
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHGlobalCounterIncrement"
+f1_keywords:
+- shlwapi/SHGlobalCounterIncrement
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHGlobalCounterIncrement
+- SHGlobalCounterIncrement
 targetos: Windows
 req.typenames: 
 req.redist: 

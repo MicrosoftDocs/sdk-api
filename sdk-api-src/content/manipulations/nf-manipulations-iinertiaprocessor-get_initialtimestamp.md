@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.get_InitialTimestamp
 title: IInertiaProcessor::get_InitialTimestamp (manipulations.h)
-
 description: The InitialTimestamp property specifies the starting time stamp for a target object with inertia.
 old-location: wintouch\iinertiaprocessor_initialtimestamp.htm
 tech.root: wintouch
 ms.assetid: 7ea7e00f-98f5-4928-9919-705ffa53b91b
-
 ms.date: 12/05/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialTimestamp property, IInertiaProcessor.InitialTimestamp, IInertiaProcessor.get_InitialTimestamp, IInertiaProcessor::InitialTimestamp, IInertiaProcessor::get_InitialTimestamp, IInertiaProcessor::put_InitialTimestamp, InitialTimestamp property [Windows Touch], InitialTimestamp property [Windows Touch],IInertiaProcessor interface, get_InitialTimestamp, manipulations/IInertiaProcessor::InitialTimestamp, manipulations/IInertiaProcessor::get_InitialTimestamp, manipulations/IInertiaProcessor::put_InitialTimestamp, wintouch.iinertiaprocessor_initialtimestamp
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.InitialTimestamp"
+f1_keywords:
+- manipulations/IInertiaProcessor.InitialTimestamp
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.InitialTimestamp
- - IInertiaProcessor.get_InitialTimestamp
- - IInertiaProcessor.put_InitialTimestamp
+- IInertiaProcessor.InitialTimestamp
+- IInertiaProcessor.get_InitialTimestamp
+- IInertiaProcessor.put_InitialTimestamp
 targetos: Windows
 req.typenames: 
 req.redist: 

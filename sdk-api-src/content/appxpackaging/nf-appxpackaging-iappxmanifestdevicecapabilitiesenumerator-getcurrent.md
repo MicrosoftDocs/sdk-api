@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent
 title: IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent (appxpackaging.h)
-
 description: Gets the device capability at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: B9686070-645E-4F8A-8A1A-3DB80AEF4FF5
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent, IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetCurrent, appxpkg.iappxmanifestdevicecapabilitiesenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent"
+f1_keywords:
+- appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent
+- IAppxManifestDeviceCapabilitiesEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:t2embapi.TTIsEmbeddingEnabledForFacename
 title: TTIsEmbeddingEnabledForFacename function (t2embapi.h)
-
 description: Determines whether embedding is enabled for a specified font.
 old-location: gdi\ttisembeddingenabledforfacename.htm
 tech.root: gdi
 ms.assetid: 1f494bb1-62c4-45c4-b1a5-df6842d94dcc
-
 ms.date: 12/05/2018
 ms.keywords: TTIsEmbeddingEnabledForFacename, TTIsEmbeddingEnabledForFacename function [Windows GDI], _win32_TTIsEmbeddingEnabledForFacename, gdi.ttisembeddingenabledforfacename, t2embapi/TTIsEmbeddingEnabledForFacename
 ms.topic: function
-f1_keywords: 
- - "t2embapi/TTIsEmbeddingEnabledForFacename"
+f1_keywords:
+- t2embapi/TTIsEmbeddingEnabledForFacename
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - T2embed.dll
+- T2embed.dll
 api_name:
- - TTIsEmbeddingEnabledForFacename
+- TTIsEmbeddingEnabledForFacename
 targetos: Windows
 req.typenames: 
 req.redist: 

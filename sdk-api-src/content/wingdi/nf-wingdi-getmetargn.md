@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetMetaRgn
 title: GetMetaRgn function (wingdi.h)
-
 description: The GetMetaRgn function retrieves the current metaregion for the specified device context.
 old-location: gdi\getmetargn.htm
 tech.root: gdi
 ms.assetid: 9c2741cf-30e4-4100-bae9-ad99a7ae37f1
-
 ms.date: 12/05/2018
 ms.keywords: GetMetaRgn, GetMetaRgn function [Windows GDI], _win32_GetMetaRgn, gdi.getmetargn, wingdi/GetMetaRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetMetaRgn"
+f1_keywords:
+- wingdi/GetMetaRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetMetaRgn
+- GetMetaRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

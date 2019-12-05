@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityTimeout
 title: IComActivityEvents::OnActivityTimeout (comsvcs.h)
-
 description: Generated when a call into an activity times out.
 old-location: cos\icomactivityevents_onactivitytimeout.htm
 tech.root: cossdk
 ms.assetid: f097bea7-99a4-41eb-9518-834683d9402b
-
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityTimeout method, IComActivityEvents.OnActivityTimeout, IComActivityEvents::OnActivityTimeout, OnActivityTimeout, OnActivityTimeout method [COM+], OnActivityTimeout method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityTimeout, comsvcs/IComActivityEvents::OnActivityTimeout, cos.icomactivityevents_onactivitytimeout
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComActivityEvents.OnActivityTimeout"
+f1_keywords:
+- comsvcs/IComActivityEvents.OnActivityTimeout
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComActivityEvents.OnActivityTimeout
+- IComActivityEvents.OnActivityTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

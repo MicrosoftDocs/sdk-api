@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXT_FUNCTION_PROVIDERS
 title: CRYPT_CONTEXT_FUNCTION_PROVIDERS (bcrypt.h)
-
 description: Contains a set of cryptographic function providers for a CNG configuration context.
 old-location: security\crypt_context_function_providers.htm
 tech.root: SecCNG
 ms.assetid: 5e175ac2-38eb-44c4-a01a-fb436e833546
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS structure [Security], PCRYPT_CONTEXT_FUNCTION_PROVIDERS, PCRYPT_CONTEXT_FUNCTION_PROVIDERS structure pointer [Security], bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/PCRYPT_CONTEXT_FUNCTION_PROVIDERS, security.crypt_context_function_providers"
+ms.keywords: '*PCRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS, CRYPT_CONTEXT_FUNCTION_PROVIDERS structure [Security], PCRYPT_CONTEXT_FUNCTION_PROVIDERS, PCRYPT_CONTEXT_FUNCTION_PROVIDERS structure pointer [Security], bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS, bcrypt/PCRYPT_CONTEXT_FUNCTION_PROVIDERS, security.crypt_context_function_providers'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS"
+f1_keywords:
+- bcrypt/CRYPT_CONTEXT_FUNCTION_PROVIDERS
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_CONTEXT_FUNCTION_PROVIDERS
+- CRYPT_CONTEXT_FUNCTION_PROVIDERS
 targetos: Windows
 req.typenames: CRYPT_CONTEXT_FUNCTION_PROVIDERS, *PCRYPT_CONTEXT_FUNCTION_PROVIDERS
 req.redist: 

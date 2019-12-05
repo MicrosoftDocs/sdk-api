@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.GetDeviceRegistrationInfo
 title: GetDeviceRegistrationInfo function (mdmregistration.h)
-
 description: Retrieves the device registration information.
 old-location: mdmreg\getdeviceregistrationinfo.htm
 tech.root: MDMReg
 ms.assetid: 7FA2F81C-6714-42D8-880E-FD5A27A0F80A
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceRegistrationInfo, GetDeviceRegistrationInfo function [MDM Registration], mdmreg.getdeviceregistrationinfo, mdmregistration/GetDeviceRegistrationInfo
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/GetDeviceRegistrationInfo"
+f1_keywords:
+- mdmregistration/GetDeviceRegistrationInfo
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - GetDeviceRegistrationInfo
+- GetDeviceRegistrationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

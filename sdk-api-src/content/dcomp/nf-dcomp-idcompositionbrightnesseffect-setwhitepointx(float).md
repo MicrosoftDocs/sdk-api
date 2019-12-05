@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointX(float)
 title: IDCompositionBrightnessEffect::SetWhitePointX(float) (dcomp.h)
-
 description: Sets the x value of the white point.
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointx.htm
 tech.root: directcomp
 ms.assetid: 323885D9-3974-4876-9FD7-22F066026AF4
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionBrightnessEffect interface [DirectComposition],SetWhitePointX method, IDCompositionBrightnessEffect.SetWhitePointX, IDCompositionBrightnessEffect.SetWhitePointX(float), IDCompositionBrightnessEffect::SetWhitePointX, IDCompositionBrightnessEffect::SetWhitePointX(float), SetWhitePointX, SetWhitePointX method [DirectComposition], SetWhitePointX method [DirectComposition],IDCompositionBrightnessEffect interface, dcomp/IDCompositionBrightnessEffect::SetWhitePointX, directcomp.idcompositionbrightnesseffect_setwhitepointx
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionBrightnessEffect.SetWhitePointX"
+f1_keywords:
+- dcomp/IDCompositionBrightnessEffect.SetWhitePointX
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionBrightnessEffect.SetWhitePointX
+- IDCompositionBrightnessEffect.SetWhitePointX
 targetos: Windows
 req.typenames: 
 req.redist: 

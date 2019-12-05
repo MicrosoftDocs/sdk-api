@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseVarDesc
 title: ITypeInfo::ReleaseVarDesc (oaidl.h)
-
 description: Releases a VARDESC previously returned by ITypeInfo::GetVarDesc.
 old-location: automat\itypeinfo_releasevardesc.htm
 tech.root: automat
 ms.assetid: a0f734d8-9b14-474a-b701-df8ba7641501
-
 ms.date: 12/05/2018
 ms.keywords: ITypeInfo interface [Automation],ReleaseVarDesc method, ITypeInfo.ReleaseVarDesc, ITypeInfo::ReleaseVarDesc, ReleaseVarDesc, ReleaseVarDesc method [Automation], ReleaseVarDesc method [Automation],ITypeInfo interface, _oa96_ITypeInfo_ReleaseVarDesc, automat.itypeinfo_releasevardesc, oaidl/ITypeInfo::ReleaseVarDesc
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.ReleaseVarDesc"
+f1_keywords:
+- oaidl/ITypeInfo.ReleaseVarDesc
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.ReleaseVarDesc
+- ITypeInfo.ReleaseVarDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

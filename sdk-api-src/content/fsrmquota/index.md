@@ -1,7 +1,6 @@
 ---
 UID: NA:fsrmquota
 ms.assetid: fa9f439b-7f83-38c2-8b1b-2ec43f759bc1
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

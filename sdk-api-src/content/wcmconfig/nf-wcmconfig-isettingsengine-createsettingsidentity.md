@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsIdentity
 title: ISettingsEngine::CreateSettingsIdentity (wcmconfig.h)
-
 description: Creates an empty settings identity.
 old-location: smi\isettingsengine_createsettingsidentity.htm
 tech.root: SMI
 ms.assetid: b48e6784-5565-4809-873e-cadedce57743
-
 ms.date: 12/05/2018
 ms.keywords: CreateSettingsIdentity, CreateSettingsIdentity method [SMI], CreateSettingsIdentity method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateSettingsIdentity method, ISettingsEngine.CreateSettingsIdentity, ISettingsEngine::CreateSettingsIdentity, smi.isettingsengine_createsettingsidentity, wcmconfig/ISettingsEngine::CreateSettingsIdentity
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.CreateSettingsIdentity"
+f1_keywords:
+- wcmconfig/ISettingsEngine.CreateSettingsIdentity
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.CreateSettingsIdentity
+- ISettingsEngine.CreateSettingsIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

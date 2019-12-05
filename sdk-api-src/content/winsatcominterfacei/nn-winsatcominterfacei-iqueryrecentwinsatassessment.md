@@ -1,19 +1,17 @@
 ---
 UID: NN:winsatcominterfacei.IQueryRecentWinSATAssessment
 title: IQueryRecentWinSATAssessment (winsatcominterfacei.h)
-
 description: Retrieves details about the results of the most recent formal WinSAT assessment.
 old-location: winsat\iqueryrecentwinsatassessment.htm
 tech.root: WinSAT
 ms.assetid: 6849d8b6-d192-4520-a737-39e22e14a70f
-
 ms.date: 12/05/2018
 ms.keywords: IQueryRecentWinSATAssessment, IQueryRecentWinSATAssessment interface [WinSAT], IQueryRecentWinSATAssessment interface [WinSAT],described, winsat.iqueryrecentwinsatassessment, winsatcominterfacei/IQueryRecentWinSATAssessment
 ms.topic: interface
-f1_keywords: 
- - "winsatcominterfacei/IQueryRecentWinSATAssessment"
+f1_keywords:
+- winsatcominterfacei/IQueryRecentWinSATAssessment
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IQueryRecentWinSATAssessment
+- IQueryRecentWinSATAssessment
 targetos: Windows
 req.typenames: 
 req.redist: 

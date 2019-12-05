@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityReenter
 title: IComActivityEvents::OnActivityReenter (comsvcs.h)
-
 description: Generated when an activity thread is reentered recursively.
 old-location: cos\icomactivityevents_onactivityreenter.htm
 tech.root: cossdk
 ms.assetid: e055caab-379c-47c5-b62a-28ce5c2a0573
-
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityReenter method, IComActivityEvents.OnActivityReenter, IComActivityEvents::OnActivityReenter, OnActivityReenter, OnActivityReenter method [COM+], OnActivityReenter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityReenter, comsvcs/IComActivityEvents::OnActivityReenter, cos.icomactivityevents_onactivityreenter
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComActivityEvents.OnActivityReenter"
+f1_keywords:
+- comsvcs/IComActivityEvents.OnActivityReenter
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComActivityEvents.OnActivityReenter
+- IComActivityEvents.OnActivityReenter
 targetos: Windows
 req.typenames: 
 req.redist: 

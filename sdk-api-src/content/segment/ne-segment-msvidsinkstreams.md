@@ -1,19 +1,17 @@
 ---
 UID: NE:segment.MSVidSinkStreams
 title: MSVidSinkStreams (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\msvidsinkstreams.htm
 tech.root: mstv
 ms.assetid: 11738d9f-25b1-4903-94a4-145202a81380
-
 ms.date: 12/05/2018
 ms.keywords: Audio, MSVidSinkStreams, MSVidSinkStreams enumeration [Microsoft TV Technologies], MSVidSinkStreamsEnumeration, Other, Video, mstv.msvidsinkstreams, segment/Audio, segment/MSVidSinkStreams, segment/Other, segment/Video
 ms.topic: enum
-f1_keywords: 
- - "segment/MSVidSinkStreams"
+f1_keywords:
+- segment/MSVidSinkStreams
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - segment.h
+- segment.h
 api_name:
- - MSVidSinkStreams
+- MSVidSinkStreams
 targetos: Windows
 req.typenames: MSVidSinkStreams
 req.redist: 

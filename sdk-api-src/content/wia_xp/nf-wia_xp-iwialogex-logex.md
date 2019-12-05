@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaLogEx.LogEx
 title: IWiaLogEx::LogEx (wia_xp.h)
-
 description: This method is not supported.
 old-location: wia\_wia_IWiaLogEx_LogEx.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\logex.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaLogEx interface [WIA],LogEx method, IWiaLogEx.LogEx, IWiaLogEx::LogEx, LogEx, LogEx method [WIA], LogEx method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_LogEx, wia._wia_IWiaLogEx_LogEx, wia_xp/IWiaLogEx::LogEx
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaLogEx.LogEx"
+f1_keywords:
+- wia_xp/IWiaLogEx.LogEx
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaLogEx.LogEx
+- IWiaLogEx.LogEx
 targetos: Windows
 req.typenames: 
 req.redist: 

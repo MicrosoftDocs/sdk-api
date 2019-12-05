@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.GetServiceObjectID
 title: IPortableDeviceService::GetServiceObjectID (portabledeviceapi.h)
-
 description: Retrieves an object identifier for the service. This object identifier can be used to access the properties of the service, for example.
 old-location: wpdsdk\iportabledeviceservice_getserviceobjectid.htm
 tech.root: wpd_sdk
 ms.assetid: f86907c4-5d8a-4659-ab57-3c235face8cf
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceObjectID, GetServiceObjectID method [Windows Portable Devices SDK], GetServiceObjectID method [Windows Portable Devices SDK],IPortableDeviceService interface, IPortableDeviceService interface [Windows Portable Devices SDK],GetServiceObjectID method, IPortableDeviceService.GetServiceObjectID, IPortableDeviceService::GetServiceObjectID, portabledeviceapi/IPortableDeviceService::GetServiceObjectID, wpdsdk.iportabledeviceservice_getserviceobjectid
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceService.GetServiceObjectID"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceService.GetServiceObjectID
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.GetServiceObjectID
+- IPortableDeviceService.GetServiceObjectID
 targetos: Windows
 req.typenames: 
 req.redist: 

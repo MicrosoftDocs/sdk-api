@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.SetStartStopPosition
 title: IMFPMediaItem::SetStartStopPosition (mfplay.h)
-
 description: Sets the start and stop time for the media item.
 old-location: mf\imfpmediaitem_setstartstopposition.htm
 tech.root: medfound
 ms.assetid: 8f0409a6-1911-47ee-ac65-68b87d6b1db5
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaItem interface [Media Foundation],SetStartStopPosition method, IMFPMediaItem.SetStartStopPosition, IMFPMediaItem::SetStartStopPosition, SetStartStopPosition, SetStartStopPosition method [Media Foundation], SetStartStopPosition method [Media Foundation],IMFPMediaItem interface, mf.imfpmediaitem_setstartstopposition, mfplay/IMFPMediaItem::SetStartStopPosition
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.SetStartStopPosition"
+f1_keywords:
+- mfplay/IMFPMediaItem.SetStartStopPosition
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.SetStartStopPosition
+- IMFPMediaItem.SetStartStopPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

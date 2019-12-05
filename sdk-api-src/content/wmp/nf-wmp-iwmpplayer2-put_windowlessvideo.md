@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer2.put_windowlessVideo
 title: IWMPPlayer2::put_windowlessVideo (wmp.h)
-
 description: The put_windowlessVideo method specifies a value indicating whether the Windows Media Player control renders video in windowless mode.
 old-location: wmp\iwmpplayer2_put_windowlessvideo.htm
 tech.root: WMP
 ms.assetid: 736eaf52-29bd-4223-a62d-d3d75cef1863
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer2 interface [Windows Media Player],put_windowlessVideo method, IWMPPlayer2.put_windowlessVideo, IWMPPlayer2::put_windowlessVideo, IWMPPlayer2put_windowlessVideo, put_windowlessVideo, put_windowlessVideo method [Windows Media Player], put_windowlessVideo method [Windows Media Player],IWMPPlayer2 interface, wmp.iwmpplayer2_put_windowlessvideo, wmp/IWMPPlayer2::put_windowlessVideo
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer2.put_windowlessVideo"
+f1_keywords:
+- wmp/IWMPPlayer2.put_windowlessVideo
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer2.put_windowlessVideo
+- IWMPPlayer2.put_windowlessVideo
 targetos: Windows
 req.typenames: 
 req.redist: 

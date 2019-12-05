@@ -5,10 +5,10 @@ description: Used to cancel a running DNS-SD resolve query.
 ms.date: 02/14/2019
 ms.keywords: DnsServiceResolveCancel
 ms.topic: language-reference
-f1_keywords: 
- - "windns/DnsServiceResolveCancel"
+f1_keywords:
+- windns/DnsServiceResolveCancel
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - windns.h
+- windns.h
 api_name:
- - DnsServiceResolveCancel
+- DnsServiceResolveCancel
 ms.custom: 19H1
 ---
 

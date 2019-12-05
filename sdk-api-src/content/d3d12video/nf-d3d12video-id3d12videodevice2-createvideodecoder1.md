@@ -5,9 +5,9 @@ ms.date: 8/19/2019
 ms.keywords: ID3D12VideoDevice2::CreateVideoDecoder1
 ms.topic: language-reference
 f1_keywords:
- - ID3D12VideoDevice2::CreateVideoDecoder1
+- ID3D12VideoDevice2::CreateVideoDecoder1
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12video.h
+- d3d12video.h
 api_name:
- - ID3D12VideoDevice2::CreateVideoDecoder1
+- ID3D12VideoDevice2::CreateVideoDecoder1
 ---
 
 ## -description

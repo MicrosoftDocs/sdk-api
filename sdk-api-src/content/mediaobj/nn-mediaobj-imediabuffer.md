@@ -1,19 +1,17 @@
 ---
 UID: NN:mediaobj.IMediaBuffer
 title: IMediaBuffer (mediaobj.h)
-
 description: The IMediaBuffer interface provides methods for manipulating a data buffer. Buffers passed to the IMediaObject::ProcessInput and ProcessOutput methods must implement this interface.
 old-location: dshow\imediabuffer.htm
 tech.root: DirectShow
 ms.assetid: 74d72ca6-f899-43fc-bdea-5208d920f314
-
 ms.date: 12/05/2018
 ms.keywords: IMediaBuffer, IMediaBuffer interface [DirectShow], IMediaBuffer interface [DirectShow],described, IMediaBufferInterface, dshow.imediabuffer, mediaobj/IMediaBuffer
 ms.topic: interface
-f1_keywords: 
- - "mediaobj/IMediaBuffer"
+f1_keywords:
+- mediaobj/IMediaBuffer
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IMediaBuffer
+- IMediaBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

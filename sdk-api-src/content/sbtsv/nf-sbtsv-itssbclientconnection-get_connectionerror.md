@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_ConnectionError
 title: ITsSbClientConnection::get_ConnectionError (sbtsv.h)
-
 description: Retrieves a value that indicates the error that occurred while a client connection was being processed.
 old-location: termserv\itssbclientconnection_connectionerror.htm
 tech.root: TermServ
 ms.assetid: 0aa813c1-1ab5-4020-8180-c04d293efd25
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionError property [Remote Desktop Services], ConnectionError property [Remote Desktop Services],ITsSbClientConnection interface, ITsSbClientConnection interface [Remote Desktop Services],ConnectionError property, ITsSbClientConnection.ConnectionError, ITsSbClientConnection.get_ConnectionError, ITsSbClientConnection::ConnectionError, ITsSbClientConnection::get_ConnectionError, get_ConnectionError, sbtsv/ITsSbClientConnection::ConnectionError, sbtsv/ITsSbClientConnection::get_ConnectionError, termserv.itssbclientconnection_connectionerror
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbClientConnection.ConnectionError"
+f1_keywords:
+- sbtsv/ITsSbClientConnection.ConnectionError
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: Dbnetlib.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbClientConnection.ConnectionError
- - ITsSbClientConnection.get_ConnectionError
+- ITsSbClientConnection.ConnectionError
+- ITsSbClientConnection.get_ConnectionError
 targetos: Windows
 req.typenames: 
 req.redist: 

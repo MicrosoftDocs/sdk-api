@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.PutTuningSpace
 title: IBDA_NetworkProvider::PutTuningSpace (bdaiface.h)
-
 description: The PutTuningSpace method specifies the tuning space.
 old-location: mstv\ibda_networkprovider_puttuningspace.htm
 tech.root: mstv
 ms.assetid: 4541a675-875b-4a6c-8251-e13abdd46b38
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_NetworkProvider interface [Microsoft TV Technologies],PutTuningSpace method, IBDA_NetworkProvider.PutTuningSpace, IBDA_NetworkProvider::PutTuningSpace, IBDA_NetworkProviderPutTuningSpace, PutTuningSpace, PutTuningSpace method [Microsoft TV Technologies], PutTuningSpace method [Microsoft TV Technologies],IBDA_NetworkProvider interface, bdaiface/IBDA_NetworkProvider::PutTuningSpace, mstv.ibda_networkprovider_puttuningspace
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_NetworkProvider.PutTuningSpace"
+f1_keywords:
+- bdaiface/IBDA_NetworkProvider.PutTuningSpace
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_NetworkProvider.PutTuningSpace
+- IBDA_NetworkProvider.PutTuningSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

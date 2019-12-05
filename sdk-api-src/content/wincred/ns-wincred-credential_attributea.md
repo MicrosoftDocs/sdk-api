@@ -1,19 +1,17 @@
 ---
 UID: NS:wincred._CREDENTIAL_ATTRIBUTEA
 title: CREDENTIAL_ATTRIBUTEA (wincred.h)
-
 description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
 old-location: security\credential_attribute.htm
 tech.root: SecAuthN
 ms.assetid: eb46766c-5f05-4e4a-9550-173347f156d9
-
 ms.date: 12/05/2018
-ms.keywords: "*PCREDENTIAL_ATTRIBUTEA, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUTE structure [Security], CREDENTIAL_ATTRIBUTEA, PCREDENTIAL_ATTRIBUTE, PCREDENTIAL_ATTRIBUTE structure pointer [Security], _cred_credential_attribute, security.credential_attribute, wincred/CREDENTIAL_ATTRIBUTE, wincred/PCREDENTIAL_ATTRIBUTE"
+ms.keywords: '*PCREDENTIAL_ATTRIBUTEA, CREDENTIAL_ATTRIBUTE, CREDENTIAL_ATTRIBUTE structure [Security], CREDENTIAL_ATTRIBUTEA, PCREDENTIAL_ATTRIBUTE, PCREDENTIAL_ATTRIBUTE structure pointer [Security], _cred_credential_attribute, security.credential_attribute, wincred/CREDENTIAL_ATTRIBUTE, wincred/PCREDENTIAL_ATTRIBUTE'
 ms.topic: struct
-f1_keywords: 
- - "wincred/CREDENTIAL_ATTRIBUTE"
+f1_keywords:
+- wincred/CREDENTIAL_ATTRIBUTE
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinCred.h
+- WinCred.h
 api_name:
- - CREDENTIAL_ATTRIBUTE
+- CREDENTIAL_ATTRIBUTE
 targetos: Windows
 req.typenames: CREDENTIAL_ATTRIBUTEA, *PCREDENTIAL_ATTRIBUTEA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetInformationalStrings
 title: IDWriteFont::GetInformationalStrings (dwrite.h)
-
 description: Gets a localized strings collection containing the specified informational strings, indexed by locale name.
 old-location: directwrite\IDWriteFont_GetInformationalStrings.htm
 tech.root: DirectWrite
 ms.assetid: a23fec10-4027-45eb-9c29-01df385b24e7
-
 ms.date: 12/05/2018
 ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetInformationalStrings method, IDWriteFont.GetInformationalStrings, IDWriteFont::GetInformationalStrings, directwrite.IDWriteFont_GetInformationalStrings, dwrite/IDWriteFont::GetInformationalStrings
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFont.GetInformationalStrings"
+f1_keywords:
+- dwrite/IDWriteFont.GetInformationalStrings
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFont.GetInformationalStrings
+- IDWriteFont.GetInformationalStrings
 targetos: Windows
 req.typenames: 
 req.redist: 

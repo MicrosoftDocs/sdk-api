@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITStream.StopStream
 title: ITStream::StopStream (tapi3if.h)
-
 description: The StopStream method stops the stream.
 old-location: tapi3\itstream_stopstream.htm
 tech.root: Tapi
 ms.assetid: 6014e76e-ce2c-4ab8-b6f2-c09fc2acf315
-
 ms.date: 12/05/2018
 ms.keywords: ITStream interface [TAPI 2.2],StopStream method, ITStream.StopStream, ITStream::StopStream, StopStream, StopStream method [TAPI 2.2], StopStream method [TAPI 2.2],ITStream interface, _tapi3_itstream_stopstream, tapi3.itstream_stopstream, tapi3if/ITStream::StopStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITStream.StopStream"
+f1_keywords:
+- tapi3if/ITStream.StopStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITStream.StopStream
+- ITStream.StopStream
 targetos: Windows
 req.typenames: 
 req.redist: 

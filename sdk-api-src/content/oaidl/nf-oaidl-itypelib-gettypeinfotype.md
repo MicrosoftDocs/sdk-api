@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoType
 title: ITypeLib::GetTypeInfoType (oaidl.h)
-
 description: Retrieves the type of a type description.
 old-location: automat\itypelib_gettypeinfotype.htm
 tech.root: automat
 ms.assetid: 2e0924ee-41f1-4f0a-a491-40b92bd0711e
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfoType, GetTypeInfoType method [Automation], GetTypeInfoType method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoType method, ITypeLib.GetTypeInfoType, ITypeLib::GetTypeInfoType, _oa96_ITypeLib_GetTypeInfoType, automat.itypelib_gettypeinfotype, oaidl/ITypeLib::GetTypeInfoType
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeLib.GetTypeInfoType"
+f1_keywords:
+- oaidl/ITypeLib.GetTypeInfoType
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib.GetTypeInfoType
+- ITypeLib.GetTypeInfoType
 targetos: Windows
 req.typenames: 
 req.redist: 

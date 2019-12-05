@@ -1,19 +1,17 @@
 ---
 UID: NS:wabdefs._SSortOrderSet
 title: SSortOrderSet (wabdefs.h)
-
 description: Do not use. Defines a collection of keys for a table to be used for standard or categorized sorting.
 old-location: wab\_wab_SSortOrderSet.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\ssortorderset.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPSSortOrderSet, LPSSortOrderSet, LPSSortOrderSet structure pointer [Windows Address Book], SSortOrderSet, SSortOrderSet structure [Windows Address Book], _wab_SSortOrderSet, wab._wab_SSortOrderSet, wabdefs/LPSSortOrderSet, wabdefs/SSortOrderSet'
 ms.topic: struct
 f1_keywords:
 - wabdefs/SSortOrderSet
 dev_langs:
- - c++
+- c++
 req.header: wabdefs.h
 req.include-header: 
 req.target-type: Windows

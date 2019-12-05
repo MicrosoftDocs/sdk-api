@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetOEMCP
 title: GetOEMCP function (winnls.h)
-
 description: Returns the current original equipment manufacturer (OEM) code page identifier for the operating system.
 old-location: intl\getoemcp.htm
 tech.root: Intl
 ms.assetid: e6d42641-4bbe-44d8-baea-1087e48dae7d
-
 ms.date: 12/05/2018
 ms.keywords: GetOEMCP, GetOEMCP function [Internationalization for Windows Applications], _win32_GetOEMCP, intl.getoemcp, winnls/GetOEMCP
 ms.topic: function
-f1_keywords: 
- - "winnls/GetOEMCP"
+f1_keywords:
+- winnls/GetOEMCP
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - GetOEMCP
+- GetOEMCP
 targetos: Windows
 req.typenames: 
 req.redist: 

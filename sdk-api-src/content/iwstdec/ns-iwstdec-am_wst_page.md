@@ -1,19 +1,17 @@
 ---
 UID: NS:iwstdec._AM_WST_PAGE
 title: AM_WST_PAGE (iwstdec.h)
-
 description: The AM_WST_PAGE structure identifies a World Standard Teletext (WST) page.
 old-location: dshow\am_wst_page.htm
 tech.root: DirectShow
 ms.assetid: 6bed254f-35e4-40d0-9a59-0a2575aa61e1
-
 ms.date: 12/05/2018
-ms.keywords: "*PAM_WST_PAGE, AM_WST_PAGE, AM_WST_PAGE structure [DirectShow], AM_WST_PAGEStructure, PAM_WST_PAGE, PAM_WST_PAGE structure pointer [DirectShow], dshow.am_wst_page, iwstdec/AM_WST_PAGE, iwstdec/PAM_WST_PAGE"
+ms.keywords: '*PAM_WST_PAGE, AM_WST_PAGE, AM_WST_PAGE structure [DirectShow], AM_WST_PAGEStructure, PAM_WST_PAGE, PAM_WST_PAGE structure pointer [DirectShow], dshow.am_wst_page, iwstdec/AM_WST_PAGE, iwstdec/PAM_WST_PAGE'
 ms.topic: struct
-f1_keywords: 
- - "iwstdec/AM_WST_PAGE"
+f1_keywords:
+- iwstdec/AM_WST_PAGE
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iwstdec.h
+- iwstdec.h
 api_name:
- - AM_WST_PAGE
+- AM_WST_PAGE
 targetos: Windows
 req.typenames: AM_WST_PAGE, *PAM_WST_PAGE
 req.redist: 

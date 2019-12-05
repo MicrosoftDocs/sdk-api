@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsServiceHba
 title: IVdsServiceHba (vds.h)
-
 description: Provides a method to query HBA ports on the local system.
 old-location: base\ivdsservicehba.htm
 tech.root: VDS
 ms.assetid: 0f3375fa-fc17-4808-ac29-a772a9c13850
-
 ms.date: 12/05/2018
 ms.keywords: IVdsServiceHba, IVdsServiceHba interface [VDS], IVdsServiceHba interface [VDS],described, base.ivdsservicehba, vds/IVdsServiceHba
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsServiceHba"
+f1_keywords:
+- vds/IVdsServiceHba
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsServiceHba
+- IVdsServiceHba
 targetos: Windows
 req.typenames: 
 req.redist: 

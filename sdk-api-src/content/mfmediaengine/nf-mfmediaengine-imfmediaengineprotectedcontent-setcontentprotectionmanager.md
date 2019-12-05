@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.SetContentProtectionManager
 title: IMFMediaEngineProtectedContent::SetContentProtectionManager (mfmediaengine.h)
-
 description: Sets the content protection manager (CPM).
 old-location: mf\imfmediaengineprotectedcontent_setcontentprotectionmanager.htm
 tech.root: medfound
 ms.assetid: 8F150CB5-43AB-4709-A254-636440113642
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineProtectedContent interface [Media Foundation],SetContentProtectionManager method, IMFMediaEngineProtectedContent.SetContentProtectionManager, IMFMediaEngineProtectedContent::SetContentProtectionManager, SetContentProtectionManager, SetContentProtectionManager method [Media Foundation], SetContentProtectionManager method [Media Foundation],IMFMediaEngineProtectedContent interface, mf.imfmediaengineprotectedcontent_setcontentprotectionmanager, mfmediaengine/IMFMediaEngineProtectedContent::SetContentProtectionManager
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineProtectedContent.SetContentProtectionManager"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineProtectedContent.SetContentProtectionManager
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent.SetContentProtectionManager
+- IMFMediaEngineProtectedContent.SetContentProtectionManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UninstallationNotes
 title: IUpdateHistoryEntry::get_UninstallationNotes (wuapi.h)
-
 description: Gets the uninstallation notes of an update.
 old-location: wua\iupdatehistoryentry_uninstallationnotes.htm
 tech.root: Wua_Sdk
 ms.assetid: 735393fc-da9e-46a9-abf2-0e2e31c24fb2
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntry interface [Windows Update Agent],UninstallationNotes property, IUpdateHistoryEntry.UninstallationNotes, IUpdateHistoryEntry.get_UninstallationNotes, IUpdateHistoryEntry::UninstallationNotes, IUpdateHistoryEntry::get_UninstallationNotes, UninstallationNotes property [Windows Update Agent], UninstallationNotes property [Windows Update Agent],IUpdateHistoryEntry interface, get_UninstallationNotes, wua.iupdatehistoryentry_uninstallationnotes, wuapi/IUpdateHistoryEntry::UninstallationNotes, wuapi/IUpdateHistoryEntry::get_UninstallationNotes
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntry.UninstallationNotes"
+f1_keywords:
+- wuapi/IUpdateHistoryEntry.UninstallationNotes
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntry.UninstallationNotes
- - IUpdateHistoryEntry.get_UninstallationNotes
+- IUpdateHistoryEntry.UninstallationNotes
+- IUpdateHistoryEntry.get_UninstallationNotes
 targetos: Windows
 req.typenames: 
 req.redist: 

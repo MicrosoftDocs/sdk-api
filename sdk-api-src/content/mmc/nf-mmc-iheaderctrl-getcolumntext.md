@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IHeaderCtrl.GetColumnText
 title: IHeaderCtrl::GetColumnText (mmc.h)
-
 description: Retrieves text from a specified column.
 old-location: mmc\iheaderctrl_getcolumntext.htm
 tech.root: mmc
 ms.assetid: 854FC5F0-8049-4A98-948F-F1BF78788B88
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnText, GetColumnText method [MMC], GetColumnText method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnText method, IHeaderCtrl.GetColumnText, IHeaderCtrl::GetColumnText, mmc.iheaderctrl_getcolumntext, mmc/IHeaderCtrl::GetColumnText
 ms.topic: method
-f1_keywords: 
- - "mmc/IHeaderCtrl.GetColumnText"
+f1_keywords:
+- mmc/IHeaderCtrl.GetColumnText
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl.GetColumnText
+- IHeaderCtrl.GetColumnText
 targetos: Windows
 req.typenames: 
 req.redist: 

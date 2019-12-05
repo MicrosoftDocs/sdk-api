@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.CreateGPOLink
 title: IGPMSOM::CreateGPOLink (gpmgmt.h)
-
 description: Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM.
 old-location: gpmc\igpmsom_creategpolink.htm
 tech.root: gpmc
 ms.assetid: 2f3d8234-617f-4ce4-846a-476c28251989
-
 ms.date: 12/05/2018
 ms.keywords: CreateGPOLink, CreateGPOLink method [GPMC], CreateGPOLink method [GPMC],GPMSOM class, CreateGPOLink method [GPMC],IGPMSOM interface, GPMSOM class [GPMC],CreateGPOLink method, IGPMSOM interface [GPMC],CreateGPOLink method, IGPMSOM.CreateGPOLink, IGPMSOM::CreateGPOLink, _win32_igpmsom_creategpolink, gpmc.igpmsom_creategpolink, gpmgmt/IGPMSOM::CreateGPOLink
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSOM.CreateGPOLink"
+f1_keywords:
+- gpmgmt/IGPMSOM.CreateGPOLink
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSOM.CreateGPOLink
- - GPMSOM.CreateGPOLink
+- IGPMSOM.CreateGPOLink
+- GPMSOM.CreateGPOLink
 targetos: Windows
 req.typenames: 
 req.redist: 

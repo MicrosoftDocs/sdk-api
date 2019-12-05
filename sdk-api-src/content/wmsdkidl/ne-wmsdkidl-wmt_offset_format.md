@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.tagWMT_OFFSET_FORMAT
 title: WMT_OFFSET_FORMAT (wmsdkidl.h)
-
 description: The WMT_OFFSET_FORMAT enumeration type defines the types of offsets used in this SDK.
 old-location: wmformat\wmt_offset_format.htm
 tech.root: wmformat
 ms.assetid: b4119098-0407-462b-8550-46f8c1312fe0
-
 ms.date: 12/05/2018
 ms.keywords: WMT_OFFSET_FORMAT, WMT_OFFSET_FORMAT enumeration [windows Media Format], WMT_OFFSET_FORMAT_100NS, WMT_OFFSET_FORMAT_100NS_APPROXIMATE, WMT_OFFSET_FORMAT_FRAME_NUMBERS, WMT_OFFSET_FORMAT_PLAYLIST_OFFSET, WMT_OFFSET_FORMAT_TIMECODE, wmformat.wmt_offset_format, wmsdkidl/WMT_OFFSET_FORMAT, wmsdkidl/WMT_OFFSET_FORMAT_100NS, wmsdkidl/WMT_OFFSET_FORMAT_100NS_APPROXIMATE, wmsdkidl/WMT_OFFSET_FORMAT_FRAME_NUMBERS, wmsdkidl/WMT_OFFSET_FORMAT_PLAYLIST_OFFSET, wmsdkidl/WMT_OFFSET_FORMAT_TIMECODE
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_OFFSET_FORMAT"
+f1_keywords:
+- wmsdkidl/WMT_OFFSET_FORMAT
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_OFFSET_FORMAT
+- WMT_OFFSET_FORMAT
 targetos: Windows
 req.typenames: WMT_OFFSET_FORMAT
 req.redist: 

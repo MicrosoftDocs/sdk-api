@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.ITask.GetMaxRunTime
 title: ITask::GetMaxRunTime (mstask.h)
-
 description: This method retrieves the maximum length of time, in milliseconds, the task can run before terminating.
 old-location: taskschd\itask_getmaxruntime.htm
 tech.root: taskschd
 ms.assetid: a9f27929-d304-4696-bb36-0c0a34c71388
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxRunTime, GetMaxRunTime method [Task Scheduler], GetMaxRunTime method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetMaxRunTime method, ITask.GetMaxRunTime, ITask::GetMaxRunTime, _msb_itask_getmaxruntime, mstask/ITask::GetMaxRunTime, taskschd.itask_getmaxruntime
 ms.topic: method
-f1_keywords: 
- - "mstask/ITask.GetMaxRunTime"
+f1_keywords:
+- mstask/ITask.GetMaxRunTime
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - ITask.GetMaxRunTime
+- ITask.GetMaxRunTime
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

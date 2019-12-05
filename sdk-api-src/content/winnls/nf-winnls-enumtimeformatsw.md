@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.EnumTimeFormatsW
 title: EnumTimeFormatsW function (winnls.h)
-
 description: Enumerates the time formats that are available for a locale specified by identifier.Note  For interoperability reasons, the application should prefer the EnumTimeFormatsEx function to EnumTimeFormats because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that runs only on Windows Vista and later should use EnumTimeFormatsEx.
 old-location: intl\enumtimeformats.htm
 tech.root: Intl
 ms.assetid: ad0fe26f-b915-4903-9335-4b268a889c80
-
 ms.date: 12/05/2018
 ms.keywords: 0, EnumTimeFormats, EnumTimeFormats function [Internationalization for Windows Applications], EnumTimeFormatsA, EnumTimeFormatsW, LOCAL_USE_CP_ACP, TIME_NOSECONDS, _win32_EnumTimeFormats, intl.enumtimeformats, winnls/EnumTimeFormats, winnls/EnumTimeFormatsA, winnls/EnumTimeFormatsW
 ms.topic: function
-f1_keywords: 
- - "winnls/EnumTimeFormats"
+f1_keywords:
+- winnls/EnumTimeFormats
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l2-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
- - Kernel32Legacy.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l2-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
+- Kernel32Legacy.dll
 api_name:
- - EnumTimeFormats
- - EnumTimeFormatsA
- - EnumTimeFormatsW
+- EnumTimeFormats
+- EnumTimeFormatsA
+- EnumTimeFormatsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MAKELPARAM
 title: MAKELPARAM macro (winuser.h)
-
 description: Creates a value for use as an lParam parameter in a message. The macro concatenates the specified values.
 old-location: winmsg\makelparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makelparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: MAKELPARAM, MAKELPARAM macro [Windows and Messages], _win32_MAKELPARAM, _win32_makelparam_cpp, winmsg.makelparam, winui._win32_makelparam, winuser/MAKELPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/MAKELPARAM"
+f1_keywords:
+- winuser/MAKELPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MAKELPARAM
+- MAKELPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetCommModemStatus
 title: GetCommModemStatus function (winbase.h)
-
 description: Retrieves the modem control-register values.
 old-location: base\getcommmodemstatus.htm
 tech.root: devio
 ms.assetid: 937bb623-d02d-452e-a8a2-21d9a6c5cac0
-
 ms.date: 12/05/2018
 ms.keywords: GetCommModemStatus, GetCommModemStatus function, MS_CTS_ON, MS_DSR_ON, MS_RING_ON, MS_RLSD_ON, _win32_getcommmodemstatus, base.getcommmodemstatus, winbase/GetCommModemStatus
 ms.topic: function
-f1_keywords: 
- - "winbase/GetCommModemStatus"
+f1_keywords:
+- winbase/GetCommModemStatus
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-comm-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-comm-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetCommModemStatus
+- GetCommModemStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

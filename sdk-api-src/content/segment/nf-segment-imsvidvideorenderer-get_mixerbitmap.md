@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_MixerBitmap
 title: IMSVidVideoRenderer::get_MixerBitmap (segment.h)
-
 description: The get_MixerBitmap method retrieves the static bitmap image, as an IPictureDisp type.
 old-location: mstv\imsvidvideorenderer_get_mixerbitmap.htm
 tech.root: mstv
 ms.assetid: cfcfab14-7084-4716-8955-574168cd3506
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer interface [Microsoft TV Technologies],get_MixerBitmap method, IMSVidVideoRenderer.get_MixerBitmap, IMSVidVideoRenderer::get_MixerBitmap, IMSVidVideoRendererget_MixerBitmap, get_MixerBitmap, get_MixerBitmap method [Microsoft TV Technologies], get_MixerBitmap method [Microsoft TV Technologies],IMSVidVideoRenderer interface, mstv.imsvidvideorenderer_get_mixerbitmap, segment/IMSVidVideoRenderer::get_MixerBitmap
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer.get_MixerBitmap"
+f1_keywords:
+- segment/IMSVidVideoRenderer.get_MixerBitmap
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer.get_MixerBitmap
+- IMSVidVideoRenderer.get_MixerBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

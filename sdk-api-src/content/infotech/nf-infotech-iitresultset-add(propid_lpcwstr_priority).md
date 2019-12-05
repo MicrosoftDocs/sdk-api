@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITResultSet.Add(PROPID,LPCWSTR,PRIORITY)
 title: IITResultSet::Add(PROPID,LPCWSTR,PRIORITY) (infotech.h)
-
 description: Adds a column to the result set.
 old-location: htmlhelp\iitresultset_add3.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetaddstring.htm
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [HTML Help Workshop], Add method [HTML Help Workshop],IITResultSet interface, IITResultSet interface [HTML Help Workshop],Add method, IITResultSet.Add, IITResultSet.Add(PROPID,LPCWSTR,PRIORITY), IITResultSet::Add, IITResultSet::Add(PROPID,LPCWSTR,PRIORITY), htmlhelp.iitresultset_add3, infotech/IITResultSet::Add, refIITResultSetAddString
 ms.topic: method
-f1_keywords: 
- - "infotech/IITResultSet.Add"
+f1_keywords:
+- infotech/IITResultSet.Add
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITResultSet.Add
+- IITResultSet.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

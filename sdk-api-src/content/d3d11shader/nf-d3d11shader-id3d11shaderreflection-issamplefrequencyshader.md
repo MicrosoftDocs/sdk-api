@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.IsSampleFrequencyShader
 title: ID3D11ShaderReflection::IsSampleFrequencyShader (d3d11shader.h)
-
 description: Indicates whether a shader is a sample frequency shader.
 old-location: direct3d11\id3d11shaderreflection_issamplefrequencyshader.htm
 tech.root: direct3d11
 ms.assetid: e57cdb67-90b6-4d5d-967b-5de3a9bbaf78
-
 ms.date: 12/05/2018
 ms.keywords: 55289906-bcde-3c18-a7a9-103b6e0d4c54, ID3D11ShaderReflection interface [Direct3D 11],IsSampleFrequencyShader method, ID3D11ShaderReflection.IsSampleFrequencyShader, ID3D11ShaderReflection::IsSampleFrequencyShader, IsSampleFrequencyShader, IsSampleFrequencyShader method [Direct3D 11], IsSampleFrequencyShader method [Direct3D 11],ID3D11ShaderReflection interface, d3d11shader/ID3D11ShaderReflection::IsSampleFrequencyShader, direct3d11.id3d11shaderreflection_issamplefrequencyshader
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ShaderReflection.IsSampleFrequencyShader"
+f1_keywords:
+- d3d11shader/ID3D11ShaderReflection.IsSampleFrequencyShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection.IsSampleFrequencyShader
+- ID3D11ShaderReflection.IsSampleFrequencyShader
 targetos: Windows
 req.typenames: 
 req.redist: 

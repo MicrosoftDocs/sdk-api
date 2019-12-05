@@ -1,19 +1,17 @@
 ---
 UID: NN:qnetwork.IAMNetShowConfig
 title: IAMNetShowConfig (qnetwork.h)
-
 description: The IAMNetShowConfig interface configures the legacy Windows Media Player 6.4 source filter. The Windows Media Source filter implements this interface.
 old-location: dshow\iamnetshowconfig.htm
 tech.root: DirectShow
 ms.assetid: 611b43dc-7f6d-404e-90a4-b109b9475fb6
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig, IAMNetShowConfig interface [DirectShow], IAMNetShowConfig interface [DirectShow],described, IAMNetShowConfigInterface, dshow.iamnetshowconfig, qnetwork/IAMNetShowConfig
 ms.topic: interface
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig"
+f1_keywords:
+- qnetwork/IAMNetShowConfig
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig
+- IAMNetShowConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

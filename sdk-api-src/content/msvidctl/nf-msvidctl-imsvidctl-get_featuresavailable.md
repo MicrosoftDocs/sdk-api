@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_FeaturesAvailable
 title: IMSVidCtl::get_FeaturesAvailable (msvidctl.h)
-
 description: The get_FeaturesAvailable method retrieves the features that are available on the local system.
 old-location: mstv\imsvidctl_get_featuresavailable.htm
 tech.root: mstv
 ms.assetid: 73da686c-0c25-4dfb-8a13-681f1dac6a4a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_FeaturesAvailable method, IMSVidCtl.get_FeaturesAvailable, IMSVidCtl::get_FeaturesAvailable, IMSVidCtlget_FeaturesAvailable, get_FeaturesAvailable, get_FeaturesAvailable method [Microsoft TV Technologies], get_FeaturesAvailable method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_featuresavailable, msvidctl/IMSVidCtl::get_FeaturesAvailable
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_FeaturesAvailable"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_FeaturesAvailable
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_FeaturesAvailable
+- IMSVidCtl.get_FeaturesAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:oleidl.tagOLEGETMONIKER
 title: OLEGETMONIKER (oleidl.h)
-
 description: Controls aspects of the behavior of the IOleObject::GetMoniker and IOleClientSite::GetMoniker methods.
 old-location: com\olegetmoniker.htm
 tech.root: com
 ms.assetid: b69e3213-08c4-45f8-b1b3-4ca78e966251
-
 ms.date: 12/05/2018
 ms.keywords: OLEGETMONIKER, OLEGETMONIKER enumeration [COM], OLEGETMONIKER_FORCEASSIGN, OLEGETMONIKER_ONLYIFTHERE, OLEGETMONIKER_TEMPFORUSER, OLEGETMONIKER_UNASSIGN, _ole_OLEGETMONIKER, com.olegetmoniker, oleidl/OLEGETMONIKER, oleidl/OLEGETMONIKER_FORCEASSIGN, oleidl/OLEGETMONIKER_ONLYIFTHERE, oleidl/OLEGETMONIKER_TEMPFORUSER, oleidl/OLEGETMONIKER_UNASSIGN
 ms.topic: enum
-f1_keywords: 
- - "oleidl/OLEGETMONIKER"
+f1_keywords:
+- oleidl/OLEGETMONIKER
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLEGETMONIKER
+- OLEGETMONIKER
 targetos: Windows
 req.typenames: OLEGETMONIKER
 req.redist: 

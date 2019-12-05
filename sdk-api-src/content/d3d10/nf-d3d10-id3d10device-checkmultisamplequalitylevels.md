@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CheckMultisampleQualityLevels
 title: ID3D10Device::CheckMultisampleQualityLevels (d3d10.h)
-
 description: Get the number of quality levels available during multisampling.
 old-location: direct3d10\id3d10device_checkmultisamplequalitylevels.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkmultisamplequalitylevels.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5555dfc7-c61e-e6e9-a6a5-956255410a73, CheckMultisampleQualityLevels, CheckMultisampleQualityLevels method [Direct3D 10], CheckMultisampleQualityLevels method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckMultisampleQualityLevels method, ID3D10Device.CheckMultisampleQualityLevels, ID3D10Device::CheckMultisampleQualityLevels, d3d10/ID3D10Device::CheckMultisampleQualityLevels, direct3d10.id3d10device_checkmultisamplequalitylevels
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CheckMultisampleQualityLevels"
+f1_keywords:
+- d3d10/ID3D10Device.CheckMultisampleQualityLevels
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CheckMultisampleQualityLevels
+- ID3D10Device.CheckMultisampleQualityLevels
 targetos: Windows
 req.typenames: 
 req.redist: 

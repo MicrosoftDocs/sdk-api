@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.GopherGetAttributeW
 title: GopherGetAttributeW function (wininet.h)
-
 description: Retrieves the specific attribute information from the server.
 old-location: wininet\gophergetattribute.htm
 tech.root: wininet
 ms.assetid: c9e95532-8c65-45fb-acd0-a1f09cee2ce2
-
 ms.date: 12/05/2018
 ms.keywords: GopherGetAttribute, GopherGetAttribute function [WinINet], GopherGetAttributeA, GopherGetAttributeW, _inet_gophergetattribute_function, wininet.gophergetattribute, wininet/GopherGetAttribute, wininet/GopherGetAttributeA, wininet/GopherGetAttributeW
 ms.topic: function
-f1_keywords: 
- - "wininet/GopherGetAttribute"
+f1_keywords:
+- wininet/GopherGetAttribute
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - GopherGetAttribute
- - GopherGetAttributeA
- - GopherGetAttributeW
+- GopherGetAttribute
+- GopherGetAttributeA
+- GopherGetAttributeW
 targetos: Windows
 req.typenames: 
 req.redist: 

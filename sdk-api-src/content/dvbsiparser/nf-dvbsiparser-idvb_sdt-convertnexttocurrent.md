@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.ConvertNextToCurrent
 title: IDVB_SDT::ConvertNextToCurrent (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: 05cddb06-1edb-4514-b6fc-21e920e469ea
-
 ms.date: 12/05/2018
 ms.keywords: ConvertNextToCurrent, ConvertNextToCurrent method [Microsoft TV Technologies], ConvertNextToCurrent method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],ConvertNextToCurrent method, IDVB_SDT.ConvertNextToCurrent, IDVB_SDT::ConvertNextToCurrent, IDVB_SDTConvertNextToCurrent, dvbsiparser/IDVB_SDT::ConvertNextToCurrent, mstv.idvb_sdt_convertnexttocurrent
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_SDT.ConvertNextToCurrent"
+f1_keywords:
+- dvbsiparser/IDVB_SDT.ConvertNextToCurrent
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SDT.ConvertNextToCurrent
+- IDVB_SDT.ConvertNextToCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

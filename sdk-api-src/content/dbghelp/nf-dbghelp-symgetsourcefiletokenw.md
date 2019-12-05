@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetSourceFileTokenW
 title: SymGetSourceFileTokenW function (dbghelp.h)
-
 description: Retrieves token for the specified source file from the source server.
 old-location: base\symgetsourcefiletoken.htm
 tech.root: Debug
 ms.assetid: 7a8c7d68-421e-41fd-8cab-750c44a5f028
-
 ms.date: 12/05/2018
 ms.keywords: SymGetSourceFileToken, SymGetSourceFileToken function, SymGetSourceFileTokenW, base.symgetsourcefiletoken, dbghelp/SymGetSourceFileToken, dbghelp/SymGetSourceFileTokenW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetSourceFileToken"
+f1_keywords:
+- dbghelp/SymGetSourceFileToken
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetSourceFileToken
- - SymGetSourceFileToken
- - SymGetSourceFileTokenW
+- SymGetSourceFileToken
+- SymGetSourceFileToken
+- SymGetSourceFileTokenW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

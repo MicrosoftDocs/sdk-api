@@ -1,19 +1,17 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.FreeDomains
 title: IDsBrowseDomainTree::FreeDomains (dsclient.h)
-
 description: The IDsBrowseDomainTree::FreeDomains method frees the memory allocated by the IDsBrowseDomainTree::GetDomains method.
 old-location: ad\idsbrowsedomaintree_freedomains.htm
 tech.root: ad
 ms.assetid: d9334f4c-d5b0-445a-ad1b-8628f206b715
-
 ms.date: 12/05/2018
 ms.keywords: FreeDomains, FreeDomains method [Active Directory], FreeDomains method [Active Directory],IDsBrowseDomainTree interface, IDsBrowseDomainTree interface [Active Directory],FreeDomains method, IDsBrowseDomainTree.FreeDomains, IDsBrowseDomainTree::FreeDomains, _glines_idsbrowsedomaintree_freedomains, ad.idsbrowsedomaintree__freedomains, ad.idsbrowsedomaintree_freedomains, dsclient/IDsBrowseDomainTree::FreeDomains
 ms.topic: method
-f1_keywords: 
- - "dsclient/IDsBrowseDomainTree.FreeDomains"
+f1_keywords:
+- dsclient/IDsBrowseDomainTree.FreeDomains
 dev_langs:
- - c++
+- c++
 req.header: dsclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dsadmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsadmin.dll
+- Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree.FreeDomains
+- IDsBrowseDomainTree.FreeDomains
 targetos: Windows
 req.typenames: 
 req.redist: 

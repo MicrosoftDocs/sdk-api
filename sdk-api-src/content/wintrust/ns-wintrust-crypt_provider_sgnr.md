@@ -1,19 +1,17 @@
 ---
 UID: NS:wintrust._CRYPT_PROVIDER_SGNR
 title: CRYPT_PROVIDER_SGNR (wintrust.h)
-
 description: Provides information about a signer or countersigner.
 old-location: security\crypt_provider_sgnr.htm
 tech.root: SecCrypto
 ms.assetid: 39cf9a03-768d-4ae0-a19d-17652181dbe4
-
 ms.date: 12/05/2018
 ms.keywords: '*PCRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR, CRYPT_PROVIDER_SGNR structure [Security], PCRYPT_PROVIDER_SGNR, PCRYPT_PROVIDER_SGNR structure pointer [Security], SGNR_TYPE_TIMESTAMP, security.crypt_provider_sgnr, wintrust/CRYPT_PROVIDER_SGNR, wintrust/PCRYPT_PROVIDER_SGNR'
 ms.topic: struct
 f1_keywords:
 - wintrust/CRYPT_PROVIDER_SGNR
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.Map
 title: ID2D1Bitmap1::Map (d2d1_1.h)
-
 description: Maps the given bitmap into memory.
 old-location: direct2d\id2d1bitmap1_map.htm
 tech.root: Direct2D
 ms.assetid: 284c16ea-1a9f-4f13-b359-214178650add
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Bitmap1 interface [Direct2D],Map method, ID2D1Bitmap1.Map, ID2D1Bitmap1::Map, Map, Map method [Direct2D], Map method [Direct2D],ID2D1Bitmap1 interface, d2d1_1/ID2D1Bitmap1::Map, direct2d.id2d1bitmap1_map
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Bitmap1.Map"
+f1_keywords:
+- d2d1_1/ID2D1Bitmap1.Map
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Bitmap1.Map
+- ID2D1Bitmap1.Map
 targetos: Windows
 req.typenames: 
 req.redist: 

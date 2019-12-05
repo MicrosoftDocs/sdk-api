@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IStringCollection.Insert
 title: IStringCollection::Insert (wuapi.h)
-
 description: Inserts an item into the collection at the specified position.
 old-location: wua\istringcollection_insert.htm
 tech.root: Wua_Sdk
 ms.assetid: 51a00dde-7781-4674-bbb2-10bb2eb23548
-
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],Insert method, IStringCollection.Insert, IStringCollection::Insert, Insert, Insert method [Windows Update Agent], Insert method [Windows Update Agent],IStringCollection interface, wua.istringcollection_insert, wuapi/IStringCollection::Insert
 ms.topic: method
-f1_keywords: 
- - "wuapi/IStringCollection.Insert"
+f1_keywords:
+- wuapi/IStringCollection.Insert
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection.Insert
+- IStringCollection.Insert
 targetos: Windows
 req.typenames: 
 req.redist: 

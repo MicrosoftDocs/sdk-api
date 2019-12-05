@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetExpiryDate
 title: IESFileExpiryDateEvent::GetExpiryDate (tuner.h)
-
 description: Gets the date from a FileExpiryDate event that indicates when a license for protected content expires.
 old-location: mstv\iesfileexpirydateevent_getexpirydate.htm
 tech.root: mstv
 ms.assetid: 1d89c613-002b-4c90-832f-32bc268752a4
-
 ms.date: 12/05/2018
 ms.keywords: GetExpiryDate, GetExpiryDate method [Microsoft TV Technologies], GetExpiryDate method [Microsoft TV Technologies],IESFileExpiryDateEvent interface, IESFileExpiryDateEvent interface [Microsoft TV Technologies],GetExpiryDate method, IESFileExpiryDateEvent.GetExpiryDate, IESFileExpiryDateEvent::GetExpiryDate, mstv.iesfileexpirydateevent_getexpirydate, tuner/IESFileExpiryDateEvent::GetExpiryDate
 ms.topic: method
-f1_keywords: 
- - "tuner/IESFileExpiryDateEvent.GetExpiryDate"
+f1_keywords:
+- tuner/IESFileExpiryDateEvent.GetExpiryDate
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESFileExpiryDateEvent.GetExpiryDate
+- IESFileExpiryDateEvent.GetExpiryDate
 targetos: Windows
 req.typenames: 
 req.redist: 

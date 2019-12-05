@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509Enrollment.get_CertificateFriendlyName
 title: IX509Enrollment::get_CertificateFriendlyName (certenroll.h)
-
 description: Specifies or retrieves the display name of a certificate.
 old-location: security\ix509enrollment_certificatefriendlyname_property.htm
 tech.root: seccertenroll
 ms.assetid: 35c3eea1-2a3a-4e13-9232-f40429669948
-
 ms.date: 12/05/2018
 ms.keywords: CertificateFriendlyName property [Security], CertificateFriendlyName property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],CertificateFriendlyName property, IX509Enrollment.CertificateFriendlyName, IX509Enrollment.get_CertificateFriendlyName, IX509Enrollment::CertificateFriendlyName, IX509Enrollment::get_CertificateFriendlyName, IX509Enrollment::put_CertificateFriendlyName, certenroll/IX509Enrollment::CertificateFriendlyName, certenroll/IX509Enrollment::get_CertificateFriendlyName, certenroll/IX509Enrollment::put_CertificateFriendlyName, get_CertificateFriendlyName, security.ix509enrollment_certificatefriendlyname_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509Enrollment.CertificateFriendlyName"
+f1_keywords:
+- certenroll/IX509Enrollment.CertificateFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509Enrollment.CertificateFriendlyName
- - IX509Enrollment.get_CertificateFriendlyName
- - IX509Enrollment.put_CertificateFriendlyName
+- IX509Enrollment.CertificateFriendlyName
+- IX509Enrollment.get_CertificateFriendlyName
+- IX509Enrollment.put_CertificateFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

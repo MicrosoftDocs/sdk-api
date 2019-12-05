@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHAssocEnumHandlersForProtocolByApplication
 title: SHAssocEnumHandlersForProtocolByApplication function (shobjidl_core.h)
-
 description: Gets an enumeration interface that provides access to handlers associated with a given protocol.
 old-location: shell\SHAssocEnumHandlersForProtocolByApplication.htm
 tech.root: shell
 ms.assetid: 8bc3b9ce-5909-46a0-b5f1-35ab808aaa55
-
 ms.date: 12/05/2018
 ms.keywords: SHAssocEnumHandlersForProtocolByApplication, SHAssocEnumHandlersForProtocolByApplication function [Windows Shell], _shell_SHAssocEnumHandlersForProtocolByApplication, shell.SHAssocEnumHandlersForProtocolByApplication, shobjidl_core/SHAssocEnumHandlersForProtocolByApplication
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHAssocEnumHandlersForProtocolByApplication"
+f1_keywords:
+- shobjidl_core/SHAssocEnumHandlersForProtocolByApplication
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHAssocEnumHandlersForProtocolByApplication
+- SHAssocEnumHandlersForProtocolByApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

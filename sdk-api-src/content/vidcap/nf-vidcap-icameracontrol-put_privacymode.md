@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.put_PrivacyMode
 title: ICameraControl::put_PrivacyMode (vidcap.h)
-
 description: The put_PrivacyMode method sets the camera's privacy setting. The privacy setting controls whether the camera sensor captures video.
 old-location: dshow\icameracontrol_put_privacymode.htm
 tech.root: DirectShow
 ms.assetid: 04116eba-926c-43fc-9a45-91be42e9af26
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_PrivacyMode method, ICameraControl.put_PrivacyMode, ICameraControl::put_PrivacyMode, ICameraControlput_PrivacyMode, dshow.icameracontrol_put_privacymode, put_PrivacyMode, put_PrivacyMode method [DirectShow], put_PrivacyMode method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_PrivacyMode
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.put_PrivacyMode"
+f1_keywords:
+- vidcap/ICameraControl.put_PrivacyMode
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.put_PrivacyMode
+- ICameraControl.put_PrivacyMode
 targetos: Windows
 req.typenames: 
 req.redist: 

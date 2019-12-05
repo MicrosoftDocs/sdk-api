@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.FreeContextBuffer
 title: FreeContextBuffer function (sspi.h)
-
 description: Enables callers of security package functions to free memory buffers allocated by the security package.
 old-location: security\freecontextbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 3c3d27bb-4f9a-4979-b679-1e10fa1ff221
-
 ms.date: 12/05/2018
 ms.keywords: FreeContextBuffer, FreeContextBuffer function [Security], _ssp_freecontextbuffer, security.freecontextbuffer, sspi/FreeContextBuffer
 ms.topic: function
-f1_keywords: 
- - "sspi/FreeContextBuffer"
+f1_keywords:
+- sspi/FreeContextBuffer
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - FreeContextBuffer
+- FreeContextBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

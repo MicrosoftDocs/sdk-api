@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPLibrary.get_type
 title: IWMPLibrary::get_type (wmp.h)
-
 description: The get_type method retrieves a value that indicates the library type.
 old-location: wmp\iwmplibrary_get_type.htm
 tech.root: WMP
 ms.assetid: 95f36972-2227-4fe8-88d7-41f7aebbf67a
-
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrary interface [Windows Media Player],get_type method, IWMPLibrary.get_type, IWMPLibrary::get_type, IWMPLibraryget_type, get_type, get_type method [Windows Media Player], get_type method [Windows Media Player],IWMPLibrary interface, wmp.iwmplibrary_get_type, wmp/IWMPLibrary::get_type
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPLibrary.get_type"
+f1_keywords:
+- wmp/IWMPLibrary.get_type
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPLibrary.get_type
+- IWMPLibrary.get_type
 targetos: Windows
 req.typenames: 
 req.redist: 

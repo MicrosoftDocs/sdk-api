@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHGetTemporaryPropertyForItem
 title: SHGetTemporaryPropertyForItem function (shobjidl_core.h)
-
 description: Retrieves the temporary property for the given item. A temporary property is a read/write store that holds properties only for the lifetime of the IShellItem object, rather than being persisted back into the item.
 old-location: shell\SHGetTemporaryPropertyForItem.htm
 tech.root: shell
 ms.assetid: 53953a5a-04a2-4749-a03b-8cbd5ac889f1
-
 ms.date: 12/05/2018
 ms.keywords: SHGetTemporaryPropertyForItem, SHGetTemporaryPropertyForItem function [Windows Shell], _shell_SHGetTemporaryPropertyForItem, shell.SHGetTemporaryPropertyForItem, shobjidl_core/SHGetTemporaryPropertyForItem
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHGetTemporaryPropertyForItem"
+f1_keywords:
+- shobjidl_core/SHGetTemporaryPropertyForItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHGetTemporaryPropertyForItem
+- SHGetTemporaryPropertyForItem
 targetos: Windows
 req.typenames: 
 req.redist: 

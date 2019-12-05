@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfContextOwnerServices
 title: ITfContextOwnerServices (msctf.h)
-
 description: The ITfContextOwnerServices interface is implemented by the manager and used by a text service or application acting as context owners.
 old-location: tsf\itfcontextownerservices.htm
 tech.root: TSF
 ms.assetid: fb77bd6a-ae34-4e21-8f09-fc8c6a1ade86
-
 ms.date: 12/05/2018
 ms.keywords: ITfContextOwnerServices, ITfContextOwnerServices interface [Text Services Framework], ITfContextOwnerServices interface [Text Services Framework],described, _tsf_itfcontextownerservices_ref, msctf/ITfContextOwnerServices, tsf.itfcontextownerservices
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfContextOwnerServices"
+f1_keywords:
+- msctf/ITfContextOwnerServices
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextOwnerServices
+- ITfContextOwnerServices
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

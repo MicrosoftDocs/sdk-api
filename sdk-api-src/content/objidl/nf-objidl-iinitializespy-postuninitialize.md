@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IInitializeSpy.PostUninitialize
 title: IInitializeSpy::PostUninitialize (objidl.h)
-
 description: Performs cleanup steps required after calling the CoUninitialize function.
 old-location: com\iinitializespy_postuninitialize.htm
 tech.root: com
 ms.assetid: f91a1a4a-4d0b-491e-a7c6-01596b5b9712
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy interface [COM],PostUninitialize method, IInitializeSpy.PostUninitialize, IInitializeSpy::PostUninitialize, PostUninitialize, PostUninitialize method [COM], PostUninitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postuninitialize, com.iinitializespy_postuninitialize, objidl/IInitializeSpy::PostUninitialize
 ms.topic: method
-f1_keywords: 
- - "objidl/IInitializeSpy.PostUninitialize"
+f1_keywords:
+- objidl/IInitializeSpy.PostUninitialize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IInitializeSpy.PostUninitialize
+- IInitializeSpy.PostUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

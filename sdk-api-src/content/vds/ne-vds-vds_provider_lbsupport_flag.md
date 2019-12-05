@@ -1,19 +1,17 @@
 ---
 UID: NE:vds._VDS_PROVIDER_LBSUPPORT_FLAG
 title: VDS_PROVIDER_LBSUPPORT_FLAG (vds.h)
-
 description: Specifies the set of valid flags for indicating which load balance policies a hardware provider supports.
 old-location: base\vds_provider_lbsupport_flag.htm
 tech.root: VDS
 ms.assetid: bfc9aabf-b9ce-4b36-b68a-b74628092962
-
 ms.date: 12/05/2018
 ms.keywords: VDS_LBF_DYN_LEAST_QUEUE_DEPTH, VDS_LBF_FAILOVER, VDS_LBF_LEAST_BLOCKS, VDS_LBF_ROUND_ROBIN, VDS_LBF_ROUND_ROBIN_WITH_SUBSET, VDS_LBF_VENDOR_SPECIFIC, VDS_LBF_WEIGHTED_PATHS, VDS_PROVIDER_LBSUPPORT_FLAG, VDS_PROVIDER_LBSUPPORT_FLAG enumeration [VDS], base.vds_provider_lbsupport_flag, vds/VDS_LBF_DYN_LEAST_QUEUE_DEPTH, vds/VDS_LBF_FAILOVER, vds/VDS_LBF_LEAST_BLOCKS, vds/VDS_LBF_ROUND_ROBIN, vds/VDS_LBF_ROUND_ROBIN_WITH_SUBSET, vds/VDS_LBF_VENDOR_SPECIFIC, vds/VDS_LBF_WEIGHTED_PATHS, vds/VDS_PROVIDER_LBSUPPORT_FLAG, vdshwprv/VDS_LBF_DYN_LEAST_QUEUE_DEPTH, vdshwprv/VDS_LBF_FAILOVER, vdshwprv/VDS_LBF_LEAST_BLOCKS, vdshwprv/VDS_LBF_ROUND_ROBIN, vdshwprv/VDS_LBF_ROUND_ROBIN_WITH_SUBSET, vdshwprv/VDS_LBF_VENDOR_SPECIFIC, vdshwprv/VDS_LBF_WEIGHTED_PATHS, vdshwprv/VDS_PROVIDER_LBSUPPORT_FLAG
 ms.topic: enum
-f1_keywords: 
- - "vds/VDS_PROVIDER_LBSUPPORT_FLAG"
+f1_keywords:
+- vds/VDS_PROVIDER_LBSUPPORT_FLAG
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_PROVIDER_LBSUPPORT_FLAG
+- VDS_PROVIDER_LBSUPPORT_FLAG
 targetos: Windows
 req.typenames: VDS_PROVIDER_LBSUPPORT_FLAG
 req.redist: 

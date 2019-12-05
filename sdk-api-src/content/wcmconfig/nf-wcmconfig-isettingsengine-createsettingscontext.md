@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.CreateSettingsContext
 title: ISettingsEngine::CreateSettingsContext (wcmconfig.h)
-
 description: Creates a settings context.
 old-location: smi\isettingsengine_createsettingscontext.htm
 tech.root: SMI
 ms.assetid: a9fe2c24-f696-4726-8e67-07280c8e8a3e
-
 ms.date: 12/05/2018
 ms.keywords: CreateSettingsContext, CreateSettingsContext method [SMI], CreateSettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],CreateSettingsContext method, ISettingsEngine.CreateSettingsContext, ISettingsEngine::CreateSettingsContext, smi.isettingsengine_createsettingscontext, wcmconfig/ISettingsEngine::CreateSettingsContext
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.CreateSettingsContext"
+f1_keywords:
+- wcmconfig/ISettingsEngine.CreateSettingsContext
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.CreateSettingsContext
+- ISettingsEngine.CreateSettingsContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.EndUpdateResourceA
 title: EndUpdateResourceA function (winbase.h)
-
 description: Commits or discards changes made prior to a call to UpdateResource.
 old-location: menurc\endupdateresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\endupdateresource.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndUpdateResource, EndUpdateResource function [Menus and Other Resources], EndUpdateResourceA, EndUpdateResourceW, _win32_EndUpdateResource, _win32_endupdateresource_cpp, menurc.endupdateresource, winbase/EndUpdateResource, winbase/EndUpdateResourceA, winbase/EndUpdateResourceW, winui._win32_endupdateresource
 ms.topic: function
-f1_keywords: 
- - "winbase/EndUpdateResource"
+f1_keywords:
+- winbase/EndUpdateResource
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - EndUpdateResource
- - EndUpdateResourceA
- - EndUpdateResourceW
+- EndUpdateResource
+- EndUpdateResourceA
+- EndUpdateResourceW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_PRINCIPAL_
 title: IPSEC_TOKEN_PRINCIPAL (ipsectypes.h)
-
 description: An access token principal.
 old-location: fwp\ipsec_token_principal.htm
 tech.root: fwp
 ms.assetid: f61944aa-2545-4fdd-8bae-6271d4535acc
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN_PRINCIPAL, IPSEC_TOKEN_PRINCIPAL enumeration [Filtering], IPSEC_TOKEN_PRINCIPAL_LOCAL, IPSEC_TOKEN_PRINCIPAL_MAX, IPSEC_TOKEN_PRINCIPAL_PEER, fwp.ipsec_token_principal, ipsectypes/IPSEC_TOKEN_PRINCIPAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_LOCAL, ipsectypes/IPSEC_TOKEN_PRINCIPAL_MAX, ipsectypes/IPSEC_TOKEN_PRINCIPAL_PEER
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_TOKEN_PRINCIPAL"
+f1_keywords:
+- ipsectypes/IPSEC_TOKEN_PRINCIPAL
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TOKEN_PRINCIPAL
+- IPSEC_TOKEN_PRINCIPAL
 targetos: Windows
 req.typenames: IPSEC_TOKEN_PRINCIPAL
 req.redist: 

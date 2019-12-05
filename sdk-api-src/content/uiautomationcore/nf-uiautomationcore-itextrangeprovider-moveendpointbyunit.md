@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.MoveEndpointByUnit
 title: ITextRangeProvider::MoveEndpointByUnit (uiautomationcore.h)
-
 description: Moves one endpoint of the text range the specified number of TextUnit units within the document range.
 old-location: winauto\uiauto_ITextRangeProvider_MoveEndpointByUnit.htm
 tech.root: WinAuto
 ms.assetid: 3c0b9357-0f51-4044-8a5a-1f68af7a9762
-
 ms.date: 12/05/2018
 ms.keywords: ITextRangeProvider interface [Windows Accessibility],MoveEndpointByUnit method, ITextRangeProvider.MoveEndpointByUnit, ITextRangeProvider::MoveEndpointByUnit, MoveEndpointByUnit, MoveEndpointByUnit method [Windows Accessibility], MoveEndpointByUnit method [Windows Accessibility],ITextRangeProvider interface, uiauto.uiauto_ITextRangeProvider_MoveEndpointByUnit, uiauto_ITextRangeProvider_MoveEndpointByUnit, uiautomationcore/ITextRangeProvider::MoveEndpointByUnit, winauto.uiauto_ITextRangeProvider_MoveEndpointByUnit
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider.MoveEndpointByUnit"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider.MoveEndpointByUnit
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider.MoveEndpointByUnit
+- ITextRangeProvider.MoveEndpointByUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

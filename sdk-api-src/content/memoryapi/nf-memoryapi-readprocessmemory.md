@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.ReadProcessMemory
 title: ReadProcessMemory function (memoryapi.h)
-
 description: Reads data from an area of memory in a specified process. The entire area to be read must be accessible or the operation fails.
 old-location: base\ReadProcessMemory.htm
 tech.root: Debug
 ms.assetid: 8774e145-ee7f-44de-85db-0445b905f986
-
 ms.date: 08/05/2019
 ms.keywords: ReadProcessMemory, ReadProcessMemory function, _win32_ReadProcessMemory, base.ReadProcessMemory, memoryapi/ReadProcessMemory
 ms.topic: function
-f1_keywords: 
- - "memoryapi/ReadProcessMemory"
+f1_keywords:
+- memoryapi/ReadProcessMemory
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - ReadProcessMemory
+- ReadProcessMemory
 targetos: Windows
 req.typenames: 
 req.redist: 

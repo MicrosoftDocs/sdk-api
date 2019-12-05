@@ -1,19 +1,17 @@
 ---
 UID: NE:winbase._COPYFILE2_MESSAGE_ACTION
 title: COPYFILE2_MESSAGE_ACTION (winbase.h)
-
 description: Returned by the CopyFile2ProgressRoutine callback function to indicate what action should be taken for the pending copy operation.
 old-location: fs\copyfile2_message_action.htm
 tech.root: FileIO
 ms.assetid: 0beae28e-f493-4ae1-a4d9-3df69de166b7
-
 ms.date: 12/05/2018
 ms.keywords: COPYFILE2_MESSAGE_ACTION, COPYFILE2_MESSAGE_ACTION enumeration [Files], COPYFILE2_PROGRESS_CANCEL, COPYFILE2_PROGRESS_CONTINUE, COPYFILE2_PROGRESS_PAUSE, COPYFILE2_PROGRESS_QUIET, COPYFILE2_PROGRESS_STOP, fs.copyfile2_message_action, winbase/COPYFILE2_MESSAGE_ACTION, winbase/COPYFILE2_PROGRESS_CANCEL, winbase/COPYFILE2_PROGRESS_CONTINUE, winbase/COPYFILE2_PROGRESS_PAUSE, winbase/COPYFILE2_PROGRESS_QUIET, winbase/COPYFILE2_PROGRESS_STOP
 ms.topic: enum
-f1_keywords: 
- - "winbase/COPYFILE2_MESSAGE_ACTION"
+f1_keywords:
+- winbase/COPYFILE2_MESSAGE_ACTION
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - COPYFILE2_MESSAGE_ACTION
+- COPYFILE2_MESSAGE_ACTION
 targetos: Windows
 req.typenames: COPYFILE2_MESSAGE_ACTION
 req.redist: 

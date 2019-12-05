@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromDoubleVector
 title: InitPropVariantFromDoubleVector function (propvarutil.h)
-
 description: Initializes a PROPVARIANT structure based on a specified vector of double values.
 old-location: properties\InitPropVariantFromDoubleVector.htm
 tech.root: properties
 ms.assetid: 78e91213-870f-4bc1-b0eb-a9fbae3d6c4c
-
 ms.date: 12/05/2018
 ms.keywords: InitPropVariantFromDoubleVector, InitPropVariantFromDoubleVector function [Windows Properties], properties.InitPropVariantFromDoubleVector, propvarutil/InitPropVariantFromDoubleVector, shell.InitPropVariantFromDoubleVector, shell_InitPropVariantFromDoubleVector
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitPropVariantFromDoubleVector"
+f1_keywords:
+- propvarutil/InitPropVariantFromDoubleVector
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitPropVariantFromDoubleVector
+- InitPropVariantFromDoubleVector
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

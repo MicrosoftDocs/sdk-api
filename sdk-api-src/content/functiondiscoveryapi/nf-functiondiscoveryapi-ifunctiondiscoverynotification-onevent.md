@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscoveryNotification.OnEvent
 title: IFunctionDiscoveryNotification::OnEvent (functiondiscoveryapi.h)
-
 description: Receives any add, remove, or update events during a notification.
 old-location: ncd\ifunctiondiscoverynotification_onevent.htm
 tech.root: FunDisc
 ms.assetid: 4ebfdf15-ca37-4905-b842-8854a0bd276b
-
 ms.date: 12/05/2018
 ms.keywords: FD_EVENTID_ASYNCTHREADEXIT, FD_EVENTID_IPADDRESSCHANGE, FD_EVENTID_SEARCHCOMPLETE, FD_EVENTID_SEARCHSTART, IFunctionDiscoveryNotification interface,OnEvent method, IFunctionDiscoveryNotification.OnEvent, IFunctionDiscoveryNotification::OnEvent, OnEvent, OnEvent method, OnEvent method,IFunctionDiscoveryNotification interface, functiondiscoveryapi/IFunctionDiscoveryNotification::OnEvent, ncd.ifunctiondiscoverynotification_onevent
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionDiscoveryNotification.OnEvent"
+f1_keywords:
+- functiondiscoveryapi/IFunctionDiscoveryNotification.OnEvent
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - functiondiscoveryapi.h
+- functiondiscoveryapi.h
 api_name:
- - IFunctionDiscoveryNotification.OnEvent
+- IFunctionDiscoveryNotification.OnEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

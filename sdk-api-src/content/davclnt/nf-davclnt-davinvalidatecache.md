@@ -1,19 +1,17 @@
 ---
 UID: NF:davclnt.DavInvalidateCache
 title: DavInvalidateCache function (davclnt.h)
-
 description: Invalidates the contents of the local cache for a remote file on a WebDAV server.
 old-location: webdav\davinvalidatecache.htm
 tech.root: WebDAV
 ms.assetid: f111b19c-5472-463a-b33d-7d2188d224e8
-
 ms.date: 12/05/2018
 ms.keywords: DavInvalidateCache, DavInvalidateCache function [WebDAV], davclnt/DavInvalidateCache, webdav.davinvalidatecache
 ms.topic: function
-f1_keywords: 
- - "davclnt/DavInvalidateCache"
+f1_keywords:
+- davclnt/DavInvalidateCache
 dev_langs:
- - c++
+- c++
 req.header: davclnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Davclnt.lib
 req.dll: Davclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - davclnt.dll
+- davclnt.dll
 api_name:
- - DavInvalidateCache
+- DavInvalidateCache
 targetos: Windows
 req.typenames: 
 req.redist: 

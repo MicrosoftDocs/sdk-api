@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMT_WEBSTREAM_SAMPLE_HEADER
 title: WMT_WEBSTREAM_SAMPLE_HEADER (wmsdkidl.h)
-
 description: The WMT_WEBSTREAM_SAMPLE_HEADER structure is used as a variable-sized header for each Web stream sample.
 old-location: wmformat\wmt_webstream_sample_header.htm
 tech.root: wmformat
 ms.assetid: 5492af92-4829-4bf1-8512-3d57fbe70ce5
-
 ms.date: 12/05/2018
 ms.keywords: WMT_WEBSTREAM_SAMPLE_HEADER, WMT_WEBSTREAM_SAMPLE_HEADER structure [windows Media Format], wmformat.wmt_webstream_sample_header, wmsdkidl/WMT_WEBSTREAM_SAMPLE_HEADER
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMT_WEBSTREAM_SAMPLE_HEADER"
+f1_keywords:
+- wmsdkidl/WMT_WEBSTREAM_SAMPLE_HEADER
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_WEBSTREAM_SAMPLE_HEADER
+- WMT_WEBSTREAM_SAMPLE_HEADER
 targetos: Windows
 req.typenames: WMT_WEBSTREAM_SAMPLE_HEADER
 req.redist: 

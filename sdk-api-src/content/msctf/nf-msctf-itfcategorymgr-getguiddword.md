@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.GetGUIDDWORD
 title: ITfCategoryMgr::GetGUIDDWORD (msctf.h)
-
 description: ITfCategoryMgr::GetGUIDDWORD method
 old-location: tsf\itfcategorymgr_getguiddword.htm
 tech.root: TSF
 ms.assetid: 016d77b5-fc08-4d2b-a9c4-50ae7926a057
-
 ms.date: 12/05/2018
 ms.keywords: GetGUIDDWORD, GetGUIDDWORD method [Text Services Framework], GetGUIDDWORD method [Text Services Framework],ITfCategoryMgr interface, ITfCategoryMgr interface [Text Services Framework],GetGUIDDWORD method, ITfCategoryMgr.GetGUIDDWORD, ITfCategoryMgr::GetGUIDDWORD, _tsf_itfcategorymgr_getguiddword_ref, msctf/ITfCategoryMgr::GetGUIDDWORD, tsf.itfcategorymgr_getguiddword
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfCategoryMgr.GetGUIDDWORD"
+f1_keywords:
+- msctf/ITfCategoryMgr.GetGUIDDWORD
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfCategoryMgr.GetGUIDDWORD
+- ITfCategoryMgr.GetGUIDDWORD
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

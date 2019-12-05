@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferDataCounters.GetData
 title: IStreamBufferDataCounters::GetData (sbe.h)
-
 description: The GetData method returns performance data for the Stream Buffer Engine.
 old-location: mstv\istreambufferdatacounters_getdata.htm
 tech.root: mstv
 ms.assetid: 15895ff3-37e5-4f89-bcce-3b9f060c0746
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IStreamBufferDataCounters interface, IStreamBufferDataCounters interface [Microsoft TV Technologies],GetData method, IStreamBufferDataCounters.GetData, IStreamBufferDataCounters::GetData, IStreamBufferDataCountersGetData, mstv.istreambufferdatacounters_getdata, sbe/IStreamBufferDataCounters::GetData
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferDataCounters.GetData"
+f1_keywords:
+- sbe/IStreamBufferDataCounters.GetData
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferDataCounters.GetData
+- IStreamBufferDataCounters.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

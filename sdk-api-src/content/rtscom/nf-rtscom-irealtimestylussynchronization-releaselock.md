@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.ReleaseLock
 title: IRealTimeStylusSynchronization::ReleaseLock (rtscom.h)
-
 description: Releases the specified lock.
 old-location: tablet\irealtimestylussynchronization_releaselock.htm
 tech.root: tablet
 ms.assetid: 13970fda-7b2a-4fb7-9403-8d9aad39d83a
-
 ms.date: 12/05/2018
 ms.keywords: 13970fda-7b2a-4fb7-9403-8d9aad39d83a, IRealTimeStylusSynchronization interface [Tablet PC],ReleaseLock method, IRealTimeStylusSynchronization.ReleaseLock, IRealTimeStylusSynchronization::ReleaseLock, ReleaseLock, ReleaseLock method [Tablet PC], ReleaseLock method [Tablet PC],IRealTimeStylusSynchronization interface, rtscom/IRealTimeStylusSynchronization::ReleaseLock, tablet.irealtimestylussynchronization_releaselock
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylusSynchronization.ReleaseLock"
+f1_keywords:
+- rtscom/IRealTimeStylusSynchronization.ReleaseLock
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylusSynchronization.ReleaseLock
+- IRealTimeStylusSynchronization.ReleaseLock
 targetos: Windows
 req.typenames: 
 req.redist: 

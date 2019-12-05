@@ -1,19 +1,17 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0004
 title: MPEG_CURRENT_NEXT_BIT (mpeg2structs.h)
-
 description: The MPEG_CURRENT_NEXT_BIT enumeration type specifies the value of the current_next_indicator bit.
 old-location: mstv\mpeg_current_next_bit.htm
 tech.root: mstv
 ms.assetid: b35ced88-92b3-4f70-842b-9664a714823c
-
 ms.date: 12/05/2018
 ms.keywords: MPEG_CURRENT_NEXT_BIT, MPEG_CURRENT_NEXT_BIT enumeration [Microsoft TV Technologies], MPEG_SECTION_IS_CURRENT, MPEG_SECTION_IS_NEXT, mpeg2structs/MPEG_CURRENT_NEXT_BIT, mpeg2structs/MPEG_SECTION_IS_CURRENT, mpeg2structs/MPEG_SECTION_IS_NEXT, mstv.mpeg_current_next_bit
 ms.topic: enum
-f1_keywords: 
- - "mpeg2structs/MPEG_CURRENT_NEXT_BIT"
+f1_keywords:
+- mpeg2structs/MPEG_CURRENT_NEXT_BIT
 dev_langs:
- - c++
+- c++
 req.header: mpeg2structs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mpeg2Structs.h
+- Mpeg2Structs.h
 api_name:
- - MPEG_CURRENT_NEXT_BIT
+- MPEG_CURRENT_NEXT_BIT
 targetos: Windows
 req.typenames: MPEG_CURRENT_NEXT_BIT
 req.redist: 

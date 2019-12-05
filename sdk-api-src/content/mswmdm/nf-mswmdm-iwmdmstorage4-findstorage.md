@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.FindStorage
 title: IWMDMStorage4::FindStorage (mswmdm.h)
-
 description: The FindStorage method retrieves a storage in the current root storage, based on its persistent unique identifier.
 old-location: wmdm\iwmdmstorage4_findstorage.htm
 tech.root: WMDM
 ms.assetid: 93ca4488-beaf-4617-99ba-19bb7707d4ba
-
 ms.date: 12/05/2018
 ms.keywords: FindStorage, FindStorage method [windows Media Device Manager], FindStorage method [windows Media Device Manager],IWMDMStorage4 interface, IWMDMStorage4 interface [windows Media Device Manager],FindStorage method, IWMDMStorage4.FindStorage, IWMDMStorage4::FindStorage, IWMDMStorage4FindStorage, mswmdm/IWMDMStorage4::FindStorage, wmdm.iwmdmstorage4_findstorage
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorage4.FindStorage"
+f1_keywords:
+- mswmdm/IWMDMStorage4.FindStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorage4.FindStorage
+- IWMDMStorage4.FindStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

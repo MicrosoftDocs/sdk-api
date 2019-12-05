@@ -1,19 +1,17 @@
 ---
 UID: NF:versionhelpers.IsWindowsServer
 title: IsWindowsServer function (versionhelpers.h)
-
 description: Indicates if the current OS is a Windows Server release.
 old-location: base\iswindowsserver.htm
 tech.root: SysInfo
 ms.assetid: 7CC1DD25-762B-489F-AC20-1B57764923A2
-
 ms.date: 12/05/2018
 ms.keywords: IsWindowsServer, IsWindowsServer function, base.iswindowsserver, versionhelpers/IsWindowsServer
 ms.topic: function
-f1_keywords: 
- - "versionhelpers/IsWindowsServer"
+f1_keywords:
+- versionhelpers/IsWindowsServer
 dev_langs:
- - c++
+- c++
 req.header: versionhelpers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Kernel32.lib; Ntdll.lib
 req.dll: Kernel32.dll; Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - ntdll.dll
+- Kernel32.dll
+- ntdll.dll
 api_name:
- - IsWindowsServer
+- IsWindowsServer
 targetos: Windows
 req.typenames: 
 req.redist: 

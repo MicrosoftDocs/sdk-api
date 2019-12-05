@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMLVGETINFOTIPA
 title: NMLVGETINFOTIPA (commctrl.h)
-
 description: Contains and receives list-view item information needed to display a tooltip for an item. This structure is used with the LVN_GETINFOTIP notification code.
 old-location: controls\NMLVGETINFOTIP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\nmlvgetinfotip.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMLVGETINFOTIPA, LPNMLVGETINFOTIP, LPNMLVGETINFOTIP structure pointer [Windows Controls], NMLVGETINFOTIP, NMLVGETINFOTIP structure [Windows Controls], NMLVGETINFOTIPA, NMLVGETINFOTIPW, _win32_NMLVGETINFOTIP, _win32_NMLVGETINFOTIP_cpp, commctrl/LPNMLVGETINFOTIP, commctrl/NMLVGETINFOTIP, commctrl/NMLVGETINFOTIPA, commctrl/NMLVGETINFOTIPW, controls.NMLVGETINFOTIP, controls._win32_NMLVGETINFOTIP'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMLVGETINFOTIP
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

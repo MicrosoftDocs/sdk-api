@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateFileItem
 title: IFileSystemImage::CreateFileItem (imapi2fs.h)
-
 description: Create a file item with the specified name.
 old-location: imapi\ifilesystemimage_createfileitem.htm
 tech.root: imapi
 ms.assetid: 8e90e367-e7c3-41db-a8c9-9b0220cf402b
-
 ms.date: 12/05/2018
 ms.keywords: CreateFileItem, CreateFileItem method [IMAPI], CreateFileItem method [IMAPI],IFileSystemImage interface, IFileSystemImage interface [IMAPI],CreateFileItem method, IFileSystemImage.CreateFileItem, IFileSystemImage::CreateFileItem, imapi.ifilesystemimage_createfileitem, imapi2fs/IFileSystemImage::CreateFileItem
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.CreateFileItem"
+f1_keywords:
+- imapi2fs/IFileSystemImage.CreateFileItem
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.CreateFileItem
+- IFileSystemImage.CreateFileItem
 targetos: Windows
 req.typenames: 
 req.redist: 

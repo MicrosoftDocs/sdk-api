@@ -1,19 +1,17 @@
 ---
 UID: NS:mmreg.wavefilter_tag
 title: WAVEFILTER (mmreg.h)
-
 description: The WAVEFILTER structure defines a filter for waveform-audio data.
 old-location: multimedia\wavefilter.htm
 tech.root: Multimedia
 ms.assetid: dea3df47-88a2-439f-bf07-b5c592bf23e8
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter"
+ms.keywords: '*LPWAVEFILTER, *NPWAVEFILTER, *PWAVEFILTER, WAVEFILTER, WAVEFILTER structure [Windows Multimedia], _win32_WAVEFILTER_str, mmreg/WAVEFILTER, multimedia.wavefilter'
 ms.topic: struct
-f1_keywords: 
- - "mmreg/WAVEFILTER"
+f1_keywords:
+- mmreg/WAVEFILTER
 dev_langs:
- - c++
+- c++
 req.header: mmreg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmreg.h
+- Mmreg.h
 api_name:
- - WAVEFILTER
+- WAVEFILTER
 targetos: Windows
 req.typenames: WAVEFILTER
 req.redist: 

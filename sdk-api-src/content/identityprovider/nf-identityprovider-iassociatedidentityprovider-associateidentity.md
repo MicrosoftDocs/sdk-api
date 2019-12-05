@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.AssociateIdentity
 title: IAssociatedIdentityProvider::AssociateIdentity (identityprovider.h)
-
 description: Associates an identity with a local user account.
 old-location: security\iassociatedidentityprovider_associateidentity.htm
 tech.root: SecAuthN
 ms.assetid: 2d1d1da9-c1d0-4970-aad2-928bf6a4aaf0
-
 ms.date: 12/05/2018
 ms.keywords: AssociateIdentity, AssociateIdentity method [Security], AssociateIdentity method [Security],IAssociatedIdentityProvider interface, IAssociatedIdentityProvider interface [Security],AssociateIdentity method, IAssociatedIdentityProvider.AssociateIdentity, IAssociatedIdentityProvider::AssociateIdentity, identityprovider/IAssociatedIdentityProvider::AssociateIdentity, identitystore/IAssociatedIdentityProvider::AssociateIdentity, security.iassociatedidentityprovider_associateidentity
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IAssociatedIdentityProvider.AssociateIdentity"
+f1_keywords:
+- identityprovider/IAssociatedIdentityProvider.AssociateIdentity
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - IdentityProvider.h
- - Identitystore.h
+- IdentityProvider.h
+- Identitystore.h
 api_name:
- - IAssociatedIdentityProvider.AssociateIdentity
+- IAssociatedIdentityProvider.AssociateIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

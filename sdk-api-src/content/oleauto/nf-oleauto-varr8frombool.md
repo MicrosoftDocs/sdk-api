@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarR8FromBool
 title: VarR8FromBool function (oleauto.h)
-
 description: Converts a Boolean value to a double value.
 old-location: automat\varr8frombool.htm
 tech.root: automat
 ms.assetid: f1625830-72c6-4efc-b234-f4def897aae6
-
 ms.date: 12/05/2018
 ms.keywords: VarR8FromBool, VarR8FromBool function [Automation], _oa96_VarR8FromBool, automat.varr8frombool, oleauto/VarR8FromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarR8FromBool"
+f1_keywords:
+- oleauto/VarR8FromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarR8FromBool
+- VarR8FromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

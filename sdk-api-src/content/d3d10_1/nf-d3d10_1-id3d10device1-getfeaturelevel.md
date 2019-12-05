@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10_1.ID3D10Device1.GetFeatureLevel
 title: ID3D10Device1::GetFeatureLevel (d3d10_1.h)
-
 description: Gets the feature level of the hardware device.
 old-location: direct3d10\id3d10device1_getfeaturelevel.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1_getfeaturelevel.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetFeatureLevel, GetFeatureLevel method [Direct3D 10], GetFeatureLevel method [Direct3D 10],ID3D10Device1 interface, ID3D10Device1 interface [Direct3D 10],GetFeatureLevel method, ID3D10Device1.GetFeatureLevel, ID3D10Device1::GetFeatureLevel, b022958c-4dfb-b20b-1514-f13fbfb0fd46, d3d10_1/ID3D10Device1::GetFeatureLevel, direct3d10.id3d10device1_getfeaturelevel
 ms.topic: method
-f1_keywords: 
- - "d3d10_1/ID3D10Device1.GetFeatureLevel"
+f1_keywords:
+- d3d10_1/ID3D10Device1.GetFeatureLevel
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10_1.h
+- D3D10_1.h
 api_name:
- - ID3D10Device1.GetFeatureLevel
+- ID3D10Device1.GetFeatureLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

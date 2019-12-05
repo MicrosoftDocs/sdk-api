@@ -1,19 +1,17 @@
 ---
 UID: NF:storprop.CdromIsDigitalPlaybackEnabled
 title: CdromIsDigitalPlaybackEnabled function (storprop.h)
-
 description: Determines whether digital playback is enabled for the specified CD-ROM or DVD drive.
 old-location: base\cdromisdigitalplaybackenabled.htm
 tech.root: devio
 ms.assetid: 17d1ccc6-a552-434f-84f5-471455e97dc2
-
 ms.date: 12/05/2018
 ms.keywords: CdromIsDigitalPlaybackEnabled, CdromIsDigitalPlaybackEnabled function, base.cdromisdigitalplaybackenabled, storprop/CdromIsDigitalPlaybackEnabled
 ms.topic: function
-f1_keywords: 
- - "storprop/CdromIsDigitalPlaybackEnabled"
+f1_keywords:
+- storprop/CdromIsDigitalPlaybackEnabled
 dev_langs:
- - c++
+- c++
 req.header: storprop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: StorProp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - StorProp.dll
+- StorProp.dll
 api_name:
- - CdromIsDigitalPlaybackEnabled
+- CdromIsDigitalPlaybackEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

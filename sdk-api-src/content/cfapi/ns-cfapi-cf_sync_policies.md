@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_SYNC_POLICIES
 title: CF_SYNC_POLICIES (cfapi.h)
-
 description: Defines the sync policies used by a sync root.
 old-location: cloudapi\cf_sync_policies.htm
 tech.root: cfApi
 ms.assetid: 5BCD0958-1FED-4F97-A4B4-2EB354E85BF6
-
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_POLICIES, CF_SYNC_POLICIES structure, cfapi/CF_SYNC_POLICIES, cloudApi.cf_sync_policies
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_SYNC_POLICIES"
+f1_keywords:
+- cfapi/CF_SYNC_POLICIES
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_SYNC_POLICIES
+- CF_SYNC_POLICIES
 targetos: Windows
 req.typenames: CF_SYNC_POLICIES
 req.redist: 

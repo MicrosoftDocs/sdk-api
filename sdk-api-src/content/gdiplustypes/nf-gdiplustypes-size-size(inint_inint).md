@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Size.Size(IN INT,IN INT)
 title: Size::Size(IN INT,IN INT) (gdiplustypes.h)
-
 description: Creates a Size object and initializes its Width and Height data members.
 old-location: gdiplus\_gdiplus_CLASS_Size_Size_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sizeclass\sizeconstructors\size_21width_height.htm
-
 ms.date: 12/05/2018
 ms.keywords: Size, Size class [GDI+],Size constructor, Size constructor [GDI+], Size constructor [GDI+],Size class, Size.Size, Size.Size(IN INT,IN INT), Size.Size(INT,INT), Size::Size, Size::Size(IN INT,IN INT), _gdiplus_CLASS_Size_Size_width_height_, gdiplus._gdiplus_CLASS_Size_Size_width_height_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Size.Size"
+f1_keywords:
+- gdiplustypes/Size.Size
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Size.Size
+- Size.Size
 targetos: Windows
 req.typenames: 
 req.redist: 

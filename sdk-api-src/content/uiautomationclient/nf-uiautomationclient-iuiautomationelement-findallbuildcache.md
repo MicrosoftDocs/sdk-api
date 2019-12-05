@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.FindAllBuildCache
 title: IUIAutomationElement::FindAllBuildCache (uiautomationclient.h)
-
 description: Returns all UI Automation elements that satisfy the specified condition, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
 old-location: winauto\uiauto_IUIAutomationElement_FindAllBuildCache.htm
 tech.root: WinAuto
 ms.assetid: acf16f88-2b68-4fd4-b715-b3a61340bdd0
-
 ms.date: 12/05/2018
 ms.keywords: FindAllBuildCache, FindAllBuildCache method [Windows Accessibility], FindAllBuildCache method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],FindAllBuildCache method, IUIAutomationElement.FindAllBuildCache, IUIAutomationElement::FindAllBuildCache, uiauto.uiauto_IUIAutomationElement_FindAllBuildCache, uiauto_IUIAutomationElement_FindAllBuildCache, uiautomationclient/IUIAutomationElement::FindAllBuildCache, winauto.uiauto_IUIAutomationElement_FindAllBuildCache
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.FindAllBuildCache"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.FindAllBuildCache
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.FindAllBuildCache
+- IUIAutomationElement.FindAllBuildCache
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetPaletteEntries
 title: SetPaletteEntries function (wingdi.h)
-
 description: The SetPaletteEntries function sets RGB (red, green, blue) color values and flags in a range of entries in a logical palette.
 old-location: gdi\setpaletteentries.htm
 tech.root: gdi
 ms.assetid: df38f482-75ba-4800-8b26-92204c63255e
-
 ms.date: 12/05/2018
 ms.keywords: SetPaletteEntries, SetPaletteEntries function [Windows GDI], _win32_SetPaletteEntries, gdi.setpaletteentries, wingdi/SetPaletteEntries
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetPaletteEntries"
+f1_keywords:
+- wingdi/SetPaletteEntries
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - SetPaletteEntries
+- SetPaletteEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

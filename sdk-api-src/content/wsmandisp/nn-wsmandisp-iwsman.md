@@ -1,19 +1,17 @@
 ---
 UID: NN:wsmandisp.IWSMan
 title: IWSMan (wsmandisp.h)
-
 description: Provides methods and properties used to create a session, represented by a Session object.
 old-location: winrm\iwsman.htm
 tech.root: winrm
 ms.assetid: 4e5acfa6-9883-4716-ac69-92161c926c66
-
 ms.date: 12/05/2018
 ms.keywords: IWSMan, IWSMan interface [Windows Remote Management], IWSMan interface [Windows Remote Management],described, winrm.iwsman, wsmandisp/IWSMan
 ms.topic: interface
-f1_keywords: 
- - "wsmandisp/IWSMan"
+f1_keywords:
+- wsmandisp/IWSMan
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSMan
- - IWSMan.CreateSession
- - IWSMan.CreateConnectionOptions
- - IWSMan.CommandLine
- - IWSMan.get_CommandLine
- - IWSMan.Error
- - IWSMan.get_Error
+- IWSMan
+- IWSMan.CreateSession
+- IWSMan.CreateConnectionOptions
+- IWSMan.CommandLine
+- IWSMan.get_CommandLine
+- IWSMan.Error
+- IWSMan.get_Error
 targetos: Windows
 req.typenames: 
 req.redist: 

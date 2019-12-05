@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.SHRunControlPanel
 title: SHRunControlPanel function (shlobj.h)
-
 description: Opens a Control Panel item.
 old-location: shell\SHRunControlPanel.htm
 tech.root: shell
 ms.assetid: 393a1f63-071e-4655-b6fb-7b0abca7818c
-
 ms.date: 12/05/2018
 ms.keywords: SHRunControlPanel, SHRunControlPanel function [Windows Shell], _shell_SHRunControlPanel, shell.SHRunControlPanel, shlobj/SHRunControlPanel
 ms.topic: function
-f1_keywords: 
- - "shlobj/SHRunControlPanel"
+f1_keywords:
+- shlobj/SHRunControlPanel
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHRunControlPanel
+- SHRunControlPanel
 targetos: Windows
 req.typenames: 
 req.redist: 

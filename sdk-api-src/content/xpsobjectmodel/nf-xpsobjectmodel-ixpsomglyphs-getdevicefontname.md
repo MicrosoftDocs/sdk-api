@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.GetDeviceFontName
 title: IXpsOMGlyphs::GetDeviceFontName (xpsobjectmodel.h)
-
 description: Gets the name of the device font.
 old-location: xps\ixpsomglyphs_getdevicefontname.htm
 tech.root: printdocs
 ms.assetid: cb288d73-da4d-4b46-95e5-c451c9ee2dc7
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceFontName, GetDeviceFontName method [XPS Documents and Packaging], GetDeviceFontName method [XPS Documents and Packaging],IXpsOMGlyphs interface, IXpsOMGlyphs interface [XPS Documents and Packaging],GetDeviceFontName method, IXpsOMGlyphs.GetDeviceFontName, IXpsOMGlyphs::GetDeviceFontName, xps.ixpsomglyphs_getdevicefontname, xpsobjectmodel/IXpsOMGlyphs::GetDeviceFontName
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphs.GetDeviceFontName"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphs.GetDeviceFontName
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs.GetDeviceFontName
+- IXpsOMGlyphs.GetDeviceFontName
 targetos: Windows
 req.typenames: 
 req.redist: 

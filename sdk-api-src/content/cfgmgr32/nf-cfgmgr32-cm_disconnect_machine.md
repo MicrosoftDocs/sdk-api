@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Disconnect_Machine
 title: CM_Disconnect_Machine function (cfgmgr32.h)
-
 description: The CM_Disconnect_Machine function removes a connection to a remote machine.
 old-location: devinst\cm_disconnect_machine.htm
 tech.root: devinst
 ms.assetid: 8318eb7e-f0fa-4b2a-b82d-e8f830665c9d
-
 ms.date: 12/05/2018
 ms.keywords: CM_Disconnect_Machine, CM_Disconnect_Machine function [Device and Driver Installation], cfgmgr32/CM_Disconnect_Machine, cfgmgrfn_e3549f15-0066-4ace-9b50-45ecf20cce87.xml, devinst.cm_disconnect_machine
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Disconnect_Machine"
+f1_keywords:
+- cfgmgr32/CM_Disconnect_Machine
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Disconnect_Machine
+- CM_Disconnect_Machine
 targetos: Windows
 req.typenames: 
 req.redist: 

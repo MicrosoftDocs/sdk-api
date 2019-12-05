@@ -1,19 +1,17 @@
 ---
 UID: NF:netsh.MatchToken
 title: MatchToken function (netsh.h)
-
 description: Determines whether a user-entered string matches a specific string.
 old-location: netshell\matchtoken.htm
 tech.root: netshell
 ms.assetid: d6389d2e-1987-4ea6-967c-260686659852
-
 ms.date: 12/05/2018
 ms.keywords: MatchToken, MatchToken function [NetShell], _netsh_matchtoken, netsh/MatchToken, netshell.matchtoken
 ms.topic: function
-f1_keywords: 
- - "netsh/MatchToken"
+f1_keywords:
+- netsh/MatchToken
 dev_langs:
- - c++
+- c++
 req.header: netsh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netsh.lib
 req.dll: Netsh.exe
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netsh.exe
+- Netsh.exe
 api_name:
- - MatchToken
+- MatchToken
 targetos: Windows
 req.typenames: 
 req.redist: 

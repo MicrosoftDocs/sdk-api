@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.NextFrame
 title: IShellImageData::NextFrame (shimgdata.h)
-
 description: Switches to the next frame of an animated image.
 old-location: shell\IShellImageData_NextFrame.htm
 tech.root: shell
 ms.assetid: b797539e-7766-4da7-864f-401c7c2ff082
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],NextFrame method, IShellImageData.NextFrame, IShellImageData::NextFrame, NextFrame, NextFrame method [Windows Shell], NextFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_NextFrame, shell.IShellImageData_NextFrame, shimgdata/IShellImageData::NextFrame
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.NextFrame"
+f1_keywords:
+- shimgdata/IShellImageData.NextFrame
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.NextFrame
+- IShellImageData.NextFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

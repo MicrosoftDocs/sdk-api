@@ -1,19 +1,17 @@
 ---
 UID: NE:mfapi._MFVideo3DSampleFormat
 title: MFVideo3DSampleFormat (mfapi.h)
-
 description: Specifies how a 3D video frame is stored in a media sample.
 old-location: mf\mfvideo3dsampleformat.htm
 tech.root: medfound
 ms.assetid: 4EC788EC-85C9-41B2-A105-3B6EA040F2B7
-
 ms.date: 12/05/2018
 ms.keywords: MFSampleExtension_3DVideo_MultiView, MFSampleExtension_3DVideo_Packed, MFVideo3DSampleFormat, MFVideo3DSampleFormat enumeration [Media Foundation], mf.mfvideo3dsampleformat, mfapi/MFSampleExtension_3DVideo_MultiView, mfapi/MFSampleExtension_3DVideo_Packed, mfapi/MFVideo3DSampleFormat
 ms.topic: enum
-f1_keywords: 
- - "mfapi/MFVideo3DSampleFormat"
+f1_keywords:
+- mfapi/MFVideo3DSampleFormat
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFVideo3DSampleFormat
+- MFVideo3DSampleFormat
 targetos: Windows
 req.typenames: MFVideo3DSampleFormat
 req.redist: 

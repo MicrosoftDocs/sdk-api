@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.CreateTypeLib
 title: CreateTypeLib function (oleauto.h)
-
 description: Provides access to a new object instance that supports the ICreateTypeLib interface.
 old-location: automat\createtypelib.htm
 tech.root: automat
 ms.assetid: c7a94d5b-7ac5-4b7c-8aed-ead23de9ea75
-
 ms.date: 12/05/2018
 ms.keywords: CreateTypeLib, CreateTypeLib function [Automation], _oa96_CreateTypeLib, automat.createtypelib, oleauto/CreateTypeLib
 ms.topic: function
-f1_keywords: 
- - "oleauto/CreateTypeLib"
+f1_keywords:
+- oleauto/CreateTypeLib
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - CreateTypeLib
+- CreateTypeLib
 targetos: Windows
 req.typenames: 
 req.redist: 

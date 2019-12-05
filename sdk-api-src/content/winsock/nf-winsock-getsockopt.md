@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock.getsockopt
 title: getsockopt function (winsock.h)
-
 description: The getsockopt function retrieves a socket option.
 old-location: winsock\getsockopt_2.htm
 tech.root: WinSock
 ms.assetid: 25bc511d-7a9f-41c1-8983-1af1e3f8bf2d
-
 ms.date: 12/05/2018
 ms.keywords: _win32_getsockopt_2, getsockopt, getsockopt function [Winsock], winsock.getsockopt_2, winsock/getsockopt
 ms.topic: function
 f1_keywords:
 - winsock/getsockopt
 dev_langs:
- - c++
+- c++
 req.header: winsock.h
 req.include-header: Winsock2.h
 req.target-type: Windows

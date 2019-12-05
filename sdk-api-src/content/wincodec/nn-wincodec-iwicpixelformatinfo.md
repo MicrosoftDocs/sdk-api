@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICPixelFormatInfo
 title: IWICPixelFormatInfo (wincodec.h)
-
 description: Exposes methods that provide information about a pixel format.
 old-location: wic\_wic_codec_iwicpixelformatinfo.htm
 tech.root: wic
 ms.assetid: d5853b27-4329-40d8-bfd0-b4b0f39ba6d5
-
 ms.date: 12/05/2018
 ms.keywords: IWICPixelFormatInfo, IWICPixelFormatInfo interface [Windows Imaging Component], IWICPixelFormatInfo interface [Windows Imaging Component],described, _wic_codec_iwicpixelformatinfo, wic._wic_codec_iwicpixelformatinfo, wincodec/IWICPixelFormatInfo
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICPixelFormatInfo"
+f1_keywords:
+- wincodec/IWICPixelFormatInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICPixelFormatInfo
+- IWICPixelFormatInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.MFPMPSESSION_CREATION_FLAGS
 title: MFPMPSESSION_CREATION_FLAGS (mfidl.h)
-
 description: Contains flags that define the behavior of the MFCreatePMPMediaSession function.
 old-location: mf\mfpmpsession_creation_flags.htm
 tech.root: medfound
 ms.assetid: 6341aaff-aa80-4172-8577-0b757a01ea53
-
 ms.date: 12/05/2018
 ms.keywords: 6341aaff-aa80-4172-8577-0b757a01ea53, MFPMPSESSION_CREATION_FLAGS, MFPMPSESSION_CREATION_FLAGS enumeration [Media Foundation], MFPMPSESSION_UNPROTECTED_PROCESS, mf.mfpmpsession_creation_flags, mfidl/MFPMPSESSION_CREATION_FLAGS, mfidl/MFPMPSESSION_UNPROTECTED_PROCESS
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFPMPSESSION_CREATION_FLAGS"
+f1_keywords:
+- mfidl/MFPMPSESSION_CREATION_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFPMPSESSION_CREATION_FLAGS
+- MFPMPSESSION_CREATION_FLAGS
 targetos: Windows
 req.typenames: MFPMPSESSION_CREATION_FLAGS
 req.redist: 

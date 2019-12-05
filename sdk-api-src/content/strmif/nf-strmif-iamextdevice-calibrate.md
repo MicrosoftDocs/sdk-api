@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtDevice.Calibrate
 title: IAMExtDevice::Calibrate (strmif.h)
-
 description: The Calibrate method calibrates an external device's transport mechanism.
 old-location: dshow\iamextdevice_calibrate.htm
 tech.root: DirectShow
 ms.assetid: 0c760669-c494-45bb-994e-5b4599db7de4
-
 ms.date: 12/05/2018
 ms.keywords: Calibrate, Calibrate method [DirectShow], Calibrate method [DirectShow],IAMExtDevice interface, IAMExtDevice interface [DirectShow],Calibrate method, IAMExtDevice.Calibrate, IAMExtDevice::Calibrate, IAMExtDeviceCalibrate, dshow.iamextdevice_calibrate, strmif/IAMExtDevice::Calibrate
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtDevice.Calibrate"
+f1_keywords:
+- strmif/IAMExtDevice.Calibrate
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtDevice.Calibrate
+- IAMExtDevice.Calibrate
 targetos: Windows
 req.typenames: 
 req.redist: 

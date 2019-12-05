@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.CLRES_V2_FUNCTIONS
 title: CLRES_V2_FUNCTIONS (resapi.h)
-
 description: Contains pointers to all Resource API version 2.0 entry points except StartupEx.
 old-location: mscs\clres_v2_functions.htm
 tech.root: MsCS
 ms.assetid: 81A5169E-C2AB-4666-9D9F-9DE4A639D0D6
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS structure [Failover Cluster], PCLRES_V2_FUNCTIONS, PCLRES_V2_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v2_functions, resapi/CLRES_V2_FUNCTIONS, resapi/PCLRES_V2_FUNCTIONS"
+ms.keywords: '*PCLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS, CLRES_V2_FUNCTIONS structure [Failover Cluster], PCLRES_V2_FUNCTIONS, PCLRES_V2_FUNCTIONS structure pointer [Failover Cluster], mscs.clres_v2_functions, resapi/CLRES_V2_FUNCTIONS, resapi/PCLRES_V2_FUNCTIONS'
 ms.topic: struct
-f1_keywords: 
- - "resapi/CLRES_V2_FUNCTIONS"
+f1_keywords:
+- resapi/CLRES_V2_FUNCTIONS
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - CLRES_V2_FUNCTIONS
+- CLRES_V2_FUNCTIONS
 targetos: Windows
 req.typenames: CLRES_V2_FUNCTIONS, *PCLRES_V2_FUNCTIONS
 req.redist: 

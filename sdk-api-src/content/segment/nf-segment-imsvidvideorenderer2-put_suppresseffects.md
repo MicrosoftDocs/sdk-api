@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.put_SuppressEffects
 title: IMSVidVideoRenderer2::put_SuppressEffects (segment.h)
-
 description: The put_SuppressEffects method sets preferences for power management and visual effects.
 old-location: mstv\imsvidvideorenderer2_put_suppresseffects.htm
 tech.root: mstv
 ms.assetid: d362addb-626a-42f8-9b95-82189a338527
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRenderer2 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVideoRenderer2.put_SuppressEffects, IMSVidVideoRenderer2::put_SuppressEffects, IMSVidVideoRenderer2put_SuppressEffects, mstv.imsvidvideorenderer2_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVideoRenderer2 interface, segment/IMSVidVideoRenderer2::put_SuppressEffects
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRenderer2.put_SuppressEffects"
+f1_keywords:
+- segment/IMSVidVideoRenderer2.put_SuppressEffects
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRenderer2.put_SuppressEffects
+- IMSVidVideoRenderer2.put_SuppressEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

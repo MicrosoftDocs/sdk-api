@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.CopyTo
 title: IStorage::CopyTo (objidl.h)
-
 description: Copies the entire contents of an open storage object to another storage object.
 old-location: stg\istorage_copyto.htm
 tech.root: Stg
 ms.assetid: 8b25b32b-f739-406a-96e8-dba687c7f055
-
 ms.date: 12/05/2018
 ms.keywords: CopyTo, CopyTo method [Structured Storage], CopyTo method [Structured Storage],IStorage interface, IStorage interface [Structured Storage],CopyTo method, IStorage.CopyTo, IStorage::CopyTo, _stg_istorage_copyto, objidl/IStorage::CopyTo, stg.istorage_copyto
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.CopyTo"
+f1_keywords:
+- objidl/IStorage.CopyTo
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.CopyTo
+- IStorage.CopyTo
 targetos: Windows
 req.typenames: 
 req.redist: 

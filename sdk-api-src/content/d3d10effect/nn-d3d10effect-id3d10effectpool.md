@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectPool
 title: ID3D10EffectPool (d3d10effect.h)
-
 description: A pool interface represents a common memory space (or pool) for sharing variables between effects.
 old-location: direct3d10\id3d10effectpool.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpool.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3c4865e5-4958-111b-ced6-75e2e367d986, ID3D10EffectPool, ID3D10EffectPool interface [Direct3D 10], ID3D10EffectPool interface [Direct3D 10],described, d3d10effect/ID3D10EffectPool, direct3d10.id3d10effectpool
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectPool"
+f1_keywords:
+- d3d10effect/ID3D10EffectPool
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectPool
+- ID3D10EffectPool
 targetos: Windows
 req.typenames: 
 req.redist: 

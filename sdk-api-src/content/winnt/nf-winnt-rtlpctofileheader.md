@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlPcToFileHeader
 title: RtlPcToFileHeader function (winnt.h)
-
 description: Retrieves the base address of the image that contains the specified PC value.
 old-location: base\rtlpctofileheader.htm
 tech.root: Debug
 ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac
-
 ms.date: 12/05/2018
 ms.keywords: RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofileheader, winnt/RtlPcToFileHeader
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlPcToFileHeader"
+f1_keywords:
+- winnt/RtlPcToFileHeader
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-rtlsupport-l1-1-0.dll
- - ntdll.dll
- - API-MS-Win-Core-rtlsupport-l1-2-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-rtlsupport-l1-1-0.dll
+- ntdll.dll
+- API-MS-Win-Core-rtlsupport-l1-2-0.dll
 api_name:
- - RtlPcToFileHeader
+- RtlPcToFileHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_BackgroundPalette
 title: IVideoWindow::get_BackgroundPalette (control.h)
-
 description: The get_BackgroundPalette method queries whether the video window realizes its palette in the background..
 old-location: dshow\ivideowindow_get_backgroundpalette.htm
 tech.root: DirectShow
 ms.assetid: cdd11f60-e042-4aad-a867-d1e12a88ebfe
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_BackgroundPalette method, IVideoWindow.get_BackgroundPalette, IVideoWindow::get_BackgroundPalette, IVideoWindowget_BackgroundPalette, control/IVideoWindow::get_BackgroundPalette, dshow.ivideowindow_get_backgroundpalette, get_BackgroundPalette, get_BackgroundPalette method [DirectShow], get_BackgroundPalette method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_BackgroundPalette"
+f1_keywords:
+- control/IVideoWindow.get_BackgroundPalette
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_BackgroundPalette
+- IVideoWindow.get_BackgroundPalette
 targetos: Windows
 req.typenames: 
 req.redist: 

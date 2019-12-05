@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDictionary.GetCount
 title: IXpsOMDictionary::GetCount (xpsobjectmodel.h)
-
 description: Gets the number of entries in the dictionary.
 old-location: xps\ixpsomdictionary_getcount.htm
 tech.root: printdocs
 ms.assetid: 66737d94-aa63-4f01-a446-1dffc18e8b82
-
 ms.date: 12/05/2018
 ms.keywords: GetCount, GetCount method [XPS Documents and Packaging], GetCount method [XPS Documents and Packaging],IXpsOMDictionary interface, IXpsOMDictionary interface [XPS Documents and Packaging],GetCount method, IXpsOMDictionary.GetCount, IXpsOMDictionary::GetCount, xps.ixpsomdictionary_getcount, xpsobjectmodel/IXpsOMDictionary::GetCount
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDictionary.GetCount"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDictionary.GetCount
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary.GetCount
+- IXpsOMDictionary.GetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

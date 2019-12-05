@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAngle
 title: IDvdControl2::SelectAngle (strmif.h)
-
 description: The SelectAngle method sets the new angle when the DVD Navigator is in an angle block.
 old-location: dshow\idvdcontrol2_selectangle.htm
 tech.root: DirectShow
 ms.assetid: 4acc06bc-efc3-46eb-bb71-4eb981048b36
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SelectAngle method, IDvdControl2.SelectAngle, IDvdControl2::SelectAngle, IDvdControl2SelectAngle, SelectAngle, SelectAngle method [DirectShow], SelectAngle method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_selectangle, strmif/IDvdControl2::SelectAngle
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SelectAngle"
+f1_keywords:
+- strmif/IDvdControl2.SelectAngle
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SelectAngle
+- IDvdControl2.SelectAngle
 targetos: Windows
 req.typenames: 
 req.redist: 

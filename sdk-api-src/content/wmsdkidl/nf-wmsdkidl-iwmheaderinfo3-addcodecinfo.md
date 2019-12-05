@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.AddCodecInfo
 title: IWMHeaderInfo3::AddCodecInfo (wmsdkidl.h)
-
 description: The AddCodecInfo method adds codec information to a file. When you copy a compressed stream from one file to another, use this method to include the information about the encoding codec in the file header.
 old-location: wmformat\iwmheaderinfo3_addcodecinfo.htm
 tech.root: wmformat
 ms.assetid: 4c5bc019-e4bb-419b-91ce-779fd36d7b4c
-
 ms.date: 12/05/2018
 ms.keywords: AddCodecInfo, AddCodecInfo method [windows Media Format], AddCodecInfo method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],AddCodecInfo method, IWMHeaderInfo3.AddCodecInfo, IWMHeaderInfo3::AddCodecInfo, IWMHeaderInfo3AddCodecInfo, wmformat.iwmheaderinfo3_addcodecinfo, wmsdkidl/IWMHeaderInfo3::AddCodecInfo
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo3.AddCodecInfo"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo3.AddCodecInfo
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.AddCodecInfo
+- IWMHeaderInfo3.AddCodecInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

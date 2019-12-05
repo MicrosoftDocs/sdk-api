@@ -1,19 +1,17 @@
 ---
 UID: NN:peninputpanel.IPenInputPanel
 title: IPenInputPanel (peninputpanel.h)
-
-description: "."
+description: .
 old-location: tablet\ipeninputpanel.htm
 tech.root: tablet
 ms.assetid: AA973F9D-264F-4D08-9D86-C5DAEF1C09D5
-
 ms.date: 12/05/2018
 ms.keywords: IPenInputPanel, IPenInputPanel interface [Tablet PC], IPenInputPanel interface [Tablet PC],described, peninputpanel/IPenInputPanel, tablet.ipeninputpanel
 ms.topic: interface
-f1_keywords: 
- - "peninputpanel/IPenInputPanel"
+f1_keywords:
+- peninputpanel/IPenInputPanel
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - peninputpanel.h
+- peninputpanel.h
 api_name:
- - IPenInputPanel
+- IPenInputPanel
 targetos: Windows
 req.typenames: 
 req.redist: 

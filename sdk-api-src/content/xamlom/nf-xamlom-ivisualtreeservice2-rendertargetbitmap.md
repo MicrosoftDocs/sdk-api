@@ -1,19 +1,17 @@
 ---
 UID: NF:xamlom.IVisualTreeService2.RenderTargetBitmap
 title: IVisualTreeService2::RenderTargetBitmap (xamlom.h)
-
 description: Returns an image that represents the object described by handle, or returns an error if the object does not have or cannot provide such an image.
 old-location: xaml_diagnostics\ivisualtreeservice2_rendertargetbitmap.htm
 tech.root: xaml_diagnostics
 ms.assetid: BE5DA08C-46F9-44E1-89CD-85613DD3BDE4
-
 ms.date: 12/05/2018
 ms.keywords: IVisualTreeService2 interface,RenderTargetBitmap method, IVisualTreeService2.RenderTargetBitmap, IVisualTreeService2::RenderTargetBitmap, RenderTargetBitmap, RenderTargetBitmap method, RenderTargetBitmap method,IVisualTreeService2 interface, xaml_diagnostics.ivisualtreeservice2_rendertargetbitmap, xamlom/IVisualTreeService2::RenderTargetBitmap
 ms.topic: method
-f1_keywords: 
- - "xamlom/IVisualTreeService2.RenderTargetBitmap"
+f1_keywords:
+- xamlom/IVisualTreeService2.RenderTargetBitmap
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - IVisualTreeService2.RenderTargetBitmap
+- IVisualTreeService2.RenderTargetBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

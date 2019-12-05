@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlQueryDepthSList
 title: RtlQueryDepthSList function (winnt.h)
-
 description: Retrieves the number of entries in the specified singly linked list.
 old-location: base\rtlquerydepthslist.htm
 tech.root: Sync
 ms.assetid: 5a73b181-e1ea-459a-b3b0-6cf16980930c
-
 ms.date: 12/05/2018
 ms.keywords: RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepthslist, winnt/RtlQueryDepthSList
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlQueryDepthSList"
+f1_keywords:
+- winnt/RtlQueryDepthSList
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlQueryDepthSList
+- RtlQueryDepthSList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11RefDefaultTrackingOptions.SetTrackingOptions
 title: ID3D11RefDefaultTrackingOptions::SetTrackingOptions (d3d11sdklayers.h)
-
 description: Sets graphics processing unit (GPU) debug reference default tracking options for specific resource types.
 old-location: direct3d11\id3d11refdefaulttrackingoptions_settrackingoptions.htm
 tech.root: direct3d11
 ms.assetid: A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11RefDefaultTrackingOptions interface [Direct3D 11],SetTrackingOptions method, ID3D11RefDefaultTrackingOptions.SetTrackingOptions, ID3D11RefDefaultTrackingOptions::SetTrackingOptions, SetTrackingOptions, SetTrackingOptions method [Direct3D 11], SetTrackingOptions method [Direct3D 11],ID3D11RefDefaultTrackingOptions interface, d3d11sdklayers/ID3D11RefDefaultTrackingOptions::SetTrackingOptions, direct3d11.id3d11refdefaulttrackingoptions_settrackingoptions
 ms.topic: method
-f1_keywords: 
- - "d3d11sdklayers/ID3D11RefDefaultTrackingOptions.SetTrackingOptions"
+f1_keywords:
+- d3d11sdklayers/ID3D11RefDefaultTrackingOptions.SetTrackingOptions
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3DCompiler.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler.lib
- - D3DCompiler.dll
+- D3DCompiler.lib
+- D3DCompiler.dll
 api_name:
- - ID3D11RefDefaultTrackingOptions.SetTrackingOptions
+- ID3D11RefDefaultTrackingOptions.SetTrackingOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

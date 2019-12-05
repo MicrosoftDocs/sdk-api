@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.ITravelLog.UpdateExternal
 title: ITravelLog::UpdateExternal (shdeprecated.h)
-
 description: Deprecated. Updates an entry that originated out of the current procedure through IHlinkFrame.
 old-location: shell\ITravelLog_UpdateExternal.htm
 tech.root: shell
 ms.assetid: 2fda446d-8652-455b-9233-aa02f2a85e7f
-
 ms.date: 12/05/2018
 ms.keywords: ITravelLog interface [Windows Shell],UpdateExternal method, ITravelLog.UpdateExternal, ITravelLog::UpdateExternal, UpdateExternal, UpdateExternal method [Windows Shell], UpdateExternal method [Windows Shell],ITravelLog interface, shdeprecated/ITravelLog::UpdateExternal, shell.ITravelLog_UpdateExternal, zone_ITravelLog_UpdateExternal
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/ITravelLog.UpdateExternal"
+f1_keywords:
+- shdeprecated/ITravelLog.UpdateExternal
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - ITravelLog.UpdateExternal
+- ITravelLog.UpdateExternal
 targetos: Windows
 req.typenames: 
 req.redist: 

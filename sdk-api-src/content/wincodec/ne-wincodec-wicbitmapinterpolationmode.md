@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICBitmapInterpolationMode
 title: WICBitmapInterpolationMode (wincodec.h)
-
 description: Specifies the sampling or filtering mode to use when scaling an image.
 old-location: wic\_wic_codec_wicbitmapinterpolationmode.htm
 tech.root: wic
 ms.assetid: 7c707ab7-7cd5-418f-921c-e9114da92f2a
-
 ms.date: 12/05/2018
 ms.keywords: WICBitmapInterpolationMode, WICBitmapInterpolationMode enumeration [Windows Imaging Component], WICBitmapInterpolationModeCubic, WICBitmapInterpolationModeFant, WICBitmapInterpolationModeHighQualityCubic, WICBitmapInterpolationModeLinear, WICBitmapInterpolationModeNearestNeighbor, _wic_codec_wicbitmapinterpolationmode, wic._wic_codec_wicbitmapinterpolationmode, wincodec/WICBitmapInterpolationMode, wincodec/WICBitmapInterpolationModeCubic, wincodec/WICBitmapInterpolationModeFant, wincodec/WICBitmapInterpolationModeHighQualityCubic, wincodec/WICBitmapInterpolationModeLinear, wincodec/WICBitmapInterpolationModeNearestNeighbor
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICBitmapInterpolationMode"
+f1_keywords:
+- wincodec/WICBitmapInterpolationMode
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapInterpolationMode
+- WICBitmapInterpolationMode
 targetos: Windows
 req.typenames: WICBitmapInterpolationMode
 req.redist: 

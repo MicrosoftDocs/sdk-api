@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupShutdown
 title: PeerGroupShutdown function (p2p.h)
-
 description: The PeerGroupShutdown function closes a peer group created with PeerGroupStartup and disposes of any allocated resources.
 old-location: p2p\peergroupshutdown.htm
 tech.root: P2PSdk
 ms.assetid: 61678a50-71cd-4717-b490-2755c605c2d5
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupShutdown, PeerGroupShutdown function [Peer Networking], p2p.peergroupshutdown, p2p/PeerGroupShutdown
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupShutdown"
+f1_keywords:
+- p2p/PeerGroupShutdown
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupShutdown
+- PeerGroupShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

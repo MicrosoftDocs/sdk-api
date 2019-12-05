@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComAppEvents.OnAppShutdown
 title: IComAppEvents::OnAppShutdown (comsvcs.h)
-
 description: Generated when an application server shuts down.
 old-location: cos\icomappevents_onappshutdown.htm
 tech.root: cossdk
 ms.assetid: d4e35147-48c4-4c77-a648-ffd317aa7861
-
 ms.date: 12/05/2018
 ms.keywords: IComAppEvents interface [COM+],OnAppShutdown method, IComAppEvents.OnAppShutdown, IComAppEvents::OnAppShutdown, OnAppShutdown, OnAppShutdown method [COM+], OnAppShutdown method [COM+],IComAppEvents interface, _dtc_IComAppEvents_OnAppShutdown, comsvcs/IComAppEvents::OnAppShutdown, cos.icomappevents_onappshutdown
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComAppEvents.OnAppShutdown"
+f1_keywords:
+- comsvcs/IComAppEvents.OnAppShutdown
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComAppEvents.OnAppShutdown
+- IComAppEvents.OnAppShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

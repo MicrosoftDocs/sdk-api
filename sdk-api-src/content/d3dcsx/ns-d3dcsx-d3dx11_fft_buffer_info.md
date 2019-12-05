@@ -1,19 +1,17 @@
 ---
 UID: NS:d3dcsx.D3DX11_FFT_BUFFER_INFO
 title: D3DX11_FFT_BUFFER_INFO (d3dcsx.h)
-
 description: Describes buffer requirements for an FFT.
 old-location: direct3d11\d3dx11_fft_buffer_info.htm
 tech.root: direct3d11
 ms.assetid: 18db9e61-f1bc-4c70-8b2c-37305d9ac479
-
 ms.date: 12/05/2018
 ms.keywords: D3DX11_FFT_BUFFER_INFO, D3DX11_FFT_BUFFER_INFO structure [Direct3D 11], d3dcsx/D3DX11_FFT_BUFFER_INFO, direct3d11.d3dx11_fft_buffer_info, f06d9ab2-6da1-c0ae-f9cc-c42662b380f5
 ms.topic: struct
-f1_keywords: 
- - "d3dcsx/D3DX11_FFT_BUFFER_INFO"
+f1_keywords:
+- d3dcsx/D3DX11_FFT_BUFFER_INFO
 dev_langs:
- - c++
+- c++
 req.header: d3dcsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3dcsx.h
+- d3dcsx.h
 api_name:
- - D3DX11_FFT_BUFFER_INFO
+- D3DX11_FFT_BUFFER_INFO
 targetos: Windows
 req.typenames: D3DX11_FFT_BUFFER_INFO
 req.redist: 

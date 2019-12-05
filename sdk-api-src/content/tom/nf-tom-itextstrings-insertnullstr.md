@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextStrings.InsertNullStr
 title: ITextStrings::InsertNullStr (tom.h)
-
 description: Inserts a NULL string in the collection at a selected string index.
 old-location: controls\itextstrings_insertnullstr.htm
 tech.root: Controls
 ms.assetid: dc269f41-f65c-4335-ac5c-5c57187f20aa
-
 ms.date: 12/05/2018
 ms.keywords: ITextStrings interface [Windows Controls],InsertNullStr method, ITextStrings.InsertNullStr, ITextStrings::InsertNullStr, InsertNullStr, InsertNullStr method [Windows Controls], InsertNullStr method [Windows Controls],ITextStrings interface, controls.itextstrings_insertnullstr, tom/ITextStrings::InsertNullStr
 ms.topic: method
-f1_keywords: 
- - "tom/ITextStrings.InsertNullStr"
+f1_keywords:
+- tom/ITextStrings.InsertNullStr
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStrings.InsertNullStr
+- ITextStrings.InsertNullStr
 targetos: Windows
 req.typenames: 
 req.redist: 

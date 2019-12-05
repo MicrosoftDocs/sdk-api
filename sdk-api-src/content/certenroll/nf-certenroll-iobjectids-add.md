@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IObjectIds.Add
 title: IObjectIds::Add (certenroll.h)
-
 description: Adds an IObjectId object to the collection.
 old-location: security\iobjectids_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 93f27993-2dba-4aec-9b63-cfd4dd56bbda
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Security], Add method [Security],IObjectIds interface, IObjectIds interface [Security],Add method, IObjectIds.Add, IObjectIds::Add, certenroll/IObjectIds::Add, security.iobjectids_add_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IObjectIds.Add"
+f1_keywords:
+- certenroll/IObjectIds.Add
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IObjectIds.Add
+- IObjectIds.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

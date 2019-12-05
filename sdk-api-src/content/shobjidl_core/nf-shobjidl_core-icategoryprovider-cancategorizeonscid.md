@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.CanCategorizeOnSCID
 title: ICategoryProvider::CanCategorizeOnSCID (shobjidl_core.h)
-
 description: Determines whether a column can be used as a category.
 old-location: shell\ICategoryProvider_CanCategorizeOnSCID.htm
 tech.root: shell
 ms.assetid: e0b10007-7b25-4ddf-8cb9-76d85f8fb4df
-
 ms.date: 12/05/2018
 ms.keywords: CanCategorizeOnSCID, CanCategorizeOnSCID method [Windows Shell], CanCategorizeOnSCID method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],CanCategorizeOnSCID method, ICategoryProvider.CanCategorizeOnSCID, ICategoryProvider::CanCategorizeOnSCID, inet_ICategoryProvider_CanCategorizeOnSCID, shell.ICategoryProvider_CanCategorizeOnSCID, shobjidl_core/ICategoryProvider::CanCategorizeOnSCID
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICategoryProvider.CanCategorizeOnSCID"
+f1_keywords:
+- shobjidl_core/ICategoryProvider.CanCategorizeOnSCID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategoryProvider.CanCategorizeOnSCID
+- ICategoryProvider.CanCategorizeOnSCID
 targetos: Windows
 req.typenames: 
 req.redist: 

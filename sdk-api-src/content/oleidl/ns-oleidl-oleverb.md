@@ -1,19 +1,17 @@
 ---
 UID: NS:oleidl.tagOLEVERB
 title: OLEVERB (oleidl.h)
-
 description: Defines a verb that an object supports. The IOleObject::EnumVerbs method creates an enumerator that can enumerate these structures for an object, and supplies a pointer to the enumerator's IEnumOLEVERB.
 old-location: com\oleverb.htm
 tech.root: com
 ms.assetid: 657e3cc3-67fb-4458-8dad-f2a31df1b631
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOLEVERB, LPOLEVERB, LPOLEVERB structure pointer [COM], OLEVERB, OLEVERB structure [COM], _ole_OLEVERB, com.oleverb, oleidl/LPOLEVERB, oleidl/OLEVERB"
+ms.keywords: '*LPOLEVERB, LPOLEVERB, LPOLEVERB structure pointer [COM], OLEVERB, OLEVERB structure [COM], _ole_OLEVERB, com.oleverb, oleidl/LPOLEVERB, oleidl/OLEVERB'
 ms.topic: struct
-f1_keywords: 
- - "oleidl/OLEVERB"
+f1_keywords:
+- oleidl/OLEVERB
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - OLEVERB
+- OLEVERB
 targetos: Windows
 req.typenames: OLEVERB, *LPOLEVERB
 req.redist: 

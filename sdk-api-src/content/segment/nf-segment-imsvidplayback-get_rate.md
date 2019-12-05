@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_Rate
 title: IMSVidPlayback::get_Rate (segment.h)
-
 description: The get_Rate method retrieves the playback rate.
 old-location: mstv\imsvidplayback_get_rate.htm
 tech.root: mstv
 ms.assetid: 2f91c728-23c7-4559-9c72-ddd92b0b0212
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidPlayback interface [Microsoft TV Technologies],get_Rate method, IMSVidPlayback.get_Rate, IMSVidPlayback::get_Rate, IMSVidPlaybackget_Rate, get_Rate, get_Rate method [Microsoft TV Technologies], get_Rate method [Microsoft TV Technologies],IMSVidPlayback interface, mstv.imsvidplayback_get_rate, segment/IMSVidPlayback::get_Rate
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidPlayback.get_Rate"
+f1_keywords:
+- segment/IMSVidPlayback.get_Rate
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidPlayback.get_Rate
+- IMSVidPlayback.get_Rate
 targetos: Windows
 req.typenames: 
 req.redist: 

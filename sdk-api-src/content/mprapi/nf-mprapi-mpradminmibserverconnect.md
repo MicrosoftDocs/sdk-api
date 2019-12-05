@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminMIBServerConnect
 title: MprAdminMIBServerConnect function (mprapi.h)
-
 description: The MprAdminMIBServerConnect function establishes a connection to the router being administered. This call should be made before any other calls to the server. The handle returned by this function is used in subsequent MIB calls.
 old-location: rras\mpradminmibserverconnect.htm
 tech.root: RRAS
 ms.assetid: 8d8cba34-e5d3-42ae-9724-361802f21410
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBServerConnect, MprAdminMIBServerConnect function [RAS], _mpr_mpradminmibserverconnect, mprapi/MprAdminMIBServerConnect, rras.mpradminmibserverconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminMIBServerConnect"
+f1_keywords:
+- mprapi/MprAdminMIBServerConnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminMIBServerConnect
+- MprAdminMIBServerConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

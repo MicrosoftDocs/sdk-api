@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.SspiCompareAuthIdentities
 title: SspiCompareAuthIdentities function (sspi.h)
-
 description: Compares the two specified credentials.
 old-location: security\sspicompareauthidentities.htm
 tech.root: SecAuthN
 ms.assetid: d2c4f363-3d86-48f0-bae1-4f9240d68bab
-
 ms.date: 12/05/2018
 ms.keywords: SspiCompareAuthIdentities, SspiCompareAuthIdentities function [Security], security.sspicompareauthidentities, sspi/SspiCompareAuthIdentities
 ms.topic: function
-f1_keywords: 
- - "sspi/SspiCompareAuthIdentities"
+f1_keywords:
+- sspi/SspiCompareAuthIdentities
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: SspiCli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - SspiCli.dll
+- SspiCli.dll
 api_name:
- - SspiCompareAuthIdentities
+- SspiCompareAuthIdentities
 targetos: Windows
 req.typenames: 
 req.redist: 

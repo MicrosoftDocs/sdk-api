@@ -1,19 +1,17 @@
 ---
 UID: NS:credentialprovider._CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 title: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION (credentialprovider.h)
-
 description: Contains details about a credential.
 old-location: shell\CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION.htm
 tech.root: shell
 ms.assetid: 55ff9be3-490d-4f82-92a0-3551ccbcaade
-
 ms.date: 12/05/2018
 ms.keywords: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION structure [Windows Shell], _shell_CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION, shell.CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 ms.topic: struct
-f1_keywords: 
- - "credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION"
+f1_keywords:
+- credentialprovider/CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
+- CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundRegion
 title: GetThemeBackgroundRegion function (uxtheme.h)
-
 description: Computes the region for a regular or partially transparent background that is bounded by a specified rectangle.
 old-location: controls\GetThemeBackgroundRegion.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundregion.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeBackgroundRegion, GetThemeBackgroundRegion function [Windows Controls], controls.GetThemeBackgroundRegion, controls.inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion, inet_GetThemeBackgroundRegion_cpp, uxtheme/GetThemeBackgroundRegion
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeBackgroundRegion"
+f1_keywords:
+- uxtheme/GetThemeBackgroundRegion
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeBackgroundRegion
+- GetThemeBackgroundRegion
 targetos: Windows
 req.typenames: 
 req.redist: 

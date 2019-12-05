@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.IntToUShort
 title: IntToUShort function (intsafe.h)
-
 description: Converts a value of type INT to a value of type USHORT.
 old-location: shell\IntToUShort.htm
 tech.root: shell
 ms.assetid: 7e350beb-3cf4-44e1-a9fe-6864bb82d679
-
 ms.date: 12/05/2018
 ms.keywords: IntToUShort, IntToUShort function [Windows Shell], IntToWord, _shell_IntToUShort, intsafe/IntToUShort, shell.IntToUShort
 ms.topic: function
-f1_keywords: 
- - "intsafe/IntToUShort"
+f1_keywords:
+- intsafe/IntToUShort
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - IntToUShort
+- IntToUShort
 targetos: Windows
 req.typenames: 
 req.redist: 

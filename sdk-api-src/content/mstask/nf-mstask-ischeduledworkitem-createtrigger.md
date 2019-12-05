@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.CreateTrigger
 title: IScheduledWorkItem::CreateTrigger (mstask.h)
-
 description: Creates a trigger for the work item.
 old-location: taskschd\ischeduledworkitem_createtrigger.htm
 tech.root: taskschd
 ms.assetid: ff8c9c3b-697f-42f0-a5b5-6194e4c89096
-
 ms.date: 12/05/2018
 ms.keywords: CreateTrigger, CreateTrigger method [Task Scheduler], CreateTrigger method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],CreateTrigger method, IScheduledWorkItem.CreateTrigger, IScheduledWorkItem::CreateTrigger, _msb_ischeduledworkitem_createtrigger, mstask/IScheduledWorkItem::CreateTrigger, taskschd.ischeduledworkitem_createtrigger
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.CreateTrigger"
+f1_keywords:
+- mstask/IScheduledWorkItem.CreateTrigger
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.CreateTrigger
+- IScheduledWorkItem.CreateTrigger
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

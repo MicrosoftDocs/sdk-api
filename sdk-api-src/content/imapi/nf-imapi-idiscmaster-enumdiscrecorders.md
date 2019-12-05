@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMaster.EnumDiscRecorders
 title: IDiscMaster::EnumDiscRecorders (imapi.h)
-
 description: Retrieves an enumerator for all disc recorders supported by the active disc master format.
 old-location: imapi\idiscmaster_enumdiscrecorders.htm
 tech.root: imapi
 ms.assetid: 03daab81-11cf-4100-ab5e-3442a5972912
-
 ms.date: 12/05/2018
 ms.keywords: EnumDiscRecorders, EnumDiscRecorders method [IMAPI], EnumDiscRecorders method [IMAPI],IDiscMaster interface, IDiscMaster interface [IMAPI],EnumDiscRecorders method, IDiscMaster.EnumDiscRecorders, IDiscMaster::EnumDiscRecorders, _win32_idiscmaster_enumdiscrecorders, base.idiscmaster_enumdiscrecorders, imapi.idiscmaster_enumdiscrecorders, imapi/IDiscMaster::EnumDiscRecorders
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMaster.EnumDiscRecorders"
+f1_keywords:
+- imapi/IDiscMaster.EnumDiscRecorders
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMaster.EnumDiscRecorders
+- IDiscMaster.EnumDiscRecorders
 targetos: Windows
 req.typenames: 
 req.redist: 

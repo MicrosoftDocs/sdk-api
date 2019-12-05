@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzRoleDefinition.RoleAssignments
 title: IAzRoleDefinition::RoleAssignments (azroles.h)
-
 description: Retrieves a collection of IAzRoleAssignment objects that represent the role assignments associated with this IAzRoleDefinition object.
 old-location: security\iazroledefinition_roleassignments.htm
 tech.root: SecAuthZ
 ms.assetid: 1b8c3aaf-ed33-4253-b15f-06e5d3415d58
-
 ms.date: 12/05/2018
 ms.keywords: IAzRoleDefinition interface [Security],RoleAssignments property, IAzRoleDefinition.RoleAssignments, IAzRoleDefinition::RoleAssignments, IAzRoleDefinition::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleAssignments, azroles/IAzRoleDefinition::get_RoleAssignments, security.iazroledefinition_roleassignments
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzRoleDefinition.RoleAssignments"
+f1_keywords:
+- azroles/IAzRoleDefinition.RoleAssignments
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzRoleDefinition.RoleAssignments
- - IAzRoleDefinition.get_RoleAssignments
+- IAzRoleDefinition.RoleAssignments
+- IAzRoleDefinition.get_RoleAssignments
 targetos: Windows
 req.typenames: 
 req.redist: 

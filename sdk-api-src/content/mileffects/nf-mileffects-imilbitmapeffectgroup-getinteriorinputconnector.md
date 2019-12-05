@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroup.GetInteriorInputConnector
 title: IMILBitmapEffectGroup::GetInteriorInputConnector (mileffects.h)
-
 description: Retrieves the input connector for an effect at the given index.
 old-location: wibe\_wibe_imilbitmapeffectgroup_getinteriorinputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\getinteriorinputconnector.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetInteriorInputConnector, GetInteriorInputConnector method [WPF Bitmap Effects], GetInteriorInputConnector method [WPF Bitmap Effects],IMILBitmapEffectGroup interface, IMILBitmapEffectGroup interface [WPF Bitmap Effects],GetInteriorInputConnector method, IMILBitmapEffectGroup.GetInteriorInputConnector, IMILBitmapEffectGroup::GetInteriorInputConnector, _wibe_imilbitmapeffectgroup_getinteriorinputconnector, mileffects/IMILBitmapEffectGroup::GetInteriorInputConnector, wibe._wibe_imilbitmapeffectgroup_getinteriorinputconnector
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectGroup.GetInteriorInputConnector"
+f1_keywords:
+- mileffects/IMILBitmapEffectGroup.GetInteriorInputConnector
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectGroup.GetInteriorInputConnector
+- IMILBitmapEffectGroup.GetInteriorInputConnector
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

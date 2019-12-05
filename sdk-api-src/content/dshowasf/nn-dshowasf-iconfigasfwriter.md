@@ -1,19 +1,17 @@
 ---
 UID: NN:dshowasf.IConfigAsfWriter
 title: IConfigAsfWriter (dshowasf.h)
-
 description: The IConfigAsfWriter interface configures the WM ASF Writer filter.
 old-location: dshow\iconfigasfwriter.htm
 tech.root: DirectShow
 ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f
-
 ms.date: 12/05/2018
 ms.keywords: IConfigAsfWriter, IConfigAsfWriter interface [DirectShow], IConfigAsfWriter interface [DirectShow],described, IConfigAsfWriterInterface, dshow.iconfigasfwriter, dshowasf/IConfigAsfWriter
 ms.topic: interface
-f1_keywords: 
- - "dshowasf/IConfigAsfWriter"
+f1_keywords:
+- dshowasf/IConfigAsfWriter
 dev_langs:
- - c++
+- c++
 req.header: dshowasf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dshowasf.h
+- Dshowasf.h
 api_name:
- - IConfigAsfWriter
+- IConfigAsfWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

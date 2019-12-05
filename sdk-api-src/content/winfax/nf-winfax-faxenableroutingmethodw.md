@@ -1,19 +1,17 @@
 ---
 UID: NF:winfax.FaxEnableRoutingMethodW
 title: FaxEnableRoutingMethodW function (winfax.h)
-
 description: The FaxEnableRoutingMethod function enables or disables a fax routing method for a specific fax device. A fax administration application typically calls this function for device management.
 old-location: fax\_mfax_faxenableroutingmethod.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9ov8.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxEnableRoutingMethod, FaxEnableRoutingMethod function [Fax Service], FaxEnableRoutingMethodA, FaxEnableRoutingMethodW, _mfax_faxenableroutingmethod, fax._mfax_faxenableroutingmethod, winfax/FaxEnableRoutingMethod, winfax/FaxEnableRoutingMethodA, winfax/FaxEnableRoutingMethodW
 ms.topic: function
-f1_keywords: 
- - "winfax/FaxEnableRoutingMethod"
+f1_keywords:
+- winfax/FaxEnableRoutingMethod
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: WinFax.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - WinFax.lib
- - WinFax.dll
+- WinFax.lib
+- WinFax.dll
 api_name:
- - FaxEnableRoutingMethod
- - FaxEnableRoutingMethodA
- - FaxEnableRoutingMethodW
+- FaxEnableRoutingMethod
+- FaxEnableRoutingMethodA
+- FaxEnableRoutingMethodW
 targetos: Windows
 req.typenames: 
 req.redist: 

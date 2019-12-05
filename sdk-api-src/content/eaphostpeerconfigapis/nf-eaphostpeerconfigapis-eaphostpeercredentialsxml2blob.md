@@ -1,19 +1,17 @@
 ---
 UID: NF:eaphostpeerconfigapis.EapHostPeerCredentialsXml2Blob
 title: EapHostPeerCredentialsXml2Blob function (eaphostpeerconfigapis.h)
-
 description: Generates the credentials BLOB.
 old-location: eaphost\eaphostpeercredentialsxml2blob.htm
 tech.root: eaphost
 ms.assetid: ef8475f0-047d-4858-b3c1-3ddf41c1847f
-
 ms.date: 12/05/2018
 ms.keywords: EapHostPeerCredentialsXml2Blob, EapHostPeerCredentialsXml2Blob function [EAPHost], eaphost.eaphostpeercredentialsxml2blob, eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
 ms.topic: function
 f1_keywords:
 - eaphostpeerconfigapis/EapHostPeerCredentialsXml2Blob
 dev_langs:
- - c++
+- c++
 req.header: eaphostpeerconfigapis.h
 req.include-header: 
 req.target-type: Windows

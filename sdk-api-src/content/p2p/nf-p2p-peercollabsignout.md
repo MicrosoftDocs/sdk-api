@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabSignout
 title: PeerCollabSignout function (p2p.h)
-
 description: Signs a peer out of a specific type of peer collaboration network presence provider.
 old-location: p2p\peercollabsignout.htm
 tech.root: P2PSdk
 ms.assetid: aa69a233-6104-47c6-a0b5-378794108623
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabSignout, PeerCollabSignout function [Peer Networking], p2p.peercollabsignout, p2p/PeerCollabSignout
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabSignout"
+f1_keywords:
+- p2p/PeerCollabSignout
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabSignout
+- PeerCollabSignout
 targetos: Windows
 req.typenames: 
 req.redist: 

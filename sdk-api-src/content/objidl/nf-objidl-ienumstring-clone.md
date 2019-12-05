@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumString.Clone
 title: IEnumString::Clone (objidl.h)
-
 description: Creates a new enumerator that contains the same enumeration state as the current one.
 old-location: com\ienumstring_clone.htm
 tech.root: com
 ms.assetid: d61ecfb3-9f3b-45ee-9872-9a92240f1234
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IEnumString interface, IEnumString interface [COM],Clone method, IEnumString.Clone, IEnumString::Clone, _com_ienumstring_clone, com.ienumstring_clone, objidlbase/IEnumString::Clone
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumString.Clone"
+f1_keywords:
+- objidl/IEnumString.Clone
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IEnumString.Clone
+- IEnumString.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

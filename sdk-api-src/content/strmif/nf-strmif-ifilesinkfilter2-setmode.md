@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFileSinkFilter2.SetMode
 title: IFileSinkFilter2::SetMode (strmif.h)
-
 description: The SetMode method determines whether the file writer destroys the file when it creates the new one.
 old-location: dshow\ifilesinkfilter2_setmode.htm
 tech.root: DirectShow
 ms.assetid: a32ae597-1468-4ac8-ae7b-8831d2a9ad6e
-
 ms.date: 12/05/2018
 ms.keywords: IFileSinkFilter2 interface [DirectShow],SetMode method, IFileSinkFilter2.SetMode, IFileSinkFilter2::SetMode, IFileSinkFilter2SetMode, SetMode, SetMode method [DirectShow], SetMode method [DirectShow],IFileSinkFilter2 interface, dshow.ifilesinkfilter2_setmode, strmif/IFileSinkFilter2::SetMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IFileSinkFilter2.SetMode"
+f1_keywords:
+- strmif/IFileSinkFilter2.SetMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFileSinkFilter2.SetMode
+- IFileSinkFilter2.SetMode
 targetos: Windows
 req.typenames: 
 req.redist: 

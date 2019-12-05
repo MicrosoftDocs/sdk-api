@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.ReleaseMedia
 title: IDiscFormat2TrackAtOnce::ReleaseMedia (imapi2.h)
-
 description: Closes the track-writing session and releases the lock.
 old-location: imapi\idiscformat2trackatonce_releasemedia.htm
 tech.root: imapi
 ms.assetid: 0d6f85a9-94cc-426c-8442-14eb6e4024f3
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2TrackAtOnce interface [IMAPI],ReleaseMedia method, IDiscFormat2TrackAtOnce.ReleaseMedia, IDiscFormat2TrackAtOnce::ReleaseMedia, ReleaseMedia, ReleaseMedia method [IMAPI], ReleaseMedia method [IMAPI],IDiscFormat2TrackAtOnce interface, imapi.idiscformat2trackatonce_releasemedia, imapi2/IDiscFormat2TrackAtOnce::ReleaseMedia
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.ReleaseMedia"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.ReleaseMedia
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.ReleaseMedia
+- IDiscFormat2TrackAtOnce.ReleaseMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

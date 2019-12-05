@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetItemHeight
 title: TreeView_GetItemHeight macro (commctrl.h)
-
 description: Retrieves the current height of the tree-view items. You can use this macro or send the TVM_GETITEMHEIGHT message explicitly.
 old-location: controls\TreeView_GetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getitemheight.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetItemHeight, TreeView_GetItemHeight macro [Windows Controls], _win32_TreeView_GetItemHeight, _win32_TreeView_GetItemHeight_cpp, commctrl/TreeView_GetItemHeight, controls.TreeView_GetItemHeight, controls._win32_TreeView_GetItemHeight
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetItemHeight"
+f1_keywords:
+- commctrl/TreeView_GetItemHeight
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetItemHeight
+- TreeView_GetItemHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

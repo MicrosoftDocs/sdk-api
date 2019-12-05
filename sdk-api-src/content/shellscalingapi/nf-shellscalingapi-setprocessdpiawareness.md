@@ -1,19 +1,17 @@
 ---
 UID: NF:shellscalingapi.SetProcessDpiAwareness
 title: SetProcessDpiAwareness function (shellscalingapi.h)
-
 description: Sets the process-default DPI awareness level. This is equivalent to calling SetProcessDpiAwarenessContext with the corresponding DPI_AWARENESS_CONTEXT value.
 old-location: hidpi\setprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: BFD64207-D35D-4258-982C-20D6FE2B46F9
-
 ms.date: 12/05/2018
 ms.keywords: SetProcessDpiAwareness, SetProcessDpiAwareness function [High DPI], hidpi.setprocessdpiawareness, shellscalingapi/SetProcessDpiAwareness, winmsg.SetProcessDpiAwareness
 ms.topic: function
-f1_keywords: 
- - "shellscalingapi/SetProcessDpiAwareness"
+f1_keywords:
+- shellscalingapi/SetProcessDpiAwareness
 dev_langs:
- - c++
+- c++
 req.header: shellscalingapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - shcore.dll
- - api-ms-win-shcore-scaling-l1-1-1.dll
- - API-MS-Win-ShCore-Scaling-L1-1-2.dll
+- shcore.dll
+- api-ms-win-shcore-scaling-l1-1-1.dll
+- API-MS-Win-ShCore-Scaling-L1-1-2.dll
 api_name:
- - SetProcessDpiAwareness
+- SetProcessDpiAwareness
 targetos: Windows
 req.typenames: 
 req.redist: 

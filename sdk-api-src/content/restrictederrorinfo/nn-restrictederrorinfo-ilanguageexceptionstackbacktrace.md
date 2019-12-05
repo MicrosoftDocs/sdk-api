@@ -1,19 +1,17 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionStackBackTrace
 title: ILanguageExceptionStackBackTrace (restrictederrorinfo.h)
-
 description: Allows projections to provide custom stack trace for that exception.
 old-location: winrt\ilanguageexceptionstackbacktrace.htm
 tech.root: WinRT
 ms.assetid: A5AA17A2-414B-4641-A417-4F73384216F9
-
 ms.date: 12/05/2018
 ms.keywords: ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], ILanguageExceptionStackBackTrace interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionStackBackTrace, winrt.ilanguageexceptionstackbacktrace
 ms.topic: interface
-f1_keywords: 
- - "restrictederrorinfo/ILanguageExceptionStackBackTrace"
+f1_keywords:
+- restrictederrorinfo/ILanguageExceptionStackBackTrace
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - restrictederrorinfo.h
+- restrictederrorinfo.h
 api_name:
- - ILanguageExceptionStackBackTrace
+- ILanguageExceptionStackBackTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

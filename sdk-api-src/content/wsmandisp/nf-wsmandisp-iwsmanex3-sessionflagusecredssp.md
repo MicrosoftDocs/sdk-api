@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx3.SessionFlagUseCredSsp
 title: IWSManEx3::SessionFlagUseCredSsp (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagUseCredSsp for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex3_sessionflagusecredssp.htm
 tech.root: winrm
 ms.assetid: 69c62ad1-319e-4716-a2c7-61b931567244
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx3 interface [Windows Remote Management],SessionFlagUseCredSsp method, IWSManEx3.SessionFlagUseCredSsp, IWSManEx3::SessionFlagUseCredSsp, SessionFlagUseCredSsp, SessionFlagUseCredSsp method [Windows Remote Management], SessionFlagUseCredSsp method [Windows Remote Management],IWSManEx3 interface, winrm.iwsmanex3_sessionflagusecredssp, wsmandisp/IWSManEx3::SessionFlagUseCredSsp
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx3.SessionFlagUseCredSsp"
+f1_keywords:
+- wsmandisp/IWSManEx3.SessionFlagUseCredSsp
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx3.SessionFlagUseCredSsp
+- IWSManEx3.SessionFlagUseCredSsp
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

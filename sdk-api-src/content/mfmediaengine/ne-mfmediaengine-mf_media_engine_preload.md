@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_PRELOAD
 title: MF_MEDIA_ENGINE_PRELOAD (mfmediaengine.h)
-
 description: Defines preload hints for the Media Engine.
 old-location: mf\mf_media_engine_preload.htm
 tech.root: medfound
 ms.assetid: 784B3B3F-0A9E-4E34-9197-CE20E2F3FF78
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_PRELOAD, MF_MEDIA_ENGINE_PRELOAD enumeration [Media Foundation], MF_MEDIA_ENGINE_PRELOAD_AUTOMATIC, MF_MEDIA_ENGINE_PRELOAD_EMPTY, MF_MEDIA_ENGINE_PRELOAD_METADATA, MF_MEDIA_ENGINE_PRELOAD_MISSING, MF_MEDIA_ENGINE_PRELOAD_NONE, mf.mf_media_engine_preload, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_AUTOMATIC, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_EMPTY, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_METADATA, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_MISSING, mfmediaengine/MF_MEDIA_ENGINE_PRELOAD_NONE
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_PRELOAD"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_PRELOAD
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_PRELOAD
+- MF_MEDIA_ENGINE_PRELOAD
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_PRELOAD
 req.redist: 

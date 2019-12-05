@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineaddresscaps_tag
 title: LINEADDRESSCAPS (tapi.h)
-
 description: The LINEADDRESSCAPS structure describes the capabilities of a specified address. The lineGetAddressCaps function and the TSPI_lineGetAddressCaps function return the LINEADDRESSCAPS structure.
 old-location: tapi2\lineaddresscaps_str.htm
 tech.root: Tapi
 ms.assetid: c1fe1aaf-2f50-4423-bacf-6a3cf218a809
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEADDRESSCAPS, LINEADDRESSCAPS, LINEADDRESSCAPS structure [TAPI 2.2], LPLINEADDRESSCAPS, LPLINEADDRESSCAPS structure pointer [TAPI 2.2], _tapi2_lineaddresscaps_str, tapi/LINEADDRESSCAPS, tapi/LPLINEADDRESSCAPS, tapi2.lineaddresscaps_str"
+ms.keywords: '*LPLINEADDRESSCAPS, LINEADDRESSCAPS, LINEADDRESSCAPS structure [TAPI 2.2], LPLINEADDRESSCAPS, LPLINEADDRESSCAPS structure pointer [TAPI 2.2], _tapi2_lineaddresscaps_str, tapi/LINEADDRESSCAPS, tapi/LPLINEADDRESSCAPS, tapi2.lineaddresscaps_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEADDRESSCAPS"
+f1_keywords:
+- tapi/LINEADDRESSCAPS
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEADDRESSCAPS
+- LINEADDRESSCAPS
 targetos: Windows
 req.typenames: LINEADDRESSCAPS, *LPLINEADDRESSCAPS
 req.redist: 

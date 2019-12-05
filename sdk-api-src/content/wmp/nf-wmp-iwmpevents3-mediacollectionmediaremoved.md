@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents3.MediaCollectionMediaRemoved
 title: IWMPEvents3::MediaCollectionMediaRemoved (wmp.h)
-
 description: The MediaCollectionMediaRemoved event occurs when a media item is removed from the local library.
 old-location: wmp\iwmpevents3_iwmpevents3__mediacollectionmediaremoved.htm
 tech.root: WMP
 ms.assetid: c142a5ab-deed-41d0-8ddd-1d2f8a7b9d69
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents3 interface [Windows Media Player],MediaCollectionMediaRemoved method, IWMPEvents3.MediaCollectionMediaRemoved, IWMPEvents3::MediaCollectionMediaRemoved, IWMPEvents3MediaCollectionMediaRemoved, MediaCollectionMediaRemoved, MediaCollectionMediaRemoved method [Windows Media Player], MediaCollectionMediaRemoved method [Windows Media Player],IWMPEvents3 interface, wmp.iwmpevents3_iwmpevents3__mediacollectionmediaremoved, wmp/IWMPEvents3::MediaCollectionMediaRemoved
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents3.MediaCollectionMediaRemoved"
+f1_keywords:
+- wmp/IWMPEvents3.MediaCollectionMediaRemoved
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents3.MediaCollectionMediaRemoved
+- IWMPEvents3.MediaCollectionMediaRemoved
 targetos: Windows
 req.typenames: 
 req.redist: 

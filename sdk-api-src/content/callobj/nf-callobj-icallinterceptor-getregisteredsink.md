@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallInterceptor.GetRegisteredSink
 title: ICallInterceptor::GetRegisteredSink (callobj.h)
-
 description: Retrieves the registered event sink.
 old-location: com\icallinterceptor_getregisteredsink.htm
 tech.root: com
 ms.assetid: 65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c
-
 ms.date: 12/05/2018
 ms.keywords: GetRegisteredSink, GetRegisteredSink method [COM], GetRegisteredSink method [COM],ICallInterceptor interface, ICallInterceptor interface [COM],GetRegisteredSink method, ICallInterceptor.GetRegisteredSink, ICallInterceptor::GetRegisteredSink, _com_icallinterceptor_getregisteredsink, callobj/ICallInterceptor::GetRegisteredSink, com.icallinterceptor_getregisteredsink
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallInterceptor.GetRegisteredSink"
+f1_keywords:
+- callobj/ICallInterceptor.GetRegisteredSink
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallInterceptor.GetRegisteredSink
+- ICallInterceptor.GetRegisteredSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkPicture.put_InkEnabled
 title: IInkPicture::put_InkEnabled (msinkaut.h)
-
 description: Gets or sets a value that specifies whether the InkPicture control collects pen input (in-air packets, cursor in range events, and so on).
 old-location: tablet\inkpicture_inkenabled.htm
 tech.root: tablet
 ms.assetid: 3af59de9-0239-47ab-b3b3-1f1baecb169f
-
 ms.date: 12/05/2018
 ms.keywords: 3af59de9-0239-47ab-b3b3-1f1baecb169f, IInkPicture interface [Tablet PC],InkEnabled property, IInkPicture.InkEnabled, IInkPicture.put_InkEnabled, IInkPicture::InkEnabled, IInkPicture::get_InkEnabled, IInkPicture::put_InkEnabled, InkEnabled property [Tablet PC], InkEnabled property [Tablet PC],IInkPicture interface, InkPicture.get_InkEnabled, InkPicture.put_InkEnabled, get_InkEnabled, msinkaut/IInkPicture::InkEnabled, msinkaut/IInkPicture::get_InkEnabled, msinkaut/IInkPicture::put_InkEnabled, put_InkEnabled, tablet.inkpicture_inkenabled
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkPicture.InkEnabled"
+f1_keywords:
+- msinkaut/IInkPicture.InkEnabled
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkPicture.InkEnabled
- - IInkPicture.get_InkEnabled
- - IInkPicture.put_InkEnabled
- - InkPicture.get_InkEnabled
- - InkPicture.put_InkEnabled
+- IInkPicture.InkEnabled
+- IInkPicture.get_InkEnabled
+- IInkPicture.put_InkEnabled
+- InkPicture.get_InkEnabled
+- InkPicture.put_InkEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

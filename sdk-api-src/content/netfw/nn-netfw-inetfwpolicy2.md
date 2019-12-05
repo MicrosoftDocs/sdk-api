@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwPolicy2
 title: INetFwPolicy2 (netfw.h)
-
 description: To access the firewall policy.
 old-location: ics\inetfwpolicy2.htm
 tech.root: ics
 ms.assetid: ef01a531-ddb0-4eb4-894b-82f613016396
-
 ms.date: 12/05/2018
 ms.keywords: INetFwPolicy2, INetFwPolicy2 interface [ICS/ICF], INetFwPolicy2 interface [ICS/ICF],described, ics.inetfwpolicy2, netfw/INetFwPolicy2
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwPolicy2"
+f1_keywords:
+- netfw/INetFwPolicy2
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2
+- INetFwPolicy2
 targetos: Windows
 req.typenames: 
 req.redist: 

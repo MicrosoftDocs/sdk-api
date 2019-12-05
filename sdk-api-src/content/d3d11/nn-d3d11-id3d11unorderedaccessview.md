@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11UnorderedAccessView
 title: ID3D11UnorderedAccessView (d3d11.h)
-
 description: A view interface specifies the parts of a resource the pipeline can access during rendering.
 old-location: direct3d11\id3d11unorderedaccessview.htm
 tech.root: direct3d11
 ms.assetid: 9def4a7d-f145-4073-8d7d-bf3c7ac7a060
-
 ms.date: 12/05/2018
 ms.keywords: 0d091716-fdf1-7aff-5a05-68258dd1f745, ID3D11UnorderedAccessView, ID3D11UnorderedAccessView interface [Direct3D 11], ID3D11UnorderedAccessView interface [Direct3D 11],described, d3d11/ID3D11UnorderedAccessView, direct3d11.id3d11unorderedaccessview
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11UnorderedAccessView"
+f1_keywords:
+- d3d11/ID3D11UnorderedAccessView
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11UnorderedAccessView
+- ID3D11UnorderedAccessView
 targetos: Windows
 req.typenames: 
 req.redist: 

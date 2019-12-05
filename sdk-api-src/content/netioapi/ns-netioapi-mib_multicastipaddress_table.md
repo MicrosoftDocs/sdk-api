@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_MULTICASTIPADDRESS_TABLE
 title: MIB_MULTICASTIPADDRESS_TABLE (netioapi.h)
-
 description: Contains a table of multicast IP address entries.
 old-location: mib\mib_multicastipaddress_table.htm
 tech.root: MIB
 ms.assetid: 7ae1ec12-aa67-40ff-9641-410099685234
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE structure [MIB], PMIB_MULTICASTIPADDRESS_TABLE, PMIB_MULTICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_MULTICASTIPADDRESS_TABLE, mib.mib_multicastipaddress_table, netioapi/MIB_MULTICASTIPADDRESS_TABLE, netioapi/PMIB_MULTICASTIPADDRESS_TABLE"
+ms.keywords: '*PMIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE, MIB_MULTICASTIPADDRESS_TABLE structure [MIB], PMIB_MULTICASTIPADDRESS_TABLE, PMIB_MULTICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_MULTICASTIPADDRESS_TABLE, mib.mib_multicastipaddress_table, netioapi/MIB_MULTICASTIPADDRESS_TABLE, netioapi/PMIB_MULTICASTIPADDRESS_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_MULTICASTIPADDRESS_TABLE"
+f1_keywords:
+- netioapi/MIB_MULTICASTIPADDRESS_TABLE
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_MULTICASTIPADDRESS_TABLE
+- MIB_MULTICASTIPADDRESS_TABLE
 targetos: Windows
 req.typenames: MIB_MULTICASTIPADDRESS_TABLE, *PMIB_MULTICASTIPADDRESS_TABLE
 req.redist: 

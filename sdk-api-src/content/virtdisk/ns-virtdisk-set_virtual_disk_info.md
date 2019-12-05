@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._SET_VIRTUAL_DISK_INFO
 title: SET_VIRTUAL_DISK_INFO (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) information to use when you call the SetVirtualDiskInformation function to set VHD properties.
 old-location: vhd\set_virtual_disk_info.htm
 tech.root: VStor
 ms.assetid: 04b2bb75-7905-469a-abf1-15591dc64686
-
 ms.date: 12/05/2018
-ms.keywords: "*PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO structure pointer [VHD], SET_VIRTUAL_DISK_INFO, SET_VIRTUAL_DISK_INFO structure [VHD], _SET_VIRTUAL_DISK_INFO, vdssys/PSET_VIRTUAL_DISK_INFO, vdssys/SET_VIRTUAL_DISK_INFO, vhd.set_virtual_disk_info, virtdisk/PSET_VIRTUAL_DISK_INFO, virtdisk/SET_VIRTUAL_DISK_INFO"
+ms.keywords: '*PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO, PSET_VIRTUAL_DISK_INFO structure pointer [VHD], SET_VIRTUAL_DISK_INFO, SET_VIRTUAL_DISK_INFO structure [VHD], _SET_VIRTUAL_DISK_INFO, vdssys/PSET_VIRTUAL_DISK_INFO, vdssys/SET_VIRTUAL_DISK_INFO, vhd.set_virtual_disk_info, virtdisk/PSET_VIRTUAL_DISK_INFO, virtdisk/SET_VIRTUAL_DISK_INFO'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/SET_VIRTUAL_DISK_INFO"
+f1_keywords:
+- virtdisk/SET_VIRTUAL_DISK_INFO
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - SET_VIRTUAL_DISK_INFO
+- SET_VIRTUAL_DISK_INFO
 targetos: Windows
 req.typenames: SET_VIRTUAL_DISK_INFO, *PSET_VIRTUAL_DISK_INFO
 req.redist: 

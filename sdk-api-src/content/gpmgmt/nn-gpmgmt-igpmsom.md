@@ -1,19 +1,17 @@
 ---
 UID: NN:gpmgmt.IGPMSOM
 title: IGPMSOM (gpmgmt.h)
-
 description: The IGPMSOM interface contains methods that allow you to create and retrieve GPO links for a scope of management (SOM), and to set and retrieve security attributes and various properties for a SOM. A SOM can be a site, domain or OU.
 old-location: gpmc\igpmsom.htm
 tech.root: gpmc
 ms.assetid: e3252dba-403d-486d-b666-9bb04ec0aa90
-
 ms.date: 12/05/2018
 ms.keywords: GPMSOM, IGPMSOM, IGPMSOM interface [GPMC], IGPMSOM interface [GPMC],described, _win32_igpmsom, gpmc.igpmsom, gpmgmt/IGPMSOM
 ms.topic: interface
-f1_keywords: 
- - "gpmgmt/IGPMSOM"
+f1_keywords:
+- gpmgmt/IGPMSOM
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSOM
- - GPMSOM
+- IGPMSOM
+- GPMSOM
 targetos: Windows
 req.typenames: 
 req.redist: 

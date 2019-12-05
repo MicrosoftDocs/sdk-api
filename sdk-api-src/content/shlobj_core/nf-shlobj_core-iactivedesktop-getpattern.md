@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetPattern
 title: IActiveDesktop::GetPattern (shlobj_core.h)
-
 description: Gets the current pattern.
 old-location: lwef\iactivedesktop_getpattern.htm
 tech.root: lwef
 ms.assetid: e4211868-9f06-412c-b0b5-ba6ce395708e
-
 ms.date: 12/05/2018
 ms.keywords: GetPattern, GetPattern method [Legacy Windows Environment Features], GetPattern method [Legacy Windows Environment Features],IActiveDesktop interface, IActiveDesktop interface [Legacy Windows Environment Features],GetPattern method, IActiveDesktop.GetPattern, IActiveDesktop::GetPattern, _win32_IActiveDesktop_GetPattern, lwef.iactivedesktop_getpattern, shell.iactivedesktop_getpattern, shlobj_core/IActiveDesktop::GetPattern
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IActiveDesktop.GetPattern"
+f1_keywords:
+- shlobj_core/IActiveDesktop.GetPattern
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IActiveDesktop.GetPattern
+- IActiveDesktop.GetPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

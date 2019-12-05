@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetCustomEndCap
 title: Pen::GetCustomEndCap (gdipluspen.h)
-
 description: The Pen::GetCustomEndCap method gets the custom end cap currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCustomEndCap_customCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcustomendcap.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCustomEndCap, GetCustomEndCap method [GDI+], GetCustomEndCap method [GDI+],Pen class, Pen class [GDI+],GetCustomEndCap method, Pen.GetCustomEndCap, Pen::GetCustomEndCap, _gdiplus_CLASS_Pen_GetCustomEndCap_customCap_, gdiplus._gdiplus_CLASS_Pen_GetCustomEndCap_customCap_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetCustomEndCap"
+f1_keywords:
+- gdipluspen/Pen.GetCustomEndCap
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetCustomEndCap
+- Pen.GetCustomEndCap
 targetos: Windows
 req.typenames: 
 req.redist: 

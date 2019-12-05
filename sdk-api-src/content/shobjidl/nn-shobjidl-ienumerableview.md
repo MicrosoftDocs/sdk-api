@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IEnumerableView
 title: IEnumerableView (shobjidl.h)
-
 description: Exposes methods that enumerate the contents of a view and receive notification from callback upon enumeration completion. This interface enables clients of a view to attempt to share the view's list of folder contents.
 old-location: shell\IEnumerableView.htm
 tech.root: shell
 ms.assetid: 6e096f7b-b40b-45ea-a348-ddfedf5913f8
-
 ms.date: 12/05/2018
 ms.keywords: IEnumerableView, IEnumerableView interface [Windows Shell], IEnumerableView interface [Windows Shell],described, _shell_IEnumerableView, shell.IEnumerableView, shobjidl/IEnumerableView
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IEnumerableView"
+f1_keywords:
+- shobjidl/IEnumerableView
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IEnumerableView
+- IEnumerableView
 targetos: Windows
 req.typenames: 
 req.redist: 

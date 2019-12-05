@@ -1,19 +1,17 @@
 ---
 UID: NN:ctfspui.ITfSpeechUIServer
 title: ITfSpeechUIServer (ctfspui.h)
-
 description: The ITfSpeechUIServer interface manages the speech-related user interface on the TSF language bar.
 old-location: tsf\itfspeechuiserver.htm
 tech.root: TSF
 ms.assetid: 40961001-b659-4ddb-ae7d-5342957770be
-
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer, ITfSpeechUIServer interface [Text Services Framework], ITfSpeechUIServer interface [Text Services Framework],described, ctfspui/ITfSpeechUIServer, tsf.itfspeechuiserver
 ms.topic: interface
-f1_keywords: 
- - "ctfspui/ITfSpeechUIServer"
+f1_keywords:
+- ctfspui/ITfSpeechUIServer
 dev_langs:
- - c++
+- c++
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sptip.dll
+- sptip.dll
 api_name:
- - ITfSpeechUIServer
+- ITfSpeechUIServer
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

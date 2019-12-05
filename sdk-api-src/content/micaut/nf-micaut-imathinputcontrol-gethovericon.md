@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.GetHoverIcon
 title: IMathInputControl::GetHoverIcon (micaut.h)
-
 description: Retrieves the icon to be used for the hover target to launch math input control.
 old-location: tablet\imathinputcontrol_gethovericon.htm
 tech.root: tablet
 ms.assetid: 281695e6-295b-42d8-a184-c5a005de10e3
-
 ms.date: 12/05/2018
 ms.keywords: GetHoverIcon, GetHoverIcon method [Tablet PC], GetHoverIcon method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],GetHoverIcon method, IMathInputControl.GetHoverIcon, IMathInputControl::GetHoverIcon, micaut/IMathInputControl::GetHoverIcon, tablet.imathinputcontrol_gethovericon
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.GetHoverIcon"
+f1_keywords:
+- micaut/IMathInputControl.GetHoverIcon
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.GetHoverIcon
+- IMathInputControl.GetHoverIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

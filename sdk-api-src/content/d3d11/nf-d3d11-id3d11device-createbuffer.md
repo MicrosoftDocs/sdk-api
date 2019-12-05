@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateBuffer
 title: ID3D11Device::CreateBuffer (d3d11.h)
-
 description: Creates a buffer (vertex buffer, index buffer, or shader-constant buffer).
 old-location: direct3d11\id3d11device_createbuffer.htm
 tech.root: direct3d11
 ms.assetid: 5aec93c5-12a1-4b4e-813e-ee1e85adbf14
-
 ms.date: 12/05/2018
 ms.keywords: CreateBuffer, CreateBuffer method [Direct3D 11], CreateBuffer method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateBuffer method, ID3D11Device.CreateBuffer, ID3D11Device::CreateBuffer, d3d11/ID3D11Device::CreateBuffer, direct3d11.id3d11device_createbuffer, e4ddf93d-90c3-2369-284d-e5d67efaf51e
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateBuffer"
+f1_keywords:
+- d3d11/ID3D11Device.CreateBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateBuffer
+- ID3D11Device.CreateBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

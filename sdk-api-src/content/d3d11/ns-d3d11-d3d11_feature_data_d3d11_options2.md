@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_FEATURE_DATA_D3D11_OPTIONS2
 title: D3D11_FEATURE_DATA_D3D11_OPTIONS2 (d3d11.h)
-
 description: Describes Direct3D 11.3 feature options in the current graphics driver.
 old-location: direct3d11\d3d11_feature_data_d3d11_options2.htm
 tech.root: direct3d11
 ms.assetid: D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_FEATURE_DATA_D3D11_OPTIONS2, D3D11_FEATURE_DATA_D3D11_OPTIONS2 structure [Direct3D 11], d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS2, direct3d11.d3d11_feature_data_d3d11_options2
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS2"
+f1_keywords:
+- d3d11/D3D11_FEATURE_DATA_D3D11_OPTIONS2
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_FEATURE_DATA_D3D11_OPTIONS2
+- D3D11_FEATURE_DATA_D3D11_OPTIONS2
 targetos: Windows
 req.typenames: D3D11_FEATURE_DATA_D3D11_OPTIONS2
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IRangeException
 title: IRangeException (winsync.h)
-
 description: Represents an item ID range to exclude from a knowledge object.
 old-location: winsync\irangeexception.htm
 tech.root: winsync
 ms.assetid: 7eea9fe0-80e7-43a9-a797-df12d4d809dc
-
 ms.date: 12/05/2018
 ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, winsync.irangeexception, winsync/IRangeException
 ms.topic: interface
-f1_keywords: 
- - "winsync/IRangeException"
+f1_keywords:
+- winsync/IRangeException
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRangeException
+- IRangeException
 targetos: Windows
 req.typenames: 
 req.redist: 

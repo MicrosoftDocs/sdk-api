@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bandWidth
 title: IWMPNetwork::get_bandWidth (wmp.h)
-
 description: The get_bandWidth method retrieves the current bandwidth of the media item.
 old-location: wmp\iwmpnetwork_get_bandwidth.htm
 tech.root: WMP
 ms.assetid: 910356d8-3d43-4516-ad30-b0ed288e5098
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],get_bandWidth method, IWMPNetwork.get_bandWidth, IWMPNetwork::get_bandWidth, IWMPNetworkget_bandWidth, get_bandWidth, get_bandWidth method [Windows Media Player], get_bandWidth method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_get_bandwidth, wmp/IWMPNetwork::get_bandWidth
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.get_bandWidth"
+f1_keywords:
+- wmp/IWMPNetwork.get_bandWidth
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.get_bandWidth
+- IWMPNetwork.get_bandWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

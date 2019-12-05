@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterNetInterfaceEnum
 title: ClusterNetInterfaceEnum function (clusapi.h)
-
 description: Enumerates the network interfaces installed on a cluster, returning one name with each call.
 old-location: mscs\clusternetinterfaceenum.htm
 tech.root: MsCS
 ms.assetid: 691362e9-88ba-4f10-8fde-eebcc72157b4
-
 ms.date: 12/05/2018
 ms.keywords: ClusterNetInterfaceEnum, ClusterNetInterfaceEnum function [Failover Cluster], clusapi/ClusterNetInterfaceEnum, mscs.clusternetinterfaceenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterNetInterfaceEnum"
+f1_keywords:
+- clusapi/ClusterNetInterfaceEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterNetInterfaceEnum
+- ClusterNetInterfaceEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

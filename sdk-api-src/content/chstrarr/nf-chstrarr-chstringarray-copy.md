@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.Copy
 title: CHStringArray::Copy (chstrarr.h)
-
 description: The Copy method overwrites the elements of the given array with the elements of another array.
 old-location: wmi\chstringarray_copy.htm
 tech.root: WmiSdk
 ms.assetid: 9598340f-c315-4c93-bc8a-2b7c1eaf5a35
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],Copy method, CHStringArray.Copy, CHStringArray::Copy, Copy, Copy method [Windows Management Instrumentation], Copy method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_copy, chstrarr/CHStringArray::Copy, wmi.chstringarray_copy
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.Copy"
+f1_keywords:
+- chstrarr/CHStringArray.Copy
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.Copy
+- CHStringArray.Copy
 targetos: Windows
 req.typenames: 
 req.redist: 

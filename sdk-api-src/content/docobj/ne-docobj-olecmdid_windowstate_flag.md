@@ -1,19 +1,17 @@
 ---
 UID: NE:docobj.__unnamed_enum_5
 title: OLECMDID_WINDOWSTATE_FLAG (docobj.h)
-
 description: Specifies the window state.
 old-location: com\olecmdid_windowstate_flag.htm
 tech.root: com
 ms.assetid: 31331c73-1f26-436d-8fa7-83f13ef51f0e
-
 ms.date: 12/05/2018
 ms.keywords: OLECMDIDF_WINDOWSTATE_ENABLED, OLECMDIDF_WINDOWSTATE_ENABLED_VALID, OLECMDIDF_WINDOWSTATE_USERVISIBLE, OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID, OLECMDID_WINDOWSTATE_FLAG, OLECMDID_WINDOWSTATE_FLAG enumeration [COM], _ole_OLECMDID_WINDOWSTATE_FLAG, com.olecmdid_windowstate_flag, docobj/OLECMDIDF_WINDOWSTATE_ENABLED, docobj/OLECMDIDF_WINDOWSTATE_ENABLED_VALID, docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE, docobj/OLECMDIDF_WINDOWSTATE_USERVISIBLE_VALID, docobj/OLECMDID_WINDOWSTATE_FLAG
 ms.topic: enum
-f1_keywords: 
- - "docobj/OLECMDID_WINDOWSTATE_FLAG"
+f1_keywords:
+- docobj/OLECMDID_WINDOWSTATE_FLAG
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - OLECMDID_WINDOWSTATE_FLAG
+- OLECMDID_WINDOWSTATE_FLAG
 targetos: Windows
 req.typenames: OLECMDID_WINDOWSTATE_FLAG
 req.redist: 

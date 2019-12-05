@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.Initialize
 title: IISDB_BIT::Initialize (dvbsiparser.h)
-
 description: Initializes the object by using captured table section data for an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_initialize.htm
 tech.root: mstv
 ms.assetid: 1c38cbc0-4e47-4f15-9a9b-548e74af6462
-
 ms.date: 12/05/2018
 ms.keywords: IISDB_BIT interface [Microsoft TV Technologies],Initialize method, IISDB_BIT.Initialize, IISDB_BIT::Initialize, Initialize, Initialize method [Microsoft TV Technologies], Initialize method [Microsoft TV Technologies],IISDB_BIT interface, dvbsiparser/IISDB_BIT::Initialize, mstv.iisdb_bit_initialize
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_BIT.Initialize"
+f1_keywords:
+- dvbsiparser/IISDB_BIT.Initialize
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_BIT.Initialize
+- IISDB_BIT.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

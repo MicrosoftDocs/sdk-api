@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITFileTerminalEvent.get_Error
 title: ITFileTerminalEvent::get_Error (tapi3if.h)
-
 description: The get_Error method gets the error code for the event.
 old-location: tapi3\itfileterminalevent_get_error.htm
 tech.root: Tapi
 ms.assetid: 1eabd161-12d1-4537-beb1-3a05996aa506
-
 ms.date: 12/05/2018
 ms.keywords: ITFileTerminalEvent interface [TAPI 2.2],get_Error method, ITFileTerminalEvent.get_Error, ITFileTerminalEvent::get_Error, _tapi3_itfileterminalevent_get_error, get_Error, get_Error method [TAPI 2.2], get_Error method [TAPI 2.2],ITFileTerminalEvent interface, tapi3.itfileterminalevent_get_error, tapi3if/ITFileTerminalEvent::get_Error
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITFileTerminalEvent.get_Error"
+f1_keywords:
+- tapi3if/ITFileTerminalEvent.get_Error
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITFileTerminalEvent.get_Error
+- ITFileTerminalEvent.get_Error
 targetos: Windows
 req.typenames: 
 req.redist: 

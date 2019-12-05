@@ -1,19 +1,17 @@
 ---
 UID: NC:mi.MI_Deserializer_ClassObjectNeeded
 title: MI_Deserializer_ClassObjectNeeded (mi.h)
-
 description: Used to provide requested class object during deserialization.
 old-location: wmi_v2\mi_deserializer_classobjectneeded.htm
 tech.root: wmi_v2
 ms.assetid: 0C813AAF-99B4-4DA7-9C2F-CD9FA146D7D2
-
 ms.date: 12/05/2018
 ms.keywords: MI_Deserializer_ClassObjectNeeded, MI_Deserializer_ClassObjectNeeded callback, MI_Deserializer_ClassObjectNeeded callback function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_ClassObjectNeeded, wmi_v2.mi_deserializer_classobjectneeded
 ms.topic: callback
 f1_keywords:
 - mi/MI_Deserializer_ClassObjectNeeded
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

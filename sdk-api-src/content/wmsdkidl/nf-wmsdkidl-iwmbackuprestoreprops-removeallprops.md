@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.RemoveAllProps
 title: IWMBackupRestoreProps::RemoveAllProps (wmsdkidl.h)
-
 description: The RemoveAllProps method removes all properties.
 old-location: wmformat\iwmbackuprestoreprops_removeallprops.htm
 tech.root: wmformat
 ms.assetid: 2c67eb68-1623-4aaa-abde-8481b77bd568
-
 ms.date: 12/05/2018
 ms.keywords: IWMBackupRestoreProps interface [windows Media Format],RemoveAllProps method, IWMBackupRestoreProps.RemoveAllProps, IWMBackupRestoreProps::RemoveAllProps, IWMBackupRestorePropsRemoveAllProps, RemoveAllProps, RemoveAllProps method [windows Media Format], RemoveAllProps method [windows Media Format],IWMBackupRestoreProps interface, wmformat.iwmbackuprestoreprops_removeallprops, wmsdkidl/IWMBackupRestoreProps::RemoveAllProps
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMBackupRestoreProps.RemoveAllProps"
+f1_keywords:
+- wmsdkidl/IWMBackupRestoreProps.RemoveAllProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps.RemoveAllProps
+- IWMBackupRestoreProps.RemoveAllProps
 targetos: Windows
 req.typenames: 
 req.redist: 

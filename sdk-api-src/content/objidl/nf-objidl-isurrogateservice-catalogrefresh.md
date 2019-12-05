@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ISurrogateService.CatalogRefresh
 title: ISurrogateService::CatalogRefresh (objidl.h)
-
 description: Refreshes the catalog.
 old-location: com\isurrogateservice_catalogrefresh.htm
 tech.root: com
 ms.assetid: 4e7b765b-0ba3-48db-afe2-2cb6257775fa
-
 ms.date: 12/05/2018
 ms.keywords: CatalogRefresh, CatalogRefresh method [COM], CatalogRefresh method [COM],ISurrogateService interface, ISurrogateService interface [COM],CatalogRefresh method, ISurrogateService.CatalogRefresh, ISurrogateService::CatalogRefresh, _com_isurrogateservice_catalogrefresh, com.isurrogateservice_catalogrefresh, objidl/ISurrogateService::CatalogRefresh
 ms.topic: method
-f1_keywords: 
- - "objidl/ISurrogateService.CatalogRefresh"
+f1_keywords:
+- objidl/ISurrogateService.CatalogRefresh
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - ISurrogateService.CatalogRefresh
+- ISurrogateService.CatalogRefresh
 targetos: Windows
 req.typenames: 
 req.redist: 

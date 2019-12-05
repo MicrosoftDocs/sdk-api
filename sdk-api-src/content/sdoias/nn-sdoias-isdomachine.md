@@ -1,19 +1,17 @@
 ---
 UID: NN:sdoias.ISdoMachine
 title: ISdoMachine (sdoias.h)
-
 description: Use the ISdoMachine interface to attach to an SDO computer, obtain information about the SDO computer, and obtain interfaces to other SDO objects.
 old-location: nps\SDO_isdomachine.htm
 tech.root: Nps
 ms.assetid: 11372116-56eb-4d8e-8f28-4402835ee903
-
 ms.date: 12/05/2018
 ms.keywords: ISdoMachine, ISdoMachine interface [Network Policy Server], ISdoMachine interface [Network Policy Server],described, _sdo_isdomachine, nps.SDO_isdomachine, sdo.isdomachine, sdoias/ISdoMachine
 ms.topic: interface
-f1_keywords: 
- - "sdoias/ISdoMachine"
+f1_keywords:
+- sdoias/ISdoMachine
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoMachine
+- ISdoMachine
 targetos: Windows
 req.typenames: 
 req.redist: 

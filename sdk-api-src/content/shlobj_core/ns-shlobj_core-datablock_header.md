@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.tagDATABLOCKHEADER
 title: DATABLOCK_HEADER (shlobj_core.h)
-
 description: Serves as the header for some of the extra data structures used by IShellLinkDataList.
 old-location: shell\DATABLOCK_HEADER_str.htm
 tech.root: shell
 ms.assetid: 06de45c2-8cb5-45e3-9639-d4625c24d27b
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDATABLOCK_HEADER, *LPDBLIST, DATABLOCK_HEADER, DATABLOCK_HEADER structure [Windows Shell], LPDATABLOCK_HEADER, LPDATABLOCK_HEADER structure pointer [Windows Shell], LPDBLIST, LPDBLIST structure pointer [Windows Shell], _win32_DATABLOCK_HEADER_str, shell.DATABLOCK_HEADER_str, shlobj_core/DATABLOCK_HEADER, shlobj_core/LPDATABLOCK_HEADER, shlobj_core/LPDBLIST, tagDATABLOCKHEADER"
+ms.keywords: '*LPDATABLOCK_HEADER, *LPDBLIST, DATABLOCK_HEADER, DATABLOCK_HEADER structure [Windows Shell], LPDATABLOCK_HEADER, LPDATABLOCK_HEADER structure pointer [Windows Shell], LPDBLIST, LPDBLIST structure pointer [Windows Shell], _win32_DATABLOCK_HEADER_str, shell.DATABLOCK_HEADER_str, shlobj_core/DATABLOCK_HEADER, shlobj_core/LPDATABLOCK_HEADER, shlobj_core/LPDBLIST, tagDATABLOCKHEADER'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/DATABLOCK_HEADER"
+f1_keywords:
+- shlobj_core/DATABLOCK_HEADER
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - DATABLOCK_HEADER
+- DATABLOCK_HEADER
 targetos: Windows
 req.typenames: DATABLOCK_HEADER, *LPDATABLOCK_HEADER, *LPDBLIST
 req.redist: 

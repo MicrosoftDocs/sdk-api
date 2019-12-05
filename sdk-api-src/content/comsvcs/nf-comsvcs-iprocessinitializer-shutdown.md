@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IProcessInitializer.Shutdown
 title: IProcessInitializer::Shutdown (comsvcs.h)
-
 description: Called when Dllhost.exe shuts down.
 old-location: cos\iprocessinitializer_shutdown.htm
 tech.root: cossdk
 ms.assetid: e525ded0-971d-4711-b078-b2e6b28c313f
-
 ms.date: 12/05/2018
 ms.keywords: IProcessInitializer interface [COM+],Shutdown method, IProcessInitializer.Shutdown, IProcessInitializer::Shutdown, Shutdown, Shutdown method [COM+], Shutdown method [COM+],IProcessInitializer interface, _cos_IProcessInitializer_Shutdown, comsvcs/IProcessInitializer::Shutdown, cos.iprocessinitializer_shutdown
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IProcessInitializer.Shutdown"
+f1_keywords:
+- comsvcs/IProcessInitializer.Shutdown
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IProcessInitializer.Shutdown
+- IProcessInitializer.Shutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

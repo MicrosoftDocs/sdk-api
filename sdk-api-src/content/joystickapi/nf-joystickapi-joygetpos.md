@@ -1,19 +1,17 @@
 ---
 UID: NF:joystickapi.joyGetPos
 title: joyGetPos function (joystickapi.h)
-
 description: The joyGetPos function queries a joystick for its position and button status.
 old-location: multimedia\joygetpos.htm
 tech.root: Multimedia
 ms.assetid: 84f6a19b-1573-4e36-8a2b-7c79b12bf8ba
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_joyGetPos, joyGetPos, joyGetPos function [Windows Multimedia], joystickapi/joyGetPos, multimedia.joygetpos"
+ms.keywords: _win32_joyGetPos, joyGetPos, joyGetPos function [Windows Multimedia], joystickapi/joyGetPos, multimedia.joygetpos
 ms.topic: function
-f1_keywords: 
- - "joystickapi/joyGetPos"
+f1_keywords:
+- joystickapi/joyGetPos
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-joystick-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-joystick-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - joyGetPos
+- joyGetPos
 targetos: Windows
 req.typenames: 
 req.redist: 

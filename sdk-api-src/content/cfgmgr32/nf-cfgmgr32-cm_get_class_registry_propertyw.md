@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Registry_PropertyW
 title: CM_Get_Class_Registry_PropertyW function (cfgmgr32.h)
-
 description: The CM_Get_Class_Registry_Property function retrieves a device setup class property.
 old-location: devinst\cm_get_class_registry_property.htm
 tech.root: devinst
 ms.assetid: 2247771d-5edd-47c3-8635-586bf815544a
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Class_Registry_Property, CM_Get_Class_Registry_Property function [Device and Driver Installation], CM_Get_Class_Registry_PropertyW, cfgmgr32/CM_Get_Class_Registry_Property, cfgmgr32/CM_Get_Class_Registry_PropertyW, cfgmgrfn_d6abfa4e-81ee-4f56-8b0f-9c4cf8b2f632.xml, devinst.cm_get_class_registry_property
 ms.topic: function
 f1_keywords:
 - cfgmgr32/CM_Get_Class_Registry_Property
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal

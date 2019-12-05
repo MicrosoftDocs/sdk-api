@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMMetadataEditor.Flush
 title: IWMMetadataEditor::Flush (wmsdkidl.h)
-
 description: The Flush method closes the open file, saving any changes.
 old-location: wmformat\iwmmetadataeditor_flush.htm
 tech.root: wmformat
 ms.assetid: b17992f7-ed93-4f62-bf50-8fb2fd41caee
-
 ms.date: 12/05/2018
 ms.keywords: Flush, Flush method [windows Media Format], Flush method [windows Media Format],IWMMetadataEditor interface, IWMMetadataEditor interface [windows Media Format],Flush method, IWMMetadataEditor.Flush, IWMMetadataEditor::Flush, IWMMetadataEditorFlush, wmformat.iwmmetadataeditor_flush, wmsdkidl/IWMMetadataEditor::Flush
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMMetadataEditor.Flush"
+f1_keywords:
+- wmsdkidl/IWMMetadataEditor.Flush
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMMetadataEditor.Flush
+- IWMMetadataEditor.Flush
 targetos: Windows
 req.typenames: 
 req.redist: 

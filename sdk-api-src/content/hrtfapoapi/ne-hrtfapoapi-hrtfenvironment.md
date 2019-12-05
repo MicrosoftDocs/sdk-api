@@ -1,19 +1,17 @@
 ---
 UID: NE:hrtfapoapi.HrtfEnvironment
 title: HrtfEnvironment (hrtfapoapi.h)
-
 description: Indicates one of several stock environment types.
 old-location: xaudio2\hrtfenvironment.htm
 tech.root: xaudio2
 ms.assetid: C7A11F70-E94D-4A90-98A7-FA3B4DF5043B
-
 ms.date: 12/05/2018
 ms.keywords: HrtfEnvironment, HrtfEnvironment enumeration [XAudio2 Audio Mixing APIs], Large, Medium, Outdoors, Small, hrtfapoapi/HrtfEnvironment, hrtfapoapi/Large, hrtfapoapi/Medium, hrtfapoapi/Outdoors, hrtfapoapi/Small, xaudio2.hrtfenvironment
 ms.topic: enum
-f1_keywords: 
- - "hrtfapoapi/HrtfEnvironment"
+f1_keywords:
+- hrtfapoapi/HrtfEnvironment
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfEnvironment
+- HrtfEnvironment
 targetos: Windows
 req.typenames: HrtfEnvironment
 req.redist: 

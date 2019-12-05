@@ -1,19 +1,17 @@
 ---
 UID: NE:dxgi1_2._DXGI_OFFER_RESOURCE_PRIORITY
 title: DXGI_OFFER_RESOURCE_PRIORITY (dxgi1_2.h)
-
 description: Identifies the importance of a resource’s content when you call the IDXGIDevice2::OfferResources method to offer the resource.
 old-location: direct3ddxgi\_dxgi_offer_resource_priority.htm
 tech.root: direct3ddxgi
 ms.assetid: BDC0AAA3-2B72-4732-82CE-458C14B0D993
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_OFFER_RESOURCE_PRIORITY, DXGI_OFFER_RESOURCE_PRIORITY enumeration [DXGI], DXGI_OFFER_RESOURCE_PRIORITY_HIGH, DXGI_OFFER_RESOURCE_PRIORITY_LOW, DXGI_OFFER_RESOURCE_PRIORITY_NORMAL, direct3ddxgi._dxgi_offer_resource_priority, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_HIGH, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_LOW, dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY_NORMAL
 ms.topic: enum
-f1_keywords: 
- - "dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY"
+f1_keywords:
+- dxgi1_2/DXGI_OFFER_RESOURCE_PRIORITY
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_2.h
+- dxgi1_2.h
 api_name:
- - DXGI_OFFER_RESOURCE_PRIORITY
+- DXGI_OFFER_RESOURCE_PRIORITY
 targetos: Windows
 req.typenames: DXGI_OFFER_RESOURCE_PRIORITY
 req.redist: 

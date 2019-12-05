@@ -1,19 +1,17 @@
 ---
 UID: NN:bits4_0.IBackgroundCopyFile4
 title: IBackgroundCopyFile4 (bits4_0.h)
-
 description: Use this interface to retrieve download statistics for peers and origin servers.
 old-location: bits\ibackgroundcopyfile4.htm
 tech.root: Bits
 ms.assetid: d404c4f8-cc97-4254-bca8-41bc359f0777
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile4, IBackgroundCopyFile4 interface [BITS], IBackgroundCopyFile4 interface [BITS],described, bits.ibackgroundcopyfile4, bits4_0/IBackgroundCopyFile4
 ms.topic: interface
-f1_keywords: 
- - "bits4_0/IBackgroundCopyFile4"
+f1_keywords:
+- bits4_0/IBackgroundCopyFile4
 dev_langs:
- - c++
+- c++
 req.header: bits4_0.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits4_0.h
+- Bits4_0.h
 api_name:
- - IBackgroundCopyFile4
+- IBackgroundCopyFile4
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on  Windows Vista with SP1,  Windows Vista with SP2, and  Windows Server 2008 with SP2

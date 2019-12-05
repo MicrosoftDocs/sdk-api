@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange2.SetURL
 title: ITextRange2::SetURL (tom.h)
-
 description: Sets the text in this range to that of the specified URL.
 old-location: controls\itextrange2_seturl.htm
 tech.root: Controls
 ms.assetid: f8e62056-5177-4c88-99d8-32ca30bc71e5
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange2 interface [Windows Controls],SetURL method, ITextRange2.SetURL, ITextRange2::SetURL, SetURL, SetURL method [Windows Controls], SetURL method [Windows Controls],ITextRange2 interface, controls.itextrange2_seturl, tom/ITextRange2::SetURL
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange2.SetURL"
+f1_keywords:
+- tom/ITextRange2.SetURL
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange2.SetURL
+- ITextRange2.SetURL
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:credentialprovider._CREDENTIAL_PROVIDER_USAGE_SCENARIO
 title: CREDENTIAL_PROVIDER_USAGE_SCENARIO (credentialprovider.h)
-
 description: Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios.
 old-location: shell\CREDENTIAL_PROVIDER_USAGE_SCENARIO.htm
 tech.root: shell
 ms.assetid: 86025d1d-b13d-4f61-824a-fd471e449567
-
 ms.date: 12/05/2018
 ms.keywords: CPUS_CHANGE_PASSWORD, CPUS_CREDUI, CPUS_INVALID, CPUS_LOGON, CPUS_PLAP, CPUS_UNLOCK_WORKSTATION, CREDENTIAL_PROVIDER_USAGE_SCENARIO, CREDENTIAL_PROVIDER_USAGE_SCENARIO enumeration [Windows Shell], credentialprovider/CPUS_CHANGE_PASSWORD, credentialprovider/CPUS_CREDUI, credentialprovider/CPUS_INVALID, credentialprovider/CPUS_LOGON, credentialprovider/CPUS_PLAP, credentialprovider/CPUS_UNLOCK_WORKSTATION, credentialprovider/CREDENTIAL_PROVIDER_USAGE_SCENARIO, shell.CREDENTIAL_PROVIDER_USAGE_SCENARIO, shell_CREDENTIAL_PROVIDER_USAGE_SCENARIO
 ms.topic: enum
-f1_keywords: 
- - "credentialprovider/CREDENTIAL_PROVIDER_USAGE_SCENARIO"
+f1_keywords:
+- credentialprovider/CREDENTIAL_PROVIDER_USAGE_SCENARIO
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - CREDENTIAL_PROVIDER_USAGE_SCENARIO
+- CREDENTIAL_PROVIDER_USAGE_SCENARIO
 targetos: Windows
 req.typenames: CREDENTIAL_PROVIDER_USAGE_SCENARIO
 req.redist: 

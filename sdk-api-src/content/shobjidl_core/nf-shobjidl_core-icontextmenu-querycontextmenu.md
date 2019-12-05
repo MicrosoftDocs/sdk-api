@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IContextMenu.QueryContextMenu
 title: IContextMenu::QueryContextMenu (shobjidl_core.h)
-
 description: Adds commands to a shortcut menu.
 old-location: shell\IContextMenu_QueryContextMenu.htm
 tech.root: shell
 ms.assetid: 329fe15b-c1c1-4ffd-812e-9e74451bad6e
-
 ms.date: 12/05/2018
 ms.keywords: CMF_ASYNCVERBSTATE, CMF_CANRENAME, CMF_DEFAULTONLY, CMF_DISABLEDVERBS, CMF_DONOTPICKDEFAULT, CMF_EXPLORE, CMF_EXTENDEDVERBS, CMF_INCLUDESTATIC, CMF_ITEMMENU, CMF_NODEFAULT, CMF_NORMAL, CMF_NOVERBS, CMF_OPTIMIZEFORINVOKE, CMF_RESERVED, CMF_SYNCCASCADEMENU, CMF_VERBSONLY, IContextMenu interface [Windows Shell],QueryContextMenu method, IContextMenu.QueryContextMenu, IContextMenu::QueryContextMenu, QueryContextMenu, QueryContextMenu method [Windows Shell], QueryContextMenu method [Windows Shell],IContextMenu interface, _win32_IContextMenu_QueryContextMenu, _win32_icontextmenu_win32_icontextmenu_querycontextmenu_cpp, shell.IContextMenu_QueryContextMenu, shobjidl_core/IContextMenu::QueryContextMenu
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IContextMenu.QueryContextMenu"
+f1_keywords:
+- shobjidl_core/IContextMenu.QueryContextMenu
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IContextMenu.QueryContextMenu
+- IContextMenu.QueryContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAGetServiceClassNameByClassIdW
 title: WSAGetServiceClassNameByClassIdW function (winsock2.h)
-
 description: The WSAGetServiceClassNameByClassId function retrieves the name of the service associated with the specified type. This name is the generic service name, like FTP or SNA, and not the name of a specific instance of that service.
 old-location: winsock\wsagetserviceclassnamebyclassid_2.htm
 tech.root: WinSock
 ms.assetid: 0a61751e-10e5-4f91-a0b2-8c1baf477653
-
 ms.date: 12/05/2018
 ms.keywords: WSAGetServiceClassNameByClassId, WSAGetServiceClassNameByClassId function [Winsock], WSAGetServiceClassNameByClassIdA, WSAGetServiceClassNameByClassIdW, _win32_wsagetserviceclassnamebyclassid_2, winsock.wsagetserviceclassnamebyclassid_2, winsock2/WSAGetServiceClassNameByClassId, winsock2/WSAGetServiceClassNameByClassIdA, winsock2/WSAGetServiceClassNameByClassIdW
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAGetServiceClassNameByClassId"
+f1_keywords:
+- winsock2/WSAGetServiceClassNameByClassId
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAGetServiceClassNameByClassId
- - WSAGetServiceClassNameByClassIdA
- - WSAGetServiceClassNameByClassIdW
+- WSAGetServiceClassNameByClassId
+- WSAGetServiceClassNameByClassIdA
+- WSAGetServiceClassNameByClassIdW
 targetos: Windows
 req.typenames: 
 req.redist: 

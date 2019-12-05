@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.GetEmbeddedObject
 title: CInstance::GetEmbeddedObject (instance.h)
-
 description: The GetEmbeddedObject method retrieves a pointer to an embedded CInstance object. The pointer can be used to get and set properties of that embedded object.
 old-location: wmi\cinstance_getembeddedobject.htm
 tech.root: WmiSdk
 ms.assetid: e7daf313-d454-4e2c-8a8b-4f1bd9e19c58
-
 ms.date: 12/05/2018
-ms.keywords: "?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z, CInstance interface [Windows Management Instrumentation],GetEmbeddedObject method, CInstance.GetEmbeddedObject, CInstance::GetEmbeddedObject, GetEmbeddedObject, GetEmbeddedObject method [Windows Management Instrumentation], GetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getembeddedobject, instance/CInstance::GetEmbeddedObject, wmi.cinstance_getembeddedobject"
+ms.keywords: ?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z, CInstance interface [Windows Management Instrumentation],GetEmbeddedObject method, CInstance.GetEmbeddedObject, CInstance::GetEmbeddedObject, GetEmbeddedObject, GetEmbeddedObject method [Windows Management Instrumentation], GetEmbeddedObject method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getembeddedobject, instance/CInstance::GetEmbeddedObject, wmi.cinstance_getembeddedobject
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.GetEmbeddedObject"
+f1_keywords:
+- instance/CInstance.GetEmbeddedObject
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.GetEmbeddedObject
- - ?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z
+- CInstance.GetEmbeddedObject
+- ?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

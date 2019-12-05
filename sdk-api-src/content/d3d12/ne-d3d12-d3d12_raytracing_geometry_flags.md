@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_GEOMETRY_FLAGS
 title: D3D12_RAYTRACING_GEOMETRY_FLAGS (d3d12.h)
-
 description: Specifies flags for raytracing geometry in a D3D12_RAYTRACING_GEOMETRY_DESC structure.
 old-location: direct3d12\d3d12_raytracing_geometry_flags.htm
 tech.root: direct3d12
 ms.assetid: E8C7003D-0170-41C4-9124-AF4600A8A7C2
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RAYTRACING_GEOMETRY_FLAGS, D3D12_RAYTRACING_GEOMETRY_FLAGS enumeration, D3D12_RAYTRACING_GEOMETRY_FLAG_NONE, D3D12_RAYTRACING_GEOMETRY_FLAG_NO_DUPLICATE_ANYHIT_INVOCATION, D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE, d3d12/D3D12_RAYTRACING_GEOMETRY_FLAGS, d3d12/D3D12_RAYTRACING_GEOMETRY_FLAG_NONE, d3d12/D3D12_RAYTRACING_GEOMETRY_FLAG_NO_DUPLICATE_ANYHIT_INVOCATION, d3d12/D3D12_RAYTRACING_GEOMETRY_FLAG_OPAQUE, direct3d12.d3d12_raytracing_geometry_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RAYTRACING_GEOMETRY_FLAGS"
+f1_keywords:
+- d3d12/D3D12_RAYTRACING_GEOMETRY_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_RAYTRACING_GEOMETRY_FLAGS
+- D3D12_RAYTRACING_GEOMETRY_FLAGS
 targetos: Windows
 req.typenames: D3D12_RAYTRACING_GEOMETRY_FLAGS
 req.redist: 

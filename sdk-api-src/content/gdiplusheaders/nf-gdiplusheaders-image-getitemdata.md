@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetItemData
 title: Image::GetItemData (gdiplusheaders.h)
-
 description: The Image::GetItemData method gets one piece of metadata from this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetItemData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetItemData, GetItemData method [GDI+], GetItemData method [GDI+],Image class, Image class [GDI+],GetItemData method, Image.GetItemData, Image::GetItemData, _gdiplus_CLASS_Image_GetItemData_, gdiplus._gdiplus_CLASS_Image_GetItemData_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetItemData"
+f1_keywords:
+- gdiplusheaders/Image.GetItemData
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetItemData
+- Image.GetItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

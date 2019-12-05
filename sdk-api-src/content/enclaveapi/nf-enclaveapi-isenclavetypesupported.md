@@ -1,19 +1,17 @@
 ---
 UID: NF:enclaveapi.IsEnclaveTypeSupported
 title: IsEnclaveTypeSupported function (enclaveapi.h)
-
 description: Retrieves whether the specified type of enclave is supported.
 old-location: base\isenclavetypesupported.htm
 tech.root: Memory
 ms.assetid: E46AF02B-324F-43A8-8C73-9FE1E8E771E9
-
 ms.date: 12/05/2018
 ms.keywords: ENCLAVE_TYPE_SGX, ENCLAVE_TYPE_VBS, IsEnclaveTypeSupported, IsEnclaveTypeSupported function, base.isenclavetypesupported, base.isenclavetypesypported, enclaveapi/IsEnclaveTypeSupported
 ms.topic: function
-f1_keywords: 
- - "enclaveapi/IsEnclaveTypeSupported"
+f1_keywords:
+- enclaveapi/IsEnclaveTypeSupported
 dev_langs:
- - c++
+- c++
 req.header: enclaveapi.h
 req.include-header: Winbase.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Api-ms-win-core-enclave-l1-1-0.dll; Kernel32.dll; KernelBase.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-core-enclave-l1-1-0.dll
- - kernel32.dll
- - KernelBase.dll
- - API-MS-Win-Core-Enclave-L1-1-0.dll
+- api-ms-win-core-enclave-l1-1-0.dll
+- kernel32.dll
+- KernelBase.dll
+- API-MS-Win-Core-Enclave-L1-1-0.dll
 api_name:
- - IsEnclaveTypeSupported
+- IsEnclaveTypeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

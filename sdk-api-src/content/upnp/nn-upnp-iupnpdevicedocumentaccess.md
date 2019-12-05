@@ -1,19 +1,17 @@
 ---
 UID: NN:upnp.IUPnPDeviceDocumentAccess
 title: IUPnPDeviceDocumentAccess (upnp.h)
-
 description: The IUPnPDeviceDocumentAccess interface enables an application to obtain the URL of the device description document.
 old-location: upnp\iupnpdevicedocumentaccess.htm
 tech.root: upnp
 ms.assetid: 6d71425e-3e33-44e0-845a-4bcd05939d24
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDeviceDocumentAccess, IUPnPDeviceDocumentAccess interface [UPnP APIs], IUPnPDeviceDocumentAccess interface [UPnP APIs],described, _upnp_iupnpdevicedocumentaccess, upnp.iupnpdevicedocumentaccess, upnp/IUPnPDeviceDocumentAccess
 ms.topic: interface
-f1_keywords: 
- - "upnp/IUPnPDeviceDocumentAccess"
+f1_keywords:
+- upnp/IUPnPDeviceDocumentAccess
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceDocumentAccess
+- IUPnPDeviceDocumentAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

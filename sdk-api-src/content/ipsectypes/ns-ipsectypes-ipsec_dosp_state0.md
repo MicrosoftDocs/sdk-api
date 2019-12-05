@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATE0_
 title: IPSEC_DOSP_STATE0 (ipsectypes.h)
-
 description: Used to store state information for IPsec DoS Protection.
 old-location: fwp\ipsec_dosp_state0.htm
 tech.root: fwp
 ms.assetid: e3653c19-0e0b-4026-a32d-509c4bb71008
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_DOSP_STATE0, IPSEC_DOSP_STATE0 structure [Filtering], fwp.ipsec_dosp_state0, ipsectypes/IPSEC_DOSP_STATE0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_DOSP_STATE0"
+f1_keywords:
+- ipsectypes/IPSEC_DOSP_STATE0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_DOSP_STATE0
+- IPSEC_DOSP_STATE0
 targetos: Windows
 req.typenames: IPSEC_DOSP_STATE0
 req.redist: 

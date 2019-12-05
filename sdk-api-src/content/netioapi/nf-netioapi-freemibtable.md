@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.FreeMibTable
 title: FreeMibTable function (netioapi.h)
-
 description: Frees the buffer allocated by the functions that return tables of network interfaces, addresses, and routes (GetIfTable2 and GetAnycastIpAddressTable, for example).
 old-location: iphlp\freemibtable.htm
 tech.root: IpHlp
 ms.assetid: 31c8cdc4-73c7-4e82-8226-c90320046199
-
 ms.date: 12/05/2018
 ms.keywords: FreeMibTable, FreeMibTable function [IP Helper], iphlp.freemibtable, netioapi/FreeMibTable
 ms.topic: function
-f1_keywords: 
- - "netioapi/FreeMibTable"
+f1_keywords:
+- netioapi/FreeMibTable
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - FreeMibTable
+- FreeMibTable
 targetos: Windows
 req.typenames: 
 req.redist: 

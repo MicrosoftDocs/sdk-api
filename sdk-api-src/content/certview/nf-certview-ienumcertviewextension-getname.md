@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWEXTENSION.GetName
 title: IEnumCERTVIEWEXTENSION::GetName (certview.h)
-
 description: Retrieves the name of the current extension in the extension-enumeration sequence.
 old-location: security\ienumcertviewextension_getname.htm
 tech.root: SecCrypto
 ms.assetid: 7c56708c-ae25-46f5-94f3-d58eea8d08d4
-
 ms.date: 12/05/2018
 ms.keywords: CEnumCERTVIEWEXTENSION object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CEnumCERTVIEWEXTENSION object, GetName method [Security],IEnumCERTVIEWEXTENSION interface, IEnumCERTVIEWEXTENSION interface [Security],GetName method, IEnumCERTVIEWEXTENSION.GetName, IEnumCERTVIEWEXTENSION::GetName, _certsrv_ienumcertviewextension_getname, certview/IEnumCERTVIEWEXTENSION::GetName, security.ienumcertviewextension_getname
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWEXTENSION.GetName"
+f1_keywords:
+- certview/IEnumCERTVIEWEXTENSION.GetName
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION.GetName
- - CEnumCERTVIEWEXTENSION.GetName
+- IEnumCERTVIEWEXTENSION.GetName
+- CEnumCERTVIEWEXTENSION.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

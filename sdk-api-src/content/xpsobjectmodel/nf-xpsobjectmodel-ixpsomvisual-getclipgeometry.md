@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetClipGeometry
 title: IXpsOMVisual::GetClipGeometry (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMGeometry interface that contains the resolved geometry of the visual's clipping region.
 old-location: xps\ixpsomvisual_getclipgeometry.htm
 tech.root: printdocs
 ms.assetid: f56fa077-749c-422b-b82d-161f9e5d4766
-
 ms.date: 12/05/2018
 ms.keywords: GetClipGeometry, GetClipGeometry method [XPS Documents and Packaging], GetClipGeometry method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetClipGeometry method, IXpsOMVisual.GetClipGeometry, IXpsOMVisual::GetClipGeometry, xps.ixpsomvisual_getclipgeometry, xpsobjectmodel/IXpsOMVisual::GetClipGeometry
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetClipGeometry"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetClipGeometry
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetClipGeometry
+- IXpsOMVisual.GetClipGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

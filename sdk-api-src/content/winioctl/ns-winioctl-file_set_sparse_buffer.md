@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_SET_SPARSE_BUFFER
 title: FILE_SET_SPARSE_BUFFER
-
 description: Specifies the sparse state to be set.
 old-location: fs\file_set_sparse_buffer.htm
 tech.root: FileIO
 ms.assetid: f9c24156-bcd6-423e-b055-18651f4e185e
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER structure [Files], PFILE_SET_SPARSE_BUFFER, PFILE_SET_SPARSE_BUFFER structure pointer [Files], fs.file_set_sparse_buffer, winioctl/FILE_SET_SPARSE_BUFFER, winioctl/PFILE_SET_SPARSE_BUFFER"
+ms.keywords: '*PFILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER, FILE_SET_SPARSE_BUFFER structure [Files], PFILE_SET_SPARSE_BUFFER, PFILE_SET_SPARSE_BUFFER structure pointer [Files], fs.file_set_sparse_buffer, winioctl/FILE_SET_SPARSE_BUFFER, winioctl/PFILE_SET_SPARSE_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_SET_SPARSE_BUFFER"
+f1_keywords:
+- winioctl/FILE_SET_SPARSE_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_SET_SPARSE_BUFFER
+- FILE_SET_SPARSE_BUFFER
 targetos: Windows
 req.typenames: FILE_SET_SPARSE_BUFFER, *PFILE_SET_SPARSE_BUFFER
 req.redist: 

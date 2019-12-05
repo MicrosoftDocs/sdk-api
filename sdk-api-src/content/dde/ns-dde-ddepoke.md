@@ -1,19 +1,17 @@
 ---
 UID: NS:dde.__unnamed_struct_3
 title: DDEPOKE (dde.h)
-
 description: Contains the data, and information about the data, sent as part of a WM_DDE_POKE message.
 old-location: dataxchg\ddepoke.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddepoke.htm
-
 ms.date: 12/05/2018
 ms.keywords: CF_BITMAP, CF_DIB, CF_DIF, CF_ENHMETAFILE, CF_METAFILEPICT, CF_OEMTEXT, CF_PALETTE, CF_PENDATA, CF_RIFF, CF_SYLK, CF_TEXT, CF_TIFF, CF_UNICODETEXT, CF_WAVE, DDEPOKE, DDEPOKE structure [Data Exchange], _win32_DDEPOKE_str, _win32_ddepoke_str_cpp, dataxchg.ddepoke, dde/DDEPOKE, winui._win32_ddepoke_str
 ms.topic: struct
-f1_keywords: 
- - "dde/DDEPOKE"
+f1_keywords:
+- dde/DDEPOKE
 dev_langs:
- - c++
+- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dde.h
+- Dde.h
 api_name:
- - DDEPOKE
+- DDEPOKE
 targetos: Windows
 req.typenames: DDEPOKE
 req.redist: 

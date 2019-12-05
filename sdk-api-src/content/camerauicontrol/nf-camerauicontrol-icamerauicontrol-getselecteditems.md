@@ -1,19 +1,17 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.GetSelectedItems
 title: ICameraUIControl::GetSelectedItems (camerauicontrol.h)
-
 description: Gets the selected items.
 old-location: winprog\icamerauicontrol_getselecteditems.htm
 tech.root: DevNotes
 ms.assetid: 572cbf23-b9b5-441c-9bde-55ef856397ca
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows API], GetSelectedItems method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetSelectedItems method, ICameraUIControl.GetSelectedItems, ICameraUIControl::GetSelectedItems, camerauicontrol/ICameraUIControl::GetSelectedItems, winprog.icamerauicontrol_getselecteditems
 ms.topic: method
-f1_keywords: 
- - "camerauicontrol/ICameraUIControl.GetSelectedItems"
+f1_keywords:
+- camerauicontrol/ICameraUIControl.GetSelectedItems
 dev_langs:
- - c++
+- c++
 req.header: camerauicontrol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - camerauicontrol.h
+- camerauicontrol.h
 api_name:
- - ICameraUIControl.GetSelectedItems
+- ICameraUIControl.GetSelectedItems
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITBasicAudioTerminal
 title: ITBasicAudioTerminal (tapi3if.h)
-
 description: The ITBasicAudioTerminal interface provides methods that allow an application to control basic sound characteristics of terminal.
 old-location: tapi3\itbasicaudioterminal.htm
 tech.root: Tapi
 ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd
-
 ms.date: 12/05/2018
 ms.keywords: ITBasicAudioTerminal, ITBasicAudioTerminal interface [TAPI 2.2], ITBasicAudioTerminal interface [TAPI 2.2],described, _tapi3_itbasicaudioterminal, tapi3.itbasicaudioterminal, tapi3if/ITBasicAudioTerminal
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITBasicAudioTerminal"
+f1_keywords:
+- tapi3if/ITBasicAudioTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicAudioTerminal
+- ITBasicAudioTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

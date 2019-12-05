@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMediaType.IsEqual
 title: IMFMediaType::IsEqual (mfobjects.h)
-
 description: Compares two media types and determines whether they are identical. If they are not identical, the method indicates how the two formats differ.
 old-location: mf\imfmediatype_isequal.htm
 tech.root: medfound
 ms.assetid: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131
-
 ms.date: 12/05/2018
 ms.keywords: 42b5b0e8-3b13-4bda-a53c-0428a3c9b131, IMFMediaType interface [Media Foundation],IsEqual method, IMFMediaType.IsEqual, IMFMediaType::IsEqual, IsEqual, IsEqual method [Media Foundation], IsEqual method [Media Foundation],IMFMediaType interface, MF_MEDIATYPE_EQUAL_FORMAT_DATA, MF_MEDIATYPE_EQUAL_FORMAT_TYPES, MF_MEDIATYPE_EQUAL_FORMAT_USER_DATA, MF_MEDIATYPE_EQUAL_MAJOR_TYPES, mf.imfmediatype_isequal, mfobjects/IMFMediaType::IsEqual
 ms.topic: method
 f1_keywords:
 - mfobjects/IMFMediaType.IsEqual
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows

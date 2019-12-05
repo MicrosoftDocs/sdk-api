@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.GetCurrentState
 title: IWiaVideo::GetCurrentState (wiavideo.h)
-
 description: The IWiaVideo::GetCurrentState method specifies the state of the video stream as a member of the WIAVIDEO_STATE enumeration.
 old-location: wia\_wia_IWiaVideo_GetCurrentState.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\getcurrentstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentState, GetCurrentState method [WIA], GetCurrentState method [WIA],IWiaVideo interface, IWiaVideo interface [WIA],GetCurrentState method, IWiaVideo.GetCurrentState, IWiaVideo::GetCurrentState, _wia_IWiaVideo_GetCurrentState, wia._wia_IWiaVideo_GetCurrentState, wiavideo/IWiaVideo::GetCurrentState
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.GetCurrentState"
+f1_keywords:
+- wiavideo/IWiaVideo.GetCurrentState
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.GetCurrentState
+- IWiaVideo.GetCurrentState
 targetos: Windows
 req.typenames: 
 req.redist: 

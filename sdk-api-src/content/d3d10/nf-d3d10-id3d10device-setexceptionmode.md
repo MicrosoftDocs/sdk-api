@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.SetExceptionMode
 title: ID3D10Device::SetExceptionMode (d3d10.h)
-
 description: Get the exception-mode flags.
 old-location: direct3d10\id3d10device_setexceptionmode.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_setexceptionmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: 450093c6-975d-3a2a-6e09-2d2267d36bae, ID3D10Device interface [Direct3D 10],SetExceptionMode method, ID3D10Device.SetExceptionMode, ID3D10Device::SetExceptionMode, SetExceptionMode, SetExceptionMode method [Direct3D 10], SetExceptionMode method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SetExceptionMode, direct3d10.id3d10device_setexceptionmode
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.SetExceptionMode"
+f1_keywords:
+- d3d10/ID3D10Device.SetExceptionMode
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.SetExceptionMode
+- ID3D10Device.SetExceptionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

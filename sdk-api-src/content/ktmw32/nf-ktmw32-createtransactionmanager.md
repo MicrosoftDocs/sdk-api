@@ -1,19 +1,17 @@
 ---
 UID: NF:ktmw32.CreateTransactionManager
 title: CreateTransactionManager function (ktmw32.h)
-
 description: Creates a new transaction manager (TM) object and returns a handle with the specified access.
 old-location: fs\createtransactionmanager.htm
 tech.root: ktm
 ms.assetid: f5b7d0c1-9cd0-48fc-8125-d4da040951c4
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransactionManager, CreateTransactionManager function [Files], TRANSACTION_MANAGER_VOLATILE, fs.createtransactionmanager, ktmw32/CreateTransactionManager
 ms.topic: function
-f1_keywords: 
- - "ktmw32/CreateTransactionManager"
+f1_keywords:
+- ktmw32/CreateTransactionManager
 dev_langs:
- - c++
+- c++
 req.header: ktmw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ktmw32.lib
 req.dll: Ktmw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ktmw32.dll
+- Ktmw32.dll
 api_name:
- - CreateTransactionManager
+- CreateTransactionManager
 targetos: Windows
 req.typenames: 
 req.redist: 

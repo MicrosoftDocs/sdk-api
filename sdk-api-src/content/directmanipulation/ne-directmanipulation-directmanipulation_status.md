@@ -1,19 +1,17 @@
 ---
 UID: NE:directmanipulation.DIRECTMANIPULATION_STATUS
 title: DIRECTMANIPULATION_STATUS (directmanipulation.h)
-
 description: Defines the possible states of Direct Manipulation.
 old-location: directmanipulation\directmanipulation_status.htm
 tech.root: directmanipulation
 ms.assetid: 6120702f-56f0-489d-a3b2-5f6ecac82b5e
-
 ms.date: 12/05/2018
 ms.keywords: DIRECTMANIPULATION_BUILDING, DIRECTMANIPULATION_DISABLED, DIRECTMANIPULATION_ENABLED, DIRECTMANIPULATION_INERTIA, DIRECTMANIPULATION_READY, DIRECTMANIPULATION_RUNNING, DIRECTMANIPULATION_STATUS, DIRECTMANIPULATION_STATUS enumeration [Direct Manipulation], DIRECTMANIPULATION_SUSPENDED, directmanipulation.directmanipulation_status, directmanipulation/DIRECTMANIPULATION_BUILDING, directmanipulation/DIRECTMANIPULATION_DISABLED, directmanipulation/DIRECTMANIPULATION_ENABLED, directmanipulation/DIRECTMANIPULATION_INERTIA, directmanipulation/DIRECTMANIPULATION_READY, directmanipulation/DIRECTMANIPULATION_RUNNING, directmanipulation/DIRECTMANIPULATION_STATUS, directmanipulation/DIRECTMANIPULATION_SUSPENDED
 ms.topic: enum
-f1_keywords: 
- - "directmanipulation/DIRECTMANIPULATION_STATUS"
+f1_keywords:
+- directmanipulation/DIRECTMANIPULATION_STATUS
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - directmanipulation.h
+- directmanipulation.h
 api_name:
- - DIRECTMANIPULATION_STATUS
+- DIRECTMANIPULATION_STATUS
 targetos: Windows
 req.typenames: DIRECTMANIPULATION_STATUS
 req.redist: 

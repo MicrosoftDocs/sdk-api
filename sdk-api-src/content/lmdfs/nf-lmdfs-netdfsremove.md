@@ -1,19 +1,17 @@
 ---
 UID: NF:lmdfs.NetDfsRemove
 title: NetDfsRemove function (lmdfs.h)
-
 description: Removes a Distributed File System (DFS) link or a specific link target of a DFS link in a DFS namespace. When removing a specific link target, the link itself is removed if the last link target of the link is removed.
 old-location: dfs\netdfsremove.htm
 tech.root: Dfs
 ms.assetid: c879ba56-cc42-4fa3-960f-ddc65a75dbe3
-
 ms.date: 12/05/2018
 ms.keywords: NetDfsRemove, NetDfsRemove function [Distributed File System], _win32_netdfsremove, dfs.netdfsremove, fs.netdfsremove, lmdfs/NetDfsRemove, netmgmt.netdfsremove
 ms.topic: function
-f1_keywords: 
- - "lmdfs/NetDfsRemove"
+f1_keywords:
+- lmdfs/NetDfsRemove
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetDfsRemove
+- NetDfsRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

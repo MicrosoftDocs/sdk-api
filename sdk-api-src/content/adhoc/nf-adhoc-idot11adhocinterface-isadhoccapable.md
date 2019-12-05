@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsAdHocCapable
 title: IDot11AdHocInterface::IsAdHocCapable (adhoc.h)
-
 description: Specifies whether a NIC supports the creation or use of an ad hoc network.
 old-location: nwifi\idot11adhocinterface_isadhoccapable.htm
 tech.root: NativeWiFi
 ms.assetid: 18e3419f-500e-40bb-b7f1-125e95c55690
-
 ms.date: 12/05/2018
 ms.keywords: IDot11AdHocInterface interface [NativeWIFI],IsAdHocCapable method, IDot11AdHocInterface.IsAdHocCapable, IDot11AdHocInterface::IsAdHocCapable, IsAdHocCapable, IsAdHocCapable method [NativeWIFI], IsAdHocCapable method [NativeWIFI],IDot11AdHocInterface interface, adhoc/IDot11AdHocInterface::IsAdHocCapable, nwifi.idot11adhocinterface_isadhoccapable
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocInterface.IsAdHocCapable"
+f1_keywords:
+- adhoc/IDot11AdHocInterface.IsAdHocCapable
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocInterface.IsAdHocCapable
+- IDot11AdHocInterface.IsAdHocCapable
 targetos: Windows
 req.typenames: 
 req.redist: 

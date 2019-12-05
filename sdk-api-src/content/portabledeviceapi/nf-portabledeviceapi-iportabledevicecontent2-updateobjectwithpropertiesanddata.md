@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
 title: IPortableDeviceContent2::UpdateObjectWithPropertiesAndData (portabledeviceapi.h)
-
 description: Updates an object by using properties and data found on the device.
 old-location: wpdsdk\iportabledevicecontent2_updateobjectwithpropertiesanddata.htm
 tech.root: wpd_sdk
 ms.assetid: 43b8cf90-1c3f-43c2-a11f-cc4aef10bcf5
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceContent2 interface [Windows Portable Devices SDK],UpdateObjectWithPropertiesAndData method, IPortableDeviceContent2.UpdateObjectWithPropertiesAndData, IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData, UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK], UpdateObjectWithPropertiesAndData method [Windows Portable Devices SDK],IPortableDeviceContent2 interface, portabledeviceapi/IPortableDeviceContent2::UpdateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent2_updateobjectwithpropertiesanddata
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceContent2.UpdateObjectWithPropertiesAndData"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
+- IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
 targetos: Windows
 req.typenames: 
 req.redist: 

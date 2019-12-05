@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.graphics.effects.interop.IGraphicsEffectD2D1Interop.GetNamedPropertyMapping
 title: IGraphicsEffectD2D1Interop::effects (windows.graphics.effects.interop.h)
-
 description: Retrieves the mapping for an effect property.
 old-location: w_graph_fx\igraphicseffectd2d1interop_getnamedpropertymapping.htm
 tech.root: w_graph_fx
 ms.assetid: 72185CB5-6D8A-4F9F-B913-C9216CECEC90
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedPropertyMapping, GetNamedPropertyMapping method, GetNamedPropertyMapping method,IGraphicsEffectD2D1Interop interface, IGraphicsEffectD2D1Interop interface,GetNamedPropertyMapping method, IGraphicsEffectD2D1Interop.GetNamedPropertyMapping, IGraphicsEffectD2D1Interop.effects, IGraphicsEffectD2D1Interop::GetNamedPropertyMapping, IGraphicsEffectD2D1Interop::effects, w_graph_fx.igraphicseffectd2d1interop_getnamedpropertymapping, windows/IGraphicsEffectD2D1Interop::GetNamedPropertyMapping
 ms.topic: method
-f1_keywords: 
- - "windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetNamedPropertyMapping"
+f1_keywords:
+- windows.graphics.effects.interop/IGraphicsEffectD2D1Interop.GetNamedPropertyMapping
 dev_langs:
- - c++
+- c++
 req.header: windows.graphics.effects.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.effects.interop.h
+- windows.graphics.effects.interop.h
 api_name:
- - IGraphicsEffectD2D1Interop.GetNamedPropertyMapping
+- IGraphicsEffectD2D1Interop.GetNamedPropertyMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

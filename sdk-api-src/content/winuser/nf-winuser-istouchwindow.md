@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsTouchWindow
 title: IsTouchWindow function (winuser.h)
-
 description: Checks whether a specified window is touch-capable and, optionally, retrieves the modifier flags set for the window's touch capability.
 old-location: wintouch\istouchwindow.htm
 tech.root: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
-
 ms.date: 12/05/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/IsTouchWindow"
+f1_keywords:
+- winuser/IsTouchWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-NTUser-Misc-l1-2-0.dll
- - Ext-MS-Win-NTUser-Misc-l1-3-0.dll
- - ext-ms-win-ntuser-misc-l1-3-1.dll
- - Ext-MS-Win-NTUser-Misc-L1-4-0.dll
- - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
- - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
+- user32.dll
+- Ext-MS-Win-NTUser-Misc-l1-2-0.dll
+- Ext-MS-Win-NTUser-Misc-l1-3-0.dll
+- ext-ms-win-ntuser-misc-l1-3-1.dll
+- Ext-MS-Win-NTUser-Misc-L1-4-0.dll
+- Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
+- Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - IsTouchWindow
+- IsTouchWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

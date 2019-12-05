@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncSessionState2.SetProviderWithError
 title: ISyncSessionState2::SetProviderWithError (winsync.h)
-
 description: Indicates which provider caused synchronization to fail.
 old-location: winsync\isyncsessionstate2_setproviderwitherror.htm
 tech.root: winsync
 ms.assetid: dcbfcc13-5a8f-4062-baef-899f81413768
-
 ms.date: 12/05/2018
 ms.keywords: ISyncSessionState2 interface [Windows Sync],SetProviderWithError method, ISyncSessionState2.SetProviderWithError, ISyncSessionState2::SetProviderWithError, SetProviderWithError, SetProviderWithError method [Windows Sync], SetProviderWithError method [Windows Sync],ISyncSessionState2 interface, winsync.isyncsessionstate2_setproviderwitherror, winsync/ISyncSessionState2::SetProviderWithError
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncSessionState2.SetProviderWithError"
+f1_keywords:
+- winsync/ISyncSessionState2.SetProviderWithError
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsync.h
+- Winsync.h
 api_name:
- - ISyncSessionState2.SetProviderWithError
+- ISyncSessionState2.SetProviderWithError
 targetos: Windows
 req.typenames: 
 req.redist: 

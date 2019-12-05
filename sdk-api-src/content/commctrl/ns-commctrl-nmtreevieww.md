@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMTREEVIEWW
 title: NMTREEVIEWW (commctrl.h)
-
 description: Contains information about a tree-view notification message. This structure is identical to the NM_TREEVIEW structure, but it has been renamed to follow current naming conventions.
 old-location: controls\NMTREEVIEW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtreeview.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*LPNMTREEVIEWW, LPNMTREEVIEW, LPNMTREEVIEW structure pointer [Windows Controls], NMTREEVIEW, NMTREEVIEW structure [Windows Controls], NMTREEVIEWA, NMTREEVIEWW, _win32_NMTREEVIEW, _win32_NMTREEVIEW_cpp, commctrl/LPNMTREEVIEW, commctrl/NMTREEVIEW, commctrl/NMTREEVIEWA, commctrl/NMTREEVIEWW, controls.NMTREEVIEW, controls._win32_NMTREEVIEW'
 ms.topic: struct
 f1_keywords:
 - commctrl/NMTREEVIEW
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientReceiveMetadata
 title: PFN_WdsTransportClientReceiveMetadata (wdstci.h)
-
 description: PFN_WdsTransportClientReceiveMetadata is an optional callback that a consumer may register to receive metadata type information about a file. This information is provided by the content provider and is opaque to the multicast client and server.
 old-location: wds\pfn_wdstransportclientreceivemetadata.htm
 tech.root: wds
 ms.assetid: 9acde77b-5360-4c55-b11d-bf85e5c8d00e
-
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsTransportClientReceiveMetadata, PFN_WdsTransportClientReceiveMetadata callback, PFN_WdsTransportClientReceiveMetadata callback function [Windows Deployment Services], wds.pfn_wdstransportclientreceivemetadata, wdstci/PFN_WdsTransportClientReceiveMetadata
 ms.topic: callback
-f1_keywords: 
- - "wdstci/PFN_WdsTransportClientReceiveMetadata"
+f1_keywords:
+- wdstci/PFN_WdsTransportClientReceiveMetadata
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Wdstci.h
+- Wdstci.h
 api_name:
- - PFN_WdsTransportClientReceiveMetadata
+- PFN_WdsTransportClientReceiveMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

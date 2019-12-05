@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICRemove
 title: ICRemove function (vfw.h)
-
 description: The ICRemove function removes an installed compressor.
 old-location: multimedia\icremove.htm
 tech.root: Multimedia
 ms.assetid: c5f2638a-6b75-4e30-8420-94011c73f5bd
-
 ms.date: 12/05/2018
 ms.keywords: ICRemove, ICRemove function [Windows Multimedia], _win32_ICRemove, multimedia.icremove, vfw/ICRemove
 ms.topic: function
-f1_keywords: 
- - "vfw/ICRemove"
+f1_keywords:
+- vfw/ICRemove
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICRemove
+- ICRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

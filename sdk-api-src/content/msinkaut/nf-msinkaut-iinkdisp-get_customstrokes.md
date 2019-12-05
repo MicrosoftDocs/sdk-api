@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.get_CustomStrokes
 title: IInkDisp::get_CustomStrokes (msinkaut.h)
-
 description: Gets the collection of custom strokes to be persisted with the ink.
 old-location: tablet\inkdisp_customstrokes.htm
 tech.root: tablet
 ms.assetid: 33425e5b-2ba0-4026-ab19-33579e7bb9f5
-
 ms.date: 12/05/2018
 ms.keywords: 33425e5b-2ba0-4026-ab19-33579e7bb9f5, CustomStrokes property [Tablet PC], CustomStrokes property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CustomStrokes property, IInkDisp.CustomStrokes, IInkDisp.get_CustomStrokes, IInkDisp::CustomStrokes, IInkDisp::get_CustomStrokes, InkDisp.get_CustomStrokes, get_CustomStrokes, msinkaut/IInkDisp::CustomStrokes, msinkaut/IInkDisp::get_CustomStrokes, tablet.inkdisp_customstrokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.CustomStrokes"
+f1_keywords:
+- msinkaut/IInkDisp.CustomStrokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.CustomStrokes
- - IInkDisp.get_CustomStrokes
- - InkDisp.get_CustomStrokes
+- IInkDisp.CustomStrokes
+- IInkDisp.get_CustomStrokes
+- InkDisp.get_CustomStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Next
 title: IEnumRangeExceptions::Next (winsync.h)
-
 description: Returns the next elements in the change unit exception set, if they are available.
 old-location: winsync\ienumrangeexceptions_next.htm
 tech.root: winsync
 ms.assetid: 0ca472d7-4e97-4998-b883-05329dfdb27a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumRangeExceptions interface [Windows Sync],Next method, IEnumRangeExceptions.Next, IEnumRangeExceptions::Next, Next, Next method [Windows Sync], Next method [Windows Sync],IEnumRangeExceptions interface, winsync.ienumrangeexceptions_next, winsync/IEnumRangeExceptions::Next
 ms.topic: method
-f1_keywords: 
- - "winsync/IEnumRangeExceptions.Next"
+f1_keywords:
+- winsync/IEnumRangeExceptions.Next
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumRangeExceptions.Next
+- IEnumRangeExceptions.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:systemmediatransportcontrolsinterop.ISystemMediaTransportControlsInterop.GetForWindow
 title: ISystemMediaTransportControlsInterop::GetForWindow (systemmediatransportcontrolsinterop.h)
-
 description: Gets an instance of the ISystemMediaTransportControls interface for the specified window.
 old-location: mediatransport\isystemmediatransportcontrolsinterop_getforwindow.htm
 tech.root: mediatransport
 ms.assetid: 7E878C3B-4CE9-4DED-8082-8E37266FE8AF
-
 ms.date: 12/05/2018
 ms.keywords: GetForWindow, GetForWindow method, GetForWindow method,ISystemMediaTransportControlsInterop interface, ISystemMediaTransportControlsInterop interface,GetForWindow method, ISystemMediaTransportControlsInterop.GetForWindow, ISystemMediaTransportControlsInterop::GetForWindow, mediatransport.isystemmediatransportcontrolsinterop_getforwindow, systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop::GetForWindow
 ms.topic: method
-f1_keywords: 
- - "systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop.GetForWindow"
+f1_keywords:
+- systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop.GetForWindow
 dev_langs:
- - c++
+- c++
 req.header: systemmediatransportcontrolsinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - systemmediatransportcontrolsinterop.h
+- systemmediatransportcontrolsinterop.h
 api_name:
- - ISystemMediaTransportControlsInterop.GetForWindow
+- ISystemMediaTransportControlsInterop.GetForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

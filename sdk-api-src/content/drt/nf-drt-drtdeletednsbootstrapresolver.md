@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtDeleteDnsBootstrapResolver
 title: DrtDeleteDnsBootstrapResolver function (drt.h)
-
 description: DrtDeleteDnsBootstrapResolver function deletes a DNS Bootstrap Provider instance.
 old-location: p2p\drtdeletednsbootstrapresolver.htm
 tech.root: P2PSdk
 ms.assetid: fc3d0b6a-1bf3-41f9-82b6-965c285bc6c7
-
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteDnsBootstrapResolver, DrtDeleteDnsBootstrapResolver function [Distributed Routing Tables], drt/DrtDeleteDnsBootstrapResolver, p2p.drtdeletednsbootstrapresolver
 ms.topic: function
-f1_keywords: 
- - "drt/DrtDeleteDnsBootstrapResolver"
+f1_keywords:
+- drt/DrtDeleteDnsBootstrapResolver
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtDeleteDnsBootstrapResolver
+- DrtDeleteDnsBootstrapResolver
 targetos: Windows
 req.typenames: 
 req.redist: 

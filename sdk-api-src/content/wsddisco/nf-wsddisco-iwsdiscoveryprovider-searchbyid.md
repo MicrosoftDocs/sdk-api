@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchById
 title: IWSDiscoveryProvider::SearchById (wsddisco.h)
-
 description: Initializes a search for WS-Discovery hosts by device identifier.
 old-location: ncd\iwsdiscoveryprovider_searchbyid.htm
 tech.root: WsdApi
 ms.assetid: 78ae714a-1ee3-46eb-b3d6-ff46bf8974ab
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryProvider interface,SearchById method, IWSDiscoveryProvider.SearchById, IWSDiscoveryProvider::SearchById, SearchById, SearchById method, SearchById method,IWSDiscoveryProvider interface, ncd.iwsdiscoveryprovider_searchbyid, wsddisco/IWSDiscoveryProvider::SearchById
 ms.topic: method
-f1_keywords: 
- - "wsddisco/IWSDiscoveryProvider.SearchById"
+f1_keywords:
+- wsddisco/IWSDiscoveryProvider.SearchById
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDiscoveryProvider.SearchById
+- IWSDiscoveryProvider.SearchById
 targetos: Windows
 req.typenames: 
 req.redist: 

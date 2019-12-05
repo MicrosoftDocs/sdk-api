@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndCanPlay
 title: MCIWndCanPlay macro (vfw.h)
-
 description: The MCIWndCanPlay macro determines if an MCI device can play a data file or content of some other kind. You can use this macro or explicitly send the MCIWNDM_CAN_PLAY message.
 old-location: multimedia\mciwndcanplay.htm
 tech.root: Multimedia
 ms.assetid: 6ba9a080-f74a-4c3d-b264-8fbd768f3e6e
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndCanPlay, MCIWndCanPlay macro [Windows Multimedia], _win32_MCIWndCanPlay, multimedia.mciwndcanplay, vfw/MCIWndCanPlay
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndCanPlay"
+f1_keywords:
+- vfw/MCIWndCanPlay
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndCanPlay
+- MCIWndCanPlay
 targetos: Windows
 req.typenames: 
 req.redist: 

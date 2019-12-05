@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerStoreClose
 title: WerStoreClose function (werapi.h)
-
 description: Closes the collection of stored reports.
 old-location: wer\werstoreclose.htm
 tech.root: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
-
 ms.date: 12/05/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
 ms.topic: function
-f1_keywords: 
- - "werapi/WerStoreClose"
+f1_keywords:
+- werapi/WerStoreClose
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wer.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- wer.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerStoreClose
+- WerStoreClose
 targetos: Windows
 req.typenames: 
 req.redist: 

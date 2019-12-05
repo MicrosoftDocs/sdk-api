@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerUseAllProtseqs
 title: RpcServerUseAllProtseqs function (rpcdce.h)
-
 description: The RpcServerUseAllProtseqs function tells the RPC run-time library to use all supported protocol sequences for receiving remote procedure calls.
 old-location: rpc\rpcserveruseallprotseqs.htm
 tech.root: Rpc
 ms.assetid: e7379656-d6b7-4e5f-9251-7b112a40c6d5
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerUseAllProtseqs, RpcServerUseAllProtseqs function [RPC], _rpc_rpcserveruseallprotseqs, rpc.rpcserveruseallprotseqs, rpcdce/RpcServerUseAllProtseqs
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerUseAllProtseqs"
+f1_keywords:
+- rpcdce/RpcServerUseAllProtseqs
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerUseAllProtseqs
+- RpcServerUseAllProtseqs
 targetos: Windows
 req.typenames: 
 req.redist: 

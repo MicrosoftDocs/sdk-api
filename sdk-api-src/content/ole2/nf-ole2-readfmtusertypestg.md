@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.ReadFmtUserTypeStg
 title: ReadFmtUserTypeStg function (ole2.h)
-
 description: The ReadFmtUserTypeStg function returns the clipboard format and user type previously saved with the WriteFmtUserTypeStg function.
 old-location: stg\readfmtusertypestg.htm
 tech.root: Stg
 ms.assetid: 6f26550d-c094-4150-b8ef-2da1d052c1ff
-
 ms.date: 12/05/2018
 ms.keywords: ReadFmtUserTypeStg, ReadFmtUserTypeStg function [Structured Storage], _stg_readfmtusertypestg, ole2/ReadFmtUserTypeStg, stg.readfmtusertypestg
 ms.topic: function
-f1_keywords: 
- - "ole2/ReadFmtUserTypeStg"
+f1_keywords:
+- ole2/ReadFmtUserTypeStg
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ReadFmtUserTypeStg
+- ReadFmtUserTypeStg
 targetos: Windows
 req.typenames: 
 req.redist: 

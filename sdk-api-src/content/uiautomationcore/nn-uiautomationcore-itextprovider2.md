@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.ITextProvider2
 title: ITextProvider2 (uiautomationcore.h)
-
 description: Extends the ITextProvider interface to enable Microsoft UI Automation providers to expose textual content that is the target of an annotation, and information about a caret that belongs to the provider.
 old-location: winauto\uiauto_itextprovider2.htm
 tech.root: WinAuto
 ms.assetid: CDA6E93D-6E82-4EC4-8408-09554D039F49
-
 ms.date: 12/05/2018
 ms.keywords: ITextProvider2, ITextProvider2 interface [Windows Accessibility], ITextProvider2 interface [Windows Accessibility],described, uiautomationcore/ITextProvider2, winauto.uiauto_itextprovider2
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/ITextProvider2"
+f1_keywords:
+- uiautomationcore/ITextProvider2
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ITextProvider2
+- ITextProvider2
 targetos: Windows
 req.typenames: 
 req.redist: 

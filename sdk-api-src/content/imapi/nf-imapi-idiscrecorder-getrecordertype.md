@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscRecorder.GetRecorderType
 title: IDiscRecorder::GetRecorderType (imapi.h)
-
 description: Determines whether the disc recorder is a CD-R or CD-RW type device. This does not indicate the type of media that is currently inserted in the device.
 old-location: imapi\idiscrecorder_getrecordertype.htm
 tech.root: imapi
 ms.assetid: 287516b5-5d27-4277-8bc4-e2409b2a8cd7
-
 ms.date: 12/05/2018
 ms.keywords: GetRecorderType, GetRecorderType method [IMAPI], GetRecorderType method [IMAPI],IDiscRecorder interface, IDiscRecorder interface [IMAPI],GetRecorderType method, IDiscRecorder.GetRecorderType, IDiscRecorder::GetRecorderType, RECORDER_CDR, RECORDER_CDRW, _win32_idiscrecorder_getrecordertype, base.idiscrecorder_getrecordertype, imapi.idiscrecorder_getrecordertype, imapi/IDiscRecorder::GetRecorderType
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscRecorder.GetRecorderType"
+f1_keywords:
+- imapi/IDiscRecorder.GetRecorderType
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscRecorder.GetRecorderType
+- IDiscRecorder.GetRecorderType
 targetos: Windows
 req.typenames: 
 req.redist: 

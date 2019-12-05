@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorNotEqual
 title: XMVectorNotEqual function (directxmath.h)
-
 description: Performs a per-component test for the inequality of two vectors.
 old-location: dxmath\xmvectornotequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorNotEqual(XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorNotEqual, XMVectorNotEqual, XMVectorNotEqual method [DirectX Math Support APIs], dxmath.xmvectornotequal
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorNotEqual"
+f1_keywords:
+- directxmath/XMVectorNotEqual
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorNotEqual
+- XMVectorNotEqual
 targetos: Windows
 req.typenames: 
 req.redist: 

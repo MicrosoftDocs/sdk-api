@@ -1,19 +1,17 @@
 ---
 UID: NF:restrictederrorinfo.IRestrictedErrorInfo.GetReference
 title: IRestrictedErrorInfo::GetReference (restrictederrorinfo.h)
-
 description: Returns a reference to restricted error information.
 old-location: winrt\irestrictederrorinfo_getreference.htm
 tech.root: WinRT
 ms.assetid: e7f0c451-c6a4-49ec-a97a-dc834081b3c1
-
 ms.date: 12/05/2018
 ms.keywords: GetReference, GetReference method [Windows Runtime], GetReference method [Windows Runtime],IRestrictedErrorInfo interface, IRestrictedErrorInfo interface [Windows Runtime],GetReference method, IRestrictedErrorInfo.GetReference, IRestrictedErrorInfo::GetReference, restrictederrorinfo/IRestrictedErrorInfo::GetReference, winrt.irestrictederrorinfo_getreference
 ms.topic: method
-f1_keywords: 
- - "restrictederrorinfo/IRestrictedErrorInfo.GetReference"
+f1_keywords:
+- restrictederrorinfo/IRestrictedErrorInfo.GetReference
 dev_langs:
- - c++
+- c++
 req.header: restrictederrorinfo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RestrictedErrorInfo.h
+- RestrictedErrorInfo.h
 api_name:
- - IRestrictedErrorInfo.GetReference
+- IRestrictedErrorInfo.GetReference
 targetos: Windows
 req.typenames: 
 req.redist: 

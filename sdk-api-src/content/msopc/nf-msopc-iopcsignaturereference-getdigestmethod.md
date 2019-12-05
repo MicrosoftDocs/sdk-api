@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcSignatureReference.GetDigestMethod
 title: IOpcSignatureReference::GetDigestMethod (msopc.h)
-
 description: Gets the digest method to use on the referenced XML element, when the element is signed.
 old-location: opc\iopcsignaturereference_getdigestmethod.htm
 tech.root: OPC
 ms.assetid: 438adeba-bf5f-4f87-ab4c-c370e58565ce
-
 ms.date: 12/05/2018
 ms.keywords: GetDigestMethod, GetDigestMethod method [Open Packaging Conventions], GetDigestMethod method [Open Packaging Conventions],IOpcSignatureReference interface, IOpcSignatureReference interface [Open Packaging Conventions],GetDigestMethod method, IOpcSignatureReference.GetDigestMethod, IOpcSignatureReference::GetDigestMethod, msopc/IOpcSignatureReference::GetDigestMethod, opc.iopcsignaturereference_getdigestmethod
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcSignatureReference.GetDigestMethod"
+f1_keywords:
+- msopc/IOpcSignatureReference.GetDigestMethod
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignatureReference.GetDigestMethod
+- IOpcSignatureReference.GetDigestMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

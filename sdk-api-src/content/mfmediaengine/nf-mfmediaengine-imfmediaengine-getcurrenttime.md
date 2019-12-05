@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetCurrentTime
 title: IMFMediaEngine::GetCurrentTime (mfmediaengine.h)
-
 description: Gets the current playback position.
 old-location: mf\imfmediaengine_getcurrenttime.htm
 tech.root: medfound
 ms.assetid: 49FA2383-8AEC-4DDF-8998-25987EEC8223
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentTime, GetCurrentTime method [Media Foundation], GetCurrentTime method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetCurrentTime method, IMFMediaEngine.GetCurrentTime, IMFMediaEngine::GetCurrentTime, mf.imfmediaengine_getcurrenttime, mfmediaengine/IMFMediaEngine::GetCurrentTime
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetCurrentTime"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetCurrentTime
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetCurrentTime
+- IMFMediaEngine.GetCurrentTime
 targetos: Windows
 req.typenames: 
 req.redist: 

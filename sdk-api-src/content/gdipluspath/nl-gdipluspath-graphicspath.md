@@ -1,19 +1,17 @@
 ---
 UID: NL:gdipluspath.GraphicsPath
 title: GraphicsPath (gdipluspath.h)
-
 description: A GraphicsPath object stores a sequence of lines, curves, and shapes.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspath.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath, GraphicsPath class [GDI+], GraphicsPath class [GDI+],described, _gdiplus_CLASS_GraphicsPath_Class, gdiplus._gdiplus_CLASS_GraphicsPath_Class, gdipluspath/GraphicsPath
 ms.topic: class
-f1_keywords: 
- - "gdipluspath/GraphicsPath"
+f1_keywords:
+- gdipluspath/GraphicsPath
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath
+- GraphicsPath
 targetos: Windows
 req.typenames: 
 req.redist: 

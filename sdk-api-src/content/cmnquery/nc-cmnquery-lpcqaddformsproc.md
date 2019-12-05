@@ -1,19 +1,17 @@
 ---
 UID: NC:cmnquery.LPCQADDFORMSPROC
 title: LPCQADDFORMSPROC (cmnquery.h)
-
 description: Called by a query form extension to add a form to the query dialog box.
 old-location: ad\cqaddformsproc.htm
 tech.root: ad
 ms.assetid: e4221299-93de-4747-b464-0d152d6e767b
-
 ms.date: 12/05/2018
 ms.keywords: CQAddFormsProc, CQAddFormsProc callback, CQAddFormsProc callback function [Active Directory], LPCQADDFORMSPROC, LPCQADDFORMSPROC callback function pointer [Active Directory], ad.cqaddformsproc, cmnquery/CQAddFormsProc
 ms.topic: callback
-f1_keywords: 
- - "cmnquery/LPCQADDFORMSPROC"
+f1_keywords:
+- cmnquery/LPCQADDFORMSPROC
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Cmnquery.h
+- Cmnquery.h
 api_name:
- - LPCQADDFORMSPROC
+- LPCQADDFORMSPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

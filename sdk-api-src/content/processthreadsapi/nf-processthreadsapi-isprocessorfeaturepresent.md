@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.IsProcessorFeaturePresent
 title: IsProcessorFeaturePresent function (processthreadsapi.h)
-
 description: Determines whether the specified processor feature is supported by the current computer.
 old-location: base\isprocessorfeaturepresent.htm
 tech.root: SysInfo
 ms.assetid: c58cfb0a-f40f-429c-abe9-83b6f038f612
-
 ms.date: 12/05/2018
 ms.keywords: IsProcessorFeaturePresent, IsProcessorFeaturePresent function, PF_3DNOW_INSTRUCTIONS_AVAILABLE, PF_ARM_64BIT_LOADSTORE_ATOMIC, PF_ARM_DIVIDE_INSTRUCTION_AVAILABLE, PF_ARM_EXTERNAL_CACHE_AVAILABLE, PF_ARM_FMAC_INSTRUCTIONS_AVAILABLE, PF_ARM_VFP_32_REGISTERS_AVAILABLE, PF_CHANNELS_ENABLED, PF_COMPARE64_EXCHANGE128, PF_COMPARE_EXCHANGE128, PF_COMPARE_EXCHANGE_DOUBLE, PF_FASTFAIL_AVAILABLE, PF_FLOATING_POINT_EMULATED, PF_FLOATING_POINT_PRECISION_ERRATA, PF_MMX_INSTRUCTIONS_AVAILABLE, PF_NX_ENABLED, PF_PAE_ENABLED, PF_RDTSC_INSTRUCTION_AVAILABLE, PF_RDWRFSGSBASE_AVAILABLE, PF_SECOND_LEVEL_ADDRESS_TRANSLATION, PF_SSE3_INSTRUCTIONS_AVAILABLE, PF_VIRT_FIRMWARE_ENABLED, PF_XMMI64_INSTRUCTIONS_AVAILABLE, PF_XMMI_INSTRUCTIONS_AVAILABLE, PF_XSAVE_ENABLED, _win32_isprocessorfeaturepresent, base.isprocessorfeaturepresent, processthreadsapi/IsProcessorFeaturePresent
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/IsProcessorFeaturePresent"
+f1_keywords:
+- processthreadsapi/IsProcessorFeaturePresent
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - KernelBase.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- KernelBase.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - IsProcessorFeaturePresent
+- IsProcessorFeaturePresent
 targetos: Windows
 req.typenames: 
 req.redist: 

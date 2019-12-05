@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.BltFast
 title: IDirectDrawSurface7::BltFast (ddraw.h)
-
 description: Performs a source copy bitblt or transparent bitblt by using a source color key or destination color key.
 old-location: directdraw\idirectdrawsurface7_bltfast.htm
 tech.root: directdraw
 ms.assetid: ac882b48-87b2-4b65-99b0-ac9065b5f47f
-
 ms.date: 12/05/2018
 ms.keywords: BltFast, BltFast method [DirectDraw], BltFast method [DirectDraw],IDirectDrawSurface7 interface, DDBLTFAST_DESTCOLORKEY, DDBLTFAST_NOCOLORKEY, DDBLTFAST_SRCCOLORKEY, DDBLTFAST_WAIT, IDirectDrawSurface7 interface [DirectDraw],BltFast method, IDirectDrawSurface7.BltFast, IDirectDrawSurface7::BltFast, ddraw/IDirectDrawSurface7::BltFast, directdraw.idirectdrawsurface7_bltfast
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.BltFast"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.BltFast
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.BltFast
+- IDirectDrawSurface7.BltFast
 targetos: Windows
 req.typenames: 
 req.redist: 

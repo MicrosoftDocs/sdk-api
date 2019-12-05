@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetRecordServiceId
 title: IDVB_SIT::GetRecordServiceId (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sit_getrecordserviceid.htm
 tech.root: mstv
 ms.assetid: de7c8002-292b-45eb-ba41-1dcd5f55a781
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceId, GetRecordServiceId method [Microsoft TV Technologies], GetRecordServiceId method [Microsoft TV Technologies],IDVB_SIT interface, IDVB_SIT interface [Microsoft TV Technologies],GetRecordServiceId method, IDVB_SIT.GetRecordServiceId, IDVB_SIT::GetRecordServiceId, IDVB_SITGetRecordServiceId, dvbsiparser/IDVB_SIT::GetRecordServiceId, mstv.idvb_sit_getrecordserviceid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_SIT.GetRecordServiceId"
+f1_keywords:
+- dvbsiparser/IDVB_SIT.GetRecordServiceId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SIT.GetRecordServiceId
+- IDVB_SIT.GetRecordServiceId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_1.IDWriteBitmapRenderTarget1.SetTextAntialiasMode
 title: IDWriteBitmapRenderTarget1::SetTextAntialiasMode (dwrite_1.h)
-
 description: Sets the current text antialiasing mode of the bitmap render target.
 old-location: directwrite\idwritebitmaprendertarget1_settextantialiasmode.htm
 tech.root: DirectWrite
 ms.assetid: 813C984D-81BC-4CAA-8C0A-166612E8028F
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteBitmapRenderTarget1 interface [Direct Write],SetTextAntialiasMode method, IDWriteBitmapRenderTarget1.SetTextAntialiasMode, IDWriteBitmapRenderTarget1::SetTextAntialiasMode, SetTextAntialiasMode, SetTextAntialiasMode method [Direct Write], SetTextAntialiasMode method [Direct Write],IDWriteBitmapRenderTarget1 interface, directwrite.idwritebitmaprendertarget1_settextantialiasmode, dwrite_1/IDWriteBitmapRenderTarget1::SetTextAntialiasMode
 ms.topic: method
-f1_keywords: 
- - "dwrite_1/IDWriteBitmapRenderTarget1.SetTextAntialiasMode"
+f1_keywords:
+- dwrite_1/IDWriteBitmapRenderTarget1.SetTextAntialiasMode
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget1.SetTextAntialiasMode
+- IDWriteBitmapRenderTarget1.SetTextAntialiasMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.BuyComplete
 title: IWMPContentPartnerCallback::BuyComplete (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_buycomplete.htm
 tech.root: WMP
 ms.assetid: 4e9ab15f-3418-472d-afc4-0f9fae852da2
-
 ms.date: 12/05/2018
 ms.keywords: BuyComplete, BuyComplete method [Windows Media Player], BuyComplete method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],BuyComplete method, IWMPContentPartnerCallback.BuyComplete, IWMPContentPartnerCallback::BuyComplete, IWMPContentPartnerCallbackBuyComplete, contentpartner/IWMPContentPartnerCallback::BuyComplete, wmp.iwmpcontentpartnercallback_buycomplete
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartnerCallback.BuyComplete"
+f1_keywords:
+- contentpartner/IWMPContentPartnerCallback.BuyComplete
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.BuyComplete
+- IWMPContentPartnerCallback.BuyComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

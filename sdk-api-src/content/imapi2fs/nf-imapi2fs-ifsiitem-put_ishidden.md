@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiItem.put_IsHidden
 title: IFsiItem::put_IsHidden (imapi2fs.h)
-
 description: Determines if the item's hidden attribute is set in the file system image.
 old-location: imapi\ifsiitem_put_ishidden.htm
 tech.root: imapi
 ms.assetid: a437daea-af30-43e5-bb88-e59de8ba37c9
-
 ms.date: 12/05/2018
 ms.keywords: IFsiItem interface [IMAPI],put_IsHidden method, IFsiItem.put_IsHidden, IFsiItem::put_IsHidden, imapi.ifsiitem_put_ishidden, imapi2fs/IFsiItem::put_IsHidden, put_IsHidden, put_IsHidden method [IMAPI], put_IsHidden method [IMAPI],IFsiItem interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiItem.put_IsHidden"
+f1_keywords:
+- imapi2fs/IFsiItem.put_IsHidden
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiItem.put_IsHidden
+- IFsiItem.put_IsHidden
 targetos: Windows
 req.typenames: 
 req.redist: 

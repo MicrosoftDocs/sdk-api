@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Metafile.PlayRecord
 title: Metafile::PlayRecord (gdiplusheaders.h)
-
 description: The Metafile::PlayRecord method plays a metafile record.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\playrecord.htm
-
 ms.date: 12/05/2018
 ms.keywords: Metafile class [GDI+],PlayRecord method, Metafile.PlayRecord, Metafile::PlayRecord, PlayRecord, PlayRecord method [GDI+], PlayRecord method [GDI+],Metafile class, _gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_, gdiplus._gdiplus_CLASS_Metafile_PlayRecord_recordType_flags_dataSize_data_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Metafile.PlayRecord"
+f1_keywords:
+- gdiplusheaders/Metafile.PlayRecord
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Metafile.PlayRecord
+- Metafile.PlayRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

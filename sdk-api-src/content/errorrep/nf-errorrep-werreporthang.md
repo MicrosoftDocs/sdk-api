@@ -1,19 +1,17 @@
 ---
 UID: NF:errorrep.WerReportHang
 title: WerReportHang function (errorrep.h)
-
 description: Initiates &#0034;no response&#0034; reporting on the specified window.
 old-location: wer\werreporthang.htm
 tech.root: wer
 ms.assetid: db147395-4d60-4d74-9331-18137bcfff8e
-
 ms.date: 12/05/2018
 ms.keywords: WerReportHang, WerReportHang function [Windows Error Reporting], errorrep/WerReportHang, wer.werreporthang
 ms.topic: function
-f1_keywords: 
- - "errorrep/WerReportHang"
+f1_keywords:
+- errorrep/WerReportHang
 dev_langs:
- - c++
+- c++
 req.header: errorrep.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Faultrep.lib
 req.dll: Faultrep.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Faultrep.dll
+- Faultrep.dll
 api_name:
- - WerReportHang
+- WerReportHang
 targetos: Windows
 req.typenames: 
 req.redist: 

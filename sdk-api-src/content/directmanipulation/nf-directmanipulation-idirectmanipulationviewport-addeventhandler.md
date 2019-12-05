@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddEventHandler
 title: IDirectManipulationViewport::AddEventHandler (directmanipulation.h)
-
 description: Adds a new event handler to listen for viewport events.
 old-location: directmanipulation\idirectmanipulationviewport_addeventhandler.htm
 tech.root: directmanipulation
 ms.assetid: 56b47fec-dfa2-4906-9135-5ee331f04c54
-
 ms.date: 12/05/2018
 ms.keywords: AddEventHandler, AddEventHandler method [Direct Manipulation], AddEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddEventHandler method, IDirectManipulationViewport.AddEventHandler, IDirectManipulationViewport::AddEventHandler, directmanipulation.idirectmanipulationviewport_addeventhandler, directmanipulation/IDirectManipulationViewport::AddEventHandler
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.AddEventHandler"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.AddEventHandler
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.AddEventHandler
+- IDirectManipulationViewport.AddEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

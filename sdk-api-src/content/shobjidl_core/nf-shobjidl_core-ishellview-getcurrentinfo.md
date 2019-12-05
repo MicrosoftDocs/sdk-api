@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellView.GetCurrentInfo
 title: IShellView::GetCurrentInfo (shobjidl_core.h)
-
 description: Gets the current folder settings.
 old-location: shell\IShellView_GetCurrentInfo.htm
 tech.root: shell
 ms.assetid: 69d18b4f-3a68-420c-a184-05c2f69a5ec6
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentInfo, GetCurrentInfo method [Windows Shell], GetCurrentInfo method [Windows Shell],IShellView interface, IShellView interface [Windows Shell],GetCurrentInfo method, IShellView.GetCurrentInfo, IShellView::GetCurrentInfo, _win32_IShellView_GetCurrentInfo, shell.IShellView_GetCurrentInfo, shobjidl_core/IShellView::GetCurrentInfo
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellView.GetCurrentInfo"
+f1_keywords:
+- shobjidl_core/IShellView.GetCurrentInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView.GetCurrentInfo
+- IShellView.GetCurrentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:inkrenderer.IInkD2DRenderer.Draw
 title: IInkD2DRenderer::Draw (inkrenderer.h)
-
 description: Renders the ink stroke to the designated Direct2D device context of the app.
 old-location: input_ink\iinkd2drenderer_draw.htm
 tech.root: input_ink
 ms.assetid: 013f3b95-d5da-44e3-b2da-64a49cc8908e
-
 ms.date: 12/05/2018
 ms.keywords: Draw, Draw method, Draw method,IInkD2DRenderer interface, IInkD2DRenderer interface,Draw method, IInkD2DRenderer.Draw, IInkD2DRenderer::Draw, inkrenderer/IInkD2DRenderer::Draw, input_ink.iinkd2drenderer_draw
 ms.topic: method
-f1_keywords: 
- - "inkrenderer/IInkD2DRenderer.Draw"
+f1_keywords:
+- inkrenderer/IInkD2DRenderer.Draw
 dev_langs:
- - c++
+- c++
 req.header: inkrenderer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - inkrenderer.h
+- inkrenderer.h
 api_name:
- - IInkD2DRenderer.Draw
+- IInkD2DRenderer.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

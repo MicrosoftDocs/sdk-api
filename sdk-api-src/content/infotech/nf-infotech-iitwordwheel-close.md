@@ -1,19 +1,17 @@
 ---
 UID: NF:infotech.IITWordWheel.Close
 title: IITWordWheel::Close (infotech.h)
-
 description: Closes a word wheel.
 old-location: htmlhelp\iitwordwheel_close.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelclose.htm
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [HTML Help Workshop], Close method [HTML Help Workshop],IITWordWheel interface, IITWordWheel interface [HTML Help Workshop],Close method, IITWordWheel.Close, IITWordWheel::Close, htmlhelp.iitwordwheel_close, infotech/IITWordWheel::Close, refIITWordWheelClose
 ms.topic: method
-f1_keywords: 
- - "infotech/IITWordWheel.Close"
+f1_keywords:
+- infotech/IITWordWheel.Close
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IITWordWheel.Close
+- IITWordWheel.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

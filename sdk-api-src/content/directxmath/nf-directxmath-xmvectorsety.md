@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSetY
 title: XMVectorSetY function (directxmath.h)
-
 description: Set the value of the y component of an XMVECTOR Data Type.
 old-location: dxmath\xmvectorsety.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetY(XMVECTOR,float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetY, XMVectorSetY, XMVectorSetY method [DirectX Math Support APIs], dxmath.xmvectorsety
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSetY"
+f1_keywords:
+- directxmath/XMVectorSetY
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSetY
+- XMVectorSetY
 targetos: Windows
 req.typenames: 
 req.redist: 

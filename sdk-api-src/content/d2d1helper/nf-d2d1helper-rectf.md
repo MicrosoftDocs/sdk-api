@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.RectF
 title: RectF function (d2d1helper.h)
-
 description: Creates a D2D1_RECT_F structure that contains the specified dimensions.
 old-location: direct2d\rectf.htm
 tech.root: Direct2D
 ms.assetid: 8abcc11d-40be-45ac-9f23-b94adf9842d5
-
 ms.date: 12/05/2018
 ms.keywords: RectF, RectF function [Direct2D], d2d1helper/RectF, direct2d.rectf
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/RectF"
+f1_keywords:
+- d2d1helper/RectF
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - RectF
+- RectF
 targetos: Windows
 req.typenames: 
 req.redist: 

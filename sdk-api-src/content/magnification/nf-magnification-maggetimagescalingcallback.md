@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagGetImageScalingCallback
 title: MagGetImageScalingCallback function (magnification.h)
-
 description: Retrieves the registered callback function that implements a custom transform for image scaling.
 old-location: magapi\magapi_MagGetImageScalingCallback.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetimagescalingcallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagGetImageScalingCallback, MagGetImageScalingCallback function [Magnification API], magapi.magapi_MagGetImageScalingCallback, magapi_MagGetImageScalingCallback, magnification/MagGetImageScalingCallback
 ms.topic: function
-f1_keywords: 
- - "magnification/MagGetImageScalingCallback"
+f1_keywords:
+- magnification/MagGetImageScalingCallback
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagGetImageScalingCallback
+- MagGetImageScalingCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

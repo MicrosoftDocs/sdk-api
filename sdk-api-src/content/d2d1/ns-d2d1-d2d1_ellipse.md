@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_ELLIPSE
 title: D2D1_ELLIPSE (d2d1.h)
-
 description: Contains the center point, x-radius, and y-radius of an ellipse.
 old-location: direct2d\D2D1_ELLIPSE.htm
 tech.root: Direct2D
 ms.assetid: 6fed6c49-ba83-4c2b-af8a-04156ee317f0
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_ELLIPSE, D2D1_ELLIPSE structure [Direct2D], d2d1/D2D1_ELLIPSE, direct2d.D2D1_ELLIPSE
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_ELLIPSE"
+f1_keywords:
+- d2d1/D2D1_ELLIPSE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_ELLIPSE
+- D2D1_ELLIPSE
 targetos: Windows
 req.typenames: D2D1_ELLIPSE
 req.redist: 

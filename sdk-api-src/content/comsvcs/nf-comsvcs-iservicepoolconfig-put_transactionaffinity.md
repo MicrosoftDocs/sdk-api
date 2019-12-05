@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_TransactionAffinity
 title: IServicePoolConfig::put_TransactionAffinity (comsvcs.h)
-
 description: Sets whether objects involved in transactions are held until the transaction completes.
 old-location: cos\iservicepoolconfig_put_transactionaffinity.htm
 tech.root: cossdk
 ms.assetid: 2f69bae2-560d-455b-b1b4-922c2fb4563a
-
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_TransactionAffinity method, IServicePoolConfig.put_TransactionAffinity, IServicePoolConfig::put_TransactionAffinity, comsvcs/IServicePoolConfig::put_TransactionAffinity, cos.iservicepoolconfig_put_transactionaffinity, put_TransactionAffinity, put_TransactionAffinity method [COM+], put_TransactionAffinity method [COM+],IServicePoolConfig interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePoolConfig.put_TransactionAffinity"
+f1_keywords:
+- comsvcs/IServicePoolConfig.put_TransactionAffinity
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePoolConfig.put_TransactionAffinity
+- IServicePoolConfig.put_TransactionAffinity
 targetos: Windows
 req.typenames: 
 req.redist: 

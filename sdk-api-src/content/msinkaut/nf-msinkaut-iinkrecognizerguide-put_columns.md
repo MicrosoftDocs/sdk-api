@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerGuide.put_Columns
 title: IInkRecognizerGuide::put_Columns (msinkaut.h)
-
 description: Gets or sets the number of columns in the recognition guide box.
 old-location: tablet\inkrecognizerguide_columns.htm
 tech.root: tablet
 ms.assetid: dfc2848c-6cd6-4dd6-95b6-4097ef641835
-
 ms.date: 12/05/2018
 ms.keywords: Columns property [Tablet PC], Columns property [Tablet PC],IInkRecognizerGuide interface, IInkRecognizerGuide interface [Tablet PC],Columns property, IInkRecognizerGuide.Columns, IInkRecognizerGuide.put_Columns, IInkRecognizerGuide::Columns, IInkRecognizerGuide::get_Columns, IInkRecognizerGuide::put_Columns, InkRecognizerGuide.get_Columns, InkRecognizerGuide.put_Columns, dfc2848c-6cd6-4dd6-95b6-4097ef641835, msinkaut/IInkRecognizerGuide::Columns, msinkaut/IInkRecognizerGuide::get_Columns, msinkaut/IInkRecognizerGuide::put_Columns, put_Columns, tablet.inkrecognizerguide_columns
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerGuide.Columns"
+f1_keywords:
+- msinkaut/IInkRecognizerGuide.Columns
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide.Columns
- - IInkRecognizerGuide.get_Columns
- - IInkRecognizerGuide.put_Columns
- - InkRecognizerGuide.get_Columns
- - InkRecognizerGuide.put_Columns
+- IInkRecognizerGuide.Columns
+- IInkRecognizerGuide.get_Columns
+- IInkRecognizerGuide.put_Columns
+- InkRecognizerGuide.get_Columns
+- InkRecognizerGuide.put_Columns
 targetos: Windows
 req.typenames: 
 req.redist: 

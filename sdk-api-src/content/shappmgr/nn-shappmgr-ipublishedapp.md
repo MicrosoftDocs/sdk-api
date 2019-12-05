@@ -1,19 +1,17 @@
 ---
 UID: NN:shappmgr.IPublishedApp
 title: IPublishedApp (shappmgr.h)
-
 description: Exposes methods that represent applications to Add/Remove Programs in Control Panel.
 old-location: shell\IPublishedApp.htm
 tech.root: shell
 ms.assetid: a5a44e74-494a-4c9b-8bf3-85c6093b2c0e
-
 ms.date: 12/05/2018
 ms.keywords: IPublishedApp, IPublishedApp interface [Windows Shell], IPublishedApp interface [Windows Shell],described, inet_IPublishedApp, shappmgr/IPublishedApp, shell.IPublishedApp
 ms.topic: interface
-f1_keywords: 
- - "shappmgr/IPublishedApp"
+f1_keywords:
+- shappmgr/IPublishedApp
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IPublishedApp
+- IPublishedApp
 targetos: Windows
 req.typenames: 
 req.redist: 

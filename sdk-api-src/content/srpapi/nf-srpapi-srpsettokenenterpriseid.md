@@ -1,19 +1,17 @@
 ---
 UID: NF:srpapi.SrpSetTokenEnterpriseId
 title: SrpSetTokenEnterpriseId function (srpapi.h)
-
 description: Sets a data intent on a token. The caller process should be enterprise allowed for the provided enterprise ID.
 old-location: edp\srpsettokenenterpriseid.htm
 tech.root: EDP
 ms.assetid: A96E6977-5637-4E3E-A2AE-7892DC61FB08
-
 ms.date: 12/05/2018
 ms.keywords: EDP.srpsettokenenterpriseid, SrpSetTokenEnterpriseId, SrpSetTokenEnterpriseId function, srpapi/SrpSetTokenEnterpriseId
 ms.topic: function
-f1_keywords: 
- - "srpapi/SrpSetTokenEnterpriseId"
+f1_keywords:
+- srpapi/SrpSetTokenEnterpriseId
 dev_langs:
- - c++
+- c++
 req.header: srpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Srpapi.lib
 req.dll: Srpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - srpapi.dll
- - Ext-MS-Win-Security-Srp-L1-1-0.dll
- - Ext-MS-Win-Security-Srp-L1-1-1.dll
+- srpapi.dll
+- Ext-MS-Win-Security-Srp-L1-1-0.dll
+- Ext-MS-Win-Security-Srp-L1-1-1.dll
 api_name:
- - SrpSetTokenEnterpriseId
+- SrpSetTokenEnterpriseId
 targetos: Windows
 req.typenames: 
 req.redist: 

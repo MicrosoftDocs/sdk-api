@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetColorContexts
 title: IWICBitmapDecoder::GetColorContexts (wincodec.h)
-
 description: Retrieves the IWICColorContext objects of the image.
 old-location: wic\_wic_codec_iwicbitmapdecoder_getcolorcontexts.htm
 tech.root: wic
 ms.assetid: 55fdf9c0-5fa4-46e2-b4d2-42b8d4c90887
-
 ms.date: 12/05/2018
 ms.keywords: GetColorContexts, GetColorContexts method [Windows Imaging Component], GetColorContexts method [Windows Imaging Component],IWICBitmapDecoder interface, IWICBitmapDecoder interface [Windows Imaging Component],GetColorContexts method, IWICBitmapDecoder.GetColorContexts, IWICBitmapDecoder::GetColorContexts, _wic_codec_iwicbitmapdecoder_getcolorcontexts, wic._wic_codec_iwicbitmapdecoder_getcolorcontexts, wincodec/IWICBitmapDecoder::GetColorContexts
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapDecoder.GetColorContexts"
+f1_keywords:
+- wincodec/IWICBitmapDecoder.GetColorContexts
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder.GetColorContexts
+- IWICBitmapDecoder.GetColorContexts
 targetos: Windows
 req.typenames: 
 req.redist: 

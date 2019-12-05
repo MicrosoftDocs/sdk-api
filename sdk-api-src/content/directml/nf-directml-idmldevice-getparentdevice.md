@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLDevice.GetParentDevice
 title: IDMLDevice::GetParentDevice
-
 description: Retrieves the Direct3D 12 device that was used to create this DirectML device.
 old-location: direct3d12\idmldevice_getparentdevice.htm
 tech.root: direct3d12
 ms.assetid: 1EE62E60-629A-4D3B-A8CD-C0D9D9FBCB93
-
 ms.date: 12/5/2018
 ms.keywords: GetParentDevice, GetParentDevice method, GetParentDevice method,IDMLDevice interface, IDMLDevice interface,GetParentDevice method, IDMLDevice.GetParentDevice, IDMLDevice::GetParentDevice, direct3d12.idmldevice_getparentdevice, directml/IDMLDevice::GetParentDevice
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLDevice.GetParentDevice"
+f1_keywords:
+- directml/IDMLDevice.GetParentDevice
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLDevice.GetParentDevice
+- IDMLDevice.GetParentDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleClientSite.RequestNewObjectLayout
 title: IOleClientSite::RequestNewObjectLayout (oleidl.h)
-
 description: Asks a container to resize the display site for embedded objects.
 old-location: com\ioleclientsite_requestnewobjectlayout.htm
 tech.root: com
 ms.assetid: 68867ddd-fad0-4eef-8e5c-8198366e8e64
-
 ms.date: 12/05/2018
 ms.keywords: IOleClientSite interface [COM],RequestNewObjectLayout method, IOleClientSite.RequestNewObjectLayout, IOleClientSite::RequestNewObjectLayout, RequestNewObjectLayout, RequestNewObjectLayout method [COM], RequestNewObjectLayout method [COM],IOleClientSite interface, _ole_ioleclientsite_requestnewobjectlayout, com.ioleclientsite_requestnewobjectlayout, oleidl/IOleClientSite::RequestNewObjectLayout
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleClientSite.RequestNewObjectLayout"
+f1_keywords:
+- oleidl/IOleClientSite.RequestNewObjectLayout
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleClientSite.RequestNewObjectLayout
+- IOleClientSite.RequestNewObjectLayout
 targetos: Windows
 req.typenames: 
 req.redist: 

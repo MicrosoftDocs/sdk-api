@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capFileSaveDIB
 title: capFileSaveDIB macro (vfw.h)
-
 description: The capFileSaveDIB macro copies the current frame to a DIB file. You can use this macro or explicitly call the WM_CAP_FILE_SAVEDIB message.
 old-location: multimedia\capfilesavedib.htm
 tech.root: Multimedia
 ms.assetid: bab1c97d-e84e-43ff-9b66-79b903a610eb
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capFileSaveDIB, capFileSaveDIB, capFileSaveDIB macro [Windows Multimedia], multimedia.capfilesavedib, vfw/capFileSaveDIB"
+ms.keywords: _win32_capFileSaveDIB, capFileSaveDIB, capFileSaveDIB macro [Windows Multimedia], multimedia.capfilesavedib, vfw/capFileSaveDIB
 ms.topic: macro
-f1_keywords: 
- - "vfw/capFileSaveDIB"
+f1_keywords:
+- vfw/capFileSaveDIB
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capFileSaveDIB
+- capFileSaveDIB
 targetos: Windows
 req.typenames: 
 req.redist: 

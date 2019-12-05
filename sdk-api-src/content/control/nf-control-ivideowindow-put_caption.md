@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.put_Caption
 title: IVideoWindow::put_Caption (control.h)
-
 description: The put_Caption method sets the video window caption.
 old-location: dshow\ivideowindow_put_caption.htm
 tech.root: DirectShow
 ms.assetid: d16dca01-95ba-4573-b9c4-ab996dcf21e4
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_Caption method, IVideoWindow.put_Caption, IVideoWindow::put_Caption, IVideoWindowput_Caption, control/IVideoWindow::put_Caption, dshow.ivideowindow_put_caption, put_Caption, put_Caption method [DirectShow], put_Caption method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.put_Caption"
+f1_keywords:
+- control/IVideoWindow.put_Caption
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.put_Caption
+- IVideoWindow.put_Caption
 targetos: Windows
 req.typenames: 
 req.redist: 

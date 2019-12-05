@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.Getbool
 title: CInstance::Getbool (instance.h)
-
 description: The Getbool method retrieves a Boolean property.
 old-location: wmi\cinstance_getbool.htm
 tech.root: WmiSdk
 ms.assetid: cc8d0c91-03fb-4dc1-86a6-c1117f198181
-
 ms.date: 12/05/2018
-ms.keywords: "?Getbool@CInstance@@QBE_NPBGAA_N@Z, ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z, CInstance interface [Windows Management Instrumentation],Getbool method, CInstance.Getbool, CInstance::Getbool, Getbool, Getbool method [Windows Management Instrumentation], Getbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbool, instance/CInstance::Getbool, wmi.cinstance_getbool"
+ms.keywords: ?Getbool@CInstance@@QBE_NPBGAA_N@Z, ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z, CInstance interface [Windows Management Instrumentation],Getbool method, CInstance.Getbool, CInstance::Getbool, Getbool, Getbool method [Windows Management Instrumentation], Getbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getbool, instance/CInstance::Getbool, wmi.cinstance_getbool
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.Getbool"
+f1_keywords:
+- instance/CInstance.Getbool
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.Getbool
- - ?Getbool@CInstance@@QBE_NPBGAA_N@Z
- - ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z
+- CInstance.Getbool
+- ?Getbool@CInstance@@QBE_NPBGAA_N@Z
+- ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

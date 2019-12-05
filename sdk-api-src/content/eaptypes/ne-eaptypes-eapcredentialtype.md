@@ -1,19 +1,17 @@
 ---
 UID: NE:eaptypes._EapCredentialType
 title: EapCredentialType (eaptypes.h)
-
 description: Defines the set of possible EAP credentials that can be passed to the EapPeerGetConfigBlobAndUserBlob function.
 old-location: eaphost\eapcredentialtype.htm
 tech.root: eaphost
 ms.assetid: E77AA5E1-970A-43A6-916D-623A9C554F53
-
 ms.date: 12/05/2018
 ms.keywords: EAP_CERTIFICATE_CREDENTIAL, EAP_EMPTY_CREDENTIAL, EAP_SIM_CREDENTIAL, EAP_USERNAME_PASSWORD_CREDENTIAL, EAP_WINLOGON_CREDENTIAL, EapCredentialType, EapCredentialType enumeration [EAPHost], eaphost.eapcredentialtype, eaptypes/EAP_CERTIFICATE_CREDENTIAL, eaptypes/EAP_EMPTY_CREDENTIAL, eaptypes/EAP_SIM_CREDENTIAL, eaptypes/EAP_USERNAME_PASSWORD_CREDENTIAL, eaptypes/EAP_WINLOGON_CREDENTIAL, eaptypes/EapCredentialType
 ms.topic: enum
 f1_keywords:
 - eaptypes/EapCredentialType
 dev_langs:
- - c++
+- c++
 req.header: eaptypes.h
 req.include-header: 
 req.target-type: Windows

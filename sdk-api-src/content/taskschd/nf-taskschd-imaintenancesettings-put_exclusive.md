@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IMaintenanceSettings.put_Exclusive
 title: IMaintenanceSettings::put_Exclusive (taskschd.h)
-
 description: Indicates whether the Task scheduler must start the task during the Automatic maintenance in exclusive mode.
 old-location: taskschd\imaintenancesettings_exclusive.htm
 tech.root: taskschd
 ms.assetid: 6733749B-A82D-4707-93F9-7BD16137C465
-
 ms.date: 12/05/2018
 ms.keywords: Exclusive property [Task Scheduler], Exclusive property [Task Scheduler],IMaintenanceSettings interface, IMaintenanceSettings interface [Task Scheduler],Exclusive property, IMaintenanceSettings.Exclusive, IMaintenanceSettings.put_Exclusive, IMaintenanceSettings::Exclusive, IMaintenanceSettings::get_Exclusive, IMaintenanceSettings::put_Exclusive, put_Exclusive, taskschd.imaintenancesettings_exclusive, taskschd/IMaintenanceSettings::Exclusive, taskschd/IMaintenanceSettings::get_Exclusive, taskschd/IMaintenanceSettings::put_Exclusive
 ms.topic: method
-f1_keywords: 
- - "taskschd/IMaintenanceSettings.Exclusive"
+f1_keywords:
+- taskschd/IMaintenanceSettings.Exclusive
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Taskschd.dll
+- Taskschd.dll
 api_name:
- - IMaintenanceSettings.Exclusive
- - IMaintenanceSettings.get_Exclusive
- - IMaintenanceSettings.put_Exclusive
+- IMaintenanceSettings.Exclusive
+- IMaintenanceSettings.get_Exclusive
+- IMaintenanceSettings.put_Exclusive
 targetos: Windows
 req.typenames: 
 req.redist: 

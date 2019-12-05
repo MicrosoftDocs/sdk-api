@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.SetEffectColor
 title: ITextDocument2::SetEffectColor (tom.h)
-
 description: Specifies the color to use for special text attributes.
 old-location: controls\itextdocument2_seteffectcolor.htm
 tech.root: Controls
 ms.assetid: 6371b525-96da-42a7-8cee-228b47208f46
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetEffectColor method, ITextDocument2.SetEffectColor, ITextDocument2::SetEffectColor, SetEffectColor, SetEffectColor method [Windows Controls], SetEffectColor method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_seteffectcolor, tom/ITextDocument2::SetEffectColor
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.SetEffectColor"
+f1_keywords:
+- tom/ITextDocument2.SetEffectColor
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.SetEffectColor
+- ITextDocument2.SetEffectColor
 targetos: Windows
 req.typenames: 
 req.redist: 

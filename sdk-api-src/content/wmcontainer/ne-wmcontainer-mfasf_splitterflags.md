@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcontainer.MFASF_SPLITTERFLAGS
 title: MFASF_SPLITTERFLAGS (wmcontainer.h)
-
 description: Defines the ASF splitter options.
 old-location: mf\mfasf_splitterflags.htm
 tech.root: medfound
 ms.assetid: 8eaad139-b487-4348-ae19-4251a2aeed14
-
 ms.date: 12/05/2018
 ms.keywords: 8eaad139-b487-4348-ae19-4251a2aeed14, MFASF_SPLITTERFLAGS, MFASF_SPLITTERFLAGS enumeration [Media Foundation], MFASF_SPLITTER_REVERSE, MFASF_SPLITTER_WMDRM, enumeration [Media Foundation], mf.mfasf_splitterflags, wmcontainer/MFASF_SPLITTERFLAGS, wmcontainer/MFASF_SPLITTER_REVERSE, wmcontainer/MFASF_SPLITTER_WMDRM
 ms.topic: enum
-f1_keywords: 
- - "wmcontainer/MFASF_SPLITTERFLAGS"
+f1_keywords:
+- wmcontainer/MFASF_SPLITTERFLAGS
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - MFASF_SPLITTERFLAGS
+- MFASF_SPLITTERFLAGS
 targetos: Windows
 req.typenames: MFASF_SPLITTERFLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:austream.IMemoryData
 title: IMemoryData (austream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\imemorydata.htm
 tech.root: DirectShow
 ms.assetid: 0e809ae7-381c-4ada-8940-5d42bf5c03da
-
 ms.date: 12/05/2018
 ms.keywords: IMemoryData, IMemoryData interface [DirectShow], IMemoryData interface [DirectShow],described, IMemoryDataInterface, austream/IMemoryData, dshow.imemorydata
 ms.topic: interface
-f1_keywords: 
- - "austream/IMemoryData"
+f1_keywords:
+- austream/IMemoryData
 dev_langs:
- - c++
+- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - austream.h
+- austream.h
 api_name:
- - IMemoryData
+- IMemoryData
 targetos: Windows
 req.typenames: 
 req.redist: 

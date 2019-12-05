@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.BuildCommDCBA
 title: BuildCommDCBA function (winbase.h)
-
 description: Fills a specified DCB structure with values specified in a device-control string.
 old-location: base\buildcommdcb.htm
 tech.root: devio
 ms.assetid: 6ecd497d-2247-4b6b-8751-c107717de434
-
 ms.date: 12/05/2018
 ms.keywords: BuildCommDCB, BuildCommDCB function, BuildCommDCBA, BuildCommDCBW, _win32_buildcommdcb, base.buildcommdcb, winbase/BuildCommDCB, winbase/BuildCommDCBA, winbase/BuildCommDCBW
 ms.topic: function
 f1_keywords:
 - winbase/BuildCommDCB
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

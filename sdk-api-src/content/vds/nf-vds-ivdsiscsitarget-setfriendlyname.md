@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.SetFriendlyName
 title: IVdsIscsiTarget::SetFriendlyName (vds.h)
-
 description: Sets the friendly name of the target.
 old-location: base\ivdsiscsitarget_setfriendlyname.htm
 tech.root: VDS
 ms.assetid: 34afd8d7-473b-49c5-8486-2749144aea5c
-
 ms.date: 12/05/2018
 ms.keywords: IVdsIscsiTarget interface [VDS],SetFriendlyName method, IVdsIscsiTarget.SetFriendlyName, IVdsIscsiTarget::SetFriendlyName, SetFriendlyName, SetFriendlyName method [VDS], SetFriendlyName method [VDS],IVdsIscsiTarget interface, base.ivdsiscsitarget_setfriendlyname, vds/IVdsIscsiTarget::SetFriendlyName, vdshwprv/IVdsIscsiTarget::SetFriendlyName
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsIscsiTarget.SetFriendlyName"
+f1_keywords:
+- vds/IVdsIscsiTarget.SetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsIscsiTarget.SetFriendlyName
+- IVdsIscsiTarget.SetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: VDS 1.1

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetScope
 title: SymGetScope function (dbghelp.h)
-
 description: Retrieves the scope for the specified index.
 old-location: base\symgetscope.htm
 tech.root: Debug
 ms.assetid: 048a4d07-bf87-4dbc-9169-d8782040b205
-
 ms.date: 12/05/2018
 ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetScope
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

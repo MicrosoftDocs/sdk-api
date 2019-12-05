@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetAllGPRMs
 title: IDvdInfo::GetAllGPRMs (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the current contents of all general parameter registers (GPRMs).
 old-location: dshow\idvdinfo_getallgprms.htm
 tech.root: DirectShow
 ms.assetid: 87d82404-cd43-4499-abc2-6c043c43bf4e
-
 ms.date: 12/05/2018
 ms.keywords: GetAllGPRMs, GetAllGPRMs method [DirectShow], GetAllGPRMs method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetAllGPRMs method, IDvdInfo.GetAllGPRMs, IDvdInfo::GetAllGPRMs, IDvdInfoGetAllGPRMs, dshow.idvdinfo_getallgprms, strmif/IDvdInfo::GetAllGPRMs
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetAllGPRMs"
+f1_keywords:
+- strmif/IDvdInfo.GetAllGPRMs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetAllGPRMs
+- IDvdInfo.GetAllGPRMs
 targetos: Windows
 req.typenames: 
 req.redist: 

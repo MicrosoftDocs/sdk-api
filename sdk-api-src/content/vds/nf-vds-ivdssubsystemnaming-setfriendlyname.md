@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsSubSystemNaming.SetFriendlyName
 title: IVdsSubSystemNaming::SetFriendlyName (vds.h)
-
 description: Sets the friendly name of a subsystem.
 old-location: base\ivdssubsystemnaming_setfriendlyname.htm
 tech.root: VDS
 ms.assetid: 8356eb25-af8c-4643-9ac4-e4ce001b617c
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemNaming interface,SetFriendlyName method, IVdsSubSystemNaming.SetFriendlyName, IVdsSubSystemNaming::SetFriendlyName, SetFriendlyName, SetFriendlyName method, SetFriendlyName method,IVdsSubSystemNaming interface, base.ivdssubsystemnaming_setfriendlyname, vds/IVdsSubSystemNaming::SetFriendlyName, vdshwprv/IVdsSubSystemNaming::SetFriendlyName
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsSubSystemNaming.SetFriendlyName"
+f1_keywords:
+- vds/IVdsSubSystemNaming.SetFriendlyName
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystemNaming.SetFriendlyName
+- IVdsSubSystemNaming.SetFriendlyName
 targetos: Windows
 req.typenames: 
 req.redist: 

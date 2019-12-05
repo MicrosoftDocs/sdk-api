@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsPack.ReplaceDisk
 title: IVdsPack::ReplaceDisk (vds.h)
-
 description: Not supported.This method is reserved for future use.
 old-location: base\ivdspack_replacedisk.htm
 tech.root: VDS
 ms.assetid: 4fc59ed0-ef54-4834-90d3-309d297543e6
-
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],ReplaceDisk method, IVdsPack.ReplaceDisk, IVdsPack::ReplaceDisk, ReplaceDisk, ReplaceDisk method [VDS], ReplaceDisk method [VDS],IVdsPack interface, base.ivdspack_replacedisk, vds/IVdsPack::ReplaceDisk
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsPack.ReplaceDisk"
+f1_keywords:
+- vds/IVdsPack.ReplaceDisk
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsPack.ReplaceDisk
+- IVdsPack.ReplaceDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

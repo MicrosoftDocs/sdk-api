@@ -1,19 +1,17 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireDeviceSelectionDialog
 title: IPhotoAcquireDeviceSelectionDialog (photoacquire.h)
-
 description: Provides a dialog box for selecting the device to acquire images from.
 old-location: picacq\iphotoacquiredeviceselectiondialog.htm
 tech.root: acquisition
 ms.assetid: 7ec649d2-9fd7-4c07-ad64-f3bc4acfc40d
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireDeviceSelectionDialog, IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition], IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition],described, IPhotoAcquireDeviceSelectionDialogInterface, photoacquire/IPhotoAcquireDeviceSelectionDialog, picacq.iphotoacquiredeviceselectiondialog
 ms.topic: interface
-f1_keywords: 
- - "photoacquire/IPhotoAcquireDeviceSelectionDialog"
+f1_keywords:
+- photoacquire/IPhotoAcquireDeviceSelectionDialog
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - photoacquire.h
+- photoacquire.h
 api_name:
- - IPhotoAcquireDeviceSelectionDialog
+- IPhotoAcquireDeviceSelectionDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mspaddr.CMSPAddress.MSPAddressAddRef
 title: CMSPAddress::MSPAddressAddRef (mspaddr.h)
-
 description: The MSPAddressAddRef method is the private AddRef method for the address.
 old-location: tapi3\cmspaddress_mspaddressaddref.htm
 tech.root: Tapi
 ms.assetid: 74a68851-f1c2-41ed-94cd-ec043be0f0d1
-
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],MSPAddressAddRef method, CMSPAddress.MSPAddressAddRef, CMSPAddress::MSPAddressAddRef, MSPAddressAddRef, MSPAddressAddRef method [TAPI 2.2], MSPAddressAddRef method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_mspaddressaddref, mspaddr/CMSPAddress::MSPAddressAddRef, tapi3.cmspaddress_mspaddressaddref
 ms.topic: method
-f1_keywords: 
- - "mspaddr/CMSPAddress.MSPAddressAddRef"
+f1_keywords:
+- mspaddr/CMSPAddress.MSPAddressAddRef
 dev_langs:
- - c++
+- c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspaddr.h
+- Mspaddr.h
 api_name:
- - CMSPAddress.MSPAddressAddRef
+- CMSPAddress.MSPAddressAddRef
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.Initialize
 title: IMFASFIndexer::Initialize (wmcontainer.h)
-
 description: Initializes the indexer object.
 old-location: mf\imfasfindexer_initialize.htm
 tech.root: medfound
 ms.assetid: c02931d3-7b43-43a9-9e4e-00945ba3c8d8
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFIndexer interface [Media Foundation],Initialize method, IMFASFIndexer.Initialize, IMFASFIndexer::Initialize, Initialize, Initialize method [Media Foundation], Initialize method [Media Foundation],IMFASFIndexer interface, c02931d3-7b43-43a9-9e4e-00945ba3c8d8, mf.imfasfindexer_initialize, wmcontainer/IMFASFIndexer::Initialize
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer.Initialize"
+f1_keywords:
+- wmcontainer/IMFASFIndexer.Initialize
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer.Initialize
+- IMFASFIndexer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

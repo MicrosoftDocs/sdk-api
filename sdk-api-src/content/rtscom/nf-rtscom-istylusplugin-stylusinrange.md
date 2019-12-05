@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStylusPlugin.StylusInRange
 title: IStylusPlugin::StylusInRange (rtscom.h)
-
 description: Notifies the implementing plug-in that the stylus is entering the detection range of the digitizer.
 old-location: tablet\istylusplugin_stylusinrange.htm
 tech.root: tablet
 ms.assetid: 586e7fee-6340-46b6-941f-1316b2925e1c
-
 ms.date: 12/05/2018
 ms.keywords: 586e7fee-6340-46b6-941f-1316b2925e1c, IStylusPlugin interface [Tablet PC],StylusInRange method, IStylusPlugin.StylusInRange, IStylusPlugin::StylusInRange, StylusInRange, StylusInRange method [Tablet PC], StylusInRange method [Tablet PC],IStylusPlugin interface, rtscom/IStylusPlugin::StylusInRange, tablet.istylusplugin_stylusinrange
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStylusPlugin.StylusInRange"
+f1_keywords:
+- rtscom/IStylusPlugin.StylusInRange
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStylusPlugin.StylusInRange
+- IStylusPlugin.StylusInRange
 targetos: Windows
 req.typenames: 
 req.redist: 

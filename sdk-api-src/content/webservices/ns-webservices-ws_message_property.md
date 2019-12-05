@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_MESSAGE_PROPERTY
 title: WS_MESSAGE_PROPERTY (webservices.h)
-
 description: Specifies a message specific setting.
 old-location: wsw\ws_message_property.htm
 tech.root: wsw
 ms.assetid: 40751692-a8e6-4aa6-8dc9-55308b129a94
-
 ms.date: 12/05/2018
 ms.keywords: WS_MESSAGE_PROPERTY, WS_MESSAGE_PROPERTY structure [Web Services for Windows], webservices/WS_MESSAGE_PROPERTY, wsw.ws_message_property
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_MESSAGE_PROPERTY"
+f1_keywords:
+- webservices/WS_MESSAGE_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_MESSAGE_PROPERTY
+- WS_MESSAGE_PROPERTY
 targetos: Windows
 req.typenames: WS_MESSAGE_PROPERTY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryContentLocale
 title: ISearchQueryHelper::put_QueryContentLocale (searchapi.h)
-
 description: Sets the language code identifier (LCID) of the query.
 old-location: search\_search_ISearchQueryHelper_put_QueryContentLocale.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentlocale.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryContentLocale method, ISearchQueryHelper.put_QueryContentLocale, ISearchQueryHelper::put_QueryContentLocale, _search_ISearchQueryHelper_put_QueryContentLocale, put_QueryContentLocale, put_QueryContentLocale method [search], put_QueryContentLocale method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryContentLocale, searchapi/ISearchQueryHelper::put_QueryContentLocale
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchQueryHelper.put_QueryContentLocale"
+f1_keywords:
+- searchapi/ISearchQueryHelper.put_QueryContentLocale
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchQueryHelper.put_QueryContentLocale
+- ISearchQueryHelper.put_QueryContentLocale
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

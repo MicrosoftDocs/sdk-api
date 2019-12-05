@@ -1,19 +1,17 @@
 ---
 UID: NS:qossp._IN_ADDR_IPV6
 title: IN_ADDR_IPV6 (qossp.h)
-
 description: The IN_ADDR_IPV6 structure stores an IPv6 address for use with RSVP FILTERSPECs.
 old-location: qos\in_addr_ipv6.htm
 tech.root: QOS
 ms.assetid: e21edb47-c704-415f-901b-7612e5157ab0
-
 ms.date: 12/05/2018
 ms.keywords: '*LPCIN_ADDR_IPV6, *LPCIN_ADDR_IPV6 structure [QOS], *LPIN_ADDR_IPV6, IN_ADDR_IPV6, IN_ADDR_IPV6 structure [QOS], qos.in_addr_ipv6, qossp/*LPCIN_ADDR_IPV6, qossp/IN_ADDR_IPV6'
 ms.topic: struct
 f1_keywords:
 - qossp/IN_ADDR_IPV6
 dev_langs:
- - c++
+- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

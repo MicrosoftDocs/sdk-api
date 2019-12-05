@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.GetChannelsPeakValues
 title: IAudioMeterInformation::GetChannelsPeakValues (endpointvolume.h)
-
 description: The GetChannelsPeakValues method gets the peak sample values for all the channels in the audio stream.
 old-location: coreaudio\iaudiometerinformation_getchannelspeakvalues.htm
 tech.root: CoreAudio
 ms.assetid: f5caf927-50c4-48dc-b396-016a1cf88882
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelsPeakValues, GetChannelsPeakValues method [Core Audio], GetChannelsPeakValues method [Core Audio],IAudioMeterInformation interface, IAudioMeterInformation interface [Core Audio],GetChannelsPeakValues method, IAudioMeterInformation.GetChannelsPeakValues, IAudioMeterInformation::GetChannelsPeakValues, IAudioMeterInformationGetChannelsPeakValues, coreaudio.iaudiometerinformation_getchannelspeakvalues, endpointvolume/IAudioMeterInformation::GetChannelsPeakValues
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioMeterInformation.GetChannelsPeakValues"
+f1_keywords:
+- endpointvolume/IAudioMeterInformation.GetChannelsPeakValues
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioMeterInformation.GetChannelsPeakValues
+- IAudioMeterInformation.GetChannelsPeakValues
 targetos: Windows
 req.typenames: 
 req.redist: 

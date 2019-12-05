@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11DeviceChild
 title: ID3D11DeviceChild (d3d11.h)
-
 description: A device-child interface accesses data used by a device.
 old-location: direct3d11\id3d11devicechild.htm
 tech.root: direct3d11
 ms.assetid: bed17239-0358-4768-8655-9a1d92f25a2e
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11DeviceChild, ID3D11DeviceChild interface [Direct3D 11], ID3D11DeviceChild interface [Direct3D 11],described, d3d11/ID3D11DeviceChild, direct3d11.id3d11devicechild, ea2a7e4d-06b6-a8d0-51ff-52cc4806e595
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11DeviceChild"
+f1_keywords:
+- d3d11/ID3D11DeviceChild
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceChild
+- ID3D11DeviceChild
 targetos: Windows
 req.typenames: 
 req.redist: 

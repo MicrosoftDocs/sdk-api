@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.BindToStorage
 title: IMoniker::BindToStorage (objidl.h)
-
 description: Binds to the storage for the specified object. Unlike the IMoniker::BindToObject method, this method does not activate the object identified by the moniker.
 old-location: com\imoniker_bindtostorage.htm
 tech.root: com
 ms.assetid: 94c8219f-8131-45dd-b350-878ffd6161ea
-
 ms.date: 12/05/2018
 ms.keywords: BindToStorage, BindToStorage method [COM], BindToStorage method [COM],IMoniker interface, IMoniker interface [COM],BindToStorage method, IMoniker.BindToStorage, IMoniker::BindToStorage, _com_imoniker_bindtostorage, com.imoniker_bindtostorage, objidl/IMoniker::BindToStorage
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.BindToStorage"
+f1_keywords:
+- objidl/IMoniker.BindToStorage
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.BindToStorage
+- IMoniker.BindToStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

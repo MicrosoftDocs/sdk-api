@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.GetType
 title: ID3D11DeviceContext::GetType (d3d11.h)
-
 description: Gets the type of device context.
 old-location: direct3d11\id3d11devicecontext_gettype.htm
 tech.root: direct3d11
 ms.assetid: fefe2cd7-26c1-4165-9c94-8843571f8824
-
 ms.date: 12/05/2018
 ms.keywords: 71b462ef-31c2-4015-fac5-a904701671c6, GetType, GetType method [Direct3D 11], GetType method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],GetType method, ID3D11DeviceContext.GetType, ID3D11DeviceContext::GetType, d3d11/ID3D11DeviceContext::GetType, direct3d11.id3d11devicecontext_gettype
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.GetType"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.lib
- - d3d11.dll
+- d3d11.lib
+- d3d11.dll
 api_name:
- - ID3D11DeviceContext.GetType
+- ID3D11DeviceContext.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

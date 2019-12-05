@@ -1,19 +1,17 @@
 ---
 UID: NN:wmcodecdsp.IWMColorConvProps
 title: IWMColorConvProps (wmcodecdsp.h)
-
 description: Sets properties on the color converter DSP.
 old-location: mf\iwmcolorconvpropsinterface.htm
 tech.root: medfound
 ms.assetid: c4a6b7c1-edc0-4030-ac47-895580ad294d
-
 ms.date: 12/05/2018
 ms.keywords: IWMColorConvProps, IWMColorConvProps interface [Media Foundation], IWMColorConvProps interface [Media Foundation],described, codecapi.iwmcolorconvpropsinterface, mf.iwmcolorconvprops, mf.iwmcolorconvpropsinterface, wmcodecdsp/IWMColorConvProps
 ms.topic: interface
-f1_keywords: 
- - "wmcodecdsp/IWMColorConvProps"
+f1_keywords:
+- wmcodecdsp/IWMColorConvProps
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmcodecdsp.h
+- wmcodecdsp.h
 api_name:
- - IWMColorConvProps
+- IWMColorConvProps
 targetos: Windows
 req.typenames: 
 req.redist: 

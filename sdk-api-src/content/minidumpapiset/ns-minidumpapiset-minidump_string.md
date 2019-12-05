@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_STRING
 title: MINIDUMP_STRING (minidumpapiset.h)
-
 description: Describes a string.
 old-location: base\minidump_string_str.htm
 tech.root: Debug
 ms.assetid: b90b2b29-9d39-4a73-b5fb-bb6e04c94811
-
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_STRING, MINIDUMP_STRING, MINIDUMP_STRING structure, PMINIDUMP_STRING, PMINIDUMP_STRING structure pointer, _MINIDUMP_STRING, _win32_minidump_string_str, base.minidump_string_str, minidumpapiset/MINIDUMP_STRING, minidumpapiset/PMINIDUMP_STRING'
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_STRING
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

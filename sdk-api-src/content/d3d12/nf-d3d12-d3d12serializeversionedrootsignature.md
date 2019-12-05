@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.D3D12SerializeVersionedRootSignature
 title: D3D12SerializeVersionedRootSignature function (d3d12.h)
-
 description: Serializes a root signature of any version that can be passed to ID3D12Device::CreateRootSignature.
 old-location: direct3d12\d3d12serializeversionedrootsignature.htm
 tech.root: direct3d12
 ms.assetid: D8A15561-4911-4067-B25E-8BF2B079FD81
-
 ms.date: 12/05/2018
 ms.keywords: D3D12SerializeVersionedRootSignature, D3D12SerializeVersionedRootSignature function, d3d12/D3D12SerializeVersionedRootSignature, direct3d12.d3d12serializeversionedrootsignature
 ms.topic: function
-f1_keywords: 
- - "d3d12/D3D12SerializeVersionedRootSignature"
+f1_keywords:
+- d3d12/D3D12SerializeVersionedRootSignature
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - D3D12SerializeVersionedRootSignature
+- D3D12SerializeVersionedRootSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

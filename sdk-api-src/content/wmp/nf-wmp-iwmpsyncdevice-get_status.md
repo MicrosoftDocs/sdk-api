@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_status
 title: IWMPSyncDevice::get_status (wmp.h)
-
 description: The get_status method retrieves a value that indicates the status of the relationship between Windows Media Player and the device.
 old-location: wmp\iwmpsyncdevice_get_status.htm
 tech.root: WMP
 ms.assetid: 2b194161-c25c-43d9-90ee-dd25ff61034b
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_status method, IWMPSyncDevice.get_status, IWMPSyncDevice::get_status, IWMPSyncDeviceget_status, get_status, get_status method [Windows Media Player], get_status method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_status, wmp/IWMPSyncDevice::get_status
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.get_status"
+f1_keywords:
+- wmp/IWMPSyncDevice.get_status
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.get_status
+- IWMPSyncDevice.get_status
 targetos: Windows
 req.typenames: 
 req.redist: 

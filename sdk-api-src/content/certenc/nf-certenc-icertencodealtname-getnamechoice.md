@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameChoice
 title: ICertEncodeAltName::GetNameChoice (certenc.h)
-
 description: Returns the name choice at a specified index of an alternate name array.
 old-location: security\icertencodealtname_getnamechoice.htm
 tech.root: SecCrypto
 ms.assetid: 3b21fbc7-cba1-49b1-bad6-232f717e3056
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeAltName object, GetNameChoice method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameChoice method, ICertEncodeAltName.GetNameChoice, ICertEncodeAltName::GetNameChoice, _certsrv_icertencodealtname_getnamechoice, certenc/ICertEncodeAltName::GetNameChoice, security.icertencodealtname_getnamechoice
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeAltName.GetNameChoice"
+f1_keywords:
+- certenc/ICertEncodeAltName.GetNameChoice
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeAltName.GetNameChoice
- - CCertEncodeAltName.GetNameChoice
+- ICertEncodeAltName.GetNameChoice
+- CCertEncodeAltName.GetNameChoice
 targetos: Windows
 req.typenames: 
 req.redist: 

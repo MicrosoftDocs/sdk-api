@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictPresenter.PresentConflict
 title: ISyncMgrConflictPresenter::PresentConflict (syncmgr.h)
-
 description: Presents the conflict to the user.
 old-location: shell\ISyncMgrConflictPresenter_PresentConflict.htm
 tech.root: shell
 ms.assetid: 632c0e9c-facd-422e-9467-005c44adc175
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrConflictPresenter interface [Windows Shell],PresentConflict method, ISyncMgrConflictPresenter.PresentConflict, ISyncMgrConflictPresenter::PresentConflict, PresentConflict, PresentConflict method [Windows Shell], PresentConflict method [Windows Shell],ISyncMgrConflictPresenter interface, _shell_ISyncMgrConflictPresenter_PresentConflict, shell.ISyncMgrConflictPresenter_PresentConflict, syncmgr/ISyncMgrConflictPresenter::PresentConflict
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictPresenter.PresentConflict"
+f1_keywords:
+- syncmgr/ISyncMgrConflictPresenter.PresentConflict
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictPresenter.PresentConflict
+- ISyncMgrConflictPresenter.PresentConflict
 targetos: Windows
 req.typenames: 
 req.redist: 

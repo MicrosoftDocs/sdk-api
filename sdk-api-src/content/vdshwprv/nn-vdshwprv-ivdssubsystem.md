@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsSubSystem
 title: IVdsSubSystem (vdshwprv.h)
-
 description: Provides methods for performing query and configuration operations on a subsystem.
 old-location: base\ivdssubsystem.htm
 tech.root: VDS
 ms.assetid: 1f1b9735-216b-4bc5-a9b8-2d274827b2c8
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystem, IVdsSubSystem interface [VDS], IVdsSubSystem interface [VDS],described, base.ivdssubsystem, vds/IVdsSubSystem, vdshwprv/IVdsSubSystem
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsSubSystem"
+f1_keywords:
+- vdshwprv/IVdsSubSystem
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystem
+- IVdsSubSystem
 targetos: Windows
 req.typenames: 
 req.redist: 

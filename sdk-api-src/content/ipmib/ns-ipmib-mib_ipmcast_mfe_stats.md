@@ -1,19 +1,17 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_MFE_STATS
 title: MIB_IPMCAST_MFE_STATS (ipmib.h)
-
 description: Stores the statistics associated with a Multicast Forwarding Entry (MFE).
 old-location: mib\mib_ipmcast_mfe_stats.htm
 tech.root: MIB
 ms.assetid: 8e277c8d-db7a-4710-87af-ea5311123a71
-
 ms.date: 12/05/2018
 ms.keywords: '*PMIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS, MIB_IPMCAST_MFE_STATS structure [MIB], PMIB_IPMCAST_MFE_STATS, PMIB_IPMCAST_MFE_STATS structure pointer [MIB], _mpr_mib_ipmcast_mfe_stats, ipmib/MIB_IPMCAST_MFE_STATS, ipmib/PMIB_IPMCAST_MFE_STATS, iprtrmib/MIB_IPMCAST_MFE_STATS, iprtrmib/PMIB_IPMCAST_MFE_STATS, mib.mib_ipmcast_mfe_stats, rras.mib_ipmcast_mfe_stats'
 ms.topic: struct
 f1_keywords:
 - ipmib/MIB_IPMCAST_MFE_STATS
 dev_langs:
- - c++
+- c++
 req.header: ipmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

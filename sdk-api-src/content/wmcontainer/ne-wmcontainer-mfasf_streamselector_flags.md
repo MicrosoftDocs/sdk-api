@@ -1,19 +1,17 @@
 ---
 UID: NE:wmcontainer.MFASF_STREAMSELECTORFLAGS
 title: MFASF_STREAMSELECTOR_FLAGS (wmcontainer.h)
-
 description: Defines the ASF stream selector options.
 old-location: mf\mfasf_streamselector_flags.htm
 tech.root: medfound
 ms.assetid: 2ececb4a-9516-4066-bf01-0924252f93ee
-
 ms.date: 12/05/2018
 ms.keywords: 2ececb4a-9516-4066-bf01-0924252f93ee, MFASF_STREAMSELECTOR_DISABLE_THINNING, MFASF_STREAMSELECTOR_FLAGS, MFASF_STREAMSELECTOR_FLAGS enumeration [Media Foundation], MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE, enumeration [Media Foundation], mf.mfasf_streamselector_flags, wmcontainer/MFASF_STREAMSELECTOR_DISABLE_THINNING, wmcontainer/MFASF_STREAMSELECTOR_FLAGS, wmcontainer/MFASF_STREAMSELECTOR_USE_AVERAGE_BITRATE
 ms.topic: enum
-f1_keywords: 
- - "wmcontainer/MFASF_STREAMSELECTOR_FLAGS"
+f1_keywords:
+- wmcontainer/MFASF_STREAMSELECTOR_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmcontainer.h
+- wmcontainer.h
 api_name:
- - MFASF_STREAMSELECTOR_FLAGS
+- MFASF_STREAMSELECTOR_FLAGS
 targetos: Windows
 req.typenames: MFASF_STREAMSELECTOR_FLAGS
 req.redist: 

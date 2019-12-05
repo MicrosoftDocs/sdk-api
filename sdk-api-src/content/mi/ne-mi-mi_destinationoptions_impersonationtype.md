@@ -1,19 +1,17 @@
 ---
 UID: NE:mi._MI_DestinationOptions_ImpersonationType
 title: MI_DestinationOptions_ImpersonationType (mi.h)
-
 description: Used by the DCOM protocol handler to specify how impersonation is done on the server.
 old-location: wmi_v2\mi_destinationoptions_impersonationtype.htm
 tech.root: wmi_v2
 ms.assetid: 3d78ca66-8807-45b2-8648-bc5b0dfb83c6
-
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_ImpersonationType, MI_DestinationOptions_ImpersonationType enumeration [Windows Management Infrastructure (MI)], MI_DestinationOptions_ImpersonationType_Default, MI_DestinationOptions_ImpersonationType_Delegate, MI_DestinationOptions_ImpersonationType_Identify, MI_DestinationOptions_ImpersonationType_Impersonate, MI_DestinationOptions_ImpersonationType_None, mi/MI_DestinationOptions_ImpersonationType, mi/MI_DestinationOptions_ImpersonationType_Default, mi/MI_DestinationOptions_ImpersonationType_Delegate, mi/MI_DestinationOptions_ImpersonationType_Identify, mi/MI_DestinationOptions_ImpersonationType_Impersonate, mi/MI_DestinationOptions_ImpersonationType_None, wmi._mi_destinationoptions_impersonationtype, wmi_v2.mi_destinationoptions_impersonationtype
 ms.topic: enum
-f1_keywords: 
- - "mi/MI_DestinationOptions_ImpersonationType"
+f1_keywords:
+- mi/MI_DestinationOptions_ImpersonationType
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_DestinationOptions_ImpersonationType
+- MI_DestinationOptions_ImpersonationType
 targetos: Windows
 req.typenames: MI_DestinationOptions_ImpersonationType
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

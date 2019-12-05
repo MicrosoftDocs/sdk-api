@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineSupportsSourceTransfer
 title: IMFMediaEngineSupportsSourceTransfer (mfmediaengine.h)
-
 description: Enables the media source to be transferred between the media engine and the sharing engine for Play To.
 old-location: mf\imfmediaenginesupportssourcetransfer.htm
 tech.root: medfound
 ms.assetid: 8784dcc2-52f4-41d9-a0ae-3ea7a736b604
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineSupportsSourceTransfer, IMFMediaEngineSupportsSourceTransfer interface [Media Foundation], IMFMediaEngineSupportsSourceTransfer interface [Media Foundation],described, mf.imfmediaenginesupportssourcetransfer, mfmediaengine/IMFMediaEngineSupportsSourceTransfer
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSupportsSourceTransfer"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSupportsSourceTransfer
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSupportsSourceTransfer
+- IMFMediaEngineSupportsSourceTransfer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMIsWindowProtected
 title: DRMIsWindowProtected function (msdrm.h)
-
 description: Indicates whether a window is associated with a protected environment.
 old-location: rm\drmiswindowprotected.htm
 tech.root: AdRms_Sdk
 ms.assetid: 5cd4b4fe-6941-441c-ac6c-9ec8d838598c
-
 ms.date: 12/05/2018
 ms.keywords: DRMIsWindowProtected, DRMIsWindowProtected function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMIsWindowProtected, rm.drmiswindowprotected
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMIsWindowProtected"
+f1_keywords:
+- msdrm/DRMIsWindowProtected
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMIsWindowProtected
+- DRMIsWindowProtected
 targetos: Windows
 req.typenames: 
 req.redist: 

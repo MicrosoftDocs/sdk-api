@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_MaxPoolSize
 title: IServicePoolConfig::put_MaxPoolSize (comsvcs.h)
-
 description: Sets the maximum number of objects in the pool.
 old-location: cos\iservicepoolconfig_put_maxpoolsize.htm
 tech.root: cossdk
 ms.assetid: 618d4969-c29e-4944-8954-a982a90f3c15
-
 ms.date: 12/05/2018
 ms.keywords: IServicePoolConfig interface [COM+],put_MaxPoolSize method, IServicePoolConfig.put_MaxPoolSize, IServicePoolConfig::put_MaxPoolSize, comsvcs/IServicePoolConfig::put_MaxPoolSize, cos.iservicepoolconfig_put_maxpoolsize, put_MaxPoolSize, put_MaxPoolSize method [COM+], put_MaxPoolSize method [COM+],IServicePoolConfig interface
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServicePoolConfig.put_MaxPoolSize"
+f1_keywords:
+- comsvcs/IServicePoolConfig.put_MaxPoolSize
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServicePoolConfig.put_MaxPoolSize
+- IServicePoolConfig.put_MaxPoolSize
 targetos: Windows
 req.typenames: 
 req.redist: 

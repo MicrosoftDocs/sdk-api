@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.CopyTo
 title: IGPMStarterGPO::CopyTo (gpmgmt.h)
-
 description: The CopyTo method copies the current Starter GPO and returns a pointer to the copy of the Starter GPO.
 old-location: gpmc\igpmstartergpo_copyto.htm
 tech.root: gpmc
 ms.assetid: 28639323-5253-4f63-b1b1-4fd75abaa2b4
-
 ms.date: 12/05/2018
 ms.keywords: CopyTo, CopyTo method [GPMC], CopyTo method [GPMC],IGPMStarterGPO interface, IGPMStarterGPO interface [GPMC],CopyTo method, IGPMStarterGPO.CopyTo, IGPMStarterGPO::CopyTo, gpmc.igpmstartergpo_copyto, gpmgmt/IGPMStarterGPO::CopyTo
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPO.CopyTo"
+f1_keywords:
+- gpmgmt/IGPMStarterGPO.CopyTo
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPMStarterGPO.CopyTo
+- IGPMStarterGPO.CopyTo
 targetos: Windows
 req.typenames: 
 req.redist: 

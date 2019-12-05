@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMColorRGBToSRGB
 title: XMColorRGBToSRGB function (directxmath.h)
-
 description: Converts an RGB color vector to sRGB.
 old-location: dxmath\_xmcolorrgbtosrgb.htm
 tech.root: dxmath
 ms.assetid: ADD40A97-6BE1-4EDA-BBBB-6B186694F3E6
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMColorRGBToSRGB, XMColorRGBToSRGB, XMColorRGBToSRGB method [DirectX Math Support APIs], dxmath._xmcolorrgbtosrgb
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMColorRGBToSRGB"
+f1_keywords:
+- directxmath/XMColorRGBToSRGB
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMColorRGBToSRGB
+- XMColorRGBToSRGB
 targetos: Windows
 req.typenames: 
 req.redist: 

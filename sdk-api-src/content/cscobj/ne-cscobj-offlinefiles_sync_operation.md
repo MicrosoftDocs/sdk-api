@@ -1,19 +1,17 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_SYNC_OPERATION
 title: OFFLINEFILES_SYNC_OPERATION (cscobj.h)
-
 description: Indicates the type of sync operation that was being performed when a sync error was encountered.
 old-location: of\offlinefiles_sync_operation.htm
 tech.root: offlinefiles
 ms.assetid: d32db35c-4789-49e6-8c15-15d44eac95cf
-
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_SYNC_OPERATION, OFFLINEFILES_SYNC_OPERATION enumeration [Offline Files], OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_CLIENT, OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_SERVER, OFFLINEFILES_SYNC_OPERATION_DELETE_CLIENT_COPY, OFFLINEFILES_SYNC_OPERATION_DELETE_SERVER_COPY, OFFLINEFILES_SYNC_OPERATION_PIN, OFFLINEFILES_SYNC_OPERATION_PREPARE, OFFLINEFILES_SYNC_OPERATION_SYNC_TO_CLIENT, OFFLINEFILES_SYNC_OPERATION_SYNC_TO_SERVER, cscobj/OFFLINEFILES_SYNC_OPERATION, cscobj/OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_CLIENT, cscobj/OFFLINEFILES_SYNC_OPERATION_CREATE_COPY_ON_SERVER, cscobj/OFFLINEFILES_SYNC_OPERATION_DELETE_CLIENT_COPY, cscobj/OFFLINEFILES_SYNC_OPERATION_DELETE_SERVER_COPY, cscobj/OFFLINEFILES_SYNC_OPERATION_PIN, cscobj/OFFLINEFILES_SYNC_OPERATION_PREPARE, cscobj/OFFLINEFILES_SYNC_OPERATION_SYNC_TO_CLIENT, cscobj/OFFLINEFILES_SYNC_OPERATION_SYNC_TO_SERVER, of.offlinefiles_sync_operation
 ms.topic: enum
-f1_keywords: 
- - "cscobj/OFFLINEFILES_SYNC_OPERATION"
+f1_keywords:
+- cscobj/OFFLINEFILES_SYNC_OPERATION
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CscObj.h
+- CscObj.h
 api_name:
- - OFFLINEFILES_SYNC_OPERATION
+- OFFLINEFILES_SYNC_OPERATION
 targetos: Windows
 req.typenames: OFFLINEFILES_SYNC_OPERATION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_PresentationURL
 title: IUPnPDevice::get_PresentationURL (upnp.h)
-
 description: The PresentationURL property specifies the presentation URL for a Web page that controls the device.
 old-location: upnp\iupnpdevice_presentationurl.htm
 tech.root: upnp
 ms.assetid: 8dba8289-2f2f-482c-abd6-38f81a11f5e2
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_PresentationURL method, IUPnPDevice.get_PresentationURL, IUPnPDevice::get_PresentationURL, _upnp_iupnpdevice_presentationurl, get_PresentationURL, get_PresentationURL method [UPnP APIs], get_PresentationURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_presentationurl, upnp/IUPnPDevice::get_PresentationURL
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDevice.get_PresentationURL"
+f1_keywords:
+- upnp/IUPnPDevice.get_PresentationURL
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDevice.get_PresentationURL
+- IUPnPDevice.get_PresentationURL
 targetos: Windows
 req.typenames: 
 req.redist: 

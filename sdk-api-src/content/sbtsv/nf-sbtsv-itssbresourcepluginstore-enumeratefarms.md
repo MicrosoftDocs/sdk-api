@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.EnumerateFarms
 title: ITsSbResourcePluginStore::EnumerateFarms (sbtsv.h)
-
 description: Enumerates all the farms that have been added to the resource plug-in store.
 old-location: termserv\itssbresourcepluginstore_enumeratefarms.htm
 tech.root: TermServ
 ms.assetid: 54ed82b2-531c-468b-a4d3-ad299ae1f2d8
-
 ms.date: 12/05/2018
 ms.keywords: EnumerateFarms, EnumerateFarms method [Remote Desktop Services], EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStore interface, EnumerateFarms method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, ITsSbResourcePluginStore interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStore.EnumerateFarms, ITsSbResourcePluginStore::EnumerateFarms, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],EnumerateFarms method, ITsSbResourcePluginStoreEx::EnumerateFarms, sbtsv/ITsSbResourcePluginStore::EnumerateFarms, sbtsv/ITsSbResourcePluginStoreEx::EnumerateFarms, termserv.itssbresourcepluginstore_enumeratefarms
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.EnumerateFarms"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.EnumerateFarms
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.EnumerateFarms
- - ITsSbResourcePluginStoreEx.EnumerateFarms
+- ITsSbResourcePluginStore.EnumerateFarms
+- ITsSbResourcePluginStoreEx.EnumerateFarms
 targetos: Windows
 req.typenames: 
 req.redist: 

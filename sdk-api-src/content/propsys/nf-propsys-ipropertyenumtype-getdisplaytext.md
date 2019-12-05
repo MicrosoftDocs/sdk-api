@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetDisplayText
 title: IPropertyEnumType::GetDisplayText (propsys.h)
-
 description: Gets display text from an enumeration information structure.
 old-location: properties\IPropertyEnumType_GetDisplayText.htm
 tech.root: properties
 ms.assetid: d5168ca2-107f-45c2-80fa-21a2379776ed
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayText, GetDisplayText method [Windows Properties], GetDisplayText method [Windows Properties],IPropertyEnumType interface, IPropertyEnumType interface [Windows Properties],GetDisplayText method, IPropertyEnumType.GetDisplayText, IPropertyEnumType::GetDisplayText, _shell_IPropertyEnumType_GetDisplayText, properties.IPropertyEnumType_GetDisplayText, propsys/IPropertyEnumType::GetDisplayText, shell.IPropertyEnumType_GetDisplayText
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyEnumType.GetDisplayText"
+f1_keywords:
+- propsys/IPropertyEnumType.GetDisplayText
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyEnumType.GetDisplayText
+- IPropertyEnumType.GetDisplayText
 targetos: Windows
 req.typenames: 
 req.redist: 

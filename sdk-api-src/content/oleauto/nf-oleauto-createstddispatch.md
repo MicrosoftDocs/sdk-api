@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.CreateStdDispatch
 title: CreateStdDispatch function (oleauto.h)
-
 description: Creates a standard implementation of the IDispatch interface through a single function call. This simplifies exposing objects through Automation.
 old-location: automat\createstddispatch.htm
 tech.root: automat
 ms.assetid: 45a59243-df93-41ca-ac60-354cb1165004
-
 ms.date: 12/05/2018
 ms.keywords: CreateStdDispatch, CreateStdDispatch function [Automation], _oa96_CreateStdDispatch, automat.createstddispatch, oleauto/CreateStdDispatch
 ms.topic: function
-f1_keywords: 
- - "oleauto/CreateStdDispatch"
+f1_keywords:
+- oleauto/CreateStdDispatch
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - CreateStdDispatch
+- CreateStdDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpmtypes.FWPM_CLASSIFY_OPTION0_
 title: FWPM_CLASSIFY_OPTION0 (fwpmtypes.h)
-
 description: The FWPM_CLASSIFY_OPTION0 structure.
 old-location: fwp\fwpm_classify_option0.htm
 tech.root: fwp
 ms.assetid: 11f2f873-d27e-411c-ba5b-a93134e1f027
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_CLASSIFY_OPTION0, FWPM_CLASSIFY_OPTION0 structure [Filtering], fwp.fwpm_classify_option0, fwpmtypes/FWPM_CLASSIFY_OPTION0
 ms.topic: struct
-f1_keywords: 
- - "fwpmtypes/FWPM_CLASSIFY_OPTION0"
+f1_keywords:
+- fwpmtypes/FWPM_CLASSIFY_OPTION0
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_CLASSIFY_OPTION0
+- FWPM_CLASSIFY_OPTION0
 targetos: Windows
 req.typenames: FWPM_CLASSIFY_OPTION0
 req.redist: 

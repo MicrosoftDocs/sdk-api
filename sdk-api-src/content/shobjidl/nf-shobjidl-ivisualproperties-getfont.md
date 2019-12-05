@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IVisualProperties.GetFont
 title: IVisualProperties::GetFont (shobjidl.h)
-
 description: Gets the current attributes set on the font.
 old-location: shell\IVisualProperties_GetFont.htm
 tech.root: shell
 ms.assetid: d12e2091-37cb-4a9e-abfc-8795d18bddd2
-
 ms.date: 12/05/2018
 ms.keywords: GetFont, GetFont method [Windows Shell], GetFont method [Windows Shell],IVisualProperties interface, IVisualProperties interface [Windows Shell],GetFont method, IVisualProperties.GetFont, IVisualProperties::GetFont, _shell_IVisualProperties_GetFont, shell.IVisualProperties_GetFont, shobjidl/IVisualProperties::GetFont
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IVisualProperties.GetFont"
+f1_keywords:
+- shobjidl/IVisualProperties.GetFont
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IVisualProperties.GetFont
+- IVisualProperties.GetFont
 targetos: Windows
 req.typenames: 
 req.redist: 

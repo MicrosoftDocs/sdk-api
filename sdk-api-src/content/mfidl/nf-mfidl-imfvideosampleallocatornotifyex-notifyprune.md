@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocatorNotifyEx.NotifyPrune
 title: IMFVideoSampleAllocatorNotifyEx::NotifyPrune (mfidl.h)
-
 description: Called when allocator samples are released for pruning by the allocator, or when the allocator is removed.
 old-location: mf\imfvideosampleallocatornotifyex_notifyprune.htm
 tech.root: medfound
 ms.assetid: DCC3B043-4BD9-4A39-AA4C-98054223769F
-
 ms.date: 12/05/2018
 ms.keywords: IMFVideoSampleAllocatorNotifyEx interface [Media Foundation],NotifyPrune method, IMFVideoSampleAllocatorNotifyEx.NotifyPrune, IMFVideoSampleAllocatorNotifyEx::NotifyPrune, NotifyPrune, NotifyPrune method [Media Foundation], NotifyPrune method [Media Foundation],IMFVideoSampleAllocatorNotifyEx interface, mf.imfvideosampleallocatornotifyex_notifyprune, mfidl/IMFVideoSampleAllocatorNotifyEx::NotifyPrune
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoSampleAllocatorNotifyEx.NotifyPrune"
+f1_keywords:
+- mfidl/IMFVideoSampleAllocatorNotifyEx.NotifyPrune
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoSampleAllocatorNotifyEx.NotifyPrune
+- IMFVideoSampleAllocatorNotifyEx.NotifyPrune
 targetos: Windows
 req.typenames: 
 req.redist: 

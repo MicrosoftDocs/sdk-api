@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiIsProductElevatedW
 title: MsiIsProductElevatedW function (msi.h)
-
 description: The MsiIsProductElevated function returns whether or not the product is managed.
 old-location: setup\msiisproductelevated.htm
 tech.root: Msi
 ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
-
 ms.date: 12/05/2018
 ms.keywords: MsiIsProductElevated, MsiIsProductElevated function, MsiIsProductElevatedA, MsiIsProductElevatedW, _msi_msiisproductelevated, msi/MsiIsProductElevated, msi/MsiIsProductElevatedA, msi/MsiIsProductElevatedW, setup.msiisproductelevated
 ms.topic: function
-f1_keywords: 
- - "msi/MsiIsProductElevated"
+f1_keywords:
+- msi/MsiIsProductElevated
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiIsProductElevated
- - MsiIsProductElevatedA
- - MsiIsProductElevatedW
+- MsiIsProductElevated
+- MsiIsProductElevatedA
+- MsiIsProductElevatedW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:ddrawint.PDD_GETSCANLINE
 title: PDD_GETSCANLINE (ddrawint.h)
-
 description: The DdGetScanLine callback function returns the number of the current physical scan line.
 old-location: display\ddgetscanline.htm
 tech.root: display
 ms.assetid: 3738205f-2d27-4211-944a-6ca71954fe47
-
 ms.date: 12/05/2018
 ms.keywords: DdGetScanLine, DdGetScanLine callback function [Display Devices], PDD_GETSCANLINE, PDD_GETSCANLINE callback, ddfncs_640b22a3-e0aa-4e33-a510-36d91e5650cd.xml, ddrawint/DdGetScanLine, display.ddgetscanline
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdGetScanLine
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

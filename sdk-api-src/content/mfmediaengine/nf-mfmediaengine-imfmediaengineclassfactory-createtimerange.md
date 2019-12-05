@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactory.CreateTimeRange
 title: IMFMediaEngineClassFactory::CreateTimeRange (mfmediaengine.h)
-
 description: Creates a time range object.
 old-location: mf\imfmediaengineclassfactory_createtimerange.htm
 tech.root: medfound
 ms.assetid: 293769E8-8C8A-40D1-AF51-1DBB773F88D5
-
 ms.date: 12/05/2018
 ms.keywords: CreateTimeRange, CreateTimeRange method [Media Foundation], CreateTimeRange method [Media Foundation],IMFMediaEngineClassFactory interface, IMFMediaEngineClassFactory interface [Media Foundation],CreateTimeRange method, IMFMediaEngineClassFactory.CreateTimeRange, IMFMediaEngineClassFactory::CreateTimeRange, mf.imfmediaengineclassfactory_createtimerange, mfmediaengine/IMFMediaEngineClassFactory::CreateTimeRange
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactory.CreateTimeRange"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactory.CreateTimeRange
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactory.CreateTimeRange
+- IMFMediaEngineClassFactory.CreateTimeRange
 targetos: Windows
 req.typenames: 
 req.redist: 

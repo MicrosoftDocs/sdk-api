@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegCloseReadBatch
 title: ClusterRegCloseReadBatch function (clusapi.h)
-
 description: Executes a read batch and returns results from the read batch executions.
 old-location: mscs\clusterregclosereadbatch.htm
 tech.root: MsCS
 ms.assetid: A164EB9F-290E-446E-98E9-95C6C3C3D00C
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegCloseReadBatch, ClusterRegCloseReadBatch function [Failover Cluster], PCLUSTER_REG_CLOSE_READ_BATCH, PCLUSTER_REG_CLOSE_READ_BATCH function [Failover Cluster], clusapi/ClusterRegCloseReadBatch, clusapi/PCLUSTER_REG_CLOSE_READ_BATCH, mscs.clusterregclosereadbatch
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegCloseReadBatch"
+f1_keywords:
+- clusapi/ClusterRegCloseReadBatch
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - ClusterRegCloseReadBatch
+- ClusterRegCloseReadBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

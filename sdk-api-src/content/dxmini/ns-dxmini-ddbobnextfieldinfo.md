@@ -1,19 +1,17 @@
 ---
 UID: NS:dxmini._DDBOBNEXTFIELDINFO
 title: DDBOBNEXTFIELDINFO (dxmini.h)
-
 description: The DDBOBNEXTFIELDINFO structure contains the bob information for the surface.
 old-location: display\ddbobnextfieldinfo.htm
 tech.root: display
 ms.assetid: fad2bf3d-798c-47d9-bd82-b6fc0deff0aa
-
 ms.date: 12/05/2018
 ms.keywords: '*PDDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO, DDBOBNEXTFIELDINFO structure [Display Devices], PDDBOBNEXTFIELDINFO, PDDBOBNEXTFIELDINFO structure pointer [Display Devices], Video_Structs_39e909e7-7f30-4dd5-8b5c-638f11a836bd.xml, display.ddbobnextfieldinfo, dxmini/DDBOBNEXTFIELDINFO, dxmini/PDDBOBNEXTFIELDINFO'
 ms.topic: struct
 f1_keywords:
 - dxmini/DDBOBNEXTFIELDINFO
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Windows

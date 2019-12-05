@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.WaitForCompletion
 title: IFsrmReportJob::WaitForCompletion (fsrmreports.h)
-
 description: Waits for the reports in the job to complete.
 old-location: fsrm\ifsrmreportjob_waitforcompletion.htm
 tech.root: fsrm
 ms.assetid: 127027a0-7f05-4de4-a3be-8e3c3ec30910
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmReportJob interface [File Server Resource Manager],WaitForCompletion method, IFsrmReportJob.WaitForCompletion, IFsrmReportJob::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmReportJob interface, fs.ifsrmreportjob_waitforcompletion, fsrm.ifsrmreportjob_waitforcompletion, fsrmreports/IFsrmReportJob::WaitForCompletion
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportJob.WaitForCompletion"
+f1_keywords:
+- fsrmreports/IFsrmReportJob.WaitForCompletion
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportJob.WaitForCompletion
+- IFsrmReportJob.WaitForCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

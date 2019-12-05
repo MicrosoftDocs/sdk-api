@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagGESTURECONFIG
 title: GESTURECONFIG (winuser.h)
-
 description: Gets and sets the configuration for enabling gesture messages and the type of this configuration.
 old-location: wintouch\gestureconfig.htm
 tech.root: wintouch
 ms.assetid: 4ec5050e-7fef-4f52-89af-5237e8cdbdb8
-
 ms.date: 12/05/2018
-ms.keywords: "*PGESTURECONFIG, GESTURECONFIG, GESTURECONFIG structure [Windows Touch], PGESTURECONFIG, PGESTURECONFIG structure pointer [Windows Touch], tagGESTURECONFIG, wintouch.gestureconfig, winuser/GESTURECONFIG, winuser/PGESTURECONFIG"
+ms.keywords: '*PGESTURECONFIG, GESTURECONFIG, GESTURECONFIG structure [Windows Touch], PGESTURECONFIG, PGESTURECONFIG structure pointer [Windows Touch], tagGESTURECONFIG, wintouch.gestureconfig, winuser/GESTURECONFIG, winuser/PGESTURECONFIG'
 ms.topic: struct
-f1_keywords: 
- - "winuser/GESTURECONFIG"
+f1_keywords:
+- winuser/GESTURECONFIG
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - GESTURECONFIG
+- GESTURECONFIG
 targetos: Windows
 req.typenames: GESTURECONFIG, *PGESTURECONFIG
 req.redist: 

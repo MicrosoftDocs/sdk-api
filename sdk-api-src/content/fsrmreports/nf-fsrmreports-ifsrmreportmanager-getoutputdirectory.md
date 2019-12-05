@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.GetOutputDirectory
 title: IFsrmReportManager::GetOutputDirectory (fsrmreports.h)
-
 description: Retrieves the local directory path where the reports with the specified context are stored.
 old-location: fsrm\ifsrmreportmanager_getoutputdirectory.htm
 tech.root: fsrm
 ms.assetid: 90df1a6e-e2e6-4095-8337-61bfd172e203
-
 ms.date: 12/05/2018
 ms.keywords: FsrmReportManager class [File Server Resource Manager],GetOutputDirectory method, GetOutputDirectory, GetOutputDirectory method [File Server Resource Manager], GetOutputDirectory method [File Server Resource Manager],FsrmReportManager class, GetOutputDirectory method [File Server Resource Manager],IFsrmReportManager interface, IFsrmReportManager interface [File Server Resource Manager],GetOutputDirectory method, IFsrmReportManager.GetOutputDirectory, IFsrmReportManager::GetOutputDirectory, fs.ifsrmreportmanager_getoutputdirectory, fsrm.ifsrmreportmanager_getoutputdirectory, fsrmreports/IFsrmReportManager::GetOutputDirectory
 ms.topic: method
 f1_keywords:
 - fsrmreports/IFsrmReportManager.GetOutputDirectory
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows

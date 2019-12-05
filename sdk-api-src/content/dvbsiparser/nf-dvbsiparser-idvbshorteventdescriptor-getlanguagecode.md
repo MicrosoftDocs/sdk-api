@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetLanguageCode
 title: IDvbShortEventDescriptor::GetLanguageCode (dvbsiparser.h)
-
 description: Gets the three-character ISO 639 language code from a Digital Video Broadcast (DVB) short event descriptor.
 old-location: mstv\idvbshorteventdescriptor_getlanguagecode.htm
 tech.root: mstv
 ms.assetid: c531ae74-586f-4191-9b77-5f5837e551c4
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguageCode, GetLanguageCode method [Microsoft TV Technologies], GetLanguageCode method [Microsoft TV Technologies],IDvbShortEventDescriptor interface, IDvbShortEventDescriptor interface [Microsoft TV Technologies],GetLanguageCode method, IDvbShortEventDescriptor.GetLanguageCode, IDvbShortEventDescriptor::GetLanguageCode, dvbsiparser/IDvbShortEventDescriptor::GetLanguageCode, mstv.idvbshorteventdescriptor_getlanguagecode
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbShortEventDescriptor.GetLanguageCode"
+f1_keywords:
+- dvbsiparser/IDvbShortEventDescriptor.GetLanguageCode
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbShortEventDescriptor.GetLanguageCode
+- IDvbShortEventDescriptor.GetLanguageCode
 targetos: Windows
 req.typenames: 
 req.redist: 

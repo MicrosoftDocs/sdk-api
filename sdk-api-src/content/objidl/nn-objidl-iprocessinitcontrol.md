@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IProcessInitControl
 title: IProcessInitControl (objidl.h)
-
 description: Specifies the process initialization time-out interval.
 old-location: com\iprocessinitcontrol.htm
 tech.root: com
 ms.assetid: acce67ef-3290-4892-b56a-77a256776c80
-
 ms.date: 12/05/2018
 ms.keywords: IProcessInitControl, IProcessInitControl interface [COM], IProcessInitControl interface [COM],described, _com_iprocessinitcontrol, com.iprocessinitcontrol, objidlbase/IProcessInitControl
 ms.topic: interface
-f1_keywords: 
- - "objidl/IProcessInitControl"
+f1_keywords:
+- objidl/IProcessInitControl
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IProcessInitControl
+- IProcessInitControl
 targetos: Windows
 req.typenames: 
 req.redist: 

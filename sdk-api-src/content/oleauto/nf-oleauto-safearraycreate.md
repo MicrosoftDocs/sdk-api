@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayCreate
 title: SafeArrayCreate function (oleauto.h)
-
 description: Creates a new array descriptor, allocates and initializes the data for the array, and returns a pointer to the new array descriptor.
 old-location: automat\safearraycreate.htm
 tech.root: automat
 ms.assetid: 5b94f1a2-a558-473f-85dd-9545c0464cc7
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayCreate, SafeArrayCreate function [Automation], _oa96_SafeArrayCreate, automat.safearraycreate, oleauto/SafeArrayCreate
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayCreate"
+f1_keywords:
+- oleauto/SafeArrayCreate
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayCreate
+- SafeArrayCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

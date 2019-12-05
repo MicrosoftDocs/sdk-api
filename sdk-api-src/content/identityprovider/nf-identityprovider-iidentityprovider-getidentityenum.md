@@ -1,19 +1,17 @@
 ---
 UID: NF:identityprovider.IIdentityProvider.GetIdentityEnum
 title: IIdentityProvider::GetIdentityEnum (identityprovider.h)
-
 description: Retrieves an IEnumUnknown interface pointer that can be used to enumerate identities.
 old-location: security\iidentityprovider_getidentityenum.htm
 tech.root: SecAuthN
 ms.assetid: 9e216959-7038-43cf-a57d-bee85d521f58
-
 ms.date: 12/05/2018
 ms.keywords: GetIdentityEnum, GetIdentityEnum method [Security], GetIdentityEnum method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],GetIdentityEnum method, IIdentityProvider.GetIdentityEnum, IIdentityProvider::GetIdentityEnum, identityprovider/IIdentityProvider::GetIdentityEnum, security.iidentityprovider_getidentityenum
 ms.topic: method
-f1_keywords: 
- - "identityprovider/IIdentityProvider.GetIdentityEnum"
+f1_keywords:
+- identityprovider/IIdentityProvider.GetIdentityEnum
 dev_langs:
- - c++
+- c++
 req.header: identityprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identityprovider.h
+- Identityprovider.h
 api_name:
- - IIdentityProvider.GetIdentityEnum
+- IIdentityProvider.GetIdentityEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

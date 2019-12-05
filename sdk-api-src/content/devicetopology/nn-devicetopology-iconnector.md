@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IConnector
 title: IConnector (devicetopology.h)
-
 description: The IConnector interface represents a point of connection between components.
 old-location: coreaudio\iconnector.htm
 tech.root: CoreAudio
 ms.assetid: 6eb5b439-3ac7-4c0b-84e2-b246c1b946a5
-
 ms.date: 12/05/2018
 ms.keywords: IConnector, IConnector interface [Core Audio], IConnector interface [Core Audio],described, coreaudio.iconnector, devicetopology/IConnector
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IConnector"
+f1_keywords:
+- devicetopology/IConnector
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IConnector
+- IConnector
 targetos: Windows
 req.typenames: 
 req.redist: 

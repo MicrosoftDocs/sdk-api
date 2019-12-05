@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMessage.OperationCode
 title: IGPMStatusMessage::OperationCode (gpmgmt.h)
-
 description: Returns a code related to the GPMC operation.
 old-location: gpmc\igpmstatusmessage_operationcode.htm
 tech.root: gpmc
 ms.assetid: f99dc90a-fabe-40fb-8289-36501a68b11d
-
 ms.date: 12/05/2018
 ms.keywords: GPMStatusMessage class [GPMC],OperationCode method, IGPMStatusMessage interface [GPMC],OperationCode method, IGPMStatusMessage.OperationCode, IGPMStatusMessage::OperationCode, OperationCode, OperationCode method [GPMC], OperationCode method [GPMC],GPMStatusMessage class, OperationCode method [GPMC],IGPMStatusMessage interface, _win32_igpmstatusmessage_operationcode, gpmc.igpmstatusmessage_operationcode, gpmgmt/IGPMStatusMessage::OperationCode
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStatusMessage.OperationCode"
+f1_keywords:
+- gpmgmt/IGPMStatusMessage.OperationCode
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStatusMessage.OperationCode
- - GPMStatusMessage.OperationCode
+- IGPMStatusMessage.OperationCode
+- GPMStatusMessage.OperationCode
 targetos: Windows
 req.typenames: 
 req.redist: 

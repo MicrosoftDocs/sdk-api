@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplication.CreateApplicationGroup
 title: IAzApplication::CreateApplicationGroup (azroles.h)
-
 description: Creates an IAzApplicationGroup object with the specified name.
 old-location: security\iazapplication_createapplicationgroup.htm
 tech.root: SecAuthZ
 ms.assetid: 86f1694e-09a4-4a53-ae63-cfdb5d2e44ed
-
 ms.date: 12/05/2018
 ms.keywords: AzApplication object [Security],CreateApplicationGroup method, CreateApplicationGroup, CreateApplicationGroup method [Security], CreateApplicationGroup method [Security],AzApplication object, CreateApplicationGroup method [Security],IAzApplication interface, IAzApplication interface [Security],CreateApplicationGroup method, IAzApplication.CreateApplicationGroup, IAzApplication::CreateApplicationGroup, azroles/IAzApplication::CreateApplicationGroup, security.iazapplication_createapplicationgroup
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplication.CreateApplicationGroup"
+f1_keywords:
+- azroles/IAzApplication.CreateApplicationGroup
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplication.CreateApplicationGroup
- - AzApplication.CreateApplicationGroup
+- IAzApplication.CreateApplicationGroup
+- AzApplication.CreateApplicationGroup
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

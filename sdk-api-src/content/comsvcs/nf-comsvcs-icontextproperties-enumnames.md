@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IContextProperties.EnumNames
 title: IContextProperties::EnumNames (comsvcs.h)
-
 description: Retrieves a reference to an enumerator for the context object properties.
 old-location: cos\icontextproperties_enumnames.htm
 tech.root: cossdk
 ms.assetid: cae9eaf7-a422-4daa-9f0a-e7863f167112
-
 ms.date: 12/05/2018
 ms.keywords: EnumNames, EnumNames method [COM+], EnumNames method [COM+],IContextProperties interface, IContextProperties interface [COM+],EnumNames method, IContextProperties.EnumNames, IContextProperties::EnumNames, _cos_IContextProperties_EnumNames, comsvcs/IContextProperties::EnumNames, cos.icontextproperties_enumnames
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IContextProperties.EnumNames"
+f1_keywords:
+- comsvcs/IContextProperties.EnumNames
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IContextProperties.EnumNames
+- IContextProperties.EnumNames
 targetos: Windows
 req.typenames: 
 req.redist: 

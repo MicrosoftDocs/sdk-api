@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.put_DisableNoScroll
 title: IInkEdit::put_DisableNoScroll (inked.h)
-
 description: Gets or sets a value that determines whether scroll bars in the InkEdit control are disabled.
 old-location: tablet\inkedit_disablenoscroll.htm
 tech.root: tablet
 ms.assetid: 44a8372c-6323-4d76-9038-d61d210990b0
-
 ms.date: 12/05/2018
 ms.keywords: DisableNoScroll property [Tablet PC], DisableNoScroll property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],DisableNoScroll property, IInkEdit.DisableNoScroll, IInkEdit.put_DisableNoScroll, IInkEdit::DisableNoScroll, IInkEdit::get_DisableNoScroll, IInkEdit::put_DisableNoScroll, InkEdit.get_DisableNoScroll, InkEdit.put_DisableNoScroll, get_DisableNoScroll, inked/IInkEdit::DisableNoScroll, inked/IInkEdit::get_DisableNoScroll, inked/IInkEdit::put_DisableNoScroll, put_DisableNoScroll, tablet.inkedit_disablenoscroll
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.DisableNoScroll"
+f1_keywords:
+- inked/IInkEdit.DisableNoScroll
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.DisableNoScroll
- - IInkEdit.get_DisableNoScroll
- - IInkEdit.put_DisableNoScroll
- - InkEdit.get_DisableNoScroll
- - InkEdit.put_DisableNoScroll
+- IInkEdit.DisableNoScroll
+- IInkEdit.get_DisableNoScroll
+- IInkEdit.put_DisableNoScroll
+- InkEdit.get_DisableNoScroll
+- InkEdit.put_DisableNoScroll
 targetos: Windows
 req.typenames: 
 req.redist: 

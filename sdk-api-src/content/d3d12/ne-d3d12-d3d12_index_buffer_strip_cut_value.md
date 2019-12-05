@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
 title: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE (d3d12.h)
-
 description: When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle “strip”.
 old-location: direct3d12\d3d12_index_buffer_strip_cut_value.htm
 tech.root: direct3d12
 ms.assetid: 22448EAE-05F3-4E14-90A6-A427E83361B8
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE enumeration, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF, D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF, d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED, direct3d12.d3d12_index_buffer_strip_cut_value
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE"
+f1_keywords:
+- d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
+- D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
 targetos: Windows
 req.typenames: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:textserv.ITextHost
 title: ITextHost (textserv.h)
-
 description: The ITextHost interface is used by a text services object to obtain text host services.
 old-location: controls\ITextHost.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost, ITextHost interface [Windows Controls], ITextHost interface [Windows Controls],described, _win32_ITextHost, _win32_ITextHost_cpp, controls.ITextHost, controls._win32_ITextHost, textserv/ITextHost
 ms.topic: class
-f1_keywords: 
- - "textserv/ITextHost"
+f1_keywords:
+- textserv/ITextHost
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost
+- ITextHost
 targetos: Windows
 req.typenames: 
 req.redist: 

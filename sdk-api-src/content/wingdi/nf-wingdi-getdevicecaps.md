@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetDeviceCaps
 title: GetDeviceCaps function (wingdi.h)
-
 description: The GetDeviceCaps function retrieves device-specific information for the specified device.
 old-location: gdi\getdevicecaps.htm
 tech.root: gdi
 ms.assetid: d524c4c7-22af-495d-aecc-b9921e53ca7b
-
 ms.date: 12/05/2018
 ms.keywords: ASPECTX, ASPECTXY, ASPECTY, BITSPIXEL, BLTALIGNMENT, CLIPCAPS, COLORMGMTCAPS, COLORRES, CURVECAPS, DRIVERVERSION, GetDeviceCaps, GetDeviceCaps function [Windows GDI], HORZRES, HORZSIZE, LINECAPS, LOGPIXELSX, LOGPIXELSY, NUMBRUSHES, NUMCOLORS, NUMFONTS, NUMPENS, NUMRESERVED, PDEVICESIZE, PHYSICALHEIGHT, PHYSICALOFFSETX, PHYSICALOFFSETY, PHYSICALWIDTH, PLANES, POLYGONALCAPS, RASTERCAPS, SCALINGFACTORX, SCALINGFACTORY, SHADEBLENDCAPS, SIZEPALETTE, TECHNOLOGY, TEXTCAPS, VERTRES, VERTSIZE, VREFRESH, _win32_GetDeviceCaps, gdi.getdevicecaps, wingdi/GetDeviceCaps
 ms.topic: function
 f1_keywords:
 - wingdi/GetDeviceCaps
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows

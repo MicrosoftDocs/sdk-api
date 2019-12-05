@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeDefProps
 title: IMetaDataImport::GetTypeDefProps (rometadataapi.h)
-
 description: Returns metadata information for the Type represented by the specified TypeDef token.
 old-location: winrt\imetadataimport_gettypedefprops.htm
 tech.root: WinRT
 ms.assetid: 447937af-5edb-4e5e-89a1-13d1a733b3f7
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeDefProps, GetTypeDefProps method [Windows Runtime], GetTypeDefProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetTypeDefProps method, IMetaDataImport.GetTypeDefProps, IMetaDataImport::GetTypeDefProps, rometadataapi/IMetaDataImport::GetTypeDefProps, winrt.imetadataimport_gettypedefprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetTypeDefProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetTypeDefProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetTypeDefProps
+- IMetaDataImport.GetTypeDefProps
 targetos: Windows
 req.typenames: 
 req.redist: 

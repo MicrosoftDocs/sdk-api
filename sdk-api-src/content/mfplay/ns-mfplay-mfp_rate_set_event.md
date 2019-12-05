@@ -1,19 +1,17 @@
 ---
 UID: NS:mfplay.MFP_RATE_SET_EVENT
 title: MFP_RATE_SET_EVENT (mfplay.h)
-
 description: Event structure for the MFP_EVENT_TYPE_RATE_SET event.
 old-location: mf\mfp_rate_set_event.htm
 tech.root: medfound
 ms.assetid: 19e3bcb0-340a-46dc-bfda-62890ec9a8ae
-
 ms.date: 12/05/2018
 ms.keywords: MFP_RATE_SET_EVENT, MFP_RATE_SET_EVENT structure [Media Foundation], mf.mfp_rate_set_event, mfplay/MFP_RATE_SET_EVENT
 ms.topic: struct
-f1_keywords: 
- - "mfplay/MFP_RATE_SET_EVENT"
+f1_keywords:
+- mfplay/MFP_RATE_SET_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_RATE_SET_EVENT
+- MFP_RATE_SET_EVENT
 targetos: Windows
 req.typenames: MFP_RATE_SET_EVENT
 req.redist: 

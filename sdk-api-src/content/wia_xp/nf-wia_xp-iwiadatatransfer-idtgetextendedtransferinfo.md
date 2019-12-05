@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetExtendedTransferInfo
 title: IWiaDataTransfer::idtGetExtendedTransferInfo (wia_xp.h)
-
 description: The IWiaDataTransfer::idtGetExtendedTransferInfo retrieves extended information relating to data transfer buffers in the case of banded data transfers.
 old-location: wia\_wia_IWiaDataTransfer_idtGetExtendedTransferInfo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetextendedtransferinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaDataTransfer interface [WIA],idtGetExtendedTransferInfo method, IWiaDataTransfer.idtGetExtendedTransferInfo, IWiaDataTransfer::idtGetExtendedTransferInfo, _wia_IWiaDataTransfer_idtGetExtendedTransferInfo, idtGetExtendedTransferInfo, idtGetExtendedTransferInfo method [WIA], idtGetExtendedTransferInfo method [WIA],IWiaDataTransfer interface, wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo, wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo
 ms.topic: method
 f1_keywords:
 - wia_xp/IWiaDataTransfer.idtGetExtendedTransferInfo
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows

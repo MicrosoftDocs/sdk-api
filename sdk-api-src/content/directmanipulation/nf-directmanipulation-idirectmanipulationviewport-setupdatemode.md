@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetUpdateMode
 title: IDirectManipulationViewport::SetUpdateMode (directmanipulation.h)
-
 description: Specifies whether a viewport updates content manually instead of during an input event.
 old-location: directmanipulation\idirectmanipulationviewport_setupdatemode.htm
 tech.root: directmanipulation
 ms.assetid: 10516474-f3ef-4de7-a5b5-aabaa5c65cf5
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],SetUpdateMode method, IDirectManipulationViewport.SetUpdateMode, IDirectManipulationViewport::SetUpdateMode, SetUpdateMode, SetUpdateMode method [Direct Manipulation], SetUpdateMode method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_setupdatemode, directmanipulation/IDirectManipulationViewport::SetUpdateMode
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.SetUpdateMode"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.SetUpdateMode
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.SetUpdateMode
+- IDirectManipulationViewport.SetUpdateMode
 targetos: Windows
 req.typenames: 
 req.redist: 

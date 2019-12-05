@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMAnalogVideoDecoder.put_VCRHorizontalLocking
 title: IAMAnalogVideoDecoder::put_VCRHorizontalLocking (strmif.h)
-
 description: The put_VCRHorizontalLocking method specifies whether the video is a tape source or a broadcast source.
 old-location: dshow\iamanalogvideodecoder_put_vcrhorizontallocking.htm
 tech.root: DirectShow
 ms.assetid: 4b215f8b-dfd9-40cf-a392-7cc42b17b214
-
 ms.date: 12/05/2018
 ms.keywords: IAMAnalogVideoDecoder interface [DirectShow],put_VCRHorizontalLocking method, IAMAnalogVideoDecoder.put_VCRHorizontalLocking, IAMAnalogVideoDecoder::put_VCRHorizontalLocking, IAMAnalogVideoDecoderput_VCRHorizontalLocking, dshow.iamanalogvideodecoder_put_vcrhorizontallocking, put_VCRHorizontalLocking, put_VCRHorizontalLocking method [DirectShow], put_VCRHorizontalLocking method [DirectShow],IAMAnalogVideoDecoder interface, strmif/IAMAnalogVideoDecoder::put_VCRHorizontalLocking
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMAnalogVideoDecoder.put_VCRHorizontalLocking"
+f1_keywords:
+- strmif/IAMAnalogVideoDecoder.put_VCRHorizontalLocking
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder.put_VCRHorizontalLocking
+- IAMAnalogVideoDecoder.put_VCRHorizontalLocking
 targetos: Windows
 req.typenames: 
 req.redist: 

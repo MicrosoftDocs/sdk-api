@@ -1,19 +1,17 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffects2
 title: IAudioSystemEffects2 (audioenginebaseapo.h)
-
 description: The IAudioSystemEffects2 interface was introduced with Windows 8.1 for retrieving information about the processing objects in a given mode.
 old-location: audio\iaudiosystemeffects2.htm
 tech.root: audio
 ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18
-
 ms.date: 12/05/2018
 ms.keywords: IAudioSystemEffects2, IAudioSystemEffects2 interface [Audio Devices], IAudioSystemEffects2 interface [Audio Devices],described, audio.iaudiosystemeffects2, audioenginebaseapo/IAudioSystemEffects2
 ms.topic: interface
-f1_keywords: 
- - "audioenginebaseapo/IAudioSystemEffects2"
+f1_keywords:
+- audioenginebaseapo/IAudioSystemEffects2
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioenginebaseapo.h
+- audioenginebaseapo.h
 api_name:
- - IAudioSystemEffects2
+- IAudioSystemEffects2
 targetos: Windows
 req.typenames: 
 req.redist: 

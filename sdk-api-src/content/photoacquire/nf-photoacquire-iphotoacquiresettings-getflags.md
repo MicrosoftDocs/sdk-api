@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetFlags
 title: IPhotoAcquireSettings::GetFlags (photoacquire.h)
-
 description: The GetFlags method retrieves the photo acquire flags.
 old-location: picacq\iphotoacquiresettings_getflags.htm
 tech.root: acquisition
 ms.assetid: 9ed9183b-c1a2-4251-bb65-bd947c2034ad
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Picture Acquisition], GetFlags method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetFlags method, IPhotoAcquireSettings.GetFlags, IPhotoAcquireSettings::GetFlags, IPhotoAcquireSettingsGetFlags, photoacquire/IPhotoAcquireSettings::GetFlags, picacq.iphotoacquiresettings_getflags
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings.GetFlags"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.GetFlags
+- IPhotoAcquireSettings.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

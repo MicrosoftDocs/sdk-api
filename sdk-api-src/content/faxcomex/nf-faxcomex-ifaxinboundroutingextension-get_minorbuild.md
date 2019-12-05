@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_MinorBuild
 title: IFaxInboundRoutingExtension::get_MinorBuild (faxcomex.h)
-
 description: The IFaxInboundRoutingExtension::get_MinorBuild property is a value that specifies the minor part of the build number for the fax routing extension's DLL.
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6ns4.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxInboundRoutingExtension interface [Fax Service],MinorBuild property, IFaxInboundRoutingExtension.MinorBuild, IFaxInboundRoutingExtension.get_MinorBuild, IFaxInboundRoutingExtension::MinorBuild, IFaxInboundRoutingExtension::get_MinorBuild, MinorBuild property [Fax Service], MinorBuild property [Fax Service],IFaxInboundRoutingExtension interface, _mfax_faxinboundroutingextension.minorbuild, fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_minorbuild_cpp, fax._mfax_faxinboundroutingextension_minorbuild, faxcomex/IFaxInboundRoutingExtension::MinorBuild, faxcomex/IFaxInboundRoutingExtension::get_MinorBuild, get_MinorBuild
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxInboundRoutingExtension.MinorBuild"
+f1_keywords:
+- faxcomex/IFaxInboundRoutingExtension.MinorBuild
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension.MinorBuild
- - IFaxInboundRoutingExtension.get_MinorBuild
- - IFaxInboundRoutingExtension.get_MinorBuild
+- IFaxInboundRoutingExtension.MinorBuild
+- IFaxInboundRoutingExtension.get_MinorBuild
+- IFaxInboundRoutingExtension.get_MinorBuild
 targetos: Windows
 req.typenames: 
 req.redist: 

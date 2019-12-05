@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_Read
 title: IFaxIncomingMessage2::get_Read (faxcomex.h)
-
 description: A flag that indicates if the fax has been read.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_read_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\read.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],Read property, IFaxIncomingMessage2.Read, IFaxIncomingMessage2.get_Read, IFaxIncomingMessage2.put_Read, IFaxIncomingMessage2::Read, IFaxIncomingMessage2::get_Read, IFaxIncomingMessage2::put_Read, Read property [Fax Service], Read property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.read, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_read_cpp, fax._mfax_faxincomingmessage_read, faxcomex/IFaxIncomingMessage2::Read, faxcomex/IFaxIncomingMessage2::get_Read, faxcomex/IFaxIncomingMessage2::put_Read, get_Read
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.Read"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.Read
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.Read
- - IFaxIncomingMessage2.get_Read
- - IFaxIncomingMessage2.put_Read
- - IFaxIncomingMessage2.get_Read
- - IFaxIncomingMessage2.put_Read
+- IFaxIncomingMessage2.Read
+- IFaxIncomingMessage2.get_Read
+- IFaxIncomingMessage2.put_Read
+- IFaxIncomingMessage2.get_Read
+- IFaxIncomingMessage2.put_Read
 targetos: Windows
 req.typenames: 
 req.redist: 

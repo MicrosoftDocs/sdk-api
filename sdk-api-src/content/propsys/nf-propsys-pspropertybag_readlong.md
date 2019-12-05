@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadLONG
 title: PSPropertyBag_ReadLONG function (propsys.h)
-
 description: Reads a LONG data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadLONG.htm
 tech.root: properties
 ms.assetid: A39E1F7C-A4FB-47da-A05E-39F6176F2878
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadLONG, PSPropertyBag_ReadLONG function [Windows Properties], properties.PSPropertyBag_ReadLONG, propsys/PSPropertyBag_ReadLONG, shell.PSPropertyBag_ReadLONG, shell_PSPropertyBag_ReadLONG
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadLONG"
+f1_keywords:
+- propsys/PSPropertyBag_ReadLONG
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: Propsys.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadLONG
+- PSPropertyBag_ReadLONG
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetProgressText
 title: IPhotoProgressDialog::SetProgressText (photoacquire.h)
-
 description: The SetProgressText method sets the text for the progress bar in the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setprogresstext.htm
 tech.root: acquisition
 ms.assetid: b3210667-1fe2-4b30-9e5e-311f720647ce
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetProgressText method, IPhotoProgressDialog.SetProgressText, IPhotoProgressDialog::SetProgressText, IPhotoProgressDialogSetProgressText, SetProgressText, SetProgressText method [Picture Acquisition], SetProgressText method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetProgressText, picacq.iphotoprogressdialog_setprogresstext
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.SetProgressText"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.SetProgressText
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.SetProgressText
+- IPhotoProgressDialog.SetProgressText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMLinearGradientBrush.Clone
 title: IXpsOMLinearGradientBrush::Clone (xpsobjectmodel.h)
-
 description: Makes a deep copy of the interface.
 old-location: xps\ixpsomlineargradientbrush_clone.htm
 tech.root: printdocs
 ms.assetid: b0c44a37-e7fb-4079-a299-cb09635f61ca
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [XPS Documents and Packaging], Clone method [XPS Documents and Packaging],IXpsOMLinearGradientBrush interface, IXpsOMLinearGradientBrush interface [XPS Documents and Packaging],Clone method, IXpsOMLinearGradientBrush.Clone, IXpsOMLinearGradientBrush::Clone, xps.ixpsomlineargradientbrush_clone, xpsobjectmodel/IXpsOMLinearGradientBrush::Clone
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMLinearGradientBrush.Clone"
+f1_keywords:
+- xpsobjectmodel/IXpsOMLinearGradientBrush.Clone
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMLinearGradientBrush.Clone
+- IXpsOMLinearGradientBrush.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

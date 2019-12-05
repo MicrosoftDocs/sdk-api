@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_IP_PROTOCOL_
 title: NET_FW_IP_PROTOCOL (icftypes.h)
-
 description: Specifies the Internet protocol.
 old-location: ics\net_fw_ip_protocol.htm
 tech.root: ics
 ms.assetid: 867a038c-ae8e-4da8-a3e9-3ca7cb6ba518
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_IP_PROTOCOL, NET_FW_IP_PROTOCOL enumeration [ICS/ICF], NET_FW_IP_PROTOCOL_TCP, NET_FW_IP_PROTOCOL_UDP, icftypes/NET_FW_IP_PROTOCOL, icftypes/NET_FW_IP_PROTOCOL_TCP, icftypes/NET_FW_IP_PROTOCOL_UDP, ics.net_fw_ip_protocol
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_IP_PROTOCOL"
+f1_keywords:
+- icftypes/NET_FW_IP_PROTOCOL
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_IP_PROTOCOL
+- NET_FW_IP_PROTOCOL
 targetos: Windows
 req.typenames: NET_FW_IP_PROTOCOL
 req.redist: 

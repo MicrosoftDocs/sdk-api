@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.IMalloc.DidAlloc
 title: IMalloc::DidAlloc (objidlbase.h)
-
 description: Determines whether this allocator was used to allocate the specified block of memory.
 old-location: com\imalloc_didalloc.htm
 tech.root: com
 ms.assetid: 085dd7cd-c360-48fa-8713-64dd9057e20d
-
 ms.date: 12/05/2018
 ms.keywords: DidAlloc, DidAlloc method [COM], DidAlloc method [COM],IMalloc interface, IMalloc interface [COM],DidAlloc method, IMalloc.DidAlloc, IMalloc::DidAlloc, _com_imalloc_didalloc, com.imalloc_didalloc, objidlbase/IMalloc::DidAlloc
 ms.topic: method
-f1_keywords: 
- - "objidlbase/IMalloc.DidAlloc"
+f1_keywords:
+- objidlbase/IMalloc.DidAlloc
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMalloc.DidAlloc
+- IMalloc.DidAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

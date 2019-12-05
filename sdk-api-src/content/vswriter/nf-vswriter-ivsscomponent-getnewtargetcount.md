@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetNewTargetCount
 title: IVssComponent::GetNewTargetCount (vswriter.h)
-
 description: The GetNewTargetCount method returns the number of new target restore locations associated with a given component.
 old-location: base\ivsscomponent_getnewtargetcount.htm
 tech.root: VSS
 ms.assetid: b41afed9-2689-469e-b3c4-83cf18c5f8a9
-
 ms.date: 12/05/2018
 ms.keywords: GetNewTargetCount, GetNewTargetCount method [VSS], GetNewTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetNewTargetCount method, IVssComponent.GetNewTargetCount, IVssComponent::GetNewTargetCount, _win32_ivsscomponent_getnewtargetcount, base.ivsscomponent_getnewtargetcount, vswriter/IVssComponent::GetNewTargetCount
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetNewTargetCount"
+f1_keywords:
+- vswriter/IVssComponent.GetNewTargetCount
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetNewTargetCount
+- IVssComponent.GetNewTargetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

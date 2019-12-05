@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_SYNC_PROVIDER_STATUS
 title: CF_SYNC_PROVIDER_STATUS (cfapi.h)
-
 description: Current status of a sync provider.
 old-location: cloudapi\cf_sync_provider_status.htm
 tech.root: cfApi
 ms.assetid: 575A9F66-66D4-4443-9BCB-0CBD60DA27A0
-
 ms.date: 12/05/2018
 ms.keywords: CF_PROVIDER_STATUS_CLEAR_FLAGS, CF_PROVIDER_STATUS_CONNECTIVITY_LOST, CF_PROVIDER_STATUS_DISCONNECTED, CF_PROVIDER_STATUS_IDLE, CF_PROVIDER_STATUS_POPULATE_CONTENT, CF_PROVIDER_STATUS_POPULATE_METADATA, CF_PROVIDER_STATUS_POPULATE_NAMESPACE, CF_PROVIDER_STATUS_SYNC_FULL, CF_PROVIDER_STATUS_SYNC_INCREMENTAL, CF_SYNC_PROVIDER_STATUS, CF_SYNC_PROVIDER_STATUS enumeration, cfapi/CF_PROVIDER_STATUS_CLEAR_FLAGS, cfapi/CF_PROVIDER_STATUS_CONNECTIVITY_LOST, cfapi/CF_PROVIDER_STATUS_DISCONNECTED, cfapi/CF_PROVIDER_STATUS_IDLE, cfapi/CF_PROVIDER_STATUS_POPULATE_CONTENT, cfapi/CF_PROVIDER_STATUS_POPULATE_METADATA, cfapi/CF_PROVIDER_STATUS_POPULATE_NAMESPACE, cfapi/CF_PROVIDER_STATUS_SYNC_FULL, cfapi/CF_PROVIDER_STATUS_SYNC_INCREMENTAL, cfapi/CF_SYNC_PROVIDER_STATUS, cloudApi.cf_sync_provider_status
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_SYNC_PROVIDER_STATUS"
+f1_keywords:
+- cfapi/CF_SYNC_PROVIDER_STATUS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_SYNC_PROVIDER_STATUS
+- CF_SYNC_PROVIDER_STATUS
 targetos: Windows
 req.typenames: CF_SYNC_PROVIDER_STATUS
 req.redist: 

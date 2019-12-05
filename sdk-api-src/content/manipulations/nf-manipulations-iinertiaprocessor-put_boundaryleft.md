@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.put_BoundaryLeft
 title: IInertiaProcessor::put_BoundaryLeft (manipulations.h)
-
 description: The BoundaryLeft property limits how far towards the left of the screen the target object can move.
 old-location: wintouch\iinertiaprocessor_leftboundary.htm
 tech.root: wintouch
 ms.assetid: 476445bb-bf17-4091-a296-73594bd7ed7f
-
 ms.date: 12/05/2018
 ms.keywords: BoundaryLeft property [Windows Touch], BoundaryLeft property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryLeft property, IInertiaProcessor.BoundaryLeft, IInertiaProcessor.put_BoundaryLeft, IInertiaProcessor::BoundaryLeft, IInertiaProcessor::get_BoundaryLeft, IInertiaProcessor::put_BoundaryLeft, manipulations/IInertiaProcessor::BoundaryLeft, manipulations/IInertiaProcessor::get_BoundaryLeft, manipulations/IInertiaProcessor::put_BoundaryLeft, put_BoundaryLeft, wintouch.iinertiaprocessor_leftboundary
 ms.topic: method
-f1_keywords: 
- - "manipulations/IInertiaProcessor.BoundaryLeft"
+f1_keywords:
+- manipulations/IInertiaProcessor.BoundaryLeft
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IInertiaProcessor.BoundaryLeft
- - IInertiaProcessor.get_BoundaryLeft
- - IInertiaProcessor.put_BoundaryLeft
+- IInertiaProcessor.BoundaryLeft
+- IInertiaProcessor.get_BoundaryLeft
+- IInertiaProcessor.put_BoundaryLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

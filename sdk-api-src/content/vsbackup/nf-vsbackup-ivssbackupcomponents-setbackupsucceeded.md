@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetBackupSucceeded
 title: IVssBackupComponents::SetBackupSucceeded (vsbackup.h)
-
 description: The SetBackupSucceeded method indicates whether the backup of the specified component of a specific writer was successful.
 old-location: base\ivssbackupcomponents_setbackupsucceeded.htm
 tech.root: VSS
 ms.assetid: 5565183d-f374-4796-a399-b008041afdd2
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetBackupSucceeded method, IVssBackupComponents.SetBackupSucceeded, IVssBackupComponents::SetBackupSucceeded, SetBackupSucceeded, SetBackupSucceeded method [VSS], SetBackupSucceeded method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setbackupsucceeded, base.ivssbackupcomponents_setbackupsucceeded, vsbackup/IVssBackupComponents::SetBackupSucceeded
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.SetBackupSucceeded"
+f1_keywords:
+- vsbackup/IVssBackupComponents.SetBackupSucceeded
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.SetBackupSucceeded
+- IVssBackupComponents.SetBackupSucceeded
 targetos: Windows
 req.typenames: 
 req.redist: 

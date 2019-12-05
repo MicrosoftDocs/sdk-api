@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCachedPattern
 title: IUIAutomationElement::GetCachedPattern (uiautomationclient.h)
-
 description: Retrieves from the cache the IUnknown interface of the specified control pattern of this UI Automation element.
 old-location: winauto\uiauto_IUIAutomationElement_GetCachedPattern.htm
 tech.root: WinAuto
 ms.assetid: c71cab11-24c7-4e66-bcf2-f1abb1f37abb
-
 ms.date: 12/05/2018
 ms.keywords: GetCachedPattern, GetCachedPattern method [Windows Accessibility], GetCachedPattern method [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],GetCachedPattern method, IUIAutomationElement.GetCachedPattern, IUIAutomationElement::GetCachedPattern, uiauto.uiauto_IUIAutomationElement_GetCachedPattern, uiauto_IUIAutomationElement_GetCachedPattern, uiautomationclient/IUIAutomationElement::GetCachedPattern, winauto.uiauto_IUIAutomationElement_GetCachedPattern
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.GetCachedPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.GetCachedPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.GetCachedPattern
+- IUIAutomationElement.GetCachedPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

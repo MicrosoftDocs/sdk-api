@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IProvideClassInfo2.GetGUID
 title: IProvideClassInfo2::GetGUID (ocidl.h)
-
 description: Retrieves the specified GUID for the object.
 old-location: com\iprovideclassinfo2_getguid.htm
 tech.root: com
 ms.assetid: 1a424b93-93a9-4dc7-9c77-349522ee9e70
-
 ms.date: 12/05/2018
 ms.keywords: GetGUID, GetGUID method [COM], GetGUID method [COM],IProvideClassInfo2 interface, IProvideClassInfo2 interface [COM],GetGUID method, IProvideClassInfo2.GetGUID, IProvideClassInfo2::GetGUID, _com_iprovideclassinfo2_getguid, com.iprovideclassinfo2_getguid, ocidl/IProvideClassInfo2::GetGUID
 ms.topic: method
-f1_keywords: 
- - "ocidl/IProvideClassInfo2.GetGUID"
+f1_keywords:
+- ocidl/IProvideClassInfo2.GetGUID
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IProvideClassInfo2.GetGUID
+- IProvideClassInfo2.GetGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

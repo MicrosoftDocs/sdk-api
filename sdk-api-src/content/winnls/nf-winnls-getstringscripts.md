@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetStringScripts
 title: GetStringScripts function (winnls.h)
-
 description: Provides a list of scripts used in the specified Unicode string.
 old-location: intl\getstringscripts.htm
 tech.root: Intl
 ms.assetid: 82885feb-5d9b-49ea-bcbe-c71597584c59
-
 ms.date: 12/05/2018
 ms.keywords: GSS_ALLOW_INHERITED_COMMON, GetStringScripts, GetStringScripts function [Internationalization for Windows Applications], _win32_GetStringScripts, intl.getstringscripts, winnls/GetStringScripts
 ms.topic: function
-f1_keywords: 
- - "winnls/GetStringScripts"
+f1_keywords:
+- winnls/GetStringScripts
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-normalization-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-normalization-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - GetStringScripts
+- GetStringScripts
 targetos: Windows
 req.typenames: 
 req.redist: 

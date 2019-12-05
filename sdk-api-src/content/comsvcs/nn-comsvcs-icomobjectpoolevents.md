@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComObjectPoolEvents
 title: IComObjectPoolEvents (comsvcs.h)
-
 description: Notifies the subscriber when a new object is added to the pool.
 old-location: cos\icomobjectpoolevents.htm
 tech.root: cossdk
 ms.assetid: a830b40b-a1b1-464e-b532-91cebd4e5d2f
-
 ms.date: 12/05/2018
 ms.keywords: IComObjectPoolEvents, IComObjectPoolEvents interface [COM+], IComObjectPoolEvents interface [COM+],described, _dtc_IComObjectPoolEvents, comsvcs/IComObjectPoolEvents, cos.icomobjectpoolevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComObjectPoolEvents"
+f1_keywords:
+- comsvcs/IComObjectPoolEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComObjectPoolEvents
+- IComObjectPoolEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

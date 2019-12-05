@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingArchive.Save
 title: IFaxOutgoingArchive::Save (faxcomex.h)
-
 description: The IFaxOutgoingArchive::Save method saves the FaxOutgoingArchive object data.
 old-location: fax\_mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62ud.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingArchive interface [Fax Service],Save method, IFaxOutgoingArchive.Save, IFaxOutgoingArchive::Save, Save, Save method [Fax Service], Save method [Fax Service],IFaxOutgoingArchive interface, _mfax_faxoutgoingarchive.save, fax._mfax_faxoutgoingarchive_cpp_mfax_faxoutgoingarchive_save_cpp, fax._mfax_faxoutgoingarchive_save, faxcomex/IFaxOutgoingArchive::Save
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingArchive.Save"
+f1_keywords:
+- faxcomex/IFaxOutgoingArchive.Save
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive.Save
- - IFaxOutgoingArchive.Save
+- IFaxOutgoingArchive.Save
+- IFaxOutgoingArchive.Save
 targetos: Windows
 req.typenames: 
 req.redist: 

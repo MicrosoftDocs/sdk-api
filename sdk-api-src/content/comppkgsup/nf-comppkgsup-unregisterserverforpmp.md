@@ -1,19 +1,17 @@
 ---
 UID: NF:comppkgsup.UnregisterServerForPMP
 title: UnregisterServerForPMP function (comppkgsup.h)
-
 description: Registers a COM Server CLSID and a class factory that were previously registered for Protected Media Process (PMP) usage.
 old-location: winprog\unregisterserverforpmp.htm
 tech.root: DevNotes
 ms.assetid: FF89301E-FE17-4B14-872E-271BDB85A784
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterServerForPMP, UnregisterServerForPMP function [Windows API], comppkgsup/UnregisterServerForPMP, winprog.unregisterserverforpmp
 ms.topic: function
-f1_keywords: 
- - "comppkgsup/UnregisterServerForPMP"
+f1_keywords:
+- comppkgsup/UnregisterServerForPMP
 dev_langs:
- - c++
+- c++
 req.header: comppkgsup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comppkgsup.lib
 req.dll: CompPkgSup.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CompPkgSup.dll
+- CompPkgSup.dll
 api_name:
- - UnregisterServerForPMP
+- UnregisterServerForPMP
 targetos: Windows
 req.typenames: 
 req.redist: 

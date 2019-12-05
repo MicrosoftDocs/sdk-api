@@ -1,19 +1,17 @@
 ---
 UID: NS:winsync._SYNC_RANGE
 title: SYNC_RANGE (winsync.h)
-
 description: Represents a range of item IDs.
 old-location: winsync\sync_range.htm
 tech.root: winsync
 ms.assetid: d3e4a4f4-4a67-4dce-a81a-3861dcf788e6
-
 ms.date: 12/05/2018
 ms.keywords: SYNC_RANGE, SYNC_RANGE structure [Windows Sync], winsync.sync_range, winsync/SYNC_RANGE
 ms.topic: struct
-f1_keywords: 
- - "winsync/SYNC_RANGE"
+f1_keywords:
+- winsync/SYNC_RANGE
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - SYNC_RANGE
+- SYNC_RANGE
 targetos: Windows
 req.typenames: SYNC_RANGE
 req.redist: 

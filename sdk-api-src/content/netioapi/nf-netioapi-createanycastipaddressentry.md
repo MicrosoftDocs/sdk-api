@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.CreateAnycastIpAddressEntry
 title: CreateAnycastIpAddressEntry function (netioapi.h)
-
 description: Adds a new anycast IP address entry on the local computer.
 old-location: iphlp\createanycastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 30393132-0fad-4687-b9e3-7b5cf47fbb96
-
 ms.date: 12/05/2018
 ms.keywords: CreateAnycastIpAddressEntry, CreateAnycastIpAddressEntry function [IP Helper], iphlp.createanycastipaddressentry, netioapi/CreateAnycastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/CreateAnycastIpAddressEntry"
+f1_keywords:
+- netioapi/CreateAnycastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CreateAnycastIpAddressEntry
+- CreateAnycastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

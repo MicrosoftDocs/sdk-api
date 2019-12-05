@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxFile
 title: IAppxFile (appxpackaging.h)
-
 description: Retrieves information about a payload or footprint file in a package.
 old-location: appxpkg\iappxfile.htm
 tech.root: appxpkg
 ms.assetid: DB09452D-725C-46EA-B74C-92C5E596BEF8
-
 ms.date: 12/05/2018
 ms.keywords: IAppxFile, IAppxFile interface [App packaging and management], IAppxFile interface [App packaging and management],described, appxpackaging/IAppxFile, appxpkg.iappxfile
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxFile"
+f1_keywords:
+- appxpackaging/IAppxFile
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFile
+- IAppxFile
 targetos: Windows
 req.typenames: 
 req.redist: 

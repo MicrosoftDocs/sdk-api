@@ -1,19 +1,17 @@
 ---
 UID: NF:inputscope.SetInputScopes2
 title: SetInputScopes2 function (inputscope.h)
-
 description: The application must call SetInputScope with IS_DEFAULT before a window is destroyed to clear the reference of the interface.
 old-location: tsf\SetInputScopes2.htm
 tech.root: TSF
 ms.assetid: 0b3e0e98-412f-4c6f-aa06-a7f17f8869ac
-
 ms.date: 12/05/2018
 ms.keywords: SetInputScopes2, SetInputScopes2 function [Text Services Framework], inputscope/SetInputScopes2, tsf.SetInputScopes2
 ms.topic: function
-f1_keywords: 
- - "inputscope/SetInputScopes2"
+f1_keywords:
+- inputscope/SetInputScopes2
 dev_langs:
- - c++
+- c++
 req.header: inputscope.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - SetInputScopes2
+- SetInputScopes2
 targetos: Windows
 req.typenames: 
 req.redist: 

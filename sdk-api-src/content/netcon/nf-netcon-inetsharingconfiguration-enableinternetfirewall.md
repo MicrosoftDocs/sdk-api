@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.EnableInternetFirewall
 title: INetSharingConfiguration::EnableInternetFirewall (netcon.h)
-
 description: The EnableInternetFirewall methods enables Internet Connection Firewall on this connection.
 old-location: ics\inetsharingconfiguration_enableinternetfirewall.htm
 tech.root: ics
 ms.assetid: 9805f6bf-ee06-469f-9b2f-e48caa582d1a
-
 ms.date: 12/05/2018
 ms.keywords: EnableInternetFirewall, EnableInternetFirewall method [ICS/ICF], EnableInternetFirewall method [ICS/ICF],INetSharingConfiguration interface, INetSharingConfiguration interface [ICS/ICF],EnableInternetFirewall method, INetSharingConfiguration.EnableInternetFirewall, INetSharingConfiguration::EnableInternetFirewall, _ics_inetsharingconfiguration_enableinternetfirewall, ics.inetsharingconfiguration_enableinternetfirewall, netcon/INetSharingConfiguration::EnableInternetFirewall
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingConfiguration.EnableInternetFirewall"
+f1_keywords:
+- netcon/INetSharingConfiguration.EnableInternetFirewall
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingConfiguration.EnableInternetFirewall
+- INetSharingConfiguration.EnableInternetFirewall
 targetos: Windows
 req.typenames: 
 req.redist: 

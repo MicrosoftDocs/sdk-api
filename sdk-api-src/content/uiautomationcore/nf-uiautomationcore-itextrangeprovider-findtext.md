@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.FindText
 title: ITextRangeProvider::FindText (uiautomationcore.h)
-
 description: Returns a text range subset that contains the specified text.
 old-location: winauto\uiauto_ITextRangeProvider_FindText.htm
 tech.root: WinAuto
 ms.assetid: 6012bc1e-5c1c-4874-ba2b-5e16eaf21f1d
-
 ms.date: 12/05/2018
 ms.keywords: FindText, FindText method [Windows Accessibility], FindText method [Windows Accessibility],ITextRangeProvider interface, ITextRangeProvider interface [Windows Accessibility],FindText method, ITextRangeProvider.FindText, ITextRangeProvider::FindText, uiauto.uiauto_ITextRangeProvider_FindText, uiauto_ITextRangeProvider_FindText, uiautomationcore/ITextRangeProvider::FindText, winauto.uiauto_ITextRangeProvider_FindText
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ITextRangeProvider.FindText"
+f1_keywords:
+- uiautomationcore/ITextRangeProvider.FindText
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ITextRangeProvider.FindText
+- ITextRangeProvider.FindText
 targetos: Windows
 req.typenames: 
 req.redist: 

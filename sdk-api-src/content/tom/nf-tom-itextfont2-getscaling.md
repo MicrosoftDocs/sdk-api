@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetScaling
 title: ITextFont2::GetScaling (tom.h)
-
 description: Gets the font horizontal scaling percentage.
 old-location: controls\itextfont2_getscaling.htm
 tech.root: Controls
 ms.assetid: 4508d079-6f75-4842-a7e6-c2b9a99c826c
-
 ms.date: 12/05/2018
 ms.keywords: GetScaling, GetScaling method [Windows Controls], GetScaling method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetScaling method, ITextFont2.GetScaling, ITextFont2::GetScaling, controls.itextfont2_getscaling, tom/ITextFont2::GetScaling
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetScaling"
+f1_keywords:
+- tom/ITextFont2.GetScaling
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetScaling
+- ITextFont2.GetScaling
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:drt.DrtDeleteDerivedKeySecurityProvider
 title: DrtDeleteDerivedKeySecurityProvider function (drt.h)
-
 description: DrtDeleteDerivedKeySecurityProvider function deletes a derived key security provider for a Distributed Routing Table.
 old-location: p2p\drtdeletederivedkeysecurityprovider.htm
 tech.root: P2PSdk
 ms.assetid: 89b2bbe6-51a3-48fc-85c9-13e1b0cfd880
-
 ms.date: 12/05/2018
 ms.keywords: DrtDeleteDerivedKeySecurityProvider, DrtDeleteDerivedKeySecurityProvider function [Peer Networking], drt/DrtDeleteDerivedKeySecurityProvider, p2p.drtdeletederivedkeysecurityprovider
 ms.topic: function
-f1_keywords: 
- - "drt/DrtDeleteDerivedKeySecurityProvider"
+f1_keywords:
+- drt/DrtDeleteDerivedKeySecurityProvider
 dev_langs:
- - c++
+- c++
 req.header: drt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Drtprov.lib
 req.dll: Drt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - drt.dll
+- drt.dll
 api_name:
- - DrtDeleteDerivedKeySecurityProvider
+- DrtDeleteDerivedKeySecurityProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

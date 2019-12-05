@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateSharedHandle
 title: ID3D12Device::CreateSharedHandle (d3d12.h)
-
 description: Creates a shared handle to an heap, resource, or fence object.
 old-location: direct3d12\id3d12device_createsharedhandle.htm
 tech.root: direct3d12
 ms.assetid: AFF058FF-358F-4FF3-8C92-57A9D34B27D9
-
 ms.date: 12/05/2018
 ms.keywords: CreateSharedHandle, CreateSharedHandle method, CreateSharedHandle method,ID3D12Device interface, ID3D12Device interface,CreateSharedHandle method, ID3D12Device.CreateSharedHandle, ID3D12Device::CreateSharedHandle, d3d12/ID3D12Device::CreateSharedHandle, direct3d12.id3d12device_createsharedhandle
 ms.topic: method
 f1_keywords:
 - d3d12/ID3D12Device.CreateSharedHandle
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows

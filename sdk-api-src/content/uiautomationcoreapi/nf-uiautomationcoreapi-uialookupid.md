@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaLookupId
 title: UiaLookupId function (uiautomationcoreapi.h)
-
 description: Gets the integer identifier that can be used in methods that require a PROPERTYID, PATTERNID, CONTROLTYPEID, TEXTATTRIBUTEID, or EVENTID.
 old-location: winauto\uiauto_UiaLookupIdAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 9906acea-5246-4f01-8d76-03b89ff2f789
-
 ms.date: 12/05/2018
 ms.keywords: UiaLookupId, UiaLookupId function [Windows Accessibility], uiauto.uiauto_UiaLookupIdAutoMeth, uiauto_UiaLookupIdAutoMeth, uiautomationcoreapi/UiaLookupId, winauto.uiauto_UiaLookupIdAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaLookupId"
+f1_keywords:
+- uiautomationcoreapi/UiaLookupId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
- - Ext-MS-Win-uiacore-l1-1-0.dll
- - Ext-MS-Win-UIaCore-l1-1-1.dll
- - Ext-MS-Win-UIaCore-l1-1-2.dll
- - Ext-MS-Win-UiaCore-L1-1-3.dll
+- Uiautomationcore.dll
+- Ext-MS-Win-uiacore-l1-1-0.dll
+- Ext-MS-Win-UIaCore-l1-1-1.dll
+- Ext-MS-Win-UIaCore-l1-1-2.dll
+- Ext-MS-Win-UiaCore-L1-1-3.dll
 api_name:
- - UiaLookupId
+- UiaLookupId
 targetos: Windows
 req.typenames: 
 req.redist: 

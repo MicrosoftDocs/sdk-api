@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetUIName
 title: IAssocHandler::GetUIName (shobjidl_core.h)
-
 description: Retrieves the display name of an application.
 old-location: shell\IAssocHandler_GetUIName.htm
 tech.root: shell
 ms.assetid: bf714cf9-a16a-40a4-8dd8-c53c289967f5
-
 ms.date: 12/05/2018
 ms.keywords: GetUIName, GetUIName method [Windows Shell], GetUIName method [Windows Shell],IAssocHandler interface, IAssocHandler interface [Windows Shell],GetUIName method, IAssocHandler.GetUIName, IAssocHandler::GetUIName, _shell_IAssocHandler_GetUIName, shell.IAssocHandler_GetUIName, shobjidl_core/IAssocHandler::GetUIName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IAssocHandler.GetUIName"
+f1_keywords:
+- shobjidl_core/IAssocHandler.GetUIName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IAssocHandler.GetUIName
+- IAssocHandler.GetUIName
 targetos: Windows
 req.typenames: 
 req.redist: 

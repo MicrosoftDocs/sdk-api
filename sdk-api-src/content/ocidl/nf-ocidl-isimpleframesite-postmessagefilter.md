@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PostMessageFilter
 title: ISimpleFrameSite::PostMessageFilter (ocidl.h)
-
 description: Sends the simple frame site a message that is received by a control's own window after the control has processed the message.
 old-location: com\isimpleframesite_postmessagefilter.htm
 tech.root: com
 ms.assetid: b9725ef9-16e0-4574-9b94-826814a396be
-
 ms.date: 12/05/2018
 ms.keywords: ISimpleFrameSite interface [COM],PostMessageFilter method, ISimpleFrameSite.PostMessageFilter, ISimpleFrameSite::PostMessageFilter, PostMessageFilter, PostMessageFilter method [COM], PostMessageFilter method [COM],ISimpleFrameSite interface, _ctrl_isimpleframesite_postmessagefilter, com.isimpleframesite_postmessagefilter, ocidl/ISimpleFrameSite::PostMessageFilter
 ms.topic: method
-f1_keywords: 
- - "ocidl/ISimpleFrameSite.PostMessageFilter"
+f1_keywords:
+- ocidl/ISimpleFrameSite.PostMessageFilter
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - ISimpleFrameSite.PostMessageFilter
+- ISimpleFrameSite.PostMessageFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

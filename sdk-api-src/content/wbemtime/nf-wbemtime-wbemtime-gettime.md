@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.GetTime
 title: WBEMTime::GetTime (wbemtime.h)
-
 description: The GetTime method returns the time as a 64-bit integer.
 old-location: wmi\wbemtime_gettime.htm
 tech.root: WmiSdk
 ms.assetid: 1690d33d-c39b-448e-889e-48dce1933fc1
-
 ms.date: 12/05/2018
 ms.keywords: GetTime, GetTime method [Windows Management Instrumentation], GetTime method [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],GetTime method, WBEMTime.GetTime, WBEMTime::GetTime, _hmm_wbemtime_gettime, wbemtime/WBEMTime::GetTime, wmi.wbemtime_gettime
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.GetTime"
+f1_keywords:
+- wbemtime/WBEMTime.GetTime
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.GetTime
+- WBEMTime.GetTime
 targetos: Windows
 req.typenames: 
 req.redist: 

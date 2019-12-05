@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.get_TemplateObjectId
 title: IX509CertificateRequestCmc::get_TemplateObjectId (certenroll.h)
-
 description: Retrieves the object identifier (OID) of the template used to create the certificate request.
 old-location: security\ix509certificaterequestcmc_templateobjectid_property.htm
 tech.root: seccertenroll
 ms.assetid: 36a87e0e-d910-45a7-9850-512ff94e78b8
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],TemplateObjectId property, IX509CertificateRequestCmc.TemplateObjectId, IX509CertificateRequestCmc.get_TemplateObjectId, IX509CertificateRequestCmc::TemplateObjectId, IX509CertificateRequestCmc::get_TemplateObjectId, TemplateObjectId property [Security], TemplateObjectId property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::TemplateObjectId, certenroll/IX509CertificateRequestCmc::get_TemplateObjectId, get_TemplateObjectId, security.ix509certificaterequestcmc_templateobjectid_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.TemplateObjectId"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.TemplateObjectId
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.TemplateObjectId
- - IX509CertificateRequestCmc.get_TemplateObjectId
+- IX509CertificateRequestCmc.TemplateObjectId
+- IX509CertificateRequestCmc.get_TemplateObjectId
 targetos: Windows
 req.typenames: 
 req.redist: 

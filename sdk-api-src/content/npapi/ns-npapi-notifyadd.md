@@ -1,19 +1,17 @@
 ---
 UID: NS:npapi._NOTIFYADD
 title: NOTIFYADD (npapi.h)
-
 description: The NOTIFYADD structure contains the details of a network connect operation. It is used by the AddConnectNotify function.
 old-location: security\notifyadd.htm
 tech.root: SecAuthN
 ms.assetid: 23698bd9-12f6-4c1f-b833-bd5fddeba048
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, LPNOTIFYADD, LPNOTIFYADD structure pointer [Security], NOTIFYADD, NOTIFYADD structure [Security], _mnp_notifyadd, npapi/LPNOTIFYADD, npapi/NOTIFYADD, security.notifyadd"
+ms.keywords: '*LPNOTIFYADD, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, LPNOTIFYADD, LPNOTIFYADD structure pointer [Security], NOTIFYADD, NOTIFYADD structure [Security], _mnp_notifyadd, npapi/LPNOTIFYADD, npapi/NOTIFYADD, security.notifyadd'
 ms.topic: struct
-f1_keywords: 
- - "npapi/NOTIFYADD"
+f1_keywords:
+- npapi/NOTIFYADD
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NOTIFYADD
+- NOTIFYADD
 targetos: Windows
 req.typenames: NOTIFYADD, *LPNOTIFYADD
 req.redist: 

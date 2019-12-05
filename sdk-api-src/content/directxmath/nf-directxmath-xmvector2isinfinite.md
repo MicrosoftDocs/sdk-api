@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector2IsInfinite
 title: XMVector2IsInfinite function (directxmath.h)
-
 description: Tests whether any component of a 2D vector is positive or negative infinity.
 old-location: dxmath\xmvector2isinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2IsInfinite(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector2IsInfinite, XMVector2IsInfinite, XMVector2IsInfinite method [DirectX Math Support APIs], dxmath.xmvector2isinfinite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector2IsInfinite"
+f1_keywords:
+- directxmath/XMVector2IsInfinite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector2IsInfinite
+- XMVector2IsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

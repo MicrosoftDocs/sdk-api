@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_BLEND_DESC.CD3D11_BLEND_DESC(const D3D11_BLEND_DESC &)
 title: CD3D11_BLEND_DESC::CD3D11_BLEND_DESC(const D3D11_BLEND_DESC &) (d3d11.h)
-
 description: Instantiates a new instance of a **CD3D11_BLEND_DESC** structure that is initialized with a **CD3D11_BLEND_DESC** structure.
 old-location: 
 tech.root: direct3d11
 ms.assetid: F1756CCA-463F-48BC-99A2-8E956DDC8A3D
-
 ms.date: 05/06/2019
 ms.keywords: CD3D11_BLEND_DESC, CD3D11_BLEND_DESC constructor [Direct3D 11], CD3D11_BLEND_DESC constructor [Direct3D 11],CD3D11_BLEND_DESC interface, CD3D11_BLEND_DESC interface [Direct3D 11],CD3D11_BLEND_DESC constructor, CD3D11_BLEND_DESC.CD3D11_BLEND_DESC, CD3D11_BLEND_DESC.CD3D11_BLEND_DESC(const D3D11_BLEND_DESC &), CD3D11_BLEND_DESC::CD3D11_BLEND_DESC, CD3D11_BLEND_DESC::CD3D11_BLEND_DESC(CD3D11_DEFAULT), CD3D11_BLEND_DESC::CD3D11_BLEND_DESC(const D3D11_BLEND_DESC &), d3d11/CD3D11_BLEND_DESC::CD3D11_BLEND_DESC, direct3d11.cd3d11_blend_desc_cd3d11_blend_desc_cd3d11_default_
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_BLEND_DESC.CD3D11_BLEND_DESC"
+f1_keywords:
+- d3d11/CD3D11_BLEND_DESC.CD3D11_BLEND_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_BLEND_DESC.CD3D11_BLEND_DESC
+- CD3D11_BLEND_DESC.CD3D11_BLEND_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

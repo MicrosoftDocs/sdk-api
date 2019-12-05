@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorGroup.GetDefaultSensorDeviceIndex
 title: IMFSensorGroup::GetDefaultSensorDeviceIndex (mfidl.h)
-
 description: Retrieves the index of the default device in the sensor group.
 old-location: mf\imfsensorgroup_getdefaultsensordeviceindex.htm
 tech.root: medfound
 ms.assetid: E82A83F7-E984-4353-8CED-E3B5EE28EB3D
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultSensorDeviceIndex, GetDefaultSensorDeviceIndex method [Media Foundation], GetDefaultSensorDeviceIndex method [Media Foundation],IMFSensorGroup interface, IMFSensorGroup interface [Media Foundation],GetDefaultSensorDeviceIndex method, IMFSensorGroup.GetDefaultSensorDeviceIndex, IMFSensorGroup::GetDefaultSensorDeviceIndex, mf.imfsensorgroup_getdefaultsensordeviceindex, mfidl/IMFSensorGroup::GetDefaultSensorDeviceIndex
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorGroup.GetDefaultSensorDeviceIndex"
+f1_keywords:
+- mfidl/IMFSensorGroup.GetDefaultSensorDeviceIndex
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorGroup.GetDefaultSensorDeviceIndex
+- IMFSensorGroup.GetDefaultSensorDeviceIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetLine
 title: IProgressDialog::SetLine (shlobj_core.h)
-
 description: Displays a message in the progress dialog.
 old-location: shell\IProgressDialog_SetLine.htm
 tech.root: shell
 ms.assetid: 2c4441a8-3bb6-4cd8-8f96-423ee8d26113
-
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],SetLine method, IProgressDialog.SetLine, IProgressDialog::SetLine, SetLine, SetLine method [Windows Shell], SetLine method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetLine, shell.IProgressDialog_SetLine, shlobj_core/IProgressDialog::SetLine
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IProgressDialog.SetLine"
+f1_keywords:
+- shlobj_core/IProgressDialog.SetLine
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog.SetLine
+- IProgressDialog.SetLine
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVMR9.SetAllocator
 title: IMSVidVMR9::SetAllocator (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_setallocator.htm
 tech.root: mstv
 ms.assetid: f654adac-12b6-47c7-99d4-0612b1532df4
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],SetAllocator method, IMSVidVMR9.SetAllocator, IMSVidVMR9::SetAllocator, IMSVidVMR9SetAllocator, SetAllocator, SetAllocator method [Microsoft TV Technologies], SetAllocator method [Microsoft TV Technologies],IMSVidVMR9 interface, mstv.imsvidvmr9_setallocator, segment/IMSVidVMR9::SetAllocator
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVMR9.SetAllocator"
+f1_keywords:
+- segment/IMSVidVMR9.SetAllocator
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVMR9.SetAllocator
+- IMSVidVMR9.SetAllocator
 targetos: Windows
 req.typenames: 
 req.redist: 

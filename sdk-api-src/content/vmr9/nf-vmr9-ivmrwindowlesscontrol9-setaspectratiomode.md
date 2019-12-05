@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.SetAspectRatioMode
 title: IVMRWindowlessControl9::SetAspectRatioMode (vmr9.h)
-
 description: The SetAspectRatioMode method sets the current aspect ratio display mode.
 old-location: dshow\ivmrwindowlesscontrol9_setaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: 5ba46490-0a82-495f-8742-d7a8efa95332
-
 ms.date: 12/05/2018
 ms.keywords: IVMRWindowlessControl9 interface [DirectShow],SetAspectRatioMode method, IVMRWindowlessControl9.SetAspectRatioMode, IVMRWindowlessControl9::SetAspectRatioMode, IVMRWindowlessControl9SetAspectRatioMode, SetAspectRatioMode, SetAspectRatioMode method [DirectShow], SetAspectRatioMode method [DirectShow],IVMRWindowlessControl9 interface, dshow.ivmrwindowlesscontrol9_setaspectratiomode, vmr9/IVMRWindowlessControl9::SetAspectRatioMode
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRWindowlessControl9.SetAspectRatioMode"
+f1_keywords:
+- vmr9/IVMRWindowlessControl9.SetAspectRatioMode
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRWindowlessControl9.SetAspectRatioMode
+- IVMRWindowlessControl9.SetAspectRatioMode
 targetos: Windows
 req.typenames: 
 req.redist: 

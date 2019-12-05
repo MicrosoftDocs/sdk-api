@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.put_ParentWindow
 title: IUpdateInstaller::put_ParentWindow (wuapi.h)
-
 description: Gets and sets the interface that represents the parent window that can contain a dialog box.
 old-location: wua\iupdateinstaller_parentwindow.htm
 tech.root: Wua_Sdk
 ms.assetid: 06eb4761-3a37-44bc-82b9-b40c0595fe49
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateInstaller interface [Windows Update Agent],ParentWindow property, IUpdateInstaller.ParentWindow, IUpdateInstaller.put_ParentWindow, IUpdateInstaller::ParentWindow, IUpdateInstaller::get_ParentWindow, IUpdateInstaller::put_ParentWindow, ParentWindow property [Windows Update Agent], ParentWindow property [Windows Update Agent],IUpdateInstaller interface, put_ParentWindow, wua.iupdateinstaller_parentwindow, wuapi/IUpdateInstaller::ParentWindow, wuapi/IUpdateInstaller::get_ParentWindow, wuapi/IUpdateInstaller::put_ParentWindow
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateInstaller.ParentWindow"
+f1_keywords:
+- wuapi/IUpdateInstaller.ParentWindow
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateInstaller.ParentWindow
- - IUpdateInstaller.get_ParentWindow
- - IUpdateInstaller.put_ParentWindow
+- IUpdateInstaller.ParentWindow
+- IUpdateInstaller.get_ParentWindow
+- IUpdateInstaller.put_ParentWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

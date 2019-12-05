@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSubscriberInformation.get_SimIccID
 title: IMbnSubscriberInformation::get_SimIccID (mbnapi.h)
-
 description: The SIM International circuit card number (SimICCID) for the device.
 old-location: mbn\imbnsubscriberinformation_simiccid.htm
 tech.root: mbn
 ms.assetid: 18132836-65e8-4372-bfcd-ba0115b2d4d0
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSubscriberInformation interface [Microsoft Broadband Networks],SimIccID property, IMbnSubscriberInformation.SimIccID, IMbnSubscriberInformation.get_SimIccID, IMbnSubscriberInformation::SimIccID, IMbnSubscriberInformation::get_SimIccID, SimIccID property [Microsoft Broadband Networks], SimIccID property [Microsoft Broadband Networks],IMbnSubscriberInformation interface, get_SimIccID, mbn.imbnsubscriberinformation_simiccid, mbnapi/IMbnSubscriberInformation::SimIccID, mbnapi/IMbnSubscriberInformation::get_SimIccID
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSubscriberInformation.SimIccID"
+f1_keywords:
+- mbnapi/IMbnSubscriberInformation.SimIccID
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSubscriberInformation.SimIccID
- - IMbnSubscriberInformation.get_SimIccID
+- IMbnSubscriberInformation.SimIccID
+- IMbnSubscriberInformation.get_SimIccID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.IEnumNetworkConnections.get__NewEnum
 title: IEnumNetworkConnections::get__NewEnum (netlistmgr.h)
-
 description: The get_NewEnum property returns an automation enumerator object that you can use to iterate through the IEnumNetworkConnections collection.
 old-location: nla\ienumnetworkconnections_get__newenum.htm
 tech.root: nla
 ms.assetid: 38b3a58e-6ed1-488e-b5b8-50043adae8cc
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNetworkConnections interface [Network Awareness],get__NewEnum method, IEnumNetworkConnections.get__NewEnum, IEnumNetworkConnections::get__NewEnum, get__NewEnum, get__NewEnum method [Network Awareness], get__NewEnum method [Network Awareness],IEnumNetworkConnections interface, netlistmgr/IEnumNetworkConnections::get__NewEnum, nla.ienumnetworkconnections_get__newenum
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/IEnumNetworkConnections.get__NewEnum"
+f1_keywords:
+- netlistmgr/IEnumNetworkConnections.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - IEnumNetworkConnections.get__NewEnum
+- IEnumNetworkConnections.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

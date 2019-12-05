@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarity.Append
 title: ISimilarity::Append (msrdc.h)
-
 description: Adds the file ID and similarity data information to the tables in the similarity file.
 old-location: rdc\isimilarity_append.htm
 tech.root: rdc
 ms.assetid: f8896d9e-ca6a-404f-b80f-ef739ec97b53
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [Remote Differential Compression], Append method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],Append method, ISimilarity.Append, ISimilarity::Append, fs.isimilarity_append, msrdc/ISimilarity::Append, rdc.isimilarity_append
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarity.Append"
+f1_keywords:
+- msrdc/ISimilarity.Append
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarity.Append
+- ISimilarity.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

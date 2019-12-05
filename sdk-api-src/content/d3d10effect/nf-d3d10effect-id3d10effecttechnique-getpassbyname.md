@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectTechnique.GetPassByName
 title: ID3D10EffectTechnique::GetPassByName (d3d10effect.h)
-
 description: Get a pass by name.
 old-location: direct3d10\id3d10effecttechnique_getpassbyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getpassbyname.htm
-
 ms.date: 12/05/2018
 ms.keywords: 35788dc3-3901-8ccb-116d-9dbd8ac5f484, GetPassByName, GetPassByName method [Direct3D 10], GetPassByName method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetPassByName method, ID3D10EffectTechnique.GetPassByName, ID3D10EffectTechnique::GetPassByName, d3d10effect/ID3D10EffectTechnique::GetPassByName, direct3d10.id3d10effecttechnique_getpassbyname
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectTechnique.GetPassByName"
+f1_keywords:
+- d3d10effect/ID3D10EffectTechnique.GetPassByName
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectTechnique.GetPassByName
+- ID3D10EffectTechnique.GetPassByName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetGreen(float)
 title: IDCompositionShadowEffect::SetGreen (dcomp.h)
-
 description: Sets the green value for the color of the shadow.
 old-location: directcomp\idcompositionshadoweffect_setgreen.htm
 tech.root: directcomp
 ms.assetid: AFBDF412-D0B3-440F-92E2-25BE3083C40B
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionShadowEffect interface [DirectComposition],SetGreen method, IDCompositionShadowEffect.SetGreen, IDCompositionShadowEffect::SetGreen, IDCompositionShadowEffect::SetGreen(float), SetGreen, SetGreen method [DirectComposition], SetGreen method [DirectComposition],IDCompositionShadowEffect interface, dcomp/IDCompositionShadowEffect::SetGreen, directcomp.idcompositionshadoweffect_setgreen
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionShadowEffect.SetGreen"
+f1_keywords:
+- dcomp/IDCompositionShadowEffect.SetGreen
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionShadowEffect.SetGreen
+- IDCompositionShadowEffect.SetGreen
 targetos: Windows
 req.typenames: 
 req.redist: 

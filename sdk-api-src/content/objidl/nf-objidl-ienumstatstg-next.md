@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumSTATSTG.Next
 title: IEnumSTATSTG::Next (objidl.h)
-
 description: Retrieves a specified number of STATSTG structures, that follow in the enumeration sequence.
 old-location: stg\ienumstatstg_next.htm
 tech.root: Stg
 ms.assetid: 09363d3e-a606-4a50-8758-d7ef5b3c05ab
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Next method, IEnumSTATSTG.Next, IEnumSTATSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Next, stg.ienumstatstg_next
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumSTATSTG.Next"
+f1_keywords:
+- objidl/IEnumSTATSTG.Next
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IEnumSTATSTG.Next
+- IEnumSTATSTG.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMStreamConfig3
 title: IWMStreamConfig3 (wmsdkidl.h)
-
 description: The IWMStreamConfig3 interface controls language settings for a stream.An IWMStreamConfig3 interface exists for every stream configuration object.
 old-location: wmformat\iwmstreamconfig3.htm
 tech.root: wmformat
 ms.assetid: c79ddfb8-b1ff-475c-8c9d-01e0dbe3f681
-
 ms.date: 12/05/2018
 ms.keywords: IWMStreamConfig3, IWMStreamConfig3 interface [windows Media Format], IWMStreamConfig3 interface [windows Media Format],described, IWMStreamConfig3Interface, wmformat.iwmstreamconfig3, wmsdkidl/IWMStreamConfig3
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig3"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig3
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMStreamConfig3
+- IWMStreamConfig3
 targetos: Windows
 req.typenames: 
 req.redist: 

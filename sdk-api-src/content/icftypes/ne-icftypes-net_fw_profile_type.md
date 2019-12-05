@@ -1,19 +1,17 @@
 ---
 UID: NE:icftypes.NET_FW_PROFILE_TYPE_
 title: NET_FW_PROFILE_TYPE (icftypes.h)
-
 description: Specifies the type of profile.
 old-location: ics\net_fw_profile_type.htm
 tech.root: ics
 ms.assetid: abf59405-86c7-4a20-a3e9-b12b27290b00
-
 ms.date: 12/05/2018
 ms.keywords: NET_FW_PROFILE_CURRENT, NET_FW_PROFILE_DOMAIN, NET_FW_PROFILE_STANDARD, NET_FW_PROFILE_TYPE, NET_FW_PROFILE_TYPE enumeration [ICS/ICF], NET_FW_PROFILE_TYPE_, NET_FW_PROFILE_TYPE_MAX, icftypes/NET_FW_PROFILE_CURRENT, icftypes/NET_FW_PROFILE_DOMAIN, icftypes/NET_FW_PROFILE_STANDARD, icftypes/NET_FW_PROFILE_TYPE, icftypes/NET_FW_PROFILE_TYPE_MAX, ics.net_fw_profile_type
 ms.topic: enum
-f1_keywords: 
- - "icftypes/NET_FW_PROFILE_TYPE"
+f1_keywords:
+- icftypes/NET_FW_PROFILE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: icftypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Icftypes.h
+- Icftypes.h
 api_name:
- - NET_FW_PROFILE_TYPE
+- NET_FW_PROFILE_TYPE
 targetos: Windows
 req.typenames: NET_FW_PROFILE_TYPE
 req.redist: 

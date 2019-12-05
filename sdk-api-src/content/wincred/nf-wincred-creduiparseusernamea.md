@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredUIParseUserNameA
 title: CredUIParseUserNameA function (wincred.h)
-
 description: The CredUIParseUserName function extracts the domain and user account name from a fully qualified user name.
 old-location: security\creduiparseusername.htm
 tech.root: SecAuthN
 ms.assetid: 4a7fb207-f940-4610-a740-7bf5d58fb285
-
 ms.date: 12/05/2018
 ms.keywords: CredUIParseUserName, CredUIParseUserName function [Security], CredUIParseUserNameA, CredUIParseUserNameW, _cred_creduiparseusername, security.creduiparseusername, wincred/CredUIParseUserName, wincred/CredUIParseUserNameA, wincred/CredUIParseUserNameW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredUIParseUserName"
+f1_keywords:
+- wincred/CredUIParseUserName
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Credui.lib
 req.dll: Credui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Credui.dll
- - Ext-MS-Win-security-credui-l1-1-1.dll
- - AnalogCredUI.dll
+- Credui.dll
+- Ext-MS-Win-security-credui-l1-1-1.dll
+- AnalogCredUI.dll
 api_name:
- - CredUIParseUserName
- - CredUIParseUserNameA
- - CredUIParseUserNameW
+- CredUIParseUserName
+- CredUIParseUserNameA
+- CredUIParseUserNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

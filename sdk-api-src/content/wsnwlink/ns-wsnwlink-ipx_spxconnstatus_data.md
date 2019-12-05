@@ -1,19 +1,17 @@
 ---
 UID: NS:wsnwlink._IPX_SPXCONNSTATUS_DATA
 title: IPX_SPXCONNSTATUS_DATA (wsnwlink.h)
-
 description: The IPX_SPXCONNSTATUS_DATA structure provides information about a connected SPX socket.
 old-location: winsock\ipx_spxconnstatus_data_2.htm
 tech.root: WinSock
 ms.assetid: 741fdb22-a92c-4159-bde6-e3d18a222b9e
-
 ms.date: 12/05/2018
-ms.keywords: "*PIPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA structure [Winsock], PIPX_SPXCONNSTATUS_DATA, PIPX_SPXCONNSTATUS_DATA structure pointer [Winsock], _win32_ipx_spxconnstatus_data_2, winsock.ipx_spxconnstatus_data_2, wsnwlink/IPX_SPXCONNSTATUS_DATA, wsnwlink/PIPX_SPXCONNSTATUS_DATA"
+ms.keywords: '*PIPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA, IPX_SPXCONNSTATUS_DATA structure [Winsock], PIPX_SPXCONNSTATUS_DATA, PIPX_SPXCONNSTATUS_DATA structure pointer [Winsock], _win32_ipx_spxconnstatus_data_2, winsock.ipx_spxconnstatus_data_2, wsnwlink/IPX_SPXCONNSTATUS_DATA, wsnwlink/PIPX_SPXCONNSTATUS_DATA'
 ms.topic: struct
-f1_keywords: 
- - "wsnwlink/IPX_SPXCONNSTATUS_DATA"
+f1_keywords:
+- wsnwlink/IPX_SPXCONNSTATUS_DATA
 dev_langs:
- - c++
+- c++
 req.header: wsnwlink.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsnwlink.h
+- Wsnwlink.h
 api_name:
- - IPX_SPXCONNSTATUS_DATA
+- IPX_SPXCONNSTATUS_DATA
 targetos: Windows
 req.typenames: IPX_SPXCONNSTATUS_DATA, *PIPX_SPXCONNSTATUS_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetFont
 title: IGetClusterUIInfo::GetFont (cluadmex.h)
-
 description: Returns a handle to the font to be displayed on property and wizard pages.
 old-location: mscs\igetclusteruiinfo_getfont.htm
 tech.root: MsCS
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179
-
 ms.date: 12/05/2018
 ms.keywords: GetFont, GetFont method [Failover Cluster], GetFont method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetFont method, IGetClusterUIInfo.GetFont, IGetClusterUIInfo::GetFont, _wolf_igetclusteruiinfo_getfont, cluadmex/IGetClusterUIInfo::GetFont, mscs.igetclusteruiinfo_getfont
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterUIInfo.GetFont"
+f1_keywords:
+- cluadmex/IGetClusterUIInfo.GetFont
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterUIInfo.GetFont
+- IGetClusterUIInfo.GetFont
 targetos: Windows
 req.typenames: 
 req.redist: 

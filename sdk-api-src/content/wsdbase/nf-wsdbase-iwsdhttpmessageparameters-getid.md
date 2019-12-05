@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.GetID
 title: IWSDHttpMessageParameters::GetID (wsdbase.h)
-
 description: Retrieves the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_getid.htm
 tech.root: WsdApi
 ms.assetid: fbe7000f-271a-4939-814d-3696d29f7a41
-
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method, GetID method,IWSDHttpMessageParameters interface, IWSDHttpMessageParameters interface,GetID method, IWSDHttpMessageParameters.GetID, IWSDHttpMessageParameters::GetID, ncd.iwsdhttpmessageparameters_getid, wsdbase/IWSDHttpMessageParameters::GetID
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.GetID"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.GetID
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.GetID
+- IWSDHttpMessageParameters.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 

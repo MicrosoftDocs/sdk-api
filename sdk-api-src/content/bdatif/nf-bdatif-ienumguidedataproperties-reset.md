@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IEnumGuideDataProperties.Reset
 title: IEnumGuideDataProperties::Reset (bdatif.h)
-
 description: The Reset method resets the enumerator to the first item in the collection.
 old-location: mstv\ienumguidedataproperties_reset.htm
 tech.root: mstv
 ms.assetid: 5e019e0e-81f7-4eb9-9ddb-e20e7e216e33
-
 ms.date: 12/05/2018
 ms.keywords: IEnumGuideDataProperties interface [Microsoft TV Technologies],Reset method, IEnumGuideDataProperties.Reset, IEnumGuideDataProperties::Reset, IEnumGuideDataPropertiesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumGuideDataProperties interface, bdatif/IEnumGuideDataProperties::Reset, mstv.ienumguidedataproperties_reset
 ms.topic: method
-f1_keywords: 
- - "bdatif/IEnumGuideDataProperties.Reset"
+f1_keywords:
+- bdatif/IEnumGuideDataProperties.Reset
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IEnumGuideDataProperties.Reset
+- IEnumGuideDataProperties.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

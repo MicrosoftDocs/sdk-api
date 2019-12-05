@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.HasAffineTransform
 title: IMILBitmapEffectPrimitive::HasAffineTransform (mileffects.h)
-
 description: Determines whether the effect has an affine transform.
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasaffinetransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasaffinetransform.htm
-
 ms.date: 12/05/2018
 ms.keywords: HasAffineTransform, HasAffineTransform method [WPF Bitmap Effects], HasAffineTransform method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],HasAffineTransform method, IMILBitmapEffectPrimitive.HasAffineTransform, IMILBitmapEffectPrimitive::HasAffineTransform, _wibe_imilbitmapeffectprimitive_hasaffinetransform, mileffects/IMILBitmapEffectPrimitive::HasAffineTransform, wibe._wibe_imilbitmapeffectprimitive_hasaffinetransform
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectPrimitive.HasAffineTransform"
+f1_keywords:
+- mileffects/IMILBitmapEffectPrimitive.HasAffineTransform
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive.HasAffineTransform
+- IMILBitmapEffectPrimitive.HasAffineTransform
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

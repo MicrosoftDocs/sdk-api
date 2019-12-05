@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerFreeData
 title: PeerFreeData function (p2p.h)
-
 description: The PeerFreeData function deallocates a block of data and returns it to the memory pool. Use the PeerFreeData function to free data that the Peer Identity Manager, Peer Grouping, and Peer Collaboration APIs return.
 old-location: p2p\peerfreedata.htm
 tech.root: P2PSdk
 ms.assetid: 54288829-c991-42d6-a7c4-874ed28dd106
-
 ms.date: 12/05/2018
 ms.keywords: PeerFreeData, PeerFreeData function [Peer Networking], p2p.peerfreedata, p2p/PeerFreeData
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerFreeData"
+f1_keywords:
+- p2p/PeerFreeData
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerFreeData
+- PeerFreeData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetMinimumSupportedVersion
 title: ISyncKnowledge2::GetMinimumSupportedVersion (winsync.h)
-
 description: Gets the minimum supported version of Microsoft Sync Framework components that can be used with this object.
 old-location: winsync\isyncknowledge2_getminimumsupportedversion.htm
 tech.root: winsync
 ms.assetid: 06b5794e-ba46-499f-b85c-f0acb4fd79a7
-
 ms.date: 12/05/2018
 ms.keywords: GetMinimumSupportedVersion, GetMinimumSupportedVersion method [Windows Sync], GetMinimumSupportedVersion method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetMinimumSupportedVersion method, ISyncKnowledge2.GetMinimumSupportedVersion, ISyncKnowledge2::GetMinimumSupportedVersion, winsync.isyncknowledge2_getminimumsupportedversion, winsync/ISyncKnowledge2::GetMinimumSupportedVersion
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge2.GetMinimumSupportedVersion"
+f1_keywords:
+- winsync/ISyncKnowledge2.GetMinimumSupportedVersion
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge2.GetMinimumSupportedVersion
+- ISyncKnowledge2.GetMinimumSupportedVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

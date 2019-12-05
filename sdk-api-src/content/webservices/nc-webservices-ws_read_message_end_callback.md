@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_READ_MESSAGE_END_CALLBACK
 title: WS_READ_MESSAGE_END_CALLBACK (webservices.h)
-
 description: Handles the WsReadMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
 old-location: wsw\ws_read_message_end_callback.htm
 tech.root: wsw
 ms.assetid: 6e03b812-9022-4c17-b25d-e06cc8943a1b
-
 ms.date: 12/05/2018
 ms.keywords: WS_READ_MESSAGE_END_CALLBACK, WS_READ_MESSAGE_END_CALLBACK callback, WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows], webservices/WS_READ_MESSAGE_END_CALLBACK, wsw.ws_read_message_end_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_READ_MESSAGE_END_CALLBACK"
+f1_keywords:
+- webservices/WS_READ_MESSAGE_END_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_READ_MESSAGE_END_CALLBACK
+- WS_READ_MESSAGE_END_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

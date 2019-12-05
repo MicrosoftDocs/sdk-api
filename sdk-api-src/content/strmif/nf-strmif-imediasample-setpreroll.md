@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMediaSample.SetPreroll
 title: IMediaSample::SetPreroll (strmif.h)
-
 description: The SetPreroll method specifies whether this sample is a preroll sample.
 old-location: dshow\imediasample_setpreroll.htm
 tech.root: DirectShow
 ms.assetid: a92f2774-19ac-4630-ad66-2299336d1338
-
 ms.date: 12/05/2018
 ms.keywords: IMediaSample interface [DirectShow],SetPreroll method, IMediaSample.SetPreroll, IMediaSample::SetPreroll, IMediaSampleSetPreroll, SetPreroll, SetPreroll method [DirectShow], SetPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_setpreroll, strmif/IMediaSample::SetPreroll
 ms.topic: method
-f1_keywords: 
- - "strmif/IMediaSample.SetPreroll"
+f1_keywords:
+- strmif/IMediaSample.SetPreroll
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaSample.SetPreroll
+- IMediaSample.SetPreroll
 targetos: Windows
 req.typenames: 
 req.redist: 

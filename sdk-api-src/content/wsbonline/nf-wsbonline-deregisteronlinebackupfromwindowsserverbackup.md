@@ -1,19 +1,17 @@
 ---
 UID: NF:wsbonline.DeregisterOnlineBackupFromWindowsServerBackup
 title: DeregisterOnlineBackupFromWindowsServerBackup function (wsbonline.h)
-
 description: De-registers an already registered Cloud backup provider.
 old-location: wsb\deregisteronlinebackupfromwindowsserverbackup.htm
 tech.root: wsb
 ms.assetid: 4E70EF3D-E4AA-498C-B131-8C5F48CD230E
-
 ms.date: 12/05/2018
 ms.keywords: DeregisterOnlineBackupFromWindowsServerBackup, DeregisterOnlineBackupFromWindowsServerBackup function [Windows Server Backup], wsb.deregisteronlinebackupfromwindowsserverbackup, wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
 ms.topic: function
-f1_keywords: 
- - "wsbonline/DeregisterOnlineBackupFromWindowsServerBackup"
+f1_keywords:
+- wsbonline/DeregisterOnlineBackupFromWindowsServerBackup
 dev_langs:
- - c++
+- c++
 req.header: wsbonline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WsbOnline.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsbOnline.dll
+- WsbOnline.dll
 api_name:
- - DeregisterOnlineBackupFromWindowsServerBackup
+- DeregisterOnlineBackupFromWindowsServerBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

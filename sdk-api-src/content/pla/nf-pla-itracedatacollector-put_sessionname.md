@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_SessionName
 title: ITraceDataCollector::put_SessionName (pla.h)
-
 description: Retrieves or sets the name of the session.
 old-location: pla\itracedatacollector_sessionname.htm
 tech.root: PLA
 ms.assetid: eef98aa2-8494-46d6-bbc2-1115eff30996
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionName property, ITraceDataCollector.SessionName, ITraceDataCollector.put_SessionName, ITraceDataCollector::SessionName, ITraceDataCollector::get_SessionName, ITraceDataCollector::put_SessionName, SessionName property [PLA], SessionName property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionname, pla.itracedatacollector_sessionname, pla/ITraceDataCollector::SessionName, pla/ITraceDataCollector::get_SessionName, pla/ITraceDataCollector::put_SessionName, put_SessionName
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.SessionName"
+f1_keywords:
+- pla/ITraceDataCollector.SessionName
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.SessionName
- - ITraceDataCollector.get_SessionName
- - ITraceDataCollector.put_SessionName
+- ITraceDataCollector.SessionName
+- ITraceDataCollector.get_SessionName
+- ITraceDataCollector.put_SessionName
 targetos: Windows
 req.typenames: 
 req.redist: 

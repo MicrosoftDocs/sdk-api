@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._MENUBUTTONDATA
 title: MENUBUTTONDATA (mmc.h)
-
 description: The MENUBUTTONDATA structure contains values used to create buttons on a toolbar.
 old-location: mmc\menubuttondata.htm
 tech.root: mmc
 ms.assetid: 440467ea-3d6c-49a0-a81a-24088e307d22
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMENUBUTTONDATA, LPMENUBUTTONDATA, LPMENUBUTTONDATA structure pointer [MMC], MENUBUTTONDATA, MENUBUTTONDATA structure [MMC], _slate_menubuttondata, mmc.menubuttondata, mmc/LPMENUBUTTONDATA, mmc/MENUBUTTONDATA"
+ms.keywords: '*LPMENUBUTTONDATA, LPMENUBUTTONDATA, LPMENUBUTTONDATA structure pointer [MMC], MENUBUTTONDATA, MENUBUTTONDATA structure [MMC], _slate_menubuttondata, mmc.menubuttondata, mmc/LPMENUBUTTONDATA, mmc/MENUBUTTONDATA'
 ms.topic: struct
-f1_keywords: 
- - "mmc/MENUBUTTONDATA"
+f1_keywords:
+- mmc/MENUBUTTONDATA
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - MENUBUTTONDATA
+- MENUBUTTONDATA
 targetos: Windows
 req.typenames: MENUBUTTONDATA
 req.redist: 

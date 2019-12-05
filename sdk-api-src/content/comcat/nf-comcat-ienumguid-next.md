@@ -1,19 +1,17 @@
 ---
 UID: NF:comcat.IEnumGUID.Next
 title: IEnumGUID::Next (comcat.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumguid_next.htm
 tech.root: com
 ms.assetid: d32e02c7-1109-40cc-bf36-d224fa59fe20
-
 ms.date: 12/05/2018
 ms.keywords: IEnumGUID interface [COM],Next method, IEnumGUID.Next, IEnumGUID::Next, Next, Next method [COM], Next method [COM],IEnumGUID interface, _com_ienumguid_next, com.ienumguid_next, comcat/IEnumGUID::Next
 ms.topic: method
-f1_keywords: 
- - "comcat/IEnumGUID.Next"
+f1_keywords:
+- comcat/IEnumGUID.Next
 dev_langs:
- - c++
+- c++
 req.header: comcat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComCat.h
+- ComCat.h
 api_name:
- - IEnumGUID.Next
+- IEnumGUID.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

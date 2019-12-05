@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationInterpolator.InterpolateValue
 title: IUIAnimationInterpolator::InterpolateValue (uianimation.h)
-
 description: Interpolates the value of an animation variable at the specified offset.
 old-location: uianimation\iuianimationinterpolator_interpolatevalue.htm
 tech.root: UIAnimation
 ms.assetid: 5f1cccd7-8b22-47a3-9704-0f22a1431c99
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateValue method, IUIAnimationInterpolator.InterpolateValue, IUIAnimationInterpolator::InterpolateValue, InterpolateValue, InterpolateValue method [Windows Animation], InterpolateValue method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevalue, uianimation/IUIAnimationInterpolator::InterpolateValue
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationInterpolator.InterpolateValue"
+f1_keywords:
+- uianimation/IUIAnimationInterpolator.InterpolateValue
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator.InterpolateValue
+- IUIAnimationInterpolator.InterpolateValue
 targetos: Windows
 req.typenames: 
 req.redist: 

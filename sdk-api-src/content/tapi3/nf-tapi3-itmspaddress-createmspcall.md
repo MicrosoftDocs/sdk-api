@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITMSPAddress.CreateMSPCall
 title: ITMSPAddress::CreateMSPCall (tapi3.h)
-
 description: The CreateMSPCall method creates an MSP Call object. TAPI aggregates this onto the main Call object and exposes the ITStreamControl interface.
 old-location: tapi3\itmspaddress_createmspcall.htm
 tech.root: Tapi
 ms.assetid: 56ed10e3-e711-43ae-aad6-65a5992fca0f
-
 ms.date: 12/05/2018
 ms.keywords: CreateMSPCall, CreateMSPCall method [TAPI 2.2], CreateMSPCall method [TAPI 2.2],ITMSPAddress interface, ITMSPAddress interface [TAPI 2.2],CreateMSPCall method, ITMSPAddress.CreateMSPCall, ITMSPAddress::CreateMSPCall, _tapi3_itmspaddress_createmspcall, msp/ITMSPAddress::CreateMSPCall, tapi3.itmspaddress_createmspcall
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITMSPAddress.CreateMSPCall"
+f1_keywords:
+- tapi3/ITMSPAddress.CreateMSPCall
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msp.h
+- msp.h
 api_name:
- - ITMSPAddress.CreateMSPCall
+- ITMSPAddress.CreateMSPCall
 targetos: Windows
 req.typenames: 
 req.redist: 

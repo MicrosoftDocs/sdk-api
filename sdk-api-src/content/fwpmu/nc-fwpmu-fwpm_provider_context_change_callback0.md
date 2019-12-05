@@ -1,19 +1,17 @@
 ---
 UID: NC:fwpmu.FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 title: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 (fwpmu.h)
-
 description: Is used to add custom behavior to the provider context change notification process.
 old-location: fwp\fwpm_provider_context_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: 21628bab-ee4d-40e8-8042-97d5462c1013
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0, FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback, FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback function [Filtering], fwp.fwpm_provider_context_change_callback0_func, fwpmu/FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 ms.topic: callback
-f1_keywords: 
- - "fwpmu/FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0"
+f1_keywords:
+- fwpmu/FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Fwpmu.h
+- Fwpmu.h
 api_name:
- - FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
+- FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 targetos: Windows
 req.typenames: 
 req.redist: 

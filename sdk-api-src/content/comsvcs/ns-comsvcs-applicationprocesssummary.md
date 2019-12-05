@@ -1,19 +1,17 @@
 ---
 UID: NS:comsvcs._ApplicationProcessSummary
 title: ApplicationProcessSummary (comsvcs.h)
-
 description: Represents summary information about a process hosting COM+ applications.
 old-location: cos\applicationprocesssummary.htm
 tech.root: cossdk
 ms.assetid: 2402aca6-4992-4c6e-a6ff-b4cc50c57dde
-
 ms.date: 12/05/2018
 ms.keywords: ApplicationProcessSummary, ApplicationProcessSummary structure [COM+], comsvcs/ApplicationProcessSummary, cos.applicationprocesssummary
 ms.topic: struct
-f1_keywords: 
- - "comsvcs/ApplicationProcessSummary"
+f1_keywords:
+- comsvcs/ApplicationProcessSummary
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ApplicationProcessSummary
+- ApplicationProcessSummary
 targetos: Windows
 req.typenames: ApplicationProcessSummary
 req.redist: 

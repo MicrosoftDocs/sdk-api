@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngDeleteEvent
 title: EngDeleteEvent function (winddi.h)
-
 description: The EngDeleteEvent function deletes the specified event object.
 old-location: display\engdeleteevent.htm
 tech.root: display
 ms.assetid: b1db14ed-345f-428e-9338-74c7b230e661
-
 ms.date: 12/05/2018
 ms.keywords: EngDeleteEvent, EngDeleteEvent function [Display Devices], display.engdeleteevent, gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml, winddi/EngDeleteEvent
 ms.topic: function
-f1_keywords: 
- - "winddi/EngDeleteEvent"
+f1_keywords:
+- winddi/EngDeleteEvent
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngDeleteEvent
+- EngDeleteEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:syncmgr.SYNCMGR_PROGRESS_STATUS
 title: SYNCMGR_PROGRESS_STATUS (syncmgr.h)
-
 description: Specifies the current progress status of a synchronization process. Used by ISyncMgrSyncCallback::ReportProgress.
 old-location: shell\SYNCMGR_PROGRESS_STATUS.htm
 tech.root: shell
 ms.assetid: 78622014-643e-4449-b937-a6122a06f470
-
 ms.date: 12/05/2018
 ms.keywords: SYNCMGR_PROGRESS_STATUS, SYNCMGR_PROGRESS_STATUS enumeration [Windows Shell], SYNCMGR_PS_CANCELED, SYNCMGR_PS_DISCONNECTED, SYNCMGR_PS_FAILED, SYNCMGR_PS_MAX, SYNCMGR_PS_SUCCEEDED, SYNCMGR_PS_UPDATING, SYNCMGR_PS_UPDATING_INDETERMINATE, shell.SYNCMGR_PROGRESS_STATUS, shell_SYNCMGR_PROGRESS_STATUS, syncmgr/SYNCMGR_PROGRESS_STATUS, syncmgr/SYNCMGR_PS_CANCELED, syncmgr/SYNCMGR_PS_DISCONNECTED, syncmgr/SYNCMGR_PS_FAILED, syncmgr/SYNCMGR_PS_MAX, syncmgr/SYNCMGR_PS_SUCCEEDED, syncmgr/SYNCMGR_PS_UPDATING, syncmgr/SYNCMGR_PS_UPDATING_INDETERMINATE
 ms.topic: enum
-f1_keywords: 
- - "syncmgr/SYNCMGR_PROGRESS_STATUS"
+f1_keywords:
+- syncmgr/SYNCMGR_PROGRESS_STATUS
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - SYNCMGR_PROGRESS_STATUS
+- SYNCMGR_PROGRESS_STATUS
 targetos: Windows
 req.typenames: SYNCMGR_PROGRESS_STATUS
 req.redist: 

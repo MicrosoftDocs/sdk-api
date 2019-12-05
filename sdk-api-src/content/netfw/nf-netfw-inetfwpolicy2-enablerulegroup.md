@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwPolicy2.EnableRuleGroup
 title: INetFwPolicy2::EnableRuleGroup (netfw.h)
-
 description: Enables or disables a specified group of firewall rules.
 old-location: ics\inetfwpolicy2_enablerulegroup.htm
 tech.root: ics
 ms.assetid: fceb9562-b8de-4ccd-9d3e-4a4a4784a35f
-
 ms.date: 12/05/2018
 ms.keywords: EnableRuleGroup, EnableRuleGroup method [ICS/ICF], EnableRuleGroup method [ICS/ICF],INetFwPolicy2 interface, INetFwPolicy2 interface [ICS/ICF],EnableRuleGroup method, INetFwPolicy2.EnableRuleGroup, INetFwPolicy2::EnableRuleGroup, ics.inetfwpolicy2_enablerulegroup, netfw/INetFwPolicy2::EnableRuleGroup
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwPolicy2.EnableRuleGroup"
+f1_keywords:
+- netfw/INetFwPolicy2.EnableRuleGroup
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FirewallAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
+- FirewallAPI.dll
 api_name:
- - INetFwPolicy2.EnableRuleGroup
+- INetFwPolicy2.EnableRuleGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

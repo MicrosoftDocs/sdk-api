@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12Debug.EnableDebugLayer
 title: ID3D12Debug::EnableDebugLayer (d3d12sdklayers.h)
-
 description: Enables the debug layer.
 old-location: direct3d12\id3d12debug_enabledebuglayer.htm
 tech.root: direct3d12
 ms.assetid: 4C30C7C6-6071-4D69-BAB9-4CF6FED5B7D4
-
 ms.date: 12/05/2018
 ms.keywords: EnableDebugLayer, EnableDebugLayer method, EnableDebugLayer method,ID3D12Debug interface, ID3D12Debug interface,EnableDebugLayer method, ID3D12Debug.EnableDebugLayer, ID3D12Debug::EnableDebugLayer, d3d12sdklayers/ID3D12Debug::EnableDebugLayer, direct3d12.id3d12debug_enabledebuglayer
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12Debug.EnableDebugLayer"
+f1_keywords:
+- d3d12sdklayers/ID3D12Debug.EnableDebugLayer
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12Debug.EnableDebugLayer
+- ID3D12Debug.EnableDebugLayer
 targetos: Windows
 req.typenames: 
 req.redist: 

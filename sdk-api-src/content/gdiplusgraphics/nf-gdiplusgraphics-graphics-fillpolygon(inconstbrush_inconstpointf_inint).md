@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.FillPolygon(IN const Brush,IN const PointF,IN I
 title: Graphics::FillPolygon
 description: The Graphics::FillPolygon method uses a brush to fill the interior of a polygon.
 ms.assetid: d5922fd8-b17d-4a1f-9e1b-3531f0b7d2d0
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::FillPolygon
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::FillPolygon"
+f1_keywords:
+- gdiplusgraphics/Graphics::FillPolygon
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::FillPolygon
+- Graphics::FillPolygon
 ---
 
 # FillPolygon(Brush*,PointF*,INT)

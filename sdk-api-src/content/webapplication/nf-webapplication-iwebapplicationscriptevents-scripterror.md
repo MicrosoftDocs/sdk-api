@@ -1,19 +1,17 @@
 ---
 UID: NF:webapplication.IWebApplicationScriptEvents.ScriptError
 title: IWebApplicationScriptEvents::ScriptError (webapplication.h)
-
 description: Fired when an unhandled script error occurs.
 old-location: debug\iwebapplicationscriptevents_scripterror.htm
 tech.root: debug_wwahost
 ms.assetid: 4f1e6260-804d-4881-b2d8-70a1463a46bd
-
 ms.date: 12/05/2018
 ms.keywords: IWebApplicationScriptEvents interface [Debugging Windows Store apps],ScriptError method, IWebApplicationScriptEvents.ScriptError, IWebApplicationScriptEvents::ScriptError, ScriptError, ScriptError method [Debugging Windows Store apps], ScriptError method [Debugging Windows Store apps],IWebApplicationScriptEvents interface, debug.iwebapplicationscriptevents_scripterror, webapplication/IWebApplicationScriptEvents::ScriptError
 ms.topic: method
-f1_keywords: 
- - "webapplication/IWebApplicationScriptEvents.ScriptError"
+f1_keywords:
+- webapplication/IWebApplicationScriptEvents.ScriptError
 dev_langs:
- - c++
+- c++
 req.header: webapplication.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - webapplication.h
+- webapplication.h
 api_name:
- - IWebApplicationScriptEvents.ScriptError
+- IWebApplicationScriptEvents.ScriptError
 targetos: Windows
 req.typenames: 
 req.redist: 

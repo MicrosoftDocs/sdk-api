@@ -1,19 +1,17 @@
 ---
 UID: NF:virtdisk.GetVirtualDiskMetadata
 title: GetVirtualDiskMetadata function (virtdisk.h)
-
 description: Retrieves the specified metadata from the virtual disk.
 old-location: vstor\getvirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 5dc5cf6e-c218-4aca-a574-499441bd1c12
-
 ms.date: 12/05/2018
 ms.keywords: GetVirtualDiskMetadata, GetVirtualDiskMetadata function [Virtual Storage], virtdisk/GetVirtualDiskMetadata, vstor.getvirtualdiskmetadata
 ms.topic: function
-f1_keywords: 
- - "virtdisk/GetVirtualDiskMetadata"
+f1_keywords:
+- virtdisk/GetVirtualDiskMetadata
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: VirtDisk.lib
 req.dll: VirtDisk.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - VirtDisk.dll
+- VirtDisk.dll
 api_name:
- - GetVirtualDiskMetadata
+- GetVirtualDiskMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.AddPID
 title: IMpeg2TableFilter::AddPID (mpeg2data.h)
-
 description: The AddPID method adds a packet identifier (PID) to the list of PIDs that the filter sends.
 old-location: mstv\impeg2tablefilter_addpid.htm
 tech.root: mstv
 ms.assetid: 7a811d1f-cb1b-4f45-8dee-ba83efd20709
-
 ms.date: 12/05/2018
 ms.keywords: AddPID, AddPID method [Microsoft TV Technologies], AddPID method [Microsoft TV Technologies],IMpeg2TableFilter interface, IMpeg2TableFilter interface [Microsoft TV Technologies],AddPID method, IMpeg2TableFilter.AddPID, IMpeg2TableFilter::AddPID, IMpeg2TableFilterAddPID, mpeg2data/IMpeg2TableFilter::AddPID, mstv.impeg2tablefilter_addpid
 ms.topic: method
-f1_keywords: 
- - "mpeg2data/IMpeg2TableFilter.AddPID"
+f1_keywords:
+- mpeg2data/IMpeg2TableFilter.AddPID
 dev_langs:
- - c++
+- c++
 req.header: mpeg2data.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mpeg2data.h
+- Mpeg2data.h
 api_name:
- - IMpeg2TableFilter.AddPID
+- IMpeg2TableFilter.AddPID
 targetos: Windows
 req.typenames: 
 req.redist: 

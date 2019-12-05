@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection)
 title: Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection) (gdiplusheaders.h)
-
 description: Creates a Font::Font object based on a font family, a size, a font style, a unit of measurement, and a FontCollection object.
 old-location: gdiplus\_gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontconstructors\font_74familyname_emsize_style_unit_fontcolle.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font, Font class [GDI+],Font constructor, Font constructor [GDI+], Font constructor [GDI+],Font class, Font.Font, Font.Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection), Font.Font(const WCHAR*,REAL,INT,Unit,const FontCollection*), Font::Font, Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection), _gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_, gdiplus._gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.Font"
+f1_keywords:
+- gdiplusheaders/Font.Font
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Font.Font
+- Font.Font
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.StackWalk64
 title: StackWalk64 function (dbghelp.h)
-
 description: Obtains a stack trace.
 old-location: base\stackwalk64.htm
 tech.root: Debug
 ms.assetid: e2bdaa4c-5474-41a0-bcea-927570c8402c
-
 ms.date: 12/05/2018
 ms.keywords: IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, StackWalk, StackWalk function, StackWalk64, StackWalk64 function, _win32_stackwalk64, base.stackwalk64, dbghelp/StackWalk, dbghelp/StackWalk64
 ms.topic: function
 f1_keywords:
 - dbghelp/StackWalk64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

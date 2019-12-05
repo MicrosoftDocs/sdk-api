@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMRegisterRevocationList
 title: DRMRegisterRevocationList function (msdrm.h)
-
 description: Registers a rights revocation list on the client.
 old-location: rm\drmregisterrevocationlist.htm
 tech.root: AdRms_Sdk
 ms.assetid: 819a8471-e447-4a4d-ae52-5929350df2c8
-
 ms.date: 12/05/2018
 ms.keywords: DRMRegisterRevocationList, DRMRegisterRevocationList function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMRegisterRevocationList, rm.drmregisterrevocationlist
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMRegisterRevocationList"
+f1_keywords:
+- msdrm/DRMRegisterRevocationList
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMRegisterRevocationList
+- DRMRegisterRevocationList
 targetos: Windows
 req.typenames: 
 req.redist: 

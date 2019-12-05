@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetNativeVideoSize
 title: IMFMediaEngine::GetNativeVideoSize (mfmediaengine.h)
-
 description: Gets the size of the video frame, adjusted for aspect ratio.
 old-location: mf\imfmediaengine_getnativevideosize.htm
 tech.root: medfound
 ms.assetid: 843F09F7-2E8B-4DF7-AF0C-136BB8626779
-
 ms.date: 12/05/2018
 ms.keywords: GetNativeVideoSize, GetNativeVideoSize method [Media Foundation], GetNativeVideoSize method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetNativeVideoSize method, IMFMediaEngine.GetNativeVideoSize, IMFMediaEngine::GetNativeVideoSize, mf.imfmediaengine_getnativevideosize, mfmediaengine/IMFMediaEngine::GetNativeVideoSize
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetNativeVideoSize"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetNativeVideoSize
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetNativeVideoSize
+- IMFMediaEngine.GetNativeVideoSize
 targetos: Windows
 req.typenames: 
 req.redist: 

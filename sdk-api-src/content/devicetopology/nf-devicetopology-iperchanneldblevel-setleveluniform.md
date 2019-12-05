@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.SetLevelUniform
 title: IPerChannelDbLevel::SetLevelUniform (devicetopology.h)
-
 description: The SetLevelUniform method sets all channels in the audio stream to the same uniform volume level, in decibels.
 old-location: coreaudio\iperchanneldblevel_setleveluniform.htm
 tech.root: CoreAudio
 ms.assetid: b78bebcb-d32b-4eda-a805-35d4459b6b4f
-
 ms.date: 12/05/2018
 ms.keywords: IPerChannelDbLevel interface [Core Audio],SetLevelUniform method, IPerChannelDbLevel.SetLevelUniform, IPerChannelDbLevel::SetLevelUniform, IPerChannelDbLevelSetLevelUniform, SetLevelUniform, SetLevelUniform method [Core Audio], SetLevelUniform method [Core Audio],IPerChannelDbLevel interface, coreaudio.iperchanneldblevel_setleveluniform, devicetopology/IPerChannelDbLevel::SetLevelUniform
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPerChannelDbLevel.SetLevelUniform"
+f1_keywords:
+- devicetopology/IPerChannelDbLevel.SetLevelUniform
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPerChannelDbLevel.SetLevelUniform
+- IPerChannelDbLevel.SetLevelUniform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IInstallationAgent
 title: IInstallationAgent (wuapi.h)
-
 description: Records the result for an update.
 old-location: wua\iinstallationagent.htm
 tech.root: Wua_Sdk
 ms.assetid: B24B527C-D92B-4BEB-ADCC-5E2BA684A478
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationAgent, IInstallationAgent interface [Windows Update Agent], IInstallationAgent interface [Windows Update Agent],described, wua.iinstallationagent, wuapi/IInstallationAgent
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IInstallationAgent"
+f1_keywords:
+- wuapi/IInstallationAgent
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationAgent
+- IInstallationAgent
 targetos: Windows
 req.typenames: 
 req.redist: 

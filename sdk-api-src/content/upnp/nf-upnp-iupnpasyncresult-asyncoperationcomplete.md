@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPAsyncResult.AsyncOperationComplete
 title: IUPnPAsyncResult::AsyncOperationComplete (upnp.h)
-
 description: AsyncOperationComplete callback method provides notification of the completion of an asynchronous I/O operation.
 old-location: upnp\iupnpasyncresult_asyncoperationcomplete.htm
 tech.root: upnp
 ms.assetid: C71C0A78-C3D1-4725-99E2-542786B03C8F
-
 ms.date: 12/05/2018
 ms.keywords: AsyncOperationComplete, AsyncOperationComplete method [UPnP APIs], AsyncOperationComplete method [UPnP APIs],IUPnPAsyncResult interface, IUPnPAsyncResult interface [UPnP APIs],AsyncOperationComplete method, IUPnPAsyncResult.AsyncOperationComplete, IUPnPAsyncResult::AsyncOperationComplete, upnp.iupnpasyncresult_asyncoperationcomplete, upnp/IUPnPAsyncResult::AsyncOperationComplete
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPAsyncResult.AsyncOperationComplete"
+f1_keywords:
+- upnp/IUPnPAsyncResult.AsyncOperationComplete
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPAsyncResult.AsyncOperationComplete
+- IUPnPAsyncResult.AsyncOperationComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

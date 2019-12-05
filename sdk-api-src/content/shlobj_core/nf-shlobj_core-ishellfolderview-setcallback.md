@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetCallback
 title: IShellFolderView::SetCallback (shlobj_core.h)
-
 description: IShellFolderView::SetCallback may be altered or unavailable.
 old-location: shell\IShellFolderView_SetCallback.htm
 tech.root: shell
 ms.assetid: 3438f4ba-e7f1-46b1-b85d-0e880615bb12
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetCallback method, IShellFolderView.SetCallback, IShellFolderView::SetCallback, SetCallback, SetCallback method [Windows Shell], SetCallback method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetCallback, shell.IShellFolderView_SetCallback, shlobj_core/IShellFolderView::SetCallback
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellFolderView.SetCallback"
+f1_keywords:
+- shlobj_core/IShellFolderView.SetCallback
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shlobj_core.h
+- Shlobj_core.h
 api_name:
- - IShellFolderView.SetCallback
+- IShellFolderView.SetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

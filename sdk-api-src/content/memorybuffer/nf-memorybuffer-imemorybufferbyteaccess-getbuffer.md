@@ -1,19 +1,17 @@
 ---
 UID: NF:memorybuffer.IMemoryBufferByteAccess.GetBuffer
 title: IMemoryBufferByteAccess::GetBuffer (memorybuffer.h)
-
 description: Gets an IMemoryBuffer as an array of bytes.
 old-location: winrt\imemorybufferbyteaccess_getbuffer.htm
 tech.root: WinRT
 ms.assetid: E9C2AF2D-ADBE-4D76-A549-2DBCB9818B09
-
 ms.date: 12/05/2018
 ms.keywords: GetBuffer, GetBuffer method [Windows Runtime], GetBuffer method [Windows Runtime],IMemoryBufferByteAccess interface, IMemoryBufferByteAccess interface [Windows Runtime],GetBuffer method, IMemoryBufferByteAccess.GetBuffer, IMemoryBufferByteAccess::GetBuffer, memorybuffer/IMemoryBufferByteAccess::GetBuffer, winrt.imemorybufferbyteaccess_getbuffer
 ms.topic: method
-f1_keywords: 
- - "memorybuffer/IMemoryBufferByteAccess.GetBuffer"
+f1_keywords:
+- memorybuffer/IMemoryBufferByteAccess.GetBuffer
 dev_langs:
- - c++
+- c++
 req.header: memorybuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - memorybuffer.h
+- memorybuffer.h
 api_name:
- - IMemoryBufferByteAccess.GetBuffer
+- IMemoryBufferByteAccess.GetBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shcore.CreateRandomAccessStreamOnFile
 title: CreateRandomAccessStreamOnFile function (shcore.h)
-
 description: Creates a Windows Runtime random access stream for a file.
 old-location: winrt\createrandomaccessstreamonfile.htm
 tech.root: WinRT
 ms.assetid: 6D3D2B25-7373-4BA5-BF6B-FB461C2DE982
-
 ms.date: 12/05/2018
 ms.keywords: CreateRandomAccessStreamOnFile, CreateRandomAccessStreamOnFile function [Windows Runtime], shcore/CreateRandomAccessStreamOnFile, winrt.createrandomaccessstreamonfile
 ms.topic: function
-f1_keywords: 
- - "shcore/CreateRandomAccessStreamOnFile"
+f1_keywords:
+- shcore/CreateRandomAccessStreamOnFile
 dev_langs:
- - c++
+- c++
 req.header: shcore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shcore.lib
 req.dll: Shcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - shcore.dll
- - API-MS-Win-ShCore-stream-WinRT-l1-1-0.dll
+- shcore.dll
+- API-MS-Win-ShCore-stream-WinRT-l1-1-0.dll
 api_name:
- - CreateRandomAccessStreamOnFile
+- CreateRandomAccessStreamOnFile
 targetos: Windows
 req.typenames: 
 req.redist: 

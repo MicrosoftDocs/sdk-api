@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IEnumNames.Skip
 title: IEnumNames::Skip (comsvcs.h)
-
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: cos\ienumnames_skip.htm
 tech.root: cossdk
 ms.assetid: e45da100-688a-421e-a8cd-19fede5aac83
-
 ms.date: 12/05/2018
 ms.keywords: IEnumNames interface [COM+],Skip method, IEnumNames.Skip, IEnumNames::Skip, Skip, Skip method [COM+], Skip method [COM+],IEnumNames interface, _cos_IEnumNames_Skip, comsvcs/IEnumNames::Skip, cos.ienumnames_skip
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IEnumNames.Skip"
+f1_keywords:
+- comsvcs/IEnumNames.Skip
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IEnumNames.Skip
+- IEnumNames.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

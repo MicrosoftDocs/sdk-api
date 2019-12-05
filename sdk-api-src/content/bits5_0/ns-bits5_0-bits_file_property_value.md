@@ -1,19 +1,17 @@
 ---
 UID: NS:bits5_0.__MIDL___MIDL_itf_bits5_0_0000_0000_0002
 title: BITS_FILE_PROPERTY_VALUE
-
 description: Provides the property value of a BITS file.
 old-location: bits\bits_file_property_value.htm
 tech.root: Bits
 ms.assetid: 0296014d-d5cc-40f0-a3d3-93d8ea704ce5
-
 ms.date: 12/05/2018
 ms.keywords: BITS_FILE_PROPERTY_VALUE, BITS_FILE_PROPERTY_VALUE union [BITS], bits.bits_file_property_value, bits5_0/BITS_FILE_PROPERTY_VALUE
 ms.topic: struct
-f1_keywords: 
- - "bits5_0/BITS_FILE_PROPERTY_VALUE"
+f1_keywords:
+- bits5_0/BITS_FILE_PROPERTY_VALUE
 dev_langs:
- - c++
+- c++
 req.header: bits5_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bits5_0.h
+- Bits5_0.h
 api_name:
- - BITS_FILE_PROPERTY_VALUE
+- BITS_FILE_PROPERTY_VALUE
 targetos: Windows
 req.typenames: BITS_FILE_PROPERTY_VALUE
 req.redist: 

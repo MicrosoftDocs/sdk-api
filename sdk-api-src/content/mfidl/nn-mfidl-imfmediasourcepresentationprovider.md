@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFMediaSourcePresentationProvider
 title: IMFMediaSourcePresentationProvider (mfidl.h)
-
 description: Provides notifications to the sequencer source.
 old-location: mf\imfmediasourcepresentationprovider.htm
 tech.root: medfound
 ms.assetid: b6b36324-a315-42a0-bdbf-8d2cec6cde3f
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSourcePresentationProvider, IMFMediaSourcePresentationProvider interface [Media Foundation], IMFMediaSourcePresentationProvider interface [Media Foundation],described, b6b36324-a315-42a0-bdbf-8d2cec6cde3f, mf.imfmediasourcepresentationprovider, mfidl/IMFMediaSourcePresentationProvider
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFMediaSourcePresentationProvider"
+f1_keywords:
+- mfidl/IMFMediaSourcePresentationProvider
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSourcePresentationProvider
+- IMFMediaSourcePresentationProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

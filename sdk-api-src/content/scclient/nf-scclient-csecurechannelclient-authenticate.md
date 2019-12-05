@@ -1,19 +1,17 @@
 ---
 UID: NF:scclient.CSecureChannelClient.Authenticate
 title: CSecureChannelClient::Authenticate (scclient.h)
-
 description: The Authenticate method authenticates communication between components to establish trust.
 old-location: wmdm\csecurechannelclient_authenticate.htm
 tech.root: WMDM
 ms.assetid: ce96b39f-13f8-47c8-affd-2094cf25f057
-
 ms.date: 12/05/2018
 ms.keywords: Authenticate, Authenticate method [windows Media Device Manager], Authenticate method [windows Media Device Manager],CSecureChannelClient class, CSecureChannelClient class [windows Media Device Manager],Authenticate method, CSecureChannelClient.Authenticate, CSecureChannelClient::Authenticate, CSecureChannelClientAuthenticate, scclient/CSecureChannelClient::Authenticate, wmdm.csecurechannelclient_authenticate
 ms.topic: method
-f1_keywords: 
- - "scclient/CSecureChannelClient.Authenticate"
+f1_keywords:
+- scclient/CSecureChannelClient.Authenticate
 dev_langs:
- - c++
+- c++
 req.header: scclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - CSecureChannelClient.Authenticate
+- CSecureChannelClient.Authenticate
 targetos: Windows
 req.typenames: 
 req.redist: 

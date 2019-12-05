@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.VisualEffects
 title: VisualEffects (uiautomationcore.h)
-
 description: Contains values for the VisualEffects attribute.
 old-location: winauto\uiauto_VisualEffectsEnum.htm
 tech.root: WinAuto
 ms.assetid: 961C2064-F896-4ECD-9529-71A1656EE0EE
-
 ms.date: 12/05/2018
 ms.keywords: VisualEffects, VisualEffects enumeration [Windows Accessibility], VisualEffects_Bevel, VisualEffects_Glow, VisualEffects_None, VisualEffects_Reflection, VisualEffects_Shadow, VisualEffects_SoftEdges, uiautomationcore/VisualEffects, uiautomationcore/VisualEffects_Bevel, uiautomationcore/VisualEffects_Glow, uiautomationcore/VisualEffects_None, uiautomationcore/VisualEffects_Reflection, uiautomationcore/VisualEffects_Shadow, uiautomationcore/VisualEffects_SoftEdges, winauto.uiauto_VisualEffectsEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/VisualEffects"
+f1_keywords:
+- uiautomationcore/VisualEffects
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - VisualEffects
+- VisualEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

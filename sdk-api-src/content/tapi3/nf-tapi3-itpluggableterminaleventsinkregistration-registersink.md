@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3.ITPluggableTerminalEventSinkRegistration.RegisterSink
 title: ITPluggableTerminalEventSinkRegistration::RegisterSink (tapi3.h)
-
 description: The RegisterSink method registers the application for pluggable terminal event notification.
 old-location: tapi3\itpluggableterminaleventsinkregistration_registersink.htm
 tech.root: Tapi
 ms.assetid: 4887d299-8c63-4ead-b456-e80417e6ec56
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalEventSinkRegistration interface [TAPI 2.2],RegisterSink method, ITPluggableTerminalEventSinkRegistration.RegisterSink, ITPluggableTerminalEventSinkRegistration::RegisterSink, RegisterSink, RegisterSink method [TAPI 2.2], RegisterSink method [TAPI 2.2],ITPluggableTerminalEventSinkRegistration interface, _tapi3_itpluggableterminaleventsinkregistration_registersink, msp/ITPluggableTerminalEventSinkRegistration::RegisterSink, tapi3.itpluggableterminaleventsinkregistration_registersink
 ms.topic: method
-f1_keywords: 
- - "tapi3/ITPluggableTerminalEventSinkRegistration.RegisterSink"
+f1_keywords:
+- tapi3/ITPluggableTerminalEventSinkRegistration.RegisterSink
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalEventSinkRegistration.RegisterSink
+- ITPluggableTerminalEventSinkRegistration.RegisterSink
 targetos: Windows
 req.typenames: 
 req.redist: 

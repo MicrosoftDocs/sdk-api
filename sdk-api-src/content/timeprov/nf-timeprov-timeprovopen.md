@@ -1,19 +1,17 @@
 ---
 UID: NF:timeprov.TimeProvOpen
 title: TimeProvOpen function (timeprov.h)
-
 description: A callback function that is called by the time provider manager when the time provider DLL is loaded.
 old-location: base\timeprovopen.htm
 tech.root: SysInfo
 ms.assetid: cf4f8d00-4c6f-4036-a179-444ff7505ab4
-
 ms.date: 12/05/2018
 ms.keywords: TimeProvOpen, TimeProvOpen callback, TimeProvOpen callback function, _win32_timeprovopen, base.timeprovopen, timeprov/TimeProvOpen
 ms.topic: function
-f1_keywords: 
- - "timeprov/TimeProvOpen"
+f1_keywords:
+- timeprov/TimeProvOpen
 dev_langs:
- - c++
+- c++
 req.header: timeprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Timeprov.h
+- Timeprov.h
 api_name:
- - TimeProvOpen
+- TimeProvOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyChangeArray
 title: IPropertyChangeArray (propsys.h)
-
 description: Exposes methods for several multiple change operations that may be passed to IFileOperation.
 old-location: properties\IPropertyChangeArray.htm
 tech.root: properties
 ms.assetid: c7de40d0-9fe6-4c4b-ba17-c4648501ce0a
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyChangeArray, IPropertyChangeArray interface [Windows Properties], IPropertyChangeArray interface [Windows Properties],described, _shell_IPropertyChangeArray, properties.IPropertyChangeArray, propsys/IPropertyChangeArray, shell.IPropertyChangeArray
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyChangeArray"
+f1_keywords:
+- propsys/IPropertyChangeArray
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyChangeArray
+- IPropertyChangeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

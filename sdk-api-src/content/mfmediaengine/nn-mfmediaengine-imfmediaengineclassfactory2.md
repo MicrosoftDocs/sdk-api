@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineClassFactory2
 title: IMFMediaEngineClassFactory2 (mfmediaengine.h)
-
 description: Creates an instance of the IMFMediaKeys object.
 old-location: mf\imfmediaengineclassfactory2.htm
 tech.root: medfound
 ms.assetid: 161CFCBF-BBAE-4590-8545-D916EC1885D8
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaEngineClassFactory2, IMFMediaEngineClassFactory2 interface [Media Foundation], IMFMediaEngineClassFactory2 interface [Media Foundation],described, mf.imfmediaengineclassfactory2, mfmediaengine/IMFMediaEngineClassFactory2
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineClassFactory2"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineClassFactory2
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactory2
+- IMFMediaEngineClassFactory2
 targetos: Windows
 req.typenames: 
 req.redist: 

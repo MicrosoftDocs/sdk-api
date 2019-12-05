@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IPartsList
 title: IPartsList (devicetopology.h)
-
 description: The IPartsList interface represents a list of parts, each of which is an object with an IPart interface that represents a connector or subunit.
 old-location: coreaudio\ipartslist.htm
 tech.root: CoreAudio
 ms.assetid: 3ac48781-90c2-4b23-aa68-3453091bde61
-
 ms.date: 12/05/2018
 ms.keywords: IPartsList, IPartsList interface [Core Audio], IPartsList interface [Core Audio],described, coreaudio.ipartslist, devicetopology/IPartsList
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IPartsList"
+f1_keywords:
+- devicetopology/IPartsList
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPartsList
+- IPartsList
 targetos: Windows
 req.typenames: 
 req.redist: 

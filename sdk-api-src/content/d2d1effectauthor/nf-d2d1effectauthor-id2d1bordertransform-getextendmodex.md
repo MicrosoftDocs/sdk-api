@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BorderTransform.GetExtendModeX
 title: ID2D1BorderTransform::GetExtendModeX (d2d1effectauthor.h)
-
 description: Gets the extend mode in the x direction.
 old-location: direct2d\id2d1bordertransform_getextendmodex.htm
 tech.root: Direct2D
 ms.assetid: FAF8DE8A-3A05-496F-A03B-971DFDCF669E
-
 ms.date: 12/05/2018
 ms.keywords: GetExtendModeX, GetExtendModeX method [Direct2D], GetExtendModeX method [Direct2D],ID2D1BorderTransform interface, ID2D1BorderTransform interface [Direct2D],GetExtendModeX method, ID2D1BorderTransform.GetExtendModeX, ID2D1BorderTransform::GetExtendModeX, d2d1effectauthor/ID2D1BorderTransform::GetExtendModeX, direct2d.id2d1bordertransform_getextendmodex
 ms.topic: method
-f1_keywords: 
- - "d2d1effectauthor/ID2D1BorderTransform.GetExtendModeX"
+f1_keywords:
+- d2d1effectauthor/ID2D1BorderTransform.GetExtendModeX
 dev_langs:
- - c++
+- c++
 req.header: d2d1effectauthor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D2d1.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d2d1.lib
- - d2d1.dll
+- d2d1.lib
+- d2d1.dll
 api_name:
- - ID2D1BorderTransform.GetExtendModeX
+- ID2D1BorderTransform.GetExtendModeX
 targetos: Windows
 req.typenames: 
 req.redist: 

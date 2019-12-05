@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileIsInUse.GetUsage
 title: IFileIsInUse::GetUsage (shobjidl_core.h)
-
 description: Gets a value that indicates how the file in use is being used.
 old-location: shell\IFileIsInUse_GetUsage.htm
 tech.root: shell
 ms.assetid: 7baba34d-b246-4d48-9f0c-e950d33ed5cf
-
 ms.date: 12/05/2018
 ms.keywords: GetUsage, GetUsage method [Windows Shell], GetUsage method [Windows Shell],IFileIsInUse interface, IFileIsInUse interface [Windows Shell],GetUsage method, IFileIsInUse.GetUsage, IFileIsInUse::GetUsage, _shell_IFileIsInUse_GetUsage, shell.IFileIsInUse_GetUsage, shobjidl_core/IFileIsInUse::GetUsage
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileIsInUse.GetUsage"
+f1_keywords:
+- shobjidl_core/IFileIsInUse.GetUsage
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileIsInUse.GetUsage
+- IFileIsInUse.GetUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

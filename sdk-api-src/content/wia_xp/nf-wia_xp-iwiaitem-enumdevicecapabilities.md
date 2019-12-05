@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaItem.EnumDeviceCapabilities
 title: IWiaItem::EnumDeviceCapabilities (wia_xp.h)
-
 description: The IWiaItem::EnumDeviceCapabilities method creates an enumerator that is used to ascertain the commands and events a Windows Image Acquisition (WIA) device supports.
 old-location: wia\_wia_IWiaItem_EnumDeviceCapabilities.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\enumdevicecapabilities.htm
-
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceCapabilities, EnumDeviceCapabilities method [WIA], EnumDeviceCapabilities method [WIA],IWiaItem interface, IWiaItem interface [WIA],EnumDeviceCapabilities method, IWiaItem.EnumDeviceCapabilities, IWiaItem::EnumDeviceCapabilities, _wia_IWiaItem_EnumDeviceCapabilities, wia._wia_IWiaItem_EnumDeviceCapabilities, wia_xp/IWiaItem::EnumDeviceCapabilities
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaItem.EnumDeviceCapabilities"
+f1_keywords:
+- wia_xp/IWiaItem.EnumDeviceCapabilities
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItem.EnumDeviceCapabilities
+- IWiaItem.EnumDeviceCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

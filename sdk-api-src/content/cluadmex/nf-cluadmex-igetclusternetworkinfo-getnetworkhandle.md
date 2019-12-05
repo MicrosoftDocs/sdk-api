@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterNetworkInfo.GetNetworkHandle
 title: IGetClusterNetworkInfo::GetNetworkHandle (cluadmex.h)
-
 description: Retrieves a handle to a network.
 old-location: mscs\igetclusternetworkinfo_getnetworkhandle.htm
 tech.root: MsCS
 ms.assetid: 596ebdb3-c4c1-4186-ac6b-e6a7d4a61688
-
 ms.date: 12/05/2018
 ms.keywords: GetNetworkHandle, GetNetworkHandle method [Failover Cluster], GetNetworkHandle method [Failover Cluster],IGetClusterNetworkInfo interface, IGetClusterNetworkInfo interface [Failover Cluster],GetNetworkHandle method, IGetClusterNetworkInfo.GetNetworkHandle, IGetClusterNetworkInfo::GetNetworkHandle, _wolf_igetclusternetworkinfo_getnetworkhandle, cluadmex/IGetClusterNetworkInfo::GetNetworkHandle, mscs.igetclusternetworkinfo_getnetworkhandle
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterNetworkInfo.GetNetworkHandle"
+f1_keywords:
+- cluadmex/IGetClusterNetworkInfo.GetNetworkHandle
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterNetworkInfo.GetNetworkHandle
+- IGetClusterNetworkInfo.GetNetworkHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.GetPrimarySamples
 title: IDeviceModelPlugIn::GetPrimarySamples (wcsplugin.h)
-
 description: Returns the measurement color for the primary sample.
 old-location: wcs\IDeviceModelPlugIn_GetPrimarySamples.htm
 tech.root: WCS
 ms.assetid: 46253246-e07c-4f55-92fa-91941abaefcd
-
 ms.date: 12/05/2018
 ms.keywords: GetPrimarySamples, GetPrimarySamples method [Windows Color System], GetPrimarySamples method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],GetPrimarySamples method, IDeviceModelPlugIn.GetPrimarySamples, IDeviceModelPlugIn::GetPrimarySamples, _color_IDeviceModelPlugIn::GetPrimarySamples, wcs.IDeviceModelPlugIn_GetPrimarySamples, wcsplugin/IDeviceModelPlugIn::GetPrimarySamples
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IDeviceModelPlugIn.GetPrimarySamples"
+f1_keywords:
+- wcsplugin/IDeviceModelPlugIn.GetPrimarySamples
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.GetPrimarySamples
+- IDeviceModelPlugIn.GetPrimarySamples
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:vmr9.__MIDL___MIDL_itf_vmr9_0000_0010_0001
 title: VMR9Mode (vmr9.h)
-
 description: The VMR9Mode enumeration type specifies the rendering mode of the Video Mixing Renderer 9 (VMR-9) filter.
 old-location: dshow\vmr9mode.htm
 tech.root: DirectShow
 ms.assetid: 708c45e4-e92b-4fe5-900f-7cd806011f5e
-
 ms.date: 12/05/2018
 ms.keywords: VMR9Mode, VMR9Mode , VMR9Mode enumeration [DirectShow], VMR9ModeEnumeration, VMR9Mode_Mask, VMR9Mode_Renderless, VMR9Mode_Windowed, VMR9Mode_Windowless, dshow.vmr9mode, enumeration [DirectShow], vmr9/VMR9Mode, vmr9/VMR9Mode_Mask, vmr9/VMR9Mode_Renderless, vmr9/VMR9Mode_Windowed, vmr9/VMR9Mode_Windowless
 ms.topic: enum
-f1_keywords: 
- - "vmr9/VMR9Mode"
+f1_keywords:
+- vmr9/VMR9Mode
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vmr9.h
+- Vmr9.h
 api_name:
- - VMR9Mode
+- VMR9Mode
 targetos: Windows
 req.typenames: VMR9Mode
 req.redist: 

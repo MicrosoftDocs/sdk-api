@@ -1,19 +1,17 @@
 ---
 UID: NN:oleacc.IAccPropServer
 title: IAccPropServer (oleacc.h)
-
 description: Exposes a method that retrieves a property value for an accessible element.
 old-location: winauto\iaccpropserver.htm
 tech.root: WinAuto
 ms.assetid: e82dfa58-9b36-4e42-9275-c09bad7bc730
-
 ms.date: 12/05/2018
 ms.keywords: IAccPropServer, IAccPropServer interface [Windows Accessibility], IAccPropServer interface [Windows Accessibility],described, msaa.iaccpropserver, oleacc/IAccPropServer, winauto.iaccpropserver
 ms.topic: interface
-f1_keywords: 
- - "oleacc/IAccPropServer"
+f1_keywords:
+- oleacc/IAccPropServer
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oleacc.h
+- oleacc.h
 api_name:
- - IAccPropServer
+- IAccPropServer
 targetos: Windows
 req.typenames: 
 req.redist: 

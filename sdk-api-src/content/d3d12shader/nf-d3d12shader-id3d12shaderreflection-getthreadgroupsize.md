@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflection.GetThreadGroupSize
 title: ID3D12ShaderReflection::GetThreadGroupSize (d3d12shader.h)
-
 description: Retrieves the sizes, in units of threads, of the X, Y, and Z dimensions of the shader's thread-group grid.
 old-location: direct3d12\id3d12shaderreflection_getthreadgroupsize.htm
 tech.root: direct3d12
 ms.assetid: C34A76B7-2410-4F0D-B2EC-8C62CD70DFE0
-
 ms.date: 12/05/2018
 ms.keywords: GetThreadGroupSize, GetThreadGroupSize method, GetThreadGroupSize method,ID3D12ShaderReflection interface, ID3D12ShaderReflection interface,GetThreadGroupSize method, ID3D12ShaderReflection.GetThreadGroupSize, ID3D12ShaderReflection::GetThreadGroupSize, d3d12shader/ID3D12ShaderReflection::GetThreadGroupSize, direct3d12.id3d12shaderreflection_getthreadgroupsize
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflection.GetThreadGroupSize"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflection.GetThreadGroupSize
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflection.GetThreadGroupSize
+- ID3D12ShaderReflection.GetThreadGroupSize
 targetos: Windows
 req.typenames: 
 req.redist: 

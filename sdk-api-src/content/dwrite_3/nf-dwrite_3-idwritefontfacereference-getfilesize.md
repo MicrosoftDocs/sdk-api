@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetFileSize
 title: IDWriteFontFaceReference::GetFileSize (dwrite_3.h)
-
 description: Get the total size of the font face in bytes.
 old-location: directwrite\idwritefontfacereference_getfilesize.htm
 tech.root: DirectWrite
 ms.assetid: 7988e724-2ccb-b182-8262-dacee1aa1f96
-
 ms.date: 12/05/2018
 ms.keywords: GetFileSize, GetFileSize method [Direct Write], GetFileSize method [Direct Write],IDWriteFontFaceReference interface, IDWriteFontFaceReference interface [Direct Write],GetFileSize method, IDWriteFontFaceReference.GetFileSize, IDWriteFontFaceReference::GetFileSize, directwrite.idwritefontfacereference_getfilesize, dwrite_3/IDWriteFontFaceReference::GetFileSize
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference.GetFileSize"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference.GetFileSize
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFaceReference.GetFileSize
+- IDWriteFontFaceReference.GetFileSize
 targetos: Windows
 req.typenames: 
 req.redist: 

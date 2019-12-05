@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_QueryInterface
 title: CStdAsyncStubBuffer_QueryInterface function (rpcproxy.h)
-
 description: Implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdasyncstubbuffer_queryinterface.htm
 tech.root: Rpc
 ms.assetid: 97AC8AA9-7C82-40B8-BF29-82A0E742E96C
-
 ms.date: 12/05/2018
 ms.keywords: CStdAsyncStubBuffer_QueryInterface, CStdAsyncStubBuffer_QueryInterface function [RPC], rpc.cstdasyncstubbuffer_queryinterface, rpcproxy/CStdAsyncStubBuffer_QueryInterface
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdAsyncStubBuffer_QueryInterface"
+f1_keywords:
+- rpcproxy/CStdAsyncStubBuffer_QueryInterface
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ole32.dll
- - API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
- - COMBase.dll
+- ole32.dll
+- API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
+- COMBase.dll
 api_name:
- - CStdAsyncStubBuffer_QueryInterface
+- CStdAsyncStubBuffer_QueryInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

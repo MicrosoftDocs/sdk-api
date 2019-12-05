@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSensorActivityReport.GetSymbolicLink
 title: IMFSensorActivityReport::GetSymbolicLink (mfidl.h)
-
 description: Gets the symbolic link for the sensor associated with the report.
 old-location: mf\imfsensoractivityreport_getsymboliclink.htm
 tech.root: medfound
 ms.assetid: BF0BDB21-DE87-4177-A94F-8BA8FD571B02
-
 ms.date: 12/05/2018
 ms.keywords: GetSymbolicLink, GetSymbolicLink method [Media Foundation], GetSymbolicLink method [Media Foundation],IMFSensorActivityReport interface, IMFSensorActivityReport interface [Media Foundation],GetSymbolicLink method, IMFSensorActivityReport.GetSymbolicLink, IMFSensorActivityReport::GetSymbolicLink, mf.imfsensoractivityreport_getsymboliclink, mfidl/IMFSensorActivityReport::GetSymbolicLink
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSensorActivityReport.GetSymbolicLink"
+f1_keywords:
+- mfidl/IMFSensorActivityReport.GetSymbolicLink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorActivityReport.GetSymbolicLink
+- IMFSensorActivityReport.GetSymbolicLink
 targetos: Windows
 req.typenames: 
 req.redist: 

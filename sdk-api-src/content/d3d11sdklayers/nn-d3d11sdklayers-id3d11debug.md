@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11sdklayers.ID3D11Debug
 title: ID3D11Debug (d3d11sdklayers.h)
-
 description: A debug interface controls debug settings, validates pipeline state and can only be used if the debug layer is turned on.
 old-location: direct3d11\id3d11debug.htm
 tech.root: direct3d11
 ms.assetid: 2c640295-7a91-4a7a-92d3-909d288eb0d6
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11Debug, ID3D11Debug interface [Direct3D 11], ID3D11Debug interface [Direct3D 11],described, b037763f-251a-579c-a6cb-8e5097410d05, d3d11sdklayers/ID3D11Debug, direct3d11.id3d11debug
 ms.topic: interface
-f1_keywords: 
- - "d3d11sdklayers/ID3D11Debug"
+f1_keywords:
+- d3d11sdklayers/ID3D11Debug
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Debug
+- ID3D11Debug
 targetos: Windows
 req.typenames: 
 req.redist: 

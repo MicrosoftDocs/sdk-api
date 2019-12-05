@@ -1,19 +1,17 @@
 ---
 UID: NN:windowsstoragecom.IUnbufferedFileHandleProvider
 title: IUnbufferedFileHandleProvider (windowsstoragecom.h)
-
 description: Provides access to handles from a random-access byte stream that the StorageFile.OpenAsync method created.
 old-location: winrt\iunbufferedfilehandleprovider.htm
 tech.root: WinRT
 ms.assetid: 9716B7ED-8E2C-4B7F-B9C9-39A755615CB3
-
 ms.date: 12/05/2018
 ms.keywords: IUnbufferedFileHandleProvider, IUnbufferedFileHandleProvider interface [Windows Runtime], IUnbufferedFileHandleProvider interface [Windows Runtime],described, windowsstoragecom/IUnbufferedFileHandleProvider, winrt.iunbufferedfilehandleprovider
 ms.topic: interface
-f1_keywords: 
- - "windowsstoragecom/IUnbufferedFileHandleProvider"
+f1_keywords:
+- windowsstoragecom/IUnbufferedFileHandleProvider
 dev_langs:
- - c++
+- c++
 req.header: windowsstoragecom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windows.storage.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.storage.dll
+- windows.storage.dll
 api_name:
- - IUnbufferedFileHandleProvider
+- IUnbufferedFileHandleProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

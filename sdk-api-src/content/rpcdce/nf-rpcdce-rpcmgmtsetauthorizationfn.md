@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetAuthorizationFn
 title: RpcMgmtSetAuthorizationFn function (rpcdce.h)
-
 description: The RpcMgmtSetAuthorizationFn function establishes an authorization function for processing remote calls to a server's management functions.
 old-location: rpc\rpcmgmtsetauthorizationfn.htm
 tech.root: Rpc
 ms.assetid: bb381a52-17e4-4ebe-9a1a-a561c12d73d4
-
 ms.date: 12/05/2018
 ms.keywords: RpcMgmtSetAuthorizationFn, RpcMgmtSetAuthorizationFn function [RPC], _rpc_rpcmgmtsetauthorizationfn, rpc.rpcmgmtsetauthorizationfn, rpcdce/RpcMgmtSetAuthorizationFn
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcMgmtSetAuthorizationFn"
+f1_keywords:
+- rpcdce/RpcMgmtSetAuthorizationFn
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcMgmtSetAuthorizationFn
+- RpcMgmtSetAuthorizationFn
 targetos: Windows
 req.typenames: 
 req.redist: 

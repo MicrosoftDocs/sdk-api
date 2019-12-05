@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.PreDisconnect
 title: IWRdsProtocolConnection::PreDisconnect (wtsprotocol.h)
-
 description: Notifies the protocol that the session is about to be disconnected.
 old-location: termserv\iwrdsprotocolconnection_predisconnect.htm
 tech.root: TermServ
 ms.assetid: 988032B5-94AA-40ED-B571-E7C2E652D023
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection interface [Remote Desktop Services],PreDisconnect method, IWRdsProtocolConnection.PreDisconnect, IWRdsProtocolConnection::PreDisconnect, PreDisconnect, PreDisconnect method [Remote Desktop Services], PreDisconnect method [Remote Desktop Services],IWRdsProtocolConnection interface, termserv.iwrdsprotocolconnection_predisconnect, wtsprotocol/IWRdsProtocolConnection::PreDisconnect
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection.PreDisconnect"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection.PreDisconnect
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection.PreDisconnect
+- IWRdsProtocolConnection.PreDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

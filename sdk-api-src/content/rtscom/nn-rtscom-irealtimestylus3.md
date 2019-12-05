@@ -1,19 +1,17 @@
 ---
 UID: NN:rtscom.IRealTimeStylus3
 title: IRealTimeStylus3 (rtscom.h)
-
 description: The IRealTimeStylus3 interface enables multitouch for the realtime stylus.
 old-location: tablet\irealtimestylus3.htm
 tech.root: tablet
 ms.assetid: 93eabb45-0b0e-495f-9b64-43ad8060b958
-
 ms.date: 12/05/2018
 ms.keywords: IRealTimeStylus3, IRealTimeStylus3 interface [Tablet PC], IRealTimeStylus3 interface [Tablet PC],described, rtscom/IRealTimeStylus3, tablet.irealtimestylus3
 ms.topic: interface
-f1_keywords: 
- - "rtscom/IRealTimeStylus3"
+f1_keywords:
+- rtscom/IRealTimeStylus3
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rtscom.h
+- rtscom.h
 api_name:
- - IRealTimeStylus3
+- IRealTimeStylus3
 targetos: Windows
 req.typenames: 
 req.redist: 

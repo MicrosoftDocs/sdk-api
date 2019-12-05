@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkRenderer
 title: IInkRenderer (msinkaut.h)
-
-description: "."
+description: .
 old-location: tablet\iinkrenderer.htm
 tech.root: tablet
 ms.assetid: 2AB56616-3F67-4428-8A99-FCE733A5FDBF
-
 ms.date: 12/05/2018
 ms.keywords: IInkRenderer, IInkRenderer interface [Tablet PC], IInkRenderer interface [Tablet PC],described, msinkaut/IInkRenderer, tablet.iinkrenderer
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkRenderer"
+f1_keywords:
+- msinkaut/IInkRenderer
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msinkaut.h
+- msinkaut.h
 api_name:
- - IInkRenderer
+- IInkRenderer
 targetos: Windows
 req.typenames: 
 req.redist: 

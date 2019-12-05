@@ -1,19 +1,17 @@
 ---
 UID: NF:unknwnbase.IUnknown_Release_Proxy
 title: IUnknown_Release_Proxy function (unknwnbase.h)
-
 description: The IUnknown_Release_Proxy function implements the Release method for all interface proxies.
 old-location: rpc\iunknown_release_proxy.htm
 tech.root: Rpc
 ms.assetid: 55a1fa04-bd14-4867-b0ca-42574d71169a
-
 ms.date: 12/05/2018
 ms.keywords: IUnknown_Release_Proxy, IUnknown_Release_Proxy function [RPC], rpc.iunknown_release_proxy, unknwnbase/IUnknown_Release_Proxy
 ms.topic: function
-f1_keywords: 
- - "unknwnbase/IUnknown_Release_Proxy"
+f1_keywords:
+- unknwnbase/IUnknown_Release_Proxy
 dev_langs:
- - c++
+- c++
 req.header: unknwnbase.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: RpcRT4.lib
 req.dll: RpcRT4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RpcRT4.dll
+- RpcRT4.dll
 api_name:
- - IUnknown_Release_Proxy
+- IUnknown_Release_Proxy
 targetos: Windows
 req.typenames: 
 req.redist: 

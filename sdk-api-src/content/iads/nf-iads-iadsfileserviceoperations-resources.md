@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsFileServiceOperations.Resources
 title: IADsFileServiceOperations::Resources (iads.h)
-
 description: The IADsFileServiceOperations::Resources method gets a pointer to a pointer to the IADsCollection interface on a collection of the resource objects representing the current open resources on this file service.
 old-location: adsi\iadsfileserviceoperations_resources.htm
 tech.root: adsi
 ms.assetid: 5b7f2240-ca92-4e8e-b3ec-8eab36c3166f
-
 ms.date: 12/05/2018
 ms.keywords: IADsFileServiceOperations interface [ADSI],Resources method, IADsFileServiceOperations.Resources, IADsFileServiceOperations::Resources, Resources, Resources method [ADSI], Resources method [ADSI],IADsFileServiceOperations interface, _ds_iadsfileserviceoperations_resources, adsi.iadsfileserviceoperations__resources, adsi.iadsfileserviceoperations_resources, iads/IADsFileServiceOperations::Resources
 ms.topic: method
-f1_keywords: 
- - "iads/IADsFileServiceOperations.Resources"
+f1_keywords:
+- iads/IADsFileServiceOperations.Resources
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsFileServiceOperations.Resources
+- IADsFileServiceOperations.Resources
 targetos: Windows
 req.typenames: 
 req.redist: 

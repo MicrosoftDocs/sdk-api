@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSEnumerateSessionsA
 title: WTSEnumerateSessionsA function (wtsapi32.h)
-
 description: Retrieves a list of sessions on a Remote Desktop Session Host (RD Session Host) server.
 old-location: termserv\wtsenumeratesessions.htm
 tech.root: TermServ
 ms.assetid: 6f9dd7d4-48dc-411c-85f1-cd1239d1e106
-
 ms.date: 12/05/2018
 ms.keywords: WTSEnumerateSessions, WTSEnumerateSessions function [Remote Desktop Services], WTSEnumerateSessionsA, WTSEnumerateSessionsW, _win32_wtsenumeratesessions, termserv.wtsenumeratesessions, wtsapi32/WTSEnumerateSessions, wtsapi32/WTSEnumerateSessionsA, wtsapi32/WTSEnumerateSessionsW
 ms.topic: function
 f1_keywords:
 - wtsapi32/WTSEnumerateSessions
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

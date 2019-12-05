@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IComponentData2.QueryDispatch
 title: IComponentData2::QueryDispatch (mmc.h)
-
 description: The QueryDispatch method returns the snap-in's IDispatch interface for a specified item.
 old-location: mmc\icomponentdata2_querydispatch.htm
 tech.root: mmc
 ms.assetid: efff70f9-0226-4cf1-a6b3-475d90b379f9
-
 ms.date: 12/05/2018
 ms.keywords: CCT_RESULT = 0x8001, CCT_SCOPE = 0x8000, IComponentData2 interface [MMC],QueryDispatch method, IComponentData2.QueryDispatch, IComponentData2::QueryDispatch, QueryDispatch, QueryDispatch method [MMC], QueryDispatch method [MMC],IComponentData2 interface, _slate_icomponentdata2_querydispatch, mmc.icomponentdata2_querydispatch, mmc/IComponentData2::QueryDispatch
 ms.topic: method
-f1_keywords: 
- - "mmc/IComponentData2.QueryDispatch"
+f1_keywords:
+- mmc/IComponentData2.QueryDispatch
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IComponentData2.QueryDispatch
+- IComponentData2.QueryDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 

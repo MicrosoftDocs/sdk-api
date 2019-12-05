@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMGraphStreams.SetMaxGraphLatency
 title: IAMGraphStreams::SetMaxGraphLatency (strmif.h)
-
 description: The SetMaxGraphLatency method sets the maximum latency for the graph. You must call the IAMGraphStreams::SyncUsingStreamOffset method before calling this method.
 old-location: dshow\iamgraphstreams_setmaxgraphlatency.htm
 tech.root: DirectShow
 ms.assetid: e17723ad-20b5-4679-94a9-e32efbe82124
-
 ms.date: 12/05/2018
 ms.keywords: IAMGraphStreams interface [DirectShow],SetMaxGraphLatency method, IAMGraphStreams.SetMaxGraphLatency, IAMGraphStreams::SetMaxGraphLatency, IAMGraphStreamsSetMaxGraphLatency, SetMaxGraphLatency, SetMaxGraphLatency method [DirectShow], SetMaxGraphLatency method [DirectShow],IAMGraphStreams interface, dshow.iamgraphstreams_setmaxgraphlatency, strmif/IAMGraphStreams::SetMaxGraphLatency
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMGraphStreams.SetMaxGraphLatency"
+f1_keywords:
+- strmif/IAMGraphStreams.SetMaxGraphLatency
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMGraphStreams.SetMaxGraphLatency
+- IAMGraphStreams.SetMaxGraphLatency
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateEncoderPropertyBag
 title: IWICComponentFactory::CreateEncoderPropertyBag (wincodecsdk.h)
-
 description: Creates an encoder property bag.
 old-location: wic\_wic_codec_iwiccomponentfactory_createencoderpropertybag.htm
 tech.root: wic
 ms.assetid: 9d3c801d-46d4-4272-8bd6-9bc196e1b187
-
 ms.date: 12/05/2018
 ms.keywords: CreateEncoderPropertyBag, CreateEncoderPropertyBag method [Windows Imaging Component], CreateEncoderPropertyBag method [Windows Imaging Component],IWICComponentFactory interface, IWICComponentFactory interface [Windows Imaging Component],CreateEncoderPropertyBag method, IWICComponentFactory.CreateEncoderPropertyBag, IWICComponentFactory::CreateEncoderPropertyBag, _wic_codec_iwiccomponentfactory_createencoderpropertybag, wic._wic_codec_iwiccomponentfactory_createencoderpropertybag, wincodecsdk/IWICComponentFactory::CreateEncoderPropertyBag
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICComponentFactory.CreateEncoderPropertyBag"
+f1_keywords:
+- wincodecsdk/IWICComponentFactory.CreateEncoderPropertyBag
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICComponentFactory.CreateEncoderPropertyBag
+- IWICComponentFactory.CreateEncoderPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winusb.WinUsb_WritePipe
 title: WinUsb_WritePipe function (winusb.h)
-
 description: The WinUsb_WritePipe function writes data to a pipe.
 old-location: buses\winusb_writepipe.htm
 tech.root: usbref
 ms.assetid: 995b1d1b-8c08-4e67-8ba5-155231fe37f4
-
 ms.date: 12/05/2018
 ms.keywords: WinUsb_WritePipe, WinUsb_WritePipe function [Buses], buses.winusb_writepipe, winusb/WinUsb_WritePipe, winusbfunc_6fbed2b9-a65e-4802-8ba4-369a3200bffd.xml
 ms.topic: function
-f1_keywords: 
- - "winusb/WinUsb_WritePipe"
+f1_keywords:
+- winusb/WinUsb_WritePipe
 dev_langs:
- - c++
+- c++
 req.header: winusb.h
 req.include-header: Winusb.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Winusb.lib
 req.dll: Winusb.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winusb.dll
+- Winusb.dll
 api_name:
- - WinUsb_WritePipe
+- WinUsb_WritePipe
 targetos: Windows
 req.typenames: 
 req.redist: 

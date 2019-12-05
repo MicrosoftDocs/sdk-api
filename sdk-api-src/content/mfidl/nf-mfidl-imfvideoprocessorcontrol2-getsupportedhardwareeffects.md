@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl2.GetSupportedHardwareEffects
 title: IMFVideoProcessorControl2::GetSupportedHardwareEffects (mfidl.h)
-
 description: Returns the list of supported effects in the currently configured video processor.
 old-location: mf\imfvideoprocessorcontrol2_getsupportedhardwareeffects.htm
 tech.root: medfound
 ms.assetid: 0D5FE2B8-B8DD-40DE-8B41-40E773976BE6
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedHardwareEffects, GetSupportedHardwareEffects method [Media Foundation], GetSupportedHardwareEffects method [Media Foundation],IMFVideoProcessorControl2 interface, IMFVideoProcessorControl2 interface [Media Foundation],GetSupportedHardwareEffects method, IMFVideoProcessorControl2.GetSupportedHardwareEffects, IMFVideoProcessorControl2::GetSupportedHardwareEffects, mf.imfvideoprocessorcontrol2_getsupportedhardwareeffects, mfidl/IMFVideoProcessorControl2::GetSupportedHardwareEffects
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFVideoProcessorControl2.GetSupportedHardwareEffects"
+f1_keywords:
+- mfidl/IMFVideoProcessorControl2.GetSupportedHardwareEffects
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFVideoProcessorControl2.GetSupportedHardwareEffects
+- IMFVideoProcessorControl2.GetSupportedHardwareEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

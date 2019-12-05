@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICollection.Insert
 title: IUICollection::Insert (uiribbon.h)
-
 description: Inserts an item into the IUICollection at the specified index.
 old-location: windowsribbon\windowsribbon_iuicollection_insert.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\insert.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUICollection interface [Windows Ribbon],Insert method, IUICollection.Insert, IUICollection::Insert, Insert, Insert method [Windows Ribbon], Insert method [Windows Ribbon],IUICollection interface, scenicintent_IUICollection_Insert, uiribbon/IUICollection::Insert, windowsribbon.windowsribbon_iuicollection_insert
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICollection.Insert"
+f1_keywords:
+- uiribbon/IUICollection.Insert
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICollection.Insert
+- IUICollection.Insert
 targetos: Windows
 req.typenames: 
 req.redist: 

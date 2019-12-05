@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetMemberTypeByIndex
 title: ID3D12ShaderReflectionType::GetMemberTypeByIndex (d3d12shader.h)
-
 description: Gets a shader-reflection-variable type by index.
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyindex.htm
 tech.root: direct3d12
 ms.assetid: 59940F25-D394-4DA6-8493-B3B04C68B1CC
-
 ms.date: 12/05/2018
 ms.keywords: GetMemberTypeByIndex, GetMemberTypeByIndex method, GetMemberTypeByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetMemberTypeByIndex method, ID3D12ShaderReflectionType.GetMemberTypeByIndex, ID3D12ShaderReflectionType::GetMemberTypeByIndex, d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByIndex, direct3d12.id3d12shaderreflectiontype_getmembertypebyindex
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeByIndex"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionType.GetMemberTypeByIndex
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionType.GetMemberTypeByIndex
+- ID3D12ShaderReflectionType.GetMemberTypeByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

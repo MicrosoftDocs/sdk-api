@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IQueryInfo.GetInfoTip
 title: IQueryInfo::GetInfoTip (shlobj_core.h)
-
 description: Gets the info tip text for an item.
 old-location: shell\IQueryInfo_GetInfoTip.htm
 tech.root: shell
 ms.assetid: 9bbaaec4-87b8-4fcc-b5df-b516ef6081ba
-
 ms.date: 12/05/2018
 ms.keywords: GetInfoTip, GetInfoTip method [Windows Shell], GetInfoTip method [Windows Shell],IQueryInfo interface, IQueryInfo interface [Windows Shell],GetInfoTip method, IQueryInfo.GetInfoTip, IQueryInfo::GetInfoTip, QITIPF_DEFAULT, QITIPF_LINKNOTARGET, QITIPF_LINKUSETARGET, QITIPF_SINGLELINE, QITIPF_USENAME, QITIPF_USESLOWTIP, _win32_IQueryInfo_GetInfoTip, shell.IQueryInfo_GetInfoTip, shlobj_core/IQueryInfo::GetInfoTip
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IQueryInfo.GetInfoTip"
+f1_keywords:
+- shlobj_core/IQueryInfo.GetInfoTip
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IQueryInfo.GetInfoTip
+- IQueryInfo.GetInfoTip
 targetos: Windows
 req.typenames: 
 req.redist: 

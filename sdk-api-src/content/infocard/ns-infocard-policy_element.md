@@ -1,19 +1,17 @@
 ---
 UID: NS:infocard._POLICY_ELEMENT
 title: POLICY_ELEMENT (infocard.h)
-
 description: The POLICY_ELEMENT structure contains an RSVP policy element.
 old-location: qos\policy_element.htm
 tech.root: QOS
 ms.assetid: 710ed81d-d455-4912-8aee-2f06db894c95
-
 ms.date: 12/05/2018
-ms.keywords: "*PPOLICY_ELEMENT, POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, infocard/POLICY_ELEMENT, qos.policy_element"
+ms.keywords: '*PPOLICY_ELEMENT, POLICY_ELEMENT, POLICY_ELEMENT structure [QOS], _POLICY_ELEMENT, infocard/POLICY_ELEMENT, qos.policy_element'
 ms.topic: struct
-f1_keywords: 
- - "infocard/POLICY_ELEMENT"
+f1_keywords:
+- infocard/POLICY_ELEMENT
 dev_langs:
- - c++
+- c++
 req.header: infocard.h
 req.include-header: Lpmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - infocard.h
+- infocard.h
 api_name:
- - POLICY_ELEMENT
+- POLICY_ELEMENT
 targetos: Windows
 req.typenames: POLICY_ELEMENT, *PPOLICY_ELEMENT
 req.redist: 

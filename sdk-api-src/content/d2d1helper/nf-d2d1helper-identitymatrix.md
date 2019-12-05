@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.IdentityMatrix
 title: IdentityMatrix function (d2d1helper.h)
-
 description: Creates an identity matrix.
 old-location: direct2d\identitymatrix.htm
 tech.root: Direct2D
 ms.assetid: 09c2ed59-db4a-4753-a98a-bef7748d3803
-
 ms.date: 12/05/2018
 ms.keywords: IdentityMatrix, IdentityMatrix function [Direct2D], d2d1helper/IdentityMatrix, direct2d.identitymatrix
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/IdentityMatrix"
+f1_keywords:
+- d2d1helper/IdentityMatrix
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - IdentityMatrix
+- IdentityMatrix
 targetos: Windows
 req.typenames: 
 req.redist: 

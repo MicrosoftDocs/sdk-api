@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDeferContactService.CancelDeferral
 title: IDirectManipulationDeferContactService::CancelDeferral (directmanipulation.h)
-
 description: Cancel the deferral set in DeferContact and process the scheduled SetContact call for this pointerId.
 old-location: directmanipulation\idirectmanipulationdefercontactservice_canceldeferral.htm
 tech.root: directmanipulation
 ms.assetid: 946F8CF8-6A6D-4BC1-B9BA-91D5B4A8A178
-
 ms.date: 12/05/2018
 ms.keywords: CancelDeferral, CancelDeferral method [Direct Manipulation], CancelDeferral method [Direct Manipulation],IDirectManipulationDeferContactService interface, IDirectManipulationDeferContactService interface [Direct Manipulation],CancelDeferral method, IDirectManipulationDeferContactService.CancelDeferral, IDirectManipulationDeferContactService::CancelDeferral, directmanipulation.idirectmanipulationdefercontactservice_canceldeferral, directmanipulation/IDirectManipulationDeferContactService::CancelDeferral
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationDeferContactService.CancelDeferral"
+f1_keywords:
+- directmanipulation/IDirectManipulationDeferContactService.CancelDeferral
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationDeferContactService.CancelDeferral
+- IDirectManipulationDeferContactService.CancelDeferral
 targetos: Windows
 req.typenames: 
 req.redist: 

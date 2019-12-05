@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrEvent
 title: ISyncMgrEvent (syncmgr.h)
-
 description: Exposes methods that retrieve data from an event store. An event store allows Sync Center to get an enumerator of all events in the store, as well as to retrieve individual events.
 old-location: shell\ISyncMgrEvent.htm
 tech.root: shell
 ms.assetid: fb9877fc-016c-472b-9af2-f2470c5c7e3b
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrEvent, ISyncMgrEvent interface [Windows Shell], ISyncMgrEvent interface [Windows Shell],described, _shell_ISyncMgrEvent, shell.ISyncMgrEvent, syncmgr/ISyncMgrEvent
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrEvent"
+f1_keywords:
+- syncmgr/ISyncMgrEvent
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrEvent
+- ISyncMgrEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

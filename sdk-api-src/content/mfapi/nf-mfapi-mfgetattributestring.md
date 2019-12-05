@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetAttributeString
 title: MFGetAttributeString function (mfapi.h)
-
 description: Gets a string value from an attribute store.
 old-location: mf\mfgetattributestring.htm
 tech.root: medfound
 ms.assetid: 6CA416AB-5EA1-4A85-A421-1CDD3D111296
-
 ms.date: 12/05/2018
 ms.keywords: MFGetAttributeString, MFGetAttributeString function [Media Foundation], mf.mfgetattributestring, mfapi/MFGetAttributeString
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetAttributeString"
+f1_keywords:
+- mfapi/MFGetAttributeString
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFGetAttributeString
+- MFGetAttributeString
 targetos: Windows
 req.typenames: 
 req.redist: 

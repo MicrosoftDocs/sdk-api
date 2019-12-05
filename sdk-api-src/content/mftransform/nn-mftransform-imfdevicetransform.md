@@ -1,19 +1,17 @@
 ---
 UID: NN:mftransform.IMFDeviceTransform
 title: IMFDeviceTransform (mftransform.h)
-
 description: This section contains reference information for the IMFDeviceTransform interface.
 old-location: stream\imfdevicetransform.htm
 tech.root: stream
 ms.assetid: 375293FA-8017-4F74-A93C-C15FED8F19AF
-
 ms.date: 12/05/2018
 ms.keywords: IMFDeviceTransform, IMFDeviceTransform interface [Streaming Media Devices], IMFDeviceTransform interface [Streaming Media Devices],described, mftransform/IMFDeviceTransform, stream.imfdevicetransform
 ms.topic: interface
-f1_keywords: 
- - "mftransform/IMFDeviceTransform"
+f1_keywords:
+- mftransform/IMFDeviceTransform
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform
+- IMFDeviceTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptGetHashParam
 title: CryptGetHashParam function (wincrypt.h)
-
 description: Retrieves data that governs the operations of a hash object.
 old-location: security\cryptgethashparam.htm
 tech.root: SecCrypto
 ms.assetid: ed008c07-1a40-4075-bdaa-eb7f7e12d9c3
-
 ms.date: 12/05/2018
 ms.keywords: CryptGetHashParam, CryptGetHashParam function [Security], HP_ALGID, HP_HASHSIZE, HP_HASHVAL, _crypto2_cryptgethashparam, security.cryptgethashparam, wincrypt/CryptGetHashParam
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGetHashParam"
+f1_keywords:
+- wincrypt/CryptGetHashParam
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptGetHashParam
+- CryptGetHashParam
 targetos: Windows
 req.typenames: 
 req.redist: 

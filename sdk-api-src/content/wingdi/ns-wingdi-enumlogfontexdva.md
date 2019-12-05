@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXDVA
 title: ENUMLOGFONTEXDVA (wingdi.h)
-
 description: The ENUMLOGFONTEXDV structure contains the information used to create a font.
 old-location: gdi\enumlogfontexdv.htm
 tech.root: gdi
 ms.assetid: 8d483f52-250e-4c4f-83cf-ff952bb84fd3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, ENUMLOGFONTEXDV, ENUMLOGFONTEXDV structure [Windows GDI], ENUMLOGFONTEXDVA, ENUMLOGFONTEXDVW, PENUMLOGFONTEXDV, PENUMLOGFONTEXDV structure pointer [Windows GDI], _win32_ENUMLOGFONTEXDV_str, gdi.enumlogfontexdv, wingdi/ENUMLOGFONTEXDV, wingdi/ENUMLOGFONTEXDVA, wingdi/ENUMLOGFONTEXDVW, wingdi/PENUMLOGFONTEXDV"
+ms.keywords: '*LPENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, ENUMLOGFONTEXDV, ENUMLOGFONTEXDV structure [Windows GDI], ENUMLOGFONTEXDVA, ENUMLOGFONTEXDVW, PENUMLOGFONTEXDV, PENUMLOGFONTEXDV structure pointer [Windows GDI], _win32_ENUMLOGFONTEXDV_str, gdi.enumlogfontexdv, wingdi/ENUMLOGFONTEXDV, wingdi/ENUMLOGFONTEXDVA, wingdi/ENUMLOGFONTEXDVW, wingdi/PENUMLOGFONTEXDV'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/ENUMLOGFONTEXDV"
+f1_keywords:
+- wingdi/ENUMLOGFONTEXDV
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - ENUMLOGFONTEXDV
- - ENUMLOGFONTEXDVA
- - ENUMLOGFONTEXDVW
+- ENUMLOGFONTEXDV
+- ENUMLOGFONTEXDVA
+- ENUMLOGFONTEXDVW
 targetos: Windows
 req.typenames: ENUMLOGFONTEXDVA, *PENUMLOGFONTEXDVA, *LPENUMLOGFONTEXDVA
 req.redist: 

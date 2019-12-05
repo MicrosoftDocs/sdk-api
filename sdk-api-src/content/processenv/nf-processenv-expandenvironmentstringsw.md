@@ -1,19 +1,17 @@
 ---
 UID: NF:processenv.ExpandEnvironmentStringsW
 title: ExpandEnvironmentStringsW function (processenv.h)
-
 description: Expands environment-variable strings and replaces them with the values defined for the current user.
 old-location: base\expandenvironmentstrings.htm
 tech.root: SysInfo
 ms.assetid: b563e8ed-311d-4971-94f3-9c9fde4a2f30
-
 ms.date: 12/05/2018
 ms.keywords: ExpandEnvironmentStrings, ExpandEnvironmentStrings function, ExpandEnvironmentStringsA, ExpandEnvironmentStringsW, _win32_expandenvironmentstrings, base.expandenvironmentstrings, processenv/ExpandEnvironmentStrings, processenv/ExpandEnvironmentStringsA, processenv/ExpandEnvironmentStringsW
 ms.topic: function
-f1_keywords: 
- - "processenv/ExpandEnvironmentStrings"
+f1_keywords:
+- processenv/ExpandEnvironmentStrings
 dev_langs:
- - c++
+- c++
 req.header: processenv.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - ExpandEnvironmentStrings
- - ExpandEnvironmentStringsA
- - ExpandEnvironmentStringsW
+- ExpandEnvironmentStrings
+- ExpandEnvironmentStringsA
+- ExpandEnvironmentStringsW
 targetos: Windows
 req.typenames: 
 req.redist: 

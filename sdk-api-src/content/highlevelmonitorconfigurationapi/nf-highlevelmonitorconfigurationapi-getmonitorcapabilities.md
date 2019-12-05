@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.GetMonitorCapabilities
 title: GetMonitorCapabilities function (highlevelmonitorconfigurationapi.h)
-
 description: Retrieves the configuration capabilities of a monitor. Call this function to find out which high-level monitor configuration functions are supported by the monitor.
 old-location: monitor\getmonitorcapabilities.htm
 tech.root: Monitor
 ms.assetid: 57cf0004-58cf-46d9-b5be-22edda2ce5a9
-
 ms.date: 12/05/2018
 ms.keywords: GetMonitorCapabilities, GetMonitorCapabilities function [Monitor Configuration], highlevelmonitorconfigurationapi/GetMonitorCapabilities, monitor.getmonitorcapabilities
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/GetMonitorCapabilities"
+f1_keywords:
+- highlevelmonitorconfigurationapi/GetMonitorCapabilities
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetMonitorCapabilities
+- GetMonitorCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

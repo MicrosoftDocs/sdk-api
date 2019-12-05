@@ -1,19 +1,17 @@
 ---
 UID: NN:wmiutils.IWbemQuery
 title: IWbemQuery (wmiutils.h)
-
 description: Provides an entry point through which a WMI Query Language (WQL) query can be parsed.
 old-location: wmi\iwbemquery.htm
 tech.root: WmiSdk
 ms.assetid: 4a0c0c1d-3d84-491f-8379-d164821fa71b
-
 ms.date: 12/05/2018
 ms.keywords: IWbemQuery, IWbemQuery interface [Windows Management Instrumentation], IWbemQuery interface [Windows Management Instrumentation],described, WbemQuery, _hmm_iwbemquery, wmi.iwbemquery, wmiutils/IWbemQuery
 ms.topic: interface
-f1_keywords: 
- - "wmiutils/IWbemQuery"
+f1_keywords:
+- wmiutils/IWbemQuery
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemQuery
- - IWbemQuery.GetQueryInfo
- - IWbemQuery.SetLanguageFeatures
- - IWbemQuery.TestLanguageFeatures
- - WbemQuery
+- IWbemQuery
+- IWbemQuery.GetQueryInfo
+- IWbemQuery.SetLanguageFeatures
+- IWbemQuery.TestLanguageFeatures
+- WbemQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

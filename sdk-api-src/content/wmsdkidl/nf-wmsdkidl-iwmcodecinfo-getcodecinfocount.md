@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecInfoCount
 title: IWMCodecInfo::GetCodecInfoCount (wmsdkidl.h)
-
 description: The GetCodecInfoCount method retrieves the number of supported codecs for a specified major type of digital media (audio or video).
 old-location: wmformat\iwmcodecinfo_getcodecinfocount.htm
 tech.root: wmformat
 ms.assetid: 873f8d03-5d7b-424c-91f3-e7c8156565be
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecInfoCount, GetCodecInfoCount method [windows Media Format], GetCodecInfoCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecInfoCount method, IWMCodecInfo.GetCodecInfoCount, IWMCodecInfo::GetCodecInfoCount, IWMCodecInfoGetCodecInfoCount, wmformat.iwmcodecinfo_getcodecinfocount, wmsdkidl/IWMCodecInfo::GetCodecInfoCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo.GetCodecInfoCount"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo.GetCodecInfoCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecInfo.GetCodecInfoCount
+- IWMCodecInfo.GetCodecInfoCount
 targetos: Windows
 req.typenames: 
 req.redist: 

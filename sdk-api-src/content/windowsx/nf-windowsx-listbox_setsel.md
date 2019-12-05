@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ListBox_SetSel
 title: ListBox_SetSel macro (windowsx.h)
-
 description: Selects or deselects an item in a multiple-selection list box. You can use this macro or send the LB_SETSEL message explicitly.
 old-location: controls\ListBox_SetSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_setsel.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListBox_SetSel, ListBox_SetSel macro [Windows Controls], _win32_ListBox_SetSel, _win32_ListBox_SetSel_cpp, controls.ListBox_SetSel, controls._win32_ListBox_SetSel, windowsx/ListBox_SetSel
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ListBox_SetSel"
+f1_keywords:
+- windowsx/ListBox_SetSel
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ListBox_SetSel
+- ListBox_SetSel
 targetos: Windows
 req.typenames: 
 req.redist: 

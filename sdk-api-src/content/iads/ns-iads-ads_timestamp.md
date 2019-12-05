@@ -1,19 +1,17 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0007
 title: ADS_TIMESTAMP (iads.h)
-
 description: The ADS_TIMESTAMP structure is an ADSI representation of the Timestamp attribute syntax.
 old-location: adsi\ads_timestamp.htm
 tech.root: adsi
 ms.assetid: 3e416a9a-e444-43eb-9e59-e8e91ccac2d9
-
 ms.date: 12/05/2018
-ms.keywords: "*PADS_TIMESTAMP, ADS_TIMESTAMP, ADS_TIMESTAMP structure [ADSI], PADS_TIMESTAMP, PADS_TIMESTAMP structure pointer [ADSI], _ds_ads_timestamp, adsi.ads__timestamp, adsi.ads_timestamp, iads/ADS_TIMESTAMP, iads/PADS_TIMESTAMP"
+ms.keywords: '*PADS_TIMESTAMP, ADS_TIMESTAMP, ADS_TIMESTAMP structure [ADSI], PADS_TIMESTAMP, PADS_TIMESTAMP structure pointer [ADSI], _ds_ads_timestamp, adsi.ads__timestamp, adsi.ads_timestamp, iads/ADS_TIMESTAMP, iads/PADS_TIMESTAMP'
 ms.topic: struct
-f1_keywords: 
- - "iads/ADS_TIMESTAMP"
+f1_keywords:
+- iads/ADS_TIMESTAMP
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iads.h
+- Iads.h
 api_name:
- - ADS_TIMESTAMP
+- ADS_TIMESTAMP
 targetos: Windows
 req.typenames: ADS_TIMESTAMP, *PADS_TIMESTAMP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.AssocIsDangerous
 title: AssocIsDangerous function (shlwapi.h)
-
 description: Determines whether a file type is considered a potential security risk.
 old-location: shell\AssocIsDangerous.htm
 tech.root: shell
 ms.assetid: 4e0bc3ce-f9d2-4766-8b19-c0954d71e890
-
 ms.date: 12/05/2018
 ms.keywords: AssocIsDangerous, AssocIsDangerous function [Windows Shell], _shell_AssocIsDangerous, shell.AssocIsDangerous, shlwapi/AssocIsDangerous
 ms.topic: function
-f1_keywords: 
- - "shlwapi/AssocIsDangerous"
+f1_keywords:
+- shlwapi/AssocIsDangerous
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 6.01 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-IE-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
- - AssocIsDangerous
+- AssocIsDangerous
 targetos: Windows
 req.typenames: 
 req.redist: 

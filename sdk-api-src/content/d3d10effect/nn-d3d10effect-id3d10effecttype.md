@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectType
 title: ID3D10EffectType (d3d10effect.h)
-
 description: The ID3D10EffectType interface accesses effect variables by type.
 old-location: direct3d10\id3d10effecttype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype.htm
-
 ms.date: 12/05/2018
 ms.keywords: 807ce993-4aee-8f2f-7837-5679d8a0dab0, ID3D10EffectType, ID3D10EffectType interface [Direct3D 10], ID3D10EffectType interface [Direct3D 10],described, d3d10effect/ID3D10EffectType, direct3d10.id3d10effecttype
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectType"
+f1_keywords:
+- d3d10effect/ID3D10EffectType
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectType
+- ID3D10EffectType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardAccessStartedEvent
 title: SCardAccessStartedEvent function (winscard.h)
-
 description: Returns an event handle when an event signals that the smart card resource manager is started.
 old-location: security\scardaccessstartedevent.htm
 tech.root: SecAuthN
 ms.assetid: ddfab09d-5477-4c4e-883c-d3c19258c49d
-
 ms.date: 12/05/2018
 ms.keywords: SCardAccessStartedEvent, SCardAccessStartedEvent function [Security], _smart_scardaccessstartedevent, security.scardaccessstartedevent, winscard/SCardAccessStartedEvent
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardAccessStartedEvent"
+f1_keywords:
+- winscard/SCardAccessStartedEvent
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardAccessStartedEvent
+- SCardAccessStartedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

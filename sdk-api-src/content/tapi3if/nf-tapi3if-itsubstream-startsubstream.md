@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITSubStream.StartSubStream
 title: ITSubStream::StartSubStream (tapi3if.h)
-
 description: The StartSubStream method starts the substream. See the Remarks section under ITStream::StartStream for additional information.
 old-location: tapi3\itsubstream_startsubstream.htm
 tech.root: Tapi
 ms.assetid: 603cb667-a108-4e47-9808-99fddad5d894
-
 ms.date: 12/05/2018
 ms.keywords: ITSubStream interface [TAPI 2.2],StartSubStream method, ITSubStream.StartSubStream, ITSubStream::StartSubStream, StartSubStream, StartSubStream method [TAPI 2.2], StartSubStream method [TAPI 2.2],ITSubStream interface, _tapi3_itsubstream_startsubstream, tapi3.itsubstream_startsubstream, tapi3if/ITSubStream::StartSubStream
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITSubStream.StartSubStream"
+f1_keywords:
+- tapi3if/ITSubStream.StartSubStream
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITSubStream.StartSubStream
+- ITSubStream.StartSubStream
 targetos: Windows
 req.typenames: 
 req.redist: 

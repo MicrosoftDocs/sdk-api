@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetCountOfTableDescriptors
 title: IISDB_BIT::GetCountOfTableDescriptors (dvbsiparser.h)
-
 description: Gets the broadcaster_descriptors_length field value from an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 69b1851b-b8a9-4dfe-be6b-ffadd2a83b12
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfTableDescriptors, GetCountOfTableDescriptors method [Microsoft TV Technologies], GetCountOfTableDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetCountOfTableDescriptors method, IISDB_BIT.GetCountOfTableDescriptors, IISDB_BIT::GetCountOfTableDescriptors, dvbsiparser/IISDB_BIT::GetCountOfTableDescriptors, mstv.iisdb_bit_getcountoftabledescriptors
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_BIT.GetCountOfTableDescriptors"
+f1_keywords:
+- dvbsiparser/IISDB_BIT.GetCountOfTableDescriptors
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_BIT.GetCountOfTableDescriptors
+- IISDB_BIT.GetCountOfTableDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

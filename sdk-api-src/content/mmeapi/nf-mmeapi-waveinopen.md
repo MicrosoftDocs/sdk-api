@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveInOpen
 title: waveInOpen function (mmeapi.h)
-
 description: The waveInOpen function opens the given waveform-audio input device for recording.
 old-location: multimedia\waveinopen.htm
 tech.root: Multimedia
 ms.assetid: 41b5b581-d35c-48ad-adcf-659126c4af50
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveInOpen, mmeapi/waveInOpen, multimedia.waveinopen, waveInOpen, waveInOpen function [Windows Multimedia]"
+ms.keywords: _win32_waveInOpen, mmeapi/waveInOpen, multimedia.waveinopen, waveInOpen, waveInOpen function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveInOpen"
+f1_keywords:
+- mmeapi/waveInOpen
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveInOpen
+- waveInOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

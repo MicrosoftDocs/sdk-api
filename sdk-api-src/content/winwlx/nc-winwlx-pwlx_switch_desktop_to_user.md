@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_SWITCH_DESKTOP_TO_USER
 title: PWLX_SWITCH_DESKTOP_TO_USER (winwlx.h)
-
 description: Called by GINA to switch to the application desktop.
 old-location: security\wlxswitchdesktoptouser.htm
 tech.root: SecAuthN
 ms.assetid: ec353e23-7e33-4af2-93ea-35801a19d9aa
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_SWITCH_DESKTOP_TO_USER, PWLX_SWITCH_DESKTOP_TO_USER callback, WlxSwitchDesktopToUser, WlxSwitchDesktopToUser callback function [Security], _gina_wlxswitchdesktoptouser, security.wlxswitchdesktoptouser, winwlx/WlxSwitchDesktopToUser
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxSwitchDesktopToUser"
+f1_keywords:
+- winwlx/WlxSwitchDesktopToUser
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxSwitchDesktopToUser
+- WlxSwitchDesktopToUser
 targetos: Windows
 req.typenames: 
 req.redist: 

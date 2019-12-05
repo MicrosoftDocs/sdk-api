@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVDSPSpeakerFill
 title: eAVDSPSpeakerFill (codecapi.h)
-
 description: Specifies whether speaker fill is enabled in an audio decoder or digital signal processor (DSP).
 old-location: dshow\eavdspspeakerfill.htm
 tech.root: DirectShow
 ms.assetid: 74afd030-bce6-4fb1-b937-2279c1e96264
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVDSPSpeakerFill, codecapi/eAVDSPSpeakerFill_AUTO, codecapi/eAVDSPSpeakerFill_OFF, codecapi/eAVDSPSpeakerFill_ON, dshow.eavdspspeakerfill, eAVDSPSpeakerFill, eAVDSPSpeakerFill enumeration [DirectShow], eAVDSPSpeakerFill_AUTO, eAVDSPSpeakerFill_OFF, eAVDSPSpeakerFill_ON
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVDSPSpeakerFill"
+f1_keywords:
+- codecapi/eAVDSPSpeakerFill
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVDSPSpeakerFill
+- eAVDSPSpeakerFill
 targetos: Windows
 req.typenames: 
 req.redist: 

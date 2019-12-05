@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.GetWrapMode
 title: TextureBrush::GetWrapMode (gdiplusbrush.h)
-
 description: The TextureBrush::GetWrapMode method gets the wrap mode currently set for this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetWrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\getwrapmode_51.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWrapMode, GetWrapMode method [GDI+], GetWrapMode method [GDI+],TextureBrush class, TextureBrush class [GDI+],GetWrapMode method, TextureBrush.GetWrapMode, TextureBrush::GetWrapMode, _gdiplus_CLASS_TextureBrush_GetWrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_GetWrapMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.GetWrapMode"
+f1_keywords:
+- gdiplusbrush/TextureBrush.GetWrapMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.GetWrapMode
+- TextureBrush.GetWrapMode
 targetos: Windows
 req.typenames: 
 req.redist: 

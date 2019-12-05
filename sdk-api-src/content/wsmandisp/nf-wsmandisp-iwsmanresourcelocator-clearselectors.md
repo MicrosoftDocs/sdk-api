@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.ClearSelectors
 title: IWSManResourceLocator::ClearSelectors (wsmandisp.h)
-
 description: Removes all the selectors from a ResourceLocator object. You can provide a ResourceLocator object instead of specifying a resource URI in IWSManSession object operations such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_clearselectors.htm
 tech.root: winrm
 ms.assetid: fccd0cd4-465b-454c-a300-ab50c25d6afe
-
 ms.date: 12/05/2018
 ms.keywords: ClearSelectors, ClearSelectors method [Windows Remote Management], ClearSelectors method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],ClearSelectors method, IWSManResourceLocator.ClearSelectors, IWSManResourceLocator::ClearSelectors, winrm.iwsmanresourcelocator_clearselectors, wsmandisp/IWSManResourceLocator::ClearSelectors
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManResourceLocator.ClearSelectors"
+f1_keywords:
+- wsmandisp/IWSManResourceLocator.ClearSelectors
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManResourceLocator.ClearSelectors
+- IWSManResourceLocator.ClearSelectors
 targetos: Windows
 req.typenames: 
 req.redist: 

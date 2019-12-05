@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DResource9.GetType
 title: IDirect3DResource9::GetType (d3d9.h)
-
 description: Returns the type of the resource.
 old-location: direct3d9\idirect3dresource9__gettype.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dresource9__gettype.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Direct3D 9], GetType method [Direct3D 9],IDirect3DResource9 interface, IDirect3DResource9 interface [Direct3D 9],GetType method, IDirect3DResource9.GetType, IDirect3DResource9::GetType, d3d9helper/IDirect3DResource9::GetType, direct3d9.idirect3dresource9__gettype, fedd6b5b-487e-c6e4-6122-21f132ce241b
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DResource9.GetType"
+f1_keywords:
+- d3d9/IDirect3DResource9.GetType
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DResource9.GetType
+- IDirect3DResource9.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

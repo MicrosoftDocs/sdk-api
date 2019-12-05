@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.GetCoreProperties
 title: IXpsOMPackage::GetCoreProperties (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMCoreProperties interface of the XPS package.
 old-location: xps\ixpsompackage_getcoreproperties.htm
 tech.root: printdocs
 ms.assetid: ebe5c8a2-2d6a-4a86-8bf3-1fec1dec68d0
-
 ms.date: 12/05/2018
 ms.keywords: GetCoreProperties, GetCoreProperties method [XPS Documents and Packaging], GetCoreProperties method [XPS Documents and Packaging],IXpsOMPackage interface, IXpsOMPackage interface [XPS Documents and Packaging],GetCoreProperties method, IXpsOMPackage.GetCoreProperties, IXpsOMPackage::GetCoreProperties, xps.ixpsompackage_getcoreproperties, xpsobjectmodel/IXpsOMPackage::GetCoreProperties
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPackage.GetCoreProperties"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPackage.GetCoreProperties
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPackage.GetCoreProperties
+- IXpsOMPackage.GetCoreProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

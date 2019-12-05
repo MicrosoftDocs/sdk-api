@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_5.IDXGIOutput5
 title: IDXGIOutput5 (dxgi1_5.h)
-
 description: Represents an adapter output (such as a monitor). The IDXGIOutput5 interface exposes a single method to specify a list of supported formats for fullscreen surfaces.
 old-location: direct3ddxgi\idxgioutput5.htm
 tech.root: direct3ddxgi
 ms.assetid: D75529BD-C572-4137-8F1E-91F7C6902EE0
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput5, IDXGIOutput5 interface [DXGI], IDXGIOutput5 interface [DXGI],described, direct3ddxgi.idxgioutput5, dxgi1_5/IDXGIOutput5
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_5/IDXGIOutput5"
+f1_keywords:
+- dxgi1_5/IDXGIOutput5
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_5.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxgi.lib
 req.dll: Dxgi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.dll
+- dxgi.dll
 api_name:
- - IDXGIOutput5
+- IDXGIOutput5
 targetos: Windows
 req.typenames: 
 req.redist: 

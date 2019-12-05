@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.Enabled
 title: IOfflineFilesEvents::Enabled (cscobj.h)
-
 description: This method is reserved for future use.
 old-location: of\iofflinefilesevents_enabled.htm
 tech.root: offlinefiles
 ms.assetid: 47db9318-2418-4e6c-aac0-75b0b498c7e6
-
 ms.date: 12/05/2018
 ms.keywords: Enabled, Enabled method [Offline Files], Enabled method [Offline Files],IOfflineFilesEvents interface, IOfflineFilesEvents interface [Offline Files],Enabled method, IOfflineFilesEvents.Enabled, IOfflineFilesEvents::Enabled, cscobj/IOfflineFilesEvents::Enabled, of.iofflinefilesevents_enabled
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesEvents.Enabled"
+f1_keywords:
+- cscobj/IOfflineFilesEvents.Enabled
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesEvents.Enabled
+- IOfflineFilesEvents.Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

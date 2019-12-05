@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.SetConnectInfo
 title: IVPBaseConfig::SetConnectInfo (vpconfig.h)
-
 description: The SetConnectInfo method sets the video port connection parameters.
 old-location: dshow\ivpbaseconfig_setconnectinfo.htm
 tech.root: DirectShow
 ms.assetid: e52bb213-e6e7-4bae-9e1e-6b34f34cf1d1
-
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],SetConnectInfo method, IVPBaseConfig.SetConnectInfo, IVPBaseConfig::SetConnectInfo, IVPBaseConfigSetConnectInfo, SetConnectInfo, SetConnectInfo method [DirectShow], SetConnectInfo method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_setconnectinfo, vpconfig/IVPBaseConfig::SetConnectInfo
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.SetConnectInfo"
+f1_keywords:
+- vpconfig/IVPBaseConfig.SetConnectInfo
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.SetConnectInfo
+- IVPBaseConfig.SetConnectInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

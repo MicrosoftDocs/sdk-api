@@ -1,19 +1,17 @@
 ---
 UID: NC:evntrace.PEVENT_TRACE_BUFFER_CALLBACKA
 title: PEVENT_TRACE_BUFFER_CALLBACKA (evntrace.h)
-
 description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.
 old-location: etw\buffercallback.htm
 tech.root: ETW
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
-
 ms.date: 12/05/2018
 ms.keywords: BufferCallback, BufferCallback callback function [ETW], PEVENT_TRACE_BUFFER_CALLBACK, PEVENT_TRACE_BUFFER_CALLBACK callback, PEVENT_TRACE_BUFFER_CALLBACKA, PEVENT_TRACE_BUFFER_CALLBACKW, _evt_buffercallback, base.buffercallback, etw.buffercallback, evntrace/BufferCallback
 ms.topic: callback
-f1_keywords: 
- - "evntrace/BufferCallback"
+f1_keywords:
+- evntrace/BufferCallback
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Evntrace.h
+- Evntrace.h
 api_name:
- - BufferCallback
- - pevent_trace_buffer_callbacka
+- BufferCallback
+- pevent_trace_buffer_callbacka
 targetos: Windows
 req.typenames: 
 req.redist: 

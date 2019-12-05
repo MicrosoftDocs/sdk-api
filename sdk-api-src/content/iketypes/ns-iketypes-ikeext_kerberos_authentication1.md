@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_KERBEROS_AUTHENTICATION1__
 title: IKEEXT_KERBEROS_AUTHENTICATION1 (iketypes.h)
-
 description: Contains information needed for preshared key authentication.
 old-location: fwp\ikeext_kerberos_authentication1.htm
 tech.root: fwp
 ms.assetid: c9ea72e1-3d98-49f1-9061-d19e16f50660
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_KERBEROS_AUTHENTICATION1, IKEEXT_KERBEROS_AUTHENTICATION1 structure [Filtering], IKEEXT_KERB_AUTH_DISABLE_INITIATOR_TOKEN_GENERATION, IKEEXT_KERB_AUTH_DONT_ACCEPT_EXPLICIT_CREDENTIALS, IKEEXT_KERB_AUTH_FORCE_PROXY_ON_INITIATOR, fwp.ikeext_kerberos_authentication1, iketypes/IKEEXT_KERBEROS_AUTHENTICATION1
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_KERBEROS_AUTHENTICATION1"
+f1_keywords:
+- iketypes/IKEEXT_KERBEROS_AUTHENTICATION1
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_KERBEROS_AUTHENTICATION1
+- IKEEXT_KERBEROS_AUTHENTICATION1
 targetos: Windows
 req.typenames: IKEEXT_KERBEROS_AUTHENTICATION1
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.VirtualAllocFromApp
 title: VirtualAllocFromApp function (memoryapi.h)
-
 description: Reserves, commits, or changes the state of a region of pages in the virtual address space of the calling process.
 old-location: base\virtualallocfromapp.htm
 tech.root: Memory
 ms.assetid: 6124F358-718B-464F-ACBF-6BBE5189988B
-
 ms.date: 12/05/2018
 ms.keywords: MEM_COMMIT, MEM_LARGE_PAGES, MEM_PHYSICAL, MEM_RESERVE, MEM_RESET, MEM_RESET_UNDO, MEM_TOP_DOWN, MEM_WRITE_WATCH, VirtualAllocFromApp, VirtualAllocFromApp function, base.virtualallocfromapp, memoryapi/VirtualAllocFromApp
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualAllocFromApp"
+f1_keywords:
+- memoryapi/VirtualAllocFromApp
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - KernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- KernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - VirtualAllocFromApp
+- VirtualAllocFromApp
 targetos: Windows
 req.typenames: 
 req.redist: 

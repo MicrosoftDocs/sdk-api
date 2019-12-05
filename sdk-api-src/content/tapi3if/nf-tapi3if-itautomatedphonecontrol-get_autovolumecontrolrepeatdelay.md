@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay
 title: ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay (tapi3if.h)
-
 description: The get_AutoVolumeControlRepeatDelay method retrieves the current value of the AutoVolumeControlRepeatDelay property. The property specifies the delay, in milliseconds (ms), before a volume button starts repeating when it is held down.
 old-location: tapi3\itautomatedphonecontrol_get_autovolumecontrolrepeatdelay.htm
 tech.root: Tapi
 ms.assetid: a26fd436-b792-4415-bc47-eca2b1114002
-
 ms.date: 12/05/2018
 ms.keywords: ITAutomatedPhoneControl interface [TAPI 2.2],get_AutoVolumeControlRepeatDelay method, ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay, ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay, _tapi3_itautomatedphonecontrol_get_autovolumecontrolrepeatdelay, get_AutoVolumeControlRepeatDelay, get_AutoVolumeControlRepeatDelay method [TAPI 2.2], get_AutoVolumeControlRepeatDelay method [TAPI 2.2],ITAutomatedPhoneControl interface, tapi3.itautomatedphonecontrol_get_autovolumecontrolrepeatdelay, tapi3if/ITAutomatedPhoneControl::get_AutoVolumeControlRepeatDelay
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay"
+f1_keywords:
+- tapi3if/ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay
+- ITAutomatedPhoneControl.get_AutoVolumeControlRepeatDelay
 targetos: Windows
 req.typenames: 
 req.redist: 

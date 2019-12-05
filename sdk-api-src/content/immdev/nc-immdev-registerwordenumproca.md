@@ -1,19 +1,17 @@
 ---
 UID: NC:immdev.REGISTERWORDENUMPROCA
 title: REGISTERWORDENUMPROCA (immdev.h)
-
 description: An application-defined callback function used with the ImmEnumRegisterWord function.
 old-location: intl\enumregisterwordproc.htm
 tech.root: Intl
 ms.assetid: 06038c87-3553-47de-ba9f-b9c65ea9920b
-
 ms.date: 12/05/2018
 ms.keywords: EnumRegisterWordProc, EnumRegisterWordProc callback function [Internationalization for Windows Applications], EnumRegisterWordProcA, EnumRegisterWordProcW, REGISTERWORDENUMPROC, REGISTERWORDENUMPROC callback, REGISTERWORDENUMPROCA, REGISTERWORDENUMPROCW, _win32_EnumRegisterWordProc, imm/EnumRegisterWordProc, imm/EnumRegisterWordProcA, imm/EnumRegisterWordProcW, intl.enumregisterwordproc
 ms.topic: callback
-f1_keywords: 
- - "immdev/EnumRegisterWordProc"
+f1_keywords:
+- immdev/EnumRegisterWordProc
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Imm.h
+- Imm.h
 api_name:
- - EnumRegisterWordProc
- - EnumRegisterWordProcA
- - EnumRegisterWordProcW
- - registerwordenumproca
+- EnumRegisterWordProc
+- EnumRegisterWordProcA
+- EnumRegisterWordProcW
+- registerwordenumproca
 targetos: Windows
 req.typenames: 
 req.redist: 

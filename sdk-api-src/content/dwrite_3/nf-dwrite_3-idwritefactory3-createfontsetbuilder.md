@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateFontSetBuilder
 title: IDWriteFactory3::CreateFontSetBuilder (dwrite_3.h)
-
 description: Creates an empty font set builder to add font face references and create a custom font set.
 old-location: directwrite\idwritefactory3_createfontsetbuilder.htm
 tech.root: DirectWrite
 ms.assetid: 8021f934-af83-ccd0-e142-455df88bf936
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontSetBuilder, CreateFontSetBuilder method [Direct Write], CreateFontSetBuilder method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],CreateFontSetBuilder method, IDWriteFactory3.CreateFontSetBuilder, IDWriteFactory3::CreateFontSetBuilder, directwrite.idwritefactory3_createfontsetbuilder, dwrite_3/IDWriteFactory3::CreateFontSetBuilder
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory3.CreateFontSetBuilder"
+f1_keywords:
+- dwrite_3/IDWriteFactory3.CreateFontSetBuilder
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory3.CreateFontSetBuilder
+- IDWriteFactory3.CreateFontSetBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

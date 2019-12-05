@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElementsEx.AddElementEx
 title: IMFMediaEngineSrcElementsEx::AddElementEx (mfmediaengine.h)
-
 description: Provides an enhanced version of IMFMediaEngineSrcElements::AddElement to add the key system intended to be used with content to an element.
 old-location: mf\imfmediaenginesrcelementsex_addelementex.htm
 tech.root: medfound
 ms.assetid: ad799c61-3ffb-4879-a875-d218c0b56e1c
-
 ms.date: 12/05/2018
 ms.keywords: AddElementEx, AddElementEx method [Media Foundation], AddElementEx method [Media Foundation],IMFMediaEngineSrcElementsEx interface, IMFMediaEngineSrcElementsEx interface [Media Foundation],AddElementEx method, IMFMediaEngineSrcElementsEx.AddElementEx, IMFMediaEngineSrcElementsEx::AddElementEx, mf.imfmediaenginesrcelementsex_addelementex, mfmediaengine/IMFMediaEngineSrcElementsEx::AddElementEx
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineSrcElementsEx.AddElementEx"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineSrcElementsEx.AddElementEx
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineSrcElementsEx.AddElementEx
+- IMFMediaEngineSrcElementsEx.AddElementEx
 targetos: Windows
 req.typenames: 
 req.redist: 

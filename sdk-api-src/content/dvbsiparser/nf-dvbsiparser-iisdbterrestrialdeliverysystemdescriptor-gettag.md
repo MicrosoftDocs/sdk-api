@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetTag
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetTag (dvbsiparser.h)
-
 description: Gets the tag that identifies an Integrated Digital Services Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 15b70e2e-21e0-406c-9d7a-32031114d50b
-
 ms.date: 12/05/2018
 ms.keywords: GetTag, GetTag method [Microsoft TV Technologies], GetTag method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetTag method, IIsdbTerrestrialDeliverySystemDescriptor.GetTag, IIsdbTerrestrialDeliverySystemDescriptor::GetTag, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetTag, mstv.iisdbterrestrialdeliverysystemdescriptor_gettag
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTag"
+f1_keywords:
+- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetTag
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTerrestrialDeliverySystemDescriptor.GetTag
+- IIsdbTerrestrialDeliverySystemDescriptor.GetTag
 targetos: Windows
 req.typenames: 
 req.redist: 

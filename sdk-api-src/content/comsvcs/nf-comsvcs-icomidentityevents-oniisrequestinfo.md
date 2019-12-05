@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComIdentityEvents.OnIISRequestInfo
 title: IComIdentityEvents::OnIISRequestInfo (comsvcs.h)
-
 description: Generated when an activity is part of an ASP page.
 old-location: cos\icomidentityevents_oniisrequestinfo.htm
 tech.root: cossdk
 ms.assetid: 88beaef9-d042-4836-8223-6063c87ba06a
-
 ms.date: 12/05/2018
 ms.keywords: IComIdentityEvents interface [COM+],OnIISRequestInfo method, IComIdentityEvents.OnIISRequestInfo, IComIdentityEvents::OnIISRequestInfo, OnIISRequestInfo, OnIISRequestInfo method [COM+], OnIISRequestInfo method [COM+],IComIdentityEvents interface, _dtc_IComIdentityEvents_OnIISRequestInfo, comsvcs/IComIdentityEvents::OnIISRequestInfo, cos.icomidentityevents_oniisrequestinfo
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComIdentityEvents.OnIISRequestInfo"
+f1_keywords:
+- comsvcs/IComIdentityEvents.OnIISRequestInfo
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComIdentityEvents.OnIISRequestInfo
+- IComIdentityEvents.OnIISRequestInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

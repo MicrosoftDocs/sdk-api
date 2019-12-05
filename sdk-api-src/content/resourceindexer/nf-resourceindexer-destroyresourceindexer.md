@@ -1,19 +1,17 @@
 ---
 UID: NF:resourceindexer.DestroyResourceIndexer
 title: DestroyResourceIndexer function (resourceindexer.h)
-
 description: Frees the computational resources associated with the specified resource indexer.
 old-location: menurc\destroyresourceindexer.htm
 tech.root: menurc
 ms.assetid: 42DCE463-B883-4564-9B7E-DEFF0A17CC1C
-
 ms.date: 12/05/2018
 ms.keywords: DestroyResourceIndexer, DestroyResourceIndexer function [Menus and Other Resources], menurc.destroyresourceindexer, resourceindexer/DestroyResourceIndexer
 ms.topic: function
-f1_keywords: 
- - "resourceindexer/DestroyResourceIndexer"
+f1_keywords:
+- resourceindexer/DestroyResourceIndexer
 dev_langs:
- - c++
+- c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mrmsupport.lib
 req.dll: Mrmsupport.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mrmsupport.dll
+- mrmsupport.dll
 api_name:
- - DestroyResourceIndexer
+- DestroyResourceIndexer
 targetos: Windows
 req.typenames: 
 req.redist: 

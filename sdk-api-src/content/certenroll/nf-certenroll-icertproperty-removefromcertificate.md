@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertProperty.RemoveFromCertificate
 title: ICertProperty::RemoveFromCertificate (certenroll.h)
-
 description: Disassociates a property from a certificate.
 old-location: security\icertproperty_removefromcertificate_method.htm
 tech.root: seccertenroll
 ms.assetid: 9f3e21ec-f537-40ba-84a3-b71c7aa50e84
-
 ms.date: 12/05/2018
 ms.keywords: ICertProperty interface [Security],RemoveFromCertificate method, ICertProperty.RemoveFromCertificate, ICertProperty::RemoveFromCertificate, RemoveFromCertificate, RemoveFromCertificate method [Security], RemoveFromCertificate method [Security],ICertProperty interface, certenroll/ICertProperty::RemoveFromCertificate, security.icertproperty_removefromcertificate_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertProperty.RemoveFromCertificate"
+f1_keywords:
+- certenroll/ICertProperty.RemoveFromCertificate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICertProperty.RemoveFromCertificate
+- ICertProperty.RemoveFromCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

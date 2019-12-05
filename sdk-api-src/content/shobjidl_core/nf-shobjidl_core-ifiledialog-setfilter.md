@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetFilter
 title: IFileDialog::SetFilter (shobjidl_core.h)
-
 description: SetFilter is no longer available for use as of Windows 7.
 old-location: shell\IFileDialog_SetFilter.htm
 tech.root: shell
 ms.assetid: 6f650ae2-77c4-496c-8b8b-279c69eaaf65
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetFilter method, IFileDialog.SetFilter, IFileDialog::SetFilter, SetFilter, SetFilter method [Windows Shell], SetFilter method [Windows Shell],IFileDialog interface, _shell_IFileDialog_SetFilter, shell.IFileDialog_SetFilter, shobjidl_core/IFileDialog::SetFilter
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetFilter"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetFilter
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetFilter
+- IFileDialog.SetFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

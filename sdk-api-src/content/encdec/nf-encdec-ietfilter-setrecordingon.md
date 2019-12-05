@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IETFilter.SetRecordingOn
 title: IETFilter::SetRecordingOn (encdec.h)
-
 description: The SetRecordingOn method signals to the Encrypter/Tagger filter that the Video Control is about to start or stop recording.
 old-location: mstv\ietfilter_setrecordingon.htm
 tech.root: mstv
 ms.assetid: 4579b897-8b68-4b95-8dd4-e5fd94195742
-
 ms.date: 12/05/2018
 ms.keywords: IETFilter interface [Microsoft TV Technologies],SetRecordingOn method, IETFilter.SetRecordingOn, IETFilter::SetRecordingOn, IETFilterSetRecordingOn, SetRecordingOn, SetRecordingOn method [Microsoft TV Technologies], SetRecordingOn method [Microsoft TV Technologies],IETFilter interface, encdec/IETFilter::SetRecordingOn, mstv.ietfilter_setrecordingon
 ms.topic: method
-f1_keywords: 
- - "encdec/IETFilter.SetRecordingOn"
+f1_keywords:
+- encdec/IETFilter.SetRecordingOn
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IETFilter.SetRecordingOn
+- IETFilter.SetRecordingOn
 targetos: Windows
 req.typenames: 
 req.redist: 

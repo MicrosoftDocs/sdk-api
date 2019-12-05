@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Clone
 title: IEnumExtraSearch::Clone (shobjidl_core.h)
-
 description: Used to request a duplicate of the enumerator object to preserve its current state.
 old-location: shell\IEnumExtraSearch_Clone.htm
 tech.root: shell
 ms.assetid: 9d766cf9-784b-4e89-ad58-bab6415630fe
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumExtraSearch interface, IEnumExtraSearch interface [Windows Shell],Clone method, IEnumExtraSearch.Clone, IEnumExtraSearch::Clone, _win32_IEnumExtraSearch_Clone, shell.IEnumExtraSearch_Clone, shobjidl_core/IEnumExtraSearch::Clone
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumExtraSearch.Clone"
+f1_keywords:
+- shobjidl_core/IEnumExtraSearch.Clone
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IEnumExtraSearch.Clone
+- IEnumExtraSearch.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

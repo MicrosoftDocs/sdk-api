@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IStringTable.AddString
 title: IStringTable::AddString (mmc.h)
-
 description: Enables a snap-in to add a string to the snap-in's string table.
 old-location: mmc\istringtable_addstring.htm
 tech.root: mmc
 ms.assetid: fd4672fb-89d1-4542-b917-58c01290c928
-
 ms.date: 12/05/2018
 ms.keywords: AddString, AddString method [MMC], AddString method [MMC],IStringTable interface, IStringTable interface [MMC],AddString method, IStringTable.AddString, IStringTable::AddString, _slate_istringtable_addstring, mmc.istringtable_addstring, mmc/IStringTable::AddString
 ms.topic: method
-f1_keywords: 
- - "mmc/IStringTable.AddString"
+f1_keywords:
+- mmc/IStringTable.AddString
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IStringTable.AddString
+- IStringTable.AddString
 targetos: Windows
 req.typenames: 
 req.redist: 

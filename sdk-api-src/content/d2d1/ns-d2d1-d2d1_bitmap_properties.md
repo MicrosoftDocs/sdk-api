@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1.D2D1_BITMAP_PROPERTIES
 title: D2D1_BITMAP_PROPERTIES (d2d1.h)
-
 description: Describes the pixel format and dpi of a bitmap.
 old-location: direct2d\D2D1_BITMAP_PROPERTIES.htm
 tech.root: Direct2D
 ms.assetid: 050246fd-f91a-4a2a-858a-5f0447e3ecbf
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_BITMAP_PROPERTIES, D2D1_BITMAP_PROPERTIES structure [Direct2D], d2d1/D2D1_BITMAP_PROPERTIES, direct2d.D2D1_BITMAP_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "d2d1/D2D1_BITMAP_PROPERTIES"
+f1_keywords:
+- d2d1/D2D1_BITMAP_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_BITMAP_PROPERTIES
+- D2D1_BITMAP_PROPERTIES
 targetos: Windows
 req.typenames: D2D1_BITMAP_PROPERTIES
 req.redist: 

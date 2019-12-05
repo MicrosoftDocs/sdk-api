@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddress.get_ServiceProviderName
 title: ITAddress::get_ServiceProviderName (tapi3if.h)
-
 description: The get_ServiceProviderName method gets the name of the Telephony Service Provider (TSP) that supports this address:\_for example, Unimdm.tsp for the Unimodem service provider or H323.tsp for the H323 service provider.
 old-location: tapi3\itaddress_get_serviceprovidername.htm
 tech.root: Tapi
 ms.assetid: fa49d256-58e0-4d7e-a121-387a3a704519
-
 ms.date: 12/05/2018
 ms.keywords: ITAddress interface [TAPI 2.2],get_ServiceProviderName method, ITAddress.get_ServiceProviderName, ITAddress::get_ServiceProviderName, _tapi3_itaddress_get_serviceprovidername, get_ServiceProviderName, get_ServiceProviderName method [TAPI 2.2], get_ServiceProviderName method [TAPI 2.2],ITAddress interface, tapi3.itaddress_get_serviceprovidername, tapi3if/ITAddress::get_ServiceProviderName
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddress.get_ServiceProviderName"
+f1_keywords:
+- tapi3if/ITAddress.get_ServiceProviderName
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddress.get_ServiceProviderName
+- ITAddress.get_ServiceProviderName
 targetos: Windows
 req.typenames: 
 req.redist: 

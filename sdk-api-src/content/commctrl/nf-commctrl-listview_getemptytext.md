@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_GetEmptyText
 title: ListView_GetEmptyText macro (commctrl.h)
-
 description: Gets the text meant for display when the list-view control appears empty. Use this macro or send the LVM_GETEMPTYTEXT message explicitly.
 old-location: controls\ListView_GetEmptyText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getemptytext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_GetEmptyText, ListView_GetEmptyText macro [Windows Controls], _shell_ListView_GetEmptyText, _shell_ListView_GetEmptyText_cpp, commctrl/ListView_GetEmptyText, controls.ListView_GetEmptyText, controls._shell_ListView_GetEmptyText
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_GetEmptyText"
+f1_keywords:
+- commctrl/ListView_GetEmptyText
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_GetEmptyText
+- ListView_GetEmptyText
 targetos: Windows
 req.typenames: 
 req.redist: 

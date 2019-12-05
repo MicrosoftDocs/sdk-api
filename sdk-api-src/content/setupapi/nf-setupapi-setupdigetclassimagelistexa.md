@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetClassImageListExA
 title: SetupDiGetClassImageListExA function (setupapi.h)
-
 description: The SetupDiGetClassImageListEx function builds an image list of bitmaps for every class installed on a local or remote system.
 old-location: devinst\setupdigetclassimagelistex.htm
 tech.root: devinst
 ms.assetid: f9cf7904-3fda-4f7f-bb05-3634fd1c9af3
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassImageListEx, SetupDiGetClassImageListEx function [Device and Driver Installation], SetupDiGetClassImageListExA, SetupDiGetClassImageListExW, devinst.setupdigetclassimagelistex, di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml, setupapi/SetupDiGetClassImageListEx
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassImageListEx
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -40,8 +38,7 @@ api_location:
 - Setupapi.lib
 - Setupapi.dll
 api_name:
-- SetupDiGetClassImageListEx
- - SetupDiGetClassImageListExA
+- SetupDiGetClassImageListEx - SetupDiGetClassImageListExA
 targetos: Windows
 req.typenames: 
 req.redist: 

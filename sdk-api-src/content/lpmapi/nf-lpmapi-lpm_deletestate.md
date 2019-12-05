@@ -1,19 +1,17 @@
 ---
 UID: NF:lpmapi.LPM_DeleteState
 title: LPM_DeleteState function (lpmapi.h)
-
 description: The LPM_DeleteState function is called by the PCM to delete the LPMs' RSVP state information.
 old-location: qos\lpm_deletestate.htm
 tech.root: QOS
 ms.assetid: 54251572-22a6-4652-a88c-7ed696911c18
-
 ms.date: 12/05/2018
 ms.keywords: ADM_CTRL_FAILED, FLOW_DURATION, LPM_DeleteState, LPM_DeleteState callback, LPM_DeleteState callback function [QOS], RCVD_PATH_TEAR, RCVD_RESV_TEAR, STATE_TIMEOUT, _gqos_lpm_deletestate, lpmapi/LPM_DeleteState, qos.lpm_deletestate
 ms.topic: function
-f1_keywords: 
- - "lpmapi/LPM_DeleteState"
+f1_keywords:
+- lpmapi/LPM_DeleteState
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - LPM_DeleteState
+- LPM_DeleteState
 targetos: Windows
 req.typenames: 
 req.redist: 

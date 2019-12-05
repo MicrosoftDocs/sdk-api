@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.FindByUDN
 title: IUPnPDeviceFinder::FindByUDN (upnp.h)
-
 description: The FindByUDN method searches synchronously for a device by its unique device name (UDN).
 old-location: upnp\iupnpdevicefinder_findbyudn.htm
 tech.root: upnp
 ms.assetid: 88d4e004-7df8-45f4-b6ec-9dcf3f0ccfeb
-
 ms.date: 12/05/2018
 ms.keywords: FindByUDN, FindByUDN method [UPnP APIs], FindByUDN method [UPnP APIs],IUPnPDeviceFinder interface, IUPnPDeviceFinder interface [UPnP APIs],FindByUDN method, IUPnPDeviceFinder.FindByUDN, IUPnPDeviceFinder::FindByUDN, _upnp_iupnpdevicefinder_findbyudn, upnp.iupnpdevicefinder_findbyudn, upnp/IUPnPDeviceFinder::FindByUDN
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDeviceFinder.FindByUDN"
+f1_keywords:
+- upnp/IUPnPDeviceFinder.FindByUDN
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDeviceFinder.FindByUDN
+- IUPnPDeviceFinder.FindByUDN
 targetos: Windows
 req.typenames: 
 req.redist: 

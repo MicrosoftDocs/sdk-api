@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.get_ProviderNameWStr
 title: IEnroll::get_ProviderNameWStr (xenroll.h)
-
 description: Sets or retrieves the name of the cryptographic service provider (CSP) to use.
 old-location: security\ienroll4_providernamewstr.htm
 tech.root: SecCrypto
 ms.assetid: 42300501-2a64-4433-81e9-6ee3fc31b094
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],ProviderNameWStr property, IEnroll.ProviderNameWStr, IEnroll.get_ProviderNameWStr, IEnroll::ProviderNameWStr, IEnroll::get_ProviderNameWStr, IEnroll::put_ProviderNameWStr, ProviderNameWStr property [Security], ProviderNameWStr property [Security],IEnroll interface, get_ProviderNameWStr, security.ienroll4_providernamewstr, xenroll/IEnroll::ProviderNameWStr, xenroll/IEnroll::get_ProviderNameWStr, xenroll/IEnroll::put_ProviderNameWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.ProviderNameWStr"
+f1_keywords:
+- xenroll/IEnroll.ProviderNameWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.ProviderNameWStr
- - IEnroll.get_ProviderNameWStr
- - IEnroll.put_ProviderNameWStr
+- IEnroll.ProviderNameWStr
+- IEnroll.get_ProviderNameWStr
+- IEnroll.put_ProviderNameWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

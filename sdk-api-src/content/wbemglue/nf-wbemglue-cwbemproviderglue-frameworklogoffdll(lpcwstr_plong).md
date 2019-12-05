@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR,PLONG)
 title: CWbemProviderGlue::FrameworkLogoffDLL(LPCWSTR,PLONG) (wbemglue.h)
-
 description: The FrameworkLogoffDLL method is called by DllCanUnloadNow to determine whether the provider server is not in use and can be unloaded.
 old-location: wmi\cwbemproviderglue_frameworklogoffdll.htm
 tech.root: WmiSdk
 ms.assetid: 5157d823-d3a1-46d2-8ae8-07e904001a14
-
 ms.date: 12/05/2018
-ms.keywords: "?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLogoffDLL method, CWbemProviderGlue.FrameworkLogoffDLL, CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR,PLONG), CWbemProviderGlue::FrameworkLogoffDLL, CWbemProviderGlue::FrameworkLogoffDLL(LPCWSTR,PLONG), FrameworkLogoffDLL, FrameworkLogoffDLL method [Windows Management Instrumentation], FrameworkLogoffDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogoffdll, wbemglue/CWbemProviderGlue::FrameworkLogoffDLL, wmi.cwbemproviderglue_frameworklogoffdll"
+ms.keywords: ?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLogoffDLL method, CWbemProviderGlue.FrameworkLogoffDLL, CWbemProviderGlue.FrameworkLogoffDLL(LPCWSTR,PLONG), CWbemProviderGlue::FrameworkLogoffDLL, CWbemProviderGlue::FrameworkLogoffDLL(LPCWSTR,PLONG), FrameworkLogoffDLL, FrameworkLogoffDLL method [Windows Management Instrumentation], FrameworkLogoffDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogoffdll, wbemglue/CWbemProviderGlue::FrameworkLogoffDLL, wmi.cwbemproviderglue_frameworklogoffdll
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.FrameworkLogoffDLL"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.FrameworkLogoffDLL
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.FrameworkLogoffDLL
- - ?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z
- - ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z
+- CWbemProviderGlue.FrameworkLogoffDLL
+- ?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z
+- ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

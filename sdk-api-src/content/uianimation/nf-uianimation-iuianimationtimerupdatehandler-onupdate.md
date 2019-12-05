@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.OnUpdate
 title: IUIAnimationTimerUpdateHandler::OnUpdate (uianimation.h)
-
 description: Handles update events from the timer.
 old-location: uianimation\iuianimationtimerupdatehandler_onupdate.htm
 tech.root: UIAnimation
 ms.assetid: 06daa961-5f92-451f-958a-cf68f8ae2b0a
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTimerUpdateHandler interface [Windows Animation],OnUpdate method, IUIAnimationTimerUpdateHandler.OnUpdate, IUIAnimationTimerUpdateHandler::OnUpdate, OnUpdate, OnUpdate method [Windows Animation], OnUpdate method [Windows Animation],IUIAnimationTimerUpdateHandler interface, uianimation.iuianimationtimerupdatehandler_onupdate, uianimation/IUIAnimationTimerUpdateHandler::OnUpdate
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimerUpdateHandler.OnUpdate"
+f1_keywords:
+- uianimation/IUIAnimationTimerUpdateHandler.OnUpdate
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerUpdateHandler.OnUpdate
+- IUIAnimationTimerUpdateHandler.OnUpdate
 targetos: Windows
 req.typenames: 
 req.redist: 

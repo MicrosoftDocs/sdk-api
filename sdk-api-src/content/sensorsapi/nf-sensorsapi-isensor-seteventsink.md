@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.SetEventSink
 title: ISensor::SetEventSink (sensorsapi.h)
-
 description: Specifies the interface through which to receive sensor event notifications.
 old-location: winsensors_com_ref\isensor_seteventsink.htm
 tech.root: SensorsAPI
 ms.assetid: 8e2f7edc-894f-4258-8948-2a3d4df532c3
-
 ms.date: 12/05/2018
 ms.keywords: ISensor interface,SetEventSink method, ISensor.SetEventSink, ISensor::SetEventSink, SetEventSink, SetEventSink method, SetEventSink method,ISensor interface, sensorsapi/ISensor::SetEventSink, winsensors_com_ref.isensor_seteventsink
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.SetEventSink"
+f1_keywords:
+- sensorsapi/ISensor.SetEventSink
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.SetEventSink
+- ISensor.SetEventSink
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IBPCSatelliteTuner
 title: IBPCSatelliteTuner (strmif.h)
-
 description: Note  This interface is not implemented and has been deprecated. The IBPCSatelliteTuner interface supports satellite television tuning.
 old-location: dshow\ibpcsatellitetuner.htm
 tech.root: DirectShow
 ms.assetid: 61b14331-851b-4579-8995-06c6c4e8c8b7
-
 ms.date: 12/05/2018
 ms.keywords: IBPCSatelliteTuner, IBPCSatelliteTuner interface [DirectShow], IBPCSatelliteTuner interface [DirectShow],described, IBPCSatelliteTunerInterface, dshow.ibpcsatellitetuner, strmif/IBPCSatelliteTuner
 ms.topic: interface
-f1_keywords: 
- - "strmif/IBPCSatelliteTuner"
+f1_keywords:
+- strmif/IBPCSatelliteTuner
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - IBPCSatelliteTuner
+- IBPCSatelliteTuner
 targetos: Windows
 req.typenames: 
 req.redist: 

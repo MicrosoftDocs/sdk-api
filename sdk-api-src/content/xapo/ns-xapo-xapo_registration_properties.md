@@ -1,19 +1,17 @@
 ---
 UID: NS:xapo.XAPO_REGISTRATION_PROPERTIES
 title: XAPO_REGISTRATION_PROPERTIES (xapo.h)
-
 description: Describes general characteristics of an XAPO. Used with IXAPO::GetRegistrationProperties, CXAPOParametersBase::CXAPOParametersBase, and CXAPOBase::CXAPOBase.
 old-location: xaudio2\xapo_registration_properties.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapo.XAPO_REGISTRATION_PROPERTIES
-
 ms.date: 12/05/2018
 ms.keywords: XAPO_REGISTRATION_PROPERTIES, XAPO_REGISTRATION_PROPERTIES structure [XAudio2 Audio Mixing APIs], xapo/XAPO_REGISTRATION_PROPERTIES, xaudio2.xapo_registration_properties
 ms.topic: struct
-f1_keywords: 
- - "xapo/XAPO_REGISTRATION_PROPERTIES"
+f1_keywords:
+- xapo/XAPO_REGISTRATION_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: xapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xapo.h
+- xapo.h
 api_name:
- - XAPO_REGISTRATION_PROPERTIES
+- XAPO_REGISTRATION_PROPERTIES
 targetos: Windows
 req.typenames: XAPO_REGISTRATION_PROPERTIES
 req.redist: 

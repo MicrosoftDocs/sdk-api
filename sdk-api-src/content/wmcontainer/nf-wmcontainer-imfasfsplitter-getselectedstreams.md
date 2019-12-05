@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFSplitter.GetSelectedStreams
 title: IMFASFSplitter::GetSelectedStreams (wmcontainer.h)
-
 description: Gets a list of currently selected streams.
 old-location: mf\imfasfsplitter_getselectedstreams.htm
 tech.root: medfound
 ms.assetid: f2c12e45-f320-43e0-abf1-36993dfed32d
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectedStreams, GetSelectedStreams method [Media Foundation], GetSelectedStreams method [Media Foundation],IMFASFSplitter interface, IMFASFSplitter interface [Media Foundation],GetSelectedStreams method, IMFASFSplitter.GetSelectedStreams, IMFASFSplitter::GetSelectedStreams, f2c12e45-f320-43e0-abf1-36993dfed32d, mf.imfasfsplitter_getselectedstreams, wmcontainer/IMFASFSplitter::GetSelectedStreams
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFSplitter.GetSelectedStreams"
+f1_keywords:
+- wmcontainer/IMFASFSplitter.GetSelectedStreams
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFSplitter.GetSelectedStreams
+- IMFASFSplitter.GetSelectedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

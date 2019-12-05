@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromDec
 title: VarUI4FromDec function (oleauto.h)
-
 description: Converts a decimal value to an unsigned long value.
 old-location: automat\varui4fromdec.htm
 tech.root: automat
 ms.assetid: dd36f6f5-7f33-43a7-99b1-16497e26bebb
-
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromDec, VarUI4FromDec function [Automation], _oa96_VarUI4FromDec, automat.varui4fromdec, oleauto/VarUI4FromDec
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromDec"
+f1_keywords:
+- oleauto/VarUI4FromDec
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromDec
+- VarUI4FromDec
 targetos: Windows
 req.typenames: 
 req.redist: 

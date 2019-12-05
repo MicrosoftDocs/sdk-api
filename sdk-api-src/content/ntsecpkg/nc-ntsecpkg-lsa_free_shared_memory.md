@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.LSA_FREE_SHARED_MEMORY
 title: LSA_FREE_SHARED_MEMORY (ntsecpkg.h)
-
 description: The FreeSharedMemory function frees a block of shared memory previously allocated by the AllocateSharedMemory function.
 old-location: security\freesharedmemory.htm
 tech.root: SecAuthN
 ms.assetid: def16ef0-4ae7-43c5-99c8-493bdf0c6a97
-
 ms.date: 12/05/2018
 ms.keywords: FreeSharedMemory, FreeSharedMemory callback function [Security], LSA_FREE_SHARED_MEMORY, LSA_FREE_SHARED_MEMORY callback, _ssp_freesharedmemory, ntsecpkg/FreeSharedMemory, security.freesharedmemory
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/FreeSharedMemory
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

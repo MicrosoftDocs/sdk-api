@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_invitation_response_type_tag
 title: PEER_INVITATION_RESPONSE_TYPE (p2p.h)
-
 description: Defines the type of response received to an invitation to start a Peer Collaboration activity.
 old-location: p2p\peer_invitation_response_type.htm
 tech.root: P2PSdk
 ms.assetid: ad456eb5-a28c-4826-976f-e38e2f269ff0
-
 ms.date: 12/05/2018
 ms.keywords: PEER_INVITATION_RESPONSE_ACCEPTED, PEER_INVITATION_RESPONSE_DECLINED, PEER_INVITATION_RESPONSE_ERROR, PEER_INVITATION_RESPONSE_EXPIRED, PEER_INVITATION_RESPONSE_TYPE, PEER_INVITATION_RESPONSE_TYPE enumeration [Peer Networking], p2p.peer_invitation_response_type, p2p/PEER_INVITATION_RESPONSE_ACCEPTED, p2p/PEER_INVITATION_RESPONSE_DECLINED, p2p/PEER_INVITATION_RESPONSE_ERROR, p2p/PEER_INVITATION_RESPONSE_EXPIRED, p2p/PEER_INVITATION_RESPONSE_TYPE
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_INVITATION_RESPONSE_TYPE"
+f1_keywords:
+- p2p/PEER_INVITATION_RESPONSE_TYPE
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_INVITATION_RESPONSE_TYPE
+- PEER_INVITATION_RESPONSE_TYPE
 targetos: Windows
 req.typenames: PEER_INVITATION_RESPONSE_TYPE
 req.redist: 

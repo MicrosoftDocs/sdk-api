@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassificationManager.CancelClassification
 title: IFsrmClassificationManager::CancelClassification (fsrmpipeline.h)
-
 description: Cancels classification if it is running.
 old-location: fsrm\ifsrmclassificationmanager_cancelclassification.htm
 tech.root: fsrm
 ms.assetid: ff26acfd-71ff-49f4-a7ea-60825ff42f3b
-
 ms.date: 12/05/2018
 ms.keywords: CancelClassification, CancelClassification method [File Server Resource Manager], CancelClassification method [File Server Resource Manager],FsrmClassificationManager class, CancelClassification method [File Server Resource Manager],IFsrmClassificationManager interface, CancelClassification method [File Server Resource Manager],IFsrmClassificationManager2 interface, FsrmClassificationManager class [File Server Resource Manager],CancelClassification method, IFsrmClassificationManager interface [File Server Resource Manager],CancelClassification method, IFsrmClassificationManager.CancelClassification, IFsrmClassificationManager2 interface [File Server Resource Manager],CancelClassification method, IFsrmClassificationManager2::CancelClassification, IFsrmClassificationManager::CancelClassification, fs.ifsrmclassificationmanager_cancelclassification, fsrm.ifsrmclassificationmanager_cancelclassification, fsrmpipeline/IFsrmClassificationManager2::CancelClassification, fsrmpipeline/IFsrmClassificationManager::CancelClassification
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassificationManager.CancelClassification"
+f1_keywords:
+- fsrmpipeline/IFsrmClassificationManager.CancelClassification
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassificationManager.CancelClassification
- - IFsrmClassificationManager2.CancelClassification
- - FsrmClassificationManager.CancelClassification
+- IFsrmClassificationManager.CancelClassification
+- IFsrmClassificationManager2.CancelClassification
+- FsrmClassificationManager.CancelClassification
 targetos: Windows
 req.typenames: 
 req.redist: 

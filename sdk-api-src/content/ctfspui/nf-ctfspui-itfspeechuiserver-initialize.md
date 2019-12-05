@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfspui.ITfSpeechUIServer.Initialize
 title: ITfSpeechUIServer::Initialize (ctfspui.h)
-
 description: ITfSpeechUIServer::Initialize method
 old-location: tsf\itfspeechuiserver_initialize.htm
 tech.root: TSF
 ms.assetid: 5a51b8c7-3d29-4566-8cfa-f76dfd067aa8
-
 ms.date: 12/05/2018
 ms.keywords: ITfSpeechUIServer interface [Text Services Framework],Initialize method, ITfSpeechUIServer.Initialize, ITfSpeechUIServer::Initialize, Initialize, Initialize method [Text Services Framework], Initialize method [Text Services Framework],ITfSpeechUIServer interface, ctfspui/ITfSpeechUIServer::Initialize, tsf.itfspeechuiserver_initialize
 ms.topic: method
-f1_keywords: 
- - "ctfspui/ITfSpeechUIServer.Initialize"
+f1_keywords:
+- ctfspui/ITfSpeechUIServer.Initialize
 dev_langs:
- - c++
+- c++
 req.header: ctfspui.h
 req.include-header: Ctfutb.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sptip.dll
+- sptip.dll
 api_name:
- - ITfSpeechUIServer.Initialize
+- ITfSpeechUIServer.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

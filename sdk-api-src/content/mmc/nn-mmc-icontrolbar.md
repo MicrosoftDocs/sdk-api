@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IControlbar
 title: IControlbar (mmc.h)
-
 description: The IControlbar interface provides a way to create toolbars and other controls.
 old-location: mmc\icontrolbar.htm
 tech.root: mmc
 ms.assetid: 8ba12331-34e8-46ff-ab66-a6ada3d731f6
-
 ms.date: 12/05/2018
 ms.keywords: IControlbar, IControlbar interface [MMC], IControlbar interface [MMC],described, _slate_icontrolbar, mmc.icontrolbar, mmc/IControlbar
 ms.topic: interface
-f1_keywords: 
- - "mmc/IControlbar"
+f1_keywords:
+- mmc/IControlbar
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IControlbar
+- IControlbar
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdate.get_SupersededUpdateIDs
 title: IUpdate::get_SupersededUpdateIDs (wuapi.h)
-
 description: Gets a collection of update identifiers. This collection of identifiers specifies the updates that are superseded by the update.
 old-location: wua\iupdate_supersededupdateids.htm
 tech.root: Wua_Sdk
 ms.assetid: b819e321-3f8d-4d8f-8f6d-16792af990e5
-
 ms.date: 12/05/2018
 ms.keywords: IUpdate interface [Windows Update Agent],SupersededUpdateIDs property, IUpdate.SupersededUpdateIDs, IUpdate.get_SupersededUpdateIDs, IUpdate::SupersededUpdateIDs, IUpdate::get_SupersededUpdateIDs, SupersededUpdateIDs property [Windows Update Agent], SupersededUpdateIDs property [Windows Update Agent],IUpdate interface, get_SupersededUpdateIDs, wua.iupdate_supercededupdateids, wua.iupdate_supersededupdateids, wuapi/IUpdate::SupersededUpdateIDs, wuapi/IUpdate::get_SupersededUpdateIDs
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdate.SupersededUpdateIDs"
+f1_keywords:
+- wuapi/IUpdate.SupersededUpdateIDs
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdate.SupersededUpdateIDs
- - IUpdate.get_SupersededUpdateIDs
+- IUpdate.SupersededUpdateIDs
+- IUpdate.get_SupersededUpdateIDs
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN
 title: PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN (winbio_adapter.h)
-
 description: Gives the engine adapter additional information about an enrollment operation.
 old-location: secbiomet\engineadaptersetenrollmentparameters.htm
 tech.root: SecBioMet
 ms.assetid: BB353505-F861-47BD-A617-42F0AA39251E
-
 ms.date: 12/05/2018
 ms.keywords: EngineAdapterSetEnrollmentParameters, EngineAdapterSetEnrollmentParameters callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN, PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN callback, secbiomet.engineadaptersetenrollmentparameters, winbio_adapter/EngineAdapterSetEnrollmentParameters
 ms.topic: callback
 f1_keywords:
 - winbio_adapter/EngineAdapterSetEnrollmentParameters
 dev_langs:
- - c++
+- c++
 req.header: winbio_adapter.h
 req.include-header: Winbio_adapter.h
 req.target-type: Windows

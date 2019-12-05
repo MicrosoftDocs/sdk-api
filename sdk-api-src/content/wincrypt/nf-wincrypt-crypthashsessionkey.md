@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptHashSessionKey
 title: CryptHashSessionKey function (wincrypt.h)
-
 description: Computes the cryptographic hash of a session key object.
 old-location: security\crypthashsessionkey.htm
 tech.root: SecCrypto
 ms.assetid: 75781993-7faf-4149-80cc-ae50dbd4de2a
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_LITTLE_ENDIAN, CryptHashSessionKey, CryptHashSessionKey function [Security], _crypto2_crypthashsessionkey, security.crypthashsessionkey, wincrypt/CryptHashSessionKey
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptHashSessionKey"
+f1_keywords:
+- wincrypt/CryptHashSessionKey
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptHashSessionKey
+- CryptHashSessionKey
 targetos: Windows
 req.typenames: 
 req.redist: 

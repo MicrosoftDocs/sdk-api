@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.ElementFromPoint
 title: IUIAutomation::ElementFromPoint (uiautomationclient.h)
-
 description: Retrieves the UI Automation element at the specified point on the desktop.
 old-location: winauto\uiauto_IUIAutomation_ElementFromPoint.htm
 tech.root: WinAuto
 ms.assetid: 4233cc97-94c8-4861-a364-823cca1e5ff8
-
 ms.date: 12/05/2018
 ms.keywords: ElementFromPoint, ElementFromPoint method [Windows Accessibility], ElementFromPoint method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],ElementFromPoint method, IUIAutomation.ElementFromPoint, IUIAutomation::ElementFromPoint, uiauto.uiauto_IUIAutomation_ElementFromPoint, uiauto_IUIAutomation_ElementFromPoint, uiautomationclient/IUIAutomation::ElementFromPoint, winauto.uiauto_IUIAutomation_ElementFromPoint
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.ElementFromPoint"
+f1_keywords:
+- uiautomationclient/IUIAutomation.ElementFromPoint
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.ElementFromPoint
+- IUIAutomation.ElementFromPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

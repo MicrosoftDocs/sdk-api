@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetSessionCapabilities
 title: IMFMediaSession::GetSessionCapabilities (mfidl.h)
-
 description: Retrieves the capabilities of the Media Session, based on the current presentation.
 old-location: mf\imfmediasession_getsessioncapabilities.htm
 tech.root: medfound
 ms.assetid: 3534cfb9-23ff-42a6-a3db-b5032d427cf2
-
 ms.date: 12/05/2018
 ms.keywords: 3534cfb9-23ff-42a6-a3db-b5032d427cf2, GetSessionCapabilities, GetSessionCapabilities method [Media Foundation], GetSessionCapabilities method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetSessionCapabilities method, IMFMediaSession.GetSessionCapabilities, IMFMediaSession::GetSessionCapabilities, MFSESSIONCAP_PAUSE, MFSESSIONCAP_RATE_FORWARD, MFSESSIONCAP_RATE_REVERSE, MFSESSIONCAP_SEEK, MFSESSIONCAP_START, mf.imfmediasession_getsessioncapabilities, mfidl/IMFMediaSession::GetSessionCapabilities
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.GetSessionCapabilities"
+f1_keywords:
+- mfidl/IMFMediaSession.GetSessionCapabilities
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.GetSessionCapabilities
+- IMFMediaSession.GetSessionCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

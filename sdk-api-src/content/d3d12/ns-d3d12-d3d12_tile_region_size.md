@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_TILE_REGION_SIZE
 title: D3D12_TILE_REGION_SIZE (d3d12.h)
-
 description: Describes the size of a tiled region.
 old-location: direct3d12\d3d12_tile_region_size.htm
 tech.root: direct3d12
 ms.assetid: 6F71BD17-09B5-4638-9CD4-E2D3BBA97044
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_TILE_REGION_SIZE, D3D12_TILE_REGION_SIZE structure, d3d12/D3D12_TILE_REGION_SIZE, direct3d12.d3d12_tile_region_size
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_TILE_REGION_SIZE"
+f1_keywords:
+- d3d12/D3D12_TILE_REGION_SIZE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_TILE_REGION_SIZE
+- D3D12_TILE_REGION_SIZE
 targetos: Windows
 req.typenames: D3D12_TILE_REGION_SIZE
 req.redist: 

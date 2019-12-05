@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.SetOkButtonLabel
 title: IFileDialog::SetOkButtonLabel (shobjidl_core.h)
-
 description: Sets the text of the Open or Save button.
 old-location: shell\IFileDialog_SetOkButtonLabel.htm
 tech.root: shell
 ms.assetid: 4320de0f-bfa6-4e17-a09d-d004559fae70
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOkButtonLabel method, IFileDialog.SetOkButtonLabel, IFileDialog::SetOkButtonLabel, SetOkButtonLabel, SetOkButtonLabel method [Windows Shell], SetOkButtonLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOkButtonLabel, shell_IFileDialog_SetOkButtonLabel, shobjidl_core/IFileDialog::SetOkButtonLabel
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialog.SetOkButtonLabel"
+f1_keywords:
+- shobjidl_core/IFileDialog.SetOkButtonLabel
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialog.SetOkButtonLabel
+- IFileDialog.SetOkButtonLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceSxsConfig.SxsConfig
 title: IServiceSxsConfig::SxsConfig (comsvcs.h)
-
 description: Configures the side-by-side assembly for the enclosed work.
 old-location: cos\iservicesxsconfig_sxsconfig.htm
 tech.root: cossdk
 ms.assetid: ce067aca-8bb4-48ac-b466-9080d2166bdd
-
 ms.date: 12/05/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsConfig method, IServiceSxsConfig.SxsConfig, IServiceSxsConfig::SxsConfig, SxsConfig, SxsConfig method [COM+], SxsConfig method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsConfig, comsvcs/IServiceSxsConfig::SxsConfig, cos.iservicesxsconfig_sxsconfig
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceSxsConfig.SxsConfig"
+f1_keywords:
+- comsvcs/IServiceSxsConfig.SxsConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceSxsConfig.SxsConfig
+- IServiceSxsConfig.SxsConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

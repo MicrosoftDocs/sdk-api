@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.ComboBox_SelectItemData
 title: ComboBox_SelectItemData macro (windowsx.h)
-
 description: Searches a list in a combo box for an item that has the specified item data. If a matching item is found, the item is selected. You can use this macro or send the CB_SELECTSTRING message explicitly.
 old-location: controls\ComboBox_SelectItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_selectitemdata.htm
-
 ms.date: 12/05/2018
 ms.keywords: ComboBox_SelectItemData, ComboBox_SelectItemData macro [Windows Controls], _win32_ComboBox_SelectItemData, _win32_ComboBox_SelectItemData_cpp, controls.ComboBox_SelectItemData, controls._win32_ComboBox_SelectItemData, windowsx/ComboBox_SelectItemData
 ms.topic: macro
-f1_keywords: 
- - "windowsx/ComboBox_SelectItemData"
+f1_keywords:
+- windowsx/ComboBox_SelectItemData
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - ComboBox_SelectItemData
+- ComboBox_SelectItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

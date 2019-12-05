@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnError
 title: IMFSourceBufferNotify::OnError (mfmediaengine.h)
-
 description: Used to indicate that an error has occurred with the source buffer.
 old-location: mf\imfsourcebuffernotify_onerror.htm
 tech.root: medfound
 ms.assetid: a7187b7a-0090-4380-82bb-a7f72d54232e
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBufferNotify interface [Media Foundation],OnError method, IMFSourceBufferNotify.OnError, IMFSourceBufferNotify::OnError, OnError, OnError method [Media Foundation], OnError method [Media Foundation],IMFSourceBufferNotify interface, mf.imfsourcebuffernotify_onerror, mfmediaengine/IMFSourceBufferNotify::OnError
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBufferNotify.OnError"
+f1_keywords:
+- mfmediaengine/IMFSourceBufferNotify.OnError
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBufferNotify.OnError
+- IMFSourceBufferNotify.OnError
 targetos: Windows
 req.typenames: 
 req.redist: 

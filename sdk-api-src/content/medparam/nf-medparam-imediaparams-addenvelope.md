@@ -1,19 +1,17 @@
 ---
 UID: NF:medparam.IMediaParams.AddEnvelope
 title: IMediaParams::AddEnvelope (medparam.h)
-
 description: The AddEnvelope method adds an envelope to a parameter.
 old-location: dshow\imediaparams_addenvelope.htm
 tech.root: DirectShow
 ms.assetid: acf7c96c-ce0c-40d0-b4a1-dd571fa2a514
-
 ms.date: 12/05/2018
 ms.keywords: AddEnvelope, AddEnvelope method [DirectShow], AddEnvelope method [DirectShow],IMediaParams interface, IMediaParams interface [DirectShow],AddEnvelope method, IMediaParams.AddEnvelope, IMediaParams::AddEnvelope, IMediaParamsAddEnvelope, dshow.imediaparams_addenvelope, medparam/IMediaParams::AddEnvelope
 ms.topic: method
 f1_keywords:
 - medparam/IMediaParams.AddEnvelope
 dev_langs:
- - c++
+- c++
 req.header: medparam.h
 req.include-header: 
 req.target-type: Windows

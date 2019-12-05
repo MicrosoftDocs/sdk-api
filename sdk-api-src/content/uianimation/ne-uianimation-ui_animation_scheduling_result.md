@@ -1,19 +1,17 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0002_0002
 title: UI_ANIMATION_SCHEDULING_RESULT (uianimation.h)
-
 description: Defines results for storyboard scheduling.
 old-location: uianimation\ui_animation_scheduling_result.htm
 tech.root: UIAnimation
 ms.assetid: 2d62589a-9121-4af6-b704-566a28dcc21e
-
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED, UI_ANIMATION_SCHEDULING_DEFERRED, UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY, UI_ANIMATION_SCHEDULING_RESULT, UI_ANIMATION_SCHEDULING_RESULT enumeration [Windows Animation], UI_ANIMATION_SCHEDULING_SUCCEEDED, UI_ANIMATION_SCHEDULING_UNEXPECTED_FAILURE, uianimation.ui_animation_scheduling_result, uianimation/UI_ANIMATION_SCHEDULING_ALREADY_SCHEDULED, uianimation/UI_ANIMATION_SCHEDULING_DEFERRED, uianimation/UI_ANIMATION_SCHEDULING_INSUFFICIENT_PRIORITY, uianimation/UI_ANIMATION_SCHEDULING_RESULT, uianimation/UI_ANIMATION_SCHEDULING_SUCCEEDED, uianimation/UI_ANIMATION_SCHEDULING_UNEXPECTED_FAILURE
 ms.topic: enum
-f1_keywords: 
- - "uianimation/UI_ANIMATION_SCHEDULING_RESULT"
+f1_keywords:
+- uianimation/UI_ANIMATION_SCHEDULING_RESULT
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - UI_ANIMATION_SCHEDULING_RESULT
+- UI_ANIMATION_SCHEDULING_RESULT
 targetos: Windows
 req.typenames: UI_ANIMATION_SCHEDULING_RESULT
 req.redist: 

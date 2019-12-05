@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetProtectionCertificate
 title: IMFSampleProtection::GetProtectionCertificate (mfidl.h)
-
 description: Retrieves the sample protection certificate.
 old-location: mf\imfsampleprotection_getprotectioncertificate.htm
 tech.root: medfound
 ms.assetid: b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af
-
 ms.date: 12/05/2018
 ms.keywords: GetProtectionCertificate, GetProtectionCertificate method [Media Foundation], GetProtectionCertificate method [Media Foundation],IMFSampleProtection interface, IMFSampleProtection interface [Media Foundation],GetProtectionCertificate method, IMFSampleProtection.GetProtectionCertificate, IMFSampleProtection::GetProtectionCertificate, b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af, mf.imfsampleprotection_getprotectioncertificate, mfidl/IMFSampleProtection::GetProtectionCertificate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSampleProtection.GetProtectionCertificate"
+f1_keywords:
+- mfidl/IMFSampleProtection.GetProtectionCertificate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSampleProtection.GetProtectionCertificate
+- IMFSampleProtection.GetProtectionCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

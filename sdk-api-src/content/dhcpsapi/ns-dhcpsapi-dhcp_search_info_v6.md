@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_CLIENT_SEARCH_INFO_V6
 title: DHCP_SEARCH_INFO_V6 (dhcpsapi.h)
-
 description: Contains the term or value on which the DHCPv6 server database will be searched.
 old-location: dhcp\dhcp_search_info_v6.htm
 tech.root: DHCP
 ms.assetid: b290baab-9a70-437a-a519-876891184fbc
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6, DHCP_SEARCH_INFO_V6 structure [DHCP], Dhcpv6ClientDUID, Dhcpv6ClientIpAddress, Dhcpv6ClientName, PDHCP_SEARCH_INFO_V6, PDHCP_SEARCH_INFO_V6 structure pointer [DHCP], dhcp.dhcp_search_info_v6, dhcpsapi/DHCP_SEARCH_INFO_V6, dhcpsapi/PDHCP_SEARCH_INFO_V6'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_SEARCH_INFO_V6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngMapEvent
 title: EngMapEvent function (winddi.h)
-
 description: The EngMapEvent function maps a user-mode event object to kernel mode.
 old-location: display\engmapevent.htm
 tech.root: display
 ms.assetid: a48f2367-49da-4d5c-87e5-b5c67e2311eb
-
 ms.date: 12/05/2018
 ms.keywords: EngMapEvent, EngMapEvent function [Display Devices], display.engmapevent, gdifncs_5d41fd21-c767-4c7b-8bd6-546be9ce1439.xml, winddi/EngMapEvent
 ms.topic: function
-f1_keywords: 
- - "winddi/EngMapEvent"
+f1_keywords:
+- winddi/EngMapEvent
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngMapEvent
+- EngMapEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

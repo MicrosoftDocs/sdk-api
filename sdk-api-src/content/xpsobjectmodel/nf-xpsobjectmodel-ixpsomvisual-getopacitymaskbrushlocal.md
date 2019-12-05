@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrushLocal
 title: IXpsOMVisual::GetOpacityMaskBrushLocal (xpsobjectmodel.h)
-
 description: Gets the local, unshared opacity mask brush for the visual.
 old-location: xps\ixpsomvisual_getopacitymaskbrushlocal.htm
 tech.root: printdocs
 ms.assetid: 654dc003-25a6-4186-9c3b-7fe6f82b5481
-
 ms.date: 12/05/2018
 ms.keywords: GetOpacityMaskBrushLocal, GetOpacityMaskBrushLocal method [XPS Documents and Packaging], GetOpacityMaskBrushLocal method [XPS Documents and Packaging],IXpsOMVisual interface, IXpsOMVisual interface [XPS Documents and Packaging],GetOpacityMaskBrushLocal method, IXpsOMVisual.GetOpacityMaskBrushLocal, IXpsOMVisual::GetOpacityMaskBrushLocal, xps.ixpsomvisual_getopacitymaskbrushlocal, xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrushLocal
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrushLocal"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.GetOpacityMaskBrushLocal
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.GetOpacityMaskBrushLocal
+- IXpsOMVisual.GetOpacityMaskBrushLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

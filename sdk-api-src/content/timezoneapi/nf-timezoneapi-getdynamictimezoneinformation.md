@@ -1,19 +1,17 @@
 ---
 UID: NF:timezoneapi.GetDynamicTimeZoneInformation
 title: GetDynamicTimeZoneInformation function (timezoneapi.h)
-
 description: Retrieves the current time zone and dynamic daylight saving time settings. These settings control the translations between Coordinated Universal Time (UTC) and local time.
 old-location: base\getdynamictimezoneinformation.htm
 tech.root: SysInfo
 ms.assetid: 9f96f779-7e4f-4a50-a9dc-f3bc86c76ece
-
 ms.date: 12/05/2018
 ms.keywords: GetDynamicTimeZoneInformation, GetDynamicTimeZoneInformation function, base.getdynamictimezoneinformation, timezoneapi/GetDynamicTimeZoneInformation
 ms.topic: function
-f1_keywords: 
- - "timezoneapi/GetDynamicTimeZoneInformation"
+f1_keywords:
+- timezoneapi/GetDynamicTimeZoneInformation
 dev_langs:
- - c++
+- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-SysInfo-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-TimeZone-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-SysInfo-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-TimeZone-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetDynamicTimeZoneInformation
+- GetDynamicTimeZoneInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

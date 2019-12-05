@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorGetIntYPtr
 title: XMVectorGetIntYPtr function (directxmath.h)
-
 description: Retrieves the y component of an XMVECTOR Data Type containing integer data, and stores that component's value in an instance of uint32_t referred to by a pointer.
 old-location: dxmath\xmvectorgetintyptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntYPtr(uint32_t@,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorGetIntYPtr, XMVectorGetIntYPtr, XMVectorGetIntYPtr method [DirectX Math Support APIs], dxmath.xmvectorgetintyptr
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorGetIntYPtr"
+f1_keywords:
+- directxmath/XMVectorGetIntYPtr
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorGetIntYPtr
+- XMVectorGetIntYPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

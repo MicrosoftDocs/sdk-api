@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._FILE_MAKE_COMPATIBLE_BUFFER
 title: FILE_MAKE_COMPATIBLE_BUFFER
-
 description: Specifies the disc to close the current session for. This control code is used for UDF file systems. This structure is used for input when calling FSCTL_MAKE_MEDIA_COMPATIBLE.
 old-location: fs\file_make_compatible_buffer.htm
 tech.root: FileIO
 ms.assetid: 1c7b1958-099f-404d-a060-99efc543a3c0
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER structure [Files], PFILE_MAKE_COMPATIBLE_BUFFER, PFILE_MAKE_COMPATIBLE_BUFFER structure pointer [Files], fs.file_make_compatible_buffer, winioctl/FILE_MAKE_COMPATIBLE_BUFFER, winioctl/PFILE_MAKE_COMPATIBLE_BUFFER"
+ms.keywords: '*PFILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER, FILE_MAKE_COMPATIBLE_BUFFER structure [Files], PFILE_MAKE_COMPATIBLE_BUFFER, PFILE_MAKE_COMPATIBLE_BUFFER structure pointer [Files], fs.file_make_compatible_buffer, winioctl/FILE_MAKE_COMPATIBLE_BUFFER, winioctl/PFILE_MAKE_COMPATIBLE_BUFFER'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/FILE_MAKE_COMPATIBLE_BUFFER"
+f1_keywords:
+- winioctl/FILE_MAKE_COMPATIBLE_BUFFER
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FILE_MAKE_COMPATIBLE_BUFFER
+- FILE_MAKE_COMPATIBLE_BUFFER
 targetos: Windows
 req.typenames: FILE_MAKE_COMPATIBLE_BUFFER, *PFILE_MAKE_COMPATIBLE_BUFFER
 req.redist: 

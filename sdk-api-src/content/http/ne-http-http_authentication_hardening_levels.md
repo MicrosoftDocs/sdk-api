@@ -1,19 +1,17 @@
 ---
 UID: NE:http._HTTP_AUTHENTICATION_HARDENING_LEVELS
 title: HTTP_AUTHENTICATION_HARDENING_LEVELS (http.h)
-
 description: Server Hardening level.
 old-location: http\http_authentication_hardening_levels.htm
 tech.root: http
 ms.assetid: da61e548-388a-4cb7-81bf-30bd312e27a6
-
 ms.date: 12/05/2018
 ms.keywords: HTTP_AUTHENTICATION_HARDENING_LEVELS, HTTP_AUTHENTICATION_HARDENING_LEVELS enumeration [HTTP], HttpAuthenticationHardeningLegacy, HttpAuthenticationHardeningMedium, HttpAuthenticationHardeningStrict, http.http_authentication_hardening_levels, http/HTTP_AUTHENTICATION_HARDENING_LEVELS, http/HttpAuthenticationHardeningLegacy, http/HttpAuthenticationHardeningMedium, http/HttpAuthenticationHardeningStrict
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_AUTHENTICATION_HARDENING_LEVELS"
+f1_keywords:
+- http/HTTP_AUTHENTICATION_HARDENING_LEVELS
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_AUTHENTICATION_HARDENING_LEVELS
+- HTTP_AUTHENTICATION_HARDENING_LEVELS
 targetos: Windows
 req.typenames: HTTP_AUTHENTICATION_HARDENING_LEVELS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxShutdown
 title: WlxShutdown function (winwlx.h)
-
 description: Winlogon calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a smart card from a reader.
 old-location: security\wlxshutdown.htm
 tech.root: SecAuthN
 ms.assetid: dab8a93d-a0fe-4a29-9a29-ad64627050b7
-
 ms.date: 12/05/2018
 ms.keywords: WLX_SAS_ACTION_SHUTDOWN, WLX_SAS_ACTION_SHUTDOWN_POWER_OFF, WLX_SAS_ACTION_SHUTDOWN_REBOOT, WlxShutdown, WlxShutdown function [Security], _gina_wlxshutdown, security.wlxshutdown, winwlx/WlxShutdown
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxShutdown"
+f1_keywords:
+- winwlx/WlxShutdown
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxShutdown
+- WlxShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

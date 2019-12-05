@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.put_SupportedExtensions
 title: IFsrmPipelineModuleDefinition::put_SupportedExtensions (fsrmpipeline.h)
-
 description: The list of file extensions supported by this module.
 old-location: fsrm\ifsrmpipelinemoduledefinition_supportedextensions.htm
 tech.root: fsrm
 ms.assetid: d83caabf-ea62-4d3d-83e3-7b95f4fcc103
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmPipelineModuleDefinition interface [File Server Resource Manager],SupportedExtensions property, IFsrmPipelineModuleDefinition.SupportedExtensions, IFsrmPipelineModuleDefinition.put_SupportedExtensions, IFsrmPipelineModuleDefinition::SupportedExtensions, IFsrmPipelineModuleDefinition::get_SupportedExtensions, IFsrmPipelineModuleDefinition::put_SupportedExtensions, SupportedExtensions property [File Server Resource Manager], SupportedExtensions property [File Server Resource Manager],IFsrmPipelineModuleDefinition interface, fs.ifsrmpipelinemoduledefinition_supportedextensions, fsrm.ifsrmpipelinemoduledefinition_supportedextensions, fsrmpipeline/IFsrmPipelineModuleDefinition::SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::get_SupportedExtensions, fsrmpipeline/IFsrmPipelineModuleDefinition::put_SupportedExtensions, put_SupportedExtensions
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleDefinition.SupportedExtensions"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleDefinition.SupportedExtensions
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition.SupportedExtensions
- - IFsrmPipelineModuleDefinition.get_SupportedExtensions
- - IFsrmPipelineModuleDefinition.put_SupportedExtensions
+- IFsrmPipelineModuleDefinition.SupportedExtensions
+- IFsrmPipelineModuleDefinition.get_SupportedExtensions
+- IFsrmPipelineModuleDefinition.put_SupportedExtensions
 targetos: Windows
 req.typenames: 
 req.redist: 

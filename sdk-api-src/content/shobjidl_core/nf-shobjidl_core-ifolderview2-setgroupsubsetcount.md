@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetGroupSubsetCount
 title: IFolderView2::SetGroupSubsetCount (shobjidl_core.h)
-
 description: Turns on group subsetting and sets the number of visible rows of items in each group.
 old-location: shell\IFolderView2_SetGroupSubsetCount.htm
 tech.root: shell
 ms.assetid: 5aacc63a-d129-4539-a43f-f4dd74ab4fea
-
 ms.date: 12/05/2018
 ms.keywords: IFolderView2 interface [Windows Shell],SetGroupSubsetCount method, IFolderView2.SetGroupSubsetCount, IFolderView2::SetGroupSubsetCount, SetGroupSubsetCount, SetGroupSubsetCount method [Windows Shell], SetGroupSubsetCount method [Windows Shell],IFolderView2 interface, _shell_IFolderView2_SetGroupSubsetCount, shell.IFolderView2_SetGroupSubsetCount, shobjidl_core/IFolderView2::SetGroupSubsetCount
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView2.SetGroupSubsetCount"
+f1_keywords:
+- shobjidl_core/IFolderView2.SetGroupSubsetCount
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderView2.SetGroupSubsetCount
+- IFolderView2.SetGroupSubsetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

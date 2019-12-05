@@ -1,19 +1,17 @@
 ---
 UID: NF:sfc.SfcIsFileProtected
 title: SfcIsFileProtected function (sfc.h)
-
 description: Determines whether the specified file is protected.
 old-location: setup\sfcisfileprotected.htm
 tech.root: wfp
 ms.assetid: 6882f7ef-0265-4db5-afa5-54df35b9dba1
-
 ms.date: 12/05/2018
 ms.keywords: SfcIsFileProtected, SfcIsFileProtected function [Setup API], _win32_sfcisfileprotected, setup.sfcisfileprotected, sfc/SfcIsFileProtected
 ms.topic: function
-f1_keywords: 
- - "sfc/SfcIsFileProtected"
+f1_keywords:
+- sfc/SfcIsFileProtected
 dev_langs:
- - c++
+- c++
 req.header: sfc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Sfc.lib
 req.dll: Sfc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Sfc.dll
- - Ext-MS-Win-Wrp-Sfc-L1-1-0.dll
- - sfc_os.dll
+- Sfc.dll
+- Ext-MS-Win-Wrp-Sfc-L1-1-0.dll
+- sfc_os.dll
 api_name:
- - SfcIsFileProtected
+- SfcIsFileProtected
 targetos: Windows
 req.typenames: 
 req.redist: 

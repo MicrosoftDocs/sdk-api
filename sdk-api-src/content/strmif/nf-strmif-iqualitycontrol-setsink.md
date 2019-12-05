@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IQualityControl.SetSink
 title: IQualityControl::SetSink (strmif.h)
-
 description: The SetSink method sets the IQualityControl object that will receive quality messages.
 old-location: dshow\iqualitycontrol_setsink.htm
 tech.root: DirectShow
 ms.assetid: f82922dc-ec33-499d-b052-a1ba38632c52
-
 ms.date: 12/05/2018
 ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityControl.SetSink, IQualityControl::SetSink, IQualityControlSetSink, SetSink, SetSink method [DirectShow], SetSink method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_setsink, strmif/IQualityControl::SetSink
 ms.topic: method
-f1_keywords: 
- - "strmif/IQualityControl.SetSink"
+f1_keywords:
+- strmif/IQualityControl.SetSink
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IQualityControl.SetSink
+- IQualityControl.SetSink
 targetos: Windows
 req.typenames: 
 req.redist: 

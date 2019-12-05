@@ -1,19 +1,17 @@
 ---
 UID: NN:certenc.ICertEncodeLongArray
 title: ICertEncodeLongArray (certenc.h)
-
 description: Provides methods for handling Long arrays used in certificate extensions.
 old-location: security\icertencodelongarray.htm
 tech.root: SecCrypto
 ms.assetid: e8555282-6c09-4f23-830e-358bc73287ee
-
 ms.date: 12/05/2018
 ms.keywords: ICertEncodeLongArray, ICertEncodeLongArray interface [Security], ICertEncodeLongArray interface [Security],described, _certsrv_icertencodelongarray, certenc/ICertEncodeLongArray, security.icertencodelongarray
 ms.topic: interface
-f1_keywords: 
- - "certenc/ICertEncodeLongArray"
+f1_keywords:
+- certenc/ICertEncodeLongArray
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeLongArray
+- ICertEncodeLongArray
 targetos: Windows
 req.typenames: 
 req.redist: 

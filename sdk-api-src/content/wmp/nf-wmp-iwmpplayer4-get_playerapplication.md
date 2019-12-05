@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlayer4.get_playerApplication
 title: IWMPPlayer4::get_playerApplication (wmp.h)
-
 description: The get_playerApplication method retrieves a pointer to an IWMPPlayerApplication interface when a remoted Windows Media Player control is running.
 old-location: wmp\iwmpplayer4_get_playerapplication.htm
 tech.root: WMP
 ms.assetid: 37b4b0b1-f16e-42ed-830e-9b0468a66eeb
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlayer4 interface [Windows Media Player],get_playerApplication method, IWMPPlayer4.get_playerApplication, IWMPPlayer4::get_playerApplication, IWMPPlayer4get_playerApplication, get_playerApplication, get_playerApplication method [Windows Media Player], get_playerApplication method [Windows Media Player],IWMPPlayer4 interface, wmp.iwmpplayer4_get_playerapplication, wmp/IWMPPlayer4::get_playerApplication
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlayer4.get_playerApplication"
+f1_keywords:
+- wmp/IWMPPlayer4.get_playerApplication
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlayer4.get_playerApplication
+- IWMPPlayer4.get_playerApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.GetCertificateCount
 title: IX509EndorsementKey::GetCertificateCount (certenroll.h)
-
 description: Gets the count of the endorsement certificates in the key storage provider.
 old-location: security\ix509endorsementkey_getcertificatecount.htm
 tech.root: seccertenroll
 ms.assetid: 1a8ae8f9-c4df-4701-845d-7f9a42593d57
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificateCount, GetCertificateCount method [Security], GetCertificateCount method [Security],IX509EndorsementKey interface, IX509EndorsementKey interface [Security],GetCertificateCount method, IX509EndorsementKey.GetCertificateCount, IX509EndorsementKey::GetCertificateCount, certenroll/IX509EndorsementKey::GetCertificateCount, security.ix509endorsementkey_getcertificatecount
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EndorsementKey.GetCertificateCount"
+f1_keywords:
+- certenroll/IX509EndorsementKey.GetCertificateCount
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - IX509EndorsementKey.GetCertificateCount
+- IX509EndorsementKey.GetCertificateCount
 targetos: Windows
 req.typenames: 
 req.redist: 

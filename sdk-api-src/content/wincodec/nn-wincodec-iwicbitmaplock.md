@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICBitmapLock
 title: IWICBitmapLock (wincodec.h)
-
 description: Exposes methods that support the Lock method.
 old-location: wic\_wic_codec_iwicbitmaplock.htm
 tech.root: wic
 ms.assetid: c0ddbc25-6abe-484b-a545-3b9376c514df
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapLock, IWICBitmapLock interface [Windows Imaging Component], IWICBitmapLock interface [Windows Imaging Component],described, _wic_codec_iwicbitmaplock, wic._wic_codec_iwicbitmaplock, wincodec/IWICBitmapLock
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICBitmapLock"
+f1_keywords:
+- wincodec/IWICBitmapLock
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapLock
+- IWICBitmapLock
 targetos: Windows
 req.typenames: 
 req.redist: 

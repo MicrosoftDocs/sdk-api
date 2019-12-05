@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_GetScrollTime
 title: TreeView_GetScrollTime macro (commctrl.h)
-
 description: Retrieves the maximum scroll time for the tree-view control. You can use this macro or send the TVM_GETSCROLLTIME message explicitly.
 old-location: controls\TreeView_GetScrollTime.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getscrolltime.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_GetScrollTime, TreeView_GetScrollTime macro [Windows Controls], _win32_TreeView_GetScrollTime, _win32_TreeView_GetScrollTime_cpp, commctrl/TreeView_GetScrollTime, controls.TreeView_GetScrollTime, controls._win32_TreeView_GetScrollTime
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_GetScrollTime"
+f1_keywords:
+- commctrl/TreeView_GetScrollTime
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_GetScrollTime
+- TreeView_GetScrollTime
 targetos: Windows
 req.typenames: 
 req.redist: 

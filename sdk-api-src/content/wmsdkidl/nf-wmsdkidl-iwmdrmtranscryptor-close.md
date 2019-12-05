@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptor.Close
 title: IWMDRMTranscryptor::Close (wmsdkidl.h)
-
 description: The Close method unloads the file from the DRM transcryptor and releases all associated resources.
 old-location: wmformat\iwmdrmtranscryptor_close.htm
 tech.root: wmformat
 ms.assetid: c277e3fa-069d-4eaf-947c-220730c5d61e
-
 ms.date: 12/05/2018
 ms.keywords: Close, Close method [windows Media Format], Close method [windows Media Format],IWMDRMTranscryptor interface, IWMDRMTranscryptor interface [windows Media Format],Close method, IWMDRMTranscryptor.Close, IWMDRMTranscryptor::Close, IWMDRMTranscryptorClose, wmformat.iwmdrmtranscryptor_close, wmsdkidl/IWMDRMTranscryptor::Close
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMTranscryptor.Close"
+f1_keywords:
+- wmsdkidl/IWMDRMTranscryptor.Close
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMTranscryptor.Close
+- IWMDRMTranscryptor.Close
 targetos: Windows
 req.typenames: 
 req.redist: 

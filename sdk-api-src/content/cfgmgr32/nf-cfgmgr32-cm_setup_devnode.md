@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Setup_DevNode
 title: CM_Setup_DevNode function (cfgmgr32.h)
-
 description: The CM_Setup_DevNode function restarts a device instance that is not running because there is a problem with the device configuration.
 old-location: devinst\cm_setup_devnode.htm
 tech.root: devinst
 ms.assetid: 94d0023d-d93f-42da-b2fc-54b9d8831b9b
-
 ms.date: 12/05/2018
 ms.keywords: CM_Setup_DevNode, CM_Setup_DevNode function [Device and Driver Installation], cfgmgr32/CM_Setup_DevNode, cfgmgrfn_e8515529-d4bc-4411-a5cf-18bc4f4d7500.xml, devinst.cm_setup_devnode
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Setup_DevNode"
+f1_keywords:
+- cfgmgr32/CM_Setup_DevNode
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Setup_DevNode
+- CM_Setup_DevNode
 targetos: Windows
 req.typenames: 
 req.redist: 

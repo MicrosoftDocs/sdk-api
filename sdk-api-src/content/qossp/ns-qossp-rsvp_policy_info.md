@@ -1,19 +1,17 @@
 ---
 UID: NS:qossp._RSVP_POLICY_INFO
 title: RSVP_POLICY_INFO (qossp.h)
-
 description: The RSVP_POLICY_INFO structure stores undefined policy elements retrieved from RSVP.
 old-location: qos\rsvp_policy_info.htm
 tech.root: QOS
 ms.assetid: 21ad9446-a22c-4c3f-911d-a263cb85078b
-
 ms.date: 12/05/2018
 ms.keywords: '*LPRSVP_POLICY_INFO, *LPRSVP_POLICY_INFO structure [QOS], RSVP_POLICY_INFO, RSVP_POLICY_INFO structure [QOS], qos.rsvp_policy_info, qossp/*LPRSVP_POLICY_INFO, qossp/RSVP_POLICY_INFO'
 ms.topic: struct
 f1_keywords:
 - qossp/RSVP_POLICY_INFO
 dev_langs:
- - c++
+- c++
 req.header: qossp.h
 req.include-header: 
 req.target-type: Windows

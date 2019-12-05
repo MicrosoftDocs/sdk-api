@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.IEnumSyncProviderConfigUIInfos.Reset
 title: IEnumSyncProviderConfigUIInfos::Reset (syncregistration.h)
-
 description: Resets the enumerator to the beginning of the collection of ISyncProviderConfigUIInfo objects.
 old-location: winsync\ienumsyncproviderconfiguiinfos_reset.htm
 tech.root: winsync
 ms.assetid: ae976a03-c0e3-4a47-8153-8ba947ac8ea0
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSyncProviderConfigUIInfos interface [Windows Sync],Reset method, IEnumSyncProviderConfigUIInfos.Reset, IEnumSyncProviderConfigUIInfos::Reset, Reset, Reset method [Windows Sync], Reset method [Windows Sync],IEnumSyncProviderConfigUIInfos interface, syncregistration/IEnumSyncProviderConfigUIInfos::Reset, winsync.ienumsyncproviderconfiguiinfos_reset
 ms.topic: method
-f1_keywords: 
- - "syncregistration/IEnumSyncProviderConfigUIInfos.Reset"
+f1_keywords:
+- syncregistration/IEnumSyncProviderConfigUIInfos.Reset
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - IEnumSyncProviderConfigUIInfos.Reset
+- IEnumSyncProviderConfigUIInfos.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

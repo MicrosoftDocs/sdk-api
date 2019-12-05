@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.SetUnknown
 title: IMFDXGIBuffer::SetUnknown (mfobjects.h)
-
 description: Stores an arbitrary IUnknown pointer in the media buffer object.
 old-location: mf\imfdxgibuffer_setunknown.htm
 tech.root: medfound
 ms.assetid: 94BA5E48-FF89-48FA-BE0D-C158A5B4D4CF
-
 ms.date: 12/05/2018
 ms.keywords: IMFDXGIBuffer interface [Media Foundation],SetUnknown method, IMFDXGIBuffer.SetUnknown, IMFDXGIBuffer::SetUnknown, SetUnknown, SetUnknown method [Media Foundation], SetUnknown method [Media Foundation],IMFDXGIBuffer interface, mf.imfdxgibuffer_setunknown, mfobjects/IMFDXGIBuffer::SetUnknown
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFDXGIBuffer.SetUnknown"
+f1_keywords:
+- mfobjects/IMFDXGIBuffer.SetUnknown
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFDXGIBuffer.SetUnknown
+- IMFDXGIBuffer.SetUnknown
 targetos: Windows
 req.typenames: 
 req.redist: 

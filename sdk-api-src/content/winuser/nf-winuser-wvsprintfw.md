@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.wvsprintfW
 title: wvsprintfW function (winuser.h)
-
 description: Writes formatted data to the specified buffer using a pointer to a list of arguments.
 old-location: menurc\wvsprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\wvsprintf.htm
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_wvsprintf, _win32_wvsprintf_cpp, menurc.wvsprintf, winui._win32_wvsprintf, winuser/wvsprintf, winuser/wvsprintfA, winuser/wvsprintfW, wvsprintf, wvsprintf function [Menus and Other Resources], wvsprintfA, wvsprintfW"
+ms.keywords: _win32_wvsprintf, _win32_wvsprintf_cpp, menurc.wvsprintf, winui._win32_wvsprintf, winuser/wvsprintf, winuser/wvsprintfA, winuser/wvsprintfW, wvsprintf, wvsprintf function [Menus and Other Resources], wvsprintfA, wvsprintfW
 ms.topic: function
-f1_keywords: 
- - "winuser/wvsprintf"
+f1_keywords:
+- winuser/wvsprintf
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - wvsprintf
- - wvsprintfA
- - wvsprintfW
+- wvsprintf
+- wvsprintfA
+- wvsprintfW
 targetos: Windows
 req.typenames: 
 req.redist: 

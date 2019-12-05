@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.GetMenuInfo
 title: IShellMenu::GetMenuInfo (shobjidl_core.h)
-
 description: Gets information from the IShellMenu::Initialize method.
 old-location: shell\IShellMenu_GetMenuInfo.htm
 tech.root: shell
 ms.assetid: 979d43ce-d8e6-444f-8082-49b52c0ad2ef
-
 ms.date: 12/05/2018
 ms.keywords: GetMenuInfo, GetMenuInfo method [Windows Shell], GetMenuInfo method [Windows Shell],IShellMenu interface, IShellMenu interface [Windows Shell],GetMenuInfo method, IShellMenu.GetMenuInfo, IShellMenu::GetMenuInfo, _shell_IShellMenu_GetMenuInfo, shell.IShellMenu_GetMenuInfo, shobjidl_core/IShellMenu::GetMenuInfo
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellMenu.GetMenuInfo"
+f1_keywords:
+- shobjidl_core/IShellMenu.GetMenuInfo
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenu.GetMenuInfo
+- IShellMenu.GetMenuInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

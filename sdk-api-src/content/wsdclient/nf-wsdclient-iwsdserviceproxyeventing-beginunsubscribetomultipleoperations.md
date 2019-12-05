@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations
 title: IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations (wsdclient.h)
-
 description: Initializes an asynchronous cancelation request for a subscription to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_beginunsubscribetomultipleoperations.htm
 tech.root: WsdApi
 ms.assetid: a8a3dd48-89a2-4d7b-98e0-3dcb3c32cb2b
-
 ms.date: 12/05/2018
 ms.keywords: BeginUnsubscribeToMultipleOperations, BeginUnsubscribeToMultipleOperations method, BeginUnsubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginUnsubscribeToMultipleOperations method, IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations, IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations, ncd.iwsdserviceproxyeventing_beginunsubscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginUnsubscribeToMultipleOperations
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.BeginUnsubscribeToMultipleOperations
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.IDefaultLocation.SetReport
 title: IDefaultLocation::SetReport (locationapi.h)
-
 description: Sets the default location.
 old-location: winlocation_com_ref\idefaultlocation_setreport.htm
 tech.root: locationapi
 ms.assetid: 50355f93-e609-44d5-925a-2de7af1e0564
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultLocation interface [WinLocation],SetReport method, IDefaultLocation.SetReport, IDefaultLocation::SetReport, SetReport, SetReport method [WinLocation], SetReport method [WinLocation],IDefaultLocation interface, WinLocation_COM_Ref.idefaultlocation_setreport, locationapi/IDefaultLocation::SetReport
 ms.topic: method
-f1_keywords: 
- - "locationapi/IDefaultLocation.SetReport"
+f1_keywords:
+- locationapi/IDefaultLocation.SetReport
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - IDefaultLocation.SetReport
+- IDefaultLocation.SetReport
 targetos: Windows
 req.typenames: 
 req.redist: 

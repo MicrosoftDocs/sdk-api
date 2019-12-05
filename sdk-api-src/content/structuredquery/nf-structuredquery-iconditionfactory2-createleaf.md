@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateLeaf
 title: IConditionFactory2::CreateLeaf (structuredquery.h)
-
 description: Creates a leaf condition node for any value. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createleaf.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateLeaf, CreateLeaf method [search], CreateLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateLeaf method, IConditionFactory2.CreateLeaf, IConditionFactory2::CreateLeaf, _search_IConditionFactory2_CreateLeaf, search._search_IConditionFactory2_CreateLeaf, structuredquery/IConditionFactory2::CreateLeaf
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory2.CreateLeaf"
+f1_keywords:
+- structuredquery/IConditionFactory2.CreateLeaf
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory2.CreateLeaf
+- IConditionFactory2.CreateLeaf
 targetos: Windows
 req.typenames: 
 req.redist: 

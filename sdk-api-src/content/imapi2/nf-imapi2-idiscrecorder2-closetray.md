@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.CloseTray
 title: IDiscRecorder2::CloseTray (imapi2.h)
-
 description: Closes the media tray.
 old-location: imapi\idiscrecorder2_closetray.htm
 tech.root: imapi
 ms.assetid: 0a30f3bb-68fc-45d5-826d-79ed9209f391
-
 ms.date: 12/05/2018
 ms.keywords: CloseTray, CloseTray method [IMAPI], CloseTray method [IMAPI],IDiscRecorder2 interface, IDiscRecorder2 interface [IMAPI],CloseTray method, IDiscRecorder2.CloseTray, IDiscRecorder2::CloseTray, imapi.idiscrecorder2_closetray, imapi2/IDiscRecorder2::CloseTray
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscRecorder2.CloseTray"
+f1_keywords:
+- imapi2/IDiscRecorder2.CloseTray
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscRecorder2.CloseTray
+- IDiscRecorder2.CloseTray
 targetos: Windows
 req.typenames: 
 req.redist: 

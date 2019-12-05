@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.Clear
 title: IInkExtendedProperties::Clear (msinkaut.h)
-
 description: Clears all of the IInkExtendedProperty objects from the IInkExtendedProperties collection.
 old-location: tablet\iinkextendedproperties_clear.htm
 tech.root: tablet
 ms.assetid: b5270e5c-51fa-4d1f-b4e0-9129c61bac88
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Clear method, IInkExtendedProperties.Clear, IInkExtendedProperties::Clear, b5270e5c-51fa-4d1f-b4e0-9129c61bac88, msinkaut/IInkExtendedProperties::Clear, tablet.iinkextendedproperties_clear
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkExtendedProperties.Clear"
+f1_keywords:
+- msinkaut/IInkExtendedProperties.Clear
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.Clear
+- IInkExtendedProperties.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

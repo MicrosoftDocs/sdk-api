@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsCreateError
 title: WsCreateError function (webservices.h)
-
 description: Creates an error object that can passed to functions to record rich error information.
 old-location: wsw\wscreateerror.htm
 tech.root: wsw
 ms.assetid: 0ec858f7-12a5-43cf-94a7-3838ab6d76ae
-
 ms.date: 12/05/2018
 ms.keywords: WsCreateError, WsCreateError function [Web Services for Windows], webservices/WsCreateError, wsw.wscreateerror
 ms.topic: function
 f1_keywords:
 - webservices/WsCreateError
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

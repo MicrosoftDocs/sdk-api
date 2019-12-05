@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTAPI.RegisterRequestRecipient
 title: ITTAPI::RegisterRequestRecipient (tapi3if.h)
-
 description: The RegisterRequestRecipient method registers an application instance as being the proper one to handle assisted telephony requests.
 old-location: tapi3\ittapi_registerrequestrecipient.htm
 tech.root: Tapi
 ms.assetid: bee5348e-99f0-4168-9021-112fc16d8921
-
 ms.date: 12/05/2018
 ms.keywords: ITTAPI interface [TAPI 2.2],RegisterRequestRecipient method, ITTAPI.RegisterRequestRecipient, ITTAPI::RegisterRequestRecipient, RegisterRequestRecipient, RegisterRequestRecipient method [TAPI 2.2], RegisterRequestRecipient method [TAPI 2.2],ITTAPI interface, _tapi3_ittapi_registerrequestrecipient, tapi3.ittapi_registerrequestrecipient, tapi3if/ITTAPI::RegisterRequestRecipient
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTAPI.RegisterRequestRecipient"
+f1_keywords:
+- tapi3if/ITTAPI.RegisterRequestRecipient
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITTAPI.RegisterRequestRecipient
+- ITTAPI.RegisterRequestRecipient
 targetos: Windows
 req.typenames: 
 req.redist: 

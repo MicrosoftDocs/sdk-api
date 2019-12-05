@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetSelectionMarkedItem
 title: IFolderView::GetSelectionMarkedItem (shobjidl_core.h)
-
 description: Gets the index of an item in the folder's view which has been marked by using the SVSI_SELECTIONMARK in IFolderView::SelectItem.
 old-location: shell\IFolderView_GetSelectionMarkedItem.htm
 tech.root: shell
 ms.assetid: 86416704-c2e3-4782-a566-b49cbd0e7696
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectionMarkedItem, GetSelectionMarkedItem method [Windows Shell], GetSelectionMarkedItem method [Windows Shell],IFolderView interface, IFolderView interface [Windows Shell],GetSelectionMarkedItem method, IFolderView.GetSelectionMarkedItem, IFolderView::GetSelectionMarkedItem, _shell_IFolderView_GetSelectionMarkedItem, shell.IFolderView_GetSelectionMarkedItem, shobjidl_core/IFolderView::GetSelectionMarkedItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderView.GetSelectionMarkedItem"
+f1_keywords:
+- shobjidl_core/IFolderView.GetSelectionMarkedItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFolderView.GetSelectionMarkedItem
+- IFolderView.GetSelectionMarkedItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokes.get_Ink
 title: IInkStrokes::get_Ink (msinkaut.h)
-
 description: Gets the InkDisp object that contains a collection of strokes.
 old-location: tablet\inkstrokes_ink.htm
 tech.root: tablet
 ms.assetid: 973d9aaa-0897-4e3f-a57f-ce505853f310
-
 ms.date: 12/05/2018
 ms.keywords: 973d9aaa-0897-4e3f-a57f-ce505853f310, IInkStrokes interface [Tablet PC],Ink property, IInkStrokes.Ink, IInkStrokes.get_Ink, IInkStrokes::Ink, IInkStrokes::get_Ink, Ink property [Tablet PC], Ink property [Tablet PC],IInkStrokes interface, InkStrokes.get_Ink, get_Ink, msinkaut/IInkStrokes::Ink, msinkaut/IInkStrokes::get_Ink, tablet.inkstrokes_ink
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokes.Ink"
+f1_keywords:
+- msinkaut/IInkStrokes.Ink
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokes.Ink
- - IInkStrokes.get_Ink
- - InkStrokes.get_Ink
+- IInkStrokes.Ink
+- IInkStrokes.get_Ink
+- InkStrokes.get_Ink
 targetos: Windows
 req.typenames: 
 req.redist: 

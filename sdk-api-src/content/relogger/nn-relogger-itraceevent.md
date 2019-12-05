@@ -1,19 +1,17 @@
 ---
 UID: NN:relogger.ITraceEvent
 title: ITraceEvent (relogger.h)
-
 description: Provides access to data relating to a specific event.
 old-location: etw\ievent.htm
 tech.root: ETW
 ms.assetid: 29b6f72a-ae81-4292-a023-a4bab16ae143
-
 ms.date: 12/05/2018
 ms.keywords: ITraceEvent, ITraceEvent interface [ETW], ITraceEvent interface [ETW],described, etw.ievent, relogger/ITraceEvent
 ms.topic: interface
-f1_keywords: 
- - "relogger/ITraceEvent"
+f1_keywords:
+- relogger/ITraceEvent
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceEvent
+- ITraceEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

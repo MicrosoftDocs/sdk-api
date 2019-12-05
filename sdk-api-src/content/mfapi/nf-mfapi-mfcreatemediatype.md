@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMediaType
 title: MFCreateMediaType function (mfapi.h)
-
 description: Creates an empty media type.
 old-location: mf\mfcreatemediatype.htm
 tech.root: medfound
 ms.assetid: 05b0941e-03ce-4ced-9022-22b65d1c4b4c
-
 ms.date: 12/05/2018
 ms.keywords: 05b0941e-03ce-4ced-9022-22b65d1c4b4c, MFCreateMediaType, MFCreateMediaType function [Media Foundation], mf.mfcreatemediatype, mfapi/MFCreateMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMediaType"
+f1_keywords:
+- mfapi/MFCreateMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMediaType
+- MFCreateMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

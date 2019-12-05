@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetCallContext
 title: CoGetCallContext function (combaseapi.h)
-
 description: Retrieves the context of the current call on the current thread.
 old-location: com\cogetcallcontext.htm
 tech.root: com
 ms.assetid: b82e32c0-840d-402e-90d5-ff678c51faf1
-
 ms.date: 12/05/2018
 ms.keywords: CoGetCallContext, CoGetCallContext function [COM], _com_CoGetCallContext, com.cogetcallcontext, combaseapi/CoGetCallContext
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetCallContext"
+f1_keywords:
+- combaseapi/CoGetCallContext
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetCallContext
+- CoGetCallContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.GetFileNameFromBrowse
 title: GetFileNameFromBrowse function (shlobj.h)
-
 description: Creates an Open dialog box so that the user can specify the drive, directory, and name of a file to open.
 old-location: shell\GetFileNameFromBrowse.htm
 tech.root: shell
 ms.assetid: 1f075051-18c8-4ec2-b010-f983ba2d3303
-
 ms.date: 12/05/2018
 ms.keywords: GetFileNameFromBrowse, GetFileNameFromBrowse function [Windows Shell], _win32_GetFileNameFromBrowse, shell.GetFileNameFromBrowse, shlobj_core/GetFileNameFromBrowse
 ms.topic: function
-f1_keywords: 
- - "shlobj/GetFileNameFromBrowse"
+f1_keywords:
+- shlobj/GetFileNameFromBrowse
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - GetFileNameFromBrowse
+- GetFileNameFromBrowse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.MAKEWPARAM
 title: MAKEWPARAM macro (winuser.h)
-
 description: Creates a value for use as a wParam parameter in a message. The macro concatenates the specified values.
 old-location: winmsg\makewparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makewparam.htm
-
 ms.date: 12/05/2018
 ms.keywords: MAKEWPARAM, MAKEWPARAM macro [Windows and Messages], _win32_MAKEWPARAM, _win32_makewparam_cpp, winmsg.makewparam, winui._win32_makewparam, winuser/MAKEWPARAM
 ms.topic: macro
-f1_keywords: 
- - "winuser/MAKEWPARAM"
+f1_keywords:
+- winuser/MAKEWPARAM
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MAKEWPARAM
+- MAKEWPARAM
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbNetworkNameDescriptor.GetLength
 title: IDvbNetworkNameDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of a Digital Video Broadcast (DVB) network name descriptor.
 old-location: mstv\idvbnetworknamedescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 22841428-c223-4385-97c3-bd1819468866
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbNetworkNameDescriptor interface, IDvbNetworkNameDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbNetworkNameDescriptor.GetLength, IDvbNetworkNameDescriptor::GetLength, dvbsiparser/IDvbNetworkNameDescriptor::GetLength, mstv.idvbnetworknamedescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbNetworkNameDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbNetworkNameDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbNetworkNameDescriptor.GetLength
+- IDvbNetworkNameDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

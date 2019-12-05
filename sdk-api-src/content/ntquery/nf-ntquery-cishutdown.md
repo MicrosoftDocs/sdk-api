@@ -1,19 +1,17 @@
 ---
 UID: NF:ntquery.CIShutdown
 title: CIShutdown function (ntquery.h)
-
 description: Shuts down the content indexer and closes all open catalogs.
 old-location: shell\CIShutdown.htm
 tech.root: shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a
-
 ms.date: 12/05/2018
 ms.keywords: CIShutdown, CIShutdown function [Windows Shell], _shell_CIShutdown, ntquery/CIShutdown, shell.CIShutdown
 ms.topic: function
-f1_keywords: 
- - "ntquery/CIShutdown"
+f1_keywords:
+- ntquery/CIShutdown
 dev_langs:
- - c++
+- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Query.dll (version 5.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Query.dll
+- Query.dll
 api_name:
- - CIShutdown
+- CIShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

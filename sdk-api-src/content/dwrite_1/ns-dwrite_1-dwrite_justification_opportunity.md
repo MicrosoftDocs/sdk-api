@@ -1,19 +1,17 @@
 ---
 UID: NS:dwrite_1.DWRITE_JUSTIFICATION_OPPORTUNITY
 title: DWRITE_JUSTIFICATION_OPPORTUNITY (dwrite_1.h)
-
 description: The DWRITE_JUSTIFICATION_OPPORTUNITY structure specifies justification info per glyph.
 old-location: directwrite\dwrite_justification_opportunity.htm
 tech.root: DirectWrite
 ms.assetid: D7D18462-A0A4-4064-B04D-CA8ACED7E34D
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_JUSTIFICATION_OPPORTUNITY, DWRITE_JUSTIFICATION_OPPORTUNITY structure [Direct Write], directwrite.dwrite_justification_opportunity, dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
 ms.topic: struct
-f1_keywords: 
- - "dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY"
+f1_keywords:
+- dwrite_1/DWRITE_JUSTIFICATION_OPPORTUNITY
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_JUSTIFICATION_OPPORTUNITY
+- DWRITE_JUSTIFICATION_OPPORTUNITY
 targetos: Windows
 req.typenames: 
 req.redist: 

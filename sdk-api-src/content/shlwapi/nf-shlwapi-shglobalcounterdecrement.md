@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterDecrement
 title: SHGlobalCounterDecrement function (shlwapi.h)
-
 description: Decrements a global counter.
 old-location: shell\SHGlobalCounterDecrement.htm
 tech.root: shell
 ms.assetid: 67b45cb9-9d8d-48ef-a7bc-9cd8824bdf2b
-
 ms.date: 12/05/2018
 ms.keywords: SHGlobalCounterDecrement, SHGlobalCounterDecrement function [Windows Shell], _shell_SHGlobalCounterDecrement, shell.SHGlobalCounterDecrement, shlwapi/SHGlobalCounterDecrement
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHGlobalCounterDecrement"
+f1_keywords:
+- shlwapi/SHGlobalCounterDecrement
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - SHGlobalCounterDecrement
+- SHGlobalCounterDecrement
 targetos: Windows
 req.typenames: 
 req.redist: 

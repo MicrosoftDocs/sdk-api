@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsDocumentPackageTarget
 title: IXpsDocumentPackageTarget (xpsobjectmodel_1.h)
-
 description: The IXpsDocumentPackageTarget interface contains the elements needed for printing XPS content in the Document Printing model.
 old-location: xps\ixpsdocumentpackagetarget.htm
 tech.root: printdocs
 ms.assetid: B8B43CE5-2222-428B-8E78-C7049D027EE1
-
 ms.date: 12/05/2018
 ms.keywords: IXpsDocumentPackageTarget, IXpsDocumentPackageTarget interface [XPS Documents and Packaging], IXpsDocumentPackageTarget interface [XPS Documents and Packaging],described, xps.ixpsdocumentpackagetarget, xpsobjectmodel_1/IXpsDocumentPackageTarget
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsDocumentPackageTarget"
+f1_keywords:
+- xpsobjectmodel_1/IXpsDocumentPackageTarget
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xpsobjectmodel_1.h
+- Xpsobjectmodel_1.h
 api_name:
- - IXpsDocumentPackageTarget
+- IXpsDocumentPackageTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

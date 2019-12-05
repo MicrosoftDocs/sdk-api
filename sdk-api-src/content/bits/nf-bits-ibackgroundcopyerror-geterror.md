@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyError.GetError
 title: IBackgroundCopyError::GetError (bits.h)
-
 description: Retrieves the error code and identify the context in which the error occurred.
 old-location: bits\ibackgroundcopyerror_geterror.htm
 tech.root: Bits
 ms.assetid: abdf115d-3ff2-4664-b053-f55872ad24ab
-
 ms.date: 12/05/2018
 ms.keywords: GetError, GetError method [BITS], GetError method [BITS],IBackgroundCopyError interface, IBackgroundCopyError interface [BITS],GetError method, IBackgroundCopyError.GetError, IBackgroundCopyError::GetError, _drz_ibackgroundcopyerror_geterror, bits.ibackgroundcopyerror_geterror, bits/IBackgroundCopyError::GetError
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyError.GetError"
+f1_keywords:
+- bits/IBackgroundCopyError.GetError
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError.GetError
+- IBackgroundCopyError.GetError
 targetos: Windows
 req.typenames: 
 req.redist: 

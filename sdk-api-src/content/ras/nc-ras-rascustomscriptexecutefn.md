@@ -1,19 +1,17 @@
 ---
 UID: NC:ras.RasCustomScriptExecuteFn
 title: RasCustomScriptExecuteFn (ras.h)
-
 description: RAS calls the RasCustomScriptExecute function when establishing a connection for a phone-book entry that has the RASEO_CustomScript option set.
 old-location: rras\rascustomscriptexecute.htm
 tech.root: RRAS
 ms.assetid: e31ab530-cb60-4bb0-be44-3ba90fdf71f1
-
 ms.date: 12/05/2018
 ms.keywords: RasCustomScriptExecute, RasCustomScriptExecute callback function [RAS], RasCustomScriptExecuteFn, RasCustomScriptExecuteFn callback, _ras_rascustomscriptexecute, ras/RasCustomScriptExecute, rras.rascustomscriptexecute
 ms.topic: callback
-f1_keywords: 
- - "ras/RasCustomScriptExecute"
+f1_keywords:
+- ras/RasCustomScriptExecute
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RasCustomScriptExecute
+- RasCustomScriptExecute
 targetos: Windows
 req.typenames: 
 req.redist: 

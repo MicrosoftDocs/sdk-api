@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IEnumVdsObject.Reset
 title: IEnumVdsObject::Reset (vds.h)
-
 description: Resets to the beginning of the enumeration.
 old-location: base\ienumvdsobject_reset.htm
 tech.root: VDS
 ms.assetid: cdc13cd3-bd6f-422e-89fe-244e7a7540bd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumVdsObject interface [VDS],Reset method, IEnumVdsObject.Reset, IEnumVdsObject::Reset, Reset, Reset method [VDS], Reset method [VDS],IEnumVdsObject interface, base.ienumvdsobject_reset, vds/IEnumVdsObject::Reset, vdshwprv/IEnumVdsObject::Reset
 ms.topic: method
-f1_keywords: 
- - "vds/IEnumVdsObject.Reset"
+f1_keywords:
+- vds/IEnumVdsObject.Reset
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IEnumVdsObject.Reset
+- IEnumVdsObject.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

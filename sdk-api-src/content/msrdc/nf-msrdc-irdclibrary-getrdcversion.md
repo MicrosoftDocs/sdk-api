@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcLibrary.GetRDCVersion
 title: IRdcLibrary::GetRDCVersion (msrdc.h)
-
 description: Retrieves the version of the installed RDC runtime and the oldest version of the RDC interfaces supported by the installed runtime.
 old-location: rdc\irdclibrary_getrdcversion.htm
 tech.root: rdc
 ms.assetid: 3eef00e8-62d9-49bc-8340-fb56f5a4573d
-
 ms.date: 12/05/2018
 ms.keywords: GetRDCVersion, GetRDCVersion method [Remote Differential Compression], GetRDCVersion method [Remote Differential Compression],IRdcLibrary interface, IRdcLibrary interface [Remote Differential Compression],GetRDCVersion method, IRdcLibrary.GetRDCVersion, IRdcLibrary::GetRDCVersion, fs.irdclibrary_getrdcversion, msrdc/IRdcLibrary::GetRDCVersion, rdc.irdclibrary_getrdcversion
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcLibrary.GetRDCVersion"
+f1_keywords:
+- msrdc/IRdcLibrary.GetRDCVersion
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcLibrary.GetRDCVersion
+- IRdcLibrary.GetRDCVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

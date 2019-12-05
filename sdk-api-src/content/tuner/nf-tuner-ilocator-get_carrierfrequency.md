@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ILocator.get_CarrierFrequency
 title: ILocator::get_CarrierFrequency (tuner.h)
-
 description: The get_CarrierFrequency method gets the frequency of the RF signal.
 old-location: mstv\ilocator_get_carrierfrequency.htm
 tech.root: mstv
 ms.assetid: 15f6d54c-81c8-40d3-937f-c54102f3a230
-
 ms.date: 12/05/2018
 ms.keywords: ILocator interface [Microsoft TV Technologies],get_CarrierFrequency method, ILocator.get_CarrierFrequency, ILocator::get_CarrierFrequency, ILocatorget_CarrierFrequency, get_CarrierFrequency, get_CarrierFrequency method [Microsoft TV Technologies], get_CarrierFrequency method [Microsoft TV Technologies],ILocator interface, mstv.ilocator_get_carrierfrequency, tuner/ILocator::get_CarrierFrequency
 ms.topic: method
-f1_keywords: 
- - "tuner/ILocator.get_CarrierFrequency"
+f1_keywords:
+- tuner/ILocator.get_CarrierFrequency
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ILocator.get_CarrierFrequency
+- ILocator.get_CarrierFrequency
 targetos: Windows
 req.typenames: 
 req.redist: 

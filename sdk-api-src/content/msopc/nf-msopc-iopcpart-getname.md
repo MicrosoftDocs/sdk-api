@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcPart.GetName
 title: IOpcPart::GetName (msopc.h)
-
 description: Gets a part URI object that represents the part name.
 old-location: opc\iopcpart_getname.htm
 tech.root: OPC
 ms.assetid: 83fed005-c061-4f1d-8b2b-73397e0b7a92
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Open Packaging Conventions], GetName method [Open Packaging Conventions],IOpcPart interface, IOpcPart interface [Open Packaging Conventions],GetName method, IOpcPart.GetName, IOpcPart::GetName, msopc/IOpcPart::GetName, opc.iopcpart_getname
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcPart.GetName"
+f1_keywords:
+- msopc/IOpcPart.GetName
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcPart.GetName
+- IOpcPart.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

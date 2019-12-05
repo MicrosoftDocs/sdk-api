@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetType
 title: IWMDMDevice::GetType (mswmdm.h)
-
 description: The GetType method retrieves the operations supported by the device.
 old-location: wmdm\iwmdmdevice_gettype.htm
 tech.root: WMDM
 ms.assetid: b240d6ac-99bd-4cc2-92d8-e9c7c5834bd7
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [windows Media Device Manager], GetType method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetType method, IWMDMDevice.GetType, IWMDMDevice::GetType, IWMDMDeviceGetType, mswmdm/IWMDMDevice::GetType, wmdm.iwmdmdevice_gettype
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDevice.GetType"
+f1_keywords:
+- mswmdm/IWMDMDevice.GetType
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDevice.GetType
+- IWMDMDevice.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

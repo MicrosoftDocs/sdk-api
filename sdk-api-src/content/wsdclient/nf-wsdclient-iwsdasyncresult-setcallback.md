@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.SetCallback
 title: IWSDAsyncResult::SetCallback (wsdclient.h)
-
 description: Specifies a callback interface to call when the asynchronous operation has completed.
 old-location: ncd\iwsdasyncresult_setcallback.htm
 tech.root: WsdApi
 ms.assetid: 39fc05f8-4b09-4305-b9a4-b4ef65788efc
-
 ms.date: 12/05/2018
 ms.keywords: IWSDAsyncResult interface,SetCallback method, IWSDAsyncResult.SetCallback, IWSDAsyncResult::SetCallback, SetCallback, SetCallback method, SetCallback method,IWSDAsyncResult interface, ncd.iwsdasyncresult_setcallback, wsdclient/IWSDAsyncResult::SetCallback
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDAsyncResult.SetCallback"
+f1_keywords:
+- wsdclient/IWSDAsyncResult.SetCallback
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDAsyncResult.SetCallback
+- IWSDAsyncResult.SetCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

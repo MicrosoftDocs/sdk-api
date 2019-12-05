@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleDefinition.put_UpdatesFileContent
 title: IFsrmStorageModuleDefinition::put_UpdatesFileContent (fsrmpipeline.h)
-
 description: Determines whether the module updates the contents of the file.
 old-location: fsrm\ifsrmstoragemoduledefinition_updatesfilecontent.htm
 tech.root: fsrm
 ms.assetid: 461befff-0bb4-44a2-9c37-e9a8fb1b080f
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmStorageModuleDefinition interface [File Server Resource Manager],UpdatesFileContent property, IFsrmStorageModuleDefinition.UpdatesFileContent, IFsrmStorageModuleDefinition.put_UpdatesFileContent, IFsrmStorageModuleDefinition::UpdatesFileContent, IFsrmStorageModuleDefinition::get_UpdatesFileContent, IFsrmStorageModuleDefinition::put_UpdatesFileContent, UpdatesFileContent property [File Server Resource Manager], UpdatesFileContent property [File Server Resource Manager],IFsrmStorageModuleDefinition interface, fs.ifsrmstoragemoduledefinition_updatesfilecontent, fsrm.ifsrmstoragemoduledefinition_updatesfilecontent, fsrmpipeline/IFsrmStorageModuleDefinition::UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::get_UpdatesFileContent, fsrmpipeline/IFsrmStorageModuleDefinition::put_UpdatesFileContent, put_UpdatesFileContent
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmStorageModuleDefinition.UpdatesFileContent"
+f1_keywords:
+- fsrmpipeline/IFsrmStorageModuleDefinition.UpdatesFileContent
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmStorageModuleDefinition.UpdatesFileContent
- - IFsrmStorageModuleDefinition.get_UpdatesFileContent
- - IFsrmStorageModuleDefinition.put_UpdatesFileContent
+- IFsrmStorageModuleDefinition.UpdatesFileContent
+- IFsrmStorageModuleDefinition.get_UpdatesFileContent
+- IFsrmStorageModuleDefinition.put_UpdatesFileContent
 targetos: Windows
 req.typenames: 
 req.redist: 

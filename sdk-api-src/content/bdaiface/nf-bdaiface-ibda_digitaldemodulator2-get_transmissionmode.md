@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_TransmissionMode
 title: IBDA_DigitalDemodulator2::get_TransmissionMode (bdaiface.h)
-
 description: Gets the demodulator's transmission mode.
 old-location: mstv\ibda_digitaldemodulator2_get_transmissionmode.htm
 tech.root: mstv
 ms.assetid: b5722904-24a4-491f-8563-bfb2d5695d86
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_TransmissionMode method, IBDA_DigitalDemodulator2.get_TransmissionMode, IBDA_DigitalDemodulator2::get_TransmissionMode, bdaiface/IBDA_DigitalDemodulator2::get_TransmissionMode, get_TransmissionMode, get_TransmissionMode method [Microsoft TV Technologies], get_TransmissionMode method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_transmissionmode
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator2.get_TransmissionMode"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator2.get_TransmissionMode
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator2.get_TransmissionMode
+- IBDA_DigitalDemodulator2.get_TransmissionMode
 targetos: Windows
 req.typenames: 
 req.redist: 

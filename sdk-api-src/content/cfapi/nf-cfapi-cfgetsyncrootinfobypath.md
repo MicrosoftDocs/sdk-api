@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfGetSyncRootInfoByPath
 title: CfGetSyncRootInfoByPath function (cfapi.h)
-
 description: Gets various sync root information given a file under the sync root.
 old-location: cloudapi\cfgetsyncrootinfobypath.htm
 tech.root: cfApi
 ms.assetid: 0FEEF910-3545-4D94-BFF9-88AEE084F454
-
 ms.date: 12/05/2018
 ms.keywords: CfGetSyncRootInfoByPath, CfGetSyncRootInfoByPath function, cfapi/CfGetSyncRootInfoByPath, cloudApi.cfgetsyncrootinfobypath
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfGetSyncRootInfoByPath"
+f1_keywords:
+- cfapi/CfGetSyncRootInfoByPath
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfGetSyncRootInfoByPath
+- CfGetSyncRootInfoByPath
 targetos: Windows
 req.typenames: 
 req.redist: 

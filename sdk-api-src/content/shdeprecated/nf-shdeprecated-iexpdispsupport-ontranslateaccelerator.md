@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.OnTranslateAccelerator
 title: IExpDispSupport::OnTranslateAccelerator (shdeprecated.h)
-
 description: Deprecated. Instructs the control site to process the keystroke described in pMsg and modified by the flags in grfModifiers.
 old-location: shell\IExpDispSupport_OnTranslateAccelerator.htm
 tech.root: shell
 ms.assetid: 55f3b4dd-134d-49fe-a7f7-c6315971e902
-
 ms.date: 12/05/2018
 ms.keywords: IExpDispSupport interface [Windows Shell],OnTranslateAccelerator method, IExpDispSupport.OnTranslateAccelerator, IExpDispSupport::OnTranslateAccelerator, OnTranslateAccelerator, OnTranslateAccelerator method [Windows Shell], OnTranslateAccelerator method [Windows Shell],IExpDispSupport interface, shdeprecated/IExpDispSupport::OnTranslateAccelerator, shell.IExpDispSupport_OnTranslateAccelerator, zone_IExpDispSupport_OnTranslateAccelerator
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IExpDispSupport.OnTranslateAccelerator"
+f1_keywords:
+- shdeprecated/IExpDispSupport.OnTranslateAccelerator
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IExpDispSupport.OnTranslateAccelerator
+- IExpDispSupport.OnTranslateAccelerator
 targetos: Windows
 req.typenames: 
 req.redist: 

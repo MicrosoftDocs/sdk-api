@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IEnumTfCandidates.Skip
 title: IEnumTfCandidates::Skip (ctffunc.h)
-
 description: IEnumTfCandidates::Skip method
 old-location: tsf\ienumtfcandidates_skip.htm
 tech.root: TSF
 ms.assetid: f32587f2-cdfa-4cbc-8a5c-f6630c7866f9
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfCandidates interface [Text Services Framework],Skip method, IEnumTfCandidates.Skip, IEnumTfCandidates::Skip, Skip, Skip method [Text Services Framework], Skip method [Text Services Framework],IEnumTfCandidates interface, _tsf_ienumtfcandidates_skip_ref, ctffunc/IEnumTfCandidates::Skip, tsf.ienumtfcandidates_skip
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IEnumTfCandidates.Skip"
+f1_keywords:
+- ctffunc/IEnumTfCandidates.Skip
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - IEnumTfCandidates.Skip
+- IEnumTfCandidates.Skip
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

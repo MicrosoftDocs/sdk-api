@@ -1,19 +1,17 @@
 ---
 UID: NF:sspi.FreeCredentialsHandle
 title: FreeCredentialsHandle function (sspi.h)
-
 description: Notifies the security system that the credentials are no longer needed.
 old-location: security\freecredentialshandle.htm
 tech.root: SecAuthN
 ms.assetid: e089618c-8233-475a-9725-39265c6427ab
-
 ms.date: 12/05/2018
 ms.keywords: FreeCredentialsHandle, FreeCredentialsHandle function [Security], _ssp_freecredentialshandle, security.freecredentialshandle, sspi/FreeCredentialsHandle
 ms.topic: function
-f1_keywords: 
- - "sspi/FreeCredentialsHandle"
+f1_keywords:
+- sspi/FreeCredentialsHandle
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - FreeCredentialsHandle
+- FreeCredentialsHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

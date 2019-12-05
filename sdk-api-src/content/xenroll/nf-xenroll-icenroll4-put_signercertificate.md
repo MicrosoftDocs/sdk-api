@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.put_SignerCertificate
 title: ICEnroll4::put_SignerCertificate (xenroll.h)
-
 description: Sets the signer's certificate.
 old-location: security\icenroll4_signercertificate.htm
 tech.root: SecCrypto
 ms.assetid: 3e5b8964-f737-407e-b265-fe095bd6f8ad
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],SignerCertificate property, ICEnroll4 interface [Security],SignerCertificate property, ICEnroll4.SignerCertificate, ICEnroll4.put_SignerCertificate, ICEnroll4::SignerCertificate, ICEnroll4::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],CEnroll object, SignerCertificate property [Security],ICEnroll4 interface, put_SignerCertificate, security.icenroll4_signercertificate, xenroll/ICEnroll4::SignerCertificate, xenroll/ICEnroll4::put_SignerCertificate
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.SignerCertificate"
+f1_keywords:
+- xenroll/ICEnroll4.SignerCertificate
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.SignerCertificate
- - ICEnroll4.put_SignerCertificate
- - CEnroll.SignerCertificate
+- ICEnroll4.SignerCertificate
+- ICEnroll4.put_SignerCertificate
+- CEnroll.SignerCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

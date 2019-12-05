@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.D3D10StateBlockMaskDisableCapture
 title: D3D10StateBlockMaskDisableCapture function (d3d10effect.h)
-
 description: Disable state capturing with a state-block mask.
 old-location: direct3d10\d3d10stateblockmaskdisablecapture.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10stateblockmaskdisablecapture.htm
-
 ms.date: 12/05/2018
 ms.keywords: 94486a35-b1e6-78b2-b9fb-00c0ab5d19f3, D3D10StateBlockMaskDisableCapture, D3D10StateBlockMaskDisableCapture function [Direct3D 10], d3d10effect/D3D10StateBlockMaskDisableCapture, direct3d10.d3d10stateblockmaskdisablecapture
 ms.topic: function
 f1_keywords:
 - d3d10effect/D3D10StateBlockMaskDisableCapture
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows

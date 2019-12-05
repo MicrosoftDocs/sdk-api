@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFAudioPolicy
 title: IMFAudioPolicy (mfidl.h)
-
 description: Configures the audio session that is associated with the streaming audio renderer (SAR).
 old-location: mf\imfaudiopolicy.htm
 tech.root: medfound
 ms.assetid: fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a
-
 ms.date: 12/05/2018
 ms.keywords: IMFAudioPolicy, IMFAudioPolicy interface [Media Foundation], IMFAudioPolicy interface [Media Foundation],described, fcd4dbfb-3f9f-4089-b9cc-7b41b2c2678a, mf.imfaudiopolicy, mfidl/IMFAudioPolicy
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFAudioPolicy"
+f1_keywords:
+- mfidl/IMFAudioPolicy
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFAudioPolicy
+- IMFAudioPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.OutlineStyles
 title: OutlineStyles (uiautomationcore.h)
-
 description: Contains values for the OutlineStyle text attribute.
 old-location: winauto\uiauto_OutlineStylesEnum.htm
 tech.root: WinAuto
 ms.assetid: a3728607-f536-4c2c-afb2-0c040d776df5
-
 ms.date: 12/05/2018
 ms.keywords: OutlineStyles, OutlineStyles enumeration [Windows Accessibility], OutlineStyles_Embossed, OutlineStyles_Engraved, OutlineStyles_None, OutlineStyles_Outline, OutlineStyles_Shadow, uiauto.uiauto_OutlineStylesEnum, uiauto_OutlineStylesEnum, uiautomationcore/OutlineStyles, uiautomationcore/OutlineStyles_Embossed, uiautomationcore/OutlineStyles_Engraved, uiautomationcore/OutlineStyles_None, uiautomationcore/OutlineStyles_Outline, uiautomationcore/OutlineStyles_Shadow, winauto.uiauto_OutlineStylesEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/OutlineStyles"
+f1_keywords:
+- uiautomationcore/OutlineStyles
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - OutlineStyles
+- OutlineStyles
 targetos: Windows
 req.typenames: 
 req.redist: 

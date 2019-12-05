@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumn
 title: ICrmFormatLogRecords::GetColumn (comsvcs.h)
-
 description: Formats one unstructured log record into an array of viewable fields.
 old-location: cos\icrmformatlogrecords_getcolumn.htm
 tech.root: cossdk
 ms.assetid: 5234f582-88e2-4a9a-8650-d0d2d4b39f31
-
 ms.date: 12/05/2018
 ms.keywords: GetColumn, GetColumn method [COM+], GetColumn method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumn method, ICrmFormatLogRecords.GetColumn, ICrmFormatLogRecords::GetColumn, _dtc_ICrmFormatLogRecords_GetColumn, comsvcs/ICrmFormatLogRecords::GetColumn, cos.icrmformatlogrecords_getcolumn
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmFormatLogRecords.GetColumn"
+f1_keywords:
+- comsvcs/ICrmFormatLogRecords.GetColumn
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmFormatLogRecords.GetColumn
+- ICrmFormatLogRecords.GetColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivityCone
 title: HrtfDirectivityCone (hrtfapoapi.h)
-
 description: Describes a cone directivity.
 old-location: xaudio2\hrtfdirectivitycone.htm
 tech.root: xaudio2
 ms.assetid: 88679E17-285A-41C1-87A5-C37AF66F327F
-
 ms.date: 12/05/2018
 ms.keywords: HrtfDirectivityCone, HrtfDirectivityCone structure [XAudio2 Audio Mixing APIs], PHrtfDirectivityCone, PHrtfDirectivityCone structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivityCone, hrtfapoapi/PHrtfDirectivityCone, xaudio2.hrtfdirectivitycone
 ms.topic: struct
-f1_keywords: 
- - "hrtfapoapi/HrtfDirectivityCone"
+f1_keywords:
+- hrtfapoapi/HrtfDirectivityCone
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfDirectivityCone
+- HrtfDirectivityCone
 targetos: Windows
 req.typenames: HrtfDirectivityCone
 req.redist: 

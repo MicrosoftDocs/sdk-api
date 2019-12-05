@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsRemovable.Eject
 title: IVdsRemovable::Eject (vds.h)
-
 description: Ejects the media from the current device.
 old-location: base\ivdsremovable_eject.htm
 tech.root: VDS
 ms.assetid: c77885bd-67af-41c1-9190-e0148c7b7ed5
-
 ms.date: 12/05/2018
 ms.keywords: Eject, Eject method [VDS], Eject method [VDS],IVdsRemovable interface, IVdsRemovable interface [VDS],Eject method, IVdsRemovable.Eject, IVdsRemovable::Eject, base.ivdsremovable_eject, vds/IVdsRemovable::Eject
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsRemovable.Eject"
+f1_keywords:
+- vds/IVdsRemovable.Eject
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsRemovable.Eject
+- IVdsRemovable.Eject
 targetos: Windows
 req.typenames: 
 req.redist: 

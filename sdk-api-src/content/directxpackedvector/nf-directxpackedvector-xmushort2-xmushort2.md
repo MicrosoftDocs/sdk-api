@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2
 title: XMUSHORT2::XMUSHORT2 (directxpackedvector.h)
-
 description: Default constructor for XMUSHORT2.
 old-location: dxmath\xmushort2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORT2.#ctor
-
 ms.date: 12/05/2018
 ms.keywords: XMUSHORT2, XMUSHORT2 constructor [DirectX Math Support APIs], XMUSHORT2 constructor [DirectX Math Support APIs],XMUSHORT2 structure, XMUSHORT2 structure [DirectX Math Support APIs],XMUSHORT2 constructor, XMUSHORT2.XMUSHORT2, XMUSHORT2.XMUSHORT2(), XMUSHORT2::XMUSHORT2, dxmath.xmushort2_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUSHORT2.XMUSHORT2"
+f1_keywords:
+- directxpackedvector/XMUSHORT2.XMUSHORT2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxpackedvector.h
+- directxpackedvector.h
 api_name:
- - XMUSHORT2.XMUSHORT2
+- XMUSHORT2.XMUSHORT2
 targetos: Windows
 req.typenames: 
 req.redist: 

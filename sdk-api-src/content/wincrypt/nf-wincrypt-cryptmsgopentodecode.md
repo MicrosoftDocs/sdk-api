@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptMsgOpenToDecode
 title: CryptMsgOpenToDecode function (wincrypt.h)
-
 description: Opens a cryptographic message for decoding and returns a handle of the opened message.
 old-location: security\cryptmsgopentodecode.htm
 tech.root: SecCrypto
 ms.assetid: b3df6312-c866-4faa-8b89-bda67c697631
-
 ms.date: 12/05/2018
 ms.keywords: CMSG_CRYPT_RELEASE_CONTEXT_FLAG, CMSG_DATA, CMSG_DETACHED_FLAG, CMSG_ENVELOPED, CMSG_HASHED, CMSG_SIGNED, CMSG_SIGNED_AND_ENVELOPED, CryptMsgOpenToDecode, CryptMsgOpenToDecode function [Security], _crypto2_cryptmsgopentodecode, security.cryptmsgopentodecode, wincrypt/CryptMsgOpenToDecode
 ms.topic: function
 f1_keywords:
 - wincrypt/CryptMsgOpenToDecode
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

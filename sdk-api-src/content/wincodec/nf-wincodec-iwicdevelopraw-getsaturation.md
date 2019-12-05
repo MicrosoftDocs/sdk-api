@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetSaturation
 title: IWICDevelopRaw::GetSaturation (wincodec.h)
-
 description: Gets the saturation value of the raw image.
 old-location: wic\_wic_codec_iwicdevelopraw_getsaturation.htm
 tech.root: wic
 ms.assetid: 621868d6-3444-48f9-a069-f52ebacd7bbb
-
 ms.date: 12/05/2018
 ms.keywords: GetSaturation, GetSaturation method [Windows Imaging Component], GetSaturation method [Windows Imaging Component],IWICDevelopRaw interface, IWICDevelopRaw interface [Windows Imaging Component],GetSaturation method, IWICDevelopRaw.GetSaturation, IWICDevelopRaw::GetSaturation, _wic_codec_iwicdevelopraw_getsaturation, wic._wic_codec_iwicdevelopraw_getsaturation, wincodec/IWICDevelopRaw::GetSaturation
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.GetSaturation"
+f1_keywords:
+- wincodec/IWICDevelopRaw.GetSaturation
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.GetSaturation
+- IWICDevelopRaw.GetSaturation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetTextAlignment
 title: IDWriteTextFormat::SetTextAlignment (dwrite.h)
-
 description: Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a IDWriteTextFormat interface.
 old-location: directwrite\IDWriteTextFormat_SetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 2e7554e3-4e0c-45b1-a874-a3054b0e91dc
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetTextAlignment method, IDWriteTextFormat.SetTextAlignment, IDWriteTextFormat::SetTextAlignment, SetTextAlignment, SetTextAlignment method [Direct Write], SetTextAlignment method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetTextAlignment, dwrite/IDWriteTextFormat::SetTextAlignment
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.SetTextAlignment"
+f1_keywords:
+- dwrite/IDWriteTextFormat.SetTextAlignment
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.SetTextAlignment
+- IDWriteTextFormat.SetTextAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

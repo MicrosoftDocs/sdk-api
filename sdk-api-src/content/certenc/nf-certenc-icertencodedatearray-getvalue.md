@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeDateArray.GetValue
 title: ICertEncodeDateArray::GetValue (certenc.h)
-
 description: Returns the specified date from the DATE array.
 old-location: security\icertencodedatearray_getvalue.htm
 tech.root: SecCrypto
 ms.assetid: db108b2a-c3ee-4ef8-be5c-74dc739dacee
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeDateArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeDateArray object, GetValue method [Security],ICertEncodeDateArray interface, ICertEncodeDateArray interface [Security],GetValue method, ICertEncodeDateArray.GetValue, ICertEncodeDateArray::GetValue, _certsrv_icertencodedatearray_getvalue, certenc/ICertEncodeDateArray::GetValue, security.icertencodedatearray_getvalue
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeDateArray.GetValue"
+f1_keywords:
+- certenc/ICertEncodeDateArray.GetValue
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeDateArray.GetValue
- - CCertEncodeDateArray.GetValue
+- ICertEncodeDateArray.GetValue
+- CCertEncodeDateArray.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

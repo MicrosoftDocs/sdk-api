@@ -1,7 +1,6 @@
 ---
 UID: NA:eaphostpeerconfigapis
 ms.assetid: d177ebd2-7173-3e74-8d43-b47cfe05334f
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

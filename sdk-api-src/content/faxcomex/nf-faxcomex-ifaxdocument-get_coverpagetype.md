@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_CoverPageType
 title: IFaxDocument::get_CoverPageType (faxcomex.h)
-
 description: The IFaxDocument::get_CoverPageType property is a value from an enumeration that indicates whether a specified cover page template file (.cov) is a server-based cover page file or a local-computer-based cover page file.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_coverpagetype_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_3v8l.htm
-
 ms.date: 12/05/2018
 ms.keywords: CoverPageType property [Fax Service], CoverPageType property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],CoverPageType property, IFaxDocument.CoverPageType, IFaxDocument.get_CoverPageType, IFaxDocument::CoverPageType, IFaxDocument::get_CoverPageType, IFaxDocument::put_CoverPageType, _mfax_faxdocument.coverpagetype, fax._mfax_faxdocument_coverpagetype, fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpagetype_cpp, faxcomex/IFaxDocument::CoverPageType, faxcomex/IFaxDocument::get_CoverPageType, faxcomex/IFaxDocument::put_CoverPageType, get_CoverPageType
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.CoverPageType"
+f1_keywords:
+- faxcomex/IFaxDocument.CoverPageType
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.CoverPageType
- - IFaxDocument.get_CoverPageType
- - IFaxDocument.put_CoverPageType
+- IFaxDocument.CoverPageType
+- IFaxDocument.get_CoverPageType
+- IFaxDocument.put_CoverPageType
 targetos: Windows
 req.typenames: 
 req.redist: 

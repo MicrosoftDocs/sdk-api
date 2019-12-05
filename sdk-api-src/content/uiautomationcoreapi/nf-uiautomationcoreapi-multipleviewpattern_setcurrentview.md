@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.MultipleViewPattern_SetCurrentView
 title: MultipleViewPattern_SetCurrentView function (uiautomationcoreapi.h)
-
 description: Sets a control to a different layout.
 old-location: winauto\uiauto_MultipleViewPattern_SetCurrentViewConPat.htm
 tech.root: WinAuto
 ms.assetid: 346b6099-ca8f-4237-9eda-1ae2ee2263a3
-
 ms.date: 12/05/2018
 ms.keywords: MultipleViewPattern_SetCurrentView, MultipleViewPattern_SetCurrentView function [Windows Accessibility], uiauto.uiauto_MultipleViewPattern_SetCurrentViewConPat, uiauto_MultipleViewPattern_SetCurrentViewConPat, uiautomationcoreapi/MultipleViewPattern_SetCurrentView, winauto.uiauto_MultipleViewPattern_SetCurrentViewConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/MultipleViewPattern_SetCurrentView"
+f1_keywords:
+- uiautomationcoreapi/MultipleViewPattern_SetCurrentView
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - MultipleViewPattern_SetCurrentView
+- MultipleViewPattern_SetCurrentView
 targetos: Windows
 req.typenames: 
 req.redist: 

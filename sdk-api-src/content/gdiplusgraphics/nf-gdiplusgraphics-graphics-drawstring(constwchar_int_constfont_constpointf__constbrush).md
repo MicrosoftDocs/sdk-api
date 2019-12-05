@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.DrawString(const WCHAR,INT,const Font,const PointF &,const Brush)
 title: Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const Brush) (gdiplusgraphics.h)
-
 description: The Graphics::DrawString method draws a string based on a font and an origin for the string.
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_brush_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawstringmethods\drawstring_75string_length_font_origin_brush.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawString, DrawString method [GDI+], DrawString method [GDI+],Graphics class, Graphics class [GDI+],DrawString method, Graphics.DrawString, Graphics.DrawString(const WCHAR*,INT,const Font*,const PointF&,const Brush*), Graphics.DrawString(const WCHAR,INT,const Font,const PointF &,const Brush), Graphics::DrawString, Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const Brush), _gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_brush_, gdiplus._gdiplus_CLASS_Graphics_DrawString_string_length_font_origin_brush_
 ms.topic: method
-f1_keywords: 
- - "gdiplusgraphics/Graphics.DrawString"
+f1_keywords:
+- gdiplusgraphics/Graphics.DrawString
 dev_langs:
- - c++
+- c++
 req.header: gdiplusgraphics.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Graphics.DrawString
+- Graphics.DrawString
 targetos: Windows
 req.typenames: 
 req.redist: 

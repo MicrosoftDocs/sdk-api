@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.ResetLoggingUrlList
 title: IWMReaderNetworkConfig::ResetLoggingUrlList (wmsdkidl.h)
-
 description: The ResetLoggingUrlList method clears the list of servers that receive logging data.
 old-location: wmformat\iwmreadernetworkconfig_resetloggingurllist.htm
 tech.root: wmformat
 ms.assetid: 0fe71d73-a827-4aed-a37b-db7701cc1180
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderNetworkConfig interface [windows Media Format],ResetLoggingUrlList method, IWMReaderNetworkConfig.ResetLoggingUrlList, IWMReaderNetworkConfig::ResetLoggingUrlList, IWMReaderNetworkConfigResetLoggingUrlList, ResetLoggingUrlList, ResetLoggingUrlList method [windows Media Format], ResetLoggingUrlList method [windows Media Format],IWMReaderNetworkConfig interface, wmformat.iwmreadernetworkconfig_resetloggingurllist, wmsdkidl/IWMReaderNetworkConfig::ResetLoggingUrlList
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderNetworkConfig.ResetLoggingUrlList"
+f1_keywords:
+- wmsdkidl/IWMReaderNetworkConfig.ResetLoggingUrlList
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig.ResetLoggingUrlList
+- IWMReaderNetworkConfig.ResetLoggingUrlList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IAutomaticUpdates.ShowSettingsDialog
 title: IAutomaticUpdates::ShowSettingsDialog (wuapi.h)
-
 description: Displays a dialog box that contains settings for Automatic Updates.
 old-location: wua\iautomaticupdates_showsettingsdialog.htm
 tech.root: Wua_Sdk
 ms.assetid: da153799-9414-4e8e-aed4-96e0fff9ca88
-
 ms.date: 12/05/2018
 ms.keywords: IAutomaticUpdates interface [Windows Update Agent],ShowSettingsDialog method, IAutomaticUpdates.ShowSettingsDialog, IAutomaticUpdates::ShowSettingsDialog, ShowSettingsDialog, ShowSettingsDialog method [Windows Update Agent], ShowSettingsDialog method [Windows Update Agent],IAutomaticUpdates interface, wua.iautomaticupdates_showsettingsdialog, wuapi/IAutomaticUpdates::ShowSettingsDialog
 ms.topic: method
-f1_keywords: 
- - "wuapi/IAutomaticUpdates.ShowSettingsDialog"
+f1_keywords:
+- wuapi/IAutomaticUpdates.ShowSettingsDialog
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IAutomaticUpdates.ShowSettingsDialog
+- IAutomaticUpdates.ShowSettingsDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

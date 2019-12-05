@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndGetLength
 title: MCIWndGetLength macro (vfw.h)
-
 description: The MCIWndGetLength macro retrieves the length of the content or file currently used by an MCI device. You can use this macro or explicitly send the MCIWNDM_GETLENGTH message.
 old-location: multimedia\mciwndgetlength.htm
 tech.root: Multimedia
 ms.assetid: 2d027660-b2dd-4613-9583-30d7a45f7a1d
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndGetLength, MCIWndGetLength macro [Windows Multimedia], _win32_MCIWndGetLength, multimedia.mciwndgetlength, vfw/MCIWndGetLength
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndGetLength"
+f1_keywords:
+- vfw/MCIWndGetLength
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndGetLength
+- MCIWndGetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

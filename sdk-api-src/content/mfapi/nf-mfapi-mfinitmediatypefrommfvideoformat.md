@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromMFVideoFormat
 title: MFInitMediaTypeFromMFVideoFormat function (mfapi.h)
-
 description: Initializes a media type from an MFVIDEOFORMAT structure.
 old-location: mf\mfinitmediatypefrommfvideoformat.htm
 tech.root: medfound
 ms.assetid: 45400b67-df81-4fae-a24d-80020eb07151
-
 ms.date: 12/05/2018
 ms.keywords: 45400b67-df81-4fae-a24d-80020eb07151, MFInitMediaTypeFromMFVideoFormat, MFInitMediaTypeFromMFVideoFormat function [Media Foundation], mf.mfinitmediatypefrommfvideoformat, mfapi/MFInitMediaTypeFromMFVideoFormat
 ms.topic: function
 f1_keywords:
 - mfapi/MFInitMediaTypeFromMFVideoFormat
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows

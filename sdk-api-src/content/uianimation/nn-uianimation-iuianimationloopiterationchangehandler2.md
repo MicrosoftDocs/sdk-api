@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationLoopIterationChangeHandler2
 title: IUIAnimationLoopIterationChangeHandler2 (uianimation.h)
-
 description: Defines a method for handling storyboard loop iteration events.
 old-location: uianimation\iuianimationloopiterationchangehandler2.htm
 tech.root: UIAnimation
 ms.assetid: DB3995BA-856F-407D-AA89-247D84C3F7A1
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationLoopIterationChangeHandler2, IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation], IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation],described, uianimation.iuianimationloopiterationchangehandler2, uianimation/IUIAnimationLoopIterationChangeHandler2
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationLoopIterationChangeHandler2"
+f1_keywords:
+- uianimation/IUIAnimationLoopIterationChangeHandler2
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationLoopIterationChangeHandler2
+- IUIAnimationLoopIterationChangeHandler2
 targetos: Windows
 req.typenames: 
 req.redist: 

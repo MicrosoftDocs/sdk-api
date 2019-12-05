@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.AssocCreateForClasses
 title: AssocCreateForClasses function (shellapi.h)
-
 description: Retrieves an object that implements an IQueryAssociations interface.
 old-location: shell\AssocCreateForClasses.htm
 tech.root: shell
 ms.assetid: 43257507-dd5e-4622-8445-c132187fd1e5
-
 ms.date: 12/05/2018
 ms.keywords: AssocCreateForClasses, AssocCreateForClasses function [Windows Shell], _shell_AssocCreateForClasses, shell.AssocCreateForClasses, shellapi/AssocCreateForClasses
 ms.topic: function
-f1_keywords: 
- - "shellapi/AssocCreateForClasses"
+f1_keywords:
+- shellapi/AssocCreateForClasses
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Windows.Storage.dll
- - API-MS-Win-Shell-Associations-L1-1-0.dll
+- Shell32.dll
+- Windows.Storage.dll
+- API-MS-Win-Shell-Associations-L1-1-0.dll
 api_name:
- - AssocCreateForClasses
+- AssocCreateForClasses
 targetos: Windows
 req.typenames: 
 req.redist: 

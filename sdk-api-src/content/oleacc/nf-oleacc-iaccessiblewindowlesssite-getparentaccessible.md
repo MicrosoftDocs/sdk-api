@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.GetParentAccessible
 title: IAccessibleWindowlessSite::GetParentAccessible (oleacc.h)
-
 description: Retrieves an IAccessible pointer for the parent of a windowless Microsoft ActiveX control in the accessibility tree.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_GetParentAccessible.htm
 tech.root: WinAuto
 ms.assetid: 579C2425-9C3E-4CFF-8A25-C661670FB636
-
 ms.date: 12/05/2018
 ms.keywords: GetParentAccessible, GetParentAccessible method [Windows Accessibility], GetParentAccessible method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],GetParentAccessible method, IAccessibleWindowlessSite.GetParentAccessible, IAccessibleWindowlessSite::GetParentAccessible, oleacc/IAccessibleWindowlessSite::GetParentAccessible, winauto.uiauto_IAccessibleWindowlessSite_GetParentAccessible
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessibleWindowlessSite.GetParentAccessible"
+f1_keywords:
+- oleacc/IAccessibleWindowlessSite.GetParentAccessible
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessibleWindowlessSite.GetParentAccessible
+- IAccessibleWindowlessSite.GetParentAccessible
 targetos: Windows
 req.typenames: 
 req.redist: 

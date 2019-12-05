@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.UpdateBackForwardState
 title: IBrowserService::UpdateBackForwardState (shdeprecated.h)
-
 description: Deprecated. Updates the state of the browser's Back and Forward buttons.
 old-location: shell\IBrowserService_UpdateBackForwardState.htm
 tech.root: shell
 ms.assetid: 03e4a470-96dc-408c-a124-5230c185b075
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService interface [Windows Shell],UpdateBackForwardState method, IBrowserService.UpdateBackForwardState, IBrowserService::UpdateBackForwardState, UpdateBackForwardState, UpdateBackForwardState method [Windows Shell], UpdateBackForwardState method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::UpdateBackForwardState, shell.IBrowserService_UpdateBackForwardState, zone_IBrowserService_UpdateBackForwardState
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.UpdateBackForwardState"
+f1_keywords:
+- shdeprecated/IBrowserService.UpdateBackForwardState
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.UpdateBackForwardState
+- IBrowserService.UpdateBackForwardState
 targetos: Windows
 req.typenames: 
 req.redist: 

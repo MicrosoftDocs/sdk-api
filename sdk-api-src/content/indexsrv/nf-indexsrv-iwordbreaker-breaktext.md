@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.IWordBreaker.BreakText
 title: IWordBreaker::BreakText (indexsrv.h)
-
 description: Parses text to identify words and phrases and provides the results to the IWordSink and IPhraseSink objects.
 old-location: search\_search_IWordBreaker_BreakText.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\iwordbreaker\breaktext.htm
-
 ms.date: 12/05/2018
 ms.keywords: BreakText, BreakText method [search], BreakText method [search],IWordBreaker interface, IWordBreaker interface [search],BreakText method, IWordBreaker.BreakText, IWordBreaker::BreakText, _search_IWordBreaker_BreakText, indexsrv/IWordBreaker::BreakText, search._search_IWordBreaker_BreakText
 ms.topic: method
-f1_keywords: 
- - "indexsrv/IWordBreaker.BreakText"
+f1_keywords:
+- indexsrv/IWordBreaker.BreakText
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - IWordBreaker.BreakText
+- IWordBreaker.BreakText
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

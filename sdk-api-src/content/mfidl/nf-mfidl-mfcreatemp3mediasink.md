@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateMP3MediaSink
 title: MFCreateMP3MediaSink function (mfidl.h)
-
 description: Creates the MP3 media sink.
 old-location: mf\mfcreatemp3mediasink.htm
 tech.root: medfound
 ms.assetid: b555e9c8-5a2a-452d-8edf-c41c0e24296b
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateMP3MediaSink, MFCreateMP3MediaSink function [Media Foundation], mf.mfcreatemp3mediasink, mfidl/MFCreateMP3MediaSink
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateMP3MediaSink"
+f1_keywords:
+- mfidl/MFCreateMP3MediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateMP3MediaSink
+- MFCreateMP3MediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

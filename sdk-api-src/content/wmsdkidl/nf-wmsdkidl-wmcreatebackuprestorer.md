@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.WMCreateBackupRestorer
 title: WMCreateBackupRestorer function (wmsdkidl.h)
-
 description: The WMCreateBackupRestorer function creates a backup restorer object.
 old-location: wmformat\wmcreatebackuprestorer.htm
 tech.root: wmformat
 ms.assetid: 529a5066-df03-4747-bca5-10e3f223d4d2
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateBackupRestorer, WMCreateBackupRestorer function [windows Media Format], wmformat.wmcreatebackuprestorer, wmsdkidl/WMCreateBackupRestorer
 ms.topic: function
-f1_keywords: 
- - "wmsdkidl/WMCreateBackupRestorer"
+f1_keywords:
+- wmsdkidl/WMCreateBackupRestorer
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wmvcore.dll
+- Wmvcore.dll
 api_name:
- - WMCreateBackupRestorer
+- WMCreateBackupRestorer
 targetos: Windows
 req.typenames: 
 req.redist: 

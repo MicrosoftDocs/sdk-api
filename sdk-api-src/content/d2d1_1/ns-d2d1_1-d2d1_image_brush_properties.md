@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_1.D2D1_IMAGE_BRUSH_PROPERTIES
 title: D2D1_IMAGE_BRUSH_PROPERTIES (d2d1_1.h)
-
 description: Describes image brush features.
 old-location: direct2d\d2d1_image_brush_properties.htm
 tech.root: Direct2D
 ms.assetid: c7bcae4d-cdef-4bfc-aa5a-68b85497a7f6
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_IMAGE_BRUSH_PROPERTIES, D2D1_IMAGE_BRUSH_PROPERTIES structure [Direct2D], PD2D1_IMAGE_BRUSH_PROPERTIES, PD2D1_IMAGE_BRUSH_PROPERTIES structure pointer [Direct2D], d2d1_1/D2D1_IMAGE_BRUSH_PROPERTIES, d2d1_1/PD2D1_IMAGE_BRUSH_PROPERTIES, direct2d.d2d1_image_brush_properties
 ms.topic: struct
-f1_keywords: 
- - "d2d1_1/D2D1_IMAGE_BRUSH_PROPERTIES"
+f1_keywords:
+- d2d1_1/D2D1_IMAGE_BRUSH_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2D1.lib
+- D2D1.lib
 api_name:
- - D2D1_IMAGE_BRUSH_PROPERTIES
+- D2D1_IMAGE_BRUSH_PROPERTIES
 targetos: Windows
 req.typenames: D2D1_IMAGE_BRUSH_PROPERTIES
 req.redist: 

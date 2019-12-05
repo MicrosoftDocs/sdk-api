@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.CHString(LPCWSTR,int)
 title: CHString::CHString(LPCWSTR,int) (chstring.h)
-
 description: Initializes a new CHString object with the specified data.
 old-location: wmi\chstring_chstring_lpcwstr_int_.htm
 tech.root: WmiSdk
 ms.assetid: 58d588fe-6fd4-40c6-83fd-b78e0e409783
-
 ms.date: 12/05/2018
 ms.keywords: CHString, CHString constructor [Windows Management Instrumentation], CHString constructor [Windows Management Instrumentation],CHString interface, CHString interface [Windows Management Instrumentation],CHString constructor, CHString.CHString, CHString.CHString(LPCWSTR,int), CHString::CHString, CHString::CHString(LPCWSTR,int), chstring/CHString::CHString, wmi.chstring_chstring_lpcwstr_int_
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.CHString"
+f1_keywords:
+- chstring/CHString.CHString
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.CHString
+- CHString.CHString
 targetos: Windows
 req.typenames: 
 req.redist: 

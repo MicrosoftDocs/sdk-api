@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadGUID
 title: PSPropertyBag_ReadGUID function (propsys.h)
-
 description: Reads the GUID data value from a property in a property bag.
 old-location: properties\PSPropertyBag_ReadGUID.htm
 tech.root: properties
 ms.assetid: BCC6E830-CF05-42c1-874F-CCC97E58A4BC
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadGUID, PSPropertyBag_ReadGUID function [Windows Properties], properties.PSPropertyBag_ReadGUID, propsys/PSPropertyBag_ReadGUID, shell.PSPropertyBag_ReadGUID, shell_PSPropertyBag_ReadGUID
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadGUID"
+f1_keywords:
+- propsys/PSPropertyBag_ReadGUID
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: Propsys.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadGUID
+- PSPropertyBag_ReadGUID
 targetos: Windows
 req.typenames: 
 req.redist: 

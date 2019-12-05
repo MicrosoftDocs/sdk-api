@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetDriverName
 title: EngGetDriverName function (winddi.h)
-
 description: The EngGetDriverName function returns the name of the driver's DLL.
 old-location: display\enggetdrivername.htm
 tech.root: display
 ms.assetid: 6af3aa76-ebb4-4abb-ba35-537ccae95220
-
 ms.date: 12/05/2018
 ms.keywords: EngGetDriverName, EngGetDriverName function [Display Devices], display.enggetdrivername, gdifncs_e0da975e-1a7f-4f28-a38b-be0966f3b0c0.xml, winddi/EngGetDriverName
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetDriverName"
+f1_keywords:
+- winddi/EngGetDriverName
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngGetDriverName
+- EngGetDriverName
 targetos: Windows
 req.typenames: 
 req.redist: 

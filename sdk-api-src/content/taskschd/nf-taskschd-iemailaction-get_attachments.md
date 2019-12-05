@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IEmailAction.get_Attachments
 title: IEmailAction::get_Attachments (taskschd.h)
-
 description: Gets or sets the pointer to an array of attachments that is sent with the email message.
 old-location: taskschd\iemailaction_attachments.htm
 tech.root: taskschd
 ms.assetid: 06a3cf8f-d7fd-4ed6-9fd6-ea45face034a
-
 ms.date: 12/05/2018
 ms.keywords: Attachments property [Task Scheduler], Attachments property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Attachments property, IEmailAction.Attachments, IEmailAction.get_Attachments, IEmailAction::Attachments, IEmailAction::get_Attachments, IEmailAction::put_Attachments, get_Attachments, taskschd.iemailaction_attachments, taskschd/IEmailAction::Attachments, taskschd/IEmailAction::get_Attachments, taskschd/IEmailAction::put_Attachments
 ms.topic: method
-f1_keywords: 
- - "taskschd/IEmailAction.Attachments"
+f1_keywords:
+- taskschd/IEmailAction.Attachments
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEmailAction.Attachments
- - IEmailAction.get_Attachments
- - IEmailAction.put_Attachments
+- IEmailAction.Attachments
+- IEmailAction.get_Attachments
+- IEmailAction.put_Attachments
 targetos: Windows
 req.typenames: 
 req.redist: 

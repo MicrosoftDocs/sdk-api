@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.VARIANT_UserSize
 title: VARIANT_UserSize function (oaidl.h)
-
 description: Calculates the wire size of the VARIANT object, and gets its handle and data.
 old-location: automat\variant_usersize.htm
 tech.root: automat
 ms.assetid: 64dc64e5-3de3-4133-835c-b832f5bb20ae
-
 ms.date: 12/05/2018
 ms.keywords: VARIANT_UserSize, VARIANT_UserSize function [Automation], _oa96_VARIANT_UserSize, automat.variant_usersize, oaidl/VARIANT_UserSize
 ms.topic: function
-f1_keywords: 
- - "oaidl/VARIANT_UserSize"
+f1_keywords:
+- oaidl/VARIANT_UserSize
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VARIANT_UserSize
+- VARIANT_UserSize
 targetos: Windows
 req.typenames: 
 req.redist: 

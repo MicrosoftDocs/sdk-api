@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.InitializeForRestore
 title: IVssBackupComponents::InitializeForRestore (vsbackup.h)
-
 description: The InitializeForRestore method initializes the IVssBackupComponents interface in preparation for a restore operation.
 old-location: base\ivssbackupcomponents_initializeforrestore.htm
 tech.root: VSS
 ms.assetid: a8ba1463-4da7-4539-8ade-b57ecda0a645
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],InitializeForRestore method, IVssBackupComponents.InitializeForRestore, IVssBackupComponents::InitializeForRestore, InitializeForRestore, InitializeForRestore method [VSS], InitializeForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_initializeforrestore, base.ivssbackupcomponents_initializeforrestore, vsbackup/IVssBackupComponents::InitializeForRestore
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.InitializeForRestore"
+f1_keywords:
+- vsbackup/IVssBackupComponents.InitializeForRestore
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.InitializeForRestore
+- IVssBackupComponents.InitializeForRestore
 targetos: Windows
 req.typenames: 
 req.redist: 

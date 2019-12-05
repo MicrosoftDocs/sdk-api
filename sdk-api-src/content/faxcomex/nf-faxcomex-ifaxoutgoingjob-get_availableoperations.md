@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_AvailableOperations
 title: IFaxOutgoingJob::get_AvailableOperations (faxcomex.h)
-
 description: The IFaxOutgoingJob::get_AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9rsj.htm
-
 ms.date: 12/05/2018
 ms.keywords: AvailableOperations property [Fax Service], AvailableOperations property [Fax Service],IFaxOutgoingJob interface, IFaxOutgoingJob interface [Fax Service],AvailableOperations property, IFaxOutgoingJob.AvailableOperations, IFaxOutgoingJob.get_AvailableOperations, IFaxOutgoingJob::AvailableOperations, IFaxOutgoingJob::get_AvailableOperations, _mfax_faxoutgoingjob.availableoperations, fax._mfax_faxoutgoingjob_availableoperations, fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp, faxcomex/IFaxOutgoingJob::AvailableOperations, faxcomex/IFaxOutgoingJob::get_AvailableOperations, get_AvailableOperations
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingJob.AvailableOperations"
+f1_keywords:
+- faxcomex/IFaxOutgoingJob.AvailableOperations
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingJob.AvailableOperations
- - IFaxOutgoingJob.get_AvailableOperations
+- IFaxOutgoingJob.AvailableOperations
+- IFaxOutgoingJob.get_AvailableOperations
 targetos: Windows
 req.typenames: 
 req.redist: 

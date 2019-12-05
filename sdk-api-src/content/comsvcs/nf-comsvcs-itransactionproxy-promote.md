@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ITransactionProxy.Promote
 title: ITransactionProxy::Promote (comsvcs.h)
-
 description: Promotes a non-DTC transaction to a DTC transaction.
 old-location: cos\itransactionproxy_promote.htm
 tech.root: cossdk
 ms.assetid: 861103b4-b5fa-4543-b26b-ad0c89d4473d
-
 ms.date: 12/05/2018
 ms.keywords: ITransactionProxy interface [COM+],Promote method, ITransactionProxy.Promote, ITransactionProxy::Promote, Promote, Promote method [COM+], Promote method [COM+],ITransactionProxy interface, comsvcs/ITransactionProxy::Promote, cos.itransactionproxy_promote
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ITransactionProxy.Promote"
+f1_keywords:
+- comsvcs/ITransactionProxy.Promote
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ITransactionProxy.Promote
+- ITransactionProxy.Promote
 targetos: Windows
 req.typenames: 
 req.redist: 

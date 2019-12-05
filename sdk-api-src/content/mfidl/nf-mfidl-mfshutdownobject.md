@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFShutdownObject
 title: MFShutdownObject function (mfidl.h)
-
 description: Shuts down a Media Foundation object and releases all resources associated with the object.
 old-location: mf\mfshutdownobject.htm
 tech.root: medfound
 ms.assetid: a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587
-
 ms.date: 12/05/2018
 ms.keywords: MFShutdownObject, MFShutdownObject function [Media Foundation], a7dc3d4a-f21e-4af8-bee0-2d5f2cf28587, mf.mfshutdownobject, mfidl/MFShutdownObject
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFShutdownObject"
+f1_keywords:
+- mfidl/MFShutdownObject
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFShutdownObject
+- MFShutdownObject
 targetos: Windows
 req.typenames: 
 req.redist: 

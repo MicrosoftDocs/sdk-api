@@ -1,19 +1,17 @@
 ---
 UID: NE:fhcfg._FH_DEVICE_VALIDATION_RESULT
 title: FH_DEVICE_VALIDATION_RESULT (fhcfg.h)
-
 description: Indicates whether the storage device or network share can be used as a File History backup target.
 old-location: winprog\fh_device_validation_result.htm
 tech.root: DevNotes
 ms.assetid: DAADC244-D0F5-44F9-9F61-48E6C6EFB91A
-
 ms.date: 12/05/2018
-ms.keywords: "*PFH_DEVICE_VALIDATION_RESULT, FH_ACCESS_DENIED, FH_CURRENT_DEFAULT, FH_DEVICE_VALIDATION_RESULT, FH_DEVICE_VALIDATION_RESULT enumeration [Windows API], FH_INVALID_DRIVE_TYPE, FH_NAMESPACE_EXISTS, FH_READ_ONLY_PERMISSION, FH_TARGET_PART_OF_LIBRARY, FH_VALID_TARGET, MAX_VALIDATION_RESULT, fhcfg/FH_ACCESS_DENIED, fhcfg/FH_CURRENT_DEFAULT, fhcfg/FH_DEVICE_VALIDATION_RESULT, fhcfg/FH_INVALID_DRIVE_TYPE, fhcfg/FH_NAMESPACE_EXISTS, fhcfg/FH_READ_ONLY_PERMISSION, fhcfg/FH_TARGET_PART_OF_LIBRARY, fhcfg/FH_VALID_TARGET, fhcfg/MAX_VALIDATION_RESULT, winprog.fh_device_validation_result"
+ms.keywords: '*PFH_DEVICE_VALIDATION_RESULT, FH_ACCESS_DENIED, FH_CURRENT_DEFAULT, FH_DEVICE_VALIDATION_RESULT, FH_DEVICE_VALIDATION_RESULT enumeration [Windows API], FH_INVALID_DRIVE_TYPE, FH_NAMESPACE_EXISTS, FH_READ_ONLY_PERMISSION, FH_TARGET_PART_OF_LIBRARY, FH_VALID_TARGET, MAX_VALIDATION_RESULT, fhcfg/FH_ACCESS_DENIED, fhcfg/FH_CURRENT_DEFAULT, fhcfg/FH_DEVICE_VALIDATION_RESULT, fhcfg/FH_INVALID_DRIVE_TYPE, fhcfg/FH_NAMESPACE_EXISTS, fhcfg/FH_READ_ONLY_PERMISSION, fhcfg/FH_TARGET_PART_OF_LIBRARY, fhcfg/FH_VALID_TARGET, fhcfg/MAX_VALIDATION_RESULT, winprog.fh_device_validation_result'
 ms.topic: enum
-f1_keywords: 
- - "fhcfg/FH_DEVICE_VALIDATION_RESULT"
+f1_keywords:
+- fhcfg/FH_DEVICE_VALIDATION_RESULT
 dev_langs:
- - c++
+- c++
 req.header: fhcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fhcfg.h
+- Fhcfg.h
 api_name:
- - FH_DEVICE_VALIDATION_RESULT
+- FH_DEVICE_VALIDATION_RESULT
 targetos: Windows
 req.typenames: FH_DEVICE_VALIDATION_RESULT, *PFH_DEVICE_VALIDATION_RESULT
 req.redist: 

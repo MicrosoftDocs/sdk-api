@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_FACTORY_TYPE
 title: D2D1_FACTORY_TYPE (d2d1.h)
-
 description: Specifies whether Direct2D provides synchronization for an ID2D1Factory and the resources it creates, so that they may be safely accessed from multiple threads.
 old-location: direct2d\D2D1_FACTORY_TYPE.htm
 tech.root: Direct2D
 ms.assetid: 428053d3-7ea0-4b01-9924-4a31d8e018fb
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_FACTORY_TYPE, D2D1_FACTORY_TYPE enumeration [Direct2D], D2D1_FACTORY_TYPE_MULTI_THREADED, D2D1_FACTORY_TYPE_SINGLE_THREADED, d2d1/D2D1_FACTORY_TYPE, d2d1/D2D1_FACTORY_TYPE_MULTI_THREADED, d2d1/D2D1_FACTORY_TYPE_SINGLE_THREADED, direct2d.D2D1_FACTORY_TYPE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_FACTORY_TYPE"
+f1_keywords:
+- d2d1/D2D1_FACTORY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_FACTORY_TYPE
+- D2D1_FACTORY_TYPE
 targetos: Windows
 req.typenames: D2D1_FACTORY_TYPE
 req.redist: 

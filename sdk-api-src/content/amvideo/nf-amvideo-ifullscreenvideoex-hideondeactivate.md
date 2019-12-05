@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.HideOnDeactivate
 title: IFullScreenVideoEx::HideOnDeactivate (amvideo.h)
-
 description: The HideOnDeactivate method . Depending on the setting, the full-screen video window is either minimized or hidden. If it is minimized, it appears as an icon in the task bar; otherwise, it does not.
 old-location: dshow\ifullscreenvideoex_hideondeactivate.htm
 tech.root: DirectShow
 ms.assetid: b2839876-40b1-4b41-a3a4-99e5cbdd9ef1
-
 ms.date: 12/05/2018
 ms.keywords: HideOnDeactivate, HideOnDeactivate method [DirectShow], HideOnDeactivate method [DirectShow],IFullScreenVideoEx interface, IFullScreenVideoEx interface [DirectShow],HideOnDeactivate method, IFullScreenVideoEx.HideOnDeactivate, IFullScreenVideoEx::HideOnDeactivate, IFullScreenVideoHideOnDeactivate, amvideo/IFullScreenVideoEx::HideOnDeactivate, dshow.ifullscreenvideoex_hideondeactivate
 ms.topic: method
-f1_keywords: 
- - "amvideo/IFullScreenVideoEx.HideOnDeactivate"
+f1_keywords:
+- amvideo/IFullScreenVideoEx.HideOnDeactivate
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFullScreenVideoEx.HideOnDeactivate
+- IFullScreenVideoEx.HideOnDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

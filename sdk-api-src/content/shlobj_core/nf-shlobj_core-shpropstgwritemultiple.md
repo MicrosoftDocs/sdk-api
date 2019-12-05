@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHPropStgWriteMultiple
 title: SHPropStgWriteMultiple function (shlobj_core.h)
-
 description: Wraps the IPropertyStorage::WriteMultiple function to ensure that ANSI and Unicode translations are handled properly for deprecated property sets.
 old-location: properties\SHPropStgWriteMultiple.htm
 tech.root: properties
 ms.assetid: 38bc4d53-818d-48c5-9ec5-d2e33d98c63e
-
 ms.date: 12/05/2018
 ms.keywords: SHPropStgWriteMultiple, SHPropStgWriteMultiple function [Windows Properties], _win32_SHPropStgWriteMultiple, properties.SHPropStgWriteMultiple, shell.SHPropStgWriteMultiple, shlobj_core/SHPropStgWriteMultiple
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHPropStgWriteMultiple"
+f1_keywords:
+- shlobj_core/SHPropStgWriteMultiple
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHPropStgWriteMultiple
+- SHPropStgWriteMultiple
 targetos: Windows
 req.typenames: 
 req.redist: 

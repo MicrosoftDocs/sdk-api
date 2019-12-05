@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedIsOffscreen
 title: IUIAutomationElement::get_CachedIsOffscreen (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the element is off-screen.
 old-location: winauto\uiauto_IUIAutomationElement_CachedIsOffscreen.htm
 tech.root: WinAuto
 ms.assetid: 2c063a7a-8422-4ebd-b58b-944f93ba9e69
-
 ms.date: 12/05/2018
 ms.keywords: CachedIsOffscreen property [Windows Accessibility], CachedIsOffscreen property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedIsOffscreen property, IUIAutomationElement.CachedIsOffscreen, IUIAutomationElement.get_CachedIsOffscreen, IUIAutomationElement::CachedIsOffscreen, IUIAutomationElement::get_CachedIsOffscreen, get_CachedIsOffscreen, uiauto.uiauto_IUIAutomationElement_CachedIsOffscreen, uiauto_IUIAutomationElement_CachedIsOffscreen, uiautomationclient/IUIAutomationElement::CachedIsOffscreen, uiautomationclient/IUIAutomationElement::get_CachedIsOffscreen, winauto.uiauto_IUIAutomationElement_CachedIsOffscreen
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedIsOffscreen"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedIsOffscreen
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedIsOffscreen
- - IUIAutomationElement.get_CachedIsOffscreen
+- IUIAutomationElement.CachedIsOffscreen
+- IUIAutomationElement.get_CachedIsOffscreen
 targetos: Windows
 req.typenames: 
 req.redist: 

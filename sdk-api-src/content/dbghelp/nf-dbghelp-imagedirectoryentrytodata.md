@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.ImageDirectoryEntryToData
 title: ImageDirectoryEntryToData function (dbghelp.h)
-
 description: Obtains access to image-specific data.
 old-location: base\imagedirectoryentrytodata.htm
 tech.root: Debug
 ms.assetid: 9a4ef9e9-543a-4b1b-ba22-2f1ece19f7e6
-
 ms.date: 12/05/2018
 ms.keywords: IMAGE_DIRECTORY_ENTRY_ARCHITECTURE, IMAGE_DIRECTORY_ENTRY_BASERELOC, IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT, IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR, IMAGE_DIRECTORY_ENTRY_DEBUG, IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT, IMAGE_DIRECTORY_ENTRY_EXCEPTION, IMAGE_DIRECTORY_ENTRY_EXPORT, IMAGE_DIRECTORY_ENTRY_GLOBALPTR, IMAGE_DIRECTORY_ENTRY_IAT, IMAGE_DIRECTORY_ENTRY_IMPORT, IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG, IMAGE_DIRECTORY_ENTRY_RESOURCE, IMAGE_DIRECTORY_ENTRY_SECURITY, IMAGE_DIRECTORY_ENTRY_TLS, ImageDirectoryEntryToData, ImageDirectoryEntryToData function, _win32_imagedirectoryentrytodata, base.imagedirectoryentrytodata, dbghelp/ImageDirectoryEntryToData
 ms.topic: function
-f1_keywords: 
- - "dbghelp/ImageDirectoryEntryToData"
+f1_keywords:
+- dbghelp/ImageDirectoryEntryToData
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - imagehlp.dll
+- Dbghelp.dll
+- imagehlp.dll
 api_name:
- - ImageDirectoryEntryToData
+- ImageDirectoryEntryToData
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

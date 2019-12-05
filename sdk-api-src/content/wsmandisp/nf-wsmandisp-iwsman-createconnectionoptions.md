@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSMan.CreateConnectionOptions
 title: IWSMan::CreateConnectionOptions (wsmandisp.h)
-
 description: Creates an IWSManConnectionOptions object that specifies the user name and password used when creating a session.
 old-location: winrm\iwsman_createconnectionoptions.htm
 tech.root: winrm
 ms.assetid: e24813cb-b996-4712-803b-360c9bcfdee3
-
 ms.date: 12/05/2018
 ms.keywords: CreateConnectionOptions, CreateConnectionOptions method [Windows Remote Management], CreateConnectionOptions method [Windows Remote Management],IWSMan interface, IWSMan interface [Windows Remote Management],CreateConnectionOptions method, IWSMan.CreateConnectionOptions, IWSMan::CreateConnectionOptions, winrm.iwsman_createconnectionoptions, wsmandisp/IWSMan::CreateConnectionOptions
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSMan.CreateConnectionOptions"
+f1_keywords:
+- wsmandisp/IWSMan.CreateConnectionOptions
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSMan.CreateConnectionOptions
+- IWSMan.CreateConnectionOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

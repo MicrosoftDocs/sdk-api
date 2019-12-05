@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.TransferObjectData
 title: IWMDMOperation::TransferObjectData (mswmdm.h)
-
 description: The TransferObjectData method is called to allow the application to transfer a block of data to or from the computer.
 old-location: wmdm\iwmdmoperation_transferobjectdata.htm
 tech.root: WMDM
 ms.assetid: ba3f29d9-88cd-4050-aa9f-f9317745a16b
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation interface [windows Media Device Manager],TransferObjectData method, IWMDMOperation.TransferObjectData, IWMDMOperation::TransferObjectData, IWMDMOperationTransferObjectData, TransferObjectData, TransferObjectData method [windows Media Device Manager], TransferObjectData method [windows Media Device Manager],IWMDMOperation interface, mswmdm/IWMDMOperation::TransferObjectData, wmdm.iwmdmoperation_transferobjectdata
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMOperation.TransferObjectData"
+f1_keywords:
+- mswmdm/IWMDMOperation.TransferObjectData
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMOperation.TransferObjectData
+- IWMDMOperation.TransferObjectData
 targetos: Windows
 req.typenames: 
 req.redist: 

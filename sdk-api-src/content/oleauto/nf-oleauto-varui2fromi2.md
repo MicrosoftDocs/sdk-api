@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI2FromI2
 title: VarUI2FromI2 function (oleauto.h)
-
 description: Converts a short value to an unsigned short value.
 old-location: automat\varui2fromi2.htm
 tech.root: automat
 ms.assetid: 77aa2f18-515a-4239-bfab-3de571d16e51
-
 ms.date: 12/05/2018
 ms.keywords: VarUI2FromI2, VarUI2FromI2 function [Automation], _oa96_VarUI2FromI2, automat.varui2fromi2, oleauto/VarUI2FromI2
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI2FromI2"
+f1_keywords:
+- oleauto/VarUI2FromI2
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI2FromI2
+- VarUI2FromI2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
 title: ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer (spatialaudiometadata.h)
-
 description: Attaches a previously populated buffer for storage of ISpatialAudioMetadataItems objects. The metadata items already in the buffer are retained.
 old-location: coreaudio\ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer.htm
 tech.root: CoreAudio
 ms.assetid: 7C17F504-6EB7-4A8D-B3E1-203D5D9B7E3C
-
 ms.date: 12/05/2018
 ms.keywords: AttachToPopulatedBuffer, AttachToPopulatedBuffer method [Core Audio], AttachToPopulatedBuffer method [Core Audio],ISpatialAudioMetadataItemsBuffer interface, ISpatialAudioMetadataItemsBuffer interface [Core Audio],AttachToPopulatedBuffer method, ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer, ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer, coreaudio.ispatialaudiometadataitemsbuffer_attachtopopulatedbuffer, spatialaudiometadata/ISpatialAudioMetadataItemsBuffer::AttachToPopulatedBuffer
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
+- ISpatialAudioMetadataItemsBuffer.AttachToPopulatedBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

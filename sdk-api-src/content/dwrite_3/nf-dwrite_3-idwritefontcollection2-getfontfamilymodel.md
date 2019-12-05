@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontCollection2.GetFontFamilyModel
 title: IDWriteFontCollection2::GetFontFamilyModel
-
 description: Retrieves the font family model used by the font collection to group families.
 tech.root: DirectWrite
-
 ms.date: 09/12/2019
 ms.keywords: IDWriteFontCollection2 interface [Direct Write],GetFontFamilyModel method, IDWriteFontCollection2.GetFontFamilyModel, IDWriteFontCollection2::GetFontFamilyModel, GetFontFamilyModel, GetFontFamilyModel method [Direct Write], GetFontFamilyModel method [Direct Write],IDWriteFontCollection2 interface, directwrite.idwritefontcollection2_getfontfamilymodel, dwrite_3/IDWriteFontCollection2::GetFontFamilyModel
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontCollection2.GetFontFamilyModel"
+f1_keywords:
+- dwrite_3/IDWriteFontCollection2.GetFontFamilyModel
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontCollection2::GetFontFamilyModel
+- IDWriteFontCollection2::GetFontFamilyModel
 targetos: Windows
 req.typenames: 
 req.redist: 

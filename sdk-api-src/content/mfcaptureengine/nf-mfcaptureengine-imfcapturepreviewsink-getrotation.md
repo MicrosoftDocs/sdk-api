@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.GetRotation
 title: IMFCapturePreviewSink::GetRotation (mfcaptureengine.h)
-
 description: Gets the rotation of the video preview stream.
 old-location: mf\imfcapturepreviewsink_getrotation.htm
 tech.root: medfound
 ms.assetid: 5C750060-762B-42EE-92AD-8497B83E5D51
-
 ms.date: 12/05/2018
 ms.keywords: GetRotation, GetRotation method [Media Foundation], GetRotation method [Media Foundation],IMFCapturePreviewSink interface, IMFCapturePreviewSink interface [Media Foundation],GetRotation method, IMFCapturePreviewSink.GetRotation, IMFCapturePreviewSink::GetRotation, mf.imfcapturepreviewsink_getrotation, mfcaptureengine/IMFCapturePreviewSink::GetRotation
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.GetRotation"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.GetRotation
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.GetRotation
+- IMFCapturePreviewSink.GetRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

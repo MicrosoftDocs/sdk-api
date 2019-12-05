@@ -1,19 +1,17 @@
 ---
 UID: NN:windows.foundation.IPropertyValueStatics
 title: IPropertyValueStatics (windows.foundation.h)
-
 description: Creates IPropertyValue objects that you can store in a property store.
 old-location: winrt\ipropertyvaluestatics.htm
 tech.root: WinRT
 ms.assetid: 946BD4F9-318C-4452-AEDB-DF2212A2D3CA
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyValueStatics, IPropertyValueStatics interface [Windows Runtime], IPropertyValueStatics interface [Windows Runtime],described, windows/IPropertyValueStatics, winrt.ipropertyvaluefactory, winrt.ipropertyvaluestatics
 ms.topic: interface
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics
+- IPropertyValueStatics
 targetos: Windows
 req.typenames: 
 req.redist: 

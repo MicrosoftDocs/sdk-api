@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpOidCompare
 title: SnmpOidCompare function (winsnmp.h)
-
 description: The WinSNMP SnmpOidCompare function lexicographically compares two SNMP object identifiers, up to the length specified by the maxlen parameter.
 old-location: snmp\snmpoidcompare.htm
 tech.root: SNMP
 ms.assetid: aa13abb3-c16d-4b12-a3b8-9c3c727199e0
-
 ms.date: 12/05/2018
 ms.keywords: Equal to 0, Greater than 0, Less than 0, SnmpOidCompare, SnmpOidCompare function [SNMP], _snmp_snmpoidcompare, snmp.snmpoidcompare, winsnmp/SnmpOidCompare
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpOidCompare"
+f1_keywords:
+- winsnmp/SnmpOidCompare
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpOidCompare
+- SnmpOidCompare
 targetos: Windows
 req.typenames: 
 req.redist: 

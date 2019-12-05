@@ -1,19 +1,17 @@
 ---
 UID: NF:vpconfig.IVPBaseConfig.InformVPInputFormats
 title: IVPBaseConfig::InformVPInputFormats (vpconfig.h)
-
 description: The InformVPInputFormats method informs the device what video formats the video port supports.
 old-location: dshow\ivpbaseconfig_informvpinputformats.htm
 tech.root: DirectShow
 ms.assetid: d9b4ea2b-ad71-4226-9aad-e68a9cb26274
-
 ms.date: 12/05/2018
 ms.keywords: IVPBaseConfig interface [DirectShow],InformVPInputFormats method, IVPBaseConfig.InformVPInputFormats, IVPBaseConfig::InformVPInputFormats, IVPBaseConfigInformVPInputFormats, InformVPInputFormats, InformVPInputFormats method [DirectShow], InformVPInputFormats method [DirectShow],IVPBaseConfig interface, dshow.ivpbaseconfig_informvpinputformats, vpconfig/IVPBaseConfig::InformVPInputFormats
 ms.topic: method
-f1_keywords: 
- - "vpconfig/IVPBaseConfig.InformVPInputFormats"
+f1_keywords:
+- vpconfig/IVPBaseConfig.InformVPInputFormats
 dev_langs:
- - c++
+- c++
 req.header: vpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vpconfig.h
+- Vpconfig.h
 api_name:
- - IVPBaseConfig.InformVPInputFormats
+- IVPBaseConfig.InformVPInputFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

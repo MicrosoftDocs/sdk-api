@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredRenameA
 title: CredRenameA function (wincred.h)
-
 description: CredRename is no longer supported.
 old-location: security\credrename.htm
 tech.root: SecAuthN
 ms.assetid: e598f2ae-f975-4dd2-bf0b-e2fd96d4c940
-
 ms.date: 12/05/2018
 ms.keywords: CredRename, CredRename function [Security], CredRenameA, CredRenameW, _cred_credrename, security.credrename, wincred/CredRename, wincred/CredRenameA, wincred/CredRenameW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredRename"
+f1_keywords:
+- wincred/CredRename
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - CredRename
- - CredRenameA
- - CredRenameW
+- CredRename
+- CredRenameA
+- CredRenameW
 targetos: Windows
 req.typenames: 
 req.redist: 

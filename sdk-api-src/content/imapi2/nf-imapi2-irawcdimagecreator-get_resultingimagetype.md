@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.get_ResultingImageType
 title: IRawCDImageCreator::get_ResultingImageType (imapi2.h)
-
 description: Retrieves the value that specifies the type of image file that will be generated.
 old-location: imapi\irawcdimagecreator_get_resultingimagetype.htm
 tech.root: imapi
 ms.assetid: 006486f7-f766-44a1-a088-71035567a75d
-
 ms.date: 12/05/2018
 ms.keywords: IRawCDImageCreator interface [IMAPI],get_ResultingImageType method, IRawCDImageCreator.get_ResultingImageType, IRawCDImageCreator::get_ResultingImageType, get_ResultingImageType, get_ResultingImageType method [IMAPI], get_ResultingImageType method [IMAPI],IRawCDImageCreator interface, imapi.irawcdimagecreator_get_resultingimagetype, imapi2/IRawCDImageCreator::get_ResultingImageType
 ms.topic: method
-f1_keywords: 
- - "imapi2/IRawCDImageCreator.get_ResultingImageType"
+f1_keywords:
+- imapi2/IRawCDImageCreator.get_ResultingImageType
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IRawCDImageCreator.get_ResultingImageType
+- IRawCDImageCreator.get_ResultingImageType
 targetos: Windows
 req.typenames: 
 req.redist: 

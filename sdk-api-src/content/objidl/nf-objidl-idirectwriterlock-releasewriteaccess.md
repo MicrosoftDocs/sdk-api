@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDirectWriterLock.ReleaseWriteAccess
 title: IDirectWriterLock::ReleaseWriteAccess (objidl.h)
-
 description: The ReleaseWriteAccess method releases the write lock previously obtained.
 old-location: stg\idirectwriterlock_releasewriteaccess.htm
 tech.root: Stg
 ms.assetid: 849eeb79-60fd-4345-9e04-2ed7a7ede5ca
-
 ms.date: 12/05/2018
 ms.keywords: IDirectWriterLock interface [Structured Storage],ReleaseWriteAccess method, IDirectWriterLock.ReleaseWriteAccess, IDirectWriterLock::ReleaseWriteAccess, ReleaseWriteAccess, ReleaseWriteAccess method [Structured Storage], ReleaseWriteAccess method [Structured Storage],IDirectWriterLock interface, _stg_idirectwriterlock_releasewriteaccess, objidl/IDirectWriterLock::ReleaseWriteAccess, stg.idirectwriterlock_releasewriteaccess
 ms.topic: method
-f1_keywords: 
- - "objidl/IDirectWriterLock.ReleaseWriteAccess"
+f1_keywords:
+- objidl/IDirectWriterLock.ReleaseWriteAccess
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IDirectWriterLock.ReleaseWriteAccess
+- IDirectWriterLock.ReleaseWriteAccess
 targetos: Windows
 req.typenames: 
 req.redist: 

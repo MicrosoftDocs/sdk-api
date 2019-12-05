@@ -1,19 +1,17 @@
 ---
 UID: NE:vswriter.VSS_SUBSCRIBE_MASK
 title: VSS_SUBSCRIBE_MASK (vswriter.h)
-
 description: Indicates the events that the writer is willing to receive.
 old-location: base\vss_subscribe_mask.htm
 tech.root: VSS
 ms.assetid: 4aa3afe4-98da-4376-b795-75bf404aaed9
-
 ms.date: 12/05/2018
 ms.keywords: VSS_SM_ALL_FLAGS, VSS_SM_BACKUP_EVENTS_FLAG, VSS_SM_IO_THROTTLING_FLAG, VSS_SM_POST_SNAPSHOT_FLAG, VSS_SM_RESTORE_EVENTS_FLAG, VSS_SUBSCRIBE_MASK, VSS_SUBSCRIBE_MASK enumeration [VSS], _win32_vss_subscribe_mask, base.vss_subscribe_mask, enumeration [VSS], vswriter/VSS_SM_ALL_FLAGS, vswriter/VSS_SM_BACKUP_EVENTS_FLAG, vswriter/VSS_SM_IO_THROTTLING_FLAG, vswriter/VSS_SM_POST_SNAPSHOT_FLAG, vswriter/VSS_SM_RESTORE_EVENTS_FLAG, vswriter/VSS_SUBSCRIBE_MASK
 ms.topic: enum
-f1_keywords: 
- - "vswriter/VSS_SUBSCRIBE_MASK"
+f1_keywords:
+- vswriter/VSS_SUBSCRIBE_MASK
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - VSS_SUBSCRIBE_MASK
+- VSS_SUBSCRIBE_MASK
 targetos: Windows
 req.typenames: VSS_SUBSCRIBE_MASK
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetInterfaceCapability
 title: IMbnInterface::GetInterfaceCapability (mbnapi.h)
-
 description: Gets the capabilities of the device.
 old-location: mbn\imbninterface_getinterfacecapability.htm
 tech.root: mbn
 ms.assetid: cfe8f638-ad17-4118-9c79-b7ebc81c726a
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceCapability, GetInterfaceCapability method [Microsoft Broadband Networks], GetInterfaceCapability method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetInterfaceCapability method, IMbnInterface.GetInterfaceCapability, IMbnInterface::GetInterfaceCapability, mbn.imbninterface_getinterfacecapability, mbnapi/IMbnInterface::GetInterfaceCapability
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.GetInterfaceCapability"
+f1_keywords:
+- mbnapi/IMbnInterface.GetInterfaceCapability
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.GetInterfaceCapability
+- IMbnInterface.GetInterfaceCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

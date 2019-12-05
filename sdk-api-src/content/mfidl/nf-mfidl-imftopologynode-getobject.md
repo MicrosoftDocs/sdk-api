@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetObject
 title: IMFTopologyNode::GetObject (mfidl.h)
-
 description: Gets the object associated with this node.
 old-location: mf\imftopologynode_getobject.htm
 tech.root: medfound
 ms.assetid: 039d8009-5e5a-4503-9908-7317bc2bf412
-
 ms.date: 12/05/2018
 ms.keywords: 039d8009-5e5a-4503-9908-7317bc2bf412, GetObject, GetObject method [Media Foundation], GetObject method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetObject method, IMFTopologyNode.GetObject, IMFTopologyNode::GetObject, mf.imftopologynode_getobject, mfidl/IMFTopologyNode::GetObject
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetObject"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetObject
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetObject
+- IMFTopologyNode.GetObject
 targetos: Windows
 req.typenames: 
 req.redist: 

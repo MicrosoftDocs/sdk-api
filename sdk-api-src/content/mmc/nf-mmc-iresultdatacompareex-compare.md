@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IResultDataCompareEx.Compare
 title: IResultDataCompareEx::Compare (mmc.h)
-
 description: Provides a way for a primary snap-in to compare items for the purpose of sorting the scope and result items that it inserts in the result pane.
 old-location: mmc\iresultdatacompareex_compare.htm
 tech.root: mmc
 ms.assetid: 0e3a8094-0d09-4a9c-8211-a0eb6a89ad55
-
 ms.date: 12/05/2018
 ms.keywords: Compare, Compare method [MMC], Compare method [MMC],IResultDataCompareEx interface, IResultDataCompareEx interface [MMC],Compare method, IResultDataCompareEx.Compare, IResultDataCompareEx::Compare, _slate_iresultdatacompareex_compare, mmc.iresultdatacompareex_compare, mmc/IResultDataCompareEx::Compare
 ms.topic: method
 f1_keywords:
 - mmc/IResultDataCompareEx.Compare
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows

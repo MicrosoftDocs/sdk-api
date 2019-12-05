@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingPrivateConnectionCollection.get_Count
 title: INetSharingPrivateConnectionCollection::get_Count (netcon.h)
-
 description: The get__Count method retrieves the number of items in the private connections collection.
 old-location: ics\inetsharingprivateconnectioncollection_get_count.htm
 tech.root: ics
 ms.assetid: 599ffa10-6932-48bd-a736-60512f25271c
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingPrivateConnectionCollection interface [ICS/ICF],get_Count method, INetSharingPrivateConnectionCollection.get_Count, INetSharingPrivateConnectionCollection::get_Count, _ics_inetsharingprivateconnectioncollection_get_count, get_Count, get_Count method [ICS/ICF], get_Count method [ICS/ICF],INetSharingPrivateConnectionCollection interface, ics.inetsharingprivateconnectioncollection_get_count, netcon/INetSharingPrivateConnectionCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingPrivateConnectionCollection.get_Count"
+f1_keywords:
+- netcon/INetSharingPrivateConnectionCollection.get_Count
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPrivateConnectionCollection.get_Count
+- INetSharingPrivateConnectionCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

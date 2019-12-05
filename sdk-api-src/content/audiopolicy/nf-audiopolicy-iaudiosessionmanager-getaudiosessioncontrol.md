@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioSessionManager.GetAudioSessionControl
 title: IAudioSessionManager::GetAudioSessionControl (audiopolicy.h)
-
 description: The GetAudioSessionControl method retrieves an audio session control.
 old-location: coreaudio\iaudiosessionmanager_getaudiosessioncontrol.htm
 tech.root: CoreAudio
 ms.assetid: 42de66dd-46df-40af-9d8a-39ee9f91b468
-
 ms.date: 12/05/2018
 ms.keywords: GetAudioSessionControl, GetAudioSessionControl method [Core Audio], GetAudioSessionControl method [Core Audio],IAudioSessionManager interface, IAudioSessionManager interface [Core Audio],GetAudioSessionControl method, IAudioSessionManager.GetAudioSessionControl, IAudioSessionManager::GetAudioSessionControl, IAudioSessionManagerGetAudioSessionControl, audiopolicy/IAudioSessionManager::GetAudioSessionControl, coreaudio.iaudiosessionmanager_getaudiosessioncontrol
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioSessionManager.GetAudioSessionControl"
+f1_keywords:
+- audiopolicy/IAudioSessionManager.GetAudioSessionControl
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audiopolicy.h
+- Audiopolicy.h
 api_name:
- - IAudioSessionManager.GetAudioSessionControl
+- IAudioSessionManager.GetAudioSessionControl
 targetos: Windows
 req.typenames: 
 req.redist: 

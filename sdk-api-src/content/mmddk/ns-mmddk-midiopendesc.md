@@ -1,19 +1,17 @@
 ---
 UID: NS:mmddk.midiopendesc_tag
 title: MIDIOPENDESC (mmddk.h)
-
 description: The MIDIOPENDESC structure is a client-filled structure that provides information about how to open a MIDI device.
 old-location: audio\midiopendesc.htm
 tech.root: audio
 ms.assetid: 7aacfd83-0188-4858-91e4-a6ce12a7e46d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devices], aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml, audio.midiopendesc, mmddk/MIDIOPENDESC"
+ms.keywords: '*LPMIDIOPENDESC, MIDIOPENDESC, MIDIOPENDESC structure [Audio Devices], aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml, audio.midiopendesc, mmddk/MIDIOPENDESC'
 ms.topic: struct
-f1_keywords: 
- - "mmddk/MIDIOPENDESC"
+f1_keywords:
+- mmddk/MIDIOPENDESC
 dev_langs:
- - c++
+- c++
 req.header: mmddk.h
 req.include-header: Mmddk.h, Mmsystem.h, Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmddk.h
+- mmddk.h
 api_name:
- - MIDIOPENDESC
+- MIDIOPENDESC
 targetos: Windows
 req.typenames: MIDIOPENDESC
 req.redist: 

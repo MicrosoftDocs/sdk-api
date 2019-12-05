@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingMessage2.get_SenderFaxNumber
 title: IFaxIncomingMessage2::get_SenderFaxNumber (faxcomex.h)
-
 description: Contains the sender's fax number associated with the inbound fax message. This property is a null-terminated string.
 old-location: fax\_mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_senderfaxnumber_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxincomingmessage2\senderfaxnumber.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxIncomingMessage2 interface [Fax Service],SenderFaxNumber property, IFaxIncomingMessage2.SenderFaxNumber, IFaxIncomingMessage2.get_SenderFaxNumber, IFaxIncomingMessage2.put_SenderFaxNumber, IFaxIncomingMessage2::SenderFaxNumber, IFaxIncomingMessage2::get_SenderFaxNumber, IFaxIncomingMessage2::put_SenderFaxNumber, SenderFaxNumber property [Fax Service], SenderFaxNumber property [Fax Service],IFaxIncomingMessage2 interface, _mfax_faxincomingmessage.senderfaxnumber, fax._mfax_faxincomingmessage2_cpp_mfax_faxincomingmessage_senderfaxnumber_cpp, fax._mfax_faxincomingmessage_senderfaxnumber, faxcomex/IFaxIncomingMessage2::SenderFaxNumber, faxcomex/IFaxIncomingMessage2::get_SenderFaxNumber, faxcomex/IFaxIncomingMessage2::put_SenderFaxNumber, get_SenderFaxNumber
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingMessage2.SenderFaxNumber"
+f1_keywords:
+- faxcomex/IFaxIncomingMessage2.SenderFaxNumber
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2.SenderFaxNumber
- - IFaxIncomingMessage2.get_SenderFaxNumber
- - IFaxIncomingMessage2.put_SenderFaxNumber
- - IFaxIncomingMessage2.get_SenderFaxNumber
- - IFaxIncomingMessage2.put_SenderFaxNumber
+- IFaxIncomingMessage2.SenderFaxNumber
+- IFaxIncomingMessage2.get_SenderFaxNumber
+- IFaxIncomingMessage2.put_SenderFaxNumber
+- IFaxIncomingMessage2.get_SenderFaxNumber
+- IFaxIncomingMessage2.put_SenderFaxNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

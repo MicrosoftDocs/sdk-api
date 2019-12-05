@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_PROXY_MESSAGE_CALLBACK_CONTEXT
 title: WS_PROXY_MESSAGE_CALLBACK_CONTEXT (webservices.h)
-
 description: Specifies the callback function and state for an application that wishes to associate or inspect headers in an input or an output message respectively.
 old-location: wsw\ws_proxy_message_callback_context.htm
 tech.root: wsw
 ms.assetid: 1dfde962-7475-430a-b586-1684a173908f
-
 ms.date: 12/05/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK_CONTEXT, WS_PROXY_MESSAGE_CALLBACK_CONTEXT structure [Web Services for Windows], webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT, wsw.ws_proxy_message_callback_context
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT"
+f1_keywords:
+- webservices/WS_PROXY_MESSAGE_CALLBACK_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_PROXY_MESSAGE_CALLBACK_CONTEXT
+- WS_PROXY_MESSAGE_CALLBACK_CONTEXT
 targetos: Windows
 req.typenames: WS_PROXY_MESSAGE_CALLBACK_CONTEXT
 req.redist: 

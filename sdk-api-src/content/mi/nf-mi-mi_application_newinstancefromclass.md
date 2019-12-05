@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Application_NewInstanceFromClass
 title: MI_Application_NewInstanceFromClass function (mi.h)
-
 description: Creates a new MI_Instance object based on a class object.
 old-location: wmi_v2\mi_application_newinstancefromclass.htm
 tech.root: wmi_v2
 ms.assetid: 57d1ec84-79b7-40f3-be3b-1b5b57a9d5b3
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewInstanceFromClass, MI_Application_NewInstanceFromClass function [Windows Management Infrastructure (MI)], mi/MI_Application_NewInstanceFromClass, wmi_v2.mi_application_newinstancefromclass
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewInstanceFromClass
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

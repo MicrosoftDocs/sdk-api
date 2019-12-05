@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsSubSystemNaming
 title: IVdsSubSystemNaming (vds.h)
-
 description: Provides a method to name subsystems for a class implementing the IVdsSubSystem interface.
 old-location: base\ivdssubsystemnaming.htm
 tech.root: VDS
 ms.assetid: 1f507c6c-8eae-4c32-805f-5dbc7ba4a81e
-
 ms.date: 12/05/2018
 ms.keywords: IVdsSubSystemNaming, IVdsSubSystemNaming interface [VDS], IVdsSubSystemNaming interface [VDS],described, base.ivdssubsystemnaming, vds/IVdsSubSystemNaming, vdshwprv/IVdsSubSystemNaming
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsSubSystemNaming"
+f1_keywords:
+- vds/IVdsSubSystemNaming
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsSubSystemNaming
+- IVdsSubSystemNaming
 targetos: Windows
 req.typenames: 
 req.redist: 

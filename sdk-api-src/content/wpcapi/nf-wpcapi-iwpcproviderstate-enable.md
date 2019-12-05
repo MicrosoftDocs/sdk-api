@@ -1,19 +1,17 @@
 ---
 UID: NF:wpcapi.IWPCProviderState.Enable
 title: IWPCProviderState::Enable (wpcapi.h)
-
 description: Notifies the third-party application that it has been selected as the new current provider.
 old-location: parcon\iwpcproviderstate_enable.htm
 tech.root: parcon
 ms.assetid: 6714702d-e623-43f8-9a4e-dd1b3939d011
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method, Enable method,IWPCProviderState interface, IWPCProviderState interface,Enable method, IWPCProviderState.Enable, IWPCProviderState::Enable, parcon.iwpcproviderstate_enable, wpcapi/IWPCProviderState::Enable
 ms.topic: method
-f1_keywords: 
- - "wpcapi/IWPCProviderState.Enable"
+f1_keywords:
+- wpcapi/IWPCProviderState.Enable
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderState.Enable
+- IWPCProviderState.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCollector.get_Tablet
 title: IInkCollector::get_Tablet (msinkaut.h)
-
 description: Gets either the IInkTablet object to which a cursor belongs or the IInkTablet object that an object or control is currently using to collect input.
 old-location: tablet\inkcollector_tablet.htm
 tech.root: tablet
 ms.assetid: 170c3b43-6472-465b-bb09-22ba1a68c6e0
-
 ms.date: 12/05/2018
 ms.keywords: IInkCollector interface [Tablet PC],Tablet property, IInkCollector.Tablet, IInkCollector.get_Tablet, IInkCollector::Tablet, IInkCollector::get_Tablet, InkCollector.get_Tablet, Tablet property [Tablet PC], Tablet property [Tablet PC],IInkCollector interface, get_Tablet, msinkaut/IInkCollector::Tablet, msinkaut/IInkCollector::get_Tablet, tablet.inkcollector_tablet
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCollector.Tablet"
+f1_keywords:
+- msinkaut/IInkCollector.Tablet
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCollector.Tablet
- - IInkCollector.get_Tablet
- - InkCollector.get_Tablet
+- IInkCollector.Tablet
+- IInkCollector.get_Tablet
+- InkCollector.get_Tablet
 targetos: Windows
 req.typenames: 
 req.redist: 

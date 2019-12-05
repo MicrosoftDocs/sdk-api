@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_DEBUG_CONFIGURATION
 title: XAUDIO2_DEBUG_CONFIGURATION (xaudio2.h)
-
 description: Contains the new global debug configuration for XAudio2. Used with the SetDebugConfiguration function.
 old-location: xaudio2\xaudio2_debug_configuration.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_DEBUG_CONFIGURATION
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_DEBUG_CONFIGURATION, XAUDIO2_DEBUG_CONFIGURATION structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_debug_configuration, xaudio2/XAUDIO2_DEBUG_CONFIGURATION
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_DEBUG_CONFIGURATION"
+f1_keywords:
+- xaudio2/XAUDIO2_DEBUG_CONFIGURATION
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_DEBUG_CONFIGURATION
+- XAUDIO2_DEBUG_CONFIGURATION
 targetos: Windows
 req.typenames: XAUDIO2_DEBUG_CONFIGURATION
 req.redist: 

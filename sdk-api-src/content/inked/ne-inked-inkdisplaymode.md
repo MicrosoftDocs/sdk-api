@@ -1,19 +1,17 @@
 ---
 UID: NE:inked.InkDisplayMode
 title: InkDisplayMode (inked.h)
-
 description: Specifies how a selection appears on the control.
 old-location: tablet\inkdisplaymode.htm
 tech.root: tablet
 ms.assetid: 043ee1c2-0012-4e64-8565-db8400a05439
-
 ms.date: 12/05/2018
 ms.keywords: 043ee1c2-0012-4e64-8565-db8400a05439, IDM_Ink, IDM_Text, InkDisplayMode, InkDisplayMode enumeration [Tablet PC], inked/IDM_Ink, inked/IDM_Text, inked/InkDisplayMode, tablet.inkdisplaymode
 ms.topic: enum
-f1_keywords: 
- - "inked/InkDisplayMode"
+f1_keywords:
+- inked/InkDisplayMode
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - inked.h
+- inked.h
 api_name:
- - InkDisplayMode
+- InkDisplayMode
 targetos: Windows
 req.typenames: InkDisplayMode
 req.redist: 

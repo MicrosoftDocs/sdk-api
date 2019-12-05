@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNamedValue
 title: INamedPropertyStore::GetNamedValue (propsys.h)
-
 description: Gets the value of a named property from the named property store.
 old-location: shell\INamedPropertyStore_GetNamedValue.htm
 tech.root: shell
 ms.assetid: d62fcacd-7af5-4618-9b76-bebb001bb827
-
 ms.date: 12/05/2018
 ms.keywords: GetNamedValue, GetNamedValue method [Windows Shell], GetNamedValue method [Windows Shell],INamedPropertyStore interface, INamedPropertyStore interface [Windows Shell],GetNamedValue method, INamedPropertyStore.GetNamedValue, INamedPropertyStore::GetNamedValue, _shell_INamedPropertyStore_GetNamedValue, propsys/INamedPropertyStore::GetNamedValue, shell.INamedPropertyStore_GetNamedValue
 ms.topic: method
-f1_keywords: 
- - "propsys/INamedPropertyStore.GetNamedValue"
+f1_keywords:
+- propsys/INamedPropertyStore.GetNamedValue
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - INamedPropertyStore.GetNamedValue
+- INamedPropertyStore.GetNamedValue
 targetos: Windows
 req.typenames: 
 req.redist: 

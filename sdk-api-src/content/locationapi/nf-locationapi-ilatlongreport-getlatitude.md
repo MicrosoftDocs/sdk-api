@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetLatitude
 title: ILatLongReport::GetLatitude (locationapi.h)
-
 description: Retrieves the latitude, in degrees.
 old-location: winlocation_com_ref\ilatlongreport_getlatitude.htm
 tech.root: locationapi
 ms.assetid: 81392683-61bc-4b17-8f3c-172b66bd543b
-
 ms.date: 12/05/2018
 ms.keywords: GetLatitude, GetLatitude method [WinLocation], GetLatitude method [WinLocation],ILatLongReport interface, ILatLongReport interface [WinLocation],GetLatitude method, ILatLongReport.GetLatitude, ILatLongReport::GetLatitude, WinLocation_COM_Ref.ilatlongreport_getlatitude, locationapi/ILatLongReport::GetLatitude
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILatLongReport.GetLatitude"
+f1_keywords:
+- locationapi/ILatLongReport.GetLatitude
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILatLongReport.GetLatitude
+- ILatLongReport.GetLatitude
 targetos: Windows
 req.typenames: 
 req.redist: 

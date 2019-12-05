@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IGridItemProvider.get_Column
 title: IGridItemProvider::get_Column (uiautomationcore.h)
-
 description: Specifies the ordinal number of the column that contains this cell or item.
 old-location: winauto\uiauto_IGridItemProvider_Column.htm
 tech.root: WinAuto
 ms.assetid: 51a53a29-70eb-4838-bb18-bfaca2cef467
-
 ms.date: 12/05/2018
 ms.keywords: Column property [Windows Accessibility], Column property [Windows Accessibility],IGridItemProvider interface, IGridItemProvider interface [Windows Accessibility],Column property, IGridItemProvider.Column, IGridItemProvider.get_Column, IGridItemProvider::Column, IGridItemProvider::get_Column, get_Column, uiauto.uiauto_IGridItemProvider_Column, uiauto_IGridItemProvider_Column, uiautomationcore/IGridItemProvider::Column, uiautomationcore/IGridItemProvider::get_Column, winauto.uiauto_IGridItemProvider_Column
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IGridItemProvider.Column"
+f1_keywords:
+- uiautomationcore/IGridItemProvider.Column
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IGridItemProvider.Column
- - IGridItemProvider.get_Column
+- IGridItemProvider.Column
+- IGridItemProvider.get_Column
 targetos: Windows
 req.typenames: 
 req.redist: 

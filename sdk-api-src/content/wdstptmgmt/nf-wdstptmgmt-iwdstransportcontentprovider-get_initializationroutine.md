@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_InitializationRoutine
 title: IWdsTransportContentProvider::get_InitializationRoutine (wdstptmgmt.h)
-
 description: Retrieves the name of the method called to initialize the content provider.
 old-location: wds\iwdstransportcontentprovider_initializationroutine.htm
 tech.root: wds
 ms.assetid: 5EB23649-CF1C-424C-ABC1-BEA46F274D7E
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportContentProvider interface [Windows Deployment Services],InitializationRoutine property, IWdsTransportContentProvider.InitializationRoutine, IWdsTransportContentProvider.get_InitializationRoutine, IWdsTransportContentProvider::InitializationRoutine, IWdsTransportContentProvider::get_InitializationRoutine, InitializationRoutine property [Windows Deployment Services], InitializationRoutine property [Windows Deployment Services],IWdsTransportContentProvider interface, get_InitializationRoutine, wds.iwdstransportcontentprovider_initializationroutine, wdstptmgmt/IWdsTransportContentProvider::InitializationRoutine, wdstptmgmt/IWdsTransportContentProvider::get_InitializationRoutine
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportContentProvider.InitializationRoutine"
+f1_keywords:
+- wdstptmgmt/IWdsTransportContentProvider.InitializationRoutine
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportContentProvider.InitializationRoutine
- - IWdsTransportContentProvider.get_InitializationRoutine
+- IWdsTransportContentProvider.InitializationRoutine
+- IWdsTransportContentProvider.get_InitializationRoutine
 targetos: Windows
 req.typenames: 
 req.redist: 

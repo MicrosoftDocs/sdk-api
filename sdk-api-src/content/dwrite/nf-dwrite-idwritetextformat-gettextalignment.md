@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetTextAlignment
 title: IDWriteTextFormat::GetTextAlignment (dwrite.h)
-
 description: Gets the alignment option of text relative to the layout box's leading and trailing edge.
 old-location: directwrite\IDWriteTextFormat_GetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 0b6d58d8-2ddb-4e60-95ac-27a1aeec7602
-
 ms.date: 12/05/2018
 ms.keywords: GetTextAlignment, GetTextAlignment method [Direct Write], GetTextAlignment method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTextAlignment method, IDWriteTextFormat.GetTextAlignment, IDWriteTextFormat::GetTextAlignment, directwrite.IDWriteTextFormat_GetTextAlignment, dwrite/IDWriteTextFormat::GetTextAlignment
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextFormat.GetTextAlignment"
+f1_keywords:
+- dwrite/IDWriteTextFormat.GetTextAlignment
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextFormat.GetTextAlignment
+- IDWriteTextFormat.GetTextAlignment
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFOutputPolicy.GetOriginatorID
 title: IMFOutputPolicy::GetOriginatorID (mfidl.h)
-
 description: Retrieives a GUID identifying the input trust authority (ITA) that created this output policy object.
 old-location: mf\imfoutputpolicy_getoriginatorid.htm
 tech.root: medfound
 ms.assetid: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d
-
 ms.date: 12/05/2018
 ms.keywords: 3412bb81-c4b8-4e10-9a8e-8eae413ca82d, GetOriginatorID, GetOriginatorID method [Media Foundation], GetOriginatorID method [Media Foundation],IMFOutputPolicy interface, IMFOutputPolicy interface [Media Foundation],GetOriginatorID method, IMFOutputPolicy.GetOriginatorID, IMFOutputPolicy::GetOriginatorID, mf.imfoutputpolicy_getoriginatorid, mfidl/IMFOutputPolicy::GetOriginatorID
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFOutputPolicy.GetOriginatorID"
+f1_keywords:
+- mfidl/IMFOutputPolicy.GetOriginatorID
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFOutputPolicy.GetOriginatorID
+- IMFOutputPolicy.GetOriginatorID
 targetos: Windows
 req.typenames: 
 req.redist: 

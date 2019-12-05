@@ -1,19 +1,17 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetState
 title: IMultiMediaStream::GetState (mmstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetState method retrieves the current state of the multimedia stream object.
 old-location: dshow\imultimediastream_getstate.htm
 tech.root: DirectShow
 ms.assetid: 8d01c4cf-2de9-4e9c-8b6e-921284f4f1b6
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [DirectShow], GetState method [DirectShow],IMultiMediaStream interface, IMultiMediaStream interface [DirectShow],GetState method, IMultiMediaStream.GetState, IMultiMediaStream::GetState, IMultiMediaStreamGetState, dshow.imultimediastream_getstate, mmstream/IMultiMediaStream::GetState
 ms.topic: method
-f1_keywords: 
- - "mmstream/IMultiMediaStream.GetState"
+f1_keywords:
+- mmstream/IMultiMediaStream.GetState
 dev_langs:
- - c++
+- c++
 req.header: mmstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mmstream.h
+- mmstream.h
 api_name:
- - IMultiMediaStream.GetState
+- IMultiMediaStream.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

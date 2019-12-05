@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.ConnectNotify
 title: IWTSProtocolConnection::ConnectNotify (wtsprotocol.h)
-
 description: IWTSProtocolConnection::ConnectNotify is no longer available. Instead, use IWRdsProtocolConnection::ConnectNotify.
 old-location: termserv\iwtsprotocolconnection_connectnotify.htm
 tech.root: TermServ
 ms.assetid: 9109d867-d9dc-4b95-a674-9f59ed7aa6a4
-
 ms.date: 12/05/2018
 ms.keywords: ConnectNotify, ConnectNotify method [Remote Desktop Services], ConnectNotify method [Remote Desktop Services],IWTSProtocolConnection interface, IWTSProtocolConnection interface [Remote Desktop Services],ConnectNotify method, IWTSProtocolConnection.ConnectNotify, IWTSProtocolConnection::ConnectNotify, termserv.iwtsprotocolconnection_connectnotify, wtsprotocol/IWTSProtocolConnection::ConnectNotify
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.ConnectNotify"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.ConnectNotify
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.ConnectNotify
+- IWTSProtocolConnection.ConnectNotify
 targetos: Windows
 req.typenames: 
 req.redist: 

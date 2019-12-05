@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capDriverGetCaps
 title: capDriverGetCaps macro (vfw.h)
-
 description: The capDriverGetCaps macro returns the hardware capabilities of the capture driver currently connected to a capture window. You can use this macro or explicitly send the WM_CAP_DRIVER_GET_CAPS message.
 old-location: multimedia\capdrivergetcaps.htm
 tech.root: Multimedia
 ms.assetid: 2ca3a1b1-1d88-480f-b079-82da111c4565
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capDriverGetCaps, capDriverGetCaps, capDriverGetCaps macro [Windows Multimedia], multimedia.capdrivergetcaps, vfw/capDriverGetCaps"
+ms.keywords: _win32_capDriverGetCaps, capDriverGetCaps, capDriverGetCaps macro [Windows Multimedia], multimedia.capdrivergetcaps, vfw/capDriverGetCaps
 ms.topic: macro
-f1_keywords: 
- - "vfw/capDriverGetCaps"
+f1_keywords:
+- vfw/capDriverGetCaps
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capDriverGetCaps
+- capDriverGetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

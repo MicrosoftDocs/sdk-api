@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetPropertyDescription
 title: IPropertyUI::GetPropertyDescription (shobjidl_core.h)
-
 description: Developers should use IPropertyDescription instead. Gets the property description of a specified property.
 old-location: properties\IPropertyUI_GetPropertyDescription.htm
 tech.root: properties
 ms.assetid: 47EAA768-BDAE-44de-AAD8-529E12761065
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyDescription, GetPropertyDescription method [Windows Properties], GetPropertyDescription method [Windows Properties],IPropertyUI interface, IPropertyUI interface [Windows Properties],GetPropertyDescription method, IPropertyUI.GetPropertyDescription, IPropertyUI::GetPropertyDescription, _shell_IPropertyUI_GetPropertyDescription, properties.IPropertyUI_GetPropertyDescription, shell.IPropertyUI_GetPropertyDescription, shobjidl_core/IPropertyUI::GetPropertyDescription
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPropertyUI.GetPropertyDescription"
+f1_keywords:
+- shobjidl_core/IPropertyUI.GetPropertyDescription
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPropertyUI.GetPropertyDescription
+- IPropertyUI.GetPropertyDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:websocket.WebSocketCreateServerHandle
 title: WebSocketCreateServerHandle function (websocket.h)
-
 description: Creates a server-side WebSocket session handle.
 old-location: websock\websocketcreateserverhandle.htm
 tech.root: WebSock
 ms.assetid: f8c44a86-c586-48e3-b948-ed119bebf951
-
 ms.date: 12/05/2018
 ms.keywords: WebSocketCreateServerHandle, WebSocketCreateServerHandle function [Websocket Protocol Component API], websock.websocketcreateserverhandle, websocket/WebSocketCreateServerHandle
 ms.topic: function
 f1_keywords:
 - websocket/WebSocketCreateServerHandle
 dev_langs:
- - c++
+- c++
 req.header: websocket.h
 req.include-header: 
 req.target-type: Windows

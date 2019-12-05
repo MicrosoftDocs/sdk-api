@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CloseClusterNetInterface
 title: CloseClusterNetInterface function (clusapi.h)
-
 description: Closes a network interface handle.
 old-location: mscs\closeclusternetinterface.htm
 tech.root: MsCS
 ms.assetid: e5978e81-790a-4ca7-92b7-d19af31f222e
-
 ms.date: 12/05/2018
 ms.keywords: CloseClusterNetInterface, CloseClusterNetInterface function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE function [Failover Cluster], _wolf_closeclusternetinterface, clusapi/CloseClusterNetInterface, clusapi/PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE, mscs.closeclusternetinterface
 ms.topic: function
-f1_keywords: 
- - "clusapi/CloseClusterNetInterface"
+f1_keywords:
+- clusapi/CloseClusterNetInterface
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - CloseClusterNetInterface
+- CloseClusterNetInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

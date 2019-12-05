@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_FreeMediaBlocks
 title: IFileSystemImage::put_FreeMediaBlocks (imapi2fs.h)
-
 description: Sets the maximum number of blocks available for the image.
 old-location: imapi\ifilesystemimage_put_freemediablocks.htm
 tech.root: imapi
 ms.assetid: 7ffa2736-6480-4bda-8144-b949bf43e580
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],put_FreeMediaBlocks method, IFileSystemImage.put_FreeMediaBlocks, IFileSystemImage::put_FreeMediaBlocks, imapi.ifilesystemimage_put_freemediablocks, imapi2fs/IFileSystemImage::put_FreeMediaBlocks, put_FreeMediaBlocks, put_FreeMediaBlocks method [IMAPI], put_FreeMediaBlocks method [IMAPI],IFileSystemImage interface
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.put_FreeMediaBlocks"
+f1_keywords:
+- imapi2fs/IFileSystemImage.put_FreeMediaBlocks
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.put_FreeMediaBlocks
+- IFileSystemImage.put_FreeMediaBlocks
 targetos: Windows
 req.typenames: 
 req.redist: 

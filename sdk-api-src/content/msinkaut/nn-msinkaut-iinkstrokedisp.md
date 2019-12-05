@@ -1,19 +1,17 @@
 ---
 UID: NN:msinkaut.IInkStrokeDisp
 title: IInkStrokeDisp (msinkaut.h)
-
 description: Represents a single ink stroke.A stroke is a set of properties and point data that the digitizer captures that represent the coordinates and properties of a known ink mark.
 old-location: tablet\iinkstrokedisp.htm
 tech.root: tablet
 ms.assetid: b18464ba-feb6-4bb5-9fcf-82feff9bcce4
-
 ms.date: 12/05/2018
 ms.keywords: IInkStrokeDisp, IInkStrokeDisp interface [Tablet PC], IInkStrokeDisp interface [Tablet PC],described, b18464ba-feb6-4bb5-9fcf-82feff9bcce4, msinkaut/IInkStrokeDisp, tablet.iinkstrokedisp
 ms.topic: interface
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp"
+f1_keywords:
+- msinkaut/IInkStrokeDisp
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp
+- IInkStrokeDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

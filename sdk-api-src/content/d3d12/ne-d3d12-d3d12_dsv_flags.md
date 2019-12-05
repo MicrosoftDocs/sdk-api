@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_DSV_FLAGS
 title: D3D12_DSV_FLAGS (d3d12.h)
-
 description: Specifies depth-stencil view options.
 old-location: direct3d12\d3d12_dsv_flags.htm
 tech.root: direct3d12
 ms.assetid: A968BFFF-8C26-4C8C-9AA4-7E9BB5B0DF1F
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_DSV_FLAGS, D3D12_DSV_FLAGS enumeration, D3D12_DSV_FLAG_NONE, D3D12_DSV_FLAG_READ_ONLY_DEPTH, D3D12_DSV_FLAG_READ_ONLY_STENCIL, d3d12/D3D12_DSV_FLAGS, d3d12/D3D12_DSV_FLAG_NONE, d3d12/D3D12_DSV_FLAG_READ_ONLY_DEPTH, d3d12/D3D12_DSV_FLAG_READ_ONLY_STENCIL, direct3d12.d3d12_dsv_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_DSV_FLAGS"
+f1_keywords:
+- d3d12/D3D12_DSV_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_DSV_FLAGS
+- D3D12_DSV_FLAGS
 targetos: Windows
 req.typenames: D3D12_DSV_FLAGS
 req.redist: 

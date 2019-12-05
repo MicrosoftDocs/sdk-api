@@ -1,19 +1,17 @@
 ---
 UID: NC:winuser.HOOKPROC
 title: HOOKPROC (winuser.h)
-
 description: An application-defined or library-defined callback function used with the SetWindowsHookEx function. The system calls this function after the SendMessage function is called. The hook procedure can examine the message; it cannot modify it.
 old-location: winmsg\callwndretproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\callwndretproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: CallWndRetProc, CallWndRetProc callback, CallWndRetProc callback function [Windows and Messages], HOOKPROC, _win32_CallWndRetProc, _win32_callwndretproc_cpp, winmsg.callwndretproc, winui._win32_callwndretproc, winuser/CallWndRetProc
 ms.topic: callback
-f1_keywords: 
- - "winuser/CallWndRetProc"
+f1_keywords:
+- winuser/CallWndRetProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - CallWndRetProc
+- CallWndRetProc
 targetos: Windows
 req.typenames: 
 req.redist: 

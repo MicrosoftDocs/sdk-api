@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptCloseProtectionDescriptor
 title: NCryptCloseProtectionDescriptor function (ncryptprotect.h)
-
 description: Zeros and frees a protection descriptor object and releases its handle.
 old-location: security\ncryptcloseprotectiondescriptor.htm
 tech.root: SecCNG
 ms.assetid: 523FD83E-85A3-4A0E-BA8D-2F27F82C1072
-
 ms.date: 12/05/2018
 ms.keywords: NCryptCloseProtectionDescriptor, NCryptCloseProtectionDescriptor function [Security], ncryptprotect/NCryptCloseProtectionDescriptor, security.ncryptcloseprotectiondescriptor
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptCloseProtectionDescriptor"
+f1_keywords:
+- ncryptprotect/NCryptCloseProtectionDescriptor
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptCloseProtectionDescriptor
+- NCryptCloseProtectionDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

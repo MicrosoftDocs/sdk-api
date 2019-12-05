@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateComponentInfo
 title: IWICImagingFactory::CreateComponentInfo (wincodec.h)
-
 description: Creates a new instance of the IWICComponentInfo class for the given component class identifier (CLSID).
 old-location: wic\_wic_codec_iwicimagingfactory_createcomponentinfo.htm
 tech.root: wic
 ms.assetid: c4feebf7-500f-4ab8-85fa-689edfe31846
-
 ms.date: 12/05/2018
 ms.keywords: CreateComponentInfo, CreateComponentInfo method [Windows Imaging Component], CreateComponentInfo method [Windows Imaging Component],IWICImagingFactory interface, IWICImagingFactory interface [Windows Imaging Component],CreateComponentInfo method, IWICImagingFactory.CreateComponentInfo, IWICImagingFactory::CreateComponentInfo, _wic_codec_iwicimagingfactory_createcomponentinfo, wic._wic_codec_iwicimagingfactory_createcomponentinfo, wincodec/IWICImagingFactory::CreateComponentInfo
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICImagingFactory.CreateComponentInfo"
+f1_keywords:
+- wincodec/IWICImagingFactory.CreateComponentInfo
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICImagingFactory.CreateComponentInfo
+- IWICImagingFactory.CreateComponentInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

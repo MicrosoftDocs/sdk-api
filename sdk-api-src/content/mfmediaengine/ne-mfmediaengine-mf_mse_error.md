@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MSE_ERROR
 title: MF_MSE_ERROR (mfmediaengine.h)
-
 description: Defines the different error states of the Media Source Extension.
 old-location: mf\mf_mse_error.htm
 tech.root: medfound
 ms.assetid: 8FD54833-F60B-49E8-A673-6130F3B06160
-
 ms.date: 12/05/2018
 ms.keywords: MF_MSE_ERROR, MF_MSE_ERROR enumeration [Media Foundation], MF_MSE_ERROR_DECODE, MF_MSE_ERROR_NETWORK, MF_MSE_ERROR_NOERROR, MF_MSE_ERROR_UNKNOWN_ERROR, mf.mf_mse_error, mfmediaengine/MF_MSE_ERROR, mfmediaengine/MF_MSE_ERROR_DECODE, mfmediaengine/MF_MSE_ERROR_NETWORK, mfmediaengine/MF_MSE_ERROR_NOERROR, mfmediaengine/MF_MSE_ERROR_UNKNOWN_ERROR
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MSE_ERROR"
+f1_keywords:
+- mfmediaengine/MF_MSE_ERROR
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MSE_ERROR
+- MF_MSE_ERROR
 targetos: Windows
 req.typenames: MF_MSE_ERROR
 req.redist: 

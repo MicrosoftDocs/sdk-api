@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidEVREvent
 title: IMSVidEVREvent (segment.h)
-
 description: This topic applies to Windows Vista or later.
 old-location: mstv\imsvidevrevent.htm
 tech.root: mstv
 ms.assetid: 70874420-64f2-43c9-b46b-492318ae0852
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidEVREvent, IMSVidEVREvent interface [Microsoft TV Technologies], IMSVidEVREvent interface [Microsoft TV Technologies],described, IMSVidEVREventInterface, mstv.imsvidevrevent, segment/IMSVidEVREvent
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidEVREvent"
+f1_keywords:
+- segment/IMSVidEVREvent
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidEVREvent
+- IMSVidEVREvent
 targetos: Windows
 req.typenames: 
 req.redist: 

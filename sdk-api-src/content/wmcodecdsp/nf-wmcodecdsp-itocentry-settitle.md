@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.SetTitle
 title: ITocEntry::SetTitle (wmcodecdsp.h)
-
 description: The SetTitle method sets the title of the entry.
 old-location: mf\itocentry_settitle.htm
 tech.root: medfound
 ms.assetid: 24ab6c56-59ae-4fdf-b18e-75f616ee5a80
-
 ms.date: 12/05/2018
 ms.keywords: ITocEntry interface [Media Foundation],SetTitle method, ITocEntry.SetTitle, ITocEntry::SetTitle, SetTitle, SetTitle method [Media Foundation], SetTitle method [Media Foundation],ITocEntry interface, codecapi.itocentry_settitle, mf.itocentry_settitle, wmcodecdsp/ITocEntry::SetTitle
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntry.SetTitle"
+f1_keywords:
+- wmcodecdsp/ITocEntry.SetTitle
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntry.SetTitle
+- ITocEntry.SetTitle
 targetos: Windows
 req.typenames: 
 req.redist: 

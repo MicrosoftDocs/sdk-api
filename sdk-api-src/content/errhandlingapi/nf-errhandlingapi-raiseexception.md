@@ -1,19 +1,17 @@
 ---
 UID: NF:errhandlingapi.RaiseException
 title: RaiseException function (errhandlingapi.h)
-
 description: Raises an exception in the calling thread.
 old-location: base\raiseexception.htm
 tech.root: Debug
 ms.assetid: 47c3c85e-15ca-4645-89c1-bbfd3bbd58e5
-
 ms.date: 12/05/2018
 ms.keywords: RaiseException, RaiseException function, _win32_raiseexception, base.raiseexception, errhandlingapi/RaiseException
 ms.topic: function
-f1_keywords: 
- - "errhandlingapi/RaiseException"
+f1_keywords:
+- errhandlingapi/RaiseException
 dev_langs:
- - c++
+- c++
 req.header: errhandlingapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-errorhandling-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-errorhandling-l1-1-1.dll
- - API-MS-Win-Core-errorhandling-l1-1-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ErrorHandling-L1-1-3.dll
+- Kernel32.dll
+- API-MS-Win-Core-errorhandling-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-errorhandling-l1-1-1.dll
+- API-MS-Win-Core-errorhandling-l1-1-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ErrorHandling-L1-1-3.dll
 api_name:
- - RaiseException
+- RaiseException
 targetos: Windows
 req.typenames: 
 req.redist: 

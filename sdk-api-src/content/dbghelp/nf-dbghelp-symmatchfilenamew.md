@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymMatchFileNameW
 title: SymMatchFileNameW function (dbghelp.h)
-
 description: Compares a string to a file name and path.
 old-location: base\symmatchfilename.htm
 tech.root: Debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
-
 ms.date: 12/05/2018
 ms.keywords: SymMatchFileName, SymMatchFileName function, SymMatchFileNameW, _win32_symmatchfilename, base.symmatchfilename, dbghelp/SymMatchFileName, dbghelp/SymMatchFileNameW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymMatchFileName"
+f1_keywords:
+- dbghelp/SymMatchFileName
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymMatchFileName
- - SymMatchFileName
- - SymMatchFileNameW
+- SymMatchFileName
+- SymMatchFileName
+- SymMatchFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

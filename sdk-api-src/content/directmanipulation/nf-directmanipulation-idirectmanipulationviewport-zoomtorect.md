@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ZoomToRect
 title: IDirectManipulationViewport::ZoomToRect (directmanipulation.h)
-
 description: Moves the viewport to a specific area of the primary content and specifies whether to animate the transition.
 old-location: directmanipulation\idirectmanipulationviewport_zoomtorect.htm
 tech.root: directmanipulation
 ms.assetid: ce87521d-bbce-43d3-920b-89eca101d260
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],ZoomToRect method, IDirectManipulationViewport.ZoomToRect, IDirectManipulationViewport::ZoomToRect, ZoomToRect, ZoomToRect method [Direct Manipulation], ZoomToRect method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_zoomtorect, directmanipulation/IDirectManipulationViewport::ZoomToRect
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.ZoomToRect"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.ZoomToRect
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.ZoomToRect
+- IDirectManipulationViewport.ZoomToRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:aux_ulib.AuxUlibInitialize
 title: AuxUlibInitialize function (aux_ulib.h)
-
 description: Initializes the Aux_ulib library.
 old-location: winprog\auxulibinitialize_func.htm
 tech.root: DevNotes
 ms.assetid: 2e46e323-669c-4fcd-b3e0-d1e4ec700c64
-
 ms.date: 12/05/2018
 ms.keywords: AuxUlibInitialize, AuxUlibInitialize function [Windows API], aux_ulib/AuxUlibInitialize, winprog.auxulibinitialize_func
 ms.topic: function
-f1_keywords: 
- - "aux_ulib/AuxUlibInitialize"
+f1_keywords:
+- aux_ulib/AuxUlibInitialize
 dev_langs:
- - c++
+- c++
 req.header: aux_ulib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Aux_ulib.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - Aux_ulib.lib
+- Aux_ulib.lib
 api_name:
- - AuxUlibInitialize
+- AuxUlibInitialize
 targetos: Windows
 req.typenames: 
 req.redist: Windows Auxiliary API library version 1.0 or later

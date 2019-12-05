@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.SetWrapMode
 title: TextureBrush::SetWrapMode (gdiplusbrush.h)
-
 description: The TextureBrush::SetWrapMode method sets the wrap mode of this texture brush.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\setwrapmode_88wrapmode.htm
-
 ms.date: 12/05/2018
 ms.keywords: SetWrapMode, SetWrapMode method [GDI+], SetWrapMode method [GDI+],TextureBrush class, TextureBrush class [GDI+],SetWrapMode method, TextureBrush.SetWrapMode, TextureBrush::SetWrapMode, _gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_, gdiplus._gdiplus_CLASS_TextureBrush_SetWrapMode_wrapMode_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.SetWrapMode"
+f1_keywords:
+- gdiplusbrush/TextureBrush.SetWrapMode
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.SetWrapMode
+- TextureBrush.SetWrapMode
 targetos: Windows
 req.typenames: 
 req.redist: 

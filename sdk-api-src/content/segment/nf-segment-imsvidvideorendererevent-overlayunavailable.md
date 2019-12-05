@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVideoRendererEvent.OverlayUnavailable
 title: IMSVidVideoRendererEvent::OverlayUnavailable (segment.h)
-
 description: This topic applies to Windows XP or later.
 old-location: mstv\imsvidvideorendererevent_overlayunavailable.htm
 tech.root: mstv
 ms.assetid: cb58e84f-1a45-4b72-aafd-d7a80a4b5b9d
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVideoRendererEvent interface [Microsoft TV Technologies],OverlayUnavailable method, IMSVidVideoRendererEvent.OverlayUnavailable, IMSVidVideoRendererEvent::OverlayUnavailable, IMSVidVideoRendererEventOverlayUnavailable, OverlayUnavailable, OverlayUnavailable method [Microsoft TV Technologies], OverlayUnavailable method [Microsoft TV Technologies],IMSVidVideoRendererEvent interface, mstv.imsvidvideorendererevent_overlayunavailable, segment/IMSVidVideoRendererEvent::OverlayUnavailable
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVideoRendererEvent.OverlayUnavailable"
+f1_keywords:
+- segment/IMSVidVideoRendererEvent.OverlayUnavailable
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVideoRendererEvent.OverlayUnavailable
+- IMSVidVideoRendererEvent.OverlayUnavailable
 targetos: Windows
 req.typenames: 
 req.redist: 

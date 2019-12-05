@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.StgMakeUniqueName
 title: StgMakeUniqueName function (shlobj_core.h)
-
 description: Creates a unique name for a stream or storage object from a template.
 old-location: shell\StgMakeUniqueName.htm
 tech.root: shell
 ms.assetid: d45ec25c-359b-46f8-b0f6-5888525c7349
-
 ms.date: 12/05/2018
 ms.keywords: StgMakeUniqueName, StgMakeUniqueName function [Windows Shell], _shell_StgMakeUniqueName, shell.StgMakeUniqueName, shlobj_core/StgMakeUniqueName
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/StgMakeUniqueName"
+f1_keywords:
+- shlobj_core/StgMakeUniqueName
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - StgMakeUniqueName
+- StgMakeUniqueName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.INetFwProfile.put_FirewallEnabled
 title: INetFwProfile::put_FirewallEnabled (netfw.h)
-
 description: Indicates whether the firewall is enabled.
 old-location: ics\inetfwprofile_firewallenabled.htm
 tech.root: ics
 ms.assetid: cde6327d-e3ae-418f-9e8c-76288c120ca0
-
 ms.date: 12/05/2018
 ms.keywords: FirewallEnabled property [ICS/ICF], FirewallEnabled property [ICS/ICF],INetFwProfile interface, INetFwProfile interface [ICS/ICF],FirewallEnabled property, INetFwProfile.FirewallEnabled, INetFwProfile.put_FirewallEnabled, INetFwProfile::FirewallEnabled, INetFwProfile::get_FirewallEnabled, INetFwProfile::put_FirewallEnabled, ics.inetfwprofile_firewallenabled, netfw/INetFwProfile::FirewallEnabled, netfw/INetFwProfile::get_FirewallEnabled, netfw/INetFwProfile::put_FirewallEnabled, put_FirewallEnabled
 ms.topic: method
-f1_keywords: 
- - "netfw/INetFwProfile.FirewallEnabled"
+f1_keywords:
+- netfw/INetFwProfile.FirewallEnabled
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwProfile.FirewallEnabled
- - INetFwProfile.get_FirewallEnabled
- - INetFwProfile.put_FirewallEnabled
+- INetFwProfile.FirewallEnabled
+- INetFwProfile.get_FirewallEnabled
+- INetFwProfile.put_FirewallEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

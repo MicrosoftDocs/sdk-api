@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetStylusSyncPluginCount
 title: IRealTimeStylus::GetStylusSyncPluginCount (rtscom.h)
-
 description: Retrieves the number of plug-ins in the synchronous plug-in collection.
 old-location: tablet\irealtimestylus_getstylussyncplugincount.htm
 tech.root: tablet
 ms.assetid: 1f8d9097-6f17-4c62-a624-98583ac26f98
-
 ms.date: 12/05/2018
 ms.keywords: 1f8d9097-6f17-4c62-a624-98583ac26f98, GetStylusSyncPluginCount, GetStylusSyncPluginCount method [Tablet PC], GetStylusSyncPluginCount method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],GetStylusSyncPluginCount method, IRealTimeStylus.GetStylusSyncPluginCount, IRealTimeStylus::GetStylusSyncPluginCount, rtscom/IRealTimeStylus::GetStylusSyncPluginCount, tablet.irealtimestylus_getstylussyncplugincount
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.GetStylusSyncPluginCount"
+f1_keywords:
+- rtscom/IRealTimeStylus.GetStylusSyncPluginCount
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.GetStylusSyncPluginCount
+- IRealTimeStylus.GetStylusSyncPluginCount
 targetos: Windows
 req.typenames: 
 req.redist: 

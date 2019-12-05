@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetManufacturer
 title: IWMDMDevice::GetManufacturer (mswmdm.h)
-
 description: The GetManufacturer method retrieves the name of the manufacturer of the device.
 old-location: wmdm\iwmdmdevice_getmanufacturer.htm
 tech.root: WMDM
 ms.assetid: 42e862e4-bfbc-4fca-b5df-001416173d6e
-
 ms.date: 12/05/2018
 ms.keywords: GetManufacturer, GetManufacturer method [windows Media Device Manager], GetManufacturer method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetManufacturer method, IWMDMDevice.GetManufacturer, IWMDMDevice::GetManufacturer, IWMDMDeviceGetManufacturer, mswmdm/IWMDMDevice::GetManufacturer, wmdm.iwmdmdevice_getmanufacturer
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDevice.GetManufacturer"
+f1_keywords:
+- mswmdm/IWMDMDevice.GetManufacturer
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDevice.GetManufacturer
+- IWMDMDevice.GetManufacturer
 targetos: Windows
 req.typenames: 
 req.redist: 

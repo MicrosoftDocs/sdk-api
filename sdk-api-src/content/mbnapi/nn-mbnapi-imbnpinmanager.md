@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnPinManager
 title: IMbnPinManager (mbnapi.h)
-
 description: Provides important details about the device PIN.
 old-location: mbn\imbnpinmanager.htm
 tech.root: mbn
 ms.assetid: b5cfabc7-81f8-4ea0-b6f4-5de011320f0b
-
 ms.date: 12/05/2018
 ms.keywords: IMbnPinManager, IMbnPinManager interface [Microsoft Broadband Networks], IMbnPinManager interface [Microsoft Broadband Networks],described, mbn.imbnpinmanager, mbnapi/IMbnPinManager
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnPinManager"
+f1_keywords:
+- mbnapi/IMbnPinManager
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPinManager
+- IMbnPinManager
 targetos: Windows
 req.typenames: 
 req.redist: 

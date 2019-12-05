@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsReadBytes
 title: WsReadBytes function (webservices.h)
-
 description: Reads text from the Reader and decodes the characters as bytes according to the base64 specification.
 old-location: wsw\wsreadbytes.htm
 tech.root: wsw
 ms.assetid: 02cff29c-7d39-4df2-8eb1-506f93959a1e
-
 ms.date: 12/05/2018
 ms.keywords: WsReadBytes, WsReadBytes function [Web Services for Windows], webservices/WsReadBytes, wsw.wsreadbytes
 ms.topic: function
-f1_keywords: 
- - "webservices/WsReadBytes"
+f1_keywords:
+- webservices/WsReadBytes
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsReadBytes
+- WsReadBytes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvQueryTrueTypeTable
 title: DrvQueryTrueTypeTable function (winddi.h)
-
 description: The DrvQueryTrueTypeTable function accesses specific tables in a TrueType font-description file.
 old-location: display\drvquerytruetypetable.htm
 tech.root: display
 ms.assetid: d1c76df6-8c27-47b5-a879-4e064081481c
-
 ms.date: 12/05/2018
 ms.keywords: DrvQueryTrueTypeTable, DrvQueryTrueTypeTable function [Display Devices], ddifncs_bcc0c4c9-b3f4-471d-8f04-1cca202e9d24.xml, display.drvquerytruetypetable, winddi/DrvQueryTrueTypeTable
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvQueryTrueTypeTable"
+f1_keywords:
+- winddi/DrvQueryTrueTypeTable
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvQueryTrueTypeTable
+- DrvQueryTrueTypeTable
 targetos: Windows
 req.typenames: 
 req.redist: 

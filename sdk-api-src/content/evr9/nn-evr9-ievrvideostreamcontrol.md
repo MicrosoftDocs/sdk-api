@@ -1,19 +1,17 @@
 ---
 UID: NN:evr9.IEVRVideoStreamControl
 title: IEVRVideoStreamControl (evr9.h)
-
 description: This interface is not supported.
 old-location: mf\ievrvideostreamcontrol.htm
 tech.root: medfound
 ms.assetid: ea7b0dd2-2eff-4a37-826b-6f87fbea5785
-
 ms.date: 12/05/2018
 ms.keywords: IEVRVideoStreamControl, IEVRVideoStreamControl interface [Media Foundation], IEVRVideoStreamControl interface [Media Foundation],described, ea7b0dd2-2eff-4a37-826b-6f87fbea5785, evr9/IEVRVideoStreamControl, mf.ievrvideostreamcontrol
 ms.topic: interface
-f1_keywords: 
- - "evr9/IEVRVideoStreamControl"
+f1_keywords:
+- evr9/IEVRVideoStreamControl
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IEVRVideoStreamControl
+- IEVRVideoStreamControl
 targetos: Windows
 req.typenames: 
 req.redist: 

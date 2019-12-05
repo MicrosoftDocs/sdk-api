@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Equals
 title: Matrix::Equals (gdiplusmatrix.h)
-
 description: The Matrix::Equals method determines whether the elements of this matrix are equal to the elements of another matrix.
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Equals_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\equals.htm
-
 ms.date: 12/05/2018
 ms.keywords: Equals, Equals method [GDI+], Equals method [GDI+],Matrix class, Matrix class [GDI+],Equals method, Matrix.Equals, Matrix::Equals, _gdiplus_CLASS_Matrix_Equals_matrix_, gdiplus._gdiplus_CLASS_Matrix_Equals_matrix_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmatrix/Matrix.Equals"
+f1_keywords:
+- gdiplusmatrix/Matrix.Equals
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmatrix.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Matrix.Equals
+- Matrix.Equals
 targetos: Windows
 req.typenames: 
 req.redist: 

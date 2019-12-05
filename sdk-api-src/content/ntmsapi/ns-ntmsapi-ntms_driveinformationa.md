@@ -1,19 +1,17 @@
 ---
 UID: NS:ntmsapi._NTMS_DRIVEINFORMATIONA
 title: NTMS_DRIVEINFORMATIONA (ntmsapi.h)
-
 description: The NTMS_DRIVEINFORMATION structure defines properties specific to a drive object.
 old-location: fs\ntms_driveinformation.htm
 tech.root: Rsm
 ms.assetid: a095a8f1-a059-4aed-88da-a139286993b5
-
 ms.date: 12/05/2018
 ms.keywords: NTMS_DRIVEINFORMATION, NTMS_DRIVEINFORMATION structure [Files], NTMS_DRIVEINFORMATIONA, NTMS_DRIVEINFORMATIONW, NTMS_DRIVESTATE_BEING_CLEANED, NTMS_DRIVESTATE_DISMOUNTABLE, NTMS_DRIVESTATE_DISMOUNTED, NTMS_DRIVESTATE_LOADED, NTMS_DRIVESTATE_MOUNTED, NTMS_DRIVESTATE_UNLOADED, _NTMS_DRIVEINFORMATIONA, _NTMS_DRIVEINFORMATIONW, _zaw_ntms_driveinformation, base.ntms_driveinformation, fs.ntms_driveinformation, ntmsapi/NTMS_DRIVEINFORMATION
 ms.topic: struct
 f1_keywords:
 - ntmsapi/NTMS_DRIVEINFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows

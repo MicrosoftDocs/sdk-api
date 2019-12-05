@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSARecv
 title: WSARecv function (winsock2.h)
-
 description: Receives data from a connected socket or a bound connectionless socket.
 old-location: winsock\wsarecv_2.htm
 tech.root: WinSock
 ms.assetid: bfe66e11-e9a7-4321-ad55-3141113e9a03
-
 ms.date: 12/05/2018
 ms.keywords: WSARecv, WSARecv function [Winsock], _win32_wsarecv_2, winsock.wsarecv_2, winsock2/WSARecv
 ms.topic: function
 f1_keywords:
 - winsock2/WSARecv
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows

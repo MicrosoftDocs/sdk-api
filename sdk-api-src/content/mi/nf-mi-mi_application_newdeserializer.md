@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Application_NewDeserializer
 title: MI_Application_NewDeserializer function (mi.h)
-
 description: Creates a deserializer object that can then be used to convert a serialized object back into a class or instance.
 old-location: wmi_v2\mi_application_newdeserializer.htm
 tech.root: wmi_v2
 ms.assetid: e58c69ce-032a-4024-9023-53cd1776b7f3
-
 ms.date: 12/05/2018
 ms.keywords: MI_Application_NewDeserializer, MI_Application_NewDeserializer function [Windows Management Infrastructure (MI)], mi/MI_Application_NewDeserializer, wmi_v2.mi_application_newdeserializer
 ms.topic: function
 f1_keywords:
 - mi/MI_Application_NewDeserializer
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.PolyDraw
 title: PolyDraw function (wingdi.h)
-
 description: The PolyDraw function draws a set of line segments and B&#233;zier curves.
 old-location: gdi\polydraw.htm
 tech.root: gdi
 ms.assetid: 5fd3f285-dcf3-4cd0-915a-236ba7902353
-
 ms.date: 12/05/2018
 ms.keywords: PT_BEZIERTO, PT_CLOSEFIGURE, PT_LINETO, PT_MOVETO, PolyDraw, PolyDraw function [Windows GDI], _win32_PolyDraw, gdi.polydraw, wingdi/PolyDraw
 ms.topic: function
-f1_keywords: 
- - "wingdi/PolyDraw"
+f1_keywords:
+- wingdi/PolyDraw
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
- - PolyDraw
+- PolyDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetTop(float)
 title: IDCompositionRectangleClip::SetTop (dcomp.h)
-
 description: Changes the value of the Top property of a clip rectangle.
 old-location: directcomp\idcompositionrectangleclip_settop_float.htm
 tech.root: directcomp
 ms.assetid: 7D3AB5CC-7295-4160-9AAB-91C61A445B24
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip interface [DirectComposition],SetTop method, IDCompositionRectangleClip.SetTop, IDCompositionRectangleClip::SetTop, IDCompositionRectangleClip::SetTop(float), SetTop, SetTop method [DirectComposition], SetTop method [DirectComposition],IDCompositionRectangleClip interface, dcomp/IDCompositionRectangleClip::SetTop, directcomp.idcompositionrectangleclip_settop_float
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip.SetTop"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip.SetTop
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip.SetTop
+- IDCompositionRectangleClip.SetTop
 targetos: Windows
 req.typenames: 
 req.redist: 

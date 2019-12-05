@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzScopes.get_Count
 title: IAzScopes::get_Count (azroles.h)
-
 description: Retrieves the number of IAzScope objects in the collection.
 old-location: security\iazscopes_count.htm
 tech.root: SecAuthZ
 ms.assetid: aff809a6-c768-4cfe-a41f-ee227f77a3b1
-
 ms.date: 12/05/2018
 ms.keywords: AzScopes object [Security],Count property, Count property [Security], Count property [Security],AzScopes object, Count property [Security],IAzScopes interface, IAzScopes interface [Security],Count property, IAzScopes.Count, IAzScopes.get_Count, IAzScopes::Count, IAzScopes::get_Count, azroles/IAzScopes::Count, azroles/IAzScopes::get_Count, get_Count, security.iazscopes_count
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzScopes.Count"
+f1_keywords:
+- azroles/IAzScopes.Count
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzScopes.Count
- - IAzScopes.get_Count
- - AzScopes.Count
+- IAzScopes.Count
+- IAzScopes.get_Count
+- AzScopes.Count
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

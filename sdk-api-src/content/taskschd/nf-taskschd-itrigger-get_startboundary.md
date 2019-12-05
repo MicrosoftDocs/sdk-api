@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITrigger.get_StartBoundary
 title: ITrigger::get_StartBoundary (taskschd.h)
-
 description: Gets or sets the date and time when the trigger is activated.
 old-location: taskschd\itrigger_startboundary.htm
 tech.root: taskschd
 ms.assetid: 749101ae-3db6-44ec-9113-95282c86c3c0
-
 ms.date: 12/05/2018
 ms.keywords: ITrigger interface [Task Scheduler],StartBoundary property, ITrigger.StartBoundary, ITrigger.get_StartBoundary, ITrigger::StartBoundary, ITrigger::get_StartBoundary, ITrigger::put_StartBoundary, StartBoundary property [Task Scheduler], StartBoundary property [Task Scheduler],ITrigger interface, get_StartBoundary, taskschd.itrigger_startboundary, taskschd/ITrigger::StartBoundary, taskschd/ITrigger::get_StartBoundary, taskschd/ITrigger::put_StartBoundary
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITrigger.StartBoundary"
+f1_keywords:
+- taskschd/ITrigger.StartBoundary
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITrigger.StartBoundary
- - ITrigger.get_StartBoundary
- - ITrigger.put_StartBoundary
+- ITrigger.StartBoundary
+- ITrigger.get_StartBoundary
+- ITrigger.put_StartBoundary
 targetos: Windows
 req.typenames: 
 req.redist: 

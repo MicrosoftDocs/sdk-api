@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_MM_SA_STATE_
 title: IKEEXT_MM_SA_STATE (iketypes.h)
-
 description: States for the Main Mode (MM) negotiation exchanges that are part of the Authenticated Internet Protocol (AuthIP) and Internet Key Exchange (IKE) protocols.
 old-location: fwp\ikeext_mm_sa_state.htm
 tech.root: fwp
 ms.assetid: 5af48053-23b7-489f-82b7-743153aea641
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_MM_SA_STATE, IKEEXT_MM_SA_STATE enumeration [Filtering], IKEEXT_MM_SA_STATE_COMPLETE, IKEEXT_MM_SA_STATE_FINAL, IKEEXT_MM_SA_STATE_FINAL_SENT, IKEEXT_MM_SA_STATE_MAX, IKEEXT_MM_SA_STATE_NONE, IKEEXT_MM_SA_STATE_SA_SENT, IKEEXT_MM_SA_STATE_SSPI_SENT, fwp.ikeext_mm_sa_state, iketypes/IKEEXT_MM_SA_STATE, iketypes/IKEEXT_MM_SA_STATE_COMPLETE, iketypes/IKEEXT_MM_SA_STATE_FINAL, iketypes/IKEEXT_MM_SA_STATE_FINAL_SENT, iketypes/IKEEXT_MM_SA_STATE_MAX, iketypes/IKEEXT_MM_SA_STATE_NONE, iketypes/IKEEXT_MM_SA_STATE_SA_SENT, iketypes/IKEEXT_MM_SA_STATE_SSPI_SENT
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_MM_SA_STATE"
+f1_keywords:
+- iketypes/IKEEXT_MM_SA_STATE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_MM_SA_STATE
+- IKEEXT_MM_SA_STATE
 targetos: Windows
 req.typenames: IKEEXT_MM_SA_STATE
 req.redist: 

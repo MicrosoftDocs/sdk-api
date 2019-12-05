@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.ReauthenticateUser
 title: ITSGAuthenticateUserSink::ReauthenticateUser (tsgauthenticationengine.h)
-
 description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.
 old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
 tech.root: TermServ
 ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink interface [Remote Desktop Services],ReauthenticateUser method, ITSGAuthenticateUserSink.ReauthenticateUser, ITSGAuthenticateUserSink::ReauthenticateUser, ReauthenticateUser, ReauthenticateUser method [Remote Desktop Services], ReauthenticateUser method [Remote Desktop Services],ITSGAuthenticateUserSink interface, termserv.itsgauthenticateusersink_reauthenticateuser, tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser
 ms.topic: method
-f1_keywords: 
- - "tsgauthenticationengine/ITSGAuthenticateUserSink.ReauthenticateUser"
+f1_keywords:
+- tsgauthenticationengine/ITSGAuthenticateUserSink.ReauthenticateUser
 dev_langs:
- - c++
+- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGAuthenticationEngine.h
+- TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink.ReauthenticateUser
+- ITSGAuthenticateUserSink.ReauthenticateUser
 targetos: Windows
 req.typenames: 
 req.redist: 

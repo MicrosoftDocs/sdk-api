@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.SetStream
 title: IMFASFProfile::SetStream (wmcontainer.h)
-
 description: Adds a stream to the profile or reconfigures an existing stream.
 old-location: mf\imfasfprofile_setstream.htm
 tech.root: medfound
 ms.assetid: c2272260-74ab-42ff-bff3-d6c6d5b322f3
-
 ms.date: 12/05/2018
 ms.keywords: IMFASFProfile interface [Media Foundation],SetStream method, IMFASFProfile.SetStream, IMFASFProfile::SetStream, SetStream, SetStream method [Media Foundation], SetStream method [Media Foundation],IMFASFProfile interface, c2272260-74ab-42ff-bff3-d6c6d5b322f3, mf.imfasfprofile_setstream, wmcontainer/IMFASFProfile::SetStream
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFProfile.SetStream"
+f1_keywords:
+- wmcontainer/IMFASFProfile.SetStream
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFProfile.SetStream
+- IMFASFProfile.SetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

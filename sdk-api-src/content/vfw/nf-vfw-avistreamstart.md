@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamStart
 title: AVIStreamStart function (vfw.h)
-
 description: The AVIStreamStart function returns the starting sample number for the stream.
 old-location: multimedia\avistreamstart.htm
 tech.root: Multimedia
 ms.assetid: d4c66732-f777-44c7-9d61-88b721e150c1
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamStart, AVIStreamStart function [Windows Multimedia], _win32_AVIStreamStart, multimedia.avistreamstart, vfw/AVIStreamStart
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamStart"
+f1_keywords:
+- vfw/AVIStreamStart
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIStreamStart
+- AVIStreamStart
 targetos: Windows
 req.typenames: 
 req.redist: 

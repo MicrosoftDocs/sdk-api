@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.UrlHashA
 title: UrlHashA function (shlwapi.h)
-
 description: Hashes a URL string.
 old-location: shell\UrlHash.htm
 tech.root: shell
 ms.assetid: 9c0ce709-e097-4501-bee1-b24df9d4828d
-
 ms.date: 12/05/2018
 ms.keywords: UrlHash, UrlHash function [Windows Shell], UrlHashA, UrlHashW, _win32_UrlHash, shell.UrlHash, shlwapi/UrlHash, shlwapi/UrlHashA, shlwapi/UrlHashW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/UrlHash"
+f1_keywords:
+- shlwapi/UrlHash
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-url-l1-1-0.dll
- - KernelBase.dll
+- Shlwapi.dll
+- API-MS-Win-Core-url-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - UrlHash
- - UrlHashA
- - UrlHashW
+- UrlHash
+- UrlHashA
+- UrlHashW
 targetos: Windows
 req.typenames: 
 req.redist: 

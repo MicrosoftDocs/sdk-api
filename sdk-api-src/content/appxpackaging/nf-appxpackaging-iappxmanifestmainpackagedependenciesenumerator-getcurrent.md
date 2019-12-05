@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
 title: IAppxManifestMainPackageDependenciesEnumerator::GetCurrent (appxpackaging.h)
-
 description: Gets the &lt;MainPackageDependency&gt; element at the current position of the enumerator.
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: 14C7F3F9-38FE-4FC2-9255-0A728A1488C0
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [App packaging and management], GetCurrent method [App packaging and management],IAppxManifestMainPackageDependenciesEnumerator interface, IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management],GetCurrent method, IAppxManifestMainPackageDependenciesEnumerator.GetCurrent, IAppxManifestMainPackageDependenciesEnumerator::GetCurrent, appxpackaging/IAppxManifestMainPackageDependenciesEnumerator::GetCurrent, appxpkg.iappxmanifestmainpackagedependenciesenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestMainPackageDependenciesEnumerator.GetCurrent"
+f1_keywords:
+- appxpackaging/IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
+- IAppxManifestMainPackageDependenciesEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

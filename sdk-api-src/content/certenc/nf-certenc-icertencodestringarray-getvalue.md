@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.GetValue
 title: ICertEncodeStringArray::GetValue (certenc.h)
-
 description: Returns the specified string from the string array.
 old-location: security\icertencodestringarray_getvalue.htm
 tech.root: SecCrypto
 ms.assetid: 93f827c6-4dc6-462f-8865-eb631d7fe7bc
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeStringArray object, GetValue method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetValue method, ICertEncodeStringArray.GetValue, ICertEncodeStringArray::GetValue, _certsrv_icertencodestringarray_getvalue, certenc/ICertEncodeStringArray::GetValue, security.icertencodestringarray_getvalue
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeStringArray.GetValue"
+f1_keywords:
+- certenc/ICertEncodeStringArray.GetValue
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeStringArray.GetValue
- - CCertEncodeStringArray.GetValue
+- ICertEncodeStringArray.GetValue
+- CCertEncodeStringArray.GetValue
 targetos: Windows
 req.typenames: 
 req.redist: 

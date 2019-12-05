@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetSortDescriptionLabel
 title: IPropertyDescription::GetSortDescriptionLabel (propsys.h)
-
 description: Gets the localized display string that describes the current sort order.
 old-location: properties\IPropertyDescription_GetSortDescriptionLabel.htm
 tech.root: properties
 ms.assetid: 5cfa445b-953b-474f-ba7b-1ed6cfbf981d
-
 ms.date: 12/05/2018
 ms.keywords: GetSortDescriptionLabel, GetSortDescriptionLabel method [Windows Properties], GetSortDescriptionLabel method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetSortDescriptionLabel method, IPropertyDescription.GetSortDescriptionLabel, IPropertyDescription::GetSortDescriptionLabel, properties.IPropertyDescription_GetSortDescriptionLabel, propsys/IPropertyDescription::GetSortDescriptionLabel, shell.IPropertyDescription_GetSortDescriptionLabel, shell_IPropertyDescription_GetSortDescriptionLabel
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetSortDescriptionLabel"
+f1_keywords:
+- propsys/IPropertyDescription.GetSortDescriptionLabel
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetSortDescriptionLabel
+- IPropertyDescription.GetSortDescriptionLabel
 targetos: Windows
 req.typenames: 
 req.redist: 

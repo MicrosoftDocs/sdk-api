@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPPropertyCollection.InitializeFromProperties
 title: IOCSPPropertyCollection::InitializeFromProperties (certadm.h)
-
 description: Creates a property set from the properties contained in an existing server configuration.
 old-location: security\iocsppropertycollection_initializefromproperties_method.htm
 tech.root: SecCrypto
 ms.assetid: e944af4e-80e4-470e-be04-770cf0f89871
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],InitializeFromProperties method, IOCSPPropertyCollection.InitializeFromProperties, IOCSPPropertyCollection::InitializeFromProperties, InitializeFromProperties, InitializeFromProperties method [Security], InitializeFromProperties method [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::InitializeFromProperties, security.iocsppropertycollection_initializefromproperties_method
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPPropertyCollection.InitializeFromProperties"
+f1_keywords:
+- certadm/IOCSPPropertyCollection.InitializeFromProperties
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPPropertyCollection.InitializeFromProperties
+- IOCSPPropertyCollection.InitializeFromProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

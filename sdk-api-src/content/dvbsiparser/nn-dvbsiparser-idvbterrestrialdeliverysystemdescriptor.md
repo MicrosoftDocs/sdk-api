@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor
 title: IDvbTerrestrialDeliverySystemDescriptor (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor.htm
 tech.root: mstv
 ms.assetid: 7000f937-2f58-43c1-b0e1-60d3171485b0
-
 ms.date: 12/05/2018
 ms.keywords: IDvbTerrestrialDeliverySystemDescriptor, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbTerrestrialDeliverySystemDescriptorInterface, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor, mstv.idvbterrestrialdeliverysystemdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor
+- IDvbTerrestrialDeliverySystemDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetValidateName
 title: NetValidateName function (lmjoin.h)
-
 description: The NetValidateName function verifies that a name is valid for name type specified(computer name, workgroup name, domain name, or DNS computer name).
 old-location: netmgmt\netvalidatename.htm
 tech.root: NetMgmt
 ms.assetid: 772603df-ec17-4a83-a715-2d9a14d5c2bb
-
 ms.date: 12/05/2018
 ms.keywords: NetSetupDnsMachine, NetSetupDomain, NetSetupMachine, NetSetupNonExistentDomain, NetSetupUnknown, NetSetupWorkgroup, NetValidateName, NetValidateName function [Network Management], _win32_netvalidatename, lmjoin/NetValidateName, netmgmt.netvalidatename
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetValidateName"
+f1_keywords:
+- lmjoin/NetValidateName
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetValidateName
+- NetValidateName
 targetos: Windows
 req.typenames: 
 req.redist: 

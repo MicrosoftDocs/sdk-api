@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfFunction.GetDisplayName
 title: ITfFunction::GetDisplayName (msctf.h)
-
 description: ITfFunction::GetDisplayName method
 old-location: tsf\itffunction_getdisplayname.htm
 tech.root: TSF
 ms.assetid: da52ca6d-9606-45c5-8db9-c876c827df14
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [Text Services Framework], GetDisplayName method [Text Services Framework],ITfFunction interface, ITfFunction interface [Text Services Framework],GetDisplayName method, ITfFunction.GetDisplayName, ITfFunction::GetDisplayName, _tsf_itffunction_getdisplayname_ref, msctf/ITfFunction::GetDisplayName, tsf.itffunction_getdisplayname
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfFunction.GetDisplayName"
+f1_keywords:
+- msctf/ITfFunction.GetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFunction.GetDisplayName
+- ITfFunction.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.AddCertTypeToRequestWStrEx
 title: IEnroll4::AddCertTypeToRequestWStrEx (xenroll.h)
-
 description: Adds a certificate template (also known as certificate type) to a request.
 old-location: security\ienroll4_addcerttypetorequestwstrex.htm
 tech.root: SecCrypto
 ms.assetid: aa3bab0d-2ed4-4ef2-9665-a6c70e14308d
-
 ms.date: 12/05/2018
 ms.keywords: AddCertTypeToRequestWStrEx, AddCertTypeToRequestWStrEx method [Security], AddCertTypeToRequestWStrEx method [Security],IEnroll4 interface, IEnroll4 interface [Security],AddCertTypeToRequestWStrEx method, IEnroll4.AddCertTypeToRequestWStrEx, IEnroll4::AddCertTypeToRequestWStrEx, XECT_EXTENSION_V1, XECT_EXTENSION_V2, security.ienroll4_addcerttypetorequestwstrex, xenroll/IEnroll4::AddCertTypeToRequestWStrEx
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.AddCertTypeToRequestWStrEx"
+f1_keywords:
+- xenroll/IEnroll4.AddCertTypeToRequestWStrEx
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.AddCertTypeToRequestWStrEx
+- IEnroll4.AddCertTypeToRequestWStrEx
 targetos: Windows
 req.typenames: 
 req.redist: 

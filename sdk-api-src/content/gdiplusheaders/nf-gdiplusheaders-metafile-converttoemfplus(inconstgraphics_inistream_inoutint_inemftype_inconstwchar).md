@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Metafile.ConvertToEmfPlus(IN const Graphics,IN IStream,IN OUT INT,IN EmfType,IN const WCHAR)
 title: Metafile::ConvertToEmfPlus(IN const Graphics,IN IStream,IN OUT INT,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-
 description: The Metafile::ConvertToEmfPlus method converts this Metafile object to the EMF+ format.
 old-location: gdiplus\_gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_IStream_stream_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafileconverttoemfplusmethods\converttoemfplus_graphicsrefgraphics_istreamstream.htm
-
 ms.date: 12/05/2018
 ms.keywords: ConvertToEmfPlus, ConvertToEmfPlus method [GDI+], ConvertToEmfPlus method [GDI+],Metafile class, Metafile class [GDI+],ConvertToEmfPlus method, Metafile.ConvertToEmfPlus, Metafile.ConvertToEmfPlus(IN const Graphics,IN IStream,IN OUT INT,IN EmfType,IN const WCHAR), Metafile::ConvertToEmfPlus, Metafile::ConvertToEmfPlus(IN const Graphics,IN IStream,IN OUT INT,IN EmfType,IN const WCHAR), _gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_IStream_stream_, gdiplus._gdiplus_CLASS_Metafile_ConvertToEmfPlus_Graphics_refGraphics_IStream_stream_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Metafile.ConvertToEmfPlus"
+f1_keywords:
+- gdiplusheaders/Metafile.ConvertToEmfPlus
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Metafile.ConvertToEmfPlus
+- Metafile.ConvertToEmfPlus
 targetos: Windows
 req.typenames: 
 req.redist: 

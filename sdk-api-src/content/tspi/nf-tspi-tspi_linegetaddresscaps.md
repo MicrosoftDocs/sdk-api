@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetAddressCaps
 title: TSPI_lineGetAddressCaps function (tspi.h)
-
 description: The TSPI_lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
 old-location: tspi\tspi_linegetaddresscaps.htm
 tech.root: Tapi
 ms.assetid: b8d52a94-2666-4f92-80e0-c9a1e04d1e79
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetAddressCaps, TSPI_lineGetAddressCaps function [TAPI 2.2], _tspi_tspi_linegetaddresscaps, tspi.tspi_linegetaddresscaps, tspi/TSPI_lineGetAddressCaps
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetAddressCaps"
+f1_keywords:
+- tspi/TSPI_lineGetAddressCaps
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetAddressCaps
+- TSPI_lineGetAddressCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.put_Online
 title: IUpdateSearcher::put_Online (wuapi.h)
-
 description: Gets and sets a Boolean value that indicates whether the UpdateSearcher goes online to search for updates.
 old-location: wua\iupdatesearcheronline.htm
 tech.root: Wua_Sdk
 ms.assetid: b395d19f-812c-441a-b0a7-7edb10dc3fcc
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateSearcher interface [Windows Update Agent],Online property, IUpdateSearcher.Online, IUpdateSearcher.put_Online, IUpdateSearcher::Online, IUpdateSearcher::get_Online, IUpdateSearcher::put_Online, Online property [Windows Update Agent], Online property [Windows Update Agent],IUpdateSearcher interface, put_Online, wua.iupdatesearcheronline, wuapi/IUpdateSearcher::Online, wuapi/IUpdateSearcher::get_Online, wuapi/IUpdateSearcher::put_Online
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateSearcher.Online"
+f1_keywords:
+- wuapi/IUpdateSearcher.Online
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateSearcher.Online
- - IUpdateSearcher.get_Online
- - IUpdateSearcher.put_Online
+- IUpdateSearcher.Online
+- IUpdateSearcher.get_Online
+- IUpdateSearcher.put_Online
 targetos: Windows
 req.typenames: 
 req.redist: 

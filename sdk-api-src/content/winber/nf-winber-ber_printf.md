@@ -1,19 +1,17 @@
 ---
 UID: NF:winber.ber_printf
 title: ber_printf function (winber.h)
-
 description: Used to encode a BER element and is similar to sprintf_s.
 old-location: ldap\ber_printf.htm
 tech.root: ldap
 ms.assetid: 6bae449b-eb75-4598-aacc-65567de67997
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf"
+ms.keywords: _ldap_ber_printf, ber_printf, ber_printf function [LDAP], ldap.ber__printf, ldap.ber_printf, winber/ber_printf
 ms.topic: function
-f1_keywords: 
- - "winber/ber_printf"
+f1_keywords:
+- winber/ber_printf
 dev_langs:
- - c++
+- c++
 req.header: winber.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ber_printf
+- ber_printf
 targetos: Windows
 req.typenames: 
 req.redist: 

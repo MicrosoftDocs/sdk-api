@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetServerWaitingToStart
 title: ITsSbResourcePluginStore::SetServerWaitingToStart (sbtsv.h)
-
 description: Indicates to the session host that the server is waiting to start.
 old-location: termserv\itssbresourcepluginstore_setserverwaitingtostart.htm
 tech.root: TermServ
 ms.assetid: cf677be1-387b-4a63-902b-bacda8729b23
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetServerWaitingToStart method, ITsSbResourcePluginStore.SetServerWaitingToStart, ITsSbResourcePluginStore::SetServerWaitingToStart, SetServerWaitingToStart, SetServerWaitingToStart method [Remote Desktop Services], SetServerWaitingToStart method [Remote Desktop Services],ITsSbResourcePluginStore interface, sbtsv/ITsSbResourcePluginStore::SetServerWaitingToStart, termserv.itssbresourcepluginstore_setserverwaitingtostart
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.SetServerWaitingToStart"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.SetServerWaitingToStart
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.SetServerWaitingToStart
+- ITsSbResourcePluginStore.SetServerWaitingToStart
 targetos: Windows
 req.typenames: 
 req.redist: 

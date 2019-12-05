@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob
 title: IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob (certenroll.h)
-
 description: Initializes the attribute from an encrypted private key.
 old-location: security\ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method.htm
 tech.root: seccertenroll
 ms.assetid: 2101f15f-b71b-4dea-8ec8-2d3c1926ae15
-
 ms.date: 12/05/2018
 ms.keywords: IX509AttributeArchiveKeyHash interface [Security],InitializeEncodeFromEncryptedKeyBlob method, IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob, IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob, InitializeEncodeFromEncryptedKeyBlob, InitializeEncodeFromEncryptedKeyBlob method [Security], InitializeEncodeFromEncryptedKeyBlob method [Security],IX509AttributeArchiveKeyHash interface, certenroll/IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob, security.ix509attributearchivekeyhash_initializeencodefromencryptedkeyblob_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob"
+f1_keywords:
+- certenroll/IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob
+- IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob
 targetos: Windows
 req.typenames: 
 req.redist: 

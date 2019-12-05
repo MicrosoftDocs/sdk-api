@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IResultDataCompareEx
 title: IResultDataCompareEx (mmc.h)
-
 description: Allows primary snap-ins to compare both scope and result items that are displayed in a sorted order in the result pane.
 old-location: mmc\iresultdatacompareex.htm
 tech.root: mmc
 ms.assetid: e4b305e4-4649-42f4-86f4-3c12e5aa5337
-
 ms.date: 12/05/2018
 ms.keywords: IResultDataCompareEx, IResultDataCompareEx interface [MMC], IResultDataCompareEx interface [MMC],described, _slate_iresultdatacompareex, mmc.iresultdatacompareex, mmc/IResultDataCompareEx
 ms.topic: interface
-f1_keywords: 
- - "mmc/IResultDataCompareEx"
+f1_keywords:
+- mmc/IResultDataCompareEx
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IResultDataCompareEx
+- IResultDataCompareEx
 targetos: Windows
 req.typenames: 
 req.redist: 

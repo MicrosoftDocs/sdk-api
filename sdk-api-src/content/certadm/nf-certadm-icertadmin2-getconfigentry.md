@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetConfigEntry
 title: ICertAdmin2::GetConfigEntry (certadm.h)
-
 description: Retrieves configuration information for a certification authority (CA).
 old-location: security\icertadmin2_getconfigentry.htm
 tech.root: SecCrypto
 ms.assetid: 1acb9e06-c9e5-419a-899a-b0ae80fab99e
-
 ms.date: 12/05/2018
 ms.keywords: GetConfigEntry, GetConfigEntry method [Security], GetConfigEntry method [Security],ICertAdmin2 interface, ICertAdmin2 interface [Security],GetConfigEntry method, ICertAdmin2.GetConfigEntry, ICertAdmin2::GetConfigEntry, certadm/ICertAdmin2::GetConfigEntry, security.icertadmin2_getconfigentry
 ms.topic: method
-f1_keywords: 
- - "certadm/ICertAdmin2.GetConfigEntry"
+f1_keywords:
+- certadm/ICertAdmin2.GetConfigEntry
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertAdmin2.GetConfigEntry
+- ICertAdmin2.GetConfigEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

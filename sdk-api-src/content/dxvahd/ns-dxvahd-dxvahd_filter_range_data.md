@@ -1,19 +1,17 @@
 ---
 UID: NS:dxvahd._DXVAHD_FILTER_RANGE_DATA
 title: DXVAHD_FILTER_RANGE_DATA (dxvahd.h)
-
 description: Defines the range of supported values for an image filter.
 old-location: mf\dxvahd_filter_range_data.htm
 tech.root: medfound
 ms.assetid: cd349ac5-9825-4dc8-8735-5d846abb353b
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_FILTER_RANGE_DATA, DXVAHD_FILTER_RANGE_DATA structure [Media Foundation], dxvahd/DXVAHD_FILTER_RANGE_DATA, mf.dxvahd_filter_range_data
 ms.topic: struct
-f1_keywords: 
- - "dxvahd/DXVAHD_FILTER_RANGE_DATA"
+f1_keywords:
+- dxvahd/DXVAHD_FILTER_RANGE_DATA
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxvahd.h
+- dxvahd.h
 api_name:
- - DXVAHD_FILTER_RANGE_DATA
+- DXVAHD_FILTER_RANGE_DATA
 targetos: Windows
 req.typenames: DXVAHD_FILTER_RANGE_DATA
 req.redist: 

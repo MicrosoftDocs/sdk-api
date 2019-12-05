@@ -1,19 +1,17 @@
 ---
 UID: NF:dsadmin.IDsAdminNotifyHandler.End
 title: IDsAdminNotifyHandler::End (dsadmin.h)
-
 description: The IDsAdminNotifyHandler::End method is called after the notification event has occurred. This method is called even if the notification process is canceled.
 old-location: ad\idsadminnotifyhandler_end.htm
 tech.root: ad
 ms.assetid: 6ff92b54-fa2c-4f45-8f40-e9c884e9cf7e
-
 ms.date: 12/05/2018
 ms.keywords: End, End method [Active Directory], End method [Active Directory],IDsAdminNotifyHandler interface, IDsAdminNotifyHandler interface [Active Directory],End method, IDsAdminNotifyHandler.End, IDsAdminNotifyHandler::End, _glines_idsadminnotifyhandler_end, ad.idsadminnotifyhandler__end, ad.idsadminnotifyhandler_end, dsadmin/IDsAdminNotifyHandler::End
 ms.topic: method
-f1_keywords: 
- - "dsadmin/IDsAdminNotifyHandler.End"
+f1_keywords:
+- dsadmin/IDsAdminNotifyHandler.End
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DSAdmin.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DSAdmin.dll
+- DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler.End
+- IDsAdminNotifyHandler.End
 targetos: Windows
 req.typenames: 
 req.redist: 

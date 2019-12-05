@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_SHADER_TRACE_DESC
 title: D3D11_SHADER_TRACE_DESC (d3d11shadertracing.h)
-
 description: Describes a shader-trace object.
 old-location: direct3d11\d3d11_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: 0BF5D48F-EBC5-445B-B315-496C50411C72
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_SHADER_TRACE_DESC, D3D11_SHADER_TRACE_DESC structure [Direct3D 11], d3d11shadertracing/D3D11_SHADER_TRACE_DESC, direct3d11.d3d11_shader_trace_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11shadertracing/D3D11_SHADER_TRACE_DESC"
+f1_keywords:
+- d3d11shadertracing/D3D11_SHADER_TRACE_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11ShaderTracing.h
+- D3D11ShaderTracing.h
 api_name:
- - D3D11_SHADER_TRACE_DESC
+- D3D11_SHADER_TRACE_DESC
 targetos: Windows
 req.typenames: D3D11_SHADER_TRACE_DESC
 req.redist: 

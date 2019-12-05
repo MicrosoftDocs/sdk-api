@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants
 title: ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants (d3d12.h)
-
 description: Sets a group of constants in the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsroot32bitconstants.htm
 tech.root: direct3d12
 ms.assetid: 509B8AA0-8128-4216-A9E2-67C027488E4A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRoot32BitConstants method, ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants, ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants, SetGraphicsRoot32BitConstants, SetGraphicsRoot32BitConstants method, SetGraphicsRoot32BitConstants method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRoot32BitConstants, direct3d12.id3d12graphicscommandlist_setgraphicsroot32bitconstants
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants
+- ID3D12GraphicsCommandList.SetGraphicsRoot32BitConstants
 targetos: Windows
 req.typenames: 
 req.redist: 

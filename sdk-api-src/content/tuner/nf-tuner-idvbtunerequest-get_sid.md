@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.get_SID
 title: IDVBTuneRequest::get_SID (tuner.h)
-
 description: The get_SID method retrieves the service ID for the network.
 old-location: mstv\idvbtunerequest_get_sid.htm
 tech.root: mstv
 ms.assetid: 2ddd5eec-c8bc-4f26-8acd-cf42876345ad
-
 ms.date: 12/05/2018
 ms.keywords: IDVBTuneRequest interface [Microsoft TV Technologies],get_SID method, IDVBTuneRequest.get_SID, IDVBTuneRequest::get_SID, IDVBTuneRequestget_SID, get_SID, get_SID method [Microsoft TV Technologies], get_SID method [Microsoft TV Technologies],IDVBTuneRequest interface, mstv.idvbtunerequest_get_sid, tuner/IDVBTuneRequest::get_SID
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBTuneRequest.get_SID"
+f1_keywords:
+- tuner/IDVBTuneRequest.get_SID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBTuneRequest.get_SID
+- IDVBTuneRequest.get_SID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tbs.Tbsi_Physical_Presence_Command
 title: Tbsi_Physical_Presence_Command function (tbs.h)
-
 description: Passes a physical presence ACPI command through TBS to the driver.
 old-location: tbs\_tbsi_physical_presence_command.htm
 tech.root: TBS
 ms.assetid: b5f91253-ac25-4ae3-93b0-4a6492dca90c
-
 ms.date: 12/05/2018
 ms.keywords: Tbsi_Physical_Presence_Command, Tbsi_Physical_Presence_Command function [TBS], tbs._tbsi_physical_presence_command, tbs/Tbsi_Physical_Presence_Command
 ms.topic: function
-f1_keywords: 
- - "tbs/Tbsi_Physical_Presence_Command"
+f1_keywords:
+- tbs/Tbsi_Physical_Presence_Command
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tbs.dll
+- Tbs.dll
 api_name:
- - Tbsi_Physical_Presence_Command
+- Tbsi_Physical_Presence_Command
 targetos: Windows
 req.typenames: 
 req.redist: 

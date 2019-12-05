@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDeleteErrorA
 title: SetupDeleteErrorA function (setupapi.h)
-
 description: The SetupDeleteError function generates a dialog box that informs the user of a delete error.
 old-location: setup\setupdeleteerror.htm
 tech.root: SetupApi
 ms.assetid: 200e1926-7ebd-4373-803d-1c054db5df8d
-
 ms.date: 12/05/2018
 ms.keywords: SetupDeleteError, SetupDeleteError function [Setup API], SetupDeleteErrorA, SetupDeleteErrorW, _setupapi_setupdeleteerror, setup.setupdeleteerror, setupapi/SetupDeleteError, setupapi/SetupDeleteErrorA, setupapi/SetupDeleteErrorW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDeleteError"
+f1_keywords:
+- setupapi/SetupDeleteError
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDeleteError
- - SetupDeleteErrorA
- - SetupDeleteErrorW
+- SetupDeleteError
+- SetupDeleteErrorA
+- SetupDeleteErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 

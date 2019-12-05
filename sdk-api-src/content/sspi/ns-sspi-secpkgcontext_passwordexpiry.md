@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_PasswordExpiry
 title: SecPkgContext_PasswordExpiry (sspi.h)
-
 description: The SecPkgContext_PasswordExpiry structure contains information about the expiration of a password or other credential used for the security context. This structure is returned by QueryContextAttributes (General).
 old-location: security\secpkgcontext_passwordexpiry.htm
 tech.root: SecAuthN
 ms.assetid: f45dde88-1520-4e65-8fae-8407dfaa0850
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry structure pointer [Security], SecPkgContext_PasswordExpiry, SecPkgContext_PasswordExpiry structure [Security], security.secpkgcontext_passwordexpiry, sspi/PSecPkgContext_PasswordExpiry, sspi/SecPkgContext_PasswordExpiry"
+ms.keywords: '*PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry, PSecPkgContext_PasswordExpiry structure pointer [Security], SecPkgContext_PasswordExpiry, SecPkgContext_PasswordExpiry structure [Security], security.secpkgcontext_passwordexpiry, sspi/PSecPkgContext_PasswordExpiry, sspi/SecPkgContext_PasswordExpiry'
 ms.topic: struct
-f1_keywords: 
- - "sspi/SecPkgContext_PasswordExpiry"
+f1_keywords:
+- sspi/SecPkgContext_PasswordExpiry
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sspi.h
+- Sspi.h
 api_name:
- - SecPkgContext_PasswordExpiry
+- SecPkgContext_PasswordExpiry
 targetos: Windows
 req.typenames: SecPkgContext_PasswordExpiry, *PSecPkgContext_PasswordExpiry
 req.redist: 

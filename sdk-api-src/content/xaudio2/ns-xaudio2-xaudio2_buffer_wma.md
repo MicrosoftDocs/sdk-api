@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_BUFFER_WMA
 title: XAUDIO2_BUFFER_WMA (xaudio2.h)
-
 description: Used with IXAudio2SourceVoice::SubmitSourceBuffer when submitting xWMA data.
 old-location: xaudio2\xaudio2_buffer_wma.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_BUFFER_WMA
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_BUFFER_WMA, XAUDIO2_BUFFER_WMA structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_buffer_wma, xaudio2/XAUDIO2_BUFFER_WMA
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_BUFFER_WMA"
+f1_keywords:
+- xaudio2/XAUDIO2_BUFFER_WMA
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_BUFFER_WMA
+- XAUDIO2_BUFFER_WMA
 targetos: Windows
 req.typenames: XAUDIO2_BUFFER_WMA
 req.redist: 

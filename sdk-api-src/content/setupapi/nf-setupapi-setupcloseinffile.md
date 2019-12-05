@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupCloseInfFile
 title: SetupCloseInfFile function (setupapi.h)
-
 description: The SetupCloseInfFile function closes the INF file opened by a call to SetupOpenInfFile. This function closes any INF files appended to it by calling SetupOpenAppendInfFile.
 old-location: setup\setupcloseinffile.htm
 tech.root: SetupApi
 ms.assetid: 78b6a69d-e588-45f1-bf5c-a6feaf8b3364
-
 ms.date: 12/05/2018
 ms.keywords: SetupCloseInfFile, SetupCloseInfFile function [Setup API], _setupapi_setupcloseinffile, setup.setupcloseinffile, setupapi/SetupCloseInfFile
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupCloseInfFile"
+f1_keywords:
+- setupapi/SetupCloseInfFile
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-setupapi-inf-l1-1-0.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Setupapi.dll
+- Ext-MS-Win-setupapi-inf-l1-1-0.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupCloseInfFile
+- SetupCloseInfFile
 targetos: Windows
 req.typenames: 
 req.redist: 

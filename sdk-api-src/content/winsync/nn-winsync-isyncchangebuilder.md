@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncChangeBuilder
 title: ISyncChangeBuilder (winsync.h)
-
 description: Provides additional data for an item change.
 old-location: winsync\isyncchangebuilder.htm
 tech.root: winsync
 ms.assetid: 6b9a628d-d0cb-49d1-a667-337b5f7f31ff
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBuilder, ISyncChangeBuilder interface [Windows Sync], ISyncChangeBuilder interface [Windows Sync],described, winsync.isyncchangebuilder, winsync/ISyncChangeBuilder
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncChangeBuilder"
+f1_keywords:
+- winsync/ISyncChangeBuilder
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBuilder
+- ISyncChangeBuilder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_Title
 title: IAMMediaContent::get_Title (qnetwork.h)
-
 description: The get_Title method retrieves the title.
 old-location: dshow\iammediacontent_get_title.htm
 tech.root: DirectShow
 ms.assetid: 60543438-9547-44fe-8468-baee03d6ebc9
-
 ms.date: 12/05/2018
 ms.keywords: IAMMediaContent interface [DirectShow],get_Title method, IAMMediaContent.get_Title, IAMMediaContent::get_Title, IAMMediaContentget_Title, dshow.iammediacontent_get_title, get_Title, get_Title method [DirectShow], get_Title method [DirectShow],IAMMediaContent interface, qnetwork/IAMMediaContent::get_Title
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMMediaContent.get_Title"
+f1_keywords:
+- qnetwork/IAMMediaContent.get_Title
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMMediaContent.get_Title
+- IAMMediaContent.get_Title
 targetos: Windows
 req.typenames: 
 req.redist: 

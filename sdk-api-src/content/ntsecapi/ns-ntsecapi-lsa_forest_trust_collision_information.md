@@ -1,19 +1,17 @@
 ---
 UID: NS:ntsecapi._LSA_FOREST_TRUST_COLLISION_INFORMATION
 title: LSA_FOREST_TRUST_COLLISION_INFORMATION (ntsecapi.h)
-
 description: Contains information about Local Security Authority forest trust collisions.
 old-location: security\lsa_forest_trust_collision_information.htm
 tech.root: SecAuthN
 ms.assetid: a4a3b040-c074-4756-a30f-408d8bca87ba
-
 ms.date: 12/05/2018
-ms.keywords: "*PLSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION structure [Security], PLSA_FOREST_TRUST_COLLISION_INFORMATION, PLSA_FOREST_TRUST_COLLISION_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_COLLISION_INFORMATION, security.lsa_forest_trust_collision_information"
+ms.keywords: '*PLSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION, LSA_FOREST_TRUST_COLLISION_INFORMATION structure [Security], PLSA_FOREST_TRUST_COLLISION_INFORMATION, PLSA_FOREST_TRUST_COLLISION_INFORMATION structure pointer [Security], _LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION, ntsecapi/PLSA_FOREST_TRUST_COLLISION_INFORMATION, security.lsa_forest_trust_collision_information'
 ms.topic: struct
-f1_keywords: 
- - "ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION"
+f1_keywords:
+- ntsecapi/LSA_FOREST_TRUST_COLLISION_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntsecapi.h
+- Ntsecapi.h
 api_name:
- - LSA_FOREST_TRUST_COLLISION_INFORMATION
+- LSA_FOREST_TRUST_COLLISION_INFORMATION
 targetos: Windows
 req.typenames: LSA_FOREST_TRUST_COLLISION_INFORMATION, *PLSA_FOREST_TRUST_COLLISION_INFORMATION
 req.redist: 

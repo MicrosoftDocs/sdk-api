@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportTftpClient.get_Timeout
 title: IWdsTransportTftpClient::get_Timeout (wdstptmgmt.h)
-
 description: Receives the timeout in seconds used to communicate with the client.
 old-location: wds\iwdstransporttftpclient_timeout.htm
 tech.root: wds
 ms.assetid: 27679E91-FB0E-4B39-80CF-70461EB92B39
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportTftpClient interface [Windows Deployment Services],Timeout property, IWdsTransportTftpClient.Timeout, IWdsTransportTftpClient.get_Timeout, IWdsTransportTftpClient::Timeout, IWdsTransportTftpClient::get_Timeout, Timeout property [Windows Deployment Services], Timeout property [Windows Deployment Services],IWdsTransportTftpClient interface, get_Timeout, wds.iwdstransporttftpclient_timeout, wdstptmgmt/IWdsTransportTftpClient::Timeout, wdstptmgmt/IWdsTransportTftpClient::get_Timeout
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportTftpClient.Timeout"
+f1_keywords:
+- wdstptmgmt/IWdsTransportTftpClient.Timeout
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpClient.Timeout
- - IWdsTransportTftpClient.get_Timeout
+- IWdsTransportTftpClient.Timeout
+- IWdsTransportTftpClient.get_Timeout
 targetos: Windows
 req.typenames: 
 req.redist: 

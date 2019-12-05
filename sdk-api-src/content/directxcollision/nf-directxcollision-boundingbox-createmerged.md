@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.CreateMerged
 title: BoundingBox::CreateMerged
-
 description: Creates a BoundingBox large enough to contains two specified BoundBox intances.
 old-location: dxmath\boundingbox_createmerged.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateMerged(BoundingBox@,BoundingBox,BoundingBox)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],CreateMerged method, BoundingBox.CreateMerged, BoundingBox::CreateMerged, CreateMerged, CreateMerged method [DirectX Math Support APIs], CreateMerged method [DirectX Math Support APIs],BoundingBox interface, Use DirectX..BoundingBox.CreateMerged, Use DirectX::::BoundingBox::CreateMerged, dxmath.boundingbox_createmerged
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingBox.CreateMerged"
+f1_keywords:
+- directxcollision/BoundingBox.CreateMerged
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingBox.CreateMerged
+- BoundingBox.CreateMerged
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mergemod.IMsmConfigureModule
 title: IMsmConfigureModule (mergemod.h)
-
 description: The IMsmConfigureModule interface is a callback interface; it enables the client to provide merge configuration information during the merge process.
 old-location: setup\imsmconfiguremodule_interface.htm
 tech.root: Msi
 ms.assetid: 90e09449-6211-4eae-8fd1-446e0187ed6c
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigureModule, IMsmConfigureModule interface, IMsmConfigureModule interface,described, mergemod/IMsmConfigureModule, setup.imsmconfiguremodule_interface
 ms.topic: interface
-f1_keywords: 
- - "mergemod/IMsmConfigureModule"
+f1_keywords:
+- mergemod/IMsmConfigureModule
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigureModule
+- IMsmConfigureModule
 targetos: Windows
 req.typenames: 
 req.redist: 

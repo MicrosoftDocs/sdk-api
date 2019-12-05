@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.SafeArrayDestroy
 title: SafeArrayDestroy function (oleauto.h)
-
 description: Destroys an existing array descriptor and all of the data in the array.
 old-location: automat\safearraydestroy.htm
 tech.root: automat
 ms.assetid: fc94f7e7-b903-4c78-905c-54df1f8d13fa
-
 ms.date: 12/05/2018
 ms.keywords: SafeArrayDestroy, SafeArrayDestroy function [Automation], _oa96_SafeArrayDestroy, automat.safearraydestroy, oleauto/SafeArrayDestroy
 ms.topic: function
-f1_keywords: 
- - "oleauto/SafeArrayDestroy"
+f1_keywords:
+- oleauto/SafeArrayDestroy
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - SafeArrayDestroy
+- SafeArrayDestroy
 targetos: Windows
 req.typenames: 
 req.redist: 

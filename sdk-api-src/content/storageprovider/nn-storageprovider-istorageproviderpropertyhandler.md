@@ -1,19 +1,17 @@
 ---
 UID: NN:storageprovider.IStorageProviderPropertyHandler
 title: IStorageProviderPropertyHandler (storageprovider.h)
-
 description: Provides a collection of properties associated with a file or folder.
 old-location: shell\istorageproviderpropertyhandler.htm
 tech.root: shell
 ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6
-
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler, IStorageProviderPropertyHandler interface [Windows Shell], IStorageProviderPropertyHandler interface [Windows Shell],described, shell.istorageproviderpropertyhandler, storageprovider/IStorageProviderPropertyHandler
 ms.topic: interface
-f1_keywords: 
- - "storageprovider/IStorageProviderPropertyHandler"
+f1_keywords:
+- storageprovider/IStorageProviderPropertyHandler
 dev_langs:
- - c++
+- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - storageprovider.h
+- storageprovider.h
 api_name:
- - IStorageProviderPropertyHandler
+- IStorageProviderPropertyHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

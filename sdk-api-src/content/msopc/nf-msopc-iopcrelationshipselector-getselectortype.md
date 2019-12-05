@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelector.GetSelectorType
 title: IOpcRelationshipSelector::GetSelectorType (msopc.h)
-
 description: Gets a value that describes how relationships are selected to be referenced for signing.
 old-location: opc\iopcrelationshipselector_getselectortype.htm
 tech.root: OPC
 ms.assetid: 583f56e5-c374-4f79-badd-35eb5eecef70
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectorType, GetSelectorType method [Open Packaging Conventions], GetSelectorType method [Open Packaging Conventions],IOpcRelationshipSelector interface, IOpcRelationshipSelector interface [Open Packaging Conventions],GetSelectorType method, IOpcRelationshipSelector.GetSelectorType, IOpcRelationshipSelector::GetSelectorType, msopc/IOpcRelationshipSelector::GetSelectorType, opc.iopcrelationshipselector_getselectortype
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcRelationshipSelector.GetSelectorType"
+f1_keywords:
+- msopc/IOpcRelationshipSelector.GetSelectorType
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcRelationshipSelector.GetSelectorType
+- IOpcRelationshipSelector.GetSelectorType
 targetos: Windows
 req.typenames: 
 req.redist: 

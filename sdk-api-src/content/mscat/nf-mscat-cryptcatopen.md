@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATOpen
 title: CryptCATOpen function (mscat.h)
-
 description: Opens a catalog and returns a context handle to the open catalog.
 old-location: security\cryptcatopen.htm
 tech.root: SecCrypto
 ms.assetid: e81f3a3d-d5b7-4266-838d-b83e331c8594
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTCAT_OPEN_ALWAYS, CRYPTCAT_OPEN_CREATENEW, CRYPTCAT_VERSION_1, CRYPTCAT_VERSION_2, CryptCATOpen, CryptCATOpen function [Security], mscat/CryptCATOpen, security.cryptcatopen
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATOpen"
+f1_keywords:
+- mscat/CryptCATOpen
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATOpen
+- CryptCATOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

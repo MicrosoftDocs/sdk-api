@@ -1,19 +1,17 @@
 ---
 UID: NF:dsparse.DsQuoteRdnValueW
 title: DsQuoteRdnValueW function (dsparse.h)
-
 description: Converts an RDN into a quoted RDN value, if the RDN value contains characters that require quotes.
 old-location: ad\dsquoterdnvalue.htm
 tech.root: ad
 ms.assetid: a1e8a4c0-965a-4061-aab3-3e719ec6374d
-
 ms.date: 12/05/2018
 ms.keywords: DsQuoteRdnValue, DsQuoteRdnValue function [Active Directory], DsQuoteRdnValueA, DsQuoteRdnValueW, ERROR_BUFFER_OVERFLOW, ERROR_SUCCESS, _glines_dsquoterdnvalue, ad.dsquoterdnvalue, dsparse/DsQuoteRdnValue, dsparse/DsQuoteRdnValueA, dsparse/DsQuoteRdnValueW
 ms.topic: function
-f1_keywords: 
- - "dsparse/DsQuoteRdnValue"
+f1_keywords:
+- dsparse/DsQuoteRdnValue
 dev_langs:
- - c++
+- c++
 req.header: dsparse.h
 req.include-header: Ntdsapi.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
+- Ntdsapi.dll
 api_name:
- - DsQuoteRdnValue
- - DsQuoteRdnValueA
- - DsQuoteRdnValueW
+- DsQuoteRdnValue
+- DsQuoteRdnValueA
+- DsQuoteRdnValueW
 targetos: Windows
 req.typenames: 
 req.redist: 

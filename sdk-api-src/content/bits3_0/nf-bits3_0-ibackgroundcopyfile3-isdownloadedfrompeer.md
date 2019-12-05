@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyFile3.IsDownloadedFromPeer
 title: IBackgroundCopyFile3::IsDownloadedFromPeer (bits3_0.h)
-
 description: Gets a value that determines if any part of the file was downloaded from a peer.
 old-location: bits\ibackgroundcopyfile3_isdownloadedfrompeer.htm
 tech.root: Bits
 ms.assetid: b6084cfe-b3ab-4c9f-b335-2696e5839451
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyFile3 interface [BITS],IsDownloadedFromPeer method, IBackgroundCopyFile3.IsDownloadedFromPeer, IBackgroundCopyFile3::IsDownloadedFromPeer, IsDownloadedFromPeer, IsDownloadedFromPeer method [BITS], IsDownloadedFromPeer method [BITS],IBackgroundCopyFile3 interface, bits.ibackgroundcopyfile3_isdownloadedfrompeer, bits3_0/IBackgroundCopyFile3::IsDownloadedFromPeer
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBackgroundCopyFile3.IsDownloadedFromPeer"
+f1_keywords:
+- bits3_0/IBackgroundCopyFile3.IsDownloadedFromPeer
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBackgroundCopyFile3.IsDownloadedFromPeer
+- IBackgroundCopyFile3.IsDownloadedFromPeer
 targetos: Windows
 req.typenames: 
 req.redist: 

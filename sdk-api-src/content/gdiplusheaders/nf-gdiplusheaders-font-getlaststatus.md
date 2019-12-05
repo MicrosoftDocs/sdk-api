@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Font.GetLastStatus
 title: Font::GetLastStatus (gdiplusheaders.h)
-
 description: The Font::GetLastStatus method returns a value that indicates the nature of this Font object's most recent method failure.
 old-location: gdiplus\_gdiplus_CLASS_Font_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getlaststatus_84.htm
-
 ms.date: 12/05/2018
 ms.keywords: Font class [GDI+],GetLastStatus method, Font.GetLastStatus, Font::GetLastStatus, GetLastStatus, GetLastStatus method [GDI+], GetLastStatus method [GDI+],Font class, _gdiplus_CLASS_Font_GetLastStatus_, gdiplus._gdiplus_CLASS_Font_GetLastStatus_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Font.GetLastStatus"
+f1_keywords:
+- gdiplusheaders/Font.GetLastStatus
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Font.GetLastStatus
+- Font.GetLastStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
 title: IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent (uiautomationclient.h)
-
 description: Handles the event raised when the keyboard focus moves to a different UI Automation element.
 old-location: winauto\uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent.htm
 tech.root: WinAuto
 ms.assetid: 7d90982f-4805-4ebb-a9f9-e335dc15d519
-
 ms.date: 12/05/2018
 ms.keywords: HandleFocusChangedEvent, HandleFocusChangedEvent method [Windows Accessibility], HandleFocusChangedEvent method [Windows Accessibility],IUIAutomationFocusChangedEventHandler interface, IUIAutomationFocusChangedEventHandler interface [Windows Accessibility],HandleFocusChangedEvent method, IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent, IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, uiauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent, uiautomationclient/IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent, winauto.uiauto_IUIAutomationFocusChangedEventHandler_HandleFocusChangedEvent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent"
+f1_keywords:
+- uiautomationclient/IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
+- IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

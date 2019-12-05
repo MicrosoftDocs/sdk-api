@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateVisual
 title: IDCompositionDevice2::CreateVisual (dcomp.h)
-
 description: Creates a new visual object.
 old-location: directcomp\idcompositiondevice2_createvisual.htm
 tech.root: directcomp
 ms.assetid: CCF66B7A-5847-425C-92A4-969C8B915132
-
 ms.date: 12/05/2018
 ms.keywords: CreateVisual, CreateVisual method [DirectComposition], CreateVisual method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],CreateVisual method, IDCompositionDevice2.CreateVisual, IDCompositionDevice2::CreateVisual, dcomp/IDCompositionDevice2::CreateVisual, directcomp.idcompositiondevice2_createvisual
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice2.CreateVisual"
+f1_keywords:
+- dcomp/IDCompositionDevice2.CreateVisual
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice2.CreateVisual
+- IDCompositionDevice2.CreateVisual
 targetos: Windows
 req.typenames: 
 req.redist: 

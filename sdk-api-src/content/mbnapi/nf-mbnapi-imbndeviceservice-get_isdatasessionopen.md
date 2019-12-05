@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.get_IsDataSessionOpen
 title: IMbnDeviceService::get_IsDataSessionOpen (mbnapi.h)
-
 description: Reports if the device service data session is open.
 old-location: mbn\imbndeviceservice_isdatasessionopen.htm
 tech.root: mbn
 ms.assetid: 97F58FC5-D960-4EBA-8441-12472F2771DE
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],IsDataSessionOpen property, IMbnDeviceService.IsDataSessionOpen, IMbnDeviceService.get_IsDataSessionOpen, IMbnDeviceService::IsDataSessionOpen, IMbnDeviceService::get_IsDataSessionOpen, IsDataSessionOpen property [Microsoft Broadband Networks], IsDataSessionOpen property [Microsoft Broadband Networks],IMbnDeviceService interface, get_IsDataSessionOpen, mbn.imbndeviceservice_isdatasessionopen, mbnapi/IMbnDeviceService::IsDataSessionOpen, mbnapi/IMbnDeviceService::get_IsDataSessionOpen
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceService.IsDataSessionOpen"
+f1_keywords:
+- mbnapi/IMbnDeviceService.IsDataSessionOpen
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceService.IsDataSessionOpen
- - IMbnDeviceService.get_IsDataSessionOpen
+- IMbnDeviceService.IsDataSessionOpen
+- IMbnDeviceService.get_IsDataSessionOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

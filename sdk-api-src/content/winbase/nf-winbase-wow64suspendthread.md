@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.Wow64SuspendThread
 title: Wow64SuspendThread function (winbase.h)
-
 description: Suspends the specified WOW64 thread.
 old-location: base\wow64suspendthread.htm
 tech.root: ProcThread
 ms.assetid: d976675a-5400-41ac-a11d-c39a1b2dd50d
-
 ms.date: 12/05/2018
 ms.keywords: Wow64SuspendThread, Wow64SuspendThread function, base.wow64suspendthread, winbase/Wow64SuspendThread
 ms.topic: function
-f1_keywords: 
- - "winbase/Wow64SuspendThread"
+f1_keywords:
+- winbase/Wow64SuspendThread
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - Wow64SuspendThread
+- Wow64SuspendThread
 targetos: Windows
 req.typenames: 
 req.redist: 

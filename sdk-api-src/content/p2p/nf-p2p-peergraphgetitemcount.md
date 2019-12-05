@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphGetItemCount
 title: PeerGraphGetItemCount function (p2p.h)
-
 description: The PeerGraphGetItemCount function retrieves the number of items in an enumeration.
 old-location: p2p\peergraphgetitemcount.htm
 tech.root: P2PSdk
 ms.assetid: db97b7e0-6f85-4b61-843f-efb4bc93149b
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetItemCount, PeerGraphGetItemCount function [Peer Networking], p2p.peergraphgetitemcount, p2p/PeerGraphGetItemCount
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphGetItemCount"
+f1_keywords:
+- p2p/PeerGraphGetItemCount
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphGetItemCount
+- PeerGraphGetItemCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IReferenceClockTimerControl.SetDefaultTimerResolution
 title: IReferenceClockTimerControl::SetDefaultTimerResolution (strmif.h)
-
 description: The SetDefaultTimerResolution method sets the minimum timer resolution.
 old-location: dshow\ireferenceclocktimercontrol_setdefaulttimerresolution.htm
 tech.root: DirectShow
 ms.assetid: d13d14a7-39dd-4281-9926-4af97cc5d450
-
 ms.date: 12/05/2018
 ms.keywords: IReferenceClockTimerControl interface [DirectShow],SetDefaultTimerResolution method, IReferenceClockTimerControl.SetDefaultTimerResolution, IReferenceClockTimerControl::SetDefaultTimerResolution, IReferenceClockTimerControlSetDefaultTimerResoluti, SetDefaultTimerResolution, SetDefaultTimerResolution method [DirectShow], SetDefaultTimerResolution method [DirectShow],IReferenceClockTimerControl interface, dshow.ireferenceclocktimercontrol_setdefaulttimerresolution, strmif/IReferenceClockTimerControl::SetDefaultTimerResolution
 ms.topic: method
-f1_keywords: 
- - "strmif/IReferenceClockTimerControl.SetDefaultTimerResolution"
+f1_keywords:
+- strmif/IReferenceClockTimerControl.SetDefaultTimerResolution
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IReferenceClockTimerControl.SetDefaultTimerResolution
+- IReferenceClockTimerControl.SetDefaultTimerResolution
 targetos: Windows
 req.typenames: 
 req.redist: 

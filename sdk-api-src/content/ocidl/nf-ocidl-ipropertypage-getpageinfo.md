@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPropertyPage.GetPageInfo
 title: IPropertyPage::GetPageInfo (ocidl.h)
-
 description: Retrieves information about the property page.
 old-location: com\ipropertypage_getpageinfo.htm
 tech.root: com
 ms.assetid: 3cb7168c-bb05-4e01-a73b-11a52c5e690b
-
 ms.date: 12/05/2018
 ms.keywords: GetPageInfo, GetPageInfo method [COM], GetPageInfo method [COM],IPropertyPage interface, IPropertyPage interface [COM],GetPageInfo method, IPropertyPage.GetPageInfo, IPropertyPage::GetPageInfo, _ctrl_ipropertypage_getpageinfo, com.ipropertypage_getpageinfo, ocidl/IPropertyPage::GetPageInfo
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPropertyPage.GetPageInfo"
+f1_keywords:
+- ocidl/IPropertyPage.GetPageInfo
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPropertyPage.GetPageInfo
+- IPropertyPage.GetPageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

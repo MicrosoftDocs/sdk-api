@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateAC3MediaSink
 title: MFCreateAC3MediaSink function (mfidl.h)
-
 description: Creates an instance of the AC-3 media sink.
 old-location: mf\mfcreateac3mediasink.htm
 tech.root: medfound
 ms.assetid: 49203EBF-24F3-4D9D-85EC-77BD8780BB41
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateAC3MediaSink, MFCreateAC3MediaSink function [Media Foundation], mf.mfcreateac3mediasink, mfidl/MFCreateAC3MediaSink
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateAC3MediaSink"
+f1_keywords:
+- mfidl/MFCreateAC3MediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateAC3MediaSink
+- MFCreateAC3MediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

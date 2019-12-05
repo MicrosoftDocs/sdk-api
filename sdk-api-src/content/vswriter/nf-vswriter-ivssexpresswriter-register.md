@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.Register
 title: IVssExpressWriter::Register (vswriter.h)
-
 description: Causes VSS to store the writer's metadata in the express writer metadata store.
 old-location: base\ivssexpresswriter_register.htm
 tech.root: VSS
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2
-
 ms.date: 12/05/2018
 ms.keywords: IVssExpressWriter interface,Register method, IVssExpressWriter.Register, IVssExpressWriter::Register, Register, Register method, Register method,IVssExpressWriter interface, base.ivssexpresswriter_register, vswriter/IVssExpressWriter::Register
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssExpressWriter.Register"
+f1_keywords:
+- vswriter/IVssExpressWriter.Register
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VsWriter.h
+- VsWriter.h
 api_name:
- - IVssExpressWriter.Register
+- IVssExpressWriter.Register
 targetos: Windows
 req.typenames: 
 req.redist: 

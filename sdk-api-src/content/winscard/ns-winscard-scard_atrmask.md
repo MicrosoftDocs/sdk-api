@@ -1,19 +1,17 @@
 ---
 UID: NS:winscard._SCARD_ATRMASK
 title: SCARD_ATRMASK (winscard.h)
-
 description: Used by the SCardLocateCardsByATR function to locate cards.
 old-location: security\scard_atrmask.htm
 tech.root: SecAuthN
 ms.assetid: d7f1a747-a858-4bf6-874a-d76aa4227cd2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSCARD_ATRMASK, *PSCARD_ATRMASK, LPSCARD_ATRMASK, LPSCARD_ATRMASK structure pointer [Security], PSCARD_ATRMASK, PSCARD_ATRMASK structure pointer [Security], SCARD_ATRMASK, SCARD_ATRMASK structure [Security], _smart_scard_atrmask, security.scard_atrmask, winscard/LPSCARD_ATRMASK, winscard/PSCARD_ATRMASK, winscard/SCARD_ATRMASK"
+ms.keywords: '*LPSCARD_ATRMASK, *PSCARD_ATRMASK, LPSCARD_ATRMASK, LPSCARD_ATRMASK structure pointer [Security], PSCARD_ATRMASK, PSCARD_ATRMASK structure pointer [Security], SCARD_ATRMASK, SCARD_ATRMASK structure [Security], _smart_scard_atrmask, security.scard_atrmask, winscard/LPSCARD_ATRMASK, winscard/PSCARD_ATRMASK, winscard/SCARD_ATRMASK'
 ms.topic: struct
-f1_keywords: 
- - "winscard/SCARD_ATRMASK"
+f1_keywords:
+- winscard/SCARD_ATRMASK
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winscard.h
+- Winscard.h
 api_name:
- - SCARD_ATRMASK
+- SCARD_ATRMASK
 targetos: Windows
 req.typenames: SCARD_ATRMASK, *PSCARD_ATRMASK, *LPSCARD_ATRMASK
 req.redist: 

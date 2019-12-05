@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_TEXCUBE_SRV
 title: D3D10_TEXCUBE_SRV (d3d10.h)
-
 description: Specifies the subresource from a cube texture to use in a shader-resource view.
 old-location: direct3d10\d3d10_texcube_srv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texcube_srv.htm
-
 ms.date: 12/05/2018
 ms.keywords: D3D10_TEXCUBE_SRV, D3D10_TEXCUBE_SRV structure [Direct3D 10], d3d10/D3D10_TEXCUBE_SRV, da9fa33a-8f0a-d5f0-db0c-b31a70335b19, direct3d10.d3d10_texcube_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_TEXCUBE_SRV"
+f1_keywords:
+- d3d10/D3D10_TEXCUBE_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_TEXCUBE_SRV
+- D3D10_TEXCUBE_SRV
 targetos: Windows
 req.typenames: D3D10_TEXCUBE_SRV
 req.redist: 

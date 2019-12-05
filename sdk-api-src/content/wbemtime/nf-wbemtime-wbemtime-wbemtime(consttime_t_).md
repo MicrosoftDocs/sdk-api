@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime(const time_t &)
 title: WBEMTime::WBEMTime(const time_t &) (wbemtime.h)
-
 description: The WBEMTime overload class constructor takes an ANSI C time_t structure parameter.
 old-location: wmi\wbemtime_wbemtime_const_time_t__.htm
 tech.root: WmiSdk
 ms.assetid: be698827-c9dc-4f30-9962-2e3f5f2bd029
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTime, WBEMTime constructor [Windows Management Instrumentation], WBEMTime constructor [Windows Management Instrumentation],WBEMTime interface, WBEMTime interface [Windows Management Instrumentation],WBEMTime constructor, WBEMTime.WBEMTime, WBEMTime.WBEMTime(const time_t &), WBEMTime::WBEMTime, WBEMTime::WBEMTime(const time_t &), WBEMTime::WBEMTime(const time_t&), wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime_const_time_t__
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTime.WBEMTime"
+f1_keywords:
+- wbemtime/WBEMTime.WBEMTime
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTime.WBEMTime
+- WBEMTime.WBEMTime
 targetos: Windows
 req.typenames: 
 req.redist: 

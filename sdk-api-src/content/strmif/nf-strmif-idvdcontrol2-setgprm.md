@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SetGPRM
 title: IDvdControl2::SetGPRM (strmif.h)
-
 description: The SetGPRM method sets a general parameter register value.
 old-location: dshow\idvdcontrol2_setgprm.htm
 tech.root: DirectShow
 ms.assetid: 192bbf1d-a5de-4acf-b8d6-8a5f733da3a6
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetGPRM method, IDvdControl2.SetGPRM, IDvdControl2::SetGPRM, IDvdControl2SetGPRM, SetGPRM, SetGPRM method [DirectShow], SetGPRM method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setgprm, strmif/IDvdControl2::SetGPRM
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SetGPRM"
+f1_keywords:
+- strmif/IDvdControl2.SetGPRM
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SetGPRM
+- IDvdControl2.SetGPRM
 targetos: Windows
 req.typenames: 
 req.redist: 

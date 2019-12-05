@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbSiParser
 title: IDvbSiParser (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IDvbSiParser retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
 old-location: mstv\idvbsiparser.htm
 tech.root: mstv
 ms.assetid: 092162af-5f88-4ce5-ac2f-89327f094804
-
 ms.date: 12/05/2018
 ms.keywords: IDvbSiParser, IDvbSiParser interface [Microsoft TV Technologies], IDvbSiParser interface [Microsoft TV Technologies],described, IDvbSiParserInterface, dvbsiparser/IDvbSiParser, mstv.idvbsiparser
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbSiParser"
+f1_keywords:
+- dvbsiparser/IDvbSiParser
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSiParser
+- IDvbSiParser
 targetos: Windows
 req.typenames: 
 req.redist: 

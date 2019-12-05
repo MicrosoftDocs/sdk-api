@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shadertracing.ID3D11ShaderTrace.TraceReady
 title: ID3D11ShaderTrace::TraceReady (d3d11shadertracing.h)
-
 description: Specifies that the shader trace recorded and is ready to use.
 old-location: direct3d11\id3d11shadertrace_traceready.htm
 tech.root: direct3d11
 ms.assetid: BCC2BCC2-9E98-413D-B173-37664A82140B
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11ShaderTrace interface [Direct3D 11],TraceReady method, ID3D11ShaderTrace.TraceReady, ID3D11ShaderTrace::TraceReady, TraceReady, TraceReady method [Direct3D 11], TraceReady method [Direct3D 11],ID3D11ShaderTrace interface, d3d11shadertracing/ID3D11ShaderTrace::TraceReady, direct3d11.id3d11shadertrace_traceready
 ms.topic: method
-f1_keywords: 
- - "d3d11shadertracing/ID3D11ShaderTrace.TraceReady"
+f1_keywords:
+- d3d11shadertracing/ID3D11ShaderTrace.TraceReady
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: D3D11SDKLayers.dll; D3D11_1SDKLayers.dll; D3D11_2SDKLayers.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11SDKLayers.dll
- - D3D11_1SDKLayers.dll
- - D3D11_2SDKLayers.dll
+- D3D11SDKLayers.dll
+- D3D11_1SDKLayers.dll
+- D3D11_2SDKLayers.dll
 api_name:
- - ID3D11ShaderTrace.TraceReady
+- ID3D11ShaderTrace.TraceReady
 targetos: Windows
 req.typenames: 
 req.redist: 

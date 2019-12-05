@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.GetUpdateOptions
 title: IOleLink::GetUpdateOptions (oleidl.h)
-
 description: Retrieves a value indicating how often the linked object updates its cached data.
 old-location: com\iolelink_getupdateoptions.htm
 tech.root: com
 ms.assetid: 2cb91b48-0026-4afa-80ab-16ac6fbce04d
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateOptions, GetUpdateOptions method [COM], GetUpdateOptions method [COM],IOleLink interface, IOleLink interface [COM],GetUpdateOptions method, IOleLink.GetUpdateOptions, IOleLink::GetUpdateOptions, _ole_iolelink_getupdateoptions, com.iolelink_getupdateoptions, oleidl/IOleLink::GetUpdateOptions
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.GetUpdateOptions"
+f1_keywords:
+- oleidl/IOleLink.GetUpdateOptions
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.GetUpdateOptions
+- IOleLink.GetUpdateOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

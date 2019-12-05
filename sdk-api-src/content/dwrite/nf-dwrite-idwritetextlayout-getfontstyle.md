@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontStyle
 title: IDWriteTextLayout::GetFontStyle (dwrite.h)
-
 description: Gets the font style (also known as slope) of the text at the specified position.
 old-location: directwrite\IDWriteTextLayout_GetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 184aa6c8-4dc5-4881-a0e0-61dc0b1a8240
-
 ms.date: 12/05/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Direct Write], GetFontStyle method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontStyle method, IDWriteTextLayout.GetFontStyle, IDWriteTextLayout::GetFontStyle, directwrite.IDWriteTextLayout_GetFontStyle, dwrite/IDWriteTextLayout::GetFontStyle
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetFontStyle"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetFontStyle
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetFontStyle
+- IDWriteTextLayout.GetFontStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

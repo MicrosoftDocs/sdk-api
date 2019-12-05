@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.GetContextGuid
 title: IDot11AdHocNetwork::GetContextGuid (adhoc.h)
-
 description: Gets the context identifier associated with the network.
 old-location: nwifi\idot11adhocnetwork_getcontextguid.htm
 tech.root: NativeWiFi
 ms.assetid: 6a7e7a75-b070-4d57-ae88-6bfc3568c3c9
-
 ms.date: 12/05/2018
 ms.keywords: GetContextGuid, GetContextGuid method [NativeWIFI], GetContextGuid method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],GetContextGuid method, IDot11AdHocNetwork.GetContextGuid, IDot11AdHocNetwork::GetContextGuid, adhoc/IDot11AdHocNetwork::GetContextGuid, nwifi.idot11adhocnetwork_getcontextguid
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.GetContextGuid"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.GetContextGuid
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.GetContextGuid
+- IDot11AdHocNetwork.GetContextGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

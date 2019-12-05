@@ -1,19 +1,17 @@
 ---
 UID: NF:wcsplugin.IDeviceModelPlugIn.SetTransformDeviceModelInfo
 title: IDeviceModelPlugIn::SetTransformDeviceModelInfo (wcsplugin.h)
-
 description: Provides the plug-in with parameters to determine where in the transform sequence the specific plug-in occurs.
 old-location: wcs\IDeviceModelPlugIn_SetTransformDeviceModelInfo.htm
 tech.root: WCS
 ms.assetid: 01d0815d-1a6b-48f3-9a81-65df0e185e8f
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceModelPlugIn interface [Windows Color System],SetTransformDeviceModelInfo method, IDeviceModelPlugIn.SetTransformDeviceModelInfo, IDeviceModelPlugIn::SetTransformDeviceModelInfo, SetTransformDeviceModelInfo, SetTransformDeviceModelInfo method [Windows Color System], SetTransformDeviceModelInfo method [Windows Color System],IDeviceModelPlugIn interface, _color_IDeviceModelPlugIn::SetTransformDeviceModelInfo, wcs.IDeviceModelPlugIn_SetTransformDeviceModelInfo, wcsplugin/IDeviceModelPlugIn::SetTransformDeviceModelInfo
 ms.topic: method
-f1_keywords: 
- - "wcsplugin/IDeviceModelPlugIn.SetTransformDeviceModelInfo"
+f1_keywords:
+- wcsplugin/IDeviceModelPlugIn.SetTransformDeviceModelInfo
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn.SetTransformDeviceModelInfo
+- IDeviceModelPlugIn.SetTransformDeviceModelInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

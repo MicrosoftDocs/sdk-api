@@ -1,19 +1,17 @@
 ---
 UID: NE:msxml6._XHR_PROPERTY
 title: XHR_PROPERTY (msxml6.h)
-
 description: Defines properties that you can assign to an outgoing HTTP request by calling the SetProperty method.
 old-location: ixhr2\xhr_property.htm
 tech.root: ixhr2
 ms.assetid: FE317413-F1A2-4FD7-9DB1-67410C912AF2
-
 ms.date: 12/05/2018
 ms.keywords: XHR_PROPERTY, XHR_PROPERTY enumeration [XMLHttpRequest2], XHR_PROP_EXTENDED_ERROR, XHR_PROP_IGNORE_CERT_ERRORS, XHR_PROP_NO_AUTH, XHR_PROP_NO_CACHE, XHR_PROP_NO_CRED_PROMPT, XHR_PROP_NO_DEFAULT_HEADERS, XHR_PROP_QUERY_STRING_UTF8, XHR_PROP_REPORT_REDIRECT_STATUS, XHR_PROP_TIMEOUT, ixhr2.xhr_property, msxml6/XHR_PROPERTY, msxml6/XHR_PROP_EXTENDED_ERROR, msxml6/XHR_PROP_IGNORE_CERT_ERRORS, msxml6/XHR_PROP_NO_AUTH, msxml6/XHR_PROP_NO_CACHE, msxml6/XHR_PROP_NO_CRED_PROMPT, msxml6/XHR_PROP_NO_DEFAULT_HEADERS, msxml6/XHR_PROP_QUERY_STRING_UTF8, msxml6/XHR_PROP_REPORT_REDIRECT_STATUS, msxml6/XHR_PROP_TIMEOUT
 ms.topic: enum
-f1_keywords: 
- - "msxml6/XHR_PROPERTY"
+f1_keywords:
+- msxml6/XHR_PROPERTY
 dev_langs:
- - c++
+- c++
 req.header: msxml6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - msxml6.h
+- msxml6.h
 api_name:
- - XHR_PROPERTY
+- XHR_PROPERTY
 targetos: Windows
 req.typenames: XHR_PROPERTY
 req.redist: 

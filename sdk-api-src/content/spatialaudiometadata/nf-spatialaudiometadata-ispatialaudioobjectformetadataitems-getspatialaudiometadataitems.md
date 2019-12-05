@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
 title: ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems (spatialaudiometadata.h)
-
 description: Gets a pointer to the ISpatialAudioMetadataItems object which stores metadata items for the ISpatialAudioObjectForMetadataItems.
 old-location: coreaudio\ispatialaudioobjectformetadataitems_getspatialaudiometadataitems.htm
 tech.root: CoreAudio
 ms.assetid: FD356AA9-F4BC-4864-8A9F-994EB527E123
-
 ms.date: 12/05/2018
 ms.keywords: GetSpatialAudioMetadataItems, GetSpatialAudioMetadataItems method [Core Audio], GetSpatialAudioMetadataItems method [Core Audio],ISpatialAudioObjectForMetadataItems interface, ISpatialAudioObjectForMetadataItems interface [Core Audio],GetSpatialAudioMetadataItems method, ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems, ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_getspatialaudiometadataitems, spatialaudiometadata/ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiometadata.h
+- spatialaudiometadata.h
 api_name:
- - ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
+- ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
 targetos: Windows
 req.typenames: 
 req.redist: 

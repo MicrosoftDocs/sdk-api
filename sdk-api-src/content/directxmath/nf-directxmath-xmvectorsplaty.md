@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSplatY
 title: XMVectorSplatY function (directxmath.h)
-
 description: Replicates the y component of a vector to all of the components.
 old-location: dxmath\xmvectorsplaty.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSplatY(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSplatY, XMVectorSplatY, XMVectorSplatY method [DirectX Math Support APIs], dxmath.xmvectorsplaty
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSplatY"
+f1_keywords:
+- directxmath/XMVectorSplatY
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSplatY
+- XMVectorSplatY
 targetos: Windows
 req.typenames: 
 req.redist: 

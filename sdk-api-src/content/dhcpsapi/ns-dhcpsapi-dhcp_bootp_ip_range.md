@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_BOOTP_IP_RANGE
 title: DHCP_BOOTP_IP_RANGE (dhcpsapi.h)
-
 description: The DHCP_BOOTP_IP_RANGE structure defines a suite of IPs for lease to BOOTP-specific clients.
 old-location: dhcp\dhcp_bootp_ip_range.htm
 tech.root: DHCP
 ms.assetid: 23268029-0b49-4fd4-8410-4bac6c8ad151
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCP_BOOT_IP_RANGE, DHCP_BOOTP_IP_RANGE, DHCP_BOOTP_IP_RANGE structure [DHCP], LPDHCP_BOOT_IP_RANGE, LPDHCP_BOOT_IP_RANGE structure pointer [DHCP], dhcp.dhcp_bootp_ip_range, dhcpsapi/LPDHCP_BOOT_IP_RANGE, dhcpsapi/_DHCP_BOOTP_IP_RANGE"
+ms.keywords: '*LPDHCP_BOOT_IP_RANGE, DHCP_BOOTP_IP_RANGE, DHCP_BOOTP_IP_RANGE structure [DHCP], LPDHCP_BOOT_IP_RANGE, LPDHCP_BOOT_IP_RANGE structure pointer [DHCP], dhcp.dhcp_bootp_ip_range, dhcpsapi/LPDHCP_BOOT_IP_RANGE, dhcpsapi/_DHCP_BOOTP_IP_RANGE'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCP_BOOTP_IP_RANGE"
+f1_keywords:
+- dhcpsapi/DHCP_BOOTP_IP_RANGE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dhcpsapi.h
+- Dhcpsapi.h
 api_name:
- - DHCP_BOOTP_IP_RANGE
+- DHCP_BOOTP_IP_RANGE
 targetos: Windows
 req.typenames: DHCP_BOOTP_IP_RANGE, *LPDHCP_BOOT_IP_RANGE
 req.redist: 

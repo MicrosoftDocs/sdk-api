@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
 title: IFsrmClassifierModuleImplementation::UseRulesAndDefinitions (fsrmpipeline.h)
-
 description: Specifies the collection of rules and relevant property definitions the classifier should expect to process.
 old-location: fsrm\ifsrmclassifiermoduleimplementation_userulesanddefinitions.htm
 tech.root: fsrm
 ms.assetid: 8fbca8c4-7021-4183-b8f7-a32082da17fc
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmClassifierModuleImplementation interface [File Server Resource Manager],UseRulesAndDefinitions method, IFsrmClassifierModuleImplementation.UseRulesAndDefinitions, IFsrmClassifierModuleImplementation::UseRulesAndDefinitions, UseRulesAndDefinitions, UseRulesAndDefinitions method [File Server Resource Manager], UseRulesAndDefinitions method [File Server Resource Manager],IFsrmClassifierModuleImplementation interface, fs.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrm.ifsrmclassifiermoduleimplementation_userulesanddefinitions, fsrmpipeline/IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmClassifierModuleImplementation.UseRulesAndDefinitions"
+f1_keywords:
+- fsrmpipeline/IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
+- IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetFilterParameters
 title: IXAudio2Voice::SetFilterParameters (xaudio2.h)
-
 description: Sets the voice's filter parameters.
 old-location: xaudio2\ixaudio2voice_interface_setfilterparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetFilterParameters(const XAUDIO2_FILTER_PARAMETERS,UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: IXAudio2Voice interface [XAudio2 Audio Mixing APIs],SetFilterParameters method, IXAudio2Voice.SetFilterParameters, IXAudio2Voice::SetFilterParameters, SetFilterParameters, SetFilterParameters method [XAudio2 Audio Mixing APIs], SetFilterParameters method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, xaudio2.ixaudio2voice_interface_setfilterparameters, xaudio2/IXAudio2Voice::SetFilterParameters
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.SetFilterParameters"
+f1_keywords:
+- xaudio2/IXAudio2Voice.SetFilterParameters
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - IXAudio2Voice.SetFilterParameters
+- IXAudio2Voice.SetFilterParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.IsVarTypeInteger
 title: IsVarTypeInteger function (propvarutil.h)
-
 description: Returns whether a VARTYPE is an integer.
 old-location: properties\IsVarTypeInteger.htm
 tech.root: properties
 ms.assetid: 3e183355-8e71-4f6d-a348-c9dde9aa5953
-
 ms.date: 12/05/2018
 ms.keywords: IsVarTypeInteger, IsVarTypeInteger function [Windows Properties], _shell_IsVarTypeInteger, properties.IsVarTypeInteger, propvarutil/IsVarTypeInteger, shell.IsVarTypeInteger
 ms.topic: function
-f1_keywords: 
- - "propvarutil/IsVarTypeInteger"
+f1_keywords:
+- propvarutil/IsVarTypeInteger
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - IsVarTypeInteger
+- IsVarTypeInteger
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

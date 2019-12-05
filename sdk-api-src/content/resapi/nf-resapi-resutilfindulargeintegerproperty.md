@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilFindULargeIntegerProperty
 title: ResUtilFindULargeIntegerProperty function (resapi.h)
-
 description: Gets a large integer property value from a property list. The PRESUTIL_FIND_ULARGEINTEGER_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilfindulargeintegerproperty.htm
 tech.root: MsCS
 ms.assetid: BA4DD6F0-07DB-4601-B8EB-E79B49F2829F
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_FIND_ULARGEINTEGER_PROPERTY, PRESUTIL_FIND_ULARGEINTEGER_PROPERTY function [Failover Cluster], ResUtilFindULargeIntegerProperty, ResUtilFindULargeIntegerProperty function [Failover Cluster], mscs.resutilfindulargeintegerproperty, resapi/PRESUTIL_FIND_ULARGEINTEGER_PROPERTY, resapi/ResUtilFindULargeIntegerProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilFindULargeIntegerProperty"
+f1_keywords:
+- resapi/ResUtilFindULargeIntegerProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilFindULargeIntegerProperty
+- ResUtilFindULargeIntegerProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

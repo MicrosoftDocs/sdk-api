@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IShellIconOverlayManager.GetReservedOverlayInfo
 title: IShellIconOverlayManager::GetReservedOverlayInfo (shlobj_core.h)
-
 description: Gets the index of the icon overlay or the icon image for the specified file with the specified attributes from one of the reserved overlays.
 old-location: shell\IShellIconOverlayManager_GetReservedOverlayInfo.htm
 tech.root: shell
 ms.assetid: 052e1648-359c-4202-a3ca-c5bd8a7e54e5
-
 ms.date: 12/05/2018
 ms.keywords: GetReservedOverlayInfo, GetReservedOverlayInfo method [Windows Shell], GetReservedOverlayInfo method [Windows Shell],IShellIconOverlayManager interface, IShellIconOverlayManager interface [Windows Shell],GetReservedOverlayInfo method, IShellIconOverlayManager.GetReservedOverlayInfo, IShellIconOverlayManager::GetReservedOverlayInfo, _win32_IShellIconOverlayManager_GetReservedOverlayInfo, shell.IShellIconOverlayManager_GetReservedOverlayInfo, shlobj_core/IShellIconOverlayManager::GetReservedOverlayInfo
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IShellIconOverlayManager.GetReservedOverlayInfo"
+f1_keywords:
+- shlobj_core/IShellIconOverlayManager.GetReservedOverlayInfo
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellIconOverlayManager.GetReservedOverlayInfo
+- IShellIconOverlayManager.GetReservedOverlayInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMWriterAdvanced3
 title: IWMWriterAdvanced3 (wmsdkidl.h)
-
 description: The IWMWriterAdvanced3 interface provides additional functionality for the writer object.IWMWriterAdvanced3 exists for every instance of the writer object. To obtain a pointer to this interface, call QueryInterface on the writer object.
 old-location: wmformat\iwmwriteradvanced3.htm
 tech.root: wmformat
 ms.assetid: 99f7e4f7-0080-498d-b4f1-960c4955b4db
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterAdvanced3, IWMWriterAdvanced3 interface [windows Media Format], IWMWriterAdvanced3 interface [windows Media Format],described, IWMWriterAdvanced3Interface, wmformat.iwmwriteradvanced3, wmsdkidl/IWMWriterAdvanced3
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMWriterAdvanced3"
+f1_keywords:
+- wmsdkidl/IWMWriterAdvanced3
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMWriterAdvanced3
+- IWMWriterAdvanced3
 targetos: Windows
 req.typenames: 
 req.redist: 

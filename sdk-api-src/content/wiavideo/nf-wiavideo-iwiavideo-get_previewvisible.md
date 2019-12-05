@@ -1,19 +1,17 @@
 ---
 UID: NF:wiavideo.IWiaVideo.get_PreviewVisible
 title: IWiaVideo::get_PreviewVisible (wiavideo.h)
-
 description: The IWiaVideo::PreviewVisible property specifies whether the video playback is visible in its parent window. This does not affect the WIAVIDEO_STATE of the video.
 old-location: wia\_wia_IWiaVideo_PreviewVisible.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\previewvisible.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaVideo interface [WIA],PreviewVisible property, IWiaVideo.PreviewVisible, IWiaVideo.get_PreviewVisible, IWiaVideo::PreviewVisible, IWiaVideo::get_PreviewVisible, IWiaVideo::put_PreviewVisible, PreviewVisible property [WIA], PreviewVisible property [WIA],IWiaVideo interface, _wia_IWiaVideo_PreviewVisible, get_PreviewVisible, wia._wia_IWiaVideo_PreviewVisible, wiavideo/IWiaVideo::PreviewVisible, wiavideo/IWiaVideo::get_PreviewVisible, wiavideo/IWiaVideo::put_PreviewVisible
 ms.topic: method
-f1_keywords: 
- - "wiavideo/IWiaVideo.PreviewVisible"
+f1_keywords:
+- wiavideo/IWiaVideo.PreviewVisible
 dev_langs:
- - c++
+- c++
 req.header: wiavideo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wiavideo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiavideo.dll
+- Wiavideo.dll
 api_name:
- - IWiaVideo.PreviewVisible
- - IWiaVideo.get_PreviewVisible
- - IWiaVideo.put_PreviewVisible
+- IWiaVideo.PreviewVisible
+- IWiaVideo.get_PreviewVisible
+- IWiaVideo.put_PreviewVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

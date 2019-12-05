@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.CloneContext
 title: CloneContext function (recapis.h)
-
 description: Creates a recognizer context that contains the same settings as the original. The new recognizer context does not include the ink or recognition results of the original.
 old-location: tablet\clonecontext.htm
 tech.root: tablet
 ms.assetid: 0a16d012-1d88-4dfb-a1a0-44a842d9ee1d
-
 ms.date: 12/05/2018
 ms.keywords: 0a16d012-1d88-4dfb-a1a0-44a842d9ee1d, CloneContext, CloneContext function [Tablet PC], recapis/CloneContext, tablet.clonecontext
 ms.topic: function
-f1_keywords: 
- - "recapis/CloneContext"
+f1_keywords:
+- recapis/CloneContext
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - CloneContext
+- CloneContext
 targetos: Windows
 req.typenames: 
 req.redist: 

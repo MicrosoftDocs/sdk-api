@@ -1,19 +1,17 @@
 ---
 UID: NN:inked.IInkEdit
 title: IInkEdit (inked.h)
-
-description: "."
+description: .
 old-location: tablet\iinkedit_.htm
 tech.root: tablet
 ms.assetid: 8F47529B-52E9-4D67-81B3-DD2584B98101
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit, IInkEdit interface [Tablet PC], IInkEdit interface [Tablet PC],described, inked/IInkEdit, tablet.iinkedit_
 ms.topic: interface
-f1_keywords: 
- - "inked/IInkEdit"
+f1_keywords:
+- inked/IInkEdit
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - inked.h
+- inked.h
 api_name:
- - IInkEdit
+- IInkEdit
 targetos: Windows
 req.typenames: 
 req.redist: 

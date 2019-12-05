@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.TileWindows
 title: TileWindows function (winuser.h)
-
 description: Tiles the specified child windows of the specified parent window.
 old-location: winmsg\tilewindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\tilewindows.htm
-
 ms.date: 12/05/2018
 ms.keywords: MDITILE_HORIZONTAL, MDITILE_VERTICAL, TileWindows, TileWindows function [Windows and Messages], _win32_TileWindows, _win32_tilewindows_cpp, winmsg.tilewindows, winui._win32_tilewindows, winuser/TileWindows
 ms.topic: function
-f1_keywords: 
- - "winuser/TileWindows"
+f1_keywords:
+- winuser/TileWindows
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - TileWindows
+- TileWindows
 targetos: Windows
 req.typenames: 
 req.redist: 

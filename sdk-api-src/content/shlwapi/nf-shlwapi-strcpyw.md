@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCpyW
 title: StrCpyW function (shlwapi.h)
-
 description: Copies one string to another.
 old-location: shell\StrCpy.htm
 tech.root: shell
 ms.assetid: 83d1a8dc-fc43-4b06-b36c-c9c91d779d25
-
 ms.date: 12/05/2018
 ms.keywords: StrCpy, StrCpy function [Windows Shell], StrCpyW, _win32_StrCpy, shell.StrCpy, shlwapi/StrCpy, shlwapi/StrCpyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCpy"
+f1_keywords:
+- shlwapi/StrCpy
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
+- Shlwapi.dll
 api_name:
- - StrCpy
- - StrCpyW
+- StrCpy
+- StrCpyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:immdev.ImmReleaseContext
 title: ImmReleaseContext function (immdev.h)
-
 description: Releases the input context and unlocks the memory associated in the input context. An application must call this function for each call to the ImmGetContext function.
 old-location: intl\immreleasecontext.htm
 tech.root: Intl
 ms.assetid: e14b087a-58ef-4360-9368-3fdd088c14f6
-
 ms.date: 12/05/2018
 ms.keywords: ImmReleaseContext, ImmReleaseContext function [Internationalization for Windows Applications], _win32_ImmReleaseContext, imm/ImmReleaseContext, intl.immreleasecontext
 ms.topic: function
-f1_keywords: 
- - "immdev/ImmReleaseContext"
+f1_keywords:
+- immdev/ImmReleaseContext
 dev_langs:
- - c++
+- c++
 req.header: immdev.h
 req.include-header: Immdev.h, Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Imm32.lib
 req.dll: Imm32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imm32.dll
- - Ext-MS-Win-imm-l1-1-0.dll
- - ext-ms-win-imm-l1-1-1.dll
+- Imm32.dll
+- Ext-MS-Win-imm-l1-1-0.dll
+- ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmReleaseContext
+- ImmReleaseContext
 targetos: Windows
 req.typenames: 
 req.redist: 

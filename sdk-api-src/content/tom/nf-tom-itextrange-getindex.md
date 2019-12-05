@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetIndex
 title: ITextRange::GetIndex (tom.h)
-
 description: Retrieves the story index of the Unit parameter at the specified range Start character position.
 old-location: controls\ITextRange_GetIndex.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [Windows Controls], GetIndex method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetIndex method, ITextRange.GetIndex, ITextRange::GetIndex, _win32_ITextRange_GetIndex, _win32_ITextRange_GetIndex_cpp, controls.ITextRange_GetIndex, controls._win32_ITextRange_GetIndex, tom/ITextRange::GetIndex
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetIndex"
+f1_keywords:
+- tom/ITextRange.GetIndex
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetIndex
+- ITextRange.GetIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

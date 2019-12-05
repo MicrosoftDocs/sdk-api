@@ -1,19 +1,17 @@
 ---
 UID: NS:wcsplugin._PrimaryXYZColors
 title: PrimaryXYZColors (wcsplugin.h)
-
 description: This structure contains eight primary colors in XYZ coordinates.
 old-location: wcs\primaryxyzcolors.htm
 tech.root: WCS
 ms.assetid: 386d71ae-5997-4086-b034-7de356eed0a9
-
 ms.date: 12/05/2018
 ms.keywords: PrimaryXYZColors, PrimaryXYZColors structure [Windows Color System], _color_PrimaryXYZColors_str, wcs.primaryxyzcolors, wcsplugin/PrimaryXYZColors
 ms.topic: struct
-f1_keywords: 
- - "wcsplugin/PrimaryXYZColors"
+f1_keywords:
+- wcsplugin/PrimaryXYZColors
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcsPlugIn.h
+- WcsPlugIn.h
 api_name:
- - PrimaryXYZColors
+- PrimaryXYZColors
 targetos: Windows
 req.typenames: PrimaryXYZColors
 req.redist: 

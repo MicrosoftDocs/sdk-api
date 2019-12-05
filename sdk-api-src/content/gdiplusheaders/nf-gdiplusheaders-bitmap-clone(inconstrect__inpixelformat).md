@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.Bitmap.Clone(IN const Rect &,IN PixelFormat)
 title: Bitmap::Clone
 description: The Bitmap::Clone method creates a new Bitmap object by copying a portion of this bitmap.
 ms.assetid: 68c03673-ad3c-43b7-a21d-23192de7ad19
-
 ms.date: 05/20/2019
 ms.keywords: Bitmap::Clone
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/Bitmap::Clone"
+f1_keywords:
+- gdiplusheaders/Bitmap::Clone
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - Bitmap::Clone
+- Bitmap::Clone
 ---
 
 # Bitmap::Clone(Rect&,PixelFormat)

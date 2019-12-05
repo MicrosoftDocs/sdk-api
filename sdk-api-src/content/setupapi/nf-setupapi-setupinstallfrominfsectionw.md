@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupInstallFromInfSectionW
 title: SetupInstallFromInfSectionW function (setupapi.h)
-
 description: The SetupInstallFromInfSection function carries out all the directives in an INF file Install section.
 old-location: setup\setupinstallfrominfsection.htm
 tech.root: SetupApi
 ms.assetid: bd1ee91a-b58b-4f08-9181-42fbe9d763f9
-
 ms.date: 12/05/2018
 ms.keywords: SetupInstallFromInfSection, SetupInstallFromInfSection function [Setup API], SetupInstallFromInfSectionA, SetupInstallFromInfSectionW, _setupapi_setupinstallfrominfsection, setup.setupinstallfrominfsection, setupapi/SetupInstallFromInfSection, setupapi/SetupInstallFromInfSectionA, setupapi/SetupInstallFromInfSectionW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupInstallFromInfSection"
+f1_keywords:
+- setupapi/SetupInstallFromInfSection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
- - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
- - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
+- Setupapi.dll
+- Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
+- Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupInstallFromInfSection
- - SetupInstallFromInfSectionA
- - SetupInstallFromInfSectionW
+- SetupInstallFromInfSection
+- SetupInstallFromInfSectionA
+- SetupInstallFromInfSectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

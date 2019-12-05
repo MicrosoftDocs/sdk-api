@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.FindAtomA
 title: FindAtomA function (winbase.h)
-
 description: Searches the local atom table for the specified character string and retrieves the atom associated with that string.
 old-location: dataxchg\findatom.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\atoms\atomreference\atomfunctions\findatom.htm
-
 ms.date: 12/05/2018
 ms.keywords: FindAtom, FindAtom function [Data Exchange], FindAtomA, FindAtomW, _win32_FindAtom, _win32_findatom_cpp, dataxchg.findatom, winbase/FindAtom, winbase/FindAtomA, winbase/FindAtomW, winui._win32_findatom
 ms.topic: function
-f1_keywords: 
- - "winbase/FindAtom"
+f1_keywords:
+- winbase/FindAtom
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-atoms-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-atoms-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - FindAtom
- - FindAtomA
- - FindAtomW
+- FindAtom
+- FindAtomA
+- FindAtomW
 targetos: Windows
 req.typenames: 
 req.redist: 

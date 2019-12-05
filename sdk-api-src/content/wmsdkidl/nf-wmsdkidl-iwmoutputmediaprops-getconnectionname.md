@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMOutputMediaProps.GetConnectionName
 title: IWMOutputMediaProps::GetConnectionName (wmsdkidl.h)
-
 description: The GetConnectionName method retrieves the name of the connection to be used for output.
 old-location: wmformat\iwmoutputmediaprops_getconnectionname.htm
 tech.root: wmformat
 ms.assetid: 93367398-07aa-4c14-85c8-e3a904bd4564
-
 ms.date: 12/05/2018
 ms.keywords: GetConnectionName, GetConnectionName method [windows Media Format], GetConnectionName method [windows Media Format],IWMOutputMediaProps interface, IWMOutputMediaProps interface [windows Media Format],GetConnectionName method, IWMOutputMediaProps.GetConnectionName, IWMOutputMediaProps::GetConnectionName, IWMOutputMediaPropsGetConnectionName, wmformat.iwmoutputmediaprops_getconnectionname, wmsdkidl/IWMOutputMediaProps::GetConnectionName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMOutputMediaProps.GetConnectionName"
+f1_keywords:
+- wmsdkidl/IWMOutputMediaProps.GetConnectionName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMOutputMediaProps.GetConnectionName
+- IWMOutputMediaProps.GetConnectionName
 targetos: Windows
 req.typenames: 
 req.redist: 

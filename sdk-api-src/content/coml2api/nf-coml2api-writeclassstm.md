@@ -1,19 +1,17 @@
 ---
 UID: NF:coml2api.WriteClassStm
 title: WriteClassStm function (coml2api.h)
-
 description: The WriteClassStm function stores the specified CLSID in the stream.
 old-location: stg\writeclassstm.htm
 tech.root: Stg
 ms.assetid: c08bfbc8-f7ac-4534-8c98-c732c6daa2f7
-
 ms.date: 12/05/2018
 ms.keywords: WriteClassStm, WriteClassStm function [Structured Storage], _stg_writeclassstm, coml2api/WriteClassStm, stg.writeclassstm
 ms.topic: function
-f1_keywords: 
- - "coml2api/WriteClassStm"
+f1_keywords:
+- coml2api/WriteClassStm
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Ole2.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l2-1-1.dll
- - coml2.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l2-1-1.dll
+- coml2.dll
 api_name:
- - WriteClassStm
+- WriteClassStm
 targetos: Windows
 req.typenames: 
 req.redist: 

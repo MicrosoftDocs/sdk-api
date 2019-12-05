@@ -1,19 +1,17 @@
 ---
 UID: NN:locationapi.IDefaultLocation
 title: IDefaultLocation (locationapi.h)
-
 description: IDefaultLocation provides methods used to specify or retrieve the default location.
 old-location: winlocation\idefaultlocation.htm
 tech.root: locationapi
 ms.assetid: 408062c8-2fea-4734-a243-e4ed21b7b3c3
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultLocation, IDefaultLocation interface [WinLocation], IDefaultLocation interface [WinLocation],described, locationapi/IDefaultLocation, winlocation.idefaultlocation
 ms.topic: interface
-f1_keywords: 
- - "locationapi/IDefaultLocation"
+f1_keywords:
+- locationapi/IDefaultLocation
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - IDefaultLocation
+- IDefaultLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:prsht.PropSheet_RecalcPageSizes
 title: PropSheet_RecalcPageSizes macro (prsht.h)
-
 description: Recalculates the page size of a standard or wizard property sheet after pages have been added or removed. You can use this macro or send the PSM_RECALCPAGESIZES message explicitly.
 old-location: controls\PropSheet_RecalcPageSizes.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_recalcpagesizes.htm
-
 ms.date: 12/05/2018
 ms.keywords: PropSheet_RecalcPageSizes, PropSheet_RecalcPageSizes macro [Windows Controls], _win32_PropSheet_RecalcPageSizes, _win32_PropSheet_RecalcPageSizes_cpp, controls.PropSheet_RecalcPageSizes, controls._win32_PropSheet_RecalcPageSizes, prsht/PropSheet_RecalcPageSizes
 ms.topic: macro
 f1_keywords:
 - prsht/PropSheet_RecalcPageSizes
 dev_langs:
- - c++
+- c++
 req.header: prsht.h
 req.include-header: 
 req.target-type: Windows

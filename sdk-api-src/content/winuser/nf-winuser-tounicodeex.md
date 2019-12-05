@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.ToUnicodeEx
 title: ToUnicodeEx function (winuser.h)
-
 description: Translates the specified virtual-key code and keyboard state to the corresponding Unicode character or characters.
 old-location: inputdev\tounicodeex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\tounicodeex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ToUnicodeEx, ToUnicodeEx function [Keyboard and Mouse Input], _win32_ToUnicodeEx, _win32_tounicodeex_cpp, inputdev.tounicodeex, winui._win32_tounicodeex, winuser/ToUnicodeEx
 ms.topic: function
-f1_keywords: 
- - "winuser/ToUnicodeEx"
+f1_keywords:
+- winuser/ToUnicodeEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- api-ms-win-ntuser-ie-keyboard-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - ToUnicodeEx
+- ToUnicodeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

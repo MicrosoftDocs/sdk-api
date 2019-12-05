@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRVideoStreamControl.SetColorKey
 title: IVMRVideoStreamControl::SetColorKey (strmif.h)
-
 description: The SetColorKey method sets the source color key that the VMR will use when compositing the video image.
 old-location: dshow\ivmrvideostreamcontrol_setcolorkey.htm
 tech.root: DirectShow
 ms.assetid: 30a4009c-5da0-4a07-9d4b-7c9047fb6dd8
-
 ms.date: 12/05/2018
 ms.keywords: IVMRVideoStreamControl interface [DirectShow],SetColorKey method, IVMRVideoStreamControl.SetColorKey, IVMRVideoStreamControl::SetColorKey, IVMRVideoStreamControlSetColorKey, SetColorKey, SetColorKey method [DirectShow], SetColorKey method [DirectShow],IVMRVideoStreamControl interface, dshow.ivmrvideostreamcontrol_setcolorkey, strmif/IVMRVideoStreamControl::SetColorKey
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRVideoStreamControl.SetColorKey"
+f1_keywords:
+- strmif/IVMRVideoStreamControl.SetColorKey
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRVideoStreamControl.SetColorKey
+- IVMRVideoStreamControl.SetColorKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:oledlg.IOleUILinkContainerW
 title: IOleUILinkContainerW (oledlg.h)
-
 description: Implemented by containers and used by OLE common dialog boxes. It supports these dialog boxes by providing the methods needed to manage a container's links.
 old-location: com\ioleuilinkcontainer.htm
 tech.root: com
 ms.assetid: 7fc0aab3-7476-49ec-8a1d-3f4851f9f31c
-
 ms.date: 12/05/2018
 ms.keywords: IOleUILinkContainer, IOleUILinkContainer interface [COM], IOleUILinkContainer interface [COM],described, IOleUILinkContainerA, IOleUILinkContainerW, _ole_IOleUILinkContainer, com.ioleuilinkcontainer, oledlg/IOleUILinkContainer
 ms.topic: interface
-f1_keywords: 
- - "oledlg/IOleUILinkContainer"
+f1_keywords:
+- oledlg/IOleUILinkContainer
 dev_langs:
- - c++
+- c++
 req.header: oledlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleDlg.h
+- OleDlg.h
 api_name:
- - IOleUILinkContainer
- - IOleUILinkContainerW
+- IOleUILinkContainer
+- IOleUILinkContainerW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnInPlaceDeactivate
 title: IOleInPlaceSite::OnInPlaceDeactivate (oleidl.h)
-
 description: Notifies the container that the object is no longer active in place.
 old-location: com\ioleinplacesite_oninplacedeactivate.htm
 tech.root: com
 ms.assetid: 070aac4e-94b6-4e23-b132-1dc833774c8b
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnInPlaceDeactivate method, IOleInPlaceSite.OnInPlaceDeactivate, IOleInPlaceSite::OnInPlaceDeactivate, OnInPlaceDeactivate, OnInPlaceDeactivate method [COM], OnInPlaceDeactivate method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_oninplacedeactivate, com.ioleinplacesite_oninplacedeactivate, oleidl/IOleInPlaceSite::OnInPlaceDeactivate
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.OnInPlaceDeactivate"
+f1_keywords:
+- oleidl/IOleInPlaceSite.OnInPlaceDeactivate
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
- - browsewm.dll
+- OleIdl.h
+- browsewm.dll
 api_name:
- - IOleInPlaceSite.OnInPlaceDeactivate
+- IOleInPlaceSite.OnInPlaceDeactivate
 targetos: Windows
 req.typenames: 
 req.redist: 

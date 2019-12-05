@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.RegisterForNotification
 title: ITsSbProvider::RegisterForNotification (sbtsv.h)
-
 description: Requests that Remote Desktop Connection Broker (RD Connection Broker) send notifications about specified events.
 old-location: termserv\itssbprovider_registerfornotification.htm
 tech.root: TermServ
 ms.assetid: 71e55a94-7e15-45f1-a1f3-d3cf8814e0c1
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbProvider interface [Remote Desktop Services],RegisterForNotification method, ITsSbProvider.RegisterForNotification, ITsSbProvider::RegisterForNotification, RegisterForNotification, RegisterForNotification method [Remote Desktop Services], RegisterForNotification method [Remote Desktop Services],ITsSbProvider interface, TSSB_NOTIFY_CONNECTION_REQUEST_CHANGE, TSSB_NOTIFY_SESSION_CHANGE, TSSB_NOTIFY_TARGET_CHANGE, sbtsv/ITsSbProvider::RegisterForNotification, termserv.itssbprovider_registerfornotification
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.RegisterForNotification"
+f1_keywords:
+- sbtsv/ITsSbProvider.RegisterForNotification
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.RegisterForNotification
+- ITsSbProvider.RegisterForNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

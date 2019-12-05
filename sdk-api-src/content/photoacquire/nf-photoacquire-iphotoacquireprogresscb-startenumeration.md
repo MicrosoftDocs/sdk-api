@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartEnumeration
 title: IPhotoAcquireProgressCB::StartEnumeration (photoacquire.h)
-
 description: The StartEnumeration method provides extended functionality when the enumeration of items to acquire begins.
 old-location: picacq\iphotoacquireprogresscb_startenumeration.htm
 tech.root: acquisition
 ms.assetid: ef42722d-ca39-4d22-8de1-6b3926669abf
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireProgressCB interface [Picture Acquisition],StartEnumeration method, IPhotoAcquireProgressCB.StartEnumeration, IPhotoAcquireProgressCB::StartEnumeration, IPhotoAcquireProgressCBStartEnumeration, StartEnumeration, StartEnumeration method [Picture Acquisition], StartEnumeration method [Picture Acquisition],IPhotoAcquireProgressCB interface, photoacquire/IPhotoAcquireProgressCB::StartEnumeration, picacq.iphotoacquireprogresscb_startenumeration
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireProgressCB.StartEnumeration"
+f1_keywords:
+- photoacquire/IPhotoAcquireProgressCB.StartEnumeration
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB.StartEnumeration
+- IPhotoAcquireProgressCB.StartEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprAddV4PolicyRange
 title: DhcpHlprAddV4PolicyRange function (dhcpsapi.h)
-
 description: Adds a DHCP IPv4 range to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policyrange.htm
 tech.root: DHCP
 ms.assetid: 4e5b5fca-7583-43a8-8816-c1003d936233
-
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprAddV4PolicyRange, DhcpHlprAddV4PolicyRange function [DHCP], dhcp.dhcphlpraddv4policyrange, dhcpsapi/DhcpHlprAddV4PolicyRange
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprAddV4PolicyRange
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

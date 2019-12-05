@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextNotify.Cue
 title: IMFTimedTextNotify::Cue (mfmediaengine.h)
-
 description: Called when a cue event occurs in a text track.
 old-location: mf\imftimedtextnotify_cue.htm
 tech.root: medfound
 ms.assetid: EE577250-2D75-4130-BA50-95D3E455A574
-
 ms.date: 12/05/2018
 ms.keywords: Cue, Cue method [Media Foundation], Cue method [Media Foundation],IMFTimedTextNotify interface, IMFTimedTextNotify interface [Media Foundation],Cue method, IMFTimedTextNotify.Cue, IMFTimedTextNotify::Cue, mf.imftimedtextnotify_cue, mfmediaengine/IMFTimedTextNotify::Cue
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextNotify.Cue"
+f1_keywords:
+- mfmediaengine/IMFTimedTextNotify.Cue
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextNotify.Cue
+- IMFTimedTextNotify.Cue
 targetos: Windows
 req.typenames: 
 req.redist: 

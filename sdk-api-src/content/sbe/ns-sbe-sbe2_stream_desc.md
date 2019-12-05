@@ -1,19 +1,17 @@
 ---
 UID: NS:sbe.__MIDL___MIDL_itf_sbe_0000_0015_0001
 title: SBE2_STREAM_DESC (sbe.h)
-
 description: Describes a stream produced by the stream buffer engine.
 old-location: mstv\sbe2_stream_desc.htm
 tech.root: mstv
 ms.assetid: ab7ccd5b-1ac8-4d33-aea6-49383025270b
-
 ms.date: 12/05/2018
 ms.keywords: SBE2_STREAM_DESC, SBE2_STREAM_DESC structure [Microsoft TV Technologies], SBE2_STREAM_DESC_VERSION, mstv.sbe2_stream_desc, sbe/SBE2_STREAM_DESC
 ms.topic: struct
-f1_keywords: 
- - "sbe/SBE2_STREAM_DESC"
+f1_keywords:
+- sbe/SBE2_STREAM_DESC
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - SBE2_STREAM_DESC
+- SBE2_STREAM_DESC
 targetos: Windows
 req.typenames: SBE2_STREAM_DESC
 req.redist: 

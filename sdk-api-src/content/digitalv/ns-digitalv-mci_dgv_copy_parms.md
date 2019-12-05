@@ -1,19 +1,17 @@
 ---
 UID: NS:digitalv.__unnamed_struct_3
 title: MCI_DGV_COPY_PARMS (digitalv.h)
-
 description: The MCI_DGV_COPY_PARMS structure contains parameters for the MCI_COPY command for digital-video devices.
 old-location: multimedia\mci_dgv_copy_parms.htm
 tech.root: Multimedia
 ms.assetid: 314f1843-0457-4160-a9f0-71cffe676c8c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS structure [Windows Multimedia], _win32_MCI_DGV_COPY_PARMS_str, digitalv/MCI_DGV_COPY_PARMS, multimedia.mci_dgv_copy_parms"
+ms.keywords: '*LPMCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS, MCI_DGV_COPY_PARMS structure [Windows Multimedia], _win32_MCI_DGV_COPY_PARMS_str, digitalv/MCI_DGV_COPY_PARMS, multimedia.mci_dgv_copy_parms'
 ms.topic: struct
-f1_keywords: 
- - "digitalv/MCI_DGV_COPY_PARMS"
+f1_keywords:
+- digitalv/MCI_DGV_COPY_PARMS
 dev_langs:
- - c++
+- c++
 req.header: digitalv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Digitalv.h
+- Digitalv.h
 api_name:
- - MCI_DGV_COPY_PARMS
+- MCI_DGV_COPY_PARMS
 targetos: Windows
 req.typenames: MCI_DGV_COPY_PARMS
 req.redist: 

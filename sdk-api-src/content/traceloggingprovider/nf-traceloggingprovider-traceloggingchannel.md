@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingChannel
 title: TraceLoggingChannel macro (traceloggingprovider.h)
-
 description: Wrapper macro for setting the event's channel.
 old-location: tracelogging\traceloggingchannel.htm
 tech.root: tracelogging
 ms.assetid: E7769335-3A1D-4F0B-86DA-20DA3F7B6733
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingChannel, TraceLoggingChannel macro, tracelogging.traceloggingchannel, traceloggingprovider/TraceLoggingChannel
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingChannel"
+f1_keywords:
+- traceloggingprovider/TraceLoggingChannel
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingChannel
+- TraceLoggingChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -5,10 +5,10 @@ description: Represents a DNS service running on the network.
 ms.date: 02/19/2019
 ms.keywords: _DNS_SERVICE_INSTANCE, DNS_SERVICE_INSTANCE
 ms.topic: language-reference
-f1_keywords: 
- - "windns/_DNS_SERVICE_INSTANCE"
+f1_keywords:
+- windns/_DNS_SERVICE_INSTANCE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: structure
@@ -31,14 +31,14 @@ req.typenames: DNS_SERVICE_INSTANCE, *PDNS_SERVICE_INSTANCE
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windns.h
+- windns.h
 api_name:
- - _DNS_SERVICE_INSTANCE
- - DNS_SERVICE_INSTANCE
+- _DNS_SERVICE_INSTANCE
+- DNS_SERVICE_INSTANCE
 ms.custom: 19H1
 ---
 

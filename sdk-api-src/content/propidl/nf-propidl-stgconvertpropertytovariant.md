@@ -1,19 +1,17 @@
 ---
 UID: NF:propidl.StgConvertPropertyToVariant
 title: StgConvertPropertyToVariant function (propidl.h)
-
 description: Converts a SERIALIZEDPROPERTYVALUE data type to a PROPVARIANT data type.
 old-location: stg\stgconvertpropertytovariant.htm
 tech.root: Stg
 ms.assetid: ea4196e6-fc99-4288-942a-e5283f2e5544
-
 ms.date: 12/05/2018
 ms.keywords: StgConvertPropertyToVariant, StgConvertPropertyToVariant function [Structured Storage], propidl/StgConvertPropertyToVariant, stg.stgconvertpropertytovariant
 ms.topic: function
-f1_keywords: 
- - "propidl/StgConvertPropertyToVariant"
+f1_keywords:
+- propidl/StgConvertPropertyToVariant
 dev_langs:
- - c++
+- c++
 req.header: propidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - StgConvertPropertyToVariant
+- StgConvertPropertyToVariant
 targetos: Windows
 req.typenames: 
 req.redist: 

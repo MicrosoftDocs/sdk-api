@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.GetIsLastBatch
 title: ISyncChangeBatchBase::GetIsLastBatch (winsync.h)
-
 description: Gets a flag that indicates whether the changes in this change batch are the last batch of a synchronization session.
 old-location: winsync\isyncchangebatchbase_getislastbatch.htm
 tech.root: winsync
 ms.assetid: 74b82fde-c492-4d5f-a680-62b836420cee
-
 ms.date: 12/05/2018
 ms.keywords: GetIsLastBatch, GetIsLastBatch method [Windows Sync], GetIsLastBatch method [Windows Sync],ISyncChangeBatchBase interface, ISyncChangeBatchBase interface [Windows Sync],GetIsLastBatch method, ISyncChangeBatchBase.GetIsLastBatch, ISyncChangeBatchBase::GetIsLastBatch, winsync.isyncchangebatchbase_getislastbatch, winsync/ISyncChangeBatchBase::GetIsLastBatch
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase.GetIsLastBatch"
+f1_keywords:
+- winsync/ISyncChangeBatchBase.GetIsLastBatch
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase.GetIsLastBatch
+- ISyncChangeBatchBase.GetIsLastBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpDsCleanup
 title: DhcpDsCleanup function (dhcpsapi.h)
-
 description: The DhcpDsCleanup function frees up directory service resources allocated for DHCP services by DhcpDsInit. This function should be called exactly once for each corresponding DHCP service process, and only when the process is terminated.
 old-location: dhcp\dhcpdscleanup.htm
 tech.root: DHCP
 ms.assetid: 7d722ca5-a779-4481-b2c7-6d9d7bb5fcfe
-
 ms.date: 12/05/2018
 ms.keywords: DhcpDsCleanup, DhcpDsCleanup function [DHCP], dhcp.dhcpdscleanup, dhcpsapi/DhcpDsCleanup
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpDsCleanup"
+f1_keywords:
+- dhcpsapi/DhcpDsCleanup
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpDsCleanup
+- DhcpDsCleanup
 targetos: Windows
 req.typenames: 
 req.redist: 

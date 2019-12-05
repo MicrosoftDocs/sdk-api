@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Reset
 title: IEnumFullIDList::Reset (shobjidl_core.h)
-
 description: Returns the enumerator to the beginning of the enumeration sequence.
 old-location: shell\IEnumFullIDList_Reset.htm
 tech.root: shell
 ms.assetid: 9682cfc4-544b-43bd-bd57-edbce50dce75
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFullIDList interface [Windows Shell],Reset method, IEnumFullIDList.Reset, IEnumFullIDList::Reset, Reset, Reset method [Windows Shell], Reset method [Windows Shell],IEnumFullIDList interface, _shell_IEnumFullIDList_Reset, shell.IEnumFullIDList_Reset, shobjidl_core/IEnumFullIDList::Reset
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IEnumFullIDList.Reset"
+f1_keywords:
+- shobjidl_core/IEnumFullIDList.Reset
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IEnumFullIDList.Reset
+- IEnumFullIDList.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

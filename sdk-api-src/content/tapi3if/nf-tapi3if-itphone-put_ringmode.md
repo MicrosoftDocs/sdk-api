@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhone.put_RingMode
 title: ITPhone::put_RingMode (tapi3if.h)
-
 description: The put_RingMode method requests that the phone change its ring mode.
 old-location: tapi3\itphone_put_ringmode.htm
 tech.root: Tapi
 ms.assetid: f693bf24-540d-4509-bf0c-01be27f823f8
-
 ms.date: 12/05/2018
 ms.keywords: ITPhone interface [TAPI 2.2],put_RingMode method, ITPhone.put_RingMode, ITPhone::put_RingMode, _tapi3_itphone_put_ringmode, put_RingMode, put_RingMode method [TAPI 2.2], put_RingMode method [TAPI 2.2],ITPhone interface, tapi3.itphone_put_ringmode, tapi3if/ITPhone::put_RingMode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhone.put_RingMode"
+f1_keywords:
+- tapi3if/ITPhone.put_RingMode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhone.put_RingMode
+- ITPhone.put_RingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

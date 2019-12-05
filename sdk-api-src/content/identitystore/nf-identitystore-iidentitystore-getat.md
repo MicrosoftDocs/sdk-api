@@ -1,19 +1,17 @@
 ---
 UID: NF:identitystore.IIdentityStore.GetAt
 title: IIdentityStore::GetAt (identitystore.h)
-
 description: Retrieves an IIdentityProvider interface pointer for the specified identity provider.
 old-location: security\iidentitystore_getat.htm
 tech.root: SecAuthN
 ms.assetid: c62212bf-852b-43fb-9abf-b85f4d15b305
-
 ms.date: 12/05/2018
 ms.keywords: GetAt, GetAt method [Security], GetAt method [Security],IIdentityStore interface, IIdentityStore interface [Security],GetAt method, IIdentityStore.GetAt, IIdentityStore::GetAt, identitystore/IIdentityStore::GetAt, security.iidentitystore_getat
 ms.topic: method
-f1_keywords: 
- - "identitystore/IIdentityStore.GetAt"
+f1_keywords:
+- identitystore/IIdentityStore.GetAt
 dev_langs:
- - c++
+- c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identitystore.h
+- Identitystore.h
 api_name:
- - IIdentityStore.GetAt
+- IIdentityStore.GetAt
 targetos: Windows
 req.typenames: 
 req.redist: 

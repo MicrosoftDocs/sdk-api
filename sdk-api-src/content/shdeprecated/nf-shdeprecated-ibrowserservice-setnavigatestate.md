@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.SetNavigateState
 title: IBrowserService::SetNavigateState (shdeprecated.h)
-
 description: Deprecated. Sets the current navigation state. This method affects the cursor and animation.
 old-location: shell\IBrowserService_SetNavigateState.htm
 tech.root: shell
 ms.assetid: 3cdbe902-f208-43f8-9019-d61c22635196
-
 ms.date: 12/05/2018
 ms.keywords: BNS_BEGIN_NAVIGATE, BNS_NAVIGATE, BNS_NORMAL, IBrowserService interface [Windows Shell],SetNavigateState method, IBrowserService.SetNavigateState, IBrowserService::SetNavigateState, SetNavigateState, SetNavigateState method [Windows Shell], SetNavigateState method [Windows Shell],IBrowserService interface, shdeprecated/IBrowserService::SetNavigateState, shell.IBrowserService_SetNavigateState, zone_IBrowserService_SetNavigateState
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.SetNavigateState"
+f1_keywords:
+- shdeprecated/IBrowserService.SetNavigateState
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.SetNavigateState
+- IBrowserService.SetNavigateState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_NetworkSettings
 title: ITaskSettings::put_NetworkSettings (taskschd.h)
-
 description: Gets or sets the network settings object that contains a network profile identifier and name.
 old-location: taskschd\itasksettings_networksettings.htm
 tech.root: taskschd
 ms.assetid: 9ee4f2c0-90bf-4a28-9aeb-0c04f3a197aa
-
 ms.date: 12/05/2018
 ms.keywords: ITaskSettings interface [Task Scheduler],NetworkSettings property, ITaskSettings.NetworkSettings, ITaskSettings.put_NetworkSettings, ITaskSettings::NetworkSettings, ITaskSettings::get_NetworkSettings, ITaskSettings::put_NetworkSettings, NetworkSettings property [Task Scheduler], NetworkSettings property [Task Scheduler],ITaskSettings interface, put_NetworkSettings, taskschd.itasksettings_networksettings, taskschd/ITaskSettings::NetworkSettings, taskschd/ITaskSettings::get_NetworkSettings, taskschd/ITaskSettings::put_NetworkSettings
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskSettings.NetworkSettings"
+f1_keywords:
+- taskschd/ITaskSettings.NetworkSettings
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskSettings.NetworkSettings
- - ITaskSettings.get_NetworkSettings
- - ITaskSettings.put_NetworkSettings
+- ITaskSettings.NetworkSettings
+- ITaskSettings.get_NetworkSettings
+- ITaskSettings.put_NetworkSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

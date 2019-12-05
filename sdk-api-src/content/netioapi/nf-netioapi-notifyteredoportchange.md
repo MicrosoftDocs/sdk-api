@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.NotifyTeredoPortChange
 title: NotifyTeredoPortChange function (netioapi.h)
-
 description: Registers to be notified for changes to the UDP port number used by the Teredo client for the Teredo service port on a local computer.
 old-location: iphlp\notifyteredoportchange.htm
 tech.root: IpHlp
 ms.assetid: c0c23531-7629-41c9-acf2-9d2f5e98e02c
-
 ms.date: 12/05/2018
 ms.keywords: NotifyTeredoPortChange, NotifyTeredoPortChange function [IP Helper], iphlp.notifyteredoportchange, netioapi/NotifyTeredoPortChange
 ms.topic: function
 f1_keywords:
 - netioapi/NotifyTeredoPortChange
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

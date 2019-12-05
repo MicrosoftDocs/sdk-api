@@ -1,19 +1,17 @@
 ---
 UID: NF:windowsx.Button_SetCheck
 title: Button_SetCheck macro (windowsx.h)
-
 description: Sets the check state of a radio button or check box. You can use this macro or send the BM_SETCHECK message explicitly.
 old-location: controls\Button_SetCheck.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setcheck.htm
-
 ms.date: 12/05/2018
 ms.keywords: BST_CHECKED, BST_INDETERMINATE, BST_UNCHECKED, Button_SetCheck, Button_SetCheck macro [Windows Controls], _win32_Button_SetCheck, _win32_Button_SetCheck_cpp, controls.Button_SetCheck, controls._win32_Button_SetCheck, windowsx/Button_SetCheck
 ms.topic: macro
-f1_keywords: 
- - "windowsx/Button_SetCheck"
+f1_keywords:
+- windowsx/Button_SetCheck
 dev_langs:
- - c++
+- c++
 req.header: windowsx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windowsx.h
+- Windowsx.h
 api_name:
- - Button_SetCheck
+- Button_SetCheck
 targetos: Windows
 req.typenames: 
 req.redist: 

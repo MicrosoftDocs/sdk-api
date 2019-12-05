@@ -1,19 +1,17 @@
 ---
 UID: NN:sbtsv.ITsSbLoadBalanceResult
 title: ITsSbLoadBalanceResult (sbtsv.h)
-
 description: Exposes methods and properties that store the target name returned by a load-balancing algorithm.
 old-location: termserv\itssbloadbalanceresult.htm
 tech.root: TermServ
 ms.assetid: f19f006c-e74a-4f44-8be8-f71852d4c305
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbLoadBalanceResult, ITsSbLoadBalanceResult interface [Remote Desktop Services], ITsSbLoadBalanceResult interface [Remote Desktop Services],described, sbtsv/ITsSbLoadBalanceResult, termserv.itssbloadbalanceresult
 ms.topic: interface
-f1_keywords: 
- - "sbtsv/ITsSbLoadBalanceResult"
+f1_keywords:
+- sbtsv/ITsSbLoadBalanceResult
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbLoadBalanceResult
+- ITsSbLoadBalanceResult
 targetos: Windows
 req.typenames: 
 req.redist: 

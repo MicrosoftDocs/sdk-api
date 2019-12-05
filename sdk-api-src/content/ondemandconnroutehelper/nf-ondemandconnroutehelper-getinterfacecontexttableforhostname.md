@@ -1,19 +1,17 @@
 ---
 UID: NF:ondemandconnroutehelper.GetInterfaceContextTableForHostName
 title: GetInterfaceContextTableForHostName function (ondemandconnroutehelper.h)
-
 description: This function retrieves an interface context table for the given hostname and connection profile filter.
 old-location: nla\getinterfacecontexttableforhostname.htm
 tech.root: nla
 ms.assetid: BD687853-6242-4A72-BACE-13B681FD4674
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceContextTableForHostName, GetInterfaceContextTableForHostName function [Network Awareness], nla.getinterfacecontexttableforhostname, ondemandconnroutehelper/GetInterfaceContextTableForHostName
 ms.topic: function
-f1_keywords: 
- - "ondemandconnroutehelper/GetInterfaceContextTableForHostName"
+f1_keywords:
+- ondemandconnroutehelper/GetInterfaceContextTableForHostName
 dev_langs:
- - c++
+- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: OnDemandConnRouteHelper.lib
 req.dll: OnDemandConnRouteHelper.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OnDemandConnRouteHelper.dll
- - API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
+- OnDemandConnRouteHelper.dll
+- API-Ms-Win-Networking-InterfaceContexts-L1-1-0.dll
 api_name:
- - GetInterfaceContextTableForHostName
+- GetInterfaceContextTableForHostName
 targetos: Windows
 req.typenames: 
 req.redist: 

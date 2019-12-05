@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputStreamPreferredState
 title: IMFDeviceTransform::GetInputStreamPreferredState (mftransform.h)
-
 description: The GetInputStreamPreferredState method gets a Device MFT input stream’s preferred state and media type.
 old-location: stream\imfdevicetransform_getinputstreampreferredstate.htm
 tech.root: stream
 ms.assetid: 56334B73-DCBC-4999-9685-2489D6C15E2E
-
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamPreferredState, GetInputStreamPreferredState method [Streaming Media Devices], GetInputStreamPreferredState method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetInputStreamPreferredState method, IMFDeviceTransform.GetInputStreamPreferredState, IMFDeviceTransform::GetInputStreamPreferredState, mftransform/IMFDeviceTransform::GetInputStreamPreferredState, stream.imfdevicetransform_getinputstreampreferredstate
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFDeviceTransform.GetInputStreamPreferredState"
+f1_keywords:
+- mftransform/IMFDeviceTransform.GetInputStreamPreferredState
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mftransform.h
+- mftransform.h
 api_name:
- - IMFDeviceTransform.GetInputStreamPreferredState
+- IMFDeviceTransform.GetInputStreamPreferredState
 targetos: Windows
 req.typenames: 
 req.redist: 

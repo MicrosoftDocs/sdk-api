@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMDRMReader3
 title: IWMDRMReader3 (wmsdkidl.h)
-
 description: The IWMDRMReader3 interface enables content transcription by providing a method to get protection systems approved by a license.
 old-location: wmformat\iwmdrmreader3.htm
 tech.root: wmformat
 ms.assetid: 9474e06a-9519-456c-b304-efc875a4accc
-
 ms.date: 12/05/2018
 ms.keywords: IWMDRMReader3, IWMDRMReader3 interface [windows Media Format], IWMDRMReader3 interface [windows Media Format],described, IWMDRMReader3Interface, wmformat.iwmdrmreader3, wmsdkidl/IWMDRMReader3
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader3"
+f1_keywords:
+- wmsdkidl/IWMDRMReader3
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMDRMReader3
+- IWMDRMReader3
 targetos: Windows
 req.typenames: 
 req.redist: 

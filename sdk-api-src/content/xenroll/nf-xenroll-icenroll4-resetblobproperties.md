@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.resetBlobProperties
 title: ICEnroll4::resetBlobProperties (xenroll.h)
-
 description: Resets the properties of a BLOB.
 old-location: security\icenroll4_resetblobproperties.htm
 tech.root: SecCrypto
 ms.assetid: 4ee3c056-27b0-4606-bdf6-63e5e4439274
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],resetBlobProperties method, ICEnroll4 interface [Security],resetBlobProperties method, ICEnroll4.resetBlobProperties, ICEnroll4::resetBlobProperties, resetBlobProperties, resetBlobProperties method [Security], resetBlobProperties method [Security],CEnroll object, resetBlobProperties method [Security],ICEnroll4 interface, security.icenroll4_resetblobproperties, xenroll/ICEnroll4::resetBlobProperties
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.resetBlobProperties"
+f1_keywords:
+- xenroll/ICEnroll4.resetBlobProperties
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.resetBlobProperties
- - CEnroll.resetBlobProperties
+- ICEnroll4.resetBlobProperties
+- CEnroll.resetBlobProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

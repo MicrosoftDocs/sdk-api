@@ -1,19 +1,17 @@
 ---
 UID: NN:tsgauthenticationengine.ITSGAuthenticationEngine
 title: ITSGAuthenticationEngine (tsgauthenticationengine.h)
-
 description: Exposes methods that authenticate users for Remote Desktop Gateway (RD Gateway).
 old-location: termserv\itsgauthenticationengine.htm
 tech.root: TermServ
 ms.assetid: c72f3f22-a403-45b0-9ccb-6339ae001024
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticationEngine, ITSGAuthenticationEngine interface [Remote Desktop Services], ITSGAuthenticationEngine interface [Remote Desktop Services],described, termserv.itsgauthenticationengine, tsgauthenticationengine/ITSGAuthenticationEngine
 ms.topic: interface
-f1_keywords: 
- - "tsgauthenticationengine/ITSGAuthenticationEngine"
+f1_keywords:
+- tsgauthenticationengine/ITSGAuthenticationEngine
 dev_langs:
- - c++
+- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGAuthenticationEngine.h
+- TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticationEngine
+- ITSGAuthenticationEngine
 targetos: Windows
 req.typenames: 
 req.redist: 

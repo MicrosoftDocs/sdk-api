@@ -1,19 +1,17 @@
 ---
 UID: NF:xinput.XInputGetCapabilities
 title: XInputGetCapabilities function (xinput.h)
-
 description: Retrieves the capabilities and features of a connected controller.
 old-location: xinput\xinputgetcapabilities.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetCapabilities(DWORD,DWORD,XINPUT_CAPABILITIES*@)
-
 ms.date: 12/05/2018
 ms.keywords: XInputGetCapabilities, XInputGetCapabilities function [XInput Game Controller APIs], xinput.xinputgetcapabilities, xinput/XInputGetCapabilities
 ms.topic: function
 f1_keywords:
 - xinput/XInputGetCapabilities
 dev_langs:
- - c++
+- c++
 req.header: xinput.h
 req.include-header: 
 req.target-type: Windows

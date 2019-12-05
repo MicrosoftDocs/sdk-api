@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMUINT3.XMUINT3
 title: XMUINT3::XMUINT3 (directxmath.h)
-
 description: Default constructor for XMUINT3.
 old-location: dxmath\xmuint3_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUINT3.#ctor
-
 ms.date: 12/05/2018
 ms.keywords: XMUINT3, XMUINT3 constructor [DirectX Math Support APIs], XMUINT3 constructor [DirectX Math Support APIs],XMUINT3 structure, XMUINT3 structure [DirectX Math Support APIs],XMUINT3 constructor, XMUINT3.XMUINT3, XMUINT3.XMUINT3(), XMUINT3::XMUINT3, dxmath.xmuint3_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMUINT3.XMUINT3"
+f1_keywords:
+- directxmath/XMUINT3.XMUINT3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMUINT3.XMUINT3
+- XMUINT3.XMUINT3
 targetos: Windows
 req.typenames: 
 req.redist: 

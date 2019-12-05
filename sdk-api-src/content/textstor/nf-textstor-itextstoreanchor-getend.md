@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.GetEnd
 title: ITextStoreAnchor::GetEnd (textstor.h)
-
 description: The ITextStoreAnchor::GetEnd method returns an anchor positioned at the end of the text stream.
 old-location: tsf\itextstoreanchor_getend.htm
 tech.root: TSF
 ms.assetid: 4c510900-bcff-4ea1-a8f3-95b6f47b3432
-
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Text Services Framework], GetEnd method [Text Services Framework],ITextStoreAnchor interface, ITextStoreAnchor interface [Text Services Framework],GetEnd method, ITextStoreAnchor.GetEnd, ITextStoreAnchor::GetEnd, textstor/ITextStoreAnchor::GetEnd, tsf.itextstoreanchor_getend
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchor.GetEnd"
+f1_keywords:
+- textstor/ITextStoreAnchor.GetEnd
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchor.GetEnd
+- ITextStoreAnchor.GetEnd
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

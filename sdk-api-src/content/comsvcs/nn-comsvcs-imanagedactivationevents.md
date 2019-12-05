@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IManagedActivationEvents
 title: IManagedActivationEvents (comsvcs.h)
-
 description: Used to create and destroy stubs for managed objects within the current COM+ context.
 old-location: cos\imanagedactivationevents.htm
 tech.root: cossdk
 ms.assetid: 621ffc7d-186e-451c-8d97-9c8291549f51
-
 ms.date: 12/05/2018
 ms.keywords: IManagedActivationEvents, IManagedActivationEvents interface [COM+], IManagedActivationEvents interface [COM+],described, _cos_IManagedActivationEvents, comsvcs/IManagedActivationEvents, cos.imanagedactivationevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IManagedActivationEvents"
+f1_keywords:
+- comsvcs/IManagedActivationEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IManagedActivationEvents
+- IManagedActivationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

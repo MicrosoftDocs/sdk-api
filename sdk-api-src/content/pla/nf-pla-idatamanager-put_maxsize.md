@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.put_MaxSize
 title: IDataManager::put_MaxSize (pla.h)
-
 description: Retrieves or sets the maximum disk space to be used by all data collectors in the set.
 old-location: pla\idatamanager_maxsize.htm
 tech.root: PLA
 ms.assetid: a9508617-acb5-4e11-8f4a-72c8e5cb4cba
-
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],MaxSize property, IDataManager.MaxSize, IDataManager.put_MaxSize, IDataManager::MaxSize, IDataManager::get_MaxSize, IDataManager::put_MaxSize, MaxSize property [PLA], MaxSize property [PLA],IDataManager interface, base.idatamanager_maxsize, pla.idatamanager_maxsize, pla/IDataManager::MaxSize, pla/IDataManager::get_MaxSize, pla/IDataManager::put_MaxSize, put_MaxSize
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.MaxSize"
+f1_keywords:
+- pla/IDataManager.MaxSize
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.MaxSize
- - IDataManager.get_MaxSize
- - IDataManager.put_MaxSize
+- IDataManager.MaxSize
+- IDataManager.get_MaxSize
+- IDataManager.put_MaxSize
 targetos: Windows
 req.typenames: 
 req.redist: 

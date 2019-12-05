@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPMetadataPicture.get_mimeType
 title: IWMPMetadataPicture::get_mimeType (wmp.h)
-
 description: The get_mimeType method retrieves a pointer to a string specifying the MIME type of the metadata image.
 old-location: wmp\iwmpmetadatapicture_get_mimetype.htm
 tech.root: WMP
 ms.assetid: bfc5243f-3f7c-4f4a-9057-7720c862a983
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMetadataPicture interface [Windows Media Player],get_mimeType method, IWMPMetadataPicture.get_mimeType, IWMPMetadataPicture::get_mimeType, IWMPMetadataPictureget_mimeType, get_mimeType, get_mimeType method [Windows Media Player], get_mimeType method [Windows Media Player],IWMPMetadataPicture interface, wmp.iwmpmetadatapicture_get_mimetype, wmp/IWMPMetadataPicture::get_mimeType
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPMetadataPicture.get_mimeType"
+f1_keywords:
+- wmp/IWMPMetadataPicture.get_mimeType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPMetadataPicture.get_mimeType
+- IWMPMetadataPicture.get_mimeType
 targetos: Windows
 req.typenames: 
 req.redist: 

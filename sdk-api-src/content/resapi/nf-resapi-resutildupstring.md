@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilDupString
 title: ResUtilDupString function (resapi.h)
-
 description: Duplicates a null-terminated Unicode string.
 old-location: mscs\resutildupstring.htm
 tech.root: MsCS
 ms.assetid: 7d993247-ea8c-46a0-a11e-e03b981ed4ae
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_DUP_STRING, PRESUTIL_DUP_STRING function [Failover Cluster], ResUtilDupString, ResUtilDupString function [Failover Cluster], _wolf_resutildupstring, mscs.resutildupstring, resapi/PRESUTIL_DUP_STRING, resapi/ResUtilDupString
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilDupString"
+f1_keywords:
+- resapi/ResUtilDupString
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilDupString
+- ResUtilDupString
 targetos: Windows
 req.typenames: 
 req.redist: 

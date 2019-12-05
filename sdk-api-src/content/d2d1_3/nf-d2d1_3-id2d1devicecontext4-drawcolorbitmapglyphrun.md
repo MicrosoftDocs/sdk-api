@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext4.DrawColorBitmapGlyphRun
 title: ID2D1DeviceContext4::DrawColorBitmapGlyphRun (d2d1_3.h)
-
 description: Draws a color bitmap glyph run using one of the bitmap formats.
 old-location: direct2d\id2d1devicecontext4_drawcolorbitmapglyphrun.htm
 tech.root: Direct2D
 ms.assetid: E3DDC924-87A1-43C7-8FC7-3C4E3FC2AC59
-
 ms.date: 12/05/2018
 ms.keywords: DrawColorBitmapGlyphRun, DrawColorBitmapGlyphRun method [Direct2D], DrawColorBitmapGlyphRun method [Direct2D],ID2D1DeviceContext4 interface, ID2D1DeviceContext4 interface [Direct2D],DrawColorBitmapGlyphRun method, ID2D1DeviceContext4.DrawColorBitmapGlyphRun, ID2D1DeviceContext4::DrawColorBitmapGlyphRun, d2d1_3/ID2D1DeviceContext4::DrawColorBitmapGlyphRun, direct2d.id2d1devicecontext4_drawcolorbitmapglyphrun
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext4.DrawColorBitmapGlyphRun"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext4.DrawColorBitmapGlyphRun
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext4.DrawColorBitmapGlyphRun
+- ID2D1DeviceContext4.DrawColorBitmapGlyphRun
 targetos: Windows
 req.typenames: 
 req.redist: 

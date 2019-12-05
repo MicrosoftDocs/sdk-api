@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleObject.Advise
 title: IOleObject::Advise (oleidl.h)
-
 description: Establishes an advisory connection between a compound document object and the calling object's advise sink, through which the calling object receives notification when the compound document object is renamed, saved, or closed.
 old-location: com\ioleobject_advise.htm
 tech.root: com
 ms.assetid: 6a68c9e9-6e06-4def-89a5-18e184e76a26
-
 ms.date: 12/05/2018
 ms.keywords: Advise, Advise method [COM], Advise method [COM],IOleObject interface, IOleObject interface [COM],Advise method, IOleObject.Advise, IOleObject::Advise, _ole_ioleobject_advise, com.ioleobject_advise, oleidl/IOleObject::Advise
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleObject.Advise"
+f1_keywords:
+- oleidl/IOleObject.Advise
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleObject.Advise
+- IOleObject.Advise
 targetos: Windows
 req.typenames: 
 req.redist: 

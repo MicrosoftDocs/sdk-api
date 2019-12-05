@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.RegisterActiveObject
 title: RegisterActiveObject function (oleauto.h)
-
 description: Registers an object as the active object for its class.
 old-location: automat\registeractiveobject.htm
 tech.root: automat
 ms.assetid: ba15bb69-7b65-47ea-b938-f235e3d9f9ee
-
 ms.date: 12/05/2018
 ms.keywords: RegisterActiveObject, RegisterActiveObject function [Automation], _oa96_RegisterActiveObject, automat.registeractiveobject, oleauto/RegisterActiveObject
 ms.topic: function
-f1_keywords: 
- - "oleauto/RegisterActiveObject"
+f1_keywords:
+- oleauto/RegisterActiveObject
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - RegisterActiveObject
+- RegisterActiveObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mmc._SMMCDataObjects
 title: SMMCDataObjects (mmc.h)
-
 description: The SMMCDataObjects structure defines the format of the data for the CCF_MULTI_SELECT_SNAPINS clipboard format.
 old-location: mmc\smmcdataobjects.htm
 tech.root: mmc
 ms.assetid: 4bbfc32e-b70b-4c47-a7b5-6ec2692d1df4
-
 ms.date: 12/05/2018
 ms.keywords: SMMCDataObjects, SMMCDataObjects structure [MMC], _slate_smmcdataobjects, mmc.smmcdataobjects, mmc/SMMCDataObjects
 ms.topic: struct
-f1_keywords: 
- - "mmc/SMMCDataObjects"
+f1_keywords:
+- mmc/SMMCDataObjects
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - SMMCDataObjects
+- SMMCDataObjects
 targetos: Windows
 req.typenames: SMMCDataObjects
 req.redist: 

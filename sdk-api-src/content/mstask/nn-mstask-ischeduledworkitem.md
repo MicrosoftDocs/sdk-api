@@ -1,19 +1,17 @@
 ---
 UID: NN:mstask.IScheduledWorkItem
 title: IScheduledWorkItem (mstask.h)
-
 description: Provides the methods for managing specific work items.
 old-location: taskschd\ischeduledworkitem.htm
 tech.root: taskschd
 ms.assetid: e668833a-094d-4504-90a0-87912a6a53c2
-
 ms.date: 12/05/2018
 ms.keywords: IScheduledWorkItem, IScheduledWorkItem interface [Task Scheduler], IScheduledWorkItem interface [Task Scheduler],described, _msb_ischeduledworkitem, mstask/IScheduledWorkItem, taskschd.ischeduledworkitem
 ms.topic: interface
-f1_keywords: 
- - "mstask/IScheduledWorkItem"
+f1_keywords:
+- mstask/IScheduledWorkItem
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem
+- IScheduledWorkItem
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

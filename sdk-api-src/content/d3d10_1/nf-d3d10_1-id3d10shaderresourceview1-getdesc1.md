@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10_1.ID3D10ShaderResourceView1.GetDesc1
 title: ID3D10ShaderResourceView1::GetDesc1 (d3d10_1.h)
-
 description: Get the shader resource view's description.
 old-location: direct3d10\id3d10shaderresourceview1_getdesc1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderresourceview1_getdesc1.htm
-
 ms.date: 12/05/2018
 ms.keywords: 75eac96a-c0df-0efd-d403-6788e3cb6937, GetDesc1, GetDesc1 method [Direct3D 10], GetDesc1 method [Direct3D 10],ID3D10ShaderResourceView1 interface, ID3D10ShaderResourceView1 interface [Direct3D 10],GetDesc1 method, ID3D10ShaderResourceView1.GetDesc1, ID3D10ShaderResourceView1::GetDesc1, d3d10_1/ID3D10ShaderResourceView1::GetDesc1, direct3d10.id3d10shaderresourceview1_getdesc1
 ms.topic: method
-f1_keywords: 
- - "d3d10_1/ID3D10ShaderResourceView1.GetDesc1"
+f1_keywords:
+- d3d10_1/ID3D10ShaderResourceView1.GetDesc1
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1.h
 req.include-header: D3D10Shader.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d10_1.h
+- d3d10_1.h
 api_name:
- - ID3D10ShaderResourceView1.GetDesc1
+- ID3D10ShaderResourceView1.GetDesc1
 targetos: Windows
 req.typenames: 
 req.redist: 

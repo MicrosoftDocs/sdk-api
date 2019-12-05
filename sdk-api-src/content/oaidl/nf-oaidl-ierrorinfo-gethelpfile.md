@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.IErrorInfo.GetHelpFile
 title: IErrorInfo::GetHelpFile (oaidl.h)
-
 description: Returns the path of the Help file that describes the error.
 old-location: automat\ierrorinfo_gethelpfile.htm
 tech.root: automat
 ms.assetid: f8458382-0af7-4a9b-add3-9c99af070be4
-
 ms.date: 12/05/2018
 ms.keywords: GetHelpFile, GetHelpFile method [Automation], GetHelpFile method [Automation],IErrorInfo interface, IErrorInfo interface [Automation],GetHelpFile method, IErrorInfo.GetHelpFile, IErrorInfo::GetHelpFile, _oa96_IErrorInfo_GetHelpFile, automat.ierrorinfo_gethelpfile, oaidl/IErrorInfo::GetHelpFile
 ms.topic: method
-f1_keywords: 
- - "oaidl/IErrorInfo.GetHelpFile"
+f1_keywords:
+- oaidl/IErrorInfo.GetHelpFile
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IErrorInfo.GetHelpFile
+- IErrorInfo.GetHelpFile
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFRemoteProxy.GetRemoteObject
 title: IMFRemoteProxy::GetRemoteObject (mfidl.h)
-
 description: Retrieves a pointer to the remote object for which this object is a proxy.
 old-location: mf\imfremoteproxy_getremoteobject.htm
 tech.root: medfound
 ms.assetid: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3
-
 ms.date: 12/05/2018
 ms.keywords: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3, GetRemoteObject, GetRemoteObject method [Media Foundation], GetRemoteObject method [Media Foundation],IMFRemoteProxy interface, IMFRemoteProxy interface [Media Foundation],GetRemoteObject method, IMFRemoteProxy.GetRemoteObject, IMFRemoteProxy::GetRemoteObject, mf.imfremoteproxy_getremoteobject, mfidl/IMFRemoteProxy::GetRemoteObject
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRemoteProxy.GetRemoteObject"
+f1_keywords:
+- mfidl/IMFRemoteProxy.GetRemoteObject
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRemoteProxy.GetRemoteObject
+- IMFRemoteProxy.GetRemoteObject
 targetos: Windows
 req.typenames: 
 req.redist: 

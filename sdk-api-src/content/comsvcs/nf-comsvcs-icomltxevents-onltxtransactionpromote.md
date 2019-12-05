@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionPromote
 title: IComLTxEvents::OnLtxTransactionPromote (comsvcs.h)
-
 description: Generated when a transaction is promoted.
 old-location: cos\icomltxevents_onltxtransactionpromote.htm
 tech.root: cossdk
 ms.assetid: 9cd9927c-355c-4d9f-b679-278e4b6897e1
-
 ms.date: 12/05/2018
 ms.keywords: IComLTxEvents interface [COM+],OnLtxTransactionPromote method, IComLTxEvents.OnLtxTransactionPromote, IComLTxEvents::OnLtxTransactionPromote, OnLtxTransactionPromote, OnLtxTransactionPromote method [COM+], OnLtxTransactionPromote method [COM+],IComLTxEvents interface, comsvcs/IComLTxEvents::OnLtxTransactionPromote, cos.icomltxevents_onltxtransactionpromote
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComLTxEvents.OnLtxTransactionPromote"
+f1_keywords:
+- comsvcs/IComLTxEvents.OnLtxTransactionPromote
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComLTxEvents.OnLtxTransactionPromote
+- IComLTxEvents.OnLtxTransactionPromote
 targetos: Windows
 req.typenames: 
 req.redist: 

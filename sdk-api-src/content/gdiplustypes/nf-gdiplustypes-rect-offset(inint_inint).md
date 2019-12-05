@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Offset(IN INT,IN INT)
 title: Rect::Offset(IN INT,IN INT) (gdiplustypes.h)
-
 description: The Rect::Offset method moves the rectangle by dx horizontally and by dy vertically.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Offset_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectoffsetmethods\offset.htm
-
 ms.date: 12/05/2018
 ms.keywords: Offset, Offset method [GDI+], Offset method [GDI+],Rect class, Rect class [GDI+],Offset method, Rect.Offset, Rect.Offset(IN INT,IN INT), Rect.Offset(INT,INT), Rect::Offset, Rect::Offset(IN INT,IN INT), _gdiplus_CLASS_Rect_Offset_dx_dy_, gdiplus._gdiplus_CLASS_Rect_Offset_dx_dy_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Offset"
+f1_keywords:
+- gdiplustypes/Rect.Offset
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Offset
+- Rect.Offset
 targetos: Windows
 req.typenames: 
 req.redist: 

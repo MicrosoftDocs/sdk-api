@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.DeletePwrScheme
 title: DeletePwrScheme function (powrprof.h)
-
 description: Deletes the specified power scheme.
 old-location: base\deletepwrscheme.htm
 tech.root: power
 ms.assetid: c9513835-00c4-4260-a8b6-d947539c9dd1
-
 ms.date: 12/05/2018
 ms.keywords: DeletePwrScheme, DeletePwrScheme function, _win32_deletepwrscheme, base.deletepwrscheme, powrprof/DeletePwrScheme
 ms.topic: function
-f1_keywords: 
- - "powrprof/DeletePwrScheme"
+f1_keywords:
+- powrprof/DeletePwrScheme
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - DeletePwrScheme
+- DeletePwrScheme
 targetos: Windows
 req.typenames: 
 req.redist: 

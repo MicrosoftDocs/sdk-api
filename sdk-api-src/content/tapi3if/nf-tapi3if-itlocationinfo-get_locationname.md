@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_LocationName
 title: ITLocationInfo::get_LocationName (tapi3if.h)
-
 description: The get_LocationName method gets the location name.
 old-location: tapi3\itlocationinfo_get_locationname.htm
 tech.root: Tapi
 ms.assetid: 2bd86295-8240-477d-90aa-f3061666c5e6
-
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LocationName method, ITLocationInfo.get_LocationName, ITLocationInfo::get_LocationName, _tapi3_itlocationinfo_get_locationname, get_LocationName, get_LocationName method [TAPI 2.2], get_LocationName method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_locationname, tapi3if/ITLocationInfo::get_LocationName
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLocationInfo.get_LocationName"
+f1_keywords:
+- tapi3if/ITLocationInfo.get_LocationName
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLocationInfo.get_LocationName
+- ITLocationInfo.get_LocationName
 targetos: Windows
 req.typenames: 
 req.redist: 

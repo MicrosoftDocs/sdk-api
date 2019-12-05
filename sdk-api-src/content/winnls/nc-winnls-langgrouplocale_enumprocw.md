@@ -1,19 +1,17 @@
 ---
 UID: NC:winnls.LANGGROUPLOCALE_ENUMPROCW
 title: LANGGROUPLOCALE_ENUMPROCW (winnls.h)
-
 description: An application-defined callback function that processes enumerated language group locale information provided by the EnumLanguageGroupLocales function.
 old-location: intl\enumlanguagegrouplocalesproc.htm
 tech.root: Intl
 ms.assetid: e422c61f-7a97-4f95-8592-22a1eb5f616b
-
 ms.date: 12/05/2018
 ms.keywords: LANGGROUPLOCALE_ENUMPROC, LANGGROUPLOCALE_ENUMPROC callback, LANGGROUPLOCALE_ENUMPROC callback function [Internationalization for Windows Applications], LANGGROUPLOCALE_ENUMPROCA, LANGGROUPLOCALE_ENUMPROCW, _win32_EnumLanguageGroupLocalesProc, intl.enumlanguagegrouplocalesproc, winnls/LANGGROUPLOCALE_ENUMPROC
 ms.topic: callback
-f1_keywords: 
- - "winnls/LANGGROUPLOCALE_ENUMPROC"
+f1_keywords:
+- winnls/LANGGROUPLOCALE_ENUMPROC
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - LANGGROUPLOCALE_ENUMPROC
+- LANGGROUPLOCALE_ENUMPROC
 targetos: Windows
 req.typenames: 
 req.redist: 

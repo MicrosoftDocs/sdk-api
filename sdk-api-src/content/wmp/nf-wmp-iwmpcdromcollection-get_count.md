@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCdromCollection.get_count
 title: IWMPCdromCollection::get_count (wmp.h)
-
 description: The get_count method retrieves the number of available CD and DVD drives on the system.
 old-location: wmp\iwmpcdromcollection_get_count.htm
 tech.root: WMP
 ms.assetid: 0e0c73b3-463c-43de-b1b8-5644a377bfd1
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCdromCollection interface [Windows Media Player],get_count method, IWMPCdromCollection.get_count, IWMPCdromCollection::get_count, IWMPCdromCollectionget_count, get_count, get_count method [Windows Media Player], get_count method [Windows Media Player],IWMPCdromCollection interface, wmp.iwmpcdromcollection_get_count, wmp/IWMPCdromCollection::get_count
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCdromCollection.get_count"
+f1_keywords:
+- wmp/IWMPCdromCollection.get_count
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCdromCollection.get_count
+- IWMPCdromCollection.get_count
 targetos: Windows
 req.typenames: 
 req.redist: 

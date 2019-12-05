@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UShortToChar
 title: UShortToChar function (intsafe.h)
-
 description: Converts a value of type USHORT to a value of type CHAR.
 old-location: shell\UShortToChar.htm
 tech.root: shell
 ms.assetid: 9d5b57a8-7b5b-4a40-a022-57149fec76de
-
 ms.date: 12/05/2018
 ms.keywords: UShortToChar, UShortToChar function [Windows Shell], WordToChar, _shell_UShortToChar, intsafe/UShortToChar, shell.UShortToChar
 ms.topic: function
-f1_keywords: 
- - "intsafe/UShortToChar"
+f1_keywords:
+- intsafe/UShortToChar
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UShortToChar
+- UShortToChar
 targetos: Windows
 req.typenames: 
 req.redist: 

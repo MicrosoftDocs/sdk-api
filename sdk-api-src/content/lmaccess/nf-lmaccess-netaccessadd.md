@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetAccessAdd
 title: NetAccessAdd function (lmaccess.h)
-
 description: Not supported.
 old-location: netmgmt\netaccessadd.htm
 tech.root: NetMgmt
 ms.assetid: 54b78f1d-53d1-4cb8-99ba-51c3d6e6de0c
-
 ms.date: 12/05/2018
 ms.keywords: 1, NetAccessAdd, NetAccessAdd function [Network Management], _win32_netaccessadd, lmaccess/NetAccessAdd, netmgmt.netaccessadd
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetAccessAdd"
+f1_keywords:
+- lmaccess/NetAccessAdd
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAccessAdd
+- NetAccessAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationclient.AutomationElementMode
 title: AutomationElementMode (uiautomationclient.h)
-
 description: Contains values that specify the type of reference to use when returning UI Automation elements.
 old-location: winauto\uiauto_AutomationElementModeEnum.htm
 tech.root: WinAuto
 ms.assetid: b0fadf47-2916-4555-b563-d0b5cd9056e6
-
 ms.date: 12/05/2018
 ms.keywords: AutomationElementMode, AutomationElementMode enumeration [Windows Accessibility], AutomationElementMode_Full, AutomationElementMode_None, uiauto.uiauto_AutomationElementModeEnum, uiauto_AutomationElementModeEnum, uiautomationclient/AutomationElementMode, uiautomationclient/AutomationElementMode_Full, uiautomationclient/AutomationElementMode_None, winauto.uiauto_AutomationElementModeEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationclient/AutomationElementMode"
+f1_keywords:
+- uiautomationclient/AutomationElementMode
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h, Uiautomationcoreapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - AutomationElementMode
+- AutomationElementMode
 targetos: Windows
 req.typenames: 
 req.redist: 

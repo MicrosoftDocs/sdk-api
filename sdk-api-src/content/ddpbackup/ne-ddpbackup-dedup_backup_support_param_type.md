@@ -1,19 +1,17 @@
 ---
 UID: NE:ddpbackup._DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 title: DEDUP_BACKUP_SUPPORT_PARAM_TYPE (ddpbackup.h)
-
 description: Indicates whether Data Deduplication should perform an unoptimized or optimized restore.
 old-location: dedup\dedup_backup_support_param_type.htm
 tech.root: dedup
 ms.assetid: 654663C4-1E28-435A-9D81-1E390BC66B62
-
 ms.date: 12/05/2018
 ms.keywords: DEDUP_BACKUP_SUPPORT_PARAM_TYPE, DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration [Data Deduplication API], DEDUP_RECONSTRUCT_OPTIMIZED, DEDUP_RECONSTRUCT_UNOPTIMIZED, ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE, ddpbackup/DEDUP_RECONSTRUCT_OPTIMIZED, ddpbackup/DEDUP_RECONSTRUCT_UNOPTIMIZED, dedup.dedup_backup_support_param_type
 ms.topic: enum
-f1_keywords: 
- - "ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE"
+f1_keywords:
+- ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ddpbackup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DdpBackup.h
+- DdpBackup.h
 api_name:
- - DEDUP_BACKUP_SUPPORT_PARAM_TYPE
+- DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 targetos: Windows
 req.typenames: DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.ClearRetrievalFilter
 title: IDXGIInfoQueue::ClearRetrievalFilter (dxgidebug.h)
-
 description: Removes a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_clearretrievalfilter.htm
 tech.root: direct3ddxgi
 ms.assetid: F8CCB852-4719-4A1D-A881-5A9EF37E18CF
-
 ms.date: 12/05/2018
 ms.keywords: ClearRetrievalFilter, ClearRetrievalFilter method [DXGI], ClearRetrievalFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],ClearRetrievalFilter method, IDXGIInfoQueue.ClearRetrievalFilter, IDXGIInfoQueue::ClearRetrievalFilter, direct3ddxgi.idxgiinfoqueue_clearretrievalfilter, dxgidebug/IDXGIInfoQueue::ClearRetrievalFilter
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.ClearRetrievalFilter"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.ClearRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.ClearRetrievalFilter
+- IDXGIInfoQueue.ClearRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IAccessibleHostingElementProviders.GetObjectIdForProvider
 title: IAccessibleHostingElementProviders::GetObjectIdForProvider (uiautomationcore.h)
-
 description: Retrieves the object ID associated with a contained windowless Microsoft ActiveX control that implements Microsoft UI Automation.
 old-location: winauto\uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider.htm
 tech.root: WinAuto
 ms.assetid: 847F285F-F31D-486C-BBC7-DEED69505306
-
 ms.date: 12/05/2018
 ms.keywords: GetObjectIdForProvider, GetObjectIdForProvider method [Windows Accessibility], GetObjectIdForProvider method [Windows Accessibility],IAccessibleHostingElementProviders interface, IAccessibleHostingElementProviders interface [Windows Accessibility],GetObjectIdForProvider method, IAccessibleHostingElementProviders.GetObjectIdForProvider, IAccessibleHostingElementProviders::GetObjectIdForProvider, uiautomationcore/IAccessibleHostingElementProviders::GetObjectIdForProvider, winauto.uiauto_IAccessibleHostingElementProviders_GetObjectIdForProvider
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IAccessibleHostingElementProviders.GetObjectIdForProvider"
+f1_keywords:
+- uiautomationcore/IAccessibleHostingElementProviders.GetObjectIdForProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IAccessibleHostingElementProviders.GetObjectIdForProvider
+- IAccessibleHostingElementProviders.GetObjectIdForProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

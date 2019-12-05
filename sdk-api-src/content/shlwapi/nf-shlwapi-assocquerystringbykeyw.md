@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.AssocQueryStringByKeyW
 title: AssocQueryStringByKeyW function (shlwapi.h)
-
 description: Searches for and retrieves a file association-related string from the registry starting from a specified key.
 old-location: shell\AssocQueryStringByKey.htm
 tech.root: shell
 ms.assetid: 6816f7fe-9a70-4c5f-bd45-d1ca96d4ebd0
-
 ms.date: 12/05/2018
 ms.keywords: AssocQueryStringByKey, AssocQueryStringByKey function [Windows Shell], AssocQueryStringByKeyA, AssocQueryStringByKeyW, _win32_AssocQueryStringByKey, shell.AssocQueryStringByKey, shlwapi/AssocQueryStringByKey, shlwapi/AssocQueryStringByKeyA, shlwapi/AssocQueryStringByKeyW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/AssocQueryStringByKey"
+f1_keywords:
+- shlwapi/AssocQueryStringByKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - AssocQueryStringByKey
- - AssocQueryStringByKeyA
- - AssocQueryStringByKeyW
+- AssocQueryStringByKey
+- AssocQueryStringByKeyA
+- AssocQueryStringByKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

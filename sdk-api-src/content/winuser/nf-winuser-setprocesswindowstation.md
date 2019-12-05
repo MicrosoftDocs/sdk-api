@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetProcessWindowStation
 title: SetProcessWindowStation function (winuser.h)
-
 description: Assigns the specified window station to the calling process.
 old-location: winstation\setprocesswindowstation.htm
 tech.root: winstation
 ms.assetid: d64814a7-945c-4e73-a977-5f696d60610e
-
 ms.date: 12/05/2018
 ms.keywords: SetProcessWindowStation, SetProcessWindowStation function [Windows Stations and Desktops], _win32_setprocesswindowstation, base.setprocesswindowstation, winstation.setprocesswindowstation, winuser/SetProcessWindowStation
 ms.topic: function
-f1_keywords: 
- - "winuser/SetProcessWindowStation"
+f1_keywords:
+- winuser/SetProcessWindowStation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WindowStation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WindowStation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - SetProcessWindowStation
+- SetProcessWindowStation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlayDisplay
 title: IDirectDrawSurface7::UpdateOverlayDisplay (ddraw.h)
-
 description: The IDirectDrawSurface7::UpdateOverlayDisplay method is not currently implemented.
 old-location: directdraw\idirectdrawsurface7_updateoverlaydisplay.htm
 tech.root: directdraw
 ms.assetid: 50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],UpdateOverlayDisplay method, IDirectDrawSurface7.UpdateOverlayDisplay, IDirectDrawSurface7::UpdateOverlayDisplay, UpdateOverlayDisplay, UpdateOverlayDisplay method [DirectDraw], UpdateOverlayDisplay method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::UpdateOverlayDisplay, directdraw.idirectdrawsurface7_updateoverlaydisplay
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.UpdateOverlayDisplay"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.UpdateOverlayDisplay
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.UpdateOverlayDisplay
+- IDirectDrawSurface7.UpdateOverlayDisplay
 targetos: Windows
 req.typenames: 
 req.redist: 

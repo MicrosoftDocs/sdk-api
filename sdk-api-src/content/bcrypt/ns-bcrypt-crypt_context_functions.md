@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXT_FUNCTIONS
 title: CRYPT_CONTEXT_FUNCTIONS (bcrypt.h)
-
 description: Contains a set of cryptographic functions for a CNG configuration context.
 old-location: security\crypt_context_functions.htm
 tech.root: SecCNG
 ms.assetid: c576f39c-a03a-47aa-90b7-500736070c6f
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS structure [Security], PCRYPT_CONTEXT_FUNCTIONS, PCRYPT_CONTEXT_FUNCTIONS structure pointer [Security], bcrypt/CRYPT_CONTEXT_FUNCTIONS, bcrypt/PCRYPT_CONTEXT_FUNCTIONS, security.crypt_context_functions"
+ms.keywords: '*PCRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS structure [Security], PCRYPT_CONTEXT_FUNCTIONS, PCRYPT_CONTEXT_FUNCTIONS structure pointer [Security], bcrypt/CRYPT_CONTEXT_FUNCTIONS, bcrypt/PCRYPT_CONTEXT_FUNCTIONS, security.crypt_context_functions'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_CONTEXT_FUNCTIONS"
+f1_keywords:
+- bcrypt/CRYPT_CONTEXT_FUNCTIONS
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_CONTEXT_FUNCTIONS
+- CRYPT_CONTEXT_FUNCTIONS
 targetos: Windows
 req.typenames: CRYPT_CONTEXT_FUNCTIONS, *PCRYPT_CONTEXT_FUNCTIONS
 req.redist: 

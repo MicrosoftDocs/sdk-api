@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.CreateGPO
 title: IGPMDomain::CreateGPO (gpmgmt.h)
-
 description: Creates and retrieves a GPMGPO object with a default display name. Typically, the caller sets the display name immediately after calling this method.
 old-location: gpmc\igpmdomain_creategpo.htm
 tech.root: gpmc
 ms.assetid: 00e83637-820b-488e-abf4-4210ac3b98b6
-
 ms.date: 12/05/2018
 ms.keywords: CreateGPO, CreateGPO method [GPMC], CreateGPO method [GPMC],GPMDomain object, CreateGPO method [GPMC],IGPMDomain interface, GPMDomain object [GPMC],CreateGPO method, IGPMDomain interface [GPMC],CreateGPO method, IGPMDomain.CreateGPO, IGPMDomain::CreateGPO, _win32_igpmdomain_creategpo, gpmc.igpmdomain_creategpo, gpmgmt/IGPMDomain::CreateGPO
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMDomain.CreateGPO"
+f1_keywords:
+- gpmgmt/IGPMDomain.CreateGPO
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMDomain.CreateGPO
- - GPMDomain.CreateGPO
+- IGPMDomain.CreateGPO
+- GPMDomain.CreateGPO
 targetos: Windows
 req.typenames: 
 req.redist: 

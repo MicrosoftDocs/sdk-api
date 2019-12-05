@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsAccessControlList.RemoveAce
 title: IADsAccessControlList::RemoveAce (iads.h)
-
 description: Removes an access-control entry (ACE) from the access-control list (ACL).
 old-location: adsi\iadsaccesscontrollist_removeace.htm
 tech.root: adsi
 ms.assetid: 29c1ffcc-5a66-4ee3-889a-747953c604a4
-
 ms.date: 12/05/2018
 ms.keywords: IADsAccessControlList interface [ADSI],RemoveAce method, IADsAccessControlList.RemoveAce, IADsAccessControlList::RemoveAce, RemoveAce, RemoveAce method [ADSI], RemoveAce method [ADSI],IADsAccessControlList interface, _ds_iadsaccesscontrollist_removeace, adsi.iadsaccesscontrollist__removeace, adsi.iadsaccesscontrollist_removeace, iads/IADsAccessControlList::RemoveAce
 ms.topic: method
-f1_keywords: 
- - "iads/IADsAccessControlList.RemoveAce"
+f1_keywords:
+- iads/IADsAccessControlList.RemoveAce
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsAccessControlList.RemoveAce
+- IADsAccessControlList.RemoveAce
 targetos: Windows
 req.typenames: 
 req.redist: 

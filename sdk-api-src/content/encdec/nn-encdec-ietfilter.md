@@ -1,19 +1,17 @@
 ---
 UID: NN:encdec.IETFilter
 title: IETFilter (encdec.h)
-
 description: The IETFilter interface is exposed by the Encrypter/Tagger filter. Most applications will not have to use this interface.
 old-location: mstv\ietfilter.htm
 tech.root: mstv
 ms.assetid: 9fce6b33-394c-47d2-9d02-7b0dadaa1736
-
 ms.date: 12/05/2018
 ms.keywords: IETFilter, IETFilter interface [Microsoft TV Technologies], IETFilter interface [Microsoft TV Technologies],described, IETFilterInterface, encdec/IETFilter, mstv.ietfilter
 ms.topic: interface
-f1_keywords: 
- - "encdec/IETFilter"
+f1_keywords:
+- encdec/IETFilter
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IETFilter
+- IETFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

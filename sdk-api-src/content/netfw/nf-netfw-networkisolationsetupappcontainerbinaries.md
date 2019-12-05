@@ -1,19 +1,17 @@
 ---
 UID: NF:netfw.NetworkIsolationSetupAppContainerBinaries
 title: NetworkIsolationSetupAppContainerBinaries function (netfw.h)
-
 description: Is used by software installers to provide information about the image paths of applications that are running in an app container.
 old-location: ics\networkisolationsetupappcontainerbinaries.htm
 tech.root: ics
 ms.assetid: 67a183ec-b318-4f43-9241-cc34b9b251f1
-
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationSetupAppContainerBinaries, NetworkIsolationSetupAppContainerBinaries function [ICS/ICF], ics.networkisolationsetupappcontainerbinaries, networkisolation/NetworkIsolationSetupAppContainerBinaries
 ms.topic: function
-f1_keywords: 
- - "netfw/NetworkIsolationSetupAppContainerBinaries"
+f1_keywords:
+- netfw/NetworkIsolationSetupAppContainerBinaries
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
- - API-MS-Win-Net-Isolation-l1-1-0.dll
- - API-MS-Win-Net-Isolation-l1-1-1.dll
- - wfapihost.dll
+- firewallapi.dll
+- API-MS-Win-Net-Isolation-l1-1-0.dll
+- API-MS-Win-Net-Isolation-l1-1-1.dll
+- wfapihost.dll
 api_name:
- - NetworkIsolationSetupAppContainerBinaries
+- NetworkIsolationSetupAppContainerBinaries
 targetos: Windows
 req.typenames: 
 req.redist: 

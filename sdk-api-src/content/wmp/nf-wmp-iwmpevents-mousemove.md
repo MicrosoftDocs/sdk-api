@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseMove
 title: IWMPEvents::MouseMove (wmp.h)
-
 description: The MouseMove event occurs when the mouse pointer is moved.
 old-location: wmp\iwmpevents_iwmpevents__mousemove.htm
 tech.root: WMP
 ms.assetid: ca0b438f-2093-41b0-9170-ec59656b70e1
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MouseMove method, IWMPEvents.MouseMove, IWMPEvents::MouseMove, IWMPEventsMouseMove, MouseMove, MouseMove method [Windows Media Player], MouseMove method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__mousemove, wmp/IWMPEvents::MouseMove
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.MouseMove"
+f1_keywords:
+- wmp/IWMPEvents.MouseMove
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.MouseMove
+- IWMPEvents.MouseMove
 targetos: Windows
 req.typenames: 
 req.redist: 

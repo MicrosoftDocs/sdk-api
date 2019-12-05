@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisualBrush.GetVisualLookup
 title: IXpsOMVisualBrush::GetVisualLookup (xpsobjectmodel.h)
-
 description: Gets the lookup key name of a visual in a resource dictionary; the visual is to be used as the source for the brush.
 old-location: xps\ixpsomvisualbrush_getvisuallookup.htm
 tech.root: printdocs
 ms.assetid: 091cb7f3-6302-40a0-b509-c72e20109f75
-
 ms.date: 12/05/2018
 ms.keywords: GetVisualLookup, GetVisualLookup method [XPS Documents and Packaging], GetVisualLookup method [XPS Documents and Packaging],IXpsOMVisualBrush interface, IXpsOMVisualBrush interface [XPS Documents and Packaging],GetVisualLookup method, IXpsOMVisualBrush.GetVisualLookup, IXpsOMVisualBrush::GetVisualLookup, xps.ixpsomvisualbrush_getvisuallookup, xpsobjectmodel/IXpsOMVisualBrush::GetVisualLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisualBrush.GetVisualLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisualBrush.GetVisualLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush.GetVisualLookup
+- IXpsOMVisualBrush.GetVisualLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

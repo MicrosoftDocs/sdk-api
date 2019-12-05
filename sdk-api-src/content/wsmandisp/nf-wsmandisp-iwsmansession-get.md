@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Get
 title: IWSManSession::Get (wsmandisp.h)
-
 description: Retrieves the resource specified by the URI and returns an XML representation of the current instance of the resource.
 old-location: winrm\iwsmansession_get.htm
 tech.root: winrm
 ms.assetid: f6393cfb-0787-4d30-8d02-be0996885f22
-
 ms.date: 12/05/2018
 ms.keywords: Get, Get method [Windows Remote Management], Get method [Windows Remote Management],IWSManSession interface, IWSManSession interface [Windows Remote Management],Get method, IWSManSession.Get, IWSManSession::Get, winrm.iwsmansession_get, wsmandisp/IWSManSession::Get
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManSession.Get"
+f1_keywords:
+- wsmandisp/IWSManSession.Get
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManSession.Get
+- IWSManSession.Get
 targetos: Windows
 req.typenames: 
 req.redist: 

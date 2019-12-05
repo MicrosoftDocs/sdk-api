@@ -1,46 +1,43 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.Close
 title: ID3D12VideoDecodeCommandList::Close
-
 description: Indicates that recording to the command list has finished.
 tech.root: mf
 ms.assetid: 3fcd7926-a57a-452f-99b0-14360b2d3094
-
 ms.date: 05/28/2019
 ms.topic: method
 f1_keywords:
- - ID3D12VideoDecodeCommandList::Close
+- ID3D12VideoDecodeCommandList::Close
 dev_langs:
- - c++
+- c++
 ms.keywords: ID3D12VideoDecodeCommandList::Close, Close, ID3D12VideoDecodeCommandList.Close, ID3D12VideoDecodeCommandList::Close, ID3D12VideoDecodeCommandList.Close
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
 req.dll: d3d12.dll
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12VideoDecodeCommandList::Close
+- ID3D12VideoDecodeCommandList::Close
 targetos: Windows
-
 ---
 
 # ID3D12VideoDecodeCommandList::Close

@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IProgressDialog
 title: IProgressDialog (shlobj_core.h)
-
 description: Exposes methods that provide options for an application to display a progress dialog box.
 old-location: shell\IProgressDialog.htm
 tech.root: shell
 ms.assetid: ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb
-
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog, IProgressDialog interface [Windows Shell], IProgressDialog interface [Windows Shell],described, _win32_IProgressDialog, shell.IProgressDialog, shlobj_core/IProgressDialog
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IProgressDialog"
+f1_keywords:
+- shlobj_core/IProgressDialog
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog
+- IProgressDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

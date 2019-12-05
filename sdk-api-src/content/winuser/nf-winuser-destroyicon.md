@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DestroyIcon
 title: DestroyIcon function (winuser.h)
-
 description: Destroys an icon and frees any memory the icon occupied.
 old-location: menurc\destroyicon.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\destroyicon.htm
-
 ms.date: 12/05/2018
 ms.keywords: DestroyIcon, DestroyIcon function [Menus and Other Resources], _win32_DestroyIcon, _win32_destroyicon_cpp, menurc.destroyicon, winui._win32_destroyicon, winuser/DestroyIcon
 ms.topic: function
-f1_keywords: 
- - "winuser/DestroyIcon"
+f1_keywords:
+- winuser/DestroyIcon
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-0.dll
- - Ext-MS-Win-NTUser-GUI-l1-1-1.dll
- - Ext-MS-Win-NTUser-GUI-l1-2-0.dll
- - api-ms-win-ntuser-ie-gui-l1-1-0.dll
- - ie_stubs.dll
- - ext-ms-win-ntuser-gui-l1-2-1.dll
- - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-0.dll
+- Ext-MS-Win-NTUser-GUI-l1-1-1.dll
+- Ext-MS-Win-NTUser-GUI-l1-2-0.dll
+- api-ms-win-ntuser-ie-gui-l1-1-0.dll
+- ie_stubs.dll
+- ext-ms-win-ntuser-gui-l1-2-1.dll
+- Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - DestroyIcon
+- DestroyIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

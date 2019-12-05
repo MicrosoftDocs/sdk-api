@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.ExecuteCommandList
 title: ID3D11DeviceContext::ExecuteCommandList (d3d11.h)
-
 description: Queues commands from a command list onto a device.
 old-location: direct3d11\id3d11devicecontext_executecommandlist.htm
 tech.root: direct3d11
 ms.assetid: 54e74f7d-b8a4-458d-bb39-3d8a824f06ef
-
 ms.date: 12/05/2018
 ms.keywords: 451c8cc4-04fc-6682-9b16-549845617e3e, ExecuteCommandList, ExecuteCommandList method [Direct3D 11], ExecuteCommandList method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],ExecuteCommandList method, ID3D11DeviceContext.ExecuteCommandList, ID3D11DeviceContext::ExecuteCommandList, d3d11/ID3D11DeviceContext::ExecuteCommandList, direct3d11.id3d11devicecontext_executecommandlist
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.ExecuteCommandList"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.ExecuteCommandList
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3d11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.lib
- - d3d11.dll
+- d3d11.lib
+- d3d11.dll
 api_name:
- - ID3D11DeviceContext.ExecuteCommandList
+- ID3D11DeviceContext.ExecuteCommandList
 targetos: Windows
 req.typenames: 
 req.redist: 

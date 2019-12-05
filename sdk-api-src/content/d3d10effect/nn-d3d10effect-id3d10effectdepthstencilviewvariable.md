@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectDepthStencilViewVariable
 title: ID3D10EffectDepthStencilViewVariable (d3d10effect.h)
-
 description: A depth-stencil-view-variable interface accesses a depth-stencil view.
 old-location: direct3d10\id3d10effectdepthstencilviewvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable.htm
-
 ms.date: 12/05/2018
 ms.keywords: 264cb8cf-4a76-a538-f9c5-5ae2e743f9ed, ID3D10EffectDepthStencilViewVariable, ID3D10EffectDepthStencilViewVariable interface [Direct3D 10], ID3D10EffectDepthStencilViewVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectDepthStencilViewVariable, direct3d10.id3d10effectdepthstencilviewvariable
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectDepthStencilViewVariable"
+f1_keywords:
+- d3d10effect/ID3D10EffectDepthStencilViewVariable
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectDepthStencilViewVariable
+- ID3D10EffectDepthStencilViewVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

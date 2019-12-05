@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIOutput.SetDisplaySurface
 title: IDXGIOutput::SetDisplaySurface (dxgi.h)
-
 description: Changes the display mode.
 old-location: direct3ddxgi\idxgioutput_setdisplaysurface.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_setdisplaysurface.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIOutput interface [DXGI],SetDisplaySurface method, IDXGIOutput.SetDisplaySurface, IDXGIOutput::SetDisplaySurface, SetDisplaySurface, SetDisplaySurface method [DXGI], SetDisplaySurface method [DXGI],IDXGIOutput interface, bc8ee3fe-fb5c-f873-f935-ac30c6491e36, direct3ddxgi.idxgioutput_setdisplaysurface, dxgi/IDXGIOutput::SetDisplaySurface
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIOutput.SetDisplaySurface"
+f1_keywords:
+- dxgi/IDXGIOutput.SetDisplaySurface
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput.SetDisplaySurface
+- IDXGIOutput.SetDisplaySurface
 targetos: Windows
 req.typenames: 
 req.redist: 

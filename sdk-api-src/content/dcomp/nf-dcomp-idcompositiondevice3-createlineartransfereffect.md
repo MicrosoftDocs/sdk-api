@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateLinearTransferEffect
 title: IDCompositionDevice3::CreateLinearTransferEffect (dcomp.h)
-
 description: Creates an instance of IDCompositionLinearTransferEffect.
 old-location: directcomp\idcompositiondevice3_createlineartransfereffect.htm
 tech.root: directcomp
 ms.assetid: C819B72A-ACE7-4201-9C4A-9D72E9E95FF7
-
 ms.date: 12/05/2018
 ms.keywords: CreateLinearTransferEffect, CreateLinearTransferEffect method [DirectComposition], CreateLinearTransferEffect method [DirectComposition],IDCompositionDevice3 interface, IDCompositionDevice3 interface [DirectComposition],CreateLinearTransferEffect method, IDCompositionDevice3.CreateLinearTransferEffect, IDCompositionDevice3::CreateLinearTransferEffect, dcomp/IDCompositionDevice3::CreateLinearTransferEffect, directcomp.idcompositiondevice3_createlineartransfereffect
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice3.CreateLinearTransferEffect"
+f1_keywords:
+- dcomp/IDCompositionDevice3.CreateLinearTransferEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dcomp.dll
+- dcomp.dll
 api_name:
- - IDCompositionDevice3.CreateLinearTransferEffect
+- IDCompositionDevice3.CreateLinearTransferEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

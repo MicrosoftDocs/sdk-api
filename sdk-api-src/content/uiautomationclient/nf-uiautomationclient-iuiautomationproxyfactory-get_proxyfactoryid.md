@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactory.get_ProxyFactoryId
 title: IUIAutomationProxyFactory::get_ProxyFactoryId (uiautomationclient.h)
-
 description: Retrieves the identifier of the proxy factory.
 old-location: winauto\uiauto_IUIAutomationProxyFactory_ProxyFactoryId.htm
 tech.root: WinAuto
 ms.assetid: 6ca12f18-7826-469c-8d4d-517c54a44138
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactory interface [Windows Accessibility],ProxyFactoryId property, IUIAutomationProxyFactory.ProxyFactoryId, IUIAutomationProxyFactory.get_ProxyFactoryId, IUIAutomationProxyFactory::ProxyFactoryId, IUIAutomationProxyFactory::get_ProxyFactoryId, ProxyFactoryId property [Windows Accessibility], ProxyFactoryId property [Windows Accessibility],IUIAutomationProxyFactory interface, get_ProxyFactoryId, uiauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId, uiauto_IUIAutomationProxyFactory_ProxyFactoryId, uiautomationclient/IUIAutomationProxyFactory::ProxyFactoryId, uiautomationclient/IUIAutomationProxyFactory::get_ProxyFactoryId, winauto.uiauto_IUIAutomationProxyFactory_ProxyFactoryId
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactory.ProxyFactoryId"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactory.ProxyFactoryId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactory.ProxyFactoryId
- - IUIAutomationProxyFactory.get_ProxyFactoryId
+- IUIAutomationProxyFactory.ProxyFactoryId
+- IUIAutomationProxyFactory.get_ProxyFactoryId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.GetSystemFontSet
 title: IDWriteFactory3::GetSystemFontSet (dwrite_3.h)
-
 description: Retrieves the list of system fonts.
 old-location: directwrite\idwritefactory3_getsystemfontset.htm
 tech.root: DirectWrite
 ms.assetid: 84fd8c9f-f4b1-3015-f431-08b7a07ff32b
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemFontSet, GetSystemFontSet method [Direct Write], GetSystemFontSet method [Direct Write],IDWriteFactory3 interface, IDWriteFactory3 interface [Direct Write],GetSystemFontSet method, IDWriteFactory3.GetSystemFontSet, IDWriteFactory3::GetSystemFontSet, directwrite.idwritefactory3_getsystemfontset, dwrite_3/IDWriteFactory3::GetSystemFontSet
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory3.GetSystemFontSet"
+f1_keywords:
+- dwrite_3/IDWriteFactory3.GetSystemFontSet
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory3.GetSystemFontSet
+- IDWriteFactory3.GetSystemFontSet
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appmodel.GetPackageInfo
 title: GetPackageInfo function (appmodel.h)
-
 description: Gets the package information for the specified package.
 old-location: appxpkg\getpackageinfo.htm
 tech.root: appxpkg
 ms.assetid: 28F45B3B-A61F-44D3-B606-6966AD5866FA
-
 ms.date: 12/05/2018
 ms.keywords: GetPackageInfo, GetPackageInfo function [App packaging and management], appmodel/GetPackageInfo, appxpkg.getpackageinfo
 ms.topic: function
-f1_keywords: 
- - "appmodel/GetPackageInfo"
+f1_keywords:
+- appmodel/GetPackageInfo
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-AppModel-Runtime-l1-1-0.dll
- - kernel32legacy.dll
- - Ext-MS-Win-kernel32-package-l1-1-0.dll
- - Kernel.AppCore.dll
- - API-MS-Win-AppModel-RunTime-l1-1-1.dll
- - Ext-MS-Win-Kernel32-package-l1-1-2.dll
- - ext-ms-win-kernel32-package-l1-1-1.dll
- - API-MS-Win-AppModel-Runtime-L1-1-2.dll
+- Kernel32.dll
+- API-MS-Win-AppModel-Runtime-l1-1-0.dll
+- kernel32legacy.dll
+- Ext-MS-Win-kernel32-package-l1-1-0.dll
+- Kernel.AppCore.dll
+- API-MS-Win-AppModel-RunTime-l1-1-1.dll
+- Ext-MS-Win-Kernel32-package-l1-1-2.dll
+- ext-ms-win-kernel32-package-l1-1-1.dll
+- API-MS-Win-AppModel-Runtime-L1-1-2.dll
 api_name:
- - GetPackageInfo
+- GetPackageInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

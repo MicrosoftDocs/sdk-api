@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Windows
 title: IRDPSRAPIApplication::get_Windows (rdpencomapi.h)
-
 description: The list of windows.
 old-location: rdp\irdpsrapiapplication_windows.htm
 tech.root: rdp
 ms.assetid: 6e6cf29d-e19a-43bd-a4e7-993c10bac92b
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIApplication interface [RDP],Windows property, IRDPSRAPIApplication.Windows, IRDPSRAPIApplication.get_Windows, IRDPSRAPIApplication::Windows, IRDPSRAPIApplication::get_Windows, RDPSRAPIApplication object [RDP],Windows property, Windows property [RDP], Windows property [RDP],IRDPSRAPIApplication interface, Windows property [RDP],RDPSRAPIApplication object, get_Windows, rdp.irdpsrapiapplication_windows, rdpencomapi/IRDPSRAPIApplication::Windows, rdpencomapi/IRDPSRAPIApplication::get_Windows
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIApplication.Windows"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIApplication.Windows
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIApplication.Windows
- - IRDPSRAPIApplication.get_Windows
- - RDPSRAPIApplication.Windows
+- IRDPSRAPIApplication.Windows
+- IRDPSRAPIApplication.get_Windows
+- RDPSRAPIApplication.Windows
 targetos: Windows
 req.typenames: 
 req.redist: 

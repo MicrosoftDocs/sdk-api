@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetTollListA
 title: lineSetTollListA function (tapi.h)
-
 description: The lineSetTollList function manipulates the toll list.
 old-location: tapi2\linesettolllist.htm
 tech.root: Tapi
 ms.assetid: 40471e45-cb1d-4730-ba35-ffec99953235
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist"
+ms.keywords: _tapi2_linesettolllist, lineSetTollList, lineSetTollList function [TAPI 2.2], lineSetTollListA, lineSetTollListW, tapi/lineSetTollList, tapi/lineSetTollListA, tapi/lineSetTollListW, tapi2.linesettolllist
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetTollList"
+f1_keywords:
+- tapi/lineSetTollList
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetTollList
- - lineSetTollListA
- - lineSetTollListW
+- lineSetTollList
+- lineSetTollListA
+- lineSetTollListW
 targetos: Windows
 req.typenames: 
 req.redist: 

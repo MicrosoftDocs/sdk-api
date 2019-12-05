@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.put_DualMode
 title: IMpegAudioDecoder::put_DualMode (mpegtype.h)
-
 description: Specifies the channel to be decoded.
 old-location: dshow\impegaudiodecoder_put_dualmode.htm
 tech.root: DirectShow
 ms.assetid: b183f669-14bf-44d4-a17d-09cbc593309d
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],put_DualMode method, IMpegAudioDecoder.put_DualMode, IMpegAudioDecoder::put_DualMode, IMpegAudioDecoderputDualMode, dshow.impegaudiodecoder_put_dualmode, mpegtype/IMpegAudioDecoder::put_DualMode, put_DualMode, put_DualMode method [DirectShow], put_DualMode method [DirectShow],IMpegAudioDecoder interface
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.put_DualMode"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.put_DualMode
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.put_DualMode
+- IMpegAudioDecoder.put_DualMode
 targetos: Windows
 req.typenames: 
 req.redist: 

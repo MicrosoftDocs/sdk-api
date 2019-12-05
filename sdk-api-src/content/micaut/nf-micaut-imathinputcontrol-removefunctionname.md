@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.RemoveFunctionName
 title: IMathInputControl::RemoveFunctionName (micaut.h)
-
 description: Removes a function-name definition from the list of custom math functions that the recognizer accepts.
 old-location: tablet\imathinputcontrol_removefunctionname.htm
 tech.root: tablet
 ms.assetid: 7c1a16c7-4490-480d-9831-ca297ccdde80
-
 ms.date: 12/05/2018
 ms.keywords: IMathInputControl interface [Tablet PC],RemoveFunctionName method, IMathInputControl.RemoveFunctionName, IMathInputControl::RemoveFunctionName, RemoveFunctionName, RemoveFunctionName method [Tablet PC], RemoveFunctionName method [Tablet PC],IMathInputControl interface, micaut/IMathInputControl::RemoveFunctionName, tablet.imathinputcontrol_removefunctionname
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.RemoveFunctionName"
+f1_keywords:
+- micaut/IMathInputControl.RemoveFunctionName
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.RemoveFunctionName
+- IMathInputControl.RemoveFunctionName
 targetos: Windows
 req.typenames: 
 req.redist: 

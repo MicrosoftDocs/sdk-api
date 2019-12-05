@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.SuspendScreenUpdates
 title: IRemoteDesktopClientActions::SuspendScreenUpdates (rdpappcontainerclient.h)
-
 description: Suspends screen updates being sent to the client.
 old-location: termserv\iremotedesktopclientactions_suspendscreenupdates.htm
 tech.root: TermServ
 ms.assetid: 0161ee5f-5e67-4bc9-b822-800c2b23ec44
-
 ms.date: 12/05/2018
 ms.keywords: IRemoteDesktopClientActions interface [Remote Desktop Services],SuspendScreenUpdates method, IRemoteDesktopClientActions.SuspendScreenUpdates, IRemoteDesktopClientActions::SuspendScreenUpdates, SuspendScreenUpdates, SuspendScreenUpdates method [Remote Desktop Services], SuspendScreenUpdates method [Remote Desktop Services],IRemoteDesktopClientActions interface, rdpappcontainerclient/IRemoteDesktopClientActions::SuspendScreenUpdates, termserv.iremotedesktopclientactions_suspendscreenupdates
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClientActions.SuspendScreenUpdates"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClientActions.SuspendScreenUpdates
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClientActions.SuspendScreenUpdates
+- IRemoteDesktopClientActions.SuspendScreenUpdates
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHPropStgCreate
 title: SHPropStgCreate function (shlobj_core.h)
-
 description: Ensures proper handling of code page retrieval or assignment for the requested property set operation.
 old-location: properties\SHPropStgCreate.htm
 tech.root: properties
 ms.assetid: fd99e04e-ef96-4357-9226-da6604fb0e84
-
 ms.date: 12/05/2018
 ms.keywords: CREATE_ALWAYS, CREATE_NEW, OPEN_ALWAYS, OPEN_EXISTING, SHPropStgCreate, SHPropStgCreate function [Windows Properties], _win32_SHPropStgCreate, properties.SHPropStgCreate, shell.SHPropStgCreate, shlobj_core/SHPropStgCreate
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHPropStgCreate"
+f1_keywords:
+- shlobj_core/SHPropStgCreate
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHPropStgCreate
+- SHPropStgCreate
 targetos: Windows
 req.typenames: 
 req.redist: 

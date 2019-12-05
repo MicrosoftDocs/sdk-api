@@ -1,19 +1,17 @@
 ---
 UID: NC:msacm.ACMDRIVERENUMCB
 title: ACMDRIVERENUMCB (msacm.h)
-
 description: The acmDriverEnumCallback function specifies a callback function used with the acmDriverEnum function. The acmDriverEnumCallback name is a placeholder for an application-defined function name.
 old-location: multimedia\acmdriverenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 8566fd31-ec0c-4325-b182-4765e81c7884
-
 ms.date: 12/05/2018
 ms.keywords: ACMDRIVERENUMCB, ACMDRIVERENUMCB callback, ACMDRIVERENUMCB callback function [Windows Multimedia], _win32_acmDriverEnumCallback, acmDriverEnumCallback, msacm/ACMDRIVERENUMCB, multimedia.acmdriverenumcallback
 ms.topic: callback
-f1_keywords: 
- - "msacm/ACMDRIVERENUMCB"
+f1_keywords:
+- msacm/ACMDRIVERENUMCB
 dev_langs:
- - c++
+- c++
 req.header: msacm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Msacm.h
+- Msacm.h
 api_name:
- - ACMDRIVERENUMCB
+- ACMDRIVERENUMCB
 targetos: Windows
 req.typenames: 
 req.redist: 

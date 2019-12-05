@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetKeywords
 title: IXpsOMCoreProperties::SetKeywords (xpsobjectmodel.h)
-
 description: Sets the keywords property.
 old-location: xps\ixpsomcoreproperties_setkeywords.htm
 tech.root: printdocs
 ms.assetid: d96a85d2-dfbf-4589-9c3f-7505715ec6ce
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMCoreProperties interface [XPS Documents and Packaging],SetKeywords method, IXpsOMCoreProperties.SetKeywords, IXpsOMCoreProperties::SetKeywords, SetKeywords, SetKeywords method [XPS Documents and Packaging], SetKeywords method [XPS Documents and Packaging],IXpsOMCoreProperties interface, xps.ixpsomcoreproperties_setkeywords, xpsobjectmodel/IXpsOMCoreProperties::SetKeywords
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.SetKeywords"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.SetKeywords
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.SetKeywords
+- IXpsOMCoreProperties.SetKeywords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.GetMultiplexedPacketSize
 title: IStreamBufferConfigure2::GetMultiplexedPacketSize (sbe.h)
-
 description: The GetMultiplexedPacketSize method returns the size of the multiplexed packets in the backing files for the Stream Buffer Engine.
 old-location: mstv\istreambufferconfigure2_getmultiplexedpacketsize.htm
 tech.root: mstv
 ms.assetid: 36b5cd06-ba6a-4546-98b6-4c8b47f7f62b
-
 ms.date: 12/05/2018
 ms.keywords: GetMultiplexedPacketSize, GetMultiplexedPacketSize method [Microsoft TV Technologies], GetMultiplexedPacketSize method [Microsoft TV Technologies],IStreamBufferConfigure2 interface, IStreamBufferConfigure2 interface [Microsoft TV Technologies],GetMultiplexedPacketSize method, IStreamBufferConfigure2.GetMultiplexedPacketSize, IStreamBufferConfigure2::GetMultiplexedPacketSize, IStreamBufferConfigure2GetMultiplexedPacketSize, mstv.istreambufferconfigure2_getmultiplexedpacketsize, sbe/IStreamBufferConfigure2::GetMultiplexedPacketSize
 ms.topic: method
-f1_keywords: 
- - "sbe/IStreamBufferConfigure2.GetMultiplexedPacketSize"
+f1_keywords:
+- sbe/IStreamBufferConfigure2.GetMultiplexedPacketSize
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - IStreamBufferConfigure2.GetMultiplexedPacketSize
+- IStreamBufferConfigure2.GetMultiplexedPacketSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.DisplayName
 title: IShellImageData::DisplayName (shimgdata.h)
-
 description: Gets the name of the file if IShellImageData was initialized on a file path. Otherwise, gets the name of the data stream.
 old-location: shell\IShellImageData_DisplayName.htm
 tech.root: shell
 ms.assetid: d2e95a44-2bf7-43e1-9a29-950acc34d2a4
-
 ms.date: 12/05/2018
 ms.keywords: DisplayName, DisplayName method [Windows Shell], DisplayName method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DisplayName method, IShellImageData.DisplayName, IShellImageData::DisplayName, _shell_IShellImageData_DisplayName, shell.IShellImageData_DisplayName, shimgdata/IShellImageData::DisplayName
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.DisplayName"
+f1_keywords:
+- shimgdata/IShellImageData.DisplayName
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.DisplayName
+- IShellImageData.DisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

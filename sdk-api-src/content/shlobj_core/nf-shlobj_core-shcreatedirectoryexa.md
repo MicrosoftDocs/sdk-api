@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectoryExA
 title: SHCreateDirectoryExA function (shlobj_core.h)
-
 description: Creates a new file system folder, with optional security attributes.
 old-location: shell\SHCreateDirectoryEx.htm
 tech.root: shell
 ms.assetid: 7f44f907-cd12-4156-91c0-76e577ae25f6
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateDirectoryEx, SHCreateDirectoryEx function [Windows Shell], SHCreateDirectoryExA, SHCreateDirectoryExW, _win32_SHCreateDirectoryEx, shell.SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryEx, shlobj_core/SHCreateDirectoryExA, shlobj_core/SHCreateDirectoryExW
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHCreateDirectoryEx"
+f1_keywords:
+- shlobj_core/SHCreateDirectoryEx
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h, Shlobj_core.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - API-MS-Win-shell-shellfolders-l1-1-0.dll
- - KernelBase.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
- - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
- - Windows.Storage.dll
+- Shell32.dll
+- API-MS-Win-shell-shellfolders-l1-1-0.dll
+- KernelBase.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-0.dll
+- Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
+- Windows.Storage.dll
 api_name:
- - SHCreateDirectoryEx
- - SHCreateDirectoryExA
- - SHCreateDirectoryExW
+- SHCreateDirectoryEx
+- SHCreateDirectoryExA
+- SHCreateDirectoryExW
 targetos: Windows
 req.typenames: 
 req.redist: 

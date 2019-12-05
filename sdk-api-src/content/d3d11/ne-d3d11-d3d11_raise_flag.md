@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_RAISE_FLAG
 title: D3D11_RAISE_FLAG (d3d11.h)
-
 description: Option(s) for raising an error to a non-continuable exception.
 old-location: direct3d11\d3d11_raise_flag.htm
 tech.root: direct3d11
 ms.assetid: cdb88a12-153d-4f92-89c8-d3dab1b6bed5
-
 ms.date: 12/05/2018
 ms.keywords: 629223d9-c558-e5d3-12db-bfbc10b77ade, D3D11_RAISE_FLAG, D3D11_RAISE_FLAG enumeration [Direct3D 11], D3D11_RAISE_FLAG_DRIVER_INTERNAL_ERROR, d3d11/D3D11_RAISE_FLAG, d3d11/D3D11_RAISE_FLAG_DRIVER_INTERNAL_ERROR, direct3d11.d3d11_raise_flag
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_RAISE_FLAG"
+f1_keywords:
+- d3d11/D3D11_RAISE_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_RAISE_FLAG
+- D3D11_RAISE_FLAG
 targetos: Windows
 req.typenames: D3D11_RAISE_FLAG
 req.redist: 

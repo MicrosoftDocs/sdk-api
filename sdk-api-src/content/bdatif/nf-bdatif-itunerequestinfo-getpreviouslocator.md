@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.ITuneRequestInfo.GetPreviousLocator
 title: ITuneRequestInfo::GetPreviousLocator (bdatif.h)
-
 description: The GetPreviousLocator method creates a new tune request with locator information for the previous transport stream.
 old-location: mstv\itunerequestinfo_getpreviouslocator.htm
 tech.root: mstv
 ms.assetid: 72512da5-28d4-40b8-93df-039014f432c0
-
 ms.date: 12/05/2018
 ms.keywords: GetPreviousLocator, GetPreviousLocator method [Microsoft TV Technologies], GetPreviousLocator method [Microsoft TV Technologies],ITuneRequestInfo interface, ITuneRequestInfo interface [Microsoft TV Technologies],GetPreviousLocator method, ITuneRequestInfo.GetPreviousLocator, ITuneRequestInfo::GetPreviousLocator, ITuneRequestInfoGetPreviousLocator, bdatif/ITuneRequestInfo::GetPreviousLocator, mstv.itunerequestinfo_getpreviouslocator
 ms.topic: method
-f1_keywords: 
- - "bdatif/ITuneRequestInfo.GetPreviousLocator"
+f1_keywords:
+- bdatif/ITuneRequestInfo.GetPreviousLocator
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - ITuneRequestInfo.GetPreviousLocator
+- ITuneRequestInfo.GetPreviousLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

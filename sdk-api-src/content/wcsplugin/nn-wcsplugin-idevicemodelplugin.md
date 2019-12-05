@@ -1,19 +1,17 @@
 ---
 UID: NN:wcsplugin.IDeviceModelPlugIn
 title: IDeviceModelPlugIn (wcsplugin.h)
-
 description: Describes the methods that are defined for the IDeviceModelPlugIn Component Object Model (COM) interface.
 old-location: wcs\idevicemodelplugin.htm
 tech.root: WCS
 ms.assetid: 90541ec2-c0ab-4f98-906b-3e58f8f5cc03
-
 ms.date: 12/05/2018
 ms.keywords: IDeviceModelPlugIn, IDeviceModelPlugIn interface [Windows Color System], IDeviceModelPlugIn interface [Windows Color System],described, _color_IDeviceModelPlugIn, wcs.idevicemodelplugin, wcsplugin/IDeviceModelPlugIn
 ms.topic: interface
-f1_keywords: 
- - "wcsplugin/IDeviceModelPlugIn"
+f1_keywords:
+- wcsplugin/IDeviceModelPlugIn
 dev_langs:
- - c++
+- c++
 req.header: wcsplugin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wcsplugin.h
+- wcsplugin.h
 api_name:
- - IDeviceModelPlugIn
+- IDeviceModelPlugIn
 targetos: Windows
 req.typenames: 
 req.redist: 

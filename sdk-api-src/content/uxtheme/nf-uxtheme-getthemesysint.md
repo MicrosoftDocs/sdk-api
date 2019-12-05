@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeSysInt
 title: GetThemeSysInt function (uxtheme.h)
-
 description: Retrieves the value of a system int.
 old-location: controls\GetThemeSysInt.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysint.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeSysInt, GetThemeSysInt function [Windows Controls], TMT_MINCOLORDEPTH, controls.GetThemeSysInt, controls.inet_GetThemeSysInt, inet_GetThemeSysInt, inet_GetThemeSysInt_cpp, uxtheme/GetThemeSysInt
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeSysInt"
+f1_keywords:
+- uxtheme/GetThemeSysInt
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
+- UxTheme.dll
 api_name:
- - GetThemeSysInt
+- GetThemeSysInt
 targetos: Windows
 req.typenames: 
 req.redist: 

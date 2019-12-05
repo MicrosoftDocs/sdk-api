@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetPacketAttachNetworkError
 title: IMbnRegistration::GetPacketAttachNetworkError (mbnapi.h)
-
 description: Gets the network error from a packet attach operation.
 old-location: mbn\imbnregistration_getpacketattachnetworkerror.htm
 tech.root: mbn
 ms.assetid: b51103fe-f4b2-46a5-9335-44bf6591e447
-
 ms.date: 12/05/2018
 ms.keywords: GetPacketAttachNetworkError, GetPacketAttachNetworkError method [Microsoft Broadband Networks], GetPacketAttachNetworkError method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetPacketAttachNetworkError method, IMbnRegistration.GetPacketAttachNetworkError, IMbnRegistration::GetPacketAttachNetworkError, mbn.imbnregistration_getpacketattachnetworkerror, mbnapi/IMbnRegistration::GetPacketAttachNetworkError
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetPacketAttachNetworkError"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetPacketAttachNetworkError
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetPacketAttachNetworkError
+- IMbnRegistration.GetPacketAttachNetworkError
 targetos: Windows
 req.typenames: 
 req.redist: 

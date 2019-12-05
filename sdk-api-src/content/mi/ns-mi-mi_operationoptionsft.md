@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_OperationOptionsFT
 title: MI_OperationOptionsFT (mi.h)
-
 description: A support structure used in the MI_OperationOptions structure. Use the functions with the name prefix &#0034;MI_OperationOptions_&#0034; to manipulate these structures.
 old-location: wmi_v2\mi_operationoptionsft.htm
 tech.root: wmi_v2
 ms.assetid: ed84d3bc-2cb0-4052-902d-96a3ab3a3ba4
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptionsFT, MI_OperationOptionsFT structure [Windows Management Infrastructure (MI)], mi/MI_OperationOptionsFT, wmi_v2.mi_operationoptionsft
 ms.topic: struct
 f1_keywords:
 - mi/MI_OperationOptionsFT
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

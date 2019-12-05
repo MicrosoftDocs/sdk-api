@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToGUID
 title: VariantToGUID function (propvarutil.h)
-
 description: Extracts a GUID property value of a variant structure.
 old-location: properties\VariantToGUID.htm
 tech.root: properties
 ms.assetid: 1af84b55-da7e-430c-97fe-1c544a40c039
-
 ms.date: 12/05/2018
 ms.keywords: VariantToGUID, VariantToGUID function [Windows Properties], _shell_VariantToGUID, properties.VariantToGUID, propvarutil/VariantToGUID, shell.VariantToGUID
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToGUID"
+f1_keywords:
+- propvarutil/VariantToGUID
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToGUID
+- VariantToGUID
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

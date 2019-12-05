@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataCollectorSet.SetXml
 title: IDataCollectorSet::SetXml (pla.h)
-
 description: Sets the property values of those properties included in the XML.
 old-location: pla\idatacollectorset_setxml.htm
 tech.root: PLA
 ms.assetid: 10bffd54-990f-412f-baae-b8ab621b02b8
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSet interface [PLA],SetXml method, IDataCollectorSet.SetXml, IDataCollectorSet::SetXml, SetXml, SetXml method [PLA], SetXml method [PLA],IDataCollectorSet interface, base.idatacollectorset_setxml, pla.idatacollectorset_setxml, pla/IDataCollectorSet::SetXml
 ms.topic: method
-f1_keywords: 
- - "pla/IDataCollectorSet.SetXml"
+f1_keywords:
+- pla/IDataCollectorSet.SetXml
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSet.SetXml
+- IDataCollectorSet.SetXml
 targetos: Windows
 req.typenames: 
 req.redist: 

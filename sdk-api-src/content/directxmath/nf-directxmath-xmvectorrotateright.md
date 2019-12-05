@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorRotateRight
 title: XMVectorRotateRight function (directxmath.h)
-
 description: Rotates the vector right by a given number of 32-bit elements.
 old-location: dxmath\xmvectorrotateright.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorRotateRight(XMVECTOR,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorRotateRight, XMVectorRotateRight, XMVectorRotateRight method [DirectX Math Support APIs], dxmath.xmvectorrotateright
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorRotateRight"
+f1_keywords:
+- directxmath/XMVectorRotateRight
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorRotateRight
+- XMVectorRotateRight
 targetos: Windows
 req.typenames: 
 req.redist: 

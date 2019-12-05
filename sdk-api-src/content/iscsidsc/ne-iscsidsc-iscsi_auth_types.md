@@ -1,19 +1,17 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_1
 title: ISCSI_AUTH_TYPES (iscsidsc.h)
-
 description: ISCSI_AUTH_TYPES enumeration indicates the type of authentication method utilized.
 old-location: iscsidisc\iscsi_auth_types.htm
 tech.root: iSCSIDisc
 ms.assetid: 432f1968-e2ca-4594-80cc-0f1a852ec81a
-
 ms.date: 12/05/2018
-ms.keywords: "*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [iSCSI Discovery Library API], ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, iscsidisc.iscsi_auth_types, iscsidsc/ISCSI_AUTH_TYPES, iscsidsc/ISCSI_CHAP_AUTH_TYPE, iscsidsc/ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidsc/ISCSI_NO_AUTH_TYPE"
+ms.keywords: '*PISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES, ISCSI_AUTH_TYPES enumeration [iSCSI Discovery Library API], ISCSI_CHAP_AUTH_TYPE, ISCSI_MUTUAL_CHAP_AUTH_TYPE, ISCSI_NO_AUTH_TYPE, iscsidisc.iscsi_auth_types, iscsidsc/ISCSI_AUTH_TYPES, iscsidsc/ISCSI_CHAP_AUTH_TYPE, iscsidsc/ISCSI_MUTUAL_CHAP_AUTH_TYPE, iscsidsc/ISCSI_NO_AUTH_TYPE'
 ms.topic: enum
-f1_keywords: 
- - "iscsidsc/ISCSI_AUTH_TYPES"
+f1_keywords:
+- iscsidsc/ISCSI_AUTH_TYPES
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iscsidsc.h
+- Iscsidsc.h
 api_name:
- - ISCSI_AUTH_TYPES
+- ISCSI_AUTH_TYPES
 targetos: Windows
 req.typenames: ISCSI_AUTH_TYPES, *PISCSI_AUTH_TYPES
 req.redist: 

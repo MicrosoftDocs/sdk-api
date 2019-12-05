@@ -1,19 +1,17 @@
 ---
 UID: NF:t2embapi.TTEmbedFont
 title: TTEmbedFont function (t2embapi.h)
-
 description: Creates a font structure containing the subsetted wide-character (16-bit) font. The current font of the device context (hDC) provides the font information.
 old-location: gdi\ttembedfont.htm
 tech.root: gdi
 ms.assetid: 32f1df87-b742-4b5a-8c61-07e758c7660b
-
 ms.date: 12/05/2018
 ms.keywords: CHARSET_SYMBOL, CHARSET_UNICODE, EMBED_EDITABLE, EMBED_INSTALLABLE, EMBED_NOEMBEDDING, EMBED_PREVIEWPRINT, TTEMBED_EMBEDEUDC, TTEMBED_RAW, TTEMBED_SUBSET, TTEMBED_TTCOMPRESSED, TTEmbedFont, TTEmbedFont function [Windows GDI], _win32_TTEmbedFont, gdi.ttembedfont, t2embapi/TTEmbedFont
 ms.topic: function
-f1_keywords: 
- - "t2embapi/TTEmbedFont"
+f1_keywords:
+- t2embapi/TTEmbedFont
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: T2embed.lib
 req.dll: T2embed.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - T2embed.dll
+- T2embed.dll
 api_name:
- - TTEmbedFont
+- TTEmbedFont
 targetos: Windows
 req.typenames: 
 req.redist: 

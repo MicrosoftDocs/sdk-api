@@ -1,19 +1,17 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.SetParentEffect
 title: IMILBitmapEffectImpl::SetParentEffect (mileffects.h)
-
 description: Sets the parent of the effect.
 old-location: wibe\_wibe_imilbitmapeffectimpl_setparenteffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\setparenteffect.htm
-
 ms.date: 12/05/2018
 ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],SetParentEffect method, IMILBitmapEffectImpl.SetParentEffect, IMILBitmapEffectImpl::SetParentEffect, SetParentEffect, SetParentEffect method [WPF Bitmap Effects], SetParentEffect method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_setparenteffect, mileffects/IMILBitmapEffectImpl::SetParentEffect, wibe._wibe_imilbitmapeffectimpl_setparenteffect
 ms.topic: method
-f1_keywords: 
- - "mileffects/IMILBitmapEffectImpl.SetParentEffect"
+f1_keywords:
+- mileffects/IMILBitmapEffectImpl.SetParentEffect
 dev_langs:
- - c++
+- c++
 req.header: mileffects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mileffects.h
+- Mileffects.h
 api_name:
- - IMILBitmapEffectImpl.SetParentEffect
+- IMILBitmapEffectImpl.SetParentEffect
 targetos: Windows
 req.typenames: 
 req.redist: Microsoft .Net 3.0

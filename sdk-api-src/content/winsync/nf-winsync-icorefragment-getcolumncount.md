@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ICoreFragment.GetColumnCount
 title: ICoreFragment::GetColumnCount (winsync.h)
-
 description: Gets the number of columns that are contained in this knowledge fragment.
 old-location: winsync\icorefragment_getcolumncount.htm
 tech.root: winsync
 ms.assetid: 5f1aff6d-4fdf-48e1-9c7b-c003ec27f354
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnCount, GetColumnCount method [Windows Sync], GetColumnCount method [Windows Sync],ICoreFragment interface, ICoreFragment interface [Windows Sync],GetColumnCount method, ICoreFragment.GetColumnCount, ICoreFragment::GetColumnCount, winsync.icorefragment_getcolumncount, winsync/ICoreFragment::GetColumnCount
 ms.topic: method
-f1_keywords: 
- - "winsync/ICoreFragment.GetColumnCount"
+f1_keywords:
+- winsync/ICoreFragment.GetColumnCount
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ICoreFragment.GetColumnCount
+- ICoreFragment.GetColumnCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._formatrange
 title: FORMATRANGE (richedit.h)
-
 description: Information that a rich edit control uses to format its output for a particular device. This structure is used with the EM_FORMATRANGE message.
 old-location: controls\FORMATRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\formatrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: FORMATRANGE, FORMATRANGE structure [Windows Controls], _win32_FORMATRANGE_str, _win32_FORMATRANGE_str_cpp, controls.FORMATRANGE, controls._win32_FORMATRANGE_str, richedit/FORMATRANGE
 ms.topic: struct
-f1_keywords: 
- - "richedit/FORMATRANGE"
+f1_keywords:
+- richedit/FORMATRANGE
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - FORMATRANGE
+- FORMATRANGE
 targetos: Windows
 req.typenames: FORMATRANGE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFGetTopoNodeCurrentType
 title: MFGetTopoNodeCurrentType function (mfidl.h)
-
 description: Gets the media type for a stream associated with a topology node.
 old-location: mf\mfgettoponodecurrenttype.htm
 tech.root: medfound
 ms.assetid: 2405c6f6-1a3c-42d1-8ec9-4728f522ce42
-
 ms.date: 12/05/2018
 ms.keywords: MFGetTopoNodeCurrentType, MFGetTopoNodeCurrentType function [Media Foundation], mf.mfgettoponodecurrenttype, mfidl/MFGetTopoNodeCurrentType
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFGetTopoNodeCurrentType"
+f1_keywords:
+- mfidl/MFGetTopoNodeCurrentType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFGetTopoNodeCurrentType
+- MFGetTopoNodeCurrentType
 targetos: Windows
 req.typenames: 
 req.redist: 

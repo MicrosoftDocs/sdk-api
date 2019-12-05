@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.SetTheme
 title: INameSpaceTreeControl::SetTheme (shobjidl_core.h)
-
 description: Sets the desktop theme for the current window only.
 old-location: shell\INameSpaceTreeControl_SetTheme.htm
 tech.root: shell
 ms.assetid: 1b518d58-716b-4ae1-8633-e43117363541
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],SetTheme method, INameSpaceTreeControl.SetTheme, INameSpaceTreeControl::SetTheme, SetTheme, SetTheme method [Windows Shell], SetTheme method [Windows Shell],INameSpaceTreeControl interface, _shell_INameSpaceTreeControl_SetTheme, shell.INameSpaceTreeControl_SetTheme, shobjidl_core/INameSpaceTreeControl::SetTheme
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.SetTheme"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.SetTheme
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.SetTheme
+- INameSpaceTreeControl.SetTheme
 targetos: Windows
 req.typenames: 
 req.redist: 

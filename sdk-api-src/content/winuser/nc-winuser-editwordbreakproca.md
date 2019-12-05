@@ -1,19 +1,17 @@
 ---
 UID: NC:winuser.EDITWORDBREAKPROCA
 title: EDITWORDBREAKPROCA (winuser.h)
-
 description: An application-defined callback function used with the EM_SETWORDBREAKPROC message.
 old-location: controls\EditWordBreakProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolfunctions\editwordbreakproc.htm
-
 ms.date: 12/05/2018
 ms.keywords: EDITWORDBREAKPROCA, EDITWORDBREAKPROCW, EditWordBreakProc, EditWordBreakProc callback, EditWordBreakProc callback function [Windows Controls], WB_CLASSIFY, WB_ISDELIMITER, WB_LEFT, WB_LEFTBREAK, WB_MOVEWORDLEFT, WB_MOVEWORDRIGHT, WB_RIGHT, WB_RIGHTBREAK, _win32_EditWordBreakProc, _win32_EditWordBreakProc_cpp, controls.EditWordBreakProc, controls._win32_EditWordBreakProc, winuser/EDITWORDBREAKPROCA, winuser/EDITWORDBREAKPROCW, winuser/EditWordBreakProc
 ms.topic: callback
-f1_keywords: 
- - "winuser/EditWordBreakProc"
+f1_keywords:
+- winuser/EditWordBreakProc
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - EditWordBreakProc
- - EDITWORDBREAKPROCA
- - EDITWORDBREAKPROCW
+- EditWordBreakProc
+- EDITWORDBREAKPROCA
+- EDITWORDBREAKPROCW
 targetos: Windows
 req.typenames: 
 req.redist: 

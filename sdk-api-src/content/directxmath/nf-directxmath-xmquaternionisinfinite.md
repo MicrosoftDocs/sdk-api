@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMQuaternionIsInfinite
 title: XMQuaternionIsInfinite function (directxmath.h)
-
 description: Test whether any component of a quaternion is either positive or negative infinity.
 old-location: dxmath\xmquaternionisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionIsInfinite(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMQuaternionIsInfinite, XMQuaternionIsInfinite, XMQuaternionIsInfinite method [DirectX Math Support APIs], dxmath.xmquaternionisinfinite
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMQuaternionIsInfinite"
+f1_keywords:
+- directxmath/XMQuaternionIsInfinite
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMQuaternionIsInfinite
+- XMQuaternionIsInfinite
 targetos: Windows
 req.typenames: 
 req.redist: 

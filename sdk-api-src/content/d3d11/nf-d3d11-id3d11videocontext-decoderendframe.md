@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.DecoderEndFrame
 title: ID3D11VideoContext::DecoderEndFrame (d3d11.h)
-
 description: Signals the end of a decoding operation.
 old-location: mf\id3d11videocontext_decoderendframe.htm
 tech.root: medfound
 ms.assetid: 3596B70C-4BED-49C4-A0E4-8702DA219B01
-
 ms.date: 12/05/2018
 ms.keywords: DecoderEndFrame, DecoderEndFrame method [Media Foundation], DecoderEndFrame method [Media Foundation],ID3D11VideoContext interface, ID3D11VideoContext interface [Media Foundation],DecoderEndFrame method, ID3D11VideoContext.DecoderEndFrame, ID3D11VideoContext::DecoderEndFrame, d3d11/ID3D11VideoContext::DecoderEndFrame, mf.id3d11videocontext_decoderendframe
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.DecoderEndFrame"
+f1_keywords:
+- d3d11/ID3D11VideoContext.DecoderEndFrame
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.DecoderEndFrame
+- ID3D11VideoContext.DecoderEndFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

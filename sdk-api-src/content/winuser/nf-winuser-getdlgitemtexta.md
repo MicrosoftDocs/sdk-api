@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDlgItemTextA
 title: GetDlgItemTextA function (winuser.h)
-
 description: Retrieves the title or text associated with a control in a dialog box.
 old-location: dlgbox\getdlgitemtext.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemtext.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDlgItemText, GetDlgItemText function [Dialog Boxes], GetDlgItemTextA, GetDlgItemTextW, _win32_GetDlgItemText, _win32_getdlgitemtext_cpp, dlgbox.getdlgitemtext, winui._win32_getdlgitemtext, winuser/GetDlgItemText, winuser/GetDlgItemTextA, winuser/GetDlgItemTextW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDlgItemText"
+f1_keywords:
+- winuser/GetDlgItemText
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
- - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-0.dll
+- Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - GetDlgItemText
- - GetDlgItemTextA
- - GetDlgItemTextW
+- GetDlgItemText
+- GetDlgItemTextA
+- GetDlgItemTextW
 targetos: Windows
 req.typenames: 
 req.redist: 

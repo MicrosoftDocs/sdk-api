@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolConnection
 title: IWRdsProtocolConnection (wtsprotocol.h)
-
 description: Exposes methods called by the Remote Desktop Services service to configure a client connection.
 old-location: termserv\iwrdsprotocolconnection.htm
 tech.root: TermServ
 ms.assetid: 2b8a5b2f-5a54-4d60-8b5a-8a914728087c
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolConnection, IWRdsProtocolConnection interface [Remote Desktop Services], IWRdsProtocolConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocolconnection, wtsprotocol/IWRdsProtocolConnection
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolConnection"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection
+- IWRdsProtocolConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

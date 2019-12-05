@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_FS_METADATA
 title: CF_FS_METADATA (cfapi.h)
-
 description: Placeholder file or directory metadata.
 old-location: cloudapi\cf_fs_metadata.htm
 tech.root: cfApi
 ms.assetid: A6D4473A-C93A-4B56-9EB0-9B44A56E5D28
-
 ms.date: 12/05/2018
 ms.keywords: CF_FS_METADATA, CF_FS_METADATA structure, cfapi/CF_FS_METADATA, cloudApi.cf_fs_metadata
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_FS_METADATA"
+f1_keywords:
+- cfapi/CF_FS_METADATA
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_FS_METADATA
+- CF_FS_METADATA
 targetos: Windows
 req.typenames: CF_FS_METADATA
 req.redist: 

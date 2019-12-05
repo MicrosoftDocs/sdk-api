@@ -1,19 +1,17 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.LowHealth
 title: INetDiagHelper::LowHealth (ndhelper.h)
-
 description: Check whether the component being diagnosed is healthy.
 old-location: ndf\inetdiaghelpe_lowhealth.htm
 tech.root: NDF
 ms.assetid: 623de90f-c2dc-4879-9baf-4051d2d3691c
-
 ms.date: 12/05/2018
 ms.keywords: INetDiagHelper interface [NDF],LowHealth method, INetDiagHelper.LowHealth, INetDiagHelper::LowHealth, LowHealth, LowHealth method [NDF], LowHealth method [NDF],INetDiagHelper interface, ndf.inetdiaghelpe_lowhealth, ndhelper/INetDiagHelper::LowHealth
 ms.topic: method
-f1_keywords: 
- - "ndhelper/INetDiagHelper.LowHealth"
+f1_keywords:
+- ndhelper/INetDiagHelper.LowHealth
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - INetDiagHelper.LowHealth
+- INetDiagHelper.LowHealth
 targetos: Windows
 req.typenames: 
 req.redist: 

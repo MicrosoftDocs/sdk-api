@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellView2
 title: IShellView2 (shobjidl_core.h)
-
 description: Extends the capabilities of IShellView.
 old-location: shell\IShellView2.htm
 tech.root: shell
 ms.assetid: a61aec39-406d-4066-941d-e788d64f4310
-
 ms.date: 12/05/2018
 ms.keywords: IShellView2, IShellView2 interface [Windows Shell], IShellView2 interface [Windows Shell],described, _win32_IShellView2, shell.IShellView2, shobjidl_core/IShellView2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellView2"
+f1_keywords:
+- shobjidl_core/IShellView2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellView2
+- IShellView2
 targetos: Windows
 req.typenames: 
 req.redist: 

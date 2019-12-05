@@ -1,19 +1,17 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter4
 title: IAppxBundleWriter4 (appxpackaging.h)
-
 description: Provides a write-only object model for bundle packages.
 old-location: appxpkg\iappxbundlewriter4.htm
 tech.root: appxpkg
 ms.assetid: 9BB81F38-8451-4D3B-B0B6-31AF3001AB17
-
 ms.date: 12/05/2018
 ms.keywords: IAppxBundleWriter4, IAppxBundleWriter4 interface [App packaging and management], IAppxBundleWriter4 interface [App packaging and management],described, appxpackaging/IAppxBundleWriter4, appxpkg.iappxbundlewriter4
 ms.topic: interface
-f1_keywords: 
- - "appxpackaging/IAppxBundleWriter4"
+f1_keywords:
+- appxpackaging/IAppxBundleWriter4
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBundleWriter4
+- IAppxBundleWriter4
 targetos: Windows
 req.typenames: 
 req.redist: 

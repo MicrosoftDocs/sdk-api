@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMForce
 title: IComCRMEvents::OnCRMForce (comsvcs.h)
-
 description: Generated when a CRM clerk receives a request to force log records to disk, either from the CRM worker or from the CRM compensator.
 old-location: cos\icomcrmevents_oncrmforce.htm
 tech.root: cossdk
 ms.assetid: 92f2088b-4d74-4d33-9953-0f5229f6303c
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMForce method, IComCRMEvents.OnCRMForce, IComCRMEvents::OnCRMForce, OnCRMForce, OnCRMForce method [COM+], OnCRMForce method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMForce, comsvcs/IComCRMEvents::OnCRMForce, cos.icomcrmevents_oncrmforce
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMForce"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMForce
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMForce
+- IComCRMEvents.OnCRMForce
 targetos: Windows
 req.typenames: 
 req.redist: 

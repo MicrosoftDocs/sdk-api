@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.RegisterOutputCallbackInteractionContext
 title: RegisterOutputCallbackInteractionContext function (interactioncontext.h)
-
 description: Registers a callback to receive interaction events from an Interaction Context object.
 old-location: input_intcontext\registeroutputcallbackinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 87000250-f225-4864-96d2-1e189f5be1a3
-
 ms.date: 12/05/2018
 ms.keywords: RegisterOutputCallbackInteractionContext, RegisterOutputCallbackInteractionContext function, input_intcontext.registeroutputcallbackinteractioncontext, interactioncontext.registeroutputcallbackinteractioncontext, interactioncontext/RegisterOutputCallbackInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/RegisterOutputCallbackInteractionContext"
+f1_keywords:
+- interactioncontext/RegisterOutputCallbackInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - RegisterOutputCallbackInteractionContext
+- RegisterOutputCallbackInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

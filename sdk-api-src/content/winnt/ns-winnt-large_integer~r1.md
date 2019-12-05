@@ -4,10 +4,10 @@ title: LARGE_INTEGER
 ms.date: 01/30/19
 ms.keywords: _LARGE_INTEGER, LARGE_INTEGER
 ms.topic: language-reference
-f1_keywords: 
- - "winnt/_LARGE_INTEGER"
+f1_keywords:
+- winnt/_LARGE_INTEGER
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -25,14 +25,14 @@ req.typenames: LARGE_INTEGER
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - _LARGE_INTEGER
- - LARGE_INTEGER
+- _LARGE_INTEGER
+- LARGE_INTEGER
 ---
 
 # LARGE_INTEGER structure

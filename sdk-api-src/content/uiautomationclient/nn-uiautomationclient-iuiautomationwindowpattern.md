@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationWindowPattern
 title: IUIAutomationWindowPattern (uiautomationclient.h)
-
 description: Provides access to the fundamental functionality of a window.
 old-location: winauto\uiauto_IUIAutomationWindowPattern.htm
 tech.root: WinAuto
 ms.assetid: 251fefdf-48c7-444a-89fc-fb27b10dcb0a
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationWindowPattern, IUIAutomationWindowPattern interface [Windows Accessibility], IUIAutomationWindowPattern interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationWindowPattern, uiauto_IUIAutomationWindowPattern, uiautomationclient/IUIAutomationWindowPattern, winauto.uiauto_IUIAutomationWindowPattern
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationWindowPattern
+- IUIAutomationWindowPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

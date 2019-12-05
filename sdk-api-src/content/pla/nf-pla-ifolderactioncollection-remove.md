@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IFolderActionCollection.Remove
 title: IFolderActionCollection::Remove (pla.h)
-
 description: Removes a folder action from the collection based on the specified index.
 old-location: pla\ifolderactioncollection_remove.htm
 tech.root: PLA
 ms.assetid: b0894d3f-13d1-4f71-9171-592640d70969
-
 ms.date: 12/05/2018
 ms.keywords: IFolderActionCollection interface [PLA],Remove method, IFolderActionCollection.Remove, IFolderActionCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IFolderActionCollection interface, base.ifolderactioncollection_remove, pla.ifolderactioncollection_remove, pla/IFolderActionCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "pla/IFolderActionCollection.Remove"
+f1_keywords:
+- pla/IFolderActionCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IFolderActionCollection.Remove
+- IFolderActionCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

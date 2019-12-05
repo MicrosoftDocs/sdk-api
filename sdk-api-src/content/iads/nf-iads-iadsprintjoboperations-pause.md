@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsPrintJobOperations.Pause
 title: IADsPrintJobOperations::Pause (iads.h)
-
 description: The IADsPrintJobOperations::Pause method halts the processing of the current print job. Call the IADsPrintJobOperations::Resume method to continue the processing.
 old-location: adsi\iadsprintjoboperations_pause.htm
 tech.root: adsi
 ms.assetid: 8e1e5c1b-7a06-4781-9be5-71d170987e24
-
 ms.date: 12/05/2018
 ms.keywords: IADsPrintJobOperations interface [ADSI],Pause method, IADsPrintJobOperations.Pause, IADsPrintJobOperations::Pause, Pause, Pause method [ADSI], Pause method [ADSI],IADsPrintJobOperations interface, _ds_iadsprintjoboperations_pause, adsi.iadsprintjoboperations__pause, adsi.iadsprintjoboperations_pause, iads/IADsPrintJobOperations::Pause
 ms.topic: method
-f1_keywords: 
- - "iads/IADsPrintJobOperations.Pause"
+f1_keywords:
+- iads/IADsPrintJobOperations.Pause
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPrintJobOperations.Pause
+- IADsPrintJobOperations.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

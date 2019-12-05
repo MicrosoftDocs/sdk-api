@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords (dvbsiparser.h)
-
 description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: d13cadd3-561f-4d4e-8260-7a1d56dfa578
-
 ms.date: 12/05/2018
 ms.keywords: GetCountOfRecords, GetCountOfRecords method [Microsoft TV Technologies], GetCountOfRecords method [Microsoft TV Technologies],IIsdbTerrestrialDeliverySystemDescriptor interface, IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetCountOfRecords method, IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords, IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetCountOfRecords, mstv.iisdbterrestrialdeliverysystemdescriptor_getcountofrecords
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords"
+f1_keywords:
+- dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
+- IIsdbTerrestrialDeliverySystemDescriptor.GetCountOfRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

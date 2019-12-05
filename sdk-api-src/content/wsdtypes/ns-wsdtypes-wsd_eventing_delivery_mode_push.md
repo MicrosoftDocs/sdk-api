@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_EVENTING_DELIVERY_MODE_PUSH
 title: WSD_EVENTING_DELIVERY_MODE_PUSH (wsdtypes.h)
-
 description: Represents the endpoint reference used for push delivery of events in a WS-Eventing Subscribe message.
 old-location: ncd\wsd_eventing_delivery_mode_push.htm
 tech.root: WsdApi
 ms.assetid: 350d023f-18fb-4eb5-af47-81fdb54e594d
-
 ms.date: 12/05/2018
 ms.keywords: WSD_EVENTING_DELIVERY_MODE_PUSH, WSD_EVENTING_DELIVERY_MODE_PUSH structure, ncd.wsd_eventing_delivery_mode_push, wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_EVENTING_DELIVERY_MODE_PUSH
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

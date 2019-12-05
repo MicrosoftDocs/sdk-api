@@ -1,19 +1,17 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolumeEx.GetVolumeRangeChannel
 title: IAudioEndpointVolumeEx::GetVolumeRangeChannel (endpointvolume.h)
-
 description: The GetVolumeRangeChannel method gets the volume range for a specified channel.
 old-location: coreaudio\iaudioendpointvolumeex_getvolumerangechannel.htm
 tech.root: CoreAudio
 ms.assetid: 869fe1cc-aa32-45e5-899f-3ae0d0f1b256
-
 ms.date: 12/05/2018
 ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio],IAudioEndpointVolumeEx interface, IAudioEndpointVolumeEx interface [Core Audio],GetVolumeRangeChannel method, IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
 ms.topic: method
-f1_keywords: 
- - "endpointvolume/IAudioEndpointVolumeEx.GetVolumeRangeChannel"
+f1_keywords:
+- endpointvolume/IAudioEndpointVolumeEx.GetVolumeRangeChannel
 dev_langs:
- - c++
+- c++
 req.header: endpointvolume.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Endpointvolume.h
+- Endpointvolume.h
 api_name:
- - IAudioEndpointVolumeEx.GetVolumeRangeChannel
+- IAudioEndpointVolumeEx.GetVolumeRangeChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

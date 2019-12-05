@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Next
 title: IEnumMediaTypes::Next (strmif.h)
-
 description: The Next method retrieves a specified number of media types.
 old-location: dshow\ienummediatypes_next.htm
 tech.root: DirectShow
 ms.assetid: 7a57fa8e-756b-457c-918a-154fbd085ea3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Next method, IEnumMediaTypes.Next, IEnumMediaTypes::Next, IEnumMediaTypesNext, Next, Next method [DirectShow], Next method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_next, strmif/IEnumMediaTypes::Next
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumMediaTypes.Next"
+f1_keywords:
+- strmif/IEnumMediaTypes.Next
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumMediaTypes.Next
+- IEnumMediaTypes.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

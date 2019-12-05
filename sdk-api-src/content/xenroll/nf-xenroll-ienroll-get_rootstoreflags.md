@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll.get_RootStoreFlags
 title: IEnroll::get_RootStoreFlags (xenroll.h)
-
 description: Sets or retrieves the registry location used for the root store.
 old-location: security\ienroll4_rootstoreflags.htm
 tech.root: SecCrypto
 ms.assetid: fa4640db-f3e5-4fe0-a696-26b5e13b7dd1
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll interface [Security],RootStoreFlags property, IEnroll.RootStoreFlags, IEnroll.get_RootStoreFlags, IEnroll::RootStoreFlags, IEnroll::get_RootStoreFlags, IEnroll::put_RootStoreFlags, RootStoreFlags property [Security], RootStoreFlags property [Security],IEnroll interface, get_RootStoreFlags, security.ienroll4_rootstoreflags, xenroll/IEnroll::RootStoreFlags, xenroll/IEnroll::get_RootStoreFlags, xenroll/IEnroll::put_RootStoreFlags
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll.RootStoreFlags"
+f1_keywords:
+- xenroll/IEnroll.RootStoreFlags
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll.RootStoreFlags
- - IEnroll.get_RootStoreFlags
- - IEnroll.put_RootStoreFlags
+- IEnroll.RootStoreFlags
+- IEnroll.get_RootStoreFlags
+- IEnroll.put_RootStoreFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

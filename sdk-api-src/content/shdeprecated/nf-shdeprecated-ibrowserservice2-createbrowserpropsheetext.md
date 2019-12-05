@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.CreateBrowserPropSheetExt
 title: IBrowserService2::CreateBrowserPropSheetExt (shdeprecated.h)
-
 description: Deprecated. Allows the derived class to add Folder Options property sheets to the base class.
 old-location: shell\IBrowserService2_CreateBrowserPropSheetExt.htm
 tech.root: shell
 ms.assetid: 2738e62b-5577-416b-952e-18a189fc717f
-
 ms.date: 12/05/2018
 ms.keywords: CreateBrowserPropSheetExt, CreateBrowserPropSheetExt method [Windows Shell], CreateBrowserPropSheetExt method [Windows Shell],IBrowserService2 interface, IBrowserService2 interface [Windows Shell],CreateBrowserPropSheetExt method, IBrowserService2.CreateBrowserPropSheetExt, IBrowserService2::CreateBrowserPropSheetExt, shdeprecated/IBrowserService2::CreateBrowserPropSheetExt, shell.IBrowserService2_CreateBrowserPropSheetExt, zone_IBrowserService2_CreateBrowserPropSheetExt
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.CreateBrowserPropSheetExt"
+f1_keywords:
+- shdeprecated/IBrowserService2.CreateBrowserPropSheetExt
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.CreateBrowserPropSheetExt
+- IBrowserService2.CreateBrowserPropSheetExt
 targetos: Windows
 req.typenames: 
 req.redist: 

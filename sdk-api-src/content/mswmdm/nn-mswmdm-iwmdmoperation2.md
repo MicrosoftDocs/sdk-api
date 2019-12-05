@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.IWMDMOperation2
 title: IWMDMOperation2 (mswmdm.h)
-
 description: The optional, application-implemented IWMDMOperation2 interface extends IWMDMOperation by providing methods to get and set extended attributes.
 old-location: wmdm\iwmdmoperation2.htm
 tech.root: WMDM
 ms.assetid: b3f7e92a-8feb-47cd-ae50-bc5bf9a37958
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMOperation2, IWMDMOperation2 interface [windows Media Device Manager], IWMDMOperation2 interface [windows Media Device Manager],described, IWMDMOperation2Interface, mswmdm/IWMDMOperation2, wmdm.iwmdmoperation2
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/IWMDMOperation2"
+f1_keywords:
+- mswmdm/IWMDMOperation2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - IWMDMOperation2
+- IWMDMOperation2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:photoacquire.tagERROR_ADVISE_RESULT
 title: ERROR_ADVISE_RESULT (photoacquire.h)
-
 description: The ERROR_ADVISE_RESULT enumeration type indicates the type of error values that can be assigned to the pnErrorAdviseResult parameter of IPhotoAcquireProgressCB::ErrorAdvise.
 old-location: picacq\error_advise_result.htm
 tech.root: acquisition
 ms.assetid: a3cb2a2d-049a-4607-beaf-41ea6f0d4704
-
 ms.date: 12/05/2018
 ms.keywords: ERROR_ADVISE_RESULT, ERROR_ADVISE_RESULT enumeration [Picture Acquisition], PHOTOACQUIRE_RESULT_ABORT, PHOTOACQUIRE_RESULT_NO, PHOTOACQUIRE_RESULT_OK, PHOTOACQUIRE_RESULT_RETRY, PHOTOACQUIRE_RESULT_SKIP, PHOTOACQUIRE_RESULT_SKIP_ALL, PHOTOACQUIRE_RESULT_YES, enumeration [Picture Acquisition], photoacquire/ERROR_ADVISE_RESULT, photoacquire/PHOTOACQUIRE_RESULT_ABORT, photoacquire/PHOTOACQUIRE_RESULT_NO, photoacquire/PHOTOACQUIRE_RESULT_OK, photoacquire/PHOTOACQUIRE_RESULT_RETRY, photoacquire/PHOTOACQUIRE_RESULT_SKIP, photoacquire/PHOTOACQUIRE_RESULT_SKIP_ALL, photoacquire/PHOTOACQUIRE_RESULT_YES, picacq.error_advise_result
 ms.topic: enum
-f1_keywords: 
- - "photoacquire/ERROR_ADVISE_RESULT"
+f1_keywords:
+- photoacquire/ERROR_ADVISE_RESULT
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - PhotoAcquire.h
+- PhotoAcquire.h
 api_name:
- - ERROR_ADVISE_RESULT
+- ERROR_ADVISE_RESULT
 targetos: Windows
 req.typenames: ERROR_ADVISE_RESULT
 req.redist: 

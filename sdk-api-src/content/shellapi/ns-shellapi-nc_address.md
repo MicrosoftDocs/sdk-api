@@ -1,19 +1,17 @@
 ---
 UID: NS:shellapi.tagNC_ADDRESS
 title: NC_ADDRESS (shellapi.h)
-
 description: Contains information that describes a network address.
 old-location: shell\NC_ADDRESS.htm
 tech.root: shell
 ms.assetid: 1dfb0f6a-3aa5-486b-bbd0-8a24070bca19
-
 ms.date: 12/05/2018
-ms.keywords: "*PNC_ADDRESS, NC_ADDRESS, NC_ADDRESS structure [Windows Shell], PNC_ADDRESS, PNC_ADDRESS structure pointer [Windows Shell], _shell_NC_ADDRESS, shell.NC_ADDRESS, shellapi/NC_ADDRESS, shellapi/PNC_ADDRESS"
+ms.keywords: '*PNC_ADDRESS, NC_ADDRESS, NC_ADDRESS structure [Windows Shell], PNC_ADDRESS, PNC_ADDRESS structure pointer [Windows Shell], _shell_NC_ADDRESS, shell.NC_ADDRESS, shellapi/NC_ADDRESS, shellapi/PNC_ADDRESS'
 ms.topic: struct
-f1_keywords: 
- - "shellapi/NC_ADDRESS"
+f1_keywords:
+- shellapi/NC_ADDRESS
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - NC_ADDRESS
+- NC_ADDRESS
 targetos: Windows
 req.typenames: NC_ADDRESS, *PNC_ADDRESS
 req.redist: 

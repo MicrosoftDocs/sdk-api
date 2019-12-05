@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetUserData
 title: IMFPMediaItem::GetUserData (mfplay.h)
-
 description: Gets the application-defined value stored in the media item.
 old-location: mf\imfpmediaitem_getuserdata.htm
 tech.root: medfound
 ms.assetid: aa99ced1-c32b-4bf5-b29a-e16eceddfed1
-
 ms.date: 12/05/2018
 ms.keywords: GetUserData, GetUserData method [Media Foundation], GetUserData method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetUserData method, IMFPMediaItem.GetUserData, IMFPMediaItem::GetUserData, mf.imfpmediaitem_getuserdata, mfplay/IMFPMediaItem::GetUserData
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.GetUserData"
+f1_keywords:
+- mfplay/IMFPMediaItem.GetUserData
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.GetUserData
+- IMFPMediaItem.GetUserData
 targetos: Windows
 req.typenames: 
 req.redist: 

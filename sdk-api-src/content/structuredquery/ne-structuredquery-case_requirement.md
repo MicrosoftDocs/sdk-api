@@ -1,19 +1,17 @@
 ---
 UID: NE:structuredquery.CASE_REQUIREMENT
 title: CASE_REQUIREMENT (structuredquery.h)
-
 description: Specifies the case requirements of keywords, if any, for a query.
 old-location: search\_search_CASE_REQUIREMENT.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\case_requirement.htm
-
 ms.date: 12/05/2018
 ms.keywords: CASE_REQUIREMENT, CASE_REQUIREMENT enumeration [search], CASE_REQUIREMENT_ANY, CASE_REQUIREMENT_UPPER_IF_AQS, _search_CASE_REQUIREMENT, search._search_CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT, structuredquery/CASE_REQUIREMENT_ANY, structuredquery/CASE_REQUIREMENT_UPPER_IF_AQS
 ms.topic: enum
-f1_keywords: 
- - "structuredquery/CASE_REQUIREMENT"
+f1_keywords:
+- structuredquery/CASE_REQUIREMENT
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - CASE_REQUIREMENT
+- CASE_REQUIREMENT
 targetos: Windows
 req.typenames: CASE_REQUIREMENT
 req.redist: 

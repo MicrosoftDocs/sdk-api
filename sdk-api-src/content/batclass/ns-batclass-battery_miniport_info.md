@@ -1,19 +1,17 @@
 ---
 UID: NS:batclass.__unnamed_struct_2
 title: BATTERY_MINIPORT_INFO (batclass.h)
-
 description: Battery miniclass drivers fill in this structure before calling the battery class driver's BatteryClassInitializeDevice routine.
 old-location: battery\battery_miniport_info.htm
 tech.root: battery
 ms.assetid: db9d4e7d-a794-4c08-b849-d0b75ecf606b
-
 ms.date: 12/05/2018
-ms.keywords: "*PBATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO structure [Battery Devices], PBATTERY_MINIPORT_INFO, PBATTERY_MINIPORT_INFO structure pointer [Battery Devices], bat-struct_0ef66c9a-61df-4c49-94f1-78e41e5b9bfb.xml, batclass/BATTERY_MINIPORT_INFO, batclass/PBATTERY_MINIPORT_INFO, battery.battery_miniport_info"
+ms.keywords: '*PBATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO, BATTERY_MINIPORT_INFO structure [Battery Devices], PBATTERY_MINIPORT_INFO, PBATTERY_MINIPORT_INFO structure pointer [Battery Devices], bat-struct_0ef66c9a-61df-4c49-94f1-78e41e5b9bfb.xml, batclass/BATTERY_MINIPORT_INFO, batclass/PBATTERY_MINIPORT_INFO, battery.battery_miniport_info'
 ms.topic: struct
-f1_keywords: 
- - "batclass/BATTERY_MINIPORT_INFO"
+f1_keywords:
+- batclass/BATTERY_MINIPORT_INFO
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - batclass.h
+- batclass.h
 api_name:
- - BATTERY_MINIPORT_INFO
+- BATTERY_MINIPORT_INFO
 targetos: Windows
 req.typenames: BATTERY_MINIPORT_INFO, *PBATTERY_MINIPORT_INFO
 req.redist: 

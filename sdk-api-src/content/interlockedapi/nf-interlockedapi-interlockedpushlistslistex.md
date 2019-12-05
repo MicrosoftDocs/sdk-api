@@ -1,19 +1,17 @@
 ---
 UID: NF:interlockedapi.InterlockedPushListSListEx
 title: InterlockedPushListSListEx function (interlockedapi.h)
-
 description: Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the __fastcall calling convention.
 old-location: base\interlockedpushlistslistex.htm
 tech.root: Sync
 ms.assetid: f4f334c6-fda8-4c5f-9177-b672c8aed6b3
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx
 ms.topic: function
-f1_keywords: 
- - "interlockedapi/InterlockedPushListSListEx"
+f1_keywords:
+- interlockedapi/InterlockedPushListSListEx
 dev_langs:
- - c++
+- c++
 req.header: interlockedapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-interlocked-l1-2-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-interlocked-l1-2-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - InterlockedPushListSListEx
+- InterlockedPushListSListEx
 targetos: Windows
 req.typenames: 
 req.redist: 

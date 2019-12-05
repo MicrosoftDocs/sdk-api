@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineGetAddressID
 title: TSPI_lineGetAddressID function (tspi.h)
-
 description: The TSPI_lineGetAddressID function returns the address identifier associated with address in a different format on the specified line.
 old-location: tspi\tspi_linegetaddressid.htm
 tech.root: Tapi
 ms.assetid: 8783fb72-a50c-444c-aa89-485cb0eb6739
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineGetAddressID, TSPI_lineGetAddressID function [TAPI 2.2], _tspi_tspi_linegetaddressid, tspi.tspi_linegetaddressid, tspi/TSPI_lineGetAddressID
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineGetAddressID"
+f1_keywords:
+- tspi/TSPI_lineGetAddressID
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineGetAddressID
+- TSPI_lineGetAddressID
 targetos: Windows
 req.typenames: 
 req.redist: 

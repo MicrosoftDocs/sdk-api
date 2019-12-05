@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.get_CachedCanMove
 title: IUIAutomationTransformPattern::get_CachedCanMove (uiautomationclient.h)
-
 description: Retrieves a cached value that indicates whether the element can be moved.
 old-location: winauto\uiauto_IUIAutomationTransformPattern_CachedCanMove.htm
 tech.root: WinAuto
 ms.assetid: b2c91a4c-8f22-4ad8-8ce7-ed6469af4426
-
 ms.date: 12/05/2018
 ms.keywords: CachedCanMove property [Windows Accessibility], CachedCanMove property [Windows Accessibility],IUIAutomationTransformPattern interface, IUIAutomationTransformPattern interface [Windows Accessibility],CachedCanMove property, IUIAutomationTransformPattern.CachedCanMove, IUIAutomationTransformPattern.get_CachedCanMove, IUIAutomationTransformPattern::CachedCanMove, IUIAutomationTransformPattern::get_CachedCanMove, get_CachedCanMove, uiauto.uiauto_IUIAutomationTransformPattern_CachedCanMove, uiauto_IUIAutomationTransformPattern_CachedCanMove, uiautomationclient/IUIAutomationTransformPattern::CachedCanMove, uiautomationclient/IUIAutomationTransformPattern::get_CachedCanMove, winauto.uiauto_IUIAutomationTransformPattern_CachedCanMove
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern.CachedCanMove"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern.CachedCanMove
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern.CachedCanMove
- - IUIAutomationTransformPattern.get_CachedCanMove
+- IUIAutomationTransformPattern.CachedCanMove
+- IUIAutomationTransformPattern.get_CachedCanMove
 targetos: Windows
 req.typenames: 
 req.redist: 

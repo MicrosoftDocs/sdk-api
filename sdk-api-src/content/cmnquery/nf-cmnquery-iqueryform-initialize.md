@@ -1,19 +1,17 @@
 ---
 UID: NF:cmnquery.IQueryForm.Initialize
 title: IQueryForm::Initialize (cmnquery.h)
-
 description: Initializes the query form extension object.
 old-location: ad\iqueryform_initialize.htm
 tech.root: ad
 ms.assetid: d1250c69-f29b-44f1-b123-13818d26e322
-
 ms.date: 12/05/2018
 ms.keywords: IQueryForm interface [Active Directory],Initialize method, IQueryForm.Initialize, IQueryForm::Initialize, Initialize, Initialize method [Active Directory], Initialize method [Active Directory],IQueryForm interface, _glines_iqueryform_initialize, ad.iqueryform__initialize, ad.iqueryform_initialize, cmnquery/IQueryForm::Initialize
 ms.topic: method
-f1_keywords: 
- - "cmnquery/IQueryForm.Initialize"
+f1_keywords:
+- cmnquery/IQueryForm.Initialize
 dev_langs:
- - c++
+- c++
 req.header: cmnquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Dsquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dsquery.dll
+- Dsquery.dll
 api_name:
- - IQueryForm.Initialize
+- IQueryForm.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

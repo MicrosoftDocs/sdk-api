@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.Enable
 title: IStaticPortMapping::Enable (natupnp.h)
-
 description: The Enable method enables or disables this port mapping.
 old-location: ics\istaticportmapping_enable.htm
 tech.root: ics
 ms.assetid: 66aa27b4-83a5-4c20-b964-084dd0e48a54
-
 ms.date: 12/05/2018
 ms.keywords: Enable, Enable method [ICS/ICF], Enable method [ICS/ICF],IStaticPortMapping interface, IStaticPortMapping interface [ICS/ICF],Enable method, IStaticPortMapping.Enable, IStaticPortMapping::Enable, _ics_istaticportmapping_enable, ics.istaticportmapping_enable, natupnp/IStaticPortMapping::Enable
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMapping.Enable"
+f1_keywords:
+- natupnp/IStaticPortMapping.Enable
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping.Enable
+- IStaticPortMapping.Enable
 targetos: Windows
 req.typenames: 
 req.redist: 

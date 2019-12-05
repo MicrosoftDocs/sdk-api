@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIpPathEntry
 title: GetIpPathEntry function (netioapi.h)
-
 description: Retrieves information for a IP path entry on the local computer.
 old-location: iphlp\getippathentry.htm
 tech.root: IpHlp
 ms.assetid: 8ad43a1d-428a-41cc-bba8-5eec7f87c11f
-
 ms.date: 12/05/2018
 ms.keywords: GetIpPathEntry, GetIpPathEntry function [IP Helper], iphlp.getippathentry, netioapi/GetIpPathEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIpPathEntry"
+f1_keywords:
+- netioapi/GetIpPathEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpPathEntry
+- GetIpPathEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

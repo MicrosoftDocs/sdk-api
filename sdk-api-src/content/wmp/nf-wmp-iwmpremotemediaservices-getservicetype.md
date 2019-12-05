@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPRemoteMediaServices.GetServiceType
 title: IWMPRemoteMediaServices::GetServiceType (wmp.h)
-
 description: The GetServiceType method is called by Windows Media Player to determine whether a host program wants to run its embedded control remotely.
 old-location: wmp\iwmpremotemediaservices_getservicetype.htm
 tech.root: WMP
 ms.assetid: 866e7ee7-5df1-4e6b-8b41-85c6ff8b64d5
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceType, GetServiceType method [Windows Media Player], GetServiceType method [Windows Media Player],IWMPRemoteMediaServices interface, IWMPRemoteMediaServices interface [Windows Media Player],GetServiceType method, IWMPRemoteMediaServices.GetServiceType, IWMPRemoteMediaServices::GetServiceType, IWMPRemoteMediaServicesGetServiceType, wmp.iwmpremotemediaservices_getservicetype, wmp/IWMPRemoteMediaServices::GetServiceType
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPRemoteMediaServices.GetServiceType"
+f1_keywords:
+- wmp/IWMPRemoteMediaServices.GetServiceType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPRemoteMediaServices.GetServiceType
+- IWMPRemoteMediaServices.GetServiceType
 targetos: Windows
 req.typenames: 
 req.redist: 

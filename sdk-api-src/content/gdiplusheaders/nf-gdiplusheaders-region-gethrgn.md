@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.GetHRGN
 title: Region::GetHRGN (gdiplusheaders.h)
-
 description: The Region::GetHRGN method creates a Windows Graphics Device Interface (GDI) region from this region.
 old-location: gdiplus\_gdiplus_CLASS_Region_GetHRGN_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\gethrgn.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetHRGN, GetHRGN method [GDI+], GetHRGN method [GDI+],Region class, Region class [GDI+],GetHRGN method, Region.GetHRGN, Region::GetHRGN, _gdiplus_CLASS_Region_GetHRGN_g_, gdiplus._gdiplus_CLASS_Region_GetHRGN_g_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.GetHRGN"
+f1_keywords:
+- gdiplusheaders/Region.GetHRGN
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.GetHRGN
+- Region.GetHRGN
 targetos: Windows
 req.typenames: 
 req.redist: 

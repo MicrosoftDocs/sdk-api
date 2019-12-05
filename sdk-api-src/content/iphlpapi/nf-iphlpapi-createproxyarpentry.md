@@ -1,19 +1,17 @@
 ---
 UID: NF:iphlpapi.CreateProxyArpEntry
 title: CreateProxyArpEntry function (iphlpapi.h)
-
 description: The CreateProxyArpEnry function creates a Proxy Address Resolution Protocol (PARP) entry on the local computer for the specified IPv4 address.
 old-location: iphlp\createproxyarpentry.htm
 tech.root: IpHlp
 ms.assetid: a0e90c0a-9403-40cb-906e-6e1e2f8e73c4
-
 ms.date: 12/05/2018
 ms.keywords: CreateProxyArpEntry, CreateProxyArpEntry function [IP Helper], _iphlp_createproxyarpentry, iphlp.createproxyarpentry, iphlpapi/CreateProxyArpEntry
 ms.topic: function
-f1_keywords: 
- - "iphlpapi/CreateProxyArpEntry"
+f1_keywords:
+- iphlpapi/CreateProxyArpEntry
 dev_langs:
- - c++
+- c++
 req.header: iphlpapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - CreateProxyArpEntry
+- CreateProxyArpEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

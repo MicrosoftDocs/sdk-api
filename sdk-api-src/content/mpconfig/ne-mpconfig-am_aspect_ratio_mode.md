@@ -1,19 +1,17 @@
 ---
 UID: NE:mpconfig._AM_ASPECT_RATIO_MODE
 title: AM_ASPECT_RATIO_MODE (mpconfig.h)
-
 description: Specifies the aspect ratio of a video image in a display window.
 old-location: dshow\am_aspect_ratio_mode.htm
 tech.root: DirectShow
 ms.assetid: 4f7c6220-6231-4bb1-aea6-7f1581b04d3a
-
 ms.date: 12/05/2018
 ms.keywords: AM_ARMODE_CROP, AM_ARMODE_LETTER_BOX, AM_ARMODE_STRETCHED, AM_ARMODE_STRETCHED_AS_PRIMARY, AM_ASPECT_RATIO_MODE, AM_ASPECT_RATIO_MODE , AM_ASPECT_RATIO_MODE enumeration [DirectShow], AM_ASPECT_RATIO_MODEEnumeration, dshow.am_aspect_ratio_mode, mpconfig/AM_ARMODE_CROP, mpconfig/AM_ARMODE_LETTER_BOX, mpconfig/AM_ARMODE_STRETCHED, mpconfig/AM_ARMODE_STRETCHED_AS_PRIMARY, mpconfig/AM_ASPECT_RATIO_MODE
 ms.topic: enum
-f1_keywords: 
- - "mpconfig/AM_ASPECT_RATIO_MODE"
+f1_keywords:
+- mpconfig/AM_ASPECT_RATIO_MODE
 dev_langs:
- - c++
+- c++
 req.header: mpconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mpconfig.h
+- mpconfig.h
 api_name:
- - AM_ASPECT_RATIO_MODE
+- AM_ASPECT_RATIO_MODE
 targetos: Windows
 req.typenames: AM_ASPECT_RATIO_MODE
 req.redist: 

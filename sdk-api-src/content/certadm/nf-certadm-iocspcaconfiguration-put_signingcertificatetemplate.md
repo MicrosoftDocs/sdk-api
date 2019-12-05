@@ -1,19 +1,17 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.put_SigningCertificateTemplate
 title: IOCSPCAConfiguration::put_SigningCertificateTemplate (certadm.h)
-
 description: Gets or sets the template name for a signing certificate.
 old-location: security\iocspcaconfiguration_signingcertificatetemplate.htm
 tech.root: SecCrypto
 ms.assetid: 38e75d8f-1e6a-4214-8142-85f7e9c41ce2
-
 ms.date: 12/05/2018
 ms.keywords: IOCSPCAConfiguration interface [Security],SigningCertificateTemplate property, IOCSPCAConfiguration.SigningCertificateTemplate, IOCSPCAConfiguration.put_SigningCertificateTemplate, IOCSPCAConfiguration::SigningCertificateTemplate, IOCSPCAConfiguration::get_SigningCertificateTemplate, IOCSPCAConfiguration::put_SigningCertificateTemplate, SigningCertificateTemplate property [Security], SigningCertificateTemplate property [Security],IOCSPCAConfiguration interface, certadm/IOCSPCAConfiguration::SigningCertificateTemplate, certadm/IOCSPCAConfiguration::get_SigningCertificateTemplate, certadm/IOCSPCAConfiguration::put_SigningCertificateTemplate, put_SigningCertificateTemplate, security.iocspcaconfiguration_signingcertificatetemplate
 ms.topic: method
-f1_keywords: 
- - "certadm/IOCSPCAConfiguration.SigningCertificateTemplate"
+f1_keywords:
+- certadm/IOCSPCAConfiguration.SigningCertificateTemplate
 dev_langs:
- - c++
+- c++
 req.header: certadm.h
 req.include-header: Certserv.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IOCSPCAConfiguration.SigningCertificateTemplate
- - IOCSPCAConfiguration.get_SigningCertificateTemplate
- - IOCSPCAConfiguration.put_SigningCertificateTemplate
- - IOCSPCAConfiguration.SigningCertificateTemplate
+- IOCSPCAConfiguration.SigningCertificateTemplate
+- IOCSPCAConfiguration.get_SigningCertificateTemplate
+- IOCSPCAConfiguration.put_SigningCertificateTemplate
+- IOCSPCAConfiguration.SigningCertificateTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

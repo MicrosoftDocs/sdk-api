@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphSetProperties
 title: PeerGraphSetProperties function (p2p.h)
-
 description: The PeerGraphSetProperties function sets the peer graph properties.
 old-location: p2p\peergraphsetproperties.htm
 tech.root: P2PSdk
 ms.assetid: a9cdf715-bbef-4b5b-96b9-b7c1e35c76ec
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphSetProperties, PeerGraphSetProperties function [Peer Networking], p2p.peergraphsetproperties, p2p/PeerGraphSetProperties
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphSetProperties"
+f1_keywords:
+- p2p/PeerGraphSetProperties
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphSetProperties
+- PeerGraphSetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

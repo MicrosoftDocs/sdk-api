@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps
 title: ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps (d3d11.h)
-
 description: Gets the capabilities of the video processor.
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorcaps.htm
 tech.root: medfound
 ms.assetid: BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A
-
 ms.date: 12/05/2018
 ms.keywords: GetVideoProcessorCaps, GetVideoProcessorCaps method [Media Foundation], GetVideoProcessorCaps method [Media Foundation],ID3D11VideoProcessorEnumerator interface, ID3D11VideoProcessorEnumerator interface [Media Foundation],GetVideoProcessorCaps method, ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps, ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps, d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps, mf.id3d11videoprocessorenumerator_getvideoprocessorcaps
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps"
+f1_keywords:
+- d3d11/ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps
+- ID3D11VideoProcessorEnumerator.GetVideoProcessorCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerRegisterExcludedMemoryBlock
 title: WerRegisterExcludedMemoryBlock function (werapi.h)
-
 description: Marks a memory block (that is normally included by default in error reports) to be excluded from the error report.
 old-location: wer\werregisterexcludedmemoryblock.htm
 tech.root: wer
 ms.assetid: 6CDA8EDD-C8A5-471D-9716-3AB29E571133
-
 ms.date: 12/05/2018
 ms.keywords: WerRegisterExcludedMemoryBlock, WerRegisterExcludedMemoryBlock function [Windows Error Reporting], wer.werregisterexcludedmemoryblock, werapi/WerRegisterExcludedMemoryBlock
 ms.topic: function
-f1_keywords: 
- - "werapi/WerRegisterExcludedMemoryBlock"
+f1_keywords:
+- werapi/WerRegisterExcludedMemoryBlock
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerRegisterExcludedMemoryBlock
+- WerRegisterExcludedMemoryBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

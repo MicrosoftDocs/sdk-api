@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetMirrorState
 title: IMFCapturePreviewSink::SetMirrorState (mfcaptureengine.h)
-
 description: Enables or disables mirroring of the video preview stream.
 old-location: mf\imfcapturepreviewsink_setmirrorstate.htm
 tech.root: medfound
 ms.assetid: F7F04E29-E7AD-46BD-AAF9-5B7BA68822EE
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePreviewSink interface [Media Foundation],SetMirrorState method, IMFCapturePreviewSink.SetMirrorState, IMFCapturePreviewSink::SetMirrorState, SetMirrorState, SetMirrorState method [Media Foundation], SetMirrorState method [Media Foundation],IMFCapturePreviewSink interface, mf.imfcapturepreviewsink_setmirrorstate, mfcaptureengine/IMFCapturePreviewSink::SetMirrorState
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePreviewSink.SetMirrorState"
+f1_keywords:
+- mfcaptureengine/IMFCapturePreviewSink.SetMirrorState
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePreviewSink.SetMirrorState
+- IMFCapturePreviewSink.SetMirrorState
 targetos: Windows
 req.typenames: 
 req.redist: 

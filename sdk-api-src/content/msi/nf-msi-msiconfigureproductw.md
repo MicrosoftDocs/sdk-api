@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiConfigureProductW
 title: MsiConfigureProductW function (msi.h)
-
 description: The MsiConfigureProduct function installs or uninstalls a product.
 old-location: setup\msiconfigureproduct.htm
 tech.root: Msi
 ms.assetid: 06f341ac-badd-47a0-af86-4fb76bf528d6
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLLEVEL_DEFAULT, INSTALLLEVEL_MAXIMUM, INSTALLLEVEL_MINIMUM, INSTALLSTATE_ABSENT, INSTALLSTATE_ADVERTISED, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, MsiConfigureProduct, MsiConfigureProduct function, MsiConfigureProductA, MsiConfigureProductW, _msi_msiconfigureproduct, msi/MsiConfigureProduct, msi/MsiConfigureProductA, msi/MsiConfigureProductW, setup.msiconfigureproduct
 ms.topic: function
-f1_keywords: 
- - "msi/MsiConfigureProduct"
+f1_keywords:
+- msi/MsiConfigureProduct
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiConfigureProduct
- - MsiConfigureProductA
- - MsiConfigureProductW
+- MsiConfigureProduct
+- MsiConfigureProductA
+- MsiConfigureProductW
 targetos: Windows
 req.typenames: 
 req.redist: 

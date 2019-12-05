@@ -1,19 +1,17 @@
 ---
 UID: NE:iwstdec._AM_WST_STYLE
 title: AM_WST_STYLE (iwstdec.h)
-
 description: The AM_WST_STYLE enumeration is not supported.
 old-location: dshow\am_wst_style.htm
 tech.root: DirectShow
 ms.assetid: a183d38a-ed79-4bfa-8983-52877c19c335
-
 ms.date: 12/05/2018
-ms.keywords: "*PAM_WST_STYLE, AM_WST_STYLE, AM_WST_STYLE , AM_WST_STYLE enumeration [DirectShow], AM_WST_STYLEEnumeration, AM_WST_STYLE_Invers, AM_WST_STYLE_None, PAM_WST_STYLE, PAM_WST_STYLE enumeration pointer [DirectShow], dshow.am_wst_style, iwstdec/AM_WST_STYLE, iwstdec/AM_WST_STYLE_Invers, iwstdec/AM_WST_STYLE_None, iwstdec/PAM_WST_STYLE"
+ms.keywords: '*PAM_WST_STYLE, AM_WST_STYLE, AM_WST_STYLE , AM_WST_STYLE enumeration [DirectShow], AM_WST_STYLEEnumeration, AM_WST_STYLE_Invers, AM_WST_STYLE_None, PAM_WST_STYLE, PAM_WST_STYLE enumeration pointer [DirectShow], dshow.am_wst_style, iwstdec/AM_WST_STYLE, iwstdec/AM_WST_STYLE_Invers, iwstdec/AM_WST_STYLE_None, iwstdec/PAM_WST_STYLE'
 ms.topic: enum
-f1_keywords: 
- - "iwstdec/AM_WST_STYLE"
+f1_keywords:
+- iwstdec/AM_WST_STYLE
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iwstdec.h
+- iwstdec.h
 api_name:
- - AM_WST_STYLE
+- AM_WST_STYLE
 targetos: Windows
 req.typenames: AM_WST_STYLE, *PAM_WST_STYLE
 req.redist: 

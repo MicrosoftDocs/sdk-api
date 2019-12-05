@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2fx.XAudio2CreateReverb
 title: XAudio2CreateReverb function (xaudio2fx.h)
-
 description: Creates a new reverb audio processing object (APO), and returns a pointer to it.
 old-location: xaudio2\xaudio2createreverb.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateReverb(IUnknown@,UINT32)
-
 ms.date: 12/05/2018
 ms.keywords: XAudio2CreateReverb, XAudio2CreateReverb function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2createreverb, xaudio2fx/XAudio2CreateReverb
 ms.topic: function
-f1_keywords: 
- - "xaudio2fx/XAudio2CreateReverb"
+f1_keywords:
+- xaudio2fx/XAudio2CreateReverb
 dev_langs:
- - c++
+- c++
 req.header: xaudio2fx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Xaudio2.lib
 req.dll: Windows.Media.Audio.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Windows.Media.Audio.dll
+- Windows.Media.Audio.dll
 api_name:
- - XAudio2CreateReverb
+- XAudio2CreateReverb
 targetos: Windows
 req.typenames: 
 req.redist: 

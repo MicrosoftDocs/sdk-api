@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.IsCharacterLocal
 title: IDWriteFontFace3::IsCharacterLocal (dwrite_3.h)
-
 description: Determines whether the character is locally downloaded from the font.
 old-location: directwrite\idwritefontface3_ischaracterlocal.htm
 tech.root: DirectWrite
 ms.assetid: 7a47f73b-9ce7-f7db-688b-291cebad54bb
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsCharacterLocal method, IDWriteFontFace3.IsCharacterLocal, IDWriteFontFace3::IsCharacterLocal, IsCharacterLocal, IsCharacterLocal method [Direct Write], IsCharacterLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_ischaracterlocal, dwrite_3/IDWriteFontFace3::IsCharacterLocal
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace3.IsCharacterLocal"
+f1_keywords:
+- dwrite_3/IDWriteFontFace3.IsCharacterLocal
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace3.IsCharacterLocal
+- IDWriteFontFace3.IsCharacterLocal
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSelectExtVersion
 title: TSPI_lineSelectExtVersion function (tspi.h)
-
 description: The TSPI_lineSelectExtVersion function selects the indicated extension version for the indicated line device. Subsequent requests operate according to that extension version.
 old-location: tspi\tspi_lineselectextversion.htm
 tech.root: Tapi
 ms.assetid: 8c083afc-2e15-4260-ba67-84125c777cbf
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSelectExtVersion, TSPI_lineSelectExtVersion function [TAPI 2.2], _tspi_tspi_lineselectextversion, tspi.tspi_lineselectextversion, tspi/TSPI_lineSelectExtVersion
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSelectExtVersion"
+f1_keywords:
+- tspi/TSPI_lineSelectExtVersion
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSelectExtVersion
+- TSPI_lineSelectExtVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

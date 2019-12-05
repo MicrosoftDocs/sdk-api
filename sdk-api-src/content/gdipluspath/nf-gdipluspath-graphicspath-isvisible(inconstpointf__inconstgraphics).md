@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.IsVisible(IN const PointF &,IN const Graphics)
 title: GraphicsPath::IsVisible
 description: The GraphicsPath::IsVisible method determines whether a specified point lies in an area.
 ms.assetid: 0065e994-f6a0-47ea-a6c0-ab496f90f061
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::IsVisible
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::IsVisible"
+f1_keywords:
+- gdipluspath/GraphicsPath::IsVisible
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::IsVisible
+- GraphicsPath::IsVisible
 ---
 
 # GraphicsPath::IsVisible

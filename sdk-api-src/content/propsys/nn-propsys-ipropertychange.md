@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IPropertyChange
 title: IPropertyChange (propsys.h)
-
 description: Exposes a method that encapsulates a change to a single property.
 old-location: properties\IPropertyChange.htm
 tech.root: properties
 ms.assetid: 7bdc31d8-ba03-4010-8aa1-89701ebbf8cd
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyChange, IPropertyChange interface [Windows Properties], IPropertyChange interface [Windows Properties],described, _shell_IPropertyChange, properties.IPropertyChange, propsys/IPropertyChange, shell.IPropertyChange
 ms.topic: interface
-f1_keywords: 
- - "propsys/IPropertyChange"
+f1_keywords:
+- propsys/IPropertyChange
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyChange
+- IPropertyChange
 targetos: Windows
 req.typenames: 
 req.redist: 

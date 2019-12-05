@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension
 title: IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension (wdstptmgmt.h)
-
 description: Receives a WDSTRANSPORT_TFTP_CAPABILITY value that specifies whether variable-window extension is enabled on the TFTP server. The value enables a WDS client computer to configure the WDS TFTP server to use variable-window extensions.
 old-location: wds\iwdstransportservicepolicy2_enabletftpvariablewindowextension.htm
 tech.root: wds
 ms.assetid: 948B70F8-2871-404E-8DEC-C4CBE8F84ED7
-
 ms.date: 12/05/2018
 ms.keywords: EnableTftpVariableWindowExtension property [Windows Deployment Services], EnableTftpVariableWindowExtension property [Windows Deployment Services],IWdsTransportServicePolicy2 interface, IWdsTransportServicePolicy2 interface [Windows Deployment Services],EnableTftpVariableWindowExtension property, IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension, get_EnableTftpVariableWindowExtension, wds.iwdstransportservicepolicy2_enabletftpvariablewindowextension, wdstptmgmt/IWdsTransportServicePolicy2::EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::get_EnableTftpVariableWindowExtension, wdstptmgmt/IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension
- - IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension
- - IWdsTransportServicePolicy2.put_EnableTftpVariableWindowExtension
+- IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension
+- IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension
+- IWdsTransportServicePolicy2.put_EnableTftpVariableWindowExtension
 targetos: Windows
 req.typenames: 
 req.redist: 

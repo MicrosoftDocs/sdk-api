@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITPhoneEvent.get_RingMode
 title: ITPhoneEvent::get_RingMode (tapi3if.h)
-
 description: The get_RingMode method returns a long value specifying the ring mode to which the phone has transitioned. This information is available only when the ITPhoneEvent::get_Event method returns PE_RINGMODE.
 old-location: tapi3\itphoneevent_get_ringmode.htm
 tech.root: Tapi
 ms.assetid: cd43ce66-bcbf-4863-87cc-db10dd81ba99
-
 ms.date: 12/05/2018
 ms.keywords: ITPhoneEvent interface [TAPI 2.2],get_RingMode method, ITPhoneEvent.get_RingMode, ITPhoneEvent::get_RingMode, _tapi3_itphoneevent_get_ringmode, get_RingMode, get_RingMode method [TAPI 2.2], get_RingMode method [TAPI 2.2],ITPhoneEvent interface, tapi3.itphoneevent_get_ringmode, tapi3if/ITPhoneEvent::get_RingMode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITPhoneEvent.get_RingMode"
+f1_keywords:
+- tapi3if/ITPhoneEvent.get_RingMode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPhoneEvent.get_RingMode
+- ITPhoneEvent.get_RingMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMWrite
 title: IComCRMEvents::OnCRMWrite (comsvcs.h)
-
 description: Generated when a CRM clerk receives a request to write a log record, either from the CRM worker or CRM compensator.
 old-location: cos\icomcrmevents_oncrmwrite.htm
 tech.root: cossdk
 ms.assetid: 095452e3-a38d-4602-a925-8fa6445ddbc8
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMWrite method, IComCRMEvents.OnCRMWrite, IComCRMEvents::OnCRMWrite, OnCRMWrite, OnCRMWrite method [COM+], OnCRMWrite method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMWrite, comsvcs/IComCRMEvents::OnCRMWrite, cos.icomcrmevents_oncrmwrite
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMWrite"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMWrite
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMWrite
+- IComCRMEvents.OnCRMWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

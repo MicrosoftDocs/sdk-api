@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetHomeProvider
 title: IMbnInterface::GetHomeProvider (mbnapi.h)
-
 description: Gets the home provider.
 old-location: mbn\imbninterface_gethomeprovider.htm
 tech.root: mbn
 ms.assetid: b9d29a2a-f41b-4e20-b9ff-559dd39e1015
-
 ms.date: 12/05/2018
 ms.keywords: GetHomeProvider, GetHomeProvider method [Microsoft Broadband Networks], GetHomeProvider method [Microsoft Broadband Networks],IMbnInterface interface, IMbnInterface interface [Microsoft Broadband Networks],GetHomeProvider method, IMbnInterface.GetHomeProvider, IMbnInterface::GetHomeProvider, mbn.imbninterface_gethomeprovider, mbnapi/IMbnInterface::GetHomeProvider
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnInterface.GetHomeProvider"
+f1_keywords:
+- mbnapi/IMbnInterface.GetHomeProvider
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnInterface.GetHomeProvider
+- IMbnInterface.GetHomeProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

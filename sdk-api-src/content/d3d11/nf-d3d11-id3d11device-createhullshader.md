@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateHullShader
 title: ID3D11Device::CreateHullShader (d3d11.h)
-
 description: Create a hull shader.
 old-location: direct3d11\id3d11device_createhullshader.htm
 tech.root: direct3d11
 ms.assetid: 93ec9f46-69c5-4863-bd74-9c8c92fae586
-
 ms.date: 12/05/2018
 ms.keywords: 3183fc89-b12c-d245-312b-a06f19ecd6de, CreateHullShader, CreateHullShader method [Direct3D 11], CreateHullShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateHullShader method, ID3D11Device.CreateHullShader, ID3D11Device::CreateHullShader, d3d11/ID3D11Device::CreateHullShader, direct3d11.id3d11device_createhullshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateHullShader"
+f1_keywords:
+- d3d11/ID3D11Device.CreateHullShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateHullShader
+- ID3D11Device.CreateHullShader
 targetos: Windows
 req.typenames: 
 req.redist: 

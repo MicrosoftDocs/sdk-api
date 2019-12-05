@@ -1,19 +1,17 @@
 ---
 UID: NF:apiquery2.IsApiSetImplemented
 title: IsApiSetImplemented function (apiquery2.h)
-
 description: The IsApiSetImplemented function tests if a specified API set is present on the computer.
 old-location: winprog\isapisetimplemented.htm
 tech.root: DevNotes
 ms.assetid: DF177716-9F33-4E39-BD63-D1B8E39CD67C
-
 ms.date: 12/05/2018
 ms.keywords: IsApiSetImplemented, IsApiSetImplemented function [Windows API], apiquery2/IsApiSetImplemented, winprog.isapisetimplemented
 ms.topic: function
-f1_keywords: 
- - "apiquery2/IsApiSetImplemented"
+f1_keywords:
+- apiquery2/IsApiSetImplemented
 dev_langs:
- - c++
+- c++
 req.header: apiquery2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - apiquery2.h
+- apiquery2.h
 api_name:
- - IsApiSetImplemented
+- IsApiSetImplemented
 targetos: Windows
 req.typenames: 
 req.redist: 

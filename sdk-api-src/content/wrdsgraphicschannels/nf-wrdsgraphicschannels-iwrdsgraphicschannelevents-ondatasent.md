@@ -1,19 +1,17 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnDataSent
 title: IWRdsGraphicsChannelEvents::OnDataSent (wrdsgraphicschannels.h)
-
 description: Called when the IWRdsGraphicsChannel::Write method is called and the data has been sent.
 old-location: termserv\iwrdsgraphicschannelevents_ondatasent.htm
 tech.root: TermServ
 ms.assetid: eb5af337-a412-4bda-862f-7e12705d0446
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsGraphicsChannelEvents interface [Remote Desktop Services],OnDataSent method, IWRdsGraphicsChannelEvents.OnDataSent, IWRdsGraphicsChannelEvents::OnDataSent, OnDataSent, OnDataSent method [Remote Desktop Services], OnDataSent method [Remote Desktop Services],IWRdsGraphicsChannelEvents interface, termserv.iwrdsgraphicschannelevents_ondatasent, wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnDataSent
 ms.topic: method
-f1_keywords: 
- - "wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnDataSent"
+f1_keywords:
+- wrdsgraphicschannels/IWRdsGraphicsChannelEvents.OnDataSent
 dev_langs:
- - c++
+- c++
 req.header: wrdsgraphicschannels.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wrdsgraphicschannels.h
+- wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannelEvents.OnDataSent
+- IWRdsGraphicsChannelEvents.OnDataSent
 targetos: Windows
 req.typenames: 
 req.redist: 

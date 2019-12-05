@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagEMRSETARCDIRECTION
 title: EMRSETARCDIRECTION (wingdi.h)
-
 description: The EMRSETARCDIRECTION structure contains members for the SetArcDirection enhanced metafile record.
 old-location: gdi\emrsetarcdirection.htm
 tech.root: gdi
 ms.assetid: d33d329f-7f66-4995-b80f-656c96ea105b
-
 ms.date: 12/05/2018
-ms.keywords: "*PEMRSETARCDIRECTION, EMRSETARCDIRECTION, EMRSETARCDIRECTION structure [Windows GDI], PEMRSETARCDIRECTION, PEMRSETARCDIRECTION structure pointer [Windows GDI], _win32_EMRSETARCDIRECTION_str, gdi.emrsetarcdirection, wingdi/EMRSETARCDIRECTION, wingdi/PEMRSETARCDIRECTION"
+ms.keywords: '*PEMRSETARCDIRECTION, EMRSETARCDIRECTION, EMRSETARCDIRECTION structure [Windows GDI], PEMRSETARCDIRECTION, PEMRSETARCDIRECTION structure pointer [Windows GDI], _win32_EMRSETARCDIRECTION_str, gdi.emrsetarcdirection, wingdi/EMRSETARCDIRECTION, wingdi/PEMRSETARCDIRECTION'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/EMRSETARCDIRECTION"
+f1_keywords:
+- wingdi/EMRSETARCDIRECTION
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - EMRSETARCDIRECTION
+- EMRSETARCDIRECTION
 targetos: Windows
 req.typenames: EMRSETARCDIRECTION, *PEMRSETARCDIRECTION
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.FtpRenameFileA
 title: FtpRenameFileA function (wininet.h)
-
 description: Renames a file stored on the FTP server.
 old-location: wininet\ftprenamefile.htm
 tech.root: wininet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
-
 ms.date: 12/05/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
 ms.topic: function
-f1_keywords: 
- - "wininet/FtpRenameFile"
+f1_keywords:
+- wininet/FtpRenameFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - FtpRenameFile
- - FtpRenameFileA
- - FtpRenameFileW
+- FtpRenameFile
+- FtpRenameFileA
+- FtpRenameFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_MAPPED_SUBRESOURCE
 title: D3D11_MAPPED_SUBRESOURCE (d3d11.h)
-
 description: Provides access to subresource data.
 old-location: direct3d11\d3d11_mapped_subresource.htm
 tech.root: direct3d11
 ms.assetid: cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe
-
 ms.date: 12/05/2018
 ms.keywords: 6581ca11-abcb-9ae4-0972-0f8f36933283, D3D11_MAPPED_SUBRESOURCE, D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11], d3d11/D3D11_MAPPED_SUBRESOURCE, direct3d11.d3d11_mapped_subresource
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_MAPPED_SUBRESOURCE"
+f1_keywords:
+- d3d11/D3D11_MAPPED_SUBRESOURCE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_MAPPED_SUBRESOURCE
+- D3D11_MAPPED_SUBRESOURCE
 targetos: Windows
 req.typenames: D3D11_MAPPED_SUBRESOURCE
 req.redist: 

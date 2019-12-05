@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._UIActivateView
 title: IBrowserService2::_UIActivateView (shdeprecated.h)
-
 description: Deprecated. Allows a derived class to request that the base class update the browser view.
 old-location: shell\IBrowserService2__UIActivateView.htm
 tech.root: shell
 ms.assetid: 9c8439f8-5931-4aca-8085-2707b6f964f0
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],_UIActivateView method, IBrowserService2._UIActivateView, IBrowserService2::_UIActivateView, _UIActivateView, _UIActivateView method [Windows Shell], _UIActivateView method [Windows Shell],IBrowserService2 interface, shdeprecated/IBrowserService2::_UIActivateView, shell.IBrowserService2__UIActivateView, zone_IBrowserService2__UIActivateView
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2._UIActivateView"
+f1_keywords:
+- shdeprecated/IBrowserService2._UIActivateView
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2._UIActivateView
+- IBrowserService2._UIActivateView
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordDurationByIndex
 title: IISDB_SDTT::GetRecordDurationByIndex (dvbsiparser.h)
-
 description: Receives the event duration from a schedule record in an Integrated Services Digital Broadcasting (ISDB) Software Download Trigger Table (SDTT).
 old-location: mstv\iisdb_sdtt_getrecorddurationbyindex.htm
 tech.root: mstv
 ms.assetid: e7021a9e-4266-4c17-8874-4b10cf7d6428
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDurationByIndex, GetRecordDurationByIndex method [Microsoft TV Technologies], GetRecordDurationByIndex method [Microsoft TV Technologies],IISDB_SDTT interface, IISDB_SDTT interface [Microsoft TV Technologies],GetRecordDurationByIndex method, IISDB_SDTT.GetRecordDurationByIndex, IISDB_SDTT::GetRecordDurationByIndex, dvbsiparser/IISDB_SDTT::GetRecordDurationByIndex, mstv.iisdb_sdtt_getrecorddurationbyindex
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_SDTT.GetRecordDurationByIndex"
+f1_keywords:
+- dvbsiparser/IISDB_SDTT.GetRecordDurationByIndex
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_SDTT.GetRecordDurationByIndex
+- IISDB_SDTT.GetRecordDurationByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

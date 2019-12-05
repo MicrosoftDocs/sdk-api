@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IResultsFolder.AddItem
 title: IResultsFolder::AddItem (shobjidl.h)
-
 description: Adds an item to a results folder.
 old-location: shell\IResultsFolder_AddItem.htm
 tech.root: shell
 ms.assetid: 005f7125-8dc2-4d9c-a860-1bb56b4d0b63
-
 ms.date: 12/05/2018
 ms.keywords: AddItem, AddItem method [Windows Shell], AddItem method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddItem method, IResultsFolder.AddItem, IResultsFolder::AddItem, _shell_IResultsFolder_AddItem, shell.IResultsFolder_AddItem, shobjidl/IResultsFolder::AddItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IResultsFolder.AddItem"
+f1_keywords:
+- shobjidl/IResultsFolder.AddItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IResultsFolder.AddItem
+- IResultsFolder.AddItem
 targetos: Windows
 req.typenames: 
 req.redist: 

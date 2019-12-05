@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.wglSetLayerPaletteEntries
 title: wglSetLayerPaletteEntries function (wingdi.h)
-
 description: Sets the palette entries in a given color-index layer plane for a specified device context.
 old-location: opengl\wglsetlayerpaletteentries.htm
 tech.root: OpenGL
 ms.assetid: bc44353d-15db-4e52-970d-a290b66bc046
-
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglSetLayerPaletteEntries, opengl.wglsetlayerpaletteentries, wglSetLayerPaletteEntries, wglSetLayerPaletteEntries function [OpenGL], wingdi/wglSetLayerPaletteEntries"
+ms.keywords: _ogl_wglSetLayerPaletteEntries, opengl.wglsetlayerpaletteentries, wglSetLayerPaletteEntries, wglSetLayerPaletteEntries function [OpenGL], wingdi/wglSetLayerPaletteEntries
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglSetLayerPaletteEntries"
+f1_keywords:
+- wingdi/wglSetLayerPaletteEntries
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglSetLayerPaletteEntries
+- wglSetLayerPaletteEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

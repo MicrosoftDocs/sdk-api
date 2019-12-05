@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxSender.get_Title
 title: IFaxSender::get_Title (faxcomex.h)
-
 description: The IFaxSender::get_Title property is a null-terminated string that contains the title associated with the sender.
 old-location: fax\_mfax_faxsender_cpp_mfax_faxsender_title_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_55d1.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxSender interface [Fax Service],Title property, IFaxSender.Title, IFaxSender.get_Title, IFaxSender.put_Title, IFaxSender::Title, IFaxSender::get_Title, IFaxSender::put_Title, Title property [Fax Service], Title property [Fax Service],IFaxSender interface, _mfax_faxsender.title, fax._mfax_faxsender_cpp_mfax_faxsender_title_cpp, fax._mfax_faxsender_title, faxcomex/IFaxSender::Title, faxcomex/IFaxSender::get_Title, faxcomex/IFaxSender::put_Title, get_Title
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxSender.Title"
+f1_keywords:
+- faxcomex/IFaxSender.Title
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxSender.Title
- - IFaxSender.get_Title
- - IFaxSender.put_Title
- - IFaxSender.get_Title
- - IFaxSender.put_Title
+- IFaxSender.Title
+- IFaxSender.get_Title
+- IFaxSender.put_Title
+- IFaxSender.get_Title
+- IFaxSender.put_Title
 targetos: Windows
 req.typenames: 
 req.redist: 

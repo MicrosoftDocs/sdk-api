@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IPin
 title: IPin (strmif.h)
-
 description: This interface is exposed by all input and output pins.The filter graph manager uses this interface to connect pins and perform flushing operations.
 old-location: dshow\ipin.htm
 tech.root: DirectShow
 ms.assetid: ad0ead4e-9f8e-4935-b220-306d665e50f4
-
 ms.date: 12/05/2018
 ms.keywords: IPin, IPin interface [DirectShow], IPin interface [DirectShow],described, IPinInterface, dshow.ipin, strmif/IPin
 ms.topic: interface
-f1_keywords: 
- - "strmif/IPin"
+f1_keywords:
+- strmif/IPin
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPin
+- IPin
 targetos: Windows
 req.typenames: 
 req.redist: 

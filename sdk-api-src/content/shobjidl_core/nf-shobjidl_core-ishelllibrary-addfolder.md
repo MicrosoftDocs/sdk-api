@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.AddFolder
 title: IShellLibrary::AddFolder (shobjidl_core.h)
-
 description: Adds a folder to the library.
 old-location: shell\IShellLibrary_AddFolder.htm
 tech.root: shell
 ms.assetid: 7455998a-56a8-4fc1-882b-c0942fd35d8c
-
 ms.date: 12/05/2018
 ms.keywords: AddFolder, AddFolder method [Windows Shell], AddFolder method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],AddFolder method, IShellLibrary.AddFolder, IShellLibrary::AddFolder, _shell_IShellLibrary_AddFolder, shell.IShellLibrary_AddFolder, shobjidl_core/IShellLibrary::AddFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.AddFolder"
+f1_keywords:
+- shobjidl_core/IShellLibrary.AddFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.AddFolder
+- IShellLibrary.AddFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.GetDisplayName
 title: IMoniker::GetDisplayName (objidl.h)
-
 description: Retrieves the display name for the moniker.
 old-location: com\imoniker_getdisplayname.htm
 tech.root: com
 ms.assetid: 424036c9-c097-4507-b562-4a01f9199b1f
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayName, GetDisplayName method [COM], GetDisplayName method [COM],IMoniker interface, IMoniker interface [COM],GetDisplayName method, IMoniker.GetDisplayName, IMoniker::GetDisplayName, _com_imoniker_getdisplayname, com.imoniker_getdisplayname, objidl/IMoniker::GetDisplayName
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.GetDisplayName"
+f1_keywords:
+- objidl/IMoniker.GetDisplayName
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.GetDisplayName
+- IMoniker.GetDisplayName
 targetos: Windows
 req.typenames: 
 req.redist: 

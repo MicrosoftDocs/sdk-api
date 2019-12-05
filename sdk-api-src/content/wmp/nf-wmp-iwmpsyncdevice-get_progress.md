@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.get_progress
 title: IWMPSyncDevice::get_progress (wmp.h)
-
 description: The get_progress method retrieves a value that indicates the synchronization progress as percent complete.
 old-location: wmp\iwmpsyncdevice_get_progress.htm
 tech.root: WMP
 ms.assetid: bc125107-0013-4c5b-aa44-9d48557d370d
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],get_progress method, IWMPSyncDevice.get_progress, IWMPSyncDevice::get_progress, IWMPSyncDeviceget_progress, get_progress, get_progress method [Windows Media Player], get_progress method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_get_progress, wmp/IWMPSyncDevice::get_progress
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.get_progress"
+f1_keywords:
+- wmp/IWMPSyncDevice.get_progress
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.get_progress
+- IWMPSyncDevice.get_progress
 targetos: Windows
 req.typenames: 
 req.redist: 

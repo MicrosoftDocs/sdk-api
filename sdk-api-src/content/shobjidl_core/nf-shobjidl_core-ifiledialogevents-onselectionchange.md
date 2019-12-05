@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnSelectionChange
 title: IFileDialogEvents::OnSelectionChange (shobjidl_core.h)
-
 description: Called when the user changes the selection in the dialog's view.
 old-location: shell\IFileDialogEvents_OnSelectionChange.htm
 tech.root: shell
 ms.assetid: 5fd69b1f-4e4b-4643-8429-9b5f98f3d702
-
 ms.date: 12/05/2018
 ms.keywords: IFileDialogEvents interface [Windows Shell],OnSelectionChange method, IFileDialogEvents.OnSelectionChange, IFileDialogEvents::OnSelectionChange, OnSelectionChange, OnSelectionChange method [Windows Shell], OnSelectionChange method [Windows Shell],IFileDialogEvents interface, shell.IFileDialogEvents_OnSelectionChange, shell_IFileDialogEvents_OnSelectionChange, shobjidl_core/IFileDialogEvents::OnSelectionChange
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogEvents.OnSelectionChange"
+f1_keywords:
+- shobjidl_core/IFileDialogEvents.OnSelectionChange
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogEvents.OnSelectionChange
+- IFileDialogEvents.OnSelectionChange
 targetos: Windows
 req.typenames: 
 req.redist: 

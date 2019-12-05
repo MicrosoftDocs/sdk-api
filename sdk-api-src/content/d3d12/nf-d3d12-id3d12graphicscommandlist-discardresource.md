@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.DiscardResource
 title: ID3D12GraphicsCommandList::DiscardResource (d3d12.h)
-
 description: Discards a resource.
 old-location: direct3d12\id3d12graphicscommandlist_discardresource.htm
 tech.root: direct3d12
 ms.assetid: 2F4DBA5B-F586-4126-8867-BEE650F6D161
-
 ms.date: 12/05/2018
 ms.keywords: DiscardResource, DiscardResource method, DiscardResource method,ID3D12GraphicsCommandList interface, ID3D12GraphicsCommandList interface,DiscardResource method, ID3D12GraphicsCommandList.DiscardResource, ID3D12GraphicsCommandList::DiscardResource, d3d12/ID3D12GraphicsCommandList::DiscardResource, direct3d12.id3d12graphicscommandlist_discardresource
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.DiscardResource"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.DiscardResource
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.DiscardResource
+- ID3D12GraphicsCommandList.DiscardResource
 targetos: Windows
 req.typenames: 
 req.redist: 

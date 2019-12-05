@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMLoadInt3
 title: XMLoadInt3 function (directxmath.h)
-
 description: Loads data into the x, y, and z components of an XMVECTOR, without type checking.
 old-location: dxmath\xmloadint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt3(const VOID)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMLoadInt3, XMLoadInt3, XMLoadInt3 method [DirectX Math Support APIs], dxmath.xmloadint3
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMLoadInt3"
+f1_keywords:
+- directxmath/XMLoadInt3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMLoadInt3
+- XMLoadInt3
 targetos: Windows
 req.typenames: 
 req.redist: 

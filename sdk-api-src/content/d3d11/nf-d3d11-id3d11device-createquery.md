@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateQuery
 title: ID3D11Device::CreateQuery (d3d11.h)
-
 description: This interface encapsulates methods for querying information from the GPU.
 old-location: direct3d11\id3d11device_createquery.htm
 tech.root: direct3d11
 ms.assetid: ad09a309-862f-462d-8268-62e44397c298
-
 ms.date: 12/05/2018
 ms.keywords: CreateQuery, CreateQuery method [Direct3D 11], CreateQuery method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateQuery method, ID3D11Device.CreateQuery, ID3D11Device::CreateQuery, d3d11/ID3D11Device::CreateQuery, direct3d11.id3d11device_createquery, f2e88fab-8ad2-a5e2-0d8a-4c97538eb108
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateQuery"
+f1_keywords:
+- d3d11/ID3D11Device.CreateQuery
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateQuery
+- ID3D11Device.CreateQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_Tsid
 title: IFaxDoc::put_Tsid (faxcom.h)
-
 description: Sets or retrieves the Tsid property of a FaxDoc object. The Tsid property is a null-terminated string that contains a user-defined transmitting station identifier (TSID).
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_tsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3xyc.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],Tsid property, IFaxDoc.Tsid, IFaxDoc.put_Tsid, IFaxDoc::Tsid, IFaxDoc::get_Tsid, IFaxDoc::put_Tsid, Tsid property [Fax Service], Tsid property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_get_tsid, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_tsid_cpp, faxcom/IFaxDoc::Tsid, faxcom/IFaxDoc::get_Tsid, faxcom/IFaxDoc::put_Tsid, put_Tsid
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.Tsid"
+f1_keywords:
+- faxcom/IFaxDoc.Tsid
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.Tsid
- - IFaxDoc.get_Tsid
- - IFaxDoc.put_Tsid
+- IFaxDoc.Tsid
+- IFaxDoc.get_Tsid
+- IFaxDoc.put_Tsid
 targetos: Windows
 req.typenames: 
 req.redist: 

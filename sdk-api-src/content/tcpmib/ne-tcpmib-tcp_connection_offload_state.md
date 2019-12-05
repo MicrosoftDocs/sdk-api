@@ -1,19 +1,17 @@
 ---
 UID: NE:tcpmib.__unnamed_enum_1
 title: TCP_CONNECTION_OFFLOAD_STATE (tcpmib.h)
-
 description: Defines the possible TCP offload states for a TCP connection.
 old-location: mib\tcp_connection_offload_state.htm
 tech.root: MIB
 ms.assetid: cef633e7-1577-4f10-bd14-8d8e85aa78e6
-
 ms.date: 12/05/2018
 ms.keywords: '*PTCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE, TCP_CONNECTION_OFFLOAD_STATE enumeration [MIB], TcpConnectionOffloadStateInHost, TcpConnectionOffloadStateMax, TcpConnectionOffloadStateOffloaded, TcpConnectionOffloadStateOffloading, TcpConnectionOffloadStateUploading, iprtrmib/TCP_CONNECTION_OFFLOAD_STATE, iprtrmib/TcpConnectionOffloadStateInHost, iprtrmib/TcpConnectionOffloadStateMax, iprtrmib/TcpConnectionOffloadStateOffloaded, iprtrmib/TcpConnectionOffloadStateOffloading, iprtrmib/TcpConnectionOffloadStateUploading, mib.tcp_connection_offload_state, tcpmib/TCP_CONNECTION_OFFLOAD_STATE, tcpmib/TcpConnectionOffloadStateInHost, tcpmib/TcpConnectionOffloadStateMax, tcpmib/TcpConnectionOffloadStateOffloaded, tcpmib/TcpConnectionOffloadStateOffloading, tcpmib/TcpConnectionOffloadStateUploading'
 ms.topic: enum
 f1_keywords:
 - tcpmib/TCP_CONNECTION_OFFLOAD_STATE
 dev_langs:
- - c++
+- c++
 req.header: tcpmib.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows

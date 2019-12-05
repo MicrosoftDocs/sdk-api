@@ -1,19 +1,17 @@
 ---
 UID: NE:p2p.peer_member_flags_tag
 title: PEER_MEMBER_FLAGS (p2p.h)
-
 description: The PEER_MEMBER_FLAGS flag allows an application to specify whether all members or only present ones should be enumerated when the PeerGroupEnumMembers function is called, or to indicate whether or not a member is present within the peer group.
 old-location: p2p\peer_member_flags.htm
 tech.root: P2PSdk
 ms.assetid: 96a8e4ae-dce6-4f07-ab22-71da347ef347
-
 ms.date: 12/05/2018
 ms.keywords: PEER_MEMBER_FLAGS, PEER_MEMBER_FLAGS enumeration [Peer Networking], PEER_MEMBER_PRESENT, p2p.peer_member_flags, p2p/PEER_MEMBER_FLAGS, p2p/PEER_MEMBER_PRESENT
 ms.topic: enum
-f1_keywords: 
- - "p2p/PEER_MEMBER_FLAGS"
+f1_keywords:
+- p2p/PEER_MEMBER_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_MEMBER_FLAGS
+- PEER_MEMBER_FLAGS
 targetos: Windows
 req.typenames: PEER_MEMBER_FLAGS
 req.redist: 

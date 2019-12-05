@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPart
 title: IXpsOMPart (xpsobjectmodel.h)
-
 description: The base interface for all XPS document part interfaces.
 old-location: xps\ixpsompart.htm
 tech.root: printdocs
 ms.assetid: 71cd0155-6c95-42ca-bfc3-dffd43d95dc9
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPart, IXpsOMPart interface [XPS Documents and Packaging], IXpsOMPart interface [XPS Documents and Packaging],described, xps.ixpsompart, xpsobjectmodel/IXpsOMPart
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPart"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPart
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPart
+- IXpsOMPart
 targetos: Windows
 req.typenames: 
 req.redist: 

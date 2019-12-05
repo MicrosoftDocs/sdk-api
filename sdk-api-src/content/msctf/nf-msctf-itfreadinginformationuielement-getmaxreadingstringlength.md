@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.GetMaxReadingStringLength
 title: ITfReadingInformationUIElement::GetMaxReadingStringLength (msctf.h)
-
 description: The ITfReadingInformationUIElement::GetMaxReadingStringLength method returns the max string count of the reading information UI.
 old-location: tsf\itfreadinginformationuielement_getmaxreadingstringlength.htm
 tech.root: TSF
 ms.assetid: a26aa8d0-a447-4ebb-b892-28b959b57681
-
 ms.date: 12/05/2018
 ms.keywords: GetMaxReadingStringLength, GetMaxReadingStringLength method [Text Services Framework], GetMaxReadingStringLength method [Text Services Framework],ITfReadingInformationUIElement interface, ITfReadingInformationUIElement interface [Text Services Framework],GetMaxReadingStringLength method, ITfReadingInformationUIElement.GetMaxReadingStringLength, ITfReadingInformationUIElement::GetMaxReadingStringLength, msctf/ITfReadingInformationUIElement::GetMaxReadingStringLength, tsf.itfreadinginformationuielement_getmaxreadingstringlength
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfReadingInformationUIElement.GetMaxReadingStringLength"
+f1_keywords:
+- msctf/ITfReadingInformationUIElement.GetMaxReadingStringLength
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfReadingInformationUIElement.GetMaxReadingStringLength
+- ITfReadingInformationUIElement.GetMaxReadingStringLength
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

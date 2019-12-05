@@ -1,19 +1,17 @@
 ---
 UID: NF:adshlp.FreeADsMem
 title: FreeADsMem function (adshlp.h)
-
 description: Frees the memory allocated by AllocADsMem or ReallocADsMem.
 old-location: adsi\freeadsmem.htm
 tech.root: adsi
 ms.assetid: e43f050a-5b96-406e-87ed-88a39ea747da
-
 ms.date: 12/05/2018
 ms.keywords: FreeADsMem, FreeADsMem function [ADSI], _ds_freeadsmem, adshlp/FreeADsMem, adsi.freeadsmem
 ms.topic: function
-f1_keywords: 
- - "adshlp/FreeADsMem"
+f1_keywords:
+- adshlp/FreeADsMem
 dev_langs:
- - c++
+- c++
 req.header: adshlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Activeds.lib
 req.dll: Activeds.dll; AdsLdpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Activeds.dll
- - AdsLdpc.dll
+- Activeds.dll
+- AdsLdpc.dll
 api_name:
- - FreeADsMem
+- FreeADsMem
 targetos: Windows
 req.typenames: 
 req.redist: 

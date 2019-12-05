@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsDepthStencilView
 title: ID3D10EffectVariable::AsDepthStencilView (d3d10effect.h)
-
 description: Get a depth-stencil-view variable.
 old-location: direct3d10\id3d10effectvariable_asdepthstencilview.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asdepthstencilview.htm
-
 ms.date: 12/05/2018
 ms.keywords: AsDepthStencilView, AsDepthStencilView method [Direct3D 10], AsDepthStencilView method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsDepthStencilView method, ID3D10EffectVariable.AsDepthStencilView, ID3D10EffectVariable::AsDepthStencilView, cdd98874-51c7-7e0f-20f6-4efe28164ae0, d3d10effect/ID3D10EffectVariable::AsDepthStencilView, direct3d10.id3d10effectvariable_asdepthstencilview
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.AsDepthStencilView"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.AsDepthStencilView
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.AsDepthStencilView
+- ID3D10EffectVariable.AsDepthStencilView
 targetos: Windows
 req.typenames: 
 req.redist: 

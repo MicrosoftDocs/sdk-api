@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentSubpicture
 title: IDvdInfo::GetCurrentSubpicture (strmif.h)
-
 description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of available subpicture streams, the currently selected subpicture stream number, and whether the subpicture display is disabled.
 old-location: dshow\idvdinfo_getcurrentsubpicture.htm
 tech.root: DirectShow
 ms.assetid: 92731904-2fb7-4dc2-b77f-1c40a002c469
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentSubpicture, GetCurrentSubpicture method [DirectShow], GetCurrentSubpicture method [DirectShow],IDvdInfo interface, IDvdInfo interface [DirectShow],GetCurrentSubpicture method, IDvdInfo.GetCurrentSubpicture, IDvdInfo::GetCurrentSubpicture, IDvdInfoGetCurrentSubpicture, dshow.idvdinfo_getcurrentsubpicture, strmif/IDvdInfo::GetCurrentSubpicture
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo.GetCurrentSubpicture"
+f1_keywords:
+- strmif/IDvdInfo.GetCurrentSubpicture
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdInfo.GetCurrentSubpicture
+- IDvdInfo.GetCurrentSubpicture
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaEvent.GetEventHandle
 title: IMediaEvent::GetEventHandle (control.h)
-
 description: The GetEventHandle method retrieves a handle to a manual-reset event that remains signaled while the queue contains event notifications.
 old-location: dshow\imediaevent_geteventhandle.htm
 tech.root: DirectShow
 ms.assetid: 83db8d24-d872-4a90-a896-1cc51273b551
-
 ms.date: 12/05/2018
 ms.keywords: GetEventHandle, GetEventHandle method [DirectShow], GetEventHandle method [DirectShow],IMediaEvent interface, IMediaEvent interface [DirectShow],GetEventHandle method, IMediaEvent.GetEventHandle, IMediaEvent::GetEventHandle, IMediaEventGetEventHandle, control/IMediaEvent::GetEventHandle, dshow.imediaevent_geteventhandle
 ms.topic: method
-f1_keywords: 
- - "control/IMediaEvent.GetEventHandle"
+f1_keywords:
+- control/IMediaEvent.GetEventHandle
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEvent.GetEventHandle
+- IMediaEvent.GetEventHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

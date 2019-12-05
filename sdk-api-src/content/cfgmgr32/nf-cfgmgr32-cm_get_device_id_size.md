@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_Size
 title: CM_Get_Device_ID_Size function (cfgmgr32.h)
-
 description: The CM_Get_Device_ID_Size function retrieves the buffer size required to hold a device instance ID for a device instance on the local machine.
 old-location: devinst\cm_get_device_id_size.htm
 tech.root: devinst
 ms.assetid: 3ae682d0-d9fa-4a29-8258-c6f72f1940b7
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Device_ID_Size, CM_Get_Device_ID_Size function [Device and Driver Installation], cfgmgr32/CM_Get_Device_ID_Size, cfgmgrfn_7e0a024a-355c-4c4d-8aa2-9ec4078c3a3a.xml, devinst.cm_get_device_id_size
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Device_ID_Size"
+f1_keywords:
+- cfgmgr32/CM_Get_Device_ID_Size
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Get_Device_ID_Size
+- CM_Get_Device_ID_Size
 targetos: Windows
 req.typenames: 
 req.redist: 

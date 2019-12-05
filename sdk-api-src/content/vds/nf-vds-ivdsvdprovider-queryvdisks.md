@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsVdProvider.QueryVDisks
 title: IVdsVdProvider::QueryVDisks (vds.h)
-
 description: Returns a list of all virtual disks that are managed by the provider.
 old-location: base\ivdsvdprovider_querysurfaceddisks.htm
 tech.root: VDS
 ms.assetid: eab65da4-eb26-46f5-9978-972fd8dffb41
-
 ms.date: 12/05/2018
 ms.keywords: IVdsVdProvider interface,QueryVDisks method, IVdsVdProvider.QueryVDisks, IVdsVdProvider::QueryVDisks, QueryVDisks, QueryVDisks method, QueryVDisks method,IVdsVdProvider interface, base.ivdsvdprovider_querysurfaceddisks, vds/IVdsVdProvider::QueryVDisks
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsVdProvider.QueryVDisks"
+f1_keywords:
+- vds/IVdsVdProvider.QueryVDisks
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsVdProvider.QueryVDisks
+- IVdsVdProvider.QueryVDisks
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:olectl.tagFONTDESC
 title: FONTDESC (olectl.h)
-
 description: Contains parameters used to create a font object through the OleCreateFontIndirect function.
 old-location: com\fontdesc.htm
 tech.root: com
 ms.assetid: c677b0ba-fd52-40e8-b7c3-b80a01c9fb26
-
 ms.date: 12/05/2018
-ms.keywords: "*LPFONTDESC, FONTDESC, FONTDESC structure [COM], LPFONTDESC, LPFONTDESC structure pointer [COM], _ctrl_FONTDESC, com.fontdesc, olectl/FONTDESC, olectl/LPFONTDESC"
+ms.keywords: '*LPFONTDESC, FONTDESC, FONTDESC structure [COM], LPFONTDESC, LPFONTDESC structure pointer [COM], _ctrl_FONTDESC, com.fontdesc, olectl/FONTDESC, olectl/LPFONTDESC'
 ms.topic: struct
-f1_keywords: 
- - "olectl/FONTDESC"
+f1_keywords:
+- olectl/FONTDESC
 dev_langs:
- - c++
+- c++
 req.header: olectl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Olectl.h
+- Olectl.h
 api_name:
- - FONTDESC
+- FONTDESC
 targetos: Windows
 req.typenames: FONTDESC, *LPFONTDESC
 req.redist: 

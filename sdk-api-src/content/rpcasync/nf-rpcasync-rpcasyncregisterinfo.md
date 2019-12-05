@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcAsyncRegisterInfo
 title: RpcAsyncRegisterInfo function (rpcasync.h)
-
 description: The RpcAsyncRegisterInfo function is obsolete.
 old-location: rpc\rpcasyncregisterinfo.htm
 tech.root: Rpc
 ms.assetid: 57bb4579-caae-4ec5-8666-c5e2e98ae632
-
 ms.date: 12/05/2018
 ms.keywords: RpcAsyncRegisterInfo, RpcAsyncRegisterInfo function [RPC], _rpc_rpcasyncregisterinfo, rpc.rpcasyncregisterinfo, rpcasync/RpcAsyncRegisterInfo
 ms.topic: function
 f1_keywords:
 - rpcasync/RpcAsyncRegisterInfo
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows

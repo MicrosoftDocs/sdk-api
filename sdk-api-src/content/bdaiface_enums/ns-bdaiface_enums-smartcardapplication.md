@@ -1,19 +1,17 @@
 ---
 UID: NS:bdaiface_enums.SmartCardApplication
 title: SmartCardApplication (bdaiface_enums.h)
-
 description: The SmartCardApplication structure identifies a smart card application.
 old-location: mstv\smartcardapplication.htm
 tech.root: mstv
 ms.assetid: 14d9cfbd-46c4-4be2-8631-f0916820c129
-
 ms.date: 12/05/2018
 ms.keywords: SmartCardApplication, SmartCardApplication structure [Microsoft TV Technologies], SmartCardApplicationStructure, bdaiface_enums/SmartCardApplication, mstv.smartcardapplication
 ms.topic: struct
-f1_keywords: 
- - "bdaiface_enums/SmartCardApplication"
+f1_keywords:
+- bdaiface_enums/SmartCardApplication
 dev_langs:
- - c++
+- c++
 req.header: bdaiface_enums.h
 req.include-header: Bdaiface.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - bdaiface_enums.h
+- bdaiface_enums.h
 api_name:
- - SmartCardApplication
+- SmartCardApplication
 targetos: Windows
 req.typenames: SmartCardApplication
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wtsdefs._WRDS_SETTING_LEVEL
 title: WRDS_SETTING_LEVEL (wtsdefs.h)
-
 description: Specifies the type of structure contained in the WRdsSetting member of the WRDS_SETTINGS structure.
 old-location: termserv\wrds_setting_level.htm
 tech.root: TermServ
 ms.assetid: 9E0D754D-4FB4-4878-AA59-33ACFE295651
-
 ms.date: 12/05/2018
 ms.keywords: '*PWRDS_SETTING_LEVEL, PWRDS_SETTING_LEVEL, PWRDS_SETTING_LEVEL enumeration pointer [Remote Desktop Services], WRDS_SETTING_LEVEL, WRDS_SETTING_LEVEL enumeration [Remote Desktop Services], WRDS_SETTING_LEVEL_1, WRDS_SETTING_LEVEL_INVALID, termserv.wrds_setting_level, wtsdefs/PWRDS_SETTING_LEVEL, wtsdefs/WRDS_SETTING_LEVEL, wtsdefs/WRDS_SETTING_LEVEL_1, wtsdefs/WRDS_SETTING_LEVEL_INVALID'
 ms.topic: enum
 f1_keywords:
 - wtsdefs/WRDS_SETTING_LEVEL
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows

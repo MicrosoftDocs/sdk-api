@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetButtonRect
 title: IDvdInfo2::GetButtonRect (strmif.h)
-
 description: The GetButtonRect method retrieves the rectangle coordinates for the specified menu button. Note  This method is currently not implemented. .
 old-location: dshow\idvdinfo2_getbuttonrect.htm
 tech.root: DirectShow
 ms.assetid: 8825979c-2a98-462a-acf9-939c81ece89a
-
 ms.date: 12/05/2018
 ms.keywords: GetButtonRect, GetButtonRect method [DirectShow], GetButtonRect method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonRect method, IDvdInfo2.GetButtonRect, IDvdInfo2::GetButtonRect, IDvdInfo2GetButtonRect, dshow.idvdinfo2_getbuttonrect, strmif/IDvdInfo2::GetButtonRect
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetButtonRect"
+f1_keywords:
+- strmif/IDvdInfo2.GetButtonRect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetButtonRect
+- IDvdInfo2.GetButtonRect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.ModifyThreshold
 title: IFsrmQuotaBase::ModifyThreshold (fsrmquota.h)
-
 description: Changes the threshold value.
 old-location: fsrm\ifsrmquotabase_modifythreshold.htm
 tech.root: fsrm
 ms.assetid: 46cda78a-7c1d-42e0-abff-3be9c13925f5
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuotaBase interface [File Server Resource Manager],ModifyThreshold method, IFsrmQuotaBase.ModifyThreshold, IFsrmQuotaBase::ModifyThreshold, ModifyThreshold, ModifyThreshold method [File Server Resource Manager], ModifyThreshold method [File Server Resource Manager],IFsrmQuotaBase interface, fs.ifsrmquotabase_modifythreshold, fsrm.ifsrmquotabase_modifythreshold, fsrmquota/IFsrmQuotaBase::ModifyThreshold
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaBase.ModifyThreshold"
+f1_keywords:
+- fsrmquota/IFsrmQuotaBase.ModifyThreshold
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaBase.ModifyThreshold
+- IFsrmQuotaBase.ModifyThreshold
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._IMAGE_ENCLAVE_CONFIG64
 title: IMAGE_ENCLAVE_CONFIG64 (winnt.h)
-
 description: Defines the format of the enclave configuration for systems running 32-bit Windows.
 old-location: base\image_enclave_config32.htm
 tech.root: Memory
 ms.assetid: 6006F018-4F3F-4595-8ED2-89D2CC7F782D
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGE_ENCLAVE_CONFIG64, IMAGE_ENCLAVE_CONFIG, IMAGE_ENCLAVE_CONFIG32, IMAGE_ENCLAVE_CONFIG32 structure, IMAGE_ENCLAVE_CONFIG64, IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE, IMAGE_ENCLAVE_POLICY_DEBUGGABLE, PIMAGE_ENCLAVE_CONFIG32, PIMAGE_ENCLAVE_CONFIG32 structure pointer, _IMAGE_ENCLAVE_CONFIG32, base.image_enclave_config, base.image_enclave_config32, winnt/IMAGE_ENCLAVE_CONFIG32, winnt/PIMAGE_ENCLAVE_CONFIG32"
+ms.keywords: '*PIMAGE_ENCLAVE_CONFIG64, IMAGE_ENCLAVE_CONFIG, IMAGE_ENCLAVE_CONFIG32, IMAGE_ENCLAVE_CONFIG32 structure, IMAGE_ENCLAVE_CONFIG64, IMAGE_ENCLAVE_FLAG_PRIMARY_IMAGE, IMAGE_ENCLAVE_POLICY_DEBUGGABLE, PIMAGE_ENCLAVE_CONFIG32, PIMAGE_ENCLAVE_CONFIG32 structure pointer, _IMAGE_ENCLAVE_CONFIG32, base.image_enclave_config, base.image_enclave_config32, winnt/IMAGE_ENCLAVE_CONFIG32, winnt/PIMAGE_ENCLAVE_CONFIG32'
 ms.topic: struct
-f1_keywords: 
- - "winnt/IMAGE_ENCLAVE_CONFIG32"
+f1_keywords:
+- winnt/IMAGE_ENCLAVE_CONFIG32
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winnt.h
+- winnt.h
 api_name:
- - IMAGE_ENCLAVE_CONFIG32
- - IMAGE_ENCLAVE_CONFIG
+- IMAGE_ENCLAVE_CONFIG32
+- IMAGE_ENCLAVE_CONFIG
 targetos: Windows
 req.typenames: IMAGE_ENCLAVE_CONFIG64, *PIMAGE_ENCLAVE_CONFIG64
 req.redist: 

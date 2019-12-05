@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.BlockInput
 title: BlockInput function (winuser.h)
-
 description: Blocks keyboard and mouse input events from reaching applications.
 old-location: inputdev\blockinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\blockinput.htm
-
 ms.date: 12/05/2018
 ms.keywords: BlockInput, BlockInput function [Keyboard and Mouse Input], _win32_BlockInput, _win32_blockinput_cpp, inputdev.blockinput, winui._win32_blockinput, winuser/BlockInput
 ms.topic: function
-f1_keywords: 
- - "winuser/BlockInput"
+f1_keywords:
+- winuser/BlockInput
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
- - Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
- - ext-ms-win-ntuser-keyboard-l1-1-2.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
- - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-0.dll
+- Ext-MS-Win-NTUser-Keyboard-l1-1-1.dll
+- ext-ms-win-ntuser-keyboard-l1-1-2.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-0.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
+- Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - BlockInput
+- BlockInput
 targetos: Windows
 req.typenames: 
 req.redist: 

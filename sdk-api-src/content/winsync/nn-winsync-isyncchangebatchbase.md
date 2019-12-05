@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncChangeBatchBase
 title: ISyncChangeBatchBase (winsync.h)
-
 description: Represents metadata for a set of changes.
 old-location: winsync\isyncchangebatchbase.htm
 tech.root: winsync
 ms.assetid: 14ca01a1-04eb-4282-adf0-e775d6ff0801
-
 ms.date: 12/05/2018
 ms.keywords: ISyncChangeBatchBase, ISyncChangeBatchBase interface [Windows Sync], ISyncChangeBatchBase interface [Windows Sync],described, winsync.isyncchangebatchbase, winsync/ISyncChangeBatchBase
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncChangeBatchBase"
+f1_keywords:
+- winsync/ISyncChangeBatchBase
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChangeBatchBase
+- ISyncChangeBatchBase
 targetos: Windows
 req.typenames: 
 req.redist: 

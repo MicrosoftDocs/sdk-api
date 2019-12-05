@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.IEnumSingleItemExceptions
 title: IEnumSingleItemExceptions (winsync.h)
-
 description: Enumerates single-item exceptions that are stored in a knowledge object.
 old-location: winsync\ienumsingleitemexceptions.htm
 tech.root: winsync
 ms.assetid: fed8a258-bc23-454b-9d8a-e3873481b33b
-
 ms.date: 12/05/2018
 ms.keywords: IEnumSingleItemExceptions, IEnumSingleItemExceptions interface [Windows Sync], IEnumSingleItemExceptions interface [Windows Sync],described, winsync.ienumsingleitemexceptions, winsync/IEnumSingleItemExceptions
 ms.topic: interface
-f1_keywords: 
- - "winsync/IEnumSingleItemExceptions"
+f1_keywords:
+- winsync/IEnumSingleItemExceptions
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IEnumSingleItemExceptions
+- IEnumSingleItemExceptions
 targetos: Windows
 req.typenames: 
 req.redist: 

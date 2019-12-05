@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.midiOutCachePatches
 title: midiOutCachePatches function (mmeapi.h)
-
 description: The midiOutCachePatches function requests that an internal MIDI synthesizer device preload and cache a specified set of patches.
 old-location: multimedia\midioutcachepatches.htm
 tech.root: Multimedia
 ms.assetid: 58d0c73b-46a4-498d-bcef-f5b8aaf52392
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_midiOutCachePatches, midiOutCachePatches, midiOutCachePatches function [Windows Multimedia], mmeapi/midiOutCachePatches, multimedia.midioutcachepatches"
+ms.keywords: _win32_midiOutCachePatches, midiOutCachePatches, midiOutCachePatches function [Windows Multimedia], mmeapi/midiOutCachePatches, multimedia.midioutcachepatches
 ms.topic: function
-f1_keywords: 
- - "mmeapi/midiOutCachePatches"
+f1_keywords:
+- mmeapi/midiOutCachePatches
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - midiOutCachePatches
+- midiOutCachePatches
 targetos: Windows
 req.typenames: 
 req.redist: 

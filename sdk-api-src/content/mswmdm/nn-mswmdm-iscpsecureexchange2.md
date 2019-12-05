@@ -1,19 +1,17 @@
 ---
 UID: NN:mswmdm.ISCPSecureExchange2
 title: ISCPSecureExchange2 (mswmdm.h)
-
 description: The ISCPSecureExchange2 interface extends ISCPSecureExchange by providing a new version of the TransferContainerData method.
 old-location: wmdm\iscpsecureexchange2.htm
 tech.root: WMDM
 ms.assetid: 815fd9b9-2186-40e2-8d72-e6bf91fd45c9
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange2, ISCPSecureExchange2 interface [windows Media Device Manager], ISCPSecureExchange2 interface [windows Media Device Manager],described, ISCPSecureExchange2Interface, mswmdm/ISCPSecureExchange2, wmdm.iscpsecureexchange2
 ms.topic: interface
-f1_keywords: 
- - "mswmdm/ISCPSecureExchange2"
+f1_keywords:
+- mswmdm/ISCPSecureExchange2
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mswmdm.h
+- mswmdm.h
 api_name:
- - ISCPSecureExchange2
+- ISCPSecureExchange2
 targetos: Windows
 req.typenames: 
 req.redist: 

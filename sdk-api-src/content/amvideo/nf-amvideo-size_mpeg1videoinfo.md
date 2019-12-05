@@ -1,19 +1,17 @@
 ---
 UID: NF:amvideo.SIZE_MPEG1VIDEOINFO
 title: SIZE_MPEG1VIDEOINFO macro (amvideo.h)
-
 description: The SIZE_MPEG1VIDEOINFO macro calculates the size of an MPEG1VIDEOINFO structure, including the sequence header (bSequenceHeader).
 old-location: dshow\size_mpeg1videoinfo.htm
 tech.root: DirectShow
 ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
-
 ms.date: 12/05/2018
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
 ms.topic: macro
-f1_keywords: 
- - "amvideo/SIZE_MPEG1VIDEOINFO"
+f1_keywords:
+- amvideo/SIZE_MPEG1VIDEOINFO
 dev_langs:
- - c++
+- c++
 req.header: amvideo.h
 req.include-header: Streams.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Amvideo.h
+- Amvideo.h
 api_name:
- - SIZE_MPEG1VIDEOINFO
+- SIZE_MPEG1VIDEOINFO
 targetos: Windows
 req.typenames: 
 req.redist: 

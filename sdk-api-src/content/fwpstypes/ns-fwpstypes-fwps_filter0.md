@@ -1,19 +1,17 @@
 ---
 UID: NS:fwpstypes.FWPS_FILTER0_
 title: FWPS_FILTER0 (fwpstypes.h)
-
 description: The FWPS_FILTER0 structure defines a run-time filter in the filter engine.Note  FWPS_FILTER0 is the specific version of FWPS_FILTER used in Windows Vista and later.
 old-location: netvista\fwps_filter0.htm
 tech.root: NetVista
 ms.assetid: cf5e3372-466e-44f0-8312-78318c5efb13
-
 ms.date: 12/05/2018
 ms.keywords: FWPS_FILTER0, FWPS_FILTER0 structure [Network Drivers Starting with Windows Vista], FWPS_FILTER_FLAG_CLEAR_ACTION_RIGHT, FWPS_FILTER_FLAG_PERMIT_IF_CALLOUT_UNREGISTERED, fwpstypes/FWPS_FILTER0, netvista.fwps_filter0, wfp_ref_3_struct_3_fwps_F-O_3dd55c70-e1ab-4bb4-b177-24c4a185c69c.xml
 ms.topic: struct
-f1_keywords: 
- - "fwpstypes/FWPS_FILTER0"
+f1_keywords:
+- fwpstypes/FWPS_FILTER0
 dev_langs:
- - c++
+- c++
 req.header: fwpstypes.h
 req.include-header: Fwpsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fwpstypes.h
+- fwpstypes.h
 api_name:
- - FWPS_FILTER0
+- FWPS_FILTER0
 targetos: Windows
 req.typenames: FWPS_FILTER0
 req.redist: 

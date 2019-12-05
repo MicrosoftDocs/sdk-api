@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSARemoveServiceClass
 title: WSARemoveServiceClass function (winsock2.h)
-
 description: The WSARemoveServiceClass function permanently removes the service class schema from the registry.
 old-location: winsock\wsaremoveserviceclass_2.htm
 tech.root: WinSock
 ms.assetid: 7d72f727-cca9-4a07-beb4-d64f23c1f0c1
-
 ms.date: 12/05/2018
 ms.keywords: WSARemoveServiceClass, WSARemoveServiceClass function [Winsock], _win32_wsaremoveserviceclass_2, winsock.wsaremoveserviceclass_2, winsock2/WSARemoveServiceClass
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSARemoveServiceClass"
+f1_keywords:
+- winsock2/WSARemoveServiceClass
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSARemoveServiceClass
+- WSARemoveServiceClass
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanRegisterNotification
 title: WlanRegisterNotification function (wlanapi.h)
-
 description: Is used to register and unregister notifications on all wireless interfaces.
 old-location: nwifi\wlanregisternotification.htm
 tech.root: NativeWiFi
 ms.assetid: e24810da-ed3b-41c4-b7b1-290b01e26cd5
-
 ms.date: 12/05/2018
 ms.keywords: WLAN_NOTIFICATION_SOURCE_ACM, WLAN_NOTIFICATION_SOURCE_ALL, WLAN_NOTIFICATION_SOURCE_HNWK, WLAN_NOTIFICATION_SOURCE_IHV, WLAN_NOTIFICATION_SOURCE_MSM, WLAN_NOTIFICATION_SOURCE_NONE, WLAN_NOTIFICATION_SOURCE_ONEX, WLAN_NOTIFICATION_SOURCE_SECURITY, WlanRegisterNotification, WlanRegisterNotification function [NativeWIFI], nwifi.wlanregisternotification, wlanapi/WlanRegisterNotification
 ms.topic: function
 f1_keywords:
 - wlanapi/WlanRegisterNotification
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows

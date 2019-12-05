@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluscolor.Color.GetGreen
 title: Color::GetGreen (gdipluscolor.h)
-
 description: The Color::GetGreen method gets the green component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetGreen_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getgreen.htm
-
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetGreen method, Color.GetGreen, Color::GetGreen, GetGreen, GetGreen method [GDI+], GetGreen method [GDI+],Color class, _gdiplus_CLASS_Color_GetGreen_, gdiplus._gdiplus_CLASS_Color_GetGreen_
 ms.topic: method
-f1_keywords: 
- - "gdipluscolor/Color.GetGreen"
+f1_keywords:
+- gdipluscolor/Color.GetGreen
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Color.GetGreen
+- Color.GetGreen
 targetos: Windows
 req.typenames: 
 req.redist: 

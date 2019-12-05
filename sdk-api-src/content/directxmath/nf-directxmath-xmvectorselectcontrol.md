@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSelectControl
 title: XMVectorSelectControl function (directxmath.h)
-
 description: Defines a control vector for use in XMVectorSelect.
 old-location: dxmath\xmvectorselectcontrol.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSelectControl(uint32_t,uint32_t,uint32_t,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSelectControl, XMVectorSelectControl, XMVectorSelectControl method [DirectX Math Support APIs], dxmath.xmvectorselectcontrol
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSelectControl"
+f1_keywords:
+- directxmath/XMVectorSelectControl
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSelectControl
+- XMVectorSelectControl
 targetos: Windows
 req.typenames: 
 req.redist: 

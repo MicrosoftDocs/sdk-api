@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextExtentPointI
 title: GetTextExtentPointI function (wingdi.h)
-
 description: The GetTextExtentPointI function computes the width and height of the specified array of glyph indices.
 old-location: gdi\gettextextentpointi.htm
 tech.root: gdi
 ms.assetid: d06a48dd-3f38-4c60-a4c6-954e43f718d1
-
 ms.date: 12/05/2018
 ms.keywords: GetTextExtentPointI, GetTextExtentPointI function [Windows GDI], _win32_GetTextExtentPointI, gdi.gettextextentpointi, wingdi/GetTextExtentPointI
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextExtentPointI"
+f1_keywords:
+- wingdi/GetTextExtentPointI
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetTextExtentPointI
+- GetTextExtentPointI
 targetos: Windows
 req.typenames: 
 req.redist: 

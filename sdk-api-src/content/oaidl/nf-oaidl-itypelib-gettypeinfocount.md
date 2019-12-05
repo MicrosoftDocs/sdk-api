@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoCount
 title: ITypeLib::GetTypeInfoCount (oaidl.h)
-
 description: Provides the number of type descriptions that are in a type library.
 old-location: automat\itypelib_gettypeinfocount.htm
 tech.root: automat
 ms.assetid: 63436bee-c71b-4d32-bfca-426c8953a75b
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfoCount, GetTypeInfoCount method [Automation], GetTypeInfoCount method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeInfoCount method, ITypeLib.GetTypeInfoCount, ITypeLib::GetTypeInfoCount, _oa96_ITypeLib_GetTypeInfoCount, automat.itypelib_gettypeinfocount, oaidl/ITypeLib::GetTypeInfoCount
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeLib.GetTypeInfoCount"
+f1_keywords:
+- oaidl/ITypeLib.GetTypeInfoCount
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib.GetTypeInfoCount
+- ITypeLib.GetTypeInfoCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTextRange
 title: IUIAutomationTextRange (uiautomationclient.h)
-
 description: Provides access to a span of continuous text in a container that supports the IUIAutomationTextPattern interface. Client applications can use the IUIAutomationTextRange interface to select, compare, and retrieve embedded objects from the text span.
 old-location: winauto\uiauto_IUIAutomationTextRange.htm
 tech.root: WinAuto
 ms.assetid: 1037919d-c8df-4d46-b3ce-62ee23c92145
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTextRange, IUIAutomationTextRange interface [Windows Accessibility], IUIAutomationTextRange interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationTextRange, uiauto_IUIAutomationTextRange, uiautomationclient/IUIAutomationTextRange, winauto.uiauto_IUIAutomationTextRange
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTextRange"
+f1_keywords:
+- uiautomationclient/IUIAutomationTextRange
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationTextRange
+- IUIAutomationTextRange
 targetos: Windows
 req.typenames: 
 req.redist: 

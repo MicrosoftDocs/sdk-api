@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_71
 title: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE (webservices.h)
-
 description: The type of the Windows Integrated Authentication credential, used as a selector for subtypes of WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL.
 old-location: wsw\ws_windows_integrated_auth_credential_type.htm
 tech.root: wsw
 ms.assetid: 50fc723a-8c32-443d-b3ce-cd660f5ab18b
-
 ms.date: 12/05/2018
 ms.keywords: WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE enumeration [Web Services for Windows], webservices/WS_DEFAULT_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_STRING_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE, wsw.ws_windows_integrated_auth_credential_type
 ms.topic: enum
-f1_keywords: 
- - "webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE"
+f1_keywords:
+- webservices/WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
+- WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 targetos: Windows
 req.typenames: WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL_TYPE
 req.redist: 

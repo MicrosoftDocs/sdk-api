@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMBackupRestoreProps.GetPropByName
 title: IWMBackupRestoreProps::GetPropByName (wmsdkidl.h)
-
 description: The GetPropByName method retrieves the value of a property by name.
 old-location: wmformat\iwmbackuprestoreprops_getpropbyname.htm
 tech.root: wmformat
 ms.assetid: 771a7a49-7d42-4537-9945-97b907404097
-
 ms.date: 12/05/2018
 ms.keywords: GetPropByName, GetPropByName method [windows Media Format], GetPropByName method [windows Media Format],IWMBackupRestoreProps interface, IWMBackupRestoreProps interface [windows Media Format],GetPropByName method, IWMBackupRestoreProps.GetPropByName, IWMBackupRestoreProps::GetPropByName, IWMBackupRestorePropsGetPropByName, wmformat.iwmbackuprestoreprops_getpropbyname, wmsdkidl/IWMBackupRestoreProps::GetPropByName
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMBackupRestoreProps.GetPropByName"
+f1_keywords:
+- wmsdkidl/IWMBackupRestoreProps.GetPropByName
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps.GetPropByName
+- IWMBackupRestoreProps.GetPropByName
 targetos: Windows
 req.typenames: 
 req.redist: 

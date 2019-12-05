@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.VirtualProtectEx
 title: VirtualProtectEx function (memoryapi.h)
-
 description: Changes the protection on a region of committed pages in the virtual address space of a specified process.
 old-location: base\virtualprotectex.htm
 tech.root: Memory
 ms.assetid: 6afd7ae6-e4c5-483c-a638-c85781674c7b
-
 ms.date: 12/05/2018
 ms.keywords: VirtualProtectEx, VirtualProtectEx function, _win32_virtualprotectex, base.virtualprotectex, winbase/VirtualProtectEx
 ms.topic: function
-f1_keywords: 
- - "memoryapi/VirtualProtectEx"
+f1_keywords:
+- memoryapi/VirtualProtectEx
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - VirtualProtectEx
+- VirtualProtectEx
 targetos: Windows
 req.typenames: 
 req.redist: 

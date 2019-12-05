@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTrustedInput
 title: IMFTrustedInput (mfidl.h)
-
 description: Implemented by components that provide input trust authorities (ITAs). This interface is used to get the ITA for each of the component's streams.
 old-location: mf\imftrustedinput.htm
 tech.root: medfound
 ms.assetid: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab
-
 ms.date: 12/05/2018
 ms.keywords: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab, IMFTrustedInput, IMFTrustedInput interface [Media Foundation], IMFTrustedInput interface [Media Foundation],described, mf.imftrustedinput, mfidl/IMFTrustedInput
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTrustedInput"
+f1_keywords:
+- mfidl/IMFTrustedInput
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTrustedInput
+- IMFTrustedInput
 targetos: Windows
 req.typenames: 
 req.redist: 

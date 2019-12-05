@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMallocSpy.PreGetSize
 title: IMallocSpy::PreGetSize (objidl.h)
-
 description: Performs operations required before calling IMalloc::GetSize.
 old-location: com\imallocspy_pregetsize.htm
 tech.root: com
 ms.assetid: 7bebc327-490e-4a41-8043-5d7211e645f5
-
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PreGetSize method, IMallocSpy.PreGetSize, IMallocSpy::PreGetSize, PreGetSize, PreGetSize method [COM], PreGetSize method [COM],IMallocSpy interface, _com_imallocspy_pregetsize, com.imallocspy_pregetsize, objidl/IMallocSpy::PreGetSize
 ms.topic: method
-f1_keywords: 
- - "objidl/IMallocSpy.PreGetSize"
+f1_keywords:
+- objidl/IMallocSpy.PreGetSize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMallocSpy.PreGetSize
+- IMallocSpy.PreGetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

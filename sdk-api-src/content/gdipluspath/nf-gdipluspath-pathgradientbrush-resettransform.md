@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.ResetTransform
 title: PathGradientBrush::ResetTransform (gdipluspath.h)
-
 description: The PathGradientBrush::ResetTransform method resets the transformation matrix of this path gradient brush to the identity matrix. This means that no transformation will take place.
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ResetTransform_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\resettransform_69.htm
-
 ms.date: 12/05/2018
 ms.keywords: PathGradientBrush class [GDI+],ResetTransform method, PathGradientBrush.ResetTransform, PathGradientBrush::ResetTransform, ResetTransform, ResetTransform method [GDI+], ResetTransform method [GDI+],PathGradientBrush class, _gdiplus_CLASS_PathGradientBrush_ResetTransform_, gdiplus._gdiplus_CLASS_PathGradientBrush_ResetTransform_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/PathGradientBrush.ResetTransform"
+f1_keywords:
+- gdipluspath/PathGradientBrush.ResetTransform
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - PathGradientBrush.ResetTransform
+- PathGradientBrush.ResetTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

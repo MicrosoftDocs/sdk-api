@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_SessionId
 title: ITraceDataCollector::get_SessionId (pla.h)
-
 description: Retrieves the session identifier.
 old-location: pla\itracedatacollector_sessionid.htm
 tech.root: PLA
 ms.assetid: bcbe5dba-6d45-4b0a-a66a-68ce03b493bf
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataCollector interface [PLA],SessionId property, ITraceDataCollector.SessionId, ITraceDataCollector.get_SessionId, ITraceDataCollector::SessionId, ITraceDataCollector::get_SessionId, SessionId property [PLA], SessionId property [PLA],ITraceDataCollector interface, base.itracedatacollector_sessionid, get_SessionId, pla.itracedatacollector_sessionid, pla/ITraceDataCollector::SessionId, pla/ITraceDataCollector::get_SessionId
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataCollector.SessionId"
+f1_keywords:
+- pla/ITraceDataCollector.SessionId
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataCollector.SessionId
- - ITraceDataCollector.get_SessionId
+- ITraceDataCollector.SessionId
+- ITraceDataCollector.get_SessionId
 targetos: Windows
 req.typenames: 
 req.redist: 

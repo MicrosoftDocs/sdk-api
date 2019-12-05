@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetButtonAtPosition
 title: IDvdInfo2::GetButtonAtPosition (strmif.h)
-
 description: The GetButtonAtPosition method retrieves the button located at the specified point within the display window.
 old-location: dshow\idvdinfo2_getbuttonatposition.htm
 tech.root: DirectShow
 ms.assetid: f9c506b3-c9d9-4dc2-b318-f987ab8636dc
-
 ms.date: 12/05/2018
 ms.keywords: GetButtonAtPosition, GetButtonAtPosition method [DirectShow], GetButtonAtPosition method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetButtonAtPosition method, IDvdInfo2.GetButtonAtPosition, IDvdInfo2::GetButtonAtPosition, IDvdInfo2GetButtonAtPosition, dshow.idvdinfo2_getbuttonatposition, strmif/IDvdInfo2::GetButtonAtPosition
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetButtonAtPosition"
+f1_keywords:
+- strmif/IDvdInfo2.GetButtonAtPosition
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetButtonAtPosition
+- IDvdInfo2.GetButtonAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

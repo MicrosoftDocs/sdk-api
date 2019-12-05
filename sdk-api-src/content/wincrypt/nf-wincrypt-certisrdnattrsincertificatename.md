@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertIsRDNAttrsInCertificateName
 title: CertIsRDNAttrsInCertificateName function (wincrypt.h)
-
 description: The CertIsRDNAttrsInCertificateName function compares the attributes in the certificate name with the specified CERT_RDN to determine whether all attributes are included there.
 old-location: security\certisrdnattrsincertificatename.htm
 tech.root: SecCrypto
 ms.assetid: e45b80a3-9269-4f21-8407-1c8303cb5f32
-
 ms.date: 12/05/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName
 ms.topic: function
 f1_keywords:
 - wincrypt/CertIsRDNAttrsInCertificateName
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

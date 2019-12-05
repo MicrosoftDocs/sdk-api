@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1Mesh
 title: ID2D1Mesh (d2d1.h)
-
 description: Represents a set of vertices that form a list of triangles.
 old-location: direct2d\ID2D1Mesh.htm
 tech.root: Direct2D
 ms.assetid: 2a58fb5f-2281-4f73-a689-cc1350d13c8b
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Mesh, ID2D1Mesh interface [Direct2D], ID2D1Mesh interface [Direct2D],described, d2d1/ID2D1Mesh, direct2d.ID2D1Mesh
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1Mesh"
+f1_keywords:
+- d2d1/ID2D1Mesh
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Mesh
+- ID2D1Mesh
 targetos: Windows
 req.typenames: 
 req.redist: 

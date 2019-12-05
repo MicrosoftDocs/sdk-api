@@ -1,19 +1,17 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_AUTHENTICATION_TYPE
 title: WCN_VALUE_TYPE_AUTHENTICATION_TYPE (wcntypes.h)
-
 description: WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration defines the authentication types supported by the Enrollee (access point or station).
 old-location: wcn\wcn_value_type_authentication_type.htm
 tech.root: wcn
 ms.assetid: fb69c89e-ab4b-4382-9bab-889552136da4
-
 ms.date: 12/05/2018
 ms.keywords: WCN_VALUE_AT_OPEN, WCN_VALUE_AT_SHARED, WCN_VALUE_AT_WPA, WCN_VALUE_AT_WPA2, WCN_VALUE_AT_WPA2PSK, WCN_VALUE_AT_WPAPSK, WCN_VALUE_AT_WPAWPA2PSK_MIXED, WCN_VALUE_TYPE_AUTHENTICATION_TYPE, WCN_VALUE_TYPE_AUTHENTICATION_TYPE enumeration [Windows Connect Now], wcn.wcn_value_type_authentication_type, wcntypes/WCN_VALUE_AT_OPEN, wcntypes/WCN_VALUE_AT_SHARED, wcntypes/WCN_VALUE_AT_WPA, wcntypes/WCN_VALUE_AT_WPA2, wcntypes/WCN_VALUE_AT_WPA2PSK, wcntypes/WCN_VALUE_AT_WPAPSK, wcntypes/WCN_VALUE_AT_WPAWPA2PSK_MIXED, wcntypes/WCN_VALUE_TYPE_AUTHENTICATION_TYPE
 ms.topic: enum
-f1_keywords: 
- - "wcntypes/WCN_VALUE_TYPE_AUTHENTICATION_TYPE"
+f1_keywords:
+- wcntypes/WCN_VALUE_TYPE_AUTHENTICATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wcntypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wcntypes.h
+- wcntypes.h
 api_name:
- - WCN_VALUE_TYPE_AUTHENTICATION_TYPE
+- WCN_VALUE_TYPE_AUTHENTICATION_TYPE
 targetos: Windows
 req.typenames: WCN_VALUE_TYPE_AUTHENTICATION_TYPE
 req.redist: 

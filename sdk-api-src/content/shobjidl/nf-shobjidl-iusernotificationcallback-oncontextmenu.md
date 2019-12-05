@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IUserNotificationCallback.OnContextMenu
 title: IUserNotificationCallback::OnContextMenu (shobjidl.h)
-
 description: Called when the user right-clicks (or presses SHIFT+F10) the icon in the notification area. The application should show its context menu in response.
 old-location: shell\IUserNotificationCallback_OnContextMenu.htm
 tech.root: shell
 ms.assetid: eb0b1de0-a42c-4789-aac0-885a574f89f6
-
 ms.date: 12/05/2018
 ms.keywords: IUserNotificationCallback interface [Windows Shell],OnContextMenu method, IUserNotificationCallback.OnContextMenu, IUserNotificationCallback::OnContextMenu, OnContextMenu, OnContextMenu method [Windows Shell], OnContextMenu method [Windows Shell],IUserNotificationCallback interface, _shell_IUserNotificationCallback_OnContextMenu, shell.IUserNotificationCallback_OnContextMenu, shobjidl/IUserNotificationCallback::OnContextMenu
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IUserNotificationCallback.OnContextMenu"
+f1_keywords:
+- shobjidl/IUserNotificationCallback.OnContextMenu
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IUserNotificationCallback.OnContextMenu
+- IUserNotificationCallback.OnContextMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

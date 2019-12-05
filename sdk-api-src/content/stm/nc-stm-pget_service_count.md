@@ -1,19 +1,17 @@
 ---
 UID: NC:stm.PGET_SERVICE_COUNT
 title: PGET_SERVICE_COUNT (stm.h)
-
 description: The GetServiceCount function returns the number of services in the table.
 old-location: rras\getservicecount.htm
 tech.root: RRAS
 ms.assetid: 44ba90c0-a019-4aca-92e2-1e795cbd335d
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceCount, GetServiceCount callback function [RAS], PGET_SERVICE_COUNT, PGET_SERVICE_COUNT callback, _mpr_getservicecount, rras.getservicecount, stm/GetServiceCount
 ms.topic: callback
-f1_keywords: 
- - "stm/GetServiceCount"
+f1_keywords:
+- stm/GetServiceCount
 dev_langs:
- - c++
+- c++
 req.header: stm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Stm.h
+- Stm.h
 api_name:
- - GetServiceCount
+- GetServiceCount
 targetos: Windows
 req.typenames: 
 req.redist: 

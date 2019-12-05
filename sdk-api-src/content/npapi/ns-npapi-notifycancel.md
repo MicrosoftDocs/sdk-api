@@ -1,19 +1,17 @@
 ---
 UID: NS:npapi._NOTIFYCANCEL
 title: NOTIFYCANCEL (npapi.h)
-
 description: The NOTIFYCANCEL structure contains the details of a network disconnect operation. It is used by the CancelConnectNotify function.
 old-location: security\notifycancel.htm
 tech.root: SecAuthN
 ms.assetid: cc4cb0fb-ff7d-4bdc-944c-3bf9b08ea72c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer [Security], NOTIFYCANCEL, NOTIFYCANCEL structure [Security], _mnp_notifycancel, npapi/LPNOTIFYCANCEL, npapi/NOTIFYCANCEL, security.notifycancel"
+ms.keywords: '*LPNOTIFYCANCEL, LPNOTIFYCANCEL, LPNOTIFYCANCEL structure pointer [Security], NOTIFYCANCEL, NOTIFYCANCEL structure [Security], _mnp_notifycancel, npapi/LPNOTIFYCANCEL, npapi/NOTIFYCANCEL, security.notifycancel'
 ms.topic: struct
-f1_keywords: 
- - "npapi/NOTIFYCANCEL"
+f1_keywords:
+- npapi/NOTIFYCANCEL
 dev_langs:
- - c++
+- c++
 req.header: npapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Npapi.h
+- Npapi.h
 api_name:
- - NOTIFYCANCEL
+- NOTIFYCANCEL
 targetos: Windows
 req.typenames: NOTIFYCANCEL, *LPNOTIFYCANCEL
 req.redist: 

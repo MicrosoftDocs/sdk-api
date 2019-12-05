@@ -1,19 +1,17 @@
 ---
 UID: NF:certcli.ICertConfig.Next
 title: ICertConfig::Next (certcli.h)
-
 description: Retrieves the index of the next available Certificate Services server configuration in the configuration point. This method was first defined in the ICertConfig interface.
 old-location: security\icertconfig2_next.htm
 tech.root: SecCrypto
 ms.assetid: af81c25e-94e7-4c50-9e90-612c034e24b4
-
 ms.date: 12/05/2018
 ms.keywords: CCertConfig object [Security],Next method, ICertConfig interface [Security],Next method, ICertConfig.Next, ICertConfig2 interface [Security],Next method, ICertConfig2::Next, ICertConfig::Next, Next, Next method [Security], Next method [Security],CCertConfig object, Next method [Security],ICertConfig interface, Next method [Security],ICertConfig2 interface, _certsrv_icertconfig_next, certcli/ICertConfig2::Next, certcli/ICertConfig::Next, security.icertconfig2_next
 ms.topic: method
-f1_keywords: 
- - "certcli/ICertConfig2.Next"
+f1_keywords:
+- certcli/ICertConfig2.Next
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertConfig2.Next
- - ICertConfig.Next
- - CCertConfig.Next
+- ICertConfig2.Next
+- ICertConfig.Next
+- CCertConfig.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

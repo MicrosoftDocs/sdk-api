@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsFileShare
 title: IADsFileShare (iads.h)
-
 description: The IADsFileShare interface is a dual interface that inherits from IADs. It is designed for representing a published file share across the network. Call the methods on IADsFileShare to access or publish data about a file share point.
 old-location: adsi\iadsfileshare.htm
 tech.root: adsi
 ms.assetid: 37695195-fc33-499d-98c1-ccfd190cb2f9
-
 ms.date: 12/05/2018
 ms.keywords: IADsFileShare, IADsFileShare interface [ADSI], IADsFileShare interface [ADSI],described, _ds_iadsfileshare, adsi.iadsfileshare, iads/IADsFileShare
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsFileShare"
+f1_keywords:
+- iads/IADsFileShare
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsFileShare
+- IADsFileShare
 targetos: Windows
 req.typenames: 
 req.redist: 

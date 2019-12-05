@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineRedirect
 title: TSPI_lineRedirect function (tspi.h)
-
 description: The TSPI_lineRedirect function redirects the specified offering call to the specified destination address.
 old-location: tspi\tspi_lineredirect.htm
 tech.root: Tapi
 ms.assetid: 835fce4a-69c4-4a7e-846f-f05df4a24b96
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineRedirect, TSPI_lineRedirect function [TAPI 2.2], _tspi_tspi_lineredirect, tspi.tspi_lineredirect, tspi/TSPI_lineRedirect
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineRedirect"
+f1_keywords:
+- tspi/TSPI_lineRedirect
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineRedirect
+- TSPI_lineRedirect
 targetos: Windows
 req.typenames: 
 req.redist: 

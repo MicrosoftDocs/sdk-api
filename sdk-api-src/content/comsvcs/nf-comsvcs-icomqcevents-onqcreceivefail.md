@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCReceiveFail
 title: IComQCEvents::OnQCReceiveFail (comsvcs.h)
-
 description: Generated when the receive message fails.
 old-location: cos\icomqcevents_onqcreceivefail.htm
 tech.root: cossdk
 ms.assetid: 21d685ce-b65f-4d13-b653-e6c6d1afa704
-
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCReceiveFail method, IComQCEvents.OnQCReceiveFail, IComQCEvents::OnQCReceiveFail, OnQCReceiveFail, OnQCReceiveFail method [COM+], OnQCReceiveFail method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCReceiveFail, comsvcs/IComQCEvents::OnQCReceiveFail, cos.icomqcevents_onqcreceivefail
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComQCEvents.OnQCReceiveFail"
+f1_keywords:
+- comsvcs/IComQCEvents.OnQCReceiveFail
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComQCEvents.OnQCReceiveFail
+- IComQCEvents.OnQCReceiveFail
 targetos: Windows
 req.typenames: 
 req.redist: 

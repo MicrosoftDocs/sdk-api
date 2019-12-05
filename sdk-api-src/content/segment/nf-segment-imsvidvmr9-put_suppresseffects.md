@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidVMR9.put_SuppressEffects
 title: IMSVidVMR9::put_SuppressEffects (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidvmr9_put_suppresseffects.htm
 tech.root: mstv
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidVMR9 interface [Microsoft TV Technologies],put_SuppressEffects method, IMSVidVMR9.put_SuppressEffects, IMSVidVMR9::put_SuppressEffects, IMSVidVMR9put_SuppressEffects, mstv.imsvidvmr9_put_suppresseffects, put_SuppressEffects, put_SuppressEffects method [Microsoft TV Technologies], put_SuppressEffects method [Microsoft TV Technologies],IMSVidVMR9 interface, segment/IMSVidVMR9::put_SuppressEffects
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidVMR9.put_SuppressEffects"
+f1_keywords:
+- segment/IMSVidVMR9.put_SuppressEffects
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidVMR9.put_SuppressEffects
+- IMSVidVMR9.put_SuppressEffects
 targetos: Windows
 req.typenames: 
 req.redist: 

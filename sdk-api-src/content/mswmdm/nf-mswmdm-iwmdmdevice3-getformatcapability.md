@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDevice3.GetFormatCapability
 title: IWMDMDevice3::GetFormatCapability (mswmdm.h)
-
 description: The GetFormatCapability method retrieves device support for files of a specified format. The capabilities are expressed as supported properties and their allowed values.
 old-location: wmdm\iwmdmdevice3_getformatcapability.htm
 tech.root: WMDM
 ms.assetid: 728df998-748b-4c53-b5a6-3a6ccae0d7e4
-
 ms.date: 12/05/2018
 ms.keywords: GetFormatCapability, GetFormatCapability method [windows Media Device Manager], GetFormatCapability method [windows Media Device Manager],IWMDMDevice3 interface, IWMDMDevice3 interface [windows Media Device Manager],GetFormatCapability method, IWMDMDevice3.GetFormatCapability, IWMDMDevice3::GetFormatCapability, IWMDMDevice3GetFormatCapability, mswmdm/IWMDMDevice3::GetFormatCapability, wmdm.iwmdmdevice3_getformatcapability
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDevice3.GetFormatCapability"
+f1_keywords:
+- mswmdm/IWMDMDevice3.GetFormatCapability
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDevice3.GetFormatCapability
+- IWMDMDevice3.GetFormatCapability
 targetos: Windows
 req.typenames: 
 req.redist: 

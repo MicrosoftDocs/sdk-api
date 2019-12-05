@@ -1,19 +1,17 @@
 ---
 UID: NN:objectarray.IObjectCollection
 title: IObjectCollection (objectarray.h)
-
 description: Extends the IObjectArray interface by providing methods that enable clients to add and remove objects that support IUnknown in a collection.
 old-location: shell\IObjectCollection.htm
 tech.root: shell
 ms.assetid: d7665b26-5839-4b08-a099-ef25a68c65db
-
 ms.date: 12/05/2018
 ms.keywords: IObjectCollection, IObjectCollection interface [Windows Shell], IObjectCollection interface [Windows Shell],described, _shell_IObjectCollection, objectarray/IObjectCollection, shell.IObjectCollection
 ms.topic: interface
-f1_keywords: 
- - "objectarray/IObjectCollection"
+f1_keywords:
+- objectarray/IObjectCollection
 dev_langs:
- - c++
+- c++
 req.header: objectarray.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objectarray.h
+- objectarray.h
 api_name:
- - IObjectCollection
+- IObjectCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RESOURCE_BARRIER_TYPE
 title: D3D12_RESOURCE_BARRIER_TYPE (d3d12.h)
-
 description: Specifies a type of resource barrier (transition in resource use) description.
 old-location: direct3d12\d3d12_resource_barrier_type.htm
 tech.root: direct3d12
 ms.assetid: B3364C92-777F-4207-9685-534B2F07B48F
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RESOURCE_BARRIER_TYPE, D3D12_RESOURCE_BARRIER_TYPE enumeration, D3D12_RESOURCE_BARRIER_TYPE_ALIASING, D3D12_RESOURCE_BARRIER_TYPE_TRANSITION, D3D12_RESOURCE_BARRIER_TYPE_UAV, d3d12/D3D12_RESOURCE_BARRIER_TYPE, d3d12/D3D12_RESOURCE_BARRIER_TYPE_ALIASING, d3d12/D3D12_RESOURCE_BARRIER_TYPE_TRANSITION, d3d12/D3D12_RESOURCE_BARRIER_TYPE_UAV, direct3d12.d3d12_resource_barrier_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RESOURCE_BARRIER_TYPE"
+f1_keywords:
+- d3d12/D3D12_RESOURCE_BARRIER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_RESOURCE_BARRIER_TYPE
+- D3D12_RESOURCE_BARRIER_TYPE
 targetos: Windows
 req.typenames: D3D12_RESOURCE_BARRIER_TYPE
 req.redist: 

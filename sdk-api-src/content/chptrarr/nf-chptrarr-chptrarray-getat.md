@@ -1,19 +1,17 @@
 ---
 UID: NF:chptrarr.CHPtrArray.GetAt
 title: CHPtrArray::GetAt (chptrarr.h)
-
 description: The GetAt method accesses an element in a CHPtrArray array.
 old-location: wmi\chptrarray_getat.htm
 tech.root: WmiSdk
 ms.assetid: 7c2f029f-22a1-4433-971e-35ce48c004e0
-
 ms.date: 12/05/2018
-ms.keywords: "?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray interface [Windows Management Instrumentation],GetAt method, CHPtrArray.GetAt, CHPtrArray::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetAt, wmi.chptrarray_getat"
+ms.keywords: ?GetAt@CHPtrArray@@QBEPAXH@Z, CHPtrArray interface [Windows Management Instrumentation],GetAt method, CHPtrArray.GetAt, CHPtrArray::GetAt, GetAt, GetAt method [Windows Management Instrumentation], GetAt method [Windows Management Instrumentation],CHPtrArray interface, chptrarr/CHPtrArray::GetAt, wmi.chptrarray_getat
 ms.topic: method
-f1_keywords: 
- - "chptrarr/CHPtrArray.GetAt"
+f1_keywords:
+- chptrarr/CHPtrArray.GetAt
 dev_langs:
- - c++
+- c++
 req.header: chptrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHPtrArray.GetAt
- - ?GetAt@CHPtrArray@@QBEPAXH@Z
+- CHPtrArray.GetAt
+- ?GetAt@CHPtrArray@@QBEPAXH@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

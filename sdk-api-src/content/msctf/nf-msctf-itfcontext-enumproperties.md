@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.EnumProperties
 title: ITfContext::EnumProperties (msctf.h)
-
 description: ITfContext::EnumProperties method
 old-location: tsf\itfcontext_enumproperties.htm
 tech.root: TSF
 ms.assetid: b57c9fdc-320b-4d97-8af4-c75756326437
-
 ms.date: 12/05/2018
 ms.keywords: EnumProperties, EnumProperties method [Text Services Framework], EnumProperties method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],EnumProperties method, ITfContext.EnumProperties, ITfContext::EnumProperties, _tsf_itfcontext_enumproperties_ref, msctf/ITfContext::EnumProperties, tsf.itfcontext_enumproperties
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.EnumProperties"
+f1_keywords:
+- msctf/ITfContext.EnumProperties
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.EnumProperties
+- ITfContext.EnumProperties
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

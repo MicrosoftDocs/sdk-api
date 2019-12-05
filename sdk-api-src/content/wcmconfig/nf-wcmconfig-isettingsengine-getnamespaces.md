@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.GetNamespaces
 title: ISettingsEngine::GetNamespaces (wcmconfig.h)
-
 description: Returns an enumerator to the installed namespaces.
 old-location: smi\isettingsengine_getnamespaces.htm
 tech.root: SMI
 ms.assetid: 0beb20a5-3dbf-48c8-9b0c-aa3dd094b59d
-
 ms.date: 12/05/2018
 ms.keywords: GetNamespaces, GetNamespaces method [SMI], GetNamespaces method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],GetNamespaces method, ISettingsEngine.GetNamespaces, ISettingsEngine::GetNamespaces, smi.isettingsengine_getnamespaces, wcmconfig/ISettingsEngine::GetNamespaces
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.GetNamespaces"
+f1_keywords:
+- wcmconfig/ISettingsEngine.GetNamespaces
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.GetNamespaces
+- ISettingsEngine.GetNamespaces
 targetos: Windows
 req.typenames: 
 req.redist: 

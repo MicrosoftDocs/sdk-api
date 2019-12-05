@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase.COPYFILE2_EXTENDED_PARAMETERS
 title: COPYFILE2_EXTENDED_PARAMETERS (winbase.h)
-
 description: Contains extended parameters for the CopyFile2 function.
 old-location: fs\copyfile2_extended_parameters.htm
 tech.root: FileIO
 ms.assetid: a8da62e5-bc49-4aff-afaa-e774393b7120
-
 ms.date: 12/05/2018
 ms.keywords: COPYFILE2_EXTENDED_PARAMETERS, COPYFILE2_EXTENDED_PARAMETERS structure [Files], COPY_FILE_ALLOW_DECRYPTED_DESTINATION, COPY_FILE_COPY_SYMLINK, COPY_FILE_FAIL_IF_EXISTS, COPY_FILE_NO_BUFFERING, COPY_FILE_NO_OFFLOAD, COPY_FILE_OPEN_SOURCE_FOR_WRITE, COPY_FILE_REQUEST_SECURITY_PRIVILEGES, COPY_FILE_RESTARTABLE, COPY_FILE_RESUME_FROM_PAUSE, fs.copyfile2_extended_parameters, winbase/COPYFILE2_EXTENDED_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "winbase/COPYFILE2_EXTENDED_PARAMETERS"
+f1_keywords:
+- winbase/COPYFILE2_EXTENDED_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
+- WinBase.h
 api_name:
- - COPYFILE2_EXTENDED_PARAMETERS
+- COPYFILE2_EXTENDED_PARAMETERS
 targetos: Windows
 req.typenames: COPYFILE2_EXTENDED_PARAMETERS
 req.redist: 

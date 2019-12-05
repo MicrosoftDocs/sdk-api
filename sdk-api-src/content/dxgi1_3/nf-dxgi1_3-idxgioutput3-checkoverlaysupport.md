@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGIOutput3.CheckOverlaySupport
 title: IDXGIOutput3::CheckOverlaySupport (dxgi1_3.h)
-
 description: Checks for overlay support.
 old-location: direct3ddxgi\idxgioutput3_checkoverlaysupport.htm
 tech.root: direct3ddxgi
 ms.assetid: D7B90FF5-5E8B-4F9E-A442-B44449438388
-
 ms.date: 12/05/2018
 ms.keywords: CheckOverlaySupport, CheckOverlaySupport method [DXGI], CheckOverlaySupport method [DXGI],IDXGIOutput3 interface, IDXGIOutput3 interface [DXGI],CheckOverlaySupport method, IDXGIOutput3.CheckOverlaySupport, IDXGIOutput3::CheckOverlaySupport, direct3ddxgi.idxgioutput3_checkoverlaysupport, dxgi1_3/IDXGIOutput3::CheckOverlaySupport
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGIOutput3.CheckOverlaySupport"
+f1_keywords:
+- dxgi1_3/IDXGIOutput3.CheckOverlaySupport
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIOutput3.CheckOverlaySupport
+- IDXGIOutput3.CheckOverlaySupport
 targetos: Windows
 req.typenames: 
 req.redist: 

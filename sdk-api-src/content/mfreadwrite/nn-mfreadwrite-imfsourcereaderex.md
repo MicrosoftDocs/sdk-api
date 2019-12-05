@@ -1,19 +1,17 @@
 ---
 UID: NN:mfreadwrite.IMFSourceReaderEx
 title: IMFSourceReaderEx (mfreadwrite.h)
-
 description: Extends the IMFSourceReader interface.
 old-location: mf\imfsourcereaderex.htm
 tech.root: medfound
 ms.assetid: 59888F9B-C464-4045-AA77-03EE16E2B598
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderEx, IMFSourceReaderEx interface [Media Foundation], IMFSourceReaderEx interface [Media Foundation],described, mf.imfsourcereaderex, mfreadwrite/IMFSourceReaderEx
 ms.topic: interface
-f1_keywords: 
- - "mfreadwrite/IMFSourceReaderEx"
+f1_keywords:
+- mfreadwrite/IMFSourceReaderEx
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReaderEx
+- IMFSourceReaderEx
 targetos: Windows
 req.typenames: 
 req.redist: 

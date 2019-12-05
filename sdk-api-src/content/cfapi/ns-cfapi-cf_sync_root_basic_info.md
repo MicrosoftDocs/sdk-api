@@ -1,19 +1,17 @@
 ---
 UID: NS:cfapi.CF_SYNC_ROOT_BASIC_INFO
 title: CF_SYNC_ROOT_BASIC_INFO (cfapi.h)
-
 description: Basic sync root information.
 old-location: cloudapi\cf_sync_root_basic_info.htm
 tech.root: cfApi
 ms.assetid: 7499D9DD-BAF6-449A-A34E-CEAE3EE10543
-
 ms.date: 12/05/2018
 ms.keywords: CF_SYNC_ROOT_BASIC_INFO, CF_SYNC_ROOT_BASIC_INFO structure, cfapi/CF_SYNC_ROOT_BASIC_INFO, cloudApi.cf_sync_root_basic_info
 ms.topic: struct
-f1_keywords: 
- - "cfapi/CF_SYNC_ROOT_BASIC_INFO"
+f1_keywords:
+- cfapi/CF_SYNC_ROOT_BASIC_INFO
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_SYNC_ROOT_BASIC_INFO
+- CF_SYNC_ROOT_BASIC_INFO
 targetos: Windows
 req.typenames: CF_SYNC_ROOT_BASIC_INFO
 req.redist: 

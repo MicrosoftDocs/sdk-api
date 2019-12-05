@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.SetBorderSpace
 title: IOleInPlaceUIWindow::SetBorderSpace (oleidl.h)
-
 description: Allocates space for the border requested in the call to IOleInPlaceUIWindow::RequestBorderSpace.
 old-location: com\ioleinplaceuiwindow_setborderspace.htm
 tech.root: com
 ms.assetid: 7c806a02-db6d-444e-a049-22c4ae2b19b0
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceUIWindow interface [COM],SetBorderSpace method, IOleInPlaceUIWindow.SetBorderSpace, IOleInPlaceUIWindow::SetBorderSpace, SetBorderSpace, SetBorderSpace method [COM], SetBorderSpace method [COM],IOleInPlaceUIWindow interface, _ole_ioleinplaceuiwindow_setborderspace, com.ioleinplaceuiwindow_setborderspace, oleidl/IOleInPlaceUIWindow::SetBorderSpace
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceUIWindow.SetBorderSpace"
+f1_keywords:
+- oleidl/IOleInPlaceUIWindow.SetBorderSpace
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceUIWindow.SetBorderSpace
+- IOleInPlaceUIWindow.SetBorderSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

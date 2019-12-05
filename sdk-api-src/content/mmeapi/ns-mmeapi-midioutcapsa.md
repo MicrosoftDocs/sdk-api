@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.tagMIDIOUTCAPSA
 title: MIDIOUTCAPSA (mmeapi.h)
-
 description: The MIDIOUTCAPS structure describes the capabilities of a MIDI output device.
 old-location: multimedia\midioutcaps.htm
 tech.root: Multimedia
 ms.assetid: 395d5fc2-cf34-48f0-a0b0-185247309e2c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMIDIOUTCAPSA, *NPMIDIOUTCAPSA, *PMIDIOUTCAPSA, MIDICAPS_CACHE, MIDICAPS_LRVOLUME, MIDICAPS_STREAM, MIDICAPS_VOLUME, MIDIOUTCAPS, MIDIOUTCAPS structure [Windows Multimedia], MIDIOUTCAPSA, MOD_FMSYNTH, MOD_MAPPER, MOD_MIDIPORT, MOD_SQSYNTH, MOD_SWSYNTH, MOD_SYNTH, MOD_WAVETABLE, _win32_MIDIOUTCAPS_str, midioutcaps_tag, mmeapi/MIDIOUTCAPS, multimedia.midioutcaps, tagMIDIOUTCAPSA, tagMIDIOUTCAPSW"
+ms.keywords: '*LPMIDIOUTCAPSA, *NPMIDIOUTCAPSA, *PMIDIOUTCAPSA, MIDICAPS_CACHE, MIDICAPS_LRVOLUME, MIDICAPS_STREAM, MIDICAPS_VOLUME, MIDIOUTCAPS, MIDIOUTCAPS structure [Windows Multimedia], MIDIOUTCAPSA, MOD_FMSYNTH, MOD_MAPPER, MOD_MIDIPORT, MOD_SQSYNTH, MOD_SWSYNTH, MOD_SYNTH, MOD_WAVETABLE, _win32_MIDIOUTCAPS_str, midioutcaps_tag, mmeapi/MIDIOUTCAPS, multimedia.midioutcaps, tagMIDIOUTCAPSA, tagMIDIOUTCAPSW'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/MIDIOUTCAPS"
+f1_keywords:
+- mmeapi/MIDIOUTCAPS
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - MIDIOUTCAPS
- - MIDIOUTCAPSA
+- MIDIOUTCAPS
+- MIDIOUTCAPSA
 targetos: Windows
 req.typenames: MIDIOUTCAPSA, *PMIDIOUTCAPSA, *NPMIDIOUTCAPSA, *LPMIDIOUTCAPSA
 req.redist: 

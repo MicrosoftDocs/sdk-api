@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ISignerCertificate.Initialize
 title: ISignerCertificate::Initialize (certenroll.h)
-
 description: Initializes the object from a signing certificate.
 old-location: security\isignercertificate_initialize_method.htm
 tech.root: seccertenroll
 ms.assetid: 2553f0bc-a177-49fc-932f-080cb4bd7a5c
-
 ms.date: 12/05/2018
 ms.keywords: ISignerCertificate interface [Security],Initialize method, ISignerCertificate.Initialize, ISignerCertificate::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ISignerCertificate interface, certenroll/ISignerCertificate::Initialize, security.isignercertificate_initialize_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ISignerCertificate.Initialize"
+f1_keywords:
+- certenroll/ISignerCertificate.Initialize
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ISignerCertificate.Initialize
+- ISignerCertificate.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

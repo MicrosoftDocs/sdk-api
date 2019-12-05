@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.Remove
 title: IGPMSecurityInfo::Remove (gpmgmt.h)
-
 description: Removes the permission specified in a given GPMPermission object from the GPMSecurityInfo collection.
 old-location: gpmc\igpmsecurityinfo_remove.htm
 tech.root: gpmc
 ms.assetid: 187ae17c-82c0-4439-8b98-52ba0571d222
-
 ms.date: 12/05/2018
 ms.keywords: GPMSecurityInfo class [GPMC],Remove method, IGPMSecurityInfo interface [GPMC],Remove method, IGPMSecurityInfo.Remove, IGPMSecurityInfo::Remove, Remove, Remove method [GPMC], Remove method [GPMC],GPMSecurityInfo class, Remove method [GPMC],IGPMSecurityInfo interface, _win32_igpmsecurityinfo_remove, gpmc.igpmsecurityinfo_remove, gpmgmt/IGPMSecurityInfo::Remove
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMSecurityInfo.Remove"
+f1_keywords:
+- gpmgmt/IGPMSecurityInfo.Remove
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo.Remove
- - GPMSecurityInfo.Remove
+- IGPMSecurityInfo.Remove
+- GPMSecurityInfo.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

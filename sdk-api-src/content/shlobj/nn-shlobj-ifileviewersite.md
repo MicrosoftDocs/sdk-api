@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.IFileViewerSite
 title: IFileViewerSite (shlobj.h)
-
 description: Exposes methods that designate an interface that allows a file viewer to retrieve the handle to the current pinned window, or to set a new pinned window.
 old-location: shell\IFileViewerSite.htm
 tech.root: shell
 ms.assetid: 500fa3e4-1865-4543-ae34-8bd7ce9d94cb
-
 ms.date: 12/05/2018
 ms.keywords: IFileViewerSite, IFileViewerSite interface [Windows Shell], IFileViewerSite interface [Windows Shell],described, _win32_IFileViewerSite, shell.IFileViewerSite, shlobj/IFileViewerSite
 ms.topic: interface
-f1_keywords: 
- - "shlobj/IFileViewerSite"
+f1_keywords:
+- shlobj/IFileViewerSite
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IFileViewerSite
+- IFileViewerSite
 targetos: Windows
 req.typenames: 
 req.redist: 

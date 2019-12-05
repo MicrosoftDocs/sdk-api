@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.ICEnroll4.acceptFileResponse
 title: ICEnroll4::acceptFileResponse (xenroll.h)
-
 description: Accepts delivery of the credentials issued in response to an earlier call to createFileRequest, and it places the credentials in the appropriate store.
 old-location: security\icenroll4_acceptfileresponse.htm
 tech.root: SecCrypto
 ms.assetid: 127863ca-843b-46c5-b375-fb0400e8b49b
-
 ms.date: 12/05/2018
 ms.keywords: CEnroll object [Security],acceptFileResponse method, ICEnroll4 interface [Security],acceptFileResponse method, ICEnroll4.acceptFileResponse, ICEnroll4::acceptFileResponse, _xen_icenroll4_acceptfileresponse, acceptFileResponse, acceptFileResponse method [Security], acceptFileResponse method [Security],CEnroll object, acceptFileResponse method [Security],ICEnroll4 interface, security.icenroll4_acceptfileresponse, xenroll/ICEnroll4::acceptFileResponse
 ms.topic: method
-f1_keywords: 
- - "xenroll/ICEnroll4.acceptFileResponse"
+f1_keywords:
+- xenroll/ICEnroll4.acceptFileResponse
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - ICEnroll4.acceptFileResponse
- - CEnroll.acceptFileResponse
+- ICEnroll4.acceptFileResponse
+- CEnroll.acceptFileResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupQueueCopySectionW
 title: SetupQueueCopySectionW function (setupapi.h)
-
 description: The SetupQueueCopySection function places all the files in a section of an INF file in a setup queue for copying.
 old-location: setup\setupqueuecopysection.htm
 tech.root: SetupApi
 ms.assetid: f61fd00e-e60f-4722-9da7-1ed4d8491004
-
 ms.date: 12/05/2018
 ms.keywords: SetupQueueCopySection, SetupQueueCopySection function [Setup API], SetupQueueCopySectionA, SetupQueueCopySectionW, _setupapi_setupqueuecopysection, setup.setupqueuecopysection, setupapi/SetupQueueCopySection, setupapi/SetupQueueCopySectionA, setupapi/SetupQueueCopySectionW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupQueueCopySection"
+f1_keywords:
+- setupapi/SetupQueueCopySection
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupQueueCopySection
- - SetupQueueCopySectionA
- - SetupQueueCopySectionW
+- SetupQueueCopySection
+- SetupQueueCopySectionA
+- SetupQueueCopySectionW
 targetos: Windows
 req.typenames: 
 req.redist: 

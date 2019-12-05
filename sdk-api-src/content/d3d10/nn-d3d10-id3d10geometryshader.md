@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10GeometryShader
 title: ID3D10GeometryShader (d3d10.h)
-
 description: A geometry-shader interface manages an executable program (a geometry shader) that controls the geometry-shader stage.
 old-location: direct3d10\id3d10geometryshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10geometryshader.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0dcf2957-f913-22f8-e1fe-0085a1e9dce8, ID3D10GeometryShader, ID3D10GeometryShader interface [Direct3D 10], ID3D10GeometryShader interface [Direct3D 10],described, d3d10/ID3D10GeometryShader, direct3d10.id3d10geometryshader
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10GeometryShader"
+f1_keywords:
+- d3d10/ID3D10GeometryShader
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10GeometryShader
+- ID3D10GeometryShader
 targetos: Windows
 req.typenames: 
 req.redist: 

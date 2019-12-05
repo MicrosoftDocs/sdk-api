@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMAttest
 title: DRMAttest function (msdrm.h)
-
 description: The DRMAttest function is no longer supported and returns E_NOTIMPL.
 old-location: rm\drmattest.htm
 tech.root: AdRms_Sdk
 ms.assetid: f0975845-d609-4f7a-a663-6481334c983d
-
 ms.date: 12/05/2018
 ms.keywords: DRMAttest, DRMAttest function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAttest, rm.drmattest
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMAttest"
+f1_keywords:
+- msdrm/DRMAttest
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMAttest
+- DRMAttest
 targetos: Windows
 req.typenames: 
 req.redist: 

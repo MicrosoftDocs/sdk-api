@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.PerUserInit
 title: PerUserInit function (shlobj.h)
-
 description: Creates My Documents and other special folders, initializes them as needed, and creates the Send To shortcut menu item for My Documents.
 old-location: shell\PerUserInit.htm
 tech.root: shell
 ms.assetid: 08ce75e9-3316-4967-925e-25b15fc97aa0
-
 ms.date: 12/05/2018
 ms.keywords: PerUserInit, PerUserInit function [Windows Shell], _win32_PerUserInit, shell.PerUserInit, shlobj/PerUserInit
 ms.topic: function
-f1_keywords: 
- - "shlobj/PerUserInit"
+f1_keywords:
+- shlobj/PerUserInit
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mydocs.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mydocs.dll
+- Mydocs.dll
 api_name:
- - PerUserInit
+- PerUserInit
 targetos: Windows
 req.typenames: 
 req.redist: 

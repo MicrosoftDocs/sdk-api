@@ -1,19 +1,17 @@
 ---
 UID: NE:mfreadwrite.MF_SOURCE_READER_CONTROL_FLAG
 title: MF_SOURCE_READER_CONTROL_FLAG (mfreadwrite.h)
-
 description: Contains flags for the IMFSourceReader::ReadSample method.
 old-location: mf\mf_source_reader_control_flag.htm
 tech.root: medfound
 ms.assetid: a6367fea-ceba-4ce4-9a1b-88a40afc3055
-
 ms.date: 12/05/2018
 ms.keywords: MF_SOURCE_READER_CONTROLF_DRAIN, MF_SOURCE_READER_CONTROL_FLAG, MF_SOURCE_READER_CONTROL_FLAG enumeration [Media Foundation], mf.mf_source_reader_control_flag, mfreadwrite/MF_SOURCE_READER_CONTROLF_DRAIN, mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG
 ms.topic: enum
-f1_keywords: 
- - "mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG"
+f1_keywords:
+- mfreadwrite/MF_SOURCE_READER_CONTROL_FLAG
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - MF_SOURCE_READER_CONTROL_FLAG
+- MF_SOURCE_READER_CONTROL_FLAG
 targetos: Windows
 req.typenames: MF_SOURCE_READER_CONTROL_FLAG
 req.redist: 

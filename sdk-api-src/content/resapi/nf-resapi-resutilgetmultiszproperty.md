@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetMultiSzProperty
 title: ResUtilGetMultiSzProperty function (resapi.h)
-
 description: Retrieves a multiple string property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_MULTI_SZ_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetmultiszproperty.htm
 tech.root: MsCS
 ms.assetid: 7f345cce-fa67-467c-bd4f-286609c3f757
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_MULTI_SZ_PROPERTY, PRESUTIL_GET_MULTI_SZ_PROPERTY function [Failover Cluster], ResUtilGetMultiSzProperty, ResUtilGetMultiSzProperty function [Failover Cluster], _wolf_resutilgetmultiszproperty, mscs.resutilgetmultiszproperty, resapi/PRESUTIL_GET_MULTI_SZ_PROPERTY, resapi/ResUtilGetMultiSzProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetMultiSzProperty"
+f1_keywords:
+- resapi/ResUtilGetMultiSzProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetMultiSzProperty
+- ResUtilGetMultiSzProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

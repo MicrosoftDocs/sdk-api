@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_PLACED_SUBRESOURCE_FOOTPRINT
 title: D3D12_PLACED_SUBRESOURCE_FOOTPRINT (d3d12.h)
-
 description: Describes the footprint of a placed subresource, including the offset and the D3D12_SUBRESOURCE_FOOTPRINT.
 old-location: direct3d12\d3d12_placed_subresource_footprint.htm
 tech.root: direct3d12
 ms.assetid: 74740A52-C2A5-4AF6-92CC-85B5C214423F
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_PLACED_SUBRESOURCE_FOOTPRINT, D3D12_PLACED_SUBRESOURCE_FOOTPRINT structure, d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT, direct3d12.d3d12_placed_subresource_footprint
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT"
+f1_keywords:
+- d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_PLACED_SUBRESOURCE_FOOTPRINT
+- D3D12_PLACED_SUBRESOURCE_FOOTPRINT
 targetos: Windows
 req.typenames: D3D12_PLACED_SUBRESOURCE_FOOTPRINT
 req.redist: 

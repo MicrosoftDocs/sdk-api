@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_UserIdentity
 title: IWdsTransportClient::get_UserIdentity (wdstptmgmt.h)
-
 description: Receives a string representing the user identity associated with this client.
 old-location: wds\iwdstransportclient_useridentity.htm
 tech.root: wds
 ms.assetid: c22a49ba-2f90-4131-8cf0-aa0d242d32c7
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],UserIdentity property, IWdsTransportClient.UserIdentity, IWdsTransportClient.get_UserIdentity, IWdsTransportClient::UserIdentity, IWdsTransportClient::get_UserIdentity, UserIdentity property [Windows Deployment Services], UserIdentity property [Windows Deployment Services],IWdsTransportClient interface, get_UserIdentity, wds.iwdstransportclient_useridentity, wdstptmgmt/IWdsTransportClient::UserIdentity, wdstptmgmt/IWdsTransportClient::get_UserIdentity
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportClient.UserIdentity"
+f1_keywords:
+- wdstptmgmt/IWdsTransportClient.UserIdentity
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient.UserIdentity
- - IWdsTransportClient.get_UserIdentity
+- IWdsTransportClient.UserIdentity
+- IWdsTransportClient.get_UserIdentity
 targetos: Windows
 req.typenames: 
 req.redist: 

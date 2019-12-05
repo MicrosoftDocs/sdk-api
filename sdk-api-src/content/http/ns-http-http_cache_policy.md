@@ -1,19 +1,17 @@
 ---
 UID: NS:http._HTTP_CACHE_POLICY
 title: HTTP_CACHE_POLICY (http.h)
-
 description: Used to define a cache policy associated with a cached response fragment.
 old-location: http\http_cache_policy.htm
 tech.root: http
 ms.assetid: 91fcbf35-ef8b-4f70-9c31-3f741c0e2f6e
-
 ms.date: 12/05/2018
 ms.keywords: '*PHTTP_CACHE_POLICY, HTTP_CACHE_POLICY, HTTP_CACHE_POLICY structure [HTTP], HttpCachePolicyNocache, HttpCachePolicyTimeToLive, HttpCachePolicyUserInvalidates, PHTTP_CACHE_POLICY, PHTTP_CACHE_POLICY structure pointer [HTTP], _http_http_cache_policy, http.http_cache_policy, http/HTTP_CACHE_POLICY, http/PHTTP_CACHE_POLICY'
 ms.topic: struct
 f1_keywords:
 - http/HTTP_CACHE_POLICY
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows

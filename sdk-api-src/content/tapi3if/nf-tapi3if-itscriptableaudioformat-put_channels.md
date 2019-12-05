@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_Channels
 title: ITScriptableAudioFormat::put_Channels (tapi3if.h)
-
 description: The put_Channels method sets the nChannels member in the WAVEFORMATEX structure.
 old-location: tapi3\itscriptableaudioformat_put_channels.htm
 tech.root: Tapi
 ms.assetid: 301fd17f-393b-46dd-9d76-1a1e34547629
-
 ms.date: 12/05/2018
 ms.keywords: ITScriptableAudioFormat interface [TAPI 2.2],put_Channels method, ITScriptableAudioFormat.put_Channels, ITScriptableAudioFormat::put_Channels, _tapi3_itscriptableaudioformat_put_channels, put_Channels, put_Channels method [TAPI 2.2], put_Channels method [TAPI 2.2],ITScriptableAudioFormat interface, tapi3.itscriptableaudioformat_put_channels, tapi3if/ITScriptableAudioFormat::put_Channels
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITScriptableAudioFormat.put_Channels"
+f1_keywords:
+- tapi3if/ITScriptableAudioFormat.put_Channels
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITScriptableAudioFormat.put_Channels
+- ITScriptableAudioFormat.put_Channels
 targetos: Windows
 req.typenames: 
 req.redist: 

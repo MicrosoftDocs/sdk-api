@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IMPEG2Component.put_PCRPID
 title: IMPEG2Component::put_PCRPID (tuner.h)
-
 description: The put_PCRPID method sets the packet identifier (PID) for the packets that contain the PCR for this substream.
 old-location: mstv\impeg2component_put_pcrpid.htm
 tech.root: mstv
 ms.assetid: cfe55ec9-cf07-40c5-98da-cb23393490d0
-
 ms.date: 12/05/2018
 ms.keywords: IMPEG2Component interface [Microsoft TV Technologies],put_PCRPID method, IMPEG2Component.put_PCRPID, IMPEG2Component::put_PCRPID, IMPEG2Componentput_PCRPID, mstv.impeg2component_put_pcrpid, put_PCRPID, put_PCRPID method [Microsoft TV Technologies], put_PCRPID method [Microsoft TV Technologies],IMPEG2Component interface, tuner/IMPEG2Component::put_PCRPID
 ms.topic: method
-f1_keywords: 
- - "tuner/IMPEG2Component.put_PCRPID"
+f1_keywords:
+- tuner/IMPEG2Component.put_PCRPID
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IMPEG2Component.put_PCRPID
+- IMPEG2Component.put_PCRPID
 targetos: Windows
 req.typenames: 
 req.redist: 

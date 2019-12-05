@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaPeakUsage
 title: IFsrmQuota::get_QuotaPeakUsage (fsrmquota.h)
-
 description: Retrieves the highest amount of disk space usage charged to this quota.
 old-location: fsrm\ifsrmquota_quotapeakusage.htm
 tech.root: fsrm
 ms.assetid: 86e2f8a1-766e-494d-9b99-c55e51d8509c
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaPeakUsage property, IFsrmQuota.QuotaPeakUsage, IFsrmQuota.get_QuotaPeakUsage, IFsrmQuota::QuotaPeakUsage, IFsrmQuota::get_QuotaPeakUsage, QuotaPeakUsage property [File Server Resource Manager], QuotaPeakUsage property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotapeakusage, fsrm.ifsrmquota_quotapeakusage, fsrmquota/IFsrmQuota::QuotaPeakUsage, fsrmquota/IFsrmQuota::get_QuotaPeakUsage, get_QuotaPeakUsage
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuota.QuotaPeakUsage"
+f1_keywords:
+- fsrmquota/IFsrmQuota.QuotaPeakUsage
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuota.QuotaPeakUsage
- - IFsrmQuota.get_QuotaPeakUsage
+- IFsrmQuota.QuotaPeakUsage
+- IFsrmQuota.get_QuotaPeakUsage
 targetos: Windows
 req.typenames: 
 req.redist: 

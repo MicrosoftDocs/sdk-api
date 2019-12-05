@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource3
 title: IWMSInternalAdminNetSource3 (wmsinternaladminnetsource.h)
-
 description: The IWMSInternalAdminNetSource3 interface provides improved methods to find proxy servers.To obtain a pointer to an instance of this interface, call the QueryInterface method of the IDispatch method retrieved by INSNetSourceCreator::GetNetSourceAdminInterface.
 old-location: wmformat\iwmsinternaladminnetsource3.htm
 tech.root: wmformat
 ms.assetid: b4ca08a4-6e2d-4646-b101-67bac67300b1
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource3, IWMSInternalAdminNetSource3 interface [windows Media Format], IWMSInternalAdminNetSource3 interface [windows Media Format],described, IWMSInternalAdminNetSource3Interface, wmformat.iwmsinternaladminnetsource3, wmsinternaladminnetsource/IWMSInternalAdminNetSource3
 ms.topic: interface
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource3
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsinternaladminnetsource.h
+- wmsinternaladminnetsource.h
 api_name:
- - IWMSInternalAdminNetSource3
- - IWMSInternalAdminNetSource3.GetNetSourceCreator2
- - IWMSInternalAdminNetSource3.IsUsingIE2
- - IWMSInternalAdminNetSource3.RegisterProxyFailure2
+- IWMSInternalAdminNetSource3
+- IWMSInternalAdminNetSource3.GetNetSourceCreator2
+- IWMSInternalAdminNetSource3.IsUsingIE2
+- IWMSInternalAdminNetSource3.RegisterProxyFailure2
 targetos: Windows
 req.typenames: 
 req.redist: 

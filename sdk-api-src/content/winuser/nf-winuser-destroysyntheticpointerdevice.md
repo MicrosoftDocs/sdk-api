@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.DestroySyntheticPointerDevice
 title: DestroySyntheticPointerDevice function (winuser.h)
-
 description: Destroys the specified pointer injection device.
 old-location: input_pointerdevice\destroysyntheticpointerdevice.htm
 tech.root: Input_PointerDevice
 ms.assetid: 236484FC-D552-45CE-A968-B928D020A4C8
-
 ms.date: 12/05/2018
 ms.keywords: DestroySyntheticPointerDevice, DestroySyntheticPointerDevice function, input_pointerdevice.destroysyntheticpointerdevice, winuser/DestroySyntheticPointerDevice
 ms.topic: function
-f1_keywords: 
- - "winuser/DestroySyntheticPointerDevice"
+f1_keywords:
+- winuser/DestroySyntheticPointerDevice
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - DestroySyntheticPointerDevice
+- DestroySyntheticPointerDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

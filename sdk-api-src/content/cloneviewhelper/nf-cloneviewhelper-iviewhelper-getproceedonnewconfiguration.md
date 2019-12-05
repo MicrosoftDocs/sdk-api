@@ -1,19 +1,17 @@
 ---
 UID: NF:cloneviewhelper.IViewHelper.GetProceedOnNewConfiguration
 title: IViewHelper::GetProceedOnNewConfiguration (cloneviewhelper.h)
-
 description: The GetProceedOnNewConfiguration method allows the user-mode display driver to suppress the TMM user interface and display changing actions on a new, two-monitor configuration.
 old-location: display\iviewhelper_getproceedonnewconfiguration.htm
 tech.root: display
 ms.assetid: 223fc545-0fe8-4907-870a-7c0e4ec2f2e8
-
 ms.date: 12/05/2018
 ms.keywords: GetProceedOnNewConfiguration, GetProceedOnNewConfiguration method [Display Devices], GetProceedOnNewConfiguration method [Display Devices],IViewHelper interface, IViewHelper interface [Display Devices],GetProceedOnNewConfiguration method, IViewHelper.GetProceedOnNewConfiguration, IViewHelper::GetProceedOnNewConfiguration, TMM_Ref_3cc57f4b-1882-4f95-955c-23b6e8635a98.xml, cloneviewhelper/IViewHelper::GetProceedOnNewConfiguration, display.iviewhelper_getproceedonnewconfiguration
 ms.topic: method
-f1_keywords: 
- - "cloneviewhelper/IViewHelper.GetProceedOnNewConfiguration"
+f1_keywords:
+- cloneviewhelper/IViewHelper.GetProceedOnNewConfiguration
 dev_langs:
- - c++
+- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Cloneviewhelper.h
+- Cloneviewhelper.h
 api_name:
- - IViewHelper.GetProceedOnNewConfiguration
+- IViewHelper.GetProceedOnNewConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

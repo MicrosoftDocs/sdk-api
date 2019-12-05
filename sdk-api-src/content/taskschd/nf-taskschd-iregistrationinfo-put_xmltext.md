@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.put_XmlText
 title: IRegistrationInfo::put_XmlText (taskschd.h)
-
 description: Gets or sets an XML-formatted version of the registration information for the task.
 old-location: taskschd\iregistrationinfo_xmltext.htm
 tech.root: taskschd
 ms.assetid: ad7de0d3-c5df-49d7-9cc9-d52e30844615
-
 ms.date: 12/05/2018
 ms.keywords: IRegistrationInfo interface [Task Scheduler],XmlText property, IRegistrationInfo.XmlText, IRegistrationInfo.put_XmlText, IRegistrationInfo::XmlText, IRegistrationInfo::get_XmlText, IRegistrationInfo::put_XmlText, XmlText property [Task Scheduler], XmlText property [Task Scheduler],IRegistrationInfo interface, put_XmlText, taskschd.iregistrationinfo_xmltext, taskschd/IRegistrationInfo::XmlText, taskschd/IRegistrationInfo::get_XmlText, taskschd/IRegistrationInfo::put_XmlText
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegistrationInfo.XmlText"
+f1_keywords:
+- taskschd/IRegistrationInfo.XmlText
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegistrationInfo.XmlText
- - IRegistrationInfo.get_XmlText
- - IRegistrationInfo.put_XmlText
+- IRegistrationInfo.XmlText
+- IRegistrationInfo.get_XmlText
+- IRegistrationInfo.put_XmlText
 targetos: Windows
 req.typenames: 
 req.redist: 

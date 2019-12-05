@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IBDAComparable.HashExact
 title: IBDAComparable::HashExact (tuner.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\ibdacomparable_hashexact.htm
 tech.root: mstv
 ms.assetid: 41495662-835b-47bc-a8d6-b0b689ec4d51
-
 ms.date: 12/05/2018
 ms.keywords: HashExact, HashExact method [Microsoft TV Technologies], HashExact method [Microsoft TV Technologies],IBDAComparable interface, IBDAComparable interface [Microsoft TV Technologies],HashExact method, IBDAComparable.HashExact, IBDAComparable::HashExact, IBDAComparableHashExact, mstv.ibdacomparable_hashexact, tuner/IBDAComparable::HashExact
 ms.topic: method
-f1_keywords: 
- - "tuner/IBDAComparable.HashExact"
+f1_keywords:
+- tuner/IBDAComparable.HashExact
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IBDAComparable.HashExact
+- IBDAComparable.HashExact
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetWindowModuleFileNameW
 title: GetWindowModuleFileNameW function (winuser.h)
-
 description: Retrieves the full path and file name of the module associated with the specified window handle.
 old-location: winmsg\getwindowmodulefilename.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowmodulefilename.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetWindowModuleFileName, GetWindowModuleFileName function [Windows and Messages], GetWindowModuleFileNameA, GetWindowModuleFileNameW, _win32_GetWindowModuleFileName, _win32_getwindowmodulefilename_cpp, winmsg.getwindowmodulefilename, winui._win32_getwindowmodulefilename, winuser/GetWindowModuleFileName, winuser/GetWindowModuleFileNameA, winuser/GetWindowModuleFileNameW
 ms.topic: function
-f1_keywords: 
- - "winuser/GetWindowModuleFileName"
+f1_keywords:
+- winuser/GetWindowModuleFileName
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetWindowModuleFileName
- - GetWindowModuleFileNameA
- - GetWindowModuleFileNameW
+- GetWindowModuleFileName
+- GetWindowModuleFileNameA
+- GetWindowModuleFileNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymFunctionTableAccess64AccessRoutines
 title: SymFunctionTableAccess64AccessRoutines function (dbghelp.h)
-
 description: Finds a function table entry or frame pointer omission (FPO) record for an address.
 old-location: base\symfunctiontableaccess64accessroutines.htm
 tech.root: Debug
 ms.assetid: 7AE8779A-F3F8-45FF-B11C-4D48CF76FDCA
-
 ms.date: 12/05/2018
 ms.keywords: SymFunctionTableAccess64AccessRoutines, SymFunctionTableAccess64AccessRoutines function, base.symfunctiontableaccess64accessroutines, dbghelp/SymFunctionTableAccess64AccessRoutines
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymFunctionTableAccess64AccessRoutines"
+f1_keywords:
+- dbghelp/SymFunctionTableAccess64AccessRoutines
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DbgHelp.lib
 req.dll: DbgHelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - DbgHelp.dll
+- DbgHelp.dll
 api_name:
- - SymFunctionTableAccess64AccessRoutines
+- SymFunctionTableAccess64AccessRoutines
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.2 or later

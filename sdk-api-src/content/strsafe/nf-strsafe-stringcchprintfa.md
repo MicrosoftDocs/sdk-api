@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCchPrintfA
 title: StringCchPrintfA function (strsafe.h)
-
 description: Writes formatted data to the specified string.
 old-location: menurc\stringcchprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchprintf.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringCchPrintf, StringCchPrintf function [Menus and Other Resources], StringCchPrintfA, StringCchPrintfW, _shell_StringCchPrintf, _shell_stringcchprintf_cpp, menurc.stringcchprintf, strsafe/StringCchPrintf, strsafe/StringCchPrintfA, strsafe/StringCchPrintfW, winui._shell_stringcchprintf
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCchPrintf"
+f1_keywords:
+- strsafe/StringCchPrintf
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCchPrintf
- - StringCchPrintfA
- - StringCchPrintfW
+- StringCchPrintf
+- StringCchPrintfA
+- StringCchPrintfW
 targetos: Windows
 req.typenames: 
 req.redist: 

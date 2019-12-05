@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.TranslateMDISysAccel
 title: TranslateMDISysAccel function (winuser.h)
-
 description: Processes accelerator keystrokes for window menu commands of the multiple-document interface (MDI) child windows associated with the specified MDI client window.
 old-location: winmsg\translatemdisysaccel.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\translatemdisysaccel.htm
-
 ms.date: 12/05/2018
 ms.keywords: TranslateMDISysAccel, TranslateMDISysAccel function [Windows and Messages], _win32_TranslateMDISysAccel, _win32_translatemdisysaccel_cpp, winmsg.translatemdisysaccel, winui._win32_translatemdisysaccel, winuser/TranslateMDISysAccel
 ms.topic: function
-f1_keywords: 
- - "winuser/TranslateMDISysAccel"
+f1_keywords:
+- winuser/TranslateMDISysAccel
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - TranslateMDISysAccel
+- TranslateMDISysAccel
 targetos: Windows
 req.typenames: 
 req.redist: 

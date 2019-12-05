@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetPixelGeometry
 title: IDWriteRenderingParams::GetPixelGeometry (dwrite.h)
-
 description: Gets the pixel geometry of the rendering parameters object.
 old-location: directwrite\IDWriteRenderingParams_GetPixelGeometry.htm
 tech.root: DirectWrite
 ms.assetid: faa727b7-3df6-4ad5-ad1f-1c038ea585c8
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelGeometry, GetPixelGeometry method [Direct Write], GetPixelGeometry method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetPixelGeometry method, IDWriteRenderingParams.GetPixelGeometry, IDWriteRenderingParams::GetPixelGeometry, directwrite.IDWriteRenderingParams_GetPixelGeometry, dwrite/IDWriteRenderingParams::GetPixelGeometry
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteRenderingParams.GetPixelGeometry"
+f1_keywords:
+- dwrite/IDWriteRenderingParams.GetPixelGeometry
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteRenderingParams.GetPixelGeometry
+- IDWriteRenderingParams.GetPixelGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstci.WdsTransportClientCloseSession
 title: WdsTransportClientCloseSession function (wdstci.h)
-
 description: Releases the resources associated with a session in the client.
 old-location: wds\wdstransportclientclosesession.htm
 tech.root: wds
 ms.assetid: 4c135502-a6be-4d5d-b6ce-34b55f6e08b0
-
 ms.date: 12/05/2018
 ms.keywords: WdsTransportClientCloseSession, WdsTransportClientCloseSession function [Windows Deployment Services], wds.wdstransportclientclosesession, wdstci/WdsTransportClientCloseSession
 ms.topic: function
-f1_keywords: 
- - "wdstci/WdsTransportClientCloseSession"
+f1_keywords:
+- wdstci/WdsTransportClientCloseSession
 dev_langs:
- - c++
+- c++
 req.header: wdstci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wdstptc.lib
 req.dll: Wdstptc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wdstptc.dll
+- Wdstptc.dll
 api_name:
- - WdsTransportClientCloseSession
+- WdsTransportClientCloseSession
 targetos: Windows
 req.typenames: 
 req.redist: 

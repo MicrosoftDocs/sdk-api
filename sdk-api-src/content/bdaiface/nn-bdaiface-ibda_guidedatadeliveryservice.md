@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_GuideDataDeliveryService
 title: IBDA_GuideDataDeliveryService (bdaiface.h)
-
 description: Retrieves out-of-band guide data from a media transform device (MTD). This interface provides access to a device's Guide Data Delivery Service.
 old-location: mstv\ibda_guidedatadeliveryservice.htm
 tech.root: mstv
 ms.assetid: 5329f725-e77e-49c2-87f5-f7204d022adc
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_GuideDataDeliveryService, IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies], IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies],described, bdaiface/IBDA_GuideDataDeliveryService, mstv.ibda_guidedatadeliveryservice
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_GuideDataDeliveryService"
+f1_keywords:
+- bdaiface/IBDA_GuideDataDeliveryService
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_GuideDataDeliveryService
+- IBDA_GuideDataDeliveryService
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetModuleFromScope
 title: IMetaDataImport::GetModuleFromScope (rometadataapi.h)
-
 description: Gets a metadata token for the module referenced in the current metadata scope.
 old-location: winrt\imetadataimport_getmodulefromscope.htm
 tech.root: WinRT
 ms.assetid: 4ad7248d-7266-4a14-b499-05bda7f60e01
-
 ms.date: 12/05/2018
 ms.keywords: GetModuleFromScope, GetModuleFromScope method [Windows Runtime], GetModuleFromScope method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetModuleFromScope method, IMetaDataImport.GetModuleFromScope, IMetaDataImport::GetModuleFromScope, rometadataapi/IMetaDataImport::GetModuleFromScope, winrt.imetadataimport_getmodulefromscope
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetModuleFromScope"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetModuleFromScope
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetModuleFromScope
+- IMetaDataImport.GetModuleFromScope
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_DestinationOptions_Delete
 title: MI_DestinationOptions_Delete function (mi.h)
-
 description: Deletes the destination options structure created by using the MI_Application_NewDestinationOptions or MI_DestinationOptions_Clone function.
 old-location: wmi_v2\mi_destinationoptions_delete.htm
 tech.root: wmi_v2
 ms.assetid: c4cc8622-1adb-4e91-877f-11a260ca4bd7
-
 ms.date: 12/05/2018
 ms.keywords: MI_DestinationOptions_Delete, MI_DestinationOptions_Delete function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_Delete, wmi_v2.mi_destinationoptions_delete
 ms.topic: function
-f1_keywords: 
- - "mi/MI_DestinationOptions_Delete"
+f1_keywords:
+- mi/MI_DestinationOptions_Delete
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_DestinationOptions_Delete
+- MI_DestinationOptions_Delete
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUIApplication
 title: IUIApplication (uiribbon.h)
-
 description: The IUIApplication interface is implemented by the application and defines the callback entry-point methods for the Windows Ribbon framework.
 old-location: windowsribbon\windowsribbon_iuiapplication.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiapplication\iuiapplication.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIApplication, IUIApplication interface [Windows Ribbon], IUIApplication interface [Windows Ribbon],described, scenicintent_IUIApplication, uiribbon/IUIApplication, windowsribbon.windowsribbon_iuiapplication
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUIApplication"
+f1_keywords:
+- uiribbon/IUIApplication
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUIApplication
+- IUIApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

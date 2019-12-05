@@ -1,19 +1,17 @@
 ---
 UID: NS:processthreadsapi._PROCESS_MEMORY_EXHAUSTION_INFO
 title: PROCESS_MEMORY_EXHAUSTION_INFO (processthreadsapi.h)
-
 description: Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the PROCESS_INFORMATION_CLASS class.
 old-location: base\process_memory_exhaustion_info.htm
 tech.root: ProcThread
 ms.assetid: 5BD60CA2-1F97-4B62-8DD1-D21724186323
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO structure pointer, PROCESS_MEMORY_EXHAUSTION_INFO, PROCESS_MEMORY_EXHAUSTION_INFO structure, base.process_memory_exhaustion_info, processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_INFO, processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO"
+ms.keywords: '*PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO, PPROCESS_MEMORY_EXHAUSTION_INFO structure pointer, PROCESS_MEMORY_EXHAUSTION_INFO, PROCESS_MEMORY_EXHAUSTION_INFO structure, base.process_memory_exhaustion_info, processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_INFO, processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO'
 ms.topic: struct
-f1_keywords: 
- - "processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO"
+f1_keywords:
+- processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - processthreadsapi.h
+- processthreadsapi.h
 api_name:
- - PROCESS_MEMORY_EXHAUSTION_INFO
+- PROCESS_MEMORY_EXHAUSTION_INFO
 targetos: Windows
 req.typenames: PROCESS_MEMORY_EXHAUSTION_INFO, *PPROCESS_MEMORY_EXHAUSTION_INFO
 req.redist: 

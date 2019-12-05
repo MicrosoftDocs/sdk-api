@@ -1,19 +1,17 @@
 ---
 UID: NF:fileapi.GetFileSizeEx
 title: GetFileSizeEx function (fileapi.h)
-
 description: Retrieves the size of the specified file.
 old-location: fs\getfilesizeex.htm
 tech.root: FileIO
 ms.assetid: 782457bc-8f37-4eec-8ff3-b148fd0a7345
-
 ms.date: 12/05/2018
 ms.keywords: GetFileSizeEx, GetFileSizeEx function [Files], _win32_getfilesizeex, base.getfilesizeex, fileapi/GetFileSizeEx, fs.getfilesizeex, winbase/GetFileSizeEx
 ms.topic: function
-f1_keywords: 
- - "fileapi/GetFileSizeEx"
+f1_keywords:
+- fileapi/GetFileSizeEx
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-File-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-File-l1-2-0.dll
- - API-MS-Win-Core-File-l1-2-1.dll
- - API-MS-Win-Core-File-l1-2-2.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-File-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-File-l1-2-0.dll
+- API-MS-Win-Core-File-l1-2-1.dll
+- API-MS-Win-Core-File-l1-2-2.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - GetFileSizeEx
+- GetFileSizeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

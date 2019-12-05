@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetRestoreMetadata
 title: IVssComponent::GetRestoreMetadata (vswriter.h)
-
 description: The GetRestoreMetadata method retrieves private, writer-specific restore metadata that might have been set during a PreRestore event by CVssWriter::OnPreRestore using IVssComponent::SetRestoreMetadata.
 old-location: base\ivsscomponent_getrestoremetadata.htm
 tech.root: VSS
 ms.assetid: 1b53c523-a105-4507-89f3-1f746aa86204
-
 ms.date: 12/05/2018
 ms.keywords: GetRestoreMetadata, GetRestoreMetadata method [VSS], GetRestoreMetadata method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetRestoreMetadata method, IVssComponent.GetRestoreMetadata, IVssComponent::GetRestoreMetadata, _win32_ivsscomponent_getrestoremetadata, base.ivsscomponent_getrestoremetadata, vswriter/IVssComponent::GetRestoreMetadata
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetRestoreMetadata"
+f1_keywords:
+- vswriter/IVssComponent.GetRestoreMetadata
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetRestoreMetadata
+- IVssComponent.GetRestoreMetadata
 targetos: Windows
 req.typenames: 
 req.redist: 

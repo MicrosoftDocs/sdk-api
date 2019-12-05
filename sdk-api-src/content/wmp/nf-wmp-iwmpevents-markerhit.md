@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.MarkerHit
 title: IWMPEvents::MarkerHit (wmp.h)
-
 description: The MarkerHit event occurs when a marker is reached.
 old-location: wmp\iwmpevents_iwmpevents__markerhit.htm
 tech.root: WMP
 ms.assetid: 5caf2982-d562-4306-b211-58741622c94c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEvents interface [Windows Media Player],MarkerHit method, IWMPEvents.MarkerHit, IWMPEvents::MarkerHit, IWMPEventsMarkerHit, MarkerHit, MarkerHit method [Windows Media Player], MarkerHit method [Windows Media Player],IWMPEvents interface, wmp.iwmpevents_iwmpevents__markerhit, wmp/IWMPEvents::MarkerHit
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.MarkerHit"
+f1_keywords:
+- wmp/IWMPEvents.MarkerHit
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.MarkerHit
+- IWMPEvents.MarkerHit
 targetos: Windows
 req.typenames: 
 req.redist: 

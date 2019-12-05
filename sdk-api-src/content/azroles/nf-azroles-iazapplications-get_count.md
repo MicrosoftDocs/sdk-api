@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplications.get_Count
 title: IAzApplications::get_Count (azroles.h)
-
 description: Retrieves the number of IAzApplication objects in the collection.
 old-location: security\iazapplications_count.htm
 tech.root: SecAuthZ
 ms.assetid: 2f12fd9f-4632-4eef-8ac4-80e73a731539
-
 ms.date: 12/05/2018
 ms.keywords: AzApplications object [Security],Count property, Count property [Security], Count property [Security],AzApplications object, Count property [Security],IAzApplications interface, IAzApplications interface [Security],Count property, IAzApplications.Count, IAzApplications.get_Count, IAzApplications::Count, IAzApplications::get_Count, azroles/IAzApplications::Count, azroles/IAzApplications::get_Count, get_Count, security.iazapplications_count
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplications.Count"
+f1_keywords:
+- azroles/IAzApplications.Count
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplications.Count
- - IAzApplications.get_Count
- - AzApplications.Count
+- IAzApplications.Count
+- IAzApplications.get_Count
+- AzApplications.Count
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

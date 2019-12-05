@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IDirectorySearch.SetSearchPreference
 title: IDirectorySearch::SetSearchPreference (iads.h)
-
 description: Specifies a search preference for obtaining data in a subsequent search.
 old-location: adsi\idirectorysearch_setsearchpreference.htm
 tech.root: adsi
 ms.assetid: 1c5b3f72-6165-41ad-99d4-d68bc12ac10b
-
 ms.date: 12/05/2018
 ms.keywords: IDirectorySearch interface [ADSI],SetSearchPreference method, IDirectorySearch.SetSearchPreference, IDirectorySearch::SetSearchPreference, SetSearchPreference, SetSearchPreference method [ADSI], SetSearchPreference method [ADSI],IDirectorySearch interface, _ds_idirectorysearch_setsearchpreference, adsi.idirectorysearch__setsearchpreference, adsi.idirectorysearch_setsearchpreference, iads/IDirectorySearch::SetSearchPreference
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectorySearch.SetSearchPreference"
+f1_keywords:
+- iads/IDirectorySearch.SetSearchPreference
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
- - Adsldp.dll
- - Adsldpc.dll
+- Activeds.dll
+- Adsldp.dll
+- Adsldpc.dll
 api_name:
- - IDirectorySearch.SetSearchPreference
+- IDirectorySearch.SetSearchPreference
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngGetPrinterData
 title: EngGetPrinterData function (winddi.h)
-
 description: The EngGetPrinterData function retrieves configuration data for the specified printer.
 old-location: display\enggetprinterdata.htm
 tech.root: display
 ms.assetid: aeeda5d8-1447-42e4-b54b-39f657a0a53c
-
 ms.date: 12/05/2018
 ms.keywords: EngGetPrinterData, EngGetPrinterData function [Display Devices], display.enggetprinterdata, gdifncs_63eb49b8-c997-4d78-b4ec-0620afac41e9.xml, winddi/EngGetPrinterData
 ms.topic: function
-f1_keywords: 
- - "winddi/EngGetPrinterData"
+f1_keywords:
+- winddi/EngGetPrinterData
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngGetPrinterData
+- EngGetPrinterData
 targetos: Windows
 req.typenames: 
 req.redist: 

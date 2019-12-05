@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_COMBINE_MODE
 title: D2D1_COMBINE_MODE (d2d1.h)
-
 description: Specifies the different methods by which two geometries can be combined.
 old-location: direct2d\D2D1_COMBINE_MODE.htm
 tech.root: Direct2D
 ms.assetid: 7526379a-5f57-4a9f-b85d-415f131528e2
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_COMBINE_MODE, D2D1_COMBINE_MODE enumeration [Direct2D], D2D1_COMBINE_MODE_EXCLUDE, D2D1_COMBINE_MODE_INTERSECT, D2D1_COMBINE_MODE_UNION, D2D1_COMBINE_MODE_XOR, d2d1/D2D1_COMBINE_MODE, d2d1/D2D1_COMBINE_MODE_EXCLUDE, d2d1/D2D1_COMBINE_MODE_INTERSECT, d2d1/D2D1_COMBINE_MODE_UNION, d2d1/D2D1_COMBINE_MODE_XOR, direct2d.D2D1_COMBINE_MODE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_COMBINE_MODE"
+f1_keywords:
+- d2d1/D2D1_COMBINE_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_COMBINE_MODE
+- D2D1_COMBINE_MODE
 targetos: Windows
 req.typenames: D2D1_COMBINE_MODE
 req.redist: 

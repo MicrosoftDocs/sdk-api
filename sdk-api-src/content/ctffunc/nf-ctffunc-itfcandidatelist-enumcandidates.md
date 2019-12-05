@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfCandidateList.EnumCandidates
 title: ITfCandidateList::EnumCandidates (ctffunc.h)
-
 description: ITfCandidateList::EnumCandidates method
 old-location: tsf\itfcandidatelist_enumcandidates.htm
 tech.root: TSF
 ms.assetid: f63799a1-2284-4da8-933c-f3616c1cb295
-
 ms.date: 12/05/2018
 ms.keywords: EnumCandidates, EnumCandidates method [Text Services Framework], EnumCandidates method [Text Services Framework],ITfCandidateList interface, ITfCandidateList interface [Text Services Framework],EnumCandidates method, ITfCandidateList.EnumCandidates, ITfCandidateList::EnumCandidates, _tsf_itfcandidatelist_enumcandidates_ref, ctffunc/ITfCandidateList::EnumCandidates, tsf.itfcandidatelist_enumcandidates
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfCandidateList.EnumCandidates"
+f1_keywords:
+- ctffunc/ITfCandidateList.EnumCandidates
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tiptsf.dll
+- Tiptsf.dll
 api_name:
- - ITfCandidateList.EnumCandidates
+- ITfCandidateList.EnumCandidates
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

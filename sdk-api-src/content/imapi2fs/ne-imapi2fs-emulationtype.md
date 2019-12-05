@@ -1,19 +1,17 @@
 ---
 UID: NE:imapi2fs.EmulationType
 title: EmulationType (imapi2fs.h)
-
 description: Defines values for media types that the boot image is intended to emulate.
 old-location: imapi\emulationtype.htm
 tech.root: imapi
 ms.assetid: 53e87d6d-9547-4437-9548-652cfcbd308e
-
 ms.date: 12/05/2018
 ms.keywords: Emulation12MFloppy, Emulation144MFloppy, Emulation288MFloppy, EmulationHardDisk, EmulationNone, EmulationType, EmulationType enumeration [IMAPI], imapi.emulationtype, imapi2fs/Emulation12MFloppy, imapi2fs/Emulation144MFloppy, imapi2fs/Emulation288MFloppy, imapi2fs/EmulationHardDisk, imapi2fs/EmulationNone, imapi2fs/EmulationType
 ms.topic: enum
-f1_keywords: 
- - "imapi2fs/EmulationType"
+f1_keywords:
+- imapi2fs/EmulationType
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - EmulationType
+- EmulationType
 targetos: Windows
 req.typenames: EmulationType
 req.redist: 

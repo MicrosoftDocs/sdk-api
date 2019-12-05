@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineExtension.EndCreateObject
 title: IMFMediaEngineExtension::EndCreateObject (mfmediaengine.h)
-
 description: Completes an asynchronous request to create a byte stream or media source.
 old-location: mf\imfmediaengineextension_endcreateobject.htm
 tech.root: medfound
 ms.assetid: F2B19870-7529-4C8C-9FE6-B312F6A2D2ED
-
 ms.date: 12/05/2018
 ms.keywords: EndCreateObject, EndCreateObject method [Media Foundation], EndCreateObject method [Media Foundation],IMFMediaEngineExtension interface, IMFMediaEngineExtension interface [Media Foundation],EndCreateObject method, IMFMediaEngineExtension.EndCreateObject, IMFMediaEngineExtension::EndCreateObject, mf.imfmediaengineextension_endcreateobject, mfmediaengine/IMFMediaEngineExtension::EndCreateObject
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngineExtension.EndCreateObject"
+f1_keywords:
+- mfmediaengine/IMFMediaEngineExtension.EndCreateObject
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngineExtension.EndCreateObject
+- IMFMediaEngineExtension.EndCreateObject
 targetos: Windows
 req.typenames: 
 req.redist: 

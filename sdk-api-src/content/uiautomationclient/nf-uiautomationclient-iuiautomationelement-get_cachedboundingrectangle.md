@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedBoundingRectangle
 title: IUIAutomationElement::get_CachedBoundingRectangle (uiautomationclient.h)
-
 description: Retrieves the cached coordinates of the rectangle that completely encloses the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedBoundingRectangle.htm
 tech.root: WinAuto
 ms.assetid: 31e171e1-b688-45ab-8bc3-971d9f61db3c
-
 ms.date: 12/05/2018
 ms.keywords: CachedBoundingRectangle property [Windows Accessibility], CachedBoundingRectangle property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedBoundingRectangle property, IUIAutomationElement.CachedBoundingRectangle, IUIAutomationElement.get_CachedBoundingRectangle, IUIAutomationElement::CachedBoundingRectangle, IUIAutomationElement::get_CachedBoundingRectangle, get_CachedBoundingRectangle, uiauto.uiauto_IUIAutomationElement_CachedBoundingRectangle, uiauto_IUIAutomationElement_CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::CachedBoundingRectangle, uiautomationclient/IUIAutomationElement::get_CachedBoundingRectangle, winauto.uiauto_IUIAutomationElement_CachedBoundingRectangle
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedBoundingRectangle"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedBoundingRectangle
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedBoundingRectangle
- - IUIAutomationElement.get_CachedBoundingRectangle
+- IUIAutomationElement.CachedBoundingRectangle
+- IUIAutomationElement.get_CachedBoundingRectangle
 targetos: Windows
 req.typenames: 
 req.redist: 

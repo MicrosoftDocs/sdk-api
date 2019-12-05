@@ -1,19 +1,17 @@
 ---
 UID: NF:efswrtinterop.IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
 title: IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync (efswrtinterop.h)
-
 description: Request access to enterprise-protected content for a specific target app.
 old-location: edp\iprotectionpolicymanagerinterop2_requestaccessforappwithwindowasync.htm
 tech.root: EDP
 ms.assetid: 41F0047C-6442-4157-B710-E0DAF61DE44A
-
 ms.date: 12/05/2018
 ms.keywords: EDP.iprotectionpolicymanagerinterop2_requestaccessforappwithwindowasync, IProtectionPolicyManagerInterop2 interface,RequestAccessForAppWithWindowAsync method, IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync, IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync, RequestAccessForAppWithWindowAsync, RequestAccessForAppWithWindowAsync method, RequestAccessForAppWithWindowAsync method,IProtectionPolicyManagerInterop2 interface, efswrtinterop/IProtectionPolicyManagerInterop2::RequestAccessForAppWithWindowAsync
 ms.topic: method
-f1_keywords: 
- - "efswrtinterop/IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync"
+f1_keywords:
+- efswrtinterop/IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
 dev_langs:
- - c++
+- c++
 req.header: efswrtinterop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Efswrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - efswrt.dll
+- efswrt.dll
 api_name:
- - IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
+- IProtectionPolicyManagerInterop2.RequestAccessForAppWithWindowAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:textstor.TS_TEXTCHANGE
 title: TS_TEXTCHANGE (textstor.h)
-
 description: The TS_TEXTCHANGE structure contains text change data.
 old-location: tsf\ts_textchange.htm
 tech.root: TSF
 ms.assetid: af7dfc32-ae2d-4f04-a73b-8a9e2ea1a1c0
-
 ms.date: 12/05/2018
 ms.keywords: TS_TEXTCHANGE, TS_TEXTCHANGE structure [Text Services Framework], _tsf_ts_textchange_ref, textstor/TS_TEXTCHANGE, tsf.ts_textchange
 ms.topic: struct
-f1_keywords: 
- - "textstor/TS_TEXTCHANGE"
+f1_keywords:
+- textstor/TS_TEXTCHANGE
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TS_TEXTCHANGE
+- TS_TEXTCHANGE
 targetos: Windows
 req.typenames: TS_TEXTCHANGE
 req.redist: TSF 1.0 on Windows 2000 Professional

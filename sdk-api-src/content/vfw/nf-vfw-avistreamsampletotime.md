@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIStreamSampleToTime
 title: AVIStreamSampleToTime function (vfw.h)
-
 description: The AVIStreamSampleToTime function converts a stream position from samples to milliseconds.
 old-location: multimedia\avistreamsampletotime.htm
 tech.root: Multimedia
 ms.assetid: 376819cb-f803-4610-a9e8-29dc7059f203
-
 ms.date: 12/05/2018
 ms.keywords: AVIStreamSampleToTime, AVIStreamSampleToTime function [Windows Multimedia], _win32_AVIStreamSampleToTime, multimedia.avistreamsampletotime, vfw/AVIStreamSampleToTime
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIStreamSampleToTime"
+f1_keywords:
+- vfw/AVIStreamSampleToTime
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
+- Avifil32.dll
 api_name:
- - AVIStreamSampleToTime
+- AVIStreamSampleToTime
 targetos: Windows
 req.typenames: 
 req.redist: 

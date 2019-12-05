@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.SetResolution
 title: IWICBitmapFrameEncode::SetResolution (wincodec.h)
-
 description: Sets the physical resolution of the output image.
 old-location: wic\_wic_codec_iwicbitmapframeencode_setresolution.htm
 tech.root: wic
 ms.assetid: 0b9e564a-5278-41d7-84ab-8b7594e776c7
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],SetResolution method, IWICBitmapFrameEncode.SetResolution, IWICBitmapFrameEncode::SetResolution, SetResolution, SetResolution method [Windows Imaging Component], SetResolution method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_setresolution, wic._wic_codec_iwicbitmapframeencode_setresolution, wincodec/IWICBitmapFrameEncode::SetResolution
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.SetResolution"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.SetResolution
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.SetResolution
+- IWICBitmapFrameEncode.SetResolution
 targetos: Windows
 req.typenames: 
 req.redist: 

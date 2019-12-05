@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.ITaskService.Connect
 title: ITaskService::Connect (taskschd.h)
-
 description: Connects to a remote computer and associates all subsequent calls on this interface with a remote session.
 old-location: taskschd\itaskservice_connect.htm
 tech.root: taskschd
 ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46
-
 ms.date: 12/05/2018
 ms.keywords: Connect, Connect method [Task Scheduler], Connect method [Task Scheduler],ITaskService interface, ITaskService interface [Task Scheduler],Connect method, ITaskService.Connect, ITaskService::Connect, taskschd.itaskservice_connect, taskschd/ITaskService::Connect
 ms.topic: method
-f1_keywords: 
- - "taskschd/ITaskService.Connect"
+f1_keywords:
+- taskschd/ITaskService.Connect
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskService.Connect
+- ITaskService.Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

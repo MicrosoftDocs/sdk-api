@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetTypeInfo
 title: SymGetTypeInfo function (dbghelp.h)
-
 description: Retrieves type information for the specified type index.
 old-location: base\symgettypeinfo.htm
 tech.root: Debug
 ms.assetid: bc94a5b1-d49d-425a-89a8-c584c3979930
-
 ms.date: 12/05/2018
 ms.keywords: SymGetTypeInfo, SymGetTypeInfo function, _win32_symgettypeinfo, base.symgettypeinfo, dbghelp/SymGetTypeInfo
 ms.topic: function
 f1_keywords:
 - dbghelp/SymGetTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows

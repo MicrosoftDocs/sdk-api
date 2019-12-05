@@ -1,19 +1,17 @@
 ---
 UID: NF:dpa_dsa.DPA_DeleteAllPtrs
 title: DPA_DeleteAllPtrs function (dpa_dsa.h)
-
 description: Removes all items from a dynamic pointer array (DPA) and shrinks the DPA accordingly.
 old-location: controls\DPA_DeleteAllPtrs.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_deleteallptrs.htm
-
 ms.date: 12/05/2018
 ms.keywords: DPA_DeleteAllPtrs, DPA_DeleteAllPtrs function [Windows Controls], _win32_DPA_DeleteAllPtrs, _win32_DPA_DeleteAllPtrs_cpp, controls.DPA_DeleteAllPtrs, controls._win32_DPA_DeleteAllPtrs, dpa_dsa/DPA_DeleteAllPtrs
 ms.topic: function
-f1_keywords: 
- - "dpa_dsa/DPA_DeleteAllPtrs"
+f1_keywords:
+- dpa_dsa/DPA_DeleteAllPtrs
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Comctl32.lib
 req.dll: ComCtl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComCtl32.dll
+- ComCtl32.dll
 api_name:
- - DPA_DeleteAllPtrs
+- DPA_DeleteAllPtrs
 targetos: Windows
 req.typenames: 
 req.redist: 

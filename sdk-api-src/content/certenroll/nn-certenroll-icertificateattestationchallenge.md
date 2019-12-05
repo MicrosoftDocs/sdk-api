@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.ICertificateAttestationChallenge
 title: ICertificateAttestationChallenge (certenroll.h)
-
 description: Allows applications to decrypt a key attestation challenge received from a server.
 old-location: security\icertificateattestationchallenge.htm
 tech.root: seccertenroll
 ms.assetid: 3b8d3104-5824-4801-9b74-59307e650662
-
 ms.date: 12/05/2018
 ms.keywords: ICertificateAttestationChallenge, ICertificateAttestationChallenge interface [Security], ICertificateAttestationChallenge interface [Security],described, certenroll/ICertificateAttestationChallenge, security.icertificateattestationchallenge
 ms.topic: interface
-f1_keywords: 
- - "certenroll/ICertificateAttestationChallenge"
+f1_keywords:
+- certenroll/ICertificateAttestationChallenge
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.dll
+- Certenroll.dll
 api_name:
- - ICertificateAttestationChallenge
+- ICertificateAttestationChallenge
 targetos: Windows
 req.typenames: 
 req.redist: 

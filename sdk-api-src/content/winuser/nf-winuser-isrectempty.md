@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsRectEmpty
 title: IsRectEmpty function (winuser.h)
-
 description: The IsRectEmpty function determines whether the specified rectangle is empty.
 old-location: gdi\isrectempty.htm
 tech.root: gdi
 ms.assetid: 9deeed4f-304e-47a3-8259-ed7bc3815fd7
-
 ms.date: 12/05/2018
 ms.keywords: IsRectEmpty, IsRectEmpty function [Windows GDI], _win32_IsRectEmpty, gdi.isrectempty, winuser/IsRectEmpty
 ms.topic: function
-f1_keywords: 
- - "winuser/IsRectEmpty"
+f1_keywords:
+- winuser/IsRectEmpty
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - IsRectEmpty
+- IsRectEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

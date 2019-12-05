@@ -1,19 +1,17 @@
 ---
 UID: NF:winscard.SCardListCardsW
 title: SCardListCardsW function (winscard.h)
-
 description: Searches the smart card database and provides a list of named cards previously introduced to the system by the user.
 old-location: security\scardlistcards.htm
 tech.root: SecAuthN
 ms.assetid: b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1
-
 ms.date: 12/05/2018
 ms.keywords: SCardListCards, SCardListCards function [Security], SCardListCardsA, SCardListCardsW, _smart_scardlistcards, security.scardlistcards, winscard/SCardListCards, winscard/SCardListCardsA, winscard/SCardListCardsW
 ms.topic: function
-f1_keywords: 
- - "winscard/SCardListCards"
+f1_keywords:
+- winscard/SCardListCards
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winscard.lib
 req.dll: Winscard.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winscard.dll
- - Ext-MS-Win-wlan-scard-l1-1-0.dll
- - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
+- Winscard.dll
+- Ext-MS-Win-wlan-scard-l1-1-0.dll
+- Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardListCards
- - SCardListCardsA
- - SCardListCardsW
+- SCardListCards
+- SCardListCardsA
+- SCardListCardsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:bdaiface.BDA_DrmPairingError
 title: BDA_DrmPairingError (bdaiface.h)
-
 description: Specifies the status of a DRM handshake between a tuner and the user's computer.
 old-location: mstv\bda_drmpairingerror.htm
 tech.root: mstv
 ms.assetid: d1b100e5-497e-4cb1-9cb8-38424c9eecf8
-
 ms.date: 12/05/2018
 ms.keywords: BDA_DrmPairingError, BDA_DrmPairingError enumeration [Microsoft TV Technologies], BDA_DrmPairing_DrmInitFailed, BDA_DrmPairing_DrmNotPaired, BDA_DrmPairing_DrmRePairSoon, BDA_DrmPairing_HardwareFailure, BDA_DrmPairing_NeedIndiv, BDA_DrmPairing_NeedRevocationData, BDA_DrmPairing_Other, BDA_DrmPairing_Succeeded, bdaiface/BDA_DrmPairingError, bdaiface/BDA_DrmPairing_DrmInitFailed, bdaiface/BDA_DrmPairing_DrmNotPaired, bdaiface/BDA_DrmPairing_DrmRePairSoon, bdaiface/BDA_DrmPairing_HardwareFailure, bdaiface/BDA_DrmPairing_NeedIndiv, bdaiface/BDA_DrmPairing_NeedRevocationData, bdaiface/BDA_DrmPairing_Other, bdaiface/BDA_DrmPairing_Succeeded, mstv.bda_drmpairingerror
 ms.topic: enum
-f1_keywords: 
- - "bdaiface/BDA_DrmPairingError"
+f1_keywords:
+- bdaiface/BDA_DrmPairingError
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - BDA_DrmPairingError
+- BDA_DrmPairingError
 targetos: Windows
 req.typenames: BDA_DrmPairingError
 req.redist: 

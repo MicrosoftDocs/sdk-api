@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfRange
 title: ITfRange (msctf.h)
-
 description: The ITfRange interface is used by text services and applications to reference and manipulate text within a given context. The interface ID is IID_ITfRange.
 old-location: tsf\itfrange.htm
 tech.root: TSF
 ms.assetid: b8889f7d-3228-4ecc-8d24-c04234d3101e
-
 ms.date: 12/05/2018
 ms.keywords: ITfRange, ITfRange interface [Text Services Framework], ITfRange interface [Text Services Framework],described, _tsf_itfrange_ref, msctf/ITfRange, tsf.itfrange
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfRange"
+f1_keywords:
+- msctf/ITfRange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfRange
+- ITfRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

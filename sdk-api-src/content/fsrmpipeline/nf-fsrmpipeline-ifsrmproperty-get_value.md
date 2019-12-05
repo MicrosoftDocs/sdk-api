@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmProperty.get_Value
 title: IFsrmProperty::get_Value (fsrmpipeline.h)
-
 description: The value of the property.
 old-location: fsrm\ifsrmproperty_value.htm
 tech.root: fsrm
 ms.assetid: dc49c1d4-9f37-48f0-9e0b-9fd79a106301
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmProperty interface [File Server Resource Manager],Value property, IFsrmProperty.Value, IFsrmProperty.get_Value, IFsrmProperty::Value, IFsrmProperty::get_Value, Value property [File Server Resource Manager], Value property [File Server Resource Manager],IFsrmProperty interface, fs.ifsrmproperty_value, fsrm.ifsrmproperty_value, fsrmpipeline/IFsrmProperty::Value, fsrmpipeline/IFsrmProperty::get_Value, get_Value
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmProperty.Value"
+f1_keywords:
+- fsrmpipeline/IFsrmProperty.Value
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmProperty.Value
- - IFsrmProperty.get_Value
+- IFsrmProperty.Value
+- IFsrmProperty.get_Value
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10.D3D10_COUNTER_DESC
 title: D3D10_COUNTER_DESC (d3d10.h)
-
 description: Describes a counter.
 old-location: direct3d10\d3d10_counter_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_counter_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: 5a8f3ccd-0cb9-a3e0-7e55-eb5c1dfe5252, D3D10_COUNTER_DESC, D3D10_COUNTER_DESC structure [Direct3D 10], d3d10/D3D10_COUNTER_DESC, direct3d10.d3d10_counter_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d10/D3D10_COUNTER_DESC"
+f1_keywords:
+- d3d10/D3D10_COUNTER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D10.h
+- D3D10.h
 api_name:
- - D3D10_COUNTER_DESC
+- D3D10_COUNTER_DESC
 targetos: Windows
 req.typenames: D3D10_COUNTER_DESC
 req.redist: 

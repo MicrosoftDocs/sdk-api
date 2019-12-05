@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetCandidate
 title: IInkLineInfo::GetCandidate (msinkaut.h)
-
 description: Returns one recognition alternate from the recognition result list.
 old-location: tablet\iinklineinfo_getcandidate.htm
 tech.root: tablet
 ms.assetid: 59005f51-7052-4aef-915d-4c939eecec99
-
 ms.date: 12/05/2018
 ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetCandidate method, IInkLineInfo.GetCandidate, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkLineInfo.GetCandidate"
+f1_keywords:
+- msinkaut/IInkLineInfo.GetCandidate
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkLineInfo.GetCandidate
+- IInkLineInfo.GetCandidate
 targetos: Windows
 req.typenames: 
 req.redist: 

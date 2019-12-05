@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.get_updateProgress
 title: IWMPFolderMonitorServices::get_updateProgress (wmp.h)
-
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The get_updateProgress method retrieves the update progress as percent complete.
 old-location: wmp\iwmpfoldermonitorservices_get_updateprogress.htm
 tech.root: WMP
 ms.assetid: 60a612d2-8675-456f-b428-ddfd0b73fd83
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],get_updateProgress method, IWMPFolderMonitorServices.get_updateProgress, IWMPFolderMonitorServices::get_updateProgress, IWMPFolderMonitorServicesget_updateProgress, get_updateProgress, get_updateProgress method [Windows Media Player], get_updateProgress method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_get_updateprogress, wmp/IWMPFolderMonitorServices::get_updateProgress
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices.get_updateProgress"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices.get_updateProgress
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPFolderMonitorServices.get_updateProgress
+- IWMPFolderMonitorServices.get_updateProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

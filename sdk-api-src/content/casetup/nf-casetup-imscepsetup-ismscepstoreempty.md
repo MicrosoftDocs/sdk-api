@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.IMSCEPSetup.IsMSCEPStoreEmpty
 title: IMSCEPSetup::IsMSCEPStoreEmpty (casetup.h)
-
 description: Always returns VARIANT_TRUE. It should not be used.
 old-location: security\imscepsetup_ismscepstoreempty.htm
 tech.root: SecCrypto
 ms.assetid: 90ce2ea5-e531-4787-954a-cd4d09ba753e
-
 ms.date: 12/05/2018
 ms.keywords: IMSCEPSetup interface [Security],IsMSCEPStoreEmpty method, IMSCEPSetup.IsMSCEPStoreEmpty, IMSCEPSetup::IsMSCEPStoreEmpty, IsMSCEPStoreEmpty, IsMSCEPStoreEmpty method [Security], IsMSCEPStoreEmpty method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::IsMSCEPStoreEmpty, security.imscepsetup_ismscepstoreempty
 ms.topic: method
-f1_keywords: 
- - "casetup/IMSCEPSetup.IsMSCEPStoreEmpty"
+f1_keywords:
+- casetup/IMSCEPSetup.IsMSCEPStoreEmpty
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - IMSCEPSetup.IsMSCEPStoreEmpty
+- IMSCEPSetup.IsMSCEPStoreEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

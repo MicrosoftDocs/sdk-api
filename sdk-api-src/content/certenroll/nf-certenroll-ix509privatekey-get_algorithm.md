@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.get_Algorithm
 title: IX509PrivateKey::get_Algorithm (certenroll.h)
-
 description: Specifies or retrieves an object identifier (OID) for the public key algorithm.
 old-location: security\ix509privatekey_algorithm.htm
 tech.root: seccertenroll
 ms.assetid: 40d2eae1-733a-4e5b-bb15-71301d73f438
-
 ms.date: 12/05/2018
 ms.keywords: Algorithm property [Security], Algorithm property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],Algorithm property, IX509PrivateKey.Algorithm, IX509PrivateKey.get_Algorithm, IX509PrivateKey::Algorithm, IX509PrivateKey::get_Algorithm, IX509PrivateKey::put_Algorithm, certenroll/IX509PrivateKey::Algorithm, certenroll/IX509PrivateKey::get_Algorithm, certenroll/IX509PrivateKey::put_Algorithm, get_Algorithm, security.ix509privatekey_algorithm
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509PrivateKey.Algorithm"
+f1_keywords:
+- certenroll/IX509PrivateKey.Algorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509PrivateKey.Algorithm
- - IX509PrivateKey.get_Algorithm
- - IX509PrivateKey.put_Algorithm
+- IX509PrivateKey.Algorithm
+- IX509PrivateKey.get_Algorithm
+- IX509PrivateKey.put_Algorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

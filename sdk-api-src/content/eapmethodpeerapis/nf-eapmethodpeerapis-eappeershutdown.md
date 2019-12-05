@@ -1,19 +1,17 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerShutdown
 title: EapPeerShutdown function (eapmethodpeerapis.h)
-
 description: Shuts down the EAP method and prepares to unload its corresponding DLL.
 old-location: eaphost\eappeershutdown.htm
 tech.root: eaphost
 ms.assetid: 7d08a349-fdfc-40bc-97f4-4429ff6ade7e
-
 ms.date: 12/05/2018
 ms.keywords: EapPeerShutdown, EapPeerShutdown function [EAPHost], eaphost.eappeershutdown, eapmethodpeerapis/EapPeerShutdown
 ms.topic: function
 f1_keywords:
 - eapmethodpeerapis/EapPeerShutdown
 dev_langs:
- - c++
+- c++
 req.header: eapmethodpeerapis.h
 req.include-header: 
 req.target-type: Windows

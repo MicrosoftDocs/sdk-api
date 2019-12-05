@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransition (uianimation.h)
-
 description: Creates a linear vector transition in the specified dimension.
 old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortransition.htm
 tech.root: UIAnimation
 ms.assetid: 71A009AB-FBF3-4624-9B78-45C42B0CEE62
-
 ms.date: 12/05/2018
 ms.keywords: CreateLinearVectorTransition, CreateLinearVectorTransition method [Windows Animation], CreateLinearVectorTransition method [Windows Animation],IUIAnimationTransitionLibrary2 interface, IUIAnimationTransitionLibrary2 interface [Windows Animation],CreateLinearVectorTransition method, IUIAnimationTransitionLibrary2.CreateLinearVectorTransition, IUIAnimationTransitionLibrary2::CreateLinearVectorTransition, uianimation.iuianimationtransitionlibrary2_createlinearvectortransition, uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransition
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransitionLibrary2.CreateLinearVectorTransition"
+f1_keywords:
+- uianimation/IUIAnimationTransitionLibrary2.CreateLinearVectorTransition
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2.CreateLinearVectorTransition
+- IUIAnimationTransitionLibrary2.CreateLinearVectorTransition
 targetos: Windows
 req.typenames: 
 req.redist: 

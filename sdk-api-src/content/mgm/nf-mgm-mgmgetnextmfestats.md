@@ -1,19 +1,17 @@
 ---
 UID: NF:mgm.MgmGetNextMfeStats
 title: MgmGetNextMfeStats function (mgm.h)
-
 description: The MgmGetNextMfeStats function retrieves one or more sets of MFE statistics.
 old-location: rras\mgmgetnextmfestats.htm
 tech.root: RRAS
 ms.assetid: af8dd38e-e66f-459a-a07c-c298154901f6
-
 ms.date: 12/05/2018
 ms.keywords: MGM_MFE_STATS_0, MGM_MFE_STATS_1, MgmGetNextMfeStats, MgmGetNextMfeStats function [RAS], _mpr_mgmgetnextmfestats, mgm/MgmGetNextMfeStats, rras.mgmgetnextmfestats
 ms.topic: function
 f1_keywords:
 - mgm/MgmGetNextMfeStats
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows

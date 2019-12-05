@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagUPDATELAYEREDWINDOWINFO
 title: UPDATELAYEREDWINDOWINFO (winuser.h)
-
 description: Used by UpdateLayeredWindowIndirect to provide position, size, shape, content, and translucency information for a layered window.
 old-location: winmsg\updatelayeredwindowinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\updatelayeredwindowinfo.htm
-
 ms.date: 12/05/2018
 ms.keywords: '*PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO, PUPDATELAYEREDWINDOWINFO structure pointer [Windows and Messages], ULW_ALPHA, ULW_COLORKEY, ULW_EX_NORESIZE, ULW_OPAQUE, UPDATELAYEREDWINDOWINFO, UPDATELAYEREDWINDOWINFO structure [Windows and Messages], _win32_UPDATELAYEREDWINDOWINFO, _win32_updatelayeredwindowinfo_cpp, winmsg.updatelayeredwindowinfo, winui._win32_updatelayeredwindowinfo, winuser/PUPDATELAYEREDWINDOWINFO, winuser/UPDATELAYEREDWINDOWINFO'
 ms.topic: struct
 f1_keywords:
 - winuser/UPDATELAYEREDWINDOWINFO
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

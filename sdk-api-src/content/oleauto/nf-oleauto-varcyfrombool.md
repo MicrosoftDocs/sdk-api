@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyFromBool
 title: VarCyFromBool function (oleauto.h)
-
 description: Converts a Boolean value to a currency value.
 old-location: automat\varcyfrombool.htm
 tech.root: automat
 ms.assetid: e611022e-966f-4f9a-9870-ee4ab8d1144c
-
 ms.date: 12/05/2018
 ms.keywords: VarCyFromBool, VarCyFromBool function [Automation], _oa96_VarCyFromBool, automat.varcyfrombool, oleauto/VarCyFromBool
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyFromBool"
+f1_keywords:
+- oleauto/VarCyFromBool
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyFromBool
+- VarCyFromBool
 targetos: Windows
 req.typenames: 
 req.redist: 

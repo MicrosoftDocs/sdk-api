@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupBackupErrorA
 title: SetupBackupErrorA function (setupapi.h)
-
 description: The SetupBackupError function generates a dialog box that informs the user of a backup error.
 old-location: setup\setupbackuperror.htm
 tech.root: SetupApi
 ms.assetid: 4c2a8a63-29e7-4750-9239-6693754dff58
-
 ms.date: 12/05/2018
 ms.keywords: SetupBackupError, SetupBackupError function [Setup API], SetupBackupErrorA, SetupBackupErrorW, _setupapi_setupbackuperror, setup.setupbackuperror, setupapi/SetupBackupError, setupapi/SetupBackupErrorA, setupapi/SetupBackupErrorW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupBackupError"
+f1_keywords:
+- setupapi/SetupBackupError
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupBackupError
- - SetupBackupErrorA
- - SetupBackupErrorW
+- SetupBackupError
+- SetupBackupErrorA
+- SetupBackupErrorW
 targetos: Windows
 req.typenames: 
 req.redist: 

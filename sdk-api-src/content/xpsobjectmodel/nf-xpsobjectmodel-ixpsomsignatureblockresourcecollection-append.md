@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.Append
 title: IXpsOMSignatureBlockResourceCollection::Append (xpsobjectmodel.h)
-
 description: Appends an IXpsOMSignatureBlockResource interface to the end of the collection.
 old-location: xps\ixpsomsignatureblockresourcecollection_append.htm
 tech.root: printdocs
 ms.assetid: 4643df46-aa6f-4ffb-90f1-8834e16b4321
-
 ms.date: 12/05/2018
 ms.keywords: Append, Append method [XPS Documents and Packaging], Append method [XPS Documents and Packaging],IXpsOMSignatureBlockResourceCollection interface, IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging],Append method, IXpsOMSignatureBlockResourceCollection.Append, IXpsOMSignatureBlockResourceCollection::Append, xps.ixpsomsignatureblockresourcecollection_append, xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::Append
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.Append"
+f1_keywords:
+- xpsobjectmodel/IXpsOMSignatureBlockResourceCollection.Append
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResourceCollection.Append
+- IXpsOMSignatureBlockResourceCollection.Append
 targetos: Windows
 req.typenames: 
 req.redist: 

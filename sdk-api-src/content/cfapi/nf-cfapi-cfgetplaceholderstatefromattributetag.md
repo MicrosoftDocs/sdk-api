@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderStateFromAttributeTag
 title: CfGetPlaceholderStateFromAttributeTag function (cfapi.h)
-
 description: Gets a set of placeholder states based on the FileAttributes and ReparseTag values of the file.
 old-location: cloudapi\cfgetplaceholderstatefromattributetag.htm
 tech.root: cfApi
 ms.assetid: D7B4FB60-3388-489F-9F55-153B53BBDA9F
-
 ms.date: 12/05/2018
 ms.keywords: CfGetPlaceholderStateFromAttributeTag, CfGetPlaceholderStateFromAttributeTag function, cfapi/CfGetPlaceholderStateFromAttributeTag, cloudApi.cfgetplaceholderstatefromattributetag
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfGetPlaceholderStateFromAttributeTag"
+f1_keywords:
+- cfapi/CfGetPlaceholderStateFromAttributeTag
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfGetPlaceholderStateFromAttributeTag
+- CfGetPlaceholderStateFromAttributeTag
 targetos: Windows
 req.typenames: 
 req.redist: 

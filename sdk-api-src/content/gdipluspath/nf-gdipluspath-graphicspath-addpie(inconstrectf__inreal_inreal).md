@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddPie(IN const RectF &,IN REAL,IN REAL)
 title: GraphicsPath::AddPie
 description: The GraphicsPath::AddPie method adds a pie to this path.
 ms.assetid: 6c8aeb29-caa6-4bfc-85bd-c873f8b93837
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddPie
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddPie"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddPie
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddPie
+- GraphicsPath::AddPie
 ---
 
 # GraphicsPath::AddPie

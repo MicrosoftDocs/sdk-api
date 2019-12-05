@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.FindIntersections
 title: IInkStrokeDisp::FindIntersections (msinkaut.h)
-
 description: Retrieves the points where this IInkStrokeDisp object intersects other IInkStrokeDisp objects within a known InkStrokes collection.
 old-location: tablet\iinkstrokedisp_findintersections.htm
 tech.root: tablet
 ms.assetid: a070fc87-608c-47be-b9b2-e2a41a31226f
-
 ms.date: 12/05/2018
 ms.keywords: FindIntersections, FindIntersections method [Tablet PC], FindIntersections method [Tablet PC],IInkStrokeDisp interface, IInkStrokeDisp interface [Tablet PC],FindIntersections method, IInkStrokeDisp.FindIntersections, IInkStrokeDisp::FindIntersections, a070fc87-608c-47be-b9b2-e2a41a31226f, msinkaut/IInkStrokeDisp::FindIntersections, tablet.iinkstrokedisp_findintersections
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkStrokeDisp.FindIntersections"
+f1_keywords:
+- msinkaut/IInkStrokeDisp.FindIntersections
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkStrokeDisp.FindIntersections
+- IInkStrokeDisp.FindIntersections
 targetos: Windows
 req.typenames: 
 req.redist: 

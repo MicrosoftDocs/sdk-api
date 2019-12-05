@@ -1,19 +1,17 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0003
 title: WcmDataType (wcmconfig.h)
-
 description: Enumerates the data types returned from the ISettingsItem::GetDataType method.
 old-location: smi\wcmdatatype.htm
 tech.root: SMI
 ms.assetid: 27cf5831-f515-4864-bd40-a9d64f30c92d
-
 ms.date: 12/05/2018
 ms.keywords: WcmDataType, WcmDataType enumeration [SMI], dataTypeBoolean, dataTypeByte, dataTypeFlagArray, dataTypeInt16, dataTypeInt32, dataTypeInt64, dataTypeSByte, dataTypeString, dataTypeUInt16, dataTypeUInt32, dataTypeUInt64, smi.wcmdatatype, wcmconfig/WcmDataType, wcmconfig/dataTypeBoolean, wcmconfig/dataTypeByte, wcmconfig/dataTypeFlagArray, wcmconfig/dataTypeInt16, wcmconfig/dataTypeInt32, wcmconfig/dataTypeInt64, wcmconfig/dataTypeSByte, wcmconfig/dataTypeString, wcmconfig/dataTypeUInt16, wcmconfig/dataTypeUInt32, wcmconfig/dataTypeUInt64
 ms.topic: enum
-f1_keywords: 
- - "wcmconfig/WcmDataType"
+f1_keywords:
+- wcmconfig/WcmDataType
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WcmConfig.h
+- WcmConfig.h
 api_name:
- - WcmDataType
+- WcmDataType
 targetos: Windows
 req.typenames: WcmDataType
 req.redist: 

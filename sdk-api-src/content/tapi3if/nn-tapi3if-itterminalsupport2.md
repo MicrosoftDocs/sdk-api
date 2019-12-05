@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITTerminalSupport2
 title: ITTerminalSupport2 (tapi3if.h)
-
 description: The ITTerminalSupport2 interface is derived from the ITTerminalSupport interface. ITTerminalSupport2 supports the retrieval of information about pluggable terminal classes and superclasses by C, C++, and scripting applications.
 old-location: tapi3\itterminalsupport2.htm
 tech.root: Tapi
 ms.assetid: 58611991-746c-4626-a1b1-535a2134ee27
-
 ms.date: 12/05/2018
 ms.keywords: ITTerminalSupport2, ITTerminalSupport2 interface [TAPI 2.2], ITTerminalSupport2 interface [TAPI 2.2],described, _tapi3_itterminalsupport2, tapi3.itterminalsupport2, tapi3if/ITTerminalSupport2
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITTerminalSupport2"
+f1_keywords:
+- tapi3if/ITTerminalSupport2
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminalSupport2
+- ITTerminalSupport2
 targetos: Windows
 req.typenames: 
 req.redist: 

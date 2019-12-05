@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_err2string
 title: ldap_err2string function (winldap.h)
-
 description: Converts a numeric LDAP error code into a null-terminated character string that describes the error.
 old-location: ldap\ldap_err2string.htm
 tech.root: ldap
 ms.assetid: ebdccc79-e9c7-4a25-a1ab-01ba2b6f2d59
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_err2string, ldap.ldap__err2string, ldap.ldap_err2string, ldap_err2string, ldap_err2string function [LDAP], ldap_err2stringA, ldap_err2stringW, winldap/ldap_err2string, winldap/ldap_err2stringA, winldap/ldap_err2stringW"
+ms.keywords: _ldap_ldap_err2string, ldap.ldap__err2string, ldap.ldap_err2string, ldap_err2string, ldap_err2string function [LDAP], ldap_err2stringA, ldap_err2stringW, winldap/ldap_err2string, winldap/ldap_err2stringA, winldap/ldap_err2stringW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_err2string"
+f1_keywords:
+- winldap/ldap_err2string
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_err2string
- - ldap_err2stringA
- - ldap_err2stringW
+- ldap_err2string
+- ldap_err2stringA
+- ldap_err2stringW
 targetos: Windows
 req.typenames: 
 req.redist: 

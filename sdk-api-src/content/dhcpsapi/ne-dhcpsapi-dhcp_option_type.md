@@ -1,19 +1,17 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_TYPE
 title: DHCP_OPTION_TYPE (dhcpsapi.h)
-
 description: The DHCP_OPTION_TYPE enumeration defines the set of possible DHCP option types.
 old-location: dhcp\dhcp_option_type.htm
 tech.root: DHCP
 ms.assetid: 2577c0b6-aa84-4176-87b7-ffd304823d76
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION_TYPE, DHCP_OPTION_TYPE, DHCP_OPTION_TYPE enumeration [DHCP], DhcpArrayTypeOption, DhcpUnaryElementTypeOption, LPDHCP_OPTION_TYPE, LPDHCP_OPTION_TYPE enumeration pointer [DHCP], dhcp.dhcp_option_type, dhcpsapi/DHCP_OPTION_TYPE, dhcpsapi/DhcpArrayTypeOption, dhcpsapi/DhcpUnaryElementTypeOption, dhcpsapi/LPDHCP_OPTION_TYPE'
 ms.topic: enum
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

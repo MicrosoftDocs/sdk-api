@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IStreamConcatenate
 title: IStreamConcatenate (imapi2.h)
-
 description: Use this interface to combine several data streams into a single stream.
 old-location: imapi\istreamconcatenate.htm
 tech.root: imapi
 ms.assetid: 48b786ef-a1b6-4dcf-9329-c659f15185e1
-
 ms.date: 12/05/2018
 ms.keywords: IStreamConcatenate, IStreamConcatenate interface [IMAPI], IStreamConcatenate interface [IMAPI],described, imapi.istreamconcatenate, imapi2/IStreamConcatenate
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IStreamConcatenate"
+f1_keywords:
+- imapi2/IStreamConcatenate
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IStreamConcatenate
+- IStreamConcatenate
 targetos: Windows
 req.typenames: 
 req.redist: 

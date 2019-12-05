@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallInfo.ReleaseUserUserInfo
 title: ITCallInfo::ReleaseUserUserInfo (tapi3if.h)
-
 description: The ReleaseUserUserInfo method informs the service provider that the application has processed the user-user information obtained from the ITCallInfo::GetCallInfoBuffer method.
 old-location: tapi3\itcallinfo_releaseuseruserinfo.htm
 tech.root: Tapi
 ms.assetid: 019823a3-e70d-4b0c-b996-07a13f2bd5f3
-
 ms.date: 12/05/2018
 ms.keywords: ITCallInfo interface [TAPI 2.2],ReleaseUserUserInfo method, ITCallInfo.ReleaseUserUserInfo, ITCallInfo::ReleaseUserUserInfo, ReleaseUserUserInfo, ReleaseUserUserInfo method [TAPI 2.2], ReleaseUserUserInfo method [TAPI 2.2],ITCallInfo interface, _tapi3_itcallinfo_releaseuseruserinfo, tapi3.itcallinfo_releaseuseruserinfo, tapi3if/ITCallInfo::ReleaseUserUserInfo
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallInfo.ReleaseUserUserInfo"
+f1_keywords:
+- tapi3if/ITCallInfo.ReleaseUserUserInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallInfo.ReleaseUserUserInfo
+- ITCallInfo.ReleaseUserUserInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:faxcomex.FAX_PROVIDER_STATUS_ENUM
 title: FAX_PROVIDER_STATUS_ENUM (faxcomex.h)
-
 description: The FAX_PROVIDER_STATUS_ENUM enumeration defines the status values for a fax extension (a fax service provider (FSP) or a fax inbound routing extension).
 old-location: fax\_mfax_fax_provider_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ejx.htm
-
 ms.date: 12/05/2018
 ms.keywords: FAX_PROVIDER_STATUS_ENUM, FAX_PROVIDER_STATUS_ENUM enumeration [Fax Service], _mfax_fax_provider_status_enum, fax._mfax_fax_provider_status_enum, faxcomex/FAX_PROVIDER_STATUS_ENUM, faxcomex/fpsBAD_GUID, faxcomex/fpsBAD_VERSION, faxcomex/fpsCANT_INIT, faxcomex/fpsCANT_LINK, faxcomex/fpsCANT_LOAD, faxcomex/fpsSERVER_ERROR, faxcomex/fpsSUCCESS, fpsBAD_GUID, fpsBAD_VERSION, fpsCANT_INIT, fpsCANT_LINK, fpsCANT_LOAD, fpsSERVER_ERROR, fpsSUCCESS
 ms.topic: enum
-f1_keywords: 
- - "faxcomex/FAX_PROVIDER_STATUS_ENUM"
+f1_keywords:
+- faxcomex/FAX_PROVIDER_STATUS_ENUM
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - FaxComex.h
+- FaxComex.h
 api_name:
- - FAX_PROVIDER_STATUS_ENUM
+- FAX_PROVIDER_STATUS_ENUM
 targetos: Windows
 req.typenames: FAX_PROVIDER_STATUS_ENUM
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_KeywordsAll
 title: ITraceDataProvider::get_KeywordsAll (pla.h)
-
 description: Retrieves the list of keywords that restricts the category of events that you want the provider to write.
 old-location: pla\itracedataprovider_keywordsall.htm
 tech.root: PLA
 ms.assetid: 9ff48234-927b-4b87-a9b8-2a1047b5e3de
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],KeywordsAll property, ITraceDataProvider.KeywordsAll, ITraceDataProvider.get_KeywordsAll, ITraceDataProvider::KeywordsAll, ITraceDataProvider::get_KeywordsAll, KeywordsAll property [PLA], KeywordsAll property [PLA],ITraceDataProvider interface, get_KeywordsAll, pla.itracedataprovider_keywordsall, pla/ITraceDataProvider::KeywordsAll, pla/ITraceDataProvider::get_KeywordsAll
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProvider.KeywordsAll"
+f1_keywords:
+- pla/ITraceDataProvider.KeywordsAll
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProvider.KeywordsAll
- - ITraceDataProvider.get_KeywordsAll
+- ITraceDataProvider.KeywordsAll
+- ITraceDataProvider.get_KeywordsAll
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUIFramework.SetModes
 title: IUIFramework::SetModes (uiribbon.h)
-
 description: Specifies the application modes to enable.
 old-location: windowsribbon\windowsribbon_iuiframework_setmodes.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\setmodes.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUIFramework interface [Windows Ribbon],SetModes method, IUIFramework.SetModes, IUIFramework::SetModes, SetModes, SetModes method [Windows Ribbon], SetModes method [Windows Ribbon],IUIFramework interface, scenicintent_IUIFramework_SetModes, uiribbon/IUIFramework::SetModes, windowsribbon.windowsribbon_iuiframework_setmodes
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUIFramework.SetModes"
+f1_keywords:
+- uiribbon/IUIFramework.SetModes
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUIFramework.SetModes
+- IUIFramework.SetModes
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRenderer.InkSpaceToPixel
 title: IInkRenderer::InkSpaceToPixel (msinkaut.h)
-
 description: Converts a location in ink space coordinates to a location in pixel space using a handle for the conversion.
 old-location: tablet\inkrenderer_inkspacetopixel.htm
 tech.root: tablet
 ms.assetid: 9dfdc481-7129-47b1-9c5e-d17a70571ce2
-
 ms.date: 12/05/2018
 ms.keywords: 9dfdc481-7129-47b1-9c5e-d17a70571ce2, IInkRenderer, IInkRenderer interface [Tablet PC],InkSpaceToPixel method, IInkRenderer.InkSpaceToPixel, IInkRenderer::InkSpaceToPixel, InkSpaceToPixel, InkSpaceToPixel method [Tablet PC], InkSpaceToPixel method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::InkSpaceToPixel, tablet.inkrenderer_inkspacetopixel
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRenderer.InkSpaceToPixel"
+f1_keywords:
+- msinkaut/IInkRenderer.InkSpaceToPixel
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRenderer.InkSpaceToPixel
+- IInkRenderer.InkSpaceToPixel
 targetos: Windows
 req.typenames: 
 req.redist: 

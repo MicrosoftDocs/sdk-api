@@ -1,19 +1,17 @@
 ---
 UID: NE:restartmanager._RM_SHUTDOWN_TYPE
 title: RM_SHUTDOWN_TYPE (restartmanager.h)
-
 description: Configures the shut down of applications.
 old-location: rstmgr\rm_shutdown_type.htm
 tech.root: rstmgr
 ms.assetid: e75f60a3-535b-4c1f-85ae-37f4c4c71ede
-
 ms.date: 12/05/2018
 ms.keywords: RM_SHUTDOWN_TYPE, RmForceShutdown, RmShutdownOnlyRegistered, _RM_SHUTDOWN_TYPE, _RM_SHUTDOWN_TYPE enumeration [Restart Mgr], restartmanager/RmForceShutdown, restartmanager/RmShutdownOnlyRegistered, restartmanager/_RM_SHUTDOWN_TYPE, rstmgr.rm_shutdown_type
 ms.topic: enum
-f1_keywords: 
- - "restartmanager/RM_SHUTDOWN_TYPE"
+f1_keywords:
+- restartmanager/RM_SHUTDOWN_TYPE
 dev_langs:
- - c++
+- c++
 req.header: restartmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - RestartManager.h
+- RestartManager.h
 api_name:
- - RM_SHUTDOWN_TYPE
+- RM_SHUTDOWN_TYPE
 targetos: Windows
 req.typenames: RM_SHUTDOWN_TYPE
 req.redist: 

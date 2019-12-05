@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.UpdateSubresource
 title: ID3D10Device::UpdateSubresource (d3d10.h)
-
 description: The CPU copies data from memory to a subresource created in non-mappable memory. See remarks.
 old-location: direct3d10\id3d10device_updatesubresource.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_updatesubresource.htm
-
 ms.date: 12/05/2018
 ms.keywords: 05dfa0e1-63e3-e98a-c07e-e9473eb93d43, ID3D10Device interface [Direct3D 10],UpdateSubresource method, ID3D10Device.UpdateSubresource, ID3D10Device::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 10], UpdateSubresource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::UpdateSubresource, direct3d10.id3d10device_updatesubresource
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.UpdateSubresource"
+f1_keywords:
+- d3d10/ID3D10Device.UpdateSubresource
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.UpdateSubresource
+- ID3D10Device.UpdateSubresource
 targetos: Windows
 req.typenames: 
 req.redist: 

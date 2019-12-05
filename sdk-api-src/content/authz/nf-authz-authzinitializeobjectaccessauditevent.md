@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzInitializeObjectAccessAuditEvent
 title: AuthzInitializeObjectAccessAuditEvent function (authz.h)
-
 description: Initializes auditing for an object.
 old-location: security\authzinitializeobjectaccessauditevent.htm
 tech.root: SecAuthZ
 ms.assetid: cf79a92f-31e0-47cf-8990-4dbd46056a90
-
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_NO_ALLOC_STRINGS, AUTHZ_NO_FAILURE_AUDIT, AUTHZ_NO_SUCCESS_AUDIT, AuthzInitializeObjectAccessAuditEvent, AuthzInitializeObjectAccessAuditEvent function [Security], _win32_authzinitializeobjectaccessauditevent, authz/AuthzInitializeObjectAccessAuditEvent, security.authzinitializeobjectaccessauditevent
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzInitializeObjectAccessAuditEvent"
+f1_keywords:
+- authz/AuthzInitializeObjectAccessAuditEvent
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
+- Authz.dll
 api_name:
- - AuthzInitializeObjectAccessAuditEvent
+- AuthzInitializeObjectAccessAuditEvent
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

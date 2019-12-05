@@ -1,19 +1,17 @@
 ---
 UID: NE:fwpmtypes.FWPM_APPC_NETWORK_CAPABILITY_TYPE_
 title: FWPM_APPC_NETWORK_CAPABILITY_TYPE (fwpmtypes.h)
-
 description: Specifies the type of app container network capability that is associated with the object or traffic in question.
 old-location: fwp\fwpm_appc_network_capability_type.htm
 tech.root: fwp
 ms.assetid: e69ac412-0868-49da-9a87-58a03098839d
-
 ms.date: 12/05/2018
 ms.keywords: FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT, FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT_SERVER, FWPM_APPC_NETWORK_CAPABILITY_INTERNET_PRIVATE_NETWORK, FWPM_APPC_NETWORK_CAPABILITY_TYPE, FWPM_APPC_NETWORK_CAPABILITY_TYPE enumeration [Filtering], fwp.fwpm_appc_network_capability_type, fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT, fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT_SERVER, fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_PRIVATE_NETWORK, fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_TYPE
 ms.topic: enum
-f1_keywords: 
- - "fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_TYPE"
+f1_keywords:
+- fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwpmtypes.h
+- Fwpmtypes.h
 api_name:
- - FWPM_APPC_NETWORK_CAPABILITY_TYPE
+- FWPM_APPC_NETWORK_CAPABILITY_TYPE
 targetos: Windows
 req.typenames: FWPM_APPC_NETWORK_CAPABILITY_TYPE
 req.redist: 

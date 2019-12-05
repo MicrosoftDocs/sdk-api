@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcBindingInqAuthClientEx
 title: RpcBindingInqAuthClientEx function (rpcdce.h)
-
 description: A server application calls the RpcBindingInqAuthClientEx function to obtain extended information about the client program that made the remote procedure call.
 old-location: rpc\rpcbindinginqauthclientex.htm
 tech.root: Rpc
 ms.assetid: 4ee73a2b-8722-44f0-af0d-dedcb27ba224
-
 ms.date: 12/05/2018
 ms.keywords: RPC_C_FULL_CERT_CHAIN, RpcBindingInqAuthClientEx, RpcBindingInqAuthClientEx function [RPC], RpcBindingInqAuthClientExA, RpcBindingInqAuthClientExW, _rpc_rpcbindinginqauthclientex, rpc.rpcbindinginqauthclientex, rpcdce/RpcBindingInqAuthClientEx, rpcdce/RpcBindingInqAuthClientExA, rpcdce/RpcBindingInqAuthClientExW
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcBindingInqAuthClientEx"
+f1_keywords:
+- rpcdce/RpcBindingInqAuthClientEx
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcBindingInqAuthClientEx
- - RpcBindingInqAuthClientExA
- - RpcBindingInqAuthClientExW
+- RpcBindingInqAuthClientEx
+- RpcBindingInqAuthClientExA
+- RpcBindingInqAuthClientExW
 targetos: Windows
 req.typenames: 
 req.redist: 

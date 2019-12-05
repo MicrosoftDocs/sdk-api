@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMVerify
 title: DRMVerify function (msdrm.h)
-
 description: No longer supported and returns E_NOTIMPL.
 old-location: rm\drmverify.htm
 tech.root: AdRms_Sdk
 ms.assetid: aebf46e7-9de2-40e7-a748-0621a61ccb6a
-
 ms.date: 12/05/2018
 ms.keywords: DRMVerify, DRMVerify function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMVerify, rm.drmverify
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMVerify"
+f1_keywords:
+- msdrm/DRMVerify
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMVerify
+- DRMVerify
 targetos: Windows
 req.typenames: 
 req.redist: 

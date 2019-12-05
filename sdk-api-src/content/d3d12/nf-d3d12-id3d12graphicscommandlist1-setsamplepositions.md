@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetSamplePositions
 title: ID3D12GraphicsCommandList1::SetSamplePositions (d3d12.h)
-
 description: This method configures the sample positions used by subsequent draw, copy, resolve, and similar operations.
 old-location: direct3d12\id3d12graphicscommandlist1_setsamplepositions.htm
 tech.root: direct3d12
 ms.assetid: 04627303-20C7-44B1-A62D-45003A13685B
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetSamplePositions method, ID3D12GraphicsCommandList1.SetSamplePositions, ID3D12GraphicsCommandList1::SetSamplePositions, SetSamplePositions, SetSamplePositions method, SetSamplePositions method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetSamplePositions, direct3d12.id3d12graphicscommandlist1_setsamplepositions
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList1.SetSamplePositions"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList1.SetSamplePositions
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList1.SetSamplePositions
+- ID3D12GraphicsCommandList1.SetSamplePositions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:timezoneapi.SystemTimeToTzSpecificLocalTimeEx
 title: SystemTimeToTzSpecificLocalTimeEx function (timezoneapi.h)
-
 description: Converts a time in Coordinated Universal Time (UTC) with dynamic daylight saving time settings to a specified time zone's corresponding local time.
 old-location: base\systemtimetotzspecificlocaltimeex.htm
 tech.root: SysInfo
 ms.assetid: A4483E33-6D74-4194-BF85-51FF55F1BF9A
-
 ms.date: 12/05/2018
 ms.keywords: SystemTimeToTzSpecificLocalTimeEx, SystemTimeToTzSpecificLocalTimeEx function, base.systemtimetotzspecificlocaltimeex, timezoneapi/SystemTimeToTzSpecificLocalTimeEx
 ms.topic: function
-f1_keywords: 
- - "timezoneapi/SystemTimeToTzSpecificLocalTimeEx"
+f1_keywords:
+- timezoneapi/SystemTimeToTzSpecificLocalTimeEx
 dev_langs:
- - c++
+- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-TimeZone-l1-1-0.dll
- - KernelBase.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-TimeZone-l1-1-0.dll
+- KernelBase.dll
+- MinKernelBase.dll
 api_name:
- - SystemTimeToTzSpecificLocalTimeEx
+- SystemTimeToTzSpecificLocalTimeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

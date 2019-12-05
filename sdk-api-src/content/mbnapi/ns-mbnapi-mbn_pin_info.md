@@ -1,19 +1,17 @@
 ---
 UID: NS:mbnapi.MBN_PIN_INFO
 title: MBN_PIN_INFO (mbnapi.h)
-
 description: The MBN_PIN_INFO structure represents the current PIN state of the device.
 old-location: mbn\mbn_pin_info.htm
 tech.root: mbn
 ms.assetid: c70b45ea-c16b-4d0d-946a-f543c827c458
-
 ms.date: 12/05/2018
 ms.keywords: MBN_PIN_INFO, MBN_PIN_INFO structure [Microsoft Broadband Networks], mbn.mbn_pin_info, mbnapi/MBN_PIN_INFO
 ms.topic: struct
-f1_keywords: 
- - "mbnapi/MBN_PIN_INFO"
+f1_keywords:
+- mbnapi/MBN_PIN_INFO
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_PIN_INFO
+- MBN_PIN_INFO
 targetos: Windows
 req.typenames: MBN_PIN_INFO
 req.redist: 

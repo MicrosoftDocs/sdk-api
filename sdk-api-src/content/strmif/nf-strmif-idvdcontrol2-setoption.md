@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.SetOption
 title: IDvdControl2::SetOption (strmif.h)
-
 description: The SetOption method enables or disables an internal behavior flag on the DVD Navigator filter.
 old-location: dshow\idvdcontrol2_setoption.htm
 tech.root: DirectShow
 ms.assetid: b3b28da8-b0cb-4d76-8184-93572e4b6d06
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],SetOption method, IDvdControl2.SetOption, IDvdControl2::SetOption, IDvdControl2SetOption, SetOption, SetOption method [DirectShow], SetOption method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_setoption, strmif/IDvdControl2::SetOption
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.SetOption"
+f1_keywords:
+- strmif/IDvdControl2.SetOption
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.SetOption
+- IDvdControl2.SetOption
 targetos: Windows
 req.typenames: 
 req.redist: 

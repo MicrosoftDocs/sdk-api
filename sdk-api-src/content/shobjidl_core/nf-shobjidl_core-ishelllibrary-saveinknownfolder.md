@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SaveInKnownFolder
 title: IShellLibrary::SaveInKnownFolder (shobjidl_core.h)
-
 description: Saves the library to a new file in a specified known folder.
 old-location: shell\IShellLibrary_SaveInKnownFolder.htm
 tech.root: shell
 ms.assetid: 3a6fa57f-808d-4893-a01c-f192355f8989
-
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],SaveInKnownFolder method, IShellLibrary.SaveInKnownFolder, IShellLibrary::SaveInKnownFolder, SaveInKnownFolder, SaveInKnownFolder method [Windows Shell], SaveInKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_SaveInKnownFolder, shell.IShellLibrary_SaveInKnownFolder, shobjidl_core/IShellLibrary::SaveInKnownFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.SaveInKnownFolder"
+f1_keywords:
+- shobjidl_core/IShellLibrary.SaveInKnownFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.SaveInKnownFolder
+- IShellLibrary.SaveInKnownFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

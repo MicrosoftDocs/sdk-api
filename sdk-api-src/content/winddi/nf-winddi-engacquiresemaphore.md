@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngAcquireSemaphore
 title: EngAcquireSemaphore function (winddi.h)
-
 description: The EngAcquireSemaphore function acquires the resource associated with the semaphore for exclusive access by the calling thread.
 old-location: display\engacquiresemaphore.htm
 tech.root: display
 ms.assetid: da13ff30-7817-4ed4-9791-2d205a260259
-
 ms.date: 12/05/2018
 ms.keywords: EngAcquireSemaphore, EngAcquireSemaphore function [Display Devices], display.engacquiresemaphore, gdifncs_eae93ab5-f0f0-4d4e-a857-50ec8698527b.xml, winddi/EngAcquireSemaphore
 ms.topic: function
-f1_keywords: 
- - "winddi/EngAcquireSemaphore"
+f1_keywords:
+- winddi/EngAcquireSemaphore
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,17 +30,17 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Win32k.sys
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - EngAcquireSemaphore
+- EngAcquireSemaphore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:resourceindexer.DestroyIndexedResults
 title: DestroyIndexedResults function (resourceindexer.h)
-
 description: Frees the parameters that the IndexFilePath method returned.
 old-location: menurc\destroyindexedresults.htm
 tech.root: menurc
 ms.assetid: 0E1D8CC6-B662-4068-A6BA-822E79321C33
-
 ms.date: 12/05/2018
 ms.keywords: DestroyIndexedResults, DestroyIndexedResults function [Menus and Other Resources], menurc.destroyindexedresults, resourceindexer/DestroyIndexedResults
 ms.topic: function
-f1_keywords: 
- - "resourceindexer/DestroyIndexedResults"
+f1_keywords:
+- resourceindexer/DestroyIndexedResults
 dev_langs:
- - c++
+- c++
 req.header: resourceindexer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mrmsupport.lib
 req.dll: Mrmsupport.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mrmsupport.dll
+- mrmsupport.dll
 api_name:
- - DestroyIndexedResults
+- DestroyIndexedResults
 targetos: Windows
 req.typenames: 
 req.redist: 

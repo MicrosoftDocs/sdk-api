@@ -1,19 +1,17 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.SwitchToForeground
 title: IBackgroundCopyGroup::SwitchToForeground (qmgr.h)
-
 description: Use the SwitchToForeground method to download the group in the foreground instead of the background.
 old-location: bits\ibackgroundcopygroup_switchtoforeground.htm
 tech.root: Bits
 ms.assetid: 19619a97-b4f2-4609-9b06-bb188e00860c
-
 ms.date: 12/05/2018
 ms.keywords: IBackgroundCopyGroup interface [BITS],SwitchToForeground method, IBackgroundCopyGroup.SwitchToForeground, IBackgroundCopyGroup::SwitchToForeground, SwitchToForeground, SwitchToForeground method [BITS], SwitchToForeground method [BITS],IBackgroundCopyGroup interface, bits.ibackgroundcopygroup_switchtoforeground, qmgr/IBackgroundCopyGroup::SwitchToForeground
 ms.topic: method
-f1_keywords: 
- - "qmgr/IBackgroundCopyGroup.SwitchToForeground"
+f1_keywords:
+- qmgr/IBackgroundCopyGroup.SwitchToForeground
 dev_langs:
- - c++
+- c++
 req.header: qmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup.SwitchToForeground
+- IBackgroundCopyGroup.SwitchToForeground
 targetos: Windows
 req.typenames: 
 req.redist: 

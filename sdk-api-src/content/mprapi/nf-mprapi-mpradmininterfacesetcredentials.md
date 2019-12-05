@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceSetCredentials
 title: MprAdminInterfaceSetCredentials function (mprapi.h)
-
 description: Use MprAdminInterfaceSetCredentials function to set the domain, user name, and password that will be used for dialing out on the specified demand-dial interface.
 old-location: rras\mpradmininterfacesetcredentials.htm
 tech.root: RRAS
 ms.assetid: a5372bfb-185c-4562-afa3-35399c8e2a46
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceSetCredentials, MprAdminInterfaceSetCredentials function [RAS], _mpr_mpradmininterfacesetcredentials, mprapi/MprAdminInterfaceSetCredentials, rras.mpradmininterfacesetcredentials
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceSetCredentials"
+f1_keywords:
+- mprapi/MprAdminInterfaceSetCredentials
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceSetCredentials
+- MprAdminInterfaceSetCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.put_Enabled
 title: IDynamicRenderer::put_Enabled (rtscom.h)
-
 description: Gets or sets a value that turns dynamic rendering on and off.
 old-location: tablet\idynamicrenderer_enabled.htm
 tech.root: tablet
 ms.assetid: b226d146-af96-4a51-aa11-8b2fe057a4b2
-
 ms.date: 12/05/2018
 ms.keywords: Enabled property [Tablet PC], Enabled property [Tablet PC],IDynamicRenderer interface, IDynamicRenderer interface [Tablet PC],Enabled property, IDynamicRenderer.Enabled, IDynamicRenderer.get_Enabled, IDynamicRenderer.put_Enabled, IDynamicRenderer::Enabled, IDynamicRenderer::get_Enabled, IDynamicRenderer::put_Enabled, b226d146-af96-4a51-aa11-8b2fe057a4b2, put_Enabled, rtscom/IDynamicRenderer::Enabled, rtscom/IDynamicRenderer::get_Enabled, rtscom/IDynamicRenderer::put_Enabled, tablet.idynamicrenderer_enabled
 ms.topic: method
-f1_keywords: 
- - "rtscom/IDynamicRenderer.Enabled"
+f1_keywords:
+- rtscom/IDynamicRenderer.Enabled
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IDynamicRenderer.Enabled
- - IDynamicRenderer.get_Enabled
- - IDynamicRenderer.put_Enabled
- - IDynamicRenderer.get_Enabled
- - IDynamicRenderer.put_Enabled
+- IDynamicRenderer.Enabled
+- IDynamicRenderer.get_Enabled
+- IDynamicRenderer.put_Enabled
+- IDynamicRenderer.get_Enabled
+- IDynamicRenderer.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

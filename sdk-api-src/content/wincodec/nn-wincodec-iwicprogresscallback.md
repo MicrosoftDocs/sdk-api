@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodec.IWICProgressCallback
 title: IWICProgressCallback (wincodec.h)
-
 description: IWICProgressCallback interface is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.
 old-location: wic\_wic_codec_iwicprogresscallback.htm
 tech.root: wic
 ms.assetid: cd94e0a1-c275-458e-ae7f-85b703fc660e
-
 ms.date: 12/05/2018
 ms.keywords: IWICProgressCallback, IWICProgressCallback interface [Windows Imaging Component], IWICProgressCallback interface [Windows Imaging Component],described, _wic_codec_iwicprogresscallback, wic._wic_codec_iwicprogresscallback, wincodec/IWICProgressCallback
 ms.topic: interface
-f1_keywords: 
- - "wincodec/IWICProgressCallback"
+f1_keywords:
+- wincodec/IWICProgressCallback
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICProgressCallback
+- IWICProgressCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

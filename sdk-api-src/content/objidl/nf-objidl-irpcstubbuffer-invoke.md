@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRpcStubBuffer.Invoke
 title: IRpcStubBuffer::Invoke (objidl.h)
-
 description: Invokes the interface that a stub represents.
 old-location: com\irpcstubbuffer_invoke.htm
 tech.root: com
 ms.assetid: 78d20830-78d7-4395-aaec-8a86b7c41cc7
-
 ms.date: 12/05/2018
 ms.keywords: IRpcStubBuffer interface [COM],Invoke method, IRpcStubBuffer.Invoke, IRpcStubBuffer::Invoke, Invoke, Invoke method [COM], Invoke method [COM],IRpcStubBuffer interface, _com_irpcstubbuffer_invoke, com.irpcstubbuffer_invoke, objidlbase/IRpcStubBuffer::Invoke
 ms.topic: method
-f1_keywords: 
- - "objidl/IRpcStubBuffer.Invoke"
+f1_keywords:
+- objidl/IRpcStubBuffer.Invoke
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IRpcStubBuffer.Invoke
+- IRpcStubBuffer.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

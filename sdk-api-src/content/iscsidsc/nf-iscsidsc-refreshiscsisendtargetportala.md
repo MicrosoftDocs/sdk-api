@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.RefreshIScsiSendTargetPortalA
 title: RefreshIScsiSendTargetPortalA function (iscsidsc.h)
-
 description: RefreshIscsiSendTargetPortal function instructs the iSCSI initiator service to establish a discovery session with the indicated target portal and transmit a SendTargets request to refresh the list of discovered targets for the iSCSI initiator service.
 old-location: iscsidisc\refreshiscsisendtargetportal.htm
 tech.root: iSCSIDisc
 ms.assetid: 0e7d4e37-5d6e-4471-9cda-b9690fddf767
-
 ms.date: 12/05/2018
 ms.keywords: RefreshIScsiSendTargetPortalA, RefreshIscsiSendTargetPortal, RefreshIscsiSendTargetPortal function [iSCSI Discovery Library API], RefreshIscsiSendTargetPortalA, RefreshIscsiSendTargetPortalW, iscsidisc.refreshiscsisendtargetportal, iscsidsc/RefreshIscsiSendTargetPortal, iscsidsc/RefreshIscsiSendTargetPortalA, iscsidsc/RefreshIscsiSendTargetPortalW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/RefreshIscsiSendTargetPortal"
+f1_keywords:
+- iscsidsc/RefreshIscsiSendTargetPortal
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - RefreshIscsiSendTargetPortal
- - RefreshIscsiSendTargetPortalA
- - RefreshIscsiSendTargetPortalW
+- RefreshIscsiSendTargetPortal
+- RefreshIscsiSendTargetPortalA
+- RefreshIscsiSendTargetPortalW
 targetos: Windows
 req.typenames: 
 req.redist: 

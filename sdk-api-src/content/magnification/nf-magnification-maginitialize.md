@@ -1,19 +1,17 @@
 ---
 UID: NF:magnification.MagInitialize
 title: MagInitialize function (magnification.h)
-
 description: Creates and initializes the magnifier run-time objects.
 old-location: magapi\magapi_MagInitialize.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maginitialize.htm
-
 ms.date: 12/05/2018
 ms.keywords: MagInitialize, MagInitialize function [Magnification API], magapi.magapi_MagInitialize, magapi_MagInitialize, magnification/MagInitialize
 ms.topic: function
-f1_keywords: 
- - "magnification/MagInitialize"
+f1_keywords:
+- magnification/MagInitialize
 dev_langs:
- - c++
+- c++
 req.header: magnification.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Magnification.lib
 req.dll: Magnification.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Magnification.dll
+- Magnification.dll
 api_name:
- - MagInitialize
+- MagInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1SpriteBatch.GetSpriteCount
 title: ID2D1SpriteBatch::GetSpriteCount (d2d1_3.h)
-
 description: Retrieves the number of sprites in this sprite batch.
 old-location: direct2d\id2d1spritebatch_getspritecount.htm
 tech.root: Direct2D
 ms.assetid: 4116A067-A02D-414F-B7A4-7D0B6A42653A
-
 ms.date: 12/05/2018
 ms.keywords: GetSpriteCount, GetSpriteCount method [Direct2D], GetSpriteCount method [Direct2D],ID2D1SpriteBatch interface, ID2D1SpriteBatch interface [Direct2D],GetSpriteCount method, ID2D1SpriteBatch.GetSpriteCount, ID2D1SpriteBatch::GetSpriteCount, d2d1_3/ID2D1SpriteBatch::GetSpriteCount, direct2d.id2d1spritebatch_getspritecount
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1SpriteBatch.GetSpriteCount"
+f1_keywords:
+- d2d1_3/ID2D1SpriteBatch.GetSpriteCount
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1SpriteBatch.GetSpriteCount
+- ID2D1SpriteBatch.GetSpriteCount
 targetos: Windows
 req.typenames: 
 req.redist: 

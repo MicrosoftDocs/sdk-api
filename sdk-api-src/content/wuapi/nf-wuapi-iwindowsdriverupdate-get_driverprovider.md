@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DriverProvider
 title: IWindowsDriverUpdate::get_DriverProvider (wuapi.h)
-
 description: Gets the language-invariant name of the provider of the Windows driver update.
 old-location: wua\iwindowsdriverupdate_driverprovider.htm
 tech.root: Wua_Sdk
 ms.assetid: 919b4696-773c-4866-b051-7438b5c399a7
-
 ms.date: 12/05/2018
 ms.keywords: DriverProvider property [Windows Update Agent], DriverProvider property [Windows Update Agent],IWindowsDriverUpdate interface, IWindowsDriverUpdate interface [Windows Update Agent],DriverProvider property, IWindowsDriverUpdate.DriverProvider, IWindowsDriverUpdate.get_DriverProvider, IWindowsDriverUpdate::DriverProvider, IWindowsDriverUpdate::get_DriverProvider, get_DriverProvider, wua.iwindowsdriverupdate_driverprovider, wuapi/IWindowsDriverUpdate::DriverProvider, wuapi/IWindowsDriverUpdate::get_DriverProvider
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdate.DriverProvider"
+f1_keywords:
+- wuapi/IWindowsDriverUpdate.DriverProvider
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdate.DriverProvider
- - IWindowsDriverUpdate.get_DriverProvider
+- IWindowsDriverUpdate.DriverProvider
+- IWindowsDriverUpdate.get_DriverProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

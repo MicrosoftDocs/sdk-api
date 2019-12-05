@@ -1,19 +1,17 @@
 ---
 UID: NE:wmp.WMPPlaylistChangeEventType
 title: WMPPlaylistChangeEventType (wmp.h)
-
 description: The WMPPlaylistChangeEventType enumeration type defines the types of changes that can be made to a playlist.
 old-location: wmp\wmpplaylistchangeeventtype.htm
 tech.root: WMP
 ms.assetid: ebddaf22-9052-4180-9cc4-75059f9d286c
-
 ms.date: 12/05/2018
 ms.keywords: WMPPlaylistChangeEventType, WMPPlaylistChangeEventType enumeration [Windows Media Player], wmp.wmpplaylistchangeeventtype, wmp/WMPPlaylistChangeEventType, wmp/wmplcAppend, wmp/wmplcClear, wmp/wmplcDelete, wmp/wmplcInfoChange, wmp/wmplcInsert, wmp/wmplcLast, wmp/wmplcMorph, wmp/wmplcMove, wmp/wmplcNameChange, wmp/wmplcPrivate, wmp/wmplcSort, wmp/wmplcUnknown, wmplcAppend, wmplcClear, wmplcDelete, wmplcInfoChange, wmplcInsert, wmplcLast, wmplcMorph, wmplcMove, wmplcNameChange, wmplcPrivate, wmplcSort, wmplcUnknown
 ms.topic: enum
-f1_keywords: 
- - "wmp/WMPPlaylistChangeEventType"
+f1_keywords:
+- wmp/WMPPlaylistChangeEventType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - WMPPlaylistChangeEventType
+- WMPPlaylistChangeEventType
 targetos: Windows
 req.typenames: WMPPlaylistChangeEventType
 req.redist: 

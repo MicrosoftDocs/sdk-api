@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorSetIntByIndex
 title: XMVectorSetIntByIndex function (directxmath.h)
-
 description: Use an integer instance to set the value of one of the four components of an XMVECTOR Data Type containing integer data referenced by an index.
 old-location: dxmath\xmvectorsetintbyindex.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetIntByIndex(XMVECTOR,uint32_t,size_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorSetIntByIndex, XMVectorSetIntByIndex, XMVectorSetIntByIndex method [DirectX Math Support APIs], dxmath.xmvectorsetintbyindex
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorSetIntByIndex"
+f1_keywords:
+- directxmath/XMVectorSetIntByIndex
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorSetIntByIndex
+- XMVectorSetIntByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

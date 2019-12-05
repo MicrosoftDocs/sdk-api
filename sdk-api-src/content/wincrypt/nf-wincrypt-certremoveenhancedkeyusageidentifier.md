@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertRemoveEnhancedKeyUsageIdentifier
 title: CertRemoveEnhancedKeyUsageIdentifier function (wincrypt.h)
-
 description: The CertRemoveEnhancedKeyUsageIdentifier function removes a usage identifier object identifier (OID) from the enhanced key usage (EKU) extended property of the certificate.
 old-location: security\certremoveenhancedkeyusageidentifier.htm
 tech.root: SecCrypto
 ms.assetid: 4fb27073-674c-4bac-9a62-6e33e1a5785e
-
 ms.date: 12/05/2018
 ms.keywords: CertRemoveEnhancedKeyUsageIdentifier, CertRemoveEnhancedKeyUsageIdentifier function [Security], _crypto2_certremoveenhancedkeyusageidentifier, security.certremoveenhancedkeyusageidentifier, wincrypt/CertRemoveEnhancedKeyUsageIdentifier
 ms.topic: function
 f1_keywords:
 - wincrypt/CertRemoveEnhancedKeyUsageIdentifier
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows

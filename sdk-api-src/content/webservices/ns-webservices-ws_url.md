@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_URL
 title: WS_URL (webservices.h)
-
 description: The abstract base type for all URL schemes used with WsDecodeUrl and WsEncodeUrl APIs.
 old-location: wsw\ws_url.htm
 tech.root: wsw
 ms.assetid: efc67b64-cedf-4cd9-83b3-047f6c38c6ea
-
 ms.date: 12/05/2018
 ms.keywords: WS_URL, WS_URL structure [Web Services for Windows], webservices/WS_URL, wsw.ws_url
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_URL"
+f1_keywords:
+- webservices/WS_URL
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_URL
+- WS_URL
 targetos: Windows
 req.typenames: WS_URL
 req.redist: 

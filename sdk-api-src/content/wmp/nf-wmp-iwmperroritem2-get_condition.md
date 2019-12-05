@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPErrorItem2.get_condition
 title: IWMPErrorItem2::get_condition (wmp.h)
-
 description: The get_condition method retrieves a value indicating the condition for the error.
 old-location: wmp\iwmperroritem2_get_condition.htm
 tech.root: WMP
 ms.assetid: fe72bb1c-78ac-4a10-9abf-81722139d842
-
 ms.date: 12/05/2018
 ms.keywords: IWMPErrorItem2 interface [Windows Media Player],get_condition method, IWMPErrorItem2.get_condition, IWMPErrorItem2::get_condition, IWMPErrorItem2get_condition, get_condition, get_condition method [Windows Media Player], get_condition method [Windows Media Player],IWMPErrorItem2 interface, wmp.iwmperroritem2_get_condition, wmp/IWMPErrorItem2::get_condition
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPErrorItem2.get_condition"
+f1_keywords:
+- wmp/IWMPErrorItem2.get_condition
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPErrorItem2.get_condition
+- IWMPErrorItem2.get_condition
 targetos: Windows
 req.typenames: 
 req.redist: 

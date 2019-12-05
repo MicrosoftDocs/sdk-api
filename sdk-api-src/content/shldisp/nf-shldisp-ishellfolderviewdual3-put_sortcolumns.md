@@ -1,19 +1,17 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.put_SortColumns
 title: IShellFolderViewDual3::put_SortColumns (shldisp.h)
-
 description: Sets the names of the columns to be sorted.
 old-location: shell\IShellFolderViewDual3_put_SortColumns.htm
 tech.root: shell
 ms.assetid: cd61c44e-1612-48e3-9230-1a3a4667ece6
-
 ms.date: 12/05/2018
 ms.keywords: IShellFolderViewDual3 interface [Windows Shell],put_SortColumns method, IShellFolderViewDual3.put_SortColumns, IShellFolderViewDual3::put_SortColumns, _shell_IShellFolderViewDual3_put_SortColumns, put_SortColumns, put_SortColumns method [Windows Shell], put_SortColumns method [Windows Shell],IShellFolderViewDual3 interface, shell.IShellFolderViewDual3_put_SortColumns, shldisp/IShellFolderViewDual3::put_SortColumns
 ms.topic: method
-f1_keywords: 
- - "shldisp/IShellFolderViewDual3.put_SortColumns"
+f1_keywords:
+- shldisp/IShellFolderViewDual3.put_SortColumns
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shldisp.h
+- Shldisp.h
 api_name:
- - IShellFolderViewDual3.put_SortColumns
+- IShellFolderViewDual3.put_SortColumns
 targetos: Windows
 req.typenames: 
 req.redist: 

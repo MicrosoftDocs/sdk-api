@@ -1,19 +1,17 @@
 ---
 UID: NF:chstring.CHString.FreeExtra
 title: CHString::FreeExtra (chstring.h)
-
 description: The FreeExtra method frees any extra memory that was previously allocated by the string but is no longer needed.
 old-location: wmi\chstring_freeextra.htm
 tech.root: WmiSdk
 ms.assetid: 4330564e-aeae-4ff3-b01d-eceace721c14
-
 ms.date: 12/05/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],FreeExtra method, CHString.FreeExtra, CHString::FreeExtra, FreeExtra, FreeExtra method [Windows Management Instrumentation], FreeExtra method [Windows Management Instrumentation],CHString interface, _hmm_chstring_freeextra, chstring/CHString::FreeExtra, wmi.chstring_freeextra
 ms.topic: method
-f1_keywords: 
- - "chstring/CHString.FreeExtra"
+f1_keywords:
+- chstring/CHString.FreeExtra
 dev_langs:
- - c++
+- c++
 req.header: chstring.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHString.FreeExtra
+- CHString.FreeExtra
 targetos: Windows
 req.typenames: 
 req.redist: 

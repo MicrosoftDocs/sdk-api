@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.CVssWriter
 title: CVssWriter::CVssWriter (vswriter.h)
-
 description: CVssWriter is the constructor of the CVssWriter class object.
 old-location: base\cvsswriter_cvsswriter.htm
 tech.root: VSS
 ms.assetid: 2619f79b-2ecb-4f20-84b9-c7aa9aed0dba
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter, CVssWriter interface [VSS],CVssWriter method, CVssWriter method [VSS], CVssWriter method [VSS],CVssWriter interface, CVssWriter.CVssWriter, CVssWriter::CVssWriter, _win32_cvsswriter_cvsswriter, base.cvsswriter_cvsswriter, vswriter/CVssWriter::CVssWriter
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.CVssWriter"
+f1_keywords:
+- vswriter/CVssWriter.CVssWriter
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.CVssWriter
+- CVssWriter.CVssWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

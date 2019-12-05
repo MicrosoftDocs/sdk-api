@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Bitmap1.GetOptions
 title: ID2D1Bitmap1::GetOptions (d2d1_1.h)
-
 description: Gets the options used in creating the bitmap.
 old-location: direct2d\id2d1bitmap1_getoptions.htm
 tech.root: Direct2D
 ms.assetid: 63e13172-7c6a-49af-aef9-83bf12a1f7d5
-
 ms.date: 12/05/2018
 ms.keywords: GetOptions, GetOptions method [Direct2D], GetOptions method [Direct2D],ID2D1Bitmap1 interface, ID2D1Bitmap1 interface [Direct2D],GetOptions method, ID2D1Bitmap1.GetOptions, ID2D1Bitmap1::GetOptions, d2d1_1/ID2D1Bitmap1::GetOptions, direct2d.id2d1bitmap1_getoptions
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Bitmap1.GetOptions"
+f1_keywords:
+- d2d1_1/ID2D1Bitmap1.GetOptions
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Bitmap1.GetOptions
+- ID2D1Bitmap1.GetOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

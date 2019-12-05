@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetLineJoin
 title: Pen::GetLineJoin (gdipluspen.h)
-
 description: The Pen::GetLineJoin method gets the line join style currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetLineJoin_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getlinejoin.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLineJoin, GetLineJoin method [GDI+], GetLineJoin method [GDI+],Pen class, Pen class [GDI+],GetLineJoin method, Pen.GetLineJoin, Pen::GetLineJoin, _gdiplus_CLASS_Pen_GetLineJoin_, gdiplus._gdiplus_CLASS_Pen_GetLineJoin_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetLineJoin"
+f1_keywords:
+- gdipluspen/Pen.GetLineJoin
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetLineJoin
+- Pen.GetLineJoin
 targetos: Windows
 req.typenames: 
 req.redist: 

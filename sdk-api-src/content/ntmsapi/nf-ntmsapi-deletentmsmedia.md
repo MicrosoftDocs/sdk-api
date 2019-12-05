@@ -1,19 +1,17 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMedia
 title: DeleteNtmsMedia function (ntmsapi.h)
-
 description: The DeleteNtmsMedia function deletes a physical piece of offline media from RSM by removing all references to the specified media from the database.
 old-location: fs\deletentmsmedia.htm
 tech.root: Rsm
 ms.assetid: d8e6b441-be8b-4f10-b241-d95221cebed8
-
 ms.date: 12/05/2018
 ms.keywords: DeleteNtmsMedia, DeleteNtmsMedia function [Files], _zaw_deletentmsmedia, base.deletentmsmedia, fs.deletentmsmedia, ntmsapi/DeleteNtmsMedia
 ms.topic: function
-f1_keywords: 
- - "ntmsapi/DeleteNtmsMedia"
+f1_keywords:
+- ntmsapi/DeleteNtmsMedia
 dev_langs:
- - c++
+- c++
 req.header: ntmsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ntmsapi.lib
 req.dll: Ntmsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntmsapi.dll
+- Ntmsapi.dll
 api_name:
- - DeleteNtmsMedia
+- DeleteNtmsMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

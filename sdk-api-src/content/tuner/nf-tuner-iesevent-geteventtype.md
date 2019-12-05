@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESEvent.GetEventType
 title: IESEvent::GetEventType (tuner.h)
-
 description: Gets the GUID that identifies an event that is derived from the IESEvent interface. The GUID is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
 old-location: mstv\iesevent_geteventtype.htm
 tech.root: mstv
 ms.assetid: 8418116a-2393-4a1b-8c5b-2356d373e426
-
 ms.date: 12/05/2018
 ms.keywords: GetEventType, GetEventType method [Microsoft TV Technologies], GetEventType method [Microsoft TV Technologies],IESEvent interface, IESEvent interface [Microsoft TV Technologies],GetEventType method, IESEvent.GetEventType, IESEvent::GetEventType, mstv.iesevent_geteventtype, tuner/IESEvent::GetEventType
 ms.topic: method
-f1_keywords: 
- - "tuner/IESEvent.GetEventType"
+f1_keywords:
+- tuner/IESEvent.GetEventType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESEvent.GetEventType
+- IESEvent.GetEventType
 targetos: Windows
 req.typenames: 
 req.redist: 

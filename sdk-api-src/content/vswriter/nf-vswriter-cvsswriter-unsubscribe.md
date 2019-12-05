@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.CVssWriter.Unsubscribe
 title: CVssWriter::Unsubscribe (vswriter.h)
-
 description: The Unsubscribe method unsubscribes the writer with VSS.
 old-location: base\cvsswriter_unsubscribe.htm
 tech.root: VSS
 ms.assetid: b2bb68d1-7beb-4ba1-b16d-6314ac3f4a3d
-
 ms.date: 12/05/2018
 ms.keywords: CVssWriter interface [VSS],Unsubscribe method, CVssWriter.Unsubscribe, CVssWriter::Unsubscribe, Unsubscribe, Unsubscribe method [VSS], Unsubscribe method [VSS],CVssWriter interface, _win32_cvsswriter_unsubscribe, base.cvsswriter_unsubscribe, vswriter/CVssWriter::Unsubscribe
 ms.topic: method
-f1_keywords: 
- - "vswriter/CVssWriter.Unsubscribe"
+f1_keywords:
+- vswriter/CVssWriter.Unsubscribe
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - CVssWriter.Unsubscribe
+- CVssWriter.Unsubscribe
 targetos: Windows
 req.typenames: 
 req.redist: 

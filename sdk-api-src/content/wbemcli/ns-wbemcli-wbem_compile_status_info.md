@@ -1,19 +1,17 @@
 ---
 UID: NS:wbemcli.tag_CompileStatusInfo
 title: WBEM_COMPILE_STATUS_INFO (wbemcli.h)
-
 description: Describes an error for the IMofCompiler interface.
 old-location: wmi\wbem_compile_status_info.htm
 tech.root: WmiSdk
 ms.assetid: 94B3516F-2DDA-4C93-B48E-67D7FE357F4E
-
 ms.date: 12/05/2018
 ms.keywords: WBEM_COMPILE_STATUS_INFO, WBEM_COMPILE_STATUS_INFO structure [Windows Management Instrumentation], wbemcli/tag_CompileStatusInfo, wmi.wbem_compile_status_info
 ms.topic: struct
-f1_keywords: 
- - "wbemcli/WBEM_COMPILE_STATUS_INFO"
+f1_keywords:
+- wbemcli/WBEM_COMPILE_STATUS_INFO
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - WBEM_COMPILE_STATUS_INFO
+- WBEM_COMPILE_STATUS_INFO
 targetos: Windows
 req.typenames: WBEM_COMPILE_STATUS_INFO
 req.redist: 

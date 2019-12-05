@@ -1,19 +1,17 @@
 ---
 UID: NE:http._HTTP_VERB
 title: HTTP_VERB (http.h)
-
 description: The HTTP_VERB enumeration type defines values that are used to specify known, standard HTTP verbs in the HTTP_REQUEST structure. The majority of these known verbs are documented in RFC 2616 and RFC 2518, as indicated below.
 old-location: http\http_verb.htm
 tech.root: http
 ms.assetid: 4aa36eab-eff2-4caa-9bad-15c534c5a5a0
-
 ms.date: 12/05/2018
-ms.keywords: "*PHTTP_VERB, HTTP_VERB, HTTP_VERB enumeration [HTTP], HttpVerbCONNECT, HttpVerbCOPY, HttpVerbDELETE, HttpVerbGET, HttpVerbHEAD, HttpVerbInvalid, HttpVerbLOCK, HttpVerbMKCOL, HttpVerbMOVE, HttpVerbMaximum, HttpVerbOPTIONS, HttpVerbPOST, HttpVerbPROPFIND, HttpVerbPROPPATCH, HttpVerbPUT, HttpVerbSEARCH, HttpVerbTRACE, HttpVerbTRACK, HttpVerbUNLOCK, HttpVerbUnknown, HttpVerbUnparsed, PHTTP_VERB, PHTTP_VERB enumeration pointer [HTTP], _http_http_verb, http.http_verb, http/HTTP_VERB, http/HttpVerbCONNECT, http/HttpVerbCOPY, http/HttpVerbDELETE, http/HttpVerbGET, http/HttpVerbHEAD, http/HttpVerbInvalid, http/HttpVerbLOCK, http/HttpVerbMKCOL, http/HttpVerbMOVE, http/HttpVerbMaximum, http/HttpVerbOPTIONS, http/HttpVerbPOST, http/HttpVerbPROPFIND, http/HttpVerbPROPPATCH, http/HttpVerbPUT, http/HttpVerbSEARCH, http/HttpVerbTRACE, http/HttpVerbTRACK, http/HttpVerbUNLOCK, http/HttpVerbUnknown, http/HttpVerbUnparsed, http/PHTTP_VERB"
+ms.keywords: '*PHTTP_VERB, HTTP_VERB, HTTP_VERB enumeration [HTTP], HttpVerbCONNECT, HttpVerbCOPY, HttpVerbDELETE, HttpVerbGET, HttpVerbHEAD, HttpVerbInvalid, HttpVerbLOCK, HttpVerbMKCOL, HttpVerbMOVE, HttpVerbMaximum, HttpVerbOPTIONS, HttpVerbPOST, HttpVerbPROPFIND, HttpVerbPROPPATCH, HttpVerbPUT, HttpVerbSEARCH, HttpVerbTRACE, HttpVerbTRACK, HttpVerbUNLOCK, HttpVerbUnknown, HttpVerbUnparsed, PHTTP_VERB, PHTTP_VERB enumeration pointer [HTTP], _http_http_verb, http.http_verb, http/HTTP_VERB, http/HttpVerbCONNECT, http/HttpVerbCOPY, http/HttpVerbDELETE, http/HttpVerbGET, http/HttpVerbHEAD, http/HttpVerbInvalid, http/HttpVerbLOCK, http/HttpVerbMKCOL, http/HttpVerbMOVE, http/HttpVerbMaximum, http/HttpVerbOPTIONS, http/HttpVerbPOST, http/HttpVerbPROPFIND, http/HttpVerbPROPPATCH, http/HttpVerbPUT, http/HttpVerbSEARCH, http/HttpVerbTRACE, http/HttpVerbTRACK, http/HttpVerbUNLOCK, http/HttpVerbUnknown, http/HttpVerbUnparsed, http/PHTTP_VERB'
 ms.topic: enum
-f1_keywords: 
- - "http/HTTP_VERB"
+f1_keywords:
+- http/HTTP_VERB
 dev_langs:
- - c++
+- c++
 req.header: http.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Http.h
+- Http.h
 api_name:
- - HTTP_VERB
+- HTTP_VERB
 targetos: Windows
 req.typenames: HTTP_VERB, *PHTTP_VERB
 req.redist: 

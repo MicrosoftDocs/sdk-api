@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagDVD_DOMAIN
 title: DVD_DOMAIN (strmif.h)
-
 description: Defines the DVD domains.
 old-location: dshow\dvd_domain.htm
 tech.root: DirectShow
 ms.assetid: 2763a159-d4de-44c2-905b-5828f328cbd2
-
 ms.date: 12/05/2018
 ms.keywords: DVD_DOMAIN, DVD_DOMAIN , DVD_DOMAIN enumeration [DirectShow], DVD_DOMAINEnumeration, DVD_DOMAIN_FirstPlay, DVD_DOMAIN_Stop, DVD_DOMAIN_Title, DVD_DOMAIN_VideoManagerMenu, DVD_DOMAIN_VideoTitleSetMenu, dshow.dvd_domain, strmif/DVD_DOMAIN, strmif/DVD_DOMAIN_FirstPlay, strmif/DVD_DOMAIN_Stop, strmif/DVD_DOMAIN_Title, strmif/DVD_DOMAIN_VideoManagerMenu, strmif/DVD_DOMAIN_VideoTitleSetMenu
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_DOMAIN"
+f1_keywords:
+- strmif/DVD_DOMAIN
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_DOMAIN
+- DVD_DOMAIN
 targetos: Windows
 req.typenames: DVD_DOMAIN
 req.redist: 

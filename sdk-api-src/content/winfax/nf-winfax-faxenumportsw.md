@@ -1,19 +1,17 @@
 ---
 UID: NF:winfax.FaxEnumPortsW
 title: FaxEnumPortsW function (winfax.h)
-
 description: The FaxEnumPorts function enumerates all fax devices currently attached to the fax server to which the client has connected. The function returns detailed information for each fax port to the fax client application.
 old-location: fax\_mfax_faxenumports.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ir7.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxEnumPorts, FaxEnumPorts function [Fax Service], FaxEnumPortsA, FaxEnumPortsW, _mfax_faxenumports, fax._mfax_faxenumports, winfax/FaxEnumPorts, winfax/FaxEnumPortsA, winfax/FaxEnumPortsW
 ms.topic: function
 f1_keywords:
 - winfax/FaxEnumPorts
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows

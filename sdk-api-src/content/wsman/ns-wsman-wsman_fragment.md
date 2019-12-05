@@ -1,19 +1,17 @@
 ---
 UID: NS:wsman._WSMAN_FRAGMENT
 title: WSMAN_FRAGMENT (wsman.h)
-
 description: WSMAN_FRAGMENT is reserved for future use.
 old-location: winrm\wsman_fragment.htm
 tech.root: winrm
 ms.assetid: 2aa4ee38-6991-4f95-90fd-867b188fc9ff
-
 ms.date: 12/05/2018
 ms.keywords: WSMAN_FRAGMENT, WSMAN_FRAGMENT structure [Windows Remote Management], winrm.wsman_fragment, wsman/WSMAN_FRAGMENT
 ms.topic: struct
-f1_keywords: 
- - "wsman/WSMAN_FRAGMENT"
+f1_keywords:
+- wsman/WSMAN_FRAGMENT
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wsman.h
+- Wsman.h
 api_name:
- - WSMAN_FRAGMENT
+- WSMAN_FRAGMENT
 targetos: Windows
 req.typenames: WSMAN_FRAGMENT
 req.redist: Windows Management Framework on Windows Server 2008 with SP2, Windows Vista with SP1, and Windows Vista with SP2

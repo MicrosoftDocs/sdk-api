@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMVisual
 title: IXpsOMVisual (xpsobjectmodel.h)
-
 description: The base interface for path, canvas, and glyph interfaces.
 old-location: xps\ixpsomvisual.htm
 tech.root: printdocs
 ms.assetid: f2ec412c-aece-4b20-a721-e6c17615e56b
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual, IXpsOMVisual interface [XPS Documents and Packaging], IXpsOMVisual interface [XPS Documents and Packaging],described, xps.ixpsomvisual, xpsobjectmodel/IXpsOMVisual
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual
+- IXpsOMVisual
 targetos: Windows
 req.typenames: 
 req.redist: 

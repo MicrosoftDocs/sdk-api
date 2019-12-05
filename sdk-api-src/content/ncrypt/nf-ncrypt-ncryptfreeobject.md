@@ -1,19 +1,17 @@
 ---
 UID: NF:ncrypt.NCryptFreeObject
 title: NCryptFreeObject function (ncrypt.h)
-
 description: Frees a CNG key storage object.
 old-location: security\ncryptfreeobject_func.htm
 tech.root: SecCNG
 ms.assetid: a5535cf9-ba8c-4212-badd-f1dc88903624
-
 ms.date: 12/05/2018
 ms.keywords: NCryptFreeObject, NCryptFreeObject function [Security], ncrypt/NCryptFreeObject, security.ncryptfreeobject_func
 ms.topic: function
-f1_keywords: 
- - "ncrypt/NCryptFreeObject"
+f1_keywords:
+- ncrypt/NCryptFreeObject
 dev_langs:
- - c++
+- c++
 req.header: ncrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ncrypt.lib
 req.dll: Ncrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ncrypt.dll
+- Ncrypt.dll
 api_name:
- - NCryptFreeObject
+- NCryptFreeObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif._AUDIO_STREAM_CONFIG_CAPS
 title: AUDIO_STREAM_CONFIG_CAPS (strmif.h)
-
 description: The AUDIO_STREAM_CONFIG_CAPS structure describes a range of audio formats. Audio compression and capture filters use this structure to describe the formats they can produce.
 old-location: dshow\audio_stream_config_caps.htm
 tech.root: DirectShow
 ms.assetid: 8a923e8e-173e-4258-ba81-7d398bd9c5fe
-
 ms.date: 12/05/2018
 ms.keywords: AUDIO_STREAM_CONFIG_CAPS, AUDIO_STREAM_CONFIG_CAPS structure [DirectShow], AUDIO_STREAM_CONFIG_CAPSStructure, dshow.audio_stream_config_caps, strmif/AUDIO_STREAM_CONFIG_CAPS
 ms.topic: struct
-f1_keywords: 
- - "strmif/AUDIO_STREAM_CONFIG_CAPS"
+f1_keywords:
+- strmif/AUDIO_STREAM_CONFIG_CAPS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - AUDIO_STREAM_CONFIG_CAPS
+- AUDIO_STREAM_CONFIG_CAPS
 targetos: Windows
 req.typenames: AUDIO_STREAM_CONFIG_CAPS
 req.redist: 

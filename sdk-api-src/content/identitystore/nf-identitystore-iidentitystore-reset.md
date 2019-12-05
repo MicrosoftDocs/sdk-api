@@ -1,19 +1,17 @@
 ---
 UID: NF:identitystore.IIdentityStore.Reset
 title: IIdentityStore::Reset (identitystore.h)
-
 description: Sets the current index of the identity enumeration to zero.
 old-location: security\iidentitystore_reset.htm
 tech.root: SecAuthN
 ms.assetid: 3a01fde0-0ef6-401a-8af4-ee3310da568a
-
 ms.date: 12/05/2018
 ms.keywords: IIdentityStore interface [Security],Reset method, IIdentityStore.Reset, IIdentityStore::Reset, Reset, Reset method [Security], Reset method [Security],IIdentityStore interface, identitystore/IIdentityStore::Reset, security.iidentitystore_reset
 ms.topic: method
-f1_keywords: 
- - "identitystore/IIdentityStore.Reset"
+f1_keywords:
+- identitystore/IIdentityStore.Reset
 dev_langs:
- - c++
+- c++
 req.header: identitystore.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Identitystore.h
+- Identitystore.h
 api_name:
- - IIdentityStore.Reset
+- IIdentityStore.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IComponentAuthenticate.SACAuth
 title: IComponentAuthenticate::SACAuth (mswmdm.h)
-
 description: The SACAuth method establishes a secure authenticated channel between components.
 old-location: wmdm\icomponentauthenticate_sacauth.htm
 tech.root: WMDM
 ms.assetid: 26cecd09-5f28-47e5-92ec-c2f277be8052
-
 ms.date: 12/05/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACAuth method, IComponentAuthenticate.SACAuth, IComponentAuthenticate::SACAuth, IComponentAuthenticateSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACAuth, wmdm.icomponentauthenticate_sacauth
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IComponentAuthenticate.SACAuth"
+f1_keywords:
+- mswmdm/IComponentAuthenticate.SACAuth
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IComponentAuthenticate.SACAuth
+- IComponentAuthenticate.SACAuth
 targetos: Windows
 req.typenames: 
 req.redist: 

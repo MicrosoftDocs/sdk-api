@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingArchive
 title: IFaxOutgoingArchive (faxcomex.h)
-
 description: The IFaxOutgoingArchive interface describes a configuration object that is used by a fax client application to access and configure the archive of outbound fax messages transmitted successfully by the fax service.
 old-location: fax\_mfax_faxoutgoingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3wmd_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingArchive, IFaxOutgoingArchive interface [Fax Service], IFaxOutgoingArchive interface [Fax Service],described, _mfax_faxoutgoingarchive_cpp, fax._mfax_faxoutgoingarchive_cpp, faxcomex/IFaxOutgoingArchive
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxOutgoingArchive"
+f1_keywords:
+- faxcomex/IFaxOutgoingArchive
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive
+- IFaxOutgoingArchive
 targetos: Windows
 req.typenames: 
 req.redist: 

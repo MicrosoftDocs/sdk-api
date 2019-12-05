@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegCreateKeyExA
 title: RegCreateKeyExA function (winreg.h)
-
 description: Creates the specified registry key. If the key already exists, the function opens it. Note that key names are not case sensitive.
 old-location: base\regcreatekeyex.htm
 tech.root: SysInfo
 ms.assetid: e9ffad7f-c0b6-44ce-bf22-fbe45ca98bf4
-
 ms.date: 12/05/2018
 ms.keywords: REG_CREATED_NEW_KEY, REG_OPENED_EXISTING_KEY, REG_OPTION_BACKUP_RESTORE, REG_OPTION_CREATE_LINK, REG_OPTION_NON_VOLATILE, REG_OPTION_VOLATILE, RegCreateKeyEx, RegCreateKeyEx function, RegCreateKeyExA, RegCreateKeyExW, _win32_regcreatekeyex, base.regcreatekeyex, winreg/RegCreateKeyEx, winreg/RegCreateKeyExA, winreg/RegCreateKeyExW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegCreateKeyEx"
+f1_keywords:
+- winreg/RegCreateKeyEx
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Localregistry-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Registry-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - MinKernelBase.dll
- - api-ms-win-core-registry-l1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-Core-Localregistry-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Registry-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- MinKernelBase.dll
+- api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegCreateKeyEx
- - RegCreateKeyExA
- - RegCreateKeyExW
+- RegCreateKeyEx
+- RegCreateKeyExA
+- RegCreateKeyExW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneSetRing
 title: phoneSetRing function (tapi.h)
-
 description: The phoneSetRing function rings the specified open phone device using the specified ring mode and volume.
 old-location: tapi2\phonesetring.htm
 tech.root: Tapi
 ms.assetid: 14aca99e-e190-4c48-95f2-0b2a3ba3de3f
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonesetring, phoneSetRing, phoneSetRing function [TAPI 2.2], tapi/phoneSetRing, tapi2.phonesetring"
+ms.keywords: _tapi2_phonesetring, phoneSetRing, phoneSetRing function [TAPI 2.2], tapi/phoneSetRing, tapi2.phonesetring
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneSetRing"
+f1_keywords:
+- tapi/phoneSetRing
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneSetRing
+- phoneSetRing
 targetos: Windows
 req.typenames: 
 req.redist: 

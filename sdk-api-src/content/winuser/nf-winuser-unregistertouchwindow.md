@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnregisterTouchWindow
 title: UnregisterTouchWindow function (winuser.h)
-
 description: Registers a window as no longer being touch-capable.
 old-location: wintouch\unregistertouchwindow.htm
 tech.root: wintouch
 ms.assetid: 19b83312-b52b-45a5-9595-23d4621c4342
-
 ms.date: 12/05/2018
 ms.keywords: UnregisterTouchWindow, UnregisterTouchWindow function [Windows Touch], wintouch.unregistertouchwindow, winuser/UnregisterTouchWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/UnregisterTouchWindow"
+f1_keywords:
+- winuser/UnregisterTouchWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - UnregisterTouchWindow
+- UnregisterTouchWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

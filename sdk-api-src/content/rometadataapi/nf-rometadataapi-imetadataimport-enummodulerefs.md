@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumModuleRefs
 title: IMetaDataImport::EnumModuleRefs (rometadataapi.h)
-
 description: Enumerates ModuleRef tokens that represent imported modules.
 old-location: winrt\imetadataimport_enummodulerefs.htm
 tech.root: WinRT
 ms.assetid: dd3a8242-0cc9-4199-ada3-de227fe292bd
-
 ms.date: 12/05/2018
 ms.keywords: EnumModuleRefs, EnumModuleRefs method [Windows Runtime], EnumModuleRefs method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumModuleRefs method, IMetaDataImport.EnumModuleRefs, IMetaDataImport::EnumModuleRefs, rometadataapi/IMetaDataImport::EnumModuleRefs, winrt.imetadataimport_enummodulerefs
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumModuleRefs"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumModuleRefs
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumModuleRefs
+- IMetaDataImport.EnumModuleRefs
 targetos: Windows
 req.typenames: 
 req.redist: 

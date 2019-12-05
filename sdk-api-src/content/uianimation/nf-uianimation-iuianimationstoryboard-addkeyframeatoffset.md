@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAtOffset
 title: IUIAnimationStoryboard::AddKeyframeAtOffset (uianimation.h)
-
 description: Adds a keyframe at the specified offset from an existing keyframe.
 old-location: uianimation\iuianimationstoryboard_addkeyframeatoffset.htm
 tech.root: UIAnimation
 ms.assetid: f598c8a4-4325-49ed-bc18-5d672e089592
-
 ms.date: 12/05/2018
 ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard.AddKeyframeAtOffset, IUIAnimationStoryboard::AddKeyframeAtOffset, uianimation.iuianimationstoryboard_addkeyframeatoffset, uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationStoryboard.AddKeyframeAtOffset"
+f1_keywords:
+- uianimation/IUIAnimationStoryboard.AddKeyframeAtOffset
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard.AddKeyframeAtOffset
+- IUIAnimationStoryboard.AddKeyframeAtOffset
 targetos: Windows
 req.typenames: 
 req.redist: 

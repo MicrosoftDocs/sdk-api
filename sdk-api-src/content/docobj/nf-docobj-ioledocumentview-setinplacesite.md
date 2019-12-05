@@ -1,19 +1,17 @@
 ---
 UID: NF:docobj.IOleDocumentView.SetInPlaceSite
 title: IOleDocumentView::SetInPlaceSite (docobj.h)
-
 description: Associates a container's document view site with a document's view object.
 old-location: com\ioledocumentview_setinplacesite.htm
 tech.root: com
 ms.assetid: 88de47c2-979b-4595-8a2f-d4ed1a3a7b6c
-
 ms.date: 12/05/2018
 ms.keywords: IOleDocumentView interface [COM],SetInPlaceSite method, IOleDocumentView.SetInPlaceSite, IOleDocumentView::SetInPlaceSite, SetInPlaceSite, SetInPlaceSite method [COM], SetInPlaceSite method [COM],IOleDocumentView interface, _ole_ioledocumentview_setinplacesite, com.ioledocumentview_setinplacesite, docobj/IOleDocumentView::SetInPlaceSite
 ms.topic: method
-f1_keywords: 
- - "docobj/IOleDocumentView.SetInPlaceSite"
+f1_keywords:
+- docobj/IOleDocumentView.SetInPlaceSite
 dev_langs:
- - c++
+- c++
 req.header: docobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DocObj.h
+- DocObj.h
 api_name:
- - IOleDocumentView.SetInPlaceSite
+- IOleDocumentView.SetInPlaceSite
 targetos: Windows
 req.typenames: 
 req.redist: 

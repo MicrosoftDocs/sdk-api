@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IReferenceClock.AdvisePeriodic
 title: IReferenceClock::AdvisePeriodic (strmif.h)
-
 description: The AdvisePeriodic method creates a periodic advise request.
 old-location: dshow\ireferenceclock_adviseperiodic.htm
 tech.root: DirectShow
 ms.assetid: c8e2545b-ea3c-441c-8721-e7dec09d100e
-
 ms.date: 12/05/2018
 ms.keywords: AdvisePeriodic, AdvisePeriodic method [DirectShow], AdvisePeriodic method [DirectShow],IReferenceClock interface, IReferenceClock interface [DirectShow],AdvisePeriodic method, IReferenceClock.AdvisePeriodic, IReferenceClock::AdvisePeriodic, IReferenceClockAdvisePeriodic, dshow.ireferenceclock_adviseperiodic, strmif/IReferenceClock::AdvisePeriodic
 ms.topic: method
-f1_keywords: 
- - "strmif/IReferenceClock.AdvisePeriodic"
+f1_keywords:
+- strmif/IReferenceClock.AdvisePeriodic
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IReferenceClock.AdvisePeriodic
+- IReferenceClock.AdvisePeriodic
 targetos: Windows
 req.typenames: 
 req.redist: 

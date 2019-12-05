@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngWritePrinter
 title: EngWritePrinter function (winddi.h)
-
 description: The EngWritePrinter function allows printer graphics DLLs to send a data stream to printer hardware.
 old-location: display\engwriteprinter.htm
 tech.root: display
 ms.assetid: c65f09b2-5924-479a-8067-a1ba472348e2
-
 ms.date: 12/05/2018
 ms.keywords: EngWritePrinter, EngWritePrinter function [Display Devices], display.engwriteprinter, gdifncs_ec307778-86e1-4f8c-96c8-66c86e196a67.xml, winddi/EngWritePrinter
 ms.topic: function
-f1_keywords: 
- - "winddi/EngWritePrinter"
+f1_keywords:
+- winddi/EngWritePrinter
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal
@@ -32,14 +30,14 @@ req.lib: Win32k.lib
 req.dll: Win32k.sys
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Win32k.sys
+- Win32k.sys
 api_name:
- - EngWritePrinter
+- EngWritePrinter
 targetos: Windows
 req.typenames: 
 req.redist: 

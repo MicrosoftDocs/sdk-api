@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.GetInertiaParameterInteractionContext
 title: GetInertiaParameterInteractionContext function (interactioncontext.h)
-
 description: Gets the inertia behavior of a manipulation (translation, rotation, scaling).
 old-location: input_intcontext\getinertiaparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e3ae71e2-be61-49c1-82a1-2fa82fe9a7ba
-
 ms.date: 12/05/2018
 ms.keywords: GetInertiaParameterInteractionContext, GetInertiaParameterInteractionContext function, input_intcontext.getinertiaparameterinteractioncontext, interactioncontext.getinertiaparameterinteractioncontext, interactioncontext/GetInertiaParameterInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/GetInertiaParameterInteractionContext"
+f1_keywords:
+- interactioncontext/GetInertiaParameterInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - GetInertiaParameterInteractionContext
+- GetInertiaParameterInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

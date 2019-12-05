@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHRegCloseUSKey
 title: SHRegCloseUSKey function (shlwapi.h)
-
 description: Closes a handle to a user-specific registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
 old-location: shell\SHRegCloseUSKey.htm
 tech.root: shell
 ms.assetid: 1e9900d6-8411-4e6b-a9c0-006f378a2625
-
 ms.date: 12/05/2018
 ms.keywords: SHRegCloseUSKey, SHRegCloseUSKey function [Windows Shell], _win32_SHRegCloseUSKey, shell.SHRegCloseUSKey, shlwapi/SHRegCloseUSKey
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHRegCloseUSKey"
+f1_keywords:
+- shlwapi/SHRegCloseUSKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-Registryuserspecific-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - SHRegCloseUSKey
+- SHRegCloseUSKey
 targetos: Windows
 req.typenames: 
 req.redist: 

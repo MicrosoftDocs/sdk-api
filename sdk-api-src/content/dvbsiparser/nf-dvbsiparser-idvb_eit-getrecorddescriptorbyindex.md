@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetRecordDescriptorByIndex
 title: IDVB_EIT::GetRecordDescriptorByIndex (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_eit_getrecorddescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: f0b8b918-c41c-468c-b289-e3cfc186fa1b
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordDescriptorByIndex, GetRecordDescriptorByIndex method [Microsoft TV Technologies], GetRecordDescriptorByIndex method [Microsoft TV Technologies],IDVB_EIT interface, IDVB_EIT interface [Microsoft TV Technologies],GetRecordDescriptorByIndex method, IDVB_EIT.GetRecordDescriptorByIndex, IDVB_EIT::GetRecordDescriptorByIndex, IDVB_EITGetRecordDescriptorByIndex, dvbsiparser/IDVB_EIT::GetRecordDescriptorByIndex, mstv.idvb_eit_getrecorddescriptorbyindex
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_EIT.GetRecordDescriptorByIndex"
+f1_keywords:
+- dvbsiparser/IDVB_EIT.GetRecordDescriptorByIndex
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_EIT.GetRecordDescriptorByIndex
+- IDVB_EIT.GetRecordDescriptorByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

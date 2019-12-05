@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceObject.ReactivateAndUndo
 title: IOleInPlaceObject::ReactivateAndUndo (oleidl.h)
-
 description: Reactivates a previously deactivated object, undoing the last state of the object.
 old-location: com\ioleinplaceobject_reactivateandundo.htm
 tech.root: com
 ms.assetid: b41bbfd6-1a86-4ca6-9d4b-c87c4feea7c3
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObject interface [COM],ReactivateAndUndo method, IOleInPlaceObject.ReactivateAndUndo, IOleInPlaceObject::ReactivateAndUndo, ReactivateAndUndo, ReactivateAndUndo method [COM], ReactivateAndUndo method [COM],IOleInPlaceObject interface, _ole_ioleinplaceobject_reactivateandundo, com.ioleinplaceobject_reactivateandundo, oleidl/IOleInPlaceObject::ReactivateAndUndo
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceObject.ReactivateAndUndo"
+f1_keywords:
+- oleidl/IOleInPlaceObject.ReactivateAndUndo
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleInPlaceObject.ReactivateAndUndo
+- IOleInPlaceObject.ReactivateAndUndo
 targetos: Windows
 req.typenames: 
 req.redist: 

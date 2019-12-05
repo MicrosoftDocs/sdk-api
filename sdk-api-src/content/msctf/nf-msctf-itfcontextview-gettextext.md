@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContextView.GetTextExt
 title: ITfContextView::GetTextExt (msctf.h)
-
 description: The ITfContextView::GetTextExt method returns the bounding box, in screen coordinates, of a range of text.
 old-location: tsf\itfcontextview_gettextext.htm
 tech.root: TSF
 ms.assetid: a4ef9180-5568-4e5b-8c37-f750263060d2
-
 ms.date: 12/05/2018
 ms.keywords: GetTextExt, GetTextExt method [Text Services Framework], GetTextExt method [Text Services Framework],ITfContextView interface, ITfContextView interface [Text Services Framework],GetTextExt method, ITfContextView.GetTextExt, ITfContextView::GetTextExt, _tsf_itfcontextview_gettextext_ref, msctf/ITfContextView::GetTextExt, tsf.itfcontextview_gettextext
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContextView.GetTextExt"
+f1_keywords:
+- msctf/ITfContextView.GetTextExt
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContextView.GetTextExt
+- ITfContextView.GetTextExt
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_TransmissionEnd
 title: IFaxJobStatus::get_TransmissionEnd (faxcomex.h)
-
 description: The TransmissionEnd property indicates the time that the fax job completed transmission.
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_transmissionend_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7fxg.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJobStatus interface [Fax Service],TransmissionEnd property, IFaxJobStatus.TransmissionEnd, IFaxJobStatus.get_TransmissionEnd, IFaxJobStatus::TransmissionEnd, IFaxJobStatus::get_TransmissionEnd, TransmissionEnd property [Fax Service], TransmissionEnd property [Fax Service],IFaxJobStatus interface, _mfax_faxjobstatus.transmissionend, fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_transmissionend_cpp, fax._mfax_faxjobstatus_transmissionend, faxcomex/IFaxJobStatus::TransmissionEnd, faxcomex/IFaxJobStatus::get_TransmissionEnd, get_TransmissionEnd
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxJobStatus.TransmissionEnd"
+f1_keywords:
+- faxcomex/IFaxJobStatus.TransmissionEnd
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxJobStatus.TransmissionEnd
- - IFaxJobStatus.get_TransmissionEnd
- - IFaxJobStatus.get_TransmissionEnd
+- IFaxJobStatus.TransmissionEnd
+- IFaxJobStatus.get_TransmissionEnd
+- IFaxJobStatus.get_TransmissionEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

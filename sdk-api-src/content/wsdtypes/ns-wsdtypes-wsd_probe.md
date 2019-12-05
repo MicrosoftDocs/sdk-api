@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE
 title: WSD_PROBE (wsdtypes.h)
-
 description: Represents a Probe message.
 old-location: ncd\wsd_probe_struct.htm
 tech.root: WsdApi
 ms.assetid: f84f7e77-ffe2-41af-a10f-a626466e9847
-
 ms.date: 12/05/2018
 ms.keywords: WSD_PROBE, WSD_PROBE structure, ncd.wsd_probe_struct, wsdtypes/WSD_PROBE
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_PROBE
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

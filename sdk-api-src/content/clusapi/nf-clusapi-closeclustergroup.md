@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CloseClusterGroup
 title: CloseClusterGroup function (clusapi.h)
-
 description: Closes a group handle.
 old-location: mscs\closeclustergroup.htm
 tech.root: MsCS
 ms.assetid: 5bbacf45-2e1a-402a-8592-c8f60034c4ad
-
 ms.date: 12/05/2018
 ms.keywords: CloseClusterGroup, CloseClusterGroup function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_GROUP, PCLUSAPI_CLOSE_CLUSTER_GROUP function [Failover Cluster], _wolf_closeclustergroup, clusapi/CloseClusterGroup, clusapi/PCLUSAPI_CLOSE_CLUSTER_GROUP, mscs.closeclustergroup
 ms.topic: function
-f1_keywords: 
- - "clusapi/CloseClusterGroup"
+f1_keywords:
+- clusapi/CloseClusterGroup
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - CloseClusterGroup
+- CloseClusterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

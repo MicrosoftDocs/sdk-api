@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.QueryAbilities
 title: ISyncMgrResolutionHandler::QueryAbilities (syncmgr.h)
-
 description: Determines what options the conflict presenter will display.
 old-location: shell\ISyncMgrResolutionHandler_QueryAbilities.htm
 tech.root: shell
 ms.assetid: f178c4d9-0c83-4569-81fe-fe38ac13f0b5
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrResolutionHandler interface [Windows Shell],QueryAbilities method, ISyncMgrResolutionHandler.QueryAbilities, ISyncMgrResolutionHandler::QueryAbilities, QueryAbilities, QueryAbilities method [Windows Shell], QueryAbilities method [Windows Shell],ISyncMgrResolutionHandler interface, _shell_ISyncMgrResolutionHandler_QueryAbilities, shell.ISyncMgrResolutionHandler_QueryAbilities, syncmgr/ISyncMgrResolutionHandler::QueryAbilities
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrResolutionHandler.QueryAbilities"
+f1_keywords:
+- syncmgr/ISyncMgrResolutionHandler.QueryAbilities
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrResolutionHandler.QueryAbilities
+- ISyncMgrResolutionHandler.QueryAbilities
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMPackage1
 title: IXpsOMPackage1 (xpsobjectmodel_1.h)
-
 description: Inherits from IXpsOMPackage.
 old-location: xps\ixpsompackage1.htm
 tech.root: printdocs
 ms.assetid: 455b7f0b-ade4-4e00-bd9d-836335a7982e
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPackage1, IXpsOMPackage1 interface [XPS Documents and Packaging], IXpsOMPackage1 interface [XPS Documents and Packaging],described, xps.ixpsompackage1, xpsobjectmodel_1/IXpsOMPackage1
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMPackage1"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMPackage1
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMPackage1
+- IXpsOMPackage1
 targetos: Windows
 req.typenames: 
 req.redist: 

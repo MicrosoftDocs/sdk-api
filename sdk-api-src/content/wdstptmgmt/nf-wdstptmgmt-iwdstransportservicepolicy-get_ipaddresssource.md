@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_IpAddressSource
 title: IWdsTransportServicePolicy::get_IpAddressSource (wdstptmgmt.h)
-
 description: Enables a WDS client computer to configure, for a specified type of IP address, the IP address source from which the WDS transport server obtains a multicast address.
 old-location: wds\iwdstransportservicepolicy_ipaddresssource.htm
 tech.root: wds
 ms.assetid: 867095bf-3a1d-479f-81d0-31f320e60c95
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],IpAddressSource property, IWdsTransportServicePolicy.IpAddressSource, IWdsTransportServicePolicy.get_IpAddressSource, IWdsTransportServicePolicy::IpAddressSource, IWdsTransportServicePolicy::get_IpAddressSource, IWdsTransportServicePolicy::put_IpAddressSource, IpAddressSource property [Windows Deployment Services], IpAddressSource property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_IpAddressSource, wds.iwdstransportservicepolicy_ipaddresssource, wdstptmgmt/IWdsTransportServicePolicy::IpAddressSource, wdstptmgmt/IWdsTransportServicePolicy::get_IpAddressSource, wdstptmgmt/IWdsTransportServicePolicy::put_IpAddressSource
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy.IpAddressSource"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy.IpAddressSource
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.IpAddressSource
- - IWdsTransportServicePolicy.get_IpAddressSource
- - IWdsTransportServicePolicy.put_IpAddressSource
+- IWdsTransportServicePolicy.IpAddressSource
+- IWdsTransportServicePolicy.get_IpAddressSource
+- IWdsTransportServicePolicy.put_IpAddressSource
 targetos: Windows
 req.typenames: 
 req.redist: 

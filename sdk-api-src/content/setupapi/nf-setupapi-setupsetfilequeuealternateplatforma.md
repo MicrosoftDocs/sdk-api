@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupSetFileQueueAlternatePlatformA
 title: SetupSetFileQueueAlternatePlatformA function (setupapi.h)
-
 description: The SetupSetFileQueueAlternatePlatform function associates the file queue with a target platform that is different from the platform running the function. This is done to enable for non-native signature verification.
 old-location: setup\setupsetfilequeuealternateplatform.htm
 tech.root: SetupApi
 ms.assetid: 86289ab5-c313-470d-9ac1-3651c23af979
-
 ms.date: 12/05/2018
 ms.keywords: SetupSetFileQueueAlternatePlatform, SetupSetFileQueueAlternatePlatform function [Setup API], SetupSetFileQueueAlternatePlatformA, SetupSetFileQueueAlternatePlatformW, _setupapi_setupsetfilequeuealternateplatform, setup.setupsetfilequeuealternateplatform, setupapi/SetupSetFileQueueAlternatePlatform, setupapi/SetupSetFileQueueAlternatePlatformA, setupapi/SetupSetFileQueueAlternatePlatformW
 ms.topic: function
 f1_keywords:
 - setupapi/SetupSetFileQueueAlternatePlatform
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows

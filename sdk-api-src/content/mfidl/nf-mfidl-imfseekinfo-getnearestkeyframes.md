@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSeekInfo.GetNearestKeyFrames
 title: IMFSeekInfo::GetNearestKeyFrames (mfidl.h)
-
 description: For a particular seek position, gets the two nearest key frames.
 old-location: mf\imfseekinfo_getnearestkeyframes.htm
 tech.root: medfound
 ms.assetid: 72A7161A-09CA-4582-B240-1442D70936D7
-
 ms.date: 12/05/2018
 ms.keywords: GetNearestKeyFrames, GetNearestKeyFrames method [Media Foundation], GetNearestKeyFrames method [Media Foundation],IMFSeekInfo interface, IMFSeekInfo interface [Media Foundation],GetNearestKeyFrames method, IMFSeekInfo.GetNearestKeyFrames, IMFSeekInfo::GetNearestKeyFrames, mf.imfseekinfo_getnearestkeyframes, mfidl/IMFSeekInfo::GetNearestKeyFrames
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSeekInfo.GetNearestKeyFrames"
+f1_keywords:
+- mfidl/IMFSeekInfo.GetNearestKeyFrames
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSeekInfo.GetNearestKeyFrames
+- IMFSeekInfo.GetNearestKeyFrames
 targetos: Windows
 req.typenames: 
 req.redist: 

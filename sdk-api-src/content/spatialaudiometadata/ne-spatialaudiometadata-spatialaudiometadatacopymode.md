@@ -1,19 +1,17 @@
 ---
 UID: NE:spatialaudiometadata.SpatialAudioMetadataCopyMode
 title: SpatialAudioMetadataCopyMode (spatialaudiometadata.h)
-
 description: Specifies the copy mode used when calling ISpatialAudioMetadataCopier::CopyMetadataForFrames.
 old-location: coreaudio\spatialaudiometadatacopymode.htm
 tech.root: CoreAudio
 ms.assetid: 2E9C2C66-26EB-43E8-A518-25980B287542
-
 ms.date: 12/05/2018
 ms.keywords: SpatialAudioMetadataCopyMode, SpatialAudioMetadataCopy_Append, SpatialAudioMetadataCopy_AppendMergeWithFirst, SpatialAudioMetadataCopy_AppendMergeWithLast, SpatialAudioMetadataCopy_Overwrite, SpatialAudioMetadataWriterCopyMode, SpatialAudioMetadataWriterCopyMode enumeration [Core Audio], coreaudio.spatialaudiometadatacopymode, coreaudio.spatialaudiometadatawritercopymode, spatialaudiometadata/SpatialAudioMetadataCopy_Append, spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithFirst, spatialaudiometadata/SpatialAudioMetadataCopy_AppendMergeWithLast, spatialaudiometadata/SpatialAudioMetadataCopy_Overwrite, spatialaudiometadata/SpatialAudioMetadataWriterCopyMode
 ms.topic: enum
-f1_keywords: 
- - "spatialaudiometadata/SpatialAudioMetadataWriterCopyMode"
+f1_keywords:
+- spatialaudiometadata/SpatialAudioMetadataWriterCopyMode
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - SpatialAudioMetadata.h
+- SpatialAudioMetadata.h
 api_name:
- - SpatialAudioMetadataWriterCopyMode
+- SpatialAudioMetadataWriterCopyMode
 targetos: Windows
 req.typenames: SpatialAudioMetadataCopyMode
 req.redist: 

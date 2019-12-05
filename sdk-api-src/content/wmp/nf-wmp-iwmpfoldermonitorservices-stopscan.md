@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPFolderMonitorServices.stopScan
 title: IWMPFolderMonitorServices::stopScan (wmp.h)
-
 description: This method and all other methods of the IWMPFolderMonitorServices interface are deprecated.The stopScan method stops the scanning operation.
 old-location: wmp\iwmpfoldermonitorservices_stopscan.htm
 tech.root: WMP
 ms.assetid: 9b85cefb-3118-4e7f-b6f7-2f387057895e
-
 ms.date: 12/05/2018
 ms.keywords: IWMPFolderMonitorServices interface [Windows Media Player],stopScan method, IWMPFolderMonitorServices.stopScan, IWMPFolderMonitorServices::stopScan, IWMPFolderMonitorServicesstopScan, stopScan, stopScan method [Windows Media Player], stopScan method [Windows Media Player],IWMPFolderMonitorServices interface, wmp.iwmpfoldermonitorservices_stopscan, wmp/IWMPFolderMonitorServices::stopScan
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPFolderMonitorServices.stopScan"
+f1_keywords:
+- wmp/IWMPFolderMonitorServices.stopScan
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPFolderMonitorServices.stopScan
+- IWMPFolderMonitorServices.stopScan
 targetos: Windows
 req.typenames: 
 req.redist: 

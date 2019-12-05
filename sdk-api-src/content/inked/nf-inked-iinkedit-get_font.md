@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.get_Font
 title: IInkEdit::get_Font (inked.h)
-
 description: Gets or sets a Font object.
 old-location: tablet\inkedit_font.htm
 tech.root: tablet
 ms.assetid: af8234bb-7d53-45c7-9edc-fd4e6b64eed3
-
 ms.date: 12/05/2018
 ms.keywords: Font property [Tablet PC], Font property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Font property, IInkEdit.Font, IInkEdit.get_Font, IInkEdit::Font, IInkEdit::get_Font, IInkEdit::put_Font, InkEdit.get_Font, InkEdit.putref_Font, get_Font, inked/IInkEdit::Font, inked/IInkEdit::get_Font, inked/IInkEdit::put_Font, putref_Font, tablet.inkedit_font
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.Font"
+f1_keywords:
+- inked/IInkEdit.Font
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkEd.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkEd.dll
- - InkEd.dll.dll
+- InkEd.dll
+- InkEd.dll.dll
 api_name:
- - IInkEdit.Font
- - IInkEdit.get_Font
- - IInkEdit.put_Font
- - InkEdit.get_Font
- - InkEdit.putref_Font
+- IInkEdit.Font
+- IInkEdit.get_Font
+- IInkEdit.put_Font
+- InkEdit.get_Font
+- InkEdit.putref_Font
 targetos: Windows
 req.typenames: 
 req.redist: 

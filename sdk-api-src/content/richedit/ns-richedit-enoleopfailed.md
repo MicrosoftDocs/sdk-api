@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._enoleopfailed
 title: ENOLEOPFAILED (richedit.h)
-
 description: Contains information about a failed operation.
 old-location: controls\ENOLEOPFAILED.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\enoleopfailed.htm
-
 ms.date: 12/05/2018
 ms.keywords: ENOLEOPFAILED, ENOLEOPFAILED structure [Windows Controls], _win32_ENOLEOPFAILED_str, _win32_ENOLEOPFAILED_str_cpp, controls.ENOLEOPFAILED, controls._win32_ENOLEOPFAILED_str, richedit/ENOLEOPFAILED
 ms.topic: struct
-f1_keywords: 
- - "richedit/ENOLEOPFAILED"
+f1_keywords:
+- richedit/ENOLEOPFAILED
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - ENOLEOPFAILED
+- ENOLEOPFAILED
 targetos: Windows
 req.typenames: ENOLEOPFAILED
 req.redist: 

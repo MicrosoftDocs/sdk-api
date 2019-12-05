@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.ResetTimer
 title: IFileOperationProgressSink::ResetTimer (shobjidl_core.h)
-
 description: Not supported.
 old-location: shell\IFileOperationProgressSink_ResetTimer.htm
 tech.root: shell
 ms.assetid: b753b53d-4a54-4bb2-af94-dd296f86b37a
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],ResetTimer method, IFileOperationProgressSink.ResetTimer, IFileOperationProgressSink::ResetTimer, ResetTimer, ResetTimer method [Windows Shell], ResetTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_ResetTimer, shell.IFileOperationProgressSink_ResetTimer, shobjidl_core/IFileOperationProgressSink::ResetTimer
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.ResetTimer"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.ResetTimer
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.ResetTimer
+- IFileOperationProgressSink.ResetTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextFaceW
 title: GetTextFaceW function (wingdi.h)
-
 description: The GetTextFace function retrieves the typeface name of the font that is selected into the specified device context.
 old-location: gdi\gettextface.htm
 tech.root: gdi
 ms.assetid: c4c8c8f5-3651-481b-a55f-da7f49d92f3a
-
 ms.date: 12/05/2018
 ms.keywords: GetTextFace, GetTextFace function [Windows GDI], GetTextFaceA, GetTextFaceW, _win32_GetTextFace, gdi.gettextface, wingdi/GetTextFace, wingdi/GetTextFaceA, wingdi/GetTextFaceW
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextFace"
+f1_keywords:
+- wingdi/GetTextFace
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-0.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-0.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetTextFace
- - GetTextFaceA
- - GetTextFaceW
+- GetTextFace
+- GetTextFaceA
+- GetTextFaceW
 targetos: Windows
 req.typenames: 
 req.redist: 

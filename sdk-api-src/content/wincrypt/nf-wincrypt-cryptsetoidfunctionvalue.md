@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptSetOIDFunctionValue
 title: CryptSetOIDFunctionValue function (wincrypt.h)
-
 description: The CryptSetOIDFunctionValue function sets a value for the specified encoding type, function name, OID, and value name.
 old-location: security\cryptsetoidfunctionvalue.htm
 tech.root: SecCrypto
 ms.assetid: 3e167c5d-0000-4359-a7b0-9b3e4e64c50c
-
 ms.date: 12/05/2018
 ms.keywords: CryptSetOIDFunctionValue, CryptSetOIDFunctionValue function [Security], REG_DWORD, REG_EXPAND_SZ, REG_MULTI_SZ, REG_SZ, _crypto2_cryptsetoidfunctionvalue, security.cryptsetoidfunctionvalue, wincrypt/CryptSetOIDFunctionValue
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSetOIDFunctionValue"
+f1_keywords:
+- wincrypt/CryptSetOIDFunctionValue
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptSetOIDFunctionValue
+- CryptSetOIDFunctionValue
 targetos: Windows
 req.typenames: 
 req.redist: 

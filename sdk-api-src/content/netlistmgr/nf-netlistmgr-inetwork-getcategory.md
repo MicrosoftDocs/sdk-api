@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.INetwork.GetCategory
 title: INetwork::GetCategory (netlistmgr.h)
-
 description: The GetCategory method returns the category of a network.
 old-location: nla\inetwork_getcategory.htm
 tech.root: nla
 ms.assetid: 8a57c6ad-8c6c-4ef0-a731-463a5d7e325f
-
 ms.date: 12/05/2018
 ms.keywords: GetCategory, GetCategory method [Network Awareness], GetCategory method [Network Awareness],INetwork interface, INetwork interface [Network Awareness],GetCategory method, INetwork.GetCategory, INetwork::GetCategory, netlistmgr/INetwork::GetCategory, nla.inetwork_getcategory
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/INetwork.GetCategory"
+f1_keywords:
+- netlistmgr/INetwork.GetCategory
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - INetwork.GetCategory
+- INetwork.GetCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

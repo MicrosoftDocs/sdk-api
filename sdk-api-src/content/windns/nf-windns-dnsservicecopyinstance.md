@@ -5,10 +5,10 @@ description: Used to copy a [DNS_SERVICE_INSTANCE](ns-windns-dns_service_instanc
 ms.date: 02/19/2019
 ms.keywords: DnsServiceCopyInstance
 ms.topic: language-reference
-f1_keywords: 
- - "windns/DnsServiceCopyInstance"
+f1_keywords:
+- windns/DnsServiceCopyInstance
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -30,13 +30,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - windns.h
+- windns.h
 api_name:
- - DnsServiceCopyInstance
+- DnsServiceCopyInstance
 ms.custom: 19H1
 ---
 

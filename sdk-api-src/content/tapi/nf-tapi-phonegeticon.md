@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetIcon
 title: phoneGetIcon function (tapi.h)
-
 description: The phoneGetIcon function allows an application to retrieve a service phone device-specific (or provider-specific) icon that can be displayed to the user.
 old-location: tapi2\phonegeticon.htm
 tech.root: Tapi
 ms.assetid: 6c0fa053-387e-4c1f-a972-b7cd42a1ad00
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegeticon, phoneGetIcon, phoneGetIcon function [TAPI 2.2], phoneGetIconA, phoneGetIconW, tapi/phoneGetIcon, tapi/phoneGetIconA, tapi/phoneGetIconW, tapi2.phonegeticon"
+ms.keywords: _tapi2_phonegeticon, phoneGetIcon, phoneGetIcon function [TAPI 2.2], phoneGetIconA, phoneGetIconW, tapi/phoneGetIcon, tapi/phoneGetIconA, tapi/phoneGetIconW, tapi2.phonegeticon
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetIcon"
+f1_keywords:
+- tapi/phoneGetIcon
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetIcon
- - phoneGetIconA
- - phoneGetIconW
+- phoneGetIcon
+- phoneGetIconA
+- phoneGetIconW
 targetos: Windows
 req.typenames: 
 req.redist: 

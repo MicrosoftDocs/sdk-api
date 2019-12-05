@@ -1,19 +1,17 @@
 ---
 UID: NC:evalcom2.LPDISPLAYVAL
 title: LPDISPLAYVAL (evalcom2.h)
-
 description: The LPDISPLAYVAL function specification defines a callback function prototype. The IValidate::SetDisplay method enables an authoring tool to receive ICE status messages through the registered callback function.
 old-location: setup\lpdisplayval.htm
 tech.root: Msi
 ms.assetid: ff7b2789-a825-4fa4-b00c-a538f37d0eba
-
 ms.date: 12/05/2018
 ms.keywords: LPDISPLAYVAL, LPDISPLAYVAL callback, LPDISPLAYVAL callback function, evalcom2/LPDISPLAYVAL, ieError, ieInfo, ieUnknown, ieWarning, setup.lpdisplayval
 ms.topic: callback
-f1_keywords: 
- - "evalcom2/LPDISPLAYVAL"
+f1_keywords:
+- evalcom2/LPDISPLAYVAL
 dev_langs:
- - c++
+- c++
 req.header: evalcom2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - evalcom2.h
+- evalcom2.h
 api_name:
- - LPDISPLAYVAL
+- LPDISPLAYVAL
 targetos: Windows
 req.typenames: 
 req.redist: 

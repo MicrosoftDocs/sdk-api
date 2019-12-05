@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDeviceControl.Resume
 title: IMDSPDeviceControl::Resume (mswmdm.h)
-
 description: The Resume method resumes the current playback or record operation from the file position saved during the call to Pause.
 old-location: wmdm\imdspdevicecontrol_resume.htm
 tech.root: WMDM
 ms.assetid: 6c7e26dc-05cd-4dfd-86c8-0b7b216b6772
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPDeviceControl interface [windows Media Device Manager],Resume method, IMDSPDeviceControl.Resume, IMDSPDeviceControl::Resume, IMDSPDeviceControlResume, Resume, Resume method [windows Media Device Manager], Resume method [windows Media Device Manager],IMDSPDeviceControl interface, mswmdm/IMDSPDeviceControl::Resume, wmdm.imdspdevicecontrol_resume
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDeviceControl.Resume"
+f1_keywords:
+- mswmdm/IMDSPDeviceControl.Resume
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDeviceControl.Resume
+- IMDSPDeviceControl.Resume
 targetos: Windows
 req.typenames: 
 req.redist: 

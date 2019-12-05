@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSFreeMemoryExA
 title: WTSFreeMemoryExA function (wtsapi32.h)
-
 description: Frees memory that contains WTS_PROCESS_INFO_EX or WTS_SESSION_INFO_1 structures allocated by a Remote Desktop Services function.
 old-location: termserv\wtsfreememoryex.htm
 tech.root: TermServ
 ms.assetid: d84a4fe3-a829-4cf3-b217-157391d0c495
-
 ms.date: 12/05/2018
 ms.keywords: WTSFreeMemoryEx, WTSFreeMemoryEx function [Remote Desktop Services], WTSFreeMemoryExA, WTSFreeMemoryExW, termserv.wtsfreememoryex, wtsapi32/WTSFreeMemoryEx, wtsapi32/WTSFreeMemoryExA, wtsapi32/WTSFreeMemoryExW
 ms.topic: function
 f1_keywords:
 - wtsapi32/WTSFreeMemoryEx
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsGetMetadataProperty
 title: WsGetMetadataProperty function (webservices.h)
-
 description: Retrieves a specified WS_METADATA object property. The property to retrieve is identified by a WS_METADATA_PROPERTY_ID input parameter.
 old-location: wsw\wsgetmetadataproperty.htm
 tech.root: wsw
 ms.assetid: 21d8dbca-e8a5-4b2f-a1f7-951532922024
-
 ms.date: 12/05/2018
 ms.keywords: WsGetMetadataProperty, WsGetMetadataProperty function [Web Services for Windows], webservices/WsGetMetadataProperty, wsw.wsgetmetadataproperty
 ms.topic: function
-f1_keywords: 
- - "webservices/WsGetMetadataProperty"
+f1_keywords:
+- webservices/WsGetMetadataProperty
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsGetMetadataProperty
+- WsGetMetadataProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

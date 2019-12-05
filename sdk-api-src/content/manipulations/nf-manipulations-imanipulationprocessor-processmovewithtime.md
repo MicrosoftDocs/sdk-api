@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.ProcessMoveWithTime
 title: IManipulationProcessor::ProcessMoveWithTime (manipulations.h)
-
 description: Feeds movement data, including a time stamp, for the target object to its manipulation processor.
 old-location: wintouch\imanpiulationprocessor_processmovewithtime.htm
 tech.root: wintouch
 ms.assetid: 0840ef85-9b18-4248-96fe-93653274a89a
-
 ms.date: 12/05/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],ProcessMoveWithTime method, IManipulationProcessor.ProcessMoveWithTime, IManipulationProcessor::ProcessMoveWithTime, ProcessMoveWithTime, ProcessMoveWithTime method [Windows Touch], ProcessMoveWithTime method [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::ProcessMoveWithTime, wintouch.imanpiulationprocessor_processmovewithtime
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.ProcessMoveWithTime"
+f1_keywords:
+- manipulations/IManipulationProcessor.ProcessMoveWithTime
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.ProcessMoveWithTime
+- IManipulationProcessor.ProcessMoveWithTime
 targetos: Windows
 req.typenames: 
 req.redist: 

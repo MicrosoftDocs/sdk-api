@@ -1,19 +1,17 @@
 ---
 UID: NF:tbs.Tbsip_Submit_Command
 title: Tbsip_Submit_Command function (tbs.h)
-
 description: Submits a Trusted Platform Module (TPM) command to TPM Base Services (TBS) for processing.
 old-location: tbs\_tbsip_submit_command.htm
 tech.root: TBS
 ms.assetid: 5d443684-b624-47dc-abaa-a7aed74ef6cc
-
 ms.date: 12/05/2018
 ms.keywords: TBS_COMMAND_LOCALITY_FOUR, TBS_COMMAND_LOCALITY_ONE, TBS_COMMAND_LOCALITY_THREE, TBS_COMMAND_LOCALITY_TWO, TBS_COMMAND_LOCALITY_ZERO, TBS_COMMAND_PRIORITY_HIGH, TBS_COMMAND_PRIORITY_LOW, TBS_COMMAND_PRIORITY_MAX, TBS_COMMAND_PRIORITY_NORMAL, TBS_COMMAND_PRIORITY_SYSTEM, Tbsip_Submit_Command, Tbsip_Submit_Command function [TBS], tbs._tbsip_submit_command, tbs/Tbsip_Submit_Command
 ms.topic: function
-f1_keywords: 
- - "tbs/Tbsip_Submit_Command"
+f1_keywords:
+- tbs/Tbsip_Submit_Command
 dev_langs:
- - c++
+- c++
 req.header: tbs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tbs.lib
 req.dll: Tbs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tbs.dll
+- Tbs.dll
 api_name:
- - Tbsip_Submit_Command
+- Tbsip_Submit_Command
 targetos: Windows
 req.typenames: 
 req.redist: 

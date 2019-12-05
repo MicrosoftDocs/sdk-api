@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSubscription.RemovePublisherProperty
 title: IEventSubscription::RemovePublisherProperty (eventsys.h)
-
 description: Removes a property and its value from the property bag that defines publisher context.
 old-location: cos\ieventsubscription_removepublisherproperty.htm
 tech.root: cossdk
 ms.assetid: 3893e605-dd01-47d3-bb7d-095964433ef9
-
 ms.date: 12/05/2018
 ms.keywords: IEventSubscription interface [COM+],RemovePublisherProperty method, IEventSubscription.RemovePublisherProperty, IEventSubscription::RemovePublisherProperty, RemovePublisherProperty, RemovePublisherProperty method [COM+], RemovePublisherProperty method [COM+],IEventSubscription interface, _cos_IEventSubscription_RemovePublisherProperty, cos.ieventsubscription_removepublisherproperty, eventsys/IEventSubscription::RemovePublisherProperty
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSubscription.RemovePublisherProperty"
+f1_keywords:
+- eventsys/IEventSubscription.RemovePublisherProperty
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSubscription.RemovePublisherProperty
+- IEventSubscription.RemovePublisherProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

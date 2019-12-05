@@ -1,19 +1,17 @@
 ---
 UID: NS:cloneviewhelper.tagAdapter
 title: Adapter (cloneviewhelper.h)
-
 description: The Adapter structure describes a graphics adapter.
 old-location: display\adapter.htm
 tech.root: display
 ms.assetid: c62c6aed-2593-4b5d-884f-99d20e269eb1
-
 ms.date: 12/05/2018
 ms.keywords: Adapter, Adapter structure [Display Devices], TMM_Ref_6570c45d-9024-46c4-bcd4-848eb2d18955.xml, cloneviewhelper/Adapter, display.adapter
 ms.topic: struct
-f1_keywords: 
- - "cloneviewhelper/Adapter"
+f1_keywords:
+- cloneviewhelper/Adapter
 dev_langs:
- - c++
+- c++
 req.header: cloneviewhelper.h
 req.include-header: Cloneviewhelper.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - cloneviewhelper.h
+- cloneviewhelper.h
 api_name:
- - Adapter
+- Adapter
 targetos: Windows
 req.typenames: Adapter
 req.redist: 

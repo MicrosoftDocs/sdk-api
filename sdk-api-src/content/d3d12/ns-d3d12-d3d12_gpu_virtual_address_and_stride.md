@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
 title: D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE (d3d12.h)
-
 description: Represents a GPU virtual address and indexing stride.
 old-location: direct3d12\d3d12_gpu_virtual_address_and_stride.htm
 tech.root: direct3d12
 ms.assetid: 2A90A58A-24B6-45D7-9F79-FB80739EB823
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE structure, PD3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, PD3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE structure pointer, d3d12/D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, d3d12/PD3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE, direct3d12.d3d12_gpu_virtual_address_and_stride
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE"
+f1_keywords:
+- d3d12/D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
+- D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
 targetos: Windows
 req.typenames: D3D12_GPU_VIRTUAL_ADDRESS_AND_STRIDE
 req.redist: 

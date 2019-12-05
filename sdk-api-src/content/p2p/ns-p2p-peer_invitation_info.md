@@ -1,19 +1,17 @@
 ---
 UID: NS:p2p.peer_invitation_info_tag
 title: PEER_INVITATION_INFO (p2p.h)
-
 description: The PEER_INVITATION_INFO structure defines information about an invitation to join a peer group.
 old-location: p2p\peer_invitation_info.htm
 tech.root: P2PSdk
 ms.assetid: 215df4ed-83e3-40c3-a38e-89d92ce38707
-
 ms.date: 12/05/2018
-ms.keywords: "*PPEER_INVITATION_INFO, PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PEER_INVITATION_INFO, PEER_INVITATION_INFO structure [Peer Networking], PNRP_CLOUD_NAME_LOCAL, PNRP_CLOUD_NO_FLAGS, PNRP_GLOBAL_SCOPE, PNRP_LINK_LOCAL_SCOPE, PNRP_LOCAL_SCOPE, PPEER_INVITATION_INFO, PPEER_INVITATION_INFO structure pointer [Peer Networking], p2p.peer_invitation_info, p2p/PPEER_INVITATION_INFO, p2p/peer_invitation_info_tag"
+ms.keywords: '*PPEER_INVITATION_INFO, PEER_GROUP_ROLE_ADMIN, PEER_GROUP_ROLE_MEMBER, PEER_INVITATION_INFO, PEER_INVITATION_INFO structure [Peer Networking], PNRP_CLOUD_NAME_LOCAL, PNRP_CLOUD_NO_FLAGS, PNRP_GLOBAL_SCOPE, PNRP_LINK_LOCAL_SCOPE, PNRP_LOCAL_SCOPE, PPEER_INVITATION_INFO, PPEER_INVITATION_INFO structure pointer [Peer Networking], p2p.peer_invitation_info, p2p/PPEER_INVITATION_INFO, p2p/peer_invitation_info_tag'
 ms.topic: struct
-f1_keywords: 
- - "p2p/PEER_INVITATION_INFO"
+f1_keywords:
+- p2p/PEER_INVITATION_INFO
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - P2P.h
+- P2P.h
 api_name:
- - PEER_INVITATION_INFO
+- PEER_INVITATION_INFO
 targetos: Windows
 req.typenames: PEER_INVITATION_INFO, *PPEER_INVITATION_INFO
 req.redist: 

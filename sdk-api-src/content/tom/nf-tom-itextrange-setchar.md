@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.SetChar
 title: ITextRange::SetChar (tom.h)
-
 description: Sets the character at the starting position of the range.
 old-location: controls\ITextRange_SetChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setchar.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetChar method, ITextRange.SetChar, ITextRange::SetChar, SetChar, SetChar method [Windows Controls], SetChar method [Windows Controls],ITextRange interface, _win32_ITextRange_SetChar, _win32_ITextRange_SetChar_cpp, controls.ITextRange_SetChar, controls._win32_ITextRange_SetChar, tom/ITextRange::SetChar
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.SetChar"
+f1_keywords:
+- tom/ITextRange.SetChar
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.SetChar
+- ITextRange.SetChar
 targetos: Windows
 req.typenames: 
 req.redist: 

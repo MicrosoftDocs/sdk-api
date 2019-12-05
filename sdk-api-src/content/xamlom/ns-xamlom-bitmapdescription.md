@@ -1,19 +1,17 @@
 ---
 UID: NS:xamlom.BitmapDescription
 title: BitmapDescription (xamlom.h)
-
 description: Represents information about the bitmap stored in IBitmapData.
 old-location: xaml_diagnostics\bitmapdescription.htm
 tech.root: xaml_diagnostics
 ms.assetid: C5E1BA37-738C-4251-8648-681C58B740E1
-
 ms.date: 12/05/2018
 ms.keywords: BitmapDescription, BitmapDescription structure, PBitmapDescription, PBitmapDescription structure pointer, xaml_diagnostics.bitmapdescription, xamlom/BitmapDescription, xamlom/PBitmapDescription
 ms.topic: struct
-f1_keywords: 
- - "xamlom/BitmapDescription"
+f1_keywords:
+- xamlom/BitmapDescription
 dev_langs:
- - c++
+- c++
 req.header: xamlom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xamlom.h
+- xamlom.h
 api_name:
- - BitmapDescription
+- BitmapDescription
 targetos: Windows
 req.typenames: BitmapDescription
 req.redist: 

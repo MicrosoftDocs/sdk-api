@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_Utilities_CimErrorFromErrorCode
 title: MI_Utilities_CimErrorFromErrorCode function (mi.h)
-
 description: Maps an operating-system specific error code to a CIM error instance.
 old-location: wmi_v2\mi_utilities_cimerrorfromerrorcode.htm
 tech.root: wmi_v2
 ms.assetid: dab6226b-5769-4e2f-abd2-b89cc2d9911e
-
 ms.date: 12/05/2018
 ms.keywords: MI_RESULT_TYPE_HRESULT, MI_RESULT_TYPE_MI, MI_RESULT_TYPE_WIN32, MI_Utilities_CimErrorFromErrorCode, MI_Utilities_CimErrorFromErrorCode function [Windows Management Infrastructure (MI)], mi/MI_Utilities_CimErrorFromErrorCode, wmi_v2.mi_utilities_cimerrorfromerrorcode
 ms.topic: function
 f1_keywords:
 - mi/MI_Utilities_CimErrorFromErrorCode
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

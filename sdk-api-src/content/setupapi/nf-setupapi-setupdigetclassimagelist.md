@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiGetClassImageList
 title: SetupDiGetClassImageList function (setupapi.h)
-
 description: The SetupDiGetClassImageList function builds an image list that contains bitmaps for every installed class and returns the list in a data structure.
 old-location: devinst\setupdigetclassimagelist.htm
 tech.root: devinst
 ms.assetid: d6b84403-9284-4fba-a419-a013cf68ea1e
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiGetClassImageList, SetupDiGetClassImageList function [Device and Driver Installation], devinst.setupdigetclassimagelist, di-rtns_ef2c4660-f78a-4228-9b24-9c84e38765e5.xml, setupapi/SetupDiGetClassImageList
 ms.topic: function
 f1_keywords:
 - setupapi/SetupDiGetClassImageList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop

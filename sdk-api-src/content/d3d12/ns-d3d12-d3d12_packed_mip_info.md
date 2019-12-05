@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_PACKED_MIP_INFO
 title: D3D12_PACKED_MIP_INFO (d3d12.h)
-
 description: Describes the tile structure of a tiled resource with mipmaps.
 old-location: direct3d12\d3d12_packed_mip_info.htm
 tech.root: direct3d12
 ms.assetid: B9231C70-A6FF-4660-90B8-04207D2FF762
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_PACKED_MIP_INFO, D3D12_PACKED_MIP_INFO structure, d3d12/D3D12_PACKED_MIP_INFO, direct3d12.d3d12_packed_mip_info
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_PACKED_MIP_INFO"
+f1_keywords:
+- d3d12/D3D12_PACKED_MIP_INFO
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_PACKED_MIP_INFO
+- D3D12_PACKED_MIP_INFO
 targetos: Windows
 req.typenames: D3D12_PACKED_MIP_INFO
 req.redist: 

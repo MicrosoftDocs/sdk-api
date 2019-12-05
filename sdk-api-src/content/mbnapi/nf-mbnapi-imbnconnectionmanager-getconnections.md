@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManager.GetConnections
 title: IMbnConnectionManager::GetConnections (mbnapi.h)
-
 description: Gets a list of available connections.
 old-location: mbn\imbnconnectionmanager_getconnections.htm
 tech.root: mbn
 ms.assetid: 5f4fd3b2-ed24-403a-ae5a-31821a2c7033
-
 ms.date: 12/05/2018
 ms.keywords: GetConnections, GetConnections method [Microsoft Broadband Networks], GetConnections method [Microsoft Broadband Networks],IMbnConnectionManager interface, IMbnConnectionManager interface [Microsoft Broadband Networks],GetConnections method, IMbnConnectionManager.GetConnections, IMbnConnectionManager::GetConnections, mbn.imbnconnectionmanager_getconnections, mbnapi/IMbnConnectionManager::GetConnections
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnectionManager.GetConnections"
+f1_keywords:
+- mbnapi/IMbnConnectionManager.GetConnections
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnectionManager.GetConnections
+- IMbnConnectionManager.GetConnections
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0004
 title: DataCollectorSetStatus (pla.h)
-
 description: Defines the running status of the data collector set.
 old-location: pla\datacollectorsetstatus.htm
 tech.root: PLA
 ms.assetid: 7cccb588-c530-46dc-99e8-84e763cb0a8b
-
 ms.date: 12/05/2018
 ms.keywords: DataCollectorSetStatus, DataCollectorSetStatus enumeration [PLA], base.datacollectorsetstatus, pla.datacollectorsetstatus, pla/DataCollectorSetStatus, pla/plaCompiling, pla/plaPending, pla/plaRunning, pla/plaStopped, pla/plaUndefined, plaCompiling, plaPending, plaRunning, plaStopped, plaUndefined
 ms.topic: enum
-f1_keywords: 
- - "pla/DataCollectorSetStatus"
+f1_keywords:
+- pla/DataCollectorSetStatus
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - DataCollectorSetStatus
+- DataCollectorSetStatus
 targetos: Windows
 req.typenames: DataCollectorSetStatus
 req.redist: 

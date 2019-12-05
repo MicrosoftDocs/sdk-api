@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityEnter
 title: IComActivityEvents::OnActivityEnter (comsvcs.h)
-
 description: Generated when an activity thread is entered.
 old-location: cos\icomactivityevents_onactivityenter.htm
 tech.root: cossdk
 ms.assetid: 5933798d-2208-4eab-8024-50236e5483a3
-
 ms.date: 12/05/2018
 ms.keywords: IComActivityEvents interface [COM+],OnActivityEnter method, IComActivityEvents.OnActivityEnter, IComActivityEvents::OnActivityEnter, OnActivityEnter, OnActivityEnter method [COM+], OnActivityEnter method [COM+],IComActivityEvents interface, _dtc_IComActivityEvents_OnActivityEnter, comsvcs/IComActivityEvents::OnActivityEnter, cos.icomactivityevents_onactivityenter
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComActivityEvents.OnActivityEnter"
+f1_keywords:
+- comsvcs/IComActivityEvents.OnActivityEnter
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComActivityEvents.OnActivityEnter
+- IComActivityEvents.OnActivityEnter
 targetos: Windows
 req.typenames: 
 req.redist: 

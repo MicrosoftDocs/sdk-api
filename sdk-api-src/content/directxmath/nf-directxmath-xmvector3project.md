@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3Project
 title: XMVector3Project function (directxmath.h)
-
 description: Project a 3D vector from object space into screen space.
 old-location: dxmath\xmvector3project.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3Project(XMVECTOR,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3Project, XMVector3Project, XMVector3Project method [DirectX Math Support APIs], dxmath.xmvector3project
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3Project"
+f1_keywords:
+- directxmath/XMVector3Project
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3Project
+- XMVector3Project
 targetos: Windows
 req.typenames: 
 req.redist: 

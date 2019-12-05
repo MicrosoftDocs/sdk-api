@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForgetLogRecord
 title: ICrmLogControl::ForgetLogRecord (comsvcs.h)
-
 description: Forgets the last log record written by this instance of the interface.
 old-location: cos\icrmlogcontrol_forgetlogrecord.htm
 tech.root: cossdk
 ms.assetid: c1871ca0-0586-41de-9684-2babaafe8796
-
 ms.date: 12/05/2018
 ms.keywords: ForgetLogRecord, ForgetLogRecord method [COM+], ForgetLogRecord method [COM+],ICrmLogControl interface, ICrmLogControl interface [COM+],ForgetLogRecord method, ICrmLogControl.ForgetLogRecord, ICrmLogControl::ForgetLogRecord, _dtc_ICrmLogControl_ForgetLogRecord, comsvcs/ICrmLogControl::ForgetLogRecord, cos.icrmlogcontrol_forgetlogrecord
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmLogControl.ForgetLogRecord"
+f1_keywords:
+- comsvcs/ICrmLogControl.ForgetLogRecord
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmLogControl.ForgetLogRecord
+- ICrmLogControl.ForgetLogRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

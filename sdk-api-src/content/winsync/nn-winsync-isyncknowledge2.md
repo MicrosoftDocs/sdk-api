@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncKnowledge2
 title: ISyncKnowledge2 (winsync.h)
-
 description: Represents additional information about the knowledge that a replica has about its item store.
 old-location: winsync\isyncknowledge2.htm
 tech.root: winsync
 ms.assetid: 1acbae32-8fa6-4c1e-95f6-30aca483c966
-
 ms.date: 12/05/2018
 ms.keywords: ISyncKnowledge2, ISyncKnowledge2 interface [Windows Sync], ISyncKnowledge2 interface [Windows Sync],described, winsync.isyncknowledge2, winsync/ISyncKnowledge2
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncKnowledge2"
+f1_keywords:
+- winsync/ISyncKnowledge2
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge2
+- ISyncKnowledge2
 targetos: Windows
 req.typenames: 
 req.redist: 

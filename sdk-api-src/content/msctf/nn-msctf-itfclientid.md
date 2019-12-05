@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfClientId
 title: ITfClientId (msctf.h)
-
 description: The ITfClientId interface is implemented by the TSF manager. This interface is used to obtain a client identifier for TSF objects. An instance of this interface is obtained by querying the thread manager with IID_ITfClientId.
 old-location: tsf\itfclientid.htm
 tech.root: TSF
 ms.assetid: ccb06ed3-67e2-4e46-8037-ff215ba23601
-
 ms.date: 12/05/2018
 ms.keywords: ITfClientId, ITfClientId interface [Text Services Framework], ITfClientId interface [Text Services Framework],described, _tsf_itfclientid_ref, msctf/ITfClientId, tsf.itfclientid
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfClientId"
+f1_keywords:
+- msctf/ITfClientId
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfClientId
+- ITfClientId
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

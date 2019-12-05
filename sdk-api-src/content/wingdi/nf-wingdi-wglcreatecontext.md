@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.wglCreateContext
 title: wglCreateContext function (wingdi.h)
-
 description: The wglCreateContext function creates a new OpenGL rendering context, which is suitable for drawing on the device referenced by hdc. The rendering context has the same pixel format as the device context.
 old-location: opengl\wglcreatecontext.htm
 tech.root: OpenGL
 ms.assetid: fa9ed944-f917-4fdf-a52a-10a7ade8f2ca
-
 ms.date: 12/05/2018
-ms.keywords: "_ogl_wglCreateContext, opengl.wglcreatecontext, wglCreateContext, wglCreateContext function [OpenGL], wingdi/wglCreateContext"
+ms.keywords: _ogl_wglCreateContext, opengl.wglcreatecontext, wglCreateContext, wglCreateContext function [OpenGL], wingdi/wglCreateContext
 ms.topic: function
-f1_keywords: 
- - "wingdi/wglCreateContext"
+f1_keywords:
+- wingdi/wglCreateContext
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Opengl32.lib
 req.dll: Opengl32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - opengl32.dll
+- opengl32.dll
 api_name:
- - wglCreateContext
+- wglCreateContext
 targetos: Windows
 req.typenames: 
 req.redist: 

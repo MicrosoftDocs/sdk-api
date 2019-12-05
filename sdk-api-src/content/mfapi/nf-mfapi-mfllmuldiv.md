@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFllMulDiv
 title: MFllMulDiv function (mfapi.h)
-
 description: Calculates ((a * b) + d) / c, where each term is a 64-bit signed value.
 old-location: mf\mfllmuldiv.htm
 tech.root: medfound
 ms.assetid: ee369c2e-99a1-4ee4-ac67-02f14e11e269
-
 ms.date: 12/05/2018
 ms.keywords: MFllMulDiv, MFllMulDiv function [Media Foundation], mf.mfllmuldiv, mfapi/MFllMulDiv
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFllMulDiv"
+f1_keywords:
+- mfapi/MFllMulDiv
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFllMulDiv
+- MFllMulDiv
 targetos: Windows
 req.typenames: 
 req.redist: 

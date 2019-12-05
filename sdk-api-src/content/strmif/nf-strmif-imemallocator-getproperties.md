@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMemAllocator.GetProperties
 title: IMemAllocator::GetProperties (strmif.h)
-
 description: The GetProperties method retrieves the number of buffers that the allocator will create, and the buffer properties.
 old-location: dshow\imemallocator_getproperties.htm
 tech.root: DirectShow
 ms.assetid: d7b7153c-24c4-4508-925b-b5cfbc26badc
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [DirectShow], GetProperties method [DirectShow],IMemAllocator interface, IMemAllocator interface [DirectShow],GetProperties method, IMemAllocator.GetProperties, IMemAllocator::GetProperties, IMemAllocatorGetProperties, dshow.imemallocator_getproperties, strmif/IMemAllocator::GetProperties
 ms.topic: method
-f1_keywords: 
- - "strmif/IMemAllocator.GetProperties"
+f1_keywords:
+- strmif/IMemAllocator.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemAllocator.GetProperties
+- IMemAllocator.GetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMCheckpoint
 title: IComCRMEvents::OnCRMCheckpoint (comsvcs.h)
-
 description: Generated when a CRM checkpoint occurs.
 old-location: cos\icomcrmevents_oncrmcheckpoint.htm
 tech.root: cossdk
 ms.assetid: f1a91d24-0a78-4d4f-a686-817d0609e2b1
-
 ms.date: 12/05/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMCheckpoint method, IComCRMEvents.OnCRMCheckpoint, IComCRMEvents::OnCRMCheckpoint, OnCRMCheckpoint, OnCRMCheckpoint method [COM+], OnCRMCheckpoint method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMCheckpoint, comsvcs/IComCRMEvents::OnCRMCheckpoint, cos.icomcrmevents_oncrmcheckpoint
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComCRMEvents.OnCRMCheckpoint"
+f1_keywords:
+- comsvcs/IComCRMEvents.OnCRMCheckpoint
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComCRMEvents.OnCRMCheckpoint
+- IComCRMEvents.OnCRMCheckpoint
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetNextTable
 title: IDVB_BAT::GetNextTable (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_bat_getnexttable.htm
 tech.root: mstv
 ms.assetid: 9ba93496-d32f-44f1-83d8-1cfb61b689e9
-
 ms.date: 12/05/2018
 ms.keywords: GetNextTable, GetNextTable method [Microsoft TV Technologies], GetNextTable method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetNextTable method, IDVB_BAT.GetNextTable, IDVB_BAT::GetNextTable, IDVB_BATGetNextTable, dvbsiparser/IDVB_BAT::GetNextTable, mstv.idvb_bat_getnexttable
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_BAT.GetNextTable"
+f1_keywords:
+- dvbsiparser/IDVB_BAT.GetNextTable
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_BAT.GetNextTable
+- IDVB_BAT.GetNextTable
 targetos: Windows
 req.typenames: 
 req.redist: 

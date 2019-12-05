@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.SetText
 title: ITextRange::SetText (tom.h)
-
 description: Sets the text in this range.
 old-location: controls\ITextRange_SetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\settext.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],SetText method, ITextRange.SetText, ITextRange::SetText, SetText, SetText method [Windows Controls], SetText method [Windows Controls],ITextRange interface, _win32_ITextRange_SetText, _win32_ITextRange_SetText_cpp, controls.ITextRange_SetText, controls._win32_ITextRange_SetText, tom/ITextRange::SetText
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.SetText"
+f1_keywords:
+- tom/ITextRange.SetText
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.SetText
+- ITextRange.SetText
 targetos: Windows
 req.typenames: 
 req.redist: 

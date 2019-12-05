@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDevice.GetExtensionProperty
 title: IFaxDevice::GetExtensionProperty (faxcomex.h)
-
 description: The IFaxDevice::get_GetExtensionProperty method retrieves an extension configuration property stored at the device level.
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_getextensionproperty_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_94e1.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetExtensionProperty, GetExtensionProperty method [Fax Service], GetExtensionProperty method [Fax Service],IFaxDevice interface, IFaxDevice interface [Fax Service],GetExtensionProperty method, IFaxDevice.GetExtensionProperty, IFaxDevice::GetExtensionProperty, _mfax_faxdevice.getextensionproperty, fax._mfax_faxdevice_cpp_mfax_faxdevice_getextensionproperty_cpp, fax._mfax_faxdevice_getextensionproperty, faxcomex/IFaxDevice::GetExtensionProperty
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDevice.GetExtensionProperty"
+f1_keywords:
+- faxcomex/IFaxDevice.GetExtensionProperty
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDevice.GetExtensionProperty
- - IFaxDevice.GetExtensionProperty
+- IFaxDevice.GetExtensionProperty
+- IFaxDevice.GetExtensionProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

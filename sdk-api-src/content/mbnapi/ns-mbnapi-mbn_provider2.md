@@ -1,19 +1,17 @@
 ---
 UID: NS:mbnapi.MBN_PROVIDER2
 title: MBN_PROVIDER2 (mbnapi.h)
-
 description: The MBN_PROVIDER2 structure represents a network service provider. It is used by many of the provider-specific methods of the IMbnMultiCarrier interface and provides an extension to MBN_PROVIDER to support multi-carrier.
 old-location: mbn\mbn_provider2.htm
 tech.root: mbn
 ms.assetid: 9D681192-1E40-4314-8E7F-8934AA8162D3
-
 ms.date: 12/05/2018
 ms.keywords: MBN_PROVIDER2, MBN_PROVIDER2 structure [Microsoft Broadband Networks], mbn.mbn_provider2, mbnapi/MBN_PROVIDER2
 ms.topic: struct
-f1_keywords: 
- - "mbnapi/MBN_PROVIDER2"
+f1_keywords:
+- mbnapi/MBN_PROVIDER2
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_PROVIDER2
+- MBN_PROVIDER2
 targetos: Windows
 req.typenames: MBN_PROVIDER2
 req.redist: 

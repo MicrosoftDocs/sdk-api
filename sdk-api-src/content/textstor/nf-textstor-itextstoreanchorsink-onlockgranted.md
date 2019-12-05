@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnLockGranted
 title: ITextStoreAnchorSink::OnLockGranted (textstor.h)
-
 description: ITextStoreAnchorSink::OnLockGranted method
 old-location: tsf\itextstoreanchorsink_onlockgranted.htm
 tech.root: TSF
 ms.assetid: 4a2ab828-1eb8-4aae-bebd-dc8b406fd58f
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreAnchorSink interface [Text Services Framework],OnLockGranted method, ITextStoreAnchorSink.OnLockGranted, ITextStoreAnchorSink::OnLockGranted, OnLockGranted, OnLockGranted method [Text Services Framework], OnLockGranted method [Text Services Framework],ITextStoreAnchorSink interface, TS_LF_READ, TS_LF_READWRITE, _tsf_itextstoreanchorsink_onlockgranted_ref, textstor/ITextStoreAnchorSink::OnLockGranted, tsf.itextstoreanchorsink_onlockgranted
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreAnchorSink.OnLockGranted"
+f1_keywords:
+- textstor/ITextStoreAnchorSink.OnLockGranted
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreAnchorSink.OnLockGranted
+- ITextStoreAnchorSink.OnLockGranted
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

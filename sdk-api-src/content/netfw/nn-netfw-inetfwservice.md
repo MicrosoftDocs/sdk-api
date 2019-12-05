@@ -1,19 +1,17 @@
 ---
 UID: NN:netfw.INetFwService
 title: INetFwService (netfw.h)
-
 description: The INetFwService interface provides access to the properties of a service that may be authorized to listen through the firewall.
 old-location: ics\inetfwservice.htm
 tech.root: ics
 ms.assetid: 57a777a4-03f5-416a-ae28-474d8794a759
-
 ms.date: 12/05/2018
 ms.keywords: INetFwService, INetFwService interface [ICS/ICF], INetFwService interface [ICS/ICF],described, ics.inetfwservice, netfw/INetFwService
 ms.topic: interface
-f1_keywords: 
- - "netfw/INetFwService"
+f1_keywords:
+- netfw/INetFwService
 dev_langs:
- - c++
+- c++
 req.header: netfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FirewallAPI.dll; Hnetcfg.dll on Windows XP with SP2
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FirewallAPI.dll
- - Hnetcfg.dll
+- FirewallAPI.dll
+- Hnetcfg.dll
 api_name:
- - INetFwService
+- INetFwService
 targetos: Windows
 req.typenames: 
 req.redist: 

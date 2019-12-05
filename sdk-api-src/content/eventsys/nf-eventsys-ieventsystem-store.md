@@ -1,19 +1,17 @@
 ---
 UID: NF:eventsys.IEventSystem.Store
 title: IEventSystem::Store (eventsys.h)
-
 description: Creates or modifies an event or subscription object within the event system.
 old-location: cos\ieventsystem_store.htm
 tech.root: cossdk
 ms.assetid: a9999ba1-9ae1-4fc0-9613-be31961fb514
-
 ms.date: 12/05/2018
 ms.keywords: IEventSystem interface [COM+],Store method, IEventSystem.Store, IEventSystem::Store, Store, Store method [COM+], Store method [COM+],IEventSystem interface, _cos_IEventSystem_Store, cos.ieventsystem_store, eventsys/IEventSystem::Store
 ms.topic: method
-f1_keywords: 
- - "eventsys/IEventSystem.Store"
+f1_keywords:
+- eventsys/IEventSystem.Store
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EventSys.h
+- EventSys.h
 api_name:
- - IEventSystem.Store
+- IEventSystem.Store
 targetos: Windows
 req.typenames: 
 req.redist: 

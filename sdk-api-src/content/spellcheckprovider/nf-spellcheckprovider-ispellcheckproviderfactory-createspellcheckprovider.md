@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProviderFactory.CreateSpellCheckProvider
 title: ISpellCheckProviderFactory::CreateSpellCheckProvider (spellcheckprovider.h)
-
 description: Creates a spell checker (implemented by a spell check provider) that supports the specified language.
 old-location: intl\ispellcheckproviderfactory_createspellcheckprovider.htm
 tech.root: Intl
 ms.assetid: E56E13D5-A41D-41F4-8E63-55664F6A8E28
-
 ms.date: 12/05/2018
 ms.keywords: CreateSpellCheckProvider, CreateSpellCheckProvider method [Internationalization for Windows Applications], CreateSpellCheckProvider method [Internationalization for Windows Applications],ISpellCheckProviderFactory interface, ISpellCheckProviderFactory interface [Internationalization for Windows Applications],CreateSpellCheckProvider method, ISpellCheckProviderFactory.CreateSpellCheckProvider, ISpellCheckProviderFactory::CreateSpellCheckProvider, intl.ispellcheckproviderfactory_createspellcheckprovider, spellcheckprovider/ISpellCheckProviderFactory::CreateSpellCheckProvider
 ms.topic: method
-f1_keywords: 
- - "spellcheckprovider/ISpellCheckProviderFactory.CreateSpellCheckProvider"
+f1_keywords:
+- spellcheckprovider/ISpellCheckProviderFactory.CreateSpellCheckProvider
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheckprovider.h
+- Spellcheckprovider.h
 api_name:
- - ISpellCheckProviderFactory.CreateSpellCheckProvider
+- ISpellCheckProviderFactory.CreateSpellCheckProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacityMaskBrushLookup
 title: IXpsOMVisual::SetOpacityMaskBrushLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of a shared opacity mask brush in a resource dictionary.
 old-location: xps\ixpsomvisual_setopacitymaskbrushlookup.htm
 tech.root: printdocs
 ms.assetid: 93c76649-dc48-4ccf-b1c5-2fb223c93513
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMVisual interface [XPS Documents and Packaging],SetOpacityMaskBrushLookup method, IXpsOMVisual.SetOpacityMaskBrushLookup, IXpsOMVisual::SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup, SetOpacityMaskBrushLookup method [XPS Documents and Packaging], SetOpacityMaskBrushLookup method [XPS Documents and Packaging],IXpsOMVisual interface, xps.ixpsomvisual_setopacitymaskbrushlookup, xpsobjectmodel/IXpsOMVisual::SetOpacityMaskBrushLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetOpacityMaskBrushLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetOpacityMaskBrushLookup
+- IXpsOMVisual.SetOpacityMaskBrushLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

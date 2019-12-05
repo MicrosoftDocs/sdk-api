@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice1.ReportLiveDeviceObjects
 title: ID3D12DebugDevice1::ReportLiveDeviceObjects (d3d12sdklayers.h)
-
 description: Specifies the amount of information to report on a device object's lifetime.
 old-location: direct3d12\id3d12debugdevice1_reportlivedeviceobjects.htm
 tech.root: direct3d12
 ms.assetid: 99895407-2BFF-40AA-BAE4-C304295DA0E4
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugDevice1 interface,ReportLiveDeviceObjects method, ID3D12DebugDevice1.ReportLiveDeviceObjects, ID3D12DebugDevice1::ReportLiveDeviceObjects, ReportLiveDeviceObjects, ReportLiveDeviceObjects method, ReportLiveDeviceObjects method,ID3D12DebugDevice1 interface, d3d12sdklayers/ID3D12DebugDevice1::ReportLiveDeviceObjects, direct3d12.id3d12debugdevice1_reportlivedeviceobjects
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugDevice1.ReportLiveDeviceObjects"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugDevice1.ReportLiveDeviceObjects
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugDevice1.ReportLiveDeviceObjects
+- ID3D12DebugDevice1.ReportLiveDeviceObjects
 targetos: Windows
 req.typenames: 
 req.redist: 

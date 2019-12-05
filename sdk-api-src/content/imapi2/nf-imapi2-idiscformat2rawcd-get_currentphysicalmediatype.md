@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentPhysicalMediaType
 title: IDiscFormat2RawCD::get_CurrentPhysicalMediaType (imapi2.h)
-
 description: Retrieves the type of media in the disc device.
 old-location: imapi\idiscformat2rawcd_get_currentphysicalmediatype.htm
 tech.root: imapi
 ms.assetid: 76fae45e-c58a-4a25-a2d2-ec99c12374b9
-
 ms.date: 12/05/2018
 ms.keywords: IDiscFormat2RawCD interface [IMAPI],get_CurrentPhysicalMediaType method, IDiscFormat2RawCD.get_CurrentPhysicalMediaType, IDiscFormat2RawCD::get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType, get_CurrentPhysicalMediaType method [IMAPI], get_CurrentPhysicalMediaType method [IMAPI],IDiscFormat2RawCD interface, imapi.idiscformat2rawcd_get_currentphysicalmediatype, imapi2/IDiscFormat2RawCD::get_CurrentPhysicalMediaType
 ms.topic: method
 f1_keywords:
 - imapi2/IDiscFormat2RawCD.get_CurrentPhysicalMediaType
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

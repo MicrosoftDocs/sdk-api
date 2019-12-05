@@ -1,19 +1,17 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.get_InternalClient
 title: IStaticPortMapping::get_InternalClient (natupnp.h)
-
 description: The get_InternalClient method retrieves the name of the internal client for this port mapping.
 old-location: ics\istaticportmapping_get_internalclient.htm
 tech.root: ics
 ms.assetid: 91756e75-1915-4d61-841e-6a6cf1e849eb
-
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMapping interface [ICS/ICF],get_InternalClient method, IStaticPortMapping.get_InternalClient, IStaticPortMapping::get_InternalClient, _ics_istaticportmapping_get_internalclient, get_InternalClient, get_InternalClient method [ICS/ICF], get_InternalClient method [ICS/ICF],IStaticPortMapping interface, ics.istaticportmapping_get_internalclient, natupnp/IStaticPortMapping::get_InternalClient
 ms.topic: method
-f1_keywords: 
- - "natupnp/IStaticPortMapping.get_InternalClient"
+f1_keywords:
+- natupnp/IStaticPortMapping.get_InternalClient
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMapping.get_InternalClient
+- IStaticPortMapping.get_InternalClient
 targetos: Windows
 req.typenames: 
 req.redist: 

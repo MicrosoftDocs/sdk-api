@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPixelFormat
 title: Image::GetPixelFormat (gdiplusheaders.h)
-
 description: The Image::GetPixelFormat method gets the pixel format of this Image object.
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpixelformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [GDI+], GetPixelFormat method [GDI+],Image class, Image class [GDI+],GetPixelFormat method, Image.GetPixelFormat, Image::GetPixelFormat, _gdiplus_CLASS_Image_GetPixelFormat_, gdiplus._gdiplus_CLASS_Image_GetPixelFormat_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.GetPixelFormat"
+f1_keywords:
+- gdiplusheaders/Image.GetPixelFormat
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.GetPixelFormat
+- Image.GetPixelFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

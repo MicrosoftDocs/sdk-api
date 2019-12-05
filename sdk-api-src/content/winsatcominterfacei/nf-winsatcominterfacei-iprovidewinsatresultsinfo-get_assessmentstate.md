@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATResultsInfo.get_AssessmentState
 title: IProvideWinSATResultsInfo::get_AssessmentState (winsatcominterfacei.h)
-
 description: Retrieves the state of the assessment.
 old-location: winsat\iprovidewinsatresultsinfo_assessmentstate.htm
 tech.root: WinSAT
 ms.assetid: 57a373f9-47b0-48cc-8517-cba87367c64e
-
 ms.date: 12/05/2018
 ms.keywords: AssessmentState property [WinSAT], AssessmentState property [WinSAT],IProvideWinSATResultsInfo interface, IProvideWinSATResultsInfo interface [WinSAT],AssessmentState property, IProvideWinSATResultsInfo.AssessmentState, IProvideWinSATResultsInfo.get_AssessmentState, IProvideWinSATResultsInfo::AssessmentState, IProvideWinSATResultsInfo::get_AssessmentState, get_AssessmentState, winsat.iprovidewinsatresultsinfo_assessmentstate, winsatcominterfacei/IProvideWinSATResultsInfo::AssessmentState, winsatcominterfacei/IProvideWinSATResultsInfo::get_AssessmentState
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATResultsInfo.AssessmentState"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATResultsInfo.AssessmentState
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo.AssessmentState
- - IProvideWinSATResultsInfo.get_AssessmentState
+- IProvideWinSATResultsInfo.AssessmentState
+- IProvideWinSATResultsInfo.get_AssessmentState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Clear
 title: ICertificationAuthorities::Clear (certenroll.h)
-
 description: Removes all ICertificationAuthority objects from the collection.
 old-location: security\icertificationauthorities_clear.htm
 tech.root: seccertenroll
 ms.assetid: 191f5abd-515d-4a84-8031-466c9de977cb
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],ICertificationAuthorities interface, ICertificationAuthorities interface [Security],Clear method, ICertificationAuthorities.Clear, ICertificationAuthorities::Clear, certenroll/ICertificationAuthorities::Clear, security.icertificationauthorities_clear
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICertificationAuthorities.Clear"
+f1_keywords:
+- certenroll/ICertificationAuthorities.Clear
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - ICertificationAuthorities.Clear
+- ICertificationAuthorities.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

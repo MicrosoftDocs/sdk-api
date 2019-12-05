@@ -1,19 +1,17 @@
 ---
 UID: NF:sensorsapi.ISensor.GetSupportedDataFields
 title: ISensor::GetSupportedDataFields (sensorsapi.h)
-
 description: Retrieves a set of PROPERTYKEYs that represent the data fields the sensor can provide.
 old-location: winsensors_com_ref\isensor_getsupporteddatafields.htm
 tech.root: SensorsAPI
 ms.assetid: b808e472-8428-4176-a3a1-2ab6e454ef44
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedDataFields, GetSupportedDataFields method, GetSupportedDataFields method,ISensor interface, ISensor interface,GetSupportedDataFields method, ISensor.GetSupportedDataFields, ISensor::GetSupportedDataFields, sensorsapi/ISensor::GetSupportedDataFields, winsensors_com_ref.isensor_getsupporteddatafields
 ms.topic: method
-f1_keywords: 
- - "sensorsapi/ISensor.GetSupportedDataFields"
+f1_keywords:
+- sensorsapi/ISensor.GetSupportedDataFields
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensor.GetSupportedDataFields
+- ISensor.GetSupportedDataFields
 targetos: Windows
 req.typenames: 
 req.redist: 

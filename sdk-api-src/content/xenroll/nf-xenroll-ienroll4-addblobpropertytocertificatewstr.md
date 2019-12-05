@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.addBlobPropertyToCertificateWStr
 title: IEnroll4::addBlobPropertyToCertificateWStr (xenroll.h)
-
 description: The IEnroll4::addBlobPropertyToCertificateWStr method adds a BLOB property to a certificate.
 old-location: security\ienroll4_addblobpropertytocertificatewstr.htm
 tech.root: SecCrypto
 ms.assetid: 954c1b2f-08ea-471c-902f-1aa5523d58b3
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],addBlobPropertyToCertificateWStr method, IEnroll4.addBlobPropertyToCertificateWStr, IEnroll4::addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr, addBlobPropertyToCertificateWStr method [Security], addBlobPropertyToCertificateWStr method [Security],IEnroll4 interface, security.ienroll4_addblobpropertytocertificatewstr, xenroll/IEnroll4::addBlobPropertyToCertificateWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.addBlobPropertyToCertificateWStr"
+f1_keywords:
+- xenroll/IEnroll4.addBlobPropertyToCertificateWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.addBlobPropertyToCertificateWStr
+- IEnroll4.addBlobPropertyToCertificateWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

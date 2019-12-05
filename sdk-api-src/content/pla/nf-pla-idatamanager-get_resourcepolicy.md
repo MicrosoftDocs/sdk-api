@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IDataManager.get_ResourcePolicy
 title: IDataManager::get_ResourcePolicy (pla.h)
-
 description: Retrieves or sets the action to take when one of the disk resource limits is exceeded.
 old-location: pla\idatamanager_resourcepolicy.htm
 tech.root: PLA
 ms.assetid: 541cd28c-2e01-4b8a-9cd3-044896c8fb80
-
 ms.date: 12/05/2018
 ms.keywords: IDataManager interface [PLA],ResourcePolicy property, IDataManager.ResourcePolicy, IDataManager.get_ResourcePolicy, IDataManager::ResourcePolicy, IDataManager::get_ResourcePolicy, IDataManager::put_ResourcePolicy, ResourcePolicy property [PLA], ResourcePolicy property [PLA],IDataManager interface, base.idatamanager_resourcepolicy, get_ResourcePolicy, pla.idatamanager_resourcepolicy, pla/IDataManager::ResourcePolicy, pla/IDataManager::get_ResourcePolicy, pla/IDataManager::put_ResourcePolicy
 ms.topic: method
-f1_keywords: 
- - "pla/IDataManager.ResourcePolicy"
+f1_keywords:
+- pla/IDataManager.ResourcePolicy
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataManager.ResourcePolicy
- - IDataManager.get_ResourcePolicy
- - IDataManager.put_ResourcePolicy
+- IDataManager.ResourcePolicy
+- IDataManager.get_ResourcePolicy
+- IDataManager.put_ResourcePolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

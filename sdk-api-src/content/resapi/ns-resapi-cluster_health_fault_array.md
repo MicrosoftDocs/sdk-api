@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi._CLUSTER_HEALTH_FAULT_ARRAY
 title: CLUSTER_HEALTH_FAULT_ARRAY (resapi.h)
-
 description: TBD.
 old-location: mscs\cluster_health_fault_array.htm
 tech.root: MsCS
 ms.assetid: 7d741fca-3ded-4f24-81e0-e2c4e230ead2
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY structure [Failover Cluster], PCLUSTER_HEALTH_FAULT_ARRAY, PCLUSTER_HEALTH_FAULT_ARRAY structure pointer [Failover Cluster], mscs.cluster_health_fault_array, resapi/CLUSTER_HEALTH_FAULT_ARRAY, resapi/PCLUSTER_HEALTH_FAULT_ARRAY"
+ms.keywords: '*PCLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY, CLUSTER_HEALTH_FAULT_ARRAY structure [Failover Cluster], PCLUSTER_HEALTH_FAULT_ARRAY, PCLUSTER_HEALTH_FAULT_ARRAY structure pointer [Failover Cluster], mscs.cluster_health_fault_array, resapi/CLUSTER_HEALTH_FAULT_ARRAY, resapi/PCLUSTER_HEALTH_FAULT_ARRAY'
 ms.topic: struct
-f1_keywords: 
- - "resapi/CLUSTER_HEALTH_FAULT_ARRAY"
+f1_keywords:
+- resapi/CLUSTER_HEALTH_FAULT_ARRAY
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Resapi.h
+- Resapi.h
 api_name:
- - CLUSTER_HEALTH_FAULT_ARRAY
+- CLUSTER_HEALTH_FAULT_ARRAY
 targetos: Windows
 req.typenames: CLUSTER_HEALTH_FAULT_ARRAY, *PCLUSTER_HEALTH_FAULT_ARRAY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceTrackerConfig.TrackerConfig
 title: IServiceTrackerConfig::TrackerConfig (comsvcs.h)
-
 description: Configures the tracker property for the enclosed work.
 old-location: cos\iservicetrackerconfig_trackerconfig.htm
 tech.root: cossdk
 ms.assetid: cdeb982b-720a-4d69-9c3c-d7a5a4527991
-
 ms.date: 12/05/2018
 ms.keywords: IServiceTrackerConfig interface [COM+],TrackerConfig method, IServiceTrackerConfig.TrackerConfig, IServiceTrackerConfig::TrackerConfig, TrackerConfig, TrackerConfig method [COM+], TrackerConfig method [COM+],IServiceTrackerConfig interface, _cos_IServiceTrackerConfig_TrackerConfig, comsvcs/IServiceTrackerConfig::TrackerConfig, cos.iservicetrackerconfig_trackerconfig
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceTrackerConfig.TrackerConfig"
+f1_keywords:
+- comsvcs/IServiceTrackerConfig.TrackerConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceTrackerConfig.TrackerConfig
+- IServiceTrackerConfig.TrackerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

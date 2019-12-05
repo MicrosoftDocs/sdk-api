@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IResultsFolder
 title: IResultsFolder (shobjidl.h)
-
 description: Exposes methods that hold items from a data object.
 old-location: shell\IResultsFolder.htm
 tech.root: shell
 ms.assetid: db44052b-bd26-412f-9f2a-66a0c53b65ac
-
 ms.date: 12/05/2018
 ms.keywords: IResultsFolder, IResultsFolder interface [Windows Shell], IResultsFolder interface [Windows Shell],described, _shell_IResultsFolder, shell.IResultsFolder, shobjidl/IResultsFolder
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IResultsFolder"
+f1_keywords:
+- shobjidl/IResultsFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IResultsFolder
+- IResultsFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Resource.Map
 title: ID3D12Resource::Map (d3d12.h)
-
 description: Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. Map also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU.
 old-location: direct3d12\id3d12resource_map.htm
 tech.root: direct3d12
 ms.assetid: 71E43B63-9C84-4E4B-A43D-92B958C8AAF5
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Resource interface,Map method, ID3D12Resource.Map, ID3D12Resource::Map, Map, Map method, Map method,ID3D12Resource interface, d3d12/ID3D12Resource::Map, direct3d12.id3d12resource_map
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Resource.Map"
+f1_keywords:
+- d3d12/ID3D12Resource.Map
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Resource.Map
+- ID3D12Resource.Map
 targetos: Windows
 req.typenames: 
 req.redist: 

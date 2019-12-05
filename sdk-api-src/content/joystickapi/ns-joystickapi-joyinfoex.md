@@ -1,19 +1,17 @@
 ---
 UID: NS:joystickapi.joyinfoex_tag
 title: JOYINFOEX (joystickapi.h)
-
 description: The JOYINFOEX structure contains extended information about the joystick position, point-of-view position, and button state.
 old-location: multimedia\joyinfoex.htm
 tech.root: Multimedia
 ms.assetid: 2c07b56b-a9d5-450f-96ca-0fdaf60c52a3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPJOYINFOEX, *NPJOYINFOEX, *PJOYINFOEX, JOYINFOEX, JOYINFOEX structure [Windows Multimedia], _win32_JOYINFOEX_str, joyinfoex_tag, joystickapi/JOYINFOEX, multimedia.joyinfoex"
+ms.keywords: '*LPJOYINFOEX, *NPJOYINFOEX, *PJOYINFOEX, JOYINFOEX, JOYINFOEX structure [Windows Multimedia], _win32_JOYINFOEX_str, joyinfoex_tag, joystickapi/JOYINFOEX, multimedia.joyinfoex'
 ms.topic: struct
-f1_keywords: 
- - "joystickapi/JOYINFOEX"
+f1_keywords:
+- joystickapi/JOYINFOEX
 dev_langs:
- - c++
+- c++
 req.header: joystickapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - joystickapi.h
+- joystickapi.h
 api_name:
- - JOYINFOEX
+- JOYINFOEX
 targetos: Windows
 req.typenames: JOYINFOEX, *PJOYINFOEX, *NPJOYINFOEX, *LPJOYINFOEX
 req.redist: 

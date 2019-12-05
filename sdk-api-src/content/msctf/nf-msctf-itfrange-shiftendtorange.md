@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfRange.ShiftEndToRange
 title: ITfRange::ShiftEndToRange (msctf.h)
-
 description: ITfRange::ShiftEndToRange method
 old-location: tsf\itfrange_shiftendtorange.htm
 tech.root: TSF
 ms.assetid: 27595909-025b-46c9-bd6f-2e64a720c97c
-
 ms.date: 12/05/2018
 ms.keywords: ITfRange interface [Text Services Framework],ShiftEndToRange method, ITfRange.ShiftEndToRange, ITfRange::ShiftEndToRange, ShiftEndToRange, ShiftEndToRange method [Text Services Framework], ShiftEndToRange method [Text Services Framework],ITfRange interface, _tsf_itfrange_shiftendtorange_ref, msctf/ITfRange::ShiftEndToRange, tsf.itfrange_shiftendtorange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfRange.ShiftEndToRange"
+f1_keywords:
+- msctf/ITfRange.ShiftEndToRange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfRange.ShiftEndToRange
+- ITfRange.ShiftEndToRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

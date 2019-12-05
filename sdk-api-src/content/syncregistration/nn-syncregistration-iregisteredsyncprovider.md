@@ -1,19 +1,17 @@
 ---
 UID: NN:syncregistration.IRegisteredSyncProvider
 title: IRegisteredSyncProvider (syncregistration.h)
-
 description: Represents a registered synchronization provider. This interface is implemented by the writer of a synchronization provider.
 old-location: winsync\iregisteredsyncprovider.htm
 tech.root: winsync
 ms.assetid: 53970f17-2857-4624-8594-069cceb93b1e
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredSyncProvider, IRegisteredSyncProvider interface [Windows Sync], IRegisteredSyncProvider interface [Windows Sync],described, syncregistration/IRegisteredSyncProvider, winsync.iregisteredsyncprovider
 ms.topic: interface
-f1_keywords: 
- - "syncregistration/IRegisteredSyncProvider"
+f1_keywords:
+- syncregistration/IRegisteredSyncProvider
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - IRegisteredSyncProvider
+- IRegisteredSyncProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

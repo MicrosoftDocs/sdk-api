@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateComputeShader
 title: ID3D11Device::CreateComputeShader (d3d11.h)
-
 description: Create a compute shader.
 old-location: direct3d11\id3d11device_createcomputeshader.htm
 tech.root: direct3d11
 ms.assetid: 4ee0f4f5-48dc-4d5a-b159-c1b7f72e5367
-
 ms.date: 12/05/2018
 ms.keywords: CreateComputeShader, CreateComputeShader method [Direct3D 11], CreateComputeShader method [Direct3D 11],ID3D11Device interface, ID3D11Device interface [Direct3D 11],CreateComputeShader method, ID3D11Device.CreateComputeShader, ID3D11Device::CreateComputeShader, a7f41890-fbe0-bb14-c192-0d0199550830, d3d11/ID3D11Device::CreateComputeShader, direct3d11.id3d11device_createcomputeshader
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Device.CreateComputeShader"
+f1_keywords:
+- d3d11/ID3D11Device.CreateComputeShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Device.CreateComputeShader
+- ID3D11Device.CreateComputeShader
 targetos: Windows
 req.typenames: 
 req.redist: 

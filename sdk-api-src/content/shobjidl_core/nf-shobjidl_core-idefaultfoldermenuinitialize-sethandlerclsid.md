@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDefaultFolderMenuInitialize.SetHandlerClsid
 title: IDefaultFolderMenuInitialize::SetHandlerClsid (shobjidl_core.h)
-
-description: "."
+description: .
 old-location: shell\IDefaultFolderMenuInitialize_SetHandlerClsid.htm
 tech.root: shell
 ms.assetid: 90D861DA-33B7-4054-888E-86B504B2C5D1
-
 ms.date: 12/05/2018
 ms.keywords: IDefaultFolderMenuInitialize interface [Windows Shell],SetHandlerClsid method, IDefaultFolderMenuInitialize.SetHandlerClsid, IDefaultFolderMenuInitialize::SetHandlerClsid, SetHandlerClsid, SetHandlerClsid method [Windows Shell], SetHandlerClsid method [Windows Shell],IDefaultFolderMenuInitialize interface, shell.IDefaultFolderMenuInitialize_SetHandlerClsid, shobjidl_core/IDefaultFolderMenuInitialize::SetHandlerClsid
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDefaultFolderMenuInitialize.SetHandlerClsid"
+f1_keywords:
+- shobjidl_core/IDefaultFolderMenuInitialize.SetHandlerClsid
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDefaultFolderMenuInitialize.SetHandlerClsid
+- IDefaultFolderMenuInitialize.SetHandlerClsid
 targetos: Windows
 req.typenames: 
 req.redist: 

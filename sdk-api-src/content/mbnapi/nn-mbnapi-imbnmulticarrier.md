@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnMultiCarrier
 title: IMbnMultiCarrier (mbnapi.h)
-
 description: This interface exposes the multi-carrier functionality of a capable Mobile Broadband device.
 old-location: mbn\imbnmulticarrier.htm
 tech.root: mbn
 ms.assetid: E40517CE-3169-4F20-A572-EDBC8FEC2862
-
 ms.date: 12/05/2018
 ms.keywords: IMbnMultiCarrier, IMbnMultiCarrier interface [Microsoft Broadband Networks], IMbnMultiCarrier interface [Microsoft Broadband Networks],described, mbn.imbnmulticarrier, mbnapi/IMbnMultiCarrier
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrier"
+f1_keywords:
+- mbnapi/IMbnMultiCarrier
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrier
+- IMbnMultiCarrier
 targetos: Windows
 req.typenames: 
 req.redist: 

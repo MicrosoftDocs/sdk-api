@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnCloseDataSessionComplete
 title: IMbnDeviceServicesEvents::OnCloseDataSessionComplete (mbnapi.h)
-
 description: Notification method indicating that a device service session CloseDataSession request has completed.
 old-location: mbn\imbndeviceservicesevents_onclosedatasessioncomplete.htm
 tech.root: mbn
 ms.assetid: 003D87F7-CFFD-47A3-8DAA-0CF9F64E2CF6
-
 ms.date: 12/05/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnCloseDataSessionComplete method, IMbnDeviceServicesEvents.OnCloseDataSessionComplete, IMbnDeviceServicesEvents::OnCloseDataSessionComplete, OnCloseDataSessionComplete, OnCloseDataSessionComplete method [Microsoft Broadband Networks], OnCloseDataSessionComplete method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_onclosedatasessioncomplete, mbnapi/IMbnDeviceServicesEvents::OnCloseDataSessionComplete
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnDeviceServicesEvents.OnCloseDataSessionComplete"
+f1_keywords:
+- mbnapi/IMbnDeviceServicesEvents.OnCloseDataSessionComplete
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents.OnCloseDataSessionComplete
+- IMbnDeviceServicesEvents.OnCloseDataSessionComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

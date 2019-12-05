@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsPropertyList
 title: IADsPropertyList (iads.h)
-
 description: The IADsPropertyList interface is used to modify, read, and update a list of property entries in the property cache of an object.
 old-location: adsi\iadspropertylist.htm
 tech.root: adsi
 ms.assetid: 70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2
-
 ms.date: 12/05/2018
 ms.keywords: IADsPropertyList, IADsPropertyList interface [ADSI], IADsPropertyList interface [ADSI],described, _ds_iadspropertylist, adsi.iadspropertylist, iads/IADsPropertyList
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsPropertyList"
+f1_keywords:
+- iads/IADsPropertyList
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsPropertyList
+- IADsPropertyList
 targetos: Windows
 req.typenames: 
 req.redist: 

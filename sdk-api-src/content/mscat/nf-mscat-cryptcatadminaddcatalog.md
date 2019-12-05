@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATAdminAddCatalog
 title: CryptCATAdminAddCatalog function (mscat.h)
-
 description: Adds a catalog to the catalog database.
 old-location: security\cryptcatadminaddcatalog.htm
 tech.root: SecCrypto
 ms.assetid: a227597c-a0af-4b86-bd29-03f478aef244
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATAdminAddCatalog, CryptCATAdminAddCatalog function [Security], mscat/CryptCATAdminAddCatalog, security.cryptcatadminaddcatalog
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATAdminAddCatalog"
+f1_keywords:
+- mscat/CryptCATAdminAddCatalog
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATAdminAddCatalog
+- CryptCATAdminAddCatalog
 targetos: Windows
 req.typenames: 
 req.redist: 

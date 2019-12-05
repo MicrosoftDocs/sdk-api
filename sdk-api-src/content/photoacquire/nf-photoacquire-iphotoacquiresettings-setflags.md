@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetFlags
 title: IPhotoAcquireSettings::SetFlags (photoacquire.h)
-
 description: The SetFlags method sets the photo acquire flags.
 old-location: picacq\iphotoacquiresettings_setflags.htm
 tech.root: acquisition
 ms.assetid: aebe06d8-c764-4d2d-9bd2-58fd9e3714bd
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoAcquireSettings interface [Picture Acquisition],SetFlags method, IPhotoAcquireSettings.SetFlags, IPhotoAcquireSettings::SetFlags, IPhotoAcquireSettingsSetFlags, SetFlags, SetFlags method [Picture Acquisition], SetFlags method [Picture Acquisition],IPhotoAcquireSettings interface, photoacquire/IPhotoAcquireSettings::SetFlags, picacq.iphotoacquiresettings_setflags
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings.SetFlags"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.SetFlags
+- IPhotoAcquireSettings.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

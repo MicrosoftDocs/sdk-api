@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetWriteFile
 title: InternetWriteFile function (wininet.h)
-
 description: Writes data to an open Internet file.
 old-location: wininet\internetwritefile.htm
 tech.root: wininet
 ms.assetid: 3bf8d4d8-9193-4aed-acf9-8d7207b332a5
-
 ms.date: 12/05/2018
 ms.keywords: InternetWriteFile, InternetWriteFile function [WinINet], _inet_internetwritefile_function, wininet.internetwritefile, wininet/InternetWriteFile
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetWriteFile"
+f1_keywords:
+- wininet/InternetWriteFile
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetWriteFile
+- InternetWriteFile
 targetos: Windows
 req.typenames: 
 req.redist: 

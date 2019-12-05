@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointLastBufferControl.IsLastBufferControlSupported
 title: IAudioEndpointLastBufferControl::IsLastBufferControlSupported (audioengineendpoint.h)
-
 description: Indicates if last buffer control is supported.
 old-location: coreaudio\iaudioendpointlastbuffercontrol_islastbuffercontrolsupported.htm
 tech.root: CoreAudio
 ms.assetid: 9ee7095a-957f-429d-b19d-df90246f8608
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointLastBufferControl interface [Core Audio],IsLastBufferControlSupported method, IAudioEndpointLastBufferControl.IsLastBufferControlSupported, IAudioEndpointLastBufferControl::IsLastBufferControlSupported, IsLastBufferControlSupported, IsLastBufferControlSupported method [Core Audio], IsLastBufferControlSupported method [Core Audio],IAudioEndpointLastBufferControl interface, audioengineendpoint/IAudioEndpointLastBufferControl::IsLastBufferControlSupported, coreaudio.iaudioendpointlastbuffercontrol_islastbuffercontrolsupported
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointLastBufferControl.IsLastBufferControlSupported"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointLastBufferControl.IsLastBufferControlSupported
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - audioengineendpoint.h
+- audioengineendpoint.h
 api_name:
- - IAudioEndpointLastBufferControl.IsLastBufferControlSupported
+- IAudioEndpointLastBufferControl.IsLastBufferControlSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

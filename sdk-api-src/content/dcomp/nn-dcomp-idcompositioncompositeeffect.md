@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionCompositeEffect
 title: IDCompositionCompositeEffect (dcomp.h)
-
 description: The composite effect is used to combine 2 or more images.
 old-location: directcomp\idcompositioncompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 72647FCE-F1B0-4A50-927B-23EE38EEEC8B
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionCompositeEffect, IDCompositionCompositeEffect interface [DirectComposition], IDCompositionCompositeEffect interface [DirectComposition],described, dcomp/IDCompositionCompositeEffect, directcomp.idcompositioncompositeeffect
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionCompositeEffect"
+f1_keywords:
+- dcomp/IDCompositionCompositeEffect
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionCompositeEffect
+- IDCompositionCompositeEffect
 targetos: Windows
 req.typenames: 
 req.redist: 

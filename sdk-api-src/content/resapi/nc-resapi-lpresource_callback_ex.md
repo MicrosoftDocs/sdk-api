@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.LPRESOURCE_CALLBACK_EX
 title: LPRESOURCE_CALLBACK_EX (resapi.h)
-
 description: TBD.
 old-location: mscs\lpresource_callback_ex.htm
 tech.root: MsCS
 ms.assetid: 663b009c-92cf-4881-bae7-fb1215140581
-
 ms.date: 12/05/2018
 ms.keywords: LPRESOURCE_CALLBACK_EX, LPRESOURCE_CALLBACK_EX callback function [Failover Cluster], ResourceCallbackEx, ResourceCallbackEx callback, ResourceCallbackEx callback function [Failover Cluster], mscs.lpresource_callback_ex, resapi/LPRESOURCE_CALLBACK_EX, resapi/ResourceCallbackEx
 ms.topic: callback
-f1_keywords: 
- - "resapi/ResourceCallbackEx"
+f1_keywords:
+- resapi/ResourceCallbackEx
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - ResourceCallbackEx
+- ResourceCallbackEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl.UNDOCK_REASON
 title: UNDOCK_REASON (shobjidl.h)
-
 description: Values that indicate the reason that a docked accessibility app window has been undocked. Used by IAccessibilityDockingServiceCallback::Undocked.
 old-location: shell\UNDOCK_REASON.htm
 tech.root: shell
 ms.assetid: C900E0DA-C6C6-41cd-8333-38BE4D451A66
-
 ms.date: 12/05/2018
 ms.keywords: UNDOCK_REASON, UNDOCK_REASON enumeration [Windows Shell], UR_MONITOR_DISCONNECT, UR_RESOLUTION_CHANGE, shell.UNDOCK_REASON, shobjidl/UNDOCK_REASON, shobjidl/UR_MONITOR_DISCONNECT, shobjidl/UR_RESOLUTION_CHANGE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl/UNDOCK_REASON"
+f1_keywords:
+- shobjidl/UNDOCK_REASON
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - UNDOCK_REASON
+- UNDOCK_REASON
 targetos: Windows
 req.typenames: UNDOCK_REASON
 req.redist: 

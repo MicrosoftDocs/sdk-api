@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ICancelMethodCalls.Cancel
 title: ICancelMethodCalls::Cancel (objidl.h)
-
 description: Requests that a method call be canceled.
 old-location: com\icancelmethodcalls_cancel.htm
 tech.root: com
 ms.assetid: 3c3fdcec-10f1-4fbf-af93-582e7390decf
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [COM], Cancel method [COM],ICancelMethodCalls interface, ICancelMethodCalls interface [COM],Cancel method, ICancelMethodCalls.Cancel, ICancelMethodCalls::Cancel, _com_icancelmethodcalls_cancel, com.icancelmethodcalls_cancel, objidlbase/ICancelMethodCalls::Cancel
 ms.topic: method
-f1_keywords: 
- - "objidl/ICancelMethodCalls.Cancel"
+f1_keywords:
+- objidl/ICancelMethodCalls.Cancel
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ICancelMethodCalls.Cancel
+- ICancelMethodCalls.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

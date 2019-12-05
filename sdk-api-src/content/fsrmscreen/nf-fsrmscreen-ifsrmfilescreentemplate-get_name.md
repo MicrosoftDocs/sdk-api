@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenTemplate.get_Name
 title: IFsrmFileScreenTemplate::get_Name (fsrmscreen.h)
-
 description: Retrieves and sets the name of the file screen template.
 old-location: fsrm\ifsrmfilescreentemplate_name.htm
 tech.root: fsrm
 ms.assetid: b72309d1-8b8e-46bc-bca4-e6e47dae88e8
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileScreenTemplate interface [File Server Resource Manager],Name property, IFsrmFileScreenTemplate.Name, IFsrmFileScreenTemplate.get_Name, IFsrmFileScreenTemplate::Name, IFsrmFileScreenTemplate::get_Name, IFsrmFileScreenTemplate::put_Name, Name property [File Server Resource Manager], Name property [File Server Resource Manager],IFsrmFileScreenTemplate interface, fs.ifsrmfilescreentemplate_name, fsrm.ifsrmfilescreentemplate_name, fsrmscreen/IFsrmFileScreenTemplate::Name, fsrmscreen/IFsrmFileScreenTemplate::get_Name, fsrmscreen/IFsrmFileScreenTemplate::put_Name, get_Name
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenTemplate.Name"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenTemplate.Name
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplate.Name
- - IFsrmFileScreenTemplate.get_Name
- - IFsrmFileScreenTemplate.put_Name
+- IFsrmFileScreenTemplate.Name
+- IFsrmFileScreenTemplate.get_Name
+- IFsrmFileScreenTemplate.put_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

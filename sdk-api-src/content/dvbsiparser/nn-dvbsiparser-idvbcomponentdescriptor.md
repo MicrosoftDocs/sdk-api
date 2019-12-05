@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbComponentDescriptor
 title: IDvbComponentDescriptor (dvbsiparser.h)
-
 description: Identifies the type of a Digital Video Broadcast (DVB) component stream and provides a text description of the component stream.
 old-location: mstv\idvbcomponentdescriptor.htm
 tech.root: mstv
 ms.assetid: 0dee15ee-5b36-4454-8092-6b57ef5063ce
-
 ms.date: 12/05/2018
 ms.keywords: IDvbComponentDescriptor, IDvbComponentDescriptor interface [Microsoft TV Technologies], IDvbComponentDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbComponentDescriptor, mstv.idvbcomponentdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbComponentDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbComponentDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbComponentDescriptor
+- IDvbComponentDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

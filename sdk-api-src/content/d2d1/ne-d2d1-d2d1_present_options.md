@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_PRESENT_OPTIONS
 title: D2D1_PRESENT_OPTIONS (d2d1.h)
-
 description: Describes how a render target behaves when it presents its content. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_PRESENT_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: 56178ee9-7d35-42e1-97f8-62835010f277
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PRESENT_OPTIONS, D2D1_PRESENT_OPTIONS enumeration [Direct2D], D2D1_PRESENT_OPTIONS_IMMEDIATELY, D2D1_PRESENT_OPTIONS_NONE, D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS, d2d1/D2D1_PRESENT_OPTIONS, d2d1/D2D1_PRESENT_OPTIONS_IMMEDIATELY, d2d1/D2D1_PRESENT_OPTIONS_NONE, d2d1/D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS, direct2d.D2D1_PRESENT_OPTIONS
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_PRESENT_OPTIONS"
+f1_keywords:
+- d2d1/D2D1_PRESENT_OPTIONS
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_PRESENT_OPTIONS
+- D2D1_PRESENT_OPTIONS
 targetos: Windows
 req.typenames: D2D1_PRESENT_OPTIONS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.GetVelocityY
 title: IManipulationProcessor::GetVelocityY (manipulations.h)
-
 description: Calculates and returns the vertical velocity.
 old-location: wintouch\imanipulationprocessor_getvelocityy.htm
 tech.root: wintouch
 ms.assetid: b531c4e5-8437-4869-9264-3fe131b8acc8
-
 ms.date: 12/05/2018
 ms.keywords: GetVelocityY, GetVelocityY method [Windows Touch], GetVelocityY method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetVelocityY method, IManipulationProcessor.GetVelocityY, IManipulationProcessor::GetVelocityY, manipulations/IManipulationProcessor::GetVelocityY, wintouch.imanipulationprocessor_getvelocityy
 ms.topic: method
-f1_keywords: 
- - "manipulations/IManipulationProcessor.GetVelocityY"
+f1_keywords:
+- manipulations/IManipulationProcessor.GetVelocityY
 dev_langs:
- - c++
+- c++
 req.header: manipulations.h
 req.include-header: Manipulations_i.c
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - manipulations.h
+- manipulations.h
 api_name:
- - IManipulationProcessor.GetVelocityY
+- IManipulationProcessor.GetVelocityY
 targetos: Windows
 req.typenames: 
 req.redist: 

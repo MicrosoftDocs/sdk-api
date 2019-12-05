@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IHolder.UntrackResource
 title: IHolder::UntrackResource (comsvcs.h)
-
 description: Stops tracking a resource.
 old-location: cos\iholder_untrackresource.htm
 tech.root: cossdk
 ms.assetid: 380b09ad-08d6-4d25-8d80-0e56d4295b8f
-
 ms.date: 12/05/2018
 ms.keywords: IHolder interface [COM+],UntrackResource method, IHolder.UntrackResource, IHolder::UntrackResource, UntrackResource, UntrackResource method [COM+], UntrackResource method [COM+],IHolder interface, _dtc_IHolder_UntrackResource, comsvcs/IHolder::UntrackResource, cos.iholder_untrackresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IHolder.UntrackResource"
+f1_keywords:
+- comsvcs/IHolder.UntrackResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IHolder.UntrackResource
+- IHolder.UntrackResource
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITPluggableTerminalSuperclassInfo
 title: ITPluggableTerminalSuperclassInfo (tapi3if.h)
-
 description: The ITPluggableTerminalSuperclassInfo interface exposes methods that get the name and CLSID of a pluggable terminal class.
 old-location: tapi3\itpluggableterminalsuperclassinfo.htm
 tech.root: Tapi
 ms.assetid: f9226af1-90e7-4317-af73-e1563883e2b6
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalSuperclassInfo, ITPluggableTerminalSuperclassInfo interface [TAPI 2.2], ITPluggableTerminalSuperclassInfo interface [TAPI 2.2],described, _tapi3_itpluggableterminalsuperclassinfo, tapi3.itpluggableterminalsuperclassinfo, tapi3if/ITPluggableTerminalSuperclassInfo
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITPluggableTerminalSuperclassInfo"
+f1_keywords:
+- tapi3if/ITPluggableTerminalSuperclassInfo
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassInfo
+- ITPluggableTerminalSuperclassInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

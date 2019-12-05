@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetSequencePaddingWidth
 title: IPhotoAcquireSettings::GetSequencePaddingWidth (photoacquire.h)
-
 description: The GetSequencePaddingWidth method retrieves a value indicating how wide sequential fields in file names will be.
 old-location: picacq\iphotoacquiresettings_getsequencepaddingwidth.htm
 tech.root: acquisition
 ms.assetid: d19a103e-0f5a-493d-a515-21d8730e39e3
-
 ms.date: 12/05/2018
 ms.keywords: GetSequencePaddingWidth, GetSequencePaddingWidth method [Picture Acquisition], GetSequencePaddingWidth method [Picture Acquisition],IPhotoAcquireSettings interface, IPhotoAcquireSettings interface [Picture Acquisition],GetSequencePaddingWidth method, IPhotoAcquireSettings.GetSequencePaddingWidth, IPhotoAcquireSettings::GetSequencePaddingWidth, IPhotoAcquireSettingsGetSequencePaddingWidth, photoacquire/IPhotoAcquireSettings::GetSequencePaddingWidth, picacq.iphotoacquiresettings_getsequencepaddingwidth
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireSettings.GetSequencePaddingWidth"
+f1_keywords:
+- photoacquire/IPhotoAcquireSettings.GetSequencePaddingWidth
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings.GetSequencePaddingWidth
+- IPhotoAcquireSettings.GetSequencePaddingWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

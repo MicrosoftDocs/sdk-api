@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_WeeksOfMonth
 title: IMonthlyDOWTrigger::get_WeeksOfMonth (taskschd.h)
-
 description: Gets or sets the weeks of the month during which the task runs.
 old-location: taskschd\imonthlydowtrigger_weeksofmonth.htm
 tech.root: taskschd
 ms.assetid: 55bbf8d6-6ff6-46a3-82e2-b5986ee3927e
-
 ms.date: 12/05/2018
 ms.keywords: IMonthlyDOWTrigger interface [Task Scheduler],WeeksOfMonth property, IMonthlyDOWTrigger.WeeksOfMonth, IMonthlyDOWTrigger.get_WeeksOfMonth, IMonthlyDOWTrigger::WeeksOfMonth, IMonthlyDOWTrigger::get_WeeksOfMonth, IMonthlyDOWTrigger::put_WeeksOfMonth, WeeksOfMonth property [Task Scheduler], WeeksOfMonth property [Task Scheduler],IMonthlyDOWTrigger interface, get_WeeksOfMonth, taskschd.imonthlydowtrigger_weeksofmonth, taskschd/IMonthlyDOWTrigger::WeeksOfMonth, taskschd/IMonthlyDOWTrigger::get_WeeksOfMonth, taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth
 ms.topic: method
-f1_keywords: 
- - "taskschd/IMonthlyDOWTrigger.WeeksOfMonth"
+f1_keywords:
+- taskschd/IMonthlyDOWTrigger.WeeksOfMonth
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IMonthlyDOWTrigger.WeeksOfMonth
- - IMonthlyDOWTrigger.get_WeeksOfMonth
- - IMonthlyDOWTrigger.put_WeeksOfMonth
+- IMonthlyDOWTrigger.WeeksOfMonth
+- IMonthlyDOWTrigger.get_WeeksOfMonth
+- IMonthlyDOWTrigger.put_WeeksOfMonth
 targetos: Windows
 req.typenames: 
 req.redist: 

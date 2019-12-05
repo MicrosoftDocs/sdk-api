@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_SEQUENCE_OF_ANY
 title: CRYPT_SEQUENCE_OF_ANY (wincrypt.h)
-
 description: Contains an arbitrary list of encoded BLOBs.
 old-location: security\crypt_sequence_of_any.htm
 tech.root: SecCrypto
 ms.assetid: 9500fa37-742b-4d37-8f45-0fb3c4cdda8d
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY structure [Security], PCRYPT_SEQUENCE_OF_ANY, PCRYPT_SEQUENCE_OF_ANY structure pointer [Security], _crypto2_crypt_sequence_of_any, security.crypt_sequence_of_any, wincrypt/CRYPT_SEQUENCE_OF_ANY, wincrypt/PCRYPT_SEQUENCE_OF_ANY"
+ms.keywords: '*PCRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY, CRYPT_SEQUENCE_OF_ANY structure [Security], PCRYPT_SEQUENCE_OF_ANY, PCRYPT_SEQUENCE_OF_ANY structure pointer [Security], _crypto2_crypt_sequence_of_any, security.crypt_sequence_of_any, wincrypt/CRYPT_SEQUENCE_OF_ANY, wincrypt/PCRYPT_SEQUENCE_OF_ANY'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_SEQUENCE_OF_ANY"
+f1_keywords:
+- wincrypt/CRYPT_SEQUENCE_OF_ANY
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_SEQUENCE_OF_ANY
+- CRYPT_SEQUENCE_OF_ANY
 targetos: Windows
 req.typenames: CRYPT_SEQUENCE_OF_ANY, *PCRYPT_SEQUENCE_OF_ANY
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.KeyIdentifierHashAlgorithm
 title: KeyIdentifierHashAlgorithm (certenroll.h)
-
 description: Specifies the algorithm used to hash the public key in a certificate request.
 old-location: security\keyidentifierhashalgorithm_enum.htm
 tech.root: seccertenroll
 ms.assetid: 80e3c730-880f-4cfa-921f-3bb88cf827f2
-
 ms.date: 12/05/2018
 ms.keywords: KeyIdentifierHashAlgorithm, KeyIdentifierHashAlgorithm enumeration [Security], SKIHashCapiSha1, SKIHashDefault, SKIHashSha1, SKIHashSha256, certenroll/KeyIdentifierHashAlgorithm, certenroll/SKIHashCapiSha1, certenroll/SKIHashDefault, certenroll/SKIHashSha1, certenroll/SKIHashSha256, security.keyidentifierhashalgorithm_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/KeyIdentifierHashAlgorithm"
+f1_keywords:
+- certenroll/KeyIdentifierHashAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - KeyIdentifierHashAlgorithm
+- KeyIdentifierHashAlgorithm
 targetos: Windows
 req.typenames: KeyIdentifierHashAlgorithm
 req.redist: 

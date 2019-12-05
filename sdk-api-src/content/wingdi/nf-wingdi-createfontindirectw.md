@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateFontIndirectW
 title: CreateFontIndirectW function (wingdi.h)
-
 description: The CreateFontIndirect function creates a logical font that has the specified characteristics. The font can subsequently be selected as the current font for any device context.
 old-location: gdi\createfontindirect.htm
 tech.root: gdi
 ms.assetid: b7919fb6-8515-4f1b-af9c-dc7eac381b90
-
 ms.date: 12/05/2018
 ms.keywords: CreateFontIndirect, CreateFontIndirect function [Windows GDI], CreateFontIndirectA, CreateFontIndirectW, _win32_CreateFontIndirect, gdi.createfontindirect, wingdi/CreateFontIndirect, wingdi/CreateFontIndirectA, wingdi/CreateFontIndirectW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateFontIndirect"
+f1_keywords:
+- wingdi/CreateFontIndirect
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-0.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-0.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreateFontIndirect
- - CreateFontIndirectA
- - CreateFontIndirectW
+- CreateFontIndirect
+- CreateFontIndirectA
+- CreateFontIndirectW
 targetos: Windows
 req.typenames: 
 req.redist: 

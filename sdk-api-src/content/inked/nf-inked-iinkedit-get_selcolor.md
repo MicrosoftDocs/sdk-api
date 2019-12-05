@@ -1,19 +1,17 @@
 ---
 UID: NF:inked.IInkEdit.get_SelColor
 title: IInkEdit::get_SelColor (inked.h)
-
 description: Gets or sets the text color of the current text selection or insertion point (run time only).
 old-location: tablet\inkedit_selcolor.htm
 tech.root: tablet
 ms.assetid: 06a4ed72-e2c2-4422-8796-39a65b19415e
-
 ms.date: 12/05/2018
 ms.keywords: IInkEdit interface [Tablet PC],SelColor property, IInkEdit.SelColor, IInkEdit.get_SelColor, IInkEdit::SelColor, IInkEdit::get_SelColor, IInkEdit::put_SelColor, InkEdit.get_SelColor, InkEdit.put_SelColor, SelColor property [Tablet PC], SelColor property [Tablet PC],IInkEdit interface, get_SelColor, inked/IInkEdit::SelColor, inked/IInkEdit::get_SelColor, inked/IInkEdit::put_SelColor, put_SelColor, tablet.inkedit_selcolor
 ms.topic: method
-f1_keywords: 
- - "inked/IInkEdit.SelColor"
+f1_keywords:
+- inked/IInkEdit.SelColor
 dev_langs:
- - c++
+- c++
 req.header: inked.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - inked.h
+- inked.h
 api_name:
- - IInkEdit.SelColor
- - IInkEdit.get_SelColor
- - IInkEdit.put_SelColor
- - InkEdit.get_SelColor
- - InkEdit.put_SelColor
+- IInkEdit.SelColor
+- IInkEdit.get_SelColor
+- IInkEdit.put_SelColor
+- InkEdit.get_SelColor
+- InkEdit.put_SelColor
 targetos: Windows
 req.typenames: 
 req.redist: 

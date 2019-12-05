@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluseffects.HueSaturationLightness.GetParameters
 title: HueSaturationLightness::GetParameters (gdipluseffects.h)
-
 description: The HueSaturationLightness::GetParameters method gets the current values of the parameters of this HueSaturationLightness object.
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessmethods\getparameters.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetParameters, GetParameters method [GDI+], GetParameters method [GDI+],HueSaturationLightness class, HueSaturationLightness class [GDI+],GetParameters method, HueSaturationLightness.GetParameters, HueSaturationLightness::GetParameters, _gdiplus_CLASS_HueSaturationLightness_GetParameters_, gdiplus._gdiplus_CLASS_HueSaturationLightness_GetParameters_
 ms.topic: method
-f1_keywords: 
- - "gdipluseffects/HueSaturationLightness.GetParameters"
+f1_keywords:
+- gdipluseffects/HueSaturationLightness.GetParameters
 dev_langs:
- - c++
+- c++
 req.header: gdipluseffects.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - HueSaturationLightness.GetParameters
+- HueSaturationLightness.GetParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

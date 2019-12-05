@@ -1,19 +1,17 @@
 ---
 UID: NF:winml.IWinMLRuntime.CreateEvaluationContext
 title: IWinMLRuntime::CreateEvaluationContext (winml.h)
-
 description: Creates a WinML evaluation context object.
 old-location: machinelearning\iwinmlruntime_createevaluationcontext.htm
 tech.root: MachineLearning
 ms.assetid: 629D49AF-0AD9-4741-9A59-4B83F521723A
-
 ms.date: 12/05/2018
 ms.keywords: CreateEvaluationContext, CreateEvaluationContext method, CreateEvaluationContext method,IWinMLRuntime interface, IWinMLRuntime interface,CreateEvaluationContext method, IWinMLRuntime.CreateEvaluationContext, IWinMLRuntime::CreateEvaluationContext, MachineLearning.iwinmlruntime_createevaluationcontext, winml/IWinMLRuntime::CreateEvaluationContext
 ms.topic: method
-f1_keywords: 
- - "winml/IWinMLRuntime.CreateEvaluationContext"
+f1_keywords:
+- winml/IWinMLRuntime.CreateEvaluationContext
 dev_langs:
- - c++
+- c++
 req.header: winml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winml.lib
 req.dll: Winml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winml.dll
+- winml.dll
 api_name:
- - IWinMLRuntime.CreateEvaluationContext
+- IWinMLRuntime.CreateEvaluationContext
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0003
 title: UI_ANIMATION_MODE (uianimation.h)
-
 description: Defines animation modes.
 old-location: uianimation\ui_animation_mode.htm
 tech.root: UIAnimation
 ms.assetid: b8995687-c0dc-4cd7-b11a-f871172895f9
-
 ms.date: 12/05/2018
 ms.keywords: UI_ANIMATION_MODE, UI_ANIMATION_MODE enumeration [Windows Animation], UI_ANIMATION_MODE_DISABLED, UI_ANIMATION_MODE_ENABLED, UI_ANIMATION_MODE_SYSTEM_DEFAULT, uianimation.ui_animation_mode, uianimation/UI_ANIMATION_MODE, uianimation/UI_ANIMATION_MODE_DISABLED, uianimation/UI_ANIMATION_MODE_ENABLED, uianimation/UI_ANIMATION_MODE_SYSTEM_DEFAULT
 ms.topic: enum
-f1_keywords: 
- - "uianimation/UI_ANIMATION_MODE"
+f1_keywords:
+- uianimation/UI_ANIMATION_MODE
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAnimation.h
+- UIAnimation.h
 api_name:
- - UI_ANIMATION_MODE
+- UI_ANIMATION_MODE
 targetos: Windows
 req.typenames: UI_ANIMATION_MODE
 req.redist: 

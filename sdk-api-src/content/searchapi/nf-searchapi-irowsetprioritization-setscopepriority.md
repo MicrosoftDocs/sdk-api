@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.SetScopePriority
 title: IRowsetPrioritization::SetScopePriority (searchapi.h)
-
 description: Sets the current indexer prioritization level for the scope specified by this query.
 old-location: search\_search_IRowsetPrioritization_SetScopePriority.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\setscopepriority.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRowsetPrioritization interface [search],SetScopePriority method, IRowsetPrioritization.SetScopePriority, IRowsetPrioritization::SetScopePriority, SetScopePriority, SetScopePriority method [search], SetScopePriority method [search],IRowsetPrioritization interface, _search_IRowsetPrioritization_SetScopePriority, search._search_IRowsetPrioritization_SetScopePriority, searchapi/IRowsetPrioritization::SetScopePriority
 ms.topic: method
-f1_keywords: 
- - "searchapi/IRowsetPrioritization.SetScopePriority"
+f1_keywords:
+- searchapi/IRowsetPrioritization.SetScopePriority
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IRowsetPrioritization.SetScopePriority
+- IRowsetPrioritization.SetScopePriority
 targetos: Windows
 req.typenames: 
 req.redist: 

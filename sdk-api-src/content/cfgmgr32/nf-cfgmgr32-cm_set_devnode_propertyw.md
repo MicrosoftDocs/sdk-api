@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Set_DevNode_PropertyW
 title: CM_Set_DevNode_PropertyW function (cfgmgr32.h)
-
 description: The CM_Set_DevNode_Property function sets a device instance property.
 old-location: devinst\cm_set_devnode_property.htm
 tech.root: devinst
 ms.assetid: D6511A3B-F324-4153-8EAE-8C970AAE4E9D
-
 ms.date: 12/05/2018
 ms.keywords: CM_Set_DevNode_Property, CM_Set_DevNode_Property function [Device and Driver Installation], CM_Set_DevNode_PropertyW, cfgmgr32/CM_Set_DevNode_Property, cfgmgr32/CM_Set_DevNode_PropertyW, devinst.cm_set_devnode_property
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Set_DevNode_Property"
+f1_keywords:
+- cfgmgr32/CM_Set_DevNode_Property
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,19 +30,19 @@ req.lib: Cfgmgr32.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.lib
- - Cfgmgr32.dll
- - API-Ms-Win-Devices-Config-L1-1-0.dll
- - API-Ms-Win-Devices-Config-L1-1-1.dll
- - CfgMgr32.dll
+- Cfgmgr32.lib
+- Cfgmgr32.dll
+- API-Ms-Win-Devices-Config-L1-1-0.dll
+- API-Ms-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
 api_name:
- - CM_Set_DevNode_Property
- - CM_Set_DevNode_PropertyW
+- CM_Set_DevNode_Property
+- CM_Set_DevNode_PropertyW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.Validate
 title: IX509EnrollmentPolicyServer::Validate (certenroll.h)
-
 description: Validates the current policy information.
 old-location: security\ix509enrollmentpolicyserver_validate.htm
 tech.root: seccertenroll
 ms.assetid: ab58622e-79a6-4a1b-a0e2-74efb81c7062
-
 ms.date: 12/05/2018
 ms.keywords: IX509EnrollmentPolicyServer interface [Security],Validate method, IX509EnrollmentPolicyServer.Validate, IX509EnrollmentPolicyServer::Validate, Validate, Validate method [Security], Validate method [Security],IX509EnrollmentPolicyServer interface, certenroll/IX509EnrollmentPolicyServer::Validate, security.ix509enrollmentpolicyserver_validate
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509EnrollmentPolicyServer.Validate"
+f1_keywords:
+- certenroll/IX509EnrollmentPolicyServer.Validate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer.Validate
+- IX509EnrollmentPolicyServer.Validate
 targetos: Windows
 req.typenames: 
 req.redist: 

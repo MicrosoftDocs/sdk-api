@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChaptersAutoStop
 title: IDvdControl2::PlayChaptersAutoStop (strmif.h)
-
 description: The PlayChaptersAutoStop method plays the number of chapters specified, starting at the specified chapter within the specified title.
 old-location: dshow\idvdcontrol2_playchaptersautostop.htm
 tech.root: DirectShow
 ms.assetid: fdf9642b-ac90-4ffc-a813-4a5b22a973dd
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],PlayChaptersAutoStop method, IDvdControl2.PlayChaptersAutoStop, IDvdControl2::PlayChaptersAutoStop, IDvdControl2PlayChaptersAutoStop, PlayChaptersAutoStop, PlayChaptersAutoStop method [DirectShow], PlayChaptersAutoStop method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_playchaptersautostop, strmif/IDvdControl2::PlayChaptersAutoStop
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.PlayChaptersAutoStop"
+f1_keywords:
+- strmif/IDvdControl2.PlayChaptersAutoStop
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.PlayChaptersAutoStop
+- IDvdControl2.PlayChaptersAutoStop
 targetos: Windows
 req.typenames: 
 req.redist: 

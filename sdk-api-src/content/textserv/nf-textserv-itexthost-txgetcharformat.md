@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxGetCharFormat
 title: ITextHost::TxGetCharFormat (textserv.h)
-
 description: Requests the text host's default character format.
 old-location: controls\ITextHost_TxGetCharFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txgetcharformat.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxGetCharFormat method, ITextHost.TxGetCharFormat, ITextHost::TxGetCharFormat, TxGetCharFormat, TxGetCharFormat method [Windows Controls], TxGetCharFormat method [Windows Controls],ITextHost interface, _win32_ITextHost_TxGetCharFormat, _win32_ITextHost_TxGetCharFormat_cpp, controls.ITextHost_TxGetCharFormat, controls._win32_ITextHost_TxGetCharFormat, textserv/ITextHost::TxGetCharFormat
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxGetCharFormat"
+f1_keywords:
+- textserv/ITextHost.TxGetCharFormat
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxGetCharFormat
+- ITextHost.TxGetCharFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IStringCollection.RemoveAt
 title: IStringCollection::RemoveAt (wuapi.h)
-
 description: Removes the item at the specified index from the collection.
 old-location: wua\istringcollection_removeat.htm
 tech.root: Wua_Sdk
 ms.assetid: a0b350b0-d5b4-49c6-acca-a50719d92262
-
 ms.date: 12/05/2018
 ms.keywords: IStringCollection interface [Windows Update Agent],RemoveAt method, IStringCollection.RemoveAt, IStringCollection::RemoveAt, RemoveAt, RemoveAt method [Windows Update Agent], RemoveAt method [Windows Update Agent],IStringCollection interface, wua.istringcollection_removeat, wuapi/IStringCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "wuapi/IStringCollection.RemoveAt"
+f1_keywords:
+- wuapi/IStringCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection.RemoveAt
+- IStringCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

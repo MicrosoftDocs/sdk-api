@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzObjectPicker.get_Name
 title: IAzObjectPicker::get_Name (azroles.h)
-
 description: Gets the name of the IAzObjectPicker object.
 old-location: security\iazobjectpicker_name_method.htm
 tech.root: SecAuthZ
 ms.assetid: b42ebb74-deb0-4182-8447-2c7886963a7e
-
 ms.date: 12/05/2018
 ms.keywords: IAzObjectPicker interface [Security],Name property, IAzObjectPicker.Name, IAzObjectPicker.get_Name, IAzObjectPicker::Name, IAzObjectPicker::get_Name, Name property [Security], Name property [Security],IAzObjectPicker interface, azroles/IAzObjectPicker::Name, azroles/IAzObjectPicker::get_Name, get_Name, security.iazobjectpicker_name_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzObjectPicker.Name"
+f1_keywords:
+- azroles/IAzObjectPicker.Name
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzObjectPicker.Name
- - IAzObjectPicker.get_Name
+- IAzObjectPicker.Name
+- IAzObjectPicker.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

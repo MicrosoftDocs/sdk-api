@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLegacyCallMediaControl.GetID
 title: ITLegacyCallMediaControl::GetID (tapi3if.h)
-
 description: The GetID method gets the identifier for the device associated with the current call.
 old-location: tapi3\itlegacycallmediacontrol_getid.htm
 tech.root: Tapi
 ms.assetid: 7516f929-d782-499b-a9fb-24c44a85aa9e
-
 ms.date: 12/05/2018
 ms.keywords: GetID, GetID method [TAPI 2.2], GetID method [TAPI 2.2],ITLegacyCallMediaControl interface, ITLegacyCallMediaControl interface [TAPI 2.2],GetID method, ITLegacyCallMediaControl.GetID, ITLegacyCallMediaControl::GetID, _tapi3_itlegacycallmediacontrol_getid, tapi3.itlegacycallmediacontrol_getid, tapi3if/ITLegacyCallMediaControl::GetID
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLegacyCallMediaControl.GetID"
+f1_keywords:
+- tapi3if/ITLegacyCallMediaControl.GetID
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl.GetID
+- ITLegacyCallMediaControl.GetID
 targetos: Windows
 req.typenames: 
 req.redist: 

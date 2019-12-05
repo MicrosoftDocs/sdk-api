@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetAddAlternateComputerName
 title: NetAddAlternateComputerName function (lmjoin.h)
-
 description: Adds an alternate name for the specified computer.
 old-location: netmgmt\netaddalternatecomputername.htm
 tech.root: NetMgmt
 ms.assetid: 710865c6-e327-439c-931d-de8674d69233
-
 ms.date: 12/05/2018
 ms.keywords: NetAddAlternateComputerName, NetAddAlternateComputerName function [Network Management], lmjoin/NetAddAlternateComputerName, netmgmt.netaddalternatecomputername
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetAddAlternateComputerName"
+f1_keywords:
+- lmjoin/NetAddAlternateComputerName
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAddAlternateComputerName
+- NetAddAlternateComputerName
 targetos: Windows
 req.typenames: 
 req.redist: 

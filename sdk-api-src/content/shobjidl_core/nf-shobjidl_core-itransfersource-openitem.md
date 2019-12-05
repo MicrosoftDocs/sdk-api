@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ITransferSource.OpenItem
 title: ITransferSource::OpenItem (shobjidl_core.h)
-
 description: Opens the item for copying. Returns an object that can be enumerated for resources (IShellItemResources).
 old-location: shell\ITransferSource_OpenItem.htm
 tech.root: shell
 ms.assetid: 8f051923-2798-43e9-8e8d-95eec5f618aa
-
 ms.date: 12/05/2018
 ms.keywords: ITransferSource interface [Windows Shell],OpenItem method, ITransferSource.OpenItem, ITransferSource::OpenItem, OpenItem, OpenItem method [Windows Shell], OpenItem method [Windows Shell],ITransferSource interface, _shell_ITransferSource_OpenItem, shell.ITransferSource_OpenItem, shobjidl_core/ITransferSource::OpenItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ITransferSource.OpenItem"
+f1_keywords:
+- shobjidl_core/ITransferSource.OpenItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferSource.OpenItem
+- ITransferSource.OpenItem
 targetos: Windows
 req.typenames: 
 req.redist: 

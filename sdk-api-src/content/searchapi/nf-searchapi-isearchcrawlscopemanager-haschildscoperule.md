@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.HasChildScopeRule
 title: ISearchCrawlScopeManager::HasChildScopeRule (searchapi.h)
-
 description: Identifies whether a given URL has a child rule in scope.
 old-location: search\_search_ISearchCrawlScopeManager_HasChildScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\haschildscoperule.htm
-
 ms.date: 12/05/2018
 ms.keywords: HasChildScopeRule, HasChildScopeRule method [search], HasChildScopeRule method [search],ISearchCrawlScopeManager interface, ISearchCrawlScopeManager interface [search],HasChildScopeRule method, ISearchCrawlScopeManager.HasChildScopeRule, ISearchCrawlScopeManager::HasChildScopeRule, _search_ISearchCrawlScopeManager_HasChildScopeRule, search._search_ISearchCrawlScopeManager_HasChildScopeRule, searchapi/ISearchCrawlScopeManager::HasChildScopeRule
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCrawlScopeManager.HasChildScopeRule"
+f1_keywords:
+- searchapi/ISearchCrawlScopeManager.HasChildScopeRule
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCrawlScopeManager.HasChildScopeRule
+- ISearchCrawlScopeManager.HasChildScopeRule
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

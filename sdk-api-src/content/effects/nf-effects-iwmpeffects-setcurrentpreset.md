@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects.SetCurrentPreset
 title: IWMPEffects::SetCurrentPreset (effects.h)
-
 description: The SetCurrentPreset method gets the current preset from Windows Media Player and sets it in the visualization.
 old-location: wmp\iwmpeffects_setcurrentpreset.htm
 tech.root: WMP
 ms.assetid: 090e5f9b-e7f1-48b6-9018-3d0797493d42
-
 ms.date: 12/05/2018
 ms.keywords: EffectsSetCurrentPreset, IWMPEffects interface [Windows Media Player],SetCurrentPreset method, IWMPEffects.SetCurrentPreset, IWMPEffects::SetCurrentPreset, SetCurrentPreset, SetCurrentPreset method [Windows Media Player], SetCurrentPreset method [Windows Media Player],IWMPEffects interface, effects/IWMPEffects::SetCurrentPreset, wmp.iwmpeffects_setcurrentpreset
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects.SetCurrentPreset"
+f1_keywords:
+- effects/IWMPEffects.SetCurrentPreset
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects.SetCurrentPreset
+- IWMPEffects.SetCurrentPreset
 targetos: Windows
 req.typenames: 
 req.redist: 

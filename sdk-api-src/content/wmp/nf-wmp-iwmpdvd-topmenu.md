@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPDVD.topMenu
 title: IWMPDVD::topMenu (wmp.h)
-
 description: The topMenu method stops playback and displays the top (or root) menu for the current title.
 old-location: wmp\iwmpdvd_topmenu.htm
 tech.root: WMP
 ms.assetid: 5b96763f-a174-45df-b988-955f9619a4c1
-
 ms.date: 12/05/2018
 ms.keywords: IWMPDVD interface [Windows Media Player],topMenu method, IWMPDVD.topMenu, IWMPDVD::topMenu, IWMPDVDtopMenu, topMenu, topMenu method [Windows Media Player], topMenu method [Windows Media Player],IWMPDVD interface, wmp.iwmpdvd_topmenu, wmp/IWMPDVD::topMenu
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPDVD.topMenu"
+f1_keywords:
+- wmp/IWMPDVD.topMenu
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPDVD.topMenu
+- IWMPDVD.topMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.isIdentical
 title: IWMPSyncDevice::isIdentical (wmp.h)
-
 description: The isIdentical method compares the current device to the specified device and retrieves a value indicating whether they are the same device.
 old-location: wmp\iwmpsyncdevice_isidentical.htm
 tech.root: WMP
 ms.assetid: 4335d480-5af0-4764-b8f8-0e6edc1598b7
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],isIdentical method, IWMPSyncDevice.isIdentical, IWMPSyncDevice::isIdentical, IWMPSyncDeviceisIdentical, isIdentical, isIdentical method [Windows Media Player], isIdentical method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_isidentical, wmp/IWMPSyncDevice::isIdentical
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.isIdentical"
+f1_keywords:
+- wmp/IWMPSyncDevice.isIdentical
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.isIdentical
+- IWMPSyncDevice.isIdentical
 targetos: Windows
 req.typenames: 
 req.redist: 

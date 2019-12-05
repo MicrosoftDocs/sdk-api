@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetCmdFromEvent
 title: IDvdInfo2::GetCmdFromEvent (strmif.h)
-
 description: The GetCmdFromEvent method retrieves an IDvdCmd object from an EC_DVD_CMD_START or EC_DVD_CMD_END event.
 old-location: dshow\idvdinfo2_getcmdfromevent.htm
 tech.root: DirectShow
 ms.assetid: 488a394f-222f-4536-a20a-579df5c2f91f
-
 ms.date: 12/05/2018
 ms.keywords: GetCmdFromEvent, GetCmdFromEvent method [DirectShow], GetCmdFromEvent method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetCmdFromEvent method, IDvdInfo2.GetCmdFromEvent, IDvdInfo2::GetCmdFromEvent, IDvdInfo2GetCmdFromEvent, dshow.idvdinfo2_getcmdfromevent, strmif/IDvdInfo2::GetCmdFromEvent
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetCmdFromEvent"
+f1_keywords:
+- strmif/IDvdInfo2.GetCmdFromEvent
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetCmdFromEvent
+- IDvdInfo2.GetCmdFromEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

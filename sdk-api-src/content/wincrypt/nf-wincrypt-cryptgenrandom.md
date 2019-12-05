@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptGenRandom
 title: CryptGenRandom function (wincrypt.h)
-
 description: Fills a buffer with cryptographically random bytes.
 old-location: security\cryptgenrandom.htm
 tech.root: SecCrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6
-
 ms.date: 12/05/2018
 ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptgenrandom, security.cryptgenrandom, wincrypt/CryptGenRandom
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptGenRandom"
+f1_keywords:
+- wincrypt/CryptGenRandom
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptGenRandom
+- CryptGenRandom
 targetos: Windows
 req.typenames: 
 req.redist: 

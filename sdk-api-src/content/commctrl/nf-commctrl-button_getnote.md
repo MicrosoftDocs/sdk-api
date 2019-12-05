@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Button_GetNote
 title: Button_GetNote macro (commctrl.h)
-
 description: Gets the text of the note associated with a command link button. You can use this macro or send the BCM_GETNOTE message explicitly.
 old-location: controls\Button_GetNote.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnote.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_GetNote, Button_GetNote macro [Windows Controls], _shell_Button_GetNote, _shell_Button_GetNote_cpp, commctrl/Button_GetNote, controls.Button_GetNote, controls._shell_Button_GetNote
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Button_GetNote"
+f1_keywords:
+- commctrl/Button_GetNote
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Button_GetNote
+- Button_GetNote
 targetos: Windows
 req.typenames: 
 req.redist: 

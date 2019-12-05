@@ -1,19 +1,17 @@
 ---
 UID: NF:msdrm.DRMAcquireAdvisories
 title: DRMAcquireAdvisories function (msdrm.h)
-
 description: Retrieves revocation lists required by a submitted license.
 old-location: rm\drmacquireadvisories.htm
 tech.root: AdRms_Sdk
 ms.assetid: 42c58096-429c-4278-b9ab-8c5a91361af8
-
 ms.date: 12/05/2018
 ms.keywords: DRMAcquireAdvisories, DRMAcquireAdvisories function [Active Directory Rights Management Services SDK 1.0], msdrm/DRMAcquireAdvisories, rm.drmacquireadvisories
 ms.topic: function
-f1_keywords: 
- - "msdrm/DRMAcquireAdvisories"
+f1_keywords:
+- msdrm/DRMAcquireAdvisories
 dev_langs:
- - c++
+- c++
 req.header: msdrm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Msdrm.lib
 req.dll: Msdrm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msdrm.dll
+- Msdrm.dll
 api_name:
- - DRMAcquireAdvisories
+- DRMAcquireAdvisories
 targetos: Windows
 req.typenames: 
 req.redist: 

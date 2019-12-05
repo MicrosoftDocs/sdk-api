@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._CRYPT_CONTEXTS
 title: CRYPT_CONTEXTS (bcrypt.h)
-
 description: Contains a set of CNG configuration context identifiers.
 old-location: security\crypt_contexts.htm
 tech.root: SecCNG
 ms.assetid: a1b60660-a4c5-4880-8cd4-48d8717c77c3
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_CONTEXTS, CRYPT_CONTEXTS, CRYPT_CONTEXTS structure [Security], PCRYPT_CONTEXTS, PCRYPT_CONTEXTS structure pointer [Security], bcrypt/CRYPT_CONTEXTS, bcrypt/PCRYPT_CONTEXTS, security.crypt_contexts"
+ms.keywords: '*PCRYPT_CONTEXTS, CRYPT_CONTEXTS, CRYPT_CONTEXTS structure [Security], PCRYPT_CONTEXTS, PCRYPT_CONTEXTS structure pointer [Security], bcrypt/CRYPT_CONTEXTS, bcrypt/PCRYPT_CONTEXTS, security.crypt_contexts'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_CONTEXTS"
+f1_keywords:
+- bcrypt/CRYPT_CONTEXTS
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_CONTEXTS
+- CRYPT_CONTEXTS
 targetos: Windows
 req.typenames: CRYPT_CONTEXTS, *PCRYPT_CONTEXTS
 req.redist: 

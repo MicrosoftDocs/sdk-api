@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont.SetLanguageID
 title: ITextFont::SetLanguageID (tom.h)
-
 description: Sets the language ID or language code identifier (LCID).
 old-location: controls\ITextFont_SetLanguageID.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setlanguageid.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextFont interface [Windows Controls],SetLanguageID method, ITextFont.SetLanguageID, ITextFont::SetLanguageID, SetLanguageID, SetLanguageID method [Windows Controls], SetLanguageID method [Windows Controls],ITextFont interface, _win32_ITextFont_SetLanguageID, _win32_ITextFont_SetLanguageID_cpp, controls.ITextFont_SetLanguageID, controls._win32_ITextFont_SetLanguageID, tom/ITextFont::SetLanguageID
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont.SetLanguageID"
+f1_keywords:
+- tom/ITextFont.SetLanguageID
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont.SetLanguageID
+- ITextFont.SetLanguageID
 targetos: Windows
 req.typenames: 
 req.redist: 

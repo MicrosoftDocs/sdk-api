@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IS_SPECIAL_COOKIE
 title: IS_SPECIAL_COOKIE macro (mmc.h)
-
 description: The IS_SPECIAL_COOKIE macro determines whether an MMC_COOKIE value passed by MMC in a call to the snap-in's IComponent::QueryDataObject method is a special type of cookie.
 old-location: mmc\is_special_cookie.htm
 tech.root: mmc
 ms.assetid: 6638474e-987a-452b-90f1-30700df34ef2
-
 ms.date: 12/05/2018
 ms.keywords: IS_SPECIAL_COOKIE, IS_SPECIAL_COOKIE macro [MMC], _slate_is_special_cookie, mmc.is_special_cookie, mmc/IS_SPECIAL_COOKIE
 ms.topic: macro
-f1_keywords: 
- - "mmc/IS_SPECIAL_COOKIE"
+f1_keywords:
+- mmc/IS_SPECIAL_COOKIE
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IS_SPECIAL_COOKIE
+- IS_SPECIAL_COOKIE
 targetos: Windows
 req.typenames: 
 req.redist: 

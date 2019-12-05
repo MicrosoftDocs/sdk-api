@@ -1,19 +1,17 @@
 ---
 UID: NF:certif.ICertServerExit.GetCertificateExtensionFlags
 title: ICertServerExit::GetCertificateExtensionFlags (certif.h)
-
 description: Gets the flags from the extension acquired by the most recent call to ICertServerExit::GetCertificateExtension.
 old-location: security\icertserverexit_getcertificateextensionflags.htm
 tech.root: SecCrypto
 ms.assetid: 0eee1d67-116b-4f93-9273-b70d50fa2c5d
-
 ms.date: 12/05/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerExit object, GetCertificateExtensionFlags method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtensionFlags method, ICertServerExit.GetCertificateExtensionFlags, ICertServerExit::GetCertificateExtensionFlags, _certsrv_icertserverexit_getcertificateextensionflags, certif/ICertServerExit::GetCertificateExtensionFlags, security.icertserverexit_getcertificateextensionflags
 ms.topic: method
-f1_keywords: 
- - "certif/ICertServerExit.GetCertificateExtensionFlags"
+f1_keywords:
+- certif/ICertServerExit.GetCertificateExtensionFlags
 dev_langs:
- - c++
+- c++
 req.header: certif.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certcli.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certcli.dll
+- Certcli.dll
 api_name:
- - ICertServerExit.GetCertificateExtensionFlags
- - CCertServerExit.GetCertificateExtensionFlags
+- ICertServerExit.GetCertificateExtensionFlags
+- CCertServerExit.GetCertificateExtensionFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

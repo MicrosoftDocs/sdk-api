@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutGetDevCaps
 title: waveOutGetDevCaps function (mmeapi.h)
-
 description: The waveOutGetDevCaps function retrieves the capabilities of a given waveform-audio output device.
 old-location: multimedia\waveoutgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: 294daf81-d52a-44b4-b22a-d75ad6e05fee
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutGetDevCaps, mmeapi/waveOutGetDevCaps, multimedia.waveoutgetdevcaps, waveOutGetDevCaps, waveOutGetDevCaps function [Windows Multimedia]"
+ms.keywords: _win32_waveOutGetDevCaps, mmeapi/waveOutGetDevCaps, multimedia.waveoutgetdevcaps, waveOutGetDevCaps, waveOutGetDevCaps function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutGetDevCaps"
+f1_keywords:
+- mmeapi/waveOutGetDevCaps
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
+- Winmm.dll
 api_name:
- - waveOutGetDevCaps
+- waveOutGetDevCaps
 targetos: Windows
 req.typenames: 
 req.redist: 

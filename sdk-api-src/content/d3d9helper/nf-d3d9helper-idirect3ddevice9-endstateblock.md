@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.EndStateBlock
 title: IDirect3DDevice9::EndStateBlock (d3d9helper.h)
-
 description: Signals Direct3D to stop recording a device-state block and retrieve a pointer to the state block interface.
 old-location: direct3d9\idirect3ddevice9__endstateblock.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__endstateblock.htm
-
 ms.date: 12/05/2018
 ms.keywords: 1893d4cf-9e96-8cbc-4c69-17f309bf0986, EndStateBlock, EndStateBlock method [Direct3D 9], EndStateBlock method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],EndStateBlock method, IDirect3DDevice9.EndStateBlock, IDirect3DDevice9::EndStateBlock, d3d9helper/IDirect3DDevice9::EndStateBlock, direct3d9.idirect3ddevice9__endstateblock
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.EndStateBlock"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.EndStateBlock
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.EndStateBlock
+- IDirect3DDevice9.EndStateBlock
 targetos: Windows
 req.typenames: 
 req.redist: 

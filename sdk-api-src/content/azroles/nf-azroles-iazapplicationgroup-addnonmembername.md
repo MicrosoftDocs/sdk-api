@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.AddNonMemberName
 title: IAzApplicationGroup::AddNonMemberName (azroles.h)
-
 description: Adds the specified account name to the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_addnonmembername.htm
 tech.root: SecAuthZ
 ms.assetid: 56bde3d9-f4f7-449d-a080-5215dda940a0
-
 ms.date: 12/05/2018
 ms.keywords: AddNonMemberName, AddNonMemberName method [Security], AddNonMemberName method [Security],AzApplicationGroup object, AddNonMemberName method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddNonMemberName method, IAzApplicationGroup interface [Security],AddNonMemberName method, IAzApplicationGroup.AddNonMemberName, IAzApplicationGroup::AddNonMemberName, azroles/IAzApplicationGroup::AddNonMemberName, security.iazapplicationgroup_addnonmembername
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.AddNonMemberName"
+f1_keywords:
+- azroles/IAzApplicationGroup.AddNonMemberName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.AddNonMemberName
- - AzApplicationGroup.AddNonMemberName
+- IAzApplicationGroup.AddNonMemberName
+- AzApplicationGroup.AddNonMemberName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.tag_SCRIPT_TABDEF
 title: SCRIPT_TABDEF (usp10.h)
-
 description: Contains definitions of the tab positions for ScriptStringAnalyse.
 old-location: intl\script_tabdef.htm
 tech.root: Intl
 ms.assetid: 023ec258-b3f9-4ea2-8c9d-838df1442068
-
 ms.date: 12/05/2018
 ms.keywords: SCRIPT_TABDEF, SCRIPT_TABDEF structure [Internationalization for Windows Applications], _win32_SCRIPT_TABDEF_str, intl.script_tabdef, usp10/SCRIPT_TABDEF
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_TABDEF"
+f1_keywords:
+- usp10/SCRIPT_TABDEF
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_TABDEF
+- SCRIPT_TABDEF
 targetos: Windows
 req.typenames: SCRIPT_TABDEF
 req.redist: Internet Explorer 5 or later onWindows Me/98/95

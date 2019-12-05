@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkTransform.Reflect
 title: IInkTransform::Reflect (msinkaut.h)
-
 description: Performs reflection on a transform in either horizontal or vertical directions.
 old-location: tablet\inktransform_reflect.htm
 tech.root: tablet
 ms.assetid: ebecd285-4dc4-4f4a-9d07-a3287b0438e9
-
 ms.date: 12/05/2018
 ms.keywords: IInkTransform interface [Tablet PC],Reflect method, IInkTransform.Reflect, IInkTransform::Reflect, Reflect, Reflect method [Tablet PC], Reflect method [Tablet PC],IInkTransform interface, ebecd285-4dc4-4f4a-9d07-a3287b0438e9, msinkaut/IInkTransform::Reflect, tablet.inktransform_reflect
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkTransform.Reflect"
+f1_keywords:
+- msinkaut/IInkTransform.Reflect
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkTransform.Reflect
+- IInkTransform.Reflect
 targetos: Windows
 req.typenames: 
 req.redist: 

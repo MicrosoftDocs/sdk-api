@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedAcceleratorKey
 title: IUIAutomationElement::get_CachedAcceleratorKey (uiautomationclient.h)
-
 description: Retrieves the cached accelerator key for the element.
 old-location: winauto\uiauto_IUIAutomationElement_CachedAcceleratorKey.htm
 tech.root: WinAuto
 ms.assetid: 52767d3d-7cda-4973-894b-d5e5996c7439
-
 ms.date: 12/05/2018
 ms.keywords: CachedAcceleratorKey property [Windows Accessibility], CachedAcceleratorKey property [Windows Accessibility],IUIAutomationElement interface, IUIAutomationElement interface [Windows Accessibility],CachedAcceleratorKey property, IUIAutomationElement.CachedAcceleratorKey, IUIAutomationElement.get_CachedAcceleratorKey, IUIAutomationElement::CachedAcceleratorKey, IUIAutomationElement::get_CachedAcceleratorKey, get_CachedAcceleratorKey, uiauto.uiauto_IUIAutomationElement_CachedAcceleratorKey, uiauto_IUIAutomationElement_CachedAcceleratorKey, uiautomationclient/IUIAutomationElement::CachedAcceleratorKey, uiautomationclient/IUIAutomationElement::get_CachedAcceleratorKey, winauto.uiauto_IUIAutomationElement_CachedAcceleratorKey
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationElement.CachedAcceleratorKey"
+f1_keywords:
+- uiautomationclient/IUIAutomationElement.CachedAcceleratorKey
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationElement.CachedAcceleratorKey
- - IUIAutomationElement.get_CachedAcceleratorKey
+- IUIAutomationElement.CachedAcceleratorKey
+- IUIAutomationElement.get_CachedAcceleratorKey
 targetos: Windows
 req.typenames: 
 req.redist: 

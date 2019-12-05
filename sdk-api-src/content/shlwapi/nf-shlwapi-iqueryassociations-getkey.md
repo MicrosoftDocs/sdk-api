@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IQueryAssociations.GetKey
 title: IQueryAssociations::GetKey (shlwapi.h)
-
 description: Searches for and retrieves a file or protocol association-related key from the registry.
 old-location: shell\IQueryAssociations_GetKey.htm
 tech.root: shell
 ms.assetid: 7f380a9e-fda0-46be-88a1-fd73b0a4b7b7
-
 ms.date: 12/05/2018
 ms.keywords: GetKey, GetKey method [Windows Shell], GetKey method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetKey method, IQueryAssociations.GetKey, IQueryAssociations::GetKey, _win32_IQueryAssociations_GetKey, shell.IQueryAssociations_GetKey, shlwapi/IQueryAssociations::GetKey
 ms.topic: method
-f1_keywords: 
- - "shlwapi/IQueryAssociations.GetKey"
+f1_keywords:
+- shlwapi/IQueryAssociations.GetKey
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shlwapi.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IQueryAssociations.GetKey
+- IQueryAssociations.GetKey
 targetos: Windows
 req.typenames: 
 req.redist: 

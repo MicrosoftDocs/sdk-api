@@ -1,17 +1,15 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference1.GetFontAxisValues
 title: IDWriteFontFaceReference1::GetFontAxisValues
-
 description: Retrieves the list of font axis values specified by the reference.
 tech.root: DirectWrite
-
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontFaceReference1 interface [Direct Write],GetFontAxisValues method, IDWriteFontFaceReference1.GetFontAxisValues, IDWriteFontFaceReference1::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteFontFaceReference1 interface, directwrite.idwritefontfacereference1_getfontaxisvalues, dwrite_3/IDWriteFontFaceReference1::GetFontAxisValues
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFaceReference1.GetFontAxisValues"
+f1_keywords:
+- dwrite_3/IDWriteFontFaceReference1.GetFontAxisValues
 dev_langs:
- - c++
+- c++
 req.construct-type: function
 req.header: dwrite_3.h
 req.include-header: 
@@ -31,15 +29,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFontFaceReference1::GetFontAxisValues
+- IDWriteFontFaceReference1::GetFontAxisValues
 targetos: Windows
 req.typenames: 
 req.redist: 

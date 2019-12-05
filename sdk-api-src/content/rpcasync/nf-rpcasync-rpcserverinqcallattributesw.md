@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcasync.RpcServerInqCallAttributesW
 title: RpcServerInqCallAttributesW function (rpcasync.h)
-
 description: The RpcServerInqCallAttributes function is an RPC server call that obtains client security context attributes.
 old-location: rpc\rpcserverinqcallattributes.htm
 tech.root: Rpc
 ms.assetid: 563b70ed-bc9a-40be-a77b-17b993cc64f3
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerInqCallAttributes, RpcServerInqCallAttributes function [RPC], RpcServerInqCallAttributesA, RpcServerInqCallAttributesW, _rpc_rpcserverinqcallattributes, rpc.rpcserverinqcallattributes, rpcasync/RpcServerInqCallAttributes, rpcasync/RpcServerInqCallAttributesA, rpcasync/RpcServerInqCallAttributesW
 ms.topic: function
-f1_keywords: 
- - "rpcasync/RpcServerInqCallAttributes"
+f1_keywords:
+- rpcasync/RpcServerInqCallAttributes
 dev_langs:
- - c++
+- c++
 req.header: rpcasync.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerInqCallAttributes
- - RpcServerInqCallAttributesA
- - RpcServerInqCallAttributesW
+- RpcServerInqCallAttributes
+- RpcServerInqCallAttributesA
+- RpcServerInqCallAttributesW
 targetos: Windows
 req.typenames: 
 req.redist: 

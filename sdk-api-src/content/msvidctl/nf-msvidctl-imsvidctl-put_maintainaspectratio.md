@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_MaintainAspectRatio
 title: IMSVidCtl::put_MaintainAspectRatio (msvidctl.h)
-
 description: The put_MaintainAspectRatio method specifies whether the Video Control maintains the aspect ratio of the source video.
 old-location: mstv\imsvidctl_put_maintainaspectratio.htm
 tech.root: mstv
 ms.assetid: 7f0943b1-3cb9-46dc-8aaf-be22e2464092
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_MaintainAspectRatio method, IMSVidCtl.put_MaintainAspectRatio, IMSVidCtl::put_MaintainAspectRatio, IMSVidCtlput_MaintainAspectRatio, mstv.imsvidctl_put_maintainaspectratio, msvidctl/IMSVidCtl::put_MaintainAspectRatio, put_MaintainAspectRatio, put_MaintainAspectRatio method [Microsoft TV Technologies], put_MaintainAspectRatio method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.put_MaintainAspectRatio"
+f1_keywords:
+- msvidctl/IMSVidCtl.put_MaintainAspectRatio
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.put_MaintainAspectRatio
+- IMSVidCtl.put_MaintainAspectRatio
 targetos: Windows
 req.typenames: 
 req.redist: 

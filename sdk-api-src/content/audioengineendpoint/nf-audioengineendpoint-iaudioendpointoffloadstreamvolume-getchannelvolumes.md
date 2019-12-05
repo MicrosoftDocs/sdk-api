@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamVolume.GetChannelVolumes
 title: IAudioEndpointOffloadStreamVolume::GetChannelVolumes (audioengineendpoint.h)
-
 description: The GetChannelVolumes method retrieves the volume levels for the various audio channels in the offloaded stream.
 old-location: coreaudio\iaudioendpointoffloadstreamvolume_getchannelvolumes.htm
 tech.root: CoreAudio
 ms.assetid: B15CA88E-EDB3-4BB4-9B74-98BB1D0CE288
-
 ms.date: 12/05/2018
 ms.keywords: GetChannelVolumes, GetChannelVolumes method [Core Audio], GetChannelVolumes method [Core Audio],IAudioEndpointOffloadStreamVolume interface, IAudioEndpointOffloadStreamVolume interface [Core Audio],GetChannelVolumes method, IAudioEndpointOffloadStreamVolume.GetChannelVolumes, IAudioEndpointOffloadStreamVolume::GetChannelVolumes, audioengineendpoint/IAudioEndpointOffloadStreamVolume::GetChannelVolumes, coreaudio.iaudioendpointoffloadstreamvolume_getchannelvolumes
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetChannelVolumes"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointOffloadStreamVolume.GetChannelVolumes
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamVolume.GetChannelVolumes
+- IAudioEndpointOffloadStreamVolume.GetChannelVolumes
 targetos: Windows
 req.typenames: 
 req.redist: 

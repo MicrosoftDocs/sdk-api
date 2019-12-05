@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPCFLAG_IM_LEAVE_FLAG
 title: WPCFLAG_IM_LEAVE (wpcevent.h)
-
 description: Indicates information about when a participant leaves the instant messaging interaction.
 old-location: parcon\wpcflag_im_leave_flag.htm
 tech.root: parcon
 ms.assetid: d1ca0b51-5d58-4df2-877b-73a02fe1c67d
-
 ms.date: 12/05/2018
 ms.keywords: WPCFLAG_IM_LEAVE, WPCFLAG_IM_LEAVE enumeration, WPCFLAG_IM_LEAVE_CONVERSATION_END, WPCFLAG_IM_LEAVE_FORCED, WPCFLAG_IM_LEAVE_NORMAL, parcon.wpcflag_im_leave_flag, wpcevent/WPCFLAG_IM_LEAVE, wpcevent/WPCFLAG_IM_LEAVE_CONVERSATION_END, wpcevent/WPCFLAG_IM_LEAVE_FORCED, wpcevent/WPCFLAG_IM_LEAVE_NORMAL
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPCFLAG_IM_LEAVE"
+f1_keywords:
+- wpcevent/WPCFLAG_IM_LEAVE
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPCFLAG_IM_LEAVE
+- WPCFLAG_IM_LEAVE
 targetos: Windows
 req.typenames: WPCFLAG_IM_LEAVE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetInfo
 title: MprAdminInterfaceGetInfo function (mprapi.h)
-
 description: The MprAdminInterfaceGetInfo function retrieves information for a specified interface on a specified server.
 old-location: rras\mpradmininterfacegetinfo.htm
 tech.root: RRAS
 ms.assetid: a6d353f0-1d68-4a37-89f3-cdab0fc7972a
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceGetInfo, MprAdminInterfaceGetInfo function [RAS], _mpr_mpradmininterfacegetinfo, mprapi/MprAdminInterfaceGetInfo, rras.mpradmininterfacegetinfo
 ms.topic: function
 f1_keywords:
 - mprapi/MprAdminInterfaceGetInfo
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows

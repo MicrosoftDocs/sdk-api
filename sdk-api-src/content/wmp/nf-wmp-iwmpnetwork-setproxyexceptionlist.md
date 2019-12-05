@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyExceptionList
 title: IWMPNetwork::setProxyExceptionList (wmp.h)
-
 description: The setProxyExceptionList method specifies the proxy exception list.
 old-location: wmp\iwmpnetwork_setproxyexceptionlist.htm
 tech.root: WMP
 ms.assetid: af9202aa-fa4e-4726-908f-3fc5370e06df
-
 ms.date: 12/05/2018
 ms.keywords: IWMPNetwork interface [Windows Media Player],setProxyExceptionList method, IWMPNetwork.setProxyExceptionList, IWMPNetwork::setProxyExceptionList, IWMPNetworksetProxyExceptionList, setProxyExceptionList, setProxyExceptionList method [Windows Media Player], setProxyExceptionList method [Windows Media Player],IWMPNetwork interface, wmp.iwmpnetwork_setproxyexceptionlist, wmp/IWMPNetwork::setProxyExceptionList
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPNetwork.setProxyExceptionList"
+f1_keywords:
+- wmp/IWMPNetwork.setProxyExceptionList
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPNetwork.setProxyExceptionList
+- IWMPNetwork.setProxyExceptionList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCEnumNameSpaceProvidersEx32
 title: WSCEnumNameSpaceProvidersEx32 function (ws2spi.h)
-
 description: Retrieves information on available 32-bit namespace providers.
 old-location: winsock\wscenumnamespaceprovidersex32.htm
 tech.root: WinSock
 ms.assetid: 544120b2-7575-4deb-8429-2bd4582eceef
-
 ms.date: 12/05/2018
 ms.keywords: WSCEnumNameSpaceProvidersEx32, WSCEnumNameSpaceProvidersEx32 function [Winsock], winsock.wscenumnamespaceprovidersex32, ws2spi/WSCEnumNameSpaceProvidersEx32
 ms.topic: function
 f1_keywords:
 - ws2spi/WSCEnumNameSpaceProvidersEx32
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

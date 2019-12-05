@@ -1,19 +1,17 @@
 ---
 UID: NF:tlhelp32.Thread32Next
 title: Thread32Next function (tlhelp32.h)
-
 description: Retrieves information about the next thread of any process encountered in the system memory snapshot.
 old-location: toolhelp\thread32next.htm
 tech.root: ToolHelp
 ms.assetid: 5efe514e-626c-4138-97a0-bdad217c424f
-
 ms.date: 12/05/2018
 ms.keywords: Thread32Next, Thread32Next function [ToolHelp], _win32_thread32next, base.thread32next, tlhelp32/Thread32Next, toolhelp.thread32next
 ms.topic: function
-f1_keywords: 
- - "tlhelp32/Thread32Next"
+f1_keywords:
+- tlhelp32/Thread32Next
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-toolhelp-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-ToolHelp-L1-1-1.dll
+- Kernel32.dll
+- API-MS-Win-Core-toolhelp-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Thread32Next
+- Thread32Next
 targetos: Windows
 req.typenames: 
 req.redist: 

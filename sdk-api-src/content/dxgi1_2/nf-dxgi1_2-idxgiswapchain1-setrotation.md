@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.SetRotation
 title: IDXGISwapChain1::SetRotation (dxgi1_2.h)
-
 description: Sets the rotation of the back buffers for the swap chain.
 old-location: direct3ddxgi\idxgiswapchain1_setrotation.htm
 tech.root: direct3ddxgi
 ms.assetid: D1CD2B20-FC7E-4141-A828-96E070A63F4A
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1 interface [DXGI],SetRotation method, IDXGISwapChain1.SetRotation, IDXGISwapChain1::SetRotation, SetRotation, SetRotation method [DXGI], SetRotation method [DXGI],IDXGISwapChain1 interface, direct3ddxgi.idxgiswapchain1_setrotation, dxgi1_2/IDXGISwapChain1::SetRotation
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.SetRotation"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.SetRotation
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.SetRotation
+- IDXGISwapChain1.SetRotation
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICFormatConverterInfo.GetPixelFormats
 title: IWICFormatConverterInfo::GetPixelFormats (wincodec.h)
-
 description: Retrieves a list of GUIDs that signify which pixel formats the converter supports.
 old-location: wic\_wic_codec_iwicformatconverterinfo_getpixelformats.htm
 tech.root: wic
 ms.assetid: 3ac86012-cf1a-47b5-b48f-7e4e94ed9805
-
 ms.date: 12/05/2018
 ms.keywords: GetPixelFormats, GetPixelFormats method [Windows Imaging Component], GetPixelFormats method [Windows Imaging Component],IWICFormatConverterInfo interface, IWICFormatConverterInfo interface [Windows Imaging Component],GetPixelFormats method, IWICFormatConverterInfo.GetPixelFormats, IWICFormatConverterInfo::GetPixelFormats, _wic_codec_iwicformatconverterinfo_getpixelformats, wic._wic_codec_iwicformatconverterinfo_getpixelformats, wincodec/IWICFormatConverterInfo::GetPixelFormats
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICFormatConverterInfo.GetPixelFormats"
+f1_keywords:
+- wincodec/IWICFormatConverterInfo.GetPixelFormats
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICFormatConverterInfo.GetPixelFormats
+- IWICFormatConverterInfo.GetPixelFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

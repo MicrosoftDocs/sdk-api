@@ -1,19 +1,17 @@
 ---
 UID: NS:vsbackup._VSS_COMPONENTINFO
 title: VSS_COMPONENTINFO (vsbackup.h)
-
 description: Contains information about a given component.
 old-location: base\vss_componentinfo.htm
 tech.root: VSS
 ms.assetid: 9723e90e-cd5e-4815-843b-8ed8632ebe45
-
 ms.date: 12/05/2018
 ms.keywords: PVSSCOMPONENTINFO, PVSSCOMPONENTINFO structure pointer [VSS], VSS_COMPONENTINFO, VSS_COMPONENTINFO structure [VSS], _win32_vss_componentinfo, base.vss_componentinfo, vsbackup/PVSSCOMPONENTINFO, vsbackup/VSS_COMPONENTINFO
 ms.topic: struct
-f1_keywords: 
- - "vsbackup/VSS_COMPONENTINFO"
+f1_keywords:
+- vsbackup/VSS_COMPONENTINFO
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsBackup.h
+- VsBackup.h
 api_name:
- - VSS_COMPONENTINFO
+- VSS_COMPONENTINFO
 targetos: Windows
 req.typenames: VSS_COMPONENTINFO
 req.redist: 

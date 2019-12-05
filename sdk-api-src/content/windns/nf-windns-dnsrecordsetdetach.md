@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsRecordSetDetach
 title: DnsRecordSetDetach function (windns.h)
-
 description: The DnsRecordSetDetach function detaches the first record set from a specified list of DNS records.
 old-location: dns\dnsrecordsetdetach.htm
 tech.root: DNS
 ms.assetid: 434dc11f-19a9-434f-a024-9cdbb560f24c
-
 ms.date: 12/05/2018
 ms.keywords: DnsRecordSetDetach, DnsRecordSetDetach function [DNS], _dns_dnsrecordsetdetach, dns.dnsrecordsetdetach, windns/DnsRecordSetDetach
 ms.topic: function
-f1_keywords: 
- - "windns/DnsRecordSetDetach"
+f1_keywords:
+- windns/DnsRecordSetDetach
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsRecordSetDetach
+- DnsRecordSetDetach
 targetos: Windows
 req.typenames: 
 req.redist: 

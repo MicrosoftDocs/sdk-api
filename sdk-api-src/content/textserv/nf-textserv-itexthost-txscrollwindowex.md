@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxScrollWindowEx
 title: ITextHost::TxScrollWindowEx (textserv.h)
-
 description: Requests the text host to scroll the content of the specified client area.
 old-location: controls\ITextHost_TxScrollWindowEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxscrollwindowex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxScrollWindowEx method, ITextHost.TxScrollWindowEx, ITextHost::TxScrollWindowEx, SW_ERASE, SW_INVALIDATE, SW_SCROLLCHILDREN, SW_SMOOTHSCROLL, TxScrollWindowEx, TxScrollWindowEx method [Windows Controls], TxScrollWindowEx method [Windows Controls],ITextHost interface, _win32_ITextHost_TxScrollWindowEx, _win32_ITextHost_TxScrollWindowEx_cpp, controls.ITextHost_TxScrollWindowEx, controls._win32_ITextHost_TxScrollWindowEx, textserv/ITextHost::TxScrollWindowEx
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxScrollWindowEx"
+f1_keywords:
+- textserv/ITextHost.TxScrollWindowEx
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxScrollWindowEx
+- ITextHost.TxScrollWindowEx
 targetos: Windows
 req.typenames: 
 req.redist: 

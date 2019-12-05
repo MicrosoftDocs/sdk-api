@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMappedView.Unmap
 title: ISimilarityTraitsMappedView::Unmap (msrdc.h)
-
 description: Unmaps a mapped view of a similarity traits table file.
 old-location: rdc\isimilaritytraitsmappedview_unmap.htm
 tech.root: rdc
 ms.assetid: 37739164-eefd-4336-99bc-2074c8f2f294
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsMappedView interface [Remote Differential Compression],Unmap method, ISimilarityTraitsMappedView.Unmap, ISimilarityTraitsMappedView::Unmap, Unmap, Unmap method [Remote Differential Compression], Unmap method [Remote Differential Compression],ISimilarityTraitsMappedView interface, fs.isimilaritytraitsmappedview_unmap, msrdc/ISimilarityTraitsMappedView::Unmap, rdc.isimilaritytraitsmappedview_unmap
 ms.topic: method
-f1_keywords: 
- - "msrdc/ISimilarityTraitsMappedView.Unmap"
+f1_keywords:
+- msrdc/ISimilarityTraitsMappedView.Unmap
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsMappedView.Unmap
+- ISimilarityTraitsMappedView.Unmap
 targetos: Windows
 req.typenames: 
 req.redist: 

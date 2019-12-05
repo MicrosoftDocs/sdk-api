@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbSatelliteDeliverySystemDescriptor
 title: IDvbSatelliteDeliverySystemDescriptor (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbsatellitedeliverysystemdescriptor.htm
 tech.root: mstv
 ms.assetid: 814becf0-c98a-4419-aca6-d9b22d273e97
-
 ms.date: 12/05/2018
 ms.keywords: IDvbSatelliteDeliverySystemDescriptor, IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies], IDvbSatelliteDeliverySystemDescriptor interface [Microsoft TV Technologies],described, IDvbSatelliteDeliverySystemDescriptorInterface, dvbsiparser/IDvbSatelliteDeliverySystemDescriptor, mstv.idvbsatellitedeliverysystemdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbSatelliteDeliverySystemDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbSatelliteDeliverySystemDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbSatelliteDeliverySystemDescriptor
+- IDvbSatelliteDeliverySystemDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IStorage.OpenStorage
 title: IStorage::OpenStorage (objidl.h)
-
 description: Opens an existing storage object with the specified name in the specified access mode.
 old-location: stg\istorage_openstorage.htm
 tech.root: Stg
 ms.assetid: f1f0564e-0ecd-4b73-8863-9d6b6746fd02
-
 ms.date: 12/05/2018
 ms.keywords: IStorage interface [Structured Storage],OpenStorage method, IStorage.OpenStorage, IStorage::OpenStorage, OpenStorage, OpenStorage method [Structured Storage], OpenStorage method [Structured Storage],IStorage interface, _stg_istorage_openstorage, objidl/IStorage::OpenStorage, stg.istorage_openstorage
 ms.topic: method
-f1_keywords: 
- - "objidl/IStorage.OpenStorage"
+f1_keywords:
+- objidl/IStorage.OpenStorage
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - IStorage.OpenStorage
+- IStorage.OpenStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

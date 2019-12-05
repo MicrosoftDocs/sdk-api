@@ -1,19 +1,17 @@
 ---
 UID: NF:threadpoolapiset.CancelThreadpoolIo
 title: CancelThreadpoolIo function (threadpoolapiset.h)
-
 description: Cancels the notification from the StartThreadpoolIo function.
 old-location: base\cancelthreadpoolio.htm
 tech.root: ProcThread
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
-
 ms.date: 12/05/2018
 ms.keywords: CancelThreadpoolIo, CancelThreadpoolIo function, base.cancelthreadpoolio, threadpoolapiset/CancelThreadpoolIo, winbase/CancelThreadpoolIo
 ms.topic: function
-f1_keywords: 
- - "threadpoolapiset/CancelThreadpoolIo"
+f1_keywords:
+- threadpoolapiset/CancelThreadpoolIo
 dev_langs:
- - c++
+- c++
 req.header: threadpoolapiset.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-threadpool-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-threadpool-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-threadpool-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-threadpool-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CancelThreadpoolIo
+- CancelThreadpoolIo
 targetos: Windows
 req.typenames: 
 req.redist: 

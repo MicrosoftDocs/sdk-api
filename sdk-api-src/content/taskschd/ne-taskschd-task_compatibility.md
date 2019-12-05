@@ -1,19 +1,17 @@
 ---
 UID: NE:taskschd._TASK_COMPATIBILITY
 title: TASK_COMPATIBILITY (taskschd.h)
-
 description: Defines what versions of Task Scheduler or the AT command that the task is compatible with.
 old-location: taskschd\task_compatibility.htm
 tech.root: taskschd
 ms.assetid: a842ab84-26e1-49bd-bf57-1a1073a17183
-
 ms.date: 12/05/2018
 ms.keywords: TASK_COMPATIBILITY, TASK_COMPATIBILITY enumeration [Task Scheduler], TASK_COMPATIBILITY_AT, TASK_COMPATIBILITY_V1, TASK_COMPATIBILITY_V2, taskschd.task_compatibility, taskschd/TASK_COMPATIBILITY, taskschd/TASK_COMPATIBILITY_AT, taskschd/TASK_COMPATIBILITY_V1, taskschd/TASK_COMPATIBILITY_V2
 ms.topic: enum
-f1_keywords: 
- - "taskschd/TASK_COMPATIBILITY"
+f1_keywords:
+- taskschd/TASK_COMPATIBILITY
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - taskschd.h
+- taskschd.h
 api_name:
- - TASK_COMPATIBILITY
+- TASK_COMPATIBILITY
 targetos: Windows
 req.typenames: TASK_COMPATIBILITY
 req.redist: 

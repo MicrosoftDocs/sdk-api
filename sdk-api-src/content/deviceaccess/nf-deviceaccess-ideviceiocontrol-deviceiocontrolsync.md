@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlSync
 title: IDeviceIoControl::DeviceIoControlSync (deviceaccess.h)
-
 description: The DeviceIoControlSync method sends a synchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolsync.htm
 tech.root: deviceaccess
 ms.assetid: 7b17ab14-e9bb-40be-a463-ca9031ba9bb3
-
 ms.date: 12/05/2018
 ms.keywords: DeviceIoControlSync, DeviceIoControlSync method [Device Access Broker API], DeviceIoControlSync method [Device Access Broker API],IDeviceIoControl interface, IDeviceIoControl interface [Device Access Broker API],DeviceIoControlSync method, IDeviceIoControl.DeviceIoControlSync, IDeviceIoControl::DeviceIoControlSync, deviceaccess.ideviceiocontrol_deviceiocontrolsync, deviceaccess/IDeviceIoControl::DeviceIoControlSync
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/IDeviceIoControl.DeviceIoControlSync"
+f1_keywords:
+- deviceaccess/IDeviceIoControl.DeviceIoControlSync
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - IDeviceIoControl.DeviceIoControlSync
+- IDeviceIoControl.DeviceIoControlSync
 targetos: Windows
 req.typenames: 
 req.redist: 

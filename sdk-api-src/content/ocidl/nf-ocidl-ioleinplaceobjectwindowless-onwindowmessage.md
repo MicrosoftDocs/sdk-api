@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleInPlaceObjectWindowless.OnWindowMessage
 title: IOleInPlaceObjectWindowless::OnWindowMessage (ocidl.h)
-
 description: Dispatches a message from a container to a windowless object that is in-place active.
 old-location: com\ioleinplaceobjectwindowless_onwindowmessage.htm
 tech.root: com
 ms.assetid: e9deaed5-485f-40e4-96ee-391dc3d12a86
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceObjectWindowless interface [COM],OnWindowMessage method, IOleInPlaceObjectWindowless.OnWindowMessage, IOleInPlaceObjectWindowless::OnWindowMessage, OnWindowMessage, OnWindowMessage method [COM], OnWindowMessage method [COM],IOleInPlaceObjectWindowless interface, _ole_ioleinplaceobjectwindowless_onwindowmessage, com.ioleinplaceobjectwindowless_onwindowmessage, ocidl/IOleInPlaceObjectWindowless::OnWindowMessage
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleInPlaceObjectWindowless.OnWindowMessage"
+f1_keywords:
+- ocidl/IOleInPlaceObjectWindowless.OnWindowMessage
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleInPlaceObjectWindowless.OnWindowMessage
+- IOleInPlaceObjectWindowless.OnWindowMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

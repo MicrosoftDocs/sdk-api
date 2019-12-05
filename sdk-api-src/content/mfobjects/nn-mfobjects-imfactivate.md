@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFActivate
 title: IMFActivate (mfobjects.h)
-
 description: Enables the application to defer the creation of an object.
 old-location: mf\imfactivate.htm
 tech.root: medfound
 ms.assetid: c0936e3c-3cd1-4c1e-a336-2dee7d943963
-
 ms.date: 12/05/2018
 ms.keywords: IMFActivate, IMFActivate interface [Media Foundation], IMFActivate interface [Media Foundation],described, c0936e3c-3cd1-4c1e-a336-2dee7d943963, mf.imfactivate, mfobjects/IMFActivate
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFActivate"
+f1_keywords:
+- mfobjects/IMFActivate
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFActivate
+- IMFActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

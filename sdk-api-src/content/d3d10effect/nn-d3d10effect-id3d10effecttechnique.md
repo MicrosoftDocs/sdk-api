@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectTechnique
 title: ID3D10EffectTechnique (d3d10effect.h)
-
 description: An ID3D10EffectTechnique interface is a collection of passes.
 old-location: direct3d10\id3d10effecttechnique.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique.htm
-
 ms.date: 12/05/2018
 ms.keywords: 46580a58-26ee-e999-0d60-9585dc422459, ID3D10EffectTechnique, ID3D10EffectTechnique interface [Direct3D 10], ID3D10EffectTechnique interface [Direct3D 10],described, d3d10effect/ID3D10EffectTechnique, direct3d10.id3d10effecttechnique
 ms.topic: interface
-f1_keywords: 
- - "d3d10effect/ID3D10EffectTechnique"
+f1_keywords:
+- d3d10effect/ID3D10EffectTechnique
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10EffectTechnique
+- ID3D10EffectTechnique
 targetos: Windows
 req.typenames: 
 req.redist: 

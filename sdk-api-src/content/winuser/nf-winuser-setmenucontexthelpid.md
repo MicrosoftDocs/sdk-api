@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetMenuContextHelpId
 title: SetMenuContextHelpId function (winuser.h)
-
 description: Associates a Help context identifier with a menu.
 old-location: shell\SetMenuContextHelpId.htm
 tech.root: shell
 ms.assetid: 55d944db-d889-468a-991a-b9779c90b44f
-
 ms.date: 12/05/2018
 ms.keywords: SetMenuContextHelpId, SetMenuContextHelpId function [Windows Shell], _win32_SetMenuContextHelpId, shell.SetMenuContextHelpId, winuser/SetMenuContextHelpId
 ms.topic: function
-f1_keywords: 
- - "winuser/SetMenuContextHelpId"
+f1_keywords:
+- winuser/SetMenuContextHelpId
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SetMenuContextHelpId
+- SetMenuContextHelpId
 targetos: Windows
 req.typenames: 
 req.redist: 

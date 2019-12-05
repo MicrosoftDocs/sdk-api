@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.GetStoryRanges
 title: ITextDocument::GetStoryRanges (tom.h)
-
 description: Gets the story collection object used to enumerate the stories in a document.
 old-location: controls\ITextDocument_GetStoryRanges.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstoryranges.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetStoryRanges, GetStoryRanges method [Windows Controls], GetStoryRanges method [Windows Controls],ITextDocument interface, ITextDocument interface [Windows Controls],GetStoryRanges method, ITextDocument.GetStoryRanges, ITextDocument::GetStoryRanges, _win32_ITextDocument_GetStoryRanges, _win32_ITextDocument_GetStoryRanges_cpp, controls.ITextDocument_GetStoryRanges, controls._win32_ITextDocument_GetStoryRanges, tom/ITextDocument::GetStoryRanges
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.GetStoryRanges"
+f1_keywords:
+- tom/ITextDocument.GetStoryRanges
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.GetStoryRanges
+- ITextDocument.GetStoryRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

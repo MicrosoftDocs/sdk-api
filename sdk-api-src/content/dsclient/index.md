@@ -1,7 +1,6 @@
 ---
 UID: NA:dsclient
 ms.assetid: 067265ba-83f1-39aa-a861-5f34057c802f
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

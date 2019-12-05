@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupCreateDiskSpaceListW
 title: SetupCreateDiskSpaceListW function (setupapi.h)
-
 description: The SetupCreateDiskSpaceList function creates a disk-space list.
 old-location: setup\setupcreatediskspacelist.htm
 tech.root: SetupApi
 ms.assetid: a578ed9d-12b2-43f4-ab0a-183269de0d40
-
 ms.date: 12/05/2018
 ms.keywords: SetupCreateDiskSpaceList, SetupCreateDiskSpaceList function [Setup API], SetupCreateDiskSpaceListA, SetupCreateDiskSpaceListW, _setupapi_setupcreatediskspacelist, setup.setupcreatediskspacelist, setupapi/SetupCreateDiskSpaceList, setupapi/SetupCreateDiskSpaceListA, setupapi/SetupCreateDiskSpaceListW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupCreateDiskSpaceList"
+f1_keywords:
+- setupapi/SetupCreateDiskSpaceList
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupCreateDiskSpaceList
- - SetupCreateDiskSpaceListA
- - SetupCreateDiskSpaceListW
+- SetupCreateDiskSpaceList
+- SetupCreateDiskSpaceListA
+- SetupCreateDiskSpaceListW
 targetos: Windows
 req.typenames: 
 req.redist: 

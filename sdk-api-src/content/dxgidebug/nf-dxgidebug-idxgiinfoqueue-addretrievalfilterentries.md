@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddRetrievalFilterEntries
 title: IDXGIInfoQueue::AddRetrievalFilterEntries (dxgidebug.h)
-
 description: Adds retrieval filters to the top of the retrieval-filter stack.
 old-location: direct3ddxgi\idxgiinfoqueue_addretrievalfilterentries.htm
 tech.root: direct3ddxgi
 ms.assetid: D93CB421-6684-4E84-B7FF-7911496078CC
-
 ms.date: 12/05/2018
 ms.keywords: AddRetrievalFilterEntries, AddRetrievalFilterEntries method [DXGI], AddRetrievalFilterEntries method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddRetrievalFilterEntries method, IDXGIInfoQueue.AddRetrievalFilterEntries, IDXGIInfoQueue::AddRetrievalFilterEntries, direct3ddxgi.idxgiinfoqueue_addretrievalfilterentries, dxgidebug/IDXGIInfoQueue::AddRetrievalFilterEntries
 ms.topic: method
-f1_keywords: 
- - "dxgidebug/IDXGIInfoQueue.AddRetrievalFilterEntries"
+f1_keywords:
+- dxgidebug/IDXGIInfoQueue.AddRetrievalFilterEntries
 dev_langs:
- - c++
+- c++
 req.header: dxgidebug.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: DXGIDebug.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGIDebug.dll
+- DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue.AddRetrievalFilterEntries
+- IDXGIInfoQueue.AddRetrievalFilterEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11_1.ID3D11BlendState1
 title: ID3D11BlendState1 (d3d11_1.h)
-
 description: The blend-state interface holds a description for blending state that you can bind to the output-merger stage. This blend-state interface supports logical operations as well as blending operations.
 old-location: direct3d11\id3d11blendstate1.htm
 tech.root: direct3d11
 ms.assetid: 5562F0B2-77FC-4614-BFA9-077323D4A2FA
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11BlendState1, ID3D11BlendState1 interface [Direct3D 11], ID3D11BlendState1 interface [Direct3D 11],described, d3d11_1/ID3D11BlendState1, direct3d11.id3d11blendstate1
 ms.topic: interface
-f1_keywords: 
- - "d3d11_1/ID3D11BlendState1"
+f1_keywords:
+- d3d11_1/ID3D11BlendState1
 dev_langs:
- - c++
+- c++
 req.header: d3d11_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11BlendState1
+- ID3D11BlendState1
 targetos: Windows
 req.typenames: 
 req.redist: 

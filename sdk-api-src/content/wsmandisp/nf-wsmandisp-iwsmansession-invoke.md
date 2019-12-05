@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Invoke
 title: IWSManSession::Invoke (wsmandisp.h)
-
 description: Invokes a method and returns the results of the method call.
 old-location: winrm\iwsmansession_invoke.htm
 tech.root: winrm
 ms.assetid: 3fdf769c-dc7e-4089-b781-be288855d5c1
-
 ms.date: 12/05/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Invoke method, IWSManSession.Invoke, IWSManSession::Invoke, Invoke, Invoke method [Windows Remote Management], Invoke method [Windows Remote Management],IWSManSession interface, winrm.iwsmansession_invoke, wsmandisp/IWSManSession::Invoke
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManSession.Invoke"
+f1_keywords:
+- wsmandisp/IWSManSession.Invoke
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManSession.Invoke
+- IWSManSession.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

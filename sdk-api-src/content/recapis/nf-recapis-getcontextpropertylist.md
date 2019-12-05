@@ -1,19 +1,17 @@
 ---
 UID: NF:recapis.GetContextPropertyList
 title: GetContextPropertyList function (recapis.h)
-
 description: Retrieves a list of properties the recognizer supports.
 old-location: tablet\getcontextpropertylist.htm
 tech.root: tablet
 ms.assetid: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6
-
 ms.date: 12/05/2018
 ms.keywords: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6, GetContextPropertyList, GetContextPropertyList function [Tablet PC], recapis/GetContextPropertyList, tablet.getcontextpropertylist
 ms.topic: function
-f1_keywords: 
- - "recapis/GetContextPropertyList"
+f1_keywords:
+- recapis/GetContextPropertyList
 dev_langs:
- - c++
+- c++
 req.header: recapis.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - recapis.h
+- recapis.h
 api_name:
- - GetContextPropertyList
+- GetContextPropertyList
 targetos: Windows
 req.typenames: 
 req.redist: 

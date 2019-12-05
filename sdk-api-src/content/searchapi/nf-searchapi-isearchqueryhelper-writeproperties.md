@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.WriteProperties
 title: ISearchQueryHelper::WriteProperties (searchapi.h)
-
 description: Not implemented.
 old-location: search\_search_ISearchQueryHelper_WriteProperties.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\writeproperties.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],WriteProperties method, ISearchQueryHelper.WriteProperties, ISearchQueryHelper::WriteProperties, WriteProperties, WriteProperties method [search], WriteProperties method [search],ISearchQueryHelper interface, _search_ISearchQueryHelper_WriteProperties, search._search_ISearchQueryHelper_WriteProperties, searchapi/ISearchQueryHelper::WriteProperties
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.WriteProperties
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: Searchapi.h
 req.target-type: Windows

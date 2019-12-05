@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteRenderingParams
 title: IDWriteRenderingParams (dwrite.h)
-
 description: Represents text rendering settings such as ClearType level, enhanced contrast, and gamma correction for glyph rasterization and filtering.
 old-location: directwrite\IDWriteRenderingParams.htm
 tech.root: DirectWrite
 ms.assetid: 28b118e4-9a63-46cf-8ab7-e1039126405b
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteRenderingParams, IDWriteRenderingParams interface [Direct Write], IDWriteRenderingParams interface [Direct Write],described, directwrite.IDWriteRenderingParams, dwrite/IDWriteRenderingParams
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteRenderingParams"
+f1_keywords:
+- dwrite/IDWriteRenderingParams
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteRenderingParams
+- IDWriteRenderingParams
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.Commit
 title: IDCompositionDevice::Commit (dcomp.h)
-
 description: Commits all DirectComposition commands that are pending on this device.
 old-location: directcomp\idcompositiondevice_commit.htm
 tech.root: directcomp
 ms.assetid: 49a6d33d-7454-44be-b8ca-602b247d4eab
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectComposition],IDCompositionDevice interface, IDCompositionDevice interface [DirectComposition],Commit method, IDCompositionDevice.Commit, IDCompositionDevice::Commit, dcomp/IDCompositionDevice::Commit, directcomp.idcompositiondevice_commit
 ms.topic: method
-f1_keywords: 
- - "dcomp/IDCompositionDevice.Commit"
+f1_keywords:
+- dcomp/IDCompositionDevice.Commit
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionDevice.Commit
+- IDCompositionDevice.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

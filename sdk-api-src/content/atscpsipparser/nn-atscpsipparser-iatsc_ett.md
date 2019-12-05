@@ -1,19 +1,17 @@
 ---
 UID: NN:atscpsipparser.IATSC_ETT
 title: IATSC_ETT (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_ett.htm
 tech.root: mstv
 ms.assetid: ae52e81e-4de1-480c-82bf-c9629064970c
-
 ms.date: 12/05/2018
 ms.keywords: IATSC_ETT, IATSC_ETT interface [Microsoft TV Technologies], IATSC_ETT interface [Microsoft TV Technologies],described, IATSC_ETTInterface, atscpsipparser/IATSC_ETT, mstv.iatsc_ett
 ms.topic: interface
-f1_keywords: 
- - "atscpsipparser/IATSC_ETT"
+f1_keywords:
+- atscpsipparser/IATSC_ETT
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_ETT
+- IATSC_ETT
 targetos: Windows
 req.typenames: 
 req.redist: 

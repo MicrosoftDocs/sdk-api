@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.InsertRoot
 title: INameSpaceTreeControl::InsertRoot (shobjidl_core.h)
-
 description: Inserts a Shell item on a root item in a tree.
 old-location: shell\INameSpaceTreeControl_InsertRoot.htm
 tech.root: shell
 ms.assetid: 5d487896-a2ee-4bf3-82d8-90f23a4ff213
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl interface [Windows Shell],InsertRoot method, INameSpaceTreeControl.InsertRoot, INameSpaceTreeControl::InsertRoot, InsertRoot, InsertRoot method [Windows Shell], InsertRoot method [Windows Shell],INameSpaceTreeControl interface, NSTCRS_EXPANDED, NSTCRS_HIDDEN, NSTCRS_VISIBLE, _shell_INameSpaceTreeControl_InsertRoot, shell.INameSpaceTreeControl_InsertRoot, shobjidl_core/INameSpaceTreeControl::InsertRoot
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl.InsertRoot"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl.InsertRoot
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl.InsertRoot
+- INameSpaceTreeControl.InsertRoot
 targetos: Windows
 req.typenames: 
 req.redist: 

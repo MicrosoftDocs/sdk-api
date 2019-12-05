@@ -1,19 +1,17 @@
 ---
 UID: NS:uiautomationcore.UIAutomationEventInfo
 title: UIAutomationEventInfo (uiautomationcore.h)
-
 description: Contains information about a custom event.
 old-location: winauto\uiauto_UIAutomationEventInfoStruct.htm
 tech.root: WinAuto
 ms.assetid: 05dd033f-3bb2-4185-9cfc-c19927a82406
-
 ms.date: 12/05/2018
 ms.keywords: UIAutomationEventInfo, UIAutomationEventInfo structure [Windows Accessibility], uiauto.uiauto_UIAutomationEventInfoStruct, uiauto_UIAutomationEventInfoStruct, uiautomationcore/UIAutomationEventInfo, winauto.uiauto_UIAutomationEventInfoStruct
 ms.topic: struct
-f1_keywords: 
- - "uiautomationcore/UIAutomationEventInfo"
+f1_keywords:
+- uiautomationcore/UIAutomationEventInfo
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - UIAutomationEventInfo
+- UIAutomationEventInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

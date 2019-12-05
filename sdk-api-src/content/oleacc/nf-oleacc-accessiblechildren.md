@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.AccessibleChildren
 title: AccessibleChildren function (oleacc.h)
-
 description: Retrieves the child ID or IDispatch of each child within an accessible container object.
 old-location: winauto\accessiblechildren.htm
 tech.root: WinAuto
 ms.assetid: dc9262d8-f57f-41f8-8945-d95f38d197e9
-
 ms.date: 12/05/2018
 ms.keywords: AccessibleChildren, AccessibleChildren function [Windows Accessibility], _msaa_AccessibleChildren, msaa.accessiblechildren, oleacc/AccessibleChildren, winauto.accessiblechildren
 ms.topic: function
-f1_keywords: 
- - "oleacc/AccessibleChildren"
+f1_keywords:
+- oleacc/AccessibleChildren
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - AccessibleChildren
+- AccessibleChildren
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

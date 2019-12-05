@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFVideoPresenter.GetCurrentMediaType
 title: IMFVideoPresenter::GetCurrentMediaType (evr.h)
-
 description: Retrieves the presenter's media type.
 old-location: mf\imfvideopresenter_getcurrentmediatype.htm
 tech.root: medfound
 ms.assetid: 4b8f0e56-35de-4b4f-9897-32a7e14171c8
-
 ms.date: 12/05/2018
 ms.keywords: 4b8f0e56-35de-4b4f-9897-32a7e14171c8, GetCurrentMediaType, GetCurrentMediaType method [Media Foundation], GetCurrentMediaType method [Media Foundation],IMFVideoPresenter interface, IMFVideoPresenter interface [Media Foundation],GetCurrentMediaType method, IMFVideoPresenter.GetCurrentMediaType, IMFVideoPresenter::GetCurrentMediaType, evr/IMFVideoPresenter::GetCurrentMediaType, mf.imfvideopresenter_getcurrentmediatype
 ms.topic: method
-f1_keywords: 
- - "evr/IMFVideoPresenter.GetCurrentMediaType"
+f1_keywords:
+- evr/IMFVideoPresenter.GetCurrentMediaType
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFVideoPresenter.GetCurrentMediaType
+- IMFVideoPresenter.GetCurrentMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

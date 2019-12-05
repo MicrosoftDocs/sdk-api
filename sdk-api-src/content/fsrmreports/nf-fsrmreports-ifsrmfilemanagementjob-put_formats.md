@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.put_Formats
 title: IFsrmFileManagementJob::put_Formats (fsrmreports.h)
-
 description: The formats of the report to generate when the job is run.
 old-location: fsrm\ifsrmfilemanagementjob_formats.htm
 tech.root: fsrm
 ms.assetid: 1147829d-c47b-4d80-8b49-4328dd54f8ef
-
 ms.date: 12/05/2018
 ms.keywords: Formats property [File Server Resource Manager], Formats property [File Server Resource Manager],IFsrmFileManagementJob interface, IFsrmFileManagementJob interface [File Server Resource Manager],Formats property, IFsrmFileManagementJob.Formats, IFsrmFileManagementJob.put_Formats, IFsrmFileManagementJob::Formats, IFsrmFileManagementJob::get_Formats, IFsrmFileManagementJob::put_Formats, fs.ifsrmfilemanagementjob_formats, fsrm.ifsrmfilemanagementjob_formats, fsrmreports/IFsrmFileManagementJob::Formats, fsrmreports/IFsrmFileManagementJob::get_Formats, fsrmreports/IFsrmFileManagementJob::put_Formats, put_Formats
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.Formats"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.Formats
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.Formats
- - IFsrmFileManagementJob.get_Formats
- - IFsrmFileManagementJob.put_Formats
+- IFsrmFileManagementJob.Formats
+- IFsrmFileManagementJob.get_Formats
+- IFsrmFileManagementJob.put_Formats
 targetos: Windows
 req.typenames: 
 req.redist: 

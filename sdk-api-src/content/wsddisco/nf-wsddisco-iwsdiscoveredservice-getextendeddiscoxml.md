@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetExtendedDiscoXML
 title: IWSDiscoveredService::GetExtendedDiscoXML (wsddisco.h)
-
 description: Retrieves custom or extensible data provided in the header or body of the SOAP message.
 old-location: ncd\iwsdiscoveredservice_getextendeddiscoxml.htm
 tech.root: WsdApi
 ms.assetid: 6ca12b1b-4adf-4c54-90b5-ab5286af9252
-
 ms.date: 12/05/2018
 ms.keywords: GetExtendedDiscoXML, GetExtendedDiscoXML method, GetExtendedDiscoXML method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetExtendedDiscoXML method, IWSDiscoveredService.GetExtendedDiscoXML, IWSDiscoveredService::GetExtendedDiscoXML, ncd.iwsdiscoveredservice_getextendeddiscoxml, wsddisco/IWSDiscoveredService::GetExtendedDiscoXML
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveredService.GetExtendedDiscoXML
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageStatusEvent
 title: IPrintDocumentPackageStatusEvent (documenttarget.h)
-
 description: Represents the progress of the print job.
 old-location: xps\iprintdocumentpackagestatusevent.htm
 tech.root: printdocs
 ms.assetid: A2178E6A-04AD-4024-A083-5C76A5F60743
-
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent, IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging], IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageStatusEvent, xps.iprintdocumentpackagestatusevent
 ms.topic: interface
-f1_keywords: 
- - "documenttarget/IPrintDocumentPackageStatusEvent"
+f1_keywords:
+- documenttarget/IPrintDocumentPackageStatusEvent
 dev_langs:
- - c++
+- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Documenttarget.h
+- Documenttarget.h
 api_name:
- - IPrintDocumentPackageStatusEvent
+- IPrintDocumentPackageStatusEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

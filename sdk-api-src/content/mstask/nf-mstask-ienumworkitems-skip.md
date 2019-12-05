@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Skip
 title: IEnumWorkItems::Skip (mstask.h)
-
 description: Skips the next specified number of tasks in the enumeration sequence.
 old-location: taskschd\ienumworkitems_skip.htm
 tech.root: taskschd
 ms.assetid: 5f4c7c98-a802-4fc3-b88f-bb37826f8199
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems interface [Task Scheduler],Skip method, IEnumWorkItems.Skip, IEnumWorkItems::Skip, Skip, Skip method [Task Scheduler], Skip method [Task Scheduler],IEnumWorkItems interface, _msb_ienumworkitems_skip, mstask/IEnumWorkItems::Skip, taskschd.ienumworkitems_skip
 ms.topic: method
-f1_keywords: 
- - "mstask/IEnumWorkItems.Skip"
+f1_keywords:
+- mstask/IEnumWorkItems.Skip
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IEnumWorkItems.Skip
+- IEnumWorkItems.Skip
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

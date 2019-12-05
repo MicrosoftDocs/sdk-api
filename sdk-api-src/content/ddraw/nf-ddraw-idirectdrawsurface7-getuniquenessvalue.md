@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetUniquenessValue
 title: IDirectDrawSurface7::GetUniquenessValue (ddraw.h)
-
 description: Retrieves the current uniqueness value for this surface.
 old-location: directdraw\idirectdrawsurface7_getuniquenessvalue.htm
 tech.root: directdraw
 ms.assetid: 559d9381-1135-47de-9bbe-49aa8d97f5d3
-
 ms.date: 12/05/2018
 ms.keywords: GetUniquenessValue, GetUniquenessValue method [DirectDraw], GetUniquenessValue method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetUniquenessValue method, IDirectDrawSurface7.GetUniquenessValue, IDirectDrawSurface7::GetUniquenessValue, ddraw/IDirectDrawSurface7::GetUniquenessValue, directdraw.idirectdrawsurface7_getuniquenessvalue
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.GetUniquenessValue"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetUniquenessValue
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.GetUniquenessValue
+- IDirectDrawSurface7.GetUniquenessValue
 targetos: Windows
 req.typenames: 
 req.redist: 

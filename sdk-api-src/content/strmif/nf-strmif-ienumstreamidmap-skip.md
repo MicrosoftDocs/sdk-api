@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Skip
 title: IEnumStreamIdMap::Skip (strmif.h)
-
 description: The Skip method skip the element at the specified index.
 old-location: dshow\ienumstreamidmap_skip.htm
 tech.root: DirectShow
 ms.assetid: 54502cd5-50b2-4bd2-a13f-180bddac178a
-
 ms.date: 12/05/2018
 ms.keywords: IEnumStreamIdMap interface [DirectShow],Skip method, IEnumStreamIdMap.Skip, IEnumStreamIdMap::Skip, IEnumStreamIdMapSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumStreamIdMap interface, dshow.ienumstreamidmap_skip, strmif/IEnumStreamIdMap::Skip
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumStreamIdMap.Skip"
+f1_keywords:
+- strmif/IEnumStreamIdMap.Skip
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumStreamIdMap.Skip
+- IEnumStreamIdMap.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

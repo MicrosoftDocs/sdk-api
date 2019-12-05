@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvRtCreateThreadOrderingGroup
 title: AvRtCreateThreadOrderingGroup function (avrt.h)
-
 description: Creates a thread ordering group.
 old-location: base\avrtcreatethreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: c334a861-7dd6-4fc9-90ce-5923d053d325
-
 ms.date: 12/05/2018
 ms.keywords: AvRtCreateThreadOrderingGroup, AvRtCreateThreadOrderingGroup function, avrt/AvRtCreateThreadOrderingGroup, base.avrtcreatethreadorderinggroup
 ms.topic: function
-f1_keywords: 
- - "avrt/AvRtCreateThreadOrderingGroup"
+f1_keywords:
+- avrt/AvRtCreateThreadOrderingGroup
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvRtCreateThreadOrderingGroup
+- AvRtCreateThreadOrderingGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

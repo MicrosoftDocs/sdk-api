@@ -1,19 +1,17 @@
 ---
 UID: NF:mspaddr.CMSPAddress.UpdateTerminalList
 title: CMSPAddress::UpdateTerminalList (mspaddr.h)
-
 description: The UpdateTerminalList method populates the MSP's list of static terminals.
 old-location: tapi3\cmspaddress_updateterminallist.htm
 tech.root: Tapi
 ms.assetid: f40964fe-21fe-4dad-8e56-71623ed2be1d
-
 ms.date: 12/05/2018
 ms.keywords: CMSPAddress interface [TAPI 2.2],UpdateTerminalList method, CMSPAddress.UpdateTerminalList, CMSPAddress::UpdateTerminalList, UpdateTerminalList, UpdateTerminalList method [TAPI 2.2], UpdateTerminalList method [TAPI 2.2],CMSPAddress interface, _tapi3_cmspaddress_updateterminallist, mspaddr/CMSPAddress::UpdateTerminalList, tapi3.cmspaddress_updateterminallist
 ms.topic: method
-f1_keywords: 
- - "mspaddr/CMSPAddress.UpdateTerminalList"
+f1_keywords:
+- mspaddr/CMSPAddress.UpdateTerminalList
 dev_langs:
- - c++
+- c++
 req.header: mspaddr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mspaddr.h
+- Mspaddr.h
 api_name:
- - CMSPAddress.UpdateTerminalList
+- CMSPAddress.UpdateTerminalList
 targetos: Windows
 req.typenames: 
 req.redist: 

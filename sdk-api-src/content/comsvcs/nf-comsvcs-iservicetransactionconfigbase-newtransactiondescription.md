@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfigBase.NewTransactionDescription
 title: IServiceTransactionConfigBase::NewTransactionDescription (comsvcs.h)
-
 description: Sets the name that is used when transaction statistics are displayed.
 old-location: cos\iservicetransactionconfigbase_newtransactiondescription.htm
 tech.root: cossdk
 ms.assetid: ecdc160b-168d-48f4-bbe3-46d654ee8607
-
 ms.date: 12/05/2018
 ms.keywords: IServiceTransactionConfigBase interface [COM+],NewTransactionDescription method, IServiceTransactionConfigBase.NewTransactionDescription, IServiceTransactionConfigBase::NewTransactionDescription, NewTransactionDescription, NewTransactionDescription method [COM+], NewTransactionDescription method [COM+],IServiceTransactionConfigBase interface, _cos_IServiceTransactionConfigBase_NewTransactionDescription, comsvcs/IServiceTransactionConfigBase::NewTransactionDescription, cos.iservicetransactionconfigbase_newtransactiondescription
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceTransactionConfigBase.NewTransactionDescription"
+f1_keywords:
+- comsvcs/IServiceTransactionConfigBase.NewTransactionDescription
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase.NewTransactionDescription
+- IServiceTransactionConfigBase.NewTransactionDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

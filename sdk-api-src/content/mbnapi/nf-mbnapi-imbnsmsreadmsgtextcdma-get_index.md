@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_Index
 title: IMbnSmsReadMsgTextCdma::get_Index (mbnapi.h)
-
 description: The index of the message in device SMS memory.
 old-location: mbn\imbnsmsreadmsgtextcdma_index.htm
 tech.root: mbn
 ms.assetid: c87890f3-c9d7-4011-b178-55d94a8e9b5e
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Index property, IMbnSmsReadMsgTextCdma.Index, IMbnSmsReadMsgTextCdma.get_Index, IMbnSmsReadMsgTextCdma::Index, IMbnSmsReadMsgTextCdma::get_Index, Index property [Microsoft Broadband Networks], Index property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Index, mbn.imbnsmsreadmsgtextcdma_index, mbnapi/IMbnSmsReadMsgTextCdma::Index, mbnapi/IMbnSmsReadMsgTextCdma::get_Index
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsReadMsgTextCdma.Index"
+f1_keywords:
+- mbnapi/IMbnSmsReadMsgTextCdma.Index
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma.Index
- - IMbnSmsReadMsgTextCdma.get_Index
+- IMbnSmsReadMsgTextCdma.Index
+- IMbnSmsReadMsgTextCdma.get_Index
 targetos: Windows
 req.typenames: 
 req.redist: 

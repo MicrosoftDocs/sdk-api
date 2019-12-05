@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpModifyClassV6
 title: DhcpModifyClassV6 function (dhcpsapi.h)
-
 description: Modifies a DHCPv6 user or vendor class defined on the server.
 old-location: dhcp\dhcpmodifyclassv6.htm
 tech.root: DHCP
 ms.assetid: d98ea14e-d61a-4d1b-bd7f-9d8fdf81d092
-
 ms.date: 12/05/2018
 ms.keywords: DhcpModifyClassV6, DhcpModifyClassV6 function [DHCP], dhcp.dhcpmodifyclassv6, dhcpsapi/DhcpModifyClassV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpModifyClassV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

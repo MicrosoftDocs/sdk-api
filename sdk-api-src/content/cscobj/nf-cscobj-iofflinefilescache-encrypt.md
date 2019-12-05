@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.Encrypt
 title: IOfflineFilesCache::Encrypt (cscobj.h)
-
 description: Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.
 old-location: of\iofflinefilescache_encrypt.htm
 tech.root: offlinefiles
 ms.assetid: b7531018-4837-4fde-8947-0f099f6de9e5
-
 ms.date: 12/05/2018
 ms.keywords: Encrypt, Encrypt method [Offline Files], Encrypt method [Offline Files],IOfflineFilesCache interface, IOfflineFilesCache interface [Offline Files],Encrypt method, IOfflineFilesCache.Encrypt, IOfflineFilesCache::Encrypt, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_ASYNCPROGRESS, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_BACKGROUND, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_CONSOLE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_INTERACTIVE, OFFLINEFILES_ENCRYPTION_CONTROL_FLAG_LOWPRIORITY, cscobj/IOfflineFilesCache::Encrypt, of.iofflinefilescache_encrypt
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesCache.Encrypt"
+f1_keywords:
+- cscobj/IOfflineFilesCache.Encrypt
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesCache.Encrypt
+- IOfflineFilesCache.Encrypt
 targetos: Windows
 req.typenames: 
 req.redist: 

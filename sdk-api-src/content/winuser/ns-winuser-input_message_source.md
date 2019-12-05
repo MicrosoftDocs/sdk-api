@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagINPUT_MESSAGE_SOURCE
 title: INPUT_MESSAGE_SOURCE (winuser.h)
-
 description: Contains information about the source of the input message.
 old-location: input_sourceid\input_message_source.htm
 tech.root: Input_SourceId
 ms.assetid: 75437c0a-925a-44d9-9254-43095b281c21
-
 ms.date: 12/05/2018
 ms.keywords: INPUT_MESSAGE_SOURCE, INPUT_MESSAGE_SOURCE structure, input_sourceid.input_message_source, inputsourceid.input_message_source, tagINPUT_MESSAGE_SOURCE, winuser/INPUT_MESSAGE_SOURCE
 ms.topic: struct
-f1_keywords: 
- - "winuser/INPUT_MESSAGE_SOURCE"
+f1_keywords:
+- winuser/INPUT_MESSAGE_SOURCE
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - INPUT_MESSAGE_SOURCE
+- INPUT_MESSAGE_SOURCE
 targetos: Windows
 req.typenames: INPUT_MESSAGE_SOURCE
 req.redist: 

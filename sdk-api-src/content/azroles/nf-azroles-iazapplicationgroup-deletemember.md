@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteMember
 title: IAzApplicationGroup::DeleteMember (azroles.h)
-
 description: Removes the specified security identifier (SID) in text form from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemember.htm
 tech.root: SecAuthZ
 ms.assetid: 9db3b162-b37d-4a86-a3c0-cb594370238b
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteMember method, DeleteMember, DeleteMember method [Security], DeleteMember method [Security],AzApplicationGroup object, DeleteMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMember method, IAzApplicationGroup.DeleteMember, IAzApplicationGroup::DeleteMember, azroles/IAzApplicationGroup::DeleteMember, security.iazapplicationgroup_deletemember
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.DeleteMember"
+f1_keywords:
+- azroles/IAzApplicationGroup.DeleteMember
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.DeleteMember
- - AzApplicationGroup.DeleteMember
+- IAzApplicationGroup.DeleteMember
+- AzApplicationGroup.DeleteMember
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

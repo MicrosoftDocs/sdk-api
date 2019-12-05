@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsTrimStringStart
 title: WindowsTrimStringStart function (winstring.h)
-
 description: Removes all leading occurrences of a specified set of characters from the source string.
 old-location: winrt\windowstrimstringstart.htm
 tech.root: WinRT
 ms.assetid: 88B9034D-D010-4C38-8F03-A5AF2FEC448B
-
 ms.date: 12/05/2018
 ms.keywords: WindowsTrimStringStart, WindowsTrimStringStart function [Windows Runtime], winrt.windowstrimstringstart, winstring/WindowsTrimStringStart
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsTrimStringStart"
+f1_keywords:
+- winstring/WindowsTrimStringStart
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsTrimStringStart
+- WindowsTrimStringStart
 targetos: Windows
 req.typenames: 
 req.redist: 

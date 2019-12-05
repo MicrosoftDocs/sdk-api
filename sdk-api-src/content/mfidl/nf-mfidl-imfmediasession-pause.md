@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.Pause
 title: IMFMediaSession::Pause (mfidl.h)
-
 description: Pauses the Media Session.
 old-location: mf\imfmediasession_pause.htm
 tech.root: medfound
 ms.assetid: fcc576ba-f8be-4106-a270-756b2abf52d4
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaSession interface [Media Foundation],Pause method, IMFMediaSession.Pause, IMFMediaSession::Pause, Pause, Pause method [Media Foundation], Pause method [Media Foundation],IMFMediaSession interface, fcc576ba-f8be-4106-a270-756b2abf52d4, mf.imfmediasession_pause, mfidl/IMFMediaSession::Pause
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.Pause"
+f1_keywords:
+- mfidl/IMFMediaSession.Pause
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.Pause
+- IMFMediaSession.Pause
 targetos: Windows
 req.typenames: 
 req.redist: 

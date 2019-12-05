@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.InterlockedExchangePointer
 title: InterlockedExchangePointer function (winnt.h)
-
 description: Atomically exchanges a pair of addresses.
 old-location: base\interlockedexchangepointer.htm
 tech.root: Sync
 ms.assetid: 479aede8-e9e3-42c2-9081-94c150c7f274
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedExchangePointer, InterlockedExchangePointer function, _win32_interlockedexchangepointer, base.interlockedexchangepointer, winnt/InterlockedExchangePointer
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedExchangePointer"
+f1_keywords:
+- winnt/InterlockedExchangePointer
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedExchangePointer
+- InterlockedExchangePointer
 targetos: Windows
 req.typenames: 
 req.redist: 

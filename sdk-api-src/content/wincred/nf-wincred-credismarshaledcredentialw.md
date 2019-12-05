@@ -1,19 +1,17 @@
 ---
 UID: NF:wincred.CredIsMarshaledCredentialW
 title: CredIsMarshaledCredentialW function (wincred.h)
-
 description: Determines whether a specified user name string is a marshaled credential previously marshaled by CredMarshalCredential.
 old-location: security\credismarshaledcredential.htm
 tech.root: SecAuthN
 ms.assetid: fc902c0c-41e0-4178-8ca0-227a1d218388
-
 ms.date: 12/05/2018
 ms.keywords: CredIsMarshaledCredential, CredIsMarshaledCredential function [Security], CredIsMarshaledCredentialA, CredIsMarshaledCredentialW, _cred_credismarshaledcredential, security.credismarshaledcredential, wincred/CredIsMarshaledCredential, wincred/CredIsMarshaledCredentialA, wincred/CredIsMarshaledCredentialW
 ms.topic: function
-f1_keywords: 
- - "wincred/CredIsMarshaledCredential"
+f1_keywords:
+- wincred/CredIsMarshaledCredential
 dev_langs:
- - c++
+- c++
 req.header: wincred.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-Security-credentials-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredIsMarshaledCredential
- - CredIsMarshaledCredentialA
- - CredIsMarshaledCredentialW
+- CredIsMarshaledCredential
+- CredIsMarshaledCredentialA
+- CredIsMarshaledCredentialW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Res_Des_Data_Ex
 title: CM_Get_Res_Des_Data_Ex function (cfgmgr32.h)
-
 description: The CM_Get_Res_Des_Data_Ex function retrieves the information stored in a resource descriptor on a local or a remote machine.
 old-location: devinst\cm_get_res_des_data_ex.htm
 tech.root: devinst
 ms.assetid: fc7dc2d6-f4ef-4da7-af51-92053afa8db9
-
 ms.date: 12/05/2018
 ms.keywords: CM_Get_Res_Des_Data_Ex, CM_Get_Res_Des_Data_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data_Ex, cfgmgrfn_58308b51-6217-4e1e-80ac-b4d3b431cdfb.xml, devinst.cm_get_res_des_data_ex
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Get_Res_Des_Data_Ex"
+f1_keywords:
+- cfgmgr32/CM_Get_Res_Des_Data_Ex
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Cfgmgr32.lib
 req.dll: Cfgmgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Cfgmgr32.dll
+- Cfgmgr32.dll
 api_name:
- - CM_Get_Res_Des_Data_Ex
+- CM_Get_Res_Des_Data_Ex
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IConsoleNameSpace2
 title: IConsoleNameSpace2 (mmc.h)
-
 description: The IConsoleNameSpace2 interface is introduced in MMC 1.1.
 old-location: mmc\iconsolenamespace2.htm
 tech.root: mmc
 ms.assetid: 894f99a6-2189-458d-a50f-497930d4a9dd
-
 ms.date: 12/05/2018
 ms.keywords: IConsoleNameSpace, IConsoleNameSpace interface [MMC], IConsoleNameSpace interface [MMC],described, IConsoleNameSpace2, IConsoleNameSpace2 interface [MMC], IConsoleNameSpace2 interface [MMC],described, _slate_iconsolenamespace2, mmc.iconsolenamespace2, mmc/IConsoleNameSpace, mmc/IConsoleNameSpace2
 ms.topic: interface
-f1_keywords: 
- - "mmc/IConsoleNameSpace2"
+f1_keywords:
+- mmc/IConsoleNameSpace2
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace2
+- IConsoleNameSpace2
 targetos: Windows
 req.typenames: 
 req.redist: 

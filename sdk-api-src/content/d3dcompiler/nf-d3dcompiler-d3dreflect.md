@@ -1,19 +1,17 @@
 ---
 UID: NF:d3dcompiler.D3DReflect
 title: D3DReflect function (d3dcompiler.h)
-
 description: Gets a pointer to a reflection interface.
 old-location: direct3dhlsl\d3dreflect.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dreflect.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3df99cee-b0b6-2f29-2bd1-7eb53e907191, D3DReflect, D3DReflect function [HLSL], d3dcompiler/D3DReflect, direct3dhlsl.d3dreflect
 ms.topic: function
-f1_keywords: 
- - "d3dcompiler/D3DReflect"
+f1_keywords:
+- d3dcompiler/D3DReflect
 dev_langs:
- - c++
+- c++
 req.header: d3dcompiler.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3dcompiler_47.lib
 req.dll: D3dcompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - d3dcompiler_47.dll
+- d3dcompiler_47.dll
 api_name:
- - D3DReflect
+- D3DReflect
 targetos: Windows
 req.typenames: 
 req.redist: 

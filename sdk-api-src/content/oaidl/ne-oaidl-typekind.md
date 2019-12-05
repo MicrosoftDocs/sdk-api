@@ -1,19 +1,17 @@
 ---
 UID: NE:oaidl.tagTYPEKIND
 title: TYPEKIND (oaidl.h)
-
 description: Specifies a type.
 old-location: automat\typekind.htm
 tech.root: automat
 ms.assetid: ea7ae5cf-9572-4174-bfcb-63aabba26ed8
-
 ms.date: 12/05/2018
 ms.keywords: TKIND_ALIAS, TKIND_COCLASS, TKIND_DISPATCH, TKIND_ENUM, TKIND_INTERFACE, TKIND_MAX, TKIND_MODULE, TKIND_RECORD, TKIND_UNION, TYPEKIND, TYPEKIND enumeration [Automation], _oa96_TYPEKIND, automat.typekind, oaidl/TKIND_ALIAS, oaidl/TKIND_COCLASS, oaidl/TKIND_DISPATCH, oaidl/TKIND_ENUM, oaidl/TKIND_INTERFACE, oaidl/TKIND_MAX, oaidl/TKIND_MODULE, oaidl/TKIND_RECORD, oaidl/TKIND_UNION, oaidl/TYPEKIND
 ms.topic: enum
-f1_keywords: 
- - "oaidl/TYPEKIND"
+f1_keywords:
+- oaidl/TYPEKIND
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - TYPEKIND
+- TYPEKIND
 targetos: Windows
 req.typenames: TYPEKIND
 req.redist: 

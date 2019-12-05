@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WPUGetProviderPath
 title: WPUGetProviderPath function (ws2spi.h)
-
 description: The WPUGetProviderPath function retrieves the DLL path for the specified provider.
 old-location: winsock\wpugetproviderpath_2.htm
 tech.root: WinSock
 ms.assetid: fb59e69a-bee4-4807-9ef2-cbcc8c0d367f
-
 ms.date: 12/05/2018
 ms.keywords: WPUGetProviderPath, WPUGetProviderPath function [Winsock], _win32_wpugetproviderpath_2, winsock.wpugetproviderpath_2, ws2spi/WPUGetProviderPath
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WPUGetProviderPath"
+f1_keywords:
+- ws2spi/WPUGetProviderPath
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WPUGetProviderPath
+- WPUGetProviderPath
 targetos: Windows
 req.typenames: 
 req.redist: 

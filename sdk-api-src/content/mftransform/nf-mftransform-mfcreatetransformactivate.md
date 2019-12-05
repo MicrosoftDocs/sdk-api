@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.MFCreateTransformActivate
 title: MFCreateTransformActivate function (mftransform.h)
-
 description: Creates a generic activation object for Media Foundation transforms (MFTs).
 old-location: mf\mfcreatetransformactivate.htm
 tech.root: medfound
 ms.assetid: 845c7114-756b-4d0f-a92e-9c6e2eba7c94
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateTransformActivate, MFCreateTransformActivate function [Media Foundation], mf.mfcreatetransformactivate, mftransform/MFCreateTransformActivate
 ms.topic: function
-f1_keywords: 
- - "mftransform/MFCreateTransformActivate"
+f1_keywords:
+- mftransform/MFCreateTransformActivate
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateTransformActivate
+- MFCreateTransformActivate
 targetos: Windows
 req.typenames: 
 req.redist: 

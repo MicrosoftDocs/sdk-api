@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IAutoCompleteDropDown.GetDropDownStatus
 title: IAutoCompleteDropDown::GetDropDownStatus (shobjidl.h)
-
 description: Gets the current display status of the autocomplete drop-down list.
 old-location: shell\IAutoCompleteDropDown_GetDropDownStatus.htm
 tech.root: shell
 ms.assetid: 824c435c-e8ee-4435-a779-bae3ef721613
-
 ms.date: 12/05/2018
 ms.keywords: ACDD_VISIBLE, GetDropDownStatus, GetDropDownStatus method [Windows Shell], GetDropDownStatus method [Windows Shell],IAutoCompleteDropDown interface, IAutoCompleteDropDown interface [Windows Shell],GetDropDownStatus method, IAutoCompleteDropDown.GetDropDownStatus, IAutoCompleteDropDown::GetDropDownStatus, _shell_IAutoCompleteDropDown_GetDropDownStatus, shell.IAutoCompleteDropDown_GetDropDownStatus, shobjidl/IAutoCompleteDropDown::GetDropDownStatus
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IAutoCompleteDropDown.GetDropDownStatus"
+f1_keywords:
+- shobjidl/IAutoCompleteDropDown.GetDropDownStatus
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Browseui.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Browseui.dll
+- Browseui.dll
 api_name:
- - IAutoCompleteDropDown.GetDropDownStatus
+- IAutoCompleteDropDown.GetDropDownStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

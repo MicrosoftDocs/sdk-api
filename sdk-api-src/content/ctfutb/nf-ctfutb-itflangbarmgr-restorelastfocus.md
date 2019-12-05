@@ -1,19 +1,17 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.RestoreLastFocus
 title: ITfLangBarMgr::RestoreLastFocus (ctfutb.h)
-
 description: ITfLangBarMgr::RestoreLastFocus method
 old-location: tsf\itflangbarmgr_restorelastfocus.htm
 tech.root: TSF
 ms.assetid: 376e1f64-1a4f-4800-a049-7f2abb4ea605
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarMgr interface [Text Services Framework],RestoreLastFocus method, ITfLangBarMgr.RestoreLastFocus, ITfLangBarMgr::RestoreLastFocus, RestoreLastFocus, RestoreLastFocus method [Text Services Framework], RestoreLastFocus method [Text Services Framework],ITfLangBarMgr interface, _tsf_itflangbarmgr_restorelastfocus_ref, ctfutb/ITfLangBarMgr::RestoreLastFocus, tsf.itflangbarmgr_restorelastfocus
 ms.topic: method
-f1_keywords: 
- - "ctfutb/ITfLangBarMgr.RestoreLastFocus"
+f1_keywords:
+- ctfutb/ITfLangBarMgr.RestoreLastFocus
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfLangBarMgr.RestoreLastFocus
+- ITfLangBarMgr.RestoreLastFocus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

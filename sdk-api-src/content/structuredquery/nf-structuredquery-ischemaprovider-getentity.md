@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.GetEntity
 title: ISchemaProvider::GetEntity (structuredquery.h)
-
 description: Retrieves an entity by name from the loaded schema.
 old-location: search\_search_ISchemaProvider_GetEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\getentity.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetEntity, GetEntity method [search], GetEntity method [search],ISchemaProvider interface, ISchemaProvider interface [search],GetEntity method, ISchemaProvider.GetEntity, ISchemaProvider::GetEntity, _search_ISchemaProvider_GetEntity, search._search_ISchemaProvider_GetEntity, structuredquery/ISchemaProvider::GetEntity
 ms.topic: method
-f1_keywords: 
- - "structuredquery/ISchemaProvider.GetEntity"
+f1_keywords:
+- structuredquery/ISchemaProvider.GetEntity
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - ISchemaProvider.GetEntity
+- ISchemaProvider.GetEntity
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

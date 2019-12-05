@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUSHORTN4.XMUSHORTN4(float,float,float,float)
 title: XMUSHORTN4::XMUSHORTN4(float,float,float,float) (directxpackedvector.h)
-
 description: Initializes a new instance of XMUSHORTN4 from four normalized floatarguments.
 old-location: dxmath\xmushortn4_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUSHORTN4.#ctor(float,float,float,float)
-
 ms.date: 12/05/2018
 ms.keywords: XMUSHORTN4, XMUSHORTN4 constructor [DirectX Math Support APIs], XMUSHORTN4 constructor [DirectX Math Support APIs],XMUSHORTN4 structure, XMUSHORTN4 structure [DirectX Math Support APIs],XMUSHORTN4 constructor, XMUSHORTN4.XMUSHORTN4, XMUSHORTN4.XMUSHORTN4(float,float,float,float), XMUSHORTN4::XMUSHORTN4, XMUSHORTN4::XMUSHORTN4(float,float,float,float), dxmath.xmushortn4_ctor_4
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUSHORTN4.XMUSHORTN4"
+f1_keywords:
+- directxpackedvector/XMUSHORTN4.XMUSHORTN4
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUSHORTN4.XMUSHORTN4
+- XMUSHORTN4.XMUSHORTN4
 targetos: Windows
 req.typenames: 
 req.redist: 

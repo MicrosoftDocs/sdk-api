@@ -1,19 +1,17 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_OPM_STATUS
 title: MF_MEDIA_ENGINE_OPM_STATUS (mfmediaengine.h)
-
 description: Defines the status of the Output Protection Manager (OPM).
 old-location: mf\mf_media_engine_opm_status.htm
 tech.root: medfound
 ms.assetid: 7C4D88F6-369B-4364-90C4-6D0F8DD1523B
-
 ms.date: 12/05/2018
 ms.keywords: MF_MEDIA_ENGINE_OPM_ESTABLISHED, MF_MEDIA_ENGINE_OPM_FAILED, MF_MEDIA_ENGINE_OPM_FAILED_BDA, MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER, MF_MEDIA_ENGINE_OPM_FAILED_VM, MF_MEDIA_ENGINE_OPM_NOT_REQUESTED, MF_MEDIA_ENGINE_OPM_STATUS, MF_MEDIA_ENGINE_OPM_STATUS enumeration [Media Foundation], mf.mf_media_engine_opm_status, mfmediaengine/MF_MEDIA_ENGINE_OPM_ESTABLISHED, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_BDA, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_UNSIGNED_DRIVER, mfmediaengine/MF_MEDIA_ENGINE_OPM_FAILED_VM, mfmediaengine/MF_MEDIA_ENGINE_OPM_NOT_REQUESTED, mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS
 ms.topic: enum
-f1_keywords: 
- - "mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS"
+f1_keywords:
+- mfmediaengine/MF_MEDIA_ENGINE_OPM_STATUS
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - MF_MEDIA_ENGINE_OPM_STATUS
+- MF_MEDIA_ENGINE_OPM_STATUS
 targetos: Windows
 req.typenames: MF_MEDIA_ENGINE_OPM_STATUS
 req.redist: 

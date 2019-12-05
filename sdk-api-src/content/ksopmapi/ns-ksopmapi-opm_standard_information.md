@@ -1,19 +1,17 @@
 ---
 UID: NS:ksopmapi._OPM_STANDARD_INFORMATION
 title: OPM_STANDARD_INFORMATION (ksopmapi.h)
-
 description: Contains the result from an Output Protection Manager (OPM) status request.
 old-location: mf\opm_standard_information.htm
 tech.root: medfound
 ms.assetid: 4c1b6803-0015-4def-acb0-295193ba0e17
-
 ms.date: 12/05/2018
 ms.keywords: OPM_STANDARD_INFORMATION, OPM_STANDARD_INFORMATION structure [Media Foundation], _OPM_STANDARD_INFORMATION, ksopmapi/OPM_STANDARD_INFORMATION, mf.opm_standard_information
 ms.topic: struct
 f1_keywords:
 - ksopmapi/OPM_STANDARD_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: ksopmapi.h
 req.include-header: Opmapi.h
 req.target-type: Windows

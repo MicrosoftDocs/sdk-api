@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupOpenFileQueue
 title: SetupOpenFileQueue function (setupapi.h)
-
 description: The SetupOpenFileQueue function creates a setup file queue.
 old-location: setup\setupopenfilequeue.htm
 tech.root: SetupApi
 ms.assetid: 36950f18-80ae-46b7-9f9f-bd5307d72a3b
-
 ms.date: 12/05/2018
 ms.keywords: SetupOpenFileQueue, SetupOpenFileQueue function [Setup API], _setupapi_setupopenfilequeue, setup.setupopenfilequeue, setupapi/SetupOpenFileQueue
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupOpenFileQueue"
+f1_keywords:
+- setupapi/SetupOpenFileQueue
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupOpenFileQueue
+- SetupOpenFileQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

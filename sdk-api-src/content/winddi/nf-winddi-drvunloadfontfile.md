@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvUnloadFontFile
 title: DrvUnloadFontFile function (winddi.h)
-
 description: The DrvUnloadFontFile function informs a font driver that the specified font file is no longer needed.
 old-location: display\drvunloadfontfile.htm
 tech.root: display
 ms.assetid: 2b4b946a-30d0-434f-ab04-73bedd6a01aa
-
 ms.date: 12/05/2018
 ms.keywords: DrvUnloadFontFile, DrvUnloadFontFile function [Display Devices], ddifncs_db8c3f72-5fde-4dd3-84e1-5bea9b7e530d.xml, display.drvunloadfontfile, winddi/DrvUnloadFontFile
 ms.topic: function
-f1_keywords: 
- - "winddi/DrvUnloadFontFile"
+f1_keywords:
+- winddi/DrvUnloadFontFile
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - DrvUnloadFontFile
+- DrvUnloadFontFile
 targetos: Windows
 req.typenames: 
 req.redist: 

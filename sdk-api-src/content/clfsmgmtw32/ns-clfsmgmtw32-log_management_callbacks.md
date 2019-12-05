@@ -1,19 +1,17 @@
 ---
 UID: NS:clfsmgmtw32._LOG_MANAGEMENT_CALLBACKS
 title: LOG_MANAGEMENT_CALLBACKS (clfsmgmtw32.h)
-
 description: The LOG_MANAGEMENT_CALLBACKS structure is used to register with the Common Log File System (CLFS) for the callbacks that a client program requires information from.
 old-location: fs\log_management_callbacks.htm
 tech.root: Clfs
 ms.assetid: 69c657e7-97f0-468a-b349-9891a771c1ed
-
 ms.date: 12/05/2018
-ms.keywords: "*PLOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS structure [Files], PLOG_MANAGEMENT_CALLBACKS, PLOG_MANAGEMENT_CALLBACKS structure pointer [Files], clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS, clfsmgmtw32/PLOG_MANAGEMENT_CALLBACKS, fs.log_management_callbacks"
+ms.keywords: '*PLOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS, LOG_MANAGEMENT_CALLBACKS structure [Files], PLOG_MANAGEMENT_CALLBACKS, PLOG_MANAGEMENT_CALLBACKS structure pointer [Files], clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS, clfsmgmtw32/PLOG_MANAGEMENT_CALLBACKS, fs.log_management_callbacks'
 ms.topic: struct
-f1_keywords: 
- - "clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS"
+f1_keywords:
+- clfsmgmtw32/LOG_MANAGEMENT_CALLBACKS
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Clfsmgmtw32.h
+- Clfsmgmtw32.h
 api_name:
- - LOG_MANAGEMENT_CALLBACKS
+- LOG_MANAGEMENT_CALLBACKS
 targetos: Windows
 req.typenames: LOG_MANAGEMENT_CALLBACKS, *PLOG_MANAGEMENT_CALLBACKS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcDigitalSignature
 title: IOpcDigitalSignature (msopc.h)
-
 description: Represents a package digital signature.
 old-location: opc\iopcdigitalsignature.htm
 tech.root: OPC
 ms.assetid: cfa38ef6-9d96-4577-a3bf-518784d19ad8
-
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignature, IOpcDigitalSignature interface [Open Packaging Conventions], IOpcDigitalSignature interface [Open Packaging Conventions],described, msopc/IOpcDigitalSignature, opc.iopcdigitalsignature
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcDigitalSignature"
+f1_keywords:
+- msopc/IOpcDigitalSignature
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignature
+- IOpcDigitalSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

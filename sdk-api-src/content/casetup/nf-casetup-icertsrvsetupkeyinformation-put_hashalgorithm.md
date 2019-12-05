@@ -1,19 +1,17 @@
 ---
 UID: NF:casetup.ICertSrvSetupKeyInformation.put_HashAlgorithm
 title: ICertSrvSetupKeyInformation::put_HashAlgorithm (casetup.h)
-
 description: Gets or sets the name of the hashing algorithm used to sign or verify the certification authority (CA) certificate for the key.
 old-location: security\icertsrvsetupkeyinformation_hashalgorithm.htm
 tech.root: SecCrypto
 ms.assetid: f1e007d1-eadb-4ab6-91bc-3c8a61b54aca
-
 ms.date: 12/05/2018
 ms.keywords: HashAlgorithm property [Security], HashAlgorithm property [Security],ICertSrvSetupKeyInformation interface, ICertSrvSetupKeyInformation interface [Security],HashAlgorithm property, ICertSrvSetupKeyInformation.HashAlgorithm, ICertSrvSetupKeyInformation.put_HashAlgorithm, ICertSrvSetupKeyInformation::HashAlgorithm, ICertSrvSetupKeyInformation::get_HashAlgorithm, ICertSrvSetupKeyInformation::put_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::HashAlgorithm, casetup/ICertSrvSetupKeyInformation::get_HashAlgorithm, casetup/ICertSrvSetupKeyInformation::put_HashAlgorithm, put_HashAlgorithm, security.icertsrvsetupkeyinformation_hashalgorithm
 ms.topic: method
-f1_keywords: 
- - "casetup/ICertSrvSetupKeyInformation.HashAlgorithm"
+f1_keywords:
+- casetup/ICertSrvSetupKeyInformation.HashAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: casetup.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Certocm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certocm.dll
+- Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation.HashAlgorithm
- - ICertSrvSetupKeyInformation.get_HashAlgorithm
- - ICertSrvSetupKeyInformation.put_HashAlgorithm
+- ICertSrvSetupKeyInformation.HashAlgorithm
+- ICertSrvSetupKeyInformation.get_HashAlgorithm
+- ICertSrvSetupKeyInformation.put_HashAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

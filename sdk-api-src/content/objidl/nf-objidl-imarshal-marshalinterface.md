@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMarshal.MarshalInterface
 title: IMarshal::MarshalInterface (objidl.h)
-
 description: Marshals an interface pointer.
 old-location: com\imarshal_marshalinterface.htm
 tech.root: com
 ms.assetid: c48a7123-bd00-4ff3-8880-7fc4b99e4299
-
 ms.date: 12/05/2018
 ms.keywords: IMarshal interface [COM],MarshalInterface method, IMarshal.MarshalInterface, IMarshal::MarshalInterface, MarshalInterface, MarshalInterface method [COM], MarshalInterface method [COM],IMarshal interface, _com_imarshal_marshalinterface, com.imarshal_marshalinterface, objidlbase/IMarshal::MarshalInterface
 ms.topic: method
-f1_keywords: 
- - "objidl/IMarshal.MarshalInterface"
+f1_keywords:
+- objidl/IMarshal.MarshalInterface
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IMarshal.MarshalInterface
+- IMarshal.MarshalInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

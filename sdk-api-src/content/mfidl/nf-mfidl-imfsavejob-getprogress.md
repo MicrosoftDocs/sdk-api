@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSaveJob.GetProgress
 title: IMFSaveJob::GetProgress (mfidl.h)
-
 description: Retrieves the percentage of content saved to the provided byte stream.
 old-location: mf\imfsavejob_getprogress.htm
 tech.root: medfound
 ms.assetid: 8782333c-796c-4401-9575-c78e95887015
-
 ms.date: 12/05/2018
 ms.keywords: 8782333c-796c-4401-9575-c78e95887015, GetProgress, GetProgress method [Media Foundation], GetProgress method [Media Foundation],IMFSaveJob interface, IMFSaveJob interface [Media Foundation],GetProgress method, IMFSaveJob.GetProgress, IMFSaveJob::GetProgress, mf.imfsavejob_getprogress, mfidl/IMFSaveJob::GetProgress
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSaveJob.GetProgress"
+f1_keywords:
+- mfidl/IMFSaveJob.GetProgress
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSaveJob.GetProgress
+- IMFSaveJob.GetProgress
 targetos: Windows
 req.typenames: 
 req.redist: 

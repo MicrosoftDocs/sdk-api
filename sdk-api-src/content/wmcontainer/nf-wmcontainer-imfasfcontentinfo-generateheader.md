@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.GenerateHeader
 title: IMFASFContentInfo::GenerateHeader (wmcontainer.h)
-
 description: Encodes the data in the MFASFContentInfo object into a binary Advanced Systems Format (ASF) header.
 old-location: mf\imfasfcontentinfo_generateheader.htm
 tech.root: medfound
 ms.assetid: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e
-
 ms.date: 12/05/2018
 ms.keywords: 972f5ae7-ad00-4c3b-8ec4-2cef4ce03c4e, GenerateHeader, GenerateHeader method [Media Foundation], GenerateHeader method [Media Foundation],IMFASFContentInfo interface, IMFASFContentInfo interface [Media Foundation],GenerateHeader method, IMFASFContentInfo.GenerateHeader, IMFASFContentInfo::GenerateHeader, mf.imfasfcontentinfo_generateheader, wmcontainer/IMFASFContentInfo::GenerateHeader
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFContentInfo.GenerateHeader"
+f1_keywords:
+- wmcontainer/IMFASFContentInfo.GenerateHeader
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFContentInfo.GenerateHeader
+- IMFASFContentInfo.GenerateHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

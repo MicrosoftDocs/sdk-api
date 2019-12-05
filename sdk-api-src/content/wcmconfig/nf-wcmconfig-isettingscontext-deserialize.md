@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Deserialize
 title: ISettingsContext::Deserialize (wcmconfig.h)
-
 description: Deserializes the data in the stream that is provided to this context.
 old-location: smi\isettingscontext_deserialize.htm
 tech.root: SMI
 ms.assetid: 382f2864-047e-4095-929b-a8b67773eefb
-
 ms.date: 12/05/2018
 ms.keywords: Deserialize, Deserialize method [SMI], Deserialize method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],Deserialize method, ISettingsContext.Deserialize, ISettingsContext::Deserialize, smi.isettingscontext_deserialize, wcmconfig/ISettingsContext::Deserialize
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsContext.Deserialize"
+f1_keywords:
+- wcmconfig/ISettingsContext.Deserialize
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsContext.Deserialize
+- ISettingsContext.Deserialize
 targetos: Windows
 req.typenames: 
 req.redist: 

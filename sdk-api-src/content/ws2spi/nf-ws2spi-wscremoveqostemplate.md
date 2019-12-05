@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCRemoveQOSTemplate
 title: WSCRemoveQOSTemplate function (ws2spi.h)
-
 description: Removes the specified QoS template from the system configuration database.
 old-location: winsock\wscremoveqostemplate.htm
 tech.root: WinSock
 ms.assetid: e3cb8428-98d8-4bc3-926c-baa7cbf5d679
-
 ms.date: 12/05/2018
 ms.keywords: WSCRemoveQOSTemplate, WSCRemoveQOSTemplate function [Winsock], winsock.wscremoveqostemplate, ws2spi/WSCRemoveQOSTemplate
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCRemoveQOSTemplate"
+f1_keywords:
+- ws2spi/WSCRemoveQOSTemplate
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WSCRemoveQOSTemplate
+- WSCRemoveQOSTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

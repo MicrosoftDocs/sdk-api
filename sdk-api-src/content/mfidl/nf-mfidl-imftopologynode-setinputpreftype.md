@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetInputPrefType
 title: IMFTopologyNode::SetInputPrefType (mfidl.h)
-
 description: Sets the preferred media type for an input stream on this node.
 old-location: mf\imftopologynode_setinputpreftype.htm
 tech.root: medfound
 ms.assetid: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb
-
 ms.date: 12/05/2018
 ms.keywords: 348b3cba-8c8c-4df9-8cb9-b69cd140cffb, IMFTopologyNode interface [Media Foundation],SetInputPrefType method, IMFTopologyNode.SetInputPrefType, IMFTopologyNode::SetInputPrefType, SetInputPrefType, SetInputPrefType method [Media Foundation], SetInputPrefType method [Media Foundation],IMFTopologyNode interface, mf.imftopologynode_setinputpreftype, mfidl/IMFTopologyNode::SetInputPrefType
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.SetInputPrefType"
+f1_keywords:
+- mfidl/IMFTopologyNode.SetInputPrefType
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.SetInputPrefType
+- IMFTopologyNode.SetInputPrefType
 targetos: Windows
 req.typenames: 
 req.redist: 

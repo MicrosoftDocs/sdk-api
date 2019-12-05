@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.lineforward_tag
 title: LINEFORWARD (tapi.h)
-
 description: The LINEFORWARD structure describes an entry of the forwarding instructions. The LINEFORWARDLIST and the LINEADDRESSSTATUS structures can contain an array of LINEFORWARD structures.
 old-location: tapi2\lineforward_str.htm
 tech.root: Tapi
 ms.assetid: cbdb4409-a51a-4ddf-b3ec-c5b958fc2527
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEFORWARD, LINEFORWARD, LINEFORWARD structure [TAPI 2.2], LINEFORWARDMODE_BUSYNASPECIFIC, LINEFORWARDMODE_BUSYSPECIFIC, LINEFORWARDMODE_NOANSWSPECIFIC, LINEFORWARDMODE_UNCONDSPECIFIC, LPLINEFORWARD, LPLINEFORWARD structure pointer [TAPI 2.2], _tapi2_lineforward_str, tapi/LINEFORWARD, tapi/LPLINEFORWARD, tapi2.lineforward_str"
+ms.keywords: '*LPLINEFORWARD, LINEFORWARD, LINEFORWARD structure [TAPI 2.2], LINEFORWARDMODE_BUSYNASPECIFIC, LINEFORWARDMODE_BUSYSPECIFIC, LINEFORWARDMODE_NOANSWSPECIFIC, LINEFORWARDMODE_UNCONDSPECIFIC, LPLINEFORWARD, LPLINEFORWARD structure pointer [TAPI 2.2], _tapi2_lineforward_str, tapi/LINEFORWARD, tapi/LPLINEFORWARD, tapi2.lineforward_str'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEFORWARD"
+f1_keywords:
+- tapi/LINEFORWARD
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEFORWARD
+- LINEFORWARD
 targetos: Windows
 req.typenames: LINEFORWARD, *LPLINEFORWARD
 req.redist: 

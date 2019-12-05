@@ -1,19 +1,17 @@
 ---
 UID: NN:locationapi.ILocationEvents
 title: ILocationEvents (locationapi.h)
-
 description: ILocationEvents provides callback methods that you must implement if you want to receive event notifications.
 old-location: winlocation\ilocationevents.htm
 tech.root: locationapi
 ms.assetid: 5281ae0f-8599-4f84-a3f3-cde8c69e893d
-
 ms.date: 12/05/2018
 ms.keywords: ILocationEvents, ILocationEvents interface [WinLocation], ILocationEvents interface [WinLocation],described, locationapi/ILocationEvents, winlocation.ilocationevents
 ms.topic: interface
-f1_keywords: 
- - "locationapi/ILocationEvents"
+f1_keywords:
+- locationapi/ILocationEvents
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocationEvents
+- ILocationEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

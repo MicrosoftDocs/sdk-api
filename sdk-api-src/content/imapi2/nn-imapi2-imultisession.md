@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2.IMultisession
 title: IMultisession (imapi2.h)
-
 description: Base interface containing properties common to derived multisession interfaces.
 old-location: imapi\imultisession.htm
 tech.root: imapi
 ms.assetid: a983af02-ee0e-4a62-8ae0-fb9a1e0c2571
-
 ms.date: 12/05/2018
 ms.keywords: IMultisession, IMultisession interface [IMAPI], IMultisession interface [IMAPI],described, imapi.imultisession, imapi2/IMultisession
 ms.topic: interface
-f1_keywords: 
- - "imapi2/IMultisession"
+f1_keywords:
+- imapi2/IMultisession
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IMultisession
+- IMultisession
 targetos: Windows
 req.typenames: 
 req.redist: 

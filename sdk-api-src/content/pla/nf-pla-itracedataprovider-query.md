@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProvider.Query
 title: ITraceDataProvider::Query (pla.h)
-
 description: Retrieves details about a registered provider.
 old-location: pla\itracedataprovider_query.htm
 tech.root: PLA
 ms.assetid: b3d1720f-3a74-4040-803b-266bd0d50cfc
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider interface [PLA],Query method, ITraceDataProvider.Query, ITraceDataProvider::Query, Query, Query method [PLA], Query method [PLA],ITraceDataProvider interface, base.itracedataprovider_query, pla.itracedataprovider_query, pla/ITraceDataProvider::Query
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProvider.Query"
+f1_keywords:
+- pla/ITraceDataProvider.Query
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProvider.Query
+- ITraceDataProvider.Query
 targetos: Windows
 req.typenames: 
 req.redist: 

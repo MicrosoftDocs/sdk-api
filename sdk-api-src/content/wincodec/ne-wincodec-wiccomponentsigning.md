@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICComponentSigning
 title: WICComponentSigning (wincodec.h)
-
 description: Specifies the component signing status.
 old-location: wic\_wic_codec_wiccomponentsigning.htm
 tech.root: wic
 ms.assetid: 64f3de6d-15da-4cc8-ad74-57759bcd4d07
-
 ms.date: 12/05/2018
 ms.keywords: WICComponentDisabled, WICComponentSafe, WICComponentSigned, WICComponentSigning, WICComponentSigning enumeration [Windows Imaging Component], WICComponentUnsigned, _wic_codec_wiccomponentsigning, wic._wic_codec_wiccomponentsigning, wincodec/WICComponentDisabled, wincodec/WICComponentSafe, wincodec/WICComponentSigned, wincodec/WICComponentSigning, wincodec/WICComponentUnsigned
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICComponentSigning"
+f1_keywords:
+- wincodec/WICComponentSigning
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICComponentSigning
+- WICComponentSigning
 targetos: Windows
 req.typenames: WICComponentSigning
 req.redist: 

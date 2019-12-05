@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnBalloon.UpdateBalloon
 title: ITfFnBalloon::UpdateBalloon (ctffunc.h)
-
 description: ITfFnBalloon::UpdateBalloon method
 old-location: tsf\itffnballoon_updateballoon.htm
 tech.root: TSF
 ms.assetid: b395d587-02a7-496e-8bfd-8fcaba2a3edc
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnBalloon interface [Text Services Framework],UpdateBalloon method, ITfFnBalloon.UpdateBalloon, ITfFnBalloon::UpdateBalloon, UpdateBalloon, UpdateBalloon method [Text Services Framework], UpdateBalloon method [Text Services Framework],ITfFnBalloon interface, _tsf_itffnballoon_updateballoon_ref, ctffunc/ITfFnBalloon::UpdateBalloon, tsf.itffnballoon_updateballoon
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnBalloon.UpdateBalloon"
+f1_keywords:
+- ctffunc/ITfFnBalloon.UpdateBalloon
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfFnBalloon.UpdateBalloon
+- ITfFnBalloon.UpdateBalloon
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

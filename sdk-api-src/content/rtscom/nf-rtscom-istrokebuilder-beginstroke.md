@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.BeginStroke
 title: IStrokeBuilder::BeginStroke (rtscom.h)
-
 description: Begins a stroke on an ink object by using packet data from a RealTimeStylus Class object.
 old-location: tablet\istrokebuilder_beginstroke.htm
 tech.root: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea
-
 ms.date: 12/05/2018
 ms.keywords: 40b8ce05-0272-4505-8361-13bb6ca701ea, BeginStroke, BeginStroke method [Tablet PC], BeginStroke method [Tablet PC],IStrokeBuilder interface, IStrokeBuilder interface [Tablet PC],BeginStroke method, IStrokeBuilder.BeginStroke, IStrokeBuilder::BeginStroke, rtscom/IStrokeBuilder::BeginStroke, tablet.istrokebuilder_beginstroke
 ms.topic: method
-f1_keywords: 
- - "rtscom/IStrokeBuilder.BeginStroke"
+f1_keywords:
+- rtscom/IStrokeBuilder.BeginStroke
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IStrokeBuilder.BeginStroke
+- IStrokeBuilder.BeginStroke
 targetos: Windows
 req.typenames: 
 req.redist: 

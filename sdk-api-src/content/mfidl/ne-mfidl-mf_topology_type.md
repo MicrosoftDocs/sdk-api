@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl.MF_TOPOLOGY_TYPE
 title: MF_TOPOLOGY_TYPE (mfidl.h)
-
 description: Defines the type of a topology node.
 old-location: mf\mf_topology_type.htm
 tech.root: medfound
 ms.assetid: 73ea1f48-0d86-4104-860c-83a4f9189920
-
 ms.date: 12/05/2018
 ms.keywords: 73ea1f48-0d86-4104-860c-83a4f9189920, MF_TOPOLOGY_MAX, MF_TOPOLOGY_OUTPUT_NODE, MF_TOPOLOGY_SOURCESTREAM_NODE, MF_TOPOLOGY_TEE_NODE, MF_TOPOLOGY_TRANSFORM_NODE, MF_TOPOLOGY_TYPE, MF_TOPOLOGY_TYPE enumeration [Media Foundation], mf.mf_topology_type, mfidl/MF_TOPOLOGY_MAX, mfidl/MF_TOPOLOGY_OUTPUT_NODE, mfidl/MF_TOPOLOGY_SOURCESTREAM_NODE, mfidl/MF_TOPOLOGY_TEE_NODE, mfidl/MF_TOPOLOGY_TRANSFORM_NODE, mfidl/MF_TOPOLOGY_TYPE
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_TOPOLOGY_TYPE"
+f1_keywords:
+- mfidl/MF_TOPOLOGY_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_TOPOLOGY_TYPE
+- MF_TOPOLOGY_TYPE
 targetos: Windows
 req.typenames: MF_TOPOLOGY_TYPE
 req.redist: 

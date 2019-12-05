@@ -1,19 +1,17 @@
 ---
 UID: NS:fileapi._WIN32_FIND_STREAM_DATA
 title: WIN32_FIND_STREAM_DATA (fileapi.h)
-
 description: Contains information about the stream found by the FindFirstStreamW or FindNextStreamW function.
 old-location: fs\win32_find_stream_data_str.htm
 tech.root: FileIO
 ms.assetid: f21f5161-10a8-474c-85d8-dde075b9daff
-
 ms.date: 12/05/2018
-ms.keywords: "*PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA structure pointer [Files], WIN32_FIND_STREAM_DATA, WIN32_FIND_STREAM_DATA structure [Files], _win32_win32_find_stream_data_str, base.win32_find_stream_data_str, fileapi/PWIN32_FIND_STREAM_DATA, fileapi/WIN32_FIND_STREAM_DATA, fs.win32_find_stream_data_str"
+ms.keywords: '*PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA, PWIN32_FIND_STREAM_DATA structure pointer [Files], WIN32_FIND_STREAM_DATA, WIN32_FIND_STREAM_DATA structure [Files], _win32_win32_find_stream_data_str, base.win32_find_stream_data_str, fileapi/PWIN32_FIND_STREAM_DATA, fileapi/WIN32_FIND_STREAM_DATA, fs.win32_find_stream_data_str'
 ms.topic: struct
-f1_keywords: 
- - "fileapi/WIN32_FIND_STREAM_DATA"
+f1_keywords:
+- fileapi/WIN32_FIND_STREAM_DATA
 dev_langs:
- - c++
+- c++
 req.header: fileapi.h
 req.include-header: Windows.h, WinBase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - fileapi.h
+- fileapi.h
 api_name:
- - WIN32_FIND_STREAM_DATA
+- WIN32_FIND_STREAM_DATA
 targetos: Windows
 req.typenames: WIN32_FIND_STREAM_DATA, *PWIN32_FIND_STREAM_DATA
 req.redist: 

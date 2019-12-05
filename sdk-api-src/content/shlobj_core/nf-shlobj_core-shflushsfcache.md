@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHFlushSFCache
 title: SHFlushSFCache function (shlobj_core.h)
-
 description: SHFlushSFCache may be altered or unavailable.
 old-location: shell\SHFlushSFCache.htm
 tech.root: shell
 ms.assetid: 2e39b6b1-e60c-411c-aabc-5a3511f0693b
-
 ms.date: 12/05/2018
 ms.keywords: SHFlushSFCache, SHFlushSFCache function [Windows Shell], _win32_SHFlushSFCache, shell.SHFlushSFCache, shlobj_core/SHFlushSFCache
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHFlushSFCache"
+f1_keywords:
+- shlobj_core/SHFlushSFCache
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-Ms-Win-Shell32-Shellfolders-L1-1-1.dll
- - Windows.Storage.dll
+- Shell32.dll
+- Ext-Ms-Win-Shell32-Shellfolders-L1-1-1.dll
+- Windows.Storage.dll
 api_name:
- - SHFlushSFCache
+- SHFlushSFCache
 targetos: Windows
 req.typenames: 
 req.redist: 

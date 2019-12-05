@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTimer
 title: IMFTimer (mfidl.h)
-
 description: Provides a timer that invokes a callback at a specified time.
 old-location: mf\imftimer.htm
 tech.root: medfound
 ms.assetid: 152594df-de3d-4f6f-9277-dba95ab3533a
-
 ms.date: 12/05/2018
 ms.keywords: 152594df-de3d-4f6f-9277-dba95ab3533a, IMFTimer, IMFTimer interface [Media Foundation], IMFTimer interface [Media Foundation],described, mf.imftimer, mfidl/IMFTimer
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTimer"
+f1_keywords:
+- mfidl/IMFTimer
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTimer
+- IMFTimer
 targetos: Windows
 req.typenames: 
 req.redist: 

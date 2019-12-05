@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmReleaseRoutes
 title: RtmReleaseRoutes function (rtmv2.h)
-
 description: The RtmReleaseRoutes function releases the route handles.
 old-location: rras\rtmreleaseroutes.htm
 tech.root: RRAS
 ms.assetid: 4c893144-a2c5-4dc8-83c1-cae0d3024505
-
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseRoutes, RtmReleaseRoutes function [RAS], _rtmv2ref_rtmreleaseroutes, rras.rtmreleaseroutes, rtmv2/RtmReleaseRoutes
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmReleaseRoutes"
+f1_keywords:
+- rtmv2/RtmReleaseRoutes
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmReleaseRoutes
+- RtmReleaseRoutes
 targetos: Windows
 req.typenames: 
 req.redist: 

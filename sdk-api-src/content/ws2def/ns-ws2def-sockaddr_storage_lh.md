@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2def.sockaddr_storage
 title: SOCKADDR_STORAGE_LH (ws2def.h)
-
 description: The SOCKADDR_STORAGE structure is a generic structure that specifies a transport address.
 old-location: netvista\sockaddr_storage.htm
 tech.root: NetVista
 ms.assetid: 27e56c1a-ce11-4cdb-9be8-25ed2f94fb37
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSOCKADDR_STORAGE_LH, *PSOCKADDR_STORAGE, *PSOCKADDR_STORAGE_LH, FAR *LPSOCKADDR_STORAGE_LH, FAR *LPSOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], PSOCKADDR_STORAGE_LH, PSOCKADDR_STORAGE_LH structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE, SOCKADDR_STORAGE structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_LH, SOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], netvista.sockaddr_storage, ws2def/FAR *LPSOCKADDR_STORAGE_LH, ws2def/PSOCKADDR_STORAGE_LH, ws2def/SOCKADDR_STORAGE, wskref_6daf4329-4069-419a-add7-dada30940663.xml"
+ms.keywords: '*LPSOCKADDR_STORAGE_LH, *PSOCKADDR_STORAGE, *PSOCKADDR_STORAGE_LH, FAR *LPSOCKADDR_STORAGE_LH, FAR *LPSOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], PSOCKADDR_STORAGE_LH, PSOCKADDR_STORAGE_LH structure pointer [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE, SOCKADDR_STORAGE structure [Network Drivers Starting with Windows Vista], SOCKADDR_STORAGE_LH, SOCKADDR_STORAGE_LH structure [Network Drivers Starting with Windows Vista], netvista.sockaddr_storage, ws2def/FAR *LPSOCKADDR_STORAGE_LH, ws2def/PSOCKADDR_STORAGE_LH, ws2def/SOCKADDR_STORAGE, wskref_6daf4329-4069-419a-add7-dada30940663.xml'
 ms.topic: struct
-f1_keywords: 
- - "ws2def/SOCKADDR_STORAGE_LH"
+f1_keywords:
+- ws2def/SOCKADDR_STORAGE_LH
 dev_langs:
- - c++
+- c++
 req.header: ws2def.h
 req.include-header: Wsk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ws2def.h
+- ws2def.h
 api_name:
- - SOCKADDR_STORAGE_LH
+- SOCKADDR_STORAGE_LH
 targetos: Windows
 req.typenames: SOCKADDR_STORAGE_LH, *PSOCKADDR_STORAGE_LH, *LPSOCKADDR_STORAGE_LH
 req.redist: 

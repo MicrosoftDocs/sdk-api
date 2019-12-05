@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteLONG
 title: PSPropertyBag_WriteLONG function (propsys.h)
-
 description: Sets the LONG value of a property in a property bag.
 old-location: properties\PSPropertyBag_WriteLONG.htm
 tech.root: properties
 ms.assetid: A623D097-FEF8-4864-A80A-C6EF824EC245
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_WriteLONG, PSPropertyBag_WriteLONG function [Windows Properties], properties.PSPropertyBag_WriteLONG, propsys/PSPropertyBag_WriteLONG, shell.PSPropertyBag_WriteLONG, shell_PSPropertyBag_WriteLONG
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_WriteLONG"
+f1_keywords:
+- propsys/PSPropertyBag_WriteLONG
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_WriteLONG
+- PSPropertyBag_WriteLONG
 targetos: Windows
 req.typenames: 
 req.redist: 

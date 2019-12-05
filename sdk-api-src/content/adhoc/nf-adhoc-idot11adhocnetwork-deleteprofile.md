@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocNetwork.DeleteProfile
 title: IDot11AdHocNetwork::DeleteProfile (adhoc.h)
-
 description: Deletes any profile associated with the network.
 old-location: nwifi\idot11adhocnetwork_deleteprofile.htm
 tech.root: NativeWiFi
 ms.assetid: 7f2c007c-4d24-44d7-be30-0fa7c5fbce4a
-
 ms.date: 12/05/2018
 ms.keywords: DeleteProfile, DeleteProfile method [NativeWIFI], DeleteProfile method [NativeWIFI],IDot11AdHocNetwork interface, IDot11AdHocNetwork interface [NativeWIFI],DeleteProfile method, IDot11AdHocNetwork.DeleteProfile, IDot11AdHocNetwork::DeleteProfile, adhoc/IDot11AdHocNetwork::DeleteProfile, nwifi.idot11adhocnetwork_deleteprofile
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocNetwork.DeleteProfile"
+f1_keywords:
+- adhoc/IDot11AdHocNetwork.DeleteProfile
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocNetwork.DeleteProfile
+- IDot11AdHocNetwork.DeleteProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

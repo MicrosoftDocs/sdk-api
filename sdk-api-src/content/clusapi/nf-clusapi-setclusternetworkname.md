@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.SetClusterNetworkName
 title: SetClusterNetworkName function (clusapi.h)
-
 description: Sets the name for a network.
 old-location: mscs\setclusternetworkname.htm
 tech.root: MsCS
 ms.assetid: c1b5dcd0-8974-495c-b85a-1d426719e9f9
-
 ms.date: 12/05/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_NETWORK_NAME, PCLUSAPI_SET_CLUSTER_NETWORK_NAME function [Failover Cluster], SetClusterNetworkName, SetClusterNetworkName function [Failover Cluster], _wolf_setclusternetworkname, clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_NAME, clusapi/SetClusterNetworkName, mscs.setclusternetworkname
 ms.topic: function
-f1_keywords: 
- - "clusapi/SetClusterNetworkName"
+f1_keywords:
+- clusapi/SetClusterNetworkName
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - SetClusterNetworkName
+- SetClusterNetworkName
 targetos: Windows
 req.typenames: 
 req.redist: 

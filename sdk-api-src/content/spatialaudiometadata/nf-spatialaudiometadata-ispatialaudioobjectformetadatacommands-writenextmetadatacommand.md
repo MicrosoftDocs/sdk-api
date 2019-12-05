@@ -1,19 +1,17 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand
 title: ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand (spatialaudiometadata.h)
-
 description: Writes a metadata command to the spatial audio object, each command may only be added once per object per processing cycle.
 old-location: coreaudio\ispatialaudioobjectformetadatacommands_writenextmetadatacommand.htm
 tech.root: CoreAudio
 ms.assetid: 4880851E-C13F-49EC-BFC2-0F97F36D4D07
-
 ms.date: 12/05/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands interface [Core Audio],WriteNextMetadataCommand method, ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand, ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand, WriteNextMetadataCommand, WriteNextMetadataCommand method [Core Audio], WriteNextMetadataCommand method [Core Audio],ISpatialAudioObjectForMetadataCommands interface, coreaudio.ispatialaudioobjectformetadatacommands_writenextmetadatacommand, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand
 ms.topic: method
-f1_keywords: 
- - "spatialaudiometadata/ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand"
+f1_keywords:
+- spatialaudiometadata/ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand
 dev_langs:
- - c++
+- c++
 req.header: spatialaudiometadata.h
 req.include-header: Spatialaudioclient.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - spatialaudiometadata.h
+- spatialaudiometadata.h
 api_name:
- - ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand
+- ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

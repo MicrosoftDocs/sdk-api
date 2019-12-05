@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarBstrFromDisp
 title: VarBstrFromDisp function (oleauto.h)
-
 description: Converts the default property of an IDispatch instance to a BSTR value.
 old-location: automat\varbstrfromdisp.htm
 tech.root: automat
 ms.assetid: 6a59e80b-96d2-47ff-9d23-fab9d67886b4
-
 ms.date: 12/05/2018
 ms.keywords: VarBstrFromDisp, VarBstrFromDisp function [Automation], _oa96_VarBstrFromDisp, automat.varbstrfromdisp, oleauto/VarBstrFromDisp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarBstrFromDisp"
+f1_keywords:
+- oleauto/VarBstrFromDisp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarBstrFromDisp
+- VarBstrFromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

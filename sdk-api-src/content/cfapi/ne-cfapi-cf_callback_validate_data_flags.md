@@ -1,19 +1,17 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_VALIDATE_DATA_FLAGS
 title: CF_CALLBACK_VALIDATE_DATA_FLAGS (cfapi.h)
-
 description: Flags to validate the data of a placeholder file or directory.
 old-location: cloudapi\cf_callback_validate_data_flags.htm
 tech.root: cfApi
 ms.assetid: D5BEAEAA-318E-4BA5-8DC5-EDD24E2C26EF
-
 ms.date: 12/05/2018
 ms.keywords: CF_CALLBACK_VALIDATE_DATA_FLAGS, CF_CALLBACK_VALIDATE_DATA_FLAGS enumeration, CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cfapi/ CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS, cfapi/CF_CALLBACK_VALIDATE_DATA_FLAG_NONE, cloudApi.cf_callback_validate_data_flags
 ms.topic: enum
-f1_keywords: 
- - "cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS"
+f1_keywords:
+- cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CfApi.h
+- CfApi.h
 api_name:
- - CF_CALLBACK_VALIDATE_DATA_FLAGS
+- CF_CALLBACK_VALIDATE_DATA_FLAGS
 targetos: Windows
 req.typenames: CF_CALLBACK_VALIDATE_DATA_FLAGS
 req.redist: 

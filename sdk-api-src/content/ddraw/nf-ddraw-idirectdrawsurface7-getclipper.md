@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetClipper
 title: IDirectDrawSurface7::GetClipper (ddraw.h)
-
 description: Retrieves the DirectDrawClipper object that is associated with this surface, and increments the reference count of the returned clipper.
 old-location: directdraw\idirectdrawsurface7_getclipper.htm
 tech.root: directdraw
 ms.assetid: f2156dbe-88b5-4ab1-a310-13a38ebdbb4b
-
 ms.date: 12/05/2018
 ms.keywords: GetClipper, GetClipper method [DirectDraw], GetClipper method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetClipper method, IDirectDrawSurface7.GetClipper, IDirectDrawSurface7::GetClipper, ddraw/IDirectDrawSurface7::GetClipper, directdraw.idirectdrawsurface7_getclipper
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.GetClipper"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetClipper
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.GetClipper
+- IDirectDrawSurface7.GetClipper
 targetos: Windows
 req.typenames: 
 req.redist: 

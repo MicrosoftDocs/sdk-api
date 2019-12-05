@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced4.GetLanguage
 title: IWMReaderAdvanced4::GetLanguage (wmsdkidl.h)
-
 description: The GetLanguage method retrieves information about a language supported by an output. You must specify an output number and a language index, and this method will supply the RFC1766-compliant language string.
 old-location: wmformat\iwmreaderadvanced4_getlanguage.htm
 tech.root: wmformat
 ms.assetid: 2af443f5-941a-466a-8eef-d4742f8e1ae1
-
 ms.date: 12/05/2018
 ms.keywords: GetLanguage, GetLanguage method [windows Media Format], GetLanguage method [windows Media Format],IWMReaderAdvanced4 interface, IWMReaderAdvanced4 interface [windows Media Format],GetLanguage method, IWMReaderAdvanced4.GetLanguage, IWMReaderAdvanced4::GetLanguage, IWMReaderAdvanced4GetLanguage, wmformat.iwmreaderadvanced4_getlanguage, wmsdkidl/IWMReaderAdvanced4::GetLanguage
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced4.GetLanguage"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced4.GetLanguage
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4.GetLanguage
+- IWMReaderAdvanced4.GetLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

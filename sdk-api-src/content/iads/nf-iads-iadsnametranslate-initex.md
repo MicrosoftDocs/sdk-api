@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IADsNameTranslate.InitEx
 title: IADsNameTranslate::InitEx (iads.h)
-
 description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential.
 old-location: adsi\iadsnametranslate_initex.htm
 tech.root: adsi
 ms.assetid: 169e1e0d-26c0-484d-b461-8817d37d17b8
-
 ms.date: 12/05/2018
 ms.keywords: IADsNameTranslate interface [ADSI],InitEx method, IADsNameTranslate.InitEx, IADsNameTranslate::InitEx, InitEx, InitEx method [ADSI], InitEx method [ADSI],IADsNameTranslate interface, _ds_iadsnametranslate_initex, adsi.iadsnametranslate__initex, adsi.iadsnametranslate_initex, iads/IADsNameTranslate::InitEx
 ms.topic: method
-f1_keywords: 
- - "iads/IADsNameTranslate.InitEx"
+f1_keywords:
+- iads/IADsNameTranslate.InitEx
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsNameTranslate.InitEx
+- IADsNameTranslate.InitEx
 targetos: Windows
 req.typenames: 
 req.redist: 

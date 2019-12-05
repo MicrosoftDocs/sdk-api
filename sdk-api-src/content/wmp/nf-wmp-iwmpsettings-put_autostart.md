@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSettings.put_autoStart
 title: IWMPSettings::put_autoStart (wmp.h)
-
 description: The put_autoStart method specifies a value indicating whether the current media item begins playing automatically.
 old-location: wmp\iwmpsettings_put_autostart.htm
 tech.root: WMP
 ms.assetid: 34f80fa4-6e9c-4435-b360-55c2856f89fb
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSettings interface [Windows Media Player],put_autoStart method, IWMPSettings.put_autoStart, IWMPSettings::put_autoStart, IWMPSettingsput_autoStart, put_autoStart, put_autoStart method [Windows Media Player], put_autoStart method [Windows Media Player],IWMPSettings interface, wmp.iwmpsettings_put_autostart, wmp/IWMPSettings::put_autoStart
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSettings.put_autoStart"
+f1_keywords:
+- wmp/IWMPSettings.put_autoStart
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSettings.put_autoStart
+- IWMPSettings.put_autoStart
 targetos: Windows
 req.typenames: 
 req.redist: 

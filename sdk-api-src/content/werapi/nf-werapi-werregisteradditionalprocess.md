@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerRegisterAdditionalProcess
 title: WerRegisterAdditionalProcess function (werapi.h)
-
 description: Registers a process to be included in the error report along with the main application process. Optionally specifies a thread within that registered process to get additional data from.
 old-location: wer\werregisteradditionalprocess.htm
 tech.root: wer
 ms.assetid: F4E44C22-6BE1-4512-80F6-1B6741E3ADBB
-
 ms.date: 12/05/2018
 ms.keywords: WerRegisterAdditionalProcess, WerRegisterAdditionalProcess function [Windows Error Reporting], wer.werregisteradditionalprocess, werapi/WerRegisterAdditionalProcess
 ms.topic: function
-f1_keywords: 
- - "werapi/WerRegisterAdditionalProcess"
+f1_keywords:
+- werapi/WerRegisterAdditionalProcess
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerRegisterAdditionalProcess
+- WerRegisterAdditionalProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

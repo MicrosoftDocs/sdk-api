@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetFlags
 title: IScheduledWorkItem::GetFlags (mstask.h)
-
 description: Retrieves the flags that modify the behavior of any type of work item.
 old-location: taskschd\ischeduledworkitem_getflags.htm
 tech.root: taskschd
 ms.assetid: 0fe3c184-2689-44de-b60f-92d31eaa5285
-
 ms.date: 12/05/2018
 ms.keywords: GetFlags, GetFlags method [Task Scheduler], GetFlags method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetFlags method, IScheduledWorkItem.GetFlags, IScheduledWorkItem::GetFlags, _msb_ischeduledworkitem_getflags, mstask/IScheduledWorkItem::GetFlags, taskschd.ischeduledworkitem_getflags
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetFlags"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetFlags
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetFlags
+- IScheduledWorkItem.GetFlags
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

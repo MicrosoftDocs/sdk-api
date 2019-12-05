@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkExtendedProperties.get_Count
 title: IInkExtendedProperties::get_Count (msinkaut.h)
-
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkextendedproperties_count.htm
 tech.root: tablet
 ms.assetid: 8b75ba1a-ab31-4d54-b997-86dd3445fd79
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkExtendedProperties interface, IInkExtendedProperties interface [Tablet PC],Count property, IInkExtendedProperties.Count, IInkExtendedProperties.get_Count, IInkExtendedProperties::Count, IInkExtendedProperties::get_Count, get_Count, msinkaut/IInkExtendedProperties::Count, msinkaut/IInkExtendedProperties::get_Count, tablet.iinkextendedproperties_count
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkExtendedProperties.Count"
+f1_keywords:
+- msinkaut/IInkExtendedProperties.Count
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkExtendedProperties.Count
- - IInkExtendedProperties.get_Count
- - IInkExtendedProperties.get_Count
+- IInkExtendedProperties.Count
+- IInkExtendedProperties.get_Count
+- IInkExtendedProperties.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

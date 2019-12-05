@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IUnknown_AtomicRelease
 title: IUnknown_AtomicRelease function (shlwapi.h)
-
 description: Releases a Component Object Model (COM) pointer and sets it to NULL.
 old-location: shell\IUnknown_AtomicRelease.htm
 tech.root: shell
 ms.assetid: 6bb3f9cf-bf28-4f94-8557-56c1952384ec
-
 ms.date: 12/05/2018
 ms.keywords: IUnknown_AtomicRelease, IUnknown_AtomicRelease function [Windows Shell], _win32_IUnknown_AtomicRelease, shell.IUnknown_AtomicRelease, shlwapi/IUnknown_AtomicRelease
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IUnknown_AtomicRelease"
+f1_keywords:
+- shlwapi/IUnknown_AtomicRelease
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-comhelpers-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-comhelpers-l1-1-0.dll
 api_name:
- - IUnknown_AtomicRelease
+- IUnknown_AtomicRelease
 targetos: Windows
 req.typenames: 
 req.redist: 

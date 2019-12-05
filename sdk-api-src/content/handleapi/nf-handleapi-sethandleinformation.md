@@ -1,19 +1,17 @@
 ---
 UID: NF:handleapi.SetHandleInformation
 title: SetHandleInformation function (handleapi.h)
-
 description: Sets certain properties of an object handle.
 old-location: base\sethandleinformation.htm
 tech.root: SysInfo
 ms.assetid: a3fa8b92-cba2-414e-9fb8-d0fcb98ede36
-
 ms.date: 12/05/2018
 ms.keywords: HANDLE_FLAG_INHERIT, HANDLE_FLAG_PROTECT_FROM_CLOSE, SetHandleInformation, SetHandleInformation function, _win32_sethandleinformation, base.sethandleinformation, handleapi/SetHandleInformation
 ms.topic: function
-f1_keywords: 
- - "handleapi/SetHandleInformation"
+f1_keywords:
+- handleapi/SetHandleInformation
 dev_langs:
- - c++
+- c++
 req.header: handleapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-handle-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-handle-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SetHandleInformation
+- SetHandleInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

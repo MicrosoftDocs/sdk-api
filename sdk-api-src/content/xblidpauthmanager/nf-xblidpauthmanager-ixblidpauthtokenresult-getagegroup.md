@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetAgeGroup
 title: IXblIdpAuthTokenResult::GetAgeGroup (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getagegroup.htm
 tech.root: xblidp
 ms.assetid: 0C2699CB-6AAF-4720-90AF-03A05A193DBC
-
 ms.date: 12/05/2018
 ms.keywords: GetAgeGroup, GetAgeGroup method, GetAgeGroup method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetAgeGroup method, IXblIdpAuthTokenResult.GetAgeGroup, IXblIdpAuthTokenResult::GetAgeGroup, xblidp.ixblidpauthtokenresult_getagegroup, xblidpauthmanager/IXblIdpAuthTokenResult::GetAgeGroup
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetAgeGroup"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetAgeGroup
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetAgeGroup
+- IXblIdpAuthTokenResult.GetAgeGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wlanapi._WLAN_AUTH_CIPHER_PAIR_LIST
 title: WLAN_AUTH_CIPHER_PAIR_LIST (wlanapi.h)
-
 description: Contains a list of authentication and cipher algorithm pairs.
 old-location: nwifi\wlan_auth_cipher_pair_list.htm
 tech.root: NativeWiFi
 ms.assetid: 747ee8e6-aafa-42ec-9183-a5a4a2603fc0
-
 ms.date: 12/05/2018
-ms.keywords: "*PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST structure pointer [NativeWIFI], WLAN_AUTH_CIPHER_PAIR_LIST, WLAN_AUTH_CIPHER_PAIR_LIST structure [NativeWIFI], nwifi.wlan_auth_cipher_pair_list, wlanapi/PWLAN_AUTH_CIPHER_PAIR_LIST, wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST"
+ms.keywords: '*PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST, PWLAN_AUTH_CIPHER_PAIR_LIST structure pointer [NativeWIFI], WLAN_AUTH_CIPHER_PAIR_LIST, WLAN_AUTH_CIPHER_PAIR_LIST structure [NativeWIFI], nwifi.wlan_auth_cipher_pair_list, wlanapi/PWLAN_AUTH_CIPHER_PAIR_LIST, wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST'
 ms.topic: struct
-f1_keywords: 
- - "wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST"
+f1_keywords:
+- wlanapi/WLAN_AUTH_CIPHER_PAIR_LIST
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - WLAN_AUTH_CIPHER_PAIR_LIST
+- WLAN_AUTH_CIPHER_PAIR_LIST
 targetos: Windows
 req.typenames: WLAN_AUTH_CIPHER_PAIR_LIST, *PWLAN_AUTH_CIPHER_PAIR_LIST
 req.redist: Wireless LAN API for Windows XP with SP2

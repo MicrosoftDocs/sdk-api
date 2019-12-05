@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.EnumDeviceDrivers
 title: EnumDeviceDrivers function (psapi.h)
-
 description: Retrieves the load address for each device driver in the system.
 old-location: psapi\enumdevicedrivers.htm
 tech.root: psapi
 ms.assetid: 55925741-da23-44b1-93e8-0e9468434a61
-
 ms.date: 12/05/2018
 ms.keywords: EnumDeviceDrivers, EnumDeviceDrivers function [PSAPI], K32EnumDeviceDrivers, _win32_enumdevicedrivers, base.enumdevicedrivers, psapi.enumdevicedrivers, psapi/EnumDeviceDrivers, psapi/K32EnumDeviceDrivers
 ms.topic: function
-f1_keywords: 
- - "psapi/EnumDeviceDrivers"
+f1_keywords:
+- psapi/EnumDeviceDrivers
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
- - API-MS-Win-Core-PsAPI-L1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
+- API-MS-Win-Core-PsAPI-L1-1-0.dll
+- KernelBase.dll
 api_name:
- - EnumDeviceDrivers
- - K32EnumDeviceDrivers
+- EnumDeviceDrivers
+- K32EnumDeviceDrivers
 targetos: Windows
 req.typenames: 
 req.redist: 

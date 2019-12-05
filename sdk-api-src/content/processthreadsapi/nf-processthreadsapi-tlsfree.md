@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.TlsFree
 title: TlsFree function (processthreadsapi.h)
-
 description: Releases a thread local storage (TLS) index, making it available for reuse.
 old-location: base\tlsfree.htm
 tech.root: ProcThread
 ms.assetid: f5b1e8fc-02eb-4a06-b606-2b647944029b
-
 ms.date: 12/05/2018
 ms.keywords: TlsFree, TlsFree function, _win32_tlsfree, base.tlsfree, processthreadsapi/TlsFree, winbase/TlsFree
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/TlsFree"
+f1_keywords:
+- processthreadsapi/TlsFree
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: Windows Vista, Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib; WindowsPhoneCore.lib on Windows Phone 8.1
 req.dll: KernelBase.dll on Windows Phone 8.1; Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - KernelBase.dll
- - Kernel32.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-1.dll
- - API-MS-Win-Core-ProcessThreads-l1-1-2.dll
- - api-ms-win-downlevel-kernel32-l1-1-0.dll
- - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
+- KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-1.dll
+- API-MS-Win-Core-ProcessThreads-l1-1-2.dll
+- api-ms-win-downlevel-kernel32-l1-1-0.dll
+- API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - TlsFree
+- TlsFree
 targetos: Windows
 req.typenames: 
 req.redist: 

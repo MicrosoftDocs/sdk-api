@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalFree
 title: IMDSPStorageGlobals::GetTotalFree (mswmdm.h)
-
 description: The GetTotalFree method retrieves the total free space on the storage medium, in bytes.
 old-location: wmdm\imdspstorageglobals_gettotalfree.htm
 tech.root: WMDM
 ms.assetid: 141b33e8-5cb5-46a8-b91e-01bd9c634cbf
-
 ms.date: 12/05/2018
 ms.keywords: GetTotalFree, GetTotalFree method [windows Media Device Manager], GetTotalFree method [windows Media Device Manager],IMDSPStorageGlobals interface, IMDSPStorageGlobals interface [windows Media Device Manager],GetTotalFree method, IMDSPStorageGlobals.GetTotalFree, IMDSPStorageGlobals::GetTotalFree, IMDSPStorageGlobalsGetTotalFree, mswmdm/IMDSPStorageGlobals::GetTotalFree, wmdm.imdspstorageglobals_gettotalfree
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPStorageGlobals.GetTotalFree"
+f1_keywords:
+- mswmdm/IMDSPStorageGlobals.GetTotalFree
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPStorageGlobals.GetTotalFree
+- IMDSPStorageGlobals.GetTotalFree
 targetos: Windows
 req.typenames: 
 req.redist: 

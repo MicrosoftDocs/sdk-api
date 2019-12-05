@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkOverlay.get_EraserWidth
 title: IInkOverlay::get_EraserWidth (msinkaut.h)
-
 description: Gets or sets the value that specifies the width of the eraser pen tip.
 old-location: tablet\inkoverlay_eraserwidth.htm
 tech.root: tablet
 ms.assetid: d6200640-cf51-44d8-be5a-9dfa5ac36dbc
-
 ms.date: 12/05/2018
 ms.keywords: EraserWidth property [Tablet PC], EraserWidth property [Tablet PC],IInkOverlay interface, IInkOverlay interface [Tablet PC],EraserWidth property, IInkOverlay.EraserWidth, IInkOverlay.get_EraserWidth, IInkOverlay::EraserWidth, IInkOverlay::get_EraserWidth, IInkOverlay::put_EraserWidth, InkOverlay.get_EraserWidth, InkOverlay.put_EraserWidth, d6200640-cf51-44d8-be5a-9dfa5ac36dbc, get_EraserWidth, msinkaut/IInkOverlay::EraserWidth, msinkaut/IInkOverlay::get_EraserWidth, msinkaut/IInkOverlay::put_EraserWidth, put_EraserWidth, tablet.inkoverlay_eraserwidth
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkOverlay.EraserWidth"
+f1_keywords:
+- msinkaut/IInkOverlay.EraserWidth
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkOverlay.EraserWidth
- - IInkOverlay.get_EraserWidth
- - IInkOverlay.put_EraserWidth
- - InkOverlay.get_EraserWidth
- - InkOverlay.put_EraserWidth
+- IInkOverlay.EraserWidth
+- IInkOverlay.get_EraserWidth
+- IInkOverlay.put_EraserWidth
+- InkOverlay.get_EraserWidth
+- InkOverlay.put_EraserWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

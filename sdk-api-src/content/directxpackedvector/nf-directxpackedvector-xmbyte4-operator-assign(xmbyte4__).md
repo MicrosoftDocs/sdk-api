@@ -3,14 +3,13 @@ UID: NF:directxpackedvector.XMBYTE4.operator-assign(XMBYTE4 &&)
 title: XMBYTE4::operator=
 description: Assigns the vector component data from one instance of XMBYTE4 to the current instance of XMBYTE4.
 ms.assetid: 24a7bc33-4bca-476b-9541-c4c2ac03fb7a
-
 ms.date: 05/20/2019
 ms.keywords: XMBYTE4::operator=
 ms.topic: language-reference
-f1_keywords: 
- - "directxpackedvector/XMBYTE4::operator="
+f1_keywords:
+- directxpackedvector/XMBYTE4::operator=
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - directxpackedvector.h
+- directxpackedvector.h
 api_name:
- - XMBYTE4::operator=
+- XMBYTE4::operator=
 ---
 
 # XMBYTE4::operator = 

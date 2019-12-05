@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ICrmMonitor
 title: ICrmMonitor (comsvcs.h)
-
 description: Captures a snapshot of the current state of the CRM and holds a specific CRM clerk.
 old-location: cos\icrmmonitor.htm
 tech.root: cossdk
 ms.assetid: ead5f782-8512-4387-b8f3-7be960f35bbe
-
 ms.date: 12/05/2018
 ms.keywords: ICrmMonitor, ICrmMonitor interface [COM+], ICrmMonitor interface [COM+],described, _dtc_ICrmMonitor_Interface, comsvcs/ICrmMonitor, cos.icrmmonitor
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ICrmMonitor"
+f1_keywords:
+- comsvcs/ICrmMonitor
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmMonitor
+- ICrmMonitor
 targetos: Windows
 req.typenames: 
 req.redist: 

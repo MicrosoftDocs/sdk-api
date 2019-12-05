@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_lineSetCallHubTracking
 title: TSPI_lineSetCallHubTracking function (tspi.h)
-
 description: The TSPI_lineSetCallHubTracking function sets the CallHub tracking mode. This function requires TAPI 3.0 version negotiation.
 old-location: tspi\tspi_linesetcallhubtracking.htm
 tech.root: Tapi
 ms.assetid: ec2d5d46-1c83-47a0-9c10-684959630a16
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_lineSetCallHubTracking, TSPI_lineSetCallHubTracking function [TAPI 2.2], _tspi_tspi_linesetcallhubtracking, tspi.tspi_linesetcallhubtracking, tspi/TSPI_lineSetCallHubTracking
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_lineSetCallHubTracking"
+f1_keywords:
+- tspi/TSPI_lineSetCallHubTracking
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_lineSetCallHubTracking
+- TSPI_lineSetCallHubTracking
 targetos: Windows
 req.typenames: 
 req.redist: 

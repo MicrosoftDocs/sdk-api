@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.AcquireObjectIdRange
 title: IAccessibleWindowlessSite::AcquireObjectIdRange (oleacc.h)
-
 description: Acquires a range of object IDs from the control host and marks them as reserved by a specific windowless control.
 old-location: winauto\uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange.htm
 tech.root: WinAuto
 ms.assetid: EB8BAD4D-0C8F-4926-A1B4-383D03C3B0C4
-
 ms.date: 12/05/2018
 ms.keywords: AcquireObjectIdRange, AcquireObjectIdRange method [Windows Accessibility], AcquireObjectIdRange method [Windows Accessibility],IAccessibleWindowlessSite interface, IAccessibleWindowlessSite interface [Windows Accessibility],AcquireObjectIdRange method, IAccessibleWindowlessSite.AcquireObjectIdRange, IAccessibleWindowlessSite::AcquireObjectIdRange, oleacc/IAccessibleWindowlessSite::AcquireObjectIdRange, winauto.uiauto_IAccessibleWindowlessSite_AcquireObjectIdRange
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessibleWindowlessSite.AcquireObjectIdRange"
+f1_keywords:
+- oleacc/IAccessibleWindowlessSite.AcquireObjectIdRange
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessibleWindowlessSite.AcquireObjectIdRange
+- IAccessibleWindowlessSite.AcquireObjectIdRange
 targetos: Windows
 req.typenames: 
 req.redist: 

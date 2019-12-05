@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.SetSyncProviderState
 title: ISyncProviderRegistration::SetSyncProviderState (syncregistration.h)
-
 description: Sets the state of the specified synchronization provider.
 old-location: winsync\isyncproviderregistration_setsyncproviderstate.htm
 tech.root: winsync
 ms.assetid: 441df857-0498-4c6f-b279-495f1138e9c7
-
 ms.date: 12/05/2018
 ms.keywords: ISyncProviderRegistration interface [Windows Sync],SetSyncProviderState method, ISyncProviderRegistration.SetSyncProviderState, ISyncProviderRegistration::SetSyncProviderState, SetSyncProviderState, SetSyncProviderState method [Windows Sync], SetSyncProviderState method [Windows Sync],ISyncProviderRegistration interface, syncregistration/ISyncProviderRegistration::SetSyncProviderState, winsync.isyncproviderregistration_setsyncproviderstate
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncProviderRegistration.SetSyncProviderState"
+f1_keywords:
+- syncregistration/ISyncProviderRegistration.SetSyncProviderState
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncProviderRegistration.SetSyncProviderState
+- ISyncProviderRegistration.SetSyncProviderState
 targetos: Windows
 req.typenames: 
 req.redist: 

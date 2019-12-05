@@ -1,19 +1,17 @@
 ---
 UID: NC:wdsclientapi.PFN_WdsCliCallback
 title: PFN_WdsCliCallback (wdsclientapi.h)
-
 description: Defines a callback function that WDS can call for progress notification and error messages during a file or image transfer.
 old-location: wds\pfn_wdsclicallback.htm
 tech.root: wds
 ms.assetid: b071ba1c-5860-4492-ad86-71eaeeb74df4
-
 ms.date: 12/05/2018
 ms.keywords: PFN_WdsCliCallback, PFN_WdsCliCallback callback, PFN_WdsCliCallback callback function [Windows Deployment Services], WDS_CLI_MSG_COMPLETE, WDS_CLI_MSG_PROGRESS, WDS_CLI_MSG_START, WDS_CLI_MSG_TEXT, wds.pfn_wdsclicallback, wdsclientapi/PFN_WdsCliCallback
 ms.topic: callback
-f1_keywords: 
- - "wdsclientapi/PFN_WdsCliCallback"
+f1_keywords:
+- wdsclientapi/PFN_WdsCliCallback
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WdsClientAPI.h
+- WdsClientAPI.h
 api_name:
- - PFN_WdsCliCallback
+- PFN_WdsCliCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlInterlockedPushEntrySList
 title: RtlInterlockedPushEntrySList function (winnt.h)
-
 description: Inserts an item at the front of a singly linked list. Access to the list is synchronized on a multiprocessor system.
 old-location: base\rtlinterlockedpushentryslist.htm
 tech.root: Sync
 ms.assetid: 0d52bc3a-9f43-4bc2-99c2-1a0efa7b29cd
-
 ms.date: 12/05/2018
 ms.keywords: RtlInterlockedPushEntrySList, RtlInterlockedPushEntrySList function, base.rtlinterlockedpushentryslist, winnt/RtlInterlockedPushEntrySList
 ms.topic: function
-f1_keywords: 
- - "winnt/RtlInterlockedPushEntrySList"
+f1_keywords:
+- winnt/RtlInterlockedPushEntrySList
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Ntdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdll.dll
+- Ntdll.dll
 api_name:
- - RtlInterlockedPushEntrySList
+- RtlInterlockedPushEntrySList
 targetos: Windows
 req.typenames: 
 req.redist: 

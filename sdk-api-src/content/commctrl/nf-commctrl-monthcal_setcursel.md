@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_SetCurSel
 title: MonthCal_SetCurSel macro (commctrl.h)
-
 description: Sets the currently selected date for a month calendar control. If the specified date is not in view, the control updates the display to bring it into view. You can use this macro or send the MCM_SETCURSEL message explicitly.
 old-location: controls\MonthCal_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setcursel.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_SetCurSel, MonthCal_SetCurSel macro [Windows Controls], _win32_MonthCal_SetCurSel, _win32_MonthCal_SetCurSel_cpp, commctrl/MonthCal_SetCurSel, controls.MonthCal_SetCurSel, controls._win32_MonthCal_SetCurSel
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_SetCurSel"
+f1_keywords:
+- commctrl/MonthCal_SetCurSel
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_SetCurSel
+- MonthCal_SetCurSel
 targetos: Windows
 req.typenames: 
 req.redist: 

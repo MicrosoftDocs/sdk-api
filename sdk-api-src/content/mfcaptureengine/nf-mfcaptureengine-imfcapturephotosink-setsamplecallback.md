@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePhotoSink.SetSampleCallback
 title: IMFCapturePhotoSink::SetSampleCallback (mfcaptureengine.h)
-
 description: Sets a callback to receive the still-image data.
 old-location: mf\imfcapturephotosink_setsamplecallback.htm
 tech.root: medfound
 ms.assetid: 595716F6-8059-4B56-9FB3-906846BA3CBB
-
 ms.date: 12/05/2018
 ms.keywords: IMFCapturePhotoSink interface [Media Foundation],SetSampleCallback method, IMFCapturePhotoSink.SetSampleCallback, IMFCapturePhotoSink::SetSampleCallback, SetSampleCallback, SetSampleCallback method [Media Foundation], SetSampleCallback method [Media Foundation],IMFCapturePhotoSink interface, mf.imfcapturephotosink_setsamplecallback, mfcaptureengine/IMFCapturePhotoSink::SetSampleCallback
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCapturePhotoSink.SetSampleCallback"
+f1_keywords:
+- mfcaptureengine/IMFCapturePhotoSink.SetSampleCallback
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCapturePhotoSink.SetSampleCallback
+- IMFCapturePhotoSink.SetSampleCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

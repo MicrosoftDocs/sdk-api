@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumComponentQualifiersA
 title: MsiEnumComponentQualifiersA function (msi.h)
-
 description: The MsiEnumComponentQualifiers function enumerates the advertised qualifiers for the given component. This function retrieves one qualifier each time it is called.
 old-location: setup\msienumcomponentqualifiers.htm
 tech.root: Msi
 ms.assetid: f499cca3-ef24-4419-92b8-7794b3a6816b
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnumComponentQualifiers, MsiEnumComponentQualifiers function, MsiEnumComponentQualifiersA, MsiEnumComponentQualifiersW, _msi_msienumcomponentqualifiers, msi/MsiEnumComponentQualifiers, msi/MsiEnumComponentQualifiersA, msi/MsiEnumComponentQualifiersW, setup.msienumcomponentqualifiers
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumComponentQualifiers"
+f1_keywords:
+- msi/MsiEnumComponentQualifiers
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumComponentQualifiers
- - MsiEnumComponentQualifiersA
- - MsiEnumComponentQualifiersW
+- MsiEnumComponentQualifiers
+- MsiEnumComponentQualifiersA
+- MsiEnumComponentQualifiersW
 targetos: Windows
 req.typenames: 
 req.redist: 

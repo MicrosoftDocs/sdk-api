@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetGeoInfoEx
 title: GetGeoInfoEx function (winnls.h)
-
 description: Retrieves information about a geographic location that you specify by using a two-letter International Organization for Standardization (ISO) 3166-1 code or numeric United Nations (UN) Series M, Number 49 (M.49) code.
 old-location: intl\getgeoinfoex.htm
 tech.root: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
-
 ms.date: 12/05/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
 ms.topic: function
-f1_keywords: 
- - "winnls/GetGeoInfoEx"
+f1_keywords:
+- winnls/GetGeoInfoEx
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - GetGeoInfoEx
+- GetGeoInfoEx
 targetos: Windows
 req.typenames: 
 req.redist: 

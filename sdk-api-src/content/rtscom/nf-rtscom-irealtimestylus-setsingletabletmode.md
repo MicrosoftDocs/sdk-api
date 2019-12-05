@@ -1,19 +1,17 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.SetSingleTabletMode
 title: IRealTimeStylus::SetSingleTabletMode (rtscom.h)
-
 description: Modifies the mode for RealTimeStylus Class (RTS) object to collect input from only one tablet object representing a digitizer attached to the Tablet PC. Stylus input from other digitizers is ignored by the RealTimeStylus.
 old-location: tablet\irealtimestylus_setsingletabletmode.htm
 tech.root: tablet
 ms.assetid: 7f3645fd-cb1e-4bd5-a995-d70197c61afc
-
 ms.date: 12/05/2018
 ms.keywords: 7f3645fd-cb1e-4bd5-a995-d70197c61afc, IRealTimeStylus interface [Tablet PC],SetSingleTabletMode method, IRealTimeStylus.SetSingleTabletMode, IRealTimeStylus::SetSingleTabletMode, SetSingleTabletMode, SetSingleTabletMode method [Tablet PC], SetSingleTabletMode method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::SetSingleTabletMode, tablet.irealtimestylus_setsingletabletmode
 ms.topic: method
-f1_keywords: 
- - "rtscom/IRealTimeStylus.SetSingleTabletMode"
+f1_keywords:
+- rtscom/IRealTimeStylus.SetSingleTabletMode
 dev_langs:
- - c++
+- c++
 req.header: rtscom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RTSCom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RTSCom.dll
+- RTSCom.dll
 api_name:
- - IRealTimeStylus.SetSingleTabletMode
+- IRealTimeStylus.SetSingleTabletMode
 targetos: Windows
 req.typenames: 
 req.redist: 

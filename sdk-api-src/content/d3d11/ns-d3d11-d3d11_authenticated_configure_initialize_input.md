@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 title: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT (d3d11.h)
-
 description: Contains input data for a D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE command.
 old-location: mf\d3d11_authenticated_configure_initialize_input.htm
 tech.root: medfound
 ms.assetid: D634AF82-BC17-43FC-9E0E-1FEC10B5A42E
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT structure [Media Foundation], d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT, mf.d3d11_authenticated_configure_initialize_input
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT"
+f1_keywords:
+- d3d11/D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
+- D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 targetos: Windows
 req.typenames: D3D11_AUTHENTICATED_CONFIGURE_INITIALIZE_INPUT
 req.redist: 

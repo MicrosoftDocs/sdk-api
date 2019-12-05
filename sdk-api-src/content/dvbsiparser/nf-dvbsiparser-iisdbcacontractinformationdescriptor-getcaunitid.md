@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetCAUnitId
 title: IIsdbCAContractInformationDescriptor::GetCAUnitId (dvbsiparser.h)
-
 description: Gets the value of the CA_unit_id field from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor. This field identifies the billing or nonbilling unit to which the component belongs.
 old-location: mstv\iisdbcacontractinformationdescriptor_getcaunitid.htm
 tech.root: mstv
 ms.assetid: 1e50f417-6403-499a-944c-2926a18dada1
-
 ms.date: 12/05/2018
 ms.keywords: GetCAUnitId, GetCAUnitId method [Microsoft TV Technologies], GetCAUnitId method [Microsoft TV Technologies],IIsdbCAContractInformationDescriptor interface, IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies],GetCAUnitId method, IIsdbCAContractInformationDescriptor.GetCAUnitId, IIsdbCAContractInformationDescriptor::GetCAUnitId, dvbsiparser/IIsdbCAContractInformationDescriptor::GetCAUnitId, mstv.iisdbcacontractinformationdescriptor_getcaunitid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbCAContractInformationDescriptor.GetCAUnitId"
+f1_keywords:
+- dvbsiparser/IIsdbCAContractInformationDescriptor.GetCAUnitId
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbCAContractInformationDescriptor.GetCAUnitId
+- IIsdbCAContractInformationDescriptor.GetCAUnitId
 targetos: Windows
 req.typenames: 
 req.redist: 

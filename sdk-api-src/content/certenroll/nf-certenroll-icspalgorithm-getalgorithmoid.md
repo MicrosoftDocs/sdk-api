@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.GetAlgorithmOid
 title: ICspAlgorithm::GetAlgorithmOid (certenroll.h)
-
 description: Retrieves the algorithm object identifier (OID). This method is web enabled.
 old-location: security\icspalgorithm_getalgorithmoid_method.htm
 tech.root: seccertenroll
 ms.assetid: b922154d-0d57-4473-b331-c0082d9e5db5
-
 ms.date: 12/05/2018
 ms.keywords: GetAlgorithmOid, GetAlgorithmOid method [Security], GetAlgorithmOid method [Security],ICspAlgorithm interface, ICspAlgorithm interface [Security],GetAlgorithmOid method, ICspAlgorithm.GetAlgorithmOid, ICspAlgorithm::GetAlgorithmOid, certenroll/ICspAlgorithm::GetAlgorithmOid, security.icspalgorithm_getalgorithmoid_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspAlgorithm.GetAlgorithmOid"
+f1_keywords:
+- certenroll/ICspAlgorithm.GetAlgorithmOid
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspAlgorithm.GetAlgorithmOid
+- ICspAlgorithm.GetAlgorithmOid
 targetos: Windows
 req.typenames: 
 req.redist: 

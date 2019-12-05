@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.MonthCal_GetMaxSelCount
 title: MonthCal_GetMaxSelCount macro (commctrl.h)
-
 description: Retrieves the maximum date range that can be selected in a month calendar control. You can use this macro or send the MCM_GETMAXSELCOUNT message explicitly.
 old-location: controls\MonthCal_GetMaxSelCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getmaxselcount.htm
-
 ms.date: 12/05/2018
 ms.keywords: MonthCal_GetMaxSelCount, MonthCal_GetMaxSelCount macro [Windows Controls], _win32_MonthCal_GetMaxSelCount, _win32_MonthCal_GetMaxSelCount_cpp, commctrl/MonthCal_GetMaxSelCount, controls.MonthCal_GetMaxSelCount, controls._win32_MonthCal_GetMaxSelCount
 ms.topic: macro
-f1_keywords: 
- - "commctrl/MonthCal_GetMaxSelCount"
+f1_keywords:
+- commctrl/MonthCal_GetMaxSelCount
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - MonthCal_GetMaxSelCount
+- MonthCal_GetMaxSelCount
 targetos: Windows
 req.typenames: 
 req.redist: 

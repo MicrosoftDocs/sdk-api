@@ -1,19 +1,17 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetTimingReport
 title: GetTimingReport function (lowlevelmonitorconfigurationapi.h)
-
 description: Retrieves a monitor's horizontal and vertical synchronization frequencies.
 old-location: monitor\gettimingreport.htm
 tech.root: Monitor
 ms.assetid: 17b5a7e4-936f-451f-b586-032f94a99be5
-
 ms.date: 12/05/2018
 ms.keywords: GetTimingReport, GetTimingReport function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetTimingReport, monitor.gettimingreport
 ms.topic: function
-f1_keywords: 
- - "lowlevelmonitorconfigurationapi/GetTimingReport"
+f1_keywords:
+- lowlevelmonitorconfigurationapi/GetTimingReport
 dev_langs:
- - c++
+- c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetTimingReport
+- GetTimingReport
 targetos: Windows
 req.typenames: 
 req.redist: 

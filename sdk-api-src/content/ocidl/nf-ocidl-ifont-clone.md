@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IFont.Clone
 title: IFont::Clone (ocidl.h)
-
 description: Creates a duplicate font object.
 old-location: com\ifont_clone.htm
 tech.root: com
 ms.assetid: de5da0d1-338a-455c-a04b-99dc025b95bb
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [COM], Clone method [COM],IFont interface, IFont interface [COM],Clone method, IFont.Clone, IFont::Clone, _ctrl_ifont_clone, com.ifont_clone, ocidl/IFont::Clone
 ms.topic: method
-f1_keywords: 
- - "ocidl/IFont.Clone"
+f1_keywords:
+- ocidl/IFont.Clone
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IFont.Clone
+- IFont.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

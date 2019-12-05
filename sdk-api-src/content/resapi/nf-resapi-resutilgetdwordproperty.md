@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.ResUtilGetDwordProperty
 title: ResUtilGetDwordProperty function (resapi.h)
-
 description: Retrieves a DWORD property from a property list and advances a pointer to the next property in the list. The PRESUTIL_GET_DWORD_PROPERTY type defines a pointer to this function.
 old-location: mscs\resutilgetdwordproperty.htm
 tech.root: MsCS
 ms.assetid: d67f73f8-a5ce-4922-956f-392c27ee3b1d
-
 ms.date: 12/05/2018
 ms.keywords: PRESUTIL_GET_DWORD_PROPERTY, PRESUTIL_GET_DWORD_PROPERTY function [Failover Cluster], ResUtilGetDwordProperty, ResUtilGetDwordProperty function [Failover Cluster], _wolf_resutilgetdwordproperty, mscs.resutilgetdwordproperty, resapi/PRESUTIL_GET_DWORD_PROPERTY, resapi/ResUtilGetDwordProperty
 ms.topic: function
-f1_keywords: 
- - "resapi/ResUtilGetDwordProperty"
+f1_keywords:
+- resapi/ResUtilGetDwordProperty
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ResUtils.dll
+- ResUtils.dll
 api_name:
- - ResUtilGetDwordProperty
+- ResUtilGetDwordProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

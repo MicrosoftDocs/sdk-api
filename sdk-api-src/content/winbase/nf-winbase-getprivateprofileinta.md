@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetPrivateProfileIntA
 title: GetPrivateProfileIntA function (winbase.h)
-
 description: Retrieves an integer associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofileint.htm
 tech.root: SysInfo
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
-
 ms.date: 12/05/2018
 ms.keywords: GetPrivateProfileInt, GetPrivateProfileInt function, GetPrivateProfileIntA, GetPrivateProfileIntW, _win32_getprivateprofileint, base.getprivateprofileint, winbase/GetPrivateProfileInt, winbase/GetPrivateProfileIntA, winbase/GetPrivateProfileIntW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetPrivateProfileInt"
+f1_keywords:
+- winbase/GetPrivateProfileInt
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Privateprofile-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Privateprofile-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Privateprofile-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Privateprofile-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetPrivateProfileInt
- - GetPrivateProfileIntA
- - GetPrivateProfileIntW
+- GetPrivateProfileInt
+- GetPrivateProfileIntA
+- GetPrivateProfileIntW
 targetos: Windows
 req.typenames: 
 req.redist: 

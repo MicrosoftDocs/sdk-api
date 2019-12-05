@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_SET_INTEGRITY_INFORMATION
 title: FSCTL_SET_INTEGRITY_INFORMATION
-
 description: Retrieves the integrity status of a file or directory on a ReFS volume.
 old-location: fs\fsctl_set_integrity_information.htm
 tech.root: FileIO
 ms.assetid: bd5be96d-6fdc-4fad-9d01-81b913a5b653
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_SET_INTEGRITY_INFORMATION, FSCTL_SET_INTEGRITY_INFORMATION control, FSCTL_SET_INTEGRITY_INFORMATION control code [Files], fs.fsctl_set_integrity_information, winioctl/FSCTL_SET_INTEGRITY_INFORMATION
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_SET_INTEGRITY_INFORMATION"
+f1_keywords:
+- winioctl/FSCTL_SET_INTEGRITY_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_SET_INTEGRITY_INFORMATION
+- FSCTL_SET_INTEGRITY_INFORMATION
 targetos: Windows
 req.typenames: 
 req.redist: 

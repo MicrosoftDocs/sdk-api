@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TUISPI_providerGenericDialog
 title: TUISPI_providerGenericDialog function (tspi.h)
-
 description: The TUISPI_providerGenericDialog function in the UI DLL is called when the service provider sends a LINE_CREATEDIALOGINSTANCE message.
 old-location: tspi\tuispi_providergenericdialog.htm
 tech.root: Tapi
 ms.assetid: 2615ad41-b9bb-4bd4-9cfa-26b3c3336bee
-
 ms.date: 12/05/2018
 ms.keywords: TUISPI_providerGenericDialog, TUISPI_providerGenericDialog function [TAPI 2.2], _tspi_tuispi_providergenericdialog, tspi.tuispi_providergenericdialog, tspi/TUISPI_providerGenericDialog
 ms.topic: function
-f1_keywords: 
- - "tspi/TUISPI_providerGenericDialog"
+f1_keywords:
+- tspi/TUISPI_providerGenericDialog
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TUISPI_providerGenericDialog
+- TUISPI_providerGenericDialog
 targetos: Windows
 req.typenames: 
 req.redist: 

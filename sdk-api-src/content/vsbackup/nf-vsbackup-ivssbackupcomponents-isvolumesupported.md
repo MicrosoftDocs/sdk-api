@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.IsVolumeSupported
 title: IVssBackupComponents::IsVolumeSupported (vsbackup.h)
-
 description: The IsVolumeSupported method determines whether the specified provider supports shadow copies on the specified volume or remote file share.
 old-location: base\ivssbackupcomponents_isvolumesupported.htm
 tech.root: VSS
 ms.assetid: 42e069cb-3d9a-4592-bbb8-0113f14ed28c
-
 ms.date: 12/05/2018
 ms.keywords: IVssBackupComponents interface [VSS],IsVolumeSupported method, IVssBackupComponents.IsVolumeSupported, IVssBackupComponents::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method [VSS], IsVolumeSupported method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_isvolumesupported, base.ivssbackupcomponents_isvolumesupported, vsbackup/IVssBackupComponents::IsVolumeSupported
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.IsVolumeSupported"
+f1_keywords:
+- vsbackup/IVssBackupComponents.IsVolumeSupported
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.IsVolumeSupported
+- IVssBackupComponents.IsVolumeSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

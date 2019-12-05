@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetCancelObject
 title: CoGetCancelObject function (combaseapi.h)
-
 description: Obtains a pointer to a call control interface, normally ICancelMethodCalls, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
 old-location: com\cogetcancelobject.htm
 tech.root: com
 ms.assetid: d38161af-d662-4430-99b7-6563efda6f4e
-
 ms.date: 12/05/2018
 ms.keywords: CoGetCancelObject, CoGetCancelObject function [COM], _com_CoGetCancelObject, com.cogetcancelobject, combaseapi/CoGetCancelObject
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetCancelObject"
+f1_keywords:
+- combaseapi/CoGetCancelObject
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetCancelObject
+- CoGetCancelObject
 targetos: Windows
 req.typenames: 
 req.redist: 

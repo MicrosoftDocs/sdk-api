@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.IAccessible.get_accState
 title: IAccessible::get_accState (oleacc.h)
-
 description: The IAccessible::get_accState method retrieves the current state of the specified object. All objects support this property.
 old-location: winauto\iaccessible_iaccessible__get_accstate.htm
 tech.root: WinAuto
 ms.assetid: e6b7e0dd-407a-4e82-889b-31ad999a72ca
-
 ms.date: 12/05/2018
 ms.keywords: IAccessible interface [Windows Accessibility],get_accState method, IAccessible.get_accState, IAccessible::get_accState, _msaa_IAccessible_get_accState, get_accState, get_accState method [Windows Accessibility], get_accState method [Windows Accessibility],IAccessible interface, msaa.iaccessible_iaccessible__get_accstate, oleacc/IAccessible::get_accState, winauto.iaccessible_iaccessible__get_accstate
 ms.topic: method
-f1_keywords: 
- - "oleacc/IAccessible.get_accState"
+f1_keywords:
+- oleacc/IAccessible.get_accState
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - IAccessible.get_accState
+- IAccessible.get_accState
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 and Windows 95

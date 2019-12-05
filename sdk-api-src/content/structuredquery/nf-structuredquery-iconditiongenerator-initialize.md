@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.Initialize
 title: IConditionGenerator::Initialize (structuredquery.h)
-
 description: Resets all states of the interface to default values and retrieves any necessary information from the schema.
 old-location: search\_search_IConditionGenerator_Initialize.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\initialize.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionGenerator interface [search],Initialize method, IConditionGenerator.Initialize, IConditionGenerator::Initialize, Initialize, Initialize method [search], Initialize method [search],IConditionGenerator interface, _search_IConditionGenerator_Initialize, search._search_IConditionGenerator_Initialize, structuredquery/IConditionGenerator::Initialize
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionGenerator.Initialize"
+f1_keywords:
+- structuredquery/IConditionGenerator.Initialize
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionGenerator.Initialize
+- IConditionGenerator.Initialize
 targetos: Windows
 req.typenames: 
 req.redist: 

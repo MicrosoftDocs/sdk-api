@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateService2
 title: IUpdateService2 (wuapi.h)
-
 description: Contains information about a service that is registered with Windows Update Agent (WUA) or with Automatic Updates.
 old-location: wua\iupdateservice2.htm
 tech.root: Wua_Sdk
 ms.assetid: 6cd3d3a1-c50c-4d8e-ae13-c3ea99671cbf
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateService2, IUpdateService2 interface [Windows Update Agent], IUpdateService2 interface [Windows Update Agent],described, wua.iupdateservice2, wuapi/IUpdateService2
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateService2"
+f1_keywords:
+- wuapi/IUpdateService2
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateService2
+- IUpdateService2
 targetos: Windows
 req.typenames: 
 req.redist: 

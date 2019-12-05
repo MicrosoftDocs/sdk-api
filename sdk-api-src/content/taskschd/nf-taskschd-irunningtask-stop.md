@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRunningTask.Stop
 title: IRunningTask::Stop (taskschd.h)
-
 description: Stops this instance of the task.
 old-location: taskschd\irunningtask_stop.htm
 tech.root: taskschd
 ms.assetid: 2fdf325f-5652-42b0-99e3-3950dba1ef11
-
 ms.date: 12/05/2018
 ms.keywords: IRunningTask interface [Task Scheduler],Stop method, IRunningTask.Stop, IRunningTask::Stop, Stop, Stop method [Task Scheduler], Stop method [Task Scheduler],IRunningTask interface, taskschd.irunningtask_stop, taskschd/IRunningTask::Stop
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRunningTask.Stop"
+f1_keywords:
+- taskschd/IRunningTask.Stop
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRunningTask.Stop
+- IRunningTask.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

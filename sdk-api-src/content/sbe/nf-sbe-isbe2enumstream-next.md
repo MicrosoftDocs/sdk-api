@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2EnumStream.Next
 title: ISBE2EnumStream::Next (sbe.h)
-
 description: Retrieves the next n streams in the collection.
 old-location: mstv\isbe2enumstream_next.htm
 tech.root: mstv
 ms.assetid: c6445927-d7a7-4f45-a7ff-14484161b731
-
 ms.date: 12/05/2018
 ms.keywords: ISBE2EnumStream interface [Microsoft TV Technologies],Next method, ISBE2EnumStream.Next, ISBE2EnumStream::Next, Next, Next method [Microsoft TV Technologies], Next method [Microsoft TV Technologies],ISBE2EnumStream interface, mstv.isbe2enumstream_next, sbe/ISBE2EnumStream::Next
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2EnumStream.Next"
+f1_keywords:
+- sbe/ISBE2EnumStream.Next
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sbe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.dll
+- sbe.dll
 api_name:
- - ISBE2EnumStream.Next
+- ISBE2EnumStream.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

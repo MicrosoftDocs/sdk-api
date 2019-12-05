@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTSIGNALDATA
 title: DD_GETVPORTSIGNALDATA (ddrawint.h)
-
 description: The DD_GETVPORTSIGNALDATA structure contains the signal status of the hardware video port.
 old-location: display\dd_getvportsignaldata.htm
 tech.root: display
 ms.assetid: 33db5ce5-534b-4e66-853b-5e60892f544b
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA, DD_GETVPORTSIGNALDATA structure [Display Devices], ddrawint/DD_GETVPORTSIGNALDATA, ddstrcts_4079ddf7-58a7-46ef-b11a-858bbd486333.xml, display.dd_getvportsignaldata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_GETVPORTSIGNALDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

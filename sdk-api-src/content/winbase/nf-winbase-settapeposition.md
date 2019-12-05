@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetTapePosition
 title: SetTapePosition function (winbase.h)
-
 description: Sets the tape position on the specified device.
 old-location: backup\settapeposition.htm
 tech.root: Backup
 ms.assetid: e1962aa5-c187-4fef-886c-36a8b096829f
-
 ms.date: 12/05/2018
 ms.keywords: SetTapePosition, SetTapePosition function [Backup], TAPE_ABSOLUTE_BLOCK, TAPE_LOGICAL_BLOCK, TAPE_REWIND, TAPE_SPACE_END_OF_DATA, TAPE_SPACE_FILEMARKS, TAPE_SPACE_RELATIVE_BLOCKS, TAPE_SPACE_SEQUENTIAL_FMKS, TAPE_SPACE_SEQUENTIAL_SMKS, TAPE_SPACE_SETMARKS, _win32_settapeposition, backup.settapeposition, base.settapeposition, winbase/SetTapePosition
 ms.topic: function
-f1_keywords: 
- - "winbase/SetTapePosition"
+f1_keywords:
+- winbase/SetTapePosition
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - SetTapePosition
+- SetTapePosition
 targetos: Windows
 req.typenames: 
 req.redist: 

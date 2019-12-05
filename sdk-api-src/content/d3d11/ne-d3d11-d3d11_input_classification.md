@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_INPUT_CLASSIFICATION
 title: D3D11_INPUT_CLASSIFICATION (d3d11.h)
-
 description: Type of data contained in an input slot.
 old-location: direct3d11\d3d11_input_classification.htm
 tech.root: direct3d11
 ms.assetid: 785c534d-0931-4705-9ca9-f52fe0573d85
-
 ms.date: 12/05/2018
 ms.keywords: 1ba65aec-2e16-5faf-79f0-b9d032823fb7, D3D11_INPUT_CLASSIFICATION, D3D11_INPUT_CLASSIFICATION enumeration [Direct3D 11], D3D11_INPUT_PER_INSTANCE_DATA, D3D11_INPUT_PER_VERTEX_DATA, d3d11/D3D11_INPUT_CLASSIFICATION, d3d11/D3D11_INPUT_PER_INSTANCE_DATA, d3d11/D3D11_INPUT_PER_VERTEX_DATA, direct3d11.d3d11_input_classification
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_INPUT_CLASSIFICATION"
+f1_keywords:
+- d3d11/D3D11_INPUT_CLASSIFICATION
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_INPUT_CLASSIFICATION
+- D3D11_INPUT_CLASSIFICATION
 targetos: Windows
 req.typenames: D3D11_INPUT_CLASSIFICATION
 req.redist: 

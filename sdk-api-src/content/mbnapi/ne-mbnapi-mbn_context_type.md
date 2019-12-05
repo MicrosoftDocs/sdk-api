@@ -1,19 +1,17 @@
 ---
 UID: NE:mbnapi.MBN_CONTEXT_TYPE
 title: MBN_CONTEXT_TYPE (mbnapi.h)
-
 description: The MBN_CONTEXT_TYPE enumerated type specifies the represented context type.
 old-location: mbn\mbn_context_type.htm
 tech.root: mbn
 ms.assetid: 40ab2190-9fc2-43e2-9a8a-29fcaa5b035f
-
 ms.date: 12/05/2018
 ms.keywords: MBN_CONTEXT_TYPE, MBN_CONTEXT_TYPE enumeration [Microsoft Broadband Networks], MBN_CONTEXT_TYPE_CUSTOM, MBN_CONTEXT_TYPE_INTERNET, MBN_CONTEXT_TYPE_NONE, MBN_CONTEXT_TYPE_PURCHASE, MBN_CONTEXT_TYPE_VIDEO_SHARE, MBN_CONTEXT_TYPE_VOICE, MBN_CONTEXT_TYPE_VPN, mbn.mbn_context_type, mbnapi/MBN_CONTEXT_TYPE, mbnapi/MBN_CONTEXT_TYPE_CUSTOM, mbnapi/MBN_CONTEXT_TYPE_INTERNET, mbnapi/MBN_CONTEXT_TYPE_NONE, mbnapi/MBN_CONTEXT_TYPE_PURCHASE, mbnapi/MBN_CONTEXT_TYPE_VIDEO_SHARE, mbnapi/MBN_CONTEXT_TYPE_VOICE, mbnapi/MBN_CONTEXT_TYPE_VPN
 ms.topic: enum
-f1_keywords: 
- - "mbnapi/MBN_CONTEXT_TYPE"
+f1_keywords:
+- mbnapi/MBN_CONTEXT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - MBN_CONTEXT_TYPE
+- MBN_CONTEXT_TYPE
 targetos: Windows
 req.typenames: MBN_CONTEXT_TYPE
 req.redist: 

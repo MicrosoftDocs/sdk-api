@@ -1,19 +1,17 @@
 ---
 UID: NS:vsmgmt._VSS_DIFF_VOLUME_PROP
 title: VSS_DIFF_VOLUME_PROP (vsmgmt.h)
-
 description: Describes a shadow copy storage area volume.
 old-location: base\vss_diff_volume_prop.htm
 tech.root: VSS
 ms.assetid: c4a20583-7fee-4ae1-97ed-d80b2a7539e3
-
 ms.date: 12/05/2018
-ms.keywords: "*PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP structure pointer [VSS], VSS_DIFF_VOLUME_PROP, VSS_DIFF_VOLUME_PROP structure [VSS], base.vss_diff_volume_prop, vsmgmt/PVSS_DIFF_VOLUME_PROP, vsmgmt/VSS_DIFF_VOLUME_PROP"
+ms.keywords: '*PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP, PVSS_DIFF_VOLUME_PROP structure pointer [VSS], VSS_DIFF_VOLUME_PROP, VSS_DIFF_VOLUME_PROP structure [VSS], base.vss_diff_volume_prop, vsmgmt/PVSS_DIFF_VOLUME_PROP, vsmgmt/VSS_DIFF_VOLUME_PROP'
 ms.topic: struct
-f1_keywords: 
- - "vsmgmt/VSS_DIFF_VOLUME_PROP"
+f1_keywords:
+- vsmgmt/VSS_DIFF_VOLUME_PROP
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VsMgmt.h
+- VsMgmt.h
 api_name:
- - VSS_DIFF_VOLUME_PROP
+- VSS_DIFF_VOLUME_PROP
 targetos: Windows
 req.typenames: VSS_DIFF_VOLUME_PROP, *PVSS_DIFF_VOLUME_PROP
 req.redist: 

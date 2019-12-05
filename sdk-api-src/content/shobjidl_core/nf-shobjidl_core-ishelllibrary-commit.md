@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.Commit
 title: IShellLibrary::Commit (shobjidl_core.h)
-
 description: Commits library updates to an existing Library Description file.
 old-location: shell\IShellLibrary_Commit.htm
 tech.root: shell
 ms.assetid: a340964d-ea20-4a3b-be8b-f4f4dbf624ed
-
 ms.date: 12/05/2018
 ms.keywords: Commit, Commit method [Windows Shell], Commit method [Windows Shell],IShellLibrary interface, IShellLibrary interface [Windows Shell],Commit method, IShellLibrary.Commit, IShellLibrary::Commit, _shell_IShellLibrary_Commit, shell.IShellLibrary_Commit, shobjidl_core/IShellLibrary::Commit
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.Commit"
+f1_keywords:
+- shobjidl_core/IShellLibrary.Commit
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.Commit
+- IShellLibrary.Commit
 targetos: Windows
 req.typenames: 
 req.redist: 

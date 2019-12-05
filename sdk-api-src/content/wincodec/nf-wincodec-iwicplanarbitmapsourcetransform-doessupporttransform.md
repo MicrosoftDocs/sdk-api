@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapSourceTransform.DoesSupportTransform
 title: IWICPlanarBitmapSourceTransform::DoesSupportTransform (wincodec.h)
-
 description: Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.
 old-location: wic\iwicplanarbitmapsourcetransform_doessupporttransform.htm
 tech.root: wic
 ms.assetid: CB601454-591B-4292-A8BF-EA9D1F060AB3
-
 ms.date: 12/05/2018
 ms.keywords: DoesSupportTransform, DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component],IWICPlanarBitmapSourceTransform interface, IWICPlanarBitmapSourceTransform interface [Windows Imaging Component],DoesSupportTransform method, IWICPlanarBitmapSourceTransform.DoesSupportTransform, IWICPlanarBitmapSourceTransform::DoesSupportTransform, wic.iwicplanarbitmapsourcetransform_doessupporttransform, wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICPlanarBitmapSourceTransform.DoesSupportTransform"
+f1_keywords:
+- wincodec/IWICPlanarBitmapSourceTransform.DoesSupportTransform
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICPlanarBitmapSourceTransform.DoesSupportTransform
+- IWICPlanarBitmapSourceTransform.DoesSupportTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.ITransformProvider2
 title: ITransformProvider2 (uiautomationcore.h)
-
 description: Extends the ITransformProvider interface to enable Microsoft UI Automation providers to expose properties to support the viewport zooming functionality of a control.
 old-location: winauto\uiauto_ITransformProvider2.htm
 tech.root: WinAuto
 ms.assetid: 763F30BC-782A-43ED-9DE4-97A237D7B9F8
-
 ms.date: 12/05/2018
 ms.keywords: ITransformProvider2, ITransformProvider2 interface [Windows Accessibility], ITransformProvider2 interface [Windows Accessibility],described, uiautomationcore/ITransformProvider2, winauto.uiauto_ITransformProvider2
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/ITransformProvider2"
+f1_keywords:
+- uiautomationcore/ITransformProvider2
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - ITransformProvider2
+- ITransformProvider2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryTermExpansion
 title: ISearchQueryHelper::put_QueryTermExpansion (searchapi.h)
-
 description: Sets a value that specifies how query terms are to be expanded.
 old-location: search\_search_ISearchQueryHelper_put_QueryTermExpansion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querytermexpansion.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchQueryHelper interface [search],put_QueryTermExpansion method, ISearchQueryHelper.put_QueryTermExpansion, ISearchQueryHelper::put_QueryTermExpansion, _search_ISearchQueryHelper_put_QueryTermExpansion, put_QueryTermExpansion, put_QueryTermExpansion method [search], put_QueryTermExpansion method [search],ISearchQueryHelper interface, search._search_ISearchQueryHelper_put_QueryTermExpansion, searchapi/ISearchQueryHelper::put_QueryTermExpansion
 ms.topic: method
 f1_keywords:
 - searchapi/ISearchQueryHelper.put_QueryTermExpansion
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetSerialNumber
 title: IWMDMStorageGlobals::GetSerialNumber (mswmdm.h)
-
 description: The GetSerialNumber method retrieves a serial number that uniquely identifies the storage medium.
 old-location: wmdm\iwmdmstorageglobals_getserialnumber.htm
 tech.root: WMDM
 ms.assetid: 13783d0e-82e6-4340-bb06-85b8d3d06b5c
-
 ms.date: 12/05/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetSerialNumber method, IWMDMStorageGlobals.GetSerialNumber, IWMDMStorageGlobals::GetSerialNumber, IWMDMStorageGlobalsGetSerialNumber, mswmdm/IWMDMStorageGlobals::GetSerialNumber, wmdm.iwmdmstorageglobals_getserialnumber
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageGlobals.GetSerialNumber"
+f1_keywords:
+- mswmdm/IWMDMStorageGlobals.GetSerialNumber
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageGlobals.GetSerialNumber
+- IWMDMStorageGlobals.GetSerialNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

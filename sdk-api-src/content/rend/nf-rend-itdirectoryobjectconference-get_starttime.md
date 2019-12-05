@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.get_StartTime
 title: ITDirectoryObjectConference::get_StartTime (rend.h)
-
 description: The get_StartTime method gets the start time of the conference.
 old-location: tapi3\itdirectoryobjectconference_get_starttime.htm
 tech.root: Tapi
 ms.assetid: aeb496d5-2cea-4c69-ba19-c9083d133c1e
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],get_StartTime method, ITDirectoryObjectConference.get_StartTime, ITDirectoryObjectConference::get_StartTime, _tapi3_itdirectoryobjectconference_get_starttime, get_StartTime, get_StartTime method [TAPI 2.2], get_StartTime method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::get_StartTime, tapi3.itdirectoryobjectconference_get_starttime
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.get_StartTime"
+f1_keywords:
+- rend/ITDirectoryObjectConference.get_StartTime
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.get_StartTime
+- ITDirectoryObjectConference.get_StartTime
 targetos: Windows
 req.typenames: 
 req.redist: 

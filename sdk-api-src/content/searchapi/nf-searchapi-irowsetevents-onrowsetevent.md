@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.IRowsetEvents.OnRowsetEvent
 title: IRowsetEvents::OnRowsetEvent (searchapi.h)
-
 description: Called by the indexer to notify clients of an event related to the client rowset.
 old-location: search\_search_IRowsetEvents_OnRowsetEvent.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetevents\onrowsetevent.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRowsetEvents interface [search],OnRowsetEvent method, IRowsetEvents.OnRowsetEvent, IRowsetEvents::OnRowsetEvent, OnRowsetEvent, OnRowsetEvent method [search], OnRowsetEvent method [search],IRowsetEvents interface, _search_IRowsetEvents_OnRowsetEvent, search._search_IRowsetEvents_OnRowsetEvent, searchapi/IRowsetEvents::OnRowsetEvent
 ms.topic: method
-f1_keywords: 
- - "searchapi/IRowsetEvents.OnRowsetEvent"
+f1_keywords:
+- searchapi/IRowsetEvents.OnRowsetEvent
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IRowsetEvents.OnRowsetEvent
+- IRowsetEvents.OnRowsetEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

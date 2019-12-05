@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateTimeSpan
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-
 description: Creates a new IPropertyValue object that contains the specified TimeSpan value.
 old-location: winrt\ipropertyvaluestatics_createtimespan.htm
 tech.root: WinRT
 ms.assetid: eae11d63-c909-45fc-a38f-d9599b873b6f
-
 ms.date: 12/05/2018
 ms.keywords: CreateTimeSpan, CreateTimeSpan method [Windows Runtime], CreateTimeSpan method [Windows Runtime],IPropertyValueStatics interface, IPropertyValueStatics interface [Windows Runtime],CreateTimeSpan method, IPropertyValueStatics.CreateTimeSpan, IPropertyValueStatics.IPropertyValueStatics, IPropertyValueStatics::CreateTimeSpan, IPropertyValueStatics::IPropertyValueStatics, windows/IPropertyValueStatics::CreateTimeSpan, winrt.ipropertyvaluefactory_createtimespan, winrt.ipropertyvaluestatics_createtimespan
 ms.topic: method
-f1_keywords: 
- - "windows.foundation/IPropertyValueStatics.CreateTimeSpan"
+f1_keywords:
+- windows.foundation/IPropertyValueStatics.CreateTimeSpan
 dev_langs:
- - c++
+- c++
 req.header: windows.foundation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windows.Foundation.h
+- Windows.Foundation.h
 api_name:
- - IPropertyValueStatics.CreateTimeSpan
+- IPropertyValueStatics.CreateTimeSpan
 targetos: Windows
 req.typenames: 
 req.redist: 

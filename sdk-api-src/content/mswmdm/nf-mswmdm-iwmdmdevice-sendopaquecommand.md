@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.SendOpaqueCommand
 title: IWMDMDevice::SendOpaqueCommand (mswmdm.h)
-
 description: The SendOpaqueCommand method sends a device-specific command to the device through Windows Media Device Manager. Windows Media Device Manager does not attempt to read the command.
 old-location: wmdm\iwmdmdevice_sendopaquecommand.htm
 tech.root: WMDM
 ms.assetid: 4554318b-497f-488f-a52f-a392b8fee992
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMDevice interface [windows Media Device Manager],SendOpaqueCommand method, IWMDMDevice.SendOpaqueCommand, IWMDMDevice::SendOpaqueCommand, IWMDMDeviceSendOpaqueCommand, SendOpaqueCommand, SendOpaqueCommand method [windows Media Device Manager], SendOpaqueCommand method [windows Media Device Manager],IWMDMDevice interface, mswmdm/IWMDMDevice::SendOpaqueCommand, wmdm.iwmdmdevice_sendopaquecommand
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDevice.SendOpaqueCommand"
+f1_keywords:
+- mswmdm/IWMDMDevice.SendOpaqueCommand
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDevice.SendOpaqueCommand
+- IWMDMDevice.SendOpaqueCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

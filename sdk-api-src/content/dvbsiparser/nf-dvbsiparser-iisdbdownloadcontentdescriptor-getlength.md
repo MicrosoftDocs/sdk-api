@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetLength
 title: IIsdbDownloadContentDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) download content descriptor, in bytes.
 old-location: mstv\iisdbdownloadcontentdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: d0eb0e44-da1c-4b52-9c96-199db6d3288e
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IIsdbDownloadContentDescriptor interface, IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies],GetLength method, IIsdbDownloadContentDescriptor.GetLength, IIsdbDownloadContentDescriptor::GetLength, dvbsiparser/IIsdbDownloadContentDescriptor::GetLength, mstv.iisdbdownloadcontentdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDownloadContentDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IIsdbDownloadContentDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDownloadContentDescriptor.GetLength
+- IIsdbDownloadContentDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

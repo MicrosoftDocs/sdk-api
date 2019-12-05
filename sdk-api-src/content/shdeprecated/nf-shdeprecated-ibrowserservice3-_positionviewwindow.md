@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService3._PositionViewWindow
 title: IBrowserService3::_PositionViewWindow (shdeprecated.h)
-
 description: Deprecated. Used in view size negotiations. This method is called by _UpdateViewRectSize after determining the available dimensions.
 old-location: shell\IBrowserService3__PositionViewWindow.htm
 tech.root: shell
 ms.assetid: 310885e5-b08d-4699-9dee-244efa49dfd1
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService3 interface [Windows Shell],_PositionViewWindow method, IBrowserService3._PositionViewWindow, IBrowserService3::_PositionViewWindow, _PositionViewWindow, _PositionViewWindow method [Windows Shell], _PositionViewWindow method [Windows Shell],IBrowserService3 interface, shdeprecated/IBrowserService3::_PositionViewWindow, shell.IBrowserService3__PositionViewWindow, zone_IBrowserService3__PositionViewWindow
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService3._PositionViewWindow"
+f1_keywords:
+- shdeprecated/IBrowserService3._PositionViewWindow
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService3._PositionViewWindow
+- IBrowserService3._PositionViewWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IVideoFrameStep
 title: IVideoFrameStep (strmif.h)
-
 description: The IVideoFrameStep interface steps through a video stream.
 old-location: dshow\ivideoframestep.htm
 tech.root: DirectShow
 ms.assetid: 7bf45473-144c-49f8-8178-aff5b60112b6
-
 ms.date: 12/05/2018
 ms.keywords: IVideoFrameStep, IVideoFrameStep interface [DirectShow], IVideoFrameStep interface [DirectShow],described, IVideoFrameStepInterface, dshow.ivideoframestep, strmif/IVideoFrameStep
 ms.topic: interface
-f1_keywords: 
- - "strmif/IVideoFrameStep"
+f1_keywords:
+- strmif/IVideoFrameStep
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoFrameStep
+- IVideoFrameStep
 targetos: Windows
 req.typenames: 
 req.redist: 

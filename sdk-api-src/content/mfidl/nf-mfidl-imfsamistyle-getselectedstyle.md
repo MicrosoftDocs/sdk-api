@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSAMIStyle.GetSelectedStyle
 title: IMFSAMIStyle::GetSelectedStyle (mfidl.h)
-
 description: Gets the current style from the SAMI media source.
 old-location: mf\imfsamistyle_getselectedstyle.htm
 tech.root: medfound
 ms.assetid: 7501a4d5-eb5f-4f62-ae55-96ee999e561c
-
 ms.date: 12/05/2018
 ms.keywords: 7501a4d5-eb5f-4f62-ae55-96ee999e561c, GetSelectedStyle, GetSelectedStyle method [Media Foundation], GetSelectedStyle method [Media Foundation],IMFSAMIStyle interface, IMFSAMIStyle interface [Media Foundation],GetSelectedStyle method, IMFSAMIStyle.GetSelectedStyle, IMFSAMIStyle::GetSelectedStyle, mf.imfsamistyle_getselectedstyle, mfidl/IMFSAMIStyle::GetSelectedStyle
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSAMIStyle.GetSelectedStyle"
+f1_keywords:
+- mfidl/IMFSAMIStyle.GetSelectedStyle
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSAMIStyle.GetSelectedStyle
+- IMFSAMIStyle.GetSelectedStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

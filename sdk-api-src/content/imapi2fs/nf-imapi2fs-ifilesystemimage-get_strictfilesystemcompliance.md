@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_StrictFileSystemCompliance
 title: IFileSystemImage::get_StrictFileSystemCompliance (imapi2fs.h)
-
 description: Determines the compliance level for creating and developing the file-system image.
 old-location: imapi\ifilesystemimage_get_strictfilesystemcompliance.htm
 tech.root: imapi
 ms.assetid: 07139ef3-ffd5-4035-afa9-6212808a6fbc
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImage interface [IMAPI],get_StrictFileSystemCompliance method, IFileSystemImage.get_StrictFileSystemCompliance, IFileSystemImage::get_StrictFileSystemCompliance, get_StrictFileSystemCompliance, get_StrictFileSystemCompliance method [IMAPI], get_StrictFileSystemCompliance method [IMAPI],IFileSystemImage interface, imapi.ifilesystemimage_get_strictfilesystemcompliance, imapi2fs/IFileSystemImage::get_StrictFileSystemCompliance
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImage.get_StrictFileSystemCompliance"
+f1_keywords:
+- imapi2fs/IFileSystemImage.get_StrictFileSystemCompliance
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImage.get_StrictFileSystemCompliance
+- IFileSystemImage.get_StrictFileSystemCompliance
 targetos: Windows
 req.typenames: 
 req.redist: 

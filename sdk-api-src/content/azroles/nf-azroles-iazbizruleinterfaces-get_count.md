@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.get_Count
 title: IAzBizRuleInterfaces::get_Count (azroles.h)
-
 description: Specifies the number of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_count_method.htm
 tech.root: SecAuthZ
 ms.assetid: f6838790-2223-4ae8-9cee-9d881d071ba0
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Security], Count property [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],Count property, IAzBizRuleInterfaces.Count, IAzBizRuleInterfaces.get_Count, IAzBizRuleInterfaces::Count, IAzBizRuleInterfaces::get_Count, azroles/IAzBizRuleInterfaces::Count, azroles/IAzBizRuleInterfaces::get_Count, get_Count, security.iazbizruleinterfaces_count_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzBizRuleInterfaces.Count"
+f1_keywords:
+- azroles/IAzBizRuleInterfaces.Count
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzBizRuleInterfaces.Count
- - IAzBizRuleInterfaces.get_Count
+- IAzBizRuleInterfaces.Count
+- IAzBizRuleInterfaces.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetShortcutTargetW
 title: MsiGetShortcutTargetW function (msi.h)
-
 description: The MsiGetShortcutTarget function examines a shortcut and returns its product, feature name, and component if available.
 old-location: setup\msigetshortcuttarget.htm
 tech.root: Msi
 ms.assetid: 5c040372-d266-4f79-9b80-950ceac9f9b8
-
 ms.date: 12/05/2018
 ms.keywords: MsiGetShortcutTarget, MsiGetShortcutTarget function, MsiGetShortcutTargetA, MsiGetShortcutTargetW, _msi_msigetshortcuttarget, msi/MsiGetShortcutTarget, msi/MsiGetShortcutTargetA, msi/MsiGetShortcutTargetW, setup.msigetshortcuttarget
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetShortcutTarget"
+f1_keywords:
+- msi/MsiGetShortcutTarget
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiGetShortcutTarget
- - MsiGetShortcutTargetA
- - MsiGetShortcutTargetW
+- MsiGetShortcutTarget
+- MsiGetShortcutTargetA
+- MsiGetShortcutTargetW
 targetos: Windows
 req.typenames: 
 req.redist: 

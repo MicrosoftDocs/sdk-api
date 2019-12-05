@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_CurrentProfiles
 title: IDiscRecorder2::get_CurrentProfiles (imapi2.h)
-
 description: Retrieves all MMC profiles of the device that are marked as current.
 old-location: imapi\idiscrecorder2_get_currentprofiles.htm
 tech.root: imapi
 ms.assetid: dd8dd2fd-531b-4ed5-9a28-d6b24469e5e7
-
 ms.date: 12/05/2018
 ms.keywords: IDiscRecorder2 interface [IMAPI],get_CurrentProfiles method, IDiscRecorder2.get_CurrentProfiles, IDiscRecorder2::get_CurrentProfiles, get_CurrentProfiles, get_CurrentProfiles method [IMAPI], get_CurrentProfiles method [IMAPI],IDiscRecorder2 interface, imapi.idiscrecorder2_get_currentprofiles, imapi2/IDiscRecorder2::get_CurrentProfiles
 ms.topic: method
 f1_keywords:
 - imapi2/IDiscRecorder2.get_CurrentProfiles
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows

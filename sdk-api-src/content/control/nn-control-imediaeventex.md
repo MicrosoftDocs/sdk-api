@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IMediaEventEx
 title: IMediaEventEx (control.h)
-
 description: The IMediaEventEx interface inherits the IMediaEvent interface, which contains methods for retrieving event notifications and for overriding the filter graph's default handling of events.
 old-location: dshow\imediaeventex.htm
 tech.root: DirectShow
 ms.assetid: 9d367b0a-c7ec-49d4-a41e-045ac81d2c51
-
 ms.date: 12/05/2018
 ms.keywords: IMediaEventEx, IMediaEventEx interface [DirectShow], IMediaEventEx interface [DirectShow],described, IMediaEventExInterface, control/IMediaEventEx, dshow.imediaeventex
 ms.topic: interface
-f1_keywords: 
- - "control/IMediaEventEx"
+f1_keywords:
+- control/IMediaEventEx
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaEventEx
+- IMediaEventEx
 targetos: Windows
 req.typenames: 
 req.redist: 

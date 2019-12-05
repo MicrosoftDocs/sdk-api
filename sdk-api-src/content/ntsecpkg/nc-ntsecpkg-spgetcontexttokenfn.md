@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.SpGetContextTokenFn
 title: SpGetContextTokenFn (ntsecpkg.h)
-
 description: Obtains the token to impersonate.
 old-location: security\spgetcontexttoken.htm
 tech.root: SecAuthN
 ms.assetid: d2e6b57d-751d-4f07-b05b-6d3aabd60650
-
 ms.date: 12/05/2018
 ms.keywords: SpGetContextToken, SpGetContextToken callback function [Security], SpGetContextTokenFn, SpGetContextTokenFn callback, _ssp_spgetcontexttoken, ntsecpkg/SpGetContextToken, security.spgetcontexttoken
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpGetContextToken
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

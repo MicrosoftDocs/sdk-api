@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetDepthStencilState
 title: ID3D11DeviceContext::OMGetDepthStencilState (d3d11.h)
-
 description: Gets the depth-stencil state of the output-merger stage.
 old-location: direct3d11\id3d11devicecontext_omgetdepthstencilstate.htm
 tech.root: direct3d11
 ms.assetid: d5ea53a8-62c9-46c9-96ed-8c9977d916b2
-
 ms.date: 12/05/2018
 ms.keywords: 46d0ab14-fdda-10ce-1e1a-4e551e1deeb3, ID3D11DeviceContext interface [Direct3D 11],OMGetDepthStencilState method, ID3D11DeviceContext.OMGetDepthStencilState, ID3D11DeviceContext::OMGetDepthStencilState, OMGetDepthStencilState, OMGetDepthStencilState method [Direct3D 11], OMGetDepthStencilState method [Direct3D 11],ID3D11DeviceContext interface, d3d11/ID3D11DeviceContext::OMGetDepthStencilState, direct3d11.id3d11devicecontext_omgetdepthstencilstate
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.OMGetDepthStencilState"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.OMGetDepthStencilState
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.OMGetDepthStencilState
+- ID3D11DeviceContext.OMGetDepthStencilState
 targetos: Windows
 req.typenames: 
 req.redist: 

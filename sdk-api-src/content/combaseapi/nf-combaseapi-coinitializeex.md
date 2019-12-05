@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoInitializeEx
 title: CoInitializeEx function (combaseapi.h)
-
 description: Initializes the COM library for use by the calling thread, sets the thread's concurrency model, and creates a new apartment for the thread if one is required.
 old-location: com\coinitializeex.htm
 tech.root: com
 ms.assetid: ffb79c0f-aeda-4ea1-aea8-afb79109837f
-
 ms.date: 12/05/2018
 ms.keywords: CoInitializeEx, CoInitializeEx function [COM], _com_CoInitializeEx, com.coinitializeex, combaseapi/CoInitializeEx
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoInitializeEx"
+f1_keywords:
+- combaseapi/CoInitializeEx
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoInitializeEx
+- CoInitializeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

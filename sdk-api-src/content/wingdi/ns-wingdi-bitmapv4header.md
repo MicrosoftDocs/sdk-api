@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.__unnamed_struct_0
 title: BITMAPV4HEADER (wingdi.h)
-
 description: The BITMAPV4HEADER structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.Applications can use the BITMAPV5HEADER structure for added functionality.
 old-location: gdi\bitmapv4header.htm
 tech.root: gdi
 ms.assetid: 17c50d55-1c95-4178-82ba-7f504aa63c83
-
 ms.date: 12/05/2018
-ms.keywords: "*LPBITMAPV4HEADER, *PBITMAPV4HEADER, BITMAPV4HEADER, BITMAPV4HEADER structure [Windows GDI], PBITMAPV4HEADER, PBITMAPV4HEADER structure pointer [Windows GDI], _win32_BITMAPV4HEADER_str, gdi.bitmapv4header, wingdi/BITMAPV4HEADER, wingdi/PBITMAPV4HEADER"
+ms.keywords: '*LPBITMAPV4HEADER, *PBITMAPV4HEADER, BITMAPV4HEADER, BITMAPV4HEADER structure [Windows GDI], PBITMAPV4HEADER, PBITMAPV4HEADER structure pointer [Windows GDI], _win32_BITMAPV4HEADER_str, gdi.bitmapv4header, wingdi/BITMAPV4HEADER, wingdi/PBITMAPV4HEADER'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/BITMAPV4HEADER"
+f1_keywords:
+- wingdi/BITMAPV4HEADER
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - BITMAPV4HEADER
+- BITMAPV4HEADER
 targetos: Windows
 req.typenames: BITMAPV4HEADER, *LPBITMAPV4HEADER, *PBITMAPV4HEADER
 req.redist: 

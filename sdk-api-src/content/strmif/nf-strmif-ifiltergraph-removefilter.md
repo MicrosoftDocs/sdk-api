@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterGraph.RemoveFilter
 title: IFilterGraph::RemoveFilter (strmif.h)
-
 description: The RemoveFilter method removes a filter from the graph.
 old-location: dshow\ifiltergraph_removefilter.htm
 tech.root: DirectShow
 ms.assetid: ec681340-0fb9-4eba-8211-d5fa07fb076b
-
 ms.date: 12/05/2018
 ms.keywords: IFilterGraph interface [DirectShow],RemoveFilter method, IFilterGraph.RemoveFilter, IFilterGraph::RemoveFilter, IFilterGraphRemoveFilter, RemoveFilter, RemoveFilter method [DirectShow], RemoveFilter method [DirectShow],IFilterGraph interface, dshow.ifiltergraph_removefilter, strmif/IFilterGraph::RemoveFilter
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterGraph.RemoveFilter"
+f1_keywords:
+- strmif/IFilterGraph.RemoveFilter
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterGraph.RemoveFilter
+- IFilterGraph.RemoveFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

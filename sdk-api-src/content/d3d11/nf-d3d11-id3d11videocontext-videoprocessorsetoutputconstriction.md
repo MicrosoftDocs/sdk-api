@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputConstriction
 title: ID3D11VideoContext::VideoProcessorSetOutputConstriction (d3d11.h)
-
 description: Sets the amount of downsampling to perform on the output.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputconstriction.htm
 tech.root: medfound
 ms.assetid: EA61A4B8-0853-4F17-B634-70A896DCF5F7
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputConstriction method, ID3D11VideoContext.VideoProcessorSetOutputConstriction, ID3D11VideoContext::VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction, VideoProcessorSetOutputConstriction method [Media Foundation], VideoProcessorSetOutputConstriction method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputConstriction, mf.id3d11videocontext_videoprocessorsetoutputconstriction
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetOutputConstriction"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetOutputConstriction
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetOutputConstriction
+- ID3D11VideoContext.VideoProcessorSetOutputConstriction
 targetos: Windows
 req.typenames: 
 req.redist: 

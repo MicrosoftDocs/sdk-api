@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.ReleaseQueryResults
 title: IGPMRSOP::ReleaseQueryResults (gpmgmt.h)
-
 description: Releases the WMI namespace allocated by calls to the IGPMRSOP::CreateQueryResults method and by calls to the IGPM::GetRSOP method.
 old-location: gpmc\igpmrsop_releasequeryresults.htm
 tech.root: gpmc
 ms.assetid: c2bf9050-4db0-4bf0-a063-0076ba191ff6
-
 ms.date: 12/05/2018
 ms.keywords: GPMRSOP class [GPMC],ReleaseQueryResults method, IGPMRSOP interface [GPMC],ReleaseQueryResults method, IGPMRSOP.ReleaseQueryResults, IGPMRSOP::ReleaseQueryResults, ReleaseQueryResults, ReleaseQueryResults method [GPMC], ReleaseQueryResults method [GPMC],GPMRSOP class, ReleaseQueryResults method [GPMC],IGPMRSOP interface, _win32_igpmrsop_releasequeryresults, gpmc.igpmrsop_releasequeryresults, gpmgmt/IGPMRSOP::ReleaseQueryResults
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMRSOP.ReleaseQueryResults"
+f1_keywords:
+- gpmgmt/IGPMRSOP.ReleaseQueryResults
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMRSOP.ReleaseQueryResults
- - GPMRSOP.ReleaseQueryResults
+- IGPMRSOP.ReleaseQueryResults
+- GPMRSOP.ReleaseQueryResults
 targetos: Windows
 req.typenames: 
 req.redist: 

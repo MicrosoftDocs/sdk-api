@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamType
 title: IWMStreamConfig::GetStreamType (wmsdkidl.h)
-
 description: The GetStreamType method retrieves the major type of the stream (audio, video, or script).
 old-location: wmformat\iwmstreamconfig_getstreamtype.htm
 tech.root: wmformat
 ms.assetid: a8dc8c37-da52-4d0f-b143-aaa45e6f77b8
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamType, GetStreamType method [windows Media Format], GetStreamType method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetStreamType method, IWMStreamConfig.GetStreamType, IWMStreamConfig::GetStreamType, IWMStreamConfigGetStreamType, wmformat.iwmstreamconfig_getstreamtype, wmsdkidl/IWMStreamConfig::GetStreamType
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig.GetStreamType"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig.GetStreamType
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetStreamType
+- IWMStreamConfig.GetStreamType
 targetos: Windows
 req.typenames: 
 req.redist: 

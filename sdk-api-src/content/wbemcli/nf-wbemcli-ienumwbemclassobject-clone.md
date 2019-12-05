@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IEnumWbemClassObject.Clone
 title: IEnumWbemClassObject::Clone (wbemcli.h)
-
 description: The IEnumWbemClassObject::Clone method makes a logical copy of the entire enumerator, retaining its current position in an enumeration.
 old-location: wmi\ienumwbemclassobject_clone.htm
 tech.root: WmiSdk
 ms.assetid: a323c662-e005-44aa-a903-1eb7d6ddff9e
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],IEnumWbemClassObject interface, IEnumWbemClassObject interface [Windows Management Instrumentation],Clone method, IEnumWbemClassObject.Clone, IEnumWbemClassObject::Clone, _hmm_ienumwbemclassobject_clone, wbemcli/IEnumWbemClassObject::Clone, wmi.ienumwbemclassobject_clone
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IEnumWbemClassObject.Clone"
+f1_keywords:
+- wbemcli/IEnumWbemClassObject.Clone
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IEnumWbemClassObject.Clone
+- IEnumWbemClassObject.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

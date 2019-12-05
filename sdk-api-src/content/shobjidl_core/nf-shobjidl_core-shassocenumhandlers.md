@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHAssocEnumHandlers
 title: SHAssocEnumHandlers function (shobjidl_core.h)
-
 description: Returns an enumeration object for a specified set of file name extension handlers.
 old-location: shell\SHAssocEnumHandlers.htm
 tech.root: shell
 ms.assetid: 83db466b-e00c-4015-879f-c5c222f45b8c
-
 ms.date: 12/05/2018
 ms.keywords: ASSOC_FILTER_NONE, ASSOC_FILTER_RECOMMENDED, SHAssocEnumHandlers, SHAssocEnumHandlers function [Windows Shell], _shell_SHAssocEnumHandlers, shell.SHAssocEnumHandlers, shobjidl_core/SHAssocEnumHandlers
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHAssocEnumHandlers"
+f1_keywords:
+- shobjidl_core/SHAssocEnumHandlers
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHAssocEnumHandlers
+- SHAssocEnumHandlers
 targetos: Windows
 req.typenames: 
 req.redist: 

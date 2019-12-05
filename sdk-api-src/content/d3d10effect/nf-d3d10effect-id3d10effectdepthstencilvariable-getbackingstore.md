@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectDepthStencilVariable.GetBackingStore
 title: ID3D10EffectDepthStencilVariable::GetBackingStore (d3d10effect.h)
-
 description: Get a pointer to a variable that contains depth-stencil state.
 old-location: direct3d10\id3d10effectdepthstencilvariable_getbackingstore.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilvariable_getbackingstore.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetBackingStore, GetBackingStore method [Direct3D 10], GetBackingStore method [Direct3D 10],ID3D10EffectDepthStencilVariable interface, ID3D10EffectDepthStencilVariable interface [Direct3D 10],GetBackingStore method, ID3D10EffectDepthStencilVariable.GetBackingStore, ID3D10EffectDepthStencilVariable::GetBackingStore, d3d10effect/ID3D10EffectDepthStencilVariable::GetBackingStore, direct3d10.id3d10effectdepthstencilvariable_getbackingstore, f9003aa5-ba35-95d6-f8c4-b56aa73c1f4e
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectDepthStencilVariable.GetBackingStore"
+f1_keywords:
+- d3d10effect/ID3D10EffectDepthStencilVariable.GetBackingStore
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectDepthStencilVariable.GetBackingStore
+- ID3D10EffectDepthStencilVariable.GetBackingStore
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.RtlUnwind
 title: RtlUnwind function (winnt.h)
-
 description: Initiates an unwind of procedure call frames.
 old-location: base\rtlunwind.htm
 tech.root: Debug
 ms.assetid: 254b2547-9d3d-468f-a360-20a12e9dd82e
-
 ms.date: 12/05/2018
 ms.keywords: RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind
 ms.topic: function
 f1_keywords:
 - winnt/RtlUnwind
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NS:mscat.CRYPTCATMEMBER_
 title: CRYPTCATMEMBER (mscat.h)
-
 description: The CRYPTCATMEMBER structure provides information about a catalog member. This structure is used by the CryptCATGetMemberInfo and CryptCATEnumerateAttr functions.
 old-location: security\cryptcatmember.htm
 tech.root: SecCrypto
 ms.assetid: 08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b
-
 ms.date: 12/05/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], mscat/CRYPTCATMEMBER, security.cryptcatmember
 ms.topic: struct
-f1_keywords: 
- - "mscat/CRYPTCATMEMBER"
+f1_keywords:
+- mscat/CRYPTCATMEMBER
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mscat.h
+- Mscat.h
 api_name:
- - CRYPTCATMEMBER
+- CRYPTCATMEMBER
 targetos: Windows
 req.typenames: CRYPTCATMEMBER
 req.redist: 

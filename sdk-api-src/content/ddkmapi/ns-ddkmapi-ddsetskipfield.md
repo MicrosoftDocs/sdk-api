@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDSETSKIPFIELD
 title: DDSETSKIPFIELD (ddkmapi.h)
-
 description: The DDSETSKIPFIELD structure contains the start field information.
 old-location: display\ddsetskipfield.htm
 tech.root: display
 ms.assetid: 146aa32d-5268-41b3-b98c-18223002ea65
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDSETSKIPFIELD, DDSETSKIPFIELD, DDSETSKIPFIELD structure [Display Devices], LPDDSETSKIPFIELD, LPDDSETSKIPFIELD structure pointer [Display Devices], ddkmapi/DDSETSKIPFIELD, ddkmapi/LPDDSETSKIPFIELD, ddstrcts_a0567a56-5d6e-4154-86ff-90463ed2c554.xml, display.ddsetskipfield"
+ms.keywords: '*LPDDSETSKIPFIELD, DDSETSKIPFIELD, DDSETSKIPFIELD structure [Display Devices], LPDDSETSKIPFIELD, LPDDSETSKIPFIELD structure pointer [Display Devices], ddkmapi/DDSETSKIPFIELD, ddkmapi/LPDDSETSKIPFIELD, ddstrcts_a0567a56-5d6e-4154-86ff-90463ed2c554.xml, display.ddsetskipfield'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDSETSKIPFIELD"
+f1_keywords:
+- ddkmapi/DDSETSKIPFIELD
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDSETSKIPFIELD
+- DDSETSKIPFIELD
 targetos: Windows
 req.typenames: DDSETSKIPFIELD, *LPDDSETSKIPFIELD
 req.redist: 

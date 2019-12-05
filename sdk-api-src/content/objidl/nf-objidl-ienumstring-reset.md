@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumString.Reset
 title: IEnumString::Reset (objidl.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumstring_reset.htm
 tech.root: com
 ms.assetid: 6f134738-b5ed-4f45-bf91-eeb28c8965c6
-
 ms.date: 12/05/2018
 ms.keywords: IEnumString interface [COM],Reset method, IEnumString.Reset, IEnumString::Reset, Reset, Reset method [COM], Reset method [COM],IEnumString interface, _com_ienumstring_reset, com.ienumstring_reset, objidlbase/IEnumString::Reset
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumString.Reset"
+f1_keywords:
+- objidl/IEnumString.Reset
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IEnumString.Reset
+- IEnumString.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

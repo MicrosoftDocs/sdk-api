@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPathIterator.NextSubpath(OUT INT,OUT INT,OUT BOOL)
 title: GraphicsPathIterator::NextSubpath
 description: The GraphicsPathIterator::NextSubpath method gets the starting index and the ending index of the next subpath.
 ms.assetid: 175a664d-76d3-40d7-8978-90120e26baf6
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextSubpath
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPathIterator::NextSubpath"
+f1_keywords:
+- gdipluspath/GraphicsPathIterator::NextSubpath
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPathIterator::NextSubpath
+- GraphicsPathIterator::NextSubpath
 ---
 
 ## -description

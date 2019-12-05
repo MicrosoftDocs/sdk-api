@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_1.D2D1_PRINT_CONTROL_PROPERTIES
 title: D2D1_PRINT_CONTROL_PROPERTIES (d2d1_1.h)
-
 description: The creation properties for a ID2D1PrintControl object.
 old-location: direct2d\d2d1_print_control_properties.htm
 tech.root: Direct2D
 ms.assetid: 5A4D4DDC-4161-44A2-9EB6-E4C14696B810
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PRINT_CONTROL_PROPERTIES, D2D1_PRINT_CONTROL_PROPERTIES structure [Direct2D], d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES, direct2d.d2d1_print_control_properties
 ms.topic: struct
-f1_keywords: 
- - "d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES"
+f1_keywords:
+- d2d1_1/D2D1_PRINT_CONTROL_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2D1.lib
+- D2D1.lib
 api_name:
- - D2D1_PRINT_CONTROL_PROPERTIES
+- D2D1_PRINT_CONTROL_PROPERTIES
 targetos: Windows
 req.typenames: D2D1_PRINT_CONTROL_PROPERTIES
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetTextExtentPoint32A
 title: GetTextExtentPoint32A function (wingdi.h)
-
 description: The GetTextExtentPoint32 function computes the width and height of the specified string of text.
 old-location: gdi\gettextextentpoint32.htm
 tech.root: gdi
 ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
-
 ms.date: 12/05/2018
 ms.keywords: GetTextExtentPoint32, GetTextExtentPoint32 function [Windows GDI], GetTextExtentPoint32A, GetTextExtentPoint32W, _win32_GetTextExtentPoint32, gdi.gettextextentpoint32, wingdi/GetTextExtentPoint32, wingdi/GetTextExtentPoint32A, wingdi/GetTextExtentPoint32W
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetTextExtentPoint32"
+f1_keywords:
+- wingdi/GetTextExtentPoint32
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetTextExtentPoint32
- - GetTextExtentPoint32A
- - GetTextExtentPoint32W
+- GetTextExtentPoint32
+- GetTextExtentPoint32A
+- GetTextExtentPoint32W
 targetos: Windows
 req.typenames: 
 req.redist: 

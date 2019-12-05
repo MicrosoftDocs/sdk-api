@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFAllocateSerialWorkQueue
 title: MFAllocateSerialWorkQueue function (mfapi.h)
-
 description: Creates a work queue that is guaranteed to serialize work items.
 old-location: mf\mfallocateserialworkqueue.htm
 tech.root: medfound
 ms.assetid: 45198662-C861-49A5-8962-DC256A671350
-
 ms.date: 12/05/2018
 ms.keywords: MFAllocateSerialWorkQueue, MFAllocateSerialWorkQueue function [Media Foundation], mf.mfallocateserialworkqueue, mfapi/MFAllocateSerialWorkQueue
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFAllocateSerialWorkQueue"
+f1_keywords:
+- mfapi/MFAllocateSerialWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFAllocateSerialWorkQueue
+- MFAllocateSerialWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

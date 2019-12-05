@@ -1,19 +1,17 @@
 ---
 UID: NF:compressapi.CloseCompressor
 title: CloseCompressor function (compressapi.h)
-
 description: Call to close an open COMPRESSOR_HANDLE.
 old-location: cmpapi\closecompressor.htm
 tech.root: cmpapi
 ms.assetid: 098cf0b9-cd42-4a40-b30f-d7364d067e41
-
 ms.date: 12/05/2018
 ms.keywords: CloseCompressor, CloseCompressor function [Compression API], cmpapi.closecompressor, compressapi/CloseCompressor
 ms.topic: function
-f1_keywords: 
- - "compressapi/CloseCompressor"
+f1_keywords:
+- compressapi/CloseCompressor
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - cabinet.dll
+- cabinet.dll
 api_name:
- - CloseCompressor
+- CloseCompressor
 targetos: Windows
 req.typenames: 
 req.redist: 

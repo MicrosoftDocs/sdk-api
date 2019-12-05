@@ -1,19 +1,17 @@
 ---
 UID: NN:infotech.IStemmerConfig
 title: IStemmerConfig (infotech.h)
-
 description: Use this interface to provide configuration information that controls stemming.
 old-location: htmlhelp\istemmerconfig.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfiginterface.htm
-
 ms.date: 12/05/2018
 ms.keywords: IStemmerConfig, IStemmerConfig interface [HTML Help Workshop], IStemmerConfig interface [HTML Help Workshop],described, htmlhelp.istemmerconfig, infotech/IStemmerConfig, refIStemmerConfigInterface
 ms.topic: interface
-f1_keywords: 
- - "infotech/IStemmerConfig"
+f1_keywords:
+- infotech/IStemmerConfig
 dev_langs:
- - c++
+- c++
 req.header: infotech.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Infotech.h
+- Infotech.h
 api_name:
- - IStemmerConfig
+- IStemmerConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC(const D3D11_SAMPLER_DESC &)
 title: CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC(const D3D11_SAMPLER_DESC &) (d3d11.h)
-
 description: Instantiates a new instance of a CD3D11_SAMPLER_DESC structure that is initialized with a D3D11_SAMPLER_DESC structure.
 old-location: direct3d11\cd3d11_sampler_desc_cd3d11_sampler_desc_d3d11_sampler_desc_.htm
 tech.root: direct3d11
 ms.assetid: 35B73D21-04DA-411A-ADDA-ABE1F9DBE842
-
 ms.date: 12/05/2018
 ms.keywords: CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC interface [Direct3D 11],CD3D11_SAMPLER_DESC method, CD3D11_SAMPLER_DESC method [Direct3D 11], CD3D11_SAMPLER_DESC method [Direct3D 11],CD3D11_SAMPLER_DESC interface, CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC(const D3D11_SAMPLER_DESC &), CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC, CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC(const D3D11_SAMPLER_DESC &), CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC(const D3D11_SAMPLER_DESC&), d3d11/CD3D11_SAMPLER_DESC::CD3D11_SAMPLER_DESC, direct3d11.cd3d11_sampler_desc_cd3d11_sampler_desc_d3d11_sampler_desc_
 ms.topic: method
-f1_keywords: 
- - "d3d11/CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC"
+f1_keywords:
+- d3d11/CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC
+- CD3D11_SAMPLER_DESC.CD3D11_SAMPLER_DESC
 targetos: Windows
 req.typenames: 
 req.redist: 

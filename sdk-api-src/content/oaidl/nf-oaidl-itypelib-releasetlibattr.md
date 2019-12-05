@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeLib.ReleaseTLibAttr
 title: ITypeLib::ReleaseTLibAttr (oaidl.h)
-
 description: Releases the TLIBATTR originally obtained from GetLibAttr.
 old-location: automat\itypelib_releasetlibattr.htm
 tech.root: automat
 ms.assetid: a5b9ee66-ab66-4ad9-a6bf-93bd98e3905c
-
 ms.date: 12/05/2018
 ms.keywords: ITypeLib interface [Automation],ReleaseTLibAttr method, ITypeLib.ReleaseTLibAttr, ITypeLib::ReleaseTLibAttr, ReleaseTLibAttr, ReleaseTLibAttr method [Automation], ReleaseTLibAttr method [Automation],ITypeLib interface, _oa96_ITypeLib_ReleaseTLibAttr, automat.itypelib_releasetlibattr, oaidl/ITypeLib::ReleaseTLibAttr
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeLib.ReleaseTLibAttr"
+f1_keywords:
+- oaidl/ITypeLib.ReleaseTLibAttr
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib.ReleaseTLibAttr
+- ITypeLib.ReleaseTLibAttr
 targetos: Windows
 req.typenames: 
 req.redist: 

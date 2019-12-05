@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTreeWalker.NormalizeElement
 title: IUIAutomationTreeWalker::NormalizeElement (uiautomationclient.h)
-
 description: Retrieves the ancestor element nearest to the specified Microsoft UI Automation element in the tree view.
 old-location: winauto\uiauto_IUIAutomationTreeWalker_Normalize.htm
 tech.root: WinAuto
 ms.assetid: 62616711-a841-4273-8e38-0d2344659d03
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTreeWalker interface [Windows Accessibility],NormalizeElement method, IUIAutomationTreeWalker.NormalizeElement, IUIAutomationTreeWalker::NormalizeElement, NormalizeElement, NormalizeElement method [Windows Accessibility], NormalizeElement method [Windows Accessibility],IUIAutomationTreeWalker interface, uiauto.uiauto_IUIAutomationTreeWalker_Normalize, uiauto_IUIAutomationTreeWalker_Normalize, uiautomationclient/IUIAutomationTreeWalker::NormalizeElement, winauto.uiauto_IUIAutomationTreeWalker_Normalize
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTreeWalker.NormalizeElement"
+f1_keywords:
+- uiautomationclient/IUIAutomationTreeWalker.NormalizeElement
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker.NormalizeElement
+- IUIAutomationTreeWalker.NormalizeElement
 targetos: Windows
 req.typenames: 
 req.redist: 

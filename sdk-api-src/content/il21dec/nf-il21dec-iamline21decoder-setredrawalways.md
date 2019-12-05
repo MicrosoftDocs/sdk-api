@@ -1,19 +1,17 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetRedrawAlways
 title: IAMLine21Decoder::SetRedrawAlways (il21dec.h)
-
 description: The SetRedrawAlways method specifies whether the Line 21 Decoder filter redraws the entire output bitmap for each sample.
 old-location: dshow\iamline21decoder_setredrawalways.htm
 tech.root: DirectShow
 ms.assetid: 20f2e95a-8362-457d-b562-f7263e698551
-
 ms.date: 12/05/2018
 ms.keywords: IAMLine21Decoder interface [DirectShow],SetRedrawAlways method, IAMLine21Decoder.SetRedrawAlways, IAMLine21Decoder::SetRedrawAlways, IAMLine21DecoderSetRedrawAlways, SetRedrawAlways, SetRedrawAlways method [DirectShow], SetRedrawAlways method [DirectShow],IAMLine21Decoder interface, dshow.iamline21decoder_setredrawalways, il21dec/IAMLine21Decoder::SetRedrawAlways
 ms.topic: method
-f1_keywords: 
- - "il21dec/IAMLine21Decoder.SetRedrawAlways"
+f1_keywords:
+- il21dec/IAMLine21Decoder.SetRedrawAlways
 dev_langs:
- - c++
+- c++
 req.header: il21dec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMLine21Decoder.SetRedrawAlways
+- IAMLine21Decoder.SetRedrawAlways
 targetos: Windows
 req.typenames: 
 req.redist: 

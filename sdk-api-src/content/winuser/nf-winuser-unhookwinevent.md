@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.UnhookWinEvent
 title: UnhookWinEvent function (winuser.h)
-
 description: Removes an event hook function created by a previous call to SetWinEventHook.
 old-location: winauto\unhookwinevent.htm
 tech.root: WinAuto
 ms.assetid: 5cffb279-85e1-4f7a-8bbb-d0d618f6afcd
-
 ms.date: 12/05/2018
 ms.keywords: UnhookWinEvent, UnhookWinEvent function [Windows Accessibility], _msaa_UnhookWinEvent, msaa.unhookwinevent, winauto.unhookwinevent, winuser/UnhookWinEvent
 ms.topic: function
-f1_keywords: 
- - "winuser/UnhookWinEvent"
+f1_keywords:
+- winuser/UnhookWinEvent
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
- - minuser.dll
+- user32.dll
+- API-MS-Win-RTCore-NTUser-Winevent-l1-1-0.dll
+- minuser.dll
 api_name:
- - UnhookWinEvent
+- UnhookWinEvent
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

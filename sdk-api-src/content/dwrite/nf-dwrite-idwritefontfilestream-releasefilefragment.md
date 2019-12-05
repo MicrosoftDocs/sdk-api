@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFileStream.ReleaseFileFragment
 title: IDWriteFontFileStream::ReleaseFileFragment (dwrite.h)
-
 description: Releases a fragment from a file.
 old-location: directwrite\IDWriteFontFileStream_ReleaseFileFragment.htm
 tech.root: DirectWrite
 ms.assetid: 8a12c28e-5595-4255-8fdd-5d546ceed90b
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFileStream interface [Direct Write],ReleaseFileFragment method, IDWriteFontFileStream.ReleaseFileFragment, IDWriteFontFileStream::ReleaseFileFragment, ReleaseFileFragment, ReleaseFileFragment method [Direct Write], ReleaseFileFragment method [Direct Write],IDWriteFontFileStream interface, directwrite.IDWriteFontFileStream_ReleaseFileFragment, dwrite/IDWriteFontFileStream::ReleaseFileFragment
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFileStream.ReleaseFileFragment"
+f1_keywords:
+- dwrite/IDWriteFontFileStream.ReleaseFileFragment
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFileStream.ReleaseFileFragment
+- IDWriteFontFileStream.ReleaseFileFragment
 targetos: Windows
 req.typenames: 
 req.redist: 

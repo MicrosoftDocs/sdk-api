@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_INT64_DESCRIPTION
 title: WS_INT64_DESCRIPTION (webservices.h)
-
 description: An optional type description used with WS_INT64_TYPE to specify constraints on the set of values which can be deserialized.
 old-location: wsw\ws_int64_description.htm
 tech.root: wsw
 ms.assetid: b8e355c0-2695-4162-aa77-703367ee117e
-
 ms.date: 12/05/2018
 ms.keywords: WS_INT64_DESCRIPTION, WS_INT64_DESCRIPTION structure [Web Services for Windows], webservices/WS_INT64_DESCRIPTION, wsw.ws_int64_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_INT64_DESCRIPTION"
+f1_keywords:
+- webservices/WS_INT64_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_INT64_DESCRIPTION
+- WS_INT64_DESCRIPTION
 targetos: Windows
 req.typenames: WS_INT64_DESCRIPTION
 req.redist: 

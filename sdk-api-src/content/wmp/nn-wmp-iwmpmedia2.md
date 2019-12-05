@@ -1,19 +1,17 @@
 ---
 UID: NN:wmp.IWMPMedia2
 title: IWMPMedia2 (wmp.h)
-
 description: The IWMPMedia2 interface provides a method that supplements the IWMPMedia interface.
 old-location: wmp\iwmpmedia2.htm
 tech.root: WMP
 ms.assetid: e5d1e4f8-4a31-427e-ac2e-e7d4c3194a21
-
 ms.date: 12/05/2018
 ms.keywords: IWMPMedia2, IWMPMedia2 interface [Windows Media Player], IWMPMedia2 interface [Windows Media Player],described, IWMPMedia2Interface, wmp.iwmpmedia2, wmp/IWMPMedia2
 ms.topic: interface
-f1_keywords: 
- - "wmp/IWMPMedia2"
+f1_keywords:
+- wmp/IWMPMedia2
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.h
+- wmp.h
 api_name:
- - IWMPMedia2
+- IWMPMedia2
 targetos: Windows
 req.typenames: 
 req.redist: 

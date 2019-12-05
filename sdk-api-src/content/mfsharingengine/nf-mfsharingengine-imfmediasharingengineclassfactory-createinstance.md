@@ -1,19 +1,17 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngineClassFactory.CreateInstance
 title: IMFMediaSharingEngineClassFactory::CreateInstance (mfsharingengine.h)
-
 description: Creates an instance of the IMFMediaSharingEngine.
 old-location: mf\imfmediasharingengineclassfactory_createinstance.htm
 tech.root: medfound
 ms.assetid: D0FD55A1-0387-4450-8F05-3AC7E943F437
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Media Foundation], CreateInstance method [Media Foundation],IMFMediaSharingEngineClassFactory interface, IMFMediaSharingEngineClassFactory interface [Media Foundation],CreateInstance method, IMFMediaSharingEngineClassFactory.CreateInstance, IMFMediaSharingEngineClassFactory::CreateInstance, mf.imfmediasharingengineclassfactory_createinstance, mfsharingengine/IMFMediaSharingEngineClassFactory::CreateInstance
 ms.topic: method
-f1_keywords: 
- - "mfsharingengine/IMFMediaSharingEngineClassFactory.CreateInstance"
+f1_keywords:
+- mfsharingengine/IMFMediaSharingEngineClassFactory.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - IMFMediaSharingEngineClassFactory.CreateInstance
+- IMFMediaSharingEngineClassFactory.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

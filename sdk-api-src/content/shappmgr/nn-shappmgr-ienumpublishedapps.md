@@ -1,19 +1,17 @@
 ---
 UID: NN:shappmgr.IEnumPublishedApps
 title: IEnumPublishedApps (shappmgr.h)
-
 description: Exposes methods that enumerate published applications to Add/Remove Programs in the Control Panel. The object exposing this interface is requested through IAppPublisher::EnumApps.
 old-location: shell\IEnumPublishedApps.htm
 tech.root: shell
 ms.assetid: 89a06b1d-1b72-46ca-91cd-bb63ea0cbff7
-
 ms.date: 12/05/2018
 ms.keywords: IEnumPublishedApps, IEnumPublishedApps interface [Windows Shell], IEnumPublishedApps interface [Windows Shell],described, inet_IEnumPublishedApps, shappmgr/IEnumPublishedApps, shell.IEnumPublishedApps
 ms.topic: interface
-f1_keywords: 
- - "shappmgr/IEnumPublishedApps"
+f1_keywords:
+- shappmgr/IEnumPublishedApps
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - IEnumPublishedApps
+- IEnumPublishedApps
 targetos: Windows
 req.typenames: 
 req.redist: 

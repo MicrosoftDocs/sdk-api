@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetSearchPathMode
 title: SetSearchPathMode function (winbase.h)
-
 description: Sets the per-process mode that the SearchPath function uses when locating files.
 old-location: fs\setsearchpathmode.htm
 tech.root: FileIO
 ms.assetid: 1874933d-92c3-4945-a3e4-e6dede232d5e
-
 ms.date: 12/05/2018
 ms.keywords: BASE_SEARCH_PATH_DISABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_ENABLE_SAFE_SEARCHMODE, BASE_SEARCH_PATH_PERMANENT, SetSearchPathMode, SetSearchPathMode function [Files], fs.setsearchpathmode, winbase/SetSearchPathMode
 ms.topic: function
-f1_keywords: 
- - "winbase/SetSearchPathMode"
+f1_keywords:
+- winbase/SetSearchPathMode
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - SetSearchPathMode
+- SetSearchPathMode
 targetos: Windows
 req.typenames: 
 req.redist: KB959426 on      Windows XP with SP2 and later and Windows Server 2003 with SP1 and later

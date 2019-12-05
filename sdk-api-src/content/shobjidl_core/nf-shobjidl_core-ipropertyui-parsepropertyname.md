@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.ParsePropertyName
 title: IPropertyUI::ParsePropertyName (shobjidl_core.h)
-
 description: Developers should use IPropertyDescription instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
 old-location: properties\IPropertyUI_ParsePropertyName.htm
 tech.root: properties
 ms.assetid: CCD8C646-B259-4445-AEA0-AD7364FE8DEF
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyUI interface [Windows Properties],ParsePropertyName method, IPropertyUI.ParsePropertyName, IPropertyUI::ParsePropertyName, ParsePropertyName, ParsePropertyName method [Windows Properties], ParsePropertyName method [Windows Properties],IPropertyUI interface, _shell_IPropertyUI_ParsePropertyName, properties.IPropertyUI_ParsePropertyName, shell.IPropertyUI_ParsePropertyName, shobjidl_core/IPropertyUI::ParsePropertyName
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IPropertyUI.ParsePropertyName"
+f1_keywords:
+- shobjidl_core/IPropertyUI.ParsePropertyName
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IPropertyUI.ParsePropertyName
+- IPropertyUI.ParsePropertyName
 targetos: Windows
 req.typenames: 
 req.redist: 

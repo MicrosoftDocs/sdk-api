@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamSampleManager.GetSample
 title: IMFMuxStreamSampleManager::GetSample (mfobjects.h)
-
 description: Gets the IMFSample associated with the substream with the specified index.
 old-location: mf\imfmuxstreamsamplemanager_getsample.htm
 tech.root: medfound
 ms.assetid: F52147C3-FF6D-4F8F-93BE-2A3237C5A827
-
 ms.date: 12/05/2018
 ms.keywords: GetSample, GetSample method [Media Foundation], GetSample method [Media Foundation],IMFMuxStreamSampleManager interface, IMFMuxStreamSampleManager interface [Media Foundation],GetSample method, IMFMuxStreamSampleManager.GetSample, IMFMuxStreamSampleManager::GetSample, mf.imfmuxstreamsamplemanager_getsample, mfobjects/IMFMuxStreamSampleManager::GetSample
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFMuxStreamSampleManager.GetSample"
+f1_keywords:
+- mfobjects/IMFMuxStreamSampleManager.GetSample
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFMuxStreamSampleManager.GetSample
+- IMFMuxStreamSampleManager.GetSample
 targetos: Windows
 req.typenames: 
 req.redist: 

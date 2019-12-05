@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_PATH_SEGMENT
 title: D2D1_PATH_SEGMENT (d2d1.h)
-
 description: Indicates whether a segment should be stroked and whether the join between this segment and the previous one should be smooth. This enumeration allows a bitwise combination of its member values.
 old-location: direct2d\D2D1_PATH_SEGMENT.htm
 tech.root: Direct2D
 ms.assetid: 375a0a40-ec98-4f41-9c15-d284f8b17a73
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_PATH_SEGMENT, D2D1_PATH_SEGMENT enumeration [Direct2D], D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN, D2D1_PATH_SEGMENT_FORCE_UNSTROKED, D2D1_PATH_SEGMENT_NONE, d2d1/D2D1_PATH_SEGMENT, d2d1/D2D1_PATH_SEGMENT_FORCE_ROUND_LINE_JOIN, d2d1/D2D1_PATH_SEGMENT_FORCE_UNSTROKED, d2d1/D2D1_PATH_SEGMENT_NONE, direct2d.D2D1_PATH_SEGMENT
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_PATH_SEGMENT"
+f1_keywords:
+- d2d1/D2D1_PATH_SEGMENT
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_PATH_SEGMENT
+- D2D1_PATH_SEGMENT
 targetos: Windows
 req.typenames: D2D1_PATH_SEGMENT
 req.redist: 

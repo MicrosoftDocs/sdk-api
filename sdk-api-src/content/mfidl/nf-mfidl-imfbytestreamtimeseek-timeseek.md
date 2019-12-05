@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFByteStreamTimeSeek.TimeSeek
 title: IMFByteStreamTimeSeek::TimeSeek (mfidl.h)
-
 description: Seeks to a new position in the byte stream.
 old-location: mf\imfbytestreamtimeseek_timeseek.htm
 tech.root: medfound
 ms.assetid: 786F1299-A9E2-4B2C-A6AE-F88E6BF022DC
-
 ms.date: 12/05/2018
 ms.keywords: IMFByteStreamTimeSeek interface [Media Foundation],TimeSeek method, IMFByteStreamTimeSeek.TimeSeek, IMFByteStreamTimeSeek::TimeSeek, TimeSeek, TimeSeek method [Media Foundation], TimeSeek method [Media Foundation],IMFByteStreamTimeSeek interface, mf.imfbytestreamtimeseek_timeseek, mfidl/IMFByteStreamTimeSeek::TimeSeek
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFByteStreamTimeSeek.TimeSeek"
+f1_keywords:
+- mfidl/IMFByteStreamTimeSeek.TimeSeek
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFByteStreamTimeSeek.TimeSeek
+- IMFByteStreamTimeSeek.TimeSeek
 targetos: Windows
 req.typenames: 
 req.redist: 

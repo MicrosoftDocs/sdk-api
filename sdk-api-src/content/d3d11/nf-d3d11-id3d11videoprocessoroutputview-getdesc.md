@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorOutputView.GetDesc
 title: ID3D11VideoProcessorOutputView::GetDesc (d3d11.h)
-
 description: Gets the properties of the video processor output view.
 old-location: mf\id3d11videoprocessoroutputview_getdesc.htm
 tech.root: medfound
 ms.assetid: 8FDC547A-64B9-415C-865C-31BF8FA1A711
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Media Foundation], GetDesc method [Media Foundation],ID3D11VideoProcessorOutputView interface, ID3D11VideoProcessorOutputView interface [Media Foundation],GetDesc method, ID3D11VideoProcessorOutputView.GetDesc, ID3D11VideoProcessorOutputView::GetDesc, d3d11/ID3D11VideoProcessorOutputView::GetDesc, mf.id3d11videoprocessoroutputview_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoProcessorOutputView.GetDesc"
+f1_keywords:
+- d3d11/ID3D11VideoProcessorOutputView.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoProcessorOutputView.GetDesc
+- ID3D11VideoProcessorOutputView.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

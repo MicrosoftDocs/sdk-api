@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorRotateLeft
 title: XMVectorRotateLeft function (directxmath.h)
-
 description: Rotates the vector left by a given number of 32-bit elements.
 old-location: dxmath\xmvectorrotateleft.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorRotateLeft(XMVECTOR,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorRotateLeft, XMVectorRotateLeft, XMVectorRotateLeft method [DirectX Math Support APIs], dxmath.xmvectorrotateleft
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorRotateLeft"
+f1_keywords:
+- directxmath/XMVectorRotateLeft
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorRotateLeft
+- XMVectorRotateLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

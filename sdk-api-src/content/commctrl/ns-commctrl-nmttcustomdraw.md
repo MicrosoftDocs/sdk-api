@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMTTCUSTOMDRAW
 title: NMTTCUSTOMDRAW (commctrl.h)
-
 description: Contains information specific to an NM_CUSTOMDRAW notification code sent by a tooltip control.
 old-location: controls\NMTTCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\nmttcustomdraw.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW structure pointer [Windows Controls], NMTTCUSTOMDRAW, NMTTCUSTOMDRAW structure [Windows Controls], _win32_NMTTCUSTOMDRAW, _win32_NMTTCUSTOMDRAW_cpp, commctrl/LPNMTTCUSTOMDRAW, commctrl/NMTTCUSTOMDRAW, controls.NMTTCUSTOMDRAW, controls._win32_NMTTCUSTOMDRAW"
+ms.keywords: '*LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW, LPNMTTCUSTOMDRAW structure pointer [Windows Controls], NMTTCUSTOMDRAW, NMTTCUSTOMDRAW structure [Windows Controls], _win32_NMTTCUSTOMDRAW, _win32_NMTTCUSTOMDRAW_cpp, commctrl/LPNMTTCUSTOMDRAW, commctrl/NMTTCUSTOMDRAW, controls.NMTTCUSTOMDRAW, controls._win32_NMTTCUSTOMDRAW'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMTTCUSTOMDRAW"
+f1_keywords:
+- commctrl/NMTTCUSTOMDRAW
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMTTCUSTOMDRAW
+- NMTTCUSTOMDRAW
 targetos: Windows
 req.typenames: NMTTCUSTOMDRAW, *LPNMTTCUSTOMDRAW
 req.redist: 

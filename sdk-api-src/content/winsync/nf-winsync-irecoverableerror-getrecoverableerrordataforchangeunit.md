@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChangeUnit
 title: IRecoverableError::GetRecoverableErrorDataForChangeUnit (winsync.h)
-
 description: Gets additional data about the recoverable error for a specified change unit.
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchangeunit.htm
 tech.root: winsync
 ms.assetid: 609ecdb0-b135-474f-b959-9ab6f427e5d6
-
 ms.date: 12/05/2018
 ms.keywords: GetRecoverableErrorDataForChangeUnit, GetRecoverableErrorDataForChangeUnit method [Windows Sync], GetRecoverableErrorDataForChangeUnit method [Windows Sync],IRecoverableError interface, IRecoverableError interface [Windows Sync],GetRecoverableErrorDataForChangeUnit method, IRecoverableError.GetRecoverableErrorDataForChangeUnit, IRecoverableError::GetRecoverableErrorDataForChangeUnit, winsync.irecoverableerror_getrecoverableerrordataforchangeunit, winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit
 ms.topic: method
-f1_keywords: 
- - "winsync/IRecoverableError.GetRecoverableErrorDataForChangeUnit"
+f1_keywords:
+- winsync/IRecoverableError.GetRecoverableErrorDataForChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRecoverableError.GetRecoverableErrorDataForChangeUnit
+- IRecoverableError.GetRecoverableErrorDataForChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

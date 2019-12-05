@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMStreamSelect
 title: IAMStreamSelect (strmif.h)
-
 description: The IAMStreamSelect interface selects from the available streams on a parser filter.
 old-location: dshow\iamstreamselect.htm
 tech.root: DirectShow
 ms.assetid: a305e91e-f506-4bd1-b4d4-7361df89e158
-
 ms.date: 12/05/2018
 ms.keywords: IAMStreamSelect, IAMStreamSelect interface [DirectShow], IAMStreamSelect interface [DirectShow],described, IAMStreamSelectInterface, dshow.iamstreamselect, strmif/IAMStreamSelect
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMStreamSelect"
+f1_keywords:
+- strmif/IAMStreamSelect
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMStreamSelect
+- IAMStreamSelect
 targetos: Windows
 req.typenames: 
 req.redist: 

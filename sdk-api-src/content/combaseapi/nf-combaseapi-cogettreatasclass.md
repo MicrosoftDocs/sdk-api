@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetTreatAsClass
 title: CoGetTreatAsClass function (combaseapi.h)
-
 description: Returns the CLSID of an object that can emulate the specified object.
 old-location: com\cogettreatasclass.htm
 tech.root: com
 ms.assetid: f95fefe6-dc37-45f4-93be-87c996990ab9
-
 ms.date: 12/05/2018
 ms.keywords: CoGetTreatAsClass, CoGetTreatAsClass function [COM], _com_CoGetTreatAsClass, com.cogettreatasclass, combaseapi/CoGetTreatAsClass
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetTreatAsClass"
+f1_keywords:
+- combaseapi/CoGetTreatAsClass
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetTreatAsClass
+- CoGetTreatAsClass
 targetos: Windows
 req.typenames: 
 req.redist: 

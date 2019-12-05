@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.GetMetadataQueryWriter
 title: IWICBitmapFrameEncode::GetMetadataQueryWriter (wincodec.h)
-
 description: Gets the metadata query writer for the encoder frame.
 old-location: wic\_wic_codec_iwicbitmapframeencode_getmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 0ff79820-5f44-4262-b97f-df783829e44b
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICBitmapFrameEncode interface, IWICBitmapFrameEncode interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICBitmapFrameEncode.GetMetadataQueryWriter, IWICBitmapFrameEncode::GetMetadataQueryWriter, _wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wic._wic_codec_iwicbitmapframeencode_getmetadataquerywriter, wincodec/IWICBitmapFrameEncode::GetMetadataQueryWriter
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.GetMetadataQueryWriter"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.GetMetadataQueryWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.GetMetadataQueryWriter
+- IWICBitmapFrameEncode.GetMetadataQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

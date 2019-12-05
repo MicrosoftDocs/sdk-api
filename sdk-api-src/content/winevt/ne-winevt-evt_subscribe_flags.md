@@ -1,19 +1,17 @@
 ---
 UID: NE:winevt._EVT_SUBSCRIBE_FLAGS
 title: EVT_SUBSCRIBE_FLAGS (winevt.h)
-
 description: Defines the possible values that specify when to start subscribing to events.
 old-location: wes\evt_subscribe_flags.htm
 tech.root: wes
 ms.assetid: 2e0d5442-c9ac-4165-96ae-6f4122a5ce0a
-
 ms.date: 12/05/2018
 ms.keywords: EVT_SUBSCRIBE_FLAGS, EVT_SUBSCRIBE_FLAGS enumeration [EventLog], EvtSubscribeOriginMask, EvtSubscribeStartAfterBookmark, EvtSubscribeStartAtOldestRecord, EvtSubscribeStrict, EvtSubscribeToFutureEvents, EvtSubscribeTolerateQueryErrors, wes.evt_subscribe_flags, winevt/EVT_SUBSCRIBE_FLAGS, winevt/EvtSubscribeOriginMask, winevt/EvtSubscribeStartAfterBookmark, winevt/EvtSubscribeStartAtOldestRecord, winevt/EvtSubscribeStrict, winevt/EvtSubscribeToFutureEvents, winevt/EvtSubscribeTolerateQueryErrors
 ms.topic: enum
-f1_keywords: 
- - "winevt/EVT_SUBSCRIBE_FLAGS"
+f1_keywords:
+- winevt/EVT_SUBSCRIBE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: winevt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinEvt.h
+- WinEvt.h
 api_name:
- - EVT_SUBSCRIBE_FLAGS
+- EVT_SUBSCRIBE_FLAGS
 targetos: Windows
 req.typenames: EVT_SUBSCRIBE_FLAGS
 req.redist: 

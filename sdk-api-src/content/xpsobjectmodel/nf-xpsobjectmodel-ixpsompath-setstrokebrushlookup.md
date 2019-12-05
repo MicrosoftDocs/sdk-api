@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeBrushLookup
 title: IXpsOMPath::SetStrokeBrushLookup (xpsobjectmodel.h)
-
 description: Sets the lookup key name of a shared brush to be used as the stroke brush.
 old-location: xps\ixpsompath_setstrokebrushlookup.htm
 tech.root: printdocs
 ms.assetid: b2af731a-bea7-4f1b-8e31-b0173e38fd67
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPath interface [XPS Documents and Packaging],SetStrokeBrushLookup method, IXpsOMPath.SetStrokeBrushLookup, IXpsOMPath::SetStrokeBrushLookup, SetStrokeBrushLookup, SetStrokeBrushLookup method [XPS Documents and Packaging], SetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, xps.ixpsompath_setstrokebrushlookup, xpsobjectmodel/IXpsOMPath::SetStrokeBrushLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.SetStrokeBrushLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.SetStrokeBrushLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.SetStrokeBrushLookup
+- IXpsOMPath.SetStrokeBrushLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

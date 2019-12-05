@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetLastLineWrapping
 title: IDWriteTextLayout2::SetLastLineWrapping (dwrite_2.h)
-
 description: Set whether or not the last word on the last line is wrapped.
 old-location: directwrite\idwritetextlayout2_setlastlinewrapping.htm
 tech.root: DirectWrite
 ms.assetid: 424ADF2E-42DC-414B-8588-5A326CA4A507
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetLastLineWrapping method, IDWriteTextLayout2.SetLastLineWrapping, IDWriteTextLayout2::SetLastLineWrapping, SetLastLineWrapping, SetLastLineWrapping method [Direct Write], SetLastLineWrapping method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setlastlinewrapping, dwrite_2/IDWriteTextLayout2::SetLastLineWrapping
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteTextLayout2.SetLastLineWrapping"
+f1_keywords:
+- dwrite_2/IDWriteTextLayout2.SetLastLineWrapping
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout2.SetLastLineWrapping
+- IDWriteTextLayout2.SetLastLineWrapping
 targetos: Windows
 req.typenames: 
 req.redist: 

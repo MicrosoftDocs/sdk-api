@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.put_ScheduleTime
 title: IFaxDocument::put_ScheduleTime (faxcomex.h)
-
 description: The IFaxDocument::get_ScheduleTime property indicates the time to submit the fax for processing to the fax service.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_scheduletime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_459h.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDocument interface [Fax Service],ScheduleTime property, IFaxDocument.ScheduleTime, IFaxDocument.get_ScheduleTime, IFaxDocument.put_ScheduleTime, IFaxDocument::ScheduleTime, IFaxDocument::get_ScheduleTime, IFaxDocument::put_ScheduleTime, ScheduleTime property [Fax Service], ScheduleTime property [Fax Service],IFaxDocument interface, _mfax_faxdocument.scheduletime, fax._mfax_faxdocument_cpp_mfax_faxdocument_scheduletime_cpp, fax._mfax_faxdocument_scheduletime, faxcomex/IFaxDocument::ScheduleTime, faxcomex/IFaxDocument::get_ScheduleTime, faxcomex/IFaxDocument::put_ScheduleTime, put_ScheduleTime
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.ScheduleTime"
+f1_keywords:
+- faxcomex/IFaxDocument.ScheduleTime
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.ScheduleTime
- - IFaxDocument.get_ScheduleTime
- - IFaxDocument.put_ScheduleTime
- - IFaxDocument.get_ScheduleTime
- - IFaxDocument.put_ScheduleTime
+- IFaxDocument.ScheduleTime
+- IFaxDocument.get_ScheduleTime
+- IFaxDocument.put_ScheduleTime
+- IFaxDocument.get_ScheduleTime
+- IFaxDocument.put_ScheduleTime
 targetos: Windows
 req.typenames: 
 req.redist: 

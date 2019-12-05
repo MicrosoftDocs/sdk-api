@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRegisterProviderCallback
 title: UiaRegisterProviderCallback function (uiautomationcoreapi.h)
-
 description: Registers the application-defined method that is called by UI Automation to obtain a provider for an element.
 old-location: winauto\uiauto_UiaRegisterProviderCallbackAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: f80d3f42-dc21-4790-b670-0b900f092465
-
 ms.date: 12/05/2018
 ms.keywords: UiaRegisterProviderCallback, UiaRegisterProviderCallback function [Windows Accessibility], uiauto.uiauto_UiaRegisterProviderCallbackAutoMeth, uiauto_UiaRegisterProviderCallbackAutoMeth, uiautomationcoreapi/UiaRegisterProviderCallback, winauto.uiauto_UiaRegisterProviderCallbackAutoMeth
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/UiaRegisterProviderCallback"
+f1_keywords:
+- uiautomationcoreapi/UiaRegisterProviderCallback
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - UiaRegisterProviderCallback
+- UiaRegisterProviderCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

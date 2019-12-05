@@ -1,19 +1,17 @@
 ---
 UID: NF:strsafe.StringCbGetsExW
 title: StringCbGetsExW function (strsafe.h)
-
 description: Gets one line of text from stdin, up to and including the newline character ('\n').
 old-location: menurc\stringcbgetsex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbgetsex.htm
-
 ms.date: 12/05/2018
 ms.keywords: STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, StringCbGetsEx, StringCbGetsEx function [Menus and Other Resources], StringCbGetsExA, StringCbGetsExW, _shell_StringCbGetsEx, _shell_stringcbgetsex_cpp, menurc.stringcbgetsex, strsafe/StringCbGetsEx, strsafe/StringCbGetsExA, strsafe/StringCbGetsExW, winui._shell_stringcbgetsex
 ms.topic: function
-f1_keywords: 
- - "strsafe/StringCbGetsEx"
+f1_keywords:
+- strsafe/StringCbGetsEx
 dev_langs:
- - c++
+- c++
 req.header: strsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Strsafe.h
+- Strsafe.h
 api_name:
- - StringCbGetsEx
- - StringCbGetsExA
- - StringCbGetsExW
+- StringCbGetsEx
+- StringCbGetsExA
+- StringCbGetsExW
 targetos: Windows
 req.typenames: 
 req.redist: 

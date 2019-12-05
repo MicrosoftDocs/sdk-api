@@ -1,19 +1,17 @@
 ---
 UID: NN:pnpxassoc.IPNPXAssociation
 title: IPNPXAssociation (pnpxassoc.h)
-
 description: Defines methods to manage the association database entries for PnP-X devices.
 old-location: ncd\ipnpxassociation.htm
 tech.root: FunDisc
 ms.assetid: 03c1c4cb-fffb-4b4a-963a-200670062f4a
-
 ms.date: 12/05/2018
 ms.keywords: IPNPXAssociation, IPNPXAssociation interface, IPNPXAssociation interface,described, ncd.ipnpxassociation, pnpxassoc/IPNPXAssociation
 ms.topic: interface
-f1_keywords: 
- - "pnpxassoc/IPNPXAssociation"
+f1_keywords:
+- pnpxassoc/IPNPXAssociation
 dev_langs:
- - c++
+- c++
 req.header: pnpxassoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - pnpxassoc.h
+- pnpxassoc.h
 api_name:
- - IPNPXAssociation
+- IPNPXAssociation
 targetos: Windows
 req.typenames: 
 req.redist: 

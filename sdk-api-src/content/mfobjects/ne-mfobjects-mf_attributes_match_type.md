@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects._MF_ATTRIBUTES_MATCH_TYPE
 title: MF_ATTRIBUTES_MATCH_TYPE (mfobjects.h)
-
 description: Specifies how to compare the attributes on two objects.
 old-location: mf\mf_attributes_match_type.htm
 tech.root: medfound
 ms.assetid: cfa534c4-88c3-4170-b977-c24ea5593f6c
-
 ms.date: 12/05/2018
 ms.keywords: MF_ATTRIBUTES_MATCH_ALL_ITEMS, MF_ATTRIBUTES_MATCH_INTERSECTION, MF_ATTRIBUTES_MATCH_OUR_ITEMS, MF_ATTRIBUTES_MATCH_SMALLER, MF_ATTRIBUTES_MATCH_THEIR_ITEMS, MF_ATTRIBUTES_MATCH_TYPE, MF_ATTRIBUTES_MATCH_TYPE enumeration [Media Foundation], cfa534c4-88c3-4170-b977-c24ea5593f6c, mf.mf_attributes_match_type, mfobjects/MF_ATTRIBUTES_MATCH_ALL_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_INTERSECTION, mfobjects/MF_ATTRIBUTES_MATCH_OUR_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_SMALLER, mfobjects/MF_ATTRIBUTES_MATCH_THEIR_ITEMS, mfobjects/MF_ATTRIBUTES_MATCH_TYPE
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MF_ATTRIBUTES_MATCH_TYPE"
+f1_keywords:
+- mfobjects/MF_ATTRIBUTES_MATCH_TYPE
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MF_ATTRIBUTES_MATCH_TYPE
+- MF_ATTRIBUTES_MATCH_TYPE
 targetos: Windows
 req.typenames: MF_ATTRIBUTES_MATCH_TYPE
 req.redist: 

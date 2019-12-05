@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromInt16
 title: InitVariantFromInt16 function (propvarutil.h)
-
 description: Initializes a VARIANT structure with a 16-bit integer value.
 old-location: properties\InitVariantFromInt16.htm
 tech.root: properties
 ms.assetid: 8ccb09bf-a2d2-4637-b8b1-e7abe83b846d
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromInt16, InitVariantFromInt16 function [Windows Properties], _shell_InitVariantFromInt16, properties.InitVariantFromInt16, propvarutil/InitVariantFromInt16, shell.InitVariantFromInt16
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromInt16"
+f1_keywords:
+- propvarutil/InitVariantFromInt16
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - InitVariantFromInt16
+- InitVariantFromInt16
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

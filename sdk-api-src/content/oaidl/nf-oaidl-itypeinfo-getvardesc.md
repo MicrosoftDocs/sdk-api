@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetVarDesc
 title: ITypeInfo::GetVarDesc (oaidl.h)
-
 description: Retrieves a VARDESC structure that describes the specified variable.
 old-location: automat\itypeinfo_getvardesc.htm
 tech.root: automat
 ms.assetid: c4226d33-37ec-4e9a-87ce-92c4ff0e6cb3
-
 ms.date: 12/05/2018
 ms.keywords: GetVarDesc, GetVarDesc method [Automation], GetVarDesc method [Automation],ITypeInfo interface, ITypeInfo interface [Automation],GetVarDesc method, ITypeInfo.GetVarDesc, ITypeInfo::GetVarDesc, _oa96_ITypeInfo_GetVarDesc, automat.itypeinfo_getvardesc, oaidl/ITypeInfo::GetVarDesc
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeInfo.GetVarDesc"
+f1_keywords:
+- oaidl/ITypeInfo.GetVarDesc
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeInfo.GetVarDesc
+- ITypeInfo.GetVarDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

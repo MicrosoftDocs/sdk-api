@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IPlaybackControl.FinalClientRetry
 title: IPlaybackControl::FinalClientRetry (comsvcs.h)
-
 description: Informs the client-side exception handling component that all Message Queuing attempts to deliver the message to the server were rejected. The message ended up on the client-side Xact dead letter queue.
 old-location: cos\iplaybackcontrol_finalclientretry.htm
 tech.root: cossdk
 ms.assetid: 3fa51832-0e68-4e76-bbdb-ce54f76fbae6
-
 ms.date: 12/05/2018
 ms.keywords: FinalClientRetry, FinalClientRetry method [COM+], FinalClientRetry method [COM+],IPlaybackControl interface, IPlaybackControl interface [COM+],FinalClientRetry method, IPlaybackControl.FinalClientRetry, IPlaybackControl::FinalClientRetry, _cos_IPlaybackControl_FinalClientRetry, comsvcs/IPlaybackControl::FinalClientRetry, cos.iplaybackcontrol_finalclientretry
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IPlaybackControl.FinalClientRetry"
+f1_keywords:
+- comsvcs/IPlaybackControl.FinalClientRetry
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IPlaybackControl.FinalClientRetry
+- IPlaybackControl.FinalClientRetry
 targetos: Windows
 req.typenames: 
 req.redist: 

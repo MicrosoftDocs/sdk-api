@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrRChrW
 title: StrRChrW function (shlwapi.h)
-
 description: Searches a string for the last occurrence of a specified character. The comparison is case-sensitive.
 old-location: shell\StrRChr.htm
 tech.root: shell
 ms.assetid: 7f1e91ad-aaa0-4449-834e-8e309c88d6b1
-
 ms.date: 12/05/2018
 ms.keywords: StrRChr, StrRChr function [Windows Shell], StrRChrA, StrRChrW, _win32_StrRChr, shell.StrRChr, shlwapi/StrRChr, shlwapi/StrRChrA, shlwapi/StrRChrW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrRChr"
+f1_keywords:
+- shlwapi/StrRChr
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrRChr
- - StrRChrA
- - StrRChrW
+- StrRChr
+- StrRChrA
+- StrRChrW
 targetos: Windows
 req.typenames: 
 req.redist: 

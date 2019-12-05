@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagSoHAttribute
 title: SoHAttribute (naptypes.h)
-
 description: Defines the SoH protocol between the SHA/SHV and the NAP system.
 old-location: nap\sohattribute_struct.htm
 tech.root: NAP
 ms.assetid: cd954277-27e0-47f4-b4c3-f5335925b8fd
-
 ms.date: 12/05/2018
 ms.keywords: SoHAttribute, SoHAttribute structure [NAP], nap.sohattribute_struct, naptypes/SoHAttribute
 ms.topic: struct
-f1_keywords: 
- - "naptypes/SoHAttribute"
+f1_keywords:
+- naptypes/SoHAttribute
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - SoHAttribute
+- SoHAttribute
 targetos: Windows
 req.typenames: SoHAttribute
 req.redist: 

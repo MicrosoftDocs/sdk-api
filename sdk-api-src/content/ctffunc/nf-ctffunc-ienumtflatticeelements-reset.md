@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Reset
 title: IEnumTfLatticeElements::Reset (ctffunc.h)
-
 description: IEnumTfLatticeElements::Reset method
 old-location: tsf\ienumtflatticeelements_reset.htm
 tech.root: TSF
 ms.assetid: 9b4b7479-33e9-4bff-8e18-f4e03060dc73
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTfLatticeElements interface [Text Services Framework],Reset method, IEnumTfLatticeElements.Reset, IEnumTfLatticeElements::Reset, Reset, Reset method [Text Services Framework], Reset method [Text Services Framework],IEnumTfLatticeElements interface, _tsf_ienumtflatticeelements_reset_ref, ctffunc/IEnumTfLatticeElements::Reset, tsf.ienumtflatticeelements_reset
 ms.topic: method
-f1_keywords: 
- - "ctffunc/IEnumTfLatticeElements.Reset"
+f1_keywords:
+- ctffunc/IEnumTfLatticeElements.Reset
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sptip.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sptip.dll
+- Sptip.dll
 api_name:
- - IEnumTfLatticeElements.Reset
+- IEnumTfLatticeElements.Reset
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

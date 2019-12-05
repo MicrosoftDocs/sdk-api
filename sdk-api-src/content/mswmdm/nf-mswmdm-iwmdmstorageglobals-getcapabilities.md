@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageGlobals.GetCapabilities
 title: IWMDMStorageGlobals::GetCapabilities (mswmdm.h)
-
 description: The GetCapabilities method retrieves the capabilities of the root storage medium.
 old-location: wmdm\iwmdmstorageglobals_getcapabilities.htm
 tech.root: WMDM
 ms.assetid: 0eea5448-f43d-4181-a497-476957fa7a08
-
 ms.date: 12/05/2018
 ms.keywords: GetCapabilities, GetCapabilities method [windows Media Device Manager], GetCapabilities method [windows Media Device Manager],IWMDMStorageGlobals interface, IWMDMStorageGlobals interface [windows Media Device Manager],GetCapabilities method, IWMDMStorageGlobals.GetCapabilities, IWMDMStorageGlobals::GetCapabilities, IWMDMStorageGlobalsGetCapabilities, mswmdm/IWMDMStorageGlobals::GetCapabilities, wmdm.iwmdmstorageglobals_getcapabilities
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageGlobals.GetCapabilities"
+f1_keywords:
+- mswmdm/IWMDMStorageGlobals.GetCapabilities
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageGlobals.GetCapabilities
+- IWMDMStorageGlobals.GetCapabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

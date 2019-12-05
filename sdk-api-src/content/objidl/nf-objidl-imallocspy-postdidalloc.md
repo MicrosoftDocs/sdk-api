@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMallocSpy.PostDidAlloc
 title: IMallocSpy::PostDidAlloc (objidl.h)
-
 description: Performs operations required after calling IMalloc::DidAlloc.
 old-location: com\imallocspy_postdidalloc.htm
 tech.root: com
 ms.assetid: 820ff316-9edd-4894-8461-fc532d439348
-
 ms.date: 12/05/2018
 ms.keywords: IMallocSpy interface [COM],PostDidAlloc method, IMallocSpy.PostDidAlloc, IMallocSpy::PostDidAlloc, PostDidAlloc, PostDidAlloc method [COM], PostDidAlloc method [COM],IMallocSpy interface, _com_imallocspy_postdidalloc, com.imallocspy_postdidalloc, objidl/IMallocSpy::PostDidAlloc
 ms.topic: method
-f1_keywords: 
- - "objidl/IMallocSpy.PostDidAlloc"
+f1_keywords:
+- objidl/IMallocSpy.PostDidAlloc
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMallocSpy.PostDidAlloc
+- IMallocSpy.PostDidAlloc
 targetos: Windows
 req.typenames: 
 req.redist: 

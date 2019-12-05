@@ -1,19 +1,17 @@
 ---
 UID: NF:projectedfslib.PrjGetOnDiskFileState
 title: PrjGetOnDiskFileState function (projectedfslib.h)
-
 description: Gets the on-disk file state for a file or directory.
 old-location: projfs\prjgetondiskfilestate.htm
 tech.root: ProjFS
 ms.assetid: E302C472-1360-43D9-8AB9-26C93F97F00F
-
 ms.date: 12/05/2018
 ms.keywords: PrjGetOnDiskFileState, PrjGetOnDiskFileState function, ProjFS.prjgetondiskfilestate, projectedfslib/PrjGetOnDiskFileState
 ms.topic: function
-f1_keywords: 
- - "projectedfslib/PrjGetOnDiskFileState"
+f1_keywords:
+- projectedfslib/PrjGetOnDiskFileState
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - projectedfslib.h
+- projectedfslib.h
 api_name:
- - PrjGetOnDiskFileState
+- PrjGetOnDiskFileState
 targetos: Windows
 req.typenames: 
 req.redist: 

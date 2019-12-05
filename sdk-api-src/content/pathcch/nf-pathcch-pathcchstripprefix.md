@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchStripPrefix
 title: PathCchStripPrefix function (pathcch.h)
-
 description: Removes the &#0034;\\?\&#0034; prefix, if present, from a file path.
 old-location: shell\PathCchStripPrefix.htm
 tech.root: shell
 ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026
-
 ms.date: 12/05/2018
 ms.keywords: PathCchStripPrefix, PathCchStripPrefix function [Windows Shell], pathcch/PathCchStripPrefix, shell.PathCchStripPrefix
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchStripPrefix"
+f1_keywords:
+- pathcch/PathCchStripPrefix
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchStripPrefix
+- PathCchStripPrefix
 targetos: Windows
 req.typenames: 
 req.redist: 

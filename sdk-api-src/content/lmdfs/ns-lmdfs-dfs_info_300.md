@@ -1,19 +1,17 @@
 ---
 UID: NS:lmdfs._DFS_INFO_300
 title: DFS_INFO_300 (lmdfs.h)
-
 description: Contains the name and type (domain-based or stand-alone) of a DFS namespace.
 old-location: dfs\dfs_info_300_str.htm
 tech.root: Dfs
 ms.assetid: b418517a-9313-49e9-a679-69b02f4ee37f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDFS_INFO_300, *PDFS_INFO_300, DFS_INFO_300, DFS_INFO_300 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, LPDFS_INFO_300, LPDFS_INFO_300 structure pointer [Distributed File System], PDFS_INFO_300, PDFS_INFO_300 structure pointer [Distributed File System], _win32_dfs_info_300_str, dfs.dfs_info_300_str, fs.dfs_info_300_str, lmdfs/DFS_INFO_300, lmdfs/LPDFS_INFO_300, lmdfs/PDFS_INFO_300, netmgmt.dfs_info_300_str"
+ms.keywords: '*LPDFS_INFO_300, *PDFS_INFO_300, DFS_INFO_300, DFS_INFO_300 structure [Distributed File System], DFS_VOLUME_FLAVOR_AD_BLOB, DFS_VOLUME_FLAVOR_STANDALONE, LPDFS_INFO_300, LPDFS_INFO_300 structure pointer [Distributed File System], PDFS_INFO_300, PDFS_INFO_300 structure pointer [Distributed File System], _win32_dfs_info_300_str, dfs.dfs_info_300_str, fs.dfs_info_300_str, lmdfs/DFS_INFO_300, lmdfs/LPDFS_INFO_300, lmdfs/PDFS_INFO_300, netmgmt.dfs_info_300_str'
 ms.topic: struct
-f1_keywords: 
- - "lmdfs/DFS_INFO_300"
+f1_keywords:
+- lmdfs/DFS_INFO_300
 dev_langs:
- - c++
+- c++
 req.header: lmdfs.h
 req.include-header: LmDfs.h, Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - LmDfs.h
+- LmDfs.h
 api_name:
- - DFS_INFO_300
+- DFS_INFO_300
 targetos: Windows
 req.typenames: DFS_INFO_300, *PDFS_INFO_300, *LPDFS_INFO_300
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRoamingText
 title: IMbnRegistration::GetRoamingText (mbnapi.h)
-
 description: Gets the roaming text describing the roaming provider.
 old-location: mbn\imbnregistration_getroamingtext.htm
 tech.root: mbn
 ms.assetid: a2911387-7497-43c5-bc1c-db093f31186c
-
 ms.date: 12/05/2018
 ms.keywords: GetRoamingText, GetRoamingText method [Microsoft Broadband Networks], GetRoamingText method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRoamingText method, IMbnRegistration.GetRoamingText, IMbnRegistration::GetRoamingText, mbn.imbnregistration_getroamingtext, mbnapi/IMbnRegistration::GetRoamingText
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetRoamingText"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetRoamingText
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetRoamingText
+- IMbnRegistration.GetRoamingText
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.Paste
 title: ITextRange::Paste (tom.h)
-
 description: Pastes text from a specified data object.
 old-location: controls\ITextRange_Paste.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\paste.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],Paste method, ITextRange.Paste, ITextRange::Paste, Paste, Paste method [Windows Controls], Paste method [Windows Controls],ITextRange interface, _win32_ITextRange_Paste, _win32_ITextRange_Paste_cpp, controls.ITextRange_Paste, controls._win32_ITextRange_Paste, tom/ITextRange::Paste
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.Paste"
+f1_keywords:
+- tom/ITextRange.Paste
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.Paste
+- ITextRange.Paste
 targetos: Windows
 req.typenames: 
 req.redist: 

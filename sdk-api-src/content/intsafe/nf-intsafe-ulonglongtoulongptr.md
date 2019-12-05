@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.ULongLongToULongPtr
 title: ULongLongToULongPtr function (intsafe.h)
-
 description: Converts a value of type ULONGLONG to a value of type ULONG_PTR.
 old-location: shell\ULongLongToULongPtr.htm
 tech.root: shell
 ms.assetid: 6c95e1ab-2eab-4c10-b1f6-812f34b8214c
-
 ms.date: 12/05/2018
 ms.keywords: ULongLongToDWordPtr, ULongLongToSSIZET, ULongLongToULongPtr, ULongLongToULongPtr function [Windows Shell], _shell_ULongLongToULongPtr, intsafe/ULongLongToULongPtr, shell.ULongLongToULongPtr
 ms.topic: function
-f1_keywords: 
- - "intsafe/ULongLongToULongPtr"
+f1_keywords:
+- intsafe/ULongLongToULongPtr
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - ULongLongToULongPtr
+- ULongLongToULongPtr
 targetos: Windows
 req.typenames: 
 req.redist: 

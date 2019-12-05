@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetUpdatedClipboardFormats
 title: GetUpdatedClipboardFormats function (winuser.h)
-
 description: Retrieves the currently supported clipboard formats.
 old-location: dataxchg\getupdatedclipboardformats.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getupdatedclipboardformats.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdatedClipboardFormats, GetUpdatedClipboardFormats function [Data Exchange], _win32_GetUpdatedClipboardFormats, _win32_getupdatedclipboardformats_cpp, dataxchg.getupdatedclipboardformats, winui._win32_getupdatedclipboardformats, winuser/GetUpdatedClipboardFormats
 ms.topic: function
-f1_keywords: 
- - "winuser/GetUpdatedClipboardFormats"
+f1_keywords:
+- winuser/GetUpdatedClipboardFormats
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - GetUpdatedClipboardFormats
+- GetUpdatedClipboardFormats
 targetos: Windows
 req.typenames: 
 req.redist: 

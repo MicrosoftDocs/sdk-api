@@ -1,19 +1,17 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.DeleteSnapshots
 title: IVssBackupComponents::DeleteSnapshots (vsbackup.h)
-
 description: The DeleteSnapshots method deletes one or more shadow copies or a shadow copy set.
 old-location: base\ivssbackupcomponents_deletesnapshots.htm
 tech.root: VSS
 ms.assetid: 2e06f69e-8210-4773-8080-5c58e6f59792
-
 ms.date: 12/05/2018
 ms.keywords: DeleteSnapshots, DeleteSnapshots method [VSS], DeleteSnapshots method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],DeleteSnapshots method, IVssBackupComponents.DeleteSnapshots, IVssBackupComponents::DeleteSnapshots, _win32_ivssbackupcomponents_deletesnapshots, base.ivssbackupcomponents_deletesnapshots, vsbackup/IVssBackupComponents::DeleteSnapshots
 ms.topic: method
-f1_keywords: 
- - "vsbackup/IVssBackupComponents.DeleteSnapshots"
+f1_keywords:
+- vsbackup/IVssBackupComponents.DeleteSnapshots
 dev_langs:
- - c++
+- c++
 req.header: vsbackup.h
 req.include-header: VsBackup.h, Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssBackupComponents.DeleteSnapshots
+- IVssBackupComponents.DeleteSnapshots
 targetos: Windows
 req.typenames: 
 req.redist: 

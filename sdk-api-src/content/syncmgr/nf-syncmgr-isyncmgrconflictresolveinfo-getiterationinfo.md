@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.GetIterationInfo
 title: ISyncMgrConflictResolveInfo::GetIterationInfo (syncmgr.h)
-
 description: Gets information about which conflict in a set of conflicts is being resolved.
 old-location: shell\ISyncMgrConflictResolveInfo_GetIterationInfo.htm
 tech.root: shell
 ms.assetid: ac22d346-3012-41b0-a655-062f501af621
-
 ms.date: 12/05/2018
 ms.keywords: GetIterationInfo, GetIterationInfo method [Windows Shell], GetIterationInfo method [Windows Shell],ISyncMgrConflictResolveInfo interface, ISyncMgrConflictResolveInfo interface [Windows Shell],GetIterationInfo method, ISyncMgrConflictResolveInfo.GetIterationInfo, ISyncMgrConflictResolveInfo::GetIterationInfo, _shell_ISyncMgrConflictResolveInfo_GetIterationInfo, shell.ISyncMgrConflictResolveInfo_GetIterationInfo, syncmgr/ISyncMgrConflictResolveInfo::GetIterationInfo
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrConflictResolveInfo.GetIterationInfo"
+f1_keywords:
+- syncmgr/ISyncMgrConflictResolveInfo.GetIterationInfo
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo.GetIterationInfo
+- ISyncMgrConflictResolveInfo.GetIterationInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

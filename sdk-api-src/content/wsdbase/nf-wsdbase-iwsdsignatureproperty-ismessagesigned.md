@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDSignatureProperty.IsMessageSigned
 title: IWSDSignatureProperty::IsMessageSigned (wsdbase.h)
-
 description: Specifies if a message is signed.
 old-location: ncd\iwsdsignatureproperty_ismessagesigned.htm
 tech.root: WsdApi
 ms.assetid: ca91bb1e-b8a6-4cfe-850c-887b39ae239e
-
 ms.date: 12/05/2018
 ms.keywords: IWSDSignatureProperty interface,IsMessageSigned method, IWSDSignatureProperty.IsMessageSigned, IWSDSignatureProperty::IsMessageSigned, IsMessageSigned, IsMessageSigned method, IsMessageSigned method,IWSDSignatureProperty interface, ncd.iwsdsignatureproperty_ismessagesigned, wsdbase/IWSDSignatureProperty::IsMessageSigned
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDSignatureProperty.IsMessageSigned"
+f1_keywords:
+- wsdbase/IWSDSignatureProperty.IsMessageSigned
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wsdapi.dll
+- wsdapi.dll
 api_name:
- - IWSDSignatureProperty.IsMessageSigned
+- IWSDSignatureProperty.IsMessageSigned
 targetos: Windows
 req.typenames: 
 req.redist: 

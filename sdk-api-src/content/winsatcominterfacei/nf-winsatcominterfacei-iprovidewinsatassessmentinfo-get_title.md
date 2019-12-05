@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IProvideWinSATAssessmentInfo.get_Title
 title: IProvideWinSATAssessmentInfo::get_Title (winsatcominterfacei.h)
-
 description: Retrieves the title of the subcomponent.
 old-location: winsat\iprovidewinsatassessmentinfo_title.htm
 tech.root: WinSAT
 ms.assetid: 11c9c59f-97d6-41d1-ab0e-7901e126b07c
-
 ms.date: 12/05/2018
 ms.keywords: IProvideWinSATAssessmentInfo interface [WinSAT],Title property, IProvideWinSATAssessmentInfo.Title, IProvideWinSATAssessmentInfo.get_Title, IProvideWinSATAssessmentInfo::Title, IProvideWinSATAssessmentInfo::get_Title, Title property [WinSAT], Title property [WinSAT],IProvideWinSATAssessmentInfo interface, get_Title, winsat.iprovidewinsatassessmentinfo_title, winsatcominterfacei/IProvideWinSATAssessmentInfo::Title, winsatcominterfacei/IProvideWinSATAssessmentInfo::get_Title
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IProvideWinSATAssessmentInfo.Title"
+f1_keywords:
+- winsatcominterfacei/IProvideWinSATAssessmentInfo.Title
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IProvideWinSATAssessmentInfo.Title
- - IProvideWinSATAssessmentInfo.get_Title
+- IProvideWinSATAssessmentInfo.Title
+- IProvideWinSATAssessmentInfo.get_Title
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.get_ModuleImplementation
 title: IFsrmPipelineModuleConnector::get_ModuleImplementation (fsrmpipeline.h)
-
 description: The interface that implements the pipeline module.
 old-location: fsrm\ifsrmpipelinemoduleconnector_moduleimplementation.htm
 tech.root: fsrm
 ms.assetid: 0399ffd6-39c1-40fe-8cfa-c627bbd59680
-
 ms.date: 12/05/2018
 ms.keywords: FsrmPipelineModuleConnector class [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector interface [File Server Resource Manager],ModuleImplementation property, IFsrmPipelineModuleConnector.ModuleImplementation, IFsrmPipelineModuleConnector.get_ModuleImplementation, IFsrmPipelineModuleConnector::ModuleImplementation, IFsrmPipelineModuleConnector::get_ModuleImplementation, ModuleImplementation property [File Server Resource Manager], ModuleImplementation property [File Server Resource Manager],FsrmPipelineModuleConnector class, ModuleImplementation property [File Server Resource Manager],IFsrmPipelineModuleConnector interface, fs.ifsrmpipelinemoduleconnector_moduleimplementation, fsrm.ifsrmpipelinemoduleconnector_moduleimplementation, fsrmpipeline/IFsrmPipelineModuleConnector::ModuleImplementation, fsrmpipeline/IFsrmPipelineModuleConnector::get_ModuleImplementation, get_ModuleImplementation
 ms.topic: method
-f1_keywords: 
- - "fsrmpipeline/IFsrmPipelineModuleConnector.ModuleImplementation"
+f1_keywords:
+- fsrmpipeline/IFsrmPipelineModuleConnector.ModuleImplementation
 dev_langs:
- - c++
+- c++
 req.header: fsrmpipeline.h
 req.include-header: FsrmPipeline.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleConnector.ModuleImplementation
- - IFsrmPipelineModuleConnector.get_ModuleImplementation
- - FsrmPipelineModuleConnector.ModuleImplementation
+- IFsrmPipelineModuleConnector.ModuleImplementation
+- IFsrmPipelineModuleConnector.get_ModuleImplementation
+- FsrmPipelineModuleConnector.ModuleImplementation
 targetos: Windows
 req.typenames: 
 req.redist: 

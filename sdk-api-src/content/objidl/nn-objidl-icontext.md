@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IContext
 title: IContext (objidl.h)
-
 description: Supports setting COM+ context properties.
 old-location: com\icontext.htm
 tech.root: com
 ms.assetid: 89c41d9c-186c-4927-990d-92aa501f7d35
-
 ms.date: 12/05/2018
 ms.keywords: IContext, IContext interface [COM], IContext interface [COM],described, _com_icontext, com.icontext, objidlbase/IContext
 ms.topic: interface
-f1_keywords: 
- - "objidl/IContext"
+f1_keywords:
+- objidl/IContext
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IContext
+- IContext
 targetos: Windows
 req.typenames: 
 req.redist: 

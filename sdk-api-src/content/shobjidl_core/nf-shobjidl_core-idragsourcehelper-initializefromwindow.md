@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDragSourceHelper.InitializeFromWindow
 title: IDragSourceHelper::InitializeFromWindow (shobjidl_core.h)
-
 description: Initializes the drag-image manager for a control with a window.
 old-location: shell\IDragSourceHelper_InitializeFromWindow.htm
 tech.root: shell
 ms.assetid: 0bcdfe92-cec0-44f3-a345-5b560d52fae9
-
 ms.date: 12/05/2018
 ms.keywords: IDragSourceHelper interface [Windows Shell],InitializeFromWindow method, IDragSourceHelper.InitializeFromWindow, IDragSourceHelper::InitializeFromWindow, InitializeFromWindow, InitializeFromWindow method [Windows Shell], InitializeFromWindow method [Windows Shell],IDragSourceHelper interface, _win32_IDragSourceHelper_InitializeFromWindow, shell.IDragSourceHelper_InitializeFromWindow, shobjidl_core/IDragSourceHelper::InitializeFromWindow
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDragSourceHelper.InitializeFromWindow"
+f1_keywords:
+- shobjidl_core/IDragSourceHelper.InitializeFromWindow
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDragSourceHelper.InitializeFromWindow
+- IDragSourceHelper.InitializeFromWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

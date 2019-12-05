@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyPnPActivity
 title: IDiscMasterProgressEvents::NotifyPnPActivity (imapi.h)
-
 description: Notifies the application that there is a change to the list of valid disc recorders. (For example, a USB CD-R driver is removed from the system.).
 old-location: imapi\idiscmasterprogressevents_notifypnpactivity.htm
 tech.root: imapi
 ms.assetid: d2b41e86-2f1b-46f1-955d-7fc42f8189a4
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyPnPActivity method, IDiscMasterProgressEvents.NotifyPnPActivity, IDiscMasterProgressEvents::NotifyPnPActivity, NotifyPnPActivity, NotifyPnPActivity method [IMAPI], NotifyPnPActivity method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifypnpactivity, base.idiscmasterprogressevents_notifypnpactivity, imapi.idiscmasterprogressevents_notifypnpactivity, imapi/IDiscMasterProgressEvents::NotifyPnPActivity
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMasterProgressEvents.NotifyPnPActivity"
+f1_keywords:
+- imapi/IDiscMasterProgressEvents.NotifyPnPActivity
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.NotifyPnPActivity
+- IDiscMasterProgressEvents.NotifyPnPActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

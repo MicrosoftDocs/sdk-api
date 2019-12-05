@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetContentType
 title: IXpsOMCoreProperties::GetContentType (xpsobjectmodel.h)
-
 description: Gets the contentType property.
 old-location: xps\ixpsomcoreproperties_getcontenttype.htm
 tech.root: printdocs
 ms.assetid: 2a032cd7-90b3-427c-bbdf-2265f15c6f23
-
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [XPS Documents and Packaging], GetContentType method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentType method, IXpsOMCoreProperties.GetContentType, IXpsOMCoreProperties::GetContentType, xps.ixpsomcoreproperties_getcontenttype, xpsobjectmodel/IXpsOMCoreProperties::GetContentType
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetContentType"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetContentType
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetContentType
+- IXpsOMCoreProperties.GetContentType
 targetos: Windows
 req.typenames: 
 req.redist: 

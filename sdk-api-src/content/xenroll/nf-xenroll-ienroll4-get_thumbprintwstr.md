@@ -1,19 +1,17 @@
 ---
 UID: NF:xenroll.IEnroll4.get_ThumbPrintWStr
 title: IEnroll4::get_ThumbPrintWStr (xenroll.h)
-
 description: Sets or retrieves a hash of the certificate data. The thumbprint is used to point to the pending certificate.
 old-location: security\ienroll4_thumbprintwstr.htm
 tech.root: SecCrypto
 ms.assetid: 3682e83d-8c3c-42fa-b743-0b149c956339
-
 ms.date: 12/05/2018
 ms.keywords: IEnroll4 interface [Security],ThumbPrintWStr property, IEnroll4.ThumbPrintWStr, IEnroll4.get_ThumbPrintWStr, IEnroll4::ThumbPrintWStr, IEnroll4::get_ThumbPrintWStr, IEnroll4::put_ThumbPrintWStr, ThumbPrintWStr property [Security], ThumbPrintWStr property [Security],IEnroll4 interface, get_ThumbPrintWStr, security.ienroll4_thumbprintwstr, xenroll/IEnroll4::ThumbPrintWStr, xenroll/IEnroll4::get_ThumbPrintWStr, xenroll/IEnroll4::put_ThumbPrintWStr
 ms.topic: method
-f1_keywords: 
- - "xenroll/IEnroll4.ThumbPrintWStr"
+f1_keywords:
+- xenroll/IEnroll4.ThumbPrintWStr
 dev_langs:
- - c++
+- c++
 req.header: xenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Uuid.lib
 req.dll: Xenroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xenroll.dll
+- Xenroll.dll
 api_name:
- - IEnroll4.ThumbPrintWStr
- - IEnroll4.get_ThumbPrintWStr
- - IEnroll4.put_ThumbPrintWStr
+- IEnroll4.ThumbPrintWStr
+- IEnroll4.get_ThumbPrintWStr
+- IEnroll4.put_ThumbPrintWStr
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetLocalGroupSetMembers
 title: NetLocalGroupSetMembers function (lmaccess.h)
-
 description: The NetLocalGroupSetMembers function sets the membership for the specified local group.
 old-location: netmgmt\netlocalgroupsetmembers.htm
 tech.root: NetMgmt
 ms.assetid: 4dce1e10-b74d-4d69-ac5a-12e7d9d84e5c
-
 ms.date: 12/05/2018
 ms.keywords: 0, 3, NetLocalGroupSetMembers, NetLocalGroupSetMembers function [Network Management], _win32_netlocalgroupsetmembers, lmaccess/NetLocalGroupSetMembers, netmgmt.netlocalgroupsetmembers
 ms.topic: function
 f1_keywords:
 - lmaccess/NetLocalGroupSetMembers
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows

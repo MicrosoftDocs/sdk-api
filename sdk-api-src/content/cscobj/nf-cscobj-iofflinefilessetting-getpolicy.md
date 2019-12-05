@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPolicy
 title: IOfflineFilesSetting::GetPolicy (cscobj.h)
-
 description: Retrieves a policy associated with a particular Offline Files setting.
 old-location: of\iofflinefilessetting_getpolicy.htm
 tech.root: offlinefiles
 ms.assetid: b7f7f8f5-2640-4770-a7ba-230cca8a9575
-
 ms.date: 12/05/2018
 ms.keywords: GetPolicy, GetPolicy method [Offline Files], GetPolicy method [Offline Files],IOfflineFilesSetting interface, IOfflineFilesSetting interface [Offline Files],GetPolicy method, IOfflineFilesSetting.GetPolicy, IOfflineFilesSetting::GetPolicy, OFFLINEFILES_SETTING_SCOPE_COMPUTER, OFFLINEFILES_SETTING_SCOPE_USER, cscobj/IOfflineFilesSetting::GetPolicy, of.iofflinefilessetting_getpolicy
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesSetting.GetPolicy"
+f1_keywords:
+- cscobj/IOfflineFilesSetting.GetPolicy
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesSetting.GetPolicy
+- IOfflineFilesSetting.GetPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

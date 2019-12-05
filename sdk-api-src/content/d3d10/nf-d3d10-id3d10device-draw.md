@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.Draw
 title: ID3D10Device::Draw (d3d10.h)
-
 description: Draw non-indexed, non-instanced primitives.
 old-location: direct3d10\id3d10device_draw.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_draw.htm
-
 ms.date: 12/05/2018
 ms.keywords: 32601c9d-0f76-a5ab-559a-a11064280174, Draw, Draw method [Direct3D 10], Draw method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],Draw method, ID3D10Device.Draw, ID3D10Device::Draw, d3d10/ID3D10Device::Draw, direct3d10.id3d10device_draw
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.Draw"
+f1_keywords:
+- d3d10/ID3D10Device.Draw
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.Draw
+- ID3D10Device.Draw
 targetos: Windows
 req.typenames: 
 req.redist: 

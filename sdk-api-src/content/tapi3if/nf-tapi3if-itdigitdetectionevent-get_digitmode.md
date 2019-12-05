@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITDigitDetectionEvent.get_DigitMode
 title: ITDigitDetectionEvent::get_DigitMode (tapi3if.h)
-
 description: The get_DigitMode method gets the indicator of the line digit mode, such as LINEDIGITMODE_DTMF.
 old-location: tapi3\itdigitdetectionevent_get_digitmode.htm
 tech.root: Tapi
 ms.assetid: 7eeda641-9155-4628-b4b2-2d427a255d7c
-
 ms.date: 12/05/2018
 ms.keywords: ITDigitDetectionEvent interface [TAPI 2.2],get_DigitMode method, ITDigitDetectionEvent.get_DigitMode, ITDigitDetectionEvent::get_DigitMode, _tapi3_itdigitdetectionevent_get_digitmode, get_DigitMode, get_DigitMode method [TAPI 2.2], get_DigitMode method [TAPI 2.2],ITDigitDetectionEvent interface, tapi3.itdigitdetectionevent_get_digitmode, tapi3if/ITDigitDetectionEvent::get_DigitMode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITDigitDetectionEvent.get_DigitMode"
+f1_keywords:
+- tapi3if/ITDigitDetectionEvent.get_DigitMode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITDigitDetectionEvent.get_DigitMode
+- ITDigitDetectionEvent.get_DigitMode
 targetos: Windows
 req.typenames: 
 req.redist: 

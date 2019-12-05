@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IGridItemProvider
 title: IGridItemProvider (uiautomationcore.h)
-
 description: Provides access to individual child controls of containers that implement IGridProvider.
 old-location: winauto\uiauto_IGridItemProvider.htm
 tech.root: WinAuto
 ms.assetid: 334a10f1-8bfc-4935-9eee-6176a3e8a4f1
-
 ms.date: 12/05/2018
 ms.keywords: IGridItemProvider, IGridItemProvider interface [Windows Accessibility], IGridItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IGridItemProvider, uiauto_IGridItemProvider, uiautomationcore/IGridItemProvider, winauto.uiauto_IGridItemProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IGridItemProvider"
+f1_keywords:
+- uiautomationcore/IGridItemProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IGridItemProvider
+- IGridItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

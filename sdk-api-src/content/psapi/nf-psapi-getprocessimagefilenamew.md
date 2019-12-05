@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.GetProcessImageFileNameW
 title: GetProcessImageFileNameW function (psapi.h)
-
 description: Retrieves the name of the executable file for the specified process.
 old-location: psapi\getprocessimagefilename.htm
 tech.root: psapi
 ms.assetid: 819fc2f4-0801-417b-9cbb-d7fd2894634e
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessImageFileName, GetProcessImageFileName function [PSAPI], GetProcessImageFileNameA, GetProcessImageFileNameW, K32GetProcessImageFileName, K32GetProcessImageNameA, K32GetProcessImageNameW, _win32_getprocessimagefilename, base.getprocessimagefilename, psapi.getprocessimagefilename, psapi/GetProcessImageFileName, psapi/GetProcessImageFileNameA, psapi/GetProcessImageFileNameW, psapi/K32GetProcessImageFileName, psapi/K32GetProcessImageNameA, psapi/K32GetProcessImageNameW
 ms.topic: function
-f1_keywords: 
- - "psapi/GetProcessImageFileName"
+f1_keywords:
+- psapi/GetProcessImageFileName
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib on Windows 7 and Windows Server 2008 R2; Psapi.lib (if 
 req.dll: Kernel32.dll on Windows 7 and Windows Server 2008 R2; Psapi.dll (if PSAPI_VERSION=1) on Windows 7 and Windows Server 2008 R2; Psapi.dll on Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - Psapi.dll
- - Psapi.dll
+- Kernel32.dll
+- Psapi.dll
+- Psapi.dll
 api_name:
- - GetProcessImageFileName
- - GetProcessImageFileNameA
- - GetProcessImageFileNameW
- - K32GetProcessImageFileName
- - K32GetProcessImageNameW
- - K32GetProcessImageNameA
+- GetProcessImageFileName
+- GetProcessImageFileNameA
+- GetProcessImageFileNameW
+- K32GetProcessImageFileName
+- K32GetProcessImageNameW
+- K32GetProcessImageNameA
 targetos: Windows
 req.typenames: 
 req.redist: 

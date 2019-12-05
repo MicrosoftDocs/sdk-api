@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocationReport.GetTimestamp
 title: ILocationReport::GetTimestamp (locationapi.h)
-
 description: Retrieves the date and time when the report was generated.
 old-location: winlocation_com_ref\ilocationreport_gettimestamp.htm
 tech.root: locationapi
 ms.assetid: 3573b2e7-fa76-4819-894d-d1215dc625bc
-
 ms.date: 12/05/2018
 ms.keywords: GetTimestamp, GetTimestamp method [WinLocation], GetTimestamp method [WinLocation],ILocationReport interface, ILocationReport interface [WinLocation],GetTimestamp method, ILocationReport.GetTimestamp, ILocationReport::GetTimestamp, WinLocation_COM_Ref.ilocationreport_gettimestamp, locationapi/ILocationReport::GetTimestamp
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocationReport.GetTimestamp"
+f1_keywords:
+- locationapi/ILocationReport.GetTimestamp
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocationReport.GetTimestamp
+- ILocationReport.GetTimestamp
 targetos: Windows
 req.typenames: 
 req.redist: 

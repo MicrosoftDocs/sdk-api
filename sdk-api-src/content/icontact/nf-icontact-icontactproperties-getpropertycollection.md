@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.GetPropertyCollection
 title: IContactProperties::GetPropertyCollection (icontact.h)
-
 description: Returns an IContactPropertyCollection for the current contact. Optionally, filters the IContactPropertyCollection to enumerate only some values.
 old-location: wincontacts\_wincontacts_IContactProperties_GetPropertyCollection.htm
 tech.root: wincontacts
 ms.assetid: 12ef5ff0-ac87-4475-86b3-31a6379ffb4e
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyCollection, GetPropertyCollection method [Windows Contacts], GetPropertyCollection method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetPropertyCollection method, IContactProperties.GetPropertyCollection, IContactProperties::GetPropertyCollection, _wincontacts_IContactProperties_GetPropertyCollection, icontact/IContactProperties::GetPropertyCollection, wincontacts._wincontacts_IContactProperties_GetPropertyCollection
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.GetPropertyCollection"
+f1_keywords:
+- icontact/IContactProperties.GetPropertyCollection
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.GetPropertyCollection
+- IContactProperties.GetPropertyCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

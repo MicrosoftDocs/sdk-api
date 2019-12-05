@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFByteStream.BeginRead
 title: IMFByteStream::BeginRead (mfobjects.h)
-
 description: Begins an asynchronous read operation from the stream.
 old-location: mf\imfbytestream_beginread.htm
 tech.root: medfound
 ms.assetid: ed4aaf2a-270c-4518-b04d-cdac966bf9a5
-
 ms.date: 12/05/2018
 ms.keywords: BeginRead, BeginRead method [Media Foundation], BeginRead method [Media Foundation],IMFByteStream interface, IMFByteStream interface [Media Foundation],BeginRead method, IMFByteStream.BeginRead, IMFByteStream::BeginRead, ed4aaf2a-270c-4518-b04d-cdac966bf9a5, mf.imfbytestream_beginread, mfobjects/IMFByteStream::BeginRead
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFByteStream.BeginRead"
+f1_keywords:
+- mfobjects/IMFByteStream.BeginRead
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFByteStream.BeginRead
+- IMFByteStream.BeginRead
 targetos: Windows
 req.typenames: 
 req.redist: 

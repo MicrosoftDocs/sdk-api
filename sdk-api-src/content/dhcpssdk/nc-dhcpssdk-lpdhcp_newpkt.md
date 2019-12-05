@@ -1,19 +1,17 @@
 ---
 UID: NC:dhcpssdk.LPDHCP_NEWPKT
 title: LPDHCP_NEWPKT (dhcpssdk.h)
-
 description: The DhcpNewPktHook function is called by Microsoft DHCP Server shortly after it receives a DHCP packet slated for processing.
 old-location: dhcp\dhcpnewpkthook.htm
 tech.root: DHCP
 ms.assetid: 2bff8750-aeb2-4164-9a6e-4239a6736beb
-
 ms.date: 12/05/2018
 ms.keywords: DhcpNewPktHook, DhcpNewPktHook callback function [DHCP], LPDHCP_NEWPKT, LPDHCP_NEWPKT callback, _dhcp_dhcpnewpkthook, dhcp.dhcpnewpkthook, dhcpssdk/DhcpNewPktHook
 ms.topic: callback
 f1_keywords:
 - dhcpssdk/DhcpNewPktHook
 dev_langs:
- - c++
+- c++
 req.header: dhcpssdk.h
 req.include-header: 
 req.target-type: Windows

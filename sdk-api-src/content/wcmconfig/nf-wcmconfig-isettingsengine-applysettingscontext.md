@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.ApplySettingsContext
 title: ISettingsEngine::ApplySettingsContext (wcmconfig.h)
-
 description: Applies a settings context.
 old-location: smi\isettingsengine_applysettingscontext.htm
 tech.root: SMI
 ms.assetid: 459a97fb-e5fb-42a5-998d-84631fec2e6f
-
 ms.date: 12/05/2018
 ms.keywords: ApplySettingsContext, ApplySettingsContext method [SMI], ApplySettingsContext method [SMI],ISettingsEngine interface, ISettingsEngine interface [SMI],ApplySettingsContext method, ISettingsEngine.ApplySettingsContext, ISettingsEngine::ApplySettingsContext, smi.isettingsengine_applysettingscontext, wcmconfig/ISettingsEngine::ApplySettingsContext
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsEngine.ApplySettingsContext"
+f1_keywords:
+- wcmconfig/ISettingsEngine.ApplySettingsContext
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsEngine.ApplySettingsContext
+- ISettingsEngine.ApplySettingsContext
 targetos: Windows
 req.typenames: 
 req.redist: 

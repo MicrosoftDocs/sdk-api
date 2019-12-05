@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_TEX2DMS_SRV
 title: D3D11_TEX2DMS_SRV (d3d11.h)
-
 description: Specifies the subresources from a multisampled 2D texture to use in a shader-resource view.
 old-location: direct3d11\d3d11_tex2dms_srv.htm
 tech.root: direct3d11
 ms.assetid: ba896737-a94e-49d0-8f35-2e4ef5a335e7
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TEX2DMS_SRV, D3D11_TEX2DMS_SRV structure [Direct3D 11], d3d11/D3D11_TEX2DMS_SRV, dee77306-be03-b837-54e1-859e7d5eb5e1, direct3d11.d3d11_tex2dms_srv
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_TEX2DMS_SRV"
+f1_keywords:
+- d3d11/D3D11_TEX2DMS_SRV
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_TEX2DMS_SRV
+- D3D11_TEX2DMS_SRV
 targetos: Windows
 req.typenames: D3D11_TEX2DMS_SRV
 req.redist: 

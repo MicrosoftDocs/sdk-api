@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceSyncError
 title: IWMPEvents2::DeviceSyncError (wmp.h)
-
 description: The DeviceSyncError event occurs in response to a synchronization error.
 old-location: wmp\iwmpevents2_iwmpevents2__devicesyncerror.htm
 tech.root: WMP
 ms.assetid: 41e9a6df-3721-4fd2-aa9d-9874a004aa9a
-
 ms.date: 12/05/2018
 ms.keywords: DeviceSyncError, DeviceSyncError method [Windows Media Player], DeviceSyncError method [Windows Media Player],IWMPEvents2 interface, IWMPEvents2 interface [Windows Media Player],DeviceSyncError method, IWMPEvents2.DeviceSyncError, IWMPEvents2::DeviceSyncError, IWMPEvents2DeviceSyncError, wmp.iwmpevents2_iwmpevents2__devicesyncerror, wmp/IWMPEvents2::DeviceSyncError
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents2.DeviceSyncError"
+f1_keywords:
+- wmp/IWMPEvents2.DeviceSyncError
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents2.DeviceSyncError
+- IWMPEvents2.DeviceSyncError
 targetos: Windows
 req.typenames: 
 req.redist: 

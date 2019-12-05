@@ -1,19 +1,17 @@
 ---
 UID: NS:winsync._SYNC_TIME
 title: SYNC_TIME (winsync.h)
-
 description: Represents a date-and-time value.
 old-location: winsync\sync_time.htm
 tech.root: winsync
 ms.assetid: f5e0df02-d016-4eae-9b9b-bfd754ade126
-
 ms.date: 12/05/2018
 ms.keywords: SYNC_TIME, SYNC_TIME structure [Windows Sync], winsync.sync_time, winsync/SYNC_TIME
 ms.topic: struct
-f1_keywords: 
- - "winsync/SYNC_TIME"
+f1_keywords:
+- winsync/SYNC_TIME
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - SYNC_TIME
+- SYNC_TIME
 targetos: Windows
 req.typenames: SYNC_TIME
 req.redist: 

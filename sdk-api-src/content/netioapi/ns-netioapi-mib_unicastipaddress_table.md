@@ -1,19 +1,17 @@
 ---
 UID: NS:netioapi._MIB_UNICASTIPADDRESS_TABLE
 title: MIB_UNICASTIPADDRESS_TABLE (netioapi.h)
-
 description: Contains a table of unicast IP address entries.
 old-location: mib\mib_unicastipaddress_table.htm
 tech.root: MIB
 ms.assetid: b064494c-d0d5-4570-b255-4cc95412fd3a
-
 ms.date: 12/05/2018
-ms.keywords: "*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE structure [MIB], PMIB_UNICASTIPADDRESS_TABLE, PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_UNICASTIPADDRESS_TABL, mib.mib_unicastipaddress_table, netioapi/MIB_UNICASTIPADDRESS_TABLE, netioapi/PMIB_UNICASTIPADDRESS_TABLE"
+ms.keywords: '*PMIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE, MIB_UNICASTIPADDRESS_TABLE structure [MIB], PMIB_UNICASTIPADDRESS_TABLE, PMIB_UNICASTIPADDRESS_TABLE structure pointer [MIB], _MIB_UNICASTIPADDRESS_TABL, mib.mib_unicastipaddress_table, netioapi/MIB_UNICASTIPADDRESS_TABLE, netioapi/PMIB_UNICASTIPADDRESS_TABLE'
 ms.topic: struct
-f1_keywords: 
- - "netioapi/MIB_UNICASTIPADDRESS_TABLE"
+f1_keywords:
+- netioapi/MIB_UNICASTIPADDRESS_TABLE
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Netioapi.h
+- Netioapi.h
 api_name:
- - MIB_UNICASTIPADDRESS_TABLE
+- MIB_UNICASTIPADDRESS_TABLE
 targetos: Windows
 req.typenames: MIB_UNICASTIPADDRESS_TABLE, *PMIB_UNICASTIPADDRESS_TABLE
 req.redist: 

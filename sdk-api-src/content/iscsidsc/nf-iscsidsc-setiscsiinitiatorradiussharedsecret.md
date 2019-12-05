@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorRADIUSSharedSecret
 title: SetIScsiInitiatorRADIUSSharedSecret function (iscsidsc.h)
-
 description: SetIscsiInitiatorRADIUSSharedSecret function establishes the Remote Authentication Dial-In User Service (RADIUS) shared secret.
 old-location: iscsidisc\setiscsiinitiatorradiussharedsecret.htm
 tech.root: iSCSIDisc
 ms.assetid: a723256f-adde-4bf2-aab7-152693fa9a21
-
 ms.date: 12/05/2018
 ms.keywords: SetIScsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret, SetIscsiInitiatorRADIUSSharedSecret function [iSCSI Discovery Library API], iscsidisc.setiscsiinitiatorradiussharedsecret, iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SetIscsiInitiatorRADIUSSharedSecret"
+f1_keywords:
+- iscsidsc/SetIscsiInitiatorRADIUSSharedSecret
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SetIscsiInitiatorRADIUSSharedSecret
+- SetIscsiInitiatorRADIUSSharedSecret
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetSessionState
 title: ITsSbResourcePluginStore::SetSessionState (sbtsv.h)
-
 description: Sets the session state.
 old-location: termserv\itssbresourcepluginstore_setsessionstate.htm
 tech.root: TermServ
 ms.assetid: e6cb83d4-9d85-43d0-812d-ad6e2bdcb067
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetSessionState method, ITsSbResourcePluginStore.SetSessionState, ITsSbResourcePluginStore::SetSessionState, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetSessionState method, ITsSbResourcePluginStoreEx::SetSessionState, SetSessionState, SetSessionState method [Remote Desktop Services], SetSessionState method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetSessionState method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetSessionState, sbtsv/ITsSbResourcePluginStoreEx::SetSessionState, termserv.itssbresourcepluginstore_setsessionstate
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.SetSessionState"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.SetSessionState
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.SetSessionState
- - ITsSbResourcePluginStoreEx.SetSessionState
+- ITsSbResourcePluginStore.SetSessionState
+- ITsSbResourcePluginStoreEx.SetSessionState
 targetos: Windows
 req.typenames: 
 req.redist: 

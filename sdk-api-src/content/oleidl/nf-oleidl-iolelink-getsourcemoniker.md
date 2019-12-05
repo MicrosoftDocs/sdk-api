@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleLink.GetSourceMoniker
 title: IOleLink::GetSourceMoniker (oleidl.h)
-
 description: Retrieves the moniker identifying the link source of a linked object.
 old-location: com\iolelink_getsourcemoniker.htm
 tech.root: com
 ms.assetid: ef447726-7aef-45c4-a522-a8de9a3e6b74
-
 ms.date: 12/05/2018
 ms.keywords: GetSourceMoniker, GetSourceMoniker method [COM], GetSourceMoniker method [COM],IOleLink interface, IOleLink interface [COM],GetSourceMoniker method, IOleLink.GetSourceMoniker, IOleLink::GetSourceMoniker, _ole_iolelink_getsourcemoniker, com.iolelink_getsourcemoniker, oleidl/IOleLink::GetSourceMoniker
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleLink.GetSourceMoniker"
+f1_keywords:
+- oleidl/IOleLink.GetSourceMoniker
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IOleLink.GetSourceMoniker
+- IOleLink.GetSourceMoniker
 targetos: Windows
 req.typenames: 
 req.redist: 

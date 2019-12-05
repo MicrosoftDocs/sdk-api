@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevices.get_Item
 title: IWindowsMediaLibrarySharingDevices::get_Item (wmlss.h)
-
 description: The get_Item method retrieves an IWindowsMediaLibrarySharingDevice interface that represents an individual media device.
 old-location: wmlss\IWMLSDevicesget_Item.htm
 tech.root: WMLSS
 ms.assetid: 1ab420b7-ee40-405f-9125-0f9b3c074ef0
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDevices interface [Windows Media Library Sharing Services],get_Item method, IWindowsMediaLibrarySharingDevices.get_Item, IWindowsMediaLibrarySharingDevices::get_Item, get_Item, get_Item method [Windows Media Library Sharing Services], get_Item method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevices interface, wmlss.IWMLSDevicesget_Item, wmlss/IWindowsMediaLibrarySharingDevices::get_Item
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingDevices.get_Item"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingDevices.get_Item
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDevices.get_Item
+- IWindowsMediaLibrarySharingDevices.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

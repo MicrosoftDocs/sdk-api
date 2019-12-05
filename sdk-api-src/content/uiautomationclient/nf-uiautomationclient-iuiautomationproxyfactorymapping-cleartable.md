@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.ClearTable
 title: IUIAutomationProxyFactoryMapping::ClearTable (uiautomationclient.h)
-
 description: Removes all entries from the proxy factory table.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_ClearTable.htm
 tech.root: WinAuto
 ms.assetid: 00f16e39-557c-4e55-bfbf-49dc0d97ab37
-
 ms.date: 12/05/2018
 ms.keywords: ClearTable, ClearTable method [Windows Accessibility], ClearTable method [Windows Accessibility],IUIAutomationProxyFactoryMapping interface, IUIAutomationProxyFactoryMapping interface [Windows Accessibility],ClearTable method, IUIAutomationProxyFactoryMapping.ClearTable, IUIAutomationProxyFactoryMapping::ClearTable, uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiauto_IUIAutomationProxyFactoryMapping_ClearTable, uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable, winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactoryMapping.ClearTable"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactoryMapping.ClearTable
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryMapping.ClearTable
+- IUIAutomationProxyFactoryMapping.ClearTable
 targetos: Windows
 req.typenames: 
 req.redist: 

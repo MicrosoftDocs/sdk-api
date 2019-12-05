@@ -1,19 +1,17 @@
 ---
 UID: NF:mdmregistration.RegisterDeviceWithManagementUsingAADCredentials
 title: RegisterDeviceWithManagementUsingAADCredentials function (mdmregistration.h)
-
 description: Registers a device with a MDM service, using Azure Active Directory (AAD) credentials.
 old-location: mdmreg\registerdevicewithmanagementusingaadcredentials.htm
 tech.root: MDMReg
 ms.assetid: 709E464A-C9EC-41EF-AC80-EF0BC35E0905
-
 ms.date: 12/05/2018
 ms.keywords: RegisterDeviceWithManagementUsingAADCredentials, RegisterDeviceWithManagementUsingAADCredentials function [MDM Registration], mdmreg.registerdevicewithmanagementusingaadcredentials, mdmregistration/RegisterDeviceWithManagementUsingAADCredentials
 ms.topic: function
-f1_keywords: 
- - "mdmregistration/RegisterDeviceWithManagementUsingAADCredentials"
+f1_keywords:
+- mdmregistration/RegisterDeviceWithManagementUsingAADCredentials
 dev_langs:
- - c++
+- c++
 req.header: mdmregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: MDMRegistration.lib
 req.dll: MDMRegistration.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - MDMRegistration.dll
+- MDMRegistration.dll
 api_name:
- - RegisterDeviceWithManagementUsingAADCredentials
+- RegisterDeviceWithManagementUsingAADCredentials
 targetos: Windows
 req.typenames: 
 req.redist: 

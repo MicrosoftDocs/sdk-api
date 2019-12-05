@@ -1,19 +1,17 @@
 ---
 UID: NF:wslapi.WslIsDistributionRegistered
 title: WslIsDistributionRegistered function (wslapi.h)
-
 description: Determines if a distribution is registered with the Windows Subsystem for Linux (WSL).
 old-location: wsl\wslisdistributionregistered.htm
 tech.root: wsl
 ms.assetid: 51751073-922D-43B9-A253-2017CEEC262A
-
 ms.date: 12/05/2018
 ms.keywords: WslIsDistributionRegistered, WslIsDistributionRegistered function, wsl.wslisdistributionregistered, wslapi/WslIsDistributionRegistered
 ms.topic: function
-f1_keywords: 
- - "wslapi/WslIsDistributionRegistered"
+f1_keywords:
+- wslapi/WslIsDistributionRegistered
 dev_langs:
- - c++
+- c++
 req.header: wslapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wslapi.lib
 req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - api-ms-win-wsl-api-l1-1-0.dll
+- api-ms-win-wsl-api-l1-1-0.dll
 api_name:
- - WslIsDistributionRegistered
+- WslIsDistributionRegistered
 targetos: Windows
 req.typenames: 
 req.redist: 

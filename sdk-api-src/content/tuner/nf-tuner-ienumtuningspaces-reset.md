@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IEnumTuningSpaces.Reset
 title: IEnumTuningSpaces::Reset (tuner.h)
-
 description: The Reset method moves the iterator to the beginning of the collection.
 old-location: mstv\ienumtuningspaces_reset.htm
 tech.root: mstv
 ms.assetid: c9ac5d70-11f8-4bb4-a873-94eb72ea2f42
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTuningSpaces interface [Microsoft TV Technologies],Reset method, IEnumTuningSpaces.Reset, IEnumTuningSpaces::Reset, IEnumTuningSpacesReset, Reset, Reset method [Microsoft TV Technologies], Reset method [Microsoft TV Technologies],IEnumTuningSpaces interface, mstv.ienumtuningspaces_reset, tuner/IEnumTuningSpaces::Reset
 ms.topic: method
-f1_keywords: 
- - "tuner/IEnumTuningSpaces.Reset"
+f1_keywords:
+- tuner/IEnumTuningSpaces.Reset
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IEnumTuningSpaces.Reset
+- IEnumTuningSpaces.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

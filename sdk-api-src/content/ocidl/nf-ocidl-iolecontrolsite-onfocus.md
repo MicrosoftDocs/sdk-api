@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IOleControlSite.OnFocus
 title: IOleControlSite::OnFocus (ocidl.h)
-
 description: Indicates whether the control managed by this control site has gained or lost the focus.
 old-location: com\iolecontrolsite_onfocus.htm
 tech.root: com
 ms.assetid: 22869326-2815-49cb-8d03-14dca5d45689
-
 ms.date: 12/05/2018
 ms.keywords: IOleControlSite interface [COM],OnFocus method, IOleControlSite.OnFocus, IOleControlSite::OnFocus, OnFocus, OnFocus method [COM], OnFocus method [COM],IOleControlSite interface, _ctrl_iolecontrolsite_onfocus, com.iolecontrolsite_onfocus, ocidl/IOleControlSite::OnFocus
 ms.topic: method
-f1_keywords: 
- - "ocidl/IOleControlSite.OnFocus"
+f1_keywords:
+- ocidl/IOleControlSite.OnFocus
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IOleControlSite.OnFocus
+- IOleControlSite.OnFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

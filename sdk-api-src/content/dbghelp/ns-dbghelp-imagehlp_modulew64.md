@@ -1,19 +1,17 @@
 ---
 UID: NS:dbghelp._IMAGEHLP_MODULEW64
 title: IMAGEHLP_MODULEW64 (dbghelp.h)
-
 description: Contains module information.
 old-location: base\imagehlp_module64_str.htm
 tech.root: Debug
 ms.assetid: 3cc7a678-561b-4af8-8cf0-5cf6ebc0cb26
-
 ms.date: 12/05/2018
-ms.keywords: "*PIMAGEHLP_MODULEW64, IMAGEHLP_MODULE, IMAGEHLP_MODULE structure, IMAGEHLP_MODULE64, IMAGEHLP_MODULE64 structure, IMAGEHLP_MODULEW64, PIMAGEHLP_MODULE64, PIMAGEHLP_MODULE64 structure pointer, SymCoff, SymCv, SymDeferred, SymDia, SymExport, SymNone, SymPdb, SymSym, SymVirtual, _IMAGEHLP_MODULE64, _win32_imagehlp_module64_str, base.imagehlp_module64_str, dbghelp/IMAGEHLP_MODULE64, dbghelp/IMAGEHLP_MODULEW64, dbghelp/PIMAGEHLP_MODULE64"
+ms.keywords: '*PIMAGEHLP_MODULEW64, IMAGEHLP_MODULE, IMAGEHLP_MODULE structure, IMAGEHLP_MODULE64, IMAGEHLP_MODULE64 structure, IMAGEHLP_MODULEW64, PIMAGEHLP_MODULE64, PIMAGEHLP_MODULE64 structure pointer, SymCoff, SymCv, SymDeferred, SymDia, SymExport, SymNone, SymPdb, SymSym, SymVirtual, _IMAGEHLP_MODULE64, _win32_imagehlp_module64_str, base.imagehlp_module64_str, dbghelp/IMAGEHLP_MODULE64, dbghelp/IMAGEHLP_MODULEW64, dbghelp/PIMAGEHLP_MODULE64'
 ms.topic: struct
-f1_keywords: 
- - "dbghelp/IMAGEHLP_MODULE64"
+f1_keywords:
+- dbghelp/IMAGEHLP_MODULE64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DbgHelp.h
+- DbgHelp.h
 api_name:
- - IMAGEHLP_MODULE64
- - IMAGEHLP_MODULE64
- - IMAGEHLP_MODULEW64
- - IMAGEHLP_MODULE
+- IMAGEHLP_MODULE64
+- IMAGEHLP_MODULE64
+- IMAGEHLP_MODULEW64
+- IMAGEHLP_MODULE
 targetos: Windows
 req.typenames: IMAGEHLP_MODULEW64, *PIMAGEHLP_MODULEW64
 req.redist: DbgHelp.dll 5.1 or later

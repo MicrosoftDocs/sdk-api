@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventUnsubscribe0
 title: FwpmvSwitchEventUnsubscribe0 function (fwpmu.h)
-
 description: Is used to cancel a vSwitch event subscription and stop receiving notifications.
 old-location: fwp\fwpmvswitcheventunsubscribe0.htm
 tech.root: fwp
 ms.assetid: adc258b4-c4ee-4ff8-8174-42c58377ea32
-
 ms.date: 12/05/2018
 ms.keywords: FwpmvSwitchEventUnsubscribe0, FwpmvSwitchEventUnsubscribe0 function [Filtering], fwp.fwpmvswitcheventunsubscribe0, fwpmu/FwpmvSwitchEventUnsubscribe0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmvSwitchEventUnsubscribe0"
+f1_keywords:
+- fwpmu/FwpmvSwitchEventUnsubscribe0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmvSwitchEventUnsubscribe0
+- FwpmvSwitchEventUnsubscribe0
 targetos: Windows
 req.typenames: 
 req.redist: 

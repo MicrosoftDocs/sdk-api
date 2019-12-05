@@ -1,19 +1,17 @@
 ---
 UID: NF:indexsrv.ISimpleCommandCreator.CreateICommand
 title: ISimpleCommandCreator::CreateICommand (indexsrv.h)
-
 description: Creates an ICommand.
 old-location: search\isimplecommandcreator_createicommand.htm
 tech.root: search
 ms.assetid: 70880905-E4DF-4064-A877-18AF5CE839FB
-
 ms.date: 12/05/2018
 ms.keywords: CreateICommand, CreateICommand method [search], CreateICommand method [search],ISimpleCommandCreator interface, ISimpleCommandCreator interface [search],CreateICommand method, ISimpleCommandCreator.CreateICommand, ISimpleCommandCreator::CreateICommand, indexsrv/ISimpleCommandCreator::CreateICommand, search.isimplecommandcreator_createicommand
 ms.topic: method
-f1_keywords: 
- - "indexsrv/ISimpleCommandCreator.CreateICommand"
+f1_keywords:
+- indexsrv/ISimpleCommandCreator.CreateICommand
 dev_langs:
- - c++
+- c++
 req.header: indexsrv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Indexsrv.h
+- Indexsrv.h
 api_name:
- - ISimpleCommandCreator.CreateICommand
+- ISimpleCommandCreator.CreateICommand
 targetos: Windows
 req.typenames: 
 req.redist: Windows NT 4.0 Option Pack

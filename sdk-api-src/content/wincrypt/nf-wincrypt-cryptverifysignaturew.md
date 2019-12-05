@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptVerifySignatureW
 title: CryptVerifySignatureW function (wincrypt.h)
-
 description: Verifies the signature of a hash object.
 old-location: security\cryptverifysignature.htm
 tech.root: SecCrypto
 ms.assetid: 3119eabc-90ff-42c6-b3fa-e8be625f6d1e
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptVerifySignature, CryptVerifySignature function [Security], CryptVerifySignatureA, CryptVerifySignatureW, _crypto2_cryptverifysignature, security.cryptverifysignature, wincrypt/CryptVerifySignature, wincrypt/CryptVerifySignatureA, wincrypt/CryptVerifySignatureW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptVerifySignature"
+f1_keywords:
+- wincrypt/CryptVerifySignature
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptVerifySignature
- - CryptVerifySignatureA
- - CryptVerifySignatureW
+- CryptVerifySignature
+- CryptVerifySignatureA
+- CryptVerifySignatureW
 targetos: Windows
 req.typenames: 
 req.redist: 

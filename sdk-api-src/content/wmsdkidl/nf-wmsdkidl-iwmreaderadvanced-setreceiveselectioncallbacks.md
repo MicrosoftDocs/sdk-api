@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetReceiveSelectionCallbacks
 title: IWMReaderAdvanced::SetReceiveSelectionCallbacks (wmsdkidl.h)
-
 description: The SetReceiveSelectionCallbacks method specifies whether stream selection notifications must be sent to IWMReaderCallbackAdvanced::OnStreamSelection.
 old-location: wmformat\iwmreaderadvanced_setreceiveselectioncallbacks.htm
 tech.root: wmformat
 ms.assetid: 8cb0bd59-2a46-4cdc-9a88-ee6a8f170f3c
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced interface [windows Media Format],SetReceiveSelectionCallbacks method, IWMReaderAdvanced.SetReceiveSelectionCallbacks, IWMReaderAdvanced::SetReceiveSelectionCallbacks, IWMReaderAdvancedSetReceiveSelectionCallbacks, SetReceiveSelectionCallbacks, SetReceiveSelectionCallbacks method [windows Media Format], SetReceiveSelectionCallbacks method [windows Media Format],IWMReaderAdvanced interface, wmformat.iwmreaderadvanced_setreceiveselectioncallbacks, wmsdkidl/IWMReaderAdvanced::SetReceiveSelectionCallbacks
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced.SetReceiveSelectionCallbacks"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced.SetReceiveSelectionCallbacks
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced.SetReceiveSelectionCallbacks
+- IWMReaderAdvanced.SetReceiveSelectionCallbacks
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:devicetopology.__MIDL___MIDL_itf_devicetopology_0000_0000_0010
 title: KSJACK_SINK_CONNECTIONTYPE (devicetopology.h)
-
 description: The KSJACK_SINK_CONNECTIONTYPE enumeration defines constants that specify the type of connection. These values are used in the KSJACK_SINK_INFORMATION structure that stores information about an audio jack sink.
 old-location: coreaudio\ksjack_sink_connectiontype.htm
 tech.root: CoreAudio
 ms.assetid: a1a9b0cf-b1bf-49df-a976-62f44fcf70ae
-
 ms.date: 12/05/2018
 ms.keywords: KSJACK_SINK_CONNECTIONTYPE, KSJACK_SINK_CONNECTIONTYPE enumeration [Core Audio], KSJACK_SINK_CONNECTIONTYPE_DISPLAYPORT, KSJACK_SINK_CONNECTIONTYPE_HDMI, coreaudio.ksjack_sink_connectiontype, devicetopology/KSJACK_SINK_CONNECTIONTYPE, devicetopology/KSJACK_SINK_CONNECTIONTYPE_DISPLAYPORT, devicetopology/KSJACK_SINK_CONNECTIONTYPE_HDMI
 ms.topic: enum
-f1_keywords: 
- - "devicetopology/KSJACK_SINK_CONNECTIONTYPE"
+f1_keywords:
+- devicetopology/KSJACK_SINK_CONNECTIONTYPE
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - KSJACK_SINK_CONNECTIONTYPE
+- KSJACK_SINK_CONNECTIONTYPE
 targetos: Windows
 req.typenames: KSJACK_SINK_CONNECTIONTYPE
 req.redist: 

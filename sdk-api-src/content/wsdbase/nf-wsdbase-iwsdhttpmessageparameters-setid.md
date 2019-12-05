@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetID
 title: IWSDHttpMessageParameters::SetID (wsdbase.h)
-
 description: Sets the transport ID for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setid.htm
 tech.root: WsdApi
 ms.assetid: 95a05239-f1d5-4bd8-8aec-1e641397caa0
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetID method, IWSDHttpMessageParameters.SetID, IWSDHttpMessageParameters::SetID, SetID, SetID method, SetID method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setid, ncd.iwsdhttpmessasgeparameters_setid, wsdbase/IWSDHttpMessageParameters::SetID
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.SetID"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.SetID
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.SetID
+- IWSDHttpMessageParameters.SetID
 targetos: Windows
 req.typenames: 
 req.redist: 

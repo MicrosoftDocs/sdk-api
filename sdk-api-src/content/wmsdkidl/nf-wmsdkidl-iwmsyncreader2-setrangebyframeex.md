@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetRangeByFrameEx
 title: IWMSyncReader2::SetRangeByFrameEx (wmsdkidl.h)
-
 description: The SetRangeByFrameEx method configures the synchronous reader to read a portion of the file specified by a starting video frame number and a number of frames to read. This method also retrieves the presentation time of the requested frame number.
 old-location: wmformat\iwmsyncreader2_setrangebyframeex.htm
 tech.root: wmformat
 ms.assetid: 8a21529f-3645-4fe5-900e-19032d601ff4
-
 ms.date: 12/05/2018
 ms.keywords: IWMSyncReader2 interface [windows Media Format],SetRangeByFrameEx method, IWMSyncReader2.SetRangeByFrameEx, IWMSyncReader2::SetRangeByFrameEx, IWMSyncReader2SetRangeByFrameEx, SetRangeByFrameEx, SetRangeByFrameEx method [windows Media Format], SetRangeByFrameEx method [windows Media Format],IWMSyncReader2 interface, wmformat.iwmsyncreader2_setrangebyframeex, wmsdkidl/IWMSyncReader2::SetRangeByFrameEx
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMSyncReader2.SetRangeByFrameEx"
+f1_keywords:
+- wmsdkidl/IWMSyncReader2.SetRangeByFrameEx
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSyncReader2.SetRangeByFrameEx
+- IWMSyncReader2.SetRangeByFrameEx
 targetos: Windows
 req.typenames: 
 req.redist: 

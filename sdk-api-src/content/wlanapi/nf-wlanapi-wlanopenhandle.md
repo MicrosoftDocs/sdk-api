@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WlanOpenHandle
 title: WlanOpenHandle function (wlanapi.h)
-
 description: Opens a connection to the server.
 old-location: nwifi\wlanopenhandle.htm
 tech.root: NativeWiFi
 ms.assetid: 27bfa0c1-4443-47a4-a374-326f553fa3bb
-
 ms.date: 12/05/2018
 ms.keywords: WlanOpenHandle, WlanOpenHandle function [NativeWIFI], nwifi.wlanopenhandle, wlanapi/WlanOpenHandle
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WlanOpenHandle"
+f1_keywords:
+- wlanapi/WlanOpenHandle
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: Wlanapi.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
- - Ext-MS-Win-networking-wlanapi-l1-1-0.dll
+- wlanapi.dll
+- Ext-MS-Win-networking-wlanapi-l1-1-0.dll
 api_name:
- - WlanOpenHandle
+- WlanOpenHandle
 targetos: Windows
 req.typenames: 
 req.redist: Wireless LAN API for Windows XP with SP2

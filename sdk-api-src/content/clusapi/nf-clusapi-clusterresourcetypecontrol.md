@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterResourceTypeControl
 title: ClusterResourceTypeControl function (clusapi.h)
-
 description: Initiates an operation affecting a resource type. The operation performed depends on the control code passed to the dwControlCode parameter.
 old-location: mscs\clusterresourcetypecontrol.htm
 tech.root: MsCS
 ms.assetid: 79f4949d-e5ef-4d2e-ac11-0e30b6c566fd
-
 ms.date: 12/05/2018
 ms.keywords: ClusterResourceTypeControl, ClusterResourceTypeControl function [Failover Cluster], _wolf_clusterresourcetypecontrol, clusapi/ClusterResourceTypeControl, mscs.clusterresourcetypecontrol
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterResourceTypeControl"
+f1_keywords:
+- clusapi/ClusterResourceTypeControl
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - ClusterResourceTypeControl
+- ClusterResourceTypeControl
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument2.SetNotificationMode
 title: ITextDocument2::SetNotificationMode (tom.h)
-
 description: Sets the notification mode.
 old-location: controls\itextdocument2_setnotificationmode.htm
 tech.root: Controls
 ms.assetid: b3dd9895-9fdd-4919-9e3a-382bb130f4b9
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument2 interface [Windows Controls],SetNotificationMode method, ITextDocument2.SetNotificationMode, ITextDocument2::SetNotificationMode, SetNotificationMode, SetNotificationMode method [Windows Controls], SetNotificationMode method [Windows Controls],ITextDocument2 interface, controls.itextdocument2_setnotificationmode, tom/ITextDocument2::SetNotificationMode
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument2.SetNotificationMode"
+f1_keywords:
+- tom/ITextDocument2.SetNotificationMode
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument2.SetNotificationMode
+- ITextDocument2.SetNotificationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

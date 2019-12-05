@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Hue
 title: IVideoProcAmp::put_Hue (vidcap.h)
-
 description: The put_Hue method sets the camera's hue setting.
 old-location: dshow\ivideoprocamp_put_hue.htm
 tech.root: DirectShow
 ms.assetid: 7b0926c3-4167-423d-ac5c-ac4df06948aa
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_Hue method, IVideoProcAmp.put_Hue, IVideoProcAmp::put_Hue, IVideoProcAmpput_Hue, dshow.ivideoprocamp_put_hue, put_Hue, put_Hue method [DirectShow], put_Hue method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_Hue
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.put_Hue"
+f1_keywords:
+- vidcap/IVideoProcAmp.put_Hue
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.put_Hue
+- IVideoProcAmp.put_Hue
 targetos: Windows
 req.typenames: 
 req.redist: 

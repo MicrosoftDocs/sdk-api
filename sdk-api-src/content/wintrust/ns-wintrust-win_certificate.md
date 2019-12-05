@@ -1,19 +1,17 @@
 ---
 UID: NS:wintrust._WIN_CERTIFICATE
 title: WIN_CERTIFICATE (wintrust.h)
-
 description: This structure encapsulates a signature used in verifying executable files.
 old-location: security\win_certificate.htm
 tech.root: SecCrypto
 ms.assetid: AC666871-265B-4D09-B7A6-DEC48D4645FD
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE"
+ms.keywords: '*LPWIN_CERTIFICATE, PWIN_CERTIFICATE, PWIN_CERTIFICATE structure pointer [Security], WIN_CERTIFICATE, WIN_CERTIFICATE structure [Security], security.win_certificate, wintrust/PWIN_CERTIFICATE, wintrust/WIN_CERTIFICATE'
 ms.topic: struct
-f1_keywords: 
- - "wintrust/WIN_CERTIFICATE"
+f1_keywords:
+- wintrust/WIN_CERTIFICATE
 dev_langs:
- - c++
+- c++
 req.header: wintrust.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wintrust.h
+- Wintrust.h
 api_name:
- - WIN_CERTIFICATE
+- WIN_CERTIFICATE
 targetos: Windows
 req.typenames: WIN_CERTIFICATE, *LPWIN_CERTIFICATE
 req.redist: 

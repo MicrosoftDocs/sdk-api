@@ -1,19 +1,17 @@
 ---
 UID: NS:batclass._BATTERY_WMI_RUNTIME
 title: BATTERY_WMI_RUNTIME (batclass.h)
-
 description: Defines information about the estimated runtime of a battery for use with the BatteryClassQueryWmiDataBlock function.
 old-location: battery\battery_wmi_runtime.htm
 tech.root: battery
 ms.assetid: B6351A10-581C-42F1-A8AD-D33D6F633466
-
 ms.date: 12/05/2018
-ms.keywords: "*PBATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME structure [Battery Devices], PBATTERY_WMI_RUNTIME, PBATTERY_WMI_RUNTIME structure pointer [Battery Devices], batclass/BATTERY_WMI_RUNTIME, batclass/PBATTERY_WMI_RUNTIME, battery.battery_wmi_runtime"
+ms.keywords: '*PBATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME, BATTERY_WMI_RUNTIME structure [Battery Devices], PBATTERY_WMI_RUNTIME, PBATTERY_WMI_RUNTIME structure pointer [Battery Devices], batclass/BATTERY_WMI_RUNTIME, batclass/PBATTERY_WMI_RUNTIME, battery.battery_wmi_runtime'
 ms.topic: struct
-f1_keywords: 
- - "batclass/BATTERY_WMI_RUNTIME"
+f1_keywords:
+- batclass/BATTERY_WMI_RUNTIME
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Batclass.h
+- Batclass.h
 api_name:
- - BATTERY_WMI_RUNTIME
+- BATTERY_WMI_RUNTIME
 targetos: Windows
 req.typenames: BATTERY_WMI_RUNTIME, *PBATTERY_WMI_RUNTIME
 req.redist: 

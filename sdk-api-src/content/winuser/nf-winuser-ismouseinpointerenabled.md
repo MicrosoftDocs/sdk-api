@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.IsMouseInPointerEnabled
 title: IsMouseInPointerEnabled function (winuser.h)
-
 description: Indicates whether EnableMouseInPointer is set for the mouse to act as a pointer input device and send WM_POINTER messages.
 old-location: inputmsg\ismouseinpointerenabled.htm
 tech.root: InputMsg
 ms.assetid: 5D493066-2425-4610-8489-575BF25C8C16
-
 ms.date: 12/05/2018
 ms.keywords: IsMouseInPointerEnabled, IsMouseInPointerEnabled function [Keyboard and Mouse Input], inputdev.ismouseinpointerenabled, inputmsg.ismouseinpointerenabled, winuser/IsMouseInPointerEnabled
 ms.topic: function
-f1_keywords: 
- - "winuser/IsMouseInPointerEnabled"
+f1_keywords:
+- winuser/IsMouseInPointerEnabled
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-0.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-1.dll
- - MinUser.dll
- - API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-0.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-1.dll
+- MinUser.dll
+- API-Ms-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - IsMouseInPointerEnabled
+- IsMouseInPointerEnabled
 targetos: Windows
 req.typenames: 
 req.redist: 

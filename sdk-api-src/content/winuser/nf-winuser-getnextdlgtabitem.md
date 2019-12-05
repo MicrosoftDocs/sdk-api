@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetNextDlgTabItem
 title: GetNextDlgTabItem function (winuser.h)
-
 description: Retrieves a handle to the first control that has the WS_TABSTOP style that precedes (or follows) the specified control.
 old-location: dlgbox\getnextdlgtabitem.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getnextdlgtabitem.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetNextDlgTabItem, GetNextDlgTabItem function [Dialog Boxes], _win32_GetNextDlgTabItem, _win32_getnextdlgtabitem_cpp, dlgbox.getnextdlgtabitem, winui._win32_getnextdlgtabitem, winuser/GetNextDlgTabItem
 ms.topic: function
-f1_keywords: 
- - "winuser/GetNextDlgTabItem"
+f1_keywords:
+- winuser/GetNextDlgTabItem
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
+- User32.dll
+- ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - GetNextDlgTabItem
+- GetNextDlgTabItem
 targetos: Windows
 req.typenames: 
 req.redist: 

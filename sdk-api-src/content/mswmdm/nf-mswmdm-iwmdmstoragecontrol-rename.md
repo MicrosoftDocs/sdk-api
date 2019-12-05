@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMStorageControl.Rename
 title: IWMDMStorageControl::Rename (mswmdm.h)
-
 description: The Rename method renames the current storage.
 old-location: wmdm\iwmdmstoragecontrol_rename.htm
 tech.root: WMDM
 ms.assetid: 06cd302b-7876-4256-aa75-27127eb45ac9
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMStorageControl interface [windows Media Device Manager],Rename method, IWMDMStorageControl.Rename, IWMDMStorageControl::Rename, IWMDMStorageControlRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IWMDMStorageControl interface, mswmdm/IWMDMStorageControl::Rename, wmdm.iwmdmstoragecontrol_rename
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMStorageControl.Rename"
+f1_keywords:
+- mswmdm/IWMDMStorageControl.Rename
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMStorageControl.Rename
+- IWMDMStorageControl.Rename
 targetos: Windows
 req.typenames: 
 req.redist: 

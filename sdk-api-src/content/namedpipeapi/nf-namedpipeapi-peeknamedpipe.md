@@ -1,19 +1,17 @@
 ---
 UID: NF:namedpipeapi.PeekNamedPipe
 title: PeekNamedPipe function (namedpipeapi.h)
-
 description: Copies data from a named or anonymous pipe into a buffer without removing it from the pipe.
 old-location: base\peeknamedpipe.htm
 tech.root: ipc
 ms.assetid: 125e0fbb-9013-4194-bc0b-1b8ea7db799e
-
 ms.date: 12/05/2018
 ms.keywords: PeekNamedPipe, PeekNamedPipe function, _win32_peeknamedpipe, base.peeknamedpipe, namedpipeapi/PeekNamedPipe
 ms.topic: function
-f1_keywords: 
- - "namedpipeapi/PeekNamedPipe"
+f1_keywords:
+- namedpipeapi/PeekNamedPipe
 dev_langs:
- - c++
+- c++
 req.header: namedpipeapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-NamedPipe-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-NamedPipe-l1-2-1.dll
- - API-MS-Win-Core-NamedPipe-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-NamedPipe-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-NamedPipe-l1-2-1.dll
+- API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - PeekNamedPipe
+- PeekNamedPipe
 targetos: Windows
 req.typenames: 
 req.redist: 

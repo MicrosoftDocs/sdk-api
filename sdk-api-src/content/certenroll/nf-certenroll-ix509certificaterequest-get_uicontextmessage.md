@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_UIContextMessage
 title: IX509CertificateRequest::get_UIContextMessage (certenroll.h)
-
 description: Specifies or retrieves a context string to display in the user interface.
 old-location: security\ix509certificaterequest_uicontextmessage_property.htm
 tech.root: seccertenroll
 ms.assetid: 0eedb520-06c3-4106-8593-1c5fb0829d5e
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequest interface [Security],UIContextMessage property, IX509CertificateRequest.UIContextMessage, IX509CertificateRequest.get_UIContextMessage, IX509CertificateRequest::UIContextMessage, IX509CertificateRequest::get_UIContextMessage, IX509CertificateRequest::put_UIContextMessage, UIContextMessage property [Security], UIContextMessage property [Security],IX509CertificateRequest interface, certenroll/IX509CertificateRequest::UIContextMessage, certenroll/IX509CertificateRequest::get_UIContextMessage, certenroll/IX509CertificateRequest::put_UIContextMessage, get_UIContextMessage, security.ix509certificaterequest_uicontextmessage_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequest.UIContextMessage"
+f1_keywords:
+- certenroll/IX509CertificateRequest.UIContextMessage
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequest.UIContextMessage
- - IX509CertificateRequest.get_UIContextMessage
- - IX509CertificateRequest.put_UIContextMessage
+- IX509CertificateRequest.UIContextMessage
+- IX509CertificateRequest.get_UIContextMessage
+- IX509CertificateRequest.put_UIContextMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

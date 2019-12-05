@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMessageMover.MoveMessages
 title: IMessageMover::MoveMessages (comsvcs.h)
-
 description: Moves all messages from the source queue to the destination queue.
 old-location: cos\imessagemover_movemessages.htm
 tech.root: cossdk
 ms.assetid: ebe06730-710b-42ce-b905-be87971b19c3
-
 ms.date: 12/05/2018
 ms.keywords: IMessageMover interface [COM+],MoveMessages method, IMessageMover.MoveMessages, IMessageMover::MoveMessages, MoveMessages, MoveMessages method [COM+], MoveMessages method [COM+],IMessageMover interface, _cos_IMessageMover_MoveMessages, comsvcs/IMessageMover::MoveMessages, cos.imessagemover_movemessages
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMessageMover.MoveMessages"
+f1_keywords:
+- comsvcs/IMessageMover.MoveMessages
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMessageMover.MoveMessages
+- IMessageMover.MoveMessages
 targetos: Windows
 req.typenames: 
 req.redist: 

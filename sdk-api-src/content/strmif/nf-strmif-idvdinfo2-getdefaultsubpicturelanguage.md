@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDefaultSubpictureLanguage
 title: IDvdInfo2::GetDefaultSubpictureLanguage (strmif.h)
-
 description: The GetDefaultSubpictureLanguage method retrieves the default subpicture language.
 old-location: dshow\idvdinfo2_getdefaultsubpicturelanguage.htm
 tech.root: DirectShow
 ms.assetid: ada423a5-90ef-48e1-80fa-04d0a24da8f7
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultSubpictureLanguage, GetDefaultSubpictureLanguage method [DirectShow], GetDefaultSubpictureLanguage method [DirectShow],IDvdInfo2 interface, IDvdInfo2 interface [DirectShow],GetDefaultSubpictureLanguage method, IDvdInfo2.GetDefaultSubpictureLanguage, IDvdInfo2::GetDefaultSubpictureLanguage, IDvdInfo2GetDefaultSubpictureLanguage, dshow.idvdinfo2_getdefaultsubpicturelanguage, strmif/IDvdInfo2::GetDefaultSubpictureLanguage
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdInfo2.GetDefaultSubpictureLanguage"
+f1_keywords:
+- strmif/IDvdInfo2.GetDefaultSubpictureLanguage
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2.GetDefaultSubpictureLanguage
+- IDvdInfo2.GetDefaultSubpictureLanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

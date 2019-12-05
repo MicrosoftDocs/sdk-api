@@ -1,19 +1,17 @@
 ---
 UID: NN:eventsys.IEventObjectChange
 title: IEventObjectChange (eventsys.h)
-
 description: Notifies subscribers of changes to the event store.
 old-location: cos\ieventobjectchange.htm
 tech.root: cossdk
 ms.assetid: 2e916601-e03d-4c5f-a8fb-38317cfb66ad
-
 ms.date: 12/05/2018
 ms.keywords: IEventObjectChange, IEventObjectChange interface [COM+], IEventObjectChange interface [COM+],described, _cos_IEventObjectChange, cos.ieventobjectchange, eventsys/IEventObjectChange
 ms.topic: interface
-f1_keywords: 
- - "eventsys/IEventObjectChange"
+f1_keywords:
+- eventsys/IEventObjectChange
 dev_langs:
- - c++
+- c++
 req.header: eventsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Eventsys.h
+- Eventsys.h
 api_name:
- - IEventObjectChange
+- IEventObjectChange
 targetos: Windows
 req.typenames: 
 req.redist: 

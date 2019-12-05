@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.put_DefaultInPlaceState
 title: ITextInputPanel::put_DefaultInPlaceState (peninputpanel.h)
-
 description: Gets or sets the default in-place state as specified by the InPlaceState Enumeration.
 old-location: tablet\itextinputpanel_defaultinplacestate.htm
 tech.root: tablet
 ms.assetid: 00778a2c-9903-46a0-a5b3-c2ac4c355462
-
 ms.date: 12/05/2018
 ms.keywords: 00778a2c-9903-46a0-a5b3-c2ac4c355462, DefaultInPlaceState property [Tablet PC], DefaultInPlaceState property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInPlaceState property, ITextInputPanel.DefaultInPlaceState, ITextInputPanel.get_DefaultInPlaceState, ITextInputPanel.put_DefaultInPlaceState, ITextInputPanel::DefaultInPlaceState, ITextInputPanel::get_DefaultInPlaceState, ITextInputPanel::put_DefaultInPlaceState, peninputpanel/ITextInputPanel::DefaultInPlaceState, peninputpanel/ITextInputPanel::get_DefaultInPlaceState, peninputpanel/ITextInputPanel::put_DefaultInPlaceState, put_DefaultInPlaceState, tablet.itextinputpanel_defaultinplacestate
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.DefaultInPlaceState"
+f1_keywords:
+- peninputpanel/ITextInputPanel.DefaultInPlaceState
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.DefaultInPlaceState
- - ITextInputPanel.get_DefaultInPlaceState
- - ITextInputPanel.put_DefaultInPlaceState
- - ITextInputPanel.get_DefaultInPlaceState
- - ITextInputPanel.put_DefaultInPlaceState
+- ITextInputPanel.DefaultInPlaceState
+- ITextInputPanel.get_DefaultInPlaceState
+- ITextInputPanel.put_DefaultInPlaceState
+- ITextInputPanel.get_DefaultInPlaceState
+- ITextInputPanel.put_DefaultInPlaceState
 targetos: Windows
 req.typenames: 
 req.redist: 

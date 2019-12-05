@@ -1,19 +1,17 @@
 ---
 UID: NF:wsman.WSManGetErrorMessage
 title: WSManGetErrorMessage function (wsman.h)
-
 description: Retrieves the error messages associated with a particular error and language codes.
 old-location: winrm\wsmangeterrormessage.htm
 tech.root: winrm
 ms.assetid: 95fbded5-859d-4111-914c-871a05530726
-
 ms.date: 12/05/2018
 ms.keywords: WSManGetErrorMessage, WSManGetErrorMessage function [Windows Remote Management], winrm.wsmangeterrormessage, wsman/WSManGetErrorMessage
 ms.topic: function
-f1_keywords: 
- - "wsman/WSManGetErrorMessage"
+f1_keywords:
+- wsman/WSManGetErrorMessage
 dev_langs:
- - c++
+- c++
 req.header: wsman.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WsmSvc.lib
 req.dll: WsmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WsmSvc.dll
+- WsmSvc.dll
 api_name:
- - WSManGetErrorMessage
+- WSManGetErrorMessage
 targetos: Windows
 req.typenames: 
 req.redist: Windows Management Framework on Windows Server 2008 with SP2 and Windows Vista with SP2

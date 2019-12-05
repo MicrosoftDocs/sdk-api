@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaTimeRange.GetStart
 title: IMFMediaTimeRange::GetStart (mfmediaengine.h)
-
 description: Gets the start time for a specified time range.
 old-location: mf\imfmediatimerange_getstart.htm
 tech.root: medfound
 ms.assetid: E02CFE99-78B8-4923-8922-467A55442802
-
 ms.date: 12/05/2018
 ms.keywords: GetStart, GetStart method [Media Foundation], GetStart method [Media Foundation],IMFMediaTimeRange interface, IMFMediaTimeRange interface [Media Foundation],GetStart method, IMFMediaTimeRange.GetStart, IMFMediaTimeRange::GetStart, mf.imfmediatimerange_getstart, mfmediaengine/IMFMediaTimeRange::GetStart
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaTimeRange.GetStart"
+f1_keywords:
+- mfmediaengine/IMFMediaTimeRange.GetStart
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaTimeRange.GetStart
+- IMFMediaTimeRange.GetStart
 targetos: Windows
 req.typenames: 
 req.redist: 

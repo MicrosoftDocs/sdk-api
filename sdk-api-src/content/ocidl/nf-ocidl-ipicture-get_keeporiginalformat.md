@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPicture.get_KeepOriginalFormat
 title: IPicture::get_KeepOriginalFormat (ocidl.h)
-
 description: Retrieves the current value of the picture's KeepOriginalFormat property.
 old-location: com\ipicture_get_keeporiginalformat.htm
 tech.root: com
 ms.assetid: 90befcb7-138f-4c63-a6ec-ec06c89b3317
-
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_KeepOriginalFormat method, IPicture.get_KeepOriginalFormat, IPicture::get_KeepOriginalFormat, _ctrl_ipicture_get_keeporiginalformat, com.ipicture_get_keeporiginalformat, get_KeepOriginalFormat, get_KeepOriginalFormat method [COM], get_KeepOriginalFormat method [COM],IPicture interface, ocidl/IPicture::get_KeepOriginalFormat
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPicture.get_KeepOriginalFormat"
+f1_keywords:
+- ocidl/IPicture.get_KeepOriginalFormat
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture.get_KeepOriginalFormat
+- IPicture.get_KeepOriginalFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

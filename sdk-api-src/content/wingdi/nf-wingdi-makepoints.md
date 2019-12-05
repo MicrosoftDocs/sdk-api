@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.MAKEPOINTS
 title: MAKEPOINTS macro (wingdi.h)
-
 description: The MAKEPOINTS macro converts a value that contains the x- and y-coordinates of a point into a POINTS structure.
 old-location: gdi\makepoints.htm
 tech.root: gdi
 ms.assetid: 1f84cfd0-2836-4c20-9408-17e0d57742be
-
 ms.date: 12/05/2018
 ms.keywords: MAKEPOINTS, MAKEPOINTS macro [Windows GDI], _win32_MAKEPOINTS, gdi.makepoints, wingdi/MAKEPOINTS
 ms.topic: macro
-f1_keywords: 
- - "wingdi/MAKEPOINTS"
+f1_keywords:
+- wingdi/MAKEPOINTS
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - MAKEPOINTS
+- MAKEPOINTS
 targetos: Windows
 req.typenames: 
 req.redist: 

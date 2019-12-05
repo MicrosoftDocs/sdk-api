@@ -1,19 +1,17 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_PRIVATE_DATA
 title: DXVAHD_STREAM_STATE_PRIVATE_DATA (dxvahd.h)
-
 description: Contains data for a private stream state, for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
 old-location: mf\dxvahd_stream_state_private_data.htm
 tech.root: medfound
 ms.assetid: 3b7ce487-edec-4ff2-b971-72ddcc28162c
-
 ms.date: 12/05/2018
 ms.keywords: DXVAHD_STREAM_STATE_PRIVATE_DATA, DXVAHD_STREAM_STATE_PRIVATE_DATA structure [Media Foundation], DXVAHD_STREAM_STATE_PRIVATE_IVTC, dxvahd/DXVAHD_STREAM_STATE_PRIVATE_DATA, mf.dxvahd_stream_state_private_data
 ms.topic: struct
 f1_keywords:
 - dxvahd/DXVAHD_STREAM_STATE_PRIVATE_DATA
 dev_langs:
- - c++
+- c++
 req.header: dxvahd.h
 req.include-header: 
 req.target-type: Windows

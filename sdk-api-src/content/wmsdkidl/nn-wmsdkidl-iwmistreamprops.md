@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMIStreamProps
 title: IWMIStreamProps (wmsdkidl.h)
-
 description: The IWMIStreamProps interface provides access to the properties of an IStream object.To obtain a pointer to an IWMIStreamProps interface, call IStream::QueryInterface.
 old-location: wmformat\iwmistreamprops.htm
 tech.root: wmformat
 ms.assetid: 336e11ce-6212-4d08-8c50-76b2128ddc35
-
 ms.date: 12/05/2018
 ms.keywords: IWMIStreamProps, IWMIStreamProps interface [windows Media Format], IWMIStreamProps interface [windows Media Format],described, IWMIStreamPropsInterface, wmformat.iwmistreamprops, wmsdkidl/IWMIStreamProps
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMIStreamProps"
+f1_keywords:
+- wmsdkidl/IWMIStreamProps
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMIStreamProps
+- IWMIStreamProps
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsTable
 title: ISimilarityTraitsTable (msrdc.h)
-
 description: Defines methods for storing per-file similarity data and performing similarity lookups.
 old-location: rdc\isimilaritytraitstable.htm
 tech.root: rdc
 ms.assetid: 0985e27c-aa70-43c1-bcec-00ef14f2df58
-
 ms.date: 12/05/2018
 ms.keywords: ISimilarityTraitsTable, ISimilarityTraitsTable interface [Remote Differential Compression], ISimilarityTraitsTable interface [Remote Differential Compression],described, fs.isimilaritytraitstable, msrdc/ISimilarityTraitsTable, rdc.isimilaritytraitstable
 ms.topic: interface
-f1_keywords: 
- - "msrdc/ISimilarityTraitsTable"
+f1_keywords:
+- msrdc/ISimilarityTraitsTable
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - ISimilarityTraitsTable
+- ISimilarityTraitsTable
 targetos: Windows
 req.typenames: 
 req.redist: 

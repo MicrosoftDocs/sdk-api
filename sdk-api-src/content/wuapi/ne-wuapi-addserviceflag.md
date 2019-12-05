@@ -1,19 +1,17 @@
 ---
 UID: NE:wuapi.tagAddServiceFlag
 title: AddServiceFlag (wuapi.h)
-
 description: Defines the possible ways in which the IUpdateServiceManager2 interface can process service registration requests.
 old-location: wua\addserviceflag.htm
 tech.root: Wua_Sdk
 ms.assetid: 1372a062-9f62-4b4d-8476-b6c7059a801a
-
 ms.date: 12/05/2018
 ms.keywords: AddServiceFlag, AddServiceFlag enumeration [Windows Update Agent], asfAllowOnlineRegistration, asfAllowPendingRegistration, asfRegisterServiceWithAU, wua.addserviceflag, wuapi/AddServiceFlag, wuapi/asfAllowOnlineRegistration, wuapi/asfAllowPendingRegistration, wuapi/asfRegisterServiceWithAU
 ms.topic: enum
-f1_keywords: 
- - "wuapi/AddServiceFlag"
+f1_keywords:
+- wuapi/AddServiceFlag
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wuapi.h
+- Wuapi.h
 api_name:
- - AddServiceFlag
+- AddServiceFlag
 targetos: Windows
 req.typenames: AddServiceFlag
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects.D2D1_POINTSPECULAR_PROP
 title: D2D1_POINTSPECULAR_PROP (d2d1effects.h)
-
 description: Identifiers for properties of the Point-specular lighting effect.
 old-location: direct2d\d2d1_pointspecular_prop.htm
 tech.root: Direct2D
 ms.assetid: 5026F106-F5AA-4D03-BEFE-F1E8E880EF44
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_POINTSPECULAR_PROP, D2D1_POINTSPECULAR_PROP enumeration [Direct2D], D2D1_POINTSPECULAR_PROP_COLOR, D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH, D2D1_POINTSPECULAR_PROP_LIGHT_POSITION, D2D1_POINTSPECULAR_PROP_SCALE_MODE, D2D1_POINTSPECULAR_PROP_SPECULAR_CONSTANT, D2D1_POINTSPECULAR_PROP_SPECULAR_EXPONENT, D2D1_POINTSPECULAR_PROP_SURFACE_SCALE, d2d1effects/D2D1_POINTSPECULAR_PROP, d2d1effects/D2D1_POINTSPECULAR_PROP_COLOR, d2d1effects/D2D1_POINTSPECULAR_PROP_KERNEL_UNIT_LENGTH, d2d1effects/D2D1_POINTSPECULAR_PROP_LIGHT_POSITION, d2d1effects/D2D1_POINTSPECULAR_PROP_SCALE_MODE, d2d1effects/D2D1_POINTSPECULAR_PROP_SPECULAR_CONSTANT, d2d1effects/D2D1_POINTSPECULAR_PROP_SPECULAR_EXPONENT, d2d1effects/D2D1_POINTSPECULAR_PROP_SURFACE_SCALE, direct2d.d2d1_pointspecular_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects/D2D1_POINTSPECULAR_PROP"
+f1_keywords:
+- d2d1effects/D2D1_POINTSPECULAR_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects.h
+- d2d1effects.h
 api_name:
- - D2D1_POINTSPECULAR_PROP
+- D2D1_POINTSPECULAR_PROP
 targetos: Windows
 req.typenames: D2D1_POINTSPECULAR_PROP
 req.redist: 

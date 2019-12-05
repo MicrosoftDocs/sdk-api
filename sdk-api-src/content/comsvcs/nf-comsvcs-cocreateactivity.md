@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.CoCreateActivity
 title: CoCreateActivity function (comsvcs.h)
-
 description: Creates an activity to do synchronous or asynchronous batch work that can use COM+ services without needing to create a COM+ component.
 old-location: cos\cocreateactivity.htm
 tech.root: cossdk
 ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
-
 ms.date: 12/05/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
 ms.topic: function
-f1_keywords: 
- - "comsvcs/CoCreateActivity"
+f1_keywords:
+- comsvcs/CoCreateActivity
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComSvcs.dll
+- ComSvcs.dll
 api_name:
- - CoCreateActivity
+- CoCreateActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_MODULE_CALLBACK
 title: MINIDUMP_MODULE_CALLBACK (minidumpapiset.h)
-
 description: Contains module information for the MiniDumpCallback function when the callback type is ModuleCallback.
 old-location: base\minidump_module_callback_str.htm
 tech.root: Debug
 ms.assetid: 8ca48df0-ed0e-4ee3-a20a-d89057be37f3
-
 ms.date: 12/05/2018
 ms.keywords: '*PMINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK, MINIDUMP_MODULE_CALLBACK structure, PMINIDUMP_MODULE_CALLBACK, PMINIDUMP_MODULE_CALLBACK structure pointer, _MINIDUMP_MODULE_CALLBACK, _win32_minidump_module_callback_str, base.minidump_module_callback_str, minidumpapiset/MINIDUMP_MODULE_CALLBACK, minidumpapiset/PMINIDUMP_MODULE_CALLBACK'
 ms.topic: struct
 f1_keywords:
 - minidumpapiset/MINIDUMP_MODULE_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: minidumpapiset.h
 req.include-header: DbgHelp.h
 req.target-type: Windows

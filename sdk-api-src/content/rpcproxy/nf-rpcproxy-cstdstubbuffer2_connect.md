@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer2_Connect
 title: CStdStubBuffer2_Connect function (rpcproxy.h)
-
 description: Implements the IRpcStubBuffer::Connect method and connects the server object to the stub.
 old-location: rpc\cstdstubbuffer2_connect.htm
 tech.root: Rpc
 ms.assetid: ED3BA34C-1BAE-4CA0-A701-C64B8B9E717E
-
 ms.date: 12/05/2018
 ms.keywords: CStdStubBuffer2_Connect, CStdStubBuffer2_Connect function [RPC], rpc.cstdstubbuffer2_connect, rpcproxy/CStdStubBuffer2_Connect
 ms.topic: function
-f1_keywords: 
- - "rpcproxy/CStdStubBuffer2_Connect"
+f1_keywords:
+- rpcproxy/CStdStubBuffer2_Connect
 dev_langs:
- - c++
+- c++
 req.header: rpcproxy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ole32.dll
- - API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
- - COMBase.dll
+- ole32.dll
+- API-MS-Win-Core-Com-MidlProxyStub-L1-1-0.dll
+- COMBase.dll
 api_name:
- - CStdStubBuffer2_Connect
+- CStdStubBuffer2_Connect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IPersistMediaPropertyBag
 title: IPersistMediaPropertyBag (strmif.h)
-
 description: The IPersistMediaPropertyBag interface sets and retrieves INFO and DISP chunks in Audio-Video Interleaved (AVI) streams.
 old-location: dshow\ipersistmediapropertybag.htm
 tech.root: DirectShow
 ms.assetid: 33e4b76b-841a-4dc5-b117-e08a6f4dcbe7
-
 ms.date: 12/05/2018
 ms.keywords: IPersistMediaPropertyBag, IPersistMediaPropertyBag interface [DirectShow], IPersistMediaPropertyBag interface [DirectShow],described, IPersistMediaPropertyBagInterface, dshow.ipersistmediapropertybag, strmif/IPersistMediaPropertyBag
 ms.topic: interface
-f1_keywords: 
- - "strmif/IPersistMediaPropertyBag"
+f1_keywords:
+- strmif/IPersistMediaPropertyBag
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IPersistMediaPropertyBag
+- IPersistMediaPropertyBag
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.GetFilter
 title: IAMMultiMediaStream::GetFilter (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetFilter method retrieves the Media Stream filter, which is used internally by the multimedia stream object.
 old-location: dshow\iammultimediastream_getfilter.htm
 tech.root: DirectShow
 ms.assetid: 7e4df9cb-4008-4615-a179-ae1e76c22337
-
 ms.date: 12/05/2018
 ms.keywords: GetFilter, GetFilter method [DirectShow], GetFilter method [DirectShow],IAMMultiMediaStream interface, IAMMultiMediaStream interface [DirectShow],GetFilter method, IAMMultiMediaStream.GetFilter, IAMMultiMediaStream::GetFilter, IAMMultiMediaStreamGetFilter, amstream/IAMMultiMediaStream::GetFilter, dshow.iammultimediastream_getfilter
 ms.topic: method
-f1_keywords: 
- - "amstream/IAMMultiMediaStream.GetFilter"
+f1_keywords:
+- amstream/IAMMultiMediaStream.GetFilter
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IAMMultiMediaStream.GetFilter
+- IAMMultiMediaStream.GetFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

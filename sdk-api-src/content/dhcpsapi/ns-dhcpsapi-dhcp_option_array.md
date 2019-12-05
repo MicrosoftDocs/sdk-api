@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi._DHCP_OPTION_ARRAY
 title: DHCP_OPTION_ARRAY (dhcpsapi.h)
-
 description: The DHCP_OPTION_ARRAY structure defines an array of DHCP server options.
 old-location: dhcp\dhcp_option_array.htm
 tech.root: DHCP
 ms.assetid: 15b9bab5-8211-47c8-bc93-96c922c1aec1
-
 ms.date: 12/05/2018
 ms.keywords: '*LPDHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY, DHCP_OPTION_ARRAY structure [DHCP], LPDHCP_OPTION_ARRAY, LPDHCP_OPTION_ARRAY structure pointer [DHCP], dhcp.dhcp_option_array, dhcpsapi/DHCP_OPTION_ARRAY, dhcpsapi/LPDHCP_OPTION_ARRAY'
 ms.topic: struct
 f1_keywords:
 - dhcpsapi/DHCP_OPTION_ARRAY
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantGetStringElem
 title: VariantGetStringElem function (propvarutil.h)
-
 description: Extracts a single wide string element from a variant structure.
 old-location: properties\VariantGetStringElem.htm
 tech.root: properties
 ms.assetid: c4d1a37e-f7d1-4c0e-8d05-93a0153f2878
-
 ms.date: 12/05/2018
 ms.keywords: VariantGetStringElem, VariantGetStringElem function [Windows Properties], _shell_VariantGetStringElem, properties.VariantGetStringElem, propvarutil/VariantGetStringElem, shell.VariantGetStringElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantGetStringElem"
+f1_keywords:
+- propvarutil/VariantGetStringElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantGetStringElem
+- VariantGetStringElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

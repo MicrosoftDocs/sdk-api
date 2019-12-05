@@ -1,19 +1,17 @@
 ---
 UID: NF:clfsmgmtw32.SetLogFileSizeWithPolicy
 title: SetLogFileSizeWithPolicy function (clfsmgmtw32.h)
-
 description: Adds or deletes containers from a log based on the state of the installed policies.
 old-location: fs\setlogfilesizewithpolicy.htm
 tech.root: Clfs
 ms.assetid: 4da401cf-3606-4ae1-ae6f-37eb3dea6426
-
 ms.date: 12/05/2018
 ms.keywords: SetLogFileSizeWithPolicy, SetLogFileSizeWithPolicy function [Files], clfsmgmtw32/SetLogFileSizeWithPolicy, fs.setlogfilesizewithpolicy
 ms.topic: function
-f1_keywords: 
- - "clfsmgmtw32/SetLogFileSizeWithPolicy"
+f1_keywords:
+- clfsmgmtw32/SetLogFileSizeWithPolicy
 dev_langs:
- - c++
+- c++
 req.header: clfsmgmtw32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Clfsw32.lib
 req.dll: Clfsw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Clfsw32.dll
+- Clfsw32.dll
 api_name:
- - SetLogFileSizeWithPolicy
+- SetLogFileSizeWithPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

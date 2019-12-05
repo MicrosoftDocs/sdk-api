@@ -1,19 +1,17 @@
 ---
 UID: NS:t2embapi.__unnamed_struct_1
 title: TTEMBEDINFO (t2embapi.h)
-
 description: The TTEMBEDINFO structure contains a list of URLs from which the embedded font object may be legitimately referenced.
 old-location: gdi\ttembedinfo.htm
 tech.root: gdi
 ms.assetid: 7e1828bf-c9ed-4120-b91f-b4eb45191e48
-
 ms.date: 12/05/2018
 ms.keywords: TTEMBEDINFO, TTEMBEDINFO structure [Windows GDI], _win32_TTEMBEDINFO, gdi.ttembedinfo, t2embapi/TTEMBEDINFO
 ms.topic: struct
-f1_keywords: 
- - "t2embapi/TTEMBEDINFO"
+f1_keywords:
+- t2embapi/TTEMBEDINFO
 dev_langs:
- - c++
+- c++
 req.header: t2embapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - T2embapi.h
+- T2embapi.h
 api_name:
- - TTEMBEDINFO
+- TTEMBEDINFO
 targetos: Windows
 req.typenames: TTEMBEDINFO
 req.redist: 

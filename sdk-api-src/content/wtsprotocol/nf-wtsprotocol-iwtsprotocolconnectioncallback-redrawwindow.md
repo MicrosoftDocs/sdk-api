@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.RedrawWindow
 title: IWTSProtocolConnectionCallback::RedrawWindow (wtsprotocol.h)
-
 description: IWTSProtocolConnectionCallback::RedrawWindow is no longer available. Instead, use IWRdsProtocolConnectionCallback::RedrawWindow.
 old-location: termserv\iwtsprotocolconnectioncallback_redrawwindow.htm
 tech.root: TermServ
 ms.assetid: 8c5f7167-53c0-47fd-a62d-5137c341177d
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnectionCallback interface [Remote Desktop Services],RedrawWindow method, IWTSProtocolConnectionCallback.RedrawWindow, IWTSProtocolConnectionCallback::RedrawWindow, RedrawWindow, RedrawWindow method [Remote Desktop Services], RedrawWindow method [Remote Desktop Services],IWTSProtocolConnectionCallback interface, termserv.iwtsprotocolconnectioncallback_redrawwindow, wtsprotocol/IWTSProtocolConnectionCallback::RedrawWindow
 ms.topic: method
 f1_keywords:
 - wtsprotocol/IWTSProtocolConnectionCallback.RedrawWindow
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows

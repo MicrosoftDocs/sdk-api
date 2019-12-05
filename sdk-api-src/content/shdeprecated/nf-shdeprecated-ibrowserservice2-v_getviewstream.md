@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.v_GetViewStream
 title: IBrowserService2::v_GetViewStream (shdeprecated.h)
-
 description: Deprecated. Returns a stream used to load or save the view state.
 old-location: shell\IBrowserService2_v_GetViewStream.htm
 tech.root: shell
 ms.assetid: fb6b2739-7eb1-4037-8a21-1c4d0f70cde3
-
 ms.date: 12/05/2018
 ms.keywords: IBrowserService2 interface [Windows Shell],v_GetViewStream method, IBrowserService2.v_GetViewStream, IBrowserService2::v_GetViewStream, shdeprecated/IBrowserService2::v_GetViewStream, shell.IBrowserService2_v_GetViewStream, v_GetViewStream, v_GetViewStream method [Windows Shell], v_GetViewStream method [Windows Shell],IBrowserService2 interface, zone_IBrowserService2_v_GetViewStream
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService2.v_GetViewStream"
+f1_keywords:
+- shdeprecated/IBrowserService2.v_GetViewStream
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService2.v_GetViewStream
+- IBrowserService2.v_GetViewStream
 targetos: Windows
 req.typenames: 
 req.redist: 

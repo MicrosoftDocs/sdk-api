@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetGetCookieA
 title: InternetGetCookieA function (wininet.h)
-
 description: Retrieves the cookie for the specified URL.
 old-location: wininet\internetgetcookie.htm
 tech.root: wininet
 ms.assetid: 12c1ebab-3954-4995-9e1f-bf29699af396
-
 ms.date: 12/05/2018
 ms.keywords: InternetGetCookie, InternetGetCookie function [WinINet], InternetGetCookieA, InternetGetCookieW, _win32_internetgetcookie, wininet.internetgetcookie, wininet/InternetGetCookie, wininet/InternetGetCookieA, wininet/InternetGetCookieW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetGetCookie"
+f1_keywords:
+- wininet/InternetGetCookie
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetGetCookie
- - InternetGetCookieA
- - InternetGetCookieW
+- InternetGetCookie
+- InternetGetCookieA
+- InternetGetCookieW
 targetos: Windows
 req.typenames: 
 req.redist: 

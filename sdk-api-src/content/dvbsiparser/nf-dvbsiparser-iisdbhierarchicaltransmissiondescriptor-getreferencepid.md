@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetReferencePid
 title: IIsdbHierarchicalTransmissionDescriptor::GetReferencePid (dvbsiparser.h)
-
 description: Gets the program ID (PID) of the primary hierarchical stream from a hierarchical transmission descriptor.
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getreferencepid.htm
 tech.root: mstv
 ms.assetid: 4c1d96eb-e2d6-4f3a-8a3c-88c0d920ad44
-
 ms.date: 12/05/2018
 ms.keywords: GetReferencePid, GetReferencePid method [Microsoft TV Technologies], GetReferencePid method [Microsoft TV Technologies],IIsdbHierarchicalTransmissionDescriptor interface, IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies],GetReferencePid method, IIsdbHierarchicalTransmissionDescriptor.GetReferencePid, IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetReferencePid, mstv.iisdbhierarchicaltransmissiondescriptor_getreferencepid
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetReferencePid"
+f1_keywords:
+- dvbsiparser/IIsdbHierarchicalTransmissionDescriptor.GetReferencePid
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbHierarchicalTransmissionDescriptor.GetReferencePid
+- IIsdbHierarchicalTransmissionDescriptor.GetReferencePid
 targetos: Windows
 req.typenames: 
 req.redist: 

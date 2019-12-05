@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutputCount
 title: IMFTopologyNode::GetOutputCount (mfidl.h)
-
 description: Retrieves the number of output streams that currently exist on this node.
 old-location: mf\imftopologynode_getoutputcount.htm
 tech.root: medfound
 ms.assetid: dc964c38-9dac-491f-9d70-b1ba7b7001ad
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputCount, GetOutputCount method [Media Foundation], GetOutputCount method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutputCount method, IMFTopologyNode.GetOutputCount, IMFTopologyNode::GetOutputCount, dc964c38-9dac-491f-9d70-b1ba7b7001ad, mf.imftopologynode_getoutputcount, mfidl/IMFTopologyNode::GetOutputCount
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetOutputCount"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetOutputCount
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetOutputCount
+- IMFTopologyNode.GetOutputCount
 targetos: Windows
 req.typenames: 
 req.redist: 

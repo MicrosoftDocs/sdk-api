@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverSetRelationship
 title: DhcpV4FailoverSetRelationship function (dhcpsapi.h)
-
 description: Sets or modifies the parameters of a DHCPv4 server failover relationship.
 old-location: dhcp\dhcpv4failoversetrelationship.htm
 tech.root: DHCP
 ms.assetid: 04012953-dca3-426f-99de-798870d1eb97
-
 ms.date: 12/05/2018
 ms.keywords: CHANGESTATE, DhcpV4FailoverSetRelationship, DhcpV4FailoverSetRelationship function [DHCP], MCLT, MODE, PERCENTAGE, PREVSTATE, SAFEPERIOD, dhcp.dhcpv4failoversetrelationship, dhcpsapi/DhcpV4FailoverSetRelationship
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpV4FailoverSetRelationship
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITMediaRecord
 title: ITMediaRecord (tapi3if.h)
-
 description: The ITMediaRecord interface provides recording-specific methods that allow an application to set and get the names of files to record.
 old-location: tapi3\itmediarecord.htm
 tech.root: Tapi
 ms.assetid: 604b0128-1461-40f2-98fe-801dbb71e005
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaRecord, ITMediaRecord interface [TAPI 2.2], ITMediaRecord interface [TAPI 2.2],described, _tapi3_itmediarecord, tapi3.itmediarecord, tapi3if/ITMediaRecord
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITMediaRecord"
+f1_keywords:
+- tapi3if/ITMediaRecord
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaRecord
+- ITMediaRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

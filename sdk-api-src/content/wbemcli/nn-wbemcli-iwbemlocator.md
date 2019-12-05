@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IWbemLocator
 title: IWbemLocator (wbemcli.h)
-
 description: Use the IWbemLocator interface to obtain the initial namespace pointer to the IWbemServices interface for WMI on a specific host computer.
 old-location: wmi\iwbemlocator.htm
 tech.root: WmiSdk
 ms.assetid: 3e630987-82e3-4eb0-aec0-30562bc7c843
-
 ms.date: 12/05/2018
 ms.keywords: IWbemLocator, IWbemLocator interface [Windows Management Instrumentation], IWbemLocator interface [Windows Management Instrumentation],described, _hmm_iwbemlocator, wbemcli/IWbemLocator, wmi.iwbemlocator
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IWbemLocator"
+f1_keywords:
+- wbemcli/IWbemLocator
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemcore.dll
+- Wbemcore.dll
 api_name:
- - IWbemLocator
+- IWbemLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

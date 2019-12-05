@@ -1,19 +1,17 @@
 ---
 UID: NS:schannel._SecPkgContext_IssuerListInfoEx
 title: SecPkgContext_IssuerListInfoEx (schannel.h)
-
 description: The SecPkgContext_IssuerListInfoEx structure holds a list of trusted certification authorities (CAs).
 old-location: security\secpkgcontext_issuerlistinfoex.htm
 tech.root: SecAuthN
 ms.assetid: cf1ccd40-36bf-4597-b34f-d26cef63d800
-
 ms.date: 12/05/2018
-ms.keywords: "*PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx structure pointer [Security], SecPkgContext_IssuerListInfoEx, SecPkgContext_IssuerListInfoEx structure [Security], _ssp_secpkgcontext_issuerlistinfoex, schannel/PSecPkgContext_IssuerListInfoEx, schannel/SecPkgContext_IssuerListInfoEx, security.secpkgcontext_issuerlistinfoex"
+ms.keywords: '*PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx, PSecPkgContext_IssuerListInfoEx structure pointer [Security], SecPkgContext_IssuerListInfoEx, SecPkgContext_IssuerListInfoEx structure [Security], _ssp_secpkgcontext_issuerlistinfoex, schannel/PSecPkgContext_IssuerListInfoEx, schannel/SecPkgContext_IssuerListInfoEx, security.secpkgcontext_issuerlistinfoex'
 ms.topic: struct
-f1_keywords: 
- - "schannel/SecPkgContext_IssuerListInfoEx"
+f1_keywords:
+- schannel/SecPkgContext_IssuerListInfoEx
 dev_langs:
- - c++
+- c++
 req.header: schannel.h
 req.include-header: Schnlsp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Schannel.h
+- Schannel.h
 api_name:
- - SecPkgContext_IssuerListInfoEx
+- SecPkgContext_IssuerListInfoEx
 targetos: Windows
 req.typenames: SecPkgContext_IssuerListInfoEx, *PSecPkgContext_IssuerListInfoEx
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSampleOutputStream.BeginWriteSample
 title: IMFSampleOutputStream::BeginWriteSample (mfobjects.h)
-
 description: Begins an asynchronous request to write a media sample to the stream.
 old-location: mf\imfsampleoutputstream_beginwritesample.htm
 tech.root: medfound
 ms.assetid: 41056795-3E12-448E-9341-FB4DD4E7D079
-
 ms.date: 12/05/2018
 ms.keywords: BeginWriteSample, BeginWriteSample method [Media Foundation], BeginWriteSample method [Media Foundation],IMFSampleOutputStream interface, IMFSampleOutputStream interface [Media Foundation],BeginWriteSample method, IMFSampleOutputStream.BeginWriteSample, IMFSampleOutputStream::BeginWriteSample, mf.imfsampleoutputstream_beginwritesample, mfobjects/IMFSampleOutputStream::BeginWriteSample
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSampleOutputStream.BeginWriteSample"
+f1_keywords:
+- mfobjects/IMFSampleOutputStream.BeginWriteSample
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - IMFSampleOutputStream.BeginWriteSample
+- IMFSampleOutputStream.BeginWriteSample
 targetos: Windows
 req.typenames: 
 req.redist: 

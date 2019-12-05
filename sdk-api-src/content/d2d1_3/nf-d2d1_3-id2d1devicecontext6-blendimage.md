@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext6.BlendImage
 title: ID2D1DeviceContext6::BlendImage (d2d1_3.h)
-
 description: Draws an image to the device context using the specified blend mode. Results are equivalent to using Direct2D's built-in Blend effect.
 old-location: direct2d\id2d1devicecontext6_blendimage.htm
 tech.root: Direct2D
 ms.assetid: 598E98CA-3485-4188-84F0-DD711461AE44
-
 ms.date: 12/05/2018
 ms.keywords: BlendImage, BlendImage method [Direct2D], BlendImage method [Direct2D],ID2D1DeviceContext6 interface, ID2D1DeviceContext6 interface [Direct2D],BlendImage method, ID2D1DeviceContext6.BlendImage, ID2D1DeviceContext6::BlendImage, d2d1_3/ID2D1DeviceContext6::BlendImage, direct2d.id2d1devicecontext6_blendimage
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext6.BlendImage"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext6.BlendImage
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext6.BlendImage
+- ID2D1DeviceContext6.BlendImage
 targetos: Windows
 req.typenames: 
 req.redist: 

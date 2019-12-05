@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.get_currentMarker
 title: IWMPControls::get_currentMarker (wmp.h)
-
 description: The get_currentMarker method retrieves the current marker number.
 old-location: wmp\iwmpcontrols_get_currentmarker.htm
 tech.root: WMP
 ms.assetid: 42576961-a9bd-4f64-bf56-a5d6bd07e82f
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],get_currentMarker method, IWMPControls.get_currentMarker, IWMPControls::get_currentMarker, IWMPControlsget_currentMarker, get_currentMarker, get_currentMarker method [Windows Media Player], get_currentMarker method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_get_currentmarker, wmp/IWMPControls::get_currentMarker
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.get_currentMarker"
+f1_keywords:
+- wmp/IWMPControls.get_currentMarker
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.get_currentMarker
+- IWMPControls.get_currentMarker
 targetos: Windows
 req.typenames: 
 req.redist: 

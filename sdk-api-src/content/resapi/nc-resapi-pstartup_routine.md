@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PSTARTUP_ROUTINE
 title: PSTARTUP_ROUTINE (resapi.h)
-
 description: Loads a resource DLL, returning a structure containing a function table and a version number.
 old-location: mscs\startup.htm
 tech.root: MsCS
 ms.assetid: b07a2c32-2ff5-4917-9bcb-e1cfe445b3b3
-
 ms.date: 12/05/2018
 ms.keywords: PSTARTUP_ROUTINE, PSTARTUP_ROUTINE callback function [Failover Cluster], Startup, Startup callback, Startup callback function [Failover Cluster], _wolf_startup, mscs.startup, resapi/PSTARTUP_ROUTINE, resapi/Startup
 ms.topic: callback
-f1_keywords: 
- - "resapi/Startup"
+f1_keywords:
+- resapi/Startup
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - Startup
+- Startup
 targetos: Windows
 req.typenames: 
 req.redist: 

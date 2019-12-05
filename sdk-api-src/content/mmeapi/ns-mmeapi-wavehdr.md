@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.wavehdr_tag
 title: WAVEHDR (mmeapi.h)
-
 description: The WAVEHDR structure defines the header used to identify a waveform-audio buffer.
 old-location: multimedia\wavehdr.htm
 tech.root: Multimedia
 ms.assetid: be70ae8e-8d8f-4261-bd0e-c6fd7feec520
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAVEHDR, *NPWAVEHDR, *PWAVEHDR, LPWAVEHDR, LPWAVEHDR structure pointer [Windows Multimedia], WAVEHDR, WAVEHDR structure [Windows Multimedia], WHDR_BEGINLOOP, WHDR_DONE, WHDR_ENDLOOP, WHDR_INQUEUE, WHDR_PREPARED, _win32_WAVEHDR_str, mmeapi/LPWAVEHDR, mmeapi/WAVEHDR, multimedia.wavehdr, wavehdr_tag"
+ms.keywords: '*LPWAVEHDR, *NPWAVEHDR, *PWAVEHDR, LPWAVEHDR, LPWAVEHDR structure pointer [Windows Multimedia], WAVEHDR, WAVEHDR structure [Windows Multimedia], WHDR_BEGINLOOP, WHDR_DONE, WHDR_ENDLOOP, WHDR_INQUEUE, WHDR_PREPARED, _win32_WAVEHDR_str, mmeapi/LPWAVEHDR, mmeapi/WAVEHDR, multimedia.wavehdr, wavehdr_tag'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/WAVEHDR"
+f1_keywords:
+- mmeapi/WAVEHDR
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - WAVEHDR
+- WAVEHDR
 targetos: Windows
 req.typenames: WAVEHDR, *PWAVEHDR, *NPWAVEHDR, *LPWAVEHDR
 req.redist: 

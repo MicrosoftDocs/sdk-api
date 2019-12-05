@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.OpenDesktopA
 title: OpenDesktopA function (winuser.h)
-
 description: Opens the specified desktop object.
 old-location: winstation\opendesktop.htm
 tech.root: winstation
 ms.assetid: 7f805f47-1737-4f4b-a74a-9c1423b65f2c
-
 ms.date: 12/05/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenDesktop, OpenDesktop function [Windows Stations and Desktops], OpenDesktopA, OpenDesktopW, _win32_opendesktop, base.opendesktop, winstation.opendesktop, winuser/OpenDesktop, winuser/OpenDesktopA, winuser/OpenDesktopW
 ms.topic: function
-f1_keywords: 
- - "winuser/OpenDesktop"
+f1_keywords:
+- winuser/OpenDesktop
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-WindowStation-Ansi-L1-1-1.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - OpenDesktop
- - OpenDesktopA
- - OpenDesktopW
+- OpenDesktop
+- OpenDesktopA
+- OpenDesktopW
 targetos: Windows
 req.typenames: 
 req.redist: 

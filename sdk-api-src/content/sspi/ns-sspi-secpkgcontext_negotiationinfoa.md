@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SecPkgContext_NegotiationInfoA
 title: SecPkgContext_NegotiationInfoA (sspi.h)
-
 description: The SecPkgContext_NegotiationInfo structure contains information on the security package that is being set up or has been set up, and also gives the status on the negotiation to set up the security package.
 old-location: security\secpkgcontext_negotiationinfo.htm
 tech.root: SecAuthN
 ms.assetid: 3af724b8-fbe5-4a75-b128-9efe65381f2f
-
 ms.date: 12/05/2018
 ms.keywords: '*PSecPkgContext_NegotiationInfoA, PSecPkgContext_NegotiationInfo, PSecPkgContext_NegotiationInfo structure pointer [Security], SECPKG_NEGOTIATION_COMPLETE, SECPKG_NEGOTIATION_IN_PROGRESS, SECPKG_NEGOTIATION_OPTIMISTIC, SecPkgContext_NegotiationInfo, SecPkgContext_NegotiationInfo structure [Security], SecPkgContext_NegotiationInfoA, SecPkgContext_NegotiationInfoW, _ssp_secpkgcontext_negotiationinfo, security.secpkgcontext_negotiationinfo, sspi/PSecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfo, sspi/SecPkgContext_NegotiationInfoA, sspi/SecPkgContext_NegotiationInfoW'
 ms.topic: struct
 f1_keywords:
 - sspi/SecPkgContext_NegotiationInfo
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: Security.h
 req.target-type: Windows

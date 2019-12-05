@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetContentType
 title: IAppxFile::GetContentType (appxpackaging.h)
-
 description: Retrieves the content type of the file.
 old-location: appxpkg\iappxfile_getcontenttype.htm
 tech.root: appxpkg
 ms.assetid: 86EE47E1-B2AD-4610-8C9A-679536F9C51D
-
 ms.date: 12/05/2018
 ms.keywords: GetContentType, GetContentType method [App packaging and management], GetContentType method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetContentType method, IAppxFile.GetContentType, IAppxFile::GetContentType, appxpackaging/IAppxFile::GetContentType, appxpkg.iappxfile_getcontenttype
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxFile.GetContentType"
+f1_keywords:
+- appxpackaging/IAppxFile.GetContentType
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxFile.GetContentType
+- IAppxFile.GetContentType
 targetos: Windows
 req.typenames: 
 req.redist: 

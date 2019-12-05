@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.OpenThemeDataEx
 title: OpenThemeDataEx function (uxtheme.h)
-
 description: Opens the theme data associated with a window for specified theme classes.
 old-location: controls\OpenThemeDataEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedataex.htm
-
 ms.date: 12/05/2018
 ms.keywords: OTD_FORCE_RECT_SIZING, OTD_NONCLIENT, OpenThemeDataEx, OpenThemeDataEx function [Windows Controls], controls.OpenThemeDataEx, controls.inet_OpenThemeDataEx, inet_OpenThemeDataEx, inet_OpenThemeDataEx_cpp, uxtheme/OpenThemeDataEx
 ms.topic: function
-f1_keywords: 
- - "uxtheme/OpenThemeDataEx"
+f1_keywords:
+- uxtheme/OpenThemeDataEx
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - OpenThemeDataEx
+- OpenThemeDataEx
 targetos: Windows
 req.typenames: 
 req.redist: 

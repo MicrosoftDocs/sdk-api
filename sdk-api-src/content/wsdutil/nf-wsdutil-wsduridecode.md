@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdutil.WSDUriDecode
 title: WSDUriDecode function (wsdutil.h)
-
 description: Decodes a URI according to the rules in RFC2396.
 old-location: ncd\wsduridecode.htm
 tech.root: WsdApi
 ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a
-
 ms.date: 12/05/2018
 ms.keywords: WSDUriDecode, WSDUriDecode function, ncd.wsduridecode, wsdutil/WSDUriDecode
 ms.topic: function
-f1_keywords: 
- - "wsdutil/WSDUriDecode"
+f1_keywords:
+- wsdutil/WSDUriDecode
 dev_langs:
- - c++
+- c++
 req.header: wsdutil.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsdapi.lib
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - WSDUriDecode
+- WSDUriDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

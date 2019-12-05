@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.GetTraceDataProvidersByProcess
 title: ITraceDataProviderCollection::GetTraceDataProvidersByProcess (pla.h)
-
 description: Populates the collection with the list of providers that have been registered by the specified process.
 old-location: pla\itracedataprovidercollection_gettracedataprovidersbyprocess.htm
 tech.root: PLA
 ms.assetid: bc8b6aeb-7239-4bce-8616-62f87b84ae6c
-
 ms.date: 12/05/2018
 ms.keywords: GetTraceDataProvidersByProcess, GetTraceDataProvidersByProcess method [PLA], GetTraceDataProvidersByProcess method [PLA],ITraceDataProviderCollection interface, ITraceDataProviderCollection interface [PLA],GetTraceDataProvidersByProcess method, ITraceDataProviderCollection.GetTraceDataProvidersByProcess, ITraceDataProviderCollection::GetTraceDataProvidersByProcess, pla.itracedataprovidercollection_gettracedataprovidersbyprocess, pla/ITraceDataProviderCollection::GetTraceDataProvidersByProcess
 ms.topic: method
-f1_keywords: 
- - "pla/ITraceDataProviderCollection.GetTraceDataProvidersByProcess"
+f1_keywords:
+- pla/ITraceDataProviderCollection.GetTraceDataProvidersByProcess
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProviderCollection.GetTraceDataProvidersByProcess
+- ITraceDataProviderCollection.GetTraceDataProvidersByProcess
 targetos: Windows
 req.typenames: 
 req.redist: 

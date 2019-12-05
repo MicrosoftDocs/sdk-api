@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidAudioRendererEvent2
 title: IMSVidAudioRendererEvent2 (segment.h)
-
 description: Implements an event system for the audio renderer associated with a Video Control.
 old-location: mstv\imsvidaudiorendererevent2.htm
 tech.root: mstv
 ms.assetid: f37d3abb-e8ad-4aae-884a-1c6c4fa445e2
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAudioRendererEvent2, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies], IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],described, mstv.imsvidaudiorendererevent2, segment/IMSVidAudioRendererEvent2
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidAudioRendererEvent2"
+f1_keywords:
+- segment/IMSVidAudioRendererEvent2
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererEvent2
+- IMSVidAudioRendererEvent2
 targetos: Windows
 req.typenames: 
 req.redist: 

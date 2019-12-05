@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.TraceMessage
 title: TraceMessage function (evntrace.h)
-
 description: The TraceMessage function sends an informational message to an event tracing session.
 old-location: etw\tracemessage.htm
 tech.root: ETW
 ms.assetid: 5d81c851-d47e-43f8-97b0-87156f36119a
-
 ms.date: 12/05/2018
 ms.keywords: PVOID, TRACE_MESSAGE_COMPONENTID, TRACE_MESSAGE_GUID, TRACE_MESSAGE_SEQUENCE, TRACE_MESSAGE_SYSTEMINFO, TRACE_MESSAGE_TIMESTAMP, TraceMessage, TraceMessage function [ETW], _evt_tracemessage, base.tracemessage, etw.tracemessage, evntrace/TraceMessage, size_t
 ms.topic: function
-f1_keywords: 
- - "evntrace/TraceMessage"
+f1_keywords:
+- evntrace/TraceMessage
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-eventing-classicprovider-l1-1-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - TraceMessage
+- TraceMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

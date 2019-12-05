@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSensorTransformFactory
 title: IMFSensorTransformFactory (mfidl.h)
-
 description: The interface implemented by sensor transforms to allow the media pipeline to query requirements of the sensor transform and to create a runtime instance of the sensor transform.
 old-location: mf\imfsensortransformfactory.htm
 tech.root: medfound
 ms.assetid: 291EA582-22E3-4646-8E89-74162E98203F
-
 ms.date: 12/05/2018
 ms.keywords: IMFSensorTransformFactory, IMFSensorTransformFactory interface [Media Foundation], IMFSensorTransformFactory interface [Media Foundation],described, mf.imfsensortransformfactory, mfidl/IMFSensorTransformFactory
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSensorTransformFactory"
+f1_keywords:
+- mfidl/IMFSensorTransformFactory
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFSensorTransformFactory
+- IMFSensorTransformFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

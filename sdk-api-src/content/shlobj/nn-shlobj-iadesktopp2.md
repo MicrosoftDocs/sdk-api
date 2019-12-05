@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj.IADesktopP2
 title: IADesktopP2 (shlobj.h)
-
 description: Provides methods to manage the Windows Desktop.
 old-location: lwef\iadesktopp2.htm
 tech.root: lwef
 ms.assetid: f67cc6c0-183c-4da2-9648-68a86dccfd78
-
 ms.date: 12/05/2018
 ms.keywords: IADesktopP2, IADesktopP2 interface [Legacy Windows Environment Features], IADesktopP2 interface [Legacy Windows Environment Features],described, _win32_IADesktopP2, lwef.iadesktopp2, shell.iadesktopp2, shlobj/IADesktopP2
 ms.topic: interface
-f1_keywords: 
- - "shlobj/IADesktopP2"
+f1_keywords:
+- shlobj/IADesktopP2
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IADesktopP2
+- IADesktopP2
 targetos: Windows
 req.typenames: 
 req.redist: 

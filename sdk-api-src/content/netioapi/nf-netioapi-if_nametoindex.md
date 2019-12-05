@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.if_nametoindex
 title: if_nametoindex function (netioapi.h)
-
 description: Converts the ANSI interface name for a network interface to the local index for the interface.
 old-location: iphlp\if_nametoindex.htm
 tech.root: IpHlp
 ms.assetid: 599e5a34-1e17-4c5f-b58e-727871e409be
-
 ms.date: 12/05/2018
 ms.keywords: if_nametoindex, if_nametoindex function [IP Helper], iphlp.if_nametoindex, netioapi/if_nametoindex
 ms.topic: function
-f1_keywords: 
- - "netioapi/if_nametoindex"
+f1_keywords:
+- netioapi/if_nametoindex
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - if_nametoindex
+- if_nametoindex
 targetos: Windows
 req.typenames: 
 req.redist: 

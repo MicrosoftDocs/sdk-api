@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IResourceManager.SetFocus
 title: IResourceManager::SetFocus (strmif.h)
-
 description: The SetFocus method notifies the resource manager that a specified object has been given the focus of the user.
 old-location: dshow\iresourcemanager_setfocus.htm
 tech.root: DirectShow
 ms.assetid: 3d0a87e1-6774-45cf-9ab5-18ec1d2fff0d
-
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],SetFocus method, IResourceManager.SetFocus, IResourceManager::SetFocus, IResourceManagerSetFocus, SetFocus, SetFocus method [DirectShow], SetFocus method [DirectShow],IResourceManager interface, dshow.iresourcemanager_setfocus, strmif/IResourceManager::SetFocus
 ms.topic: method
-f1_keywords: 
- - "strmif/IResourceManager.SetFocus"
+f1_keywords:
+- strmif/IResourceManager.SetFocus
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceManager.SetFocus
+- IResourceManager.SetFocus
 targetos: Windows
 req.typenames: 
 req.redist: 

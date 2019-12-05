@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetTerminal
 title: lineSetTerminal function (tapi.h)
-
 description: The lineSetTerminal function enables an application to specify which terminal information related to the specified line, address, or call is to be routed.
 old-location: tapi2\linesetterminal.htm
 tech.root: Tapi
 ms.assetid: 362114d9-c5b6-4b78-bb31-811eb89fe82d
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal"
+ms.keywords: _tapi2_linesetterminal, lineSetTerminal, lineSetTerminal function [TAPI 2.2], tapi/lineSetTerminal, tapi2.linesetterminal
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetTerminal"
+f1_keywords:
+- tapi/lineSetTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetTerminal
+- lineSetTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

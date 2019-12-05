@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpExtensionTrap
 title: SnmpExtensionTrap function (snmp.h)
-
 description: The Microsoft SNMP service calls the SnmpExtensionTrap function to retrieve information the service needs to generate traps for the SNMP extension agent.
 old-location: snmp\snmpextensiontrap.htm
 tech.root: SNMP
 ms.assetid: 5c768bf5-aa25-4ead-8ee9-fc1f30de4354
-
 ms.date: 12/05/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpExtensionTrap, SnmpExtensionTrap callback, SnmpExtensionTrap callback function [SNMP], _snmp_snmpextensiontrap, snmp.snmpextensiontrap, snmp/SnmpExtensionTrap
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpExtensionTrap"
+f1_keywords:
+- snmp/SnmpExtensionTrap
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Snmp.h
+- Snmp.h
 api_name:
- - SnmpExtensionTrap
+- SnmpExtensionTrap
 targetos: Windows
 req.typenames: 
 req.redist: 

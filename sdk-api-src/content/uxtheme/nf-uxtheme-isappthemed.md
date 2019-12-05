@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.IsAppThemed
 title: IsAppThemed function (uxtheme.h)
-
 description: Reports whether the current application's user interface displays using visual styles.
 old-location: controls\IsAppThemed.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isappthemed.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsAppThemed, IsAppThemed function [Windows Controls], controls.IsAppThemed, controls.inet_IsAppThemed, inet_IsAppThemed, inet_IsAppThemed_cpp, uxtheme/IsAppThemed
 ms.topic: function
-f1_keywords: 
- - "uxtheme/IsAppThemed"
+f1_keywords:
+- uxtheme/IsAppThemed
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll (version 1.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - IsAppThemed
+- IsAppThemed
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxy.SetEventingStatusCallback
 title: IWSDServiceProxy::SetEventingStatusCallback (wsdclient.h)
-
 description: Sets or clears the eventing status callback.
 old-location: ncd\iwsdserviceproxy_seteventingstatuscallback.htm
 tech.root: WsdApi
 ms.assetid: 0a924df4-93a7-4443-a384-0a89d5d90509
-
 ms.date: 12/05/2018
 ms.keywords: IWSDServiceProxy interface,SetEventingStatusCallback method, IWSDServiceProxy.SetEventingStatusCallback, IWSDServiceProxy::SetEventingStatusCallback, SetEventingStatusCallback, SetEventingStatusCallback method, SetEventingStatusCallback method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_seteventingstatuscallback, wsdclient/IWSDServiceProxy::SetEventingStatusCallback
 ms.topic: method
-f1_keywords: 
- - "wsdclient/IWSDServiceProxy.SetEventingStatusCallback"
+f1_keywords:
+- wsdclient/IWSDServiceProxy.SetEventingStatusCallback
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDServiceProxy.SetEventingStatusCallback
+- IWSDServiceProxy.SetEventingStatusCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

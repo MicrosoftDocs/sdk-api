@@ -1,19 +1,17 @@
 ---
 UID: NS:winnls._nlsversioninfoex
 title: NLSVERSIONINFOEX (winnls.h)
-
 description: Contains version information about an NLS capability.
 old-location: intl\nlsversioninfoex.htm
 tech.root: Intl
 ms.assetid: 97f637df-3e0e-4349-a617-96b7c640b19d
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX structure pointer [Internationalization for Windows Applications], NLSVERSIONINFOEX, NLSVERSIONINFOEX structure [Internationalization for Windows Applications], _win32_NLSVERSIONINFOEX_str, intl.nlsversioninfoex, winnls/LPNLSVERSIONINFOEX, winnls/NLSVERSIONINFOEX"
+ms.keywords: '*LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX, LPNLSVERSIONINFOEX structure pointer [Internationalization for Windows Applications], NLSVERSIONINFOEX, NLSVERSIONINFOEX structure [Internationalization for Windows Applications], _win32_NLSVERSIONINFOEX_str, intl.nlsversioninfoex, winnls/LPNLSVERSIONINFOEX, winnls/NLSVERSIONINFOEX'
 ms.topic: struct
-f1_keywords: 
- - "winnls/NLSVERSIONINFOEX"
+f1_keywords:
+- winnls/NLSVERSIONINFOEX
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnls.h
+- Winnls.h
 api_name:
- - NLSVERSIONINFOEX
+- NLSVERSIONINFOEX
 targetos: Windows
 req.typenames: NLSVERSIONINFOEX, *LPNLSVERSIONINFOEX
 req.redist: 

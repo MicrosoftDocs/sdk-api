@@ -1,19 +1,17 @@
 ---
 UID: NF:provider.Provider.ExecMethod(const CInstance &,const BSTR,CInstance,CInstance,long)
 title: Provider::ExecMethod (provider.h)
-
 description: The ExecMethod method is called by WMI to invoke a method on a class or instance.
 old-location: wmi\provider_execmethod.htm
 tech.root: WmiSdk
 ms.assetid: 590f59ad-ea93-42f0-8b0d-c05a49272b1b
-
 ms.date: 12/05/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],ExecMethod method, Provider.ExecMethod, Provider::ExecMethod, _hmm_provider_execmethod, provider/Provider::ExecMethod, wmi.provider_execmethod
 ms.topic: method
-f1_keywords: 
- - "provider/Provider.ExecMethod"
+f1_keywords:
+- provider/Provider.ExecMethod
 dev_langs:
- - c++
+- c++
 req.header: provider.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - Provider.ExecMethod
+- Provider.ExecMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

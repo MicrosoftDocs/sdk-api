@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmError.get_Type
 title: IMsmError::get_Type (mergemod.h)
-
 description: The get_Type method retrieves the Type property of the Error object. This method returns a msmErrorType value indicating the type of error represented by this object.
 old-location: setup\imsmerror_get_type.htm
 tech.root: Msi
 ms.assetid: 733a5390-419d-414a-b50e-8400d179bfb6
-
 ms.date: 12/05/2018
 ms.keywords: IMsmError interface,get_Type method, IMsmError.get_Type, IMsmError::get_Type, _msi_get_type_function_error_object_, get_Type, get_Type method, get_Type method,IMsmError interface, mergemod/IMsmError::get_Type, setup.imsmerror_get_type
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmError.get_Type"
+f1_keywords:
+- mergemod/IMsmError.get_Type
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmError.get_Type
+- IMsmError.get_Type
 targetos: Windows
 req.typenames: 
 req.redist: 

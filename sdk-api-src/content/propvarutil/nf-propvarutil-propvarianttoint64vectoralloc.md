@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64VectorAlloc
 title: PropVariantToInt64VectorAlloc function (propvarutil.h)
-
 description: Extracts data from a PROPVARIANT structure into a newly-allocated LONGLONG vector.
 old-location: properties\PropVariantToInt64VectorAlloc.htm
 tech.root: properties
 ms.assetid: 06f82bf5-5009-4c8b-9f99-4325328bc2e2
-
 ms.date: 12/05/2018
 ms.keywords: PropVariantToInt64VectorAlloc, PropVariantToInt64VectorAlloc function [Windows Properties], _shell_PropVariantToInt64VectorAlloc, properties.PropVariantToInt64VectorAlloc, propvarutil/PropVariantToInt64VectorAlloc, shell.PropVariantToInt64VectorAlloc
 ms.topic: function
-f1_keywords: 
- - "propvarutil/PropVariantToInt64VectorAlloc"
+f1_keywords:
+- propvarutil/PropVariantToInt64VectorAlloc
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PropVariantToInt64VectorAlloc
+- PropVariantToInt64VectorAlloc
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

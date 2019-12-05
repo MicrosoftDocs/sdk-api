@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.ISearchJob.CleanUp
 title: ISearchJob::CleanUp (wuapi.h)
-
 description: Waits for an asynchronous operation to complete and then releases all the callbacks.
 old-location: wua\isearchjob_cleanup.htm
 tech.root: Wua_Sdk
 ms.assetid: 35f345ac-cf5b-4ba6-9422-5d9da449bcdd
-
 ms.date: 12/05/2018
 ms.keywords: CleanUp, CleanUp method [Windows Update Agent], CleanUp method [Windows Update Agent],ISearchJob interface, ISearchJob interface [Windows Update Agent],CleanUp method, ISearchJob.CleanUp, ISearchJob::CleanUp, wua.isearchjob_cleanup, wuapi/ISearchJob::CleanUp
 ms.topic: method
-f1_keywords: 
- - "wuapi/ISearchJob.CleanUp"
+f1_keywords:
+- wuapi/ISearchJob.CleanUp
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - ISearchJob.CleanUp
+- ISearchJob.CleanUp
 targetos: Windows
 req.typenames: 
 req.redist: 

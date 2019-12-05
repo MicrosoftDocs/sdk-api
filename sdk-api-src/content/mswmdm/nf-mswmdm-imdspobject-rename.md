@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Rename
 title: IMDSPObject::Rename (mswmdm.h)
-
 description: The Rename method renames the associated object which can be a file or a folder.
 old-location: wmdm\imdspobject_rename.htm
 tech.root: WMDM
 ms.assetid: 3da6a4a4-6e3b-4907-a466-5a5bd34f4374
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject interface [windows Media Device Manager],Rename method, IMDSPObject.Rename, IMDSPObject::Rename, IMDSPObjectRename, Rename, Rename method [windows Media Device Manager], Rename method [windows Media Device Manager],IMDSPObject interface, mswmdm/IMDSPObject::Rename, wmdm.imdspobject_rename
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject.Rename"
+f1_keywords:
+- mswmdm/IMDSPObject.Rename
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject.Rename
+- IMDSPObject.Rename
 targetos: Windows
 req.typenames: 
 req.redist: 

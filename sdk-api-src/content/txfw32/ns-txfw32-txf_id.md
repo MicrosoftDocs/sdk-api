@@ -1,19 +1,17 @@
 ---
 UID: NS:txfw32._TXF_ID
 title: TXF_ID (txfw32.h)
-
 description: Represents a unique identifier within the context of the Resource Manager.
 old-location: fs\txf_id.htm
 tech.root: FileIO
 ms.assetid: b7bdb226-69ce-4226-b826-baf9c732ec52
-
 ms.date: 12/05/2018
 ms.keywords: '*PTXF_ID, PTXF_ID, PTXF_ID structure pointer [Files], TXF_ID, TXF_ID structure [Files], fs.txf_id, txfw32/PTXF_ID, txfw32/TXF_ID'
 ms.topic: struct
 f1_keywords:
 - txfw32/TXF_ID
 dev_langs:
- - c++
+- c++
 req.header: txfw32.h
 req.include-header: 
 req.target-type: Windows

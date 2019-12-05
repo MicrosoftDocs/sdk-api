@@ -1,19 +1,17 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.IsFileValidated
 title: IBitsPeerCacheRecord::IsFileValidated (bits3_0.h)
-
 description: Determines whether the file has been validated.
 old-location: bits\ibitspeercacherecord_isfilevalidated.htm
 tech.root: Bits
 ms.assetid: f492f009-bef7-412e-8626-ae84cd5ce03f
-
 ms.date: 12/05/2018
 ms.keywords: IBitsPeerCacheRecord interface [BITS],IsFileValidated method, IBitsPeerCacheRecord.IsFileValidated, IBitsPeerCacheRecord::IsFileValidated, IsFileValidated, IsFileValidated method [BITS], IsFileValidated method [BITS],IBitsPeerCacheRecord interface, bits.ibitspeercacherecord_isfilevalidated, bits3_0/IBitsPeerCacheRecord::IsFileValidated
 ms.topic: method
-f1_keywords: 
- - "bits3_0/IBitsPeerCacheRecord.IsFileValidated"
+f1_keywords:
+- bits3_0/IBitsPeerCacheRecord.IsFileValidated
 dev_langs:
- - c++
+- c++
 req.header: bits3_0.h
 req.include-header: Bits.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Bits.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bits.lib
- - Bits.dll
+- Bits.lib
+- Bits.dll
 api_name:
- - IBitsPeerCacheRecord.IsFileValidated
+- IBitsPeerCacheRecord.IsFileValidated
 targetos: Windows
 req.typenames: 
 req.redist: 

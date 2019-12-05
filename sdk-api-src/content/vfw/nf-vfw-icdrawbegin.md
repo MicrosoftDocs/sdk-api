@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDrawBegin
 title: ICDrawBegin function (vfw.h)
-
 description: The ICDrawBegin function initializes the renderer and prepares the drawing destination for drawing.
 old-location: multimedia\icdrawbegin.htm
 tech.root: Multimedia
 ms.assetid: 52a43888-9839-45a3-b139-e84943c345c2
-
 ms.date: 12/05/2018
 ms.keywords: ICDrawBegin, ICDrawBegin function [Windows Multimedia], _win32_ICDrawBegin, multimedia.icdrawbegin, vfw/ICDrawBegin
 ms.topic: function
-f1_keywords: 
- - "vfw/ICDrawBegin"
+f1_keywords:
+- vfw/ICDrawBegin
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICDrawBegin
+- ICDrawBegin
 targetos: Windows
 req.typenames: 
 req.redist: 

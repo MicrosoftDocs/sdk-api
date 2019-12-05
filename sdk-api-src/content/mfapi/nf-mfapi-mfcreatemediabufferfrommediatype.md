@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFCreateMediaBufferFromMediaType
 title: MFCreateMediaBufferFromMediaType function (mfapi.h)
-
 description: Allocates a system-memory buffer that is optimal for a specified media type.
 old-location: mf\mfcreatemediabufferfrommediatype.htm
 tech.root: medfound
 ms.assetid: 1EBDB616-6FA9-4E4E-9BC6-CA1E382A08D9
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateMediaBufferFromMediaType, MFCreateMediaBufferFromMediaType function [Media Foundation], mf.mfcreatemediabufferfrommediatype, mfapi/MFCreateMediaBufferFromMediaType
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFCreateMediaBufferFromMediaType"
+f1_keywords:
+- mfapi/MFCreateMediaBufferFromMediaType
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateMediaBufferFromMediaType
+- MFCreateMediaBufferFromMediaType
 targetos: Windows
 req.typenames: 
 req.redist: 

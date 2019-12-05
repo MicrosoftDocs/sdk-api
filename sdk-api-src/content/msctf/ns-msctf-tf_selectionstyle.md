@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_SELECTIONSTYLE
 title: TF_SELECTIONSTYLE (msctf.h)
-
 description: The TF_SELECTIONSTYLE structure represents the style of a selection.
 old-location: tsf\tf_selectionstyle.htm
 tech.root: TSF
 ms.assetid: 3a38172b-611b-445f-be24-ea2a19178255
-
 ms.date: 12/05/2018
 ms.keywords: TF_SELECTIONSTYLE, TF_SELECTIONSTYLE structure [Text Services Framework], _tsf_tf_selectionstyle_ref, msctf/TF_SELECTIONSTYLE, tsf.tf_selectionstyle
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_SELECTIONSTYLE"
+f1_keywords:
+- msctf/TF_SELECTIONSTYLE
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_SELECTIONSTYLE
+- TF_SELECTIONSTYLE
 targetos: Windows
 req.typenames: TF_SELECTIONSTYLE
 req.redist: TSF 1.0 on Windows 2000 Professional

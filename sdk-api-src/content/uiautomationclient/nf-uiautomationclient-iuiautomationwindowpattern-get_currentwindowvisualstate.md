@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationWindowPattern.get_CurrentWindowVisualState
 title: IUIAutomationWindowPattern::get_CurrentWindowVisualState (uiautomationclient.h)
-
 description: Retrieves the visual state of the window; that is, whether it is in the normal, maximized, or minimized state.
 old-location: winauto\uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState.htm
 tech.root: WinAuto
 ms.assetid: 307b995c-c656-4c91-8de2-94186ab9f5b3
-
 ms.date: 12/05/2018
 ms.keywords: CurrentWindowVisualState property [Windows Accessibility], CurrentWindowVisualState property [Windows Accessibility],IUIAutomationWindowPattern interface, IUIAutomationWindowPattern interface [Windows Accessibility],CurrentWindowVisualState property, IUIAutomationWindowPattern.CurrentWindowVisualState, IUIAutomationWindowPattern.get_CurrentWindowVisualState, IUIAutomationWindowPattern::CurrentWindowVisualState, IUIAutomationWindowPattern::get_CurrentWindowVisualState, get_CurrentWindowVisualState, uiauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::CurrentWindowVisualState, uiautomationclient/IUIAutomationWindowPattern::get_CurrentWindowVisualState, winauto.uiauto_IUIAutomationWindowPattern_CurrentWindowVisualState
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationWindowPattern.CurrentWindowVisualState"
+f1_keywords:
+- uiautomationclient/IUIAutomationWindowPattern.CurrentWindowVisualState
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern.CurrentWindowVisualState
- - IUIAutomationWindowPattern.get_CurrentWindowVisualState
+- IUIAutomationWindowPattern.CurrentWindowVisualState
+- IUIAutomationWindowPattern.get_CurrentWindowVisualState
 targetos: Windows
 req.typenames: 
 req.redist: 

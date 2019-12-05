@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUS_PARTITION_INFO_EX
 title: CLUS_PARTITION_INFO_EX (clusapi.h)
-
 description: Describes a storage class resource volume and file system.
 old-location: mscs\clus_partition_info_ex.htm
 tech.root: MsCS
 ms.assetid: d061bcb5-7c4c-4d07-9cdf-fa9f7ac34b3c
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUS_PARTITION_INFO_EX, CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, CLUS_PARTITION_INFO_EX, CLUS_PARTITION_INFO_EX structure [Failover Cluster], FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUS_PARTITION_INFO_EX, PCLUS_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX, clusapi/PCLUS_PARTITION_INFO_EX, mscs.clus_partition_info_ex"
+ms.keywords: '*PCLUS_PARTITION_INFO_EX, CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, CLUS_PARTITION_INFO_EX, CLUS_PARTITION_INFO_EX structure [Failover Cluster], FS_CASE_IS_PRESERVED, FS_CASE_SENSITIVE, FS_PERSISTENT_ACLS, FS_UNICODE_STORED_ON_DISK, PCLUS_PARTITION_INFO_EX, PCLUS_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUS_PARTITION_INFO_EX, clusapi/PCLUS_PARTITION_INFO_EX, mscs.clus_partition_info_ex'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUS_PARTITION_INFO_EX"
+f1_keywords:
+- clusapi/CLUS_PARTITION_INFO_EX
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUS_PARTITION_INFO_EX
+- CLUS_PARTITION_INFO_EX
 targetos: Windows
 req.typenames: CLUS_PARTITION_INFO_EX, *PCLUS_PARTITION_INFO_EX
 req.redist: 

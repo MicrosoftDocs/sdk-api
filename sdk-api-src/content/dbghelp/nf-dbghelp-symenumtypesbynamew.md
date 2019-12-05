@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumTypesByNameW
 title: SymEnumTypesByNameW function (dbghelp.h)
-
 description: Enumerates all user-defined types.
 old-location: base\symenumtypesbyname.htm
 tech.root: Debug
 ms.assetid: 48acb588-23fa-44f3-8b8c-f3c76371d1fd
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumTypesByName, SymEnumTypesByName function, SymEnumTypesByNameW, base.symenumtypesbyname, dbghelp/SymEnumTypesByName, dbghelp/SymEnumTypesByNameW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumTypesByName"
+f1_keywords:
+- dbghelp/SymEnumTypesByName
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - imagehlp.dll
+- Dbghelp.dll
+- imagehlp.dll
 api_name:
- - SymEnumTypesByName
- - SymEnumTypesByName
- - SymEnumTypesByNameW
+- SymEnumTypesByName
+- SymEnumTypesByName
+- SymEnumTypesByNameW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

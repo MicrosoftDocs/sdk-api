@@ -1,19 +1,17 @@
 ---
 UID: NF:robuffer.IBufferByteAccess.Buffer
 title: IBufferByteAccess::Buffer (robuffer.h)
-
 description: Gets the array of bytes in the buffer.
 old-location: winrt\ibufferbyteaccess_buffer.htm
 tech.root: WinRT
 ms.assetid: 51E69696-CE8A-4390-8134-EE5C5F3C729B
-
 ms.date: 12/05/2018
 ms.keywords: Buffer, Buffer method [Windows Runtime], Buffer method [Windows Runtime],IBufferByteAccess interface, IBufferByteAccess interface [Windows Runtime],Buffer method, IBufferByteAccess.Buffer, IBufferByteAccess::Buffer, robuffer/IBufferByteAccess::Buffer, winrt.ibufferbyteaccess_buffer
 ms.topic: method
-f1_keywords: 
- - "robuffer/IBufferByteAccess.Buffer"
+f1_keywords:
+- robuffer/IBufferByteAccess.Buffer
 dev_langs:
- - c++
+- c++
 req.header: robuffer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - robuffer.h
+- robuffer.h
 api_name:
- - IBufferByteAccess.Buffer
+- IBufferByteAccess.Buffer
 targetos: Windows
 req.typenames: 
 req.redist: 

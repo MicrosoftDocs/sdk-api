@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GenerateReport
 title: IGPMGPO::GenerateReport (gpmgmt.h)
-
 description: Gets the report for a GPO.
 old-location: gpmc\igpmgpo_generatereport.htm
 tech.root: gpmc
 ms.assetid: 19b3b027-59f1-4c31-896b-5b5fd23b9be4
-
 ms.date: 12/05/2018
 ms.keywords: GenerateReport, GenerateReport method [GPMC], GenerateReport method [GPMC],IGPMGPO interface, IGPMGPO interface [GPMC],GenerateReport method, IGPMGPO.GenerateReport, IGPMGPO::GenerateReport, gpmc.igpmgpo_generatereport, gpmgmt/IGPMGPO::GenerateReport
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMGPO.GenerateReport"
+f1_keywords:
+- gpmgmt/IGPMGPO.GenerateReport
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMGPO.GenerateReport
+- IGPMGPO.GenerateReport
 targetos: Windows
 req.typenames: 
 req.redist: 

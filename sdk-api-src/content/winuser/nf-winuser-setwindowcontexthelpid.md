@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetWindowContextHelpId
 title: SetWindowContextHelpId function (winuser.h)
-
 description: Associates a Help context identifier with the specified window.
 old-location: shell\SetWindowContextHelpId.htm
 tech.root: shell
 ms.assetid: 7e0963d1-5807-4db5-9abf-cdb21a03b525
-
 ms.date: 12/05/2018
 ms.keywords: SetWindowContextHelpId, SetWindowContextHelpId function [Windows Shell], _win32_SetWindowContextHelpId, shell.SetWindowContextHelpId, winuser/SetWindowContextHelpId
 ms.topic: function
-f1_keywords: 
- - "winuser/SetWindowContextHelpId"
+f1_keywords:
+- winuser/SetWindowContextHelpId
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SetWindowContextHelpId
+- SetWindowContextHelpId
 targetos: Windows
 req.typenames: 
 req.redist: 

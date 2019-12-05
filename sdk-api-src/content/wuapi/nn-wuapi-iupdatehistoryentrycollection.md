@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IUpdateHistoryEntryCollection
 title: IUpdateHistoryEntryCollection (wuapi.h)
-
 description: Represents an ordered read-only list of IUpdateHistoryEntry interfaces.
 old-location: wua\iupdatehistoryentrycollection.htm
 tech.root: Wua_Sdk
 ms.assetid: c3bc764b-c9cc-4567-963e-2e481bdda611
-
 ms.date: 12/05/2018
 ms.keywords: IUpdateHistoryEntryCollection, IUpdateHistoryEntryCollection interface [Windows Update Agent], IUpdateHistoryEntryCollection interface [Windows Update Agent],described, wua.iupdatehistoryentrycollection, wuapi/IUpdateHistoryEntryCollection
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntryCollection"
+f1_keywords:
+- wuapi/IUpdateHistoryEntryCollection
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntryCollection
+- IUpdateHistoryEntryCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

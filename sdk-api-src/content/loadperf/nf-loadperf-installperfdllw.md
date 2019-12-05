@@ -1,19 +1,17 @@
 ---
 UID: NF:loadperf.InstallPerfDllW
 title: InstallPerfDllW function (loadperf.h)
-
 description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
 old-location: winprog\installperfdll.htm
 tech.root: DevNotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
-
 ms.date: 12/05/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
 ms.topic: function
-f1_keywords: 
- - "loadperf/InstallPerfDll"
+f1_keywords:
+- loadperf/InstallPerfDll
 dev_langs:
- - c++
+- c++
 req.header: loadperf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Loadperf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Loadperf.dll
+- Loadperf.dll
 api_name:
- - InstallPerfDll
- - InstallPerfDllW
+- InstallPerfDll
+- InstallPerfDllW
 targetos: Windows
 req.typenames: 
 req.redist: 

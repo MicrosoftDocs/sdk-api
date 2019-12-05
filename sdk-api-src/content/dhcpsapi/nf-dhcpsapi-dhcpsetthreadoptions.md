@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpSetThreadOptions
 title: DhcpSetThreadOptions function (dhcpsapi.h)
-
 description: The DhcpSetThreadOptions function sets options on the currently executing DHCP thread.
 old-location: dhcp\dhcpsetthreadoptions.htm
 tech.root: DHCP
 ms.assetid: aadca143-6fdd-4b25-9bd5-1ba177be148e
-
 ms.date: 12/05/2018
 ms.keywords: DHCP_FLAGS_DONT_ACCESS_DS, DhcpSetThreadOptions, DhcpSetThreadOptions function [DHCP], dhcp.dhcpsetthreadoptions, dhcpsapi/DhcpSetThreadOptions
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpSetThreadOptions"
+f1_keywords:
+- dhcpsapi/DhcpSetThreadOptions
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpSetThreadOptions
+- DhcpSetThreadOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

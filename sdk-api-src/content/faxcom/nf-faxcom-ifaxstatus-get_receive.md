@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_Receive
 title: IFaxStatus::get_Receive (faxcom.h)
-
 description: Retrieves the Receive property for the FaxStatus object of a parent FaxPort object. The Receive property is a Boolean value that indicates whether a specified fax port is currently receiving a fax.
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_receive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5u1x.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxStatus interface [Fax Service],Receive property, IFaxStatus.Receive, IFaxStatus.get_Receive, IFaxStatus::Receive, IFaxStatus::get_Receive, Receive property [Fax Service], Receive property [Fax Service],IFaxStatus interface, _mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_get_receive, fax._mfax_ifaxstatus_mfax_ifaxstatus_get_receive_cpp, faxcom/IFaxStatus::Receive, faxcom/IFaxStatus::get_Receive, get_Receive
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxStatus.Receive"
+f1_keywords:
+- faxcom/IFaxStatus.Receive
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxStatus.Receive
- - IFaxStatus.get_Receive
+- IFaxStatus.Receive
+- IFaxStatus.get_Receive
 targetos: Windows
 req.typenames: 
 req.redist: 

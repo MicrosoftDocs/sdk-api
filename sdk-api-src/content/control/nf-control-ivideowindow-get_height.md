@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_Height
 title: IVideoWindow::get_Height (control.h)
-
 description: The get_Height method retrieves the height of the video window.
 old-location: dshow\ivideowindow_get_height.htm
 tech.root: DirectShow
 ms.assetid: c1d29cd5-1e82-4406-b007-aa7b581d158e
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Height method, IVideoWindow.get_Height, IVideoWindow::get_Height, IVideoWindowget_Height, control/IVideoWindow::get_Height, dshow.ivideowindow_get_height, get_Height, get_Height method [DirectShow], get_Height method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_Height"
+f1_keywords:
+- control/IVideoWindow.get_Height
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_Height
+- IVideoWindow.get_Height
 targetos: Windows
 req.typenames: 
 req.redist: 

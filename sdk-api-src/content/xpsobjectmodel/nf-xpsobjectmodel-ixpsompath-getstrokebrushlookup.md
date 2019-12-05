@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLookup
 title: IXpsOMPath::GetStrokeBrushLookup (xpsobjectmodel.h)
-
 description: Gets the lookup key of the brush that is stored in a resource dictionary and is to be used as the stroke brush for the path.
 old-location: xps\ixpsompath_getstrokebrushlookup.htm
 tech.root: printdocs
 ms.assetid: af70b6a3-203a-4189-b44d-763539e0302a
-
 ms.date: 12/05/2018
 ms.keywords: GetStrokeBrushLookup, GetStrokeBrushLookup method [XPS Documents and Packaging], GetStrokeBrushLookup method [XPS Documents and Packaging],IXpsOMPath interface, IXpsOMPath interface [XPS Documents and Packaging],GetStrokeBrushLookup method, IXpsOMPath.GetStrokeBrushLookup, IXpsOMPath::GetStrokeBrushLookup, xps.ixpsompath_getstrokebrushlookup, xpsobjectmodel/IXpsOMPath::GetStrokeBrushLookup
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPath.GetStrokeBrushLookup"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPath.GetStrokeBrushLookup
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPath.GetStrokeBrushLookup
+- IXpsOMPath.GetStrokeBrushLookup
 targetos: Windows
 req.typenames: 
 req.redist: 

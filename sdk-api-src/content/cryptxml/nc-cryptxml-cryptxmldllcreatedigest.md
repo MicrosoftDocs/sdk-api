@@ -1,19 +1,17 @@
 ---
 UID: NC:cryptxml.CryptXmlDllCreateDigest
 title: CryptXmlDllCreateDigest (cryptxml.h)
-
 description: Creates a digest object for the specified method.
 old-location: security\cryptxmldllcreatedigest.htm
 tech.root: SecCrypto
 ms.assetid: 9c9b14c8-511b-4e40-b3d3-014d75dc7fe4
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllCreateDigest, CryptXmlDllCreateDigest callback, CryptXmlDllCreateDigest callback function [Security], cryptxml/CryptXmlDllCreateDigest, security.cryptxmldllcreatedigest
 ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllCreateDigest
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

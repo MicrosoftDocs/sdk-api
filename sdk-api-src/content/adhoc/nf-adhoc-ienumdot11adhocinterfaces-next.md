@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocInterfaces.Next
 title: IEnumDot11AdHocInterfaces::Next (adhoc.h)
-
 description: Gets the specified number of elements from the sequence and advances the current position by the number of items retrieved.
 old-location: nwifi\ienumdot11adhocinterfaces_next.htm
 tech.root: NativeWiFi
 ms.assetid: 2c20e215-a4ef-456e-ba19-0d9268279bf3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDot11AdHocInterfaces interface [NativeWIFI],Next method, IEnumDot11AdHocInterfaces.Next, IEnumDot11AdHocInterfaces::Next, Next, Next method [NativeWIFI], Next method [NativeWIFI],IEnumDot11AdHocInterfaces interface, adhoc/IEnumDot11AdHocInterfaces::Next, nwifi.ienumdot11adhocinterfaces_next
 ms.topic: method
-f1_keywords: 
- - "adhoc/IEnumDot11AdHocInterfaces.Next"
+f1_keywords:
+- adhoc/IEnumDot11AdHocInterfaces.Next
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IEnumDot11AdHocInterfaces.Next
+- IEnumDot11AdHocInterfaces.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

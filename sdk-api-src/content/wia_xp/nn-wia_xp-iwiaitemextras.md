@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaItemExtras
 title: IWiaItemExtras (wia_xp.h)
-
 description: The IWiaItemExtras interface provides several methods that enable applications to communicate with hardware drivers.
 old-location: wia\_wia_IWiaItemExtras.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\iwiaitemextras.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaItemExtras, IWiaItemExtras interface [WIA], IWiaItemExtras interface [WIA],described, _wia_IWiaItemExtras, wia._wia_IWiaItemExtras, wia_xp/IWiaItemExtras
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaItemExtras"
+f1_keywords:
+- wia_xp/IWiaItemExtras
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaItemExtras
+- IWiaItemExtras
 targetos: Windows
 req.typenames: 
 req.redist: 

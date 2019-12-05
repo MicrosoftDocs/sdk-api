@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsDocumentPackageTarget.GetXpsOMFactory
 title: IXpsDocumentPackageTarget::GetXpsOMFactory (xpsobjectmodel_1.h)
-
 description: Gets the IXpsOMObjectFactory object for the document package.
 old-location: xps\ixpsdocumentpackagetarget_getxpsomfactory.htm
 tech.root: printdocs
 ms.assetid: 130114DF-DEE7-4ADD-8080-7D804F9F296E
-
 ms.date: 12/05/2018
 ms.keywords: GetXpsOMFactory, GetXpsOMFactory method [XPS Documents and Packaging], GetXpsOMFactory method [XPS Documents and Packaging],IXpsDocumentPackageTarget interface, IXpsDocumentPackageTarget interface [XPS Documents and Packaging],GetXpsOMFactory method, IXpsDocumentPackageTarget.GetXpsOMFactory, IXpsDocumentPackageTarget::GetXpsOMFactory, xps.ixpsdocumentpackagetarget_getxpsomfactory, xpsobjectmodel_1/IXpsDocumentPackageTarget::GetXpsOMFactory
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsOMFactory"
+f1_keywords:
+- xpsobjectmodel_1/IXpsDocumentPackageTarget.GetXpsOMFactory
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Xpsobjectmodel_1.h
+- Xpsobjectmodel_1.h
 api_name:
- - IXpsDocumentPackageTarget.GetXpsOMFactory
+- IXpsDocumentPackageTarget.GetXpsOMFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

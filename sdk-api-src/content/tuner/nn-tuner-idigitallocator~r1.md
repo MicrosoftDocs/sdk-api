@@ -1,39 +1,37 @@
 ---
 UID: NN:tuner.IDigitalLocator~r1
 title: IDigitalLocator
-
 description: TBD
-tech.root:
+tech.root: 
 ms.assetid: 1ed191c2-c0c0-4c8b-b9a1-6bc0fe128d38
-
 ms.date: 11/14/2019
 ms.topic: interface
-f1_keywords: 
- - "tuner/IDigitalLocator"
+f1_keywords:
+- tuner/IDigitalLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
- - apiref
-api_type: 
- - COM
-api_location: 
- - tuner.h
-api_name: 
- - IDigitalLocator
+topic_type:
+- apiref
+api_type:
+- COM
+api_location:
+- tuner.h
+api_name:
+- IDigitalLocator
 targetos: Windows
 ms.custom: 19H1
 ---

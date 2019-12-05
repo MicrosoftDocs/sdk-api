@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.ICertView.SetResultColumnCount
 title: ICertView::SetResultColumnCount (certview.h)
-
 description: Specifies the maximum number of columns for the result set of a customized view of the Certificate Services database.
 old-location: security\icertview2_setresultcolumncount.htm
 tech.root: SecCrypto
 ms.assetid: f98b2f45-be9f-47ba-9c6b-63a2912288ac
-
 ms.date: 12/05/2018
 ms.keywords: CCertView object [Security],SetResultColumnCount method, CV_COLUMN_LOG_DEFAULT, CV_COLUMN_LOG_FAILED_DEFAULT, CV_COLUMN_QUEUE_DEFAULT, ICertView interface [Security],SetResultColumnCount method, ICertView.SetResultColumnCount, ICertView2 interface [Security],SetResultColumnCount method, ICertView2::SetResultColumnCount, ICertView::SetResultColumnCount, SetResultColumnCount, SetResultColumnCount method [Security], SetResultColumnCount method [Security],CCertView object, SetResultColumnCount method [Security],ICertView interface, SetResultColumnCount method [Security],ICertView2 interface, certview/ICertView2::SetResultColumnCount, certview/ICertView::SetResultColumnCount, security.icertview2_setresultcolumncount
 ms.topic: method
-f1_keywords: 
- - "certview/ICertView2.SetResultColumnCount"
+f1_keywords:
+- certview/ICertView2.SetResultColumnCount
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - ICertView2.SetResultColumnCount
- - ICertView.SetResultColumnCount
- - CCertView.SetResultColumnCount
+- ICertView2.SetResultColumnCount
+- ICertView.SetResultColumnCount
+- CCertView.SetResultColumnCount
 targetos: Windows
 req.typenames: 
 req.redist: 

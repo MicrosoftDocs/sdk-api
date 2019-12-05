@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandQueue
 title: ID3D12DebugCommandQueue (d3d12sdklayers.h)
-
 description: Provides methods to monitor and debug a command queue.
 old-location: direct3d12\id3d12debugcommandqueue.htm
 tech.root: direct3d12
 ms.assetid: 383F3B25-10C6-464C-AB79-D35F6FD3E879
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12DebugCommandQueue, ID3D12DebugCommandQueue interface, ID3D12DebugCommandQueue interface,described, d3d12sdklayers/ID3D12DebugCommandQueue, direct3d12.id3d12debugcommandqueue
 ms.topic: interface
-f1_keywords: 
- - "d3d12sdklayers/ID3D12DebugCommandQueue"
+f1_keywords:
+- d3d12sdklayers/ID3D12DebugCommandQueue
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandQueue
+- ID3D12DebugCommandQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

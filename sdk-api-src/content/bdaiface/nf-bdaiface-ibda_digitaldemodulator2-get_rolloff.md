@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_RollOff
 title: IBDA_DigitalDemodulator2::get_RollOff (bdaiface.h)
-
 description: Gets the demodulator's roll-off factor.
 old-location: mstv\ibda_digitaldemodulator2_get_rolloff.htm
 tech.root: mstv
 ms.assetid: 4b1cd08a-50fd-48e9-9e97-8460e6c990c1
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies],get_RollOff method, IBDA_DigitalDemodulator2.get_RollOff, IBDA_DigitalDemodulator2::get_RollOff, bdaiface/IBDA_DigitalDemodulator2::get_RollOff, get_RollOff, get_RollOff method [Microsoft TV Technologies], get_RollOff method [Microsoft TV Technologies],IBDA_DigitalDemodulator2 interface, mstv.ibda_digitaldemodulator2_get_rolloff
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_DigitalDemodulator2.get_RollOff"
+f1_keywords:
+- bdaiface/IBDA_DigitalDemodulator2.get_RollOff
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator2.get_RollOff
+- IBDA_DigitalDemodulator2.get_RollOff
 targetos: Windows
 req.typenames: 
 req.redist: 

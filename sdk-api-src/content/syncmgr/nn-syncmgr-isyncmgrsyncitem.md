@@ -1,19 +1,17 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncItem
 title: ISyncMgrSyncItem (syncmgr.h)
-
 description: Exposes methods that act on and retrieve information from a single sync item, allowing handlers to manage sync items as independent objects.
 old-location: shell\ISyncMgrSyncItem.htm
 tech.root: shell
 ms.assetid: 322c2ebe-f1ab-4de4-b8d5-2fba1e69ddda
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrSyncItem, ISyncMgrSyncItem interface [Windows Shell], ISyncMgrSyncItem interface [Windows Shell],described, _shell_ISyncMgrSyncItem, shell.ISyncMgrSyncItem, syncmgr/ISyncMgrSyncItem
 ms.topic: interface
-f1_keywords: 
- - "syncmgr/ISyncMgrSyncItem"
+f1_keywords:
+- syncmgr/ISyncMgrSyncItem
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrSyncItem
+- ISyncMgrSyncItem
 targetos: Windows
 req.typenames: 
 req.redist: 

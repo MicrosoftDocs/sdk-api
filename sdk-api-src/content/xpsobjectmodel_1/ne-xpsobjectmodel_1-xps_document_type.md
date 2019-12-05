@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsobjectmodel_1.__MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001
 title: XPS_DOCUMENT_TYPE (xpsobjectmodel_1.h)
-
 description: Indicates the format into which the document was serialized.
 old-location: xps\xps_document_type.htm
 tech.root: printdocs
 ms.assetid: C34629CB-7F8C-4126-BBE3-BF506D7586E9
-
 ms.date: 12/05/2018
 ms.keywords: XPS_DOCUMENT_TYPE, XPS_DOCUMENT_TYPE enumeration [XPS Documents and Packaging], XPS_DOCUMENT_TYPE_OPENXPS, XPS_DOCUMENT_TYPE_UNSPECIFIED, XPS_DOCUMENT_TYPE_XPS, xps.xps_document_type, xpsobjectmodel_1/XPS_DOCUMENT_TYPE, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_OPENXPS, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_UNSPECIFIED, xpsobjectmodel_1/XPS_DOCUMENT_TYPE_XPS
 ms.topic: enum
-f1_keywords: 
- - "xpsobjectmodel_1/XPS_DOCUMENT_TYPE"
+f1_keywords:
+- xpsobjectmodel_1/XPS_DOCUMENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel_1.h
+- xpsobjectmodel_1.h
 api_name:
- - XPS_DOCUMENT_TYPE
+- XPS_DOCUMENT_TYPE
 targetos: Windows
 req.typenames: XPS_DOCUMENT_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry)
 title: ID2D1Factory::CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry) (d2d1.h)
-
 description: Transforms the specified geometry and stores the result as an ID2D1TransformedGeometry object.
 old-location: direct2d\ID2D1Factory_CreateTransformedGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_ptr_ID2D1TransformedGeometry.htm
 tech.root: Direct2D
 ms.assetid: 14ffec4f-3ea1-4dd1-85ea-f6b9d439226e
-
 ms.date: 12/05/2018
 ms.keywords: CreateTransformedGeometry, CreateTransformedGeometry method [Direct2D], CreateTransformedGeometry method [Direct2D],ID2D1Factory interface, ID2D1Factory interface [Direct2D],CreateTransformedGeometry method, ID2D1Factory.CreateTransformedGeometry, ID2D1Factory.CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry), ID2D1Factory::CreateTransformedGeometry, ID2D1Factory::CreateTransformedGeometry(ID2D1Geometry,const D2D1_MATRIX_3X2_F &,ID2D1TransformedGeometry), d2d1/ID2D1Factory::CreateTransformedGeometry, direct2d.ID2D1Factory_CreateTransformedGeometry_ptr_ID2D1Geometry_ref_D2D_MATRIX_3X2_F_ptr_ptr_ID2D1TransformedGeometry
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1Factory.CreateTransformedGeometry"
+f1_keywords:
+- d2d1/ID2D1Factory.CreateTransformedGeometry
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Factory.CreateTransformedGeometry
+- ID2D1Factory.CreateTransformedGeometry
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.Delete
 title: IPhotoAcquireItem::Delete (photoacquire.h)
-
 description: The Delete method deletes an item.
 old-location: picacq\iphotoacquireitem_delete.htm
 tech.root: acquisition
 ms.assetid: e1ffe49b-b7d6-46ae-b83b-8d8487bd7b24
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [Picture Acquisition], Delete method [Picture Acquisition],IPhotoAcquireItem interface, IPhotoAcquireItem interface [Picture Acquisition],Delete method, IPhotoAcquireItem.Delete, IPhotoAcquireItem::Delete, IPhotoAcquireItemDelete, photoacquire/IPhotoAcquireItem::Delete, picacq.iphotoacquireitem_delete
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireItem.Delete"
+f1_keywords:
+- photoacquire/IPhotoAcquireItem.Delete
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem.Delete
+- IPhotoAcquireItem.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

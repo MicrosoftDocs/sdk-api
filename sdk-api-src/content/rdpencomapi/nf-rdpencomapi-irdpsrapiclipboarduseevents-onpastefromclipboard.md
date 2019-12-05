@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 title: IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard (rdpencomapi.h)
-
 description: This callback is issued when an attempt to copy data from the sharer computer is made.
 old-location: rdp\irdpsrapiclipboarduseevents_onpastefromclipboard.htm
 tech.root: rdp
 ms.assetid: aa5fccb9-ca7b-4779-a454-f16be8bca72c
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIClipboardUseEvents interface [RDP],OnPasteFromClipboard method, IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard, IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard, OnPasteFromClipboard, OnPasteFromClipboard method [RDP], OnPasteFromClipboard method [RDP],IRDPSRAPIClipboardUseEvents interface, rdp.irdpsrapiclipboarduseevents_onpastefromclipboard, rdpencomapi/IRDPSRAPIClipboardUseEvents::OnPasteFromClipboard
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncomAPI.h
+- RdpEncomAPI.h
 api_name:
- - IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
+- IRDPSRAPIClipboardUseEvents.OnPasteFromClipboard
 targetos: Windows
 req.typenames: 
 req.redist: 

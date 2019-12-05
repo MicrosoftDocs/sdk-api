@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationcore.StructureChangeType
 title: StructureChangeType (uiautomationcore.h)
-
 description: Contains values that specify the type of change in the Microsoft UI Automation tree structure.
 old-location: winauto\uiauto_StructureChangeTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: abaf9551-40c4-4ab6-adb7-b619f3bc9745
-
 ms.date: 12/05/2018
 ms.keywords: StructureChangeType, StructureChangeType enumeration [Windows Accessibility], StructureChangeType_ChildAdded, StructureChangeType_ChildRemoved, StructureChangeType_ChildrenBulkAdded, StructureChangeType_ChildrenBulkRemoved, StructureChangeType_ChildrenInvalidated, StructureChangeType_ChildrenReordered, uiauto.uiauto_StructureChangeTypeEnum, uiauto_StructureChangeTypeEnum, uiautomationcore/StructureChangeType, uiautomationcore/StructureChangeType_ChildAdded, uiautomationcore/StructureChangeType_ChildRemoved, uiautomationcore/StructureChangeType_ChildrenBulkAdded, uiautomationcore/StructureChangeType_ChildrenBulkRemoved, uiautomationcore/StructureChangeType_ChildrenInvalidated, uiautomationcore/StructureChangeType_ChildrenReordered, winauto.uiauto_StructureChangeTypeEnum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationcore/StructureChangeType"
+f1_keywords:
+- uiautomationcore/StructureChangeType
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - StructureChangeType
+- StructureChangeType
 targetos: Windows
 req.typenames: 
 req.redist: 

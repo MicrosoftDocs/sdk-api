@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.SetTextCharacterExtra
 title: SetTextCharacterExtra function (wingdi.h)
-
 description: The SetTextCharacterExtra function sets the intercharacter spacing. Intercharacter spacing is added to each character, including break characters, when the system writes a line of text.
 old-location: gdi\settextcharacterextra.htm
 tech.root: gdi
 ms.assetid: 83b7d225-4fb9-4c75-bc4a-e1bea7f901f1
-
 ms.date: 12/05/2018
 ms.keywords: SetTextCharacterExtra, SetTextCharacterExtra function [Windows GDI], _win32_SetTextCharacterExtra, gdi.settextcharacterextra, wingdi/SetTextCharacterExtra
 ms.topic: function
-f1_keywords: 
- - "wingdi/SetTextCharacterExtra"
+f1_keywords:
+- wingdi/SetTextCharacterExtra
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Font-l1-1-1.dll
- - ext-ms-win-gdi-font-l1-1-2.dll
- - Ext-MS-Win-GDI-Font-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Font-l1-1-1.dll
+- ext-ms-win-gdi-font-l1-1-2.dll
+- Ext-MS-Win-GDI-Font-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - SetTextCharacterExtra
+- SetTextCharacterExtra
 targetos: Windows
 req.typenames: 
 req.redist: 

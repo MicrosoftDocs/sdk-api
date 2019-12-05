@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1effects_2.D2D1_LOOKUPTABLE3D_PROP
 title: D2D1_LOOKUPTABLE3D_PROP (d2d1effects_2.h)
-
 description: Identifiers for the properties of the 3D Lookup Table effect.
 old-location: direct2d\d2d1_lookuptable3d_prop.htm
 tech.root: Direct2D
 ms.assetid: A0F866CD-78FE-441E-810E-763347F84323
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_LOOKUPTABLE3D_PROP, D2D1_LOOKUPTABLE3D_PROP enumeration [Direct2D], D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE, D2D1_LOOKUPTABLE3D_PROP_LUT, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_ALPHA_MODE, d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP_LUT, direct2d.d2d1_lookuptable3d_prop
 ms.topic: enum
-f1_keywords: 
- - "d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP"
+f1_keywords:
+- d2d1effects_2/D2D1_LOOKUPTABLE3D_PROP
 dev_langs:
- - c++
+- c++
 req.header: d2d1effects_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1effects_2.h
+- d2d1effects_2.h
 api_name:
- - D2D1_LOOKUPTABLE3D_PROP
+- D2D1_LOOKUPTABLE3D_PROP
 targetos: Windows
 req.typenames: D2D1_LOOKUPTABLE3D_PROP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.GetTimeSeekResult
 title: IMFHttpDownloadRequest::GetTimeSeekResult (mfidl.h)
-
 description: Invoked by Microsoft Media Foundation to retrieve the values of the TimeSeekRange.DLNA.ORG HTTP header, if any, that the server specified in its response.
 old-location: mf\imfhttpdownloadrequest_gettimeseekresult.htm
 tech.root: medfound
 ms.assetid: C7647460-8BAA-4480-A296-D83DFFBC5800
-
 ms.date: 12/05/2018
 ms.keywords: GetTimeSeekResult, GetTimeSeekResult method [Media Foundation], GetTimeSeekResult method [Media Foundation],IMFHttpDownloadRequest interface, IMFHttpDownloadRequest interface [Media Foundation],GetTimeSeekResult method, IMFHttpDownloadRequest.GetTimeSeekResult, IMFHttpDownloadRequest::GetTimeSeekResult, mf.imfhttpdownloadrequest_gettimeseekresult, mfidl/IMFHttpDownloadRequest::GetTimeSeekResult
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadRequest.GetTimeSeekResult"
+f1_keywords:
+- mfidl/IMFHttpDownloadRequest.GetTimeSeekResult
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest.GetTimeSeekResult
+- IMFHttpDownloadRequest.GetTimeSeekResult
 targetos: Windows
 req.typenames: 
 req.redist: 

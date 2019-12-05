@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_BacklightCompensation
 title: IVideoProcAmp::put_BacklightCompensation (vidcap.h)
-
 description: The put_BacklightCompensation method sets the camera's backlight compensation.
 old-location: dshow\ivideoprocamp_put_backlightcompensation.htm
 tech.root: DirectShow
 ms.assetid: 52a9a841-b3d0-41fe-b531-70fa6bac4517
-
 ms.date: 12/05/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_BacklightCompensation method, IVideoProcAmp.put_BacklightCompensation, IVideoProcAmp::put_BacklightCompensation, IVideoProcAmpput_BacklightCompensation, dshow.ivideoprocamp_put_backlightcompensation, put_BacklightCompensation, put_BacklightCompensation method [DirectShow], put_BacklightCompensation method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_BacklightCompensation
 ms.topic: method
-f1_keywords: 
- - "vidcap/IVideoProcAmp.put_BacklightCompensation"
+f1_keywords:
+- vidcap/IVideoProcAmp.put_BacklightCompensation
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Vidcap.h
+- Vidcap.h
 api_name:
- - IVideoProcAmp.put_BacklightCompensation
+- IVideoProcAmp.put_BacklightCompensation
 targetos: Windows
 req.typenames: 
 req.redist: 

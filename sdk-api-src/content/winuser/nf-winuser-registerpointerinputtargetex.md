@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterPointerInputTargetEx
 title: RegisterPointerInputTargetEx function (winuser.h)
-
 description: RegisterPointerInputTargetEx may be altered or unavailable. Instead, use RegisterPointerInputTarget.
 old-location: winauto\registerpointerinputtargetex.htm
 tech.root: WinAuto
 ms.assetid: E2B3D097-36E5-4444-B9DF-B3D38F1FEF48
-
 ms.date: 12/05/2018
 ms.keywords: RegisterPointerInputTargetEx, RegisterPointerInputTargetEx function [Windows Accessibility], winauto.registerpointerinputtargetex, winuser/RegisterPointerInputTargetEx
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterPointerInputTargetEx"
+f1_keywords:
+- winuser/RegisterPointerInputTargetEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
- - MinUser.dll
- - API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
+- User32.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-2.dll
+- MinUser.dll
+- API-MS-Win-RTCore-NTUser-WMPointer-L1-1-3.dll
 api_name:
- - RegisterPointerInputTargetEx
+- RegisterPointerInputTargetEx
 targetos: Windows
 req.typenames: 
 req.redist: 

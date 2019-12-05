@@ -1,19 +1,17 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleDuration
 title: IMFSample::GetSampleDuration (mfobjects.h)
-
 description: Retrieves the duration of the sample.
 old-location: mf\imfsample_getsampleduration.htm
 tech.root: medfound
 ms.assetid: c3284edc-b9b5-489b-9166-3bb6da50bd2a
-
 ms.date: 12/05/2018
 ms.keywords: GetSampleDuration, GetSampleDuration method [Media Foundation], GetSampleDuration method [Media Foundation],IMFSample interface, IMFSample interface [Media Foundation],GetSampleDuration method, IMFSample.GetSampleDuration, IMFSample::GetSampleDuration, c3284edc-b9b5-489b-9166-3bb6da50bd2a, mf.imfsample_getsampleduration, mfobjects/IMFSample::GetSampleDuration
 ms.topic: method
-f1_keywords: 
- - "mfobjects/IMFSample.GetSampleDuration"
+f1_keywords:
+- mfobjects/IMFSample.GetSampleDuration
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSample.GetSampleDuration
+- IMFSample.GetSampleDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

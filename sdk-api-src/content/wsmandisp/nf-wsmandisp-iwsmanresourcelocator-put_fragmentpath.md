@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManResourceLocator.put_FragmentPath
 title: IWSManResourceLocator::put_FragmentPath (wsmandisp.h)
-
 description: Gets or sets the path for a resource fragment or property when ResourceLocator is used in IWSManSession object methods such as Get, Put, or Enumerate.
 old-location: winrm\iwsmanresourcelocator_fragmentpath.htm
 tech.root: winrm
 ms.assetid: c20c0c03-4fe4-417f-95e0-0a9b34b3c1ee
-
 ms.date: 12/05/2018
 ms.keywords: FragmentPath property [Windows Remote Management], FragmentPath property [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],FragmentPath property, IWSManResourceLocator.FragmentPath, IWSManResourceLocator.put_FragmentPath, IWSManResourceLocator::FragmentPath, IWSManResourceLocator::get_FragmentPath, IWSManResourceLocator::put_FragmentPath, put_FragmentPath, winrm.iwsmanresourcelocator_fragmentpath, wsmandisp/IWSManResourceLocator::FragmentPath, wsmandisp/IWSManResourceLocator::get_FragmentPath, wsmandisp/IWSManResourceLocator::put_FragmentPath
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManResourceLocator.FragmentPath"
+f1_keywords:
+- wsmandisp/IWSManResourceLocator.FragmentPath
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManResourceLocator.FragmentPath
- - IWSManResourceLocator.get_FragmentPath
- - IWSManResourceLocator.put_FragmentPath
+- IWSManResourceLocator.FragmentPath
+- IWSManResourceLocator.get_FragmentPath
+- IWSManResourceLocator.put_FragmentPath
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
 title: IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState (wmlss.h)
-
 description: The get_computerHomeMediaSharingAllowedState method retrieves a value that indicates whether media libraries on the computer are allowed to be shared on the home network.
 old-location: wmlss\IWMLSSget_computerHomeMediaSharingAllowedState.htm
 tech.root: WMLSS
 ms.assetid: 9c1ced28-7ed0-4f65-af4d-34774f911621
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],get_computerHomeMediaSharingAllowedState method, IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState, IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState, get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services], get_computerHomeMediaSharingAllowedState method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSget_computerHomeMediaSharingAllowedState, wmlss/IWindowsMediaLibrarySharingServices::get_computerHomeMediaSharingAllowedState
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
+- IWindowsMediaLibrarySharingServices.get_computerHomeMediaSharingAllowedState
 targetos: Windows
 req.typenames: 
 req.redist: 

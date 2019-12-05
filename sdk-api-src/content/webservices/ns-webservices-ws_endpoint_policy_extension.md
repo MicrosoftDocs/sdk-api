@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_ENDPOINT_POLICY_EXTENSION
 title: WS_ENDPOINT_POLICY_EXTENSION (webservices.h)
-
 description: This structure is used to specify an endpoint policy extension.
 old-location: wsw\ws_endpoint_policy_extension.htm
 tech.root: wsw
 ms.assetid: 8bcb2466-fb07-4a15-82a2-87fc7f0f3d92
-
 ms.date: 12/05/2018
 ms.keywords: WS_ENDPOINT_POLICY_EXTENSION, WS_ENDPOINT_POLICY_EXTENSION structure [Web Services for Windows], webservices/WS_ENDPOINT_POLICY_EXTENSION, wsw.ws_endpoint_policy_extension
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_ENDPOINT_POLICY_EXTENSION"
+f1_keywords:
+- webservices/WS_ENDPOINT_POLICY_EXTENSION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_ENDPOINT_POLICY_EXTENSION
+- WS_ENDPOINT_POLICY_EXTENSION
 targetos: Windows
 req.typenames: WS_ENDPOINT_POLICY_EXTENSION
 req.redist: 

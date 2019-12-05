@@ -1,19 +1,17 @@
 ---
 UID: NE:wpcevent.tagWPC_ARGS_URLVISITEVENT
 title: WPC_ARGS_URLVISITEVENT (wpcevent.h)
-
 description: Indicates information about the address URL of a website viewed.
 old-location: parcon\wpc_args_urlvisitevent.htm
 tech.root: parcon
 ms.assetid: 53cc633d-2e68-48d3-9150-1aee094354e5
-
 ms.date: 12/05/2018
 ms.keywords: WPC_ARGS_URLVISITEVENT, WPC_ARGS_URLVISITEVENT enumeration, WPC_ARGS_URLVISITEVENT_APPNAME, WPC_ARGS_URLVISITEVENT_CARGS, WPC_ARGS_URLVISITEVENT_CATCOUNT, WPC_ARGS_URLVISITEVENT_CATEGORY, WPC_ARGS_URLVISITEVENT_RATINGSYSTEMID, WPC_ARGS_URLVISITEVENT_REASON, WPC_ARGS_URLVISITEVENT_URL, WPC_ARGS_URLVISITEVENT_VERSION, parcon.wpc_args_urlvisitevent, wpcevent/WPC_ARGS_URLVISITEVENT, wpcevent/WPC_ARGS_URLVISITEVENT_APPNAME, wpcevent/WPC_ARGS_URLVISITEVENT_CARGS, wpcevent/WPC_ARGS_URLVISITEVENT_CATCOUNT, wpcevent/WPC_ARGS_URLVISITEVENT_CATEGORY, wpcevent/WPC_ARGS_URLVISITEVENT_RATINGSYSTEMID, wpcevent/WPC_ARGS_URLVISITEVENT_REASON, wpcevent/WPC_ARGS_URLVISITEVENT_URL, wpcevent/WPC_ARGS_URLVISITEVENT_VERSION
 ms.topic: enum
-f1_keywords: 
- - "wpcevent/WPC_ARGS_URLVISITEVENT"
+f1_keywords:
+- wpcevent/WPC_ARGS_URLVISITEVENT
 dev_langs:
- - c++
+- c++
 req.header: wpcevent.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wpcevent.h
+- Wpcevent.h
 api_name:
- - WPC_ARGS_URLVISITEVENT
+- WPC_ARGS_URLVISITEVENT
 targetos: Windows
 req.typenames: WPC_ARGS_URLVISITEVENT
 req.redist: 

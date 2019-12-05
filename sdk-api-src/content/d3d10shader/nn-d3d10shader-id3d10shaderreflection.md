@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10shader.ID3D10ShaderReflection
 title: ID3D10ShaderReflection (d3d10shader.h)
-
 description: A shader-reflection interface accesses shader information.
 old-location: direct3d10\id3d10shaderreflection.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10ShaderReflection, ID3D10ShaderReflection interface [Direct3D 10], ID3D10ShaderReflection interface [Direct3D 10],described, d3d10shader/ID3D10ShaderReflection, direct3d10.id3d10shaderreflection, fd699fe1-b903-c976-14c4-3b0023611424
 ms.topic: interface
-f1_keywords: 
- - "d3d10shader/ID3D10ShaderReflection"
+f1_keywords:
+- d3d10shader/ID3D10ShaderReflection
 dev_langs:
- - c++
+- c++
 req.header: d3d10shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10ShaderReflection
+- ID3D10ShaderReflection
 targetos: Windows
 req.typenames: 
 req.redist: 

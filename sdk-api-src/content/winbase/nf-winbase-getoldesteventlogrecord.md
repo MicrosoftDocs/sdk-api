@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetOldestEventLogRecord
 title: GetOldestEventLogRecord function (winbase.h)
-
 description: Retrieves the absolute record number of the oldest record in the specified event log.
 old-location: base\getoldesteventlogrecord.htm
 tech.root: EventLog
 ms.assetid: 2f64f82b-a5f5-4701-844b-5979a0124414
-
 ms.date: 12/05/2018
 ms.keywords: GetOldestEventLogRecord, GetOldestEventLogRecord function, _win32_getoldesteventlogrecord, base.getoldesteventlogrecord, winbase/GetOldestEventLogRecord
 ms.topic: function
-f1_keywords: 
- - "winbase/GetOldestEventLogRecord"
+f1_keywords:
+- winbase/GetOldestEventLogRecord
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
+- Advapi32.dll
+- Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - GetOldestEventLogRecord
+- GetOldestEventLogRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

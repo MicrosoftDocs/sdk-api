@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl._COLORMAP
 title: COLORMAP (commctrl.h)
-
 description: Contains information used by the CreateMappedBitmap function to map the colors of the bitmap.
 old-location: controls\COLORMAP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\colormap.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCOLORMAP, LPCOLORMAP structure pointer [Windows Controls], _win32_COLORMAP, _win32_COLORMAP_cpp, commctrl/COLORMAP, commctrl/LPCOLORMAP, controls.COLORMAP, controls._win32_COLORMAP"
+ms.keywords: '*LPCOLORMAP, COLORMAP, COLORMAP structure [Windows Controls], LPCOLORMAP, LPCOLORMAP structure pointer [Windows Controls], _win32_COLORMAP, _win32_COLORMAP_cpp, commctrl/COLORMAP, commctrl/LPCOLORMAP, controls.COLORMAP, controls._win32_COLORMAP'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/COLORMAP"
+f1_keywords:
+- commctrl/COLORMAP
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - COLORMAP
+- COLORMAP
 targetos: Windows
 req.typenames: COLORMAP, *LPCOLORMAP
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMovieSetup.Unregister
 title: IAMovieSetup::Unregister (strmif.h)
-
 description: Note  The IAMovieSetup interface is deprecated. Use the AMovieDllRegisterServer2 function instead. Removes the filter from the registry.
 old-location: dshow\iamoviesetup_unregister.htm
 tech.root: DirectShow
 ms.assetid: 96266aef-f1ef-4b75-9d2e-e574f76fdec7
-
 ms.date: 12/05/2018
 ms.keywords: IAMovieSetup interface [DirectShow],Unregister method, IAMovieSetup.Unregister, IAMovieSetup::Unregister, IAMovieSetupUnregister, Unregister, Unregister method [DirectShow], Unregister method [DirectShow],IAMovieSetup interface, dshow.iamoviesetup_unregister, strmif/IAMovieSetup::Unregister
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMovieSetup.Unregister"
+f1_keywords:
+- strmif/IAMovieSetup.Unregister
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IAMovieSetup.Unregister
+- IAMovieSetup.Unregister
 targetos: Windows
 req.typenames: 
 req.redist: 

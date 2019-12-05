@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsDiskPartitionMF.FormatPartitionEx
 title: IVdsDiskPartitionMF::FormatPartitionEx (vds.h)
-
 description: Formats an existing OEM, ESP, or unknown partition.
 old-location: base\ivdsdiskpartitionmf_formatpartitionex.htm
 tech.root: VDS
 ms.assetid: 82ab6b70-bfa3-4246-aa82-05c6c3b3cbe9
-
 ms.date: 12/05/2018
 ms.keywords: FormatPartitionEx, FormatPartitionEx method, FormatPartitionEx method,IVdsDiskPartitionMF interface, IVdsDiskPartitionMF interface,FormatPartitionEx method, IVdsDiskPartitionMF.FormatPartitionEx, IVdsDiskPartitionMF::FormatPartitionEx, base.ivdsdiskpartitionmf_formatpartitionex, vds/IVdsDiskPartitionMF::FormatPartitionEx
 ms.topic: method
 f1_keywords:
 - vds/IVdsDiskPartitionMF.FormatPartitionEx
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

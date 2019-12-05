@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IRegisteredTask.Run
 title: IRegisteredTask::Run (taskschd.h)
-
 description: Runs the registered task immediately.
 old-location: taskschd\iregisteredtask_run.htm
 tech.root: taskschd
 ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc
-
 ms.date: 12/05/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Run method, IRegisteredTask.Run, IRegisteredTask::Run, Run, Run method [Task Scheduler], Run method [Task Scheduler],IRegisteredTask interface, taskschd.iregisteredtask_run, taskschd/IRegisteredTask::Run
 ms.topic: method
-f1_keywords: 
- - "taskschd/IRegisteredTask.Run"
+f1_keywords:
+- taskschd/IRegisteredTask.Run
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IRegisteredTask.Run
+- IRegisteredTask.Run
 targetos: Windows
 req.typenames: 
 req.redist: 

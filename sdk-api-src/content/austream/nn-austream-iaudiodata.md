@@ -1,19 +1,17 @@
 ---
 UID: NN:austream.IAudioData
 title: IAudioData (austream.h)
-
 description: Note  This interface is deprecated.
 old-location: dshow\iaudiodata.htm
 tech.root: DirectShow
 ms.assetid: 8b253715-a294-4e95-b730-e6efe7f895af
-
 ms.date: 12/05/2018
 ms.keywords: IAudioData, IAudioData interface [DirectShow], IAudioData interface [DirectShow],described, IAudioDataInterface, austream/IAudioData, dshow.iaudiodata
 ms.topic: interface
-f1_keywords: 
- - "austream/IAudioData"
+f1_keywords:
+- austream/IAudioData
 dev_langs:
- - c++
+- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - austream.h
+- austream.h
 api_name:
- - IAudioData
+- IAudioData
 targetos: Windows
 req.typenames: 
 req.redist: 

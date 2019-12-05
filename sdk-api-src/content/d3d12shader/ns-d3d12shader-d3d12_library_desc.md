@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12shader._D3D12_LIBRARY_DESC
 title: D3D12_LIBRARY_DESC (d3d12shader.h)
-
 description: Describes a library.
 old-location: direct3d12\d3d12_library_desc.htm
 tech.root: direct3d12
 ms.assetid: 99CB0B61-8494-4591-A3CB-B6DAD19C79ED
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_LIBRARY_DESC, D3D12_LIBRARY_DESC structure, d3d12shader/D3D12_LIBRARY_DESC, direct3d12.d3d12_library_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d12shader/D3D12_LIBRARY_DESC"
+f1_keywords:
+- d3d12shader/D3D12_LIBRARY_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - D3D12_LIBRARY_DESC
+- D3D12_LIBRARY_DESC
 targetos: Windows
 req.typenames: D3D12_LIBRARY_DESC
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMemAllocatorNotifyCallbackTemp.NotifyRelease
 title: IMemAllocatorNotifyCallbackTemp::NotifyRelease (strmif.h)
-
 description: The NotifyRelease method is called whenever the allocator's IMemAllocator::ReleaseBuffer method is called. The ReleaseBuffer method returns a media sample to the allocator's free list. Samples call this method when their reference counts reach zero.
 old-location: dshow\imemallocatornotifycallbacktemp_notifyrelease.htm
 tech.root: DirectShow
 ms.assetid: deb5d97c-67f7-48ae-b408-1af89477b1b7
-
 ms.date: 12/05/2018
 ms.keywords: IMemAllocatorNotifyCallbackTemp interface [DirectShow],NotifyRelease method, IMemAllocatorNotifyCallbackTemp.NotifyRelease, IMemAllocatorNotifyCallbackTemp::NotifyRelease, IMemAllocatorNotifyCallbackTempNotifyRelease, NotifyRelease, NotifyRelease method [DirectShow], NotifyRelease method [DirectShow],IMemAllocatorNotifyCallbackTemp interface, dshow.imemallocatornotifycallbacktemp_notifyrelease, strmif/IMemAllocatorNotifyCallbackTemp::NotifyRelease
 ms.topic: method
-f1_keywords: 
- - "strmif/IMemAllocatorNotifyCallbackTemp.NotifyRelease"
+f1_keywords:
+- strmif/IMemAllocatorNotifyCallbackTemp.NotifyRelease
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemAllocatorNotifyCallbackTemp.NotifyRelease
+- IMemAllocatorNotifyCallbackTemp.NotifyRelease
 targetos: Windows
 req.typenames: 
 req.redist: 

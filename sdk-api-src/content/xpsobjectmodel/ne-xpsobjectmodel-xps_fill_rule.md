@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0010
 title: XPS_FILL_RULE (xpsobjectmodel.h)
-
 description: The rule used by a composite shape to determine whether a given point is part of the geometry.
 old-location: xps\xps_fill_rule.htm
 tech.root: printdocs
 ms.assetid: 353a4dc3-0c4d-46df-ae31-cc94c4116ca3
-
 ms.date: 12/05/2018
 ms.keywords: XPS_FILL_RULE, XPS_FILL_RULE enumeration [XPS Documents and Packaging], XPS_FILL_RULE_EVENODD, XPS_FILL_RULE_NONZERO, xps.xps_fill_rule, xpsobjectmodel/XPS_FILL_RULE, xpsobjectmodel/XPS_FILL_RULE_EVENODD, xpsobjectmodel/XPS_FILL_RULE_NONZERO
 ms.topic: enum
-f1_keywords: 
- - "xpsobjectmodel/XPS_FILL_RULE"
+f1_keywords:
+- xpsobjectmodel/XPS_FILL_RULE
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_FILL_RULE
+- XPS_FILL_RULE
 targetos: Windows
 req.typenames: XPS_FILL_RULE
 req.redist: 

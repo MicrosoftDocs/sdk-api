@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10SamplerState
 title: ID3D10SamplerState (d3d10.h)
-
 description: A sampler-state interface accesses sampler state for a texture.
 old-location: direct3d10\id3d10samplerstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10samplerstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: 2116312d-356e-9f01-4cdf-78e47d9a4ae8, ID3D10SamplerState, ID3D10SamplerState interface [Direct3D 10], ID3D10SamplerState interface [Direct3D 10],described, d3d10/ID3D10SamplerState, direct3d10.id3d10samplerstate
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10SamplerState"
+f1_keywords:
+- d3d10/ID3D10SamplerState
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10SamplerState
+- ID3D10SamplerState
 targetos: Windows
 req.typenames: 
 req.redist: 

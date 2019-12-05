@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.InitOnceComplete
 title: InitOnceComplete function (synchapi.h)
-
 description: Completes one-time initialization started with the InitOnceBeginInitialize function.
 old-location: base\initoncecomplete.htm
 tech.root: Sync
 ms.assetid: aad1d1f6-5415-443a-94d2-f4a4d9b68750
-
 ms.date: 12/05/2018
 ms.keywords: INIT_ONCE_ASYNC, INIT_ONCE_INIT_FAILED, InitOnceComplete, InitOnceComplete function, base.initoncecomplete, synchapi/InitOnceComplete, winbase/InitOnceComplete
 ms.topic: function
-f1_keywords: 
- - "synchapi/InitOnceComplete"
+f1_keywords:
+- synchapi/InitOnceComplete
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - InitOnceComplete
+- InitOnceComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

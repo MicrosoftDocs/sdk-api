@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPPlaylist.get_attributeName
 title: IWMPPlaylist::get_attributeName (wmp.h)
-
 description: The get_attributeName method retrieves the name of an attribute specified by an index.
 old-location: wmp\iwmpplaylist_get_attributename.htm
 tech.root: WMP
 ms.assetid: 30bdf1e0-2bb8-486e-bec7-d06e1ac6ed9b
-
 ms.date: 12/05/2018
 ms.keywords: IWMPPlaylist interface [Windows Media Player],get_attributeName method, IWMPPlaylist.get_attributeName, IWMPPlaylist::get_attributeName, IWMPPlaylistget_attributeName, get_attributeName, get_attributeName method [Windows Media Player], get_attributeName method [Windows Media Player],IWMPPlaylist interface, wmp.iwmpplaylist_get_attributename, wmp/IWMPPlaylist::get_attributeName
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPPlaylist.get_attributeName"
+f1_keywords:
+- wmp/IWMPPlaylist.get_attributeName
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPPlaylist.get_attributeName
+- IWMPPlaylist.get_attributeName
 targetos: Windows
 req.typenames: 
 req.redist: 

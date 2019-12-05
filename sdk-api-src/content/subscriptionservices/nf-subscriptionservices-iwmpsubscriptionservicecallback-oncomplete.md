@@ -1,19 +1,17 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionServiceCallback.onComplete
 title: IWMPSubscriptionServiceCallback::onComplete (subscriptionservices.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The onComplete method notifies Windows Media Player when a background process is completed.
 old-location: wmp\iwmpsubscriptionservicecallback_oncomplete.htm
 tech.root: WMP
 ms.assetid: 1a6775b5-a909-49b1-98e8-ccc110294df6
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSubscriptionServiceCallback interface [Windows Media Player],onComplete method, IWMPSubscriptionServiceCallback.onComplete, IWMPSubscriptionServiceCallback::onComplete, IWMPSubscriptionServiceCallbackonComplete, onComplete, onComplete method [Windows Media Player], onComplete method [Windows Media Player],IWMPSubscriptionServiceCallback interface, subscriptionservices/IWMPSubscriptionServiceCallback::onComplete, wmp.iwmpsubscriptionservicecallback_oncomplete
 ms.topic: method
-f1_keywords: 
- - "subscriptionservices/IWMPSubscriptionServiceCallback.onComplete"
+f1_keywords:
+- subscriptionservices/IWMPSubscriptionServiceCallback.onComplete
 dev_langs:
- - c++
+- c++
 req.header: subscriptionservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - subscriptionservices.h
+- subscriptionservices.h
 api_name:
- - IWMPSubscriptionServiceCallback.onComplete
+- IWMPSubscriptionServiceCallback.onComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

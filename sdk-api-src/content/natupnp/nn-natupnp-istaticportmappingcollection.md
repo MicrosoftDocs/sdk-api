@@ -1,19 +1,17 @@
 ---
 UID: NN:natupnp.IStaticPortMappingCollection
 title: IStaticPortMappingCollection (natupnp.h)
-
 description: The IStaticPortMappingCollection interface provides methods to manage the collection of static port mappings.
 old-location: ics\istaticportmappingcollection.htm
 tech.root: ics
 ms.assetid: 4858c474-b57e-4baa-8e82-10bc41e026cd
-
 ms.date: 12/05/2018
 ms.keywords: IStaticPortMappingCollection, IStaticPortMappingCollection interface [ICS/ICF], IStaticPortMappingCollection interface [ICS/ICF],described, _ics_istaticportmappingcollection, ics.istaticportmappingcollection, natupnp/IStaticPortMappingCollection
 ms.topic: interface
-f1_keywords: 
- - "natupnp/IStaticPortMappingCollection"
+f1_keywords:
+- natupnp/IStaticPortMappingCollection
 dev_langs:
- - c++
+- c++
 req.header: natupnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - IStaticPortMappingCollection
+- IStaticPortMappingCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

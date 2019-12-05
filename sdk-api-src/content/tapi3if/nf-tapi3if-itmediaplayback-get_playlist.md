@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITMediaPlayback.get_PlayList
 title: ITMediaPlayback::get_PlayList (tapi3if.h)
-
 description: The get_PlayList method gets the list of files to play.
 old-location: tapi3\itmediaplayback_get_playlist.htm
 tech.root: Tapi
 ms.assetid: 57bc8373-0015-4652-bad7-21497d1fd6ff
-
 ms.date: 12/05/2018
 ms.keywords: ITMediaPlayback interface [TAPI 2.2],get_PlayList method, ITMediaPlayback.get_PlayList, ITMediaPlayback::get_PlayList, _tapi3_itmediaplayback_get_playlist, get_PlayList, get_PlayList method [TAPI 2.2], get_PlayList method [TAPI 2.2],ITMediaPlayback interface, tapi3.itmediaplayback_get_playlist, tapi3if/ITMediaPlayback::get_PlayList
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITMediaPlayback.get_PlayList"
+f1_keywords:
+- tapi3if/ITMediaPlayback.get_PlayList
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITMediaPlayback.get_PlayList
+- ITMediaPlayback.get_PlayList
 targetos: Windows
 req.typenames: 
 req.redist: 

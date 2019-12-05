@@ -1,19 +1,17 @@
 ---
 UID: NN:thumbnailstreamcache.IThumbnailStreamCache
 title: IThumbnailStreamCache (thumbnailstreamcache.h)
-
 description: Gets or sets the thumbnail stream. This interface is for internal use only and can only be called by the photos application.
 old-location: shell\ithumbnailstreamcache.htm
 tech.root: shell
 ms.assetid: 9D2C01E7-2B0B-462F-98A3-12ACBC40F6E7
-
 ms.date: 12/05/2018
 ms.keywords: IThumbnailStreamCache, IThumbnailStreamCache interface [Windows Shell], IThumbnailStreamCache interface [Windows Shell],described, shell.ithumbnailstreamcache, thumbnailstreamcache/IThumbnailStreamCache
 ms.topic: interface
-f1_keywords: 
- - "thumbnailstreamcache/IThumbnailStreamCache"
+f1_keywords:
+- thumbnailstreamcache/IThumbnailStreamCache
 dev_langs:
- - c++
+- c++
 req.header: thumbnailstreamcache.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - thumbnailstreamcache.h
+- thumbnailstreamcache.h
 api_name:
- - IThumbnailStreamCache
+- IThumbnailStreamCache
 targetos: Windows
 req.typenames: 
 req.redist: 

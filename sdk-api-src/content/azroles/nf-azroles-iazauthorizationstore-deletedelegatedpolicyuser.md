@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeleteDelegatedPolicyUser
 title: IAzAuthorizationStore::DeleteDelegatedPolicyUser (azroles.h)
-
 description: Removes the specified security identifier (SID) in text form from the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_deletedelegatedpolicyuser.htm
 tech.root: SecAuthZ
 ms.assetid: cb00abca-7116-4a71-aed0-87ed9caff0fb
-
 ms.date: 12/05/2018
 ms.keywords: AzAuthorizationStore object [Security],DeleteDelegatedPolicyUser method, DeleteDelegatedPolicyUser, DeleteDelegatedPolicyUser method [Security], DeleteDelegatedPolicyUser method [Security],AzAuthorizationStore object, DeleteDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],DeleteDelegatedPolicyUser method, IAzAuthorizationStore.DeleteDelegatedPolicyUser, IAzAuthorizationStore::DeleteDelegatedPolicyUser, azroles/IAzAuthorizationStore::DeleteDelegatedPolicyUser, security.azauthorizationstore_deletedelegatedpolicyuser
 ms.topic: method
-f1_keywords: 
- - "azroles/AzAuthorizationStore.DeleteDelegatedPolicyUser"
+f1_keywords:
+- azroles/AzAuthorizationStore.DeleteDelegatedPolicyUser
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - AzAuthorizationStore.DeleteDelegatedPolicyUser
- - IAzAuthorizationStore.DeleteDelegatedPolicyUser
+- AzAuthorizationStore.DeleteDelegatedPolicyUser
+- IAzAuthorizationStore.DeleteDelegatedPolicyUser
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

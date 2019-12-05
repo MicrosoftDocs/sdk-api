@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfIntegratableCandidateListUIElement.SetIntegrationStyle
 title: ITfIntegratableCandidateListUIElement::SetIntegrationStyle (ctffunc.h)
-
 description: Sets the integration style.
 old-location: tsf\itfintegratablecandidatelistuielement_setintegrationstyle.htm
 tech.root: TSF
 ms.assetid: DC6565A6-6CEC-4DD9-A845-1DDFF157266C
-
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement interface [Text Services Framework],SetIntegrationStyle method, ITfIntegratableCandidateListUIElement.SetIntegrationStyle, ITfIntegratableCandidateListUIElement::SetIntegrationStyle, SetIntegrationStyle, SetIntegrationStyle method [Text Services Framework], SetIntegrationStyle method [Text Services Framework],ITfIntegratableCandidateListUIElement interface, ctffunc/ITfIntegratableCandidateListUIElement::SetIntegrationStyle, tsf.itfintegratablecandidatelistuielement_setintegrationstyle
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfIntegratableCandidateListUIElement.SetIntegrationStyle"
+f1_keywords:
+- ctffunc/ITfIntegratableCandidateListUIElement.SetIntegrationStyle
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement.SetIntegrationStyle
+- ITfIntegratableCandidateListUIElement.SetIntegrationStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

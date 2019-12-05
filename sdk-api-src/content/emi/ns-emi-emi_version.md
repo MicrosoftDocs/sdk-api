@@ -1,19 +1,17 @@
 ---
 UID: NS:emi.__unnamed_struct_0
 title: EMI_VERSION (emi.h)
-
 description: The EMI_VERSION structure describes the version of the Energy Metering Interface (EMI) that is supported by a device.
 old-location: powermeter\emi_version.htm
 tech.root: powermeter
 ms.assetid: 00CDB74C-B0DB-426E-9D94-7DBCFF15793F
-
 ms.date: 12/05/2018
 ms.keywords: EMI_VERSION, EMI_VERSION structure [Power Metering and Budgeting Devices], PEMI_VERSION, PEMI_VERSION structure pointer [Power Metering and Budgeting Devices], emi/EMI_VERSION, emi/PEMI_VERSION, powermeter.emi_version
 ms.topic: struct
-f1_keywords: 
- - "emi/EMI_VERSION"
+f1_keywords:
+- emi/EMI_VERSION
 dev_langs:
- - c++
+- c++
 req.header: emi.h
 req.include-header: Emi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - emi.h
+- emi.h
 api_name:
- - EMI_VERSION
+- EMI_VERSION
 targetos: Windows
 req.typenames: EMI_VERSION
 req.redist: 

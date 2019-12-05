@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextDocument.Redo
 title: ITextDocument::Redo (tom.h)
-
 description: Performs a specified number of redo operations.
 old-location: controls\ITextDocument_Redo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\redo.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextDocument interface [Windows Controls],Redo method, ITextDocument.Redo, ITextDocument::Redo, Redo, Redo method [Windows Controls], Redo method [Windows Controls],ITextDocument interface, _win32_ITextDocument_Redo, _win32_ITextDocument_Redo_cpp, controls.ITextDocument_Redo, controls._win32_ITextDocument_Redo, tom/ITextDocument::Redo
 ms.topic: method
-f1_keywords: 
- - "tom/ITextDocument.Redo"
+f1_keywords:
+- tom/ITextDocument.Redo
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextDocument.Redo
+- ITextDocument.Redo
 targetos: Windows
 req.typenames: 
 req.redist: 

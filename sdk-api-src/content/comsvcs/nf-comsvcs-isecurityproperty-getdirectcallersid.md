@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCallerSID
 title: ISecurityProperty::GetDirectCallerSID (comsvcs.h)
-
 description: Retrieves the security identifier of the external process that called the currently executing method.
 old-location: cos\isecurityproperty_getdirectcallersid.htm
 tech.root: cossdk
 ms.assetid: e322df62-25a4-40a3-9b80-da468a265162
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectCallerSID, GetDirectCallerSID method [COM+], GetDirectCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetDirectCallerSID method, ISecurityProperty.GetDirectCallerSID, ISecurityProperty::GetDirectCallerSID, _cos_ISecurityProperty_GetDirectCallerSID, comsvcs/ISecurityProperty::GetDirectCallerSID, cos.isecurityproperty_getdirectcallersid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityProperty.GetDirectCallerSID"
+f1_keywords:
+- comsvcs/ISecurityProperty.GetDirectCallerSID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityProperty.GetDirectCallerSID
+- ISecurityProperty.GetDirectCallerSID
 targetos: Windows
 req.typenames: 
 req.redist: 

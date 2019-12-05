@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetStoryboardFromTag
 title: IUIAnimationManager::GetStoryboardFromTag (uianimation.h)
-
 description: Gets the storyboard with the specified tag.
 old-location: uianimation\iuianimationmanager_getstoryboardfromtag.htm
 tech.root: UIAnimation
 ms.assetid: 74a9265a-3602-4707-949e-6073cbde9ac4
-
 ms.date: 12/05/2018
 ms.keywords: GetStoryboardFromTag, GetStoryboardFromTag method [Windows Animation], GetStoryboardFromTag method [Windows Animation],IUIAnimationManager interface, IUIAnimationManager interface [Windows Animation],GetStoryboardFromTag method, IUIAnimationManager.GetStoryboardFromTag, IUIAnimationManager::GetStoryboardFromTag, uianimation.iuianimationmanager_getstoryboardfromtag, uianimation/IUIAnimationManager::GetStoryboardFromTag
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationManager.GetStoryboardFromTag"
+f1_keywords:
+- uianimation/IUIAnimationManager.GetStoryboardFromTag
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationManager.GetStoryboardFromTag
+- IUIAnimationManager.GetStoryboardFromTag
 targetos: Windows
 req.typenames: 
 req.redist: 

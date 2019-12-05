@@ -1,19 +1,17 @@
 ---
 UID: NN:dcomp.IDCompositionRectangleClip
 title: IDCompositionRectangleClip (dcomp.h)
-
 description: Represents a clip object that restricts the rendering of a visual subtree to the specified rectangular region. Optionally, the clip object may have rounded corners specified.
 old-location: directcomp\idcompositionrectangleclip.htm
 tech.root: directcomp
 ms.assetid: 486bcdb9-e353-4ca2-b24c-af863dda7470
-
 ms.date: 12/05/2018
 ms.keywords: IDCompositionRectangleClip, IDCompositionRectangleClip interface [DirectComposition], IDCompositionRectangleClip interface [DirectComposition],described, dcomp/IDCompositionRectangleClip, directcomp.idcompositionrectangleclip
 ms.topic: interface
-f1_keywords: 
- - "dcomp/IDCompositionRectangleClip"
+f1_keywords:
+- dcomp/IDCompositionRectangleClip
 dev_langs:
- - c++
+- c++
 req.header: dcomp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dcomp.lib
 req.dll: Dcomp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dcomp.dll
+- Dcomp.dll
 api_name:
- - IDCompositionRectangleClip
+- IDCompositionRectangleClip
 targetos: Windows
 req.typenames: 
 req.redist: 

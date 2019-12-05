@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_TargetPropertySet
 title: ITsSbTarget::get_TargetPropertySet (sbtsv.h)
-
 description: Retrieves or specifies the set of properties for the target.
 old-location: termserv\itssbtarget_targetpropertyset.htm
 tech.root: TermServ
 ms.assetid: 0c3e84d6-17a2-452f-98bd-f9b8670710e9
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTarget interface [Remote Desktop Services],TargetPropertySet property, ITsSbTarget.TargetPropertySet, ITsSbTarget.get_TargetPropertySet, ITsSbTarget::TargetPropertySet, ITsSbTarget::get_TargetPropertySet, ITsSbTarget::put_TargetPropertySet, ITsSbTargetEx interface [Remote Desktop Services],TargetPropertySet property, ITsSbTargetEx.TargetPropertySet, ITsSbTargetEx::get_TargetPropertySet, ITsSbTargetEx::put_TargetPropertySet, TargetPropertySet property [Remote Desktop Services], TargetPropertySet property [Remote Desktop Services],ITsSbTarget interface, TargetPropertySet property [Remote Desktop Services],ITsSbTargetEx interface, get_TargetPropertySet, sbtsv/ITsSbTarget::TargetPropertySet, sbtsv/ITsSbTarget::get_TargetPropertySet, sbtsv/ITsSbTarget::put_TargetPropertySet, sbtsv/ITsSbTargetEx::TargetPropertySet, sbtsv/ITsSbTargetEx::get_TargetPropertySet, sbtsv/ITsSbTargetEx::put_TargetPropertySet, termserv.itssbtarget_targetpropertyset
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTarget.TargetPropertySet"
+f1_keywords:
+- sbtsv/ITsSbTarget.TargetPropertySet
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: Sbtsv.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTarget.TargetPropertySet
- - ITsSbTarget.get_TargetPropertySet
- - ITsSbTarget.put_TargetPropertySet
- - ITsSbTargetEx.TargetPropertySet
- - ITsSbTargetEx.get_TargetPropertySet
- - ITsSbTargetEx.put_TargetPropertySet
+- ITsSbTarget.TargetPropertySet
+- ITsSbTarget.get_TargetPropertySet
+- ITsSbTarget.put_TargetPropertySet
+- ITsSbTargetEx.TargetPropertySet
+- ITsSbTargetEx.get_TargetPropertySet
+- ITsSbTargetEx.put_TargetPropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

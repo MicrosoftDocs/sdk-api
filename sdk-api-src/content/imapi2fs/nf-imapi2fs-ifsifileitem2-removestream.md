@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiFileItem2.RemoveStream
 title: IFsiFileItem2::RemoveStream (imapi2fs.h)
-
 description: Removes a named stream association with a file.
 old-location: imapi\ifsifileitem2_removestream.htm
 tech.root: imapi
 ms.assetid: 4b758048-31e5-43af-a4ae-8916982e90a9
-
 ms.date: 12/05/2018
 ms.keywords: IFsiFileItem2 interface [IMAPI],RemoveStream method, IFsiFileItem2.RemoveStream, IFsiFileItem2::RemoveStream, RemoveStream, RemoveStream method [IMAPI], RemoveStream method [IMAPI],IFsiFileItem2 interface, imapi.ifsifileitem2_removestream, imapi2fs/IFsiFileItem2::RemoveStream
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiFileItem2.RemoveStream"
+f1_keywords:
+- imapi2fs/IFsiFileItem2.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiFileItem2.RemoveStream
+- IFsiFileItem2.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

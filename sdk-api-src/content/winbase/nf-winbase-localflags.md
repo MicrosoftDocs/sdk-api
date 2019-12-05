@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.LocalFlags
 title: LocalFlags function (winbase.h)
-
 description: Retrieves information about the specified local memory object.
 old-location: base\localflags.htm
 tech.root: Memory
 ms.assetid: 4804c8c3-6c0b-4f62-87ab-f64b23fff8b9
-
 ms.date: 12/05/2018
 ms.keywords: LocalFlags, LocalFlags function, _win32_localflags, base.localflags, winbase/LocalFlags
 ms.topic: function
-f1_keywords: 
- - "winbase/LocalFlags"
+f1_keywords:
+- winbase/LocalFlags
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Heap-Obsolete-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - LocalFlags
+- LocalFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

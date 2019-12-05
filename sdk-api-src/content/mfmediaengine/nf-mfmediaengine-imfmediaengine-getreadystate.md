@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetReadyState
 title: IMFMediaEngine::GetReadyState (mfmediaengine.h)
-
 description: Gets the ready state, which indicates whether the current media resource can be rendered.
 old-location: mf\imfmediaengine_getreadystate.htm
 tech.root: medfound
 ms.assetid: B8C9B600-87FD-4DE6-8794-5C1E41449554
-
 ms.date: 12/05/2018
 ms.keywords: GetReadyState, GetReadyState method [Media Foundation], GetReadyState method [Media Foundation],IMFMediaEngine interface, IMFMediaEngine interface [Media Foundation],GetReadyState method, IMFMediaEngine.GetReadyState, IMFMediaEngine::GetReadyState, mf.imfmediaengine_getreadystate, mfmediaengine/IMFMediaEngine::GetReadyState
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFMediaEngine.GetReadyState"
+f1_keywords:
+- mfmediaengine/IMFMediaEngine.GetReadyState
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaEngine.GetReadyState
+- IMFMediaEngine.GetReadyState
 targetos: Windows
 req.typenames: 
 req.redist: 

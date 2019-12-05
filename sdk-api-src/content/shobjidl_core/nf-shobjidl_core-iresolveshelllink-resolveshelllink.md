@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IResolveShellLink.ResolveShellLink
 title: IResolveShellLink::ResolveShellLink (shobjidl_core.h)
-
 description: Requests that a folder object resolve a Shell link.
 old-location: shell\IResolveShellLink_ResolveShellLink.htm
 tech.root: shell
 ms.assetid: 2cf849f6-e7b4-4280-98d7-4dcc20039624
-
 ms.date: 12/05/2018
 ms.keywords: IResolveShellLink interface [Windows Shell],ResolveShellLink method, IResolveShellLink.ResolveShellLink, IResolveShellLink::ResolveShellLink, ResolveShellLink, ResolveShellLink method [Windows Shell], ResolveShellLink method [Windows Shell],IResolveShellLink interface, SLR_INVOKE_MSI, SLR_NOLINKINFO, SLR_NOSEARCH, SLR_NOTRACK, SLR_NOUPDATE, SLR_NO_UI, SLR_UPDATE, _win32_IResolveShellLink_ResolveShellLink, shell.IResolveShellLink_ResolveShellLink, shobjidl_core/IResolveShellLink::ResolveShellLink
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IResolveShellLink.ResolveShellLink"
+f1_keywords:
+- shobjidl_core/IResolveShellLink.ResolveShellLink
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IResolveShellLink.ResolveShellLink
+- IResolveShellLink.ResolveShellLink
 targetos: Windows
 req.typenames: 
 req.redist: 

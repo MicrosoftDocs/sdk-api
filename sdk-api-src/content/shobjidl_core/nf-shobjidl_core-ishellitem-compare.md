@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItem.Compare
 title: IShellItem::Compare (shobjidl_core.h)
-
 description: Compares two IShellItem objects.
 old-location: shell\IShellItem_Compare.htm
 tech.root: shell
 ms.assetid: 737a93e0-2e27-466b-889c-04a25e52e883
-
 ms.date: 12/05/2018
 ms.keywords: Compare, Compare method [Windows Shell], Compare method [Windows Shell],IShellItem interface, IShellItem interface [Windows Shell],Compare method, IShellItem.Compare, IShellItem::Compare, _win32_IShellItem_Compare, shell.IShellItem_Compare, shobjidl_core/IShellItem::Compare
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItem.Compare"
+f1_keywords:
+- shobjidl_core/IShellItem.Compare
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellItem.Compare
+- IShellItem.Compare
 targetos: Windows
 req.typenames: 
 req.redist: 

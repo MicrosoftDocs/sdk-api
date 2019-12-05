@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetMathZone
 title: ITextFont2::GetMathZone (tom.h)
-
 description: Gets whether a math zone is active.
 old-location: controls\itextfont2_getmathzone.htm
 tech.root: Controls
 ms.assetid: 4da4d6d1-16e0-4891-9a60-c1330345e45a
-
 ms.date: 12/05/2018
 ms.keywords: GetMathZone, GetMathZone method [Windows Controls], GetMathZone method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetMathZone method, ITextFont2.GetMathZone, ITextFont2::GetMathZone, controls.itextfont2_getmathzone, tom/ITextFont2::GetMathZone
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetMathZone"
+f1_keywords:
+- tom/ITextFont2.GetMathZone
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetMathZone
+- ITextFont2.GetMathZone
 targetos: Windows
 req.typenames: 
 req.redist: 

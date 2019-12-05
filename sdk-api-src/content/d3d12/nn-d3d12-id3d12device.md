@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12Device
 title: ID3D12Device (d3d12.h)
-
 description: Represents a virtual adapter; it is used to create command allocators, command lists, command queues, fences, resources, pipeline state objects, heaps, root signatures, samplers, and many resource views.
 old-location: direct3d12\id3d12device.htm
 tech.root: direct3d12
 ms.assetid: D32B3397-A1E0-48AF-9251-2EDA96261A9F
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12Device, ID3D12Device interface, ID3D12Device interface,described, d3d12/ID3D12Device, direct3d12.id3d12device
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12Device"
+f1_keywords:
+- d3d12/ID3D12Device
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device
+- ID3D12Device
 targetos: Windows
 req.typenames: 
 req.redist: 

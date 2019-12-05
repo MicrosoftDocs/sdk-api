@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.SetColorProfileResource
 title: IXpsOMImageBrush::SetColorProfileResource (xpsobjectmodel.h)
-
 description: Sets a pointer to the IXpsOMColorProfileResource interface, which contains the color profile resource that is associated with the image.
 old-location: xps\ixpsomimagebrush_setcolorprofileresource.htm
 tech.root: printdocs
 ms.assetid: d18511b7-13ed-4528-9f3d-aef3bcadc403
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageBrush interface [XPS Documents and Packaging],SetColorProfileResource method, IXpsOMImageBrush.SetColorProfileResource, IXpsOMImageBrush::SetColorProfileResource, SetColorProfileResource, SetColorProfileResource method [XPS Documents and Packaging], SetColorProfileResource method [XPS Documents and Packaging],IXpsOMImageBrush interface, xps.ixpsomimagebrush_setcolorprofileresource, xpsobjectmodel/IXpsOMImageBrush::SetColorProfileResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageBrush.SetColorProfileResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageBrush.SetColorProfileResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageBrush.SetColorProfileResource
+- IXpsOMImageBrush.SetColorProfileResource
 targetos: Windows
 req.typenames: 
 req.redist: 

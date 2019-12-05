@@ -1,19 +1,17 @@
 ---
 UID: NE:webservices.__unnamed_enum_73
 title: WS_SECURITY_TOKEN_PROPERTY_ID (webservices.h)
-
 description: Defines the keys for the fields and properties that can be extracted from a security token. Not all properties are valid for all security token types. The function WsGetSecurityTokenProperty uses the values defined here as keys.
 old-location: wsw\ws_security_token_property_id.htm
 tech.root: wsw
 ms.assetid: d5ba0170-2345-4144-9a60-25c0e638a283
-
 ms.date: 12/05/2018
 ms.keywords: WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML, WS_SECURITY_TOKEN_PROPERTY_ID, WS_SECURITY_TOKEN_PROPERTY_ID enumeration [Web Services for Windows], WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE, WS_SECURITY_TOKEN_PROPERTY_SERIALIZED_XML, WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY, WS_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE_XML, WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, WS_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, webservices/WS_SECURITY_TOKEN_PROPERTY_ATTACHED_REFERENCE_XML, webservices/WS_SECURITY_TOKEN_PROPERTY_ID, webservices/WS_SECURITY_TOKEN_PROPERTY_KEY_TYPE, webservices/WS_SECURITY_TOKEN_PROPERTY_SERIALIZED_XML, webservices/WS_SECURITY_TOKEN_PROPERTY_SYMMETRIC_KEY, webservices/WS_SECURITY_TOKEN_PROPERTY_UNATTACHED_REFERENCE_XML, webservices/WS_SECURITY_TOKEN_PROPERTY_VALID_FROM_TIME, webservices/WS_SECURITY_TOKEN_PROPERTY_VALID_TILL_TIME, wsw.ws_security_token_property_id
 ms.topic: enum
 f1_keywords:
 - webservices/WS_SECURITY_TOKEN_PROPERTY_ID
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

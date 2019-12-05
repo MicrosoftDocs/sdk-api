@@ -1,19 +1,17 @@
 ---
 UID: NN:structuredquery.INamedEntity
 title: INamedEntity (structuredquery.h)
-
 description: Provides methods to get the value of, or a default phrase for the value of, a named entity.
 old-location: search\_search_INamedEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\inamedentity.htm
-
 ms.date: 12/05/2018
 ms.keywords: INamedEntity, INamedEntity interface [search], INamedEntity interface [search],described, _search_INamedEntity, search._search_INamedEntity, structuredquery/INamedEntity
 ms.topic: interface
-f1_keywords: 
- - "structuredquery/INamedEntity"
+f1_keywords:
+- structuredquery/INamedEntity
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - INamedEntity
+- INamedEntity
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

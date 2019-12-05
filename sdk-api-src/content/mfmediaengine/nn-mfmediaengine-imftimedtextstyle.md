@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextStyle
 title: IMFTimedTextStyle (mfmediaengine.h)
-
 description: Represents the style for timed text.
 old-location: mf\imftimedtextstyle.htm
 tech.root: medfound
 ms.assetid: ED358A36-BEEF-491E-8984-938F71472F26
-
 ms.date: 12/05/2018
 ms.keywords: IMFTimedTextStyle, IMFTimedTextStyle interface [Media Foundation], IMFTimedTextStyle interface [Media Foundation],described, mf.imftimedtextstyle, mfmediaengine/IMFTimedTextStyle
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextStyle"
+f1_keywords:
+- mfmediaengine/IMFTimedTextStyle
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextStyle
+- IMFTimedTextStyle
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:advpub.RegInstallA
 title: RegInstallA function (advpub.h)
-
 description: Updates the string registry values in the provided table.
 old-location: winprog\reginstalla.htm
 tech.root: DevNotes
 ms.assetid: 53BE8B69-2028-42EB-9A45-6CE776A7B9A6
-
 ms.date: 12/05/2018
 ms.keywords: RegInstallA, RegInstallA function [Windows API], advpub/RegInstallA, winprog.reginstalla
 ms.topic: function
-f1_keywords: 
- - "advpub/RegInstallA"
+f1_keywords:
+- advpub/RegInstallA
 dev_langs:
- - c++
+- c++
 req.header: advpub.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advpack.lib
 req.dll: Advpack.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - advpack.dll
+- advpack.dll
 api_name:
- - RegInstallA
+- RegInstallA
 targetos: Windows
 req.typenames: 
 req.redist: 

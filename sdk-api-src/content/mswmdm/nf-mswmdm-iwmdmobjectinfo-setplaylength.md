@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.SetPlayLength
 title: IWMDMObjectInfo::SetPlayLength (mswmdm.h)
-
 description: The SetPlayLength method sets the play length of the object, in units appropriate to the format. This is the maximum length that the object plays regardless of its actual length.
 old-location: wmdm\iwmdmobjectinfo_setplaylength.htm
 tech.root: WMDM
 ms.assetid: 7dfa6443-4eb8-4a88-8af1-c082750e8d22
-
 ms.date: 12/05/2018
 ms.keywords: IWMDMObjectInfo interface [windows Media Device Manager],SetPlayLength method, IWMDMObjectInfo.SetPlayLength, IWMDMObjectInfo::SetPlayLength, IWMDMObjectInfoSetPlayLength, SetPlayLength, SetPlayLength method [windows Media Device Manager], SetPlayLength method [windows Media Device Manager],IWMDMObjectInfo interface, mswmdm/IWMDMObjectInfo::SetPlayLength, wmdm.iwmdmobjectinfo_setplaylength
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMObjectInfo.SetPlayLength"
+f1_keywords:
+- mswmdm/IWMDMObjectInfo.SetPlayLength
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMObjectInfo.SetPlayLength
+- IWMDMObjectInfo.SetPlayLength
 targetos: Windows
 req.typenames: 
 req.redist: 

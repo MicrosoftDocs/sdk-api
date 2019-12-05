@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._COLORINFO
 title: COLORINFO (winddi.h)
-
 description: The COLORINFO structure defines a device's colors in CIE coordinate space.
 old-location: display\colorinfo.htm
 tech.root: display
 ms.assetid: bbada28c-d855-4197-acf8-2a070423ddfe
-
 ms.date: 12/05/2018
 ms.keywords: '*PCOLORINFO, COLORINFO, COLORINFO structure [Display Devices], PCOLORINFO, PCOLORINFO structure pointer [Display Devices], display.colorinfo, grstrcts_1e247041-c753-4925-a86c-fbd246410a72.xml, winddi/COLORINFO, winddi/PCOLORINFO'
 ms.topic: struct
 f1_keywords:
 - winddi/COLORINFO
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows

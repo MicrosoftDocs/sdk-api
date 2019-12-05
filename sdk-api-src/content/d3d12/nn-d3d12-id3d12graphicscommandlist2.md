@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList2
 title: ID3D12GraphicsCommandList2 (d3d12.h)
-
 description: Encapsulates a list of graphics commands for rendering, extending the interface to support writing immediate values directly to a buffer.
 old-location: direct3d12\id3d12graphicscommandlist2.htm
 tech.root: direct3d12
 ms.assetid: 6A1BF079-CAE7-45E9-A95F-E19ACD380143
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList2, ID3D12GraphicsCommandList2 interface, ID3D12GraphicsCommandList2 interface,described, d3d12/ID3D12GraphicsCommandList2, direct3d12.id3d12graphicscommandlist2
 ms.topic: interface
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList2"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList2
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList2
+- ID3D12GraphicsCommandList2
 targetos: Windows
 req.typenames: 
 req.redist: 

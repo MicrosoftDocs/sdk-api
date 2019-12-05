@@ -1,18 +1,16 @@
 ---
 UID: NS:windows.graphics.directx.direct3d11.interop.IDirect3DDxgiInterfaceAccess
 title: IDirect3DDxgiInterfaceAccess interface
-
 description: IDirect3DDxgiInterfaceAccess is a COM interface, which must be implemented by anything that implements IDirect3DDevice or IDirect3DSurface.
 tech.root: direct3d11
 ms.assetid: 95B3D1FF-AED4-44E1-AD83-16C070F30194
-
 ms.date: 05/13/2019
 ms.keywords: IDirect3DDxgiInterfaceAccess, IDirect3DDxgiInterfaceAccess interface, IDirect3DDxgiInterfaceAccess interface,described, windows.graphics.directx.direct3d11.interop.idirect3ddxgiInterfaceaccess, windows/IDirect3DDxgiInterfaceAccess
 ms.topic: interface
-f1_keywords: 
- - "windows.graphics.directx.direct3d11.interop/IDirect3DDxgiInterfaceAccess"
+f1_keywords:
+- windows.graphics.directx.direct3d11.interop/IDirect3DDxgiInterfaceAccess
 dev_langs:
- - c++
+- c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -33,14 +31,14 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - windows.graphics.directx.direct3d11.interop.h
+- windows.graphics.directx.direct3d11.interop.h
 api_name:
- - IDirect3DDxgiInterfaceAccess
+- IDirect3DDxgiInterfaceAccess
 targetos: Windows
 ---
 

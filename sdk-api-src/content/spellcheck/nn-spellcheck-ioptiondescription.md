@@ -1,19 +1,17 @@
 ---
 UID: NN:spellcheck.IOptionDescription
 title: IOptionDescription (spellcheck.h)
-
 description: Represents the description of a spell checker option.
 old-location: intl\ioptiondescription.htm
 tech.root: Intl
 ms.assetid: 809d1a71-bb14-4516-9624-2f10fe19a5d9
-
 ms.date: 12/05/2018
 ms.keywords: IOptionDescription, IOptionDescription interface [Internationalization for Windows Applications], IOptionDescription interface [Internationalization for Windows Applications],described, intl.ioptiondescription, spellcheck/IOptionDescription
 ms.topic: interface
-f1_keywords: 
- - "spellcheck/IOptionDescription"
+f1_keywords:
+- spellcheck/IOptionDescription
 dev_langs:
- - c++
+- c++
 req.header: spellcheck.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheck.h
+- Spellcheck.h
 api_name:
- - IOptionDescription
+- IOptionDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

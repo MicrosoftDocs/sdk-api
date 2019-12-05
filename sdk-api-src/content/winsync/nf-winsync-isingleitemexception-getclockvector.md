@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISingleItemException.GetClockVector
 title: ISingleItemException::GetClockVector (winsync.h)
-
 description: Gets the clock vector that is associated with the item exception.
 old-location: winsync\isingleitemexception_getclockvector.htm
 tech.root: winsync
 ms.assetid: e212e561-9baa-46d0-90c0-ec143b24e641
-
 ms.date: 12/05/2018
 ms.keywords: GetClockVector, GetClockVector method [Windows Sync], GetClockVector method [Windows Sync],ISingleItemException interface, ISingleItemException interface [Windows Sync],GetClockVector method, ISingleItemException.GetClockVector, ISingleItemException::GetClockVector, winsync.isingleitemexception_getclockvector, winsync/ISingleItemException::GetClockVector
 ms.topic: method
-f1_keywords: 
- - "winsync/ISingleItemException.GetClockVector"
+f1_keywords:
+- winsync/ISingleItemException.GetClockVector
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISingleItemException.GetClockVector
+- ISingleItemException.GetClockVector
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateFMPEG4MediaSink
 title: MFCreateFMPEG4MediaSink function (mfidl.h)
-
 description: Creates a media sink for authoring fragmented MP4 files.
 old-location: mf\mfcreatefmpeg4mediasink.htm
 tech.root: medfound
 ms.assetid: 31FDA8BD-C837-4CA4-8635-D4A7B53AC7AC
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateFMPEG4MediaSink, MFCreateFMPEG4MediaSink function [Media Foundation], mf.mfcreatefmpeg4mediasink, mfidl/MFCreateFMPEG4MediaSink
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateFMPEG4MediaSink"
+f1_keywords:
+- mfidl/MFCreateFMPEG4MediaSink
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mf.lib
 req.dll: Mf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mf.dll
+- mf.dll
 api_name:
- - MFCreateFMPEG4MediaSink
+- MFCreateFMPEG4MediaSink
 targetos: Windows
 req.typenames: 
 req.redist: 

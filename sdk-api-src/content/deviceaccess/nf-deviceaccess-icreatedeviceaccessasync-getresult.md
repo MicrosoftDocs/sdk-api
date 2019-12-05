@@ -1,19 +1,17 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.GetResult
 title: ICreateDeviceAccessAsync::GetResult (deviceaccess.h)
-
 description: Retrieves an IDeviceIoControl object that's bound to the device interface that's specified in a call to the CreateDeviceAccessInstance function.
 old-location: deviceaccess\icreatedeviceaccessasync_getresult.htm
 tech.root: deviceaccess
 ms.assetid: 002e6638-a38a-4fda-b71c-a7a6983dda62
-
 ms.date: 12/05/2018
 ms.keywords: GetResult, GetResult method [Device Access Broker API], GetResult method [Device Access Broker API],ICreateDeviceAccessAsync interface, ICreateDeviceAccessAsync interface [Device Access Broker API],GetResult method, ICreateDeviceAccessAsync.GetResult, ICreateDeviceAccessAsync::GetResult, deviceaccess.icreatedeviceaccessasync_getresult, deviceaccess/ICreateDeviceAccessAsync::GetResult
 ms.topic: method
-f1_keywords: 
- - "deviceaccess/ICreateDeviceAccessAsync.GetResult"
+f1_keywords:
+- deviceaccess/ICreateDeviceAccessAsync.GetResult
 dev_langs:
- - c++
+- c++
 req.header: deviceaccess.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Deviceaccess.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Deviceaccess.lib
- - Deviceaccess.dll
+- Deviceaccess.lib
+- Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync.GetResult
+- ICreateDeviceAccessAsync.GetResult
 targetos: Windows
 req.typenames: 
 req.redist: 

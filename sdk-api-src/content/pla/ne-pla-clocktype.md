@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0005
 title: ClockType (pla.h)
-
 description: Defines the clock resolution to use when tracing events.
 old-location: pla\clocktype.htm
 tech.root: PLA
 ms.assetid: e255d486-2f1f-4a3d-a8a5-1c997d61a073
-
 ms.date: 12/05/2018
 ms.keywords: ClockType, ClockType enumeration [PLA], base.clocktype, pla.clocktype, pla/ClockType, pla/plaCycle, pla/plaPerformance, pla/plaSystem, pla/plaTimeStamp, plaCycle, plaPerformance, plaSystem, plaTimeStamp
 ms.topic: enum
-f1_keywords: 
- - "pla/ClockType"
+f1_keywords:
+- pla/ClockType
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - ClockType
+- ClockType
 targetos: Windows
 req.typenames: ClockType
 req.redist: 

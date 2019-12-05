@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9helper.IDirect3DDevice9.SetSamplerState
 title: IDirect3DDevice9::SetSamplerState (d3d9helper.h)
-
 description: Sets the sampler state value.
 old-location: direct3d9\idirect3ddevice9__setsamplerstate.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setsamplerstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetSamplerState method, IDirect3DDevice9.SetSamplerState, IDirect3DDevice9::SetSamplerState, SetSamplerState, SetSamplerState method [Direct3D 9], SetSamplerState method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetSamplerState, direct3d9.idirect3ddevice9__setsamplerstate, ea91fb0c-0668-d552-ee6a-25d1288ffe7f
 ms.topic: method
-f1_keywords: 
- - "d3d9helper/IDirect3DDevice9.SetSamplerState"
+f1_keywords:
+- d3d9helper/IDirect3DDevice9.SetSamplerState
 dev_langs:
- - c++
+- c++
 req.header: d3d9helper.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DDevice9.SetSamplerState
+- IDirect3DDevice9.SetSamplerState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:syncregistration.ISyncRegistrationChange.GetInstanceId
 title: ISyncRegistrationChange::GetInstanceId (syncregistration.h)
-
 description: Gets the instance ID of the synchronization provider or synchronization provider configuration UI associated with the event.
 old-location: winsync\isyncregistrationchange_getinstanceid.htm
 tech.root: winsync
 ms.assetid: 2b2655f4-2a67-405d-93dc-dd8242992ce5
-
 ms.date: 12/05/2018
 ms.keywords: GetInstanceId, GetInstanceId method [Windows Sync], GetInstanceId method [Windows Sync],ISyncRegistrationChange interface, ISyncRegistrationChange interface [Windows Sync],GetInstanceId method, ISyncRegistrationChange.GetInstanceId, ISyncRegistrationChange::GetInstanceId, syncregistration/ISyncRegistrationChange::GetInstanceId, winsync.isyncregistrationchange_getinstanceid
 ms.topic: method
-f1_keywords: 
- - "syncregistration/ISyncRegistrationChange.GetInstanceId"
+f1_keywords:
+- syncregistration/ISyncRegistrationChange.GetInstanceId
 dev_langs:
- - c++
+- c++
 req.header: syncregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncregistration.h
+- Syncregistration.h
 api_name:
- - ISyncRegistrationChange.GetInstanceId
+- ISyncRegistrationChange.GetInstanceId
 targetos: Windows
 req.typenames: 
 req.redist: 

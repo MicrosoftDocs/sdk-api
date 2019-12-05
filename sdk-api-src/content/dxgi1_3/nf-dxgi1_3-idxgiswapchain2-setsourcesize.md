@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChain2.SetSourceSize
 title: IDXGISwapChain2::SetSourceSize (dxgi1_3.h)
-
 description: Sets the source region to be used for the swap chain.
 old-location: direct3ddxgi\idxgioutpu2_setsourcesize.htm
 tech.root: direct3ddxgi
 ms.assetid: BD424F5A-9735-4E90-9FAD-A0B827D7AD80
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2 interface [DXGI],SetSourceSize method, IDXGISwapChain2.SetSourceSize, IDXGISwapChain2::SetSourceSize, SetSourceSize, SetSourceSize method [DXGI], SetSourceSize method [DXGI],IDXGISwapChain2 interface, direct3ddxgi.idxgioutpu2_setsourcesize, dxgi1_3/IDXGISwapChain2::SetSourceSize
 ms.topic: method
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChain2.SetSourceSize"
+f1_keywords:
+- dxgi1_3/IDXGISwapChain2.SetSourceSize
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGISwapChain2.SetSourceSize
+- IDXGISwapChain2.SetSourceSize
 targetos: Windows
 req.typenames: 
 req.redist: 

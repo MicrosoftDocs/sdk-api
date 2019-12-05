@@ -1,19 +1,17 @@
 ---
 UID: NN:certenroll.IAlternativeName
 title: IAlternativeName (certenroll.h)
-
 description: Is used by an IX509ExtensionAlternativeNames object to represent an instance of an AlternativeNames extension.
 old-location: security\ialternativename.htm
 tech.root: seccertenroll
 ms.assetid: 2a6cfda8-b3cb-4a0f-bb65-b182c16207be
-
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName, IAlternativeName interface [Security], IAlternativeName interface [Security],described, certenroll/IAlternativeName, security.ialternativename
 ms.topic: interface
-f1_keywords: 
- - "certenroll/IAlternativeName"
+f1_keywords:
+- certenroll/IAlternativeName
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IAlternativeName
+- IAlternativeName
 targetos: Windows
 req.typenames: 
 req.redist: 

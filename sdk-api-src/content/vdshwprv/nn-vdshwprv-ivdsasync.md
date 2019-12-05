@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsAsync
 title: IVdsAsync (vdshwprv.h)
-
 description: Manages asynchronous operations. Methods that initiate asynchronous operations return a pointer to an IVdsAsync interface, allowing the caller to optionally cancel, wait for, or query the status of the asynchronous operation.
 old-location: base\ivdsasync.htm
 tech.root: VDS
 ms.assetid: 7814b8ef-84b4-453e-b480-c32b67e5af93
-
 ms.date: 12/05/2018
 ms.keywords: IVdsAsync, IVdsAsync interface [VDS], IVdsAsync interface [VDS],described, base.ivdsasync, vds/IVdsAsync, vdshwprv/IVdsAsync
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsAsync"
+f1_keywords:
+- vdshwprv/IVdsAsync
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAsync
+- IVdsAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

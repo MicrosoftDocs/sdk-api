@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.MFP_GET_MEDIAITEM_CLEARED_EVENT
 title: MFP_GET_MEDIAITEM_CLEARED_EVENT macro (mfplay.h)
-
 description: Casts an MFP_EVENT_HEADER pointer to an MEDIAITEM_CLEARED_EVENT pointer.
 old-location: mf\mfp_get_mediaitem_cleared_event.htm
 tech.root: medfound
 ms.assetid: 1e3c0882-2a8a-4fe9-9f05-5a343acea456
-
 ms.date: 12/05/2018
 ms.keywords: MFP_GET_MEDIAITEM_CLEARED_EVENT, MFP_GET_MEDIAITEM_CLEARED_EVENT macro [Media Foundation], mf.mfp_get_mediaitem_cleared_event, mfplay/MFP_GET_MEDIAITEM_CLEARED_EVENT
 ms.topic: macro
-f1_keywords: 
- - "mfplay/MFP_GET_MEDIAITEM_CLEARED_EVENT"
+f1_keywords:
+- mfplay/MFP_GET_MEDIAITEM_CLEARED_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - MFP_GET_MEDIAITEM_CLEARED_EVENT
+- MFP_GET_MEDIAITEM_CLEARED_EVENT
 targetos: Windows
 req.typenames: 
 req.redist: 

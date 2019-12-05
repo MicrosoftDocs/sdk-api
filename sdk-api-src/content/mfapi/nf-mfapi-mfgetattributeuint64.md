@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetAttributeUINT64
 title: MFGetAttributeUINT64 function (mfapi.h)
-
 description: Returns a UINT64 value from an attribute store, or a default value if the attribute is not present.
 old-location: mf\mfgetattributeuint64.htm
 tech.root: medfound
 ms.assetid: 843946a4-d270-4440-9818-59e95cbf9a5b
-
 ms.date: 12/05/2018
 ms.keywords: 843946a4-d270-4440-9818-59e95cbf9a5b, MFGetAttributeUINT64, MFGetAttributeUINT64 function [Media Foundation], mf.mfgetattributeuint64, mfapi/MFGetAttributeUINT64
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetAttributeUINT64"
+f1_keywords:
+- mfapi/MFGetAttributeUINT64
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - MFGetAttributeUINT64
+- MFGetAttributeUINT64
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DVolumeTexture9.GetVolumeLevel
 title: IDirect3DVolumeTexture9::GetVolumeLevel (d3d9.h)
-
 description: Retrieves the specified volume texture level.
 old-location: direct3d9\idirect3dvolumetexture9__getvolumelevel.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolumetexture9__getvolumelevel.htm
-
 ms.date: 12/05/2018
 ms.keywords: 6b38df70-e8ab-b3ca-2c91-45641b4a2e90, GetVolumeLevel, GetVolumeLevel method [Direct3D 9], GetVolumeLevel method [Direct3D 9],IDirect3DVolumeTexture9 interface, IDirect3DVolumeTexture9 interface [Direct3D 9],GetVolumeLevel method, IDirect3DVolumeTexture9.GetVolumeLevel, IDirect3DVolumeTexture9::GetVolumeLevel, d3d9helper/IDirect3DVolumeTexture9::GetVolumeLevel, direct3d9.idirect3dvolumetexture9__getvolumelevel
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DVolumeTexture9.GetVolumeLevel"
+f1_keywords:
+- d3d9/IDirect3DVolumeTexture9.GetVolumeLevel
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: D3D9.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D9.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D9.lib
- - D3D9.dll
+- D3D9.lib
+- D3D9.dll
 api_name:
- - IDirect3DVolumeTexture9.GetVolumeLevel
+- IDirect3DVolumeTexture9.GetVolumeLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

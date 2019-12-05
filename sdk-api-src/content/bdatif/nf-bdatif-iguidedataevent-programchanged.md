@@ -1,19 +1,17 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ProgramChanged
 title: IGuideDataEvent::ProgramChanged (bdatif.h)
-
 description: The ProgramChanged method is called when information about one or more programs has changed.
 old-location: mstv\iguidedataevent_programchanged.htm
 tech.root: mstv
 ms.assetid: 06fcf24b-5d35-4689-9c88-240fe18a46de
-
 ms.date: 12/05/2018
 ms.keywords: IGuideDataEvent interface [Microsoft TV Technologies],ProgramChanged method, IGuideDataEvent.ProgramChanged, IGuideDataEvent::ProgramChanged, IGuideDataEventProgramChanged, ProgramChanged, ProgramChanged method [Microsoft TV Technologies], ProgramChanged method [Microsoft TV Technologies],IGuideDataEvent interface, bdatif/IGuideDataEvent::ProgramChanged, mstv.iguidedataevent_programchanged
 ms.topic: method
-f1_keywords: 
- - "bdatif/IGuideDataEvent.ProgramChanged"
+f1_keywords:
+- bdatif/IGuideDataEvent.ProgramChanged
 dev_langs:
- - c++
+- c++
 req.header: bdatif.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdatif.h
+- bdatif.h
 api_name:
- - IGuideDataEvent.ProgramChanged
+- IGuideDataEvent.ProgramChanged
 targetos: Windows
 req.typenames: 
 req.redist: 

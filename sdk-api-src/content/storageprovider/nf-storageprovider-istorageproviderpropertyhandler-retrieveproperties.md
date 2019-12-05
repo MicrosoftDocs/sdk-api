@@ -1,19 +1,17 @@
 ---
 UID: NF:storageprovider.IStorageProviderPropertyHandler.RetrieveProperties
 title: IStorageProviderPropertyHandler::RetrieveProperties (storageprovider.h)
-
 description: Gets the properties managed by the sync engine.
 old-location: shell\istorageproviderpropertyhandler_retrieveproperties.htm
 tech.root: shell
 ms.assetid: C1E21E6E-A651-4AB3-A4C1-ADDF874DCCC7
-
 ms.date: 12/05/2018
 ms.keywords: IStorageProviderPropertyHandler interface [Windows Shell],RetrieveProperties method, IStorageProviderPropertyHandler.RetrieveProperties, IStorageProviderPropertyHandler::RetrieveProperties, RetrieveProperties, RetrieveProperties method [Windows Shell], RetrieveProperties method [Windows Shell],IStorageProviderPropertyHandler interface, shell.istorageproviderpropertyhandler_retrieveproperties, storageprovider/IStorageProviderPropertyHandler::RetrieveProperties
 ms.topic: method
-f1_keywords: 
- - "storageprovider/IStorageProviderPropertyHandler.RetrieveProperties"
+f1_keywords:
+- storageprovider/IStorageProviderPropertyHandler.RetrieveProperties
 dev_langs:
- - c++
+- c++
 req.header: storageprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - storageprovider.h
+- storageprovider.h
 api_name:
- - IStorageProviderPropertyHandler.RetrieveProperties
+- IStorageProviderPropertyHandler.RetrieveProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

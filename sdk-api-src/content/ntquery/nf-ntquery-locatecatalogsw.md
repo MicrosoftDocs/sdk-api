@@ -1,19 +1,17 @@
 ---
 UID: NF:ntquery.LocateCatalogsW
 title: LocateCatalogsW function (ntquery.h)
-
 description: Finds the catalog that indexes a directory.
 old-location: indexsrv\locatecatalogs.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4t6b.htm
-
 ms.date: 12/05/2018
 ms.keywords: LocateCatalogs, LocateCatalogs function [Indexing Service], LocateCatalogsA, LocateCatalogsW, _idxs_LocateCatalogs, indexsrv.locatecatalogs, ntquery/LocateCatalogs, ntquery/LocateCatalogsA, ntquery/LocateCatalogsW
 ms.topic: function
-f1_keywords: 
- - "ntquery/LocateCatalogs"
+f1_keywords:
+- ntquery/LocateCatalogs
 dev_langs:
- - c++
+- c++
 req.header: ntquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ntquery.lib
 req.dll: Ntquery.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntquery.dll
+- Ntquery.dll
 api_name:
- - LocateCatalogs
- - LocateCatalogsA
- - LocateCatalogsW
+- LocateCatalogs
+- LocateCatalogsA
+- LocateCatalogsW
 targetos: Windows
 req.typenames: 
 req.redist: 

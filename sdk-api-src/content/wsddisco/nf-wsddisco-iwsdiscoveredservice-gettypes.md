@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetTypes
 title: IWSDiscoveredService::GetTypes (wsddisco.h)
-
 description: Retrieves a list of WS-Discovery Types.
 old-location: ncd\iwsdiscoveredservice_gettypes.htm
 tech.root: WsdApi
 ms.assetid: fda4def4-4c1d-49a7-bfc1-56ff744a7a9d
-
 ms.date: 12/05/2018
 ms.keywords: GetTypes, GetTypes method, GetTypes method,IWSDiscoveredService interface, IWSDiscoveredService interface,GetTypes method, IWSDiscoveredService.GetTypes, IWSDiscoveredService::GetTypes, ncd.iwsdiscoveredservice_gettypes, wsddisco/IWSDiscoveredService::GetTypes
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveredService.GetTypes
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

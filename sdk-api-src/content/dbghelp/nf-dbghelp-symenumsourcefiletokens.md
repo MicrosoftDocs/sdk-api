@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFileTokens
 title: SymEnumSourceFileTokens function (dbghelp.h)
-
 description: Enumerates all individual entries in a module's source server data, if available.
 old-location: base\symenumsourcefiletokens.htm
 tech.root: Debug
 ms.assetid: 0377ef07-bf9f-4938-8fc4-ae14373db590
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumSourceFileTokens, SymEnumSourceFileTokens function, base.symenumsourcefiletokens, dbghelp/SymEnumSourceFileTokens
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumSourceFileTokens"
+f1_keywords:
+- dbghelp/SymEnumSourceFileTokens
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumSourceFileTokens
+- SymEnumSourceFileTokens
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.8 or later

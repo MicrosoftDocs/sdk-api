@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportIScsiTargetsW
 title: ReportIScsiTargetsW function (iscsidsc.h)
-
 description: ReportIscsiTargets function retrieves the list of targets that the iSCSI initiator service has discovered, and can also instruct the iSCSI initiator service to refresh the list.
 old-location: iscsidisc\reportiscsitargets.htm
 tech.root: iSCSIDisc
 ms.assetid: c4b2bcc4-d9d3-4fd3-bbca-03b13670054f
-
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiTargetsW, ReportIscsiTargets, ReportIscsiTargets function [iSCSI Discovery Library API], ReportIscsiTargetsA, ReportIscsiTargetsW, iscsidisc.reportiscsitargets, iscsidsc/ReportIscsiTargets, iscsidsc/ReportIscsiTargetsA, iscsidsc/ReportIscsiTargetsW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportIscsiTargets"
+f1_keywords:
+- iscsidsc/ReportIscsiTargets
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportIscsiTargets
- - ReportIscsiTargetsA
- - ReportIscsiTargetsW
+- ReportIscsiTargets
+- ReportIscsiTargetsA
+- ReportIscsiTargetsW
 targetos: Windows
 req.typenames: 
 req.redist: 

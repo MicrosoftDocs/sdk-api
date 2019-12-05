@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IROTData
 title: IROTData (objidl.h)
-
 description: Implemented by monikers to enable the running object table (ROT) to compare monikers against each other.
 old-location: com\irotdata.htm
 tech.root: com
 ms.assetid: 44ae8377-c375-4dc3-9f54-a5674e24763f
-
 ms.date: 12/05/2018
 ms.keywords: IROTData, IROTData interface [COM], IROTData interface [COM],described, _com_irotdata, com.irotdata, objidl/IROTData
 ms.topic: interface
-f1_keywords: 
- - "objidl/IROTData"
+f1_keywords:
+- objidl/IROTData
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IROTData
+- IROTData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssWMFiledesc.GetFilespec
 title: IVssWMFiledesc::GetFilespec (vswriter.h)
-
 description: The GetFilespec method returns the file specification used to obtain the list of files that the current IVssWMFiledesc object is a member of.
 old-location: base\ivsswmfiledesc_getfilespec.htm
 tech.root: VSS
 ms.assetid: 9661d22b-5c82-412d-966d-83605c568e22
-
 ms.date: 12/05/2018
 ms.keywords: GetFilespec, GetFilespec method [VSS], GetFilespec method [VSS],IVssWMFiledesc interface, IVssWMFiledesc interface [VSS],GetFilespec method, IVssWMFiledesc.GetFilespec, IVssWMFiledesc::GetFilespec, _win32_ivsswmfiledesc_getfilespec, base.ivsswmfiledesc_getfilespec, vswriter/IVssWMFiledesc::GetFilespec
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssWMFiledesc.GetFilespec"
+f1_keywords:
+- vswriter/IVssWMFiledesc.GetFilespec
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssWMFiledesc.GetFilespec
+- IVssWMFiledesc.GetFilespec
 targetos: Windows
 req.typenames: 
 req.redist: 

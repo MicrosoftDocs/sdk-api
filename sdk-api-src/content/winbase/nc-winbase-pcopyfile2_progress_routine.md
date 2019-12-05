@@ -1,19 +1,17 @@
 ---
 UID: NC:winbase.PCOPYFILE2_PROGRESS_ROUTINE
 title: PCOPYFILE2_PROGRESS_ROUTINE (winbase.h)
-
 description: An application-defined callback function used with the CopyFile2 function.
 old-location: fs\copyfile2progressroutine.htm
 tech.root: FileIO
 ms.assetid: d14b5f5b-c353-49e8-82bb-a695a3ec76fd
-
 ms.date: 12/05/2018
 ms.keywords: CopyFile2ProgressRoutine, CopyFile2ProgressRoutine callback function [Files], PCOPYFILE2_PROGRESS_ROUTINE, PCOPYFILE2_PROGRESS_ROUTINE callback, fs.copyfile2progressroutine, winbase/CopyFile2ProgressRoutine, winbase/PCOPYFILE2_PROGRESS_ROUTINE
 ms.topic: callback
 f1_keywords:
 - winbase/CopyFile2ProgressRoutine
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows

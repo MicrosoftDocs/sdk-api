@@ -1,19 +1,17 @@
 ---
 UID: NF:synchapi.CreateMutexExW
 title: CreateMutexExW function (synchapi.h)
-
 description: Creates or opens a named or unnamed mutex object and returns a handle to the object.
 old-location: base\createmutexex.htm
 tech.root: Sync
 ms.assetid: c22ec98a-29c0-444e-afa4-fa2ad131a086
-
 ms.date: 12/05/2018
 ms.keywords: CREATE_MUTEX_INITIAL_OWNER, CreateMutexEx, CreateMutexEx function, CreateMutexExA, CreateMutexExW, base.createmutexex, synchapi/CreateMutexEx, synchapi/CreateMutexExA, synchapi/CreateMutexExW, winbase/CreateMutexEx, winbase/CreateMutexExA, winbase/CreateMutexExW
 ms.topic: function
-f1_keywords: 
- - "synchapi/CreateMutexEx"
+f1_keywords:
+- synchapi/CreateMutexEx
 dev_langs:
- - c++
+- c++
 req.header: synchapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Synch-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Synch-l1-2-0.dll
- - API-MS-Win-Core-Synch-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Synch-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Synch-l1-2-0.dll
+- API-MS-Win-Core-Synch-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - CreateMutexEx
- - CreateMutexExA
- - CreateMutexExW
+- CreateMutexEx
+- CreateMutexExA
+- CreateMutexExW
 targetos: Windows
 req.typenames: 
 req.redist: 

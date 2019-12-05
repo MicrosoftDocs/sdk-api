@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.OpenResource
 title: IShellItemResources::OpenResource (shobjidl_core.h)
-
 description: Opens a specified resource.
 old-location: shell\IShellItemResources_OpenResource.htm
 tech.root: shell
 ms.assetid: abef9009-7e0d-4a09-aba8-2b391e4ab487
-
 ms.date: 12/05/2018
 ms.keywords: IShellItemResources interface [Windows Shell],OpenResource method, IShellItemResources.OpenResource, IShellItemResources::OpenResource, OpenResource, OpenResource method [Windows Shell], OpenResource method [Windows Shell],IShellItemResources interface, _shell_IShellItemResources_OpenResource, shell.IShellItemResources_OpenResource, shobjidl_core/IShellItemResources::OpenResource
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellItemResources.OpenResource"
+f1_keywords:
+- shobjidl_core/IShellItemResources.OpenResource
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellItemResources.OpenResource
+- IShellItemResources.OpenResource
 targetos: Windows
 req.typenames: 
 req.redist: 

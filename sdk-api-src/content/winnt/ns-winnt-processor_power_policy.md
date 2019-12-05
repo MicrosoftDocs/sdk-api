@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._PROCESSOR_POWER_POLICY
 title: PROCESSOR_POWER_POLICY (winnt.h)
-
 description: Contains information about processor performance control and C-states.
 old-location: base\processor_power_policy_str.htm
 tech.root: power
 ms.assetid: ea1eae62-26b4-4f5d-a9ca-0a7bb463b90a
-
 ms.date: 12/05/2018
 ms.keywords: '*PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY, PPROCESSOR_POWER_POLICY structure pointer, PROCESSOR_POWER_POLICY, PROCESSOR_POWER_POLICY structure, _PROCESSOR_POWER_POLICY, _win32_processor_power_policy_str, base.processor_power_policy_str, winnt/PPROCESSOR_POWER_POLICY, winnt/PROCESSOR_POWER_POLICY'
 ms.topic: struct
 f1_keywords:
 - winnt/PROCESSOR_POWER_POLICY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

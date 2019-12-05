@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnReadSample
 title: IMFSourceReaderCallback::OnReadSample (mfreadwrite.h)
-
 description: Called when the IMFSourceReader::ReadSample method completes.
 old-location: mf\imfsourcereadercallback_onreadsample.htm
 tech.root: medfound
 ms.assetid: 1f334b49-d297-478d-a037-2fc53a75ed52
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceReaderCallback interface [Media Foundation],OnReadSample method, IMFSourceReaderCallback.OnReadSample, IMFSourceReaderCallback::OnReadSample, OnReadSample, OnReadSample method [Media Foundation], OnReadSample method [Media Foundation],IMFSourceReaderCallback interface, mf.imfsourcereadercallback_onreadsample, mfreadwrite/IMFSourceReaderCallback::OnReadSample
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReaderCallback.OnReadSample"
+f1_keywords:
+- mfreadwrite/IMFSourceReaderCallback.OnReadSample
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReaderCallback.OnReadSample
+- IMFSourceReaderCallback.OnReadSample
 targetos: Windows
 req.typenames: 
 req.redist: 

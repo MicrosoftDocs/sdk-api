@@ -1,19 +1,17 @@
 ---
 UID: NF:realtimeapiset.QueryIdleProcessorCycleTimeEx
 title: QueryIdleProcessorCycleTimeEx function (realtimeapiset.h)
-
 description: Retrieves the accumulated cycle time for the idle thread on each logical processor in the specified processor group.
 old-location: base\queryidleprocessorcycletimeex.htm
 tech.root: ProcThread
 ms.assetid: 4bf05e40-96d1-4c01-b3a8-8a45934b38c6
-
 ms.date: 12/05/2018
 ms.keywords: QueryIdleProcessorCycleTimeEx, QueryIdleProcessorCycleTimeEx function, base.queryidleprocessorcycletimeex, realtimeapiset/QueryIdleProcessorCycleTimeEx, winbase/QueryIdleProcessorCycleTimeEx
 ms.topic: function
-f1_keywords: 
- - "realtimeapiset/QueryIdleProcessorCycleTimeEx"
+f1_keywords:
+- realtimeapiset/QueryIdleProcessorCycleTimeEx
 dev_langs:
- - c++
+- c++
 req.header: realtimeapiset.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-realtime-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-RealTime-l1-1-1.dll
+- kernel32.dll
+- API-MS-Win-Core-realtime-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-RealTime-l1-1-1.dll
 api_name:
- - QueryIdleProcessorCycleTimeEx
+- QueryIdleProcessorCycleTimeEx
 targetos: Windows
 req.typenames: 
 req.redist: 

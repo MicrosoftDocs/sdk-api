@@ -1,19 +1,17 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_ECDSA_KEY_VALUE
 title: CRYPT_XML_KEY_ECDSA_KEY_VALUE (cryptxml.h)
-
 description: Defines an Elliptic Curve Digital Signature Algorithm (ECDSA) key value. The CRYPT_XML_KEY_ECDSA_KEY_VALUE structure is used as an element of the key value union in the CRYPT_XML_KEY_VALUE structure.
 old-location: security\crypt_xml_key_ecdsa_key_value.htm
 tech.root: SecCrypto
 ms.assetid: db7e8ee0-25b4-4e2e-83da-f970906c9da9
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_XML_KEY_ECDSA_KEY_VALUE, CRYPT_XML_KEY_ECDSA_KEY_VALUE structure [Security], cryptxml/CRYPT_XML_KEY_ECDSA_KEY_VALUE, security.crypt_xml_key_ecdsa_key_value
 ms.topic: struct
 f1_keywords:
 - cryptxml/CRYPT_XML_KEY_ECDSA_KEY_VALUE
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

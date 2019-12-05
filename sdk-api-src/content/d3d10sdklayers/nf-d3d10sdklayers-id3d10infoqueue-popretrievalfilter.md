@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10sdklayers.ID3D10InfoQueue.PopRetrievalFilter
 title: ID3D10InfoQueue::PopRetrievalFilter (d3d10sdklayers.h)
-
 description: Pop a retrieval filter from the top of the retrieval-filter stack.
 old-location: direct3d10\id3d10infoqueue_popretrievalfilter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_popretrievalfilter.htm
-
 ms.date: 12/05/2018
 ms.keywords: 2b0b3983-c948-10ba-02f6-5f94e829dae6, ID3D10InfoQueue interface [Direct3D 10],PopRetrievalFilter method, ID3D10InfoQueue.PopRetrievalFilter, ID3D10InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [Direct3D 10], PopRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PopRetrievalFilter, direct3d10.id3d10infoqueue_popretrievalfilter
 ms.topic: method
-f1_keywords: 
- - "d3d10sdklayers/ID3D10InfoQueue.PopRetrievalFilter"
+f1_keywords:
+- d3d10sdklayers/ID3D10InfoQueue.PopRetrievalFilter
 dev_langs:
- - c++
+- c++
 req.header: d3d10sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10SDKLayers.h
+- D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue.PopRetrievalFilter
+- ID3D10InfoQueue.PopRetrievalFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

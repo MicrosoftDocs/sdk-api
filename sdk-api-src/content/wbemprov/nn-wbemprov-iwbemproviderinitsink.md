@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemprov.IWbemProviderInitSink
 title: IWbemProviderInitSink (wbemprov.h)
-
 description: The IWbemProviderInitSink interface is implemented by WMI and called by providers to report initialization status.
 old-location: wmi\iwbemproviderinitsink.htm
 tech.root: WmiSdk
 ms.assetid: abcee170-6a28-44d2-97d6-cb62c393b534
-
 ms.date: 12/05/2018
 ms.keywords: IWbemProviderInitSink, IWbemProviderInitSink interface [Windows Management Instrumentation], IWbemProviderInitSink interface [Windows Management Instrumentation],described, _hmm_iwbemproviderinitsink, wbemprov/IWbemProviderInitSink, wmi.iwbemproviderinitsink
 ms.topic: interface
-f1_keywords: 
- - "wbemprov/IWbemProviderInitSink"
+f1_keywords:
+- wbemprov/IWbemProviderInitSink
 dev_langs:
- - c++
+- c++
 req.header: wbemprov.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wbemsvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemsvc.dll
+- Wbemsvc.dll
 api_name:
- - IWbemProviderInitSink
+- IWbemProviderInitSink
 targetos: Windows
 req.typenames: 
 req.redist: 

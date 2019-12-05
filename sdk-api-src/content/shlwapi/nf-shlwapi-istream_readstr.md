@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IStream_ReadStr
 title: IStream_ReadStr function (shlwapi.h)
-
 description: Reads from a stream and writes into a string.
 old-location: shell\IStream_ReadStr.htm
 tech.root: shell
 ms.assetid: e3f140c4-4033-4c82-af2c-4a7744461920
-
 ms.date: 12/05/2018
 ms.keywords: IStream_ReadStr, IStream_ReadStr function [Windows Shell], _shell_IStream_ReadStr, shell.IStream_ReadStr, shlwapi/IStream_ReadStr
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IStream_ReadStr"
+f1_keywords:
+- shlwapi/IStream_ReadStr
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Shlwapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
- - ShCore.dll
- - API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
- - API-MS-Win-ShCore-stream-l1-1-0.dll
+- Shlwapi.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-0.dll
+- ShCore.dll
+- API-MS-Win-DownLevel-shlwapi-l2-1-1.dll
+- API-MS-Win-ShCore-stream-l1-1-0.dll
 api_name:
- - IStream_ReadStr
+- IStream_ReadStr
 targetos: Windows
 req.typenames: 
 req.redist: 

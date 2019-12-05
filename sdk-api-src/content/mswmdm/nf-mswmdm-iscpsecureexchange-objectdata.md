@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.ISCPSecureExchange.ObjectData
 title: ISCPSecureExchange::ObjectData (mswmdm.h)
-
 description: The ObjectData method transfers a block of object data back to Windows Media Device Manager.
 old-location: wmdm\iscpsecureexchange_objectdata.htm
 tech.root: WMDM
 ms.assetid: 825539e4-9162-40b7-bae0-336e728fb34e
-
 ms.date: 12/05/2018
 ms.keywords: ISCPSecureExchange interface [windows Media Device Manager],ObjectData method, ISCPSecureExchange.ObjectData, ISCPSecureExchange::ObjectData, ISCPSecureExchangeObjectData, ObjectData, ObjectData method [windows Media Device Manager], ObjectData method [windows Media Device Manager],ISCPSecureExchange interface, mswmdm/ISCPSecureExchange::ObjectData, wmdm.iscpsecureexchange_objectdata
 ms.topic: method
-f1_keywords: 
- - "mswmdm/ISCPSecureExchange.ObjectData"
+f1_keywords:
+- mswmdm/ISCPSecureExchange.ObjectData
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - ISCPSecureExchange.ObjectData
+- ISCPSecureExchange.ObjectData
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:hrtfapoapi.HrtfApoInit
 title: HrtfApoInit (hrtfapoapi.h)
-
 description: Specifies parameters used to initialize HRTF spatial audio.
 old-location: xaudio2\hrtfapoinit.htm
 tech.root: xaudio2
 ms.assetid: 686A2203-A991-427F-9D41-F3C679070127
-
 ms.date: 12/05/2018
 ms.keywords: HrtfApoInit, HrtfApoInit structure [XAudio2 Audio Mixing APIs], PHrtfApoInit, PHrtfApoInit structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfApoInit, hrtfapoapi/PHrtfApoInit, xaudio2.hrtfapoinit
 ms.topic: struct
-f1_keywords: 
- - "hrtfapoapi/HrtfApoInit"
+f1_keywords:
+- hrtfapoapi/HrtfApoInit
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfApoInit
+- HrtfApoInit
 targetos: Windows
 req.typenames: HrtfApoInit
 req.redist: 

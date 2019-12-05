@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.GetProfileStringW
 title: GetProfileStringW function (winbase.h)
-
 description: Retrieves the string associated with a key in the specified section of the Win.ini file.
 old-location: base\getprofilestring.htm
 tech.root: SysInfo
 ms.assetid: 70987969-7ad5-4eb6-bcd0-ce8709864ee7
-
 ms.date: 12/05/2018
 ms.keywords: GetProfileString, GetProfileString function, GetProfileStringA, GetProfileStringW, _win32_getprofilestring, base.getprofilestring, winbase/GetProfileString, winbase/GetProfileStringA, winbase/GetProfileStringW
 ms.topic: function
-f1_keywords: 
- - "winbase/GetProfileString"
+f1_keywords:
+- winbase/GetProfileString
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Privateprofile-l1-1-0.dll
- - kernel32legacy.dll
- - API-MS-Win-Core-Privateprofile-l1-1-1.dll
- - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Privateprofile-l1-1-0.dll
+- kernel32legacy.dll
+- API-MS-Win-Core-Privateprofile-l1-1-1.dll
+- API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetProfileString
- - GetProfileStringA
- - GetProfileStringW
+- GetProfileString
+- GetProfileStringA
+- GetProfileStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

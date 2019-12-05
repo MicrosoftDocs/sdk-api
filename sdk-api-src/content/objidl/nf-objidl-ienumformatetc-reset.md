@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Reset
 title: IEnumFORMATETC::Reset (objidl.h)
-
 description: Resets the enumeration sequence to the beginning.
 old-location: com\ienumformatetc_reset.htm
 tech.root: com
 ms.assetid: f079c166-c4a8-4827-a8c5-3c5e0cb13b77
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC interface [COM],Reset method, IEnumFORMATETC.Reset, IEnumFORMATETC::Reset, Reset, Reset method [COM], Reset method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_reset, com.ienumformatetc_reset, objidl/IEnumFORMATETC::Reset
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumFORMATETC.Reset"
+f1_keywords:
+- objidl/IEnumFORMATETC.Reset
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumFORMATETC.Reset
+- IEnumFORMATETC.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

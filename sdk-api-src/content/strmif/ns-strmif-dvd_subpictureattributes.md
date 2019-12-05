@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.tagDVD_SubpictureAttributes
 title: DVD_SubpictureAttributes (strmif.h)
-
 description: The DVD_SubpictureAttributes structure contains information about the DVD subpicture. The IDvdInfo2::GetSubpictureAttributes method fills in a DVD_SubpictureAttributes structure for a specified stream.
 old-location: dshow\dvd_subpictureattributes.htm
 tech.root: DirectShow
 ms.assetid: 55ddfa21-5600-4aa9-b554-7ff7f3c05b91
-
 ms.date: 12/05/2018
 ms.keywords: DVD_SubpictureAttributes, DVD_SubpictureAttributes structure [DirectShow], DVD_SubpictureAttributesStructure, dshow.dvd_subpictureattributes, strmif/DVD_SubpictureAttributes
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVD_SubpictureAttributes"
+f1_keywords:
+- strmif/DVD_SubpictureAttributes
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_SubpictureAttributes
+- DVD_SubpictureAttributes
 targetos: Windows
 req.typenames: DVD_SubpictureAttributes
 req.redist: 

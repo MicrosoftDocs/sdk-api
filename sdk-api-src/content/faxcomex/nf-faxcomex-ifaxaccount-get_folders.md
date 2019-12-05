@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxAccount.get_Folders
 title: IFaxAccount::get_Folders (faxcomex.h)
-
 description: Represents the folders of the account, including the incoming and outgoing archives and the incoming and outgoing queues.
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_folders_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\folders.htm
-
 ms.date: 12/05/2018
 ms.keywords: Folders property [Fax Service], Folders property [Fax Service],IFaxAccount interface, IFaxAccount interface [Fax Service],Folders property, IFaxAccount.Folders, IFaxAccount.get_Folders, IFaxAccount::Folders, IFaxAccount::get_Folders, _mfax_faxaccount.folders, fax._mfax_faxaccount_cpp_mfax_faxaccount_folders_cpp, fax._mfax_faxaccount_folders, faxcomex/IFaxAccount::Folders, faxcomex/IFaxAccount::get_Folders, get_Folders
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxAccount.Folders"
+f1_keywords:
+- faxcomex/IFaxAccount.Folders
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxAccount.Folders
- - IFaxAccount.get_Folders
+- IFaxAccount.Folders
+- IFaxAccount.get_Folders
 targetos: Windows
 req.typenames: 
 req.redist: 

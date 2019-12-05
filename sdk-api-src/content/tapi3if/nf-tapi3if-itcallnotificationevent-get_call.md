@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITCallNotificationEvent.get_Call
 title: ITCallNotificationEvent::get_Call (tapi3if.h)
-
 description: The get_Call method returns the ITCallInfo interface on which a call event has occurred.
 old-location: tapi3\itcallnotificationevent_get_call.htm
 tech.root: Tapi
 ms.assetid: 6ff82bd1-de69-4ab7-9152-a578b8566755
-
 ms.date: 12/05/2018
 ms.keywords: ITCallNotificationEvent interface [TAPI 2.2],get_Call method, ITCallNotificationEvent.get_Call, ITCallNotificationEvent::get_Call, _tapi3_itcallnotificationevent_get_call, get_Call, get_Call method [TAPI 2.2], get_Call method [TAPI 2.2],ITCallNotificationEvent interface, tapi3.itcallnotificationevent_get_call, tapi3if/ITCallNotificationEvent::get_Call
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITCallNotificationEvent.get_Call"
+f1_keywords:
+- tapi3if/ITCallNotificationEvent.get_Call
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITCallNotificationEvent.get_Call
+- ITCallNotificationEvent.get_Call
 targetos: Windows
 req.typenames: 
 req.redist: 

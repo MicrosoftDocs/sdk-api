@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaudit.NetAuditWrite
 title: NetAuditWrite function (lmaudit.h)
-
 description: The NetAuditWrite function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use event logging.
 old-location: netmgmt\netauditwrite.htm
 tech.root: NetMgmt
 ms.assetid: 3bdbccab-bc75-446b-9c11-4a3c078589e5
-
 ms.date: 12/05/2018
 ms.keywords: NetAuditWrite, NetAuditWrite function [Network Management], _win32_netauditwrite, lmaudit/NetAuditWrite, netmgmt.netauditwrite
 ms.topic: function
-f1_keywords: 
- - "lmaudit/NetAuditWrite"
+f1_keywords:
+- lmaudit/NetAuditWrite
 dev_langs:
- - c++
+- c++
 req.header: lmaudit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - lmaudit.h
+- lmaudit.h
 api_name:
- - NetAuditWrite
+- NetAuditWrite
 targetos: Windows
 req.typenames: 
 req.redist: 

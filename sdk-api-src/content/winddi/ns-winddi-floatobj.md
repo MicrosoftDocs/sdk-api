@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._FLOATOBJ
 title: FLOATOBJ (winddi.h)
-
 description: The FLOATOBJ structure is used to emulate a floating-point number.
 old-location: display\floatobj.htm
 tech.root: display
 ms.assetid: 5f8c401b-7487-4d75-a0a8-534fa7992a3d
-
 ms.date: 12/05/2018
-ms.keywords: "*PFLOATOBJ, FLOATOBJ, FLOATOBJ structure [Display Devices], PFLOATOBJ, PFLOATOBJ structure pointer [Display Devices], display.floatobj, grstrcts_5e2796fc-6ccc-4230-9ded-fd2222f0e8ac.xml, winddi/FLOATOBJ, winddi/PFLOATOBJ"
+ms.keywords: '*PFLOATOBJ, FLOATOBJ, FLOATOBJ structure [Display Devices], PFLOATOBJ, PFLOATOBJ structure pointer [Display Devices], display.floatobj, grstrcts_5e2796fc-6ccc-4230-9ded-fd2222f0e8ac.xml, winddi/FLOATOBJ, winddi/PFLOATOBJ'
 ms.topic: struct
-f1_keywords: 
- - "winddi/FLOATOBJ"
+f1_keywords:
+- winddi/FLOATOBJ
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - FLOATOBJ
+- FLOATOBJ
 targetos: Windows
 req.typenames: FLOATOBJ, *PFLOATOBJ
 req.redist: 

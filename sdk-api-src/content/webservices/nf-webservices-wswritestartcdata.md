@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteStartCData
 title: WsWriteStartCData function (webservices.h)
-
 description: This operation starts a CDATA section in the writer.
 old-location: wsw\wswritestartcdata.htm
 tech.root: wsw
 ms.assetid: c233244c-24b6-4baa-ba36-697283ff33f3
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteStartCData, WsWriteStartCData function [Web Services for Windows], webservices/WsWriteStartCData, wsw.wswritestartcdata
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteStartCData"
+f1_keywords:
+- webservices/WsWriteStartCData
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteStartCData
+- WsWriteStartCData
 targetos: Windows
 req.typenames: 
 req.redist: 

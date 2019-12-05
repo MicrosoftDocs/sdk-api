@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.AddEntry
 title: IGPMMigrationTable::AddEntry (gpmgmt.h)
-
 description: Creates an entry in the migration table. The method updates an existing entry.
 old-location: gpmc\igpmmigrationtable_addentry.htm
 tech.root: gpmc
 ms.assetid: 2e6f6b81-b01c-4d46-9b7b-3265580f112a
-
 ms.date: 12/05/2018
 ms.keywords: AddEntry, AddEntry method [GPMC], AddEntry method [GPMC],GPMMigrationTable class, AddEntry method [GPMC],IGPMMigrationTable interface, GPMMigrationTable class [GPMC],AddEntry method, IGPMMigrationTable interface [GPMC],AddEntry method, IGPMMigrationTable.AddEntry, IGPMMigrationTable::AddEntry, gpmc.igpmmigrationtable_addentry, gpmgmt/IGPMMigrationTable::AddEntry, typeComputer, typeGlobalGroup, typeLocalGroup, typeUNCPath, typeUniversalGroup, typeUnknown, typeUser
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMigrationTable.AddEntry"
+f1_keywords:
+- gpmgmt/IGPMMigrationTable.AddEntry
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMigrationTable.AddEntry
- - GPMMigrationTable.AddEntry
+- IGPMMigrationTable.AddEntry
+- GPMMigrationTable.AddEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

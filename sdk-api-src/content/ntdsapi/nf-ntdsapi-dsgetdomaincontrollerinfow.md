@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsGetDomainControllerInfoW
 title: DsGetDomainControllerInfoW function (ntdsapi.h)
-
 description: Retrieves data about the domain controllers in a domain.
 old-location: ad\dsgetdomaincontrollerinfo.htm
 tech.root: ad
 ms.assetid: 52db3b25-e6b0-4a0d-831b-89a203580cf1
-
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, DsGetDomainControllerInfo, DsGetDomainControllerInfo function [Active Directory], DsGetDomainControllerInfoA, DsGetDomainControllerInfoW, _glines_dsgetdomaincontrollerinfo, ad.dsgetdomaincontrollerinfo, ntdsapi/DsGetDomainControllerInfo, ntdsapi/DsGetDomainControllerInfoA, ntdsapi/DsGetDomainControllerInfoW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsGetDomainControllerInfo"
+f1_keywords:
+- ntdsapi/DsGetDomainControllerInfo
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - KernelBase.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- Ntdsapi.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- KernelBase.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsGetDomainControllerInfo
- - DsGetDomainControllerInfoA
- - DsGetDomainControllerInfoW
+- DsGetDomainControllerInfo
+- DsGetDomainControllerInfoA
+- DsGetDomainControllerInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

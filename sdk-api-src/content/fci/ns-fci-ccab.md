@@ -1,19 +1,17 @@
 ---
 UID: NS:fci.__unnamed_struct_0
 title: CCAB (fci.h)
-
 description: The CCAB structure contains cabinet information.
 old-location: winprog\ccab.htm
 tech.root: DevNotes
 ms.assetid: e25cb72b-4c96-40e9-9fd5-2920e4a01d3a
-
 ms.date: 12/05/2018
-ms.keywords: "*PCCAB, CCAB, CCAB structure [Windows API], PCCAB, PCCAB structure pointer [Windows API], fci/CCAB, fci/PCCAB, winprog.ccab"
+ms.keywords: '*PCCAB, CCAB, CCAB structure [Windows API], PCCAB, PCCAB structure pointer [Windows API], fci/CCAB, fci/PCCAB, winprog.ccab'
 ms.topic: struct
-f1_keywords: 
- - "fci/CCAB"
+f1_keywords:
+- fci/CCAB
 dev_langs:
- - c++
+- c++
 req.header: fci.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fci.h
+- Fci.h
 api_name:
- - CCAB
+- CCAB
 targetos: Windows
 req.typenames: CCAB
 req.redist: 

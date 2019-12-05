@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WinExec
 title: WinExec function (winbase.h)
-
 description: Runs the specified application.
 old-location: base\winexec.htm
 tech.root: ProcThread
 ms.assetid: 00ac3bd8-59d3-4f7f-8720-e57d05cee056
-
 ms.date: 12/05/2018
 ms.keywords: WinExec, WinExec function, _win32_winexec, base.winexec, winbase/WinExec
 ms.topic: function
-f1_keywords: 
- - "winbase/WinExec"
+f1_keywords:
+- winbase/WinExec
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - WinExec
+- WinExec
 targetos: Windows
 req.typenames: 
 req.redist: 

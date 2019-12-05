@@ -1,19 +1,17 @@
 ---
 UID: NF:tspi.TSPI_providerGenericDialogData
 title: TSPI_providerGenericDialogData function (tspi.h)
-
 description: The TSPI_providerGenericDialogData function delivers to the service provider data that was sent from the UI DLL running in an application context through the TUISPIDLLCALLBACK function.
 old-location: tspi\tspi_providergenericdialogdata.htm
 tech.root: Tapi
 ms.assetid: f48d1995-c775-4ae6-9af8-5f5f5c4f4ebe
-
 ms.date: 12/05/2018
 ms.keywords: TSPI_providerGenericDialogData, TSPI_providerGenericDialogData function [TAPI 2.2], _tspi_tspi_providergenericdialogdata, tspi.tspi_providergenericdialogdata, tspi/TSPI_providerGenericDialogData
 ms.topic: function
-f1_keywords: 
- - "tspi/TSPI_providerGenericDialogData"
+f1_keywords:
+- tspi/TSPI_providerGenericDialogData
 dev_langs:
- - c++
+- c++
 req.header: tspi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tspi.h
+- Tspi.h
 api_name:
- - TSPI_providerGenericDialogData
+- TSPI_providerGenericDialogData
 targetos: Windows
 req.typenames: 
 req.redist: 

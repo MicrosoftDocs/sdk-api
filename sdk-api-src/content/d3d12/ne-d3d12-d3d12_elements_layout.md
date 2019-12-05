@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_ELEMENTS_LAYOUT
 title: D3D12_ELEMENTS_LAYOUT (d3d12.h)
-
 description: Describes how the locations of elements are identified.
 old-location: direct3d12\d3d12_elements_layout.htm
 tech.root: direct3d12
 ms.assetid: C3BEAE37-3C3B-4128-95C1-DD88B31AC5A3
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_ELEMENTS_LAYOUT, D3D12_ELEMENTS_LAYOUT enumeration, D3D12_ELEMENTS_LAYOUT_ARRAY, D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS, d3d12/D3D12_ELEMENTS_LAYOUT, d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY, d3d12/D3D12_ELEMENTS_LAYOUT_ARRAY_OF_POINTERS, direct3d12.d3d12_elements_layout
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_ELEMENTS_LAYOUT"
+f1_keywords:
+- d3d12/D3D12_ELEMENTS_LAYOUT
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_ELEMENTS_LAYOUT
+- D3D12_ELEMENTS_LAYOUT
 targetos: Windows
 req.typenames: D3D12_ELEMENTS_LAYOUT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1svg.D2D1_SVG_VIEWBOX
 title: D2D1_SVG_VIEWBOX (d2d1svg.h)
-
 description: Represents an SVG viewBox.
 old-location: direct2d\d2d1_svg_viewbox.htm
 tech.root: Direct2D
 ms.assetid: 35D576E1-18E1-4A3B-A1E9-7A6A55AA2872
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_SVG_VIEWBOX, D2D1_SVG_VIEWBOX structure [Direct2D], d2d1svg/D2D1_SVG_VIEWBOX, direct2d.d2d1_svg_viewbox
 ms.topic: struct
-f1_keywords: 
- - "d2d1svg/D2D1_SVG_VIEWBOX"
+f1_keywords:
+- d2d1svg/D2D1_SVG_VIEWBOX
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1svg.h
+- d2d1svg.h
 api_name:
- - D2D1_SVG_VIEWBOX
+- D2D1_SVG_VIEWBOX
 targetos: Windows
 req.typenames: D2D1_SVG_VIEWBOX
 req.redist: 

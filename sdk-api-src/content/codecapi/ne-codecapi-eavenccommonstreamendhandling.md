@@ -1,19 +1,17 @@
 ---
 UID: NE:codecapi.eAVEncCommonStreamEndHandling
 title: eAVEncCommonStreamEndHandling (codecapi.h)
-
 description: Specifies whether the encoder discards partial groups of pictures (GOPs) at the end of the stream. This enumeration is used with the AVEncCommonStreamEndHandling codec property.
 old-location: dshow\eavenccommonstreamendhandling.htm
 tech.root: DirectShow
 ms.assetid: 406dbfe6-d5c8-44b1-9052-88df40a6a522
-
 ms.date: 12/05/2018
 ms.keywords: codecapi/eAVEncCommonStreamEndHandling, codecapi/eAVEncCommonStreamEndHandling_DiscardPartial, codecapi/eAVEncCommonStreamEndHandling_EnsureComplete, dshow.eavenccommonstreamendhandling, eAVEncCommonStreamEndHandling, eAVEncCommonStreamEndHandling enumeration [DirectShow], eAVEncCommonStreamEndHandlingEnumeration, eAVEncCommonStreamEndHandling_DiscardPartial, eAVEncCommonStreamEndHandling_EnsureComplete
 ms.topic: enum
-f1_keywords: 
- - "codecapi/eAVEncCommonStreamEndHandling"
+f1_keywords:
+- codecapi/eAVEncCommonStreamEndHandling
 dev_langs:
- - c++
+- c++
 req.header: codecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - codecapi.h
+- codecapi.h
 api_name:
- - eAVEncCommonStreamEndHandling
+- eAVEncCommonStreamEndHandling
 targetos: Windows
 req.typenames: 
 req.redist: 

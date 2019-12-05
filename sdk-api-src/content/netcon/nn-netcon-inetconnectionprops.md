@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.INetConnectionProps
 title: INetConnectionProps (netcon.h)
-
 description: Use the INetConnectionProps interface to retrieve the properties for a connection.
 old-location: ics\inetconnectionprops.htm
 tech.root: ics
 ms.assetid: 8152f75c-1c93-4c30-8a13-c47fd5dde4af
-
 ms.date: 12/05/2018
 ms.keywords: INetConnectionProps, INetConnectionProps interface [ICS/ICF], INetConnectionProps interface [ICS/ICF],described, _ics_inetconnectionprops, ics.inetconnectionprops, netcon/INetConnectionProps
 ms.topic: interface
-f1_keywords: 
- - "netcon/INetConnectionProps"
+f1_keywords:
+- netcon/INetConnectionProps
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetConnectionProps
+- INetConnectionProps
 targetos: Windows
 req.typenames: 
 req.redist: 

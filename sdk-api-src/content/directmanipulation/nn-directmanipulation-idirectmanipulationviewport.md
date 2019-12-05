@@ -1,19 +1,17 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationViewport
 title: IDirectManipulationViewport (directmanipulation.h)
-
 description: Defines a region within a window (referred to as a viewport) that is able to receive and process input from user interactions.
 old-location: directmanipulation\idirectmanipulationviewport.htm
 tech.root: directmanipulation
 ms.assetid: 4c14143b-3b5f-401d-9df7-f17374abcd99
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport, IDirectManipulationViewport interface [Direct Manipulation], IDirectManipulationViewport interface [Direct Manipulation],described, directmanipulation.idirectmanipulationviewport, directmanipulation/IDirectManipulationViewport
 ms.topic: interface
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport
+- IDirectManipulationViewport
 targetos: Windows
 req.typenames: 
 req.redist: 

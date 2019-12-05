@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IMoniker.Reduce
 title: IMoniker::Reduce (objidl.h)
-
 description: Reduces a moniker to its simplest form.
 old-location: com\imoniker_reduce.htm
 tech.root: com
 ms.assetid: 1d34da7b-e6cb-4daa-a155-45beb36e035b
-
 ms.date: 12/05/2018
 ms.keywords: IMoniker interface [COM],Reduce method, IMoniker.Reduce, IMoniker::Reduce, Reduce, Reduce method [COM], Reduce method [COM],IMoniker interface, _com_imoniker_reduce, com.imoniker_reduce, objidl/IMoniker::Reduce
 ms.topic: method
-f1_keywords: 
- - "objidl/IMoniker.Reduce"
+f1_keywords:
+- objidl/IMoniker.Reduce
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IMoniker.Reduce
+- IMoniker.Reduce
 targetos: Windows
 req.typenames: 
 req.redist: 

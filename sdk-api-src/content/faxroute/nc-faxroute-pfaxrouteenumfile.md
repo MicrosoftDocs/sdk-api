@@ -1,19 +1,17 @@
 ---
 UID: NC:faxroute.PFAXROUTEENUMFILE
 title: PFAXROUTEENUMFILE (faxroute.h)
-
 description: The FaxRouteEnumFile callback function receives the file names in the fax file list associated with a received fax document.
 old-location: fax\_mfax_faxrouteenumfile.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3of9.htm
-
 ms.date: 12/05/2018
 ms.keywords: FaxRouteEnumFile, FaxRouteEnumFile callback function [Fax Service], PFAXROUTEENUMFILE, PFAXROUTEENUMFILE callback, _mfax_faxrouteenumfile, fax._mfax_faxrouteenumfile, faxroute/FaxRouteEnumFile
 ms.topic: callback
-f1_keywords: 
- - "faxroute/FaxRouteEnumFile"
+f1_keywords:
+- faxroute/FaxRouteEnumFile
 dev_langs:
- - c++
+- c++
 req.header: faxroute.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - FaxRoute.h
+- FaxRoute.h
 api_name:
- - FaxRouteEnumFile
+- FaxRouteEnumFile
 targetos: Windows
 req.typenames: 
 req.redist: 

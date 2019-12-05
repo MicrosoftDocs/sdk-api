@@ -1,19 +1,17 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_CHANGE
 title: SEARCH_ITEM_CHANGE (searchapi.h)
-
 description: Specifies the changes to an indexed item.
 old-location: search\_search_SEARCH_ITEM_CHANGE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_change.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_ITEM_CHANGE, SEARCH_ITEM_CHANGE structure [search], _search_SEARCH_ITEM_CHANGE, search._search_SEARCH_ITEM_CHANGE, searchapi/SEARCH_ITEM_CHANGE
 ms.topic: struct
 f1_keywords:
 - searchapi/SEARCH_ITEM_CHANGE
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAudioRendererEvent2.AVDecCommonInputFormat
 title: IMSVidAudioRendererEvent2::AVDecCommonInputFormat (segment.h)
-
 description: Indicates a change in the AVDecCommonInputFormat codec property.
 old-location: mstv\imsvidaudiorendererevent2_avdeccommoninputformat.htm
 tech.root: mstv
 ms.assetid: 7a1e26b8-ef4d-4697-b08e-28685174c177
-
 ms.date: 12/05/2018
 ms.keywords: AVDecCommonInputFormat, AVDecCommonInputFormat method [Microsoft TV Technologies], AVDecCommonInputFormat method [Microsoft TV Technologies],IMSVidAudioRendererEvent2 interface, IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies],AVDecCommonInputFormat method, IMSVidAudioRendererEvent2.AVDecCommonInputFormat, IMSVidAudioRendererEvent2::AVDecCommonInputFormat, mstv.imsvidaudiorendererevent2_avdeccommoninputformat, segment/IMSVidAudioRendererEvent2::AVDecCommonInputFormat
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAudioRendererEvent2.AVDecCommonInputFormat"
+f1_keywords:
+- segment/IMSVidAudioRendererEvent2.AVDecCommonInputFormat
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAudioRendererEvent2.AVDecCommonInputFormat
+- IMSVidAudioRendererEvent2.AVDecCommonInputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

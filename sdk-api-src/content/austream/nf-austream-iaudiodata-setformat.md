@@ -1,19 +1,17 @@
 ---
 UID: NF:austream.IAudioData.SetFormat
 title: IAudioData::SetFormat (austream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The SetFormat method sets the current data format.
 old-location: dshow\iaudiodata_setformat.htm
 tech.root: DirectShow
 ms.assetid: 792112a6-b10a-432f-854a-07bd74173e84
-
 ms.date: 12/05/2018
 ms.keywords: IAudioData interface [DirectShow],SetFormat method, IAudioData.SetFormat, IAudioData::SetFormat, IAudioDataSetFormat, SetFormat, SetFormat method [DirectShow], SetFormat method [DirectShow],IAudioData interface, austream/IAudioData::SetFormat, dshow.iaudiodata_setformat
 ms.topic: method
-f1_keywords: 
- - "austream/IAudioData.SetFormat"
+f1_keywords:
+- austream/IAudioData.SetFormat
 dev_langs:
- - c++
+- c++
 req.header: austream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - austream.h
+- austream.h
 api_name:
- - IAudioData.SetFormat
+- IAudioData.SetFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

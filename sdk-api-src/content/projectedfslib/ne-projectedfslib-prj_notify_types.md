@@ -1,19 +1,17 @@
 ---
 UID: NE:projectedfslib.PRJ_NOTIFY_TYPES
 title: PRJ_NOTIFY_TYPES (projectedfslib.h)
-
 description: Types of notifications describing a change to the file or folder.
 old-location: projfs\prj_notification_types.htm
 tech.root: ProjFS
 ms.assetid: AB19AD36-44FB-4CA8-9101-4EEF2646A46C
-
 ms.date: 12/05/2018
 ms.keywords: PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_DELETED, PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_MODIFIED, PRJ_NOTIFY_FILE_HANDLE_CLOSED_NO_MODIFICATION, PRJ_NOTIFY_FILE_OPENED, PRJ_NOTIFY_FILE_OVERWRITTEN, PRJ_NOTIFY_FILE_PRE_CONVERT_TO_FULL, PRJ_NOTIFY_FILE_RENAMED, PRJ_NOTIFY_HARDLINK_CREATED, PRJ_NOTIFY_NEW_FILE_CREATED, PRJ_NOTIFY_NONE, PRJ_NOTIFY_PRE_DELETE, PRJ_NOTIFY_PRE_RENAME, PRJ_NOTIFY_PRE_SET_HARDLINK, PRJ_NOTIFY_SUPPRESS_NOTIFICATIONS, PRJ_NOTIFY_TYPES, PRJ_NOTIFY_TYPES enumeration, PRJ_NOTIFY_USE_EXISTING_MASK, ProjFS.prj_notification_types, projectedfslib/PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_DELETED, projectedfslib/PRJ_NOTIFY_FILE_HANDLE_CLOSED_FILE_MODIFIED, projectedfslib/PRJ_NOTIFY_FILE_HANDLE_CLOSED_NO_MODIFICATION, projectedfslib/PRJ_NOTIFY_FILE_OPENED, projectedfslib/PRJ_NOTIFY_FILE_OVERWRITTEN, projectedfslib/PRJ_NOTIFY_FILE_PRE_CONVERT_TO_FULL, projectedfslib/PRJ_NOTIFY_FILE_RENAMED, projectedfslib/PRJ_NOTIFY_HARDLINK_CREATED, projectedfslib/PRJ_NOTIFY_NEW_FILE_CREATED, projectedfslib/PRJ_NOTIFY_NONE, projectedfslib/PRJ_NOTIFY_PRE_DELETE, projectedfslib/PRJ_NOTIFY_PRE_RENAME, projectedfslib/PRJ_NOTIFY_PRE_SET_HARDLINK, projectedfslib/PRJ_NOTIFY_SUPPRESS_NOTIFICATIONS, projectedfslib/PRJ_NOTIFY_TYPES, projectedfslib/PRJ_NOTIFY_USE_EXISTING_MASK
 ms.topic: enum
-f1_keywords: 
- - "projectedfslib/PRJ_NOTIFY_TYPES"
+f1_keywords:
+- projectedfslib/PRJ_NOTIFY_TYPES
 dev_langs:
- - c++
+- c++
 req.header: projectedfslib.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ProjectedFSLib.h
+- ProjectedFSLib.h
 api_name:
- - PRJ_NOTIFY_TYPES
+- PRJ_NOTIFY_TYPES
 targetos: Windows
 req.typenames: PRJ_NOTIFY_TYPES
 req.redist: 

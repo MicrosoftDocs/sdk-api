@@ -1,19 +1,17 @@
 ---
 UID: NF:dsgetdc.DsGetDcOpenW
 title: DsGetDcOpenW function (dsgetdc.h)
-
 description: Opens a new domain controller enumeration operation.
 old-location: ad\dsgetdcopen.htm
 tech.root: ad
 ms.assetid: 2811cc30-f367-4f1a-8f0c-ed0a77dad24c
-
 ms.date: 12/05/2018
 ms.keywords: DS_FORCE_REDISCOVERY, DS_GC_SERVER_REQUIRED, DS_KDC_REQUIRED, DS_NOTIFY_AFTER_SITE_RECORDS, DS_ONLY_DO_SITE_NAME, DS_ONLY_LDAP_NEEDED, DS_PDC_REQUIRED, DsGetDcOpen, DsGetDcOpen function [Active Directory], DsGetDcOpenA, DsGetDcOpenW, ad.dsgetdcopen, dsgetdc/DsGetDcOpen, dsgetdc/DsGetDcOpenA, dsgetdc/DsGetDcOpenW
 ms.topic: function
-f1_keywords: 
- - "dsgetdc/DsGetDcOpen"
+f1_keywords:
+- dsgetdc/DsGetDcOpen
 dev_langs:
- - c++
+- c++
 req.header: dsgetdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - DsGetDcOpen
- - DsGetDcOpenA
- - DsGetDcOpenW
+- DsGetDcOpen
+- DsGetDcOpenA
+- DsGetDcOpenW
 targetos: Windows
 req.typenames: 
 req.redist: 

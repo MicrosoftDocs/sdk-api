@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_VIDEO_USAGE
 title: D3D11_VIDEO_USAGE (d3d11.h)
-
 description: Specifies the intended use for a video processor.
 old-location: mf\d3d11_video_usage.htm
 tech.root: medfound
 ms.assetid: 11657847-FFDB-42EA-9A29-FDC1F92DF039
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_USAGE, D3D11_VIDEO_USAGE enumeration [Media Foundation], D3D11_VIDEO_USAGE_OPTIMAL_QUALITY, D3D11_VIDEO_USAGE_OPTIMAL_SPEED, D3D11_VIDEO_USAGE_PLAYBACK_NORMAL, d3d11/D3D11_VIDEO_USAGE, d3d11/D3D11_VIDEO_USAGE_OPTIMAL_QUALITY, d3d11/D3D11_VIDEO_USAGE_OPTIMAL_SPEED, d3d11/D3D11_VIDEO_USAGE_PLAYBACK_NORMAL, mf.d3d11_video_usage
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_USAGE"
+f1_keywords:
+- d3d11/D3D11_VIDEO_USAGE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_USAGE
+- D3D11_VIDEO_USAGE
 targetos: Windows
 req.typenames: D3D11_VIDEO_USAGE
 req.redist: 

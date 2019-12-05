@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.SetViewInstanceMask
 title: ID3D12GraphicsCommandList1::SetViewInstanceMask (d3d12.h)
-
 description: Set a mask that controls which view instances are enabled for subsequent draws.
 old-location: direct3d12\id3d12graphicscommandlist1_setviewinstancemask_uint.htm
 tech.root: direct3d12
 ms.assetid: 0AE16797-6F9E-4387-A810-EF59DDC771E6
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList1 interface,SetViewInstanceMask method, ID3D12GraphicsCommandList1.SetViewInstanceMask, ID3D12GraphicsCommandList1::SetViewInstanceMask, SetViewInstanceMask, SetViewInstanceMask method, SetViewInstanceMask method,ID3D12GraphicsCommandList1 interface, d3d12/ID3D12GraphicsCommandList1::SetViewInstanceMask, direct3d12.id3d12graphicscommandlist1_setviewinstancemask_uint
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList1.SetViewInstanceMask"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList1.SetViewInstanceMask
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - ID3D12GraphicsCommandList1.SetViewInstanceMask
+- ID3D12GraphicsCommandList1.SetViewInstanceMask
 targetos: Windows
 req.typenames: 
 req.redist: 

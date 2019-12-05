@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler
 title: IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler (uianimation.h)
-
 description: Clears the handler for timer client status change events.
 old-location: uianimation\iuianimationtimerupdatehandler_cleartimerclienteventhandler.htm
 tech.root: UIAnimation
 ms.assetid: c7383df5-dbd4-4cae-a682-47f84c2e8106
-
 ms.date: 12/05/2018
 ms.keywords: ClearTimerClientEventHandler, ClearTimerClientEventHandler method [Windows Animation], ClearTimerClientEventHandler method [Windows Animation],IUIAnimationTimerUpdateHandler interface, IUIAnimationTimerUpdateHandler interface [Windows Animation],ClearTimerClientEventHandler method, IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler, IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler, uianimation.iuianimationtimerupdatehandler_cleartimerclienteventhandler, uianimation/IUIAnimationTimerUpdateHandler::ClearTimerClientEventHandler
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler"
+f1_keywords:
+- uianimation/IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler
+- IUIAnimationTimerUpdateHandler.ClearTimerClientEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

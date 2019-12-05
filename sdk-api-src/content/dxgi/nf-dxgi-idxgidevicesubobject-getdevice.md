@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIDeviceSubObject.GetDevice
 title: IDXGIDeviceSubObject::GetDevice (dxgi.h)
-
 description: Retrieves the device.
 old-location: direct3ddxgi\idxgidevicesubobject_getdevice.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject_getdevice.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDevice, GetDevice method [DXGI], GetDevice method [DXGI],IDXGIDeviceSubObject interface, IDXGIDeviceSubObject interface [DXGI],GetDevice method, IDXGIDeviceSubObject.GetDevice, IDXGIDeviceSubObject::GetDevice, b3dce65b-334c-0973-c391-77df6912fc77, direct3ddxgi.idxgidevicesubobject_getdevice, dxgi/IDXGIDeviceSubObject::GetDevice
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIDeviceSubObject.GetDevice"
+f1_keywords:
+- dxgi/IDXGIDeviceSubObject.GetDevice
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIDeviceSubObject.GetDevice
+- IDXGIDeviceSubObject.GetDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFNetCrossOriginSupport.GetCrossOriginPolicy
 title: IMFNetCrossOriginSupport::GetCrossOriginPolicy (mfidl.h)
-
 description: Returns the client's current cross-origin policy to apply to the download session.
 old-location: mf\imfnetcrossoriginsupport_getcrossoriginpolicy.htm
 tech.root: medfound
 ms.assetid: B74FA337-014E-4A5C-83CD-26C563E9BBD4
-
 ms.date: 12/05/2018
 ms.keywords: GetCrossOriginPolicy, GetCrossOriginPolicy method [Media Foundation], GetCrossOriginPolicy method [Media Foundation],IMFNetCrossOriginSupport interface, IMFNetCrossOriginSupport interface [Media Foundation],GetCrossOriginPolicy method, IMFNetCrossOriginSupport.GetCrossOriginPolicy, IMFNetCrossOriginSupport::GetCrossOriginPolicy, mf.imfnetcrossoriginsupport_getcrossoriginpolicy, mfidl/IMFNetCrossOriginSupport::GetCrossOriginPolicy
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFNetCrossOriginSupport.GetCrossOriginPolicy"
+f1_keywords:
+- mfidl/IMFNetCrossOriginSupport.GetCrossOriginPolicy
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFNetCrossOriginSupport.GetCrossOriginPolicy
+- IMFNetCrossOriginSupport.GetCrossOriginPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

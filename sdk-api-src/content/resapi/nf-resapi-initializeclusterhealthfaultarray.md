@@ -1,19 +1,17 @@
 ---
 UID: NF:resapi.InitializeClusterHealthFaultArray
 title: InitializeClusterHealthFaultArray function (resapi.h)
-
 description: TBD.
 old-location: mscs\initializeclusterhealthfaultarray.htm
 tech.root: MsCS
 ms.assetid: 9b2a2706-5641-46ba-a280-5a689ad50316
-
 ms.date: 12/05/2018
 ms.keywords: InitializeClusterHealthFaultArray, InitializeClusterHealthFaultArray function [Failover Cluster], mscs.initializeclusterhealthfaultarray, resapi/InitializeClusterHealthFaultArray
 ms.topic: function
-f1_keywords: 
- - "resapi/InitializeClusterHealthFaultArray"
+f1_keywords:
+- resapi/InitializeClusterHealthFaultArray
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib: ResUtils.lib
 req.dll: ResUtils.dll
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - InitializeClusterHealthFaultArray
+- InitializeClusterHealthFaultArray
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SwitchDesktop
 title: SwitchDesktop function (winuser.h)
-
 description: Makes the specified desktop visible and activates it. This enables the desktop to receive input from the user.
 old-location: winstation\switchdesktop.htm
 tech.root: winstation
 ms.assetid: 401be515-ada9-42be-b8e8-4e86f513bb8d
-
 ms.date: 12/05/2018
 ms.keywords: SwitchDesktop, SwitchDesktop function [Windows Stations and Desktops], base.switchdesktop, winstation.switchdesktop, winuser/SwitchDesktop
 ms.topic: function
-f1_keywords: 
- - "winuser/SwitchDesktop"
+f1_keywords:
+- winuser/SwitchDesktop
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
- - api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
- - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-Windowstation-l1-1-1.dll
+- api-ms-win-rtcore-ntuser-windowstation-l1-1-0.dll
+- Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - SwitchDesktop
+- SwitchDesktop
 targetos: Windows
 req.typenames: 
 req.redist: 

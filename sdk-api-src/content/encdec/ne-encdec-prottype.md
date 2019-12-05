@@ -1,19 +1,17 @@
 ---
 UID: NE:encdec.ProtType
 title: ProtType (encdec.h)
-
 description: This topic applies to Windows XP Service Pack 1 or later.
 old-location: mstv\prottype.htm
 tech.root: mstv
 ms.assetid: 190b8483-91c8-4fe4-8189-637749393151
-
 ms.date: 12/05/2018
 ms.keywords: PROT_COPY_BF, PROT_COPY_CN_RECORDING_STOP, PROT_COPY_FREE, PROT_COPY_FREE_CIT, PROT_COPY_FREE_SECURE, PROT_COPY_INVALID, PROT_COPY_NEVER, PROT_COPY_NEVER_REALLY, PROT_COPY_NO_MORE, PROT_COPY_ONCE, ProtType, ProtType enumeration [Microsoft TV Technologies], encdec/PROT_COPY_BF, encdec/PROT_COPY_CN_RECORDING_STOP, encdec/PROT_COPY_FREE, encdec/PROT_COPY_FREE_CIT, encdec/PROT_COPY_FREE_SECURE, encdec/PROT_COPY_INVALID, encdec/PROT_COPY_NEVER, encdec/PROT_COPY_NEVER_REALLY, encdec/PROT_COPY_NO_MORE, encdec/PROT_COPY_ONCE, encdec/ProtType, mstv.prottype
 ms.topic: enum
-f1_keywords: 
- - "encdec/ProtType"
+f1_keywords:
+- encdec/ProtType
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: Tvratings.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - encdec.h
+- encdec.h
 api_name:
- - ProtType
+- ProtType
 targetos: Windows
 req.typenames: ProtType
 req.redist: 

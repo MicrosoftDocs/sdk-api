@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarUI4FromDisp
 title: VarUI4FromDisp function (oleauto.h)
-
 description: Converts the default property of an IDispatch instance to an unsigned long value.
 old-location: automat\varui4fromdisp.htm
 tech.root: automat
 ms.assetid: 613e879b-a66c-4703-b81e-aa34b68dbae2
-
 ms.date: 12/05/2018
 ms.keywords: VarUI4FromDisp, VarUI4FromDisp function [Automation], _oa96_VarUI4FromDisp, automat.varui4fromdisp, oleauto/VarUI4FromDisp
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarUI4FromDisp"
+f1_keywords:
+- oleauto/VarUI4FromDisp
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarUI4FromDisp
+- VarUI4FromDisp
 targetos: Windows
 req.typenames: 
 req.redist: 

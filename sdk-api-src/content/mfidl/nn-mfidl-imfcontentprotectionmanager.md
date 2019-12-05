@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFContentProtectionManager
 title: IMFContentProtectionManager (mfidl.h)
-
 description: Enables playback of protected content by providing the application with a pointer to a content enabler object.
 old-location: mf\imfcontentprotectionmanager.htm
 tech.root: medfound
 ms.assetid: 0dba0384-eac7-456a-af9f-86eb944cdb2e
-
 ms.date: 12/05/2018
 ms.keywords: 0dba0384-eac7-456a-af9f-86eb944cdb2e, IMFContentProtectionManager, IMFContentProtectionManager interface [Media Foundation], IMFContentProtectionManager interface [Media Foundation],described, mf.imfcontentprotectionmanager, mfidl/IMFContentProtectionManager
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFContentProtectionManager"
+f1_keywords:
+- mfidl/IMFContentProtectionManager
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFContentProtectionManager
+- IMFContentProtectionManager
 targetos: Windows
 req.typenames: 
 req.redist: 

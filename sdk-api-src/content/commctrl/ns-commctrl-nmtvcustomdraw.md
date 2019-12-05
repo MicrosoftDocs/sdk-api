@@ -1,19 +1,17 @@
 ---
 UID: NS:commctrl.tagNMTVCUSTOMDRAW
 title: NMTVCUSTOMDRAW (commctrl.h)
-
 description: Contains information specific to an NM_CUSTOMDRAW (tree view) notification code sent by a tree-view control.
 old-location: controls\NMTVCUSTOMDRAW.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvcustomdraw.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW structure pointer [Windows Controls], NMTVCUSTOMDRAW, NMTVCUSTOMDRAW structure [Windows Controls], _win32_NMTVCUSTOMDRAW, _win32_NMTVCUSTOMDRAW_cpp, commctrl/LPNMTVCUSTOMDRAW, commctrl/NMTVCUSTOMDRAW, controls.NMTVCUSTOMDRAW, controls._win32_NMTVCUSTOMDRAW"
+ms.keywords: '*LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW, LPNMTVCUSTOMDRAW structure pointer [Windows Controls], NMTVCUSTOMDRAW, NMTVCUSTOMDRAW structure [Windows Controls], _win32_NMTVCUSTOMDRAW, _win32_NMTVCUSTOMDRAW_cpp, commctrl/LPNMTVCUSTOMDRAW, commctrl/NMTVCUSTOMDRAW, controls.NMTVCUSTOMDRAW, controls._win32_NMTVCUSTOMDRAW'
 ms.topic: struct
-f1_keywords: 
- - "commctrl/NMTVCUSTOMDRAW"
+f1_keywords:
+- commctrl/NMTVCUSTOMDRAW
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - NMTVCUSTOMDRAW
+- NMTVCUSTOMDRAW
 targetos: Windows
 req.typenames: NMTVCUSTOMDRAW, *LPNMTVCUSTOMDRAW
 req.redist: 

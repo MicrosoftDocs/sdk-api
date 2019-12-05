@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhCollectQueryData
 title: PdhCollectQueryData function (pdh.h)
-
 description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
 old-location: perf\pdhcollectquerydata.htm
 tech.root: perfctrs
 ms.assetid: 1d83325b-8deb-4731-9df4-6201da292cdc
-
 ms.date: 12/05/2018
 ms.keywords: PdhCollectQueryData, PdhCollectQueryData function [Perf], _win32_pdhcollectquerydata, base.pdhcollectquerydata, pdh/PdhCollectQueryData, perf.pdhcollectquerydata
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhCollectQueryData"
+f1_keywords:
+- pdh/PdhCollectQueryData
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhCollectQueryData
+- PdhCollectQueryData
 targetos: Windows
 req.typenames: 
 req.redist: 

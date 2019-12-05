@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiProvideQualifiedComponentW
 title: MsiProvideQualifiedComponentW function (msi.h)
-
 description: The MsiProvideQualifiedComponent function returns the full component path for a qualified component and performs any necessary installation. This function prompts for source if necessary, and increments the usage count for the feature.
 old-location: setup\msiprovidequalifiedcomponent.htm
 tech.root: Msi
 ms.assetid: 1d37e2c4-3ee0-42d2-95de-6e058319a4d4
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLMODE_DEFAULT, INSTALLMODE_EXISTING, INSTALLMODE_NODETECTION, INSTALLMODE_NOSOURCERESOLUTION, MsiProvideQualifiedComponent, MsiProvideQualifiedComponent function, MsiProvideQualifiedComponentA, MsiProvideQualifiedComponentW, _msi_msiprovidequalifiedcomponent, combination of the REINSTALLMODE flags, msi/MsiProvideQualifiedComponent, msi/MsiProvideQualifiedComponentA, msi/MsiProvideQualifiedComponentW, setup.msiprovidequalifiedcomponent
 ms.topic: function
-f1_keywords: 
- - "msi/MsiProvideQualifiedComponent"
+f1_keywords:
+- msi/MsiProvideQualifiedComponent
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiProvideQualifiedComponent
- - MsiProvideQualifiedComponentA
- - MsiProvideQualifiedComponentW
+- MsiProvideQualifiedComponent
+- MsiProvideQualifiedComponentA
+- MsiProvideQualifiedComponentW
 targetos: Windows
 req.typenames: 
 req.redist: 

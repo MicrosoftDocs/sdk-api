@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasSetEntryPropertiesA
 title: RasSetEntryPropertiesA function (ras.h)
-
 description: The RasSetEntryProperties function changes the connection information for an entry in the phone book or creates a new phone-book entry.
 old-location: rras\rassetentryproperties.htm
 tech.root: RRAS
 ms.assetid: 6532b48b-0d80-4993-800e-c808bb7540d6
-
 ms.date: 12/05/2018
 ms.keywords: RasSetEntryProperties, RasSetEntryProperties function [RAS], RasSetEntryPropertiesA, RasSetEntryPropertiesW, _ras_rassetentryproperties, ras/RasSetEntryProperties, ras/RasSetEntryPropertiesA, ras/RasSetEntryPropertiesW, rras.rassetentryproperties
 ms.topic: function
-f1_keywords: 
- - "ras/RasSetEntryProperties"
+f1_keywords:
+- ras/RasSetEntryProperties
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasSetEntryProperties
- - RasSetEntryPropertiesA
- - RasSetEntryPropertiesW
+- RasSetEntryProperties
+- RasSetEntryPropertiesA
+- RasSetEntryPropertiesW
 targetos: Windows
 req.typenames: 
 req.redist: 

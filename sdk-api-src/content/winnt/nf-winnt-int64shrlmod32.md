@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt.Int64ShrlMod32
 title: Int64ShrlMod32 macro (winnt.h)
-
 description: Performs a right logical shift operation on an unsigned 64-bit integer value. The function provides improved shifting code for right logical shifts where the shift count is in the range 0-31.
 old-location: winprog\int64shrlmod32.htm
 tech.root: WinProg
 ms.assetid: 95ce281a-92b1-4c9b-a345-6b50f0285d65
-
 ms.date: 12/05/2018
 ms.keywords: Int64ShrlMod32, Int64ShrlMod32 macro [Windows API], _win32_int64shrlmod32, winnt/Int64ShrlMod32, winprog.int64shrlmod32
 ms.topic: macro
-f1_keywords: 
- - "winnt/Int64ShrlMod32"
+f1_keywords:
+- winnt/Int64ShrlMod32
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - Int64ShrlMod32
+- Int64ShrlMod32
 targetos: Windows
 req.typenames: 
 req.redist: 

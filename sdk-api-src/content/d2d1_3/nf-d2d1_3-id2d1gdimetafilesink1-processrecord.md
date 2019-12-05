@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1GdiMetafileSink1.ProcessRecord
 title: ID2D1GdiMetafileSink1::ProcessRecord (d2d1_3.h)
-
 description: Provides access to metafile records, including their type, data, and flags.
 old-location: direct2d\id2d1gdimetafilesink1_processrecord.htm
 tech.root: Direct2D
 ms.assetid: 1f33988f-e4c5-23f9-899a-64ebeaa77007
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiMetafileSink1 interface [Direct2D],ProcessRecord method, ID2D1GdiMetafileSink1.ProcessRecord, ID2D1GdiMetafileSink1::ProcessRecord, ProcessRecord, ProcessRecord method [Direct2D], ProcessRecord method [Direct2D],ID2D1GdiMetafileSink1 interface, d2d1_3/ID2D1GdiMetafileSink1::ProcessRecord, direct2d.id2d1gdimetafilesink1_processrecord
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1GdiMetafileSink1.ProcessRecord"
+f1_keywords:
+- d2d1_3/ID2D1GdiMetafileSink1.ProcessRecord
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GdiMetafileSink1.ProcessRecord
+- ID2D1GdiMetafileSink1.ProcessRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

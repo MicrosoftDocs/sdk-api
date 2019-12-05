@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capGetDriverDescriptionA
 title: capGetDriverDescriptionA function (vfw.h)
-
 description: The capGetDriverDescription function retrieves the version description of the capture driver.
 old-location: multimedia\capgetdriverdescription.htm
 tech.root: Multimedia
 ms.assetid: 97ec77f8-79fe-4c0b-9b73-5b09903c47b2
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capGetDriverDescription, capGetDriverDescription, capGetDriverDescription function [Windows Multimedia], capGetDriverDescriptionA, capGetDriverDescriptionW, multimedia.capgetdriverdescription, vfw/capGetDriverDescription, vfw/capGetDriverDescriptionA, vfw/capGetDriverDescriptionW"
+ms.keywords: _win32_capGetDriverDescription, capGetDriverDescription, capGetDriverDescription function [Windows Multimedia], capGetDriverDescriptionA, capGetDriverDescriptionW, multimedia.capgetdriverdescription, vfw/capGetDriverDescription, vfw/capGetDriverDescriptionA, vfw/capGetDriverDescriptionW
 ms.topic: function
-f1_keywords: 
- - "vfw/capGetDriverDescription"
+f1_keywords:
+- vfw/capGetDriverDescription
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Vfw32.lib
 req.dll: Avicap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avicap32.dll
+- Avicap32.dll
 api_name:
- - capGetDriverDescription
- - capGetDriverDescriptionA
- - capGetDriverDescriptionW
+- capGetDriverDescription
+- capGetDriverDescriptionA
+- capGetDriverDescriptionW
 targetos: Windows
 req.typenames: 
 req.redist: 

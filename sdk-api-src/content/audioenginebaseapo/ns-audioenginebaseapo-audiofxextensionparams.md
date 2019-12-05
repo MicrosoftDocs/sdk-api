@@ -1,19 +1,17 @@
 ---
 UID: NS:audioenginebaseapo.__MIDL___MIDL_itf_audioenginebaseapo_0000_0008_0001
 title: AudioFXExtensionParams (audioenginebaseapo.h)
-
 description: The AudioFXExtensionParams structure is passed to the system effects ControlPanel Extension PropertyPage via IShellPropSheetExt::AddPages.
 old-location: audio\audiofxextensionparams.htm
 tech.root: audio
 ms.assetid: 832F1190-ED3E-4059-AB45-18C23D98663B
-
 ms.date: 12/05/2018
 ms.keywords: AudioFXExtensionParams, AudioFXExtensionParams structure [Audio Devices], PAudioFXExtensionParams, PAudioFXExtensionParams structure pointer [Audio Devices], audio.audiofxextensionparams, audioenginebaseapo/AudioFXExtensionParams, audioenginebaseapo/PAudioFXExtensionParams
 ms.topic: struct
-f1_keywords: 
- - "audioenginebaseapo/AudioFXExtensionParams"
+f1_keywords:
+- audioenginebaseapo/AudioFXExtensionParams
 dev_langs:
- - c++
+- c++
 req.header: audioenginebaseapo.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Audioenginebaseapo.h
+- Audioenginebaseapo.h
 api_name:
- - AudioFXExtensionParams
+- AudioFXExtensionParams
 targetos: Windows
 req.typenames: AudioFXExtensionParams
 req.redist: 

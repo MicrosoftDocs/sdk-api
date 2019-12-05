@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateCounter
 title: ID3D10Device::CreateCounter (d3d10.h)
-
 description: Create a counter object for measuring GPU performance.
 old-location: direct3d10\id3d10device_createcounter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createcounter.htm
-
 ms.date: 12/05/2018
 ms.keywords: 225224fa-54a2-8903-494c-754ad030e0af, CreateCounter, CreateCounter method [Direct3D 10], CreateCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateCounter method, ID3D10Device.CreateCounter, ID3D10Device::CreateCounter, d3d10/ID3D10Device::CreateCounter, direct3d10.id3d10device_createcounter
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateCounter"
+f1_keywords:
+- d3d10/ID3D10Device.CreateCounter
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateCounter
+- ID3D10Device.CreateCounter
 targetos: Windows
 req.typenames: 
 req.redist: 

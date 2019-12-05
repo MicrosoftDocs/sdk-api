@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_Enabled
 title: IMSVidCtl::put_Enabled (msvidctl.h)
-
 description: The put_Enabled method specifies a value that determines whether the Video Control can respond to user-generated events.
 old-location: mstv\imsvidctl_put_enabled.htm
 tech.root: mstv
 ms.assetid: 366164ac-1514-46d6-870a-388706b8de75
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],put_Enabled method, IMSVidCtl.put_Enabled, IMSVidCtl::put_Enabled, IMSVidCtlput_Enabled, mstv.imsvidctl_put_enabled, msvidctl/IMSVidCtl::put_Enabled, put_Enabled, put_Enabled method [Microsoft TV Technologies], put_Enabled method [Microsoft TV Technologies],IMSVidCtl interface
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.put_Enabled"
+f1_keywords:
+- msvidctl/IMSVidCtl.put_Enabled
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.put_Enabled
+- IMSVidCtl.put_Enabled
 targetos: Windows
 req.typenames: 
 req.redist: 

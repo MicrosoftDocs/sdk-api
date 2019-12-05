@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticateFail
 title: IComSecurityEvents::OnAuthenticateFail (comsvcs.h)
-
 description: Generated when a method call level authentication fails.
 old-location: cos\icomsecurityevents_onauthenticatefail.htm
 tech.root: cossdk
 ms.assetid: 3ead4865-924c-40fb-9ed8-5b98c603c5cf
-
 ms.date: 12/05/2018
 ms.keywords: IComSecurityEvents interface [COM+],OnAuthenticateFail method, IComSecurityEvents.OnAuthenticateFail, IComSecurityEvents::OnAuthenticateFail, OnAuthenticateFail, OnAuthenticateFail method [COM+], OnAuthenticateFail method [COM+],IComSecurityEvents interface, _dtc_IComSecurityEvents_OnAuthenticateFail, comsvcs/IComSecurityEvents::OnAuthenticateFail, cos.icomsecurityevents_onauthenticatefail
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComSecurityEvents.OnAuthenticateFail"
+f1_keywords:
+- comsvcs/IComSecurityEvents.OnAuthenticateFail
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComSecurityEvents.OnAuthenticateFail
+- IComSecurityEvents.OnAuthenticateFail
 targetos: Windows
 req.typenames: 
 req.redist: 

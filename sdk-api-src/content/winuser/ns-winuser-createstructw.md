@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagCREATESTRUCTW
 title: CREATESTRUCTW (winuser.h)
-
 description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function.
 old-location: winmsg\createstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\createstruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCREATESTRUCTW, CREATESTRUCT, CREATESTRUCT structure [Windows and Messages], CREATESTRUCTA, CREATESTRUCTW, LPCREATESTRUCT, LPCREATESTRUCT structure pointer [Windows and Messages], _win32_CREATESTRUCT_str, _win32_createstruct_str_cpp, winmsg.createstruct, winui._win32_createstruct_str, winuser/CREATESTRUCT, winuser/CREATESTRUCTA, winuser/CREATESTRUCTW, winuser/LPCREATESTRUCT"
+ms.keywords: '*LPCREATESTRUCTW, CREATESTRUCT, CREATESTRUCT structure [Windows and Messages], CREATESTRUCTA, CREATESTRUCTW, LPCREATESTRUCT, LPCREATESTRUCT structure pointer [Windows and Messages], _win32_CREATESTRUCT_str, _win32_createstruct_str_cpp, winmsg.createstruct, winui._win32_createstruct_str, winuser/CREATESTRUCT, winuser/CREATESTRUCTA, winuser/CREATESTRUCTW, winuser/LPCREATESTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/CREATESTRUCT"
+f1_keywords:
+- winuser/CREATESTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - CREATESTRUCT
- - CREATESTRUCTA
- - CREATESTRUCTW
+- CREATESTRUCT
+- CREATESTRUCTA
+- CREATESTRUCTW
 targetos: Windows
 req.typenames: CREATESTRUCTW, *LPCREATESTRUCTW
 req.redist: 

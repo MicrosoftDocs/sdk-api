@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleId
 title: IStylesProvider::get_StyleId (uiautomationcore.h)
-
 description: Identifies the visual style of an element in a document.
 old-location: winauto\uiauto_istylesprovider_styleid.htm
 tech.root: WinAuto
 ms.assetid: EFFEC853-595C-4304-8EDF-BA80EA8FEC5B
-
 ms.date: 12/05/2018
 ms.keywords: IStylesProvider interface [Windows Accessibility],StyleId property, IStylesProvider.StyleId, IStylesProvider.get_StyleId, IStylesProvider::StyleId, IStylesProvider::get_StyleId, StyleId property [Windows Accessibility], StyleId property [Windows Accessibility],IStylesProvider interface, get_StyleId, uiautomationcore/IStylesProvider::StyleId, uiautomationcore/IStylesProvider::get_StyleId, winauto.uiauto_istylesprovider_styleid
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IStylesProvider.StyleId"
+f1_keywords:
+- uiautomationcore/IStylesProvider.StyleId
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IStylesProvider.StyleId
- - IStylesProvider.get_StyleId
+- IStylesProvider.StyleId
+- IStylesProvider.get_StyleId
 targetos: Windows
 req.typenames: 
 req.redist: 

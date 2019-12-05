@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetDevConfig
 title: lineSetDevConfig function (tapi.h)
-
 description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.
 old-location: tapi2\linesetdevconfig.htm
 tech.root: Tapi
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetdevconfig, lineSetDevConfig, lineSetDevConfig function [TAPI 2.2], lineSetDevConfigA, lineSetDevConfigW, tapi/lineSetDevConfig, tapi/lineSetDevConfigA, tapi/lineSetDevConfigW, tapi2.linesetdevconfig"
+ms.keywords: _tapi2_linesetdevconfig, lineSetDevConfig, lineSetDevConfig function [TAPI 2.2], lineSetDevConfigA, lineSetDevConfigW, tapi/lineSetDevConfig, tapi/lineSetDevConfigA, tapi/lineSetDevConfigW, tapi2.linesetdevconfig
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetDevConfig"
+f1_keywords:
+- tapi/lineSetDevConfig
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetDevConfig
- - lineSetDevConfigA
- - lineSetDevConfigW
+- lineSetDevConfig
+- lineSetDevConfigA
+- lineSetDevConfigW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.PEND_CONTROL_CALL
 title: PEND_CONTROL_CALL (resapi.h)
-
 description: Called when a resource control code operation completes. The PEND_CONTROL_CALL type defines a pointer to this function.
 old-location: mscs\endcontrolcall.htm
 tech.root: MsCS
 ms.assetid: 0FB2C129-B98C-4570-8621-6BAD46911682
-
 ms.date: 12/05/2018
 ms.keywords: EndControlCall, EndControlCall callback, EndControlCall callback function [Failover Cluster], PEND_CONTROL_CALL, PEND_CONTROL_CALL callback function [Failover Cluster], mscs.endcontrolcall, resapi/EndControlCall, resapi/PEND_CONTROL_CALL
 ms.topic: callback
-f1_keywords: 
- - "resapi/EndControlCall callback"
+f1_keywords:
+- resapi/EndControlCall callback
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - EndControlCall callback
+- EndControlCall callback
 targetos: Windows
 req.typenames: 
 req.redist: 

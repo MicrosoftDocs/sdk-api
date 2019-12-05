@@ -1,19 +1,17 @@
 ---
 UID: NF:winenclaveapi.EnclaveGetEnclaveInformation
 title: EnclaveGetEnclaveInformation function (winenclaveapi.h)
-
 description: Gets information about the currently executing enclave.
 old-location: base\enclavegetenclaveinformation.htm
 tech.root: Memory
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F
-
 ms.date: 12/05/2018
 ms.keywords: EnclaveGetEnclaveInformation, EnclaveGetEnclaveInformation function, base.enclavegetenclaveinformation, winenclaveapi/EnclaveGetEnclaveInformation
 ms.topic: function
-f1_keywords: 
- - "winenclaveapi/EnclaveGetEnclaveInformation"
+f1_keywords:
+- winenclaveapi/EnclaveGetEnclaveInformation
 dev_langs:
- - c++
+- c++
 req.header: winenclaveapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vertdll.lib
 req.dll: Vertdll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - vertdll.dll
+- vertdll.dll
 api_name:
- - EnclaveGetEnclaveInformation
+- EnclaveGetEnclaveInformation
 targetos: Windows
 req.typenames: 
 req.redist: 

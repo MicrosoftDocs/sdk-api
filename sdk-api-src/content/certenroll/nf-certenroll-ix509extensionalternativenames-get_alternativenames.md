@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionAlternativeNames.get_AlternativeNames
 title: IX509ExtensionAlternativeNames::get_AlternativeNames (certenroll.h)
-
 description: Retrieves a collection of subject alternative names.
 old-location: security\ix509extensionalternativenames_alternativenames_property.htm
 tech.root: seccertenroll
 ms.assetid: 816afa9d-2283-4e17-ad12-ee53e5353d83
-
 ms.date: 12/05/2018
 ms.keywords: AlternativeNames property [Security], AlternativeNames property [Security],IX509ExtensionAlternativeNames interface, IX509ExtensionAlternativeNames interface [Security],AlternativeNames property, IX509ExtensionAlternativeNames.AlternativeNames, IX509ExtensionAlternativeNames.get_AlternativeNames, IX509ExtensionAlternativeNames::AlternativeNames, IX509ExtensionAlternativeNames::get_AlternativeNames, certenroll/IX509ExtensionAlternativeNames::AlternativeNames, certenroll/IX509ExtensionAlternativeNames::get_AlternativeNames, get_AlternativeNames, security.ix509extensionalternativenames_alternativenames_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionAlternativeNames.AlternativeNames"
+f1_keywords:
+- certenroll/IX509ExtensionAlternativeNames.AlternativeNames
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionAlternativeNames.AlternativeNames
- - IX509ExtensionAlternativeNames.get_AlternativeNames
+- IX509ExtensionAlternativeNames.AlternativeNames
+- IX509ExtensionAlternativeNames.get_AlternativeNames
 targetos: Windows
 req.typenames: 
 req.redist: 

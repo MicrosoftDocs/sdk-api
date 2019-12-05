@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get__NewEnum
 title: IFsiNamedStreams::get__NewEnum (imapi2fs.h)
-
 description: Retrieves an IEnumVARIANT list of the named streams associated with a file in the file system image.
 old-location: imapi\ifsinamedstreams_get_newenum.htm
 tech.root: imapi
 ms.assetid: ea1a14fe-91f0-4710-9d15-66a4c415f541
-
 ms.date: 12/05/2018
 ms.keywords: IFsiNamedStreams interface [IMAPI],get__NewEnum method, IFsiNamedStreams.get__NewEnum, IFsiNamedStreams::get__NewEnum, get__NewEnum, get__NewEnum method [IMAPI], get__NewEnum method [IMAPI],IFsiNamedStreams interface, imapi.ifsinamedstreams_get_newenum, imapi2fs/IFsiNamedStreams::get__NewEnum
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiNamedStreams.get__NewEnum"
+f1_keywords:
+- imapi2fs/IFsiNamedStreams.get__NewEnum
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiNamedStreams.get__NewEnum
+- IFsiNamedStreams.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

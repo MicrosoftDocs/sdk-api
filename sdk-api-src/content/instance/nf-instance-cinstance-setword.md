@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.SetWORD
 title: CInstance::SetWORD (instance.h)
-
 description: The SetWORD method sets a WORD property.
 old-location: wmi\cinstance_setword.htm
 tech.root: WmiSdk
 ms.assetid: e58b98d9-56c2-4e92-90ee-c9ff4fae9f8f
-
 ms.date: 12/05/2018
-ms.keywords: "?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z, CInstance interface [Windows Management Instrumentation],SetWORD method, CInstance.SetWORD, CInstance::SetWORD, SetWORD, SetWORD method [Windows Management Instrumentation], SetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setword, instance/CInstance::SetWORD, wmi.cinstance_setword"
+ms.keywords: ?SetWORD@CInstance@@QAE_NPBGG@Z, ?SetWORD@CInstance@@QEAA_NPEBGG@Z, CInstance interface [Windows Management Instrumentation],SetWORD method, CInstance.SetWORD, CInstance::SetWORD, SetWORD, SetWORD method [Windows Management Instrumentation], SetWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setword, instance/CInstance::SetWORD, wmi.cinstance_setword
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.SetWORD"
+f1_keywords:
+- instance/CInstance.SetWORD
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.SetWORD
- - ?SetWORD@CInstance@@QAE_NPBGG@Z
- - ?SetWORD@CInstance@@QEAA_NPEBGG@Z
+- CInstance.SetWORD
+- ?SetWORD@CInstance@@QAE_NPBGG@Z
+- ?SetWORD@CInstance@@QEAA_NPEBGG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

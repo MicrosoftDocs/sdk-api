@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.get_UseDeviceTSID
 title: IFaxOutgoingQueue::get_UseDeviceTSID (faxcomex.h)
-
 description: The IFaxOutgoingQueue::get_UseDeviceTSID property is a Boolean value that indicates whether the fax service uses the device transmitting station identifier (TSID) instead of a sender TSID.
 old-location: fax\_mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_usedevicetsid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_72uc.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutgoingQueue interface [Fax Service],UseDeviceTSID property, IFaxOutgoingQueue.UseDeviceTSID, IFaxOutgoingQueue.get_UseDeviceTSID, IFaxOutgoingQueue.put_UseDeviceTSID, IFaxOutgoingQueue::UseDeviceTSID, IFaxOutgoingQueue::get_UseDeviceTSID, IFaxOutgoingQueue::put_UseDeviceTSID, UseDeviceTSID property [Fax Service], UseDeviceTSID property [Fax Service],IFaxOutgoingQueue interface, _mfax_faxoutgoingqueue.usedevicetsid, fax._mfax_faxoutgoingqueue_cpp_mfax_faxoutgoingqueue_usedevicetsid_cpp, fax._mfax_faxoutgoingqueue_usedevicetsid, faxcomex/IFaxOutgoingQueue::UseDeviceTSID, faxcomex/IFaxOutgoingQueue::get_UseDeviceTSID, faxcomex/IFaxOutgoingQueue::put_UseDeviceTSID, get_UseDeviceTSID
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutgoingQueue.UseDeviceTSID"
+f1_keywords:
+- faxcomex/IFaxOutgoingQueue.UseDeviceTSID
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue.UseDeviceTSID
- - IFaxOutgoingQueue.get_UseDeviceTSID
- - IFaxOutgoingQueue.put_UseDeviceTSID
- - IFaxOutgoingQueue.get_UseDeviceTSID
- - IFaxOutgoingQueue.put_UseDeviceTSID
+- IFaxOutgoingQueue.UseDeviceTSID
+- IFaxOutgoingQueue.get_UseDeviceTSID
+- IFaxOutgoingQueue.put_UseDeviceTSID
+- IFaxOutgoingQueue.get_UseDeviceTSID
+- IFaxOutgoingQueue.put_UseDeviceTSID
 targetos: Windows
 req.typenames: 
 req.redist: 

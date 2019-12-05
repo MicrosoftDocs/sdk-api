@@ -1,19 +1,17 @@
 ---
 UID: NF:mmiscapi.SendDriverMessage
 title: SendDriverMessage function (mmiscapi.h)
-
 description: Sends the specified message to the installable driver.
 old-location: multimedia\senddrivermessage.htm
 tech.root: Multimedia
 ms.assetid: 4787ccb7-3a32-4d55-9a3b-183e2f70735a
-
 ms.date: 12/05/2018
 ms.keywords: DRV_CONFIGURE, DRV_INSTALL, DRV_QUERYCONFIGURE, DRV_REMOVE, ISendDriverMessage, SendDriverMessage, SendDriverMessage function [Windows Multimedia], _win32_SendDriverMessage, mmsystem/SendDriverMessage, multimedia.senddrivermessage
 ms.topic: function
-f1_keywords: 
- - "mmiscapi/SendDriverMessage"
+f1_keywords:
+- mmiscapi/SendDriverMessage
 dev_langs:
- - c++
+- c++
 req.header: mmiscapi.h
 req.include-header: Mmiscapi.h, Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-misc-l1-1-0.dll
- - winmmbase.dll
- - API-MS-Win-mm-misc-l1-1-1.dll
+- Winmm.dll
+- API-MS-Win-mm-misc-l1-1-0.dll
+- winmmbase.dll
+- API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - SendDriverMessage
+- SendDriverMessage
 targetos: Windows
 req.typenames: 
 req.redist: 

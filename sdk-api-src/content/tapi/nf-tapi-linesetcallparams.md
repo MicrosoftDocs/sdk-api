@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineSetCallParams
 title: lineSetCallParams function (tapi.h)
-
 description: The lineSetCallParams function allows an application to change bearer mode and/or the rate parameters of an existing call.
 old-location: tapi2\linesetcallparams.htm
 tech.root: Tapi
 ms.assetid: c8088116-2bfc-420f-a83a-d00c7947b6e7
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_linesetcallparams, lineSetCallParams, lineSetCallParams function [TAPI 2.2], tapi/lineSetCallParams, tapi2.linesetcallparams"
+ms.keywords: _tapi2_linesetcallparams, lineSetCallParams, lineSetCallParams function [TAPI 2.2], tapi/lineSetCallParams, tapi2.linesetcallparams
 ms.topic: function
-f1_keywords: 
- - "tapi/lineSetCallParams"
+f1_keywords:
+- tapi/lineSetCallParams
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineSetCallParams
+- lineSetCallParams
 targetos: Windows
 req.typenames: 
 req.redist: 

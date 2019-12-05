@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGroupEnumRecords
 title: PeerGroupEnumRecords function (p2p.h)
-
 description: The PeerGroupEnumRecords function creates an enumeration of peer group records.
 old-location: p2p\peergroupenumrecords.htm
 tech.root: P2PSdk
 ms.assetid: d9a0654a-850a-40bb-9112-03ec9bf47370
-
 ms.date: 12/05/2018
 ms.keywords: PeerGroupEnumRecords, PeerGroupEnumRecords function [Peer Networking], p2p.peergroupenumrecords, p2p/PeerGroupEnumRecords
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGroupEnumRecords"
+f1_keywords:
+- p2p/PeerGroupEnumRecords
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerGroupEnumRecords
+- PeerGroupEnumRecords
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Reset
 title: IMDSPEnumStorage::Reset (mswmdm.h)
-
 description: The Reset method resets the enumeration sequence to the beginning. A subsequent call to the Next method fetches the first storage interface in the enumeration sequence.
 old-location: wmdm\imdspenumstorage_reset.htm
 tech.root: WMDM
 ms.assetid: 1296406c-2c5d-4db8-965e-db11a9759560
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Reset method, IMDSPEnumStorage.Reset, IMDSPEnumStorage::Reset, IMDSPEnumStorageReset, Reset, Reset method [windows Media Device Manager], Reset method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Reset, wmdm.imdspenumstorage_reset
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPEnumStorage.Reset"
+f1_keywords:
+- mswmdm/IMDSPEnumStorage.Reset
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPEnumStorage.Reset
+- IMDSPEnumStorage.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

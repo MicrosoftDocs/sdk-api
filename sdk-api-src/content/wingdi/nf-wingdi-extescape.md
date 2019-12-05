@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.ExtEscape
 title: ExtEscape function (wingdi.h)
-
 description: The ExtEscape function enables an application to access device capabilities that are not available through GDI.
 old-location: gdi\extescape.htm
 tech.root: printdocs
 ms.assetid: 5ca74f61-75dd-4a8c-9f0f-9c1b4719c75f
-
 ms.date: 12/05/2018
 ms.keywords: CHECKJPEGFORMAT, CHECKPNGFORMAT, DRAWPATTERNRECT, ExtEscape, ExtEscape function [Windows GDI], GETTECHNOLOGY, GET_PS_FEATURESETTING, PASSTHROUGH, POSTSCRIPT_DATA, POSTSCRIPT_IDENTIFY, POSTSCRIPT_INJECTION, POSTSCRIPT_PASSTHROUGH, QUERYESCSUPPORT, SPCLPASSTHROUGH2, _win32_ExtEscape, gdi.extescape, wingdi/ExtEscape
 ms.topic: function
-f1_keywords: 
- - "wingdi/ExtEscape"
+f1_keywords:
+- wingdi/ExtEscape
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-RTCore-GDI-DevCaps-l1-1-1.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- Gdi32.dll
+- Ext-MS-Win-RTCore-GDI-DevCaps-l1-1-1.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 api_name:
- - ExtEscape
+- ExtEscape
 targetos: Windows
 req.typenames: 
 req.redist: 

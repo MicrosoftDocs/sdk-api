@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplateWritable.get_Property
 title: IX509CertificateTemplateWritable::get_Property (certenroll.h)
-
 description: Specifies or retrieves a property value for the IX509CertificateTemplateWritable object.
 old-location: security\ix509certificatetemplatewritable_property.htm
 tech.root: seccertenroll
 ms.assetid: df665957-c276-4e46-8838-76010146e4d7
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateTemplateWritable interface [Security],Property property, IX509CertificateTemplateWritable.Property, IX509CertificateTemplateWritable.get_Property, IX509CertificateTemplateWritable::Property, IX509CertificateTemplateWritable::get_Property, IX509CertificateTemplateWritable::put_Property, Property property [Security], Property property [Security],IX509CertificateTemplateWritable interface, certenroll/IX509CertificateTemplateWritable::Property, certenroll/IX509CertificateTemplateWritable::get_Property, certenroll/IX509CertificateTemplateWritable::put_Property, get_Property, security.ix509certificatetemplatewritable_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateTemplateWritable.Property"
+f1_keywords:
+- certenroll/IX509CertificateTemplateWritable.Property
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509CertificateTemplateWritable.Property
- - IX509CertificateTemplateWritable.get_Property
- - IX509CertificateTemplateWritable.put_Property
+- IX509CertificateTemplateWritable.Property
+- IX509CertificateTemplateWritable.get_Property
+- IX509CertificateTemplateWritable.put_Property
 targetos: Windows
 req.typenames: 
 req.redist: 

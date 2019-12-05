@@ -1,19 +1,17 @@
 ---
 UID: NS:objidl.tagINTERFACEINFO
 title: INTERFACEINFO (objidl.h)
-
 description: Contains information about incoming calls.
 old-location: com\interfaceinfo.htm
 tech.root: com
 ms.assetid: 5c2c07bf-1c15-4f21-baef-103837ea24d0
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO"
+ms.keywords: '*LPINTERFACEINFO, INTERFACEINFO, INTERFACEINFO structure [COM], LPINTERFACEINFO, LPINTERFACEINFO structure pointer [COM], _com_INTERFACEINFO, com.interfaceinfo, objidl/INTERFACEINFO, objidl/LPINTERFACEINFO'
 ms.topic: struct
-f1_keywords: 
- - "objidl/INTERFACEINFO"
+f1_keywords:
+- objidl/INTERFACEINFO
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Objidl.h
+- Objidl.h
 api_name:
- - INTERFACEINFO
+- INTERFACEINFO
 targetos: Windows
 req.typenames: INTERFACEINFO, *LPINTERFACEINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetBkColor
 title: ListView_SetBkColor macro (commctrl.h)
-
 description: Sets the background color of a list-view control. You can use this macro or send the LVM_SETBKCOLOR message explicitly.
 old-location: controls\ListView_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setbkcolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetBkColor, ListView_SetBkColor macro [Windows Controls], _win32_ListView_SetBkColor, _win32_ListView_SetBkColor_cpp, commctrl/ListView_SetBkColor, controls.ListView_SetBkColor, controls._win32_ListView_SetBkColor
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetBkColor"
+f1_keywords:
+- commctrl/ListView_SetBkColor
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetBkColor
+- ListView_SetBkColor
 targetos: Windows
 req.typenames: 
 req.redist: 

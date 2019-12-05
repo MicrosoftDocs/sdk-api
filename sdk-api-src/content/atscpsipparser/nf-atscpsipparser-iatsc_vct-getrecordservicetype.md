@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordServiceType
 title: IATSC_VCT::GetRecordServiceType (atscpsipparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\iatsc_vct_getrecordservicetype.htm
 tech.root: mstv
 ms.assetid: 8975a42e-69f8-43b8-8c02-2f03a4dde29f
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordServiceType, GetRecordServiceType method [Microsoft TV Technologies], GetRecordServiceType method [Microsoft TV Technologies],IATSC_VCT interface, IATSC_VCT interface [Microsoft TV Technologies],GetRecordServiceType method, IATSC_VCT.GetRecordServiceType, IATSC_VCT::GetRecordServiceType, IATSC_VCTGetRecordServiceType, atscpsipparser/IATSC_VCT::GetRecordServiceType, mstv.iatsc_vct_getrecordservicetype
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IATSC_VCT.GetRecordServiceType"
+f1_keywords:
+- atscpsipparser/IATSC_VCT.GetRecordServiceType
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IATSC_VCT.GetRecordServiceType
+- IATSC_VCT.GetRecordServiceType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsAbortListener
 title: WsAbortListener function (webservices.h)
-
 description: Cancels any pending I/O for the specified listener.
 old-location: wsw\wsabortlistener.htm
 tech.root: wsw
 ms.assetid: 894a325b-53ac-4f45-ac24-87ed3a40b03d
-
 ms.date: 12/05/2018
 ms.keywords: WsAbortListener, WsAbortListener function [Web Services for Windows], webservices/WsAbortListener, wsw.wsabortlistener
 ms.topic: function
-f1_keywords: 
- - "webservices/WsAbortListener"
+f1_keywords:
+- webservices/WsAbortListener
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsAbortListener
+- WsAbortListener
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataHandlerInfo.DoesSupportPadding
 title: IWICMetadataHandlerInfo::DoesSupportPadding (wincodecsdk.h)
-
 description: Determines if the metadata handler supports padding.
 old-location: wic\_wic_codec_iwicmetadatahandlerinfo_doessupportpadding.htm
 tech.root: wic
 ms.assetid: 93f4e77a-52e3-47c7-9c48-9d38a2c8ceba
-
 ms.date: 12/05/2018
 ms.keywords: DoesSupportPadding, DoesSupportPadding method [Windows Imaging Component], DoesSupportPadding method [Windows Imaging Component],IWICMetadataHandlerInfo interface, IWICMetadataHandlerInfo interface [Windows Imaging Component],DoesSupportPadding method, IWICMetadataHandlerInfo.DoesSupportPadding, IWICMetadataHandlerInfo::DoesSupportPadding, _wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wic._wic_codec_iwicmetadatahandlerinfo_doessupportpadding, wincodecsdk/IWICMetadataHandlerInfo::DoesSupportPadding
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataHandlerInfo.DoesSupportPadding"
+f1_keywords:
+- wincodecsdk/IWICMetadataHandlerInfo.DoesSupportPadding
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataHandlerInfo.DoesSupportPadding
+- IWICMetadataHandlerInfo.DoesSupportPadding
 targetos: Windows
 req.typenames: 
 req.redist: 

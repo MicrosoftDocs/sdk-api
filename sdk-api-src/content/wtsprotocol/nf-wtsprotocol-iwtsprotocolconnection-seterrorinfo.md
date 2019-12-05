@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SetErrorInfo
 title: IWTSProtocolConnection::SetErrorInfo (wtsprotocol.h)
-
 description: IWTSProtocolConnection::SetErrorInfo is no longer available. Instead, use IWRdsProtocolConnection::SetErrorInfo.
 old-location: termserv\iwtsprotocolconnection_seterrorinfo.htm
 tech.root: TermServ
 ms.assetid: 0ec35560-5aad-403a-9477-50e48ee7136a
-
 ms.date: 12/05/2018
 ms.keywords: IWTSProtocolConnection interface [Remote Desktop Services],SetErrorInfo method, IWTSProtocolConnection.SetErrorInfo, IWTSProtocolConnection::SetErrorInfo, SetErrorInfo, SetErrorInfo method [Remote Desktop Services], SetErrorInfo method [Remote Desktop Services],IWTSProtocolConnection interface, termserv.iwtsprotocolconnection_seterrorinfo, wtsprotocol/IWTSProtocolConnection::SetErrorInfo
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolConnection.SetErrorInfo"
+f1_keywords:
+- wtsprotocol/IWTSProtocolConnection.SetErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection.SetErrorInfo
+- IWTSProtocolConnection.SetErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

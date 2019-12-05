@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi.IDiscMasterProgressEvents.NotifyClosingDisc
 title: IDiscMasterProgressEvents::NotifyClosingDisc (imapi.h)
-
 description: Notifies the application that it is has started closing the disc. No further notifications are sent until the burn is finished.
 old-location: imapi\idiscmasterprogressevents_notifyclosingdisc.htm
 tech.root: imapi
 ms.assetid: 2eeccb4e-0e49-40a9-b659-f0784f921074
-
 ms.date: 12/05/2018
 ms.keywords: IDiscMasterProgressEvents interface [IMAPI],NotifyClosingDisc method, IDiscMasterProgressEvents.NotifyClosingDisc, IDiscMasterProgressEvents::NotifyClosingDisc, NotifyClosingDisc, NotifyClosingDisc method [IMAPI], NotifyClosingDisc method [IMAPI],IDiscMasterProgressEvents interface, _win32_idiscmasterprogressevents_notifyclosingdisc, base.idiscmasterprogressevents_notifyclosingdisc, imapi.idiscmasterprogressevents_notifyclosingdisc, imapi/IDiscMasterProgressEvents::NotifyClosingDisc
 ms.topic: method
-f1_keywords: 
- - "imapi/IDiscMasterProgressEvents.NotifyClosingDisc"
+f1_keywords:
+- imapi/IDiscMasterProgressEvents.NotifyClosingDisc
 dev_langs:
- - c++
+- c++
 req.header: imapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Actxprxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Actxprxy.dll
+- Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents.NotifyClosingDisc
+- IDiscMasterProgressEvents.NotifyClosingDisc
 targetos: Windows
 req.typenames: 
 req.redist: 

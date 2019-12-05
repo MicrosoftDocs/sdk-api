@@ -1,19 +1,17 @@
 ---
 UID: NN:rendezvoussession.IRendezvousApplication
 title: IRendezvousApplication (rendezvoussession.h)
-
 description: Exposes a method used by an instant messaging (IM) application to create a remote assistance session.
 old-location: remoteassist\remoteassist_IRendezvousApplication.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\irendezvousapplication.htm
-
 ms.date: 12/05/2018
 ms.keywords: IRendezvousApplication, IRendezvousApplication interface [Remote Assistance], IRendezvousApplication interface [Remote Assistance],described, remoteassist.remoteassist_IRendezvousApplication, remoteassist_IRendezvousApplication, rendezvoussession/IRendezvousApplication
 ms.topic: interface
-f1_keywords: 
- - "rendezvoussession/IRendezvousApplication"
+f1_keywords:
+- rendezvoussession/IRendezvousApplication
 dev_langs:
- - c++
+- c++
 req.header: rendezvoussession.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RendezvousSession.tlb
+- RendezvousSession.tlb
 api_name:
- - IRendezvousApplication
+- IRendezvousApplication
 targetos: Windows
 req.typenames: 
 req.redist: 

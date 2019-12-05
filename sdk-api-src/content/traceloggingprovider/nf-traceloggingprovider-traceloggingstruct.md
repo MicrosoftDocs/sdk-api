@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingStruct
 title: TraceLoggingStruct macro (traceloggingprovider.h)
-
 description: Wrapper macro for defining a group of related fields in an event.
 old-location: tracelogging\traceloggingstruct.htm
 tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingStruct, TraceLoggingStruct macro, tracelogging.traceloggingstruct, traceloggingprovider/TraceLoggingStruct
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingStruct"
+f1_keywords:
+- traceloggingprovider/TraceLoggingStruct
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingStruct
+- TraceLoggingStruct
 targetos: Windows
 req.typenames: 
 req.redist: 

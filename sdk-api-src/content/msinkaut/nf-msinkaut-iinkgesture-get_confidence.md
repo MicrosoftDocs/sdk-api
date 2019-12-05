@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkGesture.get_Confidence
 title: IInkGesture::get_Confidence (msinkaut.h)
-
 description: Gets the level of confidence (strong, intermediate, or poor) that a recognizer has in the recognition of an IInkRecognitionAlternate object or a gesture.
 old-location: tablet\iinkgesture_confidence.htm
 tech.root: tablet
 ms.assetid: 4a27163b-e55a-4ced-8943-9a8ac161794c
-
 ms.date: 12/05/2018
 ms.keywords: 4a27163b-e55a-4ced-8943-9a8ac161794c, Confidence property [Tablet PC], Confidence property [Tablet PC],IInkGesture interface, IInkGesture interface [Tablet PC],Confidence property, IInkGesture.Confidence, IInkGesture.get_Confidence, IInkGesture::Confidence, IInkGesture::get_Confidence, get_Confidence, msinkaut/IInkGesture::Confidence, msinkaut/IInkGesture::get_Confidence, tablet.iinkgesture_confidence
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkGesture.Confidence"
+f1_keywords:
+- msinkaut/IInkGesture.Confidence
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkGesture.Confidence
- - IInkGesture.get_Confidence
- - IInkGesture.get_Confidence
+- IInkGesture.Confidence
+- IInkGesture.get_Confidence
+- IInkGesture.get_Confidence
 targetos: Windows
 req.typenames: 
 req.redist: 

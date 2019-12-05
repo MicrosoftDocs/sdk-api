@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.GetOutput
 title: IMFTopologyNode::GetOutput (mfidl.h)
-
 description: Retrieves the node that is connected to a specified output stream on this node.
 old-location: mf\imftopologynode_getoutput.htm
 tech.root: medfound
 ms.assetid: 0d947d92-4669-4857-bd61-10fa8ebd2598
-
 ms.date: 12/05/2018
 ms.keywords: 0d947d92-4669-4857-bd61-10fa8ebd2598, GetOutput, GetOutput method [Media Foundation], GetOutput method [Media Foundation],IMFTopologyNode interface, IMFTopologyNode interface [Media Foundation],GetOutput method, IMFTopologyNode.GetOutput, IMFTopologyNode::GetOutput, mf.imftopologynode_getoutput, mfidl/IMFTopologyNode::GetOutput
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopologyNode.GetOutput"
+f1_keywords:
+- mfidl/IMFTopologyNode.GetOutput
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopologyNode.GetOutput
+- IMFTopologyNode.GetOutput
 targetos: Windows
 req.typenames: 
 req.redist: 

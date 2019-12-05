@@ -1,19 +1,17 @@
 ---
 UID: NF:sbe.ISBE2StreamMap.EnumMappedStreams
 title: ISBE2StreamMap::EnumMappedStreams (sbe.h)
-
 description: Enumerates streams that are mapped to output pins in a Stream Buffer Source filter.
 old-location: mstv\isbe2streammap_enummappedstreams.htm
 tech.root: mstv
 ms.assetid: bb98db94-3aa1-4f29-b98a-7594e27466ef
-
 ms.date: 12/05/2018
 ms.keywords: EnumMappedStreams, EnumMappedStreams method [Microsoft TV Technologies], EnumMappedStreams method [Microsoft TV Technologies],ISBE2StreamMap interface, ISBE2StreamMap interface [Microsoft TV Technologies],EnumMappedStreams method, ISBE2StreamMap.EnumMappedStreams, ISBE2StreamMap::EnumMappedStreams, mstv.isbe2streammap_enummappedstreams, sbe/ISBE2StreamMap::EnumMappedStreams
 ms.topic: method
-f1_keywords: 
- - "sbe/ISBE2StreamMap.EnumMappedStreams"
+f1_keywords:
+- sbe/ISBE2StreamMap.EnumMappedStreams
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbe.h
+- sbe.h
 api_name:
- - ISBE2StreamMap.EnumMappedStreams
+- ISBE2StreamMap.EnumMappedStreams
 targetos: Windows
 req.typenames: 
 req.redist: 

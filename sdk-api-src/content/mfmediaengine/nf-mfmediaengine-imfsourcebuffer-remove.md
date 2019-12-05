@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.Remove
 title: IMFSourceBuffer::Remove (mfmediaengine.h)
-
 description: Removes the media segments defined by the specified time range from the IMFSourceBuffer.
 old-location: mf\imfsourcebuffer_remove.htm
 tech.root: medfound
 ms.assetid: 86536d73-18c0-4acc-81ec-72f1dfe400c5
-
 ms.date: 12/05/2018
 ms.keywords: IMFSourceBuffer interface [Media Foundation],Remove method, IMFSourceBuffer.Remove, IMFSourceBuffer::Remove, Remove, Remove method [Media Foundation], Remove method [Media Foundation],IMFSourceBuffer interface, mf.imfsourcebuffer_remove, mfmediaengine/IMFSourceBuffer::Remove
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFSourceBuffer.Remove"
+f1_keywords:
+- mfmediaengine/IMFSourceBuffer.Remove
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFSourceBuffer.Remove
+- IMFSourceBuffer.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromEvent
 title: AccessibleObjectFromEvent function (oleacc.h)
-
 description: Retrieves the address of the IAccessible interface for the object that generated the event that is currently being processed by the client's event hook function.
 old-location: winauto\accessibleobjectfromevent.htm
 tech.root: WinAuto
 ms.assetid: d453c163-3918-4a1c-9636-16816227a295
-
 ms.date: 12/05/2018
 ms.keywords: AccessibleObjectFromEvent, AccessibleObjectFromEvent function [Windows Accessibility], _msaa_AccessibleObjectFromEvent, msaa.accessibleobjectfromevent, oleacc/AccessibleObjectFromEvent, winauto.accessibleobjectfromevent
 ms.topic: function
-f1_keywords: 
- - "oleacc/AccessibleObjectFromEvent"
+f1_keywords:
+- oleacc/AccessibleObjectFromEvent
 dev_langs:
- - c++
+- c++
 req.header: oleacc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Oleacc.lib
 req.dll: Oleacc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Oleacc.dll
+- Oleacc.dll
 api_name:
- - AccessibleObjectFromEvent
+- AccessibleObjectFromEvent
 targetos: Windows
 req.typenames: 
 req.redist: Active Accessibility 1.3 RDK on Windows NT 4.0 with SP6 and later and Windows 95

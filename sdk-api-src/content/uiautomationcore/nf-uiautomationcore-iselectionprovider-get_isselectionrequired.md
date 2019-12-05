@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider.get_IsSelectionRequired
 title: ISelectionProvider::get_IsSelectionRequired (uiautomationcore.h)
-
 description: Indicates whether the Microsoft UI Automation provider requires at least one child element to be selected.
 old-location: winauto\uiauto_ISelectionProvider_IsSelectionRequired.htm
 tech.root: WinAuto
 ms.assetid: 1b1ee10d-39de-480f-901f-198d9a9c48f8
-
 ms.date: 12/05/2018
 ms.keywords: ISelectionProvider interface [Windows Accessibility],IsSelectionRequired property, ISelectionProvider.IsSelectionRequired, ISelectionProvider.get_IsSelectionRequired, ISelectionProvider::IsSelectionRequired, ISelectionProvider::get_IsSelectionRequired, IsSelectionRequired property [Windows Accessibility], IsSelectionRequired property [Windows Accessibility],ISelectionProvider interface, get_IsSelectionRequired, uiauto.uiauto_ISelectionProvider_IsSelectionRequired, uiauto_ISelectionProvider_IsSelectionRequired, uiautomationcore/ISelectionProvider::IsSelectionRequired, uiautomationcore/ISelectionProvider::get_IsSelectionRequired, winauto.uiauto_ISelectionProvider_IsSelectionRequired
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ISelectionProvider.IsSelectionRequired"
+f1_keywords:
+- uiautomationcore/ISelectionProvider.IsSelectionRequired
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - ISelectionProvider.IsSelectionRequired
- - ISelectionProvider.get_IsSelectionRequired
+- ISelectionProvider.IsSelectionRequired
+- ISelectionProvider.get_IsSelectionRequired
 targetos: Windows
 req.typenames: 
 req.redist: 

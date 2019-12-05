@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTVTuner.get_ConnectInput
 title: IAMTVTuner::get_ConnectInput (strmif.h)
-
 description: The get_ConnectInput method retrieves the hardware tuner input connection.
 old-location: dshow\iamtvtuner_get_connectinput.htm
 tech.root: DirectShow
 ms.assetid: 9dbcdc9f-7efe-4784-a60c-a6c161befb9b
-
 ms.date: 12/05/2018
 ms.keywords: IAMTVTuner interface [DirectShow],get_ConnectInput method, IAMTVTuner.get_ConnectInput, IAMTVTuner::get_ConnectInput, IAMTVTunerget_ConnectInput, dshow.iamtvtuner_get_connectinput, get_ConnectInput, get_ConnectInput method [DirectShow], get_ConnectInput method [DirectShow],IAMTVTuner interface, strmif/IAMTVTuner::get_ConnectInput
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTVTuner.get_ConnectInput"
+f1_keywords:
+- strmif/IAMTVTuner.get_ConnectInput
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTVTuner.get_ConnectInput
+- IAMTVTuner.get_ConnectInput
 targetos: Windows
 req.typenames: 
 req.redist: 

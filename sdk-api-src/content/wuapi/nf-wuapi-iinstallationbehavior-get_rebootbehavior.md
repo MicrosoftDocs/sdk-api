@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_RebootBehavior
 title: IInstallationBehavior::get_RebootBehavior (wuapi.h)
-
 description: Gets an InstallationRebootBehavior enumeration that specifies the restart behavior that occurs when you install or uninstall the update.
 old-location: wua\iinstallationbehavior_rebootbehavior.htm
 tech.root: Wua_Sdk
 ms.assetid: 7a26709e-8ce1-405a-902c-a71e892cd590
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationBehavior interface [Windows Update Agent],RebootBehavior property, IInstallationBehavior.RebootBehavior, IInstallationBehavior.get_RebootBehavior, IInstallationBehavior::RebootBehavior, IInstallationBehavior::get_RebootBehavior, RebootBehavior property [Windows Update Agent], RebootBehavior property [Windows Update Agent],IInstallationBehavior interface, get_RebootBehavior, wua.iinstallationbehavior_rebootbehavior, wuapi/IInstallationBehavior::RebootBehavior, wuapi/IInstallationBehavior::get_RebootBehavior
 ms.topic: method
-f1_keywords: 
- - "wuapi/IInstallationBehavior.RebootBehavior"
+f1_keywords:
+- wuapi/IInstallationBehavior.RebootBehavior
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationBehavior.RebootBehavior
- - IInstallationBehavior.get_RebootBehavior
+- IInstallationBehavior.RebootBehavior
+- IInstallationBehavior.get_RebootBehavior
 targetos: Windows
 req.typenames: 
 req.redist: 

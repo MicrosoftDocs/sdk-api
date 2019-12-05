@@ -1,19 +1,17 @@
 ---
 UID: NC:tapi.PHONECALLBACK
 title: PHONECALLBACK (tapi.h)
-
 description: The phoneCallback function is a placeholder for the application-supplied function name.
 old-location: tapi2\phonecallbackfunc.htm
 tech.root: Tapi
 ms.assetid: 169ac08a-7584-4d43-abb3-eb83eeb48406
-
 ms.date: 12/05/2018
 ms.keywords: PHONECALLBACK, PHONECALLBACK callback function [TAPI 2.2], _tapi2_phonecallbackfunc, phoneCallback, phoneCallback callback, tapi/PHONECALLBACK, tapi2.phonecallbackfunc
 ms.topic: callback
-f1_keywords: 
- - "tapi/PHONECALLBACK"
+f1_keywords:
+- tapi/PHONECALLBACK
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - PHONECALLBACK
+- PHONECALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

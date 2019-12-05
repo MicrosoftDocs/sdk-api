@@ -1,19 +1,17 @@
 ---
 UID: NF:iads.IDirectorySearch.ExecuteSearch
 title: IDirectorySearch::ExecuteSearch (iads.h)
-
 description: The IDirectorySearch::ExecuteSearch method executes a search and passes the results to the caller.
 old-location: adsi\idirectorysearch_executesearch.htm
 tech.root: adsi
 ms.assetid: 7514b372-1a7a-4a42-a814-af70a727c477
-
 ms.date: 12/05/2018
 ms.keywords: ExecuteSearch, ExecuteSearch method [ADSI], ExecuteSearch method [ADSI],IDirectorySearch interface, IDirectorySearch interface [ADSI],ExecuteSearch method, IDirectorySearch.ExecuteSearch, IDirectorySearch::ExecuteSearch, _ds_idirectorysearch_executesearch, adsi.idirectorysearch__executesearch, adsi.idirectorysearch_executesearch, iads/IDirectorySearch::ExecuteSearch
 ms.topic: method
-f1_keywords: 
- - "iads/IDirectorySearch.ExecuteSearch"
+f1_keywords:
+- iads/IDirectorySearch.ExecuteSearch
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Activeds.dll; Adsldp.dll; Adsldpc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
- - Adsldp.dll
- - Adsldpc.dll
+- Activeds.dll
+- Adsldp.dll
+- Adsldpc.dll
 api_name:
- - IDirectorySearch.ExecuteSearch
+- IDirectorySearch.ExecuteSearch
 targetos: Windows
 req.typenames: 
 req.redist: 

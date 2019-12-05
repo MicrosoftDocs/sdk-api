@@ -1,19 +1,17 @@
 ---
 UID: NN:wia_xp.IWiaLog
 title: IWiaLog (wia_xp.h)
-
 description: This interface is not supported.
 old-location: wia\_wia_IWiaLog.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\iwialog.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaLog, IWiaLog interface [WIA], IWiaLog interface [WIA],described, _wia_IWiaLog, wia._wia_IWiaLog, wia_xp/IWiaLog
 ms.topic: interface
-f1_keywords: 
- - "wia_xp/IWiaLog"
+f1_keywords:
+- wia_xp/IWiaLog
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaLog
+- IWiaLog
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_delete_ext
 title: ldap_delete_ext function (winldap.h)
-
 description: The ldap_delete_ext function is an extended routine that removes a leaf entry from the directory tree.
 old-location: ldap\ldap_delete_ext.htm
 tech.root: ldap
 ms.assetid: 65c4fa7c-76d8-47ec-b5c5-bf671529f5f1
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_delete_ext, ldap.ldap__delete__ext, ldap.ldap_delete_ext, ldap_delete_ext, ldap_delete_ext function [LDAP], ldap_delete_extA, ldap_delete_extW, winldap/ldap_delete_ext, winldap/ldap_delete_extA, winldap/ldap_delete_extW"
+ms.keywords: _ldap_ldap_delete_ext, ldap.ldap__delete__ext, ldap.ldap_delete_ext, ldap_delete_ext, ldap_delete_ext function [LDAP], ldap_delete_extA, ldap_delete_extW, winldap/ldap_delete_ext, winldap/ldap_delete_extA, winldap/ldap_delete_extW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_delete_ext"
+f1_keywords:
+- winldap/ldap_delete_ext
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_delete_ext
- - ldap_delete_extA
- - ldap_delete_extW
+- ldap_delete_ext
+- ldap_delete_extA
+- ldap_delete_extW
 targetos: Windows
 req.typenames: 
 req.redist: 

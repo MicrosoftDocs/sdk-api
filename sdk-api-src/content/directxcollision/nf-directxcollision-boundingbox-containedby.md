@@ -1,19 +1,17 @@
 ---
 UID: NF:directxcollision.BoundingBox.ContainedBy
 title: BoundingBox::ContainedBy
-
 description: Tests whether the BoundingBox is contained by the specified frustum.
 old-location: dxmath\boundingbox_containedby.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.ContainedBy(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: BoundingBox interface [DirectX Math Support APIs],ContainedBy method, BoundingBox.ContainedBy, BoundingBox::ContainedBy, ContainedBy, ContainedBy method [DirectX Math Support APIs], ContainedBy method [DirectX Math Support APIs],BoundingBox interface, dxmath.boundingbox_containedby
 ms.topic: method
-f1_keywords: 
- - "directxcollision/BoundingBox.ContainedBy"
+f1_keywords:
+- directxcollision/BoundingBox.ContainedBy
 dev_langs:
- - c++
+- c++
 req.header: directxcollision.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXCollision.h
+- DirectXCollision.h
 api_name:
- - BoundingBox.ContainedBy
+- BoundingBox.ContainedBy
 targetos: Windows
 req.typenames: 
 req.redist: 

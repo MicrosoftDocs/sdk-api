@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetAccessGetUserPerms
 title: NetAccessGetUserPerms function (lmaccess.h)
-
 description: Not supported.
 old-location: netmgmt\netaccessgetuserperms.htm
 tech.root: NetMgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70
-
 ms.date: 12/05/2018
 ms.keywords: NetAccessGetUserPerms, NetAccessGetUserPerms function [Network Management], _win32_netaccessgetuserperms, lmaccess/NetAccessGetUserPerms, netmgmt.netaccessgetuserperms
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetAccessGetUserPerms"
+f1_keywords:
+- lmaccess/NetAccessGetUserPerms
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h, Lmaccess.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetAccessGetUserPerms
+- NetAccessGetUserPerms
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsapi32.WTSStopRemoteControlSession
 title: WTSStopRemoteControlSession function (wtsapi32.h)
-
 description: Stops a remote control session.
 old-location: termserv\wtsstopremotecontrolsession.htm
 tech.root: TermServ
 ms.assetid: 65e5b584-4ffc-4b89-992e-7ada7df0262b
-
 ms.date: 12/05/2018
 ms.keywords: WTSStopRemoteControlSession, WTSStopRemoteControlSession function [Remote Desktop Services], termserv.wtsstopremotecontrolsession, wtsapi32/WTSStopRemoteControlSession
 ms.topic: function
-f1_keywords: 
- - "wtsapi32/WTSStopRemoteControlSession"
+f1_keywords:
+- wtsapi32/WTSStopRemoteControlSession
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wtsapi32.lib
 req.dll: Wtsapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wtsapi32.dll
+- Wtsapi32.dll
 api_name:
- - WTSStopRemoteControlSession
+- WTSStopRemoteControlSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutGetByKey0
 title: FwpmCalloutGetByKey0 function (fwpmu.h)
-
 description: Retrieves a callout object.
 old-location: fwp\fwpmcalloutgetbykey0_func.htm
 tech.root: fwp
 ms.assetid: 05c5ac43-adf1-419c-8a39-32f8dddd3b98
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutGetByKey0, FwpmCalloutGetByKey0 function [Filtering], fwp.fwpmcalloutgetbykey0_func, fwpmu/FwpmCalloutGetByKey0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutGetByKey0"
+f1_keywords:
+- fwpmu/FwpmCalloutGetByKey0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutGetByKey0
+- FwpmCalloutGetByKey0
 targetos: Windows
 req.typenames: 
 req.redist: 

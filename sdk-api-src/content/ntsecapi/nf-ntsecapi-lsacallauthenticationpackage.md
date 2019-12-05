@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaCallAuthenticationPackage
 title: LsaCallAuthenticationPackage function (ntsecapi.h)
-
 description: Used by a logon application to communicate with an authentication package.
 old-location: security\lsacallauthenticationpackage.htm
 tech.root: SecAuthN
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
-
 ms.date: 12/05/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaCallAuthenticationPackage"
+f1_keywords:
+- ntsecapi/LsaCallAuthenticationPackage
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Secur32.lib
 req.dll: Secur32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Secur32.dll
+- Secur32.dll
 api_name:
- - LsaCallAuthenticationPackage
+- LsaCallAuthenticationPackage
 targetos: Windows
 req.typenames: 
 req.redist: 

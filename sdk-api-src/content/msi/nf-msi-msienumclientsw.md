@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiEnumClientsW
 title: MsiEnumClientsW function (msi.h)
-
 description: The MsiEnumClients function enumerates the clients for a given installed component. The function retrieves one product code each time it is called.
 old-location: setup\msienumclients.htm
 tech.root: Msi
 ms.assetid: 681c1c77-e3b2-4bb5-81f6-4eeadafcc404
-
 ms.date: 12/05/2018
 ms.keywords: MsiEnumClients, MsiEnumClients function, MsiEnumClientsA, MsiEnumClientsW, _msi_msienumclients, msi/MsiEnumClients, msi/MsiEnumClientsA, msi/MsiEnumClientsW, setup.msienumclients
 ms.topic: function
-f1_keywords: 
- - "msi/MsiEnumClients"
+f1_keywords:
+- msi/MsiEnumClients
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiEnumClients
- - MsiEnumClientsA
- - MsiEnumClientsW
+- MsiEnumClients
+- MsiEnumClientsA
+- MsiEnumClientsW
 targetos: Windows
 req.typenames: 
 req.redist: 

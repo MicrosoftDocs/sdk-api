@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellBrowser
 title: IShellBrowser (shobjidl_core.h)
-
 description: Implemented by hosts of Shell views (objects that implement IShellView). Exposes methods that provide services for the view it is hosting and other objects that run in the context of the Explorer window.
 old-location: shell\IShellBrowser.htm
 tech.root: shell
 ms.assetid: 138d90e3-a1f0-4faf-88ca-16c7a46df0ca
-
 ms.date: 12/05/2018
 ms.keywords: IShellBrowser, IShellBrowser interface [Windows Shell], IShellBrowser interface [Windows Shell],described, _win32_IShellBrowser, shell.IShellBrowser, shobjidl_core/IShellBrowser
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellBrowser"
+f1_keywords:
+- shobjidl_core/IShellBrowser
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellBrowser
+- IShellBrowser
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1PrintControl
 title: ID2D1PrintControl (d2d1_1.h)
-
 description: Converts Direct2D primitives stored in an ID2D1CommandList into a fixed page representation. The print sub-system then consumes the primitives.
 old-location: direct2d\id2d1printcontrol.htm
 tech.root: Direct2D
 ms.assetid: 0E8D8218-0671-44A2-AD6E-13BB0B4EB66C
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1PrintControl, ID2D1PrintControl interface [Direct2D], ID2D1PrintControl interface [Direct2D],described, d2d1_1/ID2D1PrintControl, direct2d.id2d1printcontrol
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1PrintControl"
+f1_keywords:
+- d2d1_1/ID2D1PrintControl
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1PrintControl
+- ID2D1PrintControl
 targetos: Windows
 req.typenames: 
 req.redist: 

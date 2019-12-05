@@ -1,19 +1,17 @@
 ---
 UID: NN:wincodecsdk.IWICMetadataWriter
 title: IWICMetadataWriter (wincodecsdk.h)
-
 description: Exposes methods that provide access to writing metadata content. This is implemented by independent software vendors (ISVs) to create new metadata writers.
 old-location: wic\_wic_codec_iwicmetadatawriter.htm
 tech.root: wic
 ms.assetid: 7e742a96-f9d0-49e1-80e4-31ec90680e60
-
 ms.date: 12/05/2018
 ms.keywords: IWICMetadataWriter, IWICMetadataWriter interface [Windows Imaging Component], IWICMetadataWriter interface [Windows Imaging Component],described, _wic_codec_iwicmetadatawriter, wic._wic_codec_iwicmetadatawriter, wincodecsdk/IWICMetadataWriter
 ms.topic: interface
-f1_keywords: 
- - "wincodecsdk/IWICMetadataWriter"
+f1_keywords:
+- wincodecsdk/IWICMetadataWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataWriter
+- IWICMetadataWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

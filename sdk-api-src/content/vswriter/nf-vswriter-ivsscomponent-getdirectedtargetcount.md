@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetDirectedTargetCount
 title: IVssComponent::GetDirectedTargetCount (vswriter.h)
-
 description: The GetDirectedTargetCount method returns the number of directed target specifications associated with the current component. Either a writer or a requester can call this method.
 old-location: base\ivsscomponent_getdirectedtargetcount.htm
 tech.root: VSS
 ms.assetid: 3c8cf80e-66b9-4c6f-a63d-90626937582b
-
 ms.date: 12/05/2018
 ms.keywords: GetDirectedTargetCount, GetDirectedTargetCount method [VSS], GetDirectedTargetCount method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetDirectedTargetCount method, IVssComponent.GetDirectedTargetCount, IVssComponent::GetDirectedTargetCount, _win32_ivsscomponent_getdirectedtargetcount, base.ivsscomponent_getdirectedtargetcount, vswriter/IVssComponent::GetDirectedTargetCount
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetDirectedTargetCount"
+f1_keywords:
+- vswriter/IVssComponent.GetDirectedTargetCount
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetDirectedTargetCount
+- IVssComponent.GetDirectedTargetCount
 targetos: Windows
 req.typenames: 
 req.redist: 

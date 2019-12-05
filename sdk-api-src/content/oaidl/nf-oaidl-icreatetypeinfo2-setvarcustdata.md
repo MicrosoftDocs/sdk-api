@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetVarCustData
 title: ICreateTypeInfo2::SetVarCustData (oaidl.h)
-
 description: Sets a value for custom data for the specified variable.
 old-location: automat\icreatetypeinfo2_setvarcustdata.htm
 tech.root: automat
 ms.assetid: 7055ad6b-89d8-47d9-bdfa-26b323e53133
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo2 interface [Automation],SetVarCustData method, ICreateTypeInfo2.SetVarCustData, ICreateTypeInfo2::SetVarCustData, SetVarCustData, SetVarCustData method [Automation], SetVarCustData method [Automation],ICreateTypeInfo2 interface, _oa96_ICreateTypeInfo2_SetVarCustData, automat.icreatetypeinfo2_setvarcustdata, oaidl/ICreateTypeInfo2::SetVarCustData
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo2.SetVarCustData"
+f1_keywords:
+- oaidl/ICreateTypeInfo2.SetVarCustData
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo2.SetVarCustData
+- ICreateTypeInfo2.SetVarCustData
 targetos: Windows
 req.typenames: 
 req.redist: 

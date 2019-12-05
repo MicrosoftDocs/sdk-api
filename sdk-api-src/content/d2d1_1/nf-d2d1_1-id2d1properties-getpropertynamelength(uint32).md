@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetPropertyNameLength(UINT32)
 title: ID2D1Properties::GetPropertyNameLength (d2d1_1.h)
-
 description: Gets the number of characters for the given property name.
 old-location: direct2d\id2d1properties_getpropertynamelength.htm
 tech.root: Direct2D
 ms.assetid: 9c4b86d1-db5b-41cd-9dd4-85a8bb03dd20
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyNameLength, GetPropertyNameLength method [Direct2D], GetPropertyNameLength method [Direct2D],ID2D1Properties interface, ID2D1Properties interface [Direct2D],GetPropertyNameLength method, ID2D1Properties.GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength, ID2D1Properties::GetPropertyNameLength(UINT32), d2d1_1/ID2D1Properties::GetPropertyNameLength, direct2d.id2d1properties_getpropertynamelength
 ms.topic: method
-f1_keywords: 
- - "d2d1_1/ID2D1Properties.GetPropertyNameLength"
+f1_keywords:
+- d2d1_1/ID2D1Properties.GetPropertyNameLength
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Properties.GetPropertyNameLength
+- ID2D1Properties.GetPropertyNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 

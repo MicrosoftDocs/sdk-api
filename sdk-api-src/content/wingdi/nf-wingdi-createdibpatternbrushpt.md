@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateDIBPatternBrushPt
 title: CreateDIBPatternBrushPt function (wingdi.h)
-
 description: The CreateDIBPatternBrushPt function creates a logical brush that has the pattern specified by the device-independent bitmap (DIB).
 old-location: gdi\createdibpatternbrushpt.htm
 tech.root: gdi
 ms.assetid: 0e34d108-fd35-4512-9eb3-c7710af36e95
-
 ms.date: 12/05/2018
 ms.keywords: CreateDIBPatternBrushPt, CreateDIBPatternBrushPt function [Windows GDI], DIB_PAL_COLORS, DIB_RGB_COLORS, _win32_CreateDIBPatternBrushPt, gdi.createdibpatternbrushpt, wingdi/CreateDIBPatternBrushPt
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateDIBPatternBrushPt"
+f1_keywords:
+- wingdi/CreateDIBPatternBrushPt
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - CreateDIBPatternBrushPt
+- CreateDIBPatternBrushPt
 targetos: Windows
 req.typenames: 
 req.redist: 

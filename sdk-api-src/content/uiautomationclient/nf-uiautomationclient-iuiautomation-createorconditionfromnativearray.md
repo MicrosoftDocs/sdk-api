@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateOrConditionFromNativeArray
 title: IUIAutomation::CreateOrConditionFromNativeArray (uiautomationclient.h)
-
 description: Creates a combination of two or more conditions where a match exists if any one of the conditions is true.
 old-location: winauto\uiauto_IUIAutomation_CreateOrConditionFromNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 393c777c-f262-462b-ac59-035f590bee1c
-
 ms.date: 12/05/2018
 ms.keywords: CreateOrConditionFromNativeArray, CreateOrConditionFromNativeArray method [Windows Accessibility], CreateOrConditionFromNativeArray method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateOrConditionFromNativeArray method, IUIAutomation.CreateOrConditionFromNativeArray, IUIAutomation::CreateOrConditionFromNativeArray, uiauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiauto_IUIAutomation_CreateOrConditionFromNativeArray, uiautomationclient/IUIAutomation::CreateOrConditionFromNativeArray, winauto.uiauto_IUIAutomation_CreateOrConditionFromNativeArray
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CreateOrConditionFromNativeArray"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CreateOrConditionFromNativeArray
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateOrConditionFromNativeArray
+- IUIAutomation.CreateOrConditionFromNativeArray
 targetos: Windows
 req.typenames: 
 req.redist: 

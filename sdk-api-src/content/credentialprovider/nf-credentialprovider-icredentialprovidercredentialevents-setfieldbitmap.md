@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.SetFieldBitmap
 title: ICredentialProviderCredentialEvents::SetFieldBitmap (credentialprovider.h)
-
 description: Communicates to the Logon UI or Credential UI that a tile image field has changed and that the UI should be updated.
 old-location: shell\ICredentialProviderCredentialEvents_SetFieldBitmap.htm
 tech.root: shell
 ms.assetid: 860407bd-774a-409f-b7db-e30a964cf879
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldBitmap method, ICredentialProviderCredentialEvents.SetFieldBitmap, ICredentialProviderCredentialEvents::SetFieldBitmap, SetFieldBitmap, SetFieldBitmap method [Windows Shell], SetFieldBitmap method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldBitmap, credentialprovider/ICredentialProviderCredentialEvents::SetFieldBitmap, shell.ICredentialProviderCredentialEvents_SetFieldBitmap
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredentialEvents.SetFieldBitmap"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredentialEvents.SetFieldBitmap
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredentialEvents.SetFieldBitmap
+- ICredentialProviderCredentialEvents.SetFieldBitmap
 targetos: Windows
 req.typenames: 
 req.redist: 

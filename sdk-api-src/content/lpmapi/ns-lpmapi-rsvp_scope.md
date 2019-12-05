@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_10
 title: RSVP_SCOPE (lpmapi.h)
-
 description: The RSVP_SCOPE structure provides RSVP scope information.
 old-location: qos\rsvp_scope.htm
 tech.root: QOS
 ms.assetid: 64a7e461-d767-4571-97ca-cf7862a05d18
-
 ms.date: 12/05/2018
 ms.keywords: RSVP_SCOPE, RSVP_SCOPE structure [QOS], lpmapi/RSVP_SCOPE, qos.rsvp_scope
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/RSVP_SCOPE"
+f1_keywords:
+- lpmapi/RSVP_SCOPE
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - RSVP_SCOPE
+- RSVP_SCOPE
 targetos: Windows
 req.typenames: RSVP_SCOPE
 req.redist: 

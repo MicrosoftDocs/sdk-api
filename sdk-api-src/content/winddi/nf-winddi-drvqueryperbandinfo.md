@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvQueryPerBandInfo
 title: DrvQueryPerBandInfo function (winddi.h)
-
 description: A printer graphics DLL's DrvQueryPerBandInfo function is called by GDI before it begins drawing a band for a physical page, so the driver can supply GDI with band-specific information.
 old-location: display\drvqueryperbandinfo.htm
 tech.root: display
 ms.assetid: 2e2c1aa7-9ba4-4bf9-acfb-43212d3d4899
-
 ms.date: 12/05/2018
 ms.keywords: DrvQueryPerBandInfo, DrvQueryPerBandInfo function [Display Devices], ddifncs_8a5e262c-23e5-4e49-bd36-6674efe7090f.xml, display.drvqueryperbandinfo, winddi/DrvQueryPerBandInfo
 ms.topic: function
 f1_keywords:
 - winddi/DrvQueryPerBandInfo
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

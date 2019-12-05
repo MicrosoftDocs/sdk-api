@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetState
 title: IBackgroundCopyJob::GetState (bits.h)
-
 description: Retrieves the state of the job.
 old-location: bits\ibackgroundcopyjob_getstate.htm
 tech.root: Bits
 ms.assetid: 32789bd2-2368-473b-accf-ac6e317d0172
-
 ms.date: 12/05/2018
 ms.keywords: GetState, GetState method [BITS], GetState method [BITS],IBackgroundCopyJob interface, IBackgroundCopyJob interface [BITS],GetState method, IBackgroundCopyJob.GetState, IBackgroundCopyJob::GetState, _drz_ibackgroundcopyjob_getstate, bits.ibackgroundcopyjob_getstate, bits/IBackgroundCopyJob::GetState
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyJob.GetState"
+f1_keywords:
+- bits/IBackgroundCopyJob.GetState
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob.GetState
+- IBackgroundCopyJob.GetState
 targetos: Windows
 req.typenames: 
 req.redist: 

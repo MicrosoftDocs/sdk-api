@@ -1,19 +1,17 @@
 ---
 UID: NF:winerror.HRESULT_FACILITY
 title: HRESULT_FACILITY macro (winerror.h)
-
 description: Extracts the facility of the specified HRESULT.
 old-location: com\hresult_facility_macro.htm
 tech.root: com
 ms.assetid: 35beb1ed-9b63-4e44-a0ae-adaf561e6fd8
-
 ms.date: 12/05/2018
 ms.keywords: HRESULT_FACILITY, HRESULT_FACILITY macro [COM], _com_HRESULT_FACILITY, com.hresult_facility, com.hresult_facility_macro, winerror/HRESULT_FACILITY
 ms.topic: macro
-f1_keywords: 
- - "winerror/HRESULT_FACILITY"
+f1_keywords:
+- winerror/HRESULT_FACILITY
 dev_langs:
- - c++
+- c++
 req.header: winerror.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winerror.h
+- Winerror.h
 api_name:
- - HRESULT_FACILITY
+- HRESULT_FACILITY
 targetos: Windows
 req.typenames: 
 req.redist: 

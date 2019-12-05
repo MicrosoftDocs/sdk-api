@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetSystemCursor
 title: SetSystemCursor function (winuser.h)
-
 description: Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the id parameter with the contents of the cursor specified by the hcur parameter and then destroys hcur.
 old-location: menurc\setsystemcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setsystemcursor.htm
-
 ms.date: 12/05/2018
 ms.keywords: OCR_APPSTARTING, OCR_CROSS, OCR_HAND, OCR_HELP, OCR_IBEAM, OCR_NO, OCR_NORMAL, OCR_SIZEALL, OCR_SIZENESW, OCR_SIZENS, OCR_SIZENWSE, OCR_SIZEWE, OCR_UP, OCR_WAIT, SetSystemCursor, SetSystemCursor function [Menus and Other Resources], _win32_SetSystemCursor, _win32_setsystemcursor_cpp, menurc.setsystemcursor, winui._win32_setsystemcursor, winuser/SetSystemCursor
 ms.topic: function
-f1_keywords: 
- - "winuser/SetSystemCursor"
+f1_keywords:
+- winuser/SetSystemCursor
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SetSystemCursor
+- SetSystemCursor
 targetos: Windows
 req.typenames: 
 req.redist: 

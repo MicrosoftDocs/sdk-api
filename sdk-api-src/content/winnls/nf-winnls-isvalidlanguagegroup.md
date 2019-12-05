@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.IsValidLanguageGroup
 title: IsValidLanguageGroup function (winnls.h)
-
 description: Determines if a language group is installed or supported on the operating system. For more information, see NLS Terminology.
 old-location: intl\isvalidlanguagegroup.htm
 tech.root: Intl
 ms.assetid: 68cf09f8-fe97-4035-94b6-886ca26bbf3e
-
 ms.date: 12/05/2018
 ms.keywords: IsValidLanguageGroup, IsValidLanguageGroup function [Internationalization for Windows Applications], LGRPID_INSTALLED, LGRPID_SUPPORTED, _win32_IsValidLanguageGroup, intl.isvalidlanguagegroup, winnls/IsValidLanguageGroup
 ms.topic: function
-f1_keywords: 
- - "winnls/IsValidLanguageGroup"
+f1_keywords:
+- winnls/IsValidLanguageGroup
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-l1-2-0.dll
- - API-MS-Win-Core-Localization-l1-2-1.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-L1-2-2.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-l1-2-0.dll
+- API-MS-Win-Core-Localization-l1-2-1.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - IsValidLanguageGroup
+- IsValidLanguageGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

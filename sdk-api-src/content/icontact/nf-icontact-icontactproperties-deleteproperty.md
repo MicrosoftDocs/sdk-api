@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactProperties.DeleteProperty
 title: IContactProperties::DeleteProperty (icontact.h)
-
 description: Deletes the value at a specified property. Property modification and version data can still be enumerated with IContactPropertyCollection.
 old-location: wincontacts\_wincontacts_IContactProperties_DeleteProperty.htm
 tech.root: wincontacts
 ms.assetid: 74ed72da-e82c-4257-9d16-c5204a88c9bf
-
 ms.date: 12/05/2018
 ms.keywords: DeleteProperty, DeleteProperty method [Windows Contacts], DeleteProperty method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],DeleteProperty method, IContactProperties.DeleteProperty, IContactProperties::DeleteProperty, _wincontacts_IContactProperties_DeleteProperty, icontact/IContactProperties::DeleteProperty, wincontacts._wincontacts_IContactProperties_DeleteProperty
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactProperties.DeleteProperty"
+f1_keywords:
+- icontact/IContactProperties.DeleteProperty
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: Contact.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactProperties.DeleteProperty
+- IContactProperties.DeleteProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

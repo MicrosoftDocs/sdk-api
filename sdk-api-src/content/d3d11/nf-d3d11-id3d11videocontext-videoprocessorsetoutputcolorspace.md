@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetOutputColorSpace
 title: ID3D11VideoContext::VideoProcessorSetOutputColorSpace (d3d11.h)
-
 description: Sets the output color space for the video processor.
 old-location: mf\id3d11videocontext_videoprocessorsetoutputcolorspace.htm
 tech.root: medfound
 ms.assetid: 5B4B2C26-CFC8-43BD-A889-8838DEF3582A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11VideoContext interface [Media Foundation],VideoProcessorSetOutputColorSpace method, ID3D11VideoContext.VideoProcessorSetOutputColorSpace, ID3D11VideoContext::VideoProcessorSetOutputColorSpace, VideoProcessorSetOutputColorSpace, VideoProcessorSetOutputColorSpace method [Media Foundation], VideoProcessorSetOutputColorSpace method [Media Foundation],ID3D11VideoContext interface, d3d11/ID3D11VideoContext::VideoProcessorSetOutputColorSpace, mf.id3d11videocontext_videoprocessorsetoutputcolorspace
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11VideoContext.VideoProcessorSetOutputColorSpace"
+f1_keywords:
+- d3d11/ID3D11VideoContext.VideoProcessorSetOutputColorSpace
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - ID3D11VideoContext.VideoProcessorSetOutputColorSpace
+- ID3D11VideoContext.VideoProcessorSetOutputColorSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

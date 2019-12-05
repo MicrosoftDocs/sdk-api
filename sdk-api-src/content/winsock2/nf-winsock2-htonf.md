@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.htonf
 title: htonf function (winsock2.h)
-
 description: Converts a float from host to TCP/IP network byte order (which is big-endian).
 old-location: winsock\htonf.htm
 tech.root: WinSock
 ms.assetid: 93011B2E-2B3C-4EDD-90F7-82A11542A154
-
 ms.date: 12/05/2018
 ms.keywords: htonf, htonf function [Winsock], winsock.htonf, winsock2/htonf
 ms.topic: function
-f1_keywords: 
- - "winsock2/htonf"
+f1_keywords:
+- winsock2/htonf
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winsock2.h
+- Winsock2.h
 api_name:
- - htonf
+- htonf
 targetos: Windows
 req.typenames: 
 req.redist: 

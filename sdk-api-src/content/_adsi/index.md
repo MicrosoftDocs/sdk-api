@@ -1,7 +1,6 @@
 ---
 UID: TP:adsi
 ms.assetid: 534ca0a3-4d26-3e5d-a913-50ae21601fba
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

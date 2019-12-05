@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.Clone
 title: IInkRecognizerContext::Clone (msinkaut.h)
-
 description: Creates a duplicate InkRecognizerContext object.
 old-location: tablet\inkrecognizercontext_clone.htm
 tech.root: tablet
 ms.assetid: f376e177-7714-4771-8aa4-13f91a26395a
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Tablet PC], Clone method [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Clone method, IInkRecognizerContext.Clone, IInkRecognizerContext::Clone, f3ec6b42-2b5d-459e-ba09-88c27b125c40, get_Clone, msinkaut/IInkRecognizerContext::Clone, putref_Clone, tablet.inkrecognizercontext_clone
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.Clone"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.Clone
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.Clone
+- IInkRecognizerContext.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

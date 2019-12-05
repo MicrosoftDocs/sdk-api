@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.Timer
 title: IProgressDialog::Timer (shlobj_core.h)
-
 description: Resets the progress dialog box timer to zero.
 old-location: shell\IProgressDialog_Timer.htm
 tech.root: shell
 ms.assetid: ab048787-e555-4d5d-994a-1fc6f273312b
-
 ms.date: 12/05/2018
 ms.keywords: IProgressDialog interface [Windows Shell],Timer method, IProgressDialog.Timer, IProgressDialog::Timer, PDTIMER_PAUSE, PDTIMER_RESET, PDTIMER_RESUME, Timer, Timer method [Windows Shell], Timer method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_Timer, shell.IProgressDialog_Timer, shlobj_core/IProgressDialog::Timer
 ms.topic: method
-f1_keywords: 
- - "shlobj_core/IProgressDialog.Timer"
+f1_keywords:
+- shlobj_core/IProgressDialog.Timer
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IProgressDialog.Timer
+- IProgressDialog.Timer
 targetos: Windows
 req.typenames: 
 req.redist: 

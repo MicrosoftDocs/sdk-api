@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiAdvertiseScriptW
 title: MsiAdvertiseScriptW function (msi.h)
-
 description: The MsiAdvertiseScript function copies an advertised script file into the specified locations.
 old-location: setup\msiadvertisescript.htm
 tech.root: Msi
 ms.assetid: 2c255c01-554b-42da-82ff-c946a40098ed
-
 ms.date: 12/05/2018
 ms.keywords: MsiAdvertiseScript, MsiAdvertiseScript function, MsiAdvertiseScriptA, MsiAdvertiseScriptW, SCRIPTFLAGS_CACHEINFO, SCRIPTFLAGS_MACHINEASSIGN, SCRIPTFLAGS_REGDATA, SCRIPTFLAGS_REGDATA_APPINFO, SCRIPTFLAGS_REGDATA_CLASSINFO, SCRIPTFLAGS_REGDATA_CNFGINFO, SCRIPTFLAGS_REGDATA_EXTENSIONINFO, SCRIPTFLAGS_SHORTCUTS, SCRIPTFLAGS_VALIDATE_TRANSFORMS_LIST, _msi_msiadvertisescript, msi/MsiAdvertiseScript, msi/MsiAdvertiseScriptA, msi/MsiAdvertiseScriptW, setup.msiadvertisescript
 ms.topic: function
-f1_keywords: 
- - "msi/MsiAdvertiseScript"
+f1_keywords:
+- msi/MsiAdvertiseScript
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiAdvertiseScript
- - MsiAdvertiseScriptA
- - MsiAdvertiseScriptW
+- MsiAdvertiseScript
+- MsiAdvertiseScriptA
+- MsiAdvertiseScriptW
 targetos: Windows
 req.typenames: 
 req.redist: 

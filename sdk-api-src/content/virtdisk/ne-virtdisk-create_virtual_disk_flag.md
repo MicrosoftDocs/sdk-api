@@ -1,19 +1,17 @@
 ---
 UID: NE:virtdisk._CREATE_VIRTUAL_DISK_FLAG
 title: CREATE_VIRTUAL_DISK_FLAG (virtdisk.h)
-
 description: Contains virtual hard disk (VHD) creation flags.
 old-location: vhd\create_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: 35dba6c6-2825-425a-b432-a6ac8ad4ea4b
-
 ms.date: 12/05/2018
 ms.keywords: CREATE_VIRTUAL_DISK_FLAG, CREATE_VIRTUAL_DISK_FLAG enumeration [VHD], CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, CREATE_VIRTUAL_DISK_FLAG_NONE, CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, vdssys/CREATE_VIRTUAL_DISK_FLAG, vdssys/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, vdssys/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, vdssys/CREATE_VIRTUAL_DISK_FLAG_NONE, vdssys/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK, vhd.create_virtual_disk_flag, virtdisk/CREATE_VIRTUAL_DISK_FLAG, virtdisk/CREATE_VIRTUAL_DISK_FLAG_DO_NOT_COPY_METADATA_FROM_PARENT, virtdisk/CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION, virtdisk/CREATE_VIRTUAL_DISK_FLAG_NONE, virtdisk/CREATE_VIRTUAL_DISK_FLAG_PREVENT_WRITES_TO_SOURCE_DISK
 ms.topic: enum
-f1_keywords: 
- - "virtdisk/CREATE_VIRTUAL_DISK_FLAG"
+f1_keywords:
+- virtdisk/CREATE_VIRTUAL_DISK_FLAG
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - CREATE_VIRTUAL_DISK_FLAG
+- CREATE_VIRTUAL_DISK_FLAG
 targetos: Windows
 req.typenames: CREATE_VIRTUAL_DISK_FLAG
 req.redist: 

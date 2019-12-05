@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphsEditor.GetUnicodeString
 title: IXpsOMGlyphsEditor::GetUnicodeString (xpsobjectmodel.h)
-
 description: Gets the text in unescaped UTF-16 scalar values.
 old-location: xps\ixpsomglyphseditor_getunicodestring.htm
 tech.root: printdocs
 ms.assetid: 48190202-2ab4-44ad-98e0-a69e9b48576f
-
 ms.date: 12/05/2018
 ms.keywords: GetUnicodeString, GetUnicodeString method [XPS Documents and Packaging], GetUnicodeString method [XPS Documents and Packaging],IXpsOMGlyphsEditor interface, IXpsOMGlyphsEditor interface [XPS Documents and Packaging],GetUnicodeString method, IXpsOMGlyphsEditor.GetUnicodeString, IXpsOMGlyphsEditor::GetUnicodeString, xps.ixpsomglyphseditor_getunicodestring, xpsobjectmodel/IXpsOMGlyphsEditor::GetUnicodeString
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMGlyphsEditor.GetUnicodeString"
+f1_keywords:
+- xpsobjectmodel/IXpsOMGlyphsEditor.GetUnicodeString
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor.GetUnicodeString
+- IXpsOMGlyphsEditor.GetUnicodeString
 targetos: Windows
 req.typenames: 
 req.redist: 

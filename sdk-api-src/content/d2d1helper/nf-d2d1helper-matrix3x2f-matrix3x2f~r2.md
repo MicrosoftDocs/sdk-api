@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Matrix3x2F~r2
 title: Matrix3x2F::Matrix3x2F~r2 (d2d1helper.h)
-
 description: Instantiates a new instance of the Matrix3x2F class without initializing the matrix values.
 old-location: direct2d\matrix3x2f_matrix3x2f.htm
 tech.root: Direct2D
 ms.assetid: 2a78374f-8163-4323-a62d-beeb25cd5bea
-
 ms.date: 12/05/2018
 ms.keywords: D2D1.Matrix3x2F.Matrix3x2F, D2D1::Matrix3x2F::Matrix3x2F, Matrix3x2F, Matrix3x2F constructor [Direct2D], Matrix3x2F constructor [Direct2D],Matrix3x2F interface, Matrix3x2F interface [Direct2D],Matrix3x2F constructor, Matrix3x2F.Matrix3x2F, Matrix3x2F.Matrix3x2F~r2, Matrix3x2F::Matrix3x2F, Matrix3x2F::Matrix3x2F(), Matrix3x2F::Matrix3x2F~r2, d2d1helper/Matrix3x2F::Matrix3x2F, direct2d.matrix3x2f_matrix3x2f
 ms.topic: method
-f1_keywords: 
- - "d2d1helper/Matrix3x2F.Matrix3x2F"
+f1_keywords:
+- d2d1helper/Matrix3x2F.Matrix3x2F
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - Matrix3x2F.Matrix3x2F
+- Matrix3x2F.Matrix3x2F
 targetos: Windows
 req.typenames: 
 req.redist: 

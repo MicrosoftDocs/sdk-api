@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.RemovePortMapping
 title: INetSharingConfiguration::RemovePortMapping (netcon.h)
-
 description: The RemovePortMapping method removes a service port mapping from the list of mappings for this connection.
 old-location: ics\inetsharingconfiguration_removeportmapping.htm
 tech.root: ics
 ms.assetid: 2790aced-a3a9-425d-9e0f-fe8df4fcb934
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingConfiguration interface [ICS/ICF],RemovePortMapping method, INetSharingConfiguration.RemovePortMapping, INetSharingConfiguration::RemovePortMapping, RemovePortMapping, RemovePortMapping method [ICS/ICF], RemovePortMapping method [ICS/ICF],INetSharingConfiguration interface, _ics_inetsharingconfiguration_removeportmapping, ics.inetsharingconfiguration_removeportmapping, netcon/INetSharingConfiguration::RemovePortMapping
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingConfiguration.RemovePortMapping"
+f1_keywords:
+- netcon/INetSharingConfiguration.RemovePortMapping
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingConfiguration.RemovePortMapping
+- INetSharingConfiguration.RemovePortMapping
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagNMHDR
 title: NMHDR (winuser.h)
-
 description: Contains information about a notification message.
 old-location: controls\NMHDR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPNMHDR, NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR"
+ms.keywords: '*LPNMHDR, NMHDR, NMHDR structure [Windows Controls], _win32_NMHDR_str, _win32_NMHDR_str_cpp, controls.NMHDR, controls._win32_NMHDR_str, richedit/NMHDR'
 ms.topic: struct
-f1_keywords: 
- - "winuser/NMHDR"
+f1_keywords:
+- winuser/NMHDR
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Winuser.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - richedit.h
+- richedit.h
 api_name:
- - NMHDR
+- NMHDR
 targetos: Windows
 req.typenames: NMHDR
 req.redist: 

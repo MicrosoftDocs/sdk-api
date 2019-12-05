@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetMapMode
 title: GetMapMode function (wingdi.h)
-
 description: The GetMapMode function retrieves the current mapping mode.
 old-location: gdi\getmapmode.htm
 tech.root: gdi
 ms.assetid: bc446b86-3dde-4460-bc54-1eaa4ad19941
-
 ms.date: 12/05/2018
 ms.keywords: GetMapMode, GetMapMode function [Windows GDI], _win32_GetMapMode, gdi.getmapmode, wingdi/GetMapMode
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetMapMode"
+f1_keywords:
+- wingdi/GetMapMode
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Draw-l1-1-1.dll
- - ext-ms-win-gdi-draw-l1-1-2.dll
- - Ext-MS-Win-GDI-Draw-L1-1-3.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Draw-l1-1-1.dll
+- ext-ms-win-gdi-draw-l1-1-2.dll
+- Ext-MS-Win-GDI-Draw-L1-1-3.dll
+- GDI32Full.dll
 api_name:
- - GetMapMode
+- GetMapMode
 targetos: Windows
 req.typenames: 
 req.redist: 

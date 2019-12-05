@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetShellItem
 title: IKnownFolder::GetShellItem (shobjidl_core.h)
-
 description: Retrieves the location of a known folder in the Shell namespace in the form of a Shell item (IShellItem or derived interface).
 old-location: shell\IKnownFolder_GetShellItem.htm
 tech.root: shell
 ms.assetid: a42c0a20-9c72-48d3-8432-15b73ff211d2
-
 ms.date: 12/05/2018
 ms.keywords: GetShellItem, GetShellItem method [Windows Shell], GetShellItem method [Windows Shell],IKnownFolder interface, IKnownFolder interface [Windows Shell],GetShellItem method, IKnownFolder.GetShellItem, IKnownFolder::GetShellItem, _shell_IKnownFolder_GetShellItem, shell.IKnownFolder_GetShellItem, shobjidl_core/IKnownFolder::GetShellItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IKnownFolder.GetShellItem"
+f1_keywords:
+- shobjidl_core/IKnownFolder.GetShellItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IKnownFolder.GetShellItem
+- IKnownFolder.GetShellItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfFnConfigureRegisterWord
 title: ITfFnConfigureRegisterWord (ctffunc.h)
-
 description: The ITfFnConfigureRegisterWord interface is implemented by a text service to enable the Active Input Method Editor (IME) to cause the text service to display a word registration dialog box.
 old-location: tsf\itffnconfigureregisterword.htm
 tech.root: TSF
 ms.assetid: 515e5f01-a68f-4e67-acf5-cac1923d485e
-
 ms.date: 12/05/2018
 ms.keywords: ITfFnConfigureRegisterWord, ITfFnConfigureRegisterWord interface [Text Services Framework], ITfFnConfigureRegisterWord interface [Text Services Framework],described, _tsf_itffnconfigureregisterword_ref, ctffunc/ITfFnConfigureRegisterWord, tsf.itffnconfigureregisterword
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfFnConfigureRegisterWord"
+f1_keywords:
+- ctffunc/ITfFnConfigureRegisterWord
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfFnConfigureRegisterWord
+- ITfFnConfigureRegisterWord
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

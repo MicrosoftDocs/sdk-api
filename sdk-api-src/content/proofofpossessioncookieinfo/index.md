@@ -1,7 +1,6 @@
 ---
 UID: NA:proofofpossessioncookieinfo
 ms.assetid: 9bf43ccb-9843-3be5-ba59-3dea2bfe00cf
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

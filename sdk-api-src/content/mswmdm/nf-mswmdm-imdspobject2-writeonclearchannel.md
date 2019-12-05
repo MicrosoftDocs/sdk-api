@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject2.WriteOnClearChannel
 title: IMDSPObject2::WriteOnClearChannel (mswmdm.h)
-
 description: The WriteOnClearChannel method writes data to the object to the current position within the object, without using secure authenticated channels.
 old-location: wmdm\imdspobject2_writeonclearchannel.htm
 tech.root: WMDM
 ms.assetid: 9c80f382-2536-4f08-9111-94ad757747f7
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],WriteOnClearChannel method, IMDSPObject2.WriteOnClearChannel, IMDSPObject2::WriteOnClearChannel, IMDSPObject2WriteOnClearChannel, WriteOnClearChannel, WriteOnClearChannel method [windows Media Device Manager], WriteOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::WriteOnClearChannel, wmdm.imdspobject2_writeonclearchannel
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject2.WriteOnClearChannel"
+f1_keywords:
+- mswmdm/IMDSPObject2.WriteOnClearChannel
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject2.WriteOnClearChannel
+- IMDSPObject2.WriteOnClearChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

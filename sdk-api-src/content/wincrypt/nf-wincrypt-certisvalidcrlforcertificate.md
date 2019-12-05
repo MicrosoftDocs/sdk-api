@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CertIsValidCRLForCertificate
 title: CertIsValidCRLForCertificate function (wincrypt.h)
-
 description: The CertIsValidCRLForCertificate function checks a CRL to find out if it is a CRL that would include a specific certificate if that certificate were revoked.
 old-location: security\certisvalidcrlforcertificate.htm
 tech.root: SecCrypto
 ms.assetid: 06047b7a-4bdd-42f9-bb85-49b6ec6f35a0
-
 ms.date: 12/05/2018
 ms.keywords: CertIsValidCRLForCertificate, CertIsValidCRLForCertificate function [Security], _crypto2_certisvalidcrlforcertificate, security.certisvalidcrlforcertificate, wincrypt/CertIsValidCRLForCertificate
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CertIsValidCRLForCertificate"
+f1_keywords:
+- wincrypt/CertIsValidCRLForCertificate
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CertIsValidCRLForCertificate
+- CertIsValidCRLForCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

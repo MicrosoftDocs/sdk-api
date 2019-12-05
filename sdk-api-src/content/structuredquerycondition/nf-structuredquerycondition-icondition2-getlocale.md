@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquerycondition.ICondition2.GetLocale
 title: ICondition2::GetLocale (structuredquerycondition.h)
-
 description: Retrieves the property name, operation, and value from a leaf search condition node.
 old-location: search\_search_ICondition2_GetLocale.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\getlocale.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetLocale, GetLocale method [search], GetLocale method [search],ICondition2 interface, ICondition2 interface [search],GetLocale method, ICondition2.GetLocale, ICondition2::GetLocale, _search_ICondition2_GetLocale, search._search_ICondition2_GetLocale, structuredquerycondition/ICondition2::GetLocale
 ms.topic: method
-f1_keywords: 
- - "structuredquerycondition/ICondition2.GetLocale"
+f1_keywords:
+- structuredquerycondition/ICondition2.GetLocale
 dev_langs:
- - c++
+- c++
 req.header: structuredquerycondition.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquerycondition.h
+- Structuredquerycondition.h
 api_name:
- - ICondition2.GetLocale
+- ICondition2.GetLocale
 targetos: Windows
 req.typenames: 
 req.redist: 

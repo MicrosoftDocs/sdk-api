@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminConnectionClearStats
 title: MprAdminConnectionClearStats function (mprapi.h)
-
 description: The MprAdminConnectionClearStats function resets the statistics counters for the specified connection.
 old-location: rras\mpradminconnectionclearstats.htm
 tech.root: RRAS
 ms.assetid: d1d9b218-e376-4c26-a1c0-d06537492622
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminConnectionClearStats, MprAdminConnectionClearStats function [RAS], _mpr_mpradminconnectionclearstats, mprapi/MprAdminConnectionClearStats, rras.mpradminconnectionclearstats
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminConnectionClearStats"
+f1_keywords:
+- mprapi/MprAdminConnectionClearStats
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminConnectionClearStats
+- MprAdminConnectionClearStats
 targetos: Windows
 req.typenames: 
 req.redist: 

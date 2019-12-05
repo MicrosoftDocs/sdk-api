@@ -1,19 +1,17 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.FindUserName
 title: IDiskQuotaControl::FindUserName (dskquota.h)
-
 description: Locates a specific entry in the volume quota information.
 old-location: fs\idiskquotacontrol_findusername.htm
 tech.root: FileIO
 ms.assetid: dae4e2d4-0293-4ee4-9687-9fed4b3a3600
-
 ms.date: 12/05/2018
 ms.keywords: FindUserName, FindUserName method [Files], FindUserName method [Files],IDiskQuotaControl interface, IDiskQuotaControl interface [Files],FindUserName method, IDiskQuotaControl.FindUserName, IDiskQuotaControl::FindUserName, _win32_idiskquotacontrol_findusername, base.idiskquotacontrol_findusername, dskquota/IDiskQuotaControl::FindUserName, fs.idiskquotacontrol_findusername
 ms.topic: method
-f1_keywords: 
- - "dskquota/IDiskQuotaControl.FindUserName"
+f1_keywords:
+- dskquota/IDiskQuotaControl.FindUserName
 dev_langs:
- - c++
+- c++
 req.header: dskquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Dskquota.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dskquota.dll
+- Dskquota.dll
 api_name:
- - IDiskQuotaControl.FindUserName
+- IDiskQuotaControl.FindUserName
 targetos: Windows
 req.typenames: 
 req.redist: 

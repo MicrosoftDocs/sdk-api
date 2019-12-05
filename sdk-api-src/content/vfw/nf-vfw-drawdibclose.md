@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.DrawDibClose
 title: DrawDibClose function (vfw.h)
-
 description: The DrawDibClose function closes a DrawDib DC and frees the resources DrawDib allocated for it.
 old-location: multimedia\drawdibclose.htm
 tech.root: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b
-
 ms.date: 12/05/2018
 ms.keywords: DrawDibClose, DrawDibClose function [Windows Multimedia], _win32_DrawDibClose, multimedia.drawdibclose, vfw/DrawDibClose
 ms.topic: function
-f1_keywords: 
- - "vfw/DrawDibClose"
+f1_keywords:
+- vfw/DrawDibClose
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - DrawDibClose
+- DrawDibClose
 targetos: Windows
 req.typenames: 
 req.redist: 

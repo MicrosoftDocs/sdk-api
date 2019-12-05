@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IVideoWindow.get_Top
 title: IVideoWindow::get_Top (control.h)
-
 description: The get_Top method retrieves the video window's y-coordinate.
 old-location: dshow\ivideowindow_get_top.htm
 tech.root: DirectShow
 ms.assetid: 00baab45-d740-4f74-bd53-eb2ff21c5dcc
-
 ms.date: 12/05/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Top method, IVideoWindow.get_Top, IVideoWindow::get_Top, IVideoWindowget_Top, control/IVideoWindow::get_Top, dshow.ivideowindow_get_top, get_Top, get_Top method [DirectShow], get_Top method [DirectShow],IVideoWindow interface
 ms.topic: method
-f1_keywords: 
- - "control/IVideoWindow.get_Top"
+f1_keywords:
+- control/IVideoWindow.get_Top
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVideoWindow.get_Top
+- IVideoWindow.get_Top
 targetos: Windows
 req.typenames: 
 req.redist: 

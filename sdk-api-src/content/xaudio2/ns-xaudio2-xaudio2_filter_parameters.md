@@ -1,19 +1,17 @@
 ---
 UID: NS:xaudio2.XAUDIO2_FILTER_PARAMETERS
 title: XAUDIO2_FILTER_PARAMETERS (xaudio2.h)
-
 description: Defines filter parameters for a source voice.
 old-location: xaudio2\xaudio2_filter_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_PARAMETERS
-
 ms.date: 12/05/2018
 ms.keywords: XAUDIO2_FILTER_PARAMETERS, XAUDIO2_FILTER_PARAMETERS structure [XAudio2 Audio Mixing APIs], xaudio2.xaudio2_filter_parameters, xaudio2/XAUDIO2_FILTER_PARAMETERS
 ms.topic: struct
-f1_keywords: 
- - "xaudio2/XAUDIO2_FILTER_PARAMETERS"
+f1_keywords:
+- xaudio2/XAUDIO2_FILTER_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xaudio2.h
+- xaudio2.h
 api_name:
- - XAUDIO2_FILTER_PARAMETERS
+- XAUDIO2_FILTER_PARAMETERS
 targetos: Windows
 req.typenames: XAUDIO2_FILTER_PARAMETERS
 req.redist: 

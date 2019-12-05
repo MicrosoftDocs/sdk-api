@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetChild
 title: ISettingsItem::GetChild (wcmconfig.h)
-
 description: Gets the child item that has the specified name.
 old-location: smi\isettingsitem_getchild.htm
 tech.root: SMI
 ms.assetid: 4a3d3212-bd47-46fb-9ce1-79ac109c6444
-
 ms.date: 12/05/2018
 ms.keywords: GetChild, GetChild method [SMI], GetChild method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetChild method, ISettingsItem.GetChild, ISettingsItem::GetChild, smi.isettingsitem_getchild, wcmconfig/ISettingsItem::GetChild
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetChild"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetChild
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetChild
+- ISettingsItem.GetChild
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.TextPattern_GetVisibleRanges
 title: TextPattern_GetVisibleRanges function (uiautomationcoreapi.h)
-
 description: Retrieves an array of disjoint text ranges from a text container where each text range begins with the first partially visible line through to the end of the last partially visible line.
 old-location: winauto\uiauto_TextPattern_GetVisibleRangesConPat.htm
 tech.root: WinAuto
 ms.assetid: 509c1d6e-c7ae-4c74-8635-27071ea37696
-
 ms.date: 12/05/2018
 ms.keywords: TextPattern_GetVisibleRanges, TextPattern_GetVisibleRanges function [Windows Accessibility], uiauto.uiauto_TextPattern_GetVisibleRangesConPat, uiauto_TextPattern_GetVisibleRangesConPat, uiautomationcoreapi/TextPattern_GetVisibleRanges, winauto.uiauto_TextPattern_GetVisibleRangesConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/TextPattern_GetVisibleRanges"
+f1_keywords:
+- uiautomationcoreapi/TextPattern_GetVisibleRanges
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - TextPattern_GetVisibleRanges
+- TextPattern_GetVisibleRanges
 targetos: Windows
 req.typenames: 
 req.redist: 

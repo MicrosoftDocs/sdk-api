@@ -1,19 +1,17 @@
 ---
 UID: NS:winsync._SYNC_SESSION_STATISTICS
 title: SYNC_SESSION_STATISTICS (winsync.h)
-
 description: Represents statistics about a single, unidirectional synchronization session.
 old-location: winsync\sync_session_statistics.htm
 tech.root: winsync
 ms.assetid: e6d1fe9e-6cf2-414a-9be6-b444af2c7525
-
 ms.date: 12/05/2018
 ms.keywords: SYNC_SESSION_STATISTICS, SYNC_SESSION_STATISTICS structure [Windows Sync], winsync.sync_session_statistics, winsync/SYNC_SESSION_STATISTICS
 ms.topic: struct
-f1_keywords: 
- - "winsync/SYNC_SESSION_STATISTICS"
+f1_keywords:
+- winsync/SYNC_SESSION_STATISTICS
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - SYNC_SESSION_STATISTICS
+- SYNC_SESSION_STATISTICS
 targetos: Windows
 req.typenames: SYNC_SESSION_STATISTICS
 req.redist: 

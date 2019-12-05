@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetName
 title: ISettingsItem::GetName (wcmconfig.h)
-
 description: Gets the name of the item.
 old-location: smi\isettingsitem_getname.htm
 tech.root: SMI
 ms.assetid: a8517c53-5833-4087-91eb-3eb9301e0d3a
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [SMI], GetName method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetName method, ISettingsItem.GetName, ISettingsItem::GetName, smi.isettingsitem_getname, wcmconfig/ISettingsItem::GetName
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ISettingsItem.GetName"
+f1_keywords:
+- wcmconfig/ISettingsItem.GetName
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ISettingsItem.GetName
+- ISettingsItem.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

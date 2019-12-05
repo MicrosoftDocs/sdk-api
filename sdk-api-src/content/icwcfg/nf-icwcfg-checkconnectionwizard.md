@@ -1,19 +1,17 @@
 ---
 UID: NF:icwcfg.CheckConnectionWizard
 title: CheckConnectionWizard function (icwcfg.h)
-
 description: The CheckConnectionWizard function checks that the Internet Connection Wizard (ICW) is installed and that it has not been run before.
 old-location: winprog\checkconnectionwizard.htm
 tech.root: DevNotes
 ms.assetid: 81960d59-3de3-4d86-948e-939c59073bb1
-
 ms.date: 12/05/2018
 ms.keywords: CheckConnectionWizard, CheckConnectionWizard function [Windows API], ICW_ALREADYRUN, ICW_CHECKSTATUS, ICW_FULLPRESENT, ICW_FULL_SMARTSTART, ICW_LAUNCHEDFULL, ICW_LAUNCHEDMANUAL, ICW_LAUNCHFULL, ICW_LAUNCHMANUAL, ICW_MANUALPRESENT, ICW_USE_SHELLNEXT, icwcfg/CheckConnectionWizard, winprog.checkconnectionwizard
 ms.topic: function
-f1_keywords: 
- - "icwcfg/CheckConnectionWizard"
+f1_keywords:
+- icwcfg/CheckConnectionWizard
 dev_langs:
- - c++
+- c++
 req.header: icwcfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Inetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Inetcfg.dll
+- Inetcfg.dll
 api_name:
- - CheckConnectionWizard
+- CheckConnectionWizard
 targetos: Windows
 req.typenames: 
 req.redist: 

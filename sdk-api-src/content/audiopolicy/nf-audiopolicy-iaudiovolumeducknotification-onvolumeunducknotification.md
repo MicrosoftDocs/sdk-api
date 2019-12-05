@@ -1,19 +1,17 @@
 ---
 UID: NF:audiopolicy.IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 title: IAudioVolumeDuckNotification::OnVolumeUnduckNotification (audiopolicy.h)
-
 description: The OnVolumeUnduckNotification method sends a notification about a pending system unducking event.
 old-location: coreaudio\iaudiovolumeducknotification_onvolumeunducknotification.htm
 tech.root: CoreAudio
 ms.assetid: f25f066e-999f-45ff-8287-afa8acb82a19
-
 ms.date: 12/05/2018
 ms.keywords: IAudioVolumeDuckNotification interface [Core Audio],OnVolumeUnduckNotification method, IAudioVolumeDuckNotification.OnVolumeUnduckNotification, IAudioVolumeDuckNotification::OnVolumeUnduckNotification, OnVolumeUnduckNotification, OnVolumeUnduckNotification method [Core Audio], OnVolumeUnduckNotification method [Core Audio],IAudioVolumeDuckNotification interface, audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification, coreaudio.iaudiovolumeducknotification_onvolumeunducknotification
 ms.topic: method
-f1_keywords: 
- - "audiopolicy/IAudioVolumeDuckNotification.OnVolumeUnduckNotification"
+f1_keywords:
+- audiopolicy/IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 dev_langs:
- - c++
+- c++
 req.header: audiopolicy.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AudioPolicy.h
+- AudioPolicy.h
 api_name:
- - IAudioVolumeDuckNotification.OnVolumeUnduckNotification
+- IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

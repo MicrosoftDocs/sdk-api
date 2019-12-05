@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.BeginPath
 title: BeginPath function (wingdi.h)
-
 description: The BeginPath function opens a path bracket in the specified device context.
 old-location: gdi\beginpath.htm
 tech.root: gdi
 ms.assetid: 88be3405-a420-4eb1-935b-099dc3067530
-
 ms.date: 12/05/2018
 ms.keywords: BeginPath, BeginPath function [Windows GDI], _win32_BeginPath, gdi.beginpath, wingdi/BeginPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/BeginPath"
+f1_keywords:
+- wingdi/BeginPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Path-l1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Path-l1-1-0.dll
+- GDI32Full.dll
 api_name:
- - BeginPath
+- BeginPath
 targetos: Windows
 req.typenames: 
 req.redist: 

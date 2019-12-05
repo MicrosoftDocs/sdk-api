@@ -1,19 +1,17 @@
 ---
 UID: NE:clusapi.CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 title: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE (clusapi.h)
-
 description: Specifies the various snapshot states for a shared volume.
 old-location: mscs\cluster_shared_volume_snapshot_state.htm
 tech.root: MsCS
 ms.assetid: FE8F2117-7D23-42FF-B6BD-CA42224570EF
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE enumeration [Failover Cluster], ClusterSharedVolumeHWSnapshotCompleted, ClusterSharedVolumePrepareForFreeze, ClusterSharedVolumePrepareForHWSnapshot, ClusterSharedVolumeSnapshotStateUnknown, clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, clusapi/ClusterSharedVolumeHWSnapshotCompleted, clusapi/ClusterSharedVolumePrepareForFreeze, clusapi/ClusterSharedVolumePrepareForHWSnapshot, clusapi/ClusterSharedVolumeSnapshotStateUnknown, msclus/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE, msclus/ClusterSharedVolumeHWSnapshotCompleted, msclus/ClusterSharedVolumePrepareForFreeze, msclus/ClusterSharedVolumePrepareForHWSnapshot, msclus/ClusterSharedVolumeSnapshotStateUnknown, mscs.cluster_shared_volume_snapshot_state
 ms.topic: enum
-f1_keywords: 
- - "clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE"
+f1_keywords:
+- clusapi/CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,13 +30,13 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - kbSyntax
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- -
+- 
 api_name:
- - CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
+- CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 targetos: Windows
 req.typenames: CLUSTER_SHARED_VOLUME_SNAPSHOT_STATE
 req.redist: 

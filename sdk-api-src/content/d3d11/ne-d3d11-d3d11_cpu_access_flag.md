@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_CPU_ACCESS_FLAG
 title: D3D11_CPU_ACCESS_FLAG (d3d11.h)
-
 description: Specifies the types of CPU access allowed for a resource.
 old-location: direct3d11\d3d11_cpu_access_flag.htm
 tech.root: direct3d11
 ms.assetid: 0a19c2a7-2570-40e2-8328-cbf5d7263605
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_CPU_ACCESS_FLAG, D3D11_CPU_ACCESS_FLAG enumeration [Direct3D 11], D3D11_CPU_ACCESS_READ, D3D11_CPU_ACCESS_WRITE, d3d11/D3D11_CPU_ACCESS_FLAG, d3d11/D3D11_CPU_ACCESS_READ, d3d11/D3D11_CPU_ACCESS_WRITE, direct3d11.d3d11_cpu_access_flag, e0f1ea8e-63f7-ef8a-fa11-3cbc160d2469
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_CPU_ACCESS_FLAG"
+f1_keywords:
+- d3d11/D3D11_CPU_ACCESS_FLAG
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_CPU_ACCESS_FLAG
+- D3D11_CPU_ACCESS_FLAG
 targetos: Windows
 req.typenames: D3D11_CPU_ACCESS_FLAG
 req.redist: 

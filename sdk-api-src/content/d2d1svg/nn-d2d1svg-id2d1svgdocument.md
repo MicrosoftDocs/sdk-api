@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgDocument
 title: ID2D1SvgDocument (d2d1svg.h)
-
 description: Represents an SVG document.
 old-location: direct2d\id2d1svgdocument.htm
 tech.root: Direct2D
 ms.assetid: 1F570A77-7110-4C71-A7BE-74F2B78CFE96
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgDocument, ID2D1SvgDocument interface [Direct2D], ID2D1SvgDocument interface [Direct2D],described, d2d1svg/ID2D1SvgDocument, direct2d.id2d1svgdocument
 ms.topic: interface
-f1_keywords: 
- - "d2d1svg/ID2D1SvgDocument"
+f1_keywords:
+- d2d1svg/ID2D1SvgDocument
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgDocument
+- ID2D1SvgDocument
 targetos: Windows
 req.typenames: 
 req.redist: 

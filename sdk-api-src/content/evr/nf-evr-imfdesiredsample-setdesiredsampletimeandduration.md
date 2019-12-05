@@ -1,19 +1,17 @@
 ---
 UID: NF:evr.IMFDesiredSample.SetDesiredSampleTimeAndDuration
 title: IMFDesiredSample::SetDesiredSampleTimeAndDuration (evr.h)
-
 description: Called by the presenter to set the time and duration of the sample that it requests from the mixer.
 old-location: mf\imfdesiredsample_setdesiredsampletimeandduration.htm
 tech.root: medfound
 ms.assetid: 12877b24-83ec-4156-b411-f07202fdfd62
-
 ms.date: 12/05/2018
 ms.keywords: 12877b24-83ec-4156-b411-f07202fdfd62, IMFDesiredSample interface [Media Foundation],SetDesiredSampleTimeAndDuration method, IMFDesiredSample.SetDesiredSampleTimeAndDuration, IMFDesiredSample::SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration, SetDesiredSampleTimeAndDuration method [Media Foundation], SetDesiredSampleTimeAndDuration method [Media Foundation],IMFDesiredSample interface, evr/IMFDesiredSample::SetDesiredSampleTimeAndDuration, mf.imfdesiredsample_setdesiredsampletimeandduration
 ms.topic: method
-f1_keywords: 
- - "evr/IMFDesiredSample.SetDesiredSampleTimeAndDuration"
+f1_keywords:
+- evr/IMFDesiredSample.SetDesiredSampleTimeAndDuration
 dev_langs:
- - c++
+- c++
 req.header: evr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IMFDesiredSample.SetDesiredSampleTimeAndDuration
+- IMFDesiredSample.SetDesiredSampleTimeAndDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

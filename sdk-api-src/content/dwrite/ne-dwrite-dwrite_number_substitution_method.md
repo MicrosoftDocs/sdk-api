@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_NUMBER_SUBSTITUTION_METHOD
 title: DWRITE_NUMBER_SUBSTITUTION_METHOD (dwrite.h)
-
 description: Specifies how to apply number substitution on digits and related punctuation.
 old-location: directwrite\dwrite_number_substitution_method.htm
 tech.root: DirectWrite
 ms.assetid: 9702007f-ab08-4ad2-9fac-6482e17161ca
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_NUMBER_SUBSTITUTION_METHOD, DWRITE_NUMBER_SUBSTITUTION_METHOD enumeration [Direct Write], DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL, DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE, DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL, DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE, DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL, directwrite.dwrite_number_substitution_method, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_CONTEXTUAL, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_FROM_CULTURE, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NATIONAL, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_NONE, dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD_TRADITIONAL
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD"
+f1_keywords:
+- dwrite/DWRITE_NUMBER_SUBSTITUTION_METHOD
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_NUMBER_SUBSTITUTION_METHOD
+- DWRITE_NUMBER_SUBSTITUTION_METHOD
 targetos: Windows
 req.typenames: 
 req.redist: 

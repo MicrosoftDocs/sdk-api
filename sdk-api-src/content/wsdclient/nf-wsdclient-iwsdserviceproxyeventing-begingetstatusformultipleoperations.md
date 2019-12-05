@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdclient.IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations
 title: IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations (wsdclient.h)
-
 description: Begins an asynchronous operation that retrieves the current status.
 old-location: ncd\iwsdserviceproxyeventing_begingetstatusformultipleoperations.htm
 tech.root: WsdApi
 ms.assetid: cf42f680-f19c-4ee3-824d-dc892608d4d2
-
 ms.date: 12/05/2018
 ms.keywords: BeginGetStatusForMultipleOperations, BeginGetStatusForMultipleOperations method, BeginGetStatusForMultipleOperations method,IWSDServiceProxyEventing interface, IWSDServiceProxyEventing interface,BeginGetStatusForMultipleOperations method, IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations, IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations, ncd.iwsdserviceproxyeventing_begingetstatusformultipleoperations, wsdclient/IWSDServiceProxyEventing::BeginGetStatusForMultipleOperations
 ms.topic: method
 f1_keywords:
 - wsdclient/IWSDServiceProxyEventing.BeginGetStatusForMultipleOperations
 dev_langs:
- - c++
+- c++
 req.header: wsdclient.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

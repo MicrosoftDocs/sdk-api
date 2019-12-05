@@ -1,19 +1,17 @@
 ---
 UID: NN:ctfutb.ITfLangBarItemBalloon
 title: ITfLangBarItemBalloon (ctfutb.h)
-
 description: The ITfLangBarItemBalloon interface is implemented by an application or text service and is used by the language bar manager to obtain information specific to a balloon item on the language bar.
 old-location: tsf\itflangbaritemballoon.htm
 tech.root: TSF
 ms.assetid: 619a6f21-fbac-455c-a702-0302ce13112b
-
 ms.date: 12/05/2018
 ms.keywords: ITfLangBarItemBalloon, ITfLangBarItemBalloon interface [Text Services Framework], ITfLangBarItemBalloon interface [Text Services Framework],described, _tsf_itflangbaritemballoon_ref, ctfutb/ITfLangBarItemBalloon, tsf.itflangbaritemballoon
 ms.topic: interface
-f1_keywords: 
- - "ctfutb/ITfLangBarItemBalloon"
+f1_keywords:
+- ctfutb/ITfLangBarItemBalloon
 dev_langs:
- - c++
+- c++
 req.header: ctfutb.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfLangBarItemBalloon
+- ITfLangBarItemBalloon
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

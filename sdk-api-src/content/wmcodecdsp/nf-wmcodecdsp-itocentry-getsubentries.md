@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.ITocEntry.GetSubEntries
 title: ITocEntry::GetSubEntries (wmcodecdsp.h)
-
 description: The GetSubEntries method gets an array of subentry indices that were set by a previous call to SetSubEntries.
 old-location: mf\itocentry_getsubentries.htm
 tech.root: medfound
 ms.assetid: 583340d7-87f9-40c5-a0dc-3e69bbb96334
-
 ms.date: 12/05/2018
 ms.keywords: GetSubEntries, GetSubEntries method [Media Foundation], GetSubEntries method [Media Foundation],ITocEntry interface, ITocEntry interface [Media Foundation],GetSubEntries method, ITocEntry.GetSubEntries, ITocEntry::GetSubEntries, codecapi.itocentry_getsubentries, mf.itocentry_getsubentries, wmcodecdsp/ITocEntry::GetSubEntries
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/ITocEntry.GetSubEntries"
+f1_keywords:
+- wmcodecdsp/ITocEntry.GetSubEntries
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - ITocEntry.GetSubEntries
+- ITocEntry.GetSubEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

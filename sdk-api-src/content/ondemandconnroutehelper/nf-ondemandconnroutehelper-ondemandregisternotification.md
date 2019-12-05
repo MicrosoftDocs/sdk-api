@@ -1,19 +1,17 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandRegisterNotification
 title: OnDemandRegisterNotification function (ondemandconnroutehelper.h)
-
 description: The OnDemandRegisterNotification function allows an application to register to be notified when the Route Requests cache is modified.
 old-location: nla\ondemandregisternotification.htm
 tech.root: nla
 ms.assetid: 1C9BB656-B1A7-49A6-97B9-414946BF9BE0
-
 ms.date: 12/05/2018
 ms.keywords: OnDemandRegisterNotification, OnDemandRegisterNotification function [Network Awareness], nla.ondemandregisternotification, ondemandconnroutehelper/OnDemandRegisterNotification
 ms.topic: function
-f1_keywords: 
- - "ondemandconnroutehelper/OnDemandRegisterNotification"
+f1_keywords:
+- ondemandconnroutehelper/OnDemandRegisterNotification
 dev_langs:
- - c++
+- c++
 req.header: ondemandconnroutehelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OnDemandConnRouteHelper.lib
 req.dll: OnDemandConnRouteHelper.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OnDemandConnRouteHelper.dll
+- OnDemandConnRouteHelper.dll
 api_name:
- - OnDemandRegisterNotification
+- OnDemandRegisterNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

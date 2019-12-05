@@ -1,19 +1,17 @@
 ---
 UID: NF:winnls.GetSystemDefaultUILanguage
 title: GetSystemDefaultUILanguage function (winnls.h)
-
 description: Retrieves the language identifier for the system default UI language of the operating system, also known as the &#0034;install language&#0034; on Windows Vista and later. For more information, see User Interface Language Management.
 old-location: intl\getsystemdefaultuilanguage.htm
 tech.root: Intl
 ms.assetid: 34fc125d-0f0b-43d0-aa2b-91501bd6cd26
-
 ms.date: 12/05/2018
 ms.keywords: GetSystemDefaultUILanguage, GetSystemDefaultUILanguage function [Internationalization for Windows Applications], _win32_GetSystemDefaultUILanguage, intl.getsystemdefaultuilanguage, winnls/GetSystemDefaultUILanguage
 ms.topic: function
-f1_keywords: 
- - "winnls/GetSystemDefaultUILanguage"
+f1_keywords:
+- winnls/GetSystemDefaultUILanguage
 dev_langs:
- - c++
+- c++
 req.header: winnls.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
 api_name:
- - GetSystemDefaultUILanguage
+- GetSystemDefaultUILanguage
 targetos: Windows
 req.typenames: 
 req.redist: 

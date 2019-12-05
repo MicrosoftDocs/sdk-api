@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeComp
 title: ITypeLib::GetTypeComp (oaidl.h)
-
 description: Enables a client compiler to bind to the types, variables, constants, and global functions for a library.
 old-location: automat\itypelib_gettypecomp.htm
 tech.root: automat
 ms.assetid: 11c22e52-b0d5-4251-b8fa-ea3efae555e6
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeComp, GetTypeComp method [Automation], GetTypeComp method [Automation],ITypeLib interface, ITypeLib interface [Automation],GetTypeComp method, ITypeLib.GetTypeComp, ITypeLib::GetTypeComp, _oa96_ITypeLib_GetTypeComp, automat.itypelib_gettypecomp, oaidl/ITypeLib::GetTypeComp
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeLib.GetTypeComp"
+f1_keywords:
+- oaidl/ITypeLib.GetTypeComp
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeLib.GetTypeComp
+- ITypeLib.GetTypeComp
 targetos: Windows
 req.typenames: 
 req.redist: 

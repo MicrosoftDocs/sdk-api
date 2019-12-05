@@ -1,19 +1,17 @@
 ---
 UID: NN:wsmandisp.IWSManConnectionOptionsEx
 title: IWSManConnectionOptionsEx (wsmandisp.h)
-
 description: The IWSManConnectionOptionsEx object is passed to the IWSMan::CreateSession method to provide the thumbprint of the client certificate used for authentication.
 old-location: winrm\iwsmanconnectionoptionsex.htm
 tech.root: winrm
 ms.assetid: aa47c9bf-6c7d-41c2-a29b-929600ee371a
-
 ms.date: 12/05/2018
 ms.keywords: IWSManConnectionOptionsEx, IWSManConnectionOptionsEx interface [Windows Remote Management], IWSManConnectionOptionsEx interface [Windows Remote Management],described, winrm.iwsmanconnectionoptionsex, wsmandisp/IWSManConnectionOptionsEx
 ms.topic: interface
-f1_keywords: 
- - "wsmandisp/IWSManConnectionOptionsEx"
+f1_keywords:
+- wsmandisp/IWSManConnectionOptionsEx
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManConnectionOptionsEx
+- IWSManConnectionOptionsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

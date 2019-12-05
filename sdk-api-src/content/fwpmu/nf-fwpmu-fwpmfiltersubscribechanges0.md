@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmFilterSubscribeChanges0
 title: FwpmFilterSubscribeChanges0 function (fwpmu.h)
-
 description: Is used to request the delivery of notifications regarding changes in a particular filter.
 old-location: fwp\fwpmfiltersubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 6dafce5d-239f-44b6-a24b-2b5646bfe4ec
-
 ms.date: 12/05/2018
 ms.keywords: FwpmFilterSubscribeChanges0, FwpmFilterSubscribeChanges0 function [Filtering], fwp.fwpmfiltersubscribechanges0_func, fwpmu/FwpmFilterSubscribeChanges0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmFilterSubscribeChanges0"
+f1_keywords:
+- fwpmu/FwpmFilterSubscribeChanges0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmFilterSubscribeChanges0
+- FwpmFilterSubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 

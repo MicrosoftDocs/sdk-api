@@ -1,19 +1,17 @@
 ---
 UID: NF:powersetting.PowerRegisterForEffectivePowerModeNotifications
 title: PowerRegisterForEffectivePowerModeNotifications function (powersetting.h)
-
 description: Registers a callback to receive effective power mode change notifications.
 old-location: base\powerregisterforeffectivepowermodenotifications.htm
 tech.root: power
 ms.assetid: 3C87643F-A8DA-4230-A216-8F46629BB6FB
-
 ms.date: 12/05/2018
 ms.keywords: PowerRegisterForEffectivePowerModeNotifications, PowerRegisterForEffectivePowerModeNotifications function, base.powerregisterforeffectivepowermodenotifications, powersetting/PowerRegisterForEffectivePowerModeNotifications
 ms.topic: function
-f1_keywords: 
- - "powersetting/PowerRegisterForEffectivePowerModeNotifications"
+f1_keywords:
+- powersetting/PowerRegisterForEffectivePowerModeNotifications
 dev_langs:
- - c++
+- c++
 req.header: powersetting.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Powrprof.lib
 req.dll: Powrprof.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Powrprof.dll
+- Powrprof.dll
 api_name:
- - PowerRegisterForEffectivePowerModeNotifications
+- PowerRegisterForEffectivePowerModeNotifications
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.Button_GetNoteLength
 title: Button_GetNoteLength macro (commctrl.h)
-
 description: Gets the length of the note text that may be displayed in the description for a command link. Use this macro or send the BCM_GETNOTELENGTH message explicitly.
 old-location: controls\Button_GetNoteLength.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getnotelength.htm
-
 ms.date: 12/05/2018
 ms.keywords: Button_GetNoteLength, Button_GetNoteLength macro [Windows Controls], _shell_Button_GetNoteLength, _shell_Button_GetNoteLength_cpp, commctrl/Button_GetNoteLength, controls.Button_GetNoteLength, controls._shell_Button_GetNoteLength
 ms.topic: macro
-f1_keywords: 
- - "commctrl/Button_GetNoteLength"
+f1_keywords:
+- commctrl/Button_GetNoteLength
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - Button_GetNoteLength
+- Button_GetNoteLength
 targetos: Windows
 req.typenames: 
 req.redist: 

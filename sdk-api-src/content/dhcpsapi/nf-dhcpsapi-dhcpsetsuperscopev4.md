@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpSetSuperScopeV4
 title: DhcpSetSuperScopeV4 function (dhcpsapi.h)
-
 description: Sets a subnet as the superscope on a DHCP server.
 old-location: dhcp\dhcpsetsuperscopev4.htm
 tech.root: DHCP
 ms.assetid: 70da0113-0c4a-4c4e-80ae-1e55773f9904
-
 ms.date: 12/05/2018
 ms.keywords: DhcpSetSuperScopeV4, DhcpSetSuperScopeV4 function [DHCP], dhcp.dhcpsetsuperscopev4, dhcpsapi/DhcpSetSuperScopeV4
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpSetSuperScopeV4"
+f1_keywords:
+- dhcpsapi/DhcpSetSuperScopeV4
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpSetSuperScopeV4
+- DhcpSetSuperScopeV4
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_INITIATE_REPAIR
 title: FSCTL_INITIATE_REPAIR
-
 description: Triggers the NTFS file system to start a self-healing cycle on a single file.
 old-location: fs\fsctl_initiate_repair.htm
 tech.root: FileIO
 ms.assetid: 948f6c3e-34ac-4270-bb2f-dc2ffd111005
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_INITIATE_REPAIR, FSCTL_INITIATE_REPAIR control, FSCTL_INITIATE_REPAIR control code [Files], fs.fsctl_initiate_repair, winioctl/FSCTL_INITIATE_REPAIR
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_INITIATE_REPAIR"
+f1_keywords:
+- winioctl/FSCTL_INITIATE_REPAIR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_INITIATE_REPAIR
+- FSCTL_INITIATE_REPAIR
 targetos: Windows
 req.typenames: 
 req.redist: 

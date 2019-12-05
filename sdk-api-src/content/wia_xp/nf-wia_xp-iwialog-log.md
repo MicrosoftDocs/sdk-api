@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaLog.Log
 title: IWiaLog::Log (wia_xp.h)
-
 description: This method is not supported.
 old-location: wia\_wia_IWiaLog_Log.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialog\log.htm
-
 ms.date: 12/05/2018
 ms.keywords: IWiaLog interface [WIA],Log method, IWiaLog.Log, IWiaLog::Log, Log, Log method [WIA], Log method [WIA],IWiaLog interface, _wia_IWiaLog_Log, wia._wia_IWiaLog_Log, wia_xp/IWiaLog::Log
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaLog.Log"
+f1_keywords:
+- wia_xp/IWiaLog.Log
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaLog.Log
+- IWiaLog.Log
 targetos: Windows
 req.typenames: 
 req.redist: 

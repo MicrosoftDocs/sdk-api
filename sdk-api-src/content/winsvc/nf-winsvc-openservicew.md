@@ -1,19 +1,17 @@
 ---
 UID: NF:winsvc.OpenServiceW
 title: OpenServiceW function (winsvc.h)
-
 description: Opens an existing service.
 old-location: base\openservice.htm
 tech.root: Services
 ms.assetid: e0a42613-95ad-4d0f-a464-c6df33014064
-
 ms.date: 12/05/2018
 ms.keywords: OpenService, OpenService function, OpenServiceA, OpenServiceW, _win32_openservice, base.openservice, winsvc/OpenService, winsvc/OpenServiceA, winsvc/OpenServiceW
 ms.topic: function
-f1_keywords: 
- - "winsvc/OpenService"
+f1_keywords:
+- winsvc/OpenService
 dev_langs:
- - c++
+- c++
 req.header: winsvc.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,22 +30,22 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
- - sechost.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - API-MS-Win-Service-management-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-1-0.dll
- - API-MS-Win-Service-Winsvc-l1-2-0.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-0.dll
+- sechost.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- API-MS-Win-Service-management-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-1-0.dll
+- API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - OpenService
- - OpenServiceA
- - OpenServiceW
+- OpenService
+- OpenServiceA
+- OpenServiceW
 targetos: Windows
 req.typenames: 
 req.redist: 

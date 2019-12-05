@@ -1,19 +1,17 @@
 ---
 UID: NF:sdoias.ISdoCollection.get_Count
 title: ISdoCollection::get_Count (sdoias.h)
-
 description: The get_Count method returns the number of items in the collection.
 old-location: nps\SDO_isdocollection_get_count.htm
 tech.root: Nps
 ms.assetid: 57f83f72-327b-4018-be1b-3527820f88d5
-
 ms.date: 12/05/2018
 ms.keywords: ISdoCollection interface [Network Policy Server],get_Count method, ISdoCollection.get_Count, ISdoCollection::get_Count, _sdo_isdocollection_get_count, get_Count, get_Count method [Network Policy Server], get_Count method [Network Policy Server],ISdoCollection interface, nps.SDO_isdocollection_get_count, sdo.isdocollection_get_count, sdoias/ISdoCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "sdoias/ISdoCollection.get_Count"
+f1_keywords:
+- sdoias/ISdoCollection.get_Count
 dev_langs:
- - c++
+- c++
 req.header: sdoias.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Iassdo.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Iassdo.dll
+- Iassdo.dll
 api_name:
- - ISdoCollection.get_Count
+- ISdoCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

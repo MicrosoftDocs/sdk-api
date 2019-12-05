@@ -1,19 +1,17 @@
 ---
 UID: NS:bluetoothapis._SDP_ELEMENT_DATA
 title: SDP_ELEMENT_DATA (bluetoothapis.h)
-
 description: The SDP_ELEMENT_DATA structure stores SDP element data.
 old-location: bluetooth\sdp_element_data.htm
 tech.root: bluetooth
 ms.assetid: 9c9d6103-cc49-41d2-bbb3-6b6888fb93e7
-
 ms.date: 12/05/2018
-ms.keywords: "*PSDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA structure [Bluetooth], SDP_ELEMENT_DATA, SDP_ELEMENT_DATA structure [Bluetooth], bluetooth.sdp_element_data, bluetoothapis/*PSDP_ELEMENT_DATA, bluetoothapis/SDP_ELEMENT_DATA"
+ms.keywords: '*PSDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA structure [Bluetooth], SDP_ELEMENT_DATA, SDP_ELEMENT_DATA structure [Bluetooth], bluetooth.sdp_element_data, bluetoothapis/*PSDP_ELEMENT_DATA, bluetoothapis/SDP_ELEMENT_DATA'
 ms.topic: struct
-f1_keywords: 
- - "bluetoothapis/SDP_ELEMENT_DATA"
+f1_keywords:
+- bluetoothapis/SDP_ELEMENT_DATA
 dev_langs:
- - c++
+- c++
 req.header: bluetoothapis.h
 req.include-header: Bthsdpdef.h, BluetoothAPIs.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - BluetoothAPIs.h
+- BluetoothAPIs.h
 api_name:
- - SDP_ELEMENT_DATA
+- SDP_ELEMENT_DATA
 targetos: Windows
 req.typenames: SDP_ELEMENT_DATA, *PSDP_ELEMENT_DATA
 req.redist: 

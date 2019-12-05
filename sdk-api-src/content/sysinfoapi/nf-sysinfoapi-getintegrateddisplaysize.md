@@ -1,19 +1,17 @@
 ---
 UID: NF:sysinfoapi.GetIntegratedDisplaySize
 title: GetIntegratedDisplaySize function (sysinfoapi.h)
-
 description: Retrieves the best estimate of the diagonal size of the built-in screen, in inches.
 old-location: base\getintegrateddisplaysize.htm
 tech.root: SysInfo
 ms.assetid: EA155FCF-3245-498B-BEC8-742DE38DE258
-
 ms.date: 12/05/2018
 ms.keywords: GetIntegratedDisplaySize, GetIntegratedDisplaySize function, base.getintegrateddisplaysize, sysinfoapi/GetIntegratedDisplaySize
 ms.topic: function
-f1_keywords: 
- - "sysinfoapi/GetIntegratedDisplaySize"
+f1_keywords:
+- sysinfoapi/GetIntegratedDisplaySize
 dev_langs:
- - c++
+- c++
 req.header: sysinfoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-SysInfo-L1-2-3.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-SysInfo-L1-2-3.dll
+- KernelBase.dll
 api_name:
- - GetIntegratedDisplaySize
+- GetIntegratedDisplaySize
 targetos: Windows
 req.typenames: 
 req.redist: 

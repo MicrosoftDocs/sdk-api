@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IEnumFORMATETC.Skip
 title: IEnumFORMATETC::Skip (objidl.h)
-
 description: Skips over the specified number of items in the enumeration sequence.
 old-location: com\ienumformatetc_skip.htm
 tech.root: com
 ms.assetid: 5fdf81ee-df31-4702-8b5e-f540ca3e6602
-
 ms.date: 12/05/2018
 ms.keywords: IEnumFORMATETC interface [COM],Skip method, IEnumFORMATETC.Skip, IEnumFORMATETC::Skip, Skip, Skip method [COM], Skip method [COM],IEnumFORMATETC interface, _ole_ienumformatetc_skip, com.ienumformatetc_skip, objidl/IEnumFORMATETC::Skip
 ms.topic: method
-f1_keywords: 
- - "objidl/IEnumFORMATETC.Skip"
+f1_keywords:
+- objidl/IEnumFORMATETC.Skip
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IEnumFORMATETC.Skip
+- IEnumFORMATETC.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

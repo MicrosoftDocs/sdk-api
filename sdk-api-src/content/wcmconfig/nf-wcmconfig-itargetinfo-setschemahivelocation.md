@@ -1,19 +1,17 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetSchemaHiveLocation
 title: ITargetInfo::SetSchemaHiveLocation (wcmconfig.h)
-
 description: Sets the location of the schema hive.
 old-location: smi\itargetinfo_setschemahivelocation.htm
 tech.root: SMI
 ms.assetid: 223ce821-4f31-4673-95e2-ec9cf94d5726
-
 ms.date: 12/05/2018
 ms.keywords: ITargetInfo interface [SMI],SetSchemaHiveLocation method, ITargetInfo.SetSchemaHiveLocation, ITargetInfo::SetSchemaHiveLocation, SetSchemaHiveLocation, SetSchemaHiveLocation method [SMI], SetSchemaHiveLocation method [SMI],ITargetInfo interface, smi.itargetinfo_setschemahivelocation, wcmconfig/ITargetInfo::SetSchemaHiveLocation
 ms.topic: method
-f1_keywords: 
- - "wcmconfig/ITargetInfo.SetSchemaHiveLocation"
+f1_keywords:
+- wcmconfig/ITargetInfo.SetSchemaHiveLocation
 dev_langs:
- - c++
+- c++
 req.header: wcmconfig.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SMIEngine.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SMIEngine.dll
+- SMIEngine.dll
 api_name:
- - ITargetInfo.SetSchemaHiveLocation
+- ITargetInfo.SetSchemaHiveLocation
 targetos: Windows
 req.typenames: 
 req.redist: 

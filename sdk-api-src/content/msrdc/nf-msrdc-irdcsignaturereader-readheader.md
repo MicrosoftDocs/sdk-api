@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcSignatureReader.ReadHeader
 title: IRdcSignatureReader::ReadHeader (msrdc.h)
-
 description: Reads the signature header and returns a copy of the parameters used to generate the signatures.
 old-location: rdc\irdcsignaturereader_readheader.htm
 tech.root: rdc
 ms.assetid: c0f4d31d-338f-49fc-9f1a-e8e31ffa1bc7
-
 ms.date: 12/05/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadHeader method, IRdcSignatureReader.ReadHeader, IRdcSignatureReader::ReadHeader, ReadHeader, ReadHeader method [Remote Differential Compression], ReadHeader method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readheader, msrdc/IRdcSignatureReader::ReadHeader, rdc.irdcsignaturereader_readheader
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcSignatureReader.ReadHeader"
+f1_keywords:
+- msrdc/IRdcSignatureReader.ReadHeader
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcSignatureReader.ReadHeader
+- IRdcSignatureReader.ReadHeader
 targetos: Windows
 req.typenames: 
 req.redist: 

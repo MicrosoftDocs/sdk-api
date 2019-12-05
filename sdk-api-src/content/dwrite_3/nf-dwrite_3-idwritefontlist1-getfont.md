@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontList1.GetFont
 title: IDWriteFontList1::GetFont (dwrite_3.h)
-
 description: Gets a font given its zero-based index.
 old-location: directwrite\idwritefontlist1_getfont.htm
 tech.root: DirectWrite
 ms.assetid: 206A103C-5847-4388-83EC-BE038DB20A09
-
 ms.date: 12/05/2018
 ms.keywords: GetFont, GetFont method [Direct Write], GetFont method [Direct Write],IDWriteFontList1 interface, IDWriteFontList1 interface [Direct Write],GetFont method, IDWriteFontList1.GetFont, IDWriteFontList1::GetFont, directwrite.idwritefontlist1_getfont, dwrite_3/IDWriteFontList1::GetFont
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontList1.GetFont"
+f1_keywords:
+- dwrite_3/IDWriteFontList1.GetFont
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontList1.GetFont
+- IDWriteFontList1.GetFont
 targetos: Windows
 req.typenames: 
 req.redist: 

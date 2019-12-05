@@ -1,19 +1,17 @@
 ---
 UID: NN:wmiutils.IWbemPath
 title: IWbemPath (wmiutils.h)
-
 description: The IWbemPath interface is the primary interface for the object path parser and makes parsing a path available to programs in a standard way. This interface is the main interface for setting and retrieving path information.
 old-location: wmi\iwbempath.htm
 tech.root: WmiSdk
 ms.assetid: 71b2597b-d82a-439d-b0b7-af76aefea6a2
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPath, IWbemPath interface [Windows Management Instrumentation], IWbemPath interface [Windows Management Instrumentation],described, WbemDefPath, _hmm_iwbempath, wmi.iwbempath, wmiutils/IWbemPath
 ms.topic: interface
-f1_keywords: 
- - "wmiutils/IWbemPath"
+f1_keywords:
+- wmiutils/IWbemPath
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPath
- - IWbemPath.SetScopeFromText
- - WbemDefPath
+- IWbemPath
+- IWbemPath.SetScopeFromText
+- WbemDefPath
 targetos: Windows
 req.typenames: 
 req.redist: 

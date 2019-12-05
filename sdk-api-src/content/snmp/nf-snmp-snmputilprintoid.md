@@ -1,19 +1,17 @@
 ---
 UID: NF:snmp.SnmpUtilPrintOid
 title: SnmpUtilPrintOid function (snmp.h)
-
 description: The SnmpUtilPrintOid function formats the specified object identifier (OID) and prints the result to the standard output device. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilprintoid.htm
 tech.root: SNMP
 ms.assetid: 8d5e9b79-83a5-49ed-8621-f12cbf9c59d0
-
 ms.date: 12/05/2018
 ms.keywords: SnmpUtilPrintOid, SnmpUtilPrintOid function [SNMP], _snmp_snmputilprintoid, snmp.snmputilprintoid, snmp/SnmpUtilPrintOid
 ms.topic: function
-f1_keywords: 
- - "snmp/SnmpUtilPrintOid"
+f1_keywords:
+- snmp/SnmpUtilPrintOid
 dev_langs:
- - c++
+- c++
 req.header: snmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Snmpapi.lib
 req.dll: Snmpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Snmpapi.dll
+- Snmpapi.dll
 api_name:
- - SnmpUtilPrintOid
+- SnmpUtilPrintOid
 targetos: Windows
 req.typenames: 
 req.redist: 

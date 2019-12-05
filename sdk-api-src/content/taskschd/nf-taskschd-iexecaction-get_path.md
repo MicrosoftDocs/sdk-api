@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IExecAction.get_Path
 title: IExecAction::get_Path (taskschd.h)
-
 description: Gets or sets the path to an executable file.
 old-location: taskschd\iexecaction_path.htm
 tech.root: taskschd
 ms.assetid: 307e59e9-5460-40aa-bac7-fa8cb4755d35
-
 ms.date: 12/05/2018
 ms.keywords: IExecAction interface [Task Scheduler],Path property, IExecAction.Path, IExecAction.get_Path, IExecAction::Path, IExecAction::get_Path, IExecAction::put_Path, Path property [Task Scheduler], Path property [Task Scheduler],IExecAction interface, get_Path, taskschd.iexecaction_path, taskschd/IExecAction::Path, taskschd/IExecAction::get_Path, taskschd/IExecAction::put_Path
 ms.topic: method
-f1_keywords: 
- - "taskschd/IExecAction.Path"
+f1_keywords:
+- taskschd/IExecAction.Path
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IExecAction.Path
- - IExecAction.get_Path
- - IExecAction.put_Path
+- IExecAction.Path
+- IExecAction.get_Path
+- IExecAction.put_Path
 targetos: Windows
 req.typenames: 
 req.redist: 

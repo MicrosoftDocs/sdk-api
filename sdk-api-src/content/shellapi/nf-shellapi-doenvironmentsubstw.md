@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.DoEnvironmentSubstW
 title: DoEnvironmentSubstW function (shellapi.h)
-
 description: Parses an input string that contains references to one or more environment variables and replaces them with their fully expanded values.
 old-location: shell\DoEnvironmentSubst.htm
 tech.root: shell
 ms.assetid: cdf8bf2d-f446-4e0d-8664-bff2c45f74ec
-
 ms.date: 12/05/2018
 ms.keywords: DoEnvironmentSubst, DoEnvironmentSubst function [Windows Shell], DoEnvironmentSubstA, DoEnvironmentSubstW, _win32_DoEnvironmentSubst, shell.DoEnvironmentSubst, shellapi/DoEnvironmentSubst, shellapi/DoEnvironmentSubstA, shellapi/DoEnvironmentSubstW
 ms.topic: function
-f1_keywords: 
- - "shellapi/DoEnvironmentSubst"
+f1_keywords:
+- shellapi/DoEnvironmentSubst
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - DoEnvironmentSubst
- - DoEnvironmentSubstA
- - DoEnvironmentSubstW
+- DoEnvironmentSubst
+- DoEnvironmentSubstA
+- DoEnvironmentSubstW
 targetos: Windows
 req.typenames: 
 req.redist: 

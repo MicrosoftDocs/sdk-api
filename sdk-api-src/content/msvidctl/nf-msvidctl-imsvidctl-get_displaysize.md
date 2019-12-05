@@ -1,19 +1,17 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.get_DisplaySize
 title: IMSVidCtl::get_DisplaySize (msvidctl.h)
-
 description: The get_DisplaySize method retrieves the display size.
 old-location: mstv\imsvidctl_get_displaysize.htm
 tech.root: mstv
 ms.assetid: f3d5ed73-4781-46fb-8df4-a7dc339b755c
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidCtl interface [Microsoft TV Technologies],get_DisplaySize method, IMSVidCtl.get_DisplaySize, IMSVidCtl::get_DisplaySize, IMSVidCtlget_DisplaySize, get_DisplaySize, get_DisplaySize method [Microsoft TV Technologies], get_DisplaySize method [Microsoft TV Technologies],IMSVidCtl interface, mstv.imsvidctl_get_displaysize, msvidctl/IMSVidCtl::get_DisplaySize
 ms.topic: method
-f1_keywords: 
- - "msvidctl/IMSVidCtl.get_DisplaySize"
+f1_keywords:
+- msvidctl/IMSVidCtl.get_DisplaySize
 dev_langs:
- - c++
+- c++
 req.header: msvidctl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msvidctl.h
+- msvidctl.h
 api_name:
- - IMSVidCtl.get_DisplaySize
+- IMSVidCtl.get_DisplaySize
 targetos: Windows
 req.typenames: 
 req.redist: 

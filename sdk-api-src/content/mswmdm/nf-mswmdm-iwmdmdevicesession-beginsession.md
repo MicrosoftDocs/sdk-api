@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.BeginSession
 title: IWMDMDeviceSession::BeginSession (mswmdm.h)
-
 description: The BeginSession method begins a device session.
 old-location: wmdm\iwmdmdevicesession_beginsession.htm
 tech.root: WMDM
 ms.assetid: 7077e594-58ed-497d-893d-81eeb317b274
-
 ms.date: 12/05/2018
 ms.keywords: BeginSession, BeginSession method [windows Media Device Manager], BeginSession method [windows Media Device Manager],IWMDMDeviceSession interface, IWMDMDeviceSession interface [windows Media Device Manager],BeginSession method, IWMDMDeviceSession.BeginSession, IWMDMDeviceSession::BeginSession, IWMDMDeviceSessionBeginSession, mswmdm/IWMDMDeviceSession::BeginSession, wmdm.iwmdmdevicesession_beginsession
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDeviceSession.BeginSession"
+f1_keywords:
+- mswmdm/IWMDMDeviceSession.BeginSession
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDeviceSession.BeginSession
+- IWMDMDeviceSession.BeginSession
 targetos: Windows
 req.typenames: 
 req.redist: 

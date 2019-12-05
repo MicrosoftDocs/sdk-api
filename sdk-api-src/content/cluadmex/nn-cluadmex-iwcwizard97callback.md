@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IWCWizard97Callback
 title: IWCWizard97Callback (cluadmex.h)
-
 description: The IWCWizard97Callback interface is called by a Failover Cluster Administrator extension to add a Wizard97 property page to a Wizard97 wizard, such as the Cluster Application Wizard.
 old-location: mscs\iwcwizard97callback.htm
 tech.root: MsCS
 ms.assetid: cbde3bcf-8242-49dc-9ac0-a4b078ea526e
-
 ms.date: 12/05/2018
 ms.keywords: IWCWizard97Callback, IWCWizard97Callback interface [Failover Cluster], IWCWizard97Callback interface [Failover Cluster],described, _wolf_iwcwizard97callback, cluadmex/IWCWizard97Callback, mscs.iwcwizard97callback
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IWCWizard97Callback"
+f1_keywords:
+- cluadmex/IWCWizard97Callback
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWCWizard97Callback
+- IWCWizard97Callback
 targetos: Windows
 req.typenames: 
 req.redist: 

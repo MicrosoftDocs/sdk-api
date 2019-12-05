@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.ActivateAtPosition
 title: IDvdControl2::ActivateAtPosition (strmif.h)
-
 description: The ActivateAtPosition method activates the menu button under the mouse pointer position.
 old-location: dshow\idvdcontrol2_activateatposition.htm
 tech.root: DirectShow
 ms.assetid: ff9eb02c-09c0-4b58-8e38-ec84ab1f1c42
-
 ms.date: 12/05/2018
 ms.keywords: ActivateAtPosition, ActivateAtPosition method [DirectShow], ActivateAtPosition method [DirectShow],IDvdControl2 interface, IDvdControl2 interface [DirectShow],ActivateAtPosition method, IDvdControl2.ActivateAtPosition, IDvdControl2::ActivateAtPosition, IDvdControl2ActivateAtPosition, dshow.idvdcontrol2_activateatposition, strmif/IDvdControl2::ActivateAtPosition
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.ActivateAtPosition"
+f1_keywords:
+- strmif/IDvdControl2.ActivateAtPosition
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.ActivateAtPosition
+- IDvdControl2.ActivateAtPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

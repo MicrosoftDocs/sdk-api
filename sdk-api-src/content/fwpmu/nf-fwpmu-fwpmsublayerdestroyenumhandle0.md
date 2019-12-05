@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerDestroyEnumHandle0
 title: FwpmSubLayerDestroyEnumHandle0 function (fwpmu.h)
-
 description: Frees a handle returned by FwpmSubLayerCreateEnumHandle0.
 old-location: fwp\fwpmsublayerdestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: ad4e5a70-a29f-44ff-a70d-3fcb31972f90
-
 ms.date: 12/05/2018
 ms.keywords: FwpmSubLayerDestroyEnumHandle0, FwpmSubLayerDestroyEnumHandle0 function [Filtering], fwp.fwpmsublayerdestroyenumhandle0_func, fwpmu/FwpmSubLayerDestroyEnumHandle0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmSubLayerDestroyEnumHandle0"
+f1_keywords:
+- fwpmu/FwpmSubLayerDestroyEnumHandle0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmSubLayerDestroyEnumHandle0
+- FwpmSubLayerDestroyEnumHandle0
 targetos: Windows
 req.typenames: 
 req.redist: 

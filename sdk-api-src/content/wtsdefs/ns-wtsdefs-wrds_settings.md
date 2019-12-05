@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsdefs._WRDS_SETTINGS
 title: WRDS_SETTINGS (wtsdefs.h)
-
 description: Contains policy-related setting information for a remote session.
 old-location: termserv\wrds_settings.htm
 tech.root: TermServ
 ms.assetid: 38AD33F9-F955-4906-90E2-3FE5261A3E58
-
 ms.date: 12/05/2018
-ms.keywords: "*PWRDS_SETTINGS, PWRDS_SETTINGS, PWRDS_SETTINGS structure pointer [Remote Desktop Services], WRDS_SETTINGS, WRDS_SETTINGS structure [Remote Desktop Services], termserv.wrds_settings, wtsdefs/PWRDS_SETTINGS, wtsdefs/WRDS_SETTINGS"
+ms.keywords: '*PWRDS_SETTINGS, PWRDS_SETTINGS, PWRDS_SETTINGS structure pointer [Remote Desktop Services], WRDS_SETTINGS, WRDS_SETTINGS structure [Remote Desktop Services], termserv.wrds_settings, wtsdefs/PWRDS_SETTINGS, wtsdefs/WRDS_SETTINGS'
 ms.topic: struct
-f1_keywords: 
- - "wtsdefs/WRDS_SETTINGS"
+f1_keywords:
+- wtsdefs/WRDS_SETTINGS
 dev_langs:
- - c++
+- c++
 req.header: wtsdefs.h
 req.include-header: Wtsprotocol.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsdefs.h
+- Wtsdefs.h
 api_name:
- - WRDS_SETTINGS
+- WRDS_SETTINGS
 targetos: Windows
 req.typenames: WRDS_SETTINGS, *PWRDS_SETTINGS
 req.redist: 

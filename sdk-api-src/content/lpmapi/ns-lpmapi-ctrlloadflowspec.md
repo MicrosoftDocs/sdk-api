@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_25
 title: CtrlLoadFlowspec (lpmapi.h)
-
 description: The CtrlLoadFlowspec structure contains a Controlled Load FLOWSPEC.
 old-location: qos\ctrlloadflowspec.htm
 tech.root: QOS
 ms.assetid: def835ae-f0d2-4cdc-a498-315c4ef1245b
-
 ms.date: 12/05/2018
 ms.keywords: CtrlLoadFlowspec, CtrlLoadFlowspec structure [QOS], lpmapi/CtrlLoadFlowspec, qos.ctrlloadflowspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/CtrlLoadFlowspec"
+f1_keywords:
+- lpmapi/CtrlLoadFlowspec
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - CtrlLoadFlowspec
+- CtrlLoadFlowspec
 targetos: Windows
 req.typenames: CtrlLoadFlowspec
 req.redist: 

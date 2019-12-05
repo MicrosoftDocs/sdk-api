@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_EthernetFilter
 title: IBDA_EthernetFilter (bdaiface.h)
-
 description: The IBDA_EthernetFilter interface is implemented on a Network Provider.
 old-location: mstv\ibda_ethernetfilter.htm
 tech.root: mstv
 ms.assetid: f4f9d6c0-0acf-416b-adb3-643ac0167d0a
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_EthernetFilter, IBDA_EthernetFilter interface [Microsoft TV Technologies], IBDA_EthernetFilter interface [Microsoft TV Technologies],described, IBDA_EthernetFilterInterface, bdaiface/IBDA_EthernetFilter, mstv.ibda_ethernetfilter
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_EthernetFilter"
+f1_keywords:
+- bdaiface/IBDA_EthernetFilter
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_EthernetFilter
+- IBDA_EthernetFilter
 targetos: Windows
 req.typenames: 
 req.redist: 

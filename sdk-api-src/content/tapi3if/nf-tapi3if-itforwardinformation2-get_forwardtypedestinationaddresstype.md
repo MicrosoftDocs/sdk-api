@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITForwardInformation2.get_ForwardTypeDestinationAddressType
 title: ITForwardInformation2::get_ForwardTypeDestinationAddressType (tapi3if.h)
-
 description: The get_ForwardTypeDestinationAddressType method gets the destination address type for a given forwarding type.
 old-location: tapi3\itforwardinformation2_get_forwardtypedestinationaddresstype.htm
 tech.root: Tapi
 ms.assetid: de40538a-e2ba-49ec-bde6-6803da6515da
-
 ms.date: 12/05/2018
 ms.keywords: ITForwardInformation2 interface [TAPI 2.2],get_ForwardTypeDestinationAddressType method, ITForwardInformation2.get_ForwardTypeDestinationAddressType, ITForwardInformation2::get_ForwardTypeDestinationAddressType, _tapi3_itforwardinformation2_get_forwardtypedestinationaddresstype, get_ForwardTypeDestinationAddressType, get_ForwardTypeDestinationAddressType method [TAPI 2.2], get_ForwardTypeDestinationAddressType method [TAPI 2.2],ITForwardInformation2 interface, tapi3.itforwardinformation2_get_forwardtypedestinationaddresstype, tapi3if/ITForwardInformation2::get_ForwardTypeDestinationAddressType
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITForwardInformation2.get_ForwardTypeDestinationAddressType"
+f1_keywords:
+- tapi3if/ITForwardInformation2.get_ForwardTypeDestinationAddressType
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITForwardInformation2.get_ForwardTypeDestinationAddressType
+- ITForwardInformation2.get_ForwardTypeDestinationAddressType
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.IDataCollectorSetCollection
 title: IDataCollectorSetCollection (pla.h)
-
 description: Manages a collection of DataCollectorSet objects.To get this interface, call the CoCreateInstance function, passing __uuidof(DataCollectorSetCollection) as the class identifier and __uuidof(IDataCollectorSetCollection) as the interface identifier.Then, to populate the collection, call the IDataCollectorSetCollection::GetDataCollectorSets method.
 old-location: pla\idatacollectorsetcollection.htm
 tech.root: PLA
 ms.assetid: 5f4cc411-1efb-4f70-a677-3c20d95f0c53
-
 ms.date: 12/05/2018
 ms.keywords: IDataCollectorSetCollection, IDataCollectorSetCollection interface [PLA], IDataCollectorSetCollection interface [PLA],described, base.idatacollectorsetcollection, pla.idatacollectorsetcollection, pla/IDataCollectorSetCollection
 ms.topic: interface
-f1_keywords: 
- - "pla/IDataCollectorSetCollection"
+f1_keywords:
+- pla/IDataCollectorSetCollection
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IDataCollectorSetCollection
+- IDataCollectorSetCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

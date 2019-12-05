@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteInlineObject
 title: IDWriteInlineObject (dwrite.h)
-
 description: Wraps an application-defined inline graphic, allowing DWrite to query metrics as if the graphic were a glyph inline with the text.
 old-location: directwrite\IDWriteInlineObject.htm
 tech.root: DirectWrite
 ms.assetid: cf915458-acbc-4a37-be5c-b1337153f386
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteInlineObject, IDWriteInlineObject interface [Direct Write], IDWriteInlineObject interface [Direct Write],described, directwrite.IDWriteInlineObject, dwrite/IDWriteInlineObject
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteInlineObject"
+f1_keywords:
+- dwrite/IDWriteInlineObject
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteInlineObject
+- IDWriteInlineObject
 targetos: Windows
 req.typenames: 
 req.redist: 

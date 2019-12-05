@@ -1,19 +1,17 @@
 ---
 UID: NC:webservices.WS_PULL_BYTES_CALLBACK
 title: WS_PULL_BYTES_CALLBACK (webservices.h)
-
 description: Used by the WsPullBytes function to request the data that should be written.
 old-location: wsw\ws_pull_bytes_callback.htm
 tech.root: wsw
 ms.assetid: 84634ecc-056f-4fcc-838e-93f0dfc06e8d
-
 ms.date: 12/05/2018
 ms.keywords: WS_PULL_BYTES_CALLBACK, WS_PULL_BYTES_CALLBACK callback, WS_PULL_BYTES_CALLBACK callback function [Web Services for Windows], webservices/WS_PULL_BYTES_CALLBACK, wsw.ws_pull_bytes_callback
 ms.topic: callback
-f1_keywords: 
- - "webservices/WS_PULL_BYTES_CALLBACK"
+f1_keywords:
+- webservices/WS_PULL_BYTES_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_PULL_BYTES_CALLBACK
+- WS_PULL_BYTES_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

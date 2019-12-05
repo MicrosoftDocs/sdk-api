@@ -1,19 +1,17 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.GetCatalogVersion
 title: IWMPContentPartnerCallback::GetCatalogVersion (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores.
 old-location: wmp\iwmpcontentpartnercallback_getcatalogversion.htm
 tech.root: WMP
 ms.assetid: e77785d1-71e3-474d-bad1-4b1145a06d01
-
 ms.date: 12/05/2018
 ms.keywords: GetCatalogVersion, GetCatalogVersion method [Windows Media Player], GetCatalogVersion method [Windows Media Player],IWMPContentPartnerCallback interface, IWMPContentPartnerCallback interface [Windows Media Player],GetCatalogVersion method, IWMPContentPartnerCallback.GetCatalogVersion, IWMPContentPartnerCallback::GetCatalogVersion, IWMPContentPartnerCallbackGetCatalogVersion, contentpartner/IWMPContentPartnerCallback::GetCatalogVersion, wmp.iwmpcontentpartnercallback_getcatalogversion
 ms.topic: method
-f1_keywords: 
- - "contentpartner/IWMPContentPartnerCallback.GetCatalogVersion"
+f1_keywords:
+- contentpartner/IWMPContentPartnerCallback.GetCatalogVersion
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - IWMPContentPartnerCallback.GetCatalogVersion
+- IWMPContentPartnerCallback.GetCatalogVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

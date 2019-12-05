@@ -1,7 +1,6 @@
 ---
 UID: NA:nspapi
 ms.assetid: c8390b02-2d59-3c7f-b3ae-dca267113937
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

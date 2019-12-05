@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_TILE_MAPPING_FLAGS
 title: D3D12_TILE_MAPPING_FLAGS (d3d12.h)
-
 description: Specifies how to perform a tile-mapping operation.
 old-location: direct3d12\d3d12_tile_mapping_flags.htm
 tech.root: direct3d12
 ms.assetid: 588BCCA8-3F14-4837-86AE-EE4E4F0BC5ED
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_TILE_MAPPING_FLAGS, D3D12_TILE_MAPPING_FLAGS enumeration, D3D12_TILE_MAPPING_FLAG_NONE, D3D12_TILE_MAPPING_FLAG_NO_HAZARD, d3d12/D3D12_TILE_MAPPING_FLAGS, d3d12/D3D12_TILE_MAPPING_FLAG_NONE, d3d12/D3D12_TILE_MAPPING_FLAG_NO_HAZARD, direct3d12.d3d12_tile_mapping_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_TILE_MAPPING_FLAGS"
+f1_keywords:
+- d3d12/D3D12_TILE_MAPPING_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_TILE_MAPPING_FLAGS
+- D3D12_TILE_MAPPING_FLAGS
 targetos: Windows
 req.typenames: D3D12_TILE_MAPPING_FLAGS
 req.redist: 

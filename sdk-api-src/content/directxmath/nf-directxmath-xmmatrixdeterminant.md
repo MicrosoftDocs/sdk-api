@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMMatrixDeterminant
 title: XMMatrixDeterminant function (directxmath.h)
-
 description: Computes the determinant of a matrix.
 old-location: dxmath\xmmatrixdeterminant.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixDeterminant(XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMMatrixDeterminant, XMMatrixDeterminant, XMMatrixDeterminant method [DirectX Math Support APIs], dxmath.xmmatrixdeterminant
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMMatrixDeterminant"
+f1_keywords:
+- directxmath/XMMatrixDeterminant
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMMatrixDeterminant
+- XMMatrixDeterminant
 targetos: Windows
 req.typenames: 
 req.redist: 

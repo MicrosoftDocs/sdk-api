@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.ITuneRequest.get_Locator
 title: ITuneRequest::get_Locator (tuner.h)
-
 description: The get_Locator method is called from the Network Provider to get the ILocator object associated with the requested broadcast.
 old-location: mstv\itunerequest_get_locator.htm
 tech.root: mstv
 ms.assetid: 9f2a000a-0133-44f4-8e9c-7d37435596d7
-
 ms.date: 12/05/2018
 ms.keywords: ITuneRequest interface [Microsoft TV Technologies],get_Locator method, ITuneRequest.get_Locator, ITuneRequest::get_Locator, ITuneRequestget_Locator, get_Locator, get_Locator method [Microsoft TV Technologies], get_Locator method [Microsoft TV Technologies],ITuneRequest interface, mstv.itunerequest_get_locator, tuner/ITuneRequest::get_Locator
 ms.topic: method
-f1_keywords: 
- - "tuner/ITuneRequest.get_Locator"
+f1_keywords:
+- tuner/ITuneRequest.get_Locator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - ITuneRequest.get_Locator
+- ITuneRequest.get_Locator
 targetos: Windows
 req.typenames: 
 req.redist: 

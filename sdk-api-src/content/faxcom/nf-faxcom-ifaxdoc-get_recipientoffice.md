@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientOffice
 title: IFaxDoc::get_RecipientOffice (faxcom.h)
-
 description: Sets or retrieves the RecipientOffice property of a FaxDoc object. The RecipientOffice property is a null-terminated string that contains the office of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientoffice_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_563p.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientOffice property, IFaxDoc.RecipientOffice, IFaxDoc.get_RecipientOffice, IFaxDoc::RecipientOffice, IFaxDoc::get_RecipientOffice, IFaxDoc::put_RecipientOffice, RecipientOffice property [Fax Service], RecipientOffice property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_get_recipientoffice, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientoffice_cpp, faxcom/IFaxDoc::RecipientOffice, faxcom/IFaxDoc::get_RecipientOffice, faxcom/IFaxDoc::put_RecipientOffice, get_RecipientOffice
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.RecipientOffice"
+f1_keywords:
+- faxcom/IFaxDoc.RecipientOffice
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.RecipientOffice
- - IFaxDoc.get_RecipientOffice
- - IFaxDoc.put_RecipientOffice
+- IFaxDoc.RecipientOffice
+- IFaxDoc.get_RecipientOffice
+- IFaxDoc.put_RecipientOffice
 targetos: Windows
 req.typenames: 
 req.redist: 

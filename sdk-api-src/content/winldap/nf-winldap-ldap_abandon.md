@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_abandon
 title: ldap_abandon function (winldap.h)
-
 description: A client calls ldap_abandon to cancel an in-process asynchronous LDAP call.
 old-location: ldap\ldap_abandon.htm
 tech.root: ldap
 ms.assetid: 5c238d98-77f5-4702-bae1-80cdec70a30c
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_abandon, ldap.ldap__abandon, ldap.ldap_abandon, ldap_abandon, ldap_abandon function [LDAP], winldap/ldap_abandon"
+ms.keywords: _ldap_ldap_abandon, ldap.ldap__abandon, ldap.ldap_abandon, ldap_abandon, ldap_abandon function [LDAP], winldap/ldap_abandon
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_abandon"
+f1_keywords:
+- winldap/ldap_abandon
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_abandon
+- ldap_abandon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMU565.operator-assign(XMU565 &&)
 title: XMU565::operator-assign(XMU565 &&) (directxpackedvector.h)
-
 description: Assigns the vector component data from one instance of XMU565 to the current instance of XMU565.
 old-location: dxmath\xmu565_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.operator = (const XMU565)
-
 ms.date: 05/06/2019
 ms.keywords: XMU565 structure [DirectX Math Support APIs],operator = method, XMU565.operator =(const XMU565&), XMU565.operator-assign(XMU565 &&), XMU565.operator=, XMU565::operator-assign(XMU565 &&), XMU565::operator=, dxmath.xmu565_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMU565 structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMU565.operator ="
+f1_keywords:
+- directxpackedvector/XMU565.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMU565.operator =
+- XMU565.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

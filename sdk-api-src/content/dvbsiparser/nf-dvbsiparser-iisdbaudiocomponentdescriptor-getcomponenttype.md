@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetComponentType
 title: IIsdbAudioComponentDescriptor::GetComponentType (dvbsiparser.h)
-
 description: Gets the value of the component_type field from an Integrated Services Digital Broadcasting (ISDB) audio component descriptor. This field identifies the audio component type.
 old-location: mstv\iisdbaudiocomponentdescriptor_getcomponenttype.htm
 tech.root: mstv
 ms.assetid: 417deb6e-863e-4d62-8d58-685972f96f0c
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentType, GetComponentType method [Microsoft TV Technologies], GetComponentType method [Microsoft TV Technologies],IIsdbAudioComponentDescriptor interface, IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies],GetComponentType method, IIsdbAudioComponentDescriptor.GetComponentType, IIsdbAudioComponentDescriptor::GetComponentType, dvbsiparser/IIsdbAudioComponentDescriptor::GetComponentType, mstv.iisdbaudiocomponentdescriptor_getcomponenttype
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbAudioComponentDescriptor.GetComponentType"
+f1_keywords:
+- dvbsiparser/IIsdbAudioComponentDescriptor.GetComponentType
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor.GetComponentType
+- IIsdbAudioComponentDescriptor.GetComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 

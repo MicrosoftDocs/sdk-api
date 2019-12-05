@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasDeleteEntryW
 title: RasDeleteEntryW function (ras.h)
-
 description: The RasDeleteEntry function deletes an entry from a phone book.
 old-location: rras\rasdeleteentry.htm
 tech.root: RRAS
 ms.assetid: 80a6c2d3-917b-4d13-867f-a1399d434105
-
 ms.date: 12/05/2018
 ms.keywords: RasDeleteEntry, RasDeleteEntry function [RAS], RasDeleteEntryA, RasDeleteEntryW, _ras_rasdeleteentry, ras/RasDeleteEntry, ras/RasDeleteEntryA, ras/RasDeleteEntryW, rras.rasdeleteentry
 ms.topic: function
-f1_keywords: 
- - "ras/RasDeleteEntry"
+f1_keywords:
+- ras/RasDeleteEntry
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
+- Rasapi32.dll
 api_name:
- - RasDeleteEntry
- - RasDeleteEntryA
- - RasDeleteEntryW
+- RasDeleteEntry
+- RasDeleteEntryA
+- RasDeleteEntryW
 targetos: Windows
 req.typenames: 
 req.redist: 

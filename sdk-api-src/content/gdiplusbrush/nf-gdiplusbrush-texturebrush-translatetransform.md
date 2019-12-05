@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.TranslateTransform
 title: TextureBrush::TranslateTransform (gdiplusbrush.h)
-
 description: The TextureBrush::TranslateTransform method updates this brush's current transformation matrix with the product of itself and a translation matrix.
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\translatetransform_46dx_dy_order.htm
-
 ms.date: 12/05/2018
 ms.keywords: TextureBrush class [GDI+],TranslateTransform method, TextureBrush.TranslateTransform, TextureBrush::TranslateTransform, TranslateTransform, TranslateTransform method [GDI+], TranslateTransform method [GDI+],TextureBrush class, _gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_, gdiplus._gdiplus_CLASS_TextureBrush_TranslateTransform_dx_dy_order_
 ms.topic: method
-f1_keywords: 
- - "gdiplusbrush/TextureBrush.TranslateTransform"
+f1_keywords:
+- gdiplusbrush/TextureBrush.TranslateTransform
 dev_langs:
- - c++
+- c++
 req.header: gdiplusbrush.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - TextureBrush.TranslateTransform
+- TextureBrush.TranslateTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

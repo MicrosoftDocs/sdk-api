@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsPack.QueryDisks
 title: IVdsPack::QueryDisks (vds.h)
-
 description: Returns an object that enumerates the disks in the pack.
 old-location: base\ivdspack_querydisks.htm
 tech.root: VDS
 ms.assetid: 115c1900-5fea-4e39-be3e-b6d04ceb8a58
-
 ms.date: 12/05/2018
 ms.keywords: IVdsPack interface [VDS],QueryDisks method, IVdsPack.QueryDisks, IVdsPack::QueryDisks, QueryDisks, QueryDisks method [VDS], QueryDisks method [VDS],IVdsPack interface, base.ivdspack_querydisks, vds/IVdsPack::QueryDisks
 ms.topic: method
-f1_keywords: 
- - "vds/IVdsPack.QueryDisks"
+f1_keywords:
+- vds/IVdsPack.QueryDisks
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsPack.QueryDisks
+- IVdsPack.QueryDisks
 targetos: Windows
 req.typenames: 
 req.redist: 

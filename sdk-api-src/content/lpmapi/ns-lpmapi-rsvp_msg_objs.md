@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.rsvpmsgobjs
 title: RSVP_MSG_OBJS (lpmapi.h)
-
 description: The RSVP_MSG_OBJS structure contains RSVP message objects.
 old-location: qos\rsvp_msg_objs.htm
 tech.root: QOS
 ms.assetid: 4ca0bfbc-7c1b-4395-b0fb-487e5c36b5d8
-
 ms.date: 12/05/2018
 ms.keywords: RSVP_MSG_OBJS, RSVP_MSG_OBJS structure [QOS], lpmapi/RSVP_MSG_OBJS, qos.rsvp_msg_objs
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/RSVP_MSG_OBJS"
+f1_keywords:
+- lpmapi/RSVP_MSG_OBJS
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - RSVP_MSG_OBJS
+- RSVP_MSG_OBJS
 targetos: Windows
 req.typenames: RSVP_MSG_OBJS
 req.redist: 

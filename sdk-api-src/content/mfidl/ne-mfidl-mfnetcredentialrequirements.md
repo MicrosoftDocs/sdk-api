@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MFNetCredentialRequirements
 title: MFNetCredentialRequirements (mfidl.h)
-
 description: Specifies how the credential manager should obtain user credentials.
 old-location: mf\mfnetcredentialrequirements.htm
 tech.root: medfound
 ms.assetid: 9257d1d7-7ccb-4172-82f0-3694ebb9d487
-
 ms.date: 12/05/2018
 ms.keywords: 9257d1d7-7ccb-4172-82f0-3694ebb9d487, MFNetCredentialRequirements, MFNetCredentialRequirements enumeration [Media Foundation], REQUIRE_PROMPT, REQUIRE_SAVE_SELECTED, mf.mfnetcredentialrequirements, mfidl/MFNetCredentialRequirements, mfidl/REQUIRE_PROMPT, mfidl/REQUIRE_SAVE_SELECTED
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MFNetCredentialRequirements"
+f1_keywords:
+- mfidl/MFNetCredentialRequirements
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MFNetCredentialRequirements
+- MFNetCredentialRequirements
 targetos: Windows
 req.typenames: MFNetCredentialRequirements
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTabStops
 title: StringFormat::GetTabStops (gdiplusstringformat.h)
-
 description: The StringFormat::GetTabStops method gets the offsets of the tab stops in this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstops.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTabStops, GetTabStops method [GDI+], GetTabStops method [GDI+],StringFormat class, StringFormat class [GDI+],GetTabStops method, StringFormat.GetTabStops, StringFormat::GetTabStops, _gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_, gdiplus._gdiplus_CLASS_StringFormat_GetTabStops_count_firstTabOffset_tabStops_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GetTabStops"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GetTabStops
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GetTabStops
+- StringFormat.GetTabStops
 targetos: Windows
 req.typenames: 
 req.redist: 

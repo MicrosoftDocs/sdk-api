@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IResourceManager.RegisterGroup
 title: IResourceManager::RegisterGroup (strmif.h)
-
 description: The RegisterGroup method registers a named resource group with the resource manager.
 old-location: dshow\iresourcemanager_registergroup.htm
 tech.root: DirectShow
 ms.assetid: f2d3deb2-8f22-42ac-846c-2f158f347ca7
-
 ms.date: 12/05/2018
 ms.keywords: IResourceManager interface [DirectShow],RegisterGroup method, IResourceManager.RegisterGroup, IResourceManager::RegisterGroup, IResourceManagerRegisterGroup, RegisterGroup, RegisterGroup method [DirectShow], RegisterGroup method [DirectShow],IResourceManager interface, dshow.iresourcemanager_registergroup, strmif/IResourceManager::RegisterGroup
 ms.topic: method
-f1_keywords: 
- - "strmif/IResourceManager.RegisterGroup"
+f1_keywords:
+- strmif/IResourceManager.RegisterGroup
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IResourceManager.RegisterGroup
+- IResourceManager.RegisterGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

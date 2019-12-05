@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D_SHADER_MODEL
 title: D3D_SHADER_MODEL (d3d12.h)
-
 description: Specifies a shader model.
 old-location: direct3d12\d3d_shader_model.htm
 tech.root: direct3d12
 ms.assetid: 8C0674AF-CFDD-4511-B621-AB817A81B9BB
-
 ms.date: 12/05/2018
 ms.keywords: D3D_SHADER_MODEL, D3D_SHADER_MODEL enumeration, D3D_SHADER_MODEL_5_1, D3D_SHADER_MODEL_6_0, D3D_SHADER_MODEL_6_1, d3d12/D3D_SHADER_MODEL, d3d12/D3D_SHADER_MODEL_5_1, d3d12/D3D_SHADER_MODEL_6_0, d3d12/D3D_SHADER_MODEL_6_1, direct3d12.d3d_shader_model
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D_SHADER_MODEL"
+f1_keywords:
+- d3d12/D3D_SHADER_MODEL
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D_SHADER_MODEL
+- D3D_SHADER_MODEL
 targetos: Windows
 req.typenames: D3D_SHADER_MODEL
 req.redist: 

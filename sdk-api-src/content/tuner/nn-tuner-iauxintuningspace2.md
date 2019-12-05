@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IAuxInTuningSpace2
 title: IAuxInTuningSpace2 (tuner.h)
-
 description: This topic applies to Windows XP Media Center Edition 2004 and later.
 old-location: mstv\iauxintuningspace2.htm
 tech.root: mstv
 ms.assetid: 51d92eab-1cf0-451c-aefb-ca36360e29f7
-
 ms.date: 12/05/2018
 ms.keywords: IAuxInTuningSpace2, IAuxInTuningSpace2 interface [Microsoft TV Technologies], IAuxInTuningSpace2 interface [Microsoft TV Technologies],described, IAuxInTuningSpace2Interface, mstv.iauxintuningspace2, tuner/IAuxInTuningSpace2
 ms.topic: interface
-f1_keywords: 
- - "tuner/IAuxInTuningSpace2"
+f1_keywords:
+- tuner/IAuxInTuningSpace2
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAuxInTuningSpace2
+- IAuxInTuningSpace2
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE (dispatcherqueue.h)
-
 description: Specifies the threading apartment type for a new DispatcherQueueController.
 old-location: base\dispatcherqueue_thread_apartmenttype.htm
 tech.root: ProcThread
 ms.assetid: 46BCD25E-22C7-4D9C-A424-AFF0B0B41AB6
-
 ms.date: 12/05/2018
 ms.keywords: DISPATCHERQUEUE_THREAD_APARTMENTTYPE, DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration, DQTAT_COM_ASTA, DQTAT_COM_NONE, DQTAT_COM_STA, base.dispatcherqueue_thread_apartmenttype, dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE, dispatcherqueue/DQTAT_COM_ASTA, dispatcherqueue/DQTAT_COM_NONE, dispatcherqueue/DQTAT_COM_STA
 ms.topic: enum
-f1_keywords: 
- - "dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE"
+f1_keywords:
+- dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 dev_langs:
- - c++
+- c++
 req.header: dispatcherqueue.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DispatcherQueue.h
+- DispatcherQueue.h
 api_name:
- - DISPATCHERQUEUE_THREAD_APARTMENTTYPE
+- DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 targetos: Windows
 req.typenames: 
 req.redist: 

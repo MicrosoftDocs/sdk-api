@@ -1,18 +1,16 @@
 ---
 UID: NF:windows.graphics.directx.direct3d11.interop.IDirect3DDxgiInterfaceAccess.GetInterface
 title: IDirect3DDxgiInterfaceAccess::GetInterface method
-
 description: Retrieves the DXGI interface that is wrapped by the IDirect3DDxgiInterfaceAccess object.
 tech.root: WinRT
 ms.assetid: 
-
 ms.date: 05/13/2019
 ms.keywords: GetInterface, GetInterface function [Direct3D 11], windows.graphics.directx.direct3d11.interop/GetInterface, direct3d11.getinterface
 ms.topic: function
-f1_keywords: 
- - "windows.graphics.directx.direct3d11.interop/GetInterface"
+f1_keywords:
+- windows.graphics.directx.direct3d11.interop/GetInterface
 dev_langs:
- - c++
+- c++
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -33,14 +31,14 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.dll
+- D3D11.dll
 api_name:
- - GetInterface
+- GetInterface
 targetos: Windows
 ---
 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winbase._FILE_END_OF_FILE_INFO
 title: FILE_END_OF_FILE_INFO (winbase.h)
-
 description: Contains the specified value to which the end of the file should be set.
 old-location: fs\file_end_of_file_info.htm
 tech.root: FileIO
 ms.assetid: 77500ae7-654a-4b34-aaee-5c3844303271
-
 ms.date: 12/05/2018
-ms.keywords: "*PFILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO structure [Files], PFILE_END_OF_FILE_INFO, PFILE_END_OF_FILE_INFO structure pointer [Files], fileextd/FILE_END_OF_FILE_INFO, fileextd/PFILE_END_OF_FILE_INFO, fs.file_end_of_file_info, winbase/FILE_END_OF_FILE_INFO, winbase/PFILE_END_OF_FILE_INFO"
+ms.keywords: '*PFILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO, FILE_END_OF_FILE_INFO structure [Files], PFILE_END_OF_FILE_INFO, PFILE_END_OF_FILE_INFO structure pointer [Files], fileextd/FILE_END_OF_FILE_INFO, fileextd/PFILE_END_OF_FILE_INFO, fs.file_end_of_file_info, winbase/FILE_END_OF_FILE_INFO, winbase/PFILE_END_OF_FILE_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winbase/FILE_END_OF_FILE_INFO"
+f1_keywords:
+- winbase/FILE_END_OF_FILE_INFO
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinBase.h
- - FileExtd.h
+- WinBase.h
+- FileExtd.h
 api_name:
- - FILE_END_OF_FILE_INFO
+- FILE_END_OF_FILE_INFO
 targetos: Windows
 req.typenames: FILE_END_OF_FILE_INFO, *PFILE_END_OF_FILE_INFO
 req.redist: Windows SDK on Windows Server 2003 and Windows XP.

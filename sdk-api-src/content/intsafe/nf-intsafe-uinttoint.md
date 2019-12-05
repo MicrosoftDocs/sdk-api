@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UIntToInt
 title: UIntToInt function (intsafe.h)
-
 description: Converts a value of type UINT to a value of type INT.
 old-location: shell\UIntToInt.htm
 tech.root: shell
 ms.assetid: c50f2147-1b18-42bf-a5ae-fa20d487c52d
-
 ms.date: 12/05/2018
 ms.keywords: UIntToInt, UIntToInt function [Windows Shell], _shell_UIntToInt, intsafe/UIntToInt, shell.UIntToInt
 ms.topic: function
-f1_keywords: 
- - "intsafe/UIntToInt"
+f1_keywords:
+- intsafe/UIntToInt
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Intsafe.h
+- Intsafe.h
 api_name:
- - UIntToInt
+- UIntToInt
 targetos: Windows
 req.typenames: 
 req.redist: 

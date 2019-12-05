@@ -1,19 +1,17 @@
 ---
 UID: NF:objidlbase.ISynchronize.Reset
 title: ISynchronize::Reset (objidlbase.h)
-
 description: Sets the synchronization object to the nonsignaled state.
 old-location: com\isynchronize_reset.htm
 tech.root: com
 ms.assetid: 33c56a33-9954-4612-ba0f-396ccdc48bf3
-
 ms.date: 12/05/2018
 ms.keywords: ISynchronize interface [COM],Reset method, ISynchronize.Reset, ISynchronize::Reset, Reset, Reset method [COM], Reset method [COM],ISynchronize interface, _com_isynchronize_reset, com.isynchronize_reset, objidlbase/ISynchronize::Reset
 ms.topic: method
-f1_keywords: 
- - "objidlbase/ISynchronize.Reset"
+f1_keywords:
+- objidlbase/ISynchronize.Reset
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - ISynchronize.Reset
+- ISynchronize.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

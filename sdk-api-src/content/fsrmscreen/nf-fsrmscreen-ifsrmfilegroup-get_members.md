@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_Members
 title: IFsrmFileGroup::get_Members (fsrmscreen.h)
-
 description: Retrieves or sets the filename patterns that determine the files that are included in the file group.
 old-location: fsrm\ifsrmfilegroup_members.htm
 tech.root: fsrm
 ms.assetid: 242a86ab-9dec-4106-9a49-70c12cc6de91
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileGroup interface [File Server Resource Manager],Members property, IFsrmFileGroup.Members, IFsrmFileGroup.get_Members, IFsrmFileGroup::Members, IFsrmFileGroup::get_Members, IFsrmFileGroup::put_Members, Members property [File Server Resource Manager], Members property [File Server Resource Manager],IFsrmFileGroup interface, fs.ifsrmfilegroup_members, fsrm.ifsrmfilegroup_members, fsrmscreen/IFsrmFileGroup::Members, fsrmscreen/IFsrmFileGroup::get_Members, fsrmscreen/IFsrmFileGroup::put_Members, get_Members
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileGroup.Members"
+f1_keywords:
+- fsrmscreen/IFsrmFileGroup.Members
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileGroup.Members
- - IFsrmFileGroup.get_Members
- - IFsrmFileGroup.put_Members
+- IFsrmFileGroup.Members
+- IFsrmFileGroup.get_Members
+- IFsrmFileGroup.put_Members
 targetos: Windows
 req.typenames: 
 req.redist: 

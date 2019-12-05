@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_ST.GetData
 title: IDVB_ST::GetData (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_st_getdata.htm
 tech.root: mstv
 ms.assetid: 3afdafad-462c-4fad-a9c6-ec820bedf31a
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [Microsoft TV Technologies], GetData method [Microsoft TV Technologies],IDVB_ST interface, IDVB_ST interface [Microsoft TV Technologies],GetData method, IDVB_ST.GetData, IDVB_ST::GetData, IDVB_STGetData, dvbsiparser/IDVB_ST::GetData, mstv.idvb_st_getdata
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_ST.GetData"
+f1_keywords:
+- dvbsiparser/IDVB_ST.GetData
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_ST.GetData
+- IDVB_ST.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

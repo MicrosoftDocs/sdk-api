@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxPort.get_Name
 title: IFaxPort::get_Name (faxcom.h)
-
 description: The IFaxPort::get_Name property is a null-terminated string that contains the user-friendly display name for a fax port.
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_get_name_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1ep1.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxPort interface [Fax Service],Name property, IFaxPort.Name, IFaxPort.get_Name, IFaxPort::Name, IFaxPort::get_Name, Name property [Fax Service], Name property [Fax Service],IFaxPort interface, _mfax_ifaxport_get_name, fax._mfax_ifaxport_get_name, fax._mfax_ifaxport_mfax_ifaxport_get_name_cpp, faxcom/IFaxPort::Name, faxcom/IFaxPort::get_Name, get_Name
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxPort.Name"
+f1_keywords:
+- faxcom/IFaxPort.Name
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxPort.Name
- - IFaxPort.get_Name
+- IFaxPort.Name
+- IFaxPort.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

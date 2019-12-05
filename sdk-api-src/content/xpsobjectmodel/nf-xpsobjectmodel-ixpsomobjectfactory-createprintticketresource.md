@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePrintTicketResource
 title: IXpsOMObjectFactory::CreatePrintTicketResource (xpsobjectmodel.h)
-
 description: Creates an IXpsOMPrintTicketResource interface that enables access to a PrintTicket stream.
 old-location: xps\ixpsomobjectfactory_createprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 67d5ccfc-0f01-49d2-966e-09c7958921a5
-
 ms.date: 12/05/2018
 ms.keywords: CreatePrintTicketResource, CreatePrintTicketResource method [XPS Documents and Packaging], CreatePrintTicketResource method [XPS Documents and Packaging],IXpsOMObjectFactory interface, IXpsOMObjectFactory interface [XPS Documents and Packaging],CreatePrintTicketResource method, IXpsOMObjectFactory.CreatePrintTicketResource, IXpsOMObjectFactory::CreatePrintTicketResource, xps.ixpsomobjectfactory_createprintticketresource, xpsobjectmodel/IXpsOMObjectFactory::CreatePrintTicketResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMObjectFactory.CreatePrintTicketResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMObjectFactory.CreatePrintTicketResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory.CreatePrintTicketResource
+- IXpsOMObjectFactory.CreatePrintTicketResource
 targetos: Windows
 req.typenames: 
 req.redist: 

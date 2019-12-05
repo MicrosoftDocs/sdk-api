@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkRecognizerContext.put_Factoid
 title: IInkRecognizerContext::put_Factoid (msinkaut.h)
-
 description: Gets or sets the factoid that a recognizer uses to constrain its search for the recognition result.
 old-location: tablet\inkrecognizercontext_factoid.htm
 tech.root: tablet
 ms.assetid: 11a76706-e2e5-4ae5-bdc2-5354514ea29f
-
 ms.date: 12/05/2018
 ms.keywords: 11a76706-e2e5-4ae5-bdc2-5354514ea29f, Factoid property [Tablet PC], Factoid property [Tablet PC],IInkRecognizerContext interface, IInkRecognizerContext interface [Tablet PC],Factoid property, IInkRecognizerContext.Factoid, IInkRecognizerContext.put_Factoid, IInkRecognizerContext::Factoid, IInkRecognizerContext::get_Factoid, IInkRecognizerContext::put_Factoid, InkRecognizerContext.get_Factoid, InkRecognizerContext.put_Factoid, get_Factoid, msinkaut/IInkRecognizerContext::Factoid, msinkaut/IInkRecognizerContext::get_Factoid, msinkaut/IInkRecognizerContext::put_Factoid, put_Factoid, tablet.inkrecognizercontext_factoid
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkRecognizerContext.Factoid"
+f1_keywords:
+- msinkaut/IInkRecognizerContext.Factoid
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkRecognizerContext.Factoid
- - IInkRecognizerContext.get_Factoid
- - IInkRecognizerContext.put_Factoid
- - InkRecognizerContext.get_Factoid
- - InkRecognizerContext.put_Factoid
+- IInkRecognizerContext.Factoid
+- IInkRecognizerContext.get_Factoid
+- IInkRecognizerContext.put_Factoid
+- InkRecognizerContext.get_Factoid
+- InkRecognizerContext.put_Factoid
 targetos: Windows
 req.typenames: 
 req.redist: 

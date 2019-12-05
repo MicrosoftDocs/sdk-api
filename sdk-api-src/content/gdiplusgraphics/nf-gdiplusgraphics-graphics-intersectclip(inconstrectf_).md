@@ -3,14 +3,13 @@ UID: NF:gdiplusgraphics.Graphics.IntersectClip(IN const RectF &)
 title: Graphics::IntersectClip
 description: The Graphics::IntersectClip method updates the clipping region of this Graphics object.
 ms.assetid: 9aa49ff6-adce-4495-9af2-719ad029f751
-
 ms.date: 05/13/2019
 ms.keywords: Graphics::IntersectClip
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusgraphics/Graphics::IntersectClip"
+f1_keywords:
+- gdiplusgraphics/Graphics::IntersectClip
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusgraphics.h
+- gdiplusgraphics.h
 api_name:
- - Graphics::IntersectClip
+- Graphics::IntersectClip
 ---
 
 # IntersectClip(RectF&)

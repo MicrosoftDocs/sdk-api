@@ -1,19 +1,17 @@
 ---
 UID: NN:wbemcli.IWbemShutdown
 title: IWbemShutdown (wbemcli.h)
-
 description: The IWbemShutdown interface indicates to the provider that an instance of an object is ready to be discarded. The provider can use this call to release resources that it is referencing currently.
 old-location: wmi\iwbemshutdown.htm
 tech.root: WmiSdk
 ms.assetid: a228ed61-1f16-45f4-85f2-85661ce06b72
-
 ms.date: 12/05/2018
 ms.keywords: IWbemShutdown, IWbemShutdown interface [Windows Management Instrumentation], IWbemShutdown interface [Windows Management Instrumentation],described, wbemcli/ IWbemShutdown, wmi.iwbemshutdown
 ms.topic: interface
-f1_keywords: 
- - "wbemcli/IWbemShutdown"
+f1_keywords:
+- wbemcli/IWbemShutdown
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Fastprox.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fastprox.dll
+- Fastprox.dll
 api_name:
- - IWbemShutdown
+- IWbemShutdown
 targetos: Windows
 req.typenames: 
 req.redist: 

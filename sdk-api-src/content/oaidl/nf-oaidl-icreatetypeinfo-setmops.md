@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetMops
 title: ICreateTypeInfo::SetMops (oaidl.h)
-
 description: Sets the marshaling opcode string associated with the type description or the function.
 old-location: automat\icreatetypeinfo_setmops.htm
 tech.root: automat
 ms.assetid: e775c2f9-2886-4aa0-a30c-445f317d0e02
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetMops method, ICreateTypeInfo.SetMops, ICreateTypeInfo::SetMops, SetMops, SetMops method [Automation], SetMops method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetMops, automat.icreatetypeinfo_setmops, oaidl/ICreateTypeInfo::SetMops
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetMops"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetMops
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetMops
+- ICreateTypeInfo.SetMops
 targetos: Windows
 req.typenames: 
 req.redist: 

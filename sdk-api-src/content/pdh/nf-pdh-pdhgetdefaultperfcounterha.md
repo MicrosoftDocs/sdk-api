@@ -1,19 +1,17 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterHA
 title: PdhGetDefaultPerfCounterHA function (pdh.h)
-
 description: Retrieves the name of the default counter for the specified object.
 old-location: perf\pdhgetdefaultperfcounterh.htm
 tech.root: perfctrs
 ms.assetid: d1b3de9a-99ab-4339-8e9f-906f5a5d291d
-
 ms.date: 12/05/2018
 ms.keywords: PdhGetDefaultPerfCounterH, PdhGetDefaultPerfCounterH function [Perf], PdhGetDefaultPerfCounterHA, PdhGetDefaultPerfCounterHW, _win32_pdhgetdefaultperfcounterh, base.pdhgetdefaultperfcounterh, pdh/PdhGetDefaultPerfCounterH, pdh/PdhGetDefaultPerfCounterHA, pdh/PdhGetDefaultPerfCounterHW, perf.pdhgetdefaultperfcounterh
 ms.topic: function
-f1_keywords: 
- - "pdh/PdhGetDefaultPerfCounterH"
+f1_keywords:
+- pdh/PdhGetDefaultPerfCounterH
 dev_langs:
- - c++
+- c++
 req.header: pdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pdh.lib
 req.dll: Pdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Pdh.dll
+- Pdh.dll
 api_name:
- - PdhGetDefaultPerfCounterH
- - PdhGetDefaultPerfCounterHA
- - PdhGetDefaultPerfCounterHW
+- PdhGetDefaultPerfCounterH
+- PdhGetDefaultPerfCounterHA
+- PdhGetDefaultPerfCounterHW
 targetos: Windows
 req.typenames: 
 req.redist: 

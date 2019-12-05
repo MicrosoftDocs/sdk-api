@@ -1,19 +1,17 @@
 ---
 UID: NN:tssbx.IWTSSBPlugin
 title: IWTSSBPlugin (tssbx.h)
-
 description: Used to extend the capabilities of Terminal Services Session Broker (TS&#160;Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS&#160;Session Broker.
 old-location: termserv\iwtssbplugin.htm
 tech.root: TermServ
 ms.assetid: f6959b8c-a8a8-438b-8b6d-31bf0e782bac
-
 ms.date: 12/05/2018
 ms.keywords: IWTSSBPlugin, IWTSSBPlugin interface [Remote Desktop Services], IWTSSBPlugin interface [Remote Desktop Services],described, termserv.iwtssbplugin, tssbx/IWTSSBPlugin
 ms.topic: interface
-f1_keywords: 
- - "tssbx/IWTSSBPlugin"
+f1_keywords:
+- tssbx/IWTSSBPlugin
 dev_langs:
- - c++
+- c++
 req.header: tssbx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tssbx.h
+- Tssbx.h
 api_name:
- - IWTSSBPlugin
+- IWTSSBPlugin
 targetos: Windows
 req.typenames: 
 req.redist: 

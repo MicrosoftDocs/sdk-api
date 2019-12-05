@@ -1,19 +1,17 @@
 ---
 UID: NF:refptrco.TRefPointerCollection.Add
 title: TRefPointerCollection::Add (refptrco.h)
-
 description: The Add method adds a reference to the collection.
 old-location: wmi\trefpointercollection_add.htm
 tech.root: WmiSdk
 ms.assetid: 959cd8e7-ea0c-4b98-8e13-398e09c62668
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Add method, TRefPointerCollection.Add, TRefPointerCollection::Add, _hmm_trefpointercollection_add, refptrco/TRefPointerCollection::Add, wmi.trefpointercollection_add
 ms.topic: method
-f1_keywords: 
- - "refptrco/TRefPointerCollection.Add"
+f1_keywords:
+- refptrco/TRefPointerCollection.Add
 dev_langs:
- - c++
+- c++
 req.header: refptrco.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - TRefPointerCollection.Add
+- TRefPointerCollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

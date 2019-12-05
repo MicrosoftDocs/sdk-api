@@ -1,19 +1,17 @@
 ---
 UID: NF:psapi.GetProcessMemoryInfo
 title: GetProcessMemoryInfo function (psapi.h)
-
 description: Retrieves information about the memory usage of the specified process.
 old-location: psapi\getprocessmemoryinfo.htm
 tech.root: psapi
 ms.assetid: 12990e8d-6097-4502-824e-db6c3f76c715
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessMemoryInfo, GetProcessMemoryInfo function [PSAPI], K32GetProcessMemoryInfo, _win32_getprocessmemoryinfo, base.getprocessmemoryinfo, psapi.getprocessmemoryinfo, psapi/GetProcessMemoryInfo, psapi/K32GetProcessMemoryInfo
 ms.topic: function
 f1_keywords:
 - psapi/GetProcessMemoryInfo
 dev_langs:
- - c++
+- c++
 req.header: psapi.h
 req.include-header: 
 req.target-type: Windows

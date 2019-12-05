@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkCursors.get_Count
 title: IInkCursors::get_Count (msinkaut.h)
-
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkcursors_count.htm
 tech.root: tablet
 ms.assetid: de036d87-32a2-4688-9926-d5f7ab965b9f
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkCursors interface, IInkCursors interface [Tablet PC],Count property, IInkCursors.Count, IInkCursors.get_Count, IInkCursors::Count, IInkCursors::get_Count, get_Count, msinkaut/IInkCursors::Count, msinkaut/IInkCursors::get_Count, tablet.iinkcursors_count
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkCursors.Count"
+f1_keywords:
+- msinkaut/IInkCursors.Count
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkCursors.Count
- - IInkCursors.get_Count
- - IInkCursors.get_Count
+- IInkCursors.Count
+- IInkCursors.get_Count
+- IInkCursors.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

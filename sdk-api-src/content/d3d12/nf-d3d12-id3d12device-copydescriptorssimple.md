@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12Device.CopyDescriptorsSimple
 title: ID3D12Device::CopyDescriptorsSimple (d3d12.h)
-
 description: Copies descriptors from a source to a destination.
 old-location: direct3d12\id3d12device_copydescriptorssimple.htm
 tech.root: direct3d12
 ms.assetid: 6DA1FCDA-042C-4727-9814-B8F57E14CD51
-
 ms.date: 12/05/2018
 ms.keywords: CopyDescriptorsSimple, CopyDescriptorsSimple method, CopyDescriptorsSimple method,ID3D12Device interface, ID3D12Device interface,CopyDescriptorsSimple method, ID3D12Device.CopyDescriptorsSimple, ID3D12Device::CopyDescriptorsSimple, d3d12/ID3D12Device::CopyDescriptorsSimple, direct3d12.id3d12device_copydescriptorssimple
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12Device.CopyDescriptorsSimple"
+f1_keywords:
+- d3d12/ID3D12Device.CopyDescriptorsSimple
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12Device.CopyDescriptorsSimple
+- ID3D12Device.CopyDescriptorsSimple
 targetos: Windows
 req.typenames: 
 req.redist: 

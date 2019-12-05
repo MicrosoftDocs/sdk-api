@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get__NewEnum
 title: IPolicyQualifiers::get__NewEnum (certenroll.h)
-
 description: Retrieves the enumerator for the collection.
 old-location: security\ipolicyqualifiers__newenum_property.htm
 tech.root: seccertenroll
 ms.assetid: deba8da7-8df7-4f7e-8e6a-0094b071ff72
-
 ms.date: 12/05/2018
 ms.keywords: IPolicyQualifiers interface [Security],_NewEnum property, IPolicyQualifiers._NewEnum, IPolicyQualifiers.get__NewEnum, IPolicyQualifiers::_NewEnum, IPolicyQualifiers::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],IPolicyQualifiers interface, certenroll/IPolicyQualifiers::_NewEnum, certenroll/IPolicyQualifiers::get__NewEnum, get__NewEnum, security.ipolicyqualifiers__newenum_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IPolicyQualifiers._NewEnum"
+f1_keywords:
+- certenroll/IPolicyQualifiers._NewEnum
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IPolicyQualifiers._NewEnum
- - IPolicyQualifiers.get__NewEnum
+- IPolicyQualifiers._NewEnum
+- IPolicyQualifiers.get__NewEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

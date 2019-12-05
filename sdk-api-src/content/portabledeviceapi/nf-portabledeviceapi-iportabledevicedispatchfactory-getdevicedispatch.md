@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceDispatchFactory.GetDeviceDispatch
 title: IPortableDeviceDispatchFactory::GetDeviceDispatch (portabledeviceapi.h)
-
 description: Instantiates a WPD Automation Device object for a given WPD device identifier.
 old-location: wpdauto\iportabledevicedispatchfactory_getdevicedispatch.htm
 tech.root: wpdauto
 ms.assetid: 80aa36cd-3831-4eb5-a5bb-a8e48f20fc62
-
 ms.date: 12/05/2018
 ms.keywords: GetDeviceDispatch, GetDeviceDispatch method [WPD Automation], GetDeviceDispatch method [WPD Automation],IPortableDeviceDispatchFactory interface, IPortableDeviceDispatchFactory interface [WPD Automation],GetDeviceDispatch method, IPortableDeviceDispatchFactory.GetDeviceDispatch, IPortableDeviceDispatchFactory::GetDeviceDispatch, portabledeviceapi/IPortableDeviceDispatchFactory::GetDeviceDispatch, wpdauto.iportabledevicedispatchfactory_getdevicedispatch
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceDispatchFactory.GetDeviceDispatch"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceDispatchFactory.GetDeviceDispatch
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGuids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGuids.lib
- - PortableDeviceGuids.dll
+- PortableDeviceGuids.lib
+- PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceDispatchFactory.GetDeviceDispatch
+- IPortableDeviceDispatchFactory.GetDeviceDispatch
 targetos: Windows
 req.typenames: 
 req.redist: 

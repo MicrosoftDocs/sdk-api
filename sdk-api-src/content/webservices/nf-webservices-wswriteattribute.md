@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteAttribute
 title: WsWriteAttribute function (webservices.h)
-
 description: Write a typed value as an XML attribute.
 old-location: wsw\wswriteattribute.htm
 tech.root: wsw
 ms.assetid: d1c02344-f5b9-4a59-b1c2-2dfb41df5ce1
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteAttribute, WsWriteAttribute function [Web Services for Windows], webservices/WsWriteAttribute, wsw.wswriteattribute
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteAttribute"
+f1_keywords:
+- webservices/WsWriteAttribute
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteAttribute
+- WsWriteAttribute
 targetos: Windows
 req.typenames: 
 req.redist: 

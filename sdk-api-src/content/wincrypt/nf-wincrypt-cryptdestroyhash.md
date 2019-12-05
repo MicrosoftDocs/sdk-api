@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptDestroyHash
 title: CryptDestroyHash function (wincrypt.h)
-
 description: Destroys the hash object referenced by the hHash parameter.
 old-location: security\cryptdestroyhash.htm
 tech.root: SecCrypto
 ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
-
 ms.date: 12/05/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptDestroyHash"
+f1_keywords:
+- wincrypt/CryptDestroyHash
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptDestroyHash
+- CryptDestroyHash
 targetos: Windows
 req.typenames: 
 req.redist: 

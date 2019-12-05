@@ -1,19 +1,17 @@
 ---
 UID: NF:ctffunc.ITfFnGetLinguisticAlternates.GetAlternates
 title: ITfFnGetLinguisticAlternates::GetAlternates (ctffunc.h)
-
 description: Returns a list of alternate strings for a given text range.
 old-location: tsf\itffngetlinguisticalternates_getalternates.htm
 tech.root: TSF
 ms.assetid: 17BB0DF8-3F97-423C-A2FD-CDC7590EE49B
-
 ms.date: 12/05/2018
 ms.keywords: GetAlternates, GetAlternates method [Text Services Framework], GetAlternates method [Text Services Framework],ITfFnGetLinguisticAlternates interface, ITfFnGetLinguisticAlternates interface [Text Services Framework],GetAlternates method, ITfFnGetLinguisticAlternates.GetAlternates, ITfFnGetLinguisticAlternates::GetAlternates, ctffunc/ITfFnGetLinguisticAlternates::GetAlternates, tsf.itffngetlinguisticalternates_getalternates
 ms.topic: method
-f1_keywords: 
- - "ctffunc/ITfFnGetLinguisticAlternates.GetAlternates"
+f1_keywords:
+- ctffunc/ITfFnGetLinguisticAlternates.GetAlternates
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfFnGetLinguisticAlternates.GetAlternates
+- ITfFnGetLinguisticAlternates.GetAlternates
 targetos: Windows
 req.typenames: 
 req.redist: 

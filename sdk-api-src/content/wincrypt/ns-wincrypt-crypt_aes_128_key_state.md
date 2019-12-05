@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_AES_128_KEY_STATE
 title: CRYPT_AES_128_KEY_STATE (wincrypt.h)
-
 description: Specifies the 128-bit symmetric key information for an Advanced Encryption Standard (AES) cipher.
 old-location: security\crypt_aes_128_key_state.htm
 tech.root: SecCrypto
 ms.assetid: 1a472caa-e57a-4b3a-ab28-8aacf8e39ad1
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE structure [Security], PCRYPT_AES_128_KEY_STATE, PCRYPT_AES_128_KEY_STATE structure pointer [Security], security.crypt_aes_128_key_state, wincrypt/CRYPT_AES_128_KEY_STATE, wincrypt/PCRYPT_AES_128_KEY_STATE"
+ms.keywords: '*PCRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE, CRYPT_AES_128_KEY_STATE structure [Security], PCRYPT_AES_128_KEY_STATE, PCRYPT_AES_128_KEY_STATE structure pointer [Security], security.crypt_aes_128_key_state, wincrypt/CRYPT_AES_128_KEY_STATE, wincrypt/PCRYPT_AES_128_KEY_STATE'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_AES_128_KEY_STATE"
+f1_keywords:
+- wincrypt/CRYPT_AES_128_KEY_STATE
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_AES_128_KEY_STATE
+- CRYPT_AES_128_KEY_STATE
 targetos: Windows
 req.typenames: CRYPT_AES_128_KEY_STATE, *PCRYPT_AES_128_KEY_STATE
 req.redist: 

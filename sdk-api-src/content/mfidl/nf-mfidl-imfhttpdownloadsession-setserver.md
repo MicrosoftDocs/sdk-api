@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.SetServer
 title: IMFHttpDownloadSession::SetServer (mfidl.h)
-
 description: Called by Microsoft Media Foundation to specify parameters common to all requests created by this instance of IMFHttpDownloadSession.
 old-location: mf\imfhttpdownloadsession_setserver.htm
 tech.root: medfound
 ms.assetid: 408D4863-D95F-4BBD-9F0B-9796ED08A256
-
 ms.date: 12/05/2018
 ms.keywords: IMFHttpDownloadSession interface [Media Foundation],SetServer method, IMFHttpDownloadSession.SetServer, IMFHttpDownloadSession::SetServer, SetServer, SetServer method [Media Foundation], SetServer method [Media Foundation],IMFHttpDownloadSession interface, mf.imfhttpdownloadsession_setserver, mfidl/IMFHttpDownloadSession::SetServer
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFHttpDownloadSession.SetServer"
+f1_keywords:
+- mfidl/IMFHttpDownloadSession.SetServer
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Mfplat.lib; Mfplat.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplat.lib
- - mfplat.dll
- - mfplat.dll
- - mfplat.dll.dll
+- mfplat.lib
+- mfplat.dll
+- mfplat.dll
+- mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSession.SetServer
+- IMFHttpDownloadSession.SetServer
 targetos: Windows
 req.typenames: 
 req.redist: 

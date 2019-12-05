@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComTrackingInfoObject
 title: IComTrackingInfoObject (comsvcs.h)
-
 description: Retrieves the properties of a tracking information object.
 old-location: cos\icomtrackinginfoobject.htm
 tech.root: cossdk
 ms.assetid: 2e27b2b5-a2f5-471d-9f3d-95b13c07037b
-
 ms.date: 12/05/2018
 ms.keywords: IComTrackingInfoObject, IComTrackingInfoObject interface [COM+], IComTrackingInfoObject interface [COM+],described, _dtc_IComTrackingInfoObject, comsvcs/IComTrackingInfoObject, cos.icomtrackinginfoobject
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComTrackingInfoObject"
+f1_keywords:
+- comsvcs/IComTrackingInfoObject
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComTrackingInfoObject
+- IComTrackingInfoObject
 targetos: Windows
 req.typenames: 
 req.redist: 

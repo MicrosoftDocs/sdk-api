@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.GetStream
 title: IXpsOMStoryFragmentsResource::GetStream (xpsobjectmodel.h)
-
 description: Gets a new, read-only copy of the stream that is associated with this resource.
 old-location: xps\ixpsomstoryfragmentsresource_getstream.htm
 tech.root: printdocs
 ms.assetid: c119f1c6-59c0-41b2-b79d-5de9a62c146a
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [XPS Documents and Packaging], GetStream method [XPS Documents and Packaging],IXpsOMStoryFragmentsResource interface, IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging],GetStream method, IXpsOMStoryFragmentsResource.GetStream, IXpsOMStoryFragmentsResource::GetStream, xps.ixpsomstoryfragmentsresource_getstream, xpsobjectmodel/IXpsOMStoryFragmentsResource::GetStream
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMStoryFragmentsResource.GetStream"
+f1_keywords:
+- xpsobjectmodel/IXpsOMStoryFragmentsResource.GetStream
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMStoryFragmentsResource.GetStream
+- IXpsOMStoryFragmentsResource.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

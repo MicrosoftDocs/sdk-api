@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinFormat
 title: IMbnPin::get_PinFormat (mbnapi.h)
-
 description: The PIN format.
 old-location: mbn\imbnpin_pinformat.htm
 tech.root: mbn
 ms.assetid: 146e5fa4-0883-47ca-9bf6-88cf4f4b5497
-
 ms.date: 12/05/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinFormat property, IMbnPin.PinFormat, IMbnPin.get_PinFormat, IMbnPin::PinFormat, IMbnPin::get_PinFormat, PinFormat property [Microsoft Broadband Networks], PinFormat property [Microsoft Broadband Networks],IMbnPin interface, get_PinFormat, mbn.imbnpin_pinformat, mbnapi/IMbnPin::PinFormat, mbnapi/IMbnPin::get_PinFormat
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPin.PinFormat"
+f1_keywords:
+- mbnapi/IMbnPin.PinFormat
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPin.PinFormat
- - IMbnPin.get_PinFormat
+- IMbnPin.PinFormat
+- IMbnPin.get_PinFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

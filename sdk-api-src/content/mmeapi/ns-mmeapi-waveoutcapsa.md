@@ -1,19 +1,17 @@
 ---
 UID: NS:mmeapi.tagWAVEOUTCAPSA
 title: WAVEOUTCAPSA (mmeapi.h)
-
 description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.
 old-location: multimedia\waveoutcaps.htm
 tech.root: Multimedia
 ms.assetid: 756f47fa-c0d1-4729-a0f6-096a1212d0a2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWAVEOUTCAPSA, *NPWAVEOUTCAPSA, *PWAVEOUTCAPSA, WAVEOUTCAPS, WAVEOUTCAPS structure [Windows Multimedia], WAVEOUTCAPSA, _win32_WAVEOUTCAPS_str, mmeapi/WAVEOUTCAPS, multimedia.waveoutcaps, tagWAVEOUTCAPSA, tagWAVEOUTCAPSW, waveoutcaps_tag"
+ms.keywords: '*LPWAVEOUTCAPSA, *NPWAVEOUTCAPSA, *PWAVEOUTCAPSA, WAVEOUTCAPS, WAVEOUTCAPS structure [Windows Multimedia], WAVEOUTCAPSA, _win32_WAVEOUTCAPS_str, mmeapi/WAVEOUTCAPS, multimedia.waveoutcaps, tagWAVEOUTCAPSA, tagWAVEOUTCAPSW, waveoutcaps_tag'
 ms.topic: struct
-f1_keywords: 
- - "mmeapi/WAVEOUTCAPS"
+f1_keywords:
+- mmeapi/WAVEOUTCAPS
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmeapi.h
+- mmeapi.h
 api_name:
- - WAVEOUTCAPS
- - WAVEOUTCAPSA
+- WAVEOUTCAPS
+- WAVEOUTCAPSA
 targetos: Windows
 req.typenames: WAVEOUTCAPSA, *PWAVEOUTCAPSA, *NPWAVEOUTCAPSA, *LPWAVEOUTCAPSA
 req.redist: 

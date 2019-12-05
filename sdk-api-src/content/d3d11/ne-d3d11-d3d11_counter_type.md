@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_COUNTER_TYPE
 title: D3D11_COUNTER_TYPE (d3d11.h)
-
 description: Data type of a performance counter.
 old-location: direct3d11\d3d11_counter_type.htm
 tech.root: direct3d11
 ms.assetid: c39ecf5c-f4c5-4caf-bcd6-2f1ea924ec64
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_COUNTER_TYPE, D3D11_COUNTER_TYPE enumeration [Direct3D 11], D3D11_COUNTER_TYPE_FLOAT32, D3D11_COUNTER_TYPE_UINT16, D3D11_COUNTER_TYPE_UINT32, D3D11_COUNTER_TYPE_UINT64, d3d11/D3D11_COUNTER_TYPE, d3d11/D3D11_COUNTER_TYPE_FLOAT32, d3d11/D3D11_COUNTER_TYPE_UINT16, d3d11/D3D11_COUNTER_TYPE_UINT32, d3d11/D3D11_COUNTER_TYPE_UINT64, direct3d11.d3d11_counter_type, e65eb816-2056-25d0-88d3-3d082588c48d
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_COUNTER_TYPE"
+f1_keywords:
+- d3d11/D3D11_COUNTER_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_COUNTER_TYPE
+- D3D11_COUNTER_TYPE
 targetos: Windows
 req.typenames: D3D11_COUNTER_TYPE
 req.redist: 

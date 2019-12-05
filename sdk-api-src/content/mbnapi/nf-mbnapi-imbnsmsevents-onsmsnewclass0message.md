@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsNewClass0Message
 title: IMbnSmsEvents::OnSmsNewClass0Message (mbnapi.h)
-
 description: Notification method signaling the arrival of a new class 0/flash message.
 old-location: mbn\imbnsmsevents_onsmsnewclass0message.htm
 tech.root: mbn
 ms.assetid: e6d13393-557c-462c-a640-2228ab0c9c17
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsNewClass0Message method, IMbnSmsEvents.OnSmsNewClass0Message, IMbnSmsEvents::OnSmsNewClass0Message, OnSmsNewClass0Message, OnSmsNewClass0Message method [Microsoft Broadband Networks], OnSmsNewClass0Message method [Microsoft Broadband Networks],IMbnSmsEvents interface, mbn.imbnsmsevents_onsmsnewclass0message, mbnapi/IMbnSmsEvents::OnSmsNewClass0Message
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnSmsEvents.OnSmsNewClass0Message"
+f1_keywords:
+- mbnapi/IMbnSmsEvents.OnSmsNewClass0Message
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSmsEvents.OnSmsNewClass0Message
+- IMbnSmsEvents.OnSmsNewClass0Message
 targetos: Windows
 req.typenames: 
 req.redist: 

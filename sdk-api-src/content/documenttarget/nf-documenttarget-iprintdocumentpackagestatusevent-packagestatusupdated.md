@@ -1,19 +1,17 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageStatusEvent.PackageStatusUpdated
 title: IPrintDocumentPackageStatusEvent::PackageStatusUpdated (documenttarget.h)
-
 description: Updates the status of the package when the print job in progress raises an event, or the job completes.
 old-location: xps\iprintdocumentpackagestatusevent_packagestatusupdated.htm
 tech.root: printdocs
 ms.assetid: A672E554-B117-475C-A01E-9FD4EA31621E
-
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging],PackageStatusUpdated method, IPrintDocumentPackageStatusEvent.PackageStatusUpdated, IPrintDocumentPackageStatusEvent::PackageStatusUpdated, PackageStatusUpdated, PackageStatusUpdated method [XPS Documents and Packaging], PackageStatusUpdated method [XPS Documents and Packaging],IPrintDocumentPackageStatusEvent interface, documenttarget/IPrintDocumentPackageStatusEvent::PackageStatusUpdated, xps.iprintdocumentpackagestatusevent_packagestatusupdated
 ms.topic: method
-f1_keywords: 
- - "documenttarget/IPrintDocumentPackageStatusEvent.PackageStatusUpdated"
+f1_keywords:
+- documenttarget/IPrintDocumentPackageStatusEvent.PackageStatusUpdated
 dev_langs:
- - c++
+- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Documenttarget.h
+- Documenttarget.h
 api_name:
- - IPrintDocumentPackageStatusEvent.PackageStatusUpdated
+- IPrintDocumentPackageStatusEvent.PackageStatusUpdated
 targetos: Windows
 req.typenames: 
 req.redist: 

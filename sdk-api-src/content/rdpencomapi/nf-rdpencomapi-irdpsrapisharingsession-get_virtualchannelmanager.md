@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.get_VirtualChannelManager
 title: IRDPSRAPISharingSession::get_VirtualChannelManager (rdpencomapi.h)
-
 description: Retrieves an object implementing the IRDPSRAPIVirtualChannelManager interface.
 old-location: rdp\irdpsrapisharingsession_virtualchannelmanager.htm
 tech.root: rdp
 ms.assetid: ba951d8a-cf8e-4183-a40b-beba45fd48ef
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPISharingSession interface [RDP],VirtualChannelManager property, IRDPSRAPISharingSession.VirtualChannelManager, IRDPSRAPISharingSession.get_VirtualChannelManager, IRDPSRAPISharingSession2 interface [RDP],VirtualChannelManager property, IRDPSRAPISharingSession2.VirtualChannelManager, IRDPSRAPISharingSession2::VirtualChannelManager, IRDPSRAPISharingSession2::get_VirtualChannelManager, IRDPSRAPISharingSession::get_VirtualChannelManager, RDPSession object [RDP],VirtualChannelManager property, VirtualChannelManager property [RDP], VirtualChannelManager property [RDP],IRDPSRAPISharingSession interface, VirtualChannelManager property [RDP],IRDPSRAPISharingSession2 interface, VirtualChannelManager property [RDP],RDPSession object, get_VirtualChannelManager, rdp.irdpsrapisharingsession_virtualchannelmanager, rdpencomapi/IRDPSRAPISharingSession2::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession2::get_VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::VirtualChannelManager, rdpencomapi/IRDPSRAPISharingSession::get_VirtualChannelManager
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPISharingSession2.VirtualChannelManager"
+f1_keywords:
+- rdpencomapi/IRDPSRAPISharingSession2.VirtualChannelManager
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession2.VirtualChannelManager
- - IRDPSRAPISharingSession2.get_VirtualChannelManager
- - IRDPSRAPISharingSession.VirtualChannelManager
- - IRDPSRAPISharingSession.get_VirtualChannelManager
- - RDPSession.VirtualChannelManager
+- IRDPSRAPISharingSession2.VirtualChannelManager
+- IRDPSRAPISharingSession2.get_VirtualChannelManager
+- IRDPSRAPISharingSession.VirtualChannelManager
+- IRDPSRAPISharingSession.get_VirtualChannelManager
+- RDPSession.VirtualChannelManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfComposition.GetRange
 title: ITfComposition::GetRange (msctf.h)
-
 description: ITfComposition::GetRange method
 old-location: tsf\itfcomposition_getrange.htm
 tech.root: TSF
 ms.assetid: 14a726c3-6531-4d49-9f22-20460be02b81
-
 ms.date: 12/05/2018
 ms.keywords: GetRange, GetRange method [Text Services Framework], GetRange method [Text Services Framework],ITfComposition interface, ITfComposition interface [Text Services Framework],GetRange method, ITfComposition.GetRange, ITfComposition::GetRange, _tsf_itfcomposition_getrange_ref, msctf/ITfComposition::GetRange, tsf.itfcomposition_getrange
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfComposition.GetRange"
+f1_keywords:
+- msctf/ITfComposition.GetRange
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfComposition.GetRange
+- ITfComposition.GetRange
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

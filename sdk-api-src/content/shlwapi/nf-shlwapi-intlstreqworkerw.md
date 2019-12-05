@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.IntlStrEqWorkerW
 title: IntlStrEqWorkerW function (shlwapi.h)
-
 description: Compares a specified number of characters from the beginning of two localized strings.
 old-location: shell\IntlStrEqWorker.htm
 tech.root: shell
 ms.assetid: bc8e823e-79b2-49fd-950d-96a6e7256377
-
 ms.date: 12/05/2018
 ms.keywords: IntlStrEqWorker, IntlStrEqWorker function [Windows Shell], IntlStrEqWorkerA, IntlStrEqWorkerW, _win32_IntlStrEqWorker, shell.IntlStrEqWorker, shlwapi/IntlStrEqWorker, shlwapi/IntlStrEqWorkerA, shlwapi/IntlStrEqWorkerW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/IntlStrEqWorker"
+f1_keywords:
+- shlwapi/IntlStrEqWorker
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
- - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
+- api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - IntlStrEqWorker
- - IntlStrEqWorkerA
- - IntlStrEqWorkerW
+- IntlStrEqWorker
+- IntlStrEqWorkerA
+- IntlStrEqWorkerW
 targetos: Windows
 req.typenames: 
 req.redist: 

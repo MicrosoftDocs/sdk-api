@@ -1,19 +1,17 @@
 ---
 UID: NF:winsafer.SaferIdentifyLevel
 title: SaferIdentifyLevel function (winsafer.h)
-
 description: Retrieves information about a level.
 old-location: security\saferidentifylevel.htm
 tech.root: SecMgmt
 ms.assetid: f82c4f40-5c37-4f97-95a2-4b2cc26bf41e
-
 ms.date: 12/05/2018
 ms.keywords: SaferIdentifyLevel, SaferIdentifyLevel function [Security], _mnp_saferidentifylevel, security.saferidentifylevel, winsafer/SaferIdentifyLevel
 ms.topic: function
 f1_keywords:
 - winsafer/SaferIdentifyLevel
 dev_langs:
- - c++
+- c++
 req.header: winsafer.h
 req.include-header: 
 req.target-type: Windows

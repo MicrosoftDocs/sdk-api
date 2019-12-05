@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegistrationStats
 title: IWMDeviceRegistration::GetRegistrationStats (wmsdkidl.h)
-
 description: The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.
 old-location: wmformat\iwmdeviceregistration_getregistrationstats.htm
 tech.root: wmformat
 ms.assetid: 56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb
-
 ms.date: 12/05/2018
 ms.keywords: GetRegistrationStats, GetRegistrationStats method [windows Media Format], GetRegistrationStats method [windows Media Format],IWMDeviceRegistration interface, IWMDeviceRegistration interface [windows Media Format],GetRegistrationStats method, IWMDeviceRegistration.GetRegistrationStats, IWMDeviceRegistration::GetRegistrationStats, IWMDeviceRegistrationGetRegistrationStats, wmformat.iwmdeviceregistration_getregistrationstats, wmsdkidl/IWMDeviceRegistration::GetRegistrationStats
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDeviceRegistration.GetRegistrationStats"
+f1_keywords:
+- wmsdkidl/IWMDeviceRegistration.GetRegistrationStats
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDeviceRegistration.GetRegistrationStats
+- IWMDeviceRegistration.GetRegistrationStats
 targetos: Windows
 req.typenames: 
 req.redist: 

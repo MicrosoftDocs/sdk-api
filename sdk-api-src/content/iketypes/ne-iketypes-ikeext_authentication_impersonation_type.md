@@ -1,19 +1,17 @@
 ---
 UID: NE:iketypes.IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE_
 title: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE (iketypes.h)
-
 description: Specifies the type of impersonation to perform when Authenticated Internet Protocol (AuthIP) is used for authentication.
 old-location: fwp\ikeext_authentication_impersonation_type.htm
 tech.root: fwp
 ms.assetid: 840c7429-5a1a-4e3f-823c-c46a412cbe71
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE, IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE enumeration [Filtering], IKEEXT_IMPERSONATION_MAX, IKEEXT_IMPERSONATION_NONE, IKEEXT_IMPERSONATION_SOCKET_PRINCIPAL, fwp.ikeext_authentication_impersonation_type, iketypes/IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE, iketypes/IKEEXT_IMPERSONATION_MAX, iketypes/IKEEXT_IMPERSONATION_NONE, iketypes/IKEEXT_IMPERSONATION_SOCKET_PRINCIPAL
 ms.topic: enum
-f1_keywords: 
- - "iketypes/IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE"
+f1_keywords:
+- iketypes/IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Iketypes.h
+- Iketypes.h
 api_name:
- - IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE
+- IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE
 targetos: Windows
 req.typenames: IKEEXT_AUTHENTICATION_IMPERSONATION_TYPE
 req.redist: 

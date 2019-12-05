@@ -1,19 +1,17 @@
 ---
 UID: NE:vsmgmt._VSS_MGMT_OBJECT_TYPE
 title: VSS_MGMT_OBJECT_TYPE (vsmgmt.h)
-
 description: Discriminant for the VSS_MGMT_OBJECT_UNION union within the VSS_MGMT_OBJECT_PROP structure.
 old-location: base\vss_mgmt_object_type.htm
 tech.root: VSS
 ms.assetid: ea28ff2c-6603-4193-9d5f-b41fffe28a90
-
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TYPE, PVSS_MGMT_OBJECT_TYPE enumeration pointer [VSS], VSS_MGMT_OBJECT_DIFF_AREA, VSS_MGMT_OBJECT_DIFF_VOLUME, VSS_MGMT_OBJECT_TYPE, VSS_MGMT_OBJECT_TYPE enumeration [VSS], VSS_MGMT_OBJECT_UNKNOWN, VSS_MGMT_OBJECT_VOLUME, base.vss_mgmt_object_type, vsmgmt/PVSS_MGMT_OBJECT_TYPE, vsmgmt/VSS_MGMT_OBJECT_DIFF_AREA, vsmgmt/VSS_MGMT_OBJECT_DIFF_VOLUME, vsmgmt/VSS_MGMT_OBJECT_TYPE, vsmgmt/VSS_MGMT_OBJECT_UNKNOWN, vsmgmt/VSS_MGMT_OBJECT_VOLUME'
 ms.topic: enum
 f1_keywords:
 - vsmgmt/VSS_MGMT_OBJECT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: vsmgmt.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IExtendControlbar
 title: IExtendControlbar (mmc.h)
-
 description: The IExtendControlbar interface enables an extension to add control bars to the console. This provides a way to improve the functionality and appearance of your snap-in by adding toolbars or other user interface enhancements.
 old-location: mmc\iextendcontrolbar.htm
 tech.root: mmc
 ms.assetid: e0d586e3-5ad9-4996-b5bd-d6ab4f2eaf26
-
 ms.date: 12/05/2018
 ms.keywords: IExtendControlbar, IExtendControlbar interface [MMC], IExtendControlbar interface [MMC],described, _slate_iextendcontrolbar, mmc.iextendcontrolbar, mmc/IExtendControlbar
 ms.topic: interface
-f1_keywords: 
- - "mmc/IExtendControlbar"
+f1_keywords:
+- mmc/IExtendControlbar
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendControlbar
+- IExtendControlbar
 targetos: Windows
 req.typenames: 
 req.redist: 

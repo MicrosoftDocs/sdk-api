@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContext.CreateInstance
 title: IObjectContext::CreateInstance (comsvcs.h)
-
 description: Creates an object using current object's context.
 old-location: cos\iobjectcontext_createinstance.htm
 tech.root: cossdk
 ms.assetid: 2e870191-5a34-490e-9f3a-cb646fe3f470
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [COM+], CreateInstance method [COM+],IObjectContext interface, IObjectContext interface [COM+],CreateInstance method, IObjectContext.CreateInstance, IObjectContext::CreateInstance, _cos_IObjectContext_CreateInstance, comsvcs/IObjectContext::CreateInstance, cos.iobjectcontext_createinstance
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContext.CreateInstance"
+f1_keywords:
+- comsvcs/IObjectContext.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContext.CreateInstance
+- IObjectContext.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

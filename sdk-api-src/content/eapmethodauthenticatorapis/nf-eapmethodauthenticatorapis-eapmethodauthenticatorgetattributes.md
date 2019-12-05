@@ -1,19 +1,17 @@
 ---
 UID: NF:eapmethodauthenticatorapis.EapMethodAuthenticatorGetAttributes
 title: EapMethodAuthenticatorGetAttributes function (eapmethodauthenticatorapis.h)
-
 description: Obtains an array of EAP authentication attributes from the EAP authenticator method.
 old-location: eaphost\eapmethodauthenticatorgetattributes.htm
 tech.root: eaphost
 ms.assetid: 531a95c9-b804-4151-b571-163f870672bb
-
 ms.date: 12/05/2018
 ms.keywords: EapMethodAuthenticatorGetAttributes, EapMethodAuthenticatorGetAttributes function [EAPHost], eaphost.eapmethodauthenticatorgetattributes, eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes
 ms.topic: function
 f1_keywords:
 - eapmethodauthenticatorapis/EapMethodAuthenticatorGetAttributes
 dev_langs:
- - c++
+- c++
 req.header: eapmethodauthenticatorapis.h
 req.include-header: 
 req.target-type: Windows

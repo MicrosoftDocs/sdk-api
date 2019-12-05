@@ -1,19 +1,17 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_Addresses
 title: IMcastLeaseInfo::get_Addresses (mdhcp.h)
-
 description: The get_Addresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for Visual Basic and other scripting languages; C++ programmers use EnumerateAddresses instead.
 old-location: tapi3\imcastleaseinfo_get_addresses.htm
 tech.root: Tapi
 ms.assetid: 37dc1bc8-b3d9-4c84-8d37-89d50570d95c
-
 ms.date: 12/05/2018
 ms.keywords: IMcastLeaseInfo interface [TAPI 2.2],get_Addresses method, IMcastLeaseInfo.get_Addresses, IMcastLeaseInfo::get_Addresses, _tapi3_imcastleaseinfo_get_addresses, get_Addresses, get_Addresses method [TAPI 2.2], get_Addresses method [TAPI 2.2],IMcastLeaseInfo interface, mdhcp/IMcastLeaseInfo::get_Addresses, tapi3.imcastleaseinfo_get_addresses
 ms.topic: method
-f1_keywords: 
- - "mdhcp/IMcastLeaseInfo.get_Addresses"
+f1_keywords:
+- mdhcp/IMcastLeaseInfo.get_Addresses
 dev_langs:
- - c++
+- c++
 req.header: mdhcp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Mdhcp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mdhcp.dll
+- Mdhcp.dll
 api_name:
- - IMcastLeaseInfo.get_Addresses
+- IMcastLeaseInfo.get_Addresses
 targetos: Windows
 req.typenames: 
 req.redist: 

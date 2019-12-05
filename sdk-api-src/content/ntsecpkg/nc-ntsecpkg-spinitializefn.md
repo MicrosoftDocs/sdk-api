@@ -1,19 +1,17 @@
 ---
 UID: NC:ntsecpkg.SpInitializeFn
 title: SpInitializeFn (ntsecpkg.h)
-
 description: Is called once by the Local Security Authority (LSA) to provide a security package with general security information and a dispatch table of support functions.
 old-location: security\spinitialize.htm
 tech.root: SecAuthN
 ms.assetid: d93bafc6-d946-4214-b3c0-5e5a8e359638
-
 ms.date: 12/05/2018
 ms.keywords: SpInitialize, SpInitialize callback function [Security], SpInitializeFn, SpInitializeFn callback, _ssp_spinitialize, ntsecpkg/SpInitialize, security.spinitialize
 ms.topic: callback
 f1_keywords:
 - ntsecpkg/SpInitialize
 dev_langs:
- - c++
+- c++
 req.header: ntsecpkg.h
 req.include-header: 
 req.target-type: Windows

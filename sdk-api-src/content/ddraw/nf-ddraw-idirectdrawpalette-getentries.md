@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.GetEntries
 title: IDirectDrawPalette::GetEntries (ddraw.h)
-
 description: Retrieves palette values from a DirectDrawPalette object.
 old-location: directdraw\idirectdrawpalette_getentries.htm
 tech.root: directdraw
 ms.assetid: ae3c639f-beb4-40b6-a237-60d6e560a1c3
-
 ms.date: 12/05/2018
 ms.keywords: GetEntries, GetEntries method [DirectDraw], GetEntries method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetEntries method, IDirectDrawPalette.GetEntries, IDirectDrawPalette::GetEntries, ddraw/IDirectDrawPalette::GetEntries, directdraw.idirectdrawpalette_getentries
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawPalette.GetEntries"
+f1_keywords:
+- ddraw/IDirectDrawPalette.GetEntries
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawPalette.GetEntries
+- IDirectDrawPalette.GetEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

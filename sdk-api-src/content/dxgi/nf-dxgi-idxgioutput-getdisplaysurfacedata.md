@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetDisplaySurfaceData
 title: IDXGIOutput::GetDisplaySurfaceData (dxgi.h)
-
 description: Gets a copy of the current display surface.
 old-location: direct3ddxgi\idxgioutput_getdisplaysurfacedata.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getdisplaysurfacedata.htm
-
 ms.date: 12/05/2018
 ms.keywords: 3af8da91-79a3-e6f5-520c-cc42b8e3e866, GetDisplaySurfaceData, GetDisplaySurfaceData method [DXGI], GetDisplaySurfaceData method [DXGI],IDXGIOutput interface, IDXGIOutput interface [DXGI],GetDisplaySurfaceData method, IDXGIOutput.GetDisplaySurfaceData, IDXGIOutput::GetDisplaySurfaceData, direct3ddxgi.idxgioutput_getdisplaysurfacedata, dxgi/IDXGIOutput::GetDisplaySurfaceData
 ms.topic: method
-f1_keywords: 
- - "dxgi/IDXGIOutput.GetDisplaySurfaceData"
+f1_keywords:
+- dxgi/IDXGIOutput.GetDisplaySurfaceData
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput.GetDisplaySurfaceData
+- IDXGIOutput.GetDisplaySurfaceData
 targetos: Windows
 req.typenames: 
 req.redist: 

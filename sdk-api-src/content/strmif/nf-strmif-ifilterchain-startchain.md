@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterChain.StartChain
 title: IFilterChain::StartChain (strmif.h)
-
 description: The StartChain method switches all the filters in a filter chain into a running state.
 old-location: dshow\ifilterchain_startchain.htm
 tech.root: DirectShow
 ms.assetid: 095a8c28-d0f2-4c0d-9e96-eefd5786b88d
-
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],StartChain method, IFilterChain.StartChain, IFilterChain::StartChain, IFilterChainStartChain, StartChain, StartChain method [DirectShow], StartChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_startchain, strmif/IFilterChain::StartChain
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterChain.StartChain"
+f1_keywords:
+- strmif/IFilterChain.StartChain
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterChain.StartChain
+- IFilterChain.StartChain
 targetos: Windows
 req.typenames: 
 req.redist: 

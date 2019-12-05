@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCurrentRowHeaders
 title: IUIAutomationTablePattern::GetCurrentRowHeaders (uiautomationclient.h)
-
 description: Retrieves a collection of UI Automation elements representing all the row headers in a table.
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders.htm
 tech.root: WinAuto
 ms.assetid: 5669bdc7-a240-4c05-acf1-b1ff5e5b09fc
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentRowHeaders, GetCurrentRowHeaders method [Windows Accessibility], GetCurrentRowHeaders method [Windows Accessibility],IUIAutomationTablePattern interface, IUIAutomationTablePattern interface [Windows Accessibility],GetCurrentRowHeaders method, IUIAutomationTablePattern.GetCurrentRowHeaders, IUIAutomationTablePattern::GetCurrentRowHeaders, uiauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders, uiautomationclient/IUIAutomationTablePattern::GetCurrentRowHeaders, winauto.uiauto_IUIAutomationTablePattern_GetCurrentRowHeaders
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTablePattern.GetCurrentRowHeaders"
+f1_keywords:
+- uiautomationclient/IUIAutomationTablePattern.GetCurrentRowHeaders
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTablePattern.GetCurrentRowHeaders
+- IUIAutomationTablePattern.GetCurrentRowHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

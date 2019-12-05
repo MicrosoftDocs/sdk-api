@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxJobs.get_Count
 title: IFaxJobs::get_Count (faxcom.h)
-
 description: The IFaxJobs::get_Count method returns the number of queued fax jobs associated with the connected fax server.
 old-location: fax\_mfax_ifaxjobs_get_count.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_33zo.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxJobs interface [Fax Service],get_Count method, IFaxJobs.get_Count, IFaxJobs::get_Count, _mfax_ifaxjobs_get_count, fax._mfax_ifaxjobs_get_count, faxcom/IFaxJobs::get_Count, get_Count, get_Count method [Fax Service], get_Count method [Fax Service],IFaxJobs interface
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxJobs.get_Count"
+f1_keywords:
+- faxcom/IFaxJobs.get_Count
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxJobs.get_Count
+- IFaxJobs.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

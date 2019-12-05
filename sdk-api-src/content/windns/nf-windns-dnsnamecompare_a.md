@@ -1,19 +1,17 @@
 ---
 UID: NF:windns.DnsNameCompare_A
 title: DnsNameCompare_A function (windns.h)
-
 description: The DnsNameCompare function compares two DNS names.
 old-location: dns\dnsnamecompare.htm
 tech.root: DNS
 ms.assetid: 4a1512b3-8273-4632-9426-daa36456bce3
-
 ms.date: 12/05/2018
 ms.keywords: DnsNameCompare, DnsNameCompare function [DNS], DnsNameCompare_A, DnsNameCompare_UTF8, DnsNameCompare_W, _dns_dnsnamecompare, dns.dnsnamecompare, windns/DnsNameCompare, windns/DnsNameCompare_A, windns/DnsNameCompare_UTF8, windns/DnsNameCompare_W
 ms.topic: function
-f1_keywords: 
- - "windns/DnsNameCompare"
+f1_keywords:
+- windns/DnsNameCompare
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Dnsapi.lib
 req.dll: Dnsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dnsapi.dll
+- Dnsapi.dll
 api_name:
- - DnsNameCompare
- - DnsNameCompare_A
- - DnsNameCompare_W
- - DnsNameCompare_UTF8
+- DnsNameCompare
+- DnsNameCompare_A
+- DnsNameCompare_W
+- DnsNameCompare_UTF8
 targetos: Windows
 req.typenames: 
 req.redist: 

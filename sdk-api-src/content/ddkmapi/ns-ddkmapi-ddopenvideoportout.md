@@ -1,19 +1,17 @@
 ---
 UID: NS:ddkmapi._DDOPENVIDEOPORTOUT
 title: DDOPENVIDEOPORTOUT (ddkmapi.h)
-
 description: The DDOPENVIDEOPORTOUT structure contains a Microsoft DirectDraw return code and a new surface handle if ddRVal is set to DD_OK. This new handle must be used on all subsequent calls that require a video port extensions (VPE) object handle.
 old-location: display\ddopenvideoportout.htm
 tech.root: display
 ms.assetid: cb01786f-4e6a-43f6-b906-504c0f17ade7
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT structure [Display Devices], LPDDOPENVIDEOPORTOUT, LPDDOPENVIDEOPORTOUT structure pointer [Display Devices], ddkmapi/DDOPENVIDEOPORTOUT, ddkmapi/LPDDOPENVIDEOPORTOUT, ddstrcts_6a818660-2826-448a-a925-fa8019975c62.xml, display.ddopenvideoportout"
+ms.keywords: '*LPDDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT, DDOPENVIDEOPORTOUT structure [Display Devices], LPDDOPENVIDEOPORTOUT, LPDDOPENVIDEOPORTOUT structure pointer [Display Devices], ddkmapi/DDOPENVIDEOPORTOUT, ddkmapi/LPDDOPENVIDEOPORTOUT, ddstrcts_6a818660-2826-448a-a925-fa8019975c62.xml, display.ddopenvideoportout'
 ms.topic: struct
-f1_keywords: 
- - "ddkmapi/DDOPENVIDEOPORTOUT"
+f1_keywords:
+- ddkmapi/DDOPENVIDEOPORTOUT
 dev_langs:
- - c++
+- c++
 req.header: ddkmapi.h
 req.include-header: Ddkmapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ddkmapi.h
+- ddkmapi.h
 api_name:
- - DDOPENVIDEOPORTOUT
+- DDOPENVIDEOPORTOUT
 targetos: Windows
 req.typenames: DDOPENVIDEOPORTOUT, *LPDDOPENVIDEOPORTOUT
 req.redist: 

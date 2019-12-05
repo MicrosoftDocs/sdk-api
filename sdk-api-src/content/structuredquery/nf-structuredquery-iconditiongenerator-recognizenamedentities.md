@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.RecognizeNamedEntities
 title: IConditionGenerator::RecognizeNamedEntities (structuredquery.h)
-
 description: Identifies named entities in an input string, and creates a collection containing them.
 old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\recognizenamedentities.htm
-
 ms.date: 12/05/2018
 ms.keywords: IConditionGenerator interface [search],RecognizeNamedEntities method, IConditionGenerator.RecognizeNamedEntities, IConditionGenerator::RecognizeNamedEntities, RecognizeNamedEntities, RecognizeNamedEntities method [search], RecognizeNamedEntities method [search],IConditionGenerator interface, _search_IConditionGenerator_RecognizeNamedEntities, search._search_IConditionGenerator_RecognizeNamedEntities, structuredquery/IConditionGenerator::RecognizeNamedEntities
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionGenerator.RecognizeNamedEntities"
+f1_keywords:
+- structuredquery/IConditionGenerator.RecognizeNamedEntities
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionGenerator.RecognizeNamedEntities
+- IConditionGenerator.RecognizeNamedEntities
 targetos: Windows
 req.typenames: 
 req.redist: 

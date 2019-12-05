@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetOriginalCallerSID
 title: ISecurityProperty::GetOriginalCallerSID (comsvcs.h)
-
 description: Retrieves the security identifier of the base process that initiated the call sequence from which the current method was called.
 old-location: cos\isecurityproperty_getoriginalcallersid.htm
 tech.root: cossdk
 ms.assetid: e8700635-94cb-4d1a-9325-f93d00c5181f
-
 ms.date: 12/05/2018
 ms.keywords: GetOriginalCallerSID, GetOriginalCallerSID method [COM+], GetOriginalCallerSID method [COM+],ISecurityProperty interface, ISecurityProperty interface [COM+],GetOriginalCallerSID method, ISecurityProperty.GetOriginalCallerSID, ISecurityProperty::GetOriginalCallerSID, _cos_ISecurityProperty_GetOriginalCallerSID, comsvcs/ISecurityProperty::GetOriginalCallerSID, cos.isecurityproperty_getoriginalcallersid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ISecurityProperty.GetOriginalCallerSID"
+f1_keywords:
+- comsvcs/ISecurityProperty.GetOriginalCallerSID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ISecurityProperty.GetOriginalCallerSID
+- ISecurityProperty.GetOriginalCallerSID
 targetos: Windows
 req.typenames: 
 req.redist: 

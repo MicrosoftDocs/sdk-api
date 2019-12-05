@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2tcpip.setsourcefilter
 title: setsourcefilter function (ws2tcpip.h)
-
 description: Sets the multicast filter state for an IPv4 or IPv6 socket.
 old-location: winsock\setsourcefilter.htm
 tech.root: WinSock
 ms.assetid: 320455F3-FDFB-46C6-9F26-3C60064A2CB0
-
 ms.date: 12/05/2018
 ms.keywords: setsourcefilter, setsourcefilter function [Winsock], winsock.setsourcefilter, ws2tcpip/setsourcefilter
 ms.topic: function
-f1_keywords: 
- - "ws2tcpip/setsourcefilter"
+f1_keywords:
+- ws2tcpip/setsourcefilter
 dev_langs:
- - c++
+- c++
 req.header: ws2tcpip.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - setsourcefilter
+- setsourcefilter
 targetos: Windows
 req.typenames: 
 req.redist: 

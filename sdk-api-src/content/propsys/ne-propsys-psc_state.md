@@ -1,19 +1,17 @@
 ---
 UID: NE:propsys.PSC_STATE
 title: PSC_STATE (propsys.h)
-
 description: Specifies the state of a property. They are set manually by the code that is hosting the in-memory property store cache.
 old-location: properties\PSC_STATE.htm
 tech.root: properties
 ms.assetid: f6a09b32-e642-4c11-ae89-fed787b4913c
-
 ms.date: 12/05/2018
 ms.keywords: PSC_DIRTY, PSC_NORMAL, PSC_NOTINSOURCE, PSC_STATE, PSC_STATE enumeration [Windows Properties], properties.PSC_STATE, propsys/PSC_DIRTY, propsys/PSC_NORMAL, propsys/PSC_NOTINSOURCE, propsys/PSC_STATE, shell.PSC_STATE, shell_PSC_STATE
 ms.topic: enum
-f1_keywords: 
- - "propsys/PSC_STATE"
+f1_keywords:
+- propsys/PSC_STATE
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - PSC_STATE
+- PSC_STATE
 targetos: Windows
 req.typenames: PSC_STATE
 req.redist: 

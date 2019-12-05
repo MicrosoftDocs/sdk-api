@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingLevel
 title: TraceLoggingLevel macro (traceloggingprovider.h)
-
 description: Wrapper macro for setting the event's level.
 old-location: tracelogging\tracelogginglevel.htm
 tech.root: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingLevel, TraceLoggingLevel macro, tracelogging.tracelogginglevel, traceloggingprovider/TraceLoggingLevel
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingLevel"
+f1_keywords:
+- traceloggingprovider/TraceLoggingLevel
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingLevel
+- TraceLoggingLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

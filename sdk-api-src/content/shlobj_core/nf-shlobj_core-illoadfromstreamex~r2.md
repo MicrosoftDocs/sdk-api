@@ -4,10 +4,10 @@ title: ILLoadFromStreamEx
 ms.date: 01/30/19
 ms.keywords: ILLoadFromStreamEx
 ms.topic: language-reference
-f1_keywords: 
- - "shlobj_core/ILLoadFromStreamEx"
+f1_keywords:
+- shlobj_core/ILLoadFromStreamEx
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - 
+- 
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - ILLoadFromStreamEx
+- ILLoadFromStreamEx
 ---
 
 # ILLoadFromStreamEx function

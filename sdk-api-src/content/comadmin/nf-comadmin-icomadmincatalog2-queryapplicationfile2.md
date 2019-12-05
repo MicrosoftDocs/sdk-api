@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.QueryApplicationFile2
 title: ICOMAdminCatalog2::QueryApplicationFile2 (comadmin.h)
-
 description: Retrieves information about an application that is about to be installed.
 old-location: cos\icomadmincatalog2_queryapplicationfile2.htm
 tech.root: cossdk
 ms.assetid: 8b2f9ce5-f2d8-4359-ac58-5069d6d58bb7
-
 ms.date: 12/05/2018
 ms.keywords: ICOMAdminCatalog2 interface [COM+],QueryApplicationFile2 method, ICOMAdminCatalog2.QueryApplicationFile2, ICOMAdminCatalog2::QueryApplicationFile2, QueryApplicationFile2, QueryApplicationFile2 method [COM+], QueryApplicationFile2 method [COM+],ICOMAdminCatalog2 interface, _cos_icomadmincatalog2_QueryApplicationFile2, comadmin/ICOMAdminCatalog2::QueryApplicationFile2, cos.icomadmincatalog2_queryapplicationfile2
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICOMAdminCatalog2.QueryApplicationFile2"
+f1_keywords:
+- comadmin/ICOMAdminCatalog2.QueryApplicationFile2
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICOMAdminCatalog2.QueryApplicationFile2
+- ICOMAdminCatalog2.QueryApplicationFile2
 targetos: Windows
 req.typenames: 
 req.redist: 

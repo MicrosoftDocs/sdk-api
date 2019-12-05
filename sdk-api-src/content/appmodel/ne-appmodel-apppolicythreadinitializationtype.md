@@ -1,19 +1,17 @@
 ---
 UID: NE:appmodel.AppPolicyThreadInitializationType
 title: AppPolicyThreadInitializationType (appmodel.h)
-
 description: The AppPolicyThreadInitializationType enumeration indicates the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.
 old-location: appxpkg\apppolicythreadinitializationtype_enumeration.htm
 tech.root: appxpkg
 ms.assetid: F31AC156-5C27-4707-898A-3C8125E11FB3
-
 ms.date: 12/05/2018
 ms.keywords: AppPolicyThreadInitializationType, AppPolicyThreadInitializationType enumeration [App packaging and management], AppPolicyThreadInitializationType_InitializeWinRT, AppPolicyThreadInitializationType_None, appmodel/AppPolicyThreadInitializationType, appmodel/AppPolicyThreadInitializationType_InitializeWinRT, appmodel/AppPolicyThreadInitializationType_None, appxpkg.apppolicythreadinitializationtype_enumeration
 ms.topic: enum
-f1_keywords: 
- - "appmodel/AppPolicyThreadInitializationType"
+f1_keywords:
+- appmodel/AppPolicyThreadInitializationType
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - AppPolicyThreadInitializationType
+- AppPolicyThreadInitializationType
 targetos: Windows
 req.typenames: AppPolicyThreadInitializationType
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetPipelineState
 title: ID3D12GraphicsCommandList::SetPipelineState (d3d12.h)
-
 description: Sets all shaders and programs most of the fixed-function state of the graphics processing unit (GPU) pipeline.
 old-location: direct3d12\id3d12graphicscommandlist_setpipelinestate.htm
 tech.root: direct3d12
 ms.assetid: 751E09A4-D8FE-4DEA-86D9-1C84265F2F21
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetPipelineState method, ID3D12GraphicsCommandList.SetPipelineState, ID3D12GraphicsCommandList::SetPipelineState, SetPipelineState, SetPipelineState method, SetPipelineState method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetPipelineState, direct3d12.id3d12graphicscommandlist_setpipelinestate
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetPipelineState"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetPipelineState
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetPipelineState
+- ID3D12GraphicsCommandList.SetPipelineState
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:objidlbase.IMarshalingStream
 title: IMarshalingStream (objidlbase.h)
-
 description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.
 old-location: com\imarshalingstream.htm
 tech.root: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450
-
 ms.date: 12/05/2018
 ms.keywords: IMarshalingStream, IMarshalingStream interface [COM], IMarshalingStream interface [COM],described, com.imarshalingstream, objidl/IMarshalingStream
 ms.topic: interface
-f1_keywords: 
- - "objidlbase/IMarshalingStream"
+f1_keywords:
+- objidlbase/IMarshalingStream
 dev_langs:
- - c++
+- c++
 req.header: objidlbase.h
 req.include-header: Objidlbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidl.h
+- objidl.h
 api_name:
- - IMarshalingStream
+- IMarshalingStream
 targetos: Windows
 req.typenames: 
 req.redist: 

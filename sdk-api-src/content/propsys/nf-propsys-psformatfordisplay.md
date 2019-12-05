@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSFormatForDisplay
 title: PSFormatForDisplay function (propsys.h)
-
 description: Gets a formatted, Unicode string representation of a property value stored in a PROPVARIANT structure. The caller is responsible for allocating the output buffer.
 old-location: properties\PSFormatForDisplay.htm
 tech.root: properties
 ms.assetid: 71442967-ee8a-448c-83cf-949934ddd152
-
 ms.date: 12/05/2018
 ms.keywords: PSFormatForDisplay, PSFormatForDisplay function [Windows Properties], properties.PSFormatForDisplay, propsys/PSFormatForDisplay, shell.PSFormatForDisplay, shell_PSFormatForDisplay
 ms.topic: function
 f1_keywords:
 - propsys/PSFormatForDisplay
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

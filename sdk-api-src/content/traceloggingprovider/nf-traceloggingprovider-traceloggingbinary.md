@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingBinary
 title: TraceLoggingBinary macro (traceloggingprovider.h)
-
 description: Wrapper macro for raw binary data.
 old-location: tracelogging\traceloggingbinary.htm
 tech.root: tracelogging
 ms.assetid: A1CE1481-7319-41BE-9639-E688365D4628
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingBinary, TraceLoggingBinary macro, tracelogging.traceloggingbinary, traceloggingprovider/TraceLoggingBinary
 ms.topic: macro
-f1_keywords: 
- - "traceloggingprovider/TraceLoggingBinary"
+f1_keywords:
+- traceloggingprovider/TraceLoggingBinary
 dev_langs:
- - c++
+- c++
 req.header: traceloggingprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingprovider.h
+- traceloggingprovider.h
 api_name:
- - TraceLoggingBinary
+- TraceLoggingBinary
 targetos: Windows
 req.typenames: 
 req.redist: 

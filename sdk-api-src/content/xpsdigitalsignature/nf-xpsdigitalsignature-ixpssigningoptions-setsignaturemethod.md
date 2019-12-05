@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetSignatureMethod
 title: IXpsSigningOptions::SetSignatureMethod (xpsdigitalsignature.h)
-
 description: Sets the signature method.
 old-location: xps\ixpssigningoptions_setsignaturemethod.htm
 tech.root: printdocs
 ms.assetid: 318f0e08-2384-4fab-a181-6ff3070ea21f
-
 ms.date: 12/05/2018
 ms.keywords: IXpsSigningOptions interface [XPS Documents and Packaging],SetSignatureMethod method, IXpsSigningOptions.SetSignatureMethod, IXpsSigningOptions::SetSignatureMethod, SetSignatureMethod, SetSignatureMethod method [XPS Documents and Packaging], SetSignatureMethod method [XPS Documents and Packaging],IXpsSigningOptions interface, xps.ixpssigningoptions_setsignaturemethod, xpsdigitalsignature/IXpsSigningOptions::SetSignatureMethod
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSigningOptions.SetSignatureMethod"
+f1_keywords:
+- xpsdigitalsignature/IXpsSigningOptions.SetSignatureMethod
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions.SetSignatureMethod
+- IXpsSigningOptions.SetSignatureMethod
 targetos: Windows
 req.typenames: 
 req.redist: 

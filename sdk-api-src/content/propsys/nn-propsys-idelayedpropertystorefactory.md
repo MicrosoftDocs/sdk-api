@@ -1,19 +1,17 @@
 ---
 UID: NN:propsys.IDelayedPropertyStoreFactory
 title: IDelayedPropertyStoreFactory (propsys.h)
-
 description: Exposes a method to create a specified IPropertyStore object in circumstances where property access is potentially slow.
 old-location: shell\IDelayedPropertyStoreFactory.htm
 tech.root: shell
 ms.assetid: 855c9f10-9f40-4c60-a669-551fa51133f5
-
 ms.date: 12/05/2018
 ms.keywords: IDelayedPropertyStoreFactory, IDelayedPropertyStoreFactory interface [Windows Shell], IDelayedPropertyStoreFactory interface [Windows Shell],described, _shell_IDelayedPropertyStoreFactory, propsys/IDelayedPropertyStoreFactory, shell.IDelayedPropertyStoreFactory
 ms.topic: interface
-f1_keywords: 
- - "propsys/IDelayedPropertyStoreFactory"
+f1_keywords:
+- propsys/IDelayedPropertyStoreFactory
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IDelayedPropertyStoreFactory
+- IDelayedPropertyStoreFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MinMajorChannel
 title: IDigitalCableTuningSpace::get_MinMajorChannel (tuner.h)
-
 description: The get_MinMajorChannel method retrieves the lowest major channel number for this tuning space.
 old-location: mstv\idigitalcabletuningspace_get_minmajorchannel.htm
 tech.root: mstv
 ms.assetid: aa7df820-c970-4333-b4e3-54d68d951f1e
-
 ms.date: 12/05/2018
 ms.keywords: IDigitalCableTuningSpace interface [Microsoft TV Technologies],get_MinMajorChannel method, IDigitalCableTuningSpace.get_MinMajorChannel, IDigitalCableTuningSpace::get_MinMajorChannel, IDigitalCableTuningSpaceget_MinMajorChannel, get_MinMajorChannel, get_MinMajorChannel method [Microsoft TV Technologies], get_MinMajorChannel method [Microsoft TV Technologies],IDigitalCableTuningSpace interface, mstv.idigitalcabletuningspace_get_minmajorchannel, tuner/IDigitalCableTuningSpace::get_MinMajorChannel
 ms.topic: method
-f1_keywords: 
- - "tuner/IDigitalCableTuningSpace.get_MinMajorChannel"
+f1_keywords:
+- tuner/IDigitalCableTuningSpace.get_MinMajorChannel
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDigitalCableTuningSpace.get_MinMajorChannel
+- IDigitalCableTuningSpace.get_MinMajorChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

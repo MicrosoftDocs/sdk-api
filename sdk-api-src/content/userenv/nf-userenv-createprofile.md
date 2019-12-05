@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.CreateProfile
 title: CreateProfile function (userenv.h)
-
 description: Creates a new user profile.
 old-location: shell\CreateProfile.htm
 tech.root: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3
-
 ms.date: 12/05/2018
 ms.keywords: CreateProfile, CreateProfile function [Windows Shell], _shell_CreateProfile, shell.CreateProfile, userenv/CreateProfile
 ms.topic: function
-f1_keywords: 
- - "userenv/CreateProfile"
+f1_keywords:
+- userenv/CreateProfile
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Userenv.dll
+- Userenv.dll
 api_name:
- - CreateProfile
+- CreateProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

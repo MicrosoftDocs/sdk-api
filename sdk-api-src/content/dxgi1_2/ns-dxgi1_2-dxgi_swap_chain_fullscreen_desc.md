@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_2.DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 title: DXGI_SWAP_CHAIN_FULLSCREEN_DESC (dxgi1_2.h)
-
 description: Describes full-screen mode for a swap chain.
 old-location: direct3ddxgi\dxgi_swap_chain_fullscreen_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: 0EE5683E-0623-4FD7-A77F-B64F90A25C6A
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_SWAP_CHAIN_FULLSCREEN_DESC, DXGI_SWAP_CHAIN_FULLSCREEN_DESC structure [DXGI], direct3ddxgi.dxgi_swap_chain_fullscreen_desc, dxgi1_2/DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_2/DXGI_SWAP_CHAIN_FULLSCREEN_DESC"
+f1_keywords:
+- dxgi1_2/DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI1_2.h
+- DXGI1_2.h
 api_name:
- - DXGI_SWAP_CHAIN_FULLSCREEN_DESC
+- DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 targetos: Windows
 req.typenames: DXGI_SWAP_CHAIN_FULLSCREEN_DESC
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.ProcessingComplete
 title: IAudioEndpointRT::ProcessingComplete (audioengineendpoint.h)
-
 description: Notifies the endpoint that a processing pass has been completed.
 old-location: termserv\iaudioendpointrt_processingcomplete.htm
 tech.root: TermServ
 ms.assetid: 1a9c52fa-27ff-4e63-ae87-f5a3cd8d4f9b
-
 ms.date: 12/05/2018
 ms.keywords: IAudioEndpointRT interface [Remote Desktop Services],ProcessingComplete method, IAudioEndpointRT.ProcessingComplete, IAudioEndpointRT::ProcessingComplete, ProcessingComplete, ProcessingComplete method [Remote Desktop Services], ProcessingComplete method [Remote Desktop Services],IAudioEndpointRT interface, audioengineendpoint/IAudioEndpointRT::ProcessingComplete, termserv.iaudioendpointrt_processingcomplete
 ms.topic: method
-f1_keywords: 
- - "audioengineendpoint/IAudioEndpointRT.ProcessingComplete"
+f1_keywords:
+- audioengineendpoint/IAudioEndpointRT.ProcessingComplete
 dev_langs:
- - c++
+- c++
 req.header: audioengineendpoint.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioengineendpoint.h
+- Audioengineendpoint.h
 api_name:
- - IAudioEndpointRT.ProcessingComplete
+- IAudioEndpointRT.ProcessingComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.GetCurrent
 title: IOpcDigitalSignatureEnumerator::GetCurrent (msopc.h)
-
 description: Gets the IOpcDigitalSignature interface pointer at the current position of the enumerator.
 old-location: opc\iopcdigitalsignatureenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: 2e211822-9fd8-424c-bd0c-c5c81f9abc0b
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Open Packaging Conventions], GetCurrent method [Open Packaging Conventions],IOpcDigitalSignatureEnumerator interface, IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions],GetCurrent method, IOpcDigitalSignatureEnumerator.GetCurrent, IOpcDigitalSignatureEnumerator::GetCurrent, msopc/IOpcDigitalSignatureEnumerator::GetCurrent, opc.iopcdigitalsignatureenumerator_getcurrent
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureEnumerator.GetCurrent"
+f1_keywords:
+- msopc/IOpcDigitalSignatureEnumerator.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureEnumerator.GetCurrent
+- IOpcDigitalSignatureEnumerator.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

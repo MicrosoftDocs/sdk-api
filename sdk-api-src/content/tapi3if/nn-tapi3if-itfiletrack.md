@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.ITFileTrack
 title: ITFileTrack (tapi3if.h)
-
 description: The ITFileTrack interface exposes methods that allow an application to get and set information concerning file terminal tracks. The ITFileTerminalEvent::get_Track method creates the ITFileTrack interface.
 old-location: tapi3\itfiletrack.htm
 tech.root: Tapi
 ms.assetid: 590ca1ea-e058-4238-b01c-249fddd3c87d
-
 ms.date: 12/05/2018
 ms.keywords: ITFileTrack, ITFileTrack interface [TAPI 2.2], ITFileTrack interface [TAPI 2.2],described, _tapi3_itfiletrack, tapi3.itfiletrack, tapi3if/ITFileTrack
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/ITFileTrack"
+f1_keywords:
+- tapi3if/ITFileTrack
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITFileTrack
+- ITFileTrack
 targetos: Windows
 req.typenames: 
 req.redist: 

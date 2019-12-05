@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.AsRasterizer
 title: ID3D10EffectVariable::AsRasterizer (d3d10effect.h)
-
 description: Get a rasterizer variable.
 old-location: direct3d10\id3d10effectvariable_asrasterizer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asrasterizer.htm
-
 ms.date: 12/05/2018
 ms.keywords: 0306e054-b8c5-9b23-2bcb-82e72a683879, AsRasterizer, AsRasterizer method [Direct3D 10], AsRasterizer method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsRasterizer method, ID3D10EffectVariable.AsRasterizer, ID3D10EffectVariable::AsRasterizer, d3d10effect/ID3D10EffectVariable::AsRasterizer, direct3d10.id3d10effectvariable_asrasterizer
 ms.topic: method
-f1_keywords: 
- - "d3d10effect/ID3D10EffectVariable.AsRasterizer"
+f1_keywords:
+- d3d10effect/ID3D10EffectVariable.AsRasterizer
 dev_langs:
- - c++
+- c++
 req.header: d3d10effect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10Effect.h
+- D3D10Effect.h
 api_name:
- - ID3D10EffectVariable.AsRasterizer
+- ID3D10EffectVariable.AsRasterizer
 targetos: Windows
 req.typenames: 
 req.redist: 

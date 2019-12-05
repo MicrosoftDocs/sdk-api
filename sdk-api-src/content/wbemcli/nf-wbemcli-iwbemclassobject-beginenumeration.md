@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemClassObject.BeginEnumeration
 title: IWbemClassObject::BeginEnumeration (wbemcli.h)
-
 description: Resets an enumeration back to the beginning of the enumeration.
 old-location: wmi\iwbemclassobject_beginenumeration.htm
 tech.root: WmiSdk
 ms.assetid: c7ece530-5309-4f0d-9096-73d01b4a7fde
-
 ms.date: 12/05/2018
 ms.keywords: BeginEnumeration, BeginEnumeration method [Windows Management Instrumentation], BeginEnumeration method [Windows Management Instrumentation],IWbemClassObject interface, IWbemClassObject interface [Windows Management Instrumentation],BeginEnumeration method, IWbemClassObject.BeginEnumeration, IWbemClassObject::BeginEnumeration, _hmm_iwbemclassobject_beginenumeration, wbemcli/IWbemClassObject::BeginEnumeration, wmi.iwbemclassobject_beginenumeration
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemClassObject.BeginEnumeration"
+f1_keywords:
+- wbemcli/IWbemClassObject.BeginEnumeration
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,23 +30,23 @@ req.lib: WbemUuid.lib
 req.dll: CIMWin32.dll; Esscli.dll; Fastprox.dll; FrameDyn.dll; FrameDynOS.dll; Krnlprov.dll; Ncprov.dll; Wbemcore.dll; Wbemess.dll; Wmipiprt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CIMWin32.dll
- - Esscli.dll
- - Fastprox.dll
- - FrameDyn.dll
- - FrameDynOS.dll
- - Krnlprov.dll
- - Ncprov.dll
- - Wbemcore.dll
- - Wbemess.dll
- - Wmipiprt.dll
+- CIMWin32.dll
+- Esscli.dll
+- Fastprox.dll
+- FrameDyn.dll
+- FrameDynOS.dll
+- Krnlprov.dll
+- Ncprov.dll
+- Wbemcore.dll
+- Wbemess.dll
+- Wmipiprt.dll
 api_name:
- - IWbemClassObject.BeginEnumeration
+- IWbemClassObject.BeginEnumeration
 targetos: Windows
 req.typenames: 
 req.redist: 

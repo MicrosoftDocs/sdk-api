@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPStringCollection2.getAttributeCountByType
 title: IWMPStringCollection2::getAttributeCountByType (wmp.h)
-
 description: The getAttributeCountByType method retrieves the number of attributes associated with the specified string collection index, attribute name, and language.
 old-location: wmp\iwmpstringcollection2_getattributecountbytype.htm
 tech.root: WMP
 ms.assetid: 62e31749-2640-4b65-a8ee-47f3d3dd5485
-
 ms.date: 12/05/2018
 ms.keywords: IWMPStringCollection2 interface [Windows Media Player],getAttributeCountByType method, IWMPStringCollection2.getAttributeCountByType, IWMPStringCollection2::getAttributeCountByType, IWMPStringCollection2getAttributeCountByType, getAttributeCountByType, getAttributeCountByType method [Windows Media Player], getAttributeCountByType method [Windows Media Player],IWMPStringCollection2 interface, wmp.iwmpstringcollection2_getattributecountbytype, wmp/IWMPStringCollection2::getAttributeCountByType
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPStringCollection2.getAttributeCountByType"
+f1_keywords:
+- wmp/IWMPStringCollection2.getAttributeCountByType
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPStringCollection2.getAttributeCountByType
+- IWMPStringCollection2.getAttributeCountByType
 targetos: Windows
 req.typenames: 
 req.redist: 

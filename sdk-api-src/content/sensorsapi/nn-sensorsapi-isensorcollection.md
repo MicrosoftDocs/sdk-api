@@ -1,19 +1,17 @@
 ---
 UID: NN:sensorsapi.ISensorCollection
 title: ISensorCollection (sensorsapi.h)
-
 description: Represents a collection of sensors, such as all the sensors connected to a computer.
 old-location: winsensors\isensorcollection.htm
 tech.root: SensorsAPI
 ms.assetid: 54d8572a-40a2-49d0-a8bf-2161b63eee42
-
 ms.date: 12/05/2018
 ms.keywords: ISensorCollection, ISensorCollection interface [WinSensors], ISensorCollection interface [WinSensors],described, sensorsapi/ISensorCollection, winsensors.isensorcollection
 ms.topic: interface
-f1_keywords: 
- - "sensorsapi/ISensorCollection"
+f1_keywords:
+- sensorsapi/ISensorCollection
 dev_langs:
- - c++
+- c++
 req.header: sensorsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Sensorsapi.lib
 req.dll: Sensorsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sensorsapi.dll
+- sensorsapi.dll
 api_name:
- - ISensorCollection
+- ISensorCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

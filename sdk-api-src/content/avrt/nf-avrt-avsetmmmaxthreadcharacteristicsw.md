@@ -1,19 +1,17 @@
 ---
 UID: NF:avrt.AvSetMmMaxThreadCharacteristicsW
 title: AvSetMmMaxThreadCharacteristicsW function (avrt.h)
-
 description: Associates the calling thread with the specified tasks.
 old-location: base\avsetmmmaxthreadcharacteristics.htm
 tech.root: ProcThread
 ms.assetid: d8137b53-b1fd-4c25-909a-d0ed671848df
-
 ms.date: 12/05/2018
 ms.keywords: AvSetMmMaxThreadCharacteristics, AvSetMmMaxThreadCharacteristics function, AvSetMmMaxThreadCharacteristicsA, AvSetMmMaxThreadCharacteristicsW, avrt/AvSetMmMaxThreadCharacteristics, avrt/AvSetMmMaxThreadCharacteristicsA, avrt/AvSetMmMaxThreadCharacteristicsW, base.avsetmmmaxthreadcharacteristics
 ms.topic: function
-f1_keywords: 
- - "avrt/AvSetMmMaxThreadCharacteristics"
+f1_keywords:
+- avrt/AvSetMmMaxThreadCharacteristics
 dev_langs:
- - c++
+- c++
 req.header: avrt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Avrt.lib
 req.dll: Avrt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avrt.dll
+- Avrt.dll
 api_name:
- - AvSetMmMaxThreadCharacteristics
- - AvSetMmMaxThreadCharacteristicsA
- - AvSetMmMaxThreadCharacteristicsW
+- AvSetMmMaxThreadCharacteristics
+- AvSetMmMaxThreadCharacteristicsA
+- AvSetMmMaxThreadCharacteristicsW
 targetos: Windows
 req.typenames: 
 req.redist: 

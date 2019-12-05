@@ -1,7 +1,6 @@
 ---
 UID: NA:imagehlp
 ms.assetid: 1721db5b-f550-38d7-9e78-a802731ec92e
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

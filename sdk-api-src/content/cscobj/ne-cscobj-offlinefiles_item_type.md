@@ -1,19 +1,17 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_ITEM_TYPE
 title: OFFLINEFILES_ITEM_TYPE (cscobj.h)
-
 description: Identifies the type of an item in the Offline Files cache.
 old-location: of\offlinefiles_item_type.htm
 tech.root: offlinefiles
 ms.assetid: cf8bb079-d691-4b37-b408-d1af1746ed37
-
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_ITEM_TYPE, OFFLINEFILES_ITEM_TYPE enumeration [Offline Files], OFFLINEFILES_ITEM_TYPE_DIRECTORY, OFFLINEFILES_ITEM_TYPE_FILE, OFFLINEFILES_ITEM_TYPE_SERVER, OFFLINEFILES_ITEM_TYPE_SHARE, cscobj/OFFLINEFILES_ITEM_TYPE, cscobj/OFFLINEFILES_ITEM_TYPE_DIRECTORY, cscobj/OFFLINEFILES_ITEM_TYPE_FILE, cscobj/OFFLINEFILES_ITEM_TYPE_SERVER, cscobj/OFFLINEFILES_ITEM_TYPE_SHARE, of.offlinefiles_item_type
 ms.topic: enum
-f1_keywords: 
- - "cscobj/OFFLINEFILES_ITEM_TYPE"
+f1_keywords:
+- cscobj/OFFLINEFILES_ITEM_TYPE
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CscObj.h
+- CscObj.h
 api_name:
- - OFFLINEFILES_ITEM_TYPE
+- OFFLINEFILES_ITEM_TYPE
 targetos: Windows
 req.typenames: OFFLINEFILES_ITEM_TYPE
 req.redist: 

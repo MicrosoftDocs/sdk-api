@@ -1,19 +1,17 @@
 ---
 UID: NS:dxva2api._DXVA2_Frequency
 title: DXVA2_Frequency (dxva2api.h)
-
 description: Defines a video frequency.
 old-location: mf\dxva2_frequency.htm
 tech.root: medfound
 ms.assetid: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae
-
 ms.date: 12/05/2018
 ms.keywords: 03b6bef9-c0ba-4efa-9552-55c8e9fd77ae, DXVA2_Frequency, DXVA2_Frequency structure [Media Foundation], dxva2api/DXVA2_Frequency, mf.dxva2_frequency
 ms.topic: struct
-f1_keywords: 
- - "dxva2api/DXVA2_Frequency"
+f1_keywords:
+- dxva2api/DXVA2_Frequency
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - DXVA2_Frequency
+- DXVA2_Frequency
 targetos: Windows
 req.typenames: DXVA2_Frequency
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_IPSinkInfo
 title: IBDA_IPSinkInfo (bdaiface.h)
-
 description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems.
 old-location: mstv\ibda_ipsinkinfo.htm
 tech.root: mstv
 ms.assetid: fbbe12ea-964a-4a83-ac0a-ac8808bd9a63
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_IPSinkInfo, IBDA_IPSinkInfo interface [Microsoft TV Technologies], IBDA_IPSinkInfo interface [Microsoft TV Technologies],described, IBDA_IPSinkInfoInterface, bdaiface/IBDA_IPSinkInfo, mstv.ibda_ipsinkinfo
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_IPSinkInfo"
+f1_keywords:
+- bdaiface/IBDA_IPSinkInfo
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_IPSinkInfo
+- IBDA_IPSinkInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

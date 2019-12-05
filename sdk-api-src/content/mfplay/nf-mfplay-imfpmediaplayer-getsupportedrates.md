@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetSupportedRates
 title: IMFPMediaPlayer::GetSupportedRates (mfplay.h)
-
 description: Gets the range of supported playback rates.
 old-location: mf\imfpmediaplayer_getsupportedrates.htm
 tech.root: medfound
 ms.assetid: e0e738e4-b8e4-41da-8b74-74ce06f17274
-
 ms.date: 12/05/2018
 ms.keywords: GetSupportedRates, GetSupportedRates method [Media Foundation], GetSupportedRates method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetSupportedRates method, IMFPMediaPlayer.GetSupportedRates, IMFPMediaPlayer::GetSupportedRates, mf.imfpmediaplayer_getsupportedrates, mfplay/IMFPMediaPlayer::GetSupportedRates
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.GetSupportedRates"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.GetSupportedRates
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.GetSupportedRates
+- IMFPMediaPlayer.GetSupportedRates
 targetos: Windows
 req.typenames: 
 req.redist: 

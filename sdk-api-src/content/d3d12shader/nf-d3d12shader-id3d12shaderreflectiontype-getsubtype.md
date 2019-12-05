@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetSubType
 title: ID3D12ShaderReflectionType::GetSubType (d3d12shader.h)
-
 description: Gets the base class of a class.
 old-location: direct3d12\id3d12shaderreflectiontype_getsubtype.htm
 tech.root: direct3d12
 ms.assetid: FE91228D-F9DD-47F1-84E7-08D3C7E424C4
-
 ms.date: 12/05/2018
 ms.keywords: GetSubType, GetSubType method, GetSubType method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetSubType method, ID3D12ShaderReflectionType.GetSubType, ID3D12ShaderReflectionType::GetSubType, d3d12shader/ID3D12ShaderReflectionType::GetSubType, direct3d12.id3d12shaderreflectiontype_getsubtype
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionType.GetSubType"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionType.GetSubType
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionType.GetSubType
+- ID3D12ShaderReflectionType.GetSubType
 targetos: Windows
 req.typenames: 
 req.redist: 

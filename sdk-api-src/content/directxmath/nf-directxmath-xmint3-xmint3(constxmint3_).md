@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMINT3.XMINT3(const XMINT3 &)
 title: XMINT3::XMINT3(const XMINT3 &) (directxmath.h)
-
 description: A constructor for XMINT3.
 old-location: 
 tech.root: dxmath
 ms.assetid: 
-
 ms.date: 05/13/2019
 ms.keywords: XMINT3, XMINT3 constructor [DirectX Math Support APIs], XMINT3 constructor [DirectX Math Support APIs],XMINT3 structure, XMINT3 structure [DirectX Math Support APIs],XMINT3 constructor, XMINT3.XMINT3, XMINT3.XMINT3(), XMINT3.XMINT3(const XMINT3 &), XMINT3::XMINT3, XMINT3::XMINT3(const XMINT3 &), dxmath.xmint3_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxmath/XMINT3.XMINT3"
+f1_keywords:
+- directxmath/XMINT3.XMINT3
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMINT3.XMINT3
+- XMINT3.XMINT3
 targetos: Windows
 req.typenames: 
 req.redist: 

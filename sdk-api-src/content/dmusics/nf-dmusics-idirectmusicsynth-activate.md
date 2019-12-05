@@ -1,19 +1,17 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Activate
 title: IDirectMusicSynth::Activate (dmusics.h)
-
 description: The Activate method enables or disables the audio device under program control.
 old-location: audio\idirectmusicsynth_activate.htm
 tech.root: audio
 ms.assetid: 9efdb079-ed24-43b4-844b-344571399de7
-
 ms.date: 12/05/2018
 ms.keywords: Activate, Activate method [Audio Devices], Activate method [Audio Devices],IDirectMusicSynth interface, IDirectMusicSynth interface [Audio Devices],Activate method, IDirectMusicSynth.Activate, IDirectMusicSynth::Activate, audio.idirectmusicsynth_activate, audmp-routines_56894d17-83db-4b4f-8e26-58103856a97e.xml, dmusics/IDirectMusicSynth::Activate
 ms.topic: method
-f1_keywords: 
- - "dmusics/IDirectMusicSynth.Activate"
+f1_keywords:
+- dmusics/IDirectMusicSynth.Activate
 dev_langs:
- - c++
+- c++
 req.header: dmusics.h
 req.include-header: Dmusics.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dmusics.h
+- dmusics.h
 api_name:
- - IDirectMusicSynth.Activate
+- IDirectMusicSynth.Activate
 targetos: Windows
 req.typenames: 
 req.redist: 

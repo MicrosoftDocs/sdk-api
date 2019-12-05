@@ -1,19 +1,17 @@
 ---
 UID: NN:uianimation.IUIAnimationVariable
 title: IUIAnimationVariable (uianimation.h)
-
 description: Defines an animation variable, which represents a visual element that can be animated.
 old-location: uianimation\iuianimationvariable.htm
 tech.root: UIAnimation
 ms.assetid: 1632e62d-6e82-4841-8823-f6b60efc4298
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationVariable, IUIAnimationVariable interface [Windows Animation], IUIAnimationVariable interface [Windows Animation],described, uianimation.iuianimationvariable, uianimation/IUIAnimationVariable
 ms.topic: interface
-f1_keywords: 
- - "uianimation/IUIAnimationVariable"
+f1_keywords:
+- uianimation/IUIAnimationVariable
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationVariable
+- IUIAnimationVariable
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.WSAWaitForMultipleEvents
 title: WSAWaitForMultipleEvents function (winsock2.h)
-
 description: Returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
 old-location: winsock\wsawaitformultipleevents_2.htm
 tech.root: WinSock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
-
 ms.date: 12/05/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
 ms.topic: function
-f1_keywords: 
- - "winsock2/WSAWaitForMultipleEvents"
+f1_keywords:
+- winsock2/WSAWaitForMultipleEvents
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSAWaitForMultipleEvents
+- WSAWaitForMultipleEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

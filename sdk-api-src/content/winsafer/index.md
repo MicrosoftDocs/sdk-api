@@ -1,7 +1,6 @@
 ---
 UID: NA:winsafer
 ms.assetid: a41919ee-07b9-3c9d-9b40-e3735e91f391
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

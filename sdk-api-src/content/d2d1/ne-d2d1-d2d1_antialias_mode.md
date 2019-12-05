@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_ANTIALIAS_MODE
 title: D2D1_ANTIALIAS_MODE (d2d1.h)
-
 description: Specifies how the edges of nontext primitives are rendered.
 old-location: direct2d\D2D1_ANTIALIAS_MODE.htm
 tech.root: Direct2D
 ms.assetid: 3ca12155-6dd0-41bb-8778-3387422c4ffe
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_ANTIALIAS_MODE, D2D1_ANTIALIAS_MODE enumeration [Direct2D], D2D1_ANTIALIAS_MODE_ALIASED, D2D1_ANTIALIAS_MODE_PER_PRIMITIVE, d2d1/D2D1_ANTIALIAS_MODE, d2d1/D2D1_ANTIALIAS_MODE_ALIASED, d2d1/D2D1_ANTIALIAS_MODE_PER_PRIMITIVE, direct2d.D2D1_ANTIALIAS_MODE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_ANTIALIAS_MODE"
+f1_keywords:
+- d2d1/D2D1_ANTIALIAS_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_ANTIALIAS_MODE
+- D2D1_ANTIALIAS_MODE
 targetos: Windows
 req.typenames: D2D1_ANTIALIAS_MODE
 req.redist: 

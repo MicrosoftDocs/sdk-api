@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IComInstanceEvents
 title: IComInstanceEvents (comsvcs.h)
-
 description: Notifies the subscriber of an object's creation or release.
 old-location: cos\icominstanceevents.htm
 tech.root: cossdk
 ms.assetid: 11e4559e-04c5-4fa9-b618-458ca7daf00e
-
 ms.date: 12/05/2018
 ms.keywords: IComInstanceEvents, IComInstanceEvents interface [COM+], IComInstanceEvents interface [COM+],described, _dtc_IComInstanceEvents, comsvcs/IComInstanceEvents, cos.icominstanceevents
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IComInstanceEvents"
+f1_keywords:
+- comsvcs/IComInstanceEvents
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComInstanceEvents
+- IComInstanceEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

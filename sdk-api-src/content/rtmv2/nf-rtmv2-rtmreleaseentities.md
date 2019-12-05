@@ -1,19 +1,17 @@
 ---
 UID: NF:rtmv2.RtmReleaseEntities
 title: RtmReleaseEntities function (rtmv2.h)
-
 description: The RtmReleaseEntities function releases the client handles returned by RtmGetRegisteredEntities.
 old-location: rras\rtmreleaseentities.htm
 tech.root: RRAS
 ms.assetid: 1f6c4275-0129-4f27-b9b2-bfda33d34d21
-
 ms.date: 12/05/2018
 ms.keywords: RtmReleaseEntities, RtmReleaseEntities function [RAS], _rtmv2ref_rtmreleaseentities, rras.rtmreleaseentities, rtmv2/RtmReleaseEntities
 ms.topic: function
-f1_keywords: 
- - "rtmv2/RtmReleaseEntities"
+f1_keywords:
+- rtmv2/RtmReleaseEntities
 dev_langs:
- - c++
+- c++
 req.header: rtmv2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtm.lib
 req.dll: Rtm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rtm.dll
+- Rtm.dll
 api_name:
- - RtmReleaseEntities
+- RtmReleaseEntities
 targetos: Windows
 req.typenames: 
 req.redist: 

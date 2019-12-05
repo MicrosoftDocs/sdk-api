@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMScalarASinEst
 title: XMScalarASinEst function (directxmath.h)
-
 description: Estimates the arcsine of a floating-point number.
 old-location: dxmath\xmscalarasinest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.scalar.XMScalarASinEst(float)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMScalarASinEst, XMScalarASinEst, XMScalarASinEst method [DirectX Math Support APIs], dxmath.xmscalarasinest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMScalarASinEst"
+f1_keywords:
+- directxmath/XMScalarASinEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMScalarASinEst
+- XMScalarASinEst
 targetos: Windows
 req.typenames: 
 req.redist: 

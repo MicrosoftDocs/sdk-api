@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICBitmapCreateCacheOption
 title: WICBitmapCreateCacheOption (wincodec.h)
-
 description: Specifies the desired cache usage.
 old-location: wic\_wic_codec_wicbitmapcreatecacheoption.htm
 tech.root: wic
 ms.assetid: 121d394d-e818-44c5-bf44-3b01df61c780
-
 ms.date: 12/05/2018
 ms.keywords: WICBitmapCacheOnDemand, WICBitmapCacheOnLoad, WICBitmapCreateCacheOption, WICBitmapCreateCacheOption enumeration [Windows Imaging Component], WICBitmapNoCache, _wic_codec_wicbitmapcreatecacheoption, wic._wic_codec_wicbitmapcreatecacheoption, wincodec/WICBitmapCacheOnDemand, wincodec/WICBitmapCacheOnLoad, wincodec/WICBitmapCreateCacheOption, wincodec/WICBitmapNoCache
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICBitmapCreateCacheOption"
+f1_keywords:
+- wincodec/WICBitmapCreateCacheOption
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapCreateCacheOption
+- WICBitmapCreateCacheOption
 targetos: Windows
 req.typenames: WICBitmapCreateCacheOption
 req.redist: 

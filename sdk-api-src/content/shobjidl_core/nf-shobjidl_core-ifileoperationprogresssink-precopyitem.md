@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOperationProgressSink.PreCopyItem
 title: IFileOperationProgressSink::PreCopyItem (shobjidl_core.h)
-
 description: Performs caller-implemented actions before the copy process for each item begins.
 old-location: shell\IFileOperationProgressSink_PreCopyItem.htm
 tech.root: shell
 ms.assetid: ee436179-197d-49f6-986c-62a1ea930af5
-
 ms.date: 12/05/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],PreCopyItem method, IFileOperationProgressSink.PreCopyItem, IFileOperationProgressSink::PreCopyItem, PreCopyItem, PreCopyItem method [Windows Shell], PreCopyItem method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_PreCopyItem, shell.IFileOperationProgressSink_PreCopyItem, shobjidl_core/IFileOperationProgressSink::PreCopyItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOperationProgressSink.PreCopyItem"
+f1_keywords:
+- shobjidl_core/IFileOperationProgressSink.PreCopyItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOperationProgressSink.PreCopyItem
+- IFileOperationProgressSink.PreCopyItem
 targetos: Windows
 req.typenames: 
 req.redist: 

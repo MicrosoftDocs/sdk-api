@@ -3,14 +3,13 @@ UID: NF:gdiplusheaders.FontFamily.FontFamily
 title: FontFamily::FontFamily
 description: Creates an empty FontFamily::FontFamily object.
 ms.assetid: 2d9e8f9e-9477-4b2b-b4b3-72781ede2c07
-
 ms.date: 05/20/2019
 ms.keywords: FontFamily::FontFamily
 ms.topic: language-reference
-f1_keywords: 
- - "gdiplusheaders/FontFamily::FontFamily"
+f1_keywords:
+- gdiplusheaders/FontFamily::FontFamily
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdiplusheaders.h
+- gdiplusheaders.h
 api_name:
- - FontFamily::FontFamily
+- FontFamily::FontFamily
 ---
 
 # FontFamily::FontFamily

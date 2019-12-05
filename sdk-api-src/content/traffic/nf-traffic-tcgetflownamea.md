@@ -1,19 +1,17 @@
 ---
 UID: NF:traffic.TcGetFlowNameA
 title: TcGetFlowNameA function (traffic.h)
-
 description: The TcGetFlowName function provides the name of a flow that has been created by the calling client.
 old-location: qos\tcgetflowname.htm
 tech.root: QOS
 ms.assetid: 49a78c9a-6aac-4348-9f26-dfd331dc83ec
-
 ms.date: 12/05/2018
 ms.keywords: TcGetFlowName, TcGetFlowName function [QOS], TcGetFlowNameA, TcGetFlowNameW, _gqos_tcgetflowname, qos.tcgetflowname, traffic/TcGetFlowName, traffic/TcGetFlowNameA, traffic/TcGetFlowNameW
 ms.topic: function
-f1_keywords: 
- - "traffic/TcGetFlowName"
+f1_keywords:
+- traffic/TcGetFlowName
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Traffic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Traffic.dll
+- Traffic.dll
 api_name:
- - TcGetFlowName
- - TcGetFlowNameA
- - TcGetFlowNameW
+- TcGetFlowName
+- TcGetFlowNameA
+- TcGetFlowNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

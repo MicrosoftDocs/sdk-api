@@ -1,19 +1,17 @@
 ---
 UID: NS:wofapi._WIM_ENTRY_INFO
 title: WIM_ENTRY_INFO (wofapi.h)
-
 description: Defines metadata specific to each WIM data source hosted on a volume.
 old-location: fs\wim_entry_info.htm
 tech.root: FileIO
 ms.assetid: 2631B8AC-22B6-410A-AF3C-6D81FEECFB61
-
 ms.date: 12/05/2018
-ms.keywords: "*PWIM_ENTRY_INFO, PWIM_ENTRY_INFO, PWIM_ENTRY_INFO structure pointer [Files], WIM_ENTRY_INFO, WIM_ENTRY_INFO structure [Files], fs.wim_entry_info, wofapi/PWIM_ENTRY_INFO, wofapi/WIM_ENTRY_INFO"
+ms.keywords: '*PWIM_ENTRY_INFO, PWIM_ENTRY_INFO, PWIM_ENTRY_INFO structure pointer [Files], WIM_ENTRY_INFO, WIM_ENTRY_INFO structure [Files], fs.wim_entry_info, wofapi/PWIM_ENTRY_INFO, wofapi/WIM_ENTRY_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wofapi/WIM_ENTRY_INFO"
+f1_keywords:
+- wofapi/WIM_ENTRY_INFO
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wofapi.h
+- wofapi.h
 api_name:
- - WIM_ENTRY_INFO
+- WIM_ENTRY_INFO
 targetos: Windows
 req.typenames: WIM_ENTRY_INFO, *PWIM_ENTRY_INFO
 req.redist: 

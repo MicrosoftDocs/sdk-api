@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPError.webHelp
 title: IWMPError::webHelp (wmp.h)
-
 description: The webHelp method launches the Windows Media Player Web Help page to display further information about the first error in the error queue (index zero).
 old-location: wmp\iwmperror_webhelp.htm
 tech.root: WMP
 ms.assetid: 98ece2f3-36c4-4bb2-9a06-c3ce57cbcbe7
-
 ms.date: 12/05/2018
 ms.keywords: IWMPError interface [Windows Media Player],webHelp method, IWMPError.webHelp, IWMPError::webHelp, IWMPErrorwebHelp, webHelp, webHelp method [Windows Media Player], webHelp method [Windows Media Player],IWMPError interface, wmp.iwmperror_webhelp, wmp/IWMPError::webHelp
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPError.webHelp"
+f1_keywords:
+- wmp/IWMPError.webHelp
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPError.webHelp
+- IWMPError.webHelp
 targetos: Windows
 req.typenames: 
 req.redist: 

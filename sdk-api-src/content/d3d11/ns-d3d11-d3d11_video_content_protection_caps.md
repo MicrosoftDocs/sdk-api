@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_CONTENT_PROTECTION_CAPS
 title: D3D11_VIDEO_CONTENT_PROTECTION_CAPS (d3d11.h)
-
 description: Describes the content-protection capabilities of a graphics driver.
 old-location: mf\d3d11_video_content_protection_caps.htm
 tech.root: medfound
 ms.assetid: 15691779-DC30-4C0C-86D0-497F2BD60614
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_CONTENT_PROTECTION_CAPS, D3D11_VIDEO_CONTENT_PROTECTION_CAPS structure [Media Foundation], d3d11/D3D11_VIDEO_CONTENT_PROTECTION_CAPS, mf.d3d11_video_content_protection_caps
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_CONTENT_PROTECTION_CAPS"
+f1_keywords:
+- d3d11/D3D11_VIDEO_CONTENT_PROTECTION_CAPS
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_CONTENT_PROTECTION_CAPS
+- D3D11_VIDEO_CONTENT_PROTECTION_CAPS
 targetos: Windows
 req.typenames: D3D11_VIDEO_CONTENT_PROTECTION_CAPS
 req.redist: 

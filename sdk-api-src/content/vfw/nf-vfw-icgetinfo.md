@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICGetInfo
 title: ICGetInfo function (vfw.h)
-
 description: The ICGetInfo function obtains information about a compressor.
 old-location: multimedia\icgetinfo.htm
 tech.root: Multimedia
 ms.assetid: 763dc5ef-7578-44c8-ab14-0e49644213ef
-
 ms.date: 12/05/2018
 ms.keywords: ICGetInfo, ICGetInfo function [Windows Multimedia], _win32_ICGetInfo, multimedia.icgetinfo, vfw/ICGetInfo
 ms.topic: function
-f1_keywords: 
- - "vfw/ICGetInfo"
+f1_keywords:
+- vfw/ICGetInfo
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - ICGetInfo
+- ICGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

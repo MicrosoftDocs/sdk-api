@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Clone
 title: IEnumCERTVIEWATTRIBUTE::Clone (certview.h)
-
 description: Creates a copy of the attribute-enumeration sequence object in its current state.
 old-location: security\ienumcertviewattribute_clone.htm
 tech.root: SecCrypto
 ms.assetid: 6144514a-cd64-42ce-a856-ff942b129e5a
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWATTRIBUTE interface, IEnumCERTVIEWATTRIBUTE interface [Security],Clone method, IEnumCERTVIEWATTRIBUTE.Clone, IEnumCERTVIEWATTRIBUTE::Clone, _certsrv_ienumcertviewattribute_clone, certview/IEnumCERTVIEWATTRIBUTE::Clone, security.ienumcertviewattribute_clone
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWATTRIBUTE.Clone"
+f1_keywords:
+- certview/IEnumCERTVIEWATTRIBUTE.Clone
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWATTRIBUTE.Clone
- - IEnumCERTVIEWATTRIBUTE.Clone
+- IEnumCERTVIEWATTRIBUTE.Clone
+- IEnumCERTVIEWATTRIBUTE.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

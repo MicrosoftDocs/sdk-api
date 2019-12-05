@@ -1,19 +1,17 @@
 ---
 UID: NF:vmr9.IVMRSurface9.UnlockSurface
 title: IVMRSurface9::UnlockSurface (vmr9.h)
-
 description: The UnlockSurface method unlocks the attached Direct3D surface.
 old-location: dshow\ivmrsurface9_unlocksurface.htm
 tech.root: DirectShow
 ms.assetid: 2785b1b7-62ed-420d-ab98-264e1b03b578
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurface9 interface [DirectShow],UnlockSurface method, IVMRSurface9.UnlockSurface, IVMRSurface9::UnlockSurface, IVMRSurface9UnlockSurface, UnlockSurface, UnlockSurface method [DirectShow], UnlockSurface method [DirectShow],IVMRSurface9 interface, dshow.ivmrsurface9_unlocksurface, vmr9/IVMRSurface9::UnlockSurface
 ms.topic: method
-f1_keywords: 
- - "vmr9/IVMRSurface9.UnlockSurface"
+f1_keywords:
+- vmr9/IVMRSurface9.UnlockSurface
 dev_langs:
- - c++
+- c++
 req.header: vmr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurface9.UnlockSurface
+- IVMRSurface9.UnlockSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

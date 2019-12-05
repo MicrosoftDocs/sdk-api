@@ -1,19 +1,17 @@
 ---
 UID: NS:mpegtype.tagAM_MPEGSTREAMTYPE
 title: AM_MPEGSTREAMTYPE (mpegtype.h)
-
 description: The AM_MPEGSTREAMTYPE structure defines the media type for an MPEG-1 program stream.
 old-location: dshow\am_mpegstreamtype.htm
 tech.root: DirectShow
 ms.assetid: 8622ffcb-be64-4a8f-8bc7-834b559b0f95
-
 ms.date: 12/05/2018
 ms.keywords: AM_MPEGSTREAMTYPE, AM_MPEGSTREAMTYPE structure [DirectShow], dshow.am_mpegstreamtype, mpegtype/AM_MPEGSTREAMTYPE
 ms.topic: struct
-f1_keywords: 
- - "mpegtype/AM_MPEGSTREAMTYPE"
+f1_keywords:
+- mpegtype/AM_MPEGSTREAMTYPE
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mpegtype.h
+- mpegtype.h
 api_name:
- - AM_MPEGSTREAMTYPE
+- AM_MPEGSTREAMTYPE
 targetos: Windows
 req.typenames: AM_MPEGSTREAMTYPE
 req.redist: 

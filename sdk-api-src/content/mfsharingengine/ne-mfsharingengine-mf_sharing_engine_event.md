@@ -1,19 +1,17 @@
 ---
 UID: NE:mfsharingengine.MF_SHARING_ENGINE_EVENT
 title: MF_SHARING_ENGINE_EVENT (mfsharingengine.h)
-
 description: Defines events that are sent by the sharing engine.
 old-location: mf\mf_sharing_engine_event.htm
 tech.root: medfound
 ms.assetid: 475BC98E-6795-4629-AD41-9C6A63AC51C7
-
 ms.date: 12/05/2018
 ms.keywords: MF_SHARING_ENGINE_EVENT, MF_SHARING_ENGINE_EVENT enumeration [Media Foundation], MF_SHARING_ENGINE_EVENT_DISCONNECT, MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED, MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED, MF_SHARING_ENGINE_EVENT_STOPPED, mf.mf_sharing_engine_event, mfsharingengine/MF_SHARING_ENGINE_EVENT, mfsharingengine/MF_SHARING_ENGINE_EVENT_DISCONNECT, mfsharingengine/MF_SHARING_ENGINE_EVENT_LOCALRENDERINGENDED, mfsharingengine/MF_SHARING_ENGINE_EVENT_LOCALRENDERINGSTARTED, mfsharingengine/MF_SHARING_ENGINE_EVENT_STOPPED
 ms.topic: enum
-f1_keywords: 
- - "mfsharingengine/MF_SHARING_ENGINE_EVENT"
+f1_keywords:
+- mfsharingengine/MF_SHARING_ENGINE_EVENT
 dev_langs:
- - c++
+- c++
 req.header: mfsharingengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfsharingengine.h
+- mfsharingengine.h
 api_name:
- - MF_SHARING_ENGINE_EVENT
+- MF_SHARING_ENGINE_EVENT
 targetos: Windows
 req.typenames: MF_SHARING_ENGINE_EVENT
 req.redist: 

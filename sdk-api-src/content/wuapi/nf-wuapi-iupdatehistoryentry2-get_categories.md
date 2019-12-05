@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry2.get_Categories
 title: IUpdateHistoryEntry2::get_Categories (wuapi.h)
-
 description: Gets a collection of the update categories to which an update belongs.
 old-location: wua\iupdatehistoryentry2_categories.htm
 tech.root: Wua_Sdk
 ms.assetid: b821d608-61c2-4442-8b7e-18e27006602b
-
 ms.date: 12/05/2018
 ms.keywords: Categories property [Windows Update Agent], Categories property [Windows Update Agent],IUpdateHistoryEntry2 interface, IUpdateHistoryEntry2 interface [Windows Update Agent],Categories property, IUpdateHistoryEntry2.Categories, IUpdateHistoryEntry2.get_Categories, IUpdateHistoryEntry2::Categories, IUpdateHistoryEntry2::get_Categories, get_Categories, wua.iupdatehistoryentry2_categories, wuapi/IUpdateHistoryEntry2::Categories, wuapi/IUpdateHistoryEntry2::get_Categories
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateHistoryEntry2.Categories"
+f1_keywords:
+- wuapi/IUpdateHistoryEntry2.Categories
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateHistoryEntry2.Categories
- - IUpdateHistoryEntry2.get_Categories
+- IUpdateHistoryEntry2.Categories
+- IUpdateHistoryEntry2.get_Categories
 targetos: Windows
 req.typenames: 
 req.redist: 

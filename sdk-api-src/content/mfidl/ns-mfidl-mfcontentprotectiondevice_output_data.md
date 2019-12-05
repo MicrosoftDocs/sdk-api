@@ -1,19 +1,17 @@
 ---
 UID: NS:mfidl._MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 title: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA (mfidl.h)
-
 description: Contains information about the data you received as output from a protection system function.
 old-location: mf\mfcontentprotectiondevice_output_data.htm
 tech.root: medfound
 ms.assetid: 73380F30-E219-4670-86DA-63CDA10C94BF
-
 ms.date: 12/05/2018
 ms.keywords: MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA, MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA structure [Media Foundation], mf.mfcontentprotectiondevice_output_data, mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 ms.topic: struct
 f1_keywords:
 - mfidl/MFCONTENTPROTECTIONDEVICE_OUTPUT_DATA
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows

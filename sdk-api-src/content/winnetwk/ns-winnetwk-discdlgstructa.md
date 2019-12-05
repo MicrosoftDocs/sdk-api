@@ -1,19 +1,17 @@
 ---
 UID: NS:winnetwk._DISCDLGSTRUCTA
 title: DISCDLGSTRUCTA (winnetwk.h)
-
 description: Used in the WNetDisconnectDialog1 function. The structure contains required information for the disconnect attempt.
 old-location: wnet\discdlgstruct_str.htm
 tech.root: WNet
 ms.assetid: ae415815-f247-4217-a4f1-6a7ca9288890
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDISCDLGSTRUCTA, DISCDLGSTRUCT, DISCDLGSTRUCT structure [Windows Networking (WNet)], DISCDLGSTRUCTA, DISCDLGSTRUCTW, DISC_NO_FORCE, DISC_UPDATE_PROFILE, LPDISCDLGSTRUCT, LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)], _win32_discdlgstruct_str, winnetwk/DISCDLGSTRUCT, winnetwk/DISCDLGSTRUCTA, winnetwk/DISCDLGSTRUCTW, winnetwk/LPDISCDLGSTRUCT, wnet.discdlgstruct_str"
+ms.keywords: '*LPDISCDLGSTRUCTA, DISCDLGSTRUCT, DISCDLGSTRUCT structure [Windows Networking (WNet)], DISCDLGSTRUCTA, DISCDLGSTRUCTW, DISC_NO_FORCE, DISC_UPDATE_PROFILE, LPDISCDLGSTRUCT, LPDISCDLGSTRUCT structure pointer [Windows Networking (WNet)], _win32_discdlgstruct_str, winnetwk/DISCDLGSTRUCT, winnetwk/DISCDLGSTRUCTA, winnetwk/DISCDLGSTRUCTW, winnetwk/LPDISCDLGSTRUCT, wnet.discdlgstruct_str'
 ms.topic: struct
-f1_keywords: 
- - "winnetwk/DISCDLGSTRUCT"
+f1_keywords:
+- winnetwk/DISCDLGSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winnetwk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnetwk.h
+- Winnetwk.h
 api_name:
- - DISCDLGSTRUCT
- - DISCDLGSTRUCTA
- - DISCDLGSTRUCTW
+- DISCDLGSTRUCT
+- DISCDLGSTRUCTA
+- DISCDLGSTRUCTW
 targetos: Windows
 req.typenames: DISCDLGSTRUCTA, *LPDISCDLGSTRUCTA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 title: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE (webservices.h)
-
 description: Username/password security template information to be filled in by application. Associated with WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE_TYPE.
 old-location: wsw\ws_tcp_sspi_username_binding_template.htm
 tech.root: wsw
 ms.assetid: c2d63721-0810-48a5-b1f8-8b1adcba96b8
-
 ms.date: 12/05/2018
 ms.keywords: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE structure [Web Services for Windows], webservices/WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE, wsw.ws_tcp_sspi_username_binding_template
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE"
+f1_keywords:
+- webservices/WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
+- WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 targetos: Windows
 req.typenames: WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 req.redist: 

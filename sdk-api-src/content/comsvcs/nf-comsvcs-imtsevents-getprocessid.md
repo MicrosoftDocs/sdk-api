@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IMtsEvents.GetProcessID
 title: IMtsEvents::GetProcessID (comsvcs.h)
-
 description: Retrieves the identifier of the process in which the event occurred.
 old-location: cos\imtsevents_getprocessid.htm
 tech.root: cossdk
 ms.assetid: 9950eeab-0b90-4810-9163-8c5582d0b748
-
 ms.date: 12/05/2018
 ms.keywords: GetProcessID, GetProcessID method [COM+], GetProcessID method [COM+],IMtsEvents interface, IMtsEvents interface [COM+],GetProcessID method, IMtsEvents.GetProcessID, IMtsEvents::GetProcessID, _dtc_IMtsEvents_GetProcessID, comsvcs/IMtsEvents::GetProcessID, cos.imtsevents_getprocessid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IMtsEvents.GetProcessID"
+f1_keywords:
+- comsvcs/IMtsEvents.GetProcessID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IMtsEvents.GetProcessID
+- IMtsEvents.GetProcessID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.RemoveMutualExclusion
 title: IWMProfile::RemoveMutualExclusion (wmsdkidl.h)
-
 description: The RemoveMutualExclusion method removes a mutual exclusion object from the profile.
 old-location: wmformat\iwmprofile_removemutualexclusion.htm
 tech.root: wmformat
 ms.assetid: eb453285-a4e5-48dd-a4d0-72d2e09badc2
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],RemoveMutualExclusion method, IWMProfile.RemoveMutualExclusion, IWMProfile2 interface [windows Media Format],RemoveMutualExclusion method, IWMProfile2::RemoveMutualExclusion, IWMProfile3 interface [windows Media Format],RemoveMutualExclusion method, IWMProfile3::RemoveMutualExclusion, IWMProfile::RemoveMutualExclusion, IWMProfileRemoveMutualExclusion, RemoveMutualExclusion, RemoveMutualExclusion method [windows Media Format], RemoveMutualExclusion method [windows Media Format],IWMProfile interface, RemoveMutualExclusion method [windows Media Format],IWMProfile2 interface, RemoveMutualExclusion method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_removemutualexclusion, wmsdkidl/IWMProfile2::RemoveMutualExclusion, wmsdkidl/IWMProfile3::RemoveMutualExclusion, wmsdkidl/IWMProfile::RemoveMutualExclusion
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.RemoveMutualExclusion"
+f1_keywords:
+- wmsdkidl/IWMProfile.RemoveMutualExclusion
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.RemoveMutualExclusion
- - IWMProfile2.RemoveMutualExclusion
- - IWMProfile3.RemoveMutualExclusion
+- IWMProfile.RemoveMutualExclusion
+- IWMProfile2.RemoveMutualExclusion
+- IWMProfile3.RemoveMutualExclusion
 targetos: Windows
 req.typenames: 
 req.redist: 

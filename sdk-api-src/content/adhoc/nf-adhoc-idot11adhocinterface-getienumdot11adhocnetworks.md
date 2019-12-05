@@ -1,19 +1,17 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
 title: IDot11AdHocInterface::GetIEnumDot11AdHocNetworks (adhoc.h)
-
 description: Gets the collection of networks associated with this NIC.
 old-location: nwifi\idot11adhocinterface_getienumdot11adhocnetworks.htm
 tech.root: NativeWiFi
 ms.assetid: 997acc8d-a4e7-43dc-917d-7a2b69f3c049
-
 ms.date: 12/05/2018
 ms.keywords: GetIEnumDot11AdHocNetworks, GetIEnumDot11AdHocNetworks method [NativeWIFI], GetIEnumDot11AdHocNetworks method [NativeWIFI],IDot11AdHocInterface interface, IDot11AdHocInterface interface [NativeWIFI],GetIEnumDot11AdHocNetworks method, IDot11AdHocInterface.GetIEnumDot11AdHocNetworks, IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, adhoc/IDot11AdHocInterface::GetIEnumDot11AdHocNetworks, nwifi.idot11adhocinterface_getienumdot11adhocnetworks
 ms.topic: method
-f1_keywords: 
- - "adhoc/IDot11AdHocInterface.GetIEnumDot11AdHocNetworks"
+f1_keywords:
+- adhoc/IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
 dev_langs:
- - c++
+- c++
 req.header: adhoc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - adhoc.h
+- adhoc.h
 api_name:
- - IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
+- IDot11AdHocInterface.GetIEnumDot11AdHocNetworks
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_6.IDXGIFactory7.UnregisterAdaptersChangedEvent
 title: IDXGIFactory7::UnregisterAdaptersChangedEvent (dxgi1_6.h)
-
 description: Unregisters an event to stop receiving notifications when the adapter enumeration state changes.
 old-location: direct3ddxgi\idxgifactory7_unregisteradapterschangedevent.htm
 tech.root: direct3ddxgi
 ms.assetid: D118A5F6-CCFB-425C-82E8-18A3D8FAD79C
-
 ms.date: 12/05/2018
 ms.keywords: IDXGIFactory7 interface [DXGI],UnregisterAdaptersChangedEvent method, IDXGIFactory7.UnregisterAdaptersChangedEvent, IDXGIFactory7::UnregisterAdaptersChangedEvent, UnregisterAdaptersChangedEvent, UnregisterAdaptersChangedEvent method [DXGI], UnregisterAdaptersChangedEvent method [DXGI],IDXGIFactory7 interface, direct3ddxgi.idxgifactory7_unregisteradapterschangedevent, dxgi1_6/IDXGIFactory7::UnregisterAdaptersChangedEvent
 ms.topic: method
-f1_keywords: 
- - "dxgi1_6/IDXGIFactory7.UnregisterAdaptersChangedEvent"
+f1_keywords:
+- dxgi1_6/IDXGIFactory7.UnregisterAdaptersChangedEvent
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_6.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGIFactory7.UnregisterAdaptersChangedEvent
+- IDXGIFactory7.UnregisterAdaptersChangedEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

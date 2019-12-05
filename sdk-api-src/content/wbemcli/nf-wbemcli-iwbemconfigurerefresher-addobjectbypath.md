@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemcli.IWbemConfigureRefresher.AddObjectByPath
 title: IWbemConfigureRefresher::AddObjectByPath (wbemcli.h)
-
 description: The IWbemConfigureRefresher::AddObjectByPath method adds an object to a refresher by specifying an object path.
 old-location: wmi\iwbemconfigurerefresher_addobjectbypath.htm
 tech.root: WmiSdk
 ms.assetid: 85721e0c-863b-45af-91ca-8ee14af37181
-
 ms.date: 12/05/2018
 ms.keywords: AddObjectByPath, AddObjectByPath method [Windows Management Instrumentation], AddObjectByPath method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddObjectByPath method, IWbemConfigureRefresher.AddObjectByPath, IWbemConfigureRefresher::AddObjectByPath, _hmm_iwbemconfigurerefresher_addobjectbypath, wbemcli/IWbemConfigureRefresher::AddObjectByPath, wmi.iwbemconfigurerefresher_addobjectbypath
 ms.topic: method
-f1_keywords: 
- - "wbemcli/IWbemConfigureRefresher.AddObjectByPath"
+f1_keywords:
+- wbemcli/IWbemConfigureRefresher.AddObjectByPath
 dev_langs:
- - c++
+- c++
 req.header: wbemcli.h
 req.include-header: Wbemidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wbemuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wbemuuid.lib
- - Wbemuuid.dll
+- Wbemuuid.lib
+- Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher.AddObjectByPath
+- IWbemConfigureRefresher.AddObjectByPath
 targetos: Windows
 req.typenames: 
 req.redist: 

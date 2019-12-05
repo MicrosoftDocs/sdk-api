@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICDecodeOptions
 title: WICDecodeOptions (wincodec.h)
-
 description: Specifies decode options.
 old-location: wic\_wic_codec_wicdecodeoptions.htm
 tech.root: wic
 ms.assetid: 27b9d6e1-e171-4c7f-8f96-fa5a93923e35
-
 ms.date: 12/05/2018
 ms.keywords: WICDecodeMetadataCacheOnDemand, WICDecodeMetadataCacheOnLoad, WICDecodeOptions, WICDecodeOptions enumeration [Windows Imaging Component], _wic_codec_wicdecodeoptions, wic._wic_codec_wicdecodeoptions, wincodec/WICDecodeMetadataCacheOnDemand, wincodec/WICDecodeMetadataCacheOnLoad, wincodec/WICDecodeOptions
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICDecodeOptions"
+f1_keywords:
+- wincodec/WICDecodeOptions
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICDecodeOptions
+- WICDecodeOptions
 targetos: Windows
 req.typenames: WICDecodeOptions
 req.redist: 

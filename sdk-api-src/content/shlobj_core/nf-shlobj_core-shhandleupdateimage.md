@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHHandleUpdateImage
 title: SHHandleUpdateImage function (shlobj_core.h)
-
 description: SHHandleUpdateImage may be altered or unavailable.
 old-location: shell\SHHandleUpdateImage.htm
 tech.root: shell
 ms.assetid: 9d43e28a-bce0-4da4-98c9-5a6a199b4d8e
-
 ms.date: 12/05/2018
 ms.keywords: SHHandleUpdateImage, SHHandleUpdateImage function [Windows Shell], _win32_SHHandleUpdateImage, shell.SHHandleUpdateImage, shlobj_core/SHHandleUpdateImage
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHHandleUpdateImage"
+f1_keywords:
+- shlobj_core/SHHandleUpdateImage
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHHandleUpdateImage
+- SHHandleUpdateImage
 targetos: Windows
 req.typenames: 
 req.redist: 

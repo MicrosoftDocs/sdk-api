@@ -1,19 +1,17 @@
 ---
 UID: NS:wsdtypes._WSD_ENDPOINT_REFERENCE
 title: WSD_ENDPOINT_REFERENCE (wsdtypes.h)
-
 description: Represents a WS-Addressing endpoint reference.
 old-location: ncd\wsd_endpoint_reference_struct.htm
 tech.root: WsdApi
 ms.assetid: 97d6870e-3633-4bea-9a50-984e6b0ba3a1
-
 ms.date: 12/05/2018
 ms.keywords: WSD_ENDPOINT_REFERENCE, WSD_ENDPOINT_REFERENCE structure, ncd.wsd_endpoint_reference_struct, wsdtypes/WSD_ENDPOINT_REFERENCE
 ms.topic: struct
 f1_keywords:
 - wsdtypes/WSD_ENDPOINT_REFERENCE
 dev_langs:
- - c++
+- c++
 req.header: wsdtypes.h
 req.include-header: 
 req.target-type: Windows

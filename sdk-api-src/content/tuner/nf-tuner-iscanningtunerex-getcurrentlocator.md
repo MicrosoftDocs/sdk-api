@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IScanningTunerEx.GetCurrentLocator
 title: IScanningTunerEx::GetCurrentLocator (tuner.h)
-
 description: This topic applies to Windows Vista and later.
 old-location: mstv\iscanningtunerex_getcurrentlocator.htm
 tech.root: mstv
 ms.assetid: f5237236-50f3-49dd-aec0-578e0a8430c2
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentLocator, GetCurrentLocator method [Microsoft TV Technologies], GetCurrentLocator method [Microsoft TV Technologies],IScanningTunerEx interface, IScanningTunerEx interface [Microsoft TV Technologies],GetCurrentLocator method, IScanningTunerEx.GetCurrentLocator, IScanningTunerEx::GetCurrentLocator, IScanningTunerExGetCurrentLocator, mstv.iscanningtunerex_getcurrentlocator, tuner/IScanningTunerEx::GetCurrentLocator
 ms.topic: method
-f1_keywords: 
- - "tuner/IScanningTunerEx.GetCurrentLocator"
+f1_keywords:
+- tuner/IScanningTunerEx.GetCurrentLocator
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tuner.h
+- Tuner.h
 api_name:
- - IScanningTunerEx.GetCurrentLocator
+- IScanningTunerEx.GetCurrentLocator
 targetos: Windows
 req.typenames: 
 req.redist: 

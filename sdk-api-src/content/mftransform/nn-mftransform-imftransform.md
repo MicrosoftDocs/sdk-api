@@ -1,19 +1,17 @@
 ---
 UID: NN:mftransform.IMFTransform
 title: IMFTransform (mftransform.h)
-
 description: Implemented by all Media Foundation Transforms (MFTs).
 old-location: mf\imftransform.htm
 tech.root: medfound
 ms.assetid: 3cc502d8-d364-43b9-b0b6-d9474c002b20
-
 ms.date: 12/05/2018
 ms.keywords: 3cc502d8-d364-43b9-b0b6-d9474c002b20, IMFTransform, IMFTransform interface [Media Foundation], IMFTransform interface [Media Foundation],described, mf.imftransform, mftransform/IMFTransform
 ms.topic: interface
-f1_keywords: 
- - "mftransform/IMFTransform"
+f1_keywords:
+- mftransform/IMFTransform
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform
+- IMFTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

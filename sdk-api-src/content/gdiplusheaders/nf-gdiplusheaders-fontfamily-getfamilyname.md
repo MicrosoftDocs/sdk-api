@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetFamilyName
 title: FontFamily::GetFamilyName (gdiplusheaders.h)
-
 description: The FontFamily::GetFamilyName method gets the name of this font family.
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetFamilyName_name_language_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getfamilyname.htm
-
 ms.date: 12/05/2018
 ms.keywords: FontFamily class [GDI+],GetFamilyName method, FontFamily.GetFamilyName, FontFamily::GetFamilyName, GetFamilyName, GetFamilyName method [GDI+], GetFamilyName method [GDI+],FontFamily class, _gdiplus_CLASS_FontFamily_GetFamilyName_name_language_, gdiplus._gdiplus_CLASS_FontFamily_GetFamilyName_name_language_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/FontFamily.GetFamilyName"
+f1_keywords:
+- gdiplusheaders/FontFamily.GetFamilyName
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - FontFamily.GetFamilyName
+- FontFamily.GetFamilyName
 targetos: Windows
 req.typenames: 
 req.redist: 

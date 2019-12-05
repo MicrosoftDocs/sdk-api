@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetSpecifiedAttributeNameLength
 title: ID2D1SvgElement::GetSpecifiedAttributeNameLength (d2d1svg.h)
-
 description: Gets the string length of the name of the specified attribute at the given index.
 old-location: direct2d\id2d1svgelement_getspecifiedattributenamelength.htm
 tech.root: Direct2D
 ms.assetid: AD94B020-D9AA-4B1F-B7C3-DEF97DADFEEA
-
 ms.date: 12/05/2018
 ms.keywords: GetSpecifiedAttributeNameLength, GetSpecifiedAttributeNameLength method [Direct2D], GetSpecifiedAttributeNameLength method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetSpecifiedAttributeNameLength method, ID2D1SvgElement.GetSpecifiedAttributeNameLength, ID2D1SvgElement::GetSpecifiedAttributeNameLength, d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeNameLength, direct2d.id2d1svgelement_getspecifiedattributenamelength
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgElement.GetSpecifiedAttributeNameLength"
+f1_keywords:
+- d2d1svg/ID2D1SvgElement.GetSpecifiedAttributeNameLength
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgElement.GetSpecifiedAttributeNameLength
+- ID2D1SvgElement.GetSpecifiedAttributeNameLength
 targetos: Windows
 req.typenames: 
 req.redist: 

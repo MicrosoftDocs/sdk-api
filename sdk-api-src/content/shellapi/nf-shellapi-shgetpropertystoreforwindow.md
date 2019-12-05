@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHGetPropertyStoreForWindow
 title: SHGetPropertyStoreForWindow function (shellapi.h)
-
 description: Retrieves an object that represents a specific window's collection of properties, which allows those properties to be queried or set.
 old-location: properties\SHGetPropertyStoreForWindow.htm
 tech.root: properties
 ms.assetid: 772aa2c8-6dd1-480c-a008-58f30902cb80
-
 ms.date: 12/05/2018
 ms.keywords: SHGetPropertyStoreForWindow, SHGetPropertyStoreForWindow function [Windows Properties], _shell_SHGetPropertyStoreForWindow, properties.SHGetPropertyStoreForWindow, shell.SHGetPropertyStoreForWindow, shellapi/SHGetPropertyStoreForWindow
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHGetPropertyStoreForWindow"
+f1_keywords:
+- shellapi/SHGetPropertyStoreForWindow
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.1 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
- - Ext-MS-Win-shell-shell32-l1-2-0.dll
- - ext-ms-win-shell-shell32-l1-2-1.dll
- - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
+- Shell32.dll
+- Ext-MS-Win-shell-shell32-l1-2-0.dll
+- ext-ms-win-shell-shell32-l1-2-1.dll
+- Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - SHGetPropertyStoreForWindow
+- SHGetPropertyStoreForWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

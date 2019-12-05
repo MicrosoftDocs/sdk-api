@@ -1,19 +1,17 @@
 ---
 UID: NF:textserv.ITextHost.TxInvalidateRect
 title: ITextHost::TxInvalidateRect (textserv.h)
-
 description: Specifies a rectangle for the text host to add to the update region of the text host window.
 old-location: controls\ITextHost_TxInvalidateRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxinvalidaterect.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextHost interface [Windows Controls],TxInvalidateRect method, ITextHost.TxInvalidateRect, ITextHost::TxInvalidateRect, TxInvalidateRect, TxInvalidateRect method [Windows Controls], TxInvalidateRect method [Windows Controls],ITextHost interface, _win32_ITextHost_TxInvalidateRect, _win32_ITextHost_TxInvalidateRect_cpp, controls.ITextHost_TxInvalidateRect, controls._win32_ITextHost_TxInvalidateRect, textserv/ITextHost::TxInvalidateRect
 ms.topic: method
-f1_keywords: 
- - "textserv/ITextHost.TxInvalidateRect"
+f1_keywords:
+- textserv/ITextHost.TxInvalidateRect
 dev_langs:
- - c++
+- c++
 req.header: textserv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextHost.TxInvalidateRect
+- ITextHost.TxInvalidateRect
 targetos: Windows
 req.typenames: 
 req.redist: 

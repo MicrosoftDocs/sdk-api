@@ -1,19 +1,17 @@
 ---
 UID: NS:tapi.linequeuelist_tag
 title: LINEQUEUELIST (tapi.h)
-
 description: The LINEQUEUELIST structure describes a list of queues. This structure can contain an array of LINEQUEUEENTRY structures. The lineGetQueueList function returns the LINEQUEUELIST structure. LINEQUEUELIST requires TAPI 3.0 version negotiation.
 old-location: tapi2\linequeuelist.htm
 tech.root: Tapi
 ms.assetid: 86645d7c-f683-48e7-8342-3e9d5961913a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLINEQUEUELIST, LINEQUEUELIST, LINEQUEUELIST structure [TAPI 2.2], LPLINEQUEUELIST, LPLINEQUEUELIST structure pointer [TAPI 2.2], _tapi2_linequeuelist, tapi/LINEQUEUELIST, tapi/LPLINEQUEUELIST, tapi2.linequeuelist"
+ms.keywords: '*LPLINEQUEUELIST, LINEQUEUELIST, LINEQUEUELIST structure [TAPI 2.2], LPLINEQUEUELIST, LPLINEQUEUELIST structure pointer [TAPI 2.2], _tapi2_linequeuelist, tapi/LINEQUEUELIST, tapi/LPLINEQUEUELIST, tapi2.linequeuelist'
 ms.topic: struct
-f1_keywords: 
- - "tapi/LINEQUEUELIST"
+f1_keywords:
+- tapi/LINEQUEUELIST
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tapi.h
+- Tapi.h
 api_name:
- - LINEQUEUELIST
+- LINEQUEUELIST
 targetos: Windows
 req.typenames: LINEQUEUELIST, *LPLINEQUEUELIST
 req.redist: 

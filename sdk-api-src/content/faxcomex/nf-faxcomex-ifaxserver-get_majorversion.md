@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MajorVersion
 title: IFaxServer::get_MajorVersion (faxcomex.h)
-
 description: The IFaxServer::get_MajorVersion property is a value that specifies the major part of the version number for the fax service.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_majorversion_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7u0e.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],MajorVersion property, IFaxServer.MajorVersion, IFaxServer.get_MajorVersion, IFaxServer::MajorVersion, IFaxServer::get_MajorVersion, MajorVersion property [Fax Service], MajorVersion property [Fax Service],IFaxServer interface, _mfax_faxserver.majorversion, fax._mfax_faxserver_cpp_mfax_faxserver_majorversion_cpp, fax._mfax_faxserver_majorversion, faxcomex/IFaxServer::MajorVersion, faxcomex/IFaxServer::get_MajorVersion, get_MajorVersion
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.MajorVersion"
+f1_keywords:
+- faxcomex/IFaxServer.MajorVersion
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.MajorVersion
- - IFaxServer.get_MajorVersion
- - IFaxServer.get_MajorVersion
+- IFaxServer.MajorVersion
+- IFaxServer.get_MajorVersion
+- IFaxServer.get_MajorVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

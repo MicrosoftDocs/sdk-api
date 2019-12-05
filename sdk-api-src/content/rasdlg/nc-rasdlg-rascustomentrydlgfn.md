@@ -1,19 +1,17 @@
 ---
 UID: NC:rasdlg.RasCustomEntryDlgFn
 title: RasCustomEntryDlgFn (rasdlg.h)
-
 description: The RasCustomEntryDlg function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom dialogs for managing phone-book entries.
 old-location: rras\rascustomentrydlg.htm
 tech.root: RRAS
 ms.assetid: 4778069b-87d0-4379-95f7-718fe0d7a56c
-
 ms.date: 12/05/2018
 ms.keywords: RasCustomEntryDlg, RasCustomEntryDlg callback function [RAS], RasCustomEntryDlgFn, RasCustomEntryDlgFn callback, _ras_rascustomentrydlg, rasdlg/RasCustomEntryDlg, rras.rascustomentrydlg
 ms.topic: callback
-f1_keywords: 
- - "rasdlg/RasCustomEntryDlg"
+f1_keywords:
+- rasdlg/RasCustomEntryDlg
 dev_langs:
- - c++
+- c++
 req.header: rasdlg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Rasdlg.h
+- Rasdlg.h
 api_name:
- - RasCustomEntryDlg
+- RasCustomEntryDlg
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winfax._FAX_PORT_INFOW
 title: FAX_PORT_INFOW (winfax.h)
-
 description: The FAX_PORT_INFO structure describes one fax port. The data includes, among other items, a device identifier, the port's name and current status, and station identifiers.
 old-location: fax\_mfax_fax_port_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_81ki.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*PFAX_PORT_INFOW, FAX_PORT_INFO, FAX_PORT_INFO structure [Fax Service], FAX_PORT_INFOA, FAX_PORT_INFOW, FPF_RECEIVE, FPF_SEND, FPF_VIRTUAL, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, PFAX_PORT_INFO, PFAX_PORT_INFO structure pointer [Fax Service], _mfax_fax_port_info_str, fax._mfax_fax_port_info_str, winfax/FAX_PORT_INFO, winfax/FAX_PORT_INFOA, winfax/FAX_PORT_INFOW, winfax/PFAX_PORT_INFO"
+ms.keywords: '*PFAX_PORT_INFOW, FAX_PORT_INFO, FAX_PORT_INFO structure [Fax Service], FAX_PORT_INFOA, FAX_PORT_INFOW, FPF_RECEIVE, FPF_SEND, FPF_VIRTUAL, FPS_ABORTING, FPS_ANSWERED, FPS_AVAILABLE, FPS_BAD_ADDRESS, FPS_BUSY, FPS_CALL_BLACKLISTED, FPS_CALL_DELAYED, FPS_COMPLETED, FPS_DIALING, FPS_DISCONNECTED, FPS_FATAL_ERROR, FPS_HANDLED, FPS_INITIALIZING, FPS_NOT_FAX_CALL, FPS_NO_ANSWER, FPS_NO_DIAL_TONE, FPS_OFFLINE, FPS_RECEIVING, FPS_RINGING, FPS_ROUTING, FPS_SENDING, FPS_UNAVAILABLE, PFAX_PORT_INFO, PFAX_PORT_INFO structure pointer [Fax Service], _mfax_fax_port_info_str, fax._mfax_fax_port_info_str, winfax/FAX_PORT_INFO, winfax/FAX_PORT_INFOA, winfax/FAX_PORT_INFOW, winfax/PFAX_PORT_INFO'
 ms.topic: struct
-f1_keywords: 
- - "winfax/FAX_PORT_INFO"
+f1_keywords:
+- winfax/FAX_PORT_INFO
 dev_langs:
- - c++
+- c++
 req.header: winfax.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winfax.h
+- Winfax.h
 api_name:
- - FAX_PORT_INFO
- - FAX_PORT_INFOA
- - FAX_PORT_INFOW
+- FAX_PORT_INFO
+- FAX_PORT_INFOA
+- FAX_PORT_INFOW
 targetos: Windows
 req.typenames: FAX_PORT_INFOW, *PFAX_PORT_INFOW
 req.redist: 

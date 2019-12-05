@@ -1,19 +1,17 @@
 ---
 UID: NS:wininet.__unnamed_struct_5
 title: INTERNET_PER_CONN_OPTION_LISTA (wininet.h)
-
 description: Contains the list of options for a particular Internet connection.
 old-location: wininet\internet_per_conn_option_list.htm
 tech.root: wininet
 ms.assetid: 5e3178d5-b266-44bd-846c-f14bad0083c4
-
 ms.date: 12/05/2018
-ms.keywords: "*LPINTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LIST, INTERNET_PER_CONN_OPTION_LIST structure [WinINet], INTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LISTW, LPINTERNET_PER_CONN_OPTION_LIST, LPINTERNET_PER_CONN_OPTION_LIST structure pointer [WinINet], _inet_internet_per_conn_option_list_structure, wininet.internet_per_conn_option_list, wininet/INTERNET_PER_CONN_OPTION_LIST, wininet/INTERNET_PER_CONN_OPTION_LISTA, wininet/INTERNET_PER_CONN_OPTION_LISTW, wininet/LPINTERNET_PER_CONN_OPTION_LIST"
+ms.keywords: '*LPINTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LIST, INTERNET_PER_CONN_OPTION_LIST structure [WinINet], INTERNET_PER_CONN_OPTION_LISTA, INTERNET_PER_CONN_OPTION_LISTW, LPINTERNET_PER_CONN_OPTION_LIST, LPINTERNET_PER_CONN_OPTION_LIST structure pointer [WinINet], _inet_internet_per_conn_option_list_structure, wininet.internet_per_conn_option_list, wininet/INTERNET_PER_CONN_OPTION_LIST, wininet/INTERNET_PER_CONN_OPTION_LISTA, wininet/INTERNET_PER_CONN_OPTION_LISTW, wininet/LPINTERNET_PER_CONN_OPTION_LIST'
 ms.topic: struct
-f1_keywords: 
- - "wininet/INTERNET_PER_CONN_OPTION_LIST"
+f1_keywords:
+- wininet/INTERNET_PER_CONN_OPTION_LIST
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wininet.h
+- Wininet.h
 api_name:
- - INTERNET_PER_CONN_OPTION_LIST
- - INTERNET_PER_CONN_OPTION_LISTA
- - INTERNET_PER_CONN_OPTION_LISTW
+- INTERNET_PER_CONN_OPTION_LIST
+- INTERNET_PER_CONN_OPTION_LISTA
+- INTERNET_PER_CONN_OPTION_LISTW
 targetos: Windows
 req.typenames: INTERNET_PER_CONN_OPTION_LISTA, *LPINTERNET_PER_CONN_OPTION_LISTA
 req.redist: 

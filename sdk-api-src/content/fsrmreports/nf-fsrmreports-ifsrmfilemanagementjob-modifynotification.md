@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.ModifyNotification
 title: IFsrmFileManagementJob::ModifyNotification (fsrmreports.h)
-
 description: Change a notification value in the file management job's list of notifications.
 old-location: fsrm\ifsrmfilemanagementjob_modifynotification.htm
 tech.root: fsrm
 ms.assetid: f2b26ed7-5bbc-4b34-ae11-7fcdb621a55b
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmFileManagementJob interface [File Server Resource Manager],ModifyNotification method, IFsrmFileManagementJob.ModifyNotification, IFsrmFileManagementJob::ModifyNotification, ModifyNotification, ModifyNotification method [File Server Resource Manager], ModifyNotification method [File Server Resource Manager],IFsrmFileManagementJob interface, fs.ifsrmfilemanagementjob_modifynotification, fsrm.ifsrmfilemanagementjob_modifynotification, fsrmreports/IFsrmFileManagementJob::ModifyNotification
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmFileManagementJob.ModifyNotification"
+f1_keywords:
+- fsrmreports/IFsrmFileManagementJob.ModifyNotification
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob.ModifyNotification
+- IFsrmFileManagementJob.ModifyNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

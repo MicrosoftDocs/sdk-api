@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationDockPattern.SetDockPosition
 title: IUIAutomationDockPattern::SetDockPosition (uiautomationclient.h)
-
 description: Sets the dock position of this element.
 old-location: winauto\uiauto_IUIAutomationDockPattern_SetDockPosition.htm
 tech.root: WinAuto
 ms.assetid: 165de0f3-61b3-473c-8f97-3070596451db
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationDockPattern interface [Windows Accessibility],SetDockPosition method, IUIAutomationDockPattern.SetDockPosition, IUIAutomationDockPattern::SetDockPosition, SetDockPosition, SetDockPosition method [Windows Accessibility], SetDockPosition method [Windows Accessibility],IUIAutomationDockPattern interface, uiauto.uiauto_IUIAutomationDockPattern_SetDockPosition, uiauto_IUIAutomationDockPattern_SetDockPosition, uiautomationclient/IUIAutomationDockPattern::SetDockPosition, winauto.uiauto_IUIAutomationDockPattern_SetDockPosition
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationDockPattern.SetDockPosition"
+f1_keywords:
+- uiautomationclient/IUIAutomationDockPattern.SetDockPosition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationDockPattern.SetDockPosition
+- IUIAutomationDockPattern.SetDockPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.CreateScheduleTask
 title: IFsrmReportScheduler::CreateScheduleTask (fsrmreports.h)
-
 description: Creates a scheduled task that is used to trigger a report job.
 old-location: fsrm\ifsrmreportscheduler_createscheduletask.htm
 tech.root: fsrm
 ms.assetid: 983a6d05-417f-4aea-9652-955fd96e78f0
-
 ms.date: 12/05/2018
 ms.keywords: CreateScheduleTask, CreateScheduleTask method [File Server Resource Manager], CreateScheduleTask method [File Server Resource Manager],FsrmReportScheduler class, CreateScheduleTask method [File Server Resource Manager],IFsrmReportScheduler interface, FsrmReportScheduler class [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler interface [File Server Resource Manager],CreateScheduleTask method, IFsrmReportScheduler.CreateScheduleTask, IFsrmReportScheduler::CreateScheduleTask, fs.ifsrmreportscheduler_createscheduletask, fsrm.ifsrmreportscheduler_createscheduletask, fsrmreports/IFsrmReportScheduler::CreateScheduleTask
 ms.topic: method
-f1_keywords: 
- - "fsrmreports/IFsrmReportScheduler.CreateScheduleTask"
+f1_keywords:
+- fsrmreports/IFsrmReportScheduler.CreateScheduleTask
 dev_langs:
- - c++
+- c++
 req.header: fsrmreports.h
 req.include-header: FsrmReports.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmReportScheduler.CreateScheduleTask
- - FsrmReportScheduler.CreateScheduleTask
+- IFsrmReportScheduler.CreateScheduleTask
+- FsrmReportScheduler.CreateScheduleTask
 targetos: Windows
 req.typenames: 
 req.redist: 

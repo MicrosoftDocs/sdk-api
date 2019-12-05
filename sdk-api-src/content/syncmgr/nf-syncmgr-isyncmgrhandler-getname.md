@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandler.GetName
 title: ISyncMgrHandler::GetName (syncmgr.h)
-
 description: Gets the display name of the handler.
 old-location: shell\ISyncMgrHandler_GetName.htm
 tech.root: shell
 ms.assetid: 2d981cf9-6c0a-4bca-b088-06eb1c820fb3
-
 ms.date: 12/05/2018
 ms.keywords: GetName, GetName method [Windows Shell], GetName method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetName method, ISyncMgrHandler.GetName, ISyncMgrHandler::GetName, _shell_ISyncMgrHandler_GetName, shell.ISyncMgrHandler_GetName, syncmgr/ISyncMgrHandler::GetName
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrHandler.GetName"
+f1_keywords:
+- syncmgr/ISyncMgrHandler.GetName
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrHandler.GetName
+- ISyncMgrHandler.GetName
 targetos: Windows
 req.typenames: 
 req.redist: 

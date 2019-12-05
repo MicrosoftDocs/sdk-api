@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestProperties.GetStringValue
 title: IAppxManifestProperties::GetStringValue (appxpackaging.h)
-
 description: Gets the value of the specified string element in the properties section.
 old-location: appxpkg\iappxmanifestproperties_getstringvalue.htm
 tech.root: appxpkg
 ms.assetid: 3EF2D8A2-37B2-4E57-9FD3-DA05FA90749C
-
 ms.date: 12/05/2018
 ms.keywords: GetStringValue, GetStringValue method [App packaging and management], GetStringValue method [App packaging and management],IAppxManifestProperties interface, IAppxManifestProperties interface [App packaging and management],GetStringValue method, IAppxManifestProperties.GetStringValue, IAppxManifestProperties::GetStringValue, appxpackaging/IAppxManifestProperties::GetStringValue, appxpkg.iappxmanifestproperties_getstringvalue
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestProperties.GetStringValue"
+f1_keywords:
+- appxpackaging/IAppxManifestProperties.GetStringValue
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestProperties.GetStringValue
+- IAppxManifestProperties.GetStringValue
 targetos: Windows
 req.typenames: 
 req.redist: 

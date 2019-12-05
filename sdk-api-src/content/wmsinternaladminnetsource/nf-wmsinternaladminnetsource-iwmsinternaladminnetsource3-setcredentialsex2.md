@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource3.SetCredentialsEx2
 title: IWMSInternalAdminNetSource3::SetCredentialsEx2 (wmsinternaladminnetsource.h)
-
 description: The SetCredentialsEx2 method adds a password to the cache. This improved version of IWMSInternalAdminNetSource2::SetCredentialsEx adds a flag (fClearTextAuthentication) that indicates whether credentials were sent in unencrypted form over the network.
 old-location: wmformat\iwmsinternaladminnetsource3_setcredentialsex2.htm
 tech.root: wmformat
 ms.assetid: 6d4fbd40-46f8-4f9e-b2bc-43c09acf4d67
-
 ms.date: 12/05/2018
 ms.keywords: IWMSInternalAdminNetSource3 interface [windows Media Format],SetCredentialsEx2 method, IWMSInternalAdminNetSource3.SetCredentialsEx2, IWMSInternalAdminNetSource3::SetCredentialsEx2, IWMSInternalAdminNetSource3SetCredentialsEx3, SetCredentialsEx2, SetCredentialsEx2 method [windows Media Format], SetCredentialsEx2 method [windows Media Format],IWMSInternalAdminNetSource3 interface, wmformat.iwmsinternaladminnetsource3_setcredentialsex2, wmsinternaladminnetsource/IWMSInternalAdminNetSource3::SetCredentialsEx2
 ms.topic: method
-f1_keywords: 
- - "wmsinternaladminnetsource/IWMSInternalAdminNetSource3.SetCredentialsEx2"
+f1_keywords:
+- wmsinternaladminnetsource/IWMSInternalAdminNetSource3.SetCredentialsEx2
 dev_langs:
- - c++
+- c++
 req.header: wmsinternaladminnetsource.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource3.SetCredentialsEx2
+- IWMSInternalAdminNetSource3.SetCredentialsEx2
 targetos: Windows
 req.typenames: 
 req.redist: 

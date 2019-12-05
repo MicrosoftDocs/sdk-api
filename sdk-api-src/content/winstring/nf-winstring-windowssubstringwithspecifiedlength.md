@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsSubstringWithSpecifiedLength
 title: WindowsSubstringWithSpecifiedLength function (winstring.h)
-
 description: Retrieves a substring from the specified string. The substring starts at a specified character position and has a specified length.
 old-location: winrt\windowssubstringwithspecifiedlength.htm
 tech.root: WinRT
 ms.assetid: 8E5DA806-8CBA-4569-9A9B-3B30350F603D
-
 ms.date: 12/05/2018
 ms.keywords: WindowsSubstringWithSpecifiedLength, WindowsSubstringWithSpecifiedLength function [Windows Runtime], winrt.windowssubstringwithspecifiedlength, winstring/WindowsSubstringWithSpecifiedLength
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsSubstringWithSpecifiedLength"
+f1_keywords:
+- winstring/WindowsSubstringWithSpecifiedLength
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsSubstringWithSpecifiedLength
+- WindowsSubstringWithSpecifiedLength
 targetos: Windows
 req.typenames: 
 req.redist: 

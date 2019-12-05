@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteNonMember
 title: IAzApplicationGroup::DeleteNonMember (azroles.h)
-
 description: Removes the specified security identifier (SID) in text form from the list of accounts that are refused membership in the application group.
 old-location: security\iazapplicationgroup_deletenonmember.htm
 tech.root: SecAuthZ
 ms.assetid: 05d58f62-fa34-4829-a535-65ea0f5144ab
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteNonMember method, DeleteNonMember, DeleteNonMember method [Security], DeleteNonMember method [Security],AzApplicationGroup object, DeleteNonMember method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteNonMember method, IAzApplicationGroup.DeleteNonMember, IAzApplicationGroup::DeleteNonMember, azroles/IAzApplicationGroup::DeleteNonMember, security.iazapplicationgroup_deletenonmember
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.DeleteNonMember"
+f1_keywords:
+- azroles/IAzApplicationGroup.DeleteNonMember
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.DeleteNonMember
- - AzApplicationGroup.DeleteNonMember
+- IAzApplicationGroup.DeleteNonMember
+- AzApplicationGroup.DeleteNonMember
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

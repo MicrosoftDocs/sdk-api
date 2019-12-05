@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionInstanceCollection.Item
 title: IFunctionInstanceCollection::Item (functiondiscoveryapi.h)
-
 description: Gets the specified function instance, by index.
 old-location: ncd\ifunctioninstancecollection_item_method.htm
 tech.root: FunDisc
 ms.assetid: b79b7cb2-c02a-4474-bd48-8907ebb118fa
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceCollection interface,Item method, IFunctionInstanceCollection.Item, IFunctionInstanceCollection::Item, Item, Item method, Item method,IFunctionInstanceCollection interface, functiondiscoveryapi/IFunctionInstanceCollection::Item, ncd.ifunctioninstancecollection_item_method
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceCollection.Item"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceCollection.Item
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceCollection.Item
+- IFunctionInstanceCollection.Item
 targetos: Windows
 req.typenames: 
 req.redist: 

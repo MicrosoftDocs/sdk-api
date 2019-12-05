@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorShiftLeft
 title: XMVectorShiftLeft function (directxmath.h)
-
 description: Shifts a vector left by a given number of 32-bit elements, filling the vacated elements with elements from a second vector.
 old-location: dxmath\xmvectorshiftleft.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorShiftLeft(XMVECTOR,XMVECTOR,uint32_t)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorShiftLeft, XMVectorShiftLeft, XMVectorShiftLeft method [DirectX Math Support APIs], dxmath.xmvectorshiftleft
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorShiftLeft"
+f1_keywords:
+- directxmath/XMVectorShiftLeft
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorShiftLeft
+- XMVectorShiftLeft
 targetos: Windows
 req.typenames: 
 req.redist: 

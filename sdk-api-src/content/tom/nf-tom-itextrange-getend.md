@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.GetEnd
 title: ITextRange::GetEnd (tom.h)
-
 description: Gets the end character position of the range.
 old-location: controls\ITextRange_GetEnd.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getend.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetEnd, GetEnd method [Windows Controls], GetEnd method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],GetEnd method, ITextRange.GetEnd, ITextRange::GetEnd, _win32_ITextRange_GetEnd, _win32_ITextRange_GetEnd_cpp, controls.ITextRange_GetEnd, controls._win32_ITextRange_GetEnd, tom/ITextRange::GetEnd
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.GetEnd"
+f1_keywords:
+- tom/ITextRange.GetEnd
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.GetEnd
+- ITextRange.GetEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

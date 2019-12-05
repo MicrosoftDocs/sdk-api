@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDevice.Capabilities
 title: IPortableDevice::Capabilities (portabledeviceapi.h)
-
 description: The Capabilities method retrieves an interface used to query the capabilities of a portable device.
 old-location: wpdsdk\iportabledevice_capabilities.htm
 tech.root: wpd_sdk
 ms.assetid: 3d44e488-1bef-4cdd-bb0b-2b8154deb19e
-
 ms.date: 12/05/2018
 ms.keywords: Capabilities, Capabilities method [Windows Portable Devices SDK], Capabilities method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Capabilities method, IPortableDevice.Capabilities, IPortableDevice::Capabilities, IPortableDeviceCapabilities, portabledeviceapi/IPortableDevice::Capabilities, wpdsdk.iportabledevice_capabilities
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDevice.Capabilities"
+f1_keywords:
+- portabledeviceapi/IPortableDevice.Capabilities
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice.Capabilities
+- IPortableDevice.Capabilities
 targetos: Windows
 req.typenames: 
 req.redist: 

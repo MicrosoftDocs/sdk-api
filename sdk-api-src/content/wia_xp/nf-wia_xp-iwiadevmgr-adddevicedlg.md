@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.AddDeviceDlg
 title: IWiaDevMgr::AddDeviceDlg (wia_xp.h)
-
 description: This method is not implemented.
 old-location: wia\_wia_IWiaDevMgr_AddDeviceDlg.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\adddevicedlg.htm
-
 ms.date: 12/05/2018
 ms.keywords: AddDeviceDlg, AddDeviceDlg method [WIA], AddDeviceDlg method [WIA],IWiaDevMgr interface, IWiaDevMgr interface [WIA],AddDeviceDlg method, IWiaDevMgr.AddDeviceDlg, IWiaDevMgr::AddDeviceDlg, _wia_IWiaDevMgr_AddDeviceDlg, wia._wia_IWiaDevMgr_AddDeviceDlg, wia_xp/IWiaDevMgr::AddDeviceDlg
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaDevMgr.AddDeviceDlg"
+f1_keywords:
+- wia_xp/IWiaDevMgr.AddDeviceDlg
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaDevMgr.AddDeviceDlg
+- IWiaDevMgr.AddDeviceDlg
 targetos: Windows
 req.typenames: 
 req.redist: 

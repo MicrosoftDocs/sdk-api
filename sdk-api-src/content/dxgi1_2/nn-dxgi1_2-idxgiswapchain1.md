@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_2.IDXGISwapChain1
 title: IDXGISwapChain1 (dxgi1_2.h)
-
 description: Provides presentation capabilities that are enhanced from IDXGISwapChain. These presentation capabilities consist of specifying dirty rectangles and scroll rectangle to optimize the presentation.
 old-location: direct3ddxgi\idxgiswapchain1.htm
 tech.root: direct3ddxgi
 ms.assetid: A674E006-4323-4967-9B9B-0E3965040DBF
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain1, IDXGISwapChain1 interface [DXGI], IDXGISwapChain1 interface [DXGI],described, direct3ddxgi.idxgiswapchain1, dxgi1_2/IDXGISwapChain1
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1
+- IDXGISwapChain1
 targetos: Windows
 req.typenames: 
 req.redist: 

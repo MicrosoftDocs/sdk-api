@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioRenderClient.ReleaseBuffer
 title: IAudioRenderClient::ReleaseBuffer (audioclient.h)
-
 description: The ReleaseBuffer method releases the buffer space acquired in the previous call to the IAudioRenderClient::GetBuffer method.
 old-location: coreaudio\iaudiorenderclient_releasebuffer.htm
 tech.root: CoreAudio
 ms.assetid: 19d89b5e-2e73-4693-b970-7ebf452ef9a1
-
 ms.date: 12/05/2018
 ms.keywords: IAudioRenderClient interface [Core Audio],ReleaseBuffer method, IAudioRenderClient.ReleaseBuffer, IAudioRenderClient::ReleaseBuffer, IAudioRenderClientReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio],IAudioRenderClient interface, audioclient/IAudioRenderClient::ReleaseBuffer, coreaudio.iaudiorenderclient_releasebuffer
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioRenderClient.ReleaseBuffer"
+f1_keywords:
+- audioclient/IAudioRenderClient.ReleaseBuffer
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioRenderClient.ReleaseBuffer
+- IAudioRenderClient.ReleaseBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

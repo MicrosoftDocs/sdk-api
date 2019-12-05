@@ -1,19 +1,17 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_DefaultInputArea
 title: ITextInputPanel::get_DefaultInputArea (peninputpanel.h)
-
 description: Gets or sets the default input area as specified by the PanelInputArea Enumeration.
 old-location: tablet\itextinputpanel_defaultinputarea.htm
 tech.root: tablet
 ms.assetid: 3e221516-631a-4d15-a9ef-bd05c6928067
-
 ms.date: 12/05/2018
 ms.keywords: 3e221516-631a-4d15-a9ef-bd05c6928067, DefaultInputArea property [Tablet PC], DefaultInputArea property [Tablet PC],ITextInputPanel interface, ITextInputPanel interface [Tablet PC],DefaultInputArea property, ITextInputPanel.DefaultInputArea, ITextInputPanel.get_DefaultInputArea, ITextInputPanel.put_DefaultInputArea, ITextInputPanel::DefaultInputArea, ITextInputPanel::get_DefaultInputArea, ITextInputPanel::put_DefaultInputArea, get_DefaultInputArea, peninputpanel/ITextInputPanel::DefaultInputArea, peninputpanel/ITextInputPanel::get_DefaultInputArea, peninputpanel/ITextInputPanel::put_DefaultInputArea, tablet.itextinputpanel_defaultinputarea
 ms.topic: method
-f1_keywords: 
- - "peninputpanel/ITextInputPanel.DefaultInputArea"
+f1_keywords:
+- peninputpanel/ITextInputPanel.DefaultInputArea
 dev_langs:
- - c++
+- c++
 req.header: peninputpanel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Tiptsf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tiptsf.dll
+- tiptsf.dll
 api_name:
- - ITextInputPanel.DefaultInputArea
- - ITextInputPanel.get_DefaultInputArea
- - ITextInputPanel.put_DefaultInputArea
- - ITextInputPanel.get_DefaultInputArea
- - ITextInputPanel.put_DefaultInputArea
+- ITextInputPanel.DefaultInputArea
+- ITextInputPanel.get_DefaultInputArea
+- ITextInputPanel.put_DefaultInputArea
+- ITextInputPanel.get_DefaultInputArea
+- ITextInputPanel.put_DefaultInputArea
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTimecode.GetTimecodeRangeCount
 title: IWMReaderTimecode::GetTimecodeRangeCount (wmsdkidl.h)
-
 description: The GetTimecodeRangeCount method retrieves the total number of SMTPE time code ranges in a specified stream.
 old-location: wmformat\iwmreadertimecode_gettimecoderangecount.htm
 tech.root: wmformat
 ms.assetid: df58f968-23f8-407b-b18c-569732635464
-
 ms.date: 12/05/2018
 ms.keywords: GetTimecodeRangeCount, GetTimecodeRangeCount method [windows Media Format], GetTimecodeRangeCount method [windows Media Format],IWMReaderTimecode interface, IWMReaderTimecode interface [windows Media Format],GetTimecodeRangeCount method, IWMReaderTimecode.GetTimecodeRangeCount, IWMReaderTimecode::GetTimecodeRangeCount, IWMReaderTimecodeGetTimecodeRangeCount, wmformat.iwmreadertimecode_gettimecoderangecount, wmsdkidl/IWMReaderTimecode::GetTimecodeRangeCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderTimecode.GetTimecodeRangeCount"
+f1_keywords:
+- wmsdkidl/IWMReaderTimecode.GetTimecodeRangeCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderTimecode.GetTimecodeRangeCount
+- IWMReaderTimecode.GetTimecodeRangeCount
 targetos: Windows
 req.typenames: 
 req.redist: 

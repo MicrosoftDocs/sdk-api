@@ -1,19 +1,17 @@
 ---
 UID: NC:winwlx.PWLX_SET_TIMEOUT
 title: PWLX_SET_TIMEOUT (winwlx.h)
-
 description: Called by GINA to change the time-out associated with a dialog box. The default time-out is two minutes.
 old-location: security\wlxsettimeout.htm
 tech.root: SecAuthN
 ms.assetid: e5f1a184-195a-4a0e-849a-ed629a6c9049
-
 ms.date: 12/05/2018
 ms.keywords: PWLX_SET_TIMEOUT, PWLX_SET_TIMEOUT callback, WlxSetTimeout, WlxSetTimeout callback function [Security], _gina_wlxsettimeout, security.wlxsettimeout, winwlx/WlxSetTimeout
 ms.topic: callback
-f1_keywords: 
- - "winwlx/WlxSetTimeout"
+f1_keywords:
+- winwlx/WlxSetTimeout
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - winwlx.h
+- winwlx.h
 api_name:
- - WlxSetTimeout
+- WlxSetTimeout
 targetos: Windows
 req.typenames: 
 req.redist: 

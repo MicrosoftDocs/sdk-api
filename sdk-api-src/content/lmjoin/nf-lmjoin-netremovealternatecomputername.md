@@ -1,19 +1,17 @@
 ---
 UID: NF:lmjoin.NetRemoveAlternateComputerName
 title: NetRemoveAlternateComputerName function (lmjoin.h)
-
 description: Removes an alternate name for the specified computer.
 old-location: netmgmt\netremovealternatecomputername.htm
 tech.root: NetMgmt
 ms.assetid: 3c7ab44e-d5fa-40da-83fe-a44bf85b2ba5
-
 ms.date: 12/05/2018
 ms.keywords: NetRemoveAlternateComputerName, NetRemoveAlternateComputerName function [Network Management], lmjoin/NetRemoveAlternateComputerName, netmgmt.netremovealternatecomputername
 ms.topic: function
-f1_keywords: 
- - "lmjoin/NetRemoveAlternateComputerName"
+f1_keywords:
+- lmjoin/NetRemoveAlternateComputerName
 dev_langs:
- - c++
+- c++
 req.header: lmjoin.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetRemoveAlternateComputerName
+- NetRemoveAlternateComputerName
 targetos: Windows
 req.typenames: 
 req.redist: 

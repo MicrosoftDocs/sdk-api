@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordCountOfDescriptors
 title: IDVB_SDT::GetRecordCountOfDescriptors (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvb_sdt_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 99b7e2ab-c829-4e42-805b-e1ea5b725f82
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IDVB_SDT interface, IDVB_SDT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IDVB_SDT.GetRecordCountOfDescriptors, IDVB_SDT::GetRecordCountOfDescriptors, IDVB_SDTGetRecordCountOfDescriptors, dvbsiparser/IDVB_SDT::GetRecordCountOfDescriptors, mstv.idvb_sdt_getrecordcountofdescriptors
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDVB_SDT.GetRecordCountOfDescriptors"
+f1_keywords:
+- dvbsiparser/IDVB_SDT.GetRecordCountOfDescriptors
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDVB_SDT.GetRecordCountOfDescriptors
+- IDVB_SDT.GetRecordCountOfDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

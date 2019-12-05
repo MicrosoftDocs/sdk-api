@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMRegisterCallback
 title: IWMRegisterCallback (wmsdkidl.h)
-
 description: The IWMRegisterCallback interface enables the application to get status messages from a sink object.By default, the writer object does not send the application any status messages from the sink object.
 old-location: wmformat\iwmregistercallback.htm
 tech.root: wmformat
 ms.assetid: 3831b727-7fdc-4d05-a7b3-86ca5b5c3b17
-
 ms.date: 12/05/2018
 ms.keywords: IWMRegisterCallback, IWMRegisterCallback interface [windows Media Format], IWMRegisterCallback interface [windows Media Format],described, IWMRegisterCallbackInterface, wmformat.iwmregistercallback, wmsdkidl/IWMRegisterCallback
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMRegisterCallback"
+f1_keywords:
+- wmsdkidl/IWMRegisterCallback
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMRegisterCallback
+- IWMRegisterCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

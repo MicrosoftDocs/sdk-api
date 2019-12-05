@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.DrawThemeBackground
 title: DrawThemeBackground function (uxtheme.h)
-
 description: Draws the border and fill defined by the visual style for the specified control part.
 old-location: controls\DrawThemeBackground.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\drawthemebackground.htm
-
 ms.date: 12/05/2018
 ms.keywords: DrawThemeBackground, DrawThemeBackground function [Windows Controls], controls.DrawThemeBackground, controls.inet_DrawThemeBackground, inet_DrawThemeBackground, inet_DrawThemeBackground_cpp, uxtheme/DrawThemeBackground
 ms.topic: function
-f1_keywords: 
- - "uxtheme/DrawThemeBackground"
+f1_keywords:
+- uxtheme/DrawThemeBackground
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - DrawThemeBackground
+- DrawThemeBackground
 targetos: Windows
 req.typenames: 
 req.redist: 

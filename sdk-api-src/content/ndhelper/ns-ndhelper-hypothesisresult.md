@@ -1,19 +1,17 @@
 ---
 UID: NS:ndhelper.tagHypothesisResult
 title: HypothesisResult (ndhelper.h)
-
 description: Contains information about a hypothesis returned from a helper class.
 old-location: ndf\hypothesisresult.htm
 tech.root: NDF
 ms.assetid: bbf3cc69-c81b-4a3d-8fd8-d4e37a57bed6
-
 ms.date: 12/05/2018
 ms.keywords: HypothesisResult, HypothesisResult structure [NDF], ndf.hypothesisresult, ndhelper/HypothesisResult
 ms.topic: struct
-f1_keywords: 
- - "ndhelper/HypothesisResult"
+f1_keywords:
+- ndhelper/HypothesisResult
 dev_langs:
- - c++
+- c++
 req.header: ndhelper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ndhelper.h
+- ndhelper.h
 api_name:
- - HypothesisResult
+- HypothesisResult
 targetos: Windows
 req.typenames: HypothesisResult
 req.redist: 

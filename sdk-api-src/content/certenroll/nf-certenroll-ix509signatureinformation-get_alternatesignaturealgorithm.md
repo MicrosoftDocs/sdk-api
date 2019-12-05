@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509SignatureInformation.get_AlternateSignatureAlgorithm
 title: IX509SignatureInformation::get_AlternateSignatureAlgorithm (certenroll.h)
-
-description: Specifies and retrieves a Boolean value that specifies whether the GetSignatureAlgorithm method should retrieve a discrete or combined algorithm object identifier (OID) for a PKCS #10 certificate request.
+description: Specifies and retrieves a Boolean value that specifies whether the GetSignatureAlgorithm method should retrieve a discrete or combined algorithm object identifier (OID) for a PKCS
 old-location: security\ix509signatureinformation_alternatesignaturealgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: e62ecdf1-56d8-4707-8e5d-deef4d79a34c
-
 ms.date: 12/05/2018
 ms.keywords: AlternateSignatureAlgorithm property [Security], AlternateSignatureAlgorithm property [Security],IX509SignatureInformation interface, IX509SignatureInformation interface [Security],AlternateSignatureAlgorithm property, IX509SignatureInformation.AlternateSignatureAlgorithm, IX509SignatureInformation.get_AlternateSignatureAlgorithm, IX509SignatureInformation::AlternateSignatureAlgorithm, IX509SignatureInformation::get_AlternateSignatureAlgorithm, IX509SignatureInformation::put_AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::get_AlternateSignatureAlgorithm, certenroll/IX509SignatureInformation::put_AlternateSignatureAlgorithm, get_AlternateSignatureAlgorithm, security.ix509signatureinformation_alternatesignaturealgorithm_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509SignatureInformation.AlternateSignatureAlgorithm"
+f1_keywords:
+- certenroll/IX509SignatureInformation.AlternateSignatureAlgorithm
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509SignatureInformation.AlternateSignatureAlgorithm
- - IX509SignatureInformation.get_AlternateSignatureAlgorithm
- - IX509SignatureInformation.put_AlternateSignatureAlgorithm
+- IX509SignatureInformation.AlternateSignatureAlgorithm
+- IX509SignatureInformation.get_AlternateSignatureAlgorithm
+- IX509SignatureInformation.put_AlternateSignatureAlgorithm
 targetos: Windows
 req.typenames: 
 req.redist: 

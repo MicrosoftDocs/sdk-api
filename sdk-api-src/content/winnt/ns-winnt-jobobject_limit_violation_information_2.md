@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt.JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 title: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 (winnt.h)
-
 description: Contains extended information about resource notification limits that have been exceeded for a job object. This structure is used with the QueryInformationJobObject function with the JobObjectLimitViolationInformation2 information class.
 old-location: base\jobobject_limit_violation_information_2.htm
 tech.root: ProcThread
 ms.assetid: B474F74E-B64B-4681-A235-C2DE317BFE0E
-
 ms.date: 12/05/2018
 ms.keywords: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2, JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2 structure, JOB_OBJECT_LIMIT_CPU_RATE_CONTROL, JOB_OBJECT_LIMIT_IO_RATE_CONTROL, JOB_OBJECT_LIMIT_JOB_MEMORY_HIGH, JOB_OBJECT_LIMIT_JOB_MEMORY_LOW, JOB_OBJECT_LIMIT_JOB_READ_BYTES, JOB_OBJECT_LIMIT_JOB_TIME, JOB_OBJECT_LIMIT_JOB_WRITE_BYTES, JOB_OBJECT_LIMIT_NET_RATE_CONTROL, JOB_OBJECT_LIMIT_RATE_CONTROL, JOB_OBJECT_LIMIT_READ_BYTES, JOB_OBJECT_LIMIT_WRITE_BYTES, ToleranceHigh, ToleranceLow, ToleranceMedium, base.jobobject_limit_violation_information_2, winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 ms.topic: struct
-f1_keywords: 
- - "winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2"
+f1_keywords:
+- winnt/JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
+- JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 targetos: Windows
 req.typenames: JOBOBJECT_LIMIT_VIOLATION_INFORMATION_2
 req.redist: 

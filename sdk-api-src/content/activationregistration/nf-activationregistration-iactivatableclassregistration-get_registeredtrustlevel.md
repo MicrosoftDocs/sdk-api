@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IActivatableClassRegistration.get_RegisteredTrustLevel
 title: IActivatableClassRegistration::get_RegisteredTrustLevel (activationregistration.h)
-
 description: Gets the trust level of the current activatable class.
 old-location: winrt\iactivatableclassregistration_registeredtrustlevel.htm
 tech.root: WinRT
 ms.assetid: 3DFE773C-CF63-489A-988B-2FFF4215C8BF
-
 ms.date: 12/05/2018
 ms.keywords: IActivatableClassRegistration interface [Windows Runtime],get_RegisteredTrustLevel method, IActivatableClassRegistration.get_RegisteredTrustLevel, IActivatableClassRegistration::get_RegisteredTrustLevel, activationregistration/IActivatableClassRegistration::get_RegisteredTrustLevel, get_RegisteredTrustLevel, get_RegisteredTrustLevel method [Windows Runtime], get_RegisteredTrustLevel method [Windows Runtime],IActivatableClassRegistration interface, winrt.iactivatableclassregistration_registeredtrustlevel
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IActivatableClassRegistration.get_RegisteredTrustLevel"
+f1_keywords:
+- activationregistration/IActivatableClassRegistration.get_RegisteredTrustLevel
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IActivatableClassRegistration.get_RegisteredTrustLevel
+- IActivatableClassRegistration.get_RegisteredTrustLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

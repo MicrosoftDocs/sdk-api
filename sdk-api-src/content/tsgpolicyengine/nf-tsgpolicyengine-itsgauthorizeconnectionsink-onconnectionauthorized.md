@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAuthorizeConnectionSink.OnConnectionAuthorized
 title: ITSGAuthorizeConnectionSink::OnConnectionAuthorized (tsgpolicyengine.h)
-
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a connection.
 old-location: termserv\itsgauthorizeconnectionsink_onconnectionauthorized.htm
 tech.root: TermServ
 ms.assetid: 1151aa89-944b-4497-8a8c-c6d67fbd4051
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthorizeConnectionSink interface [Remote Desktop Services],OnConnectionAuthorized method, ITSGAuthorizeConnectionSink.OnConnectionAuthorized, ITSGAuthorizeConnectionSink::OnConnectionAuthorized, OnConnectionAuthorized, OnConnectionAuthorized method [Remote Desktop Services], OnConnectionAuthorized method [Remote Desktop Services],ITSGAuthorizeConnectionSink interface, SESSION_TIMEOUT_ACTION_DISCONNECT, SESSION_TIMEOUT_ACTION_SILENT_REAUTH, termserv.itsgauthorizeconnectionsink_onconnectionauthorized, tsgpolicyengine/ITSGAuthorizeConnectionSink::OnConnectionAuthorized
 ms.topic: method
-f1_keywords: 
- - "tsgpolicyengine/ITSGAuthorizeConnectionSink.OnConnectionAuthorized"
+f1_keywords:
+- tsgpolicyengine/ITSGAuthorizeConnectionSink.OnConnectionAuthorized
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGAuthorizeConnectionSink.OnConnectionAuthorized
+- ITSGAuthorizeConnectionSink.OnConnectionAuthorized
 targetos: Windows
 req.typenames: 
 req.redist: 

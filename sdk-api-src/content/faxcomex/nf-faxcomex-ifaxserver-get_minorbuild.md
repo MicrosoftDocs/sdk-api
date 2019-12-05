@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MinorBuild
 title: IFaxServer::get_MinorBuild (faxcomex.h)
-
 description: The IFaxServer::get_MinorBuild property is a value that specifies the minor part of the build number for the fax service.
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2vdw.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],MinorBuild property, IFaxServer.MinorBuild, IFaxServer.get_MinorBuild, IFaxServer::MinorBuild, IFaxServer::get_MinorBuild, MinorBuild property [Fax Service], MinorBuild property [Fax Service],IFaxServer interface, _mfax_faxserver.minorbuild, fax._mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp, fax._mfax_faxserver_minorbuild, faxcomex/IFaxServer::MinorBuild, faxcomex/IFaxServer::get_MinorBuild, get_MinorBuild
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServer.MinorBuild"
+f1_keywords:
+- faxcomex/IFaxServer.MinorBuild
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServer.MinorBuild
- - IFaxServer.get_MinorBuild
- - IFaxServer.get_MinorBuild
+- IFaxServer.MinorBuild
+- IFaxServer.get_MinorBuild
+- IFaxServer.get_MinorBuild
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingCount
 title: IAMNetworkStatus::get_BufferingCount (qnetwork.h)
-
 description: The get_BufferingCount method retrieves the number of times the network source has buffered the data.
 old-location: dshow\iamnetworkstatus_get_bufferingcount.htm
 tech.root: DirectShow
 ms.assetid: 82c1994b-9326-48a7-8ff5-2b2df274b3e2
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetworkStatus interface [DirectShow],get_BufferingCount method, IAMNetworkStatus.get_BufferingCount, IAMNetworkStatus::get_BufferingCount, IAMNetworkStatusget_BufferingCount, dshow.iamnetworkstatus_get_bufferingcount, get_BufferingCount, get_BufferingCount method [DirectShow], get_BufferingCount method [DirectShow],IAMNetworkStatus interface, qnetwork/IAMNetworkStatus::get_BufferingCount
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetworkStatus.get_BufferingCount"
+f1_keywords:
+- qnetwork/IAMNetworkStatus.get_BufferingCount
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetworkStatus.get_BufferingCount
+- IAMNetworkStatus.get_BufferingCount
 targetos: Windows
 req.typenames: 
 req.redist: 

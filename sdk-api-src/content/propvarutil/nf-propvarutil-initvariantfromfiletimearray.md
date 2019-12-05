@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.InitVariantFromFileTimeArray
 title: InitVariantFromFileTimeArray function (propvarutil.h)
-
 description: Initializes a VARIANT structure with an array of FILETIME structures.
 old-location: properties\InitVariantFromFileTimeArray.htm
 tech.root: properties
 ms.assetid: d1b25aec-f302-4d39-93c1-0fcb2d7dbf45
-
 ms.date: 12/05/2018
 ms.keywords: InitVariantFromFileTimeArray, InitVariantFromFileTimeArray function [Windows Properties], _shell_InitVariantFromFileTimeArray, properties.InitVariantFromFileTimeArray, propvarutil/InitVariantFromFileTimeArray, shell.InitVariantFromFileTimeArray
 ms.topic: function
-f1_keywords: 
- - "propvarutil/InitVariantFromFileTimeArray"
+f1_keywords:
+- propvarutil/InitVariantFromFileTimeArray
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - InitVariantFromFileTimeArray
+- InitVariantFromFileTimeArray
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

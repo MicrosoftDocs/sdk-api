@@ -1,19 +1,17 @@
 ---
 UID: NF:vidcap.ICameraControl.put_ExposureRelative
 title: ICameraControl::put_ExposureRelative (vidcap.h)
-
 description: The put_ExposureRelative method sets the camera's relative exposure time. The relative exposure time is expressed as a number of steps, where the size of each step depends on the camera model.
 old-location: dshow\icameracontrol_put_exposurerelative.htm
 tech.root: DirectShow
 ms.assetid: 4afc3f7f-bba2-4160-b917-c792467d6305
-
 ms.date: 12/05/2018
 ms.keywords: ICameraControl interface [DirectShow],put_ExposureRelative method, ICameraControl.put_ExposureRelative, ICameraControl::put_ExposureRelative, ICameraControlput_ExposureRelative, dshow.icameracontrol_put_exposurerelative, put_ExposureRelative, put_ExposureRelative method [DirectShow], put_ExposureRelative method [DirectShow],ICameraControl interface, vidcap/ICameraControl::put_ExposureRelative
 ms.topic: method
-f1_keywords: 
- - "vidcap/ICameraControl.put_ExposureRelative"
+f1_keywords:
+- vidcap/ICameraControl.put_ExposureRelative
 dev_langs:
- - c++
+- c++
 req.header: vidcap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICameraControl.put_ExposureRelative
+- ICameraControl.put_ExposureRelative
 targetos: Windows
 req.typenames: 
 req.redist: 

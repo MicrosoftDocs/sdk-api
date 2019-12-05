@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.SetWidth
 title: Pen::SetWidth (gdipluspen.h)
-
 description: The Pen::SetWidth method sets the width for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetWidth_width_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setwidth_58width.htm
-
 ms.date: 12/05/2018
 ms.keywords: Pen class [GDI+],SetWidth method, Pen.SetWidth, Pen::SetWidth, SetWidth, SetWidth method [GDI+], SetWidth method [GDI+],Pen class, _gdiplus_CLASS_Pen_SetWidth_width_, gdiplus._gdiplus_CLASS_Pen_SetWidth_width_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.SetWidth"
+f1_keywords:
+- gdipluspen/Pen.SetWidth
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.SetWidth
+- Pen.SetWidth
 targetos: Windows
 req.typenames: 
 req.redist: 

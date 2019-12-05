@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateIntegerLeaf
 title: IConditionFactory2::CreateIntegerLeaf (structuredquery.h)
-
 description: Creates a leaf condition node for an integer value. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateIntegerLeaf.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory2\createintegerleaf.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateIntegerLeaf, CreateIntegerLeaf method [search], CreateIntegerLeaf method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateIntegerLeaf method, IConditionFactory2.CreateIntegerLeaf, IConditionFactory2::CreateIntegerLeaf, _search_IConditionFactory2_CreateIntegerLeaf, search._search_IConditionFactory2_CreateIntegerLeaf, structuredquery/IConditionFactory2::CreateIntegerLeaf
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory2.CreateIntegerLeaf"
+f1_keywords:
+- structuredquery/IConditionFactory2.CreateIntegerLeaf
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory2.CreateIntegerLeaf
+- IConditionFactory2.CreateIntegerLeaf
 targetos: Windows
 req.typenames: 
 req.redist: 

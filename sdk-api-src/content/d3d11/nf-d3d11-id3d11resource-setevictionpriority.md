@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11Resource.SetEvictionPriority
 title: ID3D11Resource::SetEvictionPriority (d3d11.h)
-
 description: Set the eviction priority of a resource.
 old-location: direct3d11\id3d11resource_setevictionpriority.htm
 tech.root: direct3d11
 ms.assetid: 8c68fbb8-dd8a-4d60-b081-082720e7bda5
-
 ms.date: 12/05/2018
 ms.keywords: 55340049-7283-9bea-b4ac-8b0b9cb71119, ID3D11Resource interface [Direct3D 11],SetEvictionPriority method, ID3D11Resource.SetEvictionPriority, ID3D11Resource::SetEvictionPriority, SetEvictionPriority, SetEvictionPriority method [Direct3D 11], SetEvictionPriority method [Direct3D 11],ID3D11Resource interface, d3d11/ID3D11Resource::SetEvictionPriority, direct3d11.id3d11resource_setevictionpriority
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11Resource.SetEvictionPriority"
+f1_keywords:
+- d3d11/ID3D11Resource.SetEvictionPriority
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11Resource.SetEvictionPriority
+- ID3D11Resource.SetEvictionPriority
 targetos: Windows
 req.typenames: 
 req.redist: 

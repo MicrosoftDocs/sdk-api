@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineConfigDialog
 title: lineConfigDialog function (tapi.h)
-
 description: The lineConfigDialog function causes the provider of the specified line device to display a dialog box (attached to hwndOwner of the application) to allow the user to configure parameters related to the line device.
 old-location: tapi2\lineconfigdialog.htm
 tech.root: Tapi
 ms.assetid: 52f23647-e9f5-48a3-95f4-1ac52898cb5a
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog function [TAPI 2.2], lineConfigDialogA, lineConfigDialogW, tapi/lineConfigDialog, tapi/lineConfigDialogA, tapi/lineConfigDialogW, tapi2.lineconfigdialog"
+ms.keywords: _tapi2_lineconfigdialog, lineConfigDialog, lineConfigDialog function [TAPI 2.2], lineConfigDialogA, lineConfigDialogW, tapi/lineConfigDialog, tapi/lineConfigDialogA, tapi/lineConfigDialogW, tapi2.lineconfigdialog
 ms.topic: function
-f1_keywords: 
- - "tapi/lineConfigDialog"
+f1_keywords:
+- tapi/lineConfigDialog
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineConfigDialog
- - lineConfigDialogA
- - lineConfigDialogW
+- lineConfigDialog
+- lineConfigDialogA
+- lineConfigDialogW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDpiForSystem
 title: GetDpiForSystem function (winuser.h)
-
 description: Returns the system DPI.
 old-location: hidpi\getdpiforsystem.htm
 tech.root: hidpi
 ms.assetid: B744EC4A-DB78-4654-B50F-C27CB7702899
-
 ms.date: 12/05/2018
 ms.keywords: GetDpiForSystem, GetDpiForSystem function [High DPI], hidpi.getdpiforsystem, winuser/GetDpiForSystem
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDpiForSystem"
+f1_keywords:
+- winuser/GetDpiForSystem
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - GetDpiForSystem
+- GetDpiForSystem
 targetos: Windows
 req.typenames: 
 req.redist: 

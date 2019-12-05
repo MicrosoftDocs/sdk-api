@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFsiItem.FileSystemName
 title: IFsiItem::FileSystemName (imapi2fs.h)
-
 description: Retrieves the name of the item as modified to conform to the specified file system.
 old-location: imapi\ifsiitem_filesystemname.htm
 tech.root: imapi
 ms.assetid: a10d9ee1-c05f-4e76-a921-af562dc68121
-
 ms.date: 12/05/2018
 ms.keywords: FileSystemName, FileSystemName method [IMAPI], FileSystemName method [IMAPI],IFsiItem interface, IFsiItem interface [IMAPI],FileSystemName method, IFsiItem.FileSystemName, IFsiItem::FileSystemName, imapi.ifsiitem_filesystemname, imapi2fs/IFsiItem::FileSystemName
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFsiItem.FileSystemName"
+f1_keywords:
+- imapi2fs/IFsiItem.FileSystemName
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFsiItem.FileSystemName
+- IFsiItem.FileSystemName
 targetos: Windows
 req.typenames: 
 req.redist: 

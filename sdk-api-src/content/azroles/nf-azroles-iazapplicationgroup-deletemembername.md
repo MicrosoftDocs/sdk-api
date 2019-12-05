@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteMemberName
 title: IAzApplicationGroup::DeleteMemberName (azroles.h)
-
 description: Removes the specified account name from the list of accounts that belong to the application group.
 old-location: security\iazapplicationgroup_deletemembername.htm
 tech.root: SecAuthZ
 ms.assetid: 3b3a8aee-b1ef-464a-9b67-80b703d41d69
-
 ms.date: 12/05/2018
 ms.keywords: AzApplicationGroup object [Security],DeleteMemberName method, DeleteMemberName, DeleteMemberName method [Security], DeleteMemberName method [Security],AzApplicationGroup object, DeleteMemberName method [Security],IAzApplicationGroup interface, IAzApplicationGroup interface [Security],DeleteMemberName method, IAzApplicationGroup.DeleteMemberName, IAzApplicationGroup::DeleteMemberName, azroles/IAzApplicationGroup::DeleteMemberName, security.iazapplicationgroup_deletemembername
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.DeleteMemberName"
+f1_keywords:
+- azroles/IAzApplicationGroup.DeleteMemberName
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.DeleteMemberName
- - AzApplicationGroup.DeleteMemberName
+- IAzApplicationGroup.DeleteMemberName
+- AzApplicationGroup.DeleteMemberName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

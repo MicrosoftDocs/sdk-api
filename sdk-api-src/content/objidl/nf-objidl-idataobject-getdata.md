@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IDataObject.GetData
 title: IDataObject::GetData (objidl.h)
-
 description: Called by a data consumer to obtain data from a source data object.
 old-location: com\idataobject_getdata.htm
 tech.root: com
 ms.assetid: 05118461-0438-4715-b2c2-fc2471ce38f0
-
 ms.date: 12/05/2018
 ms.keywords: GetData, GetData method [COM], GetData method [COM],IDataObject interface, IDataObject interface [COM],GetData method, IDataObject.GetData, IDataObject::GetData, _ole_idataobject_getdata, com.idataobject_getdata, objidl/IDataObject::GetData
 ms.topic: method
-f1_keywords: 
- - "objidl/IDataObject.GetData"
+f1_keywords:
+- objidl/IDataObject.GetData
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IDataObject.GetData
+- IDataObject.GetData
 targetos: Windows
 req.typenames: 
 req.redist: 

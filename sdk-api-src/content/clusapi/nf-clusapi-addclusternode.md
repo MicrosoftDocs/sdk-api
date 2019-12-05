@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.AddClusterNode
 title: AddClusterNode function (clusapi.h)
-
 description: Adds a node to an existing cluster.
 old-location: mscs\addclusternode.htm
 tech.root: MsCS
 ms.assetid: e1d3611e-10d1-4858-923a-01633d2ed78b
-
 ms.date: 12/05/2018
 ms.keywords: AddClusterNode, AddClusterNode function [Failover Cluster], PCLUSAPI_ADD_CLUSTER_NODE, PCLUSAPI_ADD_CLUSTER_NODE function [Failover Cluster], clusapi/AddClusterNode, clusapi/PCLUSAPI_ADD_CLUSTER_NODE, mscs.addclusternode
 ms.topic: function
-f1_keywords: 
- - "clusapi/AddClusterNode"
+f1_keywords:
+- clusapi/AddClusterNode
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - AddClusterNode
+- AddClusterNode
 targetos: Windows
 req.typenames: 
 req.redist: 

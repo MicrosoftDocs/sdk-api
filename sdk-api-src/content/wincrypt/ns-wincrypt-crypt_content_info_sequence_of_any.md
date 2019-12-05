@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 title: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY (wincrypt.h)
-
 description: Contains information representing the Netscape certificate sequence of certificates.
 old-location: security\crypt_content_info_sequence_of_any.htm
 tech.root: SecCrypto
 ms.assetid: b47cc15d-b92d-4e8a-a8b8-6217d07a0495
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure [Security], PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure pointer [Security], _crypto2_crypt_content_info_sequence_of_any, security.crypt_content_info_sequence_of_any, wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, wincrypt/PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY"
+ms.keywords: '*PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure [Security], PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY structure pointer [Security], _crypto2_crypt_content_info_sequence_of_any, security.crypt_content_info_sequence_of_any, wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, wincrypt/PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY"
+f1_keywords:
+- wincrypt/CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
+- CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 targetos: Windows
 req.typenames: CRYPT_CONTENT_INFO_SEQUENCE_OF_ANY, *PCRYPT_CONTENT_INFO_SEQUENCE_OF_ANY
 req.redist: 

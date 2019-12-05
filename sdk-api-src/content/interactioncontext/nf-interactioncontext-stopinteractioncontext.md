@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.StopInteractionContext
 title: StopInteractionContext function (interactioncontext.h)
-
 description: Sets the interaction state to INTERACTION_STATE_IDLE and leaves all interaction configuration settings and parameters intact.
 old-location: input_intcontext\stopinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 52fb6054-c8f3-4dbe-af1f-0b8d39ebcf5b
-
 ms.date: 12/05/2018
 ms.keywords: StopInteractionContext, StopInteractionContext function, input_intcontext.stopinteractioncontext, interactioncontext.stopinteractioncontext, interactioncontext/StopInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/StopInteractionContext"
+f1_keywords:
+- interactioncontext/StopInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - StopInteractionContext
+- StopInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

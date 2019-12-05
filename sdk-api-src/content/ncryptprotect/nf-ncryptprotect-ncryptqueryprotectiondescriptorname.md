@@ -1,19 +1,17 @@
 ---
 UID: NF:ncryptprotect.NCryptQueryProtectionDescriptorName
 title: NCryptQueryProtectionDescriptorName function (ncryptprotect.h)
-
 description: Retrieves the protection descriptor rule string associated with a registered descriptor display name.
 old-location: security\ncryptqueryprotectiondescriptorname.htm
 tech.root: SecCNG
 ms.assetid: 32953AEC-01EE-4ED1-80F3-29963F43004F
-
 ms.date: 12/05/2018
 ms.keywords: NCryptQueryProtectionDescriptorName, NCryptQueryProtectionDescriptorName function [Security], ncryptprotect/NCryptQueryProtectionDescriptorName, security.ncryptqueryprotectiondescriptorname
 ms.topic: function
-f1_keywords: 
- - "ncryptprotect/NCryptQueryProtectionDescriptorName"
+f1_keywords:
+- ncryptprotect/NCryptQueryProtectionDescriptorName
 dev_langs:
- - c++
+- c++
 req.header: ncryptprotect.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: NCrypt.lib
 req.dll: NCrypt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - NCrypt.dll
+- NCrypt.dll
 api_name:
- - NCryptQueryProtectionDescriptorName
+- NCryptQueryProtectionDescriptorName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shimgdata.IShellImageData.ReplaceFrame
 title: IShellImageData::ReplaceFrame (shimgdata.h)
-
 description: Replaces the current frame with a new image.
 old-location: shell\IShellImageData_ReplaceFrame.htm
 tech.root: shell
 ms.assetid: f066c503-4512-46db-be50-016996b92668
-
 ms.date: 12/05/2018
 ms.keywords: IShellImageData interface [Windows Shell],ReplaceFrame method, IShellImageData.ReplaceFrame, IShellImageData::ReplaceFrame, ReplaceFrame, ReplaceFrame method [Windows Shell], ReplaceFrame method [Windows Shell],IShellImageData interface, _shell_IShellImageData_ReplaceFrame, shell.IShellImageData_ReplaceFrame, shimgdata/IShellImageData::ReplaceFrame
 ms.topic: method
-f1_keywords: 
- - "shimgdata/IShellImageData.ReplaceFrame"
+f1_keywords:
+- shimgdata/IShellImageData.ReplaceFrame
 dev_langs:
- - c++
+- c++
 req.header: shimgdata.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellImageData.ReplaceFrame
+- IShellImageData.ReplaceFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

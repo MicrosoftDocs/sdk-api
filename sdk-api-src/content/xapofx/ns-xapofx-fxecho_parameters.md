@@ -1,19 +1,17 @@
 ---
 UID: NS:xapofx.FXECHO_PARAMETERS
 title: FXECHO_PARAMETERS (xapofx.h)
-
 description: Parameters for use with the FXECHO XAPOFX.
 old-location: xaudio2\fxecho_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_PARAMETERS
-
 ms.date: 12/05/2018
 ms.keywords: FXECHO_PARAMETERS, FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXECHO_PARAMETERS, xaudio2.fxecho_parameters
 ms.topic: struct
-f1_keywords: 
- - "xapofx/FXECHO_PARAMETERS"
+f1_keywords:
+- xapofx/FXECHO_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: xapofx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xapofx.h
+- xapofx.h
 api_name:
- - FXECHO_PARAMETERS
+- FXECHO_PARAMETERS
 targetos: Windows
 req.typenames: FXECHO_PARAMETERS
 req.redist: 

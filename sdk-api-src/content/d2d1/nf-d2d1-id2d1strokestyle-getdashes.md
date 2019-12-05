@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashes
 title: ID2D1StrokeStyle::GetDashes (d2d1.h)
-
 description: Copies the dash pattern to the specified array.
 old-location: direct2d\ID2D1StrokeStyle_GetDashes.htm
 tech.root: Direct2D
 ms.assetid: b5add3b9-e052-4727-b14f-543fa452ad6d
-
 ms.date: 12/05/2018
 ms.keywords: GetDashes, GetDashes method [Direct2D], GetDashes method [Direct2D],ID2D1StrokeStyle interface, ID2D1StrokeStyle interface [Direct2D],GetDashes method, ID2D1StrokeStyle.GetDashes, ID2D1StrokeStyle::GetDashes, d2d1/ID2D1StrokeStyle::GetDashes, direct2d.ID2D1StrokeStyle_GetDashes
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1StrokeStyle.GetDashes"
+f1_keywords:
+- d2d1/ID2D1StrokeStyle.GetDashes
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1StrokeStyle.GetDashes
+- ID2D1StrokeStyle.GetDashes
 targetos: Windows
 req.typenames: 
 req.redist: 

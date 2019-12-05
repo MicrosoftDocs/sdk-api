@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.AVIFileInit
 title: AVIFileInit function (vfw.h)
-
 description: The AVIFileInit function initializes the AVIFile library.
 old-location: multimedia\avifileinit.htm
 tech.root: Multimedia
 ms.assetid: 3246a7d2-4b17-413d-b0d5-82146c993f26
-
 ms.date: 12/05/2018
 ms.keywords: AVIFileInit, AVIFileInit function [Windows Multimedia], _win32_AVIFileInit, multimedia.avifileinit, vfw/AVIFileInit
 ms.topic: function
-f1_keywords: 
- - "vfw/AVIFileInit"
+f1_keywords:
+- vfw/AVIFileInit
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Vfw32.lib
 req.dll: Avifil32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Avifil32.dll
- - Ext-MS-Win-Media-Avi-L1-1-0.dll
+- Avifil32.dll
+- Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIFileInit
+- AVIFileInit
 targetos: Windows
 req.typenames: 
 req.redist: 

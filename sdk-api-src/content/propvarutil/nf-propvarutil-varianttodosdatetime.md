@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToDosDateTime
 title: VariantToDosDateTime function (propvarutil.h)
-
 description: Extracts a date and time value in Microsoft MS-DOS format from a VARIANT structure.
 old-location: properties\VariantToDosDateTime.htm
 tech.root: properties
 ms.assetid: ebbba4d9-8e97-422d-b52f-67c417f295cc
-
 ms.date: 12/05/2018
 ms.keywords: VariantToDosDateTime, VariantToDosDateTime function [Windows Properties], _shell_VariantToDosDateTime, properties.VariantToDosDateTime, propvarutil/VariantToDosDateTime, shell.VariantToDosDateTime
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToDosDateTime"
+f1_keywords:
+- propvarutil/VariantToDosDateTime
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToDosDateTime
+- VariantToDosDateTime
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

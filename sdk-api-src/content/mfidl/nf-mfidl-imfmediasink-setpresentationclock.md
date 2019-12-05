@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSink.SetPresentationClock
 title: IMFMediaSink::SetPresentationClock (mfidl.h)
-
 description: Sets the presentation clock on the media sink.
 old-location: mf\imfmediasink_setpresentationclock.htm
 tech.root: medfound
 ms.assetid: 844fc3b3-b56e-4048-b589-e24457bcc419
-
 ms.date: 12/05/2018
 ms.keywords: 844fc3b3-b56e-4048-b589-e24457bcc419, IMFMediaSink interface [Media Foundation],SetPresentationClock method, IMFMediaSink.SetPresentationClock, IMFMediaSink::SetPresentationClock, SetPresentationClock, SetPresentationClock method [Media Foundation], SetPresentationClock method [Media Foundation],IMFMediaSink interface, mf.imfmediasink_setpresentationclock, mfidl/IMFMediaSink::SetPresentationClock
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSink.SetPresentationClock"
+f1_keywords:
+- mfidl/IMFMediaSink.SetPresentationClock
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSink.SetPresentationClock
+- IMFMediaSink.SetPresentationClock
 targetos: Windows
 req.typenames: 
 req.redist: 

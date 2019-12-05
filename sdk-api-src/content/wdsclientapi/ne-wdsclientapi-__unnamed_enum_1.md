@@ -1,19 +1,17 @@
 ---
 UID: NE:wdsclientapi.__unnamed_enum_1
 title: __unnamed_enum_1 (wdsclientapi.h)
-
 description: This enumeration is used by the WdsCliLog function.
 old-location: wds\wds_log_type_client.htm
 tech.root: wds
 ms.assetid: 6e49de64-28e4-41d6-a8cd-58348262b438
-
 ms.date: 12/05/2018
 ms.keywords: WDS_LOG_TYPE_CLIENT, WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, WDS_LOG_TYPE_CLIENT_APPLY_STARTED, WDS_LOG_TYPE_CLIENT_ERROR, WDS_LOG_TYPE_CLIENT_FINISHED, WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE, WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED, WDS_LOG_TYPE_CLIENT_MAX_CODE, WDS_LOG_TYPE_CLIENT_STARTED, __unnamed_enum_1, enumeration [Windows Deployment Services], wds.wds_log_type_client, wdsclientapi/, wdsclientapi/WDS_LOG_TYPE_CLIENT_APPLY_FINISHED, wdsclientapi/WDS_LOG_TYPE_CLIENT_APPLY_STARTED, wdsclientapi/WDS_LOG_TYPE_CLIENT_ERROR, wdsclientapi/WDS_LOG_TYPE_CLIENT_FINISHED, wdsclientapi/WDS_LOG_TYPE_CLIENT_GENERIC_MESSAGE, wdsclientapi/WDS_LOG_TYPE_CLIENT_IMAGE_SELECTED, wdsclientapi/WDS_LOG_TYPE_CLIENT_MAX_CODE, wdsclientapi/WDS_LOG_TYPE_CLIENT_STARTED
 ms.topic: enum
-f1_keywords: 
- - "wdsclientapi/WDS_LOG_TYPE_CLIENT"
+f1_keywords:
+- wdsclientapi/WDS_LOG_TYPE_CLIENT
 dev_langs:
- - c++
+- c++
 req.header: wdsclientapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wdsclientapi.h
+- Wdsclientapi.h
 api_name:
- - WDS_LOG_TYPE_CLIENT
+- WDS_LOG_TYPE_CLIENT
 targetos: Windows
 req.typenames: 
 req.redist: 

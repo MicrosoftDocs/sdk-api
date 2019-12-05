@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11RasterizerState.GetDesc
 title: ID3D11RasterizerState::GetDesc (d3d11.h)
-
 description: Gets the description for rasterizer state that you used to create the rasterizer-state object.
 old-location: direct3d11\id3d11rasterizerstate_getdesc.htm
 tech.root: direct3d11
 ms.assetid: cc6bbdd2-af9c-45be-a13a-5f9105f08c99
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method [Direct3D 11], GetDesc method [Direct3D 11],ID3D11RasterizerState interface, ID3D11RasterizerState interface [Direct3D 11],GetDesc method, ID3D11RasterizerState.GetDesc, ID3D11RasterizerState::GetDesc, ce48f8a7-2b79-44f8-93db-80cad9b1ca3b, d3d11/ID3D11RasterizerState::GetDesc, direct3d11.id3d11rasterizerstate_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11RasterizerState.GetDesc"
+f1_keywords:
+- d3d11/ID3D11RasterizerState.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11RasterizerState.GetDesc
+- ID3D11RasterizerState.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

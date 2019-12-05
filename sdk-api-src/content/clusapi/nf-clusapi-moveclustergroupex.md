@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.MoveClusterGroupEx
 title: MoveClusterGroupEx function (clusapi.h)
-
 description: Extends the existing MoveClusterGroup method with the addition of flags and a buffer.
 old-location: mscs\moveclustergroupex.htm
 tech.root: MsCS
 ms.assetid: CE56BA9D-3527-43D3-8656-EA0BBDF48B98
-
 ms.date: 12/05/2018
 ms.keywords: CLUSAPI_GROUP_MOVE_FAILBACK, CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START, CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS, CLUSAPI_GROUP_MOVE_QUEUE_ENABLED, CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR, MoveClusterGroupEx, MoveClusterGroupEx function [Failover Cluster], clusapi/MoveClusterGroupEx, mscs.moveclustergroupex
 ms.topic: function
-f1_keywords: 
- - "clusapi/MoveClusterGroupEx"
+f1_keywords:
+- clusapi/MoveClusterGroupEx
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-0.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
 api_name:
- - MoveClusterGroupEx
+- MoveClusterGroupEx
 targetos: Windows
 req.typenames: 
 req.redist: 

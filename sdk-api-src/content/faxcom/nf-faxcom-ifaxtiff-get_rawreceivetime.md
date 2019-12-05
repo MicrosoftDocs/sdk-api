@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_RawReceiveTime
 title: IFaxTiff::get_RawReceiveTime (faxcom.h)
-
 description: Retrieves the RawReceiveTime property for a FaxTiff object.
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_rawreceivetime_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9usl.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxTiff interface [Fax Service],RawReceiveTime property, IFaxTiff.RawReceiveTime, IFaxTiff.get_RawReceiveTime, IFaxTiff::RawReceiveTime, IFaxTiff::get_RawReceiveTime, RawReceiveTime property [Fax Service], RawReceiveTime property [Fax Service],IFaxTiff interface, _mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_get_rawreceivetime, fax._mfax_ifaxtiff_mfax_ifaxtiff_get_rawreceivetime_cpp, faxcom/IFaxTiff::RawReceiveTime, faxcom/IFaxTiff::get_RawReceiveTime, get_RawReceiveTime
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxTiff.RawReceiveTime"
+f1_keywords:
+- faxcom/IFaxTiff.RawReceiveTime
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxTiff.RawReceiveTime
- - IFaxTiff.get_RawReceiveTime
+- IFaxTiff.RawReceiveTime
+- IFaxTiff.get_RawReceiveTime
 targetos: Windows
 req.typenames: 
 req.redist: 

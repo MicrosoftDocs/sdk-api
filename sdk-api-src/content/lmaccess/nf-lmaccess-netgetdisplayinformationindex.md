@@ -1,19 +1,17 @@
 ---
 UID: NF:lmaccess.NetGetDisplayInformationIndex
 title: NetGetDisplayInformationIndex function (lmaccess.h)
-
 description: The NetGetDisplayInformationIndex function returns the index of the first display information entry whose name begins with a specified string or whose name alphabetically follows the string.
 old-location: netmgmt\netgetdisplayinformationindex.htm
 tech.root: NetMgmt
 ms.assetid: c56b3cf9-e0a2-4b66-a518-70753b79214c
-
 ms.date: 12/05/2018
 ms.keywords: 1, 2, 3, NetGetDisplayInformationIndex, NetGetDisplayInformationIndex function [Network Management], _win32_netgetdisplayinformationindex, lmaccess/NetGetDisplayInformationIndex, netmgmt.netgetdisplayinformationindex
 ms.topic: function
-f1_keywords: 
- - "lmaccess/NetGetDisplayInformationIndex"
+f1_keywords:
+- lmaccess/NetGetDisplayInformationIndex
 dev_langs:
- - c++
+- c++
 req.header: lmaccess.h
 req.include-header: Lm.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Netapi32.lib
 req.dll: Netapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Netapi32.dll
+- Netapi32.dll
 api_name:
- - NetGetDisplayInformationIndex
+- NetGetDisplayInformationIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

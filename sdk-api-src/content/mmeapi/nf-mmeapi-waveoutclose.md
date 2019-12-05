@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.waveOutClose
 title: waveOutClose function (mmeapi.h)
-
 description: The waveOutClose function closes the given waveform-audio output device.
 old-location: multimedia\waveoutclose.htm
 tech.root: Multimedia
 ms.assetid: 582669bf-9a43-453d-9458-9cd4b4dfcb6d
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_waveOutClose, mmeapi/waveOutClose, multimedia.waveoutclose, waveOutClose, waveOutClose function [Windows Multimedia]"
+ms.keywords: _win32_waveOutClose, mmeapi/waveOutClose, multimedia.waveoutclose, waveOutClose, waveOutClose function [Windows Multimedia]
 ms.topic: function
-f1_keywords: 
- - "mmeapi/waveOutClose"
+f1_keywords:
+- mmeapi/waveOutClose
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - waveOutClose
+- waveOutClose
 targetos: Windows
 req.typenames: 
 req.redist: 

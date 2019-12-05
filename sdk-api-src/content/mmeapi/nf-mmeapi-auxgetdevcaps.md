@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.auxGetDevCaps
 title: auxGetDevCaps function (mmeapi.h)
-
 description: The auxGetDevCaps function retrieves the capabilities of a given auxiliary output device.
 old-location: multimedia\auxgetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: c0920425-fb42-4112-b0c1-f4b607b9e794
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps"
+ms.keywords: _win32_auxGetDevCaps, auxGetDevCaps, auxGetDevCaps function [Windows Multimedia], auxGetDevCapsA, auxGetDevCapsW, mmeapi/auxGetDevCaps, mmeapi/auxGetDevCapsA, mmeapi/auxGetDevCapsW, multimedia.auxgetdevcaps
 ms.topic: function
-f1_keywords: 
- - "mmeapi/auxGetDevCaps"
+f1_keywords:
+- mmeapi/auxGetDevCaps
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - auxGetDevCaps
- - auxGetDevCapsA
- - auxGetDevCapsW
+- auxGetDevCaps
+- auxGetDevCapsA
+- auxGetDevCapsW
 targetos: Windows
 req.typenames: 
 req.redist: 

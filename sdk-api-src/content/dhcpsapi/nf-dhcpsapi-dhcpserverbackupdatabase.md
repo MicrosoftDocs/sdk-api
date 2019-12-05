@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpServerBackupDatabase
 title: DhcpServerBackupDatabase function (dhcpsapi.h)
-
 description: Backs up the DHCP server database configuration, settings, and DHCP client lease record to a specified file location.
 old-location: dhcp\dhcpserverbackupdatabase.htm
 tech.root: DHCP
 ms.assetid: 90e37a33-6d58-4bfc-99e7-e1c244f927ed
-
 ms.date: 12/05/2018
 ms.keywords: DhcpServerBackupDatabase, DhcpServerBackupDatabase function [DHCP], dhcp.dhcpserverbackupdatabase, dhcpsapi/DhcpServerBackupDatabase
 ms.topic: function
-f1_keywords: 
- - "dhcpsapi/DhcpServerBackupDatabase"
+f1_keywords:
+- dhcpsapi/DhcpServerBackupDatabase
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dhcpsapi.lib
 req.dll: Dhcpsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dhcpsapi.dll
+- Dhcpsapi.dll
 api_name:
- - DhcpServerBackupDatabase
+- DhcpServerBackupDatabase
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileSaveDialog.SetProperties
 title: IFileSaveDialog::SetProperties (shobjidl_core.h)
-
 description: Provides a property store that defines the default values to be used for the item being saved.
 old-location: shell\IFileSaveDialog_SetProperties.htm
 tech.root: shell
 ms.assetid: 418f2524-5e6d-4e79-894b-b5f706171836
-
 ms.date: 12/05/2018
 ms.keywords: IFileSaveDialog interface [Windows Shell],SetProperties method, IFileSaveDialog.SetProperties, IFileSaveDialog::SetProperties, SetProperties, SetProperties method [Windows Shell], SetProperties method [Windows Shell],IFileSaveDialog interface, shell.IFileSaveDialog_SetProperties, shell_IFileSaveDialog_SetProperties, shobjidl_core/IFileSaveDialog::SetProperties
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileSaveDialog.SetProperties"
+f1_keywords:
+- shobjidl_core/IFileSaveDialog.SetProperties
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - IFileSaveDialog.SetProperties
+- IFileSaveDialog.SetProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ntdsapi.__unnamed_struct_14
 title: DS_DOMAIN_CONTROLLER_INFO_1W (ntdsapi.h)
-
 description: The DS_DOMAIN_CONTROLLER_INFO_1 structure contains data about a domain controller. This structure is returned by the DsGetDomainControllerInfo function.
 old-location: ad\ds_domain_controller_info_1.htm
 tech.root: ad
 ms.assetid: 6cc829ac-2aa6-49ef-b1ab-9c249249e0d6
-
 ms.date: 12/05/2018
-ms.keywords: "*PDS_DOMAIN_CONTROLLER_INFO_1W, DS_DOMAIN_CONTROLLER_INFO_1, DS_DOMAIN_CONTROLLER_INFO_1 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_1A, DS_DOMAIN_CONTROLLER_INFO_1W, PDS_DOMAIN_CONTROLLER_INFO_1, PDS_DOMAIN_CONTROLLER_INFO_1 structure pointer [Active Directory], _glines_ds_domain_controller_info_1, ad.ds__domain__controller__info__1, ad.ds_domain_controller_info_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1"
+ms.keywords: '*PDS_DOMAIN_CONTROLLER_INFO_1W, DS_DOMAIN_CONTROLLER_INFO_1, DS_DOMAIN_CONTROLLER_INFO_1 structure [Active Directory], DS_DOMAIN_CONTROLLER_INFO_1A, DS_DOMAIN_CONTROLLER_INFO_1W, PDS_DOMAIN_CONTROLLER_INFO_1, PDS_DOMAIN_CONTROLLER_INFO_1 structure pointer [Active Directory], _glines_ds_domain_controller_info_1, ad.ds__domain__controller__info__1, ad.ds_domain_controller_info_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1A, ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1W, ntdsapi/PDS_DOMAIN_CONTROLLER_INFO_1'
 ms.topic: struct
-f1_keywords: 
- - "ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1"
+f1_keywords:
+- ntdsapi/DS_DOMAIN_CONTROLLER_INFO_1
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ntdsapi.h
+- Ntdsapi.h
 api_name:
- - DS_DOMAIN_CONTROLLER_INFO_1
- - DS_DOMAIN_CONTROLLER_INFO_1A
- - DS_DOMAIN_CONTROLLER_INFO_1W
+- DS_DOMAIN_CONTROLLER_INFO_1
+- DS_DOMAIN_CONTROLLER_INFO_1A
+- DS_DOMAIN_CONTROLLER_INFO_1W
 targetos: Windows
 req.typenames: DS_DOMAIN_CONTROLLER_INFO_1W, *PDS_DOMAIN_CONTROLLER_INFO_1W
 req.redist: 

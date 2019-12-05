@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICFastMetadataEncoder.GetMetadataQueryWriter
 title: IWICFastMetadataEncoder::GetMetadataQueryWriter (wincodec.h)
-
 description: Retrieves a metadata query writer for fast metadata encoding.
 old-location: wic\_wic_codec_iwicfastmetadataencoder_getmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 1d8a0993-101a-4aa5-9e2f-c3f95b9d3d3f
-
 ms.date: 12/05/2018
 ms.keywords: GetMetadataQueryWriter, GetMetadataQueryWriter method [Windows Imaging Component], GetMetadataQueryWriter method [Windows Imaging Component],IWICFastMetadataEncoder interface, IWICFastMetadataEncoder interface [Windows Imaging Component],GetMetadataQueryWriter method, IWICFastMetadataEncoder.GetMetadataQueryWriter, IWICFastMetadataEncoder::GetMetadataQueryWriter, _wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wic._wic_codec_iwicfastmetadataencoder_getmetadataquerywriter, wincodec/IWICFastMetadataEncoder::GetMetadataQueryWriter
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICFastMetadataEncoder.GetMetadataQueryWriter"
+f1_keywords:
+- wincodec/IWICFastMetadataEncoder.GetMetadataQueryWriter
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICFastMetadataEncoder.GetMetadataQueryWriter
+- IWICFastMetadataEncoder.GetMetadataQueryWriter
 targetos: Windows
 req.typenames: 
 req.redist: 

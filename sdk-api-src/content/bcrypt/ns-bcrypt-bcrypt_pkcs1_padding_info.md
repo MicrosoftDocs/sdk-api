@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._BCRYPT_PKCS1_PADDING_INFO
 title: BCRYPT_PKCS1_PADDING_INFO (bcrypt.h)
-
-description: Used to provide options for the PKCS #1 padding scheme.
+description: Used to provide options for the PKCS
 old-location: security\bcrypt_pkcs1_padding_info.htm
 tech.root: SecCNG
 ms.assetid: 920fa461-5b7e-4429-972d-e7c83fb62c64
-
 ms.date: 12/05/2018
 ms.keywords: BCRYPT_PKCS1_PADDING_INFO, BCRYPT_PKCS1_PADDING_INFO structure [Security], bcrypt/BCRYPT_PKCS1_PADDING_INFO, security.bcrypt_pkcs1_padding_info
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/BCRYPT_PKCS1_PADDING_INFO"
+f1_keywords:
+- bcrypt/BCRYPT_PKCS1_PADDING_INFO
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - BCRYPT_PKCS1_PADDING_INFO
+- BCRYPT_PKCS1_PADDING_INFO
 targetos: Windows
 req.typenames: BCRYPT_PKCS1_PADDING_INFO
 req.redist: 

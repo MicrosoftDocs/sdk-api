@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPClosedCaption.get_captioningId
 title: IWMPClosedCaption::get_captioningId (wmp.h)
-
 description: The get_captioningId method retrieves the name of the element displaying the captioning.
 old-location: wmp\iwmpclosedcaption_get_captioningid.htm
 tech.root: WMP
 ms.assetid: c6aa1710-9686-439b-b098-7a3e5da532ee
-
 ms.date: 12/05/2018
 ms.keywords: IWMPClosedCaption interface [Windows Media Player],get_captioningId method, IWMPClosedCaption.get_captioningId, IWMPClosedCaption::get_captioningId, IWMPClosedCaptionget_captioningId, get_captioningId, get_captioningId method [Windows Media Player], get_captioningId method [Windows Media Player],IWMPClosedCaption interface, wmp.iwmpclosedcaption_get_captioningid, wmp/IWMPClosedCaption::get_captioningId
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPClosedCaption.get_captioningId"
+f1_keywords:
+- wmp/IWMPClosedCaption.get_captioningId
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPClosedCaption.get_captioningId
+- IWMPClosedCaption.get_captioningId
 targetos: Windows
 req.typenames: 
 req.redist: 

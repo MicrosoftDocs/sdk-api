@@ -1,19 +1,17 @@
 ---
 UID: NE:uiribbon.UI_EVENTLOCATION
 title: UI_EVENTLOCATION (uiribbon.h)
-
 description: Identifies the locations where events associated with a Ribbon control can originate.
 old-location: windowsribbon\ui_eventlocation.htm
 tech.root: windowsribbon
 ms.assetid: EA278262-8CA7-42A3-9F66-0C7B4D3AA525
-
 ms.date: 12/05/2018
 ms.keywords: UI_EVENTLOCATION, UI_EVENTLOCATION enumeration [Windows Ribbon], UI_EVENTLOCATION_ApplicationMenu, UI_EVENTLOCATION_ContextPopup, UI_EVENTLOCATION_QAT, UI_EVENTLOCATION_Ribbon, uiribbon/UI_EVENTLOCATION, uiribbon/UI_EVENTLOCATION_ApplicationMenu, uiribbon/UI_EVENTLOCATION_ContextPopup, uiribbon/UI_EVENTLOCATION_QAT, uiribbon/UI_EVENTLOCATION_Ribbon, windowsribbon.ui_eventlocation
 ms.topic: enum
-f1_keywords: 
- - "uiribbon/UI_EVENTLOCATION"
+f1_keywords:
+- uiribbon/UI_EVENTLOCATION
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Uiribbon.h
+- Uiribbon.h
 api_name:
- - UI_EVENTLOCATION
+- UI_EVENTLOCATION
 targetos: Windows
 req.typenames: UI_EVENTLOCATION
 req.redist: 

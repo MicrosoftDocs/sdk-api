@@ -1,19 +1,17 @@
 ---
 UID: NS:wincrypt._HMAC_Info
 title: HMAC_INFO (wincrypt.h)
-
 description: The HMAC_INFO structure specifies the hash algorithm and the inner and outer strings that are to be used to calculate the HMAC hash.
 old-location: security\hmac_info.htm
 tech.root: SecCrypto
 ms.assetid: 0c9a9b60-077d-48c0-a5a6-01640cfc0c4e
-
 ms.date: 12/05/2018
-ms.keywords: "*PHMAC_INFO, HMAC_INFO, HMAC_INFO structure [Security], PHMAC_INFO, PHMAC_INFO structure pointer [Security], _crypto2_hmac_info, security.hmac_info, wincrypt/HMAC_INFO, wincrypt/PHMAC_INFO"
+ms.keywords: '*PHMAC_INFO, HMAC_INFO, HMAC_INFO structure [Security], PHMAC_INFO, PHMAC_INFO structure pointer [Security], _crypto2_hmac_info, security.hmac_info, wincrypt/HMAC_INFO, wincrypt/PHMAC_INFO'
 ms.topic: struct
-f1_keywords: 
- - "wincrypt/HMAC_INFO"
+f1_keywords:
+- wincrypt/HMAC_INFO
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincrypt.h
+- Wincrypt.h
 api_name:
- - HMAC_INFO
+- HMAC_INFO
 targetos: Windows
 req.typenames: HMAC_INFO, *PHMAC_INFO
 req.redist: 

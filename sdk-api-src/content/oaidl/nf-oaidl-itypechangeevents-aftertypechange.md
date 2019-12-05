@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.AfterTypeChange
 title: ITypeChangeEvents::AfterTypeChange (oaidl.h)
-
 description: Raised after a type has been changed.
 old-location: automat\itypechangeevents_aftertypechange.htm
 tech.root: automat
 ms.assetid: 902663be-4cdb-47e5-916a-004483d6758e
-
 ms.date: 12/05/2018
 ms.keywords: AfterTypeChange, AfterTypeChange method [Automation], AfterTypeChange method [Automation],ITypeChangeEvents interface, CHANGEKIND_ADDMEMBER, CHANGEKIND_CHANGEFAILED, CHANGEKIND_DELETEMEMBER, CHANGEKIND_GENERAL, CHANGEKIND_INVALIDATE, CHANGEKIND_SETDOCUMENTATION, CHANGEKIND_SETNAMES, ITypeChangeEvents interface [Automation],AfterTypeChange method, ITypeChangeEvents.AfterTypeChange, ITypeChangeEvents::AfterTypeChange, _oa96_ITypeChangeEvents_AfterTypeChange, automat.itypechangeevents_aftertypechange, oaidl/ITypeChangeEvents::AfterTypeChange
 ms.topic: method
-f1_keywords: 
- - "oaidl/ITypeChangeEvents.AfterTypeChange"
+f1_keywords:
+- oaidl/ITypeChangeEvents.AfterTypeChange
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ITypeChangeEvents.AfterTypeChange
+- ITypeChangeEvents.AfterTypeChange
 targetos: Windows
 req.typenames: 
 req.redist: 

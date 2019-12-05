@@ -1,19 +1,17 @@
 ---
 UID: NF:chstrarr.CHStringArray.ElementAt(int)~r1
 title: CHStringArray::ElementAt (chstrarr.h)
-
 description: The ElementAt method returns a temporary reference to the element pointer within the array.
 old-location: wmi\chstringarray_elementat.htm
 tech.root: WmiSdk
 ms.assetid: 5431a9ae-e009-4457-87e4-bb91da8bfdb6
-
 ms.date: 12/05/2018
 ms.keywords: CHStringArray interface [Windows Management Instrumentation],ElementAt method, CHStringArray.ElementAt, CHStringArray::ElementAt, ElementAt, ElementAt method [Windows Management Instrumentation], ElementAt method [Windows Management Instrumentation],CHStringArray interface, _hmm_chstringarray_elementat, chstrarr/CHStringArray::ElementAt, wmi.chstringarray_elementat
 ms.topic: method
-f1_keywords: 
- - "chstrarr/CHStringArray.ElementAt"
+f1_keywords:
+- chstrarr/CHStringArray.ElementAt
 dev_langs:
- - c++
+- c++
 req.header: chstrarr.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CHStringArray.ElementAt
+- CHStringArray.ElementAt
 targetos: Windows
 req.typenames: 
 req.redist: 

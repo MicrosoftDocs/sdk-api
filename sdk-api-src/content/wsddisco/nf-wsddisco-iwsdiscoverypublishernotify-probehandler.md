@@ -1,19 +1,17 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisherNotify.ProbeHandler
 title: IWSDiscoveryPublisherNotify::ProbeHandler (wsddisco.h)
-
 description: Is called when a Probe is received by the discovery publisher.
 old-location: ncd\iwsdiscoverypublishernotify_probehandler_method.htm
 tech.root: WsdApi
 ms.assetid: d92ce49c-308b-49e2-9646-f1eec2151441
-
 ms.date: 12/05/2018
 ms.keywords: IWSDiscoveryPublisherNotify interface,ProbeHandler method, IWSDiscoveryPublisherNotify.ProbeHandler, IWSDiscoveryPublisherNotify::ProbeHandler, ProbeHandler, ProbeHandler method, ProbeHandler method,IWSDiscoveryPublisherNotify interface, ncd.iwsdiscoverypublishernotify_probehandler_method, wsddisco/IWSDiscoveryPublisherNotify::ProbeHandler
 ms.topic: method
 f1_keywords:
 - wsddisco/IWSDiscoveryPublisherNotify.ProbeHandler
 dev_langs:
- - c++
+- c++
 req.header: wsddisco.h
 req.include-header: Wsdapi.h
 req.target-type: Windows

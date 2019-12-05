@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IChangeConflict.SetResolveActionForChangeUnit
 title: IChangeConflict::SetResolveActionForChangeUnit (winsync.h)
-
 description: Sets a conflict resolution action for the conflicting change unit change.
 old-location: winsync\ichangeconflict_setresolveactionforchangeunit.htm
 tech.root: winsync
 ms.assetid: 8594a888-21a1-4cfb-964c-9c670e3a7438
-
 ms.date: 12/05/2018
 ms.keywords: IChangeConflict interface [Windows Sync],SetResolveActionForChangeUnit method, IChangeConflict.SetResolveActionForChangeUnit, IChangeConflict::SetResolveActionForChangeUnit, SetResolveActionForChangeUnit, SetResolveActionForChangeUnit method [Windows Sync], SetResolveActionForChangeUnit method [Windows Sync],IChangeConflict interface, winsync.ichangeconflict_setresolveactionforchangeunit, winsync/IChangeConflict::SetResolveActionForChangeUnit
 ms.topic: method
-f1_keywords: 
- - "winsync/IChangeConflict.SetResolveActionForChangeUnit"
+f1_keywords:
+- winsync/IChangeConflict.SetResolveActionForChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeConflict.SetResolveActionForChangeUnit
+- IChangeConflict.SetResolveActionForChangeUnit
 targetos: Windows
 req.typenames: 
 req.redist: 

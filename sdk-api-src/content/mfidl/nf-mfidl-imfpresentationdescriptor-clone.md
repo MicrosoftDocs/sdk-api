@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFPresentationDescriptor.Clone
 title: IMFPresentationDescriptor::Clone (mfidl.h)
-
 description: Creates a copy of this presentation descriptor.
 old-location: mf\imfpresentationdescriptor_clone.htm
 tech.root: medfound
 ms.assetid: 084b3adf-092a-4869-92e1-982db209bd5b
-
 ms.date: 12/05/2018
 ms.keywords: 084b3adf-092a-4869-92e1-982db209bd5b, Clone, Clone method [Media Foundation], Clone method [Media Foundation],IMFPresentationDescriptor interface, IMFPresentationDescriptor interface [Media Foundation],Clone method, IMFPresentationDescriptor.Clone, IMFPresentationDescriptor::Clone, mf.imfpresentationdescriptor_clone, mfidl/IMFPresentationDescriptor::Clone
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFPresentationDescriptor.Clone"
+f1_keywords:
+- mfidl/IMFPresentationDescriptor.Clone
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFPresentationDescriptor.Clone
+- IMFPresentationDescriptor.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

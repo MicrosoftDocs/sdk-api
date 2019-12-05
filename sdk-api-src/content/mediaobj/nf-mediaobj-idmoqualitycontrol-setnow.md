@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.SetNow
 title: IDMOQualityControl::SetNow (mediaobj.h)
-
 description: The SetNow method specifies the earliest time stamp that the DMO will deliver.
 old-location: dshow\idmoqualitycontrol_setnow.htm
 tech.root: DirectShow
 ms.assetid: 36efee4f-0a06-421f-bc37-688a6499bda7
-
 ms.date: 12/05/2018
 ms.keywords: IDMOQualityControl interface [DirectShow],SetNow method, IDMOQualityControl.SetNow, IDMOQualityControl::SetNow, IDMOQualityControlSetNow, SetNow, SetNow method [DirectShow], SetNow method [DirectShow],IDMOQualityControl interface, dshow.idmoqualitycontrol_setnow, mediaobj/IDMOQualityControl::SetNow
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IDMOQualityControl.SetNow"
+f1_keywords:
+- mediaobj/IDMOQualityControl.SetNow
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOQualityControl.SetNow
+- IDMOQualityControl.SetNow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.SetPlayMode
 title: IWMReaderAdvanced2::SetPlayMode (wmsdkidl.h)
-
 description: The SetPlayMode method specifies the play mode.
 old-location: wmformat\iwmreaderadvanced2_setplaymode.htm
 tech.root: wmformat
 ms.assetid: d1b20a0c-fedf-46d4-a76b-7596dcf8fcf8
-
 ms.date: 12/05/2018
 ms.keywords: IWMReaderAdvanced2 interface [windows Media Format],SetPlayMode method, IWMReaderAdvanced2.SetPlayMode, IWMReaderAdvanced2::SetPlayMode, IWMReaderAdvanced2SetPlayMode, SetPlayMode, SetPlayMode method [windows Media Format], SetPlayMode method [windows Media Format],IWMReaderAdvanced2 interface, wmformat.iwmreaderadvanced2_setplaymode, wmsdkidl/IWMReaderAdvanced2::SetPlayMode
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMReaderAdvanced2.SetPlayMode"
+f1_keywords:
+- wmsdkidl/IWMReaderAdvanced2.SetPlayMode
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2.SetPlayMode
+- IWMReaderAdvanced2.SetPlayMode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NL:gdiplusimaging.EncoderParameter
 title: EncoderParameter (gdiplusimaging.h)
-
 description: An EncoderParameter object holds a parameter that can be passed to an image encoder. An EncoderParameter object can also be used to receive a list of possible values supported by a particular parameter of a particular image encoder.
 old-location: gdiplus\_gdiplus_CLASS_EncoderParameter_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\encoderparameter.htm
-
 ms.date: 12/05/2018
 ms.keywords: EncoderParameter, EncoderParameter class [GDI+], EncoderParameter class [GDI+],described, _gdiplus_CLASS_EncoderParameter_Class, gdiplus._gdiplus_CLASS_EncoderParameter_Class, gdiplusimaging/EncoderParameter
 ms.topic: class
-f1_keywords: 
- - "gdiplusimaging/EncoderParameter"
+f1_keywords:
+- gdiplusimaging/EncoderParameter
 dev_langs:
- - c++
+- c++
 req.header: gdiplusimaging.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Gdiplus.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.lib
- - Gdiplus.dll
+- Gdiplus.lib
+- Gdiplus.dll
 api_name:
- - EncoderParameter
+- EncoderParameter
 targetos: Windows
 req.typenames: 
 req.redist: 

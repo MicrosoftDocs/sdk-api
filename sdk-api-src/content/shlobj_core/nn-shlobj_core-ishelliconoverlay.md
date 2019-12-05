@@ -1,19 +1,17 @@
 ---
 UID: NN:shlobj_core.IShellIconOverlay
 title: IShellIconOverlay (shlobj_core.h)
-
 description: Exposes methods that are used by a namespace extension to specify icon overlays for the objects it contains.
 old-location: shell\IShellIconOverlay.htm
 tech.root: shell
 ms.assetid: 1a1d03ca-0922-41df-8cec-e74a16ed3bd6
-
 ms.date: 12/05/2018
 ms.keywords: IShellIconOverlay, IShellIconOverlay interface [Windows Shell], IShellIconOverlay interface [Windows Shell],described, _win32_IShellIconOverlay, shell.IShellIconOverlay, shlobj_core/IShellIconOverlay
 ms.topic: interface
-f1_keywords: 
- - "shlobj_core/IShellIconOverlay"
+f1_keywords:
+- shlobj_core/IShellIconOverlay
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellIconOverlay
+- IShellIconOverlay
 targetos: Windows
 req.typenames: 
 req.redist: 

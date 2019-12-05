@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetCoreWindow
 title: IDXGISwapChain1::GetCoreWindow (dxgi1_2.h)
-
 description: Retrieves the underlying CoreWindow object for this swap-chain object.
 old-location: direct3ddxgi\idxgiswapchain1_getimmersivewindow.htm
 tech.root: direct3ddxgi
 ms.assetid: ABD529CF-41D8-4F21-8F47-D0D053AF2322
-
 ms.date: 12/05/2018
 ms.keywords: GetCoreWindow, GetCoreWindow method [DXGI], GetCoreWindow method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetCoreWindow method, IDXGISwapChain1.GetCoreWindow, IDXGISwapChain1::GetCoreWindow, direct3ddxgi.idxgiswapchain1_getimmersivewindow, dxgi1_2/IDXGISwapChain1::GetCoreWindow
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGISwapChain1.GetCoreWindow"
+f1_keywords:
+- dxgi1_2/IDXGISwapChain1.GetCoreWindow
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGISwapChain1.GetCoreWindow
+- IDXGISwapChain1.GetCoreWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

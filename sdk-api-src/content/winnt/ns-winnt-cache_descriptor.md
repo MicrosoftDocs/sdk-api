@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._CACHE_DESCRIPTOR
 title: CACHE_DESCRIPTOR (winnt.h)
-
 description: Describes the cache attributes.
 old-location: base\cache_descriptor.htm
 tech.root: ProcThread
 ms.assetid: 38cfa605-831c-45ef-a99f-55f42b2b56e9
-
 ms.date: 12/05/2018
 ms.keywords: '*PCACHE_DESCRIPTOR, CACHE_DESCRIPTOR, CACHE_DESCRIPTOR structure, PCACHE_DESCRIPTOR, PCACHE_DESCRIPTOR structure pointer, _CACHE_DESCRIPTOR, base.cache_descriptor, winnt/CACHE_DESCRIPTOR, winnt/PCACHE_DESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - winnt/CACHE_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows

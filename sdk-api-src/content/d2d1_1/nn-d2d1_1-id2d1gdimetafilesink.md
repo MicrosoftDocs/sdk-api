@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1GdiMetafileSink
 title: ID2D1GdiMetafileSink (d2d1_1.h)
-
 description: A developer implemented interface that allows a metafile to be replayed.
 old-location: direct2d\id2d1gdimetafilesink.htm
 tech.root: Direct2D
 ms.assetid: 1E9866C3-2A07-48C2-A4C5-F9AE3C7B2272
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GdiMetafileSink, ID2D1GdiMetafileSink interface [Direct2D], ID2D1GdiMetafileSink interface [Direct2D],described, d2d1_1/ID2D1GdiMetafileSink, direct2d.id2d1gdimetafilesink
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1GdiMetafileSink"
+f1_keywords:
+- d2d1_1/ID2D1GdiMetafileSink
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GdiMetafileSink
+- ID2D1GdiMetafileSink
 targetos: Windows
 req.typenames: 
 req.redist: 

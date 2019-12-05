@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntryDelete
 title: MprAdminMIBEntryDelete function (mprapi.h)
-
 description: The MprAdminMIBEntryDelete function deletes an entry for one of the variables exported by a routing protocol or router manager.
 old-location: rras\mpradminmibentrydelete.htm
 tech.root: RRAS
 ms.assetid: 5a9a1d79-a313-49bc-a678-ba26ccda8e65
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminMIBEntryDelete, MprAdminMIBEntryDelete function [RAS], _mpr_mpradminmibentrydelete, mprapi/MprAdminMIBEntryDelete, rras.mpradminmibentrydelete
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminMIBEntryDelete"
+f1_keywords:
+- mprapi/MprAdminMIBEntryDelete
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminMIBEntryDelete
+- MprAdminMIBEntryDelete
 targetos: Windows
 req.typenames: 
 req.redist: 

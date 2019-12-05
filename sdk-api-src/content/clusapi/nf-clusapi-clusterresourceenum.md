@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterResourceEnum
 title: ClusterResourceEnum function (clusapi.h)
-
 description: Enumerates a resource's dependent resources, nodes, or both.
 old-location: mscs\clusterresourceenum.htm
 tech.root: MsCS
 ms.assetid: 73627594-90df-496d-8120-b24c34f13fb5
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_RESOURCE_ENUM_DEPENDS, CLUSTER_RESOURCE_ENUM_NODES, CLUSTER_RESOURCE_ENUM_PROVIDES, ClusterResourceEnum, ClusterResourceEnum function [Failover Cluster], PCLUSAPI_CLUSTER_RESOURCE_ENUM, PCLUSAPI_CLUSTER_RESOURCE_ENUM function [Failover Cluster], _wolf_clusterresourceenum, clusapi/ClusterResourceEnum, clusapi/PCLUSAPI_CLUSTER_RESOURCE_ENUM, mscs.clusterresourceenum
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterResourceEnum"
+f1_keywords:
+- clusapi/ClusterResourceEnum
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterResourceEnum
+- ClusterResourceEnum
 targetos: Windows
 req.typenames: 
 req.redist: 

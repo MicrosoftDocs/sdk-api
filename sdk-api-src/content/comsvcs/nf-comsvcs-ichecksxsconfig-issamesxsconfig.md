@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICheckSxsConfig.IsSameSxsConfig
 title: ICheckSxsConfig::IsSameSxsConfig (comsvcs.h)
-
 description: Determines whether the side-by-side assembly has the specified configuration.
 old-location: cos\ichecksxsconfig_issamesxsconfig.htm
 tech.root: cossdk
 ms.assetid: 24ea3b88-2364-49e9-88cf-90a6094b9e4c
-
 ms.date: 12/05/2018
 ms.keywords: ICheckSxsConfig interface [COM+],IsSameSxsConfig method, ICheckSxsConfig.IsSameSxsConfig, ICheckSxsConfig::IsSameSxsConfig, IsSameSxsConfig, IsSameSxsConfig method [COM+], IsSameSxsConfig method [COM+],ICheckSxsConfig interface, _cos_ICheckSxsConfig_IsSameSxsConfig, comsvcs/ICheckSxsConfig::IsSameSxsConfig, cos.ichecksxsconfig_issamesxsconfig
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICheckSxsConfig.IsSameSxsConfig"
+f1_keywords:
+- comsvcs/ICheckSxsConfig.IsSameSxsConfig
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICheckSxsConfig.IsSameSxsConfig
+- ICheckSxsConfig.IsSameSxsConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

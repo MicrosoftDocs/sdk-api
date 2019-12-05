@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMClientPropertiesEx
 title: WM_CLIENT_PROPERTIES_EX (wmsdkidl.h)
-
 description: The WM_CLIENT_PROPERTIES_EX structure holds extended client information.
 old-location: wmformat\wm_client_properties_ex.htm
 tech.root: wmformat
 ms.assetid: 981a466d-576b-4774-bd7b-785b0ef80e72
-
 ms.date: 12/05/2018
 ms.keywords: WM_CLIENT_PROPERTIES_EX, WM_CLIENT_PROPERTIES_EX structure [windows Media Format], wmformat.wm_client_properties_ex, wmsdkidl/WM_CLIENT_PROPERTIES_EX
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WM_CLIENT_PROPERTIES_EX"
+f1_keywords:
+- wmsdkidl/WM_CLIENT_PROPERTIES_EX
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WM_CLIENT_PROPERTIES_EX
+- WM_CLIENT_PROPERTIES_EX
 targetos: Windows
 req.typenames: WM_CLIENT_PROPERTIES_EX
 req.redist: 

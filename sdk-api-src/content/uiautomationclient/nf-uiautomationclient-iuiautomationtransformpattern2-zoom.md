@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.Zoom
 title: IUIAutomationTransformPattern2::Zoom (uiautomationclient.h)
-
 description: Zooms the viewport of the control.
 old-location: winauto\uiauto_IUIAutomationTransformPattern2_Zoom.htm
 tech.root: WinAuto
 ms.assetid: 7CCDDF69-32FA-486C-B319-4D2F7A2407B4
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationTransformPattern2 interface [Windows Accessibility],Zoom method, IUIAutomationTransformPattern2.Zoom, IUIAutomationTransformPattern2::Zoom, Zoom, Zoom method [Windows Accessibility], Zoom method [Windows Accessibility],IUIAutomationTransformPattern2 interface, uiautomationclient/IUIAutomationTransformPattern2::Zoom, winauto.uiauto_IUIAutomationTransformPattern2_Zoom
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationTransformPattern2.Zoom"
+f1_keywords:
+- uiautomationclient/IUIAutomationTransformPattern2.Zoom
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2.Zoom
+- IUIAutomationTransformPattern2.Zoom
 targetos: Windows
 req.typenames: 
 req.redist: 

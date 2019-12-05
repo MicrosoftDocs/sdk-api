@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.EnrollmentPolicyServerPropertyFlags
 title: EnrollmentPolicyServerPropertyFlags (certenroll.h)
-
 description: Specifies the default policy server.
 old-location: security\enrollmentpolicyserverpropertyflags.htm
 tech.root: seccertenroll
 ms.assetid: 531502ac-8e89-46ee-a426-86e22a9dbe8d
-
 ms.date: 12/05/2018
 ms.keywords: DefaultNone, DefaultPolicyServer, EnrollmentPolicyServerPropertyFlags, EnrollmentPolicyServerPropertyFlags enumeration [Security], certenroll/DefaultNone, certenroll/DefaultPolicyServer, certenroll/EnrollmentPolicyServerPropertyFlags, security.enrollmentpolicyserverpropertyflags
 ms.topic: enum
-f1_keywords: 
- - "certenroll/EnrollmentPolicyServerPropertyFlags"
+f1_keywords:
+- certenroll/EnrollmentPolicyServerPropertyFlags
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - EnrollmentPolicyServerPropertyFlags
+- EnrollmentPolicyServerPropertyFlags
 targetos: Windows
 req.typenames: EnrollmentPolicyServerPropertyFlags
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:unknwn.IClassFactory.LockServer
 title: IClassFactory::LockServer
-
 description: Locks an object application open in memory. This enables instances to be created more quickly.
 old-location: com\iclassfactory_lockserver.htm
 tech.root: com
 ms.assetid: 4c817b89-013d-477f-a713-5e320896dfa0
-
 ms.date: 12/05/2018
 ms.keywords: IClassFactory interface [COM],LockServer method, IClassFactory.LockServer, IClassFactory::LockServer, LockServer, LockServer method [COM], LockServer method [COM],IClassFactory interface, _com_iclassfactory_lockserver, com.iclassfactory_lockserver, unknwnbase/IClassFactory::LockServer
 ms.topic: method
-f1_keywords: 
- - "unknwn/IClassFactory.LockServer"
+f1_keywords:
+- unknwn/IClassFactory.LockServer
 dev_langs:
- - c++
+- c++
 req.header: unknwn.h
 req.include-header: Unknwn.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - unknwnbase.h
+- unknwnbase.h
 api_name:
- - IClassFactory.LockServer
+- IClassFactory.LockServer
 targetos: Windows
 req.typenames: 
 req.redist: 

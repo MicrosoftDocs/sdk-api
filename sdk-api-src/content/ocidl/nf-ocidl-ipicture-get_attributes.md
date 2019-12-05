@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.IPicture.get_Attributes
 title: IPicture::get_Attributes (ocidl.h)
-
 description: Retrieves the current set of the picture's bit attributes.
 old-location: com\ipicture_get_attributes.htm
 tech.root: com
 ms.assetid: ed71f0eb-3af4-463f-93e1-29d5dd1cc684
-
 ms.date: 12/05/2018
 ms.keywords: IPicture interface [COM],get_Attributes method, IPicture.get_Attributes, IPicture::get_Attributes, _ctrl_ipicture_get_attributes, com.ipicture_get_attributes, get_Attributes, get_Attributes method [COM], get_Attributes method [COM],IPicture interface, ocidl/IPicture::get_Attributes
 ms.topic: method
-f1_keywords: 
- - "ocidl/IPicture.get_Attributes"
+f1_keywords:
+- ocidl/IPicture.get_Attributes
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPicture.get_Attributes
+- IPicture.get_Attributes
 targetos: Windows
 req.typenames: 
 req.redist: 

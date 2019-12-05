@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMProfile.RemoveStream
 title: IWMProfile::RemoveStream (wmsdkidl.h)
-
 description: The RemoveStream method removes a stream from the profile.
 old-location: wmformat\iwmprofile_removestream.htm
 tech.root: wmformat
 ms.assetid: 82817b72-fde5-492e-b197-87bf145d0be9
-
 ms.date: 12/05/2018
 ms.keywords: IWMProfile interface [windows Media Format],RemoveStream method, IWMProfile.RemoveStream, IWMProfile2 interface [windows Media Format],RemoveStream method, IWMProfile2::RemoveStream, IWMProfile3 interface [windows Media Format],RemoveStream method, IWMProfile3::RemoveStream, IWMProfile::RemoveStream, IWMProfileRemoveStream, RemoveStream, RemoveStream method [windows Media Format], RemoveStream method [windows Media Format],IWMProfile interface, RemoveStream method [windows Media Format],IWMProfile2 interface, RemoveStream method [windows Media Format],IWMProfile3 interface, wmformat.iwmprofile_removestream, wmsdkidl/IWMProfile2::RemoveStream, wmsdkidl/IWMProfile3::RemoveStream, wmsdkidl/IWMProfile::RemoveStream
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMProfile.RemoveStream"
+f1_keywords:
+- wmsdkidl/IWMProfile.RemoveStream
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
- - qasf.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
+- qasf.dll
 api_name:
- - IWMProfile.RemoveStream
- - IWMProfile2.RemoveStream
- - IWMProfile3.RemoveStream
+- IWMProfile.RemoveStream
+- IWMProfile2.RemoveStream
+- IWMProfile3.RemoveStream
 targetos: Windows
 req.typenames: 
 req.redist: 

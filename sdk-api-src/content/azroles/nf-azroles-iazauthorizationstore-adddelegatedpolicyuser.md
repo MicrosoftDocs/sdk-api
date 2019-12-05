@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.AddDelegatedPolicyUser
 title: IAzAuthorizationStore::AddDelegatedPolicyUser (azroles.h)
-
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
 old-location: security\azauthorizationstore_adddelegatedpolicyuser.htm
 tech.root: SecAuthZ
 ms.assetid: 0c6714e9-489e-4266-a8b5-35c66b0a14f4
-
 ms.date: 12/05/2018
 ms.keywords: AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security],AzAuthorizationStore object, AddDelegatedPolicyUser method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore interface [Security],AddDelegatedPolicyUser method, IAzAuthorizationStore.AddDelegatedPolicyUser, IAzAuthorizationStore::AddDelegatedPolicyUser, azroles/IAzAuthorizationStore::AddDelegatedPolicyUser, security.azauthorizationstore_adddelegatedpolicyuser
 ms.topic: method
-f1_keywords: 
- - "azroles/AzAuthorizationStore.AddDelegatedPolicyUser"
+f1_keywords:
+- azroles/AzAuthorizationStore.AddDelegatedPolicyUser
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - AzAuthorizationStore.AddDelegatedPolicyUser
- - IAzAuthorizationStore.AddDelegatedPolicyUser
+- AzAuthorizationStore.AddDelegatedPolicyUser
+- IAzAuthorizationStore.AddDelegatedPolicyUser
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

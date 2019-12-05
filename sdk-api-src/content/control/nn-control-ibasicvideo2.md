@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IBasicVideo2
 title: IBasicVideo2 (control.h)
-
 description: The IBasicVideo2 interface extends the IBasicVideo interface.
 old-location: dshow\ibasicvideo2.htm
 tech.root: DirectShow
 ms.assetid: a21fe7b9-75db-4c5b-bb29-42d305f048a1
-
 ms.date: 12/05/2018
 ms.keywords: IBasicVideo2, IBasicVideo2 interface [DirectShow], IBasicVideo2 interface [DirectShow],described, IBasicVideo2Interface, control/IBasicVideo2, dshow.ibasicvideo2
 ms.topic: interface
-f1_keywords: 
- - "control/IBasicVideo2"
+f1_keywords:
+- control/IBasicVideo2
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IBasicVideo2
+- IBasicVideo2
 targetos: Windows
 req.typenames: 
 req.redist: 

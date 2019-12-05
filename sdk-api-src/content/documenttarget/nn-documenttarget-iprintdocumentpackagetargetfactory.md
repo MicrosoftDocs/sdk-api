@@ -1,19 +1,17 @@
 ---
 UID: NN:documenttarget.IPrintDocumentPackageTargetFactory
 title: IPrintDocumentPackageTargetFactory (documenttarget.h)
-
 description: Used with IPrintDocumentPackageTarget for starting a print job.
 old-location: xps\iprintdocumentpackagetargetfactory.htm
 tech.root: printdocs
 ms.assetid: 631FBF5E-1DDF-49A9-8E1E-201BC6996EA5
-
 ms.date: 12/05/2018
 ms.keywords: IPrintDocumentPackageTargetFactory, IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging], IPrintDocumentPackageTargetFactory interface [XPS Documents and Packaging],described, documenttarget/IPrintDocumentPackageTargetFactory, xps.iprintdocumentpackagetargetfactory
 ms.topic: interface
-f1_keywords: 
- - "documenttarget/IPrintDocumentPackageTargetFactory"
+f1_keywords:
+- documenttarget/IPrintDocumentPackageTargetFactory
 dev_langs:
- - c++
+- c++
 req.header: documenttarget.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - documenttarget.h
+- documenttarget.h
 api_name:
- - IPrintDocumentPackageTargetFactory
+- IPrintDocumentPackageTargetFactory
 targetos: Windows
 req.typenames: 
 req.redist: 

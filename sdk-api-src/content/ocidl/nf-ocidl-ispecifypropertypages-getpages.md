@@ -1,19 +1,17 @@
 ---
 UID: NF:ocidl.ISpecifyPropertyPages.GetPages
 title: ISpecifyPropertyPages::GetPages (ocidl.h)
-
 description: Retrieves a list of property pages that can be displayed in this object's property sheet.
 old-location: com\ispecifypropertypages_getpages.htm
 tech.root: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59
-
 ms.date: 12/05/2018
 ms.keywords: GetPages, GetPages method [COM], GetPages method [COM],ISpecifyPropertyPages interface, ISpecifyPropertyPages interface [COM],GetPages method, ISpecifyPropertyPages.GetPages, ISpecifyPropertyPages::GetPages, _ctrl_ispecifypropertypages_getpages, com.ispecifypropertypages_getpages, ocidl/ISpecifyPropertyPages::GetPages
 ms.topic: method
-f1_keywords: 
- - "ocidl/ISpecifyPropertyPages.GetPages"
+f1_keywords:
+- ocidl/ISpecifyPropertyPages.GetPages
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - ISpecifyPropertyPages.GetPages
+- ISpecifyPropertyPages.GetPages
 targetos: Windows
 req.typenames: 
 req.redist: 

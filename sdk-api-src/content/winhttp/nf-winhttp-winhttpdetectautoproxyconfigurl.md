@@ -1,19 +1,17 @@
 ---
 UID: NF:winhttp.WinHttpDetectAutoProxyConfigUrl
 title: WinHttpDetectAutoProxyConfigUrl function (winhttp.h)
-
 description: Finds the URL for the Proxy Auto-Configuration (PAC) file.
 old-location: http\winhttpdetectautoproxyconfigurl.htm
 tech.root: WinHttp
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
-
 ms.date: 12/05/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
 ms.topic: function
-f1_keywords: 
- - "winhttp/WinHttpDetectAutoProxyConfigUrl"
+f1_keywords:
+- winhttp/WinHttpDetectAutoProxyConfigUrl
 dev_langs:
- - c++
+- c++
 req.header: winhttp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Winhttp.lib
 req.dll: Winhttp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winhttp.dll
+- Winhttp.dll
 api_name:
- - WinHttpDetectAutoProxyConfigUrl
+- WinHttpDetectAutoProxyConfigUrl
 targetos: Windows
 req.typenames: 
 req.redist: 

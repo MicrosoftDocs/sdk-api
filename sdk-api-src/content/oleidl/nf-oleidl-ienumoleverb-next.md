@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IEnumOLEVERB.Next
 title: IEnumOLEVERB::Next (oleidl.h)
-
 description: Retrieves the specified number of items in the enumeration sequence.
 old-location: com\ienumoleverb_next.htm
 tech.root: com
 ms.assetid: bb934017-9054-42b5-89d4-a24f12829503
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOLEVERB interface [COM],Next method, IEnumOLEVERB.Next, IEnumOLEVERB::Next, Next, Next method [COM], Next method [COM],IEnumOLEVERB interface, _ole_ienumoleverb_next, com.ienumoleverb_next, oleidl/IEnumOLEVERB::Next
 ms.topic: method
-f1_keywords: 
- - "oleidl/IEnumOLEVERB.Next"
+f1_keywords:
+- oleidl/IEnumOLEVERB.Next
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
+- OleIdl.h
 api_name:
- - IEnumOLEVERB.Next
+- IEnumOLEVERB.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

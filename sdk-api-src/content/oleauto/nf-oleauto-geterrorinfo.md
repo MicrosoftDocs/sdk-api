@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.GetErrorInfo
 title: GetErrorInfo function (oleauto.h)
-
 description: Obtains the error information pointer set by the previous call to SetErrorInfo in the current logical thread.
 old-location: automat\geterrorinfo.htm
 tech.root: automat
 ms.assetid: 03317526-8c4f-4173-bc10-110c8112676a
-
 ms.date: 12/05/2018
 ms.keywords: GetErrorInfo, GetErrorInfo function [Automation], _oa96_GetErrorInfo, automat.geterrorinfo, oleauto/GetErrorInfo
 ms.topic: function
-f1_keywords: 
- - "oleauto/GetErrorInfo"
+f1_keywords:
+- oleauto/GetErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
- - API-MS-Win-Downlevel-OLE32-l1-1-1.dll
- - ComBase.dll
+- OleAut32.dll
+- API-MS-Win-Downlevel-OLE32-l1-1-1.dll
+- ComBase.dll
 api_name:
- - GetErrorInfo
+- GetErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

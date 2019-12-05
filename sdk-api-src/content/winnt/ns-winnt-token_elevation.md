@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._TOKEN_ELEVATION
 title: TOKEN_ELEVATION (winnt.h)
-
 description: Indicates whether a token has elevated privileges.
 old-location: security\token_elevation.htm
 tech.root: SecAuthZ
 ms.assetid: a1c87818-f092-43cf-872d-4bb2590a944b
-
 ms.date: 12/05/2018
-ms.keywords: "*PTOKEN_ELEVATION, PTOKEN_ELEVATION, PTOKEN_ELEVATION structure pointer [Security], TOKEN_ELEVATION, TOKEN_ELEVATION structure [Security], _TOKEN_ELEVATION, security.token_elevation, winnt/PTOKEN_ELEVATION, winnt/TOKEN_ELEVATION"
+ms.keywords: '*PTOKEN_ELEVATION, PTOKEN_ELEVATION, PTOKEN_ELEVATION structure pointer [Security], TOKEN_ELEVATION, TOKEN_ELEVATION structure [Security], _TOKEN_ELEVATION, security.token_elevation, winnt/PTOKEN_ELEVATION, winnt/TOKEN_ELEVATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/TOKEN_ELEVATION"
+f1_keywords:
+- winnt/TOKEN_ELEVATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - TOKEN_ELEVATION
+- TOKEN_ELEVATION
 targetos: Windows
 req.typenames: TOKEN_ELEVATION, *PTOKEN_ELEVATION
 req.redist: 

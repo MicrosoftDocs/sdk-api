@@ -1,19 +1,17 @@
 ---
 UID: NS:iketypes.IKEEXT_CERT_EKUS0_
 title: IKEEXT_CERT_EKUS0 (iketypes.h)
-
 description: Contains information about the extended key usage (EKU) properties of a certificate.
 old-location: fwp\ikeext_cert_ekus0.htm
 tech.root: fwp
 ms.assetid: e9669340-a1f2-455f-a490-a94694c83531
-
 ms.date: 12/05/2018
 ms.keywords: IKEEXT_CERT_EKUS0, IKEEXT_CERT_EKUS0 structure [Filtering], fwp.ikeext_cert_ekus0, iketypes/IKEEXT_CERT_EKUS0
 ms.topic: struct
-f1_keywords: 
- - "iketypes/IKEEXT_CERT_EKUS0"
+f1_keywords:
+- iketypes/IKEEXT_CERT_EKUS0
 dev_langs:
- - c++
+- c++
 req.header: iketypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - iketypes.h
+- iketypes.h
 api_name:
- - IKEEXT_CERT_EKUS0
+- IKEEXT_CERT_EKUS0
 targetos: Windows
 req.typenames: IKEEXT_CERT_EKUS0
 req.redist: 

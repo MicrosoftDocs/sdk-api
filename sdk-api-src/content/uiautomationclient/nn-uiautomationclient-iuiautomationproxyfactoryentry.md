@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationProxyFactoryEntry
 title: IUIAutomationProxyFactoryEntry (uiautomationclient.h)
-
 description: Represents a proxy factory in the table maintained by Microsoft UI Automation, and exposes properties and methods that can be used by client applications to interact with IUIAutomationProxyFactory objects.
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry.htm
 tech.root: WinAuto
 ms.assetid: 0507deef-35dc-45bb-a7c1-82b84344ee17
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomationProxyFactoryEntry, IUIAutomationProxyFactoryEntry interface [Windows Accessibility], IUIAutomationProxyFactoryEntry interface [Windows Accessibility],described, uiauto.uiauto_IUIAutomationProxyFactoryEntry, uiauto_IUIAutomationProxyFactoryEntry, uiautomationclient/IUIAutomationProxyFactoryEntry, winauto.uiauto_IUIAutomationProxyFactoryEntry
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomationProxyFactoryEntry"
+f1_keywords:
+- uiautomationclient/IUIAutomationProxyFactoryEntry
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomationProxyFactoryEntry
+- IUIAutomationProxyFactoryEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

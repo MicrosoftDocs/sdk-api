@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.InRange
 title: ITextRange::InRange (tom.h)
-
 description: Determines whether this range is within or at the same text as a specified range.
 old-location: controls\ITextRange_InRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\inrange.htm
-
 ms.date: 12/05/2018
 ms.keywords: ITextRange interface [Windows Controls],InRange method, ITextRange.InRange, ITextRange::InRange, InRange, InRange method [Windows Controls], InRange method [Windows Controls],ITextRange interface, _win32_ITextRange_InRange, _win32_ITextRange_InRange_cpp, controls.ITextRange_InRange, controls._win32_ITextRange_InRange, tom/ITextRange::InRange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.InRange"
+f1_keywords:
+- tom/ITextRange.InRange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.InRange
+- ITextRange.InRange
 targetos: Windows
 req.typenames: 
 req.redist: 

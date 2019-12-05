@@ -1,19 +1,17 @@
 ---
 UID: NF:evntprov.EventActivityIdControl
 title: EventActivityIdControl function (evntprov.h)
-
 description: Creates, queries, and sets the current activity identifier used by the EventWriteTransfer function.
 old-location: etw\eventactivityidcontrol_func.htm
 tech.root: ETW
 ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f
-
 ms.date: 12/05/2018
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EventActivityIdControl, EventActivityIdControl function [ETW], base.eventactivityidcontrol_func, etw.eventactivityidcontrol_func, evntprov/EventActivityIdControl
 ms.topic: function
-f1_keywords: 
- - "evntprov/EventActivityIdControl"
+f1_keywords:
+- evntprov/EventActivityIdControl
 dev_langs:
- - c++
+- c++
 req.header: evntprov.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
- - API-MS-Win-eventing-provider-l1-1-0.dll
- - API-MS-Win-Eventing-Provider-L1-1-1.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
+- API-MS-Win-eventing-provider-l1-1-0.dll
+- API-MS-Win-Eventing-Provider-L1-1-1.dll
 api_name:
- - EventActivityIdControl
+- EventActivityIdControl
 targetos: Windows
 req.typenames: 
 req.redist: 

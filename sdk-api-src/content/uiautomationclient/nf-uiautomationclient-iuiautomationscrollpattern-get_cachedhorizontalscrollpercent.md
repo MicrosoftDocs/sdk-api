@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent
 title: IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent (uiautomationclient.h)
-
 description: Retrieves the cached horizontal scroll position.
 old-location: winauto\uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent.htm
 tech.root: WinAuto
 ms.assetid: 8cdc76fc-dfac-462e-977f-e216fce43607
-
 ms.date: 12/05/2018
 ms.keywords: CachedHorizontalScrollPercent property [Windows Accessibility], CachedHorizontalScrollPercent property [Windows Accessibility],IUIAutomationScrollPattern interface, IUIAutomationScrollPattern interface [Windows Accessibility],CachedHorizontalScrollPercent property, IUIAutomationScrollPattern.CachedHorizontalScrollPercent, IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent, IUIAutomationScrollPattern::CachedHorizontalScrollPercent, IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent, get_CachedHorizontalScrollPercent, uiauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent, uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::CachedHorizontalScrollPercent, uiautomationclient/IUIAutomationScrollPattern::get_CachedHorizontalScrollPercent, winauto.uiauto_IUIAutomationScrollPattern_CachedHorizontalScrollPercent
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationScrollPattern.CachedHorizontalScrollPercent"
+f1_keywords:
+- uiautomationclient/IUIAutomationScrollPattern.CachedHorizontalScrollPercent
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern.CachedHorizontalScrollPercent
- - IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent
+- IUIAutomationScrollPattern.CachedHorizontalScrollPercent
+- IUIAutomationScrollPattern.get_CachedHorizontalScrollPercent
 targetos: Windows
 req.typenames: 
 req.redist: 

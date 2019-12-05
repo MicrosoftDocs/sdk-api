@@ -1,19 +1,17 @@
 ---
 UID: NF:termmgr.ITTerminalControl.ConnectTerminal
 title: ITTerminalControl::ConnectTerminal (termmgr.h)
-
 description: The ConnectTerminal method connects filters and returns a set of pins for connection. Enters each of the internal filters into the filter graph, connects the internal filters together (if applicable) and returns a set of pins for connection.
 old-location: tapi3\itterminalcontrol_connectterminal.htm
 tech.root: Tapi
 ms.assetid: 0351e645-b857-44d8-a226-046ebe0f4c81
-
 ms.date: 12/05/2018
 ms.keywords: ConnectTerminal, ConnectTerminal method [TAPI 2.2], ConnectTerminal method [TAPI 2.2],ITTerminalControl interface, ITTerminalControl interface [TAPI 2.2],ConnectTerminal method, ITTerminalControl.ConnectTerminal, ITTerminalControl::ConnectTerminal, _tapi3_itterminalcontrol_connectterminal, tapi3.itterminalcontrol_connectterminal, termmgr/ITTerminalControl::ConnectTerminal
 ms.topic: method
-f1_keywords: 
- - "termmgr/ITTerminalControl.ConnectTerminal"
+f1_keywords:
+- termmgr/ITTerminalControl.ConnectTerminal
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Termmgr.h
+- Termmgr.h
 api_name:
- - ITTerminalControl.ConnectTerminal
+- ITTerminalControl.ConnectTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

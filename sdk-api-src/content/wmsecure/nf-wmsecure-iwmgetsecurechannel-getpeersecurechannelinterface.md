@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMGetSecureChannel.GetPeerSecureChannelInterface
 title: IWMGetSecureChannel::GetPeerSecureChannelInterface (wmsecure.h)
-
 description: The GetPeerSecureChannelInterface method gets the IWMSecureChannel interface from the other communication party.
 old-location: wmformat\iwmgetsecurechannel_getpeersecurechannelinterface.htm
 tech.root: wmformat
 ms.assetid: bda30638-10b5-4288-b885-b63485606a7f
-
 ms.date: 12/05/2018
 ms.keywords: GetPeerSecureChannelInterface, GetPeerSecureChannelInterface method [windows Media Format], GetPeerSecureChannelInterface method [windows Media Format],IWMGetSecureChannel interface, IWMGetSecureChannel interface [windows Media Format],GetPeerSecureChannelInterface method, IWMGetSecureChannel.GetPeerSecureChannelInterface, IWMGetSecureChannel::GetPeerSecureChannelInterface, wmformat.iwmgetsecurechannel_getpeersecurechannelinterface, wmsecure/IWMGetSecureChannel::GetPeerSecureChannelInterface
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMGetSecureChannel.GetPeerSecureChannelInterface"
+f1_keywords:
+- wmsecure/IWMGetSecureChannel.GetPeerSecureChannelInterface
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMGetSecureChannel.GetPeerSecureChannelInterface
+- IWMGetSecureChannel.GetPeerSecureChannelInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

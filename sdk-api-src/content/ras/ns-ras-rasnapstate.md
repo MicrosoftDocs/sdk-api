@@ -1,19 +1,17 @@
 ---
 UID: NS:ras._tagRasNapState
 title: RASNAPSTATE (ras.h)
-
 description: The Network Access Protection (NAP) variables for a remote access connection.
 old-location: rras\rasnapstate.htm
 tech.root: RRAS
 ms.assetid: 1cba931c-041a-4ec6-8c30-db3a02b59ec3
-
 ms.date: 12/05/2018
-ms.keywords: "*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate"
+ms.keywords: '*LPRASNAPSTATE, LPRASNAPSTATE, LPRASNAPSTATE structure pointer [RAS], RASNAPSTATE, RASNAPSTATE structure [RAS], ras/LPRASNAPSTATE, ras/RASNAPSTATE, rras.rasnapstate'
 ms.topic: struct
-f1_keywords: 
- - "ras/RASNAPSTATE"
+f1_keywords:
+- ras/RASNAPSTATE
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ras.h
+- Ras.h
 api_name:
- - RASNAPSTATE
+- RASNAPSTATE
 targetos: Windows
 req.typenames: RASNAPSTATE, *LPRASNAPSTATE
 req.redist: 

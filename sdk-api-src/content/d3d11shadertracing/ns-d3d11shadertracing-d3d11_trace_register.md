@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_REGISTER
 title: D3D11_TRACE_REGISTER (d3d11shadertracing.h)
-
 description: Describes a trace register.
 old-location: direct3d11\d3d11_trace_register.htm
 tech.root: direct3d11
 ms.assetid: 32A51FC7-375D-40BE-95F2-65C5057F002C
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TRACE_REGISTER, D3D11_TRACE_REGISTER structure [Direct3D 11], d3d11shadertracing/D3D11_TRACE_REGISTER, direct3d11.d3d11_trace_register
 ms.topic: struct
-f1_keywords: 
- - "d3d11shadertracing/D3D11_TRACE_REGISTER"
+f1_keywords:
+- d3d11shadertracing/D3D11_TRACE_REGISTER
 dev_langs:
- - c++
+- c++
 req.header: d3d11shadertracing.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11ShaderTracing.h
+- D3D11ShaderTracing.h
 api_name:
- - D3D11_TRACE_REGISTER
+- D3D11_TRACE_REGISTER
 targetos: Windows
 req.typenames: D3D11_TRACE_REGISTER
 req.redist: 

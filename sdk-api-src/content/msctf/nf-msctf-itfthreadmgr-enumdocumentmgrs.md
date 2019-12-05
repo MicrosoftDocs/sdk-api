@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfThreadMgr.EnumDocumentMgrs
 title: ITfThreadMgr::EnumDocumentMgrs (msctf.h)
-
 description: ITfThreadMgr::EnumDocumentMgrs method
 old-location: tsf\itfthreadmgr_enumdocumentmgrs.htm
 tech.root: TSF
 ms.assetid: 0b6f61fb-0ca0-4b93-ad30-d1e080b9bde1
-
 ms.date: 12/05/2018
 ms.keywords: EnumDocumentMgrs, EnumDocumentMgrs method [Text Services Framework], EnumDocumentMgrs method [Text Services Framework],ITfThreadMgr interface, ITfThreadMgr interface [Text Services Framework],EnumDocumentMgrs method, ITfThreadMgr.EnumDocumentMgrs, ITfThreadMgr::EnumDocumentMgrs, _tsf_itfthreadmgr_enumdocumentmgrs_ref, msctf/ITfThreadMgr::EnumDocumentMgrs, tsf.itfthreadmgr_enumdocumentmgrs
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfThreadMgr.EnumDocumentMgrs"
+f1_keywords:
+- msctf/ITfThreadMgr.EnumDocumentMgrs
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msctf.dll
+- Msctf.dll
 api_name:
- - ITfThreadMgr.EnumDocumentMgrs
+- ITfThreadMgr.EnumDocumentMgrs
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

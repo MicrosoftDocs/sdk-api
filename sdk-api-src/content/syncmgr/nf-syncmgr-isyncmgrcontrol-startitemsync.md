@@ -1,19 +1,17 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.StartItemSync
 title: ISyncMgrControl::StartItemSync (syncmgr.h)
-
 description: Initiates the synchronization of specified items managed by a particular handler.
 old-location: shell\ISyncMgrControl_StartItemSync.htm
 tech.root: shell
 ms.assetid: 7e4798ce-04ee-4c75-8be2-0ad8fdc400a5
-
 ms.date: 12/05/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],StartItemSync method, ISyncMgrControl.StartItemSync, ISyncMgrControl::StartItemSync, StartItemSync, StartItemSync method [Windows Shell], StartItemSync method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_StartItemSync, shell.ISyncMgrControl_StartItemSync, syncmgr/ISyncMgrControl::StartItemSync
 ms.topic: method
-f1_keywords: 
- - "syncmgr/ISyncMgrControl.StartItemSync"
+f1_keywords:
+- syncmgr/ISyncMgrControl.StartItemSync
 dev_langs:
- - c++
+- c++
 req.header: syncmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Syncmgr.h
+- Syncmgr.h
 api_name:
- - ISyncMgrControl.StartItemSync
+- ISyncMgrControl.StartItemSync
 targetos: Windows
 req.typenames: 
 req.redist: 

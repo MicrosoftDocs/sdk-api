@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IFeedClockVector.GetUpdateCount
 title: IFeedClockVector::GetUpdateCount (winsync.h)
-
 description: Gets the number of updates that have been made to the FeedSync item.
 old-location: winsync\ifeedclockvector_getupdatecount.htm
 tech.root: winsync
 ms.assetid: a8cf6b0f-2049-4047-b72d-34530ae82605
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateCount, GetUpdateCount method [Windows Sync], GetUpdateCount method [Windows Sync],IFeedClockVector interface, IFeedClockVector interface [Windows Sync],GetUpdateCount method, IFeedClockVector.GetUpdateCount, IFeedClockVector::GetUpdateCount, winsync.ifeedclockvector_getupdatecount, winsync/IFeedClockVector::GetUpdateCount
 ms.topic: method
-f1_keywords: 
- - "winsync/IFeedClockVector.GetUpdateCount"
+f1_keywords:
+- winsync/IFeedClockVector.GetUpdateCount
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IFeedClockVector.GetUpdateCount
+- IFeedClockVector.GetUpdateCount
 targetos: Windows
 req.typenames: 
 req.redist: 

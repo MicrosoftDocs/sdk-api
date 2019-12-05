@@ -1,19 +1,17 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.GetServiceForStream
 title: IMFSourceReader::GetServiceForStream (mfreadwrite.h)
-
 description: Queries the underlying media source or decoder for an interface.
 old-location: mf\imfsourcereader_getserviceforstream.htm
 tech.root: medfound
 ms.assetid: d8868e4d-eedd-4fbd-b870-d3af48890c92
-
 ms.date: 12/05/2018
 ms.keywords: GetServiceForStream, GetServiceForStream method [Media Foundation], GetServiceForStream method [Media Foundation],IMFSourceReader interface, IMFSourceReader interface [Media Foundation],GetServiceForStream method, IMFSourceReader.GetServiceForStream, IMFSourceReader::GetServiceForStream, MF_SOURCE_READER_FIRST_AUDIO_STREAM, MF_SOURCE_READER_FIRST_VIDEO_STREAM, MF_SOURCE_READER_MEDIASOURCE, mf.imfsourcereader_getserviceforstream, mfreadwrite/IMFSourceReader::GetServiceForStream
 ms.topic: method
-f1_keywords: 
- - "mfreadwrite/IMFSourceReader.GetServiceForStream"
+f1_keywords:
+- mfreadwrite/IMFSourceReader.GetServiceForStream
 dev_langs:
- - c++
+- c++
 req.header: mfreadwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfreadwrite.h
+- mfreadwrite.h
 api_name:
- - IMFSourceReader.GetServiceForStream
+- IMFSourceReader.GetServiceForStream
 targetos: Windows
 req.typenames: 
 req.redist: 

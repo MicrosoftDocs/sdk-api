@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509ExtensionKeyUsage.InitializeDecode
 title: IX509ExtensionKeyUsage::InitializeDecode (certenroll.h)
-
 description: Initializes the extension from a Distinguished Encoding Rules (DER) encoded byte array that contains the extension value.
 old-location: security\ix509extensionkeyusage_initializedecode_method.htm
 tech.root: seccertenroll
 ms.assetid: 5e51a148-0a76-4f38-b92f-fd5209e0b497
-
 ms.date: 12/05/2018
 ms.keywords: IX509ExtensionKeyUsage interface [Security],InitializeDecode method, IX509ExtensionKeyUsage.InitializeDecode, IX509ExtensionKeyUsage::InitializeDecode, InitializeDecode, InitializeDecode method [Security], InitializeDecode method [Security],IX509ExtensionKeyUsage interface, certenroll/IX509ExtensionKeyUsage::InitializeDecode, security.ix509extensionkeyusage_initializedecode_method
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509ExtensionKeyUsage.InitializeDecode"
+f1_keywords:
+- certenroll/IX509ExtensionKeyUsage.InitializeDecode
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509ExtensionKeyUsage.InitializeDecode
+- IX509ExtensionKeyUsage.InitializeDecode
 targetos: Windows
 req.typenames: 
 req.redist: 

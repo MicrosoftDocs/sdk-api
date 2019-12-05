@@ -1,19 +1,17 @@
 ---
 UID: NS:msdrmdefs._DRM_LICENSE_ACQ_DATA
 title: DRM_LICENSE_ACQ_DATA (msdrmdefs.h)
-
 description: Holds license acquisition data during nonsilent license acquisition.
 old-location: rm\drm_license_acq_data.htm
 tech.root: AdRms_Sdk
 ms.assetid: c8f4ba99-5711-495f-9820-f604cc9e20f7
-
 ms.date: 12/05/2018
 ms.keywords: DRM_LICENSE_ACQ_DATA, DRM_LICENSE_ACQ_DATA structure [Active Directory Rights Management Services SDK 1.0], msdrmdefs/DRM_LICENSE_ACQ_DATA, rm.drm_license_acq_data
 ms.topic: struct
-f1_keywords: 
- - "msdrmdefs/DRM_LICENSE_ACQ_DATA"
+f1_keywords:
+- msdrmdefs/DRM_LICENSE_ACQ_DATA
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRM_LICENSE_ACQ_DATA
+- DRM_LICENSE_ACQ_DATA
 targetos: Windows
 req.typenames: DRM_LICENSE_ACQ_DATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDistributorNotify.Stop
 title: IDistributorNotify::Stop (strmif.h)
-
 description: The Stop method is called when the filter graph is entering a stopped state.
 old-location: dshow\idistributornotify_stop.htm
 tech.root: DirectShow
 ms.assetid: 21312954-bc48-402b-a03c-954c01b53231
-
 ms.date: 12/05/2018
 ms.keywords: IDistributorNotify interface [DirectShow],Stop method, IDistributorNotify.Stop, IDistributorNotify::Stop, IDistributorNotifyStop, Stop, Stop method [DirectShow], Stop method [DirectShow],IDistributorNotify interface, dshow.idistributornotify_stop, strmif/IDistributorNotify::Stop
 ms.topic: method
-f1_keywords: 
- - "strmif/IDistributorNotify.Stop"
+f1_keywords:
+- strmif/IDistributorNotify.Stop
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDistributorNotify.Stop
+- IDistributorNotify.Stop
 targetos: Windows
 req.typenames: 
 req.redist: 

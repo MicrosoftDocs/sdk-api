@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICCompressQuery
 title: ICCompressQuery macro (vfw.h)
-
 description: The ICCompressQuery macro queries a video compression driver to determine if it supports a specific input format or if it can compress a specific input format to a specific output format.
 old-location: multimedia\iccompressquery.htm
 tech.root: Multimedia
 ms.assetid: 5e34a830-5e0c-41e5-9e4a-2d827c73ceeb
-
 ms.date: 12/05/2018
 ms.keywords: ICCompressQuery, ICCompressQuery macro [Windows Multimedia], _win32_ICCompressQuery, multimedia.iccompressquery, vfw/ICCompressQuery
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICCompressQuery"
+f1_keywords:
+- vfw/ICCompressQuery
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICCompressQuery
+- ICCompressQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

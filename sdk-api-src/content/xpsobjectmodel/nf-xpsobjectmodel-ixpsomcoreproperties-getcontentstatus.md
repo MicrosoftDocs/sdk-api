@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetContentStatus
 title: IXpsOMCoreProperties::GetContentStatus (xpsobjectmodel.h)
-
 description: Gets the contentStatus property.
 old-location: xps\ixpsomcoreproperties_getcontentstatus.htm
 tech.root: printdocs
 ms.assetid: 9e058e8d-ace6-4892-87c1-07e28ff24462
-
 ms.date: 12/05/2018
 ms.keywords: GetContentStatus, GetContentStatus method [XPS Documents and Packaging], GetContentStatus method [XPS Documents and Packaging],IXpsOMCoreProperties interface, IXpsOMCoreProperties interface [XPS Documents and Packaging],GetContentStatus method, IXpsOMCoreProperties.GetContentStatus, IXpsOMCoreProperties::GetContentStatus, xps.ixpsomcoreproperties_getcontentstatus, xpsobjectmodel/IXpsOMCoreProperties::GetContentStatus
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMCoreProperties.GetContentStatus"
+f1_keywords:
+- xpsobjectmodel/IXpsOMCoreProperties.GetContentStatus
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties.GetContentStatus
+- IXpsOMCoreProperties.GetContentStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

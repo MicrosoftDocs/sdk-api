@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.AnalyzeContainerType
 title: IDWriteFactory5::AnalyzeContainerType (dwrite_3.h)
-
 description: The AnalyzeContainerType method analyzes the specified file data to determine whether it is a known font container format (e.g., WOFF or WOFF2).
 old-location: directwrite\idwritefactory5_analyzecontainertype.htm
 tech.root: DirectWrite
 ms.assetid: A13656C9-E793-40E2-81BD-0F9C0F437F1E
-
 ms.date: 12/05/2018
 ms.keywords: AnalyzeContainerType, AnalyzeContainerType method [Direct Write], AnalyzeContainerType method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],AnalyzeContainerType method, IDWriteFactory5.AnalyzeContainerType, IDWriteFactory5::AnalyzeContainerType, directwrite.idwritefactory5_analyzecontainertype, dwrite_3/IDWriteFactory5::AnalyzeContainerType
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFactory5.AnalyzeContainerType"
+f1_keywords:
+- dwrite_3/IDWriteFactory5.AnalyzeContainerType
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteFactory5.AnalyzeContainerType
+- IDWriteFactory5.AnalyzeContainerType
 targetos: Windows
 req.typenames: 
 req.redist: 

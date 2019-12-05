@@ -1,19 +1,17 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetElementPID
 title: IServiceLocationDescriptor::GetElementPID (atscpsipparser.h)
-
 description: Gets the program ID (PID) that identifies an elementary stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
 old-location: mstv\iservicelocationdescriptor_getelementpid.htm
 tech.root: mstv
 ms.assetid: 97b6091b-cacb-4e69-8ca4-c9f4b70f6304
-
 ms.date: 12/05/2018
 ms.keywords: GetElementPID, GetElementPID method [Microsoft TV Technologies], GetElementPID method [Microsoft TV Technologies],IServiceLocationDescriptor interface, IServiceLocationDescriptor interface [Microsoft TV Technologies],GetElementPID method, IServiceLocationDescriptor.GetElementPID, IServiceLocationDescriptor::GetElementPID, atscpsipparser/IServiceLocationDescriptor::GetElementPID, mstv.iservicelocationdescriptor_getelementpid
 ms.topic: method
-f1_keywords: 
- - "atscpsipparser/IServiceLocationDescriptor.GetElementPID"
+f1_keywords:
+- atscpsipparser/IServiceLocationDescriptor.GetElementPID
 dev_langs:
- - c++
+- c++
 req.header: atscpsipparser.h
 req.include-header: Atscpsipparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - atscpsipparser.h
+- atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor.GetElementPID
+- IServiceLocationDescriptor.GetElementPID
 targetos: Windows
 req.typenames: 
 req.redist: 

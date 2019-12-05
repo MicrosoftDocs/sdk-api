@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.ILockBytes.ReadAt
 title: ILockBytes::ReadAt (objidl.h)
-
 description: The ReadAt method reads a specified number of bytes starting at a specified offset from the beginning of the byte array object.
 old-location: stg\ilockbytes_readat.htm
 tech.root: Stg
 ms.assetid: 0478d6f0-65c4-445b-946a-692f2373e8f1
-
 ms.date: 12/05/2018
 ms.keywords: ILockBytes interface [Structured Storage],ReadAt method, ILockBytes.ReadAt, ILockBytes::ReadAt, ReadAt, ReadAt method [Structured Storage], ReadAt method [Structured Storage],ILockBytes interface, _stg_ilockbytes_readat, objidl/ILockBytes::ReadAt, stg.ilockbytes_readat
 ms.topic: method
-f1_keywords: 
- - "objidl/ILockBytes.ReadAt"
+f1_keywords:
+- objidl/ILockBytes.ReadAt
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ole32.dll
+- Ole32.dll
 api_name:
- - ILockBytes.ReadAt
+- ILockBytes.ReadAt
 targetos: Windows
 req.typenames: 
 req.redist: 

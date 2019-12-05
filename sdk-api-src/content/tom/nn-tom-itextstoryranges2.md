@@ -1,19 +1,17 @@
 ---
 UID: NN:tom.ITextStoryRanges2
 title: ITextStoryRanges2 (tom.h)
-
 description: The ITextStoryRanges2 interface enumerates the stories in an ITextDocument.
 old-location: controls\itextstoryranges2.htm
 tech.root: Controls
 ms.assetid: 24e2dd79-8054-44e3-aa68-778a96e2f66a
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoryRanges2, ITextStoryRanges2 interface [Windows Controls], ITextStoryRanges2 interface [Windows Controls],described, controls.itextstoryranges2, tom/ITextStoryRanges2
 ms.topic: interface
-f1_keywords: 
- - "tom/ITextStoryRanges2"
+f1_keywords:
+- tom/ITextStoryRanges2
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextStoryRanges2
+- ITextStoryRanges2
 targetos: Windows
 req.typenames: 
 req.redist: 

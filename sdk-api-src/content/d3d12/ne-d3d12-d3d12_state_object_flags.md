@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_STATE_OBJECT_FLAGS
 title: D3D12_STATE_OBJECT_FLAGS (d3d12.h)
-
 description: Specifies constraints for state objects. Use values from this enumeration in the D3D12_STATE_OBJECT_CONFIG structure.
 old-location: direct3d12\d3d12_state_object_flags.htm
 tech.root: direct3d12
 ms.assetid: 735414B3-73FA-4063-81A2-92658D3D8CB2
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_STATE_OBJECT_FLAGS, D3D12_STATE_OBJECT_FLAGS enumeration, D3D12_STATE_OBJECT_FLAG_ALLOW_EXTERNAL_DEPENDENCIES_ON_LOCAL_DEFINITIONS, D3D12_STATE_OBJECT_FLAG_ALLOW_LOCAL_DEPENDENCIES_ON_EXTERNAL_DEFINITIONS, D3D12_STATE_OBJECT_FLAG_NONE, d3d12/ D3D12_STATE_OBJECT_FLAG_NONE, d3d12/D3D12_STATE_OBJECT_FLAGS, d3d12/D3D12_STATE_OBJECT_FLAG_ALLOW_EXTERNAL_DEPENDENCIES_ON_LOCAL_DEFINITIONS, d3d12/D3D12_STATE_OBJECT_FLAG_ALLOW_LOCAL_DEPENDENCIES_ON_EXTERNAL_DEFINITIONS, direct3d12.d3d12_state_object_flags
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_STATE_OBJECT_FLAGS"
+f1_keywords:
+- d3d12/D3D12_STATE_OBJECT_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_STATE_OBJECT_FLAGS
+- D3D12_STATE_OBJECT_FLAGS
 targetos: Windows
 req.typenames: D3D12_STATE_OBJECT_FLAGS
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Plugin
 title: ITsSbTaskInfo::get_Plugin (sbtsv.h)
-
 description: Retrieves the display name of the task agent.
 old-location: termserv\itssbtaskinfo_plugin.htm
 tech.root: TermServ
 ms.assetid: 1302377f-08db-413a-9f6c-ab9c974cf760
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbTaskInfo interface [Remote Desktop Services],Plugin property, ITsSbTaskInfo.Plugin, ITsSbTaskInfo.get_Plugin, ITsSbTaskInfo::Plugin, ITsSbTaskInfo::get_Plugin, Plugin property [Remote Desktop Services], Plugin property [Remote Desktop Services],ITsSbTaskInfo interface, get_Plugin, sbtsv/ITsSbTaskInfo::Plugin, sbtsv/ITsSbTaskInfo::get_Plugin, termserv.itssbtaskinfo_plugin
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbTaskInfo.Plugin"
+f1_keywords:
+- sbtsv/ITsSbTaskInfo.Plugin
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbTaskInfo.Plugin
- - ITsSbTaskInfo.get_Plugin
+- ITsSbTaskInfo.Plugin
+- ITsSbTaskInfo.get_Plugin
 targetos: Windows
 req.typenames: 
 req.redist: 

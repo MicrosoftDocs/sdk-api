@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetSelectedControlItem
 title: IFileDialogCustomize::GetSelectedControlItem (shobjidl_core.h)
-
 description: Gets a particular item from specified container controls in the dialog.
 old-location: shell\IFileDialogCustomize_GetSelectedControlItem.htm
 tech.root: shell
 ms.assetid: 1dd33779-071f-484e-9d89-1cc64ea03293
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectedControlItem, GetSelectedControlItem method [Windows Shell], GetSelectedControlItem method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],GetSelectedControlItem method, IFileDialogCustomize.GetSelectedControlItem, IFileDialogCustomize::GetSelectedControlItem, shell.IFileDialogCustomize_GetSelectedControlItem, shell_IFileDialogCustomize_GetSelectedControlItem, shobjidl_core/IFileDialogCustomize::GetSelectedControlItem
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileDialogCustomize.GetSelectedControlItem"
+f1_keywords:
+- shobjidl_core/IFileDialogCustomize.GetSelectedControlItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileDialogCustomize.GetSelectedControlItem
+- IFileDialogCustomize.GetSelectedControlItem
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcoreapi.MultipleViewPattern_GetViewName
 title: MultipleViewPattern_GetViewName function (uiautomationcoreapi.h)
-
 description: Retrieves the name of a control-specific view.
 old-location: winauto\uiauto_MultipleViewPattern_GetViewNameConPat.htm
 tech.root: WinAuto
 ms.assetid: 950d9649-0565-4e1b-bdc7-49d1df7bbcd4
-
 ms.date: 12/05/2018
 ms.keywords: MultipleViewPattern_GetViewName, MultipleViewPattern_GetViewName function [Windows Accessibility], uiauto.uiauto_MultipleViewPattern_GetViewNameConPat, uiauto_MultipleViewPattern_GetViewNameConPat, uiautomationcoreapi/MultipleViewPattern_GetViewName, winauto.uiauto_MultipleViewPattern_GetViewNameConPat
 ms.topic: function
-f1_keywords: 
- - "uiautomationcoreapi/MultipleViewPattern_GetViewName"
+f1_keywords:
+- uiautomationcoreapi/MultipleViewPattern_GetViewName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcoreapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uiautomationcore.lib
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - MultipleViewPattern_GetViewName
+- MultipleViewPattern_GetViewName
 targetos: Windows
 req.typenames: 
 req.redist: 

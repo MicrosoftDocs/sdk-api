@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceResources.GetStream
 title: IPortableDeviceResources::GetStream (portabledeviceapi.h)
-
 description: The GetStream method gets an IStream interface with which to read or write the content data in an object on a device. The retrieved interface enables you to read from or write to the object data.
 old-location: wpdsdk\iportabledeviceresources_getstream.htm
 tech.root: wpd_sdk
 ms.assetid: d5c9a85a-59fa-4b7b-acc7-d450ecd10593
-
 ms.date: 12/05/2018
 ms.keywords: GetStream, GetStream method [Windows Portable Devices SDK], GetStream method [Windows Portable Devices SDK],IPortableDeviceResources interface, IPortableDeviceResources interface [Windows Portable Devices SDK],GetStream method, IPortableDeviceResources.GetStream, IPortableDeviceResources::GetStream, IPortableDeviceResourcesGetStream, portabledeviceapi/IPortableDeviceResources::GetStream, wpdsdk.iportabledeviceresources_getstream
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceResources.GetStream"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceResources.GetStream
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceResources.GetStream
+- IPortableDeviceResources.GetStream
 targetos: Windows
 req.typenames: 
 req.redist: 

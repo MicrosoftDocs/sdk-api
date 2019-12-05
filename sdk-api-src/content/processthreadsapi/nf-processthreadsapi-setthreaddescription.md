@@ -1,19 +1,17 @@
 ---
 UID: NF:processthreadsapi.SetThreadDescription
 title: SetThreadDescription function (processthreadsapi.h)
-
 description: Assigns a description to a thread.
 old-location: base\setthreaddescription.htm
 tech.root: ProcThread
 ms.assetid: 0C17C60A-8DC9-4DB1-A3ED-5AFEBE598CBB
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadDescription, SetThreadDescription function, base.setthreaddescription, processthreadsapi/SetThreadDescription
 ms.topic: function
-f1_keywords: 
- - "processthreadsapi/SetThreadDescription"
+f1_keywords:
+- processthreadsapi/SetThreadDescription
 dev_langs:
- - c++
+- c++
 req.header: processthreadsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - KernelBase.dll
- - Api-ms-win-core-processthreads-l1-1-3.dll
+- Kernel32.dll
+- KernelBase.dll
+- Api-ms-win-core-processthreads-l1-1-3.dll
 api_name:
- - SetThreadDescription
+- SetThreadDescription
 targetos: Windows
 req.typenames: 
 req.redist: 

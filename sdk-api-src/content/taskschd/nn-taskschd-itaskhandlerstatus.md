@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITaskHandlerStatus
 title: ITaskHandlerStatus (taskschd.h)
-
 description: Provides the methods that are used by COM handlers to notify the Task Scheduler about the status of the handler.
 old-location: taskschd\itaskhandlerstatus.htm
 tech.root: taskschd
 ms.assetid: 8b846be3-f05f-4d90-9865-da245c2bfdbf
-
 ms.date: 12/05/2018
 ms.keywords: ITaskHandlerStatus, ITaskHandlerStatus interface [Task Scheduler], ITaskHandlerStatus interface [Task Scheduler],described, taskschd.itaskhandlerstatus, taskschd/ITaskHandlerStatus
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITaskHandlerStatus"
+f1_keywords:
+- taskschd/ITaskHandlerStatus
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITaskHandlerStatus
+- ITaskHandlerStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

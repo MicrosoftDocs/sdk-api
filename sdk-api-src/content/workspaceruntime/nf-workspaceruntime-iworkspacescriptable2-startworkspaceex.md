@@ -1,19 +1,17 @@
 ---
 UID: NF:workspaceruntime.IWorkspaceScriptable2.StartWorkspaceEx
 title: IWorkspaceScriptable2::StartWorkspaceEx (workspaceruntime.h)
-
 description: Associates user credentials and certificates with a connection ID; also contains additional security and UI elements.
 old-location: termserv\iworkspacescriptable2_startworkspaceex.htm
 tech.root: TermServ
 ms.assetid: 8383ee1c-ff6a-4251-8b0d-a2a8c0674873
-
 ms.date: 12/05/2018
 ms.keywords: IWorkspaceScriptable2 interface [Remote Desktop Services],StartWorkspaceEx method, IWorkspaceScriptable2.StartWorkspaceEx, IWorkspaceScriptable2::StartWorkspaceEx, IWorkspaceScriptable3 interface [Remote Desktop Services],StartWorkspaceEx method, IWorkspaceScriptable3::StartWorkspaceEx, StartWorkspaceEx, StartWorkspaceEx method [Remote Desktop Services], StartWorkspaceEx method [Remote Desktop Services],IWorkspaceScriptable2 interface, StartWorkspaceEx method [Remote Desktop Services],IWorkspaceScriptable3 interface, StartWorkspaceEx method [Remote Desktop Services],Workspace object, WKS_FLAG_CLEAR_CREDS_ON_LAST_RESOURCE, WKS_FLAG_CREDS_AUTHENTICATED, WKS_FLAG_PASSWORD_ENCRYPTED, Workspace object [Remote Desktop Services],StartWorkspaceEx method, termserv.iworkspacescriptable2_startworkspaceex, workspaceruntime/IWorkspaceScriptable2::StartWorkspaceEx, workspaceruntime/IWorkspaceScriptable3::StartWorkspaceEx
 ms.topic: method
-f1_keywords: 
- - "workspaceruntime/IWorkspaceScriptable2.StartWorkspaceEx"
+f1_keywords:
+- workspaceruntime/IWorkspaceScriptable2.StartWorkspaceEx
 dev_langs:
- - c++
+- c++
 req.header: workspaceruntime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WkspRt.exe
+- WkspRt.exe
 api_name:
- - IWorkspaceScriptable2.StartWorkspaceEx
- - IWorkspaceScriptable3.StartWorkspaceEx
- - Workspace.StartWorkspaceEx
+- IWorkspaceScriptable2.StartWorkspaceEx
+- IWorkspaceScriptable3.StartWorkspaceEx
+- Workspace.StartWorkspaceEx
 targetos: Windows
 req.typenames: 
 req.redist: 

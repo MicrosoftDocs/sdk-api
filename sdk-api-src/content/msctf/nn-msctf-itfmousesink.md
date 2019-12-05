@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfMouseSink
 title: ITfMouseSink (msctf.h)
-
 description: The ITfMouseSink interface is implemented by a text service to receive mouse event notifications. A mouse event sink is installed with the ITfMouseTracker::AdviseMouseSink method of one of the ITfMouseTracker interfaces.
 old-location: tsf\itfmousesink.htm
 tech.root: TSF
 ms.assetid: d6e5549e-768d-47af-a553-84430641cda4
-
 ms.date: 12/05/2018
 ms.keywords: ITfMouseSink, ITfMouseSink interface [Text Services Framework], ITfMouseSink interface [Text Services Framework],described, _tsf_itfmousesink_ref, msctf/ITfMouseSink, tsf.itfmousesink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfMouseSink"
+f1_keywords:
+- msctf/ITfMouseSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfMouseSink
+- ITfMouseSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

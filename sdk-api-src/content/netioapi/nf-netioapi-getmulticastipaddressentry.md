@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetMulticastIpAddressEntry
 title: GetMulticastIpAddressEntry function (netioapi.h)
-
 description: Retrieves information for an existing multicast IP address entry on the local computer.
 old-location: iphlp\getmulticastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: dc6401b6-7692-44a5-b2f0-4e729b996765
-
 ms.date: 12/05/2018
 ms.keywords: GetMulticastIpAddressEntry, GetMulticastIpAddressEntry function [IP Helper], iphlp.getmulticastipaddressentry, netioapi/GetMulticastIpAddressEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetMulticastIpAddressEntry"
+f1_keywords:
+- netioapi/GetMulticastIpAddressEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetMulticastIpAddressEntry
+- GetMulticastIpAddressEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1helper.BitmapProperties
 title: BitmapProperties function (d2d1helper.h)
-
 description: Creates a D2D1_BITMAP_PROPERTIES structure.
 old-location: direct2d\bitmapproperties.htm
 tech.root: Direct2D
 ms.assetid: 5f85602a-3706-4cd6-8124-07e06be2d29c
-
 ms.date: 12/05/2018
 ms.keywords: BitmapProperties, BitmapProperties function [Direct2D], d2d1helper/BitmapProperties, direct2d.bitmapproperties
 ms.topic: function
-f1_keywords: 
- - "d2d1helper/BitmapProperties"
+f1_keywords:
+- d2d1helper/BitmapProperties
 dev_langs:
- - c++
+- c++
 req.header: d2d1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - BitmapProperties
+- BitmapProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

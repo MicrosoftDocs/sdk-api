@@ -1,19 +1,17 @@
 ---
 UID: NF:tdh.TdhUnloadManifest
 title: TdhUnloadManifest function (tdh.h)
-
 description: Unloads the manifest that was loaded by the TdhLoadManifest function.
 old-location: etw\tdhunloadmanifest.htm
 tech.root: ETW
 ms.assetid: ce0dd781-04b2-4e0c-9e79-44864f53f176
-
 ms.date: 12/05/2018
 ms.keywords: TdhUnloadManifest, TdhUnloadManifest function [ETW], etw.tdhunloadmanifest, tdh/TdhUnloadManifest
 ms.topic: function
-f1_keywords: 
- - "tdh/TdhUnloadManifest"
+f1_keywords:
+- tdh/TdhUnloadManifest
 dev_langs:
- - c++
+- c++
 req.header: tdh.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Tdh.lib
 req.dll: Tdh.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tdh.dll
- - API-MS-Win-Eventing-Tdh-L1-1-0.dll
- - MinTdh.dll
+- Tdh.dll
+- API-MS-Win-Eventing-Tdh-L1-1-0.dll
+- MinTdh.dll
 api_name:
- - TdhUnloadManifest
+- TdhUnloadManifest
 targetos: Windows
 req.typenames: 
 req.redist: 

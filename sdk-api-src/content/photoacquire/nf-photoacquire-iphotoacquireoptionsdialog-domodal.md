@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.DoModal
 title: IPhotoAcquireOptionsDialog::DoModal (photoacquire.h)
-
 description: The DoModal method creates and displays the options dialog box as a modal dialog box.
 old-location: picacq\iphotoacquireoptionsdialog_domodal.htm
 tech.root: acquisition
 ms.assetid: fbceebc3-10dd-4028-9672-1976a459cafe
-
 ms.date: 12/05/2018
 ms.keywords: DoModal, DoModal method [Picture Acquisition], DoModal method [Picture Acquisition],IPhotoAcquireOptionsDialog interface, IPhotoAcquireOptionsDialog interface [Picture Acquisition],DoModal method, IPhotoAcquireOptionsDialog.DoModal, IPhotoAcquireOptionsDialog::DoModal, IPhotoAcquireOptionsDialogDoModal, photoacquire/IPhotoAcquireOptionsDialog::DoModal, picacq.iphotoacquireoptionsdialog_domodal
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquireOptionsDialog.DoModal"
+f1_keywords:
+- photoacquire/IPhotoAcquireOptionsDialog.DoModal
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireOptionsDialog.DoModal
+- IPhotoAcquireOptionsDialog.DoModal
 targetos: Windows
 req.typenames: 
 req.redist: 

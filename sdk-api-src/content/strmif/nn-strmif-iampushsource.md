@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IAMPushSource
 title: IAMPushSource (strmif.h)
-
 description: The IAMPushSource interface synchronizes a filter graph that renders a live source.
 old-location: dshow\iampushsource.htm
 tech.root: DirectShow
 ms.assetid: 5ab294a8-f250-405c-a589-68998bc04cdf
-
 ms.date: 12/05/2018
 ms.keywords: IAMPushSource, IAMPushSource interface [DirectShow], IAMPushSource interface [DirectShow],described, IAMPushSourceInterface, dshow.iampushsource, strmif/IAMPushSource
 ms.topic: interface
-f1_keywords: 
- - "strmif/IAMPushSource"
+f1_keywords:
+- strmif/IAMPushSource
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMPushSource
+- IAMPushSource
 targetos: Windows
 req.typenames: 
 req.redist: 

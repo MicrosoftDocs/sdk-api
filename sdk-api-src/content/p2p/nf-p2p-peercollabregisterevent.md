@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabRegisterEvent
 title: PeerCollabRegisterEvent function (p2p.h)
-
 description: Registers an application with the peer collaboration infrastructure to receive callbacks for specific peer collaboration events.
 old-location: p2p\peercollabregisterevent.htm
 tech.root: P2PSdk
 ms.assetid: db7daf08-8d79-493f-8df5-172dae498df0
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabRegisterEvent, PeerCollabRegisterEvent function [Peer Networking], p2p.peercollabregisterevent, p2p/PeerCollabRegisterEvent
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabRegisterEvent"
+f1_keywords:
+- p2p/PeerCollabRegisterEvent
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabRegisterEvent
+- PeerCollabRegisterEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

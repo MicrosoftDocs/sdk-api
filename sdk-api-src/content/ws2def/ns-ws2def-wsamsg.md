@@ -1,19 +1,17 @@
 ---
 UID: NS:ws2def._WSAMSG
 title: WSAMSG (ws2def.h)
-
 description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.
 old-location: winsock\wsamsg_2.htm
 tech.root: WinSock
 ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWSAMSG, *PWSAMSG, LPWSAMSG, LPWSAMSG structure pointer [Winsock], MSG_BCAST, MSG_CTRUNC, MSG_MCAST, MSG_PEEK, MSG_TRUNC, PWSAMSG, PWSAMSG structure pointer [Winsock], WSAMSG, WSAMSG structure [Winsock], _win32_wsamsg_2, mswsock/LPWSAMSG, mswsock/PWSAMSG, mswsock/WSAMSG, winsock.wsamsg_2, ws2def/LPWSAMSG, ws2def/PWSAMSG, ws2def/WSAMSG"
+ms.keywords: '*LPWSAMSG, *PWSAMSG, LPWSAMSG, LPWSAMSG structure pointer [Winsock], MSG_BCAST, MSG_CTRUNC, MSG_MCAST, MSG_PEEK, MSG_TRUNC, PWSAMSG, PWSAMSG structure pointer [Winsock], WSAMSG, WSAMSG structure [Winsock], _win32_wsamsg_2, mswsock/LPWSAMSG, mswsock/PWSAMSG, mswsock/WSAMSG, winsock.wsamsg_2, ws2def/LPWSAMSG, ws2def/PWSAMSG, ws2def/WSAMSG'
 ms.topic: struct
-f1_keywords: 
- - "ws2def/WSAMSG"
+f1_keywords:
+- ws2def/WSAMSG
 dev_langs:
- - c++
+- c++
 req.header: ws2def.h
 req.include-header: Winsock2.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ws2def.h
- - Mswsock.h
+- Ws2def.h
+- Mswsock.h
 api_name:
- - WSAMSG
+- WSAMSG
 targetos: Windows
 req.typenames: WSAMSG, *PWSAMSG, *LPWSAMSG
 req.redist: 

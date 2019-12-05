@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationcore.IVirtualizedItemProvider
 title: IVirtualizedItemProvider (uiautomationcore.h)
-
 description: Provides access to virtualized items, which are items that are represented by placeholder automation elements in the Microsoft UI Automation tree.
 old-location: winauto\uiauto_IVirtualizedItemProvider.htm
 tech.root: WinAuto
 ms.assetid: 39baaa54-b836-497c-b401-a865202626e7
-
 ms.date: 12/05/2018
 ms.keywords: IVirtualizedItemProvider, IVirtualizedItemProvider interface [Windows Accessibility], IVirtualizedItemProvider interface [Windows Accessibility],described, uiauto.uiauto_IVirtualizedItemProvider, uiauto_IVirtualizedItemProvider, uiautomationcore/IVirtualizedItemProvider, winauto.uiauto_IVirtualizedItemProvider
 ms.topic: interface
-f1_keywords: 
- - "uiautomationcore/IVirtualizedItemProvider"
+f1_keywords:
+- uiautomationcore/IVirtualizedItemProvider
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IVirtualizedItemProvider
+- IVirtualizedItemProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

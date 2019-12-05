@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_1.ID2D1Properties
 title: ID2D1Properties (d2d1_1.h)
-
 description: Represents a set of run-time bindable and discoverable properties that allow a data-driven application to modify the state of a Direct2D effect.
 old-location: direct2d\id2d1properties.htm
 tech.root: Direct2D
 ms.assetid: c38bfcc0-c696-41cc-9531-7c8f15c0b512
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1Properties, ID2D1Properties interface [Direct2D], ID2D1Properties interface [Direct2D],described, d2d1_1/ID2D1Properties, direct2d.id2d1properties
 ms.topic: interface
-f1_keywords: 
- - "d2d1_1/ID2D1Properties"
+f1_keywords:
+- d2d1_1/ID2D1Properties
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1Properties
+- ID2D1Properties
 targetos: Windows
 req.typenames: 
 req.redist: 

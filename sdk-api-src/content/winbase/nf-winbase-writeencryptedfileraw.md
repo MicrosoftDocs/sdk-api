@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WriteEncryptedFileRaw
 title: WriteEncryptedFileRaw function (winbase.h)
-
 description: Restores (import) encrypted files.
 old-location: fs\writeencryptedfileraw.htm
 tech.root: FileIO
 ms.assetid: f44e291e-dbc6-4a44-92ba-92a81e043764
-
 ms.date: 12/05/2018
 ms.keywords: WriteEncryptedFileRaw, WriteEncryptedFileRaw function [Files], base.writeencryptedfileraw, fs.writeencryptedfileraw, winbase/WriteEncryptedFileRaw
 ms.topic: function
-f1_keywords: 
- - "winbase/WriteEncryptedFileRaw"
+f1_keywords:
+- winbase/WriteEncryptedFileRaw
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
- - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
+- Advapi32.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-l1-1-0.dll
+- Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
- - WriteEncryptedFileRaw
+- WriteEncryptedFileRaw
 targetos: Windows
 req.typenames: 
 req.redist: 

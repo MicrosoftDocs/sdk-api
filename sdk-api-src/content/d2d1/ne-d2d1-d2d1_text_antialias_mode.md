@@ -1,19 +1,17 @@
 ---
 UID: NE:d2d1.D2D1_TEXT_ANTIALIAS_MODE
 title: D2D1_TEXT_ANTIALIAS_MODE (d2d1.h)
-
 description: Describes the antialiasing mode used for drawing text.
 old-location: direct2d\D2D1_TEXT_ANTIALIAS_MODE.htm
 tech.root: Direct2D
 ms.assetid: d2c829d7-9892-4cbb-9993-12bb7d77fc25
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_TEXT_ANTIALIAS_MODE, D2D1_TEXT_ANTIALIAS_MODE enumeration [Direct2D], D2D1_TEXT_ANTIALIAS_MODE_ALIASED, D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, d2d1/D2D1_TEXT_ANTIALIAS_MODE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_ALIASED, d2d1/D2D1_TEXT_ANTIALIAS_MODE_CLEARTYPE, d2d1/D2D1_TEXT_ANTIALIAS_MODE_DEFAULT, d2d1/D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE, direct2d.D2D1_TEXT_ANTIALIAS_MODE
 ms.topic: enum
-f1_keywords: 
- - "d2d1/D2D1_TEXT_ANTIALIAS_MODE"
+f1_keywords:
+- d2d1/D2D1_TEXT_ANTIALIAS_MODE
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d2d1.h
+- d2d1.h
 api_name:
- - D2D1_TEXT_ANTIALIAS_MODE
+- D2D1_TEXT_ANTIALIAS_MODE
 targetos: Windows
 req.typenames: D2D1_TEXT_ANTIALIAS_MODE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner2.get_NumAuxInputs
 title: IMSVidAnalogTuner2::get_NumAuxInputs (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\imsvidanalogtuner2_get_numauxinputs.htm
 tech.root: mstv
 ms.assetid: 72e3c0eb-4c65-4782-b799-80bf968e736a
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidAnalogTuner2 interface [Microsoft TV Technologies],get_NumAuxInputs method, IMSVidAnalogTuner2.get_NumAuxInputs, IMSVidAnalogTuner2::get_NumAuxInputs, IMSVidAnalogTuner2getNumAuxInputs, get_NumAuxInputs, get_NumAuxInputs method [Microsoft TV Technologies], get_NumAuxInputs method [Microsoft TV Technologies],IMSVidAnalogTuner2 interface, mstv.imsvidanalogtuner2_get_numauxinputs, segment/IMSVidAnalogTuner2::get_NumAuxInputs
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidAnalogTuner2.get_NumAuxInputs"
+f1_keywords:
+- segment/IMSVidAnalogTuner2.get_NumAuxInputs
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidAnalogTuner2.get_NumAuxInputs
+- IMSVidAnalogTuner2.get_NumAuxInputs
 targetos: Windows
 req.typenames: 
 req.redist: 

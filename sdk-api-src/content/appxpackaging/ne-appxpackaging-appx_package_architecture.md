@@ -1,19 +1,17 @@
 ---
 UID: NE:appxpackaging.APPX_PACKAGE_ARCHITECTURE
 title: APPX_PACKAGE_ARCHITECTURE (appxpackaging.h)
-
 description: Specifies the processor architectures supported by a package.
 old-location: appxpkg\appx_package_architecture.htm
 tech.root: appxpkg
 ms.assetid: 8BC7ABF0-448F-4405-AA82-49C6DB3F230C
-
 ms.date: 12/05/2018
 ms.keywords: APPX_PACKAGE_ARCHITECTURE, APPX_PACKAGE_ARCHITECTURE enumeration [App packaging and management], APPX_PACKAGE_ARCHITECTURE_ARM, APPX_PACKAGE_ARCHITECTURE_ARM64, APPX_PACKAGE_ARCHITECTURE_NEUTRAL, APPX_PACKAGE_ARCHITECTURE_X64, APPX_PACKAGE_ARCHITECTURE_X86, appxpackaging/APPX_PACKAGE_ARCHITECTURE, appxpackaging/APPX_PACKAGE_ARCHITECTURE_ARM, appxpackaging/APPX_PACKAGE_ARCHITECTURE_ARM64, appxpackaging/APPX_PACKAGE_ARCHITECTURE_NEUTRAL, appxpackaging/APPX_PACKAGE_ARCHITECTURE_X64, appxpackaging/APPX_PACKAGE_ARCHITECTURE_X86, appxpkg.appx_package_architecture
 ms.topic: enum
-f1_keywords: 
- - "appxpackaging/APPX_PACKAGE_ARCHITECTURE"
+f1_keywords:
+- appxpackaging/APPX_PACKAGE_ARCHITECTURE
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - APPX_PACKAGE_ARCHITECTURE
+- APPX_PACKAGE_ARCHITECTURE
 targetos: Windows
 req.typenames: APPX_PACKAGE_ARCHITECTURE
 req.redist: 

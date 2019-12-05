@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IPart.GetControlInterface
 title: IPart::GetControlInterface (devicetopology.h)
-
 description: The GetControlInterface method gets a reference to the specified control interface, if this part supports it.
 old-location: coreaudio\ipart_getcontrolinterface.htm
 tech.root: CoreAudio
 ms.assetid: 802f3c19-5a71-41b0-922a-f216fd60495c
-
 ms.date: 12/05/2018
 ms.keywords: GetControlInterface, GetControlInterface method [Core Audio], GetControlInterface method [Core Audio],IPart interface, IPart interface [Core Audio],GetControlInterface method, IPart.GetControlInterface, IPart::GetControlInterface, IPartGetControlInterface, coreaudio.ipart_getcontrolinterface, devicetopology/IPart::GetControlInterface
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IPart.GetControlInterface"
+f1_keywords:
+- devicetopology/IPart.GetControlInterface
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IPart.GetControlInterface
+- IPart.GetControlInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

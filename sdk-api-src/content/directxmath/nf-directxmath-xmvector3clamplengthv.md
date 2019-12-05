@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVector3ClampLengthV
 title: XMVector3ClampLengthV function (directxmath.h)
-
 description: Clamps the length of a 3D vector to a given range.
 old-location: dxmath\xmvector3clamplengthv.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3ClampLengthV(XMVECTOR,XMVECTOR,XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVector3ClampLengthV, XMVector3ClampLengthV, XMVector3ClampLengthV method [DirectX Math Support APIs], dxmath.xmvector3clamplengthv
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVector3ClampLengthV"
+f1_keywords:
+- directxmath/XMVector3ClampLengthV
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVector3ClampLengthV
+- XMVector3ClampLengthV
 targetos: Windows
 req.typenames: 
 req.redist: 

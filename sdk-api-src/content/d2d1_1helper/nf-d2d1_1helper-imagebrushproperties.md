@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_1helper.ImageBrushProperties
 title: ImageBrushProperties function (d2d1_1helper.h)
-
 description: Creates a D2D1_IMAGE_BRUSH_PROPERTIES structure.
 old-location: direct2d\imagebrushproperties.htm
 tech.root: Direct2D
 ms.assetid: 824FA979-7D68-4383-BE3B-C3F39C1AAF77
-
 ms.date: 12/05/2018
 ms.keywords: ImageBrushProperties, ImageBrushProperties function [Direct2D], d2d1_1helper/ImageBrushProperties, direct2d.imagebrushproperties
 ms.topic: function
-f1_keywords: 
- - "d2d1_1helper/ImageBrushProperties"
+f1_keywords:
+- d2d1_1helper/ImageBrushProperties
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1helper.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ImageBrushProperties
+- ImageBrushProperties
 targetos: Windows
 req.typenames: 
 req.redist: 

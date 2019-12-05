@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagLOGFONTA
 title: LOGFONTA (wingdi.h)
-
 description: The LOGFONT structure defines the attributes of a font.
 old-location: gdi\logfont.htm
 tech.root: gdi
 ms.assetid: 57658a03-0a6d-4a28-a7c1-c65ec145beb4
-
 ms.date: 12/05/2018
-ms.keywords: "*LPLOGFONTA, *NPLOGFONTA, *PLOGFONTA, LOGFONT, LOGFONT structure [Windows GDI], LOGFONTA, LOGFONTW, PLOGFONT, PLOGFONT structure pointer [Windows GDI], _win32_LOGFONT_str, gdi.logfont, wingdi/LOGFONT, wingdi/LOGFONTA, wingdi/LOGFONTW, wingdi/PLOGFONT"
+ms.keywords: '*LPLOGFONTA, *NPLOGFONTA, *PLOGFONTA, LOGFONT, LOGFONT structure [Windows GDI], LOGFONTA, LOGFONTW, PLOGFONT, PLOGFONT structure pointer [Windows GDI], _win32_LOGFONT_str, gdi.logfont, wingdi/LOGFONT, wingdi/LOGFONTA, wingdi/LOGFONTW, wingdi/PLOGFONT'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/LOGFONT"
+f1_keywords:
+- wingdi/LOGFONT
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - LOGFONT
- - LOGFONTA
- - LOGFONTW
+- LOGFONT
+- LOGFONTA
+- LOGFONTW
 targetos: Windows
 req.typenames: LOGFONTA, *PLOGFONTA, *NPLOGFONTA, *LPLOGFONTA
 req.redist: 

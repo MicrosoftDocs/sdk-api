@@ -1,19 +1,17 @@
 ---
 UID: NF:textstor.ITextStoreACP2.InsertTextAtSelection
 title: ITextStoreACP2::InsertTextAtSelection (textstor.h)
-
 description: Inserts text at the insertion point or selection. A caller must have a read/write lock on the document before inserting text.
 old-location: tsf\itextstoreacp2_inserttextatselection.htm
 tech.root: TSF
 ms.assetid: 5e1e0893-53be-4753-ba49-32e69597a130
-
 ms.date: 12/05/2018
 ms.keywords: ITextStoreACP2 interface [Text Services Framework],InsertTextAtSelection method, ITextStoreACP2.InsertTextAtSelection, ITextStoreACP2::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITextStoreACP2 interface, textstor/ITextStoreACP2::InsertTextAtSelection, tsf.itextstoreacp2_inserttextatselection
 ms.topic: method
-f1_keywords: 
- - "textstor/ITextStoreACP2.InsertTextAtSelection"
+f1_keywords:
+- textstor/ITextStoreACP2.InsertTextAtSelection
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITextStoreACP2.InsertTextAtSelection
+- ITextStoreACP2.InsertTextAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: 

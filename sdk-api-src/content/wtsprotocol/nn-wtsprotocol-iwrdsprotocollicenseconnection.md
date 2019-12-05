@@ -1,19 +1,17 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolLicenseConnection
 title: IWRdsProtocolLicenseConnection (wtsprotocol.h)
-
 description: Exposes methods used by the Remote Desktop Services service to perform the licensing handshake during a connection sequence.
 old-location: termserv\iwrdsprotocollicenseconnection.htm
 tech.root: TermServ
 ms.assetid: 498c31c5-1cb6-41d7-91fb-7409ea03dda0
-
 ms.date: 12/05/2018
 ms.keywords: IWRdsProtocolLicenseConnection, IWRdsProtocolLicenseConnection interface [Remote Desktop Services], IWRdsProtocolLicenseConnection interface [Remote Desktop Services],described, termserv.iwrdsprotocollicenseconnection, wtsprotocol/IWRdsProtocolLicenseConnection
 ms.topic: interface
-f1_keywords: 
- - "wtsprotocol/IWRdsProtocolLicenseConnection"
+f1_keywords:
+- wtsprotocol/IWRdsProtocolLicenseConnection
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wtsprotocol.h
+- wtsprotocol.h
 api_name:
- - IWRdsProtocolLicenseConnection
+- IWRdsProtocolLicenseConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

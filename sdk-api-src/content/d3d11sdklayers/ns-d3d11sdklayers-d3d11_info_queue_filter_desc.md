@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11sdklayers.D3D11_INFO_QUEUE_FILTER_DESC
 title: D3D11_INFO_QUEUE_FILTER_DESC (d3d11sdklayers.h)
-
 description: Allow or deny certain types of messages to pass through a filter.
 old-location: direct3d11\d3d11_info_queue_filter_desc.htm
 tech.root: direct3d11
 ms.assetid: 265aa51a-7352-4d3a-b523-9e497e1e6a94
-
 ms.date: 12/05/2018
 ms.keywords: 06785e69-a7e6-f154-5f99-7c38c12d6958, D3D11_INFO_QUEUE_FILTER_DESC, D3D11_INFO_QUEUE_FILTER_DESC structure [Direct3D 11], d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC, direct3d11.d3d11_info_queue_filter_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC"
+f1_keywords:
+- d3d11sdklayers/D3D11_INFO_QUEUE_FILTER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11SDKLayers.h
+- D3D11SDKLayers.h
 api_name:
- - D3D11_INFO_QUEUE_FILTER_DESC
+- D3D11_INFO_QUEUE_FILTER_DESC
 targetos: Windows
 req.typenames: D3D11_INFO_QUEUE_FILTER_DESC
 req.redist: 

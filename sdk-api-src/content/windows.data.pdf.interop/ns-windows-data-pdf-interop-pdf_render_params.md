@@ -1,19 +1,17 @@
 ---
 UID: NS:windows.data.pdf.interop.PDF_RENDER_PARAMS
 title: PDF_RENDER_PARAMS (windows.data.pdf.interop.h)
-
 description: Represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
 old-location: winrt\pdf_render_params.htm
 tech.root: WinRT
 ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054
-
 ms.date: 12/05/2018
 ms.keywords: PDF_RENDER_PARAMS, PDF_RENDER_PARAMS structure [Windows Runtime], windows/PDF_RENDER_PARAMS, winrt.pdf_render_params
 ms.topic: struct
-f1_keywords: 
- - "windows.data.pdf.interop/PDF_RENDER_PARAMS"
+f1_keywords:
+- windows.data.pdf.interop/PDF_RENDER_PARAMS
 dev_langs:
- - c++
+- c++
 req.header: windows.data.pdf.interop.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - windows.data.pdf.interop.h
+- windows.data.pdf.interop.h
 api_name:
- - PDF_RENDER_PARAMS
+- PDF_RENDER_PARAMS
 targetos: Windows
 req.typenames: PDF_RENDER_PARAMS
 req.redist: 

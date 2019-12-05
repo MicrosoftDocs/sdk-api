@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmfPlusOnly
 title: MetafileHeader::IsEmfPlusOnly (gdiplusmetaheader.h)
-
 description: The MetafileHeader::IsEmfPlusOnly method determines whether the associated metafile is in the EMF+ Only format.
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemfplusonly.htm
-
 ms.date: 12/05/2018
 ms.keywords: IsEmfPlusOnly, IsEmfPlusOnly method [GDI+], IsEmfPlusOnly method [GDI+],MetafileHeader class, MetafileHeader class [GDI+],IsEmfPlusOnly method, MetafileHeader.IsEmfPlusOnly, MetafileHeader::IsEmfPlusOnly, _gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_, gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfPlusOnly_
 ms.topic: method
-f1_keywords: 
- - "gdiplusmetaheader/MetafileHeader.IsEmfPlusOnly"
+f1_keywords:
+- gdiplusmetaheader/MetafileHeader.IsEmfPlusOnly
 dev_langs:
- - c++
+- c++
 req.header: gdiplusmetaheader.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - MetafileHeader.IsEmfPlusOnly
+- MetafileHeader.IsEmfPlusOnly
 targetos: Windows
 req.typenames: 
 req.redist: 

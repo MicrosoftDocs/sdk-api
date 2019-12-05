@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetUnderline
 title: IDWriteTextLayout::SetUnderline (dwrite.h)
-
 description: Sets underlining for text within a specified text range.
 old-location: directwrite\IDWriteTextLayout_SetUnderline.htm
 tech.root: DirectWrite
 ms.assetid: 677bb4e2-4ae9-4e79-96a3-d4961e317886
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetUnderline method, IDWriteTextLayout.SetUnderline, IDWriteTextLayout::SetUnderline, SetUnderline, SetUnderline method [Direct Write], SetUnderline method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetUnderline, dwrite/IDWriteTextLayout::SetUnderline
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.SetUnderline"
+f1_keywords:
+- dwrite/IDWriteTextLayout.SetUnderline
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.SetUnderline
+- IDWriteTextLayout.SetUnderline
 targetos: Windows
 req.typenames: 
 req.redist: 

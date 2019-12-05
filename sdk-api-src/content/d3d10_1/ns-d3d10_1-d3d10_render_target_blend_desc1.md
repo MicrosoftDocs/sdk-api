@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d10_1.D3D10_RENDER_TARGET_BLEND_DESC1
 title: D3D10_RENDER_TARGET_BLEND_DESC1 (d3d10_1.h)
-
 description: Describes the blend state for a render target for a Direct3D 10.1 device
 old-location: direct3d10\d3d10_render_target_blend_desc1.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_render_target_blend_desc1.htm
-
 ms.date: 12/05/2018
 ms.keywords: 156d7844-9096-dc1b-d77b-cafba490af86, D3D10_RENDER_TARGET_BLEND_DESC1, D3D10_RENDER_TARGET_BLEND_DESC1 structure [Direct3D 10], d3d10_1/D3D10_RENDER_TARGET_BLEND_DESC1, direct3d10.d3d10_render_target_blend_desc1
 ms.topic: struct
-f1_keywords: 
- - "d3d10_1/D3D10_RENDER_TARGET_BLEND_DESC1"
+f1_keywords:
+- d3d10_1/D3D10_RENDER_TARGET_BLEND_DESC1
 dev_langs:
- - c++
+- c++
 req.header: d3d10_1.h
 req.include-header: D3D10.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d10_1.h
+- d3d10_1.h
 api_name:
- - D3D10_RENDER_TARGET_BLEND_DESC1
+- D3D10_RENDER_TARGET_BLEND_DESC1
 targetos: Windows
 req.typenames: D3D10_RENDER_TARGET_BLEND_DESC1
 req.redist: 

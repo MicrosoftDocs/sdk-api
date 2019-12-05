@@ -1,19 +1,17 @@
 ---
 UID: NN:rdpencomapi._IRDPSessionEvents
 title: _IRDPSessionEvents (rdpencomapi.h)
-
 description: Implement this interface to receive notifications when events occur.
 old-location: rdp\_irdpsessionevents.htm
 tech.root: rdp
 ms.assetid: 89ffdf37-156f-4977-93c4-bf9fe5aec838
-
 ms.date: 12/05/2018
-ms.keywords: "_IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessionEvents interface [RDP],described, rdp._irdpsessionevents, rdpencomapi/_IRDPSessionEvents"
+ms.keywords: _IRDPSessionEvents, _IRDPSessionEvents interface [RDP], _IRDPSessionEvents interface [RDP],described, rdp._irdpsessionevents, rdpencomapi/_IRDPSessionEvents
 ms.topic: interface
-f1_keywords: 
- - "rdpencomapi/_IRDPSessionEvents"
+f1_keywords:
+- rdpencomapi/_IRDPSessionEvents
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - _IRDPSessionEvents
+- _IRDPSessionEvents
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d11.D3D11_TILED_RESOURCES_TIER
 title: D3D11_TILED_RESOURCES_TIER (d3d11.h)
-
 description: Indicates the tier level at which tiled resources are supported.
 old-location: direct3d11\d3d11_tiled_resources_tier.htm
 tech.root: direct3d11
 ms.assetid: F2E58CDC-4E65-4166-976A-E58B6DC7B1E8
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_TILED_RESOURCES_NOT_SUPPORTED, D3D11_TILED_RESOURCES_TIER, D3D11_TILED_RESOURCES_TIER enumeration [Direct3D 11], D3D11_TILED_RESOURCES_TIER_1, D3D11_TILED_RESOURCES_TIER_2, D3D11_TILED_RESOURCES_TIER_3, d3d11/D3D11_TILED_RESOURCES_NOT_SUPPORTED, d3d11/D3D11_TILED_RESOURCES_TIER, d3d11/D3D11_TILED_RESOURCES_TIER_1, d3d11/D3D11_TILED_RESOURCES_TIER_2, d3d11/D3D11_TILED_RESOURCES_TIER_3, direct3d11.d3d11_tiled_resources_tier
 ms.topic: enum
-f1_keywords: 
- - "d3d11/D3D11_TILED_RESOURCES_TIER"
+f1_keywords:
+- d3d11/D3D11_TILED_RESOURCES_TIER
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D11.h
+- D3D11.h
 api_name:
- - D3D11_TILED_RESOURCES_TIER
+- D3D11_TILED_RESOURCES_TIER
 targetos: Windows
 req.typenames: D3D11_TILED_RESOURCES_TIER
 req.redist: 

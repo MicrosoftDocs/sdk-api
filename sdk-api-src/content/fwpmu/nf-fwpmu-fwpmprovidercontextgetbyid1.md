@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextGetById1
 title: FwpmProviderContextGetById1 function (fwpmu.h)
-
 description: Retrieves a provider context.
 old-location: fwp\fwpmprovidercontextgetbyid1_func.htm
 tech.root: fwp
 ms.assetid: 76353efa-844e-4c7f-9f9a-0bf2e247c58b
-
 ms.date: 12/05/2018
 ms.keywords: FwpmProviderContextGetById1, FwpmProviderContextGetById1 function [Filtering], fwp.fwpmprovidercontextgetbyid1_func, fwpmu/FwpmProviderContextGetById1
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmProviderContextGetById1"
+f1_keywords:
+- fwpmu/FwpmProviderContextGetById1
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmProviderContextGetById1
+- FwpmProviderContextGetById1
 targetos: Windows
 req.typenames: 
 req.redist: 

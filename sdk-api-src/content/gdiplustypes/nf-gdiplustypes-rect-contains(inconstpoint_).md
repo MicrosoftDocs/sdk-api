@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplustypes.Rect.Contains(IN const Point &)
 title: Rect::Contains(IN const Point &) (gdiplustypes.h)
-
 description: The Rect::Contains method determines whether a point is inside this rectangle.
 old-location: gdiplus\_gdiplus_CLASS_Rect_Contains_pt_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectmethods\rectcontainsmethods\contains.htm
-
 ms.date: 12/05/2018
 ms.keywords: Contains, Contains method [GDI+], Contains method [GDI+],Rect class, Rect class [GDI+],Contains method, Rect.Contains, Rect.Contains(IN const Point &), Rect.Contains(const Point&), Rect::Contains, Rect::Contains(IN const Point &), _gdiplus_CLASS_Rect_Contains_pt_, gdiplus._gdiplus_CLASS_Rect_Contains_pt_
 ms.topic: method
-f1_keywords: 
- - "gdiplustypes/Rect.Contains"
+f1_keywords:
+- gdiplustypes/Rect.Contains
 dev_langs:
- - c++
+- c++
 req.header: gdiplustypes.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Rect.Contains
+- Rect.Contains
 targetos: Windows
 req.typenames: 
 req.redist: 

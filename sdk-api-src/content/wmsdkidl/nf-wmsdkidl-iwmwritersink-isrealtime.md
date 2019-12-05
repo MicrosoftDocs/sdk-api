@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterSink.IsRealTime
 title: IWMWriterSink::IsRealTime (wmsdkidl.h)
-
 description: The IsRealTime is called by the writer to determine whether the sink needs data units to be delivered in real time. It is up to you to decide whether your custom sink requires real-time delivery.
 old-location: wmformat\iwmwritersink_isrealtime.htm
 tech.root: wmformat
 ms.assetid: 95a32114-4581-4870-8c7f-b79b5af8f0a4
-
 ms.date: 12/05/2018
 ms.keywords: IWMWriterSink interface [windows Media Format],IsRealTime method, IWMWriterSink.IsRealTime, IWMWriterSink::IsRealTime, IWMWriterSinkIsRealTime, IsRealTime, IsRealTime method [windows Media Format], IsRealTime method [windows Media Format],IWMWriterSink interface, wmformat.iwmwritersink_isrealtime, wmsdkidl/IWMWriterSink::IsRealTime
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterSink.IsRealTime"
+f1_keywords:
+- wmsdkidl/IWMWriterSink.IsRealTime
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMWriterSink.IsRealTime
+- IWMWriterSink.IsRealTime
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IAppDomainHelper
 title: IAppDomainHelper (comsvcs.h)
-
 description: Binds a managed object to an application domain, which is an isolated environment where applications execute.
 old-location: cos\iappdomainhelper.htm
 tech.root: cossdk
 ms.assetid: 2709f284-ca8c-404e-b568-b655f780549a
-
 ms.date: 12/05/2018
 ms.keywords: IAppDomainHelper, IAppDomainHelper interface [COM+], IAppDomainHelper interface [COM+],described, _cos_IAppDomainHelper, comsvcs/IAppDomainHelper, cos.iappdomainhelper
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IAppDomainHelper"
+f1_keywords:
+- comsvcs/IAppDomainHelper
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IAppDomainHelper
+- IAppDomainHelper
 targetos: Windows
 req.typenames: 
 req.redist: 

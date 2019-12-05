@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_AUTH_TYPE_
 title: IPSEC_AUTH_TYPE (ipsectypes.h)
-
 description: Indicates the type of hash algorithm used in an IPsec SA for data origin authentication and integrity protection.
 old-location: fwp\ipsec_auth_type_enum.htm
 tech.root: fwp
 ms.assetid: 9130ffa3-b757-42fa-b6bb-d380f2dbdbcb
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_AUTH_AES_128, IPSEC_AUTH_AES_192, IPSEC_AUTH_AES_256, IPSEC_AUTH_MAX, IPSEC_AUTH_MD5, IPSEC_AUTH_SHA_1, IPSEC_AUTH_SHA_256, IPSEC_AUTH_TYPE, IPSEC_AUTH_TYPE enumeration [Filtering], fwp.ipsec_auth_type_enum, ipsectypes/IPSEC_AUTH_AES_128, ipsectypes/IPSEC_AUTH_AES_192, ipsectypes/IPSEC_AUTH_AES_256, ipsectypes/IPSEC_AUTH_MAX, ipsectypes/IPSEC_AUTH_MD5, ipsectypes/IPSEC_AUTH_SHA_1, ipsectypes/IPSEC_AUTH_SHA_256, ipsectypes/IPSEC_AUTH_TYPE
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_AUTH_TYPE"
+f1_keywords:
+- ipsectypes/IPSEC_AUTH_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_AUTH_TYPE
+- IPSEC_AUTH_TYPE
 targetos: Windows
 req.typenames: IPSEC_AUTH_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstanceCollection
 title: IFunctionInstanceCollection (functiondiscoveryapi.h)
-
 description: Represents a group of IFunctionInstance objects returned as the result of a query or get instance request.
 old-location: ncd\ifunctioninstancecollection.htm
 tech.root: FunDisc
 ms.assetid: 8ac1a406-92f3-4e39-985e-ab8fa7d28751
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionInstanceCollection, IFunctionInstanceCollection interface, IFunctionInstanceCollection interface,described, functiondiscoveryapi/IFunctionInstanceCollection, ncd.ifunctioninstancecollection
 ms.topic: interface
-f1_keywords: 
- - "functiondiscoveryapi/IFunctionInstanceCollection"
+f1_keywords:
+- functiondiscoveryapi/IFunctionInstanceCollection
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: FunDisc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunDisc.dll
+- FunDisc.dll
 api_name:
- - IFunctionInstanceCollection
+- IFunctionInstanceCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

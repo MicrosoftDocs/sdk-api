@@ -1,19 +1,17 @@
 ---
 UID: NS:strmif.DVINFO
 title: DVINFO (strmif.h)
-
 description: The DVINFO structure describes the format of a digital video (DV) stream.
 old-location: dshow\dvinfo.htm
 tech.root: DirectShow
 ms.assetid: 285a56fc-9c25-4c5a-ae6a-146c17b00e84
-
 ms.date: 12/05/2018
-ms.keywords: "*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO"
+ms.keywords: '*PDVINFO, DVINFO, DVINFO structure [DirectShow], DVINFOStructure, PDVINFO, PDVINFO structure pointer [DirectShow], dshow.dvinfo, strmif/DVINFO, strmif/PDVINFO'
 ms.topic: struct
-f1_keywords: 
- - "strmif/DVINFO"
+f1_keywords:
+- strmif/DVINFO
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVINFO
+- DVINFO
 targetos: Windows
 req.typenames: DVINFO, *PDVINFO
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymEnumSourceLinesW
 title: SymEnumSourceLinesW function (dbghelp.h)
-
 description: Enumerates all source lines in a module.
 old-location: base\symenumsourcelines.htm
 tech.root: Debug
 ms.assetid: 395dd97b-4d0b-4f55-80af-38fc748c924a
-
 ms.date: 12/05/2018
 ms.keywords: SymEnumSourceLines, SymEnumSourceLines function, SymEnumSourceLinesW, base.symenumsourcelines, dbghelp/SymEnumSourceLines, dbghelp/SymEnumSourceLinesW
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymEnumSourceLines"
+f1_keywords:
+- dbghelp/SymEnumSourceLines
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymEnumSourceLines
- - SymEnumSourceLines
- - SymEnumSourceLinesW
+- SymEnumSourceLines
+- SymEnumSourceLines
+- SymEnumSourceLinesW
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 6.4 or later

@@ -1,19 +1,17 @@
 ---
 UID: NN:tsgauthenticationengine.ITSGAuthenticateUserSink
 title: ITSGAuthenticateUserSink (tsgauthenticationengine.h)
-
 description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about authentication events.
 old-location: termserv\itsgauthenticateusersink.htm
 tech.root: TermServ
 ms.assetid: 6cc0dca7-1bc7-4229-9f3b-74d600776210
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthenticateUserSink, ITSGAuthenticateUserSink interface [Remote Desktop Services], ITSGAuthenticateUserSink interface [Remote Desktop Services],described, termserv.itsgauthenticateusersink, tsgauthenticationengine/ITSGAuthenticateUserSink
 ms.topic: interface
-f1_keywords: 
- - "tsgauthenticationengine/ITSGAuthenticateUserSink"
+f1_keywords:
+- tsgauthenticationengine/ITSGAuthenticateUserSink
 dev_langs:
- - c++
+- c++
 req.header: tsgauthenticationengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGAuthenticationEngine.h
+- TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink
+- ITSGAuthenticateUserSink
 targetos: Windows
 req.typenames: 
 req.redist: 

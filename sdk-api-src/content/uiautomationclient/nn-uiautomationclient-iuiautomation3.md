@@ -1,19 +1,17 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation3
 title: IUIAutomation3 (uiautomationclient.h)
-
 description: Extends the IUIAutomation2 interface to expose additional methods for controlling Microsoft UI Automation functionality.
 old-location: winauto\uiauto_IUIAutomation3.htm
 tech.root: WinAuto
 ms.assetid: D46CE3FF-31E2-32CE-FD38-680064E1765D
-
 ms.date: 12/05/2018
 ms.keywords: IUIAutomation3, IUIAutomation3 interface [Windows Accessibility], IUIAutomation3 interface [Windows Accessibility],described, uiautomationclient/IUIAutomation3, winauto.uiauto_IUIAutomation3
 ms.topic: interface
-f1_keywords: 
- - "uiautomationclient/IUIAutomation3"
+f1_keywords:
+- uiautomationclient/IUIAutomation3
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAutomationCore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.dll
+- UIAutomationCore.dll
 api_name:
- - IUIAutomation3
+- IUIAutomation3
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagPIXELFORMATDESCRIPTOR
 title: PIXELFORMATDESCRIPTOR (wingdi.h)
-
 description: The PIXELFORMATDESCRIPTOR structure describes the pixel format of a drawing surface.
 old-location: opengl\pixelformatdescriptor.htm
 tech.root: OpenGL
 ms.assetid: 1480dea3-ae74-4e8b-b4de-fca8de5d8395
-
 ms.date: 12/05/2018
-ms.keywords: "*LPPIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR structure [OpenGL], PPIXELFORMATDESCRIPTOR, PPIXELFORMATDESCRIPTOR structure pointer [OpenGL], _ogl_PIXELFORMATDESCRIPTOR, opengl.pixelformatdescriptor, wingdi/PIXELFORMATDESCRIPTOR, wingdi/PPIXELFORMATDESCRIPTOR"
+ms.keywords: '*LPPIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR, PIXELFORMATDESCRIPTOR structure [OpenGL], PPIXELFORMATDESCRIPTOR, PPIXELFORMATDESCRIPTOR structure pointer [OpenGL], _ogl_PIXELFORMATDESCRIPTOR, opengl.pixelformatdescriptor, wingdi/PIXELFORMATDESCRIPTOR, wingdi/PPIXELFORMATDESCRIPTOR'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/PIXELFORMATDESCRIPTOR"
+f1_keywords:
+- wingdi/PIXELFORMATDESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - PIXELFORMATDESCRIPTOR
+- PIXELFORMATDESCRIPTOR
 targetos: Windows
 req.typenames: PIXELFORMATDESCRIPTOR, *PPIXELFORMATDESCRIPTOR, *LPPIXELFORMATDESCRIPTOR
 req.redist: 

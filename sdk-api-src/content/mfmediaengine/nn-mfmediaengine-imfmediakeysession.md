@@ -1,19 +1,17 @@
 ---
 UID: NN:mfmediaengine.IMFMediaKeySession
 title: IMFMediaKeySession (mfmediaengine.h)
-
 description: Represents a session with the Digital Rights Management (DRM) key system.
 old-location: mf\imfmediakeysession.htm
 tech.root: medfound
 ms.assetid: 07f97bc9-9da2-4655-9ab9-5e17abc57d6d
-
 ms.date: 12/05/2018
 ms.keywords: IMFMediaKeySession, IMFMediaKeySession interface [Media Foundation], IMFMediaKeySession interface [Media Foundation],described, mf.imfmediakeysession, mfmediaengine/IMFMediaKeySession
 ms.topic: interface
-f1_keywords: 
- - "mfmediaengine/IMFMediaKeySession"
+f1_keywords:
+- mfmediaengine/IMFMediaKeySession
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFMediaKeySession
+- IMFMediaKeySession
 targetos: Windows
 req.typenames: 
 req.redist: 

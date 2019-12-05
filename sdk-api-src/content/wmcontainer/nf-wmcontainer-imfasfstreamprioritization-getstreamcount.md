@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamPrioritization.GetStreamCount
 title: IMFASFStreamPrioritization::GetStreamCount (wmcontainer.h)
-
 description: Note  This interface is not implemented in this version of Media Foundation. Retrieves the number of entries in the stream priority list.
 old-location: mf\imfasfstreamprioritization_getstreamcount.htm
 tech.root: medfound
 ms.assetid: 8c9dacbb-a952-411e-82df-0c8768d0b3fe
-
 ms.date: 12/05/2018
 ms.keywords: 8c9dacbb-a952-411e-82df-0c8768d0b3fe, GetStreamCount, GetStreamCount method [Media Foundation], GetStreamCount method [Media Foundation],IMFASFStreamPrioritization interface, IMFASFStreamPrioritization interface [Media Foundation],GetStreamCount method, IMFASFStreamPrioritization.GetStreamCount, IMFASFStreamPrioritization::GetStreamCount, mf.imfasfstreamprioritization_getstreamcount, wmcontainer/IMFASFStreamPrioritization::GetStreamCount
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFStreamPrioritization.GetStreamCount"
+f1_keywords:
+- wmcontainer/IMFASFStreamPrioritization.GetStreamCount
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization.GetStreamCount
+- IMFASFStreamPrioritization.GetStreamCount
 targetos: Windows
 req.typenames: 
 req.redist: 

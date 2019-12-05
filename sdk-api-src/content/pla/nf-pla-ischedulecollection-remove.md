@@ -1,19 +1,17 @@
 ---
 UID: NF:pla.IScheduleCollection.Remove
 title: IScheduleCollection::Remove (pla.h)
-
 description: Removes a schedule from the collection.
 old-location: pla\ischedulecollection_remove.htm
 tech.root: PLA
 ms.assetid: bb419f7e-b5fd-47ea-88e5-f86788423edf
-
 ms.date: 12/05/2018
 ms.keywords: IScheduleCollection interface [PLA],Remove method, IScheduleCollection.Remove, IScheduleCollection::Remove, Remove, Remove method [PLA], Remove method [PLA],IScheduleCollection interface, base.ischedulecollection_remove, pla.ischedulecollection_remove, pla/IScheduleCollection::Remove
 ms.topic: method
-f1_keywords: 
- - "pla/IScheduleCollection.Remove"
+f1_keywords:
+- pla/IScheduleCollection.Remove
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - IScheduleCollection.Remove
+- IScheduleCollection.Remove
 targetos: Windows
 req.typenames: 
 req.redist: 

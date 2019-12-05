@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.get_VITCLine
 title: IAMTimecodeGenerator::get_VITCLine (strmif.h)
-
 description: The get_VITCLine method retrieves which line(s) the vertical interval timecode information has been inserted into.
 old-location: dshow\iamtimecodegenerator_get_vitcline.htm
 tech.root: DirectShow
 ms.assetid: 0a1595a6-30ae-46ab-bfda-102b4dbc67ef
-
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],get_VITCLine method, IAMTimecodeGenerator.get_VITCLine, IAMTimecodeGenerator::get_VITCLine, IAMTimecodeGeneratorget_VITCLine, dshow.iamtimecodegenerator_get_vitcline, get_VITCLine, get_VITCLine method [DirectShow], get_VITCLine method [DirectShow],IAMTimecodeGenerator interface, strmif/IAMTimecodeGenerator::get_VITCLine
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeGenerator.get_VITCLine"
+f1_keywords:
+- strmif/IAMTimecodeGenerator.get_VITCLine
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.get_VITCLine
+- IAMTimecodeGenerator.get_VITCLine
 targetos: Windows
 req.typenames: 
 req.redist: 

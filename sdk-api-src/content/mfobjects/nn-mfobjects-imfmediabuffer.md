@@ -1,19 +1,17 @@
 ---
 UID: NN:mfobjects.IMFMediaBuffer
 title: IMFMediaBuffer (mfobjects.h)
-
 description: Represents a block of memory that contains media data.
 old-location: mf\imfmediabuffer.htm
 tech.root: medfound
 ms.assetid: 3ccc7089-d0d0-4eb1-b763-0d4e348af685
-
 ms.date: 12/05/2018
 ms.keywords: 3ccc7089-d0d0-4eb1-b763-0d4e348af685, IMFMediaBuffer, IMFMediaBuffer interface [Media Foundation], IMFMediaBuffer interface [Media Foundation],described, mf.imfmediabuffer, mfobjects/IMFMediaBuffer
 ms.topic: interface
-f1_keywords: 
- - "mfobjects/IMFMediaBuffer"
+f1_keywords:
+- mfobjects/IMFMediaBuffer
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaBuffer
+- IMFMediaBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

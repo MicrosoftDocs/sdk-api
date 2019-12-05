@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Unregister_Notification
 title: CM_Unregister_Notification function (cfgmgr32.h)
-
 description: Use UnregisterDeviceNotification instead of CM_Unregister_Notification if your code targets Windows 7 or earlier versions of Windows.
 old-location: devinst\cm_unregister_notification.htm
 tech.root: devinst
 ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444
-
 ms.date: 12/05/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Unregister_Notification"
+f1_keywords:
+- cfgmgr32/CM_Unregister_Notification
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,16 +30,16 @@ req.lib: Cfgmgr32.lib; OneCoreUAP.lib on Windows 10
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-devices-config-l1-1-0.dll
- - API-MS-Win-devices-config-l1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-devices-config-l1-1-0.dll
+- API-MS-Win-devices-config-l1-1-1.dll
 api_name:
- - CM_Unregister_Notification
+- CM_Unregister_Notification
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderWindowlessSite.GetAdjacentFragment
 title: IRawElementProviderWindowlessSite::GetAdjacentFragment (uiautomationcore.h)
-
 description: Retrieves a fragment pointer for a fragment that is adjacent to the windowless Microsoft ActiveX control owned by this control site.
 old-location: winauto\uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment.htm
 tech.root: WinAuto
 ms.assetid: 2C43EA00-5C8E-4301-9BFF-9A5D1C585824
-
 ms.date: 12/05/2018
 ms.keywords: GetAdjacentFragment, GetAdjacentFragment method [Windows Accessibility], GetAdjacentFragment method [Windows Accessibility],IRawElementProviderWindowlessSite interface, IRawElementProviderWindowlessSite interface [Windows Accessibility],GetAdjacentFragment method, IRawElementProviderWindowlessSite.GetAdjacentFragment, IRawElementProviderWindowlessSite::GetAdjacentFragment, uiautomationcore/IRawElementProviderWindowlessSite::GetAdjacentFragment, winauto.uiauto_IRawElementProviderWindowlessSite_GetAdjacentFragment
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IRawElementProviderWindowlessSite.GetAdjacentFragment"
+f1_keywords:
+- uiautomationcore/IRawElementProviderWindowlessSite.GetAdjacentFragment
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationCore.h
+- UIAutomationCore.h
 api_name:
- - IRawElementProviderWindowlessSite.GetAdjacentFragment
+- IRawElementProviderWindowlessSite.GetAdjacentFragment
 targetos: Windows
 req.typenames: 
 req.redist: 

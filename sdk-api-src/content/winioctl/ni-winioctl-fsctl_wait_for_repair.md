@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_WAIT_FOR_REPAIR
 title: FSCTL_WAIT_FOR_REPAIR
-
 description: Returns when the specified repairs are completed.
 old-location: fs\fsctl_wait_for_repair.htm
 tech.root: FileIO
 ms.assetid: 593ca2f0-1455-4b46-925a-61ad07f8fb5c
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_WAIT_FOR_REPAIR, FSCTL_WAIT_FOR_REPAIR control, FSCTL_WAIT_FOR_REPAIR control code [Files], fs.fsctl_wait_for_repair, winioctl/FSCTL_WAIT_FOR_REPAIR
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_WAIT_FOR_REPAIR"
+f1_keywords:
+- winioctl/FSCTL_WAIT_FOR_REPAIR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_WAIT_FOR_REPAIR
+- FSCTL_WAIT_FOR_REPAIR
 targetos: Windows
 req.typenames: 
 req.redist: 

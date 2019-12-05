@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICommDlgBrowser2.GetViewFlags
 title: ICommDlgBrowser2::GetViewFlags (shobjidl_core.h)
-
 description: Called when the view must determine if special customization needs to be made for the common dialog browser.
 old-location: shell\ICommDlgBrowser2_GetViewFlags.htm
 tech.root: shell
 ms.assetid: cb22504c-9f76-44c4-b81d-fc15d1b95143
-
 ms.date: 12/05/2018
 ms.keywords: CDB2GVF_ADDSHIELD, CDB2GVF_ALLOWPREVIEWPANE, CDB2GVF_ISFILESAVE, CDB2GVF_ISFOLDERPICKER, CDB2GVF_NOINCLUDEITEM, CDB2GVF_NOSELECTVERB, CDB2GVF_SHOWALLFILES, GetViewFlags, GetViewFlags method [Windows Shell], GetViewFlags method [Windows Shell],ICommDlgBrowser2 interface, ICommDlgBrowser2 interface [Windows Shell],GetViewFlags method, ICommDlgBrowser2.GetViewFlags, ICommDlgBrowser2::GetViewFlags, _win32_ICommDlgBrowser2_GetViewFlags, shell.ICommDlgBrowser2_GetViewFlags, shobjidl_core/ICommDlgBrowser2::GetViewFlags
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICommDlgBrowser2.GetViewFlags"
+f1_keywords:
+- shobjidl_core/ICommDlgBrowser2.GetViewFlags
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICommDlgBrowser2.GetViewFlags
+- ICommDlgBrowser2.GetViewFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

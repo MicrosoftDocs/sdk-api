@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.DefineFuncAsDllEntry
 title: ICreateTypeInfo::DefineFuncAsDllEntry (oaidl.h)
-
 description: Associates a DLL entry point with the function that has the specified index.
 old-location: automat\icreatetypeinfo_definefuncasdllentry.htm
 tech.root: automat
 ms.assetid: 47ec09af-0642-4645-b946-acabbb7c028a
-
 ms.date: 12/05/2018
 ms.keywords: DefineFuncAsDllEntry, DefineFuncAsDllEntry method [Automation], DefineFuncAsDllEntry method [Automation],ICreateTypeInfo interface, ICreateTypeInfo interface [Automation],DefineFuncAsDllEntry method, ICreateTypeInfo.DefineFuncAsDllEntry, ICreateTypeInfo::DefineFuncAsDllEntry, _oa96_ICreateTypeInfo_DefineFuncAsDllEntry, automat.icreatetypeinfo_definefuncasdllentry, oaidl/ICreateTypeInfo::DefineFuncAsDllEntry
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.DefineFuncAsDllEntry"
+f1_keywords:
+- oaidl/ICreateTypeInfo.DefineFuncAsDllEntry
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.DefineFuncAsDllEntry
+- ICreateTypeInfo.DefineFuncAsDllEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

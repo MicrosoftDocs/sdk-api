@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM2.GetBackupDirEx
 title: IGPM2::GetBackupDirEx (gpmgmt.h)
-
 description: For a Group Policy object (GPO), the GetBackupDirEx method creates and returns a GPMBackupDirEx object, which you can use to access a GPMBackup or GPMBackupCollection object.
 old-location: gpmc\igpm2_getbackupdirex.htm
 tech.root: gpmc
 ms.assetid: 2fe4ea93-6668-4534-b72e-71b1062db627
-
 ms.date: 12/05/2018
 ms.keywords: GetBackupDirEx, GetBackupDirEx method [GPMC], GetBackupDirEx method [GPMC],IGPM2 interface, IGPM2 interface [GPMC],GetBackupDirEx method, IGPM2.GetBackupDirEx, IGPM2::GetBackupDirEx, gpmc.igpm2_getbackupdirex, gpmgmt/IGPM2::GetBackupDirEx
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM2.GetBackupDirEx"
+f1_keywords:
+- gpmgmt/IGPM2.GetBackupDirEx
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - gpmgmt.dll
+- gpmgmt.dll
 api_name:
- - IGPM2.GetBackupDirEx
+- IGPM2.GetBackupDirEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes
 title: IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes (portabledeviceapi.h)
-
 description: Retrieves the attributes of a format property.
 old-location: wpdsdk\iportabledeviceservicecapabilities_getformatpropertyattributes.htm
 tech.root: wpd_sdk
 ms.assetid: a4120cfd-500d-47dd-87e9-418a32722332
-
 ms.date: 12/05/2018
 ms.keywords: GetFormatPropertyAttributes, GetFormatPropertyAttributes method [Windows Portable Devices SDK], GetFormatPropertyAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetFormatPropertyAttributes method, IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes, IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes, wpdsdk.iportabledeviceservicecapabilities_getformatpropertyattributes
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes
+- IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

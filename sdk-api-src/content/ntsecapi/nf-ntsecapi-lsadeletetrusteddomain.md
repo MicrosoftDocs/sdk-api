@@ -1,19 +1,17 @@
 ---
 UID: NF:ntsecapi.LsaDeleteTrustedDomain
 title: LsaDeleteTrustedDomain function (ntsecapi.h)
-
 description: The LsaDeleteTrustedDomain function removes a trusted domain from the list of trusted domains for a system and deletes the associated TrustedDomain object.
 old-location: security\lsadeletetrusteddomain.htm
 tech.root: SecMgmt
 ms.assetid: 4a7afa28-1786-4a58-a955-d2d8b12e62e4
-
 ms.date: 12/05/2018
 ms.keywords: LsaDeleteTrustedDomain, LsaDeleteTrustedDomain function [Security], _lsa_lsadeletetrusteddomain, ntsecapi/LsaDeleteTrustedDomain, security.lsadeletetrusteddomain
 ms.topic: function
-f1_keywords: 
- - "ntsecapi/LsaDeleteTrustedDomain"
+f1_keywords:
+- ntsecapi/LsaDeleteTrustedDomain
 dev_langs:
- - c++
+- c++
 req.header: ntsecapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - LsaDeleteTrustedDomain
+- LsaDeleteTrustedDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

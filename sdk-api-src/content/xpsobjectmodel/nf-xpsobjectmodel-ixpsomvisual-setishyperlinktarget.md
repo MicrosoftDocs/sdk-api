@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetIsHyperlinkTarget
 title: IXpsOMVisual::SetIsHyperlinkTarget (xpsobjectmodel.h)
-
 description: Specifies whether the visual is the target of a hyperlink.
 old-location: xps\ixpsomvisual_setishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: 855a3993-b308-4dc0-a2f6-8ac6bdc495ce
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, IXpsOMVisual interface [XPS Documents and Packaging],SetIsHyperlinkTarget method, IXpsOMVisual.SetIsHyperlinkTarget, IXpsOMVisual::SetIsHyperlinkTarget, SetIsHyperlinkTarget, SetIsHyperlinkTarget method [XPS Documents and Packaging], SetIsHyperlinkTarget method [XPS Documents and Packaging],IXpsOMVisual interface, TRUE, xps.ixpsomvisual_setishyperlinktarget, xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMVisual.SetIsHyperlinkTarget"
+f1_keywords:
+- xpsobjectmodel/IXpsOMVisual.SetIsHyperlinkTarget
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMVisual.SetIsHyperlinkTarget
+- IXpsOMVisual.SetIsHyperlinkTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

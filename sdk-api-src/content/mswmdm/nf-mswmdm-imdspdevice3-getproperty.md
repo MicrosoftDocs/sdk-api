@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.GetProperty
 title: IMDSPDevice3::GetProperty (mswmdm.h)
-
 description: The GetProperty method retrieves a specific device property.
 old-location: wmdm\imdspdevice3_getproperty.htm
 tech.root: WMDM
 ms.assetid: e0665ba6-361d-488c-9100-68f39855b736
-
 ms.date: 12/05/2018
 ms.keywords: GetProperty, GetProperty method [windows Media Device Manager], GetProperty method [windows Media Device Manager],IMDSPDevice3 interface, IMDSPDevice3 interface [windows Media Device Manager],GetProperty method, IMDSPDevice3.GetProperty, IMDSPDevice3::GetProperty, IMDSPDevice3TransferSessionBegin, mswmdm/IMDSPDevice3::GetProperty, wmdm.imdspdevice3_getproperty
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPDevice3.GetProperty"
+f1_keywords:
+- mswmdm/IMDSPDevice3.GetProperty
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPDevice3.GetProperty
+- IMDSPDevice3.GetProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

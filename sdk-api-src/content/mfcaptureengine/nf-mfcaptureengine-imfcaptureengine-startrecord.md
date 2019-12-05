@@ -1,19 +1,17 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartRecord
 title: IMFCaptureEngine::StartRecord (mfcaptureengine.h)
-
 description: Starts recording audio and/or video to a file.
 old-location: mf\imfcaptureengine_startrecord.htm
 tech.root: medfound
 ms.assetid: 22084409-B2E6-47EF-A59B-A762E9A9191D
-
 ms.date: 12/05/2018
 ms.keywords: IMFCaptureEngine interface [Media Foundation],StartRecord method, IMFCaptureEngine.StartRecord, IMFCaptureEngine::StartRecord, StartRecord, StartRecord method [Media Foundation], StartRecord method [Media Foundation],IMFCaptureEngine interface, mf.imfcaptureengine_startrecord, mfcaptureengine/IMFCaptureEngine::StartRecord
 ms.topic: method
-f1_keywords: 
- - "mfcaptureengine/IMFCaptureEngine.StartRecord"
+f1_keywords:
+- mfcaptureengine/IMFCaptureEngine.StartRecord
 dev_langs:
- - c++
+- c++
 req.header: mfcaptureengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfcaptureengine.h
+- mfcaptureengine.h
 api_name:
- - IMFCaptureEngine.StartRecord
+- IMFCaptureEngine.StartRecord
 targetos: Windows
 req.typenames: 
 req.redist: 

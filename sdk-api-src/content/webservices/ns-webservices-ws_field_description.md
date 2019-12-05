@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_FIELD_DESCRIPTION
 title: WS_FIELD_DESCRIPTION (webservices.h)
-
 description: Represents serialization information about a field within a structure.
 old-location: wsw\ws_field_description.htm
 tech.root: wsw
 ms.assetid: 8b562fab-f3c5-4732-b993-f7f61ca14ab6
-
 ms.date: 12/05/2018
 ms.keywords: WS_FIELD_DESCRIPTION, WS_FIELD_DESCRIPTION structure [Web Services for Windows], webservices/WS_FIELD_DESCRIPTION, wsw.ws_field_description
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_FIELD_DESCRIPTION"
+f1_keywords:
+- webservices/WS_FIELD_DESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_FIELD_DESCRIPTION
+- WS_FIELD_DESCRIPTION
 targetos: Windows
 req.typenames: WS_FIELD_DESCRIPTION
 req.redist: 

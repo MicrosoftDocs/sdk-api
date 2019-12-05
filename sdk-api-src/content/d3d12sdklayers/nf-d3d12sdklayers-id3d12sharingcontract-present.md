@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12SharingContract.Present
 title: ID3D12SharingContract::Present (d3d12sdklayers.h)
-
 description: Shares a resource (or subresource) between the D3D layers and diagnostics tools.
 old-location: direct3d12\id3d12sharingcontract_present.htm
 tech.root: direct3d12
 ms.assetid: 878442E3-417A-46CE-B91A-698CA3CA60BE
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12SharingContract interface,Present method, ID3D12SharingContract.Present, ID3D12SharingContract::Present, Present, Present method, Present method,ID3D12SharingContract interface, d3d12sdklayers/ID3D12SharingContract::Present, direct3d12.id3d12sharingcontract_present
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12SharingContract.Present"
+f1_keywords:
+- d3d12sdklayers/ID3D12SharingContract.Present
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: D3D12.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12SharingContract.Present
+- ID3D12SharingContract.Present
 targetos: Windows
 req.typenames: 
 req.redist: 

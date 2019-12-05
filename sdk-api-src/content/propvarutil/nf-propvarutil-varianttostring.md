@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantToString
 title: VariantToString function (propvarutil.h)
-
 description: Extracts the variant value of a variant structure to a string. If no value can be extracted, then a default value is assigned.
 old-location: properties\VariantToString.htm
 tech.root: properties
 ms.assetid: 4850f9b8-8f86-4428-bf3b-f3abdc6047c1
-
 ms.date: 12/05/2018
 ms.keywords: VariantToString, VariantToString function [Windows Properties], _shell_VariantToString, properties.VariantToString, propvarutil/VariantToString, shell.VariantToString
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantToString"
+f1_keywords:
+- propvarutil/VariantToString
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - VariantToString
+- VariantToString
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

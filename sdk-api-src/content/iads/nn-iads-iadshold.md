@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsHold
 title: IADsHold (iads.h)
-
 description: The IADsHold interface provides methods for an ADSI client to access the Hold attribute.
 old-location: adsi\iadshold.htm
 tech.root: adsi
 ms.assetid: ccc22915-0f67-4089-9ddc-491b6f7ef554
-
 ms.date: 12/05/2018
 ms.keywords: Hold, IADsHold, IADsHold interface [ADSI], IADsHold interface [ADSI],described, _ds_iadshold, adsi.iadshold, iads/IADsHold
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsHold"
+f1_keywords:
+- iads/IADsHold
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsHold
- - Hold
+- IADsHold
+- Hold
 targetos: Windows
 req.typenames: 
 req.redist: 

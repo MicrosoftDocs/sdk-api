@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsGroup
 title: IADsGroup (iads.h)
-
 description: Manages group membership data in a directory service.
 old-location: adsi\iadsgroup.htm
 tech.root: adsi
 ms.assetid: dbf0c424-e906-4a72-a369-81bf96275bbc
-
 ms.date: 12/05/2018
 ms.keywords: IADsGroup, IADsGroup interface [ADSI], IADsGroup interface [ADSI],described, _ds_iadsgroup, adsi.iadsgroup, iads/IADsGroup
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsGroup"
+f1_keywords:
+- iads/IADsGroup
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsGroup
+- IADsGroup
 targetos: Windows
 req.typenames: 
 req.redist: 

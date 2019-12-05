@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.TryGetFontTable
 title: IDWriteFontFace::TryGetFontTable (dwrite.h)
-
 description: Finds the specified OpenType font table if it exists and returns a pointer to it. The function accesses the underlying font data through the IDWriteFontFileStream interface implemented by the font file loader.
 old-location: directwrite\IDWriteFontFace_TryGetFontTable.htm
 tech.root: DirectWrite
 ms.assetid: 82ce9078-0b50-4e8c-a38a-181ec71d6136
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFace interface [Direct Write],TryGetFontTable method, IDWriteFontFace.TryGetFontTable, IDWriteFontFace::TryGetFontTable, TryGetFontTable, TryGetFontTable method [Direct Write], TryGetFontTable method [Direct Write],IDWriteFontFace interface, directwrite.IDWriteFontFace_TryGetFontTable, dwrite/IDWriteFontFace::TryGetFontTable
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFontFace.TryGetFontTable"
+f1_keywords:
+- dwrite/IDWriteFontFace.TryGetFontTable
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace.TryGetFontTable
+- IDWriteFontFace.TryGetFontTable
 targetos: Windows
 req.typenames: 
 req.redist: 

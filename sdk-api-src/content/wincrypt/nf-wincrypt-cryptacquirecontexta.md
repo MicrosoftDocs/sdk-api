@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptAcquireContextA
 title: CryptAcquireContextA function (wincrypt.h)
-
 description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
 old-location: security\cryptacquirecontext.htm
 tech.root: SecCrypto
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE_KEYSET, CRYPT_NEWKEYSET, CRYPT_SILENT, CRYPT_VERIFYCONTEXT, CryptAcquireContext, CryptAcquireContext function [Security], CryptAcquireContextA, CryptAcquireContextW, _crypto2_cryptacquirecontext, security.cryptacquirecontext, wincrypt/CryptAcquireContext, wincrypt/CryptAcquireContextA, wincrypt/CryptAcquireContextW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptAcquireContext"
+f1_keywords:
+- wincrypt/CryptAcquireContext
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptAcquireContext
- - CryptAcquireContextA
- - CryptAcquireContextW
+- CryptAcquireContext
+- CryptAcquireContextA
+- CryptAcquireContextW
 targetos: Windows
 req.typenames: 
 req.redist: 

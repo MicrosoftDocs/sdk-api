@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFGetAttributesAsBlobSize
 title: MFGetAttributesAsBlobSize function (mfapi.h)
-
 description: Retrieves the size of the buffer needed for the MFGetAttributesAsBlob function.
 old-location: mf\mfgetattributesasblobsize.htm
 tech.root: medfound
 ms.assetid: 52abfe30-a18d-45f7-93db-13f87b0647b7
-
 ms.date: 12/05/2018
 ms.keywords: 52abfe30-a18d-45f7-93db-13f87b0647b7, MFGetAttributesAsBlobSize, MFGetAttributesAsBlobSize function [Media Foundation], mf.mfgetattributesasblobsize, mfapi/MFGetAttributesAsBlobSize
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFGetAttributesAsBlobSize"
+f1_keywords:
+- mfapi/MFGetAttributesAsBlobSize
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFGetAttributesAsBlobSize
+- MFGetAttributesAsBlobSize
 targetos: Windows
 req.typenames: 
 req.redist: 

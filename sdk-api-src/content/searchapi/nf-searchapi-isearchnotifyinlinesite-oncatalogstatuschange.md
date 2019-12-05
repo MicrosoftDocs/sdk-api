@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchNotifyInlineSite.OnCatalogStatusChange
 title: ISearchNotifyInlineSite::OnCatalogStatusChange (searchapi.h)
-
 description: Called by the search service to notify a client when the status of the catalog changes.
 old-location: search\_search_ISearchNotifyInlineSite_OnCatalogStatusChange.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchnotifyinlinesite\oncatalogstatuschange.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchNotifyInlineSite interface [search],OnCatalogStatusChange method, ISearchNotifyInlineSite.OnCatalogStatusChange, ISearchNotifyInlineSite::OnCatalogStatusChange, OnCatalogStatusChange, OnCatalogStatusChange method [search], OnCatalogStatusChange method [search],ISearchNotifyInlineSite interface, _search_ISearchNotifyInlineSite_OnCatalogStatusChange, search._search_ISearchNotifyInlineSite_OnCatalogStatusChange, searchapi/ISearchNotifyInlineSite::OnCatalogStatusChange
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchNotifyInlineSite.OnCatalogStatusChange"
+f1_keywords:
+- searchapi/ISearchNotifyInlineSite.OnCatalogStatusChange
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchNotifyInlineSite.OnCatalogStatusChange
+- ISearchNotifyInlineSite.OnCatalogStatusChange
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

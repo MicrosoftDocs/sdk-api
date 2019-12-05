@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestProperties.GetBoolValue
 title: IAppxManifestProperties::GetBoolValue (appxpackaging.h)
-
 description: Gets the value of the specified Boolean element in the properties section.
 old-location: appxpkg\iappxmanifestproperties_getboolvalue.htm
 tech.root: appxpkg
 ms.assetid: 228FD28A-E65E-484B-81EF-83CC993F05D6
-
 ms.date: 12/05/2018
 ms.keywords: GetBoolValue, GetBoolValue method [App packaging and management], GetBoolValue method [App packaging and management],IAppxManifestProperties interface, IAppxManifestProperties interface [App packaging and management],GetBoolValue method, IAppxManifestProperties.GetBoolValue, IAppxManifestProperties::GetBoolValue, appxpackaging/IAppxManifestProperties::GetBoolValue, appxpkg.iappxmanifestproperties_getboolvalue
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestProperties.GetBoolValue"
+f1_keywords:
+- appxpackaging/IAppxManifestProperties.GetBoolValue
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestProperties.GetBoolValue
+- IAppxManifestProperties.GetBoolValue
 targetos: Windows
 req.typenames: 
 req.redist: 

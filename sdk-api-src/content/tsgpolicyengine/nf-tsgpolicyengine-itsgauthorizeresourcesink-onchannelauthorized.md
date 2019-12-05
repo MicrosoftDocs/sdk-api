@@ -1,19 +1,17 @@
 ---
 UID: NF:tsgpolicyengine.ITSGAuthorizeResourceSink.OnChannelAuthorized
 title: ITSGAuthorizeResourceSink::OnChannelAuthorized (tsgpolicyengine.h)
-
 description: Notifies Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
 old-location: termserv\itsgauthorizeresourcesink_onchannelauthorized.htm
 tech.root: TermServ
 ms.assetid: e09247af-54ea-4846-97d5-d503a811ab29
-
 ms.date: 12/05/2018
 ms.keywords: ITSGAuthorizeResourceSink interface [Remote Desktop Services],OnChannelAuthorized method, ITSGAuthorizeResourceSink.OnChannelAuthorized, ITSGAuthorizeResourceSink::OnChannelAuthorized, OnChannelAuthorized, OnChannelAuthorized method [Remote Desktop Services], OnChannelAuthorized method [Remote Desktop Services],ITSGAuthorizeResourceSink interface, termserv.itsgauthorizeresourcesink_onchannelauthorized, tsgpolicyengine/ITSGAuthorizeResourceSink::OnChannelAuthorized
 ms.topic: method
-f1_keywords: 
- - "tsgpolicyengine/ITSGAuthorizeResourceSink.OnChannelAuthorized"
+f1_keywords:
+- tsgpolicyengine/ITSGAuthorizeResourceSink.OnChannelAuthorized
 dev_langs:
- - c++
+- c++
 req.header: tsgpolicyengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - TSGPolicyEngine.h
+- TSGPolicyEngine.h
 api_name:
- - ITSGAuthorizeResourceSink.OnChannelAuthorized
+- ITSGAuthorizeResourceSink.OnChannelAuthorized
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetWeight
 title: IDWriteFontFace3::GetWeight (dwrite_3.h)
-
 description: Gets the weight of this font.
 old-location: directwrite\idwritefontface3_getweight.htm
 tech.root: DirectWrite
 ms.assetid: A57873B2-F4B4-4129-96FE-A4CAFBFD537F
-
 ms.date: 12/05/2018
 ms.keywords: GetWeight, GetWeight method [Direct Write], GetWeight method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetWeight method, IDWriteFontFace3.GetWeight, IDWriteFontFace3::GetWeight, directwrite.idwritefontface3_getweight, dwrite_3/IDWriteFontFace3::GetWeight
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteFontFace3.GetWeight"
+f1_keywords:
+- dwrite_3/IDWriteFontFace3.GetWeight
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFace3.GetWeight
+- IDWriteFontFace3.GetWeight
 targetos: Windows
 req.typenames: 
 req.redist: 

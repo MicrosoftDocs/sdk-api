@@ -1,19 +1,17 @@
 ---
 UID: NN:wpcapi.IWPCProviderState
 title: IWPCProviderState (wpcapi.h)
-
 description: Exposes provider state methods that are implemented by third parties.
 old-location: parcon\iwpcproviderstate.htm
 tech.root: parcon
 ms.assetid: a5cd14df-8e64-4f34-801c-9901c7d215f9
-
 ms.date: 12/05/2018
 ms.keywords: IWPCProviderState, IWPCProviderState interface, IWPCProviderState interface,described, parcon.iwpcproviderstate, wpcapi/IWPCProviderState
 ms.topic: interface
-f1_keywords: 
- - "wpcapi/IWPCProviderState"
+f1_keywords:
+- wpcapi/IWPCProviderState
 dev_langs:
- - c++
+- c++
 req.header: wpcapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wpcapi.h
+- Wpcapi.h
 api_name:
- - IWPCProviderState
+- IWPCProviderState
 targetos: Windows
 req.typenames: 
 req.redist: 

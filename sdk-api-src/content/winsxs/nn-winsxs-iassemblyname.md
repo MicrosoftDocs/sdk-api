@@ -1,19 +1,17 @@
 ---
 UID: NN:winsxs.IAssemblyName
 title: IAssemblyName (winsxs.h)
-
 description: The IAssemblyName interface represents a side-by-side assembly name.
 old-location: setup\iassemblyname.htm
 tech.root: SbsCs
 ms.assetid: 304b8fb3-5d17-4af0-b070-450a40dc5cc9
-
 ms.date: 12/05/2018
 ms.keywords: IAssemblyName, IAssemblyName interface [Side-by-side Assemblies], IAssemblyName interface [Side-by-side Assemblies],described, setup.iassemblyname, winsxs/IAssemblyName
 ms.topic: interface
-f1_keywords: 
- - "winsxs/IAssemblyName"
+f1_keywords:
+- winsxs/IAssemblyName
 dev_langs:
- - c++
+- c++
 req.header: winsxs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sxs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sxs.dll
+- sxs.dll
 api_name:
- - IAssemblyName
+- IAssemblyName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:mmdeviceapi.__MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001
 title: AudioExtensionParams (mmdeviceapi.h)
-
 description: This structure is passed to the Control Panel Endpoint Extension property page through IShellPropSheetExt::AddPages and is used to create endpoint PropertyPages.
 old-location: coreaudio\audioextensionparams.htm
 tech.root: CoreAudio
 ms.assetid: 02A38355-104D-46C0-A34E-C0BB482323A9
-
 ms.date: 12/05/2018
 ms.keywords: AudioExtensionParams, AudioExtensionParams structure [Core Audio], PAudioExtensionParams, PAudioExtensionParams structure pointer [Core Audio], coreaudio.audioextensionparams, mmdeviceapi/AudioExtensionParams, mmdeviceapi/PAudioExtensionParams
 ms.topic: struct
-f1_keywords: 
- - "mmdeviceapi/AudioExtensionParams"
+f1_keywords:
+- mmdeviceapi/AudioExtensionParams
 dev_langs:
- - c++
+- c++
 req.header: mmdeviceapi.h
 req.include-header: Mmdevapi.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mmdeviceapi.h
+- mmdeviceapi.h
 api_name:
- - AudioExtensionParams
+- AudioExtensionParams
 targetos: Windows
 req.typenames: AudioExtensionParams
 req.redist: 

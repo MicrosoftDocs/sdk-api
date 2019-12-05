@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmActionEventLog.put_EventType
 title: IFsrmActionEventLog::put_EventType (fsrm.h)
-
 description: Retrieves or sets the type of event that the action logs when it runs.
 old-location: fsrm\ifsrmactioneventlog_eventtype.htm
 tech.root: fsrm
 ms.assetid: eb76fa86-2d82-46a5-ae76-c2f00f812e48
-
 ms.date: 12/05/2018
 ms.keywords: EventType property [File Server Resource Manager], EventType property [File Server Resource Manager],IFsrmActionEventLog interface, IFsrmActionEventLog interface [File Server Resource Manager],EventType property, IFsrmActionEventLog.EventType, IFsrmActionEventLog.put_EventType, IFsrmActionEventLog::EventType, IFsrmActionEventLog::get_EventType, IFsrmActionEventLog::put_EventType, fs.ifsrmactioneventlog_eventtype, fsrm.ifsrmactioneventlog_eventtype, fsrm/IFsrmActionEventLog::EventType, fsrm/IFsrmActionEventLog::get_EventType, fsrm/IFsrmActionEventLog::put_EventType, put_EventType
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmActionEventLog.EventType"
+f1_keywords:
+- fsrm/IFsrmActionEventLog.EventType
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmActionEventLog.EventType
- - IFsrmActionEventLog.get_EventType
- - IFsrmActionEventLog.put_EventType
+- IFsrmActionEventLog.EventType
+- IFsrmActionEventLog.get_EventType
+- IFsrmActionEventLog.put_EventType
 targetos: Windows
 req.typenames: 
 req.redist: 

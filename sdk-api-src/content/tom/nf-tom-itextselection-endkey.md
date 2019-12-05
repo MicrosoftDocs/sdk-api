@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextSelection.EndKey
 title: ITextSelection::EndKey (tom.h)
-
 description: Mimics the functionality of the End key.
 old-location: controls\ITextSelection_EndKey.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endkey.htm
-
 ms.date: 12/05/2018
 ms.keywords: EndKey, EndKey method [Windows Controls], EndKey method [Windows Controls],ITextSelection interface, ITextSelection interface [Windows Controls],EndKey method, ITextSelection.EndKey, ITextSelection::EndKey, _win32_ITextSelection_EndKey, _win32_ITextSelection_EndKey_cpp, controls.ITextSelection_EndKey, controls._win32_ITextSelection_EndKey, tom/ITextSelection::EndKey, tomColumn, tomLine, tomRow, tomStory
 ms.topic: method
-f1_keywords: 
- - "tom/ITextSelection.EndKey"
+f1_keywords:
+- tom/ITextSelection.EndKey
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextSelection.EndKey
+- ITextSelection.EndKey
 targetos: Windows
 req.typenames: 
 req.redist: 

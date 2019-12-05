@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.VfwCompressDialogs
 title: VfwCompressDialogs (strmif.h)
-
 description: Specifies a dialog box that might exist in a Video for Windows compression (codec) driver.
 old-location: dshow\vfwcompressdialogs.htm
 tech.root: DirectShow
 ms.assetid: b1e92603-631a-45e0-aee0-3974e3114e03
-
 ms.date: 12/05/2018
 ms.keywords: VfwCompressDialog_About, VfwCompressDialog_Config, VfwCompressDialog_QueryAbout, VfwCompressDialog_QueryConfig, VfwCompressDialogs, VfwCompressDialogs enumeration [DirectShow], VfwCompressDialogsEnumeration, dshow.vfwcompressdialogs, strmif/VfwCompressDialog_About, strmif/VfwCompressDialog_Config, strmif/VfwCompressDialog_QueryAbout, strmif/VfwCompressDialog_QueryConfig, strmif/VfwCompressDialogs
 ms.topic: enum
-f1_keywords: 
- - "strmif/VfwCompressDialogs"
+f1_keywords:
+- strmif/VfwCompressDialogs
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VfwCompressDialogs
+- VfwCompressDialogs
 targetos: Windows
 req.typenames: VfwCompressDialogs
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:structuredquery.IConditionFactory2.CreateCompoundFromArray
 title: IConditionFactory2::CreateCompoundFromArray (structuredquery.h)
-
 description: Creates a leaf condition node that is a conjunction (AND) or a disjunction (OR) from an array of condition nodes. The returned object supports ICondition and ICondition2.
 old-location: search\_search_IConditionFactory2_CreateCompoundFromArray.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\iconditionfactory\createcompoundfromarray.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateCompoundFromArray, CreateCompoundFromArray method [search], CreateCompoundFromArray method [search],IConditionFactory2 interface, IConditionFactory2 interface [search],CreateCompoundFromArray method, IConditionFactory2.CreateCompoundFromArray, IConditionFactory2::CreateCompoundFromArray, _search_IConditionFactory2_CreateCompoundFromArray, search._search_IConditionFactory2_CreateCompoundFromArray, structuredquery/IConditionFactory2::CreateCompoundFromArray
 ms.topic: method
-f1_keywords: 
- - "structuredquery/IConditionFactory2.CreateCompoundFromArray"
+f1_keywords:
+- structuredquery/IConditionFactory2.CreateCompoundFromArray
 dev_langs:
- - c++
+- c++
 req.header: structuredquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Structuredquery.h
+- Structuredquery.h
 api_name:
- - IConditionFactory2.CreateCompoundFromArray
+- IConditionFactory2.CreateCompoundFromArray
 targetos: Windows
 req.typenames: 
 req.redist: 

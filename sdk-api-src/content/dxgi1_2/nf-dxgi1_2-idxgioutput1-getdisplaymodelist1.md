@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIOutput1.GetDisplayModeList1
 title: IDXGIOutput1::GetDisplayModeList1 (dxgi1_2.h)
-
 description: Gets the display modes that match the requested format and other input options.
 old-location: direct3ddxgi\idxgioutput1_getdisplaymodelist1.htm
 tech.root: direct3ddxgi
 ms.assetid: 49522ED9-30AD-4F39-96D2-BB6677D72349
-
 ms.date: 12/05/2018
 ms.keywords: GetDisplayModeList1, GetDisplayModeList1 method [DXGI], GetDisplayModeList1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplayModeList1 method, IDXGIOutput1.GetDisplayModeList1, IDXGIOutput1::GetDisplayModeList1, direct3ddxgi.idxgioutput1_getdisplaymodelist1, dxgi1_2/IDXGIOutput1::GetDisplayModeList1
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIOutput1.GetDisplayModeList1"
+f1_keywords:
+- dxgi1_2/IDXGIOutput1.GetDisplayModeList1
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: DXGI.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DXGI.lib
- - DXGI.dll
+- DXGI.lib
+- DXGI.dll
 api_name:
- - IDXGIOutput1.GetDisplayModeList1
+- IDXGIOutput1.GetDisplayModeList1
 targetos: Windows
 req.typenames: 
 req.redist: 

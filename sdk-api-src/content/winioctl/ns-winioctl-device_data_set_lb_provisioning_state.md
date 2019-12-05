@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_LB_PROVISIONING_STATE
 title: DEVICE_DATA_SET_LB_PROVISIONING_STATE
-
 description: Output structure for the DeviceDsmAction_Allocation action of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
 old-location: base\device_data_set_lb_provisioning_state.htm
 tech.root: devio
 ms.assetid: 757ffd97-2a00-4508-817c-0bfb2f2e3a84
-
 ms.date: 12/05/2018
-ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DSM_ALLOCATION_OUTPUT, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure, DEVICE_DSM_ALLOCATION_OUTPUT, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer, base.device_data_set_lb_provisioning_state, winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE, winioctl/PDEVICE_DATA_SET_LB_PROVISIONING_STATE"
+ms.keywords: '*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DSM_ALLOCATION_OUTPUT, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure, DEVICE_DSM_ALLOCATION_OUTPUT, PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer, base.device_data_set_lb_provisioning_state, winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE, winioctl/PDEVICE_DATA_SET_LB_PROVISIONING_STATE'
 ms.topic: struct
-f1_keywords: 
- - "winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE"
+f1_keywords:
+- winioctl/DEVICE_DATA_SET_LB_PROVISIONING_STATE
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - DEVICE_DATA_SET_LB_PROVISIONING_STATE
+- DEVICE_DATA_SET_LB_PROVISIONING_STATE
 targetos: Windows
 req.typenames: DEVICE_DATA_SET_LB_PROVISIONING_STATE, *PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DSM_ALLOCATION_OUTPUT, *PDEVICE_DSM_ALLOCATION_OUTPUT
 req.redist: 

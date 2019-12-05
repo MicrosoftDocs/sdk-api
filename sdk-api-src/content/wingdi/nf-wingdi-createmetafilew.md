@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateMetaFileW
 title: CreateMetaFileW function (wingdi.h)
-
 description: The CreateMetaFile function creates a device context for a Windows-format metafile.
 old-location: gdi\createmetafile.htm
 tech.root: gdi
 ms.assetid: 81b3baae-f0e6-4b71-a6de-953ad3376dbd
-
 ms.date: 12/05/2018
 ms.keywords: CreateMetaFile, CreateMetaFile function [Windows GDI], CreateMetaFileA, CreateMetaFileW, _win32_CreateMetaFile, gdi.createmetafile, wingdi/CreateMetaFile, wingdi/CreateMetaFileA, wingdi/CreateMetaFileW
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateMetaFile"
+f1_keywords:
+- wingdi/CreateMetaFile
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Metafile-l1-1-1.dll
- - ext-ms-win-gdi-metafile-l1-1-2.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Metafile-l1-1-1.dll
+- ext-ms-win-gdi-metafile-l1-1-2.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - CreateMetaFile
- - CreateMetaFileA
- - CreateMetaFileW
+- CreateMetaFile
+- CreateMetaFileA
+- CreateMetaFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

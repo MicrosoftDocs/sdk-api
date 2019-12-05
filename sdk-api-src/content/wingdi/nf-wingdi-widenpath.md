@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.WidenPath
 title: WidenPath function (wingdi.h)
-
 description: The WidenPath function redefines the current path as the area that would be painted if the path were stroked using the pen currently selected into the given device context.
 old-location: gdi\widenpath.htm
 tech.root: gdi
 ms.assetid: c994bd1b-c5e8-46e6-a6a6-59e2d9106d75
-
 ms.date: 12/05/2018
 ms.keywords: WidenPath, WidenPath function [Windows GDI], _win32_WidenPath, gdi.widenpath, wingdi/WidenPath
 ms.topic: function
-f1_keywords: 
- - "wingdi/WidenPath"
+f1_keywords:
+- wingdi/WidenPath
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - WidenPath
+- WidenPath
 targetos: Windows
 req.typenames: 
 req.redist: 

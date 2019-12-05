@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetMenu
 title: IShellMenu::SetMenu (shobjidl_core.h)
-
 description: Appends a static menu to the menu band.
 old-location: shell\IShellMenu_SetMenu.htm
 tech.root: shell
 ms.assetid: afa393eb-05a0-478e-88a2-7c31b4a48930
-
 ms.date: 12/05/2018
 ms.keywords: IShellMenu interface [Windows Shell],SetMenu method, IShellMenu.SetMenu, IShellMenu::SetMenu, SMSET_BOTTOM, SMSET_DONTOWN, SMSET_TOP, SetMenu, SetMenu method [Windows Shell], SetMenu method [Windows Shell],IShellMenu interface, _shell_IShellMenu_SetMenu, shell.IShellMenu_SetMenu, shobjidl_core/IShellMenu::SetMenu
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellMenu.SetMenu"
+f1_keywords:
+- shobjidl_core/IShellMenu.SetMenu
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IShellMenu.SetMenu
+- IShellMenu.SetMenu
 targetos: Windows
 req.typenames: 
 req.redist: 

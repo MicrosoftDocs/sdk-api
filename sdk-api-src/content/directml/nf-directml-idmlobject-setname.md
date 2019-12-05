@@ -1,19 +1,17 @@
 ---
 UID: NF:directml.IDMLObject.SetName
 title: IDMLObject::SetName
-
 description: Associates a name with the DirectML device object. This name is for use in debug diagnostics and tools.
 old-location: direct3d12\idmlobject_setname.htm
 tech.root: direct3d12
 ms.assetid: DD74B028-74EF-4D76-81A7-F150302F80D2
-
 ms.date: 12/5/2018
 ms.keywords: IDMLObject interface,SetName method, IDMLObject.SetName, IDMLObject::SetName, SetName, SetName method, SetName method,IDMLObject interface, direct3d12.idmlobject_setname, directml/IDMLObject::SetName
 ms.topic: method
-f1_keywords: 
- - "directml/IDMLObject.SetName"
+f1_keywords:
+- directml/IDMLObject.SetName
 dev_langs:
- - c++
+- c++
 req.header: directml.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: DirectML.lib
 req.dll: DirectML.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectML.dll
+- DirectML.dll
 api_name:
- - IDMLObject.SetName
+- IDMLObject.SetName
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:richedit._clipboardformat
 title: CLIPBOARDFORMAT (richedit.h)
-
 description: Specifies the clipboard format. This structure included with the EN_CLIPFORMAT notification.
 old-location: controls\clipboardformat.htm
 tech.root: Controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA
-
 ms.date: 12/05/2018
 ms.keywords: CLIPBOARDFORMAT, CLIPBOARDFORMAT structure [Windows Controls], controls.clipboardformat, richedit/CLIPBOARDFORMAT
 ms.topic: struct
-f1_keywords: 
- - "richedit/CLIPBOARDFORMAT"
+f1_keywords:
+- richedit/CLIPBOARDFORMAT
 dev_langs:
- - c++
+- c++
 req.header: richedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Richedit.h
+- Richedit.h
 api_name:
- - CLIPBOARDFORMAT
+- CLIPBOARDFORMAT
 targetos: Windows
 req.typenames: CLIPBOARDFORMAT
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFileOpenDialog.GetResults
 title: IFileOpenDialog::GetResults (shobjidl_core.h)
-
 description: Gets the user's choices in a dialog that allows multiple selection.
 old-location: shell\IFileOpenDialog_GetResults.htm
 tech.root: shell
 ms.assetid: 5c710dae-4988-4f19-beb5-2ff9cd11c596
-
 ms.date: 12/05/2018
 ms.keywords: GetResults, GetResults method [Windows Shell], GetResults method [Windows Shell],IFileOpenDialog interface, IFileOpenDialog interface [Windows Shell],GetResults method, IFileOpenDialog.GetResults, IFileOpenDialog::GetResults, shell.IFileOpenDialog_GetResults, shell_IFileOpenDialog_GetResults, shobjidl_core/IFileOpenDialog::GetResults
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFileOpenDialog.GetResults"
+f1_keywords:
+- shobjidl_core/IFileOpenDialog.GetResults
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFileOpenDialog.GetResults
+- IFileOpenDialog.GetResults
 targetos: Windows
 req.typenames: 
 req.redist: 

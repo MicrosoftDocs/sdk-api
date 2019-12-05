@@ -1,19 +1,17 @@
 ---
 UID: NS:tlogstg._WINDOWDATA
 title: WINDOWDATA (tlogstg.h)
-
 description: Stores window data.
 old-location: shell\WINDOWDATA.htm
 tech.root: shell
 ms.assetid: ef83bd02-cde9-41a8-b5ad-a26794663ac2
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWINDOWDATA, WINDOWDATA, WINDOWDATA structure [Windows Shell], _shell_WINDOWDATA, shell.WINDOWDATA, tlogstg/WINDOWDATA"
+ms.keywords: '*LPWINDOWDATA, WINDOWDATA, WINDOWDATA structure [Windows Shell], _shell_WINDOWDATA, shell.WINDOWDATA, tlogstg/WINDOWDATA'
 ms.topic: struct
-f1_keywords: 
- - "tlogstg/WINDOWDATA"
+f1_keywords:
+- tlogstg/WINDOWDATA
 dev_langs:
- - c++
+- c++
 req.header: tlogstg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Tlogstg.h
+- Tlogstg.h
 api_name:
- - WINDOWDATA
+- WINDOWDATA
 targetos: Windows
 req.typenames: WINDOWDATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocument.LoadAsync
 title: IUPnPDescriptionDocument::LoadAsync (upnp.h)
-
 description: The LoadAsync method loads a document asynchronously. This method returns control to the caller immediately, and uses the specified callback to notify the caller when the operation is complete.
 old-location: upnp\iupnpdescriptiondocument_loadasync.htm
 tech.root: upnp
 ms.assetid: bfb1d833-13e8-4ffe-832d-f6640a42055a
-
 ms.date: 12/05/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],LoadAsync method, IUPnPDescriptionDocument.LoadAsync, IUPnPDescriptionDocument::LoadAsync, LoadAsync, LoadAsync method [UPnP APIs], LoadAsync method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_loadasync, upnp.iupnpdescriptiondocument_loadasync, upnp/IUPnPDescriptionDocument::LoadAsync
 ms.topic: method
-f1_keywords: 
- - "upnp/IUPnPDescriptionDocument.LoadAsync"
+f1_keywords:
+- upnp/IUPnPDescriptionDocument.LoadAsync
 dev_langs:
- - c++
+- c++
 req.header: upnp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnp.dll
+- Upnp.dll
 api_name:
- - IUPnPDescriptionDocument.LoadAsync
+- IUPnPDescriptionDocument.LoadAsync
 targetos: Windows
 req.typenames: 
 req.redist: 

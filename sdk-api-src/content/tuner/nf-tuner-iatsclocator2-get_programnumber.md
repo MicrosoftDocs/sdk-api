@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IATSCLocator2.get_ProgramNumber
 title: IATSCLocator2::get_ProgramNumber (tuner.h)
-
 description: The get_ProgramNumber method retrieves the program number.
 old-location: mstv\iatsclocator2_get_programnumber.htm
 tech.root: mstv
 ms.assetid: 66f92cb0-a89e-4c34-8995-a94eb1bc33dc
-
 ms.date: 12/05/2018
 ms.keywords: IATSCLocator2 interface [Microsoft TV Technologies],get_ProgramNumber method, IATSCLocator2.get_ProgramNumber, IATSCLocator2::get_ProgramNumber, IATSCLocator2get_ProgramNumber, get_ProgramNumber, get_ProgramNumber method [Microsoft TV Technologies], get_ProgramNumber method [Microsoft TV Technologies],IATSCLocator2 interface, mstv.iatsclocator2_get_programnumber, tuner/IATSCLocator2::get_ProgramNumber
 ms.topic: method
-f1_keywords: 
- - "tuner/IATSCLocator2.get_ProgramNumber"
+f1_keywords:
+- tuner/IATSCLocator2.get_ProgramNumber
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IATSCLocator2.get_ProgramNumber
+- IATSCLocator2.get_ProgramNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

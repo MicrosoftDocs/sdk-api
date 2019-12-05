@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextRegion.GetLineHeight
 title: IMFTimedTextRegion::GetLineHeight (mfmediaengine.h)
-
 description: Gets the height of each line of text in the region.
 old-location: mf\imftimedtextregion_getlineheight.htm
 tech.root: medfound
 ms.assetid: 41514FCA-5C2A-48E5-A9F8-72B5B9160CD6
-
 ms.date: 12/05/2018
 ms.keywords: GetLineHeight, GetLineHeight method [Media Foundation], GetLineHeight method [Media Foundation],IMFTimedTextRegion interface, IMFTimedTextRegion interface [Media Foundation],GetLineHeight method, IMFTimedTextRegion.GetLineHeight, IMFTimedTextRegion::GetLineHeight, mf.imftimedtextregion_getlineheight, mfmediaengine/IMFTimedTextRegion::GetLineHeight
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextRegion.GetLineHeight"
+f1_keywords:
+- mfmediaengine/IMFTimedTextRegion.GetLineHeight
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextRegion.GetLineHeight
+- IMFTimedTextRegion.GetLineHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterSharedVolumeSetSnapshotState
 title: ClusterSharedVolumeSetSnapshotState function (clusapi.h)
-
 description: Updates the state of a snapshot of a cluster shared volume.
 old-location: mscs\clustersharedvolumesetsnapshotstate.htm
 tech.root: MsCS
 ms.assetid: B264CF0E-33FD-44F9-B91E-2F90C35D09AC
-
 ms.date: 12/05/2018
 ms.keywords: ClusterSharedVolumeSetSnapshotState, ClusterSharedVolumeSetSnapshotState function [Failover Cluster], PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE function [Failover Cluster], clusapi/ClusterSharedVolumeSetSnapshotState, clusapi/PCLUSAPI_SHARED_VOLUME_SET_SNAPSHOT_STATE, mscs.clustersharedvolumesetsnapshotstate
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterSharedVolumeSetSnapshotState"
+f1_keywords:
+- clusapi/ClusterSharedVolumeSetSnapshotState
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-L1-1-2.dll
 api_name:
- - ClusterSharedVolumeSetSnapshotState
+- ClusterSharedVolumeSetSnapshotState
 targetos: Windows
 req.typenames: 
 req.redist: 

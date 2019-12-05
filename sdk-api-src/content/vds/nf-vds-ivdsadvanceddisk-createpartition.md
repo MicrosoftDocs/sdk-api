@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsAdvancedDisk.CreatePartition
 title: IVdsAdvancedDisk::CreatePartition (vds.h)
-
 description: Creates a partition on a basic disk. The IVdsCreatePartitionEx::CreatePartitionEx method supersedes this method.
 old-location: base\ivdsadvanceddisk_createpartition.htm
 tech.root: VDS
 ms.assetid: 94f80a9f-459f-4f3d-8d85-e5ec7d5734c4
-
 ms.date: 12/05/2018
 ms.keywords: CreatePartition, CreatePartition method [VDS], CreatePartition method [VDS],IVdsAdvancedDisk interface, IVdsAdvancedDisk interface [VDS],CreatePartition method, IVdsAdvancedDisk.CreatePartition, IVdsAdvancedDisk::CreatePartition, base.ivdsadvanceddisk_createpartition, vds/IVdsAdvancedDisk::CreatePartition
 ms.topic: method
 f1_keywords:
 - vds/IVdsAdvancedDisk.CreatePartition
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

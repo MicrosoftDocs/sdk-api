@@ -1,19 +1,17 @@
 ---
 UID: NF:mfapi.MFUnlockWorkQueue
 title: MFUnlockWorkQueue function (mfapi.h)
-
 description: Unlocks a work queue.
 old-location: mf\mfunlockworkqueue.htm
 tech.root: medfound
 ms.assetid: bbc22fa7-b4d7-47b2-b065-099fbb2ed092
-
 ms.date: 12/05/2018
 ms.keywords: MFUnlockWorkQueue, MFUnlockWorkQueue function [Media Foundation], bbc22fa7-b4d7-47b2-b065-099fbb2ed092, mf.mfunlockworkqueue, mfapi/MFUnlockWorkQueue
 ms.topic: function
-f1_keywords: 
- - "mfapi/MFUnlockWorkQueue"
+f1_keywords:
+- mfapi/MFUnlockWorkQueue
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFUnlockWorkQueue
+- MFUnlockWorkQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

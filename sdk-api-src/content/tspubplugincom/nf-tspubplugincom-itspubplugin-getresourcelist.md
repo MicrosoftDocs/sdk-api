@@ -1,19 +1,17 @@
 ---
 UID: NF:tspubplugincom.ItsPubPlugin.GetResourceList
 title: ItsPubPlugin::GetResourceList (tspubplugincom.h)
-
 description: Retrieves a list of resources assigned to the specified user.
 old-location: termserv\itspubplugin_getresourcelist.htm
 tech.root: TermServ
 ms.assetid: c8f255fe-6f31-4cbb-a600-a27e977a84a0
-
 ms.date: 12/05/2018
 ms.keywords: GetResourceList, GetResourceList method [Remote Desktop Services], GetResourceList method [Remote Desktop Services],ItsPubPlugin interface, ItsPubPlugin interface [Remote Desktop Services],GetResourceList method, ItsPubPlugin.GetResourceList, ItsPubPlugin::GetResourceList, termserv.itspubplugin_getresourcelist, tspubplugincom/ItsPubPlugin::GetResourceList
 ms.topic: method
-f1_keywords: 
- - "tspubplugincom/ItsPubPlugin.GetResourceList"
+f1_keywords:
+- tspubplugincom/ItsPubPlugin.GetResourceList
 dev_langs:
- - c++
+- c++
 req.header: tspubplugincom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tspubplugincom.h
+- tspubplugincom.h
 api_name:
- - ItsPubPlugin.GetResourceList
+- ItsPubPlugin.GetResourceList
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:relogger.ITraceRelogger.ProcessTrace
 title: ITraceRelogger::ProcessTrace (relogger.h)
-
 description: Delivers events from the associated trace streams to the consumer.
 old-location: etw\itracerelogger_processtrace.htm
 tech.root: ETW
 ms.assetid: ab844b34-0e06-447f-a0b7-dd56ca0b50ed
-
 ms.date: 12/05/2018
 ms.keywords: ITraceRelogger interface [ETW],ProcessTrace method, ITraceRelogger.ProcessTrace, ITraceRelogger::ProcessTrace, ProcessTrace, ProcessTrace method [ETW], ProcessTrace method [ETW],ITraceRelogger interface, etw.itracerelogger_processtrace, relogger/ITraceRelogger::ProcessTrace
 ms.topic: method
-f1_keywords: 
- - "relogger/ITraceRelogger.ProcessTrace"
+f1_keywords:
+- relogger/ITraceRelogger.ProcessTrace
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Relogger.h
+- Relogger.h
 api_name:
- - ITraceRelogger.ProcessTrace
+- ITraceRelogger.ProcessTrace
 targetos: Windows
 req.typenames: 
 req.redist: 

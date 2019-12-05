@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarCyFromUI2
 title: VarCyFromUI2 function (oleauto.h)
-
 description: Converts an unsigned short value to a currency value.
 old-location: automat\varcyfromui2.htm
 tech.root: automat
 ms.assetid: e9e688f6-a4e6-4e18-b3e4-6d378d99dea1
-
 ms.date: 12/05/2018
 ms.keywords: VarCyFromUI2, VarCyFromUI2 function [Automation], _oa96_VarCyFromUI2, automat.varcyfromui2, oleauto/VarCyFromUI2
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarCyFromUI2"
+f1_keywords:
+- oleauto/VarCyFromUI2
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarCyFromUI2
+- VarCyFromUI2
 targetos: Windows
 req.typenames: 
 req.redist: 

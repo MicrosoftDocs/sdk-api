@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfContext.GetStatus
 title: ITfContext::GetStatus (msctf.h)
-
 description: ITfContext::GetStatus method
 old-location: tsf\itfcontext_getstatus.htm
 tech.root: TSF
 ms.assetid: a1f193b0-fcfc-4db6-90e9-61d528b08672
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Text Services Framework], GetStatus method [Text Services Framework],ITfContext interface, ITfContext interface [Text Services Framework],GetStatus method, ITfContext.GetStatus, ITfContext::GetStatus, _tsf_itfcontext_getstatus_ref, msctf/ITfContext::GetStatus, tsf.itfcontext_getstatus
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfContext.GetStatus"
+f1_keywords:
+- msctf/ITfContext.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfContext.GetStatus
+- ITfContext.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

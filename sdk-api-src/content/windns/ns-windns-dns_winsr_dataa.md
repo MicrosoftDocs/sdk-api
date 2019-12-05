@@ -1,19 +1,17 @@
 ---
 UID: NS:windns.__unnamed_struct_42
 title: DNS_WINSR_DATAA (windns.h)
-
 description: The DNS_WINSR_DATA structure represents a DNS Windows Internet Name Service reverse-lookup (WINSR) record.
 old-location: dns\dns_winsr_data.htm
 tech.root: DNS
 ms.assetid: a7e79e30-905f-42a5-a4de-02d71adfe95e
-
 ms.date: 12/05/2018
-ms.keywords: "*PDNS_WINSR_DATA, *PDNS_WINSR_DATAA, DNS_WINSR_DATA, DNS_WINSR_DATA structure [DNS], DNS_WINSR_DATAA, DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINSR_DATA, PDNS_WINSR_DATA structure pointer [DNS], _dns_dns_winsr_data, dns.dns_winsr_data, windns/DNS_WINSR_DATA, windns/PDNS_WINSR_DATA"
+ms.keywords: '*PDNS_WINSR_DATA, *PDNS_WINSR_DATAA, DNS_WINSR_DATA, DNS_WINSR_DATA structure [DNS], DNS_WINSR_DATAA, DNS_WINS_FLAG_LOCAL, DNS_WINS_FLAG_SCOPE, PDNS_WINSR_DATA, PDNS_WINSR_DATA structure pointer [DNS], _dns_dns_winsr_data, dns.dns_winsr_data, windns/DNS_WINSR_DATA, windns/PDNS_WINSR_DATA'
 ms.topic: struct
-f1_keywords: 
- - "windns/DNS_WINSR_DATA"
+f1_keywords:
+- windns/DNS_WINSR_DATA
 dev_langs:
- - c++
+- c++
 req.header: windns.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Windns.h
+- Windns.h
 api_name:
- - DNS_WINSR_DATA
+- DNS_WINSR_DATA
 targetos: Windows
 req.typenames: DNS_WINSR_DATAA, *PDNS_WINSR_DATAA
 req.redist: 

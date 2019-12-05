@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IXDSCodec.get_XDSToRatObjOK
 title: IXDSCodec::get_XDSToRatObjOK (encdec.h)
-
 description: The get_XDSToRatObjOK method queries whether the XDSToRat object was created successfully.
 old-location: mstv\ixdscodec_get_xdstoratobjok.htm
 tech.root: mstv
 ms.assetid: 846f3f68-8745-416d-9f0e-1e6ef83054b2
-
 ms.date: 12/05/2018
 ms.keywords: IXDSCodec interface [Microsoft TV Technologies],get_XDSToRatObjOK method, IXDSCodec.get_XDSToRatObjOK, IXDSCodec::get_XDSToRatObjOK, IXDSCodecXDSToRatObjOK, encdec/IXDSCodec::get_XDSToRatObjOK, get_XDSToRatObjOK, get_XDSToRatObjOK method [Microsoft TV Technologies], get_XDSToRatObjOK method [Microsoft TV Technologies],IXDSCodec interface, mstv.ixdscodec_get_xdstoratobjok
 ms.topic: method
-f1_keywords: 
- - "encdec/IXDSCodec.get_XDSToRatObjOK"
+f1_keywords:
+- encdec/IXDSCodec.get_XDSToRatObjOK
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IXDSCodec.get_XDSToRatObjOK
+- IXDSCodec.get_XDSToRatObjOK
 targetos: Windows
 req.typenames: 
 req.redist: 

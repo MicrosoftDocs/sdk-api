@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectoryObjectConference.put_Url
 title: ITDirectoryObjectConference::put_Url (rend.h)
-
 description: The put_Url method sets a URL.
 old-location: tapi3\itdirectoryobjectconference_put_url.htm
 tech.root: Tapi
 ms.assetid: ca275c06-fd8f-4044-b528-cc197e4f1177
-
 ms.date: 12/05/2018
 ms.keywords: ITDirectoryObjectConference interface [TAPI 2.2],put_Url method, ITDirectoryObjectConference.put_Url, ITDirectoryObjectConference::put_Url, _tapi3_itdirectoryobjectconference_put_url, put_Url, put_Url method [TAPI 2.2], put_Url method [TAPI 2.2],ITDirectoryObjectConference interface, rend/ITDirectoryObjectConference::put_Url, tapi3.itdirectoryobjectconference_put_url
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectoryObjectConference.put_Url"
+f1_keywords:
+- rend/ITDirectoryObjectConference.put_Url
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectoryObjectConference.put_Url
+- ITDirectoryObjectConference.put_Url
 targetos: Windows
 req.typenames: 
 req.redist: 

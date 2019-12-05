@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadPOINTS
 title: PSPropertyBag_ReadPOINTS function (propsys.h)
-
 description: Retrieves the property coordinates stored in a POINTS structure of a specified property bag.
 old-location: properties\PSPropertyBag_ReadPOINTS.htm
 tech.root: properties
 ms.assetid: 60ED145A-7712-43b7-A2AD-C366DD32E19E
-
 ms.date: 12/05/2018
 ms.keywords: PSPropertyBag_ReadPOINTS, PSPropertyBag_ReadPOINTS function [Windows Properties], properties.PSPropertyBag_ReadPOINTS, propsys/PSPropertyBag_ReadPOINTS, shell.PSPropertyBag_ReadPOINTS, shell_PSPropertyBag_ReadPOINTS
 ms.topic: function
-f1_keywords: 
- - "propsys/PSPropertyBag_ReadPOINTS"
+f1_keywords:
+- propsys/PSPropertyBag_ReadPOINTS
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSPropertyBag_ReadPOINTS
+- PSPropertyBag_ReadPOINTS
 targetos: Windows
 req.typenames: 
 req.redist: 

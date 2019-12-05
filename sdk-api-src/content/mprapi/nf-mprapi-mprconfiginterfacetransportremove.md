@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportRemove
 title: MprConfigInterfaceTransportRemove function (mprapi.h)
-
 description: The MprConfigInterfaceTransportRemove function removes the specified transport from the specified interface configuration on the router.
 old-location: rras\mprconfiginterfacetransportremove.htm
 tech.root: RRAS
 ms.assetid: 0f286003-f9d8-490b-a379-76baa3f53c6f
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigInterfaceTransportRemove, MprConfigInterfaceTransportRemove function [RAS], _mpr_mprconfiginterfacetransportremove, mprapi/MprConfigInterfaceTransportRemove, rras.mprconfiginterfacetransportremove
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigInterfaceTransportRemove"
+f1_keywords:
+- mprapi/MprConfigInterfaceTransportRemove
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigInterfaceTransportRemove
+- MprConfigInterfaceTransportRemove
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11.ID3D11GeometryShader
 title: ID3D11GeometryShader (d3d11.h)
-
 description: A geometry-shader interface manages an executable program (a geometry shader) that controls the geometry-shader stage.
 old-location: direct3d11\id3d11geometryshader.htm
 tech.root: direct3d11
 ms.assetid: c2b5863d-5773-4719-b1d0-2026f55fcef3
-
 ms.date: 12/05/2018
 ms.keywords: 71a86899-19ac-ddc3-70b4-f68cdd6422d0, ID3D11GeometryShader, ID3D11GeometryShader interface [Direct3D 11], ID3D11GeometryShader interface [Direct3D 11],described, d3d11/ID3D11GeometryShader, direct3d11.id3d11geometryshader
 ms.topic: interface
-f1_keywords: 
- - "d3d11/ID3D11GeometryShader"
+f1_keywords:
+- d3d11/ID3D11GeometryShader
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11GeometryShader
+- ID3D11GeometryShader
 targetos: Windows
 req.typenames: 
 req.redist: 

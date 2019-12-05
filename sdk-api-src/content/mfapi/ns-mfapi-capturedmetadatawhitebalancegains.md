@@ -1,19 +1,17 @@
 ---
 UID: NS:mfapi.tagCapturedMetadataWhiteBalanceGains
 title: CapturedMetadataWhiteBalanceGains (mfapi.h)
-
 description: This structure describes the blob format for the MF_CAPTURE_METADATA_WHITEBALANCE_GAINS attribute.
 old-location: stream\capturedmetadatawhitebalancegains.htm
 tech.root: stream
 ms.assetid: 1F844204-0709-4203-80C5-C90949F96159
-
 ms.date: 12/05/2018
 ms.keywords: CapturedMetadataWhiteBalanceGains, CapturedMetadataWhiteBalanceGains structure [Streaming Media Devices], mfapi/CapturedMetadataWhiteBalanceGains, stream.capturedmetadatawhitebalancegains
 ms.topic: struct
-f1_keywords: 
- - "mfapi/CapturedMetadataWhiteBalanceGains"
+f1_keywords:
+- mfapi/CapturedMetadataWhiteBalanceGains
 dev_langs:
- - c++
+- c++
 req.header: mfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfapi.h
+- mfapi.h
 api_name:
- - CapturedMetadataWhiteBalanceGains
+- CapturedMetadataWhiteBalanceGains
 targetos: Windows
 req.typenames: CapturedMetadataWhiteBalanceGains
 req.redist: 

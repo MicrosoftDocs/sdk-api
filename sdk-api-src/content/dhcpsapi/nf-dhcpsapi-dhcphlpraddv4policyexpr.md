@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprAddV4PolicyExpr
 title: DhcpHlprAddV4PolicyExpr function (dhcpsapi.h)
-
 description: Allocates, initializes, and adds a DHCP server policy expression to a DHCP server policy.
 old-location: dhcp\dhcphlpraddv4policyexpr.htm
 tech.root: DHCP
 ms.assetid: 549d86ed-81c1-4126-9f43-f7e5340990d3
-
 ms.date: 12/05/2018
 ms.keywords: DhcpHlprAddV4PolicyExpr, DhcpHlprAddV4PolicyExpr function [DHCP], dhcp.dhcphlpraddv4policyexpr, dhcpsapi/DhcpHlprAddV4PolicyExpr
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpHlprAddV4PolicyExpr
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

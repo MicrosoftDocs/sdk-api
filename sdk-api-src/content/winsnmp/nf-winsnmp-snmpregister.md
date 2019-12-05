@@ -1,19 +1,17 @@
 ---
 UID: NF:winsnmp.SnmpRegister
 title: SnmpRegister function (winsnmp.h)
-
 description: The WinSNMP SnmpRegister function registers or unregisters a WinSNMP application for trap and notification reception. The application can register and receive traps and notifications, or unregister and disable traps and notifications.
 old-location: snmp\snmpregister.htm
 tech.root: SNMP
 ms.assetid: ea2476b4-2f98-4295-95c4-c96c6b719e05
-
 ms.date: 12/05/2018
 ms.keywords: SNMPAPI_OFF, SNMPAPI_ON, SnmpRegister, SnmpRegister function [SNMP], _snmp_snmpregister, snmp.snmpregister, winsnmp/SnmpRegister
 ms.topic: function
-f1_keywords: 
- - "winsnmp/SnmpRegister"
+f1_keywords:
+- winsnmp/SnmpRegister
 dev_langs:
- - c++
+- c++
 req.header: winsnmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wsnmp32.lib
 req.dll: Wsnmp32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wsnmp32.dll
+- Wsnmp32.dll
 api_name:
- - SnmpRegister
+- SnmpRegister
 targetos: Windows
 req.typenames: 
 req.redist: 

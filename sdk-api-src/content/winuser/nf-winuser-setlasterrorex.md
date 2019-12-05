@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetLastErrorEx
 title: SetLastErrorEx function (winuser.h)
-
 description: Sets the last-error code.
 old-location: base\setlasterrorex.htm
 tech.root: Debug
 ms.assetid: d97494db-868a-49d4-a613-e8beba86d4e6
-
 ms.date: 12/05/2018
 ms.keywords: SetLastErrorEx, SetLastErrorEx function, _win32_setlasterrorex, base.setlasterrorex, winuser/SetLastErrorEx
 ms.topic: function
-f1_keywords: 
- - "winuser/SetLastErrorEx"
+f1_keywords:
+- winuser/SetLastErrorEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
+- User32.dll
 api_name:
- - SetLastErrorEx
+- SetLastErrorEx
 targetos: Windows
 req.typenames: 
 req.redist: 

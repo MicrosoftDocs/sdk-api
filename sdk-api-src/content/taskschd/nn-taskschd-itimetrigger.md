@@ -1,19 +1,17 @@
 ---
 UID: NN:taskschd.ITimeTrigger
 title: ITimeTrigger (taskschd.h)
-
 description: Represents a trigger that starts a task at a specific date and time.
 old-location: taskschd\itimetrigger.htm
 tech.root: taskschd
 ms.assetid: 4ebd5470-0801-42ff-a0c2-4d1e7f7ee365
-
 ms.date: 12/05/2018
 ms.keywords: ITimeTrigger, ITimeTrigger interface [Task Scheduler], ITimeTrigger interface [Task Scheduler],described, taskschd.itimetrigger, taskschd/ITimeTrigger, time trigger [Task Scheduler],interface
 ms.topic: interface
-f1_keywords: 
- - "taskschd/ITimeTrigger"
+f1_keywords:
+- taskschd/ITimeTrigger
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - ITimeTrigger
+- ITimeTrigger
 targetos: Windows
 req.typenames: 
 req.redist: 

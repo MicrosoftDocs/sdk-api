@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorReciprocalSqrtEst
 title: XMVectorReciprocalSqrtEst function (directxmath.h)
-
 description: Estimates the per-component reciprocal square root of a vector.
 old-location: dxmath\xmvectorreciprocalsqrtest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorReciprocalSqrtEst(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorReciprocalSqrtEst, XMVectorReciprocalSqrtEst, XMVectorReciprocalSqrtEst method [DirectX Math Support APIs], dxmath.xmvectorreciprocalsqrtest
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorReciprocalSqrtEst"
+f1_keywords:
+- directxmath/XMVectorReciprocalSqrtEst
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorReciprocalSqrtEst
+- XMVectorReciprocalSqrtEst
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:memoryapi.QueryMemoryResourceNotification
 title: QueryMemoryResourceNotification function (memoryapi.h)
-
 description: Retrieves the state of the specified memory resource object.
 old-location: base\querymemoryresourcenotification.htm
 tech.root: Memory
 ms.assetid: 95a38b97-7fae-4ec6-aa9e-cc800d40594b
-
 ms.date: 12/05/2018
 ms.keywords: QueryMemoryResourceNotification, QueryMemoryResourceNotification function, _win32_querymemoryresourcenotification, base.querymemoryresourcenotification, winbase/QueryMemoryResourceNotification
 ms.topic: function
-f1_keywords: 
- - "memoryapi/QueryMemoryResourceNotification"
+f1_keywords:
+- memoryapi/QueryMemoryResourceNotification
 dev_langs:
- - c++
+- c++
 req.header: memoryapi.h
 req.include-header: Windows.h, Memoryapi.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-memory-l1-1-1.dll
- - KernelBase.dll
- - API-MS-Win-Core-memory-l1-1-2.dll
- - API-MS-Win-Core-memory-l1-1-3.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
- - API-MS-Win-Core-Memory-L1-1-4.dll
+- Kernel32.dll
+- API-MS-Win-Core-memory-l1-1-1.dll
+- KernelBase.dll
+- API-MS-Win-Core-memory-l1-1-2.dll
+- API-MS-Win-Core-memory-l1-1-3.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
+- API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - QueryMemoryResourceNotification
+- QueryMemoryResourceNotification
 targetos: Windows
 req.typenames: 
 req.redist: 

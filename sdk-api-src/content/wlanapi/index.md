@@ -1,7 +1,6 @@
 ---
 UID: NA:wlanapi
 ms.assetid: c52fde82-91c5-3309-aa1a-665fe3afd5ad
-
 ms.date: 01/11/2019
 ms.keywords: 
 ms.topic: portal

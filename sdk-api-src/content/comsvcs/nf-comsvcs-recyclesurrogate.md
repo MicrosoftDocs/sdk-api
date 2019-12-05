@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.RecycleSurrogate
 title: RecycleSurrogate function (comsvcs.h)
-
 description: Recycles the calling process.
 old-location: cos\recyclesurrogate.htm
 tech.root: cossdk
 ms.assetid: d75f5894-f711-48f8-a6f5-be7ac594dc42
-
 ms.date: 12/05/2018
 ms.keywords: CRR_ACTIVATION_LIMIT, CRR_CALL_LIMIT, CRR_LIFETIME_LIMIT, CRR_MEMORY_LIMIT, CRR_NO_REASON_SUPPLIED, CRR_RECYCLED_FROM_UI, RecycleSurrogate, RecycleSurrogate function [COM+], _cos_recyclesurrogate, comsvcs/RecycleSurrogate, cos.recyclesurrogate
 ms.topic: function
-f1_keywords: 
- - "comsvcs/RecycleSurrogate"
+f1_keywords:
+- comsvcs/RecycleSurrogate
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ComSvcs.lib
 req.dll: ComSvcs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ComSvcs.dll
+- ComSvcs.dll
 api_name:
- - RecycleSurrogate
+- RecycleSurrogate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_KEYING_POLICY1_
 title: IPSEC_KEYING_POLICY1 (ipsectypes.h)
-
 description: Defines an unordered set of keying modules that will be tried for IPsec.
 old-location: fwp\ipsec_keying_policy1.htm
 tech.root: fwp
 ms.assetid: 4b574e1c-ce0f-4c72-a14b-5ca0ed8aa005
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_KEYING_POLICY1, IPSEC_KEYING_POLICY1 structure [Filtering], IPSEC_KEYING_POLICY_FLAG_TERMINATING_MATCH, fwp.ipsec_keying_policy1, ipsectypes/IPSEC_KEYING_POLICY1
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_KEYING_POLICY1"
+f1_keywords:
+- ipsectypes/IPSEC_KEYING_POLICY1
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ipsectypes.h
+- ipsectypes.h
 api_name:
- - IPSEC_KEYING_POLICY1
+- IPSEC_KEYING_POLICY1
 targetos: Windows
 req.typenames: IPSEC_KEYING_POLICY1
 req.redist: 

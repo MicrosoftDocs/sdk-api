@@ -1,19 +1,17 @@
 ---
 UID: NF:powrprof.PowerWriteIconResourceSpecifier
 title: PowerWriteIconResourceSpecifier function (powrprof.h)
-
 description: Sets the icon resource for the specified power setting, subgroup, or scheme.
 old-location: base\powerwriteiconresourcespecifier.htm
 tech.root: power
 ms.assetid: 968b068a-f62a-4148-b96c-48f47218f368
-
 ms.date: 12/05/2018
 ms.keywords: GUID_BATTERY_SUBGROUP, GUID_DISK_SUBGROUP, GUID_PCIEXPRESS_SETTINGS_SUBGROUP, GUID_PROCESSOR_SETTINGS_SUBGROUP, GUID_SLEEP_SUBGROUP, GUID_SYSTEM_BUTTON_SUBGROUP, GUID_VIDEO_SUBGROUP, NO_SUBGROUP_GUID, PowerWriteIconResourceSpecifier, PowerWriteIconResourceSpecifier function, base.powerwriteiconresourcespecifier, powrprof/PowerWriteIconResourceSpecifier
 ms.topic: function
-f1_keywords: 
- - "powrprof/PowerWriteIconResourceSpecifier"
+f1_keywords:
+- powrprof/PowerWriteIconResourceSpecifier
 dev_langs:
- - c++
+- c++
 req.header: powrprof.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: PowrProf.lib
 req.dll: PowrProf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - PowrProf.dll
+- PowrProf.dll
 api_name:
- - PowerWriteIconResourceSpecifier
+- PowerWriteIconResourceSpecifier
 targetos: Windows
 req.typenames: 
 req.redist: 

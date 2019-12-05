@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PMIB_GET_FIRST
 title: PMIB_GET_FIRST (routprot.h)
-
 description: The MibGetFirst function passes a SNMP MIB-style Get First Request to the routing protocol.
 old-location: rras\mibgetfirst.htm
 tech.root: RRAS
 ms.assetid: 3aef09e2-6314-4de8-a9dd-e02c13e0145c
-
 ms.date: 12/05/2018
 ms.keywords: MibGetFirst, MibGetFirst callback function [RAS], PMIB_GET_FIRST, PMIB_GET_FIRST callback, _mpr_mibgetfirst, routprot/MibGetFirst, rras.mibgetfirst
 ms.topic: callback
-f1_keywords: 
- - "routprot/MibGetFirst"
+f1_keywords:
+- routprot/MibGetFirst
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - MibGetFirst
+- MibGetFirst
 targetos: Windows
 req.typenames: 
 req.redist: 

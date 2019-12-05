@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo3.GetAttributeByIndexEx
 title: IWMHeaderInfo3::GetAttributeByIndexEx (wmsdkidl.h)
-
 description: The GetAttributeByIndexEx method retrieves the value of an attribute specified by the attribute index.
 old-location: wmformat\iwmheaderinfo3_getattributebyindexex.htm
 tech.root: wmformat
 ms.assetid: c20f4c79-f5b3-45d9-ad70-5fb9745bbf1b
-
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndexEx, GetAttributeByIndexEx method [windows Media Format], GetAttributeByIndexEx method [windows Media Format],IWMHeaderInfo3 interface, IWMHeaderInfo3 interface [windows Media Format],GetAttributeByIndexEx method, IWMHeaderInfo3.GetAttributeByIndexEx, IWMHeaderInfo3::GetAttributeByIndexEx, IWMHeaderInfo3GetAttributeByIndexEx, wmformat.iwmheaderinfo3_getattributebyindexex, wmsdkidl/IWMHeaderInfo3::GetAttributeByIndexEx
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMHeaderInfo3.GetAttributeByIndexEx"
+f1_keywords:
+- wmsdkidl/IWMHeaderInfo3.GetAttributeByIndexEx
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3.GetAttributeByIndexEx
+- IWMHeaderInfo3.GetAttributeByIndexEx
 targetos: Windows
 req.typenames: 
 req.redist: 

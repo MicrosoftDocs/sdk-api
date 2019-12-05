@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Image.FromStream
 title: Image::FromStream (gdiplusheaders.h)
-
 description: The Image::FromStream method creates a new Image object based on a stream.
 old-location: gdiplus\_gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\fromstream_58stream_useembeddedcolormanagement.htm
-
 ms.date: 12/05/2018
 ms.keywords: FromStream, FromStream method [GDI+], FromStream method [GDI+],Image class, Image class [GDI+],FromStream method, Image.FromStream, Image::FromStream, _gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_, gdiplus._gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Image.FromStream"
+f1_keywords:
+- gdiplusheaders/Image.FromStream
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Image.FromStream
+- Image.FromStream
 targetos: Windows
 req.typenames: 
 req.redist: 

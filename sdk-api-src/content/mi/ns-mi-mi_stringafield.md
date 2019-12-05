@@ -1,19 +1,17 @@
 ---
 UID: NS:mi._MI_StringAField
 title: MI_StringAField (mi.h)
-
 description: Represents a property inside an MI_Instance structure.
 old-location: wmi_v2\mi_stringafield.htm
 tech.root: wmi_v2
 ms.assetid: c2c4f5d2-f847-4f87-bb9e-462af3e12010
-
 ms.date: 12/05/2018
 ms.keywords: MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, MI_StringAField, MI_StringAField structure [Windows Management Infrastructure (MI)], mi/MI_StringAField, wmi._mi_stringafield, wmi_v2.mi_stringafield
 ms.topic: struct
 f1_keywords:
 - mi/MI_StringAField
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

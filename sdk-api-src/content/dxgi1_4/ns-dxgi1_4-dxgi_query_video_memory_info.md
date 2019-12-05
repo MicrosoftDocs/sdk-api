@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi1_4.DXGI_QUERY_VIDEO_MEMORY_INFO
 title: DXGI_QUERY_VIDEO_MEMORY_INFO (dxgi1_4.h)
-
 description: Describes the current video memory budgeting parameters.
 old-location: direct3ddxgi\dxgi_query_video_memory_info.htm
 tech.root: direct3ddxgi
 ms.assetid: E710F3A9-CB12-43B0-B56C-789350BCAE59
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_QUERY_VIDEO_MEMORY_INFO, DXGI_QUERY_VIDEO_MEMORY_INFO structure [DXGI], direct3ddxgi.dxgi_query_video_memory_info, dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO
 ms.topic: struct
-f1_keywords: 
- - "dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO"
+f1_keywords:
+- dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_4.h
 req.include-header: DXGI1_3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxgi1_4.h
+- dxgi1_4.h
 api_name:
- - DXGI_QUERY_VIDEO_MEMORY_INFO
+- DXGI_QUERY_VIDEO_MEMORY_INFO
 targetos: Windows
 req.typenames: DXGI_QUERY_VIDEO_MEMORY_INFO
 req.redist: 

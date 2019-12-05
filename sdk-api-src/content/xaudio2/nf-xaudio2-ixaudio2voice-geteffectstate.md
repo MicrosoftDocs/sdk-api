@@ -1,19 +1,17 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetEffectState
 title: IXAudio2Voice::GetEffectState (xaudio2.h)
-
 description: Returns the running state of the effect at a specified position in the effect chain of the voice.
 old-location: xaudio2\ixaudio2voice_interface_geteffectstate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetEffectState(UINT32,BOOL@)
-
 ms.date: 12/05/2018
 ms.keywords: GetEffectState, GetEffectState method [XAudio2 Audio Mixing APIs], GetEffectState method [XAudio2 Audio Mixing APIs],IXAudio2Voice interface, IXAudio2Voice interface [XAudio2 Audio Mixing APIs],GetEffectState method, IXAudio2Voice.GetEffectState, IXAudio2Voice::GetEffectState, xaudio2.ixaudio2voice_interface_geteffectstate, xaudio2/IXAudio2Voice::GetEffectState
 ms.topic: method
-f1_keywords: 
- - "xaudio2/IXAudio2Voice.GetEffectState"
+f1_keywords:
+- xaudio2/IXAudio2Voice.GetEffectState
 dev_langs:
- - c++
+- c++
 req.header: xaudio2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAudio2.h
+- XAudio2.h
 api_name:
- - IXAudio2Voice.GetEffectState
+- IXAudio2Voice.GetEffectState
 targetos: Windows
 req.typenames: 
 req.redist: 

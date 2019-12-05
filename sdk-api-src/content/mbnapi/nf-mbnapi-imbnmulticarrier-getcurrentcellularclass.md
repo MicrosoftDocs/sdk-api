@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnMultiCarrier.GetCurrentCellularClass
 title: IMbnMultiCarrier::GetCurrentCellularClass (mbnapi.h)
-
 description: Gets the current cellular classes for a multi-carrier device.
 old-location: mbn\imbnmulticarrier_getcurrentcellularclass.htm
 tech.root: mbn
 ms.assetid: 8DA29C25-3866-4BCA-8591-F8408A1C1401
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentCellularClass, GetCurrentCellularClass method [Microsoft Broadband Networks], GetCurrentCellularClass method [Microsoft Broadband Networks],IMbnMultiCarrier interface, IMbnMultiCarrier interface [Microsoft Broadband Networks],GetCurrentCellularClass method, IMbnMultiCarrier.GetCurrentCellularClass, IMbnMultiCarrier::GetCurrentCellularClass, mbn.imbnmulticarrier_getcurrentcellularclass, mbnapi/IMbnMultiCarrier::GetCurrentCellularClass
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnMultiCarrier.GetCurrentCellularClass"
+f1_keywords:
+- mbnapi/IMbnMultiCarrier.GetCurrentCellularClass
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnMultiCarrier.GetCurrentCellularClass
+- IMbnMultiCarrier.GetCurrentCellularClass
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:sbe.STREAMBUFFER_ATTRIBUTE
 title: STREAMBUFFER_ATTRIBUTE (sbe.h)
-
 description: This topic applies only to Windows XP Service Pack 1 or later. The STREAMBUFFER_ATTRIBUTE structure describes an attribute on a stream buffer file.
 old-location: mstv\streambuffer_attribute.htm
 tech.root: mstv
 ms.assetid: 2b17626a-9268-4192-8acf-ed46bf632163
-
 ms.date: 12/05/2018
 ms.keywords: STREAMBUFFER_ATTRIBUTE, STREAMBUFFER_ATTRIBUTE structure [Microsoft TV Technologies], STREAMBUFFER_ATTRIBUTEStructure, mstv.streambuffer_attribute, sbe/STREAMBUFFER_ATTRIBUTE
 ms.topic: struct
-f1_keywords: 
- - "sbe/STREAMBUFFER_ATTRIBUTE"
+f1_keywords:
+- sbe/STREAMBUFFER_ATTRIBUTE
 dev_langs:
- - c++
+- c++
 req.header: sbe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Sbe.h
+- Sbe.h
 api_name:
- - STREAMBUFFER_ATTRIBUTE
+- STREAMBUFFER_ATTRIBUTE
 targetos: Windows
 req.typenames: STREAMBUFFER_ATTRIBUTE
 req.redist: 

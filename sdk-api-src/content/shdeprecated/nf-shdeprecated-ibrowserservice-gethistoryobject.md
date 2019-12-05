@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IBrowserService.GetHistoryObject
 title: IBrowserService::GetHistoryObject (shdeprecated.h)
-
 description: Deprecated. Retrieves an IOleObject that represents the browser's history object.
 old-location: shell\IBrowserService_GetHistoryObject.htm
 tech.root: shell
 ms.assetid: 409d76e8-5501-437d-92d3-55e1676a80b8
-
 ms.date: 12/05/2018
 ms.keywords: GetHistoryObject, GetHistoryObject method [Windows Shell], GetHistoryObject method [Windows Shell],IBrowserService interface, IBrowserService interface [Windows Shell],GetHistoryObject method, IBrowserService.GetHistoryObject, IBrowserService::GetHistoryObject, shdeprecated/IBrowserService::GetHistoryObject, shell.IBrowserService_GetHistoryObject, zone_IBrowserService_GetHistoryObject
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IBrowserService.GetHistoryObject"
+f1_keywords:
+- shdeprecated/IBrowserService.GetHistoryObject
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IBrowserService.GetHistoryObject
+- IBrowserService.GetHistoryObject
 targetos: Windows
 req.typenames: 
 req.redist: 

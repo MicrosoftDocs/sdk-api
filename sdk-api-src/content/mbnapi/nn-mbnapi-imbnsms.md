@@ -1,19 +1,17 @@
 ---
 UID: NN:mbnapi.IMbnSms
 title: IMbnSms (mbnapi.h)
-
 description: SMS interface for sending and receiving messages as well as controlling the messaging configuration.
 old-location: mbn\imbnsms.htm
 tech.root: mbn
 ms.assetid: 4a5fae5a-91d5-4a94-ac54-cb641147e8dc
-
 ms.date: 12/05/2018
 ms.keywords: IMbnSms, IMbnSms interface [Microsoft Broadband Networks], IMbnSms interface [Microsoft Broadband Networks],described, mbn.imbnsms, mbnapi/IMbnSms
 ms.topic: interface
-f1_keywords: 
- - "mbnapi/IMbnSms"
+f1_keywords:
+- mbnapi/IMbnSms
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnSms
+- IMbnSms
 targetos: Windows
 req.typenames: 
 req.redist: 

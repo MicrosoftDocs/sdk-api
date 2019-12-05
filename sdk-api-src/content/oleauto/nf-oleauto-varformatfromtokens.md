@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarFormatFromTokens
 title: VarFormatFromTokens function (oleauto.h)
-
 description: Takes a tokenized format string and applies it to a variant to produce a formatted output string.
 old-location: automat\varformatfromtokens.htm
 tech.root: automat
 ms.assetid: 36437d1a-970d-4a52-a8a5-1cddfe3d42f3
-
 ms.date: 12/05/2018
 ms.keywords: VarFormatFromTokens, VarFormatFromTokens function [Automation], _oa96_VarFormatFromTokens, automat.varformatfromtokens, oleauto/VarFormatFromTokens
 ms.topic: function
-f1_keywords: 
- - "oleauto/VarFormatFromTokens"
+f1_keywords:
+- oleauto/VarFormatFromTokens
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarFormatFromTokens
+- VarFormatFromTokens
 targetos: Windows
 req.typenames: 
 req.redist: 

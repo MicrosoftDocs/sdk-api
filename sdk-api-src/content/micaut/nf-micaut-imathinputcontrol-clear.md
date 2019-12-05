@@ -1,19 +1,17 @@
 ---
 UID: NF:micaut.IMathInputControl.Clear
 title: IMathInputControl::Clear (micaut.h)
-
 description: Clears all ink from the control.
 old-location: tablet\imathinputcontrol_clear.htm
 tech.root: tablet
 ms.assetid: e9482f82-a08a-498d-bad0-3a1438231b23
-
 ms.date: 12/05/2018
 ms.keywords: Clear, Clear method [Tablet PC], Clear method [Tablet PC],IMathInputControl interface, IMathInputControl interface [Tablet PC],Clear method, IMathInputControl.Clear, IMathInputControl::Clear, micaut/IMathInputControl::Clear, tablet.imathinputcontrol_clear
 ms.topic: method
-f1_keywords: 
- - "micaut/IMathInputControl.Clear"
+f1_keywords:
+- micaut/IMathInputControl.Clear
 dev_langs:
- - c++
+- c++
 req.header: micaut.h
 req.include-header: Micaut.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - micaut.h
+- micaut.h
 api_name:
- - IMathInputControl.Clear
+- IMathInputControl.Clear
 targetos: Windows
 req.typenames: 
 req.redist: 

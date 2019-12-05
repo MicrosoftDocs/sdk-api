@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.GetDesc
 title: ID3D12CommandQueue::GetDesc (d3d12.h)
-
 description: Gets the description of the command queue.
 old-location: direct3d12\id3d12commandqueue_getdesc.htm
 tech.root: direct3d12
 ms.assetid: AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE
-
 ms.date: 12/05/2018
 ms.keywords: GetDesc, GetDesc method, GetDesc method,ID3D12CommandQueue interface, ID3D12CommandQueue interface,GetDesc method, ID3D12CommandQueue.GetDesc, ID3D12CommandQueue::GetDesc, d3d12/ID3D12CommandQueue::GetDesc, direct3d12.id3d12commandqueue_getdesc
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12CommandQueue.GetDesc"
+f1_keywords:
+- d3d12/ID3D12CommandQueue.GetDesc
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12CommandQueue.GetDesc
+- ID3D12CommandQueue.GetDesc
 targetos: Windows
 req.typenames: 
 req.redist: 

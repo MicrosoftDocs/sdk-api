@@ -1,19 +1,17 @@
 ---
 UID: NE:mi._MI_PromptType
 title: MI_PromptType (mi.h)
-
 description: Defines prompt types for the CIM extensions.
 old-location: wmi_v2\mi_prompttype.htm
 tech.root: wmi_v2
 ms.assetid: 183f40ed-214f-4468-8036-7753ae18575b
-
 ms.date: 12/05/2018
 ms.keywords: MI_PROMPTTYPE_CRITICAL, MI_PROMPTTYPE_NORMAL, MI_PromptType, MI_PromptType enumeration [Windows Management Infrastructure (MI)], mi/MI_PROMPTTYPE_CRITICAL, mi/MI_PROMPTTYPE_NORMAL, mi/MI_PromptType, wmi._mi_prompttype, wmi_v2.mi_prompttype
 ms.topic: enum
-f1_keywords: 
- - "mi/MI_PromptType"
+f1_keywords:
+- mi/MI_PromptType
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mi.h
+- Mi.h
 api_name:
- - MI_PromptType
+- MI_PromptType
 targetos: Windows
 req.typenames: MI_PromptType
 req.redist: Windows Management Framework 3.0 on Windows Server 2008 R2 with SP1, Windows 7 with SP1, and Windows Server 2008 with SP2

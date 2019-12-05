@@ -1,19 +1,17 @@
 ---
 UID: NF:msiquery.MsiRecordSetStreamW
 title: MsiRecordSetStreamW function (msiquery.h)
-
 description: The MsiRecordSetStream function sets a record stream field from a file. Stream data cannot be inserted into temporary fields.
 old-location: setup\msirecordsetstream.htm
 tech.root: Msi
 ms.assetid: ca62f6a6-2f39-4b4c-876f-4c74ecd28ee2
-
 ms.date: 12/05/2018
 ms.keywords: MsiRecordSetStream, MsiRecordSetStream function, MsiRecordSetStreamA, MsiRecordSetStreamW, _msi_msirecordsetstream, msiquery/MsiRecordSetStream, msiquery/MsiRecordSetStreamA, msiquery/MsiRecordSetStreamW, setup.msirecordsetstream
 ms.topic: function
-f1_keywords: 
- - "msiquery/MsiRecordSetStream"
+f1_keywords:
+- msiquery/MsiRecordSetStream
 dev_langs:
- - c++
+- c++
 req.header: msiquery.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
+- Msi.dll
 api_name:
- - MsiRecordSetStream
- - MsiRecordSetStreamA
- - MsiRecordSetStreamW
+- MsiRecordSetStream
+- MsiRecordSetStreamA
+- MsiRecordSetStreamW
 targetos: Windows
 req.typenames: 
 req.redist: 

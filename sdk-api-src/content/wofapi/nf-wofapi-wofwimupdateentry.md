@@ -1,19 +1,17 @@
 ---
 UID: NF:wofapi.WofWimUpdateEntry
 title: WofWimUpdateEntry function (wofapi.h)
-
 description: Updates a WIM entry to point to a different WIM file location.
 old-location: fs\wofwimupdateentry.htm
 tech.root: FileIO
 ms.assetid: 91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0
-
 ms.date: 12/05/2018
 ms.keywords: WofWimUpdateEntry, WofWimUpdateEntry function [Files], fs.wofwimupdateentry, wofapi/WofWimUpdateEntry
 ms.topic: function
-f1_keywords: 
- - "wofapi/WofWimUpdateEntry"
+f1_keywords:
+- wofapi/WofWimUpdateEntry
 dev_langs:
- - c++
+- c++
 req.header: wofapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wofutil.lib
 req.dll: Wofutil.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wofutil.dll
+- wofutil.dll
 api_name:
- - WofWimUpdateEntry
+- WofWimUpdateEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

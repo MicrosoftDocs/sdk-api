@@ -1,19 +1,17 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_OP_RESPONSE
 title: OFFLINEFILES_OP_RESPONSE (cscobj.h)
-
 description: Specifies whether to continue, retry, or stop processing items.
 old-location: of\offlinefiles_op_response.htm
 tech.root: offlinefiles
 ms.assetid: a4b16256-7f6a-4e26-8cf2-3ef7c59ac3af
-
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_OP_ABORT, OFFLINEFILES_OP_CONTINUE, OFFLINEFILES_OP_RESPONSE, OFFLINEFILES_OP_RESPONSE enumeration [Offline Files], OFFLINEFILES_OP_RETRY, cscobj/OFFLINEFILES_OP_ABORT, cscobj/OFFLINEFILES_OP_CONTINUE, cscobj/OFFLINEFILES_OP_RESPONSE, cscobj/OFFLINEFILES_OP_RETRY, of.offlinefiles_op_response
 ms.topic: enum
-f1_keywords: 
- - "cscobj/OFFLINEFILES_OP_RESPONSE"
+f1_keywords:
+- cscobj/OFFLINEFILES_OP_RESPONSE
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CscObj.h
+- CscObj.h
 api_name:
- - OFFLINEFILES_OP_RESPONSE
+- OFFLINEFILES_OP_RESPONSE
 targetos: Windows
 req.typenames: OFFLINEFILES_OP_RESPONSE
 req.redist: 

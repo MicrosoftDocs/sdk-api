@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportServicePolicy.get_StartIpAddress
 title: IWdsTransportServicePolicy::get_StartIpAddress (wdstptmgmt.h)
-
 description: Enables a WDS client computer to configure the start of a multicast IP address range for a specified type of IP address.
 old-location: wds\iwdstransportservicepolicy_startipaddress.htm
 tech.root: wds
 ms.assetid: 2ff25e3f-15a4-4dc2-b383-ca9027a650da
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],StartIpAddress property, IWdsTransportServicePolicy.StartIpAddress, IWdsTransportServicePolicy.get_StartIpAddress, IWdsTransportServicePolicy::StartIpAddress, IWdsTransportServicePolicy::get_StartIpAddress, IWdsTransportServicePolicy::put_StartIpAddress, StartIpAddress property [Windows Deployment Services], StartIpAddress property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_StartIpAddress, wds.iwdstransportservicepolicy_startipaddress, wdstptmgmt/IWdsTransportServicePolicy::StartIpAddress, wdstptmgmt/IWdsTransportServicePolicy::get_StartIpAddress, wdstptmgmt/IWdsTransportServicePolicy::put_StartIpAddress
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportServicePolicy.StartIpAddress"
+f1_keywords:
+- wdstptmgmt/IWdsTransportServicePolicy.StartIpAddress
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy.StartIpAddress
- - IWdsTransportServicePolicy.get_StartIpAddress
- - IWdsTransportServicePolicy.put_StartIpAddress
+- IWdsTransportServicePolicy.StartIpAddress
+- IWdsTransportServicePolicy.get_StartIpAddress
+- IWdsTransportServicePolicy.put_StartIpAddress
 targetos: Windows
 req.typenames: 
 req.redist: 

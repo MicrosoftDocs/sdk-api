@@ -1,19 +1,17 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.DoTarget
 title: IWTSProtocolShadowConnection::DoTarget (wtsprotocol.h)
-
 description: IWTSProtocolShadowConnection::DoTarget is no longer available. Instead, use IWRdsProtocolShadowConnection::DoTarget.
 old-location: termserv\iwtsprotocolshadowconnection_dotarget.htm
 tech.root: TermServ
 ms.assetid: 437983a4-48a4-4b37-99ba-35fe1f03b3ec
-
 ms.date: 12/05/2018
 ms.keywords: DoTarget, DoTarget method [Remote Desktop Services], DoTarget method [Remote Desktop Services],IWTSProtocolShadowConnection interface, IWTSProtocolShadowConnection interface [Remote Desktop Services],DoTarget method, IWTSProtocolShadowConnection.DoTarget, IWTSProtocolShadowConnection::DoTarget, termserv.iwtsprotocolshadowconnection_dotarget, wtsprotocol/IWTSProtocolShadowConnection::DoTarget
 ms.topic: method
-f1_keywords: 
- - "wtsprotocol/IWTSProtocolShadowConnection.DoTarget"
+f1_keywords:
+- wtsprotocol/IWTSProtocolShadowConnection.DoTarget
 dev_langs:
- - c++
+- c++
 req.header: wtsprotocol.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wtsprotocol.h
+- Wtsprotocol.h
 api_name:
- - IWTSProtocolShadowConnection.DoTarget
+- IWTSProtocolShadowConnection.DoTarget
 targetos: Windows
 req.typenames: 
 req.redist: 

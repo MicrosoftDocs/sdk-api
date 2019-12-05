@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
 title: IWdsTransportConfigurationManager2::get_MulticastSessionPolicy (wdstptmgmt.h)
-
 description: Receives an interface pointer to the Configuration Manager’s Multicast Session Policy object. This object can be used to configure multicast session parameters that are available beginning with Windows Server 2008 R2.
 old-location: wds\iwdstransportconfigurationmanager2_multicastsessionpolicy.htm
 tech.root: wds
 ms.assetid: dab676ff-9dc2-4d54-841e-7fb7d13002d2
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager2 interface [Windows Deployment Services],MulticastSessionPolicy property, IWdsTransportConfigurationManager2.MulticastSessionPolicy, IWdsTransportConfigurationManager2.get_MulticastSessionPolicy, IWdsTransportConfigurationManager2::MulticastSessionPolicy, IWdsTransportConfigurationManager2::get_MulticastSessionPolicy, MulticastSessionPolicy property [Windows Deployment Services], MulticastSessionPolicy property [Windows Deployment Services],IWdsTransportConfigurationManager2 interface, get_MulticastSessionPolicy, wds.iwdstransportconfigurationmanager2_multicastsessionpolicy, wdstptmgmt/IWdsTransportConfigurationManager2::MulticastSessionPolicy, wdstptmgmt/IWdsTransportConfigurationManager2::get_MulticastSessionPolicy
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportConfigurationManager2.MulticastSessionPolicy"
+f1_keywords:
+- wdstptmgmt/IWdsTransportConfigurationManager2.MulticastSessionPolicy
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager2.MulticastSessionPolicy
- - IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
+- IWdsTransportConfigurationManager2.MulticastSessionPolicy
+- IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

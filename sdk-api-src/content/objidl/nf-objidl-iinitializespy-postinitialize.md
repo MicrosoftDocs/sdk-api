@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IInitializeSpy.PostInitialize
 title: IInitializeSpy::PostInitialize (objidl.h)
-
 description: Performs initialization steps required after calling the CoInitializeEx function.
 old-location: com\iinitializespy_postinitialize.htm
 tech.root: com
 ms.assetid: bdef4089-93e6-4845-8dcc-1150d7a0d033
-
 ms.date: 12/05/2018
 ms.keywords: IInitializeSpy interface [COM],PostInitialize method, IInitializeSpy.PostInitialize, IInitializeSpy::PostInitialize, PostInitialize, PostInitialize method [COM], PostInitialize method [COM],IInitializeSpy interface, _com_iinitializespy_postinitialize, com.iinitializespy_postinitialize, objidl/IInitializeSpy::PostInitialize
 ms.topic: method
-f1_keywords: 
- - "objidl/IInitializeSpy.PostInitialize"
+f1_keywords:
+- objidl/IInitializeSpy.PostInitialize
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IInitializeSpy.PostInitialize
+- IInitializeSpy.PostInitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

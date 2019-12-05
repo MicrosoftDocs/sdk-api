@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.LongLongMult
 title: LongLongMult function (intsafe.h)
-
 description: Multiplies two values of type LONGLONG.
 old-location: shell\LongLongMult.htm
 tech.root: shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93
-
 ms.date: 12/05/2018
 ms.keywords: LongLongMult, LongLongMult function [Windows Shell], intsafe/LongLongMult, shell.LongLongMult
 ms.topic: function
-f1_keywords: 
- - "intsafe/LongLongMult"
+f1_keywords:
+- intsafe/LongLongMult
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - LongLongMult
+- LongLongMult
 targetos: Windows
 req.typenames: 
 req.redist: 

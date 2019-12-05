@@ -1,19 +1,17 @@
 ---
 UID: NS:winscard.__unnamed_struct_9
 title: OPENCARDNAMEW (winscard.h)
-
 description: Contains the information that the GetOpenCardName function uses to initialize a smart card Select Card dialog box.
 old-location: security\opencardname.htm
 tech.root: SecAuthN
 ms.assetid: b409a6fc-2cfd-491e-8f4c-f8567df7b08f
-
 ms.date: 12/05/2018
-ms.keywords: "*LPOPENCARDNAMEW, *POPENCARDNAMEW, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW"
+ms.keywords: '*LPOPENCARDNAMEW, *POPENCARDNAMEW, LPOPENCARDNAME, LPOPENCARDNAME structure pointer [Security], OPENCARDNAME, OPENCARDNAME structure [Security], OPENCARDNAMEA, OPENCARDNAMEW, SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname, security.opencardname, winscard/LPOPENCARDNAME, winscard/OPENCARDNAME, winscard/OPENCARDNAMEA, winscard/OPENCARDNAMEW'
 ms.topic: struct
-f1_keywords: 
- - "winscard/OPENCARDNAME"
+f1_keywords:
+- winscard/OPENCARDNAME
 dev_langs:
- - c++
+- c++
 req.header: winscard.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winscard.h
+- Winscard.h
 api_name:
- - OPENCARDNAME
- - OPENCARDNAMEA
- - OPENCARDNAMEW
+- OPENCARDNAME
+- OPENCARDNAMEA
+- OPENCARDNAMEW
 targetos: Windows
 req.typenames: OPENCARDNAMEW, *POPENCARDNAMEW, *LPOPENCARDNAMEW
 req.redist: 

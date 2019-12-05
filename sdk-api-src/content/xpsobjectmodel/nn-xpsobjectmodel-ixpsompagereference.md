@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPageReference
 title: IXpsOMPageReference (xpsobjectmodel.h)
-
 description: Enables virtualization of pages in an XPS document.
 old-location: xps\ixpsompagereference.htm
 tech.root: printdocs
 ms.assetid: cdebab24-f918-4235-b4d5-5ee1007ade87
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReference, IXpsOMPageReference interface [XPS Documents and Packaging], IXpsOMPageReference interface [XPS Documents and Packaging],described, xps.ixpsompagereference, xpsobjectmodel/IXpsOMPageReference
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference
+- IXpsOMPageReference
 targetos: Windows
 req.typenames: 
 req.redist: 

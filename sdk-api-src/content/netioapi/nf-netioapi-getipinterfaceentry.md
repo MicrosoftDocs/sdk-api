@@ -1,19 +1,17 @@
 ---
 UID: NF:netioapi.GetIpInterfaceEntry
 title: GetIpInterfaceEntry function (netioapi.h)
-
 description: Retrieves IP information for the specified interface on the local computer.
 old-location: iphlp\getipinterfaceentry.htm
 tech.root: IpHlp
 ms.assetid: 604e33fd-ab12-4861-a083-544045f46ef4
-
 ms.date: 12/05/2018
 ms.keywords: GetIpInterfaceEntry, GetIpInterfaceEntry function [IP Helper], iphlp.getipinterfaceentry, netioapi/GetIpInterfaceEntry
 ms.topic: function
-f1_keywords: 
- - "netioapi/GetIpInterfaceEntry"
+f1_keywords:
+- netioapi/GetIpInterfaceEntry
 dev_langs:
- - c++
+- c++
 req.header: netioapi.h
 req.include-header: Iphlpapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Iphlpapi.lib
 req.dll: Iphlpapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iphlpapi.dll
+- Iphlpapi.dll
 api_name:
- - GetIpInterfaceEntry
+- GetIpInterfaceEntry
 targetos: Windows
 req.typenames: 
 req.redist: 

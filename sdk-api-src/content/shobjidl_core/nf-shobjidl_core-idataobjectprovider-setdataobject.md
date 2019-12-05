@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IDataObjectProvider.SetDataObject
 title: IDataObjectProvider::SetDataObject (shobjidl_core.h)
-
 description: Wraps an IDataObject instance as a Windows Runtime DataPackage.
 old-location: shell\IDataObjectProvider_SetDataObject.htm
 tech.root: shell
 ms.assetid: 4A7787E5-8C16-4cd2-B46F-67F6F636989B
-
 ms.date: 12/05/2018
 ms.keywords: IDataObjectProvider interface [Windows Shell],SetDataObject method, IDataObjectProvider.SetDataObject, IDataObjectProvider::SetDataObject, SetDataObject, SetDataObject method [Windows Shell], SetDataObject method [Windows Shell],IDataObjectProvider interface, shell.IDataObjectProvider_SetDataObject, shobjidl_core/IDataObjectProvider::SetDataObject
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IDataObjectProvider.SetDataObject"
+f1_keywords:
+- shobjidl_core/IDataObjectProvider.SetDataObject
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IDataObjectProvider.SetDataObject
+- IDataObjectProvider.SetDataObject
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetPropertyAttributes
 title: IWiaPropertyStorage::GetPropertyAttributes (wia_xp.h)
-
 description: The IWiaPropertyStorage::GetPropertyAttributes method retrieves access rights and legal value information for a specified set of properties.
 old-location: wia\_wia_IWiaPropertyStorage_GetPropertyAttributes.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getpropertyattributes.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetPropertyAttributes, GetPropertyAttributes method [WIA], GetPropertyAttributes method [WIA],IWiaPropertyStorage interface, IWiaPropertyStorage interface [WIA],GetPropertyAttributes method, IWiaPropertyStorage.GetPropertyAttributes, IWiaPropertyStorage::GetPropertyAttributes, _wia_IWiaPropertyStorage_GetPropertyAttributes, wia._wia_IWiaPropertyStorage_GetPropertyAttributes, wia_xp/IWiaPropertyStorage::GetPropertyAttributes
 ms.topic: method
-f1_keywords: 
- - "wia_xp/IWiaPropertyStorage.GetPropertyAttributes"
+f1_keywords:
+- wia_xp/IWiaPropertyStorage.GetPropertyAttributes
 dev_langs:
- - c++
+- c++
 req.header: wia_xp.h
 req.include-header: Wia.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wiaguid.lib
 req.dll: Wiaservc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wiaservc.dll
+- Wiaservc.dll
 api_name:
- - IWiaPropertyStorage.GetPropertyAttributes
+- IWiaPropertyStorage.GetPropertyAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

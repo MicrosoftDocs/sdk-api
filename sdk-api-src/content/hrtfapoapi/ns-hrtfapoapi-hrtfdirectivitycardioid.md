@@ -1,19 +1,17 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivityCardioid
 title: HrtfDirectivityCardioid (hrtfapoapi.h)
-
 description: Describes a cardioid directivity pattern.
 old-location: xaudio2\hrtfdirectivitycardioid.htm
 tech.root: xaudio2
 ms.assetid: 0705BB4C-01FE-434A-889B-F0D24D06DEF3
-
 ms.date: 12/05/2018
 ms.keywords: HrtfDirectivityCardioid, HrtfDirectivityCardioid structure [XAudio2 Audio Mixing APIs], PHrtfDirectivityCardioid, PHrtfDirectivityCardioid structure pointer [XAudio2 Audio Mixing APIs], hrtfapoapi/HrtfDirectivityCardioid, hrtfapoapi/PHrtfDirectivityCardioid, xaudio2.hrtfdirectivitycardioid
 ms.topic: struct
-f1_keywords: 
- - "hrtfapoapi/HrtfDirectivityCardioid"
+f1_keywords:
+- hrtfapoapi/HrtfDirectivityCardioid
 dev_langs:
- - c++
+- c++
 req.header: hrtfapoapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - HrtfApoApi.h
+- HrtfApoApi.h
 api_name:
- - HrtfDirectivityCardioid
+- HrtfDirectivityCardioid
 targetos: Windows
 req.typenames: HrtfDirectivityCardioid
 req.redist: 

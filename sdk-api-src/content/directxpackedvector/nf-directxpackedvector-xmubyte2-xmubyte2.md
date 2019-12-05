@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2
 title: XMUBYTE2::XMUBYTE2 (directxpackedvector.h)
-
 description: Default constructor for XMUBYTE2.
 old-location: dxmath\xmubyte2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMUBYTE2.#ctor
-
 ms.date: 12/05/2018
 ms.keywords: XMUBYTE2, XMUBYTE2 constructor [DirectX Math Support APIs], XMUBYTE2 constructor [DirectX Math Support APIs],XMUBYTE2 structure, XMUBYTE2 structure [DirectX Math Support APIs],XMUBYTE2 constructor, XMUBYTE2.XMUBYTE2, XMUBYTE2.XMUBYTE2(), XMUBYTE2::XMUBYTE2, dxmath.xmubyte2_ctor_1
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMUBYTE2.XMUBYTE2"
+f1_keywords:
+- directxpackedvector/XMUBYTE2.XMUBYTE2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMUBYTE2.XMUBYTE2
+- XMUBYTE2.XMUBYTE2
 targetos: Windows
 req.typenames: 
 req.redist: 

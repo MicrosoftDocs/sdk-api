@@ -1,19 +1,17 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetSubformatting
 title: IMFTimedTextFormattedText::GetSubformatting (mfmediaengine.h)
-
 description: Gets a subformat in the formatted timed-text object.
 old-location: mf\imftimedtextformattedtext_getsubformatting.htm
 tech.root: medfound
 ms.assetid: EC6F41A4-BB07-419B-BE03-8D82709D9A24
-
 ms.date: 12/05/2018
 ms.keywords: GetSubformatting, GetSubformatting method [Media Foundation], GetSubformatting method [Media Foundation],IMFTimedTextFormattedText interface, IMFTimedTextFormattedText interface [Media Foundation],GetSubformatting method, IMFTimedTextFormattedText.GetSubformatting, IMFTimedTextFormattedText::GetSubformatting, mf.imftimedtextformattedtext_getsubformatting, mfmediaengine/IMFTimedTextFormattedText::GetSubformatting
 ms.topic: method
-f1_keywords: 
- - "mfmediaengine/IMFTimedTextFormattedText.GetSubformatting"
+f1_keywords:
+- mfmediaengine/IMFTimedTextFormattedText.GetSubformatting
 dev_langs:
- - c++
+- c++
 req.header: mfmediaengine.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfmediaengine.h
+- mfmediaengine.h
 api_name:
- - IMFTimedTextFormattedText.GetSubformatting
+- IMFTimedTextFormattedText.GetSubformatting
 targetos: Windows
 req.typenames: 
 req.redist: 

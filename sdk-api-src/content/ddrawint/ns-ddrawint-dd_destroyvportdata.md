@@ -1,19 +1,17 @@
 ---
 UID: NS:ddrawint._DD_DESTROYVPORTDATA
 title: DD_DESTROYVPORTDATA (ddrawint.h)
-
 description: The DD_DESTROYVPORTDATA structure contains the information necessary for the driver to clean up.
 old-location: display\dd_destroyvportdata.htm
 tech.root: display
 ms.assetid: b9e29c23-bb1a-47e8-a605-2863c4cda2af
-
 ms.date: 12/05/2018
 ms.keywords: '*PDD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA, DD_DESTROYVPORTDATA structure [Display Devices], ddrawint/DD_DESTROYVPORTDATA, ddstrcts_bb54464c-6b2f-4c90-99a9-439938562898.xml, display.dd_destroyvportdata'
 ms.topic: struct
 f1_keywords:
 - ddrawint/DD_DESTROYVPORTDATA
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Windows

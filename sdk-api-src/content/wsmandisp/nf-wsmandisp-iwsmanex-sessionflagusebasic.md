@@ -1,19 +1,17 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagUseBasic
 title: IWSManEx::SessionFlagUseBasic (wsmandisp.h)
-
 description: Returns the value of the authentication flag WSManFlagUseBasic for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusebasic.htm
 tech.root: winrm
 ms.assetid: 6b7457e2-1c19-4b33-bb38-5068f3c295cb
-
 ms.date: 12/05/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseBasic method, IWSManEx.SessionFlagUseBasic, IWSManEx::SessionFlagUseBasic, SessionFlagUseBasic, SessionFlagUseBasic method [Windows Remote Management], SessionFlagUseBasic method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusebasic, wsmandisp/IWSManEx::SessionFlagUseBasic
 ms.topic: method
-f1_keywords: 
- - "wsmandisp/IWSManEx.SessionFlagUseBasic"
+f1_keywords:
+- wsmandisp/IWSManEx.SessionFlagUseBasic
 dev_langs:
- - c++
+- c++
 req.header: wsmandisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WSManDisp.tlb
 req.dll: WSMAuto.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WSMAuto.dll
+- WSMAuto.dll
 api_name:
- - IWSManEx.SessionFlagUseBasic
+- IWSManEx.SessionFlagUseBasic
 targetos: Windows
 req.typenames: 
 req.redist: 

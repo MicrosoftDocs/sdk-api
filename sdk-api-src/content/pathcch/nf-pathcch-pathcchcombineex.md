@@ -1,19 +1,17 @@
 ---
 UID: NF:pathcch.PathCchCombineEx
 title: PathCchCombineEx function (pathcch.h)
-
 description: Combines two path fragments into a single path.
 old-location: shell\PathCchCombineEx.htm
 tech.root: shell
 ms.assetid: 798c2e49-04a5-4270-b584-41faf1519e4b
-
 ms.date: 12/05/2018
 ms.keywords: PATHCCH_ALLOW_LONG_PATHS, PATHCCH_DO_NOT_NORMALIZE_SEGMENTS, PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH, PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS, PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS, PATHCCH_NONE, PathCchCombineEx, PathCchCombineEx function [Windows Shell], pathcch/PathCchCombineEx, shell.PathCchCombineEx
 ms.topic: function
-f1_keywords: 
- - "pathcch/PathCchCombineEx"
+f1_keywords:
+- pathcch/PathCchCombineEx
 dev_langs:
- - c++
+- c++
 req.header: pathcch.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Pathcch.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - pathcch.lib
- - API-MS-Win-Core-Path-l1-1-0.dll
- - KernelBase.dll
+- pathcch.lib
+- API-MS-Win-Core-Path-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PathCchCombineEx
+- PathCchCombineEx
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateNotCondition
 title: IUIAutomation::CreateNotCondition (uiautomationclient.h)
-
 description: Creates a condition that is the negative of a specified condition.
 old-location: winauto\uiauto_IUIAutomation_CreateNotCondition.htm
 tech.root: WinAuto
 ms.assetid: 183603f9-6e5b-4c44-b6b2-c363b4d150c3
-
 ms.date: 12/05/2018
 ms.keywords: CreateNotCondition, CreateNotCondition method [Windows Accessibility], CreateNotCondition method [Windows Accessibility],IUIAutomation interface, IUIAutomation interface [Windows Accessibility],CreateNotCondition method, IUIAutomation.CreateNotCondition, IUIAutomation::CreateNotCondition, uiauto.uiauto_IUIAutomation_CreateNotCondition, uiauto_IUIAutomation_CreateNotCondition, uiautomationclient/IUIAutomation::CreateNotCondition, winauto.uiauto_IUIAutomation_CreateNotCondition
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomation.CreateNotCondition"
+f1_keywords:
+- uiautomationclient/IUIAutomation.CreateNotCondition
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomation.CreateNotCondition
+- IUIAutomation.CreateNotCondition
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:tuner.IAnalogAudioComponentType
 title: IAnalogAudioComponentType (tuner.h)
-
 description: The IAnalogAudioComponentType interface provides methods for accessing the analog audio mode.
 old-location: mstv\ianalogaudiocomponenttype.htm
 tech.root: mstv
 ms.assetid: bd2256b4-6e9a-4520-8988-d271fb2b84af
-
 ms.date: 12/05/2018
 ms.keywords: IAnalogAudioComponentType, IAnalogAudioComponentType interface [Microsoft TV Technologies], IAnalogAudioComponentType interface [Microsoft TV Technologies],described, IAnalogAudioComponentTypeInterface, mstv.ianalogaudiocomponenttype, tuner/IAnalogAudioComponentType
 ms.topic: interface
-f1_keywords: 
- - "tuner/IAnalogAudioComponentType"
+f1_keywords:
+- tuner/IAnalogAudioComponentType
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IAnalogAudioComponentType
+- IAnalogAudioComponentType
 targetos: Windows
 req.typenames: 
 req.redist: 

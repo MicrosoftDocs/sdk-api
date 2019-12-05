@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelIndividualization
 title: IWMDRMReader::CancelIndividualization (wmsdkidl.h)
-
 description: The CancelIndividualization method cancels a current call to the Individualize method.
 old-location: wmformat\iwmdrmreader_cancelindividualization.htm
 tech.root: wmformat
 ms.assetid: 837d6fee-d5ba-49d8-ac69-e8ff010a787d
-
 ms.date: 12/05/2018
 ms.keywords: CancelIndividualization, CancelIndividualization method [windows Media Format], CancelIndividualization method [windows Media Format],IWMDRMReader interface, IWMDRMReader interface [windows Media Format],CancelIndividualization method, IWMDRMReader.CancelIndividualization, IWMDRMReader::CancelIndividualization, IWMDRMReaderCancelIndividualization, wmformat.iwmdrmreader_cancelindividualization, wmsdkidl/IWMDRMReader::CancelIndividualization
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMDRMReader.CancelIndividualization"
+f1_keywords:
+- wmsdkidl/IWMDRMReader.CancelIndividualization
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMDRMReader.CancelIndividualization
+- IWMDRMReader.CancelIndividualization
 targetos: Windows
 req.typenames: 
 req.redist: 

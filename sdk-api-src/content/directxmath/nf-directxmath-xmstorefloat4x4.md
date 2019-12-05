@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMStoreFloat4x4
 title: XMStoreFloat4x4 function (directxmath.h)
-
 description: Stores an XMMATRIX in an XMFLOAT4X4.
 old-location: dxmath\xmstorefloat4x4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreFloat4x4(XMFLOAT4X4@,XMMATRIX)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMStoreFloat4x4, XMStoreFloat4x4, XMStoreFloat4x4 method [DirectX Math Support APIs], dxmath.xmstorefloat4x4
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMStoreFloat4x4"
+f1_keywords:
+- directxmath/XMStoreFloat4x4
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXMath.h
+- DirectXMath.h
 api_name:
- - XMStoreFloat4x4
+- XMStoreFloat4x4
 targetos: Windows
 req.typenames: 
 req.redist: 

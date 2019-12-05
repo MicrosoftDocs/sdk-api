@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.Select
 title: ILegacyIAccessibleProvider::Select (uiautomationcore.h)
-
 description: Selects the element.
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Select.htm
 tech.root: WinAuto
 ms.assetid: 9cdb3f88-c4aa-4a04-94e3-5549c389ad1f
-
 ms.date: 12/05/2018
 ms.keywords: ILegacyIAccessibleProvider interface [Windows Accessibility],Select method, ILegacyIAccessibleProvider.Select, ILegacyIAccessibleProvider::Select, Select, Select method [Windows Accessibility], Select method [Windows Accessibility],ILegacyIAccessibleProvider interface, uiauto.uiauto_ILegacyIAccessibleProvider_Select, uiauto_ILegacyIAccessibleProvider_Select, uiautomationcore/ILegacyIAccessibleProvider::Select, winauto.uiauto_ILegacyIAccessibleProvider_Select
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/ILegacyIAccessibleProvider.Select"
+f1_keywords:
+- uiautomationcore/ILegacyIAccessibleProvider.Select
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - ILegacyIAccessibleProvider.Select
+- ILegacyIAccessibleProvider.Select
 targetos: Windows
 req.typenames: 
 req.redist: 

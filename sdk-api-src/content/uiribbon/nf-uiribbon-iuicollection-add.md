@@ -1,19 +1,17 @@
 ---
 UID: NF:uiribbon.IUICollection.Add
 title: IUICollection::Add (uiribbon.h)
-
 description: Adds an item to the end of the IUICollection.
 old-location: windowsribbon\windowsribbon_iuicollection_add.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\add.htm
-
 ms.date: 12/05/2018
 ms.keywords: Add, Add method [Windows Ribbon], Add method [Windows Ribbon],IUICollection interface, IUICollection interface [Windows Ribbon],Add method, IUICollection.Add, IUICollection::Add, scenicintent_IUICollection_Add, uiribbon/IUICollection::Add, windowsribbon.windowsribbon_iuicollection_add
 ms.topic: method
-f1_keywords: 
- - "uiribbon/IUICollection.Add"
+f1_keywords:
+- uiribbon/IUICollection.Add
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mshtml.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mshtml.dll
+- Mshtml.dll
 api_name:
- - IUICollection.Add
+- IUICollection.Add
 targetos: Windows
 req.typenames: 
 req.redist: 

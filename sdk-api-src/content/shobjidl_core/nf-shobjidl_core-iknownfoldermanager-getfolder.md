@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.GetFolder
 title: IKnownFolderManager::GetFolder (shobjidl_core.h)
-
 description: Gets an object that represents a known folder identified by its KNOWNFOLDERID.
 old-location: shell\IKnownFolderManager_GetFolder.htm
 tech.root: shell
 ms.assetid: bd8dba51-c711-4f7c-af53-00c80f211cb8
-
 ms.date: 12/05/2018
 ms.keywords: GetFolder, GetFolder method [Windows Shell], GetFolder method [Windows Shell],IKnownFolderManager interface, IKnownFolderManager interface [Windows Shell],GetFolder method, IKnownFolderManager.GetFolder, IKnownFolderManager::GetFolder, _shell_IKnownFolderManager_GetFolder, shell.IKnownFolderManager_GetFolder, shobjidl_core/IKnownFolderManager::GetFolder
 ms.topic: method
 f1_keywords:
 - shobjidl_core/IKnownFolderManager.GetFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

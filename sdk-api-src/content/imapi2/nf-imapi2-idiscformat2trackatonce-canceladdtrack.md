@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.CancelAddTrack
 title: IDiscFormat2TrackAtOnce::CancelAddTrack (imapi2.h)
-
 description: Cancels the current write operation.
 old-location: imapi\idiscformat2trackatonce_canceladdtrack.htm
 tech.root: imapi
 ms.assetid: 09e71d36-da1d-4ba0-bd6b-4ce4425d481a
-
 ms.date: 12/05/2018
 ms.keywords: CancelAddTrack, CancelAddTrack method [IMAPI], CancelAddTrack method [IMAPI],IDiscFormat2TrackAtOnce interface, IDiscFormat2TrackAtOnce interface [IMAPI],CancelAddTrack method, IDiscFormat2TrackAtOnce.CancelAddTrack, IDiscFormat2TrackAtOnce::CancelAddTrack, imapi.idiscformat2trackatonce_canceladdtrack, imapi2/IDiscFormat2TrackAtOnce::CancelAddTrack
 ms.topic: method
-f1_keywords: 
- - "imapi2/IDiscFormat2TrackAtOnce.CancelAddTrack"
+f1_keywords:
+- imapi2/IDiscFormat2TrackAtOnce.CancelAddTrack
 dev_langs:
- - c++
+- c++
 req.header: imapi2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2.h
+- imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce.CancelAddTrack
+- IDiscFormat2TrackAtOnce.CancelAddTrack
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.Delete
 title: IGPMStarterGPOBackup::Delete (gpmgmt.h)
-
 description: Removes the Starter GPO backup from the backup directory, and from the file system.
 old-location: gpmc\igpmstartergpobackup_delete.htm
 tech.root: gpmc
 ms.assetid: 32a1388a-b8b9-455b-af94-0a09e98f9108
-
 ms.date: 12/05/2018
 ms.keywords: Delete, Delete method [GPMC], Delete method [GPMC],IGPMStarterGPOBackup interface, IGPMStarterGPOBackup interface [GPMC],Delete method, IGPMStarterGPOBackup.Delete, IGPMStarterGPOBackup::Delete, _win32_igpmstartergpobackup_delete, gpmc.igpmstartergpobackup_delete, gpmgmt/IGPMStarterGPOBackup::Delete
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMStarterGPOBackup.Delete"
+f1_keywords:
+- gpmgmt/IGPMStarterGPOBackup.Delete
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMStarterGPOBackup.Delete
+- IGPMStarterGPOBackup.Delete
 targetos: Windows
 req.typenames: 
 req.redist: 

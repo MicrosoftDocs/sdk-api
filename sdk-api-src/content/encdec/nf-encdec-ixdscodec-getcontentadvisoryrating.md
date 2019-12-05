@@ -1,19 +1,17 @@
 ---
 UID: NF:encdec.IXDSCodec.GetContentAdvisoryRating
 title: IXDSCodec::GetContentAdvisoryRating (encdec.h)
-
 description: The GetContentAdvisoryRating method retrieves the most recent ratings information parsed by the XDSToRat object.
 old-location: mstv\ixdscodec_getcontentadvisoryrating.htm
 tech.root: mstv
 ms.assetid: 725e444c-ecf4-49da-a800-cc3faf627eea
-
 ms.date: 12/05/2018
 ms.keywords: GetContentAdvisoryRating, GetContentAdvisoryRating method [Microsoft TV Technologies], GetContentAdvisoryRating method [Microsoft TV Technologies],IXDSCodec interface, IXDSCodec interface [Microsoft TV Technologies],GetContentAdvisoryRating method, IXDSCodec.GetContentAdvisoryRating, IXDSCodec::GetContentAdvisoryRating, IXDSCodecGetContentAdvisoryRating, encdec/IXDSCodec::GetContentAdvisoryRating, mstv.ixdscodec_getcontentadvisoryrating
 ms.topic: method
-f1_keywords: 
- - "encdec/IXDSCodec.GetContentAdvisoryRating"
+f1_keywords:
+- encdec/IXDSCodec.GetContentAdvisoryRating
 dev_langs:
- - c++
+- c++
 req.header: encdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - EncDec.h
+- EncDec.h
 api_name:
- - IXDSCodec.GetContentAdvisoryRating
+- IXDSCodec.GetContentAdvisoryRating
 targetos: Windows
 req.typenames: 
 req.redist: 

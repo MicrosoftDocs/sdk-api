@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.UInt8Sub
 title: UInt8Sub function (intsafe.h)
-
 description: Subtracts one value of type UINT8 from another.
 old-location: shell\UInt8Sub.htm
 tech.root: shell
 ms.assetid: 3c140c21-7185-4342-bc40-d6382944e423
-
 ms.date: 12/05/2018
 ms.keywords: UInt8Sub, UInt8Sub function [Windows Shell], intsafe/UInt8Sub, shell.UInt8Sub
 ms.topic: function
-f1_keywords: 
- - "intsafe/UInt8Sub"
+f1_keywords:
+- intsafe/UInt8Sub
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - UInt8Sub
+- UInt8Sub
 targetos: Windows
 req.typenames: 
 req.redist: 

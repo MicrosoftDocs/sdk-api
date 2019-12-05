@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.ListView_SetItemPosition32
 title: ListView_SetItemPosition32 macro (commctrl.h)
-
 description: Moves an item to a specified position in a list-view control (in icon or small icon view).
 old-location: controls\ListView_SetItemPosition32.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setitemposition32.htm
-
 ms.date: 12/05/2018
 ms.keywords: ListView_SetItemPosition32, ListView_SetItemPosition32 macro [Windows Controls], _win32_ListView_SetItemPosition32, _win32_ListView_SetItemPosition32_cpp, commctrl/ListView_SetItemPosition32, controls.ListView_SetItemPosition32, controls._win32_ListView_SetItemPosition32
 ms.topic: macro
-f1_keywords: 
- - "commctrl/ListView_SetItemPosition32"
+f1_keywords:
+- commctrl/ListView_SetItemPosition32
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - ListView_SetItemPosition32
+- ListView_SetItemPosition32
 targetos: Windows
 req.typenames: 
 req.redist: 

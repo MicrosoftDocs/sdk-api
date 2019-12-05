@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMExtTransport.GetTransportVideoParameters
 title: IAMExtTransport::GetTransportVideoParameters (strmif.h)
-
 description: The GetTransportVideoParameters retrieves video parameter settings for external transport.
 old-location: dshow\iamexttransport_gettransportvideoparameters.htm
 tech.root: DirectShow
 ms.assetid: 7a77ecf6-49e4-4d91-a06e-80313b4b8957
-
 ms.date: 12/05/2018
 ms.keywords: GetTransportVideoParameters, GetTransportVideoParameters method [DirectShow], GetTransportVideoParameters method [DirectShow],IAMExtTransport interface, IAMExtTransport interface [DirectShow],GetTransportVideoParameters method, IAMExtTransport.GetTransportVideoParameters, IAMExtTransport::GetTransportVideoParameters, IAMExtTransportGetTransportVideoParameters, dshow.iamexttransport_gettransportvideoparameters, strmif/IAMExtTransport::GetTransportVideoParameters
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMExtTransport.GetTransportVideoParameters"
+f1_keywords:
+- strmif/IAMExtTransport.GetTransportVideoParameters
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMExtTransport.GetTransportVideoParameters
+- IAMExtTransport.GetTransportVideoParameters
 targetos: Windows
 req.typenames: 
 req.redist: 

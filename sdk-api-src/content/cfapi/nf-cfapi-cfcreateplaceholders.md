@@ -1,19 +1,17 @@
 ---
 UID: NF:cfapi.CfCreatePlaceholders
 title: CfCreatePlaceholders function (cfapi.h)
-
 description: Creates one or more new placeholder files or directories under a sync root tree.
 old-location: cloudapi\cfcreateplaceholders.htm
 tech.root: cfApi
 ms.assetid: 96A6F62E-7F14-40B5-AB57-260DC9B1DF89
-
 ms.date: 12/05/2018
 ms.keywords: CfCreatePlaceholders, CfCreatePlaceholders function, cfapi/CfCreatePlaceholders, cloudApi.cfcreateplaceholders
 ms.topic: function
-f1_keywords: 
- - "cfapi/CfCreatePlaceholders"
+f1_keywords:
+- cfapi/CfCreatePlaceholders
 dev_langs:
- - c++
+- c++
 req.header: cfapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: CldApi.lib
 req.dll: CldApi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CldApi.dll
+- CldApi.dll
 api_name:
- - CfCreatePlaceholders
+- CfCreatePlaceholders
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVersion
 title: ICreateTypeInfo::SetVersion (oaidl.h)
-
 description: Sets the major and minor version number of the type information.
 old-location: automat\icreatetypeinfo_setversion.htm
 tech.root: automat
 ms.assetid: ffa4d287-44c4-40ec-984a-70cbc0928274
-
 ms.date: 12/05/2018
 ms.keywords: ICreateTypeInfo interface [Automation],SetVersion method, ICreateTypeInfo.SetVersion, ICreateTypeInfo::SetVersion, SetVersion, SetVersion method [Automation], SetVersion method [Automation],ICreateTypeInfo interface, _oa96_ICreateTypeInfo_SetVersion, automat.icreatetypeinfo_setversion, oaidl/ICreateTypeInfo::SetVersion
 ms.topic: method
-f1_keywords: 
- - "oaidl/ICreateTypeInfo.SetVersion"
+f1_keywords:
+- oaidl/ICreateTypeInfo.SetVersion
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - ICreateTypeInfo.SetVersion
+- ICreateTypeInfo.SetVersion
 targetos: Windows
 req.typenames: 
 req.redist: 

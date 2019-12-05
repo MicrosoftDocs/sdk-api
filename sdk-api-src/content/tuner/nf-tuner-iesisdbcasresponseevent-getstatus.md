@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IESIsdbCasResponseEvent.GetStatus
 title: IESIsdbCasResponseEvent::GetStatus (tuner.h)
-
 description: Gets the response status returned in an IsdbCasResponse event.
 old-location: mstv\iesisdbcasresponseevent_getstatus.htm
 tech.root: mstv
 ms.assetid: 63cf3d47-5aac-4bce-8562-f67df47f83b2
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [DirectShow], GetStatus method [DirectShow],IESIsdbCasResponseEvent interface, IESIsdbCasResponseEvent interface [DirectShow],GetStatus method, IESIsdbCasResponseEvent.GetStatus, IESIsdbCasResponseEvent::GetStatus, mstv.iesisdbcasresponseevent_getstatus, tuner/IESIsdbCasResponseEvent::GetStatus
 ms.topic: method
-f1_keywords: 
- - "tuner/IESIsdbCasResponseEvent.GetStatus"
+f1_keywords:
+- tuner/IESIsdbCasResponseEvent.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IESIsdbCasResponseEvent.GetStatus
+- IESIsdbCasResponseEvent.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

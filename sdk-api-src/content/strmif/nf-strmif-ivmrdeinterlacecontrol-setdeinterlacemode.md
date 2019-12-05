@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.SetDeinterlaceMode
 title: IVMRDeinterlaceControl::SetDeinterlaceMode (strmif.h)
-
 description: The SetDeinterlaceMode method sets the deinterlacing mode for the specified video stream.
 old-location: dshow\ivmrdeinterlacecontrol_setdeinterlacemode.htm
 tech.root: DirectShow
 ms.assetid: 1a716e10-5382-4b2b-9a4b-b3998a584956
-
 ms.date: 12/05/2018
 ms.keywords: IVMRDeinterlaceControl interface [DirectShow],SetDeinterlaceMode method, IVMRDeinterlaceControl.SetDeinterlaceMode, IVMRDeinterlaceControl::SetDeinterlaceMode, IVMRDeinterlaceControlSetDeinterlaceMode, SetDeinterlaceMode, SetDeinterlaceMode method [DirectShow], SetDeinterlaceMode method [DirectShow],IVMRDeinterlaceControl interface, dshow.ivmrdeinterlacecontrol_setdeinterlacemode, strmif/IVMRDeinterlaceControl::SetDeinterlaceMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRDeinterlaceControl.SetDeinterlaceMode"
+f1_keywords:
+- strmif/IVMRDeinterlaceControl.SetDeinterlaceMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl.SetDeinterlaceMode
+- IVMRDeinterlaceControl.SetDeinterlaceMode
 targetos: Windows
 req.typenames: 
 req.redist: 

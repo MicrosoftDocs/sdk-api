@@ -1,19 +1,17 @@
 ---
 UID: NS:msctf.TF_PERSISTENT_PROPERTY_HEADER_ACP
 title: TF_PERSISTENT_PROPERTY_HEADER_ACP (msctf.h)
-
 description: The TF_PERSISTENT_PROPERTY_HEADER_ACP structure is used to provide property header data.
 old-location: tsf\tf_persistent_property_header_acp.htm
 tech.root: TSF
 ms.assetid: 9c5cb193-d18e-4d91-b9be-b8a61a56d3a3
-
 ms.date: 12/05/2018
 ms.keywords: TF_PERSISTENT_PROPERTY_HEADER_ACP, TF_PERSISTENT_PROPERTY_HEADER_ACP structure [Text Services Framework], _tsf_tf_persistent_property_header_acp_ref, msctf/TF_PERSISTENT_PROPERTY_HEADER_ACP, tsf.tf_persistent_property_header_acp
 ms.topic: struct
-f1_keywords: 
- - "msctf/TF_PERSISTENT_PROPERTY_HEADER_ACP"
+f1_keywords:
+- msctf/TF_PERSISTENT_PROPERTY_HEADER_ACP
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msctf.h
+- Msctf.h
 api_name:
- - TF_PERSISTENT_PROPERTY_HEADER_ACP
+- TF_PERSISTENT_PROPERTY_HEADER_ACP
 targetos: Windows
 req.typenames: TF_PERSISTENT_PROPERTY_HEADER_ACP
 req.redist: TSF 1.0 on Windows 2000 Professional

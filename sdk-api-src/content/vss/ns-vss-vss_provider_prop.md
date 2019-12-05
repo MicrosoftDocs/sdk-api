@@ -1,19 +1,17 @@
 ---
 UID: NS:vss._VSS_PROVIDER_PROP
 title: VSS_PROVIDER_PROP (vss.h)
-
 description: Specifies shadow copy provider properties.
 old-location: base\vss_provider_prop.htm
 tech.root: VSS
 ms.assetid: 000da95d-a3f5-447e-a96d-c8fb34e9d0d3
-
 ms.date: 12/05/2018
 ms.keywords: '*PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP, PVSS_PROVIDER_PROP structure pointer [VSS], VSS_PROVIDER_PROP, VSS_PROVIDER_PROP structure [VSS], _win32_vss_provider_prop, base.vss_provider_prop, vss/PVSS_PROVIDER_PROP, vss/VSS_PROVIDER_PROP'
 ms.topic: struct
 f1_keywords:
 - vss/VSS_PROVIDER_PROP
 dev_langs:
- - c++
+- c++
 req.header: vss.h
 req.include-header: 
 req.target-type: Windows

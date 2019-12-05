@@ -1,19 +1,17 @@
 ---
 UID: NC:ws2spi.LPNSPV2LOOKUPSERVICEEND
 title: LPNSPV2LOOKUPSERVICEEND (ws2spi.h)
-
 description: Called to free the handle after previous calls to NSPv2LookupServiceBegin and NSPv2LookupServiceNextEx.
 old-location: winsock\nspv2lookupserviceend.htm
 tech.root: WinSock
 ms.assetid: 5f2b56c5-3a8e-4bf9-8f28-d2a06543227b
-
 ms.date: 12/05/2018
 ms.keywords: LPNSPV2LOOKUPSERVICEEND, NSPv2LookupServiceEnd, NSPv2LookupServiceEnd function [Winsock], winsock.nspv2lookupserviceend, ws2spi/NSPv2LookupServiceEnd
 ms.topic: callback
 f1_keywords:
 - ws2spi/NSPv2LookupServiceEnd
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows

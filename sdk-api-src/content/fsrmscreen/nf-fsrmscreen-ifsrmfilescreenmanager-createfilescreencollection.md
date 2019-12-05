@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenManager.CreateFileScreenCollection
 title: IFsrmFileScreenManager::CreateFileScreenCollection (fsrmscreen.h)
-
 description: Creates an empty collection to which you can add file screens.
 old-location: fsrm\ifsrmfilescreenmanager_createfilescreencollection.htm
 tech.root: fsrm
 ms.assetid: 4adce5d6-8be6-477b-8dab-d437163b4449
-
 ms.date: 12/05/2018
 ms.keywords: CreateFileScreenCollection, CreateFileScreenCollection method [File Server Resource Manager], CreateFileScreenCollection method [File Server Resource Manager],FsrmFileScreenManager class, CreateFileScreenCollection method [File Server Resource Manager],IFsrmFileScreenManager interface, FsrmFileScreenManager class [File Server Resource Manager],CreateFileScreenCollection method, IFsrmFileScreenManager interface [File Server Resource Manager],CreateFileScreenCollection method, IFsrmFileScreenManager.CreateFileScreenCollection, IFsrmFileScreenManager::CreateFileScreenCollection, fs.ifsrmfilescreenmanager_createfilescreencollection, fsrm.ifsrmfilescreenmanager_createfilescreencollection, fsrmscreen/IFsrmFileScreenManager::CreateFileScreenCollection
 ms.topic: method
-f1_keywords: 
- - "fsrmscreen/IFsrmFileScreenManager.CreateFileScreenCollection"
+f1_keywords:
+- fsrmscreen/IFsrmFileScreenManager.CreateFileScreenCollection
 dev_langs:
- - c++
+- c++
 req.header: fsrmscreen.h
 req.include-header: FsrmQuota.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager.CreateFileScreenCollection
- - FsrmFileScreenManager.CreateFileScreenCollection
+- IFsrmFileScreenManager.CreateFileScreenCollection
+- FsrmFileScreenManager.CreateFileScreenCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

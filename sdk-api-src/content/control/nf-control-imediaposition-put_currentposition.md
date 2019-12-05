@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaPosition.put_CurrentPosition
 title: IMediaPosition::put_CurrentPosition (control.h)
-
 description: The put_CurrentPosition method sets the current position, relative to the total duration of the stream.
 old-location: dshow\imediaposition_put_currentposition.htm
 tech.root: DirectShow
 ms.assetid: 6af44ce9-91d3-4329-835a-a1249924d672
-
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],put_CurrentPosition method, IMediaPosition.put_CurrentPosition, IMediaPosition::put_CurrentPosition, IMediaPositionput_CurrentPosition, control/IMediaPosition::put_CurrentPosition, dshow.imediaposition_put_currentposition, put_CurrentPosition, put_CurrentPosition method [DirectShow], put_CurrentPosition method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: 
- - "control/IMediaPosition.put_CurrentPosition"
+f1_keywords:
+- control/IMediaPosition.put_CurrentPosition
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPosition.put_CurrentPosition
+- IMediaPosition.put_CurrentPosition
 targetos: Windows
 req.typenames: 
 req.redist: 

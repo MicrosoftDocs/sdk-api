@@ -1,19 +1,17 @@
 ---
 UID: NE:appmodel.PackageOrigin
 title: PackageOrigin (appmodel.h)
-
 description: Specifies the origin of a package.
 old-location: appxpkg\packageorigin.htm
 tech.root: appxpkg
 ms.assetid: 0CB9CE97-8A54-4BE7-B054-00F29D36CAB2
-
 ms.date: 12/05/2018
 ms.keywords: PackageOrigin, PackageOrigin enumeration [App packaging and management], PackageOrigin_DeveloperSigned, PackageOrigin_DeveloperUnsigned, PackageOrigin_Inbox, PackageOrigin_LineOfBusiness, PackageOrigin_Store, PackageOrigin_Unknown, PackageOrigin_Unsigned, appmodel/PackageOrigin, appmodel/PackageOrigin_DeveloperSigned, appmodel/PackageOrigin_DeveloperUnsigned, appmodel/PackageOrigin_Inbox, appmodel/PackageOrigin_LineOfBusiness, appmodel/PackageOrigin_Store, appmodel/PackageOrigin_Unknown, appmodel/PackageOrigin_Unsigned, appxpkg.packageorigin
 ms.topic: enum
-f1_keywords: 
- - "appmodel/PackageOrigin"
+f1_keywords:
+- appmodel/PackageOrigin
 dev_langs:
- - c++
+- c++
 req.header: appmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - AppModel.h
+- AppModel.h
 api_name:
- - PackageOrigin
+- PackageOrigin
 targetos: Windows
 req.typenames: PackageOrigin
 req.redist: 

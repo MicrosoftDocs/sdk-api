@@ -1,19 +1,17 @@
 ---
 UID: NF:mpegtype.IMpegAudioDecoder.get_DecoderWordSize
 title: IMpegAudioDecoder::get_DecoderWordSize (mpegtype.h)
-
 description: Returns the word size used to decode, either eight or 16 bit.
 old-location: dshow\impegaudiodecoder_get_decoderwordsize.htm
 tech.root: DirectShow
 ms.assetid: 92528359-cdbf-4490-badd-1ad20643ec1a
-
 ms.date: 12/05/2018
 ms.keywords: IMpegAudioDecoder interface [DirectShow],get_DecoderWordSize method, IMpegAudioDecoder.get_DecoderWordSize, IMpegAudioDecoder::get_DecoderWordSize, IMpegAudioDecodergetDecoderWordSize, dshow.impegaudiodecoder_get_decoderwordsize, get_DecoderWordSize, get_DecoderWordSize method [DirectShow], get_DecoderWordSize method [DirectShow],IMpegAudioDecoder interface, mpegtype/IMpegAudioDecoder::get_DecoderWordSize
 ms.topic: method
-f1_keywords: 
- - "mpegtype/IMpegAudioDecoder.get_DecoderWordSize"
+f1_keywords:
+- mpegtype/IMpegAudioDecoder.get_DecoderWordSize
 dev_langs:
- - c++
+- c++
 req.header: mpegtype.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMpegAudioDecoder.get_DecoderWordSize
+- IMpegAudioDecoder.get_DecoderWordSize
 targetos: Windows
 req.typenames: 
 req.redist: 

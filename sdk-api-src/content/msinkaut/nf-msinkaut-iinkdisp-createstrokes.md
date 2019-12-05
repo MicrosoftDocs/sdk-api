@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut.IInkDisp.CreateStrokes
 title: IInkDisp::CreateStrokes (msinkaut.h)
-
 description: Creates a new InkStrokes collection from existing IInkStrokeDisp objects.
 old-location: tablet\inkdisp_createstrokes.htm
 tech.root: tablet
 ms.assetid: 21e68151-38c9-414f-840c-c2687a05aea4
-
 ms.date: 12/05/2018
 ms.keywords: 21e68151-38c9-414f-840c-c2687a05aea4, CreateStrokes, CreateStrokes method [Tablet PC], CreateStrokes method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CreateStrokes method, IInkDisp.CreateStrokes, IInkDisp::CreateStrokes, msinkaut/IInkDisp::CreateStrokes, tablet.inkdisp_createstrokes
 ms.topic: method
-f1_keywords: 
- - "msinkaut/IInkDisp.CreateStrokes"
+f1_keywords:
+- msinkaut/IInkDisp.CreateStrokes
 dev_langs:
- - c++
+- c++
 req.header: msinkaut.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: InkObj.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - InkObj.dll
- - InkObj.dll.dll
+- InkObj.dll
+- InkObj.dll.dll
 api_name:
- - IInkDisp.CreateStrokes
+- IInkDisp.CreateStrokes
 targetos: Windows
 req.typenames: 
 req.redist: 

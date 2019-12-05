@@ -1,19 +1,17 @@
 ---
 UID: NS:usp10.__unnamed_struct_0
 title: SCRIPT_PROPERTIES (usp10.h)
-
 description: Contains information about special processing for each script.
 old-location: intl\script_properties.htm
 tech.root: Intl
 ms.assetid: 473c1265-1c2c-48f3-a852-c701bebcf9eb
-
 ms.date: 12/05/2018
 ms.keywords: FALSE, SCRIPT_PROPERTIES, SCRIPT_PROPERTIES structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_PROPERTIES_str, intl.script_properties, usp10/SCRIPT_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "usp10/SCRIPT_PROPERTIES"
+f1_keywords:
+- usp10/SCRIPT_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Usp10.h
+- Usp10.h
 api_name:
- - SCRIPT_PROPERTIES
+- SCRIPT_PROPERTIES
 targetos: Windows
 req.typenames: SCRIPT_PROPERTIES
 req.redist: 

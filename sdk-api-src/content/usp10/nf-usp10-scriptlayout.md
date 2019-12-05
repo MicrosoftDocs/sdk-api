@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptLayout
 title: ScriptLayout function (usp10.h)
-
 description: Converts an array of run embedding levels to a map of visual-to-logical position and/or logical-to-visual position.
 old-location: intl\scriptlayout.htm
 tech.root: Intl
 ms.assetid: 6f3c74af-8d7f-4c66-8a11-6408a6897cbe
-
 ms.date: 12/05/2018
 ms.keywords: ScriptLayout, ScriptLayout function [Internationalization for Windows Applications], _win32_ScriptLayout, intl.scriptlayout, usp10/ScriptLayout
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptLayout"
+f1_keywords:
+- usp10/ScriptLayout
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptLayout
+- ScriptLayout
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

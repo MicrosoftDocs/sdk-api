@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetExposureCompensation
 title: IWICDevelopRaw::SetExposureCompensation (wincodec.h)
-
 description: Sets the exposure compensation stop value.
 old-location: wic\_wic_codec_iwicdevelopraw_setexposurecompensation.htm
 tech.root: wic
 ms.assetid: 57ee5b96-2e49-415c-b1a8-41436a761b23
-
 ms.date: 12/05/2018
 ms.keywords: IWICDevelopRaw interface [Windows Imaging Component],SetExposureCompensation method, IWICDevelopRaw.SetExposureCompensation, IWICDevelopRaw::SetExposureCompensation, SetExposureCompensation, SetExposureCompensation method [Windows Imaging Component], SetExposureCompensation method [Windows Imaging Component],IWICDevelopRaw interface, _wic_codec_iwicdevelopraw_setexposurecompensation, wic._wic_codec_iwicdevelopraw_setexposurecompensation, wincodec/IWICDevelopRaw::SetExposureCompensation
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICDevelopRaw.SetExposureCompensation"
+f1_keywords:
+- wincodec/IWICDevelopRaw.SetExposureCompensation
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICDevelopRaw.SetExposureCompensation
+- IWICDevelopRaw.SetExposureCompensation
 targetos: Windows
 req.typenames: 
 req.redist: 

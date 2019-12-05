@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.HSSetShaderResources
 title: ID3D11DeviceContext::HSSetShaderResources (d3d11.h)
-
 description: Bind an array of shader resources to the hull-shader stage.
 old-location: direct3d11\id3d11devicecontext_hssetshaderresources.htm
 tech.root: direct3d11
 ms.assetid: cb99cb22-a7e4-4472-b519-12bced9a45b8
-
 ms.date: 12/05/2018
 ms.keywords: HSSetShaderResources, HSSetShaderResources method [Direct3D 11], HSSetShaderResources method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],HSSetShaderResources method, ID3D11DeviceContext.HSSetShaderResources, ID3D11DeviceContext::HSSetShaderResources, d3d11/ID3D11DeviceContext::HSSetShaderResources, direct3d11.id3d11devicecontext_hssetshaderresources, e7e39206-8761-2097-5503-d31d970dd578
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.HSSetShaderResources"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.HSSetShaderResources
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.HSSetShaderResources
+- ID3D11DeviceContext.HSSetShaderResources
 targetos: Windows
 req.typenames: 
 req.redist: 

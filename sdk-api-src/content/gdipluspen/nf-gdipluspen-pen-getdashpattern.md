@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashPattern
 title: Pen::GetDashPattern (gdipluspen.h)
-
 description: The Pen::GetDashPattern method gets an array of custom dashes and spaces currently set for this Pen object.
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpattern.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetDashPattern, GetDashPattern method [GDI+], GetDashPattern method [GDI+],Pen class, Pen class [GDI+],GetDashPattern method, Pen.GetDashPattern, Pen::GetDashPattern, _gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_, gdiplus._gdiplus_CLASS_Pen_GetDashPattern_dashArray_count_
 ms.topic: method
-f1_keywords: 
- - "gdipluspen/Pen.GetDashPattern"
+f1_keywords:
+- gdipluspen/Pen.GetDashPattern
 dev_langs:
- - c++
+- c++
 req.header: gdipluspen.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Pen.GetDashPattern
+- Pen.GetDashPattern
 targetos: Windows
 req.typenames: 
 req.redist: 

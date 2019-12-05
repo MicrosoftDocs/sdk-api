@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCastManualStart
 title: IWdsTransportNamespaceScheduledCastManualStart (wdstptmgmt.h)
-
 description: An administrator must start transmission on an object of an IWdsTransportNamespaceScheduledCastManualStart interface. Applications can continue to join sessions of the namespace until the administrator starts transmission.
 old-location: wds\iwdstransportnamespacescheduledcastmanualstart.htm
 tech.root: wds
 ms.assetid: ffbbdd4c-5d64-4ec0-a2f3-a5d31aec6402
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespaceScheduledCastManualStart, IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCastManualStart interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcastmanualstart, wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespaceScheduledCastManualStart
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceScheduledCastManualStart
+- IWdsTransportNamespaceScheduledCastManualStart
 targetos: Windows
 req.typenames: 
 req.redist: 

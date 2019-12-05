@@ -1,19 +1,17 @@
 ---
 UID: NF:compressapi.Decompress
 title: Decompress function (compressapi.h)
-
 description: Takes a block of compressed information and decompresses it.
 old-location: cmpapi\decompress.htm
 tech.root: cmpapi
 ms.assetid: 654b88c7-14f2-43d4-8850-675ea303b439
-
 ms.date: 12/05/2018
 ms.keywords: Decompress, Decompress function [Compression API], cmpapi.decompress, compressapi/Decompress
 ms.topic: function
-f1_keywords: 
- - "compressapi/Decompress"
+f1_keywords:
+- compressapi/Decompress
 dev_langs:
- - c++
+- c++
 req.header: compressapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Cabinet.lib
 req.dll: Cabinet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - cabinet.dll
+- cabinet.dll
 api_name:
- - Decompress
+- Decompress
 targetos: Windows
 req.typenames: 
 req.redist: 

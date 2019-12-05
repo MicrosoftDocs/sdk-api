@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.SetComboBoxSelectedValue
 title: ICredentialProviderCredential::SetComboBoxSelectedValue (credentialprovider.h)
-
 description: Enables a Logon UI and Credential UI to indicate that a combo box value has been selected.
 old-location: shell\ICredentialProviderCredential_SetComboBoxSelectedValue.htm
 tech.root: shell
 ms.assetid: fe33500b-ab34-4f28-b244-692e62d6d30c
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetComboBoxSelectedValue method, ICredentialProviderCredential.SetComboBoxSelectedValue, ICredentialProviderCredential::SetComboBoxSelectedValue, SetComboBoxSelectedValue, SetComboBoxSelectedValue method [Windows Shell], SetComboBoxSelectedValue method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetComboBoxSelectedValue, credentialprovider/ICredentialProviderCredential::SetComboBoxSelectedValue, shell.ICredentialProviderCredential_SetComboBoxSelectedValue
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderCredential.SetComboBoxSelectedValue"
+f1_keywords:
+- credentialprovider/ICredentialProviderCredential.SetComboBoxSelectedValue
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Credentialprovider.h
+- Credentialprovider.h
 api_name:
- - ICredentialProviderCredential.SetComboBoxSelectedValue
+- ICredentialProviderCredential.SetComboBoxSelectedValue
 targetos: Windows
 req.typenames: 
 req.redist: 

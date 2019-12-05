@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.IServiceActivity
 title: IServiceActivity (comsvcs.h)
-
 description: Used to call the batch work that is submitted through the activity created by CoCreateActivity.
 old-location: cos\iserviceactivity.htm
 tech.root: cossdk
 ms.assetid: 005bf0ec-f5a7-41a3-85b3-07f79f26af27
-
 ms.date: 12/05/2018
 ms.keywords: IServiceActivity, IServiceActivity interface [COM+], IServiceActivity interface [COM+],described, _cos_IServiceActivity, comsvcs/IServiceActivity, cos.iserviceactivity
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/IServiceActivity"
+f1_keywords:
+- comsvcs/IServiceActivity
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceActivity
+- IServiceActivity
 targetos: Windows
 req.typenames: 
 req.redist: 

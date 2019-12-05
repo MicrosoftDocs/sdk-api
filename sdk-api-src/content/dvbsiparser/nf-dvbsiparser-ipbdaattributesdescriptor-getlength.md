@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetLength
 title: IPBDAAttributesDescriptor::GetLength (dvbsiparser.h)
-
 description: Gets the length of a Protected Broadcast Driver Architecture (PBDA) attributes descriptor from a Protected Broadcast Device Architecture (PBDA) transport stream, in bytes.
 old-location: mstv\ipbdaattributesdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: b18ebaa1-aca4-4d21-adb7-d233e18cd320
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IPBDAAttributesDescriptor interface, IPBDAAttributesDescriptor interface [Microsoft TV Technologies],GetLength method, IPBDAAttributesDescriptor.GetLength, IPBDAAttributesDescriptor::GetLength, dvbsiparser/IPBDAAttributesDescriptor::GetLength, mstv.ipbdaattributesdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IPBDAAttributesDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IPBDAAttributesDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IPBDAAttributesDescriptor.GetLength
+- IPBDAAttributesDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

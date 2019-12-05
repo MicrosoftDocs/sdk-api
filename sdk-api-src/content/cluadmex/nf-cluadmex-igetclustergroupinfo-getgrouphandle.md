@@ -1,19 +1,17 @@
 ---
 UID: NF:cluadmex.IGetClusterGroupInfo.GetGroupHandle
 title: IGetClusterGroupInfo::GetGroupHandle (cluadmex.h)
-
 description: Returns a handle to a group.
 old-location: mscs\igetclustergroupinfo_getgrouphandle.htm
 tech.root: MsCS
 ms.assetid: b578b3fa-9c3d-4f94-b35f-ba0fbe1fdd40
-
 ms.date: 12/05/2018
 ms.keywords: GetGroupHandle, GetGroupHandle method [Failover Cluster], GetGroupHandle method [Failover Cluster],IGetClusterGroupInfo interface, IGetClusterGroupInfo interface [Failover Cluster],GetGroupHandle method, IGetClusterGroupInfo.GetGroupHandle, IGetClusterGroupInfo::GetGroupHandle, _wolf_igetclustergroupinfo_getgrouphandle, cluadmex/IGetClusterGroupInfo::GetGroupHandle, mscs.igetclustergroupinfo_getgrouphandle
 ms.topic: method
-f1_keywords: 
- - "cluadmex/IGetClusterGroupInfo.GetGroupHandle"
+f1_keywords:
+- cluadmex/IGetClusterGroupInfo.GetGroupHandle
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IGetClusterGroupInfo.GetGroupHandle
+- IGetClusterGroupInfo.GetGroupHandle
 targetos: Windows
 req.typenames: 
 req.redist: 

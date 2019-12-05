@@ -1,19 +1,17 @@
 ---
 UID: NI:ntddkbd.IOCTL_KEYBOARD_SET_TYPEMATIC
 title: IOCTL_KEYBOARD_SET_TYPEMATIC (ntddkbd.h)
-
 description: The IOCTL_KEYBOARD_SET_TYPEMATIC request sets the keyboard typematic settings.
 old-location: hid\ioctl_keyboard_set_typematic2.htm
 tech.root: hid
 ms.assetid: bcd2c72a-b1fd-4df4-8f65-0fe32eab00ef
-
 ms.date: 12/05/2018
 ms.keywords: IOCTL_KEYBOARD_SET_TYPEMATIC, IOCTL_KEYBOARD_SET_TYPEMATIC control, IOCTL_KEYBOARD_SET_TYPEMATIC control code [Human Input Devices], hid.ioctl_keyboard_set_typematic2, i8042ref_1df6c763-6fbd-4a76-810a-7b0e6f624e9f.xml, ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
 ms.topic: ioctl
 f1_keywords:
 - ntddkbd/IOCTL_KEYBOARD_SET_TYPEMATIC
 dev_langs:
- - c++
+- c++
 req.header: ntddkbd.h
 req.include-header: Ntddkbd.h
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorColorTemperature
 title: SetMonitorColorTemperature function (highlevelmonitorconfigurationapi.h)
-
 description: Sets a monitor's color temperature.
 old-location: monitor\setmonitorcolortemperature.htm
 tech.root: Monitor
 ms.assetid: a7f2753c-810f-41e5-9378-4072e8d4bc38
-
 ms.date: 12/05/2018
 ms.keywords: SetMonitorColorTemperature, SetMonitorColorTemperature function [Monitor Configuration], highlevelmonitorconfigurationapi/SetMonitorColorTemperature, monitor.setmonitorcolortemperature
 ms.topic: function
-f1_keywords: 
- - "highlevelmonitorconfigurationapi/SetMonitorColorTemperature"
+f1_keywords:
+- highlevelmonitorconfigurationapi/SetMonitorColorTemperature
 dev_langs:
- - c++
+- c++
 req.header: highlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - SetMonitorColorTemperature
+- SetMonitorColorTemperature
 targetos: Windows
 req.typenames: 
 req.redist: 

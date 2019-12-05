@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsFreeReader
 title: WsFreeReader function (webservices.h)
-
 description: Releases the memory resource associated with an XML_Reader object.
 old-location: wsw\wsfreereader.htm
 tech.root: wsw
 ms.assetid: 31163bea-266f-43a3-bdf5-61386ebc197c
-
 ms.date: 12/05/2018
 ms.keywords: WsFreeReader, WsFreeReader function [Web Services for Windows], webservices/WsFreeReader, wsw.wsfreereader
 ms.topic: function
-f1_keywords: 
- - "webservices/WsFreeReader"
+f1_keywords:
+- webservices/WsFreeReader
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsFreeReader
+- WsFreeReader
 targetos: Windows
 req.typenames: 
 req.redist: 

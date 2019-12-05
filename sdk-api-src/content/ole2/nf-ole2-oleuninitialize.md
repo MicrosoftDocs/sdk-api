@@ -1,19 +1,17 @@
 ---
 UID: NF:ole2.OleUninitialize
 title: OleUninitialize function (ole2.h)
-
 description: Closes the COM library on the apartment, releases any class factories, other COM objects, or servers held by the apartment, disables RPC on the apartment, and frees any resources the apartment maintains.
 old-location: com\oleuninitialize.htm
 tech.root: com
 ms.assetid: b2a8233f-7e1b-4c54-9363-7478c40c3830
-
 ms.date: 12/05/2018
 ms.keywords: OleUninitialize, OleUninitialize function [COM], _ole_OleUninitialize, com.oleuninitialize, ole2/OleUninitialize
 ms.topic: function
-f1_keywords: 
- - "ole2/OleUninitialize"
+f1_keywords:
+- ole2/OleUninitialize
 dev_langs:
- - c++
+- c++
 req.header: ole2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - Ext-MS-Win-COM-OLE32-l1-1-0.dll
- - Ext-MS-Win-COM-OLE32-l1-1-1.dll
- - Ext-MS-Win-COM-OLE32-l1-1-2.dll
- - ext-ms-win-com-ole32-l1-1-3.dll
- - Ext-MS-Win-Com-Ole32-L1-1-4.dll
+- Ole32.dll
+- Ext-MS-Win-COM-OLE32-l1-1-0.dll
+- Ext-MS-Win-COM-OLE32-l1-1-1.dll
+- Ext-MS-Win-COM-OLE32-l1-1-2.dll
+- ext-ms-win-com-ole32-l1-1-3.dll
+- Ext-MS-Win-Com-Ole32-L1-1-4.dll
 api_name:
- - OleUninitialize
+- OleUninitialize
 targetos: Windows
 req.typenames: 
 req.redist: 

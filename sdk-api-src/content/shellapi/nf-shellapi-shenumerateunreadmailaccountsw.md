@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHEnumerateUnreadMailAccountsW
 title: SHEnumerateUnreadMailAccountsW function (shellapi.h)
-
 description: Enumerates the user accounts that have unread email.
 old-location: shell\SHEnumerateUnreadMailAccounts.htm
 tech.root: shell
 ms.assetid: 67ec8355-f902-4b71-972f-94e403701f96
-
 ms.date: 12/05/2018
 ms.keywords: SHEnumerateUnreadMailAccounts, SHEnumerateUnreadMailAccounts function [Windows Shell], SHEnumerateUnreadMailAccountsA, SHEnumerateUnreadMailAccountsW, _shell_SHEnumerateUnreadMailAccounts, shell.SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccounts, shellapi/SHEnumerateUnreadMailAccountsA, shellapi/SHEnumerateUnreadMailAccountsW
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHEnumerateUnreadMailAccounts"
+f1_keywords:
+- shellapi/SHEnumerateUnreadMailAccounts
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHEnumerateUnreadMailAccounts
- - SHEnumerateUnreadMailAccountsA
- - SHEnumerateUnreadMailAccountsW
+- SHEnumerateUnreadMailAccounts
+- SHEnumerateUnreadMailAccountsA
+- SHEnumerateUnreadMailAccountsW
 targetos: Windows
 req.typenames: 
 req.redist: 

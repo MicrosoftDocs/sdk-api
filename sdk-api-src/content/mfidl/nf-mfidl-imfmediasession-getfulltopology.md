@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFMediaSession.GetFullTopology
 title: IMFMediaSession::GetFullTopology (mfidl.h)
-
 description: Gets a topology from the Media Session.
 old-location: mf\imfmediasession_getfulltopology.htm
 tech.root: medfound
 ms.assetid: 6899dbe2-a684-487f-ab56-8631b3d5a033
-
 ms.date: 12/05/2018
 ms.keywords: 6899dbe2-a684-487f-ab56-8631b3d5a033, GetFullTopology, GetFullTopology method [Media Foundation], GetFullTopology method [Media Foundation],IMFMediaSession interface, IMFMediaSession interface [Media Foundation],GetFullTopology method, IMFMediaSession.GetFullTopology, IMFMediaSession::GetFullTopology, mf.imfmediasession_getfulltopology, mfidl/IMFMediaSession::GetFullTopology
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFMediaSession.GetFullTopology"
+f1_keywords:
+- mfidl/IMFMediaSession.GetFullTopology
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFMediaSession.GetFullTopology
+- IMFMediaSession.GetFullTopology
 targetos: Windows
 req.typenames: 
 req.redist: 

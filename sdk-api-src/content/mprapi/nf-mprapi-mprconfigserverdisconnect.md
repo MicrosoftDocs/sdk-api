@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigServerDisconnect
 title: MprConfigServerDisconnect function (mprapi.h)
-
 description: The MprConfigServerDisconnect function disconnects a connection made by a previous call to MprConfigServerConnect.
 old-location: rras\mprconfigserverdisconnect.htm
 tech.root: RRAS
 ms.assetid: 71cdb26b-e9d0-414c-aff9-0eed187d08ba
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerDisconnect, MprConfigServerDisconnect function [RAS], _mpr_mprconfigserverdisconnect, mprapi/MprConfigServerDisconnect, rras.mprconfigserverdisconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigServerDisconnect"
+f1_keywords:
+- mprapi/MprConfigServerDisconnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigServerDisconnect
+- MprConfigServerDisconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

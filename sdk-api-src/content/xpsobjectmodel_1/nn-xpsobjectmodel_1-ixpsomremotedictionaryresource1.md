@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1
 title: IXpsOMRemoteDictionaryResource1 (xpsobjectmodel_1.h)
-
 description: Extends IXpsOMRemoteDictionaryResource to provide methods that support OpenXPS documents.
 old-location: xps\ixpsomremotedictionaryresource1.htm
 tech.root: printdocs
 ms.assetid: 4B8DEDC7-4D7A-408F-9B2B-67B6FC87372F
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMRemoteDictionaryResource1, IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging], IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging],described, xps.ixpsomremotedictionaryresource1, xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1"
+f1_keywords:
+- xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: None
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - none
- - none.dll
+- none
+- none.dll
 api_name:
- - IXpsOMRemoteDictionaryResource1
+- IXpsOMRemoteDictionaryResource1
 targetos: Windows
 req.typenames: 
 req.redist: 

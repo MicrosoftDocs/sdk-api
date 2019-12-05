@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.InitCommonControlsEx
 title: InitCommonControlsEx function (commctrl.h)
-
 description: Ensures that the common control DLL (Comctl32.dll) is loaded, and registers specific common control classes from the DLL. An application must call this function before creating a common control.
 old-location: controls\InitCommonControlsEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm
-
 ms.date: 12/05/2018
 ms.keywords: InitCommonControlsEx, InitCommonControlsEx function [Windows Controls], _win32_InitCommonControlsEx, _win32_InitCommonControlsEx_cpp, commctrl/InitCommonControlsEx, controls.InitCommonControlsEx, controls._win32_InitCommonControlsEx
 ms.topic: function
-f1_keywords: 
- - "commctrl/InitCommonControlsEx"
+f1_keywords:
+- commctrl/InitCommonControlsEx
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Comctl32.lib
 req.dll: Comctl32.dll (version 4.70 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Comctl32.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-l1-1-0.dll
- - Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
+- Comctl32.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-l1-1-0.dll
+- Ext-MS-Win-Shell-ComCtl32-Init-L1-1-1.dll
 api_name:
- - InitCommonControlsEx
+- InitCommonControlsEx
 targetos: Windows
 req.typenames: 
 req.redist: 

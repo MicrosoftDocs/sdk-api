@@ -1,19 +1,17 @@
 ---
 UID: NF:roerrorapi.RoTransformError
 title: RoTransformError function
-
 description: Reports a modified error and an informative string to an attached debugger.
 old-location: winrt\rotransformerror.htm
 tech.root: WinRT
 ms.assetid: B0921292-1EEA-4154-8AB4-B654A9B31DA6
-
 ms.date: 12/5/2018
 ms.keywords: RoTransformError, RoTransformError function [Windows Runtime], WinRTTransformError, roerrorapi/RoTransformError, roerrorapi/WinRTTransformError, winrt.rotransformerror, winrt.winrttransformerror
 ms.topic: function
-f1_keywords: 
- - "roerrorapi/RoTransformError"
+f1_keywords:
+- roerrorapi/RoTransformError
 dev_langs:
- - c++
+- c++
 req.header: roerrorapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - roerrorapi.h
- - API-MS-Win-Core-WinRT-error-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-error-l1-1-1.dll
+- roerrorapi.h
+- API-MS-Win-Core-WinRT-error-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
- - RoTransformError
- - WinRTTransformError
+- RoTransformError
+- WinRTTransformError
 targetos: Windows
 req.typenames: 
 req.redist: 

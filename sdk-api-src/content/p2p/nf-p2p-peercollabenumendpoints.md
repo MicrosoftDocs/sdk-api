@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerCollabEnumEndpoints
 title: PeerCollabEnumEndpoints function (p2p.h)
-
 description: Returns the handle to an enumeration that contains the endpoints associated with a specific peer contact.
 old-location: p2p\peercollabenumendpoints.htm
 tech.root: P2PSdk
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c
-
 ms.date: 12/05/2018
 ms.keywords: PeerCollabEnumEndpoints, PeerCollabEnumEndpoints function [Peer Networking], p2p.peercollabenumendpoints, p2p/PeerCollabEnumEndpoints
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerCollabEnumEndpoints"
+f1_keywords:
+- p2p/PeerCollabEnumEndpoints
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2P.lib
 req.dll: P2P.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2P.dll
+- P2P.dll
 api_name:
- - PeerCollabEnumEndpoints
+- PeerCollabEnumEndpoints
 targetos: Windows
 req.typenames: 
 req.redist: 

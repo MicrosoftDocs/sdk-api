@@ -1,19 +1,17 @@
 ---
 UID: NF:propvarutil.VariantGetElem
 title: VariantGetElem function (propvarutil.h)
-
 description: Initializes a VARIANT structure from a specified variant element.
 old-location: properties\VariantGetElem.htm
 tech.root: properties
 ms.assetid: e1541e66-3ccc-494c-a909-72eeb9159d11
-
 ms.date: 12/05/2018
 ms.keywords: VariantGetElem, VariantGetElem function [Windows Properties], _shell_VariantGetElem, properties.VariantGetElem, propvarutil/VariantGetElem, shell.VariantGetElem
 ms.topic: function
-f1_keywords: 
- - "propvarutil/VariantGetElem"
+f1_keywords:
+- propvarutil/VariantGetElem
 dev_langs:
- - c++
+- c++
 req.header: propvarutil.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Propvarutil.h
+- Propvarutil.h
 api_name:
- - VariantGetElem
+- VariantGetElem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

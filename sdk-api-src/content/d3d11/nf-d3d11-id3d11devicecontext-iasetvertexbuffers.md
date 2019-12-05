@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.IASetVertexBuffers
 title: ID3D11DeviceContext::IASetVertexBuffers (d3d11.h)
-
 description: Bind an array of vertex buffers to the input-assembler stage.
 old-location: direct3d11\id3d11devicecontext_iasetvertexbuffers.htm
 tech.root: direct3d11
 ms.assetid: e9a9a69c-7df7-4784-98f5-9ad63f6cd407
-
 ms.date: 12/05/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method [Direct3D 11], IASetVertexBuffers method [Direct3D 11],ID3D11DeviceContext interface, ID3D11DeviceContext interface [Direct3D 11],IASetVertexBuffers method, ID3D11DeviceContext.IASetVertexBuffers, ID3D11DeviceContext::IASetVertexBuffers, d3b78697-f1d6-7517-a7bb-93d9f91ac800, d3d11/ID3D11DeviceContext::IASetVertexBuffers, direct3d11.id3d11devicecontext_iasetvertexbuffers
 ms.topic: method
-f1_keywords: 
- - "d3d11/ID3D11DeviceContext.IASetVertexBuffers"
+f1_keywords:
+- d3d11/ID3D11DeviceContext.IASetVertexBuffers
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D11.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.lib
- - D3D11.dll
+- D3D11.lib
+- D3D11.dll
 api_name:
- - ID3D11DeviceContext.IASetVertexBuffers
+- ID3D11DeviceContext.IASetVertexBuffers
 targetos: Windows
 req.typenames: 
 req.redist: 

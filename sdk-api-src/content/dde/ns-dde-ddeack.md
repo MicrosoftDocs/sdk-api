@@ -1,19 +1,17 @@
 ---
 UID: NS:dde.__unnamed_struct_0
 title: DDEACK (dde.h)
-
 description: Contains status flags that a DDE application passes to its partner as part of the WM_DDE_ACK message.
 old-location: dataxchg\ddeack.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangestructures\ddeack.htm
-
 ms.date: 12/05/2018
 ms.keywords: DDEACK, DDEACK structure [Data Exchange], _win32_DDEACK_str, _win32_ddeack_str_cpp, dataxchg.ddeack, dde/DDEACK, winui._win32_ddeack_str
 ms.topic: struct
-f1_keywords: 
- - "dde/DDEACK"
+f1_keywords:
+- dde/DDEACK
 dev_langs:
- - c++
+- c++
 req.header: dde.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dde.h
+- Dde.h
 api_name:
- - DDEACK
+- DDEACK
 targetos: Windows
 req.typenames: DDEACK
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFSSLCertificateManager.EndGetClientCertificate
 title: IMFSSLCertificateManager::EndGetClientCertificate (mfidl.h)
-
 description: Completes an asynchronous request to get the client SSL certificate.
 old-location: mf\imfsslcertificatemanager_endgetclientcertificate.htm
 tech.root: medfound
 ms.assetid: 25cd2ab0-7f58-4bd5-b594-75a3acbdc2d9
-
 ms.date: 12/05/2018
 ms.keywords: EndGetClientCertificate, EndGetClientCertificate method [Media Foundation], EndGetClientCertificate method [Media Foundation],IMFSSLCertificateManager interface, IMFSSLCertificateManager interface [Media Foundation],EndGetClientCertificate method, IMFSSLCertificateManager.EndGetClientCertificate, IMFSSLCertificateManager::EndGetClientCertificate, mf.imfsslcertificatemanager_endgetclientcertificate, mfidl/IMFSSLCertificateManager::EndGetClientCertificate
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFSSLCertificateManager.EndGetClientCertificate"
+f1_keywords:
+- mfidl/IMFSSLCertificateManager.EndGetClientCertificate
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSSLCertificateManager.EndGetClientCertificate
+- IMFSSLCertificateManager.EndGetClientCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

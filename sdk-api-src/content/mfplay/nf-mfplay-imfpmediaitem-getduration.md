@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetDuration
 title: IMFPMediaItem::GetDuration (mfplay.h)
-
 description: Gets the duration of the media item.
 old-location: mf\imfpmediaitem_getduration.htm
 tech.root: medfound
 ms.assetid: 831f023b-c06f-4099-9f4c-df38f3d1382f
-
 ms.date: 12/05/2018
 ms.keywords: GetDuration, GetDuration method [Media Foundation], GetDuration method [Media Foundation],IMFPMediaItem interface, IMFPMediaItem interface [Media Foundation],GetDuration method, IMFPMediaItem.GetDuration, IMFPMediaItem::GetDuration, MFP_POSITIONTYPE_100NS, mf.imfpmediaitem_getduration, mfplay/IMFPMediaItem::GetDuration
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaItem.GetDuration"
+f1_keywords:
+- mfplay/IMFPMediaItem.GetDuration
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaItem.GetDuration
+- IMFPMediaItem.GetDuration
 targetos: Windows
 req.typenames: 
 req.redist: 

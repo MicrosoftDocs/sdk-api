@@ -1,19 +1,17 @@
 ---
 UID: NN:mstask.IEnumWorkItems
 title: IEnumWorkItems (mstask.h)
-
 description: Provides the methods for enumerating the tasks in the Scheduled Tasks folder.
 old-location: taskschd\ienumworkitems.htm
 tech.root: taskschd
 ms.assetid: 1af162e5-8ba1-4d2e-9451-39c80ac0eecf
-
 ms.date: 12/05/2018
 ms.keywords: IEnumWorkItems, IEnumWorkItems interface [Task Scheduler], IEnumWorkItems interface [Task Scheduler],described, _msb_ienumworkitems, mstask/IEnumWorkItems, taskschd.ienumworkitems
 ms.topic: interface
-f1_keywords: 
- - "mstask/IEnumWorkItems"
+f1_keywords:
+- mstask/IEnumWorkItems
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IEnumWorkItems
+- IEnumWorkItems
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

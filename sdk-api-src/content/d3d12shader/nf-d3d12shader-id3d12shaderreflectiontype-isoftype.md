@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.IsOfType
 title: ID3D12ShaderReflectionType::IsOfType (d3d12shader.h)
-
 description: Indicates whether a variable is of the specified type.
 old-location: direct3d12\id3d12shaderreflectiontype_isoftype.htm
 tech.root: direct3d12
 ms.assetid: 6B5A043A-927A-49AD-BF63-F8A9CCB57E09
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12ShaderReflectionType interface,IsOfType method, ID3D12ShaderReflectionType.IsOfType, ID3D12ShaderReflectionType::IsOfType, IsOfType, IsOfType method, IsOfType method,ID3D12ShaderReflectionType interface, d3d12shader/ID3D12ShaderReflectionType::IsOfType, direct3d12.id3d12shaderreflectiontype_isoftype
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionType.IsOfType"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionType.IsOfType
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionType.IsOfType
+- ID3D12ShaderReflectionType.IsOfType
 targetos: Windows
 req.typenames: 
 req.redist: 

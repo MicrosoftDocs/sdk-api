@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptRecordDigitSubstitution
 title: ScriptRecordDigitSubstitution function (usp10.h)
-
 description: Reads the National Language Support (NLS) native digit and digit substitution settings and records them in a SCRIPT_DIGITSUBSTITUTE structure. For more information, see Digit Shapes.
 old-location: intl\scriptrecorddigitsubstitution.htm
 tech.root: Intl
 ms.assetid: 2c8c33d5-5cd6-4734-bf44-af7d4b578672
-
 ms.date: 12/05/2018
 ms.keywords: ScriptRecordDigitSubstitution, ScriptRecordDigitSubstitution function [Internationalization for Windows Applications], _win32_ScriptRecordDigitSubstitution, intl.scriptrecorddigitsubstitution, usp10/ScriptRecordDigitSubstitution
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptRecordDigitSubstitution"
+f1_keywords:
+- usp10/ScriptRecordDigitSubstitution
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptRecordDigitSubstitution
+- ScriptRecordDigitSubstitution
 targetos: Windows
 req.typenames: 
 req.redist: 

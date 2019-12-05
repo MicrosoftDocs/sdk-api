@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceConnect
 title: MprAdminInterfaceConnect function (mprapi.h)
-
 description: The MprAdminInterfaceConnect function creates a connection to the specified WAN interface.
 old-location: rras\mpradmininterfaceconnect.htm
 tech.root: RRAS
 ms.assetid: 21440495-9372-42c7-8e40-8f3d5812f187
-
 ms.date: 12/05/2018
 ms.keywords: MprAdminInterfaceConnect, MprAdminInterfaceConnect function [RAS], _mpr_mpradmininterfaceconnect, mprapi/MprAdminInterfaceConnect, rras.mpradmininterfaceconnect
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprAdminInterfaceConnect"
+f1_keywords:
+- mprapi/MprAdminInterfaceConnect
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprAdminInterfaceConnect
+- MprAdminInterfaceConnect
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_UAV
 title: D3D12_TEX2D_UAV (d3d12.h)
-
 description: Describes a unordered-access 2D texture resource.
 old-location: direct3d12\d3d12_tex2d_uav.htm
 tech.root: direct3d12
 ms.assetid: 4AC4B783-DF03-4BBF-A1F3-F21E1D9820D2
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_TEX2D_UAV, D3D12_TEX2D_UAV structure, d3d12/D3D12_TEX2D_UAV, direct3d12.d3d12_tex2d_uav
 ms.topic: struct
-f1_keywords: 
- - "d3d12/D3D12_TEX2D_UAV"
+f1_keywords:
+- d3d12/D3D12_TEX2D_UAV
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - D3D12.h
+- D3D12.h
 api_name:
- - D3D12_TEX2D_UAV
+- D3D12_TEX2D_UAV
 targetos: Windows
 req.typenames: D3D12_TEX2D_UAV
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:commctrl.TreeView_SetItemHeight
 title: TreeView_SetItemHeight macro (commctrl.h)
-
 description: Sets the height of the tree-view items. You can use this macro or send the TVM_SETITEMHEIGHT message explicitly.
 old-location: controls\TreeView_SetItemHeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemheight.htm
-
 ms.date: 12/05/2018
 ms.keywords: TreeView_SetItemHeight, TreeView_SetItemHeight macro [Windows Controls], _win32_TreeView_SetItemHeight, _win32_TreeView_SetItemHeight_cpp, commctrl/TreeView_SetItemHeight, controls.TreeView_SetItemHeight, controls._win32_TreeView_SetItemHeight
 ms.topic: macro
-f1_keywords: 
- - "commctrl/TreeView_SetItemHeight"
+f1_keywords:
+- commctrl/TreeView_SetItemHeight
 dev_langs:
- - c++
+- c++
 req.header: commctrl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Commctrl.h
+- Commctrl.h
 api_name:
- - TreeView_SetItemHeight
+- TreeView_SetItemHeight
 targetos: Windows
 req.typenames: 
 req.redist: 

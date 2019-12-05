@@ -1,19 +1,17 @@
 ---
 UID: NE:certcli.X509EnrollmentAuthFlags
 title: X509EnrollmentAuthFlags (certcli.h)
-
 description: Specifies the authentication type.
 old-location: security\x509enrollmentauthflags.htm
 tech.root: SecCrypto
 ms.assetid: 84a7e6e3-dfbb-4c27-af63-e521103e1b00
-
 ms.date: 12/05/2018
 ms.keywords: X509AuthAnonymous, X509AuthCertificate, X509AuthKerberos, X509AuthNone, X509AuthUsername, X509EnrollmentAuthFlags, X509EnrollmentAuthFlags enumeration [Security], certcli/X509AuthAnonymous, certcli/X509AuthCertificate, certcli/X509AuthKerberos, certcli/X509AuthNone, certcli/X509AuthUsername, certcli/X509EnrollmentAuthFlags, security.x509enrollmentauthflags
 ms.topic: enum
-f1_keywords: 
- - "certcli/X509EnrollmentAuthFlags"
+f1_keywords:
+- certcli/X509EnrollmentAuthFlags
 dev_langs:
- - c++
+- c++
 req.header: certcli.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Certcli.h
+- Certcli.h
 api_name:
- - X509EnrollmentAuthFlags
+- X509EnrollmentAuthFlags
 targetos: Windows
 req.typenames: X509EnrollmentAuthFlags
 req.redist: 

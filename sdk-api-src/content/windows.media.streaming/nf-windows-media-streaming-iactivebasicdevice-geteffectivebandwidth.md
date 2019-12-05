@@ -1,19 +1,17 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.GetEffectiveBandwidth
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-
 description: Gets the current effective bandwidth for the device.
 old-location: mediastreaming\iactivebasicdevice_geteffectivebandwidth.htm
 tech.root: mediastreaming
 ms.assetid: 894EC907-E578-4F1E-A0AB-1FDE2FA67B6C
-
 ms.date: 12/05/2018
 ms.keywords: GetEffectiveBandwidth, GetEffectiveBandwidth method [Media Streaming API], GetEffectiveBandwidth method [Media Streaming API],IActiveBasicDevice interface, IActiveBasicDevice interface [Media Streaming API],GetEffectiveBandwidth method, IActiveBasicDevice.GetEffectiveBandwidth, IActiveBasicDevice.streaming, IActiveBasicDevice::GetEffectiveBandwidth, IActiveBasicDevice::streaming, mediastreaming.iactivebasicdevice_geteffectivebandwidth, windows/IActiveBasicDevice::GetEffectiveBandwidth
 ms.topic: method
-f1_keywords: 
- - "windows.media.streaming/IActiveBasicDevice.GetEffectiveBandwidth"
+f1_keywords:
+- windows.media.streaming/IActiveBasicDevice.GetEffectiveBandwidth
 dev_langs:
- - c++
+- c++
 req.header: windows.media.streaming.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: PlayToDevice.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PlayToDevice.dll
+- PlayToDevice.dll
 api_name:
- - IActiveBasicDevice.GetEffectiveBandwidth
+- IActiveBasicDevice.GetEffectiveBandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d10.ID3D10Device
 title: ID3D10Device (d3d10.h)
-
 description: The device interface represents a virtual adapter for Direct3D 10.0; it is used to perform rendering and create Direct3D resources.
 old-location: direct3d10\id3d10device.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], ID3D10Device interface [Direct3D 10],described, ac9e57ea-6b44-febb-6528-dfb8cc6740db, d3d10/ID3D10Device, direct3d10.id3d10device
 ms.topic: interface
-f1_keywords: 
- - "d3d10/ID3D10Device"
+f1_keywords:
+- d3d10/ID3D10Device
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device
+- ID3D10Device
 targetos: Windows
 req.typenames: 
 req.redist: 

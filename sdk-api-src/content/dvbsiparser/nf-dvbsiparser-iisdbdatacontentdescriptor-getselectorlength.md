@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorLength
 title: IIsdbDataContentDescriptor::GetSelectorLength (dvbsiparser.h)
-
 description: Gets the length of the selector part of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
 old-location: mstv\iisdbdatacontentdescriptor_getselectorlength.htm
 tech.root: mstv
 ms.assetid: 485ac963-e85a-41cc-adcd-93590b327061
-
 ms.date: 12/05/2018
 ms.keywords: GetSelectorLength, GetSelectorLength method [Microsoft TV Technologies], GetSelectorLength method [Microsoft TV Technologies],IIsdbDataContentDescriptor interface, IIsdbDataContentDescriptor interface [Microsoft TV Technologies],GetSelectorLength method, IIsdbDataContentDescriptor.GetSelectorLength, IIsdbDataContentDescriptor::GetSelectorLength, dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength, mstv.iisdbdatacontentdescriptor_getselectorlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IIsdbDataContentDescriptor.GetSelectorLength"
+f1_keywords:
+- dvbsiparser/IIsdbDataContentDescriptor.GetSelectorLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbDataContentDescriptor.GetSelectorLength
+- IIsdbDataContentDescriptor.GetSelectorLength
 targetos: Windows
 req.typenames: 
 req.redist: 

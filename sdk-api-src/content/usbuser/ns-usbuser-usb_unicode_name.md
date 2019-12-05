@@ -1,19 +1,17 @@
 ---
 UID: NS:usbuser._USB_UNICODE_NAME
 title: USB_UNICODE_NAME (usbuser.h)
-
 description: The USB_UNICODE_NAME structure contains a Unicode string that specifies a symbolic link name.
 old-location: buses\usb_unicode_name.htm
 tech.root: usbref
 ms.assetid: d388332c-2f7c-410f-88f4-d0e56fed7a99
-
 ms.date: 12/05/2018
-ms.keywords: "*PUSB_UNICODE_NAME, PUSB_UNICODE_NAME, PUSB_UNICODE_NAME structure pointer [Buses], USB_UNICODE_NAME, USB_UNICODE_NAME structure [Buses], buses.usb_unicode_name, usbstrct_6c02ad3d-6b23-469c-86ea-90edf02c1ad8.xml, usbuser/PUSB_UNICODE_NAME, usbuser/USB_UNICODE_NAME"
+ms.keywords: '*PUSB_UNICODE_NAME, PUSB_UNICODE_NAME, PUSB_UNICODE_NAME structure pointer [Buses], USB_UNICODE_NAME, USB_UNICODE_NAME structure [Buses], buses.usb_unicode_name, usbstrct_6c02ad3d-6b23-469c-86ea-90edf02c1ad8.xml, usbuser/PUSB_UNICODE_NAME, usbuser/USB_UNICODE_NAME'
 ms.topic: struct
-f1_keywords: 
- - "usbuser/USB_UNICODE_NAME"
+f1_keywords:
+- usbuser/USB_UNICODE_NAME
 dev_langs:
- - c++
+- c++
 req.header: usbuser.h
 req.include-header: Usbuser.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - usbuser.h
+- usbuser.h
 api_name:
- - USB_UNICODE_NAME
+- USB_UNICODE_NAME
 targetos: Windows
 req.typenames: USB_UNICODE_NAME, *PUSB_UNICODE_NAME
 req.redist: 

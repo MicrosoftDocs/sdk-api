@@ -1,19 +1,17 @@
 ---
 UID: NS:ipsectypes.IPSEC_SA_IDLE_TIMEOUT0_
 title: IPSEC_SA_IDLE_TIMEOUT0 (ipsectypes.h)
-
 description: The security association (SA) idle timeout in IPsec policy.
 old-location: fwp\ipsec_sa_idle_timeout0.htm
 tech.root: fwp
 ms.assetid: 99113c80-1e2a-4878-9b18-502cfb1e43cc
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_SA_IDLE_TIMEOUT0, IPSEC_SA_IDLE_TIMEOUT0 structure [Filtering], fwp.ipsec_sa_idle_timeout0, ipsectypes/IPSEC_SA_IDLE_TIMEOUT0
 ms.topic: struct
-f1_keywords: 
- - "ipsectypes/IPSEC_SA_IDLE_TIMEOUT0"
+f1_keywords:
+- ipsectypes/IPSEC_SA_IDLE_TIMEOUT0
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_SA_IDLE_TIMEOUT0
+- IPSEC_SA_IDLE_TIMEOUT0
 targetos: Windows
 req.typenames: IPSEC_SA_IDLE_TIMEOUT0
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.GetCurrentQueuedRequests
 title: IThreadPoolKnobs::GetCurrentQueuedRequests (comsvcs.h)
-
 description: Retrieves the number of asynchronous execution requests that are currently queued.
 old-location: cos\ithreadpoolknobs_getcurrentqueuedrequests.htm
 tech.root: cossdk
 ms.assetid: 2ff8ffce-2e53-4e33-bf1d-7d46c5ae12bb
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentQueuedRequests, GetCurrentQueuedRequests method [COM+], GetCurrentQueuedRequests method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetCurrentQueuedRequests method, IThreadPoolKnobs.GetCurrentQueuedRequests, IThreadPoolKnobs::GetCurrentQueuedRequests, _cos_IThreadPoolKnobs_GetCurrentQueuedRequests, comsvcs/IThreadPoolKnobs::GetCurrentQueuedRequests, cos.ithreadpoolknobs_getcurrentqueuedrequests
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IThreadPoolKnobs.GetCurrentQueuedRequests"
+f1_keywords:
+- comsvcs/IThreadPoolKnobs.GetCurrentQueuedRequests
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IThreadPoolKnobs.GetCurrentQueuedRequests
+- IThreadPoolKnobs.GetCurrentQueuedRequests
 targetos: Windows
 req.typenames: 
 req.redist: 

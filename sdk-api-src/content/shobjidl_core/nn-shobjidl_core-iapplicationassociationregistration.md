@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IApplicationAssociationRegistration
 title: IApplicationAssociationRegistration (shobjidl_core.h)
-
 description: Exposes methods that query and set default applications for specific file Association Type, and protocols at a specific Association Level.
 old-location: shell\IApplicationAssociationRegistration.htm
 tech.root: shell
 ms.assetid: 015a3be4-2e74-4a2b-8c02-54dcbf0ecacd
-
 ms.date: 12/05/2018
 ms.keywords: IApplicationAssociationRegistration, IApplicationAssociationRegistration interface [Windows Shell], IApplicationAssociationRegistration interface [Windows Shell],described, _shell_IApplicationAssociationRegistration, shell.IApplicationAssociationRegistration, shobjidl_core/IApplicationAssociationRegistration
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IApplicationAssociationRegistration"
+f1_keywords:
+- shobjidl_core/IApplicationAssociationRegistration
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IApplicationAssociationRegistration
+- IApplicationAssociationRegistration
 targetos: Windows
 req.typenames: 
 req.redist: 

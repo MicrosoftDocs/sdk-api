@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetLineMetrics
 title: IDWriteTextLayout::GetLineMetrics (dwrite.h)
-
 description: Retrieves the information about each individual text line of the text string.
 old-location: directwrite\IDWriteTextLayout_GetLineMetrics.htm
 tech.root: DirectWrite
 ms.assetid: 30f49632-d7fa-44e2-b289-2ad658e0c867
-
 ms.date: 12/05/2018
 ms.keywords: GetLineMetrics, GetLineMetrics method [Direct Write], GetLineMetrics method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetLineMetrics method, IDWriteTextLayout.GetLineMetrics, IDWriteTextLayout::GetLineMetrics, directwrite.IDWriteTextLayout_GetLineMetrics, dwrite/IDWriteTextLayout::GetLineMetrics
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteTextLayout.GetLineMetrics"
+f1_keywords:
+- dwrite/IDWriteTextLayout.GetLineMetrics
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteTextLayout.GetLineMetrics
+- IDWriteTextLayout.GetLineMetrics
 targetos: Windows
 req.typenames: 
 req.redist: 

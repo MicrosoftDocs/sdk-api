@@ -1,19 +1,17 @@
 ---
 UID: NN:photoacquire.IUserInputString
 title: IUserInputString (photoacquire.h)
-
 description: The IUserInputString interface represents the object created when asking the user for a string&#8212;for example, when obtaining the name of a tag.
 old-location: picacq\iuserinputstring.htm
 tech.root: acquisition
 ms.assetid: f942fefc-2db1-4067-8311-f9ebbaca9d31
-
 ms.date: 12/05/2018
 ms.keywords: IUserInputString, IUserInputString interface [Picture Acquisition], IUserInputString interface [Picture Acquisition],described, IUserInputStringInterface, photoacquire/IUserInputString, picacq.iuserinputstring
 ms.topic: interface
-f1_keywords: 
- - "photoacquire/IUserInputString"
+f1_keywords:
+- photoacquire/IUserInputString
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - photoacquire.h
+- photoacquire.h
 api_name:
- - IUserInputString
+- IUserInputString
 targetos: Windows
 req.typenames: 
 req.redist: 

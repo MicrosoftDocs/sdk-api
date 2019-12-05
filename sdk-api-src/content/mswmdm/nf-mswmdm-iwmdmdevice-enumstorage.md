@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.EnumStorage
 title: IWMDMDevice::EnumStorage (mswmdm.h)
-
 description: The EnumStorage method retrieves an IWMDMEnumStorage interface to enumerate the storages on a device.
 old-location: wmdm\iwmdmdevice_enumstorage.htm
 tech.root: WMDM
 ms.assetid: ffd3c51a-7ec2-4ce5-9260-2b08bfa88a99
-
 ms.date: 12/05/2018
 ms.keywords: EnumStorage, EnumStorage method [windows Media Device Manager], EnumStorage method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],EnumStorage method, IWMDMDevice.EnumStorage, IWMDMDevice::EnumStorage, IWMDMDeviceEnumStorage, mswmdm/IWMDMDevice::EnumStorage, wmdm.iwmdmdevice_enumstorage
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IWMDMDevice.EnumStorage"
+f1_keywords:
+- mswmdm/IWMDMDevice.EnumStorage
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IWMDMDevice.EnumStorage
+- IWMDMDevice.EnumStorage
 targetos: Windows
 req.typenames: 
 req.redist: 

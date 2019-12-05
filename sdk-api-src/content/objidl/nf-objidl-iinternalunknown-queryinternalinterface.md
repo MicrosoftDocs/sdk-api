@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IInternalUnknown.QueryInternalInterface
 title: IInternalUnknown::QueryInternalInterface (objidl.h)
-
 description: Retrieves pointers to the supported internal interfaces on an object.
 old-location: com\iinternalunknown_queryinternalinterface.htm
 tech.root: com
 ms.assetid: 7fa3478a-126c-43d9-851f-effa016c33f2
-
 ms.date: 12/05/2018
 ms.keywords: IInternalUnknown interface [COM],QueryInternalInterface method, IInternalUnknown.QueryInternalInterface, IInternalUnknown::QueryInternalInterface, QueryInternalInterface, QueryInternalInterface method [COM], QueryInternalInterface method [COM],IInternalUnknown interface, _com_iinternalunknown_queryinternalinterface, com.iinternalunknown_queryinternalinterface, objidlbase/IInternalUnknown::QueryInternalInterface
 ms.topic: method
-f1_keywords: 
- - "objidl/IInternalUnknown.QueryInternalInterface"
+f1_keywords:
+- objidl/IInternalUnknown.QueryInternalInterface
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: ObjIdl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - objidlbase.h
+- objidlbase.h
 api_name:
- - IInternalUnknown.QueryInternalInterface
+- IInternalUnknown.QueryInternalInterface
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IBlockingLock.Unlock
 title: IBlockingLock::Unlock (objidl.h)
-
 description: Releases a lock on a shared resource.
 old-location: com\iblockinglock_unlock.htm
 tech.root: com
 ms.assetid: 152c2d72-fa49-4213-8916-81a6383900cc
-
 ms.date: 12/05/2018
 ms.keywords: IBlockingLock interface [COM],Unlock method, IBlockingLock.Unlock, IBlockingLock::Unlock, Unlock, Unlock method [COM], Unlock method [COM],IBlockingLock interface, _com_iblockinglock_unlock, com.iblockinglock_unlock, objidl/IBlockingLock::Unlock
 ms.topic: method
-f1_keywords: 
- - "objidl/IBlockingLock.Unlock"
+f1_keywords:
+- objidl/IBlockingLock.Unlock
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBlockingLock.Unlock
+- IBlockingLock.Unlock
 targetos: Windows
 req.typenames: 
 req.redist: 

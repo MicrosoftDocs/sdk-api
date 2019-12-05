@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallback.MapCharacters
 title: IDWriteFontFallback::MapCharacters (dwrite_2.h)
-
 description: Determines an appropriate font to use to render the beginning range of text.
 old-location: directwrite\idwritefontfallback_mapcharacters.htm
 tech.root: DirectWrite
 ms.assetid: 9D3DBBF7-72D4-473D-A321-E64BC94493D5
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteFontFallback interface [Direct Write],MapCharacters method, IDWriteFontFallback.MapCharacters, IDWriteFontFallback::MapCharacters, MapCharacters, MapCharacters method [Direct Write], MapCharacters method [Direct Write],IDWriteFontFallback interface, directwrite.idwritefontfallback_mapcharacters, dwrite_2/IDWriteFontFallback::MapCharacters
 ms.topic: method
-f1_keywords: 
- - "dwrite_2/IDWriteFontFallback.MapCharacters"
+f1_keywords:
+- dwrite_2/IDWriteFontFallback.MapCharacters
 dev_langs:
- - c++
+- c++
 req.header: dwrite_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFontFallback.MapCharacters
+- IDWriteFontFallback.MapCharacters
 targetos: Windows
 req.typenames: 
 req.redist: 

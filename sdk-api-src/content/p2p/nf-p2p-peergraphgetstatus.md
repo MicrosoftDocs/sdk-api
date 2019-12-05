@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphGetStatus
 title: PeerGraphGetStatus function (p2p.h)
-
 description: The PeerGraphGetStatus function returns the current status of the peer graph.
 old-location: p2p\peergraphgetstatus.htm
 tech.root: P2PSdk
 ms.assetid: a7d23640-4f69-4ce0-996f-562807db7768
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetStatus, PeerGraphGetStatus function [Peer Networking], p2p.peergraphgetstatus, p2p/PeerGraphGetStatus
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphGetStatus"
+f1_keywords:
+- p2p/PeerGraphGetStatus
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphGetStatus
+- PeerGraphGetStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

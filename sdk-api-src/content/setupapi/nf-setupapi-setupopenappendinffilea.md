@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupOpenAppendInfFileA
 title: SetupOpenAppendInfFileA function (setupapi.h)
-
 description: The SetupOpenAppendInfFile function appends the information in an INF file to an INF file previously opened by SetupOpenInfFile.
 old-location: setup\setupopenappendinffile.htm
 tech.root: SetupApi
 ms.assetid: 12b1c676-912f-4876-998c-6b0ff162b95d
-
 ms.date: 12/05/2018
 ms.keywords: SetupOpenAppendInfFile, SetupOpenAppendInfFile function [Setup API], SetupOpenAppendInfFileA, SetupOpenAppendInfFileW, _setupapi_setupopenappendinffile, setup.setupopenappendinffile, setupapi/SetupOpenAppendInfFile, setupapi/SetupOpenAppendInfFileA, setupapi/SetupOpenAppendInfFileW
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupOpenAppendInfFile"
+f1_keywords:
+- setupapi/SetupOpenAppendInfFile
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupOpenAppendInfFile
- - SetupOpenAppendInfFileA
- - SetupOpenAppendInfFileW
+- SetupOpenAppendInfFile
+- SetupOpenAppendInfFileA
+- SetupOpenAppendInfFileW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:batclass.__unnamed_struct_1
 title: BATTERY_NOTIFY (batclass.h)
-
 description: A battery miniclass driver receives a BATTERY_NOTIFY structure when its BatteryMiniSetStatusNotify routine is called.
 old-location: battery\battery_notify.htm
 tech.root: battery
 ms.assetid: 5bf89418-1d18-460b-b1d1-db6fbb390bc8
-
 ms.date: 12/05/2018
-ms.keywords: "*PBATTERY_NOTIFY, BATTERY_NOTIFY, BATTERY_NOTIFY structure [Battery Devices], PBATTERY_NOTIFY, PBATTERY_NOTIFY structure pointer [Battery Devices], bat-struct_cd1e6dc5-678c-4529-b852-2832ce2e791b.xml, batclass/BATTERY_NOTIFY, batclass/PBATTERY_NOTIFY, battery.battery_notify"
+ms.keywords: '*PBATTERY_NOTIFY, BATTERY_NOTIFY, BATTERY_NOTIFY structure [Battery Devices], PBATTERY_NOTIFY, PBATTERY_NOTIFY structure pointer [Battery Devices], bat-struct_cd1e6dc5-678c-4529-b852-2832ce2e791b.xml, batclass/BATTERY_NOTIFY, batclass/PBATTERY_NOTIFY, battery.battery_notify'
 ms.topic: struct
-f1_keywords: 
- - "batclass/BATTERY_NOTIFY"
+f1_keywords:
+- batclass/BATTERY_NOTIFY
 dev_langs:
- - c++
+- c++
 req.header: batclass.h
 req.include-header: Batclass.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - batclass.h
+- batclass.h
 api_name:
- - BATTERY_NOTIFY
+- BATTERY_NOTIFY
 targetos: Windows
 req.typenames: BATTERY_NOTIFY, *PBATTERY_NOTIFY
 req.redist: 

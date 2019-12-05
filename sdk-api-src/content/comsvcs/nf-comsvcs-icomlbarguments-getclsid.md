@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICOMLBArguments.GetCLSID
 title: ICOMLBArguments::GetCLSID (comsvcs.h)
-
 description: Retrieves the object's CLSID.
 old-location: cos\icomlbarguments_getclsid.htm
 tech.root: cossdk
 ms.assetid: 0475bd9e-dcde-47e4-b9e4-bcaa6d0ad919
-
 ms.date: 12/05/2018
 ms.keywords: GetCLSID, GetCLSID method [COM+], GetCLSID method [COM+],ICOMLBArguments interface, ICOMLBArguments interface [COM+],GetCLSID method, ICOMLBArguments.GetCLSID, ICOMLBArguments::GetCLSID, _cos_ICOMLBArguments_GetCLSID, comsvcs/ICOMLBArguments::GetCLSID, cos.icomlbarguments_getclsid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICOMLBArguments.GetCLSID"
+f1_keywords:
+- comsvcs/ICOMLBArguments.GetCLSID
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICOMLBArguments.GetCLSID
+- ICOMLBArguments.GetCLSID
 targetos: Windows
 req.typenames: 
 req.redist: 

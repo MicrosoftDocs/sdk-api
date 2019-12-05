@@ -1,19 +1,17 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_19
 title: GenTspec (lpmapi.h)
-
 description: The GenTspec structure stores generic Tspec information.
 old-location: qos\gentspec.htm
 tech.root: QOS
 ms.assetid: cefd94ed-ed54-471d-97fc-d523cedd71d6
-
 ms.date: 12/05/2018
 ms.keywords: GenTspec, GenTspec structure [QOS], lpmapi/GenTspec, qos.gentspec
 ms.topic: struct
-f1_keywords: 
- - "lpmapi/GenTspec"
+f1_keywords:
+- lpmapi/GenTspec
 dev_langs:
- - c++
+- c++
 req.header: lpmapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Lpmapi.h
+- Lpmapi.h
 api_name:
- - GenTspec
+- GenTspec
 targetos: Windows
 req.typenames: GenTspec
 req.redist: 

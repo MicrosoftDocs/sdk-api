@@ -1,19 +1,17 @@
 ---
 UID: NC:dpa_dsa.PFNDAENUMCALLBACK
 title: PFNDAENUMCALLBACK (dpa_dsa.h)
-
 description: Defines the prototype for the callback function used by dynamic structure array (DSA) and dynamic pointer array (DPA) functions.
 old-location: controls\PFNDAENUMCALLBACK.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\pfndaenumcallback.htm
-
 ms.date: 12/05/2018
 ms.keywords: PFNDAENUMCALLBACK, PFNDAENUMCALLBACK callback, PFNDAENUMCALLBACK callback function [Windows Controls], PFNDPAENUMCALLBACK, PFNDSAENUMCALLBACK, _shell_PFNDAENUMCALLBACK, _shell_PFNDAENUMCALLBACK_cpp, controls.PFNDAENUMCALLBACK, controls._shell_PFNDAENUMCALLBACK, dpa_dsa/PFNDAENUMCALLBACK
 ms.topic: callback
-f1_keywords: 
- - "dpa_dsa/PFNDAENUMCALLBACK"
+f1_keywords:
+- dpa_dsa/PFNDAENUMCALLBACK
 dev_langs:
- - c++
+- c++
 req.header: dpa_dsa.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - dpa_dsa.h
+- dpa_dsa.h
 api_name:
- - PFNDAENUMCALLBACK
+- PFNDAENUMCALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

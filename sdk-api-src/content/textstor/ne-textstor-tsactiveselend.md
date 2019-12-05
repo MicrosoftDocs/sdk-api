@@ -1,19 +1,17 @@
 ---
 UID: NE:textstor.__MIDL___MIDL_itf_textstor_0000_0000_0001
 title: TsActiveSelEnd (textstor.h)
-
 description: Elements of the TsActiveSelEnd enumeration specify which end of a text store selection is active.
 old-location: tsf\tsactiveselend.htm
 tech.root: TSF
 ms.assetid: 95695f10-2296-41fe-b2b4-efae548292bb
-
 ms.date: 12/05/2018
 ms.keywords: TS_AE_END, TS_AE_NONE, TS_AE_START, TsActiveSelEnd, TsActiveSelEnd enumeration [Text Services Framework], _tsf_tsactiveselend_ref, textstor/TS_AE_END, textstor/TS_AE_NONE, textstor/TS_AE_START, textstor/TsActiveSelEnd, tsf.tsactiveselend
 ms.topic: enum
-f1_keywords: 
- - "textstor/TsActiveSelEnd"
+f1_keywords:
+- textstor/TsActiveSelEnd
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TsActiveSelEnd
+- TsActiveSelEnd
 targetos: Windows
 req.typenames: TsActiveSelEnd
 req.redist: TSF 1.0 on Windows 2000 Professional

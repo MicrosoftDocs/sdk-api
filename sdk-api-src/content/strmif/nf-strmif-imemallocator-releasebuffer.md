@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IMemAllocator.ReleaseBuffer
 title: IMemAllocator::ReleaseBuffer (strmif.h)
-
 description: The ReleaseBuffer method releases a media sample.
 old-location: dshow\imemallocator_releasebuffer.htm
 tech.root: DirectShow
 ms.assetid: 96e02a28-af92-41a7-8251-c4ab15190651
-
 ms.date: 12/05/2018
 ms.keywords: IMemAllocator interface [DirectShow],ReleaseBuffer method, IMemAllocator.ReleaseBuffer, IMemAllocator::ReleaseBuffer, IMemAllocatorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IMemAllocator interface, dshow.imemallocator_releasebuffer, strmif/IMemAllocator::ReleaseBuffer
 ms.topic: method
-f1_keywords: 
- - "strmif/IMemAllocator.ReleaseBuffer"
+f1_keywords:
+- strmif/IMemAllocator.ReleaseBuffer
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMemAllocator.ReleaseBuffer
+- IMemAllocator.ReleaseBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

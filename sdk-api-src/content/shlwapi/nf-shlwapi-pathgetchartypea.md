@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathGetCharTypeA
 title: PathGetCharTypeA function (shlwapi.h)
-
 description: Determines the type of character in relation to a path.
 old-location: shell\PathGetCharType.htm
 tech.root: shell
 ms.assetid: 838a255f-413e-424c-819e-47265224208d
-
 ms.date: 12/05/2018
 ms.keywords: PathGetCharType, PathGetCharType function [Windows Shell], PathGetCharTypeA, PathGetCharTypeW, _win32_PathGetCharType, shell.PathGetCharType, shlwapi/PathGetCharType, shlwapi/PathGetCharTypeA, shlwapi/PathGetCharTypeW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathGetCharType"
+f1_keywords:
+- shlwapi/PathGetCharType
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathGetCharType
- - PathGetCharTypeA
- - PathGetCharTypeW
+- PathGetCharType
+- PathGetCharTypeA
+- PathGetCharTypeW
 targetos: Windows
 req.typenames: 
 req.redist: 

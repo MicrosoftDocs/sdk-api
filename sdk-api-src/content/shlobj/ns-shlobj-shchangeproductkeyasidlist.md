@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj._SHChangeProductKeyAsIDList
 title: SHChangeProductKeyAsIDList (shlobj.h)
-
 description: SHChangeProductKeyAsIDList structure
 old-location: shell\SHChangeProductKeyAsIDList.htm
 tech.root: shell
 ms.assetid: 98aba08d-518c-4ff9-af3d-c9a92b6fe5ab
-
 ms.date: 12/05/2018
-ms.keywords: "*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList structure [Windows Shell], _shell_shchangeproductkeyasidlist, shell.SHChangeProductKeyAsIDList, shlobj/SHChangeProductKeyAsIDList"
+ms.keywords: '*LPSHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList, SHChangeProductKeyAsIDList structure [Windows Shell], _shell_shchangeproductkeyasidlist, shell.SHChangeProductKeyAsIDList, shlobj/SHChangeProductKeyAsIDList'
 ms.topic: struct
-f1_keywords: 
- - "shlobj/SHChangeProductKeyAsIDList"
+f1_keywords:
+- shlobj/SHChangeProductKeyAsIDList
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shlobj.h
+- Shlobj.h
 api_name:
- - SHChangeProductKeyAsIDList
+- SHChangeProductKeyAsIDList
 targetos: Windows
 req.typenames: SHChangeProductKeyAsIDList, *LPSHChangeProductKeyAsIDList
 req.redist: 

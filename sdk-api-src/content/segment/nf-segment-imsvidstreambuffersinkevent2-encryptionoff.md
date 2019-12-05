@@ -1,19 +1,17 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSinkEvent2.EncryptionOff
 title: IMSVidStreamBufferSinkEvent2::EncryptionOff (segment.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
 old-location: mstv\imsvidstreambuffersinkevent2_encryptionoff.htm
 tech.root: mstv
 ms.assetid: a4798851-b8e1-4b49-aba9-b8b06d91280d
-
 ms.date: 12/05/2018
 ms.keywords: EncryptionOff, EncryptionOff method [Microsoft TV Technologies], EncryptionOff method [Microsoft TV Technologies],IMSVidStreamBufferSinkEvent2 interface, IMSVidStreamBufferSinkEvent2 interface [Microsoft TV Technologies],EncryptionOff method, IMSVidStreamBufferSinkEvent2.EncryptionOff, IMSVidStreamBufferSinkEvent2::EncryptionOff, IMSVidStreamBufferSinkEvent2EncryptionOff, mstv.imsvidstreambuffersinkevent2_encryptionoff, segment/IMSVidStreamBufferSinkEvent2::EncryptionOff
 ms.topic: method
-f1_keywords: 
- - "segment/IMSVidStreamBufferSinkEvent2.EncryptionOff"
+f1_keywords:
+- segment/IMSVidStreamBufferSinkEvent2.EncryptionOff
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidStreamBufferSinkEvent2.EncryptionOff
+- IMSVidStreamBufferSinkEvent2.EncryptionOff
 targetos: Windows
 req.typenames: 
 req.redist: 

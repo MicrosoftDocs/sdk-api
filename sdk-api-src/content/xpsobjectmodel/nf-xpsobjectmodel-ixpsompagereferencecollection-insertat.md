@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReferenceCollection.InsertAt
 title: IXpsOMPageReferenceCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IXpsOMPageReference interface pointer at a specified location in the collection.
 old-location: xps\ixpsompagereferencecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 829d0b81-90e2-4051-a9a7-7f71602f8c13
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPageReferenceCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPageReferenceCollection.InsertAt, IXpsOMPageReferenceCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPageReferenceCollection interface, xps.ixpsompagereferencecollection_insertat, xpsobjectmodel/IXpsOMPageReferenceCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReferenceCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReferenceCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReferenceCollection.InsertAt
+- IXpsOMPageReferenceCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

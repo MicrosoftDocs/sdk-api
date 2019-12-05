@@ -1,19 +1,17 @@
 ---
 UID: NS:shappmgr._AppInfoData
 title: APPINFODATA (shappmgr.h)
-
 description: Provides information about a published application to the Add/Remove Programs Control Panel utility.
 old-location: shell\APPINFODATA.htm
 tech.root: shell
 ms.assetid: 3560b088-d899-4fb2-a47c-101f8f5e3bf7
-
 ms.date: 12/05/2018
-ms.keywords: "*PAPPINFODATA, APPINFODATA, APPINFODATA structure [Windows Shell], inet_APPINFODATA, shappmgr/APPINFODATA, shell.APPINFODATA"
+ms.keywords: '*PAPPINFODATA, APPINFODATA, APPINFODATA structure [Windows Shell], inet_APPINFODATA, shappmgr/APPINFODATA, shell.APPINFODATA'
 ms.topic: struct
-f1_keywords: 
- - "shappmgr/APPINFODATA"
+f1_keywords:
+- shappmgr/APPINFODATA
 dev_langs:
- - c++
+- c++
 req.header: shappmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shappmgr.h
+- Shappmgr.h
 api_name:
- - APPINFODATA
+- APPINFODATA
 targetos: Windows
 req.typenames: APPINFODATA, *PAPPINFODATA
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:madcapcl._MCAST_LEASE_REQUEST
 title: MCAST_LEASE_REQUEST (madcapcl.h)
-
 description: The MCAST_LEASE_REQUEST structure defines the request, renew, or release parameters for a given multicast scope. In the MCAST_API_VERSION_1 implementation, only one IP address may be allocated at a time.
 old-location: madcap\mcast_lease_request.htm
 tech.root: Madcap
 ms.assetid: 3110a1f3-e252-4eab-bf69-cbecfd65a5e0
-
 ms.date: 12/05/2018
 ms.keywords: '*PMCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST, MCAST_LEASE_REQUEST structure [MADCAP], PMCAST_LEASE_REQUEST, PMCAST_LEASE_REQUEST structure pointer [MADCAP], _mdhcp_mcast_lease_request, madcap.mcast_lease_request, madcapcl/MCAST_LEASE_REQUEST, madcapcl/PMCAST_LEASE_REQUEST'
 ms.topic: struct
 f1_keywords:
 - madcapcl/MCAST_LEASE_REQUEST
 dev_langs:
- - c++
+- c++
 req.header: madcapcl.h
 req.include-header: 
 req.target-type: Windows

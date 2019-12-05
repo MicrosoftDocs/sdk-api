@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.ASSOCIATIONTYPE
 title: ASSOCIATIONTYPE (shobjidl_core.h)
-
 description: Specifies the type of association for an application. Used by methods of the IApplicationAssociationRegistration interface.
 old-location: shell\ASSOCIATIONTYPE.htm
 tech.root: shell
 ms.assetid: 3dbbe748-5e83-4103-932a-b51a2a55f9fd
-
 ms.date: 12/05/2018
 ms.keywords: ASSOCIATIONTYPE, ASSOCIATIONTYPE enumeration [Windows Shell], AT_FILEEXTENSION, AT_MIMETYPE, AT_STARTMENUCLIENT, AT_URLPROTOCOL, _shell_ASSOCIATIONTYPE, shell.ASSOCIATIONTYPE, shobjidl_core/ASSOCIATIONTYPE, shobjidl_core/AT_FILEEXTENSION, shobjidl_core/AT_MIMETYPE, shobjidl_core/AT_STARTMENUCLIENT, shobjidl_core/AT_URLPROTOCOL
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/ASSOCIATIONTYPE"
+f1_keywords:
+- shobjidl_core/ASSOCIATIONTYPE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ASSOCIATIONTYPE
+- ASSOCIATIONTYPE
 targetos: Windows
 req.typenames: ASSOCIATIONTYPE
 req.redist: 

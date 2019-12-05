@@ -1,19 +1,17 @@
 ---
 UID: NN:wmiutils.IWbemPathKeyList
 title: IWbemPathKeyList (wmiutils.h)
-
 description: Used to access the details of the path keys.
 old-location: wmi\iwbempathkeylist.htm
 tech.root: WmiSdk
 ms.assetid: 5b188426-9d7f-4e87-9eed-ce80e5d93c30
-
 ms.date: 12/05/2018
 ms.keywords: IWbemPathKeyList, IWbemPathKeyList interface [Windows Management Instrumentation], IWbemPathKeyList interface [Windows Management Instrumentation],described, _hmm_iwbempathkeylist, wmi.iwbempathkeylist, wmiutils/IWbemPathKeyList
 ms.topic: interface
-f1_keywords: 
- - "wmiutils/IWbemPathKeyList"
+f1_keywords:
+- wmiutils/IWbemPathKeyList
 dev_langs:
- - c++
+- c++
 req.header: wmiutils.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wbemuuid.lib
 req.dll: Wmiutils.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmiutils.dll
+- Wmiutils.dll
 api_name:
- - IWbemPathKeyList
+- IWbemPathKeyList
 targetos: Windows
 req.typenames: 
 req.redist: 

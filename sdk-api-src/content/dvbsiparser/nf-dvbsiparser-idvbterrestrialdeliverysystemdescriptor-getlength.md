@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetLength
 title: IDvbTerrestrialDeliverySystemDescriptor::GetLength (dvbsiparser.h)
-
 description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 14677ccd-fe8a-4d0f-9229-891bb0b5c35a
-
 ms.date: 12/05/2018
 ms.keywords: GetLength, GetLength method [Microsoft TV Technologies], GetLength method [Microsoft TV Technologies],IDvbTerrestrialDeliverySystemDescriptor interface, IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies],GetLength method, IDvbTerrestrialDeliverySystemDescriptor.GetLength, IDvbTerrestrialDeliverySystemDescriptor::GetLength, IDvbTerrestrialDeliverySystemDescriptorGetLength, dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetLength, mstv.idvbterrestrialdeliverysystemdescriptor_getlength
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetLength"
+f1_keywords:
+- dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor.GetLength
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor.GetLength
+- IDvbTerrestrialDeliverySystemDescriptor.GetLength
 targetos: Windows
 req.typenames: 
 req.redist: 

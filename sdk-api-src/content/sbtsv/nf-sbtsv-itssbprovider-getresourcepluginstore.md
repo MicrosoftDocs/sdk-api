@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbProvider.GetResourcePluginStore
 title: ITsSbProvider::GetResourcePluginStore (sbtsv.h)
-
 description: Retrieves an ITsSbResourcePluginStore instance of the resource plug-in store.
 old-location: termserv\itssbprovider_getresourcepluginstore.htm
 tech.root: TermServ
 ms.assetid: 9e4d5b1d-100e-49e1-b1b5-4b126683c329
-
 ms.date: 12/05/2018
 ms.keywords: GetResourcePluginStore, GetResourcePluginStore method [Remote Desktop Services], GetResourcePluginStore method [Remote Desktop Services],ITsSbProvider interface, ITsSbProvider interface [Remote Desktop Services],GetResourcePluginStore method, ITsSbProvider.GetResourcePluginStore, ITsSbProvider::GetResourcePluginStore, sbtsv/ITsSbProvider::GetResourcePluginStore, termserv.itssbprovider_getresourcepluginstore
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbProvider.GetResourcePluginStore"
+f1_keywords:
+- sbtsv/ITsSbProvider.GetResourcePluginStore
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbProvider.GetResourcePluginStore
+- ITsSbProvider.GetResourcePluginStore
 targetos: Windows
 req.typenames: 
 req.redist: 

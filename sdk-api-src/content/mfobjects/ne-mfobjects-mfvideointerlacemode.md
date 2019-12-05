@@ -1,19 +1,17 @@
 ---
 UID: NE:mfobjects._MFVideoInterlaceMode
 title: MFVideoInterlaceMode (mfobjects.h)
-
 description: Specifies how a video stream is interlaced.
 old-location: mf\mfvideointerlacemode.htm
 tech.root: medfound
 ms.assetid: 10a3d7b1-74ed-46cd-b10e-59a8f01726d5
-
 ms.date: 12/05/2018
 ms.keywords: 10a3d7b1-74ed-46cd-b10e-59a8f01726d5, MFVideoInterlaceMode, MFVideoInterlaceMode enumeration [Media Foundation], MFVideoInterlace_FieldInterleavedLowerFirst, MFVideoInterlace_FieldInterleavedUpperFirst, MFVideoInterlace_FieldSingleLower, MFVideoInterlace_FieldSingleUpper, MFVideoInterlace_ForceDWORD, MFVideoInterlace_Last, MFVideoInterlace_MixedInterlaceOrProgressive, MFVideoInterlace_Progressive, MFVideoInterlace_Unknown, mf.mfvideointerlacemode, mfobjects/MFVideoInterlaceMode, mfobjects/MFVideoInterlace_FieldInterleavedLowerFirst, mfobjects/MFVideoInterlace_FieldInterleavedUpperFirst, mfobjects/MFVideoInterlace_FieldSingleLower, mfobjects/MFVideoInterlace_FieldSingleUpper, mfobjects/MFVideoInterlace_ForceDWORD, mfobjects/MFVideoInterlace_Last, mfobjects/MFVideoInterlace_MixedInterlaceOrProgressive, mfobjects/MFVideoInterlace_Progressive, mfobjects/MFVideoInterlace_Unknown
 ms.topic: enum
-f1_keywords: 
- - "mfobjects/MFVideoInterlaceMode"
+f1_keywords:
+- mfobjects/MFVideoInterlaceMode
 dev_langs:
- - c++
+- c++
 req.header: mfobjects.h
 req.include-header: Mfidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfobjects.h
+- mfobjects.h
 api_name:
- - MFVideoInterlaceMode
+- MFVideoInterlaceMode
 targetos: Windows
 req.typenames: MFVideoInterlaceMode
 req.redist: 

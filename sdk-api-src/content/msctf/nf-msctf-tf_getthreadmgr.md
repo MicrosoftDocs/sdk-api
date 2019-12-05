@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.TF_GetThreadMgr
 title: TF_GetThreadMgr function (msctf.h)
-
 description: The TF_GetThreadMgr function obtains a copy of a thread manager object previously created within the calling thread.
 old-location: tsf\tf_getthreadmgr.htm
 tech.root: TSF
 ms.assetid: f8e3ed16-7a4f-424a-ae6d-4f81ab344af0
-
 ms.date: 12/05/2018
 ms.keywords: TF_GetThreadMgr, TF_GetThreadMgr function [Text Services Framework], msctf/TF_GetThreadMgr, tsf.tf_getthreadmgr
 ms.topic: function
-f1_keywords: 
- - "msctf/TF_GetThreadMgr"
+f1_keywords:
+- msctf/TF_GetThreadMgr
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - TF_GetThreadMgr
+- TF_GetThreadMgr
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows XPWindows 2000 Professional

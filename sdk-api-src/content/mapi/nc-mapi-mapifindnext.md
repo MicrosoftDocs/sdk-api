@@ -1,19 +1,17 @@
 ---
 UID: NC:mapi.MAPIFINDNEXT
 title: MAPIFINDNEXT (mapi.h)
-
 description: The MAPIFindNext function retrieves the next (or first) message identifier of a specified type of incoming message.
 old-location: mapi\mapifindnext.htm
 tech.root: WindowsMAPI
 ms.assetid: 6c11e88c-2883-4486-9679-2bdf0b30b8b0
-
 ms.date: 12/05/2018
 ms.keywords: MAPIFindNext, MAPIFindNext callback, MAPIFindNext callback function, MAPI_GUARANTEE_FIFO, MAPI_LONG_MSGID, MAPI_UNREAD_ONLY, mapi.mapifindnext, mapi/MAPIFindNext
 ms.topic: callback
-f1_keywords: 
- - "mapi/MAPIFindNext"
+f1_keywords:
+- mapi/MAPIFindNext
 dev_langs:
- - c++
+- c++
 req.header: mapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mapi.h
+- Mapi.h
 api_name:
- - MAPIFindNext
+- MAPIFindNext
 targetos: Windows
 req.typenames: 
 req.redist: 

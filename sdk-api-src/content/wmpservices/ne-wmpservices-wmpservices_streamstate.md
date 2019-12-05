@@ -1,19 +1,17 @@
 ---
 UID: NE:wmpservices.WMPServices_StreamState
 title: WMPServices_StreamState (wmpservices.h)
-
 description: The WMPServices_StreamState enumeration indicates whether the stream is currently stopped, paused, or playing.
 old-location: wmp\wmpservices_streamstate.htm
 tech.root: WMP
 ms.assetid: 82c4699a-197c-4429-afa8-b1fc47a1f47a
-
 ms.date: 12/05/2018
 ms.keywords: WMPServices_StreamState, WMPServices_StreamState enumeration [Windows Media Player], WMPServices_StreamStateDSP, WMPServices_StreamState_Pause, WMPServices_StreamState_Play, WMPServices_StreamState_Stop, wmp.wmpservices_streamstate, wmpservices/WMPServices_StreamState, wmpservices/WMPServices_StreamState_Pause, wmpservices/WMPServices_StreamState_Play, wmpservices/WMPServices_StreamState_Stop
 ms.topic: enum
-f1_keywords: 
- - "wmpservices/WMPServices_StreamState"
+f1_keywords:
+- wmpservices/WMPServices_StreamState
 dev_langs:
- - c++
+- c++
 req.header: wmpservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wmpservices.h
+- wmpservices.h
 api_name:
- - WMPServices_StreamState
+- WMPServices_StreamState
 targetos: Windows
 req.typenames: WMPServices_StreamState
 req.redist: 

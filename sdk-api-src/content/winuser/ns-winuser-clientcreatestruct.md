@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagCLIENTCREATESTRUCT
 title: CLIENTCREATESTRUCT (winuser.h)
-
 description: Contains information about the menu and first multiple-document interface (MDI) child window of an MDI client window.
 old-location: winmsg\clientcreatestruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\clientcreatestruct.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCLIENTCREATESTRUCT, CLIENTCREATESTRUCT, CLIENTCREATESTRUCT structure [Windows and Messages], LPCLIENTCREATESTRUCT, LPCLIENTCREATESTRUCT structure pointer [Windows and Messages], _win32_CLIENTCREATESTRUCT_str, _win32_clientcreatestruct_str_cpp, winmsg.clientcreatestruct, winui._win32_clientcreatestruct_str, winuser/CLIENTCREATESTRUCT, winuser/LPCLIENTCREATESTRUCT"
+ms.keywords: '*LPCLIENTCREATESTRUCT, CLIENTCREATESTRUCT, CLIENTCREATESTRUCT structure [Windows and Messages], LPCLIENTCREATESTRUCT, LPCLIENTCREATESTRUCT structure pointer [Windows and Messages], _win32_CLIENTCREATESTRUCT_str, _win32_clientcreatestruct_str_cpp, winmsg.clientcreatestruct, winui._win32_clientcreatestruct_str, winuser/CLIENTCREATESTRUCT, winuser/LPCLIENTCREATESTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/CLIENTCREATESTRUCT"
+f1_keywords:
+- winuser/CLIENTCREATESTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - CLIENTCREATESTRUCT
+- CLIENTCREATESTRUCT
 targetos: Windows
 req.typenames: CLIENTCREATESTRUCT, *LPCLIENTCREATESTRUCT
 req.redist: 

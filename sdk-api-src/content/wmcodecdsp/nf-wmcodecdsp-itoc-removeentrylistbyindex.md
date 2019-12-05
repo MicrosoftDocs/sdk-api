@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcodecdsp.IToc.RemoveEntryListByIndex
 title: IToc::RemoveEntryListByIndex (wmcodecdsp.h)
-
 description: The RemoveEntryListByIndex method removes an entry list, specified by an index, from the table of contents.
 old-location: mf\itoc_removeentrylistbyindex.htm
 tech.root: medfound
 ms.assetid: 63137b67-dc00-48e7-88b0-2f7159c1d829
-
 ms.date: 12/05/2018
 ms.keywords: IToc interface [Media Foundation],RemoveEntryListByIndex method, IToc.RemoveEntryListByIndex, IToc::RemoveEntryListByIndex, RemoveEntryListByIndex, RemoveEntryListByIndex method [Media Foundation], RemoveEntryListByIndex method [Media Foundation],IToc interface, codecapi.itoc_removeentrylistbyindex, mf.itoc_removeentrylistbyindex, wmcodecdsp/IToc::RemoveEntryListByIndex
 ms.topic: method
-f1_keywords: 
- - "wmcodecdsp/IToc.RemoveEntryListByIndex"
+f1_keywords:
+- wmcodecdsp/IToc.RemoveEntryListByIndex
 dev_langs:
- - c++
+- c++
 req.header: wmcodecdsp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmvdspa.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmvdspa.dll
+- wmvdspa.dll
 api_name:
- - IToc.RemoveEntryListByIndex
+- IToc.RemoveEntryListByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

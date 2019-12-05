@@ -1,19 +1,17 @@
 ---
 UID: NF:ras.RasDialW
 title: RasDialW function (ras.h)
-
 description: The RasDial function establishes a RAS connection between a RAS client and a RAS server. The connection data includes callback and user-authentication information.
 old-location: rras\rasdial.htm
 tech.root: RRAS
 ms.assetid: 579a9038-8216-4948-a065-fd45b97da73a
-
 ms.date: 12/05/2018
 ms.keywords: 0, 1, 2, RasDial, RasDial function [RAS], RasDialA, RasDialW, _ras_rasdial, ras/RasDial, ras/RasDialA, ras/RasDialW, rras.rasdial
 ms.topic: function
-f1_keywords: 
- - "ras/RasDial"
+f1_keywords:
+- ras/RasDial
 dev_langs:
- - c++
+- c++
 req.header: ras.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Rasapi32.lib
 req.dll: Rasapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rasapi32.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
- - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
+- Rasapi32.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-0.dll
+- Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasDial
- - RasDialA
- - RasDialW
+- RasDial
+- RasDialA
+- RasDialW
 targetos: Windows
 req.typenames: 
 req.redist: 

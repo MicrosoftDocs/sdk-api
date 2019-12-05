@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnEventLoggingConfigChange
 title: _IFaxServerNotify2::OnEventLoggingConfigChange (faxcomex.h)
-
 description: The fax service calls the IFaxServerNotify2::OnEventLoggingConfigChange method when there is a configuration change related to event logging.
 old-location: fax\_mfax_ifaxservernotify2_oneventloggingconfigchange.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_oneventloggingconfigchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServerNotify2 interface [Fax Service],OnEventLoggingConfigChange method, IFaxServerNotify2.OnEventLoggingConfigChange, IFaxServerNotify2::OnEventLoggingConfigChange, OnEventLoggingConfigChange, OnEventLoggingConfigChange method [Fax Service], OnEventLoggingConfigChange method [Fax Service],IFaxServerNotify2 interface, _IFaxServerNotify2.OnEventLoggingConfigChange, _IFaxServerNotify2::OnEventLoggingConfigChange, _mfax_ifaxservernotify2_oneventloggingconfigchange, fax._mfax_ifaxservernotify2_oneventloggingconfigchange, faxcomex/IFaxServerNotify2::OnEventLoggingConfigChange
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxServerNotify2.OnEventLoggingConfigChange"
+f1_keywords:
+- faxcomex/IFaxServerNotify2.OnEventLoggingConfigChange
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxServerNotify2.OnEventLoggingConfigChange
- - IFaxServerNotify2.OnEventLoggingConfigChange
+- IFaxServerNotify2.OnEventLoggingConfigChange
+- IFaxServerNotify2.OnEventLoggingConfigChange
 targetos: Windows
 req.typenames: 
 req.redist: 

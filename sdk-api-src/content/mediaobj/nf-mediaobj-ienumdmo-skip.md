@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Skip
 title: IEnumDMO::Skip (mediaobj.h)
-
 description: The Skip method skips over a specified number of items in the enumeration sequence.
 old-location: dshow\ienumdmo_skip.htm
 tech.root: DirectShow
 ms.assetid: 32722190-52b5-468a-91d6-a828ad02b203
-
 ms.date: 12/05/2018
 ms.keywords: IEnumDMO interface [DirectShow],Skip method, IEnumDMO.Skip, IEnumDMO::Skip, IEnumDMOSkip, Skip, Skip method [DirectShow], Skip method [DirectShow],IEnumDMO interface, dshow.ienumdmo_skip, mediaobj/IEnumDMO::Skip
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IEnumDMO.Skip"
+f1_keywords:
+- mediaobj/IEnumDMO.Skip
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IEnumDMO.Skip
+- IEnumDMO.Skip
 targetos: Windows
 req.typenames: 
 req.redist: 

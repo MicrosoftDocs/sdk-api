@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IDvdInfo2
 title: IDvdInfo2 (strmif.h)
-
 description: The IDvdInfo2 interface reports attributes of a DVD disc or the current state of DVD playback and navigation.
 old-location: dshow\idvdinfo2.htm
 tech.root: DirectShow
 ms.assetid: da30d3dc-feec-4f54-b2db-a771ce404286
-
 ms.date: 12/05/2018
 ms.keywords: IDvdInfo2, IDvdInfo2 interface [DirectShow], IDvdInfo2 interface [DirectShow],described, IDvdInfo2Interface, dshow.idvdinfo2, strmif/IDvdInfo2
 ms.topic: interface
-f1_keywords: 
- - "strmif/IDvdInfo2"
+f1_keywords:
+- strmif/IDvdInfo2
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdInfo2
+- IDvdInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 

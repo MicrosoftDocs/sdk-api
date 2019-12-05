@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_TIMESPAN
 title: WS_TIMESPAN (webservices.h)
-
 description: Represents a signed 64-bit time interval in 100 nanosecond units.
 old-location: wsw\ws_timespan.htm
 tech.root: wsw
 ms.assetid: f8a42739-e395-4b20-bf3a-3d7c5e3a5495
-
 ms.date: 12/05/2018
 ms.keywords: WS_TIMESPAN, WS_TIMESPAN structure [Web Services for Windows], webservices/WS_TIMESPAN, wsw.ws_timespan
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_TIMESPAN"
+f1_keywords:
+- webservices/WS_TIMESPAN
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_TIMESPAN
+- WS_TIMESPAN
 targetos: Windows
 req.typenames: WS_TIMESPAN
 req.redist: 

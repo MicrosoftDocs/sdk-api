@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextPara.CanChange
 title: ITextPara::CanChange (tom.h)
-
 description: Determines whether the paragraph formatting can be changed.
 old-location: controls\ITextPara_CanChange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparacanchange.htm
-
 ms.date: 12/05/2018
 ms.keywords: CanChange, CanChange method [Windows Controls], CanChange method [Windows Controls],ITextPara interface, ITextPara interface [Windows Controls],CanChange method, ITextPara.CanChange, ITextPara::CanChange, _win32_ITextPara_CanChange, _win32_ITextPara_CanChange_cpp, controls.ITextPara_CanChange, controls._win32_ITextPara_CanChange, tom/ITextPara::CanChange
 ms.topic: method
-f1_keywords: 
- - "tom/ITextPara.CanChange"
+f1_keywords:
+- tom/ITextPara.CanChange
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextPara.CanChange
+- ITextPara.CanChange
 targetos: Windows
 req.typenames: 
 req.redist: 

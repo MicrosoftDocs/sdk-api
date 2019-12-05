@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITToneDetectionEvent.get_TickCount
 title: ITToneDetectionEvent::get_TickCount (tapi3if.h)
-
 description: The get_TickCount method gets the &#0034;tick count&#0034; (the number of milliseconds since Windows started) at which the tone was detected.
 old-location: tapi3\ittonedetectionevent_get_tickcount.htm
 tech.root: Tapi
 ms.assetid: 01a00b2c-d4b0-4de0-91b8-0741ed1fd300
-
 ms.date: 12/05/2018
 ms.keywords: ITToneDetectionEvent interface [TAPI 2.2],get_TickCount method, ITToneDetectionEvent.get_TickCount, ITToneDetectionEvent::get_TickCount, _tapi3_ittonedetectionevent_get_tickcount, get_TickCount, get_TickCount method [TAPI 2.2], get_TickCount method [TAPI 2.2],ITToneDetectionEvent interface, tapi3.ittonedetectionevent_get_tickcount, tapi3if/ITToneDetectionEvent::get_TickCount
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITToneDetectionEvent.get_TickCount"
+f1_keywords:
+- tapi3if/ITToneDetectionEvent.get_TickCount
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITToneDetectionEvent.get_TickCount
+- ITToneDetectionEvent.get_TickCount
 targetos: Windows
 req.typenames: 
 req.redist: 

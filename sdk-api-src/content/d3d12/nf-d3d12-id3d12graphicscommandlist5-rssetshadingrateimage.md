@@ -4,10 +4,10 @@ title: ID3D12GraphicsCommandList5::RSSetShadingRateImage
 ms.date: 01/31/19
 ms.keywords: ID3D12GraphicsCommandList5::RSSetShadingRateImage
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList5::RSSetShadingRateImage"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList5::RSSetShadingRateImage
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -29,13 +29,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - ID3D12GraphicsCommandList5::RSSetShadingRateImage
+- ID3D12GraphicsCommandList5::RSSetShadingRateImage
 ---
 
 ## -description

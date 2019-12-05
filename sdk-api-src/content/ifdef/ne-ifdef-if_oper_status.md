@@ -1,19 +1,17 @@
 ---
 UID: NE:ifdef.__unnamed_enum_1
 title: IF_OPER_STATUS (ifdef.h)
-
 description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.
 old-location: iphlp\if_oper_status.htm
 tech.root: IpHlp
 ms.assetid: 829df6fc-d5db-4efe-9c67-d0c5543dacb4
-
 ms.date: 12/05/2018
 ms.keywords: IF_OPER_STATUS, IF_OPER_STATUS enumeration [IP Helper], IfOperStatusDormant, IfOperStatusDown, IfOperStatusLowerLayerDown, IfOperStatusNotPresent, IfOperStatusTesting, IfOperStatusUnknown, IfOperStatusUp, ifdef/IF_OPER_STATUS, ifdef/IfOperStatusDormant, ifdef/IfOperStatusDown, ifdef/IfOperStatusLowerLayerDown, ifdef/IfOperStatusNotPresent, ifdef/IfOperStatusTesting, ifdef/IfOperStatusUnknown, ifdef/IfOperStatusUp, iphlp.if_oper_status
 ms.topic: enum
-f1_keywords: 
- - "ifdef/IF_OPER_STATUS"
+f1_keywords:
+- ifdef/IF_OPER_STATUS
 dev_langs:
- - c++
+- c++
 req.header: ifdef.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ifdef.h
+- Ifdef.h
 api_name:
- - IF_OPER_STATUS
+- IF_OPER_STATUS
 targetos: Windows
 req.typenames: IF_OPER_STATUS
 req.redist: 

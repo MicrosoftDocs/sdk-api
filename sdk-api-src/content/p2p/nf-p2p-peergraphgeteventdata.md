@@ -1,19 +1,17 @@
 ---
 UID: NF:p2p.PeerGraphGetEventData
 title: PeerGraphGetEventData function (p2p.h)
-
 description: The PeerGraphGetEventData function retrieves peer events. An application calls this function until the return value PEER_S_NO_EVENT_DATA is returned, which indicates that a call is successful, but that there are no more peer events to retrieve.
 old-location: p2p\peergraphgeteventdata.htm
 tech.root: P2PSdk
 ms.assetid: b64bb920-3fbc-4927-a1b1-39c99850bdd5
-
 ms.date: 12/05/2018
 ms.keywords: PeerGraphGetEventData, PeerGraphGetEventData function [Peer Networking], p2p.peergraphgeteventdata, p2p/PeerGraphGetEventData
 ms.topic: function
-f1_keywords: 
- - "p2p/PeerGraphGetEventData"
+f1_keywords:
+- p2p/PeerGraphGetEventData
 dev_langs:
- - c++
+- c++
 req.header: p2p.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: P2PGraph.lib
 req.dll: P2PGraph.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - P2PGraph.dll
+- P2PGraph.dll
 api_name:
- - PeerGraphGetEventData
+- PeerGraphGetEventData
 targetos: Windows
 req.typenames: 
 req.redist: 

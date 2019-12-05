@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.IsKeyInArray
 title: IPropertyChangeArray::IsKeyInArray (propsys.h)
-
 description: Specifies whether a particular property key exists in the change array.
 old-location: properties\IPropertyChangeArray_IsKeyInArray.htm
 tech.root: properties
 ms.assetid: aa6fe869-6fb7-4d2e-8dd8-65da0cbcd7bc
-
 ms.date: 12/05/2018
 ms.keywords: IPropertyChangeArray interface [Windows Properties],IsKeyInArray method, IPropertyChangeArray.IsKeyInArray, IPropertyChangeArray::IsKeyInArray, IsKeyInArray, IsKeyInArray method [Windows Properties], IsKeyInArray method [Windows Properties],IPropertyChangeArray interface, _shell_IPropertyChangeArray_IsKeyInArray, properties.IPropertyChangeArray_IsKeyInArray, propsys/IPropertyChangeArray::IsKeyInArray, shell.IPropertyChangeArray_IsKeyInArray
 ms.topic: method
 f1_keywords:
 - propsys/IPropertyChangeArray.IsKeyInArray
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerFreeString
 title: WerFreeString function (werapi.h)
-
 description: Frees up the memory used to store a report key string. This should be called after each successive call to WerStoreGetFirstReportKey or WerStoreGetNextReportKey, once the particular report key string has been used and is no longer needed.
 old-location: wer\werfreestring.htm
 tech.root: wer
 ms.assetid: 748AEFD4-3310-4BC1-A3DA-CFACBA31F2FC
-
 ms.date: 12/05/2018
 ms.keywords: WerFreeString, WerFreeString function [Windows Error Reporting], wer.werfreestring, werapi/WerFreeString
 ms.topic: function
-f1_keywords: 
- - "werapi/WerFreeString"
+f1_keywords:
+- werapi/WerFreeString
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wer.lib
 req.dll: Wer.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wer.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- wer.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerFreeString
+- WerFreeString
 targetos: Windows
 req.typenames: 
 req.redist: 

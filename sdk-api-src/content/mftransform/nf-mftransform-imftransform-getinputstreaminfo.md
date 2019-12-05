@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetInputStreamInfo
 title: IMFTransform::GetInputStreamInfo (mftransform.h)
-
 description: Gets the buffer requirements and other information for an input stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_getinputstreaminfo.htm
 tech.root: medfound
 ms.assetid: d57ffac7-1a92-4c6b-bd59-0acd7239c0a6
-
 ms.date: 12/05/2018
 ms.keywords: GetInputStreamInfo, GetInputStreamInfo method [Media Foundation], GetInputStreamInfo method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetInputStreamInfo method, IMFTransform.GetInputStreamInfo, IMFTransform::GetInputStreamInfo, d57ffac7-1a92-4c6b-bd59-0acd7239c0a6, mf.imftransform_getinputstreaminfo, mftransform/IMFTransform::GetInputStreamInfo
 ms.topic: method
 f1_keywords:
 - mftransform/IMFTransform.GetInputStreamInfo
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows

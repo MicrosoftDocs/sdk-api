@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITBasicCallControl.Disconnect
 title: ITBasicCallControl::Disconnect (tapi3if.h)
-
 description: The Disconnect method disconnects the call. The call state will transition to CS_DISCONNECTED after the method completes successfully.
 old-location: tapi3\itbasiccallcontrol_disconnect.htm
 tech.root: Tapi
 ms.assetid: b7d556fd-d3f5-4b93-96a9-cc5c58fb8a95
-
 ms.date: 12/05/2018
 ms.keywords: Disconnect, Disconnect method [TAPI 2.2], Disconnect method [TAPI 2.2],ITBasicCallControl interface, ITBasicCallControl interface [TAPI 2.2],Disconnect method, ITBasicCallControl.Disconnect, ITBasicCallControl::Disconnect, _tapi3_itbasiccallcontrol_disconnect, tapi3.itbasiccallcontrol_disconnect, tapi3if/ITBasicCallControl::Disconnect
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITBasicCallControl.Disconnect"
+f1_keywords:
+- tapi3if/ITBasicCallControl.Disconnect
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITBasicCallControl.Disconnect
+- ITBasicCallControl.Disconnect
 targetos: Windows
 req.typenames: 
 req.redist: 

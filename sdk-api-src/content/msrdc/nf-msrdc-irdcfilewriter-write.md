@@ -1,19 +1,17 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.Write
 title: IRdcFileWriter::Write (msrdc.h)
-
 description: Write bytes to a file starting at a given offset.
 old-location: rdc\irdcfilewriter_write.htm
 tech.root: rdc
 ms.assetid: be7f3f2c-017a-4ca5-9652-a9b091c168be
-
 ms.date: 12/05/2018
 ms.keywords: IRdcFileWriter interface [Remote Differential Compression],Write method, IRdcFileWriter.Write, IRdcFileWriter::Write, Write, Write method [Remote Differential Compression], Write method [Remote Differential Compression],IRdcFileWriter interface, fs.irdcfilewriter_write, msrdc/IRdcFileWriter::Write, rdc.irdcfilewriter_write
 ms.topic: method
-f1_keywords: 
- - "msrdc/IRdcFileWriter.Write"
+f1_keywords:
+- msrdc/IRdcFileWriter.Write
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: MsRdc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsRdc.dll
+- MsRdc.dll
 api_name:
- - IRdcFileWriter.Write
+- IRdcFileWriter.Write
 targetos: Windows
 req.typenames: 
 req.redist: 

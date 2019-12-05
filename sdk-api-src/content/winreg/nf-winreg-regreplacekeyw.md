@@ -1,19 +1,17 @@
 ---
 UID: NF:winreg.RegReplaceKeyW
 title: RegReplaceKeyW function (winreg.h)
-
 description: Replaces the file backing a registry key and all its subkeys with another file, so that when the system is next started, the key and subkeys will have the values stored in the new file.
 old-location: base\regreplacekey.htm
 tech.root: SysInfo
 ms.assetid: f968fa71-edc8-4f49-b9fa-1e89224df33b
-
 ms.date: 12/05/2018
 ms.keywords: RegReplaceKey, RegReplaceKey function, RegReplaceKeyA, RegReplaceKeyW, _win32_regreplacekey, base.regreplacekey, winreg/RegReplaceKey, winreg/RegReplaceKeyA, winreg/RegReplaceKeyW
 ms.topic: function
-f1_keywords: 
- - "winreg/RegReplaceKey"
+f1_keywords:
+- winreg/RegReplaceKey
 dev_langs:
- - c++
+- c++
 req.header: winreg.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Core-Registry-l2-1-0.dll
- - advapi32legacy.dll
- - API-MS-Win-Core-Registry-l2-2-0.dll
+- Advapi32.dll
+- API-MS-Win-Core-Registry-l2-1-0.dll
+- advapi32legacy.dll
+- API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegReplaceKey
- - RegReplaceKeyA
- - RegReplaceKeyW
+- RegReplaceKey
+- RegReplaceKeyA
+- RegReplaceKeyW
 targetos: Windows
 req.typenames: 
 req.redist: 

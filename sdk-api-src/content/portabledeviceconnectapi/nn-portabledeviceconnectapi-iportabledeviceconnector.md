@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceconnectapi.IPortableDeviceConnector
 title: IPortableDeviceConnector (portabledeviceconnectapi.h)
-
 description: Defines methods used for connection-management and property-retrieval for a paired MTP/Bluetooth device.
 old-location: wpdsdk\iportabledeviceconnector.htm
 tech.root: wpd_sdk
 ms.assetid: c6eb1103-2395-431d-9130-1e1f2cc9ae96
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceConnector, IPortableDeviceConnector interface [Windows Portable Devices SDK], IPortableDeviceConnector interface [Windows Portable Devices SDK],described, portabledeviceconnectapi/IPortableDeviceConnector, wpdsdk.iportabledeviceconnector
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceconnectapi/IPortableDeviceConnector"
+f1_keywords:
+- portabledeviceconnectapi/IPortableDeviceConnector
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceconnectapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - portabledeviceconnectapi.h
+- portabledeviceconnectapi.h
 api_name:
- - IPortableDeviceConnector
+- IPortableDeviceConnector
 targetos: Windows
 req.typenames: 
 req.redist: 

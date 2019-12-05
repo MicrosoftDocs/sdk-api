@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.RGB
 title: RGB macro (wingdi.h)
-
 description: The RGB macro selects a red, green, blue (RGB) color based on the arguments supplied and the color capabilities of the output device.
 old-location: gdi\rgb.htm
 tech.root: gdi
 ms.assetid: e1dcb5f8-c026-4a4e-8541-928a057bf0ae
-
 ms.date: 12/05/2018
 ms.keywords: RGB, RGB macro [Windows GDI], _win32_RGB, gdi.rgb, wingdi/RGB
 ms.topic: macro
-f1_keywords: 
- - "wingdi/RGB"
+f1_keywords:
+- wingdi/RGB
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - RGB
+- RGB
 targetos: Windows
 req.typenames: 
 req.redist: 

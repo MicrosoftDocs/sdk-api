@@ -1,19 +1,17 @@
 ---
 UID: NF:mscat.CryptCATGetMemberInfo
 title: CryptCATGetMemberInfo function (mscat.h)
-
-description: Retrieves member information from the catalog's PKCS #7.
+description: Retrieves member information from the catalog's PKCS
 old-location: security\cryptcatgetmemberinfo.htm
 tech.root: SecCrypto
 ms.assetid: ff265232-f57e-4ab0-ba07-05e6d6745ae3
-
 ms.date: 12/05/2018
 ms.keywords: CryptCATGetMemberInfo, CryptCATGetMemberInfo function [Security], mscat/CryptCATGetMemberInfo, security.cryptcatgetmemberinfo
 ms.topic: function
-f1_keywords: 
- - "mscat/CryptCATGetMemberInfo"
+f1_keywords:
+- mscat/CryptCATGetMemberInfo
 dev_langs:
- - c++
+- c++
 req.header: mscat.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wintrust.lib
 req.dll: Wintrust.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wintrust.dll
+- Wintrust.dll
 api_name:
- - CryptCATGetMemberInfo
+- CryptCATGetMemberInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

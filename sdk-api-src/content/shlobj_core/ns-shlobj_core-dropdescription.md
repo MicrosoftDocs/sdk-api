@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_8
 title: DROPDESCRIPTION (shlobj_core.h)
-
 description: Describes the image and accompanying text for a drop object.
 old-location: shell\DROPDESCRIPTION.htm
 tech.root: shell
 ms.assetid: 78757001-cac8-412d-a6c3-74bae6eb3ad8
-
 ms.date: 12/05/2018
 ms.keywords: DROPDESCRIPTION, DROPDESCRIPTION structure [Windows Shell], _shell_DROPDESCRIPTION, shell.DROPDESCRIPTION, shlobj_core/DROPDESCRIPTION
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/DROPDESCRIPTION"
+f1_keywords:
+- shlobj_core/DROPDESCRIPTION
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - DROPDESCRIPTION
+- DROPDESCRIPTION
 targetos: Windows
 req.typenames: DROPDESCRIPTION
 req.redist: 

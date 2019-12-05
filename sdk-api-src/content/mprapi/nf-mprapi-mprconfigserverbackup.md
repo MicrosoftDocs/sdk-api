@@ -1,19 +1,17 @@
 ---
 UID: NF:mprapi.MprConfigServerBackup
 title: MprConfigServerBackup function (mprapi.h)
-
 description: The MprConfigServerBackup function creates a backup of the router-manager, interface, and phone-book configuration for the router.
 old-location: rras\mprconfigserverbackup.htm
 tech.root: RRAS
 ms.assetid: 7e318742-78ba-4eb4-818b-939688e79d54
-
 ms.date: 12/05/2018
 ms.keywords: MprConfigServerBackup, MprConfigServerBackup function [RAS], _mpr_mprconfigserverbackup, mprapi/MprConfigServerBackup, rras.mprconfigserverbackup
 ms.topic: function
-f1_keywords: 
- - "mprapi/MprConfigServerBackup"
+f1_keywords:
+- mprapi/MprConfigServerBackup
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mprapi.lib
 req.dll: Mprapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Mprapi.dll
+- Mprapi.dll
 api_name:
- - MprConfigServerBackup
+- MprConfigServerBackup
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.IExpDispSupport.FindConnectionPoint
 title: IExpDispSupport::FindConnectionPoint (shdeprecated.h)
-
 description: Deprecated. Gets connection points for browser events.
 old-location: shell\IExpDispSupport_FindCIE4ConnectionPoint.htm
 tech.root: shell
 ms.assetid: ef8d4e8c-7f85-4920-b149-1bf277d3fd5e
-
 ms.date: 12/05/2018
 ms.keywords: DIID_DWebBrowserEvents, DIID_DWebBrowserEvents2, FindConnectionPoint, FindConnectionPoint method [Windows Shell], FindConnectionPoint method [Windows Shell],IExpDispSupport interface, IExpDispSupport interface [Windows Shell],FindConnectionPoint method, IExpDispSupport.FindConnectionPoint, IExpDispSupport::FindConnectionPoint, IID_IPropertyNotifySink, shdeprecated/IExpDispSupport::FindConnectionPoint, shell.IExpDispSupport_FindCIE4ConnectionPoint, zone_IExpDispSupport_FindCIE4ConnectionPoint
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/IExpDispSupport.FindConnectionPoint"
+f1_keywords:
+- shdeprecated/IExpDispSupport.FindConnectionPoint
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - IExpDispSupport.FindConnectionPoint
+- IExpDispSupport.FindConnectionPoint
 targetos: Windows
 req.typenames: 
 req.redist: 

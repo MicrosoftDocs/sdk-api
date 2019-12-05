@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetThreadDpiAwarenessContext
 title: SetThreadDpiAwarenessContext function (winuser.h)
-
 description: Set the DPI awareness for the current thread to the provided value.
 old-location: hidpi\setthreaddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: 95531BDC-3D45-4BB6-8C63-0D845C66B88F
-
 ms.date: 12/05/2018
 ms.keywords: SetThreadDpiAwarenessContext, SetThreadDpiAwarenessContext function [High DPI], hidpi.setthreaddpiawarenesscontext, winuser/SetThreadDpiAwarenessContext
 ms.topic: function
-f1_keywords: 
- - "winuser/SetThreadDpiAwarenessContext"
+f1_keywords:
+- winuser/SetThreadDpiAwarenessContext
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - User32.dll
- - Ext-MS-Win-NTUser-Window-l1-1-0.dll
- - Ext-MS-Win-NTUser-Window-l1-1-1.dll
- - Ext-MS-Win-NTUser-Window-l1-1-2.dll
- - ext-ms-win-ntuser-window-l1-1-3.dll
- - Ext-MS-Win-NTUser-Window-L1-1-4.dll
+- User32.dll
+- Ext-MS-Win-NTUser-Window-l1-1-0.dll
+- Ext-MS-Win-NTUser-Window-l1-1-1.dll
+- Ext-MS-Win-NTUser-Window-l1-1-2.dll
+- ext-ms-win-ntuser-window-l1-1-3.dll
+- Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SetThreadDpiAwarenessContext
+- SetThreadDpiAwarenessContext
 targetos: Windows
 req.typenames: 
 req.redist: 

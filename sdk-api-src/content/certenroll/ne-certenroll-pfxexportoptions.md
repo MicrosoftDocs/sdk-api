@@ -1,19 +1,17 @@
 ---
 UID: NE:certenroll.PFXExportOptions
 title: PFXExportOptions (certenroll.h)
-
 description: Specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message.
 old-location: security\pfxexportoptions_enum.htm
 tech.root: seccertenroll
 ms.assetid: 72a3ac43-aebf-4801-9e36-23cf338b18ab
-
 ms.date: 12/05/2018
 ms.keywords: PFXExportChainNoRoot, PFXExportChainWithRoot, PFXExportEEOnly, PFXExportOptions, PFXExportOptions enumeration [Security], certenroll/PFXExportChainNoRoot, certenroll/PFXExportChainWithRoot, certenroll/PFXExportEEOnly, certenroll/PFXExportOptions, security.pfxexportoptions_enum
 ms.topic: enum
-f1_keywords: 
- - "certenroll/PFXExportOptions"
+f1_keywords:
+- certenroll/PFXExportOptions
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CertEnroll.h
+- CertEnroll.h
 api_name:
- - PFXExportOptions
+- PFXExportOptions
 targetos: Windows
 req.typenames: PFXExportOptions
 req.redist: 

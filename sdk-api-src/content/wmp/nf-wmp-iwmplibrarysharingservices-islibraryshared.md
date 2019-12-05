@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibraryShared
 title: IWMPLibrarySharingServices::isLibraryShared (wmp.h)
-
 description: The isLibraryShared method retrieves a value indicating whether the user's library is shared.
 old-location: wmp\iwmplibrarysharingservices_islibraryshared.htm
 tech.root: WMP
 ms.assetid: fc0a1396-5b43-43dd-9e0d-b5b3a8cf5cdd
-
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],isLibraryShared method, IWMPLibrarySharingServices.isLibraryShared, IWMPLibrarySharingServices::isLibraryShared, IWMPLibrarySharingServicesisLibraryShared, isLibraryShared, isLibraryShared method [Windows Media Player], isLibraryShared method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_islibraryshared, wmp/IWMPLibrarySharingServices::isLibraryShared
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPLibrarySharingServices.isLibraryShared"
+f1_keywords:
+- wmp/IWMPLibrarySharingServices.isLibraryShared
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPLibrarySharingServices.isLibraryShared
+- IWMPLibrarySharingServices.isLibraryShared
 targetos: Windows
 req.typenames: 
 req.redist: 

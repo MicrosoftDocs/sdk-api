@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.Cancel
 title: IFaxIncomingJob::Cancel (faxcomex.h)
-
 description: The Cancel method cancels the incoming fax job.
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_cancel_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6g4s.htm
-
 ms.date: 12/05/2018
 ms.keywords: Cancel, Cancel method [Fax Service], Cancel method [Fax Service],IFaxIncomingJob interface, IFaxIncomingJob interface [Fax Service],Cancel method, IFaxIncomingJob.Cancel, IFaxIncomingJob::Cancel, _mfax_faxincomingjob.cancel, fax._mfax_faxincomingjob_cancel, fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_cancel_cpp, faxcomex/IFaxIncomingJob::Cancel
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxIncomingJob.Cancel"
+f1_keywords:
+- faxcomex/IFaxIncomingJob.Cancel
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxIncomingJob.Cancel
+- IFaxIncomingJob.Cancel
 targetos: Windows
 req.typenames: 
 req.redist: 

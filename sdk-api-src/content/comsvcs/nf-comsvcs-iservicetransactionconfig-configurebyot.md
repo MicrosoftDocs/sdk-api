@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceTransactionConfig.ConfigureBYOT
 title: IServiceTransactionConfig::ConfigureBYOT (comsvcs.h)
-
 description: Enables you to configure the transaction that you use when you bring your own transaction.
 old-location: cos\iservicetransactionconfig_configurebyot.htm
 tech.root: cossdk
 ms.assetid: be4fa727-962e-4254-8615-58f6ced15fc3
-
 ms.date: 12/05/2018
 ms.keywords: ConfigureBYOT, ConfigureBYOT method [COM+], ConfigureBYOT method [COM+],IServiceTransactionConfig interface, IServiceTransactionConfig interface [COM+],ConfigureBYOT method, IServiceTransactionConfig.ConfigureBYOT, IServiceTransactionConfig::ConfigureBYOT, _cos_IServiceTransactionConfig_ConfigureBYOT, comsvcs/IServiceTransactionConfig::ConfigureBYOT, cos.iservicetransactionconfig_configurebyot
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceTransactionConfig.ConfigureBYOT"
+f1_keywords:
+- comsvcs/IServiceTransactionConfig.ConfigureBYOT
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceTransactionConfig.ConfigureBYOT
+- IServiceTransactionConfig.ConfigureBYOT
 targetos: Windows
 req.typenames: 
 req.redist: 

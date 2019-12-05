@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsOpened
 title: IWMRegisteredDevice::IsOpened (wmsdkidl.h)
-
 description: The IsOpened method retrieves the open status of the device. An open device is ready to receive media data.
 old-location: wmformat\iwmregistereddevice_isopened.htm
 tech.root: wmformat
 ms.assetid: 5a8a6b2a-6a04-4505-b4be-ec10e1e5effe
-
 ms.date: 12/05/2018
 ms.keywords: IWMRegisteredDevice interface [windows Media Format],IsOpened method, IWMRegisteredDevice.IsOpened, IWMRegisteredDevice::IsOpened, IWMRegisteredDeviceIsOpened, IsOpened, IsOpened method [windows Media Format], IsOpened method [windows Media Format],IWMRegisteredDevice interface, wmformat.iwmregistereddevice_isopened, wmsdkidl/IWMRegisteredDevice::IsOpened
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMRegisteredDevice.IsOpened"
+f1_keywords:
+- wmsdkidl/IWMRegisteredDevice.IsOpened
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: WMStubDRM.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMStubDRM.lib
- - WMStubDRM.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice.IsOpened
+- IWMRegisteredDevice.IsOpened
 targetos: Windows
 req.typenames: 
 req.redist: 

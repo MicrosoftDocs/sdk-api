@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.ICrmFormatLogRecords.GetColumnVariants
 title: ICrmFormatLogRecords::GetColumnVariants (comsvcs.h)
-
 description: Formats one structured log record into an array of viewable fields.
 old-location: cos\icrmformatlogrecords_getcolumnvariants.htm
 tech.root: cossdk
 ms.assetid: f2681fe3-744b-4172-8908-1d823d2e2371
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnVariants, GetColumnVariants method [COM+], GetColumnVariants method [COM+],ICrmFormatLogRecords interface, ICrmFormatLogRecords interface [COM+],GetColumnVariants method, ICrmFormatLogRecords.GetColumnVariants, ICrmFormatLogRecords::GetColumnVariants, _dtc_ICrmFormatLogRecords_GetColumnVariants, comsvcs/ICrmFormatLogRecords::GetColumnVariants, cos.icrmformatlogrecords_getcolumnvariants
 ms.topic: method
-f1_keywords: 
- - "comsvcs/ICrmFormatLogRecords.GetColumnVariants"
+f1_keywords:
+- comsvcs/ICrmFormatLogRecords.GetColumnVariants
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ICrmFormatLogRecords.GetColumnVariants
+- ICrmFormatLogRecords.GetColumnVariants
 targetos: Windows
 req.typenames: 
 req.redist: 

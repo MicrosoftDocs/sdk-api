@@ -1,19 +1,17 @@
 ---
 UID: NS:relogger._ETW_BUFFER_CONTEXT
 title: ETW_BUFFER_CONTEXT (relogger.h)
-
 description: Provides context information about the event.
 old-location: etw\etw_buffer_context.htm
 tech.root: ETW
 ms.assetid: 75577305-fb3f-40a2-8fe6-9cd82c3f4e69
-
 ms.date: 12/05/2018
 ms.keywords: '*PETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT, ETW_BUFFER_CONTEXT structure [ETW], PETW_BUFFER_CONTEXT, PETW_BUFFER_CONTEXT structure pointer [ETW], _ETW_BUFFER_CONTEXT, base.etw_buffer_context, etw.etw_buffer_context, relogger/ETW_BUFFER_CONTEXT, relogger/PETW_BUFFER_CONTEXT'
 ms.topic: struct
 f1_keywords:
 - relogger/ETW_BUFFER_CONTEXT
 dev_langs:
- - c++
+- c++
 req.header: relogger.h
 req.include-header: Evntrace.h
 req.target-type: Windows

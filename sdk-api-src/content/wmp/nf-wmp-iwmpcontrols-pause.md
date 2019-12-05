@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPControls.pause
 title: IWMPControls::pause (wmp.h)
-
 description: The pause method pauses playback of the media item.
 old-location: wmp\iwmpcontrols_pause.htm
 tech.root: WMP
 ms.assetid: ef8a3f0e-b424-43ab-bb42-83e9f80f5d19
-
 ms.date: 12/05/2018
 ms.keywords: IWMPControls interface [Windows Media Player],pause method, IWMPControls.pause, IWMPControls::pause, IWMPControlspause, pause, pause method [Windows Media Player], pause method [Windows Media Player],IWMPControls interface, wmp.iwmpcontrols_pause, wmp/IWMPControls::pause
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPControls.pause"
+f1_keywords:
+- wmp/IWMPControls.pause
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPControls.pause
+- IWMPControls.pause
 targetos: Windows
 req.typenames: 
 req.redist: 

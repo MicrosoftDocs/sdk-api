@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxDoc.put_RecipientCountry
 title: IFaxDoc::put_RecipientCountry (faxcom.h)
-
 description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7ybd.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxDoc interface [Fax Service],RecipientCountry property, IFaxDoc.RecipientCountry, IFaxDoc.put_RecipientCountry, IFaxDoc::RecipientCountry, IFaxDoc::get_RecipientCountry, IFaxDoc::put_RecipientCountry, RecipientCountry property [Fax Service], RecipientCountry property [Fax Service],IFaxDoc interface, _mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_get_recipientcountry, fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp, faxcom/IFaxDoc::RecipientCountry, faxcom/IFaxDoc::get_RecipientCountry, faxcom/IFaxDoc::put_RecipientCountry, put_RecipientCountry
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxDoc.RecipientCountry"
+f1_keywords:
+- faxcom/IFaxDoc.RecipientCountry
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxDoc.RecipientCountry
- - IFaxDoc.get_RecipientCountry
- - IFaxDoc.put_RecipientCountry
+- IFaxDoc.RecipientCountry
+- IFaxDoc.get_RecipientCountry
+- IFaxDoc.put_RecipientCountry
 targetos: Windows
 req.typenames: 
 req.redist: 

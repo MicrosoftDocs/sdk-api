@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.INameSpaceTreeControl
 title: INameSpaceTreeControl (shobjidl_core.h)
-
 description: Exposes methods used to view and manipulate nodes in a tree of Shell items.
 old-location: shell\INameSpaceTreeControl.htm
 tech.root: shell
 ms.assetid: 2072cb3c-e540-4708-bfe8-33fff3a190bd
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControl, INameSpaceTreeControl interface [Windows Shell], INameSpaceTreeControl interface [Windows Shell],described, _shell_INameSpaceTreeControl, shell.INameSpaceTreeControl, shobjidl_core/INameSpaceTreeControl
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/INameSpaceTreeControl"
+f1_keywords:
+- shobjidl_core/INameSpaceTreeControl
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - INameSpaceTreeControl
+- INameSpaceTreeControl
 targetos: Windows
 req.typenames: 
 req.redist: 

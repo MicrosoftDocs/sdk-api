@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterRegDeleteKey
 title: ClusterRegDeleteKey function (clusapi.h)
-
 description: Deletes a cluster database key.
 old-location: mscs\clusterregdeletekey.htm
 tech.root: MsCS
 ms.assetid: af2b3b9c-2ff1-483e-a9cf-5db7b1fcbd85
-
 ms.date: 12/05/2018
 ms.keywords: ClusterRegDeleteKey, ClusterRegDeleteKey function [Failover Cluster], _wolf_clusterregdeletekey, clusapi/ClusterRegDeleteKey, mscs.clusterregdeletekey
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterRegDeleteKey"
+f1_keywords:
+- clusapi/ClusterRegDeleteKey
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - ClusterRegDeleteKey
+- ClusterRegDeleteKey
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:wmsdkidl.WMT_CODEC_INFO_TYPE
 title: WMT_CODEC_INFO_TYPE (wmsdkidl.h)
-
 description: The WMT_CODEC_INFO_TYPE enumeration type defines the broad categories of codecs supported by this SDK.
 old-location: wmformat\wmt_codec_info_type.htm
 tech.root: wmformat
 ms.assetid: 31fcaa84-1b7e-407c-95dc-bf13263b788a
-
 ms.date: 12/05/2018
 ms.keywords: WMT_CODECINFO_AUDIO, WMT_CODECINFO_UNKNOWN, WMT_CODECINFO_VIDEO, WMT_CODEC_INFO_TYPE, WMT_CODEC_INFO_TYPE enumeration [windows Media Format], wmformat.wmt_codec_info_type, wmsdkidl/WMT_CODECINFO_AUDIO, wmsdkidl/WMT_CODECINFO_UNKNOWN, wmsdkidl/WMT_CODECINFO_VIDEO, wmsdkidl/WMT_CODEC_INFO_TYPE
 ms.topic: enum
-f1_keywords: 
- - "wmsdkidl/WMT_CODEC_INFO_TYPE"
+f1_keywords:
+- wmsdkidl/WMT_CODEC_INFO_TYPE
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_CODEC_INFO_TYPE
+- WMT_CODEC_INFO_TYPE
 targetos: Windows
 req.typenames: WMT_CODEC_INFO_TYPE
 req.redist: 

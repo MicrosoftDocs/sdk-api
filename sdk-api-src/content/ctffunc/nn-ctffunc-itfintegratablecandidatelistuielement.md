@@ -1,19 +1,17 @@
 ---
 UID: NN:ctffunc.ITfIntegratableCandidateListUIElement
 title: ITfIntegratableCandidateListUIElement (ctffunc.h)
-
 description: Enables text services and Input Method Editors (IMEs) to adjust UI-less mode behavior.
 old-location: tsf\itfintegratablecandidatelistuielement.htm
 tech.root: TSF
 ms.assetid: F9AB2037-6806-42FC-BD41-F6B6BA047908
-
 ms.date: 12/05/2018
 ms.keywords: ITfIntegratableCandidateListUIElement, ITfIntegratableCandidateListUIElement interface [Text Services Framework], ITfIntegratableCandidateListUIElement interface [Text Services Framework],described, ctffunc/ITfIntegratableCandidateListUIElement, tsf.itfintegratablecandidatelistuielement
 ms.topic: interface
-f1_keywords: 
- - "ctffunc/ITfIntegratableCandidateListUIElement"
+f1_keywords:
+- ctffunc/ITfIntegratableCandidateListUIElement
 dev_langs:
- - c++
+- c++
 req.header: ctffunc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ctffunc.h
+- Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement
+- ITfIntegratableCandidateListUIElement
 targetos: Windows
 req.typenames: 
 req.redist: 

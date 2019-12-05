@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ContainsChangeUnit
 title: ISyncKnowledge::ContainsChangeUnit (winsync.h)
-
 description: Indicates whether the specified change unit change is known by this knowledge.
 old-location: winsync\isyncknowledge_containschangeunit.htm
 tech.root: winsync
 ms.assetid: 67fc3b59-ad82-47a4-9fc6-2d980b9e26fe
-
 ms.date: 12/05/2018
 ms.keywords: ContainsChangeUnit, ContainsChangeUnit method [Windows Sync], ContainsChangeUnit method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsChangeUnit method, ISyncKnowledge.ContainsChangeUnit, ISyncKnowledge::ContainsChangeUnit, winsync.isyncknowledge_containschangeunit, winsync/ISyncKnowledge::ContainsChangeUnit
 ms.topic: method
 f1_keywords:
 - winsync/ISyncKnowledge.ContainsChangeUnit
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IClassActivator
 title: IClassActivator (objidl.h)
-
 description: Specifies a method that retrieves a class object.
 old-location: com\iclassactivator.htm
 tech.root: com
 ms.assetid: 4f34c5a4-46c0-4391-9c64-cbb6a366e2dc
-
 ms.date: 12/05/2018
 ms.keywords: IClassActivator, IClassActivator interface [COM], IClassActivator interface [COM],described, _com_iclassactivator, com.iclassactivator, objidl/IClassActivator
 ms.topic: interface
-f1_keywords: 
- - "objidl/IClassActivator"
+f1_keywords:
+- objidl/IClassActivator
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IClassActivator
+- IClassActivator
 targetos: Windows
 req.typenames: 
 req.redist: 

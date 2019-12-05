@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.GetDCPenColor
 title: GetDCPenColor function (wingdi.h)
-
 description: The GetDCPenColor function retrieves the current pen color for the specified device context (DC).
 old-location: gdi\getdcpencolor.htm
 tech.root: gdi
 ms.assetid: 3a1d579f-fbc6-4021-a37e-0184b2cc7d5d
-
 ms.date: 12/05/2018
 ms.keywords: GetDCPenColor, GetDCPenColor function [Windows GDI], _win32_GetDCPenColor, gdi.getdcpencolor, wingdi/GetDCPenColor
 ms.topic: function
-f1_keywords: 
- - "wingdi/GetDCPenColor"
+f1_keywords:
+- wingdi/GetDCPenColor
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Gdi32.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32Full.dll
+- Gdi32.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32Full.dll
 api_name:
- - GetDCPenColor
+- GetDCPenColor
 targetos: Windows
 req.typenames: 
 req.redist: 

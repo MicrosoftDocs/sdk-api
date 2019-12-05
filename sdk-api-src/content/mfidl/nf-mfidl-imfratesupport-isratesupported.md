@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFRateSupport.IsRateSupported
 title: IMFRateSupport::IsRateSupported (mfidl.h)
-
 description: Queries whether the object supports a specified playback rate.
 old-location: mf\imfratesupport_isratesupported.htm
 tech.root: medfound
 ms.assetid: 3ac04683-17d3-4d87-b260-39b04eab9e59
-
 ms.date: 12/05/2018
 ms.keywords: 3ac04683-17d3-4d87-b260-39b04eab9e59, IMFRateSupport interface [Media Foundation],IsRateSupported method, IMFRateSupport.IsRateSupported, IMFRateSupport::IsRateSupported, IsRateSupported, IsRateSupported method [Media Foundation], IsRateSupported method [Media Foundation],IMFRateSupport interface, mf.imfratesupport_isratesupported, mfidl/IMFRateSupport::IsRateSupported
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFRateSupport.IsRateSupported"
+f1_keywords:
+- mfidl/IMFRateSupport.IsRateSupported
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFRateSupport.IsRateSupported
+- IMFRateSupport.IsRateSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

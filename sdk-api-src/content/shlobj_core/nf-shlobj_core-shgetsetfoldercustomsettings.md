@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj_core.SHGetSetFolderCustomSettings
 title: SHGetSetFolderCustomSettings function (shlobj_core.h)
-
 description: SHGetSetFolderCustomSettings may be altered or unavailable.
 old-location: shell\SHGetSetFolderCustomSettings.htm
 tech.root: shell
 ms.assetid: 38b78a4b-ba68-4dff-812d-d4c7421eb202
-
 ms.date: 12/05/2018
 ms.keywords: FCS_FORCEWRITE, FCS_READ, FCS_WRITE, SHGetSetFolderCustomSettings, SHGetSetFolderCustomSettings function [Windows Shell], _win32_SHGetSetFolderCustomSettings, shell.SHGetSetFolderCustomSettings, shlobj_core/SHGetSetFolderCustomSettings
 ms.topic: function
-f1_keywords: 
- - "shlobj_core/SHGetSetFolderCustomSettings"
+f1_keywords:
+- shlobj_core/SHGetSetFolderCustomSettings
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Shell32.lib
 req.dll: Shell32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHGetSetFolderCustomSettings
+- SHGetSetFolderCustomSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

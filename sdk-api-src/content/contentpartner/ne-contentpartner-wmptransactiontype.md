@@ -1,19 +1,17 @@
 ---
 UID: NE:contentpartner.WMPTransactionType
 title: WMPTransactionType (contentpartner.h)
-
 description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPTransactionType enumeration represents a transaction type.
 old-location: wmp\wmptransactiontype.htm
 tech.root: WMP
 ms.assetid: b3dc35d8-098a-464d-957e-3746447156d0
-
 ms.date: 12/05/2018
 ms.keywords: WMPTransactionType, WMPTransactionType enumeration [Windows Media Player], contentpartner/WMPTransactionType, contentpartner/wmpttBuy, contentpartner/wmpttDownload, contentpartner/wmpttNoTransaction, enumeration [Windows Media Player], wmp.wmptransactiontype, wmpttBuy, wmpttDownload, wmpttNoTransaction
 ms.topic: enum
-f1_keywords: 
- - "contentpartner/WMPTransactionType"
+f1_keywords:
+- contentpartner/WMPTransactionType
 dev_langs:
- - c++
+- c++
 req.header: contentpartner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - contentpartner.h
+- contentpartner.h
 api_name:
- - WMPTransactionType
+- WMPTransactionType
 targetos: Windows
 req.typenames: WMPTransactionType
 req.redist: 

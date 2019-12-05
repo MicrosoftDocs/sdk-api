@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IDispenserDriver.CreateResource
 title: IDispenserDriver::CreateResource (comsvcs.h)
-
 description: Creates a resource.
 old-location: cos\idispenserdriver_createresource.htm
 tech.root: cossdk
 ms.assetid: 97b49069-3428-48da-a818-737f3bc342d0
-
 ms.date: 12/05/2018
 ms.keywords: CreateResource, CreateResource method [COM+], CreateResource method [COM+],IDispenserDriver interface, IDispenserDriver interface [COM+],CreateResource method, IDispenserDriver.CreateResource, IDispenserDriver::CreateResource, _dtc_IDispenserDriver_CreateResource, comsvcs/IDispenserDriver::CreateResource, cos.idispenserdriver_createresource
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IDispenserDriver.CreateResource"
+f1_keywords:
+- comsvcs/IDispenserDriver.CreateResource
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IDispenserDriver.CreateResource
+- IDispenserDriver.CreateResource
 targetos: Windows
 req.typenames: 
 req.redist: 

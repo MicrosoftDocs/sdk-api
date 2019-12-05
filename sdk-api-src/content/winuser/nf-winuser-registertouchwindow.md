@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.RegisterTouchWindow
 title: RegisterTouchWindow function (winuser.h)
-
 description: Registers a window as being touch-capable.
 old-location: wintouch\registertouchwindow.htm
 tech.root: wintouch
 ms.assetid: a70a7418-f79d-40c8-9219-3ce38a74da9f
-
 ms.date: 12/05/2018
 ms.keywords: RegisterTouchWindow, RegisterTouchWindow function [Windows Touch], TWF_FINETOUCH, TWF_WANTPALM, wintouch.registertouchwindow, winuser/RegisterTouchWindow
 ms.topic: function
-f1_keywords: 
- - "winuser/RegisterTouchWindow"
+f1_keywords:
+- winuser/RegisterTouchWindow
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
+- user32.dll
 api_name:
- - RegisterTouchWindow
+- RegisterTouchWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

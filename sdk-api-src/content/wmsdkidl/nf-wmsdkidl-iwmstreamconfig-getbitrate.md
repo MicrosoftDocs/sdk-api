@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetBitrate
 title: IWMStreamConfig::GetBitrate (wmsdkidl.h)
-
 description: The GetBitrate method retrieves the bit rate for the stream.
 old-location: wmformat\iwmstreamconfig_getbitrate.htm
 tech.root: wmformat
 ms.assetid: d34bea45-758e-4c4a-928f-229ce6b4241c
-
 ms.date: 12/05/2018
 ms.keywords: GetBitrate, GetBitrate method [windows Media Format], GetBitrate method [windows Media Format],IWMStreamConfig interface, IWMStreamConfig interface [windows Media Format],GetBitrate method, IWMStreamConfig.GetBitrate, IWMStreamConfig::GetBitrate, IWMStreamConfigGetBitrate, wmformat.iwmstreamconfig_getbitrate, wmsdkidl/IWMStreamConfig::GetBitrate
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMStreamConfig.GetBitrate"
+f1_keywords:
+- wmsdkidl/IWMStreamConfig.GetBitrate
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMStreamConfig.GetBitrate
+- IWMStreamConfig.GetBitrate
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.SymGetFileLineOffsets64
 title: SymGetFileLineOffsets64 function (dbghelp.h)
-
 description: Locates line information for the specified module and file name.
 old-location: base\symgetfilelineoffsets64.htm
 tech.root: Debug
 ms.assetid: c83deef1-3476-4d06-a2e1-a3428c2f44d7
-
 ms.date: 12/05/2018
 ms.keywords: SymGetFileLineOffsets64, SymGetFileLineOffsets64 function, base.symgetfilelineoffsets64, dbghelp/SymGetFileLineOffsets64
 ms.topic: function
-f1_keywords: 
- - "dbghelp/SymGetFileLineOffsets64"
+f1_keywords:
+- dbghelp/SymGetFileLineOffsets64
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
+- Dbghelp.dll
 api_name:
- - SymGetFileLineOffsets64
+- SymGetFileLineOffsets64
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

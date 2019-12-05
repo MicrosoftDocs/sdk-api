@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSSetScissorRects
 title: ID3D10Device::RSSetScissorRects (d3d10.h)
-
 description: Bind an array of scissor rectangles to the rasterizer stage.
 old-location: direct3d10\id3d10device_rssetscissorrects.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rssetscissorrects.htm
-
 ms.date: 12/05/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],RSSetScissorRects method, ID3D10Device.RSSetScissorRects, ID3D10Device::RSSetScissorRects, RSSetScissorRects, RSSetScissorRects method [Direct3D 10], RSSetScissorRects method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSSetScissorRects, direct3d10.id3d10device_rssetscissorrects, ff11533a-fe9e-059e-c169-7e6f3c873b2d
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.RSSetScissorRects"
+f1_keywords:
+- d3d10/ID3D10Device.RSSetScissorRects
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.RSSetScissorRects
+- ID3D10Device.RSSetScissorRects
 targetos: Windows
 req.typenames: 
 req.redist: 

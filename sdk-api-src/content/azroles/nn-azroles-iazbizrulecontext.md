@@ -1,19 +1,17 @@
 ---
 UID: NN:azroles.IAzBizRuleContext
 title: IAzBizRuleContext (azroles.h)
-
 description: Contains information about a Business Rule (BizRule) operation.
 old-location: security\azbizrulecontext.htm
 tech.root: SecAuthZ
 ms.assetid: 664d0307-8915-4435-a6a3-3f464afd9029
-
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleContext, IAzBizRuleContext interface [Security], IAzBizRuleContext interface [Security],described, azroles/IAzBizRuleContext, security.azbizrulecontext
 ms.topic: interface
-f1_keywords: 
- - "azroles/IAzBizRuleContext"
+f1_keywords:
+- azroles/IAzBizRuleContext
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzBizRuleContext
+- IAzBizRuleContext
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

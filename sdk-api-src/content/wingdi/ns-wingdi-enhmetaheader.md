@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.tagENHMETAHEADER
 title: ENHMETAHEADER (wingdi.h)
-
 description: The ENHMETAHEADER structure contains enhanced-metafile data such as the dimensions of the picture stored in the enhanced metafile, the count of records in the enhanced metafile, the resolution of the device on which the picture was created, and so on.This structure is always the first record in an enhanced metafile.
 old-location: gdi\enhmetaheader.htm
 tech.root: gdi
 ms.assetid: 8e5f9a51-a995-48be-b936-1766fccb603a
-
 ms.date: 12/05/2018
-ms.keywords: "*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER"
+ms.keywords: '*LPENHMETAHEADER, *PENHMETAHEADER, ENHMETAHEADER, ENHMETAHEADER structure [Windows GDI], PENHMETAHEADER, PENHMETAHEADER structure pointer [Windows GDI], _win32_ENHMETAHEADER_str, gdi.enhmetaheader, wingdi/ENHMETAHEADER, wingdi/PENHMETAHEADER'
 ms.topic: struct
-f1_keywords: 
- - "wingdi/ENHMETAHEADER"
+f1_keywords:
+- wingdi/ENHMETAHEADER
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wingdi.h
+- Wingdi.h
 api_name:
- - ENHMETAHEADER
+- ENHMETAHEADER
 targetos: Windows
 req.typenames: ENHMETAHEADER, *PENHMETAHEADER, *LPENHMETAHEADER
 req.redist: 

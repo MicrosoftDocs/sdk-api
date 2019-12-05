@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IComQCEvents.OnQCMoveToDeadQueue
 title: IComQCEvents::OnQCMoveToDeadQueue (comsvcs.h)
-
 description: Generated when a message is moved to the dead letter queue and cannot be delivered.
 old-location: cos\icomqcevents_onqcmovetodeadqueue.htm
 tech.root: cossdk
 ms.assetid: 54117583-4e8d-4ae9-8262-781f5f81636d
-
 ms.date: 12/05/2018
 ms.keywords: IComQCEvents interface [COM+],OnQCMoveToDeadQueue method, IComQCEvents.OnQCMoveToDeadQueue, IComQCEvents::OnQCMoveToDeadQueue, OnQCMoveToDeadQueue, OnQCMoveToDeadQueue method [COM+], OnQCMoveToDeadQueue method [COM+],IComQCEvents interface, _dtc_IComQCEvents_OnQCMoveToDeadQueue, comsvcs/IComQCEvents::OnQCMoveToDeadQueue, cos.icomqcevents_onqcmovetodeadqueue
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IComQCEvents.OnQCMoveToDeadQueue"
+f1_keywords:
+- comsvcs/IComQCEvents.OnQCMoveToDeadQueue
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IComQCEvents.OnQCMoveToDeadQueue
+- IComQCEvents.OnQCMoveToDeadQueue
 targetos: Windows
 req.typenames: 
 req.redist: 

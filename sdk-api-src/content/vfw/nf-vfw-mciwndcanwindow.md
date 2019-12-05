@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.MCIWndCanWindow
 title: MCIWndCanWindow macro (vfw.h)
-
 description: The MCIWndCanWindow macro determines if an MCI device supports window-oriented MCI commands. You can use this macro or explicitly send the MCIWNDM_CAN_WINDOW message.
 old-location: multimedia\mciwndcanwindow.htm
 tech.root: Multimedia
 ms.assetid: 2db1d83a-3e03-474e-b36e-8b3b3e3faa82
-
 ms.date: 12/05/2018
 ms.keywords: MCIWndCanWindow, MCIWndCanWindow macro [Windows Multimedia], _win32_MCIWndCanWindow, multimedia.mciwndcanwindow, vfw/MCIWndCanWindow
 ms.topic: macro
-f1_keywords: 
- - "vfw/MCIWndCanWindow"
+f1_keywords:
+- vfw/MCIWndCanWindow
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - MCIWndCanWindow
+- MCIWndCanWindow
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vds.IVdsSubSystem.GetProperties
 title: IVdsSubSystem::GetProperties (vds.h)
-
 description: Returns the properties of a subsystem.
 old-location: base\ivdssubsystem_getproperties.htm
 tech.root: VDS
 ms.assetid: cbcf1e14-7e3d-44e6-8c4a-afe927ed0f9d
-
 ms.date: 12/05/2018
 ms.keywords: GetProperties, GetProperties method [VDS], GetProperties method [VDS],IVdsSubSystem interface, IVdsSubSystem interface [VDS],GetProperties method, IVdsSubSystem.GetProperties, IVdsSubSystem::GetProperties, base.ivdssubsystem_getproperties, vds/IVdsSubSystem::GetProperties, vdshwprv/IVdsSubSystem::GetProperties
 ms.topic: method
 f1_keywords:
 - vds/IVdsSubSystem.GetProperties
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NF:werapi.WerRegisterRuntimeExceptionModule
 title: WerRegisterRuntimeExceptionModule function (werapi.h)
-
 description: Registers a custom runtime exception handler that is used to provide custom error reporting for crashes.
 old-location: wer\werregisterruntimeexceptionmodule.htm
 tech.root: wer
 ms.assetid: b0fb2c0d-cc98-43cc-a508-e80545377b7f
-
 ms.date: 12/05/2018
 ms.keywords: WerRegisterRuntimeExceptionModule, WerRegisterRuntimeExceptionModule function [Windows Error Reporting], wer.werregisterruntimeexceptionmodule, werapi/WerRegisterRuntimeExceptionModule
 ms.topic: function
-f1_keywords: 
- - "werapi/WerRegisterRuntimeExceptionModule"
+f1_keywords:
+- werapi/WerRegisterRuntimeExceptionModule
 dev_langs:
- - c++
+- c++
 req.header: werapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
- - KernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-Windowserrorreporting-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - WerRegisterRuntimeExceptionModule
+- WerRegisterRuntimeExceptionModule
 targetos: Windows
 req.typenames: 
 req.redist: 

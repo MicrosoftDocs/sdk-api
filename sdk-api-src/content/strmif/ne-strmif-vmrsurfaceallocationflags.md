@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.VMRSurfaceAllocationFlags
 title: VMRSurfaceAllocationFlags (strmif.h)
-
 description: The VMRSurfaceAllocationFlags enumeration is used with the IVMRSurfaceAllocator::AllocateSurface method to specify surface creation parameters.
 old-location: dshow\vmrsurfaceallocationflags.htm
 tech.root: DirectShow
 ms.assetid: 1f75b357-0ce0-4efe-b1a8-39200e6b3d1a
-
 ms.date: 12/05/2018
 ms.keywords: AMAP_3D_TARGET, AMAP_ALLOW_SYSMEM, AMAP_DIRECTED_FLIP, AMAP_DXVA_TARGET, AMAP_FORCE_SYSMEM, AMAP_PIXELFORMAT_VALID, VMRSurfaceAllocationFlags, VMRSurfaceAllocationFlags enumeration [DirectShow], VMR_ALLOCATE_SURFACE_FLAGSEnumeration, dshow.vmrsurfaceallocationflags, strmif/AMAP_3D_TARGET, strmif/AMAP_ALLOW_SYSMEM, strmif/AMAP_DIRECTED_FLIP, strmif/AMAP_DXVA_TARGET, strmif/AMAP_FORCE_SYSMEM, strmif/AMAP_PIXELFORMAT_VALID, strmif/VMRSurfaceAllocationFlags
 ms.topic: enum
-f1_keywords: 
- - "strmif/VMRSurfaceAllocationFlags"
+f1_keywords:
+- strmif/VMRSurfaceAllocationFlags
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - VMRSurfaceAllocationFlags
+- VMRSurfaceAllocationFlags
 targetos: Windows
 req.typenames: VMRSurfaceAllocationFlags
 req.redist: 

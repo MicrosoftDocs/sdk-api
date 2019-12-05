@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IColumnProvider.GetItemData
 title: IColumnProvider::GetItemData (shlobj.h)
-
 description: Requests column data for a specified file.
 old-location: shell\IColumnProvider_GetItemData.htm
 tech.root: shell
 ms.assetid: 88e76f03-acc3-46b1-ad03-d2343f4f3dac
-
 ms.date: 12/05/2018
 ms.keywords: GetItemData, GetItemData method [Windows Shell], GetItemData method [Windows Shell],IColumnProvider interface, IColumnProvider interface [Windows Shell],GetItemData method, IColumnProvider.GetItemData, IColumnProvider::GetItemData, _win32_IColumnProvider_GetItemData, shell.IColumnProvider_GetItemData, shlobj/IColumnProvider::GetItemData
 ms.topic: method
-f1_keywords: 
- - "shlobj/IColumnProvider.GetItemData"
+f1_keywords:
+- shlobj/IColumnProvider.GetItemData
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IColumnProvider.GetItemData
+- IColumnProvider.GetItemData
 targetos: Windows
 req.typenames: 
 req.redist: 

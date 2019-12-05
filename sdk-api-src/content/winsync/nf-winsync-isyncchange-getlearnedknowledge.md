@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChange.GetLearnedKnowledge
 title: ISyncChange::GetLearnedKnowledge (winsync.h)
-
 description: Gets the knowledge that a replica will learn when this change is applied to its item store.
 old-location: winsync\isyncchange_getlearnedknowledge.htm
 tech.root: winsync
 ms.assetid: 7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc
-
 ms.date: 12/05/2018
 ms.keywords: GetLearnedKnowledge, GetLearnedKnowledge method [Windows Sync], GetLearnedKnowledge method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetLearnedKnowledge method, ISyncChange.GetLearnedKnowledge, ISyncChange::GetLearnedKnowledge, winsync.isyncchange_getlearnedknowledge, winsync/ISyncChange::GetLearnedKnowledge
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetLearnedKnowledge"
+f1_keywords:
+- winsync/ISyncChange.GetLearnedKnowledge
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetLearnedKnowledge
+- ISyncChange.GetLearnedKnowledge
 targetos: Windows
 req.typenames: 
 req.redist: 

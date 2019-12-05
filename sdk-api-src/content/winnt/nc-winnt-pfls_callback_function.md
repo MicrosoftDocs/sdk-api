@@ -1,19 +1,17 @@
 ---
 UID: NC:winnt.PFLS_CALLBACK_FUNCTION
 title: PFLS_CALLBACK_FUNCTION (winnt.h)
-
 description: An application-defined function. If the FLS slot is in use, FlsCallback is called on fiber deletion, thread exit, and when an FLS index is freed.
 old-location: base\flscallback.htm
 tech.root: ProcThread
 ms.assetid: d05a6550-7fec-44e6-9b38-dfafff7895c8
-
 ms.date: 12/05/2018
 ms.keywords: FlsCallback, FlsCallback callback function, PFLS_CALLBACK_FUNCTION, PFLS_CALLBACK_FUNCTION callback, _win32_flscallback, base.flscallback, winnt/FlsCallback
 ms.topic: callback
-f1_keywords: 
- - "winnt/FlsCallback"
+f1_keywords:
+- winnt/FlsCallback
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - FlsCallback
+- FlsCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

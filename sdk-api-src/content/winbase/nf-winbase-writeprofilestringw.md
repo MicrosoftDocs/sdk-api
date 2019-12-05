@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.WriteProfileStringW
 title: WriteProfileStringW function (winbase.h)
-
 description: Copies a string into the specified section of the Win.ini file.
 old-location: base\writeprofilestring.htm
 tech.root: SysInfo
 ms.assetid: d3fb74bb-7ce9-4669-8f00-02ac8a95ddd5
-
 ms.date: 12/05/2018
 ms.keywords: WriteProfileString, WriteProfileString function, WriteProfileStringA, WriteProfileStringW, _win32_writeprofilestring, base.writeprofilestring, winbase/WriteProfileString, winbase/WriteProfileStringA, winbase/WriteProfileStringW
 ms.topic: function
-f1_keywords: 
- - "winbase/WriteProfileString"
+f1_keywords:
+- winbase/WriteProfileString
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
+- Kernel32.dll
 api_name:
- - WriteProfileString
- - WriteProfileStringA
- - WriteProfileStringW
+- WriteProfileString
+- WriteProfileStringA
+- WriteProfileStringW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IDVBSLocator.get_Azimuth
 title: IDVBSLocator::get_Azimuth (tuner.h)
-
 description: The get_Azimuth method retrieves the azimuth setting used for positioning the satellite dish.
 old-location: mstv\idvbslocator_get_azimuth.htm
 tech.root: mstv
 ms.assetid: 2c1314f4-6291-4440-8010-247f8fa82d0c
-
 ms.date: 12/05/2018
 ms.keywords: IDVBSLocator interface [Microsoft TV Technologies],get_Azimuth method, IDVBSLocator.get_Azimuth, IDVBSLocator::get_Azimuth, IDVBSLocatorget_Azimuth, get_Azimuth, get_Azimuth method [Microsoft TV Technologies], get_Azimuth method [Microsoft TV Technologies],IDVBSLocator interface, mstv.idvbslocator_get_azimuth, tuner/IDVBSLocator::get_Azimuth
 ms.topic: method
-f1_keywords: 
- - "tuner/IDVBSLocator.get_Azimuth"
+f1_keywords:
+- tuner/IDVBSLocator.get_Azimuth
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IDVBSLocator.get_Azimuth
+- IDVBSLocator.get_Azimuth
 targetos: Windows
 req.typenames: 
 req.redist: 

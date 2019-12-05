@@ -1,19 +1,17 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0001
 title: DataCollectorType (pla.h)
-
 description: Defines the data collector types.
 old-location: pla\datacollectortype.htm
 tech.root: PLA
 ms.assetid: 535b17a9-2e71-4513-83be-56a93ab87627
-
 ms.date: 12/05/2018
 ms.keywords: DataCollectorType, DataCollectorType enumeration [PLA], base.datacollectortype, pla.datacollectortype, pla/DataCollectorType, pla/plaAlert, pla/plaApiTrace, pla/plaConfiguration, pla/plaPerformanceCounter, pla/plaTrace, plaAlert, plaApiTrace, plaConfiguration, plaPerformanceCounter, plaTrace
 ms.topic: enum
-f1_keywords: 
- - "pla/DataCollectorType"
+f1_keywords:
+- pla/DataCollectorType
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Pla.h
+- Pla.h
 api_name:
- - DataCollectorType
+- DataCollectorType
 targetos: Windows
 req.typenames: DataCollectorType
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCaption
 title: IPhotoProgressDialog::SetCaption (photoacquire.h)
-
 description: Sets the caption of the progress dialog box.
 old-location: picacq\iphotoprogressdialog_setcaption.htm
 tech.root: acquisition
 ms.assetid: 01689aa9-e3ae-48b4-b105-25880097a112
-
 ms.date: 12/05/2018
 ms.keywords: IPhotoProgressDialog interface [Picture Acquisition],SetCaption method, IPhotoProgressDialog.SetCaption, IPhotoProgressDialog::SetCaption, IPhotoProgressDialogSetCaption, SetCaption, SetCaption method [Picture Acquisition], SetCaption method [Picture Acquisition],IPhotoProgressDialog interface, photoacquire/IPhotoProgressDialog::SetCaption, picacq.iphotoprogressdialog_setcaption
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoProgressDialog.SetCaption"
+f1_keywords:
+- photoacquire/IPhotoProgressDialog.SetCaption
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog.SetCaption
+- IPhotoProgressDialog.SetCaption
 targetos: Windows
 req.typenames: 
 req.redist: 

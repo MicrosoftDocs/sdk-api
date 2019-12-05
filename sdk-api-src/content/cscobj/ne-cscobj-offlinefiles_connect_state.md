@@ -1,19 +1,17 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_CONNECT_STATE
 title: OFFLINEFILES_CONNECT_STATE (cscobj.h)
-
 description: Describes the connection state of an item in the Offline Files cache.
 old-location: of\offlinefiles_connect_state.htm
 tech.root: offlinefiles
 ms.assetid: 48c19b16-6ccb-4580-916d-0d23b69aafcf
-
 ms.date: 12/05/2018
 ms.keywords: OFFLINEFILES_CONNECT_STATE, OFFLINEFILES_CONNECT_STATE enumeration [Offline Files], OFFLINEFILES_CONNECT_STATE_OFFLINE, OFFLINEFILES_CONNECT_STATE_ONLINE, OFFLINEFILES_CONNECT_STATE_PARTLY_TRANSPARENTLY_CACHED, OFFLINEFILES_CONNECT_STATE_TRANSPARENTLY_CACHED, OFFLINEFILES_CONNECT_STATE_UNKNOWN, cscobj/OFFLINEFILES_CONNECT_STATE, cscobj/OFFLINEFILES_CONNECT_STATE_OFFLINE, cscobj/OFFLINEFILES_CONNECT_STATE_ONLINE, cscobj/OFFLINEFILES_CONNECT_STATE_PARTLY_TRANSPARENTLY_CACHED, cscobj/OFFLINEFILES_CONNECT_STATE_TRANSPARENTLY_CACHED, cscobj/OFFLINEFILES_CONNECT_STATE_UNKNOWN, of.offlinefiles_connect_state
 ms.topic: enum
-f1_keywords: 
- - "cscobj/OFFLINEFILES_CONNECT_STATE"
+f1_keywords:
+- cscobj/OFFLINEFILES_CONNECT_STATE
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CscObj.h
+- CscObj.h
 api_name:
- - OFFLINEFILES_CONNECT_STATE
+- OFFLINEFILES_CONNECT_STATE
 targetos: Windows
 req.typenames: OFFLINEFILES_CONNECT_STATE
 req.redist: 

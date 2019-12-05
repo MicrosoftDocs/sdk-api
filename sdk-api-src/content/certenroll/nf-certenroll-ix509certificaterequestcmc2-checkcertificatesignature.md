@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.CheckCertificateSignature
 title: IX509CertificateRequestCmc2::CheckCertificateSignature (certenroll.h)
-
 description: Verifies the signature for a specified signer.
 old-location: security\ix509certificaterequestcmc2_checkcertificatesignature.htm
 tech.root: seccertenroll
 ms.assetid: 10ccda23-98d7-49ad-bb0c-60050d01892d
-
 ms.date: 12/05/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestCmc2.CheckCertificateSignature, IX509CertificateRequestCmc2::CheckCertificateSignature, certenroll/IX509CertificateRequestCmc2::CheckCertificateSignature, security.ix509certificaterequestcmc2_checkcertificatesignature
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc2.CheckCertificateSignature"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc2.CheckCertificateSignature
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509CertificateRequestCmc2.CheckCertificateSignature
+- IX509CertificateRequestCmc2.CheckCertificateSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bits.IBackgroundCopyManager.GetJob
 title: IBackgroundCopyManager::GetJob (bits.h)
-
 description: Retrieves a specified job from the transfer queue. Typically, your application persists the job identifier, so you can later retrieve the job from the queue.
 old-location: bits\ibackgroundcopymanager_getjob.htm
 tech.root: Bits
 ms.assetid: dbb7cae6-7e9c-4ac5-8f02-372acaa4fb4d
-
 ms.date: 12/05/2018
 ms.keywords: GetJob, GetJob method [BITS], GetJob method [BITS],IBackgroundCopyManager interface, IBackgroundCopyManager interface [BITS],GetJob method, IBackgroundCopyManager.GetJob, IBackgroundCopyManager::GetJob, _drz_ibackgroundcopymanager_getjob, bits.ibackgroundcopymanager_getjob, bits/IBackgroundCopyManager::GetJob
 ms.topic: method
-f1_keywords: 
- - "bits/IBackgroundCopyManager.GetJob"
+f1_keywords:
+- bits/IBackgroundCopyManager.GetJob
 dev_langs:
- - c++
+- c++
 req.header: bits.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Bits.lib
 req.dll: QmgrPrxy.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - QmgrPrxy.dll
+- QmgrPrxy.dll
 api_name:
- - IBackgroundCopyManager.GetJob
+- IBackgroundCopyManager.GetJob
 targetos: Windows
 req.typenames: 
 req.redist: 

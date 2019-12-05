@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddConfiguration
 title: IDirectManipulationViewport::AddConfiguration (directmanipulation.h)
-
 description: Adds an interaction configuration for the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_addconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 908f67ef-3606-4636-88aa-4e95d80a9c7a
-
 ms.date: 12/05/2018
 ms.keywords: AddConfiguration, AddConfiguration method [Direct Manipulation], AddConfiguration method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],AddConfiguration method, IDirectManipulationViewport.AddConfiguration, IDirectManipulationViewport::AddConfiguration, directmanipulation.idirectmanipulationviewport_addconfiguration, directmanipulation/IDirectManipulationViewport::AddConfiguration
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.AddConfiguration"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.AddConfiguration
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.AddConfiguration
+- IDirectManipulationViewport.AddConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

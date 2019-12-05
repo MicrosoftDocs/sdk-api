@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3.ITAgentSession
 title: ITAgentSession (tapi3.h)
-
 description: An agent session represents an association between an agent, group, and address.
 old-location: tapi3\itagentsession.htm
 tech.root: Tapi
 ms.assetid: b0db0834-7b9b-4a72-9cc6-6cba31ed1275
-
 ms.date: 12/05/2018
 ms.keywords: ITAgentSession, ITAgentSession interface [TAPI 2.2], ITAgentSession interface [TAPI 2.2],described, _tapi3_itagentsession, tapi3.itagentsession, tapi3cc/ITAgentSession
 ms.topic: interface
-f1_keywords: 
- - "tapi3/ITAgentSession"
+f1_keywords:
+- tapi3/ITAgentSession
 dev_langs:
- - c++
+- c++
 req.header: tapi3.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAgentSession
+- ITAgentSession
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wlanapi.WFDStartOpenSession
 title: WFDStartOpenSession function (wlanapi.h)
-
 description: Starts an on-demand connection to a specific Wi-Fi Direct device, which has been previously paired through the Windows Pairing experience.
 old-location: nwifi\wfdstartopensession.htm
 tech.root: NativeWiFi
 ms.assetid: CF1FF7C2-31CD-4FAB-9891-0A72BEA3E9F1
-
 ms.date: 12/05/2018
 ms.keywords: WFDStartOpenSession, WFDStartOpenSession function [NativeWIFI], nwifi.wfdstartopensession, wlanapi/WFDStartOpenSession
 ms.topic: function
-f1_keywords: 
- - "wlanapi/WFDStartOpenSession"
+f1_keywords:
+- wlanapi/WFDStartOpenSession
 dev_langs:
- - c++
+- c++
 req.header: wlanapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wlanapi.lib
 req.dll: Wlanapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - wlanapi.dll
+- wlanapi.dll
 api_name:
- - WFDStartOpenSession
+- WFDStartOpenSession
 targetos: Windows
 req.typenames: 
 req.redist: 

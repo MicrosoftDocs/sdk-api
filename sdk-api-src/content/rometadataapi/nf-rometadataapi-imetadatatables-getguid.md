@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetGuid
 title: IMetaDataTables::GetGuid (rometadataapi.h)
-
 description: Gets a GUID from the row at the specified index.
 old-location: winrt\imetadatatables_getguid.htm
 tech.root: WinRT
 ms.assetid: 037d722f-3efb-4c01-8445-b23caafbbdb2
-
 ms.date: 12/05/2018
 ms.keywords: GetGuid, GetGuid method [Windows Runtime], GetGuid method [Windows Runtime],IMetaDataTables interface, IMetaDataTables interface [Windows Runtime],GetGuid method, IMetaDataTables.GetGuid, IMetaDataTables::GetGuid, rometadataapi/IMetaDataTables::GetGuid, winrt.imetadatatables_getguid
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataTables.GetGuid"
+f1_keywords:
+- rometadataapi/IMetaDataTables.GetGuid
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables.GetGuid
+- IMetaDataTables.GetGuid
 targetos: Windows
 req.typenames: 
 req.redist: 

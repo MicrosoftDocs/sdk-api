@@ -1,19 +1,17 @@
 ---
 UID: NN:iads.IADsDomain
 title: IADsDomain (iads.h)
-
 description: The IADsDomain interface is a dual interface that inherits from IADs.
 old-location: adsi\iadsdomain.htm
 tech.root: adsi
 ms.assetid: 9d4b1e9c-93b1-4aee-b20d-a7693fd0a61b
-
 ms.date: 12/05/2018
 ms.keywords: IADsDomain, IADsDomain interface [ADSI], IADsDomain interface [ADSI],described, _ds_iadsdomain, adsi.iadsdomain, iads/IADsDomain
 ms.topic: interface
-f1_keywords: 
- - "iads/IADsDomain"
+f1_keywords:
+- iads/IADsDomain
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Activeds.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Activeds.dll
+- Activeds.dll
 api_name:
- - IADsDomain
+- IADsDomain
 targetos: Windows
 req.typenames: 
 req.redist: 

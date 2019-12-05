@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemtime.WBEMTimeSpan.operator-not-equal-to
 title: WBEMTimeSpan::operator-not-equal-to (wbemtime.h)
-
 description: Compares two WBEMTimeSpan objects using a not equal comparison operator.
 old-location: wmi\wbemtimespan_comparison_operators_notequal.htm
 tech.root: WmiSdk
 ms.assetid: 440112c5-11d8-4fa9-b282-8cfcd5a33140
-
 ms.date: 12/05/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator!= method, WBEMTimeSpan.operator!=, WBEMTimeSpan.operator-not-equal-to, WBEMTimeSpan::operator!=, WBEMTimeSpan::operator-not-equal-to, operator!=, operator!= method [Windows Management Instrumentation], operator!= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator!=, wmi.wbemtimespan_comparison_operators_notequal
 ms.topic: method
-f1_keywords: 
- - "wbemtime/WBEMTimeSpan.operator!="
+f1_keywords:
+- wbemtime/WBEMTimeSpan.operator!=
 dev_langs:
- - c++
+- c++
 req.header: wbemtime.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - WBEMTimeSpan.operator!=
+- WBEMTimeSpan.operator!=
 targetos: Windows
 req.typenames: 
 req.redist: 

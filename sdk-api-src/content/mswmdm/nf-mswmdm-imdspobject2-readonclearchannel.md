@@ -1,19 +1,17 @@
 ---
 UID: NF:mswmdm.IMDSPObject2.ReadOnClearChannel
 title: IMDSPObject2::ReadOnClearChannel (mswmdm.h)
-
 description: The ReadOnClearChannel method reads data from the object at the current position without using secure authenticated channels.
 old-location: wmdm\imdspobject2_readonclearchannel.htm
 tech.root: WMDM
 ms.assetid: a7ccf074-e033-46e4-a7ce-d0086f4b1dc9
-
 ms.date: 12/05/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],ReadOnClearChannel method, IMDSPObject2.ReadOnClearChannel, IMDSPObject2::ReadOnClearChannel, IMDSPObject2ReadOnClearChannel, ReadOnClearChannel, ReadOnClearChannel method [windows Media Device Manager], ReadOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::ReadOnClearChannel, wmdm.imdspobject2_readonclearchannel
 ms.topic: method
-f1_keywords: 
- - "mswmdm/IMDSPObject2.ReadOnClearChannel"
+f1_keywords:
+- mswmdm/IMDSPObject2.ReadOnClearChannel
 dev_langs:
- - c++
+- c++
 req.header: mswmdm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mssachlp.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mssachlp.lib
- - mssachlp.dll
+- mssachlp.lib
+- mssachlp.dll
 api_name:
- - IMDSPObject2.ReadOnClearChannel
+- IMDSPObject2.ReadOnClearChannel
 targetos: Windows
 req.typenames: 
 req.redist: 

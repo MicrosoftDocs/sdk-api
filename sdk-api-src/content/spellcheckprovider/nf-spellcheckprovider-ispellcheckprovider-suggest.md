@@ -1,19 +1,17 @@
 ---
 UID: NF:spellcheckprovider.ISpellCheckProvider.Suggest
 title: ISpellCheckProvider::Suggest (spellcheckprovider.h)
-
 description: Retrieves spelling suggestions for the supplied text.
 old-location: intl\ispellcheckprovider_suggest.htm
 tech.root: Intl
 ms.assetid: 4A66619C-8A12-4465-889C-B880C43031AB
-
 ms.date: 12/05/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Suggest method, ISpellCheckProvider.Suggest, ISpellCheckProvider::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
 ms.topic: method
-f1_keywords: 
- - "spellcheckprovider/ISpellCheckProvider.Suggest"
+f1_keywords:
+- spellcheckprovider/ISpellCheckProvider.Suggest
 dev_langs:
- - c++
+- c++
 req.header: spellcheckprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Spellcheckprovider.h
+- Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider.Suggest
+- ISpellCheckProvider.Suggest
 targetos: Windows
 req.typenames: 
 req.redist: 

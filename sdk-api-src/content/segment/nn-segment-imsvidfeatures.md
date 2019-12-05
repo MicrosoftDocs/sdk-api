@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidFeatures
 title: IMSVidFeatures (segment.h)
-
 description: The IMSVidFeatures interface represents a collection of Video Control features.
 old-location: mstv\imsvidfeatures.htm
 tech.root: mstv
 ms.assetid: 19790fab-0530-4a17-8a3c-a50576fea9ca
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidFeatures, IMSVidFeatures interface [Microsoft TV Technologies], IMSVidFeatures interface [Microsoft TV Technologies],described, IMSVidFeaturesInterface, mstv.imsvidfeatures, segment/IMSVidFeatures
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidFeatures"
+f1_keywords:
+- segment/IMSVidFeatures
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidFeatures
+- IMSVidFeatures
 targetos: Windows
 req.typenames: 
 req.redist: 

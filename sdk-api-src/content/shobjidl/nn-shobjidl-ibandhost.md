@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IBandHost
 title: IBandHost (shobjidl.h)
-
 description: Exposes methods that create and destroy bands and specifiy their availability.
 old-location: shell\IBandHost.htm
 tech.root: shell
 ms.assetid: 8d9fe92a-812e-4fa0-954b-37aa48b52008
-
 ms.date: 12/05/2018
 ms.keywords: IBandHost, IBandHost interface [Windows Shell], IBandHost interface [Windows Shell],described, _shell_IBandHost, shell.IBandHost, shobjidl/IBandHost
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IBandHost"
+f1_keywords:
+- shobjidl/IBandHost
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - IBandHost
+- IBandHost
 targetos: Windows
 req.typenames: 
 req.redist: 

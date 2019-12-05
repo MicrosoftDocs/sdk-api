@@ -1,19 +1,17 @@
 ---
 UID: NS:tlhelp32.tagHEAPLIST32
 title: HEAPLIST32 (tlhelp32.h)
-
 description: Describes an entry from a list that enumerates the heaps used by a specified process.
 old-location: toolhelp\heaplist32_str.htm
 tech.root: ToolHelp
 ms.assetid: 61e01d23-9f15-44c5-9f6d-45df4809ccad
-
 ms.date: 12/05/2018
-ms.keywords: "*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [ToolHelp], HF32_DEFAULT, PHEAPLIST32, PHEAPLIST32 structure pointer [ToolHelp], _win32_heaplist32_str, base.heaplist32_str, tlhelp32/HEAPLIST32, tlhelp32/PHEAPLIST32, toolhelp.heaplist32_str"
+ms.keywords: '*LPHEAPLIST32, *PHEAPLIST32, HEAPLIST32, HEAPLIST32 structure [ToolHelp], HF32_DEFAULT, PHEAPLIST32, PHEAPLIST32 structure pointer [ToolHelp], _win32_heaplist32_str, base.heaplist32_str, tlhelp32/HEAPLIST32, tlhelp32/PHEAPLIST32, toolhelp.heaplist32_str'
 ms.topic: struct
-f1_keywords: 
- - "tlhelp32/HEAPLIST32"
+f1_keywords:
+- tlhelp32/HEAPLIST32
 dev_langs:
- - c++
+- c++
 req.header: tlhelp32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - TlHelp32.h
+- TlHelp32.h
 api_name:
- - HEAPLIST32
+- HEAPLIST32
 targetos: Windows
 req.typenames: HEAPLIST32
 req.redist: 

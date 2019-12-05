@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite_1.DWRITE_TEXT_ANTIALIAS_MODE
 title: DWRITE_TEXT_ANTIALIAS_MODE (dwrite_1.h)
-
 description: The DWRITE_TEXT_ANTIALIAS_MODE enumeration contains values that specify the type of antialiasing to use for text when the rendering mode calls for antialiasing.
 old-location: directwrite\dwrite_text_antialias_mode.htm
 tech.root: DirectWrite
 ms.assetid: 212B02C9-1265-4870-A059-F292640ECE15
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_ANTIALIAS_MODE, DWRITE_TEXT_ANTIALIAS_MODE enumeration [Direct Write], DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE, DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE, directwrite.dwrite_text_antialias_mode, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_CLEARTYPE, dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE_GRAYSCALE
 ms.topic: enum
-f1_keywords: 
- - "dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE"
+f1_keywords:
+- dwrite_1/DWRITE_TEXT_ANTIALIAS_MODE
 dev_langs:
- - c++
+- c++
 req.header: dwrite_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dwrite_1.h
+- Dwrite_1.h
 api_name:
- - DWRITE_TEXT_ANTIALIAS_MODE
+- DWRITE_TEXT_ANTIALIAS_MODE
 targetos: Windows
 req.typenames: 
 req.redist: 

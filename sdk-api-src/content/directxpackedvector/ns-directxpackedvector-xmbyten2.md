@@ -1,19 +1,17 @@
 ---
 UID: NS:directxpackedvector.XMBYTEN2
 title: XMBYTEN2 (directxpackedvector.h)
-
 description: A 2D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
 old-location: dxmath\xmbyten2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN2
-
 ms.date: 12/05/2018
 ms.keywords: XMBYTEN2, XMBYTEN2 structure [DirectX Math Support APIs], directxpackedvector/XMBYTEN2, dxmath.xmbyten2
 ms.topic: struct
-f1_keywords: 
- - "directxpackedvector/XMBYTEN2"
+f1_keywords:
+- directxpackedvector/XMBYTEN2
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMBYTEN2
+- XMBYTEN2
 targetos: Windows
 req.typenames: 
 req.redist: 

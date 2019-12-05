@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetMediaItem
 title: IMFPMediaPlayer::GetMediaItem (mfplay.h)
-
 description: Gets a pointer to the current media item.
 old-location: mf\imfpmediaplayer_getmediaitem.htm
 tech.root: medfound
 ms.assetid: 9593092d-bd50-4ff6-a283-f5a0ab1e6fc0
-
 ms.date: 12/05/2018
 ms.keywords: GetMediaItem, GetMediaItem method [Media Foundation], GetMediaItem method [Media Foundation],IMFPMediaPlayer interface, IMFPMediaPlayer interface [Media Foundation],GetMediaItem method, IMFPMediaPlayer.GetMediaItem, IMFPMediaPlayer::GetMediaItem, mf.imfpmediaplayer_getmediaitem, mfplay/IMFPMediaPlayer::GetMediaItem
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.GetMediaItem"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.GetMediaItem
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.GetMediaItem
+- IMFPMediaPlayer.GetMediaItem
 targetos: Windows
 req.typenames: 
 req.redist: 

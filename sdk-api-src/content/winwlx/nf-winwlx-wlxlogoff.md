@@ -1,19 +1,17 @@
 ---
 UID: NF:winwlx.WlxLogoff
 title: WlxLogoff function (winwlx.h)
-
 description: Winlogon calls this function to notify the GINA of a logoff operation on this workstation, allowing the GINA to perform any logoff operations that may be required.
 old-location: security\wlxlogoff.htm
 tech.root: SecAuthN
 ms.assetid: bbeafd41-fe01-497d-8514-a6c088a11d73
-
 ms.date: 12/05/2018
 ms.keywords: WlxLogoff, WlxLogoff function [Security], _gina_wlxlogoff, security.wlxlogoff, winwlx/WlxLogoff
 ms.topic: function
-f1_keywords: 
- - "winwlx/WlxLogoff"
+f1_keywords:
+- winwlx/WlxLogoff
 dev_langs:
- - c++
+- c++
 req.header: winwlx.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Winwlx.h
+- Winwlx.h
 api_name:
- - WlxLogoff
+- WlxLogoff
 targetos: Windows
 req.typenames: 
 req.redist: 

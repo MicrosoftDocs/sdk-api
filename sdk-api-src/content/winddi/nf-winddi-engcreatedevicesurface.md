@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.EngCreateDeviceSurface
 title: EngCreateDeviceSurface function (winddi.h)
-
 description: The EngCreateDeviceSurface function creates and returns a handle for a device surface that the driver will manage.
 old-location: display\engcreatedevicesurface.htm
 tech.root: display
 ms.assetid: 9c3ca4c4-7614-4739-8333-202c6ec2eab8
-
 ms.date: 12/05/2018
 ms.keywords: EngCreateDeviceSurface, EngCreateDeviceSurface function [Display Devices], display.engcreatedevicesurface, gdifncs_0a48d849-3e93-4310-87e1-cd0b6882b4a4.xml, winddi/EngCreateDeviceSurface
 ms.topic: function
 f1_keywords:
 - winddi/EngCreateDeviceSurface
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Universal

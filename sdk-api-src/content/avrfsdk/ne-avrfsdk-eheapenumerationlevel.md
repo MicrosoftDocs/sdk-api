@@ -1,19 +1,17 @@
 ---
 UID: NE:avrfsdk.eHeapEnumerationLevel
 title: eHeapEnumerationLevel (avrfsdk.h)
-
 description: Determines whether the enumeration operation should continue or stop.
 old-location: winprog\eheapenumerationlevel.htm
 tech.root: DevNotes
 ms.assetid: f8260ae8-eb1e-45f4-babc-905f4af7e3b1
-
 ms.date: 12/05/2018
 ms.keywords: HeapEnumerationEverything, HeapEnumerationStop, avrfsdk/HeapEnumerationEverything, avrfsdk/HeapEnumerationStop, avrfsdk/eHeapEnumerationLevel, base.eheapenumerationlevel, eHeapEnumerationLevel, eHeapEnumerationLevel enumeration [Windows API], winprog.eheapenumerationlevel
 ms.topic: enum
-f1_keywords: 
- - "avrfsdk/eHeapEnumerationLevel"
+f1_keywords:
+- avrfsdk/eHeapEnumerationLevel
 dev_langs:
- - c++
+- c++
 req.header: avrfsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Avrfsdk.h
+- Avrfsdk.h
 api_name:
- - eHeapEnumerationLevel
+- eHeapEnumerationLevel
 targetos: Windows
 req.typenames: 
 req.redist: 

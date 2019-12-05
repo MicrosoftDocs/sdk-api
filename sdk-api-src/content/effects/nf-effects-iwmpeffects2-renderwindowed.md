@@ -1,19 +1,17 @@
 ---
 UID: NF:effects.IWMPEffects2.RenderWindowed
 title: IWMPEffects2::RenderWindowed (effects.h)
-
 description: The RenderWindowed method is called by Windows Media Player to render a windowed visualization.
 old-location: wmp\iwmpeffects2_renderwindowed.htm
 tech.root: WMP
 ms.assetid: 95a0b71e-6485-4b14-81cf-b853a664b3cc
-
 ms.date: 12/05/2018
 ms.keywords: IWMPEffects2 interface [Windows Media Player],RenderWindowed method, IWMPEffects2.RenderWindowed, IWMPEffects2::RenderWindowed, IWMPEffectsRenderWindowed, RenderWindowed, RenderWindowed method [Windows Media Player], RenderWindowed method [Windows Media Player],IWMPEffects2 interface, effects/IWMPEffects2::RenderWindowed, wmp.iwmpeffects2_renderwindowed
 ms.topic: method
-f1_keywords: 
- - "effects/IWMPEffects2.RenderWindowed"
+f1_keywords:
+- effects/IWMPEffects2.RenderWindowed
 dev_langs:
- - c++
+- c++
 req.header: effects.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - effects.h
+- effects.h
 api_name:
- - IWMPEffects2.RenderWindowed
+- IWMPEffects2.RenderWindowed
 targetos: Windows
 req.typenames: 
 req.redist: 

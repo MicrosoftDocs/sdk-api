@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetParamProps
 title: IMetaDataImport::GetParamProps (rometadataapi.h)
-
 description: Gets metadata values for the parameter referenced by the specified ParamDef token.
 old-location: winrt\imetadataimport_getparamprops.htm
 tech.root: WinRT
 ms.assetid: 76de324f-f371-4fac-ab0a-b7f359dd3abd
-
 ms.date: 12/05/2018
 ms.keywords: GetParamProps, GetParamProps method [Windows Runtime], GetParamProps method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetParamProps method, IMetaDataImport.GetParamProps, IMetaDataImport::GetParamProps, rometadataapi/IMetaDataImport::GetParamProps, winrt.imetadataimport_getparamprops
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.GetParamProps"
+f1_keywords:
+- rometadataapi/IMetaDataImport.GetParamProps
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.GetParamProps
+- IMetaDataImport.GetParamProps
 targetos: Windows
 req.typenames: 
 req.redist: 

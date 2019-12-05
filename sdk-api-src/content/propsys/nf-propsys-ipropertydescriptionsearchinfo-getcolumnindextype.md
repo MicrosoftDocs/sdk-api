@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescriptionSearchInfo.GetColumnIndexType
 title: IPropertyDescriptionSearchInfo::GetColumnIndexType (propsys.h)
-
 description: Determines the how the current property is indexed.
 old-location: properties\IPropertyDescriptionSearchInfo_GetColumnIndexType.htm
 tech.root: properties
 ms.assetid: a519cfe5-e9ae-48ef-9538-a03ddc538efd
-
 ms.date: 12/05/2018
 ms.keywords: GetColumnIndexType, GetColumnIndexType method [Windows Properties], GetColumnIndexType method [Windows Properties],IPropertyDescriptionSearchInfo interface, IPropertyDescriptionSearchInfo interface [Windows Properties],GetColumnIndexType method, IPropertyDescriptionSearchInfo.GetColumnIndexType, IPropertyDescriptionSearchInfo::GetColumnIndexType, _shell_IPropertyDescriptionSearchInfo_GetColumnIndexType, properties.IPropertyDescriptionSearchInfo_GetColumnIndexType, propsys/IPropertyDescriptionSearchInfo::GetColumnIndexType, shell.IPropertyDescriptionSearchInfo_GetColumnIndexType
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescriptionSearchInfo.GetColumnIndexType"
+f1_keywords:
+- propsys/IPropertyDescriptionSearchInfo.GetColumnIndexType
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescriptionSearchInfo.GetColumnIndexType
+- IPropertyDescriptionSearchInfo.GetColumnIndexType
 targetos: Windows
 req.typenames: 
 req.redist: 

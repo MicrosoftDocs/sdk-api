@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmCollection.WaitForCompletion
 title: IFsrmCollection::WaitForCompletion (fsrm.h)
-
 description: Limits the time that an asynchronous collection can take to collect the objects.
 old-location: fsrm\ifsrmcollection_waitforcompletion.htm
 tech.root: fsrm
 ms.assetid: 83b9feb5-5f10-4c27-be3e-b267a0356aa2
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmCollection interface [File Server Resource Manager],WaitForCompletion method, IFsrmCollection.WaitForCompletion, IFsrmCollection::WaitForCompletion, WaitForCompletion, WaitForCompletion method [File Server Resource Manager], WaitForCompletion method [File Server Resource Manager],IFsrmCollection interface, fs.ifsrmcollection_waitforcompletion, fsrm.ifsrmcollection_waitforcompletion, fsrm/IFsrmCollection::WaitForCompletion
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmCollection.WaitForCompletion"
+f1_keywords:
+- fsrm/IFsrmCollection.WaitForCompletion
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmReports.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmCollection.WaitForCompletion
+- IFsrmCollection.WaitForCompletion
 targetos: Windows
 req.typenames: 
 req.redist: 

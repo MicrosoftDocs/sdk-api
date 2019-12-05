@@ -1,19 +1,17 @@
 ---
 UID: NN:objidl.IBlockingLock
 title: IBlockingLock (objidl.h)
-
 description: Provides a semaphore that can be used to provide temporarily exclusive access to a shared resource such as a file.
 old-location: com\iblockinglock.htm
 tech.root: com
 ms.assetid: 8fccc4f9-17fe-4927-b00d-2815f47857e5
-
 ms.date: 12/05/2018
 ms.keywords: IBlockingLock, IBlockingLock interface [COM], IBlockingLock interface [COM],described, _com_iblockinglock, com.iblockinglock, objidl/IBlockingLock
 ms.topic: interface
-f1_keywords: 
- - "objidl/IBlockingLock"
+f1_keywords:
+- objidl/IBlockingLock
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBlockingLock
+- IBlockingLock
 targetos: Windows
 req.typenames: 
 req.redist: 

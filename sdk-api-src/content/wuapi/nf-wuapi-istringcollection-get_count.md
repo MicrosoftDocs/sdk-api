@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IStringCollection.get_Count
 title: IStringCollection::get_Count (wuapi.h)
-
 description: Gets the number of elements in the collection.
 old-location: wua\istringcollection_count.htm
 tech.root: Wua_Sdk
 ms.assetid: f735ee0b-56db-44f4-b8e6-38843098fe77
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IStringCollection interface, IStringCollection interface [Windows Update Agent],Count property, IStringCollection.Count, IStringCollection.get_Count, IStringCollection::Count, IStringCollection::get_Count, get_Count, wua.istringcollection_count, wuapi/IStringCollection::Count, wuapi/IStringCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "wuapi/IStringCollection.Count"
+f1_keywords:
+- wuapi/IStringCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IStringCollection.Count
- - IStringCollection.get_Count
+- IStringCollection.Count
+- IStringCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

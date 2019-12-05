@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.IsFilled
 title: AdjustableArrowCap::IsFilled (gdipluslinecaps.h)
-
 description: The AdjustableArrowCap::IsFilled method determines whether the arrow cap is filled.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_IsFilled_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\isfilled.htm
-
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],IsFilled method, AdjustableArrowCap.IsFilled, AdjustableArrowCap::IsFilled, IsFilled, IsFilled method [GDI+], IsFilled method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_IsFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_IsFilled_
 ms.topic: method
-f1_keywords: 
- - "gdipluslinecaps/AdjustableArrowCap.IsFilled"
+f1_keywords:
+- gdipluslinecaps/AdjustableArrowCap.IsFilled
 dev_langs:
- - c++
+- c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - AdjustableArrowCap.IsFilled
+- AdjustableArrowCap.IsFilled
 targetos: Windows
 req.typenames: 
 req.redist: 

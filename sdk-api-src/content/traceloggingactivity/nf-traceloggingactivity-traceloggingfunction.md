@@ -1,19 +1,17 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingFunction
 title: TraceLoggingFunction macro (traceloggingactivity.h)
-
 description: Creates a TraceLoggingThreadActivity named after the current function and writes a Start event for the activity. A Stop activity will be written at the end of the current scope.
 old-location: tracelogging\traceloggingfunction.htm
 tech.root: tracelogging
 ms.assetid: 70382367-E0A0-4E5B-A14F-863BEC0615C5
-
 ms.date: 12/05/2018
 ms.keywords: TraceLoggingFunction, TraceLoggingFunction macro, tracelogging.traceloggingfunction, traceloggingactivity/TraceLoggingFunction
 ms.topic: macro
-f1_keywords: 
- - "traceloggingactivity/TraceLoggingFunction"
+f1_keywords:
+- traceloggingactivity/TraceLoggingFunction
 dev_langs:
- - c++
+- c++
 req.header: traceloggingactivity.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - traceloggingactivity.h
+- traceloggingactivity.h
 api_name:
- - TraceLoggingFunction
+- TraceLoggingFunction
 targetos: Windows
 req.typenames: 
 req.redist: 

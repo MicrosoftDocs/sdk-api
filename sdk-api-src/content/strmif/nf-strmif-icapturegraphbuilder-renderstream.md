@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.RenderStream
 title: ICaptureGraphBuilder::RenderStream (strmif.h)
-
 description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Connects a source filter's pin, of an optionally specified category, to the rendering filter, and optionally through another filter.
 old-location: dshow\icapturegraphbuilder_renderstream.htm
 tech.root: DirectShow
 ms.assetid: 2b174f31-d7bb-4934-9d5b-2e4fd6ae8bf5
-
 ms.date: 12/05/2018
 ms.keywords: ICaptureGraphBuilder interface [DirectShow],RenderStream method, ICaptureGraphBuilder.RenderStream, ICaptureGraphBuilder::RenderStream, ICaptureGraphBuilderRenderStream, RenderStream, RenderStream method [DirectShow], RenderStream method [DirectShow],ICaptureGraphBuilder interface, dshow.icapturegraphbuilder_renderstream, strmif/ICaptureGraphBuilder::RenderStream
 ms.topic: method
-f1_keywords: 
- - "strmif/ICaptureGraphBuilder.RenderStream"
+f1_keywords:
+- strmif/ICaptureGraphBuilder.RenderStream
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - ICaptureGraphBuilder.RenderStream
+- ICaptureGraphBuilder.RenderStream
 targetos: Windows
 req.typenames: 
 req.redist: 

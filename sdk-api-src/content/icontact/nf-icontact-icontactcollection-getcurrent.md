@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactCollection.GetCurrent
 title: IContactCollection::GetCurrent (icontact.h)
-
 description: Retrieves the current contact in the enumeration.
 old-location: wincontacts\_wincontacts_IContactCollection_GetCurrent.htm
 tech.root: wincontacts
 ms.assetid: e5a5d27d-121a-4755-892e-53d148facd74
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrent, GetCurrent method [Windows Contacts], GetCurrent method [Windows Contacts],IContactCollection interface, IContactCollection interface [Windows Contacts],GetCurrent method, IContactCollection.GetCurrent, IContactCollection::GetCurrent, _wincontacts_IContactCollection_GetCurrent, icontact/IContactCollection::GetCurrent, wincontacts._wincontacts_IContactCollection_GetCurrent
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactCollection.GetCurrent"
+f1_keywords:
+- icontact/IContactCollection.GetCurrent
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactCollection.GetCurrent
+- IContactCollection.GetCurrent
 targetos: Windows
 req.typenames: 
 req.redist: 

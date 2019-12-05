@@ -1,19 +1,17 @@
 ---
 UID: NN:mmc.IExtendTaskPad
 title: IExtendTaskPad (mmc.h)
-
 description: The IExtendTaskPad interface is introduced in MMC 1.1.
 old-location: mmc\iextendtaskpad.htm
 tech.root: mmc
 ms.assetid: 30f5b526-d2d5-48a6-be5f-d0f2ba9397c4
-
 ms.date: 12/05/2018
 ms.keywords: IExtendTaskPad, IExtendTaskPad interface [MMC], IExtendTaskPad interface [MMC],described, _slate_iextendtaskpad, mmc.iextendtaskpad, mmc/IExtendTaskPad
 ms.topic: interface
-f1_keywords: 
- - "mmc/IExtendTaskPad"
+f1_keywords:
+- mmc/IExtendTaskPad
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmc.h
+- Mmc.h
 api_name:
- - IExtendTaskPad
+- IExtendTaskPad
 targetos: Windows
 req.typenames: 
 req.redist: 

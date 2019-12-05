@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostViewCallback.AllocateForPostView
 title: IWMWriterPostViewCallback::AllocateForPostView (wmsdkidl.h)
-
 description: The AllocateForPostView method allocates a buffer for use in postviewing operations. The application implements this method.
 old-location: wmformat\iwmwriterpostviewcallback_allocateforpostview.htm
 tech.root: wmformat
 ms.assetid: e48132c4-b222-4401-99b3-7906c0df4ec1
-
 ms.date: 12/05/2018
 ms.keywords: AllocateForPostView, AllocateForPostView method [windows Media Format], AllocateForPostView method [windows Media Format],IWMWriterPostViewCallback interface, IWMWriterPostViewCallback interface [windows Media Format],AllocateForPostView method, IWMWriterPostViewCallback.AllocateForPostView, IWMWriterPostViewCallback::AllocateForPostView, IWMWriterPostViewCallbackAllocateForPostView, wmformat.iwmwriterpostviewcallback_allocateforpostview, wmsdkidl/IWMWriterPostViewCallback::AllocateForPostView
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMWriterPostViewCallback.AllocateForPostView"
+f1_keywords:
+- wmsdkidl/IWMWriterPostViewCallback.AllocateForPostView
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - IWMWriterPostViewCallback.AllocateForPostView
+- IWMWriterPostViewCallback.AllocateForPostView
 targetos: Windows
 req.typenames: 
 req.redist: 

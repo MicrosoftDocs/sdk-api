@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdbase.IWSDHttpMessageParameters.SetInboundHttpHeaders
 title: IWSDHttpMessageParameters::SetInboundHttpHeaders (wsdbase.h)
-
 description: Sets the HTTP headers used for inbound SOAP-over-HTTP transmissions.
 old-location: ncd\iwsdhttpmessageparameters_setinboundhttpheaders.htm
 tech.root: WsdApi
 ms.assetid: fd680016-1e6f-4d15-b1ca-cd2b6b210a71
-
 ms.date: 12/05/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetInboundHttpHeaders method, IWSDHttpMessageParameters.SetInboundHttpHeaders, IWSDHttpMessageParameters::SetInboundHttpHeaders, SetInboundHttpHeaders, SetInboundHttpHeaders method, SetInboundHttpHeaders method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setinboundhttpheaders, wsdbase/IWSDHttpMessageParameters::SetInboundHttpHeaders
 ms.topic: method
-f1_keywords: 
- - "wsdbase/IWSDHttpMessageParameters.SetInboundHttpHeaders"
+f1_keywords:
+- wsdbase/IWSDHttpMessageParameters.SetInboundHttpHeaders
 dev_langs:
- - c++
+- c++
 req.header: wsdbase.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters.SetInboundHttpHeaders
+- IWSDHttpMessageParameters.SetInboundHttpHeaders
 targetos: Windows
 req.typenames: 
 req.redist: 

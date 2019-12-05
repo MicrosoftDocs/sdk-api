@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(IN INT,IN INT,IN const Pen,IN const Graphics)
 title: GraphicsPath::IsOutlineVisible(IN INT,IN INT,IN const Pen,IN const Graphics) (gdipluspath.h)
-
 description: The GraphicsPath::IsOutlineVisible method determines whether a specified point touches the outline of this path when the path is drawn by a specified Graphics object and a specified pen.
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsOutlineVisible_INT_x_INT_y_Pen_pen_Graphics_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisoutlinevisiblemethods\isoutlinevisible_5intx_inty_penpen_graphicsg.htm
-
 ms.date: 12/05/2018
 ms.keywords: GraphicsPath class [GDI+],IsOutlineVisible method, GraphicsPath.IsOutlineVisible, GraphicsPath.IsOutlineVisible(IN INT,IN INT,IN const Pen,IN const Graphics), GraphicsPath.IsOutlineVisible(INT,INT,const Pen*,const Graphics*), GraphicsPath::IsOutlineVisible, GraphicsPath::IsOutlineVisible(IN INT,IN INT,IN const Pen,IN const Graphics), IsOutlineVisible, IsOutlineVisible method [GDI+], IsOutlineVisible method [GDI+],GraphicsPath class, _gdiplus_CLASS_GraphicsPath_IsOutlineVisible_INT_x_INT_y_Pen_pen_Graphics_g_, gdiplus._gdiplus_CLASS_GraphicsPath_IsOutlineVisible_INT_x_INT_y_Pen_pen_Graphics_g_
 ms.topic: method
-f1_keywords: 
- - "gdipluspath/GraphicsPath.IsOutlineVisible"
+f1_keywords:
+- gdipluspath/GraphicsPath.IsOutlineVisible
 dev_langs:
- - c++
+- c++
 req.header: gdipluspath.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - GraphicsPath.IsOutlineVisible
+- GraphicsPath.IsOutlineVisible
 targetos: Windows
 req.typenames: 
 req.redist: 

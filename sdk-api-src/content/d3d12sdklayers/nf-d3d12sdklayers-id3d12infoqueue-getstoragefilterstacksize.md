@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetStorageFilterStackSize
 title: ID3D12InfoQueue::GetStorageFilterStackSize (d3d12sdklayers.h)
-
 description: Get the size of the storage-filter stack in bytes.
 old-location: direct3d12\id3d12infoqueue_getstoragefilterstacksize.htm
 tech.root: direct3d12
 ms.assetid: A2E1B587-8FB2-44E8-9F6D-1BDB3C1EDE77
-
 ms.date: 12/05/2018
 ms.keywords: GetStorageFilterStackSize, GetStorageFilterStackSize method, GetStorageFilterStackSize method,ID3D12InfoQueue interface, ID3D12InfoQueue interface,GetStorageFilterStackSize method, ID3D12InfoQueue.GetStorageFilterStackSize, ID3D12InfoQueue::GetStorageFilterStackSize, d3d12sdklayers/ID3D12InfoQueue::GetStorageFilterStackSize, direct3d12.id3d12infoqueue_getstoragefilterstacksize
 ms.topic: method
-f1_keywords: 
- - "d3d12sdklayers/ID3D12InfoQueue.GetStorageFilterStackSize"
+f1_keywords:
+- d3d12sdklayers/ID3D12InfoQueue.GetStorageFilterStackSize
 dev_langs:
- - c++
+- c++
 req.header: d3d12sdklayers.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12sdklayers.h
+- d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue.GetStorageFilterStackSize
+- ID3D12InfoQueue.GetStorageFilterStackSize
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnPin.get_PinMode
 title: IMbnPin::get_PinMode (mbnapi.h)
-
 description: The PIN mode.
 old-location: mbn\imbnpin_pinmode.htm
 tech.root: mbn
 ms.assetid: d286c442-6878-4194-a605-40385a9789b9
-
 ms.date: 12/05/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],PinMode property, IMbnPin.PinMode, IMbnPin.get_PinMode, IMbnPin::PinMode, IMbnPin::get_PinMode, PinMode property [Microsoft Broadband Networks], PinMode property [Microsoft Broadband Networks],IMbnPin interface, get_PinMode, mbn.imbnpin_pinmode, mbnapi/IMbnPin::PinMode, mbnapi/IMbnPin::get_PinMode
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnPin.PinMode"
+f1_keywords:
+- mbnapi/IMbnPin.PinMode
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnPin.PinMode
- - IMbnPin.get_PinMode
+- IMbnPin.PinMode
+- IMbnPin.get_PinMode
 targetos: Windows
 req.typenames: 
 req.redist: 

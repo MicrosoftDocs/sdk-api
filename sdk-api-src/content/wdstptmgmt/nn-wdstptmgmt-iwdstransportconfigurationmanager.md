@@ -1,19 +1,17 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportConfigurationManager
 title: IWdsTransportConfigurationManager (wdstptmgmt.h)
-
 description: Manages the configuration of a WDS transport server.
 old-location: wds\iwdstransportconfigurationmanager.htm
 tech.root: wds
 ms.assetid: b86f9bc7-ddee-4d18-b5cb-28d28fa7ae7e
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportConfigurationManager, IWdsTransportConfigurationManager interface [Windows Deployment Services], IWdsTransportConfigurationManager interface [Windows Deployment Services],described, wds.iwdstransportconfigurationmanager, wdstptmgmt/IWdsTransportConfigurationManager
 ms.topic: interface
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportConfigurationManager"
+f1_keywords:
+- wdstptmgmt/IWdsTransportConfigurationManager
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager
+- IWdsTransportConfigurationManager
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:wuapi.IInstallationProgressChangedCallback
 title: IInstallationProgressChangedCallback (wuapi.h)
-
 description: Defines the Invoke method that handles the notification about the on-going progress of an asynchronous installation or uninstallation.
 old-location: wua\iinstallationprogresschangedcallback.htm
 tech.root: Wua_Sdk
 ms.assetid: a092dbba-57a4-4deb-be05-26cfa29e33aa
-
 ms.date: 12/05/2018
 ms.keywords: IInstallationProgressChangedCallback, IInstallationProgressChangedCallback interface [Windows Update Agent], IInstallationProgressChangedCallback interface [Windows Update Agent],described, wua.iinstallationprogresschangedcallback, wuapi/IInstallationProgressChangedCallback
 ms.topic: interface
-f1_keywords: 
- - "wuapi/IInstallationProgressChangedCallback"
+f1_keywords:
+- wuapi/IInstallationProgressChangedCallback
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IInstallationProgressChangedCallback
+- IInstallationProgressChangedCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

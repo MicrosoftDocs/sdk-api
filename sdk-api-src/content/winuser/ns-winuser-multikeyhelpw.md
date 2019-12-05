@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagMULTIKEYHELPW
 title: MULTIKEYHELPW (winuser.h)
-
 description: Specifies a keyword to search for and the keyword table to be searched by Windows Help.
 old-location: shell\MULTIKEYHELP_str.htm
 tech.root: shell
 ms.assetid: 5fe0cd44-196c-4d9a-b9f8-2a97a92f2545
-
 ms.date: 12/05/2018
-ms.keywords: "*LPMULTIKEYHELPW, *PMULTIKEYHELPW, MULTIKEYHELP, MULTIKEYHELP structure [Windows Shell], MULTIKEYHELPW, _win32_MULTIKEYHELP_str, shell.MULTIKEYHELP_str, tagMULTIKEYHELPA, tagMULTIKEYHELPW, winuser/MULTIKEYHELP"
+ms.keywords: '*LPMULTIKEYHELPW, *PMULTIKEYHELPW, MULTIKEYHELP, MULTIKEYHELP structure [Windows Shell], MULTIKEYHELPW, _win32_MULTIKEYHELP_str, shell.MULTIKEYHELP_str, tagMULTIKEYHELPA, tagMULTIKEYHELPW, winuser/MULTIKEYHELP'
 ms.topic: struct
-f1_keywords: 
- - "winuser/MULTIKEYHELP"
+f1_keywords:
+- winuser/MULTIKEYHELP
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winuser.h
+- Winuser.h
 api_name:
- - MULTIKEYHELP
+- MULTIKEYHELP
 targetos: Windows
 req.typenames: MULTIKEYHELPW, *PMULTIKEYHELPW, *LPMULTIKEYHELPW
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IIsdbTSInformationDescriptor
 title: IIsdbTSInformationDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) transport stream (TS) information descriptor.
 old-location: mstv\iisdbtsinformationdescriptor.htm
 tech.root: mstv
 ms.assetid: 3c8cd33c-5c2a-48a4-9e8a-f7dd03560848
-
 ms.date: 12/05/2018
 ms.keywords: IIsdbTSInformationDescriptor, IIsdbTSInformationDescriptor interface [Microsoft TV Technologies], IIsdbTSInformationDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IIsdbTSInformationDescriptor, mstv.iisdbtsinformationdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IIsdbTSInformationDescriptor"
+f1_keywords:
+- dvbsiparser/IIsdbTSInformationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IIsdbTSInformationDescriptor
+- IIsdbTSInformationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:traffic._TC_GEN_FILTER
 title: TC_GEN_FILTER (traffic.h)
-
 description: The TC_GEN_FILTER structure creates a filter that matches a certain set of packet attributes or criteria, which can subsequently be used to associate packets that meet the attribute criteria with a particular flow.
 old-location: qos\tc_gen_filter.htm
 tech.root: QOS
 ms.assetid: 979bfa2d-50da-43a6-8ead-d338159e31cf
-
 ms.date: 12/05/2018
 ms.keywords: '*PTC_GEN_FILTER, TC_GEN_FILTER, TC_GEN_FILTER structure [QOS], TC_GEN_FILTER), TC_GEN_FILTER) structure [QOS], _gqos_tc_gen_filter, qos.tc_gen_filter, traffic/TC_GEN_FILTER'
 ms.topic: struct
 f1_keywords:
 - traffic/TC_GEN_FILTER)
 dev_langs:
- - c++
+- c++
 req.header: traffic.h
 req.include-header: 
 req.target-type: Windows

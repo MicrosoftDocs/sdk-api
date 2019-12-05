@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTrimming
 title: StringFormat::GetTrimming (gdiplusstringformat.h)
-
 description: The StringFormat::GetTrimming method gets an element of the StringTrimming enumeration that indicates the trimming style of this StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTrimming_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettrimming.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetTrimming, GetTrimming method [GDI+], GetTrimming method [GDI+],StringFormat class, StringFormat class [GDI+],GetTrimming method, StringFormat.GetTrimming, StringFormat::GetTrimming, _gdiplus_CLASS_StringFormat_GetTrimming_, gdiplus._gdiplus_CLASS_StringFormat_GetTrimming_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.GetTrimming"
+f1_keywords:
+- gdiplusstringformat/StringFormat.GetTrimming
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.GetTrimming
+- StringFormat.GetTrimming
 targetos: Windows
 req.typenames: 
 req.redist: 

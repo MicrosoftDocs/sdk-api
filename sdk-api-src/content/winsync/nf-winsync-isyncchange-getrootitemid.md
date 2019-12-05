@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChange.GetRootItemId
 title: ISyncChange::GetRootItemId (winsync.h)
-
 description: Gets the ID of the changed item.
 old-location: winsync\isyncchange_getrootitemid.htm
 tech.root: winsync
 ms.assetid: 775868d5-8cab-431a-913b-b22b2d516f0d
-
 ms.date: 12/05/2018
 ms.keywords: GetRootItemId, GetRootItemId method [Windows Sync], GetRootItemId method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetRootItemId method, ISyncChange.GetRootItemId, ISyncChange::GetRootItemId, winsync.isyncchange_getrootitemid, winsync/ISyncChange::GetRootItemId
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetRootItemId"
+f1_keywords:
+- winsync/ISyncChange.GetRootItemId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetRootItemId
+- ISyncChange.GetRootItemId
 targetos: Windows
 req.typenames: 
 req.redist: 

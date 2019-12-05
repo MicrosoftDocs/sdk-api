@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITTerminalSupport.CreateTerminal
 title: ITTerminalSupport::CreateTerminal (tapi3if.h)
-
 description: The CreateTerminal method creates and initializes a new ITTerminal object based on the dynamic terminal class and media. The terminal class is identified by a GUID. The GUID must be converted to a string using StringFromIID to pass to this method.
 old-location: tapi3\itterminalsupport_createterminal.htm
 tech.root: Tapi
 ms.assetid: 2a2a037a-753c-4dd4-b6ce-10b69f2e2421
-
 ms.date: 12/05/2018
 ms.keywords: CreateTerminal, CreateTerminal method [TAPI 2.2], CreateTerminal method [TAPI 2.2],ITTerminalSupport interface, ITTerminalSupport interface [TAPI 2.2],CreateTerminal method, ITTerminalSupport.CreateTerminal, ITTerminalSupport::CreateTerminal, _tapi3_itterminalsupport_createterminal, tapi3.itterminalsupport_createterminal, tapi3if/ITTerminalSupport::CreateTerminal
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITTerminalSupport.CreateTerminal"
+f1_keywords:
+- tapi3if/ITTerminalSupport.CreateTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tapi3if.h
+- tapi3if.h
 api_name:
- - ITTerminalSupport.CreateTerminal
+- ITTerminalSupport.CreateTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

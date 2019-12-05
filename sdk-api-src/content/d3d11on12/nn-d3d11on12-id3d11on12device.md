@@ -1,19 +1,17 @@
 ---
 UID: NN:d3d11on12.ID3D11On12Device
 title: ID3D11On12Device (d3d11on12.h)
-
 description: Handles the creation, wrapping, and releasing of D3D11 resources for Direct3D11on12.
 old-location: direct3d12\id3d11on12device.htm
 tech.root: direct3d12
 ms.assetid: 031F9AC2-E5C0-47F9-B084-2D2431F1187A
-
 ms.date: 12/05/2018
 ms.keywords: ID3D11On12Device, ID3D11On12Device interface, ID3D11On12Device interface,described, d3d11on12/ID3D11On12Device, direct3d12.id3d11on12device
 ms.topic: interface
-f1_keywords: 
- - "d3d11on12/ID3D11On12Device"
+f1_keywords:
+- d3d11on12/ID3D11On12Device
 dev_langs:
- - c++
+- c++
 req.header: d3d11on12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D11.lib
 req.dll: D3D11.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D11.dll
+- D3D11.dll
 api_name:
- - ID3D11On12Device
+- ID3D11On12Device
 targetos: Windows
 req.typenames: 
 req.redist: 

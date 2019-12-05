@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.SSIZETAdd
 title: SSIZETAdd function (intsafe.h)
-
 description: Adds two SSIZE_T values together.
 old-location: shell\SSIZETAdd.htm
 tech.root: shell
 ms.assetid: a9a2eb36-f70b-45fb-a84a-391a0bb77954
-
 ms.date: 12/05/2018
 ms.keywords: SSIZETAdd, SSIZETAdd function [Windows Shell], intsafe/SSIZETAdd, shell.SSIZETAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/SSIZETAdd"
+f1_keywords:
+- intsafe/SSIZETAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - SSIZETAdd
+- SSIZETAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

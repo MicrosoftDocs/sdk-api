@@ -1,19 +1,17 @@
 ---
 UID: NF:winsock2.listen
 title: listen function (winsock2.h)
-
 description: The listen function places a socket in a state in which it is listening for an incoming connection.
 old-location: winsock\listen_2.htm
 tech.root: WinSock
 ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen"
+ms.keywords: _win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen
 ms.topic: function
-f1_keywords: 
- - "winsock2/listen"
+f1_keywords:
+- winsock2/listen
 dev_langs:
- - c++
+- c++
 req.header: winsock2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - listen
+- listen
 targetos: Windows
 req.typenames: 
 req.redist: 

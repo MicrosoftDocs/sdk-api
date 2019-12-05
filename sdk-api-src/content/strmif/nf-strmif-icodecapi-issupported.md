@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.ICodecAPI.IsSupported
 title: ICodecAPI::IsSupported (strmif.h)
-
 description: The IsSupported method queries whether a codec supports a given property.
 old-location: dshow\icodecapi_issupported.htm
 tech.root: DirectShow
 ms.assetid: 6f556532-1a49-45c1-b446-89c05e8a8237
-
 ms.date: 12/05/2018
 ms.keywords: ICodecAPI interface [DirectShow],IsSupported method, ICodecAPI.IsSupported, ICodecAPI::IsSupported, ICodecAPIIsSupported, IsSupported, IsSupported method [DirectShow], IsSupported method [DirectShow],ICodecAPI interface, dshow.icodecapi_issupported, strmif/ICodecAPI::IsSupported
 ms.topic: method
-f1_keywords: 
- - "strmif/ICodecAPI.IsSupported"
+f1_keywords:
+- strmif/ICodecAPI.IsSupported
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - ICodecAPI.IsSupported
+- ICodecAPI.IsSupported
 targetos: Windows
 req.typenames: 
 req.redist: 

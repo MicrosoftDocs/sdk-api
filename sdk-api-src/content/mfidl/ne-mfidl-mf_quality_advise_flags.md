@@ -1,19 +1,17 @@
 ---
 UID: NE:mfidl._MF_QUALITY_ADVISE_FLAGS
 title: MF_QUALITY_ADVISE_FLAGS (mfidl.h)
-
 description: Contains flags for the IMFQualityAdvise2::NotifyQualityEvent method.
 old-location: mf\mf_quality_advise_flags.htm
 tech.root: medfound
 ms.assetid: 93cf5585-fcb4-480a-b482-241376e8ec73
-
 ms.date: 12/05/2018
 ms.keywords: MF_QUALITY_ADVISE_FLAGS, MF_QUALITY_ADVISE_FLAGS enumeration [Media Foundation], MF_QUALITY_CANNOT_KEEP_UP, mf.mf_quality_advise_flags, mfidl/MF_QUALITY_ADVISE_FLAGS, mfidl/MF_QUALITY_CANNOT_KEEP_UP
 ms.topic: enum
-f1_keywords: 
- - "mfidl/MF_QUALITY_ADVISE_FLAGS"
+f1_keywords:
+- mfidl/MF_QUALITY_ADVISE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - MF_QUALITY_ADVISE_FLAGS
+- MF_QUALITY_ADVISE_FLAGS
 targetos: Windows
 req.typenames: MF_QUALITY_ADVISE_FLAGS
 req.redist: 

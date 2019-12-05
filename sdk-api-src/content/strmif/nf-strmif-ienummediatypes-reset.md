@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IEnumMediaTypes.Reset
 title: IEnumMediaTypes::Reset (strmif.h)
-
 description: The Reset method resets the enumeration sequence to the beginning.
 old-location: dshow\ienummediatypes_reset.htm
 tech.root: DirectShow
 ms.assetid: d95d4e69-48dc-4ad1-a0e2-c5fea793b7b3
-
 ms.date: 12/05/2018
 ms.keywords: IEnumMediaTypes interface [DirectShow],Reset method, IEnumMediaTypes.Reset, IEnumMediaTypes::Reset, IEnumMediaTypesReset, Reset, Reset method [DirectShow], Reset method [DirectShow],IEnumMediaTypes interface, dshow.ienummediatypes_reset, strmif/IEnumMediaTypes::Reset
 ms.topic: method
-f1_keywords: 
- - "strmif/IEnumMediaTypes.Reset"
+f1_keywords:
+- strmif/IEnumMediaTypes.Reset
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEnumMediaTypes.Reset
+- IEnumMediaTypes.Reset
 targetos: Windows
 req.typenames: 
 req.redist: 

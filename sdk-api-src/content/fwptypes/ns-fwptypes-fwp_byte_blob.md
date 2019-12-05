@@ -1,19 +1,17 @@
 ---
 UID: NS:fwptypes.FWP_BYTE_BLOB_
 title: FWP_BYTE_BLOB (fwptypes.h)
-
 description: Stores an array containing a variable number of bytes.
 old-location: fwp\fwp_byte_blob_struct.htm
 tech.root: fwp
 ms.assetid: 85f360bf-5ee4-4980-b4ce-15ff310d8fbe
-
 ms.date: 12/05/2018
 ms.keywords: FWP_BYTE_BLOB, FWP_BYTE_BLOB structure [Filtering], fwp.fwp_byte_blob_struct, fwptypes/FWP_BYTE_BLOB
 ms.topic: struct
-f1_keywords: 
- - "fwptypes/FWP_BYTE_BLOB"
+f1_keywords:
+- fwptypes/FWP_BYTE_BLOB
 dev_langs:
- - c++
+- c++
 req.header: fwptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Fwptypes.h
+- Fwptypes.h
 api_name:
- - FWP_BYTE_BLOB
+- FWP_BYTE_BLOB
 targetos: Windows
 req.typenames: FWP_BYTE_BLOB
 req.redist: 

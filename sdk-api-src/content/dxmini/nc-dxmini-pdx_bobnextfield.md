@@ -1,19 +1,17 @@
 ---
 UID: NC:dxmini.PDX_BOBNEXTFIELD
 title: PDX_BOBNEXTFIELD (dxmini.h)
-
 description: The DxBobNextField callback function bobs the next field of interleaved data.
 old-location: display\dxbobnextfield.htm
 tech.root: display
 ms.assetid: 5daafc0c-2a6d-45e2-8403-d54cb383b3b7
-
 ms.date: 12/05/2018
 ms.keywords: DxBobNextField, DxBobNextField callback function [Display Devices], PDX_BOBNEXTFIELD, PDX_BOBNEXTFIELD callback, VideoMiniPort_DxApiFunctions_d95db457-005d-4eee-a110-19159f64008b.xml, display.dxbobnextfield, dxmini/DxBobNextField
 ms.topic: callback
 f1_keywords:
 - dxmini/DxBobNextField
 dev_langs:
- - c++
+- c++
 req.header: dxmini.h
 req.include-header: Dxmini.h
 req.target-type: Desktop

@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveEventHandler
 title: IDirectManipulationViewport::RemoveEventHandler (directmanipulation.h)
-
 description: Removes an existing event handler from the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removeeventhandler.htm
 tech.root: directmanipulation
 ms.assetid: ea8539c0-2c0e-4259-a104-ecc02a46372a
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveEventHandler method, IDirectManipulationViewport.RemoveEventHandler, IDirectManipulationViewport::RemoveEventHandler, RemoveEventHandler, RemoveEventHandler method [Direct Manipulation], RemoveEventHandler method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removeeventhandler, directmanipulation/IDirectManipulationViewport::RemoveEventHandler
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.RemoveEventHandler"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.RemoveEventHandler
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.RemoveEventHandler
+- IDirectManipulationViewport.RemoveEventHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_parse_referenceW
 title: ldap_parse_referenceW function (winldap.h)
-
 description: The ldap_parse_reference function returns a list of subordinate referrals in a search response message.
 old-location: ldap\ldap_parse_reference.htm
 tech.root: ldap
 ms.assetid: 106db7dd-ee1e-48c9-9357-e14d4f8e8782
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_parse_reference, ldap.ldap__parse__reference, ldap.ldap_parse_reference, ldap_parse_reference, ldap_parse_reference function [LDAP], ldap_parse_referenceA, ldap_parse_referenceW, winldap/ldap_parse_reference, winldap/ldap_parse_referenceA, winldap/ldap_parse_referenceW"
+ms.keywords: _ldap_ldap_parse_reference, ldap.ldap__parse__reference, ldap.ldap_parse_reference, ldap_parse_reference, ldap_parse_reference function [LDAP], ldap_parse_referenceA, ldap_parse_referenceW, winldap/ldap_parse_reference, winldap/ldap_parse_referenceA, winldap/ldap_parse_referenceW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_parse_reference"
+f1_keywords:
+- winldap/ldap_parse_reference
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_parse_reference
- - ldap_parse_referenceA
- - ldap_parse_referenceW
+- ldap_parse_reference
+- ldap_parse_referenceA
+- ldap_parse_referenceW
 targetos: Windows
 req.typenames: 
 req.redist: 

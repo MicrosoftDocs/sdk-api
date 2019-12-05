@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextFont2.GetModWidthPairs
 title: ITextFont2::GetModWidthPairs (tom.h)
-
 description: Gets whether &#0034;decrease widths on pairs&#0034; is active.
 old-location: controls\itextfont2_getmodwidthpairs.htm
 tech.root: Controls
 ms.assetid: 8fcbc781-42da-46aa-b231-3a8246eccd36
-
 ms.date: 12/05/2018
 ms.keywords: GetModWidthPairs, GetModWidthPairs method [Windows Controls], GetModWidthPairs method [Windows Controls],ITextFont2 interface, ITextFont2 interface [Windows Controls],GetModWidthPairs method, ITextFont2.GetModWidthPairs, ITextFont2::GetModWidthPairs, controls.itextfont2_getmodwidthpairs, tom/ITextFont2::GetModWidthPairs
 ms.topic: method
-f1_keywords: 
- - "tom/ITextFont2.GetModWidthPairs"
+f1_keywords:
+- tom/ITextFont2.GetModWidthPairs
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextFont2.GetModWidthPairs
+- ITextFont2.GetModWidthPairs
 targetos: Windows
 req.typenames: 
 req.redist: 

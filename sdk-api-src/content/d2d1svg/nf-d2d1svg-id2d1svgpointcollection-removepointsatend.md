@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPointCollection.RemovePointsAtEnd
 title: ID2D1SvgPointCollection::RemovePointsAtEnd (d2d1svg.h)
-
 description: Removes points from the end of the array.
 old-location: direct2d\id2d1svgpointcollection_removepointsatend.htm
 tech.root: Direct2D
 ms.assetid: F15DAC71-647D-466C-B754-6553122EC5A7
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1SvgPointCollection interface [Direct2D],RemovePointsAtEnd method, ID2D1SvgPointCollection.RemovePointsAtEnd, ID2D1SvgPointCollection::RemovePointsAtEnd, RemovePointsAtEnd, RemovePointsAtEnd method [Direct2D], RemovePointsAtEnd method [Direct2D],ID2D1SvgPointCollection interface, d2d1svg/ID2D1SvgPointCollection::RemovePointsAtEnd, direct2d.id2d1svgpointcollection_removepointsatend
 ms.topic: method
-f1_keywords: 
- - "d2d1svg/ID2D1SvgPointCollection.RemovePointsAtEnd"
+f1_keywords:
+- d2d1svg/ID2D1SvgPointCollection.RemovePointsAtEnd
 dev_langs:
- - c++
+- c++
 req.header: d2d1svg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Direct2d.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - direct2d.dll
+- direct2d.dll
 api_name:
- - ID2D1SvgPointCollection.RemovePointsAtEnd
+- ID2D1SvgPointCollection.RemovePointsAtEnd
 targetos: Windows
 req.typenames: 
 req.redist: 

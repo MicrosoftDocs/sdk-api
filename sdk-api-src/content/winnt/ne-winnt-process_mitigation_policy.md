@@ -1,19 +1,17 @@
 ---
 UID: NE:winnt._PROCESS_MITIGATION_POLICY
 title: PROCESS_MITIGATION_POLICY (winnt.h)
-
 description: Represents the different process mitigation policies.
 old-location: base\process_mitigation_policy.htm
 tech.root: ProcThread
 ms.assetid: b9636a0f-3123-499d-8663-72ed4d4993f0
-
 ms.date: 12/05/2018
-ms.keywords: "*PPROCESS_MITIGATION_POLICY, MaxProcessMitigationPolicy, PPROCESS_MITIGATION_POLICY, PPROCESS_MITIGATION_POLICY enumeration pointer, PROCESS_MITIGATION_POLICY, PROCESS_MITIGATION_POLICY enumeration, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.process_mitigation_policy, winnt/MaxProcessMitigationPolicy, winnt/PPROCESS_MITIGATION_POLICY, winnt/PROCESS_MITIGATION_POLICY, winnt/ProcessASLRPolicy, winnt/ProcessControlFlowGuardPolicy, winnt/ProcessDEPPolicy, winnt/ProcessDynamicCodePolicy, winnt/ProcessExtensionPointDisablePolicy, winnt/ProcessFontDisablePolicy, winnt/ProcessImageLoadPolicy, winnt/ProcessMitigationOptionsMask, winnt/ProcessSignaturePolicy, winnt/ProcessStrictHandleCheckPolicy, winnt/ProcessSystemCallDisablePolicy"
+ms.keywords: '*PPROCESS_MITIGATION_POLICY, MaxProcessMitigationPolicy, PPROCESS_MITIGATION_POLICY, PPROCESS_MITIGATION_POLICY enumeration pointer, PROCESS_MITIGATION_POLICY, PROCESS_MITIGATION_POLICY enumeration, ProcessASLRPolicy, ProcessControlFlowGuardPolicy, ProcessDEPPolicy, ProcessDynamicCodePolicy, ProcessExtensionPointDisablePolicy, ProcessFontDisablePolicy, ProcessImageLoadPolicy, ProcessMitigationOptionsMask, ProcessSignaturePolicy, ProcessStrictHandleCheckPolicy, ProcessSystemCallDisablePolicy, base.process_mitigation_policy, winnt/MaxProcessMitigationPolicy, winnt/PPROCESS_MITIGATION_POLICY, winnt/PROCESS_MITIGATION_POLICY, winnt/ProcessASLRPolicy, winnt/ProcessControlFlowGuardPolicy, winnt/ProcessDEPPolicy, winnt/ProcessDynamicCodePolicy, winnt/ProcessExtensionPointDisablePolicy, winnt/ProcessFontDisablePolicy, winnt/ProcessImageLoadPolicy, winnt/ProcessMitigationOptionsMask, winnt/ProcessSignaturePolicy, winnt/ProcessStrictHandleCheckPolicy, winnt/ProcessSystemCallDisablePolicy'
 ms.topic: enum
-f1_keywords: 
- - "winnt/PROCESS_MITIGATION_POLICY"
+f1_keywords:
+- winnt/PROCESS_MITIGATION_POLICY
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinNT.h
+- WinNT.h
 api_name:
- - PROCESS_MITIGATION_POLICY
+- PROCESS_MITIGATION_POLICY
 targetos: Windows
 req.typenames: PROCESS_MITIGATION_POLICY, *PPROCESS_MITIGATION_POLICY
 req.redist: 

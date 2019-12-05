@@ -1,19 +1,17 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_TYPE_
 title: IPSEC_TOKEN_TYPE (ipsectypes.h)
-
 description: An IPsec token type.
 old-location: fwp\ipsec_token_type.htm
 tech.root: fwp
 ms.assetid: 68eb9301-33d9-4ab9-b3e7-0fc83b6f0f1d
-
 ms.date: 12/05/2018
 ms.keywords: IPSEC_TOKEN_TYPE, IPSEC_TOKEN_TYPE enumeration [Filtering], IPSEC_TOKEN_TYPE_IMPERSONATION, IPSEC_TOKEN_TYPE_MACHINE, IPSEC_TOKEN_TYPE_MAX, fwp.ipsec_token_type, ipsectypes/IPSEC_TOKEN_TYPE, ipsectypes/IPSEC_TOKEN_TYPE_IMPERSONATION, ipsectypes/IPSEC_TOKEN_TYPE_MACHINE, ipsectypes/IPSEC_TOKEN_TYPE_MAX
 ms.topic: enum
-f1_keywords: 
- - "ipsectypes/IPSEC_TOKEN_TYPE"
+f1_keywords:
+- ipsectypes/IPSEC_TOKEN_TYPE
 dev_langs:
- - c++
+- c++
 req.header: ipsectypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Ipsectypes.h
+- Ipsectypes.h
 api_name:
- - IPSEC_TOKEN_TYPE
+- IPSEC_TOKEN_TYPE
 targetos: Windows
 req.typenames: IPSEC_TOKEN_TYPE
 req.redist: 

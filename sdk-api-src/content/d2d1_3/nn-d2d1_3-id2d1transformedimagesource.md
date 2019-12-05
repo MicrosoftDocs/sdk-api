@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1_3.ID2D1TransformedImageSource
 title: ID2D1TransformedImageSource (d2d1_3.h)
-
 description: Represents an image source which shares resources with an original image source.
 old-location: direct2d\id2d1transformedimagesource.htm
 tech.root: Direct2D
 ms.assetid: 5645429B-110E-4AEC-9A2E-87D0942FA993
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1TransformedImageSource, ID2D1TransformedImageSource interface [Direct2D], ID2D1TransformedImageSource interface [Direct2D],described, d2d1_3/ID2D1TransformedImageSource, direct2d.id2d1transformedimagesource
 ms.topic: interface
-f1_keywords: 
- - "d2d1_3/ID2D1TransformedImageSource"
+f1_keywords:
+- d2d1_3/ID2D1TransformedImageSource
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2D1.lib
 req.dll: D2D1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2D1.dll
+- D2D1.dll
 api_name:
- - ID2D1TransformedImageSource
+- ID2D1TransformedImageSource
 targetos: Windows
 req.typenames: 
 req.redist: 

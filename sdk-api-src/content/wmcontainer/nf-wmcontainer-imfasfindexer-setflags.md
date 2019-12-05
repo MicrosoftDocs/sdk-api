@@ -1,19 +1,17 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetFlags
 title: IMFASFIndexer::SetFlags (wmcontainer.h)
-
 description: Sets indexer options.
 old-location: mf\imfasfindexer_setflags.htm
 tech.root: medfound
 ms.assetid: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1
-
 ms.date: 12/05/2018
 ms.keywords: 7df6aba2-d63f-4a1a-b6e8-6894f92993b1, IMFASFIndexer interface [Media Foundation],SetFlags method, IMFASFIndexer.SetFlags, IMFASFIndexer::SetFlags, SetFlags, SetFlags method [Media Foundation], SetFlags method [Media Foundation],IMFASFIndexer interface, mf.imfasfindexer_setflags, wmcontainer/IMFASFIndexer::SetFlags
 ms.topic: method
-f1_keywords: 
- - "wmcontainer/IMFASFIndexer.SetFlags"
+f1_keywords:
+- wmcontainer/IMFASFIndexer.SetFlags
 dev_langs:
- - c++
+- c++
 req.header: wmcontainer.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFASFIndexer.SetFlags
+- IMFASFIndexer.SetFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

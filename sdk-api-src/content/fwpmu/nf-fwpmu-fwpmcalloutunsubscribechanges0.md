@@ -1,19 +1,17 @@
 ---
 UID: NF:fwpmu.FwpmCalloutUnsubscribeChanges0
 title: FwpmCalloutUnsubscribeChanges0 function (fwpmu.h)
-
 description: Is used to cancel a callout change subscription and stop receiving change notifications.
 old-location: fwp\fwpmcalloutunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: ab0825fc-edf8-4634-a6bb-86de7e1e030c
-
 ms.date: 12/05/2018
 ms.keywords: FwpmCalloutUnsubscribeChanges0, FwpmCalloutUnsubscribeChanges0 function [Filtering], fwp.fwpmcalloutunsubscribechanges0_func, fwpmu/FwpmCalloutUnsubscribeChanges0
 ms.topic: function
-f1_keywords: 
- - "fwpmu/FwpmCalloutUnsubscribeChanges0"
+f1_keywords:
+- fwpmu/FwpmCalloutUnsubscribeChanges0
 dev_langs:
- - c++
+- c++
 req.header: fwpmu.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Fwpuclnt.lib
 req.dll: Fwpuclnt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Fwpuclnt.dll
+- Fwpuclnt.dll
 api_name:
- - FwpmCalloutUnsubscribeChanges0
+- FwpmCalloutUnsubscribeChanges0
 targetos: Windows
 req.typenames: 
 req.redist: 

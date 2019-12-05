@@ -1,19 +1,17 @@
 ---
 UID: NF:winnt._InlineInterlockedAdd64
 title: _InlineInterlockedAdd64 function (winnt.h)
-
 description: Performs an atomic addition operation on the specified LONGLONG values.
 old-location: base\interlockedadd64.htm
 tech.root: Sync
 ms.assetid: ab37292f-4291-4cca-826c-d6488e141db8
-
 ms.date: 12/05/2018
 ms.keywords: InterlockedAdd64, InterlockedAdd64 function, _InlineInterlockedAdd64, base.interlockedadd64, winnt/InterlockedAdd64
 ms.topic: function
-f1_keywords: 
- - "winnt/InterlockedAdd64"
+f1_keywords:
+- winnt/InterlockedAdd64
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - InterlockedAdd64
+- InterlockedAdd64
 targetos: Windows
 req.typenames: 
 req.redist: 

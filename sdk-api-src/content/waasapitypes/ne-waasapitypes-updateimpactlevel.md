@@ -1,19 +1,17 @@
 ---
 UID: NE:waasapitypes.tagUpdateImpactLevel
 title: UpdateImpactLevel (waasapitypes.h)
-
 description: Indicates a high, medium, or low impact of a device running an out-of-date OS.
 old-location: base\updateimpactlevel.htm
 tech.root: SysInfo
 ms.assetid: C7F30B63-66B0-4F37-A05B-7D366A12B640
-
 ms.date: 12/05/2018
 ms.keywords: UpdateImpactLevel, UpdateImpactLevel enumeration, UpdateImpactLevel_High, UpdateImpactLevel_Low, UpdateImpactLevel_Medium, UpdateImpactLevel_None, base.updateimpactlevel, waasapitypes/ UpdateImpactLevel_Medium, waasapitypes/ UpdateImpactLevel_None, waasapitypes/UpdateImpactLevel, waasapitypes/UpdateImpactLevel_High, waasapitypes/UpdateImpactLevel_Low
 ms.topic: enum
-f1_keywords: 
- - "waasapitypes/UpdateImpactLevel"
+f1_keywords:
+- waasapitypes/UpdateImpactLevel
 dev_langs:
- - c++
+- c++
 req.header: waasapitypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - waasapitypes.h
+- waasapitypes.h
 api_name:
- - UpdateImpactLevel
+- UpdateImpactLevel
 targetos: Windows
 req.typenames: UpdateImpactLevel
 req.redist: 

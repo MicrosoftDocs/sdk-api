@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
 title: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK (webservices.h)
-
 description: Specifies the callback which is called when a channel is successfully accepted.
 old-location: wsw\ws_service_property_accept_callback.htm
 tech.root: wsw
 ms.assetid: c0e08fbe-1552-4f0c-abd6-35cc33531123
-
 ms.date: 12/05/2018
 ms.keywords: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, WS_SERVICE_PROPERTY_ACCEPT_CALLBACK structure [Web Services for Windows], webservices/WS_SERVICE_PROPERTY_ACCEPT_CALLBACK, wsw.ws_service_property_accept_callback
 ms.topic: struct
-f1_keywords: 
- - "webservices/WS_SERVICE_PROPERTY_ACCEPT_CALLBACK"
+f1_keywords:
+- webservices/WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WebServices.h
+- WebServices.h
 api_name:
- - WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
+- WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
 targetos: Windows
 req.typenames: WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
 req.redist: 

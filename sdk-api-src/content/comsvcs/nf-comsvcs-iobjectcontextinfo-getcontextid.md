@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetContextId
 title: IObjectContextInfo::GetContextId (comsvcs.h)
-
 description: Retrieves the identifier of the current context.
 old-location: cos\iobjectcontextinfo_getcontextid.htm
 tech.root: cossdk
 ms.assetid: 97059f07-161f-451f-9f9b-b4dd81b7bf79
-
 ms.date: 12/05/2018
 ms.keywords: GetContextId, GetContextId method [COM+], GetContextId method [COM+],IObjectContextInfo interface, IObjectContextInfo interface [COM+],GetContextId method, IObjectContextInfo.GetContextId, IObjectContextInfo::GetContextId, _cos_IObjectContextInfo_GetContextId, comsvcs/IObjectContextInfo::GetContextId, cos.iobjectcontextinfo_getcontextid
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IObjectContextInfo.GetContextId"
+f1_keywords:
+- comsvcs/IObjectContextInfo.GetContextId
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IObjectContextInfo.GetContextId
+- IObjectContextInfo.GetContextId
 targetos: Windows
 req.typenames: 
 req.redist: 

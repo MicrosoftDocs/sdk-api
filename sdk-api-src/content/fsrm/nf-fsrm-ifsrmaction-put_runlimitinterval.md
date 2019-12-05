@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrm.IFsrmAction.put_RunLimitInterval
 title: IFsrmAction::put_RunLimitInterval (fsrm.h)
-
 description: Retrieves or sets the interval that must expire before the action is run again.
 old-location: fsrm\ifsrmaction_runlimitinterval.htm
 tech.root: fsrm
 ms.assetid: 3d5be77f-282f-479d-aa34-a8cb1c771951
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmAction interface [File Server Resource Manager],RunLimitInterval property, IFsrmAction.RunLimitInterval, IFsrmAction.put_RunLimitInterval, IFsrmAction::RunLimitInterval, IFsrmAction::get_RunLimitInterval, IFsrmAction::put_RunLimitInterval, RunLimitInterval property [File Server Resource Manager], RunLimitInterval property [File Server Resource Manager],IFsrmAction interface, fs.ifsrmaction_runlimitinterval, fsrm.ifsrmaction_runlimitinterval, fsrm/IFsrmAction::RunLimitInterval, fsrm/IFsrmAction::get_RunLimitInterval, fsrm/IFsrmAction::put_RunLimitInterval, put_RunLimitInterval
 ms.topic: method
-f1_keywords: 
- - "fsrm/IFsrmAction.RunLimitInterval"
+f1_keywords:
+- fsrm/IFsrmAction.RunLimitInterval
 dev_langs:
- - c++
+- c++
 req.header: fsrm.h
 req.include-header: FsrmQuota.h, FsrmScreen.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmAction.RunLimitInterval
- - IFsrmAction.get_RunLimitInterval
- - IFsrmAction.put_RunLimitInterval
+- IFsrmAction.RunLimitInterval
+- IFsrmAction.get_RunLimitInterval
+- IFsrmAction.put_RunLimitInterval
 targetos: Windows
 req.typenames: 
 req.redist: 

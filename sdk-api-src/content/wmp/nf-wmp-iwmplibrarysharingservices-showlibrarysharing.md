@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.showLibrarySharing
 title: IWMPLibrarySharingServices::showLibrarySharing (wmp.h)
-
 description: The showLibrarySharing method displays the Windows Media Player Library Sharing dialog box.
 old-location: wmp\iwmplibrarysharingservices_showlibrarysharing.htm
 tech.root: WMP
 ms.assetid: 87c335ee-c9af-4182-a460-118c53308dad
-
 ms.date: 12/05/2018
 ms.keywords: IWMPLibrarySharingServices interface [Windows Media Player],showLibrarySharing method, IWMPLibrarySharingServices.showLibrarySharing, IWMPLibrarySharingServices::showLibrarySharing, IWMPLibrarySharingServicesshowLibrarySharing, showLibrarySharing, showLibrarySharing method [Windows Media Player], showLibrarySharing method [Windows Media Player],IWMPLibrarySharingServices interface, wmp.iwmplibrarysharingservices_showlibrarysharing, wmp/IWMPLibrarySharingServices::showLibrarySharing
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPLibrarySharingServices.showLibrarySharing"
+f1_keywords:
+- wmp/IWMPLibrarySharingServices.showLibrarySharing
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPLibrarySharingServices.showLibrarySharing
+- IWMPLibrarySharingServices.showLibrarySharing
 targetos: Windows
 req.typenames: 
 req.redist: 

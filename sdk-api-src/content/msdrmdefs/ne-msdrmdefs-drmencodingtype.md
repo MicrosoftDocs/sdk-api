@@ -1,19 +1,17 @@
 ---
 UID: NE:msdrmdefs._DRMENCODINGTYPE
 title: DRMENCODINGTYPE (msdrmdefs.h)
-
 description: The DRMENCODINGTYPE enumeration identifies possible encoding types used in licenses.
 old-location: rm\drmencodingtype.htm
 tech.root: AdRms_Sdk
 ms.assetid: 7859d7e9-aec4-4255-a11b-5d18c08fd6ca
-
 ms.date: 12/05/2018
 ms.keywords: DRMENCODINGTYPE, DRMENCODINGTYPE enumeration [Active Directory Rights Management Services SDK 1.0], DRMENCODINGTYPE_BASE64, DRMENCODINGTYPE_LONG, DRMENCODINGTYPE_RAW, DRMENCODINGTYPE_STRING, DRMENCODINGTYPE_TIME, DRMENCODINGTYPE_UINT, msdrmdefs/DRMENCODINGTYPE, msdrmdefs/DRMENCODINGTYPE_BASE64, msdrmdefs/DRMENCODINGTYPE_LONG, msdrmdefs/DRMENCODINGTYPE_RAW, msdrmdefs/DRMENCODINGTYPE_STRING, msdrmdefs/DRMENCODINGTYPE_TIME, msdrmdefs/DRMENCODINGTYPE_UINT, rm.drmencodingtype
 ms.topic: enum
-f1_keywords: 
- - "msdrmdefs/DRMENCODINGTYPE"
+f1_keywords:
+- msdrmdefs/DRMENCODINGTYPE
 dev_langs:
- - c++
+- c++
 req.header: msdrmdefs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Msdrmdefs.h
+- Msdrmdefs.h
 api_name:
- - DRMENCODINGTYPE
+- DRMENCODINGTYPE
 targetos: Windows
 req.typenames: DRMENCODINGTYPE
 req.redist: 

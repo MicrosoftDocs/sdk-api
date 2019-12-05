@@ -1,19 +1,17 @@
 ---
 UID: NF:wbemglue.CWbemProviderGlue.FrameworkLoginDLL(LPCWSTR)
 title: CWbemProviderGlue::FrameworkLoginDLL (wbemglue.h)
-
 description: The FrameworkLoginDLL method is called when the DLL_PROCESS_ATTACH value is sent to DllMain to determine whether the provider server can be loaded.
 old-location: wmi\cwbemproviderglue_frameworklogindll.htm
 tech.root: WmiSdk
 ms.assetid: b701c70a-73f6-48b7-ab90-bbde1d29c9a2
-
 ms.date: 12/05/2018
-ms.keywords: "?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLoginDLL method, CWbemProviderGlue.FrameworkLoginDLL, CWbemProviderGlue::FrameworkLoginDLL, FrameworkLoginDLL, FrameworkLoginDLL method [Windows Management Instrumentation], FrameworkLoginDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogindll, wbemglue/CWbemProviderGlue::FrameworkLoginDLL, wmi.cwbemproviderglue_frameworklogindll"
+ms.keywords: ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z, ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z, CWbemProviderGlue interface [Windows Management Instrumentation],FrameworkLoginDLL method, CWbemProviderGlue.FrameworkLoginDLL, CWbemProviderGlue::FrameworkLoginDLL, FrameworkLoginDLL, FrameworkLoginDLL method [Windows Management Instrumentation], FrameworkLoginDLL method [Windows Management Instrumentation],CWbemProviderGlue interface, _hmm_cwbemproviderglue_frameworklogindll, wbemglue/CWbemProviderGlue::FrameworkLoginDLL, wmi.cwbemproviderglue_frameworklogindll
 ms.topic: method
-f1_keywords: 
- - "wbemglue/CWbemProviderGlue.FrameworkLoginDLL"
+f1_keywords:
+- wbemglue/CWbemProviderGlue.FrameworkLoginDLL
 dev_langs:
- - c++
+- c++
 req.header: wbemglue.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CWbemProviderGlue.FrameworkLoginDLL
- - ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z
- - ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z
+- CWbemProviderGlue.FrameworkLoginDLL
+- ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z
+- ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:dvbsiparser.IDvbTeletextDescriptor
 title: IDvbTeletextDescriptor (dvbsiparser.h)
-
 description: Implements methods that get data from a Digital Video Broadcast (DVB) teletext descriptor. The teletext descriptor is the part of the DVB program map table (PMT) that identifies European Broadcasting Union (EBU) teletext streams.
 old-location: mstv\idvbteletextdescriptor.htm
 tech.root: mstv
 ms.assetid: 5148a87b-e6b6-4bda-871c-10a2f398ebcc
-
 ms.date: 12/05/2018
 ms.keywords: IDvbTeletextDescriptor, IDvbTeletextDescriptor interface [Microsoft TV Technologies], IDvbTeletextDescriptor interface [Microsoft TV Technologies],described, dvbsiparser/IDvbTeletextDescriptor, mstv.idvbteletextdescriptor
 ms.topic: interface
-f1_keywords: 
- - "dvbsiparser/IDvbTeletextDescriptor"
+f1_keywords:
+- dvbsiparser/IDvbTeletextDescriptor
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: Dvbsiparser.idl
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbTeletextDescriptor
+- IDvbTeletextDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

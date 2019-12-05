@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.WMCreateProfileManager
 title: WMCreateProfileManager function (wmsdkidl.h)
-
 description: The WMCreateProfileManager function creates a profile manager object.
 old-location: wmformat\wmcreateprofilemanager.htm
 tech.root: wmformat
 ms.assetid: 77eea431-74a0-449e-847e-7885ab33bda1
-
 ms.date: 12/05/2018
 ms.keywords: WMCreateProfileManager, WMCreateProfileManager function [windows Media Format], wmformat.wmcreateprofilemanager, wmsdkidl/WMCreateProfileManager
 ms.topic: function
-f1_keywords: 
- - "wmsdkidl/WMCreateProfileManager"
+f1_keywords:
+- wmsdkidl/WMCreateProfileManager
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wmvcore.lib
 req.dll: Wmvcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wmvcore.dll
+- Wmvcore.dll
 api_name:
- - WMCreateProfileManager
+- WMCreateProfileManager
 targetos: Windows
 req.typenames: 
 req.redist: 

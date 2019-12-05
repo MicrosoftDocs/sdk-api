@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl.AngleChange
 title: IDvdControl::AngleChange (strmif.h)
-
 description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Sets the new display angle.
 old-location: dshow\idvdcontrol_anglechange.htm
 tech.root: DirectShow
 ms.assetid: 4a91f05d-1ded-4ecb-8850-5ee7faad134d
-
 ms.date: 12/05/2018
 ms.keywords: AngleChange, AngleChange method [DirectShow], AngleChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AngleChange method, IDvdControl.AngleChange, IDvdControl::AngleChange, IDvdControlAngleChange, dshow.idvdcontrol_anglechange, strmif/IDvdControl::AngleChange
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl.AngleChange"
+f1_keywords:
+- strmif/IDvdControl.AngleChange
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmif.h
+- Strmif.h
 api_name:
- - IDvdControl.AngleChange
+- IDvdControl.AngleChange
 targetos: Windows
 req.typenames: 
 req.redist: 

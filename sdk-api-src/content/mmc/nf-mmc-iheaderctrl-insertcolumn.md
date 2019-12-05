@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IHeaderCtrl.InsertColumn
 title: IHeaderCtrl::InsertColumn (mmc.h)
-
 description: Adds a column to a default result pane.
 old-location: mmc\iheaderctrl_insertcolumn.htm
 tech.root: mmc
 ms.assetid: F5499550-9460-4BF9-AF99-F4BDC7F32EBC
-
 ms.date: 12/05/2018
 ms.keywords: HIDE_COLUMN, IHeaderCtrl interface [MMC],InsertColumn method, IHeaderCtrl.InsertColumn, IHeaderCtrl::InsertColumn, InsertColumn, InsertColumn method [MMC], InsertColumn method [MMC],IHeaderCtrl interface, LVCFMT_CENTER, LVCFMT_LEFT, LVCFMT_RIGHT, MMCLV_AUTO, mmc.iheaderctrl_insertcolumn, mmc/IHeaderCtrl::InsertColumn
 ms.topic: method
-f1_keywords: 
- - "mmc/IHeaderCtrl.InsertColumn"
+f1_keywords:
+- mmc/IHeaderCtrl.InsertColumn
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IHeaderCtrl.InsertColumn
+- IHeaderCtrl.InsertColumn
 targetos: Windows
 req.typenames: 
 req.redist: 

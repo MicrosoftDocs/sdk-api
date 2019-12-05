@@ -1,19 +1,17 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Unadvise
 title: IPortableDeviceService::Unadvise (portabledeviceapi.h)
-
 description: Unregisters a service event callback object.
 old-location: wpdsdk\iportabledeviceservice_unadvise.htm
 tech.root: wpd_sdk
 ms.assetid: 4982efa9-82f2-457b-acf4-c6f7d48cf6f7
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceService interface [Windows Portable Devices SDK],Unadvise method, IPortableDeviceService.Unadvise, IPortableDeviceService::Unadvise, Unadvise, Unadvise method [Windows Portable Devices SDK], Unadvise method [Windows Portable Devices SDK],IPortableDeviceService interface, portabledeviceapi/IPortableDeviceService::Unadvise, wpdsdk.iportabledeviceservice_unadvise
 ms.topic: method
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceService.Unadvise"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceService.Unadvise
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceAPI.h
+- PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService.Unadvise
+- IPortableDeviceService.Unadvise
 targetos: Windows
 req.typenames: 
 req.redist: 

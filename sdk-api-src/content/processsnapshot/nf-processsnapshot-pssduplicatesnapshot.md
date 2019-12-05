@@ -1,19 +1,17 @@
 ---
 UID: NF:processsnapshot.PssDuplicateSnapshot
 title: PssDuplicateSnapshot function (processsnapshot.h)
-
 description: Duplicates a snapshot handle from one process to another.
 old-location: proc_snap\pssduplicatesnapshot.htm
 tech.root: proc_snap
 ms.assetid: 5D2751F3-E7E1-4917-8060-E2BC8A7A3DEA
-
 ms.date: 12/05/2018
 ms.keywords: PssDuplicateSnapshot, PssDuplicateSnapshot function, proc_snap.pssduplicatesnapshot, processsnapshot/PssDuplicateSnapshot
 ms.topic: function
-f1_keywords: 
- - "processsnapshot/PssDuplicateSnapshot"
+f1_keywords:
+- processsnapshot/PssDuplicateSnapshot
 dev_langs:
- - c++
+- c++
 req.header: processsnapshot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - kernel32.dll
- - API-MS-Win-Core-Processsnapshot-l1-1-0.dll
- - KernelBase.dll
+- kernel32.dll
+- API-MS-Win-Core-Processsnapshot-l1-1-0.dll
+- KernelBase.dll
 api_name:
- - PssDuplicateSnapshot
+- PssDuplicateSnapshot
 targetos: Windows
 req.typenames: 
 req.redist: 

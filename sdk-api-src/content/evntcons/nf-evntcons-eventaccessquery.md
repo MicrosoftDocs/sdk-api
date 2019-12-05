@@ -1,19 +1,17 @@
 ---
 UID: NF:evntcons.EventAccessQuery
 title: EventAccessQuery function (evntcons.h)
-
 description: Retrieves the permissions for the specified controller or provider.
 old-location: etw\eventaccessquery_func.htm
 tech.root: ETW
 ms.assetid: 21c87137-0e8f-43d1-9dad-9f2b4fc591a3
-
 ms.date: 12/05/2018
 ms.keywords: EventAccessQuery, EventAccessQuery function [ETW], base.eventaccessquery_func, etw.eventaccessquery_func, evntcons/EventAccessQuery
 ms.topic: function
-f1_keywords: 
- - "evntcons/EventAccessQuery"
+f1_keywords:
+- evntcons/EventAccessQuery
 dev_langs:
- - c++
+- c++
 req.header: evntcons.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
- - sechost.dll
- - API-MS-Win-eventing-controller-l1-1-0.dll
- - kernelbase.dll
+- Advapi32.dll
+- API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
+- sechost.dll
+- API-MS-Win-eventing-controller-l1-1-0.dll
+- kernelbase.dll
 api_name:
- - EventAccessQuery
+- EventAccessQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

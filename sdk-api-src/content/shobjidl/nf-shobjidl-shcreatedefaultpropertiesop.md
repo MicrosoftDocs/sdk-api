@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.SHCreateDefaultPropertiesOp
 title: SHCreateDefaultPropertiesOp function (shobjidl.h)
-
 description: Creates a file operation that sets the default properties on the Shell item that have not already been set.
 old-location: shell\SHCreateDefaultPropertiesOp.htm
 tech.root: shell
 ms.assetid: 5202ac48-16e7-4d64-8a69-2493036e1e11
-
 ms.date: 12/05/2018
 ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [Windows Shell], _shell_SHCreateDefaultPropertiesOp, shell.SHCreateDefaultPropertiesOp, shobjidl/SHCreateDefaultPropertiesOp
 ms.topic: function
-f1_keywords: 
- - "shobjidl/SHCreateDefaultPropertiesOp"
+f1_keywords:
+- shobjidl/SHCreateDefaultPropertiesOp
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHCreateDefaultPropertiesOp
+- SHCreateDefaultPropertiesOp
 targetos: Windows
 req.typenames: 
 req.redist: 

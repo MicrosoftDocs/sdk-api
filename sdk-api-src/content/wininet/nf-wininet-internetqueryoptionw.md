@@ -1,19 +1,17 @@
 ---
 UID: NF:wininet.InternetQueryOptionW
 title: InternetQueryOptionW function (wininet.h)
-
 description: Queries an Internet option on the specified handle.
 old-location: wininet\internetqueryoption.htm
 tech.root: wininet
 ms.assetid: b0bafd3d-8f54-429e-b423-dae3d61b0030
-
 ms.date: 12/05/2018
 ms.keywords: InternetQueryOption, InternetQueryOption function [WinINet], InternetQueryOptionA, InternetQueryOptionW, _inet_internetqueryoption_function, wininet.internetqueryoption, wininet/InternetQueryOption, wininet/InternetQueryOptionA, wininet/InternetQueryOptionW
 ms.topic: function
-f1_keywords: 
- - "wininet/InternetQueryOption"
+f1_keywords:
+- wininet/InternetQueryOption
 dev_langs:
- - c++
+- c++
 req.header: wininet.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wininet.lib
 req.dll: Wininet.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wininet.dll
+- Wininet.dll
 api_name:
- - InternetQueryOption
- - InternetQueryOptionA
- - InternetQueryOptionW
+- InternetQueryOption
+- InternetQueryOptionA
+- InternetQueryOptionW
 targetos: Windows
 req.typenames: 
 req.redist: 

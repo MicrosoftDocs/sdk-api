@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.CreateQuota
 title: IFsrmQuotaManager::CreateQuota (fsrmquota.h)
-
 description: Creates a quota for the specified directory.
 old-location: fsrm\ifsrmquotamanager_createquota.htm
 tech.root: fsrm
 ms.assetid: 09f0b952-e24f-4388-8e82-6b34145f9ad4
-
 ms.date: 12/05/2018
 ms.keywords: CreateQuota, CreateQuota method [File Server Resource Manager], CreateQuota method [File Server Resource Manager],FsrmQuotaManager class, CreateQuota method [File Server Resource Manager],IFsrmQuotaManager interface, CreateQuota method [File Server Resource Manager],IFsrmQuotaManagerEx interface, FsrmQuotaManager class [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManager.CreateQuota, IFsrmQuotaManager::CreateQuota, IFsrmQuotaManagerEx interface [File Server Resource Manager],CreateQuota method, IFsrmQuotaManagerEx::CreateQuota, fs.ifsrmquotamanager_createquota, fsrm.ifsrmquotamanager_createquota, fsrmquota/IFsrmQuotaManager::CreateQuota, fsrmquota/IFsrmQuotaManagerEx::CreateQuota
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuotaManager.CreateQuota"
+f1_keywords:
+- fsrmquota/IFsrmQuotaManager.CreateQuota
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: FsrmQuota.h, FsrmTlb.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuotaManager.CreateQuota
- - IFsrmQuotaManagerEx.CreateQuota
- - FsrmQuotaManager.CreateQuota
+- IFsrmQuotaManager.CreateQuota
+- IFsrmQuotaManagerEx.CreateQuota
+- FsrmQuotaManager.CreateQuota
 targetos: Windows
 req.typenames: 
 req.redist: 

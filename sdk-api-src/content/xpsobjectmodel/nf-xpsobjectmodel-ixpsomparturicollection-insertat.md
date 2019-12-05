@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.InsertAt
 title: IXpsOMPartUriCollection::InsertAt (xpsobjectmodel.h)
-
 description: Inserts an IOpcPartUri interface pointer at a specified location in the collection.
 old-location: xps\ixpsomparturicollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 672e3cc7-ac25-4d9d-9983-66cf6d26f574
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],InsertAt method, IXpsOMPartUriCollection.InsertAt, IXpsOMPartUriCollection::InsertAt, InsertAt, InsertAt method [XPS Documents and Packaging], InsertAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_insertat, xpsobjectmodel/IXpsOMPartUriCollection::InsertAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartUriCollection.InsertAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartUriCollection.InsertAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartUriCollection.InsertAt
+- IXpsOMPartUriCollection.InsertAt
 targetos: Windows
 req.typenames: 
 req.redist: 

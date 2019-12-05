@@ -1,19 +1,17 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_ConnectClientPrintersAtLogon
 title: IADsTSUserEx::get_ConnectClientPrintersAtLogon (tsuserex.h)
-
 description: A value that specifies whether to reconnect to mapped client printers at logon.
 old-location: termserv\iadstsuserex_connectclientprintersatlogon.htm
 tech.root: TermServ
 ms.assetid: 78fdb301-ea8c-4806-b24a-f40449e77b9a
-
 ms.date: 12/05/2018
 ms.keywords: ConnectClientPrintersAtLogon property [Remote Desktop Services], ConnectClientPrintersAtLogon property [Remote Desktop Services],IADsTSUserEx interface, IADsTSUserEx interface [Remote Desktop Services],ConnectClientPrintersAtLogon property, IADsTSUserEx.ConnectClientPrintersAtLogon, IADsTSUserEx.get_ConnectClientPrintersAtLogon, IADsTSUserEx::ConnectClientPrintersAtLogon, IADsTSUserEx::get_ConnectClientPrintersAtLogon, IADsTSUserEx::put_ConnectClientPrintersAtLogon, get_ConnectClientPrintersAtLogon, termserv.iadstsuserex_connectclientprintersatlogon, tsuserex/IADsTSUserEx::ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::get_ConnectClientPrintersAtLogon, tsuserex/IADsTSUserEx::put_ConnectClientPrintersAtLogon
 ms.topic: method
-f1_keywords: 
- - "tsuserex/IADsTSUserEx.ConnectClientPrintersAtLogon"
+f1_keywords:
+- tsuserex/IADsTSUserEx.ConnectClientPrintersAtLogon
 dev_langs:
- - c++
+- c++
 req.header: tsuserex.h
 req.include-header: Tsuserex.h, Tsuserex_i.c
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Tsuserex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tsuserex.dll
+- Tsuserex.dll
 api_name:
- - IADsTSUserEx.ConnectClientPrintersAtLogon
- - IADsTSUserEx.get_ConnectClientPrintersAtLogon
- - IADsTSUserEx.put_ConnectClientPrintersAtLogon
+- IADsTSUserEx.ConnectClientPrintersAtLogon
+- IADsTSUserEx.get_ConnectClientPrintersAtLogon
+- IADsTSUserEx.put_ConnectClientPrintersAtLogon
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evcoll.EcSaveSubscription
 title: EcSaveSubscription function (evcoll.h)
-
 description: Saves subscription configuration information.
 old-location: wec\ecsavesubscription.htm
 tech.root: WEC
 ms.assetid: 41702fb8-5b39-4daa-8904-aa36de18665c
-
 ms.date: 12/05/2018
 ms.keywords: EcSaveSubscription, EcSaveSubscription function, evcoll/EcSaveSubscription, wec.ecsavesubscription, wes.ecsavesubscription
 ms.topic: function
-f1_keywords: 
- - "evcoll/EcSaveSubscription"
+f1_keywords:
+- evcoll/EcSaveSubscription
 dev_langs:
- - c++
+- c++
 req.header: evcoll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wecapi.lib
 req.dll: Wecapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wecapi.dll
+- Wecapi.dll
 api_name:
- - EcSaveSubscription
+- EcSaveSubscription
 targetos: Windows
 req.typenames: 
 req.redist: 

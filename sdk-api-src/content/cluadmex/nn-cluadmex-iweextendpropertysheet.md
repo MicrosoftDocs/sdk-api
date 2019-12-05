@@ -1,19 +1,17 @@
 ---
 UID: NN:cluadmex.IWEExtendPropertySheet
 title: IWEExtendPropertySheet (cluadmex.h)
-
 description: Implement the IWEExtendPropertySheet interface to create property sheet pages for a cluster object and add them to a Failover Cluster Administrator property sheet.
 old-location: mscs\iweextendpropertysheet.htm
 tech.root: MsCS
 ms.assetid: 1f2b7760-24d3-44a7-96a0-87e153b4bf92
-
 ms.date: 12/05/2018
 ms.keywords: IWEExtendPropertySheet, IWEExtendPropertySheet interface [Failover Cluster], IWEExtendPropertySheet interface [Failover Cluster],described, _wolf_iweextendpropertysheet, cluadmex/IWEExtendPropertySheet, mscs.iweextendpropertysheet
 ms.topic: interface
-f1_keywords: 
- - "cluadmex/IWEExtendPropertySheet"
+f1_keywords:
+- cluadmex/IWEExtendPropertySheet
 dev_langs:
- - c++
+- c++
 req.header: cluadmex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - cluadmex.h
+- cluadmex.h
 api_name:
- - IWEExtendPropertySheet
+- IWEExtendPropertySheet
 targetos: Windows
 req.typenames: 
 req.redist: 

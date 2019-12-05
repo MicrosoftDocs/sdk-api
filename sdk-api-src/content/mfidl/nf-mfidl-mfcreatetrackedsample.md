@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFCreateTrackedSample
 title: MFCreateTrackedSample function (mfidl.h)
-
 description: Creates an IMFTrackedSample object that tracks the reference counts on a video media sample.
 old-location: mf\mfcreatetrackedsample.htm
 tech.root: medfound
 ms.assetid: 05FB8F94-94B2-46A5-A890-E37E501233E2
-
 ms.date: 12/05/2018
 ms.keywords: MFCreateTrackedSample, MFCreateTrackedSample function [Media Foundation], mf.mfcreatetrackedsample, mfidl/MFCreateTrackedSample
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFCreateTrackedSample"
+f1_keywords:
+- mfidl/MFCreateTrackedSample
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFCreateTrackedSample
+- MFCreateTrackedSample
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICategoryProvider.GetDefaultCategory
 title: ICategoryProvider::GetDefaultCategory (shobjidl_core.h)
-
 description: Enables the folder to override the default grouping.
 old-location: shell\ICategoryProvider_GetDefaultCategory.htm
 tech.root: shell
 ms.assetid: b5a5d04c-b666-4063-bf0b-02564aa967ab
-
 ms.date: 12/05/2018
 ms.keywords: GetDefaultCategory, GetDefaultCategory method [Windows Shell], GetDefaultCategory method [Windows Shell],ICategoryProvider interface, ICategoryProvider interface [Windows Shell],GetDefaultCategory method, ICategoryProvider.GetDefaultCategory, ICategoryProvider::GetDefaultCategory, inet_ICategoryProvider_GetDefaultCategory, shell.ICategoryProvider_GetDefaultCategory, shobjidl_core/ICategoryProvider::GetDefaultCategory
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/ICategoryProvider.GetDefaultCategory"
+f1_keywords:
+- shobjidl_core/ICategoryProvider.GetDefaultCategory
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - ICategoryProvider.GetDefaultCategory
+- ICategoryProvider.GetDefaultCategory
 targetos: Windows
 req.typenames: 
 req.redist: 

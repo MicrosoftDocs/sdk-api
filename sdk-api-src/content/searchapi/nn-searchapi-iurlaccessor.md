@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.IUrlAccessor
 title: IUrlAccessor (searchapi.h)
-
 description: Provides methods for processing an individual item in a content source whose URL is provided by the gatherer to the filter host.
 old-location: search\_search_IUrlAccessor.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\iurlaccessor.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor, IUrlAccessor interface [search], IUrlAccessor interface [search],described, _search_IUrlAccessor, search._search_IUrlAccessor, searchapi/IUrlAccessor
 ms.topic: interface
-f1_keywords: 
- - "searchapi/IUrlAccessor"
+f1_keywords:
+- searchapi/IUrlAccessor
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor
+- IUrlAccessor
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

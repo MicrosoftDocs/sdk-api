@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCertificateEnumerator
 title: IXpsSignature::GetCertificateEnumerator (xpsdigitalsignature.h)
-
 description: Gets a pointer to an IOpcCertificateEnumerator interface, which enumerates the package certificates that are attached to the signature.
 old-location: xps\ixpssignature_getcertificateenumerator.htm
 tech.root: printdocs
 ms.assetid: e4af0aa3-8420-4297-993c-dda4d4f7cf61
-
 ms.date: 12/05/2018
 ms.keywords: GetCertificateEnumerator, GetCertificateEnumerator method [XPS Documents and Packaging], GetCertificateEnumerator method [XPS Documents and Packaging],IXpsSignature interface, IXpsSignature interface [XPS Documents and Packaging],GetCertificateEnumerator method, IXpsSignature.GetCertificateEnumerator, IXpsSignature::GetCertificateEnumerator, xps.ixpssignature_getcertificateenumerator, xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator
 ms.topic: method
-f1_keywords: 
- - "xpsdigitalsignature/IXpsSignature.GetCertificateEnumerator"
+f1_keywords:
+- xpsdigitalsignature/IXpsSignature.GetCertificateEnumerator
 dev_langs:
- - c++
+- c++
 req.header: xpsdigitalsignature.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsdigitalsignature.h
+- xpsdigitalsignature.h
 api_name:
- - IXpsSignature.GetCertificateEnumerator
+- IXpsSignature.GetCertificateEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

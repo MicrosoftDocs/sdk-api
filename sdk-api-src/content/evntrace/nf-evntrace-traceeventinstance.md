@@ -1,19 +1,17 @@
 ---
 UID: NF:evntrace.TraceEventInstance
 title: TraceEventInstance function (evntrace.h)
-
 description: The TraceEventInstance function sends an event to an event tracing session. The event uses an instance identifier to associate the event with a transaction. This function may also be used to trace hierarchical relationships between related events.
 old-location: etw\traceeventinstance.htm
 tech.root: ETW
 ms.assetid: e8361bdc-21dd-47a0-bdbf-56f4d6195689
-
 ms.date: 12/05/2018
 ms.keywords: TraceEventInstance, TraceEventInstance function [ETW], _evt_traceeventinstance, base.traceeventinstance, etw.traceeventinstance, evntrace/TraceEventInstance
 ms.topic: function
-f1_keywords: 
- - "evntrace/TraceEventInstance"
+f1_keywords:
+- evntrace/TraceEventInstance
 dev_langs:
- - c++
+- c++
 req.header: evntrace.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
+- Advapi32.dll
 api_name:
- - TraceEventInstance
+- TraceEventInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

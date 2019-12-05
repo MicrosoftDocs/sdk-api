@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.put_SenderNonce
 title: IX509CertificateRequestCmc::put_SenderNonce (certenroll.h)
-
 description: Specifies or retrieves a byte array that contains a nonce.
 old-location: security\ix509certificaterequestcmc_sendernonce_property.htm
 tech.root: seccertenroll
 ms.assetid: 7f7ec18f-7b5b-445e-9033-12d86b3675f1
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc interface [Security],SenderNonce property, IX509CertificateRequestCmc.SenderNonce, IX509CertificateRequestCmc.put_SenderNonce, IX509CertificateRequestCmc::SenderNonce, IX509CertificateRequestCmc::get_SenderNonce, IX509CertificateRequestCmc::put_SenderNonce, SenderNonce property [Security], SenderNonce property [Security],IX509CertificateRequestCmc interface, certenroll/IX509CertificateRequestCmc::SenderNonce, certenroll/IX509CertificateRequestCmc::get_SenderNonce, certenroll/IX509CertificateRequestCmc::put_SenderNonce, put_SenderNonce, security.ix509certificaterequestcmc_sendernonce_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc.SenderNonce"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc.SenderNonce
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc.SenderNonce
- - IX509CertificateRequestCmc.get_SenderNonce
- - IX509CertificateRequestCmc.put_SenderNonce
+- IX509CertificateRequestCmc.SenderNonce
+- IX509CertificateRequestCmc.get_SenderNonce
+- IX509CertificateRequestCmc.put_SenderNonce
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetMainPackageName
 title: IAppxManifestOptionalPackageInfo::GetMainPackageName (appxpackaging.h)
-
 description: Gets the main package name from the optional package.
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getmainpackagename.htm
 tech.root: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583
-
 ms.date: 12/05/2018
 ms.keywords: GetMainPackageName, GetMainPackageName method [App packaging and management], GetMainPackageName method [App packaging and management],IAppxManifestOptionalPackageInfo interface, IAppxManifestOptionalPackageInfo interface [App packaging and management],GetMainPackageName method, IAppxManifestOptionalPackageInfo.GetMainPackageName, IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName, appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestOptionalPackageInfo.GetMainPackageName"
+f1_keywords:
+- appxpackaging/IAppxManifestOptionalPackageInfo.GetMainPackageName
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestOptionalPackageInfo.GetMainPackageName
+- IAppxManifestOptionalPackageInfo.GetMainPackageName
 targetos: Windows
 req.typenames: 
 req.redist: 

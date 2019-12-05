@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IStringTable.DeleteString
 title: IStringTable::DeleteString (mmc.h)
-
 description: Enables a snap-in to delete a specified string from the snap-in string table.
 old-location: mmc\istringtable_deletestring.htm
 tech.root: mmc
 ms.assetid: 57d04890-5dd8-45e5-9b46-b982ea3a4f36
-
 ms.date: 12/05/2018
 ms.keywords: DeleteString, DeleteString method [MMC], DeleteString method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteString method, IStringTable.DeleteString, IStringTable::DeleteString, _slate_istringtable_deletestring, mmc.istringtable_deletestring, mmc/IStringTable::DeleteString
 ms.topic: method
-f1_keywords: 
- - "mmc/IStringTable.DeleteString"
+f1_keywords:
+- mmc/IStringTable.DeleteString
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IStringTable.DeleteString
+- IStringTable.DeleteString
 targetos: Windows
 req.typenames: 
 req.redist: 

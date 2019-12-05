@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpServerSetConfig
 title: DhcpServerSetConfig function (dhcpsapi.h)
-
 description: Configures a DHCPv4 server with specific settings, including information on the JET database used to store subnet and client lease information, and the supported protocols.
 old-location: dhcp\dhcpserversetconfig.htm
 tech.root: DHCP
 ms.assetid: 06f0c6b2-a916-4b1b-9956-22dcaafcad1b
-
 ms.date: 12/05/2018
 ms.keywords: DhcpServerSetConfig, DhcpServerSetConfig function [DHCP], Set_APIProtocolSupport, Set_BackupInterval, Set_BackupPath, Set_DatabaseCleanupInterval, Set_DatabaseLoggingFlag, Set_DatabaseName, Set_DatabasePath, Set_RestoreFlag, Set_Set_DebugFlag, dhcp.dhcpserversetconfig, dhcpsapi/DhcpServerSetConfig
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpServerSetConfig
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

@@ -1,19 +1,17 @@
 ---
 UID: NN:d2d1.ID2D1GradientStopCollection
 title: ID2D1GradientStopCollection (d2d1.h)
-
 description: Represents an collection of D2D1_GRADIENT_STOP objects for linear and radial gradient brushes.
 old-location: direct2d\ID2D1GradientStopCollection.htm
 tech.root: Direct2D
 ms.assetid: 982abf9c-4778-4871-a494-5843f0c0addc
-
 ms.date: 12/05/2018
 ms.keywords: ID2D1GradientStopCollection, ID2D1GradientStopCollection interface [Direct2D], ID2D1GradientStopCollection interface [Direct2D],described, d2d1/ID2D1GradientStopCollection, direct2d.ID2D1GradientStopCollection
 ms.topic: interface
-f1_keywords: 
- - "d2d1/ID2D1GradientStopCollection"
+f1_keywords:
+- d2d1/ID2D1GradientStopCollection
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1GradientStopCollection
+- ID2D1GradientStopCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

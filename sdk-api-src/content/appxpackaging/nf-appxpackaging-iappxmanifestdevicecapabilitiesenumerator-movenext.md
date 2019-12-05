@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 title: IAppxManifestDeviceCapabilitiesEnumerator::MoveNext (appxpackaging.h)
-
 description: Advances the position of the enumerator to the next device capability.
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_movenext.htm
 tech.root: appxpkg
 ms.assetid: 2FD0F98C-2B20-47B2-8F86-F59E3E9B9086
-
 ms.date: 12/05/2018
 ms.keywords: IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management],MoveNext method, IAppxManifestDeviceCapabilitiesEnumerator.MoveNext, IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxManifestDeviceCapabilitiesEnumerator interface, appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::MoveNext, appxpkg.iappxmanifestdevicecapabilitiesenumerator_movenext
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator.MoveNext"
+f1_keywords:
+- appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
+- IAppxManifestDeviceCapabilitiesEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

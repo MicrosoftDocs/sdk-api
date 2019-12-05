@@ -1,19 +1,17 @@
 ---
 UID: NC:mgm.PMGM_LOCAL_JOIN_CALLBACK
 title: PMGM_LOCAL_JOIN_CALLBACK (mgm.h)
-
 description: The PMGM_LOCAL_JOIN_CALLBACK callback is a call into a routing protocol to notify the protocol that IGMP has detected new receivers for a group on an interface that is currently owned by the routing protocol.
 old-location: rras\pmgm_local_join_callback.htm
 tech.root: RRAS
 ms.assetid: e8245b09-0fbc-49c3-a7bb-534115c74c88
-
 ms.date: 12/05/2018
 ms.keywords: PMGM_LOCAL_JOIN_CALLBACK, PMGM_LOCAL_JOIN_CALLBACK callback, PMGM_LOCAL_JOIN_CALLBACK callback function [RAS], _mpr_pmgm_local_join_callback, mgm/PMGM_LOCAL_JOIN_CALLBACK, rras.pmgm_local_join_callback
 ms.topic: callback
-f1_keywords: 
- - "mgm/PMGM_LOCAL_JOIN_CALLBACK"
+f1_keywords:
+- mgm/PMGM_LOCAL_JOIN_CALLBACK
 dev_langs:
- - c++
+- c++
 req.header: mgm.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Mgm.h
+- Mgm.h
 api_name:
- - PMGM_LOCAL_JOIN_CALLBACK
+- PMGM_LOCAL_JOIN_CALLBACK
 targetos: Windows
 req.typenames: 
 req.redist: 

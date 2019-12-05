@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateBuffer
 title: ID3D10Device::CreateBuffer (d3d10.h)
-
 description: Create a buffer (vertex buffer, index buffer, or shader-constant buffer).
 old-location: direct3d10\id3d10device_createbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createbuffer.htm
-
 ms.date: 12/05/2018
 ms.keywords: CreateBuffer, CreateBuffer method [Direct3D 10], CreateBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateBuffer method, ID3D10Device.CreateBuffer, ID3D10Device::CreateBuffer, d3d10/ID3D10Device::CreateBuffer, direct3d10.id3d10device_createbuffer, f67833a5-95f8-0430-5015-e074533c6dd1
 ms.topic: method
-f1_keywords: 
- - "d3d10/ID3D10Device.CreateBuffer"
+f1_keywords:
+- d3d10/ID3D10Device.CreateBuffer
 dev_langs:
- - c++
+- c++
 req.header: d3d10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: D3D10.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D10.lib
- - D3D10.dll
+- D3D10.lib
+- D3D10.dll
 api_name:
- - ID3D10Device.CreateBuffer
+- ID3D10Device.CreateBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

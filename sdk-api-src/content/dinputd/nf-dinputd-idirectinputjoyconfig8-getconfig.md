@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetConfig
 title: IDirectInputJoyConfig8::GetConfig (dinputd.h)
-
 description: The IDirectInputJoyConfig8::GetConfig method obtains information about a joystick's configuration.
 old-location: hid\idirectinputjoyconfig8_getconfig.htm
 tech.root: hid
 ms.assetid: d8e2a702-d33e-48d2-8e1c-49e09e8f560f
-
 ms.date: 12/05/2018
 ms.keywords: GetConfig, GetConfig method [Human Input Devices], GetConfig method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetConfig method, IDirectInputJoyConfig8.GetConfig, IDirectInputJoyConfig8::GetConfig, di_ref_86a1c8bf-81df-4c68-b646-347785f3584f.xml, dinputd/IDirectInputJoyConfig8::GetConfig, hid.idirectinputjoyconfig8_getconfig
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.GetConfig"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.GetConfig
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.GetConfig
+- IDirectInputJoyConfig8.GetConfig
 targetos: Windows
 req.typenames: 
 req.redist: 

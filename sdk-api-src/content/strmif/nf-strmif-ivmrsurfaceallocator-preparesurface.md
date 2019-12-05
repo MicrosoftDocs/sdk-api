@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocator.PrepareSurface
 title: IVMRSurfaceAllocator::PrepareSurface (strmif.h)
-
 description: The PrepareSurface method prepares the DirectDraw surface to have the next video frame decoded into it.
 old-location: dshow\ivmrsurfaceallocator_preparesurface.htm
 tech.root: DirectShow
 ms.assetid: 5978bd6e-1aee-4e5e-9d28-f60e20b5b3e7
-
 ms.date: 12/05/2018
 ms.keywords: IVMRSurfaceAllocator interface [DirectShow],PrepareSurface method, IVMRSurfaceAllocator.PrepareSurface, IVMRSurfaceAllocator::PrepareSurface, IVMRSurfaceAllocatorPrepareSurface, PrepareSurface, PrepareSurface method [DirectShow], PrepareSurface method [DirectShow],IVMRSurfaceAllocator interface, dshow.ivmrsurfaceallocator_preparesurface, strmif/IVMRSurfaceAllocator::PrepareSurface
 ms.topic: method
-f1_keywords: 
- - "strmif/IVMRSurfaceAllocator.PrepareSurface"
+f1_keywords:
+- strmif/IVMRSurfaceAllocator.PrepareSurface
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator.PrepareSurface
+- IVMRSurfaceAllocator.PrepareSurface
 targetos: Windows
 req.typenames: 
 req.redist: 

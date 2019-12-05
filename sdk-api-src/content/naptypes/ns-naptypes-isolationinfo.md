@@ -1,19 +1,17 @@
 ---
 UID: NS:naptypes.tagIsolationInfo
 title: IsolationInfo (naptypes.h)
-
 description: Defines the isolation status of the machine or the connection.
 old-location: nap\isolationinfo_struct.htm
 tech.root: NAP
 ms.assetid: ab5e54ab-de5d-489d-bff7-3be4f3973e7a
-
 ms.date: 12/05/2018
 ms.keywords: IsolationInfo, IsolationInfo structure [NAP], nap.isolationinfo_struct, naptypes/IsolationInfo
 ms.topic: struct
-f1_keywords: 
- - "naptypes/IsolationInfo"
+f1_keywords:
+- naptypes/IsolationInfo
 dev_langs:
- - c++
+- c++
 req.header: naptypes.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NapTypes.h
+- NapTypes.h
 api_name:
- - IsolationInfo
+- IsolationInfo
 targetos: Windows
 req.typenames: IsolationInfo
 req.redist: 

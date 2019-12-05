@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0002
 title: ROWSETEVENT_TYPE (searchapi.h)
-
 description: Describes the type of change to the rowset's data.
 old-location: search\_search_ROWSETEVENT_TYPE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm
-
 ms.date: 12/05/2018
 ms.keywords: ROWSETEVENT_TYPE, ROWSETEVENT_TYPE enumeration [search], ROWSETEVENT_TYPE_DATAEXPIRED, ROWSETEVENT_TYPE_FOREGROUNDLOST, ROWSETEVENT_TYPE_SCOPESTATISTICS, _search_ROWSETEVENT_TYPE, search._search_ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE, searchapi/ROWSETEVENT_TYPE_DATAEXPIRED, searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST, searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS
 ms.topic: enum
-f1_keywords: 
- - "searchapi/ROWSETEVENT_TYPE"
+f1_keywords:
+- searchapi/ROWSETEVENT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ROWSETEVENT_TYPE
+- ROWSETEVENT_TYPE
 targetos: Windows
 req.typenames: ROWSETEVENT_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:winioctl._CSV_CONTROL_PARAM
 title: CSV_CONTROL_PARAM
-
 description: Represents a type of CSV control operation.
 old-location: fs\csv_control_param.htm
 tech.root: FileIO
 ms.assetid: B984F8CA-3548-4442-8D3B-B2F469F699E1
-
 ms.date: 12/05/2018
 ms.keywords: '*PCSV_CONTROL_PARAM, CSV_CONTROL_PARAM, CSV_CONTROL_PARAM structure [Files], PCSV_CONTROL_PARAM, PCSV_CONTROL_PARAM structure pointer [Files], fs.csv_control_param, winioctl/CSV_CONTROL_PARAM, winioctl/PCSV_CONTROL_PARAM'
 ms.topic: struct
 f1_keywords:
 - winioctl/CSV_CONTROL_PARAM
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows

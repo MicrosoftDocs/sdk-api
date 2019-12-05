@@ -1,19 +1,17 @@
 ---
 UID: NF:processenv.SearchPathA
 title: SearchPathA function
-
 description: Searches for a specified file in a specified path.
 old-location: fs\searchpath.htm
 tech.root: FileIO
 ms.assetid: 8039365a-1b39-431e-af87-9a9933ca102d
-
 ms.date: 12/5/2018
 ms.keywords: SearchPath, SearchPath function [Files], SearchPathA, SearchPathW, _win32_searchpath, base.searchpath, fs.searchpath, processenv/SearchPath, processenv/SearchPathA, processenv/SearchPathW
 ms.topic: function
-f1_keywords: 
- - "processenv/SearchPath"
+f1_keywords:
+- processenv/SearchPath
 dev_langs:
- - c++
+- c++
 req.header: processenv.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,21 +30,21 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
- - MinKernelBase.dll
+- Kernel32.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-ProcessEnvironment-l1-2-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- MinKernelBase.dll
 api_name:
- - SearchPath
- - SearchPathA
- - SearchPathW
+- SearchPath
+- SearchPathA
+- SearchPathW
 targetos: Windows
 req.typenames: 
 req.redist: 

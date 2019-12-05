@@ -1,19 +1,17 @@
 ---
 UID: NN:control.IQueueCommand
 title: IQueueCommand (control.h)
-
 description: The IQueueCommand interface queues a command for processing at a designated time.
 old-location: dshow\iqueuecommand.htm
 tech.root: DirectShow
 ms.assetid: 08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4
-
 ms.date: 12/05/2018
 ms.keywords: IQueueCommand, IQueueCommand interface [DirectShow], IQueueCommand interface [DirectShow],described, IQueueCommandInterface, control/IQueueCommand, dshow.iqueuecommand
 ms.topic: interface
-f1_keywords: 
- - "control/IQueueCommand"
+f1_keywords:
+- control/IQueueCommand
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IQueueCommand
+- IQueueCommand
 targetos: Windows
 req.typenames: 
 req.redist: 

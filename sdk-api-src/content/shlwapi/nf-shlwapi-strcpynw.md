@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.StrCpyNW
 title: StrCpyNW function (shlwapi.h)
-
 description: Copies a specified number of characters from the beginning of one string to another.Note  Do not use this function or the StrNCpy macro.
 old-location: shell\StrCpyN.htm
 tech.root: shell
 ms.assetid: 7e21414d-0d82-40b9-b32f-5eaf351166da
-
 ms.date: 12/05/2018
 ms.keywords: StrCpyN, StrCpyN function [Windows Shell], StrCpyNW, _win32_StrCpyN, shell.StrCpyN, shlwapi/StrCpyN, shlwapi/StrCpyNW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/StrCpyN"
+f1_keywords:
+- shlwapi/StrCpyN
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-2-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCpyN
- - StrCpyNW
+- StrCpyN
+- StrCpyNW
 targetos: Windows
 req.typenames: 
 req.redist: 

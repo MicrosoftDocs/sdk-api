@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluslinecaps.AdjustableArrowCap.SetFillState
 title: AdjustableArrowCap::SetFillState (gdipluslinecaps.h)
-
 description: The AdjustableArrowCap::SetFillState method sets the fill state of the arrow cap. If the arrow cap is not filled, only the outline is drawn.
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcapclass\adjustablearrowcapmethods\setfillstate.htm
-
 ms.date: 12/05/2018
 ms.keywords: AdjustableArrowCap class [GDI+],SetFillState method, AdjustableArrowCap.SetFillState, AdjustableArrowCap::SetFillState, SetFillState, SetFillState method [GDI+], SetFillState method [GDI+],AdjustableArrowCap class, _gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_, gdiplus._gdiplus_CLASS_AdjustableArrowCap_SetFillState_isFilled_
 ms.topic: method
-f1_keywords: 
- - "gdipluslinecaps/AdjustableArrowCap.SetFillState"
+f1_keywords:
+- gdipluslinecaps/AdjustableArrowCap.SetFillState
 dev_langs:
- - c++
+- c++
 req.header: gdipluslinecaps.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - AdjustableArrowCap.SetFillState
+- AdjustableArrowCap.SetFillState
 targetos: Windows
 req.typenames: 
 req.redist: 

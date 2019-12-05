@@ -1,19 +1,17 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenRemoteMachineGPO
 title: IGroupPolicyObject::OpenRemoteMachineGPO (gpedit.h)
-
 description: The OpenRemoteMachineGPO method opens the default GPO for the specified remote computer and optionally loads the registry information.
 old-location: policy\igrouppolicyobject_openremotemachinegpo.htm
 tech.root: Policy
 ms.assetid: ac124b48-7eb6-473b-a96b-de9b1a903f28
-
 ms.date: 12/05/2018
 ms.keywords: GPO_OPEN_LOAD_REGISTRY, GPO_OPEN_READ_ONLY, IGroupPolicyObject interface [Group Policy],OpenRemoteMachineGPO method, IGroupPolicyObject.OpenRemoteMachineGPO, IGroupPolicyObject::OpenRemoteMachineGPO, OpenRemoteMachineGPO, OpenRemoteMachineGPO method [Group Policy], OpenRemoteMachineGPO method [Group Policy],IGroupPolicyObject interface, _win32_igrouppolicyobject_openremotemachinegpo, gpedit/IGroupPolicyObject::OpenRemoteMachineGPO, policy.igrouppolicyobject_openremotemachinegpo
 ms.topic: method
-f1_keywords: 
- - "gpedit/IGroupPolicyObject.OpenRemoteMachineGPO"
+f1_keywords:
+- gpedit/IGroupPolicyObject.OpenRemoteMachineGPO
 dev_langs:
- - c++
+- c++
 req.header: gpedit.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpedit.dll
+- Gpedit.dll
 api_name:
- - IGroupPolicyObject.OpenRemoteMachineGPO
+- IGroupPolicyObject.OpenRemoteMachineGPO
 targetos: Windows
 req.typenames: 
 req.redist: 

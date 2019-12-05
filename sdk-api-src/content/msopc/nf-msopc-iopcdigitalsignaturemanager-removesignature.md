@@ -1,19 +1,17 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureManager.RemoveSignature
 title: IOpcDigitalSignatureManager::RemoveSignature (msopc.h)
-
 description: Removes from the package a specified signature part that stores signature markup.
 old-location: opc\iopcdigitalsignaturemanager_removesignature.htm
 tech.root: OPC
 ms.assetid: bc022b81-f61d-4efa-9c68-f798b2d929c2
-
 ms.date: 12/05/2018
 ms.keywords: IOpcDigitalSignatureManager interface [Open Packaging Conventions],RemoveSignature method, IOpcDigitalSignatureManager.RemoveSignature, IOpcDigitalSignatureManager::RemoveSignature, RemoveSignature, RemoveSignature method [Open Packaging Conventions], RemoveSignature method [Open Packaging Conventions],IOpcDigitalSignatureManager interface, msopc/IOpcDigitalSignatureManager::RemoveSignature, opc.iopcdigitalsignaturemanager_removesignature
 ms.topic: method
-f1_keywords: 
- - "msopc/IOpcDigitalSignatureManager.RemoveSignature"
+f1_keywords:
+- msopc/IOpcDigitalSignatureManager.RemoveSignature
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcDigitalSignatureManager.RemoveSignature
+- IOpcDigitalSignatureManager.RemoveSignature
 targetos: Windows
 req.typenames: 
 req.redist: 

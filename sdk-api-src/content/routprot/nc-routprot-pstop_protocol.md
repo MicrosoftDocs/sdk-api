@@ -1,19 +1,17 @@
 ---
 UID: NC:routprot.PSTOP_PROTOCOL
 title: PSTOP_PROTOCOL (routprot.h)
-
 description: The StopProtocol function causes the routing protocol to perform an orderly shutdown.
 old-location: rras\stopprotocol.htm
 tech.root: RRAS
 ms.assetid: 8b9459f8-152c-4ec1-9ed0-2b27a56f521d
-
 ms.date: 12/05/2018
 ms.keywords: PSTOP_PROTOCOL, PSTOP_PROTOCOL callback, StopProtocol, StopProtocol callback function [RAS], _mpr_stopprotocol, routprot/StopProtocol, rras.stopprotocol
 ms.topic: callback
-f1_keywords: 
- - "routprot/StopProtocol"
+f1_keywords:
+- routprot/StopProtocol
 dev_langs:
- - c++
+- c++
 req.header: routprot.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Routprot.h
+- Routprot.h
 api_name:
- - StopProtocol
+- StopProtocol
 targetos: Windows
 req.typenames: 
 req.redist: 

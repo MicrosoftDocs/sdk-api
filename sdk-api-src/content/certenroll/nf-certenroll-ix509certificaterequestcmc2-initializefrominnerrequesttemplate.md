@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
 title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate (certenroll.h)
-
 description: Initializes the certificate request from an inner request object and a template.
 old-location: security\ix509certificaterequestcmc2_initializefrominnerrequesttemplate.htm
 tech.root: seccertenroll
 ms.assetid: 12490859-bb4a-49ff-9d92-24bf04ab3999
-
 ms.date: 12/05/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],InitializeFromInnerRequestTemplate method, IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate, IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate, InitializeFromInnerRequestTemplate method [Security], InitializeFromInnerRequestTemplate method [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate, security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate
 ms.topic: method
-f1_keywords: 
- - "certenroll/IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate"
+f1_keywords:
+- certenroll/IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenroll.h
+- Certenroll.h
 api_name:
- - IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
+- IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
 targetos: Windows
 req.typenames: 
 req.redist: 

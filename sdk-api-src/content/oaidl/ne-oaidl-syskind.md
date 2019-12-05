@@ -1,19 +1,17 @@
 ---
 UID: NE:oaidl.tagSYSKIND
 title: SYSKIND (oaidl.h)
-
 description: Identifies the target operating system platform.
 old-location: automat\syskind.htm
 tech.root: automat
 ms.assetid: 662048b2-59a8-48ca-9e4f-2f9a5306faa1
-
 ms.date: 12/05/2018
 ms.keywords: SYSKIND, SYSKIND enumeration [Automation], SYS_MAC, SYS_WIN16, SYS_WIN32, SYS_WIN64, _oa96_SYSKIND, automat.syskind, oaidl/SYSKIND, oaidl/SYS_MAC, oaidl/SYS_WIN16, oaidl/SYS_WIN32, oaidl/SYS_WIN64
 ms.topic: enum
-f1_keywords: 
- - "oaidl/SYSKIND"
+f1_keywords:
+- oaidl/SYSKIND
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - OaIdl.h
+- OaIdl.h
 api_name:
- - SYSKIND
+- SYSKIND
 targetos: Windows
 req.typenames: SYSKIND
 req.redist: 

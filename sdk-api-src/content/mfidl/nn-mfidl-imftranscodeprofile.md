@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTranscodeProfile
 title: IMFTranscodeProfile (mfidl.h)
-
 description: Implemented by the transcode profile object.
 old-location: mf\imftranscodeprofile.htm
 tech.root: medfound
 ms.assetid: 82e012e0-84d8-4791-8b6f-bda58b498a90
-
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeProfile, IMFTranscodeProfile interface [Media Foundation], IMFTranscodeProfile interface [Media Foundation],described, mf.imftranscodeprofile, mfidl/IMFTranscodeProfile
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTranscodeProfile"
+f1_keywords:
+- mfidl/IMFTranscodeProfile
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeProfile
+- IMFTranscodeProfile
 targetos: Windows
 req.typenames: 
 req.redist: 

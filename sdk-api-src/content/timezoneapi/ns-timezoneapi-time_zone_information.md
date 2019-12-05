@@ -1,19 +1,17 @@
 ---
 UID: NS:timezoneapi._TIME_ZONE_INFORMATION
 title: TIME_ZONE_INFORMATION (timezoneapi.h)
-
 description: Specifies settings for a time zone.
 old-location: base\time_zone_information_str.htm
 tech.root: SysInfo
 ms.assetid: 18c10ad6-8bc9-4a3b-a424-d17ee1d9e004
-
 ms.date: 12/05/2018
-ms.keywords: "*LPTIME_ZONE_INFORMATION, *PTIME_ZONE_INFORMATION, PTIME_ZONE_INFORMATION, PTIME_ZONE_INFORMATION structure pointer, TIME_ZONE_INFORMATION, TIME_ZONE_INFORMATION structure, _TIME_ZONE_INFORMATION, _TIME_ZONE_INFORMATION structure, _win32_time_zone_information_str, base.time_zone_information_str, timezoneapi/PTIME_ZONE_INFORMATION, timezoneapi/_TIME_ZONE_INFORMATION"
+ms.keywords: '*LPTIME_ZONE_INFORMATION, *PTIME_ZONE_INFORMATION, PTIME_ZONE_INFORMATION, PTIME_ZONE_INFORMATION structure pointer, TIME_ZONE_INFORMATION, TIME_ZONE_INFORMATION structure, _TIME_ZONE_INFORMATION, _TIME_ZONE_INFORMATION structure, _win32_time_zone_information_str, base.time_zone_information_str, timezoneapi/PTIME_ZONE_INFORMATION, timezoneapi/_TIME_ZONE_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "timezoneapi/TIME_ZONE_INFORMATION"
+f1_keywords:
+- timezoneapi/TIME_ZONE_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: timezoneapi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - timezoneapi.h
+- timezoneapi.h
 api_name:
- - TIME_ZONE_INFORMATION
+- TIME_ZONE_INFORMATION
 targetos: Windows
 req.typenames: TIME_ZONE_INFORMATION, *PTIME_ZONE_INFORMATION, *LPTIME_ZONE_INFORMATION
 req.redist: 

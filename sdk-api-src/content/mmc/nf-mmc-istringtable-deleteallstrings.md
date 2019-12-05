@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IStringTable.DeleteAllStrings
 title: IStringTable::DeleteAllStrings (mmc.h)
-
 description: The IStringTable::DeleteAllStrings method enables a snap-in to delete all strings from the snap-in's string table.
 old-location: mmc\istringtable_deleteallstrings.htm
 tech.root: mmc
 ms.assetid: 9a0b02f6-3c15-4687-a1b8-2beba40dd1dc
-
 ms.date: 12/05/2018
 ms.keywords: DeleteAllStrings, DeleteAllStrings method [MMC], DeleteAllStrings method [MMC],IStringTable interface, IStringTable interface [MMC],DeleteAllStrings method, IStringTable.DeleteAllStrings, IStringTable::DeleteAllStrings, _slate_istringtable_deleteallstrings, mmc.istringtable_deleteallstrings, mmc/IStringTable::DeleteAllStrings
 ms.topic: method
-f1_keywords: 
- - "mmc/IStringTable.DeleteAllStrings"
+f1_keywords:
+- mmc/IStringTable.DeleteAllStrings
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IStringTable.DeleteAllStrings
+- IStringTable.DeleteAllStrings
 targetos: Windows
 req.typenames: 
 req.redist: 

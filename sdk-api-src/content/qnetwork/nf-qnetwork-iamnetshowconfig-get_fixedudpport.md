@@ -1,19 +1,17 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_FixedUDPPort
 title: IAMNetShowConfig::get_FixedUDPPort (qnetwork.h)
-
 description: The get_FixedUDPPort method gets the fixed UDP port number.
 old-location: dshow\iamnetshowconfig_get_fixedudpport.htm
 tech.root: DirectShow
 ms.assetid: 0890d29b-540a-45ce-a5f0-04a2db517135
-
 ms.date: 12/05/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_FixedUDPPort method, IAMNetShowConfig.get_FixedUDPPort, IAMNetShowConfig::get_FixedUDPPort, IAMNetShowConfigget_FixedUDPPort, dshow.iamnetshowconfig_get_fixedudpport, get_FixedUDPPort, get_FixedUDPPort method [DirectShow], get_FixedUDPPort method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_FixedUDPPort
 ms.topic: method
-f1_keywords: 
- - "qnetwork/IAMNetShowConfig.get_FixedUDPPort"
+f1_keywords:
+- qnetwork/IAMNetShowConfig.get_FixedUDPPort
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - IAMNetShowConfig.get_FixedUDPPort
+- IAMNetShowConfig.get_FixedUDPPort
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shellapi.SHRemoveLocalizedName
 title: SHRemoveLocalizedName function (shellapi.h)
-
 description: Removes the localized name of a file in a Shell folder.
 old-location: shell\SHRemoveLocalizedName.htm
 tech.root: shell
 ms.assetid: ed30546f-3531-42df-9018-1a24a79a0b79
-
 ms.date: 12/05/2018
 ms.keywords: SHRemoveLocalizedName, SHRemoveLocalizedName function [Windows Shell], _shell_SHRemoveLocalizedName, shell.SHRemoveLocalizedName, shellapi/SHRemoveLocalizedName
 ms.topic: function
-f1_keywords: 
- - "shellapi/SHRemoveLocalizedName"
+f1_keywords:
+- shellapi/SHRemoveLocalizedName
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - SHRemoveLocalizedName
+- SHRemoveLocalizedName
 targetos: Windows
 req.typenames: 
 req.redist: 

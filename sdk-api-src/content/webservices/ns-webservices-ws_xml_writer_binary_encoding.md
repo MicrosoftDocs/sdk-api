@@ -1,19 +1,17 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_BINARY_ENCODING
 title: WS_XML_WRITER_BINARY_ENCODING (webservices.h)
-
 description: Used to indicate that the writer should emit bytes as binary xml.
 old-location: wsw\ws_xml_writer_binary_encoding.htm
 tech.root: wsw
 ms.assetid: b4485490-b5e1-406c-883c-a30bfa334316
-
 ms.date: 12/05/2018
 ms.keywords: WS_XML_WRITER_BINARY_ENCODING, WS_XML_WRITER_BINARY_ENCODING structure [Web Services for Windows], webservices/WS_XML_WRITER_BINARY_ENCODING, wsw.ws_xml_writer_binary_encoding
 ms.topic: struct
 f1_keywords:
 - webservices/WS_XML_WRITER_BINARY_ENCODING
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows

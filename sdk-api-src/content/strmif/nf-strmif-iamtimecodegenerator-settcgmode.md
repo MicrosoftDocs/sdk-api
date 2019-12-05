@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTCGMode
 title: IAMTimecodeGenerator::SetTCGMode (strmif.h)
-
 description: The SetTCGMode method sets the SMPTE timecode generator properties.
 old-location: dshow\iamtimecodegenerator_settcgmode.htm
 tech.root: DirectShow
 ms.assetid: 61434534-0a43-4bf3-81d1-3b27ac601cb4
-
 ms.date: 12/05/2018
 ms.keywords: IAMTimecodeGenerator interface [DirectShow],SetTCGMode method, IAMTimecodeGenerator.SetTCGMode, IAMTimecodeGenerator::SetTCGMode, IAMTimecodeGeneratorSetTCGMode, SetTCGMode, SetTCGMode method [DirectShow], SetTCGMode method [DirectShow],IAMTimecodeGenerator interface, dshow.iamtimecodegenerator_settcgmode, strmif/IAMTimecodeGenerator::SetTCGMode
 ms.topic: method
-f1_keywords: 
- - "strmif/IAMTimecodeGenerator.SetTCGMode"
+f1_keywords:
+- strmif/IAMTimecodeGenerator.SetTCGMode
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMTimecodeGenerator.SetTCGMode
+- IAMTimecodeGenerator.SetTCGMode
 targetos: Windows
 req.typenames: 
 req.redist: 

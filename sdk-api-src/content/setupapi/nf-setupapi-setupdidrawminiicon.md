@@ -1,19 +1,17 @@
 ---
 UID: NF:setupapi.SetupDiDrawMiniIcon
 title: SetupDiDrawMiniIcon function (setupapi.h)
-
 description: The SetupDiDrawMiniIcon function draws the specified mini-icon at the location requested.
 old-location: devinst\setupdidrawminiicon.htm
 tech.root: devinst
 ms.assetid: 99670376-a338-4001-bede-a4fea57b73a7
-
 ms.date: 12/05/2018
 ms.keywords: SetupDiDrawMiniIcon, SetupDiDrawMiniIcon function [Device and Driver Installation], devinst.setupdidrawminiicon, di-rtns_b85627e0-4b6a-4198-b4b9-8a1afaa09a9a.xml, setupapi/SetupDiDrawMiniIcon
 ms.topic: function
-f1_keywords: 
- - "setupapi/SetupDiDrawMiniIcon"
+f1_keywords:
+- setupapi/SetupDiDrawMiniIcon
 dev_langs:
- - c++
+- c++
 req.header: setupapi.h
 req.include-header: Setupapi.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib: Setupapi.lib
 req.dll: Setupapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Setupapi.dll
+- Setupapi.dll
 api_name:
- - SetupDiDrawMiniIcon
+- SetupDiDrawMiniIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

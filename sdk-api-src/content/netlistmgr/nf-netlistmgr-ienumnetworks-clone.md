@@ -1,19 +1,17 @@
 ---
 UID: NF:netlistmgr.IEnumNetworks.Clone
 title: IEnumNetworks::Clone (netlistmgr.h)
-
 description: The Clone method creates an enumerator that contains the same enumeration state as the enumerator currently in use.
 old-location: nla\ienumnetworks_clone.htm
 tech.root: nla
 ms.assetid: 196bf9fa-4615-44c3-accf-f70516d5a6a5
-
 ms.date: 12/05/2018
 ms.keywords: Clone, Clone method [Network Awareness], Clone method [Network Awareness],IEnumNetworks interface, IEnumNetworks interface [Network Awareness],Clone method, IEnumNetworks.Clone, IEnumNetworks::Clone, netlistmgr/IEnumNetworks::Clone, nla.ienumnetworks_clone
 ms.topic: method
-f1_keywords: 
- - "netlistmgr/IEnumNetworks.Clone"
+f1_keywords:
+- netlistmgr/IEnumNetworks.Clone
 dev_langs:
- - c++
+- c++
 req.header: netlistmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Netlistmgr.h
+- Netlistmgr.h
 api_name:
- - IEnumNetworks.Clone
+- IEnumNetworks.Clone
 targetos: Windows
 req.typenames: 
 req.redist: 

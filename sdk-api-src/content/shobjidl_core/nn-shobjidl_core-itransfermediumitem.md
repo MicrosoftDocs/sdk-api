@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.ITransferMediumItem
 title: ITransferMediumItem (shobjidl_core.h)
-
 description: Used by a copy engine to get the item on which to call QueryInterface to return a pointer to interface ITransferDestination or interface ITransferSource. These interfaces can be queried and enumerated for copy, move, or delete operations.
 old-location: shell\ITransferMediumItem.htm
 tech.root: shell
 ms.assetid: 28b4397c-dcb1-4c81-b6a3-d6abd7f7ad24
-
 ms.date: 12/05/2018
 ms.keywords: ITransferMediumItem, ITransferMediumItem interface [Windows Shell], ITransferMediumItem interface [Windows Shell],described, _shell_ITransferMediumItem, shell.ITransferMediumItem, shobjidl_core/ITransferMediumItem
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/ITransferMediumItem"
+f1_keywords:
+- shobjidl_core/ITransferMediumItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - ITransferMediumItem
+- ITransferMediumItem
 targetos: Windows
 req.typenames: 
 req.redist: 

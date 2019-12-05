@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.DiscardPage
 title: IXpsOMPageReference::DiscardPage (xpsobjectmodel.h)
-
 description: Discards the page from memory.
 old-location: xps\ixpsompagereference_discardpage.htm
 tech.root: printdocs
 ms.assetid: 430b9169-7fc5-493d-85a8-dddf46dfef8f
-
 ms.date: 12/05/2018
 ms.keywords: DiscardPage, DiscardPage method [XPS Documents and Packaging], DiscardPage method [XPS Documents and Packaging],IXpsOMPageReference interface, IXpsOMPageReference interface [XPS Documents and Packaging],DiscardPage method, IXpsOMPageReference.DiscardPage, IXpsOMPageReference::DiscardPage, xps.ixpsompagereference_discardpage, xpsobjectmodel/IXpsOMPageReference::DiscardPage
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPageReference.DiscardPage"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPageReference.DiscardPage
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference.DiscardPage
+- IXpsOMPageReference.DiscardPage
 targetos: Windows
 req.typenames: 
 req.redist: 

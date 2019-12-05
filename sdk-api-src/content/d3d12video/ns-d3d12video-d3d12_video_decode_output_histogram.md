@@ -1,40 +1,38 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
 title: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
-
 description: Represents the histogram output buffer for a single component.
 tech.root: mf
 ms.assetid: af5643ac-4095-4d26-8dfe-ef882462d207
-
 ms.date: 11/14/2019
 ms.topic: struct
 f1_keywords:
- - D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
+- D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
 dev_langs:
- - c++
-ms.keywords: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM, D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM, 
+- c++
+ms.keywords: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM, D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM,
 req.header: d3d12video.h
-req.include-header:
-req.redist:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.ddi-compliance:
-req.unicode-ansi:
-req.max-support:
+req.include-header: 
+req.redist: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.max-support: 
 req.typenames: D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12video.h
-api_name: 
- - D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
+topic_type:
+- apiref
+api_type:
+- HeaderDef
+api_location:
+- d3d12video.h
+api_name:
+- D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM
 targetos: Windows
 ---
 

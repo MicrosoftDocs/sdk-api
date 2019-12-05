@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.IPreviousVersionsInfo.AreSnapshotsAvailable
 title: IPreviousVersionsInfo::AreSnapshotsAvailable (shobjidl.h)
-
 description: Queries for the availablilty of a Windows Server 2003 volume image recorded by the system at an earlier time.
 old-location: shell\IPreviousVersionsInfo_AreSnapshotsAvailable.htm
 tech.root: shell
 ms.assetid: 03a0b218-4683-42b2-9080-9b92701dff1e
-
 ms.date: 12/05/2018
 ms.keywords: AreSnapshotsAvailable, AreSnapshotsAvailable method [Windows Shell], AreSnapshotsAvailable method [Windows Shell],IPreviousVersionsInfo interface, FALSE, IPreviousVersionsInfo interface [Windows Shell],AreSnapshotsAvailable method, IPreviousVersionsInfo.AreSnapshotsAvailable, IPreviousVersionsInfo::AreSnapshotsAvailable, TRUE, _shell_IPreviousVersionsInfo_AreSnapshotsAvailable, shell.IPreviousVersionsInfo_AreSnapshotsAvailable, shobjidl/IPreviousVersionsInfo::AreSnapshotsAvailable
 ms.topic: method
-f1_keywords: 
- - "shobjidl/IPreviousVersionsInfo.AreSnapshotsAvailable"
+f1_keywords:
+- shobjidl/IPreviousVersionsInfo.AreSnapshotsAvailable
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Twext.dll (version 5.2 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Twext.dll
+- Twext.dll
 api_name:
- - IPreviousVersionsInfo.AreSnapshotsAvailable
+- IPreviousVersionsInfo.AreSnapshotsAvailable
 targetos: Windows
 req.typenames: 
 req.redist: 

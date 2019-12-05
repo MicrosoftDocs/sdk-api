@@ -1,19 +1,17 @@
 ---
 UID: NS:winnt._MEMORY_BASIC_INFORMATION
 title: MEMORY_BASIC_INFORMATION (winnt.h)
-
 description: Contains information about a range of pages in the virtual address space of a process.
 old-location: base\memory_basic_information_str.htm
 tech.root: Memory
 ms.assetid: dc3fa48e-0986-49cc-88a9-ff8179fbe5f0
-
 ms.date: 12/05/2018
-ms.keywords: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer, _MEMORY_BASIC_INFORMATION, _win32_memory_basic_information_str, base.memory_basic_information_str, winnt/MEMORY_BASIC_INFORMATION, winnt/PMEMORY_BASIC_INFORMATION"
+ms.keywords: '*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure, MEM_COMMIT, MEM_FREE, MEM_IMAGE, MEM_MAPPED, MEM_PRIVATE, MEM_RESERVE, PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION structure pointer, _MEMORY_BASIC_INFORMATION, _win32_memory_basic_information_str, base.memory_basic_information_str, winnt/MEMORY_BASIC_INFORMATION, winnt/PMEMORY_BASIC_INFORMATION'
 ms.topic: struct
-f1_keywords: 
- - "winnt/MEMORY_BASIC_INFORMATION"
+f1_keywords:
+- winnt/MEMORY_BASIC_INFORMATION
 dev_langs:
- - c++
+- c++
 req.header: winnt.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Winnt.h
+- Winnt.h
 api_name:
- - MEMORY_BASIC_INFORMATION
+- MEMORY_BASIC_INFORMATION
 targetos: Windows
 req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 req.redist: 

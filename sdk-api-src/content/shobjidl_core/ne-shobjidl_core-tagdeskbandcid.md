@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.tagDESKBANDCID
 title: tagDESKBANDCID (shobjidl_core.h)
-
 description: These command IDs can be sent to the band object's container with IOleCommandTarget::Exec.
 old-location: shell\DBID_Command_Flags.htm
 tech.root: shell
 ms.assetid: 388e94de-a5c2-470e-ad33-dec3cfca2604
-
 ms.date: 12/05/2018
 ms.keywords: DBID Command Flags, DBID_BANDINFOCHANGED, DBID_MAXIMIZEBAND, DBID_PUSHCHEVRON, DBID_SHOWONLY, shell.DBID_Command_Flags, shell_DBID_Command_Flags, shobjidl_core/DBID_BANDINFOCHANGED, shobjidl_core/DBID_MAXIMIZEBAND, shobjidl_core/DBID_PUSHCHEVRON, shobjidl_core/DBID_SHOWONLY, shobjidl_core/tagDESKBANDCID, tagDESKBANDCID, tagDESKBANDCID enumeration [Windows Shell]
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/tagDESKBANDCID"
+f1_keywords:
+- shobjidl_core/tagDESKBANDCID
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - tagDESKBANDCID
+- tagDESKBANDCID
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetLinkageType
 title: IDvbLinkageDescriptor::GetLinkageType (dvbsiparser.h)
-
 description: Gets a code that uniquely identifies the linkage type from a Digital Video Broadcast (DVB) linkage descriptor.
 old-location: mstv\idvblinkagedescriptor_getlinkagetype.htm
 tech.root: mstv
 ms.assetid: 54e17da4-df93-40a5-a359-274da77f585d
-
 ms.date: 12/05/2018
 ms.keywords: GetLinkageType, GetLinkageType method [Microsoft TV Technologies], GetLinkageType method [Microsoft TV Technologies],IDvbLinkageDescriptor interface, IDvbLinkageDescriptor interface [Microsoft TV Technologies],GetLinkageType method, IDvbLinkageDescriptor.GetLinkageType, IDvbLinkageDescriptor::GetLinkageType, dvbsiparser/IDvbLinkageDescriptor::GetLinkageType, mstv.idvblinkagedescriptor_getlinkagetype
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IDvbLinkageDescriptor.GetLinkageType"
+f1_keywords:
+- dvbsiparser/IDvbLinkageDescriptor.GetLinkageType
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IDvbLinkageDescriptor.GetLinkageType
+- IDvbLinkageDescriptor.GetLinkageType
 targetos: Windows
 req.typenames: 
 req.redist: 

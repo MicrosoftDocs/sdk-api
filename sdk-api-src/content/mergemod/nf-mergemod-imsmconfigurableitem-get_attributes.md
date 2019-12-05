@@ -1,19 +1,17 @@
 ---
 UID: NF:mergemod.IMsmConfigurableItem.get_Attributes
 title: IMsmConfigurableItem::get_Attributes (mergemod.h)
-
 description: The get_Attributes method retrieves the Attributes property of the ConfigurableItem object.
 old-location: setup\imsmconfigurableitem_get_attributes.htm
 tech.root: Msi
 ms.assetid: 347451e9-0623-4d31-a9f5-7cb95f234717
-
 ms.date: 12/05/2018
 ms.keywords: IMsmConfigurableItem interface,get_Attributes method, IMsmConfigurableItem.get_Attributes, IMsmConfigurableItem::get_Attributes, _msi_get_attributes_function, get_Attributes, get_Attributes method, get_Attributes method,IMsmConfigurableItem interface, mergemod/IMsmConfigurableItem::get_Attributes, setup.imsmconfigurableitem_get_attributes
 ms.topic: method
-f1_keywords: 
- - "mergemod/IMsmConfigurableItem.get_Attributes"
+f1_keywords:
+- mergemod/IMsmConfigurableItem.get_Attributes
 dev_langs:
- - c++
+- c++
 req.header: mergemod.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mergemod.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mergemod.dll
+- Mergemod.dll
 api_name:
- - IMsmConfigurableItem.get_Attributes
+- IMsmConfigurableItem.get_Attributes
 targetos: Windows
 req.typenames: 
 req.redist: 

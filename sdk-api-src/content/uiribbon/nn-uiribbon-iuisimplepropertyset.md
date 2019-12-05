@@ -1,19 +1,17 @@
 ---
 UID: NN:uiribbon.IUISimplePropertySet
 title: IUISimplePropertySet (uiribbon.h)
-
 description: IUISimplePropertySet is a read-only interface that defines a method for retrieving the value identified by a property key.
 old-location: windowsribbon\windowsribbon_iuisimplepropertyset.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuisimplepropertyset\iuisimplepropertyset.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUISimplePropertySet, IUISimplePropertySet interface [Windows Ribbon], IUISimplePropertySet interface [Windows Ribbon],described, scenicintent_IUISimplePropertySet, uiribbon/IUISimplePropertySet, windowsribbon.windowsribbon_iuisimplepropertyset
 ms.topic: interface
-f1_keywords: 
- - "uiribbon/IUISimplePropertySet"
+f1_keywords:
+- uiribbon/IUISimplePropertySet
 dev_langs:
- - c++
+- c++
 req.header: uiribbon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Uiribbon.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiribbon.dll
+- Uiribbon.dll
 api_name:
- - IUISimplePropertySet
+- IUISimplePropertySet
 targetos: Windows
 req.typenames: 
 req.redist: 

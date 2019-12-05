@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusheaders.Region.Translate(IN INT,IN INT)
 title: Region::Translate(IN INT,IN INT) (gdiplusheaders.h)
-
 description: The Region::Translate method offsets this region by specified amounts in the horizontal and vertical directions.
 old-location: gdiplus\_gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regiontranslatemethods\translate_28intdx_intdy.htm
-
 ms.date: 12/05/2018
 ms.keywords: Region class [GDI+],Translate method, Region.Translate, Region.Translate(IN INT,IN INT), Region.Translate(INT,INT), Region::Translate, Region::Translate(IN INT,IN INT), Translate, Translate method [GDI+], Translate method [GDI+],Region class, _gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_, gdiplus._gdiplus_CLASS_Region_Translate_INT_dx_INT_dy_
 ms.topic: method
-f1_keywords: 
- - "gdiplusheaders/Region.Translate"
+f1_keywords:
+- gdiplusheaders/Region.Translate
 dev_langs:
- - c++
+- c++
 req.header: gdiplusheaders.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Region.Translate
+- Region.Translate
 targetos: Windows
 req.typenames: 
 req.redist: 

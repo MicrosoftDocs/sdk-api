@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.ICDecompressOpen
 title: ICDecompressOpen macro (vfw.h)
-
 description: The ICDecompressOpen macro opens a decompressor that is compatible with the specified formats.
 old-location: multimedia\icdecompressopen.htm
 tech.root: Multimedia
 ms.assetid: 83db0e07-7e93-4c77-a017-68a30b1372ef
-
 ms.date: 12/05/2018
 ms.keywords: ICDecompressOpen, ICDecompressOpen macro [Windows Multimedia], _win32_ICDecompressOpen, multimedia.icdecompressopen, vfw/ICDecompressOpen
 ms.topic: macro
-f1_keywords: 
- - "vfw/ICDecompressOpen"
+f1_keywords:
+- vfw/ICDecompressOpen
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - ICDecompressOpen
+- ICDecompressOpen
 targetos: Windows
 req.typenames: 
 req.redist: 

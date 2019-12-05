@@ -1,19 +1,17 @@
 ---
 UID: NF:locationapi.ILocation.GetDesiredAccuracy
 title: ILocation::GetDesiredAccuracy (locationapi.h)
-
 description: Retrieves the current requested accuracy setting.
 old-location: winlocation\ilocation_getdesiredaccuracy.htm
 tech.root: locationapi
 ms.assetid: caa34e34-7370-4e42-9c0f-00498f5fc37d
-
 ms.date: 12/05/2018
 ms.keywords: GetDesiredAccuracy, GetDesiredAccuracy method [WinLocation], GetDesiredAccuracy method [WinLocation],ILocation interface, ILocation interface [WinLocation],GetDesiredAccuracy method, ILocation.GetDesiredAccuracy, ILocation::GetDesiredAccuracy, locationapi/ILocation::GetDesiredAccuracy, winlocation.ilocation_getdesiredaccuracy
 ms.topic: method
-f1_keywords: 
- - "locationapi/ILocation.GetDesiredAccuracy"
+f1_keywords:
+- locationapi/ILocation.GetDesiredAccuracy
 dev_langs:
- - c++
+- c++
 req.header: locationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: LocationAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - LocationAPI.dll
+- LocationAPI.dll
 api_name:
- - ILocation.GetDesiredAccuracy
+- ILocation.GetDesiredAccuracy
 targetos: Windows
 req.typenames: 
 req.redist: 

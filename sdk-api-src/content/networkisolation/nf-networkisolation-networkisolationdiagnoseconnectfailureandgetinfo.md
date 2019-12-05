@@ -1,19 +1,17 @@
 ---
 UID: NF:networkisolation.NetworkIsolationDiagnoseConnectFailureAndGetInfo
 title: NetworkIsolationDiagnoseConnectFailureAndGetInfo function (networkisolation.h)
-
 description: Gets information about a network isolation connection failure due to a missing capability.
 old-location: ics\networkisolationdiagnoseconnectfailureandgetinfo.htm
 tech.root: ics
 ms.assetid: fb59b2bb-03c1-472d-bb97-6fd9d5f7169d
-
 ms.date: 12/05/2018
 ms.keywords: NetworkIsolationDiagnoseConnectFailureAndGetInfo, NetworkIsolationDiagnoseConnectFailureAndGetInfo function [ICS/ICF], ics.networkisolationdiagnoseconnectfailureandgetinfo, networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
 ms.topic: function
-f1_keywords: 
- - "networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo"
+f1_keywords:
+- networkisolation/NetworkIsolationDiagnoseConnectFailureAndGetInfo
 dev_langs:
- - c++
+- c++
 req.header: networkisolation.h
 req.include-header: Netfw.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: Firewallapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - firewallapi.dll
- - API-MS-Win-Net-Isolation-l1-1-0.dll
- - API-MS-Win-Net-Isolation-l1-1-1.dll
- - wfapihost.dll
+- firewallapi.dll
+- API-MS-Win-Net-Isolation-l1-1-0.dll
+- API-MS-Win-Net-Isolation-l1-1-1.dll
+- wfapihost.dll
 api_name:
- - NetworkIsolationDiagnoseConnectFailureAndGetInfo
+- NetworkIsolationDiagnoseConnectFailureAndGetInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

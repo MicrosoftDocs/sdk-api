@@ -1,19 +1,17 @@
 ---
 UID: NF:instance.CInstance.Setbool
 title: CInstance::Setbool (instance.h)
-
 description: The Setbool method sets a Boolean property.
 old-location: wmi\cinstance_setbool.htm
 tech.root: WmiSdk
 ms.assetid: d4ca045d-a018-48a0-a4ea-94d0c8f094a6
-
 ms.date: 12/05/2018
-ms.keywords: "?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N@Z, CInstance interface [Windows Management Instrumentation],Setbool method, CInstance.Setbool, CInstance::Setbool, Setbool, Setbool method [Windows Management Instrumentation], Setbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbool, instance/CInstance::Setbool, wmi.cinstance_setbool"
+ms.keywords: ?Setbool@CInstance@@QAE_NPBG_N@Z, ?Setbool@CInstance@@QEAA_NPEBG_N@Z, CInstance interface [Windows Management Instrumentation],Setbool method, CInstance.Setbool, CInstance::Setbool, Setbool, Setbool method [Windows Management Instrumentation], Setbool method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbool, instance/CInstance::Setbool, wmi.cinstance_setbool
 ms.topic: method
-f1_keywords: 
- - "instance/CInstance.Setbool"
+f1_keywords:
+- instance/CInstance.Setbool
 dev_langs:
- - c++
+- c++
 req.header: instance.h
 req.include-header: FwCommon.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: FrameDyn.lib
 req.dll: FrameDynOS.dll; FrameDyn.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - FrameDynOS.dll
- - FrameDyn.dll
+- FrameDynOS.dll
+- FrameDyn.dll
 api_name:
- - CInstance.Setbool
- - ?Setbool@CInstance@@QAE_NPBG_N@Z
- - ?Setbool@CInstance@@QEAA_NPEBG_N@Z
+- CInstance.Setbool
+- ?Setbool@CInstance@@QAE_NPBG_N@Z
+- ?Setbool@CInstance@@QEAA_NPEBG_N@Z
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnConnection.get_ConnectionID
 title: IMbnConnection::get_ConnectionID (mbnapi.h)
-
 description: Gets the unique identifier for the connection.
 old-location: mbn\imbnconnection_connectionid.htm
 tech.root: mbn
 ms.assetid: c9e24426-a487-417a-947e-6315eb59f9b4
-
 ms.date: 12/05/2018
 ms.keywords: ConnectionID property [Microsoft Broadband Networks], ConnectionID property [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],ConnectionID property, IMbnConnection.ConnectionID, IMbnConnection.get_ConnectionID, IMbnConnection::ConnectionID, IMbnConnection::get_ConnectionID, get_ConnectionID, mbn.imbnconnection_connectionid, mbnapi/IMbnConnection::ConnectionID, mbnapi/IMbnConnection::get_ConnectionID
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnConnection.ConnectionID"
+f1_keywords:
+- mbnapi/IMbnConnection.ConnectionID
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnConnection.ConnectionID
- - IMbnConnection.get_ConnectionID
+- IMbnConnection.ConnectionID
+- IMbnConnection.get_ConnectionID
 targetos: Windows
 req.typenames: 
 req.redist: 

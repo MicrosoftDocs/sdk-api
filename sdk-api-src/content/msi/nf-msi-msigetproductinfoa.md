@@ -1,19 +1,17 @@
 ---
 UID: NF:msi.MsiGetProductInfoA
 title: MsiGetProductInfoA function (msi.h)
-
 description: The MsiGetProductInfo function returns product information for published and installed products.
 old-location: setup\msigetproductinfo.htm
 tech.root: Msi
 ms.assetid: 336a68d6-5239-4313-b6c7-8091907a0e35
-
 ms.date: 12/05/2018
 ms.keywords: INSTALLPROPERTY_HELPLINK, INSTALLPROPERTY_HELPTELEPHONE, INSTALLPROPERTY_INSTALLDATE, INSTALLPROPERTY_INSTALLEDLANGUAGE, INSTALLPROPERTY_INSTALLEDPRODUCTNAME, INSTALLPROPERTY_INSTALLLOCATION, INSTALLPROPERTY_INSTALLSOURCE, INSTALLPROPERTY_LOCALPACKAGE, INSTALLPROPERTY_PUBLISHER, INSTALLPROPERTY_URLINFOABOUT, INSTALLPROPERTY_URLUPDATEINFO, INSTALLPROPERTY_VERSIONMAJOR, INSTALLPROPERTY_VERSIONMINOR, INSTALLPROPERTY_VERSIONSTRING, MsiGetProductInfo, MsiGetProductInfo function, MsiGetProductInfoA, MsiGetProductInfoW, _msi_msigetproductinfo, msi/MsiGetProductInfo, msi/MsiGetProductInfoA, msi/MsiGetProductInfoW, setup.msigetproductinfo
 ms.topic: function
-f1_keywords: 
- - "msi/MsiGetProductInfo"
+f1_keywords:
+- msi/MsiGetProductInfo
 dev_langs:
- - c++
+- c++
 req.header: msi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Msi.lib
 req.dll: Msi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msi.dll
- - Ext-MS-Win-MSI-Misc-l1-1-0.dll
+- Msi.dll
+- Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiGetProductInfo
- - MsiGetProductInfoA
- - MsiGetProductInfoW
+- MsiGetProductInfo
+- MsiGetProductInfoA
+- MsiGetProductInfoW
 targetos: Windows
 req.typenames: 
 req.redist: 

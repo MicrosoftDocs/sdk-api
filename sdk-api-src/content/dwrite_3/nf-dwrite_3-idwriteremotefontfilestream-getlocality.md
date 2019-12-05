@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocality
 title: IDWriteRemoteFontFileStream::GetLocality (dwrite_3.h)
-
 description: Gets the current locality of the file.
 old-location: directwrite\idwriteremotefontfilestream_getlocality.htm
 tech.root: DirectWrite
 ms.assetid: 395AC591-3D63-4990-98A7-FA154B6A000F
-
 ms.date: 12/05/2018
 ms.keywords: GetLocality, GetLocality method [Direct Write], GetLocality method [Direct Write],IDWriteRemoteFontFileStream interface, IDWriteRemoteFontFileStream interface [Direct Write],GetLocality method, IDWriteRemoteFontFileStream.GetLocality, IDWriteRemoteFontFileStream::GetLocality, directwrite.idwriteremotefontfilestream_getlocality, dwrite_3/IDWriteRemoteFontFileStream::GetLocality
 ms.topic: method
-f1_keywords: 
- - "dwrite_3/IDWriteRemoteFontFileStream.GetLocality"
+f1_keywords:
+- dwrite_3/IDWriteRemoteFontFileStream.GetLocality
 dev_langs:
- - c++
+- c++
 req.header: dwrite_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dwrite.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dwrite.lib
- - Dwrite.dll
+- Dwrite.lib
+- Dwrite.dll
 api_name:
- - IDWriteRemoteFontFileStream.GetLocality
+- IDWriteRemoteFontFileStream.GetLocality
 targetos: Windows
 req.typenames: 
 req.redist: 

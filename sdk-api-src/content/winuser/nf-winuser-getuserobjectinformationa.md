@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetUserObjectInformationA
 title: GetUserObjectInformationA function (winuser.h)
-
 description: Retrieves information about the specified window station or desktop object.
 old-location: winstation\getuserobjectinformation.htm
 tech.root: winstation
 ms.assetid: 64f7361d-1a94-4d5b-86f1-a2a21737668a
-
 ms.date: 12/05/2018
 ms.keywords: GetUserObjectInformation, GetUserObjectInformation function [Windows Stations and Desktops], GetUserObjectInformationA, GetUserObjectInformationW, UOI_FLAGS, UOI_HEAPSIZE, UOI_IO, UOI_NAME, UOI_TYPE, UOI_USER_SID, _win32_getuserobjectinformation, base.getuserobjectinformation, winstation.getuserobjectinformation, winuser/GetUserObjectInformation, winuser/GetUserObjectInformationA, winuser/GetUserObjectInformationW
 ms.topic: function
 f1_keywords:
 - winuser/GetUserObjectInformation
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows

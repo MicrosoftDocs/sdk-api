@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_CoverPage
 title: IFaxDocument::get_CoverPage (faxcomex.h)
-
 description: The IFaxDocument::get_CoverPage property is a null-terminated string that contains the name of the cover page template file (.cov) to associate with the fax document.
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9fol.htm
-
 ms.date: 12/05/2018
 ms.keywords: CoverPage property [Fax Service], CoverPage property [Fax Service],IFaxDocument interface, IFaxDocument interface [Fax Service],CoverPage property, IFaxDocument.CoverPage, IFaxDocument.get_CoverPage, IFaxDocument::CoverPage, IFaxDocument::get_CoverPage, IFaxDocument::put_CoverPage, _mfax_faxdocument.coverpage, fax._mfax_faxdocument_coverpage, fax._mfax_faxdocument_cpp_mfax_faxdocument_coverpage_cpp, faxcomex/IFaxDocument::CoverPage, faxcomex/IFaxDocument::get_CoverPage, faxcomex/IFaxDocument::put_CoverPage, get_CoverPage
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxDocument.CoverPage"
+f1_keywords:
+- faxcomex/IFaxDocument.CoverPage
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxDocument.CoverPage
- - IFaxDocument.get_CoverPage
- - IFaxDocument.put_CoverPage
+- IFaxDocument.CoverPage
+- IFaxDocument.get_CoverPage
+- IFaxDocument.put_CoverPage
 targetos: Windows
 req.typenames: 
 req.redist: 

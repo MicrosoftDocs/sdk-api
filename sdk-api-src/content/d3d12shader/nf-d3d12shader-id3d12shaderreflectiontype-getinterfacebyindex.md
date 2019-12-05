@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetInterfaceByIndex
 title: ID3D12ShaderReflectionType::GetInterfaceByIndex (d3d12shader.h)
-
 description: Gets an interface by index.
 old-location: direct3d12\id3d12shaderreflectiontype_getinterfacebyindex.htm
 tech.root: direct3d12
 ms.assetid: 1B9DABC6-65CA-47E3-95BF-77F29AC9D751
-
 ms.date: 12/05/2018
 ms.keywords: GetInterfaceByIndex, GetInterfaceByIndex method, GetInterfaceByIndex method,ID3D12ShaderReflectionType interface, ID3D12ShaderReflectionType interface,GetInterfaceByIndex method, ID3D12ShaderReflectionType.GetInterfaceByIndex, ID3D12ShaderReflectionType::GetInterfaceByIndex, d3d12shader/ID3D12ShaderReflectionType::GetInterfaceByIndex, direct3d12.id3d12shaderreflectiontype_getinterfacebyindex
 ms.topic: method
-f1_keywords: 
- - "d3d12shader/ID3D12ShaderReflectionType.GetInterfaceByIndex"
+f1_keywords:
+- d3d12shader/ID3D12ShaderReflectionType.GetInterfaceByIndex
 dev_langs:
- - c++
+- c++
 req.header: d3d12shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12shader.h
+- d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionType.GetInterfaceByIndex
+- ID3D12ShaderReflectionType.GetInterfaceByIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

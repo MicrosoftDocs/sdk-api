@@ -1,19 +1,17 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0003
 title: ADS_NT_SECURITY_DESCRIPTOR (iads.h)
-
 description: The ADS_NT_SECURITY_DESCRIPTOR structure defines the data type of the security descriptor for Windows.
 old-location: adsi\ads_nt_security_descriptor.htm
 tech.root: adsi
 ms.assetid: 4776fe35-2c16-4dd3-b708-cf36e2423425
-
 ms.date: 12/05/2018
 ms.keywords: '*PADS_NT_SECURITY_DESCRIPTOR, ADS_NT_SECURITY_DESCRIPTOR, ADS_NT_SECURITY_DESCRIPTOR structure [ADSI], PADS_NT_SECURITY_DESCRIPTOR, PADS_NT_SECURITY_DESCRIPTOR structure pointer [ADSI], _ds_ads_nt_security_descriptor, adsi.ads__nt__security__descriptor, adsi.ads_nt_security_descriptor, iads/ADS_NT_SECURITY_DESCRIPTOR, iads/PADS_NT_SECURITY_DESCRIPTOR'
 ms.topic: struct
 f1_keywords:
 - iads/ADS_NT_SECURITY_DESCRIPTOR
 dev_langs:
- - c++
+- c++
 req.header: iads.h
 req.include-header: 
 req.target-type: Windows

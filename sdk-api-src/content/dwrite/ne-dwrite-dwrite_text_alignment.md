@@ -1,19 +1,17 @@
 ---
 UID: NE:dwrite.DWRITE_TEXT_ALIGNMENT
 title: DWRITE_TEXT_ALIGNMENT (dwrite.h)
-
 description: Specifies the alignment of paragraph text along the reading direction axis, relative to the leading and trailing edge of the layout box.
 old-location: directwrite\dwrite_text_alignment.htm
 tech.root: DirectWrite
 ms.assetid: 76b347f8-185b-4da6-9647-4d066334ac12
-
 ms.date: 12/05/2018
 ms.keywords: DWRITE_TEXT_ALIGNMENT, DWRITE_TEXT_ALIGNMENT enumeration [Direct Write], DWRITE_TEXT_ALIGNMENT_CENTER, DWRITE_TEXT_ALIGNMENT_JUSTIFIED, DWRITE_TEXT_ALIGNMENT_LEADING, DWRITE_TEXT_ALIGNMENT_TRAILING, directwrite.dwrite_text_alignment, dwrite/DWRITE_TEXT_ALIGNMENT, dwrite/DWRITE_TEXT_ALIGNMENT_CENTER, dwrite/DWRITE_TEXT_ALIGNMENT_JUSTIFIED, dwrite/DWRITE_TEXT_ALIGNMENT_LEADING, dwrite/DWRITE_TEXT_ALIGNMENT_TRAILING
 ms.topic: enum
-f1_keywords: 
- - "dwrite/DWRITE_TEXT_ALIGNMENT"
+f1_keywords:
+- dwrite/DWRITE_TEXT_ALIGNMENT
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dwrite.h
+- dwrite.h
 api_name:
- - DWRITE_TEXT_ALIGNMENT
+- DWRITE_TEXT_ALIGNMENT
 targetos: Windows
 req.typenames: 
 req.redist: 

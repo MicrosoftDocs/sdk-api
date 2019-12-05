@@ -1,19 +1,17 @@
 ---
 UID: NF:gdipluscolor.Color.GetAlpha
 title: Color::GetAlpha (gdipluscolor.h)
-
 description: The Color::GetAlpha method gets the alpha component of this Color object.
 old-location: gdiplus\_gdiplus_CLASS_Color_GetAlpha_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\getalpha.htm
-
 ms.date: 12/05/2018
 ms.keywords: Color class [GDI+],GetAlpha method, Color.GetAlpha, Color::GetAlpha, GetAlpha, GetAlpha method [GDI+], GetAlpha method [GDI+],Color class, _gdiplus_CLASS_Color_GetAlpha_, gdiplus._gdiplus_CLASS_Color_GetAlpha_
 ms.topic: method
-f1_keywords: 
- - "gdipluscolor/Color.GetAlpha"
+f1_keywords:
+- gdipluscolor/Color.GetAlpha
 dev_langs:
- - c++
+- c++
 req.header: gdipluscolor.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - Color.GetAlpha
+- Color.GetAlpha
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winddi.DrvTransparentBlt
 title: DrvTransparentBlt function (winddi.h)
-
 description: The DrvTransparentBlt function provides bit-block transfer capabilities with transparency.
 old-location: display\drvtransparentblt.htm
 tech.root: display
 ms.assetid: 67e61a43-b962-4905-8876-9a0380848ed0
-
 ms.date: 12/05/2018
 ms.keywords: DrvTransparentBlt, DrvTransparentBlt function [Display Devices], ddifncs_962c398c-767b-44de-a1ee-d2b8bf257ec6.xml, display.drvtransparentblt, winddi/DrvTransparentBlt
 ms.topic: function
 f1_keywords:
 - winddi/DrvTransparentBlt
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Desktop

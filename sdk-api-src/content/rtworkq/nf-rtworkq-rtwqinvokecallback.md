@@ -1,19 +1,17 @@
 ---
 UID: NF:rtworkq.RtwqInvokeCallback
 title: RtwqInvokeCallback function (rtworkq.h)
-
 description: Invokes a callback method to complete an asynchronous operation.
 old-location: base\rtwqinvokecallback.htm
 tech.root: ProcThread
 ms.assetid: ba1ac638-b21d-4a0e-8599-b572b5ef2fa6
-
 ms.date: 12/05/2018
 ms.keywords: RtwqInvokeCallback, RtwqInvokeCallback function, base.rtwqinvokecallback, rtworkq/RtwqInvokeCallback
 ms.topic: function
-f1_keywords: 
- - "rtworkq/RtwqInvokeCallback"
+f1_keywords:
+- rtworkq/RtwqInvokeCallback
 dev_langs:
- - c++
+- c++
 req.header: rtworkq.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rtworkq.lib
 req.dll: RTWorkQ.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - RTWorkQ.dll
+- RTWorkQ.dll
 api_name:
- - RtwqInvokeCallback
+- RtwqInvokeCallback
 targetos: Windows
 req.typenames: 
 req.redist: 

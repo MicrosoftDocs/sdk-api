@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMBackupCollection.get_Count
 title: IGPMBackupCollection::get_Count (gpmgmt.h)
-
 description: Returns the number of GPMBackup objects in the collection.
 old-location: gpmc\igpmbackupcollection_get_count.htm
 tech.root: gpmc
 ms.assetid: 62103a25-cc1c-49d2-b822-d580bc79b645
-
 ms.date: 12/05/2018
 ms.keywords: Count property [GPMC], Count property [GPMC],GPMBackupCollection object, Count property [GPMC],IGPMBackupCollection interface, GPMBackupCollection object [GPMC],Count property, IGPMBackupCollection interface [GPMC],Count property, IGPMBackupCollection.Count, IGPMBackupCollection.get_Count, IGPMBackupCollection::Count, IGPMBackupCollection::get_Count, _win32_igpmbackupcollection_get_count, get_Count, gpmc.igpmbackupcollection_get_count, gpmgmt/IGPMBackupCollection::Count, gpmgmt/IGPMBackupCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMBackupCollection.Count"
+f1_keywords:
+- gpmgmt/IGPMBackupCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMBackupCollection.Count
- - IGPMBackupCollection.get_Count
- - GPMBackupCollection.Count
+- IGPMBackupCollection.Count
+- IGPMBackupCollection.get_Count
+- GPMBackupCollection.Count
 targetos: Windows
 req.typenames: 
 req.redist: 

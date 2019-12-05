@@ -1,19 +1,17 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetStatus
 title: IScheduledWorkItem::GetStatus (mstask.h)
-
 description: Retrieves the status of the work item.
 old-location: taskschd\ischeduledworkitem_getstatus.htm
 tech.root: taskschd
 ms.assetid: fb0bc52c-ae50-4c14-864d-099f2903adfb
-
 ms.date: 12/05/2018
 ms.keywords: GetStatus, GetStatus method [Task Scheduler], GetStatus method [Task Scheduler],IScheduledWorkItem interface, IScheduledWorkItem interface [Task Scheduler],GetStatus method, IScheduledWorkItem.GetStatus, IScheduledWorkItem::GetStatus, _msb_ischeduledworkitem_getstatus, mstask/IScheduledWorkItem::GetStatus, taskschd.ischeduledworkitem_getstatus
 ms.topic: method
-f1_keywords: 
- - "mstask/IScheduledWorkItem.GetStatus"
+f1_keywords:
+- mstask/IScheduledWorkItem.GetStatus
 dev_langs:
- - c++
+- c++
 req.header: mstask.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mstask.lib
 req.dll: Mstask.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mstask.dll
+- Mstask.dll
 api_name:
- - IScheduledWorkItem.GetStatus
+- IScheduledWorkItem.GetStatus
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 4.0 or later on Windows NT 4.0 and Windows 95

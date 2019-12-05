@@ -1,19 +1,17 @@
 ---
 UID: NN:ocidl.IPerPropertyBrowsing
 title: IPerPropertyBrowsing (ocidl.h)
-
 description: Retrieves the information in the property pages offered by an object.
 old-location: com\iperpropertybrowsing.htm
 tech.root: com
 ms.assetid: 05e46df3-b6c8-4520-af11-21e1ff90fb9f
-
 ms.date: 12/05/2018
 ms.keywords: IPerPropertyBrowsing, IPerPropertyBrowsing interface [COM], IPerPropertyBrowsing interface [COM],described, _ctrl_iperpropertybrowsing, com.iperpropertybrowsing, ocidl/IPerPropertyBrowsing
 ms.topic: interface
-f1_keywords: 
- - "ocidl/IPerPropertyBrowsing"
+f1_keywords:
+- ocidl/IPerPropertyBrowsing
 dev_langs:
- - c++
+- c++
 req.header: ocidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OCIdl.h
+- OCIdl.h
 api_name:
- - IPerPropertyBrowsing
+- IPerPropertyBrowsing
 targetos: Windows
 req.typenames: 
 req.redist: 

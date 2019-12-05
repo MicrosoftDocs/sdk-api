@@ -1,19 +1,17 @@
 ---
 UID: NF:shlobj.IThumbnailCapture.CaptureThumbnail
 title: IThumbnailCapture::CaptureThumbnail (shlobj.h)
-
 description: Retrieves a thumbnail representation of an IHTMLDocument2 document.
 old-location: shell\IThumbnailCapture_CaptureThumbnail.htm
 tech.root: shell
 ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709
-
 ms.date: 12/05/2018
 ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureThumbnail method [Windows Shell],IThumbnailCapture interface, IThumbnailCapture interface [Windows Shell],CaptureThumbnail method, IThumbnailCapture.CaptureThumbnail, IThumbnailCapture::CaptureThumbnail, _shell_IThumbnailCapture_CaptureThumbnail, shell.IThumbnailCapture_CaptureThumbnail, shlobj/IThumbnailCapture::CaptureThumbnail
 ms.topic: method
-f1_keywords: 
- - "shlobj/IThumbnailCapture.CaptureThumbnail"
+f1_keywords:
+- shlobj/IThumbnailCapture.CaptureThumbnail
 dev_langs:
- - c++
+- c++
 req.header: shlobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shimgvw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shimgvw.dll
+- Shimgvw.dll
 api_name:
- - IThumbnailCapture.CaptureThumbnail
+- IThumbnailCapture.CaptureThumbnail
 targetos: Windows
 req.typenames: 
 req.redist: 

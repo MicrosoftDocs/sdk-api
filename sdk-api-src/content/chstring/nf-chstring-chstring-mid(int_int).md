@@ -3,15 +3,13 @@ UID: NF:chstring.CHString.Mid(int,int)
 title: CHString::Mid
 description: 
 ms.assetid: f79f7b70-0587-4d5d-8a18-c61bd3c69212
-
-ms.date: 05/13/2019
 ms.date: 01/30/19
 ms.keywords: CHString::Mid
 ms.topic: language-reference
-f1_keywords: 
- - "chstring/CHString::Mid"
+f1_keywords:
+- chstring/CHString::Mid
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -33,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - DllExport
+- DllExport
 api_location:
- - chstring.h
+- chstring.h
 api_name:
- - CHString::Mid
+- CHString::Mid
 ---
 
 # CHString::Mid

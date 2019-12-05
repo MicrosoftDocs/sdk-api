@@ -1,19 +1,17 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.SetVolume
 title: IMFPMediaPlayer::SetVolume (mfplay.h)
-
 description: Sets the audio volume.
 old-location: mf\imfpmediaplayer_setvolume.htm
 tech.root: medfound
 ms.assetid: feee2812-7c7e-4c27-86be-8f7316854222
-
 ms.date: 12/05/2018
 ms.keywords: IMFPMediaPlayer interface [Media Foundation],SetVolume method, IMFPMediaPlayer.SetVolume, IMFPMediaPlayer::SetVolume, SetVolume, SetVolume method [Media Foundation], SetVolume method [Media Foundation],IMFPMediaPlayer interface, mf.imfpmediaplayer_setvolume, mfplay/IMFPMediaPlayer::SetVolume
 ms.topic: method
-f1_keywords: 
- - "mfplay/IMFPMediaPlayer.SetVolume"
+f1_keywords:
+- mfplay/IMFPMediaPlayer.SetVolume
 dev_langs:
- - c++
+- c++
 req.header: mfplay.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfplay.h
+- mfplay.h
 api_name:
- - IMFPMediaPlayer.SetVolume
+- IMFPMediaPlayer.SetVolume
 targetos: Windows
 req.typenames: 
 req.redist: 

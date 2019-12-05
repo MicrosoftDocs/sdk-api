@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.CloseClusterNotifyPort
 title: CloseClusterNotifyPort function (clusapi.h)
-
 description: Closes a notification port established through CreateClusterNotifyPort.
 old-location: mscs\closeclusternotifyport.htm
 tech.root: MsCS
 ms.assetid: abf7145c-780b-4ec7-babb-0e3975520f4a
-
 ms.date: 12/05/2018
 ms.keywords: CloseClusterNotifyPort, CloseClusterNotifyPort function [Failover Cluster], PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT function [Failover Cluster], _wolf_closeclusternotifyport, clusapi/CloseClusterNotifyPort, clusapi/PCLUSAPI_CLOSE_CLUSTER_NOTIFY_PORT, mscs.closeclusternotifyport
 ms.topic: function
-f1_keywords: 
- - "clusapi/CloseClusterNotifyPort"
+f1_keywords:
+- clusapi/CloseClusterNotifyPort
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
- - Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
- - ext-ms-win-cluster-clusapi-l1-1-3.dll
+- ClusAPI.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-1.dll
+- Ext-MS-Win-Cluster-ClusAPI-l1-1-2.dll
+- ext-ms-win-cluster-clusapi-l1-1-3.dll
 api_name:
- - CloseClusterNotifyPort
+- CloseClusterNotifyPort
 targetos: Windows
 req.typenames: 
 req.redist: 

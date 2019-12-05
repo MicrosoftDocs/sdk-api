@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMBackup.GenerateReportToFile
 title: IGPMBackup::GenerateReportToFile (gpmgmt.h)
-
 description: The GenerateReportToFile method gets the report for the backup Group Policy object (GPO) and then saves the report to a file in a specified path.
 old-location: gpmc\igpmbackup_generatereporttofile.htm
 tech.root: gpmc
 ms.assetid: cba43c59-54d8-4d0b-b603-638f493cdf71
-
 ms.date: 12/05/2018
 ms.keywords: GenerateReportToFile, GenerateReportToFile method [GPMC], GenerateReportToFile method [GPMC],IGPMBackup interface, IGPMBackup interface [GPMC],GenerateReportToFile method, IGPMBackup.GenerateReportToFile, IGPMBackup::GenerateReportToFile, gpmc.igpmbackup_generatereporttofile, gpmgmt/IGPMBackup::GenerateReportToFile
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMBackup.GenerateReportToFile"
+f1_keywords:
+- gpmgmt/IGPMBackup.GenerateReportToFile
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMBackup.GenerateReportToFile
+- IGPMBackup.GenerateReportToFile
 targetos: Windows
 req.typenames: 
 req.redist: 

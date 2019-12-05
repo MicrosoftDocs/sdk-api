@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetViewMode
 title: IFolderViewSettings::GetViewMode (shobjidl_core.h)
-
 description: Gets a folder's logical view mode.
 old-location: shell\IFolderViewSettings_GetViewMode.htm
 tech.root: shell
 ms.assetid: 4b050a69-39df-41f8-8d54-8c576bad3c2d
-
 ms.date: 12/05/2018
 ms.keywords: GetViewMode, GetViewMode method [Windows Shell], GetViewMode method [Windows Shell],IFolderViewSettings interface, IFolderViewSettings interface [Windows Shell],GetViewMode method, IFolderViewSettings.GetViewMode, IFolderViewSettings::GetViewMode, _shell_IFolderViewSettings_GetViewMode, shell.IFolderViewSettings_GetViewMode, shobjidl_core/IFolderViewSettings::GetViewMode
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IFolderViewSettings.GetViewMode"
+f1_keywords:
+- shobjidl_core/IFolderViewSettings.GetViewMode
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFolderViewSettings.GetViewMode
+- IFolderViewSettings.GetViewMode
 targetos: Windows
 req.typenames: 
 req.redist: 

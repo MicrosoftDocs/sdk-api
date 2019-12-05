@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IBandSite.SetBandState
 title: IBandSite::SetBandState (shobjidl_core.h)
-
 description: Set the state of a band in the band site.
 old-location: shell\IBandSite_SetBandState.htm
 tech.root: shell
 ms.assetid: d327f0fe-7d61-4edd-aff3-f4507763d751
-
 ms.date: 12/05/2018
 ms.keywords: IBandSite interface [Windows Shell],SetBandState method, IBandSite.SetBandState, IBandSite::SetBandState, SetBandState, SetBandState method [Windows Shell], SetBandState method [Windows Shell],IBandSite interface, _win32_IBandSite_SetBandState, shell.IBandSite_SetBandState, shobjidl_core/IBandSite::SetBandState
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IBandSite.SetBandState"
+f1_keywords:
+- shobjidl_core/IBandSite.SetBandState
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shldisp.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IBandSite.SetBandState
+- IBandSite.SetBandState
 targetos: Windows
 req.typenames: 
 req.redist: 

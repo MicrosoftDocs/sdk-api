@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.CreateGradientMesh
 title: ID2D1DeviceContext2::CreateGradientMesh (d2d1_3.h)
-
 description: Creates a new ID2D1GradientMesh instance using the given array of patches.
 old-location: direct2d\id2d1devicecontext2_creategradientmesh.htm
 tech.root: Direct2D
 ms.assetid: 7c471ba3-fb0f-b735-d10b-9d0a56b32863
-
 ms.date: 12/05/2018
 ms.keywords: CreateGradientMesh, CreateGradientMesh method [Direct2D], CreateGradientMesh method [Direct2D],ID2D1DeviceContext2 interface, ID2D1DeviceContext2 interface [Direct2D],CreateGradientMesh method, ID2D1DeviceContext2.CreateGradientMesh, ID2D1DeviceContext2::CreateGradientMesh, d2d1_3/ID2D1DeviceContext2::CreateGradientMesh, direct2d.id2d1devicecontext2_creategradientmesh
 ms.topic: method
-f1_keywords: 
- - "d2d1_3/ID2D1DeviceContext2.CreateGradientMesh"
+f1_keywords:
+- d2d1_3/ID2D1DeviceContext2.CreateGradientMesh
 dev_langs:
- - c++
+- c++
 req.header: d2d1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1DeviceContext2.CreateGradientMesh
+- ID2D1DeviceContext2.CreateGradientMesh
 targetos: Windows
 req.typenames: 
 req.redist: 

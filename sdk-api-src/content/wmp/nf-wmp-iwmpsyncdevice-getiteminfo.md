@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.getItemInfo
 title: IWMPSyncDevice::getItemInfo (wmp.h)
-
 description: The getItemInfo method retrieves a metadata value from the device.
 old-location: wmp\iwmpsyncdevice_getiteminfo.htm
 tech.root: WMP
 ms.assetid: a25b91b8-fe14-4fde-8b68-4e61515e0e5c
-
 ms.date: 12/05/2018
 ms.keywords: IWMPSyncDevice interface [Windows Media Player],getItemInfo method, IWMPSyncDevice.getItemInfo, IWMPSyncDevice::getItemInfo, IWMPSyncDevicegetItemInfo, getItemInfo, getItemInfo method [Windows Media Player], getItemInfo method [Windows Media Player],IWMPSyncDevice interface, wmp.iwmpsyncdevice_getiteminfo, wmp/IWMPSyncDevice::getItemInfo
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPSyncDevice.getItemInfo"
+f1_keywords:
+- wmp/IWMPSyncDevice.getItemInfo
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPSyncDevice.getItemInfo
+- IWMPSyncDevice.getItemInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:userenv.DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 title: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function (userenv.h)
-
 description: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName is reserved for future use.
 old-location: shell\deriverestrictedappcontainersidfromappcontainersidandrestrictedname.htm
 tech.root: shell
 ms.assetid: D9E34178-3AC2-4C7A-906B-A42D69428C63
-
 ms.date: 12/05/2018
 ms.keywords: DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName, DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName function [Windows Shell], shell.deriverestrictedappcontainersidfromappcontainersidandrestrictedname, userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 ms.topic: function
-f1_keywords: 
- - "userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName"
+f1_keywords:
+- userenv/DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 dev_langs:
- - c++
+- c++
 req.header: userenv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Userenv.lib
 req.dll: Userenv.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - userenv.dll
+- userenv.dll
 api_name:
- - DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
+- DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
 targetos: Windows
 req.typenames: 
 req.redist: 

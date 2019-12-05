@@ -1,19 +1,17 @@
 ---
 UID: NS:minwinbase._CREATE_PROCESS_DEBUG_INFO
 title: CREATE_PROCESS_DEBUG_INFO (minwinbase.h)
-
 description: Contains process creation information that can be used by a debugger.
 old-location: base\create_process_debug_info_str.htm
 tech.root: Debug
 ms.assetid: 4607aaff-bd05-46b5-86ed-abfffe6c2551
-
 ms.date: 12/05/2018
-ms.keywords: "*LPCREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO structure, LPCREATE_PROCESS_DEBUG_INFO, LPCREATE_PROCESS_DEBUG_INFO structure pointer, _CREATE_PROCESS_DEBUG_INFO, _win32_create_process_debug_info_str, base.create_process_debug_info_str, minwinbase/CREATE_PROCESS_DEBUG_INFO, minwinbase/LPCREATE_PROCESS_DEBUG_INFO"
+ms.keywords: '*LPCREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO, CREATE_PROCESS_DEBUG_INFO structure, LPCREATE_PROCESS_DEBUG_INFO, LPCREATE_PROCESS_DEBUG_INFO structure pointer, _CREATE_PROCESS_DEBUG_INFO, _win32_create_process_debug_info_str, base.create_process_debug_info_str, minwinbase/CREATE_PROCESS_DEBUG_INFO, minwinbase/LPCREATE_PROCESS_DEBUG_INFO'
 ms.topic: struct
-f1_keywords: 
- - "minwinbase/CREATE_PROCESS_DEBUG_INFO"
+f1_keywords:
+- minwinbase/CREATE_PROCESS_DEBUG_INFO
 dev_langs:
- - c++
+- c++
 req.header: minwinbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - minwinbase.h
+- minwinbase.h
 api_name:
- - CREATE_PROCESS_DEBUG_INFO
+- CREATE_PROCESS_DEBUG_INFO
 targetos: Windows
 req.typenames: CREATE_PROCESS_DEBUG_INFO, *LPCREATE_PROCESS_DEBUG_INFO
 req.redist: 

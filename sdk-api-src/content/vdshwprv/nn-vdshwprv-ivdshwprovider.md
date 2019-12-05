@@ -1,19 +1,17 @@
 ---
 UID: NN:vdshwprv.IVdsHwProvider
 title: IVdsHwProvider (vdshwprv.h)
-
 description: Provides methods for performing query, reenumeration, and refresh operations on a hardware provider.
 old-location: base\ivdshwprovider.htm
 tech.root: VDS
 ms.assetid: ff90875d-f437-4236-a13f-d55a83b778b9
-
 ms.date: 12/05/2018
 ms.keywords: IVdsHwProvider, IVdsHwProvider interface [VDS], IVdsHwProvider interface [VDS],described, base.ivdshwprovider, vds/IVdsHwProvider, vdshwprv/IVdsHwProvider
 ms.topic: interface
-f1_keywords: 
- - "vdshwprv/IVdsHwProvider"
+f1_keywords:
+- vdshwprv/IVdsHwProvider
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsHwProvider
+- IVdsHwProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

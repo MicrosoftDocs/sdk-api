@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFTranscodeSinkInfoProvider
 title: IMFTranscodeSinkInfoProvider (mfidl.h)
-
 description: Implemented by the transcode sink activation object.
 old-location: mf\imftranscodesinkinfoprovider.htm
 tech.root: medfound
 ms.assetid: c5eb0c30-559a-44dd-80d4-4b11933dc7ce
-
 ms.date: 12/05/2018
 ms.keywords: IMFTranscodeSinkInfoProvider, IMFTranscodeSinkInfoProvider interface [Media Foundation], IMFTranscodeSinkInfoProvider interface [Media Foundation],described, mf.imftranscodesinkinfoprovider, mfidl/IMFTranscodeSinkInfoProvider
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFTranscodeSinkInfoProvider"
+f1_keywords:
+- mfidl/IMFTranscodeSinkInfoProvider
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider
+- IMFTranscodeSinkInfoProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

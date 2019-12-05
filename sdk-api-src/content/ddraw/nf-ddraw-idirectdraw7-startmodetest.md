@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDraw7.StartModeTest
 title: IDirectDraw7::StartModeTest (ddraw.h)
-
 description: Initiates a test to update the system registry with refresh rate information for the current display adapter and monitor combination.
 old-location: directdraw\idirectdraw7_startmodetest.htm
 tech.root: directdraw
 ms.assetid: b669e3c7-b34b-4919-9a3e-0349288360ba
-
 ms.date: 12/05/2018
 ms.keywords: IDirectDraw7 interface [DirectDraw],StartModeTest method, IDirectDraw7.StartModeTest, IDirectDraw7::StartModeTest, StartModeTest, StartModeTest method [DirectDraw], StartModeTest method [DirectDraw],IDirectDraw7 interface, ddraw/IDirectDraw7::StartModeTest, directdraw.idirectdraw7_startmodetest
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDraw7.StartModeTest"
+f1_keywords:
+- ddraw/IDirectDraw7.StartModeTest
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDraw7.StartModeTest
+- IDirectDraw7.StartModeTest
 targetos: Windows
 req.typenames: 
 req.redist: 

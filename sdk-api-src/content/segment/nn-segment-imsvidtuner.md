@@ -1,19 +1,17 @@
 ---
 UID: NN:segment.IMSVidTuner
 title: IMSVidTuner (segment.h)
-
 description: The IMSVidTuner interface manages tuning devices.
 old-location: mstv\imsvidtuner.htm
 tech.root: mstv
 ms.assetid: b11f3ac4-c351-4017-9801-98d8edec7449
-
 ms.date: 12/05/2018
 ms.keywords: IMSVidTuner, IMSVidTuner interface [Microsoft TV Technologies], IMSVidTuner interface [Microsoft TV Technologies],described, IMSVidTunerInterface, mstv.imsvidtuner, segment/IMSVidTuner
 ms.topic: interface
-f1_keywords: 
- - "segment/IMSVidTuner"
+f1_keywords:
+- segment/IMSVidTuner
 dev_langs:
- - c++
+- c++
 req.header: segment.h
 req.include-header: Msvidctl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - segment.h
+- segment.h
 api_name:
- - IMSVidTuner
+- IMSVidTuner
 targetos: Windows
 req.typenames: 
 req.redist: 

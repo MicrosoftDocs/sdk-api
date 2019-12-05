@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTranscodeProfile.GetAudioAttributes
 title: IMFTranscodeProfile::GetAudioAttributes (mfidl.h)
-
 description: Gets the audio stream settings that are currently set in the transcode profile.
 old-location: mf\imftranscodeprofile_getaudioattributes.htm
 tech.root: medfound
 ms.assetid: c02dabfe-33ef-4835-a707-d1350b18629f
-
 ms.date: 12/05/2018
 ms.keywords: GetAudioAttributes, GetAudioAttributes method [Media Foundation], GetAudioAttributes method [Media Foundation],IMFTranscodeProfile interface, IMFTranscodeProfile interface [Media Foundation],GetAudioAttributes method, IMFTranscodeProfile.GetAudioAttributes, IMFTranscodeProfile::GetAudioAttributes, mf.imftranscodeprofile_getaudioattributes, mfidl/IMFTranscodeProfile::GetAudioAttributes
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTranscodeProfile.GetAudioAttributes"
+f1_keywords:
+- mfidl/IMFTranscodeProfile.GetAudioAttributes
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFTranscodeProfile.GetAudioAttributes
+- IMFTranscodeProfile.GetAudioAttributes
 targetos: Windows
 req.typenames: 
 req.redist: 

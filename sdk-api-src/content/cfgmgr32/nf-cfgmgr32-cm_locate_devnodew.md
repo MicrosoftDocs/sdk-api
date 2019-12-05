@@ -1,19 +1,17 @@
 ---
 UID: NF:cfgmgr32.CM_Locate_DevNodeW
 title: CM_Locate_DevNodeW function (cfgmgr32.h)
-
 description: The CM_Locate_DevNode function obtains a device instance handle to the device node that is associated with a specified device instance ID on the local machine.
 old-location: devinst\cm_locate_devnode.htm
 tech.root: devinst
 ms.assetid: b0bb2510-44be-4598-96ea-9b8fdcc7f7c6
-
 ms.date: 12/05/2018
 ms.keywords: CM_Locate_DevNode, CM_Locate_DevNode function [Device and Driver Installation], CM_Locate_DevNodeA, CM_Locate_DevNodeW, cfgmgr32/CM_Locate_DevNode, cfgmgr32/CM_Locate_DevNodeA, cfgmgr32/CM_Locate_DevNodeW, cfgmgrfn_70e99ef3-9630-4088-8fcb-f6c7123f2cb5.xml, devinst.cm_locate_devnode
 ms.topic: function
-f1_keywords: 
- - "cfgmgr32/CM_Locate_DevNode"
+f1_keywords:
+- cfgmgr32/CM_Locate_DevNode
 dev_langs:
- - c++
+- c++
 req.header: cfgmgr32.h
 req.include-header: Cfgmgr32.h
 req.target-type: Universal
@@ -32,18 +30,18 @@ req.lib: Cfgmgr32.lib
 req.dll: CfgMgr32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - CfgMgr32.dll
- - API-MS-Win-Devices-Config-L1-1-0.dll
- - API-MS-Win-Devices-Config-L1-1-1.dll
+- CfgMgr32.dll
+- API-MS-Win-Devices-Config-L1-1-0.dll
+- API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Locate_DevNode
- - CM_Locate_DevNodeA
- - CM_Locate_DevNodeW
+- CM_Locate_DevNode
+- CM_Locate_DevNodeA
+- CM_Locate_DevNodeW
 targetos: Windows
 req.typenames: 
 req.redist: 

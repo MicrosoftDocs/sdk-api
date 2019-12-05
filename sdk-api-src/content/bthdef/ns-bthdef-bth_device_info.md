@@ -1,19 +1,17 @@
 ---
 UID: NS:bthdef._BTH_DEVICE_INFO
 title: BTH_DEVICE_INFO (bthdef.h)
-
 description: Stores information about a Bluetooth device.
 old-location: bluetooth\bth_device_info.htm
 tech.root: bluetooth
 ms.assetid: b0f2c1fe-1fa0-4816-8471-73fbbced529b
-
 ms.date: 12/05/2018
 ms.keywords: '*PBTH_DEVICE_INFO, *PBTH_DEVICE_INFO structure [Bluetooth], BDIF_ADDRESS, BDIF_COD, BDIF_CONNECTED, BDIF_NAME, BDIF_PAIRED, BDIF_PERSONAL, BDIF_SSP_MITM_PROTECTED, BDIF_SSP_PAIRED, BDIF_SSP_SUPPORTED, BTH_DEVICE_INFO, BTH_DEVICE_INFO structure [Bluetooth], COD_MAJOR_AUDIO, COD_MAJOR_COMPUTER, COD_MAJOR_IMAGING, COD_MAJOR_LAN_ACCESS, COD_MAJOR_MISCELLANEOUS, COD_MAJOR_PERIPHERAL, COD_MAJOR_PHONE, COD_MAJOR_UNCLASSIFIED, COD_SERVICE_AUDIO, COD_SERVICE_CAPTURING, COD_SERVICE_INFORMATION, COD_SERVICE_LIMITED, COD_SERVICE_NETWORKING, COD_SERVICE_OBJECT_XFER, COD_SERVICE_POSITIONING, COD_SERVICE_RENDERING, COD_SERVICE_TELEPHONY, bluetooth.bth_device_info, bthdef/*PBTH_DEVICE_INFO, bthdef/BTH_DEVICE_INFO'
 ms.topic: struct
 f1_keywords:
 - bthdef/BTH_DEVICE_INFO
 dev_langs:
- - c++
+- c++
 req.header: bthdef.h
 req.include-header: 
 req.target-type: Windows

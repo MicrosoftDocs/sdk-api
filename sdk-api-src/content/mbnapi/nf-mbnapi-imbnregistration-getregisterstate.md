@@ -1,19 +1,17 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRegisterState
 title: IMbnRegistration::GetRegisterState (mbnapi.h)
-
 description: Gets the registration state.
 old-location: mbn\imbnregistration_getregisterstate.htm
 tech.root: mbn
 ms.assetid: 19488f2e-0cec-4e87-a32a-274e82cd8766
-
 ms.date: 12/05/2018
 ms.keywords: GetRegisterState, GetRegisterState method [Microsoft Broadband Networks], GetRegisterState method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetRegisterState method, IMbnRegistration.GetRegisterState, IMbnRegistration::GetRegisterState, mbn.imbnregistration_getregisterstate, mbnapi/IMbnRegistration::GetRegisterState
 ms.topic: method
-f1_keywords: 
- - "mbnapi/IMbnRegistration.GetRegisterState"
+f1_keywords:
+- mbnapi/IMbnRegistration.GetRegisterState
 dev_langs:
- - c++
+- c++
 req.header: mbnapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mbnapi.h
+- mbnapi.h
 api_name:
- - IMbnRegistration.GetRegisterState
+- IMbnRegistration.GetRegisterState
 targetos: Windows
 req.typenames: 
 req.redist: 

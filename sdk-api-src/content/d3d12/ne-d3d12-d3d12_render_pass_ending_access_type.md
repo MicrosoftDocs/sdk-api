@@ -1,19 +1,17 @@
 ---
 UID: NE:d3d12.D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
 title: D3D12_RENDER_PASS_ENDING_ACCESS_TYPE (d3d12.h)
-
 description: Specifies the type of access that an application is given to the specified resource(s) at the transition out of a render pass.
 old-location: direct3d12\d3d12_render_pass_ending_access_type.htm
 tech.root: direct3d12
 ms.assetid: 61B6003B-DDA5-4FF5-B1F5-994642937D29
-
 ms.date: 12/05/2018
 ms.keywords: D3D12_RENDER_PASS_ENDING_ACCESS_TYPE, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE enumeration, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_PRESERVE, D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_DISCARD, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_NO_ACCESS, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_PRESERVE, d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE_RESOLVE, direct3d12.d3d12_render_pass_ending_access_type
 ms.topic: enum
-f1_keywords: 
- - "d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE"
+f1_keywords:
+- d3d12/D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - <TBD>
+- <TBD>
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
+- D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
 targetos: Windows
 req.typenames: D3D12_RENDER_PASS_ENDING_ACCESS_TYPE
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.SetServiceDiscoverable
 title: IWSDDeviceHost::SetServiceDiscoverable (wsdhost.h)
-
 description: Controls whether or not the service is advertised using WS-Discovery.
 old-location: ncd\iwsddevicehost_setservicediscoverable.htm
 tech.root: WsdApi
 ms.assetid: 8f6aa8f6-3b7a-4d13-a052-c73f21823661
-
 ms.date: 12/05/2018
 ms.keywords: IWSDDeviceHost interface,SetServiceDiscoverable method, IWSDDeviceHost.SetServiceDiscoverable, IWSDDeviceHost::SetServiceDiscoverable, SetServiceDiscoverable, SetServiceDiscoverable method, SetServiceDiscoverable method,IWSDDeviceHost interface, ncd.iwsddevicehost_setservicediscoverable, wsdhost/IWSDDeviceHost::SetServiceDiscoverable
 ms.topic: method
-f1_keywords: 
- - "wsdhost/IWSDDeviceHost.SetServiceDiscoverable"
+f1_keywords:
+- wsdhost/IWSDDeviceHost.SetServiceDiscoverable
 dev_langs:
- - c++
+- c++
 req.header: wsdhost.h
 req.include-header: Wsdapi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wsdapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wsdapi.dll
+- Wsdapi.dll
 api_name:
- - IWSDDeviceHost.SetServiceDiscoverable
+- IWSDDeviceHost.SetServiceDiscoverable
 targetos: Windows
 req.typenames: 
 req.redist: 

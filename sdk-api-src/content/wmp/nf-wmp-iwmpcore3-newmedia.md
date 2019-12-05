@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPCore3.newMedia
 title: IWMPCore3::newMedia (wmp.h)
-
 description: The newMedia method retrieves a pointer to an IWMPMedia interface for a new media item.
 old-location: wmp\iwmpcore3_newmedia.htm
 tech.root: WMP
 ms.assetid: d0ae488f-cdc8-4688-bfc5-b7821216da37
-
 ms.date: 12/05/2018
 ms.keywords: IWMPCore3 interface [Windows Media Player],newMedia method, IWMPCore3.newMedia, IWMPCore3::newMedia, IWMPCore3newMedia, newMedia, newMedia method [Windows Media Player], newMedia method [Windows Media Player],IWMPCore3 interface, wmp.iwmpcore3_newmedia, wmp/IWMPCore3::newMedia
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPCore3.newMedia"
+f1_keywords:
+- wmp/IWMPCore3.newMedia
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPCore3.newMedia
+- IWMPCore3.newMedia
 targetos: Windows
 req.typenames: 
 req.redist: 

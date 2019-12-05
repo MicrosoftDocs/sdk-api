@@ -1,19 +1,17 @@
 ---
 UID: NN:strmif.IEncoderAPI
 title: IEncoderAPI (strmif.h)
-
 description: IEncoderAPI is no longer available for use.
 old-location: mstv\iencoderapi.htm
 tech.root: mstv
 ms.assetid: 823b79a1-1bf5-4aab-80dd-0e77ba950127
-
 ms.date: 12/05/2018
 ms.keywords: IEncoderAPI, IEncoderAPI interface [Microsoft TV Technologies], IEncoderAPI interface [Microsoft TV Technologies],described, IEncoderAPIInterface, mstv.iencoderapi, strmif/IEncoderAPI
 ms.topic: interface
-f1_keywords: 
- - "strmif/IEncoderAPI"
+f1_keywords:
+- strmif/IEncoderAPI
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IEncoderAPI
+- IEncoderAPI
 targetos: Windows
 req.typenames: 
 req.redist: 

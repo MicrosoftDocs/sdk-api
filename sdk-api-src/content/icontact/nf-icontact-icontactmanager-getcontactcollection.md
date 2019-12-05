@@ -1,19 +1,17 @@
 ---
 UID: NF:icontact.IContactManager.GetContactCollection
 title: IContactManager::GetContactCollection (icontact.h)
-
 description: Returns an IContactCollection object that contains all known contacts.
 old-location: wincontacts\_wincontacts_IContactManager_GetContactCollection.htm
 tech.root: wincontacts
 ms.assetid: 6b9d7ba5-e2cd-452f-8479-fdaad183b1ac
-
 ms.date: 12/05/2018
 ms.keywords: GetContactCollection, GetContactCollection method [Windows Contacts], GetContactCollection method [Windows Contacts],IContactManager interface, IContactManager interface [Windows Contacts],GetContactCollection method, IContactManager.GetContactCollection, IContactManager::GetContactCollection, _wincontacts_IContactManager_GetContactCollection, icontact/IContactManager::GetContactCollection, wincontacts._wincontacts_IContactManager_GetContactCollection
 ms.topic: method
-f1_keywords: 
- - "icontact/IContactManager.GetContactCollection"
+f1_keywords:
+- icontact/IContactManager.GetContactCollection
 dev_langs:
- - c++
+- c++
 req.header: icontact.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wab32.dll (Version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wab32.dll
+- Wab32.dll
 api_name:
- - IContactManager.GetContactCollection
+- IContactManager.GetContactCollection
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dbghelp.MakeSureDirectoryPathExists
 title: MakeSureDirectoryPathExists function (dbghelp.h)
-
 description: Creates all the directories in the specified path, beginning with the root.
 old-location: base\makesuredirectorypathexists.htm
 tech.root: Debug
 ms.assetid: 2be9a53a-306a-4b89-a813-0491e8a6e794
-
 ms.date: 12/05/2018
 ms.keywords: MakeSureDirectoryPathExists, MakeSureDirectoryPathExists function, _win32_makesuredirectorypathexists, base.makesuredirectorypathexists, dbghelp/MakeSureDirectoryPathExists
 ms.topic: function
-f1_keywords: 
- - "dbghelp/MakeSureDirectoryPathExists"
+f1_keywords:
+- dbghelp/MakeSureDirectoryPathExists
 dev_langs:
- - c++
+- c++
 req.header: dbghelp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dbghelp.lib
 req.dll: Dbghelp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Dbghelp.dll
- - imagehlp.dll
+- Dbghelp.dll
+- imagehlp.dll
 api_name:
- - MakeSureDirectoryPathExists
+- MakeSureDirectoryPathExists
 targetos: Windows
 req.typenames: 
 req.redist: DbgHelp.dll 5.1 or later

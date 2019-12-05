@@ -1,19 +1,17 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.SetOperationMode
 title: IDMOVideoOutputOptimizations::SetOperationMode (mediaobj.h)
-
 description: The SetOperationMode method notifies the DMO of the optimization features that are in effect.
 old-location: dshow\idmovideooutputoptimizations_setoperationmode.htm
 tech.root: DirectShow
 ms.assetid: 07dc29aa-d3ee-409e-9fe8-0c54d2d6f759
-
 ms.date: 12/05/2018
 ms.keywords: IDMOVideoOutputOptimizations interface [DirectShow],SetOperationMode method, IDMOVideoOutputOptimizations.SetOperationMode, IDMOVideoOutputOptimizations::SetOperationMode, IDMOVideoOutputOptimizationsSetOperationMode, SetOperationMode, SetOperationMode method [DirectShow], SetOperationMode method [DirectShow],IDMOVideoOutputOptimizations interface, dshow.idmovideooutputoptimizations_setoperationmode, mediaobj/IDMOVideoOutputOptimizations::SetOperationMode
 ms.topic: method
-f1_keywords: 
- - "mediaobj/IDMOVideoOutputOptimizations.SetOperationMode"
+f1_keywords:
+- mediaobj/IDMOVideoOutputOptimizations.SetOperationMode
 dev_langs:
- - c++
+- c++
 req.header: mediaobj.h
 req.include-header: Dmo.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dmoguids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dmoguids.lib
- - Dmoguids.dll
+- Dmoguids.lib
+- Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations.SetOperationMode
+- IDMOVideoOutputOptimizations.SetOperationMode
 targetos: Windows
 req.typenames: 
 req.redist: 

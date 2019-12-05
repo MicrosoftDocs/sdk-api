@@ -1,19 +1,17 @@
 ---
 UID: NN:winsync.ISyncFullEnumerationChangeBatch
 title: ISyncFullEnumerationChangeBatch (winsync.h)
-
 description: Represents the metadata for a set of changes that is created as part of a recovery synchronization.
 old-location: winsync\isyncfullenumerationchangebatch.htm
 tech.root: winsync
 ms.assetid: 9086991d-03e3-4f2c-ad03-c1f554fe32ce
-
 ms.date: 12/05/2018
 ms.keywords: ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], ISyncFullEnumerationChangeBatch interface [Windows Sync],described, winsync.isyncfullenumerationchangebatch, winsync/ISyncFullEnumerationChangeBatch
 ms.topic: interface
-f1_keywords: 
- - "winsync/ISyncFullEnumerationChangeBatch"
+f1_keywords:
+- winsync/ISyncFullEnumerationChangeBatch
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncFullEnumerationChangeBatch
+- ISyncFullEnumerationChangeBatch
 targetos: Windows
 req.typenames: 
 req.redist: 

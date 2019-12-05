@@ -1,19 +1,17 @@
 ---
 UID: NS:dxgi.DXGI_OUTPUT_DESC
 title: DXGI_OUTPUT_DESC (dxgi.h)
-
 description: Describes an output or physical connection between the adapter (video card) and a device.
 old-location: direct3ddxgi\dxgi_output_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_output_desc.htm
-
 ms.date: 12/05/2018
 ms.keywords: DXGI_OUTPUT_DESC, DXGI_OUTPUT_DESC structure [DXGI], d70793ef-13c9-f3fa-6590-c3b793e1191b, direct3ddxgi.dxgi_output_desc, dxgi/DXGI_OUTPUT_DESC
 ms.topic: struct
-f1_keywords: 
- - "dxgi/DXGI_OUTPUT_DESC"
+f1_keywords:
+- dxgi/DXGI_OUTPUT_DESC
 dev_langs:
- - c++
+- c++
 req.header: dxgi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DXGI.h
+- DXGI.h
 api_name:
- - DXGI_OUTPUT_DESC
+- DXGI_OUTPUT_DESC
 targetos: Windows
 req.typenames: DXGI_OUTPUT_DESC
 req.redist: 

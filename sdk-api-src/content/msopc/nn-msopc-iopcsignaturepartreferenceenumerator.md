@@ -1,19 +1,17 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReferenceEnumerator
 title: IOpcSignaturePartReferenceEnumerator (msopc.h)
-
 description: A read-only enumerator of IOpcSignaturePartReference interface pointers.
 old-location: opc\iopcsignaturepartreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: 8a54debe-3ac6-471d-b5a5-c3512da4d079
-
 ms.date: 12/05/2018
 ms.keywords: IOpcSignaturePartReferenceEnumerator, IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions], IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions],described, msopc/IOpcSignaturePartReferenceEnumerator, opc.iopcsignaturepartreferenceenumerator
 ms.topic: interface
-f1_keywords: 
- - "msopc/IOpcSignaturePartReferenceEnumerator"
+f1_keywords:
+- msopc/IOpcSignaturePartReferenceEnumerator
 dev_langs:
- - c++
+- c++
 req.header: msopc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msopc.h
+- msopc.h
 api_name:
- - IOpcSignaturePartReferenceEnumerator
+- IOpcSignaturePartReferenceEnumerator
 targetos: Windows
 req.typenames: 
 req.redist: 

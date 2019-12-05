@@ -1,19 +1,17 @@
 ---
 UID: NI:winioctl.FSCTL_GET_REPAIR
 title: FSCTL_GET_REPAIR
-
 description: Retrieves information about the NTFS file system's self-healing mechanism.
 old-location: fs\fsctl_get_repair.htm
 tech.root: FileIO
 ms.assetid: 25c9ffdf-2839-46aa-b1fe-ce1383a3a813
-
 ms.date: 12/05/2018
 ms.keywords: FSCTL_GET_REPAIR, FSCTL_GET_REPAIR control, FSCTL_GET_REPAIR control code [Files], fs.fsctl_get_repair, winioctl/FSCTL_GET_REPAIR
 ms.topic: ioctl
-f1_keywords: 
- - "winioctl/FSCTL_GET_REPAIR"
+f1_keywords:
+- winioctl/FSCTL_GET_REPAIR
 dev_langs:
- - c++
+- c++
 req.header: winioctl.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - WinIoCtl.h
+- WinIoCtl.h
 api_name:
- - FSCTL_GET_REPAIR
+- FSCTL_GET_REPAIR
 targetos: Windows
 req.typenames: 
 req.redist: 

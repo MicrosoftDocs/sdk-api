@@ -1,19 +1,17 @@
 ---
 UID: NF:uianimation.IUIAnimationTransition.IsDurationKnown
 title: IUIAnimationTransition::IsDurationKnown (uianimation.h)
-
 description: Determines whether a transition's duration is currently known.
 old-location: uianimation\iuianimationtransition_isdurationknown.htm
 tech.root: UIAnimation
 ms.assetid: 5cb22573-a318-4682-bc82-0a81c9dbdcbe
-
 ms.date: 12/05/2018
 ms.keywords: IUIAnimationTransition interface [Windows Animation],IsDurationKnown method, IUIAnimationTransition.IsDurationKnown, IUIAnimationTransition::IsDurationKnown, IsDurationKnown, IsDurationKnown method [Windows Animation], IsDurationKnown method [Windows Animation],IUIAnimationTransition interface, uianimation.iuianimationtransition_isdurationknown, uianimation/IUIAnimationTransition::IsDurationKnown
 ms.topic: method
-f1_keywords: 
- - "uianimation/IUIAnimationTransition.IsDurationKnown"
+f1_keywords:
+- uianimation/IUIAnimationTransition.IsDurationKnown
 dev_langs:
- - c++
+- c++
 req.header: uianimation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: UIAnimation.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAnimation.dll
+- UIAnimation.dll
 api_name:
- - IUIAnimationTransition.IsDurationKnown
+- IUIAnimationTransition.IsDurationKnown
 targetos: Windows
 req.typenames: 
 req.redist: 

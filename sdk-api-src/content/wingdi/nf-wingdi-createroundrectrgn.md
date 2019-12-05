@@ -1,19 +1,17 @@
 ---
 UID: NF:wingdi.CreateRoundRectRgn
 title: CreateRoundRectRgn function (wingdi.h)
-
 description: The CreateRoundRectRgn function creates a rectangular region with rounded corners.
 old-location: gdi\createroundrectrgn.htm
 tech.root: gdi
 ms.assetid: 16f387e1-b00c-4755-8b21-1ee0f25bc46b
-
 ms.date: 12/05/2018
 ms.keywords: CreateRoundRectRgn, CreateRoundRectRgn function [Windows GDI], _win32_CreateRoundRectRgn, gdi.createroundrectrgn, wingdi/CreateRoundRectRgn
 ms.topic: function
-f1_keywords: 
- - "wingdi/CreateRoundRectRgn"
+f1_keywords:
+- wingdi/CreateRoundRectRgn
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Gdi32.lib
 req.dll: Gdi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - gdi32.dll
- - ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
- - API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
- - GDI32Full.dll
- - GDI32Min.dll
+- gdi32.dll
+- ext-ms-win-rtcore-gdi-rgn-l1-1-1.dll
+- API-MS-Win-GDI-Internal-Uap-L1-1-0.dll
+- GDI32Full.dll
+- GDI32Min.dll
 api_name:
- - CreateRoundRectRgn
+- CreateRoundRectRgn
 targetos: Windows
 req.typenames: 
 req.redist: 

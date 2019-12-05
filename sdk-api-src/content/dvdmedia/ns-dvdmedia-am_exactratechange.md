@@ -1,19 +1,17 @@
 ---
 UID: NS:dvdmedia.__unnamed_struct_8
 title: AM_ExactRateChange (dvdmedia.h)
-
 description: The AM_ExactRateChange structure is not supported. Use AM_SimpleRateChange.
 old-location: dshow\am_exactratechange.htm
 tech.root: DirectShow
 ms.assetid: 07f23ea0-03ef-4650-9c3b-c7efb94e56a7
-
 ms.date: 12/05/2018
 ms.keywords: AM_ExactRateChange, AM_ExactRateChange structure [DirectShow], AM_ExactRateChangeStructure, dshow.am_exactratechange, dvdmedia/AM_ExactRateChange
 ms.topic: struct
-f1_keywords: 
- - "dvdmedia/AM_ExactRateChange"
+f1_keywords:
+- dvdmedia/AM_ExactRateChange
 dev_langs:
- - c++
+- c++
 req.header: dvdmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Dvdmedia.h
+- Dvdmedia.h
 api_name:
- - AM_ExactRateChange
+- AM_ExactRateChange
 targetos: Windows
 req.typenames: AM_ExactRateChange
 req.redist: 

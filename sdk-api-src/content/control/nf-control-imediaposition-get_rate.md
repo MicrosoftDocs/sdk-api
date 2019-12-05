@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IMediaPosition.get_Rate
 title: IMediaPosition::get_Rate (control.h)
-
 description: The get_Rate method retrieves the playback rate.
 old-location: dshow\imediaposition_get_rate.htm
 tech.root: DirectShow
 ms.assetid: dbe18522-6adc-4a55-b74a-db05f619d40a
-
 ms.date: 12/05/2018
 ms.keywords: IMediaPosition interface [DirectShow],get_Rate method, IMediaPosition.get_Rate, IMediaPosition::get_Rate, IMediaPositionget_Rate, control/IMediaPosition::get_Rate, dshow.imediaposition_get_rate, get_Rate, get_Rate method [DirectShow], get_Rate method [DirectShow],IMediaPosition interface
 ms.topic: method
-f1_keywords: 
- - "control/IMediaPosition.get_Rate"
+f1_keywords:
+- control/IMediaPosition.get_Rate
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMediaPosition.get_Rate
+- IMediaPosition.get_Rate
 targetos: Windows
 req.typenames: 
 req.redist: 

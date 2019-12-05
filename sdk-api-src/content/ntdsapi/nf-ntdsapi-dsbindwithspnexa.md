@@ -1,19 +1,17 @@
 ---
 UID: NF:ntdsapi.DsBindWithSpnExA
 title: DsBindWithSpnExA function (ntdsapi.h)
-
 description: Binds to a domain controller using the specified credentials and a specific service principal name (SPN) for mutual authentication.
 old-location: ad\dsbindwithspnex.htm
 tech.root: ad
 ms.assetid: 52a5761d-5244-4bc9-8c09-fd08f10a9fff
-
 ms.date: 12/05/2018
 ms.keywords: DsBindWithSpnEx, DsBindWithSpnEx function [Active Directory], DsBindWithSpnExA, DsBindWithSpnExW, NTDSAPI_BIND_ALLOW_DELEGATION, NTDSAPI_BIND_FIND_BINDING, NTDSAPI_BIND_FORCE_KERBEROS, ad.dsbindwithspnex, ntdsapi/DsBindWithSpnEx, ntdsapi/DsBindWithSpnExA, ntdsapi/DsBindWithSpnExW
 ms.topic: function
-f1_keywords: 
- - "ntdsapi/DsBindWithSpnEx"
+f1_keywords:
+- ntdsapi/DsBindWithSpnEx
 dev_langs:
- - c++
+- c++
 req.header: ntdsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ntdsapi.lib
 req.dll: Ntdsapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ntdsapi.dll
- - API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
- - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
- - KernelBase.dll
+- Ntdsapi.dll
+- API-MS-Win-Security-ActiveDirectoryClient-l1-1-0.dll
+- API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
+- KernelBase.dll
 api_name:
- - DsBindWithSpnEx
- - DsBindWithSpnExA
- - DsBindWithSpnExW
+- DsBindWithSpnEx
+- DsBindWithSpnExA
+- DsBindWithSpnExW
 targetos: Windows
 req.typenames: 
 req.redist: 

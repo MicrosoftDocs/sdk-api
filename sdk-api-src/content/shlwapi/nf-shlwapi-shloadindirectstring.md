@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.SHLoadIndirectString
 title: SHLoadIndirectString function (shlwapi.h)
-
 description: Extracts a specified text resource when given that resource in the form of an indirect string (a string that begins with the '@' symbol).
 old-location: shell\SHLoadIndirectString.htm
 tech.root: shell
 ms.assetid: f0265cd8-deb8-4bca-b379-39aff49c7df1
-
 ms.date: 12/05/2018
 ms.keywords: SHLoadIndirectString, SHLoadIndirectString function [Windows Shell], _shell_SHLoadIndirectString, shell.SHLoadIndirectString, shlwapi/SHLoadIndirectString
 ms.topic: function
-f1_keywords: 
- - "shlwapi/SHLoadIndirectString"
+f1_keywords:
+- shlwapi/SHLoadIndirectString
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 5.5 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-String-l2-1-1.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-Obsolete-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-String-l2-1-1.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - SHLoadIndirectString
+- SHLoadIndirectString
 targetos: Windows
 req.typenames: 
 req.redist: 

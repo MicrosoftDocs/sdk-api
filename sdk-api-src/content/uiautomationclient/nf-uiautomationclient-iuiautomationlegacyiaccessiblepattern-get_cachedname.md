@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationLegacyIAccessiblePattern.get_CachedName
 title: IUIAutomationLegacyIAccessiblePattern::get_CachedName (uiautomationclient.h)
-
 description: Retrieves the cached Microsoft Active Accessibility name property of the element.
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName.htm
 tech.root: WinAuto
 ms.assetid: eda01409-fdb7-4dc8-844a-699120db8771
-
 ms.date: 12/05/2018
 ms.keywords: CachedName property [Windows Accessibility], CachedName property [Windows Accessibility],IUIAutomationLegacyIAccessiblePattern interface, IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility],CachedName property, IUIAutomationLegacyIAccessiblePattern.CachedName, IUIAutomationLegacyIAccessiblePattern.get_CachedName, IUIAutomationLegacyIAccessiblePattern::CachedName, IUIAutomationLegacyIAccessiblePattern::get_CachedName, get_CachedName, uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::CachedName, uiautomationclient/IUIAutomationLegacyIAccessiblePattern::get_CachedName, winauto.uiauto_IUIAutomationLegacyIAccessiblePattern_CachedName
 ms.topic: method
-f1_keywords: 
- - "uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedName"
+f1_keywords:
+- uiautomationclient/IUIAutomationLegacyIAccessiblePattern.CachedName
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern.CachedName
- - IUIAutomationLegacyIAccessiblePattern.get_CachedName
+- IUIAutomationLegacyIAccessiblePattern.CachedName
+- IUIAutomationLegacyIAccessiblePattern.get_CachedName
 targetos: Windows
 req.typenames: 
 req.redist: 

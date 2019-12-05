@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.MFDeserializePresentationDescriptor
 title: MFDeserializePresentationDescriptor function (mfidl.h)
-
 description: Deserializes a presentation descriptor from a byte array.
 old-location: mf\mfdeserializepresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb
-
 ms.date: 12/05/2018
 ms.keywords: 4f567b86-bce2-49fe-9d43-d1dfa57a86cb, MFDeserializePresentationDescriptor, MFDeserializePresentationDescriptor function [Media Foundation], mf.mfdeserializepresentationdescriptor, mfidl/MFDeserializePresentationDescriptor
 ms.topic: function
-f1_keywords: 
- - "mfidl/MFDeserializePresentationDescriptor"
+f1_keywords:
+- mfidl/MFDeserializePresentationDescriptor
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Mfplat.lib
 req.dll: Mfplat.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - mfplat.dll
+- mfplat.dll
 api_name:
- - MFDeserializePresentationDescriptor
+- MFDeserializePresentationDescriptor
 targetos: Windows
 req.typenames: 
 req.redist: 

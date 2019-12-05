@@ -1,19 +1,17 @@
 ---
 UID: NF:mfidl.IMFTopology.AddNode
 title: IMFTopology::AddNode (mfidl.h)
-
 description: Adds a node to the topology.
 old-location: mf\imftopology_addnode.htm
 tech.root: medfound
 ms.assetid: 5e519524-f5c5-4d4d-922f-166f9e616631
-
 ms.date: 12/05/2018
 ms.keywords: 5e519524-f5c5-4d4d-922f-166f9e616631, AddNode, AddNode method [Media Foundation], AddNode method [Media Foundation],IMFTopology interface, IMFTopology interface [Media Foundation],AddNode method, IMFTopology.AddNode, IMFTopology::AddNode, mf.imftopology_addnode, mfidl/IMFTopology::AddNode
 ms.topic: method
-f1_keywords: 
- - "mfidl/IMFTopology.AddNode"
+f1_keywords:
+- mfidl/IMFTopology.AddNode
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTopology.AddNode
+- IMFTopology.AddNode
 targetos: Windows
 req.typenames: 
 req.redist: 

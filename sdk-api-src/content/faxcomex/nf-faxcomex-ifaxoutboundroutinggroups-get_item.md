@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingGroups.get_Item
 title: IFaxOutboundRoutingGroups::get_Item (faxcomex.h)
-
 description: The IFaxOutboundRoutingGroups::get_Item method returns a IFaxOutboundRoutingGroup interface from the collection.
 old-location: fax\_mfax_faxoutboundroutinggroups_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8l9p_cpp.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxOutboundRoutingGroups interface [Fax Service],get_Item method, IFaxOutboundRoutingGroups.get_Item, IFaxOutboundRoutingGroups::get_Item, _mfax_faxoutboundroutinggroups.item_cpp, fax._mfax_faxoutboundroutinggroups_item_cpp, faxcomex/IFaxOutboundRoutingGroups::get_Item, get_Item, get_Item method [Fax Service], get_Item method [Fax Service],IFaxOutboundRoutingGroups interface
 ms.topic: method
-f1_keywords: 
- - "faxcomex/IFaxOutboundRoutingGroups.get_Item"
+f1_keywords:
+- faxcomex/IFaxOutboundRoutingGroups.get_Item
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingGroups.get_Item
+- IFaxOutboundRoutingGroups.get_Item
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
 title: ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView (d3d12.h)
-
 description: Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootconstantbufferview.htm
 tech.root: direct3d12
 ms.assetid: 59F6E33A-9BD8-4ED3-8CA7-235E2A0C2686
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList interface,SetGraphicsRootConstantBufferView method, ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView, ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView, SetGraphicsRootConstantBufferView method, SetGraphicsRootConstantBufferView method,ID3D12GraphicsCommandList interface, d3d12/ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView, direct3d12.id3d12graphicscommandlist_setgraphicsrootconstantbufferview
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3d12.lib
 req.dll: D3d12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d12.dll
+- d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
+- ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
 targetos: Windows
 req.typenames: 
 req.redist: 

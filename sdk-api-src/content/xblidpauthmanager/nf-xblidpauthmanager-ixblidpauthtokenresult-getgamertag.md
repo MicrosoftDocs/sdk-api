@@ -1,19 +1,17 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetGamertag
 title: IXblIdpAuthTokenResult::GetGamertag (xblidpauthmanager.h)
-
 description: Reserved for Microsoft use.
 old-location: xblidp\ixblidpauthtokenresult_getgamertag.htm
 tech.root: xblidp
 ms.assetid: 6357735A-C5B3-49CA-9E9C-A443A7D40929
-
 ms.date: 12/05/2018
 ms.keywords: GetGamertag, GetGamertag method, GetGamertag method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetGamertag method, IXblIdpAuthTokenResult.GetGamertag, IXblIdpAuthTokenResult::GetGamertag, xblidp.ixblidpauthtokenresult_getgamertag, xblidpauthmanager/IXblIdpAuthTokenResult::GetGamertag
 ms.topic: method
-f1_keywords: 
- - "xblidpauthmanager/IXblIdpAuthTokenResult.GetGamertag"
+f1_keywords:
+- xblidpauthmanager/IXblIdpAuthTokenResult.GetGamertag
 dev_langs:
- - c++
+- c++
 req.header: xblidpauthmanager.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XblIdpAuthManager.h
+- XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthTokenResult.GetGamertag
+- IXblIdpAuthTokenResult.GetGamertag
 targetos: Windows
 req.typenames: 
 req.redist: 

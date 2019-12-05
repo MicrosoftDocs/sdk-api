@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WPUCloseEvent
 title: WPUCloseEvent function (ws2spi.h)
-
 description: The WPUCloseEvent function closes an open event object handle.
 old-location: winsock\wpucloseevent_2.htm
 tech.root: WinSock
 ms.assetid: d8c6133b-e5a7-4936-a796-0930bb95fd0c
-
 ms.date: 12/05/2018
 ms.keywords: WPUCloseEvent, WPUCloseEvent function [Winsock], _win32_wpucloseevent_2, winsock.wpucloseevent_2, ws2spi/WPUCloseEvent
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WPUCloseEvent"
+f1_keywords:
+- ws2spi/WPUCloseEvent
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - Ws2spi.h
+- Ws2spi.h
 api_name:
- - WPUCloseEvent
+- WPUCloseEvent
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.ReportIScsiSendTargetPortalsW
 title: ReportIScsiSendTargetPortalsW function (iscsidsc.h)
-
 description: ReportIscsiSendTargetPortals function retrieves a list of target portals that the iSCSI initiator service uses to perform automatic discovery with SendTarget requests.
 old-location: iscsidisc\reportiscsisendtargetportals.htm
 tech.root: iSCSIDisc
 ms.assetid: f082acc3-98d6-4758-aded-cb83e150e6d1
-
 ms.date: 12/05/2018
 ms.keywords: ReportIScsiSendTargetPortalsW, ReportIscsiSendTargetPortals, ReportIscsiSendTargetPortals function [iSCSI Discovery Library API], ReportIscsiSendTargetPortalsA, ReportIscsiSendTargetPortalsW, iscsidisc.reportiscsisendtargetportals, iscsidsc/ReportIscsiSendTargetPortals, iscsidsc/ReportIscsiSendTargetPortalsA, iscsidsc/ReportIscsiSendTargetPortalsW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/ReportIscsiSendTargetPortals"
+f1_keywords:
+- iscsidsc/ReportIscsiSendTargetPortals
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - ReportIscsiSendTargetPortals
- - ReportIscsiSendTargetPortalsA
- - ReportIscsiSendTargetPortalsW
+- ReportIscsiSendTargetPortals
+- ReportIscsiSendTargetPortalsA
+- ReportIscsiSendTargetPortalsW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capCaptureAbort
 title: capCaptureAbort macro (vfw.h)
-
 description: The capCaptureAbort macro stops the capture operation. You can use this macro or explictly send the WM_CAP_ABORT message.
 old-location: multimedia\capcaptureabort.htm
 tech.root: Multimedia
 ms.assetid: a1c17695-ee91-4f76-a2be-a6e512903c8f
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capCaptureAbort, capCaptureAbort, capCaptureAbort macro [Windows Multimedia], multimedia.capcaptureabort, vfw/capCaptureAbort"
+ms.keywords: _win32_capCaptureAbort, capCaptureAbort, capCaptureAbort macro [Windows Multimedia], multimedia.capcaptureabort, vfw/capCaptureAbort
 ms.topic: macro
-f1_keywords: 
- - "vfw/capCaptureAbort"
+f1_keywords:
+- vfw/capCaptureAbort
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capCaptureAbort
+- capCaptureAbort
 targetos: Windows
 req.typenames: 
 req.redist: 

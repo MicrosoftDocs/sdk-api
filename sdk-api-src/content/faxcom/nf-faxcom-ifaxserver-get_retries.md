@@ -1,19 +1,17 @@
 ---
 UID: NF:faxcom.IFaxServer.get_Retries
 title: IFaxServer::get_Retries (faxcom.h)
-
 description: Sets or retrieves the Retries property for a FaxServer object. The Retries property is a value that represents the number of times the fax server attempts to retransmit an outgoing fax when the initial transmission fails.
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_get_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3veb.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxServer interface [Fax Service],Retries property, IFaxServer.Retries, IFaxServer.get_Retries, IFaxServer.put_Retries, IFaxServer::Retries, IFaxServer::get_Retries, IFaxServer::put_Retries, Retries property [Fax Service], Retries property [Fax Service],IFaxServer interface, _mfax_ifaxserver_get_retries, fax._mfax_ifaxserver_client_mfax_ifaxserver_get_retries_cpp, fax._mfax_ifaxserver_get_retries, faxcom/IFaxServer::Retries, faxcom/IFaxServer::get_Retries, faxcom/IFaxServer::put_Retries, get_Retries
 ms.topic: method
-f1_keywords: 
- - "faxcom/IFaxServer.Retries"
+f1_keywords:
+- faxcom/IFaxServer.Retries
 dev_langs:
- - c++
+- c++
 req.header: faxcom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib:
 req.dll: Faxcom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Faxcom.dll
+- Faxcom.dll
 api_name:
- - IFaxServer.Retries
- - IFaxServer.get_Retries
- - IFaxServer.put_Retries
- - IFaxServer.get_Retries
- - IFaxServer.put_Retries
+- IFaxServer.Retries
+- IFaxServer.get_Retries
+- IFaxServer.put_Retries
+- IFaxServer.get_Retries
+- IFaxServer.put_Retries
 targetos: Windows
 req.typenames: 
 req.redist: 

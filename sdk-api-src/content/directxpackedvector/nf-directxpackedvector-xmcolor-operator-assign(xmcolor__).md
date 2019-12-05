@@ -1,19 +1,17 @@
 ---
 UID: NF:directxpackedvector.XMCOLOR.operator-assign(XMCOLOR &&)
 title: XMCOLOR::operator-assign(XMCOLOR &&) (directxpackedvector.h)
-
 description: This operator assigns the vector component data from one instance of XMCOLOR to the current instance of XMCOLOR.
 old-location: dxmath\xmcolor_operator_eq_1.htm
 tech.root: dxmath
 ms.assetid: 3ad704a1-8244-4c35-9dc6-0b4058c71caa
-
 ms.date: 05/06/2019
 ms.keywords: XMCOLOR structure [DirectX Math Support APIs],operator = method, XMCOLOR.operator =(const XMCOLOR&), XMCOLOR.operator-assign(XMCOLOR &&), XMCOLOR.operator=, XMCOLOR::operator-assign(XMCOLOR &&), XMCOLOR::operator=, dxmath.xmcolor_operator_eq_1, operator = method [DirectX Math Support APIs], operator = method [DirectX Math Support APIs],XMCOLOR structure, operator=
 ms.topic: method
-f1_keywords: 
- - "directxpackedvector/XMCOLOR.operator ="
+f1_keywords:
+- directxpackedvector/XMCOLOR.operator =
 dev_langs:
- - c++
+- c++
 req.header: directxpackedvector.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectXPackedVector.h
+- DirectXPackedVector.h
 api_name:
- - XMCOLOR.operator =
+- XMCOLOR.operator =
 targetos: Windows
 req.typenames: 
 req.redist: 

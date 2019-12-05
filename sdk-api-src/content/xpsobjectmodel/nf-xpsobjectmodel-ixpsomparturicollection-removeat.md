@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartUriCollection.RemoveAt
 title: IXpsOMPartUriCollection::RemoveAt (xpsobjectmodel.h)
-
 description: Removes and releases an IOpcPartUri interface pointer from a specified location in the collection.
 old-location: xps\ixpsomparturicollection_removeat.htm
 tech.root: printdocs
 ms.assetid: db5e7595-eba0-454f-8fb3-f129ab537886
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMPartUriCollection interface [XPS Documents and Packaging],RemoveAt method, IXpsOMPartUriCollection.RemoveAt, IXpsOMPartUriCollection::RemoveAt, RemoveAt, RemoveAt method [XPS Documents and Packaging], RemoveAt method [XPS Documents and Packaging],IXpsOMPartUriCollection interface, xps.ixpsomparturicollection_removeat, xpsobjectmodel/IXpsOMPartUriCollection::RemoveAt
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMPartUriCollection.RemoveAt"
+f1_keywords:
+- xpsobjectmodel/IXpsOMPartUriCollection.RemoveAt
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMPartUriCollection.RemoveAt
+- IXpsOMPartUriCollection.RemoveAt
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIAttendee.get_RemoteName
 title: IRDPSRAPIAttendee::get_RemoteName (rdpencomapi.h)
-
 description: The name of the remote client. This is usually the attendee's friendly name.
 old-location: rdp\irdpsrapiattendee_remotename.htm
 tech.root: rdp
 ms.assetid: 69861a6d-3dc5-4871-8e99-0d46d2896dcc
-
 ms.date: 12/05/2018
 ms.keywords: IRDPSRAPIAttendee interface [RDP],RemoteName property, IRDPSRAPIAttendee.RemoteName, IRDPSRAPIAttendee.get_RemoteName, IRDPSRAPIAttendee::RemoteName, IRDPSRAPIAttendee::get_RemoteName, RDPSRAPIAttendee object [RDP],RemoteName property, RemoteName property [RDP], RemoteName property [RDP],IRDPSRAPIAttendee interface, RemoteName property [RDP],RDPSRAPIAttendee object, get_RemoteName, rdp.irdpsrapiattendee_remotename, rdpencomapi/IRDPSRAPIAttendee::RemoteName, rdpencomapi/IRDPSRAPIAttendee::get_RemoteName
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIAttendee.RemoteName"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIAttendee.RemoteName
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee.RemoteName
- - IRDPSRAPIAttendee.get_RemoteName
- - RDPSRAPIAttendee.RemoteName
+- IRDPSRAPIAttendee.RemoteName
+- IRDPSRAPIAttendee.get_RemoteName
+- RDPSRAPIAttendee.RemoteName
 targetos: Windows
 req.typenames: 
 req.redist: 

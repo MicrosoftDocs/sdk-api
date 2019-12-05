@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.GetThemeColor
 title: GetThemeColor function (uxtheme.h)
-
 description: Retrieves the value of a color property.
 old-location: controls\GetThemeColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemecolor.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetThemeColor, GetThemeColor function [Windows Controls], controls.GetThemeColor, controls.inet_GetThemeColor, inet_GetThemeColor, inet_GetThemeColor_cpp, uxtheme/GetThemeColor
 ms.topic: function
-f1_keywords: 
- - "uxtheme/GetThemeColor"
+f1_keywords:
+- uxtheme/GetThemeColor
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: UxTheme.lib
 req.dll: UxTheme.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - UxTheme.dll
- - Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
- - xamlpalwp.dll
- - ext-ms-win-uxtheme-themes-l1-1-1.dll
+- UxTheme.dll
+- Ext-MS-Win-UXTheme-Themes-l1-1-0.dll
+- xamlpalwp.dll
+- ext-ms-win-uxtheme-themes-l1-1-1.dll
 api_name:
- - GetThemeColor
+- GetThemeColor
 targetos: Windows
 req.typenames: 
 req.redist: 

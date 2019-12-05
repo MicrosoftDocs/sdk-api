@@ -1,19 +1,17 @@
 ---
 UID: NF:devicetopology.IDeviceSpecificProperty.GetType
 title: IDeviceSpecificProperty::GetType (devicetopology.h)
-
 description: The GetType method gets the data type of the device-specific property value.
 old-location: coreaudio\idevicespecificproperty_gettype.htm
 tech.root: CoreAudio
 ms.assetid: 07d32eea-e80a-4f25-b963-3f667e56a811
-
 ms.date: 12/05/2018
 ms.keywords: GetType, GetType method [Core Audio], GetType method [Core Audio],IDeviceSpecificProperty interface, IDeviceSpecificProperty interface [Core Audio],GetType method, IDeviceSpecificProperty.GetType, IDeviceSpecificProperty::GetType, IDeviceSpecificPropertyGetType, coreaudio.idevicespecificproperty_gettype, devicetopology/IDeviceSpecificProperty::GetType
 ms.topic: method
-f1_keywords: 
- - "devicetopology/IDeviceSpecificProperty.GetType"
+f1_keywords:
+- devicetopology/IDeviceSpecificProperty.GetType
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IDeviceSpecificProperty.GetType
+- IDeviceSpecificProperty.GetType
 targetos: Windows
 req.typenames: 
 req.redist: 

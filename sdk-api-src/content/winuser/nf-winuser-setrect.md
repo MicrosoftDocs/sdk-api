@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.SetRect
 title: SetRect function (winuser.h)
-
 description: The SetRect function sets the coordinates of the specified rectangle. This is equivalent to assigning the left, top, right, and bottom arguments to the appropriate members of the RECT structure.
 old-location: gdi\setrect.htm
 tech.root: gdi
 ms.assetid: 346c573b-eaf7-4ca6-bd36-18074f7eccf5
-
 ms.date: 12/05/2018
 ms.keywords: SetRect, SetRect function [Windows GDI], _win32_SetRect, gdi.setrect, winuser/SetRect
 ms.topic: function
-f1_keywords: 
- - "winuser/SetRect"
+f1_keywords:
+- winuser/SetRect
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - API-MS-Win-NTUser-Rectangle-l1-1-0.dll
- - minuser.dll
- - Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
+- user32.dll
+- API-MS-Win-NTUser-Rectangle-l1-1-0.dll
+- minuser.dll
+- Ext-MS-Win-NTUser-Rectangle-Ext-l1-1-0.dll
 api_name:
- - SetRect
+- SetRect
 targetos: Windows
 req.typenames: 
 req.redist: 

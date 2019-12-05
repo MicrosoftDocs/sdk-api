@@ -1,19 +1,17 @@
 ---
 UID: NF:wdspxe.PxeProviderQueryIndex
 title: PxeProviderQueryIndex function (wdspxe.h)
-
 description: Returns the index of the specified provider in the list of registered providers.
 old-location: wds\pxeproviderqueryindex.htm
 tech.root: wds
 ms.assetid: 0b28c075-7f2e-4149-b851-21614773e942
-
 ms.date: 12/05/2018
 ms.keywords: PxeProviderQueryIndex, PxeProviderQueryIndex function [Windows Deployment Services], wds.pxeproviderqueryindex, wdspxe/PxeProviderQueryIndex
 ms.topic: function
-f1_keywords: 
- - "wdspxe/PxeProviderQueryIndex"
+f1_keywords:
+- wdspxe/PxeProviderQueryIndex
 dev_langs:
- - c++
+- c++
 req.header: wdspxe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WdsPxe.lib
 req.dll: WdsPxe.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WdsPxe.dll
+- WdsPxe.dll
 api_name:
- - PxeProviderQueryIndex
+- PxeProviderQueryIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

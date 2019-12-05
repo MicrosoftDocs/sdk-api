@@ -1,19 +1,17 @@
 ---
 UID: NE:resapi._CLUSTER_ROLE_STATE
 title: CLUSTER_ROLE_STATE (resapi.h)
-
 description: Defines the potential return values for the ResUtilGetClusterRoleState function.
 old-location: mscs\cluster_role_state.htm
 tech.root: MsCS
 ms.assetid: 21424e31-4eba-4ff9-95c1-0908827936df
-
 ms.date: 12/05/2018
 ms.keywords: CLUSTER_ROLE_STATE, CLUSTER_ROLE_STATE enumeration [Failover Cluster], ClusterRoleClustered, ClusterRoleUnclustered, ClusterRoleUnknown, mscs.cluster_role_state, resapi/CLUSTER_ROLE_STATE, resapi/ClusterRoleClustered, resapi/ClusterRoleUnclustered, resapi/ClusterRoleUnknown
 ms.topic: enum
-f1_keywords: 
- - "resapi/CLUSTER_ROLE_STATE"
+f1_keywords:
+- resapi/CLUSTER_ROLE_STATE
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - CLUSTER_ROLE_STATE
+- CLUSTER_ROLE_STATE
 targetos: Windows
 req.typenames: CLUSTER_ROLE_STATE
 req.redist: 

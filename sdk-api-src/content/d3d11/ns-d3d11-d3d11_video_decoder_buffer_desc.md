@@ -1,19 +1,17 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_DECODER_BUFFER_DESC
 title: D3D11_VIDEO_DECODER_BUFFER_DESC (d3d11.h)
-
 description: Describes a compressed buffer for decoding.
 old-location: mf\d3d11_video_decoder_buffer_desc.htm
 tech.root: medfound
 ms.assetid: B7F10FD2-79D1-483F-A95A-4CA7BAC7434F
-
 ms.date: 12/05/2018
 ms.keywords: D3D11_VIDEO_DECODER_BUFFER_DESC, D3D11_VIDEO_DECODER_BUFFER_DESC structure [Media Foundation], d3d11/D3D11_VIDEO_DECODER_BUFFER_DESC, mf.d3d11_video_decoder_buffer_desc
 ms.topic: struct
-f1_keywords: 
- - "d3d11/D3D11_VIDEO_DECODER_BUFFER_DESC"
+f1_keywords:
+- d3d11/D3D11_VIDEO_DECODER_BUFFER_DESC
 dev_langs:
- - c++
+- c++
 req.header: d3d11.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d11.h
+- d3d11.h
 api_name:
- - D3D11_VIDEO_DECODER_BUFFER_DESC
+- D3D11_VIDEO_DECODER_BUFFER_DESC
 targetos: Windows
 req.typenames: D3D11_VIDEO_DECODER_BUFFER_DESC
 req.redist: 

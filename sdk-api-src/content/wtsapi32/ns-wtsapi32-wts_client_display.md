@@ -1,19 +1,17 @@
 ---
 UID: NS:wtsapi32._WTS_CLIENT_DISPLAY
 title: WTS_CLIENT_DISPLAY (wtsapi32.h)
-
 description: Contains information about the display of a Remote Desktop Connection (RDC) client.
 old-location: termserv\wts_client_display_str.htm
 tech.root: TermServ
 ms.assetid: 0d5e0a9d-23b0-4302-ade3-eb9fbd7f787d
-
 ms.date: 12/05/2018
-ms.keywords: "*PWTS_CLIENT_DISPLAY, 1, 16, 2, 24, 32, 4, 8, PWTS_CLIENT_DISPLAY, PWTS_CLIENT_DISPLAY structure pointer [Remote Desktop Services], WTS_CLIENT_DISPLAY, WTS_CLIENT_DISPLAY structure [Remote Desktop Services], _win32_wts_client_display_str, termserv.wts_client_display_str, wtsapi32/PWTS_CLIENT_DISPLAY, wtsapi32/WTS_CLIENT_DISPLAY"
+ms.keywords: '*PWTS_CLIENT_DISPLAY, 1, 16, 2, 24, 32, 4, 8, PWTS_CLIENT_DISPLAY, PWTS_CLIENT_DISPLAY structure pointer [Remote Desktop Services], WTS_CLIENT_DISPLAY, WTS_CLIENT_DISPLAY structure [Remote Desktop Services], _win32_wts_client_display_str, termserv.wts_client_display_str, wtsapi32/PWTS_CLIENT_DISPLAY, wtsapi32/WTS_CLIENT_DISPLAY'
 ms.topic: struct
-f1_keywords: 
- - "wtsapi32/WTS_CLIENT_DISPLAY"
+f1_keywords:
+- wtsapi32/WTS_CLIENT_DISPLAY
 dev_langs:
- - c++
+- c++
 req.header: wtsapi32.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wtsapi32.h
+- Wtsapi32.h
 api_name:
- - WTS_CLIENT_DISPLAY
+- WTS_CLIENT_DISPLAY
 targetos: Windows
 req.typenames: WTS_CLIENT_DISPLAY, *PWTS_CLIENT_DISPLAY
 req.redist: 

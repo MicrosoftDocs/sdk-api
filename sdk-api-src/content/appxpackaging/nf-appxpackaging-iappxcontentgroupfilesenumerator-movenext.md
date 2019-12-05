@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupFilesEnumerator.MoveNext
 title: IAppxContentGroupFilesEnumerator::MoveNext (appxpackaging.h)
-
 description: Advances the position of the enumerator to the next file.
 old-location: appxpkg\iappxcontentgroupfilesenumerator__movenext.htm
 tech.root: appxpkg
 ms.assetid: 39E27BFE-2383-4AB1-B83E-79573D87AAD6
-
 ms.date: 12/05/2018
 ms.keywords: IAppxContentGroupFilesEnumerator interface [App packaging and management],MoveNext method, IAppxContentGroupFilesEnumerator.MoveNext, IAppxContentGroupFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxContentGroupFilesEnumerator interface, appxpackaging/IAppxContentGroupFilesEnumerator::MoveNext, appxpkg.iappxcontentgroupfilesenumerator__movenext
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxContentGroupFilesEnumerator.MoveNext"
+f1_keywords:
+- appxpackaging/IAppxContentGroupFilesEnumerator.MoveNext
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxContentGroupFilesEnumerator.MoveNext
+- IAppxContentGroupFilesEnumerator.MoveNext
 targetos: Windows
 req.typenames: 
 req.redist: 

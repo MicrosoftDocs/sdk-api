@@ -1,19 +1,17 @@
 ---
 UID: NF:certview.IEnumCERTVIEWATTRIBUTE.Next
 title: IEnumCERTVIEWATTRIBUTE::Next (certview.h)
-
 description: Moves to the next attribute in the attribute-enumeration sequence.
 old-location: security\ienumcertviewattribute_next.htm
 tech.root: SecCrypto
 ms.assetid: 2903ccda-e06d-4690-accf-79bc73d8569f
-
 ms.date: 12/05/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Next method, IEnumCERTVIEWATTRIBUTE.Next, IEnumCERTVIEWATTRIBUTE::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWATTRIBUTE interface, _certsrv_ienumcertviewattribute_next, certview/IEnumCERTVIEWATTRIBUTE::Next, security.ienumcertviewattribute_next
 ms.topic: method
-f1_keywords: 
- - "certview/IEnumCERTVIEWATTRIBUTE.Next"
+f1_keywords:
+- certview/IEnumCERTVIEWATTRIBUTE.Next
 dev_langs:
- - c++
+- c++
 req.header: certview.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - IEnumCERTVIEWATTRIBUTE.Next
- - IEnumCERTVIEWATTRIBUTE.Next
+- IEnumCERTVIEWATTRIBUTE.Next
+- IEnumCERTVIEWATTRIBUTE.Next
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.DWordPtrAdd
 title: DWordPtrAdd function (intsafe.h)
-
 description: Adds two values of type DWORD_PTR.
 old-location: shell\DWordPtrAdd.htm
 tech.root: shell
 ms.assetid: b7d2b04b-6ef7-45a5-a26c-b52c0a848d5a
-
 ms.date: 12/05/2018
 ms.keywords: DWordPtrAdd, DWordPtrAdd function [Windows Shell], _shell_DWordPtrAdd, intsafe/DWordPtrAdd, shell.DWordPtrAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/DWordPtrAdd"
+f1_keywords:
+- intsafe/DWordPtrAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: None
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - None
+- None
 api_name:
- - DWordPtrAdd
+- DWordPtrAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

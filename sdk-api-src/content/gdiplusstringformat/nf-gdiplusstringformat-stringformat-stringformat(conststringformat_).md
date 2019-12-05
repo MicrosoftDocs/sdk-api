@@ -1,19 +1,17 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.StringFormat(const StringFormat &)
 title: StringFormat::StringFormat(const StringFormat &) (gdiplusstringformat.h)
-
 description: Creates a StringFormat object from another StringFormat object.
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors\stringformat_50format.htm
-
 ms.date: 12/05/2018
 ms.keywords: StringFormat, StringFormat class [GDI+],StringFormat constructor, StringFormat constructor [GDI+], StringFormat constructor [GDI+],StringFormat class, StringFormat.StringFormat, StringFormat.StringFormat(const StringFormat &), StringFormat.StringFormat(const StringFormat*), StringFormat::StringFormat, StringFormat::StringFormat(const StringFormat &), _gdiplus_CLASS_StringFormat_StringFormat_format_, gdiplus._gdiplus_CLASS_StringFormat_StringFormat_format_
 ms.topic: method
-f1_keywords: 
- - "gdiplusstringformat/StringFormat.StringFormat"
+f1_keywords:
+- gdiplusstringformat/StringFormat.StringFormat
 dev_langs:
- - c++
+- c++
 req.header: gdiplusstringformat.h
 req.include-header: Gdiplus.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Gdiplus.lib
 req.dll: Gdiplus.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gdiplus.dll
+- Gdiplus.dll
 api_name:
- - StringFormat.StringFormat
+- StringFormat.StringFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

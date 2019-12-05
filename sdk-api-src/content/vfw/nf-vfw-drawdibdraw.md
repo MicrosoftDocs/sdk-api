@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.DrawDibDraw
 title: DrawDibDraw function (vfw.h)
-
 description: The DrawDibDraw function draws a DIB to the screen.
 old-location: multimedia\drawdibdraw.htm
 tech.root: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4
-
 ms.date: 12/05/2018
 ms.keywords: DrawDibDraw, DrawDibDraw function [Windows Multimedia], _win32_DrawDibDraw, multimedia.drawdibdraw, vfw/DrawDibDraw
 ms.topic: function
-f1_keywords: 
- - "vfw/DrawDibDraw"
+f1_keywords:
+- vfw/DrawDibDraw
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Vfw32.lib
 req.dll: Msvfw32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Msvfw32.dll
+- Msvfw32.dll
 api_name:
- - DrawDibDraw
+- DrawDibDraw
 targetos: Windows
 req.typenames: 
 req.redist: 

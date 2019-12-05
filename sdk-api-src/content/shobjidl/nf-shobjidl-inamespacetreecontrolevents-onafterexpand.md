@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnAfterExpand
 title: INameSpaceTreeControlEvents::OnAfterExpand (shobjidl.h)
-
 description: Called after an IShellItem is expanded.
 old-location: shell\INameSpaceTreeControlEvents_OnAfterExpand.htm
 tech.root: shell
 ms.assetid: cdc43044-9d0a-4def-956a-f1031314d4cb
-
 ms.date: 12/05/2018
 ms.keywords: INameSpaceTreeControlEvents interface [Windows Shell],OnAfterExpand method, INameSpaceTreeControlEvents.OnAfterExpand, INameSpaceTreeControlEvents::OnAfterExpand, OnAfterExpand, OnAfterExpand method [Windows Shell], OnAfterExpand method [Windows Shell],INameSpaceTreeControlEvents interface, _shell_INameSpaceTreeControlEvents_OnAfterExpand, shell.INameSpaceTreeControlEvents_OnAfterExpand, shobjidl/INameSpaceTreeControlEvents::OnAfterExpand
 ms.topic: method
-f1_keywords: 
- - "shobjidl/INameSpaceTreeControlEvents.OnAfterExpand"
+f1_keywords:
+- shobjidl/INameSpaceTreeControlEvents.OnAfterExpand
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shobjidl.h
+- Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents.OnAfterExpand
+- INameSpaceTreeControlEvents.OnAfterExpand
 targetos: Windows
 req.typenames: 
 req.redist: 

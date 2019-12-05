@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzTask.AddPropertyItem
 title: IAzTask::AddPropertyItem (azroles.h)
-
 description: Adds the specified entity to the specified list.
 old-location: security\iaztask_addpropertyitem.htm
 tech.root: SecAuthZ
 ms.assetid: 50d8c1f2-11c3-41d8-b935-a8f296d2c18f
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AddPropertyItem, AddPropertyItem method [Security], AddPropertyItem method [Security],AzTask object, AddPropertyItem method [Security],IAzTask interface, AzTask object [Security],AddPropertyItem method, IAzTask interface [Security],AddPropertyItem method, IAzTask.AddPropertyItem, IAzTask::AddPropertyItem, azroles/IAzTask::AddPropertyItem, security.iaztask_addpropertyitem
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzTask.AddPropertyItem"
+f1_keywords:
+- azroles/IAzTask.AddPropertyItem
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzTask.AddPropertyItem
- - AzTask.AddPropertyItem
+- IAzTask.AddPropertyItem
+- AzTask.AddPropertyItem
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

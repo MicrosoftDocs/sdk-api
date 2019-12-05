@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IPersistFile.Load
 title: IPersistFile::Load (objidl.h)
-
 description: Opens the specified file and initializes an object from the file contents.
 old-location: com\ipersistfile_load.htm
 tech.root: com
 ms.assetid: 8391aa5c-fe6e-4b03-9eef-7958f75910a5
-
 ms.date: 12/05/2018
 ms.keywords: IPersistFile interface [COM],Load method, IPersistFile.Load, IPersistFile::Load, Load, Load method [COM], Load method [COM],IPersistFile interface, _com_ipersistfile_load, com.ipersistfile_load, objidl/IPersistFile::Load
 ms.topic: method
-f1_keywords: 
- - "objidl/IPersistFile.Load"
+f1_keywords:
+- objidl/IPersistFile.Load
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IPersistFile.Load
+- IPersistFile.Load
 targetos: Windows
 req.typenames: 
 req.redist: 

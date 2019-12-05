@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole2.IsTaskpadViewPreferred
 title: IConsole2::IsTaskpadViewPreferred (mmc.h)
-
 description: The IConsole2::IsTaskpadViewPreferred method is obsolete. It always returns S_OK.
 old-location: mmc\iconsole2_istaskpadviewpreferred.htm
 tech.root: mmc
 ms.assetid: 9c9221db-54d5-4dd2-8577-27915b313046
-
 ms.date: 12/05/2018
 ms.keywords: IConsole2 interface [MMC],IsTaskpadViewPreferred method, IConsole2.IsTaskpadViewPreferred, IConsole2::IsTaskpadViewPreferred, IsTaskpadViewPreferred, IsTaskpadViewPreferred method [MMC], IsTaskpadViewPreferred method [MMC],IConsole2 interface, _slate_iconsole2_istaskpadviewpreferred, mmc.iconsole2_istaskpadviewpreferred, mmc/IConsole2::IsTaskpadViewPreferred
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole2.IsTaskpadViewPreferred"
+f1_keywords:
+- mmc/IConsole2.IsTaskpadViewPreferred
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole2.IsTaskpadViewPreferred
+- IConsole2.IsTaskpadViewPreferred
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:evr9.IEVRVideoStreamControl.GetStreamActiveState
 title: IEVRVideoStreamControl::GetStreamActiveState (evr9.h)
-
 description: IEVRVideoStreamControl::GetStreamActiveState method
 old-location: mf\ievrvideostreamcontrol_getstreamactivestate.htm
 tech.root: medfound
 ms.assetid: d4ca1da7-7768-45b4-a0be-f3ef86fed7b9
-
 ms.date: 12/05/2018
 ms.keywords: GetStreamActiveState, GetStreamActiveState method [Media Foundation], GetStreamActiveState method [Media Foundation],IEVRVideoStreamControl interface, IEVRVideoStreamControl interface [Media Foundation],GetStreamActiveState method, IEVRVideoStreamControl.GetStreamActiveState, IEVRVideoStreamControl::GetStreamActiveState, d4ca1da7-7768-45b4-a0be-f3ef86fed7b9, evr9/IEVRVideoStreamControl::GetStreamActiveState, mf.ievrvideostreamcontrol_getstreamactivestate
 ms.topic: method
-f1_keywords: 
- - "evr9/IEVRVideoStreamControl.GetStreamActiveState"
+f1_keywords:
+- evr9/IEVRVideoStreamControl.GetStreamActiveState
 dev_langs:
- - c++
+- c++
 req.header: evr9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - strmiids.lib
- - strmiids.dll
+- strmiids.lib
+- strmiids.dll
 api_name:
- - IEVRVideoStreamControl.GetStreamActiveState
+- IEVRVideoStreamControl.GetStreamActiveState
 targetos: Windows
 req.typenames: 
 req.redist: 

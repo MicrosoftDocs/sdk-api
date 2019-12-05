@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSSLCertificateManager
 title: IMFSSLCertificateManager (mfidl.h)
-
 description: Implemented by a client and called by Microsoft Media Foundation to get the client Secure Sockets Layer (SSL) certificate requested by the server.
 old-location: mf\imfsslcertificatemanager.htm
 tech.root: medfound
 ms.assetid: 62e4227d-6bc9-4011-acee-6278fe388830
-
 ms.date: 12/05/2018
 ms.keywords: IMFSSLCertificateManager, IMFSSLCertificateManager interface [Media Foundation], IMFSSLCertificateManager interface [Media Foundation],described, mf.imfsslcertificatemanager, mfidl/IMFSSLCertificateManager
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSSLCertificateManager"
+f1_keywords:
+- mfidl/IMFSSLCertificateManager
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfidl.h
+- mfidl.h
 api_name:
- - IMFSSLCertificateManager
+- IMFSSLCertificateManager
 targetos: Windows
 req.typenames: 
 req.redist: 

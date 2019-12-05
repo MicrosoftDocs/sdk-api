@@ -1,19 +1,17 @@
 ---
 UID: NS:coml2api.tagSTGOPTIONS
 title: STGOPTIONS (coml2api.h)
-
 description: Specifies features of the storage object, such as sector size, in the StgCreateStorageEx and StgOpenStorageEx functions.
 old-location: stg\stgoptions.htm
 tech.root: Stg
 ms.assetid: dff6e626-d0c8-4b7c-85c7-c5cb2481d810
-
 ms.date: 12/05/2018
 ms.keywords: STGOPTIONS, STGOPTIONS structure [Structured Storage], _stg_stgoptions, coml2api/STGOPTIONS, stg.stgoptions
 ms.topic: struct
-f1_keywords: 
- - "coml2api/STGOPTIONS"
+f1_keywords:
+- coml2api/STGOPTIONS
 dev_langs:
- - c++
+- c++
 req.header: coml2api.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - coml2api.h
+- coml2api.h
 api_name:
- - STGOPTIONS
+- STGOPTIONS
 targetos: Windows
 req.typenames: STGOPTIONS
 req.redist: 

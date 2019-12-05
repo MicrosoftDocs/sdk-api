@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptStringXtoCP
 title: ScriptStringXtoCP function (usp10.h)
-
 description: Converts an x coordinate to a character position.
 old-location: intl\scriptstringxtocp.htm
 tech.root: Intl
 ms.assetid: ae37f58a-cc9c-4414-a8ac-e70691e54c5e
-
 ms.date: 12/05/2018
 ms.keywords: ScriptStringXtoCP, ScriptStringXtoCP function [Internationalization for Windows Applications], _win32_ScriptStringXtoCP, intl.scriptstringxtocp, usp10/ScriptStringXtoCP
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptStringXtoCP"
+f1_keywords:
+- usp10/ScriptStringXtoCP
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptStringXtoCP
+- ScriptStringXtoCP
 targetos: Windows
 req.typenames: 
 req.redist: Internet Explorer 5 or later on Windows Me/98/95

@@ -1,19 +1,17 @@
 ---
 UID: NF:functiondiscoveryprovider.IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
 title: IFunctionDiscoveryProviderQuery::IsSubcategoryQuery (functiondiscoveryprovider.h)
-
 description: Determines whether a query is for function instances in a specific subcategory.
 old-location: ncd\ifunctiondiscoveryproviderquery_issubcategoryquery.htm
 tech.root: FunDisc
 ms.assetid: fa262e62-2e34-4881-915d-995d66fa6841
-
 ms.date: 12/05/2018
 ms.keywords: IFunctionDiscoveryProviderQuery interface,IsSubcategoryQuery method, IFunctionDiscoveryProviderQuery.IsSubcategoryQuery, IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, IsSubcategoryQuery, IsSubcategoryQuery method, IsSubcategoryQuery method,IFunctionDiscoveryProviderQuery interface, functiondiscoveryprovider/IFunctionDiscoveryProviderQuery::IsSubcategoryQuery, ncd.ifunctiondiscoveryproviderquery_issubcategoryquery
 ms.topic: method
-f1_keywords: 
- - "functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.IsSubcategoryQuery"
+f1_keywords:
+- functiondiscoveryprovider/IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
 dev_langs:
- - c++
+- c++
 req.header: functiondiscoveryprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - FunctionDiscoveryProvider.h
+- FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
+- IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
 targetos: Windows
 req.typenames: 
 req.redist: 

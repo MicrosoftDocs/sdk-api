@@ -1,19 +1,17 @@
 ---
 UID: NN:devicetopology.IAudioLoudness
 title: IAudioLoudness (devicetopology.h)
-
 description: The IAudioLoudness interface provides access to a &#0034;loudness&#0034; compensation control.
 old-location: coreaudio\iaudioloudness.htm
 tech.root: CoreAudio
 ms.assetid: c182d6ae-c55b-4e3b-9639-7c2f2f7d826d
-
 ms.date: 12/05/2018
 ms.keywords: IAudioLoudness, IAudioLoudness interface [Core Audio], IAudioLoudness interface [Core Audio],described, coreaudio.iaudioloudness, devicetopology/IAudioLoudness
 ms.topic: interface
-f1_keywords: 
- - "devicetopology/IAudioLoudness"
+f1_keywords:
+- devicetopology/IAudioLoudness
 dev_langs:
- - c++
+- c++
 req.header: devicetopology.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Devicetopology.h
+- Devicetopology.h
 api_name:
- - IAudioLoudness
+- IAudioLoudness
 targetos: Windows
 req.typenames: 
 req.redist: 

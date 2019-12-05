@@ -1,19 +1,17 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetString
 title: MI_OperationOptions_GetString function (mi.h)
-
 description: Gets a custom string option.
 old-location: wmi_v2\mi_operationoptions_getstring.htm
 tech.root: wmi_v2
 ms.assetid: 1d1b9650-10c3-4e06-a841-6706ecc5f32c
-
 ms.date: 12/05/2018
 ms.keywords: MI_OperationOptions_GetString, MI_OperationOptions_GetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetString, wmi_v2.mi_operationoptions_getstring
 ms.topic: function
 f1_keywords:
 - mi/MI_OperationOptions_GetString
 dev_langs:
- - c++
+- c++
 req.header: mi.h
 req.include-header: 
 req.target-type: Windows

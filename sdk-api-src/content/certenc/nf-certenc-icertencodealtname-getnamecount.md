@@ -1,19 +1,17 @@
 ---
 UID: NF:certenc.ICertEncodeAltName.GetNameCount
 title: ICertEncodeAltName::GetNameCount (certenc.h)
-
 description: Returns the number of names in the alternate name array.
 old-location: security\icertencodealtname_getnamecount.htm
 tech.root: SecCrypto
 ms.assetid: 3f5e5c5d-e21b-452b-837c-5b44daa884b8
-
 ms.date: 12/05/2018
 ms.keywords: CCertEncodeAltName object [Security],GetNameCount method, GetNameCount, GetNameCount method [Security], GetNameCount method [Security],CCertEncodeAltName object, GetNameCount method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetNameCount method, ICertEncodeAltName.GetNameCount, ICertEncodeAltName::GetNameCount, _certsrv_icertencodealtname_getnamecount, certenc/ICertEncodeAltName::GetNameCount, security.icertencodealtname_getnamecount
 ms.topic: method
-f1_keywords: 
- - "certenc/ICertEncodeAltName.GetNameCount"
+f1_keywords:
+- certenc/ICertEncodeAltName.GetNameCount
 dev_langs:
- - c++
+- c++
 req.header: certenc.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: Certenc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certenc.dll
+- Certenc.dll
 api_name:
- - ICertEncodeAltName.GetNameCount
- - CCertEncodeAltName.GetNameCount
+- ICertEncodeAltName.GetNameCount
+- CCertEncodeAltName.GetNameCount
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:shellapi._SHSTOCKICONINFO
 title: SHSTOCKICONINFO (shellapi.h)
-
 description: Receives information used to retrieve a stock Shell icon. This structure is used in a call SHGetStockIconInfo.
 old-location: shell\SHSTOCKICONINFO.htm
 tech.root: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28
-
 ms.date: 12/05/2018
 ms.keywords: SHSTOCKICONINFO, SHSTOCKICONINFO structure [Windows Shell], _SHSTOCKICONINFO, _SHSTOCKICONINFO structure [Windows Shell], _shell_SHSTOCKICONINFO, shell.SHSTOCKICONINFO, shellapi/SHSTOCKICONINFO
 ms.topic: struct
-f1_keywords: 
- - "shellapi/_SHSTOCKICONINFO"
+f1_keywords:
+- shellapi/_SHSTOCKICONINFO
 dev_langs:
- - c++
+- c++
 req.header: shellapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shellapi.h
+- Shellapi.h
 api_name:
- - _SHSTOCKICONINFO
+- _SHSTOCKICONINFO
 targetos: Windows
 req.typenames: SHSTOCKICONINFO
 req.redist: 

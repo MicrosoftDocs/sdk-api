@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Attendees
 title: IRDPSRAPIViewer::get_Attendees (rdpencomapi.h)
-
 description: Returns an object implementing the IRDPSRAPIAttendeeManager interface.
 old-location: rdp\irdpsrapiviewer_attendees.htm
 tech.root: rdp
 ms.assetid: 7d61577b-d8e3-49d9-ac61-cc7c35cdd87f
-
 ms.date: 12/05/2018
 ms.keywords: Attendees property [RDP], Attendees property [RDP],IRDPSRAPIViewer interface, Attendees property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],Attendees property, IRDPSRAPIViewer.Attendees, IRDPSRAPIViewer.get_Attendees, IRDPSRAPIViewer::Attendees, IRDPSRAPIViewer::get_Attendees, RDPViewer object [RDP],Attendees property, get_Attendees, rdp.irdpsrapiviewer_attendees, rdpencomapi/IRDPSRAPIViewer::Attendees, rdpencomapi/IRDPSRAPIViewer::get_Attendees
 ms.topic: method
-f1_keywords: 
- - "rdpencomapi/IRDPSRAPIViewer.Attendees"
+f1_keywords:
+- rdpencomapi/IRDPSRAPIViewer.Attendees
 dev_langs:
- - c++
+- c++
 req.header: rdpencomapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: RdpEncom.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - RdpEncom.dll
+- RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer.Attendees
- - IRDPSRAPIViewer.get_Attendees
- - RDPViewer.Attendees
+- IRDPSRAPIViewer.Attendees
+- IRDPSRAPIViewer.get_Attendees
+- RDPViewer.Attendees
 targetos: Windows
 req.typenames: 
 req.redist: 

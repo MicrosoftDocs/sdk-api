@@ -1,19 +1,17 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetOutputFormat
 title: IAMWstDecoder::GetOutputFormat (iwstdec.h)
-
 description: Downstream filters use the GetOutputFormat method to retrieve the size, bit depth, and other parameters of the output video.
 old-location: dshow\iamwstdecoder_getoutputformat.htm
 tech.root: DirectShow
 ms.assetid: 63ef7dbe-138b-442a-bf54-1f409c969418
-
 ms.date: 12/05/2018
 ms.keywords: GetOutputFormat, GetOutputFormat method [DirectShow], GetOutputFormat method [DirectShow],IAMWstDecoder interface, IAMWstDecoder interface [DirectShow],GetOutputFormat method, IAMWstDecoder.GetOutputFormat, IAMWstDecoder::GetOutputFormat, IAMWstDecoderGetOutputFormat, dshow.iamwstdecoder_getoutputformat, iwstdec/IAMWstDecoder::GetOutputFormat
 ms.topic: method
-f1_keywords: 
- - "iwstdec/IAMWstDecoder.GetOutputFormat"
+f1_keywords:
+- iwstdec/IAMWstDecoder.GetOutputFormat
 dev_langs:
- - c++
+- c++
 req.header: iwstdec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMWstDecoder.GetOutputFormat
+- IAMWstDecoder.GetOutputFormat
 targetos: Windows
 req.typenames: 
 req.redist: 

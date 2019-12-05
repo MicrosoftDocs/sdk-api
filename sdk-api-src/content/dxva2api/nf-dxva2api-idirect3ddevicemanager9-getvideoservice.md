@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.GetVideoService
 title: IDirect3DDeviceManager9::GetVideoService (dxva2api.h)
-
 description: Gets a DirectX Video Acceleration (DXVA) service interface.
 old-location: mf\idirect3ddevicemanager9_getvideoservice.htm
 tech.root: medfound
 ms.assetid: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10
-
 ms.date: 12/05/2018
 ms.keywords: 2e62a750-3017-4dd7-9fbc-e2c641f6cf10, GetVideoService, GetVideoService method [Media Foundation], GetVideoService method [Media Foundation],IDirect3DDeviceManager9 interface, IDirect3DDeviceManager9 interface [Media Foundation],GetVideoService method, IDirect3DDeviceManager9.GetVideoService, IDirect3DDeviceManager9::GetVideoService, dxva2api/IDirect3DDeviceManager9::GetVideoService, mf.idirect3ddevicemanager9_getvideoservice
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirect3DDeviceManager9.GetVideoService"
+f1_keywords:
+- dxva2api/IDirect3DDeviceManager9.GetVideoService
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.GetVideoService
+- IDirect3DDeviceManager9.GetVideoService
 targetos: Windows
 req.typenames: 
 req.redist: 

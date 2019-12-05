@@ -1,19 +1,17 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.get_TransmissionStarted
 title: IWdsTransportNamespace::get_TransmissionStarted (wdstptmgmt.h)
-
 description: Receives a value that indicates whether the server has started transmitting data under this namespace.
 old-location: wds\iwdstransportnamespace_transmissionstarted.htm
 tech.root: wds
 ms.assetid: abc395e5-aabe-478b-8232-48a107813da9
-
 ms.date: 12/05/2018
 ms.keywords: IWdsTransportNamespace interface [Windows Deployment Services],TransmissionStarted property, IWdsTransportNamespace.TransmissionStarted, IWdsTransportNamespace.get_TransmissionStarted, IWdsTransportNamespace::TransmissionStarted, IWdsTransportNamespace::get_TransmissionStarted, TransmissionStarted property [Windows Deployment Services], TransmissionStarted property [Windows Deployment Services],IWdsTransportNamespace interface, get_TransmissionStarted, wds.iwdstransportnamespace_transmissionstarted, wdstptmgmt/IWdsTransportNamespace::TransmissionStarted, wdstptmgmt/IWdsTransportNamespace::get_TransmissionStarted
 ms.topic: method
-f1_keywords: 
- - "wdstptmgmt/IWdsTransportNamespace.TransmissionStarted"
+f1_keywords:
+- wdstptmgmt/IWdsTransportNamespace.TransmissionStarted
 dev_langs:
- - c++
+- c++
 req.header: wdstptmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Wdstptmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wdstptmgmt.dll
+- Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace.TransmissionStarted
- - IWdsTransportNamespace.get_TransmissionStarted
+- IWdsTransportNamespace.TransmissionStarted
+- IWdsTransportNamespace.get_TransmissionStarted
 targetos: Windows
 req.typenames: 
 req.redist: 

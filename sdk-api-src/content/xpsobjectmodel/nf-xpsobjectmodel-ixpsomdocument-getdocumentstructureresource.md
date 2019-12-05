@@ -1,19 +1,17 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetDocumentStructureResource
 title: IXpsOMDocument::GetDocumentStructureResource (xpsobjectmodel.h)
-
 description: Gets a pointer to the IXpsOMDocumentStructureResource interface of the resource that contains structural information about the document.
 old-location: xps\ixpsomdocument_getdocumentstructureresource.htm
 tech.root: printdocs
 ms.assetid: 372aa8fd-efbb-4196-9137-4a9581c69f6c
-
 ms.date: 12/05/2018
 ms.keywords: GetDocumentStructureResource, GetDocumentStructureResource method [XPS Documents and Packaging], GetDocumentStructureResource method [XPS Documents and Packaging],IXpsOMDocument interface, IXpsOMDocument interface [XPS Documents and Packaging],GetDocumentStructureResource method, IXpsOMDocument.GetDocumentStructureResource, IXpsOMDocument::GetDocumentStructureResource, xps.ixpsomdocument_getdocumentstructureresource, xpsobjectmodel/IXpsOMDocument::GetDocumentStructureResource
 ms.topic: method
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMDocument.GetDocumentStructureResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMDocument.GetDocumentStructureResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMDocument.GetDocumentStructureResource
+- IXpsOMDocument.GetDocumentStructureResource
 targetos: Windows
 req.typenames: 
 req.redist: 

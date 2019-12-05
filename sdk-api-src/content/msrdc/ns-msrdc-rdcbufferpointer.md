@@ -1,19 +1,17 @@
 ---
 UID: NS:msrdc.__MIDL___MIDL_itf_msrdc_0000_0000_0005
 title: RdcBufferPointer (msrdc.h)
-
 description: Describes a buffer.
 old-location: rdc\rdcbufferpointer.htm
 tech.root: rdc
 ms.assetid: 1792e40b-c363-4732-9613-301c3e6e4da7
-
 ms.date: 12/05/2018
 ms.keywords: RdcBufferPointer, RdcBufferPointer structure [Remote Differential Compression], fs.rdcbufferpointer, msrdc/RdcBufferPointer, rdc.rdcbufferpointer
 ms.topic: struct
-f1_keywords: 
- - "msrdc/RdcBufferPointer"
+f1_keywords:
+- msrdc/RdcBufferPointer
 dev_langs:
- - c++
+- c++
 req.header: msrdc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - MsRdc.h
+- MsRdc.h
 api_name:
- - RdcBufferPointer
+- RdcBufferPointer
 targetos: Windows
 req.typenames: RdcBufferPointer
 req.redist: 

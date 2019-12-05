@@ -1,19 +1,17 @@
 ---
 UID: NF:mmc.IConsole.SelectScopeItem
 title: IConsole::SelectScopeItem (mmc.h)
-
 description: Selects the given scope item.
 old-location: mmc\iconsole_selectscopeitem.htm
 tech.root: mmc
 ms.assetid: ADE56DDF-C437-4BF3-A2EC-1E35EE7567F3
-
 ms.date: 12/05/2018
 ms.keywords: IConsole interface [MMC],SelectScopeItem method, IConsole.SelectScopeItem, IConsole::SelectScopeItem, SelectScopeItem, SelectScopeItem method [MMC], SelectScopeItem method [MMC],IConsole interface, mmc.iconsole_selectscopeitem, mmc/IConsole::SelectScopeItem
 ms.topic: method
-f1_keywords: 
- - "mmc/IConsole.SelectScopeItem"
+f1_keywords:
+- mmc/IConsole.SelectScopeItem
 dev_langs:
- - c++
+- c++
 req.header: mmc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Mmcndmgr.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Mmcndmgr.dll
+- Mmcndmgr.dll
 api_name:
- - IConsole.SelectScopeItem
+- IConsole.SelectScopeItem
 targetos: Windows
 req.typenames: 
 req.redist: 

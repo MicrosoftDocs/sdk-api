@@ -1,19 +1,17 @@
 ---
 UID: NS:netcon.tagNETCON_PROPERTIES
 title: NETCON_PROPERTIES (netcon.h)
-
 description: The NETCON_PROPERTIES structure stores values that describe the properties of a network connection.
 old-location: ics\netcon_properties.htm
 tech.root: ics
 ms.assetid: 5acda2b8-960f-41ef-9ff2-49787f4e1c0c
-
 ms.date: 12/05/2018
 ms.keywords: NETCON_PROPERTIES, NETCON_PROPERTIES structure [ICS/ICF], _ics_netcon_properties, ics.netcon_properties, netcon/NETCON_PROPERTIES
 ms.topic: struct
-f1_keywords: 
- - "netcon/NETCON_PROPERTIES"
+f1_keywords:
+- netcon/NETCON_PROPERTIES
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - NetCon.h
+- NetCon.h
 api_name:
- - NETCON_PROPERTIES
+- NETCON_PROPERTIES
 targetos: Windows
 req.typenames: NETCON_PROPERTIES
 req.redist: 

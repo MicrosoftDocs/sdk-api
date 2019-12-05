@@ -1,19 +1,17 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMethods
 title: IMetaDataImport::EnumMethods (rometadataapi.h)
-
 description: Enumerates MethodDef tokens representing methods of the specified type.
 old-location: winrt\imetadataimport_enummethods.htm
 tech.root: WinRT
 ms.assetid: 3b0424d8-a0e3-4241-b957-d944e018cb31
-
 ms.date: 12/05/2018
 ms.keywords: EnumMethods, EnumMethods method [Windows Runtime], EnumMethods method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumMethods method, IMetaDataImport.EnumMethods, IMetaDataImport::EnumMethods, rometadataapi/IMetaDataImport::EnumMethods, winrt.imetadataimport_enummethods
 ms.topic: method
-f1_keywords: 
- - "rometadataapi/IMetaDataImport.EnumMethods"
+f1_keywords:
+- rometadataapi/IMetaDataImport.EnumMethods
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataImport.EnumMethods
+- IMetaDataImport.EnumMethods
 targetos: Windows
 req.typenames: 
 req.redist: 

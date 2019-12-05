@@ -1,19 +1,17 @@
 ---
 UID: NS:clusapi.CLUSPROP_PARTITION_INFO_EX
 title: CLUSPROP_PARTITION_INFO_EX (clusapi.h)
-
 description: The CLUSPROP_PARTITION_INFO_EX structure contains information relevant to storage class resources.
 old-location: mscs\clusprop_partition_info_ex.htm
 tech.root: MsCS
 ms.assetid: b1343a04-b8bd-469a-a620-985eeb89401c
-
 ms.date: 12/05/2018
-ms.keywords: "*PCLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX structure [Failover Cluster], PCLUSPROP_PARTITION_INFO_EX, PCLUSPROP_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX, clusapi/PCLUSPROP_PARTITION_INFO_EX, mscs.clusprop_partition_info_ex"
+ms.keywords: '*PCLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX, CLUSPROP_PARTITION_INFO_EX structure [Failover Cluster], PCLUSPROP_PARTITION_INFO_EX, PCLUSPROP_PARTITION_INFO_EX structure pointer [Failover Cluster], clusapi/CLUSPROP_PARTITION_INFO_EX, clusapi/PCLUSPROP_PARTITION_INFO_EX, mscs.clusprop_partition_info_ex'
 ms.topic: struct
-f1_keywords: 
- - "clusapi/CLUSPROP_PARTITION_INFO_EX"
+f1_keywords:
+- clusapi/CLUSPROP_PARTITION_INFO_EX
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ClusAPI.h
+- ClusAPI.h
 api_name:
- - CLUSPROP_PARTITION_INFO_EX
+- CLUSPROP_PARTITION_INFO_EX
 targetos: Windows
 req.typenames: CLUSPROP_PARTITION_INFO_EX
 req.redist: 

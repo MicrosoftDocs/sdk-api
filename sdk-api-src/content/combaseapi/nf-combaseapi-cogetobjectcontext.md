@@ -1,19 +1,17 @@
 ---
 UID: NF:combaseapi.CoGetObjectContext
 title: CoGetObjectContext function (combaseapi.h)
-
 description: Returns the context for the current object.
 old-location: com\cogetobjectcontext.htm
 tech.root: com
 ms.assetid: 97a0c6c3-a011-44dc-b428-aabdad7d4364
-
 ms.date: 12/05/2018
 ms.keywords: CoGetObjectContext, CoGetObjectContext function [COM], _com_CoGetObjectContext, com.cogetobjectcontext, combaseapi/CoGetObjectContext
 ms.topic: function
-f1_keywords: 
- - "combaseapi/CoGetObjectContext"
+f1_keywords:
+- combaseapi/CoGetObjectContext
 dev_langs:
- - c++
+- c++
 req.header: combaseapi.h
 req.include-header: Objbase.h
 req.target-type: Windows
@@ -32,19 +30,19 @@ req.lib: Ole32.lib
 req.dll: Ole32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ole32.dll
- - API-MS-Win-Core-Com-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-Com-l1-1-1.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-0.dll
- - API-MS-Win-DownLevel-Ole32-l1-1-1.dll
+- Ole32.dll
+- API-MS-Win-Core-Com-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-Com-l1-1-1.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-0.dll
+- API-MS-Win-DownLevel-Ole32-l1-1-1.dll
 api_name:
- - CoGetObjectContext
+- CoGetObjectContext
 targetos: Windows
 req.typenames: 
 req.redist: 

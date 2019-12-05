@@ -1,19 +1,17 @@
 ---
 UID: NS:winddi._GAMMARAMP
 title: GAMMARAMP (winddi.h)
-
 description: The GAMMARAMP structure is used by DrvIcmSetDeviceGammaRamp to set the hardware gamma ramp of a particular display device.
 old-location: display\gammaramp.htm
 tech.root: display
 ms.assetid: cc082911-5089-4335-93d2-1405ca390741
-
 ms.date: 12/05/2018
-ms.keywords: "*PGAMMARAMP, GAMMARAMP, GAMMARAMP structure [Display Devices], PGAMMARAMP, PGAMMARAMP structure pointer [Display Devices], display.gammaramp, grstrcts_fdf8b6b9-dfc1-4679-b461-58488eb5d9b4.xml, winddi/GAMMARAMP, winddi/PGAMMARAMP"
+ms.keywords: '*PGAMMARAMP, GAMMARAMP, GAMMARAMP structure [Display Devices], PGAMMARAMP, PGAMMARAMP structure pointer [Display Devices], display.gammaramp, grstrcts_fdf8b6b9-dfc1-4679-b461-58488eb5d9b4.xml, winddi/GAMMARAMP, winddi/PGAMMARAMP'
 ms.topic: struct
-f1_keywords: 
- - "winddi/GAMMARAMP"
+f1_keywords:
+- winddi/GAMMARAMP
 dev_langs:
- - c++
+- c++
 req.header: winddi.h
 req.include-header: Winddi.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winddi.h
+- winddi.h
 api_name:
- - GAMMARAMP
+- GAMMARAMP
 targetos: Windows
 req.typenames: GAMMARAMP, *PGAMMARAMP
 req.redist: 

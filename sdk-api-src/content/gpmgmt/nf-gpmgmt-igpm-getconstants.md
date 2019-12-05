@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPM.GetConstants
 title: IGPM::GetConstants (gpmgmt.h)
-
 description: Creates and returns a GPMConstants object that allows you to retrieve the value of multiple Group Policy Management Console (GPMC) constants.
 old-location: gpmc\igpm_getconstants.htm
 tech.root: gpmc
 ms.assetid: ba271dbb-320f-409c-aff4-b7dde57f9062
-
 ms.date: 12/05/2018
 ms.keywords: GPM object [GPMC],GetConstants method, GetConstants, GetConstants method [GPMC], GetConstants method [GPMC],GPM object, GetConstants method [GPMC],IGPM interface, IGPM interface [GPMC],GetConstants method, IGPM.GetConstants, IGPM::GetConstants, _win32_igpm_getconstants, gpmc.igpm_getconstants, gpmgmt/IGPM::GetConstants
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPM.GetConstants"
+f1_keywords:
+- gpmgmt/IGPM.GetConstants
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPM.GetConstants
- - GPM.GetConstants
+- IGPM.GetConstants
+- GPM.GetConstants
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IDownloadResult.GetUpdateResult
 title: IDownloadResult::GetUpdateResult (wuapi.h)
-
 description: Returns an IUpdateDownloadResult interface that contains the download information for a specified update.
 old-location: wua\idownloadresult_getupdateresult.htm
 tech.root: Wua_Sdk
 ms.assetid: d95ce8ad-74d7-4144-9a4b-75d69d5a9442
-
 ms.date: 12/05/2018
 ms.keywords: GetUpdateResult, GetUpdateResult method [Windows Update Agent], GetUpdateResult method [Windows Update Agent],IDownloadResult interface, IDownloadResult interface [Windows Update Agent],GetUpdateResult method, IDownloadResult.GetUpdateResult, IDownloadResult::GetUpdateResult, wua.idownloadresult_getupdateresult, wuapi/IDownloadResult::GetUpdateResult
 ms.topic: method
-f1_keywords: 
- - "wuapi/IDownloadResult.GetUpdateResult"
+f1_keywords:
+- wuapi/IDownloadResult.GetUpdateResult
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IDownloadResult.GetUpdateResult
+- IDownloadResult.GetUpdateResult
 targetos: Windows
 req.typenames: 
 req.redist: 

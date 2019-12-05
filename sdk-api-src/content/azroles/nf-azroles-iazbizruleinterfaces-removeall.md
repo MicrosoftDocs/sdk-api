@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzBizRuleInterfaces.RemoveAll
 title: IAzBizRuleInterfaces::RemoveAll (azroles.h)
-
 description: Removes all interfaces from the list of interfaces that can be called by business rule (BizRule) scripts.
 old-location: security\iazbizruleinterfaces_removeall_method.htm
 tech.root: SecAuthZ
 ms.assetid: 05e0d7af-5b09-4112-9229-862197a9895b
-
 ms.date: 12/05/2018
 ms.keywords: IAzBizRuleInterfaces interface [Security],RemoveAll method, IAzBizRuleInterfaces.RemoveAll, IAzBizRuleInterfaces::RemoveAll, RemoveAll, RemoveAll method [Security], RemoveAll method [Security],IAzBizRuleInterfaces interface, azroles/IAzBizRuleInterfaces::RemoveAll, security.iazbizruleinterfaces_removeall_method
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzBizRuleInterfaces.RemoveAll"
+f1_keywords:
+- azroles/IAzBizRuleInterfaces.RemoveAll
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.h
+- Azroles.h
 api_name:
- - IAzBizRuleInterfaces.RemoveAll
+- IAzBizRuleInterfaces.RemoveAll
 targetos: Windows
 req.typenames: 
 req.redist: 

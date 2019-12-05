@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsdkidl.IWMCodecInfo2
 title: IWMCodecInfo2 (wmsdkidl.h)
-
 description: The IWMCodecInfo2 interface manages the retrieval of information about codecs. To access it, call QueryInterface on a profile manager object.
 old-location: wmformat\iwmcodecinfo2.htm
 tech.root: wmformat
 ms.assetid: 0cfb355e-af68-400d-aa64-57f17e7d936b
-
 ms.date: 12/05/2018
 ms.keywords: IWMCodecInfo2, IWMCodecInfo2 interface [windows Media Format], IWMCodecInfo2 interface [windows Media Format],described, IWMCodecInfo2Interface, wmformat.iwmcodecinfo2, wmsdkidl/IWMCodecInfo2
 ms.topic: interface
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo2"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo2
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsdkidl.h
+- wmsdkidl.h
 api_name:
- - IWMCodecInfo2
+- IWMCodecInfo2
 targetos: Windows
 req.typenames: 
 req.redist: 

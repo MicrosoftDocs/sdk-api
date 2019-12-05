@@ -1,19 +1,17 @@
 ---
 UID: NS:winuser.tagGESTURENOTIFYSTRUCT
 title: GESTURENOTIFYSTRUCT (winuser.h)
-
 description: When transmitted with WM_GESTURENOTIFY messages, passes information about a gesture.
 old-location: wintouch\gesturenotifystruct.htm
 tech.root: wintouch
 ms.assetid: e887c026-9300-4d20-8925-9939a664cd53
-
 ms.date: 12/05/2018
-ms.keywords: "*PGESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT structure [Windows Touch], PGESTURENOTIFYSTRUCT, PGESTURENOTIFYSTRUCT structure pointer [Windows Touch], tagGESTURENOTIFYSTRUCT, wintouch.gesturenotifystruct, winuser/GESTURENOTIFYSTRUCT, winuser/PGESTURENOTIFYSTRUCT"
+ms.keywords: '*PGESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT, GESTURENOTIFYSTRUCT structure [Windows Touch], PGESTURENOTIFYSTRUCT, PGESTURENOTIFYSTRUCT structure pointer [Windows Touch], tagGESTURENOTIFYSTRUCT, wintouch.gesturenotifystruct, winuser/GESTURENOTIFYSTRUCT, winuser/PGESTURENOTIFYSTRUCT'
 ms.topic: struct
-f1_keywords: 
- - "winuser/GESTURENOTIFYSTRUCT"
+f1_keywords:
+- winuser/GESTURENOTIFYSTRUCT
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - winuser.h
+- winuser.h
 api_name:
- - GESTURENOTIFYSTRUCT
+- GESTURENOTIFYSTRUCT
 targetos: Windows
 req.typenames: GESTURENOTIFYSTRUCT, *PGESTURENOTIFYSTRUCT
 req.redist: 

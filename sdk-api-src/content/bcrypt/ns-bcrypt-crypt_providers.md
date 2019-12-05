@@ -1,19 +1,17 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDERS
 title: CRYPT_PROVIDERS (bcrypt.h)
-
 description: Contains information about the registered CNG providers.
 old-location: security\crypt_providers.htm
 tech.root: SecCNG
 ms.assetid: aef0e173-d3df-466e-ac2a-c686cae5edc9
-
 ms.date: 12/05/2018
-ms.keywords: "*PCRYPT_PROVIDERS, CRYPT_PROVIDERS, CRYPT_PROVIDERS structure [Security], PCRYPT_PROVIDERS, PCRYPT_PROVIDERS structure pointer [Security], bcrypt/CRYPT_PROVIDERS, bcrypt/PCRYPT_PROVIDERS, security.crypt_providers"
+ms.keywords: '*PCRYPT_PROVIDERS, CRYPT_PROVIDERS, CRYPT_PROVIDERS structure [Security], PCRYPT_PROVIDERS, PCRYPT_PROVIDERS structure pointer [Security], bcrypt/CRYPT_PROVIDERS, bcrypt/PCRYPT_PROVIDERS, security.crypt_providers'
 ms.topic: struct
-f1_keywords: 
- - "bcrypt/CRYPT_PROVIDERS"
+f1_keywords:
+- bcrypt/CRYPT_PROVIDERS
 dev_langs:
- - c++
+- c++
 req.header: bcrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Bcrypt.h
+- Bcrypt.h
 api_name:
- - CRYPT_PROVIDERS
+- CRYPT_PROVIDERS
 targetos: Windows
 req.typenames: CRYPT_PROVIDERS, *PCRYPT_PROVIDERS
 req.redist: 

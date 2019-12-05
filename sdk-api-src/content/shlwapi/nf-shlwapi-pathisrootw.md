@@ -1,19 +1,17 @@
 ---
 UID: NF:shlwapi.PathIsRootW
 title: PathIsRootW function (shlwapi.h)
-
 description: Determines whether a path string refers to the root of a volume.
 old-location: shell\PathIsRoot.htm
 tech.root: shell
 ms.assetid: 8586df98-91c4-49a6-9b07-7dceb8a63431
-
 ms.date: 12/05/2018
 ms.keywords: PathIsRoot, PathIsRoot function [Windows Shell], PathIsRootA, PathIsRootW, _win32_PathIsRoot, shell.PathIsRoot, shlwapi/PathIsRoot, shlwapi/PathIsRootA, shlwapi/PathIsRootW
 ms.topic: function
-f1_keywords: 
- - "shlwapi/PathIsRoot"
+f1_keywords:
+- shlwapi/PathIsRoot
 dev_langs:
- - c++
+- c++
 req.header: shlwapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Shlwapi.lib
 req.dll: Shlwapi.dll (version 4.71 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Shlwapi.dll
- - API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
- - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
+- Shlwapi.dll
+- API-MS-Win-Core-shlwapi-legacy-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
+- API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathIsRoot
- - PathIsRootA
- - PathIsRootW
+- PathIsRoot
+- PathIsRootA
+- PathIsRootW
 targetos: Windows
 req.typenames: 
 req.redist: 

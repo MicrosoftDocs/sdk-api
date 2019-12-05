@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi._FOLLOW_FLAGS
 title: FOLLOW_FLAGS (searchapi.h)
-
 description: Used to help define behavior when crawling or indexing. These flags are used by the ISearchCrawlScopeManager::AddDefaultScopeRule and ISearchCrawlScopeManager::AddUserScopeRule methods.
 old-location: search\_search_FOLLOW_FLAGS.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\follow_flags.htm
-
 ms.date: 12/05/2018
 ms.keywords: FF_INDEXCOMPLEXURLS, FF_SUPPRESSINDEXING, FOLLOW_FLAGS, FOLLOW_FLAGS enumeration [search], _search_FOLLOW_FLAGS, search._search_FOLLOW_FLAGS, searchapi/FF_INDEXCOMPLEXURLS, searchapi/FF_SUPPRESSINDEXING, searchapi/FOLLOW_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "searchapi/FOLLOW_FLAGS"
+f1_keywords:
+- searchapi/FOLLOW_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - FOLLOW_FLAGS
+- FOLLOW_FLAGS
 targetos: Windows
 req.typenames: FOLLOW_FLAGS
 req.redist: 

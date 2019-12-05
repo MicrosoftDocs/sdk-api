@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetRangeExceptions
 title: ISyncKnowledge::GetRangeExceptions (winsync.h)
-
 description: Gets an object that can enumerate the IRangeException objects that are stored in the knowledge.
 old-location: winsync\isyncknowledge_getrangeexceptions.htm
 tech.root: winsync
 ms.assetid: 9dd945bf-a3e4-408a-bdfe-5163a7dbdc3f
-
 ms.date: 12/05/2018
 ms.keywords: GetRangeExceptions, GetRangeExceptions method [Windows Sync], GetRangeExceptions method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],GetRangeExceptions method, ISyncKnowledge.GetRangeExceptions, ISyncKnowledge::GetRangeExceptions, winsync.isyncknowledge_getrangeexceptions, winsync/ISyncKnowledge::GetRangeExceptions
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncKnowledge.GetRangeExceptions"
+f1_keywords:
+- winsync/ISyncKnowledge.GetRangeExceptions
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncKnowledge.GetRangeExceptions
+- ISyncKnowledge.GetRangeExceptions
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wabapi._WABIMPORTPARAM
 title: WABIMPORTPARAM (wabapi.h)
-
 description: Do not use. Structure passed to Import that gives information about importing .wab files.
 old-location: wab\_wab_WABIMPORTPARAM.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\wabimportparam.htm
-
 ms.date: 12/05/2018
-ms.keywords: "*LPWABIMPORTPARAM, LPWABIMPORTPARAM, LPWABIMPORTPARAM structure pointer [Windows Address Book], MAPI_DIALOG, WABIMPORTPARAM, WABIMPORTPARAM structure [Windows Address Book], _wab_WABIMPORTPARAM, wab._wab_WABIMPORTPARAM, wabapi/LPWABIMPORTPARAM, wabapi/WABIMPORTPARAM"
+ms.keywords: '*LPWABIMPORTPARAM, LPWABIMPORTPARAM, LPWABIMPORTPARAM structure pointer [Windows Address Book], MAPI_DIALOG, WABIMPORTPARAM, WABIMPORTPARAM structure [Windows Address Book], _wab_WABIMPORTPARAM, wab._wab_WABIMPORTPARAM, wabapi/LPWABIMPORTPARAM, wabapi/WABIMPORTPARAM'
 ms.topic: struct
-f1_keywords: 
- - "wabapi/WABIMPORTPARAM"
+f1_keywords:
+- wabapi/WABIMPORTPARAM
 dev_langs:
- - c++
+- c++
 req.header: wabapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wabapi.h
+- Wabapi.h
 api_name:
- - WABIMPORTPARAM
+- WABIMPORTPARAM
 targetos: Windows
 req.typenames: WABIMPORTPARAM, *LPWABIMPORTPARAM
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_BLT
 title: PDD_SURFCB_BLT (ddrawint.h)
-
 description: The DdBlt callback function performs a bit-block transfer.
 old-location: display\ddblt.htm
 tech.root: display
 ms.assetid: 28e0c827-33f1-4b83-9f20-bbb66bc0e14a
-
 ms.date: 12/05/2018
 ms.keywords: DdBlt, DdBlt callback function [Display Devices], PDD_SURFCB_BLT, PDD_SURFCB_BLT callback, ddfncs_464b3f37-739d-45c9-955d-3103c6a21047.xml, ddrawint/DdBlt, display.ddblt
 ms.topic: callback
 f1_keywords:
 - ddrawint/DdBlt
 dev_langs:
- - c++
+- c++
 req.header: ddrawint.h
 req.include-header: Winddi.h
 req.target-type: Desktop

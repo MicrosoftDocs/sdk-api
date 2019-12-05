@@ -1,19 +1,17 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.GetCapabilitiesStringLength
 title: GetCapabilitiesStringLength function (lowlevelmonitorconfigurationapi.h)
-
 description: Retrieves the length of a monitor's capabilities string.
 old-location: monitor\getcapabilitiesstringlength.htm
 tech.root: Monitor
 ms.assetid: fe38e63d-b5b8-4b64-b7cb-9ff1c20a2e4a
-
 ms.date: 12/05/2018
 ms.keywords: GetCapabilitiesStringLength, GetCapabilitiesStringLength function [Monitor Configuration], lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength, monitor.getcapabilitiesstringlength
 ms.topic: function
-f1_keywords: 
- - "lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength"
+f1_keywords:
+- lowlevelmonitorconfigurationapi/GetCapabilitiesStringLength
 dev_langs:
- - c++
+- c++
 req.header: lowlevelmonitorconfigurationapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dxva2.lib
 req.dll: Dxva2.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - dxva2.dll
+- dxva2.dll
 api_name:
- - GetCapabilitiesStringLength
+- GetCapabilitiesStringLength
 targetos: Windows
 req.typenames: 
 req.redist: 

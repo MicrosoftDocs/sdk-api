@@ -1,19 +1,17 @@
 ---
 UID: NS:dsadmin.__unnamed_struct_0
 title: DSA_NEWOBJ_DISPINFO (dsadmin.h)
-
 description: Used with the IDsAdminNewObjExt::Initialize method to supply additional data about an Active Directory Domain Services object creation wizard.
 old-location: ad\dsa_newobj_dispinfo.htm
 tech.root: ad
 ms.assetid: 966e2093-6ebd-42a0-923d-17f0494a9d0c
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO structure [Active Directory], LPDSA_NEWOBJ_DISPINFO, LPDSA_NEWOBJ_DISPINFO structure pointer [Active Directory], ad.dsa_newobj_dispinfo, dsadmin/DSA_NEWOBJ_DISPINFO, dsadmin/LPDSA_NEWOBJ_DISPINFO"
+ms.keywords: '*LPDSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO, DSA_NEWOBJ_DISPINFO structure [Active Directory], LPDSA_NEWOBJ_DISPINFO, LPDSA_NEWOBJ_DISPINFO structure pointer [Active Directory], ad.dsa_newobj_dispinfo, dsadmin/DSA_NEWOBJ_DISPINFO, dsadmin/LPDSA_NEWOBJ_DISPINFO'
 ms.topic: struct
-f1_keywords: 
- - "dsadmin/DSA_NEWOBJ_DISPINFO"
+f1_keywords:
+- dsadmin/DSA_NEWOBJ_DISPINFO
 dev_langs:
- - c++
+- c++
 req.header: dsadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - DSAdmin.h
+- DSAdmin.h
 api_name:
- - DSA_NEWOBJ_DISPINFO
+- DSA_NEWOBJ_DISPINFO
 targetos: Windows
 req.typenames: DSA_NEWOBJ_DISPINFO, *LPDSA_NEWOBJ_DISPINFO
 req.redist: 

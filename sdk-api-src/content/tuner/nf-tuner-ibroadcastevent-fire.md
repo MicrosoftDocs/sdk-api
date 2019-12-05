@@ -1,19 +1,17 @@
 ---
 UID: NF:tuner.IBroadcastEvent.Fire
 title: IBroadcastEvent::Fire (tuner.h)
-
 description: The Fire method fires a broadcast event.
 old-location: mstv\ibroadcastevent_fire.htm
 tech.root: mstv
 ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274
-
 ms.date: 12/05/2018
 ms.keywords: Fire, Fire method [Microsoft TV Technologies], Fire method [Microsoft TV Technologies],IBroadcastEvent interface, IBroadcastEvent interface [Microsoft TV Technologies],Fire method, IBroadcastEvent.Fire, IBroadcastEvent::Fire, IBroadcastEventFire, mstv.ibroadcastevent_fire, tuner/IBroadcastEvent::Fire
 ms.topic: method
-f1_keywords: 
- - "tuner/IBroadcastEvent.Fire"
+f1_keywords:
+- tuner/IBroadcastEvent.Fire
 dev_langs:
- - c++
+- c++
 req.header: tuner.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - tuner.h
+- tuner.h
 api_name:
- - IBroadcastEvent.Fire
+- IBroadcastEvent.Fire
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetSize
 title: IDWriteBitmapRenderTarget::GetSize (dwrite.h)
-
 description: Gets the dimensions of the target bitmap.
 old-location: directwrite\IDWriteBitmapRenderTarget_GetSize.htm
 tech.root: DirectWrite
 ms.assetid: 1b73854c-674a-408a-8967-e72808ee296e
-
 ms.date: 12/05/2018
 ms.keywords: GetSize, GetSize method [Direct Write], GetSize method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetSize method, IDWriteBitmapRenderTarget.GetSize, IDWriteBitmapRenderTarget::GetSize, directwrite.IDWriteBitmapRenderTarget_GetSize, dwrite/IDWriteBitmapRenderTarget::GetSize
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteBitmapRenderTarget.GetSize"
+f1_keywords:
+- dwrite/IDWriteBitmapRenderTarget.GetSize
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget.GetSize
+- IDWriteBitmapRenderTarget.GetSize
 targetos: Windows
 req.typenames: 
 req.redist: 

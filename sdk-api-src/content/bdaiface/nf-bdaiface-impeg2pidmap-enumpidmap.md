@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IMPEG2PIDMap.EnumPIDMap
 title: IMPEG2PIDMap::EnumPIDMap (bdaiface.h)
-
 description: The EnumPIDMap method returns a collection of all the currently mapped PIDs on this pin.
 old-location: dshow\impeg2pidmap_enumpidmap.htm
 tech.root: DirectShow
 ms.assetid: 9e5dbc92-e072-4e59-b7b2-07ae39cb9d59
-
 ms.date: 12/05/2018
 ms.keywords: EnumPIDMap, EnumPIDMap method [DirectShow], EnumPIDMap method [DirectShow],IMPEG2PIDMap interface, IMPEG2PIDMap interface [DirectShow],EnumPIDMap method, IMPEG2PIDMap.EnumPIDMap, IMPEG2PIDMap::EnumPIDMap, IMPEG2PIDMapEnumPIDMap, bdaiface/IMPEG2PIDMap::EnumPIDMap, dshow.impeg2pidmap_enumpidmap
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IMPEG2PIDMap.EnumPIDMap"
+f1_keywords:
+- bdaiface/IMPEG2PIDMap.EnumPIDMap
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IMPEG2PIDMap.EnumPIDMap
+- IMPEG2PIDMap.EnumPIDMap
 targetos: Windows
 req.typenames: 
 req.redist: 

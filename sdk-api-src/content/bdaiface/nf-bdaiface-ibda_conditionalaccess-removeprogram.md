@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.RemoveProgram
 title: IBDA_ConditionalAccess::RemoveProgram (bdaiface.h)
-
 description: Currently not implemented.
 old-location: mstv\ibda_conditionalaccess_removeprogram.htm
 tech.root: mstv
 ms.assetid: bc0d14e8-f4bc-49fe-b63c-0521f5bb3dbb
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_ConditionalAccess interface [Microsoft TV Technologies],RemoveProgram method, IBDA_ConditionalAccess.RemoveProgram, IBDA_ConditionalAccess::RemoveProgram, IBDA_ConditionalAccessRemoveProgram, RemoveProgram, RemoveProgram method [Microsoft TV Technologies], RemoveProgram method [Microsoft TV Technologies],IBDA_ConditionalAccess interface, bdaiface/IBDA_ConditionalAccess::RemoveProgram, mstv.ibda_conditionalaccess_removeprogram
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_ConditionalAccess.RemoveProgram"
+f1_keywords:
+- bdaiface/IBDA_ConditionalAccess.RemoveProgram
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Bdaiface.h
+- Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess.RemoveProgram
+- IBDA_ConditionalAccess.RemoveProgram
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:accctrl._TRUSTEE_W
 title: TRUSTEE_W (accctrl.h)
-
 description: Identifies the user account, group account, or logon session to which an access control entry (ACE) applies.
 old-location: security\trustee.htm
 tech.root: SecAuthZ
 ms.assetid: 120e93eb-680f-4f86-879d-bc2de10d4641
-
 ms.date: 12/05/2018
 ms.keywords: '*PTRUSTEEW, *PTRUSTEE_W, PTRUSTEE, PTRUSTEE structure pointer [Security], TRUSTEE, TRUSTEE structure [Security], TRUSTEEW, TRUSTEE_, TRUSTEE_A, TRUSTEE_IS_NAME, TRUSTEE_IS_OBJECTS_AND_NAME, TRUSTEE_IS_OBJECTS_AND_SID, TRUSTEE_IS_SID, TRUSTEE_W, _win32_trustee_str, accctrl/PTRUSTEE, accctrl/TRUSTEE, accctrl/TRUSTEE_A, accctrl/TRUSTEE_W, security.trustee'
 ms.topic: struct
 f1_keywords:
 - accctrl/TRUSTEE
 dev_langs:
- - c++
+- c++
 req.header: accctrl.h
 req.include-header: 
 req.target-type: Windows

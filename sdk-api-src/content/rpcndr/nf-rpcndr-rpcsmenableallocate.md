@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcndr.RpcSmEnableAllocate
 title: RpcSmEnableAllocate function (rpcndr.h)
-
 description: The RpcSmEnableAllocate function establishes the stub memory&#8211;management environment.
 old-location: rpc\rpcsmenableallocate.htm
 tech.root: Rpc
 ms.assetid: a0b144fc-873e-4884-b842-ac0eea84487b
-
 ms.date: 12/05/2018
 ms.keywords: RpcSmEnableAllocate, RpcSmEnableAllocate function [RPC], _rpc_rpcsmenableallocate, rpc.rpcsmenableallocate, rpcndr/RpcSmEnableAllocate
 ms.topic: function
-f1_keywords: 
- - "rpcndr/RpcSmEnableAllocate"
+f1_keywords:
+- rpcndr/RpcSmEnableAllocate
 dev_langs:
- - c++
+- c++
 req.header: rpcndr.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcSmEnableAllocate
+- RpcSmEnableAllocate
 targetos: Windows
 req.typenames: 
 req.redist: 

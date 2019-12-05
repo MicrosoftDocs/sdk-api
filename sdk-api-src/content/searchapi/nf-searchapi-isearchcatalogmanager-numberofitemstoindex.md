@@ -1,19 +1,17 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.NumberOfItemsToIndex
 title: ISearchCatalogManager::NumberOfItemsToIndex (searchapi.h)
-
 description: Gets the number of items to be indexed within the catalog.
 old-location: search\_search_ISearchCatalogManager_NumberOfItemsToIndex.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\numberofitemstoindex.htm
-
 ms.date: 12/05/2018
 ms.keywords: ISearchCatalogManager interface [search],NumberOfItemsToIndex method, ISearchCatalogManager.NumberOfItemsToIndex, ISearchCatalogManager::NumberOfItemsToIndex, NumberOfItemsToIndex, NumberOfItemsToIndex method [search], NumberOfItemsToIndex method [search],ISearchCatalogManager interface, _search_ISearchCatalogManager_NumberOfItemsToIndex, search._search_ISearchCatalogManager_NumberOfItemsToIndex, searchapi/ISearchCatalogManager::NumberOfItemsToIndex
 ms.topic: method
-f1_keywords: 
- - "searchapi/ISearchCatalogManager.NumberOfItemsToIndex"
+f1_keywords:
+- searchapi/ISearchCatalogManager.NumberOfItemsToIndex
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - ISearchCatalogManager.NumberOfItemsToIndex
+- ISearchCatalogManager.NumberOfItemsToIndex
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

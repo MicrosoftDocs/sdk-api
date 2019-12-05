@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrAddA
 title: RpcNsGroupMbrAddA function (rpcnsi.h)
-
 description: The RpcNsGroupMbrAdd function adds an entry name to a group. If necessary, it creates the entry.
 old-location: rpc\rpcnsgroupmbradd.htm
 tech.root: Rpc
 ms.assetid: fa32b5e5-1a8a-44f4-aa38-81b024f4db51
-
 ms.date: 12/05/2018
 ms.keywords: RpcNsGroupMbrAdd, RpcNsGroupMbrAdd function [RPC], RpcNsGroupMbrAddA, RpcNsGroupMbrAddW, _rpc_rpcnsgroupmbradd, rpc.rpcnsgroupmbradd, rpcnsi/RpcNsGroupMbrAdd, rpcnsi/RpcNsGroupMbrAddA, rpcnsi/RpcNsGroupMbrAddW
 ms.topic: function
-f1_keywords: 
- - "rpcnsi/RpcNsGroupMbrAdd"
+f1_keywords:
+- rpcnsi/RpcNsGroupMbrAdd
 dev_langs:
- - c++
+- c++
 req.header: rpcnsi.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Rpcns4.lib
 req.dll: Rpcns4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcns4.dll
+- Rpcns4.dll
 api_name:
- - RpcNsGroupMbrAdd
- - RpcNsGroupMbrAddA
- - RpcNsGroupMbrAddW
+- RpcNsGroupMbrAdd
+- RpcNsGroupMbrAddA
+- RpcNsGroupMbrAddW
 targetos: Windows
 req.typenames: 
 req.redist: 

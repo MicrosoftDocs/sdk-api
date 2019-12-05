@@ -1,19 +1,17 @@
 ---
 UID: NF:commoncontrols.IImageList.GetIcon
 title: IImageList::GetIcon (commoncontrols.h)
-
 description: Creates an icon from an image and a mask in an image list.
 old-location: controls\IImageList_GetIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\geticon.htm
-
 ms.date: 12/05/2018
 ms.keywords: GetIcon, GetIcon method [Windows Controls], GetIcon method [Windows Controls],IImageList interface, IImageList interface [Windows Controls],GetIcon method, IImageList.GetIcon, IImageList::GetIcon, comctl_IImageList_GetIcon, comctl_IImageList_GetIcon_cpp, commoncontrols/IImageList::GetIcon, controls.IImageList_GetIcon, controls.comctl_IImageList_GetIcon
 ms.topic: method
-f1_keywords: 
- - "commoncontrols/IImageList.GetIcon"
+f1_keywords:
+- commoncontrols/IImageList.GetIcon
 dev_langs:
- - c++
+- c++
 req.header: commoncontrols.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Comctl32.dll (version 6.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Comctl32.dll
+- Comctl32.dll
 api_name:
- - IImageList.GetIcon
+- IImageList.GetIcon
 targetos: Windows
 req.typenames: 
 req.redist: 

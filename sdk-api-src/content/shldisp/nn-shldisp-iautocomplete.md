@@ -1,19 +1,17 @@
 ---
 UID: NN:shldisp.IAutoComplete
 title: IAutoComplete (shldisp.h)
-
 description: Exposed by the autocomplete object (CLSID_AutoComplete). This interface allows applications to initialize, enable, and disable the object.
 old-location: shell\IAutoComplete.htm
 tech.root: shell
 ms.assetid: bed6eb41-3086-4af7-8c75-651da9dba3b2
-
 ms.date: 12/05/2018
 ms.keywords: IAutoComplete, IAutoComplete interface [Windows Shell], IAutoComplete interface [Windows Shell],described, _win32_IAutoComplete, shell.IAutoComplete, shldisp/IAutoComplete
 ms.topic: interface
-f1_keywords: 
- - "shldisp/IAutoComplete"
+f1_keywords:
+- shldisp/IAutoComplete
 dev_langs:
- - c++
+- c++
 req.header: shldisp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IAutoComplete
+- IAutoComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

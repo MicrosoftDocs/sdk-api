@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsAdvancedDisk
 title: IVdsAdvancedDisk (vds.h)
-
 description: Creates and deletes partitions, and modifies partition attributes.
 old-location: base\ivdsadvanceddisk.htm
 tech.root: VDS
 ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37
-
 ms.date: 12/05/2018
 ms.keywords: IVdsAdvancedDisk, IVdsAdvancedDisk interface [VDS], IVdsAdvancedDisk interface [VDS],described, base.ivdsadvanceddisk, vds/IVdsAdvancedDisk
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsAdvancedDisk"
+f1_keywords:
+- vds/IVdsAdvancedDisk
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsAdvancedDisk
+- IVdsAdvancedDisk
 targetos: Windows
 req.typenames: 
 req.redist: 

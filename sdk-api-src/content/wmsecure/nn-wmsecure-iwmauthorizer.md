@@ -1,19 +1,17 @@
 ---
 UID: NN:wmsecure.IWMAuthorizer
 title: IWMAuthorizer (wmsecure.h)
-
 description: Provides access to certificates.
 old-location: wmformat\iwmauthorizer.htm
 tech.root: wmformat
 ms.assetid: eece7e36-7c3e-4bc4-9b5a-8142a062dbce
-
 ms.date: 12/05/2018
 ms.keywords: IWMAuthorizer, IWMAuthorizer interface [windows Media Format], IWMAuthorizer interface [windows Media Format],described, wmformat.iwmauthorizer, wmsecure/IWMAuthorizer
 ms.topic: interface
-f1_keywords: 
- - "wmsecure/IWMAuthorizer"
+f1_keywords:
+- wmsecure/IWMAuthorizer
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmsecure.h
+- wmsecure.h
 api_name:
- - IWMAuthorizer
+- IWMAuthorizer
 targetos: Windows
 req.typenames: 
 req.redist: 

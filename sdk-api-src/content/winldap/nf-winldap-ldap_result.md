@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_result
 title: ldap_result function (winldap.h)
-
 description: Obtains the result of an asynchronous operation.
 old-location: ldap\ldap_result.htm
 tech.root: ldap
 ms.assetid: e047fccc-a875-4360-be1b-3ac3dea15dd6
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_result, ldap.ldap__result, ldap.ldap_result, ldap_result, ldap_result function [LDAP], winldap/ldap_result"
+ms.keywords: _ldap_ldap_result, ldap.ldap__result, ldap.ldap_result, ldap_result, ldap_result function [LDAP], winldap/ldap_result
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_result"
+f1_keywords:
+- winldap/ldap_result
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_result
+- ldap_result
 targetos: Windows
 req.typenames: 
 req.redist: 

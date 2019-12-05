@@ -1,19 +1,17 @@
 ---
 UID: NS:l2cmn._L2_NOTIFICATION_DATA
 title: L2_NOTIFICATION_DATA (l2cmn.h)
-
 description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
 old-location: netvista\l2_notification_data.htm
 tech.root: NetVista
 ms.assetid: 4b67b6c0-2b73-4816-8e85-d6b00227a33c
-
 ms.date: 12/05/2018
 ms.keywords: '*PL2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA, L2_NOTIFICATION_DATA structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_56767c07-0bb6-4050-9c44-ed5fd4055ec2.xml, PL2_NOTIFICATION_DATA, PL2_NOTIFICATION_DATA structure pointer [Network Drivers Starting with Windows Vista], l2cmn/L2_NOTIFICATION_DATA, l2cmn/PL2_NOTIFICATION_DATA, netvista.l2_notification_data'
 ms.topic: struct
 f1_keywords:
 - l2cmn/L2_NOTIFICATION_DATA
 dev_langs:
- - c++
+- c++
 req.header: l2cmn.h
 req.include-header: Wlanihv.h
 req.target-type: Windows

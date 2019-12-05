@@ -1,19 +1,17 @@
 ---
 UID: NF:lzexpand.LZRead
 title: LZRead function (lzexpand.h)
-
 description: Reads (at most) the specified number of bytes from a file and copies them into a buffer.
 old-location: fs\lzread.htm
 tech.root: FileIO
 ms.assetid: 15c6829f-2e24-4299-a2fa-a5737ec73ba9
-
 ms.date: 12/05/2018
 ms.keywords: LZRead, LZRead function [Files], _win32_lzread, base.lzread, fs.lzread, lzexpand/LZRead
 ms.topic: function
-f1_keywords: 
- - "lzexpand/LZRead"
+f1_keywords:
+- lzexpand/LZRead
 dev_langs:
- - c++
+- c++
 req.header: lzexpand.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Lz32.lib
 req.dll: Lz32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Lz32.dll
+- Lz32.dll
 api_name:
- - LZRead
+- LZRead
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:netcon.INetSharingPortMappingProps
 title: INetSharingPortMappingProps (netcon.h)
-
 description: The INetSharingPortMappingProps interface provides methods that retrieve and set the properties of a network connection port mapping.
 old-location: ics\inetsharingportmappingprops.htm
 tech.root: ics
 ms.assetid: 9fa20653-5224-4588-89fb-8d4ce07b4235
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingPortMappingProps, INetSharingPortMappingProps interface [ICS/ICF], INetSharingPortMappingProps interface [ICS/ICF],described, _ics_inetsharingportmappingprops, ics.inetsharingportmappingprops, netcon/INetSharingPortMappingProps
 ms.topic: interface
-f1_keywords: 
- - "netcon/INetSharingPortMappingProps"
+f1_keywords:
+- netcon/INetSharingPortMappingProps
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingPortMappingProps
+- INetSharingPortMappingProps
 targetos: Windows
 req.typenames: 
 req.redist: 

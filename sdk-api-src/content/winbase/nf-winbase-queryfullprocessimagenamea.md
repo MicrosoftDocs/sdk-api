@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.QueryFullProcessImageNameA
 title: QueryFullProcessImageNameA function (winbase.h)
-
 description: Retrieves the full name of the executable image for the specified process.
 old-location: base\queryfullprocessimagename.htm
 tech.root: ProcThread
 ms.assetid: 49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
-
 ms.date: 12/05/2018
 ms.keywords: PROCESS_NAME_NATIVE, QueryFullProcessImageName, QueryFullProcessImageName function, QueryFullProcessImageNameA, QueryFullProcessImageNameW, base.queryfullprocessimagename, winbase/QueryFullProcessImageName, winbase/QueryFullProcessImageNameA, winbase/QueryFullProcessImageNameW
 ms.topic: function
-f1_keywords: 
- - "winbase/QueryFullProcessImageName"
+f1_keywords:
+- winbase/QueryFullProcessImageName
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-psapi-ansi-l1-1-0.dll
- - KernelBase.dll
- - API-MS-Win-Core-psapi-l1-1-0.dll
- - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
+- Kernel32.dll
+- API-MS-Win-Core-psapi-ansi-l1-1-0.dll
+- KernelBase.dll
+- API-MS-Win-Core-psapi-l1-1-0.dll
+- API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
 api_name:
- - QueryFullProcessImageName
- - QueryFullProcessImageNameA
- - QueryFullProcessImageNameW
+- QueryFullProcessImageName
+- QueryFullProcessImageNameA
+- QueryFullProcessImageNameW
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:cscobj.IEnumOfflineFilesSettings
 title: IEnumOfflineFilesSettings (cscobj.h)
-
 description: Enumerates setting objects associated with the Offline Files service.
 old-location: of\ienumofflinefilessettings.htm
 tech.root: offlinefiles
 ms.assetid: 2d0e45d5-5559-4c2e-9c20-4e5b84b5fbbd
-
 ms.date: 12/05/2018
 ms.keywords: IEnumOfflineFilesSettings, IEnumOfflineFilesSettings interface [Offline Files], IEnumOfflineFilesSettings interface [Offline Files],described, cscobj/IEnumOfflineFilesSettings, of.ienumofflinefilessettings
 ms.topic: interface
-f1_keywords: 
- - "cscobj/IEnumOfflineFilesSettings"
+f1_keywords:
+- cscobj/IEnumOfflineFilesSettings
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IEnumOfflineFilesSettings
+- IEnumOfflineFilesSettings
 targetos: Windows
 req.typenames: 
 req.redist: 

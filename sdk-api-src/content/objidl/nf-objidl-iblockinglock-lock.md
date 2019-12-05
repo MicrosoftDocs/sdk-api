@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IBlockingLock.Lock
 title: IBlockingLock::Lock (objidl.h)
-
 description: Requests a lock on a shared resource.
 old-location: com\iblockinglock_lock.htm
 tech.root: com
 ms.assetid: 35657795-2f18-4738-b0b5-8d03e0e4179d
-
 ms.date: 12/05/2018
 ms.keywords: IBlockingLock interface [COM],Lock method, IBlockingLock.Lock, IBlockingLock::Lock, Lock, Lock method [COM], Lock method [COM],IBlockingLock interface, _com_iblockinglock_lock, com.iblockinglock_lock, objidl/IBlockingLock::Lock
 ms.topic: method
-f1_keywords: 
- - "objidl/IBlockingLock.Lock"
+f1_keywords:
+- objidl/IBlockingLock.Lock
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IBlockingLock.Lock
+- IBlockingLock.Lock
 targetos: Windows
 req.typenames: 
 req.redist: 

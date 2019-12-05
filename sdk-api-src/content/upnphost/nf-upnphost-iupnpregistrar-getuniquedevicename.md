@@ -1,19 +1,17 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.GetUniqueDeviceName
 title: IUPnPRegistrar::GetUniqueDeviceName (upnphost.h)
-
 description: The GetUniqueDeviceName method retrieves the UDN for the specified device.
 old-location: upnp\iupnpregistrar_getuniquedevicename.htm
 tech.root: upnp
 ms.assetid: dcffee59-8b2f-443c-915f-6d823018eadd
-
 ms.date: 12/05/2018
 ms.keywords: GetUniqueDeviceName, GetUniqueDeviceName method [UPnP APIs], GetUniqueDeviceName method [UPnP APIs],IUPnPRegistrar interface, IUPnPRegistrar interface [UPnP APIs],GetUniqueDeviceName method, IUPnPRegistrar.GetUniqueDeviceName, IUPnPRegistrar::GetUniqueDeviceName, _upnp_iupnpregistrar_getuniquedevicename, upnp.iupnpregistrar_getuniquedevicename, upnphost/IUPnPRegistrar::GetUniqueDeviceName
 ms.topic: method
-f1_keywords: 
- - "upnphost/IUPnPRegistrar.GetUniqueDeviceName"
+f1_keywords:
+- upnphost/IUPnPRegistrar.GetUniqueDeviceName
 dev_langs:
- - c++
+- c++
 req.header: upnphost.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Upnphost.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Upnphost.dll
+- Upnphost.dll
 api_name:
- - IUPnPRegistrar.GetUniqueDeviceName
+- IUPnPRegistrar.GetUniqueDeviceName
 targetos: Windows
 req.typenames: 
 req.redist: 

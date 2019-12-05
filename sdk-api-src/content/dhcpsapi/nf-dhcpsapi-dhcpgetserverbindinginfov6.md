@@ -1,19 +1,17 @@
 ---
 UID: NF:dhcpsapi.DhcpGetServerBindingInfoV6
 title: DhcpGetServerBindingInfoV6 function (dhcpsapi.h)
-
 description: Retrieves an array of IPv6 interface binding information specific to the DHCPv6 server.
 old-location: dhcp\dhcpgetserverbindinginfov6.htm
 tech.root: DHCP
 ms.assetid: 1f33ac24-d547-4913-bc37-51627bb3af6a
-
 ms.date: 12/05/2018
 ms.keywords: DhcpGetServerBindingInfoV6, DhcpGetServerBindingInfoV6 function [DHCP], dhcp.dhcpgetserverbindinginfov6, dhcpsapi/DhcpGetServerBindingInfoV6
 ms.topic: function
 f1_keywords:
 - dhcpsapi/DhcpGetServerBindingInfoV6
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows

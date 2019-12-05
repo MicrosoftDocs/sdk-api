@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IFilterChain.StopChain
 title: IFilterChain::StopChain (strmif.h)
-
 description: The StopChain method switches all the filters in a filter chain into a stopped state.
 old-location: dshow\ifilterchain_stopchain.htm
 tech.root: DirectShow
 ms.assetid: 03821fdb-8374-4386-868b-9bf7b2d83562
-
 ms.date: 12/05/2018
 ms.keywords: IFilterChain interface [DirectShow],StopChain method, IFilterChain.StopChain, IFilterChain::StopChain, IFilterChainStopChain, StopChain, StopChain method [DirectShow], StopChain method [DirectShow],IFilterChain interface, dshow.ifilterchain_stopchain, strmif/IFilterChain::StopChain
 ms.topic: method
-f1_keywords: 
- - "strmif/IFilterChain.StopChain"
+f1_keywords:
+- strmif/IFilterChain.StopChain
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IFilterChain.StopChain
+- IFilterChain.StopChain
 targetos: Windows
 req.typenames: 
 req.redist: 

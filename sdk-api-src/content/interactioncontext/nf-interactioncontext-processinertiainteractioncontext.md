@@ -1,19 +1,17 @@
 ---
 UID: NF:interactioncontext.ProcessInertiaInteractionContext
 title: ProcessInertiaInteractionContext function (interactioncontext.h)
-
 description: Sends timer input to the Interaction Context object for inertia processing.
 old-location: input_intcontext\processinertiainteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: e1f18294-feb2-4340-8ed5-d76600c3d93a
-
 ms.date: 12/05/2018
 ms.keywords: ProcessInertiaInteractionContext, ProcessInertiaInteractionContext function, input_intcontext.processinertiainteractioncontext, interactioncontext.processinertiainteractioncontext, interactioncontext/ProcessInertiaInteractionContext
 ms.topic: function
-f1_keywords: 
- - "interactioncontext/ProcessInertiaInteractionContext"
+f1_keywords:
+- interactioncontext/ProcessInertiaInteractionContext
 dev_langs:
- - c++
+- c++
 req.header: interactioncontext.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Ninput.lib
 req.dll: Ninput.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ninput.dll
- - API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
- - IE_Shims.dll
+- ninput.dll
+- API-MS-Win-Input-IE-InteractionContext-l1-1-0.dll
+- IE_Shims.dll
 api_name:
- - ProcessInertiaInteractionContext
+- ProcessInertiaInteractionContext
 targetos: Windows
 req.typenames: 
 req.redist: 

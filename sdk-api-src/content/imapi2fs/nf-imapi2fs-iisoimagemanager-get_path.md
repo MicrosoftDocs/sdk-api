@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IIsoImageManager.get_Path
 title: IIsoImageManager::get_Path (imapi2fs.h)
-
 description: Retrives the logical path to an .iso image.
 old-location: imapi\iisoimagemanager_get_path.htm
 tech.root: imapi
 ms.assetid: 56166789-8eeb-4468-a85e-b35e665170d6
-
 ms.date: 12/05/2018
 ms.keywords: IIsoImageManager interface [IMAPI],get_Path method, IIsoImageManager.get_Path, IIsoImageManager::get_Path, get_Path, get_Path method [IMAPI], get_Path method [IMAPI],IIsoImageManager interface, imapi.iisoimagemanager_get_path, imapi2fs/IIsoImageManager::get_Path
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IIsoImageManager.get_Path"
+f1_keywords:
+- imapi2fs/IIsoImageManager.get_Path
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IIsoImageManager.get_Path
+- IIsoImageManager.get_Path
 targetos: Windows
 req.typenames: 
 req.redist: 

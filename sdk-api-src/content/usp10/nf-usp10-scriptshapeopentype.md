@@ -1,19 +1,17 @@
 ---
 UID: NF:usp10.ScriptShapeOpenType
 title: ScriptShapeOpenType function (usp10.h)
-
 description: Generates glyphs and visual attributes for a Unicode run with OpenType information. Each run consists of one call to this function.
 old-location: intl\scriptshapeopentype.htm
 tech.root: Intl
 ms.assetid: d2e062a6-2ec8-4057-b525-d1cd719dc736
-
 ms.date: 12/05/2018
 ms.keywords: ScriptShapeOpenType, ScriptShapeOpenType function [Internationalization for Windows Applications], _win32_ScriptShapeOpenType, intl.scriptshapeopentype, usp10/ScriptShapeOpenType
 ms.topic: function
-f1_keywords: 
- - "usp10/ScriptShapeOpenType"
+f1_keywords:
+- usp10/ScriptShapeOpenType
 dev_langs:
- - c++
+- c++
 req.header: usp10.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Usp10.lib
 req.dll: Usp10.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Usp10.dll
- - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
- - GDI32.dll
- - GDI32Full.dll
+- Usp10.dll
+- Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
+- GDI32.dll
+- GDI32Full.dll
 api_name:
- - ScriptShapeOpenType
+- ScriptShapeOpenType
 targetos: Windows
 req.typenames: 
 req.redist: Usp10.dll version 1.600 or greater on Windows XP

@@ -1,19 +1,17 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.SetProperty
 title: IAzApplicationGroup::SetProperty (azroles.h)
-
 description: Sets the specified value to the IAzApplicationGroup object property with the specified property ID.
 old-location: security\iazapplicationgroup_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: c1af01f2-bd86-4404-a281-2024777dafaa
-
 ms.date: 12/05/2018
 ms.keywords: AZ_PROP_DESCRIPTION, AZ_PROP_GROUP_LDAP_QUERY, AZ_PROP_GROUP_TYPE, AZ_PROP_NAME, AzApplicationGroup object [Security],SetProperty method, IAzApplicationGroup interface [Security],SetProperty method, IAzApplicationGroup.SetProperty, IAzApplicationGroup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzApplicationGroup object, SetProperty method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::SetProperty, security.iazapplicationgroup_setproperty
 ms.topic: method
-f1_keywords: 
- - "azroles/IAzApplicationGroup.SetProperty"
+f1_keywords:
+- azroles/IAzApplicationGroup.SetProperty
 dev_langs:
- - c++
+- c++
 req.header: azroles.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Azroles.lib
 req.dll: Azroles.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Azroles.dll
+- Azroles.dll
 api_name:
- - IAzApplicationGroup.SetProperty
- - AzApplicationGroup.SetProperty
+- IAzApplicationGroup.SetProperty
+- AzApplicationGroup.SetProperty
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

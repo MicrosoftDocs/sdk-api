@@ -1,19 +1,17 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceDataStream
 title: IPortableDeviceDataStream (portabledeviceapi.h)
-
 description: The IPortableDeviceDataStream interface exposes additional methods on an IStream that is used for data transfers.
 old-location: wpdsdk\iportabledevicedatastream.htm
 tech.root: wpd_sdk
 ms.assetid: d7bd955a-886f-4081-bfc3-cd2d7e2cfb24
-
 ms.date: 12/05/2018
 ms.keywords: IPortableDeviceDataStream, IPortableDeviceDataStream interface [Windows Portable Devices SDK], IPortableDeviceDataStream interface [Windows Portable Devices SDK],described, IPortableDeviceDataStreamInterface, portabledeviceapi/IPortableDeviceDataStream, wpdsdk.iportabledevicedatastream
 ms.topic: interface
-f1_keywords: 
- - "portabledeviceapi/IPortableDeviceDataStream"
+f1_keywords:
+- portabledeviceapi/IPortableDeviceDataStream
 dev_langs:
- - c++
+- c++
 req.header: portabledeviceapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PortableDeviceGUIDs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PortableDeviceGUIDs.lib
- - PortableDeviceGUIDs.dll
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceDataStream
+- IPortableDeviceDataStream
 targetos: Windows
 req.typenames: 
 req.redist: 

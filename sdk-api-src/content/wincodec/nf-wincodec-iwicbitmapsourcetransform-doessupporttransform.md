@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.DoesSupportTransform
 title: IWICBitmapSourceTransform::DoesSupportTransform (wincodec.h)
-
 description: Determines whether a specific transform option is supported natively by the implementation of the IWICBitmapSourceTransform interface.
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_doessupporttransform.htm
 tech.root: wic
 ms.assetid: 73f27e20-3245-42b3-8b83-29c3c969624f
-
 ms.date: 12/05/2018
 ms.keywords: DoesSupportTransform, DoesSupportTransform method [Windows Imaging Component], DoesSupportTransform method [Windows Imaging Component],IWICBitmapSourceTransform interface, IWICBitmapSourceTransform interface [Windows Imaging Component],DoesSupportTransform method, IWICBitmapSourceTransform.DoesSupportTransform, IWICBitmapSourceTransform::DoesSupportTransform, _wic_codec_iwicbitmapsourcetransform_doessupporttransform, wic._wic_codec_iwicbitmapsourcetransform_doessupporttransform, wincodec/IWICBitmapSourceTransform::DoesSupportTransform
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapSourceTransform.DoesSupportTransform"
+f1_keywords:
+- wincodec/IWICBitmapSourceTransform.DoesSupportTransform
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Windowscodecs.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.lib
- - Windowscodecs.dll
+- Windowscodecs.lib
+- Windowscodecs.dll
 api_name:
- - IWICBitmapSourceTransform.DoesSupportTransform
+- IWICBitmapSourceTransform.DoesSupportTransform
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.LoadLibraryFromKnownFolder
 title: IShellLibrary::LoadLibraryFromKnownFolder (shobjidl_core.h)
-
 description: Loads the library that is referenced by a KNOWNFOLDERID.
 old-location: shell\IShellLibrary_LoadLibraryFromKnownFolder.htm
 tech.root: shell
 ms.assetid: 3fc1147e-6338-4fec-b20d-db5eb1303fe1
-
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary interface [Windows Shell],LoadLibraryFromKnownFolder method, IShellLibrary.LoadLibraryFromKnownFolder, IShellLibrary::LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder, LoadLibraryFromKnownFolder method [Windows Shell], LoadLibraryFromKnownFolder method [Windows Shell],IShellLibrary interface, _shell_IShellLibrary_LoadLibraryFromKnownFolder, shell.IShellLibrary_LoadLibraryFromKnownFolder, shobjidl_core/IShellLibrary::LoadLibraryFromKnownFolder
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IShellLibrary.LoadLibraryFromKnownFolder"
+f1_keywords:
+- shobjidl_core/IShellLibrary.LoadLibraryFromKnownFolder
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary.LoadLibraryFromKnownFolder
+- IShellLibrary.LoadLibraryFromKnownFolder
 targetos: Windows
 req.typenames: 
 req.redist: 

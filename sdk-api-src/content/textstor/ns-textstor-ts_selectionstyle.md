@@ -1,19 +1,17 @@
 ---
 UID: NS:textstor.TS_SELECTIONSTYLE
 title: TS_SELECTIONSTYLE (textstor.h)
-
 description: The TS_SELECTIONSTYLE structure represents the style of a selection.
 old-location: tsf\ts_selectionstyle.htm
 tech.root: TSF
 ms.assetid: 20d0efc2-604f-4ec6-820d-0f87a6d011b0
-
 ms.date: 12/05/2018
 ms.keywords: TS_SELECTIONSTYLE, TS_SELECTIONSTYLE structure [Text Services Framework], _tsf_ts_selectionstyle_ref, textstor/TS_SELECTIONSTYLE, tsf.ts_selectionstyle
 ms.topic: struct
-f1_keywords: 
- - "textstor/TS_SELECTIONSTYLE"
+f1_keywords:
+- textstor/TS_SELECTIONSTYLE
 dev_langs:
- - c++
+- c++
 req.header: textstor.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Textstor.h
+- Textstor.h
 api_name:
- - TS_SELECTIONSTYLE
+- TS_SELECTIONSTYLE
 targetos: Windows
 req.typenames: TS_SELECTIONSTYLE
 req.redist: TSF 1.0 on Windows 2000 Professional

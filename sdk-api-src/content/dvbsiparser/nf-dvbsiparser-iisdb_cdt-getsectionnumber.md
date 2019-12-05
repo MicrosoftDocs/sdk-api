@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_CDT.GetSectionNumber
 title: IISDB_CDT::GetSectionNumber (dvbsiparser.h)
-
 description: Gets the section_number field value from an Integrated Services Digital Broadcasting (ISDB) common data table (CDT).
 old-location: mstv\iisdb_cdt_getsectionnumber.htm
 tech.root: mstv
 ms.assetid: 61825be5-01c4-4d5f-be4a-6752ebf8dee8
-
 ms.date: 12/05/2018
 ms.keywords: GetSectionNumber, GetSectionNumber method [Microsoft TV Technologies], GetSectionNumber method [Microsoft TV Technologies],IISDB_CDT interface, IISDB_CDT interface [Microsoft TV Technologies],GetSectionNumber method, IISDB_CDT.GetSectionNumber, IISDB_CDT::GetSectionNumber, dvbsiparser/IISDB_CDT::GetSectionNumber, mstv.iisdb_cdt_getsectionnumber
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_CDT.GetSectionNumber"
+f1_keywords:
+- dvbsiparser/IISDB_CDT.GetSectionNumber
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_CDT.GetSectionNumber
+- IISDB_CDT.GetSectionNumber
 targetos: Windows
 req.typenames: 
 req.redist: 

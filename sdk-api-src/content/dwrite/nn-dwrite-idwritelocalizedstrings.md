@@ -1,19 +1,17 @@
 ---
 UID: NN:dwrite.IDWriteLocalizedStrings
 title: IDWriteLocalizedStrings (dwrite.h)
-
 description: Represents a collection of strings indexed by locale name.
 old-location: directwrite\IDWriteLocalizedStrings.htm
 tech.root: DirectWrite
 ms.assetid: 37bfc613-4128-45aa-b6b2-6163d44378e4
-
 ms.date: 12/05/2018
 ms.keywords: IDWriteLocalizedStrings, IDWriteLocalizedStrings interface [Direct Write], IDWriteLocalizedStrings interface [Direct Write],described, directwrite.IDWriteLocalizedStrings, dwrite/IDWriteLocalizedStrings
 ms.topic: interface
-f1_keywords: 
- - "dwrite/IDWriteLocalizedStrings"
+f1_keywords:
+- dwrite/IDWriteLocalizedStrings
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteLocalizedStrings
+- IDWriteLocalizedStrings
 targetos: Windows
 req.typenames: 
 req.redist: 

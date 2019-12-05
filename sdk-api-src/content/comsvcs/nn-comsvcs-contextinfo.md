@@ -1,19 +1,17 @@
 ---
 UID: NN:comsvcs.ContextInfo
 title: ContextInfo (comsvcs.h)
-
 description: Retrieves transaction, activity, and context information on the current context object. Using the methods of this interface, you can retrieve relevant information contained within an object context.
 old-location: cos\contextinfo.htm
 tech.root: cossdk
 ms.assetid: ef8d7ef7-fae4-4a20-80fb-18f5daa9b564
-
 ms.date: 12/05/2018
 ms.keywords: ContextInfo, ContextInfo interface [COM+], ContextInfo interface [COM+],described, _cos_ContextInfo, comsvcs/ContextInfo, cos.contextinfo
 ms.topic: interface
-f1_keywords: 
- - "comsvcs/ContextInfo"
+f1_keywords:
+- comsvcs/ContextInfo
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - ContextInfo
+- ContextInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

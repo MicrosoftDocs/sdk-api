@@ -1,19 +1,17 @@
 ---
 UID: NF:directxmath.XMVectorTanH
 title: XMVectorTanH function (directxmath.h)
-
 description: Computes the hyperbolic tangent of each component of an XMVECTOR.
 old-location: dxmath\xmvectortanh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorTanH(XMVECTOR)
-
 ms.date: 12/05/2018
 ms.keywords: Use DirectX..XMVectorTanH, XMVectorTanH, XMVectorTanH method [DirectX Math Support APIs], dxmath.xmvectortanh
 ms.topic: function
-f1_keywords: 
- - "directxmath/XMVectorTanH"
+f1_keywords:
+- directxmath/XMVectorTanH
 dev_langs:
- - c++
+- c++
 req.header: directxmath.h
 req.include-header: DirectXMath.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - directxmathvector.inl
+- directxmathvector.inl
 api_name:
- - XMVectorTanH
+- XMVectorTanH
 targetos: Windows
 req.typenames: 
 req.redist: 

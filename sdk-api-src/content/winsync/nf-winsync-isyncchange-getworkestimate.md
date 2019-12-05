@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.ISyncChange.GetWorkEstimate
 title: ISyncChange::GetWorkEstimate (winsync.h)
-
 description: Gets the work estimate for this change.
 old-location: winsync\isyncchange_getworkestimate.htm
 tech.root: winsync
 ms.assetid: ba79bb88-bdeb-42be-88a9-1355fe048d10
-
 ms.date: 12/05/2018
 ms.keywords: GetWorkEstimate, GetWorkEstimate method [Windows Sync], GetWorkEstimate method [Windows Sync],ISyncChange interface, ISyncChange interface [Windows Sync],GetWorkEstimate method, ISyncChange.GetWorkEstimate, ISyncChange::GetWorkEstimate, winsync.isyncchange_getworkestimate, winsync/ISyncChange::GetWorkEstimate
 ms.topic: method
-f1_keywords: 
- - "winsync/ISyncChange.GetWorkEstimate"
+f1_keywords:
+- winsync/ISyncChange.GetWorkEstimate
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - ISyncChange.GetWorkEstimate
+- ISyncChange.GetWorkEstimate
 targetos: Windows
 req.typenames: 
 req.redist: 

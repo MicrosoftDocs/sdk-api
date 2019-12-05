@@ -1,19 +1,17 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_BlockSize
 title: IFileSystemImageResult::get_BlockSize (imapi2fs.h)
-
 description: Retrieves the size, in bytes, of a block of data.
 old-location: imapi\ifilesystemimageresult_get_blocksize.htm
 tech.root: imapi
 ms.assetid: fe6d14d7-f3ae-4634-b8b4-1793f8007826
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult interface [IMAPI],get_BlockSize method, IFileSystemImageResult.get_BlockSize, IFileSystemImageResult::get_BlockSize, get_BlockSize, get_BlockSize method [IMAPI], get_BlockSize method [IMAPI],IFileSystemImageResult interface, imapi.ifilesystemimageresult_get_blocksize, imapi2fs/IFileSystemImageResult::get_BlockSize
 ms.topic: method
-f1_keywords: 
- - "imapi2fs/IFileSystemImageResult.get_BlockSize"
+f1_keywords:
+- imapi2fs/IFileSystemImageResult.get_BlockSize
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImageResult.get_BlockSize
+- IFileSystemImageResult.get_BlockSize
 targetos: Windows
 req.typenames: 
 req.redist: 

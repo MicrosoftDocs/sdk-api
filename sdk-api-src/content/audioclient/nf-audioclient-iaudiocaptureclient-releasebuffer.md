@@ -1,19 +1,17 @@
 ---
 UID: NF:audioclient.IAudioCaptureClient.ReleaseBuffer
 title: IAudioCaptureClient::ReleaseBuffer (audioclient.h)
-
 description: The ReleaseBuffer method releases the buffer.
 old-location: coreaudio\iaudiocaptureclient_releasebuffer.htm
 tech.root: CoreAudio
 ms.assetid: 38e1ea6c-d07d-4075-b6f2-d563c4bce007
-
 ms.date: 12/05/2018
 ms.keywords: IAudioCaptureClient interface [Core Audio],ReleaseBuffer method, IAudioCaptureClient.ReleaseBuffer, IAudioCaptureClient::ReleaseBuffer, IAudioCaptureClientReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [Core Audio], ReleaseBuffer method [Core Audio],IAudioCaptureClient interface, audioclient/IAudioCaptureClient::ReleaseBuffer, coreaudio.iaudiocaptureclient_releasebuffer
 ms.topic: method
-f1_keywords: 
- - "audioclient/IAudioCaptureClient.ReleaseBuffer"
+f1_keywords:
+- audioclient/IAudioCaptureClient.ReleaseBuffer
 dev_langs:
- - c++
+- c++
 req.header: audioclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Audioclient.h
+- Audioclient.h
 api_name:
- - IAudioCaptureClient.ReleaseBuffer
+- IAudioCaptureClient.ReleaseBuffer
 targetos: Windows
 req.typenames: 
 req.redist: 

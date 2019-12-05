@@ -1,19 +1,17 @@
 ---
 UID: NF:mmeapi.mixerGetControlDetails
 title: mixerGetControlDetails function (mmeapi.h)
-
 description: The mixerGetControlDetails function retrieves details about a single control associated with an audio line.
 old-location: multimedia\mixergetcontroldetails.htm
 tech.root: Multimedia
 ms.assetid: b1fdd9e7-42cf-41fb-99f7-b7da990e5881
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_mixerGetControlDetails, mixerGetControlDetails, mixerGetControlDetails function [Windows Multimedia], mixerGetControlDetailsA, mixerGetControlDetailsW, mmsystem/mixerGetControlDetails, mmsystem/mixerGetControlDetailsA, mmsystem/mixerGetControlDetailsW, multimedia.mixergetcontroldetails"
+ms.keywords: _win32_mixerGetControlDetails, mixerGetControlDetails, mixerGetControlDetails function [Windows Multimedia], mixerGetControlDetailsA, mixerGetControlDetailsW, mmsystem/mixerGetControlDetails, mmsystem/mixerGetControlDetailsA, mmsystem/mixerGetControlDetailsW, multimedia.mixergetcontroldetails
 ms.topic: function
-f1_keywords: 
- - "mmeapi/mixerGetControlDetails"
+f1_keywords:
+- mmeapi/mixerGetControlDetails
 dev_langs:
- - c++
+- c++
 req.header: mmeapi.h
 req.include-header: Mmeapi.h, Windows.h
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Winmm.lib
 req.dll: Winmm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Winmm.dll
- - API-MS-Win-mm-mme-l1-1-0.dll
- - winmmbase.dll
+- Winmm.dll
+- API-MS-Win-mm-mme-l1-1-0.dll
+- winmmbase.dll
 api_name:
- - mixerGetControlDetails
- - mixerGetControlDetailsA
- - mixerGetControlDetailsW
+- mixerGetControlDetails
+- mixerGetControlDetailsA
+- mixerGetControlDetailsW
 targetos: Windows
 req.typenames: 
 req.redist: 

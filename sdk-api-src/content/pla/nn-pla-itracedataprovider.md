@@ -1,19 +1,17 @@
 ---
 UID: NN:pla.ITraceDataProvider
 title: ITraceDataProvider (pla.h)
-
 description: Specifies a trace provider to enable in the trace session.
 old-location: pla\itracedataprovider.htm
 tech.root: PLA
 ms.assetid: bd2a49c1-8e18-4a14-a797-07f2b9c25812
-
 ms.date: 12/05/2018
 ms.keywords: ITraceDataProvider, ITraceDataProvider interface [PLA], ITraceDataProvider interface [PLA],described, base.itracedataprovider, pla.itracedataprovider, pla/ITraceDataProvider
 ms.topic: interface
-f1_keywords: 
- - "pla/ITraceDataProvider"
+f1_keywords:
+- pla/ITraceDataProvider
 dev_langs:
- - c++
+- c++
 req.header: pla.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Pla.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Pla.dll
+- Pla.dll
 api_name:
- - ITraceDataProvider
+- ITraceDataProvider
 targetos: Windows
 req.typenames: 
 req.redist: 

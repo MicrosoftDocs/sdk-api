@@ -1,19 +1,17 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.get_QuotaUsed
 title: IFsrmQuota::get_QuotaUsed (fsrmquota.h)
-
 description: Retrieves the current amount of disk space usage charged to this quota.
 old-location: fsrm\ifsrmquota_quotaused.htm
 tech.root: fsrm
 ms.assetid: c6df9842-9d69-4422-a8bc-c541ae31f21d
-
 ms.date: 12/05/2018
 ms.keywords: IFsrmQuota interface [File Server Resource Manager],QuotaUsed property, IFsrmQuota.QuotaUsed, IFsrmQuota.get_QuotaUsed, IFsrmQuota::QuotaUsed, IFsrmQuota::get_QuotaUsed, QuotaUsed property [File Server Resource Manager], QuotaUsed property [File Server Resource Manager],IFsrmQuota interface, fs.ifsrmquota_quotaused, fsrm.ifsrmquota_quotaused, fsrmquota/IFsrmQuota::QuotaUsed, fsrmquota/IFsrmQuota::get_QuotaUsed, get_QuotaUsed
 ms.topic: method
-f1_keywords: 
- - "fsrmquota/IFsrmQuota.QuotaUsed"
+f1_keywords:
+- fsrmquota/IFsrmQuota.QuotaUsed
 dev_langs:
- - c++
+- c++
 req.header: fsrmquota.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: SrmSvc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - SrmSvc.dll
+- SrmSvc.dll
 api_name:
- - IFsrmQuota.QuotaUsed
- - IFsrmQuota.get_QuotaUsed
+- IFsrmQuota.QuotaUsed
+- IFsrmQuota.get_QuotaUsed
 targetos: Windows
 req.typenames: 
 req.redist: 

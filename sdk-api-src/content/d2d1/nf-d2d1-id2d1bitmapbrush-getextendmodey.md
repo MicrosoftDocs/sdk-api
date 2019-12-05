@@ -1,19 +1,17 @@
 ---
 UID: NF:d2d1.ID2D1BitmapBrush.GetExtendModeY
 title: ID2D1BitmapBrush::GetExtendModeY (d2d1.h)
-
 description: Gets the method by which the brush vertically tiles those areas that extend past its bitmap.
 old-location: direct2d\ID2D1BitmapBrush_GetExtendModeY.htm
 tech.root: Direct2D
 ms.assetid: e71fef61-9d6a-441b-a88f-9f2cead23ecd
-
 ms.date: 12/05/2018
 ms.keywords: GetExtendModeY, GetExtendModeY method [Direct2D], GetExtendModeY method [Direct2D],ID2D1BitmapBrush interface, ID2D1BitmapBrush interface [Direct2D],GetExtendModeY method, ID2D1BitmapBrush.GetExtendModeY, ID2D1BitmapBrush::GetExtendModeY, d2d1/ID2D1BitmapBrush::GetExtendModeY, direct2d.ID2D1BitmapBrush_GetExtendModeY
 ms.topic: method
-f1_keywords: 
- - "d2d1/ID2D1BitmapBrush.GetExtendModeY"
+f1_keywords:
+- d2d1/ID2D1BitmapBrush.GetExtendModeY
 dev_langs:
- - c++
+- c++
 req.header: d2d1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D2d1.lib
 req.dll: D2d1.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D2d1.dll
+- D2d1.dll
 api_name:
- - ID2D1BitmapBrush.GetExtendModeY
+- ID2D1BitmapBrush.GetExtendModeY
 targetos: Windows
 req.typenames: 
 req.redist: 

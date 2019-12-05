@@ -1,19 +1,17 @@
 ---
 UID: NE:shobjidl_core.APPLICATION_VIEW_SIZE_PREFERENCE
 title: APPLICATION_VIEW_SIZE_PREFERENCE (shobjidl_core.h)
-
 description: Defines the set of possible general window (app view) size preferences. Used by ILaunchSourceViewSizePreference::GetSourceViewSizePreference and ILaunchTargetViewSizePreference::GetTargetViewSizePreference.
 old-location: shell\APPLICATION_VIEW_SIZE_PREFERENCE.htm
 tech.root: shell
 ms.assetid: 20B27858-D5BC-4800-AE3F-C01A017ABBF7
-
 ms.date: 12/05/2018
 ms.keywords: APPLICATION_VIEW_SIZE_PREFERENCE, APPLICATION_VIEW_SIZE_PREFERENCE enumeration [Windows Shell], AVSP_DEFAULT, AVSP_USE_HALF, AVSP_USE_LESS, AVSP_USE_MINIMUM, AVSP_USE_MORE, AVSP_USE_NONE, shell.APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE, shobjidl_core/AVSP_DEFAULT, shobjidl_core/AVSP_USE_HALF, shobjidl_core/AVSP_USE_LESS, shobjidl_core/AVSP_USE_MINIMUM, shobjidl_core/AVSP_USE_MORE, shobjidl_core/AVSP_USE_NONE
 ms.topic: enum
-f1_keywords: 
- - "shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE"
+f1_keywords:
+- shobjidl_core/APPLICATION_VIEW_SIZE_PREFERENCE
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Shobjidl_core.h
+- Shobjidl_core.h
 api_name:
- - APPLICATION_VIEW_SIZE_PREFERENCE
+- APPLICATION_VIEW_SIZE_PREFERENCE
 targetos: Windows
 req.typenames: APPLICATION_VIEW_SIZE_PREFERENCE
 req.redist: 

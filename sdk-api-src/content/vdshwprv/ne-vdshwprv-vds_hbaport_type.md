@@ -1,19 +1,17 @@
 ---
 UID: NE:vdshwprv._VDS_HBAPORT_TYPE
 title: VDS_HBAPORT_TYPE (vdshwprv.h)
-
 description: Defines the set of valid types for an HBA port.
 old-location: base\vds_hbaport_type.htm
 tech.root: VDS
 ms.assetid: fcad33c0-9a85-4180-b5de-fbef06e9e6e6
-
 ms.date: 12/05/2018
 ms.keywords: VDS_HBAPORT_TYPE, VDS_HBAPORT_TYPE enumeration [VDS], VDS_HPT_EPORT, VDS_HPT_FLPORT, VDS_HPT_FPORT, VDS_HPT_GPORT, VDS_HPT_LPORT, VDS_HPT_NLPORT, VDS_HPT_NOTPRESENT, VDS_HPT_NPORT, VDS_HPT_OTHER, VDS_HPT_PTP, VDS_HPT_UNKNOWN, base.vds_hbaport_type, vds/VDS_HBAPORT_TYPE, vds/VDS_HPT_EPORT, vds/VDS_HPT_FLPORT, vds/VDS_HPT_FPORT, vds/VDS_HPT_GPORT, vds/VDS_HPT_LPORT, vds/VDS_HPT_NLPORT, vds/VDS_HPT_NOTPRESENT, vds/VDS_HPT_NPORT, vds/VDS_HPT_OTHER, vds/VDS_HPT_PTP, vds/VDS_HPT_UNKNOWN, vdshwprv/VDS_HBAPORT_TYPE, vdshwprv/VDS_HPT_EPORT, vdshwprv/VDS_HPT_FLPORT, vdshwprv/VDS_HPT_FPORT, vdshwprv/VDS_HPT_GPORT, vdshwprv/VDS_HPT_LPORT, vdshwprv/VDS_HPT_NLPORT, vdshwprv/VDS_HPT_NOTPRESENT, vdshwprv/VDS_HPT_NPORT, vdshwprv/VDS_HPT_OTHER, vdshwprv/VDS_HPT_PTP, vdshwprv/VDS_HPT_UNKNOWN
 ms.topic: enum
-f1_keywords: 
- - "vdshwprv/VDS_HBAPORT_TYPE"
+f1_keywords:
+- vdshwprv/VDS_HBAPORT_TYPE
 dev_langs:
- - c++
+- c++
 req.header: vdshwprv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vds.h
- - VdsHwPrv.h
+- Vds.h
+- VdsHwPrv.h
 api_name:
- - VDS_HBAPORT_TYPE
+- VDS_HBAPORT_TYPE
 targetos: Windows
 req.typenames: VDS_HBAPORT_TYPE
 req.redist: 

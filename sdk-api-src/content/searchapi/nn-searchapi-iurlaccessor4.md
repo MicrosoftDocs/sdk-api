@@ -1,19 +1,17 @@
 ---
 UID: NN:searchapi.IUrlAccessor4
 title: IUrlAccessor4 (searchapi.h)
-
 description: Extends the functionality of the IUrlAccessor3 interface with the IUrlAccessor4::ShouldIndexItemContent method that identifies whether the content of the item should be indexed.
 old-location: search\_search_IUrlAccessor4.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\iurlaccessor4.htm
-
 ms.date: 12/05/2018
 ms.keywords: IUrlAccessor4, IUrlAccessor4 interface [search], IUrlAccessor4 interface [search],described, _search_IUrlAccessor4, search._search_IUrlAccessor4, searchapi/IUrlAccessor4
 ms.topic: interface
-f1_keywords: 
- - "searchapi/IUrlAccessor4"
+f1_keywords:
+- searchapi/IUrlAccessor4
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - IUrlAccessor4
+- IUrlAccessor4
 targetos: Windows
 req.typenames: 
 req.redist: Windows Search (WS) 4.0

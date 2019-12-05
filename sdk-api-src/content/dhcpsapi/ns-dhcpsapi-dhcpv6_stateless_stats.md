@@ -1,19 +1,17 @@
 ---
 UID: NS:dhcpsapi.__unnamed_struct_2
 title: DHCPV6_STATELESS_STATS (dhcpsapi.h)
-
 description: The DHCPV6_STATELESS_STATS structure defines an array of stateless IPv6 subnet statistics.
 old-location: dhcp\dhcpv6_stateless_stats.htm
 tech.root: DHCP
 ms.assetid: 8C0E26F3-9496-497C-9E05-9995CC322189
-
 ms.date: 12/05/2018
-ms.keywords: "*LPDHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS structure [DHCP], LPDHCPV6_STATELESS_STATS, LPDHCPV6_STATELESS_STATS structure pointer [DHCP], PDHCPV6_STATELESS_STATS, PDHCPV6_STATELESS_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_stats, dhcpsapi/DHCPV6_STATELESS_STATS, dhcpsapi/LPDHCPV6_STATELESS_STATS, dhcpsapi/PDHCPV6_STATELESS_STATS"
+ms.keywords: '*LPDHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS, DHCPV6_STATELESS_STATS structure [DHCP], LPDHCPV6_STATELESS_STATS, LPDHCPV6_STATELESS_STATS structure pointer [DHCP], PDHCPV6_STATELESS_STATS, PDHCPV6_STATELESS_STATS structure pointer [DHCP], dhcp.dhcpv6_stateless_stats, dhcpsapi/DHCPV6_STATELESS_STATS, dhcpsapi/LPDHCPV6_STATELESS_STATS, dhcpsapi/PDHCPV6_STATELESS_STATS'
 ms.topic: struct
-f1_keywords: 
- - "dhcpsapi/DHCPV6_STATELESS_STATS"
+f1_keywords:
+- dhcpsapi/DHCPV6_STATELESS_STATS
 dev_langs:
- - c++
+- c++
 req.header: dhcpsapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dhcpsapi.h
+- dhcpsapi.h
 api_name:
- - DHCPV6_STATELESS_STATS
+- DHCPV6_STATELESS_STATS
 targetos: Windows
 req.typenames: DHCPV6_STATELESS_STATS, *PDHCPV6_STATELESS_STATS, *LPDHCPV6_STATELESS_STATS
 req.redist: 

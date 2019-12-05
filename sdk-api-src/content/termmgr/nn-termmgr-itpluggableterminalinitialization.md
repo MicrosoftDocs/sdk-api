@@ -1,19 +1,17 @@
 ---
 UID: NN:termmgr.ITPluggableTerminalInitialization
 title: ITPluggableTerminalInitialization (termmgr.h)
-
 description: The ITPluggableTerminalInitialization interface is implemented by pluggable terminals and allows the Terminal Manager to initialize the terminal. The ITPluggableTerminalInitialization interface is created by calling QueryInterface on ITTerminal.
 old-location: tapi3\itpluggableterminalinitialization.htm
 tech.root: Tapi
 ms.assetid: cc1e6fb7-1b2a-40bd-83a8-d3b8be93ddc0
-
 ms.date: 12/05/2018
 ms.keywords: ITPluggableTerminalInitialization, ITPluggableTerminalInitialization interface [TAPI 2.2], ITPluggableTerminalInitialization interface [TAPI 2.2],described, _tapi3_itpluggableterminalinitialization, tapi3.itpluggableterminalinitialization, termmgr/ITPluggableTerminalInitialization
 ms.topic: interface
-f1_keywords: 
- - "termmgr/ITPluggableTerminalInitialization"
+f1_keywords:
+- termmgr/ITPluggableTerminalInitialization
 dev_langs:
- - c++
+- c++
 req.header: termmgr.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITPluggableTerminalInitialization
+- ITPluggableTerminalInitialization
 targetos: Windows
 req.typenames: 
 req.redist: 

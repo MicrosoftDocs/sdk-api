@@ -1,19 +1,17 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.RouterInvokeConfigUI
 title: IEAPProviderConfig::RouterInvokeConfigUI (rrascfg.h)
-
 description: The system calls the RouterInvokeConfigUI method to invoke the configuration user interface for EAP authentication between two routers.
 old-location: eap\ieapproviderconfig_routerinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: ba07f5c6-0b76-489f-b787-2965710cd1c5
-
 ms.date: 12/05/2018
 ms.keywords: IEAPProviderConfig interface [EAP],RouterInvokeConfigUI method, IEAPProviderConfig.RouterInvokeConfigUI, IEAPProviderConfig::RouterInvokeConfigUI, RouterInvokeConfigUI, RouterInvokeConfigUI method [EAP], RouterInvokeConfigUI method [EAP],IEAPProviderConfig interface, _eap_ieapproviderconfig_routerinvokeconfigui, eap.ieapproviderconfig_routerinvokeconfigui, rrascfg/IEAPProviderConfig::RouterInvokeConfigUI
 ms.topic: method
-f1_keywords: 
- - "rrascfg/IEAPProviderConfig.RouterInvokeConfigUI"
+f1_keywords:
+- rrascfg/IEAPProviderConfig.RouterInvokeConfigUI
 dev_langs:
- - c++
+- c++
 req.header: rrascfg.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rrascfg.h
+- Rrascfg.h
 api_name:
- - IEAPProviderConfig.RouterInvokeConfigUI
+- IEAPProviderConfig.RouterInvokeConfigUI
 targetos: Windows
 req.typenames: 
 req.redist: 

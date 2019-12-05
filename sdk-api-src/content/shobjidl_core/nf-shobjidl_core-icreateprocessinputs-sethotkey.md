@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.ICreateProcessInputs.SetHotKey
 title: ICreateProcessInputs::SetHotKey (shobjidl_core.h)
-
 description: Sets the hot key for the application.
 old-location: shell\icreateprocessinputs_sethotkey.htm
 tech.root: shell
 ms.assetid: B54934CA-6345-4B06-BA5F-75FA4B5CEE4F
-
 ms.date: 12/05/2018
 ms.keywords: ICreateProcessInputs interface [Windows Shell],SetHotKey method, ICreateProcessInputs.SetHotKey, ICreateProcessInputs::SetHotKey, SetHotKey, SetHotKey method [Windows Shell], SetHotKey method [Windows Shell],ICreateProcessInputs interface, shell.icreateprocessinputs_sethotkey, shobjidl_core/ICreateProcessInputs::SetHotKey
 ms.topic: method
 f1_keywords:
 - shobjidl_core/ICreateProcessInputs.SetHotKey
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows

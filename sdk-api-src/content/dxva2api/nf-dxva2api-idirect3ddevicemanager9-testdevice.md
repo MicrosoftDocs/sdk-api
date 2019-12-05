@@ -1,19 +1,17 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.TestDevice
 title: IDirect3DDeviceManager9::TestDevice (dxva2api.h)
-
 description: Tests whether a Direct3D device handle is valid.
 old-location: mf\idirect3ddevicemanager9_testdevice.htm
 tech.root: medfound
 ms.assetid: e97acc5d-1b6a-43ae-a057-9c650d7126ab
-
 ms.date: 12/05/2018
 ms.keywords: IDirect3DDeviceManager9 interface [Media Foundation],TestDevice method, IDirect3DDeviceManager9.TestDevice, IDirect3DDeviceManager9::TestDevice, TestDevice, TestDevice method [Media Foundation], TestDevice method [Media Foundation],IDirect3DDeviceManager9 interface, dxva2api/IDirect3DDeviceManager9::TestDevice, e97acc5d-1b6a-43ae-a057-9c650d7126ab, mf.idirect3ddevicemanager9_testdevice
 ms.topic: method
-f1_keywords: 
- - "dxva2api/IDirect3DDeviceManager9.TestDevice"
+f1_keywords:
+- dxva2api/IDirect3DDeviceManager9.TestDevice
 dev_langs:
- - c++
+- c++
 req.header: dxva2api.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxva2api.h
+- dxva2api.h
 api_name:
- - IDirect3DDeviceManager9.TestDevice
+- IDirect3DDeviceManager9.TestDevice
 targetos: Windows
 req.typenames: 
 req.redist: 

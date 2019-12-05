@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.PSGetPropertyDescriptionByName
 title: PSGetPropertyDescriptionByName function (propsys.h)
-
 description: Gets an instance of a property description interface for a specified property name.
 old-location: properties\PSGetPropertyDescriptionByName.htm
 tech.root: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2
-
 ms.date: 12/05/2018
 ms.keywords: PSGetPropertyDescriptionByName, PSGetPropertyDescriptionByName function [Windows Properties], properties.PSGetPropertyDescriptionByName, propsys/PSGetPropertyDescriptionByName, shell.PSGetPropertyDescriptionByName, shell_PSGetPropertyDescriptionByName
 ms.topic: function
-f1_keywords: 
- - "propsys/PSGetPropertyDescriptionByName"
+f1_keywords:
+- propsys/PSGetPropertyDescriptionByName
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Propsys.lib
 req.dll: Propsys.dll (version 5.0 or later)
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Propsys.dll
+- Propsys.dll
 api_name:
- - PSGetPropertyDescriptionByName
+- PSGetPropertyDescriptionByName
 targetos: Windows
 req.typenames: 
 req.redist: Windows Desktop Search (WDS) 3.0

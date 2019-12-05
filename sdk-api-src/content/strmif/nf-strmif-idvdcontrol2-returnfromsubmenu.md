@@ -1,19 +1,17 @@
 ---
 UID: NF:strmif.IDvdControl2.ReturnFromSubmenu
 title: IDvdControl2::ReturnFromSubmenu (strmif.h)
-
 description: The ReturnFromSubmenu method returns the display from a submenu to its parent menu.
 old-location: dshow\idvdcontrol2_returnfromsubmenu.htm
 tech.root: DirectShow
 ms.assetid: ef213ab6-3993-46e4-803d-3ce195256e7e
-
 ms.date: 12/05/2018
 ms.keywords: IDvdControl2 interface [DirectShow],ReturnFromSubmenu method, IDvdControl2.ReturnFromSubmenu, IDvdControl2::ReturnFromSubmenu, IDvdControl2ReturnFromSubmenu, ReturnFromSubmenu, ReturnFromSubmenu method [DirectShow], ReturnFromSubmenu method [DirectShow],IDvdControl2 interface, dshow.idvdcontrol2_returnfromsubmenu, strmif/IDvdControl2::ReturnFromSubmenu
 ms.topic: method
-f1_keywords: 
- - "strmif/IDvdControl2.ReturnFromSubmenu"
+f1_keywords:
+- strmif/IDvdControl2.ReturnFromSubmenu
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IDvdControl2.ReturnFromSubmenu
+- IDvdControl2.ReturnFromSubmenu
 targetos: Windows
 req.typenames: 
 req.redist: 

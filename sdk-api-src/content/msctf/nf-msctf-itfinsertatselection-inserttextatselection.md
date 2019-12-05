@@ -1,19 +1,17 @@
 ---
 UID: NF:msctf.ITfInsertAtSelection.InsertTextAtSelection
 title: ITfInsertAtSelection::InsertTextAtSelection (msctf.h)
-
 description: ITfInsertAtSelection::InsertTextAtSelection method
 old-location: tsf\itfinsertatselection_inserttextatselection.htm
 tech.root: TSF
 ms.assetid: 1373fe9b-6c51-4514-a7da-c1f872d9b1ce
-
 ms.date: 12/05/2018
 ms.keywords: ITfInsertAtSelection interface [Text Services Framework],InsertTextAtSelection method, ITfInsertAtSelection.InsertTextAtSelection, ITfInsertAtSelection::InsertTextAtSelection, InsertTextAtSelection, InsertTextAtSelection method [Text Services Framework], InsertTextAtSelection method [Text Services Framework],ITfInsertAtSelection interface, TF_IAS_NOQUERY, TF_IAS_NO_DEFAULT_COMPOSITION, TF_IAS_QUERYONLY, _tsf_itfinsertatselection_inserttextatselection_ref, msctf/ITfInsertAtSelection::InsertTextAtSelection, tsf.itfinsertatselection_inserttextatselection
 ms.topic: method
-f1_keywords: 
- - "msctf/ITfInsertAtSelection.InsertTextAtSelection"
+f1_keywords:
+- msctf/ITfInsertAtSelection.InsertTextAtSelection
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msctf.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - msctf.dll
+- msctf.dll
 api_name:
- - ITfInsertAtSelection.InsertTextAtSelection
+- ITfInsertAtSelection.InsertTextAtSelection
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

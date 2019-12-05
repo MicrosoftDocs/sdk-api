@@ -1,19 +1,17 @@
 ---
 UID: NS:d2d1_1.D2D1_MAPPED_RECT
 title: D2D1_MAPPED_RECT (d2d1_1.h)
-
 description: Describes mapped memory from the ID2D1Bitmap1::Map API.
 old-location: direct2d\d2d1_mapped_rect.htm
 tech.root: Direct2D
 ms.assetid: 1cd81f1a-c39b-4975-a801-aa9444dde172
-
 ms.date: 12/05/2018
 ms.keywords: D2D1_MAPPED_RECT, D2D1_MAPPED_RECT structure [Direct2D], PD2D1_MAPPED_RECT, PD2D1_MAPPED_RECT structure pointer [Direct2D], d2d1_1/D2D1_MAPPED_RECT, d2d1_1/PD2D1_MAPPED_RECT, direct2d.d2d1_mapped_rect
 ms.topic: struct
-f1_keywords: 
- - "d2d1_1/D2D1_MAPPED_RECT"
+f1_keywords:
+- d2d1_1/D2D1_MAPPED_RECT
 dev_langs:
- - c++
+- c++
 req.header: d2d1_1.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - LibDef
+- LibDef
 api_location:
- - D2D1.lib
+- D2D1.lib
 api_name:
- - D2D1_MAPPED_RECT
+- D2D1_MAPPED_RECT
 targetos: Windows
 req.typenames: D2D1_MAPPED_RECT
 req.redist: 

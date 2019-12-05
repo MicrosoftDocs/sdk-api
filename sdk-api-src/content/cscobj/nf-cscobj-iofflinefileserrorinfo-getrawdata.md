@@ -1,19 +1,17 @@
 ---
 UID: NF:cscobj.IOfflineFilesErrorInfo.GetRawData
 title: IOfflineFilesErrorInfo::GetRawData (cscobj.h)
-
 description: Retrieves a block of bytes containing internal data associated with the error.
 old-location: of\iofflinefileserrorinfo_getrawdata.htm
 tech.root: offlinefiles
 ms.assetid: 70e5e444-7c46-4df9-8f77-da8dc331fcf0
-
 ms.date: 12/05/2018
 ms.keywords: GetRawData, GetRawData method [Offline Files], GetRawData method [Offline Files],IOfflineFilesErrorInfo interface, IOfflineFilesErrorInfo interface [Offline Files],GetRawData method, IOfflineFilesErrorInfo.GetRawData, IOfflineFilesErrorInfo::GetRawData, cscobj/IOfflineFilesErrorInfo::GetRawData, of.iofflinefileserrorinfo_getrawdata
 ms.topic: method
-f1_keywords: 
- - "cscobj/IOfflineFilesErrorInfo.GetRawData"
+f1_keywords:
+- cscobj/IOfflineFilesErrorInfo.GetRawData
 dev_langs:
- - c++
+- c++
 req.header: cscobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CscSvc.dll; CscObj.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CscSvc.dll
- - CscObj.dll
+- CscSvc.dll
+- CscObj.dll
 api_name:
- - IOfflineFilesErrorInfo.GetRawData
+- IOfflineFilesErrorInfo.GetRawData
 targetos: Windows
 req.typenames: 
 req.redist: 

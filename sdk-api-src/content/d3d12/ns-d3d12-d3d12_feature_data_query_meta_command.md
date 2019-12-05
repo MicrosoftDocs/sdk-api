@@ -5,10 +5,10 @@ description: Indicates the level of support that the adapter provides for metaco
 ms.date: 09/19/2019
 ms.keywords: D3D12_FEATURE_DATA_QUERY_META_COMMAND
 ms.topic: language-reference
-f1_keywords: 
- - "d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND"
+f1_keywords:
+- d3d12/D3D12_FEATURE_DATA_QUERY_META_COMMAND
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: structure
 req.ddi-compliance: 
@@ -26,13 +26,13 @@ req.typenames: D3D12_FEATURE_DATA_QUERY_META_COMMAND
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - d3d12.h
+- d3d12.h
 api_name:
- - D3D12_FEATURE_DATA_QUERY_META_COMMAND
+- D3D12_FEATURE_DATA_QUERY_META_COMMAND
 ---
 
 ## -description

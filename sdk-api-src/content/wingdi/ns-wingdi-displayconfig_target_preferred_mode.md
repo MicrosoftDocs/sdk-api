@@ -1,19 +1,17 @@
 ---
 UID: NS:wingdi.DISPLAYCONFIG_TARGET_PREFERRED_MODE
 title: DISPLAYCONFIG_TARGET_PREFERRED_MODE (wingdi.h)
-
 description: The DISPLAYCONFIG_TARGET_PREFERRED_MODE structure contains information about the preferred mode of a display.
 old-location: display\displayconfig_target_preferred_mode.htm
 tech.root: display
 ms.assetid: 1a4926ca-36d2-466c-b3d2-b59d34a89ee6
-
 ms.date: 12/05/2018
 ms.keywords: CCD_Structures_d19517fa-c72d-47bf-9198-c447efe1ba90.xml, DISPLAYCONFIG_TARGET_PREFERRED_MODE, DISPLAYCONFIG_TARGET_PREFERRED_MODE structure [Display Devices], display.displayconfig_target_preferred_mode, wingdi/DISPLAYCONFIG_TARGET_PREFERRED_MODE
 ms.topic: struct
-f1_keywords: 
- - "wingdi/DISPLAYCONFIG_TARGET_PREFERRED_MODE"
+f1_keywords:
+- wingdi/DISPLAYCONFIG_TARGET_PREFERRED_MODE
 dev_langs:
- - c++
+- c++
 req.header: wingdi.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wingdi.h
+- wingdi.h
 api_name:
- - DISPLAYCONFIG_TARGET_PREFERRED_MODE
+- DISPLAYCONFIG_TARGET_PREFERRED_MODE
 targetos: Windows
 req.typenames: DISPLAYCONFIG_TARGET_PREFERRED_MODE
 req.redist: 

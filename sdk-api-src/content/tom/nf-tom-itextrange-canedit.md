@@ -1,19 +1,17 @@
 ---
 UID: NF:tom.ITextRange.CanEdit
 title: ITextRange::CanEdit (tom.h)
-
 description: Determines whether the specified range can be edited.
 old-location: controls\ITextRange_CanEdit.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canedit.htm
-
 ms.date: 12/05/2018
 ms.keywords: CanEdit, CanEdit method [Windows Controls], CanEdit method [Windows Controls],ITextRange interface, ITextRange interface [Windows Controls],CanEdit method, ITextRange.CanEdit, ITextRange::CanEdit, _win32_ITextRange_CanEdit, _win32_ITextRange_CanEdit_cpp, controls.ITextRange_CanEdit, controls._win32_ITextRange_CanEdit, tom/ITextRange::CanEdit
 ms.topic: method
-f1_keywords: 
- - "tom/ITextRange.CanEdit"
+f1_keywords:
+- tom/ITextRange.CanEdit
 dev_langs:
- - c++
+- c++
 req.header: tom.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Msftedit.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Msftedit.dll
+- Msftedit.dll
 api_name:
- - ITextRange.CanEdit
+- ITextRange.CanEdit
 targetos: Windows
 req.typenames: 
 req.redist: 

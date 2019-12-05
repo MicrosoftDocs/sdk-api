@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsIsStringEmpty
 title: WindowsIsStringEmpty function (winstring.h)
-
 description: Indicates whether the specified string is the empty string.
 old-location: winrt\windowsisstringempty.htm
 tech.root: WinRT
 ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA
-
 ms.date: 12/05/2018
 ms.keywords: WindowsIsStringEmpty, WindowsIsStringEmpty function [Windows Runtime], winrt.windowsisstringempty, winstring/WindowsIsStringEmpty
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsIsStringEmpty"
+f1_keywords:
+- winstring/WindowsIsStringEmpty
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsIsStringEmpty
+- WindowsIsStringEmpty
 targetos: Windows
 req.typenames: 
 req.redist: 

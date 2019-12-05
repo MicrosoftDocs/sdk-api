@@ -1,19 +1,17 @@
 ---
 UID: NN:oaidl.IErrorInfo
 title: IErrorInfo (oaidl.h)
-
 description: Provides detailed contextual error information.
 old-location: automat\ierrorinfo.htm
 tech.root: automat
 ms.assetid: 4dda6909-2d9a-4727-ae0c-b5f90dcfa447
-
 ms.date: 12/05/2018
 ms.keywords: IErrorInfo, IErrorInfo interface [Automation], IErrorInfo interface [Automation],described, _oa96_IErrorInfo_Interface, automat.ierrorinfo, oaidl/IErrorInfo
 ms.topic: interface
-f1_keywords: 
- - "oaidl/IErrorInfo"
+f1_keywords:
+- oaidl/IErrorInfo
 dev_langs:
- - c++
+- c++
 req.header: oaidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - oaidl.h
+- oaidl.h
 api_name:
- - IErrorInfo
+- IErrorInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

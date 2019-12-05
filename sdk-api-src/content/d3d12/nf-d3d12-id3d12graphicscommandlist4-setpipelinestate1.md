@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.SetPipelineState1
 title: ID3D12GraphicsCommandList4::SetPipelineState1 (d3d12.h)
-
 description: Sets a state object on the command list.
 old-location: direct3d12\id3d12graphicscommandlist4_setpipelinestate1.htm
 tech.root: direct3d12
 ms.assetid: CD408074-2B2A-461C-9CA8-DC967BC61067
-
 ms.date: 12/05/2018
 ms.keywords: ID3D12GraphicsCommandList4 interface,SetPipelineState1 method, ID3D12GraphicsCommandList4.SetPipelineState1, ID3D12GraphicsCommandList4::SetPipelineState1, SetPipelineState1, SetPipelineState1 method, SetPipelineState1 method,ID3D12GraphicsCommandList4 interface, d3d12/ID3D12GraphicsCommandList4::SetPipelineState1, direct3d12.id3d12graphicscommandlist4_setpipelinestate1
 ms.topic: method
-f1_keywords: 
- - "d3d12/ID3D12GraphicsCommandList4.SetPipelineState1"
+f1_keywords:
+- d3d12/ID3D12GraphicsCommandList4.SetPipelineState1
 dev_langs:
- - c++
+- c++
 req.header: d3d12.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3D12.lib
 req.dll: D3D12.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3D12.dll
+- D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4.SetPipelineState1
+- ID3D12GraphicsCommandList4.SetPipelineState1
 targetos: Windows
 req.typenames: 
 req.redist: 

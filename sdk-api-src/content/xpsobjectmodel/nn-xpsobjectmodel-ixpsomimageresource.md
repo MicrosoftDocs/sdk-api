@@ -1,19 +1,17 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMImageResource
 title: IXpsOMImageResource (xpsobjectmodel.h)
-
 description: Provides an IStream interface to an image resource.
 old-location: xps\ixpsomimageresource.htm
 tech.root: printdocs
 ms.assetid: 89a1530e-fa87-45bf-a1da-c8656ec09ba3
-
 ms.date: 12/05/2018
 ms.keywords: IXpsOMImageResource, IXpsOMImageResource interface [XPS Documents and Packaging], IXpsOMImageResource interface [XPS Documents and Packaging],described, xps.ixpsomimageresource, xpsobjectmodel/IXpsOMImageResource
 ms.topic: interface
-f1_keywords: 
- - "xpsobjectmodel/IXpsOMImageResource"
+f1_keywords:
+- xpsobjectmodel/IXpsOMImageResource
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - IXpsOMImageResource
+- IXpsOMImageResource
 targetos: Windows
 req.typenames: 
 req.redist: 

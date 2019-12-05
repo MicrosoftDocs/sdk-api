@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl.IDeskBand2
 title: IDeskBand2 (shobjidl.h)
-
 description: Exposes methods to enable and query translucency effects in a deskband object.
 old-location: shell\IDeskBand2.htm
 tech.root: shell
 ms.assetid: ba73527a-7762-45c0-8c69-87f03e55e5c6
-
 ms.date: 12/05/2018
 ms.keywords: IDeskBand2, IDeskBand2 interface [Windows Shell], IDeskBand2 interface [Windows Shell],described, _shell_IDeskBand2, shell.IDeskBand2, shobjidl/IDeskBand2
 ms.topic: interface
-f1_keywords: 
- - "shobjidl/IDeskBand2"
+f1_keywords:
+- shobjidl/IDeskBand2
 dev_langs:
- - c++
+- c++
 req.header: shobjidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IDeskBand2
+- IDeskBand2
 targetos: Windows
 req.typenames: 
 req.redist: 

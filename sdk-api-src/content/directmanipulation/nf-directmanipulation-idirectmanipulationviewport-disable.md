@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.Disable
 title: IDirectManipulationViewport::Disable (directmanipulation.h)
-
 description: Stops input processing by the viewport.
 old-location: directmanipulation\idirectmanipulationviewport_disable.htm
 tech.root: directmanipulation
 ms.assetid: ac4f3cbe-2769-468e-abe3-07b76ada5d7e
-
 ms.date: 12/05/2018
 ms.keywords: Disable, Disable method [Direct Manipulation], Disable method [Direct Manipulation],IDirectManipulationViewport interface, IDirectManipulationViewport interface [Direct Manipulation],Disable method, IDirectManipulationViewport.Disable, IDirectManipulationViewport::Disable, directmanipulation.idirectmanipulationviewport_disable, directmanipulation/IDirectManipulationViewport::Disable
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.Disable"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.Disable
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.Disable
+- IDirectManipulationViewport.Disable
 targetos: Windows
 req.typenames: 
 req.redist: 

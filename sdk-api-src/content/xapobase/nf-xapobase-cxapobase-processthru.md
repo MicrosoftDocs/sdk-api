@@ -1,19 +1,17 @@
 ---
 UID: NF:xapobase.CXAPOBase.ProcessThru
 title: CXAPOBase::ProcessThru (xapobase.h)
-
 description: Called by an IXAPO::Process implementation when an XAPO is disabled for thru processing.
 old-location: xaudio2\cxapobase_processthru.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.ProcessThru(void,FLOAT32,UINT32,WORD,WORD,BOOL)
-
 ms.date: 12/05/2018
 ms.keywords: CXAPOBase interface [XAudio2 Audio Mixing APIs],ProcessThru method, CXAPOBase.ProcessThru, CXAPOBase::ProcessThru, ProcessThru, ProcessThru method [XAudio2 Audio Mixing APIs], ProcessThru method [XAudio2 Audio Mixing APIs],CXAPOBase interface, xapobase/CXAPOBase::ProcessThru, xaudio2.cxapobase_processthru
 ms.topic: method
-f1_keywords: 
- - "xapobase/CXAPOBase.ProcessThru"
+f1_keywords:
+- xapobase/CXAPOBase.ProcessThru
 dev_langs:
- - c++
+- c++
 req.header: xapobase.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: XAPOBase.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - XAPOBase.lib
- - XAPOBase.dll
+- XAPOBase.lib
+- XAPOBase.dll
 api_name:
- - CXAPOBase.ProcessThru
+- CXAPOBase.ProcessThru
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.RemoveContent
 title: IDirectManipulationViewport::RemoveContent (directmanipulation.h)
-
 description: Removes secondary content from a viewport.
 old-location: directmanipulation\idirectmanipulationviewport_removecontent.htm
 tech.root: directmanipulation
 ms.assetid: 5f7b709c-77ac-46fe-8fb5-dc4943824ab0
-
 ms.date: 12/05/2018
 ms.keywords: IDirectManipulationViewport interface [Direct Manipulation],RemoveContent method, IDirectManipulationViewport.RemoveContent, IDirectManipulationViewport::RemoveContent, RemoveContent, RemoveContent method [Direct Manipulation], RemoveContent method [Direct Manipulation],IDirectManipulationViewport interface, directmanipulation.idirectmanipulationviewport_removecontent, directmanipulation/IDirectManipulationViewport::RemoveContent
 ms.topic: method
-f1_keywords: 
- - "directmanipulation/IDirectManipulationViewport.RemoveContent"
+f1_keywords:
+- directmanipulation/IDirectManipulationViewport.RemoveContent
 dev_langs:
- - c++
+- c++
 req.header: directmanipulation.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - DirectManipulation.h
+- DirectManipulation.h
 api_name:
- - IDirectManipulationViewport.RemoveContent
+- IDirectManipulationViewport.RemoveContent
 targetos: Windows
 req.typenames: 
 req.redist: 

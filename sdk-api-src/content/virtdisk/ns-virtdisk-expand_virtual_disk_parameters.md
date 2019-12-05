@@ -1,19 +1,17 @@
 ---
 UID: NS:virtdisk._EXPAND_VIRTUAL_DISK_PARAMETERS
 title: EXPAND_VIRTUAL_DISK_PARAMETERS (virtdisk.h)
-
 description: Contains virtual disk expansion request parameters.
 old-location: vhd\expand_virtual_disk_parameters.htm
 tech.root: VStor
 ms.assetid: 8a8a4d1c-7dbc-4dfe-9f21-94a3370553b8
-
 ms.date: 12/05/2018
-ms.keywords: "*PEXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS structure [VHD], PEXPAND_VIRTUAL_DISK_PARAMETERS, PEXPAND_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/PEXPAND_VIRTUAL_DISK_PARAMETERS, vhd.expand_virtual_disk_parameters, virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS, virtdisk/PEXPAND_VIRTUAL_DISK_PARAMETERS"
+ms.keywords: '*PEXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS, EXPAND_VIRTUAL_DISK_PARAMETERS structure [VHD], PEXPAND_VIRTUAL_DISK_PARAMETERS, PEXPAND_VIRTUAL_DISK_PARAMETERS structure pointer [VHD], _EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/EXPAND_VIRTUAL_DISK_PARAMETERS, vdssys/PEXPAND_VIRTUAL_DISK_PARAMETERS, vhd.expand_virtual_disk_parameters, virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS, virtdisk/PEXPAND_VIRTUAL_DISK_PARAMETERS'
 ms.topic: struct
-f1_keywords: 
- - "virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS"
+f1_keywords:
+- virtdisk/EXPAND_VIRTUAL_DISK_PARAMETERS
 dev_langs:
- - c++
+- c++
 req.header: virtdisk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - VirtDisk.h
- - vdssys.h
+- VirtDisk.h
+- vdssys.h
 api_name:
- - EXPAND_VIRTUAL_DISK_PARAMETERS
+- EXPAND_VIRTUAL_DISK_PARAMETERS
 targetos: Windows
 req.typenames: EXPAND_VIRTUAL_DISK_PARAMETERS, *PEXPAND_VIRTUAL_DISK_PARAMETERS
 req.redist: 

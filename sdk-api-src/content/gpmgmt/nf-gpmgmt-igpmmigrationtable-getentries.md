@@ -1,19 +1,17 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntries
 title: IGPMMigrationTable::GetEntries (gpmgmt.h)
-
 description: Returns a IGPMMapEntryCollection interface.
 old-location: gpmc\igpmmigrationtable_getentries.htm
 tech.root: gpmc
 ms.assetid: 5de22bba-10f9-49f7-83f3-053f5e58b66e
-
 ms.date: 12/05/2018
 ms.keywords: GPMMigrationTable class [GPMC],GetEntries method, GetEntries, GetEntries method [GPMC], GetEntries method [GPMC],GPMMigrationTable class, GetEntries method [GPMC],IGPMMigrationTable interface, IGPMMigrationTable interface [GPMC],GetEntries method, IGPMMigrationTable.GetEntries, IGPMMigrationTable::GetEntries, gpmc.igpmmigrationtable_getentries, gpmgmt/IGPMMigrationTable::GetEntries
 ms.topic: method
-f1_keywords: 
- - "gpmgmt/IGPMMigrationTable.GetEntries"
+f1_keywords:
+- gpmgmt/IGPMMigrationTable.GetEntries
 dev_langs:
- - c++
+- c++
 req.header: gpmgmt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Gpmgmt.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Gpmgmt.dll
+- Gpmgmt.dll
 api_name:
- - IGPMMigrationTable.GetEntries
- - GPMMigrationTable.GetEntries
+- IGPMMigrationTable.GetEntries
+- GPMMigrationTable.GetEntries
 targetos: Windows
 req.typenames: 
 req.redist: 

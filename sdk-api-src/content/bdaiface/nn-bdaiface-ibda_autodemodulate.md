@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_AutoDemodulate
 title: IBDA_AutoDemodulate (bdaiface.h)
-
 description: If a BDA device filter, specifically a demodulator, exposes this interface, it indicates that the filter can automatically detect signal characteristics.
 old-location: mstv\ibda_autodemodulate.htm
 tech.root: mstv
 ms.assetid: 91588290-bae9-4c6d-9ec7-5d3777208e2a
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_AutoDemodulate, IBDA_AutoDemodulate interface [Microsoft TV Technologies], IBDA_AutoDemodulate interface [Microsoft TV Technologies],described, IBDA_AutoDemodulateInterface, bdaiface/IBDA_AutoDemodulate, mstv.ibda_autodemodulate
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_AutoDemodulate"
+f1_keywords:
+- bdaiface/IBDA_AutoDemodulate
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_AutoDemodulate
+- IBDA_AutoDemodulate
 targetos: Windows
 req.typenames: 
 req.redist: 

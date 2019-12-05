@@ -1,19 +1,17 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.Lock
 title: IDirectDrawSurface7::Lock (ddraw.h)
-
 description: Obtains a pointer to the surface memory.
 old-location: directdraw\idirectdrawsurface7_lock.htm
 tech.root: directdraw
 ms.assetid: 0267ad70-e7cc-41e8-8325-7ede4a662d13
-
 ms.date: 12/05/2018
 ms.keywords: DDLOCK_DISCARDCONTENTS, DDLOCK_DONOTWAIT, DDLOCK_EVENT, DDLOCK_NOOVERWRITE, DDLOCK_NOSYSLOCK, DDLOCK_OKTOSWAP, DDLOCK_READONLY, DDLOCK_SURFACEMEMORYPTR, DDLOCK_WAIT, DDLOCK_WRITEONLY, IDirectDrawSurface7 interface [DirectDraw],Lock method, IDirectDrawSurface7.Lock, IDirectDrawSurface7::Lock, Lock, Lock method [DirectDraw], Lock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::Lock, directdraw.idirectdrawsurface7_lock
 ms.topic: method
-f1_keywords: 
- - "ddraw/IDirectDrawSurface7.Lock"
+f1_keywords:
+- ddraw/IDirectDrawSurface7.Lock
 dev_langs:
- - c++
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Ddraw.dll
+- Ddraw.dll
 api_name:
- - IDirectDrawSurface7.Lock
+- IDirectDrawSurface7.Lock
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:wincodec.WICJpegFrameHeader
 title: WICJpegFrameHeader (wincodec.h)
-
 description: Represents a JPEG frame header.
 old-location: wic\wicjpegframeheader.htm
 tech.root: wic
 ms.assetid: BB207D78-9E27-49A4-91E4-601CED109389
-
 ms.date: 12/05/2018
 ms.keywords: WICJpegFrameHeader, WICJpegFrameHeader structure [Windows Imaging Component], wic.wicjpegframeheader, wincodec/WICJpegFrameHeader
 ms.topic: struct
-f1_keywords: 
- - "wincodec/WICJpegFrameHeader"
+f1_keywords:
+- wincodec/WICJpegFrameHeader
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wincodec.h
+- wincodec.h
 api_name:
- - WICJpegFrameHeader
+- WICJpegFrameHeader
 targetos: Windows
 req.typenames: WICJpegFrameHeader
 req.redist: 

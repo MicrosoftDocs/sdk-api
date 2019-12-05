@@ -4,10 +4,10 @@ title: WLAN_AUTOCONF_OPCODE
 ms.date: 01/30/19
 ms.keywords: _WLAN_AUTOCONF_OPCODE, WLAN_AUTOCONF_OPCODE
 ms.topic: language-reference
-f1_keywords: 
- - "wlanapi/_WLAN_AUTOCONF_OPCODE"
+f1_keywords:
+- wlanapi/_WLAN_AUTOCONF_OPCODE
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -21,14 +21,14 @@ req.target-type:
 req.typenames: 
 req.umdf-ver: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - wlanapi.h
+- wlanapi.h
 api_name:
- - _WLAN_AUTOCONF_OPCODE
- - WLAN_AUTOCONF_OPCODE
+- _WLAN_AUTOCONF_OPCODE
+- WLAN_AUTOCONF_OPCODE
 ---
 
 # WLAN_AUTOCONF_OPCODE enumeration

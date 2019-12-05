@@ -1,19 +1,17 @@
 ---
 UID: NN:imapi2fs.IFileSystemImageResult
 title: IFileSystemImageResult (imapi2fs.h)
-
 description: Use this interface to get information about the burn image, the image data stream, and progress information.
 old-location: imapi\ifilesystemimageresult.htm
 tech.root: imapi
 ms.assetid: 30ec514c-97b8-41fc-b814-11f50cacaa25
-
 ms.date: 12/05/2018
 ms.keywords: IFileSystemImageResult, IFileSystemImageResult interface [IMAPI], IFileSystemImageResult interface [IMAPI],described, imapi.ifilesystemimageresult, imapi2fs/IFileSystemImageResult
 ms.topic: interface
-f1_keywords: 
- - "imapi2fs/IFileSystemImageResult"
+f1_keywords:
+- imapi2fs/IFileSystemImageResult
 dev_langs:
- - c++
+- c++
 req.header: imapi2fs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imapi2fs.h
+- imapi2fs.h
 api_name:
- - IFileSystemImageResult
+- IFileSystemImageResult
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:vswriter.IVssComponent.GetComponentName
 title: IVssComponent::GetComponentName (vswriter.h)
-
 description: The GetComponentName method returns the logical name of this component.
 old-location: base\ivsscomponent_getcomponentname.htm
 tech.root: VSS
 ms.assetid: 24b36ea6-3662-4846-a90b-5c2da578e1fa
-
 ms.date: 12/05/2018
 ms.keywords: GetComponentName, GetComponentName method [VSS], GetComponentName method [VSS],IVssComponent interface, IVssComponent interface [VSS],GetComponentName method, IVssComponent.GetComponentName, IVssComponent::GetComponentName, _win32_ivsscomponent_getcomponentname, base.ivsscomponent_getcomponentname, vswriter/IVssComponent::GetComponentName
 ms.topic: method
-f1_keywords: 
- - "vswriter/IVssComponent.GetComponentName"
+f1_keywords:
+- vswriter/IVssComponent.GetComponentName
 dev_langs:
- - c++
+- c++
 req.header: vswriter.h
 req.include-header: Vss.h, VsWriter.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: VssApi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - VssApi.lib
- - VssApi.dll
+- VssApi.lib
+- VssApi.dll
 api_name:
- - IVssComponent.GetComponentName
+- IVssComponent.GetComponentName
 targetos: Windows
 req.typenames: 
 req.redist: 

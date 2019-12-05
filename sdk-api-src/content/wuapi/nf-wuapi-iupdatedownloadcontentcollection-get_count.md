@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IUpdateDownloadContentCollection.get_Count
 title: IUpdateDownloadContentCollection::get_Count (wuapi.h)
-
 description: Gets the number of elements in the collection.
 old-location: wua\iupdatedownloadcontentcollection_count.htm
 tech.root: Wua_Sdk
 ms.assetid: fbe4e702-644c-4eee-beea-a91bad9cb1be
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IUpdateDownloadContentCollection interface, IUpdateDownloadContentCollection interface [Windows Update Agent],Count property, IUpdateDownloadContentCollection.Count, IUpdateDownloadContentCollection.get_Count, IUpdateDownloadContentCollection::Count, IUpdateDownloadContentCollection::get_Count, get_Count, wua.iupdatedownloadcontentcollection_count, wuapi/IUpdateDownloadContentCollection::Count, wuapi/IUpdateDownloadContentCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "wuapi/IUpdateDownloadContentCollection.Count"
+f1_keywords:
+- wuapi/IUpdateDownloadContentCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IUpdateDownloadContentCollection.Count
- - IUpdateDownloadContentCollection.get_Count
+- IUpdateDownloadContentCollection.Count
+- IUpdateDownloadContentCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

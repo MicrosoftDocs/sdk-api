@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.Show
 title: IUserNotification::Show (shobjidl_core.h)
-
 description: Displays the notification.
 old-location: shell\IUserNotification_Show.htm
 tech.root: shell
 ms.assetid: 1f908581-9635-4090-9e52-1dfb9a206d38
-
 ms.date: 12/05/2018
 ms.keywords: IUserNotification interface [Windows Shell],Show method, IUserNotification.Show, IUserNotification::Show, Show, Show method [Windows Shell], Show method [Windows Shell],IUserNotification interface, inet_IUserNotification_Show, shell.IUserNotification_Show, shobjidl_core/IUserNotification::Show
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IUserNotification.Show"
+f1_keywords:
+- shobjidl_core/IUserNotification.Show
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Shell32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shell32.dll
+- Shell32.dll
 api_name:
- - IUserNotification.Show
+- IUserNotification.Show
 targetos: Windows
 req.typenames: 
 req.redist: 

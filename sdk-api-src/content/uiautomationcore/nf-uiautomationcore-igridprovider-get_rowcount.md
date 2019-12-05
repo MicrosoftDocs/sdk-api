@@ -1,19 +1,17 @@
 ---
 UID: NF:uiautomationcore.IGridProvider.get_RowCount
 title: IGridProvider::get_RowCount (uiautomationcore.h)
-
 description: Specifies the total number of rows in the grid.
 old-location: winauto\uiauto_IGridProvider_RowCount.htm
 tech.root: WinAuto
 ms.assetid: 036a05fd-53b7-4e6d-b96b-503832933b56
-
 ms.date: 12/05/2018
 ms.keywords: IGridProvider interface [Windows Accessibility],RowCount property, IGridProvider.RowCount, IGridProvider.get_RowCount, IGridProvider::RowCount, IGridProvider::get_RowCount, RowCount property [Windows Accessibility], RowCount property [Windows Accessibility],IGridProvider interface, get_RowCount, uiauto.uiauto_IGridProvider_RowCount, uiauto_IGridProvider_RowCount, uiautomationcore/IGridProvider::RowCount, uiautomationcore/IGridProvider::get_RowCount, winauto.uiauto_IGridProvider_RowCount
 ms.topic: method
-f1_keywords: 
- - "uiautomationcore/IGridProvider.RowCount"
+f1_keywords:
+- uiautomationcore/IGridProvider.RowCount
 dev_langs:
- - c++
+- c++
 req.header: uiautomationcore.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: Uiautomationcore.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uiautomationcore.dll
+- Uiautomationcore.dll
 api_name:
- - IGridProvider.RowCount
- - IGridProvider.get_RowCount
+- IGridProvider.RowCount
+- IGridProvider.get_RowCount
 targetos: Windows
 req.typenames: 
 req.redist: 

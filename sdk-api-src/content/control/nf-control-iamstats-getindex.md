@@ -1,19 +1,17 @@
 ---
 UID: NF:control.IAMStats.GetIndex
 title: IAMStats::GetIndex (control.h)
-
 description: The GetIndex method retrieves the index for a named statistic, or creates a new statistic.
 old-location: dshow\iamstats_getindex.htm
 tech.root: DirectShow
 ms.assetid: a5ea650c-42dd-405c-8ad9-6e48cf51353d
-
 ms.date: 12/05/2018
 ms.keywords: GetIndex, GetIndex method [DirectShow], GetIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetIndex method, IAMStats.GetIndex, IAMStats::GetIndex, IAMStatsGetIndex, control/IAMStats::GetIndex, dshow.iamstats_getindex
 ms.topic: method
-f1_keywords: 
- - "control/IAMStats.GetIndex"
+f1_keywords:
+- control/IAMStats.GetIndex
 dev_langs:
- - c++
+- c++
 req.header: control.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Strmiids.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Strmiids.lib
- - Strmiids.dll
+- Strmiids.lib
+- Strmiids.dll
 api_name:
- - IAMStats.GetIndex
+- IAMStats.GetIndex
 targetos: Windows
 req.typenames: 
 req.redist: 

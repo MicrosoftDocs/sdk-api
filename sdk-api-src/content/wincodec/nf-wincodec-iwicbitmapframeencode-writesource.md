@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.WriteSource
 title: IWICBitmapFrameEncode::WriteSource (wincodec.h)
-
 description: Encodes a bitmap source.
 old-location: wic\_wic_codec_iwicbitmapframeencode_writesource.htm
 tech.root: wic
 ms.assetid: bc748982-6dc8-41cc-a23b-9d127dc22a1f
-
 ms.date: 12/05/2018
 ms.keywords: IWICBitmapFrameEncode interface [Windows Imaging Component],WriteSource method, IWICBitmapFrameEncode.WriteSource, IWICBitmapFrameEncode::WriteSource, WriteSource, WriteSource method [Windows Imaging Component], WriteSource method [Windows Imaging Component],IWICBitmapFrameEncode interface, _wic_codec_iwicbitmapframeencode_writesource, wic._wic_codec_iwicbitmapframeencode_writesource, wincodec/IWICBitmapFrameEncode::WriteSource
 ms.topic: method
-f1_keywords: 
- - "wincodec/IWICBitmapFrameEncode.WriteSource"
+f1_keywords:
+- wincodec/IWICBitmapFrameEncode.WriteSource
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode.WriteSource
+- IWICBitmapFrameEncode.WriteSource
 targetos: Windows
 req.typenames: 
 req.redist: 

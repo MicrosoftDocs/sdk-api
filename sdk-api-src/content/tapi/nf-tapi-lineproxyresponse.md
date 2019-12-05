@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.lineProxyResponse
 title: lineProxyResponse function (tapi.h)
-
 description: Indicates completion of a proxy request by a registered proxy handler, such as an ACD agent handler on a server.
 old-location: tapi2\lineproxyresponse.htm
 tech.root: Tapi
 ms.assetid: af774fc5-d013-4da2-a737-9e99c09456a0
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_lineproxyresponse, lineProxyResponse, lineProxyResponse function [TAPI 2.2], tapi/lineProxyResponse, tapi2.lineproxyresponse"
+ms.keywords: _tapi2_lineproxyresponse, lineProxyResponse, lineProxyResponse function [TAPI 2.2], tapi/lineProxyResponse, tapi2.lineproxyresponse
 ms.topic: function
-f1_keywords: 
- - "tapi/lineProxyResponse"
+f1_keywords:
+- tapi/lineProxyResponse
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - lineProxyResponse
+- lineProxyResponse
 targetos: Windows
 req.typenames: 
 req.redist: 

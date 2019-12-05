@@ -1,19 +1,17 @@
 ---
 UID: NF:vfw.capDlgVideoCompression
 title: capDlgVideoCompression macro (vfw.h)
-
 description: The capDlgVideoCompression macro displays a dialog box in which the user can select a compressor to use during the capture process.
 old-location: multimedia\capdlgvideocompression.htm
 tech.root: Multimedia
 ms.assetid: f4abf869-deac-4537-a8e8-680a4f138d0b
-
 ms.date: 12/05/2018
-ms.keywords: "_win32_capDlgVideoCompression, capDlgVideoCompression, capDlgVideoCompression macro [Windows Multimedia], multimedia.capdlgvideocompression, vfw/capDlgVideoCompression"
+ms.keywords: _win32_capDlgVideoCompression, capDlgVideoCompression, capDlgVideoCompression macro [Windows Multimedia], multimedia.capdlgvideocompression, vfw/capDlgVideoCompression
 ms.topic: macro
-f1_keywords: 
- - "vfw/capDlgVideoCompression"
+f1_keywords:
+- vfw/capDlgVideoCompression
 dev_langs:
- - c++
+- c++
 req.header: vfw.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Vfw.h
+- Vfw.h
 api_name:
- - capDlgVideoCompression
+- capDlgVideoCompression
 targetos: Windows
 req.typenames: 
 req.redist: 

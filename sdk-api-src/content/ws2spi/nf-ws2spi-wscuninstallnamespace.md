@@ -1,19 +1,17 @@
 ---
 UID: NF:ws2spi.WSCUnInstallNameSpace
 title: WSCUnInstallNameSpace function (ws2spi.h)
-
 description: Uninstalls the indicated name-space provider.
 old-location: winsock\wscuninstallnamespace_2.htm
 tech.root: WinSock
 ms.assetid: 5267f986-99fc-4e53-9fbb-3850bb9d24cf
-
 ms.date: 12/05/2018
 ms.keywords: WSCUnInstallNameSpace, WSCUnInstallNameSpace function [Winsock], _win32_wscuninstallnamespace_2, winsock.wscuninstallnamespace_2, ws2spi/WSCUnInstallNameSpace
 ms.topic: function
-f1_keywords: 
- - "ws2spi/WSCUnInstallNameSpace"
+f1_keywords:
+- ws2spi/WSCUnInstallNameSpace
 dev_langs:
- - c++
+- c++
 req.header: ws2spi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Ws2_32.lib
 req.dll: Ws2_32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Ws2_32.dll
+- Ws2_32.dll
 api_name:
- - WSCUnInstallNameSpace
+- WSCUnInstallNameSpace
 targetos: Windows
 req.typenames: 
 req.redist: 

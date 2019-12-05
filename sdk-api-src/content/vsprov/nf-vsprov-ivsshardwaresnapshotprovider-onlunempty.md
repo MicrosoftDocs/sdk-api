@@ -1,19 +1,17 @@
 ---
 UID: NF:vsprov.IVssHardwareSnapshotProvider.OnLunEmpty
 title: IVssHardwareSnapshotProvider::OnLunEmpty (vsprov.h)
-
 description: Called whenever VSS determines that a shadow copy LUN contains no interesting data.
 old-location: base\ivsshardwaresnapshotprovider_onlunempty.htm
 tech.root: VSS
 ms.assetid: 06a31704-9031-4ab9-84eb-685f6b648d27
-
 ms.date: 12/05/2018
 ms.keywords: IVssHardwareSnapshotProvider interface [VSS],OnLunEmpty method, IVssHardwareSnapshotProvider.OnLunEmpty, IVssHardwareSnapshotProvider::OnLunEmpty, OnLunEmpty, OnLunEmpty method [VSS], OnLunEmpty method [VSS],IVssHardwareSnapshotProvider interface, base.ivsshardwaresnapshotprovider_onlunempty, vsprov/IVssHardwareSnapshotProvider::OnLunEmpty
 ms.topic: method
 f1_keywords:
 - vsprov/IVssHardwareSnapshotProvider.OnLunEmpty
 dev_langs:
- - c++
+- c++
 req.header: vsprov.h
 req.include-header: 
 req.target-type: Windows

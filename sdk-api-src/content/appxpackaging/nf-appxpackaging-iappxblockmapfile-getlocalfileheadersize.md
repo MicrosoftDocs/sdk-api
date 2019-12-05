@@ -1,19 +1,17 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapFile.GetLocalFileHeaderSize
 title: IAppxBlockMapFile::GetLocalFileHeaderSize (appxpackaging.h)
-
 description: Retrieves the size of the zip local file header of the associated zip file item.
 old-location: appxpkg\iappxblockmapfile_getlocalfileheadersize.htm
 tech.root: appxpkg
 ms.assetid: 2BBABACF-089B-4711-B384-627E921B044A
-
 ms.date: 12/05/2018
 ms.keywords: GetLocalFileHeaderSize, GetLocalFileHeaderSize method [App packaging and management], GetLocalFileHeaderSize method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetLocalFileHeaderSize method, IAppxBlockMapFile.GetLocalFileHeaderSize, IAppxBlockMapFile::GetLocalFileHeaderSize, appxpackaging/IAppxBlockMapFile::GetLocalFileHeaderSize, appxpkg.iappxblockmapfile_getlocalfileheadersize
 ms.topic: method
-f1_keywords: 
- - "appxpackaging/IAppxBlockMapFile.GetLocalFileHeaderSize"
+f1_keywords:
+- appxpackaging/IAppxBlockMapFile.GetLocalFileHeaderSize
 dev_langs:
- - c++
+- c++
 req.header: appxpackaging.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - AppxPackaging.h
+- AppxPackaging.h
 api_name:
- - IAppxBlockMapFile.GetLocalFileHeaderSize
+- IAppxBlockMapFile.GetLocalFileHeaderSize
 targetos: Windows
 req.typenames: 
 req.redist: 

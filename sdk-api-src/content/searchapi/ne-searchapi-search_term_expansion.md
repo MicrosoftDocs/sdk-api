@@ -1,19 +1,17 @@
 ---
 UID: NE:searchapi._SEARCH_TERM_EXPANSION
 title: SEARCH_TERM_EXPANSION (searchapi.h)
-
 description: Indicates wildcard options on search terms. Used by ISearchQueryHelper::get_QueryTermExpansion and ISearchQueryHelper::put_QueryTermExpansion methods.
 old-location: search\_search_SEARCH_TERM_EXPANSION.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\search_term_expansion.htm
-
 ms.date: 12/05/2018
 ms.keywords: SEARCH_TERM_EXPANSION, SEARCH_TERM_EXPANSION enumeration [search], SEARCH_TERM_NO_EXPANSION, SEARCH_TERM_PREFIX_ALL, SEARCH_TERM_STEM_ALL, _search_SEARCH_TERM_EXPANSION, search._search_SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_EXPANSION, searchapi/SEARCH_TERM_NO_EXPANSION, searchapi/SEARCH_TERM_PREFIX_ALL, searchapi/SEARCH_TERM_STEM_ALL
 ms.topic: enum
-f1_keywords: 
- - "searchapi/SEARCH_TERM_EXPANSION"
+f1_keywords:
+- searchapi/SEARCH_TERM_EXPANSION
 dev_langs:
- - c++
+- c++
 req.header: searchapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Searchapi.h
+- Searchapi.h
 api_name:
- - SEARCH_TERM_EXPANSION
+- SEARCH_TERM_EXPANSION
 targetos: Windows
 req.typenames: SEARCH_TERM_EXPANSION
 req.redist: Windows Desktop Search (WDS) 3.0

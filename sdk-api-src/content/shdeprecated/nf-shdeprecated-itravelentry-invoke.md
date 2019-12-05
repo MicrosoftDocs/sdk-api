@@ -1,19 +1,17 @@
 ---
 UID: NF:shdeprecated.ITravelEntry.Invoke
 title: ITravelEntry::Invoke (shdeprecated.h)
-
 description: Deprecated. Invokes the travel entry, navigating to that page.
 old-location: shell\ITravelEntry_Invoke.htm
 tech.root: shell
 ms.assetid: 21af8d98-f7b6-4204-b855-a4789492a882
-
 ms.date: 12/05/2018
 ms.keywords: ITravelEntry interface [Windows Shell],Invoke method, ITravelEntry.Invoke, ITravelEntry::Invoke, Invoke, Invoke method [Windows Shell], Invoke method [Windows Shell],ITravelEntry interface, shdeprecated/ITravelEntry::Invoke, shell.ITravelEntry_Invoke, zone_ITravelEntry_Invoke
 ms.topic: method
-f1_keywords: 
- - "shdeprecated/ITravelEntry.Invoke"
+f1_keywords:
+- shdeprecated/ITravelEntry.Invoke
 dev_langs:
- - c++
+- c++
 req.header: shdeprecated.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Shdeprecated.h
+- Shdeprecated.h
 api_name:
- - ITravelEntry.Invoke
+- ITravelEntry.Invoke
 targetos: Windows
 req.typenames: 
 req.redist: 

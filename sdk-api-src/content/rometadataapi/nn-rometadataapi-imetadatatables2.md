@@ -1,19 +1,17 @@
 ---
 UID: NN:rometadataapi.IMetaDataTables2
 title: IMetaDataTables2 (rometadataapi.h)
-
 description: Extends IMetaDataTables to include methods for working with metadata streams.
 old-location: winrt\imetadatatables2.htm
 tech.root: WinRT
 ms.assetid: dc59fe85-b490-4f23-a32f-2942610dd8dc
-
 ms.date: 12/05/2018
 ms.keywords: IMetaDataTables2, IMetaDataTables2 interface [Windows Runtime], IMetaDataTables2 interface [Windows Runtime],described, rometadataapi/IMetaDataTables2, winrt.imetadatatables2
 ms.topic: interface
-f1_keywords: 
- - "rometadataapi/IMetaDataTables2"
+f1_keywords:
+- rometadataapi/IMetaDataTables2
 dev_langs:
- - c++
+- c++
 req.header: rometadataapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - rometadataapi.h
+- rometadataapi.h
 api_name:
- - IMetaDataTables2
+- IMetaDataTables2
 targetos: Windows
 req.typenames: 
 req.redist: 

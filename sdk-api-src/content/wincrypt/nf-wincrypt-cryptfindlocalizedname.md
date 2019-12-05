@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptFindLocalizedName
 title: CryptFindLocalizedName function (wincrypt.h)
-
 description: Finds the localized name for the specified name, such as the localize name of the &#0034;Root&#0034; system store.
 old-location: security\cryptfindlocalizedname.htm
 tech.root: SecCrypto
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c
-
 ms.date: 12/05/2018
 ms.keywords: CryptFindLocalizedName, CryptFindLocalizedName function [Security], _crypto2_cryptfindlocalizedname, security.cryptfindlocalizedname, wincrypt/CryptFindLocalizedName
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptFindLocalizedName"
+f1_keywords:
+- wincrypt/CryptFindLocalizedName
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Crypt32.lib
 req.dll: Crypt32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Crypt32.dll
+- Crypt32.dll
 api_name:
- - CryptFindLocalizedName
+- CryptFindLocalizedName
 targetos: Windows
 req.typenames: 
 req.redist: 

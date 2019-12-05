@@ -1,19 +1,17 @@
 ---
 UID: NN:faxcomex.IFaxConfiguration
 title: IFaxConfiguration (faxcomex.h)
-
 description: Defines various methods that provide configuration options for the fax service.
 old-location: fax\_mfax_IFaxConfiguration.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxconfiguration\ifaxconfiguration.htm
-
 ms.date: 12/05/2018
 ms.keywords: IFaxConfiguration, IFaxConfiguration interface [Fax Service], IFaxConfiguration interface [Fax Service],described, _mfax_IFaxConfiguration, fax._mfax_IFaxConfiguration, faxcomex/IFaxConfiguration
 ms.topic: interface
-f1_keywords: 
- - "faxcomex/IFaxConfiguration"
+f1_keywords:
+- faxcomex/IFaxConfiguration
 dev_langs:
- - c++
+- c++
 req.header: faxcomex.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Fxscomex.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Fxscomex.dll
+- Fxscomex.dll
 api_name:
- - IFaxConfiguration
+- IFaxConfiguration
 targetos: Windows
 req.typenames: 
 req.redist: 

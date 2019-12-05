@@ -1,19 +1,17 @@
 ---
 UID: NS:shlobj_core._openasinfo
 title: OPENASINFO (shlobj_core.h)
-
 description: Stores information for the SHOpenWithDialog function.
 old-location: shell\OPENASINFO.htm
 tech.root: shell
 ms.assetid: 5486c4d3-c6c5-459d-aa7f-426971184876
-
 ms.date: 12/05/2018
-ms.keywords: "*POPENASINFO, OAIF_ALLOW_REGISTRATION, OAIF_EXEC, OAIF_FILE_IS_URI, OAIF_FORCE_REGISTRATION, OAIF_HIDE_REGISTRATION, OAIF_REGISTER_EXT, OAIF_URL_PROTOCOL, OPENASINFO, OPENASINFO structure [Windows Shell], _openasinfo, _shell_OPENASINFO, shell.OPENASINFO, shlobj_core/OPENASINFO"
+ms.keywords: '*POPENASINFO, OAIF_ALLOW_REGISTRATION, OAIF_EXEC, OAIF_FILE_IS_URI, OAIF_FORCE_REGISTRATION, OAIF_HIDE_REGISTRATION, OAIF_REGISTER_EXT, OAIF_URL_PROTOCOL, OPENASINFO, OPENASINFO structure [Windows Shell], _openasinfo, _shell_OPENASINFO, shell.OPENASINFO, shlobj_core/OPENASINFO'
 ms.topic: struct
-f1_keywords: 
- - "shlobj_core/OPENASINFO"
+f1_keywords:
+- shlobj_core/OPENASINFO
 dev_langs:
- - c++
+- c++
 req.header: shlobj_core.h
 req.include-header: Shlobj.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shlobj_core.h
+- shlobj_core.h
 api_name:
- - OPENASINFO
+- OPENASINFO
 targetos: Windows
 req.typenames: OPENASINFO, *POPENASINFO
 req.redist: 

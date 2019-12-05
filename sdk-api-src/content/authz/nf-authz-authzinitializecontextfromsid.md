@@ -1,19 +1,17 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromSid
 title: AuthzInitializeContextFromSid function (authz.h)
-
 description: Creates a user-mode client context from a user security identifier (SID).
 old-location: security\authzinitializecontextfromsid.htm
 tech.root: SecAuthZ
 ms.assetid: 402a8641-5644-45c1-80e9-c60321c1ac38
-
 ms.date: 12/05/2018
 ms.keywords: AUTHZ_COMPUTE_PRIVILEGES, AUTHZ_REQUIRE_S4U_LOGON, AUTHZ_SKIP_TOKEN_GROUPS, AuthzInitializeContextFromSid, AuthzInitializeContextFromSid function [Security], _win32_authzinitializecontextfromsid, authz/AuthzInitializeContextFromSid, security.authzinitializecontextfromsid
 ms.topic: function
-f1_keywords: 
- - "authz/AuthzInitializeContextFromSid"
+f1_keywords:
+- authz/AuthzInitializeContextFromSid
 dev_langs:
- - c++
+- c++
 req.header: authz.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Authz.lib
 req.dll: Authz.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Authz.dll
- - Ext-MS-Win-authz-context-l1-1-0.dll
+- Authz.dll
+- Ext-MS-Win-authz-context-l1-1-0.dll
 api_name:
- - AuthzInitializeContextFromSid
+- AuthzInitializeContextFromSid
 targetos: Windows
 req.typenames: 
 req.redist: Windows Server 2003 Administration Tools Pack on Windows XP

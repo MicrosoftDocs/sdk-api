@@ -1,19 +1,17 @@
 ---
 UID: NS:wmsdkidl._WMT_COLORSPACEINFO_EXTENSION_DATA
 title: WMT_COLORSPACEINFO_EXTENSION_DATA (wmsdkidl.h)
-
 description: The WMT_COLORSPACEINFO_EXTENSION_DATA structure contains information about the color format of output video samples. It is used as the value for the WM_SampleExtensionGUID_ColorSpaceInfo data unit extension.
 old-location: wmformat\wmt_colorspaceinfo_extension_data.htm
 tech.root: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83
-
 ms.date: 12/05/2018
 ms.keywords: WMT_COLORSPACEINFO_EXTENSION_DATA, WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format], wmformat.wmt_colorspaceinfo_extension_data, wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
 ms.topic: struct
-f1_keywords: 
- - "wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA"
+f1_keywords:
+- wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wmsdkidl.h
+- Wmsdkidl.h
 api_name:
- - WMT_COLORSPACEINFO_EXTENSION_DATA
+- WMT_COLORSPACEINFO_EXTENSION_DATA
 targetos: Windows
 req.typenames: WMT_COLORSPACEINFO_EXTENSION_DATA
 req.redist: 

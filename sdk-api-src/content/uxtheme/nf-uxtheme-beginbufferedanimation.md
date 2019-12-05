@@ -1,19 +1,17 @@
 ---
 UID: NF:uxtheme.BeginBufferedAnimation
 title: BeginBufferedAnimation function (uxtheme.h)
-
 description: Begins a buffered animation operation. The animation consists of a cross-fade between the contents of two buffers over a specified period of time.
 old-location: controls\BeginBufferedAnimation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\beginbufferedanimation.htm
-
 ms.date: 12/05/2018
 ms.keywords: BeginBufferedAnimation, BeginBufferedAnimation function [Windows Controls], _shell_BeginBufferedAnimation, _shell_BeginBufferedAnimation_cpp, controls.BeginBufferedAnimation, controls._shell_BeginBufferedAnimation, uxtheme/BeginBufferedAnimation
 ms.topic: function
 f1_keywords:
 - uxtheme/BeginBufferedAnimation
 dev_langs:
- - c++
+- c++
 req.header: uxtheme.h
 req.include-header: 
 req.target-type: Windows

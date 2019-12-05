@@ -1,19 +1,17 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_Instancing
 title: IExeServerRegistration::get_Instancing (activationregistration.h)
-
 description: Gets the instancing behavior for the out-of-process server.
 old-location: winrt\iexeserverregistration_instancing.htm
 tech.root: WinRT
 ms.assetid: 23618FBC-2404-4AB7-9842-7FD439F677B1
-
 ms.date: 12/05/2018
 ms.keywords: IExeServerRegistration interface [Windows Runtime],get_Instancing method, IExeServerRegistration.get_Instancing, IExeServerRegistration::get_Instancing, activationregistration/IExeServerRegistration::get_Instancing, get_Instancing, get_Instancing method [Windows Runtime], get_Instancing method [Windows Runtime],IExeServerRegistration interface, winrt.iexeserverregistration_instancing
 ms.topic: method
-f1_keywords: 
- - "activationregistration/IExeServerRegistration.get_Instancing"
+f1_keywords:
+- activationregistration/IExeServerRegistration.get_Instancing
 dev_langs:
- - c++
+- c++
 req.header: activationregistration.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - activationregistration.h
+- activationregistration.h
 api_name:
- - IExeServerRegistration.get_Instancing
+- IExeServerRegistration.get_Instancing
 targetos: Windows
 req.typenames: 
 req.redist: 

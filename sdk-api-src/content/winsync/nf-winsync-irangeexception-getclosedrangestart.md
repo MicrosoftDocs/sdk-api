@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IRangeException.GetClosedRangeStart
 title: IRangeException::GetClosedRangeStart (winsync.h)
-
 description: Gets the lower bound of the range of item IDs to exclude.
 old-location: winsync\irangeexception_getclosedrangestart.htm
 tech.root: winsync
 ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4
-
 ms.date: 12/05/2018
 ms.keywords: GetClosedRangeStart, GetClosedRangeStart method [Windows Sync], GetClosedRangeStart method [Windows Sync],IRangeException interface, IRangeException interface [Windows Sync],GetClosedRangeStart method, IRangeException.GetClosedRangeStart, IRangeException::GetClosedRangeStart, winsync.irangeexception_getclosedrangestart, winsync/IRangeException::GetClosedRangeStart
 ms.topic: method
-f1_keywords: 
- - "winsync/IRangeException.GetClosedRangeStart"
+f1_keywords:
+- winsync/IRangeException.GetClosedRangeStart
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IRangeException.GetClosedRangeStart
+- IRangeException.GetClosedRangeStart
 targetos: Windows
 req.typenames: 
 req.redist: 

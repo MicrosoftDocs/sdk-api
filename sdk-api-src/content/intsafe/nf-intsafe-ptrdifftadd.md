@@ -1,19 +1,17 @@
 ---
 UID: NF:intsafe.PtrdiffTAdd
 title: PtrdiffTAdd function (intsafe.h)
-
 description: Adds two values of type ptrdiff_t.
 old-location: shell\PtrdiffTAdd.htm
 tech.root: shell
 ms.assetid: ed670d8a-ede5-47c5-9cf9-eea32609f195
-
 ms.date: 12/05/2018
 ms.keywords: PtrdiffTAdd, PtrdiffTAdd function [Windows Shell], intsafe/PtrdiffTAdd, shell.PtrdiffTAdd
 ms.topic: function
-f1_keywords: 
- - "intsafe/PtrdiffTAdd"
+f1_keywords:
+- intsafe/PtrdiffTAdd
 dev_langs:
- - c++
+- c++
 req.header: intsafe.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - intsafe.h
+- intsafe.h
 api_name:
- - PtrdiffTAdd
+- PtrdiffTAdd
 targetos: Windows
 req.typenames: 
 req.redist: 

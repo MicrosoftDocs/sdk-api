@@ -1,19 +1,17 @@
 ---
 UID: NF:propsys.IPropertyDescription.GetViewFlags
 title: IPropertyDescription::GetViewFlags (propsys.h)
-
 description: Gets the current set of flags governing the property's view.
 old-location: properties\IPropertyDescription_GetViewFlags.htm
 tech.root: properties
 ms.assetid: 73b60861-3d73-4bff-ae46-a7683d708c83
-
 ms.date: 12/05/2018
 ms.keywords: GetViewFlags, GetViewFlags method [Windows Properties], GetViewFlags method [Windows Properties],IPropertyDescription interface, IPropertyDescription interface [Windows Properties],GetViewFlags method, IPropertyDescription.GetViewFlags, IPropertyDescription::GetViewFlags, properties.IPropertyDescription_GetViewFlags, propsys/IPropertyDescription::GetViewFlags, shell.IPropertyDescription_GetViewFlags, shell_IPropertyDescription_GetViewFlags
 ms.topic: method
-f1_keywords: 
- - "propsys/IPropertyDescription.GetViewFlags"
+f1_keywords:
+- propsys/IPropertyDescription.GetViewFlags
 dev_langs:
- - c++
+- c++
 req.header: propsys.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Propsys.h
+- Propsys.h
 api_name:
- - IPropertyDescription.GetViewFlags
+- IPropertyDescription.GetViewFlags
 targetos: Windows
 req.typenames: 
 req.redist: 

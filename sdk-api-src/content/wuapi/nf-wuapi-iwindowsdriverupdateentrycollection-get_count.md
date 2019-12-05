@@ -1,19 +1,17 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdateEntryCollection.get_Count
 title: IWindowsDriverUpdateEntryCollection::get_Count (wuapi.h)
-
 description: Gets the number of elements contained in the collection.
 old-location: wua\iwindowsdriverupdateentrycollection_count.htm
 tech.root: Wua_Sdk
 ms.assetid: a3fb3a1c-f555-4443-9afc-9ad6e613fdda
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Windows Update Agent], Count property [Windows Update Agent],IWindowsDriverUpdateEntryCollection interface, IWindowsDriverUpdateEntryCollection interface [Windows Update Agent],Count property, IWindowsDriverUpdateEntryCollection.Count, IWindowsDriverUpdateEntryCollection.get_Count, IWindowsDriverUpdateEntryCollection::Count, IWindowsDriverUpdateEntryCollection::get_Count, get_Count, wua.iwindowsdriverupdateentrycollection_count, wuapi/IWindowsDriverUpdateEntryCollection::Count, wuapi/IWindowsDriverUpdateEntryCollection::get_Count
 ms.topic: method
-f1_keywords: 
- - "wuapi/IWindowsDriverUpdateEntryCollection.Count"
+f1_keywords:
+- wuapi/IWindowsDriverUpdateEntryCollection.Count
 dev_langs:
- - c++
+- c++
 req.header: wuapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Wuguid.lib
 req.dll: Wuapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wuapi.dll
+- Wuapi.dll
 api_name:
- - IWindowsDriverUpdateEntryCollection.Count
- - IWindowsDriverUpdateEntryCollection.get_Count
+- IWindowsDriverUpdateEntryCollection.Count
+- IWindowsDriverUpdateEntryCollection.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

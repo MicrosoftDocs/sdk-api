@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IShellLibrary
 title: IShellLibrary (shobjidl_core.h)
-
 description: Exposes methods for creating and managing libraries.
 old-location: shell\IShellLibrary.htm
 tech.root: shell
 ms.assetid: c1ef3d22-7c88-42b0-93a2-5d1b75c327ba
-
 ms.date: 12/05/2018
 ms.keywords: IShellLibrary, IShellLibrary interface [Windows Shell], IShellLibrary interface [Windows Shell],described, _shell_IShellLibrary, shell.IShellLibrary, shobjidl_core/IShellLibrary
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IShellLibrary"
+f1_keywords:
+- shobjidl_core/IShellLibrary
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IShellLibrary
+- IShellLibrary
 targetos: Windows
 req.typenames: 
 req.redist: 

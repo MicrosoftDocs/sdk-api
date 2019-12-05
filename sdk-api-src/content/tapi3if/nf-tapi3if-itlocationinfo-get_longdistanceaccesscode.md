@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_LongDistanceAccessCode
 title: ITLocationInfo::get_LongDistanceAccessCode (tapi3if.h)
-
 description: The get_LongDistanceAccessCode method gets the code to access long distance.
 old-location: tapi3\itlocationinfo_get_longdistanceaccesscode.htm
 tech.root: Tapi
 ms.assetid: c35e6a6a-3740-4595-90cd-709b4c9a42d1
-
 ms.date: 12/05/2018
 ms.keywords: ITLocationInfo interface [TAPI 2.2],get_LongDistanceAccessCode method, ITLocationInfo.get_LongDistanceAccessCode, ITLocationInfo::get_LongDistanceAccessCode, _tapi3_itlocationinfo_get_longdistanceaccesscode, get_LongDistanceAccessCode, get_LongDistanceAccessCode method [TAPI 2.2], get_LongDistanceAccessCode method [TAPI 2.2],ITLocationInfo interface, tapi3.itlocationinfo_get_longdistanceaccesscode, tapi3if/ITLocationInfo::get_LongDistanceAccessCode
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITLocationInfo.get_LongDistanceAccessCode"
+f1_keywords:
+- tapi3if/ITLocationInfo.get_LongDistanceAccessCode
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITLocationInfo.get_LongDistanceAccessCode
+- ITLocationInfo.get_LongDistanceAccessCode
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:aclui.ISecurityInformation.PropertySheetPageCallback
 title: ISecurityInformation::PropertySheetPageCallback (aclui.h)
-
 description: The PropertySheetPageCallback method notifies an EditSecurity or CreateSecurityPage caller that an access control editor property page is being created or destroyed.
 old-location: security\isecurityinformation_propertysheetpagecallback.htm
 tech.root: SecAuthZ
 ms.assetid: 9b891e64-e648-44a4-add6-d4c214394be8
-
 ms.date: 12/05/2018
 ms.keywords: ISecurityInformation interface [Security],PropertySheetPageCallback method, ISecurityInformation.PropertySheetPageCallback, ISecurityInformation::PropertySheetPageCallback, PSPCB_CREATE, PSPCB_RELEASE, PSPCB_SI_INITDIALOG, PropertySheetPageCallback, PropertySheetPageCallback method [Security], PropertySheetPageCallback method [Security],ISecurityInformation interface, _win32_isecurityinformation_propertysheetpagecallback, aclui/ISecurityInformation::PropertySheetPageCallback, security.isecurityinformation_propertysheetpagecallback
 ms.topic: method
 f1_keywords:
 - aclui/ISecurityInformation.PropertySheetPageCallback
 dev_langs:
- - c++
+- c++
 req.header: aclui.h
 req.include-header: 
 req.target-type: Windows

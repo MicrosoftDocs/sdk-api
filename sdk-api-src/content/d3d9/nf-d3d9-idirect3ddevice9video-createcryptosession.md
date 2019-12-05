@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.CreateCryptoSession
 title: IDirect3DDevice9Video::CreateCryptoSession (d3d9.h)
-
 description: Creates a cryptographic session to encrypt video content that is sent to the display driver.
 old-location: mf\idirect3ddevice9video_createcryptosession.htm
 tech.root: medfound
 ms.assetid: 1c0e3aa4-94d5-4398-a6c0-5466a437162d
-
 ms.date: 12/05/2018
 ms.keywords: CreateCryptoSession, CreateCryptoSession method [Media Foundation], CreateCryptoSession method [Media Foundation],IDirect3DDevice9Video interface, D3DCRYPTOTYPE_AES128_CTR, D3DCRYPTOTYPE_PROPRIETARY, IDirect3DDevice9Video interface [Media Foundation],CreateCryptoSession method, IDirect3DDevice9Video.CreateCryptoSession, IDirect3DDevice9Video::CreateCryptoSession, d3d9/IDirect3DDevice9Video::CreateCryptoSession, mf.idirect3ddevice9video_createcryptosession
 ms.topic: method
-f1_keywords: 
- - "d3d9/IDirect3DDevice9Video.CreateCryptoSession"
+f1_keywords:
+- d3d9/IDirect3DDevice9Video.CreateCryptoSession
 dev_langs:
- - c++
+- c++
 req.header: d3d9.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - d3d9.h
+- d3d9.h
 api_name:
- - IDirect3DDevice9Video.CreateCryptoSession
+- IDirect3DDevice9Video.CreateCryptoSession
 targetos: Windows
 req.typenames: 
 req.redist: 

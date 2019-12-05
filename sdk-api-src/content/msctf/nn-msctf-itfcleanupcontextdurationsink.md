@@ -1,19 +1,17 @@
 ---
 UID: NN:msctf.ITfCleanupContextDurationSink
 title: ITfCleanupContextDurationSink (msctf.h)
-
 description: The ITfCleanupContextDurationSink interface is implemented by a text service to receive notifications when a context cleanup operation is performed.
 old-location: tsf\itfcleanupcontextdurationsink.htm
 tech.root: TSF
 ms.assetid: 2bbdc26a-5543-4de4-b347-2062be593c4b
-
 ms.date: 12/05/2018
 ms.keywords: ITfCleanupContextDurationSink, ITfCleanupContextDurationSink interface [Text Services Framework], ITfCleanupContextDurationSink interface [Text Services Framework],described, _tsf_itfcleanupcontextdurationsink_ref, msctf/ITfCleanupContextDurationSink, tsf.itfcleanupcontextdurationsink
 ms.topic: interface
-f1_keywords: 
- - "msctf/ITfCleanupContextDurationSink"
+f1_keywords:
+- msctf/ITfCleanupContextDurationSink
 dev_langs:
- - c++
+- c++
 req.header: msctf.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Imekrcic.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - imekrcic.dll
+- imekrcic.dll
 api_name:
- - ITfCleanupContextDurationSink
+- ITfCleanupContextDurationSink
 targetos: Windows
 req.typenames: 
 req.redist: TSF 1.0 on Windows 2000 Professional

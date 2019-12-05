@@ -1,19 +1,17 @@
 ---
 UID: NF:winsync.IChangeUnitException.GetItemId
 title: IChangeUnitException::GetItemId (winsync.h)
-
 description: Gets the item ID for the item that contains the change unit that is associated with the exception.
 old-location: winsync\ichangeunitexception_getitemid.htm
 tech.root: winsync
 ms.assetid: d5c76ecf-bd3f-4a0a-9fba-4fd51591d39f
-
 ms.date: 12/05/2018
 ms.keywords: GetItemId, GetItemId method [Windows Sync], GetItemId method [Windows Sync],IChangeUnitException interface, IChangeUnitException interface [Windows Sync],GetItemId method, IChangeUnitException.GetItemId, IChangeUnitException::GetItemId, winsync.ichangeunitexception_getitemid, winsync/IChangeUnitException::GetItemId
 ms.topic: method
-f1_keywords: 
- - "winsync/IChangeUnitException.GetItemId"
+f1_keywords:
+- winsync/IChangeUnitException.GetItemId
 dev_langs:
- - c++
+- c++
 req.header: winsync.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - winsync.h
+- winsync.h
 api_name:
- - IChangeUnitException.GetItemId
+- IChangeUnitException.GetItemId
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:callobj.CALLFRAME_FREE
 title: CALLFRAME_FREE (callobj.h)
-
 description: Determines the parameter type to be freed.
 old-location: com\callframe_free.htm
 tech.root: com
 ms.assetid: 6a048133-7a89-4b55-afd3-5eb722d41914
-
 ms.date: 12/05/2018
 ms.keywords: CALLFRAME_FREE, CALLFRAME_FREE enumeration [COM], CALLFRAME_FREE_ALL, CALLFRAME_FREE_IN, CALLFRAME_FREE_INOUT, CALLFRAME_FREE_NONE, CALLFRAME_FREE_OUT, CALLFRAME_FREE_TOP_INOUT, CALLFRAME_FREE_TOP_OUT, _com_CALLFRAME_FREE, callobj/CALLFRAME_FREE, callobj/CALLFRAME_FREE_ALL, callobj/CALLFRAME_FREE_IN, callobj/CALLFRAME_FREE_INOUT, callobj/CALLFRAME_FREE_NONE, callobj/CALLFRAME_FREE_OUT, callobj/CALLFRAME_FREE_TOP_INOUT, callobj/CALLFRAME_FREE_TOP_OUT, com.callframe_free
 ms.topic: enum
-f1_keywords: 
- - "callobj/CALLFRAME_FREE"
+f1_keywords:
+- callobj/CALLFRAME_FREE
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - CallObj.h
+- CallObj.h
 api_name:
- - CALLFRAME_FREE
+- CALLFRAME_FREE
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:winldap.ldap_next_attributeW
 title: ldap_next_attributeW function (winldap.h)
-
 description: Returns the next attribute.
 old-location: ldap\ldap_next_attribute.htm
 tech.root: ldap
 ms.assetid: 4df50d80-0d01-4d7f-b542-865b84bac2a5
-
 ms.date: 12/05/2018
-ms.keywords: "_ldap_ldap_next_attribute, ldap.ldap__next__attribute, ldap.ldap_next_attribute, ldap_next_attribute, ldap_next_attribute function [LDAP], ldap_next_attributeA, ldap_next_attributeW, winldap/ldap_next_attribute, winldap/ldap_next_attributeA, winldap/ldap_next_attributeW"
+ms.keywords: _ldap_ldap_next_attribute, ldap.ldap__next__attribute, ldap.ldap_next_attribute, ldap_next_attribute, ldap_next_attribute function [LDAP], ldap_next_attributeA, ldap_next_attributeW, winldap/ldap_next_attribute, winldap/ldap_next_attributeA, winldap/ldap_next_attributeW
 ms.topic: function
-f1_keywords: 
- - "winldap/ldap_next_attribute"
+f1_keywords:
+- winldap/ldap_next_attribute
 dev_langs:
- - c++
+- c++
 req.header: winldap.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Wldap32.lib
 req.dll: Wldap32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Wldap32.dll
+- Wldap32.dll
 api_name:
- - ldap_next_attribute
- - ldap_next_attributeA
- - ldap_next_attributeW
+- ldap_next_attribute
+- ldap_next_attributeA
+- ldap_next_attributeW
 targetos: Windows
 req.typenames: 
 req.redist: 

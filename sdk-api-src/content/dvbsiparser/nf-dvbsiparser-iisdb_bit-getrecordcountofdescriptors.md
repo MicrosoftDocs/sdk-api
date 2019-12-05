@@ -1,19 +1,17 @@
 ---
 UID: NF:dvbsiparser.IISDB_BIT.GetRecordCountOfDescriptors
 title: IISDB_BIT::GetRecordCountOfDescriptors (dvbsiparser.h)
-
 description: Returns the number of descriptors for subtables in an Integrated Services Digital Broadcasting (ISDB) broadcaster information table (BIT).
 old-location: mstv\iisdb_bit_getrecordcountofdescriptors.htm
 tech.root: mstv
 ms.assetid: 08df6f74-dbeb-4d32-8b0f-4ec88d35ff36
-
 ms.date: 12/05/2018
 ms.keywords: GetRecordCountOfDescriptors, GetRecordCountOfDescriptors method [Microsoft TV Technologies], GetRecordCountOfDescriptors method [Microsoft TV Technologies],IISDB_BIT interface, IISDB_BIT interface [Microsoft TV Technologies],GetRecordCountOfDescriptors method, IISDB_BIT.GetRecordCountOfDescriptors, IISDB_BIT::GetRecordCountOfDescriptors, dvbsiparser/IISDB_BIT::GetRecordCountOfDescriptors, mstv.iisdb_bit_getrecordcountofdescriptors
 ms.topic: method
-f1_keywords: 
- - "dvbsiparser/IISDB_BIT.GetRecordCountOfDescriptors"
+f1_keywords:
+- dvbsiparser/IISDB_BIT.GetRecordCountOfDescriptors
 dev_langs:
- - c++
+- c++
 req.header: dvbsiparser.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dvbsiparser.h
+- dvbsiparser.h
 api_name:
- - IISDB_BIT.GetRecordCountOfDescriptors
+- IISDB_BIT.GetRecordCountOfDescriptors
 targetos: Windows
 req.typenames: 
 req.redist: 

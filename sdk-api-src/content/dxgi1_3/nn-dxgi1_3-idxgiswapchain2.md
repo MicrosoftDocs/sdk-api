@@ -1,19 +1,17 @@
 ---
 UID: NN:dxgi1_3.IDXGISwapChain2
 title: IDXGISwapChain2 (dxgi1_3.h)
-
 description: Extends IDXGISwapChain1 with methods to support swap back buffer scaling and lower-latency swap chains.
 old-location: direct3ddxgi\idxgiswapchain2.htm
 tech.root: direct3ddxgi
 ms.assetid: 1E14EAF6-5EEA-4B4A-8F5F-0BC779093654
-
 ms.date: 12/05/2018
 ms.keywords: IDXGISwapChain2, IDXGISwapChain2 interface [DXGI], IDXGISwapChain2 interface [DXGI],described, direct3ddxgi.idxgiswapchain2, dxgi1_3/IDXGISwapChain2
 ms.topic: interface
-f1_keywords: 
- - "dxgi1_3/IDXGISwapChain2"
+f1_keywords:
+- dxgi1_3/IDXGISwapChain2
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_3.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dxgi.lib
- - dxgi.dll
+- dxgi.lib
+- dxgi.dll
 api_name:
- - IDXGISwapChain2
+- IDXGISwapChain2
 targetos: Windows
 req.typenames: 
 req.redist: 

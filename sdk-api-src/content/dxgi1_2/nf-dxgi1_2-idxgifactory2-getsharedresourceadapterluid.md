@@ -1,19 +1,17 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.GetSharedResourceAdapterLuid
 title: IDXGIFactory2::GetSharedResourceAdapterLuid (dxgi1_2.h)
-
 description: Identifies the adapter on which a shared resource object was created.
 old-location: direct3ddxgi\idxgifactory2_getsharedresourceadapterluid.htm
 tech.root: direct3ddxgi
 ms.assetid: 278F1C2B-6DE7-4D4A-8C6E-10B1004B8EFC
-
 ms.date: 12/05/2018
 ms.keywords: GetSharedResourceAdapterLuid, GetSharedResourceAdapterLuid method [DXGI], GetSharedResourceAdapterLuid method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],GetSharedResourceAdapterLuid method, IDXGIFactory2.GetSharedResourceAdapterLuid, IDXGIFactory2::GetSharedResourceAdapterLuid, direct3ddxgi.idxgifactory2_getsharedresourceadapterluid, dxgi1_2/IDXGIFactory2::GetSharedResourceAdapterLuid
 ms.topic: method
-f1_keywords: 
- - "dxgi1_2/IDXGIFactory2.GetSharedResourceAdapterLuid"
+f1_keywords:
+- dxgi1_2/IDXGIFactory2.GetSharedResourceAdapterLuid
 dev_langs:
- - c++
+- c++
 req.header: dxgi1_2.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Dxgi.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Dxgi.lib
- - Dxgi.dll
+- Dxgi.lib
+- Dxgi.dll
 api_name:
- - IDXGIFactory2.GetSharedResourceAdapterLuid
+- IDXGIFactory2.GetSharedResourceAdapterLuid
 targetos: Windows
 req.typenames: 
 req.redist: 

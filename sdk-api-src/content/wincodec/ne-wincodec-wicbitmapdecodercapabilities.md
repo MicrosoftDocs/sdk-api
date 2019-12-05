@@ -1,19 +1,17 @@
 ---
 UID: NE:wincodec.WICBitmapDecoderCapabilities
 title: WICBitmapDecoderCapabilities (wincodec.h)
-
 description: Specifies the capabilities of the decoder.
 old-location: wic\_wic_codec_wicbitmapdecodercapabilities.htm
 tech.root: wic
 ms.assetid: e501b8f7-3c99-461d-be92-dca80f5657c5
-
 ms.date: 12/05/2018
 ms.keywords: WICBitmapDecoderCapabilities, WICBitmapDecoderCapabilities enumeration [Windows Imaging Component], WICBitmapDecoderCapabilityCanDecodeAllImages, WICBitmapDecoderCapabilityCanDecodeSomeImages, WICBitmapDecoderCapabilityCanDecodeThumbnail, WICBitmapDecoderCapabilityCanEnumerateMetadata, WICBitmapDecoderCapabilitySameEncoder, _wic_codec_wicbitmapdecodercapabilities, wic._wic_codec_wicbitmapdecodercapabilities, wincodec/WICBitmapDecoderCapabilities, wincodec/WICBitmapDecoderCapabilityCanDecodeAllImages, wincodec/WICBitmapDecoderCapabilityCanDecodeSomeImages, wincodec/WICBitmapDecoderCapabilityCanDecodeThumbnail, wincodec/WICBitmapDecoderCapabilityCanEnumerateMetadata, wincodec/WICBitmapDecoderCapabilitySameEncoder
 ms.topic: enum
-f1_keywords: 
- - "wincodec/WICBitmapDecoderCapabilities"
+f1_keywords:
+- wincodec/WICBitmapDecoderCapabilities
 dev_langs:
- - c++
+- c++
 req.header: wincodec.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Wincodec.h
+- Wincodec.h
 api_name:
- - WICBitmapDecoderCapabilities
+- WICBitmapDecoderCapabilities
 targetos: Windows
 req.typenames: WICBitmapDecoderCapabilities
 req.redist: 

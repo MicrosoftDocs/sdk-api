@@ -1,19 +1,17 @@
 ---
 UID: NS:mprapi._IKEV2_PROJECTION_INFO
 title: IKEV2_PROJECTION_INFO (mprapi.h)
-
 description: Contains information obtained during Internet Key Exchange (IKE) negotiation.
 old-location: rras\ikev2_projection_info.htm
 tech.root: RRAS
 ms.assetid: 092ccaf9-d109-41a8-aa45-cf39f6bb70ca
-
 ms.date: 12/05/2018
-ms.keywords: "*PIKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO structure [RAS], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, MPRAPI_IKEV2_AUTH_USING_CERT, MPRAPI_IKEV2_AUTH_USING_EAP, PIKEV2_PROJECTION_INFO, PIKEV2_PROJECTION_INFO structure pointer [RAS], mprapi/IKEV2_PROJECTION_INFO, mprapi/PIKEV2_PROJECTION_INFO, rras.ikev2_projection_info"
+ms.keywords: '*PIKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO, IKEV2_PROJECTION_INFO structure [RAS], IPSEC_CIPHER_TYPE_3DES, IPSEC_CIPHER_TYPE_AES_128, IPSEC_CIPHER_TYPE_AES_192, IPSEC_CIPHER_TYPE_AES_256, MPRAPI_IKEV2_AUTH_USING_CERT, MPRAPI_IKEV2_AUTH_USING_EAP, PIKEV2_PROJECTION_INFO, PIKEV2_PROJECTION_INFO structure pointer [RAS], mprapi/IKEV2_PROJECTION_INFO, mprapi/PIKEV2_PROJECTION_INFO, rras.ikev2_projection_info'
 ms.topic: struct
-f1_keywords: 
- - "mprapi/IKEV2_PROJECTION_INFO"
+f1_keywords:
+- mprapi/IKEV2_PROJECTION_INFO
 dev_langs:
- - c++
+- c++
 req.header: mprapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Mprapi.h
+- Mprapi.h
 api_name:
- - IKEV2_PROJECTION_INFO
+- IKEV2_PROJECTION_INFO
 targetos: Windows
 req.typenames: IKEV2_PROJECTION_INFO, *PIKEV2_PROJECTION_INFO
 req.redist: 

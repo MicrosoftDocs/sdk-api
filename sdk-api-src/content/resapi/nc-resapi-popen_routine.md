@@ -1,19 +1,17 @@
 ---
 UID: NC:resapi.POPEN_ROUTINE
 title: POPEN_ROUTINE (resapi.h)
-
 description: Opens a resource.
 old-location: mscs\open.htm
 tech.root: MsCS
 ms.assetid: 0a5c10c5-0380-4638-b49d-396be3b3c0dd
-
 ms.date: 12/05/2018
 ms.keywords: Open, Open callback, Open callback function [Failover Cluster], POPEN_ROUTINE, POPEN_ROUTINE callback function [Failover Cluster], _wolf_open, mscs.open, resapi/Open, resapi/POPEN_ROUTINE
 ms.topic: callback
-f1_keywords: 
- - "resapi/Open"
+f1_keywords:
+- resapi/Open
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - UserDefined
+- UserDefined
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - Open
+- Open
 targetos: Windows
 req.typenames: 
 req.redist: 

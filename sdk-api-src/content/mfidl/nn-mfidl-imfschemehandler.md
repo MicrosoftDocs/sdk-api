@@ -1,19 +1,17 @@
 ---
 UID: NN:mfidl.IMFSchemeHandler
 title: IMFSchemeHandler (mfidl.h)
-
 description: Creates a media source or a byte stream from a URL.
 old-location: mf\imfschemehandler.htm
 tech.root: medfound
 ms.assetid: a342054e-2cb5-494a-a2f7-d144c72d1fa5
-
 ms.date: 12/05/2018
 ms.keywords: IMFSchemeHandler, IMFSchemeHandler interface [Media Foundation], IMFSchemeHandler interface [Media Foundation],described, a342054e-2cb5-494a-a2f7-d144c72d1fa5, mf.imfschemehandler, mfidl/IMFSchemeHandler
 ms.topic: interface
-f1_keywords: 
- - "mfidl/IMFSchemeHandler"
+f1_keywords:
+- mfidl/IMFSchemeHandler
 dev_langs:
- - c++
+- c++
 req.header: mfidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFSchemeHandler
+- IMFSchemeHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NS:resapi.RESUTIL_PROPERTY_ITEM
 title: RESUTIL_PROPERTY_ITEM (resapi.h)
-
 description: Contains information about a cluster object property. An array of RESUTIL_PROPERTY_ITEM structures forms a property table which can be used in property operations.
 old-location: mscs\resutil_property_item.htm
 tech.root: MsCS
 ms.assetid: f65ee50f-59f7-44db-ad69-b29b3e693c7e
-
 ms.date: 12/05/2018
-ms.keywords: "*PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM structure pointer [Failover Cluster], RESUTIL_PROPERTY_ITEM, RESUTIL_PROPERTY_ITEM structure [Failover Cluster], RESUTIL_PROPITEM_READ_ONLY, RESUTIL_PROPITEM_REQUIRED, RESUTIL_PROPITEM_SIGNED, _wolf_resutil_property_item, mscs.resutil_property_item, resapi/PRESUTIL_PROPERTY_ITEM, resapi/RESUTIL_PROPERTY_ITEM"
+ms.keywords: '*PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM, PRESUTIL_PROPERTY_ITEM structure pointer [Failover Cluster], RESUTIL_PROPERTY_ITEM, RESUTIL_PROPERTY_ITEM structure [Failover Cluster], RESUTIL_PROPITEM_READ_ONLY, RESUTIL_PROPITEM_REQUIRED, RESUTIL_PROPITEM_SIGNED, _wolf_resutil_property_item, mscs.resutil_property_item, resapi/PRESUTIL_PROPERTY_ITEM, resapi/RESUTIL_PROPERTY_ITEM'
 ms.topic: struct
-f1_keywords: 
- - "resapi/RESUTIL_PROPERTY_ITEM"
+f1_keywords:
+- resapi/RESUTIL_PROPERTY_ITEM
 dev_langs:
- - c++
+- c++
 req.header: resapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - ResApi.h
+- ResApi.h
 api_name:
- - RESUTIL_PROPERTY_ITEM
+- RESUTIL_PROPERTY_ITEM
 targetos: Windows
 req.typenames: RESUTIL_PROPERTY_ITEM, *PRESUTIL_PROPERTY_ITEM
 req.redist: 

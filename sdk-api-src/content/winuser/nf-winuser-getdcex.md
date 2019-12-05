@@ -1,19 +1,17 @@
 ---
 UID: NF:winuser.GetDCEx
 title: GetDCEx function (winuser.h)
-
 description: The GetDCEx function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.
 old-location: gdi\getdcex.htm
 tech.root: gdi
 ms.assetid: 590cf928-0ad6-43f8-97e9-1dafbcfa9f49
-
 ms.date: 12/05/2018
 ms.keywords: DCX_CACHE, DCX_CLIPCHILDREN, DCX_CLIPSIBLINGS, DCX_EXCLUDERGN, DCX_INTERSECTRGN, DCX_INTERSECTUPDATE, DCX_LOCKWINDOWUPDATE, DCX_NORESETATTRS, DCX_PARENTCLIP, DCX_VALIDATE, DCX_WINDOW, GetDCEx, GetDCEx function [Windows GDI], _win32_GetDCEx, gdi.getdcex, winuser/GetDCEx
 ms.topic: function
-f1_keywords: 
- - "winuser/GetDCEx"
+f1_keywords:
+- winuser/GetDCEx
 dev_langs:
- - c++
+- c++
 req.header: winuser.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: User32.lib
 req.dll: User32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - user32.dll
- - Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
- - MinUser.dll
+- user32.dll
+- Ext-MS-Win-RTCore-NTUser-DC-Access-L1-1-1.dll
+- MinUser.dll
 api_name:
- - GetDCEx
+- GetDCEx
 targetos: Windows
 req.typenames: 
 req.redist: 

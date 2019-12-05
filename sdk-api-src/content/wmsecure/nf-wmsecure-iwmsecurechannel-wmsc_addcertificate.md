@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_AddCertificate
 title: IWMSecureChannel::WMSC_AddCertificate (wmsecure.h)
-
 description: The WMSC_AddCertificate method adds certificates that this object can present to other secure channel objects. If no certs are added, then this object can only connect to objects with no signatures.
 old-location: wmformat\iwmsecurechannel_wmsc_addcertificate.htm
 tech.root: wmformat
 ms.assetid: 0e5fbd9e-1669-4e0e-90b6-1542cc6d2ae4
-
 ms.date: 12/05/2018
 ms.keywords: IWMSecureChannel interface [windows Media Format],WMSC_AddCertificate method, IWMSecureChannel.WMSC_AddCertificate, IWMSecureChannel::WMSC_AddCertificate, WMSC_AddCertificate, WMSC_AddCertificate method [windows Media Format], WMSC_AddCertificate method [windows Media Format],IWMSecureChannel interface, wmformat.iwmsecurechannel_wmsc_addcertificate, wmsecure/IWMSecureChannel::WMSC_AddCertificate
 ms.topic: method
-f1_keywords: 
- - "wmsecure/IWMSecureChannel.WMSC_AddCertificate"
+f1_keywords:
+- wmsecure/IWMSecureChannel.WMSC_AddCertificate
 dev_langs:
- - c++
+- c++
 req.header: wmsecure.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmsecure.h
+- Wmsecure.h
 api_name:
- - IWMSecureChannel.WMSC_AddCertificate
+- IWMSecureChannel.WMSC_AddCertificate
 targetos: Windows
 req.typenames: 
 req.redist: 

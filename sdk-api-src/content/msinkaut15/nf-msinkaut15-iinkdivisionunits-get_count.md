@@ -1,19 +1,17 @@
 ---
 UID: NF:msinkaut15.IInkDivisionUnits.get_Count
 title: IInkDivisionUnits::get_Count (msinkaut15.h)
-
 description: Gets the number of objects or collections contained in a collection.
 old-location: tablet\iinkdivisionunits_count.htm
 tech.root: tablet
 ms.assetid: 049c91a6-7eeb-452b-a53e-30e44cda0f92
-
 ms.date: 12/05/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkDivisionUnits interface, IInkDivisionUnits interface [Tablet PC],Count property, IInkDivisionUnits.Count, IInkDivisionUnits.get_Count, IInkDivisionUnits::Count, IInkDivisionUnits::get_Count, get_Count, msinkaut15/IInkDivisionUnits::Count, msinkaut15/IInkDivisionUnits::get_Count, tablet.iinkdivisionunits_count
 ms.topic: method
-f1_keywords: 
- - "msinkaut15/IInkDivisionUnits.Count"
+f1_keywords:
+- msinkaut15/IInkDivisionUnits.Count
 dev_langs:
- - c++
+- c++
 req.header: msinkaut15.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Inkdiv.dll
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Inkdiv.dll
- - Inkdiv.dll.dll
+- Inkdiv.dll
+- Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnits.Count
- - IInkDivisionUnits.get_Count
- - IInkDivisionUnits.get_Count
+- IInkDivisionUnits.Count
+- IInkDivisionUnits.get_Count
+- IInkDivisionUnits.get_Count
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NE:uiautomationclient.CoalesceEventsOptions
 title: CoalesceEventsOptions (uiautomationclient.h)
-
 description: Contains possible values for the CoalesceEvents property, which indicates whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
 old-location: winauto\uiauto_coalesceeventsoptions_enum.htm
 tech.root: WinAuto
 ms.assetid: 2CE5A02A-40B4-43BE-863E-08AD9B2A9F75
-
 ms.date: 12/05/2018
 ms.keywords: CoalesceEventsOptions, CoalesceEventsOptions enumeration [Windows Accessibility], CoalesceEventsOptions_Disabled, CoalesceEventsOptions_Enabled, uiautomationclient/CoalesceEventsOptions, uiautomationclient/CoalesceEventsOptions_Disabled, uiautomationclient/CoalesceEventsOptions_Enabled, winauto.uiauto_coalesceeventsoptions_enum
 ms.topic: enum
-f1_keywords: 
- - "uiautomationclient/CoalesceEventsOptions"
+f1_keywords:
+- uiautomationclient/CoalesceEventsOptions
 dev_langs:
- - c++
+- c++
 req.header: uiautomationclient.h
 req.include-header: UIAutomation.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - UIAutomationClient.h
+- UIAutomationClient.h
 api_name:
- - CoalesceEventsOptions
+- CoalesceEventsOptions
 targetos: Windows
 req.typenames: 
 req.redist: 

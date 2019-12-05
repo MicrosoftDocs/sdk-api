@@ -1,19 +1,17 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriterInfo.CreateInstance
 title: IWICMetadataWriterInfo::CreateInstance (wincodecsdk.h)
-
 description: Creates an instance of an IWICMetadataWriter.
 old-location: wic\_wic_codec_iwicmetadatawriterinfo_createinstance.htm
 tech.root: wic
 ms.assetid: d4c701f7-7f79-41d8-864e-41e044b0ea09
-
 ms.date: 12/05/2018
 ms.keywords: CreateInstance, CreateInstance method [Windows Imaging Component], CreateInstance method [Windows Imaging Component],IWICMetadataWriterInfo interface, IWICMetadataWriterInfo interface [Windows Imaging Component],CreateInstance method, IWICMetadataWriterInfo.CreateInstance, IWICMetadataWriterInfo::CreateInstance, _wic_codec_iwicmetadatawriterinfo_createinstance, wic._wic_codec_iwicmetadatawriterinfo_createinstance, wincodecsdk/IWICMetadataWriterInfo::CreateInstance
 ms.topic: method
-f1_keywords: 
- - "wincodecsdk/IWICMetadataWriterInfo.CreateInstance"
+f1_keywords:
+- wincodecsdk/IWICMetadataWriterInfo.CreateInstance
 dev_langs:
- - c++
+- c++
 req.header: wincodecsdk.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Windowscodecs.lib
 req.dll: Windowscodecs.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Windowscodecs.dll
+- Windowscodecs.dll
 api_name:
- - IWICMetadataWriterInfo.CreateInstance
+- IWICMetadataWriterInfo.CreateInstance
 targetos: Windows
 req.typenames: 
 req.redist: 

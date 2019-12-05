@@ -1,19 +1,17 @@
 ---
 UID: NF:iscsidsc.SetIScsiTunnelModeOuterAddressA
 title: SetIScsiTunnelModeOuterAddressA function (iscsidsc.h)
-
 description: SetIscsiTunnelModeOuterAddress function establishes the tunnel-mode outer address that the indicated initiator Host Bus Adapter (HBA) uses when communicating in IPsec tunnel mode through the specified port.
 old-location: iscsidisc\setiscsitunnelmodeouteraddress.htm
 tech.root: iSCSIDisc
 ms.assetid: fdf84037-a546-49fd-9af4-21ea001587f3
-
 ms.date: 12/05/2018
 ms.keywords: SetIScsiTunnelModeOuterAddressA, SetIscsiTunnelModeOuterAddress, SetIscsiTunnelModeOuterAddress function [iSCSI Discovery Library API], SetIscsiTunnelModeOuterAddressA, SetIscsiTunnelModeOuterAddressW, iscsidisc.setiscsitunnelmodeouteraddress, iscsidsc/SetIscsiTunnelModeOuterAddress, iscsidsc/SetIscsiTunnelModeOuterAddressA, iscsidsc/SetIscsiTunnelModeOuterAddressW
 ms.topic: function
-f1_keywords: 
- - "iscsidsc/SetIscsiTunnelModeOuterAddress"
+f1_keywords:
+- iscsidsc/SetIscsiTunnelModeOuterAddress
 dev_langs:
- - c++
+- c++
 req.header: iscsidsc.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Iscsidsc.lib
 req.dll: Iscsidsc.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Iscsidsc.dll
+- Iscsidsc.dll
 api_name:
- - SetIscsiTunnelModeOuterAddress
- - SetIscsiTunnelModeOuterAddressA
- - SetIscsiTunnelModeOuterAddressW
+- SetIscsiTunnelModeOuterAddress
+- SetIscsiTunnelModeOuterAddressA
+- SetIscsiTunnelModeOuterAddressW
 targetos: Windows
 req.typenames: 
 req.redist: 

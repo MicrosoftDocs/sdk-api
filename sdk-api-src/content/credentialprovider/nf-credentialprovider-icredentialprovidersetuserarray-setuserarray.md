@@ -1,19 +1,17 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderSetUserArray.SetUserArray
 title: ICredentialProviderSetUserArray::SetUserArray (credentialprovider.h)
-
 description: Called by the system during the initialization of a logon or credential UI to retrieve the set of users to show in that UI.
 old-location: shell\ICredentialProviderSetUserArray_SetUserArray.htm
 tech.root: shell
 ms.assetid: 14A9DFBD-7B44-4983-8B02-5880017B9B04
-
 ms.date: 12/05/2018
 ms.keywords: ICredentialProviderSetUserArray interface [Windows Shell],SetUserArray method, ICredentialProviderSetUserArray.SetUserArray, ICredentialProviderSetUserArray::SetUserArray, SetUserArray, SetUserArray method [Windows Shell], SetUserArray method [Windows Shell],ICredentialProviderSetUserArray interface, credentialprovider/ICredentialProviderSetUserArray::SetUserArray, shell.ICredentialProviderSetUserArray_SetUserArray
 ms.topic: method
-f1_keywords: 
- - "credentialprovider/ICredentialProviderSetUserArray.SetUserArray"
+f1_keywords:
+- credentialprovider/ICredentialProviderSetUserArray.SetUserArray
 dev_langs:
- - c++
+- c++
 req.header: credentialprovider.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CredentialProvider.h
+- CredentialProvider.h
 api_name:
- - ICredentialProviderSetUserArray.SetUserArray
+- ICredentialProviderSetUserArray.SetUserArray
 targetos: Windows
 req.typenames: 
 req.redist: 

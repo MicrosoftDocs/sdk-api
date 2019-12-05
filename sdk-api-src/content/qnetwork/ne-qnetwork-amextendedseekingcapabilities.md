@@ -1,19 +1,17 @@
 ---
 UID: NE:qnetwork.__unnamed_enum_0
 title: AMExtendedSeekingCapabilities (qnetwork.h)
-
 description: The AMExtendedSeekingCapabilities enumeration contains flags that describe the extended seeking capabilities of a filter.
 old-location: dshow\amextendedseekingcapabilities.htm
 tech.root: DirectShow
 ms.assetid: f5f21303-3b5b-45e8-a4dc-6c8bc7cd8ad3
-
 ms.date: 12/05/2018
 ms.keywords: AMExtendedSeekingCapabilities, AMExtendedSeekingCapabilities enumeration [DirectShow], AMExtendedSeekingCapabilitiesEnumeration, AM_EXSEEK_BUFFERING, AM_EXSEEK_CANSCAN, AM_EXSEEK_CANSEEK, AM_EXSEEK_MARKERSEEK, AM_EXSEEK_NOSTANDARDREPAINT, AM_EXSEEK_SCANWITHOUTCLOCK, AM_EXSEEK_SENDS_VIDEOFRAMEREADY, dshow.amextendedseekingcapabilities, qnetwork/AMExtendedSeekingCapabilities, qnetwork/AM_EXSEEK_BUFFERING, qnetwork/AM_EXSEEK_CANSCAN, qnetwork/AM_EXSEEK_CANSEEK, qnetwork/AM_EXSEEK_MARKERSEEK, qnetwork/AM_EXSEEK_NOSTANDARDREPAINT, qnetwork/AM_EXSEEK_SCANWITHOUTCLOCK, qnetwork/AM_EXSEEK_SENDS_VIDEOFRAMEREADY
 ms.topic: enum
-f1_keywords: 
- - "qnetwork/AMExtendedSeekingCapabilities"
+f1_keywords:
+- qnetwork/AMExtendedSeekingCapabilities
 dev_langs:
- - c++
+- c++
 req.header: qnetwork.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - Qnetwork.h
+- Qnetwork.h
 api_name:
- - AMExtendedSeekingCapabilities
+- AMExtendedSeekingCapabilities
 targetos: Windows
 req.typenames: AMExtendedSeekingCapabilities
 req.redist: 

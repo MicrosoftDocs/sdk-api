@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.SetOutputType
 title: IMFTransform::SetOutputType (mftransform.h)
-
 description: Sets, tests, or clears the media type for an output stream on this Media Foundation transform (MFT).
 old-location: mf\imftransform_setoutputtype.htm
 tech.root: medfound
 ms.assetid: a9a1d03f-2e56-490c-885b-78c69dea8e92
-
 ms.date: 12/05/2018
 ms.keywords: IMFTransform interface [Media Foundation],SetOutputType method, IMFTransform.SetOutputType, IMFTransform::SetOutputType, SetOutputType, SetOutputType method [Media Foundation], SetOutputType method [Media Foundation],IMFTransform interface, a9a1d03f-2e56-490c-885b-78c69dea8e92, mf.imftransform_setoutputtype, mftransform/IMFTransform::SetOutputType
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.SetOutputType"
+f1_keywords:
+- mftransform/IMFTransform.SetOutputType
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.SetOutputType
+- IMFTransform.SetOutputType
 targetos: Windows
 req.typenames: 
 req.redist: 

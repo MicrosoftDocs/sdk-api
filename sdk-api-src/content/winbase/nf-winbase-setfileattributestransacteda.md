@@ -1,19 +1,17 @@
 ---
 UID: NF:winbase.SetFileAttributesTransactedA
 title: SetFileAttributesTransactedA function (winbase.h)
-
 description: Sets the attributes for a file or directory as a transacted operation.
 old-location: fs\setfileattributestransacted.htm
 tech.root: FileIO
 ms.assetid: e25e77b2-a6ad-4ce4-8589-d7ff6c4074f6
-
 ms.date: 12/05/2018
 ms.keywords: FILE_ATTRIBUTE_ARCHIVE, FILE_ATTRIBUTE_HIDDEN, FILE_ATTRIBUTE_NORMAL, FILE_ATTRIBUTE_NOT_CONTENT_INDEXED, FILE_ATTRIBUTE_OFFLINE, FILE_ATTRIBUTE_READONLY, FILE_ATTRIBUTE_SYSTEM, FILE_ATTRIBUTE_TEMPORARY, SetFileAttributesTransacted, SetFileAttributesTransacted function [Files], SetFileAttributesTransactedA, SetFileAttributesTransactedW, fs.setfileattributestransacted, winbase/SetFileAttributesTransacted, winbase/SetFileAttributesTransactedA, winbase/SetFileAttributesTransactedW
 ms.topic: function
-f1_keywords: 
- - "winbase/SetFileAttributesTransacted"
+f1_keywords:
+- winbase/SetFileAttributesTransacted
 dev_langs:
- - c++
+- c++
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
@@ -32,20 +30,20 @@ req.lib: Kernel32.lib
 req.dll: Kernel32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Kernel32.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
- - Kernel32Legacy.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
- - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
+- Kernel32.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-3.dll
+- Kernel32Legacy.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
+- API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - SetFileAttributesTransacted
- - SetFileAttributesTransactedA
- - SetFileAttributesTransactedW
+- SetFileAttributesTransacted
+- SetFileAttributesTransactedA
+- SetFileAttributesTransactedW
 targetos: Windows
 req.typenames: 
 req.redist: 

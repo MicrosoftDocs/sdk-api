@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi3if.ITAddressDeviceSpecificEvent.get_lParam1
 title: ITAddressDeviceSpecificEvent::get_lParam1 (tapi3if.h)
-
 description: The get_lParam1 method retrieves the first of three buffers specific to a given address device. The precise content and meaning of these buffers is defined by the provider.
 old-location: tapi3\itaddressdevicespecificevent_get_lparam1.htm
 tech.root: Tapi
 ms.assetid: e0cae67a-0c39-407a-b563-bef14c36f014
-
 ms.date: 12/05/2018
 ms.keywords: ITAddressDeviceSpecificEvent interface [TAPI 2.2],get_lParam1 method, ITAddressDeviceSpecificEvent.get_lParam1, ITAddressDeviceSpecificEvent::get_lParam1, _tapi3_itaddressdevicespecificevent_get_lparam1, get_lParam1, get_lParam1 method [TAPI 2.2], get_lParam1 method [TAPI 2.2],ITAddressDeviceSpecificEvent interface, tapi3.itaddressdevicespecificevent_get_lparam1, tapi3if/ITAddressDeviceSpecificEvent::get_lParam1
 ms.topic: method
-f1_keywords: 
- - "tapi3if/ITAddressDeviceSpecificEvent.get_lParam1"
+f1_keywords:
+- tapi3if/ITAddressDeviceSpecificEvent.get_lParam1
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - ITAddressDeviceSpecificEvent.get_lParam1
+- ITAddressDeviceSpecificEvent.get_lParam1
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_StrValue
 title: IAlternativeName::get_StrValue (certenroll.h)
-
 description: Retrieves a string that contains an email address, a Domain Name System (DNS) name, a URL, a registered object identifier (OID), or a user principal name (UPN).
 old-location: security\ialternativename_strvalue_property.htm
 tech.root: seccertenroll
 ms.assetid: 1d916450-4a4e-4f11-b95b-dbf9693b7cdd
-
 ms.date: 12/05/2018
 ms.keywords: IAlternativeName interface [Security],StrValue property, IAlternativeName.StrValue, IAlternativeName.get_StrValue, IAlternativeName::StrValue, IAlternativeName::get_StrValue, StrValue property [Security], StrValue property [Security],IAlternativeName interface, certenroll/IAlternativeName::StrValue, certenroll/IAlternativeName::get_StrValue, get_StrValue, security.ialternativename_strvalue_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/IAlternativeName.StrValue"
+f1_keywords:
+- certenroll/IAlternativeName.StrValue
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - IAlternativeName.StrValue
- - IAlternativeName.get_StrValue
+- IAlternativeName.StrValue
+- IAlternativeName.get_StrValue
 targetos: Windows
 req.typenames: 
 req.redist: 

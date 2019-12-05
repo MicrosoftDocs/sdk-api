@@ -1,19 +1,17 @@
 ---
 UID: NN:tapi3if.IEnumTerminal
 title: IEnumTerminal (tapi3if.h)
-
 description: The IEnumTerminal interface provides COM-standard enumeration methods for the ITTerminal interface.
 old-location: tapi3\ienumterminal.htm
 tech.root: Tapi
 ms.assetid: a364e466-1d10-402f-935d-ff2713522fed
-
 ms.date: 12/05/2018
 ms.keywords: IEnumTerminal, IEnumTerminal interface [TAPI 2.2], IEnumTerminal interface [TAPI 2.2],described, _tapi3_ienumterminal, tapi3.ienumterminal, tapi3if/IEnumTerminal
 ms.topic: interface
-f1_keywords: 
- - "tapi3if/IEnumTerminal"
+f1_keywords:
+- tapi3if/IEnumTerminal
 dev_langs:
- - c++
+- c++
 req.header: tapi3if.h
 req.include-header: Tapi3.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Uuid.lib
 req.dll: Tapi3.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Tapi3.dll
+- Tapi3.dll
 api_name:
- - IEnumTerminal
+- IEnumTerminal
 targetos: Windows
 req.typenames: 
 req.redist: 

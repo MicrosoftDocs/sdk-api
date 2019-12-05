@@ -1,19 +1,17 @@
 ---
 UID: NE:strmif.tagDVD_TIMECODE_FLAGS
 title: DVD_TIMECODE_FLAGS (strmif.h)
-
 description: Indicates the frame rate at which a DVD has been authored to play.
 old-location: dshow\dvd_timecode_flags.htm
 tech.root: DirectShow
 ms.assetid: 2dc5ce97-12a4-43a0-b897-14fea32d8efc
-
 ms.date: 12/05/2018
 ms.keywords: DVD_TC_FLAG_25fps, DVD_TC_FLAG_30fps, DVD_TC_FLAG_DropFrame, DVD_TC_FLAG_Interpolated, DVD_TIMECODE_FLAGS, DVD_TIMECODE_FLAGS , DVD_TIMECODE_FLAGS enumeration [DirectShow], DVD_TIMECODE_FLAGSEnumeration, dshow.dvd_timecode_flags, strmif/DVD_TC_FLAG_25fps, strmif/DVD_TC_FLAG_30fps, strmif/DVD_TC_FLAG_DropFrame, strmif/DVD_TC_FLAG_Interpolated, strmif/DVD_TIMECODE_FLAGS
 ms.topic: enum
-f1_keywords: 
- - "strmif/DVD_TIMECODE_FLAGS"
+f1_keywords:
+- strmif/DVD_TIMECODE_FLAGS
 dev_langs:
- - c++
+- c++
 req.header: strmif.h
 req.include-header: Dshow.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - strmif.h
+- strmif.h
 api_name:
- - DVD_TIMECODE_FLAGS
+- DVD_TIMECODE_FLAGS
 targetos: Windows
 req.typenames: DVD_TIMECODE_FLAGS
 req.redist: 

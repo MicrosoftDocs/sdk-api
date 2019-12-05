@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.SHLoadLibraryFromItem
 title: SHLoadLibraryFromItem function (shobjidl_core.h)
-
 description: Creates and loads an IShellLibrary object from a specified library definition file.
 old-location: shell\SHLoadLibraryFromItem.htm
 tech.root: shell
 ms.assetid: 9692f9d1-1504-43d0-9eb1-3759a8e2b42d
-
 ms.date: 12/05/2018
 ms.keywords: SHLoadLibraryFromItem, SHLoadLibraryFromItem function [Windows Shell], _shell_SHLoadLibraryFromItem, shell.SHLoadLibraryFromItem, shobjidl_core/SHLoadLibraryFromItem
 ms.topic: function
-f1_keywords: 
- - "shobjidl_core/SHLoadLibraryFromItem"
+f1_keywords:
+- shobjidl_core/SHLoadLibraryFromItem
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - SHLoadLibraryFromItem
+- SHLoadLibraryFromItem
 targetos: Windows
 req.typenames: 
 req.redist: 

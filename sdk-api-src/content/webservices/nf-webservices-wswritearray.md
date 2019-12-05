@@ -1,19 +1,17 @@
 ---
 UID: NF:webservices.WsWriteArray
 title: WsWriteArray function (webservices.h)
-
 description: This operation sends a series of elements to an XML Writer.
 old-location: wsw\wswritearray.htm
 tech.root: wsw
 ms.assetid: c172dc3c-0c0a-4c92-8103-465b636d0c61
-
 ms.date: 12/05/2018
 ms.keywords: WsWriteArray, WsWriteArray function [Web Services for Windows], webservices/WsWriteArray, wsw.wswritearray
 ms.topic: function
-f1_keywords: 
- - "webservices/WsWriteArray"
+f1_keywords:
+- webservices/WsWriteArray
 dev_langs:
- - c++
+- c++
 req.header: webservices.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: WebServices.lib
 req.dll: WebServices.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - WebServices.dll
+- WebServices.dll
 api_name:
- - WsWriteArray
+- WsWriteArray
 targetos: Windows
 req.typenames: 
 req.redist: 

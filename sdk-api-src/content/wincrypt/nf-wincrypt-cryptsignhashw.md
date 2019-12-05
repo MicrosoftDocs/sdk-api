@@ -1,19 +1,17 @@
 ---
 UID: NF:wincrypt.CryptSignHashW
 title: CryptSignHashW function (wincrypt.h)
-
 description: Signs data.
 old-location: security\cryptsignhash.htm
 tech.root: SecCrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
-
 ms.date: 12/05/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.topic: function
-f1_keywords: 
- - "wincrypt/CryptSignHash"
+f1_keywords:
+- wincrypt/CryptSignHash
 dev_langs:
- - c++
+- c++
 req.header: wincrypt.h
 req.include-header: 
 req.target-type: Windows
@@ -32,18 +30,18 @@ req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Advapi32.dll
- - API-MS-Win-Security-cryptoapi-l1-1-0.dll
- - cryptsp.dll
+- Advapi32.dll
+- API-MS-Win-Security-cryptoapi-l1-1-0.dll
+- cryptsp.dll
 api_name:
- - CryptSignHash
- - CryptSignHashA
- - CryptSignHashW
+- CryptSignHash
+- CryptSignHashA
+- CryptSignHashW
 targetos: Windows
 req.typenames: 
 req.redist: 

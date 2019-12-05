@@ -1,19 +1,17 @@
 ---
 UID: NF:comsvcs.IServiceActivity.BindToCurrentThread
 title: IServiceActivity::BindToCurrentThread (comsvcs.h)
-
 description: Binds the user-defined batch work to the current thread.
 old-location: cos\iserviceactivity_bindtocurrentthread.htm
 tech.root: cossdk
 ms.assetid: 3d2b57fd-1714-4fdf-859c-9fdfb341dd5d
-
 ms.date: 12/05/2018
 ms.keywords: BindToCurrentThread, BindToCurrentThread method [COM+], BindToCurrentThread method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],BindToCurrentThread method, IServiceActivity.BindToCurrentThread, IServiceActivity::BindToCurrentThread, _cos_IServiceActivity_BindToCurrentThread, comsvcs/IServiceActivity::BindToCurrentThread, cos.iserviceactivity_bindtocurrentthread
 ms.topic: method
-f1_keywords: 
- - "comsvcs/IServiceActivity.BindToCurrentThread"
+f1_keywords:
+- comsvcs/IServiceActivity.BindToCurrentThread
 dev_langs:
- - c++
+- c++
 req.header: comsvcs.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComSvcs.h
+- ComSvcs.h
 api_name:
- - IServiceActivity.BindToCurrentThread
+- IServiceActivity.BindToCurrentThread
 targetos: Windows
 req.typenames: 
 req.redist: 

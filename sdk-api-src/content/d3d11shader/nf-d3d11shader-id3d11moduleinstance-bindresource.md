@@ -1,19 +1,17 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResource
 title: ID3D11ModuleInstance::BindResource (d3d11shader.h)
-
 description: Rebinds a texture or buffer from source slot to destination slot.
 old-location: direct3d11\id3d11moduleinstance_bindresource.htm
 tech.root: direct3d11
 ms.assetid: 7EBF623B-1C04-43C5-A262-62EA125D6631
-
 ms.date: 12/05/2018
 ms.keywords: BindResource, BindResource method [Direct3D 11], BindResource method [Direct3D 11],ID3D11ModuleInstance interface, ID3D11ModuleInstance interface [Direct3D 11],BindResource method, ID3D11ModuleInstance.BindResource, ID3D11ModuleInstance::BindResource, d3d11shader/ID3D11ModuleInstance::BindResource, direct3d11.id3d11moduleinstance_bindresource
 ms.topic: method
-f1_keywords: 
- - "d3d11shader/ID3D11ModuleInstance.BindResource"
+f1_keywords:
+- d3d11shader/ID3D11ModuleInstance.BindResource
 dev_langs:
- - c++
+- c++
 req.header: d3d11shader.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: D3DCompiler.lib
 req.dll: D3DCompiler_47.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - D3DCompiler_47.dll
+- D3DCompiler_47.dll
 api_name:
- - ID3D11ModuleInstance.BindResource
+- ID3D11ModuleInstance.BindResource
 targetos: Windows
 req.typenames: 
 req.redist: 

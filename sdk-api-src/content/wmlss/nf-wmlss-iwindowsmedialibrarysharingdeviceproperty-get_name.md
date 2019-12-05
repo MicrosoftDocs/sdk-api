@@ -1,19 +1,17 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperty.get_Name
 title: IWindowsMediaLibrarySharingDeviceProperty::get_Name (wmlss.h)
-
 description: The get_Name method retrieves the name of an individual property of a media device.
 old-location: wmlss\IWMLSDevicePropertyget_Name.htm
 tech.root: WMLSS
 ms.assetid: 335e3beb-351e-40ad-b065-7058716180d3
-
 ms.date: 12/05/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperty interface [Windows Media Library Sharing Services],get_Name method, IWindowsMediaLibrarySharingDeviceProperty.get_Name, IWindowsMediaLibrarySharingDeviceProperty::get_Name, get_Name, get_Name method [Windows Media Library Sharing Services], get_Name method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperty interface, wmlss.IWMLSDevicePropertyget_Name, wmlss/IWindowsMediaLibrarySharingDeviceProperty::get_Name
 ms.topic: method
-f1_keywords: 
- - "wmlss/IWindowsMediaLibrarySharingDeviceProperty.get_Name"
+f1_keywords:
+- wmlss/IWindowsMediaLibrarySharingDeviceProperty.get_Name
 dev_langs:
- - c++
+- c++
 req.header: wmlss.h
 req.include-header: Wmlss.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: WMPMediaSharing.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - WMPMediaSharing.dll
+- WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDeviceProperty.get_Name
+- IWindowsMediaLibrarySharingDeviceProperty.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

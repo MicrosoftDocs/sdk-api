@@ -1,19 +1,17 @@
 ---
 UID: NF:winsatcominterfacei.IWinSATInitiateEvents.WinSATComplete
 title: IWinSATInitiateEvents::WinSATComplete (winsatcominterfacei.h)
-
 description: Receives notification when an assessment succeeds, fails, or is canceled.
 old-location: winsat\iwinsatinitiateevents_winsatcomplete.htm
 tech.root: WinSAT
 ms.assetid: a7bcd7e6-b8d7-4ec3-84e8-8ccbcd0b4ada
-
 ms.date: 12/05/2018
 ms.keywords: IWinSATInitiateEvents interface [WinSAT],WinSATComplete method, IWinSATInitiateEvents.WinSATComplete, IWinSATInitiateEvents::WinSATComplete, WINSAT_ERROR_ACCESS_DENIED, WINSAT_ERROR_ASSESSMENT_INTERFERENCE, WINSAT_ERROR_COMMAND_LINE_INVALID, WINSAT_ERROR_COMPLETED_ERROR, WINSAT_ERROR_WINSAT_ALREADY_RUNNING, WINSAT_ERROR_WINSAT_CANCELED, WINSAT_STATUS_COMPLETED_SUCCESS, WinSATComplete, WinSATComplete method [WinSAT], WinSATComplete method [WinSAT],IWinSATInitiateEvents interface, winsat.iwinsatinitiateevents_winsatcomplete, winsatcominterfacei/IWinSATInitiateEvents::WinSATComplete
 ms.topic: method
-f1_keywords: 
- - "winsatcominterfacei/IWinSATInitiateEvents.WinSATComplete"
+f1_keywords:
+- winsatcominterfacei/IWinSATInitiateEvents.WinSATComplete
 dev_langs:
- - c++
+- c++
 req.header: winsatcominterfacei.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Winsatapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Winsatapi.dll
+- Winsatapi.dll
 api_name:
- - IWinSATInitiateEvents.WinSATComplete
+- IWinSATInitiateEvents.WinSATComplete
 targetos: Windows
 req.typenames: 
 req.redist: 

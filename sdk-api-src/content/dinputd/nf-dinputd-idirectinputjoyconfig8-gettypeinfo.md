@@ -1,19 +1,17 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.GetTypeInfo
 title: IDirectInputJoyConfig8::GetTypeInfo (dinputd.h)
-
 description: The IDirectInputJoyConfig8::GetTypeInfo method obtains information about a joystick type.
 old-location: hid\idirectinputjoyconfig8_gettypeinfo.htm
 tech.root: hid
 ms.assetid: e850c3a4-b2dd-4de5-82e3-5bbd90a7ba15
-
 ms.date: 12/05/2018
 ms.keywords: GetTypeInfo, GetTypeInfo method [Human Input Devices], GetTypeInfo method [Human Input Devices],IDirectInputJoyConfig8 interface, IDirectInputJoyConfig8 interface [Human Input Devices],GetTypeInfo method, IDirectInputJoyConfig8.GetTypeInfo, IDirectInputJoyConfig8::GetTypeInfo, di_ref_9e378bd2-ae1a-4a66-b934-d9d5ad46cf5d.xml, dinputd/IDirectInputJoyConfig8::GetTypeInfo, hid.idirectinputjoyconfig8_gettypeinfo
 ms.topic: method
-f1_keywords: 
- - "dinputd/IDirectInputJoyConfig8.GetTypeInfo"
+f1_keywords:
+- dinputd/IDirectInputJoyConfig8.GetTypeInfo
 dev_langs:
- - c++
+- c++
 req.header: dinputd.h
 req.include-header: Dinputd.h
 req.target-type: Desktop
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dinputd.h
+- dinputd.h
 api_name:
- - IDirectInputJoyConfig8.GetTypeInfo
+- IDirectInputJoyConfig8.GetTypeInfo
 targetos: Windows
 req.typenames: 
 req.redist: 

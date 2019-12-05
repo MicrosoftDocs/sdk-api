@@ -1,19 +1,17 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.get_Actions
 title: IRemoteDesktopClient::get_Actions (rdpappcontainerclient.h)
-
 description: Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.
 old-location: termserv\iremotedesktopclient_actions.htm
 tech.root: TermServ
 ms.assetid: 54ff5568-046e-42de-9b7c-b8c8c9be815c
-
 ms.date: 12/05/2018
 ms.keywords: Actions property [Remote Desktop Services], Actions property [Remote Desktop Services],IRemoteDesktopClient interface, IRemoteDesktopClient interface [Remote Desktop Services],Actions property, IRemoteDesktopClient.Actions, IRemoteDesktopClient.get_Actions, IRemoteDesktopClient::Actions, IRemoteDesktopClient::get_Actions, get_Actions, rdpappcontainerclient/IRemoteDesktopClient::Actions, rdpappcontainerclient/IRemoteDesktopClient::get_Actions, termserv.iremotedesktopclient_actions
 ms.topic: method
-f1_keywords: 
- - "rdpappcontainerclient/IRemoteDesktopClient.Actions"
+f1_keywords:
+- rdpappcontainerclient/IRemoteDesktopClient.Actions
 dev_langs:
- - c++
+- c++
 req.header: rdpappcontainerclient.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: MsTscAx.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - MsTscAx.dll
+- MsTscAx.dll
 api_name:
- - IRemoteDesktopClient.Actions
- - IRemoteDesktopClient.get_Actions
+- IRemoteDesktopClient.Actions
+- IRemoteDesktopClient.get_Actions
 targetos: Windows
 req.typenames: 
 req.redist: 

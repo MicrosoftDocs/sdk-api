@@ -1,19 +1,17 @@
 ---
 UID: NF:wmp.IWMPEvents.DoubleClick
 title: IWMPEvents::DoubleClick (wmp.h)
-
 description: The DoubleClick event occurs when the user double-clicks a mouse button.
 old-location: wmp\iwmpevents_iwmpevents__doubleclick.htm
 tech.root: WMP
 ms.assetid: 76b1eebb-45d9-40fc-a845-24a7dac8c96c
-
 ms.date: 12/05/2018
 ms.keywords: DoubleClick, DoubleClick method [Windows Media Player], DoubleClick method [Windows Media Player],IWMPEvents interface, IWMPEvents interface [Windows Media Player],DoubleClick method, IWMPEvents.DoubleClick, IWMPEvents::DoubleClick, IWMPEventsDoubleClick, wmp.iwmpevents_iwmpevents__doubleclick, wmp/IWMPEvents::DoubleClick
 ms.topic: method
-f1_keywords: 
- - "wmp/IWMPEvents.DoubleClick"
+f1_keywords:
+- wmp/IWMPEvents.DoubleClick
 dev_langs:
- - c++
+- c++
 req.header: wmp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Wmp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - wmp.dll
+- wmp.dll
 api_name:
- - IWMPEvents.DoubleClick
+- IWMPEvents.DoubleClick
 targetos: Windows
 req.typenames: 
 req.redist: 

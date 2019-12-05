@@ -1,19 +1,17 @@
 ---
 UID: NN:shobjidl_core.IFrameworkInputPaneHandler
 title: IFrameworkInputPaneHandler (shobjidl_core.h)
-
 description: Enables an app to be notified when the input pane (the on-screen keyboard or handwriting panel) is being shown or hidden. This allows the app window to adjust its display so that no input areas (such as a text box) are obscured by the input pane.
 old-location: shell\IFrameworkInputPaneHandler.htm
 tech.root: shell
 ms.assetid: E8038442-9E96-4eee-968E-3A6BC747852D
-
 ms.date: 12/05/2018
 ms.keywords: IFrameworkInputPaneHandler, IFrameworkInputPaneHandler interface [Windows Shell], IFrameworkInputPaneHandler interface [Windows Shell],described, shell.IFrameworkInputPaneHandler, shobjidl_core/IFrameworkInputPaneHandler
 ms.topic: interface
-f1_keywords: 
- - "shobjidl_core/IFrameworkInputPaneHandler"
+f1_keywords:
+- shobjidl_core/IFrameworkInputPaneHandler
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - shobjidl_core.h
+- shobjidl_core.h
 api_name:
- - IFrameworkInputPaneHandler
+- IFrameworkInputPaneHandler
 targetos: Windows
 req.typenames: 
 req.redist: 

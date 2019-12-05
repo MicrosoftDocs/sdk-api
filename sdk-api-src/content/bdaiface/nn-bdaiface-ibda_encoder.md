@@ -1,19 +1,17 @@
 ---
 UID: NN:bdaiface.IBDA_Encoder
 title: IBDA_Encoder (bdaiface.h)
-
 description: Provides access to a device's Encoder Service.
 old-location: mstv\ibda_encoder.htm
 tech.root: mstv
 ms.assetid: 43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_Encoder, IBDA_Encoder interface [Microsoft TV Technologies], IBDA_Encoder interface [Microsoft TV Technologies],described, bdaiface/IBDA_Encoder, mstv.ibda_encoder
 ms.topic: interface
-f1_keywords: 
- - "bdaiface/IBDA_Encoder"
+f1_keywords:
+- bdaiface/IBDA_Encoder
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_Encoder
+- IBDA_Encoder
 targetos: Windows
 req.typenames: 
 req.redist: 

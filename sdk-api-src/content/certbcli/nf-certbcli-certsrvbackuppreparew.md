@@ -1,19 +1,17 @@
 ---
 UID: NF:certbcli.CertSrvBackupPrepareW
 title: CertSrvBackupPrepareW function (certbcli.h)
-
 description: Used to prepare a Certificate Services server for backup operations.
 old-location: security\certsrvbackupprepare.htm
 tech.root: SecCrypto
 ms.assetid: 21af96f8-168d-4c6c-8966-357236c0e4e6
-
 ms.date: 12/05/2018
 ms.keywords: CSBACKUP_TYPE_FULL, CSBACKUP_TYPE_LOGS_ONLY, CertSrvBackupPrepare, CertSrvBackupPrepare function [Security], CertSrvBackupPrepareW, _certsrv_certsrvbackupprepare, certbcli/CertSrvBackupPrepare, certbcli/CertSrvBackupPrepareW, security.certsrvbackupprepare
 ms.topic: function
-f1_keywords: 
- - "certbcli/CertSrvBackupPrepare"
+f1_keywords:
+- certbcli/CertSrvBackupPrepare
 dev_langs:
- - c++
+- c++
 req.header: certbcli.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certadm.lib
 req.dll: Certadm.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Certadm.dll
+- Certadm.dll
 api_name:
- - CertSrvBackupPrepare
- - CertSrvBackupPrepareW
+- CertSrvBackupPrepare
+- CertSrvBackupPrepareW
 targetos: Windows
 req.typenames: 
 req.redist: 

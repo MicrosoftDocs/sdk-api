@@ -1,19 +1,17 @@
 ---
 UID: NF:imagehlp.ImageGetDigestStream
 title: ImageGetDigestStream function (imagehlp.h)
-
 description: Retrieves the requested data from the specified image file.
 old-location: base\imagegetdigeststream.htm
 tech.root: Debug
 ms.assetid: e4560609-5b10-453f-a9a6-c5483d88cd64
-
 ms.date: 12/05/2018
 ms.keywords: CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO, CERT_PE_IMAGE_DIGEST_DEBUG_INFO, CERT_PE_IMAGE_DIGEST_RESOURCES, ImageGetDigestStream, ImageGetDigestStream function, _win32_imagegetdigeststream, base.imagegetdigeststream, imagehlp/ImageGetDigestStream
 ms.topic: function
-f1_keywords: 
- - "imagehlp/ImageGetDigestStream"
+f1_keywords:
+- imagehlp/ImageGetDigestStream
 dev_langs:
- - c++
+- c++
 req.header: imagehlp.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Imagehlp.lib
 req.dll: Imagehlp.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Imagehlp.dll
+- Imagehlp.dll
 api_name:
- - ImageGetDigestStream
+- ImageGetDigestStream
 targetos: Windows
 req.typenames: 
 req.redist: 

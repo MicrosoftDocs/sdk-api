@@ -1,19 +1,17 @@
 ---
 UID: NC:cryptxml.CryptXmlDllSignData
 title: CryptXmlDllSignData (cryptxml.h)
-
 description: Signs data.
 old-location: security\cryptxmldllsigndata.htm
 tech.root: SecCrypto
 ms.assetid: 6a159fd7-6bf2-43b7-ae7f-b4e4eb02615f
-
 ms.date: 12/05/2018
 ms.keywords: CryptXmlDllSignData, CryptXmlDllSignData callback, CryptXmlDllSignData callback function [Security], cryptxml/CryptXmlDllSignData, security.cryptxmldllsigndata
 ms.topic: callback
 f1_keywords:
 - cryptxml/CryptXmlDllSignData
 dev_langs:
- - c++
+- c++
 req.header: cryptxml.h
 req.include-header: 
 req.target-type: Windows

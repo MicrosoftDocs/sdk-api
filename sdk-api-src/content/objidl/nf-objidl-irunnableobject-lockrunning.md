@@ -1,19 +1,17 @@
 ---
 UID: NF:objidl.IRunnableObject.LockRunning
 title: IRunnableObject::LockRunning (objidl.h)
-
 description: Locks an already running object into its running state or unlocks it from its running state.
 old-location: com\irunnableobject_lockrunning.htm
 tech.root: com
 ms.assetid: ce501785-16ad-4120-abea-41e2d6ca67df
-
 ms.date: 12/05/2018
 ms.keywords: IRunnableObject interface [COM],LockRunning method, IRunnableObject.LockRunning, IRunnableObject::LockRunning, LockRunning, LockRunning method [COM], LockRunning method [COM],IRunnableObject interface, _com_irunnableobject_lockrunning, com.irunnableobject_lockrunning, objidl/IRunnableObject::LockRunning
 ms.topic: method
-f1_keywords: 
- - "objidl/IRunnableObject.LockRunning"
+f1_keywords:
+- objidl/IRunnableObject.LockRunning
 dev_langs:
- - c++
+- c++
 req.header: objidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ObjIdl.h
+- ObjIdl.h
 api_name:
- - IRunnableObject.LockRunning
+- IRunnableObject.LockRunning
 targetos: Windows
 req.typenames: 
 req.redist: 

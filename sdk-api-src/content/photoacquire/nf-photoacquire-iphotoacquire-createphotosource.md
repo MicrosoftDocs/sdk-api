@@ -1,19 +1,17 @@
 ---
 UID: NF:photoacquire.IPhotoAcquire.CreatePhotoSource
 title: IPhotoAcquire::CreatePhotoSource (photoacquire.h)
-
 description: The CreatePhotoSource method initializes an IPhotoAcquireSource object to pass to IPhotoAcquire::Acquire.
 old-location: picacq\iphotoacquire_createphotosource.htm
 tech.root: acquisition
 ms.assetid: 03dc14d4-03e8-4281-ae70-c9f2c5646694
-
 ms.date: 12/05/2018
 ms.keywords: CreatePhotoSource, CreatePhotoSource method [Picture Acquisition], CreatePhotoSource method [Picture Acquisition],IPhotoAcquire interface, IPhotoAcquire interface [Picture Acquisition],CreatePhotoSource method, IPhotoAcquire.CreatePhotoSource, IPhotoAcquire::CreatePhotoSource, IPhotoAcquireCreatePhotoSource, photoacquire/IPhotoAcquire::CreatePhotoSource, picacq.iphotoacquire_createphotosource
 ms.topic: method
-f1_keywords: 
- - "photoacquire/IPhotoAcquire.CreatePhotoSource"
+f1_keywords:
+- photoacquire/IPhotoAcquire.CreatePhotoSource
 dev_langs:
- - c++
+- c++
 req.header: photoacquire.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: PhotoAcquireUID.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - PhotoAcquireUID.lib
- - PhotoAcquireUID.dll
+- PhotoAcquireUID.lib
+- PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquire.CreatePhotoSource
+- IPhotoAcquire.CreatePhotoSource
 targetos: Windows
 req.typenames: 
 req.redist: 

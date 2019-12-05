@@ -1,19 +1,17 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.ComputeApplicationSize
 title: IApplicationDesignModeSettings::ComputeApplicationSize (shobjidl_core.h)
-
 description: Gets the size of the Windows Store app, based on the current set of spoofed settings.
 old-location: shell\IApplicationDesignModeSettings_ComputeApplicationSize.htm
 tech.root: shell
 ms.assetid: 1ac42bb8-1c24-4369-8d0d-db3ad4062501
-
 ms.date: 12/05/2018
 ms.keywords: ComputeApplicationSize, ComputeApplicationSize method [Windows Shell], ComputeApplicationSize method [Windows Shell],IApplicationDesignModeSettings interface, IApplicationDesignModeSettings interface [Windows Shell],ComputeApplicationSize method, IApplicationDesignModeSettings.ComputeApplicationSize, IApplicationDesignModeSettings::ComputeApplicationSize, shell.IApplicationDesignModeSettings_ComputeApplicationSize, shobjidl_core/IApplicationDesignModeSettings::ComputeApplicationSize
 ms.topic: method
-f1_keywords: 
- - "shobjidl_core/IApplicationDesignModeSettings.ComputeApplicationSize"
+f1_keywords:
+- shobjidl_core/IApplicationDesignModeSettings.ComputeApplicationSize
 dev_langs:
- - c++
+- c++
 req.header: shobjidl_core.h
 req.include-header: Shobjidl.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Twinapi.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Twinapi.dll
+- Twinapi.dll
 api_name:
- - IApplicationDesignModeSettings.ComputeApplicationSize
+- IApplicationDesignModeSettings.ComputeApplicationSize
 targetos: Windows
 req.typenames: 
 req.redist: 

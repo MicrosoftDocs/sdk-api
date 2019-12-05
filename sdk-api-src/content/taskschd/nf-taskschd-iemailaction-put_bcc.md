@@ -1,19 +1,17 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Bcc
 title: IEmailAction::put_Bcc (taskschd.h)
-
 description: Gets or sets the email address or addresses that you want to Bcc in the email message.
 old-location: taskschd\iemailaction_bcc.htm
 tech.root: taskschd
 ms.assetid: 7f0a4da7-d2de-433a-ab0d-79b9741aae59
-
 ms.date: 12/05/2018
 ms.keywords: Bcc property [Task Scheduler], Bcc property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Bcc property, IEmailAction.Bcc, IEmailAction.put_Bcc, IEmailAction::Bcc, IEmailAction::get_Bcc, IEmailAction::put_Bcc, put_Bcc, taskschd.iemailaction_bcc, taskschd/IEmailAction::Bcc, taskschd/IEmailAction::get_Bcc, taskschd/IEmailAction::put_Bcc
 ms.topic: method
-f1_keywords: 
- - "taskschd/IEmailAction.Bcc"
+f1_keywords:
+- taskschd/IEmailAction.Bcc
 dev_langs:
- - c++
+- c++
 req.header: taskschd.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib: Taskschd.lib
 req.dll: Taskschd.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - taskschd.dll
+- taskschd.dll
 api_name:
- - IEmailAction.Bcc
- - IEmailAction.get_Bcc
- - IEmailAction.put_Bcc
+- IEmailAction.Bcc
+- IEmailAction.get_Bcc
+- IEmailAction.put_Bcc
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NN:vds.IVdsCreatePartitionEx
 title: IVdsCreatePartitionEx (vds.h)
-
 description: Creates a partition on a basic disk.
 old-location: base\ivdscreatepartitionex.htm
 tech.root: VDS
 ms.assetid: aae89a86-35b2-45ab-83f5-9461960876c4
-
 ms.date: 12/05/2018
 ms.keywords: IVdsCreatePartitionEx, IVdsCreatePartitionEx interface [VDS], IVdsCreatePartitionEx interface [VDS],described, base.ivdscreatepartitionex, vds/IVdsCreatePartitionEx
 ms.topic: interface
-f1_keywords: 
- - "vds/IVdsCreatePartitionEx"
+f1_keywords:
+- vds/IVdsCreatePartitionEx
 dev_langs:
- - c++
+- c++
 req.header: vds.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Uuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Uuid.lib
- - Uuid.dll
+- Uuid.lib
+- Uuid.dll
 api_name:
- - IVdsCreatePartitionEx
+- IVdsCreatePartitionEx
 targetos: Windows
 req.typenames: 
 req.redist: 

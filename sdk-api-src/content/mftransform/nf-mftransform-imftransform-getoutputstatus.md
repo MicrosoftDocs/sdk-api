@@ -1,19 +1,17 @@
 ---
 UID: NF:mftransform.IMFTransform.GetOutputStatus
 title: IMFTransform::GetOutputStatus (mftransform.h)
-
 description: Queries whether the Media Foundation transform (MFT) is ready to produce output data.
 old-location: mf\imftransform_getoutputstatus.htm
 tech.root: medfound
 ms.assetid: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d
-
 ms.date: 12/05/2018
 ms.keywords: 3eb82f76-088b-4abc-9f3a-dfa5ecd1068d, GetOutputStatus, GetOutputStatus method [Media Foundation], GetOutputStatus method [Media Foundation],IMFTransform interface, IMFTransform interface [Media Foundation],GetOutputStatus method, IMFTransform.GetOutputStatus, IMFTransform::GetOutputStatus, mf.imftransform_getoutputstatus, mftransform/IMFTransform::GetOutputStatus
 ms.topic: method
-f1_keywords: 
- - "mftransform/IMFTransform.GetOutputStatus"
+f1_keywords:
+- mftransform/IMFTransform.GetOutputStatus
 dev_langs:
- - c++
+- c++
 req.header: mftransform.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Mfuuid.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - mfuuid.lib
- - mfuuid.dll
+- mfuuid.lib
+- mfuuid.dll
 api_name:
- - IMFTransform.GetOutputStatus
+- IMFTransform.GetOutputStatus
 targetos: Windows
 req.typenames: 
 req.redist: 

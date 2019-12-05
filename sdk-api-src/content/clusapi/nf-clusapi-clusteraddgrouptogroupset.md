@@ -1,19 +1,17 @@
 ---
 UID: NF:clusapi.ClusterAddGroupToGroupSet
 title: ClusterAddGroupToGroupSet function (clusapi.h)
-
 description: Adds the specified group to a groupset in the cluster.
 old-location: mscs\clusteraddgrouptogroupcollection.htm
 tech.root: MsCS
 ms.assetid: f201dfaa-d9e6-41e0-8d22-23c073b1789d
-
 ms.date: 12/05/2018
 ms.keywords: ClusterAddGroupToGroupSet, ClusterAddGroupToGroupSet function [Failover Cluster], PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET function [Failover Cluster], clusapi/ClusterAddGroupToGroupSet, clusapi/PCLUSAPI_CLUSTER_ADD_GROUP_TO_GROUP_GROUPSET, mscs.clusteraddgrouptogroupcollection
 ms.topic: function
-f1_keywords: 
- - "clusapi/ClusterAddGroupToGroupSet"
+f1_keywords:
+- clusapi/ClusterAddGroupToGroupSet
 dev_langs:
- - c++
+- c++
 req.header: clusapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: ClusAPI.lib
 req.dll: ClusAPI.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - ClusAPI.dll
+- ClusAPI.dll
 api_name:
- - ClusterAddGroupToGroupSet
+- ClusterAddGroupToGroupSet
 targetos: Windows
 req.typenames: 
 req.redist: 

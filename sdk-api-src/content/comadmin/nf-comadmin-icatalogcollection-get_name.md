@@ -1,19 +1,17 @@
 ---
 UID: NF:comadmin.ICatalogCollection.get_Name
 title: ICatalogCollection::get_Name (comadmin.h)
-
 description: Retrieves the name of the collection.
 old-location: cos\icatalogcollection_name.htm
 tech.root: cossdk
 ms.assetid: 0a90538b-a562-40f7-b7d6-16e786db0e1e
-
 ms.date: 12/05/2018
 ms.keywords: ICatalogCollection interface [COM+],Name property, ICatalogCollection.Name, ICatalogCollection.get_Name, ICatalogCollection::Name, ICatalogCollection::get_Name, Name property [COM+], Name property [COM+],ICatalogCollection interface, _cos_ICatalogCollection_get_Name, comadmin/ICatalogCollection::Name, comadmin/ICatalogCollection::get_Name, cos.icatalogcollection_name, get_Name
 ms.topic: method
-f1_keywords: 
- - "comadmin/ICatalogCollection.Name"
+f1_keywords:
+- comadmin/ICatalogCollection.Name
 dev_langs:
- - c++
+- c++
 req.header: comadmin.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - ComAdmin.h
+- ComAdmin.h
 api_name:
- - ICatalogCollection.Name
- - ICatalogCollection.get_Name
+- ICatalogCollection.Name
+- ICatalogCollection.get_Name
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:bdaiface.IBDA_FrequencyFilter.put_Bandwidth
 title: IBDA_FrequencyFilter::put_Bandwidth (bdaiface.h)
-
 description: The put_Bandwidth method specifies the bandwidth.
 old-location: mstv\ibda_frequencyfilter_put_bandwidth.htm
 tech.root: mstv
 ms.assetid: 8e44a5b4-c3ea-4afa-aab3-4f6732a3bd82
-
 ms.date: 12/05/2018
 ms.keywords: IBDA_FrequencyFilter interface [Microsoft TV Technologies],put_Bandwidth method, IBDA_FrequencyFilter.put_Bandwidth, IBDA_FrequencyFilter::put_Bandwidth, IBDA_FrequencyFilterput_Bandwidth, bdaiface/IBDA_FrequencyFilter::put_Bandwidth, mstv.ibda_frequencyfilter_put_bandwidth, put_Bandwidth, put_Bandwidth method [Microsoft TV Technologies], put_Bandwidth method [Microsoft TV Technologies],IBDA_FrequencyFilter interface
 ms.topic: method
-f1_keywords: 
- - "bdaiface/IBDA_FrequencyFilter.put_Bandwidth"
+f1_keywords:
+- bdaiface/IBDA_FrequencyFilter.put_Bandwidth
 dev_langs:
- - c++
+- c++
 req.header: bdaiface.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - bdaiface.h
+- bdaiface.h
 api_name:
- - IBDA_FrequencyFilter.put_Bandwidth
+- IBDA_FrequencyFilter.put_Bandwidth
 targetos: Windows
 req.typenames: 
 req.redist: 

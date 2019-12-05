@@ -1,19 +1,17 @@
 ---
 UID: NF:oleauto.VarI4FromI4
 title: VarI4FromI4 macro (oleauto.h)
-
 description: Converts an int value to a long value.
 old-location: automat\vari4fromint.htm
 tech.root: automat
 ms.assetid: d2c387eb-02b9-4c11-b577-4c65ba8d0be9
-
 ms.date: 12/05/2018
 ms.keywords: VarI4FromI4, VarI4FromInt, VarI4FromInt function [Automation], _oa96_VarI4FromInt, automat.vari4fromint, oleauto/VarI4FromInt
 ms.topic: macro
-f1_keywords: 
- - "oleauto/VarI4FromInt"
+f1_keywords:
+- oleauto/VarI4FromInt
 dev_langs:
- - c++
+- c++
 req.header: oleauto.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: OleAut32.lib
 req.dll: OleAut32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - OleAut32.dll
+- OleAut32.dll
 api_name:
- - VarI4FromInt
+- VarI4FromInt
 targetos: Windows
 req.typenames: 
 req.redist: 

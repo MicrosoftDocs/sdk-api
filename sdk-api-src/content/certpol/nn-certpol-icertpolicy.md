@@ -1,19 +1,17 @@
 ---
 UID: NN:certpol.ICertPolicy
 title: ICertPolicy (certpol.h)
-
 description: Provides communications between the Certificate Services server engine and the policy module.
 old-location: security\icertpolicy.htm
 tech.root: SecCrypto
 ms.assetid: 14031490-be8e-47f9-8c66-ae27f7d3599c
-
 ms.date: 12/05/2018
 ms.keywords: ICertPolicy, ICertPolicy interface [Security], ICertPolicy interface [Security],described, _certsrv_icertpolicy, certpol/ICertPolicy, security.icertpolicy
 ms.topic: interface
-f1_keywords: 
- - "certpol/ICertPolicy"
+f1_keywords:
+- certpol/ICertPolicy
 dev_langs:
- - c++
+- c++
 req.header: certpol.h
 req.include-header: Certsrv.h
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib: Certidl.lib
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Certidl.lib
- - Certidl.dll
+- Certidl.lib
+- Certidl.dll
 api_name:
- - ICertPolicy
+- ICertPolicy
 targetos: Windows
 req.typenames: 
 req.redist: 

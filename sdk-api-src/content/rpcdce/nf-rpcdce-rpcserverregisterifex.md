@@ -1,19 +1,17 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIfEx
 title: RpcServerRegisterIfEx function (rpcdce.h)
-
 description: The RpcServerRegisterIfEx function registers an interface with the RPC run-time library.
 old-location: rpc\rpcserverregisterifex.htm
 tech.root: Rpc
 ms.assetid: 1666bc0a-72bf-40da-b054-c10b477c4367
-
 ms.date: 12/05/2018
 ms.keywords: RpcServerRegisterIfEx, RpcServerRegisterIfEx function [RPC], _rpc_rpcserverregisterifex, rpc.rpcserverregisterifex, rpcdce/RpcServerRegisterIfEx
 ms.topic: function
-f1_keywords: 
- - "rpcdce/RpcServerRegisterIfEx"
+f1_keywords:
+- rpcdce/RpcServerRegisterIfEx
 dev_langs:
- - c++
+- c++
 req.header: rpcdce.h
 req.include-header: Rpc.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Rpcrt4.lib
 req.dll: Rpcrt4.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Rpcrt4.dll
+- Rpcrt4.dll
 api_name:
- - RpcServerRegisterIfEx
+- RpcServerRegisterIfEx
 targetos: Windows
 req.typenames: 
 req.redist: 

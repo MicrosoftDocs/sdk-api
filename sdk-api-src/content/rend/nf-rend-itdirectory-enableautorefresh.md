@@ -1,19 +1,17 @@
 ---
 UID: NF:rend.ITDirectory.EnableAutoRefresh
 title: ITDirectory::EnableAutoRefresh (rend.h)
-
 description: The EnableAutoRefresh method enables auto refresh for directory objects created after it is called. Only applies to dynamic servers.
 old-location: tapi3\itdirectory_enableautorefresh.htm
 tech.root: Tapi
 ms.assetid: f4d55d7c-54b4-44ee-b8f2-f4dd51bf823d
-
 ms.date: 12/05/2018
 ms.keywords: EnableAutoRefresh, EnableAutoRefresh method [TAPI 2.2], EnableAutoRefresh method [TAPI 2.2],ITDirectory interface, ITDirectory interface [TAPI 2.2],EnableAutoRefresh method, ITDirectory.EnableAutoRefresh, ITDirectory::EnableAutoRefresh, _tapi3_itdirectory_enableautorefresh, rend/ITDirectory::EnableAutoRefresh, tapi3.itdirectory_enableautorefresh
 ms.topic: method
-f1_keywords: 
- - "rend/ITDirectory.EnableAutoRefresh"
+f1_keywords:
+- rend/ITDirectory.EnableAutoRefresh
 dev_langs:
- - c++
+- c++
 req.header: rend.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Rend.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Rend.dll
+- Rend.dll
 api_name:
- - ITDirectory.EnableAutoRefresh
+- ITDirectory.EnableAutoRefresh
 targetos: Windows
 req.typenames: 
 req.redist: 

@@ -1,19 +1,17 @@
 ---
 UID: NF:netcon.INetSharingManager.get_EnumEveryConnection
 title: INetSharingManager::get_EnumEveryConnection (netcon.h)
-
 description: The get_EnumEveryConnection method retrieves an enumeration interface for all the connections in the connection folder.
 old-location: ics\inetsharingmanager_get_enumeveryconnection.htm
 tech.root: ics
 ms.assetid: f200ffbf-3ce1-4c1b-b4c6-28a8784b5cb8
-
 ms.date: 12/05/2018
 ms.keywords: INetSharingManager interface [ICS/ICF],get_EnumEveryConnection method, INetSharingManager.get_EnumEveryConnection, INetSharingManager::get_EnumEveryConnection, _ics_inetsharingmanager_get_enumeveryconnection, get_EnumEveryConnection, get_EnumEveryConnection method [ICS/ICF], get_EnumEveryConnection method [ICS/ICF],INetSharingManager interface, ics.inetsharingmanager_get_enumeveryconnection, netcon/INetSharingManager::get_EnumEveryConnection
 ms.topic: method
-f1_keywords: 
- - "netcon/INetSharingManager.get_EnumEveryConnection"
+f1_keywords:
+- netcon/INetSharingManager.get_EnumEveryConnection
 dev_langs:
- - c++
+- c++
 req.header: netcon.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Hnetcfg.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Hnetcfg.dll
+- Hnetcfg.dll
 api_name:
- - INetSharingManager.get_EnumEveryConnection
+- INetSharingManager.get_EnumEveryConnection
 targetos: Windows
 req.typenames: 
 req.redist: 

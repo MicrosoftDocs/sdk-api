@@ -1,19 +1,17 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnPosRectChange
 title: IOleInPlaceSite::OnPosRectChange (oleidl.h)
-
 description: Notifies the container that the object extents have changed.
 old-location: com\ioleinplacesite_onposrectchange.htm
 tech.root: com
 ms.assetid: a12d6a2a-6581-41e3-b33d-74af5d772e71
-
 ms.date: 12/05/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnPosRectChange method, IOleInPlaceSite.OnPosRectChange, IOleInPlaceSite::OnPosRectChange, IOleInPlaceSiteWindowless.OnPosRectChange, OnPosRectChange, OnPosRectChange method [COM], OnPosRectChange method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onposrectchange, com.ioleinplacesite_onposrectchange, oleidl/IOleInPlaceSite::OnPosRectChange
 ms.topic: method
-f1_keywords: 
- - "oleidl/IOleInPlaceSite.OnPosRectChange"
+f1_keywords:
+- oleidl/IOleInPlaceSite.OnPosRectChange
 dev_langs:
- - c++
+- c++
 req.header: oleidl.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - OleIdl.h
- - browsewm.dll
+- OleIdl.h
+- browsewm.dll
 api_name:
- - IOleInPlaceSite.OnPosRectChange
- - IOleInPlaceSiteWindowless.OnPosRectChange
+- IOleInPlaceSite.OnPosRectChange
+- IOleInPlaceSiteWindowless.OnPosRectChange
 targetos: Windows
 req.typenames: 
 req.redist: 

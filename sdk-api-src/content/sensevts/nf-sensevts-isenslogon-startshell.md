@@ -1,19 +1,17 @@
 ---
 UID: NF:sensevts.ISensLogon.StartShell
 title: ISensLogon::StartShell (sensevts.h)
-
 description: The StartShell method notifies an application that the shell is started.
 old-location: sens\isenslogon_startshell.htm
 tech.root: Sens
 ms.assetid: 0bde3bda-c0ed-4303-b6c1-dd667e9b7504
-
 ms.date: 12/05/2018
 ms.keywords: ISensLogon interface [SENS],StartShell method, ISensLogon.StartShell, ISensLogon::StartShell, StartShell, StartShell method [SENS], StartShell method [SENS],ISensLogon interface, _zaw_isenslogon_startshell, sens.isenslogon_startshell, sensevts/ISensLogon::StartShell, syncmgr.isenslogon_startshell
 ms.topic: method
-f1_keywords: 
- - "sensevts/ISensLogon.StartShell"
+f1_keywords:
+- sensevts/ISensLogon.StartShell
 dev_langs:
- - c++
+- c++
 req.header: sensevts.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: Sens.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Sens.dll
+- Sens.dll
 api_name:
- - ISensLogon.StartShell
+- ISensLogon.StartShell
 targetos: Windows
 req.typenames: 
 req.redist: 

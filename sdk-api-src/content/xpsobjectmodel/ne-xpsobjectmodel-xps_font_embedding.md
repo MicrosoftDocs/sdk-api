@@ -1,19 +1,17 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0013
 title: XPS_FONT_EMBEDDING (xpsobjectmodel.h)
-
 description: Describes the option for embedding a font.
 old-location: xps\xps_font_embedding.htm
 tech.root: printdocs
 ms.assetid: 9701b1c2-a909-410e-b05b-76bbd5bc8b44
-
 ms.date: 12/05/2018
 ms.keywords: XPS_FONT_EMBEDDING, XPS_FONT_EMBEDDING enumeration [XPS Documents and Packaging], XPS_FONT_EMBEDDING_NORMAL, XPS_FONT_EMBEDDING_OBFUSCATED, XPS_FONT_EMBEDDING_RESTRICTED, XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED, xps.xps_font_embedding, xpsobjectmodel/XPS_FONT_EMBEDDING, xpsobjectmodel/XPS_FONT_EMBEDDING_NORMAL, xpsobjectmodel/XPS_FONT_EMBEDDING_OBFUSCATED, xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED, xpsobjectmodel/XPS_FONT_EMBEDDING_RESTRICTED_UNOBFUSCATED
 ms.topic: enum
-f1_keywords: 
- - "xpsobjectmodel/XPS_FONT_EMBEDDING"
+f1_keywords:
+- xpsobjectmodel/XPS_FONT_EMBEDDING
 dev_langs:
- - c++
+- c++
 req.header: xpsobjectmodel.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - xpsobjectmodel.h
+- xpsobjectmodel.h
 api_name:
- - XPS_FONT_EMBEDDING
+- XPS_FONT_EMBEDDING
 targetos: Windows
 req.typenames: XPS_FONT_EMBEDDING
 req.redist: 

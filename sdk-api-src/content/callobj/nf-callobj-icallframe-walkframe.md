@@ -1,19 +1,17 @@
 ---
 UID: NF:callobj.ICallFrame.WalkFrame
 title: ICallFrame::WalkFrame (callobj.h)
-
 description: Searches for interface pointers that are reachable from [in], [in, out], or [out] parameters of the frame.
 old-location: com\icallframe_walkframe.htm
 tech.root: com
 ms.assetid: 64e4967b-6b54-4416-ae10-04987f13d39a
-
 ms.date: 12/05/2018
 ms.keywords: ICallFrame interface [COM],WalkFrame method, ICallFrame.WalkFrame, ICallFrame::WalkFrame, WalkFrame, WalkFrame method [COM], WalkFrame method [COM],ICallFrame interface, _com_icallframe_walkframe, callobj/ICallFrame::WalkFrame, com.icallframe_walkframe
 ms.topic: method
-f1_keywords: 
- - "callobj/ICallFrame.WalkFrame"
+f1_keywords:
+- callobj/ICallFrame.WalkFrame
 dev_langs:
- - c++
+- c++
 req.header: callobj.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Callobj.h
+- Callobj.h
 api_name:
- - ICallFrame.WalkFrame
+- ICallFrame.WalkFrame
 targetos: Windows
 req.typenames: 
 req.redist: 

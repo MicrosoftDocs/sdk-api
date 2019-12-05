@@ -3,14 +3,13 @@ UID: NF:gdipluspath.GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFa
 title: GraphicsPath::AddString
 description: The GraphicsPath::AddString method adds the outline of a string to this path.
 ms.assetid: 1bed1611-addc-464c-a7c9-64810e922a5e
-
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddString
 ms.topic: language-reference
-f1_keywords: 
- - "gdipluspath/GraphicsPath::AddString"
+f1_keywords:
+- gdipluspath/GraphicsPath::AddString
 dev_langs:
- - c++
+- c++
 targetos: Windows
 req.assembly: 
 req.construct-type: function
@@ -32,13 +31,13 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
- - COM
+- COM
 api_location:
- - gdipluspath.h
+- gdipluspath.h
 api_name:
- - GraphicsPath::AddString
+- GraphicsPath::AddString
 ---
 
 # GraphicsPath::AddString

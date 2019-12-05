@@ -1,19 +1,17 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.SetEnvironmentProperty
 title: ITsSbResourcePluginStore::SetEnvironmentProperty (sbtsv.h)
-
 description: Sets a property of an environment.
 old-location: termserv\itssbresourcepluginstore_setenvironmentproperty.htm
 tech.root: TermServ
 ms.assetid: a120ff15-2d78-4bca-b470-0eb03933a4d9
-
 ms.date: 12/05/2018
 ms.keywords: ITsSbResourcePluginStore interface [Remote Desktop Services],SetEnvironmentProperty method, ITsSbResourcePluginStore.SetEnvironmentProperty, ITsSbResourcePluginStore::SetEnvironmentProperty, ITsSbResourcePluginStoreEx interface [Remote Desktop Services],SetEnvironmentProperty method, ITsSbResourcePluginStoreEx::SetEnvironmentProperty, SetEnvironmentProperty, SetEnvironmentProperty method [Remote Desktop Services], SetEnvironmentProperty method [Remote Desktop Services],ITsSbResourcePluginStore interface, SetEnvironmentProperty method [Remote Desktop Services],ITsSbResourcePluginStoreEx interface, sbtsv/ITsSbResourcePluginStore::SetEnvironmentProperty, sbtsv/ITsSbResourcePluginStoreEx::SetEnvironmentProperty, termserv.itssbresourcepluginstore_setenvironmentproperty
 ms.topic: method
-f1_keywords: 
- - "sbtsv/ITsSbResourcePluginStore.SetEnvironmentProperty"
+f1_keywords:
+- sbtsv/ITsSbResourcePluginStore.SetEnvironmentProperty
 dev_langs:
- - c++
+- c++
 req.header: sbtsv.h
 req.include-header: 
 req.target-type: Windows
@@ -32,15 +30,15 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - sbtsv.h
+- sbtsv.h
 api_name:
- - ITsSbResourcePluginStore.SetEnvironmentProperty
- - ITsSbResourcePluginStoreEx.SetEnvironmentProperty
+- ITsSbResourcePluginStore.SetEnvironmentProperty
+- ITsSbResourcePluginStoreEx.SetEnvironmentProperty
 targetos: Windows
 req.typenames: 
 req.redist: 

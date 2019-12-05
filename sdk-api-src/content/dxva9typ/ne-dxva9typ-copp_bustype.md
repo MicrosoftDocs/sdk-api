@@ -1,19 +1,17 @@
 ---
 UID: NE:dxva9typ._COPP_BusType
 title: COPP_BusType (dxva9typ.h)
-
 description: Specifies the type of I/O bus used by the graphics adapter.
 old-location: dshow\copp_bustype.htm
 tech.root: DirectShow
 ms.assetid: eb3666bd-1987-419f-8d48-0dbca147bf7e
-
 ms.date: 12/05/2018
 ms.keywords: COPP_BusType, COPP_BusType , COPP_BusType enumeration [DirectShow], COPP_BusTypeEnumeration, COPP_BusType_AGP, COPP_BusType_ForceDWORD, COPP_BusType_Integrated, COPP_BusType_PCI, COPP_BusType_PCIExpress, COPP_BusType_PCIX, COPP_BusType_Unknown, dshow.copp_bustype, dxva9typ/COPP_BusType, dxva9typ/COPP_BusType_AGP, dxva9typ/COPP_BusType_ForceDWORD, dxva9typ/COPP_BusType_Integrated, dxva9typ/COPP_BusType_PCI, dxva9typ/COPP_BusType_PCIExpress, dxva9typ/COPP_BusType_PCIX, dxva9typ/COPP_BusType_Unknown
 ms.topic: enum
-f1_keywords: 
- - "dxva9typ/COPP_BusType"
+f1_keywords:
+- dxva9typ/COPP_BusType
 dev_langs:
- - c++
+- c++
 req.header: dxva9typ.h
 req.include-header: Dxva.h
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - HeaderDef
+- HeaderDef
 api_location:
- - dxva9typ.h
+- dxva9typ.h
 api_name:
- - COPP_BusType
+- COPP_BusType
 targetos: Windows
 req.typenames: COPP_BusType
 req.redist: 

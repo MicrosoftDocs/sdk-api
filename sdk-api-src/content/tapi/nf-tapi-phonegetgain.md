@@ -1,19 +1,17 @@
 ---
 UID: NF:tapi.phoneGetGain
 title: phoneGetGain function (tapi.h)
-
 description: The phoneGetGain function returns the gain setting of the microphone of the specified phone's hookswitch device.
 old-location: tapi2\phonegetgain.htm
 tech.root: Tapi
 ms.assetid: ea6ba2f0-ff79-41b8-9165-bb250077b2dc
-
 ms.date: 12/05/2018
-ms.keywords: "_tapi2_phonegetgain, phoneGetGain, phoneGetGain function [TAPI 2.2], tapi/phoneGetGain, tapi2.phonegetgain"
+ms.keywords: _tapi2_phonegetgain, phoneGetGain, phoneGetGain function [TAPI 2.2], tapi/phoneGetGain, tapi2.phonegetgain
 ms.topic: function
-f1_keywords: 
- - "tapi/phoneGetGain"
+f1_keywords:
+- tapi/phoneGetGain
 dev_langs:
- - c++
+- c++
 req.header: tapi.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Tapi32.lib
 req.dll: Tapi32.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - Tapi32.dll
+- Tapi32.dll
 api_name:
- - phoneGetGain
+- phoneGetGain
 targetos: Windows
 req.typenames: 
 req.redist: 

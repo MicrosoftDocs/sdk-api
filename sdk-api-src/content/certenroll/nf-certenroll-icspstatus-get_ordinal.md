@@ -1,19 +1,17 @@
 ---
 UID: NF:certenroll.ICspStatus.get_Ordinal
 title: ICspStatus::get_Ordinal (certenroll.h)
-
 description: Specifies or retrieves the position of the ICspStatus object in the ICspStatuses collection.
 old-location: security\icspstatus_ordinal_property.htm
 tech.root: seccertenroll
 ms.assetid: e392e28f-084e-43a7-8a5e-14bea0ed8d58
-
 ms.date: 12/05/2018
 ms.keywords: ICspStatus interface [Security],Ordinal property, ICspStatus.Ordinal, ICspStatus.get_Ordinal, ICspStatus::Ordinal, ICspStatus::get_Ordinal, ICspStatus::put_Ordinal, Ordinal property [Security], Ordinal property [Security],ICspStatus interface, certenroll/ICspStatus::Ordinal, certenroll/ICspStatus::get_Ordinal, certenroll/ICspStatus::put_Ordinal, get_Ordinal, security.icspstatus_ordinal_property
 ms.topic: method
-f1_keywords: 
- - "certenroll/ICspStatus.Ordinal"
+f1_keywords:
+- certenroll/ICspStatus.Ordinal
 dev_langs:
- - c++
+- c++
 req.header: certenroll.h
 req.include-header: 
 req.target-type: Windows
@@ -32,16 +30,16 @@ req.lib:
 req.dll: CertEnroll.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - CertEnroll.dll
+- CertEnroll.dll
 api_name:
- - ICspStatus.Ordinal
- - ICspStatus.get_Ordinal
- - ICspStatus.put_Ordinal
+- ICspStatus.Ordinal
+- ICspStatus.get_Ordinal
+- ICspStatus.put_Ordinal
 targetos: Windows
 req.typenames: 
 req.redist: 

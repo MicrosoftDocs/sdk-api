@@ -1,19 +1,17 @@
 ---
 UID: NF:winstring.WindowsSubstring
 title: WindowsSubstring function (winstring.h)
-
 description: Retrieves a substring from the specified string. The substring starts at the specified character position.
 old-location: winrt\windowssubstring.htm
 tech.root: WinRT
 ms.assetid: 15DB3383-D7EC-4047-A1B8-90F8A47428EE
-
 ms.date: 12/05/2018
 ms.keywords: WindowsSubstring, WindowsSubstring function [Windows Runtime], winrt.windowssubstring, winstring/WindowsSubstring
 ms.topic: function
-f1_keywords: 
- - "winstring/WindowsSubstring"
+f1_keywords:
+- winstring/WindowsSubstring
 dev_langs:
- - c++
+- c++
 req.header: winstring.h
 req.include-header: 
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - DllExport
+- DllExport
 api_location:
- - winstring.h
- - API-MS-Win-Core-WinRT-String-l1-1-0.dll
- - ComBase.dll
- - API-MS-Win-Core-WinRT-String-L1-1-1.dll
+- winstring.h
+- API-MS-Win-Core-WinRT-String-l1-1-0.dll
+- ComBase.dll
+- API-MS-Win-Core-WinRT-String-L1-1-1.dll
 api_name:
- - WindowsSubstring
+- WindowsSubstring
 targetos: Windows
 req.typenames: 
 req.redist: 

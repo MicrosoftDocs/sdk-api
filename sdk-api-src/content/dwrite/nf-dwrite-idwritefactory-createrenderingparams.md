@@ -1,19 +1,17 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateRenderingParams
 title: IDWriteFactory::CreateRenderingParams (dwrite.h)
-
 description: Creates a rendering parameters object with default settings for the primary monitor. Different monitors may have different rendering parameters, for more information see the How to Add Support for Multiple Monitors topic.
 old-location: directwrite\IDWriteFactory_CreateRenderingParams.htm
 tech.root: DirectWrite
 ms.assetid: f5e3e609-62ee-4a0a-aed1-591be852590e
-
 ms.date: 12/05/2018
 ms.keywords: CreateRenderingParams, CreateRenderingParams method [Direct Write], CreateRenderingParams method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateRenderingParams method, IDWriteFactory.CreateRenderingParams, IDWriteFactory::CreateRenderingParams, directwrite.IDWriteFactory_CreateRenderingParams, dwrite/IDWriteFactory::CreateRenderingParams
 ms.topic: method
-f1_keywords: 
- - "dwrite/IDWriteFactory.CreateRenderingParams"
+f1_keywords:
+- dwrite/IDWriteFactory.CreateRenderingParams
 dev_langs:
- - c++
+- c++
 req.header: dwrite.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib: Dwrite.lib
 req.dll: Dwrite.dll
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - dwrite.dll
+- dwrite.dll
 api_name:
- - IDWriteFactory.CreateRenderingParams
+- IDWriteFactory.CreateRenderingParams
 targetos: Windows
 req.typenames: 
 req.redist: 

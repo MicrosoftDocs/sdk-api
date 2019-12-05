@@ -1,19 +1,17 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.GetCurrentStreamTime
 title: IMediaStreamFilter::GetCurrentStreamTime (amstream.h)
-
 description: Note  This interface is deprecated. New applications should not use it. The GetCurrentStreamTime method retrieves the current stream time.
 old-location: dshow\imediastreamfilter_getcurrentstreamtime.htm
 tech.root: DirectShow
 ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155
-
 ms.date: 12/05/2018
 ms.keywords: GetCurrentStreamTime, GetCurrentStreamTime method [DirectShow], GetCurrentStreamTime method [DirectShow],IMediaStreamFilter interface, IMediaStreamFilter interface [DirectShow],GetCurrentStreamTime method, IMediaStreamFilter.GetCurrentStreamTime, IMediaStreamFilter::GetCurrentStreamTime, IMediaStreamFilterGetCurrentStreamTime, amstream/IMediaStreamFilter::GetCurrentStreamTime, dshow.imediastreamfilter_getcurrentstreamtime
 ms.topic: method
-f1_keywords: 
- - "amstream/IMediaStreamFilter.GetCurrentStreamTime"
+f1_keywords:
+- amstream/IMediaStreamFilter.GetCurrentStreamTime
 dev_langs:
- - c++
+- c++
 req.header: amstream.h
 req.include-header: 
 req.target-type: Windows
@@ -32,14 +30,14 @@ req.lib:
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - amstream.h
+- amstream.h
 api_name:
- - IMediaStreamFilter.GetCurrentStreamTime
+- IMediaStreamFilter.GetCurrentStreamTime
 targetos: Windows
 req.typenames: 
 req.redist: 

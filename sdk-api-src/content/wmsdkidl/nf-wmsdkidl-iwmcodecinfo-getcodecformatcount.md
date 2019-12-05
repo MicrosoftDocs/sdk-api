@@ -1,19 +1,17 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo.GetCodecFormatCount
 title: IWMCodecInfo::GetCodecFormatCount (wmsdkidl.h)
-
 description: The GetCodecFormatCount method retrieves the number of formats supported by the specified codec. Each codec format is a stream configuration that is valid for use with the codec.
 old-location: wmformat\iwmcodecinfo_getcodecformatcount.htm
 tech.root: wmformat
 ms.assetid: b93bfb01-4179-4a0b-bca0-92b1a9a8e605
-
 ms.date: 12/05/2018
 ms.keywords: GetCodecFormatCount, GetCodecFormatCount method [windows Media Format], GetCodecFormatCount method [windows Media Format],IWMCodecInfo interface, IWMCodecInfo interface [windows Media Format],GetCodecFormatCount method, IWMCodecInfo.GetCodecFormatCount, IWMCodecInfo::GetCodecFormatCount, IWMCodecInfoGetCodecFormatCount, wmformat.iwmcodecinfo_getcodecformatcount, wmsdkidl/IWMCodecInfo::GetCodecFormatCount
 ms.topic: method
-f1_keywords: 
- - "wmsdkidl/IWMCodecInfo.GetCodecFormatCount"
+f1_keywords:
+- wmsdkidl/IWMCodecInfo.GetCodecFormatCount
 dev_langs:
- - c++
+- c++
 req.header: wmsdkidl.h
 req.include-header: Wmsdk.h
 req.target-type: Windows
@@ -32,17 +30,17 @@ req.lib: Wmvcore.lib; WMStubDRM.lib (if you use DRM)
 req.dll: 
 req.irql: 
 topic_type:
- - APIRef
- - kbSyntax
+- APIRef
+- kbSyntax
 api_type:
- - COM
+- COM
 api_location:
- - Wmvcore.lib
- - Wmvcore.dll
- - WMStubDRM.lib
- - WMStubDRM.dll
+- Wmvcore.lib
+- Wmvcore.dll
+- WMStubDRM.lib
+- WMStubDRM.dll
 api_name:
- - IWMCodecInfo.GetCodecFormatCount
+- IWMCodecInfo.GetCodecFormatCount
 targetos: Windows
 req.typenames: 
 req.redist: 

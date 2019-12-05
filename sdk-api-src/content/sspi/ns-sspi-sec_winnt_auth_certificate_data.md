@@ -1,19 +1,17 @@
 ---
 UID: NS:sspi._SEC_WINNT_AUTH_CERTIFICATE_DATA
 title: SEC_WINNT_AUTH_CERTIFICATE_DATA (sspi.h)
-
 description: Specifies serialized certificate information.
 old-location: security\sec_winnt_auth_certificate_data.htm
 tech.root: SecAuthN
 ms.assetid: 08dc5062-2925-4ec2-aef3-c7ff1cba9544
-
 ms.date: 12/05/2018
 ms.keywords: '*PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA, PSEC_WINNT_AUTH_CERTIFICATE_DATA structure pointer [Security], SEC_WINNT_AUTH_CERTIFICATE_DATA, SEC_WINNT_AUTH_CERTIFICATE_DATA structure [Security], security.sec_winnt_auth_certificate_data, sspi/PSEC_WINNT_AUTH_CERTIFICATE_DATA, sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA'
 ms.topic: struct
 f1_keywords:
 - sspi/SEC_WINNT_AUTH_CERTIFICATE_DATA
 dev_langs:
- - c++
+- c++
 req.header: sspi.h
 req.include-header: 
 req.target-type: Windows
